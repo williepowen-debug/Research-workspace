@@ -3,6 +3,8 @@
 
 *How stress moves through the Florida system to regional bank balance sheets.*
 
+Last real data refresh: 2026-10-29 (coral-1029pm — added the federal disaster-cost-shift pathway below with today's state; the earlier pathways are mechanism text dated in place, last reviewed 2026-07-21; live levels → STATUS.md).
+
 ---
 
 ## Primary Pathway: "The Coral Bleaching"
@@ -432,4 +434,22 @@ BANK COLLATERAL + HOA/ASSOC LOAN STRESS
 
 **Tripwire:** Ch.7 per-capita in M.D./S.D. Fla above ~230/100k = household-stress channel broadens; synchronized bank NCO/reserve build = bank transmission.
 **Source:** AOUSC F-2 packet via WALTER SIG-W-20260619-008, delivered 2026-06-19.
+
+---
+
+## Fiscal Pathway: Federal Disaster-Cost Shift → State Reserves → Counties (ADDED 2026-10-29; commission DOCKET L784)
+
+```
+Federal posture: states carry more of disaster cost (POLITICO 10/20, PRESS-ORIGINAL;
+  President's FEMA Review Council report 5/7/26, PRIMARY)
+  → fewer declarations / no 100% cost-share enhancements (administrative, available now)
+  → (needs Congress) PA cost-share floor 75% → 50%; household aid (IA) narrowed to uninhabitable homes
+  → state Emergency Preparedness & Response Fund refilled less by FEMA reimbursements
+  → county local match grows; fiscally constrained Panhandle counties first
+  → stacks with Amendment 3 (property-tax, ~−$4.9B FY27-28 local revenue if it passes, 11/3)
+```
+
+**Does NOT touch:** Citizens or FHCF claims-paying (FEMA pays no insured loss). FHCF Oct 2026: $22.26B vs $17B; 2027-28 $24.13B absent a covered event.
+**State 10/29:** first live test = Isaias, **DR-4955-FL approved 10/27 — PA A–G in all 15 requested counties, IA in none of 8, HM not designated, cost share unpublished** (OpenFEMA 10/29 18:54Z; no Federal Register notice). ⚠️ The IA gap is not evidence of the posture: FEMA's ordinary factors predict the same result when uninsured home damage is small (insured FL ~$582M at 10/15).
+**Speed:** policy-paced (Hamilton: changes "in the next six months", 10/20). **Status:** fiscal amplifier on the cost stack, NOT a bank-bridge leg. **Watch:** DR-4955 FR notice (cost share), any IA amendment, 11/3 ballot (Amendment 3; HJR 5019 BSF cap 10%→25%), weekly FEMA FR notices to ~4/20/27. Full exposure table → `research/2026-10-21_L784_fema-cost-shift-florida.md` §§ 3, 7, 8.
 

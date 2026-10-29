@@ -1,4 +1,6 @@
 # CORAL Master Log (ML)
+
+> 🧊 **FROZEN 2026-10-29 — not maintained; STATUS is canonical, do not cite rows as current.** Founding-research log (last edit 2026-06-19); dated observations since then live in `workbook/KB.tsv` (ML-CORAL-### rows). Historical — values are as-of their dates.
 ## Chronological Observations — Florida Real Estate Stress
 
 *Most recent entries at top. Format: [DATE] [SOURCE] Observation | Implication*

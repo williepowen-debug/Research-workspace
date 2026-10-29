@@ -30,3 +30,7 @@ FL/US ratio (M.D.+S.D. all chapters): 1.205× (3/31/26) → **1.231×** (6/30/26
 ⭐ **Why the 11/15 grade does not wait on either:** on every basis above, FL filings are growing ~+21% YoY, ~9pp faster than the US, and the FL/US ratio is widening. Under any candidate reading of "fades", criterion 5 reads **NOT MET** today. The defects matter for the *tripwire date*, not for the direction.
 
 **Next data:** 12 months to 9/30/2026 — no official calendar; expect late Oct–Nov 2026 (the 9/30/25 table posted 11/19–24/2025). Watch `/2026/09/30/bankruptcy-filings/f-2` from ~10/20.
+
+## Reading — 12 months to 2026-09-30 (pulled 2026-10-29, coral-1029pm)
+
+M.D.+S.D. all chapters **225.9/100k, +21.3% YoY** (48,397); US 50+DC 179.9, +11.5%; FL/US **1.256×**. Criterion-5 leg A: prior-four YoY max +21.9% (3/31/26) ⇒ 0.6pp below ⇒ not met. Run with `.venv/bin/python3` (system python lacks openpyxl); Census CSVs re-downloaded for the run and not committed. 3-month F-2.3 for 9/30 not fetched (HTTP 503). Next: 12 months to 12/31/2026, ~late Jan–Feb 2027.

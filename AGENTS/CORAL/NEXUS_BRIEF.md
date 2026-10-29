@@ -1,11 +1,21 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3: REGINALD 10/28 — every read 8-K cell HOLDS at BKU/SSB/AMTB/SBCF; aggregate PROVISIONAL to the 10-Qs ~11/14). Supply-side MSI leg **🟠 since 9/13**; **reading #11 (Parcl data date 10/27, first on the CURRENT series per WQ-475 A) 4-of-5 > 6.00, Cape Coral 5.89 ⇒ re-fire fails, no rule applies.** ⚠️ The current Parcl series revises trailing days between builds (10/20 read Cape Coral 5.88 on 10/21, 5.93 on 10/28) — the first build carrying a data date governs; #10 stands. **Re-fire + level guard (WQ-241, 9/28): re-fire = all five > 6.00, stand-down = same metro < 5.90, 5.90–6.00 policy buffer, ≥10-day persistence.** ⭐ **9/28: most new data cuts AGAINST acute statewide housing distress; the one measured channel pointing WITH the thesis is bankruptcy (+21% YoY, 1.23× US, widening).**
+**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3: REGINALD 10/28 — every read 8-K cell HOLDS at BKU/SSB/AMTB/SBCF; aggregate PROVISIONAL to the 10-Qs ~11/14). Supply-side MSI leg **🟠 since 9/13**; **reading #11 (Parcl data date 10/27, first on the CURRENT series per WQ-475 A) 4-of-5 > 6.00, Cape Coral 5.89 ⇒ re-fire fails, no rule applies.** ⚠️ The current Parcl series revises trailing days between builds (10/20 read Cape Coral 5.88 on 10/21, 5.93 on 10/28) — the first build carrying a data date governs; #10 stands. **Re-fire + level guard (WQ-241, 9/28): re-fire = all five > 6.00, stand-down = same metro < 5.90, 5.90–6.00 policy buffer, ≥10-day persistence.** ⭐ **9/28→10/29: most new data cuts AGAINST acute statewide housing distress; the one measured channel pointing WITH the thesis is bankruptcy (+21.3% YoY to 9/30, 1.256× US, still widening).**
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-10-29 00:16 ET (Thu, coral-1029, PROME prome-92 Tier-1 wake on due rows L784 + GATE-CORAL-MSI-01) · **STATUS commit:** rides the same commit as this brief (`brief_pin_check`; prior STATUS commit `fab5ea780`, prior brief commit `c81370260`) · **Refresh:** 10/29 block added above; the 10/21 reading-#10 block rotated out (verbatim in git history at `c81370260`). *(Prior: 2026-10-21 23:1x ET.)*
+**As of:** 2026-10-29 15:03 ET (Thu, coral-1029pm, PROME prome-5c catch-up, Will 14:52 ET) · **STATUS commit:** rides the same commit as this brief (`brief_pin_check`; prior STATUS + brief commit `5e85abbed`) · **Refresh:** 10/29 pm block added above the 10/29 am block; the 10/21 L784 block rotated out (verbatim in git history at `5e85abbed`). *(Prior: 2026-10-29 00:16 ET.)*
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## ⭐ 2026-10-29 pm — L784 PEER CELLS CLOSED · BANKRUPTCY TO 9/30 · CITIZENS 9/30 · FMHPI REVISED · KING TIDE (no colour moves; evidence `STATUS_DETAIL.md` § Y; L784 file § 8)
+
+| # | Item (dated, tiered) | For whom · so what |
+|---|---|---|
+| 1 | ⭐ **Bankruptcy, 12 mo to 9/30/26 (AOUSC F-2, P1):** M.D.+S.D. **225.9/100k, +21.3% YoY**; US 179.9, +11.5%; FL/US **1.256×** (6/30 1.231×). Criterion-5 leg A: 0.6pp below prior-four max ⇒ **not fading** | CARL, REGINALD — household-strain canary still accelerating relative to the US |
+| 2 | **L784 peer cells:** AEOLUS ACKED the carry split; satellite cuts = NOAA GeoXO, **no FL $ before 2032**. SHADE: **FHCF $0 · Citizens $0** at Delaware Life + Athene (YE2025 Schedule D, P1 via SHADE); FL munis <0.1% of GA; market-wide holders UNKNOWN. DR-4955 unchanged (PA 15/15, IA 0, HM 0; no FR notice, 14:5x ET) | PROME, AEOLUS, SHADE, LIQUID — remains for 11/03: cost share, IA, ballot |
+| 3 | **Citizens 9/30 month-end 254,836 (P1)** ≈ −1,145 ex-round; ⚠️ **weekly 216,577 at 10/23 (−38,259) — mechanism UNVERIFIED** (October takeout round would fit; not found) | SHADE, AEOLUS, MARCO — do not read the 10/23 drop as flight or as depopulation until the 10/31 month-end |
+| 4 | **FMHPI FL revised (P1):** Jul +1.68% → **+0.74%**; Aug **+1.08%** YoY SA (SF only, conforming) | HOMER, MARCO — constant-quality SF still positive, weaker than carried |
+| 5 | **King tide 10/25–29:** AEOLUS's gauges (Lake Worth record) — CORAL impact read: NWS coastal-flood warnings live (Keys, NE FL), advisories SE FL; **no declaration or damage tally found** | AEOLUS — descriptive coastal datum, not an insured-loss event |
 
 ## ⭐ 2026-10-29 — FEMA APPROVED FLORIDA'S ISAIAS DR (PA only) · FHCF OCTOBER $22.26B · MSI #11 (no colour moves; evidence `STATUS_DETAIL.md` § X; L784 file § 7)
 
@@ -16,16 +26,6 @@
 | 3 | **MSI-01 reading #11 (Parcl data date 10/27, P1):** Tampa 7.27 · Punta Gorda 6.27 · North Port 6.30 · Cape Coral **5.89** · Lakeland 6.27 ⇒ 4-of-5, re-fire fails, leg 🟠. Cape Coral ≤ 6.00 every day 10/16→10/27 | REGINALD, HOMER, RED — supply-side leg only; ⛔ not a Florida all-clear |
 | 4 | **GSE financing channel (ACTIVE_DECISIONS row 7):** waits on FL Realtors **October** (release **Mon 11/16**, first full month) — condo vs SF FINANCED closed units | HOMER, REGINALD, CARL — no read before 11/16 |
 | 5 | **MARCO correction applied:** "MIA is the clean tell" WITHDRAWN (MIA also carried Spirit); one number = MARCO's MIA Sep −1.82% YoY, trigger MET, mechanism CONFOUNDED | NEXUS — check your own demand premise |
-
-## ⭐ 2026-10-21 (late) — L784 FEMA COST SHIFT AND FLORIDA + MSI BASIS RULED (no colour moves; file `research/2026-10-21_L784_fema-cost-shift-florida.md`, evidence `STATUS_DETAIL.md` § W)
-
-| # | Item (dated, tiered) | For whom · so what |
-|---|---|---|
-| 1 | **No FEMA letter exists in public** (search 10/21 22:50 ET: fema.gov, Federal Register, state EM, Congress). POLITICO 10/20 **read** = Hamilton's NEMA remarks on a recording + internal 10/15 memo (PRESS-ORIGINAL): "Every state must have the appropriate financial reserves", changes "in the next six months". Written blueprint = **FEMA Review Council report 5/7/26 (P1)**: PA per-capita $1.94 → $2.99; PA share "up to 75%, 50% minimum" — below the Stafford 75% floor ⇒ needs Congress | PROME, AEOLUS, CARL, LIQUID — posture real, mechanism mostly not yet law |
-| 2 | **FL state can absorb, first-dollar account cannot:** reserves **$16.2B FY26-27** (GR $11.0B · BSF $4.99B at cap · **EPR Fund $163.1M at 9/1**; LRFO 2026, P1). 2024 FL season federal $4.63B (PA $2.59B, IHP $1.81B; OpenFEMA). Admin-path shift (no 100% enhancements) ≤ $0.65B; 50% floor +$0.86B per 2024-type season | CARL (household aid loss), REGINALD (muni/county tail), LIQUID |
-| 3 | **Citizens and FHCF: $0 direct** — FEMA pays no insured loss. Citizens ~$9.9B claims-paying vs $5.0B 1-in-100 PML; FHCF $21.43B vs $17B, **2027-28 $23.09B** absent a covered event (FHCF May 2026, P1). Isaias inside Citizens' ~$0.84B retention and below FHCF's $11.93B industry retention | SHADE, AEOLUS — do not read the cost shift as an insurer-capacity hit |
-| 4 | ⭐ **Live test: FL's Isaias DR request (PA 15 / IA 8 counties, ~10/15) pending; still EM-3655 only (OpenFEMA 10/22 02:55Z).** OIR 46,509 claims / ~$582M at 10/15 (PRESS-relayed). "$237M sought" = headline only, basis UNKNOWN; if PA, 5.7× the $41.8M indicator ⇒ a denial = posture, not threshold. **Hard check 10/30** | PROME, AEOLUS (cites), NEXUS — first dated FL evidence either way |
-| 5 | **MSI-01 basis RULED (WQ-475 A, Will 10/21 22:46 ET):** 9/13 stand-down STANDS, leg 🟠; current series from reading #11 (10/29) | RED, REGINALD — the leg's history is not reopened |
 
 ## VIEW
 
@@ -47,7 +47,7 @@
 
 | To | Signal | Priority | Mechanism in recipient's domain |
 |----|--------|----------|---------------------------------|
-| CARL | FL bankruptcy 217.1/100k, +21.2% YoY, 1.23× US and widening (instrument live, next table ~late Oct–Nov) | 🟠 | FL household cash-flow squeeze broadening beyond real estate |
+| CARL | FL bankruptcy **225.9/100k, +21.3% YoY to 9/30/26, 1.256× US and widening** (AOUSC F-2 read 10/29; next table ~late Jan) | 🟠 | FL household cash-flow squeeze broadening beyond real estate |
 | REGINALD | Rail UNCHANGED; **Isaias Panhandle deposit footprint = Gulf Coast regionals (TRMK/HWC/SFBS), not the FL watchlist** (§ T4); Citizens drop takeout-driven | 🟡 | No change to FL-bank convergence input until Q3; storm commentary from SFBS 10/19 / HWC 10/20 is yours to read |
 | MARCO | ✅ Reconcile CLOSED 10/10 — MARCO adopted Citizens takeout-driven + months supply 7.7/4.3 (VERIFIED at MARCO STATUS 10/15) | 🟡 | One number each; nothing open |
 | NEXUS | Geography read: statewide firming vs SW/Central-FL MSI at highs — the stress is localized, not statewide | 🟠 | Synthesis should not treat FL as uniformly improving or uniformly breaking |
@@ -57,9 +57,9 @@
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
 | Will (via PROME) | ✅ nothing pending — WQ-241 (MSI re-fire/level guard) and WQ-321/322 (bankruptcy basis; level trigger retired) all RULED 2026-09-28 | — | Letters installed prospectively; next Parcl stamp is graded on the amended letter |
-| REGINALD | Q3 FL-bank read-through | ~late Oct | ≥2 synchronized ⇒ bank rail MET |
+| REGINALD | Q3 FL-bank frame: every read 8-K cell HOLDS (10/28); final at the 10-Qs (none filed at 10/29) | ~11/14 | ≥2-of-4 TRANSMITS ⇒ bank rail MET |
 | MARCO | Tourism/migration refresh; **FL–Canada air seats winter 25-26 −17.67% (BTS T-100, capacity not passengers) are MARCO's (KB-MARCO-IVF-44)** — CORAL carries no seat figure | ongoing | Snowbird-$ leg of the winter 2026-27 window |
-| CREED | Cycle 4 (Sep DQ print ~10/1) | ~10/1 | Zeros stay counter-evidence |
+| CREED | Next Trepp cycle (Oct DQ) | ~early Nov | Zeros stay counter-evidence |
 
 ## NEXT DECISION POINT
 
@@ -71,12 +71,12 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| Thu 10/22 · Fri 10/23 | AMTB Q3 · REGINALD rail grade (BKU/SSB/AMTB) | Frozen frame ≥2-of-4 TRANSMITS ⇒ packet CORAL+PROME |
-| Thu 10/29 | MSI-01 reading #11 | On the basis Will rules (OQ §A2); all five > 6.00 starts a re-fire clock |
-| ~mid-Oct | Citizens 9/30 month-end (not posted 10/9) | Read EX-ROUND; binding suspended from 10/7 |
-| ~mid-Oct → Nov | OIR Isaias claims data call | Compare with Sally/Ivan by development day |
+| daily → 11/03 | Federal Register DR-4955 notice · any IA/HM amendment | Cost share (75% flat vs enhanced) — L784 due 11/03 |
+| ~11/4 → by 11/5 | MSI-01 reading #12 (next Parcl build) | All five > 6.00 starts a re-fire clock; Cape Coral 5.89 at #11 |
+| ~mid-Nov | Citizens 10/31 month-end | Explains the 10/23 weekly −38,259 (takeout vs other) |
+| ~mid-Oct → Nov | OIR Isaias claims at the primary (~55,000 at 10/25, PRESS) | Compare with Sally/Ivan by development day |
 | Mon 11/16 | FL Realtors October | First FULL month for the GSE financed-units read (condo vs SF) |
-| ~late Oct | Q3 FL-bank prints · AOUSC F-2 to 9/30 | Bank rail; bankruptcy level/growth reported (level trigger retired 9/28, WQ-322) |
+| ~11/14 | Q3 FL-bank 10-Qs (BKU, SSB, SBCF, AMTB) | REGINALD's frame goes final; CORAL greps condo/association disclosure |
 | Nov 3 / Nov 15 | Ballot No. 3 / falsify grade | 60% threshold; pre-registered decision rule |
 | ~Nov–Dec | FLDOE Survey 2 (Oct-26 enrollment) | Same-basis statewide read; VX-CORAL-ENRL-01 — confounded proxy, not domestic out-migration |
 | Dec 11 | NFIP authorization | Lapse = FEMA stops writing |

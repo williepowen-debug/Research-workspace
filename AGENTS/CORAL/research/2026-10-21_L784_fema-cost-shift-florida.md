@@ -98,3 +98,25 @@ Rows above stay as written on 10/21 (the record of what was known then). This se
 **Net for the commission question (before the 2027 season):** the first Florida test came back as an approval on the public side. The state budget, Citizens and FHCF cells are unchanged or stronger (FHCF +$0.83B); the open piece is household aid, and the dated items left are the cost-share notice, any IA amendment, and the 11/3 ballot. No trade, threshold, gate or grade change.
 
 **PENDING cells (§ 4), status 10/29:** **PENDING-AEOLUS** (CNN 10/19 satellites + carry-split ack) and **PENDING-SHADE** (FHCF/Citizens/FL-muni bond holders) — both 10/21 packets sit unconsumed in those desks' inboxes; neither desk has committed since 10/21. Owed by AEOLUS and SHADE respectively. CORAL↔AEOLUS: AEOLUS KB-AEO-210's "no DR" is superseded by DR-4955-FL (CORAL-carried); a one-line packet went to AEOLUS so both desks cite one value.
+
+## 8. Update 2026-10-29 afternoon (Thu, ~15:0x ET) — PENDING cells closed; what remains for 11/03 (CORAL session coral-1029pm, PROME prome-5c catch-up assignment)
+
+Rows above stay as written (record of what was known then). This section closes § 4's PENDING cells and re-checks § 7's open items. Evidence detail → `STATUS_DETAIL.md` § Y.
+
+| Item | Result 10/29 pm | Tier | Moves |
+|---|---|---|---|
+| **PENDING-AEOLUS — carry split** | **ACKED as written, no disagreement** (AEOLUS packet 07:43 ET 10/29): FL OIR insured loss + FL declaration state = CORAL's; industry modelled range **$1–4.5bn** stays AEOLUS's (no new estimate after 10/16); AEOLUS records DR-4955-FL at KB-AEO-219, superseding KB-210 "no DR" | owner packet | § 4 rows 1–3 → ONE number each, no divergence |
+| **PENDING-AEOLUS — CNN 10/19 satellites** | Programme = **NOAA GeoXO** (not JPSS/DMSP): satellites **6 → 4**, instruments **5 → 2**, lifecycle **$19.6B → $13B**; possible no-spare gap ~2032. **No forecast-skill figure exists** in GAO-26-107739 or CNN. 2026–27 operational fleet unchanged (AEOLUS KB-AEO-226) | PRIMARY (GAO, via AEOLUS) | Satellite line: **no Florida dollar figure is supportable before 2032** — closed for the 2027-season window |
+| **PENDING-SHADE — post-event bond holders** | Two PE-owned life insurers, statutory Schedule D-1-1 at **12/31/2025**: **FHCF bonds $0 · Citizens bonds $0** at both; FL municipal lines **$9.20M** (Delaware Life / Group 1001; Miami-Dade GO, seaport, Broward airport, St Johns IDA) and **$22.91M** (Athene / Apollo; Broward airport) — well under 0.1% of each general account; Athene also holds Space Florida notes $97.3M and Orlando Health revenue bonds $24.7M outside the muni lines (SHADE packet 06:03 ET 10/29; `AGENTS/SHADE/research/L781_RATIO_ENCODE_AND_FIRST_READINGS_2026-10-29.md` §5) | PRIMARY (filer statements, via SHADE); "$0" = SEARCH-NOT-FOUND on parsed text, no CUSIP match | § 3 row 6 holder leg: **no evidence this insurer class is a natural buyer of post-event FL paper; market-wide holder base stays UNKNOWN** (mutual funds, banks, P&C insurers are outside SHADE's perimeter) |
+| **DR-4955-FL re-check** | OpenFEMA rundate 2026-10-29T18:54Z: 15 rows, `lastRefresh` **2026-10-29T18:06Z** (records touched today) but program flags **unchanged**: PA 15/15 · IA 0 · IH 0 · HM 0. Federal Register: `"FEMA-4955-DR"` = **0 documents**; no FEMA item on today's public-inspection list (123 documents) at 14:5x ET | PRIMARY | Cost share still UNKNOWN; no IA or HM amendment yet |
+| **Isaias FL claims** | **~55,000 claims at 10/25** (Santa Rosa >26,000, Escambia ~17,000); $ still the 10/15 **$581.98M** (OIR via Beinsure, PRESS-relayed; OIR page not read) | PRESS-relayed OIR | § 4 row 1 count re-based; $ unchanged |
+| **"$237M" request basis** | Florida Phoenix 10/19 headline "state seeks $237M from FEMA" — body still not read (403 history) | PRESS headline | stays UNKNOWN |
+
+**What remains for the 11/03 due date (DOCKET L784):**
+1. **Federal Register DR-4955 notice** → cost share (75% flat vs enhanced) and any IA/HM amendment. Not published at 14:5x ET 10/29; check daily (FR API + public-inspection list) to 11/03.
+2. **IA outcome** → an IA amendment, or a denial letter (if denied, the state's 30-day appeal window under 44 CFR 206.46 runs to ~11/26 — INFERRED, letter unread). Without one by 11/03, record "IA not granted, reason unpublished".
+3. **11/3 ballot** (Amendment 3; HJR 5019 BSF cap 10%→25%) → results certified ~11/4, so the 11/03 deliverable can only carry them as "pending, certified ~11/4"; rows 6 and 8 close after.
+4. **OIR Isaias page at the primary** (the $ figure is PRESS-relayed and frozen at 10/15).
+5. Everything else in the commission is answered: state budget (rows 1–3), Citizens (row 4), FHCF (row 5, October report), satellites (closed), bond holders (answered for SHADE's perimeter; market-wide UNKNOWN by design).
+
+**Net (unchanged from § 7):** the first Florida test came back as an approval on the public side; Citizens and FHCF are unaffected by FEMA by construction and FHCF is stronger; the open pieces are household aid, the cost share and the ballot. No trade, threshold, gate or grade change.

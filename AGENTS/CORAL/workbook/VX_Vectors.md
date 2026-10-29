@@ -3,6 +3,8 @@
 
 *Structured tracking of quantitative indicators. Update values as new data arrives.*
 
+Last real data refresh: 2026-10-29 (coral-1029pm — rows re-read today at the primary: Citizens PIF (9/30 month-end + 10/23 weekly), VX-CORAL-BKCY-01 (AOUSC F-2 12 mo to 9/30/26), coastal king-tide row. Every other row carries its own as-of date and was NOT re-read today; STATUS.md is canonical for current state.)
+
 ---
 
 ## Condo Crisis Metrics
@@ -53,13 +55,13 @@
 
 | Metric | Current | Prior | Δ | Threshold | Status |
 |--------|---------|-------|---|-----------|--------|
-| Citizens TOTAL PIF (canonical, scope-resolved 7/21) | **278,246 (Jun 30 2026)** = 273,684 personal + 4,562 commercial; Jul-17 snapshot 278,219 (plateau) | 392,689 (Jan 31 2026); 1.42M (2023 peak) | −29% H1-26; −80% vs peak | Depopulation success; next assumption round 8/18 | 🟢 |
+| Citizens TOTAL PIF (canonical, scope-resolved 7/21; **re-read 10/29**) | **254,836 (Sep 30 2026 month-end, excludes takeouts; run 10/5)** = personal 250,845 (PR-M 196,317 · PR-W 54,528) + commercial 3,991 (CR-M 511 · CR-W 1,128 · CNR-M 742 · CNR-W 1,610). ⭐ **Weekly headline 216,577 as of 10/23** (citizensfla.com/news) = −38,259 vs 9/30 — mechanism UNVERIFIED (an October takeout round would fit the 8/18 + 9/15 pattern; no October round found at the primary; binding suspended since 10/7 also removes new writes) | 266,231 (Aug 31); 278,246 (Jun 30); 392,689 (Jan 31 2026); 1.42M (2023 peak) | Sep −11,395 m/m; ex-9/15-round (10,250 total = 10,210 personal + 40 commercial) ≈ **−1,145** | Depopulation; organic exit still slow | 🟢 |
 | Citizens market position | No longer FL's largest property insurer (surpassed late 2025) | largest (peak era) | — | insurer-of-last-resort target | 🟢 |
 | OIR Enhanced Monitoring | 14 companies (Feb-2026, not re-pulled 7/21) | 17 (mid-2024) | −3 | 🟡 16 / 🟠 18 / 🔴 20 | 🟡 |
 | 2025-26 Insolvencies | 0 (re-confirmed 7/21: none found 2026; 2021-23 wave over) | 5+ (2022-23) | — | Watch for any | 🟢 |
 
-*Source: Citizens policies-in-force reports (PRIMARY, citizensfla.com); OIR. KB ML-CORAL-035.*
-*Last Updated: 2026-07-21*
+*Source: Citizens policies-in-force reports (PRIMARY, citizensfla.com — 20260930 Detail by Product Line, run 10/5/26; /news weekly headline read 14:5x ET 10/29); OIR. KB ML-CORAL-035, ML-CORAL-126.*
+*Last Updated: 2026-10-29 (PIF row only; OIR rows not re-read)*
 
 ### Pricing & Litigation
 
@@ -232,6 +234,8 @@
 
 *Leading indicators: USF monthly bulletins (belt biomass), NOAA SIR map. Landfall severity highly variable (winds/Loop Current) — a large offshore belt ≠ guaranteed beaching (2023/2024 lesson). Tourism visitor-flow impact → MARCO; CORAL owns the coastal-real-estate amenity/collateral piece. Detail → `sources/Sargassum_2026_FL_Briefing.md`.*
 *Source: Will-provided briefing 2026-06-18 (USF/NOAA/FAU/Jin 2025). Last Updated: 2026-06-19.*
+
+**Coastal flooding without a storm — king tide 10/25–10/29 (added 2026-10-29; DESCRIPTIVE, no threshold):** gauge levels are **AEOLUS's figures** (one number — CORAL cites, never re-derives): Lake Worth Pier record monthly max 10/27; Key West and Virginia Key #3 on record; NWS MAJOR at four Atlantic gauges (AEOLUS packet 10/29 00:24 ET, CO-OPS preliminary). CORAL's leg = impact: **NWS products live at 14:54 ET 10/29 (api.weather.gov, PRIMARY):** Coastal Flood Warnings — Keys (to 10/30 05:00), Duval/Clay/Putnam/St. Johns/Flagler (to 10/31 05:00); Advisories — Palm Beach, Broward, Miami-Dade (to 10/30 20:00), Treasure Coast/Brevard/Volusia (to 10/31). **No local emergency declaration and no damage tally found** (two web searches, 10/29); NFIP/Citizens event-level claims are not publicly observable. ⚠️ Absence in a search ≠ no damage. Why it matters to CORAL: it is the SE-FL condo coast, and it is water at hurricane-class levels with no hurricane — a coastal-amenity and flood-insurance-pricing datum, not an insured-loss event (KB ML-CORAL-127).
 ---
 
 ## Upstream Collateral / Consumer Canaries
@@ -295,11 +299,11 @@
 
 | Metric | Current | Threshold | Status |
 |--------|---------|-----------|--------|
-| District volume rank | M.D. Fla #2 / S.D. Fla #6 (12mo ended 2026-03-31) | true but population-weighted | 🟡 |
-| Per-capita filing rate *(REPORTED, no trigger)* | **M.D.+S.D. all chapters 217.1/100k (12 mo to 6/30/26); US 176.3; FL/US 1.231×** — coverage: AOUSC F-2 all chapters, business+nonbusiness, Middle+Southern districts, 44-county Census V2025 denominator (`tools/bkcy/`). *(History: 6/20 read "FL ~190/100k" = statewide nonbusiness.)* | ~~🟠 >230/100k Ch.7 in FLM/FLS / 🔴 >260 sustained~~ ⛔ **LEVEL TRIGGER RETIRED 2026-09-28 (Will-ruled WQ-322, option E, given in the CORAL session)** — label/anchor basis mismatch, derivation undocumented; not replaced | — |
-| YoY acceleration | **M.D.+S.D. all chapters +21.2% YoY (12 mo to 6/30/26; US +12.3%)** *(6/20 read: +22.2% statewide nonbusiness)*; consumer-led, business ~5-6% of volume | 🟠 >20% sustained / 🔴 >30% + bank NCO move — **thresholds UNCHANGED, and NOT validated by WQ-322 (9/28).** ⚠️ A growth warning alone is not proof of broad household stress or bank-loss transmission | 🟠 *(status carried, not re-graded)* |
+| District volume rank | M.D. Fla #2 / S.D. Fla #6 (12 mo ended **2026-09-30**; unchanged from 3/31) | true but population-weighted | 🟡 |
+| Per-capita filing rate *(REPORTED, no trigger)* | **M.D.+S.D. all chapters 225.9/100k (12 mo to 9/30/26; 48,397 filings); US 179.9; FL/US 1.256×** (6/30/26: 217.1 / 176.3 / 1.231×) — coverage: AOUSC F-2 all chapters, business+nonbusiness, Middle+Southern districts, 44-county Census V2025 denominator (`tools/bkcy/`). *(History: 6/20 read "FL ~190/100k" = statewide nonbusiness.)* | ~~🟠 >230/100k Ch.7 in FLM/FLS / 🔴 >260 sustained~~ ⛔ **LEVEL TRIGGER RETIRED 2026-09-28 (Will-ruled WQ-322, option E, given in the CORAL session)** — label/anchor basis mismatch, derivation undocumented; not replaced | — |
+| YoY acceleration | **M.D.+S.D. all chapters +21.3% YoY (12 mo to 9/30/26; US +11.5%)** — prior four tables +19.0 / +20.0 / +21.9 / +21.2 ⇒ criterion-5 leg A (≥5pp below prior-four max 21.9, two consecutive tables): **0.6pp below ⇒ NOT fading**; 6/30 read +21.2% (US +12.3%) *(6/20 read: +22.2% statewide nonbusiness)*; consumer-led, business ~5-6% of volume | 🟠 >20% sustained / 🔴 >30% + bank NCO move — **thresholds UNCHANGED, and NOT validated by WQ-322 (9/28).** ⚠️ A growth warning alone is not proof of broad household stress or bank-loss transmission | 🟠 *(status carried, not re-graded)* |
 
-*Source: AOUSC F-2 / WALTER SIG-W-20260619-008, delivered 2026-06-19; instrument `tools/bkcy/` from 2026-09-28. Last updated: 2026-09-28 (level trigger retired, WQ-322).*
+*Source: AOUSC F-2 / WALTER SIG-W-20260619-008, delivered 2026-06-19; instrument `tools/bkcy/` from 2026-09-28. Last updated: 2026-10-29 (AOUSC F-2 9/30/26 table read via `tools/bkcy/build_bkcy.py`, `.venv` python; KB ML-CORAL-125). Previously 2026-09-28 (level trigger retired, WQ-322).*
 
 ### VX-CORAL-ENRL-01 — FL Public-School Enrollment (confounded demand proxy) — NEW 2026-09-28 (Will: "something I would want to continue tracking")
 

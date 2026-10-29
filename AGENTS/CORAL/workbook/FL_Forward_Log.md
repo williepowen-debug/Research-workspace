@@ -1,4 +1,6 @@
 # CORAL Forward Log (FL)
+
+> 🧊 **FROZEN 2026-10-29 — not maintained; `CALENDAR.md` is the live forward calendar and STATUS is canonical for state; do not cite rows as current.** Last substantive edit 2026-07-23; every live dated catalyst since then has been carried in `CALENDAR.md` only, so this file duplicated it and drifted (frozen under root CLAUDE.md § Data Hygiene, option (a), coral-1029pm).
 ## Dated Events & Catalysts — Florida Real Estate
 
 *Chronological by expected date. Update as dates confirm/pass. Passed events → Archive section at bottom (compacted 2026-07-21 full-refresh session; pre-July detail was carried inline since Feb).*
