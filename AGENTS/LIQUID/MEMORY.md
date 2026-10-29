@@ -2,14 +2,16 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-29T14:51–15:0x-04:00 (PROME prome-5c catch-up, Will 14:52 ET; Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-10-29T14:51–16:55-04:00 (PROME prome-5c catch-up + WQ-545 + Will-approved follow-ups, Will 14:52 ET; Claude Code / Opus 5.5)
 
 - **WQ-535 A encoded:** ruled FIRE legs 3/4 letter transcribed byte-identical (scripted compare vs the PROME ruling record) into `workbook/FUNDING_SEIZURE_GATE_SCOPED.md`; old leg 3/4 text and the "FIRE UNGRADEABLE" instructions replaced, not annotated (KB-LIQ-079, REFERENCE_TABLES, CATALYSTS/CALENDAR). L261 closes on the commit.
 - **WQ-534 B:** swap-line script + letter bannered SHELVED — WITHHELD; no code change (selftest rc 0); re-open only on a live European dollar-funding event. L568 RESOLVED.
 - **Data (first-published 10/28):** HY 314, IG 86, BB 184, B 318, CCC 1,307; SOFR99−IORB +12 [10/28, cal-excluded]; DTCC 5Y 10/28 Meta 108–115, ORCL 269–288, CRWV 956–995. XCCC page 403 (line not refreshed).
 - **Gates:** all five unchanged (HY-REKILL 0-of-2; 069 2-of-2, L1/L4 NOT FIRED; 076 waits W2 10/29 ~16:15 / W1 10/30; 079 NOT ARMED; 072 QUIET). Review dates now 11/05 (069/076/079).
 - **Drain:** 8 top-level + 8 WALTER logged and moved; one reply to HANS (re-open trigger for the shelved swap-line).
-- **NEXT:** grade 076 W2 (as-of 10/21) and W1 (as-of 10/27); ~11/2 October HY issuance; 11/4 buyback end; 11/13 BDC card.
+- **WQ-545 (Will 15:34 "ok go", PROME commission):** energy cluster vs credit → energy shock, no measured credit transmission at 10/28 (HY 340→314 [10/22→10/28] while Brent/OVX high; VIX 19.45→16.91; only joint day 10/22). T3 dry-run partial corr +0.678. Premise fix: TTF €100, settle unestablished. Packet `8b9d82f6e`/`b76ac27f4`; my first stamp was narrative (~15:40 vs 15:36 clock), corrected.
+- **Will-approved 16:49:** 076 W2 G5L10 −1,861 [as-of 10/21] ⇒ window MET 2-of-3, same un-reset episode, no second write-up (59th-lowest of 616). DTCC probe batch-row filter + selftest 4/4; KB-LIQ-150 (batch rows; upfront direction unsigned ⇒ NRG/Vistra conversions not citable). NextEra 64→66bp flat. Addendum `c95e7e846`, PROME consumed.
+- **NEXT (Fri 10/30):** 076 W1 as-of 10/27 (CFTC ~15:30 ET); WQ-545 call on the 10/29 FRED cells (~16:15 ET): transmission = HY ≥324 + BB ≥189 + VIX up; coincidence = HY ≤314, BB/CCC flat or tighter. Then ~11/2 October HY issuance; 11/4 buyback end; 11/05 reviews; 11/13 BDC card. Owed C4: boot.py ledger-stamp parser fix at next touch.
 
 ### PRIOR SESSION — 2026-10-29T00:18:37-04:00 (PROME prome-92 Tier-1 WQ-184 wake; Claude Code / Opus 5.5; markets closed)
 
