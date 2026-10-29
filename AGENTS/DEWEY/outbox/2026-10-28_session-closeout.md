@@ -26,3 +26,18 @@
 - **L834/L800:** Alphabet and Amazon packets when filed.
 - **Live inbox packets kept:** PROME 10/01 and CARL ×2 10/12, all L567.
 - **Not commissioned or owed:** the meta-review §5 independent ten-report validation stays unfinished by Will's 10/25 decision. MARCO-DR-2..5 need Will.
+
+## Addendum: final closeout, 22:4x ET
+- **`41c72f558` REGINALD asks:**
+  - The meta-review R30/R39 REGINALD side was verified at `fe55364ea`/`309751823` and corrected to a name-level split.
+  - Nano Banc passive-records route: none a desk can complete tonight. The Ontario lien was FDIC-held as of 10/2 (Doc 100). The San Bernardino index is reCAPTCHA-gated; the Riverside index fails to scripted submission; both can be run by a person in a browser. Los Angeles has no online index. The P&A is still unposted.
+  - Stubs went to REGINALD (answer) and WAL (info); WALTER handoff; REGINALD doorbelled.
+- **New inbox items:**
+  - **OZK 10/28 (INFO):** consumed and filed. Impact notes added to INDEX rows for the 10/22 vendor-concentration and reserve-coverage reports.
+  - **OTTO 10/28 (Will-directed tooling ask on `recap_pull.py`):** stays live.
+    - Ask 1 (provisioning) is answered to Will in the closeout reply. A free CourtListener account produces an API token. Put `export COURTLISTENER_TOKEN=<token>` in `~/.bashrc`, outside the repo. The tool reads only that environment variable, not `.env`. Verify with `recap_pull.py usage` → `auth: token`. Never commit or paste the token.
+    - **Owed:** ask 2 (print an explicit "token required" message on 401) and ask 3 (a documented RSS `feed` fallback stating its 30-entry window). OTTO's next court checks are 11/02 and 11/04.
+- **Checks at final close:**
+  - No child processes. Corrections RC 0. Orphan check RC 0 with no DEWEY-authored uncommitted files.
+  - INDEX 102 files / 102 rows / 8 fields.
+  - No new memory beyond the two n+1 extensions in `179159ccc`. The CourtListener wall is a BACKLOG row, not a memory.
