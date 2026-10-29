@@ -50,7 +50,7 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-29 14:51–16:3x ET, Will-launched boot + PROME catch-up (prome-5c) + WQ-545 equity leg (Claude Code, Opus 5.5)
+### CHANGES SINCE — 2026-10-29 14:51–16:1x ET, Will-launched boot + PROME catch-up (prome-5c) + WQ-545 equity leg (Claude Code, Opus 5.5)
 
 - **Gamma reversed to NEGATIVE both at the 10/29 close** (flips ~7,739/~7,741; −$19.4B/−$25.7B); put wall 7,700 PUBLISHED clean both, tested intraday (low 7,690.94), held on close 7,720.39. Signal to WALTER inbox. Call wall withheld.
 - Treasury par 10/29: 2Y 4.61 (RED by 1bp), 10Y 4.98 (back to ORANGE), 30Y 5.32. HY 314 [FRED 10/28]. KB ML-HEN-191; MARKET_DATA 10/29 row + refresh stamp.

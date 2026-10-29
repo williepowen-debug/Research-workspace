@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-10-29 16:3x ET (Claude Code, Opus 5.5; Will-launched boot + PROME catch-up prome-5c). Last write-back after the STATUS writes. Tape and gamma at the 10/29 close (16:06 ET); Treasury par 10/29; FRED through 10/28. Prior brief: `research/2026-10-29_catchup/NEXUS_BRIEF-before.md`.
+**Owner fold:** 2026-10-29 16:0x–16:1x ET (Claude Code, Opus 5.5; Will-launched boot + PROME catch-up prome-5c). Last write-back after the STATUS writes. Tape and gamma at the 10/29 close (16:06 ET); Treasury par 10/29; FRED through 10/28. Prior brief: `research/2026-10-29_catchup/NEXUS_BRIEF-before.md`.
 
 **View:** Dealer gamma turned NEGATIVE at both horizons on 10/29; the 7,700 put wall was tested intraday and held on the close. The drop was mega-cap (GOOGL −12.64% on an unchanged capex guide, AMZN −4.25% into its print) with positive breadth (RSP +1.20%). The curve rallied 5–7bp; the 10Y is back under 5.0%. Vol and credit did not price stress. No systemic-cascade or crash-timing conclusion.
 
