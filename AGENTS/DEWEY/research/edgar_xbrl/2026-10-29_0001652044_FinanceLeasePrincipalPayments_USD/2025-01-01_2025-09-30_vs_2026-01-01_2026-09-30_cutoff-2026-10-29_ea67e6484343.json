@@ -1,0 +1,59 @@
+{
+  "entity": "Alphabet Inc.",
+  "cik": "0001652044",
+  "concept": "FinanceLeasePrincipalPayments",
+  "unit": "USD",
+  "source_url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001652044/us-gaap/FinanceLeasePrincipalPayments.json",
+  "retrieved_at": "2026-10-29T14:54:15.993653+00:00",
+  "response_sha256": "ea67e6484343b3e0cacaca3c5b1e75baa3fdd336df1dd3a7386d7190fdfc67e9",
+  "filing_cutoff": "2026-10-29",
+  "selection": "Exact periods/unit; latest filed on or before cutoff; conflicting latest records rejected",
+  "prior": {
+    "start": "2025-01-01",
+    "end": "2025-09-30",
+    "val": 394000000,
+    "accn": "0001652044-26-000084",
+    "form": "10-Q",
+    "filed": "2026-10-29",
+    "fy": 2026,
+    "fp": "Q3",
+    "frame": null,
+    "unit": "USD",
+    "kind": "reported",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/0001652044-26-000084-index.html"
+  },
+  "current": {
+    "start": "2026-01-01",
+    "end": "2026-09-30",
+    "val": 1950000000,
+    "accn": "0001652044-26-000084",
+    "form": "10-Q",
+    "filed": "2026-10-29",
+    "fy": 2026,
+    "fp": "Q3",
+    "frame": null,
+    "unit": "USD",
+    "kind": "reported",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/0001652044-26-000084-index.html"
+  },
+  "calculation": {
+    "kind": "derived",
+    "difference": 1556000000,
+    "unit": "USD",
+    "formula": "current.val - prior.val",
+    "percent_change": 394.9238578680203,
+    "percent_formula": "(current.val - prior.val) / prior.val * 100; omitted when prior <= 0"
+  },
+  "limits": [
+    "Filing cutoff is not a historical API snapshot.",
+    "Same concept/unit and similar duration do not establish accounting comparability.",
+    "Standard entity-level US-GAAP facts only; custom tags and segment facts need document work.",
+    "Filing links identify sources; the source statements have not been independently reconciled.",
+    "A fact appears in the SEC API only after the XBRL filing is processed; a press-release number is not in it."
+  ],
+  "retrieval_basis": "live-fetch",
+  "notes": [
+    "Retrieved live by edgar_doc.py compare; retrieved_at is the tool clock (UTC) when the response arrived.",
+    "Instant (balance-sheet) metrics, custom tags, segment facts and accounting changes need further source work; this record covers one duration fact."
+  ]
+}
