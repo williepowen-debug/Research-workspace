@@ -66,6 +66,8 @@
 - **Standing watch (Will 13:29 ET, "keep an eye out for bank issues like that"):** bank-vendor and payment-plumbing cluster watch, weekly from 11/05. Escalates on 2+ new confirmed incidents at distinct core, CU-vendor or payment-messaging suppliers within 30 days, or one multi-institution processing outage of 1 business day or more (catalyst row; WALTER asked to route matching stories).
 - Nothing new on PHP2Shell victims, file-transfer products, Fiserv/FIS/Broadridge, insurers or election-week warnings. Packets: WALTER, REGINALD, LIQUID, GIBBS, PROME.
 
+**Banking sub-folder (Will 13:49 ET):** `banking/`: the bank cyber / software / vendor-risk thread. README indexes the rows; `THREAD_2026-10-29.md` is the current reading.
+
 ## Standing conditions
 
 - **Event, not consequence.** **10 of 11 boundary owners confirmed:** GIBBS, WATT, VULCAN, FALCON, BRENT, LIQUID, OTTO, plus SHADE, HENRY and BOND on 10/29 (KB-CYP-062..064). SHADE graded the 10/26 KEV P1 as NONE for the insurer channel. **REGINALD is outstanding** (reminded 10/29).
