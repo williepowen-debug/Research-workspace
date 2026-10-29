@@ -300,6 +300,7 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | `scripts/card_partition_check.py` | **Pre-freeze band-exhaustion check for grading cards (BD-21 + BD-30).** Run before freezing a card: `--self-test` · `--acceptance` · `<card.md>`. Reports **scoped lint**, never a certification. |
 | `scripts/boot.py` | **Boot orchestrator** — runs the `BOOT_SEQUENCE` sub-scripts (five at 2026-10-21) in ~6s. Step B2. |
 | `scripts/spine_check.py` | **B2a spine-freshness gate (BD-02, built 2026-08-23)** — compares STATUS's ISO `obs` tokens vs newest FRED obs; prints **STALE / FRESH / CANNOT-VERIFY**, exit 0 when all FRESH, 2 on any STALE or CANNOT-VERIFY. Run by `boot.py`; standalone for a one-off check. **Paid for by three misses (7/16, 7/31, 8/20).** |
+| `scripts/fetch_primary.py` | **Primary-release reader (BD-35, built 2026-10-28; L-33).** `fetch_primary.py URL --expect 194,000 [--show REGEX] --out DIR` — saves the file, rejects walls/stubs (rc 2 = UNKNOWN), text-extracts it, prints the date lines, and reports each `--expect` figure FOUND or NOT FOUND (rc 1). **Grade release-day figures through this, never from a fetch-tool summary.** Tests: `scripts/tests/test_fetch_primary.py`. |
 | `scripts/labor_data.py` | Live FRED domain sweep (claims, NFP, U-3/6, JOLTS, temp) + threshold flags |
 | `scripts/catalyst_countdown.py` | Trading-day countdown over `docket/CATALYSTS.tsv` |
 | `scripts/predictions_due.py` | Flags OPEN predictions past/near due-by (PREDICTIONS.tsv) |
