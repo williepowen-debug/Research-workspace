@@ -53,4 +53,4 @@
 | American Banker (`americanbanker.com/news/...`) | REACHABLE by WebFetch (10/29), full text | Trade press carries operator-quoted service pauses that operator sites do not post: search it for row 8 |
 | ConnectWise trust advisories (`connectwise.com/company/trust/advisories`) | REACHABLE but ~188k characters; WebFetch reads ~100k per call | The newest update is at the top; use `offset` to read on before claiming an absence lower down |
 | Park24 notices (`park24.co.jp`) | Site search returned only news; the issuer notice was not found (10/29) | Carry Jiji / ScanNetSecurity figures as SECONDARY |
-
+| New York Post (`nypost.com`, carries Reuters) | WebFetch blocked; curl with a browser User-Agent returns the full body (10/29) | Use curl, strip tags, quote from the body |
