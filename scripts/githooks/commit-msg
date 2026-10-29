@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# Local safeguard, bypassable with --no-verify. Root Git Protocol 4d.
+# Local safeguard, bypassable with --no-verify. Root Git Protocol 4d: subject <=100 chars.
+# 2026-10-29 (Will, WQ-539 friction list item 6): an over-long subject is WRAPPED, not refused —
+# the head (last space at or before column 100) stays the subject, the tail becomes the first body
+# paragraph. The only refusal left is a subject with no space to split on.
 # Comments are retained conservatively: editor/strip cleanup can cause a false block.
 set -eu
 command -v python3 >/dev/null || { echo 'commit-msg: Python 3 unavailable; subject cannot be checked' >&2; exit 1; }
@@ -9,25 +12,47 @@ import subprocess
 import sys
 import unicodedata
 
+LIMIT = 100
+path = Path(sys.argv[1])
 try:
-    message = Path(sys.argv[1]).read_bytes()
+    message = path.read_bytes()
     # Do not strip comments: -m/-F and verbatim cleanup can retain them.
     cleaned = subprocess.run(["git", "stripspace"], input=message,
                              capture_output=True, check=True).stdout.decode("utf-8")
-    paragraph = []
-    for line in cleaned.split("\n"):
-        if not line.strip():
-            if paragraph:
-                break
-            continue
-        paragraph.append(line.rstrip())
+    lines = cleaned.split("\n")
+    first = next((i for i, l in enumerate(lines) if l.strip()), None)
+    if first is None:
+        sys.exit(0)                      # empty message: Git refuses it itself
+    end = first
+    while end < len(lines) and lines[end].strip():
+        end += 1
+    paragraph = [l.rstrip() for l in lines[first:end]]
     subject = unicodedata.normalize("NFC", " ".join(paragraph).rstrip())
 except (OSError, UnicodeError, subprocess.SubprocessError) as exc:
     print("commit-msg: subject check failed: " + str(exc), file=sys.stderr)
     sys.exit(1)
 
-if len(subject) > 100:
-    print("commit-msg: subject is %d characters; root Git Protocol 4d allows 100. "
-          "Move receipts and provenance after a blank line." % len(subject), file=sys.stderr)
+if len(subject) <= LIMIT:
+    sys.exit(0)
+
+cut = subject.rfind(" ", 0, LIMIT + 1)
+if cut <= 0:
+    print("commit-msg: subject is %d characters with no space to wrap at; root Git Protocol 4d allows 100. "
+          "Shorten it." % len(subject), file=sys.stderr)
     sys.exit(1)
+head, tail = subject[:cut].rstrip(), subject[cut + 1:].strip()
+body = lines[end:]
+while body and not body[0].strip():
+    body.pop(0)
+out = [head, "", tail]
+if body:
+    out += [""] + body
+text = "\n".join(out).rstrip("\n") + "\n"
+try:
+    path.write_bytes(text.encode("utf-8"))
+except OSError as exc:
+    print("commit-msg: could not rewrite the message: " + str(exc), file=sys.stderr)
+    sys.exit(1)
+print("commit-msg: subject was %d characters; wrapped at column %d — the tail is now the first body paragraph "
+      "(root Git Protocol 4d)." % (len(subject), len(head)), file=sys.stderr)
 PY
