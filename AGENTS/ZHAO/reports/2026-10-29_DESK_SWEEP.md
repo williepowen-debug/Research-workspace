@@ -42,3 +42,11 @@ Read-only audit; nothing fixed in this pass except this file. Ranked.
 
 ## Healthy
 Inbox empty except one info item · corrections PASS · all other outbox packets delivered · read caps OK (STATUS 25.8 KB, brief 24.8 KB) · TIC/China level current · today's refresh closed the 8 key-figure flags · TRADE.md and LAST_COMPLETION.md correctly frozen.
+
+## OUTCOME — same day (Will approved steps 1–5)
+- **A1** flagged to PROME (memos 10/29), not fixed by ZHAO. Relaying is PROME's job.
+- **A2/A4** fixed: +10 recurring releases; 5 rows closed (Aug TIC, Plenum, 9/07 reserves, 10/01 H.4.1 as overtaken).
+- **A3** fixed: DONE and RESOLVED/VOID rows no longer fire; past open rows never age out (they print OVERDUE). The range-vs-`confirmed` warning was LEFT ON, since the guard is correct; NPCSC is its one false alarm until 11/6.
+- **B**: Sep data backfilled (KB-217); key figures refreshed (KB-216); 5 Feb rows 🧊 FROZEN. 9 VX rows remain stale (was 37).
+- **C**: Belgium kill-leg + V6/V9 re-spec'd (KB-219); ZHA-19/20/21 registered (KB-218); D7/D8/D9/D10/D11/D12 done. ZHA-05 and ZHA-10 NOT touched (see STATUS NEXT #9).
+- **D**: charter 32,525 → 32,211 B; LEDGER_GLOB declared; 5 files archived (domain-sweep kept: PROME's index cites its path).

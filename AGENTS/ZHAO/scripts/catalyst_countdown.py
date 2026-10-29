@@ -149,6 +149,11 @@ def collect(today):
             if not d:
                 warn.append(f"🔴 UNPARSEABLE date in CATALYSTS.tsv: {r.get('date')!r} — {r.get('event','')[:44]}")
                 continue
+            # DAEDALUS D4 (10/14), fixed 10/29: a DONE row is RESOLVED, not fired. Counting it
+            # raised false SWEEP-NOW alerts that moved the boot verdict. DONE is a STATE token
+            # (legacy: it lives in the priority column), so it ends the row's life here.
+            if (r.get("priority") or "").strip().upper().startswith("DONE"):
+                continue
             cls = (r.get("date_class") or "").strip()
             if cls and cls not in DATE_CLASS_ENUM:
                 warn.append(f"🟠 date_class {cls!r} not in the declared enum {sorted(DATE_CLASS_ENUM)} — {r.get('event','')[:38]}")
@@ -188,7 +193,12 @@ def collect(today):
         if DOCKET_TSV.exists():
             with open(DOCKET_TSV, encoding="utf-8", newline="") as f:
                 for r in csv.reader(f, delimiter="\t"):
-                    if len(r) < 3 or "ZHAO" not in "\t".join(r):
+                    # DAEDALUS D3 (10/14), fixed 10/29: match ZHAO in the OWNER cell only
+                    # (r[2]), and drop terminal rows by the STATE cell (r[3]). The old
+                    # match-anywhere read printed RESOLVED and VOID rows as live deadlines.
+                    if len(r) < 4 or "ZHAO" not in r[2]:
+                        continue
+                    if r[3].strip().upper().startswith(("RESOLVED", "CLOSED", "DONE", "VOID")):
                         continue
                     d, dend, is_rng = _parse_span(r[0])
                     if d:
@@ -219,7 +229,11 @@ def main():
 
     retention, basis = past_retention_days(today)
     past_cut = today - timedelta(days=retention)
-    fired = sorted([e for e in ev if e[0] < today and e[0] >= past_cut])
+    # 10/29 fix: terminal rows are now dropped at collect() (DONE / RESOLVED / VOID), so every
+    # past row left is UNRESOLVED. The retention window used to age those out silently — the
+    # 10/01 H.4.1 row vanished from boot after ~10 days while still open. Past rows inside the
+    # window print as FIRED; older ones print too, flagged OVERDUE, never dropped.
+    fired = sorted([e for e in ev if e[0] < today])
     upcoming = sorted([e for e in ev if e[0] >= today and e[0] <= today + timedelta(days=a.days)])
 
     # ⚠️ FIRED ROWS SURFACE REGARDLESS OF PRIORITY (OTTO / PAT-116)
@@ -227,7 +241,8 @@ def main():
         print(f"\n    ⚠️  RECENTLY FIRED — last {retention}d (since last closeout, basis={basis}) — SWEEP NOW")
         print(f"    {'-'*72}")
         for d, label, detail, pri, cls, src, dend in fired:
-            print(f"    {(pri or '').ljust(5)} {d} ({d.strftime('%a')})  {(today-d).days:>3}d ago  [{src}] {label}")
+            od = " OVERDUE" if d < past_cut else ""
+            print(f"    {(pri or '').ljust(5)} {d} ({d.strftime('%a')})  {(today-d).days:>3}d ago{od}  [{src}] {label}")
             if detail:
                 print(f"         ↳ {detail[:110]}")
     else:

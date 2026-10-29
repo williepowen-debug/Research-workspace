@@ -22,7 +22,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 When spawned with a task:
 
 1. **Inbox — TRIAGE at boot, BULK on a dedicated spawn** *(contradiction resolved 2026-08-21; PROME audit O12)*.
-   ⚠️ **This step and §MAIL used to contradict each other** — this step said "process any pending signals," §MAIL said "do NOT process inbox on normal spawns." **The restrictive rule was silently governing, and the cost was real:** the WALTER **N5 bar-vs-close rule went unprocessed while ZHAO applied it** in the 8/21 Korea grade; VULCAN's packet aged **18 days** across three asks; a DAEDALUS ACTION sat 4 days. **An inbox is a falsification channel — the signal most likely to refute a live vector arrives there.**
+   ⚠️ **An inbox is a falsification channel — the signal most likely to refute a live vector arrives there.** *(Contradiction history + cost → `archive/CLAUDE_COLD_20261029.md` §1.)*
    - **AT EVERY BOOT — TRIAGE ONLY (~60s, no KB writes):** scan inbox **titles** (top level + `inbox/WALTER/`). **Pull and read now** anything that (a) names one of your live vectors/thresholds, (b) is a fleet RULE or spec change, or (c) carries an ACTION addressed to ZHAO. **Everything else stays queued** — do not process, do not move.
    - **BULK PROCESSING stays a dedicated spawn** (log each to KB.tsv, `git mv` to `processed/`) — unchanged.
    - **If triage pulls something that bears on a live vector, say so in STATUS** even if you don't act on it. An unconsumed refutation is worse than an unread one.
@@ -256,10 +256,10 @@ When spawned for inbox processing: **check inbox/ for pending signals**, log eac
 | `NEXUS_BRIEF.md` | Standing brief NEXUS consumes for cross-agent synthesis (VIEW/CALIBRATION/CROSS-DOMAIN/NEXT/FORWARD CATALYSTS, ≤100ln). Schema: NEXUS `templates/NEXUS_BRIEF_TEMPLATE.md`. Refresh every closeout. |
 | `workbook/KB.tsv` · `VX.tsv` · `FLOW.tsv` | Permanent 13-col factual record · vectors with Y/O/R thresholds · transmission pathways |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (ZHA-NN) with Invalidation criteria. Grade only after the registered window expires. |
-| `workbook/SCHEMA.tsv` · `VX_HISTORY.tsv` | KB data dictionary — **read before writing KB rows** (validates enums) · historical vector states behind `VX.tsv`. |
+| `workbook/SCHEMA.tsv` | KB data dictionary — **read before writing KB rows** (validates enums). *(`VX_HISTORY.tsv` 🧊 archived 10/29, unappended since 2/13.)* |
 | ~~`LAST_COMPLETION.md`~~ | **FROZEN 2026-09-17** — superseded by the dated memo above (spec re-key 2026-08-13, home fixed 2026-09-05); bannered, not maintained. Never update |
-| `TRADE.md` | 🧊 **FROZEN 2026-07-04** — superseded, not maintained; STATUS is canonical. Unfreeze only if a concrete position re-emerges. |
-| `OPEN_THREADS_<date>.md` | Dated register of unresolved questions / coverage holes / unchased leads. Dated gates live in STATUS's CALENDAR, not here. Newest-dated file is current. |
+| `TRADE.md` | 🧊 **FROZEN 2026-07-04** — ZHAO is research/signal, no book. Unfreeze when TERRY carries a card citing a ZHAO vector as its primary rationale, or ZHAO proposes one. |
+| Open register | STATUS NEXT ACTIONS + newest `reports/*_DESK_SWEEP.md`. Dated gates → `docket/CATALYSTS.tsv`. *(`OPEN_THREADS_2026-07-09.md` archived 10/29.)* |
 | `reports/` | Session-scoped analytical artifacts (domain sweeps, pre-registrations). **Pre-register falsifiers here BEFORE running an adjudication**, so the terms can't be back-fitted. |
 | `inbox/` · `inbox/processed/` | Inbound signals; `git mv` to `processed/` when integrated. `inbox/WALTER/` is WALTER's routing lane. *(These are LIVE — an older FILES row wrongly listed inbox/outbox as "removed"; only the HERMES-era `PROTOCOL.md`/`RECEIPT.md` were retired.)* |
 | `outbox/` · `outbox/delivered/` | Outbound signals ZHAO writes for **PROME to route** — ZHAO does not deliver into other agents' inboxes itself. |

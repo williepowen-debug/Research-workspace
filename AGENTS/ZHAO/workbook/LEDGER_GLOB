@@ -1,0 +1,9 @@
+# ZHAO ledger declaration for scripts/ledger_staleness.py (created 2026-10-29, desk sweep step 5).
+# Why: the default glob (workbook/*.tsv) missed docket/CATALYSTS.tsv, the calendar whose silent
+# decay let recurring releases drop off after 9/30 with nothing flagging it.
+workbook/KB.tsv
+workbook/VX.tsv
+workbook/FLOW.tsv
+workbook/PREDICTIONS.tsv
+docket/CATALYSTS.tsv
+board_log.tsv

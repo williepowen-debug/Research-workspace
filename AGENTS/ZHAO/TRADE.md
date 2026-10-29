@@ -1,3 +1,4 @@
+> 🧊 **RE-ARM RULE (2026-10-29, DAEDALUS D9):** unfreeze only when TERRY carries a card whose primary rationale cites a ZHAO vector, or ZHAO proposes one. Until then ZHAO is research/signal with no book.
 > **🧊 FROZEN 2026-07-04 — superseded 4-anchor content / no active position; not maintained. STATUS.md is canonical; do not cite rows below as current.** *(DAEDALUS TRADE-staleness sweep, PAT-025, Will-approved. Rationale reworded 2026-07-09 — ZHAO reactivated same day as the freeze, so "dormant" was never accurate; the freeze itself stands until a concrete position re-emerges.)*
 
 # ZHAO TRADE.md

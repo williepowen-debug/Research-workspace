@@ -144,7 +144,85 @@ def section_live(quick):
         except Exception as e:
             print(f"    {label:9s} {'n/a':>10s}  ⚠️ fetch failed ({type(e).__name__})")
             alerts += 1
+    alerts += _pboc_fix_gauges(yf)
+    alerts += _hk_peg_watch(yf)
     return alerts
+
+
+def _pboc_fix_gauges(yf):
+    """V6/V9 two-directional gauges (spec reports/2026-10-29_RESPEC_…; VX-ZHAO-2.10/2.11).
+    CFETS fixing = primary (chinamoney.com.cn). The site 403s ranges over ~3 months or
+    pageSize > 50, so: two paced pages, never more. A failure is printed, never guessed."""
+    import json, subprocess, time
+    from datetime import timedelta
+    end = today(); start = end - timedelta(days=120)
+    fixes = {}
+    for pg in (1, 2):
+        u = ("https://www.chinamoney.com.cn/ags/ms/cm-u-bk-ccpr/CcprHisNew?"
+             f"startDate={start}&endDate={end}&pageSize=50&currency=USD/CNY&pageNum={pg}")
+        try:
+            r = subprocess.run(["curl", "-s", "--max-time", "20", "-A", "Mozilla/5.0", "-X", "POST", u],
+                               capture_output=True, text=True, timeout=30).stdout
+            d = json.loads(r)
+            for rec in d.get("records", []):
+                fixes[rec["date"]] = float(rec["values"][0])
+            if pg >= d["data"].get("pageTotal", 1):
+                break
+        except Exception as e:
+            print(f"    PBOC fix  {'n/a':>10s}  ⚠️ CFETS pull failed ({type(e).__name__}) — V6/V9 NOT refreshed")
+            return 1
+        time.sleep(2)
+    ks = sorted(fixes)
+    if len(ks) < 61:
+        print(f"    PBOC fix  only {len(ks)} fixes returned — need 61 for V9; V6/V9 NOT refreshed")
+        return 1
+    try:
+        h = yf.Ticker("CNY=X").history(period="3mo")["Close"]
+        mkt = {str(i.date()): float(v) for i, v in h.items()}
+        mdates = sorted(mkt)
+        gaps = []
+        for k in ks[-20:]:
+            prev = [m for m in mdates if m < k]
+            if prev:
+                gaps.append((fixes[k] / mkt[prev[-1]] - 1) * 100)
+        g20 = sum(gaps) / len(gaps)
+    except Exception as e:
+        print(f"    PBOC fix  {fixes[ks[-1]]:>10.4f}  ⚠️ market leg failed ({type(e).__name__}) — V6 not computed")
+        return 1
+    c60 = (fixes[ks[-1]] / fixes[ks[-61]] - 1) * 100
+    def score(x, cuts):
+        return 1 + sum(abs(x) >= c for c in cuts)
+    s6, s9 = score(g20, (0.25, 0.5, 1.0, 1.5)), score(c60, (1, 2, 3, 4))
+    t6, t9 = ("A" if g20 > 0 else "D"), ("A" if c60 < 0 else "D")
+    print(f"    PBOC fix  {fixes[ks[-1]]:>10.4f}  ({ks[-1]}, CFETS primary)")
+    print(f"    V6 gap20  {g20:>+10.3f}% → {s6}·{t6}   V9 c60 {c60:+.2f}% → {s9}·{t9}"
+          f"   (A = resisting appreciation, NOT counted in the stress total)")
+    # A D-side score at 3+ is the UST-selling channel waking up — make it move the verdict.
+    return 1 if (t6 == "D" and s6 >= 3) or (t9 == "D" and s9 >= 3) else 0
+
+
+def _hk_peg_watch(yf):
+    """KB-ZHAO-216 watch: USD/HKD at the 7.85 weak edge. The tell is HKMA market activity."""
+    import json, subprocess
+    try:
+        hkd = float(yf.Ticker("HKD=X").history(period="5d")["Close"].iloc[-1])
+    except Exception:
+        hkd = None
+    try:
+        u = ("https://api.hkma.gov.hk/public/market-data-and-statistics/daily-monetary-statistics/"
+             "daily-figures-interbank-liquidity?pagesize=5&sortby=end_of_date&sortorder=desc")
+        r = subprocess.run(["curl", "-s", "--max-time", "20", u], capture_output=True, text=True, timeout=30).stdout
+        recs = json.loads(r)["result"]["records"]
+    except Exception as e:
+        print(f"    HK peg    ⚠️ HKMA pull failed ({type(e).__name__})")
+        return 1
+    acts = [x["market_activities"] for x in recs]
+    hit = any(a not in ("+0", "-0", "0") for a in acts)
+    last = recs[0]
+    hk = f"{hkd:.4f}" if hkd else "n/a"
+    flag = "🔴 HKMA INTERVENED — rescore V7, route LIQUID+PROME" if hit else "🟢 no HKMA activity (5d)"
+    print(f"    HK peg    USD/HKD {hk} · AggBal HK${last['closing_balance']:,}M · 1M HIBOR {last['hibor_fixing_1m']}  {flag}")
+    return 1 if hit else 0
 
 
 def section_key_ages():
@@ -217,7 +295,7 @@ def section_catalysts():
             print("    ⚠️  countdown exited non-zero — a registry leg is unreadable (see 🔴 above)")
         # A FIRED row is this session's work queue, not decoration — it must move the verdict.
         if "RECENTLY FIRED" in out.stdout:
-            n += out.stdout.count("d ago  [")
+            n += out.stdout.count("d ago")  # 10/29: also matches "d ago OVERDUE"
         return n
     except Exception as e:
         print("\n[4] CATALYST COUNTDOWN")
@@ -274,8 +352,12 @@ def section_ledger_staleness():
     header, body = _read_tsv(VX_TSV)
     aged = []
     unparseable = []
+    frozen = 0
     for r in body:
         if len(r) >= 9:
+            if r[3].strip().upper().startswith("FROZEN"):   # declared 🧊 = not maintained, by design
+                frozen += 1
+                continue
             age = _age_days(r[8])
             if age is None:                      # D4 fix: never silently skip
                 unparseable.append((r[0], r[1], r[8]))
@@ -299,7 +381,15 @@ def section_ledger_staleness():
     # DELIBERATE: chronic VX staleness is a BACKLOG and does NOT flip the verdict — 19 of 39
     # rows would pin this to REVIEW every boot and the signal would stop meaning anything.
     # An UNPARSEABLE vintage does flip it (fail-open class). Declared, not overlooked.
-    print("    (chronic staleness is reported, not verdict-flipping — see boot.py note)")
+    print(f"    (chronic staleness is reported, not verdict-flipping — see boot.py note; {frozen} FROZEN rows excluded)")
+    # NEXT #9 (owed since 9/18), wired 10/29: KB Stale_By had NO READER. Count only — never
+    # bulk-mark SUPERSEDED (STATUS NEXT #9); a past Stale_By is a prompt to re-check, not a verdict.
+    kh, kb = _read_tsv(WORKBOOK / "KB.tsv")
+    if kh and "Stale_By" in kh and "Status" in kh:
+        si, st = kh.index("Stale_By"), kh.index("Status")
+        due = [r[0] for r in kb if len(r) > si and r[st] in ("ACTIVE", "CONFIRMED")
+               and (_age_days(r[si][:10]) or -1) > 0]
+        print(f"    KB.tsv: {len(due)} ACTIVE/CONFIRMED rows past their Stale_By (re-check backlog)")
     return alerts
 
 
