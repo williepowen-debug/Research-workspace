@@ -60,9 +60,11 @@
 
 - **Evening follow-on (Will: items 4+6+7+2):** QQQ/NDX gamma map (QQQ NEGATIVE, deepest near 690; NDX just positive) KB ML-HEN-192; `gamma_flip.py` now writes PUBLISHED.tsv ONLY with `--publish` (pass it on the read you publish), plus `--underlying`/`--spot`, and the put==call guard now withholds in `--both`; ISM services 11/4 rule-derived (ISM table behind SSO); **HEN-57/58/59 pre-registered** (letter `research/2026-10-29_catchup/PREREG_nov-releases.md`). Stamp drift n=3 today: typed 16:3x/17:0x/17:1x when the clock read 16:12/16:58. Take every stamp from `date`.
 
+- **Evening boot + closeout (18:51–19:5x ET):** inbox empty, corrections rc=0, nothing due. **AMZN −6.97% after hours ($226.80); SPY −0.71% AH ⇒ SPX about 7,665, under the 7,700 wall and the flip; QQQ AH 702.85.** SKEW 10/29 close 151.03 ⇒ ORANGE (row + vol table re-stamped). 18:51 ET 14d gamma −$9.8B, flip ~7,733: not published.
+
 ### NEXT SESSION
 
-1. Grade the post-AMZN session (10/30) against the negative-gamma state: `gamma_flip.py --both` (add `--publish --note` only for the read you publish); re-run QQQ with `--underlying QQQ`.
+1. Grade the post-AMZN session (10/30) against the negative-gamma state (AH implied SPX ~7,665, under the 7,700 wall; did the wall break on the CLOSE?): `gamma_flip.py --both` (add `--publish --note` only for the read you publish); re-run QQQ with `--underlying QQQ`.
 2. Row 9 on 11/18: PANW + bank-stock legs from a live pull; get the collapse magnitude settled with CYPHER/PROME BEFORE 11/18.
 3. Operating Dashboard not refreshed since 10/22 (version 4). ISM services date (11/4) still unverified.
 4. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, AAPL 11/02 (vendor date), ISM mfg 11/2 (ISHM), NFP 11/6, CPI 11/10 (L435/L437 co-owned), PPI 11/13, NVDA 11/19 (L322).
