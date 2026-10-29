@@ -1,4 +1,4 @@
-# BRENT cloud-routine pinned requirements (L526 preamble step 4). DRAFT 2026-10-23, not installed.
+# BRENT cloud-routine pinned requirements (L526 preamble step 4). Drafted 2026-10-23; INSTALLED with the live L526 preamble 2026-10-28 (WQ-510 A).
 # Pins copied from the repo .venv on Will's desktop, 2026-10-23 (pip freeze). Covers the third-party imports in
 # AGENTS/BRENT/scripts/*.py and FORGE/tools/market-data/fetch.py (yfinance, pandas, openpyxl); numpy/requests are their deps.
 # supersedes: none (no routine requirements file existed; DAEDALUS L526 spec step 4).

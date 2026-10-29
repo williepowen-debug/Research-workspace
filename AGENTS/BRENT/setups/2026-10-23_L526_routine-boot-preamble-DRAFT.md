@@ -1,5 +1,7 @@
 # L526 — routine boot preamble: BRENT's DRAFT prompt edit (NOT INSTALLED)
 
+> **INSTALLED 2026-10-28 23:46 ET (WQ-510 A, Will "510 A approve").** The fenced block below went live in all four routines with `<date>` filled as 2026-10-28; nothing else changed. Receipt: [install report](../audits/2026-10-28_L526-preamble-install/REPORT.md). The text below is the unchanged draft, kept as the approved record.
+
 **Drafted:** 2026-10-23 15:53 ET (from `date`) by BRENT (live session). **Row:** `PROME/DOCKET.tsv` L526. **Spec:** `AGENTS/DAEDALUS/design/2026-10-14_L526_ROUTINE_BOOT_PREAMBLE.md` (commit 4d179ddb1). **Install:** Will's word only. PROME presents this draft as a WQ row. $0; no threshold, route or authority change.
 
 ## Which file the routine actually reads
