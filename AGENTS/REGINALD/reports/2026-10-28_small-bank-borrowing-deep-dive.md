@@ -97,10 +97,60 @@ At boot I wrote that this was **"cash-building, not a run or a credit draw"**, b
 
 | Watch | Date | Which way it moves the read |
 |---|---|---|
-| **H.8 weekly deposits** | Fri 10/30, then weekly | **Deposits turning down while borrowing keeps rising = the 2022 pattern.** That would make this a funding-stress read, not a loan-funding read |
+| ~~**H.8 weekly deposits**~~ *(RETRACTED 23:0x ET, §10: no track record)* | Fri 10/30, then weekly | ~~Deposits turning down while borrowing keeps rising = the 2022 pattern.~~ That would make this a funding-stress read, not a loan-funding read |
 | **Call Reports 9/30, per-bank borrowed money and FHLB advances** | filing ~10/30; this desk's planned pull 11/07 | Concentrated in a few banks = idiosyncratic (find the names); broad = system-level funding of loan growth |
 | FHLB Office of Finance Q3 Highlights | ~10/30 | FHLB share of the rise; REG-T-06's third quarter >$700B (grades 11/13 from the CFR) |
 | H.4.1 discount window | Thu 10/29 | Whether ~$9–11B persists now that repo has moved above IORB |
 | The card step | 10-Qs / 8-Ks | Which bank bought ~$9.7B of card loans and from whom (BaaS relevance) |
 
 No threshold, prediction or position consequence. LIQUID owns the structural funding read; this is the bank-side description.
+
+
+---
+
+## Follow-up the same night (Will: "run 2 and 3, and set up 1"), 23:00–23:10 ET
+
+### §10 Test 2: does "borrowing up, deposits down" have a track record? **No.**
+
+The definitions were written into the script header before any outcome was computed (`domain/sources/2026-10-28_boot/h8_deepdive/test2_3.py`, sha256 prefix `ca159dd188093c53`; output `test2_3_out.txt`).
+- DANGER pattern: 6-week borrowing ≥ +5% with 6-week deposits ≤ 0.
+- HEALTHY: the same borrowing rise with deposits > 0.
+- Episodes are clusters at least 182 days apart; release lag is 9 days.
+- Outcomes: KRE − SPY at 3 and 6 months, and FDIC failures in the next 52 weeks.
+
+| | Episodes since 1985 | KRE − SPY 3m (median) | Failures next 52 weeks (mean) |
+|---|---|---|---|
+| DANGER (≥ +5%) | 13 (5 with return data, 6 with failure data) | **+3.1** (2 of 5 negative) | **9.2** |
+| HEALTHY (≥ +5%) | 20 | +1.1 | 26.1 |
+| Unconditional | all weeks | −1.6 | 22.7 (6.4 excluding 2008–11) |
+
+**Verdict (pre-registered): NO EVIDENCE OF A TRACK RECORD.** The returns leg and the failures leg were both NOT MET. The danger pattern was followed by better bank-stock returns and fewer failures than average. Small-bank aggregate deposits almost never fall much over 6 weeks (the largest drop in any danger episode was −0.6%). The 2023 failures were bank-specific runs at banks the H.8 classes as large, and they barely registered in the small-bank aggregate.
+
+⇒ **RETRACTED:** §9's first row and this evening's chat told Will to watch weekly small-bank deposits as "the tell" for the 2022 pattern. That rested on one analog and fails the test. The aggregate cannot see bank-specific runs. **The instrument that can is the per-bank screen (§13).**
+
+Current state: B6 +11.8%, D6 +0.7% at 10/14, i.e. HEALTHY. But at 9/30 the 6-week deposit change was +0.0%, classified HEALTHY by a hair.
+
+### §11 Test 3: what kind of deposits? Mostly ordinary customer money.
+
+| Small banks, SA $B | 9/2 → 10/14 | 7/15 → 10/14 |
+|---|---|---|
+| Deposits | +39.3 | +33.2 |
+| Large time deposits (≥$100K CDs, rate-sensitive) | +10.2 (+1.4%) | +7.8 (+1.1%) |
+| Other deposits (core) | **+29.1 (+0.6%)** | **+25.3 (+0.5%)** |
+
+About three-quarters of the gain is core money. Core growth sits at the 44th percentile of 6-week moves since 2009, which is ordinary. The large-CD share is 13.07% (64th percentile since 2009; 2021 low 6.71%, 2023–24 high 14.15%).
+
+In the 2022–23 run-up, banks paid up for CDs while core money left: 6-week large-time growth reached +12.0% with core −0.35% to −0.86%. That is not happening now. ⚠️ Brokered deposits are not visible in the H.8; the Call Reports (`BRO`) show them.
+
+### §12 Seasonal check (found while reconciling)
+
+Raw (NSA) small-bank borrowing on 9/30 ($306.5B) was only **+$4.3B (+1.4%) above 7/1 ($302.3B)**. The summer dip is normal. The 2010–2025 median Q3 raw change is −3.5%, so 2026 sits about 5 points (roughly $15B) above a normal quarter.
+
+What is unusual is the **late-September rebound: +10.4% from the 9/9 low to quarter-end, against a 2010–2025 median of ~0%**. Only 2022 (+12.4%) was larger. The SA ranking in §1 stands. The Call Reports, however, will show a small aggregate change.
+
+### §13 Set-up of the per-bank screen (Will's item 1)
+
+- Rule FROZEN: `reports/2026-10-28_borrowing-screen_FROZEN_rule.md`, sha256 `90e0a4a23490d1a40702c207c50e92272c6f5d708001e3cb158cd6140e12948a`.
+- Script: `scripts/borrowing_screen.py` (FDIC BankFind, public, no login, so the 11/05 FFIEC token expiry does not block it).
+- Dry run Q1 → Q2 2026 reconciles with the H.8 (screen +$22.5B vs H.8 NSA +$19.2B) and reproduces filing figures (Amerant, OZK).
+- The graded Q3 run waits for the FDIC posting, estimated mid/late November. The script refuses a partial posting.

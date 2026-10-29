@@ -34,7 +34,7 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 ### NEXT SESSION
 1. **CCB Q3 Thu 10/29 pre-market:** Bluevine deposit detail, partner concentration, provisions. Reconcile with CARL's 10/30 consumer leg to one figure per metric.
-2. **H.4.1 Thu 10/29 · H.8 Fri 10/30:** small-bank DEPOSITS are the tell. Deposits falling while borrowing rises = the 2022 pre-SVB pattern (deep dive `reports/2026-10-28_small-bank-borrowing-deep-dive.md`). At the 11/07 Call Report pull, add per-bank borrowed money / FHLB advances to find who borrowed the ~$33B. SOFR−IORB +5 [10/27], 10bp under REG-T-08.
+2. **H.4.1 Thu 10/29 · H.8 Fri 10/30:** read as descriptive only. The aggregate 'deposits down' tell was TESTED and RETRACTED (no track record since 1985, deep dive §10). **Per-bank borrowing screen FROZEN** (`reports/2026-10-28_borrowing-screen_FROZEN_rule.md`, sha256 `90e0a4a2…948a`): run `scripts/borrowing_screen.py --prior 20260630 --current 20260930` once FDIC posts Q3 (~mid/late Nov; exit 2 until posted). SOFR−IORB +5 [10/27], 10bp under REG-T-08.
 3. **~10/30:** FHLB Q3 Highlights (REG-T-06 descriptive; grades 11/13 from the CFR) · Q3 Call Reports → DOCKET L801 re-read vs DEWEY's base rate.
 4. **Sat 10/31:** REG-06 EDGAR scan (WAL/EGBN capital raise; 424B, S-1/S-3/S-4, 8-K 3.02).
 5. **HY:** grade each FRED print for the REG-T-03 exit run (≤300 ×5). CCC/HY escalates only on a CCC-led re-cross.
