@@ -191,3 +191,7 @@ No ORACLE pull between 2026-10-22T02:22Z and 2026-10-29T00:44Z. Business days st
 - **Pinned** in one edit 2026-10-29T00:4xZ: Nov pin + October relabel (drops `war premium`) + `REGIME` bump + MAINTENANCE entry. The October arming series ends here; the 00:44Z October read was its last arming read. No October state was fired, so nothing carries (§8.2).
 - **November entry read** 2026-10-29T00:46Z: **52.5%**, liq $28.6K ⇒ QUALIFIED under O4. ⚠️ Lifetime volume is **$3.4K**: the fetcher's volume floor flags it thin. O4 is a liquidity test, so the read counts, but the price is quoted more than traded. CLOB context since listing: 50.0 → 60.0 → 38.0 → 52.5.
 - **Consequence ahead:** reads on 10/29 and 10/30 each ≥ 40.0 and qualified ⇒ **Alert fires at the 10/30 read.** DOCKET L729's cadence ends 10/30 (until 11/1); November reads after that need a cadence decision from PROME.
+
+### 9.5 WQ-527 C — scheduled pulls (2026-10-28 21:1x ET)
+
+Will, verbatim 2026-10-28 20:59 ET: *"527 C approve"*. From Thu 10/29, `tools/daily_pull.sh` (cron, laptop) runs ORACLE's own `pull --log` once per ET weekday. Its rows are **ORACLE's own live pulls** under O5, so the first one on an ET date is that day's read under O3. The routine never grades: the next live session grades from ODDS_LOG and writes the ledger rows. Registry: `SCHEDULED_RUNS.md`.

@@ -30,6 +30,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 1. **Sync git** — follow the root CLAUDE.md "Before pulling" protocol.
 2. **Check `inbox/`** (+ `inbox/WALTER/`) — process pending signals; `git mv` processed → `inbox/processed/`.
+2b. **Ran-check the scheduled routine:** `python3 tools/routine_check.py` — any `NOT READ` weekday is a missed read; record it on the ledger and report it (WQ-527 C; registry `SCHEDULED_RUNS.md`).
 3. **Read `SCRATCH.md`** — the canonical "where are we" handoff (NEXT SESSION queue, carry-forward, push state).
 4. **Read `STATUS.md`** — live dashboard, tracked markets, active alerts.
 5. **Before writing `KB.tsv`, read `workbook/SCHEMA.tsv`** (validate enums) + **`AGENTS/VOCABULARIES.tsv`** (standard terms).
@@ -259,6 +260,7 @@ Process when spawned. Integrate probability-relevant data.
 | `scripts/polymarket.py` | The Polymarket fetcher — search / market / event / pull / history / **movers** (movement discovery) / **coverage** (theme-coverage sweep, weekly) (see DATA COLLECTION METHOD) |
 | `tools/disruption_supply_spread.py` | **Run every session after `pull --log`** — disruption-vs-supply spread (see DATA COLLECTION METHOD → Derived series; carries the WTI month-roll + leg-resolution warnings) |
 | `workbook/DISRUPTION_SUPPLY_SPREAD.tsv` | Derived series: disruption-minus-supply spread, one row per session. `regime` column gates comparability — **never chart across regimes** |
+| `tools/daily_pull.sh` / `tools/routine_check.py` / `workbook/ROUTINE_RUNS.tsv` | **Scheduled pulls-only routine** (cron, weekdays; never grades) + its boot ran-check + receipt ledger. Registry and limits: `SCHEDULED_RUNS.md` (WQ-527 C, 2026-10-28) |
 | `scripts/kalshi.py` | The Kalshi fetcher — status / search / market / event / series / pull (RSA-PSS signed, read-only) |
 | `watchlist.tsv` | Polymarket markets pulled every session (label, type, slug, tier, route) |
 | `kalshi_watchlist.tsv` | Kalshi markets pulled every session (label, type, ticker, tier, route) |

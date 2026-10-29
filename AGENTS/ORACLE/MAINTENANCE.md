@@ -324,3 +324,11 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **What would fix it (options, NOT implemented — proposal to PROME):** (a) a scheduled routine on the box that runs the mechanical leg (`polymarket.py pull --log` + `kalshi.py pull --log` + `tools/disruption_supply_spread.py`) once per business day, with grading and ledger rows left to the next ORACLE session (pulls are live reads under O5 whoever triggers them; the ledger row is graded later from ODDS_LOG). Same pattern as BRENT's scheduled routine. (b) A Will launcher preset that boots ORACLE daily. (c) Both. Constraint: the box is serial-multi-machine (`PROME/MACHINE_LOCAL.md`); a routine on one box goes dark when Will switches machines.
 - **Files:** none changed. Proposal: `PROME/inbox/2026-10-28_from-ORACLE_L729-cadence-PROPOSAL.md`.
 - **Boot-impact:** none until ruled.
+
+## 2026-10-28 — WQ-527 C option A built: scheduled pulls-only routine (cron) + boot ran-check; VX-ORC-12 encoded (WQ-528 A)
+
+- **Trigger:** Will 2026-10-28 20:59 ET, verbatim "527 C approve, 528 A approve" (also typed to ORACLE as "Approve WQ-527 option C"). DOCKET L847 (routine), L849 (VX-ORC-12), L848 (launcher preset → CATO).
+- **What:** `tools/daily_pull.sh` (pulls + receipt + path-scoped local commit, never grades, never pushes) · `tools/routine_check.py` (boot ran-check, rc=1 on any NOT READ weekday) · `workbook/ROUTINE_RUNS.tsv` (created by the first run) · user crontab line (5 weekday slots, laptop only) · `SCHEDULED_RUNS.md` registry · CLAUDE.md boot step 2b + FILES row · letter §9.5 · VX-ORC-12 row · CATO preset text packet.
+- **Bug caught by its own test before install:** v1 recorded a run whose Polymarket pull appended 0 rows (double-log guard) as `OK` and did not retry. Fixed: 0 rows = `FAIL` "NO READ", the next slot retries.
+- **Known limit:** cron runs only while WSL is up (no catch-up). The ran-check makes every miss visible; a Windows-side wake trigger is Will's call.
+- **Boot-impact:** step 2b added. Desktop needs the crontab line at the next switch (flagged to PROME for `PROME/MACHINE_LOCAL.md`, PROME-owned).

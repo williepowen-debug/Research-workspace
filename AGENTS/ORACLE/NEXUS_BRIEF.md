@@ -8,6 +8,8 @@
 > **★ THE ONE THING: THE NOVEMBER $110 WTI LEG OPENED AT 52.5% — AND THE VX-ORC-04 ALERT CAN FIRE AT THE 10/30 READ.**
 > Polymarket Nov $110 touch (ICE Pyth CLL) **52.5%** at 00:46Z — **entry read: thin volume, run 1, NOT armed, NOT an alert** · liq $28.6K (QUALIFIED) · ⚠️ **lifetime volume $3.4K** — quoted more than traded · CLOB since 10/25 listing 50 → 60 → 38 → 52.5. Ladder $120 14.5 · $130 3.6. October $110 exits at 3.6% (2 sessions left). CME CLZ26 proxy $102.04 (evening) ⇒ +7.8% to $110. Spread (Nov segment, first row) **+36.0pp** — never compared to Oct's +84.9. Alert rule: an armed run of 3 qualified reads each ≥40.0 — earliest possible fire is the 10/30 read. BRENT owns the barrels.
 >
+> **★ ROUTINE (WQ-527 C):** daily pulls now run on a laptop cron (weekdays, while WSL is up); a live session still grades. **VX-ORC-12 (WQ-528 A)** encoded: Dec hike 79.5 read 1; live question = a collapse below 50.0 (de-alert) or the 12/09 hike.
+>
 > **★ FED:** **HELD 10/28** — PM no-change resolved YES / hike-25 NO (closed 20:01:40Z); Kalshi `>4.00` finalized 3.0. The crowd had it (~95% hold). VX-ORC-11 retired unfired. December: PM HIKE-at-Dec **79.5** ($557.3K liq) · Kalshi ≥1 more by Dec **83.0** (OI 50.0K) · two more 4.0. Count ladder 2 hikes in 2026 80.0.
 >
 > **★ IRAN:** ceasefire through 10/31 **96.7** → **11/30 39.5** ($981.1K vol; 44.5 on 10/19) → 12/31 27.5. Blockade-end 12/31 **40.5** (Δ7d +6.7) · 3/31/27 61.5. Next senior meeting by 12/31 39.5 (Δ30d −44). Invade <2027 18.5 ($75.7M) · regime fall 5.5. Hormuz-normal-by-Dec 11.5 (PortWatch PRINT basis). HAWK owns the reality.
