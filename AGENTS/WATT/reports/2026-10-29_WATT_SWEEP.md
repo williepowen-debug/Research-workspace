@@ -87,3 +87,17 @@ Verified hourly PJM-RTO price, September 1–October 28, 2025 vs 2026 (n=1,392 e
 Same-load rate of hours ≥$200: 90–100 GW 4.3% vs 0.7%; 100–110 GW 5.1% vs 3.5%; >110 GW 14% vs 2%.
 
 **Reading:** the typical hour is unchanged and gas is flat, but extreme hours are far more frequent, including at the same demand level. That is a thinner-cushion signature. **Limits:** only one baseline year (the 2024 pull was refused at the archive boundary); about six clustered episodes; ±1 h demand alignment; 2025 outages and any PJM pricing-rule changes not checked; weather not separated from load growth.
+
+## Addendum 14:0x ET — 2024 baseline and outage causes (Will: "next steps approved")
+
+**2024 hourly price: NOT obtained.** DM2 serves 2024 from its archive, and archived `rt_hrl_lmps` rejects the `pnode_id` and `fields` filters. That leaves only an all-node pull (millions of rows, the silent-truncation pattern). The EIA ICE daily index was rejected as a substitute: it is a day-ahead traded peak block and misses intraday spikes (October 27 delivery $64.89). KB-186 remains a one-baseline-year comparison.
+
+**Outages, same-day forecasts, Sep 1–Oct 28** [KB-WATT-187]:
+
+| | 2024 | 2025 | 2026 |
+|---|---:|---:|---:|
+| October mean total | 65.7 GW | 64.7 | 67.3 |
+| Planned mean | 32.4 | 30.4 | 30.7 |
+| Forced mean | 7.4 | 9.0 | 11.1 |
+
+**Correction of frame:** the autumn maintenance stack is normal and the same every year. "Outage-driven" names the trigger, not the worsening. The 2026 difference is higher demand (+6.1 GW mean) plus more unplanned breakdowns (+2.1 GW vs 2025): about 8 GW less average headroom, before any fleet-size change (not measured).
