@@ -16,7 +16,7 @@
 
 ## Data Ownership (no duplication)
 
-*Canonical full ownership table → `CLAUDE.md` §DOC OWNERSHIP. Quick version:*
+*Canonical full ownership table → `CHARTER_REFERENCE.md` §2 (moved out of `CLAUDE.md` §DOC OWNERSHIP 2026-10-28, hot/cold split; the full file map is §3). Quick version:*
 
 | Doc | Owns | Don't put here |
 |---|---|---|
