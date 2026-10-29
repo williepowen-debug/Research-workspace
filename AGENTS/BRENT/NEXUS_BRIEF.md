@@ -4,10 +4,10 @@
 **Domain:** Oil/energy supply, demand, structure and transmission.
 **Thesis version:** v5.13; no new probability, threshold or capital authority.
 **Recent thesis pivot:** October 14 crude recovery separated from product scarcity; October 26 withdrew a single adjudicated Hormuz volume; October 28 adds refiner primaries and one week of crack compression (minor refinement, no version change).
-**As of:** October 28 closeout (23:42 ET onward) | STATUS commit: `4193f9a05fb9d404bc220a997a53dc874e6c2338` (content re-verified against TRADE and the session's sources, C6(a) for the rows changed; older rows keep their stated vintages)
+**As of:** October 28 closeout (23:42 ET onward) | STATUS commit: `b436be8316ca98556edb0768afbd6d3b3e2be0de` (content re-verified against TRADE and the session's sources, C6(a) for the rows changed; older rows keep their stated vintages)
 **Scope — SCOPED-PARTIAL:** re-verified this session: EIA week 10/23 at release-day primary files, EIA retail 10/26, BRT-31 exact arithmetic, December CL/HO window and daily vendor bars (WQ-420 sources 2/3), Valero/PSX/EQT 8-K exhibits (via a research sweep; Range via search summary), wire settles for October 26–28. NOT re-verified: CME/ICE official pages (CME IP-blocks this box), COT (next October 30), JWC index (as of October 26), insurance quotes, USO short interest, positions (TRADE unchanged since October 26 apart from the observation record). [Report](research/2026-10-28_catchup/REPORT.md).
 
-**Routines:** WQ-510 A installed live October 28 (L526 preamble, all four routines); the October 4 prompt correction went live with it. Validation run fired; receipt at [install report](audits/2026-10-28_L526-preamble-install/REPORT.md).
+**Routines:** WQ-510 A installed live October 28 (L526 preamble, all four routines); the October 4 prompt correction went live with it. Validation run 03:55Z: receipt line correct, AC3 met, AC1 detached half met, AC2/AC4 not yet exercised; [install report](audits/2026-10-28_L526-preamble-install/REPORT.md). Receipt sent to PROME.
 
 ## CROSS-DOMAIN
 
