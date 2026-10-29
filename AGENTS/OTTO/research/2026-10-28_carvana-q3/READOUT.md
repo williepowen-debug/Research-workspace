@@ -67,7 +67,16 @@ Starting with the Q4-2026 call, Carvana **will stop giving quarterly or annual f
 
 **What survives the downgrade:** the BLAST collateral is weak (V4, scored separately, unchanged), and Gotham's third-party whole-loan servicing estimate remains unverified, not refuted. A −40% move on a LOWER-conviction carve-out takes it toward DORMANT, not to "refuted."
 
-## 7. Not done this session
-- Earnings call (primary audio/transcript).
+## 7. Earnings call: secondary transcript only `[PRESS]`
+
+Source: the Investing.com transcript page dated 2026-10-28 22:42 ([link](https://uk.investing.com/news/stock-market-news/earnings-call-transcript-carvana-tops-revenue-forecast-in-q3-2026-shares-jump-8-93CH-4939523)), read through a summarizing fetch tool. The first 100,000 of 112,350 characters were covered; quotes are as the tool returned them, not checked against audio.
+- Gain on sale: Garcia said it "bounces around inside of a very tight range" in dollar terms. Jenkins said rates and gas cost "about $200 per unit." He described pass-through of benchmark moves to customers.
+- Funding: an analyst (Erickson, RBC) noted Carvana **upsized an ABS deal in the quarter "for the first time."** The answer did not address what that means. Garcia: "add various loan buyer partners that lower our effective cost of funds."
+- Credit: **no analyst asked about delinquencies or loss rates**, and management did not raise them. The SEC closure, short sellers and DriveTime/Bridgecrest were not mentioned on the call.
+- Guidance end: an analyst asked whether this was "the last time you're going to guide"; the answer did not address it.
+- Price reaction `[PRESS, conflicting]`: an early report put after-hours at +1.6%; later reports put it at +8% to $63.85 from the $59.05 close. Not verified. Prices must be fetched live before any use.
+
+## 8. Not done this session
+- Primary call audio, and the last ~12K characters of the secondary transcript.
 - Wording of the SEC communication itself (not public).
 - Any press search for an earlier report of the SEC closure.

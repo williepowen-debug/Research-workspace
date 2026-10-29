@@ -723,3 +723,66 @@ SHA256 `5ec8e5708ba5e80a2bc5efda81bb8f27b0cf405693fba241e7b7937655e76231`
 > **s036 catch-up, October 25:** Ally Q3 is almost flat YoY on losses but accruing delinquency rose; Cox mid-October rebounded; all 8 shelves have 2026 issuance (not proof of current access). BROCK bridge 8 relief through 11/01 replaces 10/22. Evidence: `research/2026-10-25_catchup/READOUT.md`.
 > **Unresolved:** VRM TrustV outcome; Tricolor BlackRock/suppression orders; First Brands D&O disposition. October 21 §721 hearing continued, date TBD in clerk entry 3973. Full WINTERKORN sweep not completed; bounded inline checks only.
 > **Next:** First Brands 10/27 · CVNA/BROCK 10/28 · EART ~10/29 · final v1.6 10/30 · BROCK 10/30 and 11/02 around 11/01. WQ508 charter edits already applied by DAEDALUS, verified at 4da79f1ee.
+
+
+## 19. October28 s040 rotation (verbatim; hot STATUS wins)
+
+*Rotated to bring STATUS under the 70% read-cap stop. Rows below are verbatim as they stood in hot STATUS at s040.*
+
+### Superseded boot pointer (s039)
+
+> **s039 stale-file sweep:** mixed-basis bank sum retired; original SDT commentary restored, no new verdict. Dated source/result register: `research/2026-10-25_stale-file-sweep-phase2/READOUT.md`.
+> **Limits/next:** source, ratings and cadence gaps retained; full v1.6/OT1 remains10/30 after existing court10/27–28, Carvana10/28 and Exeter~10/29 reads. History → STATUS_COLD; financial state otherwise remains s037.
+
+### Settled CRITICAL TIMELINE rows (outcomes recorded s040; CATALYSTS.tsv keeps the canonical rows)
+
+| Date | Event | Status / next read |
+|---|---|---|
+| 2026-10-16 (Fri) | Tricolor BlackRock Rule2004 confer deadline | ✅ RESOLVED by order: no agreed order; Verita Dkt1472 (signed10/22, entered10/23) GRANTS trustee's criteria; protective-order carve-outs; disputes → in camera sampling. No new party named (OTTO-33 unmoved) |
+| 2026-10-21 (Wed) | First Brands §721 operating motion (Dkt3796) | ✅ CONTINUED to 11/17 (Dkt3997, 10/27) |
+| 2026-10-27 (Tue) | First Brands §341 creditors meeting | ✅ HELD and concluded (minute entry); permanent-trustee election request not on the indexed docket |
+
+### SIGNAL DASHBOARD row owned by BROCK (marks are BROCK's)
+
+| Indicator | Value | Status |
+|-----------|-------|--------|
+| **First Brands DIP** `[CONF Saratoga SOI5/31/2026 via BROCK8/28]` | New-money TL-A22.8¢; BROCK owns marks. **Claim disputes, collateral and timing mean this is not a clean recovery estimate.** Cost/FV detail → cold §16 | 🔴 |
+
+### LENDER WATCHLIST
+
+> Old Feb–Mar rows remain verbatim/cold§15. One bounded disposition pass completedOctober25; evidence/limits → `research/2026-10-25_stale-file-sweep-phase2/READOUT.md` §Watchlist. No new rating colour or repeated search commissioned.
+
+| Existing name | October25 disposition of old claim |
+|
+
+### Second s040 rotation (verbatim)
+
+CRITICAL TIMELINE rows (fired 10/28):
+
+| Date | Event | Status / next read |
+|---|---|---|
+| 2026-10-28 (Wed) | Carvana Q3 AMC; call17:30ET | ✅ FIRED: 8-K -000066 + 10-Q -000067 read 10/28; SEC closure, clean filing; call NOT heard. No short report found at release, but OTTO ran no search for one. READOUT 2026-10-28_carvana-q3 |
+| 2026-10-28 (Wed) | CRMT backstop5: agreement≤10/22; BROCK | 🟠 BROCK L741; excludes10/20 extension already filed10/21 |
+
+SIGNAL DASHBOARD rows (dated 10/25 context reads; full text of two rows now pointer-only in hot):
+
+| Indicator | Value | Status |
+|-----------|-------|--------|
+| **Ally Q3 retail auto** `[CONF 10/20 release/deck pp9/10/13; read 10/25]` | Annualized NCO 1.89% (+32bp QoQ,+1bp YoY); 30+ all-in 4.96% (+16/+6bp); accruing 30+ 4.02% (+13/+9bp), 60+ 1.10% (+6/+7bp). Originations $12.9B; guidance 1.8–2.0% unchanged. Mixed book, not deep-subprime. Secondary call now read [PRESS]; primary audio, severity and Carvana flows unverified | 🟠 |
+| **KBRA / Edmunds context** `[CONF public primaries, read 10/25]` | Broad nonprime DQ nearly flat YoY; new-buyer payments and terms at records. Separate universes and clocks. The 69% long-term statistic is conditional on $1,000+ new buyers. Exact primary tables and limits: catch-up READOUT | 🟡 |
+| Bank case observations — separate bases | Prior mixed loss sum retired. Historical WAL **$126.4M Q1-2026 charge-off** is not current cash stress or another $42.125M loss. Other carried amounts lack a fully reconciled date/basis; do not total. Dated evidence/unknowns: `research/2026-10-25_stale-file-sweep-phase2/BANK_OBSERVATIONS.tsv`. REGINALD owns sizing; WAL owns its bank case | 🔴 |
+| Wilmington Trust | **Tricolor trustee resignation9/20/2025 (narrow)**; full-exit allegation corporate-denied. Oct16 trust revenue + current service offerings weigh further against it; **corporate trust is broader than ABS custody**. OTTO-31 8%; report§2 | 🟠 |
+
+Signal Triggers row (settled August history):
+
+| Trigger | Status |
+|---------|--------|
+| Cooperating witness reveals new fraud/participants (🟠 standing) | 🟠 RE-FIRED Aug 3 (cooperators 1 → 3); routed via WALTER |
+
+Third s040 rotation (verbatim): CRITICAL TIMELINE row owned by LIQUID, and the CONVERGENCE MATRIX history note.
+
+| Date | Event | Status / next read |
+|---|---|---|
+| ~2026-12-01 (Tue) | Hertz December debt maturities: fleet-disposal WATCH | 🟡 modeled; LIQUID credit read; OTTO disposal/repo mechanics |
+
+> Index over the local forms; the dashboard is unchanged. ACTIVE VECTORS folded in, labels carried (old table: cold §15). Stages [5] BDC 🔴 and [6] PC gating 🔴🔴 are BROCK's, not scored.

@@ -13,6 +13,14 @@ changes (those live in `MAINTENANCE.md`).
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
 
+### 2026-10-28 — s040 Carvana carve-out: registered downgrade condition met, applied at v1.6
+
+**Was → Is:** Carvana sub-thesis LOWER, allegation-only, an SEC subpoena (June 2025) on record with no outcome → the Q3 10-Q (accession -000067, 10/28) says the SEC concluded its investigation in September 2026 and did not intend to recommend enforcement. The filing is otherwise clean (no auditor or ICFR change, no restatement, on time), and related-party VSC revenue is flat per unit ($575 vs $584). THESIS risk row *"Carvana earnings/disclosure clean + substantive rebuttal ⇒ Carvana sub-thesis −40%"* **appears met in substance**. The conviction cell moves at v1.6 (10/30), its canonical edit; STATUS V5 stays 2 until then.
+
+**Limits carried:** the closure is company-reported; the SEC communication is not public; it is not exoneration; it covers the January 2025 report; Gotham's January 2026 report is not mentioned. Gotham's third-party whole-loan servicing estimate remains unverified, not refuted. BLAST collateral weakness (V4) is a separate vector and is unchanged. Finance GPU $2,733: +$67 QoQ (the accelerating compression stopped), −$307 YoY; the rate-versus-credit split remains unresolved (CARL joint item).
+
+**Trigger:** the scheduled Carvana Q3 read (catalyst 10/28). **Touches:** STATUS case row/V5/timeline, ML-339/343, WALTER drop `SIG-OTTO-WALTER-20261028-carvana-sec-investigation-closed`, `research/2026-10-28_carvana-q3/READOUT.md`. No probability, colour, threshold or trade change this session.
+
 ### 2026-10-25 — s037 financing access survives while selected cost and protection increase
 
 **Was → Is:** current financing-spread evidence stopped at a June deal → a dated same-issuer comparison shows Exeter summer spread stability/tighter AAA, but Bridgecrest July–October spread widening and higher all-in yield; CPS coupons and initial protection increase while financing completes. Read the pricing table and structural limits in `../research/2026-10-25_financing-terms/READOUT.md`; no market-wide estimate or fraud-causal claim. This sharpens the distinction between access and price without reopening the systemic funding leg or changing its colour/conviction. Ally's secondary call adds a management warning on newer cohorts, not quantified repossession severity or executed Carvana purchases.

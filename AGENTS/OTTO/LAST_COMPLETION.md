@@ -1,7 +1,7 @@
-## COMPLETION — OTTO — 2026-10-25 (session closeout, s039)
-STATUS: ACCEPTED / CLOSED OUT at Will’s request. PROME independently accepted the bounded stale-file correction after final OTS04 recheck.
-CHANGED: Catch-up/financing evidence and accepted stale-file corrections are persisted; final acceptance added to MEMORY/LAST_COMPLETION and refreshed pinned brief. No new research/state judgment in closeout.
-RESULT: Final repair0ade2c4f8/briefba68d65bf/receipt3393ff5f3 accepted in PROME’s three-desk sweep report, OTTO accepted section. Exact history/diffs/checks remain in dated Phase2 evidence; STATUS pin63cb6063e unchanged.
-GAPS: Ratings/series/historical bank bases, full docket/primary audio/TrustV and missed after-refresh SDT cadence remain explicit. Existing October27–30 and later observations/OT1/finalv1.6 preserved; no early completion or new program.
-WILL_NEEDS: None for completed authorized work.
-FOLLOW-UP: Next session follows MEMORY NEXT SESSION and canonical CATALYSTS/PREDICTIONS. No helper, executing tool, source fetch, research, monitor or automated wait remains running after delivery. Final publication receipt in session-closeout packet/native delivery.
+## COMPLETION — OTTO — 2026-10-28 (session closeout, s040, Claude Code)
+STATUS: CLOSED OUT at Will's request. Will-directed boot, owed-task pass, live sweep, inbox processing and workbook update completed.
+CHANGED: Carvana Q3 primary read (SEC investigation closed, no enforcement rec; clean filing) + WALTER drop; WINTERKORN docket sync (court rows swept, 4 rows added); STATUS timeline/case rows synced and rotated (cold §19); ML-339–344; CHANGELOG entry; OTTO-33/34 notes; inbox 4/4 processed + ISHM reply; fleet memory extended.
+RESULT: No probability, colour, threshold, convergence score or trade change. The Carvana −40% risk-row condition appears met; the conviction move is THESIS v1.6's (10/30). Evidence: `research/2026-10-28_carvana-q3/READOUT.md`.
+GAPS: Carvana call heard only via a secondary transcript (88% read); SEC communication not public; Exeter September 10-Ds not yet filed; FB D&O order and Chu suppression ruling not found (CourtListener RSS covers the newest 30 entries only); STATUS 6 B under the rotation stop.
+WILL_NEEDS: Optional decision: CourtListener API token (recommended; DEWEY owns the tool). No other decision.
+FOLLOW-UP: Exeter 10-Ds ~10/29 → THESIS v1.6 + cold read 10/30 → BROCK's CRMT grade 11/02 → Chu 11/04, NY Fed ~11/04, M&T ~11/05, Manheim 11/06, SDT ~11/15. No helper, monitor or background task left running.

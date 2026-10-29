@@ -1,6 +1,7 @@
 ---
 name: finding_write_behavior_check_before_agent_tool_run
 description: "Before test-running another agent's tool, grep it for write ops — \"boot kit\" and \"tracker\" scripts mutate their agent's data files, and a verification run becomes an ownership violation"
+symptoms: "ran a script with --help and it did a full run" · "help flag wrote to my ledger" · "boot/verify run modified workbook files"
 metadata: 
   node_type: memory
   type: finding
@@ -11,4 +12,6 @@ metadata:
 
 **Why:** "boot kit," "tracker," "monitor," "doctor" naming implies read-only, but fleet tools routinely persist what they fetch (cache refresh, TSV append, log write). Another agent's data files are theirs — a verification run that appends a row corrupts their ledger's meaning (a row CARL never ran), and un-restored it would ship in a commit. Doc one-liners are not evidence; VIOLET's step said nothing about writes.
 
-**How to apply:** before executing ANY agent-owned script, grep it for write ops (`open(...'w'|'a')`, `to_csv`, `write_text`, `mkdir`, `mv/rename/unlink`, append `>>`) — 5 seconds. If it writes: verify via `--help`/`--quick`/read-only flags, point its output dir at the scratchpad when the tool allows, or verify the mechanism another way (import a function, not `__main__`). If a run does mutate: `git status` immediately, `git restore` the agent's paths, and disclose. Applied correctly later the same day: `walter_doctor.py` and BRENT `thresholds.py` were grepped read-only before running. Sibling of [[feedback_agent_git_isolation]]; the verification-side cousin of "subagents own their files" (root rule 2).
+**How to apply:** before executing ANY agent-owned script, grep it for write ops (`open(...'w'|'a')`, `to_csv`, `write_text`, `mkdir`, `mv/rename/unlink`, append `>>`) — 5 seconds. If it writes: verify via a read-only flag **the script actually parses** (grep `argparse`/`sys.argv` for it first; a script with hand-rolled `sys.argv` checks silently ignores an unknown `--help` and runs in full), point its output dir at the scratchpad when the tool allows, or verify the mechanism another way (import a function, not `__main__`). If a run does mutate: `git status` immediately, `git restore` the agent's paths, and disclose. Applied correctly later the same day: `walter_doctor.py` and BRENT `thresholds.py` were grepped read-only before running. Sibling of [[feedback_agent_git_isolation]]; the verification-side cousin of "subagents own their files" (root rule 2).
+
+**n+1, 2026-10-28 (OTTO s040), own tool:** `panel_10d.py --help` ran a full EDGAR refresh and rewrote 9 rows of `PANEL_10D.tsv` (run timestamps only). The script parses `sys.argv` by hand (`--dry-run`, `--only`, `--history`), has no argparse, and ignores unknown flags. Caught in `git diff` (timestamp-only verified by command), restored with `git checkout`, disclosed. The old How-to-apply line recommended `--help` as the safe probe and is now replaced above. The safe flag existed (`--dry-run`); reading the argv handling first would have found it.
