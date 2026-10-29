@@ -84,6 +84,16 @@ Fifth consecutive MAP up-print (+$5 w/w); DAP flat ($934 = $934) after last week
 
 Seventh consecutive MAP up-print (+$2 w/w, second +$2 step running); DAP +$2. International phosphate is NOT rising beside it: AFC w/e 23.10 Brazil MAP "up to $850/mt CFR", "continued to decline over recent months"; India DAP $890–900/mt CFR (prior $890–905). The US retail run remains producer-side (sulfur, curtailment), not an international pull. The pace is flat at ~+1 %/mo across the 10-, 11- and 12-print cuts.
 
+**Step-size sensitivity, added 2026-10-28 22:48 ET (Will-directed deeper pass; dollar-step basis, not the log method above — a window, not a grade input).** First firing print = $1,001, $18 above $983. MAP weekly steps since 8/12: +1, −1, 0, 0, +3, +5, +3, +4, +5, +2, +2 (decelerating).
+
+| If MAP climbs at… | $/wk | Weeks | First firing print |
+|---|---|---|---|
+| 9/16–10/14 burst rate | +3.00–3.50 | 6 | **2026-12-09** |
+| 11-step average / last two steps | +2.00–2.18 | 9 | **2026-12-30** (central) |
+| Fade to | +1.00 | 18 | **2027-03-03** |
+
+Offsetting inputs: Q4 Tampa sulfur expected lower (unread; `KB-FERT-109`) pushes later; Mosaic South Fort Meade idle >6 months from 12/08 (`KB-FERT-108`) pushes earlier. ⚠️ Holiday-week DTN publication not verified — a skipped print moves a date, not the rate.
+
 **Next grade: 2026-11-04 DTN weekly** (T4 wake; owner-set `review_by` for `G:GATE-FERT-G5`; find the slug on the dtnpf.com crops index, then curl the article). *(Prior next-date 2026-10-28 was met by the 10/28 grade above.)*
 
 ---
