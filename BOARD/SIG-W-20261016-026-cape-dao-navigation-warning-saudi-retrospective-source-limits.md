@@ -21,7 +21,12 @@ narrative_channel: centcom
 confidence_note: Primary warning authenticated; sinking/loss outcome and retrospective asset classifications require owner adjudication. Channel enum is nearest available, not source attribution to CENTCOM.
 word_count: 294
 dispatch_note: New evidence and explicit qualification of carried blanket negative; owner grades unchanged. Source gaps remain; native fleet visibility unavailable.
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20261029-034 (FALCON 10/26: IMO Sunk; NAVAREA IX 403/26 of 10/24 reports Cape Dao sunk ~35NM E of Sohar and cancels 380/26; census 5 confirmed)"
+status_date: 2026-10-29
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-10-29 (staleness sweep, WALTER adjudication; the sweep generates candidates and never auto-tags).** BROKE: NAVAREA IX 380/26 'sinking and drifting' as Cape Dao's current status (380/26 was cancelled by 403/26 on 10/24). FALCON resolved it 10/26 on owner-fetched primaries (SIG-W-20261029-034). WHAT SURVIVES: the Reuters Saudi-infrastructure retrospective and its source limits; the 380/26 text as issued 10/16.
 
 # Cape Dao primary warning reports sinking and drifting; retrospective Saudi infrastructure evidence needs asset/date adjudication
 

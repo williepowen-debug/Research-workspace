@@ -14,7 +14,12 @@ precedence: IMMEDIATE
 confidence: 0.96
 source: WALTER resumed morning source review; full references in body
 dispatch_note: Existing routing; no new study, capital authority or external send. Owner grades remain owner-held.
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20261029-034 (FALCON 10/26: IMO Sunk; NAVAREA IX 403/26 of 10/24 reports Cape Dao sunk ~35NM E of Sohar and cancels 380/26; census 5 confirmed)"
+status_date: 2026-10-29
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-10-29 (staleness sweep, WALTER adjudication; the sweep generates candidates and never auto-tags).** BROKE: Cape Dao sinking status 'conflicts' (JMIC106 sinking/drifting vs IMO Sunk). FALCON resolved it 10/26 on owner-fetched primaries (SIG-W-20261029-034). WHAT SURVIVES: JMIC106 risk levels (Arabian Gulf SUBSTANTIAL, Hormuz SEVERE), tug 177, the 153-record total as of 10/18.
 
 # SIG-W-20261019-005 — JMIC106 raises Arabian Gulf risk; tug177 is new; CAPE DAO sinking status conflicts
 

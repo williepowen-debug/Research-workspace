@@ -21,7 +21,12 @@ word_count: 144
 dispatch_note: Scoped verification; no owner grade or consumption inferred. Native fleet tools unavailable; Will reports PROME/CATO/WALTER active. Concurrent foreign work gates push.
 narrative_channel: centcom
 confidence_note: Confidence in identifying a published source conflict; sinking outcome and provisional mappings remain unresolved.
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20261029-034 (FALCON 10/26: IMO Sunk; NAVAREA IX 403/26 of 10/24 reports Cape Dao sunk ~35NM E of Sohar and cancels 380/26; census 5 confirmed)"
+status_date: 2026-10-29
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-10-29 (staleness sweep, WALTER adjudication; the sweep generates candidates and never auto-tags).** BROKE: JMIC105 disputing Cape Dao's sinking, presented as an open conflict. FALCON resolved it 10/26 on owner-fetched primaries (SIG-W-20261029-034). WHAT SURVIVES: UKMTO 172/173 clock reconciliation (UTC vs Singapore) and the JMIC105 incident mapping as of its own time.
 
 # JMIC publication disputes Cape Dao sinking; container incident dates reconcile across UTC and Singapore time
 

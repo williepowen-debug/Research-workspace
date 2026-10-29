@@ -1,0 +1,23 @@
+# BOARD staleness sweep + adjudication record — 2026-10-29 (CADENCE run, 5d overdue; FORMAT_SPEC Signal Lifecycle)
+# Trigger: walter_doctor staleness_sweep_overdue (19d since 2026-10-10; cadence 14d). Run in the midday WALTER session on Will's "Lets work on these next" (repairs + housekeeping batch).
+# Sweep: AGENTS/WALTER/tools/staleness_sweep.py -> 368 candidates of 1830 signals (unscoped; already-tagged skipped). New since the 10/10 sweep (dated >= 20261010): 88 (P3 64 · P1 15 · P2 5 · P1+P2 3; plus the tool header line).
+#
+# ADJUDICATION BASIS + DISCIPLINE (same as 09-03 / 09-24 / 10-10): only actively-misleading signals get tagged; dated snapshots are covered by the INDEX preamble rule.
+# THE ADJUDICATED CLASS WAS CHOSEN BY MECHANISM — world-state changes since 10/10 that could make an earlier signal assert a now-false CURRENT state:
+#   (1) Cape Dao loss status RESOLVED (FALCON 10/26 evening sweep: IMO Sunk; NAVAREA IX 403/26 of 10/24 cancels 380/26; census 5 confirmed). Three cards presented the status as an OPEN conflict and the resolution had NO board card (anchor only, 10/27) -> resolution carded as SIG-W-20261029-034; three cards TAGGED. Owner-verified outcome (FALCON fetched both primaries); WALTER could not reach 403/26 on 10/29 — the tag rests on the owner's record.
+#   (2) Car-Mart lender reprieve (021-008 'through 10/22') -> corrected by 021-010 (11/01); INDEX back-marker derives from corrects:. NO TAG. Whether the 11/01 date has itself moved is NOT checked.
+#   (3) Russia diesel 'ban lifted' (015-008) -> corrected by 021-016. NO TAG (corrects: link).
+#   (4) RED-FT-02 / REG-T-03 FIRED on the 10/16 observation; LIQUID WQ-444 >320 run ended 10/27. Pre-fire cards citing them are P3 citations, dated. NO TAG.
+#   (5) Forward items still ahead (OpenAI round deadline 10/30 in 023-037; Nov 4 refunding forecast in 010-004; TTF X26 expiry today in 029-023; Russia 1252 restriction to 10/31). Not passed. NO TAG.
+#   (6) Iran posture (021-027 NYT post-election planning; 027-013 conditional timeline): consistent with the 10/28-10/29 record (WSJ post-midterm posture; no strike). NO TAG.
+#   EACH TAG = YAML status + status_ref + status_date, a file banner, and the generated INDEX back-marker.
+#
+# LEG 1 -- LIFECYCLE TAGS APPLIED (3).
+signal_id	status	status_ref	basis_verified_at	what_survives
+SIG-W-20261016-018	PARTIALLY-SUPERSEDED	SIG-W-20261029-034	FALCON reports/2026-10-26_evening-sweep.md row 'Cape Dao sinking dispute resolved' read this session; anchors/IRAN_WAR.md owner-correction block	UKMTO 172/173 clock reconciliation and JMIC105 incident mapping as of its own time. BROKE: Cape Dao sinking presented as an open dispute.
+SIG-W-20261016-026	PARTIALLY-SUPERSEDED	SIG-W-20261029-034	same; NAVAREA 380/26 cancelled by 403/26 per FALCON	Reuters Saudi-infrastructure retrospective and source limits; 380/26 text as issued. BROKE: 'sinking and drifting' as current status.
+SIG-W-20261019-005	PARTIALLY-SUPERSEDED	SIG-W-20261029-034	same	JMIC106 risk levels, tug 177, 153-record total as of 10/18. BROKE: 'CAPE DAO sinking status conflicts'.
+#
+# LEG 3 -- P3 (64 new) NOT INDIVIDUALLY ADJUDICATED: dominated by signals that CITE a RED-FT/REG-T identifier rather than assert its state (same finding as 9/03, 9/24, 10/10).
+# CARRIED: (a) P2 narrower-pattern proposal to Will STILL NOT MADE; (b) row-by-row pre-9/03 P1 pass still not done; (c) unverified outcomes: -0908-007 (PJM), -0921-001 (Japan window), -0925-004 (CRMT), -0929-014 (trucker strike), Car-Mart 11/01 reprieve.
+# NEXT SWEEP DUE ~2026-11-12.
