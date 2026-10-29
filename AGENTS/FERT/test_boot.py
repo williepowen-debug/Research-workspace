@@ -8,7 +8,9 @@ Each test plants one condition in a temp register and checks the verdict.
 
 Run from anywhere:  python3 AGENTS/FERT/test_boot.py      (pure stdlib, no network)
 """
+import contextlib
 import importlib.util
+import io
 import tempfile
 import unittest
 from datetime import date
@@ -118,6 +120,15 @@ class TriggersDue(Base):
         self.assertEqual(rc, 1)
 
 
+def quiet_alert(cmd):
+    """run_alert echoes the checker's output; the stubs below crash ON PURPOSE, so
+    their tracebacks are swallowed here. Otherwise closeout_check.py (which treats
+    crash text in a step's output as FAIL) reads this suite's planted crashes as
+    the suite itself crashing — found on the runner's first live run 2026-10-28."""
+    with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+        return boot.run_alert(cmd)
+
+
 class AlertRunner(Base):
     def stub(self, body):
         p = self.dir / "stub.py"
@@ -125,23 +136,23 @@ class AlertRunner(Base):
         return [str(p)]
 
     def test_clean_scope_line_is_quiet(self):
-        self.assertEqual(boot.run_alert(self.stub("print('trade perimeter: 1 agent graded')")), 0)
+        self.assertEqual(quiet_alert(self.stub("print('trade perimeter: 1 agent graded')")), 0)
 
     def test_marker_on_rc0_is_review(self):
-        self.assertEqual(boot.run_alert(self.stub("print('⚠️ stale ledger')")), 1)
+        self.assertEqual(quiet_alert(self.stub("print('⚠️ stale ledger')")), 1)
 
     def test_rc1_is_review(self):
-        self.assertEqual(boot.run_alert(self.stub("import sys; print('x'); sys.exit(1)")), 1)
+        self.assertEqual(quiet_alert(self.stub("import sys; print('x'); sys.exit(1)")), 1)
 
     def test_rc3_is_failure(self):
-        self.assertEqual(boot.run_alert(self.stub("import sys; sys.exit(3)")), 2)
+        self.assertEqual(quiet_alert(self.stub("import sys; sys.exit(3)")), 2)
 
     def test_traceback_is_failure_not_review(self):
         # A crashed checker exits 1, like a real finding; the output tells them apart.
-        self.assertEqual(boot.run_alert(self.stub("raise RuntimeError('boom')")), 2)
+        self.assertEqual(quiet_alert(self.stub("raise RuntimeError('boom')")), 2)
 
     def test_missing_script_is_failure(self):
-        self.assertEqual(boot.run_alert([str(self.dir / "absent.py")]), 2)
+        self.assertEqual(quiet_alert([str(self.dir / "absent.py")]), 2)
 
 
 _cspec = importlib.util.spec_from_file_location("fert_closeout", HERE / "closeout_check.py")
