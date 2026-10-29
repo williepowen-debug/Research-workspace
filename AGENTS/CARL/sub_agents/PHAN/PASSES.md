@@ -8,6 +8,25 @@
 
 ---
 
+## 2026-10-28 FINAL CLOSEOUT record (23:17 ET; Will: "okay lets close out PHAN for tonight"). First closeout run under `CLOSEOUT.md`
+
+| CLOSEOUT step | Result |
+|---|---|
+| 1 live ledgers | N/A since the 22:38 closeout: no new events. PROVIDER refreshed earlier (+16 rows); COCKROACH data clock 9/11, hygiene 10/28 (no qualifying event) |
+| 2 DOSSIER | ONE CURRENT STATE as of 10/28; OWED current (5 CARL packet rows 📤, 3 deferred PHAN rows added); 23,290 B = 72% (under the 75% rotate tier) |
+| 3 predictions | none re-marked or resolved this segment; five OPEN rows end 12/31 (64 days), CARL resolves |
+| 4 routing | no signals (nothing for WALTER). CARL inbox: 4 packets **delivered, not filed** (SHED basis; file-sweep rulings; PROVIDER home; shared-runner proposal). PROME: READS packet filed; both messages **acted on and verified**: READS L682 note updated (673db1cc2), safe-push shared-tree defect registered (6467239ae) |
+| 5 inbox | 0 packets |
+| 6 docket | next PHAN row 2026-11-12 (Affirm 11/05 + Klarna 11/17 window). **LOOK decided:** Coastal Q3 (10/29) precedes it, but CARL's own 10/30 WQ-228 row reviews CCB Q3, so no extra docket packet. PHAN's COCKROACH Coastal row updates at its next pass (OWED row) |
+| 7 PASSES | this record + per-segment narratives above |
+| 8 memory | extended `finding_correction_beside_an_instruction_leaves_two_live_instructions` (instance + resolution); committed (50dd01f24) |
+| 9 runner | below; 12/12 at 23:15 before this record |
+| 10–12 commit / push / post | this commit; push by session type (Will-launched → safe-push); `--post` |
+
+**Session total (10/28, Will-launched):** news sweep (Fed SHED), file sweep (4 breaks), PROVIDER unfrozen + refreshed, closeout rebuilt (CLOSEOUT.md + runner), shared-runner proposal → CARL, boot_check + dossier merge, charter unfrozen. **Open externally:** 4 CARL packets unfiled. **Next PHAN action:** Coastal Q3 (10/29), then the 11/05 Affirm print.
+
+---
+
 ## 2026-10-28 charter UNFROZEN (Will: "Okay lets unfreeze it if you can fix it?")
 
 - **What was frozen and why:** PHAN's `CLAUDE.md` + `STATUS.md`, 2026-07-10, commit `6c8683257` (DAEDALUS sub-agent audit, Will-approved: PHAN "BUILT-BUT-DRIFTED" → DEMOTE-WITH-CARE; dashboard asserted a refuted Klarna narrative; durable assets transcribed to DOSSIER). The audit does not say why it froze rather than stubbed.
