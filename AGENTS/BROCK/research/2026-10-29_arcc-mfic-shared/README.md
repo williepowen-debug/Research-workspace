@@ -1,6 +1,6 @@
 # ARCC vs MFIC shared-borrower marks, 6/30/2026 (tests ARCC's "eye to eye on the marks")
 
-BROCK, 2026-10-29 ~00:01–00:20 ET, at Will's request. Primary XBRL + HTML from both Q2 10-Qs.
+BROCK, 2026-10-29 ~00:01–00:05 ET, at Will's request. Primary XBRL + HTML from both Q2 10-Qs.
 
 ## Sources
 | Filer | 10-Q accession | sha256 of the XBRL instance |

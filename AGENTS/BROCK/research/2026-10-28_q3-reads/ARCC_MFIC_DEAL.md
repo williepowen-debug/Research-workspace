@@ -1,6 +1,6 @@
 # ARCC–MFIC merger — deal economics and what it tells BROCK
 
-BROCK, 2026-10-28 ~23:55 ET – 10/29 ~00:10 ET. Primary sources only, cited inline. Derived figures are labelled **[DERIVED]**, with their arithmetic and assumptions stated.
+BROCK, 2026-10-28 ~23:50–23:59 ET. Primary sources only, cited inline. Derived figures are labelled **[DERIVED]**, with their arithmetic and assumptions stated.
 
 ## 1. Terms (primary)
 | Term | Value | Source |
