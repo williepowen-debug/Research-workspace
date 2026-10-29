@@ -285,7 +285,7 @@ def main():
 
 
 JUDGEMENT = [
-    ("CURRENT STATE", "updated IN PLACE (never a new section); stamps advanced; addendum true"),
+    ("CURRENT STATE", "ONE block, updated IN PLACE (never a new section); prior snapshot rotated to PASSES"),
     ("OWED block", "closed what you did; added what PHAN or CARL now owes, with dates"),
     ("predictions", "re-marked with a dated note, NOT resolved; resolution routed to CARL"),
     ("PROVIDER.tsv", "new reading = new row; superseded row's Notes prefixed SUPERSEDED <date>"),

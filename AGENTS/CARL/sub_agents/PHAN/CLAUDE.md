@@ -1,3 +1,5 @@
+> ▶ **LIVE ENTRY (2026-10-28): run `python3 AGENTS/CARL/sub_agents/PHAN/scripts/boot_check.py`, then read `DOSSIER.md` (§8 BOOT). Closeout = `CLOSEOUT.md`. Everything below is FROZEN at Apr-2026; only this banner is maintained.**
+>
 > ⛔ DEMOTED TO DOSSIER 2026-07-10 (DAEDALUS audit, Will-approved) — this file is FROZEN at its Apr-2026 vintage; entry surface is DOSSIER.md. WARNING: this file's Klarna narrative was REFUTED at parent (Klarna Q1-2026 profitable, CARL May-14) — do not cite any value here as current.
 >
 > ⛔ **THE PROTOCOL SECTIONS BELOW ARE SUPERSEDED TOO, NOT JUST THE DATA — added 2026-09-11.** A frozen file keeps issuing instructions, and these two have gone wrong in ways that are invisible to a reader who trusts them:
