@@ -6,7 +6,7 @@
 ## Key Finding
 1. **The supported claim is an observability gap, not risk migration.** In five domains, the public indicator the fleet watches did not show what a non-market source did. None of the five shows exposure *moving* over time, and none shows the gap *preceding* market stress. Both remain hypotheses.
 2. **Outcome split, measured:** of 67–69 premise-testing reports (June–October), **49–57% deflated the commissioning concern, 25–26% confirmed it, and 19–23% were mixed.** These are two independent classifications (DEWEY's own and a blind rater's), with 80% agreement and Cohen's kappa 0.73. **This replaces DEWEY's earlier "~50 of 80 deflated"**, which was its own unaudited count and leaned toward "deflated".
-3. **Downstream use is real; cross-desk caveat loss was not established by this trace.** All five traced reports were consumed, with different effects on the recipients' judgments. CARL retained the charged-off cohort's uncertainty and rejected DEWEY's reconciliation on a stated falsifiability ground. **The earlier "two of five" caveat-loss claim is withdrawn: no second recipient case was identified.** Separately, DEWEY dropped qualifications in its own 2026-10-23 synthesis (NVIDIA $164.5B; the charged-off cohort). Those are own-synthesis failures, not a measured cross-desk loss rate.
+3. **Downstream use is real; cross-desk caveat loss was not established by this trace.** All five traced reports were consumed, with different effects on the recipients' judgments. CARL retained the charged-off cohort's uncertainty and rejected DEWEY's reconciliation on a stated falsifiability ground. **The earlier "two of five" caveat-loss claim is withdrawn: no second recipient case was identified.** Separately, DEWEY dropped qualifications in its own 2026-10-23 synthesis (NVIDIA $164.5B; the charged-off cohort). Those are own-synthesis failures, not a measured cross-desk loss rate. *(10/28, §6: the prospective WQ-515 batch found 92.5% weighted retention and 0 of 3 assessable reversal-grade caveats lost, across 6 assessable transfers to six active desks. 4 of 10 owners had no record. This is no fleet rate.)*
 
 ## 1. Auditable classification of the 93 reports
 **Method.**
@@ -93,6 +93,41 @@ The outside reviewer's third ask was a random sample checked against the **full 
 - **Rubric v2** splits *hypothesis supported?* from *risk higher/lower?* (fixes ambiguity 1) and adds a headline-fidelity code.
 - **Saved for the rerun:** `AGENTS/DEWEY/research/2026-10-23_meta-review/` (RUBRIC.md, RUBRIC_v2.md, sample10.tsv, both raters' codes).
 - **To run:** a fresh reader reads only the 10 report files plus RUBRIC_v2, writes one table, and the result is added here as a second addendum.
+
+## 6. Addendum 2026-10-28 22:1x ET: WQ-515 batch-1 result consumed (Experiment B, DOCKET L846)
+**Source:** `PROME/reports/2026-10-28_wq515-batch1/REPORT.md` (commit 8bf6e7310; sha256 `dc72c6f4…e83d`), with `SOURCE_INVENTORY.md` (frozen 20:41:47 EDT before any destination read) and `provenance.tsv`. One independent Sonnet reader spawned by PROME, read 2026-10-28 20:40:59–20:44:37 EDT. PROME saved the reader's text verbatim.
+**Method version:** `output/2026-10-25_wq515-information-fidelity-method.md` as delivered at **9c97f5012**. The only later change, 5d202173e (10/25), is documentation: clock wording, moved reference paths and a receipt note. Formulas, eligibility, severity and grading are unchanged (DEWEY `git diff` 9c97f5012..HEAD, 10/28).
+**DEWEY's checks at the artifact (10/28):** all 23 distinct hashes in `provenance.tsv` appear in WALTER's `research/2026-10-26_WQ515/transfers.tsv` and vice versa. 18.5 / 20 = 92.5% and 20 / 42 = 47.6% recompute. DEWEY did not re-grade any field.
+
+**Reader's original scores (primary metric; unchanged here):**
+
+| Measure | Value | Denominator / basis |
+|---|---|---|
+| Assessable transfers | 6 of 10 | BROCK pos 1–2, HANS pos 8, SAM pos 9: no destination record at the 24h+ read. Excluded, **not counted as loss** |
+| Caveats assessed | 8 of 17 | weight 20 of 42 (47.6% of total weight) |
+| Weighted end-to-end retention | **92.5%** (18.5 / 20) | six active desks only |
+| Severity-3 (reversal) losses | **0 of 3** assessable | the other 3 severity-3 caveats sit on unassessable transfers |
+| Material (severity-2) losses | 0 lost; 1 partial (FALCON pos 6 C1 = 0.5) | 8 caveats: 6 fully retained, 2 partly, 0 lost |
+| Per-handoff slope | **−8.33 pp** per handoff | 6 transfers, 12 observations, hops 1–2; **all of it from one judgment call** (pos 6) |
+
+**Sensitivity (labelled; it does not replace the scores above):** pos 6 C1 = 1 and C2 = 1 → 100%, slope 0. Pos 6 C1 = 0 → 87.5%, slope −13.9 pp (R² 0.167). Adding secondary-owner branches outside the primary metric → 23 / 27 = 85.2%. The 85.2% includes ISHM on pos 8 (C1 = 0), which may be a deliberate INFO-recipient scope choice, not a loss.
+
+**Descriptive only, at hop 1:** on pos 9 (SAM), WALTER's own card retained 6 of 11 caveat weight (~54.5%) graded against the LIQUID source paragraph. C3 "EMB contains Brazil" and C5 "SAM view dated Oct 20" were graded 0. The card's evidence came from a different source than the one transfers.tsv names. No hop 2 exists to complete the chain.
+
+**What this does to this review's claims:**
+1. **Key Finding 3 stands as written.** This batch also does not establish a cross-desk caveat-loss rate: 6 assessable transfers and effectively one imperfect transfer support no rate, no fleet statement and no p-value (reader §9).
+2. **Among the six active recipient desks, no reversal-grade caveat was lost.** That is the result. It is a statement about those six desks in one week. It is not a statement about the fleet.
+3. **The failure that motivated the test is not tested by it.** The test was motivated by DEWEY's own-synthesis losses (NVIDIA $164.5B, the charged-off cohort). This batch measures WALTER → owner transfers, not DEWEY's syntheses.
+4. **The largest gap is missing records, not lost caveats.** 4 of 10 owners (BROCK, HANS, SAM) had not processed the packets at the read. The metric cannot say whether they would have kept the caveats.
+
+**Contrary evidence the reader names (kept in substance):**
+- VULCAN, BRENT, CARL and LABOR re-read the primary source themselves, so high retention may be re-derivation rather than preservation. The metric cannot separate the two.
+- Hop 1 is WALTER's own card, written knowing the sampled caveat classes. A flat 1.0 there gives the slope almost no variance.
+- FALCON's pos 6 "loss" may be a later-source correction (the AP update overtook the earlier timing caveat).
+- Only active desks are measured.
+- There was one reader and no inter-rater check.
+
+**Scope:** WQ-515 A was ONE batch. No fleet rule, collector, standing audit, safeguard or second batch follows from this addendum, and DEWEY proposes none. Will's 10/25 instruction stands: review the Experiment A and B results, then decide whether further work is justified. The five-case idea remains NOT APPROVED. The §5 independent full-text validation remains unfinished and is not affected by this result.
 
 ## Counter-Evidence
 - **Against the observability gap mattering:** every B-case is either contingent (B1), a share not a probability (B2), contested inference (B3), absorbed by a federal backstop (B4), or unobserved (B5). On the current evidence the gap could be harmless, with public prices catching what matters in time. The fleet has no test of lead/lag.

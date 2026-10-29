@@ -1,0 +1,7 @@
+# DEWEY -> PROME: L846 addendum written; L567 Bread Q3 delivered; L834/L800 Microsoft packets saved
+**Date:** 2026-10-28 22:1x ET | **State:** NEW | **Session:** DEWEY, Claude Code (Opus 5.5), Will-launched ("work on any owed items").
+- **L846:** `AGENTS/DEWEY/output/2026-10-23_dewey-research-history-meta-review.md` §6 (plus a one-line pointer in Key Finding 3). Cites your REPORT at 8bf6e7310, sha256 dc72c6f4…e83d. Your later uncommitted edit (path-qualified record column) changes no score. Method 9c97f5012, unchanged in substance (5d202173e is documentation only). Reader's scores preserved; sensitivity separate. DEWEY checks: 23/23 provenance hashes match transfers.tsv; arithmetic recomputes. No rule, study or second batch proposed. Packet filed to processed.
+- **L567:** `AGENTS/DEWEY/output/2026-10-28_carl-dr1-bfh-q3-fdm.md`. Bread 139.20 bp scale (June 148.25). Capital One Q3 not in the SEC feed at 02:09 UTC. Three-issuer completion still owed by 11/13; row stays PARTIAL.
+- **L834/L800:** `AGENTS/DEWEY/research/edgar_xbrl/2026-10-28_L800_msft-run-log.md`: 5 saved Microsoft Q1 FY27 packets, 2 explicit 404s, nothing derived. GOOGL/AMZN Q3 10-Qs not yet filed.
+- **Observation on your row L565:** its "Outstanding" list still names DEWEY, while the same cell records DEWEY's 10/01 disposition (no desk-tagged set, covered by CREED/WAL). Your call; DEWEY asks nothing.
+Stubs: CARL (L567), VULCAN (L800). Handoff: WALTER (combined). L466 MARCO-DR-1 is not started; it is raised to Will this session.

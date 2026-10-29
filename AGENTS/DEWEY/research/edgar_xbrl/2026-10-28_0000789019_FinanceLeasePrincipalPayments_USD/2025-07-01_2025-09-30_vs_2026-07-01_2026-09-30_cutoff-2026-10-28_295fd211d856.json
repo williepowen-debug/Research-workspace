@@ -1,0 +1,59 @@
+{
+  "entity": "MICROSOFT CORPORATION",
+  "cik": "0000789019",
+  "concept": "FinanceLeasePrincipalPayments",
+  "unit": "USD",
+  "source_url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000789019/us-gaap/FinanceLeasePrincipalPayments.json",
+  "retrieved_at": "2026-10-29T02:10:57.976250+00:00",
+  "response_sha256": "295fd211d8565b01c17f20c089d3ab0b64fcdb21710b2f82c96b2637143d2ed7",
+  "filing_cutoff": "2026-10-28",
+  "selection": "Exact periods/unit; latest filed on or before cutoff; conflicting latest records rejected",
+  "prior": {
+    "start": "2025-07-01",
+    "end": "2025-09-30",
+    "val": 639000000,
+    "accn": "0001193125-26-436133",
+    "form": "10-Q",
+    "filed": "2026-10-28",
+    "fy": 2027,
+    "fp": "Q1",
+    "frame": "CY2025Q3",
+    "unit": "USD",
+    "kind": "reported",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/0001193125-26-436133-index.html"
+  },
+  "current": {
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "val": 1000000000,
+    "accn": "0001193125-26-436133",
+    "form": "10-Q",
+    "filed": "2026-10-28",
+    "fy": 2027,
+    "fp": "Q1",
+    "frame": "CY2026Q3",
+    "unit": "USD",
+    "kind": "reported",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/0001193125-26-436133-index.html"
+  },
+  "calculation": {
+    "kind": "derived",
+    "difference": 361000000,
+    "unit": "USD",
+    "formula": "current.val - prior.val",
+    "percent_change": 56.4945226917058,
+    "percent_formula": "(current.val - prior.val) / prior.val * 100; omitted when prior <= 0"
+  },
+  "limits": [
+    "Filing cutoff is not a historical API snapshot.",
+    "Same concept/unit and similar duration do not establish accounting comparability.",
+    "Standard entity-level US-GAAP facts only; custom tags and segment facts need document work.",
+    "Filing links identify sources; the source statements have not been independently reconciled.",
+    "A fact appears in the SEC API only after the XBRL filing is processed; a press-release number is not in it."
+  ],
+  "retrieval_basis": "live-fetch",
+  "notes": [
+    "Retrieved live by edgar_doc.py compare; retrieved_at is the tool clock (UTC) when the response arrived.",
+    "Instant (balance-sheet) metrics, custom tags, segment facts and accounting changes need further source work; this record covers one duration fact."
+  ]
+}

@@ -1,0 +1,110 @@
+{
+ "retrieved_utc": "2026-10-29T02:09:16Z",
+ "retrieved_by": "DEWEY main session (Claude Code, Opus 5.5), curl with SEC contact UA per WQ-488 EMAIL A",
+ "files": {
+  "BFH_20260930_10q.htm": {
+   "sha256": "0f8ff6aba4c6944e0f74862205344dd30ff1fb8c1add1ed81021601b21fcd224"
+  },
+  "BFH_20260930_10q.txt": {
+   "sha256": "1965f048976670c2bc496d12a8a3283a8c28728f817149c3d3b55cff4f3c66ea"
+  },
+  "BFH_submissions.json": {
+   "sha256": "b2d9f6562a6449f0d1750a657277bd69374940fcc3d542c18e6a109733c82913"
+  },
+  "COF_submissions.json": {
+   "sha256": "c148ba9998edde1f4101af266f6964b55b7b25af9ac5626923c7cf9aa8a84fc8"
+  }
+ },
+ "sources": {
+  "BFH_20260930_10q.htm": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000092/bfh-20260930.htm",
+  "BFH_submissions.json": "https://data.sec.gov/submissions/CIK0001101215.json",
+  "COF_submissions.json": "https://data.sec.gov/submissions/CIK0000927628.json"
+ },
+ "BFH_filing": {
+  "accession": "0001101215-26-000092",
+  "form": "10-Q",
+  "report_date": "2026-09-30",
+  "filed": "2026-10-27"
+ },
+ "COF_latest_10Q_in_feed": [
+  [
+   "10-Q",
+   "2026-07-28",
+   "2026-06-30",
+   "0000927628-26-000089"
+  ]
+ ],
+ "BFH_Q3_tables_millions_note2_pp36_39": {
+  "credit_card_loans": {
+   "2026-09-30": 18031,
+   "2025-12-31": 18417
+  },
+  "modification_account_balance": {
+   "Q3-2026": 90,
+   "Q3-2025": 100,
+   "9M-2026": 251,
+   "9M-2025": 258,
+   "pct_total_card_loans": {
+    "Q3-2026": 0.5,
+    "Q3-2025": 0.6,
+    "9M-2026": 1.4,
+    "9M-2025": 1.5
+   },
+   "wavg_rate_reduction_pp": {
+    "Q3-2026": 23.9,
+    "Q3-2025": 23.2,
+    "9M-2026": 23.9,
+    "9M-2025": 23.1
+   },
+   "basis": "outstanding balance at period end of modifications undertaken in past 3/9 months still in program; includes principal, accrued interest and fees"
+  },
+  "trailing12m_still_program_cohort_amortized_cost": {
+   "2026-09-30": {
+    "30-59": 20,
+    "60-89": 18,
+    "90+": 20,
+    "total_delinquent": 58,
+    "current": 251,
+    "total": 309
+   },
+   "2025-12-31": {
+    "30-59": 24,
+    "60-89": 22,
+    "90+": 26,
+    "total_delinquent": 72,
+    "current": 253,
+    "total": 325
+   }
+  },
+  "subsequent_default_within_12m": {
+   "number": {
+    "Q3-2026": 6764,
+    "Q3-2025": 7124,
+    "9M-2026": 14419,
+    "9M-2025": 14099
+   },
+   "outstanding_balance": {
+    "Q3-2026": 14,
+    "Q3-2025": 15,
+    "9M-2026": 29,
+    "9M-2025": 29
+   }
+  },
+  "reaged_pct_total_card_and_other_loans": {
+   "Q3-2026": 2.8,
+   "Q3-2025": 2.9,
+   "9M-2026": 3.1,
+   "9M-2025": 3.2
+  },
+  "delinquency_rate_pct": {
+   "2026-09-30": 5.57,
+   "2025-12-31": 5.75
+  },
+  "net_principal_loss_rate_pct": {
+   "Q3-2026": 6.4,
+   "Q3-2025": 7.39,
+   "9M-2026": 6.9,
+   "9M-2025": 7.81
+  }
+ }
+}
