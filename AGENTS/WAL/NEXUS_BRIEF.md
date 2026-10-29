@@ -1,8 +1,8 @@
 # WAL — NEXUS Brief
 
-**As of:** October 22 2026 12:31 ET. **STATUS commit `1d4d4210adbcdfbea6a3d3c363d80e0fa36415dc`**. Will-interactive session (Claude Opus 5.5): catch-up, L171 10-Q frame frozen, desk sweep, court checks, text cleanup, Q3 thesis fold, **post-10-Q re-score rule pre-registered** (`Q3_10Q_RESCORE_RULE_2026-10-22.md`), DAEDALUS D:L793 fixes. *Prior pin:* October 22 12:2x ET, STATUS `390d54113`. *Rewritten 10/22 as a current synthesis; the previous text (10/19–10/21 detail) is in git history and in the research files it pointed to.*
-**Status:** Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is not filed yet (EDGAR ≥ Mon 10/26, statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md`.
-**Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** Q3 evidence is folded into THESIS/WEAKNESSES as a dated no-re-mark entry (CHANGELOG 2026-10-22); the re-score is owed right after the 10-Q grade.
+**As of:** October 28 2026 22:50 ET. **STATUS commit `66c884cf7814a6d3276de3555e5c26cd550a6635`**. Will-interactive session (Claude Opus 5.5, laptop): catch-up and data refresh — no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain. *Prior pin:* October 22 12:31 ET, STATUS `1d4d4210a`.
+**Status:** nothing graded since 10/22. Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is **still not on EDGAR** (10/28 ~22:40 ET; statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md` (10/28 close $75.96 = EV).
+**Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** The re-score is owed right after the 10-Q grade.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity and the price guards are REGINALD's; structure and position management are TERRY's and Will's.
 
 ## What Q3 showed (8-K acc 0001628280-26-066286; call B2)
@@ -21,20 +21,22 @@
 
 **Judgment:** Q3 runs against the credit bear and slightly against the bull's NII engine. What remains of the bear rests on the $99M appraisal and the OREO/special-mention build. No re-mark until the 10-Q, because the Bear-medium kill needs both of its legs and only one is in. **Pre-registered 10/22:** a cure moves Bear-medium 16 → 8 (kill fires); still non-paying or unmentioned 16 → 12; a partial write-down holds 16; a majority loss 16 → 20.
 
-## Since the print (10/22)
+## Since the print (through 10/28)
 
-- **Cantor courts:** remand of WAL's guaranty claims to LA Superior and stay relief both GRANTED 8/24; WAL filed a §523 nondischargeability suit against the Stupins 9/15 (8:26-ap-01096); the Stupins moved to dismiss; **hearing Wed 12/9**. Procedural progress, no recovery → `research/2026-10-22_court-checks.md`.
-- **Jefferies:** FQ3 10-Q never mentions WAL; a second, unrelated Point Bonita fraud (Radiant/Sapphire) disclosed; NY index numbers still unknown (NYSCEF blocks automation).
+- **NDFI (new 10/28):** First Eagle Private Credit Fund SPV amendment dated 10/1 (8-K 10/5): Western Alliance Bank joins as a lender with a **$100M commitment** — the second private-credit SPV joinder in two weeks after Crestline 9/18. A commitment, not a funded balance; exposure direction, not stress; V3 stays 3/5 until the 10-Q NDFI table (KB-260).
+- **Q3 Call Report (MI3, bank NDFI):** not filed as of 10/28 (RSSD absent from FFIEC's 2,643-filer list); due Fri 10/30; FFIEC token expires Thu 11/5.
+- **Insiders / ownership:** 9/24 → 10/28 no Form 144, 13D/G or open-market trade; 10/19 Form 4s routine RSU settlements (KB-252/259).
+- **Short interest:** FINRA 10/15 settlement 6.35M shares, +2.15%, third straight rise; days-to-cover 4.68 (KB-258). Dated observation, no score read.
+- **Cantor courts:** remand + stay relief GRANTED 8/24; WAL §523 suit vs the Stupins, **hearing Wed 12/9**. Procedural, no recovery → `research/2026-10-22_court-checks.md`.
+- **Jefferies:** FQ3 10-Q never mentions WAL; NY index numbers still unknown.
 - **Sell-side:** Stephens PT $94 → $88 on the NII guide (B2, single source, KB-253).
-- **Insiders:** ten 10/19 Form 4s are routine RSU vestings; no open-market trades (KB-252).
-- **L171:** 10-Q frame frozen 10/22 with pre-filing anchors.
 
 ## Next carriers
 
 1. **Q3 10-Q** — frozen frame verbatim ($99M §4 first after subsequent events; WAL-01/02; full NPL; OREO; NDFI 25.9%; Cantor; hotel), then the post-Q3 re-score.
-2. **Q3 FFIEC / MI3** — call reports ~10/30; REGINALD cohort screen due 11/7; FFIEC JWT expires 11/5 (Will-side renewal).
-3. **12/9** WAL §523 hearing; **11/30** Makhijani status conference (unverified).
+2. **Q3 Call Report / MI3** — retry from Sat 10/31, before the JWT expires Thu 11/5; REGINALD cohort screen due 11/7.
+3. **12/9** WAL §523 hearing; **11/30** Makhijani status conference (unverified; CourtListener now refuses anonymous access).
 
 ## Delivery
 
-Desk files: STATUS, MEMORY, THESIS, WEAKNESSES, CHANGELOG, POSITIONS, INDEX, KB (257 rows / 20 groups), PREDICTIONS (cells de-glued only). PROME packet for L171: `PROME/inbox/2026-10-22_from-WAL_L171-frame-frozen-catchup.md`. Exact-path commits, pushed through `scripts/safe-push.sh`. This brief is the session's last write, committed after its STATUS pin.
+Desk commit `27ee3ed4a` (KB 260 rows / 20 groups; 9 expired rows judged; STATUS/MEMORY/INDEX; inbox drained) + stamp fix `66c884cf7`. PROME packet: `PROME/inbox/2026-10-28_from-WAL_catchup-data-refresh.md` (`e03d97e7b`, stamp fix `54071b1bc`). Exact-path commits, pushed through `scripts/safe-push.sh`. This brief is the session's last write, committed after its STATUS pin.
