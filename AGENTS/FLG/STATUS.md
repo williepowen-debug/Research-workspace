@@ -24,6 +24,8 @@
 | **FFIEC CDR pull (owed since 8/28)** | Call Report facsimiles for 2026Q1 + Q2 pulled by FLG: **every MI3 cell matches to the dollar**; SR 07-1 = $32.76B / total RBC $10.00B = **327.52%** (reproduces), Q1 **344.23%**. Call Report coverage basis = $869M / $2,988M = **29.09%** vs 10-Q 31.04% — ⚠️ wider non-accrual perimeter; FLG-02 grades on the 10-Q only. Q3 not yet filed (CDR Error 204) | 098 |
 | **Price** | **$10.16** [fetch.py 22:47 ET, as-of 10/28 close] vs $11.44 the close before the print (−11.2%). REGINALD's `VX-REG-6.03` RED since 10/7, ladder exhausted (REGINALD's row) | — |
 
+**Propagated to the workbook (10/28, 23:0x ET):** `TRADE.md` re-stated (re-arm A + B FIRED 10/23, packet `936d8c0fd`; Will-direct Mar-27 10P ×4 order OPEN, not booked per TERRY; no position in the mirror) · `TRIGGERS.tsv` notes on T-01/T-07/T-10/T-12, no `Next_Check` moved (file now 74.6% of the read budget — rotate at the 10-Q session) · `MATURITY_WALL.tsv` call cross-check header line (not a data row) · `PREDICTIONS.tsv` FLG-02 basis receipt (Call Report 29.09% vs 10-Q 31.04%). THESIS and EXIT_PROTOCOL deliberately untouched until the 10-Q.
+
 **Inbox drained (5):** DAEDALUS WQ-508 → FILED (B32 already applied by DAEDALUS `d3488e641`, verified at the diff; C21/B08 optional, not taken, nothing contested) · PROME put-order heads-up → FILED, no surface change (Will-direct line, fill UNKNOWN; per USER.md no reminders) · TERRY 2024-shock comparison → **LOGGED KB-097** (basis caveat travels: NPL then vs NAL now) · WALTER SIG-W-20261023-005 → FILED (graded 10/23, board_log receipt) · NEXUS WQ-520 → **INTEGRATED: `NEXUS_BRIEF.md` written this session.**
 
 ## 🔴 START HERE — the thesis moved, and the headline number is still not the actionable one
