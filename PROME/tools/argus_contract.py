@@ -258,12 +258,35 @@ def freeze(sc, plan):
                  seen[d['path']]['commit_sha256'] == d['sha256']}
     auto = attributed_by_commit(sc, baseline, seen, set(delivered), pin_rules)
     required |= set(auto)
+    # Will 2026-10-29 14:05 ET ("we need to fix this freeze thing. This seems costly"; acceptance
+    # ACCEPTANCE_freeze_foreign_pending_2026-10-29.md): the freeze applies the SAME foreign test the verify applies. A
+    # pending path outside PROME's OWNED lane under the pin, not delivered, not a never-advisory or ignore-named file,
+    # with no PROME authorship evidence — including the committed-AND-pending overlap when its commits are all non-PROME
+    # — is RECORDED under `foreign_at_freeze` (lane + inventory snapshot) instead of demanding a hand-written observed
+    # entry. OWNED, PROME-evidenced, guarded and unpinned cases stay refused below exactly as before.
+    foreign = {}
+    if pin_rules is not None:
+        subjects = sc.commit_subjects(baseline)
+        attributable = attributable_commits(sc, baseline, seen, set(delivered), pin_rules)
+        for p in sorted(set(seen) - required):
+            s = seen[p]
+            if not s['pending'] or never_advisory(sc, p, pin_rules) or PurePosixPath(p).name in IGNORE_FILES:
+                continue
+            lane = sc.classify(p, pin_rules)[0]
+            if lane == 'OWNED':
+                continue
+            if sc.authorship_evidence({'path': p, 'committed': [c[:9] for c in s['commits']], 'pending': []}, subjects):
+                continue
+            if s['commits'] and p not in attributable:
+                continue
+            foreign[p] = {'lane': lane, 'snapshot': s}
+        required |= set(foreign)
     require(set(seen) <= required, 'unclassified inventory (PENDING, OWNED, PROME-evidenced or differing from its commit): ' + ', '.join(sorted(set(seen) - required)))
     contract = {'baseline': baseline, 'anchor': head, 'delivered': delivered, 'evidence': deps}
     manifest = {'schema': 2, 'verdict': sc.FROZEN, 'baseline': base['sha'], 'head': head,
                 'recorded_at': dt.datetime.now(dt.timezone.utc).isoformat(), 'contract': contract,
                 'contract_sha256': digest(contract), 'observed': observed, 'inventory': seen,
-                'attributed_by_commit': auto, 'perimeter': pin,
+                'attributed_by_commit': auto, 'perimeter': pin, 'foreign_at_freeze': foreign,
                 'paths': {p: d['sha256'] for p, d in delivered.items()}}
     rc, lines = verify(sc, manifest)
     require(rc == 0, '; '.join(lines))

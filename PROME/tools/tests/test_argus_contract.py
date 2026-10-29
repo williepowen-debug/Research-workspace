@@ -618,6 +618,47 @@ class PerimeterPinTests(ContractFixture):
         self.assertEqual(rc, 0, lines)
         self.assertIn(f'FOREIGN-HISTORY (advisory, attributed by its own commits {p[:9]}): AGENTS/BROCK/far.md', lines)
 
+    # --- freeze: foreign pending files are recorded, not demanded (Will 2026-10-29 14:05 ET) ---
+
+    def test_f1_pending_foreign_file_freezes_without_an_observed_entry_and_is_recorded(self):
+        self.write('AGENTS/BROCK/live.md', 'desk typing\n')
+        d = self.freeze()
+        self.assertIn('AGENTS/BROCK/live.md', d['foreign_at_freeze'])
+        self.assertEqual(d['foreign_at_freeze']['AGENTS/BROCK/live.md']['lane'], 'EXCLUDED')
+        self.assertEqual(set(d['foreign_at_freeze']['AGENTS/BROCK/live.md']['snapshot']), {'commits', 'pending', 'working_sha256', 'commit_sha256'})
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 0, lines); self.assertEqual(self.foreign_lines(lines), [FP.format('EXCLUDED', 'AGENTS/BROCK/live.md')])
+
+    def test_f2_committed_and_pending_foreign_overlap_freezes_and_is_recorded(self):
+        self.desk_commit('AGENTS/BROCK/live.md', 'v1\n'); self.write('AGENTS/BROCK/live.md', 'v2 typing\n')
+        d = self.freeze()
+        self.assertIn('AGENTS/BROCK/live.md', d['foreign_at_freeze'])
+
+    def test_f3_owned_pending_file_still_refuses_the_freeze(self):
+        self.write('PROME/state/stray.md', 'owned pending\n')
+        with self.assertRaises(ValueError) as cm: self.freeze()
+        self.assertIn('PROME/state/stray.md', str(cm.exception))
+
+    def test_f4_prome_evidenced_pending_file_still_refuses_the_freeze(self):
+        self.write('AGENTS/BROCK/inbox/2026-10-29_from-PROME_x.md', 'packet\n')
+        with self.assertRaises(ValueError) as cm: self.freeze()
+        self.assertIn('from-PROME_x.md', str(cm.exception))
+        self.desk_commit('AGENTS/BROCK/y.md', 'v1\n', 'PROME: wrote y'); self.write('AGENTS/BROCK/y.md', 'v2\n')
+        (self.root / 'AGENTS/BROCK/inbox/2026-10-29_from-PROME_x.md').unlink()
+        with self.assertRaises(ValueError) as cm: self.freeze()
+        self.assertIn('AGENTS/BROCK/y.md', str(cm.exception))
+
+    def test_f5_desk_ignore_file_pending_still_refuses_the_freeze(self):
+        self.write('AGENTS/BROCK/.gitignore', 'tmp/\n')
+        with self.assertRaises(ValueError) as cm: self.freeze()
+        self.assertIn('AGENTS/BROCK/.gitignore', str(cm.exception))
+
+    def test_f6_explicit_observed_entry_still_accepted_and_wins(self):
+        self.write('AGENTS/BROCK/live.md', 'desk typing\n')
+        self.plan['observed']['AGENTS/BROCK/live.md'] = self.unrelated()
+        d = self.freeze()
+        self.assertIn('AGENTS/BROCK/live.md', d['observed']); self.assertNotIn('AGENTS/BROCK/live.md', d['foreign_at_freeze'])
+
     def test_z8b_snapshot_history_with_a_prome_commit_on_the_overlap_path_stays_strict(self):
         self.freeze(); a = self.commit('PROME/result')
         p = self.desk_commit('AGENTS/BROCK/other.md', 'v1\n', 'PROME -> BROCK: other note')
