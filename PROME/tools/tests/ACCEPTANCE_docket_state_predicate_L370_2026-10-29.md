@@ -1,0 +1,35 @@
+# ACCEPTANCE — DOCKET state predicate in `prome_gate.py` reads through the canonical reader (L370 ⊕ L450; CATO review item 1, Will 2026-10-29 10:05 ET "can we fix these 3 things now?")
+
+**Defect (L370, registered 2026-09-19):** two checks — `check_docket_overdue` (advisory) and the BLOCKING `DOCKET lands-today dispositioned` — filter rows with `r[3].split("(")[0] != "PENDING"`, so a state cell must be EXACTLY `PENDING` (or `PENDING(…)`) to be inspected. Every annotated row (`PENDING — registered …`, `PENDING · RE-DATED …`) is invisible; the better documented a row, the less the guard sees. Measured on the live docket 2026-10-29 10:1x ET before the edit: overdue rows seen 0 (canonical reader: 27); landing-today rows seen 0 (canonical reader: 12).
+
+**Written BEFORE the edit (WQ-229).** Properties in the defect's terms, not a restatement of its symptom:
+
+- **AC1 — annotation-blind:** a state cell whose lead token is `PENDING` followed by ANY separator and text (` — `, ` · `, `(`, `:`, a space) is inspected by both checks exactly as a bare `PENDING` cell is.
+- **AC2 — canonical parity:** the predicate returns PENDING for exactly the cells `scripts/docket_view.py:state_kind` returns PENDING for (`PENDING…`, `★…`, `RE-DATED…`, `SLID…`, case-insensitive after strip) and TERMINAL otherwise. ONE reader, two consumers; no second grammar.
+- **AC3 — buried token stays excluded:** a cell that CONTAINS `PENDING` but does not LEAD with a token (`RESOLVED … was PENDING`, `⛔ DATE CONTESTED … PENDING`) is NOT inspected by these two checks; it remains the buried-state-token check's finding, not a double report.
+- **AC4 — fail-closed import:** if the canonical reader cannot be imported, the predicate falls back to the same lead-token rule inline (never to the exact-match test), and the fallback is covered by the test.
+- **AC5 — observed consequence, not inferred:** the live docket is re-measured after the edit and the counts recorded here; every row the restored BLOCKING check surfaces is dispositioned (graded, re-dated, or annotated `COVERED:<who>`) in the same sitting, or the closeout is PARTIAL.
+
+**Neighbours (consider, not perform — WQ-229):**
+- ordinary: bare `PENDING` and `PENDING — registered …` → inspected (test).
+- overlap: legacy `PENDING(OVERDUE-annotated …)` form → inspected and its own annotation still read from the same cell (test).
+- wrong owner: N/A — the predicate reads the state cell only; owner logic untouched.
+- missing information: empty state cell → TERMINAL by the canonical reader (skipped here; the schema check owns empty cells). Recorded, not changed.
+- concurrent activity: Will's CATO session is live on this host (Codex, `AGENTS/CATO`); `prome_gate.py` is PROME-owned and CATO does not write it. Verified by `git status` at the edit.
+
+**Test:** `PROME/tools/tests/test_docket_state_predicate_L370.py` (unit test on the predicate; no live surface touched; fixture-free by design).
+
+**Completion note (filled after the edit):**
+- IMPLEMENTED: predicate `_docket_pending(state)` added; both call sites rewired.
+- TESTED: see the test file's run line below.
+- INDEPENDENTLY VERIFIED: one Opus counterexample reader (WQ-447), result recorded below.
+- STILL UNRESOLVED: L368 (spawn-driver COVERED suppression) is a different defect in a different file and stays its own row.
+
+**Post-edit measurement and reads:** (appended at the sitting)
+
+- **Post-edit measurement (live docket, 2026-10-29 10:2x ET, same script as the pre-edit line):** overdue rows seen 27 (24 without an OVERDUE annotation — the advisory now reports the true state; before the edit it read 'every past-dated PENDING row carries an OVERDUE annotation' while seeing none) · landing-today rows seen 12, undispositioned 10 → every one given a dated, truthful `COVERED:<who>` disposition in the same sitting (L171 · L406 · L432 · L490 · L522 · L630 · L729 · L793 · L812 · L827), re-measured 0 undispositioned. One finding the restored gate produced: L812 (CYPHER open-wave re-check, due 10/29, owner dark) was a Tier-1 due row the spawn driver never listed and the morning boot never woke — carried to the next boot / Will's slate.
+- **Unit test:** `python3 PROME/tools/tests/test_docket_state_predicate_L370.py` → 13 cases × predicate/parity/fallback agree with the canonical reader (rc 0).
+- **Independent read:** one Opus counterexample reader spawned 10:2x ET on the acceptance file, the diff, the test and both consumers; result recorded below when it lands.
+- **Independent read result (Opus, 10:13 ET; ledger scratchpad `reader-L370.md`, ORCH_LOG L370-REPAIR-READER):** ok 5 · ⚠️ 5 · ❌ 1. ok: predicate matches `state_kind` on all 856 live cells (fallback too); buried tokens excluded; no module-name collision scripts∩PROME/tools; csv vs raw-tab parse identical on the live file; all 12 landing rows carry a real `COVERED:` token. **❌1 FIXED (the one post-read fix the budget allows):** `check_docket_overdue` treated any `OVERDUE` substring as a current annotation, so an old re-date note (`…→2026-09-19 … (OVERDUE 1d …`) cleared L378 and L557; now `_docket_overdue_annotated(annotation, end)` counts an annotation only if a date within 60 chars after the token is ≥ the row's end date. Re-measured: 27 overdue seen, **26 unannotated** (only L368 carries a dated annotation). Six cases added to the unit test (rc 0). This fix is post-read and therefore IMPLEMENTED · TESTED, not independently verified — disclosed.
+- **Declared residue (WQ-178), registered as DOCKET L863 for the next process pass:** ⚠️2 the BLOCKING lands-today check clears on any `COVERED` substring (`NOT COVERED`, `UNCOVERED` would pass; 0 live instances) and its pass line says "nothing PENDING lands today" when 12 land and are all covered — match the disposition grammar `COVERED\s*:\s*\S` and print the count; ⚠️3 `~YYYY-MM-DD` approximate spans (accepted by `docket_view.RE_SPAN`) are skipped by both consumers' `fullmatch` (1 live row, `~2026-11-15` SHADE) — strip `~` or parse with `RE_SPAN`; ⚠️4 the predicate does `sys.path.insert(0, scripts)` on every call (+1,712 entries per run; `scripts/` searched before `PROME/tools` for later bare imports such as `agent_freshness`; no collision today) — guarded append or import once; ⚠️5 `except Exception` hides a broken canonical reader silently — narrow to import errors, emit one ADVISE on fallback, let `state_kind` exceptions reach `guard()`; ⚠️6 both consumers parse DOCKET with `csv.reader` honouring quotes, so a stray leading `"` swallows following rows (0 live cells start with `"`) — split on raw tabs like the canonical reader. Also noted: `docket_view.py:186` marks ᵒ on the same bare `OVERDUE` substring — the view shares ❌1's weakness; one-reader parity wants the dated rule there too.
+- **Completion note:** IMPLEMENTED (predicate + both consumers + dated-OVERDUE rule) · TESTED (19 cases, rc 0; live re-measurement) · INDEPENDENTLY VERIFIED (the predicate and both consumers, by the Opus reader; the ❌1 fix itself is NOT independently verified) · STILL UNRESOLVED (residue ⚠️2–⚠️6 → L863; L368 spawn-driver COVERED suppression stays its own row).

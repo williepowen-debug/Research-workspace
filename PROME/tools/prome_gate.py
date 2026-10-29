@@ -682,6 +682,43 @@ def check_gates_tsv():
     record_gate_citability(rows)          # L417: the GATE-CITABILITY RULE, mechanised (was a README one-liner)
 
 
+# --- DOCKET state predicate (L370 ⊕ L450, 2026-10-29) --------------------------------------
+# ONE reader for "is this row still forward-looking": scripts/docket_view.py:state_kind, the
+# canonical reader the calendar is generated from. The former test here inspected only a BARE
+# `PENDING` cell (an exact match on the text before the first parenthesis) — every annotated row
+# ("PENDING — registered …", "PENDING · RE-DATED …") was invisible to the overdue check and to the
+# BLOCKING lands-today gate, so the better documented a row was, the less the guard saw
+# (measured 2026-10-29: the exact test saw 0 of 27 overdue and 0 of 12 landing-today rows).
+# Acceptance + test: PROME/tools/tests/ACCEPTANCE_docket_state_predicate_L370_2026-10-29.md.
+def _docket_pending_fallback(state: str) -> bool:
+    """Inline copy of the canonical lead-token rule, used ONLY if docket_view cannot be imported
+    (fail-closed toward the canonical semantics, never toward an exact-match test)."""
+    s = (state or "").strip().upper()
+    return s.startswith("PENDING") or s.startswith("★") or s.startswith("RE-DATED") or s.startswith("SLID")
+
+
+def _docket_pending(state: str) -> bool:
+    """True iff the canonical reader classes this state cell PENDING (annotations ignored)."""
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import docket_view  # the canonical reader, imported at use
+        return docket_view.state_kind(state or "") == "PENDING"
+    except Exception:
+        return _docket_pending_fallback(state)
+
+
+def _docket_overdue_annotated(annotation: str, end: str) -> bool:
+    """True iff the state+notes text carries an OVERDUE annotation DATED on or after the row's
+    current end date. A bare substring test read an old re-date note ("…→2026-09-19 … (OVERDUE 1d …")
+    as a current annotation (L370 reader 2026-10-29, ❌1: L378 and L557 were wrongly cleared)."""
+    for m in re.finditer(r"OVERDUE", annotation or ""):
+        tail = annotation[m.end(): m.end() + 60]
+        d = re.search(r"(\d{4}-\d{2}-\d{2})", tail)
+        if d and d.group(1) >= end:
+            return True
+    return False
+
+
 def check_docket_overdue():
     """PENDING rows whose (end-)date has passed — the row-56 ballot-cert class."""
     path = ROOT / "PROME/DOCKET.tsv"
@@ -689,7 +726,7 @@ def check_docket_overdue():
     overdue = []
     with open(path, encoding="utf-8") as f:
         for r in csv.reader(f, delimiter="\t"):
-            if not r or r[0].startswith("#") or len(r) < 4 or r[3].split("(")[0] != "PENDING":
+            if not r or r[0].startswith("#") or len(r) < 4 or not _docket_pending(r[3]):
                 continue
             end = r[0].split("..")[-1]
             if re.fullmatch(r"\d{4}-\d{2}-\d{2}", end) and end < today:
@@ -698,7 +735,7 @@ def check_docket_overdue():
                 # NOTES made every status-annotated row read as unannotated, so the check
                 # reported work that was already done and hid the rows that weren't.
                 annotation = r[3] + " " + (r[5] if len(r) > 5 else "")
-                if "OVERDUE" not in annotation:
+                if not _docket_overdue_annotated(annotation, end):
                     overdue.append(f"{r[0]} {r[1][:40]}")
     record(ADVISE, "DOCKET overdue-unannotated", not overdue,
            # ⚠️ 2026-08-08: truncation must ANNOUNCE itself. The 8/3 audit found this
@@ -808,7 +845,7 @@ def check_docket_today():
         for r in csv.reader(f, delimiter="\t"):
             if not r or r[0].startswith("#") or len(r) < 4:
                 continue
-            if r[3].split("(")[0] != "PENDING":
+            if not _docket_pending(r[3]):
                 continue
             # A row lands today if it is dated today, or is a range spanning it.
             start, end = r[0].split("..")[0], r[0].split("..")[-1]
