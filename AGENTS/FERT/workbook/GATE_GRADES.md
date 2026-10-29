@@ -1,6 +1,6 @@
 # FERT — Registered gate grade history
 
-**LIVE — Last real data refresh: 2026-10-21** (G5 October 21 DTN grade already recorded below; G3 last read October 14). **Hygiene: 2026-10-26** — header and next-review metadata repaired; no new print or gate grade.
+**LIVE — Last real data refresh: 2026-10-28** (G5 October 28 DTN grade recorded below; G3 last formal re-read October 14, AFC w/e 23.10 side read 10/28 moves no leg). **Hygiene: 2026-10-28.**
 **Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are never restated here. **Letter homes:** `GATE-FERT-G5` → `workbook/TRIGGERS.tsv` row **T4** (`Why_It_Wakes_You` cell, encoded 2026-10-09 verbatim from the GATES cell — closes the circular pointer DAEDALUS Gate-Basis #2 ② found; PROME re-points the GATES cell); `GATE-FERT-G3` → `PROME/GATES.tsv` (unchanged).
 
 ## GATE-FERT-G5 — DTN retail DAP **or** MAP > $1,000/ton ($/ton, DTN Progressive Farmer weekly)
@@ -26,6 +26,7 @@
 | **10/7/26** | **Sep 28–Oct 2** | **$934** | **$974** | **MAP** | **$26 · +2.67%** | **NOT FIRED** (8 of 8 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-07 21:44 ET (`KB-FERT-062`); strictly-greater, whole-dollar, US national average as printed |
 | **10/14/26** | **Oct 5–9** | **$934** | **$979** | **MAP** | **$21 · +2.15%** | **NOT FIRED** (9 of 9 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-14 23:46 ET (`KB-FERT-069`); strictly-greater, whole-dollar, US national average as printed. ⚠️ Same print resolves **FERT-12 MISS** ($979 > $975) |
 | **10/21/26** | **Oct 12–16** | **$937** | **$981** | **MAP** | **$19 · +1.94%** | **NOT FIRED** (10 of 10 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-21 08:56 ET (`KB-FERT-079`); strictly-greater, whole-dollar, US national average as printed. 11-print pace MAP ~+0.99%/mo → ~1.9 months to the line |
+| **10/28/26** | **Oct 19–23** | **$939** | **$983** | **MAP** | **$17 · +1.73%** | **NOT FIRED** (11 of 11 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-28 22:17 ET (JSON-LD datePublished 2026-10-28T09:50Z; `KB-FERT-097`); strictly-greater, whole-dollar, US national average as printed. 12-print pace MAP ~+0.98%/mo → ~1.75 months to the line |
 
 🔑 **The APPROACH RATE is the finding, and it is stated here as a rate — a gate row shows distance, never rate.**
 
@@ -74,7 +75,16 @@ Fifth consecutive MAP up-print (+$5 w/w); DAP flat ($934 = $934) after last week
 
 **Re-verified 2026-10-15 08:05 ET** (crash-recovery spawn, PROME `prome-73`; the 10/14 session died uncommitted): first-party curl of the same dtnpf.com article, HTTP 200, 183,078 B, JSON-LD datePublished 2026-10-14T13:18Z — table row Oct 5-9 2026 reads DAP 934 · MAP 979 · potash 502 · urea 672 · 10-34-0 702 · anhydrous 977 · UAN28 442 · UAN32 485, all eight matching `KB-FERT-069`. Grade unchanged: **NOT FIRED**.
 
-**Next grade: 2026-10-28 DTN weekly** (T4 wake; owner-set `review_by` for `G:GATE-FERT-G5`; find the slug on the dtnpf.com crops index, then curl the article). *(Prior next-date 2026-10-21 was met by the already-recorded 10/21 grade above.)*
+**Approach rate, 12-print cut (8/12 → 10/28, 11 weeks) — supersedes the 10-print cut for current use** (log basis, 4.35 wk/mo, same method):
+
+| Leg | 8/12 baseline | 10/28 print | Move over 77 days | Realised approach rate | Implied time-to-fire at that rate |
+|---|---|---|---|---|---|
+| **MAP (binding)** | $959 | $983 | +$24 · +2.503% | **~+0.98 %/mo** (+0.225 %/wk) | **~1.75 months** (~1.86 to the first firing print, $1,001) ≈ **late Dec 2026** |
+| DAP (second) | $917 | $939 | +$22 · +2.399% | **~+0.94 %/mo** (+0.216 %/wk) | ~6.7 months (≈ mid-May 2027) |
+
+Seventh consecutive MAP up-print (+$2 w/w, second +$2 step running); DAP +$2. International phosphate is NOT rising beside it: AFC w/e 23.10 Brazil MAP "up to $850/mt CFR", "continued to decline over recent months"; India DAP $890–900/mt CFR (prior $890–905). The US retail run remains producer-side (sulfur, curtailment), not an international pull. The pace is flat at ~+1 %/mo across the 10-, 11- and 12-print cuts.
+
+**Next grade: 2026-11-04 DTN weekly** (T4 wake; owner-set `review_by` for `G:GATE-FERT-G5`; find the slug on the dtnpf.com crops index, then curl the article). *(Prior next-date 2026-10-28 was met by the 10/28 grade above.)*
 
 ---
 

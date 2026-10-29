@@ -1,4 +1,4 @@
-# Last real data refresh: 2026-10-26
+# Last real data refresh: 2026-10-28
 # Maintenance: DATA_ROUTES.md; source observation dates are row-specific.
 observation_week	published	product	benchmark	value	unit	state	indexed_to_first_observation	percent_from_first_observation	source_authority	source	note
 2026-08-03/2026-08-07	2026-08-12	Urea	DTN US national average retail	678	USD/product ton as published by DTN	MEASURED	100.0	0.0	PRIMARY	KB-FERT-001	Existing source-located KB receipt; not a new live quote. Compare aligned within-series percent changes, not cross-product dollar spreads. No potash comparison.
@@ -7,3 +7,6 @@ observation_week	published	product	benchmark	value	unit	state	indexed_to_first_o
 2026-10-12/2026-10-16	2026-10-21	DAP	DTN US national average retail	937	USD/product ton as published by DTN	MEASURED	102.181	2.181	PRIMARY	KB-FERT-079	Existing source-located KB receipt; not a new live quote. Compare aligned within-series percent changes, not cross-product dollar spreads. No potash comparison.
 2026-08-03/2026-08-07	2026-08-12	MAP	DTN US national average retail	959	USD/product ton as published by DTN	MEASURED	100.0	0.0	PRIMARY	KB-FERT-008	Existing source-located KB receipt; not a new live quote. Compare aligned within-series percent changes, not cross-product dollar spreads. No potash comparison.
 2026-10-12/2026-10-16	2026-10-21	MAP	DTN US national average retail	981	USD/product ton as published by DTN	MEASURED	102.2941	2.2941	PRIMARY	KB-FERT-079	Existing source-located KB receipt; not a new live quote. Compare aligned within-series percent changes, not cross-product dollar spreads. No potash comparison.
+2026-10-19/2026-10-23	2026-10-28	DAP	DTN US national average retail	939	USD/product ton as published by DTN	MEASURED	102.3991	2.3991	PRIMARY	KB-FERT-097	Source-located KB receipt, DTN 10/28 first-party. Compare aligned within-series percent changes, not cross-product dollar spreads. No potash comparison.
+2026-10-19/2026-10-23	2026-10-28	MAP	DTN US national average retail	983	USD/product ton as published by DTN	MEASURED	102.5026	2.5026	PRIMARY	KB-FERT-097	Source-located KB receipt, DTN 10/28 first-party. Compare aligned within-series percent changes, not cross-product dollar spreads. No potash comparison.
+2026-10-19/2026-10-23	2026-10-28	Urea	DTN US national average retail	674	USD/product ton as published by DTN	MEASURED	99.41	-0.59	PRIMARY	KB-FERT-097	Source-located KB receipt, DTN 10/28 first-party. Compare aligned within-series percent changes, not cross-product dollar spreads. No potash comparison.
