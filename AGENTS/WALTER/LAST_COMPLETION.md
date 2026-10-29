@@ -1,89 +1,44 @@
-# WALTER — session CLOSED; light closeout requested by Will
+# WALTER — session CLOSED; FULL closeout (WALTER only)
 
-Updated 2026-10-27T18:56:35Z. GitHub sync confirmed through cca49600b under Will’s explicit push request; receipt: research/2026-10-27_light-close/PUSH-RECEIPT.md. Approved 20-email signal review complete; no additional research or mailbox action in closeout. Resume: research/2026-10-27_light-close/HANDOFF.md. All 82 new handoffs are origin-proven; incorporation remains UNKNOWN. Do not repeat the completed queue. Will agreed that value was concentrated in the strongest findings and 24 cards probably generous; no new routing rule or redesign is approved. Broader duties and prior approvals below remain intact. Full boot remains PARTIAL; no new decision.
-
-Twenty-four new or expanded source-qualified cards 049–072 and 82 create-only handoffs saved/committed at 9d2492d61feb79c128f3b83051425b7763dd08ee. Source and outcome register: research/2026-10-27_queue-review/EMAIL-REVIEW.md; FINAL-DISPOSITIONS.tsv has 399 rows: 38 DISPATCH (merged into 24 cards), 252 NOTE, 30 DUP, 7 FOLD, 72 NO-ACTION. These are accounting units, not independent signals. Parent source batches 20 / 297 and decision batches 390 / 9 all CLOSED. Three bounded Rule 9 verifiers returned explicit closeout receipts; no helper has pending work. Five new cards deliberately carry unconfirmed source leads; other confidence/source limits travel individually.
-
-Fresh origin fetch established the prior real-estate main/handoff commits; all previous 172 October 27 handoffs are publication-proven and reconciled. All new 82 are now origin-proven at 2026-10-27T18:45:15Z through the shared sync; foreign shared scripts prevented WALTER pull/push. Incorporation remains UNKNOWN. No repeat routing for absent acknowledgment. Exact new publication and selected-check evidence follows in the sole receipt below.
-
-Full narrative refresh updates owner-header REGISTRY before NETWORK, affected STATUS, SESSION_LOG and MEMORY. It clears four narrative deferrals, not broader duties. Full scan/context, ordinary inbox/DEWEY integration, Intake/X access rechecks, fleet readiness, stale READS/boot-basis attestation, rotation-tier and lifecycle/retirement adjudication remain incomplete. No broad market clearance. Current-source retirement check retains the review/evidence pointers; no general archive decision. Telegram remains retired. No new Will decision; WQ-503/508/515 and older approval/source-search conditions below stay intact. Prior reboot/mailbox setup record preserved verbatim in research/2026-10-27_queue-review/prior-LAST_COMPLETION.md.
-
-## PRESERVED PRIOR DUTY / APPROVAL RECORD
-
-# WALTER completion — startup recovery October 27
-
-Updated 2026-10-27T15:06:44Z. Current session `01a17de0-aa39-7342-b6f6-18ed9406cd23`; instruction/approval recovery DONE, full boot PARTIAL.
-
-## TELEGRAM RETIREMENT — October 27
-
-Will authorized removal. WALTER plugin disabled, local configure/reply hook removed, launcher flags removed, charter and memory updated. Active-session replies/alerts replace Telegram duties. Official Anthropic documentation still supports Telegram channels; no blanket ban established. Evidence: `research/2026-10-27_telegram-retirement/RESULT.md`. Shared launcher files await PROME commit under root custody; no outgoing tool message or automatic push. Other access/backlog duties below remain.
-
-## CURRENT STARTUP RESULT
-
-Root pull completed (Already up to date). Doctor zero HIGH / three MED. All 21 ordinary inbox packets and three DEWEY returns read; integration and consumption remain pending. Registry lead metadata reviewed. FRED/EIA/vendor/Cboe scan completed at the scopes in `research/2026-10-27_startup/THRESHOLD-SCAN.md`; no new fire established in completed checks, no full-market clearance.
-
-## CURRENT GAPS AND FOLLOW-UP
-
-Research-Intake pull failed for missing HTTPS GitHub authentication; local snapshot ends October 23, cannot override the previous October 26 evidence. X token refresh failed, no IDs marked. Telegram deliberately retired by Will October 27; no reconnection/reply obligation. Full-fleet census unavailable; `bdata` absent. Independent internal work can continue. Readiness UNKNOWN, never DARK. Reauthorization/authentication repair remains pending; no alternative messaging transport attempted.
-
-First work: integrate pending correction/source packets and DEWEY QA before intake marks. Full filter context/catalyst and 48h-ledger extraction, remaining HANS daily/official oil settlement/census legs, lifecycle/retirement and stale READS attestation remain open. Registry rotation-tier debt retained. No blanket consumed declaration. See the dated BOOT-RECEIPT for every executed/incomplete startup duty.
-
-## CURRENT APPROVAL BASIS / WILL_NEEDS
-
-No new research or trade ruling requested. Existing WQ-503 remains open, unchanged. WQ-508 scope persists. WQ-515 selection remains closed 10/10 and ungraded; tenth recipient read eligible October 28 00:38:30Z (October 27 20:38 EDT), approved PROME reader only. All prior source-search stopping rules, bounded permissions and unresolved design decisions below remain. No new collector, unattended run, desk/helper launch or paid access.
-
-## PRESERVED PREDECESSOR — October 27 04:29:15Z
-
-The following is the prior session's exact duty/approval record; execution and transport statements refer to that earlier session. Current access failures above supersede prior access-success statements only for this runtime. Prior closeout receipt is preserved in `research/2026-10-27_startup/prior-LAST_COMPLETION.md`.
-
-# WALTER completion — session closed / October 27 UTC
-
-Updated 2026-10-27T04:29:15Z. FULL narrative closeout at Will’s request; session CLOSED, boot remains PARTIAL.
+Updated 2026-10-29T01:03:47Z. Session runtime: Claude Code, Opus 5.5 (claude-opus-5-5), Will-launched 2026-10-28 20:30 ET with the pre-retirement Telegram flag (inert; Will to update launcher). Boot PARTIAL. Prior record preserved verbatim: research/2026-10-29_boot/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
-Session CLOSED at Will’s request. Gmail work complete at the declared disposition scope: 21 cards/88 handoffs across both passes; second pass 89 content items, 12 cards/54 handoffs, 34 explicit source leads. FULL narrative maintenance completed; boot stays PARTIAL. Runtime OpenAI GPT-6/Codex; exact variant UNKNOWN; session 01a17b72-6396-7253-b3a6-ddaa2015851e. No trade, new monitor, paid access, research commission or desk launch.
+Catch-up after ~30h dark complete for markets, Iran, inbox, intake and DEWEY. Fourteen cards SIG-W-20261029-001–014. WALTER did not push: Will had not authorized it and foreign work was live. A concurrent session's shared-branch push (origin at b40d96719, CARL/DOC 21:02 ET) carried all four session commits (74da61e47, a6614828d, e56233203, 58ad6f5f7); ancestry checked against the local origin ref. reconcile_delivery_log --apply: 58/58 handoffs delivered, 0 orphans. This closeout commit itself is not yet published. Recipient consumption is separate and UNKNOWN.
 
 ## CHANGED
 
-Closeout updates STATUS, MEMORY, SESSION_LOG, REGISTRY and this receipt. Existing 49 owner-header rows reviewed before NETWORK regeneration; no roster/classification or owner grade change. Two LIGHT narrative deferrals cleared. Exact 21 ordinary/3 DEWEY pending inventory saved; no new consumption declaration.
-
-SIG-W-20261027-029–040, 54 new recipient packets, generated INDEX, route/delivery/batch ledgers and research/2026-10-27_gmail-processing/. BOARD 1753 → 1765. BM-20261027-06 CLOSED 89/89: 16 DISPATCH content items merged into 12 cards; 14 DUP, 34 NOTE, 14 NO-ACTION, 11 FOLD. Gmail search/read only; no mailbox changes or sends.
+BOARD 001–014; IRAN_WAR anchor (full sweep 10/29, next ~11/05); REGISTRY (49 rows reviewed, CARL/LABOR dates advanced); STATUS; SESSION_LOG; MEMORY; inbox 21 packets → processed with consume declarations; DEWEY 3 handoffs → processed; intake_seen marked; BATCH_MANIFEST BM-20261029-01 (21/21) and -02 (23/23) CLOSED. Evidence: research/2026-10-29_boot/, research/2026-10-29_iran-full-sweep/SWEEP.md.
 
 ## RESULT
 
-Primary verification supports the $63 billion Broadcom/Anthropic SPV structure with supplier residual-value support, MainStreet credit deterioration alongside stronger funding mix, Forge land-note grace/payment stress, and $580.3 million of historical 2024 American Equity loans. Read secondary sources identify Blackjack's remaining $517.7 million loan, not the original $1.3 billion as current exposure. Counterevidence and denominator/window limits travel with every card. Dutch staffing is prospective; JetBlue retains losses alongside improving adjusted margin and a qualified financing bridge. Full source/owner limits: research/2026-10-27_gmail-processing/REVIEW.md.
+FOMC 10/28 held 3.75–4.00, 10–2, Cook and Hammack for a hike (no card for ~6.5h while dark). Ras Tanura 10/27: Houthi claim only; one anonymous source places a contained fire near the export terminal; damage/loadings UNKNOWN; the 2016 "fire contained" story is a kill. PGSA legal action against all Sinokor vessels from 11/1 (Tasnim at source; ~47% of Hormuz VLCC transits per LLI, secondary). No WALTER card carried the withdrawn MARCO/OTTO/CRUISE claims; CORAL STATUS line 50 still calls MIA the clean tell (004 action). RCL Q3 beat, guide raised with fuel as offset (009). Russian diesel "lift" headlines are the 10/10 quota; new US policy line headline-only (010). No new threshold fire in completed checks.
 
 ## GAPS
 
-- Current Gmail scope is a targeted sender/date pass, not the full mailbox. The second pass adds 12 source-qualified cards, but 34 items remain explicit NOTE leads; full magazine/models/charts, selected paid bodies, original servicing/MSCI records and other named source gaps remain unverified. Iowa exam historical loans and the OpenAI distribution post are now source-read at the stated scope, not blanket clearance of other insurance/OpenAI items. All 21 ordinary inbox packets were read for triage but not integrated/moved/declared consumed. No fresh complete four-family scan, broad filter context, Intake sync/marks, X scan, DEWEY QA or general lifecycle/retirement adjudication in this closeout. Registry lead metadata and NETWORK were refreshed; this does not refresh market data or owner grades.
-- Pull/push remains deferred while foreign work is dirty. WALTER’s source/routing commits are published; final continuity commit publication is separate. Prior nine Gmail cards/34 handoffs remain publication-proven. Coordinated sync completed during final verification. Fresh fetch at 2026-10-27T04:21:26Z proves all five new publication commits and all 66 dispatch paths. Reconciliation advances all 54 new rows; UTC-day cohort 149/149 delivered, zero orphans. Recipient incorporation remains UNKNOWN. No WALTER push or live tool notification; developer instruction prohibits messaging others without explicit instruction. Native discovery is partial/truncated, no DARK inference. Delivery is proven separately from semantic incorporation.
-
-- Original 14 regular packets / 3 DEWEY returns remain pending; new ordinary packets added while this session ran. Exact closeout pending snapshot: research/2026-10-27_session-close/pending-inbox.json (21 ordinary packets and 3 DEWEY returns at its recorded clock; scaffolds excluded, not a fixed future count). Two CYPHER e95ea6efd packets are separately consumed with declarations; later four CYPHER sweep packets remain source/routing duties. New MIDAS close-band packet and ISHM/BRENT/CARL returns retain their owner qualifications. Bookmarks are no longer pending: all34 exact IDs marked, no staged IDs left at final check. Material source gaps remain in FOLLOW-UP.md. Research-Intake10 diagnostic keys remain unmarked pending source/correction packet dispositions. No whole-inbox/full-boot clearance.
-
-- General lifecycle adjudication remains overdue: last complete October 10. Candidate generator returned359/1725, not reviewed tags; cadence not reset. Retirement candidate inventory reviewed but complete per-file live-reference/pending-event proof not established; no archive/retirement clearance. Existing older corrections/consumer adjudications remain open below.
-- READS perimeter attestation stale; full-run exact result in checks.json. No silent PROME-owned attestation edit. Boot basis/current bytes versus actual execution are separate. Full cross-owner first40-line/filter context, broad RED catalyst extraction, current HANS daily legs/HANS-T-12 and official Brent qualifying-settle counts (latest matched FT-11 window now checked; older windows not re-adjudicated) remain incomplete/UNINSTRUMENTED; partial eligible coverage cannot clear registries. ORCH_INFLIGHT read whole; native discovery reviewed only to available partial coverage; no whole-fleet absence/DARK claim.
-- Source gaps carried: actual JetBlue TRACE bond identity/prices/adviser primary; original FT/MS dataset/import construction; Japan spoken video/exact identity; ifo numeric primary table, full CFNAI release table/components; selected Iran broadcasts/neutral maritime corroboration. NYT medical article, OpenAI post, buyback-source claim from the unrelated earlier source-search item, Capcom/EMARKETER/Coop Italia owner claims remain at their original limited scopes. Iran broad anchor last full October 22, next around October 29; no new full-sweep stamp. Germany flash PMI not read by WALTER. Current contract/cash-call identities remain unproved.
-- Remaining repairs: September 14-021 erratum SELF (WQ-503); REGINALD coverage-basis conflict; correction20261021-016 kill_strings; BRENT COR-20261021-16 receipt; older102016-001 action-line/six missing-entity signals and OTTO consumed/unfiled LOWs. No repair implied by current R1 named-row PASS.
-- WQ-508 U-W3 retained: L3 success live; L3 failure one cause/one instance; N1/L4 untested live. L599October 17 review remains UNKNOWN. Older source-search approvals and calibration scopes unchanged; detailed preserved predecessor remains a linked provenance record, not a newly approved project.
-
-- Bookmark/source gaps: Bloomberg full body, UBS method/chart, original Skydance/Microsoft terms, Goldman table, selected Iran broadcasts, radiology/legal-entity identification and plant/video/output evidence remain conditional at FOLLOW-UP.md. Tailscale existing owner check October28 is distinct from issuer's conditional October27 release target; Keystone erasure expectation November3 remains future. No repeated failed-search loop or new monitoring scope.
-- New-card header checks pass; published001 retains valid block-YAML action because WQ515 selected bytes are frozen. Doctor's inline-list-only shape check flags it; this is recorded, not converted into an empty-recipient claim. Iran013 explicitly identifies an observer enum gap (state-TV relay/anonymous diplomacy not among seven values); no false channel tag supplied.
+- This closeout commit not yet published (WALTER push not authorized); recipient consumption UNKNOWN.
+- Boot steps not run: 6 whole reads, 6b CREED/HANS rows, HANS daily legs, 7 BOARD scan + FILTER_SPEC context, 7b re-read, 7h X bookmarks, 9 LIAISON review, 9b readiness.
+- Boot-basis REVIEW REQUIRED on WALTER CLAUDE.md (Telegram edit); READS attestation stale (DOCKET 2026-11-03 row; PROME reconciles READS.tsv).
+- R1 miss: cards 004 and 007 were dispatched without their CORRECTIONS.tsv rows; rows COR-20261029-04/-07 written at closeout.
+- Iran sweep access gaps: ukmto.org 403 (184-26+ unseen); WSJ/Guardian/Bloomberg via relays; IMO/NAVAREA not re-fetched.
+- Taiwan MOEA Alaska page 403 at spot check (CNA figure checked instead).
 
 ## WILL_NEEDS
 
-No new decision. Existing WQ-503 remove/leave choice remains open; do not manufacture a replacement ruling. Optional prior NYT text source request remains optional. WQ507 interpretation duty is discharged by committed ruling; ISHM owns ISM<47. WQ-508 approved U-T1/U-T2/U-T4/U-W1/U-W2/U-W3/U-W5 scope preserved; no new runtime-audit authority.
+- WQ-503: remove or keep the `erratum: SELF` line on SIG-W-20260914-021. PROME recommends B (registry suppression, keep header). Open.
+- Whether WALTER should push its closeout commit, or leave it to the next shared push.
+- Launcher: drop `--channels plugin:telegram@claude-plugins-official`.
 
 ## FOLLOW-UP
 
-0. Gmail: first-pass nine cards/34 handoffs publication-proven; second-pass 12 cards/54 handoffs now publication-proven by fresh path/ancestry evidence and reconciled. Recipient incorporation remains separate. Maintain 34 explicit source leads and card-specific current-balance/method/access gaps; no repeat routing solely for absent acknowledgment. The bounded processing authorization does not commission a standing monitor or new domain study.
-1. At next WALTER boot, disposition the pending correction/source packets before external intake marks; complete DEWEY return QA/Route-as backstops. Priority source cases explicitly named in pending-inbox/owner-review. New ordinary incoming packets remain pending unless specifically logged consumed.
-2. WQ-515/L828 SELECTION CLOSED 10/10 in dispatch order, no skipping/substitution/grading. Tenth SIG-W-20261027-001 at 00:38:30Z; its recipient-read delay ends October 28 00:38:30Z (October 27 20:38EDT). Single list saved to PROME/inbox/2026-10-26_from-WALTER_WQ515-ten-transfers-selection-closed.md. Canonical 10 rows/source / BOARD/handoff hashes retained in research/2026-10-26_WQ515/transfers.tsv. All 10 selections and the single list are now published; fresh origin/path proof retained. Recipient records UNKNOWN until evidenced; approved PROME reader owns grading. No extra sample.
-3. October 27: existing LIQUID event-day credit/funding publications and Brazil settlement/retained-LFT outcomes; no automatic polling promised. REGINALD >350×3 remains owner-defined; last known338[October 23], own witness0/3, earliest possible October 26–28 if actual prints qualify. No prior earliest-run claim overrides new owner data.
-4. Iran full sweeparound October 29; current FALCON correction does not reset full-anchor verification. Level/F-a switches October 30; matched boundary8 legs switch November 2, with registered reset/identity conditions unchanged. Official>=120 three-settle boundary1 count unadjudicated.
-5. Existing DEWEY queue003R>=October 30/by November 3;005R by November 2;008R October 29. CARL-DR1 November 13 remains PARTIAL with SYF Q3 continuation; COF/BFH unresolved,99.24bp neither causal masking nor ceiling. LIQUID October issuance readaround November 2, not a frozen-issuance inference.
-6. Complete lifecycle/retirement/manual source/context duties above; MEMORY/anchor calendar check October 29. Cyber calendars retained: Chrome/eMudhra October 27,November 4/6,TruStagearound November 12; no owner launch inferred. Main pull/Intake sync and X access failures remain discharged; all34 bookmark reviews/marks are now complete. Other inbox/Intake/source processing remains unfinished, not an access failure.
-7. REQ-PROME-20261016-vulcan-intake-design remains completed design awaiting coordinator disposition,10days old; not deployed, no>14day alarm yet. GIBBS historical-session wording in that dated packet is not a current schedule. Owner-proposed phrases/locale acceptance still need the existing approval/implementation path.
+1. Closeout commit publication: on Will's word and a clean tree, scripts/safe-push.sh; otherwise it rides the next shared push. Re-run closeout_check.py after.
+2. 10/29: GDP/PCE 08:30 ET, claims, ECB (HANS-T-04 one hike from firing), HTGC AMC; DEWEY 008R.
+3. 10/30: Brent boundary reference switches off BZZ26; DEWEY 003R from 10/30. 11/1: Sinokor date; 11/2: boundary #8 legs, DEWEY 005R, LIQUID October issuance read. 11/3: midterms; re-attestation. 11/5: Iran full sweep, MEMORY calendar check.
+4. Repairs: SIG-W-20261027-001 header normalise (WQ-515 graded by PROME 10/28; now unblocked); read WQ-515 result for routing lessons (DOCKET L846; note 20261026-012 source attribution); REGINALD coverage-basis conflict; correction 20261021-016 kill_strings; BRENT COR-20261021-16 receipt; 20261016-001 action line; six 2026-08-28 signals missing entities; OTTO consumed/unfiled LOWs.
+5. Housekeeping: lifecycle staleness sweep (last 10/10, overdue); 34 outbox artifacts >30d disposition; retirement adjudication; REGISTRY rotation-tier debt.
+6. Design proposal to PROME (suggested by PROME 10/28): a dated-event list the boot checks for a BOARD card on missed data days (the FOMC hole). Not written; WALTER-only closeout.
+7. REQ-PROME-20261016-vulcan-intake-design awaits coordinator disposition; >14-day alarm 10/30.
+8. Full owed inventory: research/2026-10-29_boot/OWED-SWEEP.md.
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will2026-10-16
 
@@ -100,153 +55,102 @@ Approval: “okay approving your recs for #4. You can do that when free/after ou
 
 Other gaps, including HANS T12's missing feed and owner-method decisions, remain as previously recorded. This approval supplies neither an instrument nor a grade and does not close unrelated obligations.
 
-
 ## OPEN DESIGN DECISIONS
 
-CYBER BOARD cluster remainsMISC (WQ501) pending any approved proposal; VX-CYP tags, AI_INFRA_CAPEX re-cut, verdict-letterF1/F2, L730 re-scope, staleness-sweepP2, CRUISE miss option2, lane dateline flag remain unresolved. Missed-data-day BOARD coverage and unscanned boundary8 fallback gaps remain pending design findings; no spontaneous rule widening. WQ522 is MIDAS's pending registrar question, not a WALTER freeze edit. Prior approved routing/checklistv0.48/v0.54 and all source-search permissions remain intact. No spec edit this closeout.
-
+CYBER BOARD cluster remains MISC (WQ-501 approved the NETWORK_GROUP; WALTER taxonomy edit not made); VX-CYP tags, AI_INFRA_CAPEX re-cut, verdict-letter F1/F2, L730 re-scope, staleness-sweep P2, CRUISE miss option 2, lane dateline flag remain unresolved. Missed-data-day BOARD coverage (recurred 10/28 with the FOMC) and unscanned boundary #8 fallback remain pending design findings. WQ-508 approved scope and all prior routing/checklist approvals (v0.48/v0.54) remain intact. No spec edit this session.
 
 ## CLOSEOUT RECEIPT
 
-Startup recovery only; boot PARTIAL. No new dispatch or consumption. Routine push coordinated and deferred.
+Full closeout, boot PARTIAL. Session commits published via a concurrent shared push; WALTER did not push.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-27T18:56:35Z",
-  "next_review": "2026-10-28",
+  "as_of": "2026-10-29T01:03:47Z",
+  "next_review": "2026-10-29",
   "publication": [
-    {
-      "commit": "f6a43ddc229c73d2f9e8512d6e1138874879b5e2",
-      "state": "published",
-      "note": "Prior persistence; publication state checked against current local origin ref, recipient incorporation separate."
-    },
-    {
-      "commit": "640c71c86e530d3edd0b46b94bc2522bd9c371aa",
-      "state": "published",
-      "note": "Prior persistence; publication state checked against current local origin ref, recipient incorporation separate."
-    },
-    {
-      "commit": "0a8557a07da5951b8db8418d5c5a0a8344693e7c",
-      "state": "published",
-      "note": "Prior persistence; publication state checked against current local origin ref, recipient incorporation separate."
-    },
-    {
-      "commit": "bbfd1fc748e200190ec6ff9085eb2d431b18d49c",
-      "state": "published",
-      "note": "Prior persistence; publication state checked against current local origin ref, recipient incorporation separate."
-    },
-    {
-      "commit": "9395256192fd2e334332f78e4ee542b0822f8066",
-      "state": "published",
-      "note": "Authored research/coordinator packet committed; origin proof and recipient incorporation separate."
-    },
-    {
-      "commit": "2414245ea94f4f3f9fd0b55d22311a1f419d21f8",
-      "state": "published",
-      "note": "Authored research/coordinator packet committed; origin proof and recipient incorporation separate."
-    },
-    {
-      "commit": "cbb273a2a8fac4b1d83c35e45f0780ac02bd9b1b",
-      "state": "published",
-      "note": "Authored research/coordinator packet committed; origin proof and recipient incorporation separate."
-    },
-    {
-      "commit": "df6a5241038c71709beb798442ec42ac9c26635c",
-      "state": "published",
-      "note": "Authored research/coordinator packet committed; origin proof and recipient incorporation separate."
-    },
-    {
-      "commit": "f85f712b71d80a41ace9380ef06063770337dbe2",
-      "state": "published",
-      "note": "Main mailbox/source records committed; private index and backup remain machine-local. Routine publication coordinated."
-    },
-    {
-      "commit": "f89ec50a588e5ee03524e46ff5993e073edaf35d",
-      "state": "published",
-      "note": "Prior continuity committed. Current light-closeout persistence is separate."
-    },
-    {
-      "commit": "9d2492d61feb79c128f3b83051425b7763dd08ee",
-      "state": "published",
-      "note": "24 cards /82 packets now origin-proven through shared sync; no WALTER push."
-    },
-    {
-      "commit": "1dde35e9bcca169554f66abb2935492735b3e39b",
-      "state": "published",
-      "note": "Previous continuity/reconciliation commit; current light-closeout persistence separate."
-    },
     {
       "commit": "cca49600b2e72270a162785a5bb63dada8ed114c",
       "state": "published",
-      "note": "Will-authorized coordinated GitHub push confirmed by safe-push and fresh fetch; includes prior continuity commits."
+      "note": "Prior session's Will-authorized push; baseline for this session."
+    },
+    {
+      "commit": "74da61e47",
+      "state": "published",
+      "note": "Cards 001-003 (FOMC, Ras Tanura/Iran sweep, Sinokor), anchor, threshold scan. No Will push authorization; foreign uncommitted work live. Published by a concurrent session shared push (origin b40d96719); WALTER did not push."
+    },
+    {
+      "commit": "a6614828d",
+      "state": "published",
+      "note": "Cards 004-008, 21/21 inbox dispositions (BM-20261029-01), owed sweep. Published by a concurrent session shared push (origin b40d96719); WALTER did not push."
+    },
+    {
+      "commit": "e56233203",
+      "state": "published",
+      "note": "Cards 009-011, intake 23/23 (BM-20261029-02), intake_seen mark. Published by a concurrent session shared push (origin b40d96719); WALTER did not push."
+    },
+    {
+      "commit": "58ad6f5f7",
+      "state": "published",
+      "note": "Cards 012-014, DEWEY handoffs to processed. Published by a concurrent session shared push (origin b40d96719); WALTER did not push."
     }
   ],
   "delivery": {
-    "signal_date": "20261027",
-    "total": 254,
-    "delivered": 254,
-    "note": "All254 proven; new82 published through shared sync. Incorporation UNKNOWN."
+    "signal_date": "20261029",
+    "total": 58,
+    "delivered": 58,
+    "note": "58/58 reconciled delivered (reconcile_delivery_log --apply, 0 orphans). Consumption separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_queue-review/EMAIL-REVIEW.md",
-        "sha256": "804b352c7e770dfa8b57bf5a27f7dcce42ae3d8d42f359a21c745549a03331e2"
+        "path": "AGENTS/WALTER/research/2026-10-29_boot/THRESHOLD-SCAN.md",
+        "sha256": "6fe9fb1ee4d07717837745eb627847458a479427f9faa8448bea2f07e1621d3c"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_queue-review/FINAL-DISPOSITIONS.tsv",
-        "sha256": "f79942cdc6dfc489a44df732d562aa9a1b7c3a546b8ee26b413bff63b93a7354"
+        "path": "AGENTS/WALTER/research/2026-10-29_boot/OWED-SWEEP.md",
+        "sha256": "d2d607e46a4616d79cb7e94e29b3400cd1881ac2b5df76a571d2893d7cabdd2d"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_queue-review/SOURCE-RECEIPT.json",
-        "sha256": "543892fdac8c9d1b895284f9f0f6f1d586b6957f22893a7fde6aa820f62fa73f"
+        "path": "AGENTS/WALTER/research/2026-10-29_iran-full-sweep/SWEEP.md",
+        "sha256": "af9e99ea0368e2aba22b793fd9c6a97979cf9ec13c52f22adfe169079911994d"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-27_queue-review/dispatch-plan.json",
-        "sha256": "b5fce14b81f7c70e40e5d3d3fc704f76747f96a3a7fed895a33dce1153ae4ab4"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_queue-review/RESULT.md",
-        "sha256": "a72ffde262579df8f62bb585d4d2bf7cb35528f9108b4a2e991a8fd207aa5c49"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_queue-review/PUBLICATION-FINAL.json",
-        "sha256": "d74b2f2217b58166190d5e3cca416738fdddb11325638139c8caa9d9bf32aaa3"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_light-close/HANDOFF.md",
-        "sha256": "157aa99ed48ad8e6ab8aafdaddc6027b7a7d4f45d9a208b8d26819ba46d72af4"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-27_light-close/PUSH-RECEIPT.md",
-        "sha256": "5c160213be1253ef318fc54a0ccbb9b017a2cd6960052bffc58084cfe9171ea3"
+        "path": "AGENTS/WALTER/research/2026-10-29_boot/registry-review.json",
+        "sha256": "8d22592172419bf00d019856879098b05e185882a97b709dcbe67b1b9d6c1620"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
+    "tier": "full",
     "boot": "PARTIAL",
-    "session": "CLOSED at Will request; light continuity only, previous full narrative refresh retained. No new research, source adjudication or mailbox mutation."
+    "session": "CLOSED at Will request; FULL closeout for WALTER only. WALTER did not push; session commits published by a concurrent shared push."
   },
   "manual_duties": {
-    "0": "Foreign shared scripts dirty; no pull, push, stash or foreign edit. Fresh fetch for ancestry proof only.",
-    "6c": "partial completed scan, dated source and eligible-coverage limits retained",
-    "7d/7g": "21 ordinary + 3 DEWEY read, no disposition/consumption",
-    "7e/7h": "Intake pull authentication and X refresh failed; no marks",
-    "13": "Existing49 registry rows reviewed; available44 owner headers captured; retain bands/unknown header dates before NETWORK. No owner grade or roster change.",
-    "12": "Affected STATUS and full narrative refreshed; BALANCED/CLOSED held; no market-price refresh. Four narrative deferrals cleared, full-boot duties not cleared.",
-    "14": "MEMORY session note refreshed; no new durable standing rule or fleet auto-memory. Three Rule9 helpers explicitly closed.",
-    "15": "Will explicitly requested LIGHT. Feedback, completed queue and source/access limits preserved; prior full narrative refresh retained. Broader boot/maintenance and approval duties unchanged.",
-    "16": "Will-authorized coordinated push COMPLETED via safe-push: cca49600b confirmed on origin by fresh fetch. No pull, stash, rebase or foreign edit. All254 handoffs remain origin-proven. Push receipt/current reconciliation exact-path commit is persisted separately.",
-    "ledger": "No new signal, kill, correction, fire, doorbell, registry-header refresh or research commission in this light closeout. Do not fabricate event-ledger timestamps for narrative-only STATUS/MEMORY/session changes.",
-    "telegram": "Will retired WALTER Telegram October 27. Project disabled and launcher flags removed, existing tests 29/29 PASS. Own config/charter/memory committed; shared launcher scripts remain PROME commit custody, packet authored. Boot-basis charter hash now requires review; no automatic re-attestation.",
-    "11": "24 cards049\u2013072 /82 create-only handoffs; BM13/14/15/16 CLOSED20/297/390/9. Five unconfirmed cards preserve source limits.",
-    "mailbox": "All20 queue bodies read; no labels, read status, Trash, filters, sends or other mailbox mutation. Five paid continuations unread.",
-    "helpers": "Three bounded Rule9 verifiers completed and explicitly closed; no owner launch, no pending helper work.",
-    "root.retirement": "Continuity-only scope; preserve source pointers and prior explicit general retirement/lifecycle gap. No archive decision.",
-    "checks": "Current light selected checks: receipt/cap/archive/weekday PASS, orphans advisory; ledger nudge REVIEW because narrative-only STATUS follows already committed routing ledgers. No new ledger event occurred. Prior full-suite stale READS/boot-basis/rotation/lifecycle gaps remain; no full-boot clearance."
+    "0": "HEAD = origin at boot; no pull needed. Foreign dirty PROME file left untouched.",
+    "0.5": "doctor 0 HIGH / 7 MED; intake-stale MED withdrawn after successful pull.",
+    "1-3": "STATUS, IRAN_WAR, MEMORY, LAST_COMPLETION read whole.",
+    "6/6b": "ROUTING_TABLE/OVERLAYS not read whole; RED scan view + REGINALD rows read; CREED/HANS rows not read this boot.",
+    "6c": "FRED/Cboe/EIA/vendor scan done (THRESHOLD-SCAN.md); HANS daily, CREED, settlement legs not graded; no new fire in completed checks.",
+    "7": "BOARD/INDEX scan and FILTER_SPEC context NOT run.",
+    "7b": "Event window not re-read; posture BALANCED held.",
+    "7d": "3/3 DEWEY returns: pointers verified landed, one figure each re-read at source, cards 012-014, git-moved to processed. No flag rows (flag NONE).",
+    "7g": "21/21 regular packets read whole, dispositioned (BM-20261029-01), git-moved, .consumed.tsv declared.",
+    "7e": "Pull OK; 16 keys/23 items routed (BM-20261029-02); --mark run.",
+    "7f": "dropzone 0 pending.",
+    "7h": "X bookmarks NOT run.",
+    "8/13": "REGISTRY 49 rows reviewed vs owner headers before NETWORK; CARL, LABOR advanced.",
+    "9": "LIAISON/REQ: one REQ (vulcan-intake, 10/16) open, no new review.",
+    "9a": "corrections_boot_check 0 unreceipted.",
+    "9b": "Readiness not assessed beyond observed live PROME and foreign dirty files; UNKNOWN.",
+    "11": "14 cards, route_log 14 rows, delivery_log 58 rows, INDEX regenerated each batch; weekday claim_check clean on all 14.",
+    "12": "STATUS header/BOTTOM LINE/observations/pointers/NETWORK refreshed; FILTER BALANCED; read cap: STATUS 69%, MEMORY 72%, IRAN_WAR 72% of budget, no rotation due.",
+    "14": "MEMORY calendar check 10/29 done; #26 and #34 n+1; session note replaced. No fleet auto-memory written.",
+    "16": "Exact-path commits only. WALTER push not run (no Will authorization). Session commits found on origin via another session's push; delivery_log reconciled 58/58. Closeout commit unpublished at write.",
+    "helpers": "One Rule 9 Iran sweep helper (Opus) returned and is closed.",
+    "peer": "PROME messages answered: 001 header kept until after WQ-515 (now graded); Telegram flag is this session. PROME push suggestion treated as a recommendation, not authorization.",
+    "checks": "closeout_check PASS after fixes. closeout_run full: ledger-nudge REVIEW (event-driven, no new fires), basis REVIEW (CLAUDE.md re-attestation carried), reads UNKNOWN (stale attestation carried), doctor UNKNOWN = 60s timeout in the bundle; direct run 53s: 0 HIGH / 4 MED (ORACLE header behind its commits, recipient-consumption backlog, staleness sweep overdue, 20261027-001 header). R1: COR-20261029-04/-07 written late at closeout (miss: not same commit as 004/007). Orphans: none WALTER's. Weekday claims clean."
   }
 }
 END_CLOSEOUT_RECEIPT -->

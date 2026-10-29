@@ -1,16 +1,17 @@
 # WALTER STATUS
-**Updated:** 2026-10-27T18:51:18Z — session CLOSED at Will request; LIGHT continuity closeout. Resume/duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-29T01:05Z — session CLOSED at Will request; FULL closeout (WALTER only). Resume/duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-All 20 queued real estate email bodies reviewed, including secondary leads. Twenty-four new or expanded source-qualified cards cover refinancing mechanics, workouts, named property transfers, housing counterevidence, AI value realization and power constraints. Five cards retain unconfirmed original-source leads; original datasets, court/servicing records and five paid continuations remain explicit gaps. Report: research/2026-10-27_queue-review/EMAIL-REVIEW.md. No owner grade or fresh-market clearance.
+Boot catch-up after ~30h dark (10/27 18:56Z → 10/29 00:30Z). Fourteen cards SIG-W-20261029-001–014: FOMC 10/28 held 3.75–4.00, 10–2 with two dissents FOR a hike (late — board hole while dark); Ras Tanura Houthi claim only, fire reported near the export terminal, damage UNKNOWN; PGSA legal action against the whole Sinokor fleet from 11/1; full weekly Iran sweep (next ~11/05). Inbox backlog cleared: 21/21 regular packets (BM-01), 23/23 intake items (BM-02, lane marked), 3/3 DEWEY returns processed. No new threshold fire in completed checks (HY 318 [10/27], VIXCLS 17.52 [10/27]).
 
-Mailbox left unchanged: the saved queue/reference structure and highlights remain. Telegram stays retired; replies/alerts use the active session. Full boot, inbox/DEWEY integration, stale READS attestation, lifecycle/retirement adjudication and earlier approval conditions remain at LAST_COMPLETION.md.
+Publication and delivery state: LAST_COMPLETION.md receipt. Boot remains PARTIAL (routing-table/CREED/HANS rows, BOARD scan, X bookmarks, LIAISON, readiness not run). Telegram retired; this session was launched with the old Telegram flag (Will's launcher; inert here).
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| Boot scan (pulled 10/29 00:33Z; source dates retained) | FRED HY 318 [10/27] (338 [10/23]): RED-FT-02/REG-T-03 fired, exits 0/3 and 0/5; REG-T-04 32 bp away, out of watch band. CCC 1,321 [10/27]. VIXCLS 17.52 [10/27]: RED-FT-06 exit run broken 3/5 → 0/5 (RED owns). Cboe SKEW 149.22 [10/27], FT-10 fired, no exit. SOFR−IORB +5 bp [10/27]. T5YIFR 2.27 [10/28]. Cushing 26.970M [w/e 10/23]. Vendor 10/28: KRE 72.11, WAL 75.96, VIX 16.91. BZZ26 114.55 evening last trade (not settle) = 4.5% below boundary #1, WATCH. FOMC 10/28 held, 10–2, Cook/Hammack for a hike. HANS daily/CREED/settlement legs not graded. Evidence research/2026-10-29_boot/THRESHOLD-SCAN.md. |
 | Approved queue review (October 27; source dates retained) | All 20 delivered bodies; 27 selected historical images; 399 decision rows including source gaps. New cards 049–072, no threshold scan or new market prices. BOARD 1797. Primary/source qualifications: research/2026-10-27_queue-review/EMAIL-REVIEW.md. |
 | Startup October 27 (retrieved this session; source dates differ) | HY338 / CCC1356 bp [October23]; VIXCLS18.39 and Cboe SKEW150.97 [October26]; SOFR-IORB+3 bp [October26]. VIX exit3/5, no new fire in completed checks. Current vendor tape intraday, not closes. Remaining scope: research/2026-10-27_startup/THRESHOLD-SCAN.md. |
 | Gmail source processing (October 27 UTC; underlying dates retained) | Joint Broadcom financing release October 26, MainStreet September earnings, Iowa historical 2024 loans, Forge preserved October 15 filing facts, Dutch multiyear plan and JetBlue October 26 release checked at stated scope. Trepp office-rate conflict, current balances and unread methods remain qualified. No fresh market-price/threshold-family clearance. Evidence: research/2026-10-27_gmail-processing/REVIEW.md; first-pass evidence retained. |
@@ -52,6 +53,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## STATE POINTERS
 
+- October 29 boot/closeout evidence: `research/2026-10-29_boot/` (THRESHOLD-SCAN, OWED-SWEEP, registry-review.json, closeout/); Iran sweep `research/2026-10-29_iran-full-sweep/SWEEP.md`.
 - Bookmark reading/source limits: `research/2026-10-26_bookmarks/REVIEW.md`, `HEAD-REVIEW.md` and `FOLLOW-UP.md`; no source failure becomes a factual all-clear.
 
 - ISHM final/flash source qualification and five exact recipient dispositions: `research/2026-10-26_ishm-intake-receipt/REVIEW.md`; current comparison unchanged, hardware vintage limits retained.
@@ -65,7 +67,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY's 49 existing rows reviewed against current available owner headers at 2026-10-27T18:40:38Z before this regeneration; 44 STATUS files captured. Prior bands and unestablished header dates retained. No roster classification, domain grade, liveness or consumption inference. Source context extraction is distinct from a complete manually read filter perimeter; full boot remains partial. Thread-local verification helpers all returned explicit closeout receipts. Full-fleet visibility remains UNKNOWN. Owner metadata evidence: research/2026-10-27_queue-review/registry-review.json.
+REGISTRY's 49 rows reviewed against owner STATUS headers at 2026-10-29T01:01:59Z before this regeneration; 44 STATUS files read, 5 desks without STATUS left unchanged (RAV, DARWIN, BARON, HERMES, DEWEY). Header dates advanced: CARL 10/26→10/28, LABOR 10/22→10/28. Bands are owner-set and unchanged; no roster, grade, liveness or consumption inference. Observed live this evening: PROME (prome-92, messaged WALTER), and CARL/LABOR/ORACLE authored work in the tree this evening; not a liveness census. One Rule 9 helper (Iran sweep) returned and is closed. Full-fleet visibility remains UNKNOWN. Evidence: research/2026-10-29_boot/registry-review.json.
 
 ## Active LIAISON channels
 

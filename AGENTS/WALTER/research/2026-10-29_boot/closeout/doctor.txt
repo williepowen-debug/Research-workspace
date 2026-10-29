@@ -1,0 +1,1 @@
+Check did not finish: TimeoutExpired: Command '['/home/willi/Research-workspace/.venv/bin/python3', 'AGENTS/WALTER/tools/walter_doctor.py']' timed out after 60 seconds
