@@ -29,7 +29,7 @@ Source and arithmetic: `research/2026-10-25_catchup/RESULT.md`, `calculations.js
 
 | Existing event | Read | Boundaries |
 |---|---|---|
-| RCL Q3 October 27, call 10:00 ET (L713) | Own-guide grades, FY yield direction, bookings, capital-access components | Use frozen `WATCHLIST_RCL_Q3.md`. RCL alone cannot complete the CCL-and-RCL joint yield-down limb because CCL's latest guide was raised. |
+| ✅ RCL Q3 October 27 (L713) — **GRADED 10/28, L713 RESOLVED** | Beat (adj EPS $6.57) and raised (FY CC yield ~+2.1%, EPS $17.85–17.95); ladder 32.58% | Exit rule 1 limb 2 NOT FIRED. Strengthens dispersion; no trade change. KB-CRU-203..205. |
 | NCLH Q3 October 29, release 06:30 ET / call 08:30 ET (L714) | `WATCHLIST_NCLH_Q3.md` A–E plus October 25 note: yield/mix, deposits, operating cash, actual liquidity, commitments and implied Q4 | 10-Q may be needed for detail; never fabricate missing release fields. October 15 transaction is subsequent to September 30. |
 | CRU-11 November 14 / nearest preceding session (L606) | Frozen NCLH-minus-RCL cumulative total-return endpoint | No result grade from earnings or an interim stock move. |
 | NCLH November 17 (L715) | Existing contractual springing-maturity conditions | June liquidity does not certify November compliance. |
@@ -42,7 +42,7 @@ Source and arithmetic: `research/2026-10-25_catchup/RESULT.md`, `calculations.js
 | TERRY | Updated existing WATCH rationale; optional construction/valuation remains TERRY's. No card requested by this maintenance. |
 | CARL / MARCO via WALTER | Verified current NCL advertising, AAA volume forecast and secondary UBS booking lead fit dispersion without establishing broad consumer distress or Florida losses. |
 | BRENT / FALCON | Fuel price and theater owners. Fuel remains a cost line; Gulf remains the existing cancellation trigger. No fresh theater absence claim. October 25 bounded operator pass identified one NCL Sky cancellation reported August 5; VX04 is YELLOW(2), with source/coverage limits in the sweep result. |
-| PROME | L713/L714/L715 remain future obligations; WQ-504 shared-topology question remains pending. |
+| PROME | L713 RESOLVED 10/28; L714 (10/29) and L715 (11/17) remain future obligations; WQ-504 shared-topology question pending (due 10/30). |
 
 ## Rejected / Exited
 

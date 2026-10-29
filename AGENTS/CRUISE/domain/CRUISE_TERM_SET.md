@@ -1,3 +1,5 @@
+> ✅ **LANDED 2026-10-14** — WALTER/PROME encoded the CRUISE set in `WATCH_FOR["CRUISE"]` (live lane `~/Research-Intake` 4a16fb0, FORGE mirror 4518cacc6; see STATUS Key gaps). This draft is now historical; change terms through WALTER, not here.
+
 # CRUISE — collector term set (draft for WALTER)
 
 **Author:** CRUISE · **Date:** 2026-09-19 · **Status:** DRAFT, WALTER owns whether and how to encode.
