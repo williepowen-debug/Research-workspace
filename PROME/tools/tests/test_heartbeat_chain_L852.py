@@ -118,3 +118,18 @@ def test_a6_false_positives_are_not_blocks():
     assert pg.heartbeat_chain_counts("Amendment chain: 3 at line start\n")[0] == 0
     # the lowercase body form still needs the number right after the word
     assert pg.heartbeat_chain_counts("**Amendment one — spelled out:** text\n")[0] == 0
+
+
+QUOTED_IN_BODY = """**Base:** Monday night, THIRTY-FIFTH base, PROME. No chain figure here.
+
+**Amendment 1 — October27:** text quoting the old header verbatim: **Amendment chain: 2.** as prose.
+
+**Amendment 2 — October28:** text.
+"""
+
+
+def test_a3_declaration_quoted_in_a_body_block_is_not_the_header(tmp_path):
+    # Independent read P-14 (2026-10-28): whole-file search returned (2, 2) and a confident PASS here.
+    assert pg.heartbeat_chain_counts(QUOTED_IN_BODY) == (2, None)
+    sev, name, ok, detail, _ = run_check(tmp_path, QUOTED_IN_BODY)
+    assert ok is False and detail.startswith("UNVERIFIABLE")

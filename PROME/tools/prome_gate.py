@@ -1072,8 +1072,13 @@ def heartbeat_chain_counts(text):
     """(counted, declared) for a HEARTBEAT text. counted = amendment blocks that start a line in any
     accepted form; declared = the header's own chain figure, or None when no accepted declaration
     form is present. Pure; the check decides what None means (UNVERIFIABLE, never a count)."""
-    counted = len(HB_BLOCK_RE.findall(text))
-    m = HB_DECLARED_RE.search(text)
+    blocks = list(HB_BLOCK_RE.finditer(text))
+    counted = len(blocks)
+    # The declaration is read from the HEADER only — the text before the first amendment block.
+    # A body paragraph that QUOTES `**Amendment chain: N.**` must not stand in for the header
+    # (independent read P-14, 2026-10-28: whole-file search passed exactly that fixture silently).
+    header = text[:blocks[0].start()] if blocks else text
+    m = HB_DECLARED_RE.search(header)
     declared = int(m.group(1) or m.group(2)) if m else None
     return counted, declared
 
