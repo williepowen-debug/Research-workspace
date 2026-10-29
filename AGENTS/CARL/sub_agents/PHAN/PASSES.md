@@ -8,6 +8,16 @@
 
 ---
 
+## 2026-10-28 workbook refresh (Will-directed: "make sure our workbook is updated with all the latest data you are quoting")
+
+- **Gap found:** live ledgers (COCKROACH, REGULATORY, PREDICTIONS) already carried every figure in their scope. Metric figures quoted in the status brief (Affirm 2.5%, provision/NCO series, allowance, Klarna 0.52%, Fed SHED 26%, LendingTree stacking 2026, phantom-debt fork, earnings dates) lived only in DOSSIER/FRAMEWORKS/PASSES prose. `PROVIDER.tsv` was labelled FROZEN but its late_payment_rate row had been updated in place 9/10 while the rest sat at Apr-2026: the half-maintained state root Data Hygiene forbids.
+- **Fix:** `PROVIDER.tsv` UNFROZEN as a live append-only ledger with a two-clock header (`ledger_staleness.py CARL` → `ok +1d`). **16 rows appended**, each with As_Of + primary source; **11 stale rows Notes-prefixed** SUPERSEDED / REFUTED / DEAD (values untouched); Affirm ABS FICO 672 marked do-not-cite with no successor (leg 2 UNRESOLVABLE, Will 10/28). 50 rows × 11 cols, LF kept. `VX.tsv` stays FROZEN with a pointer line (CRLF kept). DOSSIER §1/§5/§6/§8-4 re-pointed.
+- **Derived values, flagged as such in the rows:** Affirm FQ4-25 provision $156.6M and NCO $124.3M are implied from the YoY rates; FQ4-26 is FY minus nine-month (PHAN-derived, not CARL-verified).
+- **COCKROACH "held +48d":** data clock 9/11, no-event check 10/28. Expected, not a defect: no qualifying event since.
+- **CARL follow-up:** packet item 2's recommendation sharpened from "PHAN CURRENT STATE" to "`PHAN/workbook/PROVIDER.tsv`".
+
+---
+
 ## 2026-10-28 file sweep (Will-directed: "flag anything old/stale, broken, incomplete, owed, missing", then "fix them and send the packets")
 
 - **Checked clean:** column counts in all 8 workbook TSVs; every `[[memory]]` link resolves; every file path in DOSSIER/FRAMEWORKS/inbox README resolves; FROZEN banners present on CLAUDE.md, STATUS.md, VX/ML/FLOW/PROVIDER.

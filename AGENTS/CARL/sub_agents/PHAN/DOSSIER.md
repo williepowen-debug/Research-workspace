@@ -78,8 +78,8 @@
 | **Domain** | Phantom Debt / Shadow Credit / Non-Bank Lending *(CLAUDE.md:7)* |
 | **Parent system of record** | CARL: `STATUS.md` (BNPL rows), `thesis/PREDICTIONS.tsv`, `workbook/KB.tsv`. ⚠️ `BNPL_STRESS.tsv` FROZEN 6/26; `KB-CARL-228` STALE (4/17) |
 | **Legacy last session** | 2026-04-17 (STATUS.md:2) |
-| **Live append surfaces (this dir)** | `workbook/COCKROACH.tsv`, `workbook/REGULATORY.tsv` — see §5 |
-| **Frozen surfaces (this dir)** | CLAUDE.md, STATUS.md, `workbook/{VX,ML,FLOW,PREDICTIONS,PROVIDER}.tsv` |
+| **Live surfaces (this dir)** | `workbook/{COCKROACH,REGULATORY,PROVIDER,PREDICTIONS}.tsv` — see §5 |
+| **Frozen surfaces (this dir)** | CLAUDE.md, STATUS.md, `workbook/{VX,ML,FLOW}.tsv` |
 
 ---
 
@@ -157,14 +157,15 @@ The step *invisible → visibility → sudden adverse repricing* (FLOW-PHAN-01/-
 
 ## 5. Live ledger index (append targets for ad-hoc spawns)
 
-Two workbook TSVs **stay LIVE** as append surfaces — DAEDALUS audit flagged both as unique fleet assets that exist nowhere at parent. A future ad-hoc spawn appends here (do not freeze these):
+Three workbook TSVs are **LIVE append surfaces**: COCKROACH and REGULATORY (DAEDALUS audit: unique fleet assets), and PROVIDER (unfrozen 2026-10-28, Will-directed). Ad-hoc spawns append here:
 
 | Ledger | Role | State | Contents (as of 2026-10-28) |
 |---|---|---|---|
 | **`workbook/COCKROACH.tsv`** | Fintech-failure / distress tracker | 🟢 **LIVE** | 12 rows: FAILURE CURO, Synapse, Tricolor (bank contagion) · RETREAT Upstart · Klarna class action + distress · DISTRESS FloatMe, Current, LendingPoint, Coastal/CCBX, EarnIn · DID_NOT_APPEAR null 10/28 |
 | **`workbook/REGULATORY.tsv`** | 1033 arc + EWA/BNPL state actions | 🟢 **LIVE** | 25 rows: CFPB 1033 arc (incl. 9/11 CORRECTION, 8/6 NPRM to OIRA); EWA state laws (CO, CT); AG/DA actions (NY, MN, DC, CO, Montgomery Co. PA); NYDFS BNPL proposal 7/15; 8-court TILA ruling; VERIFY sweep lines |
+| **`workbook/PROVIDER.tsv`** | Provider + sector metrics (Affirm, Klarna, surveys, phantom-debt size) | 🟢 **LIVE** since 10/28 | 50 rows: 16 current added 10/28 (Affirm FQ4-26 DQ/provision/NCO/allowance, Klarna Q2-26, Fed SHED, LendingTree, PYMNTS, phantom-debt fork, earnings dates); superseded rows Notes-prefixed |
 
-**Frozen-vintage ledgers** (carried into this dossier, no longer maintained — see §6/§7 for where their facts now live): `VX.tsv` (15 vectors), `ML.tsv` (11 master-log entries), `FLOW.tsv` (6 pathways → §2c), `PREDICTIONS.tsv` (7 → §4), `PROVIDER.tsv` (34 provider-metric rows → largely superseded at parent, §6).
+**Frozen-vintage ledgers** (carried into this dossier, no longer maintained — see §6/§7 for where their facts now live): `VX.tsv` (15 vectors; superseded by §3 bands + `PROVIDER.tsv`), `ML.tsv` (11 entries), `FLOW.tsv` (6 pathways → `FRAMEWORKS.md` §2.6). **`PREDICTIONS.tsv` is LIVE** (ledger of record, §4).
 
 ---
 
@@ -175,8 +176,8 @@ Two workbook TSVs **stay LIVE** as append surfaces — DAEDALUS audit flagged bo
 | Fact | Legacy PHAN value (frozen) | Canonical owner / correction |
 |---|---|---|
 | **Klarna Q1-2026 profitability** | STATUS.md asserts Klarna FY2025 net loss, provisions "rising," "narrative cracking," Elliott $6.5B lifeline | ⛔ **REFUTED — Klarna Q1-2026 PROFITABLE** (CARL parent, May-14-2026). The legacy Klarna deterioration narrative is wrong. |
-| **Affirm quarterlies** (GMV, DQ, provisions, ABS FICO) | 2.3% DQ, $214.2M provisions (+40% YoY), ABS WA FICO 672, GMV $13.8B | ⚠️ **No current parent home:** `KB-CARL-228` STALE (4/17), `BNPL_STRESS.tsv` FROZEN (6/26). Live values in CURRENT STATE here; ruling asked of CARL 2026-10-28. |
-| **Klarna quarterlies** (provisions, revenue, class action) | 0.65% provisions, $1.08B rev, case 25-cv-07033 | ⚠️ **No current parent home** (same as Affirm). Live values in CURRENT STATE. |
+| **Affirm quarterlies** (GMV, DQ, provisions, ABS FICO) | 2.3% DQ, $214.2M provisions (+40% YoY), ABS WA FICO 672, GMV $13.8B | ⚠️ **No current parent home:** `KB-CARL-228` STALE (4/17), `BNPL_STRESS.tsv` FROZEN (6/26). Live rows: `workbook/PROVIDER.tsv` (unfrozen 10/28); ruling asked of CARL 2026-10-28. |
+| **Klarna quarterlies** (provisions, revenue, class action) | 0.65% provisions, $1.08B rev, case 25-cv-07033 | ⚠️ **No current parent home** (same as Affirm). Live rows: `workbook/PROVIDER.tsv`. |
 | **BNPL late-payment rate** | **47% (2026, LendingTree Tracker pub 2026-08-19)** | ✅ **Verified and superseded at the parent 2026-09-10** — STATUS row updated 41%→47%, band **🔴 breached**, attribution corrected off CFPB. KB-CARL-439. |
 | **⭐ PHANTOM-DEBT MAGNITUDE — the domain's headline claim** | **`$400B+` invisible to bureaus** (CLAUDE.md ×5, STATUS.md ×3, PROVIDER.tsv ×2, and the DOSSIER domain-scope line until 2026-09-11) | ⛔ **REFUTED — `KB-CARL-367` (DEWEY C4, 2026-07-31): broad ~$176–216B, credit-only ~$30–60B (an order of magnitude smaller), composition medical ~85% / BNPL ~15% / EWA negligible.** Prefer the CFPB **flow** gap (~$80.46B/yr vs ~$36B/yr, ~2.2×). Full rebuild → **`FRAMEWORKS.md` §2.0**. *(This row was MISSING from this table until 2026-09-11 — the largest supersession in the domain was the one the supersession table did not list.)* |
 | **"distressed invisible" $40–60B** | PROVIDER.tsv:26, derived as *"10–15% DQ on $400B"* | ⛔ **DEAD — built on the refuted base.** Credit-only phantom debt **in total** is ~$30–60B, so a *distressed subset* of $40–60B is internally incoherent. Do not cite. |
@@ -203,7 +204,7 @@ Two workbook TSVs **stay LIVE** as append surfaces — DAEDALUS audit flagged bo
 
 ### CLOSEOUT — write-back
 
-4. **Append new events to the live TSVs only** — `workbook/COCKROACH.tsv`, `workbook/REGULATORY.tsv`. Advance BOTH clocks in the two-clock header, and **record an explicit `DID_NOT_APPEAR` null when a sweep found nothing** — a stale DATA clock is otherwise ambiguous between "no events" and "nobody looked." Do not revive the frozen TSVs.
+4. **Append new events to the live TSVs only** — `workbook/COCKROACH.tsv`, `workbook/REGULATORY.tsv`; new metric readings to `workbook/PROVIDER.tsv` as a NEW row, prefixing the superseded row's Notes. Advance BOTH clocks in the two-clock header, and **record an explicit `DID_NOT_APPEAR` null when a sweep found nothing** — a stale DATA clock is otherwise ambiguous between "no events" and "nobody looked." Do not revive the frozen TSVs.
 5. **Update the as-of stamps** in the CURRENT STATE block, §3 (thresholds) and §6 (superseded). ⛔ **Update CURRENT STATE IN PLACE — do not append a new section to this file** (read cap; §8.1).
 6. **Resolve predictions at CARL, NOT here.** PHAN re-marks confidence and recommends; **CARL disposes.** §4 stays ⚠ UNRESOLVED until CARL records it.
 7. **Route findings to CARL** — an **outbox packet** at `outbox/<date>_PHAN-to-CARL_<subject>.md` **AND** a delivery copy into `AGENTS/CARL/inbox/` (root carve-out ①: a packet you authored into another agent's inbox is yours to commit **and you must**). ⛔ **NOT `../SHARED/`, which does not exist.** ⚠️ **A packet CARL has not graded is not a delivered finding** — say so in the report rather than implying it landed. *(SV files in `state_vectors/` and `outbox/` are historical; new routing is this step.)*
