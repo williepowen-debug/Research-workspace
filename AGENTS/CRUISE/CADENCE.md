@@ -20,6 +20,8 @@
 | 6 | Brent front **<$75 for 2+ weeks** | BRENT | Cost line unwinding. (Exit rule 2 already killed the fuel channel; this is now context for the `VX-CRU-02` cost line only.) |
 | 7 | CARL **−20% booking-pace** datum | CARL | `VX-CRU-03` upgrade bar. |
 | 8 | **Florida port FY2026 passenger counts (~Oct–Nov 2026)** | **CRUISE** | FY2026 closed **2026-09-30** — the first physical-volume window overlapping the stress period. ⛔ **Contextual volume evidence only** — the causal grading rule was withdrawn 2026-09-20 (CATO F1/F7): added capacity plus an unrelated yield drag reproduces "volumes up with yields down", and price cuts and weaker demand coexist. **One bounded pass completed October 25:** Canaveral FY2026/September statistical attachment, Miami September/calendar YTD and Galveston YTD recovered; New Orleans current counts and Miami final FY annual reconciliation unavailable in checked sources. `research/2026-10-25_ports/RESULT.md`. Board attachment route is now explored; no new automatic lookup assigned. |
+| 9 | **~2026-12-01 — PortMiami FY2026 final total** (one dated re-check; PROME 10/28 item ⑤) | CRUISE | FY ended 9/30; final report typically late Nov–Dec. **No other port searching**; New Orleans dropped unless a thesis leg needs it. |
+| 10 | **On/after 2026-11-09 — archive `2026-09-02_LADDER_DISPOSITION_MEMO.md`** (PROME 10/28 item ⑥; last commit 9/10) | CRUISE | `git mv` to `archive/` with a STATUS pointer at the first session on or after 11/9. |
 
 ⛔ **The lesson from #1 and #1d: a company announcement is NOT an SEC filing.** EDGAR cannot establish that no press release exists. **Check the IR press-release page and the wire, not just `data.sec.gov`.**
 
