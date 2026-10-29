@@ -20,6 +20,7 @@ foreach ($entry in $data.agents) {
     $script:settings[$entry.name]=@{runtime=$entry.default_runtime;task=$null}
 }
 $bg=[Drawing.Color]::FromArgb(11,23,42)
+$panel=[Drawing.Color]::FromArgb(58,80,104)
 $surface=[Drawing.Color]::FromArgb(21,39,63)
 $raised=[Drawing.Color]::FromArgb(32,54,87)
 $ink=[Drawing.Color]::FromArgb(245,249,255)
@@ -267,7 +268,7 @@ $form.Controls.Add($tabs)
 $pages=@{}
 foreach ($key in @('Agents','Selected','Instructions','Activity')) {
     $page=New-Object Windows.Forms.TabPage
-    $page.Name=$key; $page.Text=$key; $page.BackColor=$bg; $page.ForeColor=$ink
+    $page.Name=$key; $page.Text=$key; $page.BackColor=$panel; $page.ForeColor=$ink
     if ($key -eq 'Selected') {$page.Text='Selected & groups'}
     [void]$tabs.TabPages.Add($page); $pages[$key]=$page
 }
@@ -337,7 +338,7 @@ Place $groupHint $pages.Selected 16 102 1052 36 'Top,Left,Right'
 $groupHint.ForeColor=$muted
 Place $selectionLabel $pages.Selected 16 148 1052 26 'Top,Left,Right'
 Place $chips $pages.Selected 16 184 1052 310 'Top,Bottom,Left,Right'
-$chips.FlowDirection='TopDown'; $chips.WrapContents=$false; $chips.BackColor=$bg
+$chips.FlowDirection='TopDown'; $chips.WrapContents=$false; $chips.BackColor=$panel
 
 $instructionAgentLabel=Label 'Agent' 0 0 1 1
 Place $instructionAgentLabel $pages.Instructions 20 16 650 26
