@@ -54,6 +54,8 @@ $script:choice='Cancel'
 $script:cancelVerified=$false
 $script:previewSeen=''
 $script:refreshVerified=$false
+$script:researchVerified=$false
+$script:researchDuringLaunch=$false
 $dialogProbe=New-Object Windows.Forms.Timer
 $dialogProbe.Interval=150
 $dialogProbe.Add_Tick({
@@ -80,11 +82,15 @@ $probe.Add_Tick({
         $dialogProbe.Start(); $batch.PerformClick()
         $script:cancelVerified=(-not $script:busy -and $script:queue.Count -eq 0 -and $results.TextLength -eq 0 -and $script:history.Count -eq 0)
         $script:choice='Launch selected'; $batch.PerformClick()
+        $readerQuery.Text='VOID-BY-REVISION'
+        $script:researchDuringLaunch=$script:busy
+        Request-Research 'scan'
         $probe.Start()
     }
-    if (-not $script:busy -or [DateTime]::UtcNow -gt $probeDeadline) {
+    if ($script:researchLoaded -and -not $script:researchCurrent -and $readerList.Items.Count -gt 0 -and $readerState.Text -like 'Search complete:*') {$script:researchVerified=$true}
+    if ((-not $script:busy -and $script:researchVerified) -or [DateTime]::UtcNow -gt $probeDeadline) {
         @{busy=$script:busy;status=$status.Text;results=$results.Text;checked=$script:checked.Count;
-          cancel_verified=$script:cancelVerified;refresh_verified=$script:refreshVerified;preview=$script:previewSeen;
+          cancel_verified=$script:cancelVerified;refresh_verified=$script:refreshVerified;research_verified=$script:researchVerified;research_during_launch=$script:researchDuringLaunch;reader_state=$readerState.Text;preview=$script:previewSeen;
           page=$tabs.SelectedTab.Name;history=@($script:history);history_file=$script:historyPath} |
           ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 (Join-Path $data.directory 'ui-result.json')
         $probe.Stop();$script:queue.Clear();$form.Close()
@@ -102,6 +108,7 @@ $form.Add_Shown({
 })
 '''.replace('TASK', base64.b64encode(task.encode()).decode())
 source = source.replace('[void]$form.ShowDialog()', hook + '\n[void]$form.ShowDialog()')
+(base / 'research_reader.ps1').write_bytes((SCRIPTS / 'research_reader.ps1').read_bytes())
 psfile = base / 'probe.ps1'
 psfile.write_text(source)
 cmd = ['powershell.exe', '-NoProfile', '-STA', '-ExecutionPolicy', 'Bypass', '-File',
@@ -118,6 +125,7 @@ try:
     assert result.returncode == 0, result.returncode
     ui = json.loads((base / 'ui-result.json').read_text(encoding='utf-8-sig'))
     assert not ui['busy'] and ui['cancel_verified'] and ui['refresh_verified'], ui
+    assert ui['research_verified'] and ui['research_during_launch'], ui
     assert '3 attempted, 1 not confirmed' in ui['status'], ui
     assert 'Not confirmed - MISSING_TEST' in ui['results'], ui
     assert 'Opened - LAUNCHER_TEST' in ui['results'] and 'Opened - SECOND_TEST' in ui['results'], ui
@@ -147,6 +155,6 @@ try:
     assert not any((p / 'exited').exists() for p in (projects[0], projects[2])), 'Both agents must still be running together'
     assert len(list(base.glob('*.claimed'))) == 3, 'Cancel or double click dispatched extra requests'
     (base / 'proof.json').write_text(json.dumps(dict(ok=True, ui=ui, captures=captures), indent=2))
-    print('PASS: real preview cancel/confirm, 3 queued requests, independent Sol/Opus tasks, continued after missing folder, 2 concurrent fake CLIs, 1 retained error, Activity page, and 3 exact persisted launch records.')
+    print('PASS: concurrent read-only research search during launch dispatch, real preview cancel/confirm, 3 queued requests, independent Sol/Opus tasks, continued after missing folder, 2 concurrent fake CLIs, 1 retained error, Activity page, and 3 exact persisted launch records.')
 finally:
     release.touch()  # The harmless terminal windows exit automatically.

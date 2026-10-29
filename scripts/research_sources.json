@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "desks": [
+    {"name": "CARL", "root": "AGENTS/CARL", "overview": ["STATUS.md", "NEXUS_BRIEF.md"], "directories": ["research"]},
+    {"name": "BROCK", "root": "AGENTS/BROCK", "overview": ["STATUS.md", "NEXUS_BRIEF.md"], "directories": ["research", "reports"]},
+    {"name": "LIQUID", "root": "AGENTS/LIQUID", "overview": ["STATUS.md", "NEXUS_BRIEF.md"], "directories": ["research", "reports", "audits"]}
+  ]
+}

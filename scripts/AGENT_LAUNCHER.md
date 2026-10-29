@@ -147,6 +147,41 @@ completed agent boot. If window startup fails or is not confirmed, the launcher
 reports it and never retries automatically; inspect the named window first.
 Without Windows Terminal, use `--same-window`; there is no silent fallback.
 
+## Reading saved research
+
+Reopen the launcher and choose **Research**. Browse or search saved Markdown from
+**CARL, BROCK and LIQUID** without starting an agent. Choose a desk and document
+type, enter a phrase, and press Enter or **Search**. Search is a case-insensitive
+literal match across titles, paths and the full included text. Hover over a row
+for its full path and match context; select it to read the original document.
+
+The pane shows **original Markdown source**, including caveats, links and table
+delimiters. Use **+ / -** to zoom, disable **Wrap lines** for wide tables, and use
+**Ctrl+F**, **Next** and **Prev** to find text within the document. Text can be
+selected and copied. **Copy path** copies its repository-relative path. Recognized
+HTTP(S) links open only when clicked; relative Markdown links remain copyable.
+
+The collection includes each desk's `STATUS.md` and `NEXUS_BRIEF.md`, plus CARL's
+`research/`, BROCK's `research/` and `reports/`, and LIQUID's `research/`,
+`reports/` and `audits/`. Archives, hidden/source/data/cache folders, symlinks
+and non-Markdown files are excluded. This is a configured collection, not a
+search of all fleet evidence. **Path date** comes from a filename or folder;
+it does not establish evidence freshness.
+
+The first visit scans local files. **Refresh files** discovers newly saved work
+and updates the search snapshot. Selecting a document rereads its current text.
+If the open file changes, a notice preserves your view until you choose **Reload**.
+An unreadable or changing file retains the previous complete view. Incomplete
+searches show their reasons; zero matches in an incomplete scan is not proof of
+absence. **Cancel read** ignores the pending result without stopping launches.
+
+Reads and searches use a separate worker and never change desk files, launch
+settings or groups. The main window is still shared. Limits are 1 MiB per file,
+32 MiB/1,000 documents per scan, 10,000 directory entries, depth 12 and a
+10-second scan budget, with a 20-second UI response timeout. No database, new
+package, model call, automatic Git pull or research refresh is installed.
+The source configuration is `scripts/research_sources.json`.
+
 ## Activity dates and highlighting
 
 The Agents tab shows the last confirmed **launch here** and the last **saved work**

@@ -10,7 +10,7 @@ Read only entries relevant to Will's current assignment. This is historical evid
 
 ## October 27 program opportunities
 
-- **Research reader:** Will wants it built; requested plan first and approved finishing that plan October 29. [Completed first-version plan](runs/2026-10-27_1440_program-opportunities.md#october-29--completed-first-version-reader-plan): Research tab for CARL/BROCK/LIQUID, native source text, bounded Markdown discovery/literal search, refresh, link/concurrency behavior, sketch and acceptance cases. Plan delivered; no reader code. Next directed step is implementation under preserved build intent; do not repeat the opportunity study or ask again whether Will wants it.
+- **Research reader:** Will approved implementation October 29 after the completed plan. [Delivery](runs/2026-10-27_1440_program-opportunities.md#october-29--research-tab-delivery): Research tab for CARL/BROCK/LIQUID, native source text, bounded Markdown discovery/literal search, refresh, links and separate worker. Implemented and author-tested, including native Windows/WSL and concurrent fake launches. Reopen launcher and try ordinary retrieval/reading; independent acceptance and savings remain unmeasured. No new CATO assignment, expanded roster, schedule or follow-up audit implied.
 - **Other programs and agent work:** [Initial candidates](runs/2026-10-27_1440_program-opportunities.md). Repository/setup view, evidence-preparation entrypoint, and existing-check view remain proposals with no build/scheduling/owner-edit approval. Current operation and savings unverified; retired Helm, paused Decision Deck, and existing DEWEY integration/trials remain separate.
 
 ## October 26 direction and retained advice

@@ -266,7 +266,7 @@ $tabs.SetBounds(24,108,1112,578); $tabs.Anchor='Top,Bottom,Left,Right'
 $tabs.DrawMode='OwnerDrawFixed'; $tabs.ItemSize=New-Object Drawing.Size(205,38); $tabs.SizeMode='Fixed'
 $form.Controls.Add($tabs)
 $pages=@{}
-foreach ($key in @('Agents','Selected','Instructions','Activity')) {
+foreach ($key in @('Agents','Selected','Instructions','Activity','Research')) {
     $page=New-Object Windows.Forms.TabPage
     $page.Name=$key; $page.Text=$key; $page.BackColor=$panel; $page.ForeColor=$ink
     if ($key -eq 'Selected') {$page.Text='Selected & groups'}
@@ -275,10 +275,10 @@ foreach ($key in @('Agents','Selected','Instructions','Activity')) {
 # Inactive TabPages initially use a small default size. Establish their real
 # bounds before anchoring children, otherwise their first display stretches twice.
 foreach ($page in $tabs.TabPages) {$page.Bounds=$tabs.DisplayRectangle}
-$tabs.ItemSize=New-Object Drawing.Size(([int](($tabs.Width-8)/4)),38)
+$tabs.ItemSize=New-Object Drawing.Size(([int](($tabs.Width-8)/$tabs.TabPages.Count)),38)
 # Changing native tab metrics inside SizeChanged feeds back into its layout.
 # Resize the headers once after a user drag instead of inside that event.
-$form.Add_ResizeEnd({$tabs.ItemSize=New-Object Drawing.Size(([int](($tabs.Width-8)/4)),38)})
+$form.Add_ResizeEnd({$tabs.ItemSize=New-Object Drawing.Size(([int](($tabs.Width-8)/$tabs.TabPages.Count)),38)})
 $tabs.Add_DrawItem({
     param($sender,$e)
     $fill=$surface; $text=$muted
@@ -414,10 +414,16 @@ Place $details $tray 300 42 150 26
 Place $batch $tray 856 26 280 40 'Top,Right'
 Place $stop $tray 700 26 144 40 'Top,Right'
 $subtitle.Text='Find agents, prepare their work, and review launches on separate tabs.'
+. (Join-Path $PSScriptRoot 'research_reader.ps1')
 $form.KeyPreview=$true
 $form.Add_KeyDown({
     param($sender,$e)
-    if ($e.Control -and $e.KeyCode -eq [Windows.Forms.Keys]::F -and -not $script:busy) {
+    if ($e.Control -and $e.KeyCode -eq [Windows.Forms.Keys]::F -and $tabs.SelectedTab -eq $pages.Research) {
+        $readerFind.Focus(); $readerFind.SelectAll(); $e.SuppressKeyPress=$true
+    } elseif ($e.Control -and $tabs.SelectedTab -eq $pages.Research -and $e.KeyCode -in @('Add','Oemplus','Subtract','OemMinus')) {
+        if ($e.KeyCode -in @('Add','Oemplus')) {$readerZoomIn.PerformClick()} else {$readerZoomOut.PerformClick()}
+        $e.SuppressKeyPress=$true
+    } elseif ($e.Control -and $e.KeyCode -eq [Windows.Forms.Keys]::F -and -not $script:busy) {
         $tabs.SelectedTab=$pages.Agents; $search.Focus(); $search.SelectAll(); $e.SuppressKeyPress=$true
     }
 })
@@ -1278,6 +1284,7 @@ $timer=New-Object Windows.Forms.Timer
 $timer.Interval=200
 $timer.Add_Tick({
     Poll-EvidenceRefresh
+    Poll-Research
     if (-not $script:busy -or $null -eq $script:process) {return}
     try {
         if (Test-Path -LiteralPath $script:resultFile) {
@@ -1338,7 +1345,7 @@ $form.Add_FormClosing({
         Stop-Remaining
     }
 })
-$form.Add_FormClosed({$timer.Stop();$timer.Dispose()})
+$form.Add_FormClosed({$timer.Stop();$timer.Dispose();Stop-ResearchWorker})
 $saveGroup.Add_Click({Save-Group})
 $saveAsGroup.Add_Click({Save-GroupAs})
 $renameGroup.Add_Click({
@@ -1720,6 +1727,7 @@ if ($SmokeTest) {
             if ($script:busy -or $script:process -or $script:queue.Count -ne 0 -or [IO.File]::ReadAllText($script:historyPath) -cne $oracleHistory) {throw 'ORACLE preset started work or recorded a launch'}
             $task.AppendText(' Editable follow-up.')
             if ($script:settings['ORACLE'].task -cne ($expectedOracle+' Editable follow-up.')) {throw 'ORACLE preset is not editable'}
+            Test-ResearchReader
             Test-Step 'Page bounds and resize'
             # Activity has its own page; errors reveal it without growing the window.
             $tabs.SelectedTab=$pages.Agents; $height=$form.ClientSize.Height
@@ -1767,7 +1775,7 @@ if ($SmokeTest) {
                 $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
                 $bitmap.Save((Join-Path $data.directory ($page.Name+'.png'))); $bitmap.Dispose()
             }
-            @{ok=$true;checks='Explicit Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, task presets including exact ORACLE daily-read text/edit/cancel/no-launch, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
+            @{ok=$true;checks='Explicit Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, Research real worker/search/source/limits/stale responses/queue independence, task presets including exact ORACLE daily-read text/edit/cancel/no-launch, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
