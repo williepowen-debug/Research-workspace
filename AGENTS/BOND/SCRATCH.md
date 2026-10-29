@@ -39,3 +39,6 @@ Out (carve-out ① commits): RED F2 read + FT-11 ruling; CYPHER boundary; LIQUID
 
 ## C12 note — composite not declared `--superseded` (judgement, stated)
 The first heavy run declared `--superseded 17/35 19/35`. Every hit (13 self, 15 cross) was a DATED record: past analysis reports, `before_*` snapshots, prior closeout transcripts, session logs, digests, dated TSV rows. "17/35" is true as of each date, and a self finding can only be cleared by editing the file, which would falsify history. The composite is a per-session reading, not a threshold or band that other desks key on. The 10/01 composite move (15→17) was likewise never declared. Live consumer surface (NEXUS_BRIEF) carries 19/35. Re-ran without the declaration; reported to Will.
+
+## ADDENDUM — 2026-10-29 08:30 EDT: WQ-536 RULED A
+Will, verbatim: "536 lets go with your recommendation" (BOND rec A = PROME rec A). Encoded: THESIS v1.2.12 (§3 rule + CHANGELOG), token moved on STATUS/THESIS/TRADE/NEXUS_BRIEF, VX-BND-01, KB-BND-518, docket 11/5 row (grade the convergence downgrade at the 11/4–11/8 wake). Counter = 3; auction health 4 until graded. PROME packet sent to close the queue row. RECEIPT and board_log no-op (no new signal or deliverable beyond this ruling). NEXT SESSION list above unchanged except: the 11/4–11/8 wake now also grades the downgrade.

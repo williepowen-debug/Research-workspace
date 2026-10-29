@@ -1,8 +1,8 @@
 # BOND — Trade Recommendations
 
 **Last Updated:** 2026-10-29 catch-up — evidence refreshed after a nine-day gap; no new card, threshold or trade proposal.
-**Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.11** (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
-<!-- bond-state: thesis=v1.2.11; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=APPROVED@WQ-357 -->
+**Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.12** (WQ-536 RULED A 10/29: audit-only fires never reset the clean-auction counter) (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
+<!-- bond-state: thesis=v1.2.12; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=APPROVED@WQ-357 -->
 
 **Approval reconciliation October20:** WQ357 SELL remainingTBT5 was RULED APPROVE October15 12:23ET (committed PROME/WILL_QUEUE record), superseding October3 LATER. FORGE reconcile October 22 11:01 ET still shows TBT 5 held, no sell order. Approval is not execution. TLT82P closedOctober12. WQ280 NO-ADD stands. WQ339 authorized drafting only; WQ360 old put card LAPSED UNAPPROVED October14. USER October20 permits NOT-FIRED ideas through TERRY/Will, not automatic entries; no expiry reminders.
 **Registered predictions:** OPEN 0. BND-32 RESOLVED FALSE 10/29 (2s30s steepened +10bp on the 10/28 FOMC vs a 65% non-steepening call); ledger thesis/PREDICTIONS.tsv.

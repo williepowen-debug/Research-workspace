@@ -2,6 +2,14 @@
 
 Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)** = regime change / conviction reversal / channel restructure; **minor (X.Y)** = refinement, threshold update, prediction resolution. Every entry logs old view → new view.
 
+## v1.2.12 — 2026-10-29 08:30 EDT (**WQ-536 RULED A: audit-only fires neither reset nor advance the clean-auction counter**)
+- **Old view → new view:** the 9/15 precedent ("an I′ fire resets the counter") did not say whether an AUDIT-ONLY grade counts. BOND's interim holding (10/29 morning) treated the 10/26 2Y audit-only I′ fire as a reset and declined the downgrade → **Will ruled A, verbatim "536 lets go with your recommendation" (2026-10-29 08:29 ET; queue row `PROME/WILL_QUEUE.md` WQ-536, PROME's rec A, which BOND endorsed): only a REGISTERED fire resets; an audit-only fire is recorded beside the count.**
+- **Consequence:** counter = **3** since the 10/21 20Y-R (registered CLEAN); the convergence-downgrade condition is MET on its letter and is GRADED at the 11/4–11/8 wake, unless a registered clean or fire before then changes the count. Auction health stays **4** until that grade. The 10/26 2Y (record-low indirect 45.68%) and the 10/29 7Y (audit-only) are recorded, not counted.
+- **Rider that survives:** under this rule the score can ease right after the weakest 2Y in BOND's records; the 2Y is a short-end tenor, not the long-end thesis tenor.
+- **Why minor:** a ruled spec clarification; no channel, kill, threshold or position changed. Token `thesis=v1.2.12`.
+
+---
+
 **2026-10-14 maintenance (no version change):** CurrentFORGEreceipt closesTLT82P10/12 and reducesTBT10→5;WQ357clocksurvivesforTBT. CPIinitialjump/afternoonretracement andpreCPIreal/ACMrelief recorded inanalysis/2026-10-14_post-CPI/REPORT.md. No thesis/gate/approval re-grade;fundingwindowUNGRADed remains. WQ400existingdefinition encoded only inVX19.
 
 **October14 transition-body correction 2026-10-14T15:35:58.540263-04:00 (v1.2.11 unchanged):** Current CORE THESIS/channel table/TRADE review list brought forward from the already completed October14 report. Removes live CONTESTED/retired-credit assertions; preserves adopted TWO-PART regime, all scores/thresholds/kill/NO-ADD and source limits. Eight FLOW evidence rows refreshed and eight old dated KB observations clarified as historical CONFIRMED records; source/confidence untouched.
