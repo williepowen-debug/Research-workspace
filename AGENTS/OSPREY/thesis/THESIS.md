@@ -1,6 +1,6 @@
-# OSPREY THESIS — v1.0 (2026-09-08)
+# OSPREY THESIS — v1.1 (2026-10-29)
 
-**Status: v1.0 — first owner-written version.** Supersedes the v0.1 spinout-seed (2026-07-12) whose staleness banner set a v0.2 due date of **2026-09-05**; this file lands **9/8, three days late — recorded as the hygiene defect the banner said it would be**, not quietly extended. Written after the two dependencies the banner named resolved: HAWK's basis-pair audit landed 9/8 and the export-decline persistence question printed a sixth week (8/25). **Live state is `STATUS.md`; this file is the model.** Falsification lives in `CLAUDE.md` § EXIT RULES (single home; this file only points).
+**Status: v1.1 (2026-10-29, osprey-5d, key-file review on Will's "lets do 4-7"): adds the external political brake (§3), restates the channel table at the live marks (§5, which still read C1 = 4 from 9/16), and adds two holes (§6). Nothing in v1.0's core mechanism is withdrawn.** v1.0 — first owner-written version. Supersedes the v0.1 spinout-seed (2026-07-12) whose staleness banner set a v0.2 due date of **2026-09-05**; this file lands **9/8, three days late — recorded as the hygiene defect the banner said it would be**, not quietly extended. Written after the two dependencies the banner named resolved: HAWK's basis-pair audit landed 9/8 and the export-decline persistence question printed a sixth week (8/25). **Live state is `STATUS.md`; this file is the model.** Falsification lives in `CLAUDE.md` § EXIT RULES (single home; this file only points).
 
 ---
 
@@ -26,6 +26,9 @@ On **8/8** a US-brokered understanding had Ukraine agree not to strike **CPC inf
 
 **2026-09-29:** truce talk returned. Trump said on 9/27 *"You gotta take it easy on the refineries"* (Zelensky's reply comes from Trump's account only). Kyiv says it will stop only for a mutual energy truce, and nothing is agreed. Refinery-class strikes then paused 9/27-9/29 while depots were hit, which is 3 days and not yet a policy signal (KB-OSPREY-161/171). Like 8/8, any such understanding would remove targets by diplomacy, not attrition.
 
+**2026-10-29 — the brake engaged, and it is a term the model did not have.** After Trump's 10/11 "energy truce" (never agreed by Russia), Ukraine paused refinery strikes for ~72 hours, then resumed (Ryazan 10/15) and hit Surgut's condensate plant (10/16) and the St Petersburg oil terminal (10/18). **Since 10/16 no refinery strike has been found** (to 10/29), while deep strikes continued on steel and chemical plants: Perm 10/23 and 10/25, Yakovlevo 10/26, NLMK 10/28. October's ledger holds 5 refinery rows (all by 10/15) against September's 15 (`ANALYSIS_2026-10-29.md` §1). The reported lever is operational: Starlink and intelligence linkage (10/14-15; a Starlink threat reported unsourced 10/28). Zelensky says no order to refrain exists (KB-224).
+**The model's correction:** the channel model scores **supply-side mechanisms** (damage; offtake deterrence) and treats the attacker's **will** as a constant. October shows the attacker's *target choice* is itself a variable, set partly in Washington, and it switches in days. That is now `FLOW-OSPREY-06`. Two consequences: (i) the products half is **less durable than §1 says**. It is not reversible in days by repair, but it is reversible in weeks by *not re-striking* while repair cycles (2–3 weeks/plant) complete. (ii) A quiet ledger is now ambiguous between "lull under leverage" and "campaign over". The EXIT RULES deliberately do not read either as a kill (§2 needs a ceasefire IN FORCE). **What would falsify the brake reading:** a refinery strike within days with no change in US posture (`OSP-07` tests resumption by 11/15).
+
 ## 4. What the model has gotten wrong, and what changed because of it
 
 - **OSP-01 FAILED (7/31):** the tanker campaign *did* reach a named Russian crude terminal (Sheskharis) — while this desk's attention sat on the registered CPC gate (LESSONS 5).
@@ -33,15 +36,16 @@ On **8/8** a US-brokered understanding had Ukraine agree not to strike **CPC inf
 - **Two ledger-completeness failures found late** (Taman 7/30 after 21 days; the Yanina sinking 8/1 after 38 days): a sweep anchored on a facility list or an object class certifies coverage it cannot deliver. **The Channel-3 instrument is now a dated-window maritime bulletin run first**, before any name query (LESSONS 7, 8).
 - **Two label failures (9/2, 9/8):** a DARK mark licensed a ~45%-stale floating-storage figure, and an uncited June table cell travelled as a "May-vintage" Urals discount. **A label is not provenance**; this desk now carries no figure it cannot trace to a KB row.
 
-## 5. Channel state and what to watch (state commentary reconciled 2026-09-16 — `STATUS.md` is canonical)
+## 5. Channel state and what to watch (reconciled 2026-10-29 — `STATUS.md` is canonical)
 
 | Channel | Mark | What would move it |
 |---|---|---|
-| Refineries/products | **4 🔴** | Up: sustained runs <3 M bpd or an independent >40% offline aggregate. Downgrades follow `CLAUDE.md` EXIT RULES §1b, approved 9/8; no rule duplicated here. |
-| Crude-export terminals | **5 🔴** (Will, 8/20, liftings limb) | Downgrade path in force under `CLAUDE.md` EXIT RULES §1b; latest evidence in STATUS. |
-| Shadow-fleet / perimeter | **3 🟠** | Up: named crude tanker sunk/total-loss in ruled geography; buyer-pullback limb retired 9/8 to Channel 2. See EXIT RULES. |
+| Refineries/products | **5 🔴** (Will, WQ-276, executed 9/29) | Down: EXIT RULES §1b. 5→4 needs an independent capacity-offline aggregate <40% on two prints AND 14 days with no refinery row (leg A met 10/29; no aggregate since 9/8, blackout day 60 = 11/2). 4→3 needs runs ≥4.5 M bpd for two months. |
+| Crude-export terminals | **5 🔴** (re-armed 10/18 on the St Petersburg oil terminal) | Down: §1b (Bloomberg 4-wk ≥3.9 twice). Kill: 30 days with no in-geography row AND ≥3.5 with no shut-in, earliest 11/17. |
+| Shadow-fleet / perimeter | **3 🟠** | Kill needs 21 days with no qualifying tanker strike (met since 10/27) AND no war-risk repricing (NOT met: general-transit repricing; WQ-470 rescopes it forward). Up: a named crude tanker sunk in geography. |
 
-**The single most important observable is the weekly Bloomberg seaborne-crude print: the next comparable observation after the recovered September 13 print; missing intermediate weeks stay open.** Second: any strike on CPC infrastructure or a non-Russian hull without Russian cargo (the understanding breaking). Third: the September runs print (~4.2 expected) — if it lands, the band's *lower* edge, not its centre, becomes the question.
+**The single most important observable is now whether Ukraine resumes refinery strikes** (`OSP-07`): it decides whether C1's quiet is leverage or an end state. Second: the weekly Bloomberg seaborne-crude print (3.59 to 10/18, the lowest in a month). Third: any independent capacity-offline aggregate or runs print, without which the C1 downgrade test is unreachable after 11/2.
+*(v1.0 table of 2026-09-16, which read C1 = 4, is in git history.)*
 
 ## 6. Known holes in the model, written down so they are distinguishable from blind spots
 
@@ -51,10 +55,12 @@ On **8/8** a US-brokered understanding had Ukraine agree not to strike **CPC inf
 - **Gas/LNG** is represented (`VX-OSPREY-GAS-01`, `FLOW-OSPREY-01`) but thinly swept; **vol/credit** transmission (`FLOW-OSPREY-02`) is seeded and has never had an own-theater observation.
 - **Druzhba / EU** remains a pointer, not a tracked series.
 - **2026-09-29 — Midstream is a coverage hole, not a quiet class:** ~12 pump-station/trunk-line strikes Apr-Jul 2026 are missing from `STRIKES.tsv` (KB-OSPREY-169, OWED-51). **And a measurement hole is opening:** Russia's 9/28 decree restricts publication of refinery-by-refinery runs and export detail (KB-OSPREY-160). That threatens the runs proxy behind the ~30% band and the independent aggregate behind the C1 5→4 test.
+- **2026-10-29 — no term for the attacker's will** (closed into the model as `FLOW-OSPREY-06`, §3): the channel scores cannot distinguish a lull under leverage from a finished campaign. Carried as an ambiguity, never resolved by marking.
+- **2026-10-29 — Channel 3's limb 2 measures the wrong population:** the general Black Sea transit premium is moved mostly by attacks on non-Russian hulls attributed to Russia. Fixed forward by the WQ-470 joint text once its tripwire constant is bound.
 - The **war-risk rate** is event-driven observable and has printed twice in seven weeks; the TD6 freight proxy is a tripwire, not a level.
 
 ## 7. What would change this thesis
 → `CLAUDE.md` § EXIT RULES (v1.0, firmed 7/12; §2 sequencing repair 8/10; §3 attribution clause 8/15; re-read 9/8). Not duplicated here.
 
 ## Provenance
-v0.1 seeded 2026-07-12 from HAWK's STATUS/SUMMARY/outbox content. v1.0 written 2026-09-08 from OSPREY's own record: `STRIKES.tsv` (98 rows, swept-complete 9/8), `KB.tsv` (KB-OSPREY-001..090), `PREDICTIONS.tsv` (OSP-01..06), the dated `ANALYSIS_*.md` series, and `FLOW-OSPREY-03`. Prior version preserved in git history (`git log -p -- AGENTS/OSPREY/thesis/THESIS.md`).
+v0.1 seeded 2026-07-12 from HAWK's STATUS/SUMMARY/outbox content. v1.1 written 2026-10-29 from `STRIKES.tsv` (swept-complete 10/25), KB-OSPREY-224…231 and `ANALYSIS_2026-10-29.md`. v1.0 written 2026-09-08 from OSPREY's own record: `STRIKES.tsv` (98 rows, swept-complete 9/8), `KB.tsv` (KB-OSPREY-001..090), `PREDICTIONS.tsv` (OSP-01..06), the dated `ANALYSIS_*.md` series, and `FLOW-OSPREY-03`. Prior version preserved in git history (`git log -p -- AGENTS/OSPREY/thesis/THESIS.md`).

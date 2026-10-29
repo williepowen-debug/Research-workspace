@@ -47,11 +47,11 @@
 - Conviction: products impairment direction high; incremental lost-volume level low; duration of the October lull low.
 - Diverge from market by: no independent consensus measurement made. Do not infer price mispricing from strike tempo.
 - Counter-signal: a lull plus recovering runs weakens C1. Russian diesel exports to the US (KB-229) are a demand-side sign of product recovery.
-- Book: OSP-01..06 resolved (3 CONFIRMED / 3 FAILED). **No open prediction since 10/15**, a gap noted at the 10/29 key-file review.
+- Book: OSP-01..06 resolved (3 CONFIRMED / 3 FAILED). **OSP-07 OPEN (10/29, 60%): a Ukrainian strike on a Russian crude refinery dated 10/30–11/15**, graded on or after 11/18 (KB-232). **BRENT:** this is the products-half swing factor (`FLOW-OSPREY-06`).
 - Failure patterns: syndication ≠ independent evidence; nameplate ≠ lost output; source silence ≠ verified quiet; a lull ≠ a ceasefire.
 
 ## NEXT DECISION POINT
-No Will-gated decision open. Desk points: **11/1** diesel ban · **11/2** L814 C1 grade + blackout flag (OWED-46 decides leg A) · **11/8** §5 EXIT RULES re-read · **11/17** earliest C2 re-kill · **11/18** GATE-OSPREY-001 review.
+No Will-gated decision open. Desk points: **11/1** diesel ban · **11/2** L814 C1 grade + blackout flag (OWED-46 decides leg A) · **11/8** §5 EXIT RULES re-read · **11/17** earliest C2 re-kill · **11/18** GATE-OSPREY-001 review + OSP-07 grade.
 
 ## WATCH
 | Date | Event | Signal |

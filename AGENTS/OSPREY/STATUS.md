@@ -54,7 +54,7 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 - **Feed / sweep (10/29):** `strike_feed.py` run 10/29: 28 rows, NONE 26, MATCHED 0, NOT_READ 0; **all 28 dispositioned in the feed file** (git-ignored; MATCHES committed). Palaemon 19–25 Oct read. Name-free EN/RU refinery, depot, port and pipeline queries 10/19→10/29. **Mark 10/25 (BOUNDED);** 10/26–10/29 not certified (Palaemon 26 Oct–1 Nov unpublished). FIRMS not checked (no tool on this host). Bloomberg 403.
 
 ## Predictions
-**OSP-06 RESOLVED CONFIRMED 2026-10-15 (45%; KB-197).** No Bloomberg 4-wk print ≥ 3.9 by 10/15 (last: ~3.7 to 10/11, B3). Limits travel: two in-window prints excluded by arithmetic only; flip-on-backfill. Scoreboard **3 CONFIRMED / 3 FAILED / 0 OPEN — the book is empty.** No new prediction registered this session (none forced by the evidence).
+**OSP-07 OPEN (registered 10/29, 60%; KB-232): at least one Ukrainian strike on a Russian crude refinery dated 10/30–11/15**, confirmed by a Russian official or two independent outlets (condensate/gas/petrochemical excluded; pre-registered sweep; no VOID path). Grade on or after **11/18**. Base rate: no refinery gap above 10 days since June; the current gap (14+ days) is the longest of that period. Scoreboard **3 CONFIRMED / 3 FAILED / 1 OPEN.** OSP-06 CONFIRMED 10/15 (KB-197).
 
 ## OWED REGISTER — every live obligation, dated
 *(READ_CAP rule 18 census — **10/15 session: every dated row carried or closed by name; 3 closed (OSP-06, L544, L666 graded), 6 new dated rows (Palaemon 12–18, 10/23, canvass before 10/27, 10/27, 11/2, 11/8); 0 dropped.** The 10/1 Swedish Club row is CORRECTED in place, not closed.)* *(Prior census — **9/15 session: 36 named obligations in → 35 carried + 1 CLOSED BY NAME (OWED-1, on a negative) + 3 new (37/38/39) = 38, 0 dropped.** L308 discharged out of the dated table. This table IS the backlog.)* *(Prior, third rotation: 26 in → 26 carried or closed by name + 1 new (36), 0 dropped.)*
@@ -93,6 +93,7 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 | **11/1** | **Diesel producer ban 10/31 end: extended or lapsed?** (KB-229; a lapse starts the C1 companion-tell 30-day clock) | Mine; DOCKET L771 holds the №954 exemption question. |
 | **11/2** | **C1 aggregate blackout: 60 days from S&P/CERA 9/3 + DOCKET L814 (L718 successor)** | If no independent aggregate prints, flag the §1b test **UNREACHABLE** to PROME that session (11/7 if IIR's 9/8 volume print counts; I flag on 11/2). Decree 686 goods list overdue (KB-222). Leg A MET 10/29 (KB-225); any refinery row resets it. |
 | **11/8** | **§5 30-day EXIT RULES re-read** (last 10/9) | Mine. |
+| **11/18** | **OSP-07 grade** (refinery strike 10/30–11/15) | Mine; run the pre-registered sweep in the row, then grade. |
 
 **CLOSED, BY NAME — ROTATED 2026-09-18 → `archive/STATUS_ROTATED_2026-09-18.md` §B** (verbatim; nothing dropped — the closed half of the census lives there, the live half is the table below).
 
@@ -114,6 +115,7 @@ L544 graded NOT MET (C1 stays 5, KB-196) · L666 Azov OPEN-UNRESOLVED (KB-194) �
 | **51** | **MIDSTREAM backfill — ~12 pump-station strikes Apr-Jul 2026 absent from STRIKES.tsv** | **9/29 (NEW)** | **OPEN.** ASTRA-reported, dates unverified; + Novokuibyshevsk refinery 8/22. Also re-run the unfinished Sept upstream queries (RU-language weekly, Caspian platforms, CPC pumps, BTS, Druzhba HU/SK). Session search cap blocked it 9/29. KB-169. |
 
 ## Cross-Agent Implications
+**2026-10-29 (key-file review, 4–7):** VX 4 vectors refreshed (re-pull clock; no band moved) · FLOW-OSPREY-06 NEW (US-leverage brake on refinery targeting; data clock → 10/29) · THESIS v1.1 · OSP-07 registered. Gas lane: a 'Orenburg 10/19' hit was 2025, a date trap (KB-233). Routine to BRENT/HAWK via NEXUS_BRIEF.
 **2026-10-29:** no 🔴 route (no flip-trigger fired). Packets: **HAWK** (dictionary CONFIRMED + WQ-470 joint) · **DAEDALUS** (WQ-508 accepted) · **PROME** memo `PROME/inbox/2026-10-29_from-OSPREY_catchup-WQ470-joint-draft.md`. Routine via `NEXUS_BRIEF.md`: refinery-strike tempo shift (BRENT/HAWK), 3.59 export print + Primorsk pause (BRENT), diesel 10/31 (BRENT).
 **2026-10-23:** no peer packets, no 🔴 route (no flip-trigger fired). **PROME** — memo `PROME/inbox/2026-10-23_from-OSPREY_L718-L666-grades.md` (L718 NOT MET, successor 11/2; L666 CLOSED UNRESOLVED, tombstone). Routine via `NEXUS_BRIEF.md`: Bloomberg 10/22 Rosneft strike count (BRENT), Palaemon 12–18 date conflicts (HAWK).
 **2026-10-21:** no peer packets, no 🔴 route (no flip-trigger fired). Routine via `NEXUS_BRIEF.md`: Tambov Druzhba LPDS 10/20 (BRENT/HAWK — EU-pipeline angle), Sulina tanker fires (HAWK — C3 limb-2 canvass input), Kommersant port-halt claim (BRENT/HAWK — dry cargo, not oil), Novak refinery-recovery constraint (BRENT).
