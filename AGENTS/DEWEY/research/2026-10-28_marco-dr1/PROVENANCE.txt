@@ -1,0 +1,7 @@
+download_start_utc 2026-10-29T02:18:20Z
+download_done_utc 2026-10-29T02:19:10Z
+statcan_t70_retrieved_utc 2026-10-29T02:17:29Z (release 2026-08-25T08:30)
+statcan_t39_retrieved_utc ~2026-10-29T02:18Z
+NAL source folder: https://floridarevenue.com/property/dataportal/Documents/PTO%20Data%20Portal/Tax%20Roll%20Data%20Files/NAL/2026F/ (zips not committed, ~270MB; sha256 in zips.sha256)
+NAL user guide: https://floridarevenue.com/property/dataportal/Documents/PTO%20Data%20Portal/User%20Guides/2026%20Users%20guide%20and%20quick%20reference/2026_NAL_SDF_NAP_Users_Guide.pdf
+Reproduce: download the eight county zips, then python3 -I nal_canada_aggregate.py OUT.json *.zip

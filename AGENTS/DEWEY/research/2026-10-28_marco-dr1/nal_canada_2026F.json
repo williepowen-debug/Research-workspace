@@ -1,0 +1,607 @@
+{
+ "NAL16F202601.csv": {
+  "zip": "Broward 16 Final NAL 2026.zip",
+  "rows": 754509,
+  "assessment_years": [
+   "2026"
+  ],
+  "cells": {
+   "all": {
+    "parcels": 754509,
+    "jv": 489506864980.0
+   },
+   "res": {
+    "parcels": 695563,
+    "jv": 376885674340.0
+   },
+   "res_nonhmstd": {
+    "parcels": 273902,
+    "jv": 138266692560.0
+   },
+   "can_all": {
+    "parcels": 16983,
+    "jv": 6187627490.0
+   },
+   "can_res": {
+    "parcels": 16668,
+    "jv": 5865028830.0
+   },
+   "can_res_uc_single family": {
+    "parcels": 1044,
+    "jv": 1120962550.0
+   },
+   "can_res_uc_condominium": {
+    "parcels": 13339,
+    "jv": 4106002720.0
+   },
+   "can_res_uc_multifamily <10": {
+    "parcels": 77,
+    "jv": 68554500.0
+   },
+   "can_res_hmstd": {
+    "parcels": 66
+   },
+   "can_res_uc_mobile home": {
+    "parcels": 651,
+    "jv": 119564270.0
+   },
+   "can_res_uc_vacant residential": {
+    "parcels": 24,
+    "jv": 61305140.0
+   },
+   "can_res_uc_multifamily 10+": {
+    "parcels": 4,
+    "jv": 75468230.0
+   },
+   "can_res_uc_cooperative": {
+    "parcels": 1525,
+    "jv": 311951400.0
+   },
+   "can_res_uc_misc residential": {
+    "parcels": 3,
+    "jv": 1220010.0
+   },
+   "can_res_uc_residential common area": {
+    "parcels": 1,
+    "jv": 10.0
+   }
+  },
+  "canada_by_province_city_suffix": {
+   "QC": 11369,
+   "ON": 5282,
+   "BC": 91,
+   "AB": 66,
+   "NB": 56,
+   "MB": 56,
+   "NS": 30,
+   "PE": 12,
+   "NL": 9,
+   "SK": 9,
+   "?": 3
+  },
+  "match_rule_counts": {
+   "state=CANADA": 16983
+  },
+  "canada_state_without_postcode": 16983,
+  "canada_postcode_without_state": 0
+ },
+ "NAL18F202601.csv": {
+  "zip": "Charlotte 18 Final NAL 2026.zip",
+  "rows": 222511,
+  "assessment_years": [
+   "2026"
+  ],
+  "cells": {
+   "all": {
+    "parcels": 222511,
+    "jv": 48245102068.0
+   },
+   "res": {
+    "parcels": 209597,
+    "jv": 38742141621.0
+   },
+   "res_nonhmstd": {
+    "parcels": 139877,
+    "jv": 16731158191.0
+   },
+   "can_all": {
+    "parcels": 3141,
+    "jv": 488102858.0
+   },
+   "can_res": {
+    "parcels": 3106,
+    "jv": 466755248.0
+   },
+   "can_res_uc_vacant residential": {
+    "parcels": 1413,
+    "jv": 29109975.0
+   },
+   "can_res_uc_single family": {
+    "parcels": 827,
+    "jv": 288596677.0
+   },
+   "can_res_uc_multifamily <10": {
+    "parcels": 17,
+    "jv": 5385808.0
+   },
+   "can_res_uc_condominium": {
+    "parcels": 431,
+    "jv": 93540260.0
+   },
+   "can_res_uc_mobile home": {
+    "parcels": 96,
+    "jv": 10392113.0
+   },
+   "can_res_hmstd": {
+    "parcels": 13
+   },
+   "can_res_uc_misc residential": {
+    "parcels": 25,
+    "jv": 1360962.0
+   },
+   "can_res_uc_cooperative": {
+    "parcels": 297,
+    "jv": 38369453.0
+   }
+  },
+  "canada_by_province_city_suffix": {
+   "?": 3141
+  },
+  "match_rule_counts": {
+   "state=CANADA": 3141
+  },
+  "canada_state_without_postcode": 3139,
+  "canada_postcode_without_state": 0
+ },
+ "NAL21F202602.csv": {
+  "zip": "Collier 21 Final NAL 2026.zip",
+  "rows": 297748,
+  "assessment_years": [
+   "2026"
+  ],
+  "cells": {
+   "all": {
+    "parcels": 297748,
+    "jv": 217575131348.0
+   },
+   "res": {
+    "parcels": 239461,
+    "jv": 192023086016.0
+   },
+   "res_nonhmstd": {
+    "parcels": 130876,
+    "jv": 91808155046.0
+   },
+   "can_all": {
+    "parcels": 4972,
+    "jv": 3734238016.0
+   },
+   "can_res": {
+    "parcels": 4928,
+    "jv": 3692907513.0
+   },
+   "can_res_uc_condominium": {
+    "parcels": 3195,
+    "jv": 1644266884.0
+   },
+   "can_res_uc_multifamily <10": {
+    "parcels": 30,
+    "jv": 14231561.0
+   },
+   "can_res_uc_single family": {
+    "parcels": 1387,
+    "jv": 1920608142.0
+   },
+   "can_res_uc_misc residential": {
+    "parcels": 30,
+    "jv": 24883338.0
+   },
+   "can_res_uc_vacant residential": {
+    "parcels": 153,
+    "jv": 48126024.0
+   },
+   "can_res_uc_cooperative": {
+    "parcels": 69,
+    "jv": 25508332.0
+   },
+   "can_res_hmstd": {
+    "parcels": 25
+   },
+   "can_res_uc_mobile home": {
+    "parcels": 64,
+    "jv": 15283232.0
+   }
+  },
+  "canada_by_province_city_suffix": {
+   "?": 4971,
+   "AB": 1
+  },
+  "match_rule_counts": {
+   "state=CANADA": 4972
+  },
+  "canada_state_without_postcode": 4972,
+  "canada_postcode_without_state": 0
+ },
+ "NAL46F202601.csv": {
+  "zip": "Lee 46 Final NAL 2026.zip",
+  "rows": 563025,
+  "assessment_years": [
+   "2026"
+  ],
+  "cells": {
+   "all": {
+    "parcels": 563025,
+    "jv": 208664591094.0
+   },
+   "res": {
+    "parcels": 528440,
+    "jv": 166865233509.0
+   },
+   "res_nonhmstd": {
+    "parcels": 312972,
+    "jv": 78986345932.0
+   },
+   "can_all": {
+    "parcels": 8074,
+    "jv": 2861199281.0
+   },
+   "can_res": {
+    "parcels": 7997,
+    "jv": 2788310253.0
+   },
+   "can_res_uc_single family": {
+    "parcels": 3093,
+    "jv": 1739668407.0
+   },
+   "can_res_uc_condominium": {
+    "parcels": 2809,
+    "jv": 770460479.0
+   },
+   "can_res_uc_vacant residential": {
+    "parcels": 1588,
+    "jv": 86857191.0
+   },
+   "can_res_uc_multifamily <10": {
+    "parcels": 77,
+    "jv": 33034813.0
+   },
+   "can_res_uc_mobile home": {
+    "parcels": 288,
+    "jv": 37115237.0
+   },
+   "can_res_hmstd": {
+    "parcels": 38
+   },
+   "can_res_uc_cooperative": {
+    "parcels": 105,
+    "jv": 11859963.0
+   },
+   "can_res_uc_misc residential": {
+    "parcels": 29,
+    "jv": 3379973.0
+   },
+   "can_res_uc_multifamily 10+": {
+    "parcels": 3,
+    "jv": 105934190.0
+   },
+   "can_res_uc_residential common area": {
+    "parcels": 5,
+    "jv": 0.0
+   }
+  },
+  "canada_by_province_city_suffix": {
+   "?": 8074
+  },
+  "match_rule_counts": {
+   "state=CANADA": 8074
+  },
+  "canada_state_without_postcode": 8073,
+  "canada_postcode_without_state": 0
+ },
+ "NAL51F202601.csv": {
+  "zip": "Manatee 51 Final NAL 2026.zip",
+  "rows": 240202,
+  "assessment_years": [
+   "2026"
+  ],
+  "cells": {
+   "all": {
+    "parcels": 240202,
+    "jv": 102900980571.0
+   },
+   "res": {
+    "parcels": 226265,
+    "jv": 86063272600.0
+   },
+   "res_nonhmstd": {
+    "parcels": 113929,
+    "jv": 34399548270.0
+   },
+   "can_all": {
+    "parcels": 2326,
+    "jv": 854681435.0
+   },
+   "can_res": {
+    "parcels": 2298,
+    "jv": 836291414.0
+   },
+   "can_res_uc_single family": {
+    "parcels": 657,
+    "jv": 439465397.0
+   },
+   "can_res_uc_condominium": {
+    "parcels": 1083,
+    "jv": 272585535.0
+   },
+   "can_res_hmstd": {
+    "parcels": 17
+   },
+   "can_res_uc_vacant residential": {
+    "parcels": 113,
+    "jv": 22994198.0
+   },
+   "can_res_uc_cooperative": {
+    "parcels": 355,
+    "jv": 21189853.0
+   },
+   "can_res_uc_mobile home": {
+    "parcels": 62,
+    "jv": 4750171.0
+   },
+   "can_res_uc_multifamily <10": {
+    "parcels": 14,
+    "jv": 8588076.0
+   },
+   "can_res_uc_multifamily 10+": {
+    "parcels": 2,
+    "jv": 64388623.0
+   },
+   "can_res_uc_residential common area": {
+    "parcels": 1,
+    "jv": 0.0
+   },
+   "can_res_uc_misc residential": {
+    "parcels": 11,
+    "jv": 2329561.0
+   }
+  },
+  "canada_by_province_city_suffix": {
+   "?": 2326
+  },
+  "match_rule_counts": {
+   "state=CANADA": 2326
+  },
+  "canada_state_without_postcode": 2326,
+  "canada_postcode_without_state": 0
+ },
+ "NAL60F202601.csv": {
+  "zip": "Palm Beach 60 Final NAL 2026.zip",
+  "rows": 657468,
+  "assessment_years": [
+   "2026"
+  ],
+  "cells": {
+   "all": {
+    "parcels": 657468,
+    "jv": 532344492885.0
+   },
+   "res": {
+    "parcels": 617872,
+    "jv": 430585378444.0
+   },
+   "res_nonhmstd": {
+    "parcels": 251469,
+    "jv": 161100065240.0
+   },
+   "can_all": {
+    "parcels": 8172,
+    "jv": 5361881642.0
+   },
+   "can_res": {
+    "parcels": 8088,
+    "jv": 4984194478.0
+   },
+   "can_res_uc_vacant residential": {
+    "parcels": 48,
+    "jv": 94973243.0
+   },
+   "can_res_uc_single family": {
+    "parcels": 1838,
+    "jv": 2531177666.0
+   },
+   "can_res_hmstd": {
+    "parcels": 43
+   },
+   "can_res_uc_condominium": {
+    "parcels": 5595,
+    "jv": 2163684109.0
+   },
+   "can_res_uc_multifamily <10": {
+    "parcels": 30,
+    "jv": 37777255.0
+   },
+   "can_res_uc_mobile home": {
+    "parcels": 417,
+    "jv": 50179428.0
+   },
+   "can_res_uc_cooperative": {
+    "parcels": 155,
+    "jv": 62385472.0
+   },
+   "can_res_uc_residential common area": {
+    "parcels": 2,
+    "jv": 0.0
+   },
+   "can_res_uc_retirement home": {
+    "parcels": 3,
+    "jv": 44017305.0
+   }
+  },
+  "canada_by_province_city_suffix": {
+   "?": 8172
+  },
+  "match_rule_counts": {
+   "state=CANADA": 8172
+  },
+  "canada_state_without_postcode": 8125,
+  "canada_postcode_without_state": 0
+ },
+ "NAL62F202601.csv": {
+  "zip": "Pinellas 62 Final NAL 2026.zip",
+  "rows": 433745,
+  "assessment_years": [
+   "2026"
+  ],
+  "cells": {
+   "all": {
+    "parcels": 433745,
+    "jv": 211389470446.0
+   },
+   "res": {
+    "parcels": 405042,
+    "jv": 168974900260.0
+   },
+   "res_nonhmstd": {
+    "parcels": 154214,
+    "jv": 60156074200.0
+   },
+   "can_all": {
+    "parcels": 5340,
+    "jv": 1738744637.0
+   },
+   "can_res": {
+    "parcels": 5130,
+    "jv": 1598385316.0
+   },
+   "can_res_uc_cooperative": {
+    "parcels": 39,
+    "jv": 5717903.0
+   },
+   "can_res_uc_single family": {
+    "parcels": 664,
+    "jv": 331889369.0
+   },
+   "can_res_uc_mobile home": {
+    "parcels": 1303,
+    "jv": 103545629.0
+   },
+   "can_res_uc_condominium": {
+    "parcels": 3051,
+    "jv": 925638402.0
+   },
+   "can_res_hmstd": {
+    "parcels": 19
+   },
+   "can_res_uc_residential common area": {
+    "parcels": 2,
+    "jv": 0.0
+   },
+   "can_res_uc_vacant residential": {
+    "parcels": 20,
+    "jv": 4663156.0
+   },
+   "can_res_uc_multifamily <10": {
+    "parcels": 45,
+    "jv": 22205857.0
+   },
+   "can_res_uc_multifamily 10+": {
+    "parcels": 6,
+    "jv": 204725000.0
+   }
+  },
+  "canada_by_province_city_suffix": {
+   "?": 5335,
+   "ON": 4,
+   "NL": 1
+  },
+  "match_rule_counts": {
+   "state=CANADA": 5339
+  },
+  "canada_state_without_postcode": 172,
+  "canada_postcode_without_state": 1
+ },
+ "NAL68F202601.csv": {
+  "zip": "Sarasota 68 Final NAL 2026.zip",
+  "rows": 307173,
+  "assessment_years": [
+   "2026"
+  ],
+  "cells": {
+   "all": {
+    "parcels": 307173,
+    "jv": 146806364000.0
+   },
+   "res": {
+    "parcels": 291301,
+    "jv": 117131183600.0
+   },
+   "res_nonhmstd": {
+    "parcels": 151578,
+    "jv": 49593752200.0
+   },
+   "can_all": {
+    "parcels": 4099,
+    "jv": 1634063500.0
+   },
+   "can_res": {
+    "parcels": 4041,
+    "jv": 1462299900.0
+   },
+   "can_res_uc_condominium": {
+    "parcels": 1448,
+    "jv": 646978200.0
+   },
+   "can_res_uc_single family": {
+    "parcels": 1401,
+    "jv": 688222800.0
+   },
+   "can_res_uc_mobile home": {
+    "parcels": 362,
+    "jv": 33755500.0
+   },
+   "can_res_uc_multifamily <10": {
+    "parcels": 29,
+    "jv": 31992700.0
+   },
+   "can_res_uc_vacant residential": {
+    "parcels": 778,
+    "jv": 28429300.0
+   },
+   "can_res_uc_residential common area": {
+    "parcels": 1,
+    "jv": 0.0
+   },
+   "can_res_hmstd": {
+    "parcels": 25
+   },
+   "can_res_uc_multifamily 10+": {
+    "parcels": 1,
+    "jv": 26709200.0
+   },
+   "can_res_uc_cooperative": {
+    "parcels": 21,
+    "jv": 6212200.0
+   }
+  },
+  "canada_by_province_city_suffix": {
+   "ON": 3421,
+   "QC": 298,
+   "NS": 99,
+   "BC": 71,
+   "MB": 61,
+   "NB": 48,
+   "AB": 41,
+   "NL": 36,
+   "SK": 10,
+   "PE": 7,
+   "?": 5,
+   "NT": 2
+  },
+  "match_rule_counts": {
+   "state=province": 4093,
+   "state=CANADA": 6
+  },
+  "canada_state_without_postcode": 4098,
+  "canada_postcode_without_state": 0
+ }
+}
