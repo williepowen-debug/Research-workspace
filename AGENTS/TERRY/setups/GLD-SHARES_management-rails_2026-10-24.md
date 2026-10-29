@@ -2,6 +2,8 @@
 **Date:** 2026-10-24 Sat (written 14:4x ET, clock from `date`) · PROME spawn, WQ-513/514 workstream
 **Setup ID:** `MGMT-GLD-SHARES-OCT24`
 **Terry verdict:** CONDITIONAL — management rails for a held line; Will's choices, no recommendation, nothing approved by this card.
+
+> **Holding update 2026-10-29 (Will's Fidelity capture):** 28 shares (was 25), basis $10,489.53, value $10,315.48 at $368.41 = 28.04% of the account. Rails unchanged; every choice stays Will's.
 **Commission:** PROME's reading of an ask Will made (PROME SCRATCH "Will's ask, not given"); Will may correct the reading. $0 moves; any order is Will's hand (root rule #5).
 **Thesis owner:** MIDAS. WQ-451 decomposition letter `AGENTS/MIDAS/gold/research/2026-10-23_WQ451-decomposition-letter.md` (committed `a35faa6f8`; header stamp corrected `829683272`, invalidation lines unchanged between the two). 10/20 outlook `AGENTS/MIDAS/analysis/2026-10-20_GLD-OUTLOOK.md`.
 **Data freshness:** GLD **$366.61 = 10/23 regular-session close** (`FORGE/tools/market-data/fetch.py price GLD`, pulled 2026-10-24 14:42 ET; HEARTBEAT's $366.00 was an intraday read). Position truth: **25 shares, basis $9,390.78 (avg $375.63)**, Fidelity Traditional IRA, 10/22 11:01 ET capture (`PROME/data/2026-10-22_broker-capture-TRANSCRIPTION.md` row 13; FORGE `ec5a7058b`); the 10/23 activity shows no GLD order. DFII10, DXY and trust tonnes are MIDAS's 10/22 readings.

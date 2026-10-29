@@ -3,6 +3,8 @@
 **Setup ID:** `IDEA-ORCL-PUTSPREAD-OCT23`
 **Terry verdict:** CONDITIONAL — APPROVED NOT-FIRED (WQ-514 A, Will 2026-10-23 21:15 ET, at the rec: Dec-18 115/100P ×1, limit ≤ $4.40, default size), CONDITIONAL on an Oracle-IR-verified fiscal-Q2 date written on this card before any entry. The order is Will's hand (root rule #5). *(was: unapproved proposal, 10/23 19:0x ET)*
 
+> **WQ-518 RULED A — Will in the TERRY window 2026-10-29 11:42 ET, verbatim "518 A":** the Oracle-verified fiscal-Q2 date condition stays; no estimated-date entry.
+
 > **TRIGGER STATE 2026-10-29 (TERRY, written ~11:3x ET from `date`): NOT FIRED; entry still BLOCKED by the date condition.** T1 ORCL 5Y CDS: no reading newer than 314 bp [10/22] found in the repo — UNKNOWN since. T2 (ORCL ≥ $120): met, close $144.54 [10/28] (+10.7% that day; cause not established here), $140.34 intraday 10/29. Void line (close ≥ $145.00): not hit, 10/28 close $0.46 short. FQ2 date: Oracle has not announced it (web search 10/29: calendar sites project 12/10, not issuer-verified) — condition unmet; WQ-518 open with Will. No order.
 **Confidence in trade structure:** Medium (liquid chain; the trigger reads a credit series this desk does not own)
 **Commission:** WQ-499 RULED APPROVE A, Will 2026-10-23 13:38 ET in PROME's window (PROME packet `inbox/2026-10-23_from-PROME_WQ499-WQ509-RULED-two-NOT-FIRED-cards.md`). Preparation only; root rule #5 — the order is Will's.

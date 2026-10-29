@@ -1,6 +1,8 @@
 # TRADE IDEA — USO Jan-15-2027 170/185 call spread — own the post-election strike window the held calls do not reach
 **Setup ID:** `IDEA-USO-POSTELECTION-OCT22`
-**Terry verdict:** CONDITIONAL — **NOT-FIRED**; unapproved proposal. Nothing is approved in advance.
+**Terry verdict:** NO TRADE — WQ-491 resolved, not taken (Will in the TERRY window 2026-10-29 11:42 ET, verbatim "I think we already bought more USO since then"); his own 10/29 capture shows USO Nov-20 170C ×1 and Oct-30 163C ×1, not this spread. Closed; no further grading.
+
+**Prior verdict (superseded 2026-10-29):** CONDITIONAL — **NOT-FIRED**; unapproved proposal. Nothing is approved in advance.
 **Prepared:** 2026-10-22 13:29 ET (clock read from `date`), TERRY (Claude Opus 5.5, Claude Code), PROME spawn on WQ-487 A. Commission basis: Will 2026-10-20 11:50 ET, verbatim *"we can loosen rules for trade ideas"*.
 **Thesis owners (evidence, not a TERRY thesis):** BRENT (oil thesis); FALCON (US–Iran direct-kinetic row 5; SIG-W-20261022-003, -007). FALCON's packet `2026-10-22_from-FALCON_oil-leg-catalyst-window-NOT-FIRED.md` (~13:4x ET) landed after the first draft and is folded into § 2; FALCON's figures govern the trigger-state cell.
 **Data freshness:** USO spot $162.30–162.43 and BZZ26 $112.48 (+3.36%; vendor contract label truncated, identity rests on the requested symbol, not a settle) at 13:26–13:29 ET; chain 13:29 ET `--no-cache`. Vendor option quotes are **SCREENING marks**; the order is priced on the broker chain (durable finding 5b).

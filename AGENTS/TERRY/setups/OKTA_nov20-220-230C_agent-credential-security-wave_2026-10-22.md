@@ -1,6 +1,8 @@
 # TRADE IDEA — OKTA Nov-20 220/230 call spread — the identity layer if the AI-agent security wave worsens
 **Setup ID:** `IDEA-OKTA-SECWAVE-OCT22`
-**Terry verdict:** CONDITIONAL — **NOT-FIRED**; unapproved proposal. **Confidence in structure: LOW.** Nothing is approved in advance.
+**Terry verdict:** PARKED — WQ-492 RULED B (Will in the TERRY window 2026-10-29 11:42 ET, verbatim "492 - B"): idea only, no order, nothing approved. Not re-graded at boot; re-opens only if a named vendor or bank files a cyber 8-K Item 1.05 before the 11/13 time stop, else dead then.
+
+**Prior verdict (superseded 2026-10-29):** CONDITIONAL — **NOT-FIRED**; unapproved proposal. **Confidence in structure: LOW.** Nothing is approved in advance.
 **Prepared:** 2026-10-22 13:33 ET (clock read from `date`), TERRY (Claude Opus 5.5, Claude Code), PROME spawn on WQ-487 A plus PROME's 13:3x ET packet `2026-10-22_from-PROME_security-wave-basket-card-input.md`.
 **Thesis owner:** **Will** (premise, 10/22 13:26–13:28 ET in PROME's window: the internet-security concerns *"will get worse before better"*; *"I do understand different not the banks. I am exploring other avenues and trades."*). ⚠️ **No fleet desk owns the security names**; evidence is WALTER SIG-W-20261022-008 and DEWEY REQ-DEWEY-20261022-001. This card TESTS Will's premise; it does not adopt it.
 **Data freshness:** OKTA spot $202.46–202.62 (−2.96%) and chain at 13:31–13:32 ET 10/22, `--no-cache`. Vendor option quotes are SCREENING marks; price the order on the broker chain (durable finding 5b).

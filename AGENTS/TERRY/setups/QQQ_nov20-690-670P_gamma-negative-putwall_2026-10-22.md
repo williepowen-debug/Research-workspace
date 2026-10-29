@@ -2,6 +2,8 @@
 **Setup ID:** `IDEA-QQQ-PUTWALL-OCT22`
 **Terry verdict:** FIRED / LIVE — **×2, by Will's hand 2026-10-23, AHEAD of T1**; net debit $936.70; management lines in §6 live (harvest ≥ $10.00 mark · kill SPX cash close ≥ 7,750 two consecutive sessions · time stop Fri 2026-11-13 close).
 
+> **WQ-490 closed — Will in the TERRY window 2026-10-29 11:42 ET, verbatim "490 get rid of we already bought more":** the approval row is moot; the position (×2, 10/23) is managed on §6.
+
 > **MANAGEMENT STATE 2026-10-29 (TERRY, written ~11:3x ET from `date`): no line fired.** Kill (SPX cash close ≥ 7,750 ×2): closes 7,676.77 [10/26] · 7,722.60 [10/27] · 7,743.98 [10/28] (vendor daily) = 0 of 2. Harvest (≥ $10.00): paper mid $3.03 at 10:53 ET 10/29 (PB-0008); Will's 10/29 capture shows 690P $6.64 / 670P $3.69, ×2 ⇒ $590 vs $936.70 net debit. Time stop 11/13. Reference only; no reminder duty.
 **Prior verdict (2026-10-22, history):** CONDITIONAL — NOT-FIRED; unapproved proposal.
 

@@ -13,7 +13,9 @@
 **Date:** 2026-10-01 Thu, written from 16:25 ET (live reads 16:19:17–16:19:50 ET below). **Session:** TERRY interactive (Will in the window). **Trigger:** BOND packet `inbox/2026-10-01_from-BOND_WQ-291-kill-MET-exit-duration-shorts-card-ask.md` (spawn `prome-2f`, DOCKET L478 / WQ-291), relayed by PROME `prome-2f` ask 4.
 **Id:** `MGMT-DURSHORT-EXIT-WQ291` (exit card on held lines; no SETUPS row — ledger at 97.8% of its read budget, rotation owed by Mon 10/05).
 **Thesis owner:** **BOND** (the kill and the recommendation). Rates domain also HENRY. **Construction, timing, day colour, mechanics:** TERRY. **Approval:** Will (root rule #5).
-**Terry verdict:** CONDITIONAL — **WQ-357 APPROVED 2026-10-15:** exit the remaining TBT ×5 (BOND's recommendation; Will's order; no TLT sale). Fill to be booked on Will's capture. *(was: CONDITIONAL — TLT option CLOSED; remaining TBT5 retains October14 WQ357 decision clock.)*
+**Terry verdict:** CLOSED — WQ-357 resolved (Will in the TERRY window 2026-10-29 11:42 ET, verbatim "I did rebuy a couple"): exit executed in part (TLT put sold 10/12; TBT 10→5 on the 10/13 receipt), then Will rebought by his own hand; 10/29 capture TBT ×10, basis $365.61. TBT now held on no TERRY rail; no sale owed.
+
+**Prior verdict (superseded 2026-10-29):** CONDITIONAL — **WQ-357 APPROVED 2026-10-15:** exit the remaining TBT ×5 (BOND's recommendation; Will's order; no TLT sale). Fill to be booked on Will's capture. *(was: CONDITIONAL — TLT option CLOSED; remaining TBT5 retains October14 WQ357 decision clock.)*
 **Confidence in the structure:** High (payoff arithmetic and mechanics). **Confidence in the thesis call:** BOND's, not this desk's — and see the caveat in §2, which BOND attached and which survives here.
 **`$0` MOVED · NO ORDER · NO GATE OR THRESHOLD MOVED.** BOND states no price, no order and no timing; this card supplies them as a proposal.
 
