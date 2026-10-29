@@ -4,7 +4,7 @@
 
 ## VIEW
 
-**10/29 close (supersedes the gamma and rate states in the 10/28 paragraph below): dealer gamma flipped NEGATIVE at both horizons and the 7,700 put wall was tested intraday and held on the close.** SPX low 7,690.94, close **7,720.39 (−0.30%)**, 20 points over the wall and 19–21 points under the flip band 7,739–7,741. The drop was Alphabet (GOOGL −12.64% after Q3 on an unchanged capex guide) and Amazon into its print (−4.25%); breadth was positive (RSP equal-weight +1.20%, KRE +1.04%), so this is a mega-cap rotation, not a broad selloff. **Rates rallied:** Treasury par 10/29 2Y 4.61% (−6bp), 10Y **4.98% (−7bp, back under the 5.0% red line ⇒ ORANGE)**, 30Y 5.32%. VIX 16.50, credit still easing (HY 314bp [FRED 10/28], 6bp under yellow). AMZN reports tonight; Apple's report is 11/02 per the vendor calendar (Apple IR not read). No probability, threshold, prediction or trade changed.
+**10/29 close (supersedes the gamma and rate states in the 10/28 paragraph below): dealer gamma flipped NEGATIVE at both horizons and the 7,700 put wall was tested intraday and held on the close.** SPX low 7,690.94, close **7,720.39 (−0.30%)**, 20 points over the wall and 19–21 points under the flip band 7,739–7,741. The drop was Alphabet (GOOGL −12.64% after Q3 on an unchanged capex guide) and Amazon into its print (−4.25%); breadth was positive (RSP equal-weight +1.20%, KRE +1.04%), so this is a mega-cap rotation, not a broad selloff. **Rates rallied:** Treasury par 10/29 2Y 4.61% (−6bp), 10Y **4.98% (−7bp, back under the 5.0% red line ⇒ ORANGE)**, 30Y 5.32%. VIX 17.20 (+1.71%, final after the 16:15 ET index close; a 16:06 ET pull read 16.50), credit still easing (HY 314bp [FRED 10/28], 6bp under yellow). AMZN reports tonight; Apple's report is 11/02 per the vendor calendar (Apple IR not read). No probability, threshold, prediction or trade changed.
 
 **The October 28 FOMC (held 3.75–4.00%, 10–2, Cook and Hammack dissenting FOR a hike) moved the long end, not equities.** Treasury par 10/28 vs 10/27: 2Y 4.67% (−3bp), 10Y **5.05% (+6bp)**, 30Y 5.37% (+7bp), so 2s10s steepened 29 → 38bp and **the 10Y is back over its 5.0% red line** (ORANGE → RED). The vendor 10Y index rose about +2bp before 14:00 ET and about +2.5bp after, so the decision is at most half the day's move on that clock; attribution is BOND's. **Equities ignored the hawkish split:** SPX 7,738 at 13:55 ET → 7,743.98 close (+0.28% day), post-statement range 7,722–7,758; VIX fell to 16.91. **Dealer gamma is POSITIVE at both horizons again** (flip band 7,734–7,738, spot only 6–10 points above), after the put wall **broke on the 10/23 close** (SPX 7,623.68, 26 points under the 7,650 wall published 10/22; graded late tonight, no HENRY session that day). Credit answered the 10/22 selloff by widening (HY 327 → 340bp, CCC 1,307 → 1,356bp [10/22–10/23]) and has since retraced (HY 318bp, CCC 1,321bp [FRED 10/27]); **HY is under its 320 yellow line on one observation.** **L774 graded after the 08:30 ET print (10/29): core PCE September +0.3% m/m (unrounded +0.32%), 3.1% y/y ⇒ the >0.3% hot line did NOT fire, as frozen before the print.** Headline +0.5% / 3.6% on energy; Q3 real GDP +3.4% annualized, GDP price index +2.2%. First reaction: a small bond rally, no equity move. No probability, threshold, prediction or trade changed.
 
@@ -90,15 +90,15 @@
 
 *(Superseded 10/28-close read, kept as record: POSITIVE both, flips ~7,734/~7,738, put wall withheld, call wall 7,800; `research/2026-10-29_L773/gamma_both_1028close.txt`.)*
 
-**The break, graded late:** SPX closed **7,623.68 on 10/23** (vendor `^GSPC` bar; Cboe close field not read for that date), 26.32 under the 7,650 wall published 10/22 ⇒ **put wall BROKEN on the 10/23 close** (TERRY's L803 trigger, close < 7,650, was met on the same figure; TERRY graded its QQQ-card T1 FIRED 10/23). The 10/23 chain is not recoverable, so gamma on the break day is UNKNOWN. Path since: 7,676.77 · 7,722.60 · 7,743.98 (+1.58% off the break close in three sessions), back above the flip. **No WALTER signal sent tonight:** the break is six days old and already on the fleet record (HEARTBEAT ch. 5, TERRY), and the current state is a recovery. **Cascade proxy (own calc, updated 10/29 close):** SPX 7,720.39 above its 50-day average (7,698.3) by 22 points ⇒ layer 2 proxy NOT met, but the intraday low 7,690.94 traded under it; layer 1 (VIX > 23–24) dormant at 16.50. 200-day 7,306.5. SPX −1.26% from the 7,818.93 close of 10/6.
+**The break, graded late:** SPX closed **7,623.68 on 10/23** (vendor `^GSPC` bar; Cboe close field not read for that date), 26.32 under the 7,650 wall published 10/22 ⇒ **put wall BROKEN on the 10/23 close** (TERRY's L803 trigger, close < 7,650, was met on the same figure; TERRY graded its QQQ-card T1 FIRED 10/23). The 10/23 chain is not recoverable, so gamma on the break day is UNKNOWN. Path since: 7,676.77 · 7,722.60 · 7,743.98 (+1.58% off the break close in three sessions), back above the flip. **No WALTER signal sent tonight:** the break is six days old and already on the fleet record (HEARTBEAT ch. 5, TERRY), and the current state is a recovery. **Cascade proxy (own calc, updated 10/29 close):** SPX 7,720.39 above its 50-day average (7,698.3) by 22 points ⇒ layer 2 proxy NOT met, but the intraday low 7,690.94 traded under it; layer 1 (VIX > 23–24) dormant at 17.20. 200-day 7,306.5. SPX −1.26% from the 7,818.93 close of 10/6.
 
 ## VOL REGIME / TAPE INPUTS — OCTOBER 29 CLOSE (vendor, pulled 16:06–16:07 ET 10/29)
 
 | SPX | VIX | VIX9D | VIX3M | VVIX | SKEW | MOVE | 10Y (par) | KRE | USD/JPY |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 7,720.39 (−0.30%) | 16.50 (−2.42%) | 14.65 | 18.96 | 95.54 | 148.74 [10/28; 10/29 not posted] | 93.46 | 4.98% | $72.86 (+1.04%) | 157.68 (16:0x ET last) |
+| 7,720.39 (−0.30%) | **17.20 (+1.71%)** | 15.87 | 19.37 | 98.01 | 148.74 [10/28; 10/29 not posted] | 93.46 | 4.98% | $72.86 (+1.04%) | 157.68 (16:0x ET last) |
 
-Contango steepened (VIX9D 14.65 < VIX 16.50 < VIX3M 18.96): the vol market is not pricing the negative-gamma state as stress. OVX 56.63 (−3.35%) after +5.68% on 10/28. Vendor observations, **not Cboe-published closing certification**. VIOLET owns the vol broadcast. Daily closes 10/21–10/29: `research/2026-10-29_catchup/closes_1021_1029.txt`.
+Still contango (VIX9D 15.87 < VIX 17.20 < VIX3M 19.37) but VIX rose on the day: vol priced the negative-gamma state mildly, not as stress. ⚠️ Vol cells re-stamped 16:33 ET: VIX settles at 16:15 ET, and the first 16:06 ET pull (16.50 / 14.65 / 18.96 / 95.54) was pre-final. Cboe archive row for 10/29 not yet posted at 16:33 ET. OVX 56.63 (−3.35%) after +5.68% on 10/28. Vendor observations, **not Cboe-published closing certification**. VIOLET owns the vol broadcast. Daily closes 10/21–10/29: `research/2026-10-29_catchup/closes_1021_1029.txt`.
 
 ## CREDIT EARLY-WARNING MONITOR — FRED OBS THROUGH 10/28 (pulled 14:51 ET 10/29)
 
@@ -121,7 +121,7 @@ Contango steepened (VIX9D 14.65 < VIX 16.50 < VIX3M 18.96): the vol market is no
 | AI-capex | HEN-36 mechanism RESOLVED-CONFIRMED; class-wide de-rate expression FALSIFIED. 10/22 tech selloff fully retraced in semis (SOXX 475.69 → 521.94, +9.7% 10/22–10/28). Meta $35B financing launched, Anthropic S-1 public (WALTER 1026-001/003; VULCAN/BROCK grade). 10/29: GOOGL −12.64% on an unchanged $195–205B capex guide, AMZN −4.25% into its print, MSFT −0.16%, META +1.96%; NDX/QQQ −1.42% while RSP +1.20% (VULCAN owns the capex grade). |
 | Structural credit | Tail stress persists (CCC 1,307bp RED, CCC−BB 1,123bp [FRED 10/28]), broad HY 314bp, under 320 for two observations. Not AI-led on the rated CCC tier (DEWEY 10/23: 0% AI builders, ~16.5% cable/telecom/media). |
 
-**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 314 [10/28] > 260; VIX 16.50 [10/29] > 15).
+**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 314 [10/28] > 260; VIX 17.20 [10/29] > 15).
 
 ## ACTIVE THRESHOLDS — ALL STANDING LEVELS UNCHANGED
 
@@ -132,7 +132,7 @@ Contango steepened (VIX9D 14.65 < VIX 16.50 < VIX3M 18.96): the vol market is no
 | ISM manufacturing prices | 77.9 [ISM Sep] | >60 / >70 / >75 | RED observation |
 | PPI FD m/m | +1.3% [BLS Sep, 10/15] | >0.4 / >0.5 / >0.6 | RED observation |
 | Core PCE m/m | **+0.3% [BEA Sep, 10/29]** (unrounded +0.32%) | >0.3 hot | **NOT FIRED** (L774 graded; matched the frozen expectation) |
-| VIX | 16.50 [vendor 10/29] | >23 / >28 / >30 sustained | NOT FIRED (6.50 below 23) |
+| VIX | 17.20 [vendor 10/29 final, 16:33 ET] | >23 / >28 / >30 sustained | NOT FIRED (5.80 below 23) |
 | SPX | 7,720.39 [vendor 10/29] | <7,200 / <7,100 / <6,494 | NOT FIRED (520 above 7,200); gamma **NEGATIVE both** (flip 7,739–7,741); put wall 7,700 tested intraday (low 7,690.94), held on close |
 | KRE | $72.86 [vendor 10/29] | <$65 / <$62 / <$60 | NOT FIRED |
 | 10Y | **4.98% [Treasury par 10/29]** | >4.5 / >4.8 / >5.0 | **ORANGE** (2bp under red; was RED 5.05 on 10/28) |
@@ -141,7 +141,7 @@ Contango steepened (VIX9D 14.65 < VIX 16.50 < VIX3M 18.96): the vol market is no
 | CCC OAS | 1,307bp [FRED 10/28] | >900 / >1000 / >1100 | RED |
 | USD/JPY | 157.68 [vendor 10/29 16:0x ET, −0.2%] | absolute daily change ≥2%, SAM's call | NOT FIRED |
 | SKEW | 148.74 [vendor 10/28; 10/29 not posted at 16:07 ET] | >145 / >150 / >160 | YELLOW (was ORANGE 152.39 on 10/22); RED-FT-10 owner grade separate |
-| VIX kill leg | 16.50 [vendor 10/29] | <17 / <16 / <15 one session | YELLOW band (under 17, second session) |
+| VIX kill leg | 17.20 [vendor 10/29 final] | <17 / <16 / <15 one session | NOT FIRED (above 17; was YELLOW at 16.91 on 10/28) |
 | HY kill observable | 314bp [FRED 10/28] | <290 / <270 / <260 ×5 | NOT FIRED |
 
 ## CROSS-DESK / CATALYST STACK / GAPS
