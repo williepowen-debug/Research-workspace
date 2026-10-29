@@ -2,7 +2,7 @@
 
 **Status:** 🔴 Pipeline 882K (ORANGE) while foreclosure starts turn negative YoY; Freddie MF eases to 0.58%; rent breadth falls to YELLOW. Thesis 0/5 killed.
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
-**As of:** 2026-10-28 ~23:30 ET catch-up session, after the final STATUS write, same owner commit. Prints 10/20–10/28 → `reports/2026-10-28_catchup-prints.md`; 29 WALTER signals → `reports/2026-10-28_catchup-intake.md`; KB-HOMER-039–041.
+**As of:** 2026-10-28 23:0x ET catch-up session (incl. Will rulings: HENRY edge formalized, buydown tracker, rent-breadth monthly row), after the final STATUS write, same owner commit. Prints 10/20–10/28 → `reports/2026-10-28_catchup-prints.md`; 29 WALTER signals → `reports/2026-10-28_catchup-intake.md`; KB-HOMER-039–041.
 
 > ♻️ **ROTATED 2026-09-24** — the pre-rotation brief is preserved byte-for-byte at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108). The 10/19 brief is in git history (`git log -p -- AGENTS/HOMER/NEXUS_BRIEF.md`).
 

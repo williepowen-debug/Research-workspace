@@ -159,4 +159,6 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 
 **What moved:** the 90+/FC pipeline rose to **882K (ORANGE, 118K from RED)** while **foreclosure starts turned negative YoY for the first time** and FC sales accelerated (+14.5%) — inflow cooling, conversion continuing. **Freddie MF fell to 0.58%** (first decline since April, still above Red). **Rent breadth dropped to 39/100 (YELLOW)** as national rents turned flat-to-positive. PMMS eased to 7.32%. Demand weakened further: pending sales −7.3% MoM, purchase apps −18% YoY. Builder margin compression broadened to PHM, NVR, MTH and CCS.
 
+**Will rulings 10/28:** ① monthly rent-breadth row on every refresh (charter rule ⑥) · ② DHI BUYDOWN TRACKER rows in `BUILDER.tsv` (FQ2/FQ3 seeded; FQ4 10/29) · ③ per-row relabel of old ledger rows SKIPPED · ④ **HENRY edge FORMALIZED** — trigger rule in charter; first packet in `AGENTS/HENRY/inbox/`.
+
 **Thesis 0/5 killed, 🔴 holds; formal review 11/20.** **Will decision required: none.**

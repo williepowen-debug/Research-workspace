@@ -20,8 +20,8 @@
 
 - **Thu 10/29:** DHI FQ4 (CRL-23 + buydown disclosure) · PMMS · BEA Q3 GDP · **Fannie Sept MF (was not out 10/28 22:48 ET)** · UDR–Apollo close.
 - **ATTOM Sept/Q3 not published** at 10/28 — Q3 STARTS band reading waits; KB-HOMER-001 re-validation rides on it.
-- **DAEDALUS items NOT done:** #2 done (intake), #3 done (prints) — **#7 HENRY edge** (send a wealth-effect packet or drop the edge; HENRY now gets a NEXUS row, but no packet ever sent) and **#8 THESIS defect residue** (D2–D4 base windows; A2 upgrade rung) left for Will / the 11/20 grade. Glued words in docket rows 43–46 partly fixed by re-keying; ledger-cell glue untouched.
-- **Workbook proposals put to Will (not executed):** monthly rent-breadth history rows (Oct row added as first); DHI buydown tracker row per quarter; per-row relabel of ~100 Jan–May rows (recommend skip).
+- **DAEDALUS items NOT done:** #2 done (intake), #3 done (prints) — **#8 THESIS defect residue** (D2–D4 base windows; A2 upgrade rung) left for Will / the 11/20 grade. Glued words in docket rows 43–46 partly fixed by re-keying; ledger-cell glue untouched.
+- **Will ruled 2026-10-28 23:00 ET:** yes monthly rent-breadth row (charter rule ⑥, docket row note) · yes DHI BUYDOWN TRACKER (BUILDER FQ2+FQ3 seeded; add FQ4 on 10/29) · skip per-row relabel · **formalize HENRY** (charter trigger rule; first packet `AGENTS/HENRY/inbox/2026-10-28_from-HOMER_wealth-effect-edge-and-first-read.md`, committed under carve-out ①). DAEDALUS #7 thereby CLOSED; #8 remains for 11/20.
 - PHSI 66.0 vs the 69.0 Apr-2020 trough: trough NOT re-verified — do not write "record low".
 - 10Y-FRM spread 10/22 uses the Treasury par curve, not H.15 directly (H.15 draws on it); note if the two differ.
 - Formal thesis grade **2026-11-20**; HOM-02 decider MBA Q3 NDS ~mid-Nov.
