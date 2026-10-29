@@ -1,0 +1,3 @@
+89c57ff6b86dc62c04e9b3f921f9c4fd4d5975697a15b1a912dcc2068ccbcec1  dfa-income-levels-detail.csv
+c6a3d315f6b1d059669ef0bbabda48c188790f007d5d5360af4924a84a69680e  dfa-data-definitions.txt
+e7f35451dc4df13986ef416d8659d00689ad98a9af79f4b09977e41be5e35919  dfa.zip (not committed; https://www.federalreserve.gov/releases/z1/dataviz/download/zips/dfa.zip, fetched 2026-10-29 09:31 ET, member files dated 2026-09-15)

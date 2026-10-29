@@ -8,6 +8,12 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-29 — CRL-32 registered: household buffer drawdown letter (WQ-537 A; no score change)
+
+**What:** new OPEN prediction CRL-32 at 25% [CONJUNCTION-PRICED]: first-published saving rate ≤3.8% for October (BEA 11/25) and November (BEA 12/23), and real DPI Nov ≤ Sep inside the 12/23 vintage. KILL = September saving revised to ≥4.3% on 11/25 (VOID-BY-REVISION). Cost leg points at HENRY L775 (one figure: October CPI-U SA m/m); cohort leg = Fed DFA deposits per household by income, descriptive only (baseline bottom-40 minus top-20 YoY −1.91pp at 2026:Q2, model-allocated).
+**Why:** Will 2026-10-29 09:23 ET, *"households spending out of savings seems important. Especially as costs continue to climb"*; ruling WQ-537 A 09:26 ET. Basis: L842 grade (c72a848ac) — September saving 3.8%, real DPI −0.27%, real PCE flat.
+**Old → new:** no buffer letter → CRL-32 OPEN 25%. No existing letter, threshold, vector score or the 53/70 total moved. Full letter `research/2026-10-29_WQ537/LETTER.md`.
+
 ## 2026-10-28 — Sweep: CRL-13 re-dated with reason; CRL-25 pointer retired (no score change)
 
 **Session:** CARL file sweep, Will-approved plan (2026-10-28 ~20:57 ET).
