@@ -1,14 +1,36 @@
 # AEOLUS · HURRICANE — live dossier
 
-**As-of: 2026-10-21 for §000000 (worker run 10/21, AEOLUS dark 10/10 → 10/21); 2026-10-10 for §00000; 2026-10-09 for §0000; 2026-10-08 for §000; 2026-09-28 for §00; §0–§6 (9/18 vintage) ROTATED to archive 10/10.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39), HELD at the 10/9 landfall grade (VX-AEO-41) — a worker does not score; nothing below re-grades it.**
+**As-of: 2026-10-29 for §0000000 (worker run 10/29 00:2x ET, AEOLUS dark 10/21 → 10/29); 2026-10-21 for §000000 (worker run 10/21, AEOLUS dark 10/10 → 10/21); 2026-10-10 for §00000; 2026-10-09 for §0000; 2026-10-08 for §000; 2026-09-28 for §00; §0–§6 (9/18 vintage) ROTATED to archive 10/10.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39), HELD at the 10/9 landfall grade (VX-AEO-41) — a worker does not score; nothing below re-grades it.**
 
-> **Last real data refresh: 2026-10-21**  ·  **Dossier written: 2026-10-21**
+> **Last real data refresh: 2026-10-29**  ·  **Dossier written: 2026-10-29**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1
 **The climatological peak (~Sep 10) has PASSED.** *(CSU's own 9/16 words: "This period immediately follows the climatological peak of the season.")* Peak season runs to mid-Oct.
 
 ---
+
+## 0000000. 2026-10-29 — DARK-WINDOW CATCH-UP (worker run; AEOLUS dark 10/21 22:30 ET → 10/29) — state only, no grades
+
+**Gulf/FL system 10/21 → 10/29 00Z: NO.** NHC's own TWOAT archive (`nhc.noaa.gov/archive/text/TWOAT/2026/`), 28 issuances 10/22 0511Z → 10/28 2315Z: no disturbance in the Gulf, Caribbean, Bahamas or near Florida at any issuance. The only non-Josephine area (a subtropical trough E/ESE of Bermuda) stayed at 10%/10% and then fell to near 0% at 10/23 0535Z. **From 10/23 1114Z through 10/28 2315Z, 23 consecutive issuances said "Tropical cyclone formation is not expected during the next 7 days."** No new Atlantic system or invest: the b-deck index lists AL01–AL10 only. **Current TWO (8 PM EDT 10/28, Katz/Papin): "Tropical cyclone formation is not expected during the next 7 days."** No active Atlantic system.
+
+| System | Life | Peak | Fate | Gulf/FL |
+|---|---|---|---|---|
+| **AL10 Josephine** | genesis EX 10/18 18Z 31.0N 71.4W (W of 60W); SS 10/21 18Z → post-tropical 10/22 21Z (Adv 5, final) | **55 kt / 988 mb** SS (every advisory, every SS fix) | extratropical 40.0N 65.8W, NE away from US; no watches/warnings at any point | no |
+| *EP22 Vance (EPac, INFO)* | TS 10/21 18Z; HU 10/23 06Z – 10/25 12Z | **100 kt / 961 mb** 10/24 00Z | TD 30 kt 21.1N 108.1W (Adv 31, 03Z 10/29), post-tropical within 24 h; **no landfall as a TC**; rain in Sinaloa | n/a |
+
+**ACE through b-deck 2026102900 = 19.5325** (AL01–09 18.0200 unchanged + **Josephine 1.5125 FINAL-OPERATIONAL**, revised from 0.6050 provisional; 5 SS fixes at 55 kt). No Atlantic TC fix after 10/22 18Z.
+| | value |
+|---|---:|
+| To-date normal through 10/29 00Z, inclusive (93.38% of 122.5842) | **114.4631** → 2026 = **17.06%** |
+| Rank | **3rd-lowest of 60** (1994 12.76, 1983 17.40; next 1977 25.32); 2nd-lowest of 31 |
+| Counts NS / HU / MH | **10 / 1 / 1**: AEO-01 leg 2 line ≤7 HU, margin 6 |
+| AEO-01 line <110.3257 | **90.7932** units would have to accrue after 10/29 00Z; max post-cutoff accrual 1966-2024 = **36.35 (2020)**, next 30.55 (2001): 0 of 59; 1991-2020 residual mean 8.12 |
+| Bands | Yellow 134.8 (−115.27) · Orange 159.4 (−139.87) · Red 183.9 + landfall (−164.37) |
+**CSU 10/14 window (Oct 14–27) CLOSED:** observed **1.5125** (Josephine only). The terciles are below <1, near 1–8 (table) or 1–7 (text), above >8, so the observed value lands in the near-normal tercile under both printed boundaries. Not graded here.
+
+**Loss leg (PERIL ≠ LOSS), all SECONDARY:** **no new modeler or industry Isaias estimate dated after 10/16 was found.** One earlier secondary had been missed and is now logged: **Euler ILS $2–4bn** (Artemis 10/13). FL OIR (CORAL's domain): 46,509 claims / $581.98m as of 10/15, and ~55k claims per reports of 10/25–26. **No Aon or Swiss Re Q3/9M tally was found.** The only 9M figure is Gallagher Re's $92bn vs the $128bn avg. The cat-bond spread still has no fresh print (latest 9/25, 4.57%).
+**FEMA (OpenFEMA, refresh 10/28 11:09Z): DR-4955-FL CONFIRMED.** Declared 10/27; PA only (no IA/IH/HM); 15 counties: Bay, Calhoun, Escambia, Franklin, Gadsden, Gulf, Holmes, Jackson, Jefferson, Liberty, Okaloosa, Santa Rosa, Wakulla, Walton, Washington; incident 10/6–10/12. **No DR for AL or GA**: they are still covered only by EM-3656-AL and EM-3657-GA.
 
 ## 000000. 2026-10-21 — DARK-WINDOW CATCH-UP (worker run; AEOLUS dark 10/10 → 10/21) — state only, no grades
 

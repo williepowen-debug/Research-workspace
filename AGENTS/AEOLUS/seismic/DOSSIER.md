@@ -2,7 +2,25 @@
 
 **First read: 2026-08-13** (folder created same day). **Status: 🟡 event-triggered watch — no trigger currently fired.**
 
-> **Last real data refresh: 2026-09-28**  ·  **Dark-window scan 8/27→9/28 run 2026-09-28 (worker; full report `RUN_REPORT.md`)**
+> **Last real data refresh: 2026-10-29**  ·  **Gap scan 9/28→10/29 run 2026-10-29 (worker; full report `RUN_REPORT.md`)**
+
+---
+
+## 🟡 GAP SCAN 2026-09-28 → 2026-10-29 (worker observation; AEOLUS grades)
+
+| Trigger | Gap result | Letter |
+|---|---|---|
+| **S-5** | **Kilauea WATCH/ORANGE → ADVISORY/YELLOW on 2026-10-17 19:59:31Z** (`codeChangeDate`). Letter held both legs **2026-09-07 23:00:41Z → 2026-10-17 19:59:31Z = 39.87 days**. HVO 10/28: eruption paused after episode 55 (10/17); episode 56 forecast Nov 1–7. | **EXITED — not met now** (historical span recorded, not a score) |
+| S-2 | FDSN 9/28–10/29: **M7.0+ = 2** — M7.7 Panama 10/09 (Panama City 207 km) · M7.0 Nagqu, Tibet 10/22 (Nagqu 191 km). Both PAGER **economic orange**, point estimates USD 369M / 414M **total economic, not insured**. PAGER red = 0. | not met on **either** reading (table OR; prose AND) |
+| S-1 | **GVP RSS HTTP 403** ("Smithsonian site temporarily unavailable", 2 tries); no SO₂ pull registered | **not evidenced (gap)** |
+| S-3 | no VAAC command registered; GVP down | not evidenced (gap) |
+| S-4 | no named energy asset in pulled USGS content; no registered instrument | not evidenced (gap) |
+
+**Owed #8 (due 11/15) — worker PROPOSALS, not adopted:** full text in `RUN_REPORT.md` 2026-10-29 (git history if overwritten). Headlines: **(a)** S-5 is a pure alert-state test with no consequence leg, no defined reading of the two-scale slash, and no exit/re-fire rule — proposed split into S-5a (log-only state) and S-5b (state + a dated consequence instrument). **(b)** S-2: the **OR** table is the consistent reading; the AND³ line lives in `AGENT.md` L55 and `SOURCES.md` L30 (not in README prose) and contradicts its own "M6.5 under a city … is the routable event" example.
+
+---
+
+> *(superseded header) **Last real data refresh: 2026-09-28**  ·  **Dark-window scan 8/27→9/28 run 2026-09-28***
 
 ---
 

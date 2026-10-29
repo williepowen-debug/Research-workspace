@@ -11,32 +11,33 @@
 **Trade posture (Will-agreed 8/3):** HOLD, no build now — reinsurance-landfall tail fights my own El-Niño-suppression base case (would bleed theta in a quiet season, no edge). Pre-registered BUILD trigger: **CSU 8/5 or NOAA ~8/6-7 revise season UP, OR NHC lights a Gulf/FL system** → the tail goes live (breaks the suppression thesis). C4 down-stack (property→muni/WUI) is the slower expression, REGINALD-owned (ZION the one weak name), not ready.
 **★ STAGED 8/3 (Will-directed):** card handed to **TERRY** (inbox packet) — build unarmed/decision-ready: OTM Sep-Oct puts on FL primaries **UVE $44 / HRTG $30 / HCI $178** (clean solvency-convex shorts; NOT diversified reinsurers RNR/EG/ACGL/AXS — they V-shape on post-cat hardening). Gate = TERRY's options-liquidity/borrow/IV read on the small-caps (HRTG the risk). **PROME informed** (inbox packet) — tracking 8/5 + 8/6-7 as decision checkpoints. NEXT SESSION: check TERRY's liquidity read + whether either Aug update fired the trigger.
 
-## 🔴 NEXT SESSION — START HERE (2026-10-21 22:3x ET, PROME catch-up spawn wave 2 — 11 days dark)
+## 🔴 NEXT SESSION — START HERE (2026-10-29 08:03 ET, Will-launched — 8 days dark; all 5 domain workers + 1 scout)
 
-*(Supersedes the 10/10 block → `archive/SCRATCH_ARCHIVE_2026-10-21_10-10-block.md`.)*
+*(Supersedes the 10/21 block → `archive/SCRATCH_ARCHIVE_2026-10-29_10-21-block.md`.)*
 
 ### THE ONE THING
-**C6 leg 2 is one signature away from firing.** The October 24MS (6 maf) puts Mead's 12-month low at **1,007.73 ft (Jul 2027)**. That is NOT FIRED on today's 1,000 line (agreement unexecuted) but **below the 1,010 line that governs once the Lower Basin agreement is executed** (KB-212). **MWD board 10/27** is the first read. On execution, grade C6 4→5 the same session and tell PROME. The rule fires on a signature, not on water, and the brief must say so.
+**11/02 is the Colorado clock.** The milestone band opens YELLOW on its letter Monday 11/02 unless the Lower Basin agreement is executed first. If it is executed, C6 leg 2 flips to the 1,010 line, which the (now stale) October study's 1,007.73 min would fire. Arizona and CAP are moving to intervene in *Nevada v. Burgum*; a PI motion at any time = ORANGE. **Grade the band on 11/02, at a primary.**
 
 ### FIRST THINGS NEXT SESSION
-1. 🔴 **Rhine 3-day re-grade.** Still FIRED through 10/21, 34 days (KB-211). WSV's ~10/24 estimate is instantaneous only.
-2. 🔴 **10/27:** MWD board (C6 execution path) + SA CEC planting intentions (C2 / AEO-13; separate fertilizer from rainfall per KB-209).
-3. **Before 11/02 (Yellow opens):** *Nevada v. Burgum* docket re-read (PI motion = Orange); LB agreement status at a primary.
-4. **L650:** WATT grades 10/23. PJM OC 11/5 for a DR-verified 7/2 peak (KB-206). If WATT's canonical figure differs, re-point KB-206.
-5. CPC 10/15 DJF re-issuance (`seastemp_202610.zip`): diff it at the §6 points (owed #7). Powell-rise driver (owed #5).
+1. 🔴 **Rhine re-entry watch (owed #1).** Exited 10/22–24 (KB-220). WSV estimate has Kaub at 25 cm ~11/01 (instantaneous). Re-grade the 3-day test on complete days. **Owed #2: the GlW re-key is now actionable (due 10/31).**
+2. 🔴 **Vortex (owed #12).** ECMWF unanimous reversal ~11/05, GEFS dissents (KB-229). Re-read 10 hPa 60°N U at a primary; an OBSERVED reversal → log, then packet WATT/BRENT.
+3. **11/02:** NIFC November outlook (AEO-09; confirm Last-Modified changed) + the C6 milestone band.
+4. **King tide (owed #18):** CORAL's FL impact reply; annual moderate+ tide-day count (FLOW-17's thesis variable); other CA gauges for the El Niño attribution (KB-217). **Will's call on the coastal instrument home (owed #16).**
+5. Will's call on the seismic S-5 re-spec (owed #8a). Regime #12 implementation (accepted, not applied).
 
-### DONE 10/21 (committed + pushed at closeout)
-Inbox 4 direct + 6 WALTER drained and logged · KB-206…213 · L650 C3 reconcile + WATT packet · COR-20261012-15 receipted · DAEDALUS 8 dispositions (7 DONE, #2 part-CONTESTED → PROME, #3 charter split DEFERRED behind L470) · READS manifest + attestation packet to PROME · regime DOSSIER rotated 29,957 → 22,605 B · STATUS rotated to 23,185 B (two verbatim archives) · THESIS C1/C6 · CALENDAR · TRADE · charter L167/L239 + boot-step-4 verb · domain_log_check NO-LOG fix (tested on fixtures, not independently verified) · L-50.
-**Workers spawned 10/21:** water (dark-window Rhine scan, Colorado + Oct 24MS, SERIES repair) and hurricane (ACE, CSU final, Isaias loss, FEMA), both for 11 days of instrument staleness. regime: AEOLUS read the weekly file directly. wildfire and seismic: no trigger, not spawned.
+### DONE 10/29
+Inbox 6 direct + 4 WALTER drained · KB-214…229 · VX-43 (C5 5→4) · FLOW-17 (coastal) · AEO-10 30→50% · STATUS rewritten (16/30, 0/6 fired) · CALENDAR · regime DOSSIER rotated 31,018 → 22,772 B (crc receipt) · seismic S-2 AND/OR resolved (OR) · packets: CORAL ×2 (king tide; L784 ack + GeoXO), WATT + BRENT (vortex) · L-51, L-52.
+**Workers spawned 10/29:** water + hurricane (8 days of instrument staleness, dated catalysts 10/27, 11/02) · scout (SA CEC 10/27, CPC DJF, vortex, CNN satellites) · regime + wildfire + seismic (Will-directed "spawn AEOLUS subagents"; triggers: weekly ENSO record + vortex, PL stale 20 d + AEO-09 checkpoint, owed #8). All six returned. ⚠️ They stalled ~7 h overnight while the session idled, then completed.
 
 ### HYGIENE CARRIED
-- Observation homes for PSD crops (C2) and CPC HDD (C3): before the 11/10 WASDE (owed #16).
-- `domain_log_check` keys on the LOG row DATE; consider keying on `pulled_at` (carried from 10/10).
-- Worker proposals pending: water SOURCES (UC study file names, Memphis hourly command home, `.venv` pdfminer) · hurricane P2 genesis-count definition + IEM AFOS admission (owed #13).
+- `domain_log_check` [B?] water: 7 KB rows vs 2 dated-today LOG rows. Checked: the worker's 12 rows carry event dates; KB-227/229 are other domains' rows. Keying on `pulled_at` would remove the false flag (carried since 10/10).
+- Charter 48,606 B is the only read-cap over-budget surface (rc=1); PROME L470 still PENDING.
+- Worker proposals pending: hurricane P6 (NHC TWOAT archive as a SOURCES command) · SERIES names (owed #19) · regime vortex/AO/NAO commands.
 
 ---
 
 ### ⬇️ ROTATED — history lives in `archive/`
+- `archive/SCRATCH_ARCHIVE_2026-10-29_10-21-block.md` — the 10/21 PROME catch-up pickup block, verbatim.
 - `archive/SCRATCH_ARCHIVE_2026-10-21_10-10-block.md` — the 10/10 El Niño re-point pickup block, verbatim.
 - `archive/SCRATCH_ARCHIVE_2026-10-10_10-9-block.md` — the 10/9 landfall-session block, verbatim (two lines in it are superseded — see its banner).
 - `archive/SCRATCH_ARCHIVE_2026-10-10_pickup-blocks.md` — the 10/8 (×2) and 9/28 blocks, verbatim.

@@ -90,3 +90,20 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-09-09	nino4_weekly	0.8	degC	CPC-wksst9120.for	2026-10-09 20:38 ET	REVISED from 0.9 (recorded 2026-09-18). OISSTv2.1 near-real-time revision
 2026-10-08	historic_prob_ond	83	pct	CPC-ensodisc	2026-10-09 20:38 ET	RAISED 75 -> 83 (+8pts) vs 9/10 issue. Verbatim: 'Chances remain high for a historic event that would exceed the strength of previous El Nino events dating back to 1950 (+2.5C or more for a 3-month RONI value): the chance is 54% for September-November, 83% for October-December, and 70% for November-January.' SON 54 / NDJ 70 have no approved instrument name - LOG only
 2026-10-09	oni_minus_roni	0.47	degC	derived-CPC	2026-10-09 20:38 ET	JAS 2026: ONI +2.16 - RONI +1.69, both 03 Oct 2026 vintage. Recomputed, NOT carried forward. Within-event drift FMA +0.55 -> MAM +0.50 -> AMJ +0.46 -> MJJ +0.42 -> JJA +0.44 -> JAS +0.47 = the narrowing reported 9/18 has REVERSED for two seasons. Not a conversion factor
+2026-10-07	nino34_weekly	3.3	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 07OCT2026; SST 30.0; col3. Rank 2= of 2356 weeks at pull (tied with 14OCT). TRADITIONAL absolute OISSTv2.1 1991-2020 - not RONI, not the relative deck bullet. Matches AEOLUS's own 10/21 primary read (+3.3)
+2026-10-14	nino34_weekly	3.3	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 14OCT2026; SST 30.0; col3. Flat vs 07OCT
+2026-10-21	nino34_weekly	3.4	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 21OCT2026; SST 30.1; col3. LATEST WEEK (file Last-Modified 28 Oct 2026 07:00 GMT). NEW FILE RECORD rank 1 of 2356 weeks (02SEP1981-21OCT2026), none tied; pre-2026 max 18NOV2015 +3.0. Same week prior events: 1982 (20OCT) +1.8 / 1997 (22OCT) +2.0 / 2015 (21OCT) +2.3 / 2023 (18OCT) +1.6. Traj 30SEP 3.2 -> 07OCT 3.3 -> 14OCT 3.3 -> 21OCT 3.4. ABSOLUTE basis - NOT comparable to the +2.5 RONI historic bar. Verifies AEOLUS 00:18 ET read
+2026-10-07	nino3_weekly	4.1	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 07OCT2026
+2026-10-14	nino3_weekly	4.2	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 14OCT2026
+2026-10-21	nino3_weekly	4.3	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 21OCT2026. File record rank 1 of 2356 (pre-2026 max 3.3, 12NOV1997)
+2026-10-07	nino12_weekly	5.2	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 07OCT2026
+2026-10-14	nino12_weekly	5.2	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 14OCT2026
+2026-10-21	nino12_weekly	5.2	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 21OCT2026. Rank 2= (30SEP 5.3 is the file max; 07OCT/14OCT/21OCT tie at 5.2). Flat 3 weeks. THE +5 FIGURE IS NINO-1+2, NOT 3.4
+2026-10-07	nino4_weekly	1.3	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 07OCT2026
+2026-10-14	nino4_weekly	1.1	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 14OCT2026
+2026-10-21	nino4_weekly	1.1	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	week centered 21OCT2026. 62 of 2356 weeks higher (file max 1.7, Nov 2015 / 29NOV2023). Still the weakest region
+2026-09-16	nino12_weekly	4.7	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	REVISED from 4.6 (recorded 2026-09-28). OISSTv2.1 near-real-time revision
+2026-09-23	nino12_weekly	4.9	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	REVISED from 4.7 (recorded 2026-09-28). OISSTv2.1 near-real-time revision
+2026-09-23	nino3_weekly	4.0	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	REVISED from 3.9 (recorded 2026-09-28). OISSTv2.1 near-real-time revision
+2026-09-30	nino3_weekly	4.1	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	REVISED from 4.0 (recorded 2026-10-09). OISSTv2.1 near-real-time revision
+2026-09-30	nino4_weekly	1.3	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	REVISED from 1.2 (recorded 2026-10-09). OISSTv2.1 near-real-time revision

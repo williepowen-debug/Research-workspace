@@ -27,7 +27,7 @@ for f in sorted(json.load(sys.stdin)['features'], key=lambda x:-x['properties'][
 **Full API for custom queries** (bounding box, depth, min magnitude):
 `https://earthquake.usgs.gov/fdsnws/event/1/`
 
-⚠️ **Magnitude alone is never the signal.** The S-2 trigger needs **magnitude AND proximity to an insured/populated zone AND a loss estimate.** ⚠️ **DISCREPANCY REGISTERED 2026-10-21 (DAEDALUS refresh item 6), NOT resolved here:** this line says magnitude **AND** proximity **AND** a loss estimate; the formal S-2 table (README.md S-2 row, AGENT.md trigger table) says M7.0+ near a major insured urban zone **OR** a credible >$10B insured estimate. **Neither rule is changed by this note.** Until the owner re-spec (STATUS owed #8, due 2026-11-15), a worker REPORTS the event against BOTH readings and grades nothing. An M7 in the open ocean and an M6.5 under a city are different objects; the smaller one is the routable event.
+⚠️ **Magnitude alone is never the signal.** **S-2 = the README.md S-2 row (OR form), verbatim there — not restated here** (AND/OR resolved 2026-10-29, KB-AEO-227). An M7 in the open ocean and an M6.5 under a city are different objects; the smaller one is the routable event.
 ⚠️ **`tsunami=1` is a FLAG that a warning was evaluated, not that a wave occurred.** Do not read it as damage.
 
 ---

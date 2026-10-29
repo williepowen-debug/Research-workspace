@@ -2,56 +2,56 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-10-21 22:3x ET (PROME catch-up spawn, wave 2; 11 days dark) — LAST write before commit per Amendment 10.** Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-10_fold.md`.
+**Last writeback: 2026-10-29 08:04 ET (Will-launched session; 8 days dark 10/21→10/29) — LAST write before commit per Amendment 10.** Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-29_10-21-fold.md`.
 **WAITING-FOR:**
-- **each session:** Rhine 3-day exit re-grade (WSV ~10/24 estimate = instantaneous only)
-- **10/23:** WATT grades L650 (PJM 7/2 peak; AEOLUS side = KB-206)
-- **10/27:** MWD board (Lower Basin agreement — **execution fires C6 leg 2**) · SA CEC planting intentions (AEO-13)
-- **before 11/02:** *Nevada v. Burgum* docket · Colorado Yellow window opens 11/02
-- **11/05:** PJM OC (DR-verified 7/2 peak?) · **11/10:** WASDE · **11/12:** CPC ENSO · **~11/15:** November 24-Month Study
+- **each session:** Rhine re-entry 3-day test (WSV estimate Kaub at 25 cm ~11/01, instantaneous) · 10 hPa 60°N vortex wind (ECMWF reversal forecast ~11/05)
+- **10/30:** responses on Arizona's intervention in *Nevada v. Burgum* · **10/31:** C5 long-series / GlW re-key (now actionable)
+- **11/02 (Mon):** Colorado milestone band → YELLOW unless the LB agreement is executed · NIFC November outlook (AEO-09)
+- **11/05:** PJM OC · **11/10:** WASDE (SA corn, Aus wheat) · CAP intervention responses · MWD board · **11/12:** CPC ENSO · **~11/15:** November 24-Month Study · **11/26:** SA CEC final
 - **11/30:** hurricane season end (AEO-01, C1 channel-kill)
 
 ---
 
-## 🔴 THE ONE THING — C6 leg 2 fires on a signature, not on water
+## 🔴 C6 — the water improved, the deal did not
+- **Record October storm:** Powell inflow peaked at **63,368 cfs on 10/22** (2nd-highest Oct–Nov day since 1963). Storage rose **+537,840 af in 7 days**, the Sep–Nov record. Powell **3,530.09** (+9.3 ft). **Mead turned up to 1,038.29 [10/27]**, 3.29 ft above Hoover 1,035, from a low of 1,037.16 on 10/22 (KB-221).
+- The October 24MS path (Nov 1,033.97; 12-mo min 1,007.73) is **stale as a forecast**: realised Mead runs ~+3 ft above it. **AEO-10 (no breach in 2026) 30% → 50%.**
+- **Regulatory leg unchanged-to-worse:** the LB implementing agreement is **unexecuted** (no MWD 10/27 approval item; MWD closed session weighed litigation). **Arizona (10/16) and CAP (10/27) moved to intervene** as plaintiffs in *Nevada v. Burgum*; **no PI motion** (an Orange trigger); federal answer due 12/10 (KB-222). **C6 held at 4 on this leg, not on water.**
 
-- **Mead 1,037.18 ft [10/20]**, 2.18 ft above the Hoover 1,035 economic line, falling ~0.06 ft/day.
-- **October 24-Month Study (Most Probable, 6 maf, dated 10/15):** Mead below 1,035 from **November (1,033.97)**; 12-month low **1,007.73 ft (Jul 2027)**.
-- **Leg 2 (Will-ruled 10/10):** <1,010 while the Guidelines are in effect, else <1,000. The Lower Basin agreement is **unexecuted** (SECONDARY, 10/21), so the 1,000 line governs: **NOT FIRED, 7.73 ft above.** ⚠️ **On execution the line becomes 1,010 and the same study FIRES leg 2 → C6 4→5.**
-- **Owned defect:** the 10/10 STATUS showed 'Sept study min 1,034.18'. That was December's value; the true Sept minimum was **1,007.38**. No consumer carried it (consumer_check clean). L-50.
-- Routes on fire: WATT (Hoover derate), CARL/MARCO (SW municipal + ag), VULCAN (data-centre water), REGINALD/CREED (muni/ag credit).
+## 🟠 RHINE — exited (5→4)
+- The record-low run ended **10/22** (35 complete days 9/18→10/22). 10/26–28: Kaub 54–57 cm vs 25, Duisburg 208–235 vs 153 (KB-220, VX-43). Contargo Kaub surcharge **€550** (was €1,075).
+- Held at 4, not 3: Kaub is still below GlW 77 (draft-constrained), and WSV's own estimate returns it to 25 cm around 11/01. ⚠️ European basin root, **not** ENSO.
 
-## 🔴🔴 RHINE — still FIRED, 34 days
-- Kaub ≤25 cm AND Duisburg-Ruhrort ≤153 cm (WSV record lows) on **every complete day 9/18→10/21**. Last 3 days: Kaub 12.885 / 19.240 / 15.146 · Duisburg 137.323 / 138.385 / 138.844 (KB-211).
-- Contargo low-water surcharge unchanged since 10/8: Kaub €1,075 / Ruhrort €675 per full 20′.
-- ⚠️ European basin root, **not** ENSO — never weld to the El Niño cluster. Un-base-rated; the boundary can only be too strict.
+## 🟠 COASTAL — hurricane-class tide levels, no hurricane (Will-flagged)
+- NOAA CO-OPS (preliminary): **Lake Worth Pier 35.76 ft = monthly-max record**; Key West **#3 since 1913**, Virginia Key #3 (only Wilma/Irma higher); NWS MAJOR at 4 FL Atlantic gauges 10/25–29. Driver: king tide + 9 days NE wind on an elevated baseline; Gulf normal (KB-216). CA residual raised since early Oct, possibly El Niño, one gauge, unattributed (KB-217).
+- **Not a C4 score input.** FL impact = **CORAL** (packet 10/29). Registered as FLOW-17; the thesis variable is the annual count of moderate+ tide days, not yet measured. **No AEOLUS instrument watched this** (L-52); coastal instrument home = Will's call.
 
-## 🟡 HURRICANES / LOSS — quiet; Isaias small
-- **Isaias** insured loss: Cotality $2–3bn · Verisk $1–2bn · KCC $3bn · Moody's RMS $2.5–4.5bn. The scopes differ, so the figures are not averaged; all are SECONDARY. That is far below the C4 >$10B line. **No DR** (EM-3655-FL / 3656-AL / 3657-GA only).
-- ACE **18.63 = 16.91%** of the to-date normal [10/22 00Z]; Josephine (AL10) is subtropical, NE-bound, no US threat.
-- FL claims / Citizens / FHCF and the FEMA 'states build reserves' report (relayed, unread) are **CORAL's** to carry.
+## 🟡 WINTER (C3) — warm outlook, unstable vortex
+- CPC 10/15 DJF leans **warmer** for PJM (MidAtl 40%, ENC 40–50% above normal).
+- **Polar vortex: ECMWF forecasts a reversal from ~11/05 (all 50 ENS members below zero 11/09); GEFS dissents; NOT observed** (+14.1 m/s 10/29) (KB-229). An SSW pays AEO-08 (a PJM cold alert despite a warm mean), with a 1–4 week lag that is not guaranteed. WATT + BRENT informed.
+- ENSO weekly Niño-3.4 **+3.4** (21OCT), file record (rank 1 of 2,356 weeks).
 
-## 🟡 C2 / C3 — winter re-point holds
-- **C3:** PJM 10/13–14 EEA-1 was **supply-driven** (WATT). The 9/17 EEA2 had no weather cause, so C3 stays NOT FIRED (KB-208). **PJM 7/2 'record'** holds only on PJM's preliminary unrestricted 168,158 MW; metered 162,713 MW is below 2006's 165,563 (KB-206). Henry Hub NGX26 $2.77 (10/21 evening trade, not a settle).
-- **C2:** AEO-13 (SA 2027 maize, 65%) now has **two independent roots for one harvest**, El Niño drought and the Hormuz fertilizer shortfall. The attribution split is pre-registered (KB-209), and the shortfall is counted once.
-- **ENSO:** weekly Niño-3.4 **+3.3** (07/14 OCT), a file high; ONI JAS +2.16 / RONI JAS +1.69.
+## 🟡 C1 / C2 / C4
+- **C1:** no Gulf/FL system 10/9–10/29; ACE **17.06%** of to-date normal; **DR-4955-FL** declared 10/27 (PA only; CORAL carries). Isaias industry $1–4.5bn unchanged.
+- **C2:** SA CEC intentions: maize area **−12.37%** y/y. That is AREA, not the production band; fertilizer vs rainfall not separable (KB-224).
+- **C4:** NIFC PL 1; Gallagher Re 9M 71.9% of 10-yr; no >$10B event in 6 quarters.
 
-## ROUTING (10/21 — carve-out ①, committed)
-- **WATT:** `AGENTS/WATT/inbox/2026-10-21_from-AEOLUS_L650-C3-reconcile-PJM-7-2-peak.md` (L650 C3 side + answers to WATT's 10/15 and 10/20 packets).
-- **PROME:** READS manifest + attestation packet; catch-up memo.
+## ROUTING (10/29 — carve-out ①, committed)
+- **CORAL:** king tide (2f6d134c5) · L784 carry-split ack + GeoXO satellite read (81987120a).
+- **WATT** (3427faddc) · **BRENT** (983c10dd4): vortex reversal forecast, INFO.
 
 ## CONVERGENCE SNAPSHOT
 | Ch | Score | One line |
 |---|---|---|
-| C1 | 2 🟡 | Isaias NOT FIRED; no Gulf/FL system; channel-kill resolves 11/30 |
-| C2 | 2 🟡 | SA maize = the El Niño crop; no reading until CEC 10/27 / WASDE 11/10 |
-| C3 | 2 🟡 | winter heating; band graded from 12/30 |
-| C4 | 2 🟡 | Isaias $1–4.5bn, far below >$10B |
-| C5 | 5 🔴🔴 | Rhine FIRED 34 days |
-| C6 | 4 🔴 | leg 2 one signature from firing |
-**Composite 17/30 · fired 1/6 · moved 0 since 10/10.**
+| C1 | 2 🟡 | no Gulf/FL system; channel-kill resolves 11/30 |
+| C2 | 2 🟡 | SA maize area −12%; production read 11/10 |
+| C3 | 2 🟡 | outlook warm; vortex reversal forecast, not observed |
+| C4 | 2 🟡 | coastal record water (not a band input); fire PL 1 |
+| C5 | 4 🔴 | Rhine exited 10/22; re-entry possible ~11/01 |
+| C6 | 4 🔴 | water up (storm), deal unsigned, litigation widening |
+**Composite 16/30 · fired 0/6 · moved 1 since 10/21 (C5 5→4).**
 
 ## WHAT NEXUS/PROME SHOULD KNOW
-- **The C6 conditional is operator-facing:** if the Lower Basin deal is executed, AEOLUS's own rule moves C6 to 5 the same session, and the cause is the 1,010 line, not new water.
-- Root-cause independence: C5-Rhine (European basin) and the ENSO cluster (C1/C2/C3/C5-Panama/C6) are separate roots; Isaias is one event for C1 and C4.
+- **The C6 conditional still stands:** execution of the Lower Basin deal moves leg 2 to the 1,010 line. Whether it fires then depends on the **November** study, since the October one is now stale.
+- Root independence: C5-Rhine (European basin) · ENSO cluster (C1/C2/C3/C5-Panama/C6) · coastal (wind + sea level) are separate roots; Isaias is one event for C1 and C4.
+- Read-cap: charter 48,606 B remains the only over-budget surface (PROME L470 pending). Regime DOSSIER rotated to 22,772 B.
 - **Nothing here is a trade.**
