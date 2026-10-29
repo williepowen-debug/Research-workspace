@@ -1,0 +1,4 @@
+# HOMER ledger declaration — read by scripts/ledger_staleness.py (created 2026-10-28; DAEDALUS profile-refresh noted it absent).
+# Globs relative to AGENTS/HOMER/. The band registry (registry/THRESHOLDS.tsv) is NOT a ledger: its freshness is graded per row by tools/threshold_scan.py (STALE flag).
+# docket/, thesis/ and registry/corrections_receipts.tsv are calendars/records, not data ledgers.
+workbook/*.tsv

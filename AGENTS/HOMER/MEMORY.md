@@ -23,7 +23,15 @@
 - CREED now keeps its own `workbook/` (KB, FLOW, PREDICTIONS; checked 2026-09-29 — the July note that it had none is superseded). The MF seam is unchanged: CREED pulls the whole Trepp print and owns non-MF property types; the MF row is mine (`CREED-T-05`). Check `PROME/ROSTER.md` for CREED's current tier; don't infer it from here.
 - **WALTER's RESEARCH-INTAKE lane does NOT fetch homebuilder earnings or the ATTOM monthly foreclosure report** (verified 2026-09-29 with WALTER's own read-only harness: 0 lane hits for Lennar/KB over 6/29–9/28 although both reported). ⇒ **HOMER pulls these itself off per-name / recurring docket rows; never assume "WALTER would have routed it."** Matcher fact: all-caps 2–5 char tokens (KB, NVR, LGI) ARE kept; other ≤3-char words drop.
 
-## Infra — what this box can and cannot reach (as of 2026-09-29)
+## Ownership seams added 2026-10-28
+
+- **Named MF cases → CREED's case ledger** (`AGENTS/CREED/cases/CASES.tsv`, by packet; Will 10/28). HOMER keeps the aggregate figure only.
+- **California wildfire peril + insurance market (FAIR Plan, insurer losses) = AEOLUS** (`AGENTS/AEOLUS/wildfire/`). HOMER's CA lane is the housing-credit consequence and cites AEOLUS.
+- **HENRY edge formalized** (charter trigger rule); TERRY reached only via thesis/data — HOMER holds no book.
+
+## Infra — what this box can and cannot reach (as of 2026-09-29; ⚠️ 2026-10-28 updates first)
+
+- **2026-10-28 observations (retrieval helpers):** Fannie monthly PDFs now return **403** to curl (existing files) / 404 (unpublished) — use the 10-Q/earnings release on SEC EDGAR for quarter-end values · **press.spglobal.com WORKED** for Case-Shiller (the Cotality-hosted page served stale June data) · MBA content is readable via **newslink.mba.org** (mba.org still 403) · ICE First Look full text via the Business Wire release (the mortgagetech.ice.com page header mislabels the month) · SEC EDGAR + data.sec.gov submissions JSON work with a contact User-Agent · Apartment List CSVs on ctfassets work.
 
 - **Works:** Freddie `freddiemac.com/pmms/docs/PMMS_history.csv` · Treasury daily par-curve CSV (`home.treasury.gov/...daily-treasury-rates.csv`) · Fannie monthly PDFs (`/media/document/pdf/MMDDYY.pdf`, slow) · ICE First Look pages · SEC EDGAR 8-Ks · ~~attomdata.com~~ (⚠️ issuer paths returned 403 on 2026-10-19 — try wire copies on PR Newswire/BusinessWire).
 - **Blocked / failing:** MBA (403 site-wide) · S&P press + spglobal (403 — Case-Shiller must come via a secondary) · miamirealtors.com (empty to curl) · therealdeal.com (403 — use CRE Daily / Yahoo syndication) · FRED CSV (HTTP/2 stream errors; retry `--http1.1`, or use the issuer file).

@@ -8,6 +8,14 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 
 ---
 
+### 2026-10-28 — file-hygiene sweep (Will-asked)
+- **Retired to `archive/`** (>60 days, not boot-read, no live-doc reference — root Data Hygiene): `2026-07-12_FL-condo-reconciliation-package.md`, `2026-07-12_domain-sweep.md`, `2026-08-14_issuer-primary-sourcing-convention-PROPOSAL.md`, `2026-08-23_refresh-plan-AND-EXECUTION-RECORD.md`. Seven other pre-8/29 reports stay: live refs from `workbook/`, `docket/` or `thesis/`.
+- **`workbook/LEDGER_GLOB` created** (declares `workbook/*.tsv`; registry excluded by design — the scanner grades its freshness).
+- Glued word-number tokens fixed on live surfaces (STATUS, NEXUS_BRIEF, docket; root Output Canon). Ledger record rows from the 10/19 session still carry some glue — left as written.
+- `OBLIGATIONS_OTHERS.md`: B8(a) found ANSWERED by WALTER 10/01; stale rent figure in §C replaced with a pointer.
+- `MEMORY.md`: infra reachability updated (Fannie PDFs 403; S&P press, MBA Newslink, EDGAR work); new ownership seams recorded.
+- **Not done, flagged:** `LESSONS.md` 24,035 B — **377 B under the 75% rotation trigger**; the next lesson append must rotate first. HOMER has no row in `PROME/registry/READS.tsv` (PROME-owned) so read-cap checks are heuristic.
+
 ### 2026-10-28 — desk-comparison build-out (Will-approved: "do all 5, route cases to CREED")
 - **Trigger:** comparison with mature peers (REGINALD, CARL, CREED, CORAL, BOND, HENRY) found HOMER graded bands by hand, pre-registered prints rarely, and had no coverage map, case routing or structural log.
 - **Built:**

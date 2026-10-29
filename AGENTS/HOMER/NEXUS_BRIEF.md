@@ -49,10 +49,10 @@
 
 - **Conviction:** direction-H (credit conversion; MF realization) · timing-M · level-M (three bands topped out — PMMS, Freddie MF, EHS — so ladders no longer grade magnitude)
 - **Diverge from market by:** NAR's Yun says rates 'could be topping out' and distressed supply is limited; I read the September foreclosure SALES acceleration and 882K pipeline as conversion still under way, even as starts cool.
-- **Cross-agent tensions:** no new score conflict. Texas secondary has conflicting Dallas office borrower attribution; no lender map accepted. BOND already carries 221bp for the October 15 mortgage spread. Florida statewide remains CORAL-owned. Trepp August securitized Freddie0.80% has unresolved perimeter vs issuer0.64%; issuer number governs. Florida statewide Sept/3Q source found and routed to CORAL; historical August citation demoted.
+- **Cross-agent tensions:** no new score conflict. Texas secondary has conflicting Dallas office borrower attribution; no lender map accepted. BOND already carries 221bp for the October 15 mortgage spread. Florida statewide remains CORAL-owned. Trepp August securitized Freddie 0.80% has unresolved perimeter vs issuer 0.64%; issuer number governs. Florida statewide Sept/3Q source found and routed to CORAL; historical August citation demoted.
 - **Uncertain about:** why the mortgage spread widened (lender capacity, MBS spreads or volatility); whether Trepp's MF jump is new 30-day delinquencies (Trepp's prose) or something else (no split printed); whether ICE will print the cure YoY again.
 - **Failure patterns to mind:** three revisions this month would each have left a wrong superlative standing (FMHPI July −0.42pt, Redfin August 57.9 → 56.9, NAR August 3.98 → ~3.93). Carry both vintages; LESSONS §3/§22.
-- **Counter-evidence:** Zillow September rental demand+19.2% and MF asking rent+2.2% argue against collapsing tenant demand. Miami-Dade condo inventory−7.24% YoY and67vs75 contract days also improve. High floating debt service can still impair cash coverage; neither asking rent nor a selected DSCR sample settles realized losses.
+- **Counter-evidence:** Zillow September rental demand+19.2% and MF asking rent+2.2% argue against collapsing tenant demand. Miami-Dade condo inventory−7.24% YoY and 67vs75 contract days also improve. High floating debt service can still impair cash coverage; neither asking rent nor a selected DSCR sample settles realized losses.
 
 ### ⛔ DO-NOT-CITE (kill on sight — carried from the rotated brief)
 | Claim | Why dead | Home |

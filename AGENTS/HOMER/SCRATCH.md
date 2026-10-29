@@ -21,7 +21,8 @@
 ## Open / next
 
 - **Next print session: update `registry/THRESHOLDS.tsv` reading cells and run `tools/threshold_scan.py`** (Fannie HB-01 NEAR, FHA HB-09 NEAR, cutters HB-10 NEAR, breadth HB-11 NEAR). Freddie Q3 10-Q (~10/29–31) gives the Freddie provision pairing.
-- **COVERAGE gap for Will:** NV/CA lanes have no coverage though the charter names them — build or de-scope.
+- **NV/CA lanes: Will said BUILD (23:27 ET).** Two Opus helpers running (`scratchpad/lane_NV.md`, `lane_CA.md`); integrate into STATE_HSG + docket + COVERAGE + charter sources. CA insurance/FAIR Plan = AEOLUS (cite).
+- **File-hygiene sweep done** (see MAINTENANCE.md 10/28). ⚠️ LESSONS.md 377 B from the rotation trigger — rotate before the next lesson.
 - **Thu 10/29:** DHI FQ4 (CRL-23 + buydown disclosure) · PMMS · BEA Q3 GDP · **Fannie Sept MF (was not out 10/28 22:48 ET)** · UDR–Apollo close.
 - **ATTOM Sept/Q3 not published** at 10/28 — Q3 STARTS band reading waits; KB-HOMER-001 re-validation rides on it.
 - **DAEDALUS items NOT done:** #2 done (intake), #3 done (prints) — **#8 THESIS defect residue** (D2–D4 base windows; A2 upgrade rung) left for Will / the 11/20 grade. Glued words in docket rows 43–46 partly fixed by re-keying; ledger-cell glue untouched.
