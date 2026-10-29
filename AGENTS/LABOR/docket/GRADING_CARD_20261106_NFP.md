@@ -130,6 +130,20 @@ August first print **+162K** (ALFRED `20260904`), second **+133K** (`20261002`);
 
 A negative print moves nothing in the /75 by itself. ⛔ No vector is created on print day (L-18).
 
+### 5a. 🔒 AMENDMENT 2026-10-28 (9 days before the print): v17 Payroll momentum CREATED (Will, BD-26 discharged) — this section supersedes §5's "no payrolls vector" from this date
+
+**Letter (adopted 2026-10-28; base rates `domain/sources/2026-10-28_PAYROLL_VECTOR_AND_T07_BASE_RATES.md`, POST-HOC):** revised 3-month average of payroll changes `M = (A' + S' + X)/3`, where `A'` and `S'` are Aug and Sep as REVISED in this release and `X` is the October first print ⇒ **M ≥ 100K ⇒ v17 = 1 · 50K ≤ M < 100K ⇒ 2 · M < 50K ⇒ 3.** The value entering 11/6 is **2** (Jul–Sep on the 10/2 vintage: `(−10 + 133 + 29)/3 = 50.7K`).
+
+**Pre-computed on the 10/2 vintage (`A' + S' = 133 + 29 = 162`) — RE-SOLVE on the published revisions before reading X (L-02):**
+
+| Band | Condition on M | X bar on the 10/2 vintage | v17 |
+|---|---|---|---|
+| 5a-1 | M ≥ 100K | `X ≥ 300 − 162 = +138K` | **1** (2 → 1) |
+| 5a-2 | 50K ≤ M < 100K | `−12K ≤ X < +138K` | **2** (holds) |
+| 5a-3 | M < 50K | `X < 150 − 162 = −12K` | **3** (2 → 3) |
+
+Partition: `M ≥ 100 / 50 ≤ M < 100 / M < 50` is a true complement on M at 1K precision. Re-solved bars are `X ≥ 300 − (A' + S')` and `X < 150 − (A' + S')`. **Mechanism vs threshold:** a band move here is a THRESHOLD read on revised data, not a recession call. In the 1950–2026 base, `M < 50K`-equivalent is followed by a recession within 12 months `12/36 = 33.3%` vs base `18.1%`, and it fired falsely in 2025-03, 2025-06 and 2026-02. **Attribution discipline:** a 5a-3 print is not attributed to demand vs supply on this card (that stays §3b/§3c). **Travels:** a v17 move goes into the STATUS matrix and the NEXUS brief; no new outbox packet (no T-number rides on v17).
+
 ## 6. WHAT TRAVELS
 
 | Outcome | Route | Priority |
@@ -151,6 +165,7 @@ A negative print moves nothing in the /75 by itself. ⛔ No vector is created on
 | §3c | `≥58.9 / 58.7–58.8 / ≤58.6` partitions the one-decimal grid |
 | §3d | 2 × 2 × 2 = **8 of 8** cells written |
 | §3e | `≥0 / <0` true complement |
+| §5a (added 2026-10-28) | `M ≥ 100 / 50 ≤ M < 100 / M < 50` partitions M at 1K precision; re-run 10/28: `card_partition_check.py` 8 tables, 1 verified, **0 with defects**, §5a UNVERIFIED under the same BD-31 one-axis limit |
 
 ## 8. GRADE (write 2026-11-06 off this frozen card — never re-read a band)
 

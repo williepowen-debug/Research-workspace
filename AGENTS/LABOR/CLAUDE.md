@@ -307,6 +307,7 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | `docket/CATALYSTS.tsv` | **Catalyst source of truth** (8-col). STATUS calendar is its human twin. |
 | `scripts/warn_texas.py` | Texas WARN API (cron Wed 8AM ET) |
 | `tools/form4_scanner.py` | SEC EDGAR Form-4 insider-transaction pull + 14x sell/buy framework scoring. `scan <TICKER> --days N`. Built 7/9 (Will-greenlit), WAL/OZK-first-class, ZION included. |
+| `tools/warn_monthly.py` | **T-07 source (BD-36, built 2026-10-28).** Pulls LayoffAlert.org's monthly employees-affected series from the page's chart JSON (46 states, effective-date basis, `[2ND]`) via `fetch_primary.fetch`; prints recent completed months and the T-07 verdict (>50K on a completed month). rc 0 / 1 = fires / 2 = UNKNOWN. `--state Florida` for the FL column. |
 | `tools/job_postings_tracker.py` | Indeed Hiring Lab job-postings index (free GitHub CSV) — `national` / `state <ABBR>` / `rank`. Built 7/9 (feasibility-probe outcome: YES, minimal build shipped). |
 | `workbook/VX.tsv` | **FROZEN 6/26** — Vectors ledger; superseded by STATUS Convergence Matrix. Historical reference; do not write. |
 | `workbook/KB.tsv` | **LIVE (revived 7/10)** — Knowledge base: append-only timestamped evidence w/ sources, cross-links, Admiralty conf codes. Write at C3; boot.py >21d staleness alert. |

@@ -1452,3 +1452,4 @@ CPS, SA, thousands, FRED pulled 2026-09-17 (BLS Employment Situation, USDL-26-14
 [L100] | 🔒 Sep 29 – Oct 8 | JOLTS Aug · claims w/e Sep 26 + Oct 3 · Challenger Sep · NFP Sep · Canada re-check #1 — all graded, nothing fired | rows verbatim → DETAIL § `status-rotated-20261008`, § `status-rotated-20261015` |
 [L101] | 🔒 Thu 10/15 | Claims w/e Oct 10 199,000 (band B) · KS WARN check SEARCH-NOT-FOUND | rows verbatim → DETAIL § `status-rotated-20261021` |
 [L102] | 🔒 Wed 10/21 | C2 batch (R13-c, v7 none, openings no band, v11 not widened) | row verbatim → DETAIL § `status-rotated-20261028` |
+[LAB-11 row, removed 2026-10-28 on VOID] | LAB-11 | AI narrative shield breaks | **50%** | Q3–Q4 | Its "AI = #1 Challenger reason" persistence evidence lapsed Aug (#4, 6.5%) **and Sep (#5, 9.15%)**; confidence NOT re-marked — re-assess at a self-directed C2 |
