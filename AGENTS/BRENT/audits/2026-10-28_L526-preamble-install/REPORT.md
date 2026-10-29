@@ -51,3 +51,11 @@ Container state hit by this run: **not shallow, HEAD detached, `.venv/` absent, 
 First-line receipt format (`PREAMBLE: unshallowed=<y/n> detached=<y/n> ff=<n> venv=<state>`) was produced correctly on both the output file and this routine's final report, per step 5.
 
 **Remaining for the independent reader:** AC2 and AC4, plus AC1's shallow-container case, are still unobserved on any BRENT routine run as of this entry.
+
+## 4. Live-session confirmation of the validation run (BRENT, 2026-10-29 00:0x ET)
+
+- **Why it fired off-schedule:** BRENT's live session fired it deliberately with `RemoteTrigger run` on `trig_01ALYRXtjDGbfHeubqdvyJdf` at 2026-10-29T03:55:57Z (run session `cse_01CW5vraYvBnujbrVP5FPhX1`), as the single validation run PROME asked for. The Thursday fallback was chosen because it is idempotent when the week is already recorded. The routine was right to flag the timing and leave the cause undecided.
+- **Receipt checked at the artifact, not from the routine's prose:** line 1 of `demand_destruction/data/thursday_2026-10-29.md` (commit `8049f255d`) reads `PREAMBLE: unshallowed=n detached=y ff=262 venv=rebuilt`. The run log shows each preamble step in order: shallow test, `git fetch origin`, `git checkout master`, `git merge --ff-only origin/master`, the venv test, and `pip install -r AGENTS/BRENT/scripts/routine-requirements.txt`.
+- **Acceptance so far:** AC3 met; AC1 met on its detached half only; AC2 and AC4 unobserved. Judgment on all four is for the independent reader; the next normal run is the scheduled Thursday fire, 2026-10-29T18:15Z.
+- **Follow-up outside WQ-510's scope, not done:** the routine found a key-free EIA retail workbook needing `xlrd`, which is not pinned. The live-session BRT-31 evaluator also uses `xlrd`. Adding a pin changes the approved requirements file, so it is a proposal for PROME/Will, not a fix made here.
+- **State gap:** the run read origin before this session's STATUS/TRACKER push, so its output carries GASREGW at the October 19 value. The live session recorded October 26 ($4.269) in TRACKER line 4.

@@ -8,7 +8,7 @@
 - WQ-510 ruled A by Will (October 28 20:46 ET).
 
 ## WHAT I DID THIS SESSION
-- **WQ-510 installed live** via RemoteTrigger in all four routines (03:45–03:46Z October 29). Found the October 4 prompt correction had never reached the scheduler; it is live now. Thursday connectors could not be removed by API. Fired one validation run (Thursday fallback, session `cse_01CW5vraYvBnujbrVP5FPhX1`); receipt in the install report §4.
+- **WQ-510 installed live** via RemoteTrigger in all four routines (03:45–03:46Z October 29). Found the October 4 prompt correction had never reached the scheduler; it is live now. Thursday connectors could not be removed by API. Fired one validation run (Thursday fallback, `cse_01CW5vraYvBnujbrVP5FPhX1`): receipt `PREAMBLE: unshallowed=n detached=y ff=262 venv=rebuilt` (commit `8049f255d`); AC3 met, AC1 detached half met, AC2/AC4 unobserved. Receipt to PROME (`PROME/inbox/2026-10-29_from-BRENT_L526-WQ510-install-receipt.md`). Added the WQ-510 RULINGS entry.
 - BRT-31 week three graded NON-QUALIFYING at −0.6762% (release-day capture); OPEN at 40%.
 - Published held-VLO December crack observations for October 22–28 (WQ-420 sources 2/3). **October 27 94.0224 and October 28 93.0634 are below the $95 notice line**; packets to TERRY and HENRY. CME IP-blocks this box (no evasion).
 - Ran a news/primary sweep through a research agent (Opus); integrated it into the catch-up report, STATUS, THESIS (re-dated, no version change), CHANGELOG, CATALYSTS (6 rows graded, Sinokor November 1 row added), TRACKER alert block and NEXUS_BRIEF.
@@ -17,7 +17,7 @@
 - Closed the WQ-264 Yanbu shadow run as INCOMPLETE (3 reads of about 30); the resolver is not registrable as designed.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **Thursday October 29:** read the scheduled 14:15 ET Thursday run (the second post-install run) for the `PREAMBLE:` line and L526 AC1–AC4, and check TotalEnergies Q3 for SATORP written confirmation (RF-018).
+1. **Thursday October 29:** read the scheduled 14:15 ET Thursday run (the first scheduled post-install run) for the `PREAMBLE:` line; a clean container should print the AC4 quiet line `unshallowed=n detached=n ff=0 venv=present` or show why not; and check TotalEnergies Q3 for SATORP written confirmation (RF-018).
 2. **Friday October 30, after ~15:30 ET:** COT #12 with `cot_grade.py --expect 2026-10-27`, then the raw f_disagg.txt. BZZ26 last trades that day. Re-derive the pin from vendor `expireDate`, which reads 2026-11-02 for BZZ26, against ICE's October 30.
 3. **Saturday October 31 / Sunday November 1:** Russian producer diesel-ban decision; OPEC+ seven statement; PGSA Sinokor date. **DST cron re-set for all four routines on November 1** (+1h UTC: `45 14 * * 1`, `0 16 * * 3`, `15 19 * * 4`, `15 21 * * 5`); RemoteTrigger can do it from a BRENT session.
 4. **November 2–6:** TD3C/TD34 freight after the Sinokor date; next held-VLO December observations (authorized through November 19; basis review by November 18).

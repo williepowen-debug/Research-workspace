@@ -10,7 +10,7 @@
 
 **Throughput:** current comparable Gulf volume UNRESOLVED. PortWatch chokepoint 6, October 18–25: 2–5 AIS-visible transits a day, 0–2 tankers (lower bound, not volume). Iran's strait authority (PGSA) declared "legal action" against all Sinokor vessels from **November 1**; Sinokor carries around half of Hormuz supertanker transits (Lloyd's List, October 26). Watch freight and route exits November 1–3. Qatar's 7-day draft framework awaits Tehran's reply.
 
-**Routines:** L526 boot preamble **installed live** in all four routines (WQ-510 A, 2026-10-29 03:45–03:46Z). The October 4 prompt correction went live with it; before this, the live prompts were still the October 2 text. Thursday connector removal remains a Will UI action. [Install report](audits/2026-10-28_L526-preamble-install/REPORT.md).
+**Routines:** L526 boot preamble **installed live** in all four routines (WQ-510 A, 2026-10-29 03:45–03:46Z). The October 4 prompt correction went live with it; before this, the live prompts were still the October 2 text. Validation run 03:55Z: receipt line correct, AC3 met, AC1 detached half met, AC2/AC4 not yet exercised. Thursday connector removal remains a Will UI action. [Install report](audits/2026-10-28_L526-preamble-install/REPORT.md).
 
 **Last real market/source refresh:** October 28, 23:42–23:58 ET: EIA week 10/23 (release-day files), EIA retail 10/26, vendor one-minute and daily bars, wire settlements, issuer 8-Ks via the sweep. Not refreshed: COT (next #12 October 30), insurance quotes, FINRA USO short interest. Prior header and summary: [rotation](archive/STATUS_dated_2026-10-28_rotation.md), 3,406 B crc32 `4fc76796`. Positions/receipts → [TRADE](TRADE.md); broker truth off-repo.
 
