@@ -1,6 +1,6 @@
 # LIQUID — NEXUS Brief
 
-**As of:** 2026-10-29T14:59:40-04:00 | STATUS commit: `d2da72cd8`
+**As of:** 2026-10-29T16:51:50-04:00 | STATUS commit: `ecf7b52a5`
 **Evidence frontier:** first-published FRED ICE tiers and NY Fed SOFR/EFFR percentiles through **October28** (pulled October29 14:55 ET); H.15 through October27; yfinance cohort closes and DTCC CDS (CRWV/ORCL/META) through October28; FOMC October28 held 3.75–4.00%. Brazil October27 settlement/LFT results not read. October26 Brazil vendor/FX comparisons below keep their own dates.
 
 ## Current judgment
@@ -24,7 +24,7 @@
 | Gate | Current owner grade and qualification |
 |---|---|
 | HY-REKILL | NOT FIRED 0 of 2, first-published through October28, graded October29 14:5x ET; HY 314 is 54bp above strict <260. |
-| 076 | Existing episode **MET** (graded October22: W2 G5L10 −$1,462M [as-of October7] then −$1,717M [as-of October14] plus W3). Review read October29: the current window October15→28 reads **1 of 3** (W3 witness, MOVE 94.55 / VIX 16.91 [October28], VIOLET governs); W2's as-of October14 cell aged out; W1 NOT MET as-of October20 (−2,373,040). No re-arm, no second write-up. Waits on W2 as-of October21 (NY Fed, October29 ~16:15 ET, not out at the 10/29 catch-up) and W1 as-of October27 (CFTC, October30). Review_by November5 (PROME). Never a position. |
+| 076 | Existing episode **MET** (10/22). Current window October16→29 reads **MET 2 of 3** (graded October29 16:50 ET): W2 G5L10 −$1,717M [as-of October14] then **−$1,861M [as-of October21]** (NY Fed primary; third straight week below −$800M, but only 59th-lowest of 616 weeks since 2015, record −$6,070M [2026-03-04]) plus W3 witness (VIOLET governs). Same un-reset episode ⇒ no second write-up. W1 as-of October27 (CFTC, October30) pending. Never a position. |
 | 079 | NOT ARMED: SOFR99−IORB +5/+6/+6/+8/+10/+11/+14/+12bp [October19–28, NY Fed primary] vs ≥+30 ×2 non-calendar; October28–November3 calendar-excluded. **FIRE legs 3/4 banded under WQ-535 RULED A (Will October29 00:26 ET)**, encoded in the owner letter October29: leg 3 = EFFR−IORB +3bp over 10 days or EFFR 75th > IORB; leg 4 = SOFR 99−1 ≥30bp or repo-op take-up ≥$10B; graded only on ARMED non-calendar days. Rider: n=1 true positive; the bands make FIRE gradeable, not more accurate (every historical ARM episode incl. the July2019 false positive meets them). Context October28: EFFR−IORB −2bp, SOFR 99−1 13bp, take-up $0.006B. |
 | 069 | 2-of-2 FIRED unchanged (L2 + L5; ORCL L5 secondary-sourced). L1 NOT MET: BB 184 [October28 first-published], 36bp under 220. L4 NOT FIRED October26–28: no name ≤−15% on any session (all four up October27–28; October28 CRWV +7.32%). L2 still above both line sets: DTCC CRWV 5Y 956–995bp [October28] (model-derived). L3 NO_INSTRUMENT. No new ORCL agency action searched (carried October22). |
 | 072 | QUIET / NOT FIRED: October28 first-published IG 86 vs strict >94; basis 228 vs strict <180; graded October29 14:5x ET. Meta 5Y CDS eased to 108–115bp [October28] from the 121–127bp record [October23]. SpaceX leg CANNOT-FIRE remains. |
