@@ -57,16 +57,16 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 3. **Hard data revising UP** — NFP May +172K beat with **net +93K upward revisions** (Apr 115K→179K, Mar→214K). Realization-weakness leg on the back foot; Kill A (NFP ≥200K ×3) now has Mar across the line.
 4. **Time decay** — 73 DTE on a $4.15 OTM put requires >35% drawdown in <2.5 months. Implied required move not supported by current vol or thesis state.
 
-### Verdict: **Functionally dead. Manage to expiry.**
+### Verdict (written July, while the put was open): functionally dead → ✅ **expired worthless 2026-08-21.** Nothing below in §2 is a live instruction; it is the record.
 
 > **Jul-2 print resolution (added 2026-07-02):** The §2 re-arm letter *technically fired* — NFP June +57K (<100K ✓) AND revisions stopped trending up (reversed to net −74K ✓). But the third leg the grid assumed never came: **U-3 FELL to 4.2%** (labor force −720K = supply-shrink artifact, not strength), and the market shrugged (KELYA $13.00, −0.84%; spot moved *away* from the strike vs the "$9-10 on print" re-arm scenario). Mechanism read: freeze-deepening, not demand-break — no claims confirmation (215K). **Verdict unchanged: write-off; no action proposed to Will.** The playbook's Jul-2 grid lacked a "NFP <100K + U-3 ↓ (participation-driven)" branch — gap documented in LESSONS L-06; future grids carry a denominator-artifact branch.
 
-**Re-arm conditions** (would restore the put's edge — none currently active):
+**Re-arm conditions (MOOT since the 8/21 expiry — kept as the record; a new KELYA position would need a new card on TERRY's side):**
 - Initial claims breach **>250K sustained 4+ weeks** + U-3 jump ≥0.2pp single print → would force fundamental re-rating
 - NFP June **<100K** AND headline revisions stop trending up → revives realization-weakness leg
 - Sector-wide staffing reversal (RHI/KFRC guide-DOWN Q2 update) → kills the canary-bottomed narrative
 
-### Decision triggers to Aug 21
+### Decision triggers to Aug 21 (PAST — all resolved)
 
 > ⚠️ **Swept 2026-08-05: six of the seven rows below were PAST-DATED and still presented as forward triggers** (Jun 11, Jun 13/20, Jun 30, Jul 2 ×2, Jul 22). A decision table whose rows have all fired reads as live guidance to anyone scanning it. **Fired rows collapsed to one line; only genuinely-forward triggers remain live.**
 
@@ -85,7 +85,7 @@ LABOR vector → threshold → target agent(s) → priority. Thresholds referenc
 
 ## §3 — Forward Catalyst Playbook
 
-For each forward catalyst, the LABOR thesis implication + KELYA position implication + which cross-agent signals fire. Source of truth: `docket/CATALYSTS.tsv` — keep this section synced with the docket at every catalyst closeout.
+> 🔒 **HISTORICAL SINCE 2026-08-21 (bannered 2026-10-28).** Every dated entry in this section (Jun 11 – Aug 21) has passed and been graded; with no KELYA position there is no position implication to sync. **The forward calendar lives in `docket/CATALYSTS.tsv` and the STATUS MONITORING CALENDAR only — do not add new catalysts here.** Kept as the record of how each print was read against the position.
 
 ### ✅ Jun 11 — Initial Claims w/e Jun 6 (RESOLVED, collapsed 7/24 audit)
 
@@ -95,7 +95,7 @@ Landed in drift band (~213K); T-01 not fired; KELYA no move. Grid retired — th
 
 FL UR **Jun 4.7%** (BLS LAUS 7/21) — −0.1pp MoM from May 4.8%, +0.9pp YoY. **T-11 NOT FIRED** (level 4.7<5.0; the 4-mo rise streak reset in May and June declined outright — first sequential decline in the FL UR uptrend). Read-only; marginal counter to FL-employment-stress leg. See STATUS calendar row Jul 21 for detail.
 
-### Jun 30 (Tue) — JOLTS May
+### ✅ Jun 30 (Tue) — JOLTS May (PAST; resolved below)
 
 | Print | LABOR thesis read | KELYA implication | Cross-agent signal |
 |---|---|---|---|
@@ -108,7 +108,7 @@ FL UR **Jun 4.7%** (BLS LAUS 7/21) — −0.1pp MoM from May 4.8%, +0.9pp YoY. *
 >
 > **✅ RESOLVED Jun 30 (graded Jul 2):** printed **between the grid's rows** — openings 7.594M (>7.5M) but hires 5.170M (5.0-5.5M band, not <5.0M). Read: post-don't-hire GAP widened (LAB-16 ✅ with stabilization nuance; Apr hires revised UP +99K to 5.215M). No cross-agent fire (T-10 needs <5.0M ×2). KELYA: no move.
 
-### Jul 2 (Thu) — NFP June + U-3 + Claims w/e Jun 27 ⚠️ **LINCHPIN**
+### ✅ Jul 2 (Thu) — NFP June + U-3 + Claims w/e Jun 27 (PAST; resolved below)
 
 LAB-02 effective resolution. Kill A check #2 (Mar revised 214K = #1).
 
@@ -136,7 +136,7 @@ LAB-02 effective resolution. Kill A check #2 (Mar revised 214K = #1).
 >
 > **KELYA implication: none, correctly** — the position was already written off on 7/23 at the DTE≤30 checkpoint. **LABOR thesis implication: material** — services employment turned in **June**, one month before manufacturing did, so the survey-employment thaw is two sectors deep and began earlier than this file or STATUS understood.
 
-### Aug 7 (Fri, modeled) — NFP July
+### ✅ Aug 7 — NFP July (PAST; graded — see `STATUS_DETAIL.md`)
 
 **Kill A check #1 of a FRESH streak** *(renumbered Jul 2 — the Mar-214K-led streak died with the June report's −74K revisions; revised run 148/129/57 = zero banked; see §3 Jul-2 resolution)*. A ≥200K July print = first count only; trigger still needs 3 consecutive. KELYA already at ~14 DTE; mechanical write-off zone unless re-armed earlier.
 
@@ -149,7 +149,7 @@ Mechanical close-out. Decision tree (as written pre-expiry):
 
 ---
 
-### 🔴 Mon Jul 27 → Fri Jul 31 — 4-in-4 gauntlet (KELYA-neutral, thesis-live)
+### ✅ Mon Jul 27 → Fri Jul 31 — 4-in-4 gauntlet (PAST; all graded)
 
 KELYA is functionally dead at 29→25 DTE (§2 write-off stands); scenarios here are for the LABOR thesis, not the position. Frozen cards / pre-registrations are the graded contracts — entries below are pointers, not new committed conditions.
 

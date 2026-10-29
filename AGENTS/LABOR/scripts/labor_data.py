@@ -63,7 +63,7 @@ LABOR_SERIES = [
 # EMRATIO carries T-03 (3-month Δ) and T-04 (6-month Δ), so it needs the current
 # observation plus 6 prior months = 7. A short fetch cannot be allowed to look
 # like "no decline" — assess() reports CANNOT-VERIFY rather than a 🟢 if it is short.
-MIN_PERIODS = {"EMRATIO": 7, "FLUR": 6}   # FLUR: 5 consecutive rises need 6 obs
+MIN_PERIODS = {"EMRATIO": 7, "FLUR": 6, "TEMPHELPS": 13}   # FLUR: 5 consecutive rises need 6 obs; TEMPHELPS: YoY needs 13
 
 
 def fetch_series(series_id, periods=4):
@@ -232,9 +232,32 @@ def assess(series_id, kind, obs):
         disp = f"{val:.1f}%  (MoM {(t[0]-t[1])/10:+.1f} · rises in a row {rises})"
         flag = "🟠" if (t[0] > 50 or rises >= 5) else "🟢"
     elif series_id == "TEMPHELPS" and prev is not None:
-        mom = val - prev
-        disp = f"{val:,.1f}K  (MoM {mom:+,.1f}K)"
-        flag = "🔴" if mom < 0 else "🟢"
+        # BD-38 (fixed 2026-10-28): this flagged 🔴 on ANY monthly decline, so a
+        # −10.9K Sep print at +0.6% YoY raised a red on every boot. The registered
+        # letters are v14 `TEMPHELPS −20K ×2` and v16 `−6% YoY` (STATUS matrix);
+        # the flag now keys to those and nothing else:
+        #   🔴 = v14 met (MoM ≤ −20K in BOTH latest months) OR v16 met (YoY ≤ −6%)
+        #   🟠 = v14 leg 1 of 2 (latest MoM ≤ −20K only)
+        #   🟢 = otherwise, including small declines — the number still prints.
+        # Integer tenths of a thousand (series is published to 0.1K), same reason
+        # as EPOP above: exact boundaries must not depend on float luck.
+        t = [int(round(o[1] * 10)) if o[1] is not None else None for o in obs[:13]]
+        if len(t) < 13 or None in t:
+            return f"{val:,.1f}K  (MoM/YoY unavailable — history short)", "⚠️"
+        m0, m1 = t[0] - t[1], t[1] - t[2]
+        legs = 2 if (m0 <= -200 and m1 <= -200) else (1 if m0 <= -200 else 0)
+        # v16 `YoY ≤ −6%` ⇔ t0/t12 ≤ 0.94 ⇔ 100·t0 ≤ 94·t12 — exact in integers.
+        # (A floor-divided basis-point figure rounds −5.996% DOWN to −6.00% and
+        # fires early; the test file caught that in the first draft.)
+        v16 = 100 * t[0] <= 94 * t[12]
+        disp = (f"{val:,.1f}K  (MoM {m0/10:+,.1f}K · ≤−20K run {legs} of 2"
+                f" · YoY {(t[0] / t[12] - 1) * 100:+.1f}%)")
+        if legs == 2 or v16:
+            flag = "🔴"
+        elif legs == 1:
+            flag = "🟠"
+        else:
+            flag = "🟢"
     return disp, flag
 
 
