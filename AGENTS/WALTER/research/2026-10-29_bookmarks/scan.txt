@@ -1,0 +1,255 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 64 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 64]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2115578474304094470  @SRSNews  2026-10-28T22:56:28.000Z
+     │ An event is in progress that has triggered emergency response activities at the Department of Energy’s Savannah River Site. This message is being sent to you as part of our emergency response organization information process.
+
+  2. 2115598691918565447  @TheIntelFrog  2026-10-29T00:16:48.000Z  [DIG: media]
+     │ An "event" at the Savannah River Site has triggered an emergency response including this temporary flight restriction for a "nuclear incident" up to 10,000' altitude and 3 mile radius. Authorities state that there is no threat beyond the boundaries of the Department of Energy facility.
+     🖼  photo: https://pbs.twimg.com/media/HVwdxhqXQAAtTv2.jpg
+
+  3. 2115509180975186037  @remarks  2026-10-28T18:21:07.000Z
+     │ JUST IN: 🇺🇸 US military is preparing for the possibility of a major war that could cripple power grids, disrupt supply chains and threaten critical infrastructure on American soil, NYPost reports.
+
+  4. 2115504179208958363  @HormuzLetter  2026-10-28T18:01:15.000Z
+     │ BREAKING: The Federal Reserve holds interest rates at 3.75-4.00% in a 10-2 vote.
+
+  5. 2115404076477505555  @HormuzReport  2026-10-28T11:23:28.000Z
+     │ BREAKING: The U.S. has warned several Gulf Arab countries to prepare for a short, intense military campaign against Iran after the midterm elections, as Washington and Israel reportedly prepare for another wave of heavy strikes on Iran, per The Wall Street Journal.  Trump is reportedly leaning toward a major attack targeting Iran’s nuclear sites and critical infrastructure.  The military buildup is already underway: an additional Patriot system is heading to Israel, U.S. troops are being moved away from vulnerable bases, munitions are being restocked, and roughly 20 warships are expected in the Middle East next month.
+
+  6. 2115475956777578831  @BullTheoryio  2026-10-28T16:09:06.000Z  [DIG: media]
+     │ BREAKING: 🇪🇺 European natural gas prices just crossed €100 for the first time since December 2022.  Prices have exploded more than 250% since the start of this year.  Europe is heading into winter in a full blown energy crisis. https://t.co/w8mVnnodDk
+     🖼  photo: https://pbs.twimg.com/media/HVuuDsRagAIUlJ2.jpg
+
+  7. 2115055227736936469  @GinaMartinAdams  2026-10-27T12:17:16.000Z  [DIG: media]
+     │ CCC rated credit spreads have surged to 1,127 basis points – a level currently wider than 5 out of every 6 days since 1996. This is well beyond the long-term average spread, and a level that has historically only been reached during periods of significant strain for the financial markets.  In every other instance in which the CCC spread widened beyond long-term average over the last twenty years, the S&P 500 was nearing or already in the midst of a correction.  Yet, the widening in CCC spreads has occurred without a major risk off event emerging in stocks – an extremely rare event.   This begs the question, is the bond market signaling more significant distress ahead?   While the historical track record is ominous, the spread within high yield offers a good reason not to panic.  The ratio between CCC spreads and those for the rest of the high yield market is at a new record high as the rest of the high yield market has barely budged.  A combination of selection and weight explains why the broader High Yield index’s spread remains tight (merely at its 16th percentile) even as CCC is pricing substantially more risk than others at its 83rd percentile spread - BB is at its 11th percentile and is more than half of the index while that lower quality tier is just 8% of the index.
+     🖼  photo: https://pbs.twimg.com/media/HVoveMzXMAAfPY-.jpg
+
+  8. 2115380835130146991  @BullTheoryio  2026-10-28T09:51:07.000Z  [DIG: media]
+     │ BREAKING: 🇺🇸 The US Treasury bought back $6 BILLION worth of its debt.  Total buybacks this month: $26.08 BILLION. https://t.co/1KsMfUC64u
+     🖼  photo: https://pbs.twimg.com/media/HVtXOjqaoAAsd7A.jpg
+     🖼  photo: https://pbs.twimg.com/media/HVtXOjgawAA0FbM.jpg
+
+  9. 2115279522438258743  @zerohedge  2026-10-28T03:08:32.000Z  [DIG: media]
+     │ The Broadcom deal landed the same day Anthropic filed its S-1, and the same day Meta launched its $95 billion offering (upside to $97.5 billion). Add SpaceX closing its $40 billion Nvidia chip lease with Apollo, and Monday's AI capital call came to roughly TWO HUNDRED BILLION DOLLARS IN ONE DAY
+     🖼  photo: https://pbs.twimg.com/media/HVr7gUmWsAAzp5k.jpg
+
+  10. 2115235256550740261  @danielfoch  2026-10-28T00:12:38.000Z  [DIG: media]
+     │ Banks Are Setting Aside More for Potential Mortgage Losses - CMHC https://t.co/Tr2A9uEbDf
+     🖼  photo: https://pbs.twimg.com/media/HVrTOamW0AA9lFc.png
+
+  11. 2115465788677361939  @TheObserverLens  2026-10-28T15:28:42.000Z
+     │ ⚠️ BREAKING:  World Bank forecasts global energy prices to rise 32% this year, the highest in four years, due to the Middle East conflict; commodity prices are projected to increase 23% by 2026.
+
+  12. 2115423981687984556  @gamesblazer06  2026-10-28T12:42:34.000Z
+     │ Financials are a train wreck…   Weak Capital, Massive AI Bubble Financing &amp; Balance Sheet Extension…Peaking NII &amp; Super Low Credit Costs with only one way to go… https://t.co/IA7rAfmtFT
+
+  13. 2115081123030241647  @WarrenPies  2026-10-27T14:00:10.000Z  [DIG: media]
+     │ Three things I don't love about the current market set up:  1) Hyperscaler credit spreads have broken above their July (Leopold Liquidation) wides (chart below). 2) Index momentum has stalled and entered a consolidation. 3) Financials/Staples ratio falling apart. https://t.co/QNG7KbPoIb
+     🖼  photo: https://pbs.twimg.com/media/HVpGMOUWsAAI1Nu.jpg
+
+  14. 2115214499225403698  @business  2026-10-27T22:50:10.000Z  [DIG: link, pointer]
+     │ PE-owned firms that rely on K-12 school systems fall into distress https://t.co/NtphXvkTVj
+     🔗 https://www.bloomberg.com/news/newsletters/2026-10-27/school-district-cuts-put-leveraged-lenders-on-the-backfoot?taid=6ae12aa11d3fbb0001b04ddd&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  15. 2115462379425177728  @business  2026-10-28T15:15:09.000Z  [DIG: link]
+     │ The Federal Reserve is expected to hold interest rates steady even after inflation data for September came in hotter than expected.  Read our decision-day guide:  https://t.co/PNeUw1sxfU
+     🔗 https://www.bloomberg.com/news/articles/2026-10-27/fed-seen-holding-rates-with-nod-to-december-decision-day-guide?taid=6ae2117d08444f00015c922b&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  16. 2115459864352768371  @zerohedge  2026-10-28T15:05:09.000Z  [DIG: link]
+     │ AI's "Low-Cost Carriers" Are Eating The Frontier Labs Alive; Citadel Securities Says Tokenomics 2.0 Is Here And Margins Are Getting Destroyed https://t.co/rQtATpzJ5O
+     🔗 https://www.zerohedge.com/ai/ais-low-cost-carriers-are-eating-frontier-labs-alive-citadel-securities-says-tokenomics-20-here
+
+  17. 2115416796010578144  @TipsWatch  2026-10-28T12:14:01.000Z  [DIG: media, link]
+     │ A 5-year TIPS matured Oct. 15. It had a real yield of -1.685% (the worst in history for any auctioned TIPS) and a high inflation-breakeven rate of 2.89%. This was a doomed investment ... and yet ... it outperformed the nominal 5-year Treasury note. https://t.co/0tU4nT3gbk https://t.co/bb9cub0aiR
+     🖼  photo: https://pbs.twimg.com/media/HVt4G7FXQAAtT1x.jpg
+     🔗 https://tipswatch.com/2026/10/28/a-historically-awful-5-year-tips-matured-oct-15-how-did-it-do-as-an-investment/
+
+  18. 2115458063855427775  @unusual_whales  2026-10-28T14:58:00.000Z
+     │ The US military has advised vessels to avoid unnecessary transits through the Strait of Hormuz.  The warning follows a WSJ report last night that the US told several Gulf Arab states to prepare for a possible short, intense military campaign against Iran after the midterm elections.
+
+  19. 2115451337613688885  @DeItaone  2026-10-28T14:31:16.000Z
+     │ INVESTORS PULL $18.5 BILLION FROM US STOCKS IN TWO WEEKS  Bank of America clients sold a net $3.5 billion in US equities last week, following $15 billion in outflows the previous week.  According to BofA analysts Jill Carey Hall and Trey Brown, retail investors led the selling.  Communication services recorded its largest weekly outflow since tracking began in 2018, affecting a sector that includes Meta ($META). Industrials also faced heavy selling, marking their 13th consecutive week of outflows.
+
+  20. 2115142741055484412  @macropaperr  2026-10-27T18:05:01.000Z  [DIG: media]
+     │ BREAKING:  🇺🇸 US Treasury just bought back $6 Billion of its own debt. https://t.co/5DWPLh9QlA
+     🖼  photo: https://pbs.twimg.com/media/HVp_BCga8AA6Aqe.jpg
+
+  21. 2115435968371028266  @thecredaily  2026-10-28T13:30:12.000Z
+     │ 1/ Only 12.79% of maturing CMBS office loans paid off on time in September. Retail was nearly the opposite, with an 89.60% payoff rate.
+
+  22. 2115413042200535298  @KobeissiLetter  2026-10-28T11:59:06.000Z  [DIG: media]
+     │ The relationship between stocks and bonds has flipped again:  The 20-day correlation between the 10Y Note Yield and the Nasdaq 100 is up to +0.51, its highest since the March pullback.  This marks a sharp reversal from the negative correlation of -0.68 recorded in the last week of September.  This also follows 6 consecutive months in which the 20-day correlation between the two assets remained negative.  This comes as Treasuries once again acted as a hedge against the drop in tech stocks, as they did during the March pullback and the March-April 2025 correction.  To put this into perspective, during the 2020 pandemic crash, the 20-day correlation between the 10Y Note yield and the Nasdaq 100 surged to as much as +0.85.  The Treasury market is regaining its role as a defensive trade.
+     🖼  photo: https://pbs.twimg.com/media/HVt00yvWUAExr0b.jpg
+
+  23. 2115443577887084646  @thecredaily  2026-10-28T14:00:26.000Z  [DIG: link]
+     │ Small investors are taking a bigger share of the housing market as large buyers pull back.  Investors bought roughly 224,000 homes in H1 2026, down 7%, but investors making fewer than 10 purchases accounted for a record 66.2% of investor buying.  Meanwhile, mega-investor purchases are down nearly 70% from 2021 and both large and mega investors were net sellers.  👉 Read more: https://t.co/atpstc9UtE
+     🔗 https://www.credaily.com/briefs/small-investors-make-up-66-of-investor-home-purchases/
+
+  24. 2115400533104324705  @macropaperr  2026-10-28T11:09:23.000Z  [DIG: media]
+     │ 🚨 AMERICA'S BIGGEST ALLIES ARE STARTING TO REJECT U.S. DEBT.  U.S.-friendly nations have slashed their net purchases of long-term Treasuries by over 60%, falling to just $174.3 billion in the first eight months of 2026, the lowest for that period since 2021.  And the numbers from Asia are even more concerning.  • 🇯🇵 Japan, the largest foreign holder of U.S. Treasuries, has cut its net purchases by a massive 99%.  • 🇰🇷 South Korea dumped $23.8 billion, its biggest January–August sell-off since 1977.  • 🇹🇼 Taiwan has also become a net seller.  • 🇨🇳 China continues reducing its Treasury exposure.  Meanwhile, U.S. national debt has reached a record $40.53 trillion, and the 10-year Treasury yield has crossed 5%.  America needs more money than ever to finance its massive debt, but even its closest allies are buying far less or selling.  If this continues, Washington could be forced to pay much higher interest rates to attract buyers, making its debt even more expensive.  With $40.53 trillion already owed, the loss of demand from traditional foreign buyers could become a serious problem for the U.S. economy and global markets.
+     🖼  photo: https://pbs.twimg.com/media/HVtpjQZaMAAZrgs.jpg
+
+  25. 2114822147998929042  @unusual_whales  2026-10-26T20:51:06.000Z
+     │ BREAKING: The Trump administration is reportedly preparing to restart aggressive collections efforts against defaulted student loan borrowers, per Forbes
+
+  26. 2115422579821351055  @unusual_whales  2026-10-28T12:37:00.000Z
+     │ U.S. steel prices just hit their highest level in more than four years, per Bloomberg.  Benchmark hot-rolled coil has jumped 52% over the past year to $1,255 a ton, a level last seen in May 2022.  The reason: Trump’s tariffs are squeezing foreign supply. Steel imports fell 14% in the first nine months of 2026.
+
+  27. 2115278976923083196  @Polymarket  2026-10-28T03:06:22.000Z
+     │ JUST IN: Pentagon tells Congress the Iran military operation has cost American taxpayers $47,100,000,000.00.
+
+  28. 2115434155651813574  @Polymarket  2026-10-28T13:23:00.000Z
+     │ JUST IN: Dropbox cuts 9% of its workforce &amp; announces the departure of its Chief Technology Officer.
+
+  29. 2115425373693645091  @Polymarket  2026-10-28T12:48:06.000Z
+     │ BREAKING: U.S. trade deficit surges to 18-month high.
+
+  30. 2115237169833144464  @DonMiami3  2026-10-28T00:20:15.000Z  [DIG: media]
+     │ Another one...? Can it be? https://t.co/md3WoE8Ass
+     🖼  photo: https://pbs.twimg.com/media/HVrU1UHbsAAC0AC.jpg
+
+  31. 2115293981873758301  @Polymarket  2026-10-28T04:06:00.000Z
+     │ BREAKING: Luxury cruise ship carrying 200 passengers halts its 3.5-year world voyage in Cambodia amid soaring fuel costs.
+
+  32. 2115114170110931095  @stockdatamarket  2026-10-27T16:11:29.000Z  [DIG: media]
+     │ Still something wrong with this rally - $SPY put premiums going when market goes up is not a good sign https://t.co/n4Xm3Og6lv
+     🖼  photo: https://pbs.twimg.com/media/HVplFCVXMAAYFCv.jpg
+
+  33. 2115052016225730579  @junkbondinvest  2026-10-27T12:04:31.000Z
+     │ HY is really three markets right now:  &gt; Generic HY: holding up, headline spreads only slightly wider  &gt; AI-linked credit: +100bps in last month &gt; CCCs: 4-year wides, with a handful of names doing most of the damage  The index average hides almost all of it.
+
+  34. 2114813667745390621  @great_martis  2026-10-26T20:17:24.000Z  [DIG: media]
+     │ It's a bird... It's a plane... NO, it's CCC junk bonds hitting 18.17%! 😱 https://t.co/Dbkkq6Xle7 https://t.co/DejAgnKRSI
+     🖼  photo: https://pbs.twimg.com/media/HVlTwdHbEAAPYMV.jpg
+
+  35. 2115142144252109218  @SteveRattner  2026-10-27T18:02:39.000Z  [DIG: media]
+     │ Over 60% of data center capacity is being built in red states.  Excluding Virginia, the number is 92%. https://t.co/3xIpWbDC2c
+     🖼  photo: https://pbs.twimg.com/media/HVp-iSfW8AAdO-K.jpg
+
+  36. 2114897182901797126  @FCNightingale  2026-10-27T01:49:15.000Z  [DIG: media]
+     │ Chicago CBD Q3 Office Vacancy   27.2% Net absorption negative for the 12th consecutive quarter. YTD absorption -1.4M SF. Class A 23.3% Class B 34.2% Class C 24.2% Central Loop 31.1% East Loop 34.6% Fulton Market 15.4% North Michigan Ave 27.0% River North 29.0% West Loop 22.8%  -Cushman and Wakefield #CommercialRealEstate
+     🖼  photo: https://pbs.twimg.com/media/HVmfx3jX0AAm5nM.jpg
+
+  37. 2114924310334939239  @Barchart  2026-10-27T03:37:03.000Z  [DIG: media]
+     │ Alphabet $GOOGL now trading below its 200-day moving average by the largest margin in 17 months 🚨🚨 https://t.co/5p1Y7LcOLw
+     🖼  photo: https://pbs.twimg.com/media/HVm4OsUaUAEPpoA.jpg
+
+  38. 2115162274042126397  @FCNightingale  2026-10-27T19:22:38.000Z  [DIG: link]
+     │ Only 12.79% of maturing CMBS office loans paid off on time in September with $516.9M due @TreppWire data shows.  "Two office loans totaling $324.5M did not pay off. The larger is the $216.5M senior loan on 540 West Madison in downtown Chicago, a 1.1M SF building with $183.5M of subordinate and mezzanine debt behind it."  "The other is a $108M loan on Salesforce Tower in Indianapolis."  #CommercialRealEstate   https://t.co/tdEpXjdWVJ
+     🔗 https://www.credaily.com/briefs/cmbs-office-payoff-rate-hits-12-8-as-retail-nears-90/
+
+  39. 2115227072872263859  @business  2026-10-27T23:40:07.000Z  [DIG: link]
+     │ Australian banks are loosening mortgage requirements and giving away tokens for phone bills and travel as they compete for a dwindling pool of customers during the fastest housing slump in a generation https://t.co/2ZL09kgPei
+     🔗 https://www.bloomberg.com/news/articles/2026-10-27/banks-ease-loan-approvals-to-weather-australia-property-slump?taid=6ae13657f64aaa0001a43399&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  40. 2115227644862071012  @CNBC  2026-10-27T23:42:24.000Z  [DIG: media, link]
+     │ South Korean chipmaker SK Hynix on Wednesday released its third-quarter earnings results, reporting revenue and operating profit for the July-to-September period.  Revenue rose 327.9% from a year earlier, while operating profit climbed 632.1% year on year.  Compared with the previous quarter, revenue climbed 31.9%, while operating profit surged 37.6%.  Click here for the full numbers: https://t.co/kIE0Gj1jJV
+     🖼  photo: https://pbs.twimg.com/media/HVrMVYNXAAA-0dk.jpg
+     🔗 http://cnb.cx/4sr0Wzr
+
+  41. 2115165763564626353  @kshaughnessy2  2026-10-27T19:36:30.000Z  [DIG: media]
+     │ CNBC calls the CRE debt wall a “massive opportunity.”  $800B due this year.  $733B next year.   Rates roughly double what these loans were written at.   Extend-and-pretend - pray and delay - is over.  Office delinquencies already 12%+.   Multifamily owners who borrowed at 4% now facing 9% with weaker rents.  That’s not an opportunity.   That’s a refinancing cliff.   Most of the pain hits before any bargains show up.
+     🖼  photo: https://pbs.twimg.com/media/HVqUDWNX0AEfcxf.jpg
+
+  42. 2115147778435535176  @burrytracker  2026-10-27T18:25:02.000Z  [DIG: media]
+     │ Michael Burry’s warnings are getting louder   Foreclosures hit highest level since 2019:  • Active foreclosure inventory up 37% • Completed foreclosure sales are up 15% • 90+ days late payments jumped 21% year over year  Michael Burry said months ago: "I think the housing market is starting to creak a bit. Housing prices might be falling already"
+     🖼  photo: https://pbs.twimg.com/media/HVqDrp6bUAASLeJ.jpg
+
+  43. 2115117452644221274  @KobeissiLetter  2026-10-27T16:24:32.000Z  [DIG: media]
+     │ BREAKING: Brazil's -19.8% stock market crash on Monday was one of the rarest market events in the last two decades, according to our analysis.  Brazil's EWZ ETF plunged -19.8% on October 26th, marking an 8.4 standard deviation move.  For context, the ETF's average daily move over the last 20 years has been just +0.04%, with a standard deviation of 2.36%.  Under a normal distribution, the probability of a decline this extreme is approximately 1 in 58 quadrillion.  In other words, this event should be virtually impossible under conventional statistical models.  What just happened in Brazil was *almost* impossible.
+     🖼  photo: https://pbs.twimg.com/media/HVpn4CjWIAAweFC.jpg
+
+  44. 2115201878619558087  @jonbrooks  2026-10-27T22:00:01.000Z  [DIG: media]
+     │ This is a massive story that not enough people are talking about in housing.  The Silver Tsunami is real. Demographics are destiny. https://t.co/cuzKh5FDob
+     🖼  photo: https://pbs.twimg.com/media/HVo5AYnXAAACqjr.jpg
+
+  45. 2115232722444865963  @FCNightingale  2026-10-28T00:02:34.000Z  [DIG: media]
+     │ Auction Nov 2-4   Starting Bid $2.5M $34.3M Non-performing Mortgage Loan Former Moxy Uptown Oakland, California   Leasehold 172-room hotel opened in 2021, closed January 2026  -LN #CommercialRealEstate https://t.co/V2Txg7E86B
+     🖼  photo: https://pbs.twimg.com/media/HVrQ80kXAAAwtCd.jpg
+
+  46. 2115229557574062139  @TripleNetInvest  2026-10-27T23:50:00.000Z  [DIG: media]
+     │ Downtown Minneapolis just took a MASSIVE hit...  The Royal Sonesta, an upscale 360 room hotel, just sold for just $5M - a BRUTAL 93% 'discount' from its $75M purchase price in 2018  That's just ~$14K per room, down from ~$208K just 8 years ago...  Here's the interesting part:  The location is genuinely prime by downtown Minneapolis standards  It's an upscale, 4-star property in the HEART of DT Minneapolis, steps from Nicollet Mall and connected to the city's skyway system  It's genuinely WILD seeing hotels like this being sold at 90%+ discounts, even knowing what's driving these sales...  What does the future hold for Minneapolis?  Stay tuned and follow for more commercial real estate deals trading at massive discounts
+     🖼  photo: https://pbs.twimg.com/media/HVq8cnTbEAAdZ7V.jpg
+     🖼  photo: https://pbs.twimg.com/media/HVq8cnGa4AASV81.jpg
+     🖼  photo: https://pbs.twimg.com/media/HVq8cnHbUAATTPa.jpg
+
+  47. 2114929043841991045  @Barchart  2026-10-27T03:55:52.000Z  [DIG: media]
+     │ BREAKING 🚨: China  Chinese Stock Market is now on track for 12 consecutive red weeks, its longest losing streak in history 📉📉
+     🖼  photo: https://pbs.twimg.com/media/HVm8d_ebcAEYNnL.jpg
+
+  48. 2115175409503629485  @coinbureau  2026-10-27T20:14:50.000Z  [DIG: media]
+     │ 🚨JUST IN: Robinhood $HOOD falls more than 4% after hours despite record Q3 revenue.  Revenue rose 12% from a year earlier to a record $1.42 BILLION.  Meanwhile, it earned $0.51 per share, below the $0.56 analysts expected.  Crypto revenue fell 55% to $120 MILLION.  Prediction markets now bring in more, at $173 MILLION, up over 6x.
+     🖼  photo: https://pbs.twimg.com/media/HVqcbgFaoAA70UB.png
+
+  49. 2115196262517752099  @NewsWire_US  2026-10-27T21:37:42.000Z  [DIG: media]
+     │ Fire forces terminal evacuation at Houston’s George Bush Intercontinental Airport https://t.co/wUGU4DWBWB
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2115194906490593280/img/g75WcoIyTsXLzcQc.jpg
+
+  50. 2115182749057179973  @coinbureau  2026-10-27T20:44:00.000Z  [DIG: media]
+     │ 🚨JUST IN: Visa $V slides nearly 2% after hours despite beating earnings and raising its dividend 16%.  That's about $14 BILLION wiped off its market value in minutes. https://t.co/tYc2BF2Vxg
+     🖼  photo: https://pbs.twimg.com/media/HVqhUwNakAAJPMy.png
+
+  51. 2115174435242058121  @michaeljburry  2026-10-27T20:10:58.000Z  [DIG: link, pointer]
+     │ My take on Anthropic's S-1  filing.   https://t.co/VYsiixwiCs
+     🔗 https://michaeljburry.substack.com/p/short-thoughts-anthropics-s-1?r=4repfn&utm_campaign=post&utm_medium=web
+
+  52. 2115169361614774425  @Polymarket  2026-10-27T19:50:48.000Z
+     │ BREAKING: Hackers target the US Federal Election Commission, knocking its electronic filing system offline just 1 week before the midterm elections. — Reuters
+
+  53. 2115164953057558797  @BullTheoryio  2026-10-27T19:33:17.000Z  [DIG: media]
+     │ 🚨 A MAJOR CREDIT CRISIS COULD BE BUILDING IN THE U.S.  The riskiest U.S. corporate bonds are now yielding over 18%, their highest level since the pandemic.  Just six months ago, these bonds were yielding around 13%.  That means companies with the weakest finances are now facing borrowing costs that could make refinancing their debt extremely difficult.  But what's more concerning is the growing gap between strong and weak companies.  BBB-rated bonds are paying around 1.1% above U.S. Treasuries, while CCC-rated bonds are paying more than 13% above them.  And the stress is already spreading through the loan market.  According to JPMorgan:  • $139.8 BILLION in risky corporate loans are trading below 80 cents on the dollar, up nearly 90% in a year.  • $65 BILLION in loans are trading below 60 cents, up from $40 billion a year earlier and the highest since March 2020.  • Technology companies account for 39% of all distressed loans, or roughly $54.4 BILLION.  AI-related borrowing is also becoming a serious concern.  CoreWeave, one of the biggest AI infrastructure companies, has seen some of its bond yields climb toward 15%.  Its quarterly interest expenses have jumped from $267 million to $640 million in just one year.  The company has roughly $50 billion in debt and financing commitments to support its expansion.  Meanwhile, higher Treasury yields, persistent inflation and uncertainty surrounding the Iran war are making borrowing more expensive.  The problem is that many heavily i…
+     🖼  photo: https://pbs.twimg.com/media/HVqTTbPaEAEgq3p.jpg
+
+  54. 2115165670136496363  @KobeissiLetter  2026-10-27T19:36:08.000Z  [DIG: media]
+     │ BREAKING: The S&P 500 excluding AI stocks has outperformed the S&P 500 by +6.4 percentage points so far in October, on track for the best relative monthly performance on record.  This marks a sharp reversal from underperformance of -5.1 percentage points in the prior month, the 2nd-worst on record.  By comparison, the previous largest outperformance was recorded in July at +3.6 percentage points.  Over the last 3 weeks alone, the S&P 500 ex-AI has outperformed the S&P 500 by +7.4 percentage points, the widest 3-week spread on record.  So far in 2026, relative performance has been extremely volatile, with the S&P 500 ex-AI outperforming for 4 months and the S&P 500 for 6.  Investors are cashing in massive profits from the AI trade.
+     🖼  photo: https://pbs.twimg.com/media/HVp5EGwWwAAm8c4.png
+
+  55. 2115155318585930226  @Reuters  2026-10-27T18:55:00.000Z  [DIG: media, link]
+     │ BREAKING: A hacker is attempting to breach the US Federal Election Commission's systems and that agency has had to 'temporarily shut down' its web-facing services as a result, according to an email seen by Reuters https://t.co/0eRHQVCGgu https://t.co/ZXjOWxw1w8
+     🖼  animated_gif: https://pbs.twimg.com/tweet_video_thumb/HVqKi4NXAAAM-NQ.jpg
+     🔗 https://reut.rs/4imQyUu
+
+  56. 2115145755266793982  @unusual_whales  2026-10-27T18:17:00.000Z
+     │ AI companies are scrambling for cash at a record pace, per The Washington Post.  The buildout is so expensive that even Silicon Valley’s giants are burning through cash, and they’re now racing each other to raise money for data centers, chips and equipment.  Just this month:  Meta plans to raise up to $95 billion by selling stock, with AMD and Nvidia buying in Anthropic is preparing one of the largest IPOs ever OpenAI is reportedly seeking $30 billion at a valuation above $1.4 trillion
+
+  57. 2115071263429554308  @financialjuice  2026-10-27T13:20:59.000Z
+     │ AMD to invest $1b in Meta offering.
+
+  58. 2115104089952456933  @NickMerianos  2026-10-27T15:31:26.000Z  [DIG: media]
+     │ BREAKING: Virginia Key just crested at major flood stage, at 2.56’ above MHHW.   This is the second highest water level on record for this gauge, surpassing that of Hurricane Irene from 1999 with a crest of 2.53’ and Hurricane Wilma in 2005 with a crest of 2.55’. #Miami #kingtides @CBSMiami
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2115103700540596224/img/3AYWvMfxi4osRBL1.jpg
+     🖼  photo: https://pbs.twimg.com/media/HVpbm_rWwAAoCy1.jpg
+
+  59. 2115125597366345821  @FLStormChasers_  2026-10-27T16:56:54.000Z  [DIG: media]
+     │ 🌊HISTORIC SEA LEVEL RISE!🌊 UPDATE: According to tide stations, this peak king tide today was the HIGHEST EVER RECORDED across southeastern #Florida, and the HIGHEST KING TIDE in recorded history for the Florida Keys.   Many vehicles have been ruined, and some businesses have been flooded. If you encounter a flooded road, TURN AROUND! The car damage is not worth driving through it.  #flwx
+     🖼  photo: https://pbs.twimg.com/media/HVptQ3KWAAEZxEN.jpg
+
+  60. 2115102191895887939  @Polymarket  2026-10-27T15:23:53.000Z
+     │ JUST IN: General Motors to leave the New York Stock Exchange after 115 years.
+
+  61. 2114676996722819313  @macropaperr  2026-10-26T11:14:19.000Z  [DIG: media]
+     │ 🚨 AMERICA'S LARGEST PENSION FUND IS DUMPING BIG TECH STOCKS, AND WALL STREET SHOULD BE WORRIED.  CalPERS, which manages over $650 billion, cut its direct Magnificent Seven share holdings by 26% in the first half of 2026.  The fund is reducing its exposure to Nvidia, Apple, Microsoft, Tesla, Amazon, Meta and Google over concerns about expensive valuations and excessive market concentration.  And it's not just CalPERS.  Hedge funds recently sold tech stocks at their fastest pace in at least 10 years.  What's concerning is that CalPERS started cutting its holdings before the recent tech sell-off and growing fears of an AI bubble.  With the Magnificent Seven making up roughly 35% of the S&P 500, another major wave of institutional selling could drag down the entire U.S. stock market.  If the biggest funds keep reducing their exposure, who will absorb all that selling?
+     🖼  photo: https://pbs.twimg.com/media/HVjXdgNa4AASeBC.jpg
+
+  62. 2115094524104253901  @TheInsiderPaper  2026-10-27T14:53:25.000Z  [DIG: link, pointer]
+     │ NEW: Japan to Issue Nationwide ‘Emergency Request,’ Urging Citizens to Stockpile Survival Supplies https://t.co/rPQm338xjg
+     🔗 https://insiderpaper.com/japan-to-issue-nationwide-emergency-request-urging-citizens-to-stockpile-survival-supplies/
+
+  63. 2114991192161276287  @shipmonk  2026-10-27T08:02:49.000Z  [DIG: media]
+     │ Passengers on an ‘endless’ world cruise have been told to leave residential ship Villa Vie Odyssey with all their belongings in Cambodia after the company said it was 'unable to secure the fuel necessary to continue operations'. https://t.co/OqPvG5uRvd
+     🖼  photo: https://pbs.twimg.com/media/HVn06NzWkAAAiQk.jpg
+
+  64. 2115045092092411980  @unusual_whales  2026-10-27T11:37:00.000Z
+     │ Airlines are bracing for years of pain.  “Inflation will make people poor,” one airline executive said per FT.
+
+
+Bookmark receipt — 2026-10-29T15:23:12Z
+Fetched 64 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-29T15:23:12Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.

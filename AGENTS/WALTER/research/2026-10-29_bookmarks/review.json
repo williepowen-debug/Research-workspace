@@ -1,0 +1,455 @@
+{
+ "schema": 2,
+ "staged_at": 1793287392.981526,
+ "items": [
+  {
+   "id": "2115578474304094470",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115598691918565447",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115509180975186037",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-031-viral-claims-corrected-savannah-river-was-a-lab-fire-ended-same-evening-no-contamination-japan-preparedness-appeal-11-02-pentagon-fortress-off-grid-plan.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115504179208958363",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115404076477505555",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115475956777578831",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-023-ttf-november-traded-above-100-intraday-10-28-settle-unconfirmed-hans-t07-l3-grade-needs-official-ice-endex-x26-settle.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115055227736936469",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115380835130146991",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115279522438258743",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115235256550740261",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-028-investor-home-purchases-224k-h1-2026-down-7pct-small-investors-record-66pct-cmhc-canada-provisions-framing-overstated.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115465788677361939",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115423981687984556",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115081123030241647",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115214499225403698",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-029-pe-owned-k12-education-vendors-hmh-renaissance-lakeshore-loans-at-distressed-levels-on-school-budget-cuts.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115462379425177728",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115459864352768371",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115416796010578144",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115458063855427775",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-022-navcent-jmic-advisory-10-28-ships-told-to-remain-well-clear-of-hormuz-wsj-post-midterm-posture-detail-iran-war-cost-47point1b.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115451337613688885",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-032-equity-tape-notes-sp500-ex-ai-outperformance-indeterminate-bofa-client-selling-hood-dell-6b-trump-accounts-visa-dividend-dropbox-cuts-csi300-streak.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115142741055484412",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115435968371028266",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115413042200535298",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115443577887084646",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115400533104324705",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2114822147998929042",
+   "disposition": "NOTE",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115422579821351055",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-027-world-bank-energy-prices-plus-32pct-2026-brent-avg-91-september-goods-deficit-134point9b-widest-in-about-18-months-steel-claim-unverified.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115278976923083196",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115434155651813574",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115425373693645091",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115237169833144464",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115293981873758301",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115114170110931095",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115052016225730579",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2114813667745390621",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115142144252109218",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2114897182901797126",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2114924310334939239",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115162274042126397",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115227072872263859",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-028-investor-home-purchases-224k-h1-2026-down-7pct-small-investors-record-66pct-cmhc-canada-provisions-framing-overstated.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115227644862071012",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115165763564626353",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115147778435535176",
+   "disposition": "NOTE",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115117452644221274",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115201878619558087",
+   "disposition": "KILL",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115232722444865963",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-024-named-cre-distress-540-w-madison-216m-and-salesforce-tower-indianapolis-108m-unpaid-at-maturity-moxy-oakland-npl-auction-royal-sonesta-mpls-5m-sale.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115229557574062139",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-024-named-cre-distress-540-w-madison-216m-and-salesforce-tower-indianapolis-108m-unpaid-at-maturity-moxy-oakland-npl-auction-royal-sonesta-mpls-5m-sale.md",
+   "ask_user": null
+  },
+  {
+   "id": "2114929043841991045",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-032-equity-tape-notes-sp500-ex-ai-outperformance-indeterminate-bofa-client-selling-hood-dell-6b-trump-accounts-visa-dividend-dropbox-cuts-csi300-streak.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115175409503629485",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115196262517752099",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115182749057179973",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115174435242058121",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115169361614774425",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115164953057558797",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-026-ccc-1127bp-is-bloomberg-index-not-ice-ice-ccc-yield-peaked-18point17pct-10-23-now-17point73-hyperscaler-spread-chart-is-oracle-led.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115165670136496363",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-032-equity-tape-notes-sp500-ex-ai-outperformance-indeterminate-bofa-client-selling-hood-dell-6b-trump-accounts-visa-dividend-dropbox-cuts-csi300-streak.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115155318585930226",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115145755266793982",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115071263429554308",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md",
+   "ask_user": null
+  },
+  {
+   "id": "2115104089952456933",
+   "disposition": "NOTE",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115125597366345821",
+   "disposition": "NOTE",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115102191895887939",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2114676996722819313",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115094524104253901",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2114991192161276287",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115045092092411980",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "BOARD/SIG-W-20261029-033-fuel-cost-casualties-villa-vie-odyssey-residential-cruise-laid-up-in-cambodia-60-day-restructuring-airlines-ft.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "d33343404e964c49b6b6dac508020e37"
+}

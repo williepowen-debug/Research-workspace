@@ -1,0 +1,65 @@
+n	id	disposition	read_state	ref
+1	2115578474304094470	DISPATCH	fully_read	SIG-W-20261029-031 (SRS releases #1-3: SRNL lab fire, Site Area Emergency ended 21:45 EDT 10/28, no detectable contamination)
+2	2115598691918565447	FOLD	fully_read	SIG-W-20261029-031 (TFR FDC 6/3438 15 NM not 3 mi; surface-10,000 ft)
+3	2115509180975186037	FOLD	partly_read	SIG-W-20261029-031 (Fox 10/25 Pentagon FORTRESS 90-day off-grid base resilience; NY Post article not found)
+4	2115504179208958363	DUP	fully_read	SIG-W-20261029-001 (FOMC 10/28 held 10-2)
+5	2115404076477505555	FOLD	fully_read	SIG-W-20261029-022 (WSJ 10/27 core already in SIG-W-20261029-002/SWEEP; new: Patriot, troop moves, munitions, ~20 warships)
+6	2115475956777578831	DISPATCH	partly_read	SIG-W-20261029-023 (ICE TTF X26 intraday high 100.945 on 10/28; settle unconfirmed: vendor NYMEX lookalike 100.72 thin vs Investing 98.50; ICE Endex official settle unreached; +250% YTD confirmed vs 28.16)
+7	2115055227736936469	DISPATCH	fully_read	SIG-W-20261029-026 (1,127bp = Bloomberg BCAUOAS through 10/23, not ICE; ICE CCC 13.56% same day)
+8	2115380835130146991	NO-ACTION	fully_read	Treasury 10/27 buyback $6.0B of 20-30y (offered $10.746B), October $26.08B over 6 ops (third-party tally); routine liquidity-support program, no state change
+9	2115279522438258743	DISPATCH	partly_read	SIG-W-20261029-025 (~$37.5B priced 10/26: Meta $25B common [upsized from $22.5B, SEC FWP 10/27] + $12.5B preferred; $60B program no agreement; Broadcom/Anthropic $63B committed not funded; SpaceX/Apollo $40B not closed; Anthropic S-1 unread)
+10	2115235256550740261	FOLD	partly_read	SIG-W-20261029-028 (CMHC RMIR 10/27: median expected-loss ratio flat ~0.15%, riskiest quartile ~0.34%; full report unread; framing overstated)
+11	2115465788677361939	DISPATCH	fully_read	SIG-W-20261029-027 (World Bank CMO 10/28: energy +32% 2026, commodities +23% 2026, Brent avg $91)
+12	2115423981687984556	NO-ACTION	fully_read	opinion; chart shows only Oracle spread above July high; claim overstated (one name)
+13	2115081123030241647	FOLD	fully_read	SIG-W-20261029-026 (hyperscaler spread chart Oracle-led +69bp since 7/29, Meta +18; GOOGL/AMZN flat, MSFT -19)
+14	2115214499225403698	DISPATCH	partly_read	SIG-W-20261029-029 (Bloomberg 10/27 excerpts: HMH, Renaissance Learning, Lakeshore Learning loans at distressed levels; article paywalled)
+15	2115462379425177728	DUP	partly_read	SIG-W-20261029-001 (pre-decision Bloomberg guide; decision superseded it; article body paywalled, not needed)
+16	2115459864352768371	FOLD	partly_read	SIG-W-20261029-025 (Citadel Securities 'may' pressure margins; 'destroyed' is ZeroHedge wording; paywalled)
+17	2115416796010578144	NO-ACTION	fully_read	matured 2021 5-yr TIPS (CUSIP 91282CDC2) retrospective; returned 2.375%/yr vs 1.20% nominal; no decision content
+18	2115458063855427775	DISPATCH	partly_read	SIG-W-20261029-022 (JMIC 016-26 10/28 via gCaptain/Bloomberg; advisory original 403)
+19	2115451337613688885	FOLD	partly_read	SIG-W-20261029-032 (BofA client net sales $3.5B after $15B; BofA note unread, secondary)
+20	2115142741055484412	NO-ACTION	fully_read	same 10/27 routine buyback operation
+21	2115435968371028266	DISPATCH	fully_read	SIG-W-20261029-024 (Trepp via CRE Daily: Sept office payoff 12.79% of $516.9M, retail 89.60%; 540 W Madison $216.5M + Salesforce Tower Indianapolis $108M matured unpaid; Trepp report itself unread)
+22	2115413042200535298	FOLD	fully_read	SIG-W-20261029-032 (20-day corr 10Y vs NDX +0.51 plausible; helper FRED calc +0.53 to +0.62)
+23	2115443577887084646	DISPATCH	fully_read	SIG-W-20261029-028 (Realtor.com via CRE Daily: ~224K investor homes H1 2026 -7%; small investors record 66.2%; HOMER lacks it)
+24	2115400533104324705	NO-ACTION	partly_read	TIC claim unverified; Treasury Aug release has no ally split and shows ~$109B foreign buying of notes/bonds; post says >60% cut not 6x
+25	2114822147998929042	NOTE	fully_read	owner CARL KB-CARL-569/-573 (10/28): ED denied restart reports; collections still paused; first restart was May 2025
+26	2115422579821351055	FOLD	partly_read	SIG-W-20261029-027 (US HRC steel 4-yr high/+52% y/y UNVERIFIED: one aggregator citing Fastmarkets, units conflict)
+27	2115278976923083196	FOLD	fully_read	SIG-W-20261029-022 ($47.1B as of 10/16, CENTCOM estimate to Congress; CBS 10/27, Stars and Stripes 10/28; Pentagon doc not public)
+28	2115434155651813574	FOLD	fully_read	SIG-W-20261029-032 (Dropbox ~9% cut, $27-33M cost; CTO Dasdan leaves 11/18; 8-K)
+29	2115425373693645091	FOLD	fully_read	SIG-W-20261029-027 (Census 10/28 advance goods deficit Sept $134.9B vs $132.1B; goods only, widest ~18 months)
+30	2115237169833144464	NO-ACTION	fully_read	WTI chart-pattern image, opinion, no claim
+31	2115293981873758301	DISPATCH	fully_read	SIG-W-20261029-033 (Villa Vie Odyssey laid up Sihanoukville, fuel costs, 60-day restructuring; trade press quoting company; ~300 residents not 200)
+32	2115114170110931095	FOLD	fully_read	SIG-W-20261029-032 (single intraday screenshot, opinion)
+33	2115052016225730579	FOLD	fully_read	SIG-W-20261029-026 (AI-linked HY +100bp unsourced, unverified)
+34	2114813667745390621	FOLD	fully_read	SIG-W-20261029-026 (ICE CCC effective yield peak 18.17% [10/23], 17.73% [10/28]; FRED window from 2023-10-30 only)
+35	2115142144252109218	FOLD	fully_read	SIG-W-20261029-025 (Cleanview tracker; 'red states' = Trump +5; minor framing)
+36	2114897182901797126	FOLD	fully_read	SIG-W-20261029-024 (Cushman & Wakefield Chicago Q3 10/7: 27.2%, Class A 23.3%, 12th negative-absorption quarter, -1.4M SF YTD)
+37	2114924310334939239	FOLD	fully_read	SIG-W-20261029-025 (GOOGL -7.08% vs 200dma 10/26 claim held; overtaken: GOOGL -11.70% intraday 10/29 after Q3)
+38	2115162274042126397	FOLD	fully_read	SIG-W-20261029-024 (same Trepp Sept payoff item; two office loans $324.5M)
+39	2115227072872263859	FOLD	partly_read	SIG-W-20261029-028 (Bloomberg 10/27 Australian bank mortgage loosening; summaries only, paywall)
+40	2115227644862071012	FOLD	fully_read	SIG-W-20261029-025 (SK hynix 6-K 10/28: rev KRW104.6T +327.9% y/y, OP KRW83.3T, net KRW39.8T -57.7% q/q non-operating; ~KRW100T 2026 returns)
+41	2115165763564626353	FOLD	fully_read	SIG-W-20261029-024 (CNBC 10/27 credits Trepp $733.2B 2027; $800B 2026 earlier estimate; 12% is office CMBS only)
+42	2115147778435535176	NOTE	fully_read	owner HOMER already carries ICE Sept foreclosure inventory 303K +37% (STATUS); Burry framing opinion
+43	2115117452644221274	DUP	fully_read	SIG-W-20261026-004/-008/-012 (Brazil -19.8% 10/26 already carded; only sigma framing new)
+44	2115201878619558087	KILL	fully_read	image is a WSJ 2019-11-23 article (date trap), opinion, no new data
+45	2115232722444865963	FOLD	partly_read	SIG-W-20261029-024 (Moxy Oakland Uptown $34.3M NPL, ACORE, Ten-X 11/2-4; $2.5M start bid unconfirmed, listing and The Registry 403)
+46	2115229557574062139	FOLD	partly_read	SIG-W-20261029-024 (Royal Sonesta Minneapolis $5M vs $75M 2018 via CRE Direct/MSPBJ paywall; possible portfolio allocation, 93% discount unconfirmed)
+47	2114929043841991045	FOLD	partly_read	SIG-W-20261029-032 (CSI 300 weekly streak; Reuters 10/23 'longest-ever', count unverified)
+48	2115175409503629485	FOLD	fully_read	SIG-W-20261029-032 (HOOD Q3 rev $1.42B +12% matches release; $6B Oct deposits from Dell Trump Accounts contribution)
+49	2115196262517752099	NO-ACTION	fully_read	IAH Terminal C restaurant fire 10/27, no injuries, flights moved; no market channel
+50	2115182749057179973	FOLD	fully_read	SIG-W-20261029-032 (Visa beat, dividend +16% to $0.780; AH drop did not hold, -0.3% 10/28 close vendor)
+51	2115174435242058121	FOLD	partly_read	SIG-W-20261029-025 (Burry S-1 take, opinion, intro only; paywall)
+52	2115169361614774425	DISPATCH	fully_read	SIG-W-20261029-030 (FEC e-filing down 22:15 ET 10/26, restored 16:50 ET 10/28; hack claim via Reuters internal email; no attribution)
+53	2115164953057558797	FOLD	partly_read	SIG-W-20261029-026 (over 18% = same ICE yield; JPMorgan loan-distress and CoreWeave figures unverified)
+54	2115165670136496363	DISPATCH	partly_read	SIG-W-20261029-032 (S&P ex-AI +6.4pp Oct: index unnamed, month incomplete, INDETERMINATE)
+55	2115155318585930226	FOLD	fully_read	SIG-W-20261029-030 (Reuters original of the FEC item)
+56	2115145755266793982	FOLD	partly_read	SIG-W-20261029-025 (WaPo AI cash race, original unread; Meta $95B and OpenAI valuation framing corrected)
+57	2115071263429554308	FOLD	partly_read	SIG-W-20261029-025 (AMD $1B into Meta offering, secondary only)
+58	2115104089952456933	NOTE	fully_read	owner AEOLUS read Virginia Key/Key West/Lake Worth gauges at primary 10/29 (AEOLUS STATUS C4 row; CORAL packet 10/29)
+59	2115125597366345821	NOTE	fully_read	owner AEOLUS (same king-tide event; Las Olas quote video not viewed)
+60	2115102191895887939	NO-ACTION	fully_read	GM listing moves NYSE->Nasdaq (last NYSE day 11/16, Nasdaq 11/17); venue switch, no credit/market channel
+61	2114676996722819313	DUP	fully_read	SIG-W-20261025-025 (CalPERS 26% Mag7 cut, SEC share count) and -010
+62	2115094524104253901	FOLD	fully_read	SIG-W-20261029-031 (Nikkei 10/28: non-binding preparedness appeal planned 11/02, quake/Fuji, not issued yet)
+63	2114991192161276287	FOLD	fully_read	SIG-W-20261029-033 (same Villa Vie event)
+64	2115045092092411980	FOLD	partly_read	SIG-W-20261029-033 (FT airlines, anonymous exec quote; FT original unread)

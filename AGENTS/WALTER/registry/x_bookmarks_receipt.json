@@ -1,13 +1,104 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-10-27T03:19:03Z",
-  "items": 0,
+  "kind": "marked",
+  "checked_at": "2026-10-29T15:33:26Z",
+  "items": 64,
   "scan": {
-    "checked_at": "2026-10-27T03:19:03Z",
-    "head_checked_at": "2026-10-27T03:19:03Z",
+    "checked_at": "2026-10-29T15:23:12Z",
+    "head_checked_at": "2026-10-29T15:23:12Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 1
+    "attempts": 3
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "fully_read": 43,
+    "partly_read": 21
+  },
+  "dispositions": {
+    "DISPATCH": 12,
+    "FOLD": 35,
+    "DUP": 4,
+    "NO-ACTION": 8,
+    "NOTE": 4,
+    "KILL": 1
+  },
+  "follow_ups": [
+    {
+      "id": "2115509180975186037",
+      "ref": "BOARD/SIG-W-20261029-031-viral-claims-corrected-savannah-river-was-a-lab-fire-ended-same-evening-no-contamination-japan-preparedness-appeal-11-02-pentagon-fortress-off-grid-plan.md"
+    },
+    {
+      "id": "2115475956777578831",
+      "ref": "BOARD/SIG-W-20261029-023-ttf-november-traded-above-100-intraday-10-28-settle-unconfirmed-hans-t07-l3-grade-needs-official-ice-endex-x26-settle.md"
+    },
+    {
+      "id": "2115279522438258743",
+      "ref": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md"
+    },
+    {
+      "id": "2115235256550740261",
+      "ref": "BOARD/SIG-W-20261029-028-investor-home-purchases-224k-h1-2026-down-7pct-small-investors-record-66pct-cmhc-canada-provisions-framing-overstated.md"
+    },
+    {
+      "id": "2115214499225403698",
+      "ref": "BOARD/SIG-W-20261029-029-pe-owned-k12-education-vendors-hmh-renaissance-lakeshore-loans-at-distressed-levels-on-school-budget-cuts.md"
+    },
+    {
+      "id": "2115459864352768371",
+      "ref": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md"
+    },
+    {
+      "id": "2115458063855427775",
+      "ref": "BOARD/SIG-W-20261029-022-navcent-jmic-advisory-10-28-ships-told-to-remain-well-clear-of-hormuz-wsj-post-midterm-posture-detail-iran-war-cost-47point1b.md"
+    },
+    {
+      "id": "2115451337613688885",
+      "ref": "BOARD/SIG-W-20261029-032-equity-tape-notes-sp500-ex-ai-outperformance-indeterminate-bofa-client-selling-hood-dell-6b-trump-accounts-visa-dividend-dropbox-cuts-csi300-streak.md"
+    },
+    {
+      "id": "2115422579821351055",
+      "ref": "BOARD/SIG-W-20261029-027-world-bank-energy-prices-plus-32pct-2026-brent-avg-91-september-goods-deficit-134point9b-widest-in-about-18-months-steel-claim-unverified.md"
+    },
+    {
+      "id": "2115227072872263859",
+      "ref": "BOARD/SIG-W-20261029-028-investor-home-purchases-224k-h1-2026-down-7pct-small-investors-record-66pct-cmhc-canada-provisions-framing-overstated.md"
+    },
+    {
+      "id": "2115232722444865963",
+      "ref": "BOARD/SIG-W-20261029-024-named-cre-distress-540-w-madison-216m-and-salesforce-tower-indianapolis-108m-unpaid-at-maturity-moxy-oakland-npl-auction-royal-sonesta-mpls-5m-sale.md"
+    },
+    {
+      "id": "2115229557574062139",
+      "ref": "BOARD/SIG-W-20261029-024-named-cre-distress-540-w-madison-216m-and-salesforce-tower-indianapolis-108m-unpaid-at-maturity-moxy-oakland-npl-auction-royal-sonesta-mpls-5m-sale.md"
+    },
+    {
+      "id": "2114929043841991045",
+      "ref": "BOARD/SIG-W-20261029-032-equity-tape-notes-sp500-ex-ai-outperformance-indeterminate-bofa-client-selling-hood-dell-6b-trump-accounts-visa-dividend-dropbox-cuts-csi300-streak.md"
+    },
+    {
+      "id": "2115174435242058121",
+      "ref": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md"
+    },
+    {
+      "id": "2115164953057558797",
+      "ref": "BOARD/SIG-W-20261029-026-ccc-1127bp-is-bloomberg-index-not-ice-ice-ccc-yield-peaked-18point17pct-10-23-now-17point73-hyperscaler-spread-chart-is-oracle-led.md"
+    },
+    {
+      "id": "2115165670136496363",
+      "ref": "BOARD/SIG-W-20261029-032-equity-tape-notes-sp500-ex-ai-outperformance-indeterminate-bofa-client-selling-hood-dell-6b-trump-accounts-visa-dividend-dropbox-cuts-csi300-streak.md"
+    },
+    {
+      "id": "2115145755266793982",
+      "ref": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md"
+    },
+    {
+      "id": "2115071263429554308",
+      "ref": "BOARD/SIG-W-20261029-025-ai-financing-200b-in-one-day-is-37point5b-priced-meta-common-upsized-25b-spacex-lease-not-closed-googl-minus-11point7pct-after-q3-sk-hynix-record-op.md"
+    },
+    {
+      "id": "2115045092092411980",
+      "ref": "BOARD/SIG-W-20261029-033-fuel-cost-casualties-villa-vie-odyssey-residential-cruise-laid-up-in-cambodia-60-day-restructuring-airlines-ft.md"
+    }
+  ],
+  "requests": []
 }
