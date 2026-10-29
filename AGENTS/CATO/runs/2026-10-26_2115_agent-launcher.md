@@ -15,7 +15,24 @@
 
 **Scope/ownership:** new personal CLI utility under the explicitly approved `scripts/` location; no modifications to existing owner tools or startup policies. This is not a new standing fleet check or recurring audit. CATO authors the implementation and tests; independent review is not claimed.
 
-**Current disposition:** COMPLETE, October 27, 2026, 00:41 ET. Saved agent/runtime groups and three editable task presets are implemented and author-tested, following the earlier category/batch delivery. Reopen the existing Agent Launcher to load the update; no new desktop shortcut is needed. No research agent or model was started. All currently assigned launcher work is complete; orient and await Will. Recent-agent history and saved-report links remain unapproved proposals. Live account/model boot and productivity benefit remain unproved.
+**Current disposition:** October 29 startup repair COMPLETE; Will confirmed the desktop shortcut works again. The GUI host now receives a closed input stream instead of inheriting the hidden desktop wrapper's input handle. Thirty author tests pass, including a regression that fails on the previous code; native UI and actual shortcut opening verified. The October 27 tab/history delivery below remains delivered. Separate ORACLE preset L848 approval and Windows wake scoping L853 survive, unstarted in this repair; see TASK_INDEX. No research agent/model was started. Live account/model boot and productivity benefit remain unproved.
+
+## October 29 — Desktop shortcut startup hang repaired
+
+Will reported a busy cursor followed by no launcher window. Scope: restore launcher startup, not add features. Existing owner custody covers scripts/agents_gui.py and scripts/tests/test_agents_launcher.py. PROME and DEWEY concurrently edited their own paths; no pull, owner edit, or shared-index sweep. This is CATO author follow-up, not independent review.
+
+Evidence: all 29 prior tests passed and a direct native smoke test opened. The desktop .lnk correctly targeted the preserved CMD under LocalAppData/ResearchAgentLauncher; that CMD matched current installer output exactly. Three normal desktop attempts (PowerShell PIDs 21848, 22160, 14168) had no main-window handle or enumerated window. A direct normal invocation opened successfully (PID 19748). Hidden-wrapper smoke probes also passed, so the old smoke route did not reproduce the user's full startup condition. No shortcut reinstall or preference reset was justified.
+
+Repair: pass stdin=subprocess.DEVNULL only when starting the PowerShell GUI host in start_gui. The GUI needs no console input. This removes the inherited input-handle dependency without changing the interactive agent-terminal backend, model settings, task content, or preferences. The underlying Windows host wait was not stack-traced; inherited-input dependence is supported by the narrow intervention, before/after observations and regression, not a claimed Windows internals diagnosis.
+
+Verification:
+
+- New regression keeps the parent's input pipe open and sends nothing; a real fake GUI-host subprocess must independently receive EOF and return its exit code. It starts no agent. Full suite: 30 tests PASS. A temporary copy with only the DEVNULL change removed fails the new test after five seconds with the expected startup-wait assertion; the live tree was not reverted.
+- Post-fix native UI smoke PASS, artifacts ~/.cache/research-agent-launcher/gui/2e8557efbffe489b9e624e43ef619337/. Existing layout, groups, presets, history, cancellation and input-policy assertions pass.
+- Opened the actual desktop .lnk using Windows shell launch. New GUI process 22080 had a visible, non-minimized Agent Launcher window. Will then tried the shortcut and replied: "Yes it works now! Good job". This establishes ordinary desktop opening on this machine, not a live model/session boot or other-machine test.
+- Normal launcher windows opened for diagnosis were left available for Will; no research/model session was started or closed. The three earlier stalled processes were not forcibly terminated. Native smoke windows closed themselves.
+
+No pending implementation for this startup defect. Existing L848/L853, research-reader and forecast approvals remain separate. Delivery checks: input existence/readability verified; weekday check clean on PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, this report and CATO/CONTINUITY.md. Read-cap clean on CATO/AGENTS.md, CHARTER.md, CONTINUITY.md and root CLAUDE.md, USER.md, AGENTS.md. Scoped diff check clean. Orphan advisory labels scripts by path; the two launcher paths are authorized CATO authorship, while PROME/DEWEY/WALTER/root scratch paths remain untouched. Another owner's staged packet move was present and excluded using exact commit pathspecs. No memory/ledger/financial-figure trigger. Four-file commit and fresh-fetch publication receipt delivered in-session; no later shared HEAD is certified here.
 
 ## Delivery and author verification
 

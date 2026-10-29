@@ -80,7 +80,9 @@ def start_gui(config: Path, smoke_test: bool = False) -> int:
     if smoke_test:
         command += ['-SmokeTest']
         print(f'UI test artifacts: {directory}', flush=True)
-    code = subprocess.call(command)
+    # The desktop shortcut has no interactive input. Do not pass its inherited
+    # console/input handle through WSL into the Windows PowerShell GUI host.
+    code = subprocess.call(command, stdin=subprocess.DEVNULL)
     if smoke_test and code == 0:
         receipt = directory / 'smoke.json'
         if not receipt.is_file():

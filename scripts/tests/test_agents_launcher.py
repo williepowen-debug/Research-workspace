@@ -75,6 +75,41 @@ class LauncherTests(unittest.TestCase):
         request.write_text(json.dumps(dict(name='FIXTURE', runtime='sol', action='new', task=None, **values)), encoding='utf-8-sig')
         return request
 
+    def test_gui_start_does_not_wait_for_inherited_input(self):
+        # Model a desktop wrapper that leaves stdin open without sending input.
+        # A GUI host must receive EOF independently of that wrapper's lifetime.
+        host = self.bin / 'powershell.exe'
+        host.write_text('#!' + sys.executable + '\nimport sys\n'
+                        'data = sys.stdin.buffer.read()\n'
+                        'print("host input bytes:", len(data), flush=True)\n'
+                        'sys.exit(23)\n')
+        host.chmod(0o755)
+        helper = ('import sys\n'
+                  'sys.path.insert(0, ' + repr(str(SCRIPTS)) + ')\n'
+                  'import agents_gui\n'
+                  'from pathlib import Path\n'
+                  'agents_gui.windows_path = lambda path: str(path)\n'
+                  'sys.exit(agents_gui.start_gui(Path(sys.argv[1])))\n')
+        proc = subprocess.Popen([sys.executable, '-c', helper, str(self.config)],
+                                env=dict(self.env, WSL_DISTRO_NAME='Fixture'),
+                                stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                                stderr=subprocess.PIPE, text=True)
+        try:
+            try:
+                code = proc.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                self.fail('GUI startup waited for the desktop wrapper to close stdin')
+            out, err = proc.communicate(timeout=5)
+            self.assertEqual(code, 23, err)
+            self.assertIn('host input bytes: 0', out)
+            self.assertFalse(self.capture.exists(), 'No agent should start when opening the GUI')
+        finally:
+            if proc.stdin and not proc.stdin.closed:
+                proc.stdin.close()
+                proc.stdin = None
+            if proc.poll() is None:
+                proc.communicate(timeout=5)
+
     def test_gui_click_routes_literal_task_and_request_is_single_use(self):
         task = 'Unicode café; $(never-run) "quotes"\nsecond line'
         request = self.gui_request()
