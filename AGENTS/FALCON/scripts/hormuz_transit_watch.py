@@ -32,6 +32,7 @@ Built by FALCON 2026-07-12 (round-2, PROME-tasked probe -> script).
 """
 import json
 import sys
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -100,10 +101,17 @@ def fetch_latest(n=14):
         "resultRecordCount": str(n),
         "f": "json",
     })
-    with urllib.request.urlopen(f"{BASE}?{params}", timeout=30) as resp:
-        d = json.loads(resp.read())
-    if "error" in d:
-        raise RuntimeError(f"ArcGIS error: {d['error']}")
+    # 2026-10-29: the FeatureServer began returning a 400 "Invalid query
+    # parameters" on ~half of byte-identical requests (server-side flake, not
+    # a schema change — the same URL succeeds on retry). Retry before failing.
+    for attempt in range(6):
+        with urllib.request.urlopen(f"{BASE}?{params}", timeout=30) as resp:
+            d = json.loads(resp.read())
+        if "error" not in d:
+            break
+        time.sleep(2)
+    else:
+        raise RuntimeError(f"ArcGIS error after 6 attempts: {d['error']}")
     rows = []
     for f in d.get("features", []):
         a = f["attributes"]

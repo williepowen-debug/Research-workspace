@@ -273,3 +273,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-26T13:39:40.573430-04:00	2026-10-25_from-HAWK_dictionary-confirmation.md	acted	inbox	Read and integrated KB-336/337; report 2026-10-26_saudi-claims-and-L807.md
 2026-10-26T13:41:25.697182-04:00	SIG-W-20261022-023	info-only	BOARD_SCAN	Read; same DEWEY REQ006 report already integrated KB-322. No new rate or census adopted.
 2026-10-26T17:39:33.523020-04:00	2026-10-26_from-BRENT_primary-throughput-settlement-evidence.md	acted	inbox	Previously read/integrated KB-339; sender commit verified, filed processed at evening sweep.
+2026-10-29T12:14:16.534811-04:00	SIG-W-20261027-013	noted	WALTER	Conditional 4-5 day reopening timetable + reported $1B Saudi->Houthi transfer retained as unconfirmed leads; diplomacy vector stays 3.
+2026-10-29T12:14:16.534811-04:00	SIG-W-20261027-014	info-only	WALTER	Jordan strikes southern Syria; outside theater core, no Iran attribution.
+2026-10-29T12:14:16.534811-04:00	SIG-W-20261029-002	acted	WALTER	Ras Tanura adjudicated ATTACKED-claimed / DAMAGED unknown / OPS unknown; OUT-class for rung; own FIRMS read in routine population. KB-348/349.
+2026-10-29T12:14:16.534811-04:00	SIG-W-20261029-003	acted	WALTER	Sinokor 1 Nov declaration assessed vs own PortWatch floor; no band/mark change; watch 1 Nov named-hull detention. KB-350/351.
+2026-10-29T12:14:16.534811-04:00	SIG-W-20261029-005	info-only	WALTER	CRUISE VX-CRU-04 G->Y on an August cancellation; not a theater event.
+2026-10-29T12:14:16.534811-04:00	SIG-W-20261029-014	noted	WALTER	DEWEY no matched October war-risk quotes; consistent with WARRISK all-5 EXPIRED; WQ-298 CANNOT-FIRE stands.
+2026-10-29T12:14:16.534811-04:00	SIG-W-20261029-022	acted	WALTER	NAVCENT/JMIC 28 Oct stay-clear + blockade-enforcement advisory integrated; FAL-07 not fired. KB-352.

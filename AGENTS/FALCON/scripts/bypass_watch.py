@@ -50,6 +50,7 @@ kharg_loadings_watch.py.
 """
 import json
 import sys
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -79,10 +80,15 @@ def fetch_port(pid, n=90):
     req = urllib.request.Request(
         f"{BASE}?{params}",
         headers={"User-Agent": "Mozilla/5.0 (research; FALCON agent)"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        d = json.loads(resp.read())
-    if "error" in d:
-        raise RuntimeError(f"ArcGIS error ({pid}): {d['error']}")
+    # 2026-10-29: server-side 400 flake on ~half of identical requests; retry.
+    for attempt in range(6):
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            d = json.loads(resp.read())
+        if "error" not in d:
+            break
+        time.sleep(2)
+    else:
+        raise RuntimeError(f"ArcGIS error ({pid}) after 6 attempts: {d['error']}")
     rows = []
     for f in d.get("features", []):
         a = f["attributes"]
@@ -114,6 +120,18 @@ def main():
     except Exception as e:
         print(f"bypass_watch: FETCH/PARSE FAILURE — {e!r}\n"
               f"Endpoint: {BASE}\nDo NOT assume unchanged; consult "
+              f"domain/BYPASS_INTEGRITY_BASELINE.md.", file=sys.stderr)
+        return 2
+
+    # Empty-series guard (2026-10-29): Sohar port988 began returning ZERO
+    # rows. An uncaught IndexError exits 1 — which on this INVERTED gauge
+    # reads as COLLAPSE. A missing series is a fetch failure, never a fire.
+    empty = [lbl for lbl, rows in data.items() if not rows]
+    if empty:
+        print(f"bypass_watch: EMPTY SERIES for {', '.join(empty)} — the "
+              f"query succeeded but returned no rows (portid removed or "
+              f"renamed?). Endpoint: {BASE}\nDo NOT assume unchanged and do "
+              f"NOT read as collapse; consult "
               f"domain/BYPASS_INTEGRITY_BASELINE.md.", file=sys.stderr)
         return 2
 
