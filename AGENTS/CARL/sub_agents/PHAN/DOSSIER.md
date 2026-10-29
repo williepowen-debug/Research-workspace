@@ -63,7 +63,7 @@
 | **BNPL late-rate basis: LendingTree 47% vs Fed SHED 26%** | **CARL** | 2026-10-28 | 📤 packet sent |
 | **FLOW-PHAN-06 → re-instrument onto NCO growth?** | **CARL** | 2026-09-11 | ⏳ CARL at the ~11/12 gate |
 | **Sub-agent closeout git step** | **CARL** | 2026-09-11 | ⏳ partial: STUE, DOC, PHAN (`CLOSEOUT.md` + runner, 10/28) have it; GIG, POLLY, POP, META, `SPAWN_PROTOCOL.md` do not. Shared runner for all 7: not yet proposed |
-| **PHAN rows in `PROME/registry/READS.tsv`** (read-cap check grades frozen `STATUS.md`, not this file) | **PROME** | 2026-10-28 | 📤 packet sent |
+| **Rotate this file under 75%** (fleet rotate-tier; 27,364 B = 84% at 10/28) to `PASSES.md` | PHAN | 2026-10-28 | 🔻 next pass |
 
 *Closed rows (§2 rebuild, closeout rebuild, ABS leg 2, routing rule adopted by CARL 9/11, read-cap script now runs) → `PASSES.md` '2026-10-28 file sweep'.*
 

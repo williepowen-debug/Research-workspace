@@ -8,6 +8,14 @@
 
 ---
 
+## 2026-10-28 shared-runner proposal + READS verified (Will: "yes send CARL the shared checker proposal")
+
+- **Proposal → CARL** (`outbox/2026-10-28_PHAN-to-CARL_shared-subagent-closeout-runner-proposal.md`). One runner + config TSV for all seven sub-agents. Five decisions asked: approve, who builds (PHAN recommends PHAN under an assignment packet), template GIG/POLLY/POP/META, fix META's dead `../SHARED/`, retire PHAN's runner after cut-over. Facts measured tonight: GIG/POLLY/POP/META have 0 `safe-push|git commit` lines in CLAUDE.md; META has no STATUS or ledgers; only PHAN has CRLF ledgers.
+- **PROME transcribed PHAN's READS rows** (prome-92 message ~22:48 ET; READS.tsv L682–686). **Verified at the artifact:** `read_cap_check --agent PHAN --require-manifest` RC=0 now grades `DOSSIER.md` (27,364 B, 84%), `rotation_due=1`. The read-cap OWED row is closed.
+- **Runner trigger aligned to fleet canon:** the fleet rotate-tier is ≥75% of budget, not the 85% PHAN's runner used. `ROTATE_AT` 0.85 → 0.75 and CLOSEOUT.md updated. Dossier at 84% → **LOOK, rotation owed at next pass** (OWED row; PROME asked nothing tonight). Runner: 11/11 executed, 0 failed, 1 LOOK.
+
+---
+
 ## 2026-10-28 closeout rebuild (Will-approved: "You have my approval to write PHAN close out and update")
 
 - **Why:** a fleet comparison (background survey, spot-checked at DOC:134/:151, HANS `scripts/closeout_check.py`, BOND `monitors/closeout_run.py`, META:51/58) ranked PHAN's closeout 8th of 9. Gaps: orphan/claim/ledger-staleness/consumer checks absent from the checklist; no NOT RUN rule; push rule out of line with DOC/STUE (Will-launched pushes, CARL-spawned commits only); no automation; no consistency check; no rotation trigger; no docket confirmation; signals not routed to WALTER.

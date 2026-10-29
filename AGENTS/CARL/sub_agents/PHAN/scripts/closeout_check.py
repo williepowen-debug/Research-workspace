@@ -42,7 +42,7 @@ VENV_PY = ROOT / ".venv/bin/python3"
 PY = str(VENV_PY) if VENV_PY.exists() else sys.executable
 
 CAP = 32_550                                 # root read-cap budget (bytes), whole-read surfaces
-ROTATE_AT = 0.85                             # rotation trigger: rotate to PASSES.md at >=85% of CAP
+ROTATE_AT = 0.75                             # rotation trigger = fleet read_cap_check "rotate-tier" (>=75% of budget)
 LIVE_LEDGERS = ["COCKROACH.tsv", "REGULATORY.tsv", "PROVIDER.tsv", "PREDICTIONS.tsv"]
 TODAY = datetime.date.today().isoformat()
 

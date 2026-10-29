@@ -17,7 +17,7 @@
    - Update CURRENT STATE **in place**, never as a new section.
    - Advance the as-of stamps in CURRENT STATE, §3 and §6.
    - Update the **📌 OWED block**: close what you did; add what PHAN or CARL now owes, with the date raised.
-   - **Rotation:** if the runner reports the dossier at ≥85% of 32,550 B, move settled narrative and closed rows to `PASSES.md` this session. Never delete.
+   - **Rotation:** if the runner reports the dossier at ≥75% of 32,550 B (the fleet `read_cap_check` rotate-tier), move settled narrative and closed rows to `PASSES.md` this session. Never delete.
 3. **Predictions:** re-mark confidence with a dated note in `workbook/PREDICTIONS.tsv`. **Never resolve here: PHAN proposes, CARL disposes.** A row due on a scheduled print gets its expectation written **before** the print.
 4. **Routing:**
    - A **signal** (a registered threshold firing, a cross-desk trip) goes to **WALTER** (`AGENTS/WALTER/inbox/`), never straight to another desk.
@@ -50,7 +50,7 @@
      - if flagged: `consumer_check` and the memory checks
    - **🔴 FAILED** → fix and re-run. **⚠️ LOOK** → a decision; record it in the OWED block or the closeout record. **⚪ NOT RUN** → correct only if its condition truly did not apply.
    - It **lists the judgement steps it cannot verify**. A clean run means the steps **executed**, never that the closeout is right.
-   - ⚠️ Known: the fleet `read_cap_check --agent PHAN` grades frozen `STATUS.md` until PROME adds PHAN rows to `PROME/registry/READS.tsv` (packet 2026-10-28). The runner flags it as LOOK; the local dossier check is the real one.
+   - The fleet `read_cap_check --agent PHAN` grades `DOSSIER.md` via PHAN's rows in `PROME/registry/READS.tsv` (transcribed by PROME 2026-10-28, verified). If it ever grades another file, the runner flags LOOK: the manifest has drifted.
 
 ## COMMIT · PUSH · POST
 
