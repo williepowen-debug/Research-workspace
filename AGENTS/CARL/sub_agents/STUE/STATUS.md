@@ -1,6 +1,6 @@
 # STUE STATUS
 
-**Last Updated:** 2026-10-28 ~21:45 ET (**53-day dark gap closed: FSA FY2026 Q3 graded (ES-01/04/06), ES-02 boundary rule's first out-of-sample run, news sweep, 2 CARL inbox packets processed; then a file sweep, a rotation pass, and five research items — the Treasury Education collections pilot, SAVE windows, score-drop sources, AFT Doc 50, TCF — with the workbook reconciled to them**) | **Data vintage:** FSA `PortfoliobyLoanStatus` + companion files **Last-Modified Fri 18 Sep 2026** (data as of **Jun 30 2026** = FY2026 Q3; MD5 `d443da74…` matches CARL's 9/24 copy); CFPB `company=MOHELA` settled through **Oct 16 2026** (pulled 10/28, vintage 2026-10-28); Treasury release sb0639 **Sep 30 2026**; AFT v. ED docket (CourtListener) through **Oct 15 2026**; Sweet via PPSL/secondaries through **Oct 15 2026**; NY Fed 2026:Q3 HHDC **not yet posted** (data URL 302 on 10/28) | **Status:** 🔴 CRITICAL, unchanged. **No registered threshold fired.** The default stock is still rising but slowed to roughly a quarter of the prior quarter's pace, and the servicer-complaint signal stays well below its bands inside CRL-28's now-open window.
+**Last Updated:** 2026-10-28 22:09 EDT (closeout) (**53-day dark gap closed: FSA FY2026 Q3 graded (ES-01/04/06), ES-02 boundary rule's first out-of-sample run, news sweep, 2 CARL inbox packets processed; then a file sweep, a rotation pass, and five research items — the Treasury Education collections pilot, SAVE windows, score-drop sources, AFT Doc 50, TCF — with the workbook reconciled to them**) | **Data vintage:** FSA `PortfoliobyLoanStatus` + companion files **Last-Modified Fri 18 Sep 2026** (data as of **Jun 30 2026** = FY2026 Q3; MD5 `d443da74…` matches CARL's 9/24 copy); CFPB `company=MOHELA` settled through **Oct 16 2026** (pulled 10/28, vintage 2026-10-28); Treasury release sb0639 **Sep 30 2026**; AFT v. ED docket (CourtListener) through **Oct 15 2026**; Sweet via PPSL/secondaries through **Oct 15 2026**; NY Fed 2026:Q3 HHDC **not yet posted** (data URL 302 on 10/28) | **Status:** 🔴 CRITICAL, unchanged. **No registered threshold fired.** The default stock is still rising but slowed to roughly a quarter of the prior quarter's pace, and the servicer-complaint signal stays well below its bands inside CRL-28's now-open window.
 
 > ## 📌 SESSION 2026-10-28 — 53 DAYS DARK. THE FSA RELEASE IS GRADED, THE COMPLAINT RULE PASSED ITS FIRST OUT-OF-SAMPLE RUN, AND THE AFT v. ED DATE CARL CARRIED WAS WRONG.
 >
@@ -38,6 +38,21 @@
 > - **Score-drop band sourced (OQ#12):** −87…−171 is a 2016–19 historical estimate; the observed Q1-2025 update averages ≈ −105.
 > - **AFT complaint read (OQ#13):** two of three cited figures confirmed; the **7×/>50× wait ratio is not in the pleading**; the 2.5M/800K figures are **Oct 2023**, not 2025.
 > - **TCF study harvested (OQ#10):** its projection is **17M in distress**, not the **13M in default** STUE attributed to it.
+>
+> ### ✅ CLOSEOUT 2026-10-28 22:09 EDT — run to the DOC/CARL standard by hand (STUE's own step list is under-specified; proposal sent to CARL)
+> | Check | Result |
+> |---|---|
+> | Inbox | empty (2 CARL packets processed, `git mv` to `processed/`) |
+> | ES tracker | ES-01/04/06 graded on FY26 Q3; ES-02 interim logged; CARL ruling recorded |
+> | State vectors | SV-STUE-2026-10-28-01, -02 |
+> | Ledgers (`ledger_staleness`) | CASCADE / SERVICER / TIMELINE ok; STATE_DQ FROZEN |
+> | Weekday (`claim_check`) | 1 flag, false positive ("Washington Sun" read as Sunday) |
+> | Orphans (`orphan_check.sh CARL`) | no STUE items |
+> | Read cap (`--agent STUE`) | ❌ **FAILS, rc=1**: the checker meters STATUS whole (82 KB); bounded head ~42 KB. Open: wording/declaration ruling with CARL; tonight's session block rotates next session |
+> | Memory | extended `finding_scan_keyed_on_naming_reads_local_form_as_absence` (n+1); `--slug` check rc=0; index 71% of cap |
+> | 60-day retirement | no candidates (`domain/StudentLoan_Data_2026-02.md` is >60d but cited live by `CLAUDE.md`; retained) |
+> | Next run docketed | CARL CATALYSTS has HHDC 11/05, Sweet 11/05, AFT 11/23, FSA ~12/18; **missing the ES-02 grade ~11/13–16** (packet to CARL) |
+> | ⇒ | **PARTIAL closeout**: everything is committed and pushed; the read-cap check fails and the ES-02 docket row is owed by CARL |
 
 > 🗂️ **ROTATION INDEX** — older session blocks and closed sections live verbatim in `archive/STUE_STATUS_ARCHIVE_2026-09.md` §B1–B9 and `archive/STUE_STATUS_ARCHIVE_2026-10.md` §C1–C8 (each byte + CRC32 stamped). §C8 (7909 B, CRC32 `09bbed30`) holds the pointer stack and closed head rows collapsed into this line on 2026-10-28.
 
