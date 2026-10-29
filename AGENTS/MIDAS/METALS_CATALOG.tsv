@@ -125,3 +125,5 @@ shared	gold,silver,platinum,palladium	sources	shared/sources/2026-10-26_recyclin
 shared	gold,silver,platinum,palladium,copper	research	shared/research/2026-10-28_catch-up.md	October 28 catch-up	Two-session data refresh, Fed hold, news sweep and owed-work dispositions.
 shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-10-28_close	October 28 close bundle	Raw fund/futures/issuer/Treasury/LME captures and unchanged band arithmetic.
 copper	copper	sources	copper/sources/2026-10-28_ICSG-check	ICSG primary forecast and monthly release	October 14 forecast and October 23 monthly PDFs with hashes and extracted text.
+gold	gold	sources	gold/sources/2026-10-29_net-exports	BEA/Census August trade release	Exhibits 7/8 nonmonetary gold values with hashes; dollars, not tonnes.
+copper	copper	sources	copper/sources/2026-10-29_FQM-Q3	First Quantum Q3 2026 release	Issuer HTML/PDF with acid sales and guidance, hashes.

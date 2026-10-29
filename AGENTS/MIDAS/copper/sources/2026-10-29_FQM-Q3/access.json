@@ -1,0 +1,17 @@
+[
+ {
+  "file": "fqm_q3_2026_release.html",
+  "url": "https://www.first-quantum.com/news/first-quantum-minerals-reports-third-quarter-2026-results/",
+  "status": 200,
+  "bytes": 240330,
+  "sha256": "c6db029e083de4301c3c1abeca78c2155e2abde5a8aca48b53c4c8756bf6c8a1",
+  "utc": "2026-10-29T04:03:57.531366+00:00"
+ },
+ {
+  "file": "FQM-News-Release-2026-Q3.pdf",
+  "url": "https://www.first-quantum.com/wp-content/uploads/2026/10/FQM-News-Release-2026-Q3.pdf",
+  "status": 200,
+  "bytes": 470556,
+  "sha256": "d94e978b51109f055d1f86ed685f2462a571084d6ae8228ff25e8007f2bc6813"
+ }
+]

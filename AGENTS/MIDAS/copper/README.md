@@ -42,3 +42,5 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [October 28 catch-up](../shared/research/2026-10-28_catch-up.md) — China import-demand signals and ICSG primary check.
 
 - [ICSG primary releases](sources/2026-10-28_ICSG-check/) — October 14 forecast (surplus ~104 kt 2026 / ~368 kt 2027) and October 23 Jan–Aug monthly, with hashes.
+
+- [First Quantum Q3 2026](sources/2026-10-29_FQM-Q3/) — ~70 kt surplus acid sold, copper guidance top end cut (KB-238).

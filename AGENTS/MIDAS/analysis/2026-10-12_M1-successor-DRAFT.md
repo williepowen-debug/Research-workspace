@@ -1,5 +1,7 @@
 # M1 successor — preferred prospective DRAFT
 
+> **RETIRED 2026-10-29 00:03 ET — Will's ruling on WQ-522, verbatim: "522 retire"** (option A: retire this unregistered candidate, preserving its evidence; WQ-451 instrument, MIDAS-17 and current scores unchanged). Never registered or priced; not to be re-anchored. The text below is preserved as the October 12 record. PROME records the ruling on the queue row.
+
 **2026-10-12 · MIDAS · review October 19.** Prepared in the existing session under `41f7b72e4`'s second-round packet/report. That report confirms the prior broad review and PGM result `e9b42f85c` / delivery `3045f0ed9` are consumed.
 
 ## Candidate fixed before historical calculation

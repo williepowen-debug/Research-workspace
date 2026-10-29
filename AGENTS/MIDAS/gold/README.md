@@ -80,3 +80,7 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 - [October 26 recycling supply test](../shared/research/2026-10-26_recycling-supply-test.md) — source-model sensitivities and actual processor evidence; completed at Will's request.
 
 - [October 28 catch-up](../shared/research/2026-10-28_catch-up.md) — October 27–28 prices, bands, Fed hold and news; no score change.
+
+- [BEA/Census gold trade check](sources/2026-10-29_net-exports/) — Jan–Aug 2026 nonmonetary gold exports $86.6B / imports $15.4B; dollars, not tonnes, outside GDP (KB-237).
+
+- [Prediction post-mortems MIDAS-01..08](../analysis/2026-10-29_MIDAS-01-08-postmortems.md) — record and design rules.
