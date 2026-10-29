@@ -79,3 +79,22 @@ The cost shift is a **fiscal amplifier on Florida's cost stack, not a new leg of
 - FHCF May 2026 Claims-Paying Capacity Estimates (`fhcf.sbafla.com/media/yrxptutm/...pdf`).
 - WLRN / Florida Phoenix (C. Sexton) 2026-10-19 (request scope); Florida Phoenix 10/19 headline ($237M, body 403); Insurance Journal (W. Rabb) 2026-10-19 and Beinsure (OIR claims at 10/15); Florida Policy Institute (E. Frey) 2026-08-19 (SECONDARY: cost-share history, s.252.37).
 - Extracts kept in session scratch only (PDF text), not committed.
+
+---
+
+## 7. Update 2026-10-29 00:16 ET (Thu) — triggers taken (CORAL session coral-1029, PROME prome-92 Tier-1 wake on DOCKET L784, dated 10/26)
+
+Rows above stay as written on 10/21 (the record of what was known then). This section re-bases them; evidence detail → `STATUS_DETAIL.md` § X2–X4.
+
+| Trigger (§ 5) | Result | Tier | Row(s) moved |
+|---|---|---|---|
+| **FEMA decision on the FL Isaias DR request** | **DR-4955-FL declared 2026-10-27** (12 days after the 10/15 request). **Public Assistance categories A–G in all 15 requested counties; Individual Assistance in NONE of the 8 requested; Hazard Mitigation not designated.** Cost share **UNKNOWN** — no FEMA release on the disaster page, no Federal Register notice (`FEMA-4955-DR` = 0 documents at 00:09 ET 10/29). Last OpenFEMA record: DR-4955-FL, `lastRefresh` 2026-10-28T11:09:04Z (dataset rundate 2026-10-29T04:08:55Z). | PRIMARY (OpenFEMA; fema.gov designated-areas page) | Row 7: **the "deny" branch did NOT fire**; "75% flat vs enhanced" undecidable until the cost share publishes. Rows 1 and 6 (EPR Fund, county match): the federal PA share flows to all 15 counties — the denial scenario that would have moved 100% of PA to state + local did not happen. |
+| **FHCF October 2026 Claims-Paying Capacity Estimates** | Report dated **10/22/2026**: **$22.26B** claims-paying capacity vs **$17B** obligation (131%; May $21.43B) — YE fund balance $12.91B (May $12.08B) + $2.25B pre-event + $7.10B 0–12-month borrowing (unchanged). **2027-28: $24.13B if no covered event in 2026-27, $13.61B if the limit is exhausted** (May $23.09B / $12.78B). Industry retention $11.93B; assessment base $92.12B ⇒ up to $5.53B/yr. Prior-event ultimate loss $7.31B at 9/30 (−$0.70B vs May). Isaias not in it (losses as of 9/30). | PRIMARY (fhcf.sbafla.com) | Row 5 re-based: **$21.43B → $22.26B vs $17B; 2027-28 $23.09B → $24.13B (no-event case)**. FEMA $ at stake to FHCF stays $0 direct. |
+| **11/3 ballot (Amendment 3; HJR 5019)** | Calendar entries unchanged (`CALENDAR.md`). | — | Rows 6 and 8 wait for 11/3 (certified ~11/4). |
+| **Federal Register FEMA notices** | Next: the DR-4955 declaration notice (cost share; any IA or HM amendment). | — | Rows 2–3 |
+
+**What the IA gap does and does not show (inference audit, CLAUDE.md 13a).** The new fact is that household aid was not granted in any of the eight counties asked. The Review Council's "FAIR" proposal narrows exactly this channel, so it is tempting to read the gap as the posture at work. But FEMA's ordinary IA factors predict the same result when uninsured home damage is small — and insured Florida claims were ~$582M on 46,509 claims at 10/15 (PRESS-relayed OIR). Both readings move the observation the same way, so **the IA gap is not evidence of the posture.** What would separate them: FEMA's letter on the IA request (if IA was denied rather than deferred, the state has 30 days to appeal under 44 CFR 206.46 — INFERRED, letter unread), or an IA amendment. Hazard Mitigation's absence has the same problem (HM is often added later by amendment) — no inference drawn.
+
+**Net for the commission question (before the 2027 season):** the first Florida test came back as an approval on the public side. The state budget, Citizens and FHCF cells are unchanged or stronger (FHCF +$0.83B); the open piece is household aid, and the dated items left are the cost-share notice, any IA amendment, and the 11/3 ballot. No trade, threshold, gate or grade change.
+
+**PENDING cells (§ 4), status 10/29:** **PENDING-AEOLUS** (CNN 10/19 satellites + carry-split ack) and **PENDING-SHADE** (FHCF/Citizens/FL-muni bond holders) — both 10/21 packets sit unconsumed in those desks' inboxes; neither desk has committed since 10/21. Owed by AEOLUS and SHADE respectively. CORAL↔AEOLUS: AEOLUS KB-AEO-210's "no DR" is superseded by DR-4955-FL (CORAL-carried); a one-line packet went to AEOLUS so both desks cite one value.

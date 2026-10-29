@@ -1,39 +1,40 @@
 # CORAL — SCRATCH (ephemeral session handoff)
 
-**Session:** 2026-10-21 22:49 → ~23:2x ET (Wed) — **coral-1021b**, PROME `prome-56` commission **DOCKET L784** (Will 22:46 ET in WALTER's window, "all three sounds good id like to research more"; WALTER packet `abca4cc44` §3). Agent-tool desk spawn, Opus 5.5 in Claude Code; root CLAUDE.md, AGENTS.md, USER.md and the CORAL charter read explicitly. No researchers. Tree carried other desks' uncommitted/staged work (CARL renames staged, others) — untouched; **no pull/stash**; committed own paths + carve-out ① packets only.
-**Previous:** 2026-10-21 coral-1021 (reading #10, Parcl discontinuity, L227) closed 22:21 ET.
+**Session:** 2026-10-29 00:07 → ~00:17 ET (Thu) — **coral-1029**, PROME `prome-92` Tier-1 wake under WQ-184 on due rows **DOCKET L784** (dated 10/26) + **GATE-CORAL-MSI-01** (review_by 10/29), on Will's word 00:03 ET. Agent-tool desk spawn, Opus 5.5 in Claude Code; root CLAUDE.md (4 pages), AGENTS.md (1), USER.md (2), CORAL/CLAUDE.md (5) read to eof with the bounded reader. Tree carried BRENT/MIDAS/BROCK work (live desks) — untouched; **no pull, no stash, no push**; committed own paths + carve-out ① packets only.
+**Previous:** 2026-10-21 coral-1021b (L784 delivered) closed ~23:2x ET.
 
 ---
 
-## CHANGES SINCE 22:21 (what the world did)
+## CHANGES SINCE 10/21 (what the world did)
 
-- Will ruled WQ-475 A at 22:46 ET (PROME packet): MSI identity = data date of one build; current series from #11; 9/13 stands.
-- Will approved L784 (FEMA cost shift and Florida) at 22:46 ET.
-- No new WALTER signal since 22:21.
+- **FEMA declared DR-4955-FL on 10/27** (Isaias): PA A–G in all 15 requested counties, IA none of 8, HM not designated, cost share unpublished.
+- **FHCF October estimate (dated 10/22):** $22.26B vs $17B; 2027-28 $24.13B / $13.61B.
+- Parcl build 10/28: data date 10/27; the series revised trailing days again (10/20 Cape Coral 5.88 → 5.93).
+- MARCO withdrew "MIA clean tell" (10/25); REGINALD: every read Q3 FL-frame cell holds, aggregate provisional to the 10-Qs.
 
 ## WHAT I DID
 
-1. **Inbox 1/1:** PROME WQ-475 packet → acted; STATUS OQ §A2 now the RULED letter; OWED AA closed; board_log row; `git mv` → processed (`consume:CORAL`).
-2. **L784 deliverable → `research/2026-10-21_L784_fema-cost-shift-florida.md`:** no public FEMA letter (search 22:50 ET); POLITICO 10/20 READ (recording + internal 10/15 memo, PRESS-ORIGINAL); FEMA Review Council report 5/7/26 = PRIMARY blueprint ($1.94 → $2.99 PA indicator; 50% PA floor needs Congress). Exposure table: EPR Fund $163.1M (9/1) · reserves $16.2B · 2024 FL season federal $4.63B · Citizens/FHCF $0 direct (FHCF $21.43B vs $17B; 2027-28 $23.09B) · muni/county match + Amendment 3 stack · **Isaias DR request pending (PA 15 / IA 8, ~10/15) = live test, hard check 10/30.**
-3. Reconcile CORAL↔AEOLUS: no divergence; carry split stated (FL OIR figure = CORAL; industry modelled = AEOLUS; FL DR request/decision = CORAL). Packets: AEOLUS (ack + CNN satellites) and SHADE (FHCF/Citizens/FL-muni bond holders) — PENDING, not waited on.
-4. STATUS (header, MSI row, hurricane row, fiscal pillar, OQ §A2, OWED Z/AA/AB, bottom line) · STATUS_DETAIL § W + § W0 (rotated verbatim) · KB ML-CORAL-118/-119 · CALENDAR (10/30, FHCF Oct report, HJR 5019, FR weekly) · NEXUS_BRIEF.
+1. **L784 triggers** → L784 file § 7 + STATUS_DETAIL § X2–X4: DR-4955 read at OpenFEMA + FEMA designated-areas page; FHCF Oct report read at the primary PDF; ballot items stay calendar. AEOLUS/SHADE cells still owed (their 10/21 packets unconsumed). One-number packet → `AGENTS/AEOLUS/inbox/2026-10-29_from-CORAL_isaias-DR-4955-one-number.md`.
+2. **MSI reading #11** (data 10/27): 4-of-5 > 6.00, Cape Coral 5.89 ⇒ re-fire fails, clock 0, leg 🟠 → STATUS OQ §A, § X1, extract `sources/parcl/…build20261028T091452Z.csv`.
+3. **GSE pointer** (ACTIVE_DECISIONS row 7) → STATUS OWED D: FL Realtors October, release Mon 11/16.
+4. **Inbox 21/21** (4 packets + 17 WALTER), board_log rows, KB ML-CORAL-120…124, COR-20261029-04 APPLIED (STATUS tourism row + NEXUS_BRIEF).
+5. STATUS: 17+6 blocks rotated verbatim → § X0; 28,250 → 27,787 B (85%, still rotate-tier). NEXUS_BRIEF, CALENDAR refreshed.
 
 ## NEXT SESSION / OWED
 
-- **10/29 MSI reading #11** — first on the CURRENT series, data-date identity (ruled).
-- **10/30 hard check: FEMA decision on FL Isaias DR** (OpenFEMA); read the PA estimate if published (the $237M basis is UNKNOWN).
-- **FHCF October capacity report** (~10/23–10/30) → re-base L784 row 5.
-- Read AEOLUS / SHADE replies when they land; fill PENDING cells in the L784 file § 4.
-- 10/23 REGINALD rail grade · SBCF ~10/27 · 11/3 Amendment 3 + HJR 5019 · 11/15 falsify grade · 11/16 FL Realtors Oct (L227 a).
-- Carried: Citizens 9/30 month-end (round 10,250 vs 10,210) · OIR Isaias page itself (claims figure is PRESS-relayed) · Galleon CBS · Pembroke Lakes Mall (SIG-040) · OQ L Wayback residual · Avidia 10-Q ~mid-Nov.
-- ⚠️ **STATUS at 86% of the read-cap budget (rotate-tier, 27,963 B)** — rotate before the next append. **MEMORY rotation also still owed** (none added today).
+- **Federal Register DR-4955 notice** (cost share; IA/HM amendment) → L784 row 7. IA appeal window ~11/26 if IA was denied (INFERRED).
+- **11/5 MSI reading #12** — the FIRST build carrying a data date governs.
+- 11/3 Amendment 3 + HJR 5019 · 10-Qs ~11/14 (grep condo/association) · 11/15 falsify grade · **11/16 FL Realtors Oct (GSE instrument)**.
+- AEOLUS (satellites, ack) / SHADE (bond holders) replies → L784 § 4.
+- Carried: Citizens 9/30 month-end (10,250 vs 10,210 round size) · OIR Isaias page · Galleon CBS · Pembroke Lakes foreclosure · OQ L Wayback · Avidia 10-Q · statute s.252.37(5)(a) at the statute.
+- ⚠️ **STATUS still 85% of the read-cap (rotate-tier)** — a structural rotation (dashboard stale rows, OQ §A 8/23 letter placement) is owed; **MEMORY rotation still owed** (nothing added tonight; the Parcl revision finding sits in KB ML-CORAL-122 + § X1).
 
 ## OPEN THREADS
 
-- L227 leg (a): PROME says a pre-registered rule needs a proposal with threshold + basis; not proposed tonight.
-- Weekly Parcl series (Cape Coral 5.43 wk 10/12) ≠ daily/summary series — never mix.
-- Statute s.252.37(5)(a) (state pays half of local match) read only via FPI — re-read at the statute before citing as primary.
+- Parcl current series revises trailing days between builds ⇒ for persistence clocks, log the first build's value; a re-pull of the same data date is the same reading (9/28 letter: first pull governs, discrepancy logged).
+- L227 leg (a) has no pre-registered rule; CORAL may propose one with threshold and basis.
+- Weekly Parcl series ≠ daily/summary series — never mix.
 
 ## MAIL STATE
 
-`inbox/`: **1 file logged but UNMOVED** — `2026-10-21_from-CREED_trepp-september-FL-zero-and-two-FL-case-rows.md` arrived ~23:0x, read and integrated (STATUS CRE row; board_log row), but CREED had not committed it (untracked) ⇒ `git mv` it to `processed/` next session once tracked · `inbox/WALTER/` empty · outbound: `AGENTS/AEOLUS/inbox/2026-10-21_from-CORAL_L784-fema-isaias-reconcile-and-satellites.md` · `AGENTS/SHADE/inbox/2026-10-21_from-CORAL_L784-fl-post-event-bond-holders.md` (carve-out ①) · PROME memo `PROME/inbox/2026-10-21_from-CORAL_L784-fema-cost-shift-florida.md`.
+`inbox/` top-level: empty (+ `.gitkeep`) · `inbox/WALTER/`: empty · all 21 moved to `processed/` with `consume:CORAL` · outbound: AEOLUS DR-4955 packet (carve-out ①); PROME memo `PROME/inbox/2026-10-29_from-CORAL_L784-MSI11-drain.md`.
