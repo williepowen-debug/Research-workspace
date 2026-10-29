@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none on 10/28. Conference Board rebound (91.7) is counter-evidence on attitudes, but on its six-month average only under-35 and $100K+ groups are rising; the Fed held with hike dissents.
-**As of:** 2026-10-28 21:45 ET | STATUS commit: `f6e5dd60c`
+**As of:** 2026-10-28 22:07 ET | STATUS commit: `db6975682`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
