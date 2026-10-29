@@ -1,6 +1,6 @@
 # Fidelity Traditional IRA — Will's screenshot, 2026-10-29 ~11:2x ET
 
-Source: Will's screenshot in the TERRY session (position truth, off-repo). Intraday marks, not closes. No disposition inferred; "Pending activity $962.00" is unexplained and NOT booked.
+Source: Will's screenshot in the TERRY session (position truth, off-repo). Intraday marks, not closes. No disposition inferred; "Pending activity $962.00" = Fidelity **margin credit balance $962.00** (Will, 2026-10-29 11:58 ET: *"Fidelity says \"Margin credit balance $962.00\""*) — a cash credit, not a pending trade; no position change booked.
 
 Account total $36,786.63 · cash $13,386.72 (36.39%) · today −$1,844.90 · total gain/loss −$5,098.71 (−16.44% on cost).
 
@@ -26,3 +26,4 @@ Cost/value per bucket = sum of the rows; QQQ spread = 690P ×2 basis $2,679.33 l
 - USO 30 sh; VLO 3 sh (rule scope covers 1, per TRY-BRENT-REFINER row).
 - Bank-put cluster: 41 contracts / $6,644.24 basis vs 28 contracts / $4,646.62 in the 10/24 VIEW (lines added or captured since).
 - FORGE mirror reconciliation is PROME's (reconcile skill / ANVIL).
+- Resolved by Will 10/29: TBT rebought (×10, WQ-357); GLD 28 sh adopted on the card; $962 = margin credit balance; Robinhood positions written off ("all dead").

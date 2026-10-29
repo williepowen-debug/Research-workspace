@@ -3,7 +3,9 @@
 **Class:** MANAGEMENT / EXIT-CONDITION — **no new capital contemplated. `$0` moves here.**
 **Commissioned:** WILL_QUEUE row 58, RULED 2026-08-21 (Will verbatim *"Rule row 58 and row-31 off your rec."*), re-commissioned in PROME's 2026-09-09 morning priorities §2 (*"complete the already-commissioned TERRY exit proposal … Return concrete terms for Will's decision"*).
 **Built:** 2026-09-09 Wed ~21:1x–21:3x ET (`date` wall clock, copied not inferred). **Markets CLOSED** — every price below is a **9/9 regular-session close**, dated on its face, not a live executable quote.
-**Terry verdict:** ⛔ **PARKED — DECLINED by Will 2026-09-10 11:15 ET. NO LINE OF THIS CARD IS LIVE.** *(was 🟡 CONDITIONAL — levels PROPOSED, awaiting ratification, 2026-09-09 → 2026-09-10.)*
+**Terry verdict:** SHELVED — retired from daily checks (Will in the TERRY window 2026-10-29 11:58 ET: "go with you rec on all those. shelve them"); kept on `IDEA_SHELF.md` for look-back; revived only by Will's word, then re-built from scratch. Declined 9/10; Will manages the USO shares by hand (30 sh at the 10/29 capture).
+
+**Prior verdict (superseded 2026-10-29 11:58):** ⛔ **PARKED — DECLINED by Will 2026-09-10 11:15 ET. NO LINE OF THIS CARD IS LIVE.** *(was 🟡 CONDITIONAL — levels PROPOSED, awaiting ratification, 2026-09-09 → 2026-09-10.)*
 **Ratification state:** **UNRATIFIED, ON FILE.** The card is kept as the dated record of a build and a measurement, not as a control.
 
 > ## ⛔ DECLINED — READ THIS BEFORE ANY LINE BELOW

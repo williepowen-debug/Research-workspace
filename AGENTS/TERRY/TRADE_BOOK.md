@@ -91,3 +91,7 @@ Prior rows above are dated records. These rows supersede their current-state cla
 | 2026-10-29 | IDEA-RSP-OCT20 | Will | SHELVED | Retired by Will 10/29, kept for look-back | SHELVED — `setups/IDEA_SHELF.md` | `setups/RSP_jan215-225C_breadth-confirmation_2026-10-20.md` |
 | 2026-10-29 | IDEA-FXY-OCT20 | Will | SHELVED | Retired by Will 10/29, kept for look-back | SHELVED — `setups/IDEA_SHELF.md` | `setups/FXY_jan58-60C_yen-confirmation_2026-10-20.md` |
 | 2026-10-29 | IDEA-OKTA-SECWAVE-OCT22 | Will | SHELVED | Retired by Will 10/29, kept for look-back | SHELVED — `setups/IDEA_SHELF.md` | `setups/OKTA_nov20-220-230C_agent-credential-security-wave_2026-10-22.md` |
+| 2026-10-29 | TRY-EXIT-USO35 | Will | SHELVED | Will 10/29 | SHELVED — `setups/IDEA_SHELF.md` | `setups/USO-SHARES_management-card_2026-09-09.md` |
+| 2026-10-29 | TRY-COND-NCLHDEC14P | Will | SHELVED | Will 10/29 | SHELVED — `setups/IDEA_SHELF.md` | `setups/n/a` |
+| 2026-10-29 | TRY-FIRE-002 | Will | SHELVED | Will 10/29 | SHELVED — `setups/IDEA_SHELF.md` | `setups/PRINT-TRIGGER_WAL-EGBN-build.md` |
+| 2026-10-29 | TRY-WAL-ROLL70 | Will | DEAD | Will 10/29 | DEAD — written off, tracking stopped | `setups/WAL_dec18-70P-duration-roll_2026-09-01.md` |

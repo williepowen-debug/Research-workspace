@@ -76,7 +76,9 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 - [ ] Gate state checked (monoline Jul-21) · [ ] Live marks < 15 min · [ ] Green/red OK
 - [ ] Liquidity OK (esp. WAL Jan-27 spread) · [ ] Max loss ≤ budget · [ ] Position truth known (Sep WAL overlap)
 
-**Terry verdict:** STAGED — dormant pre-build, no entry authorized. Historical template choices: CLEAN / CONDITIONAL / NO TRADE.
+**Terry verdict:** SHELVED — retired from daily checks (Will in the TERRY window 2026-10-29 11:58 ET: "go with you rec on all those. shelve them"); kept on `IDEA_SHELF.md` for look-back; revived only by Will's word, then re-built from scratch. Dormant; CARL CRL-21 STUCK (10/26).
+
+**Prior verdict (superseded 2026-10-29 11:58):** STAGED — dormant pre-build, no entry authorized. Historical template choices: CLEAN / CONDITIONAL / NO TRADE.
 **Decision:**  [ ] APPROVE   [ ] REJECT   [ ] REWORK: ____
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
