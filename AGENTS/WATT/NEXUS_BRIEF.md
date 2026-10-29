@@ -3,7 +3,7 @@
 **Status:** P1/P2/P3/P4 = **5**/5/4/2; **composite 16/20** (was 14/20). P1 re-escalated 3→5 October 29 on the registered RED letter for the October 27 18:50–19:00 EPT run.
 **Domain:** Grid stress → wholesale price → industrial/data-center cost.
 **Thesis refinement:** Distinguish delayed/cancelled forecast load from the generation queue, and planned supply from delivered capacity.
-**As of:** DM2 5-min tape October 23 00:00 to October 29 13:25 EPT; verified hourly October 26–28; EIA-930 demand to 16Z October 29; board, posting ids, DOE index and Inside Lines feed read 13:32–13:40 ET October 29; P2/P3 as read October 20. **STATUS source commit 94ac79d1b.**
+**As of:** DM2 5-min tape October 23 00:00 to October 29 13:25 EPT; verified hourly October 26–28; EIA-930 demand to 16Z October 29; board, posting ids, DOE index and Inside Lines feed read 13:32–13:40 ET October 29; P2/P3 as read October 20. **STATUS commit 94ac79d1b.**
 
 ## CROSS-DOMAIN
 
