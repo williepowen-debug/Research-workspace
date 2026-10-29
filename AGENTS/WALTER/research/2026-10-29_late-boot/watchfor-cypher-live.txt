@@ -1,0 +1,205 @@
+WATCH_FOR harness — desk CYPHER · 56 phrase(s) · 15841 unique headlines over 98 lane days 2026-06-29 → 2026-10-28 · real matcher, in memory
+
+[   0] Fiserv breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fiserv outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fiserv ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fiserv cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] FIS breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] FIS outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] FIS ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] FIS cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Jack Henry breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Jack Henry outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Jack Henry ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Jack Henry cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Corelation breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Corelation outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Corelation ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Corelation cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Q2 Holdings breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Q2 Holdings outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Q2 Holdings ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Q2 Holdings cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Alkami breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Alkami outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Alkami ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Alkami cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Candescent breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Candescent outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Candescent ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Candescent cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] TruStage breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] TruStage outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] TruStage ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] TruStage cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Finastra breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Finastra outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Finastra ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Finastra cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ConnectWise breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ConnectWise outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ConnectWise ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ConnectWise cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Kaseya breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Kaseya outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Kaseya ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Kaseya cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Sharetec breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Sharetec outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Sharetec ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Sharetec cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] N-able breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] N-able outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] N-able ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] N-able cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fedwire breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fedwire outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fedwire ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fedwire cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+=== LIVE sample: 144 unique Google-News headlines, 2 query(ies), last 120d ===
+[   1] Fiserv breach
+        | News - GE, Philips and Fiserv investigate breach claims linked to Clop - teiss
+[   0] Fiserv outage   ← 0 live hits
+[   1] Fiserv ransomware
+        | Fiserv Ransomware Hit Ends the "It Won't Be Us" Era - FinanceX Magazine
+[   0] Fiserv cyberattack   ← 0 live hits
+[   0] FIS breach   ← 0 live hits
+[   0] FIS outage   ← 0 live hits
+[   0] FIS ransomware   ← 0 live hits
+[   0] FIS cyberattack   ← 0 live hits
+[   1] Jack Henry breach
+        | Jack Henry reports limited cyber breach in non-production systems - Yahoo Finance
+[   0] Jack Henry outage   ← 0 live hits
+[   1] Jack Henry ransomware
+        | Jack Henry falls victim to ransomware attack - Finextra Research
+[   1] Jack Henry cyberattack
+        | Jack Henry Cyberattack Compromises Client Data - Banking Exchange
+[   0] Corelation breach   ← 0 live hits
+[   0] Corelation outage   ← 0 live hits
+[   0] Corelation ransomware   ← 0 live hits
+[   0] Corelation cyberattack   ← 0 live hits
+[   0] Q2 Holdings breach   ← 0 live hits
+[   0] Q2 Holdings outage   ← 0 live hits
+[   0] Q2 Holdings ransomware   ← 0 live hits
+[   0] Q2 Holdings cyberattack   ← 0 live hits
+[   0] Alkami breach   ← 0 live hits
+[   0] Alkami outage   ← 0 live hits
+[   0] Alkami ransomware   ← 0 live hits
+[   0] Alkami cyberattack   ← 0 live hits
+[   0] Candescent breach   ← 0 live hits
+[   0] Candescent outage   ← 0 live hits
+[   0] Candescent ransomware   ← 0 live hits
+[   0] Candescent cyberattack   ← 0 live hits
+[   2] TruStage breach
+        | TruStage Discloses Data Breach Potentially Affecting Millions of Credit Union Customers - Claim Depot
+        | TruStage Data Breach Lawsuits: Consumer Class Action Filed - openclassactions.com
+[   1] TruStage outage
+        | CU vendor TruStage faces 14 suits over monthslong outage - American Banker
+[   0] TruStage ransomware   ← 0 live hits
+[   9] TruStage cyberattack
+        | 100 Days After TruStage Cyberattack, Claims Delays & Trust Concerns Persist - CUTimes
+        | Some families have faced funeral delays after cyberattack on TruStage insurance - KMOV
+        | TruStage Plans Grants For Members Hurt By Cyberattack As CEO Says Company ‘Fell Down’ - CU Today
+        | 14 TruStage Cyberattack Lawsuits Consolidated as Recovery Continues - CUTimes
+[   5] Finastra breach
+        | $3.12M Finastra data breach class action settlement - Top Class Actions
+        | Finastra Technology $3.13 Million Data Breach Settlement - Claim Depot
+        | News - Finastra reaches $3.13 million settlement in data breach lawsuit - teiss
+        | Finastra Data Breach Settlement Payout: Claim by Nov. 27 - openclassactions.com
+[   0] Finastra outage   ← 0 live hits
+[   0] Finastra ransomware   ← 0 live hits
+[   0] Finastra cyberattack   ← 0 live hits
+[  37] ConnectWise breach
+        | Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack - BleepingComputer
+        | Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants - The Register
+        | Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise - TechCrunch
+        | ConnectWise breach puts more than 300 companies’ secrets at risk - Cybernews
+[   1] ConnectWise outage
+        | ConnectWise Cloud Backup outage: Oct. 19 status - NeoTeo
+[   0] ConnectWise ransomware   ← 0 live hits
+[   6] ConnectWise cyberattack
+        | ConnectWise Suspends Cloud Services in Response to Cyberattack - SecurityWeek
+        | ConnectWise CTO On Cloud Backup Cyberattack, M365 Update And Helping Thousands Of Partners - CRN
+        | China-Linked Cyberattack Forces Tampa’s ConnectWise to Shut Down Services - TBBW
+        | ConnectWise rebuilds trust and invests in technology after cyberattack - MSSP Alert
+[   3] Kaseya breach
+        | The Week In Breach News: October 21, 2026 - Kaseya
+        | The Week in Breach News: July 15, 2026 - Kaseya
+        | The Week In Breach News: September 16, 2026 - Kaseya
+[   0] Kaseya outage   ← 0 live hits
+[   0] Kaseya ransomware   ← 0 live hits
+[   0] Kaseya cyberattack   ← 0 live hits
+[   1] Sharetec breach
+        | Bradford-Scott Data (Sharetec) Data Breach Settlement: Estimated $100 Cash or Up to $5,000 - openclassactions.com
+[   2] Sharetec outage
+        | Sharetec Outage Knocks Credit Unions Offline Across Multiple States - CU Today
+        | Sharetec Outage Stretches Into Fourth Day; Users Conference Postponed - CU Today
+[   0] Sharetec ransomware   ← 0 live hits
+[   0] Sharetec cyberattack   ← 0 live hits
+[   1] N-able breach
+        | N-able rocked by managed services platform breach - Channel Dive
+[   0] N-able outage   ← 0 live hits
+[   0] N-able ransomware   ← 0 live hits
+[   0] N-able cyberattack   ← 0 live hits
+[   0] Fedwire breach   ← 0 live hits
+[   0] Fedwire outage   ← 0 live hits
+[   0] Fedwire ransomware   ← 0 live hits
+[   0] Fedwire cyberattack   ← 0 live hits
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.

@@ -1,0 +1,123 @@
+WATCH_FOR harness — desk CYPHER · 56 phrase(s) · 15841 unique headlines over 98 lane days 2026-06-29 → 2026-10-28 · real matcher, in memory
+
+[   0] Fiserv breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fiserv outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fiserv ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fiserv cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] FIS breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] FIS outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] FIS ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] FIS cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Jack Henry breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Jack Henry outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Jack Henry ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Jack Henry cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Corelation breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Corelation outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Corelation ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Corelation cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Q2 Holdings breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Q2 Holdings outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Q2 Holdings ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Q2 Holdings cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Alkami breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Alkami outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Alkami ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Alkami cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Candescent breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Candescent outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Candescent ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Candescent cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] TruStage breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] TruStage outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] TruStage ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] TruStage cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Finastra breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Finastra outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Finastra ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Finastra cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ConnectWise breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ConnectWise outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ConnectWise ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] ConnectWise cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Kaseya breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Kaseya outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Kaseya ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Kaseya cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Sharetec breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Sharetec outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Sharetec ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Sharetec cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] N-able breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] N-able outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] N-able ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] N-able cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fedwire breach   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fedwire outage   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fedwire ransomware   ← 0 hits (zero noise; recall UNPROVEN)
+
+[   0] Fedwire cyberattack   ← 0 hits (zero noise; recall UNPROVEN)
+
+⚠️  LANE-ONLY RUN: a 0-hit result is UNINFORMATIVE for any subject no lane query fetches. Re-run with --live "<subject query>" before calling such a phrase clean.
+
+SYNTHETIC control: Jack Henry discloses breach of corporate systems -> ['Jack Henry breach']
+
+SYNTHETIC control: Sharetec outage leaves 23 credit unions offline -> ['Sharetec outage']
+
+SYNTHETIC control: FIS outage hits bank customers -> ['FIS outage']
+
+Verdict rule (WQ-295 R3): reject by name any phrase with >0 FALSE hits; the reader classifies, not this tool.
