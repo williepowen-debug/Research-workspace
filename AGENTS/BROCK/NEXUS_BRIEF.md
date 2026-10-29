@@ -2,8 +2,8 @@
 
 **Status:** 🔴 STAGE 2→3 — substance firming; bank transmission unconfirmed; X1 NOT MET, wrapper NOT ARMED.
 **Domain:** BDCs / private credit / alternative managers / AI-infrastructure lending / PE-insurance links. Insurer exposure belongs to SHADE; EU bank/private-credit seam to HANS.
-**Recent thesis pivots:** ① **GATE-BRK-R2 (a) FIRED ×2** — North Haven PIF 9/25 (Q3 prelim 43.8%), OCIC 10/2 (Q3 prelim ~30%); one redemption wave, scored once. ② **BRK-02 RESOLVED FALSE 10/2:** Octus industry non-accruals at COST fell 2.02→1.90% in Q2, while rated-universe medians rose. ③ Duration 3→4 on 9/25, registered >5.00% rung met; latest 4.96 [FRED 10/22] is below the rung now, without an inferred reset rule. ④ WQ-363 (Will 10/3): X1 sustained = 3 consecutive HY readings >280.0; HY leg met, wrapper fails. ⑤ WQ-370 keeps OTIC OUT of R2; **standalone GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)**, first grading Q4-2026.
-**As of:** 2026-10-25T16:58:40-04:00 | STATUS commit: `84e7a03c1` | Convergence **58/70**, last rescore **9/25**, unchanged. Documentation closeout; completed research indexed, original earnings tests preserved.
+**Recent thesis pivots:** ① **GATE-BRK-R2 (a) FIRED ×2** — North Haven PIF 9/25 (Q3 prelim 43.8%), OCIC 10/2 (Q3 prelim ~30%); one redemption wave, scored once. ② **BRK-02 RESOLVED FALSE 10/2:** Octus industry non-accruals at COST fell 2.02→1.90% in Q2, while rated-universe medians rose. ③ Duration 3→4 on 9/25, registered >5.00% rung met; latest 4.96 [FRED 10/22] is below the rung now, without an inferred reset rule. ④ WQ-363 (Will 10/3): X1 sustained = 3 consecutive HY readings >280.0; HY leg met, wrapper fails. ⑤ WQ-370 keeps OTIC OUT of R2; **standalone GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)**, first grading Q4-2026. ⑥ **10/28 (KB-393–404):** ARCC Q3 software guide NOT MET (FV/cost 0.946, <80 share 7.4%); OCIC Q3 FINAL 29.8% ⇒ R2 (b) NOT FIRED; BRK-22 RESOLVED FALSE ($0.48 held). **ARCC buys Apollo's MFIC at ~75% of NAV on its own account (84.6% with Ares adviser cash)**; MFIC marks ≈ ARCC on 12 shared names, but those are 5% of its book.
+**As of:** 2026-10-29T00:08:20-04:00 | STATUS commit: `df2cbea74` | Convergence **58/70**, last rescore **9/25**, unchanged. 10/28–29 owed reads + ARCC–MFIC deal; HTGC 10/29 remains the earnings test.
 
 ## CROSS-DOMAIN
 
@@ -24,7 +24,7 @@
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
-| Issuers / SOIs | ARCC Q3 software marks; HTGC falsifier | **10/27 BMO**, noon ET call; **10/29 AMC**, 17:00 ET call, issuer bodies rechecked 10/25 | Quarterly marks test the research pick; 10-Q may lag release | HTGC falsified for Q3 if software FV/COST ≥97% AND NA ≤1.0% COST AND NAV/sh ≥$12.15. Release alone cannot grade software marks. |
+| Issuers / SOIs | HTGC falsifier (ARCC read DONE 10/28: guide NOT MET) | **10/29 AMC**, 17:00 ET call, issuer bodies rechecked 10/25 | Quarterly marks test the research pick; 10-Q may lag release | HTGC falsified for Q3 if software FV/COST ≥97% AND NA ≤1.0% COST AND NAV/sh ≥$12.15. Release alone cannot grade software marks. |
 | Banks / REGINALD | Other primary calls/final10-Qs/FDIC reports and CFG +52M attribution | Subsequent eligible reads; early-Nov finals | JPM call now read; CFG baseline-date gap resolved, attribution still insufficient | PC-attributable reserve build can fire as written; generic wholesale growth alone does not. No Q3-alone FALSE. |
 | EDGAR / CRMT | Other agreement / ninth bridge / waiver / transaction / acceleration / Item 1.03 | L741 10/28; L794 **10/30 after close + 11/02 AM**, STD Sun 11/01 | Eighth bridge precedes the deadline; filings can precede it again | Transaction/acceleration closes the case; another roll adds case evidence without a vector automatically moving. |
 | EDGAR / CABO; free court source | MBI close, financing, TRO/hearing outcome | **10/30 weekly** | No primary close evidence at 10/22 | Identify rescue lender or default; press-only court report remains qualified. |
@@ -52,7 +52,7 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** six overdue initial bank reads DONE, calls/final filings remain; **ARCC 10/27** first software read; **HTGC 10/29** pick falsifier. **R2 FIRED ×2**, review **10/31**; finals can still grade (b). CRMT/CABO are case evidence, not automatic vector movers.
+- **What / when:** six overdue initial bank reads DONE, calls/final filings remain; **ARCC read DONE 10/28 (guide NOT MET)**; **HTGC 10/29** pick falsifier. **R2 FIRED ×2**, review **10/31**; OCIC final (b) NOT FIRED, North Haven final ~11/05 can still grade (b). CRMT/CABO are case evidence, not automatic vector movers.
 - **Falsifier:** HTGC's three Q3 conditions above; ARCC FV/cost down ≥2 pts from 0.950 or <80-par share ≥8% from 4.2% is a reading guide, not a registered threshold.
 - **Other changes:** ≥80% satisfaction at a named vehicle for two quarters supports downgrade; OTF NII covering dividend weakens the cut thesis. Attributable reserve build escalates bank channel; BRK-25 requires an arm's-length print, count remains 2. BRK-26 requires qualifying post-5/1 enforcement; Madison 2/25 cannot resolve (L657 settled, no interpretation decision owed).
 
@@ -60,8 +60,6 @@
 
 | Date | Event | Threshold / signal |
 |------|-------|---------------------|
-| 10/27 | ARCC Q3 before open, call noon ET (L826) | Six-SOI USD-funded rerun DONE; retain original Experiment A EXPECTED then OBSERVED/MATERIAL DIFFERENCE/REVISED BELIEF. GBDC named link found, amounts unknown; do not infer identical loan rights. |
-| 10/28 | CRMT Item 1.01 backstop #5 (L741) | Other ≤10/22 agreements, excluding already-filed 10/20 extension; silence narrows only. |
 | 10/29 | HTGC Q3 after close, call 17:00 ET (L827) | Three-part falsifier; same one-time Experiment A cells, then trial ends at PROME assessment. |
 | 10/30 | CRMT pre-STD (L794), CABO weekly (L795), WQ-516 encode check L829 | Full feeds; no silence-as-default inference. |
 | By 10/30 | DAEDALUS 10/8 asks + Radiant court-source gap | R2 post-fire rule per vehicle (already FIRED ×2), sector median, search records BRK-11/18/25/26, VX-013 coverage basis, Medallia canonical handoff. |
