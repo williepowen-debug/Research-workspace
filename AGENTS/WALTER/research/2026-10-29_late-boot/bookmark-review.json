@@ -1,0 +1,28 @@
+{
+ "schema": 2,
+ "staged_at": 1793296102.1117604,
+ "items": [
+  {
+   "id": "2115844980220874838",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115594462923485674",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115765732671701035",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  }
+ ],
+ "stage_id": "cb05bea3e0514ef0b12948d75de7b672"
+}

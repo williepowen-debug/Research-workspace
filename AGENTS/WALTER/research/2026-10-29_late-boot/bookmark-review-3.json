@@ -1,0 +1,105 @@
+{
+ "schema": 2,
+ "staged_at": 1793317235.5432618,
+ "items": [
+  {
+   "id": "2115821380356763776",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115898409655607784",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115913862625255666",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115906842412875959",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115897644828774723",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115908225010749885",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115779934136545373",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115604573473665383",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115915354081833234",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115916297817018621",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115909167667990686",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115913607644860593",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115907468689559643",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115904721856651382",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  }
+ ],
+ "stage_id": "05e9404507c14a0ca4f66b3a9e1bcc29"
+}

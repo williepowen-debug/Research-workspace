@@ -1,0 +1,49 @@
+{
+ "schema": 2,
+ "staged_at": 1793302677.8517303,
+ "items": [
+  {
+   "id": "2115874609014726842",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115875276789887456",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115849552905347370",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115819947980919105",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115849370407194667",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2115842384273539095",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  }
+ ],
+ "stage_id": "8a8c747130f443aeb0f796c8060dde47"
+}
