@@ -493,6 +493,87 @@ class InstallerTests(unittest.TestCase):
         self.assertEqual(list(self.desktop.iterdir()), [])
 
 
+class WorkEvidenceTests(unittest.TestCase):
+    def test_preserved_real_prome_export(self):
+        fixture = SCRIPTS / 'tests/fixtures/launcher_open_export_v1.json'
+        rows = gui.parse_due_export(fixture.read_text(), gui.date(2026, 10, 29))
+        self.assertTrue(any(r['covered'] for r in rows))
+        self.assertTrue(any(r['primary_owner'] == 'WILL' for r in rows))
+        self.assertTrue(any(r['timing'] == 'unknown' for r in rows))
+        self.assertTrue(any(r['timing'] == 'today' for r in rows))
+
+    def export(self, rows):
+        records = []
+        for key, date_cell, due, owner, state, text in rows:
+            timing = 'undated' if not due else 'overdue' if due < '2026-10-29' else 'today' if due == '2026-10-29' else 'future'
+            token = owner.split()[0].split('/')[0].upper()
+            records.append(dict(key=key, date_cell=date_cell, due=due, owner_cell=owner,
+                                owner_token=token, state_cell=state, catalyst=text, coverage='',
+                                covered='COVERED' in state, notes='', approx=False,
+                                will_owned=token == 'WILL', status=timing))
+        return json.dumps(dict(schema='spawn_list.open', version=1, as_of='2026-10-29',
+                               source_sha256='0' * 64, count=len(records), rows=records))
+
+    def test_due_dates_ownership_coverage_and_literal_text(self):
+        rows = gui.parse_due_export(self.export([
+            ['D:L1', '2026-10-28..2026-10-30', '2026-10-30', 'WAL / WALTER', 'PENDING COVERED: consumer', 'Full\ttext\nsecond line'],
+            ['D:L2', '2026-10-29', '2026-10-29', 'WALTER', 'PENDING', 'Today'],
+            ['D:L3', '2026-10-28', '2026-10-28', 'WAL', 'PENDING', 'Overdue'],
+            ['D:L4', 'undated', '', 'WAL', 'PENDING', 'Unknown'],
+            ['D:L5', '2026-10-29', '2026-10-29', 'Will (with WAL)', 'PENDING', 'Operator decision'],
+        ]), gui.date(2026, 10, 29))
+        snapshot = dict(state='available', rows=rows, as_of='2026-10-29')
+        wal = gui.due_for('WAL', snapshot, {'WAL', 'WALTER', 'PROME'})
+        self.assertEqual((wal['today'], wal['overdue'], wal['unknown']), (0, 1, 1))
+        self.assertEqual(wal['rows'][0]['description'], 'Full\ttext\nsecond line')
+        self.assertIn('COVERED', wal['rows'][0]['state'])
+        self.assertEqual(gui.due_for('WALTER', snapshot, {'WAL', 'WALTER'})['today'], 1)
+        prome = gui.due_for('PROME', snapshot, {'WAL', 'WALTER', 'PROME'})
+        self.assertEqual(prome['today'], 0)
+        self.assertEqual(prome['other_rows'][0]['primary_owner'], 'WILL')
+
+    def test_due_missing_failed_malformed_and_empty_are_distinct(self):
+        for text in ('', 'DOCKET open rows\n', self.export([
+                ['D:L1', '', 'bad', 'WAL', 'PENDING', 'Bad date']]), self.export([
+                ['D:L1', '', '', 'WAL', 'PENDING', 'One'],
+                ['D:L1', '', '', 'WAL', 'PENDING', 'Duplicate']])):
+            with self.assertRaises(ValueError):
+                gui.parse_due_export(text, gui.date(2026, 10, 29))
+        self.assertEqual(gui.parse_due_export(self.export([]), gui.date(2026, 10, 29)), [])
+        with patch.object(gui.subprocess, 'run', return_value=subprocess.CompletedProcess([], 0, 'human table', '')):
+            self.assertEqual(gui.due_snapshot(today=gui.date(2026, 10, 29))['state'], 'unavailable')
+        with patch.object(gui.subprocess, 'run', side_effect=subprocess.TimeoutExpired('export', 15)):
+            self.assertEqual(gui.due_snapshot()['state'], 'unavailable')
+
+    def test_touch_view_is_dated_advisory_not_today_only_or_prefix_match(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            source = root / 'PROME/state/ORCH_INFLIGHT.md'
+            source.parent.mkdir(parents=True)
+            source.write_text('## IN-FLIGHT rows (2)\n'
+                              '| 2026-10-28 | WAL (session) | window | 1 | | IN-FLIGHT | | |\n'
+                              '| 2026-10-29 | WALTER | window | 1 | | IN-FLIGHT | | |\n'
+                              '\n## DELIVERED\n| 2026-10-29 | WAL | window | 2 | 1 | DELIVERED | 1 | 0 |\n')
+            self.assertEqual(gui.touch_for('WAL', gui.unresolved_touches(root))['dates'], ['2026-10-28'])
+            self.assertEqual(gui.touch_for('OTHER', gui.unresolved_touches(root))['dates'], [])
+            source.write_text('broken')
+            self.assertEqual(gui.unresolved_touches(root)['state'], 'unavailable')
+
+    def test_refresh_returns_only_evidence_and_never_launches(self):
+        with tempfile.TemporaryDirectory() as folder:
+            request = Path(folder) / 'refresh.json'
+            request.with_name('context.json').write_text(json.dumps({'config': '/fixture/config.json'}))
+            with patch.object(gui, 'catalogue', return_value=[{'name': 'FIXTURE'}]) as cat, \
+                    patch.object(agents, 'open_window') as launch:
+                self.assertEqual(gui.refresh_snapshot(request), 0)
+                self.assertTrue(json.loads(request.with_suffix('.result.json').read_text())['ok'])
+                cat.assert_called_once_with(Path('/fixture/config.json'))
+                launch.assert_not_called()
+            with patch.object(gui, 'catalogue', side_effect=agents.LaunchError('Missing config')):
+                self.assertEqual(gui.refresh_snapshot(request), 2)
+                self.assertFalse(json.loads(request.with_suffix('.result.json').read_text())['ok'])
+
+
 class SavedWorkTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(prefix='launcher-git-')

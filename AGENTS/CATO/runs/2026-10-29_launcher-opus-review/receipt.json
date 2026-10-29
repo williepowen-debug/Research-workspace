@@ -1,0 +1,31 @@
+{
+  "session_id": "dc9a62d7-764b-40ef-a067-f451149c84a1",
+  "model_usage": {
+    "claude-opus-5-5": {
+      "inputTokens": 40,
+      "outputTokens": 28375,
+      "cacheReadInputTokens": 1161133,
+      "cacheCreationInputTokens": 83588,
+      "webSearchRequests": 0,
+      "costUSD": 1.4685905999999997,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 16757,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 83588,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "requested_model": "opus",
+  "sha256": {
+    "scripts/agents.py": "e551a5f8d04aca55c4d8a14cee1b7ebd9485b91d640a1192cbc792590e902470",
+    "scripts/agents_gui.py": "72f8049278694420915c779e20a45d84bcddc502953d666205f2ea7c5ed63fd0",
+    "scripts/agents_gui.ps1": "860889c1ba1cf18f18a1ea1dd6db69531ea94f509c068009252905ac34c07b89"
+  },
+  "is_error": false,
+  "duration_ms": 557240,
+  "num_turns": 24,
+  "closeout": "Reviewer states finished, no helper work remains; process exited 0."
+}

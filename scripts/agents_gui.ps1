@@ -1,7 +1,7 @@
 param([Parameter(Mandatory=$true)][string]$DataFile, [switch]$SmokeTest)
 $ErrorActionPreference = 'Stop'
 trap {
-    if (-not $SmokeTest) {[void][System.Windows.Forms.MessageBox]::Show($_.Exception.Message,'Agent Launcher')}
+    if (-not $SmokeTest -and -not $data.test_mode) {[void][System.Windows.Forms.MessageBox]::Show($_.Exception.Message,'Agent Launcher')}
     Write-Error $_ -ErrorAction Continue
     exit 2
 }
@@ -13,6 +13,7 @@ $script:busy=$false; $script:process=$null; $script:selected=$null
 $script:loading=$false; $script:filtering=$false
 $script:checked=@{}; $script:settings=@{}
 $script:editAll=$true
+$script:refreshProcess=$null; $script:refreshFailure=''
 $script:queue=New-Object Collections.Queue
 $script:active=$null; $script:completed=0; $script:failed=0
 foreach ($entry in $data.agents) {
@@ -172,6 +173,7 @@ $categories.DisplayMember='Display'; $form.Controls.Add($categories)
 foreach ($g in ($data.agents | Select-Object -ExpandProperty group -Unique)) {
     [void]$categories.Items.Add([pscustomobject]@{Name=$g;Display=$g})
 }
+[void]$categories.Items.Add([pscustomobject]@{Name='__due__';Display='Due today / overdue'})
 $categories.Add_DrawItem({
     param($sender,$e)
     if ($e.Index -lt 0) {return}
@@ -298,6 +300,7 @@ $searchScope.ForeColor=$muted
 $ageSource=New-Object Windows.Forms.ComboBox
 $ageSource.DropDownStyle='DropDownList'; Style-Input $ageSource
 [void]$ageSource.Items.Add('Last launch here'); [void]$ageSource.Items.Add('Last saved work')
+[void]$ageSource.Items.Add('Due work')
 $ageSource.SelectedIndex=0
 Place $ageSource $pages.Agents 260 124 252 30
 $tooltip.SetToolTip($ageSource,'Choose the evidence used for age highlighting. Neither source proves the agent is idle or needs a new session.')
@@ -315,13 +318,14 @@ Style-Input $recentDetails
 Place $recentDetails $pages.Agents 550 144 518 128 'Top,Left,Right'
 Place $runtimeLabel $pages.Agents 550 282 518 25 'Top,Left,Right'
 Place $runtime $pages.Agents 550 310 518 32 'Top,Left,Right'
-$taskSummary=Label '' 0 0 1 1 10
-Place $taskSummary $pages.Agents 550 354 518 40 'Top,Left,Right'
-$taskSummary.ForeColor=$muted
+$taskSummary=New-Object Windows.Forms.TextBox
+$taskSummary.Multiline=$true; $taskSummary.ReadOnly=$true; $taskSummary.ScrollBars='Vertical'
+Style-Input $taskSummary
+Place $taskSummary $pages.Agents 550 354 518 62 'Top,Left,Right'
 $editInstructions=Button 'Edit instructions...' 0 0 1
-Place $editInstructions $pages.Agents 550 400 518 40 'Top,Left,Right'
-Place $start $pages.Agents 550 452 250 40
-Place $resume $pages.Agents 812 452 256 40 'Top,Right'
+Place $editInstructions $pages.Agents 550 422 518 32 'Top,Left,Right'
+Place $start $pages.Agents 550 462 250 32
+Place $resume $pages.Agents 812 462 256 32 'Top,Right'
 Place $hint $pages.Agents 550 498 518 30 'Top,Left,Right'
 
 Place $savedLabel $pages.Selected 16 16 500 26
@@ -388,7 +392,9 @@ Place $historyDetail $pages.Activity 390 66 678 324 'Top,Bottom,Left,Right'
 $historyOpen=Button 'Go to this agent' 0 0 1
 Place $historyOpen $pages.Activity 20 404 354 40 'Bottom,Left'
 $reloadActivity=Button 'Reload launch history' 0 0 1
-Place $reloadActivity $pages.Activity 20 454 354 40 'Bottom,Left'
+Place $reloadActivity $pages.Activity 20 454 172 40 'Bottom,Left'
+$refreshEvidence=Button 'Refresh Git / due' 0 0 1
+Place $refreshEvidence $pages.Activity 202 454 172 40 'Bottom,Left'
 $latestLabel=Label 'Latest batch details' 0 0 1 1 9
 Place $latestLabel $pages.Activity 390 404 678 26 'Bottom,Left,Right'
 $latestLabel.ForeColor=$muted
@@ -657,7 +663,8 @@ function Rename-SavedGroup($value) {
 $builtInPresets=@(
     @{name='Orient and report status';text='Follow your startup instructions. Recover current work, approvals, and unresolved conditions. Give Will a short status and suggested next step. Do not begin unassigned work.'},
     @{name='Continue approved work';text='Follow your startup instructions and recover the current assignment, existing approvals, and unresolved conditions. Continue only work already authorized and currently in scope. Preserve all approval conditions; ask Will if the applicable assignment or authority is unclear. Report the result and next stopping point.'},
-    @{name='Prepare handoff';text='Follow your startup instructions and recover current work and approvals. Prepare your normal handoff and closeout for the existing assignment. Preserve unfinished work, blockers, approval conditions, and a clear resume point. Do not start new research or unrelated pending work.'}
+    @{name='Prepare handoff';text='Follow your startup instructions and recover current work and approvals. Prepare your normal handoff and closeout for the existing assignment. Preserve unfinished work, blockers, approval conditions, and a clear resume point. Do not start new research or unrelated pending work.'},
+    @{name='CATCH-UP';text='Follow your startup instructions and recover current work, existing approvals, and unresolved conditions. Bring your files and folders current with new data within your approved workstreams. Drain your inbox under your normal owner protocol. Work owed and incomplete items that are already authorized and currently in scope. Preserve existing approval conditions; return new directions or unclear authority to Will. Close out under your normal protocol and report the results, remaining work, and next stopping point. Follow PROME/COMPLETION_SPEC.md for delivery.'}
 )
 function Validate-LocalRecords($document,$kind) {
     if ($document.version -ne 1 -or $document.$kind -isnot [Array]) {throw ('Unsupported '+$kind+' file format. The original file was kept.')}
@@ -839,7 +846,8 @@ function Show-RecentDetails {
     } elseif ($work.message) {$workText=$work.message}
     $snapshot='when this window opened'
     if ($data.captured_at) {$snapshot=([DateTimeOffset]::Parse($data.captured_at)).LocalDateTime.ToString('MMM d HH:mm')}
-    $recentDetails.Text='Last launch here: '+$launchText+"`r`nLast saved work: "+$workText+$commit+"`r`n`r`nLaunch history is local; manual and PROME starts may be absent. Saved work is a folder commit, not proof the agent ran. Git checked "+$snapshot+'; reopen to refresh.'
+    $recentDetails.Text='Last launch here: '+$launchText+"`r`nLast saved work: "+$workText+$commit+"`r`n`r`n"+(Due-Details $entry)+"`r`n`r`nLaunch history is local; manual and PROME starts may be absent. Saved work is a folder commit, not proof the agent ran. Evidence checked "+$snapshot+'; refresh on Activity.'
+    if ($script:refreshFailure) {$recentDetails.AppendText("`r`nRefresh failed: "+$script:refreshFailure+' Previous snapshot retained.')}
 }
 function Reload-Activity {
     try {
@@ -850,6 +858,103 @@ function Reload-Activity {
         Log-Result ('Launch history unavailable: '+$_.Exception.Message)
     }
     Refresh-History; Filter-Agents
+}
+function Due-Label($entry) {
+    $due=$entry.due_work
+    if (-not $due -or $due.state -ne 'available') {return 'Due unavailable'}
+    $parts=@()
+    if ($due.overdue -gt 0) {$parts+=('OVERDUE '+$due.overdue)}
+    if ($due.today -gt 0) {$parts+=('DUE '+$due.today)}
+    if ($due.unknown -gt 0) {$parts+=('UNDATED '+$due.unknown)}
+    if ($parts.Count -eq 0 -and @($due.other_rows | Where-Object {$_.timing -ne 'future'}).Count -gt 0) {return 'Operator / unmapped due'}
+    if ($parts.Count -eq 0) {return 'No docket work due'}
+    return $parts -join ' / '
+}
+function Due-Details($entry) {
+    $due=$entry.due_work
+    if (-not $due -or $due.state -ne 'available') {return 'Docket due work unavailable; this does not mean nothing is owed.'}
+    $lines=@('Docket work as of '+$due.as_of+' (Eastern; GATES not included):')
+    foreach ($row in $due.rows) {
+        $lines+=($row.key+' | '+$row.date+' | '+$row.owner+"`r`n"+$row.description+"`r`n"+$row.state)
+        if ($row.covered) {$lines+=('COVERED: '+$row.coverage)}
+        if ($row.notes) {$lines+=('Notes: '+$row.notes)}
+    }
+    if (@($due.rows).Count -eq 0) {$lines+='No open docket rows assigned to this desk in this snapshot.'}
+    if (@($due.other_rows).Count -gt 0) {
+        $lines+='Operator / unmatched-owner rows (not counted as PROME work):'
+        foreach ($row in $due.other_rows) {
+            $lines+=($row.key+' | '+$row.date+' | '+$row.owner+' | '+$row.description+' | '+$row.state)
+            if ($row.covered) {$lines+=('COVERED: '+$row.coverage)}
+            if ($row.notes) {$lines+=('Notes: '+$row.notes)}
+        }
+    }
+    $lines+='Badges follow the first named docket owner; full owner text is shown above.'
+    $lines+='Owed is not the same as should launch. COVERED and Will-owned rows are listed, not recommended.'
+    return $lines -join "`r`n"
+}
+function Start-EvidenceRefresh {
+    if ($script:busy -or $script:refreshProcess) {return}
+    try {
+        $id=[Guid]::NewGuid().ToString('N')
+        $script:refreshResult=Join-Path $data.directory ($id+'.result.json')
+        $values=@('-d',$data.distro,'-u',$data.user,'--exec',$data.python,$data.bridge,'--refresh',($data.linux_directory+'/'+$id+'.json'))
+        $quoted=foreach ($v in $values) {
+            $v=[string]$v
+            if ($v -and $v -notmatch '[\s"]') {$v} else {
+                $escaped=[regex]::Replace($v,'(\\*)"','$1$1\"')
+                $escaped=[regex]::Replace($escaped,'(\\+)$','$1$1')
+                '"'+$escaped+'"'
+            }
+        }
+        $psi=New-Object Diagnostics.ProcessStartInfo
+        $psi.FileName='wsl.exe'; $psi.Arguments=$quoted -join ' '
+        $psi.UseShellExecute=$false; $psi.CreateNoWindow=$true
+        $psi.RedirectStandardOutput=$true; $psi.RedirectStandardError=$true
+        $script:refreshProcess=[Diagnostics.Process]::Start($psi)
+        $script:refreshOutput=$script:refreshProcess.StandardOutput.ReadToEndAsync()
+        $script:refreshError=$script:refreshProcess.StandardError.ReadToEndAsync()
+        $script:refreshStarted=[DateTime]::UtcNow
+        $status.Text='Refreshing Git and docket evidence; your prepared settings are kept.'
+    } catch {$script:refreshFailure=$_.Exception.Message; $status.Text='Refresh failed: '+$script:refreshFailure}
+    Update-Buttons
+}
+function Apply-EvidenceSnapshot($snapshot) {
+    if (-not $snapshot.ok) {throw ('Refresh failed: '+$snapshot.message)}
+    if (-not $snapshot.captured_at -or @($snapshot.agents).Count -ne @($data.agents).Count) {throw 'Catalogue changed or refresh is incomplete. Reopen to load configuration changes.'}
+    $stamp=[DateTimeOffset]::Parse($snapshot.captured_at)
+    foreach ($entry in $data.agents) {
+        $matches=@($snapshot.agents | Where-Object {$_.name -ceq $entry.name})
+        if ($matches.Count -ne 1 -or -not $matches[0].saved_work -or -not $matches[0].due_work -or -not $matches[0].prome_touch) {throw 'Refresh is incomplete; previous snapshot retained.'}
+    }
+    foreach ($entry in $data.agents) {
+        $fresh=@($snapshot.agents | Where-Object {$_.name -ceq $entry.name})[0]
+        foreach ($field in @('saved_work','due_work','prome_touch')) {$entry | Add-Member -NotePropertyName $field -NotePropertyValue $fresh.$field -Force}
+    }
+    $data | Add-Member -NotePropertyName captured_at -NotePropertyValue $snapshot.captured_at -Force
+    $script:refreshFailure=''
+    Filter-Agents
+    $status.Text='Evidence refreshed '+$stamp.LocalDateTime.ToString('HH:mm')+'. Selections and prepared settings kept.'
+}
+function Poll-EvidenceRefresh {
+    if (-not $script:refreshProcess) {return}
+    $finished=$false
+    try {
+        if (Test-Path -LiteralPath $script:refreshResult) {
+            $finished=$true
+            Apply-EvidenceSnapshot (Get-Content -LiteralPath $script:refreshResult -Raw | ConvertFrom-Json)
+        } elseif ($script:refreshProcess.HasExited) {
+            $finished=$true
+            throw ('Refresh did not return evidence: '+$script:refreshError.Result)
+        } elseif (([DateTime]::UtcNow-$script:refreshStarted).TotalSeconds -gt 90) {
+            $finished=$true
+            throw 'Refresh timed out. Previous snapshot retained.'
+        }
+    } catch {
+        $script:refreshFailure=$_.Exception.Message
+        $status.Text=$script:refreshFailure; Show-RecentDetails
+    } finally {
+        if ($finished) {$script:refreshProcess.Dispose(); $script:refreshProcess=$null; Update-Buttons}
+    }
 }
 function Apply-Preset($toChecked) {
     if ($script:busy -or $preset.SelectedIndex -lt 0) {return}
@@ -870,8 +975,9 @@ function Apply-Preset($toChecked) {
 function Update-Buttons {
     $ageSource.Enabled=-not $script:busy
     $reloadActivity.Enabled=-not $script:busy
+    $refreshEvidence.Enabled=(-not $script:busy -and $null -eq $script:refreshProcess)
     $ready=(@(Edit-Names).Count -gt 0 -and -not $script:busy)
-    $single=($null -ne $script:selected -and -not (Editing-All) -and -not $script:busy)
+    $single=($null -ne $script:selected -and -not (Editing-All) -and -not $script:busy -and $null -eq $script:refreshProcess)
     $start.Enabled=$single
     $resume.Enabled=($single -and [string]::IsNullOrWhiteSpace($task.Text))
     $instructionStart.Enabled=$start.Enabled; $instructionResume.Enabled=$resume.Enabled
@@ -883,7 +989,7 @@ function Update-Buttons {
     $runtime.Enabled=$ready
     $task.Enabled=$ready
     $search.Enabled=-not $script:busy; $list.Enabled=-not $script:busy; $categories.Enabled=-not $script:busy
-    $batch.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
+    $batch.Enabled=($script:checked.Count -gt 0 -and -not $script:busy -and $null -eq $script:refreshProcess)
     $noun=' agents'; if ($script:checked.Count -eq 1) {$noun=' agent'}
     $batch.Text='Review & launch '+$script:checked.Count+$noun
     $clear.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
@@ -908,9 +1014,7 @@ function Update-Buttons {
     $taskSummary.Text='Instructions: default agent startup'
     if ($taskLabel.Text -like 'Different instructions*') {$taskSummary.Text='Different instructions across selected agents. Edit instructions to replace them for all.'}
     if (-not [string]::IsNullOrWhiteSpace($task.Text)) {
-        $text=($task.Text -replace '\s+',' ')
-        if ($text.Length -gt 115) {$text=$text.Substring(0,112)+'...'}
-        $taskSummary.Text='Instructions: '+$text
+        $taskSummary.Text='Instructions: '+$task.Text
     }
     $tooltip.SetToolTip($taskSummary,$task.Text)
     $historyOpen.Enabled=($null -ne $historyList.SelectedItem -and -not $script:busy)
@@ -1003,6 +1107,11 @@ function Filter-Agents {
     if ($categories.SelectedItem) {$category=$categories.SelectedItem.Name}
     $searchScope.Text='Browsing the selected category'
     if ($query) {$searchScope.Text='Searching all agents (Ctrl+F)'}
+    $basis='since last launch here'
+    if ($ageSource.SelectedIndex -eq 1) {$basis='since last saved work'}
+    $ageLegend.Text='Amber: 7+ days; orange: 14+ days '+$basis+'.'
+    if ($ageSource.SelectedIndex -eq 2) {$ageLegend.Text='Docket: amber = due today; orange = overdue. Unknown dates stay neutral.'}
+    if ($category -eq '__due__') {$searchScope.Text='Due docket work, including unknown evidence'}
     $script:filtering=$true
     $list.BeginUpdate()
     try {
@@ -1010,13 +1119,22 @@ function Filter-Agents {
         $list.AgeColors.Clear()
         foreach ($entry in $data.agents) {
             $haystack=$entry.name+' '+$entry.purpose+' '+$entry.group
-            if (($query -ne '' -or $category -eq '' -or $category -eq $entry.group) -and $haystack.IndexOf($query,[StringComparison]::OrdinalIgnoreCase) -ge 0) {
+            $categoryMatch=($query -ne '' -or $category -eq '' -or $category -eq $entry.group)
+            if ($category -eq '__due__') {$categoryMatch=(-not $entry.due_work -or $entry.due_work.state -ne 'available' -or $entry.due_work.today -gt 0 -or $entry.due_work.overdue -gt 0 -or $entry.due_work.unknown -gt 0 -or @($entry.due_work.other_rows | Where-Object {$_.timing -ne 'future'}).Count -gt 0)}
+            if ($categoryMatch -and $haystack.IndexOf($query,[StringComparison]::OrdinalIgnoreCase) -ge 0) {
                 $display=$entry.name
+                $dueLabel=Due-Label $entry
+                if ($dueLabel -ne 'No docket work due') {$display+='  '+$dueLabel}
                 if ($entry.error) {$display+=' (check setup)'}
                 $launch=Launch-For $entry.name
                 $stamp=$launch.time
                 if ($ageSource.SelectedIndex -eq 1) {$stamp=$entry.saved_work.time}
                 $age=Activity-Age $stamp
+                if ($ageSource.SelectedIndex -eq 2) {
+                    $age=@{label=$dueLabel;color=$muted}
+                    if ($entry.due_work.today -gt 0) {$age.color=[Drawing.Color]::FromArgb(245,210,125)}
+                    if ($entry.due_work.overdue -gt 0) {$age.color=[Drawing.Color]::FromArgb(255,166,102)}
+                }
                 $ageText=$age.label
                 if ($ageSource.SelectedIndex -eq 0 -and -not $script:historyHealthy) {$ageText='History unavailable'}
                 if ($ageSource.SelectedIndex -eq 1 -and $entry.saved_work.state -eq 'unavailable') {$ageText='History unavailable'}
@@ -1050,6 +1168,9 @@ function Preview-Text($items) {
     foreach ($item in $items) {
         $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$item.runtime]
         $lines.Add($item.name+'  |  '+$label)
+        $entry=@($data.agents | Where-Object {$_.name -eq $item.name})[0]
+        if ($entry.prome_touch.state -ne 'available') {$lines.Add('PROME touch evidence unavailable; current activity unknown.')}
+        elseif (@($entry.prome_touch.dates).Count -gt 0) {$lines.Add('PROME has an unresolved touch recorded for this desk, dated '+($entry.prome_touch.dates -join ', ')+'. This does not establish whether it is still running.')}
         if ($item.task) {$lines.Add('Task: '+$item.task)} else {$lines.Add('Task: follow the agent startup instructions')}
         $lines.Add('')
     }
@@ -1081,7 +1202,7 @@ function Log-Result($text) {
     if ($text.StartsWith('Not confirmed')) {Set-DetailsVisible $true}
 }
 function Begin-Requests($items) {
-    if ($script:busy -or $items.Count -eq 0) {return}
+    if ($script:busy -or $script:refreshProcess -or $items.Count -eq 0) {return}
     $script:busy=$true; $script:completed=0; $script:failed=0
     $tabs.SelectedTab=$pages.Activity
     $results.Clear(); $script:queue.Clear()
@@ -1154,6 +1275,7 @@ function Begin-Launch($action) {
 $timer=New-Object Windows.Forms.Timer
 $timer.Interval=200
 $timer.Add_Tick({
+    Poll-EvidenceRefresh
     if (-not $script:busy -or $null -eq $script:process) {return}
     try {
         if (Test-Path -LiteralPath $script:resultFile) {
@@ -1174,6 +1296,7 @@ $timer.Add_Tick({
 $search.Add_TextChanged({Filter-Agents})
 $ageSource.Add_SelectedIndexChanged({Filter-Agents})
 $reloadActivity.Add_Click({Reload-Activity})
+$refreshEvidence.Add_Click({Start-EvidenceRefresh})
 $categories.Add_SelectedIndexChanged({Filter-Agents})
 $list.Add_SelectedIndexChanged({Select-Agent})
 $list.Add_ItemCheck({
@@ -1535,6 +1658,43 @@ if ($SmokeTest) {
             [IO.File]::WriteAllText($script:historyPath,$bad); Reload-Activity
             if ($script:historyHealthy -or $null -ne (Launch-For 'PROME')) {throw 'Invalid summary retained a freshness claim'}
             [IO.File]::WriteAllText($script:historyPath,$historyBefore); Reload-Activity
+            Test-Step 'Due work, evidence refresh, and catch-up'
+            $originalRows=$data.agents | ConvertTo-Json -Depth 15 | ConvertFrom-Json
+            $oldStamp=$data.captured_at
+            $freshRows=$data.agents | ConvertTo-Json -Depth 15 | ConvertFrom-Json
+            foreach ($entry in $freshRows) {
+                $due=[pscustomobject]@{state='available';as_of='2026-10-29';today=0;overdue=0;unknown=0;rows=@();other_rows=@()}
+                if ($entry.name -eq 'CARL') {
+                    $due.today=1; $due.overdue=1
+                    $due.rows=@([pscustomobject]@{key='D:L1';date='2026-10-28';owner='CARL / PROME';description='Fixture overdue work';state='PENDING';covered=$true;coverage='consumer read';notes='Preserve this note'})
+                }
+                $entry | Add-Member -NotePropertyName due_work -NotePropertyValue $due -Force
+                $entry | Add-Member -NotePropertyName prome_touch -NotePropertyValue ([pscustomobject]@{state='available';dates=@('2026-10-28')}) -Force
+            }
+            Focus-Agent 'CARL'; $search.Text='CARL'; $task.Text='Retain my prepared work'; $runtime.SelectedItem='Claude Opus'
+            $beforeSettings=$script:settings | ConvertTo-Json -Depth 8 -Compress
+            $beforeMembers=@($script:checked.Keys | Sort-Object) -join '|'
+            $beforeCategory=$categories.SelectedIndex
+            Apply-EvidenceSnapshot ([pscustomobject]@{ok=$true;agents=$freshRows;captured_at='2026-10-29T16:00:00Z'})
+            if (($script:settings | ConvertTo-Json -Depth 8 -Compress) -cne $beforeSettings -or (@($script:checked.Keys | Sort-Object) -join '|') -cne $beforeMembers -or $search.Text -ne 'CARL' -or $categories.SelectedIndex -ne $beforeCategory) {throw 'Refresh changed prepared settings or filters'}
+            if ($recentDetails.Text -notmatch 'COVERED: consumer read' -or $recentDetails.Text -notmatch 'Preserve this note' -or $list.Items[0].Display -notmatch 'OVERDUE 1 / DUE 1') {throw 'Due badge or coverage details missing'}
+            $previewText=Preview-Text @(Request-For $script:selected 'new')
+            if ($previewText -notmatch 'unresolved touch.*2026-10-28' -or $previewText -notmatch 'does not establish') {throw 'Earlier-date touch advisory missing'}
+            $ageSource.SelectedIndex=1
+            if ($ageLegend.Text -notmatch 'since last saved work') {throw 'Saved-work age label missing'}
+            $ageSource.SelectedIndex=0
+            if ($ageLegend.Text -notmatch 'since last launch here') {throw 'Launch age label missing'}
+            $ageSource.SelectedIndex=2
+            $search.Clear(); $categories.SelectedIndex=$categories.Items.Count-1
+            if ($list.Items.Count -ne 1 -or $list.Items[0].Entry.name -ne 'CARL') {throw 'Due category included future/empty desks'}
+            $tabs.SelectedTab=$pages.Instructions; $task.Clear(); $preset.SelectedItem='CATCH-UP'; $usePreset.PerformClick()
+            if ($task.Text -notmatch 'Close out' -or $task.Text -notmatch 'already authorized' -or $task.Text -notmatch 'PROME/COMPLETION_SPEC.md') {throw 'CATCH-UP lost scope or delivery instruction'}
+            $beforeStamp=$data.captured_at
+            $failed=$false
+            try {Apply-EvidenceSnapshot ([pscustomobject]@{ok=$true;agents=@();captured_at='2026-10-29T17:00:00Z'})} catch {$failed=$true}
+            if (-not $failed -or $data.captured_at -ne $beforeStamp) {throw 'Incomplete refresh replaced good evidence'}
+            $data.agents=$originalRows; $data.captured_at=$oldStamp
+            $ageSource.SelectedIndex=0; $categories.SelectedIndex=0; Filter-Agents
             Test-Step 'Page bounds and resize'
             # Activity has its own page; errors reveal it without growing the window.
             $tabs.SelectedTab=$pages.Agents; $height=$form.ClientSize.Height

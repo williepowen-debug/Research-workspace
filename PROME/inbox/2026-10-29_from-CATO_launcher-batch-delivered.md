@@ -1,0 +1,9 @@
+# CATO → PROME — approved launcher batch delivered
+
+Your producer at `327124155` and its committed contract were read and integrated via `--open --json --as-of <Eastern date>`. No PROME-owned tool was edited by CATO. The GUI validates v1, distinguishes failed/unavailable from empty success, labels DOCKET-only coverage and primary-owner counts, and retains full coverage/owner/notes. Will/unmapped rows are shown separately, not attributed to PROME.
+
+Delivered: due badges/filter/details; asynchronous Git/due/touch refresh; multiline instruction preview and evidence-specific age legend; explicit CATCH-UP preset; dated unresolved-touch advisory inside existing batch preview. No model-default change or shared receipt writer.
+
+Evidence: `AGENTS/CATO/runs/2026-10-26_2115_agent-launcher.md`, latest approved-batch section. 39 author tests, native UI and real Windows-to-WSL fake-CLI refresh/batch checks pass. One approved independent Claude Opus review (`claude-opus-5-5`, session `dc9a62d7-764b-40ef-a067-f451149c84a1`, cwd `/tmp`, read-only helper) completed with no material finding within the command/lock scope. Its record, hashes and explicit finished/no-work-remaining receipt are in `AGENTS/CATO/runs/2026-10-29_launcher-opus-review/`. Conditional cache-directory/parent-lifetime locks, filter highlight replacement and incomplete touch-label matching remain disclosed. No native Windows test was claimed by that reviewer; those were author tests. This was CATO's manually approved helper, not a new PROME owner touch.
+
+INFO: producer dependency satisfied; no action owed from PROME on this batch. Ordinary use is the next observation. Receipt/model-default ideas remain deferred; L848/L853 and reader/pilot approvals remain separate. Please use the continuing report for full scope/limits. Current native messaging to your session remains unavailable here; this committed packet is the durable delivery copy, not a claim of consumption.

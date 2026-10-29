@@ -35,12 +35,34 @@ Groups store agent names and runtimes. Task text remains in the current app
 window, and loading a group preserves those current task edits.
 
 The **Instructions preset** dropdown offers **Orient and report status**, **Continue
-approved work**, and **Prepare handoff**. **Apply** uses the current editing scope:
+approved work**, **Prepare handoff**, and **CATCH-UP**. **Apply** uses the current editing scope:
 all selected agents by default, or the individual agent when overriding.
 **Manage...** also offers an explicit apply-to-all-selected action.
 The preset fills the task box so you can edit it before launch. Replacing
 existing task text asks first. These prompts retain existing assignment and
 approval conditions; choosing a preset starts nothing.
+
+**CATCH-UP** asks the desk to boot, update its files with new data within approved
+workstreams, drain its inbox, complete authorized owed work, and close out and
+report. It preserves approval conditions and returns new or unclear directions
+to Will. It is an explicit editable preset; ordinary startup and model defaults
+are unchanged.
+
+**Due work:** list badges show overdue, due-today and undated open docket rows.
+Choose **Due today / overdue** to filter the list (unknown evidence and undated
+work stay visible), or **Due work** in the evidence dropdown to color rows by
+due status. Details retain the full description, owner, COVERED annotation and
+notes. Counts follow the export's first owner token; secondary consumers and
+informed desks are not counted as owners. Will-owned and unmatched-owner rows
+are listed separately in PROME's details, without counting them as PROME work.
+This uses PROME's `spawn_list.open` v1 export, in Eastern time: **DOCKET only;
+GATES is not included**. Owed is not the same as should launch. Missing or failed
+evidence says **Due unavailable**, never zero owed.
+
+The existing batch preview also shows dated unresolved PROME touches when found,
+including earlier dates. This is a snapshot of `ORCH_INFLIGHT.md`, not proof that
+a desk is still running; no listed touch does not establish that it is idle.
+The line is advisory and adds no confirmation dialog or live-session inventory.
 
 Saved groups persist for this Windows account at
 `%LOCALAPPDATA%\ResearchAgentLauncher\groups.json`; they are local preferences
@@ -135,8 +157,16 @@ Older Claude history says **model unrecorded** because it did not capture the mo
 Saved work means the latest local Git commit touching the agent folder, excluding
 inbox/outbox and configured nested agent folders. It can include another owner's
 changes and does not prove the agent ran or completed research. The details include
-a date, commit subject/hash, and snapshot time. Reopen the launcher to refresh Git
-information. Nothing fetches from the network or scans running sessions.
+a date, commit subject/hash, and snapshot time. On **Activity**, **Refresh Git / due**
+reloads local Git, docket and unresolved-touch evidence in the background while
+preserving checked selections, search, category, models and instructions. If the
+highlighted desk stops matching a due-work filter, the list highlights its first
+remaining result; check the displayed name before using an individual launch.
+Launch buttons
+wait for refresh to finish; editing stays available. Failed refreshes are visible
+and retain the previous dated snapshot. Configuration changes still require reopening.
+Nothing fetches from the network or scans running sessions. The age legend names
+the selected evidence source, and the instruction summary has multiple scrollable lines.
 
 Close older launcher windows and reopen after this update so all windows use the
 new model choices and history format. Agent terminal sessions can remain open.
@@ -164,8 +194,10 @@ new model choices and history format. Agent terminal sessions can remain open.
 
 Each agent window holds a local file lock while its interactive child CLI runs.
 The menu process does not own that lock and can close independently.
-Two launcher windows cannot simultaneously open the same resolved folder, even
-with different runtimes or names. This does **not** detect manually opened
+Two launcher windows using the same cache directory cannot simultaneously open
+the same resolved folder, even with different runtimes or names. Setting
+`XDG_CACHE_HOME` differently between launch environments creates separate locks.
+This does **not** detect manually opened
 sessions, a Codex task that outlives its terminal, other launchers, or sessions
 on another machine. Killing the launcher parent can release the lock while its
 child remains alive. A released lock never proves a desk is idle or complete.
@@ -237,7 +269,8 @@ For an opt-in native Windows control/screenshot check, run
 through Windows Terminal using only fake CLIs, run
 `python3 scripts/tests/probe_agents_gui.py`. Both open and close test windows;
 they leave their evidence under the printed local cache or temporary directory.
-The batch probe checks cancellation, mixed runtimes and separate tasks, two
+The batch probe checks background refresh with prepared settings preserved,
+cancellation, mixed runtimes and separate tasks, two
 concurrent fake CLI processes, and continuation after a missing-folder failure.
 Dry-run checks paths, required startup files, and executable presence, not account
 access, model availability, full runtime behavior, or whether another owner is

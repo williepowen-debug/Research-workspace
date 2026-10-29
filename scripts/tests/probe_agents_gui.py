@@ -45,9 +45,15 @@ source = (SCRIPTS / 'agents_gui.ps1').read_text()
 # Inject fixture-only actions into the production form, using its real buttons,
 # modal review, queue, worker, result timer, and error handling unchanged.
 hook = r'''
+[Windows.Forms.Application]::add_ThreadException({param($sender,$e)
+    @{error=$e.Exception.ToString();refresh_failure=$script:refreshFailure;status=$status.Text} |
+        ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 (Join-Path $data.directory 'test-error.json')
+    $script:queue.Clear(); $form.Close()
+})
 $script:choice='Cancel'
 $script:cancelVerified=$false
 $script:previewSeen=''
+$script:refreshVerified=$false
 $dialogProbe=New-Object Windows.Forms.Timer
 $dialogProbe.Interval=150
 $dialogProbe.Add_Tick({
@@ -66,9 +72,19 @@ $probe=New-Object Windows.Forms.Timer
 $probe.Interval=250
 $probeDeadline=[DateTime]::UtcNow.AddSeconds(50)
 $probe.Add_Tick({
+    if (-not $script:refreshVerified -and [DateTime]::UtcNow -lt $probeDeadline) {
+        if ($script:refreshProcess) {return}
+        if ($script:refreshFailure -or ($script:settings | ConvertTo-Json -Depth 8 -Compress) -cne $script:expectedSettings -or $script:checked.Count -ne 3 -or $script:selected.name -ne 'SECOND_TEST') {throw 'Real refresh lost prepared settings or failed'}
+        $script:refreshVerified=$true
+        $probe.Stop()
+        $dialogProbe.Start(); $batch.PerformClick()
+        $script:cancelVerified=(-not $script:busy -and $script:queue.Count -eq 0 -and $results.TextLength -eq 0 -and $script:history.Count -eq 0)
+        $script:choice='Launch selected'; $batch.PerformClick()
+        $probe.Start()
+    }
     if (-not $script:busy -or [DateTime]::UtcNow -gt $probeDeadline) {
         @{busy=$script:busy;status=$status.Text;results=$results.Text;checked=$script:checked.Count;
-          cancel_verified=$script:cancelVerified;preview=$script:previewSeen;
+          cancel_verified=$script:cancelVerified;refresh_verified=$script:refreshVerified;preview=$script:previewSeen;
           page=$tabs.SelectedTab.Name;history=@($script:history);history_file=$script:historyPath} |
           ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 (Join-Path $data.directory 'ui-result.json')
         $probe.Stop();$script:queue.Clear();$form.Close()
@@ -80,9 +96,8 @@ $form.Add_Shown({
     $task.Text=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('TASK'))
     Focus-Agent 'LAUNCHER_TEST'; $runtime.SelectedItem='Codex Sol'
     Focus-Agent 'SECOND_TEST'; $task.Text='Only the second agent receives this task.'
-    $dialogProbe.Start(); $batch.PerformClick()
-    $script:cancelVerified=(-not $script:busy -and $script:queue.Count -eq 0 -and $results.TextLength -eq 0 -and $script:history.Count -eq 0)
-    $script:choice='Launch selected'; $batch.PerformClick()
+    $script:expectedSettings=$script:settings | ConvertTo-Json -Depth 8 -Compress
+    $tabs.SelectedTab=$pages.Activity; $refreshEvidence.PerformClick()
     $probe.Start()
 })
 '''.replace('TASK', base64.b64encode(task.encode()).decode())
@@ -98,9 +113,11 @@ try:
         print(result.stdout)
     if result.stderr:
         print(result.stderr)
+    if (base / 'test-error.json').exists():
+        raise AssertionError((base / 'test-error.json').read_text(encoding='utf-8-sig'))
     assert result.returncode == 0, result.returncode
     ui = json.loads((base / 'ui-result.json').read_text(encoding='utf-8-sig'))
-    assert not ui['busy'] and ui['cancel_verified'], ui
+    assert not ui['busy'] and ui['cancel_verified'] and ui['refresh_verified'], ui
     assert '3 attempted, 1 not confirmed' in ui['status'], ui
     assert 'Not confirmed - MISSING_TEST' in ui['results'], ui
     assert 'Opened - LAUNCHER_TEST' in ui['results'] and 'Opened - SECOND_TEST' in ui['results'], ui
