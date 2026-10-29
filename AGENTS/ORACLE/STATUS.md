@@ -58,7 +58,7 @@ PM any US bank fails by 12/31 **73.0%** (Δ7d +14.5) on **$1.7K liq / $14.5K lif
 | Blockade-end by 12/31 / 3/31/27 | PM | 40.5 / 61.5 | — | +6.7 / +6.5 | $183.1K / $93.6K | |
 | China invade Taiwan <2027 | PM | 2.1 | — | −0.1 | $415.9K liq | |
 | China GDP 2026 (top) | PM | 96.3 | +0.1 | −0.1 | $12.4K liq | → ZHAO |
-| **WTI $110 Nov (v5 supply leg)** | PM | **52.5** | +11.0 | — | $28.6K liq / $3.4K vol | entry read |
+| **WTI $110 Nov (v5 supply leg)** | PM | **52.5** | +11.0 | — | $28.6K liq / ⚠️ $3.4K vol | entry read: thin volume, run 1, NOT armed — Alert needs a 3-read run each ≥40.0 |
 | WTI $110 Oct (rolled out) | PM | 3.6 | −0.1 | −10.9 | $46.6K liq | ends 11/1 |
 
 ### Tier 2 — catalyst / theater
@@ -105,7 +105,7 @@ PM any US bank fails by 12/31 **73.0%** (Δ7d +14.5) on **$1.7K liq / $14.5K lif
 | Rates (10Y) | ^TNX 5.05; Oct rungs thin | BOND/TERRY own | par==DGS10 unconfirmed | 🟡 |
 | Inflation | Oct CPI modal 3.7 at 90.0 | HENRY owns the print | Kalshi Oct ladder not listed | 🟡 |
 | Recession 2026 | PM 6.0 / Kalshi 3.0 | RED 4–12% (NBER-dated) | structural definitional gap | 🟡 |
-| Oil: premium vs shortage | Nov $110 52.5 (thinly traded); WTI $102 | premium ≠ shortage | Nov spread +36.0 — narrower mainly because a fresh month has more days to touch | 🟠 |
+| Oil: premium vs shortage | Nov $110 52.5 (thin volume, run 1, not armed); WTI $102 | premium ≠ shortage | Nov spread +36.0 — narrower mainly because a fresh month has more days to touch | 🟠 |
 | Iran | ceasefire 10/31 96.7 → 11/30 39.5; blockade-end 12/31 40.5 | HAWK owns | November priced as the break window | 🟠 |
 | Tail complacency | NEH 81.5; S&P best-asset 74.5 | — | NEH resolution text unread | 🟠 standing |
 
@@ -122,7 +122,7 @@ PM any US bank fails by 12/31 **73.0%** (Δ7d +14.5) on **$1.7K liq / $14.5K lif
 - ⚠️ **Kalshi lane is per-box:** laptop = UNSIGNED (`status` rc=3). Signed round-trip still unverified since the 10/15 code change — run `kalshi.py status` → rc=0 at the next desktop boot.
 - ⚠️ **Kalshi `pull` logs FINALIZED markets' last trades as `yes_prob`.** Read `[finalized]` / API `result` for settled markets.
 - ⚠️ **`PINNED BUT NOT FOUND` cannot tell resolved from a bad slug.** Query `closed=true` first (10/28: both not-founds were resolutions).
-- ⚠️ **`polymarket.py pull --log --force` re-logs every row.** Used once 10/28 to log new pins; the 51 duplicate rows were removed. Prefer a plain re-pull after the 10-min guard.
+- ⚠️ **Never use `pull --log --force` to log new pins.** The double-log guard is per slug, so a plain re-pull logs newly pinned markets at once; `--force` re-logs EVERY row by design. Misused once 10/28; the 51 duplicates were removed. Not a tool defect.
 - ⚠️ `STATUS.md` read-cap: re-check each closeout (`scripts/read_cap_check.py --agent ORACLE`).
 
 ## BOTTOM LINE

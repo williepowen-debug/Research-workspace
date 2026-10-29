@@ -49,7 +49,7 @@
   - Recession venues use different definitions (KB-ORC-099).
   - Three published σ remain retracted (KB-ORC-064). CME FedWatch unreachable: do NOT re-attempt `WebFetch`. Treasury par == DGS10 unconfirmed (BOND/TERRY).
   - Polymarket `prices-history`: empty for long spans at fine fidelity (fidelity=720 over 14 days returned n=0 tonight; fidelity=360 over 9 days worked). Use `curl -A "Mozilla/5.0"` (urllib gets 403).
-  - `pull --log --force` re-logs EVERY row; remove duplicates or avoid.
+  - Never `pull --log --force` to log new pins: the guard is per slug, so a plain re-pull logs new pins; `--force` re-logs every row by design (misused 10/28, cleaned).
 - `ledger_staleness` counts `HISTORY.tsv` but prints no row for it (PROME's tool; reported, not patched).
 
 ## OPEN HYPOTHESES

@@ -6,7 +6,7 @@
 **Constraint honored:** no trade implied, no P&L, no position language. No new level set: the Nov pin follows the ruled letter (§5, §9.4).
 
 > **★ THE ONE THING: THE NOVEMBER $110 WTI LEG OPENED AT 52.5% — AND THE VX-ORC-04 ALERT CAN FIRE AT THE 10/30 READ.**
-> Polymarket Nov $110 touch (ICE Pyth CLL) **52.5%** at 00:46Z · liq $28.6K (QUALIFIED) · ⚠️ **lifetime volume $3.4K** — quoted more than traded · CLOB since 10/25 listing 50 → 60 → 38 → 52.5. Ladder $120 14.5 · $130 3.6. October $110 exits at 3.6% (2 sessions left). CME CLZ26 proxy $102.04 (evening) ⇒ +7.8% to $110. Spread (Nov segment, first row) **+36.0pp** — never compared to Oct's +84.9. Alert = reads 10/29 and 10/30 each ≥40.0. BRENT owns the barrels.
+> Polymarket Nov $110 touch (ICE Pyth CLL) **52.5%** at 00:46Z — **entry read: thin volume, run 1, NOT armed, NOT an alert** · liq $28.6K (QUALIFIED) · ⚠️ **lifetime volume $3.4K** — quoted more than traded · CLOB since 10/25 listing 50 → 60 → 38 → 52.5. Ladder $120 14.5 · $130 3.6. October $110 exits at 3.6% (2 sessions left). CME CLZ26 proxy $102.04 (evening) ⇒ +7.8% to $110. Spread (Nov segment, first row) **+36.0pp** — never compared to Oct's +84.9. Alert rule: an armed run of 3 qualified reads each ≥40.0 — earliest possible fire is the 10/30 read. BRENT owns the barrels.
 >
 > **★ FED:** **HELD 10/28** — PM no-change resolved YES / hike-25 NO (closed 20:01:40Z); Kalshi `>4.00` finalized 3.0. The crowd had it (~95% hold). VX-ORC-11 retired unfired. December: PM HIKE-at-Dec **79.5** ($557.3K liq) · Kalshi ≥1 more by Dec **83.0** (OI 50.0K) · two more 4.0. Count ladder 2 hikes in 2026 80.0.
 >
