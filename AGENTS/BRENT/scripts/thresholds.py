@@ -299,7 +299,55 @@ def fred_fetch(series_id, limit=3):
     try:
         return _fred_fetch_keyless(series_id, limit=limit)
     except Exception as e:
-        return [{"error": f"keyed: {keyed_err}; keyless: {e}"}]
+        keyless_err = str(e)
+    eia_fallback = EIA_WORKBOOK_FALLBACKS.get(series_id)
+    if eia_fallback:
+        try:
+            return _eia_workbook_fetch(*eia_fallback, limit=limit)
+        except Exception as e:
+            return [{"error": f"keyed: {keyed_err}; keyless: {keyless_err}; eia: {e}"}]
+    return [{"error": f"keyed: {keyed_err}; keyless: {keyless_err}"}]
+
+
+# FRED series whose ORIGINAL publisher is EIA: same numbers, read from EIA's own key-free
+# workbook when both FRED paths fail (cloud routines: no key, keyless CSV blocked).
+# Added 2026-10-29 under WQ-533 (c); supersedes: none (third floor under fred_fetch).
+# Tested 2026-10-29: Regular 10/26 4.269 and 10/19 4.284 equal FRED GASREGW; the All Grades
+# column in the same sheet reads 4.405, so a wrong-column pick would show.
+EIA_WORKBOOK_FALLBACKS = {
+    "GASREGW": ("https://www.eia.gov/dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls",
+                "Weekly U.S. Regular All Formulations Retail Gasoline Prices  (Dollars per Gallon)"),
+}
+
+
+def _eia_workbook_fetch(url, column, limit=3):
+    """EIA legacy .xls 'Data 1' sheet → newest-first [{date, value, via}]. Raises on anything
+    it cannot validate: the EXACT column header must exist (no fuzzy match), dates must be
+    real, values finite. Needs xlrd (pinned in routine-requirements.txt)."""
+    import pandas as pd
+    req = urllib.request.Request(url, headers=_KEYLESS_HEADERS)
+    with urllib.request.urlopen(req, timeout=45) as resp:
+        if resp.status != 200:
+            raise RuntimeError(f"HTTP {resp.status}")
+        blob = resp.read()
+    df = pd.read_excel(io.BytesIO(blob), sheet_name="Data 1", skiprows=2, engine="xlrd")
+    if column not in df.columns:
+        raise RuntimeError(f"column {column!r} absent — WRONG SHEET OR LAYOUT")
+    out = []
+    for d, v in zip(reversed(list(df["Date"])), reversed(list(df[column]))):
+        try:
+            day = pd.Timestamp(d).strftime("%Y-%m-%d")
+            f = float(v)
+        except (TypeError, ValueError):
+            continue
+        if not math.isfinite(f):
+            continue
+        out.append({"date": day, "value": str(f), "via": "EIA workbook (FRED paths failed)"})
+        if len(out) >= limit:
+            break
+    if not out:
+        raise RuntimeError("workbook read but no valid (date, finite value) observations")
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -456,6 +504,8 @@ def check_fred_thresholds(fred_data):
                              "source": "fred",
                              "reason": f"unparseable value: {obs[0].get('value', '<missing>')!r}"})
             continue
+        if obs[0].get("via"):
+            label = f"{label} [{obs[0]['via']}]"
 
         dist = (value - level) / level * 100
 

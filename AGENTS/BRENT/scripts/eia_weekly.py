@@ -339,6 +339,8 @@ def extract_metrics(text):
             "spr level": "spr",
             "total motor gasoline": "gasoline",
             "gasoline inventories": "gasoline",
+            # Routine label since 2026-10-28 (parenthetical form); exact match kept on purpose.
+            "gasoline inventories (total motor gasoline)": "gasoline",
             "distillate fuel oil": "distillate",
             "distillate inventories": "distillate",
             "refinery utilization": "util",
