@@ -16,6 +16,8 @@
 
 **Older dated blocks: 2026-10-15 → 2026-10-21 and the September-vintage lower half ROTATED VERBATIM → `archive/NEXUS_BRIEF_ROTATED_2026-10-29.md` (crc32 3025320251); 2026-09-24 → 2026-10-10 → `archive/NEXUS_BRIEF_ROTATED_2026-10-21.md` (crc32 145484233).**
 
+🆕 **2026-10-29 PM (overdue research):** **BRENT/HAWK:** (1) The US Graham Act was implemented 10/16 (EO 14436): 100% tariffs on top-5 Russian-crude importers from 10/18, **waived in the same order**; no bite (KB-234). (2) The ledger had missed a **spring 2026 pump-station campaign**: +21 rows 4/9-8/22, mostly Transneft LPDS on the Surgut-Polotsk, Druzhba-feeder and products lines, 1 confirmed / 20 claimed; no flow halt stated anywhere (KB-237). Historical, inland, moves no clock. (3) Druzhba: no interruption reported after Tambov 10/20 (KB-235).
+
 ## CROSS-DOMAIN
 *(Rebuilt 2026-10-29. The September SENDING rows were checked at the recipients' inboxes before removal: Kirishi and the Moscow refinery reached BRENT 9/24 (`AGENTS/BRENT/inbox/processed/2026-09-24_from-OSPREY_c2-letter-changed-moscow-halt-kuibyshev-ufa.md`). The US sanctions bill was worked as H.R. 5334 (KB-164, 9/29). OWED-39 was ruled B by Will 9/19. OWED-33 (Urals) closed 9/21. HAWK delivered the C3 limb-2 grade 10/21. Nothing was dropped unverified.)*
 
