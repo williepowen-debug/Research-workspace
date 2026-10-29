@@ -2,7 +2,7 @@
 
 **Current-use reconciliation2026-10-25:** this is a DATED verification log. July31 §1–3 and subsequent dated blocks preserve past checks, not a claim all carried/unavailable rows are current. Supersessions: MCO unblocked8/21/MAR22 resolved; September voter proxies inMIG-09; CBO2025 range withdrawn/UNSCORED(WFD-24), including prior “correct” endorsement; current migration/proxy and source states inVX/STATUS. Latest bounded source receipt: `research/2026-10-25_stale-file-sweep-phase2/source_checks.md`. October25 new observations: Sepemploymentgap−0.78pp, L&HFL23.87/US23.90, fixedZHVIspread4.48pp, Austin−4.31%/44months,DOM81/+7.05%,JanOct border+5.77%,BEATTM−$3.125B. No historical verification date rewritten. Section5 frozen snapshot/rebuild language is historical; current border-terminus authority is the completed9/24 v3.2 rebuild, not a new rebuild task.
 
-**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-10-21 (session 33 — PROME wave-3 catch-up: state AHE, FL months of supply, CPS population controls, Section 338 scope; see §1 10/21 s33). PRIOR: 2026-09-24 (session 30 — stale-row sweep: remittances, IRS, StatCan Q2 BOP, state AHE, voter-reg cycle; see §1 9/24 s30). PRIOR: 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
+**Created:** 2026-07-31 (session 19) · **Last verification pass:** 2026-10-28 (session 38 — MIA Sep, OFLC re-check, TX months of inventory, DR-1 retraction; see top block). PRIOR: 2026-10-21 (session 33 — PROME wave-3 catch-up: state AHE, FL months of supply, CPS population controls, Section 338 scope; see §1 10/21 s33). PRIOR: 2026-09-24 (session 30 — stale-row sweep: remittances, IRS, StatCan Q2 BOP, state AHE, voter-reg cycle; see §1 9/24 s30). PRIOR: 2026-09-24 (session 29 — airfares, TX border receipts, border-muni credit; see §1 9/24 s29). PRIOR: 2026-09-17 (session 26 — enrollment + Canadian perimeter rows; the 7/31 pass rows stand as dated)
 
 > ## ⚠️ THIS IS A VERIFICATION LOG, NOT A SOURCE OF TRUTH
 > Every figure below has a named **canonical owner**. **If this file and the owner disagree, the OWNER WINS and the row here is stale — re-run it.** This file exists to answer one question the owner files cannot: **"when was this number last checked against a primary source, and by what method?"**
@@ -15,6 +15,14 @@
 `VERIFIED-PRIMARY` pulled from the issuing source this pass · `CARRIED` asserted on a prior pull, not re-checked this pass · `FROZEN` deliberately not maintained, do not cite as current · `RETRACTED` withdrawn, replacement named · `NO PRIMARY` no live instrument exists
 
 ---
+
+## October 28, session 38 — boot catch-up verification
+
+- **VERIFIED-PRIMARY:** MIA airport-reported Sep 2026 **3,573,815 vs 3,640,068 = −1.82% YoY; vs Sep-24 3,795,959 = −5.85% 2-yr** (Miami-Dade Traffic Report PDFs, Sep 2026 + Sep 2025 "(002)"; sum identity exact; prior-year column unrevised). Intl +1.28% / dom −4.33%; seats −1.49% (dom +0.28%). ⇒ MIA-2-consecutive trigger MET. Owner: `baselines/mia_airport_reported.tsv` · `KB-APT-49`.
+- **VERIFIED-PRIMARY:** OFLC newest H-2A disclosure = FY2026_Q3 (performance page, live 10/28). MAR-11's 349,867 / Q4-need 75,133 unchanged.
+- **VERIFIED (institutional release):** TX months of inventory Q3 2026 **5.5** (Q3 2025 5.4), Texas REALTORS 10/20 (DRP / Texas A&M RERC) → `VX-TX-01` ELEVATED. Realtor.com TX listings Sep **+0.86% YoY** (Jul −2.46% reproduced).
+- **RETRACTED (formal):** FL Canadian spending hole **$600M–$1.2B** → no accurate current figure exists (DEWEY MARCO-DR-1, `KB-CAN-52`); see §4 row.
+- **UNAVAILABLE:** LVCVA September (page newest ES_Aug2026, 10/28 ~23:50 ET).
 
 ## October 25, session 35 — commissioned capacity verification
 
@@ -208,6 +216,7 @@ Every new print below was taken only after the SAME pull reproduced the figure M
 
 | Retracted claim | Why it was wrong | ✅ The accurate figure | Fixed |
 |---|---|---|---|
+| **"FL Canadian snowbird spending hole $600M–$1.2B"** (STATUS, FLOW-ENR-01; cited fleet-wide) | Three-county derivation with no sourced base; "3.4M" = Visit FL 2024 trips excluding owners, "$1,800/visitor" has no source anywhere (DEWEY DR-1) | **No defensible current figure exists.** Counts: Visit FL 3,174,000 Canadian trips 2025 (−6.8%). Owner floor 48,107 homes / $21.32B just value (ownership, not spending). Only methoded estimate: Tourism Economics forecast −$23/resident ≈ −$0.5B (2025 vs 2024) | 2026-10-28 (`KB-CAN-52`) |
 | **"FL international migration 2025 = −56.5% vs 2024 (+411K)"** (VX-3.04; CORAL carries −56.5/−57%) | Compared ACROSS Census vintages: +411K was Vintage-2024's 2024 estimate, revised to +283,664 in Vintage 2025 | Same-vintage **−37.0%** (178,674 vs 283,664) | 2026-09-24 |
 | **"TX net domestic +67K (2024)"** (VX-TX-04) | Year label wrong — +67K is the 2025 value | V2025: 2024 +86,067 · **2025 +67,299** | 2026-09-24 |
 | **"Sun Belt delta −534K (AZ −59K, NV −35K), 2022→2024"** (VX-SBMD-01) | AZ/NV reproduce on no V2025 window; window mislabelled | 2022→2025: **−482,326** (FL −288,375 · TX −151,541 · AZ −37,208 · NV −5,202) | 2026-09-24 |
