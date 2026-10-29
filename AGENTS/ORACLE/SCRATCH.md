@@ -31,7 +31,8 @@
 - **🔴 Sat 10/31 / 11/1:** October $110 closes → record NO (or YES) per letter §4; retire the pin with a resolution record. Retire 10Y/30Y Oct rungs, Hormuz any-day + avg-transits, Houthi by-10/31; pin November successors (search found none tonight).
 - **🔴 At the next DESKTOP boot: `kalshi.py status` must return rc=0.**
 - **🟠 Rolls:** BOJ Oct event (10/30) → retire · ceasefire-through event top leg (10/29) · Hormuz 0-ships closure pin (RESOLVED since 8/01) → live rung · Kalshi Oct CPI when `KXCPIYOY-26OCT` lists.
-- **🟠 Coverage nomination pending with PROME:** US midterms 11/3. Next coverage sweep due ≤11/4.
+- **🟠 Midterms pinned 10/28** (PROME OK; House D 92.5 / Senate D 67.5; no VX, no alert) → after 11/4 retire both with resolution records; packet HENRY only if a read is worth a line. Next coverage sweep due ≤11/4.
+- **🟠 Pending with Will (via PROME):** WQ-527 L729 cadence (A/B/C, rec C, needed-by 10/30) · WQ-528 December Fed successor row (rec A; encode only on his word). GATE-ORC-11 RETIRED(TERMINAL), PROME commit 9696b970e.
 - **🟠 KB rows still owed from 10/15:** Sept CPI calibration datum (print 3.7 vs mode 3.6) · Iran crude 1.957M.
 - **🟡 2026-12-15: Kalshi gap-fill quarterly re-check** (WQ-305).
 - **🟡 Carried:** DAEDALUS F-1 Brier (bank-failure family) · NEH resolution text · KB-ORC-086 sweep · TRADE_MARKS refresh · WQ-295 WATCH_FOR check · archive `DIVERGENCE_2026-07-09.md` + `OPEN_THREADS_2026-07-09.md`.

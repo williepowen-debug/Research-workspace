@@ -241,3 +241,6 @@ US announces end of Iran blockade (by-date)	event	us-announces-end-of-iranian-bl
 # ===== ADDED 2026-07-02 (volume/sentiment sweep — off-fleet-radar credit signal) =====
 # Mamdani NYC rent freeze jumped +54.8/7d to 93.8% ($275K vol) — crowd near-certain of a rent-regulated-multifamily freeze. Transmission: freeze → regulated-multifamily NOI compression → the NYCB/Flagstar 2024 collateral → NYC multifamily-lender credit stress. Route REGINALD (bank fundamentals) + CARL (credit chain).
 # RETIRED 2026-10-15 — RESOLVED YES: will-mamdani-freeze-nyc-rents-before-2027 (outcomePrices [1,0]; closed 2026-10-06T01:15Z; vol $294.2K). Gamma closed=true verified. → CARL/REGINALD info.
+# ADDED 2026-10-28 (coverage sweep 10/28 nomination; PROME prome-92 OK 20:5x ET: watchlist row for coverage only, NO VX row, NO alert; HENRY = relevance owner, packet when a read is worth a line). Largest untracked theme on Polymarket: House D 92.5% ($6.8M liq), Senate D 67.5% ($4.1M liq) at 2026-10-29T00:5xZ. Election 11/3; markets end 2026-11-04T04:59Z -> retire with resolution records after.
+Midterms: Dem control House	market	will-the-democratic-party-control-the-house-after-the-2026-midterm-elections	T2	HENRY,PROME
+Midterms: Dem control Senate	market	will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections	T2	HENRY,PROME
