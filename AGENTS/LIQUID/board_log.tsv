@@ -630,3 +630,30 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-26T13:27:27-04:00	SIG-W-20261026-003	info-only	INBOX_WALTER	Read with source limits; no LIQUID gate or funding-restriction grade. Boot report.
 2026-10-26T13:27:27-04:00	SIG-W-20261026-004	acted	INBOX_WALTER	Brazil shock assessed; pre-event SOFR cannot test same-day USD contagion. Boot report.
 2026-10-26T13:27:27-04:00	SIG-W-20261026-008	noted	INBOX_WALTER	Intraday US rebound not offshore funding clearance; JetBlue remains source-limited.
+2026-10-29T00:18:16-04:00	2026-10-25_from-MIDAS_gold-bottom-check	noted	INBOX	LIQUID prome-92 Tier-1 wake 10/29. Held for the next existing gold/haven synthesis; no LIQUID gold grade or cadence.
+2026-10-29T00:18:16-04:00	2026-10-25_from-MIDAS_gold-conflict-history	noted	INBOX	LIQUID prome-92 Tier-1 wake 10/29. Funding-conditions distinction (BIS: stronger gold response under easier funding) kept for the next haven synthesis; no task.
+2026-10-29T00:18:16-04:00	2026-10-26_from-CYPHER_connectwise-restoration-chrome-check	info-only	INBOX	LIQUID prome-92 Tier-1 wake 10/29. No named bank/CU; SEARCH-NOT-FOUND is not an all-clear; no LIQUID funding consequence.
+2026-10-29T00:18:16-04:00	2026-10-26_from-CYPHER_financial-supplier-claims-sweep	info-only	INBOX	LIQUID prome-92 Tier-1 wake 10/29. Finzly/community-bank claims REPORTED only; no payment outage; nothing to grade.
+2026-10-29T00:18:16-04:00	2026-10-26_from-CYPHER_gmo-event-verified	noted	INBOX	LIQUID prome-92 Tier-1 wake 10/29. GMO intrusion confirmed; loss/accounts UNKNOWN; trading-access context, no funding channel (SAM shares).
+2026-10-29T00:18:16-04:00	2026-10-26_from-ISHM_first-session-boundary	acted	INBOX	LIQUID prome-92 Tier-1 wake 10/29. Reply packet to ISHM: no broader free HY history than FRED ICE rolling ~3y; financing verdict mainly repricing, >320 run reset 318 [10/27].
+2026-10-29T00:18:16-04:00	2026-10-26_from-ISHM_freight-breadth-and-tonnage	info-only	INBOX	LIQUID prome-92 Tier-1 wake 10/29. Physical-volume context; no credit verdict delivered or taken.
+2026-10-29T00:18:16-04:00	2026-10-26_from-VULCAN_KB096-primary-inventory	noted	INBOX	LIQUID prome-92 Tier-1 wake 10/29. Primary issuance rows ($132B gross, $54.25B >=20y) kept as duration-supply context; share UNGRADEABLE.
+2026-10-29T00:18:16-04:00	SIG-W-20261026-012	acted	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. STATUS Brazil line: anonymous stop-loss testimony kept separate from measured forced liquidation; funding grade unchanged.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-003	noted	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Anthropic carrying value/noncash charges are not cash burn or IPO cash payable; AI line already distinguishes stages.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-010	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Park24/GMO compensation; CYPHER owns; no payment-infrastructure claim.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-018	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. 0DTE method gated; HENRY's lead.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-020	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Trepp balances/flows are CREED context; no transmission finding.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-021	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. LA office note sale; seller/loss holder unidentified; no bank loss.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-025	acted	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. STATUS AI line: newsletter data-center cohort +136bp (~4bp of index), method unverified; own CRWV 5Y CDS tightened 10/20->10/28.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-028	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Unverified insurer related-party leads; SHADE's.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-029	acted	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. STATUS AI line: $63B Anthropic SPV committed not funded; Broadcom residual support = first lien.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-030	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. MainStreet NPLs; REGINALD's; no run or seizure.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-031	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Blackjack MF maturity; HOMER/CORAL.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-033	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Iowa exam confirms historical $580.3M originations; current exposure unproved; SHADE's.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-034	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Trepp/Newmark cohort conflict; CREED's.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-038	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. OpenAI/Google distribution; VULCAN's; no financing-demand quantity.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-040	acted	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. STATUS §3 JetBlue row: $2.2B liquidity incl $600M undrawn; $250M Q4 financing expected not received; no credit grade.
+2026-10-29T00:18:16-04:00	SIG-W-20261027-070	noted	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Sep CLO AAA ~122bp newsletter-attributed: not a qualifying LIQ-04 PitchBook LCD average; recorded at the 10/30 row.
+2026-10-29T00:18:16-04:00	SIG-W-20261029-001	noted	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. FOMC held; IORB 3.90 dated 10/29 keeps the 079 date-matched ceiling unchanged.
+2026-10-29T00:18:16-04:00	SIG-W-20261029-006	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Auto credit/ABS pricing; CARL/OTTO; $767M sum retired, not cited here.
+2026-10-29T00:18:16-04:00	SIG-W-20261029-007	info-only	INBOX_WALTER	LIQUID prome-92 Tier-1 wake 10/29. Cyber corrections; no LIQUID consequence.

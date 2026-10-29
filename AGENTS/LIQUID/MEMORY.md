@@ -2,7 +2,16 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-26T19:08:29-04:00 (Will: execute feasible avenues; 19:00 system review)
+### CURRENT SESSION — 2026-10-29T00:18:37-04:00 (PROME prome-92 Tier-1 WQ-184 wake; Claude Code / Opus 5.5; markets closed)
+
+- **L568:** six WQ-404 READ1 ❌ fixed in ONE pass — conditions `eb956d325` before any edit, result `c84c01cb1` (change note §C). HANS's bidders ≥ 8 history re-verified from ECB `tops.zip` (164 of 1,179; 0 since 2022); one release condition; AC-X2b (4) per-year duplicate + cross-fetch test (selftest 67/67); four dead pointers fixed. IMPLEMENTED + TESTED (author), NOT INDEPENDENTLY VERIFIED, STILL WITHHELD. My own AC fact line said "9 of 12" quarter-end fires; scripted count 11 — corrected in place, marked.
+- **HY >320 run ENDED:** 9 first-published cells 10/14→10/26, reset by 318 [10/27] (KILL_MEMO drill row). INFO to WALTER.
+- **Gates (review reads):** 069 2-of-2 FIRED unchanged, L1/L4 NOT FIRED through 10/28 equity; 076 existing episode MET, current window 1-of-3 (W2 aged out), waits on W2 as-of 10/21 (10/29) + W1 as-of 10/27 (10/30); 079 NOT ARMED (+14 [10/27]); 072 QUIET; HY-REKILL 0-of-2.
+- **L829 I1:** XCCC standing line refreshed from the issuer page (holdings 10/28, sectors 10/27; basis = issuer taxonomy, not DEWEY's buckets).
+- **L261:** 079 FIRE-band census (`research/2026-10-29_079-fire-bands/`) + proposal in the PROME packet; finding: conditional on ARM the bands add ~no discrimination at n=1.
+- **Drain:** 8 top-level + 19 WALTER, all logged and moved; ISHM reply sent.
+
+### PRIOR SESSION — 2026-10-26T19:08:29-04:00 (Will: execute feasible avenues; 19:00 system review)
 
 - Bounded follow-through→`research/2026-10-26_brazil-feasibility-execution/REPORT.md`. Official XLS confirms October26 accepted domestic buybacksR$14.807B, settlementOctober27; not paid cash/USD or issuance. Primary catalogue leg recovered; official sale/cancellation circular still missing.
 - UBR NAV/share CSV endsOctober23. May31 financials show collateralized historical liabilities; general ISDA notes permit certain NAV-trigger termination/immediate liability demand. Current CSA thresholds, actual October26 call/payment/dealer sale/bank loss unproved. Daily leverage rebalance is a competing mechanism, not redemption evidence.
@@ -131,7 +140,7 @@ No `git pull` (dirty HOMER/PROME/BOND/RED trees); pathspec commits only.
 
 WQ524 study is complete; resume existing dated duties in STATUS §3, not another case. Final recoveries/contract allocation and earlier public warning remain evidence gaps without a new search commission.
 
-**Next read:** October 23 first-published tiers/SOFR completed October 26; resume Brazil event-day SOFR/ICE/H.15 and October27 buyback settlement/LFT tests in STATUS§3. UBR post-event disclosure/cash bridge remains missing; do not repeat completed auction/contract-source research. REG-T-04 needs >350 (REGINALD grades). BB moving with CCC on consecutive days is the L818 change-maker (`analysis/2026-10-23_L818-repricing-vs-restriction.md`, sent to PROME 10/23). October 23 SOFR is graded; XCCC page access recovered October 26. Full sector reclassification remains unreconstructed; L829 checks October 30. H.8: read the DATED path (`releases/h8/YYYYMMDD/`); `current/h8.htm` served a 2015 page at 200. 076 re-arm needs 10 consecutive business days with no leg met. Car-Mart 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is still overdue. 10/31: 079 FIRE bands proposal.
+**Next read (10/29):** grade 076 W2 as-of 10/21 (NY Fed PD, Thu ~16:15 ET) and W1 as-of 10/27 (CFTC Fri ~15:30 ET); first-published 10/28 tiers; Brazil 10/27 settlement/LFT still unread. Earlier: October 23 first-published tiers/SOFR completed October 26. UBR post-event disclosure/cash bridge remains missing; do not repeat completed auction/contract-source research. REG-T-04 needs >350 (REGINALD grades). BB moving with CCC on consecutive days is the L818 change-maker (`analysis/2026-10-23_L818-repricing-vs-restriction.md`, sent to PROME 10/23). October 23 SOFR is graded; XCCC page access recovered October 26. Full sector reclassification remains unreconstructed; L829 checks October 30. H.8: read the DATED path (`releases/h8/YYYYMMDD/`); `current/h8.htm` served a 2015 page at 200. 076 re-arm needs 10 consecutive business days with no leg met. Car-Mart 11/01 (BROCK). DAEDALUS 10/16 deferral row in STATUS §3 is still overdue. 10/31: 079 FIRE bands proposal.
 
 *10/23 evening (Will boot, "catch up on owed work"):* owed 10/23 row graded (`research/2026-10-23_evening/REPORT.md`); inbox 16 + 12 WALTER items drained; COR-20261022-48 and COR-20261023-39 NO-OP; NVDA 5Y CDS 128bp CONFIRMED at DTCC and sent to WALTER; CYPHER boundary confirmed; WQ-508 DAEDALUS edits accepted with no contest. CATO L818 answered (mainly repricing, not restriction) plus an H.8 follow-up (market→bank shift: INSUFFICIENT EVIDENCE; large C&I quarter-end jump isolated, NDFI on trend); both to PROME. KB-LIQ-146: the H.8 `current/h8.htm` page served a 2015 release. Next H.8 Fri 10/30: does large-bank C&I keep rising? SLOOS (early November) and Q3 RC-L unused commitments are the observations that would identify draws.
 

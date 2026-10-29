@@ -1,0 +1,163 @@
+{
+ "res": [
+  {
+   "name": "3a EFFR-IORB >= 0bp (level)",
+   "noncal": 253,
+   "noncal_n": 1607,
+   "armed": 11,
+   "armed_n": 11,
+   "eps": 4,
+   "eps_n": 4,
+   "tp": 8,
+   "tp_n": 8,
+   "recent": 0
+  },
+  {
+   "name": "3a' EFFR-IORB 10-day change >= +3bp",
+   "noncal": 36,
+   "noncal_n": 1607,
+   "armed": 9,
+   "armed_n": 11,
+   "eps": 3,
+   "eps_n": 4,
+   "tp": 8,
+   "tp_n": 8,
+   "recent": 0
+  },
+  {
+   "name": "3a'' EFFR-IORB 10-day change >= +5bp",
+   "noncal": 15,
+   "noncal_n": 1607,
+   "armed": 9,
+   "armed_n": 11,
+   "eps": 3,
+   "eps_n": 4,
+   "tp": 8,
+   "tp_n": 8,
+   "recent": 0
+  },
+  {
+   "name": "3b EFFR75-IORB > 0bp",
+   "noncal": 202,
+   "noncal_n": 1607,
+   "armed": 11,
+   "armed_n": 11,
+   "eps": 4,
+   "eps_n": 4,
+   "tp": 8,
+   "tp_n": 8,
+   "recent": 0
+  },
+  {
+   "name": "3b' EFFR99-IORB >= +10bp",
+   "noncal": 466,
+   "noncal_n": 1607,
+   "armed": 11,
+   "armed_n": 11,
+   "eps": 4,
+   "eps_n": 4,
+   "tp": 8,
+   "tp_n": 8,
+   "recent": 0
+  },
+  {
+   "name": "4a SOFR99-SOFR1 >= 20bp",
+   "noncal": 273,
+   "noncal_n": 1607,
+   "armed": 11,
+   "armed_n": 11,
+   "eps": 4,
+   "eps_n": 4,
+   "tp": 8,
+   "tp_n": 8,
+   "recent": 13
+  },
+  {
+   "name": "4a' SOFR99-SOFR1 >= 30bp",
+   "noncal": 53,
+   "noncal_n": 1607,
+   "armed": 9,
+   "armed_n": 11,
+   "eps": 4,
+   "eps_n": 4,
+   "tp": 6,
+   "tp_n": 8,
+   "recent": 2
+  },
+  {
+   "name": "4a'' SOFR99-SOFR1 >= 50bp",
+   "noncal": 16,
+   "noncal_n": 1607,
+   "armed": 5,
+   "armed_n": 11,
+   "eps": 2,
+   "eps_n": 4,
+   "tp": 4,
+   "tp_n": 8,
+   "recent": 0
+  },
+  {
+   "name": "4b repo ops (RPONTTLD) >= $1B",
+   "noncal": 154,
+   "noncal_n": 1607,
+   "armed": 9,
+   "armed_n": 11,
+   "eps": 3,
+   "eps_n": 4,
+   "tp": 7,
+   "tp_n": 8,
+   "recent": 17
+  },
+  {
+   "name": "4b' repo ops (RPONTTLD) >= $10B",
+   "noncal": 131,
+   "noncal_n": 1607,
+   "armed": 9,
+   "armed_n": 11,
+   "eps": 3,
+   "eps_n": 4,
+   "tp": 7,
+   "tp_n": 8,
+   "recent": 4
+  }
+ ],
+ "armed_eps": [
+  [
+   "2019-07-05",
+   "2019-07-05",
+   1
+  ],
+  [
+   "2019-09-16",
+   "2019-09-25",
+   6
+  ],
+  [
+   "2019-10-16",
+   "2019-10-17",
+   2
+  ],
+  [
+   "2020-03-17",
+   "2020-03-18",
+   2
+  ]
+ ],
+ "fire": [
+  "2019-07-05",
+  "2019-09-16",
+  "2019-09-17",
+  "2019-09-18",
+  "2019-09-19",
+  "2019-09-24",
+  "2019-09-25",
+  "2019-10-16",
+  "2019-10-17",
+  "2020-03-17",
+  "2020-03-18"
+ ],
+ "history": [
+  "2018-04-03",
+  "2026-10-27"
+ ]
+}
