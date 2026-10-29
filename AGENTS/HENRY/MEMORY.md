@@ -50,18 +50,19 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-22 evening wake, DOCKET L787 (Claude Code, Opus 5.5, PROME-spawned)
+### CHANGES SINCE — 2026-10-29 00:0x–00:4x ET wake, DOCKET L773 + L774 + whole-inbox drain (Claude Code, Opus 5.5, PROME prome-92)
 
-- **L787 graded: put wall TESTED, NOT BROKEN.** SPX close 7,663.43 (Cboe `_SPX` close field = vendor bar), 13.43 above the ~7,650 break line; intraday low 7,637.36 at 15:02 ET. State unchanged from 09:53 ⇒ no new WALTER signal. TERRY L803 (close < 7,650) not met on the same figure; matched PROME's 7,663.43, so no TERRY packet.
-- **Gamma from the close:** NEGATIVE both, flips ~7,742/~7,748, −$40.5B/−$54.2B; put wall migrated 7,750 → 7,650 (35d band 7,650–7,700); call wall WITHHELD. `PUBLISHED.tsv` overwrites same-date flip/GEX rows, so 09:53 values live only in `research/2026-10-22_L769/gamma_both_postopen.txt`.
-- **Narrow selloff:** QQQ −2.86%, SOXX −6.79%, RSP +0.73%, KRE +2.53%; 10Y par 4.96% (−17bp) ⇒ 10Y threshold RED → ORANGE. SPX under its 50-day (7,703) = cascade layer-2 proxy met.
-- **WALTER 1022-016 was wrong on FINRA ranking** (FINRA xlsx: Jun-2026 $1,502,072M > Sep $1,480,054M); correction packet sent to WALTER.
-- Inbox drained: 6 WALTER + 4 general (DEWEY ×3, WATT). COR-20261022-04 NO-OP. Dashboard refreshed (version 4, same URL).
-- Cboe `_SPX` JSON (`cdn.cboe.com/api/global/delayed_quotes/options/_SPX.json`) carries close/open/high/low/prev_day_close: a second-source close in one call. `curl` gets an empty body; use urllib with the gamma_flip User-Agent.
+- **L773 FOMC (held 3.75–4.00, 10–2, two dissents FOR a hike):** par 2Y 4.67 (−3bp), 10Y **5.05 (+6bp, ORANGE → RED)**, 30Y 5.37; SPX +0.28%, no post-statement break; VIX 16.91. Experiment A EXPECTED = none recorded (do not reconstruct). KB ML-HEN-189.
+- **L774 expectation FROZEN pre-print** (commit 80824f14d, before 08:30): core PCE Sep NOT FIRED at +0.3% rounded; Cleveland Fed nowcast +0.28% m/m / 3.05% y/y (updated 10/28). Rule: BEA one-decimal, 0.4+ = fired; unrounded `PCEPILFE` recorded beside, not graded. 0.02pp from the rounding edge.
+- **Put wall BROKE on the 10/23 close** (7,623.68 < 7,650; no HENRY session that day, graded late). 10/28 close: gamma POSITIVE both, flip band 7,734–7,738 (spot +6/+10), put wall WITHHELD (7,750 vs 7,700), call wall 7,800.
+- Credit answered the 10/22 selloff: HY 340 [10/22], CCC 1,356 [10/23] peak; retraced to HY **318** [10/27], under 320.
+- WQ-507 encoded (ISM <47 rows → ISHM pointers). AAL FY guide checked at primary: ($1.60)–($1.00); BRENT told. Inbox 17 + 59 drained to 0/0; four corrections NO-OP.
+- **Cleveland Fed nowcast page:** a WebFetch summary misplaced the September cells; the raw HTML (`curl`, then grep the row) shows blank CPI cells and PCE 0.47 / core PCE 0.28. Read the raw cells.
 
 ### NEXT SESSION
 
-1. **Registered wakes, do not run early:** DOCKET **L773** FOMC Wed 10/28 14:00 ET; DOCKET **L774** GDP advance + September PCE Thu 10/29 08:30 ET (log actual / consensus / prior / reaction; core PCE vs the 0.3% hot line).
-2. At any wake: `gamma_flip.py --both` first; a close under 7,650 is now a close under the wall itself. Pull FRED 10/22+ cells (credit's answer to the 10/22 selloff is UNKNOWN).
-3. ISM services date still unverified (site 503 on 10/21); recheck before 11/2.
-4. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, NFP 11/6, CPI 11/10, PPI 11/13.
+1. **DOCKET L774 grade at/after 08:30 ET 10/29:** log actual / frozen expectation / prior / reaction; grade core PCE on BEA's one-decimal figure against the frozen rule; Experiment A is NOT required for L774 (it is FOMC-only, event 2 of 3).
+2. At any wake: `gamma_flip.py --both` first. Pull FRED 10/28+ (HY 318 is one observation under 320).
+3. Operating Dashboard not refreshed since 10/22 (version 4); refresh at the next full session.
+4. ISM services date (11/4) still unverified at ismworld.org; recheck before 11/4. PH 11/5 orders: compare on ISHM's rebased basis.
+5. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, ISM mfg 11/2 (ISHM), NFP 11/6, CPI 11/10, PPI 11/13.

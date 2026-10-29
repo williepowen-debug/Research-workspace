@@ -1,38 +1,36 @@
-# HENRY — 2026-10-22 evening wake, DOCKET L787 (put-wall close test, gamma from the close, dashboard, inbox) — DONE
+# HENRY — 2026-10-29 overnight wake: FOMC read (L773), PCE expectation frozen (L774), post-break gamma, whole-inbox drain — DONE
 
-**RESULT:** The S&P 500 closed at 7,663.43 (−1.21%), 13 points above the 7,650 line HENRY named this morning as a put-wall break. So the wall was tested, not broken, the same state as the 09:53 ET read, and nothing new was routed. It traded under 7,650 for most of the afternoon (low 7,637 at 3:02 pm) before recovering. Dealer gamma is negative and deeper (dealers amplify moves), and the put wall has moved down to 7,650. The selloff was narrow: big tech and chips fell hard while the equal-weight index, defensives, banks and bonds rose.
+**RESULT:** The Fed held rates on Wednesday with two officials voting for a hike, and stocks shrugged it off (S&P 500 +0.28%, no move after the 2 pm statement). Bonds did react at the long end: the 10-year Treasury yield rose 6 basis points to 5.05%, back over HENRY's 5% red line, while the 2-year eased. The put-wall support HENRY published on 10/22 at 7,650 did break on the 10/23 close (7,624), but the index has since recovered to 7,744 and dealer positioning is back to dampening moves, by a thin margin. For this morning's 8:30 inflation print, HENRY wrote down its expectation before the release: core PCE at +0.3% for September, which would NOT trip the "hotter than 0.3%" line, though the forecast sits right at the rounding edge.
 
-**CHANGED:** `STATUS.md` (prior copy preserved), `MEMORY.md`, `LAST_COMPLETION.md`, `NEXUS_BRIEF.md`, `workbook/KB.tsv` (ML-HEN-188), `workbook/PUBLISHED.tsv` (close flip/GEX rows by the tool, two put-wall rows by hand), `workbook/MARKET_DATA.tsv` (10/22 row), `board_log.tsv` (10 rows), `registry/corrections_receipts.tsv`, `dashboard/` (builder + template + built page), 10 inbox packets filed to `processed/`, `research/2026-10-22_L787/`, one packet to WALTER.
+**CHANGED:** `STATUS.md` (prior copy preserved), `MEMORY.md`, `LAST_COMPLETION.md`, `NEXUS_BRIEF.md` (prior copy preserved), `CLAUDE.md` (two ISM rows now point to ISHM, WQ-507), `workbook/KB.tsv` (ML-HEN-189), `workbook/PUBLISHED.tsv`, `workbook/MARKET_DATA.tsv` (10/28 row), `board_log.tsv` (76 rows), `registry/corrections_receipts.tsv` (4 NO-OP), 76 inbox items filed to `processed/`, `research/2026-10-29_L773/`, packets to BRENT, CYPHER, ISHM and PROME.
 
 ## Session work
 
 | Item | Outcome |
 |---|---|
-| L787 close test | Close 7,663.43 on Cboe's own `_SPX` quote and the vendor bar (last 1-minute bar 15:59 ET 7,663.45). Break line < ~7,650: **NOT MET**. 14d band 7,650–7,750: inside, tested. 35d band 7,700–7,750: under its floor, as at 09:53. **TESTED, not broken; state unchanged; no WALTER signal.** |
-| Gamma from the close | NEGATIVE both. Flips ~7,742 / ~7,748 (spot −78 / −85). Net GEX −$40.5B / −$54.2B per 1% (09:53: −$29.0B / −$39.3B). Put wall 7,650 at both horizons (35d band 7,650–7,700). Call wall withheld (7,800 vs 8,000). |
-| TERRY L803 | Its trigger (SPX cash close < 7,650) is not met; HENRY's close equals PROME's orientation figure, so no TERRY packet. |
-| Rates | Treasury par 10/22: 2Y 4.65% · 10Y 4.96% · 30Y 5.29% (−16 / −17 / −13bp). 10Y threshold RED → ORANGE; 2Y still RED. |
-| Breadth | QQQ −2.86%, XLK −3.29%, SOXX −6.79%; RSP +0.73%, XLP +3.31%, XLU +2.07%, XLF +1.09%, KRE +2.53%. SPX under its 50-day (7,703): cascade layer-2 proxy condition met. |
-| Credit | FRED 10/21: HY 327 (six readings above 320), CCC 1,307, CCC−BB 1,109. The 10/22 cell is not posted. |
-| Dashboard | Refreshed at the same URL (version 4). |
-| Inbox | 6 WALTER signals + 4 general packets (DEWEY ×3, WATT) logged and filed. COR-20261022-04 receipted NO-OP. WALTER's FINRA ranking correction (1022-016) is itself wrong per FINRA's xlsx (June 2026 is the record, September second); packet sent to WALTER. |
+| L773 FOMC | Held 3.75–4.00%, 10–2 (Cook, Hammack for a hike). Par 2Y 4.67 (−3bp), 10Y 5.05 (+6bp, ORANGE → RED), 30Y 5.37 (+7bp). SPX +0.28%, VIX 16.91, KRE −0.65%. |
+| Experiment A (event 2 of 3) | EXPECTED: none recorded by HENRY before the event (not reconstructed). OBSERVED as above. MATERIAL DIFFERENCE: none measurable; 10Y crossed into red. REVISED BELIEF: no meaningful change. |
+| L774 expectation | Frozen in commit 80824f14d before 08:30: core PCE Sep +0.3% rounded, line NOT FIRED; source Cleveland Fed nowcast +0.28% / 3.05% y/y. Grade comes at the print. |
+| Gamma (10/28 close) | POSITIVE both; flip band 7,734–7,738; put wall withheld (7,750 vs 7,700); call wall 7,800. Put wall broke on the 10/23 close, graded late. |
+| Credit | HY 340bp [10/22] → 318bp [10/27], now under the 320 yellow line; CCC peaked 1,356bp [10/23], 1,321bp [10/27]. |
+| Inbox | 17 general packets + 59 WALTER cards logged and filed (census 0/0). Four corrections NO-OP. AAL guide question answered at the SEC exhibit for BRENT. |
 
 ## GAPS / still pending
-- How credit answered the 10/22 selloff is UNKNOWN until FRED posts 10/22.
-- VIX and the other vol closes are vendor values, not Cboe-certified closes.
-- Carried: ISM services date unverified.
+- The FOMC decision itself is read from WALTER's card; HENRY did not re-read the Fed statement.
+- No consensus panel for September PCE was recovered; the expectation rests on one nowcast.
+- The 10/23 break-day gamma is not recoverable; vendor closes are not Cboe-certified.
+- Operating Dashboard not refreshed (still version 4, 10/22). ISM services date unverified.
+- Not pushed: other desks' uncommitted work is in the tree.
 
 ## COMMITS
-- The closeout commit whose subject begins `HENRY: L787` carries this file and the WALTER packet; its hash is in the push receipt and in the PROME delivery memo.
+- `80824f14d` HENRY: L773 FOMC read, L774 core PCE expectation frozen pre-print, post-break gamma.
+- The closeout commit (inbox drain, memory, brief, packets) — its hash is in the PROME delivery memo.
 
 ## NEXT SESSION FOLLOW-UP (dates Will cares about)
-- **Wed 10/28 14:00 ET:** FOMC (DOCKET L773, HENRY's next registered wake). **Thu 10/29 08:30 ET:** GDP + September PCE (DOCKET L774). **Fri 10/30:** ECI, BOJ. **Sat 10/31:** the Russian producer export restriction expires.
+- **Thu 10/29 08:30 ET:** GDP + September PCE (DOCKET L774 grade). **Fri 10/30:** ECI, BOJ. **Sat 10/31:** Russian producer export restriction expires. **Mon 11/2:** ISM manufacturing (ISHM). **Fri 11/6:** jobs. **Tue 11/10:** CPI.
 
 ## THESIS SNAPSHOT (frozen at close)
-Cyclical: inflation pressure persists; the 10Y fell back under 5% on a growth scare, not on inflation data. AI-capex: the market started charging for the spending (Meta, chips); VULCAN and LIQUID grade it. Structural credit: tail stress persists, no funding spiral established. Gamma is negative, the put wall at 7,650 is tested, not broken.
+Cyclical: inflation firm, Fed held with a hawkish split, 10Y back over 5%. AI-capex: the 10/22 tech selloff fully retraced in chips. Structural credit: the CCC tail stays wide (1,321bp) while broad HY eased under 320. Nothing fired; no prediction open.
 
 ## WILL_NEEDS
-None. No trade, no Telegram send, $0 moved.
-
-## HONEST SCOPE
-Claude Code, Opus 5.5 (`claude-opus-5-5`), spawned by PROME (prome-e7). Root `CLAUDE.md` (4 pages), `AGENTS.md` (1), `USER.md` (2) and the desk `CLAUDE.md` (7) were read with the bounded reader to EOF before any work. No subagents. No pull: other desks' and PROME's uncommitted work is in the tree. Packets were delivered as files; whether recipients consumed them is UNKNOWN. Gamma is a free-tier proxy.
+None. No decision requested, no trade.
