@@ -1,16 +1,17 @@
 # WALTER STATUS
-**Updated:** 2026-10-29T01:05Z — session CLOSED at Will request; FULL closeout (WALTER only). Resume/duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-29T15:03:25Z — midday session OPEN; LIGHT closeout written (full deferred). Resume/duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Boot catch-up after ~30h dark (10/27 18:56Z → 10/29 00:30Z). Fourteen cards SIG-W-20261029-001–014: FOMC 10/28 held 3.75–4.00, 10–2 with two dissents FOR a hike (late — board hole while dark); Ras Tanura Houthi claim only, fire reported near the export terminal, damage UNKNOWN; PGSA legal action against the whole Sinokor fleet from 11/1; full weekly Iran sweep (next ~11/05). Inbox backlog cleared: 21/21 regular packets (BM-01), 23/23 intake items (BM-02, lane marked), 3/3 DEWEY returns processed. No new threshold fire in completed checks (HY 318 [10/27], VIXCLS 17.52 [10/27]).
+Midday boot (Will-launched 10:53 ET). Today's data had no BOARD card while WALTER was dark; owners were already graded through PROME's morning wave. Seven cards SIG-W-20261029-015–021: Q3 GDP +3.4% and September PCE 3.6% y/y (core 3.1%), claims 194,000; ECB held at 2.50% (HANS-T-04 not fired) and Lagarde will step down 2027-02-07; HY 314 [10/28] is 14 bp above RED/REGINALD's exit line (near-exit watch, not an exit); NCLH beat and raised; ARCC to buy MFIC at ~85% of NAV, close H1 2027; Carvana says the SEC closed its short-report probe (WAL action); three DEWEY returns recorded. Inbox 9/9 (BM-20261029-03). No new threshold fire in completed checks; Cboe SKEW blocked.
 
-Publication and delivery state: LAST_COMPLETION.md receipt. Boot remains PARTIAL (routing-table/CREED/HANS rows, BOARD scan, X bookmarks, LIAISON, readiness not run). Telegram retired; this session was launched with the old Telegram flag (Will's launcher; inert here).
+Publication: commits local, push deferred (no Will authorization; foreign dirty TERRY file). Boot gaps: X bookmarks need re-authorization (Will's browser); readiness UNKNOWN. Receipt: LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| Midday scan (FRED pull 10/29 14:54:55Z; vendor 14:55:05Z intraday, not closes) | FRED HY 314 [10/28]: RED-FT-02/REG-T-03 fired state, exits 0/3 and 0/5, 14 bp (4.7%) above the 300 exit = near-exit watch. REG-T-04 36 bp away. CCC 1,307 [10/28]. VIXCLS 16.91 [10/28], FT-06 exit 0/5. SOFR−IORB +4 bp [10/28]. T5YIFR 2.27 [10/28]. ICSA 194,000 [w/e 10/24]. Cushing 26.970M [w/e 10/23]. Cboe SKEW NOT READ (Cloudflare block). Vendor: KRE 73.10 (+1.37%), WAL 77.45, ^VIX 16.47, BZZ26 113.65 (5.3% below boundary #1, out of watch band), NCLH +12.8%. BEA: GDP +3.4% Q3; Sept PCE +3.6% y/y, core +3.1%. ECB held DFR 2.50%. Evidence research/2026-10-29_midday/THRESHOLD-SCAN.md. |
 | Boot scan (pulled 10/29 00:33Z; source dates retained) | FRED HY 318 [10/27] (338 [10/23]): RED-FT-02/REG-T-03 fired, exits 0/3 and 0/5; REG-T-04 32 bp away, out of watch band. CCC 1,321 [10/27]. VIXCLS 17.52 [10/27]: RED-FT-06 exit run broken 3/5 → 0/5 (RED owns). Cboe SKEW 149.22 [10/27], FT-10 fired, no exit. SOFR−IORB +5 bp [10/27]. T5YIFR 2.27 [10/28]. Cushing 26.970M [w/e 10/23]. Vendor 10/28: KRE 72.11, WAL 75.96, VIX 16.91. BZZ26 114.55 evening last trade (not settle) = 4.5% below boundary #1, WATCH. FOMC 10/28 held, 10–2, Cook/Hammack for a hike. HANS daily/CREED/settlement legs not graded. Evidence research/2026-10-29_boot/THRESHOLD-SCAN.md. |
 | Approved queue review (October 27; source dates retained) | All 20 delivered bodies; 27 selected historical images; 399 decision rows including source gaps. New cards 049–072, no threshold scan or new market prices. BOARD 1797. Primary/source qualifications: research/2026-10-27_queue-review/EMAIL-REVIEW.md. |
 | Startup October 27 (retrieved this session; source dates differ) | HY338 / CCC1356 bp [October23]; VIXCLS18.39 and Cboe SKEW150.97 [October26]; SOFR-IORB+3 bp [October26]. VIX exit3/5, no new fire in completed checks. Current vendor tape intraday, not closes. Remaining scope: research/2026-10-27_startup/THRESHOLD-SCAN.md. |
@@ -67,7 +68,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY's 49 rows reviewed against owner STATUS headers at 2026-10-29T01:01:59Z before this regeneration; 44 STATUS files read, 5 desks without STATUS left unchanged (RAV, DARWIN, BARON, HERMES, DEWEY). Header dates advanced: CARL 10/26→10/28, LABOR 10/22→10/28. Bands are owner-set and unchanged; no roster, grade, liveness or consumption inference. Observed live this evening: PROME (prome-92, messaged WALTER), and CARL/LABOR/ORACLE authored work in the tree this evening; not a liveness census. One Rule 9 helper (Iran sweep) returned and is closed. Full-fleet visibility remains UNKNOWN. Evidence: research/2026-10-29_boot/registry-review.json.
+REGISTRY reviewed against owner STATUS lead headers at 2026-10-29T14:58:10Z: 30 rows advanced (Updated + Focus from the owner's own header; bands owner-set, unchanged). Most desks wrote on 10/28–10/29: PROME's prome-90 wave (09:00 ET) woke HENRY, LABOR, CRUISE, ZHAO, VULCAN and CARL; Will-launched catch-ups on 10/28 for REGINALD, WAL, OZK, FLG, CREED, RED, ORACLE, DAEDALUS; SAM, AEOLUS and BOND 10/29. Still behind: VIOLET (10/19 header), GIBBS (10/23), CYPHER (10/26), YURI (10/21). Observed: foreign dirty AGENTS/TERRY/PAPER_BOOK.tsv. Not a liveness census; full-fleet visibility UNKNOWN.
 
 ## Active LIAISON channels
 
