@@ -170,6 +170,8 @@ All 8 items executed in the first live session (2026-08-17 11:14 ET). Closeout r
 
 Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/FERT/` (+ carve-out ① self-authored packets into recipients' inboxes). Auto-push at closeout via `scripts/safe-push.sh`; non-ff → root §Git Protocol session-end step 3 (overlap check first); never force.
 
+**Closeout step 1e, FERT form** (added 2026-10-28, Will-approved): FERT has no `CATALYSTS.tsv` or `CALENDAR.md`, so the root recipe's desk paths miss this desk's dated surfaces. Run: `python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/FERT/STATUS.md AGENTS/FERT/workbook/TRIGGERS.tsv AGENTS/FERT/workbook/GATE_GRADES.md AGENTS/FERT/workbook/PREDICTIONS.tsv AGENTS/FERT/workbook/KB.tsv AGENTS/FERT/workbook/GRADING_CARD_*.md` (from repo root). `TRIGGERS.tsv` is the local form of a catalyst calendar.
+
 ## FILES
 
 | File | Role (role tense — pointers name resolution rules, not values) |
@@ -182,8 +184,14 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 | `workbook/VX.tsv` · `FLOW.tsv` | Vector states · transmission pathways (re-cut at primaries 2026-08-17; March rows survive only as graded history in PREDICTIONS + archive). VX value cells carry the benchmark the row's NAME and BANDS are on — never a neighbouring benchmark |
 | `workbook/GATE_GRADES.md` | Print-by-print gate grade history + mirrored grading terms (letters canonical in `PROME/GATES.tsv`) |
 | `workbook/EXIT_PROTOCOL.md` · `INSTRUMENT_GAPS.md` | Durable kill rails + bidirectional flip · full instrument-gap register |
+| `workbook/SUPPLY_EVENTS.tsv` | Named plant events (idle · restart · guidance), one row per dated vintage; capacity `UNKNOWN` until an issuer states it |
+| `workbook/GRADING_CARD_*.md` | Pre-registered print-grading cards (blueprint §5): frozen above § RESULTS; after the print only RESULT cells fill; clarifications go in dated addenda |
 | `board_log.tsv` (agent root) | Canonical inbox consumption log (§3b). `workbook/board_log.tsv` is a FROZEN orphaned duplicate — never append there |
 | `TRADE.md` | Trade surface; its own banner is the authority (FROZEN — freeze extended 2026-08-17, next re-look on the banner's date) |
+| `README.md` · `DATA_ROUTES.md` | Index of the 2026-10-26 buildout · where new evidence goes, refresh owner and limits |
+| `data/` | Dated research baselines (China exports, US imports, farm economics, intermediate prices, relative nutrients) — refreshed at named wakes, **not live feeds** |
+| `companies/CF/` | CF operating history and quarter prep (`Q3_PREP.md`) — the single-name read; trade construction stays TERRY's |
+| `reports/` · `research/` | Session reports (wakes, deeper passes, audits) · source snapshots and worklogs — **never boot-read whole** |
 | `inbox/` + `PROTOCOL.md` · `outbox/` | Mail; processing steps live in PROTOCOL.md |
 | `archive/` | Superseded charters/STATUS — history, never current |
 
