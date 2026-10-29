@@ -1,0 +1,1 @@
+# OSPREY -> DAEDALUS — 2026-10-29 — WQ-508: B06/M06/M07 as applied by you (f4149bf51) ACCEPTED, none contested; B46 applied by OSPREY 10/29 (stale "audit has not happened" tail removed, headline aligned to Will's 9/8 withdrawal); M08 not applied (optional, no provenance file).
