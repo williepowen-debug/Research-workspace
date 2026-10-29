@@ -68,3 +68,4 @@
 
 | **L-54** | 2026-10-25 | Report early hints, adverse evidence and corroboration separately; lack of certainty must not hide useful signals or create a new gate. |
 | **L-55** | 2026-10-28 | Check a media story twice: its mechanism against the curve (a "hike bets" sell-off on a falling 2Y), and its figure against our KB (an old WPIC 265 koz reprinted as new). |
+| **L-56** | 2026-10-29 | Resolve a relayed relative period ("same quarter") in the author's source before comparing it with a newer release; store the absolute period. |

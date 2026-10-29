@@ -1,8 +1,8 @@
 # MIDAS — TRADE
 # LIVE ledger.
-Last real data refresh: 2026-10-26 (completed funds, primary bullion/real yields; futures26 diagnostic and guard-qualified23).
-Last attention check: 2026-10-26
-Content reconciliation: 2026-10-26 close snapshot and authorized recycling/refinery research; no new broker-position reconciliation.
+Last real data refresh: 2026-10-28 (completed funds, primary bullion/real yields; futures guard-qualified 27, diagnostic 28).
+Last attention check: 2026-10-29
+Content reconciliation: 2026-10-28 catch-up (Fed hold, close refresh, ICSG/First Quantum/BEA checks, WQ-522 retired); no new broker-position reconciliation.
 
 ## Current scope and status
 
@@ -12,14 +12,16 @@ The former July/August updates, superseded attribution bands and August "trigger
 
 ## Current research relevant to construction
 
+**October 28 catch-up:** [report](shared/research/2026-10-28_catch-up.md). Fed held 10/28 with two dissents for a hike; December hike still priced (MEDIA). Gold firmed and GLD's trust added metal, an early hint only. Copper's China-demand signals strengthened while First Quantum trades copper output for acid. Palladium made a 16-month fund low. **No trade-shaped idea, no registered trigger fire.** WQ-522's unregistered M1 successor draft is retired.
+
 **October 26 supply-context integration:** [Recycling test](shared/research/2026-10-26_recycling-supply-test.md) and [Valterra comparison](shared/research/2026-10-26_SA-refinery-pipeline.md) temper scarcity claims. Palladium’s JM model depends materially on scrap recovery; WPIC’s separate platinum surplus survives a flat-recycling sensitivity, while silver’s April deficit deepens. These are fixed-input sensitivities, not new forecasts. Valterra’s Q3 refinery drop is mainly maintenance timing, with nine-month sales flat and platinum refining up; mine stoppages and Q4 delivery remain risks. Neither report supplies a trade trigger or changes the inherited unfreeze condition.
 
 | Channel | Evidence through the actual source dates | Current implication |
 |---|---|---|
-| Gold M1 | PRIMARY issuer GLD$367.82,+0.33%, bullion 1040.80 t/−0.85 t October 26; real 10Y2.66%, flat. Friday bullion1041.65 t now held, −3.99 t. | Small price rebound with continued quantity reduction; no entry proposal. M1=4, certified December-settlement source still missing. |
-| Silver M2 | SLV$48.66 October 26, d200−24.96%, T4/C1/S1; binding GSR74.29 October 23, newest diagnostic74.32 October 26. | ActualM2=1 before the November 1 floor; no source substitution or old GSR-under75 proposal re-armed. |
-| Copper I1 | CPER$39.39,+0.84% October 26; LME272975 t/+17.14% versus233025 t median. Teck loss remains unknown. | I1=1; daily gain and modest inventory draw do not identify demand recovery. |
-| PGMs I2 | PPLT$13.83/PALL$18.94 October 26, d200−20.09/−27.07%, both T4/C1/S1. Pt first post-approval red crossing today. PRIMARY Nornickel Q3 above pace, guidance unchanged; MEDIA future-maintenance caveat retained. | ActualI2=2/would-be 4, shared root with silver. New Pt line adds no extra composite point; no current supply-disruption fire or trade. |
+| Gold M1 | PRIMARY issuer GLD $372.28/$373.51 October 27/28; bullion 1,041.65 t (+0.85) / 1,043.36 t (+1.71); real 10Y 2.64/2.67%. Fed hold 10/28. GCZ26 diagnostic 10/28 $4,051.60, $1.60 above the flip line. | Early supportive flow hint, not a confirmed turn; no entry proposal. M1=4; certified December-settlement source still missing. |
+| Silver M2 | SLV $49.06 October 28, d200 −24.04%, T4/C1/S1; binding GSR 74.75 October 27, diagnostic 75.50 October 28. | ActualM2=1 before the November 1 floor; no source substitution or old GSR-under75 proposal re-armed. |
+| Copper I1 | CPER $40.33 October 28 (+2.39% since 10/26); LME 271,450 t/+16.25% vs 233,500 t median; MEDIA Yangshan $188, MIRROR backwardation ~+$191. PRIMARY ICSG 2026 surplus ~104 kt; PRIMARY First Quantum guidance 405–435 kt. Teck loss unknown. | I1=1 under downside-only bands; China demand firm near term, annual balance still surplus. No construction implication from MIDAS. |
+| PGMs I2 | PPLT $13.99/PALL $18.53 October 28, d200 −18.84/−28.24% (Pt T3 after recovering 10/27; Pd T4, lowest close since 2025-06-05). PRIMARY Nornickel Q3 above pace, guidance unchanged. | Actual I2=2, would-be 4 via Pd, shared root with silver; no supply-disruption fire or trade. |
 
 Actual composite **4/1/1/2 = 8/20**; counterfactual **13/20**, one shared root. Silver/PGM scoring floor is November 1 at 21:40 ET; qualifying post-approval crossings and then-current levels govern. These levels are diagnostics, not trade orders.
 
@@ -35,12 +37,12 @@ The October 20 outlook uses GLD $379.69 on October 19, with LOW-confidence ASSUM
 
 | Existing line | Latest evidence held | Limit |
 |---|---|---|
-| One-month downside: GLD close **< $360.71** | $367.82 October 26 | Latest held close is above the line. |
-| One-month upside: GLD close **> $391.08** | $367.82 October 26 | Latest held close is below the line. |
-| Three-month accumulation: trust **< 1,035.70 tonnes** | 1,040.80 tonnes October 26 | Latest held quantity is above the line. |
-| Three-month rates: real 10Y **≥ 3.00% on 5 consecutive Treasury prints** | 2.66% October 26 | Latest held print is below the line. |
-| Three-month dollar: DXY **≥ 105 on 5 consecutive closes** | 101.96 October 26, vendor daily mirror | Latest held close is below the line. |
-| Three-month selling: a **second LIQUIDATION-class day by November 5 AND cumulative tonnes ≤ −20 since September 30** | October 22 classified case retained; quantity change sinceSeptember30 −14.90 tonnes atOctober26 | This requested price refresh does not rerun frozen-letter classifications; quantities alone do not establish a second LIQUIDATION event. |
+| One-month downside: GLD close **< $360.71** | $373.51 October 28 | Latest held close is above the line. |
+| One-month upside: GLD close **> $391.08** | $373.51 October 28 | Latest held close is below the line. |
+| Three-month accumulation: trust **< 1,035.70 tonnes** | 1,043.36 tonnes October 28 | Latest held quantity is above the line. |
+| Three-month rates: real 10Y **≥ 3.00% on 5 consecutive Treasury prints** | 2.67% October 28 | Latest held print is below the line. |
+| Three-month dollar: DXY **≥ 105 on 5 consecutive closes** | 102.19 October 28, vendor daily mirror | Latest held close is below the line. |
+| Three-month selling: a **second LIQUIDATION-class day by November 5 AND cumulative tonnes ≤ −20 since September 30** | October 22 classified case retained; quantity change since September 30 −12.34 tonnes at October 28 (1,055.70 → 1,043.36 t) | This requested price refresh does not rerun frozen-letter classifications; quantities alone do not establish a second LIQUIDATION event. |
 
 If any existing three-month invalidation fires, the standing action is to withdraw the positive lean to neutral and report to PROME/TERRY. This review does not grade an unobserved day or reanchor the outlook.
 
