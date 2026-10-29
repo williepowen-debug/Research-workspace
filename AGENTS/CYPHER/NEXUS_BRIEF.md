@@ -2,7 +2,7 @@
 
 **Status:** 🟠 One wave trigger FIRED (CISA KEV, 10/26). An unnamed successful compromise is now reported; no named financial victim.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-10-29 14:01 EDT | STATUS commit: `f1d07f46c64c28de97b3fdabadf4532d4dde548c`
+**As of:** 2026-10-29 14:42 EDT | STATUS commit: `08f0e15eae38b0291aeebb352d1ba2f79f17e449`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
