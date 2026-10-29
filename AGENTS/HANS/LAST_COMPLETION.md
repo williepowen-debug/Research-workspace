@@ -1,6 +1,6 @@
 # HANS LAST_COMPLETION — overwrite each session
 
-**STATUS:** ✅ DONE — 2026-10-29 (Thu) hans-1029, Will-spawned in-terminal session, boot 13:27 ET, catch-up on Will's "go" 13:31 ET, closeout ~13:5x ET. Opus 5.5, Claude Code. Standard+ tier (one method lesson `ML-HANS-483`; no auto-memory written).
+**STATUS:** ✅ DONE — 2026-10-29 (Thu) hans-1029, Will-spawned in-terminal session, boot 13:27 ET, catch-up on Will's "go" 13:31 ET, then the winter read (14:06) and the workbook/core pass (14:18). **Closed on Will's word 14:35 ET; final checks 14:40 ET by `date`:** doc_audit rc0 · tests 149/149 · consumer cross-agent rc0 (hits = dated records / CMBS $3.49B, a different series; no packet) · consumer --self rc0 · orphan: none mine · claim check clean · read-cap rc0 · root 1d no-op. Opus 5.5, Claude Code. Standard+ tier (one method lesson `ML-HANS-483`; no auto-memory written).
 
 **CHANGED:**
 - **Registry:** `T-04` (ECB HOLD, NOT-MET), `T-05`, `T-06`, `T-07` (**L3 FIRED 10/28**, settle disputed), `T-08`, `T-10` (OPEN, easing), `T-13` graded 10/29.
