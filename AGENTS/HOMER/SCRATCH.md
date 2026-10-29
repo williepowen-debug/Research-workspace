@@ -31,4 +31,6 @@
 - 10Y-FRM spread 10/22 uses the Treasury par curve, not H.15 directly (H.15 draws on it); note if the two differ.
 - Formal thesis grade **2026-11-20**; HOM-02 decider MBA Q3 NDS ~mid-Nov.
 
+**Closeout 2026-10-28 ~23:45 ET (Will: "lets close out").** All work committed locally in HOMER-only commits (+ carve-out ① packets to HENRY and CREED). **PUSH DEFERRED** — other desks (WAL, CARL/PHAN, CREED index) had uncommitted/staged work, so per the charter boot rule nothing was pulled or pushed; PROME / the next clean session pushes via `scripts/safe-push.sh`.
+
 No Will decision required.

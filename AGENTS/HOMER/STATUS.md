@@ -157,12 +157,10 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 
 ## BOTTOM LINE
 
-**2026-10-28 — catch-up after a 9-day gap (Claude Code session).** Thirteen prints graded and ledgered; 29 WALTER signals dispositioned; DAEDALUS profile-refresh fixes applied (no-book charter line, scoped PREDICTIONS read, stale text, ledger headers).
+**2026-10-28 — catch-up after a 9-day gap, then build-out (Claude Code, one session).**
 
-**What moved:** the 90+/FC pipeline rose to **882K (ORANGE, 118K from RED)** while **foreclosure starts turned negative YoY for the first time** and FC sales accelerated (+14.5%) — inflow cooling, conversion continuing. **Freddie MF fell to 0.58%** (first decline since April, still above Red). **Rent breadth dropped to 39/100 (YELLOW)** as national rents turned flat-to-positive. PMMS eased to 7.32%. Demand weakened further: pending sales −7.3% MoM, purchase apps −18% YoY. Builder margin compression broadened to PHM, NVR, MTH and CCS.
+**What moved:** 90+/FC pipeline **882K (ORANGE, 118K from RED)** while FC starts turned negative YoY (first time) and FC sales rose +14.5% — inflow cooling, conversion continuing. **Fannie MF 0.62% at 9/30 with its MF provision +72%** (3bp below Orange; the provision, not the mod-lowered headline, carries the GSE signal). Freddie eased to 0.58%. Sun Belt MF realized marks (FBRT, TRTX). Rent breadth fell to **39/100 (YELLOW)**. PMMS 7.32%. Demand weaker (pending −7.3% MoM; purchase apps −18% YoY). Builder margins compressing broadly.
 
-**News sweep 10/28 (Will-asked)** → `reports/2026-10-28_news-sweep.md`: **Fannie MF 0.62% at 9/30 with the MF provision +72%** (3bp below Orange); FBRT/TRTX realized MF marks; UWM selling ~a quarter of its MSR book; builder consolidation (TMHC, TPH, BZH gone private). **Desk build-out (Will-asked):** `registry/THRESHOLDS.tsv` + `tools/threshold_scan.py`, Trepp Oct MF pre-registration, `COVERAGE.md`, `MAINTENANCE.md`; named MF cases now route to CREED.
+**Built (Will-approved):** threshold registry + scanner (BOOT 6b); Trepp Oct MF pre-registration; COVERAGE map; MAINTENANCE log; named MF cases → CREED; HENRY edge formalized; DHI buydown tracker; monthly rent-breadth row; **NV and CA lanes** (observations, no bands). 29 WALTER signals and 13 prints integrated. Detail → `reports/2026-10-28_*` and `MAINTENANCE.md`.
 
-**Will rulings 10/28:** ① monthly rent-breadth row on every refresh (charter rule ⑥) · ② DHI BUYDOWN TRACKER rows in `BUILDER.tsv` (FQ2/FQ3 seeded; FQ4 10/29) · ③ per-row relabel of old ledger rows SKIPPED · ④ **HENRY edge FORMALIZED** — trigger rule in charter; first packet in `AGENTS/HENRY/inbox/`.
-
-**Thesis 0/5 killed, 🔴 holds; formal review 11/20.** **Will decision required: none.**
+**Thesis 0/5 killed, 🔴 holds; formal review 11/20. Will decision required: none.** ⚠️ `LESSONS.md` is 377 B from its rotation trigger — rotate before the next lesson. Push deferred (other desks' uncommitted work in the tree).
