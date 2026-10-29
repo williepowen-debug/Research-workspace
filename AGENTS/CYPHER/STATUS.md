@@ -13,6 +13,7 @@
 - No US bank, credit union or core vendor is a named victim.
 - One US credit union took digital banking down for about 24h as a precaution (CYB-INC-046). That is a YELLOW case under the pre-registered band, not a fire.
 - Base rate: 0 of 5 past waves were systemic for banks (KB-CYP-001, DEWEY-inherited).
+- **DEWEY's rerun (008R, 10/29) agrees:** still Log4Shell-like on outcomes, one step toward MOVEit on Dream's claim alone; KEV timing does not separate the two shapes (Log4Shell +1 day, MOVEit +2, PHP2Shell +5). Fortinet's -20.9% is its earnings, not the wave (KB-CYP-071..073).
 
 | Gauge | Reading | Canonical |
 |---|---|---|
@@ -87,7 +88,7 @@
 
 | Date | Check |
 |---|---|
-| 10/30 | DEWEY REQ-008 rerun (not out 10/29); Palo Alto remaining hotfix ETAs; GMO replacement-service checkpoint |
+| 10/30 | Palo Alto remaining hotfix ETAs; GMO replacement-service checkpoint (DEWEY 008R landed 10/29, consumed) |
 | 11/03 | Keystone erasure statement |
 | 11/04 | **PHP2Shell +14d (P1):** rows 1, 3, 4; Dream correction or a named victim; ConnectWise restoration completion |
 | 11/05 | Financial-claim pass: 036–040, 043 |

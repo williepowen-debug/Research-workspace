@@ -23,12 +23,13 @@
 |---|---|---|---|---|
 | Victims / IR firms / CERTs | A NAMED PHP2Shell compromise (incl. behind Dream's firewall finding) | Check 11/04; flip window 11/20 | Row 1 under R1 needs a named organisation | Row 1 FIRES -> R1 toward the MOVEit shape |
 | Dream | Correction or retraction | 11/04 | Two earlier firm claims in this wave were withdrawn or corrected | A retraction drops CYB-INC-047 back to a lead |
-| DEWEY | REQ-008 rerun | 10/30 (not out 10/29) | Base rates and watch states | Reconcile; no substitute systemic conclusion |
 | ConnectWise | Restoration completion | 11/04 | Phased restoration only began 10/28 | MSP availability verdict |
 | REGINALD | Boundary reply | Its next session | 1 of 11 still outstanding | Owner amendments only on an actual reply |
 | HENRY / VULCAN | Equity persistence grade | 2026-11-18 | Row 9 | Owner-graded thermometer |
 
 ## VIEW
+
+- DEWEY's 10/29 rerun agrees row by row: still Log4Shell-like on outcomes, one step toward MOVEit on a single unnamed vendor claim; a KEV listing does not separate the shapes (KB-CYP-071/072). Fortinet's -20.9% is earnings, not the wave.
 
 - The wave has moved from "exploited somewhere" (KEV) to "a successful compromise is reported, victim unnamed": a vendor confirms exploitation and one research firm documents a chain against firewalls, including a US government-affiliated network.
 - The financial system has not been named as hit. The one US credit-union outage was self-taken, about 24 hours, with payments untouched. Finzly remains a claim the company says it is investigating.
@@ -52,7 +53,7 @@
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-10-30 | DEWEY 008R; Palo Alto remaining hotfixes; GMO replacement-service checkpoint | Rerun findings; fix availability; procedures |
+| 2026-10-30 | Palo Alto remaining hotfixes; GMO replacement-service checkpoint | Rerun findings; fix availability; procedures |
 | 2026-11-03 | Keystone erasure statement | Issuer completion or delay |
 | 2026-11-04 | PHP2Shell +14d; ConnectWise restoration | Named victims; 8-K 1.05; restoration done |
 | 2026-11-05 | Financial-claim pass (036–040, 043) | Victim or regulator confirmation/denial |
