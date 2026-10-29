@@ -37,7 +37,7 @@
 |---|---|
 | WQ-470 X bound at **+92%** from 16 free weekly TD6/TD19 pairs; draft BREAKS (RIO +49% < X; TD17 ceased 12/2025 ⇒ Baltic leg blocks every kill) → back to HAWK | `domain/energy-strikes/WQ470_X_BACKFILL_2026-10-29.md` · KB-238 · WQ470 doc §8 · HAWK packet |
 | **OWED-46 does NOT decide 11/2** (Surgut anchor reaches 14/14 on 10/30; leg B fails anyway). It was never registered at PROME; put to Will in-session | STATUS ACTIVE PM · PROME memo `2026-10-29b_from-OSPREY_…` |
-| Druzhba: MOL "no disruption" (KB-240) · Primorsk cause not established, maintenance inferred; **Ust-Luga 10/18 fire = UNVERIFIED lead** (KB-241) · OWED-51 pass 2 +5 rows, Palkino ≠ Yaroslavl-3 (KB-239) | KB.tsv · STRIKES.tsv |
+| Druzhba: MOL "no disruption" (KB-240) · Primorsk cause not established, maintenance inferred; Ust-Luga 10/18 fire = probable conflation with PNT (WALTER verify, KB-242) · OWED-51 pass 2 +5 rows, Palkino ≠ Yaroslavl-3 (KB-239) | KB.tsv · STRIKES.tsv |
 **Supersedes above:** NEXT item 3 (X binding) → now WAIT FOR HAWK's four answers. Item 4 Druzhba/Primorsk → done as far as public sources go. Item 6 OWED-51 → remainder is Sept upstream queries + July refinery cross-check. Check the Ust-Luga 10/18 lead at the Palaemon 26 Oct–1 Nov read (11/1).
 
 ## NEXT SESSION (dated, future-verifiable)
