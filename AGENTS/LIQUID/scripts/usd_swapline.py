@@ -30,8 +30,10 @@ EXIT CODES (L568 pass 2026-10-08): 0 both legs healthy and graded · 1 --selftes
 import json, sys, urllib.request, datetime as dt, time, csv, io, contextlib
 
 # ⛔ CATO D2 / AC-D2 (analysis 2026-10-01 §7b): ONE switch. While True, a default run prints the
-# refusal below and NO reading, before any network call. Clearing it is the release step after
-# PROME's LAST independent read (DOCKET L568) — never a side effect of a fix.
+# refusal below and NO reading, before any network call. Release condition (one, everywhere — L568 pass
+# 2026-10-29, AC-B2): WITHHELD until an independent read that WILL NAMES clears it; clearing the constant is
+# then the release step — never a side effect of a fix. (Read 3 ran 10/8; the read Will named under
+# WQ-398 (a) ran 10/15 under WQ-404 A and returned NOT RELEASED.)
 WITHHELD = True
 WITHHELD_WHY = ("WITHHELD — not for operational use; disposition: PROME DOCKET L568 / "
                 "AGENTS/LIQUID/analysis/2026-10-01_eurusd-basis-instrument.md §WITHHELD "
@@ -190,12 +192,16 @@ def check_ops_history(by_year, today):
             raise RuntimeError(f"the {y} request returned {len(out)} ops traded outside {y} (e.g. {out[0]}) — not {y}'s history")
         if y < today.year and not any(o["cp"] in EU for o in ol):
             raise RuntimeError(f"NY Fed returned no European op for {y} (every year 2010-2025 had >= 16 on 2026-10-09)")
-    seen = set()
-    for ol in by_year.values():
+    # AC-X2b (4), restated 2026-10-29 (AC-B3, READ1 ❌17): no exact-duplicate op INSIDE one year's response.
+    # A duplicate ACROSS two year fetches cannot reach this check: a trade date lies in exactly one year, so
+    # the window check above (3) already rejects it as "traded outside <year>". Key omits `rate` (READ1 CE-D,
+    # declared residue).
+    for y, ol in by_year.items():
+        seen = set()
         for o in ol:
             k = (o["trade"], o["settle"], o["mat"], o["cp"], o["bn"], o["term"])
             if k in seen:
-                raise RuntimeError(f"duplicate op across year fetches: {k}")
+                raise RuntimeError(f"duplicate op in one year's response ({y}): {k}")
             seen.add(k)
     ds = sorted({dt.date.fromisoformat(o["trade"]) for ol in by_year.values() for o in ol
                  if o["cp"] in EU and o["trade"] >= CONTINUOUS_FROM})
@@ -571,7 +577,9 @@ def selftest():
         chk("X2b the 2020 request answered with 2019's ops -> rc 2", (rc, "traded outside 2020" in out, "turn ops" in out), (2, True, False))
         y19 = [o for o in H if o["trade"][:4] == "2019"]
         out, rc = BR(ops_from(H, {"2019": y19 + y19[:1]}), SWH)
-        chk("X2b one op returned twice -> rc 2 duplicate", (rc, "duplicate op" in out, "turn ops" in out), (2, True, False))
+        chk("X2b (4) one op returned twice inside the 2019 response -> rc 2 duplicate", (rc, "duplicate op in one year's response (2019)" in out, "turn ops" in out), (2, True, False))
+        out, rc = BR(ops_from(H, {"2020": [o for o in H if o["trade"][:4] == "2020"] + y19[:1]}), SWH)
+        chk("X2b (3) one 2019 op ALSO returned in the 2020 response (cross-fetch duplicate) -> rc 2 via the window check", (rc, "traded outside 2020" in out, "turn ops" in out), (2, True, False))
         out, rc = BR(ops_from(hist_ops(dt.date(2026, 12, 16))), hist_sw(dt.date(2007, 1, 3), dt.date(2026, 12, 30)), dt.date(2027, 1, 5))
         chk("X2b run 2027-01-05, 2027 empty, newest op 2026-12-16 -> NOT failed for the current year", (rc, "turn ops" in out), (0, True))
         bad_h = [dict(o, mat="") if o["trade"] == "2018-05-02" and o["cp"] == ECB else o for o in H]
