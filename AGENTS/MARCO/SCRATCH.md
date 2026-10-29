@@ -1,5 +1,5 @@
 # MARCO SCRATCH — session 38 boot catch-up
-**Last Updated:** 2026-10-29 00:10 ET (workbook refresh appended). Will: "boot up, get caught up on all owed work and any new data, using live searches."
+**Last Updated:** 2026-10-29 00:01 ET — SESSION CLOSED at Will's request ("lets close out MARCO here"). Earlier 00:10/00:20 stamps were typed ahead of the wall clock and corrected from `date`. Will: "boot up, get caught up on all owed work and any new data, using live searches."
 
 ## CHANGES SINCE (10/25 → 10/28)
 - DAEDALUS applied the WQ-508 charter lines to MARCO/CLAUDE.md directly (`4da79f1ee`, Will-directed). Reviewed: none contested. Packet filed.
@@ -37,3 +37,6 @@
 
 ## MAIL
 Inbox empty after processing. Sent: REGINALD, CARL (trigger), DEWEY (DR-1 adopted), PROME (residue receipt). Other desks' dirty files (HOMER, CRUISE): no pull, no stash.
+
+## CLOSEOUT (2026-10-29 00:01 ET)
+Will closed the session. Commits this session: 9d921745f (catch-up), 285b38432 (packets), 039896d46 (workbook pass 1), 6e7e7ffc0 (pass 2), plus this closeout commit. PROME consumed the residue receipt; DOCKET L466 RESOLVED; L785 PENDING to 11/4 (LVCVA) + LABOR return. No research, tool or wait left running. Skipped: none of the closeout steps; THESIS unchanged (no conviction move — MIA trigger is confounded), no CHANGELOG entry.
