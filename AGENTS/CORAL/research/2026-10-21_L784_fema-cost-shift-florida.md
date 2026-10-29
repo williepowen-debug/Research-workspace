@@ -120,3 +120,5 @@ Rows above stay as written (record of what was known then). This section closes 
 5. Everything else in the commission is answered: state budget (rows 1–3), Citizens (row 4), FHCF (row 5, October report), satellites (closed), bond holders (answered for SHADE's perimeter; market-wide UNKNOWN by design).
 
 **Net (unchanged from § 7):** the first Florida test came back as an approval on the public side; Citizens and FHCF are unaffected by FEMA by construction and FHCF is stronger; the open pieces are household aid, the cost share and the ballot. No trade, threshold, gate or grade change.
+
+**§ 8 addendum, 15:28 ET 10/29 (C9 commission):** remainder (4) DONE — **OIR primary, data as of 10/27: 62,295 claims / $652,204,988 incurred** (residential $599.9M; commercial residential 379 / $3.76M) replaces the PRESS $582M (§ 4 row 1). Remainder (1) re-checked 15:26 ET: no DR-4955 Federal Register notice; OpenFEMA IA/HM still False. Remaining for 11/03: cost share · IA outcome · ballot (certified ~11/4). Evidence → `STATUS_DETAIL.md` § Z2, § Z5.

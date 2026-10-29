@@ -1,0 +1,43 @@
+M.D.+S.D. FL-resident Ch.7 (F-5A, 44 counties): 33,916 vs 27,440 = +23.6% ; 158.3/100k (pop V2025 21,427,976)
+All chapters same perimeter: 48,223 vs 39,760 = +21.3%
+
+Top 5 by Ch.7 rate (counties pop>=100k, n=31):
+  OSCEOLA      FL,M   246.4/100k  Ch7 1,187 (+28.5% YoY)
+  POLK         FL,M   233.8/100k  Ch7 2,045 (+30.6% YoY)
+  HERNANDO     FL,M   229.1/100k  Ch7 508 (+23.0% YoY)
+  FLAGLER      FL,M   221.6/100k  Ch7 311 (+50.2% YoY)
+  VOLUSIA      FL,M   206.6/100k  Ch7 1,253 (+19.4% YoY)
+Top 5 by Ch.7 YoY growth (pop>=100k):
+  NASSAU       FL,M   +71.6%  Ch7 67->115  107.6/100k
+  FLAGLER      FL,M   +50.2%  Ch7 207->311  221.6/100k
+  MANATEE      FL,M   +44.2%  Ch7 387->558  119.2/100k
+  CLAY         FL,M   +43.0%  Ch7 305->436  182.0/100k
+  MARION       FL,M   +42.4%  Ch7 451->642  145.0/100k
+Bottom 3 by growth (pop>=100k):
+  HIGHLANDS    FL,S   -16.4%  Ch7 110->92
+  MIAMI-DADE   FL,S   +12.7%  Ch7 4,320->4,867
+  MARTIN       FL,S   +15.1%  Ch7 93->107
+
+Breadth (pop>=100k, n=31): rising 30 · >+20% 24 · >+30% 11 · median +26.1%
+Breadth (all 44): rising 38 · >+20% 28 · median +23.1%
+FL,M Ch.7 FL-res 18,903->23,949 +26.7%
+FL,S Ch.7 FL-res 8,537->9,967 +16.8%
+Share of the Ch.7 increase, top 5 counties by absolute increase:
+  MIAMI-DADE   +547 (8.4% of +6,476); pop share 13.1%
+  HILLSBOROUGH +540 (8.3% of +6,476); pop share 7.3%
+  POLK         +479 (7.4% of +6,476); pop share 4.1%
+  ORANGE       +455 (7.0% of +6,476); pop share 7.1%
+  BROWARD      +405 (6.3% of +6,476); pop share 9.4%
+
+Condo/MSI metros:
+  LEE          FL,M  179.4/100k  +34.4%  Ch7 1,169->1,571
+  CHARLOTTE    FL,M  134.9/100k  +20.6%  Ch7 243->293
+  SARASOTA     FL,M  119.0/100k  +30.1%  Ch7 439->571
+  COLLIER      FL,M   97.1/100k  +27.4%  Ch7 318->405
+  PINELLAS     FL,M  141.5/100k  +22.1%  Ch7 1,099->1,342
+  HILLSBOROUGH FL,M  181.9/100k  +23.2%  Ch7 2,323->2,863
+  POLK         FL,M  233.8/100k  +30.6%  Ch7 1,566->2,045
+  PALM BEACH   FL,S   88.0/100k  +25.9%  Ch7 1,102->1,387
+  BROWARD      FL,S  135.3/100k  +17.5%  Ch7 2,320->2,725
+  MIAMI-DADE   FL,S  173.7/100k  +12.7%  Ch7 4,320->4,867
+  ORANGE       FL,M  175.4/100k  +20.4%  Ch7 2,225->2,680

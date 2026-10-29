@@ -3,7 +3,7 @@
 **Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3: REGINALD 10/28 — every read 8-K cell HOLDS at BKU/SSB/AMTB/SBCF; aggregate PROVISIONAL to the 10-Qs ~11/14). Supply-side MSI leg **🟠 since 9/13**; **reading #11 (Parcl data date 10/27, first on the CURRENT series per WQ-475 A) 4-of-5 > 6.00, Cape Coral 5.89 ⇒ re-fire fails, no rule applies.** ⚠️ The current Parcl series revises trailing days between builds (10/20 read Cape Coral 5.88 on 10/21, 5.93 on 10/28) — the first build carrying a data date governs; #10 stands. **Re-fire + level guard (WQ-241, 9/28): re-fire = all five > 6.00, stand-down = same metro < 5.90, 5.90–6.00 policy buffer, ≥10-day persistence.** ⭐ **9/28→10/29: most new data cuts AGAINST acute statewide housing distress; the one measured channel pointing WITH the thesis is bankruptcy (+21.3% YoY to 9/30, 1.256× US, still widening).**
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-10-29 15:03 ET (Thu, coral-1029pm, PROME prome-5c catch-up, Will 14:52 ET) · **STATUS commit:** rides the same commit as this brief (`brief_pin_check`; prior STATUS + brief commit `5e85abbed`) · **Refresh:** 10/29 pm block added above the 10/29 am block; the 10/21 L784 block rotated out (verbatim in git history at `5e85abbed`). *(Prior: 2026-10-29 00:16 ET.)*
+**As of:** 2026-10-29 15:28 ET (Thu, coral-1029c9 C9 commission — Citizens mechanism, OIR primary, county bankruptcy cut added to the pm block; earlier 15:03 ET coral-1029pm, PROME prome-5c catch-up, Will 14:52 ET) · **STATUS commit:** rides the same commit as this brief (`brief_pin_check`; prior STATUS + brief commit `5e85abbed`) · **Refresh:** 10/29 pm block added above the 10/29 am block; the 10/21 L784 block rotated out (verbatim in git history at `5e85abbed`). *(Prior: 2026-10-29 00:16 ET.)*
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
 
@@ -11,9 +11,9 @@
 
 | # | Item (dated, tiered) | For whom · so what |
 |---|---|---|
-| 1 | ⭐ **Bankruptcy, 12 mo to 9/30/26 (AOUSC F-2, P1):** M.D.+S.D. **225.9/100k, +21.3% YoY**; US 179.9, +11.5%; FL/US **1.256×** (6/30 1.231×). Criterion-5 leg A: 0.6pp below prior-four max ⇒ **not fading** | CARL, REGINALD — household-strain canary still accelerating relative to the US |
+| 1 | ⭐ **Bankruptcy, 12 mo to 9/30/26 (AOUSC F-2, P1):** M.D.+S.D. **225.9/100k, +21.3% YoY**; US 179.9, +11.5%; FL/US **1.256×** (6/30 1.231×). Criterion-5 leg A: 0.6pp below prior-four max ⇒ **not fading** | CARL, REGINALD — household-strain canary still accelerating relative to the US; **county cut (F-5A Ch.7): broad — 30 of 31 large counties rising, median +26.1%; Central FL highest (Osceola 246, Polk 234/100k)** |
 | 2 | **L784 peer cells:** AEOLUS ACKED the carry split; satellite cuts = NOAA GeoXO, **no FL $ before 2032**. SHADE: **FHCF $0 · Citizens $0** at Delaware Life + Athene (YE2025 Schedule D, P1 via SHADE); FL munis <0.1% of GA; market-wide holders UNKNOWN. DR-4955 unchanged (PA 15/15, IA 0, HM 0; no FR notice, 14:5x ET) | PROME, AEOLUS, SHADE, LIQUID — remains for 11/03: cost share, IA, ballot |
-| 3 | **Citizens 9/30 month-end 254,836 (P1)** ≈ −1,145 ex-round; ⚠️ **weekly 216,577 at 10/23 (−38,259) — mechanism UNVERIFIED** (October takeout round would fit; not found) | SHADE, AEOLUS, MARCO — do not read the 10/23 drop as flight or as depopulation until the 10/31 month-end |
+| 3 | **Citizens 9/30 month-end 254,836 (P1)** ≈ −1,145 ex-round; **weekly 216,577 at 10/23 (−38,259) = the 10/20 takeout round, 37,514 personal (Citizens 2026 Stats, P1); residual ≈ −745** | SHADE, AEOLUS, MARCO — depopulation, not flight |
 | 4 | **FMHPI FL revised (P1):** Jul +1.68% → **+0.74%**; Aug **+1.08%** YoY SA (SF only, conforming) | HOMER, MARCO — constant-quality SF still positive, weaker than carried |
 | 5 | **King tide 10/25–29:** AEOLUS's gauges (Lake Worth record) — CORAL impact read: NWS coastal-flood warnings live (Keys, NE FL), advisories SE FL; **no declaration or damage tally found** | AEOLUS — descriptive coastal datum, not an insured-loss event |
 
@@ -74,7 +74,7 @@
 | daily → 11/03 | Federal Register DR-4955 notice · any IA/HM amendment | Cost share (75% flat vs enhanced) — L784 due 11/03 |
 | ~11/4 → by 11/5 | MSI-01 reading #12 (next Parcl build) | All five > 6.00 starts a re-fire clock; Cape Coral 5.89 at #11 |
 | ~mid-Nov | Citizens 10/31 month-end | Explains the 10/23 weekly −38,259 (takeout vs other) |
-| ~mid-Oct → Nov | OIR Isaias claims at the primary (~55,000 at 10/25, PRESS) | Compare with Sally/Ivan by development day |
+| ~Nov | OIR Isaias claims (P1: **62,295 / $652.2M at 10/27**, day 18 — already above Sally's $577M at 40 d) | Development vs Sally/Ivan by day |
 | Mon 11/16 | FL Realtors October | First FULL month for the GSE financed-units read (condo vs SF) |
 | ~11/14 | Q3 FL-bank 10-Qs (BKU, SSB, SBCF, AMTB) | REGINALD's frame goes final; CORAL greps condo/association disclosure |
 | Nov 3 / Nov 15 | Ballot No. 3 / falsify grade | 60% threshold; pre-registered decision rule |

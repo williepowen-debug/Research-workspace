@@ -19,11 +19,15 @@
 4. **Files**: STATUS (blocks rotated → STATUS_DETAIL § Y0; evidence § Y), NEXUS_BRIEF (10/21 block rotated out; stale row 4 "EM-3655 only" removed), CALENDAR, VX (stamp + Citizens, BKCY, coastal rows), FLOW (stamp + FEMA cost-shift pathway), KB ML-CORAL-125…129, FL_Forward_Log + ML_Master_Log **FROZEN**.
 5. Packets: MARCO (Citizens 9/30 one number), AEOLUS (king-tide answers). PROME completion packet.
 
+## C9 ADDENDUM (15:21–15:28 ET, PROME prome-5c commission, Will 15:21 ET "1 and 2 yes")
+
+- Citizens −38,259 = 10/20 takeout round 37,514 (§ Z1) · OIR Isaias 62,295 / $652.2M at 10/27 (§ Z2) · F-5A county Ch.7: broad, Central FL leads (§ Z3; `tools/bkcy/f5a/`) · three hearings NOT readable free (§ Z4) · FR: no DR-4955 notice 15:26 ET (§ Z5). Packets: MARCO (Citizens explained), AEOLUS (OIR one number). STATUS rotation NOT done — see GAPS in the C9 completion packet.
+
 ## NEXT SESSION / OWED
 
 - **L784 due 11/03:** daily FR check for the DR-4955 notice; IA amendment/denial; ballot results ~11/4.
 - **MSI reading #12** from the next Parcl build (~11/4, by 11/5).
-- **Citizens 10/31 month-end** (~mid-Nov) — explains the −38,259 weekly drop.
+- **Citizens 10/31 month-end** (~mid-Nov) — confirms the 10/20 round in the month-end basis; next personal assumptions 11/17, 12/15.
 - 10-Qs ~11/14 (grep condo/association) · 11/15 falsify grade (criterion 5 now read to 9/30: not fading) · 11/16 FL Realtors Oct.
 - FMHPI Sept due ~10/30 (HOMER's calendar) — re-read the FL row.
 - Carried: OIR Isaias page · Panhandle Citizens county re-cut (9/30 PDF available) · passed hearings unread (Dockside 10/27, Grande Isle 10/21, Brightline 10/29) · Pembroke Lakes · OQ L Wayback · Avidia 10-Q · s.252.37(5)(a).
