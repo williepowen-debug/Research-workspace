@@ -44,3 +44,4 @@ reviews/**	EXCLUDED	external audit reports — written BY the auditor, read by P
 .claude/**	EXCLUDED	harness config other than the PROME rows above (argus.md, .claude/skills/**, .claude/agents/**), which are OWNED by those more specific rows
 CLAUDE.md	EXCLUDED	root canon — Will-gated; a change here is an operator decision, not PROME closeout output
 AGENTS.md	EXCLUDED	root roster/nav core — Will-gated
+USER.md	SHARED	root operator profile — Will edits freely and PROME holds standing permission to edit it (USER.md § Autonomy); PROME edits ARE closeout output to audit (first ARGUS miss: 0926321f6 changed it with no row, found 2026-09-30, DOCKET L591); row added 2026-10-28 22:4x ET under WQ-530 § D quick items
