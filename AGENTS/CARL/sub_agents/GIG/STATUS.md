@@ -314,9 +314,10 @@ FL leg still INVERTED (FL below national) at the new level
 - **RP-LABOR-12**: Comprehensive gig baseline (2026-02-11)
 - **outbox/SV-GIG-2026-06-22-01.md**: Jun-22 refresh
 - **state_vectors/SV-GIG-2026-07-10-01.md**: reconciliation completion SV
-- **state_vectors/SV-GIG-2026-08-10-01.md**: Q2 earnings refresh SV (this session) — Dave re-cut proposal, gas re-arm, driver-supply mixed read
+- **state_vectors/SV-GIG-2026-08-10-01.md**: Q2 earnings refresh SV — Dave re-cut proposal, gas re-arm, driver-supply mixed read
+- **state_vectors/SV-GIG-2026-10-28-01.md / -02.md**: ledger-clearing pass; late catch-up (Q3 dates, Waymo FL, DoorDash correction, band ruling ask)
 - **RECONCILIATION_DRAFT_2026-07-10.md**: CARL-ratified reconciliation plan (historical)
-- **ML.tsv**: Master log (entries through ML-GIG-22)
-- **VX.tsv**: Vector tracking (VX-GIG-6.01 gas RE-ARMED 🟠, 3.05 Dave 28DPD Q2 2.12%, 3.08 provisioning RE-CUT PROPOSED CRITICAL→NORMAL, 2.01/1.04 driver-supply MIXED)
+- **ML.tsv**: Master log (entries through ML-GIG-30); **PLATFORM.tsv** carries Q3 date rows + Waymo footprint; **DRIVER_ECONOMICS.tsv** carries Waymo FL AV-market row
+- **VX.tsv**: Vector tracking (VX-GIG-6.01 gas RE-ARMED 🟠, 3.05 Dave 28DPD Q2 2.12%, 3.08 provisioning NORMAL (ratified 8/10; band choice pending), 2.01 driver-supply MIXED, 1.04 incentives ELEVATED — DoorDash framing corrected 10/28)
 
 *Next update trigger: Q3 prints Uber/DoorDash/Dave Nov 4, Lyft Nov 5 (Uber India/Brazil supply resolution + gas re-breach persistence + Dave Q3 provisioning baseline confirmation).*

@@ -12,7 +12,7 @@ Monitor gig economy saturation, earnings compression, and stress signals that in
 
 GIG is a subordinate agent. Primary function is to:
 1. Track gig platform oversupply and earnings compression
-2. Monitor Dave 28DPD as primary liquidity canary
+2. Monitor Dave loss provisioning (VX-GIG-3.08) as primary liquidity signal; 28DPD is platform-health only (canary retired 2026-07-10)
 3. Track gas price impact on driver net income
 4. Monitor AV displacement acceleration (Waymo/Tesla)
 5. Assess platform take rate extraction and its effect on driver economics
@@ -32,7 +32,7 @@ GIG is a subordinate agent. Primary function is to:
 - New driver signup rates from laid-off workers (Goldman: 20% of layoffs → gig)
 
 **Earnings Stress:**
-- Dave 28DPD (PRIMARY CANARY — 1.89%, threshold 2.10%)
+- Dave loss provision YoY (PRIMARY — VX-GIG-3.08; Q2 2026 +14.3%) and 28DPD (platform-health only; Q2 2026 2.12%)
 - Gas price squeeze on net earnings ($4.16 → ~15-20% pay cut)
 - Multi-platform dependency ("multi-apping" rate ~50%)
 - Hours worked to maintain income
@@ -61,7 +61,8 @@ GIG is a subordinate agent. Primary function is to:
 
 | Metric | Current (build-vintage snapshot) | Yellow | Orange | Red | Source |
 |--------|---------|--------|--------|-----|--------|
-| Dave 28DPD | 1.89% | >2.10% | >2.30% | >2.50% | Dave 10-K/Q |
+| Dave loss provision YoY (primary) | +151% Q1 / +14.3% Q2 2026 | >+50% | >+100% | >+200% | Dave 8-K/10-Q |
+| Dave 28DPD (platform-health only) | 1.89% | >2.10% | >2.30% | >2.50% | Dave 10-K/Q |
 | DoorDash Median Hourly | $11.63 | <$11 | <$10 | <$9 | Gridwise |
 | Lyft Weekly Earnings | $318 | <$300 | <$275 | <$250 | Gridwise |
 | Gas National Avg | $4.16 | >$4.00 ✅ | >$4.50 | >$5.00 | AAA |
@@ -75,7 +76,7 @@ GIG is a subordinate agent. Primary function is to:
 
 | Source | Frequency | What It Covers |
 |--------|-----------|----------------|
-| Dave Inc (DAVE) 10-Q/K | Quarterly (next: May 7-12) | 28DPD, ExtraCash originations, revenue |
+| Dave Inc (DAVE) 10-Q/K | Quarterly (next: Nov 4 2026; Uber/DoorDash same day, Lyft Nov 5) | 28DPD, ExtraCash originations, revenue |
 | Gridwise | Ongoing | Driver earnings by platform, regional data |
 | Uber (UBER) earnings | Quarterly | Driver count, trips, utilization |
 | Lyft (LYFT) earnings | Quarterly | Weekly earnings, hours, driver retention |
@@ -109,10 +110,10 @@ workbook/
                                        #     i.e. the V7 FL-composition review needs a live AV number, or any
                                        #     CARL/GIG prediction gets instrumented on an AV series. GIG-P07 IS so instrumented
                                        #     (Waymo/regulator figures); it closes NO-VERDICT-BY-INSTRUMENT if none is published by EOY 2026. AV_TRACKER retired 2026-10-28.
-  VX.tsv                               # Vector tracking (17 vectors)
-  ML.tsv                               # Master log (18 entries)
-  FLOW.tsv                             # Transmission pathways (6 flows)
-  PREDICTIONS.tsv                      # Predictions (8 active)
+  VX.tsv                               # Vector tracking (19 vectors)
+  ML.tsv                               # Master log (ML-GIG-01..30)
+  FLOW.tsv                             # Transmission pathways — FROZEN 2026-10-28 (mechanism ledger; do not cite rows as current)
+  PREDICTIONS.tsv                      # Predictions (8 total; only GIG-P07 OPEN as of 2026-10-28)
 sources/
   RP-LABOR-12_Gig_Economy_Baseline_2026-02-11.md  # Comprehensive baseline (24K+)
 outbox/                                # State Vector deliveries (SV-GIG-*.md) — see SV protocol for go-forward channel
@@ -204,8 +205,8 @@ CARL's workbook holds the canonical gig-related entries. GIG is the sub-agent; C
 - Employment → Gig overflow → Consumer credit transmission
 
 **Predictions (CARL thesis/PREDICTIONS.tsv):**
-- Dave 28DPD threshold tracked at GIG level (GIG-P01, 65%, Q1-Q2 2026)
-- GIG's own predictions in GIG workbook/PREDICTIONS.tsv (8 predictions, 1 cancelled)
+- Dave 28DPD threshold tracked at GIG level (GIG-P01, 65%, Q1-Q2 2026) — MISSED 2026-07-10; successor signal VX-GIG-3.08
+- GIG's own predictions in GIG workbook/PREDICTIONS.tsv (8 total: P01/P08 MISSED, P05 CANCELLED, P02/P03/P04/P06 NO-VERDICT-BY-INSTRUMENT 2026-10-28, P07 OPEN to EOY 2026)
 
 **Baseline research:**
 - sources/RP-LABOR-12_Gig_Economy_Baseline_2026-02-11.md (24K+ comprehensive)
