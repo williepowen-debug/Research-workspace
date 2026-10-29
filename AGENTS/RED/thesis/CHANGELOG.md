@@ -4,6 +4,11 @@
 
 ---
 
+## S57-b — 2026-10-28 21:31 ET (from `date`; Will: "go ahead with the self-sweep hygiene items") — **NO WEIGHT MOVED. One counter-signal vector retired; RED's recession number re-stated unchanged.**
+
+- **VX-RED-009 (Auto Fraud Isolation, CARL, WEAK 30/70) → RESOLVED-RETIRED-UNMEASURED.** Old view: "auto fraud is three isolated cases (a weak bull point)." New view: "no one has measured it since 6/02 and the owner declined to at CRL-29; an unmeasured bull point is not a live counter-signal." Retired, NOT graded bear-confirmed. 14 live vectors.
+- **KB-RED-092 recession number re-stated 4–12% on a re-pulled panel** (T10Y3M +0.87, Sahm 0.00 with the decline streak broken, claims 194K, payrolls 3-mo ~+51K, HY 318). No instrument is at a trigger; the bear drift puts the UPPER bound at risk. Re-derive if Sahm ≥0.30, claims >250, or at the 11/6 jobs report.
+
 ## S57 — 2026-10-28 20:58 ET boot (from `date`; Will-launched catch-up, RED dark 10/23–10/27) — **DISCRETIONARY RE-DERIVATION (owed 10/23): HOLD 72 · net-bear 69 → 68. No registered-trigger STATE changed.**
 
 - **Weights:** Stag 35 → 33 · Managed 23 → 25 · Acute 20 = · War 14 → 15 · Soft 4 = · Rescue 4 → 3. Old view: "a narrow-mechanism bear: the price of money, credit at its lines, a physical-oil premium." New view: "the price of money eased (DFII10 2.88 → 2.64, 5y5y 2.19 [10/22]) and credit retraced (HY 340 → 318); the bear rests on levels still over their lines, a tail still bid, and a hotter war at sea. The Fed's hawkish split cuts Rescue and also caps how far Stag can fall." Stag −2 and Managed +2 sit inside the S54 pre-statement. War +1 and Rescue −1 depart from a pre-stated flat, each on post-10/15 facts. Acute is held: the HY retracement is FT-02's exit work. Report → `reports/2026-10-28_S57_weight_rederivation.md`.

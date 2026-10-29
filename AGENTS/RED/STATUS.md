@@ -1,5 +1,6 @@
 # RED STATUS
 **S57 2026-10-28 21:1x ET (from `date`; Will-launched catch-up, RED dark 10/23–10/27): DISCRETIONARY re-derivation, owed 10/23, run after the 10/28 FOMC → **Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3 → HOLD 72 · net-bear 68** (was 69). Stag −2 / Managed +2 sit inside the S54 pre-statement; War +1 (record October attacks, Sinokor enforcement 11/1, FALCON FAL-07 65%) and Rescue −1 (two hike dissents 10/28, ORACLE December hike ~80%) depart from a pre-stated flat. Acute is held: HY 340 [10/22] → 318 [10/27] is FT-02's exit work (0 of 3). **No trigger STATE changed:** FT-06 exit 3 of 5, broken 10/27 → 0 · FT-10 exit 0 of 4 (SKEW 149.22 [10/27]) · FT-11 latest window FUNDAMENTAL, two windows COLLIDED with v1.1's FLOW-alt leg → CHG-055 widened, precedence proposed to BOND (re-review 11/13). **L739 gate payoff: PAID on the letter** (apparatus share 45.2% → 2.6% of changed lines; after-window is two narrow wakes, so the evidence is weak). Report → [`reports/2026-10-28_S57_weight_rederivation.md`](reports/2026-10-28_S57_weight_rederivation.md).**
+**S57-b 2026-10-28 21:5x ET — self-sweep hygiene pass (Will 21:31 "go ahead with the self-sweep hygiene items"):** review debt 6 → 1 (KB-047 → DATED-HISTORICAL; KB-092 recession number RE-STATED 4–12% on a re-pulled panel, upper bound at risk; KB-102/103 refreshed; VX-RED-009 RETIRED UNMEASURED; KB-081 residual documented) · RED-23 → 2026-11-06 (BLS) · LAST_COMPLETION archived · 9/06 SKEW-backfill promise closed MOOT (ML-308) · PROV pointers 18/18 land. **Charter trim NOT done — a decision for Will** (reason-clauses ≈1.6 KB of the 5.1 KB needed). No weight moved.
 **Prior header (S56 10/22):** **S56 2026-10-22 11:3x ET (from `date`; PROME-spawned Tier-1 WQ-184 due-row wake, WQ-481 A, D:L35): bank Q3 tree GRADED on the letter. `CHG-RED-027` EGBN = **DETERIORATION** (NCO 0.25% but NPAs $166.0M vs $113.1M and NPL inflows $73.7M > reductions $18.8M) → stays ACTIVE, re-review EGBN Q4 (~late Jan 2027). OZK adverse met on card W9 (Boston failed sale, $37.3M charge-off) → **pre-stated Acute +1 from Managed (DISCRETIONARY label): Acute 20 · Managed 23 → HOLD 72 · net-bear 69.** `CHG-RED-054` OZK leg STRONG → MODERATE (lead MODERATE); WAL and KRE legs unchanged. CHG-049: CARL CRL-29 NO VERDICT, re-review 11/15. **Composition beside the verdict:** one already-substandard $56.0M Prince George's loan carries the EGBN cell (ex-loan = CLEARING); EGBN +10.9% intraday. Report → [`reports/2026-10-22_S56_BANK_Q3_TREE_GRADE.md`](reports/2026-10-22_S56_BANK_Q3_TREE_GRADE.md).**
 **Prior header S55 10/21 folded VERBATIM → [`reports/2026-10-28_S57_status_headers_folded.md`](reports/2026-10-28_S57_status_headers_folded.md) (1018 B, crc32 `3631712291`).** **Prior headers (S53 10/15 10:59 → S54-c 10/15 16:02) folded VERBATIM → [`reports/2026-10-21_S55_status_headers_folded.md`](reports/2026-10-21_S55_status_headers_folded.md) (3613 B, crc32 `851516273`).** Earlier folds are listed inside it (the S53 Last Updated line).
 
@@ -40,7 +41,7 @@
 
 ## COUNTER-SIGNALS
 
-**The row table was last re-pulled 2026-10-01 (S50) → [`reports/2026-10-01_S50_countersignals_repull.md`](reports/2026-10-01_S50_countersignals_repull.md); that pull's levels are DATED (HY 312 / CCC 1,179 / 30Y 5.64 / 10Y real 2.93 [9/30]).** Live levels are in the header and the trigger table; live per-vector weights are `workbook/VX.tsv` (15 live vectors, 7 cells refreshed S53, every live cell now dated — `review_debt.py` axis ④). Next full table re-pull rides the post-10/22 re-derivation.
+**The row table was last re-pulled 2026-10-01 (S50) → [`reports/2026-10-01_S50_countersignals_repull.md`](reports/2026-10-01_S50_countersignals_repull.md); that pull's levels are DATED (HY 312 / CCC 1,179 / 30Y 5.64 / 10Y real 2.93 [9/30]).** Live levels are in the header and the trigger table; live per-vector weights are `workbook/VX.tsv` (14 live vectors since S57-b retired VX-009, 7 cells refreshed S53, every live cell now dated — `review_debt.py` axis ④). Next full table re-pull rides the post-10/22 re-derivation.
 
 ## FALSIFICATION CRITERIA (registry TSV canonical — pointer only)
 
@@ -93,14 +94,14 @@
 1. 🟡 **Daily cells (10/28 FRED publishes 10/29):** FT-02 exit (<300 s=3; 0 of 3) · FT-06 exit (≥18 s=5; 0 of 5) · FT-10 exit (<140 s=4; 0 of 4) and outcome (VIXCLS ≥20 by ~11/25) · FT-11 next window (collision rule pending BOND) · claims 10/29 (FT-05).
 2. 🟡 **Sat 10/31:** RED-25 re-review (DEWEY permutation p, if unrun). **11/1** Sinokor enforcement (FALCON owns; War +1 input). **11/3–11/4** midterms → the post-election strike window (FAL-07). **11/05–11/09** 10-Qs → CHG-054 re-review 11/09 (OZK Chicago refi primary unread, SIG-W-20261027-041).
 3. 🔴 **11/10 Oct CPI** per `research/2026-11-10_OCT_CPI_DECISION_TREE.md` (FT-08 exit, CHG-028 final) · **11/13** BOND answer on FT-11 precedence (CHG-055) · **11/15 HHDC** (CHG-045/049) · **12/21** EGBN $56.0M loan (L791) · ~1/28 EGBN Q4.
-4. 🟡 **Hygiene, from the 10/21 self-sweep** (`reports/2026-10-21_self-sweep.md`; Will directs each): KB past Stale_By (4 rows per 9c) · RED-23 Timeframe unparseable · LAST_COMPLETION.md archive · charter 85% of read budget · OUTBOX 9/06 SKEW-backfill promise untracked.
+4. 🟡 **Self-sweep hygiene DONE S57-b 10/28** except the charter trim (CLAUDE.md 27.9 KB = 86% of budget; moving reason-clauses alone reaches ~81%, <70% needs rules moved or reworded) — **Will decides**. MEMORY.md 69% (under the 75% rotation line, no offload owed). KB-081 stays on review_debt axis ② by design (method citation, documented).
 
 ---
 
 ## PREDICTIONS SCORECARD — pointer only (canonical: `workbook/PREDICTIONS.tsv`)
 
 <!-- GEN:tally -->
-**TALLY 2026-10-28 (generated off canon TSV, 25 rows): 13 CORRECT / 10 WRONG / 2 ACTIVE (RED-23 2026-11-XX; RED-25 2026-10-31).**
+**TALLY 2026-10-28 (generated off canon TSV, 25 rows): 13 CORRECT / 10 WRONG / 2 ACTIVE (RED-23 2026-11-06; RED-25 2026-10-31).**
 <!-- /GEN:tally -->
 The 10/01 tally line said 1 ACTIVE because RED-25 was registered the same session and left uncounted; CALENDAR and NEXUS now carry this same line. Last resolutions: RED-04 CORRECT 10/01 · RED-24 WRONG 9/18 (the FT-10 Wednesday conditional, P≈57–60%, killed by a 5.48-pt drop — n=1 is not a calibration verdict).
 

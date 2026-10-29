@@ -3,7 +3,7 @@
   "declared_on": "2026-10-28",
   "desk": "RED",
   "hashes": {
-    "AGENTS/RED/CLAUDE.md": "323d7c90b2af50b7fead67cefdf9f81033ee28f08219fb133332fa62ca36e701",
+    "AGENTS/RED/CLAUDE.md": "159047278d0a65fd52b04693a0e5429f14af9ae1348970585ff668b39be3c44b",
     "AGENTS/RED/scripts/base_rate_review.py": "c8d2f42f66c238830a5b7509816dae4074eac344904616e549e7adec5c5f027c",
     "AGENTS/RED/scripts/basis_check.py": "c22af3735180995842d0a4d11f79c7b2bbd345ebe8be0cf4105bb0d6a66ce7ad",
     "AGENTS/RED/scripts/boot.py": "91654fe01b7b01ee11486bbe8746bee34f89d72d52412c4ee5443c4b3f6ae1b0",
@@ -80,6 +80,13 @@
         "CLAUDE.md",
         "FORGE/tools/market-data/fetch.py",
         "scripts/ledger_staleness.py"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "note": "S57-b 2026-10-28: RED CLAUDE.md WHAT YOU OWN line repointed LAST_COMPLETION.md -> archive/LAST_COMPLETION_2026-08-17.md (self-sweep item 16, file git mv'd same session). Path only; no rule changes.",
+      "moved": [
+        "AGENTS/RED/CLAUDE.md"
       ]
     }
   ],

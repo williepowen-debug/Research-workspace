@@ -46,7 +46,7 @@
 
 | Pred | Resolves | Conf | State |
 |---|---|:-:|---|
-| **RED-23** S41 self-falsifier: 3-mo avg CES (Jun+Jul+Aug) ≥ +50K at the THIRD print of Aug | ~early Nov (Oct jobs report; confirm the BLS date) | 60% | ACTIVE. The 10/2 print is the SECOND print, informative but not resolving. If WRONG, the S41 move is re-litigated, not auto-reversed |
+| **RED-23** S41 self-falsifier: 3-mo avg CES (Jun+Jul+Aug) ≥ +50K at the THIRD print of Aug | **Fri 11/6 08:30** (Oct jobs report; BLS-verified 10/28) | 60% | ACTIVE. The 10/2 print is the SECOND print, informative but not resolving. If WRONG, the S41 move is re-litigated, not auto-reversed |
 | **RED-25** DEWEY permutation p on PREM−MID > 0.30 in every cut | when run; re-review 10/31 | 70% | ACTIVE |
 
 Resolved since the 7/31 table: RED-21 CORRECT (scored nothing, by design) · RED-04 CORRECT 10/1 (no rescue; the Fed hiked 9/16) · RED-22 WRONG 8/28 · RED-24 WRONG. Full history → canon.

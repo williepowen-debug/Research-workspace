@@ -4,6 +4,15 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S57-b — 2026-10-28 21:31 ET (from `date`; Will: "go ahead with the self-sweep hygiene items")
+
+- **Trigger:** `reports/2026-10-21_self-sweep.md` items 10–25.
+- **What changed:** (1) `LAST_COMPLETION.md` → `archive/LAST_COMPLETION_2026-08-17.md` (git mv + README entry); the charter's WHAT YOU OWN "Retired" line repointed (path only); basis rehashed. (2) VX.tsv two-clock banner re-pinned 2026-06-02 → 2026-10-14 after VX-RED-009 retired (the banner's own rule: the oldest LIVE Last_Reviewed). (3) MAINTENANCE S53-b entry: PROME packet path repointed to `PROME/inbox/processed/`. (4) No tool change. review_debt has no acknowledgement mechanism, so KB-RED-081 (a method citation inside RED-FT-01) stays listed on axis ②; disposition is in the row's Notes. Not built — tooling was not asked for.
+- **Checked, no change:** all 18 `→ PROV L<n>` pointers in CLAUDE.md land on their source lines in CHARTER_PROVENANCE §2 (S53 SCRATCH 6c, discharged).
+- **Charter trim (item 15): NOT DONE — escalated to Will.** CLAUDE.md is 27,922 B = 86% of budget; the <70% stop needs ~5.1 KB removed, and clause-by-clause the movable reason-clauses total ~1.6 KB. The rest would move or reword binding rules.
+- **Files:** `archive/LAST_COMPLETION_2026-08-17.md`, `archive/README.md`, `CLAUDE.md`, `registry/basis-hashes.json`, `workbook/VX.tsv`, `MAINTENANCE.md`.
+- **Boot-impact:** none (VX staleness alert now clears).
+
 ## S57 — 2026-10-28 20:58 ET boot (from `date`; Will-launched catch-up)
 
 - **Trigger:** boot 9f BASIS drift (4 surfaces) · board_log 1.5 WARN · ML-RED-307 (Cboe redirect).
@@ -41,7 +50,7 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 - **NEW `CHARTER_PROVENANCE.md`** (51,379 B, never boot-read): § 1 rule→provenance key; § 2 the pre-split charter VERBATIM with original line numbers (crc32 stamped inside the file); § 3 append-only "reasons added after the split". Containment check at write: 0 pre-split lines absent. Every `→ PROV L<n>` pointer in the charter resolves to § 2.
 - **Cold-read gate (Opus, read-only, charter alone — report → `reports/2026-10-15_S53_charter_coldread_report.md`):** 32 of 37 steps executable from the file; 2 NO (1.5 had no "since last boot" anchor; step 6 had no default for a bare boot), 3 partial (crc not defined; Flip_If grade had no home; NEXUS fold had no destination), 3 contradictions (full write-back "every ending" vs the addendum; W5 rewrite vs A2 append; "honest odds" vs the 2%/60% bounds), 2 mis-written paths (`/BOARD/INDEX.md`, bare SCAN name), 21 two-way sentences, 17 arbitrary-looking rules. **All folded back in 36 edits:** first ending of a day = W1–W10, later endings = addendum; bounds govern individual hypotheses with a written-override path and do not bind HOLD/net-bear; "last boot" = newest board_log row; bare boot = catch-up from SCRATCH; paths rule (repo-root-relative; run from the root); ≤15-word reasons on 16 rules; BOOT heading = "read + intake"; live-event override commits hourly; `research/` scope clarified against "no original research"; LAST_COMPLETION moved to a Retired line. Disclosure from the reader: `boot.py`, `review_debt.py`, `schema_check.py` and `memory_index_check.py` ignore `--help` and ran their read-only passes; no file written by RED tools (git status hash unchanged).
 - **`registry/basis-hashes.json` re-hashed** (declared_on 2026-10-15, history entry). Finding on the way: **five fleet-level BASIS surfaces had changed since RED's 9/14 attestation without the attestation moving** — root `CLAUDE.md`, `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md`, `FORGE/tools/market-data/fetch.py`, `scripts/ledger_staleness.py`, `scripts/corrections_boot_check.py`. The hash file recorded a state nothing re-checked; a boot-time compare is the mechanization candidate (not built today).
-- **Packet to PROME** (carve-out ①): `PROME/inbox/2026-10-15_from-RED_charter-split-READS-delta.md` — asks for a `READ RED AGENTS/RED/CLAUDE.md whole` row so `read_cap_check` grades the charter (today: "out of perimeter, charter_mode=unspecified"); attestation re-filed unchanged in set.
+- **Packet to PROME** (carve-out ①): `PROME/inbox/processed/2026-10-15_from-RED_charter-split-READS-delta.md` — asks for a `READ RED AGENTS/RED/CLAUDE.md whole` row so `read_cap_check` grades the charter (today: "out of perimeter, charter_mode=unspecified"); attestation re-filed unchanged in set.
 - **Reports preserved:** the S53 cold-audit ledger (`reports/2026-10-15_S53_cold_audit_ledger.md`) and the charter cold-read report, both copied from the session scratchpad.
 
 **Files touched:** `CLAUDE.md`, `CHARTER_PROVENANCE.md` (new), `registry/basis-hashes.json`, `MAINTENANCE.md`, `SCRATCH.md`, `STATUS.md` (A1 line), `reports/` ×2 (new), `PROME/inbox/` ×1 (carve-out ①).

@@ -36,3 +36,8 @@
 Clean and level with origin at boot (20:59); no pull needed. Packets to BOND/TERRY/ISHM/PROME committed under carve-out ①. S57 commits: see the closeout message.
 
 ---
+
+## ADDENDUM S57-b — 2026-10-28 21:5x ET (from `date`): self-sweep hygiene pass (Will 21:31 "go ahead with the self-sweep hygiene items")
+- **Done:** KB-047 → DATED-HISTORICAL · KB-092 re-stated 4–12% on a re-pulled panel (Stale_By 11/09) · KB-102/103 refreshed in place (HY tape 10/27; Dated Brent 123.10 vs Dec 113.88 / Jan 109.41, premium ~$9–14) · VX-RED-009 RETIRED UNMEASURED (VX_HISTORY row) · VX-012 KB_Links emptied · KB-081 residual documented · RED-23 Timeframe → 2026-11-06 (BLS) · LAST_COMPLETION → archive/ (+README, charter line repointed, basis rehashed) · ML-308 closes the 9/06 SKEW-backfill promise MOOT · FT-10 near-miss in TRIGGER_OUTCOMES · MAINTENANCE stale PROME path repointed · PROV pointers 18/18 land · skew_integrity.py = VIOLET's (false alarm).
+- **Not done, with reason:** charter trim (item 15) is a decision for Will (reason-clauses ≈1.6 KB of the 5.1 KB needed). MEMORY offload (item 23): not owed at 69%. CET1 (item 17a): REGINALD holds it as an open obligation; not re-asked.
+- **Next entry point:** unchanged from the S57 NEXT SESSION list.

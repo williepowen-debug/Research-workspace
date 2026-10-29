@@ -25,7 +25,7 @@
 ## CALIBRATION
 
 - **Conviction:** direction-M · timing-M− · level-M−. **HOLD 72** (S55 +2 mechanical FT-02; S48 +2 mechanical) · **Net-bear 68** (S57 −1 discretionary; S56 +1 pre-stated; S55 +3, S52 +3, S52b +2 mechanical; 60 at S51).
-- **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-10-28, 25 rows): 13 CORRECT · 10 WRONG · 2 ACTIVE (RED-23 ~Nov · RED-25 re-review 10/31).** STATUS and CALENDAR carry this same line.
+- **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-10-28, 25 rows): 13 CORRECT · 10 WRONG · 2 ACTIVE (RED-23 resolves Fri 11/6 at the October jobs report, BLS-verified · RED-25 re-review 10/31).** STATUS and CALENDAR carry this same line.
 - **Open challenges: 7** (027 EGBN Q4 ~1/28 · 028 Oct CPI 11/10 · 044 BRK-32 11/30 · 045 HHDC 11/15 · 049 HHDC 11/15 · 054 bank-put book 11/09 · 055 FT-11 classifier 11/13).
 - **Diverge from fleet by:** (1) the HY retracement does not un-fire FT-02 until <300 ×3; (2) a 30Y rally is not evidence until classified, and on 10/22 it classified FUNDAMENTAL; (3) stagflation is co-modal with managed decline, not the modal path; (4) a hiking Fed is not a rescue.
 - **Uncertain about:** (1) whether a few names (Optimum) explain most of CCC's +161bp October widening (DEWEY: UNKNOWN); (2) Sinokor enforcement from 11/1 (scope undefined); (3) the post-midterm strike window.
