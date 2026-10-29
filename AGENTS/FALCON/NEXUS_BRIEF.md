@@ -3,12 +3,13 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD at 10/29 weekly review; Bab gate LIVE (leg 2 NOT MET); Iran's Sinokor action from 11/1 is the next watch.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-10-29 12:20 EDT | STATUS commit: `8c66d7529` | Evidence cutoff ~12:15 EDT
+**As of:** 2026-10-29 12:20 EDT | STATUS commit: `fa714bf4e` | Evidence cutoff ~12:30 EDT
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
+| BRENT / HAWK / PROME | Hormuz policy and posture signals as below; plus UKMTO 10/29 ~03:00Z vessel on fire ~9 NM N of Khasab (unnamed, cause unknown; one secondary: projectile, "mostly submerged"). IRGC claims 3 tankers hit mines (claim-only, unlinked) | P1 | VI-0085/KB-354; census stays 5 until IMO/NAVAREA/UKMTO/operator confirms a sinking; resolution first item next session |
 | BRENT / HAWK / PROME | Houthi 10/27 Ras Tanura refinery missile claim: damage and operations UNKNOWN (one anonymous Bloomberg source: terminal-area fire contained; no Saudi/Aramco statement). Own FIRMS read: 10/27 heat inside the site's routine flare range | P1 | Refinery/terminal = OUT-class for the D 85→92 production rung even if confirmed. "Aramco fire contained, 8 injured" relay is a 2016 story |
 | BRENT / HAWK | Iran PGSA: "legal action" against ALL Sinokor vessels from 11/1; ≥7 already actioned. Reuters: ~40% of Sept Hormuz crude outflow | P1 | Hormuz flow already ~1 tanker/day (PortWatch to 10/25) ⇒ no band change possible; a named-hull detention = shipping event; VLCC/freight read is BRENT's |
 | HAWK / BRENT | NAVCENT/JMIC 10/28: non-essential vessels stay clear; blockade enforcement, visit and search of neutrals. WSJ 10/27 post-midterm "short, intense" campaign posture | P1 | Posture tightening, not kinetic: FAL-07 NOT FIRED; WH "not before the midterms" stands |
