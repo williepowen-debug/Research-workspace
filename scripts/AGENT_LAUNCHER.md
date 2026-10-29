@@ -14,6 +14,19 @@ category. Click an agent's name for details and use its checkbox to include it
 in a batch. Checked agents stay selected across categories and searches; the
 selection count includes hidden agents. **Clear selection** removes all checks.
 
+With multiple agents checked, **Apply edits to all selected agents** defaults on.
+Changing the model, typing instructions, or applying a preset updates every checked
+agent, including those hidden by search. Model changes preserve each agent's
+instructions; instruction changes preserve their models. Mixed settings are labelled
+until you replace them. CATO supports Codex only, so a selection containing CATO
+offers Astra and Sol for shared model edits.
+
+For an individual override, click its name on **Selected & groups**, choose it in
+the **Instructions** agent dropdown, or uncheck **Apply edits to all selected agents**.
+The other agents keep their settings. Recheck the option to edit the group again.
+Changing selection membership or loading a group restores the shared-edit default
+without copying or replacing existing settings.
+
 To save a group, check its agents, choose their runtimes, type a name in
 **Saved groups**, and click **Save selected**. Choose that name and click
 **Load** next time. Loading restores the checked agents and their runtimes;
@@ -21,9 +34,10 @@ it starts nothing. Saving an existing name or deleting a group asks first.
 Groups store agent names and runtimes. Task text remains in the current app
 window, and loading a group preserves those current task edits.
 
-The **Task preset** dropdown offers **Orient and report status**, **Continue
-approved work**, and **Prepare handoff**. Choose **Use here** for the highlighted
-agent or **Use for checked** for every checked agent, including hidden ones.
+The **Instructions preset** dropdown offers **Orient and report status**, **Continue
+approved work**, and **Prepare handoff**. **Apply** uses the current editing scope:
+all selected agents by default, or the individual agent when overriding.
+**Manage...** also offers an explicit apply-to-all-selected action.
 The preset fills the task box so you can edit it before launch. Replacing
 existing task text asks first. These prompts retain existing assignment and
 approval conditions; choosing a preset starts nothing.
@@ -35,8 +49,8 @@ and do not sync through Git. The previous valid version is retained as
 saved changes first, use **Load** to refresh before saving again. An unreadable
 preferences file is preserved and reported; the normal launcher still works.
 
-For multiple agents, choose each agent's runtime and optional task in its
-details, then click **Review selected**. The preview lists every checked agent,
+For multiple agents, choose shared settings, make any individual overrides,
+then click **Review & launch**. The preview lists every checked agent,
 runtime, and task; **Cancel** starts nothing. **Launch selected** starts new
 conversations in separate windows. Startup requests are handled one at a time,
 while the opened conversations run together. A failure is shown in the results
@@ -44,8 +58,8 @@ and does not prevent the remaining agents from starting. Successful agents are
 unchecked; unsuccessful or cancelled agents stay checked, with no automatic
 retry. Runtime/task choices last while this app window is open.
 
-**Start this agent** and **Resume this agent** act only on the highlighted
-agent, regardless of checkboxes. Batch launching starts new conversations;
+**New conversation** and **Resume conversation...** act only on the highlighted
+agent and are enabled in individual editing mode. Batch launching starts new conversations;
 resume continues through the individual saved-session picker. **Stop remaining**
 cancels requests that have not started. The current request may finish. Closing
 the launcher cancels queued requests; it never closes opened agent

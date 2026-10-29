@@ -75,9 +75,11 @@ $probe.Add_Tick({
     }
 })
 $form.Add_Shown({
-    $task.Text=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('TASK'))
     $list.SetItemChecked(0,$true);$list.SetItemChecked(1,$true);$list.SetItemChecked(2,$true)
-    $list.SelectedIndex=2; $runtime.SelectedIndex=1; $task.Text='Only the second agent receives this task.'
+    $runtime.SelectedItem='Claude Opus'
+    $task.Text=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('TASK'))
+    Focus-Agent 'LAUNCHER_TEST'; $runtime.SelectedItem='Codex Sol'
+    Focus-Agent 'SECOND_TEST'; $task.Text='Only the second agent receives this task.'
     $dialogProbe.Start(); $batch.PerformClick()
     $script:cancelVerified=(-not $script:busy -and $script:queue.Count -eq 0 -and $results.TextLength -eq 0 -and $script:history.Count -eq 0)
     $script:choice='Launch selected'; $batch.PerformClick()

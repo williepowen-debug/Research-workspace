@@ -12,6 +12,7 @@ $data = Get-Content -LiteralPath $DataFile -Raw | ConvertFrom-Json
 $script:busy=$false; $script:process=$null; $script:selected=$null
 $script:loading=$false; $script:filtering=$false
 $script:checked=@{}; $script:settings=@{}
+$script:editAll=$true
 $script:queue=New-Object Collections.Queue
 $script:active=$null; $script:completed=0; $script:failed=0
 foreach ($entry in $data.agents) {
@@ -346,6 +347,16 @@ Place $instructionRuntimeLabel $pages.Instructions 700 16 368 26 'Top,Right'
 $instructionRuntime=New-Object Windows.Forms.ComboBox
 $instructionRuntime.DropDownStyle='DropDownList'; Style-Input $instructionRuntime
 Place $instructionRuntime $pages.Instructions 700 50 368 32 'Top,Right'
+$editAllAgents=New-Object Windows.Forms.CheckBox
+$editAllInstructions=New-Object Windows.Forms.CheckBox
+foreach ($control in @($editAllAgents,$editAllInstructions)) {
+    $control.Text='Apply edits to all selected agents'; $control.ForeColor=$accent
+    $control.Checked=$true
+}
+$runtimeLabel.Width=110
+Place $editAllAgents $pages.Agents 670 282 398 25 'Top,Right'
+$instructionAgentLabel.Width=170
+Place $editAllInstructions $pages.Instructions 220 16 450 26 'Top,Left,Right'
 Place $presetLabel $pages.Instructions 20 108 1048 26 'Top,Left,Right'
 Place $preset $pages.Instructions 20 142 650 32 'Top,Left,Right'
 Place $usePreset $pages.Instructions 684 138 172 40 'Top,Right'
@@ -417,6 +428,7 @@ function Set-DetailsVisible($visible) {
 }
 function Focus-Agent($agentName,$page='Instructions') {
     if ($script:busy) {return}
+    $script:editAll=$false
     $script:filtering=$true
     try {$categories.SelectedIndex=0; $search.Clear()} finally {$script:filtering=$false}
     Filter-Agents
@@ -459,7 +471,7 @@ function Refresh-SelectionTray {
                 $remove.Text='x'; $remove.Tag=$entry.name; $remove.SetBounds(($card.Width-58),18,40,36); $remove.Anchor='Top,Right'
                 Style-Button $remove; $remove.AccessibleName='Remove '+$entry.name+' from selection'
                 $tooltip.SetToolTip($remove,'Remove only '+$entry.name+' from the selection')
-                $remove.Add_Click({param($sender,$e) $script:checked.Remove([string]$sender.Tag); Filter-Agents})
+                $remove.Add_Click({param($sender,$e) $script:checked.Remove([string]$sender.Tag); $script:editAll=$true; Filter-Agents})
                 $card.Controls.Add($remove); $chips.Controls.Add($card)
             }
         } finally {$chips.ResumeLayout()}
@@ -564,6 +576,7 @@ function Apply-Group($g) {
         if ($member.runtime -notin $allowed) {throw ('Unsupported saved runtime for '+$member.name+'. Your current selection was kept.')}
     }
     $script:checked.Clear()
+    $script:editAll=$true
     foreach ($member in $g.members) {
         $script:checked[$member.name]=$true
         $value=$member.runtime
@@ -841,7 +854,7 @@ function Reload-Activity {
 function Apply-Preset($toChecked) {
     if ($script:busy -or $preset.SelectedIndex -lt 0) {return}
     $names=@()
-    if ($toChecked) {$names=@($script:checked.Keys)} elseif ($script:selected) {$names=@($script:selected.name)}
+    if ($toChecked) {$names=@($script:checked.Keys)} else {$names=@(Edit-Names)}
     if ($names.Count -eq 0) {return}
     $text=$presets[$preset.SelectedIndex].text
     $replace=@($names | Where-Object {-not [string]::IsNullOrWhiteSpace($script:settings[$_].task) -and $script:settings[$_].task -cne $text})
@@ -857,12 +870,15 @@ function Apply-Preset($toChecked) {
 function Update-Buttons {
     $ageSource.Enabled=-not $script:busy
     $reloadActivity.Enabled=-not $script:busy
-    $ready=($null -ne $script:selected -and -not $script:busy)
-    $start.Enabled=$ready
-    $resume.Enabled=($ready -and [string]::IsNullOrWhiteSpace($task.Text))
+    $ready=(@(Edit-Names).Count -gt 0 -and -not $script:busy)
+    $single=($null -ne $script:selected -and -not (Editing-All) -and -not $script:busy)
+    $start.Enabled=$single
+    $resume.Enabled=($single -and [string]::IsNullOrWhiteSpace($task.Text))
     $instructionStart.Enabled=$start.Enabled; $instructionResume.Enabled=$resume.Enabled
     $editInstructions.Enabled=$ready
     $instructionAgent.Enabled=-not $script:busy
+    $editAllAgents.Enabled=($script:checked.Count -gt 1 -and -not $script:busy)
+    $editAllInstructions.Enabled=$editAllAgents.Enabled
     $instructionRuntime.Enabled=$ready
     $runtime.Enabled=$ready
     $task.Enabled=$ready
@@ -890,6 +906,7 @@ function Update-Buttons {
     $deletePreset.Enabled=(-not $script:busy -and $script:presetsHealthy -and @($script:customPresets | Where-Object {$_.name -eq $preset.Text}).Count -eq 1)
     Refresh-SelectionTray
     $taskSummary.Text='Instructions: default agent startup'
+    if ($taskLabel.Text -like 'Different instructions*') {$taskSummary.Text='Different instructions across selected agents. Edit instructions to replace them for all.'}
     if (-not [string]::IsNullOrWhiteSpace($task.Text)) {
         $text=($task.Text -replace '\s+',' ')
         if ($text.Length -gt 115) {$text=$text.Substring(0,112)+'...'}
@@ -898,14 +915,65 @@ function Update-Buttons {
     $tooltip.SetToolTip($taskSummary,$task.Text)
     $historyOpen.Enabled=($null -ne $historyList.SelectedItem -and -not $script:busy)
 }
-function Save-Settings {
-    if ($script:loading -or $null -eq $script:selected) {return}
+function Editing-All {return ($script:editAll -and $script:checked.Count -gt 1)}
+function Edit-Names {
+    if (Editing-All) {return @($data.agents | Where-Object {$script:checked.ContainsKey($_.name)} | ForEach-Object {$_.name})}
+    if ($script:selected) {return @($script:selected.name)}
+}
+function Sync-Editors {
+    $script:loading=$true
+    try {
+        $editAllAgents.Checked=$script:editAll; $editAllInstructions.Checked=$script:editAll
+        $names=@(Edit-Names)
+        $runtime.Items.Clear(); $instructionRuntime.Items.Clear()
+        $task.Clear()
+        if ($names.Count -eq 0) {return}
+        $labels=@{sol='Codex Sol';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}
+        $choices=@('sol','opus','astra','fable')
+        $cato=@($data.agents | Where-Object {$_.name -in $names -and $_.kind -eq 'cato'}).Count -gt 0
+        if ($cato) {$choices=@('astra','sol')}
+        foreach ($value in $choices) {
+            [void]$runtime.Items.Add($labels[$value]); [void]$instructionRuntime.Items.Add($labels[$value])
+        }
+        $models=@($names | ForEach-Object {$script:settings[$_].runtime} | Select-Object -Unique)
+        if ($models.Count -eq 1) {$runtime.SelectedItem=$labels[$models[0]]}
+        $instructionRuntime.SelectedIndex=$runtime.SelectedIndex
+        $texts=@($names | ForEach-Object {[string]$script:settings[$_].task} | Select-Object -Unique)
+        if ($texts.Count -eq 1) {$task.Text=$texts[0]}
+        $scope='this agent'
+        if (Editing-All) {$scope='all '+$names.Count+' selected agents'}
+        $taskLabel.Text='Instructions for '+$scope+' (optional)'
+        if ($texts.Count -gt 1) {$taskLabel.Text='Different instructions - typing replaces instructions for '+$scope}
+        $runtimeLabel.Text='Model'; $instructionRuntimeLabel.Text='Model'
+        if ($models.Count -gt 1) {$runtimeLabel.Text='Mixed models'; $instructionRuntimeLabel.Text='Mixed models - choose to apply'}
+        $instructionHint.Text='Instructions apply to a new conversation. Clear them to enable Resume.'
+        $hint.Text='These buttons open the highlighted agent. Clear instructions to enable Resume.'
+        if (Editing-All) {$instructionHint.Text='Editing '+$scope+'. Choose an agent above for individual edits; use Review & launch below.'}
+        if ($cato -and (Editing-All)) {$instructionHint.Text='Editing '+$scope+'. CATO supports Codex only. Choose an agent above for individual edits.'}
+        if (Editing-All) {$hint.Text='Use Review & launch for the selection. Uncheck Apply edits for individual controls.'}
+        $tooltip.SetToolTip($runtime,$instructionHint.Text)
+        $tooltip.SetToolTip($usePreset,'Apply this preset to '+$scope+', then edit the instructions as needed.')
+    } finally {$script:loading=$false; Update-Buttons}
+}
+function Save-Settings($field) {
+    if ($script:loading -or $script:busy) {return}
+    $names=@(Edit-Names)
+    if ($names.Count -eq 0) {return}
+    if ($field -eq 'task') {
+        foreach ($key in $names) {$script:settings[$key].task=$task.Text}
+        $scope='this agent'; if (Editing-All) {$scope='all '+$names.Count+' selected agents'}
+        $taskLabel.Text='Instructions for '+$scope+' (optional)'
+        Update-Buttons; return
+    }
+    if ($runtime.SelectedIndex -lt 0) {return}
     $value='sol'
     if ($runtime.Text -eq 'Claude Opus') {$value='opus'}
     if ($runtime.Text -eq 'Claude Fable') {$value='fable'}
     if ($runtime.Text -eq 'Codex Astra') {$value='astra'}
-    $script:settings[$script:selected.name]=@{runtime=$value;task=$task.Text}
-    if ($instructionRuntime.SelectedIndex -ne $runtime.SelectedIndex) {$instructionRuntime.SelectedIndex=$runtime.SelectedIndex}
+    foreach ($key in $names) {$script:settings[$key].runtime=$value}
+    $script:loading=$true
+    try {$instructionRuntime.SelectedIndex=$runtime.SelectedIndex} finally {$script:loading=$false}
+    $runtimeLabel.Text='Model'; $instructionRuntimeLabel.Text='Model'
     Update-Buttons
 }
 function Select-Agent {
@@ -921,22 +989,11 @@ function Select-Agent {
         $script:selected=$list.SelectedItem.Entry
         Show-RecentDetails
         $name.Text=$script:selected.name; $purpose.Text=$script:selected.purpose; $group.Text=$script:selected.group
-        $setting=$script:settings[$script:selected.name]
-        if ($script:selected.kind -eq 'cato') {
-            [void]$runtime.Items.Add('Codex Astra'); [void]$runtime.Items.Add('Codex Sol')
-        } else {
-            foreach ($label in @('Codex Sol','Claude Opus','Codex Astra','Claude Fable')) {[void]$runtime.Items.Add($label)}
-        }
-        $runtime.SelectedItem=@{sol='Codex Sol';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$setting.runtime]
-        $task.Text=[string]$setting.task
         $instructionAgent.SelectedItem=$script:selected.name
-        $instructionRuntime.Items.Clear()
-        foreach ($item in $runtime.Items) {[void]$instructionRuntime.Items.Add($item)}
-        $instructionRuntime.SelectedIndex=$runtime.SelectedIndex
         $status.Text='Ready. Each conversation opens in its own terminal.'
         if ($script:selected.error) {$status.Text=$script:selected.error}
         $tooltip.SetToolTip($status,$status.Text); $tooltip.SetToolTip($name,$script:selected.folder)
-    } finally {$script:loading=$false; Update-Buttons}
+    } finally {$script:loading=$false; Sync-Editors}
 }
 function Filter-Agents {
     if ($script:filtering) {return}
@@ -1124,19 +1181,24 @@ $list.Add_ItemCheck({
     if ($script:filtering) {return}
     $key=$list.Items[$e.Index].Entry.name
     if ($e.NewValue -eq [Windows.Forms.CheckState]::Checked) {$script:checked[$key]=$true} else {$script:checked.Remove($key)}
-    Update-Buttons
+    $script:editAll=$true; Sync-Editors
 })
-$runtime.Add_SelectedIndexChanged({Save-Settings})
+$runtime.Add_SelectedIndexChanged({Save-Settings 'runtime'})
 $instructionRuntime.Add_SelectedIndexChanged({
     if (-not $script:loading -and $instructionRuntime.SelectedIndex -ge 0) {$runtime.SelectedIndex=$instructionRuntime.SelectedIndex}
 })
 $instructionAgent.Add_SelectionChangeCommitted({Focus-Agent ([string]$instructionAgent.SelectedItem)})
-$task.Add_TextChanged({Save-Settings})
+$task.Add_TextChanged({Save-Settings 'task'})
+foreach ($control in @($editAllAgents,$editAllInstructions)) {
+    $control.Add_CheckedChanged({param($sender,$e)
+        if (-not $script:loading -and -not $script:busy) {$script:editAll=$sender.Checked; Sync-Editors}
+    })
+}
 $editInstructions.Add_Click({$tabs.SelectedTab=$pages.Instructions})
 $selectedLink.Add_LinkClicked({$tabs.SelectedTab=$pages.Selected})
 $historyList.Add_SelectedIndexChanged({Select-History})
 $historyOpen.Add_Click({if ($historyList.SelectedItem) {Focus-Agent $historyList.SelectedItem.Record.name 'Agents'}})
-$clear.Add_Click({$script:checked.Clear();Filter-Agents})
+$clear.Add_Click({$script:checked.Clear();$script:editAll=$true;Filter-Agents})
 $stop.Add_Click({Stop-Remaining})
 $batch.Add_Click({
     $items=@(Selected-Requests)
@@ -1199,6 +1261,51 @@ if ($SmokeTest) {
     function Test-Step($name) {[IO.File]::WriteAllText((Join-Path $data.directory 'test-stage.txt'),$name)}
     $form.Add_Shown({
         try {
+            Test-Step 'Default bulk edits and individual overrides'
+            foreach ($key in @('CARL','MIDAS','HENRY','LIQUID')) {
+                $search.Text=$key
+                for ($i=0;$i -lt $list.Items.Count;$i++) {
+                    if ($list.Items[$i].Entry.name -eq $key) {$list.SetItemChecked($i,$true)}
+                }
+            }
+            if (-not (Editing-All) -or $script:checked.Count -ne 4) {throw 'Multiple selection did not default to bulk editing'}
+            # A highlighted unselected agent must not receive a bulk change.
+            $search.Text='PROME'; $runtime.SelectedItem='Claude Opus'
+            foreach ($key in $script:checked.Keys) {if ($script:settings[$key].runtime -ne 'opus') {throw 'Bulk model missed a hidden selection'}}
+            if ($script:settings['PROME'].runtime -ne 'fable') {throw 'Bulk model changed an unchecked agent'}
+            $task.Text='Shared instructions'
+            foreach ($key in $script:checked.Keys) {if ($script:settings[$key].task -cne 'Shared instructions') {throw 'Bulk instructions missed a selection'}}
+            $tabs.SelectedTab=$pages.Selected
+            $card=@($chips.Controls | Where-Object {$_.Tag -eq 'CARL'})[0]
+            $card.Controls[0].PerformClick()
+            if ((Editing-All) -or $editAllInstructions.Checked -or $script:checked.Count -ne 4) {throw 'Individual navigation did not preserve selection and change scope'}
+            $task.Text='Only CARL override'; $instructionRuntime.SelectedItem='Codex Astra'
+            foreach ($key in @('MIDAS','HENRY','LIQUID')) {
+                if ($script:settings[$key].task -cne 'Shared instructions' -or $script:settings[$key].runtime -ne 'opus') {throw 'Individual edit leaked to the group'}
+            }
+            $editAllInstructions.Checked=$true
+            if (-not $editAllAgents.Checked -or $runtime.SelectedIndex -ne -1 -or $task.Text -ne '' -or $taskLabel.Text -notmatch 'Different instructions') {throw 'Mixed settings were not disclosed'}
+            $task.Text='Shared replacement with mixed models'
+            if ($script:settings['CARL'].runtime -ne 'astra' -or $script:settings['MIDAS'].runtime -ne 'opus') {throw 'Instruction edit erased mixed models'}
+            Focus-Agent 'CARL'; $task.Text='Only CARL override'; $editAllInstructions.Checked=$true
+            $instructionRuntime.SelectedItem='Claude Fable'
+            if ($script:settings['CARL'].task -cne 'Only CARL override') {throw 'Bulk model erased individual instructions'}
+            $search.Text='no-such-agent-987654'
+            if (-not $task.Enabled -or -not $runtime.Enabled -or $start.Enabled) {throw 'Hidden selection editing or single-launch gating failed'}
+            $task.Text='Replacement for all'
+            foreach ($key in $script:checked.Keys) {
+                if ($script:settings[$key].task -cne 'Replacement for all' -or $script:settings[$key].runtime -ne 'fable') {throw 'Bulk instructions changed models or missed hidden agents'}
+            }
+            $tabs.SelectedTab=$pages.Instructions; $task.Clear(); $preset.SelectedIndex=0; $usePreset.PerformClick()
+            foreach ($key in $script:checked.Keys) {if ($script:settings[$key].task -cne $presets[0].text) {throw 'Default Apply preset missed selected agents'}}
+            Focus-Agent 'CARL'; $search.Text='CATO'; $list.SetItemChecked(0,$true)
+            if (-not (Editing-All) -or $runtime.Items.Contains('Claude Opus') -or $runtime.Items.Count -ne 2) {throw 'CATO batch model restriction failed'}
+            $runtime.SelectedItem='Codex Sol'
+            foreach ($key in $script:checked.Keys) {if ($script:settings[$key].runtime -ne 'sol') {throw 'Compatible bulk model missed a selection'}}
+            if (@(Selected-Requests).Count -ne 5) {throw 'Bulk edits lost preview membership'}
+            $clear.PerformClick()
+            foreach ($entry in $data.agents) {$script:settings[$entry.name]=@{runtime=$entry.default_runtime;task=$null}}
+            Filter-Agents
             Test-Step 'Initial selection and policy'
             $search.Text='CATO'
             if ($runtime.Text -ne 'Codex Astra' -or -not $runtime.Enabled -or $runtime.Items.Count -ne 2) {throw 'CATO policy UI failed'}
@@ -1206,6 +1313,7 @@ if ($SmokeTest) {
             $search.Text='CARL'; $runtime.SelectedIndex=1; $task.Text='Only CARL receives this task'
             if ($resume.Enabled) {throw 'Resume must refuse task text'}
             $list.SetItemChecked(0,$true)
+            $editAllAgents.Checked=$false
             $categories.SelectedIndex=2; $search.Clear()
             if ($list.Items.Count -eq 0) {throw 'Category is empty'}
             foreach ($item in $list.Items) {
@@ -1261,6 +1369,7 @@ if ($SmokeTest) {
             if ($script:groups.Count -ne 0) {throw 'Deleting last group failed'}
             Write-Groups $saved; Refresh-Groups
             Test-Step 'Built-in presets'
+            $editAllAgents.Checked=$false
             $search.Text='CARL'; $task.Clear(); $tabs.SelectedTab=$pages.Instructions
             $preset.SelectedIndex=0; $usePreset.PerformClick()
             if ($task.Text -ne $presets[0].text -or $resume.Enabled) {throw 'Current-agent preset failed'}
