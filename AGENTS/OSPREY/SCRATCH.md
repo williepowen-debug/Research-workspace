@@ -32,6 +32,14 @@
 
 **Start-here for the next session:** boot normally, then items 1–2 below are the dated ones. The only open item that can bite on 11/2 is **OWED-46** (does Surgut 10/16 count as a refinery? 14/14 without it, 13/14 with). If PROME has not ruled by 11/2, grade L814 on BOTH readings and say so.
 
+## ➕ FOLLOW-UP SESSION 10/29 ~13:52–14:05 ET (osprey-5e, Will: "continue working on these")
+| Done | Where | 
+|---|---|
+| WQ-470 X bound at **+92%** from 16 free weekly TD6/TD19 pairs; draft BREAKS (RIO +49% < X; TD17 ceased 12/2025 ⇒ Baltic leg blocks every kill) → back to HAWK | `domain/energy-strikes/WQ470_X_BACKFILL_2026-10-29.md` · KB-238 · WQ470 doc §8 · HAWK packet |
+| **OWED-46 does NOT decide 11/2** (Surgut anchor reaches 14/14 on 10/30; leg B fails anyway). It was never registered at PROME; put to Will in-session | STATUS ACTIVE PM · PROME memo `2026-10-29b_from-OSPREY_…` |
+| Druzhba: MOL "no disruption" (KB-240) · Primorsk cause not established, maintenance inferred; **Ust-Luga 10/18 fire = UNVERIFIED lead** (KB-241) · OWED-51 pass 2 +5 rows, Palkino ≠ Yaroslavl-3 (KB-239) | KB.tsv · STRIKES.tsv |
+**Supersedes above:** NEXT item 3 (X binding) → now WAIT FOR HAWK's four answers. Item 4 Druzhba/Primorsk → done as far as public sources go. Item 6 OWED-51 → remainder is Sept upstream queries + July refinery cross-check. Check the Ust-Luga 10/18 lead at the Palaemon 26 Oct–1 Nov read (11/1).
+
 ## NEXT SESSION (dated, future-verifiable)
 0. **Boot note:** `STRIKES.tsv` line 1 is now the OWED-51 BACKFILL banner; the `swept-complete through:` mark (10/25) is line 2. Read the mark line, not line 1.
 1. **11/1:** diesel producer ban 10/31 — extended or lapsed? (KB-229; a lapse starts the C1 companion-tell clock.) Palaemon 26 Oct–1 Nov (~11/1+).

@@ -58,3 +58,10 @@ HAWK's answers, and how I took them:
 **Direction (LESSONS 10):** general-transit quotes stop blocking ⇒ EASIER to kill; clause (c) blocks on blindness ⇒ harder where the instrument is dark. Net: EASIER than the current letter wherever the freight ratios print. That cuts against this desk. RIO window under this text: TD6/TD19 +49% ≥ any plausible X ⇒ (a) REPRICED ⇒ no kill, the same as the 10/21 grade. Forward-only; no re-grade.
 
 **Owed before adoption (OSPREY):** ① 12-week TD6/TD19 paired backfill and binding X; ② verify TD17 route definition and whether its spot index prints. Baltic Exchange data is subscription-gated, so reachability is the first question; if the backfill is unreachable, say so to PROME rather than binding X on 3 points.
+
+---
+
+## 8. 2026-10-29 ~14:00 ET — owed items ① and ② discharged; the draft BREAKS (record `WQ470_X_BACKFILL_2026-10-29.md`, KB-OSPREY-238)
+- ① X bound at **+92%** (16 weekly pairs, free via The DCN / The Edge Malaysia). The §7 sentence *"RIO window under this text: TD6/TD19 +49% ≥ any plausible X ⇒ (a) REPRICED"* is **FALSE at the bound X and is WITHDRAWN**: +49% < +92% ⇒ (b) SATISFIED-BY-PROXY. Text not edited above (superseded in place by this section).
+- ② **TD17 CEASED 24 Dec 2025** (suspended 21 Oct 2022). No Baltic pair ⇒ clause (c) blocks every kill ⇒ decorative. §3's "Aframax" for TD6 is wrong: TD6 is a Suezmax (135 kt) route.
+- **State: back with HAWK** (packet `AGENTS/HAWK/inbox/2026-10-29_from-OSPREY_WQ470-X-bound-draft-breaks.md`). Not adoptable; nothing to Will.
