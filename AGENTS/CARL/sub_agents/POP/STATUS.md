@@ -241,6 +241,13 @@ Full detail: `state_vectors/SV-POP-2026-10-28-02.md`. Secondary sourcing through
 - **Tariffs:** Sec-122 expired 7/24 and was replaced by Sec-301 at 10-12.5% on 60 partners (7/23), with CIT suits pending. Sec-232 derivatives are 25% on full value, and 14 more categories were proposed 8/6. IEEPA refunds: ~$35.5B paid, ~$30B stuck on appeal.
 - **Credit:** SLOOS July had small-firm standards ~unchanged (90.9%). ZION Q3 had a provision benefit (-$8M). HBAN NPA $1.72B vs $821M YoY is unattributed and is REGINALD's call, not SB evidence. No official SBA FY2026 default print yet (P06 open).
 - **Net:** level high, rate easing, plus one realized tail event. No V11 change proposed.
+- **Live search 23:57 ET (ML-POP-36..41):** official data series pulled directly via the FRED API.
+  - Business applications are +4.4% YoY in Sep (VX-POP-1.01 -> NORMAL).
+  - Bank business-loan delinquency was 1.27% in Q2 2026, down from 1.33% (DRBLACBS).
+  - ADP small-firm employment: the 1-19 band is +1.55% YoY; **the 20-49 band is -0.35% YoY**, the first negative small-firm employment read in POP's record. It is mild.
+  - KeyBank 2026 survey: 33% of owners are absorbing costs from their own income, but 54% now hold 1 month of cash (33% in 2024) and survival mode is down to 17% (23% in 2025).
+  - NFIB Aug: optimism 98.7, uncertainty 89; Sep uncertainty 90 (VX-POP-4.03 -> ELEVATED). Secondary sourcing.
+  - Not found: OZK Q3 credit detail, PayNet 2026, Paychex Oct.
 
 ---
 
