@@ -1,0 +1,17 @@
+## 2026-10-29 13:5x ET — To: TERRY
+**Signal:** Three NOT-FIRED trade ideas for the November 1–3 cluster, requested by Will in-session ("yes I do want to hear your trade ideas please", 13:42 ET). Construction, sizing and card are yours; Will decides each (root rule #5; USER.md 10/20 loosening: NOT-FIRED ideas allowed, labelled).
+**Priority:** 🟠
+
+**Tape used** (vendor daily/intraday, yfinance, about 13:44 ET 10/29, NOT settlements) [EST]:
+Brent BZZ26 114.94 · BZF27 110.83 · BZH27 103.62 · BZZ27 88.16 (10/28 bar) — Dec26→Dec27 backwardation about $26.8. WTI CLZ26 102.18 (WTI−Brent about −12.8). NGZ26 2.94. OVX 56.0. FRO 56.40 (+1.6%), DHT 25.08 (+2.5%), INSW 113.12 (+1.2%), STNG 93.64 (+5.5%, tracked never owned). VLO 378.06 (−2.7%), MPC 419.92 (−4.7%). XOP 198.43.
+
+| # | Idea | Mechanism | Trigger state | Kills it | BRENT confidence |
+|---|---|---|---|---|---|
+| 1 | **Own the back of the oil curve, not the front.** Expression is yours: E&P equity or deferred-dated defined-risk structure | The curve already prices Phase 2 (about $27 lower in a year). If the crisis outlasts the curve (post-midterm US campaign per relayed WSJ; Sinokor 11/1 enforcement), deferred months reprice; a deal hits the front hardest, and the back has less to lose. Short-oil Phase-2 trades are already priced in the deferred curve: a short at about $88 Dec27 needs a collapse below that | NOT-FIRED. No registered trigger; thesis-level view | Signed deal plus measured throughput recovery; Phase-2 demand evidence (BRT-31 still non-qualifying) | Moderate. Strongest structural asymmetry of the three |
+| 2 | **Crude tankers into Sinokor 11/1** (FRO / DHT / INSW defined-risk, short tenor) | PGSA "legal action" vs all Sinokor vessels from 11/1 (Lloyd's List: about half of Hormuz VLCC transits). Enforcement removes tonnage → rates up and rerouted ton-miles | NOT-FIRED. Event dated 11/1; tape already bid today | Iran does not enforce, or a deal. LESSONS #19: tanker equities do not move one way on Hormuz news; some of the move is already in today's tape. OVX 56 means options are expensive, so use spreads | Low-moderate. Event-driven, partly priced |
+| 3 | **US natural gas upside into a possible polar-vortex break** (NGF27/NGG27-linked defined risk) | AEOLUS: every ECMWF product forecasts the 10 hPa reversal from about 11/05 (50/50 members by 11/09); cold coupling 1–4 weeks later. US gas 2.94 vs TTF above €100 on 10/28 (intraday; settle unconfirmed) | NOT-FIRED. Forecast, NOT observed (+14.1 m/s 10/29); GEFS dissents; CPC DJF leans warm | No observed reversal by about 11/12 (AEOLUS re-reads each session); no downward coupling; US storage level not checked by BRENT | Low. Cheapest option on a weather tail; an AEOLUS observed-reversal packet is the natural fire point |
+
+**Not suggested:** new refiner longs. December diesel crack compressing (October 23 CME 97.78 → about 91 intraday today; 88.60 intraday low 11:09 ET), refiners down today. MPC Q3 11/3 (L689) is the reassessment point. Separately: a held-VLO leg-A observation for today's 14:28–14:30 window follows by packet; intraday is NOT an observation.
+
+**Caveats that travel:** all prices vendor/intraday; WSJ campaign report and Ras Tanura are relayed, not primary; no Saudi-relief grader is registered (WQ-533 a, 10/29); BRT-31 OPEN at 40%. BRENT supplies thesis and catalyst only; no size, strike or order here.
+**Source:** BRENT STATUS/THESIS v5.13, AEOLUS packet 10/29 08:02, WALTER SIG-W-20261029-022/023/035/037, vendor tape above.
