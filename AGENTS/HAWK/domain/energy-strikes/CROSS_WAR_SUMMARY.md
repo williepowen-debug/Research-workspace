@@ -1,5 +1,29 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
+**Regenerated: 2026-10-29 (~11:55 ET, from session clock).** Latest owner evidence: FALCON October 26 17:36 EDT cutoff; OSPREY committed October 23, plus live uncommitted October 29 ledger edits (see table). WALTER lane October 25–29 read (13 signals plus BOARD-only 034). No fresh HAWK theater sweep. Historical passes below are snapshots, not current grades.
+
+| Owner ledger | Committed head reviewed | Data rows, excluding header |
+|---|---|---|
+| OSPREY STRIKES | `3bac20f15` committed; live osprey-5d working tree read 2026-10-29 ~12:10 ET (UNCOMMITTED) | 159 committed; 161 in working tree (+KHORYV 10/23, +Shabla containership 10/28) |
+| FALCON facility STRIKES | `261593822` | 41 (unchanged; swept-complete advanced to October 25, October 26 partial) |
+| FALCON VESSELS | `261593822` | 84 (+2: VI-0083 UKMTO182 relay, VI-0084 UKMTO183 relay) |
+
+**Reconciliation (FALCON October 26 brief and reports, KB-HAWK-468):** FALCON holds B 1 / C 14 / D 85; production rung NOT FIRED; newest established facility event still September 10. Cape Dao (old September 23 BULKER) is now confirmed Sunk by FALCON's own IMO and NAVAREA IX 403/26 pulls: **FALCON losses 5 confirmed**, replacing 4 + 1 contested. This is a census resolution, not a new attack or tanker loss. VI-0083 (unnamed outbound tanker disabled in Hormuz October 23, crew safe) and VI-0084 (vessel fire 63 NM SE of Al-Faw October 26, cause unknown) are RELAYED rows; originals 403. Saudi East-West pumping-station and Riyadh airport hits remain claim-only; pumping stations are route assets, out of the production rung even if confirmed.
+
+**WALTER lane October 27–29 (claims, not owner grades):** Houthi claim of an October 27 missile hit on **Ras Tanura** with a reported fire near the export terminal; no Saudi MoE/SPA/Aramco statement; damage unknown (SIG-W-20261029-002). FALCON owns adjudication. Ras Tanura is refinery plus export terminal: outside FALCON's production rung and, as refinery/terminal damage, outside HAW-22 unless a declared crude-export capacity loss is disclosed. Iran's strait authority announces legal action against the whole Sinokor fleet from **November 1** (SIG-W-20261029-003; Sinokor ~47% of Hormuz VLCC transits per Lloyd's List Intelligence via secondary, not read at primary). NAVCENT/JMIC October 28 advisory tells ships not needing to transit to remain well clear (secondary; original 403). WSJ October 27 reports US told Gulf states to prepare for a short, intense post-midterm campaign: posture, not an executed strike; White House October 22 no-strike-before-midterms line stands.
+
+**Russia (OSPREY October 23, unchanged):** 5 / 5 / 3; refining band ~30% EST. Earliest C1 14-day downgrade leg October 29 (from Ryazan October 15). C3 earliest kill date October 27 passed with limb 2 graded NOT SATISFIED by HAWK (KB-HAWK-449), so no kill; **Owner-state observation dated October 29 ~12:10 ET, re-check next pass:** OSPREY is live (osprey-5d). Its uncommitted working tree advances swept-complete to October 25 (Palaemon 19–25 Oct read October 29) and adds two western Black Sea hull rows: KHORYV (ore-oil carrier laden with metals, ~13 nm off Constanta, October 23, Russia-attributed by Romania's president) and an unnamed containership off Shabla (October 28, unidentified naval drones, Bulgarian EEZ). Neither is a Ukraine-side strike on a merchant tanker, so neither touches C3 limb 1. Both are more Russia-side basin attacks, exactly the population that blocked limb 2 under the unscoped letter (WQ-470 scope draft). An earlier line in this regeneration, written before OSPREY's session was visible, called OSPREY 'six days less current'; it was wrong within the hour and is replaced here (LESSONS 2026-07-25 derived-surface rule).
+
+**FLOW-19 assessment:** Russian refining/products and Gulf hull/route risk remain unlike exposures. BRENT October 26 (KB-HAWK-469): K1 input UNMEASURED; the ~14 mb/d / 82% week-to-October 18 figure is a preliminary relay including offshore transfers, not an adjudicated current Hormuz rate; CENTCOM cumulative assisted-crude figures have different clocks and denominators. No measured fraction of oil price attributable to premium. The Sinokor enforcement date is the first concrete route-capacity test of the enforcement channel: a tonnage withdrawal would be route/willingness loss, not destroyed production capacity.
+
+**Forecast perimeter:** HAW-22 OPEN, 65% UNCALIBRATED; October event window closes October 31. No qualifying candidate established in October 25–29 inputs (Ras Tanura claim unconfirmed and asset-class excluded unless declared crude-export capacity loss; pumping stations excluded). **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**.
+
+**No double-count:** preserve attacker/target dyad, molecule, asset, loading/departure/transit basis and prior outage. Separate claim dates (IRGC mine claims October 24 and 27, Seoul Economic seven tankers, PGSA seven enforced vessels) are not additive confirmed hulls.
+
+---
+
+## October 25 regeneration — original text retained
+
 **Regenerated: 2026-10-25.** Latest owner evidence: October 23. No fresh October 25 theater sweep. Historical passes below are snapshots, not current grades.
 
 | Owner ledger | Committed head reviewed | Data rows, excluding header |

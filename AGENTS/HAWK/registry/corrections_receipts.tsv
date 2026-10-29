@@ -17,3 +17,4 @@ receipt_date	correction_id	action	note
 2026-10-22T01:38Z	COR-20261021-16	NO-OP	scope=No HAWK surface asserts the Russian diesel export ban was lifted. KB-HAWK-436 cites GL 135 cargoes and destination signals only, and STATUS carries the No 1252 producer restriction to 10/31.;
 2026-10-25T16:27Z	COR-20261023-31	APPLIED	artifact=AGENTS/HAWK/STATUS.md#cross-war-decision-summary; validation_ref=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-456;
 2026-10-25T16:27Z	COR-20261022-48	NO-OP	scope=No corrected cyber detail appears in HAWK current STATUS NEXUS FLOW VX or FALSIFICATION. Source correction read and logged KB-HAWK-458.;
+2026-10-29T15:59Z	COR-20261025-26	NO-OP	scope=HAWK never adopted the 011 contrary-Channel13 framing (grep of HAWK files for Zamir or Channel13 finds nothing outside inbox) - 011 was logged only as unverified claims with no hull, strike or lost-barrel addition, which this correction holds; 

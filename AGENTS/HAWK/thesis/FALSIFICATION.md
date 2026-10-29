@@ -21,6 +21,7 @@
 >
 > **What this surface is NOT:** it is not a forecast, not a mark, and not a trade rail. Every gate below is a *test*, and several are deliberately hard to fire. A falsifier that cannot fire is worthless — where I judge one to be near-unfireable I say so on the row rather than letting it stand as false comfort.
 
+> **October 29 review (registered tests unchanged):** HAW-20 grade prep written (`research/2026-10-31_HAW-20_GRADE_PREP.md`); Canada's Oct 23 add-and-remove proclamation is a coverage change and cannot fire leg (b). HAW-22: no October candidate in Oct 25–29 inputs. FALCON census 5 confirmed losses (old Cape Dao); production rung not fired. All premium legs still stale, no matched quote (DEWEY, KB-HAWK-470). WQ-470 C3 scope qualifier agreed in principle with OSPREY; X unbound. K1 input UNMEASURED (BRENT, KB-HAWK-469).
 > **October25 reconciliation:** K2 and denial/rerouting coverage gaps are explicit below. HAW-20 product-level carve-outs DO NOT FIRE on its registered letter; KB-451's scope-cut ambiguity does not survive that clause. CBP/MARCO correct broad auto-stacking wording (KB-453). TRADE01 primary cadence completed (KB-454). WC Saudi origin-premium falsifier FIRED at FALCON9/28 (0.1→~3%); this is hull willingness, not measured production loss, and the quote is now31 days old. All current premium legs are stale; Bab is CANNOT-FIRE. Historical readings below retain their original dates.
 
 ---

@@ -1,44 +1,59 @@
-# HAWK SCRATCH — October 25, 2026 final closeout
+# HAWK SCRATCH — October 29, 2026 closeout
 
-**As of:** 15:45 EDT. Will requested session closeout after repairs, completeness review and DEWEY delivery. Runtime Codex / OpenAI GPT-6 exposed; serving variant UNKNOWN. Thread `01a173d6-38cc-7de3-9a0b-fd12caf682cc`. Root/local instructions explicitly loaded in this session.
+**As of:** 12:06 EDT (from `date`). Claude Code / Opus 5.5; session id UNKNOWN. Will: boot and recover, then "Okay please proceed" with the boot-completion plan.
 
 ## CURRENT MARKS
 
-No trade book. VEN G; TWN/TWNMIL/IRAQ/FININFRA Y; TRADE01/TRADE02/CODIF/EURMIL O; SULPHUR R; CEASEFIRE superseded. HAW20/22 OPEN. No mark, band, probability, registered letter or score changed.
+No trade book. VEN G; TWN/TWNMIL/IRAQ/FININFRA Y; TRADE01/TRADE02/CODIF/EURMIL O; SULPHUR R; CEASEFIRE superseded. HAW20/22 OPEN. Nothing re-marked.
 
-## CHANGES SINCE LAST SESSION
+## CHANGES SINCE LAST SESSION (Oct 25 → Oct 29)
 
-Repair outcome remains 9 repaired / 10 named residuals. Native Europe reviewed October 25, current Article4/legal/mandate negatives incomplete. Acid mine-gate/delivered basis corrected; matched delivered quote missing. August METI owner read consumed; stockpiling/transit attribution unknown. EU listings adopted; full annex missing. These are dated findings, no current all-clear.
+FALCON census: 5 confirmed losses (Cape Dao sunk; old event). L229 corridor lapsed. Ras Tanura Houthi claim unconfirmed. PGSA vs Sinokor from Nov 1. NAVCENT stay-clear Oct 28. WSJ post-midterm campaign prep (posture). BRENT: K1 UNMEASURED. DEWEY 01–03 returned: helium one fab; Taiwan stock days not public; no matched October war-risk quote. OSPREY live Oct 29: adopted SCOPE for C3.
 
 ## WHAT I DID THIS SESSION
 
-Saved and delivered three Will-directed prompts in DEWEY inbox, pushed at 380da6bf1, exact matching outbox copies. Research: 01 helium/fab, 02 Taiwan fuel/cargo, 03 marine war-risk. Will will launch; no execution/consumption/result claimed. Three CATALYSTS delivery rows added, KB466/467 capture verified source leads, SOURCES updated. FALSIFICATION's active Europe footer reconciled to the completed native review while keeping its source gaps and registered tests.
-
-New WALTER SIG-W-20261025-011 read, noted, and filed after sender commit 3e0333f30. Its nuclear/mine/explosion assertions do not establish new hull losses, a confirmed strike or lost barrels. FALCON owns verification; WALTER October 26 originals/transcript follow-up. No new theater KB event or count.
+Full intake (25 items) dispositioned and filed; COR-20261025-26 NO-OP; both aggregates regenerated; KB-HAWK-468..476; CATALYSTS updated; C3 HAWK-side draft + §6 answers sent to osprey-5d; HAW-20 prep sheet; ISHM seam reply in outbox (not dropped).
 
 ## NEXT SESSION
 
-1. Consume DEWEY results when delivered; first check report/output/version and recipient receipts. Do not launch duplicate work. Five earlier owner inputs remain requested; integrate actual returned evidence before closing residuals.
-2. October 26: residual current-primary Article4/legal and other source gaps; fold FALCON insurance re-pull when available. Native14-day and November 2 45-day clocks remain separate.
-3. AFTER October 27: joint C3 scope/cause qualifier with OSPREY under WQ470. Current limb2 NOT SATISFIED, no repeated canvass needed for its completed grade.
-4. October 28: comparable tanker realized-TCE availability and BRENT five-settle input. Release date still unverified; reject wrong fiscal vintage.
-5. October 31: HAW20 four frozen instruments/courts (product exclusions never fire); HAW22 event close and prospective November coverage checkpoint. Candidate unpriced/unregistered. YURI October 31/November 2 backfill.
-6. November 9–10 legal clocks; November STEO N6. December 15–21 final HAW22 disclosure search; cutoff December 21 23:59 UTC; immutable resolution December 22.
+1. **Oct 31:**
+   - HAW-20 grade per `research/2026-10-31_HAW-20_GRADE_PREP.md`, with dated pulls on the day.
+   - HAW-22 October window close.
+   - YURI L432 owner grade, with the Nov 2 backfill.
+2. **Nov 1:** Sinokor enforcement: what "legal action" means in practice, any tonnage exit; read FALCON/BRENT.
+3. **WQ-470:** joint text agreed (OSPREY `97f4bcff7` §7); PROME holds it until OSPREY binds X with the backfill. HAWK checks the bound X and recomputes it from the backfill table when it lands.
+4. **Nov 2:** EURMIL 45-day backstop, plus the overdue Oct 26 residuals (Article 4 / legal negatives).
+5. **Carried:**
+   - FLOW-21 Q3 realized-TCE check (Oct 28 date missed).
+   - K1 numerical test (input UNMEASURED per BRENT).
+   - Nov 9–10 legal clocks (BIS / MOFCOM).
+   - November STEO N6.
+   - Dec 15–21 HAW-22 disclosure search; resolution Dec 22.
+6. **Re-check:** OSPREY STRIKES once osprey-5d commits. The aggregate fingerprint was recorded against its uncommitted working tree.
 
 ## OPEN THREADS / WATCHES
 
-Confirmed crude-processing damage or verified US strike decision; unconfirmed Yanbu/CAPE DAO/other hull claims; stale premiums and Bab CANNOT-FIRE; incomplete oil-thesis tests and denial/rerouting attribution. Europe legal/stock evidence, matched acid price, Taiwan endpoints, Qatar/Canada/EU documentary gaps, Venezuela posture/crude-only flow, Sidi/premium/flow matching, CPC durability, GL135/Graham residuals, FE1 actual canal transit, dictionary confirmations and HAW01/04/05 provenance remain named in CATALYSTS/repair report. WQ362 LAPSED, no vendor reopening.
+- Verified US strike decision (post-midterm).
+- Sinokor tonnage exit.
+- Ras Tanura state (FALCON).
+- UKMTO 182/183 originals.
+- Matched war-risk quotes (none).
+- Europe legal/stock evidence; matched acid price; Taiwan endpoints; Qatar/Canada/EU documentary gaps; Venezuela posture; CPC durability; GL135/Graham residuals; FE1 transit; HAW01/04/05 provenance.
 
 ## PREDICTIONS / DECISIONS
 
-HAW20 OPEN 65%, October 31. HAW22 OPEN 65% UNCALIBRATED, terminal-only: undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity. WQ521 exact tariff proposal registered, pending ruling. Other band/November observation drafts remain inactive. HAW18 scoring decision closed.
+- **HAW20:** OPEN 65%, Oct 31.
+- **HAW22:** OPEN 65% UNCALIBRATED. undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity.
+- **WQ521:** pending Will.
+- **WQ470:** joint text pending OSPREY.
 
 ## MAIL STATE
 
-Direct inbox clear at cutoff; WALTER011 consumed/archived, 396 exact routed BOARD IDs dispositioned. DEWEY prompts 01/02/03 delivered at 380da6bf1, Will controls launch; results unverified. Five earlier owner input/dictionary requests delivered at 71b274847; no answers verified. Historical unsent outbox packets retain their dates; no mass resend.
+- Inbox and WALTER lane clear at cutoff.
+- Reply to osprey-5d sent by SendMessage at ~12:05 ET; its consumption is unverified.
+- ISHM reply is in the outbox and not delivered.
+- No other outbound packets.
 
 ## PENDING PUSH / GIT
 
-Repairs 7644c394b, input deliveries 71b274847, PROME packet 868c7a89d, completeness revision b7d521e79/ pin ac6270394 and DEWEY delivery 380da6bf1 are committed/pushed. PROME consumed repair package at 5d73329cc. This final closeout updates owner state/workbook and supplies a dated PROME receipt; NEXUS pins its exact STATUS commit afterwards. Fresh-origin push receipt is reported in task output. Foreign BROCK/WALTER/other work excluded; no pull/stash/rebase. No owners launched; no trade executed.
-
-Final owner write-back commit `3841fe06c` contains STATUS and workbook updates. NEXUS names that exact STATUS revision. Dated completion packet: `outbox/2026-10-25_to-PROME_final-closeout.md`; recipient consumption of this new receipt is unverified until acknowledged. The preceding repair package was already consumed. Final push receipt is reported in task output.
+HAWK paths committed explicitly and pushed via safe-push. The receipt is reported in the session output. Foreign dirty work (TERRY, OSPREY, FALCON, WALTER, others) excluded; no pull, stash or rebase.

@@ -1,5 +1,27 @@
 # Cross-theater war-risk aggregate — HAWK
 
+**Refreshed: 2026-10-29 (~11:58 ET, from session clock).** Owner records reviewed: FALCON WARRISK at `261593822` (L807 re-pull ATTEMPTED October 26; data clock NOT advanced), OSPREY WARRISK unchanged since October 21; FALCON October 26 brief, OSPREY October 23 brief; DEWEY HAWK-03 return (October 25, Will-directed). This refresh updates the derived read and quote ages, not quote dates. **Matched cross-theater premium ratio UNKNOWN.**
+
+| Leg / owner | Last owner-adopted observation | Quote age October 29 | State / implication |
+|---|---|---|---|
+| Hormuz / FALCON | 6–10% of hull, FT unnamed brokers around October 6, secondhand press | 23 days | STALE. DEWEY found the same range only in later relays (Boston Report October 18/22): relay-only, not a new quote date. |
+| Southern Red Sea / FALCON | Up to 7% Saudi-linked calls south of Yanbu; 0.2–0.3% non-Saudi transit, September 24 Reuters | 35 days | STALE; FALCON L807 found no newer matched quote. |
+| Bab / FALCON | ~0.5% AWRP, July 23 | 98 days | **CANNOT-FIRE** (WQ-298; PROME unreachable-measurements registry). No new Bab-specific quote. |
+| West Saudi / Yanbu / FALCON | ~3% Saudi-linked hulls, September 24 Reuters | 35 days | STALE. Origin-risk falsifier FIRED at owner September 28 on hull willingness, not measured production loss. ⛔ DEWEY rejected a date trap: an "October 18" Yanbu story repeats the September 15 Daily Star quote. |
+| Black Sea / OSPREY | BPG 0.6–1.0% before discount, October 9; Marelis 0.1→0.5% October 6 (original publication October 7) | 20 / 23 days | STALE. General Black Sea transit, not Russian-port tanker calls, which DEWEY confirms remain unmeasured. C3 limb 2 NOT SATISFIED (October 21 grade) — no October 27 kill. |
+
+**All five quote legs exceed the 10-day bar.** FALCON's historical same-article September 24 Hormuz/WC spread recomputes unchanged at 2–3×; no mixed-vintage current spread is measurable.
+
+**DEWEY HAWK-03 (KB-HAWK-470):** public sources verify three separate evidence classes — additional-premium areas (UK War Risks October map, JWLA-035), conditional cover (Swedish Club 452/2026 cancel-and-reinstate effective October 1; AP-area entry suspends standard cover, bespoke reinstatement at a price), and dated press quotations. No matched October quote across Hormuz, Yanbu, Bab and Russian Black Sea tanker calls. Absence of a quote is not evidence of flat rates.
+
+**New owner/lane evidence without a quote:** Cape Dao now confirmed Sunk (FALCON census 5 confirmed losses; old bulker episode). Two relayed UKMTO reports (182 disabled tanker October 23; 183 Al-Faw fire October 26). NAVCENT/JMIC October 28 stay-clear advisory (secondary). Iran PGSA legal action against all Sinokor vessels from November 1 — an **enforcement-channel** event inside HAWK's shadow-fleet/enforcement synthesis, not a premium; FALCON owns the ladder read, BRENT the VLCC/freight read. None fills a premium cell.
+
+**Obligations:** FALCON owns Gulf quote retrieval (L807 complete, nothing newer). The joint C3 scope/cause qualifier with OSPREY under WQ-470 is due after October 27; HAWK's side is drafted at `proposals/2026-10-29_C3_scope-cause-qualifier_HAWK-side.md`; OSPREY has not run since October 23.
+
+---
+
+## October 25 refresh — original text retained
+
 **Refreshed: 2026-10-25.** Owner records reviewed: OSPREY WARRISK October 21 and FALCON WARRISK October 23; both October 23 briefs. This refresh updates the derived read, not quote dates. **Matched cross-theater premium ratio UNKNOWN.**
 
 | Leg / owner | Last owner-adopted observation | Quote age October 25 | State / implication |
