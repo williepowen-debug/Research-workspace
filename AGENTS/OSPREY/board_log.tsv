@@ -159,3 +159,9 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-23T05:07Z	SIG-W-20261021-017	noted	WALTER	YURI: Decrees 738/750 + Kremlin 10/21 first 40 kt diesel 'in two to three days' (intent). Consistent with KB-213 (Novak, first US-bound tanker 10/22). Flows are BRENT's; talks calendar HAWK's. No change. INFO.
 2026-10-23T05:07Z	SIG-W-20261021-031	acted	WALTER	YURI long search: Decree 686 para 4(a) goods-code list OVERDUE on the public record; no public act for the 10/10 500 kt permission. Integrated KB-OSPREY-222 (feeds the C1 blackout clock, L718 leg B observability); OWED 'Data decree goods list' row updated. Ship-registration + 2818-r: no OSPREY channel input.
 2026-10-23T05:07Z	SIG-W-20261022-007	info-only	WALTER	Iran full sweep 10/22 (IRGC STS/mine claims, Dammam toll, US posture). FALCON's theater; no Russia/Ukraine content. Brent level BRENT's. No OSPREY action.
+2026-10-29T12:05	SIG-W-20261029-010	INTEGRATE	WALTER	diesel quota = 10/10; producer ban to 10/31; US diesel line headline-level -> KB-OSPREY-229
+2026-10-29T12:05	SIG-W-20261029-014	LOG	WALTER	DEWEY HAWK-03: Black Sea quotes general transit; Russian-port tanker calls unmeasured -> input to WQ-470 (KB-231)
+2026-10-29T12:05	inbox:2026-10-23_from-BRENT	INTEGRATE	BRENT	Bloomberg 3.59 to 10/18 -> KB-OSPREY-226
+2026-10-29T12:05	inbox:2026-10-23_from-DAEDALUS	INTEGRATE	DAEDALUS	WQ-508 lines applied by DAEDALUS f4149bf51 (accepted); B46 applied 10/29; M08 not applied
+2026-10-29T12:05	inbox:2026-10-25_from-DEWEY	LOG	DEWEY	war-risk coverage report; same content as SIG-W-20261029-014
+2026-10-29T12:05	inbox:2026-10-25_from-HAWK	INTEGRATE	HAWK	vessel dictionary CONFIRMED -> KB-OSPREY-230; packet to HAWK

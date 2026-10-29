@@ -1,38 +1,37 @@
-# OSPREY SCRATCH — 2026-10-23 (Fri) 01:08 ET (from `date`, closeout) · osprey-1023 · PROME prome-e7 Tier-1 spawn (WQ-502 A: DOCKET L718 + L666, L0 drain)
+# OSPREY SCRATCH — 2026-10-29 (Thu) ~12:15 ET (from `date`, closeout) · osprey-5d · owner catch-up session (Will: "yes proceed")
 
-*Rewritten in full (template). The 10/21 SCRATCH is in git history.*
+*Rewritten in full (template). The 10/23 SCRATCH is in git history.*
 
 ## CURRENT MARKS (one line)
 - Refineries/products **5** · crude-export terminals **5** (re-armed 10/18) · shadow-fleet tankers **3** · band ~30% [EST] · Brent → BRENT.
 
-## CHANGES SINCE LAST SESSION (10/21 21:37 ET → 10/23)
-- No refinery-class row found 10/21→10/23 (Ryazan 10/15 stays the C1 anchor).
-- Palaemon 12–18 Oct posted and read: 0 unrowed; no Azov, no PNT item.
-- Bloomberg 10/22: Rosneft says strike losses are unsustainable; 15 confirmed September refinery strikes (a count, not an aggregate).
+## CHANGES SINCE LAST SESSION (10/23 01:08 → 10/29)
+- OSPREY was dark 6 days. 10/26 Palaemon and 10/27 C3 dates passed unworked; both are handled today.
+- No refinery strike 10/16→10/29; targets moved to steel/chemical under US pressure (KB-224).
+- Bloomberg 3.59 to 10/18 (KB-226). KHORYV 10/23 + Shabla 10/28 rowed, not qualifying (KB-227).
 
 ## WHAT I DID THIS SESSION
-- Boot: four boot files via boot_read.py to EOF; STATUS/SCRATCH/LESSONS; staleness (FLOW.tsv +31d held, as before; WARRISK quiet rc 0); corrections check PASS; strike_feed.py run 10/23 (26 rows; 21 NONE dispositioned in the feed file).
-- **L718 GRADED NOT MET** (KB-218): leg A 8/14, leg B no print, blackout 50/60. Successor proposed 11/2.
-- **L666 CLOSED UNRESOLVED** (KB-219). Record: `domain/energy-strikes/L718_L666_GRADES_2026-10-23.md`.
-- STRIKES mark 10/11 → 10/18 (BOUNDED, KB-220); 3 rows annotated. KB-221…223. STATUS: 10/20 block rotated → `archive/STATUS_ROTATED_2026-10-23.md`.
-- Inbox: WALTER lane 4/4 → processed (016/017 noted, 031 acted KB-222, 022-007 info-only). BOARD OSPREY ID-diff since 10/18: 0 unlogged.
+- Boot: root CLAUDE/AGENTS/USER + local files. No `git pull` (other desks' dirty tree; local 1 ahead with WALTER's commit). Staleness FLOW +32d held; WARRISK quiet; corrections PASS.
+- strike_feed.py 10/29: 28 rows, all dispositioned. Palaemon 19–25 Oct read. Name-free EN/RU sweep 10/19→10/29. Ledger mark 10/18 → **10/25** (BOUNDED), +2 rows.
+- KB-224…231. STATUS 10/21 block rotated → `archive/STATUS_ROTATED_2026-10-29.md`.
+- **WQ-470:** OSPREY side written; HAWK (hawk-e0) answered by message 12:03 ET; joint text in §7 of `domain/energy-strikes/WQ470_C3_LIMB2_QUALIFIER_OSPREY-SIDE_2026-10-29.md`. Not adoptable until X is bound.
+- Mail 6/6 filed (board_log +6). Packets: HAWK (dictionary confirmed + WQ-470), DAEDALUS (WQ-508), PROME memo. WQ-508 B46 applied to CLAUDE.md.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **10/26:** Tambov/Druzhba flow notice (KB-209). HAWK runs nothing new on C3 limb 2 (already graded NOT SATISFIED 10/21).
-2. **~10/26+:** Palaemon 19–25 Oct — L666 backfill check (not a grade) + certifies the ledger past 10/18.
-3. **10/27:** C3 limb 1 hits 21/21 but NO kill (limb 2 NOT SATISFIED, KB-217). Then WQ-470 A: draft the forward-only limb-2 qualifier WITH HAWK; text to Will via PROME.
-4. **10/29:** C1 leg A earliest (any refinery row resets). **11/2:** L718 successor (proposed) + blackout flag UNREACHABLE if no independent aggregate.
+1. **11/1:** diesel producer ban 10/31 — extended or lapsed? (KB-229; a lapse starts the C1 companion-tell clock.) Palaemon 26 Oct–1 Nov (~11/1+).
+2. **11/2:** DOCKET L814 C1 grade (leg A from the newest refinery row; leg B) + blackout UNREACHABLE flag to PROME if no independent aggregate prints.
+3. **WQ-470 X binding:** backfill ≥12 weekly TD6/TD19 Worldscale pairs (Baltic Exchange data is subscription-gated: test reachability first; if unreachable, tell PROME, do NOT bind on 3 points). Verify the TD17 spot index (forward assessments suspended).
+4. Carried: Tambov/Druzhba flow notice (KB-209, not checked 10/29) · PNT damage · Primorsk pause cause.
 5. **11/8** §5 re-read · **11/17** C2 earliest re-kill · **11/18** GATE-OSPREY-001.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Refinery tempo (quiet 10/16→10/23 is a search result, not a pause claim). 🟠 PNT halt still unreported. 🟠 C3 near its clock — distrust quiet.
-- 🟡 Ledger gap LEAD: PNT 2026-06-03 not rowed (KB-223). Carried: OWED-30 · 41 · 42/50 · 43 · 44 · 45 · 46 · 48 · 51.
+- 🔴 Refinery tempo: a 14-day quiet with no halt order — distrust it; one strike resets C1 leg A. 🟠 PNT/Primorsk halt cause unknown. Carried: OWED-30 · 41 · 42/50 · 43 · 44 · 45 · 46 · 48 · 51.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- Book empty. No Will-gated decision open from this desk (WQ-470 drafting waits for 10/27).
+- Book empty. No Will decision open from this desk (WQ-470 held until X is bound).
 
 ## MAIL STATE (one line per surface)
-- Inbox: clear. WALTER lane: clear (4 → processed 10/23). Outbox: nothing new. PROME memo 10/23 (L718/L666 grades).
+- Inbox: clear. WALTER lane: clear (2 → processed). Outbox: packets to HAWK, DAEDALUS, PROME 10/29.
 
 ## PENDING PUSH / GIT
-- Path-scoped commit of AGENTS/OSPREY/ files + PROME memo (carve-out ①); push via scripts/safe-push.sh.
+- Path-scoped commits of AGENTS/OSPREY/ + 3 authored packets (carve-out ①); push via scripts/safe-push.sh.
