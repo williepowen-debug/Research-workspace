@@ -4957,6 +4957,78 @@
         },
         "recorded_at": "2026-10-29T17:32:41.726888+00:00"
       }
+    ],
+    "AGENTS/ZHAO/NEXUS_BRIEF.md": [
+      {
+        "owner": "ZHAO",
+        "reason": "ZHAO's own key-figure refresh, committed by ZHAO's live Will-launched session at 13:34 ET after this checkpoint's freeze; not read by PROME; no delivered claim relies on it.",
+        "basis": {
+          "path": "AGENTS/ZHAO/STATUS.md",
+          "commit": "239b7743cd1923e023e9524fe60314ef42f37976",
+          "sha256": "80f3cf1cdd1ee326e6300054b7de447d728a8cc463f688bf0fb1924fa3c82e6d"
+        },
+        "quote": "\ud83d\udfe1 **10/29 13:3x ET \u2014 KEY-FIGURE REFRESH (Will 'go'): 8 stale rows refreshed; ONE BAND MOVE \u2014 HIBOR-SOFR \u221298 \u2192 \u2212122.5bp (GREEN \u2192 YELLOW), and USD/HKD 7.846 sits 0.004 from the peg's 7.85 weak edge.** HKMA has not intervened (Aggregate Balance HK$53,999M, no market activity 10/22\u201329). Vector 7 HELD at",
+        "not_relied_on": true,
+        "snapshot": {
+          "commits": [
+            "583b0d9cc42d5bc3aacaf65d4dff7e447753fb9d",
+            "ab839d05d703d41c3983a7f084fc369d7a78f117",
+            "239b7743cd1923e023e9524fe60314ef42f37976"
+          ],
+          "pending": [],
+          "working_sha256": "898596370c1ba0758157104bc6bcdbe2b2f655b80712a80dd1aa26a072d819e1",
+          "commit_sha256": "898596370c1ba0758157104bc6bcdbe2b2f655b80712a80dd1aa26a072d819e1"
+        },
+        "recorded_at": "2026-10-29T17:34:53.622861+00:00"
+      }
+    ],
+    "AGENTS/ZHAO/STATUS.md": [
+      {
+        "owner": "ZHAO",
+        "reason": "ZHAO's own key-figure refresh, committed by ZHAO's live Will-launched session at 13:34 ET after this checkpoint's freeze; not read by PROME; no delivered claim relies on it.",
+        "basis": {
+          "path": "AGENTS/ZHAO/STATUS.md",
+          "commit": "239b7743cd1923e023e9524fe60314ef42f37976",
+          "sha256": "80f3cf1cdd1ee326e6300054b7de447d728a8cc463f688bf0fb1924fa3c82e6d"
+        },
+        "quote": "\ud83d\udfe1 **10/29 13:3x ET \u2014 KEY-FIGURE REFRESH (Will 'go'): 8 stale rows refreshed; ONE BAND MOVE \u2014 HIBOR-SOFR \u221298 \u2192 \u2212122.5bp (GREEN \u2192 YELLOW), and USD/HKD 7.846 sits 0.004 from the peg's 7.85 weak edge.** HKMA has not intervened (Aggregate Balance HK$53,999M, no market activity 10/22\u201329). Vector 7 HELD at",
+        "not_relied_on": true,
+        "snapshot": {
+          "commits": [
+            "583b0d9cc42d5bc3aacaf65d4dff7e447753fb9d",
+            "ab839d05d703d41c3983a7f084fc369d7a78f117",
+            "239b7743cd1923e023e9524fe60314ef42f37976"
+          ],
+          "pending": [],
+          "working_sha256": "80f3cf1cdd1ee326e6300054b7de447d728a8cc463f688bf0fb1924fa3c82e6d",
+          "commit_sha256": "80f3cf1cdd1ee326e6300054b7de447d728a8cc463f688bf0fb1924fa3c82e6d"
+        },
+        "recorded_at": "2026-10-29T17:34:53.628818+00:00"
+      }
+    ],
+    "AGENTS/ZHAO/workbook/KB.tsv": [
+      {
+        "owner": "ZHAO",
+        "reason": "ZHAO's own key-figure refresh, committed by ZHAO's live Will-launched session at 13:34 ET after this checkpoint's freeze; not read by PROME; no delivered claim relies on it.",
+        "basis": {
+          "path": "AGENTS/ZHAO/STATUS.md",
+          "commit": "239b7743cd1923e023e9524fe60314ef42f37976",
+          "sha256": "80f3cf1cdd1ee326e6300054b7de447d728a8cc463f688bf0fb1924fa3c82e6d"
+        },
+        "quote": "\ud83d\udfe1 **10/29 13:3x ET \u2014 KEY-FIGURE REFRESH (Will 'go'): 8 stale rows refreshed; ONE BAND MOVE \u2014 HIBOR-SOFR \u221298 \u2192 \u2212122.5bp (GREEN \u2192 YELLOW), and USD/HKD 7.846 sits 0.004 from the peg's 7.85 weak edge.** HKMA has not intervened (Aggregate Balance HK$53,999M, no market activity 10/22\u201329). Vector 7 HELD at",
+        "not_relied_on": true,
+        "snapshot": {
+          "commits": [
+            "583b0d9cc42d5bc3aacaf65d4dff7e447753fb9d",
+            "ab839d05d703d41c3983a7f084fc369d7a78f117",
+            "239b7743cd1923e023e9524fe60314ef42f37976"
+          ],
+          "pending": [],
+          "working_sha256": "171001a93d00a9377425e31bb9060319bdfbb8899db539f60e1c8bcf88be3450",
+          "commit_sha256": "171001a93d00a9377425e31bb9060319bdfbb8899db539f60e1c8bcf88be3450"
+        },
+        "recorded_at": "2026-10-29T17:34:53.634638+00:00"
+      }
     ]
   },
   "inventory": {
@@ -6416,8 +6488,10 @@
       "commits": [
         "49a61d2d0a31844f75f22309edef24b8514819ab"
       ],
-      "pending": [],
-      "working_sha256": "5763f896c5f87e449b6fc1b616a0d6fe1f03e4c5a26f6d144e27322a33d3c914",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "015fc7cf7191e13be54b4bcf7a1300a2a24fbda4d78f123711e0afd4ed2d669c",
       "commit_sha256": "5763f896c5f87e449b6fc1b616a0d6fe1f03e4c5a26f6d144e27322a33d3c914"
     },
     "AGENTS/BRENT/SCHEDULED_RUNS.md": {
@@ -7323,8 +7397,10 @@
       "commits": [
         "82dca81a4eaceb7a3d1673ddd458e66a03b58569"
       ],
-      "pending": [],
-      "working_sha256": "42def629446f0b83f8d943eb4194e1f44f68dbc94288c92ca349be3bddf322a0",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "7ef9db29189f9c011dcd3c13b93f619c652450ca1b66e0648d03afa9a19aa9ff",
       "commit_sha256": "42def629446f0b83f8d943eb4194e1f44f68dbc94288c92ca349be3bddf322a0"
     },
     "AGENTS/BRENT/setups/2026-10-23_L526_routine-boot-preamble-DRAFT.md": {
@@ -10884,8 +10960,10 @@
         "23627d5f9c8abc40c89eb5796ed616e8b0eacddd",
         "e43e4f1af0ab7ad6876111064ca2e6b2cda82fb5"
       ],
-      "pending": [],
-      "working_sha256": "20fdfc86bcc9fee2f009bd998400dd350539f9b311e1c46877faa950f782ce7d",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "61a4cbed601c42c7ff9fe001b8b51f2c12561f3f07e02c304c72b2bbcfdec73e",
       "commit_sha256": "20fdfc86bcc9fee2f009bd998400dd350539f9b311e1c46877faa950f782ce7d"
     },
     "AGENTS/CYPHER/STATUS.md": {
@@ -10897,8 +10975,10 @@
         "23627d5f9c8abc40c89eb5796ed616e8b0eacddd",
         "e43e4f1af0ab7ad6876111064ca2e6b2cda82fb5"
       ],
-      "pending": [],
-      "working_sha256": "3d8cf0ee2d84f1336e2178cfe42c557c1831cbd245a842d0cbd2228b216685b3",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "b58cd5cdbd250762a0d1f0e9bd02b79467373725ed9dcd5932c7bd4c31768ff5",
       "commit_sha256": "3d8cf0ee2d84f1336e2178cfe42c557c1831cbd245a842d0cbd2228b216685b3"
     },
     "AGENTS/CYPHER/archive/STATUS_ARCHIVE_2026-10-29.md": {
@@ -10964,6 +11044,14 @@
       "working_sha256": null,
       "commit_sha256": null
     },
+    "AGENTS/CYPHER/inbox/2026-10-29_from-VULCAN_panw-vector-vendor.md": {
+      "commits": [
+        "d70be2ee98b40c2871b0e2a9d4da0b3db03d7349"
+      ],
+      "pending": [],
+      "working_sha256": "ce16374ecf451d1a93d71f641782bc12ef74f7d89bf72ef0d3116077022bb716",
+      "commit_sha256": "ce16374ecf451d1a93d71f641782bc12ef74f7d89bf72ef0d3116077022bb716"
+    },
     "AGENTS/CYPHER/inbox/WALTER/SIG-W-20261029-030.md": {
       "commits": [
         "0a8ccb788d0357cdb65870c40855815c33b726fc",
@@ -11026,8 +11114,10 @@
       "commits": [
         "23627d5f9c8abc40c89eb5796ed616e8b0eacddd"
       ],
-      "pending": [],
-      "working_sha256": "719079a3bab1f35c31e713d000443dad7da29a0b47a62f98185e92276cb30696",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "f62eb21937cd0ca1fbd6d3008245f46ab0f109f4d21711c210d14f8bcc7360a4",
       "commit_sha256": "719079a3bab1f35c31e713d000443dad7da29a0b47a62f98185e92276cb30696"
     },
     "AGENTS/CYPHER/research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md": {
@@ -11085,8 +11175,10 @@
         "72b4760a835c3d8d4a3c308c7c496ba1f6d9fe1b",
         "23627d5f9c8abc40c89eb5796ed616e8b0eacddd"
       ],
-      "pending": [],
-      "working_sha256": "99eb05edf9a372922c3ae69e54e6a8a4dd55f2889973c50a310dfabb2158c518",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "8cae03c0e5b4bdba0f0571202d3d9785a07f4a1b28655ae4784c790043100f00",
       "commit_sha256": "99eb05edf9a372922c3ae69e54e6a8a4dd55f2889973c50a310dfabb2158c518"
     },
     "AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv": {
@@ -11126,8 +11218,10 @@
         "0fb7e386d162a331ed585788ba1be8a2a65fc14e",
         "23627d5f9c8abc40c89eb5796ed616e8b0eacddd"
       ],
-      "pending": [],
-      "working_sha256": "15e9a3f43ab74bf9c31594299b99297f20f745af820d4fda63f1276b7c16be4c",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "4d10d100b1b5c8529287e7587203c764ac685dba3154c8588f80e54897625159",
       "commit_sha256": "15e9a3f43ab74bf9c31594299b99297f20f745af820d4fda63f1276b7c16be4c"
     },
     "AGENTS/CYPHER/workbook/KB.tsv": {
@@ -11137,8 +11231,10 @@
         "0fb7e386d162a331ed585788ba1be8a2a65fc14e",
         "23627d5f9c8abc40c89eb5796ed616e8b0eacddd"
       ],
-      "pending": [],
-      "working_sha256": "6df84c3a1300b706812549cf5b5b317b6033ab9a7d159277220998eef8657663",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "46207fc1d703332f29031e8b39d870c4e114faa7c5737f0c7cfbd828e6ef747c",
       "commit_sha256": "6df84c3a1300b706812549cf5b5b317b6033ab9a7d159277220998eef8657663"
     },
     "AGENTS/CYPHER/workbook/PREDICTIONS.tsv": {
@@ -11290,6 +11386,14 @@
       ],
       "pending": [],
       "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/DEWEY/inbox/2026-10-29_from-CYPHER_msp-base-rate-missed-n-central.md": {
+      "commits": [],
+      "pending": [
+        "A "
+      ],
+      "working_sha256": "46eb650e27556b508944c76cf818e9c8f70246e05d4f5ff35943de96938b615c",
       "commit_sha256": null
     },
     "AGENTS/DEWEY/inbox/2026-10-29_from-VULCAN_L800-base-arithmetic-does-not-replay.md": {
@@ -11973,11 +12077,12 @@
         "dd52d5132d671d0caa7e1d365dd1f933f4eb2739",
         "9a12628acc9d4c4d715ebbeb7ffb58db407af1f1",
         "9449e1681b52da5520b5c9f2c2241691366f0bb5",
-        "152f163103ef83ae94fd1c746db297926d62532c"
+        "152f163103ef83ae94fd1c746db297926d62532c",
+        "ebcf1ac081c4e20b2ea70ba221102510ca16d817"
       ],
       "pending": [],
-      "working_sha256": "4dfc6c9ad8ef49c263ebfe2614dc2a8726cf542b52539cc7e01a2ab2455c5bb4",
-      "commit_sha256": "4dfc6c9ad8ef49c263ebfe2614dc2a8726cf542b52539cc7e01a2ab2455c5bb4"
+      "working_sha256": "f075f7ee35babec79451916edac3fa2436d7fafcc6c311c73bc95a3cd9a76ab3",
+      "commit_sha256": "f075f7ee35babec79451916edac3fa2436d7fafcc6c311c73bc95a3cd9a76ab3"
     },
     "AGENTS/FALCON/SCRATCH.md": {
       "commits": [
@@ -11996,11 +12101,12 @@
         "8c66d75293a6a5ab59b32523e8ee3377a70ce3a7",
         "fa714bf4ea883bf680d987346965e1bc2981f97e",
         "800ccec256de95093c2be179353a0f5fbdb17b57",
-        "26f10b0fb137c3e653209182d95808c25378a898"
+        "26f10b0fb137c3e653209182d95808c25378a898",
+        "a83f18891dfe8e8751f3e0c9fb4a3c0c95640b8e"
       ],
       "pending": [],
-      "working_sha256": "a10912f610ee35a80012a90929a0d2331dc7d603a1f2aef42f6ffc2b15787ac0",
-      "commit_sha256": "a10912f610ee35a80012a90929a0d2331dc7d603a1f2aef42f6ffc2b15787ac0"
+      "working_sha256": "fefa4dca720d2127b38db961ff9767fad7479e3f77ccef5732047df252402fac",
+      "commit_sha256": "fefa4dca720d2127b38db961ff9767fad7479e3f77ccef5732047df252402fac"
     },
     "AGENTS/FALCON/board_log.tsv": {
       "commits": [
@@ -12221,20 +12327,22 @@
         "8c66d75293a6a5ab59b32523e8ee3377a70ce3a7",
         "fa714bf4ea883bf680d987346965e1bc2981f97e",
         "800ccec256de95093c2be179353a0f5fbdb17b57",
-        "26f10b0fb137c3e653209182d95808c25378a898"
+        "26f10b0fb137c3e653209182d95808c25378a898",
+        "a83f18891dfe8e8751f3e0c9fb4a3c0c95640b8e"
       ],
       "pending": [],
-      "working_sha256": "61be97e03e7ffeca34ca5824683015d4a73b69364dee094435c027424d7bb26f",
-      "commit_sha256": "61be97e03e7ffeca34ca5824683015d4a73b69364dee094435c027424d7bb26f"
+      "working_sha256": "23d99ae8b18f82ded70583f01ea96e1bf687d313d0806e60170378dcd6205a06",
+      "commit_sha256": "23d99ae8b18f82ded70583f01ea96e1bf687d313d0806e60170378dcd6205a06"
     },
     "AGENTS/FALCON/workbook/VX.tsv": {
       "commits": [
         "800ccec256de95093c2be179353a0f5fbdb17b57",
-        "26f10b0fb137c3e653209182d95808c25378a898"
+        "26f10b0fb137c3e653209182d95808c25378a898",
+        "a83f18891dfe8e8751f3e0c9fb4a3c0c95640b8e"
       ],
       "pending": [],
-      "working_sha256": "9a6c27727be39acc72713b8f766f96b705b633a1334ca34799199b30583772cd",
-      "commit_sha256": "9a6c27727be39acc72713b8f766f96b705b633a1334ca34799199b30583772cd"
+      "working_sha256": "6f34c9c53c4ca6e3d393a67708e0f5ae74b9256a4466f0f656e8566cbc4815fb",
+      "commit_sha256": "6f34c9c53c4ca6e3d393a67708e0f5ae74b9256a4466f0f656e8566cbc4815fb"
     },
     "AGENTS/FERT/CLAUDE.md": {
       "commits": [
@@ -12623,6 +12731,14 @@
       "pending": [],
       "working_sha256": "121913dc3b8ad72c26056cd5fb8a7b112bf12f7ec25077dc77d8bb16a532c020",
       "commit_sha256": "121913dc3b8ad72c26056cd5fb8a7b112bf12f7ec25077dc77d8bb16a532c020"
+    },
+    "AGENTS/GIBBS/inbox/2026-10-29_from-CYPHER_large-bank-vendor-items.md": {
+      "commits": [],
+      "pending": [
+        "A "
+      ],
+      "working_sha256": "0556d98a9f78fe766c4e68ba3b6e2eee132368d9199e324b607307fb951a1a12",
+      "commit_sha256": null
     },
     "AGENTS/GIBBS/inbox/2026-10-29_from-CYPHER_print-mail-vendor-chokepoint.md": {
       "commits": [
@@ -18849,6 +18965,14 @@
       "working_sha256": "3f5849ba6e23093e7b14ce09fcec06b0becef3abeee7df2e969e7ab4ce5e8a5d",
       "commit_sha256": "3f5849ba6e23093e7b14ce09fcec06b0becef3abeee7df2e969e7ab4ce5e8a5d"
     },
+    "AGENTS/REGINALD/inbox/2026-10-29_from-CYPHER_msp-channel-traffic-n-central.md": {
+      "commits": [],
+      "pending": [
+        "A "
+      ],
+      "working_sha256": "1fb946b3f611a970e2b53ae3477fe75da4fbbb93c1096f8f1cebce87fb0316da",
+      "commit_sha256": null
+    },
     "AGENTS/REGINALD/inbox/2026-10-29_from-CYPHER_wave-recheck-row8-cu-pause.md": {
       "commits": [
         "cf0d4b31567d23feb707be79aad75b5bbf68f92b"
@@ -22134,8 +22258,10 @@
       "commits": [
         "d0a2554edf6664745b35779d9c34298e7319df9a"
       ],
-      "pending": [],
-      "working_sha256": "8bd30be0316fd43b9fbfc0a6d846c40d1e84b2b1f6fb3decdb919c009daf29c9",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "8986b136b73c145774d2ac0848b70c7786bd577339449f7550f4e684ba047ddc",
       "commit_sha256": "8bd30be0316fd43b9fbfc0a6d846c40d1e84b2b1f6fb3decdb919c009daf29c9"
     },
     "AGENTS/VULCAN/archive/CATALYSTS_FIRED_2026-10.tsv": {
@@ -22150,8 +22276,10 @@
       "commits": [
         "d0a2554edf6664745b35779d9c34298e7319df9a"
       ],
-      "pending": [],
-      "working_sha256": "45faa8beb103527161792adaea2683522b9b4118dfa5ab45292dfbb3fbf05026",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "397f99c805185529cf4f67fbb1f4d2ced18d63a65c2a5cef8a0b3021f8b8b168",
       "commit_sha256": "45faa8beb103527161792adaea2683522b9b4118dfa5ab45292dfbb3fbf05026"
     },
     "AGENTS/VULCAN/docket/CATALYSTS.tsv": {
@@ -22175,24 +22303,30 @@
       "commits": [
         "cf0d4b31567d23feb707be79aad75b5bbf68f92b"
       ],
-      "pending": [],
-      "working_sha256": "6c3bf483d0952e6f0234fc413f10c9aeb2e4025396a8db5d8bc9899fc02dec19",
+      "pending": [
+        " D"
+      ],
+      "working_sha256": null,
       "commit_sha256": "6c3bf483d0952e6f0234fc413f10c9aeb2e4025396a8db5d8bc9899fc02dec19"
     },
     "AGENTS/VULCAN/inbox/2026-10-29_from-DEWEY_L800-base-cells-replayed.md": {
       "commits": [
         "6165b08b060c20e0b35672d45c346c7fe8fcd64d"
       ],
-      "pending": [],
-      "working_sha256": "0209f65909e02ca4cbaf32aa8d33cdbb1c6a85f05ca1b3342a2f34179f678c78",
+      "pending": [
+        " D"
+      ],
+      "working_sha256": null,
       "commit_sha256": "0209f65909e02ca4cbaf32aa8d33cdbb1c6a85f05ca1b3342a2f34179f678c78"
     },
     "AGENTS/VULCAN/inbox/2026-10-29_from-DEWEY_L834-googl-q3-packets.md": {
       "commits": [
         "a3fb0e5eca681441fbf6702917f121438fcebb18"
       ],
-      "pending": [],
-      "working_sha256": "3e189406070e9960781090382afae60af04731bf64017436a8dafeb18801e7b7",
+      "pending": [
+        " D"
+      ],
+      "working_sha256": null,
       "commit_sha256": "3e189406070e9960781090382afae60af04731bf64017436a8dafeb18801e7b7"
     },
     "AGENTS/VULCAN/inbox/2026-10-29_from-PROME_L800-msft-424b2-time-is-0733-ET-not-1133.md": {
@@ -22361,24 +22495,30 @@
       "commits": [
         "0a8ccb788d0357cdb65870c40855815c33b726fc"
       ],
-      "pending": [],
-      "working_sha256": "282d685345f7a850d9c6a51cf3dedca8e8acaee3c9f93f531c11899691cea849",
+      "pending": [
+        " D"
+      ],
+      "working_sha256": null,
       "commit_sha256": "282d685345f7a850d9c6a51cf3dedca8e8acaee3c9f93f531c11899691cea849"
     },
     "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261029-026.md": {
       "commits": [
         "0a8ccb788d0357cdb65870c40855815c33b726fc"
       ],
-      "pending": [],
-      "working_sha256": "82d1739f1a7344e2f3a9434ede3ac94640324f43f6dd3985617c5d88b7472afd",
+      "pending": [
+        " D"
+      ],
+      "working_sha256": null,
       "commit_sha256": "82d1739f1a7344e2f3a9434ede3ac94640324f43f6dd3985617c5d88b7472afd"
     },
     "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261029-036.md": {
       "commits": [
         "c17998fa76503f41cde74c8b37621ae79777bec8"
       ],
-      "pending": [],
-      "working_sha256": "7a2152970b17b4ba8d533c0c556435b9379945df3316219dcbdc17e59f1434df",
+      "pending": [
+        " D"
+      ],
+      "working_sha256": null,
       "commit_sha256": "7a2152970b17b4ba8d533c0c556435b9379945df3316219dcbdc17e59f1434df"
     },
     "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261027-024.md": {
@@ -22525,6 +22665,30 @@
       "working_sha256": "f928cdba619a2c33a8c0d3ba875b0b78a864370caa29d708bceed059a89035eb",
       "commit_sha256": "f928cdba619a2c33a8c0d3ba875b0b78a864370caa29d708bceed059a89035eb"
     },
+    "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261029-025.md": {
+      "commits": [],
+      "pending": [
+        "R "
+      ],
+      "working_sha256": "282d685345f7a850d9c6a51cf3dedca8e8acaee3c9f93f531c11899691cea849",
+      "commit_sha256": null
+    },
+    "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261029-026.md": {
+      "commits": [],
+      "pending": [
+        "R "
+      ],
+      "working_sha256": "82d1739f1a7344e2f3a9434ede3ac94640324f43f6dd3985617c5d88b7472afd",
+      "commit_sha256": null
+    },
+    "AGENTS/VULCAN/inbox/WALTER/processed/SIG-W-20261029-036.md": {
+      "commits": [],
+      "pending": [
+        "R "
+      ],
+      "working_sha256": "7a2152970b17b4ba8d533c0c556435b9379945df3316219dcbdc17e59f1434df",
+      "commit_sha256": null
+    },
     "AGENTS/VULCAN/inbox/processed/2026-10-28_from-DEWEY_L800-msft-q1fy27-packets.md": {
       "commits": [
         "d0a2554edf6664745b35779d9c34298e7319df9a"
@@ -22532,6 +22696,30 @@
       "pending": [],
       "working_sha256": "01cb53f7244bea4f504e9fb0733c6c7fca6f3563aa2f0f934217e759374ed177",
       "commit_sha256": "01cb53f7244bea4f504e9fb0733c6c7fca6f3563aa2f0f934217e759374ed177"
+    },
+    "AGENTS/VULCAN/inbox/processed/2026-10-29_from-CYPHER_palo-alto-active-exploitation.md": {
+      "commits": [],
+      "pending": [
+        "R "
+      ],
+      "working_sha256": "6c3bf483d0952e6f0234fc413f10c9aeb2e4025396a8db5d8bc9899fc02dec19",
+      "commit_sha256": null
+    },
+    "AGENTS/VULCAN/inbox/processed/2026-10-29_from-DEWEY_L800-base-cells-replayed.md": {
+      "commits": [],
+      "pending": [
+        "R "
+      ],
+      "working_sha256": "0209f65909e02ca4cbaf32aa8d33cdbb1c6a85f05ca1b3342a2f34179f678c78",
+      "commit_sha256": null
+    },
+    "AGENTS/VULCAN/inbox/processed/2026-10-29_from-DEWEY_L834-googl-q3-packets.md": {
+      "commits": [],
+      "pending": [
+        "R "
+      ],
+      "working_sha256": "3e189406070e9960781090382afae60af04731bf64017436a8dafeb18801e7b7",
+      "commit_sha256": null
     },
     "AGENTS/VULCAN/inbox/processed/2026-10-29_from-PROME_L800-msft-424b2-time-is-0733-ET-not-1133.md": {
       "commits": [
@@ -22563,8 +22751,10 @@
         "d0a2554edf6664745b35779d9c34298e7319df9a",
         "164b4f1d39862bcbc8043d2d787705a5c8942722"
       ],
-      "pending": [],
-      "working_sha256": "2a80f25732c144393695d422764f12785823e673aac6b82d4fe6b8b97e7bbb2e",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "353c46e580fcf6230ffe46635c693dc6957c028cff357b4d18892d1a301dc224",
       "commit_sha256": "2a80f25732c144393695d422764f12785823e673aac6b82d4fe6b8b97e7bbb2e"
     },
     "AGENTS/VULCAN/workbook/KB_GENERAL.tsv": {
@@ -22572,8 +22762,10 @@
         "d0a2554edf6664745b35779d9c34298e7319df9a",
         "164b4f1d39862bcbc8043d2d787705a5c8942722"
       ],
-      "pending": [],
-      "working_sha256": "109bf9ee7089fd73ca5259bb3b55cf50dc8fce985f4368cc305032f178ac6da5",
+      "pending": [
+        " M"
+      ],
+      "working_sha256": "a38a119a88965f70d9c406f7fb460e296525c643d8cf455d104392597f498ae5",
       "commit_sha256": "109bf9ee7089fd73ca5259bb3b55cf50dc8fce985f4368cc305032f178ac6da5"
     },
     "AGENTS/WAL/CLAUDE.md": {
@@ -23540,8 +23732,10 @@
         "23627d5f9c8abc40c89eb5796ed616e8b0eacddd",
         "2a802b650051360157f383d5021dd219a34e6c7e"
       ],
-      "pending": [],
-      "working_sha256": null,
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "b8211994aa8f6f3fbe204ad70d640d4b683475620d7ed3ced2f0e2ac0cf2fae7",
       "commit_sha256": null
     },
     "AGENTS/WALTER/inbox/2026-10-29_from-LIQUID_hy-320-run-reset.md": {
@@ -25314,23 +25508,73 @@
       "working_sha256": "1f696d67f7862343bf3078428fcd89eeb6febe8dbec8a0983991f2f6bc178b79",
       "commit_sha256": "1f696d67f7862343bf3078428fcd89eeb6febe8dbec8a0983991f2f6bc178b79"
     },
+    "AGENTS/WATT/sources/2026-10-29/capture-manifest.json": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "08f1c1cd1e0f9ae696a7ae0d7320512f8a4a896d36396d733cdadeb927c562bf",
+      "commit_sha256": null
+    },
+    "AGENTS/WATT/sources/2026-10-29/dm2-fivemin-1023-1029.json": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "7508f4017fd09ae598920cac9c74fab8b6df0b34d0e80ad3df7e7c26583c369c",
+      "commit_sha256": null
+    },
+    "AGENTS/WATT/sources/2026-10-29/dm2-rt-hrl-1026-1028.json": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "dcd1e21ecbfeb9b3ed1bc05dddbe49ddf308b2edda3741bc9fac7cf2ac999b76",
+      "commit_sha256": null
+    },
+    "AGENTS/WATT/sources/2026-10-29/doe-index.html": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "ca74ac24633f98d4225b379698afa4f9a73e0b4c05a4d8c0f6412c9d5628bddc",
+      "commit_sha256": null
+    },
+    "AGENTS/WATT/sources/2026-10-29/eia930-pjm-demand-200h.json": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "d280eb52aa44affb9ad361888864ce7b63b8d71990ff127b8e6b9300f77147fc",
+      "commit_sha256": null
+    },
+    "AGENTS/WATT/sources/2026-10-29/pjm-board.html": {
+      "commits": [],
+      "pending": [
+        "??"
+      ],
+      "working_sha256": "38443fe8f4ee5b363d6c540662b2d478ebe16fd94e4dec2f1e5a8389b780cb91",
+      "commit_sha256": null
+    },
     "AGENTS/ZHAO/NEXUS_BRIEF.md": {
       "commits": [
         "583b0d9cc42d5bc3aacaf65d4dff7e447753fb9d",
-        "ab839d05d703d41c3983a7f084fc369d7a78f117"
+        "ab839d05d703d41c3983a7f084fc369d7a78f117",
+        "239b7743cd1923e023e9524fe60314ef42f37976"
       ],
       "pending": [],
-      "working_sha256": "490a600de09791832a4e4ef61e72c287b6a1e94fbb2adcdb3ab16abfdc193d33",
-      "commit_sha256": "490a600de09791832a4e4ef61e72c287b6a1e94fbb2adcdb3ab16abfdc193d33"
+      "working_sha256": "898596370c1ba0758157104bc6bcdbe2b2f655b80712a80dd1aa26a072d819e1",
+      "commit_sha256": "898596370c1ba0758157104bc6bcdbe2b2f655b80712a80dd1aa26a072d819e1"
     },
     "AGENTS/ZHAO/STATUS.md": {
       "commits": [
         "583b0d9cc42d5bc3aacaf65d4dff7e447753fb9d",
-        "ab839d05d703d41c3983a7f084fc369d7a78f117"
+        "ab839d05d703d41c3983a7f084fc369d7a78f117",
+        "239b7743cd1923e023e9524fe60314ef42f37976"
       ],
       "pending": [],
-      "working_sha256": "e68830b3f47819c43cf2da0513cef8faf24570d240db06972b8c583caa3a6df7",
-      "commit_sha256": "e68830b3f47819c43cf2da0513cef8faf24570d240db06972b8c583caa3a6df7"
+      "working_sha256": "80f3cf1cdd1ee326e6300054b7de447d728a8cc463f688bf0fb1924fa3c82e6d",
+      "commit_sha256": "80f3cf1cdd1ee326e6300054b7de447d728a8cc463f688bf0fb1924fa3c82e6d"
     },
     "AGENTS/ZHAO/archive/STATUS_COLD_20261029.md": {
       "commits": [
@@ -25500,6 +25744,14 @@
       "working_sha256": "12f36f97c430645703e1aa569d14caa6aeb0dcf5f24fd56acb6f7ecbcbad04fe",
       "commit_sha256": "12f36f97c430645703e1aa569d14caa6aeb0dcf5f24fd56acb6f7ecbcbad04fe"
     },
+    "AGENTS/ZHAO/outbox/2026-10-29_from-ZHAO_to-LIQUID_hk-peg-at-weak-edge-hibor-sofr-yellow.md": {
+      "commits": [
+        "239b7743cd1923e023e9524fe60314ef42f37976"
+      ],
+      "pending": [],
+      "working_sha256": "0eeeb07ca0f7092f4ef628883e44791e1b356387edcb0b174c5165a0ed0150ee",
+      "commit_sha256": "0eeeb07ca0f7092f4ef628883e44791e1b356387edcb0b174c5165a0ed0150ee"
+    },
     "AGENTS/ZHAO/outbox/2026-10-29_from-ZHAO_to-VULCAN-WATT-HAWK-HENRY-BRENT_first-truce-instrument-is-ustr-ships-not-the-11-10-clocks.md": {
       "commits": [
         "583b0d9cc42d5bc3aacaf65d4dff7e447753fb9d"
@@ -25511,11 +25763,20 @@
     "AGENTS/ZHAO/workbook/KB.tsv": {
       "commits": [
         "583b0d9cc42d5bc3aacaf65d4dff7e447753fb9d",
-        "ab839d05d703d41c3983a7f084fc369d7a78f117"
+        "ab839d05d703d41c3983a7f084fc369d7a78f117",
+        "239b7743cd1923e023e9524fe60314ef42f37976"
       ],
       "pending": [],
-      "working_sha256": "7f39bb3300680591acae60ff7b8421ef531a5f703fa4f93adcfcd69c8d821ab0",
-      "commit_sha256": "7f39bb3300680591acae60ff7b8421ef531a5f703fa4f93adcfcd69c8d821ab0"
+      "working_sha256": "171001a93d00a9377425e31bb9060319bdfbb8899db539f60e1c8bcf88be3450",
+      "commit_sha256": "171001a93d00a9377425e31bb9060319bdfbb8899db539f60e1c8bcf88be3450"
+    },
+    "AGENTS/ZHAO/workbook/VX.tsv": {
+      "commits": [
+        "239b7743cd1923e023e9524fe60314ef42f37976"
+      ],
+      "pending": [],
+      "working_sha256": "860d6eaf51901e7608c1230ade933fca5d3e6cd18c81d84120397d6f0dc297b7",
+      "commit_sha256": "860d6eaf51901e7608c1230ade933fca5d3e6cd18c81d84120397d6f0dc297b7"
     },
     "BOARD/INDEX.md": {
       "commits": [
@@ -26477,6 +26738,14 @@
       "pending": [],
       "working_sha256": null,
       "commit_sha256": null
+    },
+    "PROME/inbox/2026-10-29_from-ZHAO_key-figure-refresh-hk-peg-yellow.md": {
+      "commits": [
+        "be4f8a18a5abec5c67ba0358337e706bb3a5ecf7"
+      ],
+      "pending": [],
+      "working_sha256": "d536bf531983f5e1abcd5a318160e19e71b76c6baa8e368d8bd69ca37622cff3",
+      "commit_sha256": "d536bf531983f5e1abcd5a318160e19e71b76c6baa8e368d8bd69ca37622cff3"
     },
     "PROME/inbox/processed/2026-10-28_from-BROCK_owed-reads-ARCC-OCIC-CRMT-ExperimentA.md": {
       "commits": [
