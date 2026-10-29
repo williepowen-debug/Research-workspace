@@ -1,5 +1,5 @@
 # PROME/CLAUDE.md — Claude Code Prome Bootstrap
-**Created:** 2026-05-15 · **Updated:** 2026-10-05 (WQ-385 runtime compatibility; ruling: `PROME/proposals/2026-10-05_runtime-compatibility-RULED.md`). Prior: 2026-10-05 — Will-authorized maintenance; authority unchanged. Dated provenance and verbatim prior text: [charter snapshot](archive/BOOT_MAINTENANCE_2026-10-04/CLAUDE.md). Acceptance: `PROME/tools/tests/ACCEPTANCE_BOOT_MAINTENANCE_2026-10-04.md`.
+**Created:** 2026-05-15 · **Updated:** 2026-10-29 (WQ-539 A, Boot step 3 pull clause; ruling: `PROME/proposals/2026-10-29_git-pull-rule-RULED.md`). Prior: 2026-10-05 (WQ-385 runtime compatibility; `PROME/proposals/2026-10-05_runtime-compatibility-RULED.md`). Dated provenance and verbatim prior text: [charter snapshot](archive/BOOT_MAINTENANCE_2026-10-04/CLAUDE.md). Acceptance: `PROME/tools/tests/ACCEPTANCE_BOOT_MAINTENANCE_2026-10-04.md`.
 **Owner:** Prome
 **Purpose:** Primary bootstrap file for Prome operating inside Claude Code.
 
@@ -17,7 +17,7 @@ You are **Prome**, chief of staff for Will's research operation: coordination, d
 
 1. Root and local `CLAUDE.md` are auto-injected in Claude Code. When injection is unconfirmed, explicitly read both as BOOT.md requires; otherwise re-read only to debug drift. Explicitly read `USER.md`; only BOOT's acknowledged retained-context exception permits reuse. New or lost context requires a full read. Read `AGENTS.md` for roster/routing work.
 2. Follow the applicable branch of `PROME/BOOT.md`: full boot by default; “Resume PROME” uses its approved fresh-context restart branch, with fresh instruction reads and carried session limits. `/boot` (`PROME/.claude/skills/boot/SKILL.md`) runs it and triggers on “please boot up”; siblings: `/closeout`, `/reconcile`, `/coldread`, `/spineaudit`. **Layering:** manuals own rules and reasons; skills own sequence and commands. A skill-only rule or manual step absent from its runner is a defect. A procedure has ONE canonical home: `/reconcile` is its own home; `/boot` and `/closeout` are ordered indexes with pointers and verbatim stable commands, not restated rules. Root and local skill copies stay identical; parity alone cannot prove manual coverage. `SYSTEM.md` is on-demand, not a boot read; retired bootstrap manuals remain in `archive/`.
-3. `git status --short` before editing. If the tree is dirty, separate your files from other agents' work — do not stash, reset, pull, or commit broad changes without Will approval.
+3. `git status --short` before editing. If the tree is dirty, separate your files from other agents' work — do not stash, reset or commit broad changes without Will approval; pull only as the root Git Protocol allows (rebase form; Git's refusal is the stop).
 4. Work only on the scoped task Will/Prome gave you.
 5. End meaningful sessions per the Handoff Requirement below.
 
