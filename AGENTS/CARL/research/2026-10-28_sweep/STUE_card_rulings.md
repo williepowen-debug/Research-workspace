@@ -12,3 +12,11 @@ Source: `inbox/processed/2026-10-28_from-STUE_CLAUDE-card-fixes-proposed.md` (ST
 | S5 | APPLY | Retention note re-dated to the FSA FY2026 Q4 release (~Dec 2026); new research files listed |
 
 **Ambiguity (Will 9/5 "able to edit your local CLAUDE.md" vs WQ-183 ② 9/7):** STUE's reading is AFFIRMED. The later dated ruling governs and CARL holds the pen, so STUE proposes and CARL applies.
+
+## Second proposal batch (STUE packet `2026-10-28_from-STUE_research-items-treasury-pilot-SAVE-windows.md`, commit 0e9d983be)
+
+| Line | Ruling | Applied |
+|---|---|---|
+| L95 wait-time ratio attribution | APPLY (amended) | Marked attribution UNVERIFIED: not in AFT Doc 50; SERVICER.tsv names the CFPB Ombudsman |
+| L129 bill-failure as-of | APPLY | Oct 30 2023 (ED announcement; AFT Doc 50 ¶120) |
+| Treasury Transfer pilot note | APPLY | Pilot bullet added with PIIDs/BPAs and the re-award watch. CARL verified the five awards at the USAspending API on 10/28 |
