@@ -40,6 +40,12 @@
 | Druzhba: MOL "no disruption" (KB-240) · Primorsk cause not established, maintenance inferred; Ust-Luga 10/18 fire = probable conflation with PNT (WALTER verify, KB-242) · OWED-51 pass 2 +5 rows, Palkino ≠ Yaroslavl-3 (KB-239) | KB.tsv · STRIKES.tsv |
 **Supersedes above:** NEXT item 3 (X binding) → now WAIT FOR HAWK's four answers. Item 4 Druzhba/Primorsk → done as far as public sources go. Item 6 OWED-51 → remainder is Sept upstream queries + July refinery cross-check. Check the Ust-Luga 10/18 lead at the Palaemon 26 Oct–1 Nov read (11/1).
 
+## ➕ CLOSEOUT 10/29 14:42 ET (osprey-5e) — final state
+- Commits pushed this session: `2543551e2` `d9c3fd475` `e007aaf8f` (WQ-470 X, OWED-51 pass 2, Druzhba/Primorsk) · `c2909545c` (WALTER cross-read, KB-242) · `1d3d3e2d8` (**OWED-46 RULED by Will**, KB-243, CLAUDE.md §1 Channel 1) · `04bbfb3e4` (housekeeping: STATUS 22,591 B, PREDICTIONS 19,078 B; verbatim archives 10-29b/c/d + PREDICTIONS_ARCHIVE rotation 2).
+- **Skipped (reported, not done):** no fresh strike sweep this session; ledger mark stays 10/25 from the AM session. strike_feed.py not re-run.
+- **Waiting on:** HAWK's four WQ-470 answers (packet 10/29). PROME memos 10/29b + 10/29c delivered.
+- Dated next: **11/1** diesel ban + Palaemon 26 Oct–1 Nov (also confirm the Ust-Luga 10/18 lead is a PNT mix-up, KB-242) · **11/2** L814 grade from the newest QUALIFYING refinery-class row (condensate rule KB-243) + blackout flag · 11/8 §5 re-read · 11/17 C2 re-kill · 11/18 GATE-001 + OSP-07.
+
 ## NEXT SESSION (dated, future-verifiable)
 0. **Boot note:** `STRIKES.tsv` line 1 is now the OWED-51 BACKFILL banner; the `swept-complete through:` mark (10/25) is line 2. Read the mark line, not line 1.
 1. **11/1:** diesel producer ban 10/31 — extended or lapsed? (KB-229; a lapse starts the C1 companion-tell clock.) Palaemon 26 Oct–1 Nov (~11/1+).

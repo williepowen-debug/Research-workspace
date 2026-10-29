@@ -1,5 +1,5 @@
 # OSPREY STATUS
-**Last Updated:** 2026-10-29 (Thu) ~14:00 ET (from `date`): osprey-5e, owner follow-up session (Will: "continue working on these"). **Scores 5 / 5 / 3 — NO mark moved. Band ~30% [EST] UNCHANGED.**
+**Last Updated:** 2026-10-29 (Thu) ~14:42 ET (from `date`): osprey-5e, owner follow-up session + OWED-46 ruling + housekeeping, CLOSEOUT (Will: "continue working on these"). **Scores 5 / 5 / 3 — NO mark moved. Band ~30% [EST] UNCHANGED.**
 **Evidence:** KB-OSPREY-238…241 (this session) · KB-OSPREY-224…231 · `STRIKES.tsv` mark 10/18 → **10/25** (BOUNDED), +2 rows · feed 10/29 28/28 dispositioned · board_log +6 · WQ-470 joint draft `domain/energy-strikes/WQ470_C3_LIMB2_QUALIFIER_OSPREY-SIDE_2026-10-29.md` · prior: KB-218…223 (10/23).
 
 ## ACTIVE — 2026-10-29 PM (follow-up · no mark, band or threshold moved)
