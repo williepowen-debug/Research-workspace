@@ -154,3 +154,18 @@ What is unusual is the **late-September rebound: +10.4% from the 9/9 low to quar
 - Script: `scripts/borrowing_screen.py` (FDIC BankFind, public, no login, so the 11/05 FFIEC token expiry does not block it).
 - Dry run Q1 → Q2 2026 reconciles with the H.8 (screen +$22.5B vs H.8 NSA +$19.2B) and reproduces filing figures (Amerant, OZK).
 - The graded Q3 run waits for the FDIC posting, estimated mid/late November. The script refuses a partial posting.
+
+### §14 Early Q3 short-list pull, FFIEC Call Reports (Will: "pull the short list before the login expires"), 23:12–23:20 ET
+
+`scripts/borrowing_shortlist_ffiec.py`; output `domain/sources/2026-10-28_boot/borrowing_shortlist/borrowing_shortlist_Q3.md`.
+- **List:** 139 banks: the 14 cohort banks, the Q2 dry run's 47 flags and 20 largest increases, plus the 100 largest small commercial banks. The last group is a coverage extension that lifts the list from 29% to **75%** of Q2 small-bank borrowings.
+- **Field codes** were verified against the FDIC for Amerant and Western Alliance. **Route check passed:** all 14 cohort banks' 6/30 FFIEC figures equal the FDIC's exactly, including the foreign-office (031) filers.
+
+**Filed by 23:15 ET 10/28: 28 of 139** (reports are due 10/30). Those 28 cut borrowing **−$4.27B net** while adding **+$5.81B** of deposits. Two banks meet the frozen flag:
+
+| Flagged bank | Borrowing 6/30 → 9/30 | Deposits | Read |
+|---|---|---|---|
+| **Simmons Bank** (SFNC, AR, $24.0B; also flagged in Q2) | $1.27B → $1.75B (+$478M) | −$1,082M | **Explained at the issuer: a funding swap, not a run.** Q3 release (8-K acc 0001193125-26-422936, EX-99.1, deposit table): brokered $1,813M → **$935M (−$878M)**, time −$126M, noninterest-bearing −$64M. Ordinary deposits about −1%. Management: "reduction in the utilization of brokered deposits given pricing relative to FHLB advances"; cost of deposits −8bp to 1.85%. Separate 9/3 8-K (Item 2.05): 26 branch closures, $20–23M cost, efficiency program. Side notes: NCO 27bp (20bp in Q2); loans/deposits 94% |
+| Israel Discount Bank of NY (private subsidiary) | $0.18B → $0.45B | −$168M | Not listed, so no trade route. Context only |
+
+**111 PENDING** (not yet filed), including all the cohort except Valley. Re-run once filings land, **between Sat 10/31 and Wed 11/04, before the FFIEC token expires 11/05**: `.venv/bin/python3 AGENTS/REGINALD/scripts/borrowing_shortlist_ffiec.py --out AGENTS/REGINALD/domain/sources/2026-10-28_boot/borrowing_shortlist`. Cached pulls are not re-fetched. The full-universe concentration verdict still needs the FDIC posting (§13).
