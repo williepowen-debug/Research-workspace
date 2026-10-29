@@ -68,14 +68,14 @@ Light closeout, session open, boot PARTIAL (9b UNKNOWN).
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-29T15:35:05Z",
+  "as_of": "2026-10-29T16:00:16Z",
   "next_review": "2026-10-30",
   "publication": [
     {"commit": "78e3eefe5", "state": "published", "note": "Cards 015-021, inbox 9/9, registry, evidence. WALTER push not authorized; foreign dirty TERRY file."},
     {"commit": "66356955c", "state": "published", "note": "Light closeout."},
     {"commit": "0a8ccb788", "state": "published", "note": "Cards 022-033, X bookmarks 64/64 marked, anchor line. TERRY live; push deferred."}
   ],
-  "delivery": {"signal_date": "20261029", "total": 110, "delivered": 110, "note": "001-033 reconciled delivered (reconcile_delivery_log --apply, 0 orphans) after shared pushes carried WALTER commits. Consumption separate."},
+  "delivery": {"signal_date": "20261029", "total": 113, "delivered": 113, "note": "001-034 reconciled delivered (reconcile_delivery_log --apply, 0 orphans) after shared pushes carried WALTER commits. Consumption separate."},
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
