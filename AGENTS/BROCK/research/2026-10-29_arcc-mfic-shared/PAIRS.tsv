@@ -1,0 +1,14 @@
+arcc_borrower_startswith	mfic_entity_contains	basis_for_match
+ACP Avenu Midco	ACP Avenu Buyer	Avenu Insights & Analytics group; different legal entity names (Midco vs Buyer)
+Alcresta Therapeutics	Alcresta	same name
+Berner Food & Beverage	Berner Food & Beverage	same name
+Cards-Live Oak Holdings	CARDS-Live Oak Holdings	same name
+DRS Holdings III	DRS Holdings III	same name (Dr. Scholl's)
+GS SEER Group Borrower	GS SEER Group	same name
+High Street Buyer	High Street Buyer	same name
+NCP-MSI Buyer	NCP-MSI Buyer	same name (MSI Express)
+Shout! Factory	Shout! Factory	same name
+Silk Holdings III	Silk Holdings III	same name (Suave); ARCC 'LLC' vs MFIC 'Corp.'
+Truck-Lite Co.	Truck-Lite Co.	same name
+Generator US Buyer	Generator Buyer	Generator/Total Power group; 'US' in ARCC entity only
+ZenDesk, Inc.	Zendesk, Inc.	same name

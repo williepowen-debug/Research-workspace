@@ -57,4 +57,4 @@ XBRL companyfacts, MFIC 10-Q/10-K. Also: non-accruals 4.6% cost / 2.8% FV at 6/3
 | After close (H1-27) | ARCC SOI with MFIC assets at ARCC's purchase allocation | loan-by-loan acquirer marks vs MFIC's last marks: the closest thing to an arm's-length repricing of a BDC book |
 | Until close | 98% disposal covenant | MFIC cannot sell below its 9/30 marks, so expect no price discovery from MFIC sales before close |
 
-**Not done (offer):** a shared-borrower comparison of ARCC vs MFIC marks at 6/30 (both SOIs are public). It would test the "eye to eye" claim now, without waiting for the N-14.
+**DONE 2026-10-29:** shared-borrower comparison → `research/2026-10-29_arcc-mfic-shared/README.md` (KB-BRK-404). Twelve comparable names: MFIC is not more generous (median −0.14 pp), but the overlap is only 5.4% of MFIC's book and is its healthy part. The claim is consistent where testable and untestable where the discount sits.

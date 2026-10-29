@@ -1,0 +1,464 @@
+[
+ {
+  "pair": {
+   "arcc_borrower_startswith": "ACP Avenu Midco",
+   "mfic_entity_contains": "ACP Avenu Buyer",
+   "basis_for_match": "Avenu Insights & Analytics group; different legal entity names (Midco vs Buyer)"
+  },
+  "arcc": {
+   "debt_cost": 17400000.0,
+   "debt_fv": 17600000.0,
+   "fv_cost": 1.0114942528735633,
+   "fv_par": 1.0,
+   "n_debt": 3,
+   "n_par": 3,
+   "eq_fv": 0
+  },
+  "mfic": {
+   "debt_cost": 9236000.0,
+   "debt_fv": 8832000.0,
+   "fv_cost": 0.9562581203984409,
+   "fv_par": 0.9384762511954097,
+   "n_debt": 3,
+   "n_par": 3,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "ACP Avenu Midco LLC | First lien senior secured revolving loan",
+   "ACP Avenu Midco LLC  | First lien senior secured loan",
+   "ACP Avenu Midco LLC  | First lien senior secured loan 2"
+  ],
+  "mfic_ids": [
+   "IT Services, Avenu Insights & Analytics, ACP Avenu Buyer, LLC, First Lien Secured Debt - Term Loan, SOFR+500, 1.00% Floor, Maturity Date 10/02/29",
+   "IT Services, Avenu Insights & Analytics, ACP Avenu Buyer, LLC, First Lien Secured Debt - Delayed Draw, SOFR+500, 1.00% Floor, Maturity Date 10/02/29",
+   "IT Services, Avenu Insights & Analytics, ACP Avenu Buyer, LLC, First Lien Secured Debt - Revolver, SOFR+500, 1.00% Floor, Maturity Date 10/02/29"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "Alcresta Therapeutics",
+   "mfic_entity_contains": "Alcresta",
+   "basis_for_match": "same name"
+  },
+  "arcc": {
+   "debt_cost": 19100000.0,
+   "debt_fv": 19100000.0,
+   "fv_cost": 1.0,
+   "fv_par": 1.0,
+   "n_debt": 3,
+   "n_par": 3,
+   "eq_fv": 0
+  },
+  "mfic": {
+   "debt_cost": 9282000.0,
+   "debt_fv": 9270000.0,
+   "fv_cost": 0.9987071751777634,
+   "fv_par": 0.9925053533190579,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 208000.0
+  },
+  "arcc_ids": [
+   "Alcresta Therapeutics, Inc. | First lien senior secured revolving loan",
+   "Alcresta Therapeutics, Inc. | First lien senior secured loan 1",
+   "Alcresta Therapeutics, Inc. | First lien senior secured loan 2"
+  ],
+  "mfic_ids": [
+   "Pharmaceuticals Alcresta Therapeutics Inc. Alcresta Holdings, LP Preferred Equity - Preferred Equity",
+   "Pharmaceuticals Alcresta Therapeutics Inc. Alcresta Holdings, LP Common Equity - Common Stock",
+   "Pharmaceuticals Alcresta Therapeutics Inc. Alcresta Therapeutics Inc. First Lien Secured Debt - Term Loan SOFR+525, 1.00% Floor Maturity Date 03/12/31",
+   "Pharmaceuticals Alcresta Therapeutics Inc. Alcresta Therapeutics Inc. First Lien Secured Debt \u2013 Revolver SOFR+525, 1.00% Floor Maturity Date 03/12/31"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "Berner Food & Beverage",
+   "mfic_entity_contains": "Berner Food & Beverage",
+   "basis_for_match": "same name"
+  },
+  "arcc": {
+   "debt_cost": 2700000.0,
+   "debt_fv": 2700000.0,
+   "fv_cost": 1.0,
+   "fv_par": 1.0,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "mfic": {
+   "debt_cost": 35683000.0,
+   "debt_fv": 35498000.0,
+   "fv_cost": 0.9948154583415072,
+   "fv_par": 0.9877017250973845,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "Berner Food & Beverage, LLC | First lien senior secured revolving loan",
+   "Berner Food & Beverage, LLC | First lien senior secured loan"
+  ],
+  "mfic_ids": [
+   "Food Products Berner Foods Berner Food & Beverage, LLC First Lien Secured Debt - Term Loan SOFR+615, 1.00% Floor Maturity Date 07/30/27",
+   "Food Products Berner Foods Berner Food & Beverage, LLC First Lien Secured Debt - Revolver SOFR+615, 1.00% Floor Maturity Date 07/30/26"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "Cards-Live Oak Holdings",
+   "mfic_entity_contains": "CARDS-Live Oak Holdings",
+   "basis_for_match": "same name"
+  },
+  "arcc": {
+   "debt_cost": 71700000.0,
+   "debt_fv": 71700000.0,
+   "fv_cost": 1.0,
+   "fv_par": 1.0,
+   "n_debt": 4,
+   "n_par": 4,
+   "eq_fv": 0
+  },
+  "mfic": {
+   "debt_cost": 4264000.0,
+   "debt_fv": 4244000.0,
+   "fv_cost": 0.9953095684803002,
+   "fv_par": 0.9851439182915506,
+   "n_debt": 3,
+   "n_par": 3,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "Cards-Live Oak Holdings, Inc. | First lien senior secured revolving loan 1",
+   "Cards-Live Oak Holdings, Inc. | First lien senior secured revolving loan 2",
+   "Cards-Live Oak Holdings, Inc. | First lien senior secured loan 1",
+   "Cards-Live Oak Holdings, Inc. | First lien senior secured loan 2"
+  ],
+  "mfic_ids": [
+   "Commercial Services & Supplies CARDS + Live Oak CARDS-Live Oak Holdings, Inc. First Lien Secured Debt - Term Loan SOFR+475, 0.75% Floor Maturity Date 10/21/32",
+   "Commercial Services & Supplies CARDS + Live Oak CARDS-Live Oak Holdings, Inc. First Lien Secured Debt - Delayed Draw SOFR+475, 0.75% Floor Maturity Date 10/21/32",
+   "Commercial Services & Supplies CARDS + Live Oak CARDS-Live Oak Holdings, Inc. First Lien Secured Debt \u2013 Revolver SOFR+475, 0.75% Floor Maturity Date 10/21/32"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "DRS Holdings III",
+   "mfic_entity_contains": "DRS Holdings III",
+   "basis_for_match": "same name (Dr. Scholl's)"
+  },
+  "arcc": {
+   "debt_cost": 70200000.0,
+   "debt_fv": 70200000.0,
+   "fv_cost": 1.0,
+   "fv_par": 1.0,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 8400000.0
+  },
+  "mfic": {
+   "debt_cost": 0,
+   "debt_fv": 0,
+   "fv_cost": null,
+   "fv_par": null,
+   "n_debt": 0,
+   "n_par": 0,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "DRS Holdings III, Inc. and DRS Holdings I, Inc. | First lien senior secured loan",
+   "DRS Holdings III, Inc. and DRS Holdings I, Inc. | First lien senior secured loan 1",
+   "DRS Holdings III, Inc. and DRS Holdings I, Inc. | Common stock"
+  ],
+  "mfic_ids": [
+   "Personal Care Products Dr. Scholl's DRS Holdings III, Inc. First Lien Secured Debt - Revolver SOFR+525, 1.00% Floor Maturity Date 11/01/28"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "GS SEER Group Borrower",
+   "mfic_entity_contains": "GS SEER Group",
+   "basis_for_match": "same name"
+  },
+  "arcc": {
+   "debt_cost": 26600000.0,
+   "debt_fv": 23900000.0,
+   "fv_cost": 0.8984962406015038,
+   "fv_par": 0.8984962406015038,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 800000.0
+  },
+  "mfic": {
+   "debt_cost": 4503000.0,
+   "debt_fv": 4231000.0,
+   "fv_cost": 0.9395958250055518,
+   "fv_par": 0.9217864923747277,
+   "n_debt": 3,
+   "n_par": 3,
+   "eq_fv": 24000.0
+  },
+  "arcc_ids": [
+   "GS SEER Group Borrower LLC and GS SEER Group Holdings LLC | First lien senior secured revolving loan",
+   "GS SEER Group Borrower LLC and GS SEER Group Holdings LLC | First lien senior secured loan",
+   "GS SEER Group Borrower LLC and GS SEER Group Holdings LLC | Class A common units"
+  ],
+  "mfic_ids": [
+   "Multi-Utilities SEER GS SEER Group Borrower LLC First Lien Secured Debt - Term Loan SOFR+675, 1.00% Floor Maturity Date 04/29/30",
+   "Multi-Utilities SEER GS SEER Group Borrower LLC First Lien Secured Debt - Delayed Draw SOFR+675, 1.00% Floor Maturity Date 04/29/30",
+   "Multi-Utilities SEER GS SEER Group Borrower LLC First Lien Secured Debt - Revolver SOFR+675, 1.00% Floor Maturity Date 04/30/29",
+   "Multi-Utilities SEER GS SEER Group Holdings, LLC Common Equity - Common Stock"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "High Street Buyer",
+   "mfic_entity_contains": "High Street Buyer",
+   "basis_for_match": "same name"
+  },
+  "arcc": {
+   "debt_cost": 45400000.0,
+   "debt_fv": 45400000.0,
+   "fv_cost": 1.0,
+   "fv_par": 1.0,
+   "n_debt": 4,
+   "n_par": 4,
+   "eq_fv": 338900000.0
+  },
+  "mfic": {
+   "debt_cost": 28665000.0,
+   "debt_fv": 28709000.0,
+   "fv_cost": 1.0015349729635443,
+   "fv_par": 0.9959757155247181,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "High Street Buyer, Inc. and High Street Holdco LLC | First lien senior secured loan 1",
+   "High Street Buyer, Inc. and High Street Holdco LLC | First lien senior secured loan 2",
+   "High Street Buyer, Inc. and High Street Holdco LLC | First lien senior secured loan 3",
+   "High Street Buyer, Inc. and High Street Holdco LLC | First lien senior secured loan 4",
+   "High Street Buyer, Inc. and High Street Holdco LLC | Series A preferred units 1",
+   "High Street Buyer, Inc. and High Street Holdco LLC | Series A preferred units 2",
+   "High Street Buyer, Inc. and High Street Holdco LLC | Series A preferred units 3",
+   "High Street Buyer, Inc. and High Street Holdco LLC | Series A preferred units 4",
+   "High Street Buyer, Inc. and High Street Holdco LLC | Series A common units",
+   "High Street Buyer, Inc. and High Street Holdco LLC | Series C common units"
+  ],
+  "mfic_ids": [
+   "Insurance, High Street Insurance, High Street Buyer, Inc., First Lien Secured Debt - Term Loan, SOFR+425, 0.75% Floor, Maturity Date 04/14/28",
+   "Insurance, High Street Insurance, High Street Buyer, Inc., First Lien Secured Debt - Delayed Draw, SOFR+425, 0.75% Floor, Maturity Date 04/14/28",
+   "Insurance, High Street Insurance, High Street Buyer, Inc., First Lien Secured Debt - Revolver, SOFR+425, 0.75% Floor, Maturity Date 04/14/28"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "NCP-MSI Buyer",
+   "mfic_entity_contains": "NCP-MSI Buyer",
+   "basis_for_match": "same name (MSI Express)"
+  },
+  "arcc": {
+   "debt_cost": 37500000.0,
+   "debt_fv": 37500000.0,
+   "fv_cost": 1.0,
+   "fv_par": 1.0,
+   "n_debt": 3,
+   "n_par": 3,
+   "eq_fv": 600000.0
+  },
+  "mfic": {
+   "debt_cost": 9072000.0,
+   "debt_fv": 8879000.0,
+   "fv_cost": 0.9787257495590829,
+   "fv_par": 0.9678439066928276,
+   "n_debt": 3,
+   "n_par": 3,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "NCP-MSI Buyer, Inc. and NCP MSI Co-Invest, LP | First lien senior secured revolving loan",
+   "NCP-MSI Buyer, Inc. and NCP MSI Co-Invest, LP | First lien senior secured loan",
+   "NCP-MSI Buyer, Inc. and NCP MSI Co-Invest, LP | First lien senior secured loan 1",
+   "NCP-MSI Buyer, Inc. and NCP MSI Co-Invest, LP | Limited partnership interest"
+  ],
+  "mfic_ids": [
+   "Containers & Packaging MSI Express, Inc. NCP-MSI Buyer First Lien Secured Debt - Term Loan SOFR+500, 0.75% Floor Maturity Date 03/24/31",
+   "Containers & Packaging MSI Express, Inc. NCP-MSI Buyer First Lien Secured Debt - Delayed Draw SOFR+500, 0.75% Floor Maturity Date 03/24/31",
+   "Containers & Packaging MSI Express, Inc. NCP-MSI Buyer First Lien Secured Debt - Revolver SOFR+375, 0.75% Floor Maturity Date 03/24/31"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "Shout! Factory",
+   "mfic_entity_contains": "Shout! Factory",
+   "basis_for_match": "same name"
+  },
+  "arcc": {
+   "debt_cost": 18500000.0,
+   "debt_fv": 18200000.0,
+   "fv_cost": 0.9837837837837838,
+   "fv_par": 0.9837837837837838,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "mfic": {
+   "debt_cost": 13330000.0,
+   "debt_fv": 13280000.0,
+   "fv_cost": 0.9962490622655664,
+   "fv_par": 0.9822485207100592,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "Shout! Factory, LLC | First lien senior secured revolving loan",
+   "Shout! Factory, LLC | First lien senior secured loan"
+  ],
+  "mfic_ids": [
+   "Entertainment Shout Factory Shout! Factory LLC First Lien Secured Debt - Term Loan SOFR+525, 0.75% Floor Maturity Date 06/30/31",
+   "Entertainment Shout Factory Shout! Factory LLC First Lien Secured Debt - Revolver SOFR+525, 0.75% Floor Maturity Date 06/30/31"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "Silk Holdings III",
+   "mfic_entity_contains": "Silk Holdings III",
+   "basis_for_match": "same name (Suave); ARCC 'LLC' vs MFIC 'Corp.'"
+  },
+  "arcc": {
+   "debt_cost": 144600000.0,
+   "debt_fv": 143100000.0,
+   "fv_cost": 0.9896265560165975,
+   "fv_par": 0.9896265560165975,
+   "n_debt": 3,
+   "n_par": 3,
+   "eq_fv": 43000000.0
+  },
+  "mfic": {
+   "debt_cost": 24514000.0,
+   "debt_fv": 24868000.0,
+   "fv_cost": 1.0144407277474097,
+   "fv_par": 0.9951976948935489,
+   "n_debt": 1,
+   "n_par": 1,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "Silk Holdings III LLC and Silk Holdings I Corp. | First lien senior secured revolving loan",
+   "Silk Holdings III LLC and Silk Holdings I Corp. | First lien senior secured loan",
+   "Silk Holdings III LLC and Silk Holdings I Corp. | First lien senior secured loan 1",
+   "Silk Holdings III LLC and Silk Holdings I Corp. | Common stock"
+  ],
+  "mfic_ids": [
+   "Personal Care Products Suave Silk Holdings III Corp. First Lien Secured Debt - Term Loan SOFR+450, 0.50% Floor Maturity Date 12/03/32"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "Truck-Lite Co.",
+   "mfic_entity_contains": "Truck-Lite Co.",
+   "basis_for_match": "same name"
+  },
+  "arcc": {
+   "debt_cost": 143600000.0,
+   "debt_fv": 143600000.0,
+   "fv_cost": 1.0,
+   "fv_par": 1.0,
+   "n_debt": 1,
+   "n_par": 1,
+   "eq_fv": 5300000.0
+  },
+  "mfic": {
+   "debt_cost": 3616000.0,
+   "debt_fv": 3611000.0,
+   "fv_cost": 0.9986172566371682,
+   "fv_par": 0.9942180616740088,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "Truck-Lite Co., LLC, ECCO Holdings Corp., and Clarity Technologies Holdings, LP | First lien senior secured revolving loan",
+   "Truck-Lite Co., LLC, ECCO Holdings Corp., and Clarity Technologies Holdings, LP | First lien senior secured loan",
+   "Truck-Lite Co., LLC, ECCO Holdings Corp., and Clarity Technologies Holdings, LP | Class A units"
+  ],
+  "mfic_ids": [
+   "Automobile Components Truck-Lite Co., LLC Truck-Lite Co., LLC First Lien Secured Debt - Term Loan SOFR+475, 0.75% Floor Maturity Date 02/13/32",
+   "Automobile Components Truck-Lite Co., LLC Truck-Lite Co., LLC First Lien Secured Debt - Delayed Draw SOFR+475, 0.75% Floor Maturity Date 02/13/32",
+   "Automobile Components Truck-Lite Co., LLC Truck-Lite Co., LLC First Lien Secured Debt - Revolver SOFR+475, 0.75% Floor Maturity Date 02/13/32"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "Generator US Buyer",
+   "mfic_entity_contains": "Generator Buyer",
+   "basis_for_match": "Generator/Total Power group; 'US' in ARCC entity only"
+  },
+  "arcc": {
+   "debt_cost": 900000.0,
+   "debt_fv": 900000.0,
+   "fv_cost": 1.0,
+   "fv_par": 1.0,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "mfic": {
+   "debt_cost": 14332000.0,
+   "debt_fv": 14002000.0,
+   "fv_cost": 0.976974602288585,
+   "fv_par": 0.9875397019301246,
+   "n_debt": 5,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "Generator US Buyer, Inc. and Total Power Limited | First lien senior secured revolving loan",
+   "Generator US Buyer, Inc. and Total Power Limited | First lien senior secured loan"
+  ],
+  "mfic_ids": [
+   "Electronic Equipment, Instruments & Components Generator Buyer, Inc. Total Power Limited First Lien Secured Debt - Term Loan CORRA+450, 0.75% Floor Maturity Date 07/22/30",
+   "Electronic Equipment, Instruments & Components Generator Buyer, Inc. Total Power Limited First Lien Secured Debt - Term Loan SOFR+450, 0.75% Floor Maturity Date 07/22/30",
+   "Electronic Equipment, Instruments & Components Generator Buyer, Inc. Total Power Limited First Lien Secured Debt - Delayed Draw CORRA+450, 0.75% Floor Maturity Date 07/22/30",
+   "Electronic Equipment, Instruments & Components Generator Buyer, Inc. Total Power Limited First Lien Secured Debt - Delayed Draw SOFR+450, 0.75% Floor Maturity Date 07/22/30",
+   "Electronic Equipment, Instruments & Components Generator Buyer, Inc. Total Power Limited First Lien Secured Debt - Revolver SOFR+450, 0.75% Floor Maturity Date 07/22/30",
+   "Electronic Equipment, Instruments & Components Generator Buyer, Inc. Total Power Limited First Lien Secured Debt - Revolver CORRA+450, 0.75% Floor Maturity Date 07/22/30"
+  ]
+ },
+ {
+  "pair": {
+   "arcc_borrower_startswith": "ZenDesk, Inc.",
+   "mfic_entity_contains": "Zendesk, Inc.",
+   "basis_for_match": "same name"
+  },
+  "arcc": {
+   "debt_cost": 39700000.0,
+   "debt_fv": 38500000.0,
+   "fv_cost": 0.9697732997481109,
+   "fv_par": 0.9697732997481109,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 12400000.0
+  },
+  "mfic": {
+   "debt_cost": 8267000.0,
+   "debt_fv": 7680000.0,
+   "fv_cost": 0.9289947985968308,
+   "fv_par": 0.9289947985968308,
+   "n_debt": 2,
+   "n_par": 2,
+   "eq_fv": 0
+  },
+  "arcc_ids": [
+   "ZenDesk, Inc., Zoro TopCo, Inc. and Zoro TopCo, LP | First lien senior secured loan",
+   "ZenDesk, Inc., Zoro TopCo, Inc. and Zoro TopCo, LP | First lien senior secured loan 1",
+   "ZenDesk, Inc., Zoro TopCo, Inc. and Zoro TopCo, LP | Series A preferred stock",
+   "ZenDesk, Inc., Zoro TopCo, Inc. and Zoro TopCo, LP | Class A common units"
+  ],
+  "mfic_ids": [
+   "Software Zendesk Zendesk, Inc. First Lien Secured Debt - Term Loan SOFR+500, 0.75% Floor Maturity Date 11/22/28",
+   "Software Zendesk Zendesk, Inc. First Lien Secured Debt - Delayed Draw SOFR+500, 0.75% Floor Maturity Date 11/22/28",
+   "Software Zendesk Zendesk, Inc. First Lien Secured Debt - Revolver SOFR+500, 0.75% Floor Maturity Date 11/22/28"
+  ]
+ }
+]

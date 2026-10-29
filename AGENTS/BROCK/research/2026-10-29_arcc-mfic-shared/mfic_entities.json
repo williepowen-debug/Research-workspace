@@ -1,0 +1,1322 @@
+[
+{
+"entity": "Chemicals Carbonfree Chemicals SPE I LLC (f/k/a Maxus Capital Carbon SPE I LLC) Carbonfree Chemicals Holdings LLC",
+"cost": 56505000.0,
+"fv": 14574000.0
+},
+{
+"entity": "Automobile Components K&N Parent, Inc. K&N Holdco, LLC",
+"cost": 23718000.0,
+"fv": 399000.0
+},
+{
+"entity": "Media ChyronHego Corporation ChyronHego Parent Corporation",
+"cost": 65250000.0,
+"fv": 45335000.0
+},
+{
+"entity": "Consumer Finance Lending Point LendingPoint LLC",
+"cost": 40732000.0,
+"fv": 22060000.0
+},
+{
+"entity": "Financial Services Renew Financial LLC (f/k/a Renewable Funding, LLC) Renew Financial LLC (f/k/a Renewable Funding, LLC)",
+"cost": 16813000.0,
+"fv": 109000.0
+},
+{
+"entity": "Consumer Finance US Auto Auto Pool 2023 Trust (Del. Stat. Trust)",
+"cost": 18708000.0,
+"fv": 7555000.0
+},
+{
+"entity": "Electrical Equipment Kauffman Kauffman Intermediate, LLC",
+"cost": 18441000.0,
+"fv": 7346000.0
+},
+{
+"entity": "IT Services New Era Technology, Inc. New Era Technology, Inc.",
+"cost": 10818000.0,
+"fv": 633000.0
+},
+{
+"entity": "Trading Companies & Distributors Banner Solutions Banner Buyer, LLC",
+"cost": 15367000.0,
+"fv": 6130000.0
+},
+{
+"entity": "Ground Transportation Bird Rides Blue Jay Transit Inc.",
+"cost": 32843000.0,
+"fv": 25779000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, International Cruise & Excursion Gallery, Inc., Arrivia, Inc. (International Cruise & Excursion Gallery, Inc),",
+"cost": 13479000.0,
+"fv": 6793000.0
+},
+{
+"entity": "Health Care Providers & Services Amplity Amplity Topco, LLC",
+"cost": 17557000.0,
+"fv": 11055000.0
+},
+{
+"entity": "Financial Services Golden Bear Golden Bear 2016-R, LLC",
+"cost": 13543000.0,
+"fv": 7385000.0
+},
+{
+"entity": "Software Naviga Colonnade Parent Inc (fka Naviga Inc.)",
+"cost": 12767000.0,
+"fv": 7084000.0
+},
+{
+"entity": "Multi-Utilities Congruex Congruex Group LLC",
+"cost": 15813000.0,
+"fv": 10385000.0
+},
+{
+"entity": "Construction & Engineering American Restoration American Restoration Holdings, LLC",
+"cost": 20770000.0,
+"fv": 15871000.0
+},
+{
+"entity": "Health Care Providers & Services Cato Research LS Clinical Services Holdings, Inc.",
+"cost": 18143000.0,
+"fv": 13364000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, Tasty Chick'n Tasty Chick'n LLC,",
+"cost": 12013000.0,
+"fv": 7408000.0
+},
+{
+"entity": "Household Durables, Allstar Holdings, Athlete Buyer, LLC,",
+"cost": 28003000.0,
+"fv": 23483000.0
+},
+{
+"entity": "Personal Care Products LashCo Lash OpCo, LLC",
+"cost": 47576000.0,
+"fv": 43488000.0
+},
+{
+"entity": "Health Care Providers & Services Thomas Scientific Thomas Scientific, LLC",
+"cost": 34969000.0,
+"fv": 30992000.0
+},
+{
+"entity": "Ground Transportation Heniff and Superior Heniff Holdco, LLC",
+"cost": 32404000.0,
+"fv": 28538000.0
+},
+{
+"entity": "Electronic Equipment, Instruments & Components AVAD, LLC Surf Opco, LLC",
+"cost": 33819000.0,
+"fv": 30338000.0
+},
+{
+"entity": "Health Care Providers & Services Amplity Amplity Parent, Inc.",
+"cost": 11867000.0,
+"fv": 8506000.0
+},
+{
+"entity": "Software Simeio Simeio Group Holdings, Inc.",
+"cost": 8991000.0,
+"fv": 6219000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, Munson, Munson Buffalo Restaurant Group LLC,",
+"cost": 8706000.0,
+"fv": 5969000.0
+},
+{
+"entity": "Diversified Consumer Services Excelligence Excelligence Learning Corporation",
+"cost": 15984000.0,
+"fv": 13742000.0
+},
+{
+"entity": "Health Care Providers & Services LucidHealth Premier Imaging, LLC",
+"cost": 8729000.0,
+"fv": 6525000.0
+},
+{
+"entity": "IT Services Distinct Distinct Holdings Inc",
+"cost": 13782000.0,
+"fv": 11850000.0
+},
+{
+"entity": "Software MYCOM Magnate Holding Corp.",
+"cost": 21351000.0,
+"fv": 19440000.0
+},
+{
+"entity": "Health Care Providers & Services Ingenovis Health Ingenovis Health, Inc. (CCRR Parent Inc)",
+"cost": 2747000.0,
+"fv": 929000.0
+},
+{
+"entity": "Insurance, GoHealth, Norvax, LLC (dba GoHealth),",
+"cost": 2318000.0,
+"fv": 632000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, PARS Group LLC,",
+"cost": 8489000.0,
+"fv": 7006000.0
+},
+{
+"entity": "Professional Services PSI Services, LLC Lifelong Learner Holdings, LLC",
+"cost": 6351000.0,
+"fv": 5028000.0
+},
+{
+"entity": "Textiles, Apparel & Luxury Goods Sequential Brands Group, Inc. Galaxy Universal LLC",
+"cost": 20037000.0,
+"fv": 18745000.0
+},
+{
+"entity": "Health Care Providers & Services Midwest Vision Midwest Vision Partners Management, LLC",
+"cost": 13166000.0,
+"fv": 11892000.0
+},
+{
+"entity": "Leisure Products, Dan Dee, Project Comfort Buyer, Inc. KLO Holdings, LLC 1244311 B.C. Ltd.,",
+"cost": 1492000.0,
+"fv": 253000.0
+},
+{
+"entity": "Software Digital.ai Digital.ai Software Holdings, Inc.",
+"cost": 22513000.0,
+"fv": 21355000.0
+},
+{
+"entity": "IT Services, New Era Technology, Inc., New Era Technology, Inc.,",
+"cost": 14078000.0,
+"fv": 13022000.0
+},
+{
+"entity": "Software Solera Polaris Newco, LLC",
+"cost": 7990000.0,
+"fv": 6994000.0
+},
+{
+"entity": "Media Hero Digital HRO (Hero Digital) Holdings, LLC",
+"cost": 28424000.0,
+"fv": 27550000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, Walters Wedding Estates, WH BorrowerCo, LLC,",
+"cost": 16527000.0,
+"fv": 15690000.0
+},
+{
+"entity": "Health Care Technology, Inovalon, Inovalon Holdings, Inc.,",
+"cost": 6359000.0,
+"fv": 5710000.0
+},
+{
+"entity": "Software Zendesk Zendesk, Inc.",
+"cost": 8267000.0,
+"fv": 7631000.0
+},
+{
+"entity": "Life Sciences Tools & Services August Bio August Bioservices, LLC",
+"cost": 15225000.0,
+"fv": 14602000.0
+},
+{
+"entity": "Diversified Consumer Services Clarus Commerce Marlin DTC-LS Midco 2, LLC",
+"cost": 19931000.0,
+"fv": 19325000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, Taco Cabana, YTC Enterprises, LLC,",
+"cost": 7739000.0,
+"fv": 7139000.0
+},
+{
+"entity": "Pharmaceuticals PAI Pharm Pai Middle Tier, LLC",
+"cost": 25838000.0,
+"fv": 25240000.0
+},
+{
+"entity": "Consumer Finance Lending Point LendingPoint 2018-1 Funding Trust",
+"cost": 18756000.0,
+"fv": 18159000.0
+},
+{
+"entity": "Pharmaceuticals Ora LLC Orion Buyer, LLC",
+"cost": 7651000.0,
+"fv": 7064000.0
+},
+{
+"entity": "Media ChyronHego Corporation ChyronHego US Holding Corporation",
+"cost": 66410000.0,
+"fv": 65874000.0
+},
+{
+"entity": "Paper & Forest Products BiOrigin Specialty Products Complete Paper Inc.",
+"cost": 10495000.0,
+"fv": 10004000.0
+},
+{
+"entity": "Commercial Services & Supplies Jacent Jacent Strategic Merchandising, LLC",
+"cost": 25379000.0,
+"fv": 24924000.0
+},
+{
+"entity": "Communications Equipment Mitel Networks Mitel Networks (International) Limited",
+"cost": 476000.0,
+"fv": 27000.0
+},
+{
+"entity": "Software Litify Litify LLC",
+"cost": 28606000.0,
+"fv": 28182000.0
+},
+{
+"entity": "Professional Services Schlesinger Group Schlesinger Global, LLC",
+"cost": 6327000.0,
+"fv": 5918000.0
+},
+{
+"entity": "Communications Equipment Mitel Networks MLN US Holdco LLC",
+"cost": 815000.0,
+"fv": 408000.0
+},
+{
+"entity": "IT Services, Avenu Insights & Analytics, ACP Avenu Buyer, LLC,",
+"cost": 9236000.0,
+"fv": 8832000.0
+},
+{
+"entity": "Electronic Equipment, Instruments & Components Generator Buyer, Inc. Total Power Limited",
+"cost": 14333000.0,
+"fv": 13944000.0
+},
+{
+"entity": "Pharmaceuticals Sterling Pharm Saffron Bidco Ltd",
+"cost": 14199000.0,
+"fv": 13810000.0
+},
+{
+"entity": "Trading Companies & Distributors PSE Painters Supply and Equipment Co. (fka Graffiti Buyer, Inc.)",
+"cost": 14290000.0,
+"fv": 13901000.0
+},
+{
+"entity": "Automobile Components Universal Air Conditioner Cool Buyer, Inc.",
+"cost": 16555000.0,
+"fv": 16172000.0
+},
+{
+"entity": "Software mPulse mPulse Mobile, Inc.",
+"cost": 7942000.0,
+"fv": 7573000.0
+},
+{
+"entity": "Health Care Providers & Service Omega Healthcare OMH-Healthedge Holdings, Inc.",
+"cost": 11859000.0,
+"fv": 11508000.0
+},
+{
+"entity": "Diversified Telecommunication Services Cablevision Systems CSC Holdings, LLC",
+"cost": 1595000.0,
+"fv": 1245000.0
+},
+{
+"entity": "Software Beeline IQN Holding Corp.",
+"cost": 4633000.0,
+"fv": 4283000.0
+},
+{
+"entity": "Health Care Providers & Services KCF Puerto Rico, LLC KCF Puerto Rico, LLC",
+"cost": 1024000.0,
+"fv": 681000.0
+},
+{
+"entity": "Chemicals Carbonfree Chemicals SPE I LLC (f/k/a Maxus Capital Carbon SPE I LLC) FC2 LLC",
+"cost": 12500000.0,
+"fv": 12158000.0
+},
+{
+"entity": "Software Instem Ichor Management Limited",
+"cost": 8692000.0,
+"fv": 8364000.0
+},
+{
+"entity": "Professional Services BDO USA BDO USA, P.A.",
+"cost": 11670000.0,
+"fv": 11355000.0
+},
+{
+"entity": "Diversified Consumer Services Accelerate Learning Eagle Purchaser, Inc.",
+"cost": 4721000.0,
+"fv": 4419000.0
+},
+{
+"entity": "Communications Equipment MCA Mobile Communications America, Inc.",
+"cost": 8981000.0,
+"fv": 8708000.0
+},
+{
+"entity": "Multi-Utilities SEER GS SEER Group Borrower LLC",
+"cost": 4503000.0,
+"fv": 4231000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, CircusTrix, CircusTrix Holdings LLC,",
+"cost": 8778000.0,
+"fv": 8520000.0
+},
+{
+"entity": "Biotechnology Partner Therapeutics, Inc Partner Therapeutics, Inc",
+"cost": 722000.0,
+"fv": 467000.0
+},
+{
+"entity": "Chemicals Aspen Aerogels, Inc. Aspen Aerogels, Inc.",
+"cost": 15631000.0,
+"fv": 15400000.0
+},
+{
+"entity": "Software G2CI Evergreen IX Borrower 2023, LLC",
+"cost": 7025000.0,
+"fv": 6801000.0
+},
+{
+"entity": "Financial Services Stretto Stretto, Inc.",
+"cost": 10618000.0,
+"fv": 10398000.0
+},
+{
+"entity": "Diversified Consumer Services Go Car Wash Go Car Wash Management Corp.",
+"cost": 10775000.0,
+"fv": 10566000.0
+},
+{
+"entity": "Financial Services AML Rightsource Gabriel Partners, LLC",
+"cost": 32973000.0,
+"fv": 32765000.0
+},
+{
+"entity": "Consumer Staples Distribution & Retail Turkey Hill THLP CO., LLC",
+"cost": 30044000.0,
+"fv": 29838000.0
+},
+{
+"entity": "Software Texada Texada Software LLC",
+"cost": 8909000.0,
+"fv": 8713000.0
+},
+{
+"entity": "Containers & Packaging MSI Express, Inc. NCP-MSI Buyer",
+"cost": 9072000.0,
+"fv": 8879000.0
+},
+{
+"entity": "Chemicals Meristem Crop Performance Lunar Buyer, LLC",
+"cost": 8769000.0,
+"fv": 8578000.0
+},
+{
+"entity": "Commercial Services & Supplies Overhaul Group, Inc. Overhaul Group, Inc.",
+"cost": 10750000.0,
+"fv": 10561000.0
+},
+{
+"entity": "Food Products Berner Foods Berner Food & Beverage, LLC",
+"cost": 35683000.0,
+"fv": 35498000.0
+},
+{
+"entity": "Technology Hardware, Storage & Peripherals BusPatrol BusPatrol Holdco",
+"cost": 18306000.0,
+"fv": 18125000.0
+},
+{
+"entity": "Energy Equipment & Services Camin Cargo Camin Cargo Control Holdings, Inc.",
+"cost": 3797000.0,
+"fv": 3626000.0
+},
+{
+"entity": "Media HALO Branded Solutions HALO Buyer, Inc",
+"cost": 9050000.0,
+"fv": 8889000.0
+},
+{
+"entity": "Diversified Consumer Services Village Pet Care Village Pet Care, LLC",
+"cost": 3291000.0,
+"fv": 3132000.0
+},
+{
+"entity": "Software Calero Holdings, Inc. Telesoft Holdings, LLC",
+"cost": 21674000.0,
+"fv": 21521000.0
+},
+{
+"entity": "Containers & Packaging ePac Flexible Packaging ePac Holdings LLC",
+"cost": 12255000.0,
+"fv": 12103000.0
+},
+{
+"entity": "Health Care Equipment & Supplies Natus Sensory Natus Sensory, Inc.",
+"cost": 12979000.0,
+"fv": 12834000.0
+},
+{
+"entity": "Software Asure Software Asure Software, Inc.",
+"cost": 19921000.0,
+"fv": 19776000.0
+},
+{
+"entity": "Diversified Consumer Services Team Car Wash TCW Midco LLC",
+"cost": 11422000.0,
+"fv": 11279000.0
+},
+{
+"entity": "Software Uniguest Uniguest Holdings, Inc",
+"cost": 19273000.0,
+"fv": 19133000.0
+},
+{
+"entity": "Software Poppulo, Inc. Four Winds Interactive LLC",
+"cost": 8790000.0,
+"fv": 8652000.0
+},
+{
+"entity": "Diversified Consumer Services Ultra Clean Newco Ultra Clean Holdco LLC",
+"cost": 7741000.0,
+"fv": 7604000.0
+},
+{
+"entity": "Media FingerPaint Marketing KL Charlie Acquisition Company",
+"cost": 21847000.0,
+"fv": 21710000.0
+},
+{
+"entity": "Media Hero Digital HRO Holdings I LP",
+"cost": 213000.0,
+"fv": 77000.0
+},
+{
+"entity": "Food Products Bolthouse Farms Wm. Bolthouse Farms, Inc.",
+"cost": 1460000.0,
+"fv": 1328000.0
+},
+{
+"entity": "Health Care Providers & Services Rarebreed Rarebreed Veterinary Partners, Inc.",
+"cost": 22125000.0,
+"fv": 21995000.0
+},
+{
+"entity": "Health Care Providers & Services KureSmart Kure Pain Holdings, Inc.",
+"cost": 22509000.0,
+"fv": 22385000.0
+},
+{
+"entity": "Software Forcura + Medalogix (Project Tarpon) F&M Buyer LLC",
+"cost": 16714000.0,
+"fv": 16596000.0
+},
+{
+"entity": "Software New Relic Crewline Buyer, Inc.",
+"cost": 5582000.0,
+"fv": 5466000.0
+},
+{
+"entity": "Media Accelerate360 McClatchy Media Company, LLC (fka Accelerate360 Holdings, LLC)",
+"cost": 4530000.0,
+"fv": 4432000.0
+},
+{
+"entity": "Leisure Products Paladone Paladone Group Bidco Limited",
+"cost": 8457000.0,
+"fv": 8364000.0
+},
+{
+"entity": "Financial Services PMA PMA Parent Holdings, LLC",
+"cost": 13855000.0,
+"fv": 13766000.0
+},
+{
+"entity": "Software Acronis AG Angel Lux Bidco S.a.r.l.",
+"cost": 4952000.0,
+"fv": 4863000.0
+},
+{
+"entity": "Construction & Engineering Trench Plate Trench Plate Rental Co.",
+"cost": 18995000.0,
+"fv": 18914000.0
+},
+{
+"entity": "Automobile Components Universal Air Conditioner Cool Acquisition Holdings, LP",
+"cost": 138000.0,
+"fv": 59000.0
+},
+{
+"entity": "Pharmaceuticals Trillium Trillium Health Care Products Inc.",
+"cost": 8842000.0,
+"fv": 8765000.0
+},
+{
+"entity": "Construction & Engineering Core Roofing CRS Holdings, Inc.",
+"cost": 5301000.0,
+"fv": 5225000.0
+},
+{
+"entity": "Electronic Equipment, Instruments & Components Pro Vigil Pro-Vigil Holding Company, LLC",
+"cost": 33597000.0,
+"fv": 33523000.0
+},
+{
+"entity": "Professional Services DecisionHR DecisionHR Holdings, Inc.",
+"cost": 6709000.0,
+"fv": 6636000.0
+},
+{
+"entity": "Trading Companies & Distributors PSE Graffiti Parent, LP",
+"cost": 244000.0,
+"fv": 171000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, Crumbl, Crumbl Enterprises LLC,",
+"cost": 9081000.0,
+"fv": 9012000.0
+},
+{
+"entity": "Health Care Technology Arcadia Solutions Arcadia Solutions, Inc.",
+"cost": 10599000.0,
+"fv": 10531000.0
+},
+{
+"entity": "Technology Hardware, Storage & Peripherals Biamp Biamp",
+"cost": 835000.0,
+"fv": 770000.0
+},
+{
+"entity": "Textiles, Apparel & Luxury Goods Iconix Brand Group IBG Borrower LLC",
+"cost": 8978000.0,
+"fv": 8918000.0
+},
+{
+"entity": "Machinery Relevant Industrial Relevant Industrial, LLC",
+"cost": 4582000.0,
+"fv": 4525000.0
+},
+{
+"entity": "Commercial Services & Supplies Atlas Technical Consultants GI Apple Midco LLC",
+"cost": 7796000.0,
+"fv": 7741000.0
+},
+{
+"entity": "Diversified Consumer Services Gateway Services Gateway US Holdings, Inc.",
+"cost": 13199000.0,
+"fv": 13144000.0
+},
+{
+"entity": "Health Care Providers & Services WellDyneRx, LLC WelldyneRX, LLC",
+"cost": 17153000.0,
+"fv": 17099000.0
+},
+{
+"entity": "Ground Transportation Boasso Channelside AcquisitionCo, Inc. (fka Gruden Acquisition, Inc.)",
+"cost": 3484000.0,
+"fv": 3431000.0
+},
+{
+"entity": "Trading Companies & Distributors MacQueen Equipment, LLC",
+"cost": 6015000.0,
+"fv": 5962000.0
+},
+{
+"entity": "Software Lookout Lookout, Inc.",
+"cost": 9968000.0,
+"fv": 9916000.0
+},
+{
+"entity": "Health Care Equipment & Supplies Project Titan Tyber Medical LLC",
+"cost": 8297000.0,
+"fv": 8246000.0
+},
+{
+"entity": "Entertainment Shout Factory Shout! Factory LLC",
+"cost": 13330000.0,
+"fv": 13280000.0
+},
+{
+"entity": "Containers & Packaging ACP Packaging ACP Packaging Intermediateco, LLC",
+"cost": 10727000.0,
+"fv": 10682000.0
+},
+{
+"entity": "Diversified Consumer Services Mariani CI (MG) GROUP, LLC",
+"cost": 25278000.0,
+"fv": 25234000.0
+},
+{
+"entity": "Professional Services Escalent M&M OPCO, LLC",
+"cost": 11752000.0,
+"fv": 11708000.0
+},
+{
+"entity": "Food Products Nutpods Green Grass Foods, Inc.",
+"cost": 4031000.0,
+"fv": 3991000.0
+},
+{
+"entity": "Food Products Nutpods Nutpods Holdings, Inc.",
+"cost": 125000.0,
+"fv": 86000.0
+},
+{
+"entity": "Chemicals MeChemicals Meristem Crop Performance Lunar Buyer, LLC",
+"cost": 1667000.0,
+"fv": 1630000.0
+},
+{
+"entity": "Machinery, JPW, JPW Industries Holding Corporation Milacron (Project Iota) IOTA HOLDINGS 3,",
+"cost": 25367000.0,
+"fv": 25330000.0
+},
+{
+"entity": "Commercial Services & Supplies IRP Precision Refrigeration & Air Conditioning LLC",
+"cost": 15767000.0,
+"fv": 15732000.0
+},
+{
+"entity": "Pharmaceuticals PAI Pharm PAI Co-Investor FT Aggregator LLC",
+"cost": 100000.0,
+"fv": 66000.0
+},
+{
+"entity": "Trading Companies & Distributors McNichols Company Patriot MCN Buyer Corp.",
+"cost": 3811000.0,
+"fv": 3778000.0
+},
+{
+"entity": "Trading Companies & Distributors Meritus Gas Partners MGP Holdings III Corp.",
+"cost": 16162000.0,
+"fv": 16129000.0
+},
+{
+"entity": "Professional Services North Highland The North Highland Company LLC",
+"cost": 3080000.0,
+"fv": 3048000.0
+},
+{
+"entity": "Commercial Services & Supplies CoreTrust Coretrust Purchasing Group LLC (HPG Enterprises LLC)",
+"cost": 6087000.0,
+"fv": 6057000.0
+},
+{
+"entity": "Commercial Services & Supplies Flatworld Solutions Flatworld Intermediate Corp",
+"cost": 3868000.0,
+"fv": 3838000.0
+},
+{
+"entity": "Commercial Services & Supplies Pavement Preservation Pavement Preservation Acquisition, LLC",
+"cost": 13394000.0,
+"fv": 13364000.0
+},
+{
+"entity": "Diversified Consumer Services Elase Med Spas Birch Group of Clinics Acquireco Inc.",
+"cost": 2241000.0,
+"fv": 2215000.0
+},
+{
+"entity": "Health Care Providers & Services Xanitos Pure Upper Holdco LLC",
+"cost": 4000.0,
+"fv": -22000.0
+},
+{
+"entity": "Professional Services AGDATA AGDATA Midco, LLC",
+"cost": 6243000.0,
+"fv": 6217000.0
+},
+{
+"entity": "Financial Services Renew Financial LLC (f/k/a Renewable Funding, LLC) AIC SPV Holdings II, LLC",
+"cost": 534000.0,
+"fv": 509000.0
+},
+{
+"entity": "Personal Care Products Summer Fridays Summer Fridays, LLC",
+"cost": 21576000.0,
+"fv": 21551000.0
+},
+{
+"entity": "Software American Megatrends AMI Buyer, Inc.",
+"cost": 12720000.0,
+"fv": 12696000.0
+},
+{
+"entity": "Commercial Services & Supplies Smith System Smith Topco, Inc.",
+"cost": 10949000.0,
+"fv": 10927000.0
+},
+{
+"entity": "Diversified Consumer Services SEV SEV Intermediate Holdco, LLC",
+"cost": 11611000.0,
+"fv": 11590000.0
+},
+{
+"entity": "Commercial Services & Supplies CARDS + Live Oak CARDS-Live Oak Holdings, Inc.",
+"cost": 4264000.0,
+"fv": 4244000.0
+},
+{
+"entity": "Multi-Utilities SEER GS SEER Group Holdings, LLC",
+"cost": 42000.0,
+"fv": 24000.0
+},
+{
+"entity": "Construction & Engineering Trench Plate Trench Safety Solutions Holdings, LLC",
+"cost": 54000.0,
+"fv": 38000.0
+},
+{
+"entity": "Financial Services Origami Opportunities Fund III Origami Opportunities Fund III, L.P.",
+"cost": 4392000.0,
+"fv": 4377000.0
+},
+{
+"entity": "Software SPS Commerce, Inc.",
+"cost": 62000.0,
+"fv": 48000.0
+},
+{
+"entity": "Commercial Services & Supplies IronClad Mersino, Inc. (fka Ironhorse Purchaser, LLC), LLC",
+"cost": 2967000.0,
+"fv": 2954000.0
+},
+{
+"entity": "Health Care Equipment & Supplies CQ Medical BW ISO Acquisition LLC",
+"cost": 4928000.0,
+"fv": 4915000.0
+},
+{
+"entity": "Aerospace & Defense Beaufort Eagle U.S. Purchaser, Inc.",
+"cost": 8366000.0,
+"fv": 8354000.0
+},
+{
+"entity": "Pharmaceuticals Alcresta Therapeutics Inc. Alcresta Therapeutics Inc.",
+"cost": 9282000.0,
+"fv": 9270000.0
+},
+{
+"entity": "Building Products Decks & Docks D&D Buyer, LLC",
+"cost": 2437000.0,
+"fv": 2426000.0
+},
+{
+"entity": "Health Care Providers & Services Maxor National Pharmacy Service LLC, Maxor Acquisition, Inc.",
+"cost": 9780000.0,
+"fv": 9769000.0
+},
+{
+"entity": "Life Sciences Tools & Services, Unchained Labs, Unchained Labs, LLC,",
+"cost": 3987000.0,
+"fv": 3976000.0
+},
+{
+"entity": "Commercial Services & Supplies Jacent JSM Equity Investors, L.P.",
+"cost": 11000.0,
+"fv": 1000.0
+},
+{
+"entity": "Personal Care Products Dr. Scholl's DRS Holdings III, Inc.",
+"cost": -5000.0,
+"fv": -13000.0
+},
+{
+"entity": "Commercial Services & Supplies Vixxo Vixxo Corporation",
+"cost": 1415000.0,
+"fv": 1408000.0
+},
+{
+"entity": "Automobile Components Truck-Lite Co., LLC Truck-Lite Co., LLC",
+"cost": 3615000.0,
+"fv": 3609000.0
+},
+{
+"entity": "Software Riverbed Technology, Inc. Riverbed Technology, Inc.",
+"cost": -5000.0,
+"fv": -11000.0
+},
+{
+"entity": "Consumer Staples Distribution & Retail Metz Culinary Metz Culinary Management, LLC",
+"cost": 4126000.0,
+"fv": 4122000.0
+},
+{
+"entity": "Building Products RF Fager R.F. Fager Company, LLC",
+"cost": 2505000.0,
+"fv": 2502000.0
+},
+{
+"entity": "Consumer Staples Distribution & Retail 3D Protein Protein For Pets Opco, LLC",
+"cost": 8295000.0,
+"fv": 8292000.0
+},
+{
+"entity": "Food Products Patriot Pickle Patriot Foods Buyer, Inc.",
+"cost": 426000.0,
+"fv": 423000.0
+},
+{
+"entity": "Aerospace & Defense Beaufort, Eagle Aggregator Ltd",
+"cost": 50000.0,
+"fv": 49000.0
+},
+{
+"entity": "Financial Services Definiti LLC Greylock Holdings LLC",
+"cost": 100000.0,
+"fv": 99000.0
+},
+{
+"entity": "Food Products Justin's Justin's LLC",
+"cost": 4187000.0,
+"fv": 4186000.0
+},
+{
+"entity": "Health Care Equipment & Supplies Cerus Cerus Corporation",
+"cost": 2470000.0,
+"fv": 2469000.0
+},
+{
+"entity": "Leisure Products, Paladone Group Holdings Limited",
+"cost": 93000.0,
+"fv": 92000.0
+},
+{
+"entity": "Pharmaceuticals Avid Bioservices Space Parent, LP",
+"cost": 100000.0,
+"fv": 100000.0
+},
+{
+"entity": "Health Care Providers & Services Tarrytown Tarrytown Acquisition Holdings, LLC",
+"cost": -9000.0,
+"fv": -4000.0
+},
+{
+"entity": "Diversified Consumer Services Legacy.com Lotus Topco Inc.",
+"cost": 6222000.0,
+"fv": 6229000.0
+},
+{
+"entity": "Communications Equipment Sorenson Holdings, LLC",
+"cost": 412000.0,
+"fv": 421000.0
+},
+{
+"entity": "Financial Services Definiti LLC RHI Acquisition LLC",
+"cost": 9046000.0,
+"fv": 9055000.0
+},
+{
+"entity": "Health Care Providers & Services Thomas Scientific BSP-TS, LP",
+"cost": 8000.0,
+"fv": 17000.0
+},
+{
+"entity": "Machinery Carlisle Fluid Technologies LSF12 Donnelly Bidco, LLC",
+"cost": 14325000.0,
+"fv": 14335000.0
+},
+{
+"entity": "Construction & Engineering Traffic Management Solutions, LLC",
+"cost": 8477000.0,
+"fv": 8488000.0
+},
+{
+"entity": "Specialty Retail Club Champion Club Champion LLC",
+"cost": 9534000.0,
+"fv": 9547000.0
+},
+{
+"entity": "IT Services VikingCloud Bullcave Limited",
+"cost": 32612000.0,
+"fv": 32627000.0
+},
+{
+"entity": "Electronic Equipment, Instruments & Components Evolv Technologies Evolv Technologies Holdings, Inc.",
+"cost": 5876000.0,
+"fv": 5892000.0
+},
+{
+"entity": "Health Care Technology, Merative, Merative L.P.,",
+"cost": 4078000.0,
+"fv": 4094000.0
+},
+{
+"entity": "Health Care Providers & Services Xanitos Xanitos TopCo, LLC",
+"cost": 100000.0,
+"fv": 117000.0
+},
+{
+"entity": "Software Zafin Zafin Labs Americas Incorporated",
+"cost": 16423000.0,
+"fv": 16443000.0
+},
+{
+"entity": "Health Care Providers & Services EmpiRx EmpiRx Health LLC",
+"cost": 13534000.0,
+"fv": 13555000.0
+},
+{
+"entity": "Commercial Services & Supplies SafetyCo HEF Safety Ultimate Holdings, LLC",
+"cost": 65000.0,
+"fv": 87000.0
+},
+{
+"entity": "Containers & Packaging Berry Tapes & Adhesives Vybond Buyer, LLC",
+"cost": 16856000.0,
+"fv": 16879000.0
+},
+{
+"entity": "Health Care Providers & Services Tarrytownt Tarrytown Acquisition Holdings, LLC",
+"cost": 3551000.0,
+"fv": 3574000.0
+},
+{
+"entity": "Machinery Flow Control Flow Control Intermediate Holdings 2.0, LLC",
+"cost": 5982000.0,
+"fv": 6005000.0
+},
+{
+"entity": "Diversified Consumer Services Regis Regis Corporation",
+"cost": 6563000.0,
+"fv": 6588000.0
+},
+{
+"entity": "Pharmaceuticals Avid Bioservices Space Finco, Inc.",
+"cost": 17088000.0,
+"fv": 17114000.0
+},
+{
+"entity": "Technology Hardware, Storage & Peripherals Accelevation, LLC Accelevation LLC",
+"cost": 6248000.0,
+"fv": 6274000.0
+},
+{
+"entity": "Containers & Packaging Truvant NPPI Buyer, LLC",
+"cost": 21388000.0,
+"fv": 21417000.0
+},
+{
+"entity": "Household Durables, Polywood, Poly-Wood, LLC,",
+"cost": 2668000.0,
+"fv": 2699000.0
+},
+{
+"entity": "Aerospace & Defense Sperry Acquisition, LLC Sperry Acquisition, LLC",
+"cost": 8805000.0,
+"fv": 8839000.0
+},
+{
+"entity": "Software Align RMCF V CIV L, L.P.",
+"cost": 500000.0,
+"fv": 534000.0
+},
+{
+"entity": "Health Care Providers & Services Maxor National Pharmacy Service LLC, Maxor Topco, L.P.",
+"cost": 50000.0,
+"fv": 86000.0
+},
+{
+"entity": "Health Care Equipment & Supplies NeuroPace NeuroPace, Inc.",
+"cost": 19910000.0,
+"fv": 19949000.0
+},
+{
+"entity": "IT Services GrayMatter Systems Genius Bidco LLC",
+"cost": 77000.0,
+"fv": 116000.0
+},
+{
+"entity": "IT Services, GrayMatter Systems, Genius Bidco LLC,",
+"cost": 6172000.0,
+"fv": 6213000.0
+},
+{
+"entity": "Construction & Engineering Dynagrid Megavolt Borrower, LLC",
+"cost": 4055000.0,
+"fv": 4098000.0
+},
+{
+"entity": "Ground Transportation Olympus Terminals Olympus Terminals Holdco II LLC",
+"cost": 10593000.0,
+"fv": 10636000.0
+},
+{
+"entity": "Health Care Providers & Services RHA Health Services Pace Health Companies, LLC",
+"cost": 5129000.0,
+"fv": 5174000.0
+},
+{
+"entity": "Software The Weather Company Zephyr Buyer, L.P.",
+"cost": 29595000.0,
+"fv": 29640000.0
+},
+{
+"entity": "Trading Companies & Distributors LSG Lindstrom, LLC",
+"cost": 11251000.0,
+"fv": 11297000.0
+},
+{
+"entity": "Commercial Services & Supplies HMA Health Management Associates Superholdings, Inc.",
+"cost": 4309000.0,
+"fv": 4356000.0
+},
+{
+"entity": "Interactive Media & Services, Securus Technologies Holdings, Inc., Aventiv Technologies, LLC (fka Securus Technologies Holdings, LLC),",
+"cost": 2195000.0,
+"fv": 2242000.0
+},
+{
+"entity": "Professional Services DCM Services DCM Parent, LLC",
+"cost": 4933000.0,
+"fv": 4982000.0
+},
+{
+"entity": "Aerospace & Defense Sperry Acquisition, LLC Sperry Parent Holdings, L.P.",
+"cost": 109000.0,
+"fv": 163000.0
+},
+{
+"entity": "Beverages Ronnoco Coffee Ronnoco Holdings, Inc.",
+"cost": 5849000.0,
+"fv": 5904000.0
+},
+{
+"entity": "Professional Services Lexitas Chronicle Parent LLC",
+"cost": 7286000.0,
+"fv": 7341000.0
+},
+{
+"entity": "Health Care Technology, MRO Parent Corporation, MRO Parent Corporation,",
+"cost": 4171000.0,
+"fv": 4227000.0
+},
+{
+"entity": "Health Care Providers & Services All Star All Star Recruiting Locums, LLC",
+"cost": 9738000.0,
+"fv": 9795000.0
+},
+{
+"entity": "Commercial Services & Supplies IRP SMC IR Holdings, LLC",
+"cost": 183000.0,
+"fv": 242000.0
+},
+{
+"entity": "Trading Companies & Distributors ORS Nasco WC ORS Buyer, Inc.",
+"cost": 9251000.0,
+"fv": 9313000.0
+},
+{
+"entity": "Food Products Hive Hive Intermediate, LLC",
+"cost": 13476000.0,
+"fv": 13540000.0
+},
+{
+"entity": "Software Uplight Uplight, Inc.",
+"cost": 10235000.0,
+"fv": 10299000.0
+},
+{
+"entity": "Media Wilson Language Training Owl Parent Holdings, LLC",
+"cost": 100000.0,
+"fv": 166000.0
+},
+{
+"entity": "Insurance, High Street Insurance, High Street Buyer, Inc.,",
+"cost": 28623000.0,
+"fv": 28691000.0
+},
+{
+"entity": "Electrical Equipment International Wire Group IW Buyer LLC",
+"cost": 7036000.0,
+"fv": 7105000.0
+},
+{
+"entity": "Food Products Amylu Foods Amylu Borrower Sub, LLC",
+"cost": 11038000.0,
+"fv": 11113000.0
+},
+{
+"entity": "Media KL Charlie Co-Invest, L.P",
+"cost": 220000.0,
+"fv": 296000.0
+},
+{
+"entity": "Health Care Providers & Services KureSmart Clearway Corporation (f/k/a NP/Clearway Holdings, Inc.)",
+"cost": 132000.0,
+"fv": 209000.0
+},
+{
+"entity": "Health Care Providers & Services Team Select TS Investors, LLC",
+"cost": 26949000.0,
+"fv": 27031000.0
+},
+{
+"entity": "Pharmaceuticals Alcresta Therapeutics Inc. Alcresta Holdings, LP",
+"cost": 117000.0,
+"fv": 208000.0
+},
+{
+"entity": "Machinery Ideal Tridon Ideal Components Acquisition, LLC",
+"cost": 13552000.0,
+"fv": 13645000.0
+},
+{
+"entity": "Diversified Consumer Services US Legal Support USLS Acquisition, Inc.",
+"cost": 33997000.0,
+"fv": 34093000.0
+},
+{
+"entity": "Commercial Services & Supplies Best Trash Bingo Group Buyer, Inc.",
+"cost": 11965000.0,
+"fv": 12062000.0
+},
+{
+"entity": "Software EVER.AG Corporation EVER.AG Corporation",
+"cost": 20343000.0,
+"fv": 20448000.0
+},
+{
+"entity": "Food Products Hive FCP-Hive Holdings, LLC",
+"cost": 448000.0,
+"fv": 554000.0
+},
+{
+"entity": "Professional Services G&A G&A Partners Holding Company II, LLC",
+"cost": 8831000.0,
+"fv": 8939000.0
+},
+{
+"entity": "Insurance Spectrum Automotive Shelby 2021 Holdings Corp.",
+"cost": 20090000.0,
+"fv": 20203000.0
+},
+{
+"entity": "Personal Care Products RoC Skincare RoC Holdco LLC",
+"cost": 16348000.0,
+"fv": 16464000.0
+},
+{
+"entity": "Trading Companies & Distributors ORS Nasco WC ORS Holdings, L.P.",
+"cost": 100000.0,
+"fv": 220000.0
+},
+{
+"entity": "Health Care Providers & Services Maxor National Pharmacy Service LLC, Maxor National Pharmacy Services, LLC",
+"cost": 12722000.0,
+"fv": 12864000.0
+},
+{
+"entity": "Biotechnology Mannkind Corporation Mannkind Corporation",
+"cost": 0.0,
+"fv": 146000.0
+},
+{
+"entity": "Personal Care Products Suave Silk Holdings I Corp.",
+"cost": 100000.0,
+"fv": 247000.0
+},
+{
+"entity": "Diversified Consumer Services Club Car Wash Club Car Wash Operating, LLC",
+"cost": 34023000.0,
+"fv": 34184000.0
+},
+{
+"entity": "Media Acosta Acosta Holdings Corp.",
+"cost": 634000.0,
+"fv": 811000.0
+},
+{
+"entity": "Specialty Retail EG Group EG Global Finance PLC",
+"cost": 6378000.0,
+"fv": 6557000.0
+},
+{
+"entity": "Chemicals Heubach Heubach Holdings USA LLC",
+"cost": 54000.0,
+"fv": 239000.0
+},
+{
+"entity": "Electrical Equipment Brush Group Brush Group Bidco Limited",
+"cost": 7784000.0,
+"fv": 7976000.0
+},
+{
+"entity": "Health Care Equipment & Supplies Medical Guardian Medical Guardian, LLC",
+"cost": 35422000.0,
+"fv": 35631000.0
+},
+{
+"entity": "Health Care Technology, Gainwell, Gainwell Acquisition Corp. (Milano Acquisition Corp),",
+"cost": 16079000.0,
+"fv": 16296000.0
+},
+{
+"entity": "Financial Services Nexity Evoriel",
+"cost": 3703000.0,
+"fv": 3930000.0
+},
+{
+"entity": "Electronic Equipment, Instruments & Components Team LINX, LLC TeamLINX Buyer, LLC",
+"cost": 17526000.0,
+"fv": 17754000.0
+},
+{
+"entity": "Financial Services Renew Financial LLC (f/k/a Renewable Funding, LLC) Renew JV LLC",
+"cost": 93000.0,
+"fv": 337000.0
+},
+{
+"entity": "Air Freight & Logistics Primeflight PrimeFlight Acquisition, LLC",
+"cost": 25911000.0,
+"fv": 26209000.0
+},
+{
+"entity": "Software Litify Litify Holdings Inc.",
+"cost": 107000.0,
+"fv": 438000.0
+},
+{
+"entity": "Personal Care Products Suave Silk Holdings III Corp.",
+"cost": 24514000.0,
+"fv": 24868000.0
+},
+{
+"entity": "Health Care Technology, Acentra, Acentra Holdings, LLC (fka CNSI Holdings, LLC),",
+"cost": 20885000.0,
+"fv": 21270000.0
+},
+{
+"entity": "Health Care Providers & Services ExactCare ExactCare Parent, Inc.",
+"cost": 17226000.0,
+"fv": 17627000.0
+},
+{
+"entity": "Diversified Consumer Services US Legal Support US Legal Support Investment Holdings, LLC",
+"cost": 632000.0,
+"fv": 1270000.0
+},
+{
+"entity": "Hotels, Restaurants & Leisure, The Club Company, Eldrickco Limited,",
+"cost": 25395000.0,
+"fv": 26363000.0
+},
+{
+"entity": "Professional Services Health & Safety Institute HSI Halo Holdings, LLC",
+"cost": 46000.0,
+"fv": 1394000.0
+},
+{
+"entity": "Passenger Airlines Merx Aviation Finance, LLC Merx Aviation Finance, LLC",
+"cost": 58965000.0,
+"fv": 68616000.0
+}
+]
