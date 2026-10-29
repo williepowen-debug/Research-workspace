@@ -102,3 +102,15 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-28T20:40:09-04:00	SIG-W-20261027-060	acted	source=INBOX_WALTER	Integrated as KB-566: single upscale-casual tenant Ch.11, DIP conditional; checked against OPEN instruments (none name restaurants/True Food). Not broad restaurant-demand evidence (Sept Census restaurants +3.41% real). Relay read; primaries not re-fetched.
 2026-10-28T21:06:18-04:00	SIG-W-20261029-006	acted	source=INBOX_WALTER	KB-CARL-571; no prediction change.
 2026-10-28T21:06:18-04:00	SIG-W-20261029-008	acted	source=INBOX_WALTER	KB-CARL-572; CRL-10 unchanged.
+2026-10-29T09:08:34-04:00	2026-10-28_from-CRUISE_RCL-Q3-premium-cruise-demand-firm	noted	source=INBOX_CRUISE	No OPEN instrument names cruise; top-leg context. research/2026-10-29_inbox/RULINGS.md #1
+2026-10-29T09:08:34-04:00	2026-10-28_from-DEWEY_bfh-q3-card-leg	deferred 2026-11-13	source=INBOX_DEWEY	CARL-DR1 11/13 grades the three-issuer set; BFH not a CRL-20 name. research/2026-10-29_inbox/RULINGS.md #2
+2026-10-29T09:08:34-04:00	2026-10-28_from-HOMER_fannie-MF-0.62-provision-plus-72	acted	source=INBOX_HOMER	STATUS V3 superseded; KB-580; no V3 letter. research/2026-10-29_inbox/RULINGS.md #3
+2026-10-29T09:08:34-04:00	2026-10-28_from-PHAN_fed-shed-bnpl-late-26pct-flat	acted	source=INBOX_PHAN	Ruling (c) both houses; KB-581; RED staged. research/2026-10-29_inbox/RULINGS.md #4
+2026-10-29T09:08:34-04:00	2026-10-28_from-PHAN_file-sweep-rulings-owed	acted	source=INBOX_PHAN	P02 (a); provider home (a); P01 PYMNTS no; P07 county DA no. research/2026-10-29_inbox/RULINGS.md #5
+2026-10-29T09:08:34-04:00	2026-10-28_from-PHAN_provider-tsv-is-the-live-home	acted	source=INBOX_PHAN	PROVIDER.tsv canonical. research/2026-10-29_inbox/RULINGS.md #6
+2026-10-29T09:08:34-04:00	2026-10-28_from-PHAN_shared-subagent-closeout-runner-proposal	deferred 2026-11-03	source=INBOX_PHAN	Docket row 11/03; process build outside bounded wake. research/2026-10-29_inbox/RULINGS.md #7
+2026-10-29T09:08:34-04:00	2026-10-28_from-REGINALD_WQ228-join-fields-accepted	acted	source=INBOX_REGINALD	STATUS fintech row + 10/30 docket row updated. research/2026-10-29_inbox/RULINGS.md #8
+2026-10-29T09:08:34-04:00	2026-10-28_from-STUE_card-line15-parent-read-wording	acted	source=INBOX_STUE	STUE card L15 + step 2 wording applied. research/2026-10-29_inbox/RULINGS.md #9
+2026-10-29T09:08:34-04:00	2026-10-28_to-CARL_MIA-two-consecutive-negative	noted	source=INBOX_MARCO	Threshold MET / mechanism CONFOUNDED; no CARL instrument; V7 context. research/2026-10-29_inbox/RULINGS.md #10
+2026-10-29T09:08:34-04:00	2026-10-29_from-GIG_closeout-adopted-and-four-asks	acted (asks 2-4) / deferred 2026-11-03 (ask 1)	source=INBOX_GIG	No band edit; Dave 11/04 graded on both readings. research/2026-10-29_inbox/RULINGS.md #11
+2026-10-29T09:08:34-04:00	2026-10-29_from-POP_closeout-adopted-docket-asks-and-10-28-findings	acted	source=INBOX_POP	Five docket rows; runner deferred 11/03. research/2026-10-29_inbox/RULINGS.md #12
