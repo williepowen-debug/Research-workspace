@@ -170,7 +170,8 @@ for line in kb.splitlines():
     elif DATE.match(f[9]) and f[8] in ("ACTIVE", "CONFIRMED") and f[9] < __import__("datetime").date.today().isoformat(): flag("AMBER", "schema", f"KB {f[0]}: past Stale_By {f[9]} and still {f[8]}: re-verify, or mark STALE")
 BAND = re.compile(r"^\s*([<>]=?)\s*(-?\d+(?:\.\d+)?)\s*%?\s*$")
 DISCLOSED = {"VX-CREED-4.01": "indicative ORANGE held after the 8/27 basis change (see its note)",
-             "VX-CREED-9.03": "bands uncalibrated for the CBRE provider (see its note)"}
+             "VX-CREED-9.03": "bands uncalibrated for the CBRE provider (see its note)",
+             "VX-CREED-9.02": "GAP held by Will's 7/21 decision; the cell quotes an UNADOPTED proxy, and its '>-15' bands mean a decline past 15%, which this mechanical read cannot parse (see its note; added 2026-10-28)"}
 def _trip(op, x, b): return {">": x > b, ">=": x >= b, "<": x < b, "<=": x <= b}[op]
 for line in (R("workbook/VX.tsv") or "").splitlines():
     f = line.split("\t")

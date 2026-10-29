@@ -21,7 +21,7 @@
 | **~early Nov 2026** | **Trepp October DQ — decides `CREED-T-01a`** (leg 2 needs ≥ 12.01) + `PRED-CREED-001` (Kernel-pinned) | ✅ PREREG written 2026-10-22: `registry/PREREG_2026-11_TREPP_PRINT.md`; grade below its §6; grade at Table 2, 2dp |
 | **after the Trepp October DQ (~early Nov)** | **Build the ABS-EE office lease-before-maturity screen** (Will-approved 2026-10-22 17:30 ET; scope `research/2026-10-22_ABS-EE_LEASE_SCREEN_SCOPE.md`) | ~3–5 h; positive control vs Trepp's LA figures first |
 | **2026-11-12** (Thu) | Illinois Center (Chicago) sheriff foreclosure sale (CASE-CREED-153) | Calendar lead; verify continuance before treating as a clearing event |
-| **~mid/late Oct 2026** | Q3 bank earnings (FLG, EGBN, OZK, VLY) | 🟠 **PARTLY READ (sweep 10/28):** OZK received via the OZK desk (KB-073); FLG received as WALTER SIG-W-20261023-005 (REGINALD-owned, no CREED row). **EGBN and VLY not read by CREED**; the VLY MF-DPD location/type (WQ-311) stays an open unknown — read REGINALD's Q3 notes before any property/metro claim |
+| **~mid/late Oct 2026** | Q3 bank earnings (FLG, EGBN, OZK, VLY) | ✅ **READ 10/28:** OZK (KB-073), FLG (SIG-W-20261023-005), **EGBN + VLY (KB-087)**: ≥ ~$29.3M of VLY's MF past-due cohort rolled to nonaccrual (~27% partial charge-off); ~$64–68M unplaced; location undisclosed. Next: Q3 Call Reports (~10/30) and VLY 10-Q (~11/6–11/10) settle WQ-311 |
 | **10/29 → ~11/7** | mREIT Q3 results / Q4 dividends — **4 of 11 in by 10/28** (KB-086); BXMT 10/29, NREF ~11/5, STWD + ACRE 11/6, RC/GPMT undated | `CREED-T-08b` needs cohort-wide erosion; re-grade when the census completes |
 
 ## ~~Awaiting Will~~ — RULED 2026-09-28 (Will, verbatim *"Approve WQ-303 at 4 and WQ-304 option B"*)

@@ -23,7 +23,8 @@ Pins are ROW-scoped (Sitting 2): `PRED-CREED-001/004/007`. **004 and 007 were GR
 6. **3000 Post Oak** B18/C9 September 10-D loss lines unread · **Owed from 10/01:** lender-loss-beyond-price KB rows, holder map · ABS-EE build AFTER the October print · Plaza Continental lien ownership UNKNOWN.
 7. ✅ DONE 10/28: DEWEY two reports integrated (KB-075/076) · COR-20261022-27 receipted · DAEDALUS WQ-508 lines accepted.
 
-## ⚖️ AWAITING WILL — 0 (all four 10/22 units settled the same day)
+## ⚖️ AWAITING WILL — 1 (VX-9.02 proxy, 10/28; the four 10/22 units settled the same day)
+🆕 **(10/28) `VX-9.02` office price index — adopt the free proxy?** Will's 7/21 decision 4 left it a GAP with *"revisit if a free proxy appears"*. One appeared: Green Street's public all-property CPPI (Sep −0.1% MoM / +4.7% YoY, PRIMARY) + office −33% from the 2022 peak (CRE Daily, SECONDARY; office is not in the public release). Adopting would read ORANGE on the −25/−35 bands. CREED's lean: adopt as a SECONDARY-tier proxy with the tier on the cell; Will decides.
 **Will 17:22** *"Lets move on from it"* → Trepp form PARKED (premise corrected). **Will 17:30** *"okay go ahead now"* on CREED's suggestion → **RSNRES ADOPTED** as `VX-8.01` (paired series, no band; `KB-074`) · **ABS-EE: build AFTER the October print** (CALENDAR) · **pension route ADDED** (CLAUDE.md Route Matrix, info-only → SHADE + PROME; `_NETWORK.md` is PROME's to reflect). Rulings packet: `PROME/inbox/processed/2026-10-22_from-CREED_WQ494-rulings.md` (consumed by PROME). *(Standing offer, not decided: de-date the CLAUDE.md Current Rails S8a line into a pointer to `VX-CREED-7.01`.)*
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."*
 
@@ -89,12 +90,10 @@ Will's 005 CRE leg (`8c5ffcfb3`, published as SIG-W-20261022-015) · sweep six f
 | 16 | **Trigger IDs on every FLOW row whose trigger is a CREED-T** | Rows 01–03 carry them; 05 (T-04?) and the rest do not. `creed_selfcheck` check ① is ID-keyed. |
 | 17 | **CMBS conduit new-issue AAA/BBB− spreads (shared with LIQUID, `KB-LIQ-090`)** | ⛔ Blocked on a data source, not effort. |
 | 24 | **$1.0B major-fund census** (WQ-100, provisional-unsized) | ~10-row table of open-end CRE vehicles that ever gated, GAV at gate date. |
-| 25 | **Trez Capital + CFIT gate adjudications** | Trez per-fund GAV (5 funds); CFIT: read the base of its stated limit (a cap below the limit IS a gate under D2). |
 | 26 | **Render the Trepp PDF charts** | The one unchecked shape for the August newly-delinquent $ total (`VX-3.05`). The PDFs are archived. |
-| 27 | **3000 Post Oak loss basis** (`KB-CREED-046`, `CASE-CREED-001`) | $80M senior → $11.4M net; the vulnerability map's "$64.8M trust loss" is unsourced. Read a servicer remittance report before citing either. |
-| 29 | 🆕 **`cases/` residual flags (88 items, 44 cases)** | Value-mark bases, loss bases, vocab gaps (e.g. receivership). Owed before anyone quotes a value or loss from the ledger. |
+| 29 | **`cases/` residual flags — DISPOSITIONED 10/28; residue only** | 22 CANNOT-FIX cells (each names its outside document: deeds, PACER, trust filings, OZK comments) still bar quoting those values/losses; 3 new conflicts: CASE-009 BofA Plaza LA sale date (Jan-26 vs 6/16), trigger consistency 019/025/055, Post Oak '$45M' appraisal vs assessor. `CASE_NOTES.md` residual block. |
 
-*Closed and removed 10/28 (sweep): #7 evals decontamination — DONE by the 10/22 v2 rebuild (contamination rule v2, 4/4 PASS; CREED owns it, `evals/README.md` §v2).* *Closed and removed 9/29: #3 band-vs-value predicate (built as check ③) · #15 SCHEMA two-clock header · #22/#23/#28 read-cap items.*
+*Closed and removed 10/28: #25 Trez + CFIT — CFIT is proration at its cap (not a gate), Trez closed not counted (2025-dated, Canadian; KB-088). #27 3000 Post Oak loss — REPRODUCED at the three trustee reports ($64,782,869.38; KB-046, CASE_EVENTS). #7 evals decontamination — DONE by the 10/22 v2 rebuild (contamination rule v2, 4/4 PASS; CREED owns it, `evals/README.md` §v2).* *Closed and removed 9/29: #3 band-vs-value predicate (built as check ③) · #15 SCHEMA two-clock header · #22/#23/#28 read-cap items.*
 
 ## 📬 MAIL STATE (10/28; canonical record `board_log.tsv`)
 - **In:** drained 45/45 (DEWEY v2, DAEDALUS WQ-508, 43 WALTER incl. the 10/27 Trepp/Bisnow batch) → `inbox/processed/` + `inbox/WALTER/processed/`. Inbox empty.

@@ -1083,7 +1083,11 @@
 - *notes:* First IQHQ asset handed back to a lender.
 
 
-## Residual flags after the 2026-09-29 correction pass (NOT applied — owed at the next owner edit)
+## Residual flags after the 2026-09-29 correction pass — ✅ DISPOSITIONED 2026-10-28 (patch applied; see the block below this heading)
+
+> **2026-10-28 disposition (Will-directed: "handle/fix these now").** All 88 flags dispositioned by a repo-evidence-only helper, applied fail-closed (each cell changed only where its current value matched exactly): **FIX 16 · RELABEL 30 · VOCAB 6 (README vocabulary extended: RECEIVERSHIP, FORECLOSED, RECEIVER_APPOINTED, LEASE_UP_FAILURE, EQUITY_PARTNER_EXIT; MATURITY_DEFAULT and MIXED_USE defined) · OBSOLETE 14 (already settled) · CANNOT-FIX 22 (each names the outside document needed).** 49 ledger cells changed; statuses moved to the new tokens: 054 + 151 → RECEIVERSHIP, 050 + 002 → FORECLOSED. Row-level record: `research/data/2026-10-28_case_residual_flags_patch.tsv`; summary `research/2026-10-28_CASE_RESIDUAL_FLAGS_SUMMARY.md`. **New conflicts found by the pass, NOT resolved:** CASE-009 (Bank of America Plaza, LA): OZK's 10/28 sweep says sold out of foreclosure Jan-2026 vs the ledger's 2026-06-16 receivership sale · trigger consistency across 019 / 025 / 055 under the new LEASE_UP_FAILURE rule · 3000 Post Oak's 'interim appraisal $45M' may be the Harris County ~$45M assessor value (different basis). ⚠️ The 22 CANNOT-FIX items still bar quoting those cells as values or losses.
+
+**Original heading (kept for the trail):** Residual flags after the 2026-09-29 correction pass (NOT applied — owed at the next owner edit)
 
 *The source/holder/geography/relationship correction pass (Will-directed 9/29; CATO CD1–CD3) applied only those field classes. The three proposal agents listed what else they found: 88 items across 44 cases. Out-of-scope fields (value marks, loss basis, vocab, status) are listed here and were not fixed.*
 

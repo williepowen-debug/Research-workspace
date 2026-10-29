@@ -39,11 +39,11 @@ It holds one row per named distressed property or loan, so connections *across* 
 | `CASE_NOTES.md` | one section per case | **value marks, sources, and every verifier finding, verbatim** (the seed row beside the verifier's reading). `CASES.tsv` points here: **read a case's section before citing any mark or loss.** Also lists the HELD candidates and why |
 
 **Controlled vocabularies** (extend by editing this list in the same commit):
-- `property_type`: OFFICE · MULTIFAMILY · RETAIL · LODGING · INDUSTRIAL · MIXED_USE · LIFE_SCIENCE · DATA_CENTER · LAND · OTHER · UNKNOWN *(UNKNOWN declared 2026-09-29: rule 2 already required it; 7 rows use it)*
-- `trigger` (primary first; `+` joins a secondary): TENANT_EXIT · MATURITY_DEFAULT · RATE_RESET · OPERATING_SHORTFALL · FRAUD_OR_LEGAL · SPONSOR_WALKAWAY · UNKNOWN
+- `property_type`: OFFICE · MULTIFAMILY · RETAIL · LODGING · INDUSTRIAL · MIXED_USE *(two or more uses each named as material in the source, no dominant use; defined 2026-10-28)* · LIFE_SCIENCE · DATA_CENTER · LAND · OTHER · UNKNOWN *(UNKNOWN declared 2026-09-29: rule 2 already required it; 7 rows use it)*
+- `trigger` (primary first; `+` joins a secondary): TENANT_EXIT · MATURITY_DEFAULT · RATE_RESET · OPERATING_SHORTFALL · FRAUD_OR_LEGAL · SPONSOR_WALKAWAY · LEASE_UP_FAILURE *(added 2026-10-28: a new/redeveloped building that never reached occupancy, where the source STATES vacancy since completion; a cause inferred from vacancy alone stays UNKNOWN)* · EQUITY_PARTNER_EXIT *(added 2026-10-28: an equity partner/LP exits or stops funding for its own portfolio reasons, stated as NOT sponsor or property distress)* · UNKNOWN *(MATURITY_DEFAULT defined 2026-10-28 = the loan's FIRST default is failure to repay at maturity, with debt service current before it; a loan delinquent or charged off before maturity is not a maturity default)*
 - `holder_type`: CMBS_CONDUIT · CMBS_SASB · CRE_CLO · BANK · DEBT_FUND · INSURER · MREIT_BALANCE_SHEET · GSE · UNKNOWN
-- `latest_status`: WATCHLIST · SPECIAL_SERVICING · DEFAULT · FORECLOSURE · REO · NOTE_SALE · SOLD · MODIFIED · EXTENDED · PAID_OFF · BANKRUPTCY · UNKNOWN
-- `event_type`: ACQUIRED · ORIGINATED · LEASE_EXPIRY · TENANT_VACATE · TRANSFER_SS · DEFAULT · APPRAISAL · FORECLOSURE · REO · LISTED · SALE · NOTE_SALE · MODIFICATION · EXTENSION · BANKRUPTCY_FILING · LOSS_REALIZED · OTHER
+- `latest_status`: WATCHLIST · SPECIAL_SERVICING · DEFAULT · RECEIVERSHIP *(added 2026-10-28: a court-appointed receiver controls the property; borrower still holds title)* · FORECLOSURE *(in process: complaint filed / sale scheduled; borrower still holds title)* · FORECLOSED *(added 2026-10-28: foreclosure COMPLETED, post-sale title holder not established; REO when the lender/trust took title, SOLD when a third party bought)* · REO · NOTE_SALE · SOLD · MODIFIED · EXTENDED · PAID_OFF · BANKRUPTCY · UNKNOWN
+- `event_type`: ACQUIRED · ORIGINATED · LEASE_EXPIRY · TENANT_VACATE · TRANSFER_SS · DEFAULT · APPRAISAL · FORECLOSURE · REO · LISTED · SALE · NOTE_SALE · MODIFICATION · EXTENSION · RECEIVER_APPOINTED *(added 2026-10-28)* · BANKRUPTCY_FILING · LOSS_REALIZED · OTHER
 
 ## Intake
 
