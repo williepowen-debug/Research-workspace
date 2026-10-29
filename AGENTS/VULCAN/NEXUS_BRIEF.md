@@ -2,13 +2,14 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-10-26T23:40:18-04:00 | **STATUS commit:** 00f36db08
-**Variant:** FULL. Final closeout at Will's request. Primary Anthropic pretraining security delay integrated with dates/model/distinctness and contract-effect limits; 11 late packets consumed. Google method and USD inventory remain complete; exact market-wide denominator remains INCOMPLETE. No new market refresh, trigger, score, trade, monitor or research commission.
+**As of:** 2026-10-29T09:09:21-04:00 | **STATUS commit:** d0a2554ed
+**Variant:** FULL. PROME-spawned L800 hyperscaler funding-gap re-cut at the Q3 prints [KB-318..325]: no funding-forced capex cut; all five payers now raise outside money (MSFT bond launched 10/29; META $37.5B equity-linked; ORCL $20B cap through FY30). Composite and S5 unchanged. AMZN and Samsung print after/at 10/29; cluster grade owed.
 
 ## CROSS-DOMAIN
 
 | Desk | Material finding and limit | Source |
 |---|---|---|
+| BOND / LIQUID / BROCK / HENRY | L800 [10/29]: MSFT Q1 FY27 gap +$6.5B, FY27E ≈ −$1.5B cash / −$26.1B headline; ≈ $170B capex figure = supply-timing trim, still up YoY. MSFT 10-tranche USD bond launched 10/29, size blank (≥ $25B reported, T2). GOOGL Q3 gap −$12.0B, guide $195–205B held, DC backstops $48.0B notional. META $25.0B forward equity at $625 + $12.5B mandatory convertible priced. ORCL market raises capped at $20B FY27–FY30; vendor financing/customer hardware/prepayments fill the rest (INFERRED ~$50B+). No S5 letter met. | KB-318..323; L800 report |
 | WALTER | Discovery/dedupe packet: three primary material omissions plus qualified supply/power and proposed-regulatory findings. Prior Meta/SpaceX/Anthropic work not recounted; March AWS events rejected as fresh October news. | Report; WALTER packet |
 | BROCK / LIQUID | Nebius entered $3.5B Citi senior-secured facility October 22; 364-day maturity, initial SOFR+275bp, contractual increase up to 350bp plus adjustments. Draws not disclosed. Funding-access counterevidence with refinancing risk; step-up is not launch flex or CRWV comparable. | KB-300; bounded owner packets |
 | WATT | PG&E September pipeline 12,870 MW and separate 174 MW online since 2024; deferrals beyond initial 1.8 GW. No named contracted firm-capacity removal. Qualified Bloom first-power block is not commissioned compute/full-campus MW; NERC registry petition not approval. | KB-301/303/306; WATT packet |
@@ -39,11 +40,9 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 
 | When | What | Whose |
 |---|---|---|
-| 2026-10-26 | Catch-up residuals: GOOGL cadence method and KB-096 issuance | VULCAN, PROME |
-| 2026-10-27 | ZHAO perimeter-instrument re-check (owner next scheduled look) | ZHAO(owner),VULCAN,HAWK |
-| 2026-10-28 | EXIT_PROTOCOL next dated REWRITE — on the FIRST of {the §4b successor flip resolving at the hyperscaler cluster · the 11/15 backstop} — plus PROME's disinflationary-productivity falsifier (open since 8/21) | PROME |
-| 2026-10-28 | HYPERSCALER Q3 CLUSTER (MSFT · GOOGL · META · AMZN) — the SUCCESSOR bidirectional flip (EXIT_PROTOCOL §4b) | VULCAN, VIOLET, HENRY |
-| 2026-10-28 | SK hynix Q3 (10/28 09:00 KST) + Samsung Q3 full results (10/29) — S2 upgrade check | VULCAN, HENRY, CARL, ZHAO |
+| 2026-10-29 | EXIT_PROTOCOL next dated REWRITE — on the FIRST of {the §4b successor flip resolving at the hyperscaler cluster · the 11/15 backstop} — plus PROME's disinflationary-productivity falsifier (open since 8/21) | PROME |
+| 2026-10-29 | HYPERSCALER Q3 CLUSTER (MSFT · GOOGL · META · AMZN) — the SUCCESSOR bidirectional flip (EXIT_PROTOCOL §4b) | VULCAN, VIOLET, HENRY |
+| 2026-10-29 | SK hynix Q3 (10/28 09:00 KST) + Samsung Q3 full results (10/29) — S2 upgrade check | VULCAN, HENRY, CARL, ZHAO |
 | 2026-10-30 | GPU-rental panel reading 8 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
 | 2026-10-30 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 8 of 8 (S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-11-06 | GPU-rental panel reading 9 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |

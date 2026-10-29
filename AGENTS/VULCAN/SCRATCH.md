@@ -1,4 +1,19 @@
-> # ⛔ 2026-10-26T23:40:18-04:00 — READ THIS BLOCK FIRST. Will-directed final closeout.
+> # ⛔ 2026-10-29T09:08:57-04:00 — READ THIS BLOCK FIRST. PROME-spawned L800 funding-gap re-cut (prome-90).
+
+▶ START HERE: L800 report `reports/2026-10-29_L800_funding-gap-Q3-prints.md` [KB-318..325]. Cluster §4b grade, EXIT rewrite and S2 hynix/Samsung grade are re-dated to 10/29 and still OWED after AMZN and Samsung print tonight. MSFT bond (424B2 acc 0001193125-26-437008) prices later: check for any flex vs talk. No push: PROME pushes at its closeout.
+
+RECONCILE f8efc80bb8fb685dec11964edb7714af8b5eb0420fa22ffbac794ccb8183167e STATUS UPDATED: Last Updated plus S1 and S5 live reads carry the Q3 prints (MSFT supply-timing trim still up YoY, MSFT bond launch, META $37.5B equity-linked, ORCL $20B cap); 15/25, S5 4 n=2 and all OPEN obligations unchanged. STATUS commit d0a2554ed.
+RECONCILE f8efc80bb8fb685dec11964edb7714af8b5eb0420fa22ffbac794ccb8183167e THESIS UNCHANGED: no score, verdict, stage or resolver moved; the prints add funding-access evidence already inside S5's stage text (payers raise, developers break first). Payer backstops of the developer tier recorded in KB-321, not a new stage.
+RECONCILE f8efc80bb8fb685dec11964edb7714af8b5eb0420fa22ffbac794ccb8183167e EXIT UNCHANGED: §4b cluster incomplete until AMZN; no capex cut YoY, no kill leg completed; rewrite row re-dated with the cluster to 10/29, not a cosmetic bump; 11/15 backstop unchanged.
+
+- Boot: four charters read to eof (CLAUDE 4 pages, AGENTS 1, USER 2, VULCAN CLAUDE 6); boot.py rc0 with the leg-8 META model FAIL carried. Runtime Claude Code, Opus 5.5.
+- Drain: 2 general (DEWEY MSFT XBRL packets, ZHAO 10/29 truce instrument) + 18 WALTER cards; 7 acted, 1 noted, 5 info-only, 5 skipped; all git-mv to processed.
+- DEWEY base MSFT/GOOGL cells do not replay on stated method; packet 2026-10-29_from-VULCAN to DEWEY inbox (committed). LESSONS L-81.
+- Spawn prompt said META printed 10/28; issuer 8-K says 10/21. Recorded in the report and L-81.
+- push delegated to PROME 09:09 ET (spawn prompt: do not push; PROME pushes at its closeout).
+- 4b CLAUDE.md self-check: no scope, threshold, instrument, routing, step, cadence or ruling change; nothing to edit.
+
+> # ⛔ 2026-10-26T23:40:18-04:00 — prior block. Will-directed final closeout.
 
 ▶ START HERE: Session closed at Will's request. Google method and four-parent USD inventory persisted in 4c0749962; exact matched market-wide issuance denominator remains INCOMPLETE with original October 26 date. META model failure remains separate. Next existing tests October 27 owner result, October 28–29 earnings/rewrite, October 30 post-close readings. No automatic job or fresh research commission. Final receipt: reports/2026-10-26_final-closeout.md.
 
