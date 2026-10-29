@@ -1,0 +1,43 @@
+{
+  "input_pin": "935b30ab64ba9b089869988dc2a7921e7eea8300",
+  "same_pin_replay": "PASS",
+  "all_prior_capture_prefixes_preserved": "PASS",
+  "frozen_config_byte_equality": "PASS",
+  "review_identity_original_probability_match": "20/20 PASS",
+  "sequential_distinct_slots": "20/20 PASS",
+  "unchanged_previous_reviews": 12,
+  "updated_previous_reviews": [
+    "BRENT/BRT-31",
+    "BOND/BND-32",
+    "HANS/HNS-10",
+    "HANS/HNS-11",
+    "REGINALD/REG-28"
+  ],
+  "score_formula": "1/1 PASS; 19 blank outcomes and scores",
+  "collector_code_changed": false,
+  "verification": "CATO author data checks; independent primary retrieval and arithmetic for BND-32, not independent review of collector implementation",
+  "weekday_checked_paths": [
+    "PROME/DOCKET.tsv",
+    "PROME/GATES.tsv",
+    "PROME/WILL_QUEUE.md",
+    "AGENTS/CATO/CONTINUITY.md",
+    "AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/README.md",
+    "AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/reviews.tsv",
+    "AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/effort.tsv",
+    "AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/probability_interpretations.json",
+    "AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/2026-10-29_source-reads.md",
+    "AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/2026-10-29_bnd32-resolution.json",
+    "AGENTS/CATO/runs/2026-10-01_1105_forecast-pilot/2026-10-29_checks.json"
+  ],
+  "weekday_result": "PASS; all 11 intended paths verified readable",
+  "read_cap_checked_bytes": {
+    "AGENTS/CATO/AGENTS.md": 8039,
+    "AGENTS/CATO/CHARTER.md": 11436,
+    "AGENTS/CATO/CONTINUITY.md": 9936,
+    "CLAUDE.md": 24313,
+    "USER.md": 8458,
+    "AGENTS.md": 5756
+  },
+  "orphan_advisory": "Foreign WALTER registry/research paths and KIMI_BOOT.md; no self-authored packet or outside-directory residue; preserved",
+  "conditional_checks": "No STATUS/ledger, auto-memory or superseded shared numeric-series figure; ledger/memory/consumer checks not triggered"
+}

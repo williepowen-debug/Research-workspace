@@ -42,5 +42,16 @@
     "evidence": "cfa4b420122632a455ee7bf7f3de2b3dd7f5d283:AGENTS/BOND/thesis/PREDICTIONS.tsv BND-32 Confidence and Notes cells",
     "reviewed_by": "CATO",
     "reviewed_at": "2026-10-23"
+  },
+  {
+    "key": "CARL/CRL-32",
+    "commit": "5dc1234ed7c55550a0f579b97fe4511deb476afe",
+    "blob": "9ed14b24d8a5ac820df8b664d51441f864b9e4a5",
+    "confidence": "25% [CONJUNCTION-PRICED] \u2014 saving \u22643.8 twice ~45%, real DPI flat-or-down over two months ~45%, legs positively correlated; joint above the 20% independence product, below the 45% minimum.",
+    "p": 0.25,
+    "reason": "The leading 25% is the joint forecast probability, explicitly repeated in the same-commit letter. The 45% component estimates and 20% independence product are rationale, not replacement probabilities.",
+    "evidence": "5dc1234ed7c55550a0f579b97fe4511deb476afe:AGENTS/CARL/research/2026-10-29_WQ537/LETTER.md section 3; original CRL-32 Confidence cell",
+    "reviewed_by": "CATO",
+    "reviewed_at": "2026-10-29"
   }
 ]

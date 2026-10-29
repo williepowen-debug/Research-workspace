@@ -1,6 +1,6 @@
 {
   "baseline_commit": "391bc5d95fa4e1fe7259aec9bbb08173b99474f4",
-  "through_commit": "27f1f6ccaecf0839a9108b827d141223cef5ba40",
+  "through_commit": "935b30ab64ba9b089869988dc2a7921e7eea8300",
   "config_sha256": "883022876bfefbb86ca253c297a764dc0d01509d24fb71df9c16429042067dde",
   "selected": [
     {
@@ -651,6 +651,126 @@
       "slot": 17,
       "p_original_candidate": 0.6,
       "review": "PENDING"
+    },
+    {
+      "key": "FERT/FERT-13",
+      "commit": "f785f97244ab6f48e55979032bebcc66fb2cf00f",
+      "committed_at": "2026-10-28T23:08:58-04:00",
+      "path": "AGENTS/FERT/workbook/PREDICTIONS.tsv",
+      "blob": "eb8cdfd840353415248e86d90e470d2c120d0d15",
+      "header": [
+        "ID",
+        "Date",
+        "Prediction",
+        "Confidence",
+        "Timeframe",
+        "Resolve_By",
+        "Status",
+        "Date_Resolved",
+        "Outcome",
+        "If_Falsified_Action",
+        "Notes"
+      ],
+      "fields": [
+        "FERT-13",
+        "2026-10-28",
+        "DTN retail MAP, US national average, PRINTS ABOVE $1,000/ton (strictly greater at DTN whole-dollar precision; a $1,000 print does not count) in at least one weekly DTN Progressive Farmer retail fertilizer article published 2026-10-29 through 2026-12-31 inclusive. Same instrument and operator as GATE-FERT-G5 (TRIGGERS T4).",
+        "55%",
+        "9 weekly prints expected (11/04 \u2026 12/30) from $983 [wk Oct 19-23, DTN 10/28, KB-FERT-097]",
+        "2026-12-31",
+        "OPEN",
+        "",
+        "",
+        "If MISS: retire the 'late-December crossing' central case in STATUS and GATE_GRADES; review VX-FERT-02 score toward 2 at the grade (cost push stalled below the line); write down whether the Q4 sulfur settlement (VX-FERT-09) or the Mosaic/CF Q3 reads (GRADING_CARD_2026-11-03) explain the stall. A HIT changes no position: TRADE.md stays FROZEN and G5's own routing (CARL, PROME) carries the event.",
+        "GRADING BASIS (WQ-162, all six elements named \u2014 form copied from FERT-12). SERIES: 'MAP' in the DTN Progressive Farmer weekly retail fertilizer table, US NATIONAL AVERAGE \u2014 \u26d4 never Pink Sheet MAP $/mt, never a NOLA barge $/st quote, never a Mosaic realized price. UNIT: $/ton (US short ton) as DTN publishes it; no conversion. VINTAGE: AS FIRST PUBLISHED in each weekly article (DTN has no revision cycle). OPERATOR + BOUNDARY: HIT iff any qualifying print is STRICTLY greater than $1,000; $1,000 exactly = not a HIT (boundary owned by MISS; matches G5's tie rule). CONSECUTIVENESS: a MAXIMUM over all articles published 2026-10-29..2026-12-31, not a run; a week DTN does not publish neither breaks nor resets anything. RESET: none. NEGATIVE-RESOLUTION GUARD (WQ-172): a MISS resolves on a negative, so it needs a DATED SEARCH of the dtnpf.com crops article index inside 2026-12-24..2026-12-31; the grade reads what DTN published, never FERT's own logging. EARLY RESOLUTION: the first qualifying print > $1,000 resolves HIT that day (and fires G5 on the same print). | ANCHOR TYPE: CALENDAR (fixed 2026-12-31). Not anchored to an expected event. A DTN week with no article extends nothing; a skipped holiday print counts as no print. BASE RATE (computed 2026-10-28 23:04 ET; registered BEFORE the next print): needs +$18 in 9 prints = +$2.00/wk. FERT's own 11 weekly MAP steps 8/12-10/28 (+1,-1,0,0,+3,+5,+3,+4,+5,+2,+2; mean +$2.18): iid bootstrap 65%, block-3 bootstrap 72% (200,000 paths, first-passage). The last 7 steps alone give ~100%, rejected as overfit to the Sep-Oct burst. Haircut to 55% for: (a) steps decelerating, last two exactly at the required +$2; (b) Q4 sulfur expected lower (KB-FERT-109); (c) possible holiday skip (8 prints need +$2.25/wk); (d) n=11, one regime, no DTN history beyond MyDTN's paywall. Pushing the other way: Mosaic South Fort Meade idle from 12/08 (KB-FERT-108); China phosphate exports ~0 (KB-FERT-105). FERT-12's post-mortem (it under-called momentum) argues against a deeper haircut. Will-approved to register 2026-10-28 23:02 ET ('Lets do these'). DAP leg not part of the claim (iid bootstrap ~0% for DAP to $1,001 by 12/30)."
+      ],
+      "valid": true,
+      "slot": 18,
+      "p_original_candidate": 0.55,
+      "review": "PENDING"
+    },
+    {
+      "key": "CARL/CRL-32",
+      "commit": "5dc1234ed7c55550a0f579b97fe4511deb476afe",
+      "committed_at": "2026-10-29T09:36:08-04:00",
+      "path": "AGENTS/CARL/thesis/PREDICTIONS.tsv",
+      "blob": "9ed14b24d8a5ac820df8b664d51441f864b9e4a5",
+      "header": [
+        "Pred_ID",
+        "Date_Made",
+        "Prediction",
+        "Confidence",
+        "Timeframe",
+        "Status",
+        "Date_Resolved",
+        "Outcome",
+        "Invalidation",
+        "Notes",
+        "Instrument"
+      ],
+      "fields": [
+        "CRL-32",
+        "2026-10-29",
+        "**HOUSEHOLD BUFFER DRAWDOWN CONTINUES (WQ-537 A, Will 2026-10-29 09:26 ET)** \u2014 the September shape (saving rate 3.8%, real DPI \u22120.27% m/m, real PCE flat) persists through the next two BEA Personal Income and Outlays prints. FIRES if the first-published personal saving rate is \u22643.8% for October (BEA Wed 2026-11-25 08:30 ET) and \u22643.8% for November (BEA Wed 2026-12-23 08:30 ET), and real DPI Nov \u00f7 Sep \u2212 1 \u2264 0.00% inside the 12/23 vintage. NOT-FIRED-REBUILD: either saving print \u22653.9% (early at 11/25). NOT-FIRED-INCOME-LED: both \u22643.8% but real DPI Nov/Sep > 0.00%. UNGRADEABLE: a release unpublished by 2027-01-29, or a definition/chained-dollar rebase breaking the single-vintage DPI comparison. Real PCE reported as shape, not graded. Full letter: research/2026-10-29_WQ537/LETTER.md",
+        "25% [CONJUNCTION-PRICED] \u2014 saving \u22643.8 twice ~45%, real DPI flat-or-down over two months ~45%, legs positively correlated; joint above the 20% independence product, below the 45% minimum.",
+        "Two prints: October (2026-11-25) and November (2026-12-23); final grade 12/23",
+        "OPEN",
+        "",
+        "",
+        "KILL (VOID-BY-REVISION, retired unscored, not a MISS): the 11/25 release revises SEPTEMBER's saving rate to \u22654.3% \u2014 premise revised away (CRL-11 shape). Vintage rule: each saving print graded at first publication and never re-graded; DPI leg computed inside the 12/23 vintage only; revisions logged separately and change no outcome except via this KILL. Saving graded on BEA's one-decimal figure (3.8 counts as \u22643.8); DPI ratio rounded to 0.01%, 0.00 counts as \u22640.",
+        "[CONJUNCTION-PRICED] Second leg: real disposable personal income (FRED DSPIC96; NIPA Table 2.6) Nov/Sep \u2212 1 <= 0.00% inside the 12/23 vintage; real PCE (FRED PCEC96) descriptive. REGISTERED 2026-10-29 09:35 ET by CARL under WQ-537 A (relay inbox/2026-10-29_from-PROME_WQ537-A-RULED-buffer-drawdown-letter.md). Baseline: Sep PSAVERT 3.8 (Aug rev 4.0, Jul 4.5), DSPIC96 18,366, PCEC96 16,978 (FRED via fetch.py 10/29 09:33 ET; BEA 26-46; research/2026-10-29_GDP_PCE/GRADE.md). Dates: bea.gov/news/schedule read 10/29 ~09:30 ET. COST LEG = pointer only: HENRY's October CPI card, DOCKET L775 (11/10), one figure taken = CPI-U all-items SA m/m as HENRY records it; labels, does not grade. COHORT LEG = descriptive only: Fed DFA deposits per household, bottom-40 minus top-20 YoY = \u22121.91pp at 2026:Q2 (model-allocated; next Z.1 12/10), research/2026-10-29_WQ537/COHORT_BASELINE.md. A FIRE moves the STATUS savings row \ud83d\udfe0\u2192\ud83d\udd34 and adds a dated THESIS evidence entry; it moves NO score, NO threshold on any letter of CARL or any desk, NO card, NO capital. Saving rate is revision-prone in practice (Aug and Jul each revised \u22120.1pp on 10/29) even though G2's word list does not name it; the vintage rule and KILL are the answer. Failure-pattern preamble read (CRL-11, CRL-24, CRL-01).",
+        "BEA Personal Income and Outlays, first-published :: personal saving rate (FRED PSAVERT; NIPA Table 2.6) :: <=3.8%"
+      ],
+      "valid": true,
+      "probability_interpretation": {
+        "key": "CARL/CRL-32",
+        "commit": "5dc1234ed7c55550a0f579b97fe4511deb476afe",
+        "blob": "9ed14b24d8a5ac820df8b664d51441f864b9e4a5",
+        "confidence": "25% [CONJUNCTION-PRICED] \u2014 saving \u22643.8 twice ~45%, real DPI flat-or-down over two months ~45%, legs positively correlated; joint above the 20% independence product, below the 45% minimum.",
+        "p": 0.25,
+        "reason": "The leading 25% is the joint forecast probability, explicitly repeated in the same-commit letter. The 45% component estimates and 20% independence product are rationale, not replacement probabilities.",
+        "evidence": "5dc1234ed7c55550a0f579b97fe4511deb476afe:AGENTS/CARL/research/2026-10-29_WQ537/LETTER.md section 3; original CRL-32 Confidence cell",
+        "reviewed_by": "CATO",
+        "reviewed_at": "2026-10-29"
+      },
+      "slot": 19,
+      "p_original_candidate": 0.25,
+      "review": "PENDING"
+    },
+    {
+      "key": "OSPREY/OSP-07",
+      "commit": "faa44490a7872f5d065dcadb352eda83928ae151",
+      "committed_at": "2026-10-29T13:30:00-04:00",
+      "path": "AGENTS/OSPREY/thesis/PREDICTIONS.tsv",
+      "blob": "5dd9a61606d2b0efa4ed215b06e3db246cddeb50",
+      "header": [
+        "Pred_ID",
+        "Date_Made",
+        "Prediction",
+        "Confidence",
+        "Timeframe",
+        "Status",
+        "Date_Resolved",
+        "Outcome",
+        "Invalidation",
+        "Notes"
+      ],
+      "fields": [
+        "OSP-07",
+        "2026-10-29",
+        "MECHANISM: Ukraine's deep-strike campaign against Russian oil-REFINING capacity resumes after the October lull (the lull began after Ryazan 2026-10-15; FLOW-OSPREY-06). Claim: at least one Ukrainian strike on a Russian REFINERY-CLASS facility occurs with an event date from 2026-10-30 to 2026-11-15 inclusive. REFINERY-CLASS, fixed at registration: a crude-oil refinery (primary distillation). It EXCLUDES condensate stabilisation/processing plants (Surgut ZSK class; OWED-46 is not decided by this row), gas-processing plants, petrochemical/rubber plants, depots, pump stations and terminals. Where at the facility is irrelevant: a hit on a refinery's tank farm counts. A strike in Russia-occupied Ukraine counts only on a refinery (none operating is known).",
+        "60%",
+        "Oct 30 - Nov 15 2026 (graded on or after 2026-11-18, to allow 3 days for reporting)",
+        "OPEN",
+        "",
+        "",
+        "CONFIRMED = a STRIKES.tsv refinery-class row with an event date in 10/30-11/15, where the event (a strike causing a fire, damage or a halt at the named refinery) is confirmed by EITHER a Russian official (governor, mayor, MoD naming the facility) OR two independent outlets that do not relay one another; attacker = Ukraine (claim, or Russian attribution uncontested). A Ukrainian claim ALONE is NOT sufficient. Interception claims with debris 'on the territory' count if a fire or damage at the refinery is confirmed. FAILED = no such row after the PRE-REGISTERED SWEEP: (1) strike_feed.py runs covering the window; (2) date-by-date name-free EN + RU queries ('\u041d\u041f\u0417 \u0430\u0442\u0430\u043a\u0430' / 'refinery drone') for every day 10/30-11/15; (3) a time-indexed list (Reuters factbox or Kyiv Independent/Kyiv Post roundup) covering the window; (4) at least one query with no facility name (LESSONS 7). NO VOID PATH: the prediction is unconditional. A US-Ukraine or Russia-Ukraine agreement that stops the strikes is exactly what FAILED would mean, not a premise failure. A strike dated 10/29 or earlier is out of window.",
+        "Registered 2026-10-29 13:29 ET (from `date`) by OSPREY (osprey-5d), key-file review item 7 (Will: 'lets do 4-7 now'). Rubric pre-registered BEFORE any search for the window (HAW-08/09). BASE RATE, stated before the confidence: in STRIKES.tsv 58 distinct refinery-row dates 3/21-10/15; since the ledger became dense (June) the longest gap was 10 days (5/31-6/10; 7/13-7/22 9 days), and every 17-day window from June to mid-October contained a refinery strike. The two older gaps of 15 and 30 days (March-May) sit in the HAWK-migrated, known-incomplete span and are not trusted. The CURRENT gap (10/15 -> at least 10/29, 14 days) is already the longest of the dense era, so the tempo base rate (~100%) does NOT apply as-is: the regime has a new term (US leverage, FLOW-OSPREY-06). FOR resumption: no halt order (Zelensky 10/27-29); 80% of Ukrainians back refinery strikes even if US support is cut (KI poll 10/28); the 10/11 pause lasted only ~72 hours; capability is intact (deep strikes on steel/chemical continue). AGAINST: the substitution is deliberate and sustained 14 days; the Starlink lever is operational; a diesel/US-policy interest backs the pressure. 60% = resumption more likely than not inside 17 days, discounted from the tempo base rate for a regime with a live external brake. DIRECTION for this desk: a CONFIRMED resets C1 \u00a71b leg A and supports the 5 mark; a FAILED supports a downgrade path. The desk's interest is in CONFIRMED, so the rubric demands a Russian official or two independent outlets, not a Ukrainian claim. Consumer: BRENT (products/cracks), HAWK. Ties to THESIS v1.1 \u00a73 (brake falsifier)."
+      ],
+      "valid": true,
+      "slot": 20,
+      "p_original_candidate": 0.6,
+      "review": "PENDING"
     }
   ],
   "later_versions": [
@@ -881,6 +1001,138 @@
         "",
         "",
         "RESOLVER BASIS: the ideal-investisseur OAT-Bund daily row (HANS-T-10's governing basis, ruled 2026-09-25). A missing i-i row neither counts nor resets; TE/CNBC/Reuters intraday figures are cross-checks and NEVER resolve. Made 2026-10-21 22:00 ET (clock), BEFORE Moody's France review (Fri 10/23), so the rating outcome cannot leak into the mark. Start: 157.5bp [i-i 10/21] (OAT 4.99 / Bund 3.41); AFP reports the OAT past 5% intraday 10/21. TPI read (KB-HANS-126/127, research/2026-10-21_FRANCE_TPI_BACKSTOP.md): no ECB backstop under a fundamentals-driven French spread; Italy flat (~116bp) = no contagion case. Catalysts in window: Moody's 10/23, budget debate resumes 10/27, Assembly full vote ~11/17-18, S&P 11/27. CONFIDENCE BASIS, stated so it can be graded: a ZERO-DRIFT reflection estimate with ~5bp/day spread volatility (crude, from 9 sessions of i-i rows 10/08-10/21) over 28 sessions gives ~50% for a +17.5bp touch; +5 for catalysts skewed to widening with no backstop. Against it: a fast +20bp move often mean-reverts, Moody's may affirm, France's reserve-diesel/pump-price relief from 11/1 (KB-HANS-111) may calm the street. THIS IS THE CALL THAT CAN EMBARRASS ME: it needs the stress to KEEP BUILDING, not merely persist. | 2026-10-22 (hans-1022): i-i 10/22 row 174.6bp - 0.4bp SHORT, NOT HIT. Conf 55% unchanged (resolver is a print). TE-derived 174.5 is not the resolver basis. Allianz 10/9 adverse band 150-175 / 175-200 brackets the line."
+      ],
+      "valid": true
+    },
+    {
+      "key": "BRENT/BRT-31",
+      "commit": "4d01dfac4f8c30e17d9229c28cc310113b8d2217",
+      "committed_at": "2026-10-28T23:54:28-04:00",
+      "path": "AGENTS/BRENT/thesis/PREDICTIONS.tsv",
+      "blob": "651a62f7121a6dc978a5519527752bf7a125a59f",
+      "header": [
+        "Pred_ID",
+        "Date_Made",
+        "Prediction",
+        "Confidence",
+        "Timeframe",
+        "Status",
+        "Date_Resolved",
+        "Outcome",
+        "Invalidation",
+        "Notes"
+      ],
+      "fields": [
+        "BRT-31",
+        "2026-10-01",
+        "PATH-B SUCCESSOR (WQ-331 P3; registered 2026-10-01 on WQ-346 RULED, Will's 9/30 19:32 ET blanket word via PROME packet be8b72644 \u2014 v2 AS WRITTEN, setups/2026-09-30_BRT-31-path-B-successor-DRAFT-v2.md @98d07c696). CLAIM: US gasoline demand weakens measurably under the sustained price shock: EIA gasoline product supplied (WGFUPUS2, psw01.xls 'Data 2'), 4-wk average vs the same 4 weeks 52 weeks earlier, <= -1.5% on TWO CONSECUTIVE data weeks in the window. BASIS: unrounded computed value from the FIRST-PUBLISHED print (revisions recorded, never re-grade); method reproduces wk-9/11 -1.0119% / wk-9/18 -0.7798% / wk-9/25 +0.2587%. WINDOW (FIXED at the ruling, never moved): data weeks ending 10/9, 10/16, 10/23, 10/30, 11/6, 11/13, 11/20, 11/27 (first release Thu 10/15 12:00). The 10/2 print is NOT graded. A data week EIA never publishes breaks consecutiveness and is not replaced. EVALUATION ORDER (data-week order; first terminal event wins): (1) price check \u2014 GASREGW on the Monday after each data week vs the observation 364 days earlier (fallback EIA weekly retail, same survey); the 3rd window week with YoY < +20% => NOT-FIRED-PRECONDITION (terminal; excluded from calibration). (2) this week AND the previous both <= -1.5% => MET (terminal). SAME-WEEK TIE => NOT-FIRED (refusal wins ties). AT WINDOW END with no terminal event: NOT MET if every print > -1.0%; otherwise NO-VERDICT (a real answer). CONTAMINATION (CLOSED list; can only refuse NOT MET; dated by the instrument's own effective date, inside the window): (i) a suspension or cut of the federal gasoline excise tax; (ii) state gasoline-tax suspensions/cuts in states totalling >= 10% of US gasoline consumption (EIA SEDS shares). NOT on the list: SPR releases, RVP/E15 waivers, export restrictions. If one takes effect and no MET has been declared => end state NO-VERDICT-CONTAMINATED (excluded from calibration); MET still grades. LABELS: MET = 'weakening measured', never 'destruction confirmed'; NOT MET = 'volume resilient', never 'consumer resilient'.",
+        "40% [Date_Made 2026-10-01; first call = P(MET | not NOT-FIRED), BRT-29 convention; base graded by the letter: NOT-FIRED 22%, if fired MET 46 / NOT MET 32 / NV 22; equal-weight MET 43; carries >= \u00b115 pts]",
+        "Data weeks ending 2026-10-09 \u2192 2026-11-27 (last release ~2026-12-02)",
+        "OPEN",
+        "",
+        "",
+        "MET on two consecutive window prints <= -1.5% (first terminal event in data-week order). NOT MET if no terminal event and every window print > -1.0%. NOT-FIRED-PRECONDITION / NO-VERDICT / NO-VERDICT-CONTAMINATED per the letter; the last two and NOT-FIRED are excluded from calibration.",
+        "REQUIRED before grade: thesis/prediction_notes/BRT-31.md + the v2 letter. Caveats carried from the WQ row (recorded at the ruling): base rests on ~6 surviving episodes, \u00b115 pts; CARL's unconditional 25\u201330% view is defensible (CARL blind read 13aa2cd46); 15% ordinary-times noise floor (hurricane/weekly-estimate artefacts). Post-grade RECORD checks, not legs: EIA monthly MGFUPUS2 for Oct\u2013Nov; any US Gulf named-storm/refinery outage in the window named beside a MET. DOCKET L537 carries the rider. Base-rate script research/2026-09-30_path-b-successor/baserate_v2.py. || FIRST WINDOW WEEK EVALUATED 2026-10-20: w/e10/9 non-qualifying, exact4wkYoY -0.3959714211930791%, streak0; price10/12 vs10/13/2025 +41.4897092453%, below20counter0of3. Overall OPEN/40%unchanged, no terminal grade. Archive-reconstruction and bounded-tax-review caveats: thesis/prediction_notes/BRT-31.md and research/2026-10-20_eia-oct15-evaluation/REPORT.md. || WEEK 2 EVALUATED 2026-10-21: w/e 10/16 non-qualifying, exact 4wk YoY +1.461596692482385% (release-day capture, first-published), streak 0; price 10/19 $4.284 vs 2025-10-20 $3.019 = +41.90%, below-20 counter 0 of 3 (EIA retail = letter fallback; FRED unreachable). Overall OPEN/40% unchanged, no terminal event: research/2026-10-21_eia-oct21/REPORT.md \u00a75. || WEEK 3 EVALUATED 2026-10-28: w/e 10/23 NON-QUALIFYING, exact 4wk YoY -0.6762200736648250% (8,629.25 vs 8,688.0 kb/d; release-day capture, first-published; no revisions to prior inputs), streak 0; price 10/26 $4.269 vs 2025-10-27 $3.035 = +40.66%, below-20 counter 0 of 3 (EIA retail = letter fallback). All three window prints > -1.0% so far. Overall OPEN/40% unchanged, no terminal event: research/2026-10-28_eia-oct28/REPORT.md."
+      ],
+      "valid": true
+    },
+    {
+      "key": "BOND/BND-32",
+      "commit": "60ddf38ae7414e02d23661159f903229a7e0cb6c",
+      "committed_at": "2026-10-29T07:50:17-04:00",
+      "path": "AGENTS/BOND/thesis/PREDICTIONS.tsv",
+      "blob": "3c805d374236a242acdfc29991922cc62ab5d651",
+      "header": [
+        "ID",
+        "Date_Made",
+        "Prediction",
+        "Confidence",
+        "Timeframe",
+        "Resolution_Criteria",
+        "Status",
+        "Date_Resolved",
+        "Outcome",
+        "Notes",
+        "If_Falsified_Action"
+      ],
+      "fields": [
+        "BND-32",
+        "2026-10-20",
+        "Treasury 2s30s (30Y minus2Y) does not steepen on October28 FOMC decision day versus October27 official close: delta<=0bp.",
+        "65pct",
+        "Observation2026-10-28 vs2026-10-27;read first successful Treasury primary publication after decision;publication ceiling2026-11-03 17:00 America/New_York.",
+        "INSTRUMENT:US Treasury daily par yield curve CSV2026,columns 30 Yr and2 Yr;units percent. ANCHOR_TYPE:EVENT_SESSION,October28decision vsOctober27baseline. Compute with Decimal:delta_bp=100*((30Y_28-2Y_28)-(30Y_27-2Y_27)). TRUE iff both official dates published by ceiling AND delta_bp<=0 (exact0 belongs TRUE). FALSE iff both published AND delta_bp>0. VOID iff either required date absent at ceiling or scheduled decision moved offOctober28. GRADE-AT-PUBLICATION:save first successfully retrieved primary bytes and timestamp after event;do not regrade later revisions. No vendor,FRED,holiday carry or alternative-date substitution. Later revisions annotate,never change scored outcome.",
+        "FALSE",
+        "2026-10-29",
+        "FALSE: Treasury primary par CSV (pulled 10/29, both dates published inside the 11/3 ceiling) 10/27 2Y 4.70 / 30Y 5.30 (2s30s 60bp) -> 10/28 2Y 4.67 / 30Y 5.37 (70bp); Decimal delta_bp = +10.00 > 0 = STEEPENED. Bear steepener on a hold with two hawkish (+25) dissents: front -3, long end +7.",
+        "Registered2026-10-20 at catch-up before owed10/21deadline. Base rate5/6 completed2026FOMC decisions non-steepening;raw-1,-5,-4,-15,+15,-8bp in analysis/2026-10-20_catchup/derived.json. DatesJan28/Mar18/Apr29/Jun17/Jul29/Sep16,decision-vs-priorpublishedsession. Minimum n6,not stable regime inference.65%discounts83.3%base for smallsample/pricedhold/event differences. UKBudget overlapsOctober28;shape cannot identify Fed causality. No marks/card or capital approval. | RESOLVED 2026-10-29 (KB-BND-507). Registered 65% on the non-steepening side vs a 5/6 base rate: a miss. 2026 decision-day base rate now 2 steepeners of 7 (7/29 +15, 10/28 +10). UK Budget same day, so the decision is not isolated as cause.",
+        "Record FALSE and compare front-vs-long moves with the dated ACM components when published. Do not infer demand failure or recommend a trade from direction alone. No threshold change or confidence rewrite after registration."
+      ],
+      "valid": true
+    },
+    {
+      "key": "REGINALD/REG-28",
+      "commit": "85e342c8ba360eecfb7ef3a86f601f5261632cbc",
+      "committed_at": "2026-10-29T09:04:38-04:00",
+      "path": "AGENTS/REGINALD/workbook/PREDICTIONS.tsv",
+      "blob": "7219fa1f3136f833bdc4ad62d430e3eb8168c3ac",
+      "header": [
+        "Pred_ID",
+        "Date_Made",
+        "Prediction",
+        "Confidence",
+        "Timeframe",
+        "Status",
+        "Date_Resolved",
+        "Outcome",
+        "Invalidation",
+        "Notes"
+      ],
+      "fields": [
+        "REG-28",
+        "2026-10-22",
+        "Eagle Bancorp (EGBN): at least 3 of its 4 criticized >$10M loans maturing in 4Q26 are still bank-held (HFI, HFS, nonaccrual or OREO) at 2026-12-31 - DC apartments $42.685M (mat 10/27), Montgomery mixed-use $27.722M (10/27), Prince George's apartments $56.000M (12/21), DC apartments $20.474M (12/30)",
+        "65%",
+        "4Q26 maturities; graded at the Q4-2026 release, carrying filing 2026 10-K",
+        "OPEN",
+        "",
+        "",
+        "MECE: h = shown still held, x = shown exited (paid off, refinanced away or sold), u = unknown (absence from a table is u, never x). TRUE if h>=3. FALSE if x>=2. NO-VERDICT otherwise. Instrument: EGBN Q4-2026 deck criticized/classified >$10M + nonaccrual >$5M tables, fallback 10-K loan footnotes. Baseline Q3 deck slide 20 acc 0001050441-26-000110 at 2026-09-30. CHECKPOINT 2026-10-29 (D:L805, first live checkpoint; a read, not the grade): the two 10/27 maturities, L02 DC apartments $42,685K and L05 Montgomery mixed-use $27,722K, are both u. Searched 09:0x ET: EDGAR submissions CIK 1050441 show no EGBN 8-K after acc 0001050441-26-000110 (filed 10/21); the only filings since are two Form 4s (10/8, 10/19). Press and wire searches through 10/29 found the Q3 release, the 10/22 people-officer hire and KBW PT 29 to 34 (10/26), and nothing on either loan. Partial Q3 call coverage (EarningsWhispers, MarketBeat) addresses the $56.000M Prince George's apartment (L11, now nonaccrual) and not the 10/27 pair. County land records were not matchable: the deck names no borrower, address or parcel, so a DC Recorder of Deeds or Maryland land-records search has no key (UNKNOWN, not absence). Tally for the four loans: h=0, x=0, u=4 (L11 and L16 are not yet due). Absence is u, never x. The next observation is the EGBN Q3 10-Q (subsequent events, ~11/6), then the Q4-2026 deck. Lead, not evidence: CREED 10/28 reports EGBN's Q2 30-89 DPD of $44.1M as about all non-owner-occupied CRE ($42.7M), down to $357K at 9/30; $42.7M is near L02's balance, but the identity is UNVERIFIED and it is not a match key.",
+        "Approved by Will in the REGINALD session 2026-10-22 13:36 ET, verbatim \"yes approve all three\", on drafts reports/2026-10-22_prediction_drafts_for_Will.md (commit 55bcf6317). Encoded 2026-10-22T13:3x-04:00. PROME owns shared registration. Base rate: identifiable passed maturities on the Q2 list 3 held / 1 exited (about 75% per loan), binomial P(h>=3 of 4)=74%, shaded to 65% for one-bank correlation. Match keys research/EGBN/data/loan_level track IDs L02 L05 L11 L16. Resolve_By 2027-03-16 IMMOVABLE (EGBN FY2025 10-K cover = Accelerated filer, 75 days; if large accelerated for FY2026 the deadline is 2027-03-01, earlier, still covered)."
+      ],
+      "valid": true
+    },
+    {
+      "key": "HANS/HNS-10",
+      "commit": "f9a0295bdef3d2171c06286b0d17a74ac0905df2",
+      "committed_at": "2026-10-29T14:00:17-04:00",
+      "path": "AGENTS/HANS/workbook/PREDICTIONS.tsv",
+      "blob": "32bf6253539fdc1e4b10f3ec9e71a3c5a1496c3d",
+      "header": [
+        "Pred_ID",
+        "Date_Made",
+        "Prediction",
+        "Confidence",
+        "Timeframe",
+        "Resolve_By",
+        "Anchor_Type",
+        "Status",
+        "Date_Resolved",
+        "Outcome",
+        "Notes"
+      ],
+      "fields": [
+        "HNS-10",
+        "2026-10-21",
+        "France-Germany 10Y spread prints at or above 175.0bp on at least one ideal-investisseur daily row from 2026-10-22 through 2026-11-30",
+        "55%",
+        "2026-11-30",
+        "2026-11-30",
+        "FIXED-DATE window, CONTINUOUS-MONITORING: HIT the first i-i row >=175.0; MISS if no such row by the 11/30 row. No early MISS.",
+        "OPEN",
+        "",
+        "",
+        "RESOLVER BASIS: the ideal-investisseur OAT-Bund daily row (HANS-T-10's governing basis, ruled 2026-09-25). A missing i-i row neither counts nor resets; TE/CNBC/Reuters intraday figures are cross-checks and NEVER resolve. Made 2026-10-21 22:00 ET (clock), BEFORE Moody's France review (Fri 10/23), so the rating outcome cannot leak into the mark. Start: 157.5bp [i-i 10/21] (OAT 4.99 / Bund 3.41); AFP reports the OAT past 5% intraday 10/21. TPI read (KB-HANS-126/127, research/2026-10-21_FRANCE_TPI_BACKSTOP.md): no ECB backstop under a fundamentals-driven French spread; Italy flat (~116bp) = no contagion case. Catalysts in window: Moody's 10/23, budget debate resumes 10/27, Assembly full vote ~11/17-18, S&P 11/27. CONFIDENCE BASIS, stated so it can be graded: a ZERO-DRIFT reflection estimate with ~5bp/day spread volatility (crude, from 9 sessions of i-i rows 10/08-10/21) over 28 sessions gives ~50% for a +17.5bp touch; +5 for catalysts skewed to widening with no backstop. Against it: a fast +20bp move often mean-reverts, Moody's may affirm, France's reserve-diesel/pump-price relief from 11/1 (KB-HANS-111) may calm the street. THIS IS THE CALL THAT CAN EMBARRASS ME: it needs the stress to KEEP BUILDING, not merely persist. | 2026-10-22 (hans-1022): i-i 10/22 row 174.6bp - 0.4bp SHORT, NOT HIT. Conf 55% unchanged (resolver is a print). TE-derived 174.5 is not the resolver basis. Allianz 10/9 adverse band 150-175 / 175-200 brackets the line. | 2026-10-29 (hans-1029): NOT HIT so far - window max 174.6 [i-i 10/22]; eased to 153.4 [10/29] after Moody's held Aa3-neg 10/23 (French Finance Ministry primary). Conf 55% unchanged (resolver is a print). In-window catalysts: budget vote ~11/17-18, S&P 11/27."
       ],
       "valid": true
     }

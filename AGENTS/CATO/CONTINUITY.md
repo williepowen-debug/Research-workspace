@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated October 29, 2026, session closed; panel accepted.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 29, 2026; directed forecast-pilot pass complete.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
+
+**Forecast-pilot pass complete; orient and await Will.** Enrollment reached 20/20 and is closed. BND-32 has the first independently source-checked binary outcome (FALSE, original 65%, Brier 0.4225); nineteen cases remain unscored. No other pending CATO work started. [Current evidence and remaining actions](runs/2026-10-01_1105_forecast-pilot/README.md#october-29--enrollment-complete-and-first-binary-resolution).
 
 **Launcher work complete; orient and await Will.** Will accepted the lighter slate-blue panel in ordinary use: "hey that looks good to me! Good job." [Continuing report](runs/2026-10-26_2115_agent-launcher.md#october-29--session-closeout-and-appearance-acceptance) retains the shared-edit and due-work/CATCH-UP deliveries, test-error correction, author checks, independent command/lock review and its limits. No remaining implementation or automatic audit in this batch. Shared launch receipts and model-default changes remain deferred; L848/L853 and reader/pilot work retain their separate scope below. Session closed at Will's request; resume only the work he directs.
 
@@ -22,7 +24,7 @@
 
 ## Surviving work and approvals
 
-- **CATO forecast pilot:** last directed pass October 23 at 27f1f6cca: 17/20 originals, 7 later versions, 19 nonnumeric records; nine provisionally usable specifications, FP1–FP8 limits, no final scores. Resume only when Will directs. Next useful window after BND-32 October 28, before October 31 enrollment closes (missing-data ceiling November 3); December 31 assessment, later outcomes unresolved; two-hour additional-work cap. Preserve original odds and no automatic desk obligations. [Scope, effort and checks](runs/2026-10-01_1105_forecast-pilot/README.md).
+- **CATO forecast pilot:** October 29 pass at `935b30ab`: **enrollment CLOSED, 20/20 originals**, eleven later versions, nineteen nonnumeric records; one scored outcome, nineteen unscored. FP1–FP10 grading/coverage limits retained; no replacements. Next existing observations: RED-25 October 31 re-review if new evidence, FAL-06 November 5 window/coverage checkpoint. Resume due-case review only when Will directs; no automatic job, sends or desk obligations. December 31 process assessment survives; 2027 endpoints remain unresolved. Effort **44/120 minutes**, 76 remaining. [Scope, evidence and checks](runs/2026-10-01_1105_forecast-pilot/README.md#october-29--enrollment-complete-and-first-binary-resolution).
 - **Work selection:** [October 23–24 carry](runs/2026-10-23_2131_next-work-selection.md). CARL's October 26 L786 and BROCK's scheduled filing reads remain recommended owner work; October 28 L818 observation remains. LIQUID's bounded conclusion is owner-reported, not a CATO calculation audit. WQ-512 and WQ-513–516 approvals survive; NOT-FIRED/date conditions and five-change ceiling survive. No new CATO assignment.
 - **Next census:** use corrected REG-08/REG-10 outcomes (L824); preserve old CATO evidence, no immediate census/backfill. [Scope and limits](runs/2026-10-23_1950_system-catchup.md#reconciliation-and-next-actions). The earlier 59-overdue/22-open counts are dated snapshots, not current totals.
 - **Other retained cases:** [October 24 topic map](TASK_INDEX.md#october-24-topic-map-and-retained-dispositions) routes prior WALTER, OTTO, Nisaba, calendar, delivery, runtime and bookmark findings. Their unresolved conditions and approvals are preserved in the archive/continuing reports; none auto-triggers at startup or closeout. L628 remains CLOSED. WQ-505/493/488/486/517 now have owner-recorded rulings; consult the delivery follow-up and current owner records if resumed.

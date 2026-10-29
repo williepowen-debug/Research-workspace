@@ -1,0 +1,39 @@
+{
+  "key": "BOND/BND-32",
+  "review_date_utc": "2026-10-29",
+  "direct_retrieval_completed_before_utc": "2026-10-29T18:19:03Z",
+  "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&_format=csv",
+  "saved_csv": "2026-10-29_treasury.csv",
+  "sha256": "97fdefe668a47928b852a94978f62273dedfb494107553d6640b9858de4b02ac",
+  "bytes": 16877,
+  "owner_first_capture": {
+    "commit": "60ddf38ae7414e02d23661159f903229a7e0cb6c",
+    "path": "AGENTS/BOND/analysis/2026-10-29_catchup/raw/nominal.csv",
+    "manifest_path": "AGENTS/BOND/analysis/2026-10-29_catchup/raw/manifest.json",
+    "owner_reported_capture_et": "2026-10-29T00:21:55.255493-04:00",
+    "direct_bytes_equal": true
+  },
+  "units": "percent yields; spread and delta basis points",
+  "observations": {
+    "10/27/2026": {
+      "2 Yr": "4.70",
+      "30 Yr": "5.30"
+    },
+    "10/28/2026": {
+      "2 Yr": "4.67",
+      "30 Yr": "5.37"
+    }
+  },
+  "spreads_bp": {
+    "10/27/2026": "60.00",
+    "10/28/2026": "70.00"
+  },
+  "delta_bp": "10.00",
+  "formula": "100*((30Y_28-2Y_28)-(30Y_27-2Y_27)); outcome=1 iff delta<=0",
+  "event_date_source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+  "registration_commit": "cfa4b420122632a455ee7bf7f3de2b3dd7f5d283",
+  "p_original": "0.65",
+  "outcome_0_or_1": 0,
+  "brier_original": "0.4225",
+  "limits": "CATO independently retrieved identical Treasury bytes and recomputed the original letter. The exact earlier retrieval clock is BOND manifest evidence, not an independently witnessed timestamp. This is one forecast, not evidence of fleet skill or causal identification."
+}
