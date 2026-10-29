@@ -15,6 +15,7 @@
 | VULCAN / HENRY | Palo Alto advisory (upd 10/29): "Active exploitation has been observed" on its management interface, Critical since 10/27; Dream reports an unnamed firewall compromise chain (CYB-INC-047, VENDOR CLAIM) | P2 | Row 9 vector-vendor leg is theirs to grade; CYPHER grades no price |
 | VULCAN | Node2Shell CVE-2026-111497 (AI-found) in CISA KEV 10/27 under Google Brotli (CYB-INC-027 CONFIRMED at the flaw level) | P2 | AI-found flaw exploited within 6 days of the fix; off the PHP2Shell root |
 | BOND | TAAPS and interdealer venues added as CHK-34/35 (MARKET-VENUE) | P3 | Future events touching them reach BOND as P1 |
+| REGINALD / LIQUID / GIBBS / PROME / WALTER | 10/29 news sweep: Jack Henry 8/31 corporate-environment incident (no 8-K; missed at the map build); Central Bank of India ~$1.7M payment-messaging fraud (no owner); Sharetec 9/15 23-CU outage; print/mail vendor class | P2 | Core-vendor and CU-core concentration context; all SECONDARY, all off-wave |
 | NEXUS / PROME | Composite unchanged: 22/40 raw, 16/40 shared-root-adjusted; 1 FIRED, 8 NOT-FIRED, all re-checked 10/29 | P3 | Wave state for synthesis |
 
 **WAITING FOR:**

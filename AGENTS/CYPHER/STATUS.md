@@ -20,8 +20,8 @@
 | Escalation rows, WAVE-2026-10 | **1 FIRED (row 2, KEV 10/26) · 8 NOT-FIRED**, all re-checked 2026-10-29 (row 2 terminal) | `workbook/ESCALATION_WATCH.tsv` |
 | Convergence composite | **22/40 raw · 16/40 shared-root-adjusted** (VX-02/03/06 PHP2Shell cluster counted once at max 4). VX-02 held at 3, VX-06 held at 4 ORANGE (RED needs mass compromise or a late-surfacing victim list) | `workbook/VX.tsv` |
 | Transmission map | 20 mechanisms: 7 CONFIRMED, 7 NOT-OBSERVED, 2 MODELED, 4 UNTESTED (unchanged since 10/26) | `workbook/FLOW.tsv` |
-| Incident ledger | 47 rows (046 credit-union precautionary pause; 047 Dream firewall chain). 027 Node2Shell → CONFIRMED (CISA KEV 10/27) | `workbook/INCIDENTS.tsv` |
-| Chokepoint map | 35 rows (CHK-34 TAAPS, CHK-35 interdealer venues, both added on BOND's request). **CHK-32 perimeter appliances: POSSIBLE → CONFIRMED wave touch** (Palo Alto's exploitation statement; no bank named) | `workbook/CHOKEPOINTS.tsv` |
+| Incident ledger | 50 rows (046 credit-union precautionary pause; 047 Dream firewall chain; 048-050 from the 10/29 news sweep: Jack Henry 8/31, Central Bank of India, Sharetec). 027 Node2Shell → CONFIRMED (CISA KEV 10/27) | `workbook/INCIDENTS.tsv` |
+| Chokepoint map | 37 rows (CHK-34/35 Treasury nodes for BOND; CHK-36 Sharetec, CHK-37 print/mail vendor class from the 10/29 sweep). CHK-03 Jack Henry now CONFIRMED-OFF-WAVE (8/31 incident, missed at build). **CHK-32 perimeter appliances: POSSIBLE → CONFIRMED wave touch** (Palo Alto's exploitation statement; no bank named) | `workbook/CHOKEPOINTS.tsv` |
 | Predictions | CYP-01 30% · CYP-02 15% · CYP-03 15% · CYP-04 35%; all OPEN, none due (registered on Will's word 10/22–10/23) | `workbook/PREDICTIONS.tsv` |
 | R1 two-way flip | Toward MOVEit: row 1 or 3 FIRES on or before 2026-11-20 (a named organisation). Toward Log4Shell: rows 1, 3 and 4 all NOT-FIRED at 11/20, with re-checks dated 11/13–11/20 | `workbook/EXIT_PROTOCOL.md` |
 
@@ -55,6 +55,14 @@
 | CYB-INC-020 / 021 / 022 | Quest (healthcare, NO OWNER; HENRY: no adverse reaction) · SBI · Korea 16 firms | CONFIRMED | Non-US / no-owner classes, flagged earlier |
 
 **Do-not-relay, 13 claims** (canonical `research/2026-10-23_news-sweep-and-relay-pattern.md` §4). 12 of the 13 overstate toward alarm. A news outlet reporting an agency is a lead, never row-1 evidence. **Add:** "FEC hacked" is Reuters' framing of an internal email; FEC's status page says "outage" (board_log 10/29).
+
+## News sweep 10/29 (Will's ask; `research/2026-10-29_news-sweep/RECORD.md`)
+
+- **Jack Henry (core vendor for >900 banks, >700 CUs) had a cyber incident on 8/31** (CYB-INC-048): voice phishing by ShinyHunters, corporate environment only, PII of <10 client FIs, no processing disruption, no 8-K. The 10/23 map missed it because it was press-release-only; core-vendor checks now include newsrooms and trade press (KB-CYP-074).
+- **Central Bank of India** (CYB-INC-049): ~$1.7M moved via 187 unauthorized transfers through payment messaging 10/15-17. Non-US, NO OWNER, off-wave.
+- **Sharetec** (CYB-INC-050, CHK-36): 9/15 cooling failure took 23 credit unions offline for days. An accident, but the multi-institution shape row 8 watches for.
+- **Print/mail vendors** (CHK-37): Citizens/Frost and Citi customer data in 2026 came through them.
+- Nothing new on PHP2Shell victims, file-transfer products, Fiserv/FIS/Broadridge, insurers or election-week warnings. Packets: WALTER, REGINALD, LIQUID, GIBBS, PROME.
 
 ## Standing conditions
 
