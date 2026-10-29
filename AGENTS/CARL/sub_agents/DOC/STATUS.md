@@ -133,7 +133,7 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 | DOC-P07 | Mid-size employers exclude GLP-1 for weight loss in 2027 design | 80% | Q4 2026 | ⚠️ **RESOLVABILITY DEFECT** | 82–84% of 200+ firms already excluded at registration, so the bar was met on day one. Re-scope or NO-VERDICT proposed to CARL. |
 | DOC-P08 | Healthcare #1 consumer financial worry through Nov 2026 | 80% | Nov 2026 | TRACKING | KFF: 62% worried; affordability top economic anxiety. Grade after Nov 3. |
 | DOC-P09 | OBBBA redeterminations → 2-5M losses H1 2027 | 70% | H1 2027 | TRACKING | Unchanged. |
-| DOC-P10 | Q2-Q3 NIPA shows healthcare-services drag | 65% | **Q3 advance Thu Oct 29 08:30 ET** (corrected from Oct 30) | TRACKING — DUE TOMORROW | Grade at next DOC pass; threshold unchanged. |
+| DOC-P10 | Q2-Q3 NIPA shows healthcare-services drag | 65% | **Q3 advance Thu Oct 29 08:30 ET** (corrected from Oct 30) | TRACKING — DUE TOMORROW | Pre-release expectation written 10/28 20:55 ET: health care slower than total services = TRUE; at or above average = MISSED; no line = NO-MEASUREMENT (grade on 2nd est). |
 
 *Canonical ledger: `workbook/PREDICTIONS.tsv`. CARL is system of record for CRL-* rows: DOC proposes, CARL disposes.*
 
