@@ -2,57 +2,12 @@
 
 **Last Updated:** 2026-10-28 22:09 EDT (closeout) (**53-day dark gap closed: FSA FY2026 Q3 graded (ES-01/04/06), ES-02 boundary rule's first out-of-sample run, news sweep, 2 CARL inbox packets processed; then a file sweep, a rotation pass, and five research items — the Treasury Education collections pilot, SAVE windows, score-drop sources, AFT Doc 50, TCF — with the workbook reconciled to them**) | **Data vintage:** FSA `PortfoliobyLoanStatus` + companion files **Last-Modified Fri 18 Sep 2026** (data as of **Jun 30 2026** = FY2026 Q3; MD5 `d443da74…` matches CARL's 9/24 copy); CFPB `company=MOHELA` settled through **Oct 16 2026** (pulled 10/28, vintage 2026-10-28); Treasury release sb0639 **Sep 30 2026**; AFT v. ED docket (CourtListener) through **Oct 15 2026**; Sweet via PPSL/secondaries through **Oct 15 2026**; NY Fed 2026:Q3 HHDC **not yet posted** (data URL 302 on 10/28) | **Status:** 🔴 CRITICAL, unchanged. **No registered threshold fired.** The default stock is still rising but slowed to roughly a quarter of the prior quarter's pace, and the servicer-complaint signal stays well below its bands inside CRL-28's now-open window.
 
-> ## 📌 SESSION 2026-10-28 — 53 DAYS DARK. THE FSA RELEASE IS GRADED, THE COMPLAINT RULE PASSED ITS FIRST OUT-OF-SAMPLE RUN, AND THE AFT v. ED DATE CARL CARRIED WAS WRONG.
+> ## 📌 SESSION 2026-10-28 — 53 days dark (last 9/5): caught up, researched, closed out. Full block → archive §C9
 >
-> ⚠️ **The gap first: last STUE session 2026-09-05; the FSA file posted 9/18 and sat ungraded for 40 days.** CARL noticed and graded nothing on STUE's behalf (correct). **For the second consecutive dark period, the parent noticed the posting before STUE did.**
->
-> ### ES-STUE-01 — forbearance drain, FSA FY2026 Q3 (Jun 30 2026): ⚖️ **NO VERDICT ON THE REGISTERED BASIS. It straddles the −5% Yellow edge.**
-> | Basis | Q2 (Mar 31) | Q3 (Jun 30) | QoQ | vs −5% Y edge |
-> |---|---:|---:|---:|---|
-> | **Federally Managed recipients (REGISTERED)** | 8.4M | 8.0M | **−4.76% as printed; rounding range −3.6% to −5.9%** | **straddles; cannot settle** |
-> | Federally Managed dollars | $484.6B | $459.2B | **−5.24%** | just past Y |
-> | Direct Loan recipients, sum of the forbearance-type report (2 decimals) | 8.43M | 8.04M | **−4.63%** | just short of Y |
-> **Composition is the finding, not the band:** *administrative* forbearance (the SAVE-litigation pool) **7.74M → 7.26M (−6.2%)**, while *discretionary* hardship forbearance **rose 0.59M → 0.65M (+10%), $34.6B → $39.5B (+14%)** [FSA `DLbyForbearanceType.xls`, LM 9/18]. **Destination changed:** last quarter both feeder pools drained into default; this quarter repayment **+0.2M**, default **+0.3M**, deferment **−0.3M**. ⚠️ **The Jun-30 snapshot predates the first SAVE notice (Jul 1)**, so the SAVE drain proper starts in the FY2026 Q4 (Sep 30) file, due ~mid/late December. SAVE enrolment was already **6.99M → 6.52M** in the quarter, with IBR **2.92M → 3.31M**, so leavers are choosing IDR plans [FSA `DLPortfoliobyRepaymentPlan.xls`].
->
-> ### ES-STUE-04 — cure channel: ⛔ **NOT GRADEABLE. The gross-flow leg does not exist for this quarter.**
-> **Stock leg:** Federally Managed cumulative default **9.0M / $220.3B → 9.3M / $234.1B** (+0.3M / +$13.8B, vs +1.3M / +$39.8B the prior quarter). **Gross leg:** the registered instrument is the NY Fed/Liberty Street gross DRG flow; **no calendar-Q2 figure has been published.** FSA's own entering-defaults report (`DLEnteringDefaults.xls`) is **frozen at Aug 2023**. ⚠️ **I tried a substitute and rejected it:** the 271–360-day bucket (1.10M at Dec 31) cannot explain the following quarter's +1.3M net default rise, so it **undercounts gross inflow** (FSA counts recipients at loan level) and cannot back out exits. **Cure durability (OQ#3) stays open; the slowdown in the stock cannot say whether cures rose or inflow fell.**
->
-> ### ES-STUE-06 — HCM list: ⚠️ **ACCESS GAP again, not a null.** The page's `Last-Modified` moved **Jul 31 → Wed 14 Oct 2026**, so it *was* updated, but the list is still JS-rendered and no data file is linked in the HTML. **No major-chain closure found in the sweep.**
->
-> ### OQ#16 — does the default count peak on schedule? **Tracking the exhaustion reading, and probably lower than the 10–11M band.**
-> FSA delinquency pipeline (Federally Managed recipients, Jun 30): 31–90 days **1.18M**, 91–180 **0.86M**, 181–270 **0.77M**, **271–360 0.66M** (= the most that can default in Jul–Sep). Pre-pandemic Q3 the 271–360 bucket ran **0.30–0.37M**, so the pipeline is still ~2× normal but no longer 3×. ⚠️ **The 31–90 uptick (1.00M → 1.18M) is seasonal:** the same Q2→Q3 rise appears in 2017 (+13%) and 2018 (+57%), and the level is below every 2017–19 Q3 (1.36–1.63M). **Arithmetic: 9.3M + ≤~0.7M gross ⇒ roughly 9.5–10.0M at Sep 30**, *with the undercount caveat above*. The FY2026 Q4 file is the grade.
->
-> ### ES-STUE-02 / CRL-28 — **inside the window now (opened Oct 1). 24.8/day, below Yellow. The boundary rule passed its first out-of-sample run.**
-> Pre-registered completeness test on the 10/28 pull **selected D = Fri Oct 16**. The visible cliff is **Oct 18/19** (Oct 18 = 11, ratio 1.10; Oct 19 = 1, ratio 0.04). The rule stopped 2 days early because Sat Oct 17 read 0.58. **It picked a boundary inside the settled region, never past the cliff.** Clause 4(b): **24.0 / 24.8 / 22.1 per day at D−3 / D / D+3, all below Y (>35).** CRL-28 window Oct 1–16 = **396 complaints = 24.8/day**, which is **45% of the frozen 55/day**. Sep 2026 = **682 (22.7/day)** vs Sep 2025 **651** (+4.8% YoY); Oct 1–16 is +18% on Oct 2025's 21.0/day, but at a low level. ⚠️ **This is an interim in-window read, NOT the grade.** The grade is still **~Fri Nov 13 / Mon Nov 16**. The cliff now sits **~10 days** behind the pull (it was ~14 on 9/5), which confirms that a fixed lag offset is the wrong rule.
->
-> ### News sweep, Sep 5 → Oct 28 (primaries where stated)
-> - **Treasury/collections:** ED + Treasury launched the **Defaulted Loans Support Center on Sep 30** (rehabilitation and consolidation applications online) [Treasury release sb0639, **primary**]. **The release says nothing about revoking ED's exemption, new collector contracts, or garnishment/offset timing.** It counts **>5M borrowers in default >6 years and another 5M who defaulted in under a year.** **Involuntary collections: still PAUSED, no restart verified at any primary.** Private-collector hiring "possibly November" and collections "in 2027" are **press-reported plans only**; a MoneyWise 10/27 claim that garnishment "begins next month" conflicts with them and is unsupported. **OQ#14 custody event (exemption revocation): not observed.**
-> - **SAVE→RAP:** ED added a **"final 30-day notice"** after a missed 90-day window (secondary, College Investor 10/15 and Newsweek; **StudentAid.gov page not read at primary** because it is JS-rendered and the article 403'd). **If it holds, each auto-enrolment slips ~30 days: earliest ~Oct 29, and the last deadlines move from ~end-Mar to ~end-Apr 2027**, which pushes CRL-13's full-population read with them. Notices continue roughly every two weeks through year-end. **No wave-level selection or non-selection count exists anywhere public.**
-> - **AFT v. ED (D.D.C. `1:25-cv-00802`, Walton):** ⚠️ **The conference CARL carried as 10/28 was held on Wed 10/14** [CourtListener minute entry]. **Next: Mon 11/23 11:00 ET.** Doc 70 (10/15) is an order. **The last ED status report is Doc 65 (May 19); none has been filed since.** ⇒ **no post-April IDR/RAP count is public: UNAVAILABLE.** ⚠️ This case's reports cover the IDR/PSLF processing backlog, **not SAVE non-selection**, so even a new report would not directly feed CRL-13.
-> - **Sweet v. McMahon:** the enforce + contempt motions (filed Aug 18) are **fully briefed** (plaintiffs' replies Oct 15); **hearing Thu Nov 5 2026** [PPSL, via search; docket not read]. No ruling yet.
-> - **NY Fed 2026:Q3 HHDC:** not posted; last year's Q3 came out Wed Nov 5 2025. **Poll `HHD_C_Report_2026Q3.xlsx`.**
->
-> ### 🆕 Later 10/28: five research items worked (Will-directed) → `research/README_2026-10-28_research-items.md`
-> - 🔴 **Treasury built and cancelled an Education collections pilot.** Fiscal Service awarded "PCA SERVICES - EDUCATION PILOT" task orders to **5 private collectors, $8M each (May 19–29 2026)**, and **terminated all five on Jun 3 2026** [USAspending/FPDS primary]. **STUE's 9/5 "validated null" missed it** because it searched "student" and "default resolution". Collections remain paused; no custody transfer observed.
-> - **SAVE notice windows settled (OQ#19):** servicer-specific; **MOHELA finished noticing by Sep 30** (primary), so its auto-enrolments run ~Oct 2026 – Jan 2027. Final notice confirmed at primary.
-> - **Score-drop band sourced (OQ#12):** −87…−171 is a 2016–19 historical estimate; the observed Q1-2025 update averages ≈ −105.
-> - **AFT complaint read (OQ#13):** two of three cited figures confirmed; the **7×/>50× wait ratio is not in the pleading**; the 2.5M/800K figures are **Oct 2023**, not 2025.
-> - **TCF study harvested (OQ#10):** its projection is **17M in distress**, not the **13M in default** STUE attributed to it.
->
-> ### ✅ CLOSEOUT 2026-10-28 22:09 EDT — run to the DOC/CARL standard by hand (STUE's own step list is under-specified; proposal sent to CARL)
-> | Check | Result |
-> |---|---|
-> | Inbox | empty (2 CARL packets processed, `git mv` to `processed/`) |
-> | ES tracker | ES-01/04/06 graded on FY26 Q3; ES-02 interim logged; CARL ruling recorded |
-> | State vectors | SV-STUE-2026-10-28-01, -02 |
-> | Ledgers (`ledger_staleness`) | CASCADE / SERVICER / TIMELINE ok; STATE_DQ FROZEN |
-> | Weekday (`claim_check`) | 1 flag, false positive ("Washington Sun" read as Sunday) |
-> | Orphans (`orphan_check.sh CARL`) | no STUE items |
-> | Read cap (`--agent STUE`) | ⏳ **rc=2 CANNOT-EVALUATE** (re-run 22:2x): STATUS is now registered in READS.tsv as a *scoped* read (bounded head), so the whole-file failure is gone; the check waits on **STUE's own attestation**, sent to PROME (`PROME/inbox/2026-10-28_from-STUE_READS-attestation.md`), which also declares two previously unregistered scoped reads (CARL STATUS grep, CARL PREDICTIONS lookup) |
-> | Memory | extended `finding_scan_keyed_on_naming_reads_local_form_as_absence` (n+1); `--slug` check rc=0; index 71% of cap |
-> | 60-day retirement | no candidates (`domain/StudentLoan_Data_2026-02.md` is >60d but cited live by `CLAUDE.md`; retained) |
-> | Next run docketed | ✅ CARL CATALYSTS + CALENDAR now carry the **ES-02 grade (11/13)**, HHDC 11/05, Sweet 11/05, AFT 11/23 11:00 ET (corrected), FSA ~12/18 (CARL `2f6c64bd3`, verified) |
-> | ⇒ | **PARTIAL closeout, one item left:** read-cap evaluation awaits PROME's transcription of STUE's attestation. The closeout-protocol upgrade is **done**: Will authorized STUE to edit its card (22:1x), but CARL had already applied the proposal verbatim in `2f6c64bd3` (§ On Session End steps 0, 3c–3e, 4b, 5, 6), so no STUE card edit was made |
+> - **FSA FY2026 Q3 (Jun 30; posted 9/18):** default **9.3M / $234.1B** (+0.3M vs +1.3M prior). **ES-01 NO VERDICT** (forbearance 8.4M → 8.0M = **−4.76%** printed; rounding range −3.6% to −5.9% straddles the −5% edge). **ES-04 not gradeable** (no gross-flow leg). **ES-06 access gap.** Late pipeline 0.66M ⇒ Sep-30 count ~9.5–10.0M (OQ#16).
+> - **ES-02 / CRL-28 interim:** Oct 1–16 = **24.8/day**, below Y; the boundary rule passed its 1st out-of-sample run (CARL affirmed). **Grade ~Nov 13/16.**
+> - **Research:** Treasury **EDUCATION PILOT** collection contracts awarded and terminated Jun 3 (9/5 null reversed); MOHELA noticed **Jul–Sep**; score-drop band and AFT Doc 50 sourced; MOHELA call figures **13:28 / 14.12%** verified (Jul–Sep 2024 vintage). → `research/README_2026-10-28_research-items.md`.
+> - **Closeout:** protocol upgraded (CARL `2f6c64bd3`); READS attestation transcribed, `read_cap_check --agent STUE` rc=0 (BASIS row pending at PROME). Details: ES tracker fired log, `SV-STUE-2026-10-28-01`/`-02`.
 
 > 🗂️ **ROTATION INDEX** — older session blocks and closed sections live verbatim in `archive/STUE_STATUS_ARCHIVE_2026-09.md` §B1–B9 and `archive/STUE_STATUS_ARCHIVE_2026-10.md` §C1–C8 (each byte + CRC32 stamped). §C8 (7909 B, CRC32 `09bbed30`) holds the pointer stack and closed head rows collapsed into this line on 2026-10-28.
 
@@ -146,8 +101,6 @@ Federal student loan stress remains a **mass credit-destruction event in active 
 ### Borrower Defense (Sweet v. McMahon)
 | Metric | Value | Status |
 |--------|-------|--------|
-| Exhibit C (Jan 28) / non-Exhibit C (Apr 15) deadlines | Both MISSED → auto Full Settlement Relief triggered | 🔴 |
-| **Jun 15 notice deadline** | ✅ **MET** — first Sweet deadline DOE did not miss. **~30–36K** discharge-eligibility emails week of Jun 15 to non-Exhibit C post-class applicants (Jun 23–Nov 16 2022 filers) | 🟢 **resolved** |
 | Relief delivery | Within 1 yr of notice → **~Jun 2027** | — |
 | Total relief pipeline | ~271K cumulative (PPSL) | 🔴 firing |
 | 9th Cir appeal 26-1136 | ✅ **DOE LOST, Fri Jul 17 2026, unanimous** (Wardlaw/Owens/Bress): relief stands for **>170K post-class applicants**. Detail + the Jul-18 weekday tie-break → archive §C8 | 🟢 resolved |
@@ -293,14 +246,12 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 
 | Date | Event | Impact |
 |------|-------|--------|
-| ⛔ **7 FIRED/CLOSED catalyst rows ROTATED 2026-09-05 PM** → `archive/STUE_STATUS_ARCHIVE_2026-09.md` **§B9** (2,677 B, CRC32 `cb276a5c`) | Treasury Phase-1 verification · AFT docket check · the Q2 HHDC print · the NY Fed advisory-watch · the ~Aug-20 CFPB re-pull · the ~Sep FSA release row (now header-triggered) · the ~Sep-15 *Sweet* oral argument that never happened. **Two figures carried forward here because the safety test flagged they would otherwise leave STATUS entirely: the Q2 CC 90+ print was 12.92%, and CARL cut CRL-05 85→20 on it.** ⚠️ *Both are CARL's, not STUE's — recorded as context, and STUE still does not mirror a CRL confidence as its own state.* | ⛔ **rotated** |
-| ~~Fri 2026-09-11~~ **FIRED 9/18, graded 10/28** | FSA FY2026 Q3 release (LM Fri 18 Sep 2026; CARL caught it 9/24) | ES-01 NO VERDICT (straddles Y) · ES-04 not gradeable · ES-06 access gap. **Next: FY2026 Q4 (Sep 30 data), expected ~mid/late Dec 2026. Poll the `last-modified` header weekly from ~Dec 1** |
+| ⛔ **Closed catalyst rows** → archive §B9 (9/5), §C7 and §C9 (14020 B, CRC32 `5ba2e6c1`) | FSA FY26-Q3 release (fired 9/18, graded 10/28); MOHELA noticing (done by Sep 30) | ⛔ |
+| **~Fri 2026-12-18** (inferred) | **FSA FY2026 Q4 release (Sep 30 data)** — header-triggered: poll `PortfoliobyLoanStatus.xls` `last-modified` weekly from ~Dec 1 | ES-01/04/06 re-grade; OQ#16 peak test |
 | **~Wed 2026-11-04 / Thu 11-05** | 🔴 **NY Fed 2026:Q3 HHDC** (2025:Q3 released Wed Nov 5; no advisory yet on 10/28) | Third stock print (CRL-04) and flow into 90+ (cohort exhaustion). **Poll `HHD_C_Report_2026Q3.xlsx` (curl + browser UA); returned 302 on 10/28** |
 | **Thu 2026-11-05** | **Sweet v. McMahon hearing**: motions to enforce and for contempt (fully briefed 10/15) | Relief DELIVERY leg; 807 class members overdue. Event-driven read after the hearing |
 | **Mon 2026-11-23 11:00 ET** | **AFT v. ED (`1:25-cv-00802`) status conference** (10/14 conference held; set by minute entry) | IDR/PSLF backlog reports, **not** SAVE non-selection. Check for any new ED status report (none since Doc 65, May 19) |
-| ~~**~Oct 31**~~ **→ done by Sep 30** | MOHELA notice waves complete — **its FAQ now says notices went out July–September 2026** (primary, 10/28) | ⇒ MOHELA's 90-day windows close by **~Dec 29 2026**; first auto-enrolments from ~Sep 29 (+ ~30-day final notice ⇒ ~Oct 29). **The complaint window that matters is Oct 2026 – Jan 2027.** The ES-02 grade date (~Nov 13/16) is unchanged |
 | **~Fri 2026-11-13 / Mon 11-16** | 🔴 **ES-02 THIRD AND FINAL LOOK — the actual GRADE date** (DOCKET L150) | ⚠️ **CORRECTED 2026-09-05 (PROME/Codex):** the surfaces previously called **Oct 31 itself** the "third and final look." **Wrong, and wrong by STUE's own cliff finding** — the settled boundary runs **~14 days behind the pull**, so a pull on Oct 31 reads data settled only to ~Oct 17 and **cannot see notice completion at all.** The boundary reaches Oct 31 around **~Nov 14**. **Grading a completion event before the data covering it is settled is exactly the error the lag work exists to prevent** — and it very nearly propagated into the row that decides CRL-28's STUCK→MISSED question |
-| ⛔ **2 closed rows ROTATED 2026-10-28** → archive §C7 (736 B, CRC32 `1e194dc8`) | The superseded FSA "see re-dated" marker and the 10/01 first-tranche read (no gradeable data; CARL KB-CARL-501) | ⛔ |
 | ~~**Sep 30 2026**~~ **→ Dec 31 2026 (EXTENDED 9/29 by ED; read by CARL 10/01, KB-CARL-500)** | RAP auto-pay enrollment deadline — **1% interest-rate reduction through Jun 30 2028** for borrowers enrolled in auto-pay by this date [ED; Edfinancial page PRIMARY 10/01: 'on or before 11:59 PM ET on 12/31/2026', Direct Loans originated on or after 7/1/2012; ~2M new enrolments per ED 9/29] | 🆕 *added 7/31.* Marginally **relieving** on payment burden; a partial offset to the $0→~$407/mo shock. Small, but it is the only easing mechanism in the transition |
 | **TBD — event-driven** | **Treasury revokes ED's May-11-2001 Cross-Servicing exemption** = THE custody event (OQ#14, re-instrumented 9/5) | Stated trigger is *"once full operational capacity has been reached"* — **no date exists.** Leading indicator = Treasury vendor/procurement build-out (USAspending); currently **null, with the last PCA action a 2025 bridge contract** |
 | **Dec 31 2026** | **All SAVE notices issued (COMPRESSED from Mar 2027)** | Every borrower's 90-day clock started |
@@ -358,7 +309,7 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 
 ## ROUTED TO PARENT — ✅ ALL ADOPTED (closed 2026-07-31)
 
-**[ROTATED 2026-09-05 → `archive/STUE_STATUS_ARCHIVE_2026-09.md` §B7]** The 7/25–7/31 routing table, closed with nothing owed in either direction, verified against the parent's committed files. **The two procedural lessons are kept and are live in boot step 2b:** check adoption against the parent's FILES, not against a claim of processing — and check whether the parent is mid-session before reading a stale stamp as neglect.
+> ⛔ **Closed routing rows** (7/25–7/31 → archive §B7; 9/5 → §C6; 10/28 deliveries, all ADOPTED by CARL, and OQ#19 resolved → §C9, 14020 B, CRC32 `5ba2e6c1`). **Nothing owed in either direction as of 2026-10-28 22:20 EDT.**
 
 ### 🔵 LIVE — routed 2026-09-05, delivered to CARL + PROME (`SV-STUE-2026-09-05-01`)
 
@@ -366,12 +317,7 @@ A grep found **six** different "score drop from student-loan delinquency" figure
 
 | Item | Ask | Status |
 |---|---|---|
-| ⛔ **6 closed 9/5 rows ROTATED 2026-10-28** → archive §C6 (1167 B, CRC32 `4820ddff`) | ES-02 mechanism warning, lag-rule defect, FSA not-posted, DMCS perimeter, Sweet contempt, read-cap ruling — all integrated or ruled by CARL | ✅ closed |
-| **OQ#19 — SAVE notice-window conflict** | Aug-15 secondary would pull CRL-13's full-population read to ~Nov 13 2026 vs carried Q1-2027 | 🟠 **OPEN — carried framing STANDS.** CARL 9/5: settle on a **servicer primary before Oct 1**; decide on evidence, not a secondary |
-| **10/28 delivery** (`SV-STUE-2026-10-28-01` + packet `AGENTS/CARL/inbox/processed/2026-10-28_from-STUE_FSA-Q3-grades-AFT-collections.md`) | ES-01 NO VERDICT (straddles Y) · ES-04 not gradeable · ES-06 access gap · ES-02 interim 24.8/day · AFT v. ED date correction (10/14, not 10/28; no new count) · collections still paused. **No CRL change proposed** | ✅ **ADOPTED 10/28** — CARL KB-568/569, STATUS Student/FSA row; ES-02 placement reading AFFIRMED (carl-6f) |
-| **10/28 research pass** (`SV-STUE-2026-10-28-02` + packet `…/2026-10-28_from-STUE_research-items-treasury-pilot-SAVE-windows.md`; `research/README_2026-10-28_research-items.md`) | Treasury Education PCA pilot (awarded, then terminated Jun 3); SAVE windows servicer-specific (MOHELA Jul–Sep); score-drop band sourced; AFT Doc 50 figures checked; 13M attribution unverified; 3 card fixes | ✅ **ADOPTED 10/28** — CARL KB-CARL-573 + STATUS wording; card fixes applied in STUE `CLAUDE.md` (lines 95, 109, 130 verified); PROME DOCKET L154 resolved |
 
-> ⚠️ **Historical routing table (7/25–7/31, all adopted, nothing owed) → `archive/STUE_STATUS_ARCHIVE_2026-09.md` §B7.**
 
 > **STUE holds no predictions ledger** — CRL-04/05/13/28 are CARL's rows and CARL is system of record. STUE proposes with worked reasoning; the parent applies. **Do not mirror a CRL confidence here.**
 
