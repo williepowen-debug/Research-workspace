@@ -1807,3 +1807,6 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-27T18:37:11Z	SIG-W-20261027-070	Gmail / original and attributed sources	New CRE financing leads show activity, without proving broad funding health	PRIORITY	CREED,BROCK,LIQUID	REGINALD,RED	0.45
 2026-10-27T18:37:11Z	SIG-W-20261027-071	Gmail / original and attributed sources	Lake Meadows investor-exit lawsuit is an allegation, not a loan default	PRIORITY	HOMER	CREED,BROCK,RED	0.45
 2026-10-27T18:37:11Z	SIG-W-20261027-072	Gmail / original and attributed sources	Industrial leasing and office hiring plans are distinct demand leads	PRIORITY	CREED,ISHM	VULCAN,LABOR,RED	0.45
+2026-10-29T00:42:28Z	SIG-W-20261029-001	federalreserve.gov FOMC statement 2026-10-28	FOMC 10/28 held 3.75-4.00, 10-2 with Cook and Hammack dissenting for a 25bp hike	PRIORITY	HENRY,NEXUS	CARL,LIQUID,BOND,VIOLET,SAM,RED,PROME	0.97
+2026-10-29T00:42:28Z	SIG-W-20261029-002	RESEARCH-INTAKE lane + WALTER full Iran sweep 2026-10-29	Ras Tanura Houthi claim only; no Saudi/Aramco statement; fire near export terminal per 1 anon source; full Iran sweep deltas	PRIORITY	FALCON	BRENT,HAWK,SAM,RED,PROME	0.55
+2026-10-29T00:42:28Z	SIG-W-20261029-003	Tasnim 2026-10-27 (PGSA X post)	PGSA: legal action vs all Sinokor vessels from 11/1; Sinokor ~47% of Hormuz VLCC transits (LLI, secondary)	PRIORITY	FALCON,BRENT	HAWK,SAM,RED,PROME	0.85

@@ -1,0 +1,50 @@
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BZF27"}}}
+$BZF27: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$BZF27: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CLZ26"}}}
+$CLZ26: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$CLZ26: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+fetch.py: exit 3 — price: 2 fetch failure(s) (BZF27, CLZ26)
+
+ Ticker     Name                        Price     Change              As-of        Volume
+ ---------------------------------------------------------------------------------------
+ KRE        Regional Banks ETF         $72.11     -0.65%         2026-10-28    12,337,188
+ WAL        Western Alliance           $75.96     -0.58%         2026-10-28       856,738
+ ZION       ZION                       $65.41     -0.41%         2026-10-28     1,685,431
+ OZK        Bank OZK                   $50.51     -0.51%         2026-10-28     1,402,227
+ ^VIX       VIX                        $16.91     -3.48%         2026-10-28             0
+ HYG        HY Bond ETF                $77.59     -0.01%         2026-10-28    65,283,700
+ SPY        SPY                       $772.31     +0.34%         2026-10-28    30,033,924
+ QQQ        QQQ                       $725.61     +0.60%         2026-10-28    28,955,146
+ BZF27      BZF27                       ERROR 'exchangeTimezoneName'
+ CLZ26      CLZ26                       ERROR 'exchangeTimezoneName'
+ ^TNX       10Y Treasury Yield          $5.05     +1.04%         2026-10-28             0
+ GC=F       GC=F                     4,054.20        N/A    10-28⚠eve→10-29         6,320
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-28 20:24:00 [America/New_York] vs bar 2026-10-28; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: Dec 2026 (GCZ26)
+ FLG        FLG                        $10.16     +0.20%         2026-10-28     9,128,300
+ RCL        RCL                       $298.30     +0.80%         2026-10-28     2,429,487
+
+ Ticker     Name                        Price     Change              As-of        Volume
+ ---------------------------------------------------------------------------------------
+ BZ=F       Brent Crude               $110.93        N/A    10-28⚠eve→10-29           469
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-28 20:23:59 [America/New_York] vs bar 2026-10-28; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: UNKNOWN (name-cut-confirmed-by-longName-at-31:'Brent Crude Oil Last Day Financ')
+ CL=F       WTI Crude                 $102.27        N/A    10-28⚠eve→10-29         4,650
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-28 20:24:15 [America/New_York] vs bar 2026-10-28; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: Dec 2026 (CLZ26)
+ BZZ26.NYM  BZZ26.NYM                 $114.55        N/A    10-28⚠eve→10-29            77
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-28 20:17:56 [America/New_York] vs bar 2026-10-28; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: UNKNOWN (name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ')
+ BZF27.NYM  BZF27.NYM                 $110.93        N/A    10-28⚠eve→10-29           469
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-28 20:23:59 [America/New_York] vs bar 2026-10-28; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: UNKNOWN (name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ')
+ CLZ26.NYM  CLZ26.NYM                 $102.27        N/A    10-28⚠eve→10-29         4,650
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-28 20:24:15 [America/New_York] vs bar 2026-10-28; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: Dec 2026 (CLZ26)
+ RB=F       RB=F                        $3.11        N/A    10-28⚠eve→10-29           114
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-28 20:22:43 [America/New_York] vs bar 2026-10-28; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: Dec 2026 (RBZ26)
+ HO=F       HO=F                        $4.65        N/A    10-28⚠eve→10-29           409
+            └─ ⚠ evening-next-session: withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle BEFORE the overwritten session · last trade at/after the day-session close on the bar date; last trade 2026-10-28 20:22:43 [America/New_York] vs bar 2026-10-28; day-session close 17:00 ET assumed (CME Globex energy/metals)
+            └─ contract: Dec 2026 (HOZ26)

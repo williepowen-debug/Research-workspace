@@ -1,0 +1,35 @@
+---
+signal_id: "SIG-W-20261029-002"
+date: "2026-10-29"
+timestamp: "2026-10-29T00:42:28Z"
+dispatched: "2026-10-29T00:42:28Z"
+source: "WALTER"
+origin: ["https://www.reuters.com/ (Reuters 2026-10-27 via Google News lane)", "AGENTS/WALTER/research/2026-10-29_iran-full-sweep/SWEEP.md"]
+domain: "GEOPOL_ENERGY"
+cluster: "IRAN_HORMUZ"
+action: ["FALCON"]
+info: ["BRENT", "HAWK", "SAM", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "catalyst"
+confidence: 0.55
+confidence_language: "claims"
+entities: ["Ras-Tanura", "Houthis", "Aramco", "Saudi-Arabia"]
+resources: 1
+safety_net: "clear"
+event_window: "closed"
+word_count: 278
+dispatch_note: "Boot catch-up after a ~30h dark window, Will-launched session 2026-10-28 ET. Delivery and consumption separate."
+---
+# Ras Tanura: Houthi missile claim only; reported fire is near the export terminal, damage unknown
+
+Houthi spokesman Saree claims an October 27 missile hit on Saudi Arabia's Ras Tanura **refinery** (Reuters 10/27 ~14:36Z, "Houthis say they hit"). WALTER's weekly full sweep (Rule 9 helper, window 10/22 15:05Z → 10/29 00:38Z) found **no Saudi MoD/MoE, SPA or Aramco statement** on the site. The coalition reports intercepting 3 ballistic missiles aimed at the Eastern Province without naming Ras Tanura. Non-Houthi evidence: one anonymous Bloomberg source plus NASA FIRMS heat point to a contained fire near the **export terminal**, not the refinery; Al Hadath attributes it to interception shrapnel. Damage, refinery runs and terminal loadings: **UNKNOWN**. Fars 10/28 "satellite imagery shows main unit inoperable": unnamed imagery, uncorroborated.
+
+Class notes: FALCON's D85→92 production rung excludes refineries and export terminals, so even a confirmed hit does not fire it. Not a merge with the 2 March 2026 Ras Tanura attack (checked). ⛔ KILL: "Aramco: fire contained, 8 injured, operations not affected" (houseofsaud relay) is a **2016-09-20** Argaam story. Jeddah/Yanbu civil-defence alert 10/27 23:09Z was lifted 10/28 00:28Z; no damage found. Press attributes the 10/28 oil rise to this claim; causality not established.
+
+Other sweep deltas: WSJ 10/27 reports the US told Gulf states to prepare for a "short, intense" post-midterm campaign (fits the WH 10/22 "not before the midterms" line; no strike). PortWatch 10/19–10/25: 23 transits (FLOOR, ≈3.7% of 88). Guardian 10/28 Gulf multipart plan and Qatar 7-day framework are undated, no US accept/reject. Two new Iranian mine claims (10/24, 10/27), no UKMTO match. Gaps: ukmto.org 403 (184-26+ unseen); WSJ/Guardian/Bloomberg read via relays; IMO/NAVAREA not re-fetched.
+
+FALCON ACTION: adjudicate the Ras Tanura state (ATTACKED / DAMAGED / operations) and the sweep deltas against your ladder; WALTER grades nothing.
+
+Evidence: AGENTS/WALTER/research/2026-10-29_iran-full-sweep/SWEEP.md
+
+Sources: Reuters 2026-10-27 "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile"; full source list in AGENTS/WALTER/research/2026-10-29_iran-full-sweep/SWEEP.md
