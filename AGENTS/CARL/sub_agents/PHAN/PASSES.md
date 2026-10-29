@@ -8,6 +8,28 @@
 
 ---
 
+## 2026-10-28 CLOSEOUT record (session: boot → PM news sweep → file sweep → workbook refresh)
+
+| §8 step / root obligation | Result |
+|---|---|
+| 4 live TSVs | PROVIDER +16 rows; COCKROACH/REGULATORY no new events this session (hygiene pass covered 10/28) |
+| 5 as-of stamps | DOSSIER CURRENT STATE addendum, §3, §6 updated |
+| 6 predictions | none resolved; P01/P02/P07 rulings routed to CARL |
+| 7 routing | 3 packets → CARL inbox (SHED basis; file-sweep rulings; PROVIDER follow-up), 1 → PROME inbox (READS rows). **None consumed at closeout: delivered, not graded.** |
+| 8 inbox re-scan | 0 packets |
+| 9 OWED block | rebuilt (13 rows) |
+| 10 read cap (local) | DOSSIER 31,550 B ✅ (under 32,550); FRAMEWORKS 27,254; PASSES ~43 KB (grep-only). ⚠️ Fleet `read_cap_check.py --agent PHAN` NOT a valid check until PROME adds READS rows (grades frozen STATUS.md) |
+| 11 git | 4 commits, each pushed with `Pushed. CONFIRMED` receipt (e43ab5f5c, 3993eb14f, fcaa72893, this one) |
+| 12 auto-memory | extended `finding_correction_beside_an_instruction_leaves_two_live_instructions` (n+1); `memory_index_check --strict --slug` RC=0; `check_memory_length` RC=0 |
+| root: orphan_check (not in §8) | RC 0; nothing PHAN-authored unclaimed |
+| root: claim_check weekday (not in §8) | clean on all changed dated surfaces |
+| root: ledger_staleness (not in §8) | PROVIDER/PREDICTIONS/REGULATORY ok; COCKROACH `held +48d` (no qualifying event since 9/11, expected) |
+| root: consumer_check (not in §8) | RUN for Klarna 0.65→0.52, Affirm 2.3→2.5, CC 13.1→12.92: bare 2-sig-fig hits are noise; `--series` did not narrow them (undiagnosed). Targeted grep: only CARL VX.tsv + BNPL_STRESS.tsv cite the old figures, both FROZEN 6/26. No packets owed. |
+
+**Verdict: COMPLETE for PHAN-owned obligations.** Open externally: 3 CARL packets + 1 PROME packet unconsumed. Next session: Coastal Q3 (10/29 before open).
+
+---
+
 ## 2026-10-28 workbook refresh (Will-directed: "make sure our workbook is updated with all the latest data you are quoting")
 
 - **Gap found:** live ledgers (COCKROACH, REGULATORY, PREDICTIONS) already carried every figure in their scope. Metric figures quoted in the status brief (Affirm 2.5%, provision/NCO series, allowance, Klarna 0.52%, Fed SHED 26%, LendingTree stacking 2026, phantom-debt fork, earnings dates) lived only in DOSSIER/FRAMEWORKS/PASSES prose. `PROVIDER.tsv` was labelled FROZEN but its late_payment_rate row had been updated in place 9/10 while the rest sat at Apr-2026: the half-maintained state root Data Hygiene forbids.
