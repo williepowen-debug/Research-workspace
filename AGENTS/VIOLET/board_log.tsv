@@ -233,3 +233,25 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-22T02:12:04+00:00	2026-10-15_from-PROME_WQ410-RULED-retire-COR1M-first-tell	acted	INBOX_ROOT	Already enacted 10/19: KB-VIO-342 and SIGNAL_INTAKE line 147 carry tap stamp 2026-10-15T16:26:18.977Z; verified tonight, nothing new.
 2026-10-22T02:12:04+00:00	2026-10-19_from-CRUISE_repeat-loser-workflow-clarification	acted	INBOX_ROOT	Integrated 10/19 18:25 ET in research/2026-10-19_repeat-loser-volatility-context.md; filed tonight.
 2026-10-22T02:12:04+00:00	2026-10-19_from-HENRY_conditional-repeat-losers-final	acted	INBOX_ROOT	Consumed 10/19 18:39 ET (KB-VIO-350, RESULT hash verified); filed tonight.
+2026-10-29T18:55:57+00:00	SIG-W-20261022-002	noted	INBOX_WALTER	Asia selloff 10/22 + Brent overnight; context for the 10/22 VIX jump 16.68->19.03 (Cboe). HY 333 near REG-T-04 is REGINALD/LIQUID.
+2026-10-29T18:55:57+00:00	SIG-W-20261022-004	acted	INBOX_WALTER	HENRY gamma NEGATIVE both horizons 10/22 supersedes 022 POSITIVE; STATUS dealer-gamma line rewritten 10/29; COR-20261022-04 receipted APPLIED.
+2026-10-29T18:55:57+00:00	SIG-W-20261022-006	noted	INBOX_WALTER	AI tape 10/22 (Meta CDS record, Lam -10%, SOXX -5.8%); explains concentration leg of 10/22-10/23 surface; VULCAN/LIQUID own.
+2026-10-29T18:55:57+00:00	SIG-W-20261023-002	noted	INBOX_WALTER	SOX -6.72% 10/22; concentration context for the 10/22 M1:M2 inversion (-0.77%); VULCAN owns.
+2026-10-29T18:55:57+00:00	SIG-W-20261023-015	noted	INBOX_WALTER	HY 340 [10/22] 10bp under REG-T-04; CCC 1340; VIXCLS 19.03 starts RED-FT-06 count (RED owns). Credit vector held at 4.
+2026-10-29T18:55:57+00:00	SIG-W-20261023-026	noted	INBOX_WALTER	NYSE American Options halt 10/23, hedge-fund drawdown, Treasury call skew; HENRY grades. No VIOLET metric affected.
+2026-10-29T18:55:57+00:00	SIG-W-20261025-006	info-only	INBOX_WALTER	Four chart leads unreplicated; no VIX threshold established.
+2026-10-29T18:55:57+00:00	SIG-W-20261025-022	noted	INBOX_WALTER	QQQ 55-event count replicated; concentrated weakness context for equity-concentration vector (held at 2).
+2026-10-29T18:55:57+00:00	SIG-W-20261025-029	info-only	INBOX_WALTER	Meta FCF definitions reconciled; VULCAN lane.
+2026-10-29T18:55:57+00:00	SIG-W-20261026-008	info-only	INBOX_WALTER	10/26 rebound; Brazil/JetBlue pressure; no funding conclusion.
+2026-10-29T18:55:57+00:00	SIG-W-20261026-012	noted	INBOX_WALTER	Brazil stop-loss lead; BRL/JPY vs MXN/JPY does not establish yen-funding unwind; JPY RV canary CALM 10/29 (p33.8).
+2026-10-29T18:55:57+00:00	SIG-W-20261027-004	info-only	INBOX_WALTER	Anthropic training delay; VULCAN lane.
+2026-10-29T18:55:57+00:00	SIG-W-20261027-005	info-only	INBOX_WALTER	OpenAI ETH claim; VULCAN lane.
+2026-10-29T18:55:57+00:00	SIG-W-20261027-018	noted	INBOX_WALTER	0DTE countertrend-flow lead, method gated; regime context only, no suppression claim adopted.
+2026-10-29T18:55:57+00:00	SIG-W-20261027-025	info-only	INBOX_WALTER	Data-center HY cohort widening; LIQUID lane.
+2026-10-29T18:55:57+00:00	SIG-W-20261027-029	info-only	INBOX_WALTER	Broadcom/Anthropic $63B SPV; BROCK/LIQUID lane.
+2026-10-29T18:55:57+00:00	SIG-W-20261027-038	info-only	INBOX_WALTER	OpenAI on Google Cloud; VULCAN lane.
+2026-10-29T18:55:57+00:00	SIG-W-20261029-001	acted	INBOX_WALTER	FOMC 10/28 held 10-2 (two hike dissents); surface reaction read 10/28 close: VIX 16.91 (-3.5%), VVIX 96.61, 3M/VIX 1.1366 - no vol bid (KB-VIO-356).
+2026-10-29T18:55:57+00:00	SIG-W-20261029-025	noted	INBOX_WALTER	AI financing + Alphabet -11.7% 10/29 (vendor intraday); VIX 17.05 tick +0.8% - no index-vol repricing; VULCAN owns.
+2026-10-29T18:55:57+00:00	2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines	acted	INBOX_ROOT	B39 already applied by DAEDALUS 4da79f1ee (Will-directed); verified the closeout-guard line in CLAUDE.md; no contest.
+2026-10-29T18:55:57+00:00	2026-10-23_from-PROME_cheap-tail-route-text-make-it-the-real-route	acted	INBOX_ROOT	cheap_tail.py docstring :43 + printed route :259 now describe the PROME-registered WQ route; no logic/threshold change.
+2026-10-29T18:55:57+00:00	2026-10-26_from-VULCAN_supplier-equity-correlation	noted	INBOX_ROOT	Mechanism only; correlated supplier/customer equity exposure noted as concentration context; no vol reaction sampled, scores unchanged.

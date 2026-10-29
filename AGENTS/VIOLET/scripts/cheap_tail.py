@@ -40,7 +40,8 @@ The operator chooses whether to run it; the alert only makes the window legible.
 
 Vehicle discipline on OPEN: prefer rates-vol/TLT convexity (no VIX-futures
 roll-down) or VIX call SPREADS (cap the contango bleed) over outright VIX calls.
-Route PROME -> TERRY (construction) -> Will [Approve]. Never auto-executed.
+Route: packet PROME/inbox -> PROME registers the WQ row for Will -> disposition (TAKEN / PASSED)
+returns by packet; log it on the alert. TERRY only if Will commissions a card. Never auto-executed.
 
 UPSERTS one row per date into workbook/CHEAP_TAIL.tsv: a re-run for the same
 date UPDATES that row (state changes are reported loudly) rather than skipping it.
@@ -255,7 +256,7 @@ VEHICLE_MENU = [
     "       3. SPX/index put structures — HENRY/TERRY domain; flag, don't build here.",
     "     Sizing: small, defined-risk, EVENT-BOXED — take it off after the catalyst if the tail doesn't fire.",
     "     Distinct from the CONFIRMATION gate (KB-VIO-123): that fires late on independent channels; THIS is a setup-entry while vol is cheap.",
-    "     Route: PROME -> TERRY (construction) -> Will [Approve]. Log the decision (taken or passed) on the alert.",
+    "     Route: packet PROME/inbox -> PROME registers the WQ row for Will -> disposition (TAKEN / PASSED) returns by packet; log it on the alert.",
 ]
 
 

@@ -1,21 +1,22 @@
 # VIOLET CALENDAR
 
-Updated October 21, 2026 (22:2x ET); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv and research/2026-10-21_catchup/catalysts-fired.tsv.
+Updated October 29, 2026 (14:5x ET); canonical dated rows [CATALYSTS](workbook/CATALYSTS.tsv). Closeout contract: at least one HIGH/MEDIUM row within 14 calendar days (`scripts/forward_calendar_check.py`, KB-VIO-353). Fired rows preserved in research/2026-10-19_official-followthrough/catalysts-fired.tsv, research/2026-10-21_catchup/catalysts-fired.tsv and research/2026-10-29_catchup/catalysts-fired.tsv.
 
 ## ACTIVE FORWARD CATALYSTS
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-|Oct 28 (Wed)|FOMC decision Oct 27-28, no SEP|HIGH|Existing event; HENRY owns the policy path.|
-|Oct 29 (Thu)|Q3 GDP advance + September PCE, 08:30 ET|MEDIUM|BEA primary. Day after FOMC; read the surface reaction only.|
 |Oct 30 (Fri)|BOJ decision (Oct 29-30) + Outlook Report|MEDIUM|BOJ primary. Lands the evening of Oct 29 ET; SAM owns substance, VIOLET the carry-to-vol read.|
 |Nov 3 (Tue)|US midterm Election Day|MEDIUM|Statutory date. Check whether VX/X6 carries an event kink over VX/Z6.|
-|Nov 6 (Fri)|October payrolls, 08:30 ET|MEDIUM|SECONDARY date (LABOR register; bls.gov 403 on 10/21) - verify before any grade keys on it.|
+|Nov 6 (Fri)|October payrolls, 08:30 ET|MEDIUM|SECONDARY date (LABOR register; bls.gov 403 on 10/21 and 10/29) - verify before any grade keys on it.|
+|Nov 10 (Tue)|October CPI, 08:30 ET|MEDIUM|SECONDARY date (RED S57 names it; bls.gov 403 10/29). Pre/post surface read only.|
 |Nov 18 (Wed)|VIX November expiration AM SOQ|MEDIUM|Record contract pair; adjusted helper switches inside DTE<5.|
 |Dec 16 (Wed)|M1:M2 historical-average recheck KB-VIO-310|LOW|Existing L441; re-measure before any approved numerical update.|
 
 ## RESOLVED — fired catalysts and their grades
 
+- **October 29 Q3 GDP advance + September PCE (08:30 ET):** fired. VIX tick 17.03–17.05 by 14:55 ET (+0.7%), alongside Alphabet −12.75% (vendor intraday); no index-vol repricing. The official 10/29 close is not yet graded. AMZN/AAPL report after this close and are not graded. KB-VIO-356.
+- **October 28 FOMC (no SEP):** fired, rate held at 3.75–4.00%, vote 10–2 with both dissents for a hike (federalreserve.gov via SIG-W-20261029-001). Surface on the official close: VIX 17.52 → 16.91 (−3.48%), VVIX 96.61, VIX3M/VIX 1.1366, MOVE 94.55. Volatility was sold through the decision. HENRY owns the policy path. KB-VIO-356.
 - **October 21 VIX October expiration (AM SOQ):** VX/V6 final settlement **16.82** vs prior settle 17.2209 (−2.33%); spot VIX 17.31 → 16.68. Orderly expiry into easing; adjusted X6/Z6 +1.686% after the roll. No live VIOLET letter touched. KB-VIO-352.
 - **October14SKEW:** official157.30 completes4/4; RED graded FIRING. October15/16final160.45/168.59extend same run, no second fire. Observation obligation behindL667complete; publication hour unassumed.
 - **October15PPI /October16funding/CFTC:** BOND owns post-PPI rates; LIQUID LIQ07RESOLVED S2. CFTC October13report recoveredOctober19, original release vintage unverified. [Follow-through](research/2026-10-19_official-followthrough/REPORT.md).

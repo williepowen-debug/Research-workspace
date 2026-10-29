@@ -36,3 +36,9 @@ date	cor1m	cor3m	cor30d	vix	constituent_vol_est	cor1m_prev_close	basis	source_ts
 2026-10-16	10.07	13.98	10.31	19.99	63.0	7.65	SETTLE	2026-10-19T21:57:40.053786+00:00	Native COR series publisher-verified; same-date official VIX matched; constituent-vol estimate direction-only; recovered/audited October19, not original publication vintage; WQ410 first-tell RETIRED
 2026-10-19	9.68	13.66	10.37	18.44	59.3	10.07	TICK	2026-10-19T22:53:54+00:00	Native COR publisher finals rechecked18:53ET; same-date VIX final still absent, composite VIX/constituent-vol estimate PROVISIONAL; no original publication vintage certified; WQ410 first-tell RETIRED
 2026-10-21	8.4	12.83	9.96	16.68	57.6	8.4	SETTLE	2026-10-22T02:05:50+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
+2026-10-22	10.88	14.56	11.2	19.03	57.7	8.4	SETTLE	2026-10-29T18:55:26+00:00	BACKFILL 10/29 from Cboe COR*/VIX_History.csv; constituent_vol_est DERIVED VIX/sqrt(rho), DIRECTION-ONLY
+2026-10-23	11.6	15.0	11.34	19.45	57.1	10.88	SETTLE	2026-10-29T18:55:26+00:00	BACKFILL 10/29 from Cboe COR*/VIX_History.csv; constituent_vol_est DERIVED VIX/sqrt(rho), DIRECTION-ONLY
+2026-10-26	10.56	13.95	10.74	18.39	56.6	11.6	SETTLE	2026-10-29T18:55:26+00:00	BACKFILL 10/29 from Cboe COR*/VIX_History.csv; constituent_vol_est DERIVED VIX/sqrt(rho), DIRECTION-ONLY
+2026-10-27	9.58	13.49	10.35	17.52	56.6	10.56	SETTLE	2026-10-29T18:55:26+00:00	BACKFILL 10/29 from Cboe COR*/VIX_History.csv; constituent_vol_est DERIVED VIX/sqrt(rho), DIRECTION-ONLY
+2026-10-28	8.73	12.85	10.02	16.91	57.2	9.58	SETTLE	2026-10-29T18:55:26+00:00	BACKFILL 10/29 from Cboe COR*/VIX_History.csv; constituent_vol_est DERIVED VIX/sqrt(rho), DIRECTION-ONLY
+2026-10-29	9.52	13.43	9.94	16.97	55.0	8.73	TICK	2026-10-29T18:52:49+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY

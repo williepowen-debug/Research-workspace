@@ -293,3 +293,11 @@ Log material structural changes only — not routine content edits. Template ado
 - ⚠️ **Validating source A's value with source B's timestamp is itself a wrong-reference pair** — fixing only the witness would have left it. Value and timestamp now come from one call.
 - ⚠️ **Discovery-based wiring has a mirror-image failure**: an emptied or renamed directory makes a naive runner report success. `MIN_SUITES` is a floor that only a deliberate edit may lower — the DAEDALUS 🔴#5a defect (`return 0` for a missing script) re-appearing in a new place.
 - ⚠️ **ORDERING ANOMALY, recorded not fixed:** this log is declared reverse-chronological, but the 2026-09-11 14:5x entry was appended at the BOTTOM and this entry follows it there. **The 9/06 → 9/04 block above is reverse-chron; the two 9/11 entries are not.** Left as-is rather than restructured mid-session; **flagged for a deliberate pass.**
+
+## 2026-10-29 — cheap_tail.py route text corrected (PROME 10/23 packet, L413)
+
+**Trigger:** PROME packet 2026-10-23: the printed route promised a TERRY step that is not part of the registered route.
+**What changed:** `scripts/cheap_tail.py` docstring (:43) and the OPEN-alert printed line (:259) now read "packet PROME/inbox -> PROME registers the WQ row for Will -> disposition (TAKEN / PASSED) returns by packet; log it on the alert." No threshold, leg or logic change.
+**Files touched:** `scripts/cheap_tail.py`.
+**Boot-impact:** none (text only; regrade suite re-run at closeout).
+**Lessons:** a printed route is an instruction its reader follows; it must name the route that is actually run.
