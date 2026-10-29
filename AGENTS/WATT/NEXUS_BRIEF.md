@@ -3,7 +3,7 @@
 **Status:** P1/P2/P3/P4 = **5**/5/4/2; **composite 16/20** (was 14/20). P1 re-escalated 3→5 October 29 on the registered RED letter for the October 27 18:50–19:00 EPT run.
 **Domain:** Grid stress → wholesale price → industrial/data-center cost.
 **Thesis refinement:** Distinguish delayed/cancelled forecast load from the generation queue, and planned supply from delivered capacity.
-**As of:** DM2 5-min tape October 23 00:00 to October 29 13:25 EPT; verified hourly October 26–28; EIA-930 demand to 16Z October 29; board, posting ids, DOE index and Inside Lines feed read 13:32–13:40 ET October 29; P2/P3 as read October 20. **STATUS commit bace59368.**
+**As of:** DM2 5-min tape October 23 00:00 to October 29 13:25 EPT; verified hourly October 26–28; EIA-930 demand to 16Z October 29; board, posting ids, DOE index and Inside Lines feed read 13:32–13:40 ET October 29; P2/P3 as read October 20. **STATUS commit 184810f96.**
 
 ## CROSS-DOMAIN
 
@@ -53,12 +53,13 @@ October 29 packets: ISHM 80f2aa06a, HENRY 19e6e2a4b, AEOLUS 99efd5f8d, NEXUS a86
 
 ## NEXT DECISION POINT
 
-October 29 weekly coverage DONE (2 days late): P1 3→5, ISHM custody ACCEPT, inbox 30/30. Next: **P1 de-escalation grade on first boot on/after November 4** (window October 28–November 3, re-fire restarts; PROME asked to register); wake-list October 31; RBP material by November 5; weekly coverage ≤ November 5. No new monitoring commitment or Will decision. Record: `reports/2026-10-29_WATT_SWEEP.md`.
+October 29 weekly coverage DONE (2 days late): P1 3→5, ISHM custody ACCEPT, inbox 30/30. Next: **P1 de-escalation grade on first boot on/after November 4**; **WATT-13** (Nov 2026 forced outages > Nov 2025) resolves first boot on/after December 2 (window October 28–November 3, re-fire restarts; PROME asked to register); wake-list October 31; RBP material by November 5; weekly coverage ≤ November 5. No new monitoring commitment or Will decision. Record: `reports/2026-10-29_WATT_SWEEP.md`.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Limit |
 |---|---|---|
+| December 2 | WATT-13 resolves: November forced-outage mean 2026 vs 2025 | Same-day forecasts, identical query; tie = falsified |
 | November 5 | PJM Special MC (per October 15 agenda); RBP outcome read by then or at the section 205 filing | No assumed filing approval |
 | November 4 | P1 de-escalation grade (KB-149 letter, window October 28–November 3) | DST November 1 repeated hour; re-fire restarts |
 | October 31 / by November 5 | L487 wake-list review / weekly coverage | Registered work, no automatic monitor |
@@ -67,4 +68,4 @@ October 29 weekly coverage DONE (2 days late): P1 3→5, ISHM custody ACCEPT, in
 | December 2026 | 2029/30 BRA | Exact day/latest calendar unverified |
 | Within 60 days of October 15 | Generator compliance, ER24-2045 | December 14 unadjusted arithmetic, verify legal calendar; Cycle 3 effective-date filing separate |
 
-Final fold pins STATUS **bace59368**. KB181–190 and `sources/2026-10-29/` underpin the October 29 claims; KB177–180 and `sources/2026-10-23/` underpin the October 23 claims; KB173–176 and `sources/2026-10-22/` the October 22 claims; KB165–172 the October 20 news claims. Publication receipt in the PROME memo; notification/consumption not established by publication.
+Final fold pins STATUS **184810f96**. KB181–190, FL-WATT-16, WATT-13 and `sources/2026-10-29/` underpin the October 29 claims; KB177–180 and `sources/2026-10-23/` underpin the October 23 claims; KB173–176 and `sources/2026-10-22/` the October 22 claims; KB165–172 the October 20 news claims. Publication receipt in the PROME memo; notification/consumption not established by publication.
