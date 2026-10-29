@@ -114,3 +114,9 @@ gamma_flip_35d	7748	2026-10-22	cboe 7219 contracts
 net_gex_35d_Bn	-54.2	2026-10-22	$B per 1%
 put_wall_14d	7650	2026-10-22	clean #1 (+19% over #2); 14d cboe 3410 contracts, gamma --both 19:27 ET from the 16:00 close; spot 7663.43 NEG; 35d put wall also 7650 but near-tie (7%) -> band 7650-7700; cross-horizon AGREE, published. Supersedes the 09:53 ET 10/22 read (7750 near-tie bands 7650-7750 / 7700-7750, research/2026-10-22_L769/gamma_both_postopen.txt). DOCKET L787: close above 7650 = TESTED, not broken.
 put_wall_35d_BAND	7650-7700	2026-10-22	35d cboe 7219 contracts, 7650 near-tie (7% over #2), carry the band. Call wall WITHHELD (14d 7800 vs 35d 8000).
+gamma_flip_14d	7734	2026-10-29	cboe 3294 contracts (boot.py pull 2026-10-29 00:07 ET; Cboe delayed chain = the 10/28 16:00 ET close, spot 7743.98; POSITIVE)
+net_gex_14d_Bn	6.2	2026-10-29	$B per 1% (boot.py pull 2026-10-29 00:07 ET; Cboe delayed chain = the 10/28 16:00 ET close, spot 7743.98; POSITIVE)
+gamma_flip_35d	7738	2026-10-29	cboe 7416 contracts (boot.py pull 2026-10-29 00:07 ET; Cboe delayed chain = the 10/28 16:00 ET close, spot 7743.98; POSITIVE)
+net_gex_35d_Bn	4.7	2026-10-29	$B per 1% (boot.py pull 2026-10-29 00:07 ET; Cboe delayed chain = the 10/28 16:00 ET close, spot 7743.98; POSITIVE)
+call_wall_14d	7800	2026-10-29	clean #1 (+18% over #2); gamma --both 00:08 ET 10/29 from the 10/28 close chain; 35d also 7800 but near-tie (1%) -> band 7800-8000; cross-horizon AGREE, published.
+put_wall_WITHHELD	14d 7750 (near-tie band 7700-7750) vs 35d 7700 (clean, +12%)	2026-10-29	cross-horizon DISAGREE -> withheld (audit E2). Post-break read: SPX closed 7623.68 on 10/23 (vendor ^GSPC bar), under the 10/22 published 7650 wall = BROKEN on that close (graded late 10/29; no HENRY session 10/23, the 10/23 chain is not recoverable).

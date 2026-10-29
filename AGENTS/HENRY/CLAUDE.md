@@ -144,7 +144,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 |-----------|--------|----------|
 | SPX -10%+ from peak | CARL (wealth effect), PROME | 🔴 |
 | KRE <$60 | REGINALD, PROME | 🔴 |
-| ISM Mfg <47 (deep contraction) | LABOR, PROME | 🟠 |
+| ~~ISM Mfg <47~~ → **owned by ISHM since 2026-10-23 (WQ-507 A)**; HENRY receives the fire as an ISHM packet and reads its rates / vol consequence | ISHM fires to LABOR, PROME; HENRY informed | — |
 | Put wall tested/broken (gamma layer — HENRY-retained) | PROME | 🟠 |
 | ~~VIX >30 sustained → ALL~~ | **→ VIOLET owns vol broadcast** | — |
 
@@ -164,7 +164,7 @@ Static reference only. **Current levels live in `STATUS.md`** — pull from ther
 | VIX | >30 sustained | Risk-off regime confirmed |
 | SPX | -10% from cycle peak | Reverse wealth effect fires |
 | KRE | <$60 | Regional bank stress acute |
-| ISM Mfg | <47 | Deep contraction |
+| ISM Mfg <47 | **ISHM-owned since 2026-10-23 (WQ-507 A)** — level unchanged; HENRY reads the rates / vol consequence of a fire | Deep contraction |
 | 10Y Yield | >5.0% | Term premium crisis (LIQUID link) |
 | HY OAS | >320 / >400 / >500 | Credit-equity transmission (Y/O/R) |
 | USD/JPY | **velocity, not level: \|Δ\| ≥2%/day either direction = escalate** | Carry — **SAM owns the call; consume SAM's re-marks** (SAM STATUS § CARRY UNWIND / NEXUS_BRIEF), don't maintain a parallel level table. *(The old >160/>162/>165 keys read the unwind BACKWARDS — rising USD/JPY = carry-BUILD; the unwind is fast yen APPRECIATION. Self-flagged 7/31; SAM ruled 8/2 [GATE-SAM-30 memo §6, routed via PROME]; re-keyed to SAM's prescribed single velocity tripwire 2026-08-06 per ruling ⑤'s adopt-what-SAM-prescribes clause.)* |
