@@ -1,0 +1,338 @@
+PJM Response to the IMM Presentation in Aug. 2026, MRC
+
+This document, similar to the PJM Response to IMM RCSTF Presentation on May 1, is intended 
+to clarify some of the reasoning and design features underpinning the PJM proposal in the 
+Reserve Certainty Senior Task Force (RCSTF) in response to the presentation from the 
+Independent Market Monitor (IMM) at the MRC meeting on August 19, 2026, which again 
+mischaracterized PJM’s goals and proposal for the RCSTF effort. 
+
+Goals of PJM’s Proposal in RCSTF
+
+The IMM’s presentations intentionally misrepresent the following as the goals of PJM’s RCSTF 
+proposal: 
+
+• Raise prices in the day-ahead and real-time markets to shift revenue from capacity markets to 
+
+energy markets and reduce uplift in energy markets. 
+
+• Incorporate  advanced  commitments  made  for  conservative  operations  into  the  day-ahead 
+
+market
+
+• Reduce uplift associated with events like Winter Storm Elliott
+
+PJM’s design is not intended to shift revenue from the capacity market into the energy market 
+or to address multi-day advanced commitments that are made during conservative operations or 
+the uplift associated with such commitments. PJM’s design is instead intended to better reflect 
+the operational needs for maintaining system reliability in its Day-Ahead and Real-Time Energy 
+and Ancillary Service Markets. This purpose has been well-documented in the PJM materials 
+posted for the RCSTF.
+
+With the increasing integration of renewable energy, distributed energy resources, and demand 
+response, PJM anticipates increasing net-load ramp and uncertainty in grid operations, which 
+must be addressed by flexible, dispatchable generation. Consequently, the design proposed by 
+PJM is intended to address the net-load ramp and uncertainty as well as outage risks via in-
+market processes instead of continuous out-of-market actions that would otherwise be needed 
+to maintain reliability. 
+
+To the extent that this increases prices during times of tight system conditions, PJM believes 
+that this will appropriately create better incentives for performance during these critical periods 
+and send the appropriate flexibility investment signals. This increase in prices would then have 
+the effect of shifting revenue from the capacity market into the Energy and Ancillary Service 
+Market because of the coupled nature of these markets. However, this is a natural outcome of 
+the proposed reforms given the design of these markets, and not an objective of the proposal. 
+PJM intentionally deferred discussion on elements that would intentionally shift revenues from 
+the capacity market to the energy market, such as scarcity pricing reform, to the broader 
+discussion on market reform.  
+
+PJM’s proposal is not explicitly designed to reduce uplift, especially due to conservative 
+operations; rather, it is designed to improve day-to-day reliability and market efficiency. 
+However, out of market operator actions are a significant driver of uplift in PJM’s markets today, 
+
+www.pjm.com | For Public Use
+
+1 | P a g e
+
+PJM Response to the IMM Presentation in Aug. 2026, MRC
+
+and to the extent that the reliability needs driving these actions can be reflected in PJM’s 
+markets, this will lead to more transparent and efficient market outcomes. 
+
+PJM’s design is in keeping with the general principle of “a pricing framework that incorporates 
+reasonable prices for actions that the system operator may take to provide a security 
+constrained economic dispatch”1 in real time.
+
+PJM’s Proposal
+
+PJM proposes to address real-time net-load ramp and uncertainty needs through the 
+introduction of 10-Min and 30-Min Ramp and Uncertainty Reserves (RUR). Procuring reserves 
+to address uncertainties and ramping needs via in-market processes increases reliability (as it is 
+automated instead of manual operator actions), improves market transparency by reducing out-
+of-market operator actions, and aligns price signals with the flexibility needs of the system 
+thereby providing more accurate long-term investment signals. The prepositioning of real-time 
+dispatch via RUR to address forward ramps also aligns real-time dispatch with IT-SCED 
+commitments; this alignment would provide more efficient pricing and dispatch outcomes.  
+
+In the day-ahead market (DAM), we have higher levels of forecast uncertainties; the net-load 
+uncertainty and outage risks are addressed via the Day-Ahead Scheduling Reserves (DASR). 
+The percentile of uncertainty covered via DASR is determined by the operational risk to the 
+system.2 Moreover, on winter days with elevated risk, there is a higher probability of generation 
+start-up failure when committed in real time (after the day-ahead market). Consequently, online 
+Energy Gap (EG) Reserves are proposed to be procured in the day-ahead market so that 
+sufficient generation is committed in DAM to cover the peak demand. 
+
+Since the dynamic RUR requirements align reserve requirements (and by implication, prices) 
+with the real-time ramp and uncertainty experienced by the system, they act as a prepositioning 
+signal to reduce shortages and scarcity pricing during hours of tight ramp margin and reduce 
+prices in hours with lower ramping and uncertainty. 
+
+When the system has sufficient ramp margin, the RUR prices will be low, thereby providing 
+reliability at low cost. Moreover, many high energy price events are preceded by low ramp 
+margins (due to not procuring and maintaining sufficient ramping reserves).  The Independent 
+Market Monitor (IMM) for MISO observes the following in their 2025 State of the Market Report: 
+“MISO also implemented a ramp product that causes its day-ahead and real-time markets to 
+schedule resources to maintain additional capability to ramp up and down. Although this can 
+raise system costs slightly, it will lower the costs of satisfying system needs when the system 
+becomes ramp-constrained.” 
+
+1https://whogan.scholars.harvard.edu/sites/g/files/omnuum4216/files/whogan/files/hogan_hepg_022714.p
+df 
+2https://videos.pjm.com/media/1_6o3j7wgr 
+
+www.pjm.com | For Public Use
+
+2 | P a g e
+
+PJM Response to the IMM Presentation in Aug. 2026, MRC
+
+DASR and EG reserves are intended to reduce the out-of-market actions taken during the 
+Reliability Assessment and Commitment (RAC) process. These reserves will reduce operational 
+risk by allowing sufficient time for resources to arrange for real-time availability. 
+
+Energy and Capacity Markets
+
+“Capacity  markets  may  provide  additional  capacity  that  could  be  available  in  real-time.  But 
+capacity markets themselves do not create the correct incentives to operate capacity or change 
+load in response to short-run scarcity conditions. Something more is needed.” Hogan, 2013 
+
+In the context of the IMM’s presentation and suggestions regarding energy and capacity 
+markets interactions in PJM, it is worth emphasizing the distinction between operating reserves 
+procured in energy markets and the planning reserves procured in the capacity market. 
+
+Operating reserves are reserves that are available and deliverable in real time to deal with 
+sharp net-load ramps, uncertainties due to forecast errors, generation outages, transmission 
+line losses, etc. In other words, they are a subset of planning reserves that can provide real-time 
+reliability on short notice. Unlike the capacity procured via capacity markets based on forecasts 
+months or years into the future, operating reserves are based on more accurate information 
+about the supply, demand, and transmission conditions that are aligned with day-ahead or real-
+time operating conditions. The existence of a capacity market does not negate the need to 
+procure and incentivize flexible operating reserves that are available in real time and are 
+required for reliable operations.
+
+Energy and capacity markets are complementary markets with two distinct products: energy and 
+capacity. Having a capacity market should not preclude the need to align operational needs and 
+market outcomes in Energy and Ancillary Service Markets, especially because attributes crucial 
+for operational reliability, such as resource flexibility, are not featured in capacity markets. 
+Further discussion on this topic can be found in Chapter 4 of Powering Reliability Through 
+Market Design. 
+
+The PJM Proposal has Not Been Designed to Increase  
+Scarcity Prices 
+
+The IMM presentation asserts that PJM’s proposal seeks to increase scarcity prices. This is also 
+wrong. The highest priced reserve demand curve in the proposal is the Synchronized Reserve 
+(SR) Demand Curve, which is a single step of $2,100/MWh. This price, which is based on the 
+hard cap on incremental energy offers in FERC Order 831, was chosen so that the Security 
+Constrained Economic Dispatch (SCED) has access to a broad range of the supply stack to 
+avoid SR shortages. Under the proposed SR demand curve, the SCED would redispatch 
+resources whose opportunity cost to provide SR is at or below $2,100/MWh in order to avoid an 
+SR shortage. PJM sees the SR demand curve price of $2,100/MWh as being the lowest price to 
+reliably redispatch the system under tight system conditions. PJM’s position, as clarified in 
+PJM's ORDC Proposal, is that this price remains lower than the true value of avoiding 
+synchronized reserve shortage or the Value of Lost Load (VOLL).  
+
+www.pjm.com | For Public Use
+
+3 | P a g e
+
+PJM Response to the IMM Presentation in Aug. 2026, MRC
+
+The IMM also incorrectly implies that the Transmission Congestion Penalty Factors (TCPFs) of 
+$1,000/MWh will add to the energy locational marginal prices (LMP) in their entirety. Note that the 
+transmission congestion shadow price is weighted by the shift factor corresponding to the nodal 
+contribution  to  the  transmission  facility  (i.e.,  multiplied  by  a  scalar  below  1)  to  obtain  LMPs. 
+Further, the nodal procurement of reserves improves overall dispatch efficiency by considering 
+forward congestion and potentially reduces instances of instantaneous energy flow violations on 
+the transmission facilities, which  have a higher TCPF of $2,000/MWh.
+
+Reserve Offers and Market Power
+
+The IMM has asserted multiple times that the ancillary service market is non-competitive. In 
+their 2025 State of the Market (SOM) report, the IMM states “the RTO Reserve Zone was 
+unconcentrated in the day-ahead market and unconcentrated in the real-time market. The MAD 
+Reserve Subzone was moderately concentrated in the day-ahead market and moderately 
+concentrated in the real-time market.” PJM’s proposal replaces the sub-zonal design with a 
+locational procurement of reserves for all reserves except the day-ahead scheduling reserves 
+and the energy gap reserves, which are procured on an RTO-wide basis; under this design, 
+localized market power concerns are ameliorated due to the following: 
+
+• For reserves that are only procured in the day-ahead market, the procurement is on an 
+RTO-wide basis; the 2025 IMM SOM report observes that the market is unconcentrated 
+in the RTO Reserve Zone. 
+
+• For reserves that are procured in both day-ahead and real-time markets, there are no 
+sub-zonal requirements; reserves are procured based on an RTO-wide demand curve 
+(corresponding to a low HHI as stated in the IMM report) and distributed locationally 
+subject to transmission constraints based on this systemwide procurement. This nodal 
+procurement of reserves is different from the nodal demand for energy, which needs to 
+be balanced at each node independent of the systemwide energy demand. It is also 
+different from the status quo sub-zonal construct, since the sub-zonal reserve 
+requirement creates a moderately concentrated market in the mid-Atlantic and Dominion 
+(MAD) subzone.
+
+• Since the transmission constraints for the locational procurement of reserves are 
+
+modeled on the joint flow on energy and reserves for reserves that are carried in both 
+day-ahead and real-time markets, the market power mitigation of resources for energy 
+also reduces localized market power for reserves due to the co-optimization of energy 
+and reserves, particularly when these constraints are modeled while testing for market 
+power mitigation. 
+
+PJM’s position is that not recognizing the costs of providing reserve service — the types of 
+recognized reserve costs are detailed in PJM’s Position on Challenges and Solutions for Long-
+Term Reserve Certainty Reforms — engenders non-competitive markets over the long-term by 
+forcing flexible resources to either change their physical parameters (a form of physical 
+withholding) or driving them out of the market by imposing uneconomic reserve offers on such 
+resources. A $10/MWh soft offer cap incentivizes a competitive reserve market since resources 
+are able to represent risks and costs to providing reserves that cannot be modeled precisely, 
+while not allowing them the ability to create artificial reserve shortages (an exercise of market 
+
+www.pjm.com | For Public Use
+
+4 | P a g e
+
+PJM Response to the IMM Presentation in Aug. 2026, MRC
+
+power), because the lowest priced segments of the reserve demand curves for all services are 
+above $10/MWh. 
+
+Look-Ahead Dispatch and IT-SCED
+
+The IMM claims that look-ahead/multi-interval dispatch can be utilized to preposition the system 
+for net-load ramps. However, the IMM has not provided any details on how the pricing from 
+look-ahead dispatch would be settled. As evidenced by California and New York Independent 
+System Operators (CAISO and NYISO), forward interval prices in look-ahead dispatch can have 
+substantial deviation from settlement prices due to uncertainties; this can lead to market 
+inefficiencies. This is in addition to software-related challenges. Moreover, despite utilizing multi-
+interval dispatch, CAISO has flexible ramping reserves to address short-term ramps that cannot 
+be addressed at reasonable granularity through multi-interval dispatch. 
+
+While PJM recognizes that look-ahead dispatch may provide a useful pathway for intra-day, 
+long-run optimization, it would require a significant overhaul of the current settlement rules 
+without necessarily being a better alternative to the proposal put forth by PJM in RCSTF. 
+
+The IMM claims that net-load ramping can be addressed through IT-SCED. IT-SCED is used as 
+a commitment tool and not as a dispatch tool. As described in the preceding discussion, there 
+are substantial software and market efficiency-related challenges to using the dispatch and 
+pricing from IT-SCED for operations and settlements at all pricing nodes.
+
+Nesting and Unnesting of Reserve Products
+
+The IMM’s comments demonstrate a fundamental misunderstanding of the construct proposed 
+by PJM. Contrary to the claims made by the IMM, the design proposed by PJM increases the 
+supply of resources available to provide reserves and reduces costs as compared to the 
+alternative put forth by the IMM; this is explained in the following:
+
+The reserve pricing is primarily determined by eligibility rules, the reserve requirements, 
+and the demand curves. Detailed explanations can be found in (i) RCSTF Package And 
+Rationale; (ii)  Reserve Service Nesting, Unnesting and Price Formation; and (iii) 
+Product Nesting and Resource-level Constraints.
+
+PJM recognizes that different types of energy-limited resources may satisfy the different types 
+of operational requirements of the system. For instance, resources that can respond in 10 
+minutes and provide sustained performance for 60 minutes can satisfy the short-term flexibility 
+needs via 10-Min RUR, while resources that can respond in 30 minutes and sustain 
+performance for 4 hours can satisfy the intermediate-term flexibility needs via 30-Min RUR. 
+
+The IMM proposes that only resources that can sustain performance for 4 hours be allowed to 
+provide reserves. PJM believes that this would unduly limit the ability of flexible energy-limited 
+resources to provide 10-minute reserve services. As has been observed in other regions with 
+more battery storage participation, highly flexible energy limited resources are well-suited to 
+
+www.pjm.com | For Public Use
+
+5 | P a g e
+
+PJM Response to the IMM Presentation in Aug. 2026, MRC
+
+providing these short lead time reserve services, and PJM believes that limiting their 
+participation could lead to market inefficiency and increased prices in the future. 
+
+The class of resources eligible to provide 10-Min RUR is not a strict subset of the class of 
+resources eligible to provide 30-Min RUR or vice versa, which is why the unnested design is 
+appropriate to recognize the potentially distinct value of the two different classes of reserves. 
+PJM also recognizes that synchronized reserves (SR) are deployed via “All Call” during a spin 
+event, while the RUR reserves are proposed to be deployed economically in a forward interval 
+via RT-SCED; this merits an unnested design between SR and RUR. Where there is a clear 
+hierarchy in terms of the service provided which justifies the price additivity concomitant with the 
+nested reserve construct, PJM’s proposal maintains the nested design: for example, the online 
+30-Min RUR are a strict subset of all 30-Min Reserves and nested with the 30-Min reserves, in 
+consequence.
+
+Locational Reserves
+
+PJM has provided the rationale as well as detailed technical information and examples on the 
+locational procurement of reserves in a number of presentations and documents. A few of these 
+are listed below:
+
+• RCSTF Package And Rationale
+
+•
+
+Locational Constraints for Reserve Services
+
+• Additional Examples For Locational Reserves
+
+•
+
+Locational Procurement of Reserves
+
+As explained in these documents, the locational procurement of reserves, particularly those pre-
+positioning the system for future RT-SCED intervals, reduces payments to non-deliverable 
+reserves by recognizing forward network constraints. Consequently, more stable locational 
+marginal prices and greater efficiency in dispatch and pricing outcomes are anticipated due to 
+the introduction of the locational procurement of reserves. 
+
+The IMM’s presentation does not recognize the importance of maintaining feasible 
+dispatch/deployment of reserves accounting for transmission constraints. Reserve procurement 
+misaligned with transmission constraints leads to inefficient market outcomes in addition to 
+compromising operational reliability, which is why ISOs such as CAISO3 and NYISO4 have 
+
+3https://www.caiso.com/documents/presentation-flexible-ramping-product-refinements-deliverability-
+refresher-training.pdf 
+4https://www.nyiso.com/documents/20142/48652880/2024-12-
+18%20Dynamic%20Reserves%20MC.pdf/3e34cb2d-7450-045f-f590-80ddd6157f53 
+
+www.pjm.com | For Public Use
+
+6 | P a g e
+
+PJM Response to the IMM Presentation in Aug. 2026, MRC
+
+implemented or proposed the nodal procurement of reserves; other ISOs such as MISO5 are 
+also considering locationally driven reserve procurement. 
+
+The nodal pricing of reserves is not conceptually different from the locational marginal pricing 
+(LMP) of energy. Therefore, the same guiding principles and benefits hold for nodal pricing at 
+reserve nodes — see Harvey et. al, 2022 and RAP, 2026 and the references therein for a 
+detailed discussion; as explained in these documents, the importance of locationality is 
+accentuated with increasing ramping and uncertainty in the grid. 
+
+5https://cdn.misoenergy.org/20260219%20MSC%20Item%2009b%20Enhance%20Reserve%20Deliverab
+ility%20for%20DA%20and%20RT%20Markets%20(MSC-2026-2)741979.pdf 
+
+www.pjm.com | For Public Use
+
+7 | P a g e
+
+

@@ -117,3 +117,7 @@ EIA-860M, PJM balancing authority, August of each year [KB-WATT-188]:
 | Storage | 0.4 | 0.5 | 0.7 |
 
 **Reading:** no shrinking fleet, but no firm growth either. Since autumn 2025: firm flat, demand +6.1 GW mean, forced outages +2.1 GW, and solar +2.6 GW that contributes nothing at the late-October evening peak. ⚠️ EIA's perimeter is not PJM's accredited capacity; read the trend only. 860M is preliminary.
+
+## Addendum 14:0x ET — pricing-rule check (Will: "yes")
+
+No PJM real-time shortage-pricing or ORDC change found taking effect between autumn 2025 and autumn 2026 [KB-WATT-190]. The Reserve Certainty (RCSTF) redesign, a $2,100/MWh synchronized-reserve curve plus new products, was still being debated at the September 24, 2026 MRC. PJM's June 9, 2026 impact study treats current rules as "status quo with no changes." The "May 11" transient-shortage change was FERC Order 825 in 2017. ⚠️ Bounded search: two PJM documents and web searches, not a tariff census. If RCSTF is adopted, later year-over-year comparisons must account for it.

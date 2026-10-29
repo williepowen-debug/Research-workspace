@@ -1,0 +1,533 @@
+2025 Real-Time Market Pricing Impacts: Multi-
+Step ORDCs with Extended Requirements
+
+Austin Lin
+Advanced Analytics
+Reserve Certainty Senior Task Force
+June 9, 2026 
+
+www.pjm.com | Public
+
+PJM © 2026
+
+Introduction
+
+• Analyzed the pricing and commitment impacts in the Real-Time Market (RTM) for the 
+
+following: 
+
+– Unnesting of 10-Min Synchronized Reserve (SR) from 30-Min Reserve
+
+– 30-Min Reserve having a nested 30-Min Online Reserve component
+
+– 10-Min Online Reserve includes 10-Min SR and 10-Min RUR
+
+– 30-Min Online Reserve includes 30-Min RUR
+
+– The proposed reserve products are represented using Operating Reserve Demand Curves 
+
+(ORDCs) that are updated every 15 minutes with multi-step segments.
+
+www.pjm.com | Public
+
+2
+
+PJM © 2026
+
+Introduction (cont.)
+
+• Simulations were performed for the full year 2025
+
+– PROBE Prefect Dispatch (PD) was used to run the simulations for the RTM.
+
+– Only combustion turbines (CTs) and diesel units were allowed to be committed and 
+
+decommitted by PROBE PD. The unit commitment for steam units was held fixed to actual real-
+time operations, but they were allowed to be redispatched by PROBE PD.
+
+– The MAD reserve sub-zone was not enforced in any of the simulations.
+
+– 14 days were removed due to the simulations not converging and other data issues.
+
+www.pjm.com | Public
+
+3
+
+PJM © 2026
+
+Introduction (cont.)
+
+• Two scenarios* were simulated:
+
+– Base Case
+
+§ Status quo with no changes
+
+– Full Case
+
+§ Updated ORDCs for all products with Primary Reserve not cleared to reflect the updated market 
+
+design. 
+
+§ 30-Min Online product requirement is fully added to the SR requirement since PROBE PD lacks 
+
+a 30-Min Online product
+
+(i.e. SR Requirement = 10-Min Online Reserve Requirement + 30-Min Online Reserve Requirement)
+
+§ Note:  This case can represents an upper bound on the impacts on energy and ancillary service 
+
+prices due to the proposed reserve market changes.
+
+*Unlike the simulation results presented during the May 21, 2026 RCSTF meeting, we do not provide a sensitivity analysis with 1/3rd 
+and 2/3rd cases.
+
+www.pjm.com | Public
+
+4
+
+PJM © 2026
+
+• Base Case
+
+• Full Case
+
+Introduction (cont.)
+
+30-Min Reserves 
+
+Primary Reserves (PR) 
+
+Synchronized Reserves (SR) 
+
+30-Min Reserves
+
+Synchronized Reserves (SR)
+
+10-Min Online Reserves
+Primary Reserves (PR) (10-minute reserves) – 
++
+150% SR
+ Contingency reserves and ACE recovery
+
+30-Min Online Reserves
+
+www.pjm.com | Public
+
+5
+
+PJM © 2026
+
+ 
+2025 Summary Statistics
+
+• The following table shows a summary of the yearly* simulation results**.
+
+Category
+
+Metric
+
+Product/Type
+
+Base Case Multi-step ORDC
+
+Multi-step ORDC 
+– Base Case
+
+Energy
+
+Gen-Weighted Avg. 
+LMP ($/MWh)
+
+N/A
+
+Reserves Avg. MCP ($/MWh)
+
+10-Min Online
+
+Primary
+
+30-Min Online
+
+30-Min
+
+42.78
+
+10.25
+
+10.19
+
+-
+
+0.00
+
+43.58
+
+13.04
+
+-
+Included in 10-Min 
+Online product
+0.00
+
+0.80
+
+2.79
+
+-
+
+-
+
+0.00
+
+• Uplift*** reduced by 3.80% in the Multi-step ORDC Case.
+
+*The following days are excluded from the results due to non-convergence and other data issues: 3/2, 3/9, 5/5, 6/24, 6/25, 6/27, 6/29, 
+8/4, 8/5, 8/11, 11/2, 11/12, 11/16, 11/26
+**The results are rounded to two decimal places.
+***Uplift is calculated as the difference between a unit’s costs and revenues over each day summed for all days and units.
+
+www.pjm.com | Public
+
+6
+
+PJM © 2026
+
+Real-Time Simulation Results – Seasonal LMPs
+
+• Winter Generation-Weighted Average LMPs
+
+www.pjm.com | Public
+
+7
+
+PJM © 2026
+
+Real-Time Simulation Results – Seasonal LMPs
+
+• Spring Generation-Weighted Average LMPs
+
+www.pjm.com | Public
+
+8
+
+PJM © 2026
+
+Real-Time Simulation Results – Seasonal LMPs
+
+• Summer Generation-Weighted Average LMPs
+
+www.pjm.com | Public
+
+9
+
+PJM © 2026
+
+Real-Time Simulation Results – Seasonal LMPs
+
+• Fall Generation-Weighted Average LMPs
+
+www.pjm.com | Public
+
+10
+
+PJM © 2026
+
+Real-Time Simulation Results – AS MCPs
+
+• Winter Average SR MCPs
+
+www.pjm.com | Public
+
+11
+
+PJM © 2026
+
+Real-Time Simulation Results – AS MCPs
+
+• Spring Average SR MCPs
+
+www.pjm.com | Public
+
+12
+
+PJM © 2026
+
+Real-Time Simulation Results – AS MCPs
+
+• Summer Average SR MCPs
+
+www.pjm.com | Public
+
+13
+
+PJM © 2026
+
+Real-Time Simulation Results – AS MCPs
+
+• Fall Average SR MCPs
+
+www.pjm.com | Public
+
+14
+
+PJM © 2026
+
+Reserve Shortage Event 1 – LMP Outcome
+
+• LMPs on 3/3/2025
+
+www.pjm.com | Public
+
+15
+
+PJM © 2026
+
+Reserve Shortage Event 1 – AS MCP Outcome
+
+• 10-Min Online Reserve MCPs on 3/3/2025
+
+*Base Case: Cleared SR 
+(MW) >= SR Requirements
+
+**Muti-step ORDC Case: 
+Cleared 10-Min Online 
+(MW) >= SR + 10-Min RUR 
++ 30-Min RUR (composite 
+demand curve clearing)
+
+www.pjm.com | Public
+
+16
+
+PJM © 2026
+
+Reserve Shortage Event 2 – LMP Outcome
+
+• LMPs on 8/12/2025
+
+www.pjm.com | Public
+
+17
+
+PJM © 2026
+
+Reserve Shortage Event 2 – AS MCP Outcome
+
+• 10-Min Online Reserve MCPs on 8/12/2025
+
+*Base Case: Cleared SR 
+(MW) >= SR Requirements
+
+**Muti-step ORDC Case: 
+Cleared 10-Min Online 
+(MW) >= SR + 10-Min RUR 
++ 30-Min RUR (composite 
+demand curve clearing)
+
+www.pjm.com | Public
+
+18
+
+PJM © 2026
+
+Load Payment Comparison
+
+• The following table shows an approximate yearly real-time load* payment comparison between 
+
+the cases.
+
+• Note:  these costs cannot be simply added to those of the Day-Ahead Market simulation 
+
+results load payments posted with the May 1, 2026 RCSTF meeting materials.  
+
+Category
+
+Metric
+
+Product/Type
+
+Base Case Multi-step ORDC
+
+Multi-step ORDC 
+– Base Case
+
+Energy
+
+Load Payment 
+($M)
+
+N/A
+
+37,401
+
+38,182
+
+Reserves**
+
+Load Payment 
+($M)
+
+10-Min Online
+
+Primary
+
+30-Min Online
+
+30-Min
+
+261
+
+39
+
+-
+
+0
+
+477
+
+-
+Included in 10-Min 
+Online product
+0
+
+**The reserves $ impact includes both changes in yearly average MCP and MW provision between the cases.
+
+781
+
+216
+
+-39
+
+-
+
+0
+
+www.pjm.com | Public
+
+19
+
+PJM © 2026
+
+Load Payment Comparison (cont.)
+
+• The load payment costs presented on the previous slide cannot be simply added to 
+
+those of the Day-Ahead Market simulation results load payments posted with the May 
+1, 2026 RCSTF meeting materials.
+
+• PJM uses a two-market settlement system where only balancing energy and reserves 
+
+are settled on the Real-Time Market prices.
+
+• The payments on the preceding slide assume all load and reserves are settled at the 
+Real-Time Market prices, which is not an accurate reflection of reality, and will be an 
+overestimation of actual load payments, in addition to the overestimation caused by 
+adding the 30-Min Online Reserve requirement to the SR requirement.
+
+• Over all days in 2025, the median amount of total daily RT load cleared in the DAM 
+
+was 96.7% and the minimum amount was 89.1%. In summary, only a small fraction of 
+load is settled at Real-Time Market prices.
+
+• The calculations are being provided for informational purposes only.
+
+www.pjm.com | Public
+
+20
+
+PJM © 2026
+
+Simulation Results Summary
+
+• Seasonal generation-weighted average LMPs remain broadly similar between the Base Case 
+
+and the Multi-step ORDC Case with increases occurring just before the peak hours and 
+decreases occurring after the peak hours. 
+
+• Seasonal hourly-average ancillary MCPs generally show higher prices in the Multi-step ORDC 
+Case across all seasons due to the increased requirements. Specifically, prices increased 
+leading into the peak hours, and decreased after the peak hours.
+
+• The total uplift for 2025 reduced in the Multi-step ORDC Case.
+
+• Days with reserve shortages in the Base Case show the benefits of prepositioning the system 
+with the ramping products in the Multi-step ORDC Case reducing the frequency of scarcity 
+events.
+
+www.pjm.com | Public
+
+21
+
+PJM © 2026
+
+Key Takeaways
+
+1
+
+2
+
+3
+
+• Prepositioning units 
+with the ramping 
+products reduces the 
+frequency of scarcity 
+events.
+
+• Overall, the average 
+
+impact of the proposed 
+changes to LMPs are 
+minimal. 
+
+• New ORDCs increase 
+
+the reserve 
+requirements when 
+reserves are needed 
+most and decrease 
+them when they are not 
+needed as much 
+compared to the status 
+quo.
+
+www.pjm.com | Public
+
+22
+
+PJM © 2026
+
+Facilitator: 
+Lisa Morelli, Lisa.Morelli@pjm.com
+
+Secretary: 
+Amanda Egan, Amanda.Egan@pjm.com
+
+Presenter:
+Austin Lin, Austin.Lin@pjm.com
+
+2025 Real-Time Market Pricing Impacts: Multi-Step 
+ORDCs with Extended Requirements
+
+Contact
+
+Member Hotline
+
+(610) 666 – 8980
+
+(866) 400 – 8980
+
+custsvc@pjm.com
+
+www.pjm.com | Public
+
+23
+
+PJM © 2026
+
+www.pjm.com | Public
+
+PJM © 2026
+
+
