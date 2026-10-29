@@ -76,11 +76,12 @@
 
 ## Known gaps carried
 
-- boot.py leg 5 checks Last_Checked only on REPORTED/ATTEMPTS-ONLY rows, so a blank cell on a CONFIRMED row passes silently.
-- Leg 7 repeats already-adjudicated KEV listings each boot (027 and 014 now also repeat).
-- Leg 9 needs a boilerplate filter: Hanmi has hit twice (10/23, 10/29), both boilerplate.
-- No boot.py edit this session.
-- Row 8 lesson: the 10/23 search missed a same-day trade-press item. A re-check of row 8 should search trade press (American Banker, Banking Dive, CU Today) for "offline"/"precaution", not only operator pages.
+- **Fixed 2026-10-29 (Will 12:31 ET), drills 33/33** (3 rotted drills repaired; 4 added; mutation-checked):
+  - **Leg 5** now flags a blank or unparsable Last_Checked on ANY live incident row, not only REPORTED/ATTEMPTS-ONLY ones.
+  - **Leg 7** stays quiet on listings the owner has marked `KEV-SEEN:<CVE>@<dateAdded>` in Watch_Keys (007, 014, 027 marked). It re-alerts if the date changes.
+  - **Leg 8** shows hits without Item 1.05 in their EDGAR items as info only (the AASP audit charter).
+  - **Leg 9** reads each hit's document and shows boilerplate as info only. Calibration: `research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md` (16 of 16 real incidents still alert, including SR Bancorp, which a simpler rule missed).
+- Row 8 lesson: a re-check must search trade press (American Banker, Banking Dive, CU Today) for "offline"/"precaution", not only operator pages.
 
 ## Dated next
 

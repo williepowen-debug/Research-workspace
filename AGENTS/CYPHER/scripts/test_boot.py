@@ -47,6 +47,23 @@ _801_OLD = {"_source": {"file_date": "2026-09-10", "items": ["8.01"], "display_n
 E801_OK = {"hits": {"total": {"value": 2}, "hits": [_801_EARN, _801_OLD]}}
 E801_HIT = {"hits": {"total": {"value": 4}, "hits": [_801_NEW, _801_NEW, _801_EARN, _801_ABS]}}
 E801_ZERO = {"hits": {"total": {"value": 0}, "hits": []}}
+# Leg 9 document drills (CYPHER_EDGAR801_DOCDIR): the matched document is read for incident wording.
+_801_DOC = lambda fname, name: {"_id": f"0000000000-26-000001:{fname}", "_source": {
+    "file_date": "2026-10-22", "items": ["8.01", "9.01"], "ciks": ["0000000001"], "display_names": [name]}}
+E801_DOCS = {"hits": {"total": {"value": 3}, "hits": [_801_DOC("boiler.htm", "Boiler Bancorp"),
+                                                      _801_DOC("fls_only.htm", "Vendor Hit Bancorp"),
+                                                      _801_DOC("missing.htm", "Unread Corp")]}}
+DOC_BOILER = ("<p>Item 8.01 Other Events. The Board declared a dividend of $0.28.</p><p>Forward-Looking Statements. "
+              "Risks include legal proceedings; risks associated with cybersecurity threats, data breaches, ransomware "
+              "attacks, or other failures in our systems.</p>")
+DOC_FLS_ONLY = ("<p>Item 8.01 Other Events. Our audit provider has discovered a data security incident in which an "
+                "unauthorized actor accessed and acquired certain files, including Bank customer data.</p>"
+                + "<p>" + "The Bank's own systems and operations were not involved. " * 12 + "</p>"   # >300 chars, as in the real filing
+                "<p>Forward-Looking Statements. Factors include the potential misuse of affected data by the threat "
+                "actor or other parties and additional cybersecurity incidents.</p>")   # SR Bancorp 2026-07-10 shape
+ED_ITEMS = {"hits": {"total": {"value": 2}, "hits": [
+    {"_source": {"file_date": "2026-10-21", "items": ["5.02", "8.01", "9.01"], "display_names": ["Charter Text Corp"]}},
+    {"_source": {"file_date": "2026-10-21", "items": ["1.05", "9.01"], "display_names": ["Real Incident Bank"]}}]}}
 TODAY = "2026-10-22"   # the build date: seeded State_As_Of / Last_Checked cells are fresh on it
 
 
@@ -65,8 +82,14 @@ class BootDrills(unittest.TestCase):
         for name, obj in (("kev_ok", KEV_OK), ("kev_listed", KEV_LISTED), ("kev_empty", KEV_EMPTY),
                           ("kev_stale", KEV_STALE), ("ed_ok", ED_OK), ("ed_zero", ED_ZERO),
                           ("ed_recent", ED_RECENT), ("ed_trunc", ED_TRUNC), ("e801_ok", E801_OK),
-                          ("e801_hit", E801_HIT), ("e801_zero", E801_ZERO)):
+                          ("e801_hit", E801_HIT), ("e801_zero", E801_ZERO), ("e801_docs", E801_DOCS),
+                          ("ed_items", ED_ITEMS),
+                          ("kev_seen", dict(KEV_OK, vulnerabilities=[{"cveID": "CVE-2026-114625", "dateAdded": "2026-10-23"}]))):
             (cls.fx / f"{name}.json").write_text(json.dumps(obj), encoding="utf-8")
+        cls.docs = cls.tmp / "docs"
+        cls.docs.mkdir()
+        (cls.docs / "boiler.htm").write_text(DOC_BOILER, encoding="utf-8")
+        (cls.docs / "fls_only.htm").write_text(DOC_FLS_ONLY, encoding="utf-8")
 
     @classmethod
     def tearDownClass(cls):
@@ -96,7 +119,8 @@ class BootDrills(unittest.TestCase):
 
     def run_boot(self, d, env=None, args=(), today=TODAY):
         e = {k: v for k, v in os.environ.items()
-             if k not in ("CYPHER_BOOT_TODAY", "CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE", "CYPHER_EDGAR801_FILE")}
+             if k not in ("CYPHER_BOOT_TODAY", "CYPHER_KEV_FILE", "CYPHER_EDGAR_FILE", "CYPHER_EDGAR801_FILE",
+                          "CYPHER_EDGAR801_DOCDIR")}
         e.update({"CYPHER_KEV_FILE": str(self.fx / "kev_ok.json"),
                   "CYPHER_EDGAR_FILE": str(self.fx / "ed_ok.json"),
                   "CYPHER_EDGAR801_FILE": str(self.fx / "e801_ok.json")})
@@ -130,6 +154,28 @@ class BootDrills(unittest.TestCase):
                 lines[i] = "\t".join(r)
         p.write_text("\n".join(lines), encoding="utf-8")
 
+    def set_cell(self, d, rel, key, col, value):
+        """Set one cell by row key (first column, or Wave_ID+Row for the watch) in the COPY — never
+        anchor a drill on a live cell's current text (three drills rotted that way by 2026-10-29)."""
+        p = d / rel
+        lines = p.read_text(encoding="utf-8").split("\n")
+        hi = next(i for i, l in enumerate(lines) if l.split("\t")[0] in ("ID", "Wave_ID", "Row"))
+        hdr = lines[hi].split("\t")
+        for i in range(hi + 1, len(lines)):
+            r = lines[i].split("\t")
+            k = f"{r[0]} {r[1]}" if hdr[0] == "Wave_ID" and len(r) > 1 else r[0]
+            if len(r) == len(hdr) and k == key:
+                r[hdr.index(col)] = value
+                lines[i] = "\t".join(r)
+                p.write_text("\n".join(lines), encoding="utf-8")
+                return
+        self.fail(f"row {key} not found in {rel}")
+
+    def first_row(self, d, rel, col, value):
+        rows = [l.split("\t") for l in (d / rel).read_text(encoding="utf-8").split("\n") if not l.startswith("#")]
+        hdr = rows[0]
+        return next(r[0] for r in rows[1:] if len(r) == len(hdr) and r[hdr.index(col)] == value)
+
     def clean_copy(self):
         d = self.fresh()
         self.stamp(d, "workbook/INCIDENTS.tsv", "Last_Checked")
@@ -145,8 +191,17 @@ class BootDrills(unittest.TestCase):
 
     # ---- incidents -----------------------------------------------------------------------
     def test_incident_recheck_alert_on_seed(self):
-        d = self.clean_copy()   # every row stamped TODAY; 15 days later the ATTEMPTS-ONLY rows are due
-        self.assertBoot(d, 1, "REPORTED/ATTEMPTS-ONLY row(s) last checked >14d ago", "CYB-INC-007", today="2026-11-06")
+        d = self.clean_copy()   # every row stamped TODAY; 15 days later the REPORTED rows are due
+        rid = self.first_row(d, "workbook/INCIDENTS.tsv", "Event_State", "REPORTED")
+        self.assertBoot(d, 1, "REPORTED/ATTEMPTS-ONLY row(s) last checked >14d ago", rid, today="2026-11-06")
+
+    def test_incident_blank_date_on_confirmed_row(self):
+        d = self.clean_copy()   # 2026-10-29 fix: a CONFIRMED row with no Last_Checked used to pass silently
+        rid = self.first_row(d, "workbook/INCIDENTS.tsv", "Event_State", "CONFIRMED")
+        self.set_cell(d, "workbook/INCIDENTS.tsv", rid, "Last_Checked", "")
+        self.assertBoot(d, 1, f"{rid}: blank or unparsable Last_Checked on a CONFIRMED row")
+        self.set_cell(d, "workbook/INCIDENTS.tsv", rid, "Event_State", "SUPERSEDED")   # dead rows carry no clock
+        self.assertBoot(d, 0, "every live row dated")
 
     def test_incident_bad_enum(self):
         d = self.clean_copy(); self.edit(d, "workbook/INCIDENTS.tsv", "\tOT-PHYSICAL\t", "\tOT\t")
@@ -185,6 +240,17 @@ class BootDrills(unittest.TestCase):
         self.assertBoot(self.clean_copy(), 1, "KEV LISTED: CVE-2026-109618", "FIRED CANDIDATE",
                         env={"CYPHER_KEV_FILE": str(self.fx / "kev_listed.json")})
 
+    def test_kev_seen_quiets_matching_listing_only(self):
+        d = self.clean_copy()   # live 014 carries KEV-SEEN:CVE-2026-114625@2026-10-23
+        env = {"CYPHER_KEV_FILE": str(self.fx / "kev_seen.json")}
+        self.assertBoot(d, 0, "already adjudicated", "CVE-2026-114625@2026-10-23", env=env)
+        self.set_cell(d, "workbook/INCIDENTS.tsv", "CYB-INC-014", "Watch_Keys", "KEV:CVE-2026-114625;KEV-SEEN:CVE-2026-114625@2026-10-20")
+        self.assertBoot(d, 1, "KEV LISTED: CVE-2026-114625", "KEV-SEEN:CVE-2026-114625@2026-10-23", env=env)   # date changed
+        self.set_cell(d, "workbook/INCIDENTS.tsv", "CYB-INC-014", "Watch_Keys", "KEV:CVE-2026-114625")
+        self.assertBoot(d, 1, "KEV LISTED: CVE-2026-114625", env=env)                                          # no token
+        self.set_cell(d, "workbook/INCIDENTS.tsv", "CYB-INC-014", "Watch_Keys", "KEV:CVE-2026-114625;KEV-SEEN:CVE-2026-114625")
+        self.assertBoot(d, 1, "malformed KEV-SEEN token", env=env)
+
     def test_kev_fetch_fail(self):
         self.assertBoot(self.clean_copy(), 2, "KEV: fetch/parse FAILED", "do NOT read as 'not listed'",
                         env={"CYPHER_KEV_FILE": "/nonexistent.json"})
@@ -201,12 +267,10 @@ class BootDrills(unittest.TestCase):
 
     def test_terminal_rows_drop_kev_keys(self):
         d = self.clean_copy()
-        self.edit(d, "workbook/ESCALATION_WATCH.tsv",
-                  "\tNOT-FIRED\t2026-10-22\tSCHEDULED\tMACHINE\tWALTER (routing); REGINALD, SHADE, VULCAN",
-                  "\tFIRED 2026-10-22\t2026-10-22\tSCHEDULED\tMACHINE\tWALTER (routing); REGINALD, SHADE, VULCAN")
+        self.set_cell(d, "workbook/ESCALATION_WATCH.tsv", "WAVE-2026-10 2", "State", "FIRED")
         out = self.assertBoot(d, 0, "FIRED 1", "1 FIRED row(s)", "watched CVE(s) absent from KEV")
         self.assertIn("CVE-2026-109618", out)                    # incident 007 still carries the wave CVEs
-        self.edit(d, "workbook/INCIDENTS.tsv", "\tATTEMPTS-ONLY\tPRIMARY-VERIFIED", "\tFALSE\tPRIMARY-VERIFIED")
+        self.set_cell(d, "workbook/INCIDENTS.tsv", "CYB-INC-007", "Event_State", "FALSE")
         out = self.assertBoot(d, 0, "watched CVE(s) absent from KEV", "CVE-2026-114625")
         kev_line = next(l for l in out.splitlines() if "absent from KEV" in l)
         self.assertNotIn("CVE-2026-109618", kev_line)            # dropped with the FALSE row and the FIRED watch row
@@ -220,6 +284,11 @@ class BootDrills(unittest.TestCase):
         out = self.assertBoot(self.clean_copy(), 1, "8-K Item 1.05 2026-10-21: Example Bancorp",
                               env={"CYPHER_EDGAR_FILE": str(self.fx / "ed_recent.json")})
         self.assertEqual(out.count("Example Bancorp"), 1, out)
+
+    def test_edgar_items_without_105_not_review(self):
+        out = self.assertBoot(self.clean_copy(), 1, "Charter Text Corp — items 5.02, 8.01, 9.01, NOT filed under Item 1.05",
+                              "8-K Item 1.05 2026-10-21: Real Incident Bank", env={"CYPHER_EDGAR_FILE": str(self.fx / "ed_items.json")})
+        self.assertNotIn("⚠️ 8-K Item 1.05 2026-10-21: Charter Text Corp", out)
 
     def test_edgar_truncated(self):
         self.assertBoot(self.clean_copy(), 1, "150 filings but only 1 returned",
@@ -242,6 +311,15 @@ class BootDrills(unittest.TestCase):
         self.assertEqual(out.count("Quest Diagnostics"), 1, out)
         self.assertNotIn("Earnings Corp", out, out)
         self.assertNotIn("Auto Lease Trust", out, out)
+
+    def test_801_boilerplate_vs_incident_vs_unread(self):
+        out = self.assertBoot(self.clean_copy(), 1,
+                              "ℹ️ 8-K 8.01 cyber-term 2026-10-22: Boiler Bancorp — boilerplate only",
+                              "⚠️ 8-K 8.01 cyber-term 2026-10-22: Vendor Hit Bancorp — incident narrative in the document",
+                              "⚠️ 8-K 8.01 cyber-term 2026-10-22: Unread Corp — document unread",
+                              env={"CYPHER_EDGAR801_FILE": str(self.fx / "e801_docs.json"),
+                                   "CYPHER_EDGAR801_DOCDIR": str(self.docs)})
+        self.assertNotIn("⚠️ 8-K 8.01 cyber-term 2026-10-22: Boiler Bancorp", out)
 
     def test_801_zero_control_is_fail(self):
         self.assertBoot(self.clean_copy(), 2, "8-K 8.01 cyber: 0 term hits",
@@ -271,7 +349,10 @@ class BootDrills(unittest.TestCase):
 
     # ---- catalysts + predictions ---------------------------------------------------------
     def test_catalyst_window(self):
-        self.assertBoot(self.clean_copy(), 1, "in 1d: 2026-10-27", today="2026-10-26")
+        d = self.clean_copy()
+        first = min(l.split("\t")[0] for l in (d / "docket" / "CATALYSTS.tsv").read_text(encoding="utf-8").splitlines()[1:] if l)
+        day_before = (__import__("datetime").date.fromisoformat(first) - __import__("datetime").timedelta(days=1)).isoformat()
+        self.assertBoot(d, 1, f"in 1d: {first}", today=day_before)
 
     def test_catalyst_empty_forward(self):
         self.assertBoot(self.clean_copy(), 1, "EMPTY-FORWARD", "past-dated row(s)", today="2028-01-01")

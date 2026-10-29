@@ -13,20 +13,33 @@ Legs:
   3. catalysts-due    — docket/CATALYSTS.tsv rows dated TODAY, within WINDOW_DAYS, or past.
   4. escalation watch — workbook/ESCALATION_WATCH.tsv: state tokens valid (Class 2); every
      non-terminal row re-checked within WATCH_STALE_DAYS.
-  5. incidents        — workbook/INCIDENTS.tsv: enums valid; REPORTED / ATTEMPTS-ONLY rows
-     re-checked within INCIDENT_RECHECK_DAYS.
+  5. incidents        — workbook/INCIDENTS.tsv: enums valid; every live row (not FALSE /
+     SUPERSEDED) carries a parsable Last_Checked; REPORTED / ATTEMPTS-ONLY rows re-checked within
+     INCIDENT_RECHECK_DAYS.
   6. matrix + map     — workbook/VX.tsv scores are 1-5 or UNKNOWN (UNKNOWN = scoring owed, REVIEW);
      Kind MECHANISM/THERMOMETER; composite = MECHANISM rows only. workbook/FLOW.tsv states valid
      and every row keyed to an existing VX vector.
   7. CISA KEV         — every KEV:<CVE> key on a live row, checked against the KEV catalog.
-     A listing is a FIRED CANDIDATE: the machine flags, the OWNER sets State.
+     A listing is a FIRED CANDIDATE: the machine flags, the OWNER sets State. Once adjudicated, the
+     owner adds `KEV-SEEN:<CVE>@<dateAdded>` to the row's Watch_Keys; a listing whose dateAdded
+     matches every live row's KEV-SEEN prints one ℹ️ line and no longer raises REVIEW (a new or
+     changed dateAdded, or one row without the token, still alerts).
   8. SEC 8-K Item 1.05 — EDGAR full-text search over CONTROL_DAYS; the population is its own
      positive control (0 hits = the query is broken, never "quiet"); filings dated inside
-     LOOKBACK_DAYS are listed for the owner to read.
+     LOOKBACK_DAYS are listed for the owner to read. A recent hit whose EDGAR items lack 1.05 is a
+     term match in an exhibit (e.g. an audit-committee charter), shown ℹ️ without REVIEW; a hit with
+     no items metadata still alerts.
   9. SEC 8-K Item 8.01 cyber — the NON-material disclosures leg 8 cannot see (Quest Diagnostics
      10/22/2026 filed its cyber 8-K under 8.01). EDGAR full-text search on cyber terms; a hit is
      kept only if its items are a subset of {8.01, 7.01, 9.01} and include 8.01 (drops earnings,
      deal and ABS-prospectus boilerplate). Same positive control and lookback as leg 8.
+     Each recent hit's matched document is fetched and read: it alerts unless BOTH incident tests
+     come back empty (an incident verb within BOILER_WINDOW chars of a cyber term, AND incident
+     narrative anywhere in the document: "the incident", "accessed and acquired", "notified law
+     enforcement" ...). Empty on both = boilerplate, shown ℹ️ without REVIEW. A fetch failure or a
+     document where the term cannot be found still alerts. Calibrated 2026-10-29 on all 47 kept hits
+     2026-07-01..10-29: 16 of 16 real incidents alert, incl. SR Bancorp, whose cyber terms sit only in
+     its forward-looking paragraph (AGENTS/CYPHER/research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md).
 
 Combined exit (CHECK_STANDARD §9): 0 quiet · 1 REVIEW · 2 a leg FAILED / cannot certify.
 Flags: --offline skips legs 7-8 and says so (rc 1 — a skipped control is reported, never a pass).
@@ -36,9 +49,11 @@ Drill hooks (never set in a real boot; the header says when they are set):
   CYPHER_KEV_FILE=<json>        read the KEV catalog from a file instead of cisa.gov
   CYPHER_EDGAR_FILE=<json>      read the EDGAR search response from a file instead of efts.sec.gov
   CYPHER_EDGAR801_FILE=<json>   same, for leg 9 (one response serves both the control and the recent pull)
+  CYPHER_EDGAR801_DOCDIR=<dir>  leg 9 reads each hit's document from <dir>/<file name> instead of sec.gov
 """
 
 import csv
+import html
 import json
 import os
 import re
@@ -70,6 +85,20 @@ EDGAR_URL = "https://efts.sec.gov/LATEST/search-index"
 CYBER_801_Q = '"cybersecurity incident" OR ransomware OR "unauthorized third party" OR "threat actor"'
 CYBER_801_ITEMS = {"8.01", "7.01", "9.01"}   # build check 2026-10-23: 468 term hits / 120d -> ~45 kept, Quest 10/22 among them
 EDGAR_PAGE, EDGAR_MAX_PAGES = 100, 5
+# Leg 9 boilerplate test (calibration 2026-10-29: research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md).
+CYBER_TERM_RE = re.compile(r"cybersecurity incident|ransomware|unauthorized third part|threat actor", re.I)
+INCIDENT_NEAR_RE = re.compile(
+    r"\b(discover(ed|y)|detect(ed|ion)|identified|became aware|becoming aware|learned|experienced|sustained|"
+    r"gained (unauthorized )?access|exfiltrat\w*|activated (its|the)|incident response|notified law enforcement|"
+    r"previously disclosed|has resulted in|was affected|impacted|forensic|recover(y|ies|ed))\b", re.I)
+INCIDENT_DOC_RE = re.compile(
+    r"\b(the|this|that) ((cybersecurity|cyber|data security|security|ransomware) )?incident\b|"
+    r"\b(the|this|that) (cybersecurity|cyber|data security|security|ransomware) (attack|event)\b|"
+    r"accessed and (acquired|exfiltrated)|gained (unauthorized )?access|"
+    r"activated its (cybersecurity )?incident response|notified law enforcement|became aware of|"
+    r"previously disclosed (cybersecurity |cyber )?incident", re.I)
+BOILER_WINDOW = 300
+SEC_ARCHIVE = "https://www.sec.gov/Archives/edgar/data"
 USER_AGENT = "CYPHER-Research williepowen@gmail.com"   # SEC requires a contact; fleet form (REGINALD)
 TIMEOUT = 25
 
@@ -250,19 +279,20 @@ def incidents():
         for col, allowed in (("Class", CLASSES), ("Event_State", EVENT_STATES), ("Basis", BASES)):
             if _token(r.get(col)) not in allowed:
                 out.append(f"  ⚠️ {iid}: {col} '{(r.get(col) or '').strip()[:30]}' is not in the declared enum")
-        if _token(r.get("Event_State")) in RECHECK_STATES:
-            when = _date(r.get("Last_Checked"))
-            if when is None:
-                out.append(f"  ⚠️ {iid}: unparsable Last_Checked — cannot tell when it was last checked")
-            elif (TODAY - when).days > INCIDENT_RECHECK_DAYS:
-                stale.append((when, f"{iid} ({_token(r.get('Event_State'))}, {when})"))
+        state = _token(r.get("Event_State"))
+        when = _date(r.get("Last_Checked"))
+        if state not in EVENT_DEAD and when is None:
+            out.append(f"  ⚠️ {iid}: blank or unparsable Last_Checked on a {state} row — cannot tell when it was last checked")
+        elif state in RECHECK_STATES and (TODAY - when).days > INCIDENT_RECHECK_DAYS:
+            stale.append((when, f"{iid} ({state}, {when})"))
     if stale:
         stale.sort()
         out.append(f"  ⚠️ RE-CHECK DUE: {len(stale)} REPORTED/ATTEMPTS-ONLY row(s) last checked >{INCIDENT_RECHECK_DAYS}d ago: "
                    + " · ".join(s for _, s in stale[:5]) + (" …" if len(stale) > 5 else ""))
     if out:
         return 1, out + [f"  ({len(rows)} incident row(s) scanned)"]
-    return 0, [f"  ✓ enums valid; no REPORTED/ATTEMPTS-ONLY row older than {INCIDENT_RECHECK_DAYS}d — {len(rows)} row(s)"]
+    return 0, [f"  ✓ enums valid; every live row dated; no REPORTED/ATTEMPTS-ONLY row older than "
+               f"{INCIDENT_RECHECK_DAYS}d — {len(rows)} row(s)"]
 
 
 def matrix_and_flow():
@@ -306,8 +336,8 @@ def matrix_and_flow():
 
 
 def _kev_keys():
-    """{CVE: [row labels]} from live rows of both ledgers, plus malformed-key lines."""
-    keys, bad = {}, []
+    """({CVE: [row labels]}, {(label, CVE): dateAdded seen}, malformed-key lines) from live rows."""
+    keys, seen, bad = {}, {}, []
     for path, idcol, statecol, dead in ((WATCH, "Row", "State", WATCH_TERMINAL),
                                         (INCIDENTS, "ID", "Event_State", EVENT_DEAD)):
         if not path.exists():
@@ -319,6 +349,14 @@ def _kev_keys():
                      if path == WATCH else (r.get(idcol) or "?").strip())
             raw = (r.get("Watch_Keys") or "").strip()
             for part in filter(None, (p.strip() for p in raw.split(";"))):
+                if part.upper().startswith("KEV-SEEN:"):
+                    for tok in filter(None, (c.strip().upper() for c in part[9:].split(","))):
+                        cve, _, added = tok.partition("@")
+                        if CVE_RE.match(cve) and _date(added):
+                            seen[(label, cve)] = added[:10]
+                        else:
+                            bad.append(f"  ⚠️ {label}: malformed KEV-SEEN token '{tok}' — want CVE-YYYY-N@YYYY-MM-DD")
+                    continue
                 if not part.upper().startswith("KEV:"):
                     continue
                 for cve in filter(None, (c.strip().upper() for c in part[4:].split(","))):
@@ -326,7 +364,7 @@ def _kev_keys():
                         keys.setdefault(cve, []).append(label)
                     else:
                         bad.append(f"  ⚠️ {label}: malformed KEV key '{cve}' — not checked")
-    return keys, bad
+    return keys, seen, bad
 
 
 def _fetch_json(url, env_var, params=None):
@@ -342,7 +380,7 @@ def _fetch_json(url, env_var, params=None):
 
 def kev():
     try:
-        keys, bad = _kev_keys()
+        keys, seen, bad = _kev_keys()
     except Exception as e:  # noqa: BLE001
         return 2, [f"  🔴 KEV: could not read Watch_Keys ({type(e).__name__}: {e}) — cannot certify"]
     if not keys:
@@ -358,20 +396,30 @@ def kev():
         return 2, bad + [f"  🔴 KEV: fetch/parse FAILED ({type(e).__name__}: {e}) — cannot certify; "
                          f"do NOT read as 'not listed'. Check {KEV_URL} by hand"]
     listed = {(v.get("cveID") or "").strip().upper(): v for v in vulns}
-    out = list(bad)
+    out, adjudicated = list(bad), []
     for cve, labels in sorted(keys.items()):
         if cve in listed:
-            out.append(f"  ⚠️ KEV LISTED: {cve} (dateAdded {listed[cve].get('dateAdded')}) — rows: {', '.join(labels)}. "
-                       f"FIRED CANDIDATE: the owner sets State and sends the P1 packet; the machine never writes")
+            added = (listed[cve].get("dateAdded") or "")[:10]
+            open_rows = [lb for lb in labels if seen.get((lb, cve)) != added]
+            if open_rows:
+                out.append(f"  ⚠️ KEV LISTED: {cve} (dateAdded {added}) — rows: {', '.join(open_rows)}. "
+                           f"FIRED CANDIDATE: the owner sets State and sends the P1 packet; the machine never writes. "
+                           f"Once adjudicated, add KEV-SEEN:{cve}@{added} to the row's Watch_Keys")
+            else:
+                adjudicated.append(f"{cve}@{added} ({', '.join(labels)})")
     released = _date(cat.get("dateReleased"))
     if released is None:
         out.append("  ⚠️ KEV catalog dateReleased unparsable — catalog freshness unknown")
     elif (TODAY - released).days > KEV_STALE_DAYS:
         out.append(f"  ⚠️ KEV catalog released {released} ({(TODAY - released).days}d) — the feed itself may be stale")
+    if adjudicated:
+        print(f"  ℹ️ already adjudicated (KEV-SEEN matches dateAdded): {' · '.join(adjudicated)}")
     tail = f"  ({len(keys)} key(s) vs KEV v{cat.get('catalogVersion')} released {cat.get('dateReleased')}, {len(vulns)} entries; source {src})"
     if out:
         return 1, out + [tail]
-    return 0, [f"  ✓ {len(keys)} watched CVE(s) absent from KEV: {', '.join(sorted(keys))}", tail]
+    absent = sorted(c for c in keys if c not in listed)
+    return 0, [f"  ✓ {len(absent)} watched CVE(s) absent from KEV: {', '.join(absent) or 'none'}; "
+               f"{len(adjudicated)} listed and adjudicated", tail]
 
 
 def edgar_105():
@@ -399,6 +447,11 @@ def edgar_105():
         key = (s.get("file_date"), name)
         if when and when >= recent_from and key not in seen:
             seen.add(key)
+            items = s.get("items")
+            if items and "1.05" not in items:
+                print(f"  ℹ️ 8-K term match {s.get('file_date')}: {name} — items {', '.join(items)}, NOT filed under "
+                      f"Item 1.05 (exhibit text such as an audit charter); no REVIEW")
+                continue
             recent.append(f"  ⚠️ 8-K Item 1.05 {s.get('file_date')}: {name} — read it: bank, core/digital vendor, or a wave CVE?")
     out = sorted(recent, reverse=True)
     if total > len(hits):
@@ -407,6 +460,40 @@ def edgar_105():
     if out:
         return 1, out + [tail]
     return 0, [f"  ✓ no Item 1.05 8-K filed since {recent_from}; control population {total} in {CONTROL_DAYS}d", tail]
+
+
+def _doc_text(hit):
+    """Plain text of the EDGAR document a full-text hit matched. Raises on any failure."""
+    adsh, _, fname = (hit.get("_id") or "").partition(":")
+    if not adsh or not fname or "/" in fname:
+        raise ValueError(f"unusable hit id {hit.get('_id')!r}")
+    ddir = os.environ.get("CYPHER_EDGAR801_DOCDIR")
+    if ddir:
+        raw = (Path(ddir) / fname).read_text(encoding="utf-8", errors="ignore")
+    else:
+        cik = str(int(((hit.get("_source") or {}).get("ciks") or [""])[0]))
+        url = f"{SEC_ARCHIVE}/{cik}/{adsh.replace('-', '')}/{fname}"
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+            raw = resp.read().decode("utf-8", errors="ignore")
+    raw = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", raw)
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", raw)))
+
+
+def _boilerplate(hit):
+    """(True, why) only when the document has cyber terms and NO incident signal; else (False, why)."""
+    try:
+        text = _doc_text(hit)
+    except Exception as e:  # noqa: BLE001 — unread is never boilerplate
+        return False, f"document unread ({type(e).__name__})"
+    occ = [m.start() for m in CYBER_TERM_RE.finditer(text)]
+    if not occ:
+        return False, "cyber term not found in the document text"
+    if any(INCIDENT_NEAR_RE.search(text[max(0, o - BOILER_WINDOW):o + BOILER_WINDOW]) for o in occ):
+        return False, "incident wording near a cyber term"
+    if INCIDENT_DOC_RE.search(text):
+        return False, "incident narrative in the document"
+    return True, f"{len(occ)} cyber term(s), no incident wording"
 
 
 def edgar_801():
@@ -446,7 +533,11 @@ def edgar_801():
         key = (s.get("file_date"), name)
         if when and when >= recent_from and "8.01" in items and items <= CYBER_801_ITEMS and key not in seen:
             seen.add(key)
-            recent.append(f"  ⚠️ 8-K 8.01 cyber-term {s.get('file_date')}: {name} — read it: real incident or boilerplate? bank/vendor?")
+            boiler, why = _boilerplate(h)
+            if boiler:
+                print(f"  ℹ️ 8-K 8.01 cyber-term {s.get('file_date')}: {name} — boilerplate only ({why}); no REVIEW")
+                continue
+            recent.append(f"  ⚠️ 8-K 8.01 cyber-term {s.get('file_date')}: {name} — {why}: read it. Bank/vendor?")
     out = sorted(recent, reverse=True)
     if rtotal > len(hits):
         out.append(f"  ⚠️ {rtotal} recent term hits but only {len(hits)} read — the recent list may be incomplete")

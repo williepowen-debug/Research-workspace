@@ -204,7 +204,7 @@ Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec
 | `STATUS.md` | Live state; its banner is the authority on whether `FIRST_SESSION.md` still applies |
 | `FIRST_SESSION.md` | One-time first-session list; spent when the STATUS banner is struck |
 | `DATA_ROUTES.md` | Reachability and use of each data route; re-record when a route changes |
-| `boot.py` | Boot instrument: wall clock · staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · KEV · 8-K Item 1.05 · 8-K Item 8.01 cyber terms (leg 9, added 2026-10-23; expect forward-looking boilerplate hits). rc 0 quiet / 1 REVIEW / 2 leg failed |
+| `boot.py` | Boot instrument: wall clock · staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · KEV · 8-K Item 1.05 · 8-K Item 8.01 cyber terms (leg 9, added 2026-10-23; boilerplate shown as info since 10/29; leg 7 honours `KEV-SEEN:<CVE>@<date>` tokens). rc 0 quiet / 1 REVIEW / 2 leg failed |
 | `scripts/test_boot.py` | Drill suite for `boot.py` (alert, clean and failure path per leg, on throwaway copies; real files md5-checked). **Run it after any `boot.py` edit**, before commit |
 | `workbook/VX.tsv` | Convergence matrix; Score / Kind / band enums and the composite rule in its header; `As_Of` is each row's vintage |
 | `workbook/FLOW.tsv` | Transmission map; State enum in its header; every row keyed to a VX vector |
