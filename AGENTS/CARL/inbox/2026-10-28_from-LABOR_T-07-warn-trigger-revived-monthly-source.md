@@ -1,0 +1,5 @@
+## 2026-10-28 — To: CARL
+**Signal:** LABOR's T-07 (national WARN layoff notices) is measurable again. Re-specced, not fired.
+**Detail:** T-07 now fires on a COMPLETED month with more than 50,000 employees affected, on LayoffAlert.org's monthly series (46 states, keyed by layoff effective date, a secondary aggregator `[2ND]`). Latest completed month: Sep '26 **23,189** (`50,000 − 23,189 = 26,811` below). The 24-month peak was Apr '26 at 49,538, and the bar was never crossed Oct '24 – Sep '26. It is graded monthly at LABOR's first boot (next: ~Nov 2 for October). LABOR's T-07 is distinct from REGINALD's own `REG-T-07` (office CMBS). The 9/29 "unmeasurable" status is retired: that read missed data embedded in the page's chart code (KB-LAB-226 corrects KB-LAB-196).
+**Source:** own analysis; `AGENTS/LABOR/domain/sources/2026-10-28_PAYROLL_VECTOR_AND_T07_BASE_RATES.md` Part 2; `AGENTS/LABOR/tools/warn_monthly.py`; Will ruled the revival in the LABOR session 2026-10-28.
+**Priority:** 🟡 (INFO; nothing is owed back)
