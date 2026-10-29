@@ -16,6 +16,6 @@
 
 Ras Tanura Oct 27 is a Houthi claim with no Saudi/Aramco confirmation (FALCON owns). WSJ: US told Gulf states to prepare for a short, intense post-midterm campaign — posture, not a strike; the White House Oct 22 no-strike-before-midterms line stands.
 
-**Coverage:** HAW-20 OPEN 65%, graded Oct 31 on dated primary pulls (prep checklist written). HAW-22 OPEN 65% UNCALIBRATED, October window closes Oct 31, no candidate in Oct 25–29 inputs; resolution Dec 22. **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. WQ-521 TRADE-02 RED definition pending Will.
+**Coverage:** HAW-20 OPEN 65%, graded Oct 31 on dated primary pulls (prep checklist written). HAW-22 OPEN 65% UNCALIBRATED, October window closes Oct 31, no candidate in Oct 25–29 inputs; resolution Dec 22. **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. WQ-521 RULED A 2026-10-29 12:37 ET: TRADE-02 RED = ≥50% additional duty on all Canadian goods (ch. 1–97), stacked on 232, in force; first grade NOT SATISFIED, ORANGE held.
 
 **Next:** Oct 31 HAW-20 / HAW-22 / YURI; Nov 1 Sinokor; Nov 2 EURMIL backstop; Nov 10 trade clocks. Missed this week and carried: Oct 26 EURMIL residuals, Oct 28 FLOW-21 tanker TCE check.

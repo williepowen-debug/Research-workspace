@@ -44,7 +44,7 @@ Full intake (25 items) dispositioned and filed; COR-20261025-26 NO-OP; both aggr
 
 - **HAW20:** OPEN 65%, Oct 31.
 - **HAW22:** OPEN 65% UNCALIBRATED. undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity.
-- **WQ521:** pending Will.
+- **WQ521:** RULED A 2026-10-29 12:37 ET; encoded in VX TRADE-02 RED; first grade NOT SATISFIED; PROME packet sent to close WQ-521/L778.
 - **WQ470:** joint text pending OSPREY.
 
 ## MAIL STATE
