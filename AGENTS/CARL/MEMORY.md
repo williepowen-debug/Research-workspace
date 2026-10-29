@@ -54,6 +54,8 @@ Model-specific Fable guidance is conditional; Codex follows current session tool
 
 - **M86:** [2026-10-27] Match a TSV reader to the canonical dialect: comment-prefixed, line-oriented prose with literal quotes differs from CSV-quoted output. Test exact columnarity and record identity after serialization; a successful parse can silently merge records.
 
+- **M87:** [2026-10-28] A row-PREFIX match (`startswith("| 3 |")`) hits every table in the file that numbers its rows the same way: a matrix-cell edit overwrote the score histogram, and Check B caught it (9 hard) before commit. Key table edits on a unique cell (vector name), assert exactly one match, and re-run consistency_check before any commit.
+
 ## Ownership and references
 - Current data → STATUS; next actions/approvals → SCRATCH; open investigations → ROADMAP/ROADMAP_THREADS; dated catalysts → docket/CATALYSTS.tsv and human twin; models/grades → thesis/THESIS.md and PREDICTIONS.tsv; thesis changes → CHANGELOG.
 - Root/current CLAUDE controls source availability, Git and routing. Check consistency without warn-only at closeout; a push is delivery evidence, not proof all duties ran.

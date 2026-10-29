@@ -1,5 +1,5 @@
 # CARL SCRATCH
-**Last session:** 2026-10-28 ~20:35–21:10 ET; Claude Code, Opus 5.5 (claude-opus-5-5), session carl-6f.
+**Last session:** 2026-10-28 ~20:35–22:10 ET; Claude Code, Opus 5.5 (claude-opus-5-5), session carl-6f.
 **Type:** Will-requested boot → dark-period catch-up → STUE coordination → full file sweep with Will-approved fixes (decision 1 = b: bounded sub-agent passes; decision 2 = approve DOC successors, close DOC-P07).
 
 **PRIORITY-1:** **Thu 10/29 08:30 ET:** Q3 GDP advance plus September personal income/outlays. Use the saved prep card (research/2026-10-26_L786/). DOC wrote its P10 expectation before the print; PROME consumes CARL's grade (L842). Also the EART September 10-D V2 read.
@@ -90,5 +90,19 @@
 ## URGENT
 - None. No pending Will decisions.
 
-## CLOSEOUT RECEIPT
-See the final commit message for this session's gate results (consistency, read-cap, claim, roadmap, brief pin, ledger scan, orphan check). Research retirement: 3 candidates, all RETAINED (live references: PREDICTIONS.tsv, HHDC grading card, COUNTER_LOG). Auto-memory: none authored.
+## CLOSEOUT RECEIPT (Will-requested closeout, 2026-10-28 ~22:10 ET)
+| Obligation | Result |
+|---|---|
+| STATUS / SCRATCH / ROADMAP (14 threads) / TEAM / docket twin / MEMORY (M87) | Written |
+| Consistency (no warn-only) | PASS: see the final commit body |
+| Read-cap | PASS (STATUS 74%, under the 75% rotation trigger; rotation done earlier tonight) |
+| Corrections | COR-20261029-04 receipted APPLIED (COUNTER_LOG MIA premise replaced); 0 owed |
+| Claim check / roadmap --check / brief pin | PASS |
+| Ledger scan | 0 STALE/UNATT. The --nudge "behind" list counts STATUS writes since each child ledger's last refresh; every one was refreshed or frozen tonight |
+| Consumer check | N/A: no threshold, flip level or band superseded (CRL-13 date push only) |
+| Research retirement (>60d) | 3 candidates RETAINED (live references) |
+| Orphans | none [likely YOURS]; other desks' files not swept |
+| Auto-memory | none authored |
+| Delivery | Safe-push receipt in the final message; recipient consumption not inferred |
+
+BOARD scan run, 6 new since SIG-W-20261029-008, 1011 logged (rc=0; receipts since cursor, NOT a full-backlog review; 800 non-action backlog, none action-owed)
