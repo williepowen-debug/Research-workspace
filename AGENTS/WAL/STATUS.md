@@ -1,27 +1,29 @@
 # WAL STATUS
 
-**Last Updated: 2026-10-22 12:30 ET — catch-up, L171 frame freeze, desk sweep, court checks, text cleanup, Q3 thesis fold, re-score rule pre-registered, DAEDALUS D:L793 fixes (Will, interactive).** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged. The Q3 evidence is now folded into THESIS and WEAKNESSES as a dated, no-re-mark entry (CHANGELOG 2026-10-22). The re-score is deliberately held until the Q3 10-Q, because the $99M appraisal gates Bear-medium. KB **257 rows / 20 groups**.
+**Last Updated: 2026-10-28 ~23:15 ET — catch-up and data refresh (Will, interactive): no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain.** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged; nothing graded since 10/22. KB **260 rows / 20 groups**.
 
-*Text cleanup 10/22: this file was rewritten with normal spacing and the superseded history paragraphs (10/19–10/21 headers, prior price lines, coordination and closeout receipts) were moved out. The exact prior text is at `archive/STATUS_before-cleanup_2026-10-22.md` (sha256 028d625a…6eff); earlier history at `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
+*The 10/22 version of this file is preserved verbatim at `archive/STATUS_before-10-28_2026-10-28.md` (sha256 59f568d3…daca9); earlier history at `archive/STATUS_before-cleanup_2026-10-22.md` and `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
 
-## BOTTOM LINE (2026-10-22)
+## BOTTOM LINE (2026-10-28)
 
-Q3 went against the credit bear: no new office problem loans, losses 30bps, reserves 118% of non-paying loans. What is left of the bear rests on **the $99M appraisal**, which the release, deck and call never mentioned, and on the foreclosed-property / early-warning build (OREO +$39M, special mention +$81M). **The Q3 10-Q (EDGAR ≥ Mon 10/26, statutory Mon 11/9) is the one carrier that decides it.** How each 10-Q outcome moves the weights is now **pre-registered** in `Q3_10Q_RESCORE_RULE_2026-10-22.md`: a cure fires the Bear-medium kill (16 → 8); still non-paying or unmentioned trims it 16 → 12; a partial write-down holds 16; a majority loss raises it 16 → 20. Until then v2.4 stands unchanged.
+Nothing has graded since 10/22. Q3 went against the credit bear: no new office problem loans, losses 30bps, reserves 118% of non-paying loans. What is left of the bear rests on **the $99M appraisal**, which the release, deck and call never mentioned, and on the foreclosed-property / early-warning build (OREO +$39M, special mention +$81M). **The Q3 10-Q is still not on EDGAR (checked 10/28 ~22:40 ET; statutory Mon 11/9) and is the one carrier that decides it.** How each 10-Q outcome moves the weights is **pre-registered** in `Q3_10Q_RESCORE_RULE_2026-10-22.md`: a cure fires the Bear-medium kill (16 → 8); still non-paying or unmentioned trims it 16 → 12; a partial write-down holds 16; a majority loss raises it 16 → 20. The Q3 Call Report (MI3, bank-level NDFI) is not filed yet either: due Fri 10/30, and the FFIEC token expires Thu 11/5. Until then v2.4 stands unchanged.
 
-## TODAY (10/22)
+## LATEST (10/28)
 
 | Item | State | Source |
 |---|---|---|
-| Q3 10-Q | **Not on EDGAR** at 11:10 ET; no new 8-K since 10/19. Effective earliest Mon 10/26; statutory Mon 11/9 | EDGAR CIK 1212545; KB-217 |
-| L171 10-Q frame | **FROZEN 10/22**: dated §8 note, no cell changed. Pre-filing anchors: deck Office $272.75M; release classified total $1,091M = nonaccrual $485M + classified accruing $441M + OREO $165M ⇒ 10-Q classified loans expected ~$926M; NCO 30bps; coverage 118.43%; $99M silent in release, deck and call ⇒ graded off the 10-Q, NO-VERDICT if silent, never benign | `Q3_10Q_GRADING_FRAME_2026-09-24.md` §8 |
-| Insider filings | Ten 10/19 Form 4s = 10/15 cash-settled RSU vestings at $74.35 (holdings unchanged) + one director DSU grant. No open-market buy or sell; V4 unchanged | KB-252 |
-| Sell-side | Stephens PT **$94 → $88**, Overweight kept, on the 11–12% NII guide. **B2, single source** (WALTER SIG-W-20261022-011 citing Investing.com), not independently confirmed; base mismatch vs MarketBeat's 7/23 Stephens $95. An earlier 10/22 line here said "no target changes found"; that was wrong (the signal landed 11:13:52 ET, after this desk's last inbox listing) | KB-253 |
-| Cantor / Stupin courts | Remand of WAL's guaranty claims to LA Superior 25STCV24263 **and** stay relief **both GRANTED 8/24**. WAL filed a §523 nondischargeability suit vs the Stupins 9/15 (8:26-ap-01096); the Stupins moved to dismiss 10/16; **hearing Wed 12/9** | `research/2026-10-22_court-checks.md`; KB-254/255 |
-| Jefferies / LAM | Jefferies FQ3 10-Q (filed 10/9) never mentions WAL; a second Point Bonita fraud (Radiant/Sapphire, English High Court). NY index numbers still unknown (NYSCEF blocks automation; Will-side browser search offered) | KB-256/257 |
-| Comps | ZION (SIG-W-20261021-009), EGBN (SIG-W-20261021-013), HBAN/VLY/SSB (SIG-W-20261022-011) change no WAL cell; REGINALD owns the cohort | — |
-| Housekeeping | Desk sweep → `research/2026-10-22_desk-sweep.md`. Inbox and inbox/WALTER empty when re-listed after processing 011; corrections check rc 0 | — |
+| Q3 10-Q | **Not on EDGAR** at ~22:40 ET 10/28: issuer filings since 9/24 are only the 10/19 8-K and ten 10/19 Form 4s. Statutory Mon 11/9; ledger Resolve_By 11/15 | KB-259; `sources/edgar_sweep_2026-10-28/SWEEP_RECEIPT.md` |
+| L171 10-Q frame | **FROZEN 10/22**, unchanged: Office $272.75M; classified $1,091M = nonaccrual $485M + classified accruing $441M + OREO $165M ⇒ 10-Q classified loans expected ~$926M; NCO 30bps; coverage 118.43%; $99M graded off the 10-Q, NO-VERDICT if silent, never benign | `Q3_10Q_GRADING_FRAME_2026-09-24.md` §8 |
+| Q3 Call Report (FFIEC) | **Not yet filed**: FFIEC's list of banks that have filed for 9/30 since 10/1 has 2,643 entries and RSSD 3138146 is absent; the 9/30 facsimile returns HTTP 500. The credential works on the laptop (6/30 control re-pull byte-identical). Due Fri 10/30; JWT expires Thu 11/5 | SWEEP_RECEIPT; `workbook/MI3_SERIES.tsv` attention line |
+| NDFI (V3) | **First Eagle Private Credit Fund SPV**, 4th amendment dated 10/1 (8-K 10/5): Western Alliance Bank joins as a lender with a **$100M commitment**. The second private-credit SPV joinder in two weeks after Crestline 9/18 (KB-195), the first with WAL's own amount disclosed. A commitment, not a funded balance; exposure direction, not stress; no score change (the 10-Q NDFI table decides) | KB-260 |
+| Insider / ownership | 9/24 → 10/28: no Form 144 (newest 6/15), no 13D/G, no open-market buy or sell; the 10/19 Form 4s are routine RSU settlements (KB-252). V4 unchanged | KB-259 |
+| Short interest | FINRA 10/15 settlement **6.35M shares (+2.15%)**, the third straight rise (+12.45% since 8/29); days-to-cover 4.68 on higher volume. Dated observation; no squeeze or score read | KB-258 |
+| Sell-side | Stephens PT $94 → $88 (10/22, B2 single source, unconfirmed) — no newer item found | KB-253 |
+| Courts | Cantor remand + stay relief granted 8/24; WAL §523 suit vs the Stupins, motion-to-dismiss hearing **Wed 12/9**. Makhijani 11/30 / 1/12/2027 dates still **not re-verified**: CourtListener now refuses anonymous access (API 401, search 403; DEWEY saw the same 10/28) | `research/2026-10-22_court-checks.md`; KB-203/254/255 |
+| Jefferies / LAM | Unchanged since 10/22 (Jefferies FQ3 10-Q silent on WAL; NY index numbers unknown) | KB-256/257 |
+| Housekeeping | KB expiry: all 9 expired rows judged one by one (223–226 superseded post-print; 193/229 superseded by 259/258; 228/246/247 extended with reasons). Inbox: DEWEY ×2 (info) and DAEDALUS WQ-508 (already applied to the charter 10/23 by `d3488e641`; reviewed, not contested) filed to processed. Corrections check rc 0 | KB.tsv header |
 
-**Price (10/22 intraday, fetch.py ~11:06 ET): $75.82 (+0.36%)** — SPOT vs EV **−0.18%** (delta/EV 75.96); buffer to 81.90 **+8.02%** (delta/spot). Settled 10/21 close **75.55** (yfinance = Nasdaq, REGINALD 10/22 boot); KRE $71.74 (+1.58%) live. Reaction session (yfinance closes): WAL 10/19 73.63 → 10/20 75.30; KRE 69.26 → 70.62. KB-251/252.
+**Price (10/28 close, fetch.py/yfinance pulled 22:36 ET; not Nasdaq-cross-checked): $75.96 (−0.58%)** — SPOT vs EV **0.00%** (delta/EV 75.96); buffer to 81.90 **+7.82%** (delta/spot). KRE $72.11 (−0.65%). Settled closes in REGINALD's exit log (Yahoo = Nasdaq): 10/23 76.12 · 10/26 75.44 · 10/27 76.40 (`../REGINALD/registry/REG_T02_EXIT_LOG.tsv`, read 10/28).
 
 ## JUDGMENT
 
@@ -59,28 +61,29 @@ N diagnostics: NIM 3.57%, no N1 breach. Total deposit cost (N2) not printed; the
 
 ## OPERATOR DEPENDENCIES
 
-- **Moreno Valley recorder:** deed-of-trust instrument/APN missing; reCAPTCHA requires Will. His 10/13 response: no results unless REGINALD pulled them; a prior targeted owner search found none. Not re-asked. Ontario B1 does not resolve Moreno Valley.
-- **FFIEC:** existing credential verified 10/14 by 8 authenticated historical downloads. No Q3 attempt yet; the prior HTTP 500 is not non-disclosure. JWT expiry 11/5 and the WQ-31 ~11/1 renewal remain; no immediate credential ask.
+- **Moreno Valley recorder:** deed-of-trust instrument/APN missing. His 10/13 response: no results unless REGINALD pulled them; a prior targeted owner search found none. Not re-asked. Ontario B1 does not resolve Moreno Valley. DEWEY 10/28 tested all four lien counties: every route is human-only (San Bernardino reCAPTCHA; Riverside public but scripted submissions fail; Los Angeles/Bellflower has no online index); exact searches in `../DEWEY/output/2026-10-28_nano-loans-passive-records-route.md` §2.
+- **FFIEC:** credential re-verified on the laptop 10/28 (6/30 control byte-identical). Q3 not filed yet (deadline Fri 10/30). The JWT expires Thu 11/5, so the pull must land 10/30–11/5 or after the WQ-31 renewal (Sun 11/1 sitting). No new ask.
 - **NYSCEF index numbers** (WAL v. Jefferies; Point Bonita v. WAL): Will-side browser search offered 10/22, unanswered.
-- **Quartr re-authentication:** needed to check the two B2 call transcripts against issuer audio; no grade depends on it.
+- **Quartr is a subscription gate, not a re-authentication:** on 10/28 the connector was signed in as Will but refused with "Quartr Pro subscription required" (plan: none). Quartr is a paid source Will already DECLINED (WQ-220, preserved in the WQ-298 paid-data ruling), so this item is closed, not owed: the two B2 call transcripts stay B2, and no grade depends on them.
+- **CourtListener:** anonymous API and search now refused (401/403, 10/28). The Makhijani dates need a token, DEWEY's PACER route, or a browser check; not urgent before the 11/30 status conference.
 - **Broker evidence:** the 10/22 capture is marks-only (quantities unchanged vs 10/19). Identities and quantities → `POSITIONS.md`; reconciliation → PROME/ANVIL (FORGE D82/D84/D74/D83). Will manages his own expiries (USER.md § No expiry nagging, 10/20); this desk books dispositions from his captures and sends no reminders.
 
 ## CONVERGENCE MATRIX — scores preserved
 
 | Vector | Score | Current evidence / next carrier |
 |---|---|---|
-| V1a MI3 | 1/5 | DISCONFIRMED 8/7; CRE not secured by RE, not the Office book. Q3 FFIEC not retrieved |
+| V1a MI3 | 1/5 | DISCONFIRMED 8/7; CRE not secured by RE, not the Office book. Q3 Call Report not filed as of 10/28 |
 | V1b broadening | 2/5 | Q2 DISCONFIRMED; Q3 DP2 DISCONFIRM final 10/21 (counter 2 of 3). A data point does not by itself trigger a re-score |
 | V1b magnitude | 4/5 | Held as prior judgment, not a fresh confirmation. Q3 NCO guide held; $99M appraisal unresolved; favorable coverage vs OREO/SM rise |
 | V2 fraud | 5/5 historical | EXCLUDED from composite. Cantor/legal Q3 details PENDING-10-Q; no implied recovery. Court path 10/22: remand + stay relief granted 8/24, §523 hearing 12/9 |
-| V3 NDFI | 3/5 | Q2 exposure/history remain KB-146/168/230. The Q3 deck slide 23 (preliminary, rounded, HFI + HFS + eligible-loan basis) does not grade the 10-Q 25.9%-of-HFI test. Borrower attribution and current stress unknown |
-| V4 leadership | 3/5 | Held. 10/19 Form 4s routine (KB-252); no Form 144 sweep; LEADERSHIP.md is 3/31 vintage |
+| V3 NDFI | 3/5 | Q2 exposure/history remain KB-146/168/230. The Q3 deck slide 23 (preliminary, rounded, HFI + HFS + eligible-loan basis) does not grade the 10-Q 25.9%-of-HFI test. New 10/28: First Eagle SPV $100M lender joinder 10/1 (KB-260) adds to the exposure-up evidence beside Crestline (KB-195). Borrower attribution and current stress unknown |
+| V4 leadership | 3/5 | Held. 10/19 Form 4s routine (KB-252); Form 144 / 13D/G / open-market sweep clean 9/24 → 10/28 (KB-259); LEADERSHIP.md is 3/31 vintage |
 
 Composite 13/25; weights 2/16/45/30/7 unchanged (THESIS owns them). No independent funding/peer/severity baseline built.
 
 ## EXIT RULES
 
-*Kill rail re-derived: 2026-10-22 (against the Q3 print/call grades; the post-10-Q weight mapping is pre-registered in `Q3_10Q_RESCORE_RULE_2026-10-22.md`).*
+*Kill rail re-derived: 2026-10-22 (against the Q3 print/call grades; the post-10-Q weight mapping is pre-registered in `Q3_10Q_RESCORE_RULE_2026-10-22.md`). Re-checked 10/28: no carrier has landed since, no state changed.*
 
 | Rule | Condition / carrier | State |
 |---|---|---|
@@ -89,16 +92,18 @@ Composite 13/25; weights 2/16/45/30/7 unchanged (THESIS owns them). No independe
 | Bear CONFIRM | WAL-01 Office > 500 or WAL-02 NCO > 40 | **NOT FIRED** on Stage-1 data; 01 provisionally invalid, 02 invalid with 10-Q confirm pending |
 | Thesis RETIRE | Broadening disconfirmed 3 times AND coverage > 100% AND benign appraisal | **NOT FIRED**: counter **2 of 3**; coverage leg met 118%; appraisal PENDING-10-Q |
 | GATE-REG-T02 (PROME gate) | Close < 78 | **TERMINAL** since 9/1; never re-fire on a sub-78 quote. REGINALD's registry trigger REG-T-02 (same letters, separate object) is carried FIRED by REGINALD |
-| Robinhood exit guard | GATE-TERRY-ROLL70-EXIT, official close ≥ 81.90 × 3 | REGINALD's owner log last row 10/13, read 10/19; no fresh count claimed. Contract scope → POSITIONS |
+| Robinhood exit guard | GATE-TERRY-ROLL70-EXIT, official close ≥ 81.90 × 3 | REGINALD's owner log last row 10/27, read 10/28: run 0 of 3, state FIRED (REGINALD grades; this desk claims no count). Contract scope → POSITIONS |
 
 ## NEXT CARRIERS
 
 | When | Required work |
 |---|---|
-| Q3 10-Q (EDGAR ≥ Mon 10/26; statutory Mon 11/9; ledger Resolve_By 11/15) | Run the frozen L171 frame verbatim: subsequent events first; $99M (§4); WAL-01 cross-check; WAL-02 confirm/correct; full NPL; OREO count/valuation; NDFI 25.9% test; Cantor tie-out and legal paragraphs; hotel O1–O8. Carried from the call: Office funded/criticized bridge, NDFI borrowers, total deposit cost, AOCI/CET1 RWA bridge. **Then the post-Q3 re-score, applying `Q3_10Q_RESCORE_RULE_2026-10-22.md` verbatim**, and register forward Q4 predictions |
-| Q3 FFIEC, when retrieved (call reports due ~10/30; REGINALD cohort screen due 11/7, D:L180) | MI3 and same-quarter bank NDFI/commitment/modification/mortgage/capital; June/December semiannual fields not expected at Q3. `workbook/MI3_SERIES.tsv` is FROZEN at Q2 — un-freeze or add a successor row |
+| Q3 10-Q (not on EDGAR at 10/28 ~22:40 ET; statutory Mon 11/9; ledger Resolve_By 11/15) | Run the frozen L171 frame verbatim: subsequent events first; $99M (§4); WAL-01 cross-check; WAL-02 confirm/correct; full NPL; OREO count/valuation; NDFI 25.9% test; Cantor tie-out and legal paragraphs; hotel O1–O8. Carried from the call: Office funded/criticized bridge, NDFI borrowers, total deposit cost, AOCI/CET1 RWA bridge. **Then the post-Q3 re-score, applying `Q3_10Q_RESCORE_RULE_2026-10-22.md` verbatim**, and register forward Q4 predictions |
+| Q3 Call Report (not filed at 10/28; due Fri 10/30; **retry Sat 10/31 or later, before the JWT expires Thu 11/5**; REGINALD cohort screen due 11/7, D:L180) | Re-run `scripts/ffiec_wal_retrieve_20261014.py` for 2026-09-30 into a new dated `sources/ffiec_*` folder. MI3 and same-quarter bank NDFI/commitment/modification/mortgage/capital; June/December semiannual fields not expected at Q3. `workbook/MI3_SERIES.tsv` is LIVE but behind (attention-held 10/28): append the Q3 row |
+| ~Thu 11/5 | OZK Q3 10-Q (per OZK STATUS): re-read the owner pointer behind KB-228 (sponsor-support peer); no OZK figure mirrored |
+| ~Tue 11/10 | FINRA 10/30 settlement short interest (KB-258 successor; verify the FINRA calendar first) |
 | **Wed 12/9/2026 11:00 AM** | WAL v. Stupin §523 (8:26-ap-01096): motion-to-dismiss hearing + status conference |
-| Mon 11/30/2026 · Tue 1/12/2027 | Makhijani status conference / trial (KB-203) — **not re-verified** 10/22 (RECAP Docs 93–98 have no text) |
+| Mon 11/30/2026 · Tue 1/12/2027 | Makhijani status conference / trial (KB-203) — **not re-verified** (10/22: RECAP Docs 93–98 had no text; 10/28: CourtListener refuses anonymous access) |
 
 ## OWNERS / CONTINUITY
 

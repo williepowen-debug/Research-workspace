@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-10-14",
-  "review_by": "2026-10-19",
+  "review_by": "2026-11-09",
   "provenance": "sources/followup_2026-10-13/drift_full_hit_context_2026-10-14.json and housekeeping repair, no baseline inferred from new counts",
   "scope": "selected legacy patterns, source/type/token/line anchor identities with multiplicity; named current-field checks separately",
   "reviewed_findings": [
@@ -758,6 +758,24 @@
       "line": 178,
       "token": "no trajectory pulled",
       "anchor": "KB-WAL-175\t2026-08-20\tNDFI\tNDFI_Nonaccrual_122M_First_Ever_Figure\t\u2605 FIRST-EVER NDFI NONACCRUAL FIGURE FOR WAL: $122,456K = 0.77% of the NDFI book, at 6/30/2026. FFIEC Call Report RC-N item 7, MDRM RCO"
+    },
+    {
+      "identity": "de79e893d1665310d7c8888e7e9f2b96dd4f7580abaaff8d62c98b463ba3c63f",
+      "kind": "retired",
+      "path": "workbook/PREDICTIONS.tsv",
+      "line_at_review": 7,
+      "token": "Schedule O",
+      "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tOPEN\t\t2026-10-19 Stage1 INVALIDATED (PROVISIONAL): EX99.2 slide 13 Office 25% x classified 1091M=",
+      "disposition": "Dated history in the WAL-01 Notes cell: the 2026-08-07 finding that 'Q3 10-Q Schedule O' was VOID (Schedule O is a Call Report schedule) and the 2026-08-20 record of that cite being struck under Will's 8/12 ruling. Not a live claim; identity changed only because the 10/19 Stage-1 note and the 10/22 spacing cleanup edited the same line. Reviewed 2026-10-28; a NEW Schedule O assertion elsewhere is still a finding."
+    },
+    {
+      "identity": "de79e893d1665310d7c8888e7e9f2b96dd4f7580abaaff8d62c98b463ba3c63f",
+      "kind": "retired",
+      "path": "workbook/PREDICTIONS.tsv",
+      "line_at_review": 7,
+      "token": "Schedule O",
+      "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tOPEN\t\t2026-10-19 Stage1 INVALIDATED (PROVISIONAL): EX99.2 slide 13 Office 25% x classified 1091M=",
+      "disposition": "Dated history in the WAL-01 Notes cell: the 2026-08-07 finding that 'Q3 10-Q Schedule O' was VOID (Schedule O is a Call Report schedule) and the 2026-08-20 record of that cite being struck under Will's 8/12 ruling. Not a live claim; identity changed only because the 10/19 Stage-1 note and the 10/22 spacing cleanup edited the same line. Reviewed 2026-10-28; a NEW Schedule O assertion elsewhere is still a finding."
     }
   ],
   "dated_reviews": [
@@ -765,6 +783,11 @@
       "date": "2026-10-14",
       "identity": "861ca8daa6a8fa4249c8e805df29bdf42e8047619da3f5383afcaac153dbccd5",
       "reason": "Superseded KB175 retains its original historical one-quarter wording; fresh KB230 replaces current coverage/tier. No live assertion accepted; existing review_by unchanged."
+    },
+    {
+      "date": "2026-10-28",
+      "identity": "de79e893d1665310d7c8888e7e9f2b96dd4f7580abaaff8d62c98b463ba3c63f",
+      "reason": "Two multiplicity entries added (WAL-01 Schedule O void/strike history). review_by re-dated 2026-10-19 -> 2026-11-09: the Q3 10-Q grade will edit PREDICTIONS.tsv again and re-key this row; re-review then. The 10 cleared identities from the 10/22 cleanup are left in place (harmless: compare_history counts only new-over-baseline)."
     }
   ]
 }
