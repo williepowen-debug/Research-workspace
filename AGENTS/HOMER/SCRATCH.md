@@ -21,7 +21,7 @@
 ## Open / next
 
 - **Next print session: update `registry/THRESHOLDS.tsv` reading cells and run `tools/threshold_scan.py`** (Fannie HB-01 NEAR, FHA HB-09 NEAR, cutters HB-10 NEAR, breadth HB-11 NEAR). Freddie Q3 10-Q (~10/29–31) gives the Freddie provision pairing.
-- **NV/CA lanes: Will said BUILD (23:27 ET).** Two Opus helpers running (`scratchpad/lane_NV.md`, `lane_CA.md`); integrate into STATE_HSG + docket + COVERAGE + charter sources. CA insurance/FAIR Plan = AEOLUS (cite).
+- **NV/CA lanes BUILT 2026-10-28** (Will 23:27 ET): STATE_HSG 7 NV + 6 CA rows, 7 docket rows, charter signals/sources, COVERAGE 14a/14b. Gaps: no numeric LA fire-ZIP DQ for 2026; AB 1847 effective date inferred; no NV FHA DQ source. CA insurance = AEOLUS.
 - **File-hygiene sweep done** (see MAINTENANCE.md 10/28). ⚠️ LESSONS.md 377 B from the rotation trigger — rotate before the next lesson.
 - **Thu 10/29:** DHI FQ4 (CRL-23 + buydown disclosure) · PMMS · BEA Q3 GDP · **Fannie Sept MF (was not out 10/28 22:48 ET)** · UDR–Apollo close.
 - **ATTOM Sept/Q3 not published** at 10/28 — Q3 STARTS band reading waits; KB-HOMER-001 re-validation rides on it.

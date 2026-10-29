@@ -85,7 +85,7 @@ Workbook reviewed 10/28: ledger line-1 headers fixed, append-log rule documented
 | **Realtor.com** | **SEPT (report 9/30): list −1.4% YoY, $/sqft −1.7%; active +5.4%; price-cut share 20.8% (highest since Oct-2022); pending listings −4.1% YoY** | ⛔ CONTEXT ONLY (stripped of lead standing) |
 | **🔴🔴 Redfin sellers/buyers gap** | **62.6% — RECORD, SEPTEMBER** (pub 10/14). Sellers 1.51M (+1.2%); **buyers 928,892 (−2.4%, record low; MODELLED)**. ⚠️ Aug RESTATED 57.9 → 56.9%. Redfin pending −4% MoM (lowest since spring-2014 ex-Apr-2020), −8.6% YoY | 🔴🔴 **both legs now: buyers falling AND sellers rising** |
 
-### State-Level Housing (FL/TX priority)
+### State-Level Housing (FL/TX priority; NV/CA lanes built 10/28)
 > ★★ **HOMER PUBLISHES NO STATEWIDE FLORIDA FIGURE. CORAL RULES.** HOMER-owned inside FL: **metro FC rates + the Miami-Dade condo cut** only.
 
 | State | Metric | Value | Band |
@@ -94,6 +94,8 @@ Workbook reviewed 10/28: ledger line-1 headers fixed, append-log rule documented
 | FL | H1 FC rate *(CORAL-canonical)* | **#1: 0.27% (1-in-373), +32.7% YoY** — ⚠️ rank ≠ level | 🔴 speed / 🟠 level |
 | FL | **METRO — HOMER-owned** | Punta Gorda 0.50% (#1 US metro, H1) · **#2 US metro in AUGUST (1 in 1,249)** · Lakeland 0.48% · **Miami-Dade condo SEPT: 12.3mo; median $417,090 −0.69% YoY; inventory 11,706 −7.24% YoY; contracts 67days vs75 last year (faster), cash 49.4%** (issuer 10/16). Aug 12.1mo/$408K/66days as originally published; no revised MoM comparator · Tampa $/sqft −5.6% YoY · Cape Coral HPI −2.3% YoY (ICE, Aug) · **Miami #1 buyer's market, Sept: 158.9% more sellers than buyers (Redfin via WALTER)** | 🔴🔴 sub-statewide |
 | **TX** | October CRE auction postings, major markets | **>$1B / 46 properties / 18 repeats** (CCN 10/06 via TRD/Roddy, SECONDARY). Sept $778M / $562M MF. **October MF subtotal UNKNOWN; original/list unavailable** | 🟠 postings, not sales, new distress or losses. Do not carry Sept MF share into Oct |
+| **NV** *(lane built 10/28)* | Las Vegas fallthrough · LVR · NY Fed | **18.58% of pendings fell through, SEPT (#3 of 50; nat'l 14.54%)** · SFH median $470K flat YoY, sales −7.4% · NV credit-card 90+ 16.28% (Q4-25, #1 of 51) · LV concessions on 54.65% of properties | 🟠 observation, no band |
+| **CA** *(lane built 10/28)* | C.A.R. · ICE · fire-zone | median $899,720 (+1.7% YoY), sales −6.5% · ICE non-current 2.4% (~48th of 51) · LA fire-ZIP serious DQ 'more than double' pre-fire (Cotality, no number); AB 1847 forbearance 12→24 mo | 🟡 fire-zone stress is local, statewide credit calm. Insurance = AEOLUS |
 | FL | Annual band | evaluable once a year (ATTOM year-end) — "no reading" is NORMAL | ✅ |
 
 ### ⚠️ STANDING CAVEATS

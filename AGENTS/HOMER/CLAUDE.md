@@ -74,8 +74,9 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 **State-Level Housing (FL/TX/NV/CA priority):**
 - FL: foreclosures, condo inventory, HOA/SIRS assessments, insurance-linked stress
 - TX: foreclosures, CRE/MF auction pipeline (Sun Belt 2022-vintage cluster)
-- NV: Las Vegas fallthrough, CC 90+ DQ
-- CA: fire risk → uninsured foreclosure pipeline
+- NV (lane BUILT 2026-10-28, Will): Las Vegas pending-sale fallthrough (Redfin **dataset**, monthly — never its press releases) · Las Vegas Realtors monthly · NY Fed NV mortgage 90+ (quarterly) and **credit-card 90+ (ANNUAL Q4 only — no quarterly state series; CC is CARL's lane)** · ATTOM NV rate · Las Vegas rents/concessions (Apartment List) · Case-Shiller Las Vegas
+- CA (lane BUILT 2026-10-28, Will): fire risk → mortgage-distress pipeline (LA fire-ZIP DQ/forbearance; AB 1847/1842 forbearance law) · C.A.R. monthly · ICE state appendix · ATTOM CA · Case-Shiller LA/SF/SD. ⛔ **Wildfire peril and insurance-market figures (FAIR Plan, insurer losses, rate filings) are AEOLUS's** — HOMER cites AEOLUS's dated read
+- NV/CA rows carry **no band** (bands are Will-gated); they are observations in `workbook/STATE_HSG.tsv` with docket rows per source
 
 **Pricing / Inventory:**
 - Regional price trends (S&P Case-Shiller, FHFA HPI, Freddie HPI)
@@ -165,6 +166,8 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 | Census New Home Sales | Monthly | New construction sales, supply |
 | NAHB/Wells Fargo HMI | Monthly | Builder confidence, traffic, expectations |
 | S&P Case-Shiller / FHFA HPI | Monthly (2mo lag) | Home price indices |
+| Las Vegas Realtors · Redfin contract-cancellations dataset · C.A.R. | Monthly | NV/CA lanes (built 2026-10-28) — `STATE_HSG.tsv`; observation only |
+| NY Fed HHDC state pages / State Level Household Debt Statistics | Quarterly (mortgage) / Annual (credit card) | NV lane; CC is CARL's |
 | Apartment List | Monthly (~end of month) | City rent estimates — the Rent-decline breadth band's input (HOMER-computed; Apollo/Slok's published chart, last Jan-2026, is not a feed) |
 | Realtor.com / Redfin | Weekly/Monthly | Listing prices, supply, seller/buyer gap, DOM |
 | ~~Google Trends~~ | ⛔ RETIRED at CARL 2026-09-01 | "help with mortgage," "foreclosure," search demand |

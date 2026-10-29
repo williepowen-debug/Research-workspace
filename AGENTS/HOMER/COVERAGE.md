@@ -21,7 +21,8 @@
 | 11 | Prices + inventory + sales | Case-Shiller · FMHPI · ICE HPI · NAR · Census · Redfin · Realtor.com | CS Aug; FMHPI Aug; NAR Sept; Census Sept; Redfin 10/18 | `PRICING.tsv` | 🟢 | Revisions every release — carry both vintages |
 | 12 | Florida (sub-statewide only) | ATTOM metro rates · MIAMI REALTORS · Zillow/ICE metro | Miami-Dade condo Sept; metro drawdowns Sept; ATTOM metro Aug | `STATE_HSG.tsv` | 🟡 | **Statewide figures are CORAL's.** Metro foreclosure rates wait on ATTOM access |
 | 13 | Texas | Trustee-sale auction lists (via TRD/CCN) | Oct postings (secondary) | `STATE_HSG.tsv` | 🔴 | Primary list and October MF subtotal unavailable |
-| 14 | Nevada / California | — | none current | — | 🔴 | Charter names NV (Las Vegas fallthrough, CC 90+ DQ) and CA (fire-insurance foreclosure pipeline); no source, row or docket entry. Build or de-scope — owner decision |
+| 14a | Nevada (BUILT 2026-10-28, Will) | Redfin cancellations dataset · LVR monthly · NY Fed HHDC (mortgage quarterly, CC annual) · ATTOM · Apartment List · Case-Shiller LV | LV fallthrough 18.58% Sept (#3 of 50); LVR Sept; NV CC 16.28% Q4-25; NV mortgage 90+ 1.94% Q2 | `STATE_HSG.tsv` | 🟡 | No band; no free NV FHA DQ source; NY Fed state CC is annual only; LVR main site 429 (PDF works) |
+| 14b | California (BUILT 2026-10-28, Will) | C.A.R. · ICE state appendix · ATTOM · Case-Shiller LA/SF/SD · Cotality fire-ZIP · state forbearance law | C.A.R. Sept; ICE CA Aug 2.4% non-current; ATTOM Aug; fire-ZIP DQ 'more than double' (no number) | `STATE_HSG.tsv` | 🟡 | **No 2026 numeric fire-ZIP DQ**; AB 1847 effective date inferred; no lapsed/force-placed insurance data; insurance = AEOLUS |
 | 15 | Wealth effect → HENRY | Case-Shiller real · FMHPI · metro drawdowns | first packet 10/28 | packet + NEXUS row | 🟡 | Edge formalized 10/28; trigger rule in charter |
 
-**Thinnest lanes, in order:** 14 (no coverage at all), 2 (ATTOM access), 13 (Texas primary), 4 (servicer panel completeness).
+**Thinnest lanes, in order:** 2 (ATTOM — Sept/Q3 late), 13 (Texas primary), 14b (CA fire-zone numbers), 4 (servicer panel completeness). NV/CA built 2026-10-28.

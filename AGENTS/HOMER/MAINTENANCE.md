@@ -8,6 +8,11 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 
 ---
 
+### 2026-10-28 — NV and CA lanes built (Will: "build them out")
+- Two Opus helpers built source baselines (`reports/2026-10-28_evidence/lane_NV.md`, `lane_CA.md`); HOMER re-read the load-bearing figures (Redfin LV 18.58%, NY Fed NV CC 16.28%, C.A.R. median $899,720).
+- `STATE_HSG.tsv`: 7 NV rows (incl. a correction of the stale 2025 row's two wrong labels) + 6 CA rows. Docket: 4 NV + 3 CA recurring rows. Charter Key Signals + Key Data Sources updated; COVERAGE lanes 14a/14b.
+- No bands (Will-gated). CA insurance/FAIR Plan = AEOLUS (pointer row only).
+
 ### 2026-10-28 — file-hygiene sweep (Will-asked)
 - **Retired to `archive/`** (>60 days, not boot-read, no live-doc reference — root Data Hygiene): `2026-07-12_FL-condo-reconciliation-package.md`, `2026-07-12_domain-sweep.md`, `2026-08-14_issuer-primary-sourcing-convention-PROPOSAL.md`, `2026-08-23_refresh-plan-AND-EXECUTION-RECORD.md`. Seven other pre-8/29 reports stay: live refs from `workbook/`, `docket/` or `thesis/`.
 - **`workbook/LEDGER_GLOB` created** (declares `workbook/*.tsv`; registry excluded by design — the scanner grades its freshness).
