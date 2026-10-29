@@ -94,4 +94,4 @@ Marks HELD at B 1 / C 14 / D 85. Composition caveat (THESIS v3.0) unchanged: rou
 | New pathway | FLOW-FALCON-05: Iranian administrative enforcement on a named owner's fleet (Sinokor, from 11/1) — ARMED, not fired | FLOW.tsv |
 | WALTER ladder #3/#3b | Restated to WALTER: no FALCON trigger on a grid strike; graded via FAL-07 (NOT FIRED) and GATE-FALCON-001 (LIVE) | SendMessage 10/29 |
 
-Not done: day-by-day 10/27–10/29 gap sweep (LESSONS 2 — topic searches only); TIMELINE.md still ends 9/08 (9/09–10/29 extension carried).
+Later 10/29 (13:4x–14:xx ET): day-by-day 10/27–10/29 sweep DONE — Egypt parliamentary authorisation (fifth-axis watch, NOT met), Bab land clashes ~97 killed (not a hull act), third US carrier group, Qatar draft disputed (KB-366..369). TIMELINE.md extended Sep 9 → Oct 29 (War Day 244), tables regenerated.

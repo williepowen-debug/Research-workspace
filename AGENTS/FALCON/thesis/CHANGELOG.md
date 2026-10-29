@@ -269,3 +269,7 @@ Will, verbatim *"go with your recommendations"*, on the three options FALCON put
 ## 2026-10-26 — Closeout consistency maintenance (v3.0 retained)
 
 Aligned current rung references with the October 1 registration, removed the already-discharged ruling from pending rewrite triggers, and labelled October 1 structural evidence as dated. EXIT/VX supporting summaries now match the October 26 dashboard. No scenario mark, forecast letter or threshold changed; the production letter and both OPEN prediction rows were checked byte-for-byte. Before-images and checks: `archive/2026-10-26_closeout_before_*`, `reports/2026-10-26_closeout-checks.json`.
+
+## 2026-10-29 — TIMELINE third extension (War Day 194 → 244); THESIS v3.0 retained
+
+TIMELINE.md extended Sep 9 → Oct 29 in three chapters (the pipeline and the strait · D 85 and the hull war · posture before the midterms), built from FALCON's own dated KB / VESSELS / STRIKES records plus the 10/27–10/29 day-by-day sweep (KB-366..369). Forward branch points, unresolved markers and war-day phases REGENERATED; the 9/08 resolved table kept verbatim and a 9/09–10/29 resolved table added; key insights 9–10 added (route loss ≠ barrel loss; the war moved onto ships and airports). No thesis change: marks B 1 / C 14 / D 85 unchanged. Pre-edit copy compared before writing; prior version in git.

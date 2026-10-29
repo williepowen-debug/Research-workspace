@@ -18,7 +18,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 6 (class i 2 · ii 2
 ## NEXT SESSION (dated, future-verifiable)
 1. October 31 (approx.): Iran's reply to Qatar's draft deal — grade vs diplomacy vector 3 (executed framework →2; breakdown →4).
 2. November 1–2: Sinokor watch (FLOW-FALCON-05) — named-hull detention/seizure/turn-back/fine; Sinokor, charterer, insurer or Korean government response. Record in VESSELS; BRENT owns freight.
-3. Day-by-day gap sweep 10/27 → session date (LESSONS 2; not done 10/29).
+3. Day-by-day gap sweep from 10/30 → session date (10/27–10/29 DONE 10/29, KB-366..369).
 4. November 4: weekly scenario + GATE-FALCON-001 review (current TankerMap vintage).
 5. November 5: FAL-06 dated search ON that day. January 2, 2027: FAL-07 failure search if unresolved.
 6. Post-11/3: watch any US answer to the Israeli energy-target request / resumed strikes (VX-ISR-01; D 85→92 path via Iranian retaliation on Gulf-ally production).
@@ -28,7 +28,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 6 (class i 2 · ii 2
 - VI-0083 identity; VI-0084 Al-Faw cause/outcome; UKMTO originals 403 from this box.
 - Ras Tanura: no Saudi/Aramco statement as of 10/29 13:xx.
 - Sohar series restoration (bypass DEGRADED; never read DEGRADED as HOLDING).
-- TIMELINE.md ends 9/08 — 9/09–10/29 extension carried.
+- TIMELINE.md extended to War Day 244 (10/29) — next extension at the next phase change. Egypt deployment = fifth-axis watch (KB-366).
 - Insurance 5 rows EXPIRED, WQ-298 CANNOT-FIRE; do not re-argue access.
 - Carried builds: KB-168 Yanbu proxy (PROME WQ-533(a) recs abandoning BRENT's shadow run — their call), baseline hot/cold split, sub-$80 duration bar, archive-content guard, EXIT boot reader.
 

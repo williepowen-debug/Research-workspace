@@ -1,11 +1,11 @@
 # FALCON TIMELINE
 
-**Last Updated:** 2026-09-08 (**second FALCON extension** — narrative Jul 28 → **War Day 193**: the long pause · the campaign · the tanker war and the southern salvo; forward branch-points, resolution markers and war-day phases REGENERATED). *(First FALCON rewrite 2026-07-27 extended the inherited HAWK record from Apr 20 through War Day 149.)*
-**View:** War progression **Feb 28 → Sep 8 2026**, with branch points and resolution markers
+**Last Updated:** 2026-10-29 (**third FALCON extension** — narrative Sep 9 → **War Day 244**: the pipeline and the strait · D 85 and the hull war · posture before the midterms; branch points, resolution markers and war-day phases REGENERATED; built from FALCON's dated KB/VESSELS/STRIKES records + a 10/27–10/29 day-by-day sweep). *(Prior:* 2026-09-08 (**second FALCON extension** — narrative Jul 28 → **War Day 193**: the long pause · the campaign · the tanker war and the southern salvo; forward branch-points, resolution markers and war-day phases REGENERATED). *(First FALCON rewrite 2026-07-27 extended the inherited HAWK record from Apr 20 through War Day 149.)*
+**View:** War progression **Feb 28 → Oct 29 2026**, with branch points and resolution markers
 
 **Feb 28 – Apr 20 below is the inherited HAWK record, preserved substantially verbatim — it is accurate resolved history and was not rewritten.** Everything from *"THE LULL"* onward is FALCON-authored.
 
-> **⚠️ Companion:** `THESIS.md` v2.2 holds the current regime call. `STATUS.md` is canonical for marks. This file is the *chronology* — dates and resolution, not interpretation.
+> **⚠️ Companion:** `THESIS.md` v3.0 holds the current regime call. `STATUS.md` is canonical for marks. This file is the *chronology* — dates and resolution, not interpretation.
 
 ---
 
@@ -195,31 +195,80 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 
 ---
 
-## FORWARD BRANCH POINTS *(REGENERATED 2026-09-08 — the 7/27 table was stale on the Jazan, pause and leg-3 rows; the 9/7 additions are folded in)*
+## THE PIPELINE AND THE STRAIT — Sep 9 → Sep 27 *(the Houthis take both lanes of Bab el-Mandeb; the Petroline is hit and shut; Yanbu goes dark; the crude letter fails on a route, not a barrel)*
 
-| Trigger | Bull fork (B/C↑) | Bear fork (D↑) | Status 2026-09-08 |
+*Sources: FALCON KB-FALCON-14x–23x (dated rows), VESSELS.tsv, STRIKES.tsv. Chronology only; interpretation in `THESIS.md` v3.0.*
+
+### Sep 9-10 — Hulls at anchor; Riesco confirmed sunk; Mokha falls
+- **9/9** Products/bunker tanker **Hercules Star** struck **at anchor off Dubai**; **New Andros** struck 28 NM SE of Al-Faw. IRGC claims 2 US vessels, 8 tankers, 10 "violating" ships (uncorroborated). **FALCON rules 9/10: D→85 trigger (c) AMBIGUOUS, NOT FIRED** (D stays 75); the "0 in 193 days" base rate disclosed at registration is corrected the same day.
+- **9/10** **M/T Riesco** (Aframax, sanctioned-Iran) confirmed **SUNK** 9/8 in the Gulf of Oman after the CENTCOM five-hull strike — total losses 3 (two class-(iii-B), one dhow).
+- **9/10** **Houthis take Mokha** (~70 km N of Bab el-Mandeb) after a week-long offensive; footholds reported on Zuqar.
+
+### Sep 10-14 — The Petroline is hit and shut; the Houthis hold both lanes
+- **9/10** Strike on the **East-West (Petroline) pipeline**: pumping stations **Al Mesba'ah** and **Al Dhekra** named via imagery; own FIRMS shows a sustained Riyadh-zone fire (25.252N 48.106E); Abqaiq and Yanbu terminals clean.
+- **9/11** 🔴 **Saudi MoE shuts the Petroline "as a precaution."** **Yanbu crude loadings go to zero for ≥72 h from 9/11** (Kpler 9/17; Vortexa via Argus 9/15). FAL-05 graded **NOT FIRED** that day — later found wrong (`LESSONS` FAL-14: the firing sentence was in a source already in hand).
+- **9/11-13** Perim/Mayyun taken ⇒ **9/14: the Houthis hold both lanes of Bab el-Mandeb**; GATE-FALCON-001 event override does not trip (no act on a hull).
+- **9/14** Saudi Arabia publicly blames Iranian-backed militias in Iraq; Kpler puts Petroline throughput at its lowest circulating figure. **8 US Marines injured** by an Iranian cruise missile on a non-Navy vessel in Hormuz (NBC 9/27, three unnamed officials).
+
+### Sep 15-27 — Restart on unnamed sources; mediation at the UN; Cape Dao
+- **9/16-22** Partial-restart objective (Bloomberg 9/16), then pumping "at a low rate" (Reuters 9/22, 3 sources) — operator silent throughout. **9/19** Houthi missile at Riyadh intercepted. **9/20-22** UNGA contact mediated by Qatar/Pakistan; no direct US-Iran meeting.
+- **9/23** **Bulker CAPE DAO struck 15 NM NE of Khasab** (one seafarer killed) — sinks weeks later.
+- **9/24** Six Houthi missiles at **Yanbu/Taif** + a drone over Yanbu, all intercepted. **9/25** War-risk (Reuters, four unnamed sources): Saudi-linked tankers at Yanbu **~3% of hull** — the registered West Coast falsifier lit.
+- **9/27** USS Theodore Roosevelt CSG sails for CENTCOM (7+ months).
+
+## D 85 AND THE HULL WAR — Sep 28 → Oct 21 *(the crude letter fails and D steps to 85; the war turns on ships and airports; the Saudi front reaches Riyadh's airport and the Eastern Province)*
+
+### Sep 28 – Oct 1 — The rung fires; two new instruments registered
+- **9/28** 🔴 **FAL-05 RESOLVED FAILED on route (c)** (failed in fact by 9/17: Yanbu dark ≥72 h on two dark-fleet-capable vendors) ⇒ **D 75→85 rung FIRED; marks B 3/C 22/D 75 → B 1/C 14/D 85.** Composition caveat recorded the same day: Saudi aggregate exports held via Hormuz (>5 mb/d September, Bloomberg) — **a route loss, not a demonstrated barrel loss** (THESIS v3.0 two-statement regime). Qatar runs separate talks on a revised two-stage plan.
+- **9/28-29** Four tankers struck by projectiles in Hormuz (AL FUNTAS, MERSIN PROSPERITY, +2). **9/29** US response to Iran's 7-day plan handed over via Qatar in Doha. **9/30** **US withdrawal from federal Iraq COMPLETE** (Irbil, "orderly departure").
+- **10/1** **FAL-06 REGISTERED (70%)** — no net Gulf-ally crude/condensate loss to 11/05. **Production rung D 85→92 REGISTERED (WQ-355, Will)**; GATE-FALCON-001 leg-2 letter adopted provisional (WQ-353). Petroline reported back to ~5.5 mb/d (Argus, one source); a projectile lands inside **Yanbu port**, terminal briefly suspended (Vanguard).
+
+### Oct 2-8 — Hull tempo rises; Riyadh and Khurais
+- **10/2** Two separate Hormuz hits (UKMTO 148/149-26); Roosevelt CSG + Makin Island ARG add 9-10k troops (WSJ). **10/3** Fire at Aramco's Riyadh facility (Reuters witness; AFP). **10/4** Houthi claims on Aramco Riyadh + Khurais; Iran restates: Hormuz closed until the US meets **seven conditions**; tanker near-miss 60 NM S of Al Mukha.
+- **10/5-6** **ON PEACE** struck ~9 NM NE of Limah, 12 of 19 crew injured (Oman MoD). **10/6** Energy Minister: ~5.8 mb/d flowing through the Petroline. **10/7** UKMTO 158-26 off Qatar with casualties — first post-9/28 attack outside Hormuz; Iran-Oman agree "safe corridor" coordinates (Baghaei).
+- **10/8** Two attacks on **Riyadh's King Khalid International Airport (KKIA)**; Houthi spokesman orders staff at **all Saudi oil facilities** to leave.
+
+### Oct 9-14 — The airport toll; a container ship sinks
+- **10/9-13** **Twelve UKMTO attack warnings in five days** (six on 10/11, four on 10/13). IRGC claims LPG carrier "NV Sunshine". **10/10** KKIA struck again and evacuated — **12 killed, 309 injured** (GACA; 13 with a death 10/11) ⇒ casualty ratchet steps. Own FIRMS: Shedgum gas plant fire (max 139 MW 10/10, subsided by 10/14); Houthis claim Ghawar.
+- **10/13** 🔴 **GFS PRIDE (container ship) SUNK** in Hormuz — class (ii); Aramco administrative building in Dhahran "targeted, limited fire" (MoE). **10/14** IMO table lists **CAPE DAO "Sunk"** ⇒ class (ii) ×2. **IEA: September Gulf crude exports 13.9 mb/d, >75% of pre-war** (the composition caveat, measured). Weekly review HELD. Houthi "military source" tells Aramco shareholders to sell.
+
+### Oct 15-21 — Al Jubail, Kuwait-flag concentration, ordered departure
+- **10/16** Missile at **Yanbu** intercepted; **ST3** and **LOYALTY** struck 68-78 NM NE of **Al Jubail**. **10/17, 10/20** IRGC claims supertankers hit its mines (unnamed, unconfirmed). **10/18** **JIF BARRACUDA** hit NE of Khor Fakkan (one seafarer injured).
+- **10/20** **AL DASMA** (KOTC) struck a second time — third Kuwait-flag hull; **SOYIA** damaged 30 NM SE of Al-Faw; Pakistan army chief Munir in Tehran. **10/21** **State orders departure of non-emergency US staff from Saudi Arabia**; **Shaybah** drone intercepted, debris outside the perimeter; tanker hit 11 NM W of Bukha (AL DASMA, NAVAREA 393/26). **FAL-07 REGISTERED (65%)** on Will's word — US offensive strike on Iran by 12/31.
+
+## POSTURE BEFORE THE MIDTERMS — Oct 22 → Oct 29 *(no US strike, but every signal points past Nov 3; the permanent-corridor window lapses; Egypt edges toward the Saudi side)*
+
+- **10/22** White House: the US **"will not be attacking Iran"** before the midterms. IRGC claims four STS tankers burning (unconfirmed). KFIA Dammam toll 2. **LEONORA KOSAN** (LPG) hit ~7 NM NE of Limah (UKMTO 181-26; IMO lists 10/23). **10/23** Outbound tanker disabled (UKMTO 182-26, unnamed). Reuters: Iran plans to **cut the seven major Gulf undersea cables** if attacked.
+- **10/25-26** Qatar hands Iran a new draft deal (10/25). Riyadh airport partially reopens. **10/26** **L229 permanent-corridor window LAPSES** — Oman says even the temporary outline faces implementation obstacles. **CAPE DAO sinking confirmed** (IMO + NAVAREA 403/26) ⇒ losses 5. UKMTO 183-26: vessel fire 63 NM SE of Al-Faw (cause unknown). **Egypt's parliament authorises Sisi to support Saudi Arabia's defence** (closed session; defensive only per Sisi; no deployment announced). Saudi/Turkish/Pakistani officials meet Pezeshkian in Tehran.
+- **10/27** Houthis claim a missile hit on the **Ras Tanura refinery** (no Saudi/Aramco statement; refinery/terminal = OUT-class). Iran's strait authority: **"legal action" against all Sinokor vessels from 11/1.** WSJ: US told Gulf states to prepare for a **"short, intense" post-midterm campaign**. Houthi-government fighting near Bab el-Mandeb, ~97 combatants killed (AFP). Iraqi militia drones surveil the US Embassy in Baghdad (intercepted). Houthis call Egypt's decision "a declaration of war".
+- **10/28** NAVCENT/JMIC: non-essential vessels stay clear; **blockade enforcement, visit and search of neutrals**. CENTCOM: primary routes cleared of mines. Third US carrier group reported heading to the region. A senior Iranian official calls Qatar's draft "unacceptable ideas"; Araghchi says the 7-day plan is still being discussed. Trump: intends to end the war "very soon".
+- **10/29** 🔴 **Dhow MSV QUBA sinks ~9 NM N of Khasab** after a "security incident" fire, crew evacuated (NAVAREA IX 417/26; UKMTO 185-26) ⇒ **losses 6** (class (i) ×2; no rung). IRGC claims three tankers mined on the "unauthorized southern route" (no hulls named). Kan: Israel asked the US to clear **new Iranian energy targets** if operations resume. QatarEnergy force majeure extended to end-December. **Weekly review (owed 10/28): B 1 / C 14 / D 85 HELD.**
+
+---
+
+## FORWARD BRANCH POINTS *(REGENERATED 2026-10-29 — the 9/08 table is in git history; rows below carry today's state)*
+
+| Trigger | Bull fork (B/C↑) | Bear fork (D↑) | Status 2026-10-29 |
 |---|---|---|---|
-| **A rung above D 75** | — | The ladder's ability to record ANY bear fork below | ✅ **REGISTERED 2026-09-08 ~22:5x ET (Will, *"go with your recommendations"*)** — D→85 on (a)/(b)/(c)/(d), non-triggers written; canonical letter `workbook/EXIT_PROTOCOL.md` §2; **ARMED, UNFIRED** |
-| **Class-(iii-A) sinking** — Iran/proxy sinks a NON-Iranian tanker | — | The event GATE 2 was priced on; proposed trigger (a) | 🟢 **n=0** (0 of ≥17 non-Iranian tanker hits have sunk); **under explicit IRGC threat** |
-| **IRGC/proxy hit on a merchant hull IN a GCC port/anchorage** | — | Gulf-state-territory targeting; proposed trigger (c) | 🟢 **Zero precedent in 193 days; class NAMED 9/8-9** (Kuwait/Bahrain warning). Watch Mina al-Ahmadi / Shuaiba / Sitra |
-| **FAL-05** (55%, → 10/7) — NEW confirmed crude/condensate loss | Expires CONFIRMED → regime call more robust | FIRES → crude leg broken, P→R complete; proposed trigger (b) | 🟢 **Unfired after 9/8**; routes (a)(b)(c) all tested. **Watch Kharg loadings after the Derya strike** (route c, new cause) |
-| **Second class-(iii) hull loss** (any of the five 9/8 hulls confirmed sunk, or a new one) | — | EXIT_PROTOCOL §5 rewrite trigger; (iii-B) = record + memo, no mark move pending L300 | 🟢 None confirmed — "destroyed" ≠ sunk |
-| **US strike tempo NIGHTLY** | — | D-indicator #3 first limb | ❌ Every 2–4 days (8/30 · 9/1 · 9/5 · 9/8) |
-| **Jazan restart CONFIRMED by Aramco** | Product leg reverts; R1 re-bases | (a re-strike on a restarted plant would be a NEW outage) | ❌ **Never confirmed**; struck again 9/7 + 9/8 |
-| **Dated Iran-Oman PERMANENT corridor** | Framework + DATE + verified reopening steps → B ≥15 | Window lapses / Iran-managed corridor rejected by the US → B stays ≤3 | 🟡 Interim 8/26; **window 9/25–10/26** (DOCKET L229); Rezaei: *"under Iran's management"* |
-| **GATE-FALCON-001 leg 2** — fresh enforcement-attributable step-down in Bab tanker transits (TankerMap like-for-like, ≥2 print-days) | Recovery holds | Fires → gate 3/3 | ❌ **OPEN, NOT FIRED**; `review_by 2026-09-14`; legs 1 (7/23) + 3 (8/15) FIRED, gate LIVE |
-| **Second, larger salvo at Yanbu / the Petroline** | Not attempted | Frame-breaker — 92% of Saudi seaborne crude; D-indicator #2 | 🟢 Unfired — the 9/7–9/8 salvos hit Jazan/Abha/Najran, ~700 km south |
-| **WC Saudi war-risk (0.1%)** | Flat → premium read intact | Rises → transit-to-origin migration = P→R | ⚠️ **UNGRADED 48 days** — no primary since 7/23; the in-port threat is the first class the corridor legs would price |
-| **Bypass integrity** (Fujairah+Sohar vs the ROLLING floor) | Holds | Collapse with transits still down → premium becomes supply-loss | 🟢 **HOLDING — 85,916 t/d vs 25,095** [run 9/8, print 8/28]; floor has moved 15,684 → 25,095 since July — read it from the run |
-| **Iraq/PMF damaging follow-on** | Standoff resolves | D-indicator #4 | 🟡 Quiet since 7/29 (CTP-ISW 9/7); **US withdrawal deadline 2026-09-30** |
-| **Iran internal stability** (gasoline hike 9/8) | Protests force a de-escalation turn | Protests → crackdown → external escalation as diversion | 🟡 Security deployed at stations; no protest wave reported 9/8 (HAW-06: cuts both ways) |
-| **A FIFTH belligerent axis** | — | Re-registration trigger (FAL-05 clause); not an exculpation | 🟢 Four axes live; Israel→Iran energy dormant, re-verified 9/8 |
+| **Production rung D 85→92** — counting-source-confirmed hostile strike on a Gulf-ally production-class facility | — | D → 92 (`EXIT_PROTOCOL` §2a) | 🟢 **ARMED, NOT FIRED.** Ras Tanura 10/27 = refinery/terminal = OUT-class; Shaybah 10/21 intercepted |
+| **Israel → Iranian energy strike** (Kan 10/29: request IF operations resume) | US withholds approval | The March path (South Pars → Ras Laffan): Iranian retaliation on Gulf-ally production fires D 85→92 | 🟡 Request reported (single source), no US answer; dormant since spring |
+| **FAL-07** (65%) — US offensive strike on Iran by 12/31 | Expires FAILED 1/2/2027 | Fires → kinetic channel reopens | 🟡 **NOT FIRED**; WH "not before the midterms"; WSJ/AP post-midterm campaign; third carrier |
+| **FAL-06** (70%) — no NET Gulf-ally crude loss to 11/05 | Expires CONFIRMED | Fires → crude barrel loss demonstrated | 🟢 Not fired; dated search ON 11/05 |
+| **Class-(iii-A) sinking** — Iran/proxy sinks a NON-Iranian tanker | — | The event the hard gate was priced on | 🟢 **n=0** — losses 6 are 2 dhows, 2 non-tankers, 2 Iranian tankers (US) |
+| **Sinokor enforcement** (PGSA, from 11/1) | Declaration not executed | Named-hull seizure → shipping vector; freight (FLOW-FALCON-05) | 🟡 ARMED |
+| **Permanent Hormuz corridor / Qatar 7-day plan** | Framework with a date + verified reopening → B up | Rejection / breakdown event → diplomacy 4 | 🟡 L229 lapsed 10/26; Iran reply to Qatar draft ~10/31, disputed |
+| **GATE-FALCON-001 leg 2** — Bab tanker step-down ≥35% | Holds | Gate 3/3 | ❌ NOT MET 10/29 (lowest ratio 80%); review 11/04; legs 1 + 3 FIRED, gate LIVE |
+| **A FIFTH belligerent axis** (EXIT §5 rewrite trigger) | — | Re-registration | 🟡 **Egypt authorised 10/26, not deployed, defensive-only**; Houthis call it "declaration of war" — NOT MET |
+| **Iran cuts Gulf undersea cables** (Reuters 10/23 threat, if attacked) | — | Cyber/data vector 2 → up | 🟢 Threat only; no incident found in October |
+| **Bypass integrity** | Holds | Collapse with transits still down | ⚠️ **DEGRADED** — Sohar series dropped upstream; Fujairah alone 90% of base (to 10/23) |
+| **Iraq/PMF** | Militias stand down | Damaging follow-on | 🟡 Drones surveilled US Embassy 10/27 (intercepted); US out of federal Iraq since 9/30 |
+| **WC Saudi war-risk** | — | Transit-to-origin migration | ⚠️ Lit 9/25 (~3%); all five rows EXPIRED; CANNOT-FIRE (WQ-298) |
 
 ---
 
 ## RESOLUTION MARKERS
 
-### What resolved (through 2026-09-08)
+### What resolved (through 2026-09-08) *(unchanged from the 9/08 regeneration)*
 | Event | Resolution |
 |---|---|
 | Apr 21 ceasefire-expiry deadline | **Did not produce the expected Phase-3 lapse** — an MOU-era lull held instead |
@@ -238,23 +287,35 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 | Attacker-identity axis (Will-approved 8/17) | **APPLIED 9/8** (prospective; base rate `KB-FALCON-142`) |
 | Hormuz baseline / hull double-count / clock-collision questions | Resolved 7/27 (88/day = TTM median; three hulls not six; local-time convention) |
 
+### What resolved (2026-09-09 → 2026-10-29)
+| Event | Resolution |
+|---|---|
+| D→85 trigger (c) on Hercules Star | **AMBIGUOUS, NOT FIRED** 9/10 |
+| Five 9/8 Iranian hulls — sunk? | **Riesco SUNK** (confirmed 9/10); the others not confirmed sunk |
+| Bab el-Mandeb lanes | **Houthis hold both lanes 9/14** (Mokha 9/10, Perim/Mayyun 9/11-13); government forces reportedly retook Perim ~10/9 (CTP) |
+| Petroline | **SHUT 9/11**; restart on unnamed sources 9/22; ~5.5-5.8 mb/d by 10/1-10/6 |
+| FAL-05 | **FAILED 9/28 on route (c)** (in fact by 9/17) ⇒ **D 75→85 FIRED; B 1 / C 14 / D 85** |
+| Production rung D 85→92 | **REGISTERED 10/1** (WQ-355) — armed, not fired |
+| US forces in federal Iraq | **Withdrawal complete 9/30** |
+| Iran-Oman permanent corridor (L229) | **LAPSED 10/26** — not verified as agreed |
+| Class-(ii) hull losses | **GFS PRIDE 10/13; CAPE DAO** (IMO "Sunk" 10/14, contested 10/21, confirmed 10/26) |
+| Loss census | **6** at 10/29 (dhow MSV QUBA) |
+| Casualty ratchet | **Rate-step RED**: recorded killed 24 (9/27–10/26) vs 7 (8/28–9/26), driven by the KKIA airport strike |
+| FAL-06 / FAL-07 | **Registered 10/1 and 10/21**; both open |
+
 ### What remains unresolved
-| Issue | Status 9/8 | Risk |
+| Issue | Status 10/29 | Risk |
 |---|---|---|
-| **A rung above D 75** | ✅ **RESOLVED 2026-09-08 ~22:5x ET — registered by Will** | (moved to the resolved table in spirit; kept here so the 9/8 line count reads the same) |
-| **Kuwait/Bahrain in-port tanker threat** | Declared 9/8-9; not executed; no official responses found | The first Gulf-state-territory targeting of third-party shipping; first class Western war-risk would reprice |
-| **Five 9/8 hulls — sunk or afloat?** | "Rendered inoperable"; none confirmed sunk | A confirmed sinking = second class-(iii) → EXIT_PROTOCOL rewrite |
-| **Kharg loadings after the Derya strike** | Terminal damage not reported; loadings unverified on dark-immune routes | FAL-05 route (c) with a new cause |
-| **Jazan restart** | Never confirmed; struck again twice | R1's basis; a restart followed by a re-strike would be a NEW outage |
-| Hormuz mine clearance | Lanes cleared late Aug; Larak minelaying party struck 8/30; no detonation on a hull | Re-mining / hard-gate risk |
-| Insurance | 7.5-10%/hull, **48 days stale**; Iranian half structurally unwritten | D-indicator #8 blind; D→75 trip's insurance leg never measured |
-| Iran-Oman permanent corridor | Window 9/25–10/26; *"under Iran's management"* | B's only flip-up path |
-| Iraqi militias | Quiet since 7/29; **9/30 US withdrawal deadline** | Fourth axis; a damaging follow-on |
-| Iran internal stability | Gasoline price doubled 9/8 under security deployment | 2019 trigger class; cuts both ways |
-| Saudi-Houthi front | Re-ignited on land 9/7–9/8; Yanbu/Petroline unfired | The frame-breaker sits 700 km north of the current salvo line |
-| Shuttle-run / Iranian export magnitude | No hulls-to-barrels series anywhere; Kharg AIS impeached | ⓸ is unquantified by construction |
-| Minoan Pioneer third engineer | Missing since 8/3; no resolution found 9/8 | Casualty ledger integrity |
-| Iran nuclear program | Unresolved | Israel unilateral risk (axis dormant, re-verified 9/8) |
+| US strike renewal after 11/3 | Posture only; WH 10/22 "not before the midterms" | FAL-07; Israeli energy-target request rides on it |
+| Net Gulf crude loss | Not demonstrated; IEA Sept exports >75% pre-war | FAL-06 resolves 11/05 |
+| Sinokor from 11/1 | Declaration | First fleet-wide administrative enforcement |
+| Qatar draft deal | Reply expected ~10/31; disputed as "unacceptable" | Diplomacy vector |
+| Egypt's role | Authorised, not deployed | Fifth-axis watch |
+| IRGC mine claims (10/17, 10/20, 10/22, 10/29) | None confirmed on a named hull; CENTCOM says routes cleared | A confirmed detonation = hard-gate class |
+| Ras Tanura 10/27 | Claim only; no operator statement | OUT-class, but a confirmed terminal outage is FLOW-FALCON-04 |
+| Qatar LNG | FM to end-December; partial transits since 9/28 | The one sustained supply loss (VX-FALCON-GASLNG-01) |
+| Insurance | All rows expired; no matched October quotes | CANNOT-FIRE |
+| Iran internal stability / nuclear | Unresolved | Israel axis |
 
 ---
 
@@ -269,11 +330,14 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 | **Ceasefire / lull** | Apr 13 – Jun 26 | 45-119 | MOU era; **May 4 Fujairah + Jun 11 closure decoupling** |
 | **Post-MOU cycle** | Jun 27 – Jul 23 | 120-146 | Bases-and-ships, blockade, 13 strike nights, **zero production hits** |
 | **Pause + third belligerent** | Jul 24 – Jul 29 | 147-152 | US-Iran paused; **Saudi-Houthi opens** (Jazan 7/25); Iraqi militias enter (Abqaiq 7/27); one heavy wave 7/29 |
-| **The long pause** | Jul 30 – Aug 29 | 153-183 | 32 strike-free nights; Kharg halted 7/18→8/12 under the blockade; vessels not facilities (dhow sunk 8/4; Tihamah 8/12); MOU expires 8/17; leg 3 fires 8/15; Oman interim framework 8/26 |
-| **The campaign** | Aug 30 – Sep 4 | 184-189 | Larak 8/30 · wave 2 9/1; Jordan salvos; two laden Saudi VLCCs hit off Khasab 8/31 |
-| **Tanker war + southern salvo** | Sep 5 – present | 190-**193** | Kylo SUNK 9/5 (GATE 2 fires); 8 Iranian hulls by 9/8; Houthi salvo on four Saudi cities 9/8; IRGC in-port tanker threat; ladder rail-capped at D 75 until the D→85 rung was registered 2026-09-08 ~22:5x ET |
+| **The long pause** | Jul 30 – Aug 29 | 153-183 | 32 strike-free nights; Kharg halted 7/18→8/12; dhow sunk 8/4; MOU expires 8/17; Oman interim framework 8/26 |
+| **The campaign** | Aug 30 – Sep 4 | 184-189 | Larak 8/30 · wave 2 9/1; two laden Saudi VLCCs hit off Khasab 8/31 |
+| **Tanker war + southern salvo** | Sep 5 – Sep 8 | 190-193 | Kylo SUNK 9/5; 8 Iranian hulls by 9/8; Houthi salvo on four Saudi cities; D→85 rung registered |
+| **The pipeline and the strait** | Sep 9 – Sep 27 | 194-212 | Petroline hit and shut 9/11; Yanbu dark ≥72 h; Houthis hold both Bab lanes 9/14; Cape Dao struck 9/23 |
+| **D 85 and the hull war** | Sep 28 – Oct 21 | 213-236 | FAL-05 FAILED → D 85; FAL-06 + production rung registered; 12 UKMTO warnings in 5 days; KKIA 12 killed; GFS PRIDE + Cape Dao sunk; ordered departure from Saudi |
+| **Posture before the midterms** | Oct 22 – present | 237-**244** | No US strike; L229 lapses; Sinokor declaration; Egypt authorisation; post-midterm campaign reporting; dhow QUBA sunk |
 
-**Current: War Day 193** (2026-09-08; computed from Feb 28 = Day 1, not asserted). **Tanker-war Day 4.**
+**Current: War Day 244** (2026-10-29; computed from Feb 28 = Day 1, not asserted — GlobalSecurity labels 10/27 Day 242, consistent).
 
 ---
 
@@ -294,6 +358,10 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 7. **A hull is not a barrel, and the war's most escalatory single event moved zero barrels.** The US sank an EMPTY sanctioned Iranian tanker after evacuating its crew, the hard gate fired on its letter, and every supply metric on the desk stayed where it was. **The gate that fired was written for an Iranian missile on a laden GCC VLCC; the event that fired it was the mirror image** — which is why the attacker axis now exists.
 
 8. **A rail with no rung above its mark converts a week of escalation into a zero.** Eight hulls, four burning Saudi cities, a threat to tankers in port and Brent at $99 produced no registered movement, because D sat at Will's absolute 75 with nothing above it and seven of ten convergence vectors were at ceiling. **Hold the mark, name the cap, base-rate the rung, propose it — never self-apply one mid-event.**
+
+9. **A route loss is not a barrel loss — and the letter can fail while the composition holds.** The Petroline was hit and shut (9/11) and Yanbu went dark for ≥72 h, so FAL-05 FAILED on its route-(c) letter and D stepped to 85 — while Saudi exports re-routed through Hormuz and the IEA measured September Gulf crude exports at **>75% of pre-war**. Both statements are true at once; carry them together (THESIS v3.0).
+
+10. **From September the war moved onto ships and airports, not the oil fields.** Twelve UKMTO attack warnings in five days (10/9-13), two non-tanker merchant ships and a second dhow sunk, and the casualty step came from **Riyadh's airport (12 killed, 309 injured, 10/10)** — while the production rung stayed unfired. The registered ladder watches facilities; the losses arrived through hulls and civil infrastructure.
 
 ---
 
