@@ -1,0 +1,291 @@
+EMBARGOED UNTIL RELEASE AT 8:30 a.m. EDT, Thursday, October 29, 2026 
+
+BEA 26–45 
+
+Technical: 
+Media: 
+
+Lisa Mataloni (GDP) 
+Connie O’Connell 
+
+301-278-9083 
+301-278-9003 
+
+GDPNIWD@bea.gov 
+Connie.OConnell@bea.gov 
+
+GDP (Advance Estimate), 3rd Quarter 2026 
+
+Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 
+2026 (July, August, and September), according to the advance estimate released today by the U.S. 
+Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. 
+
+Real GDP, Percent Change From Preceding Quarter
+
+Seasonally adjusted annual rates
+
+5.0
+4.0
+3.0
+2.0
+1.0
+0.0
+
+Q2
+
+Q3
+
+2025
+
+Q4
+
+Q1
+
+Q2
+
+2026
+
+Q3
+
+GDP Gross domestic product
+U.S. Bureau of Economic Analysis
+
+The contributors to the increase in real GDP in the third quarter were increases in investment, consumer 
+spending, and government spending that were partly offset by a decrease in exports. Imports, which are 
+a subtraction in the calculation of GDP, increased. For more information, refer to the "Technical Notes" 
+below. 
+
+Contributions to the Percent Change in Real GDP, 2026:Q3
+Real GDP increased 3.4 percent
+
+Percentage points
+Seasonally adjusted annual rates
+
+4.00
+3.00
+2.00
+1.00
+0.00
+– 1.00
+– 2.00
+– 3.00
+
+Real GDP,
+percent change
+
+Consumer spending
+
+Investment
+
+Government
+
+Exports
+
+Imports
+
+GDP Gross domestic product
+Note. Imports are a subtraction in the calculation of GDP. An increase in imports results
+in a negative contribution to GDP, and a decrease in imports results in a positive contribution to GDP.
+U.S. Bureau of Economic Analysis
+
+ 
+ 
+ 
+ 
+ 
+Compared to the second quarter, the acceleration in real GDP in the third quarter primarily reflected an 
+acceleration in investment and an upturn in government spending that were partly offset by a downturn 
+in exports. Imports increased more in the third quarter than in the second quarter.  
+
+Real final sales to private domestic purchasers, the sum of consumer spending and gross private fixed 
+investment, increased 4.9 percent in the third quarter, compared with an increase of 4.6 percent in the 
+second quarter. 
+
+The price index for gross domestic purchases increased 3.0 percent in the third quarter, compared with 
+an increase of 5.6 percent in the second quarter. The personal consumption expenditures (PCE) price 
+index increased 2.1 percent, compared with an increase of 5.0 percent, and the PCE price index, 
+excluding food and energy increased 2.5 percent, compared with an increase of 3.3 percent. 
+
+Percent change
+Seasonally adjusted annual rates
+
+Quarter-to-Quarter  Change in Prices
+
+6.0
+
+5.0
+
+4.0
+
+3.0
+
+2.0
+
+1.0
+
+0.0
+
+Q2
+
+Q3
+
+2025
+
+Q4
+
+Q1
+
+Q2
+
+2026
+
+Q3
+
+Gross domestic purchases price index
+
+PCE price index
+
+PCE, excluding food and energy
+
+PCE Personal consumption expenditures
+U.S. Bureau of Economic Analysis
+
+Real GDP and Related Measures 
+[Percent change (SAAR) from 2026:Q2 to 2026:Q3] 
+
+Real GDP 
+Current-dollar GDP 
+Real final sales to private domestic purchasers 
+Gross domestic purchases price index 
+PCE price index 
+PCE price index, excluding food and energy 
+
+SAAR  seasonally adjusted at annual rates 
+U.S. Bureau of Economic Analysis 
+
+Advance estimate 
+3.4 
+5.6 
+4.9 
+3.0 
+2.1 
+2.5 
+
+Page 2 of 6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+For definitions, statistical conventions, updates to GDP, and more information about national 
+statistics, visit “Additional Information.” 
+
+Next release: November 25, 2026, at 8:30 a.m. EST 
+GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026 
+
+The full release schedule for 2027 is available on BEA's website. 
+
+Page 3 of 6 
+
+ 
+ 
+ 
+ 
+ 
+Sources of change for real GDP 
+
+Technical Notes 
+
+Real GDP increased at an annual rate of 3.4 percent (0.8 percent at a quarterly rate1) in the third 
+quarter, reflecting increases in investment, consumer spending, and government spending that were 
+partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, 
+increased. 
+
+More information on the source data and BEA assumptions that underlie the third-quarter estimate is 
+shown in the key source data and assumptions table. 
+
+•  The increase in investment primarily reflected increases in private inventory investment and in 
+
+equipment. 
+
+o  The largest contributors to the increase in private inventory investment were wholesale 
+trade and manufacturing (both led by nondurable goods industries), based primarily on 
+Census Bureau inventory book value data. 
+
+o  Within equipment, the increase was led by information processing equipment (mainly 
+computers and peripheral equipment), based primarily on data for imports from the 
+U.S. Census Bureau-BEA U.S. International Trade in Goods and Services report and the 
+Census Bureau Advance Economic Indicators Report for September. 
+
+•  The increase in consumer spending reflected increases in both services and goods. 
+
+o  Within services, the increase was led by health care (mainly hospitals and outpatient 
+services), based primarily on U.S. Bureau of Labor Statistics’ Current Employment 
+Statistics, and food services and accommodations (mainly purchased meals and 
+beverages), based on Census Bureau Monthly Retail Trade Survey (MRTS) data.  
+
+o  Within goods, the increase was led by other nondurable goods (mainly prescription 
+
+drugs), based on Census Bureau MRTS data.  
+
+•  Within government spending, the increase was more than accounted for by federal government 
+spending, led by nondefense consumption expenditures. The pattern of nondefense spending 
+primarily reflected sales of crude oil from the Strategic Petroleum Reserve, based on data from 
+the U.S. Department of Energy. Within the National Economic Accounts, sales are deducted 
+from government consumption expenditures. In the third quarter, sales from the Strategic 
+Petroleum Reserve were less than sales in the second quarter, resulting in an increase in 
+consumption expenditures. Because the oil sold by the government is reflected as an increase in 
+other components of GDP, there is no direct effect on GDP.  
+
+1. Percent changes in quarterly seasonally adjusted series are displayed at annual rates, unless otherwise specified. For mor e 
+information, refer to the FAQ “Why does BEA publish percent changes in quarterly series at annual rates?”.   
+
+Page 4 of 6 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+•  Exports and imports primarily reflected Census Bureau-BEA U.S. International Trade in Goods 
+and Services data as well as the Census Bureau Advance Economic Indicators Report for 
+September. The decrease in exports primarily reflected a decrease in goods (led by petroleum 
+and related products). The largest contributor to imports was capital goods, except automotive.  
+
+Page 5 of 6 
+
+ 
+ 
+ 
+Related Data  Tables 
+
+For the estimates highlighted in this release, as well as historical time series for these estimates, see the 
+following data tables in BEA’s Interactive Data Application.  
+
+Table 1.1.1. Percent Change From Preceding Period in Real Gross Domestic Product 
+Table 1.5.2. Contributions to Percent Change in Real Gross Domestic Product, Expanded Detail 
+Table 1.4.1. Percent Change From Preceding Period in Real Gross Domestic Product, Real Gross Domestic 
+Purchases, and Real Final Sales to Domestic Purchasers 
+Table 1.6.7. Percent Change From Preceding Period in Prices for Gross Domestic Purchases 
+
+Note. With the next release of GDP, today’s data will be superseded, and the links above will reflect the 
+latest data. The original data featured in this release can then be accessed in BEA’s Data Archive. 
+
+Page 6 of 6 
+
+ 
+ 
+ 
+ 
+ 
+

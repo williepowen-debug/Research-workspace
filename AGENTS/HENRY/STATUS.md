@@ -4,7 +4,7 @@
 
 ## VIEW
 
-**The October 28 FOMC (held 3.75–4.00%, 10–2, Cook and Hammack dissenting FOR a hike) moved the long end, not equities.** Treasury par 10/28 vs 10/27: 2Y 4.67% (−3bp), 10Y **5.05% (+6bp)**, 30Y 5.37% (+7bp), so 2s10s steepened 29 → 38bp and **the 10Y is back over its 5.0% red line** (ORANGE → RED). The vendor 10Y index rose about +2bp before 14:00 ET and about +2.5bp after, so the decision is at most half the day's move on that clock; attribution is BOND's. **Equities ignored the hawkish split:** SPX 7,738 at 13:55 ET → 7,743.98 close (+0.28% day), post-statement range 7,722–7,758; VIX fell to 16.91. **Dealer gamma is POSITIVE at both horizons again** (flip band 7,734–7,738, spot only 6–10 points above), after the put wall **broke on the 10/23 close** (SPX 7,623.68, 26 points under the 7,650 wall published 10/22; graded late tonight, no HENRY session that day). Credit answered the 10/22 selloff by widening (HY 327 → 340bp, CCC 1,307 → 1,356bp [10/22–10/23]) and has since retraced (HY 318bp, CCC 1,321bp [FRED 10/27]); **HY is under its 320 yellow line on one observation.** **L774 expectation frozen before the print** (below): core PCE September at +0.3% rounded, i.e. the >0.3% hot line NOT expected to fire. No probability, threshold, prediction or trade changed.
+**The October 28 FOMC (held 3.75–4.00%, 10–2, Cook and Hammack dissenting FOR a hike) moved the long end, not equities.** Treasury par 10/28 vs 10/27: 2Y 4.67% (−3bp), 10Y **5.05% (+6bp)**, 30Y 5.37% (+7bp), so 2s10s steepened 29 → 38bp and **the 10Y is back over its 5.0% red line** (ORANGE → RED). The vendor 10Y index rose about +2bp before 14:00 ET and about +2.5bp after, so the decision is at most half the day's move on that clock; attribution is BOND's. **Equities ignored the hawkish split:** SPX 7,738 at 13:55 ET → 7,743.98 close (+0.28% day), post-statement range 7,722–7,758; VIX fell to 16.91. **Dealer gamma is POSITIVE at both horizons again** (flip band 7,734–7,738, spot only 6–10 points above), after the put wall **broke on the 10/23 close** (SPX 7,623.68, 26 points under the 7,650 wall published 10/22; graded late tonight, no HENRY session that day). Credit answered the 10/22 selloff by widening (HY 327 → 340bp, CCC 1,307 → 1,356bp [10/22–10/23]) and has since retraced (HY 318bp, CCC 1,321bp [FRED 10/27]); **HY is under its 320 yellow line on one observation.** **L774 graded after the 08:30 ET print (10/29): core PCE September +0.3% m/m (unrounded +0.32%), 3.1% y/y ⇒ the >0.3% hot line did NOT fire, as frozen before the print.** Headline +0.5% / 3.6% on energy; Q3 real GDP +3.4% annualized, GDP price index +2.2%. First reaction: a small bond rally, no equity move. No probability, threshold, prediction or trade changed.
 
 ## DOCKET L773 — FOMC OCTOBER 28 READ (2026-10-29 00:3x ET)
 
@@ -28,13 +28,41 @@
 3. **MATERIAL DIFFERENCE:** none measurable against an expectation, because none was recorded. Against the threshold states, the 10Y crossed ORANGE → RED on the day; the 2Y stayed RED; no equity line moved.
 4. **REVISED BELIEF:** no meaningful change to HENRY's marks. The 10Y red state is a return, not a new regime: par closed above 5.0 on 9/16, 9/18 and every session 9/23–10/21 (Sep–Oct high 5.31 on 10/5, same CSV); equities are not trading the hawkish split as a growth threat on day one.
 
-## DOCKET L774 — FROZEN EXPECTATION FOR THE 08:30 ET PRINT (recorded 2026-10-29 00:3x ET, before the release)
+## DOCKET L774 — CORE PCE SEPTEMBER GRADED: NOT FIRED (BEA 26-46, 08:30 ET 10/29; graded 09:0x ET 10/29)
+
+| Line | Frozen before the print (commit 80824f14d, 00:1x ET) | BEA published one-decimal | Grade |
+|---|---|---|---|
+| Core PCE m/m > 0.3% = hot | NOT FIRED at +0.3% rounded (Cleveland Fed nowcast +0.28%) | **+0.3%** September (August 0.3 as revised) | **NOT FIRED.** Expectation met |
+
+**Beside the grade, not graded:** FRED `PCEPILFE` (current vintage, pulled 09:02 ET) 130.489 → 130.902 = **+0.3165%** m/m, 0.034pp under the 0.35 rounding edge. The nowcast (+0.28%) undershot the print by about 0.04pp, in the hot direction.
+
+| Context (BEA 26-46 Personal Income and Outlays; BEA 26-45 GDP advance) | September / Q3 | Prior | Source |
+|---|---|---|---|
+| Headline PCE price m/m | **+0.5%** (unrounded +0.49%) | August 0.3 (revised +0.32% unrounded, was +0.31%) | BEA release table; FRED `PCEPI` vs ALFRED vintage 10/28 |
+| Headline PCE price y/y | **3.6%** (unrounded 3.65%) | August 3.42% (KB ML-HEN-176) | BEA; FRED |
+| Core PCE price y/y | **3.1%** (unrounded 3.12%) | August 3.01% (KB ML-HEN-176) | BEA; FRED |
+| Core m/m path, unrounded, current vintage | Jul +0.14% · Aug +0.26% · **Sep +0.32%**; 3-month annualized 2.90% | Jul was +0.13%, Aug was +0.25% (vintage 10/28): **both revised up about 0.01pp** | FRED / ALFRED |
+| Income and spending, September | Personal income +0.2%; real disposable income −0.3%; nominal PCE +0.5%; real PCE 0.0% (BEA: "less than 0.1 percent"); saving rate 3.8% | August real PCE +0.5%, real DPI 0.0 | BEA release table |
+| Real GDP, Q3 advance (SAAR) | **+3.4%** | Q2 +2.2% | BEA 26-45 |
+| GDP price index, Q3 (SAAR) | **+2.2%** | Q2 +6.1% | FRED `A191RI1Q225SBEA` (BEA NIPA table 1.1.7; the figure is not on the release page) |
+| Q3 PCE price / core (SAAR) | 2.1% / 2.5% | Q2 5.0% / 3.3% | BEA 26-45 |
+| Final sales to private domestic purchasers (SAAR) | 4.9% | Q2 4.6% | BEA 26-45 |
+| Revisions BEA names | July and August personal income (revised BLS payroll data) and personal interest income; July–August PCE price levels revised up (above) | — | BEA technical note |
+
+**First reaction, before the cash open (vendor 5-minute bars, `research/2026-10-29_L774/premarket_0830_bars.txt`):** ES December 7,755.25 (bar ending 08:30) → 7,751.00 (08:50), about −4 points; vendor 10Y index 5.026 → 5.001 (08:40) → 5.011 (08:50), about −1.5 to −2.5bp; 10-year note future +3/32. **A small bond rally and no equity move: the market read an in-line core.** Post-open read: § POST-PRINT READ below.
+
+**Read (interpretation):** in line, not hot, so no HENRY line fires and no mark moves. Two things the one-decimal grade hides: the monthly core path has risen three months running (0.14 → 0.26 → 0.32 unrounded), so momentum into the fourth quarter is warmer than the quarter's 2.5% annualized average; and the headline +0.5% is the energy leg (headline minus core about 0.17pp). Core y/y ticked up 3.0 → 3.1. Growth is strong (3.4% real GDP, private domestic final sales 4.9%) while real disposable income fell 0.3% and the saving rate is 3.8%: spending is outrunning income. **Consensus: none recovered**, so the comparison is to the frozen nowcast only. Experiment A cells are not called for: the L833 trial's three events are ARCC, FOMC and HTGC.
+
+**The frozen record, kept verbatim (00:3x ET, before the release):**
+
 
 | Line (`domain/ECON_CALENDAR.md`) | Grading rule, fixed now | Expectation | Source of the expectation |
 |---|---|---|---|
 | Core PCE m/m > 0.3% = hot | Graded on BEA's published one-decimal September core PCE m/m: **0.4 or higher = FIRED; 0.3 or lower = NOT FIRED.** The unrounded figure from FRED `PCEPILFE` is recorded beside it, not graded | **NOT FIRED: +0.3% rounded** (nowcast +0.28%), y/y about 3.05% | Cleveland Fed inflation nowcast, September 2026 row, updated 10/28: core PCE **+0.28% m/m**, **3.05% y/y**; headline PCE +0.47% / 3.60% (raw HTML cells verified, `research/2026-10-29_L773/src/clevelandfed_nowcast_page.html`) |
 
 ⚠️ **The nowcast sits 0.02pp under the rounding edge** (0.35 rounds to 0.4), so a FIRED print is a near miss, not a surprise. Inputs on file: September core CPI +0.3% m/m, PPI final demand +1.3% (KB ML-HEN-178/179). **No consensus panel was recovered** (one web search, no 2026 preview found). GDP advance Q3 carries no HENRY line; LABOR owns the release's labor cells. **The grade is a later touch** (PROME re-spawns at the print).
+
+⚠️ **Correction to the frozen caveat above (09:0x ET, after the print; the rule and the expectation are unaffected):** "0.02pp under the rounding edge" is wrong arithmetic. The edge for a one-decimal 0.4 is 0.35, and the nowcast 0.28 sat **0.07pp** under it (0.02pp is its distance to 0.30, which is not a rounding edge). The same "0.02" figure was carried into DOCKET L774's state cell and the 00:4x memo; PROME told in the 10/29 memo.
 
 ## GEX / GAMMA REGIME — POST-BREAK READ, OCTOBER 28 CLOSE (gamma `--both` 00:08 ET 10/29)
 
@@ -84,7 +112,7 @@ Vendor observations, **not Cboe-published closing certification**. VIOLET owns t
 | ISM manufacturing employment | 52.7 [ISM Sep] | <47 / <45 / <43 | NOT FIRED |
 | ISM manufacturing prices | 77.9 [ISM Sep] | >60 / >70 / >75 | RED observation |
 | PPI FD m/m | +1.3% [BLS Sep, 10/15] | >0.4 / >0.5 / >0.6 | RED observation |
-| Core PCE m/m | Sep prints 10/29 08:30 | >0.3 hot | PENDING; expectation frozen above (NOT FIRED, +0.3) |
+| Core PCE m/m | **+0.3% [BEA Sep, 10/29]** (unrounded +0.32%) | >0.3 hot | **NOT FIRED** (L774 graded; matched the frozen expectation) |
 | VIX | 16.91 [vendor 10/28] | >23 / >28 / >30 sustained | NOT FIRED (6.09 below 23) |
 | SPX | 7,743.98 [vendor 10/28] | <7,200 / <7,100 / <6,494 | NOT FIRED (544 above 7,200); gamma POSITIVE both; put wall withheld |
 | KRE | $72.11 [vendor 10/28] | <$65 / <$62 / <$60 | NOT FIRED |
@@ -99,7 +127,7 @@ Vendor observations, **not Cboe-published closing certification**. VIOLET owns t
 
 ## CROSS-DESK / CATALYST STACK / GAPS
 
-- **Next registered HENRY wake:** DOCKET **L774** grade at the 08:30 ET print today (expectation frozen above). Then ECI 10/30 (LABOR), BOJ 10/30, Russian №1252 producer restriction expiry 10/31 (DOCKET L771), ISM manufacturing 11/2 (ISHM), NFP 11/6, CPI 11/10, PPI 11/13.
+- **DOCKET L774 graded 10/29 09:0x ET: NOT FIRED** (core PCE +0.3%). No further registered HENRY wake today. Next: ECI 10/30 (LABOR), BOJ 10/30, Russian №1252 producer restriction expiry 10/31 (DOCKET L771), ISM manufacturing 11/2 (ISHM), NFP 11/6, CPI 11/10, PPI 11/13.
 - **AAL guide conflict (BRENT 10/23) resolved at the primary:** American's Q3 exhibit 99.1 (saved `research/2026-10-22_L769/src/aal-q3-ex99.htm`) lists **FY 2026E adjusted loss per diluted share ($1.60)–($1.00)** and Q4 ($1.10)–($0.50); BRENT's −$0.65 to +$0.65 is not in that exhibit and is the earlier guide per HENRY's 10/22 record. HEN-46's F4 disposition (not raised) stands. Packet to BRENT.
 - **F1 crack (BRENT 10/28):** December diesel crack on HENRY's window basis $93.96 [10/27] / $93.06 [10/28], below 95 (BRENT estimate, vendor one-minute bars). HEN-46 is RESOLVED, so nothing of HENRY's grades on it; held-VLO is TERRY's card.
 - **WQ-507 encoded:** charter trigger and threshold rows now point to ISHM (this session's commit). **WQ-508 (DAEDALUS):** lines already applied by DAEDALUS in 4da79f1ee, read and accepted, nothing contested.
