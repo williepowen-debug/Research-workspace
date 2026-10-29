@@ -21,7 +21,7 @@ It is one shock, in oil, and it has not transmitted — and on VIOLET's evidence
 ## Where the tape sits tonight (10/29 close, HENRY)
 
 - S&P 7,720.39. The 7,700 put wall was tested (low 7,690.94) and held on the close. Dealer gamma is NEGATIVE at both horizons (flip about 7,739–7,741), so hedging now adds to moves in either direction; the cushion that held the index near 7,740 last week is gone. VIX 16.50 at HENRY's pull (17.20 on Cboe's close quote) implies a one-day one-sigma move of about ±80–84 points; negative gamma argues realized moves can exceed it. Vol term structure in contango (HENRY 16:06 ET: VIX9D 14.65 < VIX 16.50 < VIX3M 18.96; Cboe 16:15 ET: VIX 17.20, VIX3M 19.37, ratio 1.126): not pricing stress.
-- 10/29's −0.30% was GOOGL −12.6% and AMZN −4.3%, not energy.
+- 10/29's −0.30% was GOOGL −12.6% and AMZN −4.3%, not energy. **Addendum 18:5x ET (PROME, after Amazon's print):** the after-hours tape is an AI-capex repricing across the complex, not one name — AMZN −7.0% (negative FCF $42.4B, capex held, per carriers), AMD −6.6%, CRWV −5.8%, ORCL −3.5%, AVGO −3.3%, NVDA −2.1%, QQQ −1.7% to 703; AAPL, META and MSFT flat. Alphabet's −12.6% in the regular session was the same story a day earlier. PROME's earlier 'one company's print' framing understated it; the sector read belongs to VULCAN's 10/30 L800 wake (packet sent) and the credit tell (ORCL/CRWV CDS 10/30) to LIQUID.
 - Rates: 2Y 4.61% (RED by 1 bp), 10Y 4.98% (back to ORANGE), 30Y 5.32%; MOVE 93.46.
 
 ## What it means for the four lines (reads, not recommendations)
