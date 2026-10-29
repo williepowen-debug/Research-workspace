@@ -1,11 +1,12 @@
-# BROCK SCRATCH — October 25 documentation closeout
+# BROCK SCRATCH — 2026-10-28 late-evening owed-reads catch-up
 
-Will requested a pause to document and close out, then continue in a fresh session. Research and workbook reconciliation are complete. Start with STATUS.md standing obligations, catchups/2026-10-25.md, workbook/RESEARCH_INDEX.md, then research/2026-10-25_closeout/HANDOFF.md. Boot normally and verify root/local instructions for the actual runtime; do not redo completed research after reset.
+Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-10-28.md`.
 
-Read: named borrower stress, with useful HTGC transaction leads. Systematic HTGC under-marking, intent to conceal, and a current bank funding crunch are unproven. Six-SOI rerun DONE; former six-manager ±1.4 claim withdrawn. Original FSK convention differs from the USD-only screen. Annex's overdue par tranche is disclosed as nonaccrual/workout; recovery rights unknown. Annex sale/workout and Simon transaction proceeds are possible next investigations, not newly commissioned studies. Suzy financing amount unknown; critical report and derivative complaint are not independent corroborations.
+**Done this session:** L741 CRMT backstop #5 SILENT · ARCC Q3 read (WQ-511 guide NOT MET, Experiment A cells recorded, PROME consumed) · OCIC Q3 final 29.8% ⇒ GATE-BRK-R2 (b) NOT FIRED · BRK-22 RESOLVED-FALSE · ARCC–MFIC merger logged (KB-396) and routed to WALTER · 28 WALTER signals processed · 2 correction receipts · KB-393–402.
 
-WQ524 BROCK support DONE; LIQUID final First Brands/SPV/WAL case accepted and complete at PROME (2ed79e13b), L840 resolved. No final-memo support debt remains. Historical bank loss does not establish early warning or a current squeeze. KB385 and index point to final owner/acceptance records.
+**Next-boot first moves:**
+1. **HTGC Q3 (Thu 10/29 AMC, L827):** run `research/2026-10-23_bdc-software-exposure/scripts/soi.py HTGC <html> <xml> 2026-09-30 <out>`, then the metrics.py logic with the 9/30 CUT. The CUT is the row of the first SOI total ("total investments before cash" for HTGC), found by the row scan used for ARCC (see `research/2026-10-28_q3-reads/README.md`). Grade the three-part falsifier (≥97% cost / ≤1.0% NA cost / ≥$12.15 NAV), then the HTGC Experiment A cells, then stop. Packet TERRY + PROME.
+2. **Fri 10/30:** CRMT eighth bridge (L794) after ~16:30 ET plus Mon 11/02 AM; CABO L795; DAEDALUS asks still open (R2 post-fire rule per vehicle, BDC median NAV discount refresh, BRK-11/18/25/26 search instrument, Medallia → REGINALD).
+3. **Sat 10/31:** GATE-BRK-R2 review (mine).
 
-ARCC 10/27 and HTGC 10/29 reads remain due; preserve original Experiment A EXPECTED and FV/COST falsifier, then record observed/difference/revised belief and stop. CRMT 10/28, 10/30 after ~16:30 ET + 11/02 AM; CABO 10/30; R2 review 10/31; FSK 11/05 BMO; GBDC 11/17 AMC. Full dates, old debts, gates and thresholds remain in STATUS/docket. Convergence 58/70 unchanged. PUBLISHED CCC/BB 6.57 and gap 1125 are October20 observations, not current quotes.
-
-This closing thread: OpenAI/Codex 01a173ad-f2ce-7f91-ab8d-46e6f76330c0; exact model UNKNOWN. No helpers/spawns. Current PROME thread 01a1747f-1d92-7d11-bd17-f3d4f9c9c5d8; LIQUID replacement01a17495-c27a-7eb0-82c6-38f6992424d7; old LIQUID thread stopped, do not wake. Foreign work must remain untouched; no pull/rebase into the shared dirty tree. Closeout packet and current catch-up carry verification receipts; this file does not claim a fresh session was launched.
+**Thread notes:** EDGAR JSON needs `curl --compressed` with a UA header; scratch helpers (edgar.sh/doc.sh) lived in this session's scratchpad and are not kept. VULCAN asks still open: SpaceX closing conditions, recourse and residuals; Anthropic drawn vs drawable.

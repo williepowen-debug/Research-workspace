@@ -1,10 +1,11 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-10-25.md` (completed research, workbook reconciliation and fresh-session handoff; full earlier narrative preserved in `archive/2026-10-25_catchup_before-closeout.md`; no score change).
+**CURRENT:** `catchups/2026-10-28.md` (owed-reads catch-up: L741 SILENT · ARCC Q3 guide NOT MET + Experiment A cells · OCIC final R2 (b) NOT FIRED · BRK-22 RESOLVED-FALSE · ARCC–MFIC · 28 WALTER signals; no score change).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
 ## Superseded catch-ups
+- `catchups/2026-10-25.md` (completed research, workbook reconciliation and fresh-session handoff; full earlier narrative preserved in `archive/2026-10-25_catchup_before-closeout.md`; no score change).
 - `catchups/2026-10-23.md` (WQ-511 software-exposure delivery; drain 17/17).
 - `catchups/2026-10-22.md` (PROME due-row wake WQ-481: L740 GRADED — eighth CRMT bridge to Sun 11/01 with $5.0M senior new money · L652 FINAL NOT SILENT · L743 CABO read early, Graham exit · R2 unchanged · drain 12/12 · STATUS rotated under 70%).
 - `catchups/2026-10-21.md` (PROME due-row wake: D:L652 CRMT backstop #4 SILENT through 08:56 ET, PROVISIONAL, final at the L740 read · CRMT −26% 10/20 no filing · CABO Graham 13D/A 10/19 · drain 23/23).

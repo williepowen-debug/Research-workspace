@@ -305,3 +305,31 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-25T16:56:20-04:00	SIG-W-20261025-025	noted	INBOX_WALTER	Primary-basis follow-up to010: combined direct non-option share counts fell26.217%, filed values24.050% across the specified basket; raw shares are not economic weights. Two H1 snapshots do not identify October flows, private vehicles/net commitments or credit losses. No new study or score change.
 2026-10-25T16:56:20-04:00	SIG-W-20261025-029	info-only	INBOX_WALTER	Meta FCF definitions reconcile through finance-lease principal; source-definition note only, no demonstrated private-credit funding failure. VULCAN domain; no independent BROCK stress vote.
 2026-10-25T16:56:20-04:00	SIG-W-20261025-031	info-only	INBOX_WALTER	Follow-up to018: September versus July gross AI-CDS volume basket recovered from secondary relay; original methodology unavailable. Not October activity, net protection or spread widening. No independent stress vote.
+2026-10-28T23:40:08-04:00	SIG-W-20261026-001	acted	INBOX_WALTER	Meta ~$35B launched ($22.5B forward common, settles by 2027-11-19 + $12.5B mandatory-convertible pref); $60B ATM unagreed; supplier interest nonbinding. Folded to KB as equity/pref, not cash debt (VULCAN ask).
+2026-10-28T23:40:08-04:00	SIG-W-20261026-002	acted	INBOX_WALTER	SpaceX ~$40B GPU master finance lease with Apollo-managed entity, conditional, close before YE, schedules from H1-2027 delivery. KB row; APO is a BROCK name. Closing conditions/recourse/residual guarantees not in release.
+2026-10-28T23:40:08-04:00	SIG-W-20261026-003	noted	INBOX_WALTER	Anthropic public S-1 (Nasdaq ANT); price/proceeds unset. Supersedes deferred EDGAR note (no S-1 10/8). VULCAN owns IPO record.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-001	info-only	INBOX_WALTER	EART2026-4 closed 8/31 not 8/28; COR-20261027-01 receipted NO-OP (no BROCK surface carried the date).
+2026-10-28T23:40:08-04:00	SIG-W-20261027-003	acted	INBOX_WALTER	Anthropic S-1: $108.566B conv notes at FV 6/30; H1 net loss $80.748B incl $72.388B FV changes, opex loss $0.693B. Accounting not cash burn. KB row with drawn-vs-carrying distinction.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-020	info-only	INBOX_WALTER	Trepp Q3 CMBS DQ balances $48.65B (+11.64% YTD balance growth, not rate). CREED owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-021	info-only	INBOX_WALTER	Wells Fargo Center South note sale ~$115M reported vs $290M described; seller/loss holder unidentified. CREED owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-023	info-only	INBOX_WALTER	FL office resets (One Boca, 200 E Broward) with financing available. CORAL owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-025	noted	INBOX_WALTER	JBI: DC HY cohort +136bp since mid-Sept, ~$46B face ~3% of HY; CoreWeave landlords wider. Unverified method; LIQUID owns series. Context for AI-infra lending vector, no grade.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-028	info-only	INBOX_WALTER	Unicus AEL/Brookfield teaser; superseded by -033 source upgrade.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-029	acted	INBOX_WALTER	Broadcom/Anthropic $63B SPV: BofA/Citi/MS first lien, Blackstone SOLE committed second lien, Broadcom residual value support = first-lien amount. KB row. PC junior-risk holder now named (partial answer to deferred SIG-W-20261008-006 question); tranche sizes undisclosed.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-030	info-only	INBOX_WALTER	MainStreet Q3 NPL $92.0M, NA 4.71%; no NDFI split. REGINALD owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-031	info-only	INBOX_WALTER	Blackstone Blackjack MF $517.7M remaining in special servicing. HOMER/CORAL own.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-032	info-only	INBOX_WALTER	Forge Atlanta land note grace; Webstar 2024 restatement. CREED owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-033	noted	INBOX_WALTER	Iowa exam: AEL lent $580.3M to Brookfield entities 2024 (two loans). Insurer-affiliate lending mechanism analogue to Athene/Apollo; SHADE owns; Athene vector unchanged.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-034	info-only	INBOX_WALTER	Trepp/Newmark maturity cohorts differ; office DQ 12.33 vs 12.16 conflict. CREED owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-035	noted	INBOX_WALTER	Blackstone opportunistic RE -3.2% QoQ vs core-plus +1.6%; MSCI distress sales 2.4% of volume. Context for BX wrapper vector, no grade.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-036	info-only	INBOX_WALTER	Town Lane $1.9B Fund II hard cap; selective capital availability. CREED owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-038	info-only	INBOX_WALTER	OpenAI on Google Cloud Marketplace. VULCAN owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-040	info-only	INBOX_WALTER	JetBlue Q3 liquidity $2.2B incl $600M undrawn. LIQUID/CARL own.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-056	info-only	INBOX_WALTER	S2 $1.2B MF workouts via continuation vehicle. HOMER owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-059	info-only	INBOX_WALTER	RAD auction outcome unknown. HOMER owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-066	noted	INBOX_WALTER	MSCI insurer origination LTV 62.7% (+2.5pp); 30% DC share unverified. SHADE/CREED own; Athene vector context only.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-068	info-only	INBOX_WALTER	Blackstone DC platform $165B vs pipeline $160B vs $200B relay: separate perimeters. VULCAN owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-070	noted	INBOX_WALTER	Disposition (BROCK ACTION): Castlelake ~$1.1B CRE-CLO, Rithm/Genesis $375M, Sept CLO $41.1B AAA ~122bp are attributed newsletter figures; no BDC/fund-finance vehicle named, no BROCK vector consequence; financing-availability counterevidence only.
+2026-10-28T23:40:08-04:00	SIG-W-20261027-071	info-only	INBOX_WALTER	Lake Meadows investor-exit suit is allegation; not a gated PC vehicle. HOMER owns.
+2026-10-28T23:40:08-04:00	SIG-W-20261029-006	info-only	INBOX_WALTER	OTTO auto credit; OTTO retired $767M bank-loss sum. BROCK does not cite it (grep KB/STATUS/VX 2026-10-28).
+2026-10-28T23:40:08-04:00	SIG-W-20261029-007	info-only	INBOX_WALTER	CYPHER corrections; Power Funding = Texas factoring, incident unconfirmed. COR-20261029-07 receipted NO-OP.
