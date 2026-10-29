@@ -1,0 +1,75 @@
+2026-10-20: 1512 SEC credit rows; 0 NEWT for 'OCCIDENTAL'; 0 BATCH (excluded)
+2026-10-22: 4752 SEC credit rows; 2 NEWT for 'OCCIDENTAL'; 2 BATCH (excluded)
+2026-10-23: 1554 SEC credit rows; 0 NEWT for 'OCCIDENTAL'; 0 BATCH (excluded)
+2026-10-27: 1677 SEC credit rows; 0 NEWT for 'OCCIDENTAL'; 0 BATCH (excluded)
+2026-10-28: 1524 SEC credit rows; 1 NEWT for 'OCCIDENTAL'; 0 BATCH (excluded)
+  2026-10-28T15:49Z exp 2030-12-20     300,000 | cpn 100 upfront 2.08pts ~par 157bp (approx) | OCCIDENTAL PETROLEUM CORPORATION
+2026-10-20: 1512 SEC credit rows; 0 NEWT for 'VISTRA'; 0 BATCH (excluded)
+2026-10-22: 4752 SEC credit rows; 1 NEWT for 'VISTRA'; 1 BATCH (excluded)
+2026-10-23: 1554 SEC credit rows; 0 NEWT for 'VISTRA'; 0 BATCH (excluded)
+2026-10-27: 1677 SEC credit rows; 1 NEWT for 'VISTRA'; 0 BATCH (excluded)
+  2026-10-25T21:53Z exp 2029-12-20  5,000,000+ | cpn 500 upfront 13.35pts ~par 1093bp (approx) | VISTRA OPERATIONS COMPANY LLC
+2026-10-28: 1524 SEC credit rows; 0 NEWT for 'VISTRA'; 0 BATCH (excluded)
+2026-10-20: 1512 SEC credit rows; 0 NEWT for 'NRG ENERGY'; 0 BATCH (excluded)
+2026-10-22: 4752 SEC credit rows; 1 NEWT for 'NRG ENERGY'; 0 BATCH (excluded)
+  2026-10-22T20:11Z exp 2031-12-20   3,000,000 | cpn 500 upfront 15.94pts ~par 1013bp (approx) | NRG ENERGY;INC.
+2026-10-23: 1554 SEC credit rows; 0 NEWT for 'NRG ENERGY'; 0 BATCH (excluded)
+2026-10-27: 1677 SEC credit rows; 1 NEWT for 'NRG ENERGY'; 0 BATCH (excluded)
+  2026-10-27T19:40Z exp 2031-12-20  5,000,000+ | cpn 500 upfront 15.95pts ~par 1014bp (approx) | NRG ENERGY;INC.
+2026-10-28: 1524 SEC credit rows; 0 NEWT for 'NRG ENERGY'; 0 BATCH (excluded)
+2026-10-20: 1512 SEC credit rows; 4 NEWT for 'NEXTERA'; 0 BATCH (excluded)
+  2026-10-19T19:32Z exp 2028-12-20     500,000 | cpn 100 upfront 1.49pts ~par 172bp (approx) | NextEra Energy Capital Holdings;Inc.
+  2026-10-19T19:32Z exp 2028-12-20   1,000,000 | cpn 100 upfront 1.49pts ~par 172bp (approx) | NextEra Energy Capital Holdings;Inc.
+  2026-10-20T17:36Z exp 2031-12-20  5,000,000+ | no level field | NextEra Energy Capital Holdings Inc.
+  2026-10-20T20:22Z exp 2031-12-20  5,000,000+ | spread 64bp (disseminated) | NextEra Energy Capital Holdings Inc
+2026-10-22: 4752 SEC credit rows; 2 NEWT for 'NEXTERA'; 2 BATCH (excluded)
+2026-10-23: 1554 SEC credit rows; 7 NEWT for 'NEXTERA'; 0 BATCH (excluded)
+  2026-10-23T13:52Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 1.49pts ~par 134bp (approx) | NEXTERA ENERGY CAPITAL HOLDINGS;INC.
+  2026-10-23T18:30Z exp 2031-12-20  5,000,000+ | spread 66bp (disseminated) | NextEra Energy Capital Holdings Inc
+  2026-10-23T18:30Z exp 2031-12-20  5,000,000+ | spread 66bp (disseminated) | NextEra Energy Capital Holdings Inc
+  2026-10-23T18:30Z exp 2031-12-20  5,000,000+ | spread 66bp (disseminated) | NextEra Energy Capital Holdings Inc
+  2026-10-23T18:52Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 1.58pts ~par 136bp (approx) | NextEra Energy Cap Hldgs Inc
+  2026-10-23T19:42Z exp 2031-12-20  5,000,000+ | spread 66bp (disseminated) | NextEra Energy Capital Holdings Inc
+  2026-10-23T19:43Z exp 2031-12-20  5,000,000+ | spread 66bp (disseminated) | NextEra Energy Capital Holdings Inc
+2026-10-27: 1677 SEC credit rows; 0 NEWT for 'NEXTERA'; 0 BATCH (excluded)
+2026-10-28: 1524 SEC credit rows; 0 NEWT for 'NEXTERA'; 0 BATCH (excluded)
+2026-10-28: 1524 SEC credit rows; 5 NEWT for 'META'; 0 BATCH (excluded)
+  2026-10-28T12:17Z exp 2031-12-20   1,000,000 | cpn 100 upfront 0.34pts ~par 108bp (approx) | META PLATFORMS;INC.
+  2026-10-28T12:31Z exp 2031-12-20   1,000,000 | cpn 100 upfront 0.34pts ~par 108bp (approx) | META PLATFORMS;INC.
+  2026-10-28T18:44Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.60pts ~par 120bp (approx) | META PLATFORMS;INC.
+  2026-10-28T18:44Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.60pts ~par 120bp (approx) | META PLATFORMS;INC.
+  2026-10-28T20:27Z exp 2031-12-20  5,000,000+ | spread 115bp (disseminated) | Meta Platforms Inc
+2026-10-28: 1524 SEC credit rows; 26 NEWT for 'ORACLE'; 0 BATCH (excluded)
+  2026-10-26T21:07Z exp 2031-12-20   1,000,000 | no level field | ORACLE CORPORATION
+  2026-10-28T12:57Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.72pts ~par 285bp (approx) | ORACLE CORPORATION
+  2026-10-28T14:06Z exp 2031-12-20     700,000 | no level field | ORACLE CORPORATION
+  2026-10-28T14:06Z exp 2031-12-20     700,000 | no level field | ORACLE CORPORATION
+  2026-10-28T14:18Z exp 2031-12-20   3,000,000 | cpn 100 upfront 7.72pts ~par 285bp (approx) | Oracle Corporation
+  2026-10-28T14:29Z exp 2031-12-20   1,000,000 | spread 2bp (disseminated) | Oracle Corporation
+  2026-10-28T14:43Z exp 2031-12-20     700,000 | spread 2bp (disseminated) | Oracle Corporation
+  2026-10-28T18:34Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 6.56pts ~par 256bp (approx) | ORACLE CORPORATION
+  2026-10-28T18:34Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 6.76pts ~par 261bp (approx) | ORACLE CORPORATION
+  2026-10-28T18:42Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 6.76pts ~par 261bp (approx) | ORACLE CORPORATION
+  2026-10-28T18:42Z exp 2031-12-20   3,000,000 | cpn 100 upfront 6.95pts ~par 266bp (approx) | Oracle Cop
+  2026-10-28T18:57Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 6.37pts ~par 251bp (approx) | ORACLE CORPORATION
+  2026-10-28T18:59Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 6.37pts ~par 251bp (approx) | ORACLE CORPORATION
+  2026-10-28T19:01Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 6.56pts ~par 256bp (approx) | ORACLE CORPORATION
+  2026-10-28T19:02Z exp 2031-12-20   3,000,000 | cpn 100 upfront 6.56pts ~par 256bp (approx) | ORACLE CORPORATION
+  2026-10-28T19:03Z exp 2028-12-20  5,000,000+ | cpn 100 upfront 0.90pts ~par 143bp (approx) | ORACLE CORPORATION
+  2026-10-28T19:17Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 6.48pts ~par 254bp (approx) | ORACLE CORPORATION
+  2026-10-28T19:17Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 6.37pts ~par 251bp (approx) | ORACLE CORPORATION
+  2026-10-28T19:18Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.07pts ~par 269bp (approx) | ORACLE CORPORATION
+  2026-10-28T19:25Z exp 2031-12-20  5,000,000+ | spread 280bp (disseminated) | Oracle Corporation
+  2026-10-28T19:35Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 2.98pts ~par 204bp (approx) | ORACLE CORPORATION
+  2026-10-28T20:17Z exp 2031-12-20      95,000 | cpn 100 upfront 7.83pts ~par 288bp (approx) | ORACLE CORPORATION
+  2026-10-28T20:21Z exp 2031-12-20  5,000,000+ | spread 276bp (disseminated) | Oracle Corporation
+  2026-10-28T20:21Z exp 2031-12-20  5,000,000+ | spread 276bp (disseminated) | Oracle Corporation
+  2026-10-28T20:30Z exp 2031-12-20  5,000,000+ | spread 276bp (disseminated) | Oracle Corporation
+  2026-10-28T20:56Z exp 2031-12-20   3,000,000 | cpn 100 upfront 7.14pts ~par 271bp (approx) | ORACLE CORPORATION
+2026-10-28: 1524 SEC credit rows; 6 NEWT for 'COREWEAVE'; 0 BATCH (excluded)
+  2026-10-28T18:01Z exp 2031-12-20   1,000,000 | cpn 500 upfront 15.47pts ~par 995bp (approx) | COREWEAVE;INC.
+  2026-10-28T18:52Z exp 2031-12-20  5,000,000+ | cpn 500 upfront 14.47pts ~par 956bp (approx) | COREWEAVE;INC.
+  2026-10-28T18:59Z exp 2030-12-20   2,000,000 | cpn 500 upfront 12.47pts ~par 944bp (approx) | COREWEAVE;INC.
+  2026-10-28T19:03Z exp 2030-12-20   3,000,000 | cpn 500 upfront 11.22pts ~par 893bp (approx) | COREWEAVE;INC.
+  2026-10-28T19:16Z exp 2030-12-20   1,000,000 | cpn 500 upfront 11.22pts ~par 893bp (approx) | COREWEAVE;INC.
+  2026-10-28T19:25Z exp 2029-12-20   2,000,000 | cpn 500 upfront 8.85pts ~par 871bp (approx) | COREWEAVE;INC.
