@@ -56,7 +56,7 @@
 - Treasury par 10/29: 2Y 4.61 (RED by 1bp), 10Y 4.98 (back to ORANGE), 30Y 5.32. HY 314 [FRED 10/28]. KB ML-HEN-191; MARKET_DATA 10/29 row + refresh stamp.
 - Inbox drained (10 general + 6 WALTER). **Row 9 (CYPHER wave): HENRY carries the PANW price leg AND the bank-stock leg, grade 11/18 live pull** (PROME 15:03 ET final routing). The letter has no "collapse" magnitude: raised to PROME, not set.
 - VLO −9.24% 10/27 = refiner-sector move (MPC −7.36%, PSX −7.03%), gapped at the open, not earnings (10/22); cause unestablished at a primary (secondaries: margin outlook, Russian diesel, Iran).
-- **Own errors caught:** (1) `gamma_flip.py` writes `PUBLISHED.tsv` on every run, replacing same-date rows WITHOUT basis notes, even for a read you are not publishing; restored once. (2) my hand edit to PUBLISHED replaced EVERY row of each metric (history ledger, one row per metric per date): restored from git, re-applied keyed on date. **Key any ledger edit on (metric, date), never metric alone; `git diff --stat` before moving on.**
+- **Own errors caught:** (1) `gamma_flip.py` writes `PUBLISHED.tsv` on every run, replacing same-date rows WITHOUT basis notes, even for a read you are not publishing; restored once. (2) my hand edit to PUBLISHED replaced EVERY row of each metric (history ledger, one row per metric per date): restored from git, re-applied keyed on date. **Key any ledger edit on (metric, date), never metric alone; `git diff --stat` before moving on.** (3) **VIX/VIX9D/VIX3M/VVIX settle at 16:15 ET, not 16:00:** I stamped a 16:06 ET pull (16.50) as the close; final was 17.20 and it flipped the VIX kill-leg row and a "VIX fell every session" claim (PROME/VIOLET caught it). Pull vol closes after 16:15 ET.
 
 ### NEXT SESSION
 
