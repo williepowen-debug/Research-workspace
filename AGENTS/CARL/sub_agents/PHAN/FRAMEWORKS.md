@@ -230,7 +230,7 @@ The rebuild was assigned in `KB-CARL-367` on **2026-07-31** and discovered on **
 
 *Reference: which source answers which question, and on what cadence. Consulted when sourcing a figure, not at boot.*
 
-*Carried from CLAUDE.md:72-84 + STATUS/ML source citations.*
+*Carried from the Apr-2026 charter's source table (`archive/CLAUDE_2026-04_frozen.md`) + STATUS/ML source citations.*
 
 | Source | Frequency | Covers |
 |---|---|---|

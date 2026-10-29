@@ -6,7 +6,7 @@
 
 **PHAN's domain:** BNPL and phantom/off-bureau debt — BNPL late rates, earned-wage access, unreported medical balances, the reporting-gap flow.
 
-**Current mode:** **DOSSIER-MODE** — `CLAUDE.md` and `STATUS.md` are FROZEN (Klarna-refuted warning banner). Not on a monitoring cadence.
+**Current mode:** **DOSSIER-MODE** — `STATUS.md` is FROZEN (Apr-2026 history). `CLAUDE.md` is a short live charter again since 2026-10-28; the old text is in `archive/`. Not on a monitoring cadence.
 
 ---
 

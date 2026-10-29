@@ -2,13 +2,13 @@
 
 > **What this is.** PHAN (Phantom Debt / Shadow Credit monitor) was **demoted from full sub-agent to dossier on 2026-07-10** (DAEDALUS CARL sub-agent audit, Will-approved). This file is the **single entry surface** for the phantom-debt domain going forward. It is not a live dashboard: it carries PHAN's durable analytical assets (frameworks, thresholds, open predictions, transmission pathways) at their original vintages, each fact stamped with its own as-of date and file:line origin. Since 2026-09-10, ad-hoc passes also author analysis (reasoning in `PASSES.md`, frameworks in `FRAMEWORKS.md`).
 >
-> **Domain scope** *(carried from CLAUDE.md:5,7)*: phantom debt / shadow credit — consumer borrowing invisible to credit bureaus. ⛔ **The legacy `$400B+` figure in this line is REFUTED — see §2a: ~$176–216B broad, ~$30–60B credit-only, medical ~85% of it.** BNPL stacking, cash-advance / earned-wage-access (EWA) apps, fintech-lender ("cockroach") health, regulatory visibility changes (CFPB 1033), and phantom-DTI impact on mortgage underwriting (→ HOMER).
+> **Domain scope** *(carried from the Apr-2026 charter, `archive/CLAUDE_2026-04_frozen.md` §Role)*: phantom debt / shadow credit — consumer borrowing invisible to credit bureaus. ⛔ **The legacy `$400B+` figure in this line is REFUTED — see §2a: ~$176–216B broad, ~$30–60B credit-only, medical ~85% of it.** BNPL stacking, cash-advance / earned-wage-access (EWA) apps, fintech-lender ("cockroach") health, regulatory visibility changes (CFPB 1033), and phantom-DTI impact on mortgage underwriting (→ HOMER).
 >
 > **Refresh model.** No standing sessions. Refreshed by **ad-hoc CARL spawns** against this dossier (per CARL SPAWN_PROTOCOL templates). **Next catalysts (confirmed):** **Coastal Q3 10/29 BMO · Affirm FQ1-27 11/05 AMC · Klarna Q3 11/17 BMO**, the last pass before five PHAN rows come due 12/31. See §8.
 >
 > **Last ad-hoc passes:** **2026-10-28** (CARL hygiene pass, then a Will-directed session: news sweep, file sweep, workbook refresh, closeout rebuild); before it 2026-09-11, 2026-09-10, 2026-07-10. **⚠️ Narratives live in `PASSES.md`: `grep -n '^## 20' PASSES.md` lists them; never read it whole.**
 >
-> **⚠️ Vintage warning.** The legacy identity surfaces (CLAUDE.md, STATUS.md) are FROZEN at their Apr-2026 build vintage and carry **TWO refuted claims, not one**: ① the Klarna deterioration narrative (**REFUTED** — Klarna Q1-2026 profitable, CARL May-14) and ② **the `$400B+` phantom-debt headline, which those files assert 9 times and which is REFUTED by `KB-CARL-367` (~$176–216B broad / ~$30–60B credit-only).** Because they are frozen they are **not** being edited; this banner is the maintained correction. **⛔ Do not lift the domain-scope, "Why This Domain Matters", or "Key Concepts" magnitude lines from CLAUDE.md, nor the STATUS.md masthead/§BNPL Outstanding rows.** See §2a and §6.
+> **⚠️ Vintage warning.** The legacy identity surfaces (the Apr-2026 charter, now `archive/CLAUDE_2026-04_frozen.md`, and the frozen `STATUS.md`) stay at their Apr-2026 build vintage and carry **TWO refuted claims, not one**: ① the Klarna deterioration narrative (**REFUTED** — Klarna Q1-2026 profitable, CARL May-14) and ② **the `$400B+` phantom-debt headline, which those files assert 9 times and which is REFUTED by `KB-CARL-367` (~$176–216B broad / ~$30–60B credit-only).** They are history and are **not** edited; this banner is the maintained correction. **⛔ Do not lift the domain-scope, "Why This Domain Matters", or "Key Concepts" magnitude lines from the archived charter, nor the STATUS.md masthead/§BNPL Outstanding rows.** See §2a and §6.
 
 ---
 
@@ -53,6 +53,9 @@
 | **P01: does PYMNTS 74% (2+ providers in 3 months) count?** | **CARL** | 2026-10-28 | 📤 packet sent |
 | **P07: does a county DA suit count toward 5 states?** | **CARL** | 2026-10-28 | 📤 packet sent |
 | **BNPL late-rate basis: LendingTree 47% vs Fed SHED 26%** | **CARL** | 2026-10-28 | 📤 packet sent |
+| **Published-figures ledger** (record every figure PHAN sends another desk, incl. withdrawn ones; HANS `workbook/PUBLISHED.tsv` pattern) | PHAN | 2026-10-28 | 🔻 next pass (deferred) |
+| **Tests for `scripts/closeout_check.py` + `boot_check.py`** (the falsification set as a re-runnable test; HANS `test_hans.py` pattern) | PHAN | 2026-10-28 | 🔻 next pass (deferred) |
+| **Tidy:** move `outbox/SV-PHAN-2026-04-17-01.md` → `state_vectors/`; rotate `workbook/PREDICTIONS.tsv` header pass-history (38 comment lines) verbatim to `PASSES.md`, keeping the two clocks | PHAN | 2026-10-28 | 🔻 next pass (low) |
 | **FLOW-PHAN-06 → re-instrument onto NCO growth?** | **CARL** | 2026-09-11 | ⏳ CARL at the ~11/12 gate |
 | **Sub-agent closeout git step** | **CARL** | 2026-09-11 | ⏳ partial: STUE, DOC, PHAN (`CLOSEOUT.md` + runner, 10/28) have it; GIG, POLLY, POP, META, `SPAWN_PROTOCOL.md` do not. Shared runner for all 7: **proposed to CARL 10/28** (packet) |
 
@@ -66,11 +69,11 @@
 |---|---|
 | **Agent** | PHAN — Phantom Debt & Shadow Credit Monitor |
 | **Status** | DEMOTED TO DOSSIER 2026-07-10 (was: full sub-agent, reports to CARL via State Vectors) |
-| **Domain** | Phantom Debt / Shadow Credit / Non-Bank Lending *(CLAUDE.md:7)* |
+| **Domain** | Phantom Debt / Shadow Credit / Non-Bank Lending *(Apr-2026 charter)* |
 | **Parent system of record** | CARL: `STATUS.md` (BNPL rows), `thesis/PREDICTIONS.tsv`, `workbook/KB.tsv`. ⚠️ `BNPL_STRESS.tsv` FROZEN 6/26; `KB-CARL-228` STALE (4/17) |
 | **Legacy last session** | 2026-04-17 (STATUS.md:2) |
 | **Live surfaces (this dir)** | `workbook/{COCKROACH,REGULATORY,PROVIDER,PREDICTIONS}.tsv` — see §5 |
-| **Frozen surfaces (this dir)** | CLAUDE.md, STATUS.md, `workbook/{VX,ML,FLOW}.tsv` |
+| **Frozen surfaces (this dir)** | `STATUS.md`, `archive/` (old charter), `workbook/{VX,ML,FLOW}.tsv`. `CLAUDE.md` is a live charter again since 2026-10-28 |
 
 ---
 
@@ -164,7 +167,7 @@ Three workbook TSVs are **LIVE append surfaces**: COCKROACH and REGULATORY (DAED
 | **Affirm quarterlies** (GMV, DQ, provisions, ABS FICO) | 2.3% DQ, $214.2M provisions (+40% YoY), ABS WA FICO 672, GMV $13.8B | ⚠️ **No current parent home:** `KB-CARL-228` STALE (4/17), `BNPL_STRESS.tsv` FROZEN (6/26). Live rows: `workbook/PROVIDER.tsv` (unfrozen 10/28); ruling asked of CARL 2026-10-28. |
 | **Klarna quarterlies** (provisions, revenue, class action) | 0.65% provisions, $1.08B rev, case 25-cv-07033 | ⚠️ **No current parent home** (same as Affirm). Live rows: `workbook/PROVIDER.tsv`. |
 | **BNPL late-payment rate** | **47% (2026, LendingTree Tracker pub 2026-08-19)** | ✅ **Verified and superseded at the parent 2026-09-10** — STATUS row updated 41%→47%, band **🔴 breached**, attribution corrected off CFPB. KB-CARL-439. |
-| **⭐ PHANTOM-DEBT MAGNITUDE — the domain's headline claim** | **`$400B+` invisible to bureaus** (CLAUDE.md ×5, STATUS.md ×3, PROVIDER.tsv ×2, and the DOSSIER domain-scope line until 2026-09-11) | ⛔ **REFUTED — `KB-CARL-367` (DEWEY C4, 2026-07-31): broad ~$176–216B, credit-only ~$30–60B (an order of magnitude smaller), composition medical ~85% / BNPL ~15% / EWA negligible.** Prefer the CFPB **flow** gap (~$80.46B/yr vs ~$36B/yr, ~2.2×). Full rebuild → **`FRAMEWORKS.md` §2.0**. *(This row was MISSING from this table until 2026-09-11 — the largest supersession in the domain was the one the supersession table did not list.)* |
+| **⭐ PHANTOM-DEBT MAGNITUDE — the domain's headline claim** | **`$400B+` invisible to bureaus** (the Apr-2026 charter ×5, STATUS.md ×3, PROVIDER.tsv ×2, and the DOSSIER domain-scope line until 2026-09-11) | ⛔ **REFUTED — `KB-CARL-367` (DEWEY C4, 2026-07-31): broad ~$176–216B, credit-only ~$30–60B (an order of magnitude smaller), composition medical ~85% / BNPL ~15% / EWA negligible.** Prefer the CFPB **flow** gap (~$80.46B/yr vs ~$36B/yr, ~2.2×). Full rebuild → **`FRAMEWORKS.md` §2.0**. *(This row was MISSING from this table until 2026-09-11 — the largest supersession in the domain was the one the supersession table did not list.)* |
 | **"distressed invisible" $40–60B** | PROVIDER.tsv:26, derived as *"10–15% DQ on $400B"* | ⛔ **DEAD — built on the refuted base.** Credit-only phantom debt **in total** is ~$30–60B, so a *distressed subset* of $40–60B is internally incoherent. Do not cite. |
 | **CC 90+ DQ** | 12.70% (STATUS.md:156 uses this as the phantom-debt multiplier base) | **Cite CARL `STATUS.md`** (12.92% Q2-26 at 10/28; stock basis, level comparisons void, see CRL-30) |
 | **ALLY-analog conclusion** (composition-masking) | FLOW-PHAN-06 + SV-PHAN-2026-04-17-01 | `KB-CARL-228` (STALE 4/17) is history; the live mechanism/trigger is `FRAMEWORKS.md` §2.6 |
@@ -177,12 +180,12 @@ Three workbook TSVs are **LIVE append surfaces**: COCKROACH and REGULATORY (DAED
 
 ## 8. Refresh protocol — BOOT here; CLOSEOUT in **`CLOSEOUT.md`**
 
-> ⛔ **`CLAUDE.md` §"On Session Start" and §"On Session End" are SUPERSEDED** (frozen file; see its banner). **Boot = the three steps below. Closeout = `CLOSEOUT.md`**, with its runner `scripts/closeout_check.py` (both 2026-10-28, Will-approved; they replace this section's old steps 4–12, now in git history). **Run closeout at EVERY session end, including intermediate passes.**
+> **Charter:** `CLAUDE.md` is live again (2026-10-28, Will) and points here; the Apr-2026 charter's boot and closeout steps are archived as history. **Boot = the steps below. Closeout = `CLOSEOUT.md`**, with its runner `scripts/closeout_check.py` (both 2026-10-28, Will-approved). **Run closeout at EVERY session end, including intermediate passes.**
 
 ### BOOT
 
 0. **Run `python3 AGENTS/CARL/sub_agents/PHAN/scripts/boot_check.py`** (from any directory; every path is anchored to the repo root). It prints: PHAN's own inbox with packet ages · each prediction's days to window end · the next PHAN docket row · every packet PHAN sent that its recipient has not filed. *(Added 2026-10-28: the old relative `find inbox` counted CARL's inbox when CARL spawned PHAN from `AGENTS/CARL/`.)*
-1. **Read this DOSSIER**: CURRENT STATE first, then the **📌 OWED** block. Not the frozen `CLAUDE.md`/`STATUS.md`.
+1. **Read this DOSSIER**: CURRENT STATE first, then the **📌 OWED** block. Never the frozen `STATUS.md` or `archive/`.
 2. **Inbox packets** (boot_check [1]): read each one. Anything present is UNPROCESSED by definition. **AGE IS A FINDING:** PHAN may go a quarter between sessions; a packet **older than ~30 days ⇒ telling the sender outranks actioning it.** By hand, always anchored: `find "$(git rev-parse --show-toplevel)/AGENTS/CARL/sub_agents/PHAN/inbox" -maxdepth 2 -name "*.md" -not -path "*/processed/*" -not -name README.md`.
 3. **`FRAMEWORKS.md`** when working a framework · **`PASSES.md`** by grep only. Neither is a boot whole-read.
 4. **Follow up what PHAN sent** (boot_check [4]): for each OWED row marked 📤, a packet still unfiled is **delivered, not actioned**; a filed one is closed only once CARL's `STATUS.md` / `thesis/PREDICTIONS.tsv` actually carries the change. **Due predictions** (boot_check [2]): a row ≤60 days out gets its expectation written **before** the print; a past window goes to CARL for resolution.

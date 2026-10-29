@@ -8,6 +8,16 @@
 
 ---
 
+## 2026-10-28 charter UNFROZEN (Will: "Okay lets unfreeze it if you can fix it?")
+
+- **What was frozen and why:** PHAN's `CLAUDE.md` + `STATUS.md`, 2026-07-10, commit `6c8683257` (DAEDALUS sub-agent audit, Will-approved: PHAN "BUILT-BUT-DRIFTED" → DEMOTE-WITH-CARE; dashboard asserted a refuted Klarna narrative; durable assets transcribed to DOSSIER). The audit does not say why it froze rather than stubbed.
+- **Why unfreeze:** Claude Code auto-loads `CLAUDE.md` from the launch folder, so 11 KB of superseded instructions loaded on every direct launch. Twice tonight they caused real defects (a literal "Read STATUS.md" sent the fleet read-cap check to the wrong file; the closeout had no git step and a dead `SHARED/` route).
+- **Done:** `git mv CLAUDE.md archive/CLAUDE_2026-04_frozen.md` (history follows with `--follow`; archive banner says HISTORY ONLY) and a new **3,982 B** live charter: start-here pointers, role, rules, file map, **no data values** (hardcoded "current" figures are what rotted the old one). `STATUS.md` stays frozen: nothing auto-loads it. References repointed: DOSSIER (domain-scope cite, vintage warning, §1 x2, §6 magnitude row, §8 charter note + BOOT 1), FRAMEWORKS §2.9 cite, inbox README. Line-number cites (`CLAUDE.md:5,7` etc.) replaced by section cites: the archive header shifts every line. Historical outbox packets and DAEDALUS run artifacts left as written.
+- **OWED rows added for the items deferred tonight** (published-figures ledger, runner tests, SV/ledger-header tidy). They had lived only in the chat, which is the 42-day pattern.
+- **PROME told:** READS.tsv L682 BASIS note still says the charter is frozen, and BOOT now has steps 0 and 4 (1–3 unchanged). PROME's file; message, not edit.
+
+---
+
 ## 2026-10-28 boot + dossier fixes (Will: "yes go ahead and fix them", after the file-structure comparison)
 
 - **Comparison** (background survey vs PROME, BOND, HANS, TERRY, CARL, STUE, DOC; spot-checked: DOSSIER:200 relative `find inbox`, STUE/CLAUDE.md:15 anchored path, STUE:254 routed-items follow-up, CARL inbox = 7 from `AGENTS/CARL/`). PHAN's strengths: an owner-tagged OWED block inside the boot read; a superseded-figures table; the tightest declared hot/cold split. Gaps fixed here: 1–4 + stale labels. Deferred (they don't matter at PHAN's cadence yet): a published-figures ledger, runner tests.
