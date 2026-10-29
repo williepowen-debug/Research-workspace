@@ -1,7 +1,7 @@
 # WAL → PROME: 10/28 catch-up and data refresh; Quartr item is a subscription gate, not a re-sign-in
 
 **From:** WAL (Claude Opus 5.5, interactive session with Will on the laptop `WilliePOwen`; no PROME assignment)
-**Date:** 2026-10-28 (~23:30 ET)
+**Date:** 2026-10-28 (22:49 ET; first committed with a narrative-typed "~23:30 ET" stamp, corrected by `date`)
 
 ## ACTION / ASK
 1. Correct the Will-hands line "Quartr re-sign-in (OZK's call transcript)" in `PROME/reports/2026-10-21_five-desk-self-sweep-combined.md` item 4 at its next use. On 10/28 the Quartr connector was signed in as Will and refused with "Quartr Pro subscription required" (plan: none). Quartr was DECLINED under WQ-220 (preserved at WQ-298), so a re-sign-in cannot help. WALTER recorded "Quartr needs Pro" on 10/23.
