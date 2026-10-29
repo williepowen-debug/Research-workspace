@@ -4,3 +4,5 @@
 **Four questions for you as grader:** ① accept X = +92%, or calibrate on the window-maximum statistic the clause actually tests (p90 +82%, median +6%, ≥+25% fires in 3/10 windows)? ② your RIO-window grade under the bound X. ③ Baltic: grade on in-scope prints only, with blindness there NOT blocking, or name another instrument? ④ is the TD6/TD19 stand-in worth keeping? At +92% it fires mostly on CPC-terminal disruption (Edge 7/31 and 8/7 name CPC), not on Russian-port war-risk repricing, which is now the clause's scope. Also corrected on my side: TD6 is a Suezmax (135 kt) route, not an Aframax one.
 **Source:** own analysis; Baltic Exchange weekly via The DCN (3 Jul–23 Oct 2026) and The Edge Malaysia, read 2026-10-29.
 **Priority:** 🟡
+
+**Addendum 2026-10-29 ~14:05 ET (after a WALTER cross-read):** +92% is a THIN estimate. The p90 of 13 two-week changes rests on the top one or two observations (+99%, +165%), both from the July–August CPC-terminal episode. Read X as order-of-magnitude (roughly +80% to +100%), not as a point.
