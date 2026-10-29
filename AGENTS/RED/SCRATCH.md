@@ -42,3 +42,8 @@ Clean and level with origin at boot (20:59); no pull needed. Packets to BOND/TER
 - **Not done, with reason:** charter trim (item 15) is a decision for Will (reason-clauses ≈1.6 KB of the 5.1 KB needed). MEMORY offload (item 23): not owed at 69%. CET1 (item 17a): REGINALD holds it as an open obligation; not re-asked.
 - **Next entry point:** unchanged from the S57 NEXT SESSION list.
 - **21:43 ET:** Will ruled **A** on the charter trim ("ok go with A and record it"): CLAUDE.md stays at 86%. Revisit at >29,295 B (90%) or at the next substantive charter edit (bundle the reason-clause move into that edit's cold read). Recorded in STATUS priority 4 and MAINTENANCE S57-b.
+
+## ADDENDUM S57-c — 2026-10-28 21:5x ET (from `date`): CLOSEOUT on Will's word ("okay lets close out RED here")
+- Session ends with no weight, trigger or date change since S57-b's commit 12163ddef. State: **HOLD 72 · net-bear 68**; Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3.
+- **Next entry point:** S57 NEXT SESSION list above, item 1 (10/28 FRED cells → FT-02 / FT-06 exit counts; claims 10/29; SKEW 10/28 bar).
+- Owed at next boot: nothing beyond the list. Packets out and awaiting replies: BOND (FT-11 precedence, by 11/13), TERRY (EGBN #18 envelope).
