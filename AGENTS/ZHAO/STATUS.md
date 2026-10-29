@@ -1,8 +1,9 @@
 # ZHAO STATUS
 
-**Updated:** 2026-10-22 (see commit time). **Session: PROME-spawned (WQ-487 A) — L0 drain (3) + DOCKET L223 Plenum confirm + China-side read of the 10/22 Asia selloff + L482 pre-fetch.** *(10/20 session: L482 re-check.)*
+**Updated:** 2026-10-29 (see commit time). **Session: PROME-spawned (prome-92, WQ-184 Tier 1) — DOCKET L482 re-check (due 10/27, run 10/29 00:08–00:11 ET) + L223 Plenum look (communiqué not out) + L0 drain (8).** *(10/22 session: drain + Plenum confirm + selloff read.)*
 📉 **10/22 — SELLOFF, CHINA SIDE: no PBOC / MoF statement; CSRC's measures pre-date it (10/19); yuan unmoved (6.66).** CSI 300 **4,036.30 −1.91%** — **about −19.4% from the 6/22 close peak** (510300 proxy); "bear market" is the intraday-high basis. Broad-index ETF volume **3–13× its 20-day average** (159919 12.7×) ⇒ state buying **INFERRED, not confirmed** (share creations are the test). Pan 10/19: bond-market redemption backstop, plumbing, **no rate/RRR signal** (KB-207). **Plenum 10/26–29 RE-CONFIRMED, agenda Party discipline; NPCSC 25th session set 11/2–6 with NO budget-adjustment item on its proposed agenda** ⇒ both near venues point away from a big fiscal number (KB-206). L482 pre-fetch: still no extension instrument (KB-208). Scores unchanged, 28/60.
-🔒 **10/20 — STILL NO INSTRUMENT; BOTH 11/10 CLOCKS STAND (21 days out).** WH ×5 + FR published & public inspection 10/9–10/20 = VERIFIED absent; MOFCOM 公告46, 48–52 read whole, none touches 公告70 (第45/47号 SEARCH-NOT-FOUND); Tariff Commission 502 again. BIS Entity List: nothing since 10/8. 🆕 **Two new levers:** MOFCOM 公告48 (AI/PV/biomed tech-export catalogue, registration live 10/16) + 公告49–52 (10/19); US EO 10/16 (Graham Act) — +100% on top-5 Russian-crude importers, **fully waived** (KB-202/203). Q3 GDP 4.5%, FAI −7.2% ⇒ V5/5b held (KB-204).
+🔒 **10/29 — BOTH 11/10 CLOCKS STILL HAVE NO INSTRUMENT; THE FIRST US PAPER WITH THE 1/9–1/10 DATE IS A THIRD INSTRUMENT.** USTR FR **2026-21755** (published 10/26) **PROPOSES** suspending the s.301 ship/port-fee action another two months, **through 2027-01-09**; comments close **10/30 17:00 ET**; final notice due before 11/10. It re-dates **neither** the BIS Affiliates Rule nor MOFCOM 公告70 (DO-NOT-MERGE). FR published + public inspection 10/21–10/29: no BIS stay extension, no Entity-List additions; WH: no China item (newest 10/28, §232 robotics); MOFCOM newest 公告 still 第52号; **Tariff Commission loaded (200) for the first time — newest 公告 4/28, no extension.** Plenum communiqué **not out at 12:10 Beijing** (KB-211). CFETS fix **6.7147 vs market 6.6607** ⇒ PBOC leaning against appreciation (KB-212). Scores unchanged, 28/60 (KB-210..213).
+🧊 **10/20 header line + OCT 20 bottom-line paragraph moved VERBATIM → `archive/STATUS_COLD_20261029.md` §ⓐ–ⓑ (rotation #10, 10/29).**
 🧊 **10/16 + 10/9 header lines and the OCT 16 / OCT 9 bottom-line paragraphs moved VERBATIM → `archive/STATUS_COLD_20261022.md` §ⓐ–ⓓ (rotation #9, 10/22); the 9/25 summit line + ✅ Oct 20 calendar row → same file §ⓕ.** Facts live in KB-192/193/195/197.
 **Overall Status:** 🟠 ELEVATED — **28/60 (−1, 10/9: Vector 5 → 4 on the pre-registered construction tripwire, KB-193).** **August TIC (released 10/16, own pull 16:17 ET): China $590.7B (−$27.3B, ~45% of it non-transaction), LT/coupon net −$4.8B — a THIRD month of selling at half July's pace.** ZHA-18 **NO** (branch B). Proxy stays falsified (rho +0.067, n=43); rotation refuted a 3rd time. Official LT **+$18.1B**, private LT **+$90.9B** (all countries) — LIQUID's to price. *(July detail → KB-149/150.)*
 
@@ -14,12 +15,13 @@
 
 | Clock | Instrument | Reads today | Status |
 |---|---|---|---|
-| US perimeter | BIS Affiliates Rule (FR 2025-19846) — reimposed **effective 11/10** | 11/10 — no stay extension in FR (published or public inspection) through **10/20 09:16 ET** | 🔴 LIVE (KB-177, 192, 202) |
-| China perimeter | MOFCOM/GAC 公告2025年第70号 — suspends 55-58, 61 一(一)(二), 62 「至2026年11月10日」 | 11/10 — no re-suspension 公告 through **10/20 (list to No.52; 45/47 not located)**; MOFCOM 9/28 statement names 1/10 (not an instrument) | 🔴 LIVE (KB-172..180, 189, 192, 202) |
+| US perimeter | BIS Affiliates Rule (FR 2025-19846) — reimposed **effective 11/10** | 11/10 — no stay extension in FR (published or public inspection) through **10/29 00:09 ET** | 🔴 LIVE (KB-177, 192, 202, 210) |
+| China perimeter | MOFCOM/GAC 公告2025年第70号 — suspends 55-58, 61 一(一)(二), 62 「至2026年11月10日」 | 11/10 — no re-suspension 公告 through **10/29 (list to No.52; 45/47 not located)**; MOFCOM 9/28 statement names 1/10 (not an instrument) | 🔴 LIVE (KB-172..180, 189, 192, 202, 210) |
+| 🆕 US s.301 ships (separate) | USTR s.301 maritime action, suspended to **11/9 23:59 ET**; FR 2026-21755 **PROPOSES** extension to **2027-01-09** | proposal only; comments close 10/30; final notice not yet published | 🟠 first instrument carrying the 1/9–1/10 date (KB-210) |
 | ~~US tariff~~ | ~~EO 14358 §2 (heading 9903.01.63)~~ | — | ⛔ **VOID since 2026-02-24** (EO 14389, KB-183) |
 | 🆕 China (separate) | MOFCOM 公告2024年第46号 **clause 2** suspended to **2026-11-27** | 11/27 | 🟠 B2, content UNVERIFIED (KB-185) |
 
-**If the 1/10 extension (Bessent verbal 9/23; MOFCOM written 9/28) becomes instruments, the two live clocks re-date to 2027-01-10; until an instrument publishes, they stand.** ✅ 10/09 and **10/20** re-checks: **none published** (KB-192, 202). Next looks **10/27 · 11/2 · 11/9**; blind spots = Tariff Commission (502) and MOFCOM 公告 39/43/45/47 (not located). ⛔ DO-NOT-MERGE still binds. The 8/22 Canada precedent (announced, never instrumented, tariff went live) is why a verbal extension is not graded as done.
+**If the 1/10 extension (Bessent verbal 9/23; MOFCOM written 9/28) becomes instruments, the two live clocks re-date to 2027-01-10; until an instrument publishes, they stand.** ✅ 10/09, 10/20 and **10/29** re-checks: **none published for either clock** (KB-192, 202, 210) — the only paper is USTR's s.301 ships proposal, a separate instrument. Next looks **11/2 · 11/9 (MUST-RUN)**; blind spots = MOFCOM 公告 39/43/45/47 (not located); Tariff Commission now reachable. ⛔ DO-NOT-MERGE still binds. The 8/22 Canada precedent (announced, never instrumented, tariff went live) is why a verbal extension is not graded as done.
 
 ---
 
@@ -46,7 +48,7 @@
 
 | Metric | Value | Threshold | Status | Record |
 |--------|-------|-----------|--------|--------|
-| USD/CNY | **6.66** onshore · **CNH 6.67** (live 10/22 13:26 ET, ~0.0% on the selloff day) | >7.30 = 🟠 | 🟢 **CORRECT BUT UNINFORMATIVE** | **8th consecutive STRONGER PBOC fix, longest since 2023; strongest CNH since Jul-2022; 7th straight quarterly advance.** ★ **Fix set WEAKER than market ⇒ PBOC leans AGAINST the pace of appreciation.** 🔴 **Vectors 6 & 9 measure only defence against DEPRECIATION — 🟢 whether the PBOC is idle or doing exactly this** · KB-168. ⚠️ fixing ≠ boot.py's market rate; **the gap IS the signal**, primary not yet pulled |
+| USD/CNY | **6.6607** onshore · **CNH 6.6588** (live 10/29 00:11 ET) · 🆕 **CFETS fix 6.7147** (10/29, primary via Xinhua) — fix **~0.8% weaker than spot** (KB-212) | >7.30 = 🟠 | 🟢 **CORRECT BUT UNINFORMATIVE** | **8th consecutive STRONGER PBOC fix, longest since 2023; strongest CNH since Jul-2022; 7th straight quarterly advance.** ★ **Fix set WEAKER than market ⇒ PBOC leans AGAINST the pace of appreciation.** 🔴 **Vectors 6 & 9 measure only defence against DEPRECIATION — 🟢 whether the PBOC is idle or doing exactly this** · KB-168. ⚠️ fixing ≠ boot.py's market rate; **the gap IS the signal**, primary not yet pulled |
 | USD/KRW | **1,385.95** | >1,500 = BoK selling | 🟢 **EASED THROUGH** | live 9/18 — ⚠️ **WEAKER by 27.2 won vs 1,358.73 (9/2): September's strengthening RETRACED, it did not continue.** 114 won from the line. ⚠️ **two caveats still UNVERIFIED** · KB-126 |
 | HK Aggregate Balance | **HK$53,975M** | <$45B = 🟡 | 🟢 **REFRESHED 9/18** | HKMA API — flat (−133M in six weeks), ~HK$9.0B above the line; **no HKMA intervention** · KB-153 |
 | 1-mo HIBOR | **2.86887%** | — | 🟢 **REFRESHED 9/18** | **+21bp vs 8/3.** O/N 2.03%; band 7.75/7.85 unchanged, TWI 100.4 · KB-153 |
@@ -94,7 +96,7 @@
 
 ## CROSS-AGENT TRANSMISSION
 
-🔔 **10/20: NEW outbox packet awaits PROME routing** — `outbox/2026-10-20_from-ZHAO_to-VULCAN-WATT-HAWK-HENRY-BRENT_no-extension-instrument-and-two-new-trade-levers.md`. **10/16: one outbox packet awaited PROME routing** — `outbox/2026-10-16_from-ZHAO_to-MIDAS_minus-41pct-is-June-CRUDE-imports-not-copper.md` (answers MIDAS's 10/12 ask). 9/25 packets routed 9/25; 9/30 MOFCOM packet DECLINED as a duplicate of WALTER SIG-W-20260930-003 (PROME 10/14). **9/18-9/19 transmission history + HANS exchange + OPEN-asks line → COLD_20260925 §ⓕ.** Still owed: `VX` row for the Chinese clock (NEXT #12).
+🔔 **10/29: NEW outbox packet awaits PROME routing** — `outbox/2026-10-29_from-ZHAO_to-VULCAN-WATT-HAWK-HENRY-BRENT_first-truce-instrument-is-ustr-ships-not-the-11-10-clocks.md` (FYI, route list inside). **10/20: outbox packet awaited PROME routing** — `outbox/2026-10-20_from-ZHAO_to-VULCAN-WATT-HAWK-HENRY-BRENT_no-extension-instrument-and-two-new-trade-levers.md`. **10/16: one outbox packet awaited PROME routing** — `outbox/2026-10-16_from-ZHAO_to-MIDAS_minus-41pct-is-June-CRUDE-imports-not-copper.md` (answers MIDAS's 10/12 ask). 9/25 packets routed 9/25; 9/30 MOFCOM packet DECLINED as a duplicate of WALTER SIG-W-20260930-003 (PROME 10/14). **9/18-9/19 transmission history + HANS exchange + OPEN-asks line → COLD_20260925 §ⓕ.** Still owed: `VX` row for the Chinese clock (NEXT #12).
 
 ---
 
@@ -122,8 +124,9 @@
 |------|-------|---|
 | 🟡 Thu Oct 1 | H.4.1 week ending 9/30 (BOND's 5Y question, KB-186) — ⚠️ **still unread** | 🟡 |
 | ✅ Thu Oct 22 | Selloff read (KB-207) · L482 pre-fetch: none (KB-208) · Plenum re-confirmed (KB-206) | — |
-| Mon–Thu Oct 26–29 | **Fifth Plenum** — agenda Party self-governance, not fiscal (KB-195, re-confirmed KB-206) | 🟡 |
-| Tue Oct 27 | Weekly L482 re-check (then 11/2, 11/9 = BIS stay's last day) | 🟠 |
+| Mon–Thu Oct 26–29 | **Fifth Plenum** — agenda Party self-governance, not fiscal (KB-195, 206). ⏳ **Communiqué not out at 00:10 ET 10/29 (12:10 Beijing); expected ~06:00–08:00 ET 10/29 — grade at next touch** (KB-211) | 🟡 |
+| ✅ Thu Oct 29 | L482 re-check (due 10/27): no instrument for either 11/10 clock; USTR s.301 ships proposal to 1/9 (KB-210) | — |
+| Mon Nov 2 | L482 re-check (then **MUST-RUN 11/9** = BIS stay's last day; USTR s.301 ships suspension also ends 11/9 23:59 ET) | 🟠 |
 | Mon–Fri Nov 2–6 | **NPC Standing Committee, 25th session** — the legal venue for any budget revision; none on the 10/22 proposed agenda (KB-206) | 🟠 |
 
 > 🔴 **THE NOVEMBER WINDOW — TWO LIVE CLOCKS ON 11/10 + ONE ON 11/27 (corrected 9/25).** **Tue 11/10 US:** BIS Affiliates Rule reimposed effective (≥50% aggregate ownership, zero new listings). **Tue 11/10 CHINA:** 公告70 expires — six announcements incl. **Li-battery/LFP cathode/graphite anode (公告58) — WATT's triggered channel keys on the MOFCOM instrument, not the date** (`reports/2026-09-25_WATT_TRIGGER_WORDING_gonggao58.md`). **Fri 11/27 CHINA:** 公告2024年第46号 clause 2 (B2). ⛔ ~~US IEEPA reciprocal lapse~~ **VOID since 2/24/2026.** Full verbatim prior → COLD_20260925 §ⓒ.
@@ -148,11 +151,11 @@
 
 **OWED — in priority order; full rationale per item → COLD_20260918b §ⓠ + §ⓝ.**
 
-2. ✅ **DONE 10/9 + 10/20 — instrument re-check: none** (KB-192, 202). 🔴 **NEXT: 10/27, 11/2, 11/9** — Tariff Commission still 502; locate MOFCOM 公告 39/43/45/47; 公告2025年第72号 primary (46号 cl.2) still owed; WATT T2 read carried.
+2. ✅ **DONE 10/9 + 10/20 + 10/29 — instrument re-check: none for either clock** (KB-192, 202, 210); USTR s.301 ships proposal is the first US paper with the 1/9 date. 🔴 **NEXT: 11/2, MUST-RUN 11/9** — read the USTR FINAL notice when it lands; China MoT port-fee mirror (primary unread); locate MOFCOM 公告 39/43/45/47; 公告2025年第72号 primary (46号 cl.2) still owed; WATT T2 read carried.
 3. ✅ **DONE 10/16 — Aug TIC graded (ZHA-18 NO).** 🟠 **NEW: explain the −$12.25B China / +$19.85B Belgium holdings residuals** (Treasury note? ask LIQUID/HANS) · re-score question for Vector 1 · refresh `VX-1.04`/`VX-7.01` (not done 10/16).
 4. 🟠 **Re-spec Vectors 6 & 9 as TWO-DIRECTIONAL** (⛔ next free `VX` id) — both read 🟢 against an actively-managed 4-yr-high yuan. **In daylight, not inside a news sweep** (KB-168).
 5. 🟠 **Primaries owed on the two NEW rows:** ChinaBond for `VX-2.08` (currently a secondary carrier) · **a single-source matched-basis figure for `VX-2.09`** — today's legs are mixed carriers/dates/conventions and **only the DIRECTION is quotable** (KB-171).
-6. 🟠 **PBOC central-parity primary** (`chinamoney.com.cn`) — boot.py pulls the MARKET rate; **the fixing is a different series and the gap between them IS the signal**, and nothing here carries it.
+6. 🟠 **PBOC central-parity SERIES** — ✅ first primary read 10/29 (CFETS via Xinhua: 6.7147 vs market 6.6607, KB-212); still owed: a series from `chinamoney.com.cn`, since **the gap between fix and market IS the signal** and one day is not a series.
 7. 🟠 **Re-spec the Belgium kill-leg** as a level/flow test — ⛔ **NOT inside the letter that grades it** (KB-159). **DEFERRED to 2026-10-23** (post ZHA-18 — now UNBLOCKED, ZHA-18 graded 10/16), routed to PROME 10/9.
 8. 🟠 **GACC Aug tables** (TLS-blocked; try CN-side) · **SAFE Aug reserves/gold**, unpulled since 7/7.
 9. 🟠 **`KB.tsv` `Stale_By` has NO READER** (30+ rows past due; ~5 lines in `boot.py` §6; ⛔ do NOT bulk-mark SUPERSEDED) · **rolling-5d SOFR basis** for `VX-2.04` (KB-154) · **Vector 8 has no `VX` row** — ⛔ **NOT `VX-ZHAO-8.01`, that id is a FROZEN row; use the next free id** (KB-146/162f).
@@ -164,7 +167,7 @@
 
 **OCT 22 — China's stocks fell to the edge of a bear market and Beijing said nothing new; the money that matters didn't run.** The CSI 300 closed about 19% below its June high (the "20%" headlines use the intraday low). No statement from the central bank or the finance ministry; the securities regulator's new ETFs and buyback push came three days earlier and didn't stop the slide. The big index ETFs the state fund uses traded 3–13 times normal volume, which looks like state buying but isn't proven until fund-share data show new units created. The yuan didn't move, so this is a stock-valuation drawdown led by AI-chip names, not money leaving China. For a big fiscal number, both venues in the next two weeks point the other way: the Party plenum (10/26–29) is about Party discipline, and the legislature's 11/2–6 session has no budget bill on its agenda.
 
-**OCT 20 — the paper still hasn't arrived, and both sides are building new levers while they wait.** Four weeks after Bessent said "January 10", neither government has published an instrument. Neither clock moves until one does: the US rule comes back 11/10, and China's suspension of its October-2025 rare-earth/battery controls ends 11/10. In the meantime Beijing published six new 公告 in ten days, including a draft to put AI, solar and biomed technology under export licensing (registration already live). Washington signed a 100% duty on the biggest buyers of Russian oil and then waived it the same day. Neither is a truce breach. Both are loaded and can be fired without new legislation.
+**OCT 29 — the first piece of paper has arrived, and it is not one of the two that matter.** The US trade office has proposed keeping its port fees on Chinese ships switched off for two more months, to January 9 — the exact date Bessent named. That shows the verbal deal being turned into rules one at a time. But the export-control rule that comes back on 11/10 (the Commerce Department's ownership rule) and China's own suspended export controls (公告70, including battery materials) still have no paper, so both still switch back on 11/10 by default. Twelve days left; next looks 11/2 and 11/9. The Party plenum's communiqué was not out yet at midnight ET.
 
 ---
 
