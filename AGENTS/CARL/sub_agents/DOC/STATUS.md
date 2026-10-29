@@ -187,6 +187,7 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 - **ACA 2027 final approved rates**: proposals only (+14–15% median).
 - **Q2 2026 NIPA healthcare-services PCE detail**: still not pulled; fold into the Oct 29 read.
 - **GLP-1 DTC/TrumpRx live prices**: administration figures ($350 → $245); live TrumpRx page not verified.
+- **VX-DOC-3.01/3.02/3.03 threshold bands** no longer fit their replacement series (Urban 26.6%; HHDC share ~5%; HHDC average $1,577 for all collections). Flagged for re-banding at the next pass, not changed after seeing the data (ML-DOC-36). VX-DOC-2.01 and 5.05 and COV-DOC-01/03/04 are explicitly marked STALE.
 - **CFPB credit-only medical debt / state-law preemption status**: 15-state laws vs the CFPB Oct-2025 preemption interpretive rule; unresolved.
 
 ---
