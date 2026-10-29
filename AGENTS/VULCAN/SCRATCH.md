@@ -1,4 +1,16 @@
-> # ⛔ 2026-10-29T09:08:57-04:00 — READ THIS BLOCK FIRST. PROME-spawned L800 funding-gap re-cut (prome-90).
+> # ⛔ 2026-10-29T10:08:18-04:00 — READ THIS BLOCK FIRST. PROME-spawned one-line erratum (prome-90): MSFT 424B2 time.
+
+▶ START HERE: unchanged from the 09:08 block below — L800 second leg (AMZN, Samsung, §4b cluster, EXIT rewrite) is OWED after tonight's prints; PROME re-spawns. This session only corrected the MSFT 424B2 time.
+
+RECONCILE fe0429555b93212e939e1d1da09df51e81722e7716c72458d5063db156a94db7 STATUS UNCHANGED: STATUS never carried the 11:33 label (grep); clock-label erratum only, no score, read or obligation moves.
+RECONCILE fe0429555b93212e939e1d1da09df51e81722e7716c72458d5063db156a94db7 THESIS UNCHANGED: no channel, stage or resolver touched by a time-of-day label.
+RECONCILE fe0429555b93212e939e1d1da09df51e81722e7716c72458d5063db156a94db7 EXIT UNCHANGED: no kill leg or rewrite trigger depends on the hour of the MSFT filing.
+
+- Corrected "10/29 11:33 ET" → "07:33 ET (EDGAR acceptance 2026-10-29 07:33:58 ET; 11:33Z)" in report line 12 and KB-319 (KB_GENERAL; KB.tsv regenerated), each with a dated erratum note. Re-checked at the EDGAR filing index 10:07 ET: Accepted 2026-10-29 07:33:58. No other "11:33" in STATUS, NEXUS_BRIEF, CHANNEL_DETAIL or KB-318/320..325.
+- PROME packet git-mv to inbox/processed/; general-inbox lane, so no board_log row (board_log is the WALTER lane, §7b). LESSONS L-82.
+- push delegated to PROME 10:08 ET (spawn prompt: do not push).
+
+> # ⛔ 2026-10-29T09:08:57-04:00 — prior block. PROME-spawned L800 funding-gap re-cut (prome-90).
 
 ▶ START HERE: L800 report `reports/2026-10-29_L800_funding-gap-Q3-prints.md` [KB-318..325]. Cluster §4b grade, EXIT rewrite and S2 hynix/Samsung grade are re-dated to 10/29 and still OWED after AMZN and Samsung print tonight. MSFT bond (424B2 acc 0001193125-26-437008) prices later: check for any flex vs talk. No push: PROME pushes at its closeout.
 
