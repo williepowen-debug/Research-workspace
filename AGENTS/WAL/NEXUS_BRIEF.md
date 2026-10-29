@@ -1,6 +1,6 @@
 # WAL — NEXUS Brief
 
-**As of:** October 28 2026 22:58 ET. **STATUS commit `03125d44c9a3dcef3431f3f328fcdd9cb6e98db9`**. Will-interactive session (Claude Opus 5.5, laptop): catch-up and data refresh — no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain. *Prior pin:* October 28 22:50 ET, STATUS `66c884cf7` (same session, before the boot kit).
+**As of:** October 28 2026 23:28 ET. **STATUS commit `4e713d7c13d1603e1394fecb5c23f32f3d71965d`**. Will-interactive session (Claude Opus 5.5, laptop): catch-up and data refresh — no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain. *Prior pins (same session):* 22:58 ET STATUS `03125d44c` (boot kit); 22:50 ET STATUS `66c884cf7`.
 **Status:** nothing graded since 10/22. Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is **still not on EDGAR** (10/28 ~22:40 ET; statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md` (10/28 close $75.96 = EV).
 **Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** The re-score is owed right after the 10-Q grade.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity and the price guards are REGINALD's; structure and position management are TERRY's and Will's.
@@ -30,6 +30,9 @@
 - **Cantor courts:** remand + stay relief GRANTED 8/24; WAL §523 suit vs the Stupins, **hearing Wed 12/9**. Procedural, no recovery → `research/2026-10-22_court-checks.md`.
 - **Jefferies:** FQ3 10-Q never mentions WAL; NY index numbers still unknown.
 - **Sell-side:** Stephens PT $94 → $88 on the NII guide (B2, single source, KB-253).
+- **Credit ratings (first baseline, 10/28):** HoldCo Moody's Baa3 / Fitch BBB / KBRA BBB+ / DBRS BBB (high); no S&P; all outlooks found Stable; no downgrade or watch after either fraud event (KBRA 5/8/26: NDFI losses "idiosyncratic"). Lead only: a Moody's trigger "capital below 11.0%" (measure unstated) vs Q3 CET1 10.9% preliminary (KB-265–267).
+- **Leadership (V4) refreshed 10/28:** Curley left for a CEO role (8-K); RSM re-ratified; board 15 → 13; zero open-market buys continue; June Gibbons/Mucha sales are the residual; the March "Boyd 11.54%" claim retired. V4 stays 3/5 for the re-score (KB-261–264).
+- **March KB rows re-verified 10/28:** Nevada is $2.0B of $44.3B commercial loans, not 18–22% (KB-270); the auditor-nexus support weakened ("100% ACL deficiency" was a misread; "Issuer B = WAL" unsupported; RSM 2025 inspection clean on ACL, KB-268).
 
 ## Next carriers
 
@@ -39,4 +42,4 @@
 
 ## Delivery
 
-Boot kit `scripts/boot.py` built and wired as charter step 5 (`03125d44c`): price, SEC filings incl. Form 4 codes, FFIEC filer list + JWT, FINRA in one read-only command. Desk commit `27ee3ed4a` (KB 260 rows / 20 groups; 9 expired rows judged; STATUS/MEMORY/INDEX; inbox drained) + stamp fix `66c884cf7`. PROME packet: `PROME/inbox/2026-10-28_from-WAL_catchup-data-refresh.md` (`e03d97e7b`, stamp fix `54071b1bc`). Exact-path commits, pushed through `scripts/safe-push.sh`. This brief is the session's last write, committed after its STATUS pin.
+Boot kit `scripts/boot.py` built and wired as charter step 5 (`03125d44c`): price, SEC filings incl. Form 4 codes, FFIEC filer list + JWT, FINRA in one read-only command. Housekeeping commits `d311dbdae` (leadership, outbox, archive) and `4e713d7c1` (ratings, 19 March rows; KB 270 rows / 20 groups); packets to REGINALD (`42d34cd92`) and OZK (`e211eedb4`). Earlier: desk commit `27ee3ed4a` (first data refresh; 9 expired rows judged; STATUS/MEMORY/INDEX; inbox drained) + stamp fix `66c884cf7`. PROME packet: `PROME/inbox/2026-10-28_from-WAL_catchup-data-refresh.md` (`e03d97e7b`, stamp fix `54071b1bc`). Exact-path commits, pushed through `scripts/safe-push.sh`. This brief is the session's last write, committed after its STATUS pin.
