@@ -1,6 +1,6 @@
 # WAL STATUS
 
-**Last Updated: 2026-10-28 22:49 ET — catch-up and data refresh (Will, interactive): no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain.** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged; nothing graded since 10/22. KB **260 rows / 20 groups**.
+**Last Updated: 2026-10-28 22:58 ET — catch-up and data refresh (Will, interactive): no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain; `scripts/boot.py` built and wired as boot step 5.** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged; nothing graded since 10/22. KB **260 rows / 20 groups**.
 
 *The 10/22 version of this file is preserved verbatim at `archive/STATUS_before-10-28_2026-10-28.md` (sha256 59f568d3…daca9); earlier history at `archive/STATUS_before-cleanup_2026-10-22.md` and `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
 
@@ -21,6 +21,7 @@ Nothing has graded since 10/22. Q3 went against the credit bear: no new office p
 | Sell-side | Stephens PT $94 → $88 (10/22, B2 single source, unconfirmed) — no newer item found | KB-253 |
 | Courts | Cantor remand + stay relief granted 8/24; WAL §523 suit vs the Stupins, motion-to-dismiss hearing **Wed 12/9**. Makhijani 11/30 / 1/12/2027 dates still **not re-verified**: CourtListener now refuses anonymous access (API 401, search 403; DEWEY saw the same 10/28) | `research/2026-10-22_court-checks.md`; KB-203/254/255 |
 | Jefferies / LAM | Unchanged since 10/22 (Jefferies FQ3 10-Q silent on WAL; NY index numbers unknown) | KB-256/257 |
+| Boot kit | **`scripts/boot.py` built 10/28 (Will: "yes build the boot script")** and wired as charter step 5: price vs EV and the exit level, SEC filings (periodic report, 8-K items, Form 144, 13D/G, Form 4 transaction codes), FFIEC filer list + JWT expiry, FINRA vs the KB's last reading. rc 0 quiet · 1 ATTENTION · 2 UNCHECKED. First run reproduced the manual 10/28 pulls; 9 offline tests (`scripts/test_boot.py`) | `scripts/boot.py` |
 | Housekeeping | KB expiry: all 9 expired rows judged one by one (223–226 superseded post-print; 193/229 superseded by 259/258; 228/246/247 extended with reasons). Inbox: DEWEY ×2 (info) and DAEDALUS WQ-508 (already applied to the charter 10/23 by `d3488e641`; reviewed, not contested) filed to processed. Corrections check rc 0 | KB.tsv header |
 
 **Price (10/28 close, fetch.py/yfinance pulled 22:36 ET; not Nasdaq-cross-checked): $75.96 (−0.58%)** — SPOT vs EV **0.00%** (delta/EV 75.96); buffer to 81.90 **+7.82%** (delta/spot). KRE $72.11 (−0.65%). Settled closes in REGINALD's exit log (Yahoo = Nasdaq): 10/23 76.12 · 10/26 75.44 · 10/27 76.40 (`../REGINALD/registry/REG_T02_EXIT_LOG.tsv`, read 10/28).
