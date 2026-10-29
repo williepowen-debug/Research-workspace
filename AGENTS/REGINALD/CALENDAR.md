@@ -40,7 +40,7 @@
 | CUBI | 2026-10-22 | Thu | after close; call Fri10/23 09:00 ET | CONFIRMED | Q1 | Customers issuer 10/13 notice · ✅ PRINTED (8-K acc 0001488813-26-000100); WQ-318 INCONCLUSIVE; N grades at 11/07 → reports/2026-10-23_boot/REPORT.md §2c |
 | FLG | 2026-10-23 | Fri | approximately06:00 ET; call08:00 ET | CONFIRMED | Q2 | Flagstar issuer 10/9 notice · ✅ PRINTED (8-K acc 0000910073-26-000080); CRE top-3 lines: 0 of 4 readable met, 2 at 10-Q → reports/2026-10-23_boot/REPORT.md §2a |
 | SBCF | 2026-10-27 | Tue | after close; call Wed 10/28 10:00 ET | CONFIRMED | FL | SBCF IR 10/5 · ✅ PRINTED 10/27 (8-K acc 0001628280-26-067572); FL 8-K cell HOLDS (2.90% vs ≥3.20%), HOLDS-PENDING-P → reports/2026-10-28_boot/REPORT.md §2 |
-| CCB | 2026-10-29 | Thu | pre-market (per CARL 10/28; issuer notice not checked) | NOT-ANNOUNCED | ctx | CARL `research/2026-10-28_sweep/WQ228_Q3_sources.md` · BaaS: Bluevine deposits (~$447M [9/25]) and partner concentration |
+| CCB | 2026-10-29 | Thu | pre-market (per CARL 10/28; issuer notice not checked) | NOT-ANNOUNCED | ctx | CARL `AGENTS/CARL/research/2026-10-28_sweep/WQ228_Q3_sources.md` · BaaS: Bluevine deposits (~$447M [9/25]) and partner concentration |
 <!-- reginald:earnings-dates:end -->
 
 ## PREDICTION INSTRUMENT DATES (named 2026-10-10; canonical text → `workbook/PREDICTIONS.tsv` Notes + `registry/NOTES.md`)

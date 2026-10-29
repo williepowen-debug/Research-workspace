@@ -57,7 +57,7 @@ Different questions of the same series ⇒ different levels are correct, not a c
 
 ### 📐 AS-MADE AUDIT RECEIPT — COMPLETION 2026-10-10 (all 20 rows; closes DAEDALUS H2 packet 9/7 + PR#6 ask 3)
 
-**Why the 9/11 receipt was partial:** it searched `STATUS.md` history only, as the tool does. **This desk registered its predictions in `AGENTS/REGINALD/PREDICTIONS.md`** (born `1c0b3d0cb` 2026-02-16, +5 rows `73e3253a5` 2026-02-23, migrated to TSV and emptied `65e054448` 2026-03-05). The 12 NOT-FOUNDs are a search-perimeter gap, not missing registrations. Every row below was re-derived by prediction TEXT at those blobs (commands: `git show <blob>:AGENTS/REGINALD/PREDICTIONS.md`, and a per-commit trace of the Confidence column across both TSV paths).
+**Why the 9/11 receipt was partial:** it searched `STATUS.md` history only, as the tool does. **This desk registered its predictions in `AGENTS/REGINALD/PREDICTIONS.md`** (a retired file, git history only — no working-tree copy; in the table below, `PREDICTIONS.md` means that file at the named commit) (born `1c0b3d0cb` 2026-02-16, +5 rows `73e3253a5` 2026-02-23, migrated to TSV and emptied `65e054448` 2026-03-05). The 12 NOT-FOUNDs are a search-perimeter gap, not missing registrations. Every row below was re-derived by prediction TEXT at those blobs (commands: `git show <blob>:AGENTS/REGINALD/PREDICTIONS.md`, and a per-commit trace of the Confidence column across both TSV paths).
 
 | Row | First registration (by text) | As-made | Later dated pre-resolution mark | Scores (WQ-112(i)) | Status |
 |---|---|---|---|---|---|
@@ -342,7 +342,7 @@ The cohort was selected under **ratio-era priors**: MTB, HBAN and VLY were admit
 
 - **The defect:** the token's name pre-attributes any WAL <$78 fire to the hidden-CRE (V1) and V3 thesis legs. A fire is a PRICE event, and its cause is attributed at the fire, never by the label.
 - **Already re-labelled 10/10:** the human labels in `CLAUDE.md` §KEY THRESHOLDS and `scripts/thresholds.py`. Both now read "WAL price stress (`REG-T-02`); cause not pre-attributed". The `threshold_thesis_ref` anchor `STATUS.md#wal-v1v3-thesis` also points at a section that no longer exists.
-- **DEFERRED, with the reason:** the TOKEN itself in `registry/THRESHOLDS.tsv` is NOT renamed today. It is a cross-desk interface, read by WALTER (`AGENTS/WALTER/design/CROSS_REFS/REGINALD.md`, `design/NEWS_SWEEP_TARGETS.md`, `routed/route_log.tsv`, the registry-header receipts). A unilateral rename would break WALTER's join. Rename only as a coordinated change with WALTER, at the next registry touch.
+- **DEFERRED, with the reason:** the TOKEN itself in `registry/THRESHOLDS.tsv` is NOT renamed today. It is a cross-desk interface, read by WALTER (`AGENTS/WALTER/design/CROSS_REFS/REGINALD.md`, `AGENTS/WALTER/design/NEWS_SWEEP_TARGETS.md`, `AGENTS/WALTER/routed/route_log.tsv`, the registry-header receipts). A unilateral rename would break WALTER's join. Rename only as a coordinated change with WALTER, at the next registry touch.
 - **Until then:** read `V1V3-ACCELERATE` as **"REG-T-02 fired (price)"** and nothing more.
 
 ## REG-T-06 — REVIEW (WQ-414, 2026-10-11)
