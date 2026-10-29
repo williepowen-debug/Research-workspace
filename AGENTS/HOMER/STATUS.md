@@ -9,7 +9,7 @@
 
 ## ⚠️ DATA VINTAGE — READ BEFORE QUOTING ANY ROW
 
-✅ **10/28 — catch-up after a 9-day gap.** Prints 10/20–10/28 graded → `reports/2026-10-28_catchup-prints.md`; 29 WALTER signals → `reports/2026-10-28_catchup-intake.md`. 10/19 narrative → `archive/STATUS_2026-10-19_morning-narrative.md`.
+✅ **10/29 — L851 wake (PROME-spawned): L851 found overtaken by the 10/28 session; DHI FQ4 added.** **10/28 — catch-up after a 9-day gap.** Prints 10/20–10/28 graded → `reports/2026-10-28_catchup-prints.md`; 29 WALTER signals → `reports/2026-10-28_catchup-intake.md`. 10/19 narrative → `archive/STATUS_2026-10-19_morning-narrative.md`.
 Workbook reviewed 10/28: ledger line-1 headers fixed, append-log rule documented, KB-HOMER-004 SUPERSEDED / 001 STALE; KB-HOMER-039–041 added.
 ⚠️ **YEAR TRAP (LESSONS §46 records n=3; a 4th instance was counted on STATUS 10/15 without a cold-register entry):** verify the page's publication YEAR, not just the month.
 
@@ -71,7 +71,7 @@ Workbook reviewed 10/28: ledger line-1 headers fixed, append-log rule documented
 | Metric | Value (as of) | Band |
 |---|---|---|
 | **🔴 NAHB HMI** | **29 OCT (−3)**; sales 33, expectations 32, traffic 18. **Price cutters 43%** (Sep 38), avg explicit cut 6%; **incentives 65%** (66). NAHB PRIMARY directly fetched 10/19 after release | 🟠 **RED price-cut rung >45% remains uncrossed**: +2pp reaches equality. A3 HMI ≥40 ×3 **0/3**; neither directional flip met. Explicit cuts understate total concessions |
-| **Builder earnings — `BUILDER.tsv`** | **Q3: PHM GM 24.8%** (Q2 25.0, incl. 70bp impairments), orders −6% · **NVR GM 18.3%** (21.0), cancels 21% · **MTH GM 17.4%**, orders −15%, ASP down on buydowns · **CCS cut FY guidance** · **GRBK GM 28.0% (−410bp), incentives 11% of orders** · MHO 20.9%. LEN FQ3 15.8%, KBH op margin 5.2%. DHI FQ4 10/29 | 🟠 compression broadening; CRL-23 PHM leg (≤22.0%) 280bp away |
+| **Builder earnings — `BUILDER.tsv`** | **Q3: PHM GM 24.8%** (Q2 25.0, incl. 70bp impairments), orders −6% · **NVR GM 18.3%** (21.0), cancels 21% · **MTH GM 17.4%**, orders −15%, ASP down on buydowns · **CCS cut FY guidance** · **GRBK GM 28.0% (−410bp), incentives 11% of orders** · MHO 20.9%. LEN FQ3 15.8%, KBH op margin 5.2% · **DHI FQ4 (10/29): GM 19.5% DERIVED** (FQ3 20.7%), orders −7%, cancels 23%; $91.4M MF-rental impairment; buydown ppts call-only, UNREAD | 🟠 compression broadening; CRL-23 legs: **DHI ≤17.5% 200bp away** (resolver 1/19/27), PHM ≤22.0% 280bp |
 | **★★ Residential construction employment** | **AUG: 18th month of YoY decline — but the deficit more than halved, −44,200 → −19,800** | 🔴 streak / 🟡 **easing — say both halves** |
 | Q2 GDP residential fixed investment | +1.3% SAAR (2nd est.) — first positive in five quarters | 🟡 |
 
@@ -129,7 +129,7 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 
 | Date | Event | Watch |
 |---|---|---|
-| **Thu 10/29** | **DHI FQ4** (pre-open) · PMMS · BEA Q3 GDP advance 08:30 · Fannie Sept MF (re-check) · UDR–Apollo close | DHI buydown size and margin vs CRL-23; does Fannie hold ~0.57%? |
+| **Thu 10/29** | PMMS 12:00 · BEA Q3 GDP (RFI) · UDR–Apollo close · Fannie Sept monthly (403/404 at 09:03) | DHI FQ4 read 10/29 (builder row); transcript buydown ppts ~10/30 |
 | **~10/30** | FMHPI Sept | nominal +2.19% Aug — still accelerating? |
 | **open** | ATTOM Sept monthly / **Q3 report** (not out at 10/28) | Q3 STARTS vs Yellow >100K; ICE says starts fell YoY in Sept |
 | **~11/02 · ~11/13** | Trepp Oct DQ · Oct SS | MF 8.04% — does it cure or hold? |
@@ -157,10 +157,4 @@ Closed A2–A6 implementation receipts → `archive/STATUS_2026-10-19_morning-na
 
 ## BOTTOM LINE
 
-**2026-10-28 — catch-up after a 9-day gap, then build-out (Claude Code, one session).**
-
-**What moved:** 90+/FC pipeline **882K (ORANGE, 118K from RED)** while FC starts turned negative YoY (first time) and FC sales rose +14.5% — inflow cooling, conversion continuing. **Fannie MF 0.62% at 9/30 with its MF provision +72%** (3bp below Orange; the provision, not the mod-lowered headline, carries the GSE signal). Freddie eased to 0.58%. Sun Belt MF realized marks (FBRT, TRTX). Rent breadth fell to **39/100 (YELLOW)**. PMMS 7.32%. Demand weaker (pending −7.3% MoM; purchase apps −18% YoY). Builder margins compressing broadly.
-
-**Built (Will-approved):** threshold registry + scanner (BOOT 6b); Trepp Oct MF pre-registration; COVERAGE map; MAINTENANCE log; named MF cases → CREED; HENRY edge formalized; DHI buydown tracker; monthly rent-breadth row; **NV and CA lanes** (observations, no bands). 29 WALTER signals and 13 prints integrated. Detail → `reports/2026-10-28_*` and `MAINTENANCE.md`.
-
-**Thesis 0/5 killed, 🔴 holds; formal review 11/20. Will decision required: none.** ⚠️ `LESSONS.md` is 377 B from its rotation trigger — rotate before the next lesson. Push deferred (other desks' uncommitted work in the tree).
+**2026-10-29 — PROME-spawned L851 wake (Claude Code, Opus 5.5).** L851's four asks were already done by the Will-launched 10/28 session (registered 21:37 ET, session 22:46–23:45 ET): 0 unlogged WALTER signals, ICE Sept First Look and Freddie Sept graded (C1 0/3, C2 0/3), DAEDALUS items 1–7 closed. **PMMS is one figure: 7.32% [wk 10/22]**, Freddie issuer CSV re-read 09:03 ET; the 7.40% was HOMER's own brief before its 23:40 refresh (CARL already 7.32%; REGINALD carries none). **New: DHI FQ4 GM 19.5% (DERIVED, segment basis), 200bp above CRL-23's DHI leg**; orders −7%, cancels 23%, $91.4M impairment on nine MF rental projects. Fannie Sept monthly still unread (issuer 403/404). Thesis 0/5 killed, 🔴 holds; formal review 11/20. **Will decision required: none.** 10/28 detail → `reports/2026-10-28_*`, `MAINTENANCE.md`.

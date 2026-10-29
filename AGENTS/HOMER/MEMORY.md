@@ -15,7 +15,7 @@
 - **`workbook/KB.tsv` is FROZEN (2026-07-10)** — parent-era canonical KB, ~65 rows, CARL_ID provenance column intact. Do not append to it; do not renumber it. New rows go to `workbook/KB_LIVE.tsv`. The freeze banner is the row-ID-stability contract — breaking it breaks the delegation provenance CARL's own KB still cites.
 - **`state_vectors/corrected/` is a retrieval hazard, not a normal subdirectory.** It holds exactly one withdrawn/superseded SV (SV-HOMER-2026-06-08-01). CARL's old harvest globs (and any future search) do NOT descend into `corrected/` — a valid/live SV must never be filed there. Kept as historical record only; the SV channel itself is retired (see CLAUDE.md).
 - **`archive/` holds pre-promotion build artifacts** (GAP_ANALYSIS.md, REPORT.md, SPAWN1_DATA_REFRESH.md, UPDATE_PLAN.md) — Apr-vintage, already flagged in-file as archive candidates by the 7/10 verification pass. Historical record; no action needed unless a future sweep wants to prune further per the Data Hygiene >60d rule.
-- ~~`domain/` exists but is empty~~ — **gone** (verified absent 2026-10-28); research lives in `reports/`.
+- `domain/` — **not in git** (nothing tracked; verified 2026-10-28); an EMPTY untracked `domain/` directory still exists on this box's disk (seen 2026-10-29) — harmless, holds nothing. Research lives in `reports/`.
 
 ## Cross-Agent Facts Worth Remembering
 

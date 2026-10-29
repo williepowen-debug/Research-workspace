@@ -1,8 +1,30 @@
-# HOMER SCRATCH — 2026-10-28 catch-up session
+# HOMER SCRATCH — 2026-10-29 L851 wake (PROME-spawned, prome-90)
 
-**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), Will-launched from `AGENTS/HOMER/`, 2026-10-28 22:46 ET start. Two Opus retrieval helpers (read-only, scratchpad output; no repo writes). Tree had other desks' dirty files (WAL, CARL/PHAN) ⇒ **no pull** per root Git Protocol; local commit, push via safe-push only if clean.
+**Runtime/session:** Claude Code, Opus 5.5 (`claude-opus-5-5`), spawned by PROME as HOMER ~09:00 ET under DOCKET L851 (WQ-184 Tier-1 due-row wake). Eight desks live on the host ⇒ exact-path local commits, **no pull, no push** (PROME pushes at its closeout).
 
-## Done this session
+## Done 2026-10-29
+
+| Item | Result |
+|---|---|
+| L851 ① intake | **Overtaken** — 0 unlogged WALTER signals by SIG-ID grep (29 logged 10/29T02:56Z: 20 ACTIONED / 9 INFO); `inbox_census` 0/0 |
+| L851 ② prints | Already graded 10/28: ICE Sept First Look C1 0/3 (neither flip met); Freddie Sept 0.58% + Fannie 9/30 0.62% C2 GSE 0/3. **Fannie Sept Monthly Summary (V1 resolver) still UNREAD** — issuer 403/404 at 09:03 ET; grade invariant |
+| L851 ③ PMMS | **One figure: 7.32% [wk 10/22]** (Freddie `PMMS_history.csv`, re-read 09:03 ET). 7.40% = the 10/08 and 10/15 prints; it was on HOMER's own brief until the 10/28 23:40 refresh. CARL STATUS:41 already 7.32%; REGINALD carries no PMMS. No packet owed |
+| L851 ④ DAEDALUS | Items 1–7 verified closed at artifacts; #8 (THESIS D2–D4, A2 upgrade rung) stays for 11/20. `PROME/registry/READS.tsv` has no HOMER row (PROME's file — flagged in memo) |
+| **DHI FQ4 (new, today's docket row)** | GM **19.5% DERIVED** (segment basis reproduces issuer FQ3 20.7%); orders −7%; cancels 23%; $91.4M impairment on nine MF rental projects. CRL-23 DHI leg ≤17.5% 200bp away, resolver **Tue 2027-01-19**. BUILDER + MULTIFAMILY rows; docket rows rolled |
+
+## Open / next
+
+- **DHI FQ4 transcript (~10/30):** buydown ppts + backlog rate vs market → BUILDER buydown tracker FQ4 cell (docket row added).
+- **PMMS 10/29 prints at 12:00 ET today — NOT integrated by this session** (A2 weekly; RATES row + THRESHOLDS reading cell).
+- Fannie Sept Monthly Summary — retry; Freddie Q3 10-Q (~10/29–31) for the provision pairing.
+- ATTOM Sept/Q3 still unpublished at 10/28 — Q3 STARTS band reading waits.
+- ⚠️ LESSONS.md 377 B from its rotation trigger — rotate before the next lesson.
+- Formal thesis grade **2026-11-20**; HOM-02 decider MBA Q3 NDS ~mid-Nov.
+
+---
+
+## Prior session (2026-10-28) — retained for one session
+### Done 2026-10-28
 
 | Item | Where |
 |---|---|
@@ -18,7 +40,7 @@
 | **News sweep (Will-asked)** — Fannie Q3 MF 0.62% + provision +72% (re-read at filing; KB-HOMER-042, HB-01 NEAR, THESIS §9 addendum); FBRT/TRTX realized MF; Trepp TX/SASB; MAA/UDR; Census HVS 7.6%; MHO/GRBK; DFH–BZH; TMHC/TPH cause RESOLVED; UWM MSR sale; Rithm; Treasury FR 10/23 | `reports/2026-10-28_news-sweep.md`; evidence in `reports/2026-10-28_evidence/` |
 | **Desk build-out (Will: "do all 5, route cases to CREED")** — `registry/THRESHOLDS.tsv` + `tools/threshold_scan.py` (fail-closed tested; BOOT 6b), `registry/PREREG_2026-10_TREPP_MF_PRINT.md` (frozen on commit), `COVERAGE.md`, `MAINTENANCE.md`; MF named cases → CREED (packet `AGENTS/CREED/inbox/2026-10-28_from-HOMER_mf-named-cases-routing.md`) | charter BOOT 6b, CLOSEOUT 2, §Scope, FILES |
 
-## Open / next
+### Open / next (as of 10/28)
 
 - **Next print session: update `registry/THRESHOLDS.tsv` reading cells and run `tools/threshold_scan.py`** (Fannie HB-01 NEAR, FHA HB-09 NEAR, cutters HB-10 NEAR, breadth HB-11 NEAR). Freddie Q3 10-Q (~10/29–31) gives the Freddie provision pairing.
 - **NV/CA lanes BUILT 2026-10-28** (Will 23:27 ET): STATE_HSG 7 NV + 6 CA rows, 7 docket rows, charter signals/sources, COVERAGE 14a/14b. Gaps: no numeric LA fire-ZIP DQ for 2026; AB 1847 effective date inferred; no NV FHA DQ source. CA insurance = AEOLUS.
