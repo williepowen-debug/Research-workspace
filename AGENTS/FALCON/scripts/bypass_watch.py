@@ -126,13 +126,34 @@ def main():
     # Empty-series guard (2026-10-29): Sohar port988 began returning ZERO
     # rows. An uncaught IndexError exits 1 — which on this INVERTED gauge
     # reads as COLLAPSE. A missing series is a fetch failure, never a fire.
+    # Checked 10/29: PortWatch_ports_database still lists Sohar as port988,
+    # but Daily_Ports_Data holds 0 rows for it (whole history) while
+    # Fujairah/Sharjah hold 2,853 — the series was DROPPED upstream, not
+    # renamed. DEGRADED mode prints the surviving primaries per-port, then
+    # exits 2: a partial cluster can never certify HOLDING (rc 0) or
+    # COLLAPSE (rc 1), and the combined state file is left untouched.
     empty = [lbl for lbl, rows in data.items() if not rows]
     if empty:
         print(f"bypass_watch: EMPTY SERIES for {', '.join(empty)} — the "
-              f"query succeeded but returned no rows (portid removed or "
-              f"renamed?). Endpoint: {BASE}\nDo NOT assume unchanged and do "
+              f"query succeeded but returned no rows (series dropped "
+              f"upstream). Endpoint: {BASE}\nDo NOT assume unchanged and do "
               f"NOT read as collapse; consult "
               f"domain/BYPASS_INTEGRITY_BASELINE.md.", file=sys.stderr)
+        alive = [lbl for lbl in PRIMARY if data[lbl]]
+        if not alive:
+            return 2
+        print(f"Hormuz-bypass gauge — ⚠️ DEGRADED (missing primary: "
+              f"{', '.join(l for l in PRIMARY if not data[l])}); per-port "
+              f"context only, NO combined verdict:")
+        for lbl in alive + [l for l in SECONDARY if data[l]]:
+            ts, tc, tdm, bdm = summarize(data[lbl])
+            floor = bdm * FLOOR_FRAC
+            tag = "PRIMARY" if lbl in PRIMARY else "second."
+            state = ("HOLDING" if tdm >= floor else "⚠️ BELOW FLOOR") \
+                if lbl in PRIMARY else "context only"
+            print(f"  [{tag}] {lbl:9} newest {data[lbl][-1][0]}  trail-"
+                  f"{TRAIL_DAYS}d {tdm:8.0f} t/d vs {BASE_DAYS}d-base "
+                  f"{bdm:8.0f}  floor {floor:8.0f}  {state}  (calls {tc})")
         return 2
 
     newest = max(rows[-1][0] for rows in data.values())

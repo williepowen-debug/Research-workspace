@@ -17,9 +17,9 @@ B 1 / C 14 / D 85 HELD; convergence 43/50 retained. FAL-06 OPEN at 70% (resolves
 - Processed 7 WALTER signals (board_log + git mv). KB-348..353. STRIKES mark → 10/28. FRESH_LEG_BASELINE 10/29 block. STATUS rewritten (prior archived verbatim). PROME gate packet.
 
 ## NEXT SESSION (dated, future-verifiable)
-0. FIRST (October 30): resolve VI-0085 Khasab fire (10/29 ~03:00Z) — hull name via IMO table + NAVAREA IX (Pakistan NHO), cause, sunk or not; match against IRGC 3-mine claim. Confirmed hostile tanker sinking = census 5→6, first class(iii-A) — grade then. git mv SIG-W-20261029-035 to processed once WALTER has committed it (already logged in board_log).
+0. DONE 10/29 13:0x: VI-0085 = dhow MSV QUBA, sunk, crew evacuated (NAVAREA IX 417/26 + UKMTO 185-26) ⇒ census 6, class(i)=2, no rung. Still open: IRGC 3-mine-hit tanker claim (watch IMO table / NAVAREA for named tankers); LEONORA KOSAN candidate for VI-0082/0083 (confirm which). SIG-W-20261029-035 filed to processed (WALTER commit f57936c1e).
 1. November 1–2: Sinokor watch — any named Sinokor hull detained/seized/turned back; Sinokor or Korean government response. A detention = shipping-vector event (already at 5), record in VESSELS.
-2. Find Sohar's current PortWatch portid (Daily_Ports_Data; queries flake ~50% — retry) and re-map bypass_watch.py PRIMARY; until then bypass = BLIND, never HOLDING.
+2. DONE 10/29: Sohar series DROPPED upstream (port988 still Sohar in ports DB; 0 daily rows). bypass_watch now DEGRADED mode (Fujairah per-port, rc 2, no combined verdict). Recheck weekly whether PortWatch restores it; never read DEGRADED as HOLDING.
 3. November 4: weekly scenario + GATE-FALCON-001 review (current TankerMap vintage).
 4. November 5: FAL-06 dated search ON that day. January 2, 2027: FAL-07 failure search if unresolved.
 5. Ras Tanura: any Aramco/MoE statement or loadings evidence; UKMTO 182/183/184+ originals (403 here).
@@ -27,7 +27,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50 retained. FAL-06 OPEN at 70% (resolves
 ## OPEN THREADS / WATCHES
 - Not done 10/29: CTP/ISW Iraq/PMF read (no quiet inference), cyber/cable re-search, full VX stamp sweep.
 - Insurance 5 rows EXPIRED, WQ-298 CANNOT-FIRE; do not re-argue access.
-- Carried builds: KB-168 Yanbu proxy (PROME WQ-533(a) recs abandoning BRENT's Yanbu shadow run — BRENT/PROME's call), baseline hot/cold split, sub-$80 duration bar, archive-content guard, EXIT boot reader, Sohar re-map.
+- Carried builds: KB-168 Yanbu proxy (PROME WQ-533(a) recs abandoning BRENT's Yanbu shadow run — BRENT/PROME's call), baseline hot/cold split, sub-$80 duration bar, archive-content guard, EXIT boot reader, Sohar series restoration watch.
 
 ## PREDICTIONS / DECISIONS
 None due today. No Will decision from FALCON.
