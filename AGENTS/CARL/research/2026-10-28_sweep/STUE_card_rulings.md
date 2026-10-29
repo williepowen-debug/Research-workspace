@@ -24,3 +24,12 @@ Source: `inbox/processed/2026-10-28_from-STUE_CLAUDE-card-fixes-proposed.md` (ST
 ## Third item (STUE packet `2026-10-28_from-STUE_FSA-servicer-performance-call-figures-verified.md`, commit de61e0b62)
 
 L95 wait-time ratio: APPLY as proposed. Derivable from FSA Loan Servicer Performance FY2024 Q4 (ED data, not plaintiff-sourced); vintage Jul–Sep 2024 warning added. This supersedes the earlier "attribution UNVERIFIED" wording, which was replaced rather than annotated.
+
+## Fourth batch (STUE packet `2026-10-28_from-STUE_closeout-protocol-and-docket-gaps.md`, commit 14a61c9fb)
+
+| Item | Ruling | Applied |
+|---|---|---|
+| Closeout protocol (Will asked STUE) | APPLY, on DOC's template | STUE § On Session End gains step 0 (scope / partial-closeout honesty), 3c ledger clocks + mirror pairs, 3d inbox at close, 3e fleet checks with their rc reported, 4b push by session type, 5 next run docketed, 6 final report. Existing steps 1–4 unchanged. |
+| ES-02 final-grade docket row | APPLY | CATALYSTS/CALENDAR row 2026-11-13 added |
+| AFT v. ED time | APPLY | Row text now reads Mon 11/23 11:00 AM ET (was "10:30 ET") |
+| Read-cap: STATUS metered whole | PARTIAL | Line-22 wording changed to an on-demand grep. The checker then keys on line 15, which correctly says "BOUNDED HEAD ONLY"; the checker does not parse that phrase. Proper fix: a PROME `registry/READS.tsv` declaration of the bounded-head read (routed to PROME 10/28). Separately, the bounded head itself (~36–42 KB per STUE) exceeds the 32,550 B budget, so STUE trims the head at its next pass (rotation of closed/resolved content; never live figures). Until then the rc=1 stands and is reported, not hidden. |
