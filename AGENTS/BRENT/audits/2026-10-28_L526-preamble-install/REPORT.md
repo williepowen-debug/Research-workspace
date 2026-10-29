@@ -37,4 +37,17 @@ Each update sent the full `job_config.ccr` object (environment `env_01QX7qsmYcEN
 
 ## 3. Validation run
 
-Pending at the time of writing; see §4, added after the run.
+**Observed 2026-10-29T03:57–04:03Z (≈00:00 ET), ~17 min after the Thursday `updated_at` above.** This was the Thursday EIA-fallback routine firing off its registered cron slot (next scheduled fire per `SCHEDULED_RUNS.md` is 2026-10-29T18:15Z) — timing is consistent with this being the install's own validation fire, but the run itself did not confirm *why* it fired (routines report, they don't adjudicate their own trigger). Full output: `AGENTS/BRENT/demand_destruction/data/thursday_2026-10-29.md`.
+
+Container state hit by this run: **not shallow, HEAD detached, `.venv/` absent, master 262 commits behind origin** (clean fast-forward, no divergence).
+
+| AC | Exercised this run? | Result |
+|---|---|---|
+| AC1 (shallow+detached boots to `master == origin/master`, no human step) | **Partially** — container was detached but not shallow | MET on the detached-HEAD half: `git checkout master` → `git merge --ff-only origin/master` ran clean, 262 commits fast-forwarded, ended at `origin/master` HEAD, no human step. Shallow-clone half still unobserved on a BRENT run. |
+| AC2 (diverged master stops at step 3, prints counts, writes nothing) | No — no divergence existed | Not exercised |
+| AC3 (missing `.venv/` rebuilt, or name the missing file) | **Yes** | MET — venv was genuinely absent; `python3 -m venv .venv && .venv/bin/pip install -r AGENTS/BRENT/scripts/routine-requirements.txt` completed clean, all six pinned packages installed without error |
+| AC4 (clean full clone prints `unshallowed=n detached=n ff=0 venv=present`, quiet path watched) | No — container was not in the clean/quiet state | Not exercised |
+
+First-line receipt format (`PREAMBLE: unshallowed=<y/n> detached=<y/n> ff=<n> venv=<state>`) was produced correctly on both the output file and this routine's final report, per step 5.
+
+**Remaining for the independent reader:** AC2 and AC4, plus AC1's shallow-container case, are still unobserved on any BRENT routine run as of this entry.
