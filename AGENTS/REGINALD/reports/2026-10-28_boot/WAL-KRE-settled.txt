@@ -1,0 +1,27 @@
+# WAL/KRE settled closes — retrieved 2026-10-28T22:26:04-04:00 via scripts/settled_bars.py (yfinance daily + Nasdaq historical cross-check; both RC=0)
+WAL settled closes (yfinance daily bars, NaN + today's bar excluded) vs Nasdaq historical:
+  2026-10-14  72.22   nasdaq    72.22   agree
+  2026-10-15  74.35   nasdaq    74.35   agree
+  2026-10-16  74.51   nasdaq    74.51   agree
+  2026-10-19  73.63   nasdaq    73.63   agree
+  2026-10-20  75.30   nasdaq     75.3   agree
+  2026-10-21  75.55   nasdaq    75.55   agree
+  2026-10-22  76.67   nasdaq    76.67   agree
+  2026-10-23  76.12   nasdaq    76.12   agree
+  2026-10-26  75.44   nasdaq    75.44   agree
+  2026-10-27  76.40   nasdaq     76.4   agree
+  2026-10-28  NOT GRADED — today's bar (75.96) — not settled
+RC[WAL]=0
+KRE settled closes (yfinance daily bars, NaN + today's bar excluded) vs Nasdaq historical:
+  2026-10-14  68.54   nasdaq    68.54   agree
+  2026-10-15  69.75   nasdaq    69.75   agree
+  2026-10-16  69.81   nasdaq    69.81   agree
+  2026-10-19  69.26   nasdaq    69.26   agree
+  2026-10-20  70.62   nasdaq    70.62   agree
+  2026-10-21  70.62   nasdaq    70.62   agree
+  2026-10-22  72.41   nasdaq    72.41   agree
+  2026-10-23  72.46   nasdaq    72.46   agree
+  2026-10-26  72.73   nasdaq    72.73   agree
+  2026-10-27  72.58   nasdaq    72.58   agree
+  2026-10-28  NOT GRADED — today's bar (72.11) — not settled
+RC[KRE]=0
