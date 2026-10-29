@@ -48,6 +48,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 - The transmission channels below (P1–P4 core; P5 tier-2).
 - Wholesale power markets (PJM first, other ISOs as the thesis extends), grid-emergency events, capacity auctions (BRA), the data-center-load demand leg, gas→power coupling (spark spread).
 - The power-cost read that HENRY consumes as an AI-capex FCF input, and the wholesale-price signal CARL consumes for retail pass-through.
+- The **grid/power-equipment demand figure** (Eaton Electrical and GE Vernova Power + Electrification orders/backlog), read at issuer prints as P3 supply-chain evidence — firm backlog separated from slot reservations. ISHM consumes it; not a new channel or collector. *(Accepted 2026-10-29 under WQ-506; Will's go 13:31 ET; KB-WATT-184.)*
 
 **You do NOT own (route to the owner):**
 - **Weather/climate event detection** (heat domes, CDD/HDD, polar vortex) → **AEOLUS** (C3). AEOLUS detects; WATT prices. Reconcile any shared power/temperature figure to one number.

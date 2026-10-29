@@ -73,3 +73,33 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-23T01:04:58-04:00	2026-10-22_from-CYPHER_boundary-confirmation	acted	INBOX	Boundary confirmed as written (CYPHER event, WATT consequence; FIRED grid-operator row = P1 packet); reply packet 7f94e64f4; KB-WATT-180.
 2026-10-23T01:04:58-04:00	SIG-W-20261022-006	info-only	INBOX_WALTER	AI tape 10/22 (Meta CDS, Lam supply cap, Tesla capex ~20B): VULCAN/LIQUID legs, no power channel, P3 stays 4; KB-WATT-180.
 2026-10-23T01:04:58-04:00	SIG-W-20261023-004	noted	INBOX_WALTER	Amazon Ashburn 4-building site plan dropped (Loudoun deal 10/20): siting settlement, MW not stated; not P3 trigger, P3 stays 4; KB-WATT-180.
+2026-10-29T13:38:47-04:00	SIG-W-20261025-005	info-only	INBOX_WALTER	Jubilee acid cost +200% fiscal Q4 (Apr-Jun): MIDAS/FERT input-cost context; no power channel; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261025-007	info-only	INBOX_WALTER	a16z hardware import/output chart: growth rates not import shares; ISHM owns; electrical-equipment scope noted under WATT custody KB-WATT-184/185.
+2026-10-29T13:38:47-04:00	SIG-W-20261025-008	noted	INBOX_WALTER	ECMWF 10/23 run SSW forecast, not observed; superseded by AEOLUS 10/29 packet; winter P1 gate HELD; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261025-021	info-only	INBOX_WALTER	Copper acid stress varies by producer, ICSG refined surplus: MIDAS/FERT; no power channel; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261025-023	info-only	INBOX_WALTER	Hardware chart partial replication; electrical IPG3353S -6.46% domestic output; ISHM owns; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261025-029	info-only	INBOX_WALTER	Meta FCF -1.156bn vs -2.120bn = finance-lease principal; VULCAN owns; P3 unchanged; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261026-006	noted	INBOX_WALTER	EQT-Range all-stock, Q1 2027 close; no near-term gas/power effect; P4 stays 2; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-004	info-only	INBOX_WALTER	Anthropic S-1 pre-training delay >1 month for security: VULCAN; no power MW consequence; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-005	info-only	INBOX_WALTER	OpenAI ETH disproof claim, verification pending: no datacenter demand consequence; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-017	noted	INBOX_WALTER	FORTRESS 90-day off-grid base standard: prospective resilience planning, no MW/procurement; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-026	acted	INBOX_WALTER	Vantage San Antonio suit: 405 MW on-site gas and 455 MW diesel backup kept separate in power-demand interpretation (ERCOT, outside PJM); KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-027	acted	INBOX_WALTER	PJM maintenance 10/27 14:50-17:00 EPT: applied to the 10/27 15:30-16:05 tape gap (8 stamps) as a source qualification; DST 11/1 repeated hour noted for the de-escalation window; KB-WATT-182.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-038	info-only	INBOX_WALTER	OpenAI on Google Cloud Marketplace: distribution, not incremental capex; VULCAN; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-063	noted	INBOX_WALTER	Site Selectors Guild: power 79% location factor, 35% fewer groundbreakings (survey, not cancelled MW); P3 stays 4; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-067	info-only	INBOX_WALTER	Outdoor-storage rents/AI staging: CREED/VULCAN; no power channel; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-068	info-only	INBOX_WALTER	Blackstone platform vs pipeline vs financing perimeters: VULCAN; no delivered MW; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261027-069	info-only	INBOX_WALTER	Florida leads (S FL industrial pipeline -42% with power constraints attributed): CORAL; not PJM; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261029-007	info-only	INBOX_WALTER	CYPHER corrections; Delta Electric unconfirmed, no OT evidence; R1 COR-20261029-07 receipted NO-OP d47ab7bc2; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261029-025	info-only	INBOX_WALTER	AI financing ~$37.5B priced not $200B; GOOGL -11.7% on unchanged capex guide: VULCAN/HENRY; P3 unchanged; KB-WATT-185.
+2026-10-29T13:38:47-04:00	SIG-W-20261029-031	info-only	INBOX_WALTER	SRS lab fire (no contamination), Japan preparedness appeal, FORTRESS relay: no grid event; KB-WATT-185.
+2026-10-29T13:38:47-04:00	2026-10-23_from-DAEDALUS_ISHM-grid-equipment-figure-ASK	acted	INBOX	ACCEPT; packet to ISHM cc PROME; KB-WATT-184.
+2026-10-29T13:38:47-04:00	2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines	acted	INBOX	f4149bf51 diff read, no contest; filed.
+2026-10-29T13:38:47-04:00	2026-10-26_from-ISHM_first-session-boundary	acted	INBOX	Custody ACCEPT reply; KB-WATT-184.
+2026-10-29T13:38:47-04:00	2026-10-26_from-ISHM_cat-power-generation-scope	noted	INBOX	CAT stays ISHM; KB-WATT-184.
+2026-10-29T13:38:47-04:00	2026-10-26_from-ISHM_news-sweep-equipment-crowding	noted	INBOX	Beige Book qualitative; KB-WATT-184.
+2026-10-29T13:38:47-04:00	2026-10-26_from-BRENT_EQT-Range-conditional-supply	noted	INBOX	No P4 effect; KB-WATT-185.
+2026-10-29T13:38:47-04:00	2026-10-26_from-VULCAN_conditional-financing-power-consequences	acted	INBOX	Assessed: no MW/power rights; P3 4; KB-WATT-185.
+2026-10-29T13:38:47-04:00	2026-10-26_from-VULCAN_power-news-execution-and-counterevidence	acted	INBOX	Assessed: PG&E outside PJM, NERC proposed; P3 4; KB-WATT-185.
+2026-10-29T13:38:47-04:00	2026-10-29_from-AEOLUS_polar-vortex-reversal-forecast-ECMWF-unanimous	noted	INBOX	Winter gate HELD; reply packet carries the 10/27 P1 fire; KB-WATT-185.
+2026-10-29T13:38:47-04:00	2026-10-29_from-ZHAO_first-truce-instrument-is-ustr-ships-not-the-11-10-clocks	noted	INBOX	B1/58 UNFIRED; KB-WATT-185.
