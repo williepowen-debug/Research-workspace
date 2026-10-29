@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD at 10/29 weekly review; Bab gate LIVE (leg 2 NOT MET); Iran's Sinokor action from 11/1 is the next watch.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-10-29 12:20 EDT | STATUS commit: `a83f18891` | Evidence cutoff ~13:45 EDT
+**As of:** 2026-10-29 12:20 EDT | STATUS commit: `a091ad187` | Evidence cutoff ~14:05 EDT
 
 ## CROSS-DOMAIN
 
@@ -15,6 +15,7 @@
 | BRENT / HAWK | Iran PGSA: "legal action" against ALL Sinokor vessels from 11/1; ≥7 already actioned. Reuters: ~40% of Sept Hormuz crude outflow | P1 | Hormuz flow already ~1 tanker/day (PortWatch to 10/25) ⇒ no band change possible; a named-hull detention = shipping event; VLCC/freight read is BRENT's |
 | HAWK / BRENT | NAVCENT/JMIC 10/28: non-essential vessels stay clear; blockade enforcement, visit and search of neutrals. WSJ 10/27 post-midterm "short, intense" campaign posture | P1 | Posture tightening, not kinetic: FAL-07 NOT FIRED; WH "not before the midterms" stands |
 | HAWK / BRENT / SAM | Afternoon pass: IRGC 3-tanker mine claim = claim-only (no hulls; CENTCOM says routes cleared). Qatar LNG force majeure extended to end-December (SAM: Japan LNG). Iraq: militia drones surveilled US Embassy Baghdad 10/27, intercepted — PMF discriminator not fired. Israel reportedly asked US to clear new Iranian energy targets if operations resume (Kan, single report) | P1 | KB-357..363; all VX re-verified 10/29 |
+| HAWK / BRENT | Day-by-day sweep 10/27–29: Egypt parliament authorised support for Saudi defence 10/26 (not deployed, defensive only; Houthis call it a declaration of war) — fifth-axis WATCH; Houthi–government land clashes near Bab el-Mandeb ~97 killed; third US carrier group reported; Qatar draft deal disputed, reply ~10/31 | P1 | KB-366..369; TIMELINE now runs to War Day 244 |
 | PROME | GATE-FALCON-001 reviewed 10/29 (owed 10/28): LIVE, leg 2 NOT MET (lowest ratio 80.0% vs ≤65%), override not triggered, next review_by 11/04 | P2 | Packet in PROME/inbox |
 | BRENT / HAWK | PortWatch transit back (server flake fixed): 10/19–25 = 23 total / 6 tankers | P2 | AIS counts, not barrels |
 
