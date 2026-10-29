@@ -129,6 +129,48 @@ def attributed_by_commit(sc, baseline, seen, delivered_paths, rules):
     return out
 
 
+def attributable_commits(sc, baseline, seen, delivered_paths, rules):
+    """WQ-448 re-scoped (Will 2026-10-29 13:45 ET, verbatim "yes approved please fix"; acceptance
+    ACCEPTANCE_closeout_gate_foreign_overlap_2026-10-29.md): the COMMITTED side of a path judged ALONE — every window
+    commit touching it carries a non-PROME subject, no PROME filename evidence, lane not OWNED under the PINNED rules,
+    not delivered, not never-advisory. Returns {path: commits}. Unlike attributed_by_commit it ignores pending state
+    and working bytes: it answers "whose commits are these", not "is the working tree clean". Used for a path that is
+    committed by its desk AND still pending (the desk kept typing), which under WQ-517 A read UNCLASSIFIED at the
+    --ref forms and, with eleven live desks, never cleared."""
+    if rules is None:
+        return {}
+    subjects = sc.commit_subjects(baseline)
+    out = {}
+    for p, s in seen.items():
+        if not s['commits'] or p in delivered_paths or never_advisory(sc, p, rules):
+            continue
+        if sc.classify(p, rules)[0] == 'OWNED':
+            continue
+        entry = {'path': p, 'committed': [c[:9] for c in s['commits']], 'pending': []}
+        if sc.authorship_evidence(entry, subjects):
+            continue
+        out[p] = s['commits']
+    return out
+
+
+def history_attributable(sc, path, shas, delivered_paths, rules):
+    """Reader CE01 (Opus, 2026-10-29 13:5x ET) ❌: the history leg must judge "whose commits are these" over
+    baseline..TARGET, not baseline..HEAD — at a --snapshot beyond HEAD a PROME commit in HEAD..target would otherwise
+    be invisible to attributable_commits(). `shas` are the commits touching `path` in baseline..target (from
+    changes()); each subject is read directly. Same predicate otherwise: not delivered, not never-advisory, lane not
+    OWNED under the pinned rules, no PROME authorship evidence (subject or filename)."""
+    if rules is None or not shas or path in delivered_paths or never_advisory(sc, path, rules):
+        return False
+    if PurePosixPath(path).name in IGNORE_FILES:   # reader CE18 (second read): every ignore file stays strict at the history leg too (WQ-517 read #1 ❌1)
+        return False
+    if sc.classify(path, rules)[0] == 'OWNED':
+        return False
+    uniq = list(dict.fromkeys(shas))
+    subjects = {sha[:9]: git(sc, 'log', '-1', '--format=%s', sha) for sha in uniq}
+    entry = {'path': path, 'committed': [sha[:9] for sha in uniq], 'pending': []}
+    return not sc.authorship_evidence(entry, subjects)
+
+
 def pin_perimeter(sc):
     """The perimeter AS LOADED at the freeze, recorded in the manifest outside the contract (L796 ❌2 repair,
     acceptance ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md). No readable perimeter ⇒ rules None ⇒ every
@@ -306,6 +348,7 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
         # A manifest with no pin (frozen before this change) runs strict.
         rules = pinned_rules(manifest)
         auto = attributed_by_commit(sc, c['baseline'], seen, delivered, rules) if 'attributed_by_commit' in manifest else {}
+        attributable = attributable_commits(sc, c['baseline'], seen, delivered, rules) if 'attributed_by_commit' in manifest else {}
         # Will 2026-10-22 12:34 ET ("we need to change these rules"): on a WORKING-TREE verify, a PENDING path that is
         # neither OWNED nor PROME-evidenced is another owner's live work — advisory, never blocking. The delivery
         # commit (--ref) is still verified by its actual paths. Acceptance: ACCEPTANCE_closeout_gate_foreign_pending_2026-10-22.md
@@ -351,9 +394,27 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                 # folder is EXCLUDED, yet its patterns can hide an OWNED / PROME-evidenced arrival below it from this
                 # inventory — so at the --ref / --snapshot forms every ignore file keeps the PRE-REPAIR strict behaviour
                 # (UNCLASSIFIED); the working-tree gap for the same file is DOCKET L835, unchanged here.
-                pending_only = target is None or (not state['commits'] and PurePosixPath(path).name not in IGNORE_FILES)
-                lane = foreign_pending(path, state) if pending_only else None
-                if lane:
+                # WQ-448 re-scoped (Will 2026-10-29 13:45 ET): at the --ref / --snapshot forms a path that is committed
+                # by its desk AND still pending is advisory too, PROVIDED its committed side is attributable on its own
+                # (attributable_commits: every window commit non-PROME by subject, no PROME filename evidence, lane not
+                # OWNED, not delivered, not never-advisory). Ignore/attribute files keep the strict behaviour (read #1 ❌1).
+                # Delivered content, dependencies, actual commit paths and the history leg below stay strict.
+                name_ok = PurePosixPath(path).name not in IGNORE_FILES
+                over_committed = False
+                if target is None:
+                    lane = foreign_pending(path, state)
+                elif not state['commits'] and name_ok:
+                    lane = foreign_pending(path, state)
+                elif state['pending'] and name_ok and path in attributable:
+                    lane = foreign_pending(path, state)
+                    over_committed = lane is not None
+                else:
+                    lane = None
+                if lane and over_committed:
+                    shas = ','.join(dict.fromkeys(x[:9] for x in state['commits']))   # a merge lists a path once per parent — print each sha once
+                    advisories.append(f'FOREIGN-PENDING-OVER-COMMITTED (advisory, attributed by its own commits {shas}; '
+                                      f'owner UNVERIFIED — {lane} lane, no PROME evidence): {path}')
+                elif lane:
                     advisories.append(f'FOREIGN-PENDING (advisory, owner UNVERIFIED — {lane} lane, no PROME evidence): {path}')
                 else:
                     errors.append(f'UNCLASSIFIED: {path} (new or changed observed version)')
@@ -366,14 +427,19 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
             for path in actual - delivered:
                 errors.append(f'UNREVIEWED ACTUAL COMMIT PATH: {path}')
             # Verify any history not in the captured local inventory (e.g. a fetched snapshot).
-            for path in changes(sc, c['baseline'], target):
+            for path, shas in changes(sc, c['baseline'], target).items():
                 if path in sc.RECEIPT_PATHS | delivered | current_deps:
                     continue
                 content = sc._committed_content_id(path, target)
                 if (path, content) in historical_deps:
                     continue
-                if 'attributed_by_commit' in manifest and path in auto:
-                    continue  # WQ-485 A
+                # WQ-485 A (committed-only) · WQ-448 re-scoped 2026-10-29 (committed side of an overlap path), judged over
+                # baseline..TARGET so a PROME commit beyond HEAD cannot hide (reader CE01 ❌, 2026-10-29).
+                if 'attributed_by_commit' in manifest and history_attributable(sc, path, shas, delivered, rules):
+                    # reader CE16/CE17 (second read): leave a trace for every history path skipped by attribution, so a fetched
+                    # snapshot's desk commits never vanish from the output silently.
+                    advisories.append(f'FOREIGN-HISTORY (advisory, attributed by its own commits {",".join(dict.fromkeys(x[:9] for x in shas))}): {path}')
+                    continue
                 records = manifest['observed'].get(path, [])
                 if not any(r['snapshot']['commit_sha256'] == content for r in records):
                     errors.append(f'UNCLASSIFIED SNAPSHOT PATH: {path}')

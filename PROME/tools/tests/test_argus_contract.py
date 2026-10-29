@@ -239,6 +239,7 @@ class ContractTests(ContractFixture):
 PERIMETER = (sc.ROOT / sc.PERIMETER_FILE).read_text()  # the REAL perimeter, read at import before ROOT is patched
 FP = 'FOREIGN-PENDING (advisory, owner UNVERIFIED — {} lane, no PROME evidence): {}'
 UNC = 'UNCLASSIFIED: {} (new or changed observed version)'
+FPO = 'FOREIGN-PENDING-OVER-COMMITTED (advisory, attributed by its own commits {}; owner UNVERIFIED — {} lane, no PROME evidence): {}'
 
 
 class PerimeterPinTests(ContractFixture):
@@ -452,14 +453,46 @@ class PerimeterPinTests(ContractFixture):
         self.assertEqual(self.foreign_lines(lines), [FP.format('EXCLUDED', 'AGENTS/BROCK/new.md')])
         self.assertNotIn(UNC.format('AGENTS/BROCK/new.md'), lines)
 
-    def test_z2_ac2_committed_and_pending_foreign_path_stays_strict_at_the_ref_form(self):
+    def test_z2_ac2_committed_and_pending_foreign_path_is_advisory_at_the_ref_form(self):
+        """SUPERSEDED expectation (WQ-517 AC2 said strict). Will 2026-10-29 13:45 ET, WQ-448 re-scoped: a path the
+        desk committed under its own subject and kept editing is that desk's work — advisory, attributed by its commits.
+        Acceptance ACCEPTANCE_closeout_gate_foreign_overlap_2026-10-29.md AC1."""
         self.freeze(); a = self.commit('PROME/result')
-        self.desk_commit('AGENTS/BROCK/new.md', 'v1\n')
+        p = self.desk_commit('AGENTS/BROCK/new.md', 'v1\n')
+        self.write('AGENTS/BROCK/new.md', 'v2 pending\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 0, lines)
+        self.assertNotIn(UNC.format('AGENTS/BROCK/new.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [FPO.format(p[:9], 'EXCLUDED', 'AGENTS/BROCK/new.md')])
+
+    def test_z2b_overlap_path_with_a_prome_subject_among_its_commits_stays_strict(self):
+        """AC3 wrong-owner: PROME evidence on ANY window commit keeps the overlap path UNCLASSIFIED."""
+        self.freeze(); a = self.commit('PROME/result')
+        self.desk_commit('AGENTS/BROCK/new.md', 'v1\n', 'PROME -> BROCK: packet')
         self.write('AGENTS/BROCK/new.md', 'v2 pending\n')
         rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
         self.assertEqual(rc, 1, lines)
         self.assertIn(UNC.format('AGENTS/BROCK/new.md'), lines)
         self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z2c_overlap_path_in_the_owned_lane_stays_strict(self):
+        """AC3: an OWNED-lane path committed under a desk subject and still pending is never advisory."""
+        self.freeze(); a = self.commit('PROME/result')
+        self.desk_commit('PROME/state/x.md', 'v1\n', 'BROCK: wrote into PROME state')
+        self.write('PROME/state/x.md', 'v2 pending\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('PROME/state/x.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z2d_working_tree_form_labels_the_overlap_as_plain_foreign_pending_as_before(self):
+        """AC4: the working-tree form already treated the overlap as advisory; its label is unchanged."""
+        self.freeze(); self.commit('PROME/result')
+        self.desk_commit('AGENTS/BROCK/new.md', 'v1\n')
+        self.write('AGENTS/BROCK/new.md', 'v2 pending\n')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 0, lines)
+        self.assertEqual(self.foreign_lines(lines), [FP.format('EXCLUDED', 'AGENTS/BROCK/new.md')])
 
     def test_z3_ac3_delivery_commit_paths_unchanged_either_way(self):
         self.freeze(); self.write('PROME/extra', 'rode along'); a = self.commit('PROME/result', 'PROME/extra')
@@ -508,16 +541,91 @@ class PerimeterPinTests(ContractFixture):
         self.assertIn(UNC.format('AGENTS/BROCK/new.md'), lines)
         self.assertEqual(self.foreign_lines(lines), [])
 
-    def test_z8_ac8_snapshot_history_stays_strict_while_pending_only_is_advisory(self):
+    def test_z8_ac8_snapshot_history_attributes_the_overlap_path_by_its_own_commits(self):
+        """SUPERSEDED expectation (WQ-517 AC8 said strict). WQ-448 re-scoped 2026-10-29 AC2: the committed side of an
+        overlap path in baseline-to-target history is attributed by its own (non-PROME) commits; pending-only stays FP."""
         self.freeze(); a = self.commit('PROME/result')
         p = self.desk_commit('AGENTS/BROCK/other.md', 'v1\n', 'BROCK: other note')
         self.write('AGENTS/BROCK/other.md', 'v2 pending\n')
         self.write('AGENTS/BROCK/new.md', 'pending only\n')
         rc, lines = sc.verify_review(ref=a, snapshot=p, paths=['PROME/result'])
+        self.assertEqual(rc, 0, lines)
+        self.assertNotIn(UNC.format('AGENTS/BROCK/other.md'), lines)
+        self.assertNotIn('UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/other.md', lines)
+        self.assertEqual(sorted(self.foreign_lines(lines)),
+                         sorted([FP.format('EXCLUDED', 'AGENTS/BROCK/new.md'), FPO.format(p[:9], 'EXCLUDED', 'AGENTS/BROCK/other.md')]))
+
+    def test_z8c_ce01_prome_commit_beyond_head_on_the_overlap_path_stays_strict_at_the_snapshot(self):
+        """Reader CE01 ❌ (2026-10-29): judged over baseline..target, a PROME commit in HEAD..target is seen."""
+        self.freeze(); a = self.commit('PROME/result')
+        self.desk_commit('AGENTS/BROCK/other.md', 'v1\n', 'BROCK: other note')
+        self.git('checkout', '-q', '-b', 'side')
+        p = self.desk_commit('AGENTS/BROCK/other.md', 'v2 by prome\n', 'PROME: late fix beyond head')
+        self.git('checkout', '-q', 'master')
+        self.write('AGENTS/BROCK/other.md', 'v3 pending\n')
+        rc, lines = sc.verify_review(ref=a, snapshot=p, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn('UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/other.md', lines)
+
+    def test_z8d_overlap_path_with_from_prome_filename_stays_strict(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.desk_commit('AGENTS/BROCK/inbox/2026-10-29_from-PROME_x.md', 'v1\n')
+        self.write('AGENTS/BROCK/inbox/2026-10-29_from-PROME_x.md', 'v2 pending\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/BROCK/inbox/2026-10-29_from-PROME_x.md'), lines)
+        self.assertEqual(self.foreign_lines(lines), [])
+
+    def test_z8e_delivered_bytes_changed_beside_an_overlap_path_still_blocks(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.desk_commit('AGENTS/BROCK/new.md', 'v1\n'); self.write('AGENTS/BROCK/new.md', 'v2 pending\n')
+        self.write('PROME/result', 'tampered after review')
+        rc, lines = sc.verify_review()
+        self.assertEqual(rc, 1, lines)
+        self.assertIn('CHANGED-SINCE-REVIEW: delivered PROME/result', lines)
+
+    def test_z8f_desk_ignore_file_committed_and_pending_stays_strict(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.desk_commit('AGENTS/BROCK/.gitignore', 'tmp/\n'); self.write('AGENTS/BROCK/.gitignore', 'tmp/\nmore/\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn(UNC.format('AGENTS/BROCK/.gitignore'), lines)
+
+    def test_z8g_desk_subject_commit_inside_the_delivery_commit_paths_still_blocks(self):
+        self.freeze(); self.write('AGENTS/BROCK/rode.md', 'desk file in PROME commit\n')
+        self.git('add', '--', 'PROME/result', 'AGENTS/BROCK/rode.md')
+        self.git('commit', '-qm', 'BROCK: desk subject on a PROME delivery commit', '--', 'PROME/result', 'AGENTS/BROCK/rode.md')
+        a = self.git('rev-parse', 'HEAD'); self.write('AGENTS/BROCK/rode.md', 'pending\n')
+        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn('UNREVIEWED ACTUAL COMMIT PATH: AGENTS/BROCK/rode.md', lines)
+
+    def test_z8h_ce18_desk_ignore_file_committed_beyond_head_stays_strict_at_the_snapshot(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.git('checkout', '-q', '-b', 'side')
+        p = self.desk_commit('AGENTS/BROCK/.gitignore', 'tmp/\n', 'BROCK: ignore tmp')
+        self.git('checkout', '-q', 'master')
+        rc, lines = sc.verify_review(ref=a, snapshot=p, paths=['PROME/result'])
+        self.assertEqual(rc, 1, lines)
+        self.assertIn('UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/.gitignore', lines)
+
+    def test_z8i_ce17_desk_commit_beyond_head_on_an_unseen_file_is_skipped_with_a_trace_line(self):
+        self.freeze(); a = self.commit('PROME/result')
+        self.git('checkout', '-q', '-b', 'side')
+        p = self.desk_commit('AGENTS/BROCK/far.md', 'v1\n', 'BROCK: far note')
+        self.git('checkout', '-q', 'master')
+        rc, lines = sc.verify_review(ref=a, snapshot=p, paths=['PROME/result'])
+        self.assertEqual(rc, 0, lines)
+        self.assertIn(f'FOREIGN-HISTORY (advisory, attributed by its own commits {p[:9]}): AGENTS/BROCK/far.md', lines)
+
+    def test_z8b_snapshot_history_with_a_prome_commit_on_the_overlap_path_stays_strict(self):
+        self.freeze(); a = self.commit('PROME/result')
+        p = self.desk_commit('AGENTS/BROCK/other.md', 'v1\n', 'PROME -> BROCK: other note')
+        self.write('AGENTS/BROCK/other.md', 'v2 pending\n')
+        rc, lines = sc.verify_review(ref=a, snapshot=p, paths=['PROME/result'])
         self.assertEqual(rc, 1, lines)
         self.assertIn(UNC.format('AGENTS/BROCK/other.md'), lines)
         self.assertIn('UNCLASSIFIED SNAPSHOT PATH: AGENTS/BROCK/other.md', lines)
-        self.assertEqual(self.foreign_lines(lines), [FP.format('EXCLUDED', 'AGENTS/BROCK/new.md')])
 
     # --- read #1 of the WQ-517 repair (Opus, 2026-10-24 19:4x ET) ❌1: nested ignore files at the --ref form ---
 
