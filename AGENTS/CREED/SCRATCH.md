@@ -1,6 +1,6 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-10-28 ~23:00 ET, closeout of the **Will-launched session** (22:49 →; Will: *"boot up. Lets work on any owed tasks or any new data or news"*). **Record: `catchups/2026-10-28.md`.** In one line: inbox 45/45 · L723 graded (outcome A, no price) · Trepp 12.33 office NOT adopted · mREIT Q3 census 4/11 (KB-086) · S8a −11.33 · cases 165 · KB 86. **No score, band, trigger or prediction moved; 27/45.**
+**Rewritten:** 2026-10-28 ~23:28 ET, closeout of the **Will-launched session** (22:49 → 23:28; Will: *"Okay lets close out here"*). **Record: `catchups/2026-10-28.md` §①–⑩.** In one line: drain 45/45 · L723 graded (A, no price) · Trepp 12.33 not adopted · mREIT Q3 4/11 · sweep (10 groups) · CBRE Q3 18.2% · gates still 1 · 3000 Post Oak $64.78M reproduced · VLY WQ-311 partly placed · 88 case flags dispositioned · evals 4/4 · **`VX-9.02` proxy ADOPTED by Will (ORANGE)**. **No score, band, trigger or prediction confidence moved; 27/45.**
 *PRIOR (10/22): `catchups/2026-10-22.md` — Will's 005 CRE leg, sweep fixes, PREREG_2026-11, WQ-494 settled.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
@@ -97,7 +97,7 @@ Will's 005 CRE leg (`8c5ffcfb3`, published as SIG-W-20261022-015) · sweep six f
 
 ## 📬 MAIL STATE (10/28; canonical record `board_log.tsv`)
 - **In:** drained 45/45 (DEWEY v2, DAEDALUS WQ-508, 43 WALTER incl. the 10/27 Trepp/Bisnow batch) → `inbox/processed/` + `inbox/WALTER/processed/`. Inbox empty.
-- **Out (10/28):** none. No CREED signal FIRED, so no route is owed.
+- **Out (10/28):** REGINALD `AGENTS/REGINALD/inbox/2026-10-28_from-CREED_VLY-WQ311-mf-cohort-placed.md` (info) · PROME `PROME/inbox/2026-10-28_from-CREED_VX902-proxy-ruling.md` (info, Will's ruling). No CREED signal FIRED.
 
 ## 🔵 OWED OUT — none open
 *Closed 2026-10-28 (sweep), never sent in two months:* the DAEDALUS shared SEC-UA fetch-helper and the PROME `MACHINE_LOCAL.md` SEC-UA row. **Why closed, not sent:** a working declared-contact UA pattern already exists (`AGENTS/DEWEY/scripts/edgar_fetch.py`: "Research NAME email"), and CREED's 9/26 and 10/28 helpers fetched EDGAR with it without failure. Re-open only on an actual SEC block.
