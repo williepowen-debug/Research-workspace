@@ -1,3 +1,4 @@
+# Last real data refresh: 2026-10-28 (SCOPE: 2 national EIA fuel rows only. Gridwise/earnings/state-gas/AV-impact rows are NOT refreshed: Gridwise publishes annual only, AAA state prints not pulled; those rows carry their own As_Of and are [STALE - as of 2026-08-10 or earlier])
 Platform	Market	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
 SECTOR	NATIONAL	gas_national_avg	$4.076	$4.16	-$0.084 since Apr 8	2026-04-17	AAA	R	$4 breakpoint FIRED. Post-ceasefire partial relief. STATUS reconciled.
 SECTOR	Florida	gas_state_avg	$4.093	~$4.02	↑ from prior	2026-04-17	AAA	R	FL ABOVE national avg. FL gig conc 22% highest. UI Wave 2 Apr 26.
@@ -38,3 +39,5 @@ SECTOR	NATIONAL	gas_national_avg	$4.0091	$3.929 (Jun 22)	RE-BREACHED $4.00, held
 SECTOR	Florida	gas_state_avg	$3.862	$3.617 (Jun 22)	still BELOW national at new level	2026-08-10	AAA 8/10/2026 (via CARL tape)	Y	FL-divergence inversion HOLDS (FL below national both at Jun-22 and Aug-10 levels) — only the absolute level moved up.
 SECTOR	Texas	gas_state_avg	$3.545	—	—	2026-08-10	AAA 8/10/2026 (via CARL tape)	G	Lowest of the tracked states — TX gig-shelter framing (VX-GIG geographic table) still holds directionally.
 SECTOR	California	gas_state_avg	$5.596	—	—	2026-08-10	AAA 8/10/2026 (via CARL tape)	R	Highest of tracked states, well above $5.00 mass-exodus band (STRESS THRESHOLDS table) — CA gig drivers face the most acute pump squeeze nationally.
+SECTOR	NATIONAL	gas_national_avg_eia_regular	$4.269	$4.006 (EIA 8/10) ; peak $4.478 (9/21)	easing 4 wks from 9/21 peak	2026-10-26	EIA weekly via FRED GASREGW (pulled 2026-10-28); NOT AAA	O	Above $4.00 Yellow every week since w/e 7/20; $4.50 Orange not breached. State rows (FL/TX/CA) NOT refreshed.
+SECTOR	NATIONAL	diesel_national_avg_eia	$6.352	$5.257 (EIA 8/10)	+$1.095 since 8/10	2026-10-26	EIA weekly via FRED GASDESW (pulled 2026-10-28)	O	Freight-cost context only; not a rideshare/delivery driver fuel measure.

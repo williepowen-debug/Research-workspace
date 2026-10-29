@@ -222,4 +222,16 @@ Five cascades — three ACTIVE:
 
 ---
 
+## ADDENDUM 2026-10-28 (bounded overdue pass; NOT a refresh)
+
+Full detail: `state_vectors/SV-POP-2026-10-28-01.md`. Dashboard rows above stay Apr-17 vintage; ledgers stay FROZEN (banner not lifted).
+
+- **POP-P03 MISSED (graded 10/28).** Epiq AACER/ABI, year 2026 verified at epiqglobal.com: Jul +24% (234 vs 188), Aug +63% (302 vs 185, rel 9/4), Sep +38% (276 vs 200, rel 10/8). Q3 812 vs 573 = +42%; 9M 2,442 vs 1,672 = +46%. Bar was >+80%. Written on the PREDICTIONS.tsv row (Status + Outcome cell).
+- **P05** 70%: midyear Coresight closures 3,321, -44% YoY (secondary syndication of Coresight, 9/8/26): bar of >10,000 looks out of reach; CARL accepted 10/28 as a NOTE only (70→25, as-made 70% kept for scoring, Status TRACKING until a full-year primary count). **P06** 55%: on track/open, no official SBA 2026 print found (Lumos vendor TTM 4.8% Mar-26). **P07**: unreachable until SBCS 2027. **P08**: no BofA/Truist 2026 survey found (due H2).
+- **ML.tsv repaired:** rows 19-25 (ML-POP-17..23) 16 -> 17 fields, values byte-identical, LF kept.
+- **CARL rulings 10/28:** CRL-17 already closed 10/1 NO-VERDICT-BY-INSTRUMENT (POP's 8/15-packet picture was stale); CRL-15 35% vs P06 55% monotone, no change; P03 row alignment fixed (Date_Resolved=2026-10-28, Apr-17 note moved to Notes).
+- **Inbox:** 8/15 packet (74 days old) and 10/26 packet consumed, `git mv`'d to `inbox/processed/`. The "wrong flat path" is not a POP file defect: line 68 above names `AGENTS/POP` only as the path consumer_check.py wrongly resolves.
+
+---
+
 *See workbook/ for vector registry (VX.tsv), master log (ML.tsv), flow cascades (FLOW.tsv), sector data (SECTOR.tsv), tariff tracking (TARIFF.tsv)*

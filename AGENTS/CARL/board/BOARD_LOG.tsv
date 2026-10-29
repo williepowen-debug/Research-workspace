@@ -1030,3 +1030,5 @@ SIG-W-20261027-046	2026-10-27	BANK_CRE	PRIORITY	noted		2026-10-28	Info copy; UDR
 SIG-W-20261027-049	2026-10-27	BANK_CRE	PRIORITY	noted		2026-10-28	Info copy; lodging/casino CMBS = CREED. No OPEN CARL instrument.	
 SIG-W-20261027-062	2026-10-27	MACRO_INFLATION	PRIORITY	noted		2026-10-28	Info copy; Treasury institutional-homebuyer proposal is not a finalized ban; HOMER owns. No OPEN CARL instrument.	
 SIG-W-20261027-064	2026-10-27	MACRO_INFLATION	PRIORITY	noted		2026-10-28	Info copy; RealPage supply/demand and South rents = HOMER. No OPEN CARL instrument.	
+SIG-W-20261029-006	2026-10-29	CONSUMER_CREDIT	PRIORITY	acted	KB-CARL-571	2026-10-28	Integrated as KB-571 (OTTO relay). Touches CRL-29 (Exeter/AMCAR panel) and V2 context only: no grade, threshold or probability change. ALLY 1.89% already in KB-537. Retired $767M sum noted.	
+SIG-W-20261029-008	2026-10-29	TARIFF_TRADE	PRIORITY	acted	KB-CARL-572	2026-10-28	Integrated as KB-572. OPEN-instrument check: CRL-10 food CPI channel, no change (1%); scope change not relief. LABOR owns H-2A/farm labor.	

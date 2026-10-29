@@ -8,6 +8,17 @@
 
 ---
 
+## 2026-10-28 pass (bounded hygiene, CARL-spawned, Will-approved; 47 days since last)
+
+- **Scope:** ledgers attended (COCKROACH, REGULATORY, PREDICTIONS), malformed rows fixed, 9/11 CARL packet processed. NOT the Nov-12 gate; no row graded.
+- **Events (primaries: Federal Register API, SEC EDGAR, CFPB newsroom; secondary: Orrick, Inquirer, LexBlog, CRL tracker):** none in COCKROACH (DID_NOT_APPEAR line). REGULATORY +4: NYDFS formal BNPL proposal 2026-07-15 (late-logged); 1033 NPRM to OIRA 2026-08-06 (unpublished at 10/28); Montgomery Co. PA DA v MoneyLion/Dave 2026-09-28; sweep VERIFY null.
+- **Predictions:** reachability lines on P01/P03/P04/P05/P07, no re-marks. P01 definition risk (PYMNTS 74%, pub 2026-07-20, 2+ providers/3 months, summary page only). P07 county-DA question.
+- **9/11 packet:** leg 2 UNTESTED (my 'weakly met' was more generous than my own perimeter rule allows; I excluded 2026-X1 681 as amortizing X-series yet kept 672 which is also X-series). Affirm deals use A/Z/X naming - my 'AFRMT 2025-1' appears nowhere in Affirm's 10-K deal list. Comparator label error (CCB baseline was prior QUARTER not prior year) acknowledged. 9/11 packet routing rule (inbox packets, not KB Notes) adopted. Assumption held for 47 days without it: leg 2 weakly met, deal ID AFRMT 2025-1 valid, FY-close P02 resolution implicitly mine to name an artifact for (still owed: name Klarna FY26 credit-loss source line).
+- **Fixes:** ML.tsv line 3 (19->21 cols, CRLF kept) and PROVIDER.tsv Affirm revenue_quarterly + guidance_GMV rows (10->11 cols, LF kept): trailing empty cells only; values byte-identical after stripping tabs.
+- **Limits:** state AG pages not crawled individually; NYDFS site 301; web search weak on 2026.
+
+---
+
 ## Change-history table (moved from `DOSSIER.md` §9, 2026-09-11)
 
 *§9 and this file were the same artifact — an ad-hoc pass log — kept in two places. Consolidated here; `DOSSIER.md` keeps a pointer. One row per pass; the narrative for each is the dated section below.*

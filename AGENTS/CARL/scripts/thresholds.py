@@ -64,7 +64,8 @@ MARKET_THRESHOLDS = [
     ("SYF",  "below",  30.0, "thesis",  "SYF legacy price screen — no NCO inference"),
     ("ALLY", "below",  25.0, "thesis",  "ALLY legacy price screen below $25"),
     ("ALLY", "below",  30.0, "thesis",  "ALLY legacy price screen below $30"),
-    ("DFS",  "below",  90.0, "thesis",  "DFS legacy price screen below $90"),
+    # DFS removed 2026-10-28: Discover was acquired by Capital One and no longer trades;
+    # the dead ticker made every boot report INCOMPLETE DATA / FAIL. COF covers the book.
     ("COF",  "below", 120.0, "thesis",  "COF stress — subprime CC deterioration"),
     # Homebuilders (K-shape: LEN stressed, TOL resilient)
     ("LEN",  "below", 100.0, "thesis",  "LEN entry-level builder crisis"),
@@ -387,7 +388,7 @@ def main():
     # --- Consumer credit canaries ---
     print(f"\n  CONSUMER CREDIT CANARIES")
     print(f"  {'-'*64}")
-    canaries = ["SYF", "ALLY", "DFS", "COF"]
+    canaries = ["SYF", "ALLY", "COF"]
     for sym in canaries:
         p = prices.get(sym)
         if p:

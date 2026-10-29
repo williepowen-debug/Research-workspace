@@ -8,10 +8,10 @@
 #   Frozen means NOT EDITED, so the rows below still read as written — this banner is the maintained correction.
 Provider	Type	Metric	Value	Prior	Change	Reports_To_Bureau	As_Of	Source	Status	Notes
 Affirm	BNPL	GMV_quarterly	$13.8B	$10.1B	+36% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G	Only major BNPL reporting to bureaus. Market leader.
-Affirm	BNPL	revenue_quarterly	$1.12B		+30% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G
+Affirm	BNPL	revenue_quarterly	$1.12B		+30% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	G	
 Affirm	BNPL	DQ_30plus	2.3%	2.4%	-10bps QoQ	YES (Experian, TransUnion)	2025-09-30	Affirm Q4 FY2025	Y	Improved headline BUT Kerrisdale analysis: cohort composition shift — FICO 652 median, 52% below 660. DQ improvement = tighter origination, not borrower improvement. ALLY analog applies.
 Affirm	BNPL	provision_credit_losses_quarterly	$214.2M	$153M	+40% YoY	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	O	+40% YoY provision growth diverges from headline DQ improvement. Hidden stress loading.
-Affirm	BNPL	guidance_GMV_fy2026	$48.3-48.85B		 	YES (Experian, TransUnion)	2026-02-05	Affirm FY2026 guidance	G
+Affirm	BNPL	guidance_GMV_fy2026	$48.3-48.85B		 	YES (Experian, TransUnion)	2026-02-05	Affirm FY2026 guidance	G	
 Affirm	BNPL	card_business_growth	+159% YoY		 	YES (Experian, TransUnion)	2025-12-31	Affirm Q2 FY2026	Y	Expanding beyond point-of-sale. More persistent credit line.
 Affirm	BNPL	ABS_WA_FICO	672	>680 (prior trusts)	DECLINING	YES (Experian, TransUnion)	2025-06-30	AFRMT 2025-X1 Morningstar presale	O	Lowest WA FICO since 2022-A trust. ABS composition degrading despite headline DQ improvement. Suggests routing lower-quality cohorts to ABS while retaining better loans on balance sheet (ALLY analog partial match).
 Affirm	BNPL	Q3FY2026_earnings_date	May 7 2026 after close		CONFIRMED	YES (Experian, TransUnion)	2026-04-16	Affirm IR press release	G	Confirmed Apr 16 2026. Conference call 2pm PT same day.

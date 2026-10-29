@@ -1,3 +1,4 @@
+# Last real data refresh: 2026-10-28 (2 rows added: Lyft 9/30 settlement 8-K; Q3-not-yet-filed check. Newest platform operating data remains Q2 2026 (As_Of 2026-06-30) because no newer primary exists)
 Platform	Metric	Value	Prior	Change	As_Of	Source	Status	Notes
 Uber	active_drivers	9.7M	8.1M	+19% YoY	2025-12-31	Uber Q4 2025 earnings	Y	Rising supply = oversupply pressure when demand flat
 Uber	gross_hourly_median	$21.18		 	2025-12-31	Gridwise 2025 data	G	Gross before expenses. Net ~$15-18 after gas/insurance/maint/deprec
@@ -36,3 +37,5 @@ Dave	28dpd_rate	2.12%	1.69% (Q1'26) / ~2.25-2.26% (Q2'25)	seq +43bp / YoY -~14bp
 Dave	extracash_originations	$2.3B	—	+27% YoY	2026-06-30	Dave Q2 2026 (Aug 5)	G	Volume growing faster than provisions — loss-per-dollar-lent improving.
 DoorDash	gas_subsidy_spend	>$50M (Q2 actual)	~$100M H1 budget (Q1 est)	on pace, not tapering	2026-06-30	DoorDash Q2 2026 (Aug 5)	Y	Confirms structural (not one-off) gas-cost pressure on Dashers; H2 EBITDA margin guided down partly on "seasonal increases in Dasher costs."
 Lyft	driver_supply_qualitative	"historically strong / near all-time highs"	supply surplus (Q1, via incentive cut)	sustained	2026-06-30	Lyft Q2 2026 prepared remarks (Aug 6)	Y	Driver earnings/ride +8% YoY, tipping +10%; rewards program $14M cumulative since launch; mgmt calls incentive spend "disciplined," not aggressive.
+Lyft	ca_misclassification_settlement	$272.5M		new 2026-09-30	2026-09-30	Lyft 8-K Item 7.01 (filed 2026-10-01; acc 0001628280-26-064095)	O	Covers 2016-04-05 to 2020-12-15; payable up to 4 yrs; court approval pending. Historical liability, not current driver pay.
+SECTOR	q3_2026_prints_status	NOT YET FILED	Q2 2026 10-Q/8-K (Aug 5-7)		2026-10-28	SEC EDGAR submissions API: DAVE, UBER, LYFT, DASH (latest earnings 8-Ks 2026-08-05/06; no Q3)	 	All rows above keep their own As_Of; Q2-vintage rows (2026-06-30) are the newest primary data available. Next: Q3 prints ~early Nov 2026 (date unconfirmed).

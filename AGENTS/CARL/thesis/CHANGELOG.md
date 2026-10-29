@@ -8,6 +8,15 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-10-28 — Sweep: CRL-13 re-dated with reason; CRL-25 pointer retired (no score change)
+
+**Session:** CARL file sweep, Will-approved plan (2026-10-28 ~20:57 ET).
+
+- **CRL-13 (SAVE non-selection >35%, 75%):** Timeframe "Oct 1 2026 = FIRST-TRANCHE read" → "Q1 2027 full-population read". **Why:** the Oct 1 read was not observable; no ED or servicer selection count is published (STUE 10/28; KB-CARL-569). Confidence, threshold, instrument and invalidation are unchanged, and the row is scored AS-MADE. This is a date push with a reason, not a re-price.
+- **CRL-25 (Path-PC pointer to BROCK's ≥2 BDC gate count):** OPEN → RETIRED-POINTER, UNSCORED. **Why:** the owner retired the referenced trigger on 2026-09-03 (WQ-158) for GATE-BRK-R2, which uses a different rule and population. CARL held no forecast (confidence N/A), so nothing is scored and no successor is imported. THESIS Path-PC paragraph updated to match (no version bump).
+
+---
+
 ## 2026-10-26 — L786 status receipt and file-audit reconciliation (no score change)
 
 **Late change-log receipt for L786:** CRL-21 OPEN → STUCK was implemented in result 5b18d5a88 on October 26. The NCO branch failed; the matched FY2025/26-versus-FY2023 vintage loss comparison was unavailable in the reviewed primaries. Confidence 25%, Q3 window and operative instrument are unchanged; no hit/miss or scoring. WQ-161 mass-neutrality proof is in the canonical row. The next November 6 source check is not a forecast extension. This paragraph records the earlier change rather than making a new grade.

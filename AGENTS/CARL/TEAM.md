@@ -1,5 +1,7 @@
 # CARL Sub-Agent Team
 **Parent freshness audit observed2026-10-26:** no child data refresh or launch this session. The canonical scanner is now wired into boot.py; these are genuine inherited age flags, not new data. Live-ledger scanner flags23/52declared ledgers (11otherTSVs outside perimeter); DATA clocks unchanged. Dated child predictions/deferrals remain for owner gates; historical roster-state labels below retain their printed vintages.
+**Sub-agent sweep 2026-10-28 (Will-approved, option b — bounded passes, not freezes):** GIG (refreshed to Q2 vintage, Q3 not yet filed; P02/P03/P04/P06 CLOSED NO-VERDICT-BY-INSTRUMENT; AV_TRACKER RETIRED; FLOW FROZEN), POLLY (5 ledgers refreshed on Q3 primaries; P02 effectively unreachable), PHAN (3 ledgers attended, explicit no-event null; rulings on P01/P07), POP (P03 MISSED, Q3 Sub-V +42% vs >80%; ML.tsv repaired), DOC live (P07 closed; P11/P12 registered Will-approved; P05 reverted to DUE-UNRESOLVED; COST_DRIVER FROZEN), STUE live (FSA Q3 graded). SVs dated 2026-10-28 in each state_vectors/. Ledger scan after the pass: 0 STALE/UNATT. Next real refreshes are docketed (GIG ~11/05, DOC 11/10, PHAN 11/12).
+
 **STUE live 2026-10-28 (stue-b9, Will-started; coordinated directly by carl-6f):** FSA FY26-Q3 graded (ES-01 NO VERDICT / ES-04 NOT GRADEABLE / ES-06 ACCESS GAP), SV-STUE-2026-10-28-01, commit 7e082e108; inbox drained (9/10 + 9/24 packets processed). Supersedes the STUE roster row's Sep 5 "last real refresh". Next: ES-02 final grade ~11/13–11/16; AFT 11/23.
 
 

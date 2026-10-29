@@ -95,7 +95,7 @@ workbook/
   SCHEMA.tsv                           # Column definitions for all workbook TSVs
   PLATFORM.tsv                         # Platform-level metrics (Uber, Lyft, DoorDash, Dave, Fiverr, etc.)
   DRIVER_ECONOMICS.tsv                 # Driver income/expenses by platform and region
-  AV_TRACKER.tsv                       # ⛔ FROZEN 2026-08-12 by CARL — DO NOT CITE ROWS AS CURRENT
+  AV_TRACKER.tsv                       # RETIRED 2026-10-28 (was ⛔ FROZEN 2026-08-12 by CARL — DO NOT CITE ROWS AS CURRENT
                                        #   Last real data refresh 2026-07-08; bulk is Dec-25→Apr-26 vintage.
                                        #   Frozen because it is pure point-in-time numerics in a fast-moving
                                        #   domain — this is an admission we are NOT tracking AV, not a claim
@@ -107,8 +107,8 @@ workbook/
                                        #         the banner; or (b) retire the ledger outright and say so.
                                        #   ▶ EARLY RE-OPEN if AV displacement turns load-bearing first —
                                        #     i.e. the V7 FL-composition review needs a live AV number, or any
-                                       #     CARL/GIG prediction gets instrumented on an AV series (none is
-                                       #     today, which is why freeze beat a rushed parent-side refresh).
+                                       #     CARL/GIG prediction gets instrumented on an AV series. GIG-P07 IS so instrumented
+                                       #     (Waymo/regulator figures); it closes NO-VERDICT-BY-INSTRUMENT if none is published by EOY 2026. AV_TRACKER retired 2026-10-28.
   VX.tsv                               # Vector tracking (17 vectors)
   ML.tsv                               # Master log (18 entries)
   FLOW.tsv                             # Transmission pathways (6 flows)

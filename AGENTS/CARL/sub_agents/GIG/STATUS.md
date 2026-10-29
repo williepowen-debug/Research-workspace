@@ -1,6 +1,8 @@
 # GIG STATUS
 
-**Last Updated:** 2026-08-10 (Q2 platform earnings refresh: Dave/Uber/DoorDash/Lyft all reported Aug 5-6; gas RE-PULLED via CARL tape) | **Status:** 🟠 ELEVATED
+**Last Updated:** 2026-10-28 (ledger-clearing pass; platform/Dave operating data still 2026-08-10 Q2 vintage) (Q2 platform earnings refresh: Dave/Uber/DoorDash/Lyft all reported Aug 5-6; gas RE-PULLED via CARL tape) | **Status:** 🟠 ELEVATED
+
+> **Refresh note (2026-10-28, ledger-clearing pass):** Q3 2026 prints for Dave/Uber/Lyft/DoorDash are NOT on SEC EDGAR as of 10/28 (latest earnings 8-Ks 8/5-8/6), so every platform/Dave value below is the Q2 vintage and carries `[STALE - 2026-08-10]` where it is quoted as a level. **Newly refreshed:** national gas, EIA weekly via FRED: $4.269 (w/e 10/26), re-peaked $4.478 (9/21, $0.022 under the $4.50 Orange band, no breach), easing 4 weeks; diesel $6.352 [EIA/FRED, pulled 10/28]. Lyft 8-K 9/30: $272.5M California misclassification settlement (2016-2020 period; historical liability). FL/TX/CA gas, Gridwise earnings, Waymo/Tesla rows `[STALE - 2026-08-10 or earlier]`. **Predictions:** GIG-P02 DUE-UNRESOLVED (no primary FL-vs-national gig series; context FL unemployment 4.4% vs US 4.2% Sep 2026, BLS via FRED, LABOR-owned); P03/P06 DUE-UNRESOLVED (Gridwise annual only); P04 unreachable; P07 partial (Waymo blog has no rides/fleet). **Ledgers:** DRIVER_ECONOMICS/ML/PLATFORM/PREDICTIONS/VX refreshed (scope in each header); FLOW FROZEN; AV_TRACKER RETIRED; ragged rows realigned (VX 6, ML 3 + 1 blank line, FLOW 1). SV: `state_vectors/SV-GIG-2026-10-28-01.md`.
 
 > **Refresh note (2026-08-10):** Dave Q2 2026 pre-registered re-cut test on VX-GIG-3.08 RESOLVED — provision growth decelerated +151%→+14.3% YoY, confirming mgmt's timing-artifact claim over persistent stress; GIG PROPOSES downgrade CRITICAL→NORMAL (CARL to ratify). Gas RE-BREACHED $4.00 and has HELD since 7/20 (AAA $4.0091 8/10) — VX-GIG-6.01's own re-arm rule triggers, reversing the Jun-22 "receding" read; corroborates CARL-parent V5 Gas Squeeze 3→4 (8/3). Uber/Lyft/DoorDash Q2 supply signals are MIXED, not a clean oversupply confirm: Uber flagged localized driver tightness (India two-wheel, Brazil) despite a record 10.2M aggregate driver/courier count; Lyft supply "historically strong/near all-time highs"; DoorDash continuing ~$50M/qtr gas subsidy. GIG-P03/P06 (Gridwise weekly-$/hourly-$) hit their THIRD consecutive no-print search — marked ⚠ DUE-UNRESOLVED [DATA-NEEDED], recommend re-instrumenting off Gridwise's annual-only cadence. The **AV surface remains Apr-17/Jul-8 vintage** — not touched this pass (no cheap dated trigger surfaced).
 
@@ -10,8 +12,8 @@
 
 | Signal | Value | Status | Change vs Jun-22 |
 |--------|-------|--------|-----------------|
-| Gas national | **$4.0091** (AAA 8/10, via CARL tape) | 🟠 RE-ARMED | ↑ RE-BREACHED $4.00, held since 7/20 — reverses the Jun-22 "receding" read ($3.929); FRED weekly $4.079 w/e 8/3 |
-| Gas FL | $3.862 (AAA 8/10) / TX $3.545 / CA $5.596 | 🟡 BELOW national | Inversion HOLDS (FL still below national), only the level re-armed |
+| Gas national | **$4.269** (EIA weekly w/e 10/26, FRED, pulled 10/28; peak $4.478 9/21) `[prior: $4.0091 AAA 8/10]` | 🟠 RE-ARMED | ↑ RE-BREACHED $4.00, held since 7/20 — reverses the Jun-22 "receding" read ($3.929); FRED weekly $4.079 w/e 8/3 |
+| Gas FL | `[STALE - 2026-08-10]` $3.862 (AAA 8/10) / TX $3.545 / CA $5.596 | 🟡 BELOW national | Inversion HOLDS (FL still below national), only the level re-armed |
 | Dave 28DPD | **2.12%** (Q2 2026) | 🟡 seq-rising, YoY-improved | ↑ from Q1's 1.69% record low, back near legacy Yellow line (>2.10%); still platform-health only, NOT re-armed as canary |
 | Dave loss provision | **+14.3% YoY** ($28.8M Q2'26 vs $25.2M Q2'25) | 🟢 DECELERATED | Q1's +151% spike did NOT persist — RE-CUT TEST RESOLVED as timing-artifact (mgmt's own explanation confirmed). GIG PROPOSES CRITICAL→NORMAL |
 | Platform driver supply | Uber record 10.2M (but localized India/Brazil tightness); Lyft "near all-time highs"; DoorDash gas subsidy continuing ~$50M/qtr | 🟡 MIXED | Not a clean oversupply confirm — first tightness signal (Uber, geography-specific) since thesis inception |
@@ -67,8 +69,8 @@ Bank losses (REGINALD)
 | **Dave 28DPD** | **1.69%** (Q1 2026, record Q1 low) | >2.10% | 🟢 IMPROVED (canary RETIRED) | Dave Q1 2026, May 5 |
 | **Dave loss provision** | **+151% YoY** ($26.6M vs $10.6M Q1'25) | >+100% YoY | 🔴 RISING — new primary signal | Dave Q1 2026 8-K, May 5 |
 | **Dave ExtraCash portfolio** | **$279.1M** (Mar) | contraction | 🟡 −6% QoQ (from $297.3M Dec) | Dave Q1 2026 |
-| **Gas National Avg** | **$3.929** (was $4.076 Apr-17 — superseded) | >$4.00 breakpoint | 🟠 RECEDING (peaked $4.50 May-11) | AAA Jun 22 2026 |
-| **Gas FL** | **$3.617** — now BELOW national (was $4.093 ABOVE) | >$4.00 | 🟡 LEG INVERTED | AAA Jun 22 2026 |
+| **Gas National Avg** | `[SUPERSEDED - $4.269 EIA 10/26]` **$3.929** (was $4.076 Apr-17 — superseded) | >$4.00 breakpoint | 🟠 RECEDING (peaked $4.50 May-11) | AAA Jun 22 2026 |
+| **Gas FL** | `[STALE - 2026-06-22; see 8-10 and top table]` **$3.617** — now BELOW national (was $4.093 ABOVE) | >$4.00 | 🟡 LEG INVERTED | AAA Jun 22 2026 |
 | **Lyft driver-incentive spend** | **−$12.8M YoY** (Q1) | cut | 🔴 supply surplus signal | Lyft Q1 2026, May 7 |
 | **DoorDash gas subsidy** | **~$100M H1 (>$50M Q2)** | new program | 🔴 admission gas compresses net | DoorDash Q1 2026, May 6 |
 | **Fare vs driver pay (YTD)** | **+9.6% fares / +3.6% pay = 2.7× extraction** | fares > pay | 🔴 WIDENING | Gridwise May 13 2026 |

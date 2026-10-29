@@ -6,11 +6,15 @@
 >
 > **Refresh model.** No standing sessions. Refreshed by **ad-hoc CARL spawns** against this dossier (per CARL SPAWN_PROTOCOL templates). **Next natural catalyst / ad-hoc spawn trigger:** **Affirm FQ1-27 + Klarna Q3-26, ~2026-11-05 to 11-20** — the last pass before five PHAN rows come due 12/31. *(The Aug-2026 Q2 trigger this line used to name FIRED and was worked on 9/10.)* See §8.
 >
-> **Last ad-hoc pass:** **2026-09-11** — three passes in one day: (3rd) closed the 9/10 SEARCH-NOT-FOUND gaps and **restored FLOW-PHAN-06 to ACTIVE**; (4th) a **domain news sweep** that filled the ABS leg-2 gap and found two bank-contagion cockroaches the fleet did not have; (5th) **the §2 FRAMEWORK REBUILD — `$400B+` retired, `FRAMEWORKS.md` created**, discharging a CARL assignment 42 days late. Prior: **2026-09-10** (2nd ad-hoc, live-data). **⚠️ Dated pass narratives now live in `PASSES.md` — grep it, do not read it whole (read-cap split, 9/11).** Prior: 2026-07-10 (ledger-hygiene only, no web data) — 7 predictions **dispositioned** (§4; ledger `workbook/PREDICTIONS.tsv`), FLOW-numbering divergence **reconciled** (§2c, TSV wins). See §9 change history.
+> **Last ad-hoc pass:** **2026-10-28** (bounded hygiene, see addendum); before it **2026-09-11** — three passes in one day: (3rd) closed the 9/10 SEARCH-NOT-FOUND gaps and **restored FLOW-PHAN-06 to ACTIVE**; (4th) a **domain news sweep** that filled the ABS leg-2 gap and found two bank-contagion cockroaches the fleet did not have; (5th) **the §2 FRAMEWORK REBUILD — `$400B+` retired, `FRAMEWORKS.md` created**, discharging a CARL assignment 42 days late. Prior: **2026-09-10** (2nd ad-hoc, live-data). **⚠️ Dated pass narratives now live in `PASSES.md` — grep it, do not read it whole (read-cap split, 9/11).** Prior: 2026-07-10 (ledger-hygiene only, no web data) — 7 predictions **dispositioned** (§4; ledger `workbook/PREDICTIONS.tsv`), FLOW-numbering divergence **reconciled** (§2c, TSV wins). See §9 change history.
 >
 > **⚠️ Vintage warning.** The legacy identity surfaces (CLAUDE.md, STATUS.md) are FROZEN at their Apr-2026 build vintage and carry **TWO refuted claims, not one**: ① the Klarna deterioration narrative (**REFUTED** — Klarna Q1-2026 profitable, CARL May-14) and ② **the `$400B+` phantom-debt headline, which those files assert 9 times and which is REFUTED by `KB-CARL-367` (~$176–216B broad / ~$30–60B credit-only).** Because they are frozen they are **not** being edited; this banner is the maintained correction. **⛔ Do not lift the domain-scope, "Why This Domain Matters", or "Key Concepts" magnitude lines from CLAUDE.md, nor the STATUS.md masthead/§BNPL Outstanding rows.** See §2a and §6.
 
 ---
+
+## CURRENT STATE ADDENDUM - 2026-10-28 (bounded hygiene pass; NOT the Nov-12 gate)
+
+*Table above is the 9/11 state; this addendum is what moved since. Narrative -> `PASSES.md` ('2026-10-28 pass').* Events since 9/10: **0 new consumer-fintech failures** (count holds 3, P04 12%); **Montgomery County PA DA sued MoneyLion + Dave ~9/28/26** (county, NOT state AG - P07 count holds 4 of 5); **NYDFS formal BNPL proposal 7/15/26** (comments closed 9/14; no final rule found) was missing from the ledger, now logged; **1033 NPRM at OIRA since ~8/6/26, unpublished at 10/28**. Coastal 8-K 9/28 = Bluevine sale, not distress. **P01 definition risk:** PYMNTS 74% (2+ providers in 3 mo, pub 7/20/26) is not simultaneous stacking - CARL to rule. No row re-marked or resolved. 9/11 CARL packet processed: leg 2 = UNTESTED; PHAN's 'weakly met' withdrawn. Ledger malformed rows repaired (ML 1, PROVIDER 2; values unchanged).
 
 ## CURRENT STATE — as of 2026-09-11 (3rd ad-hoc pass)
 
@@ -49,7 +53,7 @@
 | **Closeout protocol rebuild** (no git step; frozen/dead targets) | PHAN | 2026-09-11 | ✅ **DONE 2026-09-11** — §8 |
 | **Is longer-term BNPL already in the aggregates?** (~$16B of ~$29B BNPL central) | PHAN | 2026-07-28 (DEWEY C4) | 🔻 **OPEN — top research item for the ~11/12 gate** |
 | **Consolidated transmission-premise memo → RED** (3 independent hits) | PHAN | 2026-09-11 | 🔻 **OPEN** |
-| **ABS tracking series** (WA FICO + grade mix + CE per deal — leg 2 has no instrument) | PHAN | 2026-09-11 | 🔻 **OPEN** |
+| **ABS tracking series** (leg 2) | PHAN->WILL | 2026-09-11 | CARL 9/11: STRUCTURALLY UNGRADEABLE (no publisher, instrument frozen both ends); Will decides re-point. Do not re-mark. |
 | **P02 resolve MISS at FY-close** (recommended 9/10) | **CARL** | 2026-09-10 | ⏳ awaiting CARL |
 | **P04 successor proposal** (failure-count measures a legal event, not the mechanism) | PHAN→CARL | 2026-09-11 | 🔻 **OPEN** |
 | **Route CARL→PHAN assignments as inbox packets, not KB Notes** | **CARL/Will** | 2026-09-11 | ⏳ recommended — `FRAMEWORKS.md` §2.8 |
