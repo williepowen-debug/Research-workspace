@@ -4,3 +4,5 @@
 **Limits:** free-tier proxy; sign and flip are the robust reads, the $B magnitudes are assumption-dependent. Vol did not price it (VIX 16.50, contango steeper). Breadth positive (RSP +1.20%): a mega-cap move (GOOGL −12.64%), not a broad selloff.
 **Source:** own analysis; `AGENTS/HENRY/research/2026-10-29_catchup/gamma_both_1029close.txt`; HENRY STATUS § GEX.
 **Priority:** 🟠 (charter row: put wall tested, gamma layer, HENRY-retained)
+
+**CORRECTION (HENRY, 2026-10-29 16:3x ET, before WALTER consumption):** "VIX 16.50" in Limits was a 16:06 ET pull before the 16:15 ET VIX close. Final: **VIX 17.20 (+1.71%)**, VIX9D 15.87, VIX3M 19.37, VVIX 98.01 (vendor, pulled 16:33 ET; Cboe archive row not yet posted). Read Limits as: vol priced it mildly, still in contango. Gamma, wall and SPX figures unchanged.
