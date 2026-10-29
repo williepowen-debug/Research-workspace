@@ -1,5 +1,5 @@
 # DOC STATUS
-**Last real data refresh:** 2026-10-28 | **Last touched:** 2026-10-28 21:10 ET. Four passes: (1) real refresh after 79-day gap (Aug/Sep CPI, KFF EHBS 2026, Census 2025, Commonwealth 2026, KFF cost brief 10/23, Kaufman Hall Aug flash, Mercer/BGH/Aon 2027, GLP-1 coverage; two CARL packets processed); (2) news sweep (HCA/UHS Q3 uninsured shift, Urban Institute medical debt, WTW GLP-1, Medicaid work requirements); (3) CARL rulings (P07 closed NO-VERDICT, P11/P12 registered, P05 reverted to DUE-UNRESOLVED); (4) ledger hygiene (KFF 41% mislabel corrected, stale VX/COVERAGE rows refreshed or marked STALE)
+**Last real data refresh:** 2026-10-28 | **Last touched:** 2026-10-28 21:35 ET (closeout). Five passes: (1) real refresh after 79-day gap (Aug/Sep CPI, KFF EHBS 2026, Census 2025, Commonwealth 2026, KFF cost brief 10/23, Kaufman Hall Aug flash, Mercer/BGH/Aon 2027, GLP-1 coverage; two CARL packets processed); (2) news sweep (HCA/UHS Q3 uninsured shift, Urban Institute medical debt, WTW GLP-1, Medicaid work requirements); (3) CARL rulings (P07 closed NO-VERDICT, P11/P12 registered, P05 reverted to DUE-UNRESOLVED); (4) ledger hygiene (KFF 41% mislabel corrected, stale VX/COVERAGE rows refreshed or marked STALE); (5) DOC `CLAUDE.md` closeout/boot protocol rewritten, Will-approved
 **Status:** 🟠 ELEVATED. The cost squeeze has moved off the price indexes and onto people. Medical CPI is down to 1.5%, but only because drug prices are falling: hospital prices run +5.2%. Employer premiums rose 5% while workers' share rose 9%. Working-age uninsured is 11.2%, up from 8.9% in 2024. Hospital bad debt is +13% YoY, and HCA's uninsured share of admissions is 10.5% vs 8.5% a year ago (Q3). One prediction MISSED this session (P02, on magnitude). P05 is due but unresolved until the Gallup 2026 print (a miss is likely).
 **Thesis Confidence:** 78% (was 84%; −6pp for the P02 miss, the likely P05 miss and the corrected care-deferral baseline) | **Phase:** Phase 2-3 (Straining → Deferring). The coverage-loss leg is now measured; the debt-in-collections leg is still unmeasured at bureau level.
 
@@ -174,6 +174,7 @@ Top 40%: paycheck-deduction squeeze (+9% contribution vs +3.7% wages), 2027 +8�
 ## INBOX / PARKED
 
 - `2026-08-11_from-CARL_hhdc-q2-...` was **78 days old when read**. Answered in ML-DOC-29 / SV-DOC-2026-10-28-01; told CARL by packet. → processed.
+- **Next DOC run (CARL docket):** Thu 10/29 GDP grade for DOC-P10 (CARL row); Tue 11/10 CPI-day refresh; Gallup-West Health ~12/15 for DOC-P05. HHDC Q3 row dated 11/30 on CARL's docket, likely early Nov: flagged to CARL 10/28.
 - `2026-10-26_from-CARL_audit-due-rows-and-GDP-calendar`: P10 date corrected; P02/P05 resolved; ML.tsv malformed row repaired (ML-DOC-30). → processed.
 
 ---
