@@ -176,9 +176,29 @@ def _pboc_fix_gauges(yf):
     if len(ks) < 61:
         print(f"    PBOC fix  only {len(ks)} fixes returned — need 61 for V9; V6/V9 NOT refreshed")
         return 1
+    # Market leg (10/29): PRIMARY = Fed H.10 noon-NY rate (FRED DEXCHUS), ~1-week lag; the
+    # days after H.10's last print are filled from yfinance with stale repeats DROPPED
+    # (91/922 yfinance closes were repeats). H.10 vs yfinance g20: corr 0.974 over 2023–26.
+    mkt, basis = {}, "H.10"
     try:
+        r = subprocess.run(["curl", "-s", "--max-time", "20",
+                            f"https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXCHUS&cosd={start}"],
+                           capture_output=True, text=True, timeout=30).stdout
+        for line in r.splitlines()[1:]:
+            dt, _, v = line.partition(",")
+            try: mkt[dt] = float(v)
+            except ValueError: pass
+    except Exception:
+        basis = "yfinance only (H.10 pull failed)"
+    try:
+        last_h10 = max(mkt) if mkt else ""
         h = yf.Ticker("CNY=X").history(period="3mo")["Close"]
-        mkt = {str(i.date()): float(v) for i, v in h.items()}
+        prev_v = None
+        for i, v in h.items():
+            k = str(i.date()); v = float(v)
+            if k > last_h10 and v != prev_v:
+                mkt[k] = v; basis = "H.10 + yfinance fill" if last_h10 else basis
+            prev_v = v
         mdates = sorted(mkt)
         gaps = []
         for k in ks[-20:]:
@@ -194,7 +214,7 @@ def _pboc_fix_gauges(yf):
         return 1 + sum(abs(x) >= c for c in cuts)
     s6, s9 = score(g20, (0.25, 0.5, 1.0, 1.5)), score(c60, (1, 2, 3, 4))
     t6, t9 = ("A" if g20 > 0 else "D"), ("A" if c60 < 0 else "D")
-    print(f"    PBOC fix  {fixes[ks[-1]]:>10.4f}  ({ks[-1]}, CFETS primary)")
+    print(f"    PBOC fix  {fixes[ks[-1]]:>10.4f}  ({ks[-1]}, CFETS primary; market leg {basis})")
     print(f"    V6 gap20  {g20:>+10.3f}% → {s6}·{t6}   V9 c60 {c60:+.2f}% → {s9}·{t9}"
           f"   (A = resisting appreciation, NOT counted in the stress total)")
     # A D-side score at 3+ is the UST-selling channel waking up — make it move the verdict.

@@ -78,12 +78,12 @@
 | 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Aug'26**, pull 10/16 — ⚠️ held, not re-scored: China decelerating, Korea buying (rescore question owed) |
 | 2 | Korea Crisis | 🟢 1 | won **10/29**; TIC Aug'26 |
 | 3 | Custodial Arb. | 🟡 2 | Belgium Aug'26 |
-| 4 | LGFV/Banks | 🟡 2 | **mixed:** NPL Feb'26 🧊 / swap Jun'26 / banks 7/16 |
+| 4 | LGFV/Banks | 🟡 2 | **rural-bank NPL 2.83% Q2-26, rising** (`VX-6.15`, new 10/29); Guizhou/Zhengzhou canaries 🧊; swap Jun'26 |
 | 5 | Property Zombification | 🟠 **4 ↓** | **Sep 30** (tripwire, KB-193) |
 | 5b | Domestic Demand / Broad Activity | 🟠 **3** | RatingDog **Aug**, NBS Aug 31 |
-| 6 | PBOC currency management (two-way, `VX-2.10`) | 🟢 1 **(shows 3·A)** | fix-vs-market gap **+0.52%** 10/29 — fix set WEAKER than market every month since Dec-2025; A-side not counted |
+| 6 | PBOC currency management (two-way, `VX-2.10`) | 🟢 1 **(shows 3·A)** | fix-vs-market **+0.56%** 10/29 (Fed H.10 market leg) — fix set WEAKER than market every month since Dec-2025; A-side not counted |
 | 7 | HK Peg Channel | 🟢 1 | **10/29** — spread YELLOW, USD/HKD at 7.846; HELD, rescore if HKMA intervenes |
-| 8 | LNG/Energy Shock | 🔴 **4** | HANS 9/4 via BRENT 9/6 — **not live** |
+| 8 | LNG/Energy Shock | 🔴 **4** | `VX-8.02` (new 10/29): TTF **€100.72** 10/28 (HANS) · Brent ~$110.7 · Qatar FM into Nov/Dec — **inputs worse than at the 9/17 score; rescore 4→5 OPEN** (China leg unmeasured) |
 | 9 | USD/CNY pressure (two-way, `VX-2.11`) | 🟢 1 **(shows 2·A)** | fix **−1.11%** over 60 fixes 10/29; A-side not counted |
 | 10 | Gulf Recycl. | 🟡 2 | BRENT/HAWK Jul 4 |
 | 11 | Gulf Infra | 🟡 2 | BRENT/HAWK Jul 4 |
@@ -139,7 +139,8 @@
 | ID | Prediction | Conf | Status |
 |----|-----------|------|--------|
 | ZHA-01 | USD/CNY breaks 7.30 | **18%** | OPEN — ledger governs; as-made pass done 9/18 (`reports/2026-09-18_WQ112_ASMADE_LEDGER_WRITE.md`) |
-| ZHA-05 / 06 / 07 / 10 | Regional NPL >12% · >250 banks consolidated · liquidity crunch forcing UST sales · petro-yuan >$5B | 55/72/70/40% | OPEN — none due inside 60d; see `PREDICTIONS.tsv` |
+| ZHA-06 / 07 / 10 | >250 banks consolidated · liquidity crunch forcing UST sales · petro-yuan >$5B | 72/70/40% | OPEN — none due inside 60d; see `PREDICTIONS.tsv` |
+| ⛔ ZHA-05 | Regional bank NPL >12% | 55% | **STUCK 10/29**: its 11.6% anchor was a segment figure, so the letter cannot discriminate (KB-220). Successor instrument `VX-6.15`; a new call waits for a base rate |
 | ✅ ZHA-16 | Xi–Trump summit produces branch A (instrument extending past 11/10) | 45% | **RESOLVED 9/30 — MISS (B via residual), Brier 0.2025** → `PREDICTIONS.tsv`, KB-190 |
 | 🆕 **ZHA-19 · 20 · 21** | US clock instrumented by 11/9 · MOFCOM 公告70 re-suspended by 11/10 · NPCSC fiscal figure | **65 / 70 / 12%** | OPEN — letter `reports/2026-10-29_PREREGISTRATION_ZHA-19-20-21_nov-clocks-and-npcsc.md`; 19 & 20 correlated |
 | ✅ **ZHA-18** | Aug TIC: China LT ≤ −$5.0B (third month) | 40% | **RESOLVED 10/16 — NO, branch B (−$4,828M), Brier 0.16.** $172M from the boundary ⇒ not banked as skill (letter §4). Narrative said 60%, base rate 3/9 said 33%; the base rate pointed the right way. → `PREDICTIONS.tsv`, KB-197 |
@@ -160,7 +161,7 @@
 6. 🟠 **PBOC central-parity SERIES** — ✅ first primary read 10/29 (CFETS via Xinhua: 6.7147 vs market 6.6607, KB-212); still owed: a series from `chinamoney.com.cn`, since **the gap between fix and market IS the signal** and one day is not a series.
 7. ✅ **DONE 10/29 — Belgium kill-leg retired, China flow leg F registered** (KB-219).
 8. ✅ **Sep reserves/gold/trade/CPI/PPI backfilled 10/29 (KB-217)** — still owed: GACC tables (primary), Jul/Aug reserves, Sep credit + activity data. **Rest of the sweep's list → `reports/2026-10-29_DESK_SWEEP.md`** (Belgium kill-leg re-spec **6 days late**; V6/9 two-way re-spec; ZHA-05 lapsed window; DAEDALUS D3/D4/D7–D12; CLAUDE.md 25 B from cap).
-9. ✅ **10/29 maintenance (step 5):** KB `Stale_By` now has a reader (boot §6: **87** rows past due — a re-check backlog; ⛔ never bulk-mark SUPERSEDED) · 5 Feb-2026 VX rows 🧊 FROZEN · catalyst reader fixed (DONE/RESOLVED rows no longer fire; open rows never age out) · boot pulls the CFETS fix (V6/V9) and HKMA (peg) live · NEXUS brief CALIBRATION/SENDING/CATALYSTS rewritten · 5 files archived · charter trimmed to 32,211 B · `workbook/LEDGER_GLOB` declared. **Still owed:** Vector 8 `VX` row (⛔ NOT 8.01) · ZHA-05 has no instrument before its 12/31 window (Guizhou NPL unpulled since Feb) · ZHA-10 `Date_Made` defect · CFETS 16:30 close as the V6 market leg.
+9. ✅ **10/29 maintenance (step 5):** KB `Stale_By` now has a reader (boot §6: **87** rows past due — a re-check backlog; ⛔ never bulk-mark SUPERSEDED) · 5 Feb-2026 VX rows 🧊 FROZEN · catalyst reader fixed (DONE/RESOLVED rows no longer fire; open rows never age out) · boot pulls the CFETS fix (V6/V9) and HKMA (peg) live · NEXUS brief CALIBRATION/SENDING/CATALYSTS rewritten · 5 files archived · charter trimmed to 32,211 B · `workbook/LEDGER_GLOB` declared. **Open-items pass 10/29 (KB-220):** Vector 8 row `VX-8.02` ✅ · ZHA-05 → STUCK, successor `VX-6.15` ✅ · V6 market leg → Fed H.10 ✅ (CFETS 16:30 close endpoint not found) · 5 packets delivered directly ✅. **Still owed:** Vector 8 rescore 4→5 question (needs a China LNG/crude-import leg) · base-rate rural NPL history, then register a ZHA-05 successor · ZHA-10 `Date_Made` defect.
 10. 🟡 **US-China ag channel unmeasured** (KB-170) · **Korea's two unverified caveats** since 8/3 · ~~CLAUDE.md re-key~~ (landed 9/17 `c6ac32e81`, per DAEDALUS 10/14) · DAEDALUS 10/14 fix-list items 3–7, 9, 10 OWED (maintenance spawn) · **ZHA-10 `Date_Made` defect** · **HK $9.33B June UST sale unlogged** (KB-140).
 11. 🟡 **HK peg watch (new 10/29, KB-216):** USD/HKD 7.846 at the 7.85 weak edge, HIBOR-SOFR YELLOW. Tell = HKMA `market_activities` ≠ +0 / Aggregate Balance falling ⇒ rescore Vector 7, route LIQUID+PROME. Check at each boot (HKMA API, ~1 call).
 12. 🟠 **`VX` row owed for the Chinese clock** — `FLOW-15` exists, no vector tracks it. ⛔ next free id (8.01 is FROZEN).
