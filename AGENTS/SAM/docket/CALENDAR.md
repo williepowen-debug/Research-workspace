@@ -10,15 +10,10 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |---|---|---|---|---|
-| 🟠 Wed Oct 21 2026 | Japan trade balance, September (provisional, whole-month) | Balance; and read crude VOLUME, not crude value | The oil-in-yen inversion test repeats here after the 9/16 August print. Jul: crude value +87.8% YoY but VOLUME +5.5%. Quantities, prices and currency stay separate. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM |
-| 🟡 Wed Oct 21 2026 | BOJ scheduled JGB purchase operations — SAM-33 check | Offer dates/sizes vs September 30 quarterly plan | Scheduled: 1-3Y 3300, 5-10Y 3050, 25Y+ 750 (100 million yen units). Scheduled purchases do not falsify SAM-33; check for any unscheduled/fixed-rate cap of a gradual rise. | SAM,LIQUID |
-| 🟡 Fri Oct 23 2026 | Japan National CPI, September | Headline / core / core-core, 2025 base | Specify the base; parallel 2020/2025 publication continues through December. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM |
-| 🟡 Sat Oct 24 2026 | BOJ meeting OIS source-age expiry — 15:15 JST | Review current Totan chart before quoting pricing | October 20 15:15 JST quote reaches four-day source-age limit October 24 15:15 JST = 02:15 ET. Decision expiry October 30 is later. SAM-42 >=60% re-mark bar unchanged. | SAM |
-| 🟠 Wed Oct 28 2026 | FOMC decision (Oct 27-28) — NO SEP | Statement and any dot commentary | No Summary of Economic Projections at this meeting — the registered Fed-side tripwire is an actual dot walk-back, which needs a SEP meeting. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | ALL |
-| 🟡 Thu Oct 29 2026 | JGB 2Y auction | BTC, tail vs the Sep-30 result | Front end. MOF Oct calendar 2610e.htm / BOJ / Stats Bureau / BLS / customs.go.jp — all source-checked 2026-09-11 (KOYOMI Run 21 PENDING A), applied by SAM. | SAM,LIQUID |
-| 🔴 Fri Oct 30 2026 | BOJ MPM day 2 decision + Outlook Report (Oct 29-30) | Rate, vote, Outlook projections and guidance | Outlook meeting (BOJ table verified). **SAM-42 resolves by Oct-31 JST: P(hike) 25% vs Totan 36% frozen 9/29.** | ALL |
+| 🔴 Fri Oct 30 2026 | BOJ MPM day 2 decision + Outlook Report (Oct 29-30) | Rate, vote, Outlook projections and guidance | Outlook meeting (BOJ table verified). **SAM-42 resolves by Oct-31 JST on the statement PDF: P(hike) 25% as made; Totan frozen 9/29 = 36%, latest reviewed 10/29 11:15 JST = 2% (Dec 82%).** | ALL |
 | 🟡 Fri Oct 30 2026 | Tokyo CPI, October (preliminary) | Headline / core / core-core on the 2025 base | Prints the MORNING of the BOJ Oct-30 decision. ⚠️ 2025-BASE ONLY; never compare across bases. *(OBSERVED, re-read by SAM 9/29)* | SAM |
 | 🟠 Fri Oct 30 2026 | MOF monthly FX-intervention total (window ~Sep-29→~Oct-28) — ⚠️ DATE IS A CADENCE ESTIMATE | Aggregate yen amount; ¥0 or non-zero | Successor to the Sep-30 row. A no-show on this date is the estimate's other branch, NOT a miss (8/27 ruling) — re-check the next business day. *(INFERRED cadence)* | SAM,HENRY,PROME |
+| 🟡 Fri Oct 30 2026 | BOJ purchase schedule — November offer dates, 17:00 JST | Dates/sizes vs the Sep-30 quarterly plan | SAM-33 check. October audited complete 10/29 (all six purchase days on schedule). Scheduled size change excluded; unscheduled increase to cap a gradual rise = falsifier. | SAM,LIQUID |
 | 🟡 Thu Nov 05 2026 | JGB 10Y auction | BTC, tail | Belly, not a super-long floor test. *(OBSERVED)* | SAM,LIQUID |
 | 🟡 Thu Nov 5 2026 | BOJ MPM minutes — September 17–18 meeting | Members’ discussion of September policy decision | Policy context; no prediction re-mark inferred; 08:50 JST. *(OBSERVED BOJ MPM schedule, SAM verified October 20)* | SAM |
 | 🟠 Mon Nov 09 2026 | MOF quarterly FX-intervention per-operation disclosure (Jul-Sep 2026 / Q3) — the JAPANESE-side definitive per-op record of the 7/30-31 ops | feio/quarter/2026_3Qe.html (or equivalent) — per-op date + yen amount for each op in the window; total for the quarter | Cadence-derived ESTIMATE, not announced: Q1(Jan-Mar) published May-12 (+42d after quarter-end); Q2(Apr-Jun) published Aug-7 (+38d) — own-verified at feio/quarter/2026_2Qe.html this run, which ALSO confirmed the long-pending per-op breakdown of the already-known ¥11,734.9B Apr-May aggregate (Apr-30 ¥6,278.7B / May-4 ¥780.2B / May-6 ¥4,675.9B — matches STATUS's MOF-monthly-5/29-sourced total exactly). Applying the ~38-42d cadence to Sep-30 quarter-end gives ~Nov-7 to Nov-11; row uses the midpoint. Lands within days of the already-tracked FRBNY Q3 (~Nov-13) row below — TWO independent primaries (Japanese MOF side + US NY-Fed side) converging on the same window for the 7/30-31 op record. ⚠️ Now also owed to break out the RECORD ¥15,399.3B Jul-30->Aug-26 aggregate into its per-op components (7/30 Bloomberg estimate ~¥8.45T, my derived 7/31 residual ~¥6.95T). | SAM,BOND,LIQUID,PROME |
@@ -38,6 +33,17 @@
 | 🟠 Mon Jan 25 2027 | NBIM/GPFG bond-index restructure — expert-group report due (JGB weight 4.6% -> 7.4%) | Does the expert group endorse the JGB leg? Any mandate language on phasing | PROPOSAL, not executed flows: JGB benchmark 4.6% to 7.4%; no tenor-specific allocation or implementation date established. Earlier nothing-lands-in-2026 inference withdrawn. | SAM, BOND, LIQUID |
 
 ---
+
+## ✅ RESOLVED October 29 (SAM boot catch-up)
+
+| Original event / obligation | Outcome |
+|---|---|
+| Oct 21 September trade balance | −¥556.5B deficit; crude VOLUME 11,166 thousand kL (+3.1% YoY), value +51.1%; ME crude volume −30.0% YoY. Stage as parsed by `trade_balance_japan.py` 10/29. |
+| Oct 21 BOJ purchases (SAM-33) | 1-3Y 3,300 · 5-10Y 3,050 · 25Y+ 750 = schedule; Oct 28 3-5Y 2,900 · 5-10Y 3,050 · linkers 300 = schedule. No fixed-rate or unscheduled op Oct 21–29 (`ope202610{21..29}.xlsx`). Falsifier un-fired. |
+| Oct 23 September national CPI | 2025 base: headline 2.1 / core 2.1 / core-core 2.4 (e-Stat via `cpi_japan.py`). |
+| Oct 24 OIS source-age expiry | New Totan image 10/29 11:15 JST reviewed: Oct 2%, Dec 82%, cumulative 1.94 by Apr. Decision expiry Oct 30. |
+| Oct 28 FOMC | Held 3.75–4.00%, 10–2, both dissents for a hike (Fed release, via WALTER SIG-W-20261029-001). No SEP. |
+| Oct 29 JGB 2Y auction | BTC 4.031× / tail 0.7bp, orderly (MOF eresul20261029). |
 
 ## ✅ RESOLVED October 20 (user-directed sweep)
 
