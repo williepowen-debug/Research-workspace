@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated October 27, 2026, research-reader planning checkpoint.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 29, 2026, system-review and approval reconciliation.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
+
+**Recent-system review delivered; await Will's next direction.** [Review at c4c9ef793](runs/2026-10-29_0942_recent-system-review.md): direction improving; prioritize existing L370/L368 owed-work visibility repairs, reconcile DEWEY/VULCAN funding arithmetic and VULCAN's future-time claim. Fidelity trial is encouraging only within observed coverage. No owner edits/sends or new study. **Boot-summary correction:** October 28 packets authorize CATO's ORACLE launcher preset (L848, November 2; exact text received); Windows wake facility (L853, November 9) is scope-only, not build/install approval. Preserve both alongside reader/pilot work; this review starts none. [Approval pointers](TASK_INDEX.md#october-29-system-review-and-launcher-approvals).
 
 **Research-reader plan is unfinished; resume that plan when Will continues.** Will wants the reader built and requested a plan first, then prioritized committing/pushing before more work because usage was low. [Saved draft and remaining decisions](runs/2026-10-27_1440_program-opportunities.md#partial-reader-plan--saved-before-further-work): proposed Research tab, three initial desks, actual document locations checked; filters, renderer, page sketch, acceptance checks and phases still to settle. No reader code exists. Preserve build intent; do not ask again whether Will wants it. Other program ideas remain proposals. Launcher tabs/theme/icon are delivered; no unrelated task auto-triggers.
 

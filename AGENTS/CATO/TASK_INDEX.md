@@ -2,6 +2,12 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 29 system review and launcher approvals
+
+- [Recent-system review](runs/2026-10-29_0942_recent-system-review.md), scoped through c4c9ef793: SR1 existing docket/selector defects reproduced; SR2 DEWEY arithmetic replay objection supported; SR3 VULCAN future event time unresolved; SR4 fidelity coverage limit preserved. Recommendations delivered, no owner edits/sends or new study; await Will.
+- **L848 due November 2, approved:** add ORACLE daily-read launcher task preset under WQ-527 C. [PROME assignment](inbox/2026-10-28_from-PROME_WQ527-B-launcher-preset.md) and [ORACLE exact text](inbox/2026-10-28_from-ORACLE_WQ527-B-preset-text.md) received. Choosing the preset starts nothing; CATO implements/tests under launcher custody, PROME verifies commit. No need to re-request build approval when resumed.
+- **L853 due November 9, scope only:** Windows wake/catch-up belongs in launcher; scope then bring installation to Will. Source: PROME/DOCKET.tsv L853 and PROME/inbox/processed/2026-10-28_from-ORACLE_windows-wake-trigger-to-launcher.md. Build explicitly not approved; WSL-up limitation remains. No implementation during review.
+
 ## October 27 program opportunities
 
 - **Research reader:** Will wants it built and requested the plan first. [Partial plan/checkpoint](runs/2026-10-27_1440_program-opportunities.md#partial-reader-plan--saved-before-further-work) preserves inspected three-desk locations, initial scope, and unresolved renderer/filter/UI/test choices. Plan unfinished; no reader implementation. Will prioritized Git delivery because usage was low. Resume by completing the plan, preserving build intent.
