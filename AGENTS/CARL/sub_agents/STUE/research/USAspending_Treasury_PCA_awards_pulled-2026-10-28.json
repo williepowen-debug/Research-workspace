@@ -1,0 +1,332 @@
+{
+ "pilot_PCA SERVICES.json": {
+  "spending_level": "awards",
+  "limit": 50,
+  "results": [
+   {
+    "internal_id": 358827256,
+    "Award ID": "2033H626F00089",
+    "Recipient Name": "TRANSWORLD SYSTEMS INC.",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 0.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00089_2036_2033H625A00011_2036",
+    "Last Modified Date": "2026-06-04 07:37:46"
+   },
+   {
+    "internal_id": 358672631,
+    "Award ID": "2033H626F00088",
+    "Recipient Name": "PIONEER CREDIT RECOVERY, INC",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 24527.95,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00088_2036_2033H625A00010_2036",
+    "Last Modified Date": "2026-07-02 08:29:07"
+   },
+   {
+    "internal_id": 358592888,
+    "Award ID": "2033H626F00087",
+    "Recipient Name": "CONTINENTAL SERVICE GROUP, LLC",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 0.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00087_2036_2033H625A00009_2036",
+    "Last Modified Date": "2026-06-04 10:20:16"
+   },
+   {
+    "internal_id": 358592887,
+    "Award ID": "2033H626F00086",
+    "Recipient Name": "COAST PROFESSIONAL, INC.",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 0.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00086_2036_2033H625A00008_2036",
+    "Last Modified Date": "2026-06-04 11:33:38"
+   },
+   {
+    "internal_id": 358466985,
+    "Award ID": "2033H626F00085",
+    "Recipient Name": "THE CBE GROUP, INC.",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 0.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00085_2036_2033H625A00007_2036",
+    "Last Modified Date": "2026-06-04 08:52:22"
+   },
+   {
+    "internal_id": 353805537,
+    "Award ID": "2033H626F00033",
+    "Recipient Name": "PIONEER CREDIT RECOVERY, INC",
+    "Start Date": "2026-01-05",
+    "End Date": "2027-01-04",
+    "Award Amount": 12000000.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00033_2036_2033H625A00010_2036",
+    "Last Modified Date": "2026-10-21 08:17:39"
+   },
+   {
+    "internal_id": 353717089,
+    "Award ID": "2033H626F00034",
+    "Recipient Name": "TRANSWORLD SYSTEMS INC.",
+    "Start Date": "2026-01-05",
+    "End Date": "2027-01-04",
+    "Award Amount": 12000000.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00034_2036_2033H625A00011_2036",
+    "Last Modified Date": "2026-10-21 11:25:37"
+   },
+   {
+    "internal_id": 353717088,
+    "Award ID": "2033H626F00032",
+    "Recipient Name": "CONTINENTAL SERVICE GROUP, LLC",
+    "Start Date": "2026-01-05",
+    "End Date": "2027-01-04",
+    "Award Amount": 12000000.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00032_2036_2033H625A00009_2036",
+    "Last Modified Date": "2026-10-22 08:04:38"
+   },
+   {
+    "internal_id": 353717087,
+    "Award ID": "2033H626F00031",
+    "Recipient Name": "COAST PROFESSIONAL, INC.",
+    "Start Date": "2026-01-05",
+    "End Date": "2027-01-04",
+    "Award Amount": 12000000.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00031_2036_2033H625A00008_2036",
+    "Last Modified Date": "2026-10-21 11:23:36"
+   },
+   {
+    "internal_id": 353717086,
+    "Award ID": "2033H626F00030",
+    "Recipient Name": "THE CBE GROUP, INC.",
+    "Start Date": "2026-01-05",
+    "End Date": "2027-01-04",
+    "Award Amount": 12000000.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00030_2036_2033H625A00007_2036",
+    "Last Modified Date": "2026-10-22 08:03:07"
+   },
+   {
+    "internal_id": 279033473,
+    "Award ID": "2033H625F00067",
+    "Recipient Name": "TRANSWORLD SYSTEMS INC.",
+    "Start Date": "2025-05-18",
+    "End Date": "2026-08-17",
+    "Award Amount": 11150573.56,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES BRIDGE CONTRACT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H625F00067_2036_47QRAA20D001D_4732",
+    "Last Modified Date": "2026-10-07 07:58:37"
+   },
+   {
+    "internal_id": 279033472,
+    "Award ID": "2033H625F00066",
+    "Recipient Name": "PIONEER CREDIT RECOVERY, INC",
+    "Start Date": "2025-05-18",
+    "End Date": "2026-08-17",
+    "Award Amount": 6111663.14,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES BRIDGE CONTRACT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H625F00066_2036_47QRAA19D00DP_4732",
+    "Last Modified Date": "2026-10-09 07:58:07"
+   },
+   {
+    "internal_id": 279033471,
+    "Award ID": "2033H625F00065",
+    "Recipient Name": "CONTINENTAL SERVICE GROUP, LLC",
+    "Start Date": "2025-05-18",
+    "End Date": "2026-08-17",
+    "Award Amount": 12169875.26,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES BRIDGE CONTRACT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H625F00065_2036_47QRAA22D002T_4732",
+    "Last Modified Date": "2026-09-15 13:14:19"
+   },
+   {
+    "internal_id": 279033470,
+    "Award ID": "2033H625F00064",
+    "Recipient Name": "COAST PROFESSIONAL, INC.",
+    "Start Date": "2025-05-18",
+    "End Date": "2026-08-17",
+    "Award Amount": 6808998.42,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES BRIDGE CONTRACT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H625F00064_2036_47QRAA23D0089_4732",
+    "Last Modified Date": "2026-10-06 15:35:37"
+   },
+   {
+    "internal_id": 279033469,
+    "Award ID": "2033H625F00063",
+    "Recipient Name": "THE CBE GROUP, INC.",
+    "Start Date": "2025-05-18",
+    "End Date": "2026-08-17",
+    "Award Amount": 11249660.76,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES BRIDGE CONTRACT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H625F00063_2036_47QRAA24D0062_4732",
+    "Last Modified Date": "2026-10-08 08:32:08"
+   },
+   {
+    "internal_id": 279033285,
+    "Award ID": "2033H624F00066",
+    "Recipient Name": "TRANSWORLD SYSTEMS INC.",
+    "Start Date": "2024-02-18",
+    "End Date": "2025-11-17",
+    "Award Amount": 8769597.02,
+    "Description": "PCA SERVICES BRIDGE CONTRACT (TSI)",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H624F00066_2036_47QRAA20D001D_4732",
+    "Last Modified Date": "2026-01-16 10:32:52"
+   },
+   {
+    "internal_id": 279033284,
+    "Award ID": "2033H624F00065",
+    "Recipient Name": "PIONEER CREDIT RECOVERY, INC",
+    "Start Date": "2024-02-18",
+    "End Date": "2025-11-17",
+    "Award Amount": 11669681.3,
+    "Description": "PCA SERVICES BRIDGE CONTRACT (PIONEER)",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H624F00065_2036_47QRAA19D00DP_4732",
+    "Last Modified Date": "2026-01-15 09:41:45"
+   },
+   {
+    "internal_id": 279033283,
+    "Award ID": "2033H624F00064",
+    "Recipient Name": "CONTINENTAL SERVICE GROUP, LLC",
+    "Start Date": "2024-02-18",
+    "End Date": "2025-11-17",
+    "Award Amount": 9562704.7,
+    "Description": "PCA SERVICES BRIDGE CONTRACT (CONSERVE)",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H624F00064_2036_47QRAA22D002T_4732",
+    "Last Modified Date": "2026-01-15 08:59:37"
+   },
+   {
+    "internal_id": 279033282,
+    "Award ID": "2033H624F00063",
+    "Recipient Name": "COAST PROFESSIONAL, INC.",
+    "Start Date": "2024-02-18",
+    "End Date": "2025-11-17",
+    "Award Amount": 9172623.87,
+    "Description": "PCA SERVICES BRIDGE CONTRACT COAST PROFESSIONAL",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H624F00063_2036_47QRAA23D0089_4732",
+    "Last Modified Date": "2026-01-15 09:12:40"
+   },
+   {
+    "internal_id": 279033281,
+    "Award ID": "2033H624F00062",
+    "Recipient Name": "THE CBE GROUP, INC.",
+    "Start Date": "2024-02-18",
+    "End Date": "2025-11-17",
+    "Award Amount": 11419918.99,
+    "Description": "PCA SERVICES BRIDGE CONTRACT (CBE)",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H624F00062_2036_GS23F0230P_4730",
+    "Last Modified Date": "2026-01-15 09:31:43"
+   }
+  ],
+  "page_metadata": {
+   "page": 1,
+   "hasNext": false,
+   "last_record_unique_id": null,
+   "last_record_sort_value": "None"
+  },
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+ },
+ "pilot_EDUCATION PILOT.json": {
+  "spending_level": "awards",
+  "limit": 50,
+  "results": [
+   {
+    "internal_id": 358827256,
+    "Award ID": "2033H626F00089",
+    "Recipient Name": "TRANSWORLD SYSTEMS INC.",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 0.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00089_2036_2033H625A00011_2036",
+    "Last Modified Date": "2026-06-04 07:37:46"
+   },
+   {
+    "internal_id": 358672631,
+    "Award ID": "2033H626F00088",
+    "Recipient Name": "PIONEER CREDIT RECOVERY, INC",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 24527.95,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00088_2036_2033H625A00010_2036",
+    "Last Modified Date": "2026-07-02 08:29:07"
+   },
+   {
+    "internal_id": 358592888,
+    "Award ID": "2033H626F00087",
+    "Recipient Name": "CONTINENTAL SERVICE GROUP, LLC",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 0.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00087_2036_2033H625A00009_2036",
+    "Last Modified Date": "2026-06-04 10:20:16"
+   },
+   {
+    "internal_id": 358592887,
+    "Award ID": "2033H626F00086",
+    "Recipient Name": "COAST PROFESSIONAL, INC.",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 0.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00086_2036_2033H625A00008_2036",
+    "Last Modified Date": "2026-06-04 11:33:38"
+   },
+   {
+    "internal_id": 358466985,
+    "Award ID": "2033H626F00085",
+    "Recipient Name": "THE CBE GROUP, INC.",
+    "Start Date": "2026-06-01",
+    "End Date": "2026-06-03",
+    "Award Amount": 0.0,
+    "Description": "PRIVATE COLLECTION AGENCY (PCA) SERVICES - EDUCATION PILOT",
+    "Awarding Sub Agency": "Bureau of the Fiscal Service",
+    "generated_internal_id": "CONT_AWD_2033H626F00085_2036_2033H625A00007_2036",
+    "Last Modified Date": "2026-06-04 08:52:22"
+   }
+  ],
+  "page_metadata": {
+   "page": 1,
+   "hasNext": false,
+   "last_record_unique_id": null,
+   "last_record_sort_value": "None"
+  },
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+ }
+}
