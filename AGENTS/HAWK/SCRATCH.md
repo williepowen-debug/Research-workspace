@@ -22,7 +22,7 @@ Full intake (25 items) dispositioned and filed; COR-20261025-26 NO-OP; both aggr
    - YURI L432 owner grade, with the Nov 2 backfill.
 2. **Nov 1:** Sinokor enforcement: what "legal action" means in practice, any tonnage exit; read FALCON/BRENT.
 3. **WQ-470:** joint text agreed (OSPREY `97f4bcff7` §7); PROME holds it until OSPREY binds X with the backfill. HAWK checks the bound X and recomputes it from the backfill table when it lands.
-4. **Nov 2:** EURMIL 45-day backstop. Oct 29 residual check done (Article 4 closed to 9/29; Croatia RED (b) decision pending with Will/PROME; open: Article 4 9/30–10/29, Article 5 primary, Denmark/Baltic/Nordic conscription sweep, equipment stocks).
+4. **Nov 2:** EURMIL 45-day backstop. Oct 29 residual check done (Article 4 closed to 9/29; Croatia RED (b) RULED B (clarified prospectively, ORANGE held); open: Article 4 9/30–10/29, Article 5 primary, Denmark/Baltic/Nordic conscription sweep, equipment stocks).
 5. **Carried:**
    - FLOW-21: Q3 partial test done Oct 29 (not falsified; lag-not-break caveat). Re-check at INSW Nov 5 / DHT Nov 9 full results.
    - K1 numerical test (input UNMEASURED per BRENT).

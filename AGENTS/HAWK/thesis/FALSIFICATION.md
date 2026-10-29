@@ -182,7 +182,7 @@ Full specs, non-fires, NO-VERDICT bands and confidence derivations: `thesis/PRED
 | # | What would make this WRONG | By when | Instrument |
 |---|---|---|---|
 | E1 | **Any ally requests Article 4 consultations.** Kills the "political ladder unstepped" claim outright and fires ORANGE→RED. | any time | nato.int Article 4 topic page **at a 2026 vintage** — see E5 |
-| E2 | **A European NATO state activates compulsory mobilisation** (Germany: a further Bundestag act under "compulsory on demand"). | any time | Bundestag / Bundesgesetzblatt |
+| E2 | **A European NATO state activates mobilisation or a crisis/needs-based compulsory call-up** (Germany: a further Bundestag act under "compulsory on demand"). [Clarified 2026-10-29, RULED B by Will 2026-10-29 13:51 ET, verbatim "ok so lets do B I think your rec.": peacetime reintroduction of standing training conscription, e.g. Croatia 2026-03-09, does NOT count.] | any time | Bundestag / Bundesgesetzblatt |
 | E3 | **The engagement count turns out NOT to be composite** — i.e. the 05-19 and 08-20 objects are re-attributed as deliberate Russian probes. Would remove HAWK's central caveat and make the count a clean intent measure. | any time | OSPREY (provenance is the owner's cell, not HAWK's) |
 | E4 | **The "stocks below 2021" finding is COMPOSITION, not depletion** — Soviet-era retirements replaced by fewer, better systems. Would make the counter-fact meaningless and HAWK's scepticism overdone. | next sweep | SIPRI / IISS / Kiel Ukraine Support Tracker, decomposed |
 | E5 | **A 2026-vintage NATO primary shows an Article 4 invocation HAWK did not find.** | before any gate scores on rung 3 | nato.int (current page is stale at 2025-09-23, the same date as its newest entry, so it cannot testify) |
