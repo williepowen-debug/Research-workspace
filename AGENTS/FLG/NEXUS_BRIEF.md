@@ -8,7 +8,7 @@
 
 **Recent thesis pivot:** v1.0 → v1.0.3 (10/22) — corrections only. Most recent material view shift: concentration read as deterioration → **level-high, trajectory de-risking** (8/20). The live signal is the reserve and the exit channel, not the 327.5% ratio.
 
-**As of:** 2026-10-28 22:5x ET | STATUS commit: `b57347b5b` — event-driven desk; this brief stands until the next print or owner session.
+**As of:** 2026-10-28 23:03 ET | STATUS commit: `cc219c606` — event-driven desk; this brief stands until the next print or owner session.
 
 ---
 
@@ -26,7 +26,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
 | EDGAR (issuer) | Q3-2026 10-Q | Mon Nov 9 (observed +37d lag; [EST]) | Grades FLG-02 and FLG-03; carries non-accrual roll-forward, FDM tables, maturity table | Formation > outflow or cure share < 2% again → stance holds; new specific reserve build → coverage leg softens |
-| FFIEC CDR | Q3-2026 Call Report, RSSD 694904 | Sat Nov 14 (+45d rule) | SR 07-1 recompute; closes the MDRM MIRROR residual | Ratio vs 300% line; buyback effect measured, not estimated |
+| FFIEC CDR | Q3-2026 Call Report, RSSD 694904 | Sat Nov 14 (+45d rule) | SR 07-1 recompute (Q2 327.52% verified at CDR 10/28, KB-098) | Ratio vs 300% line; buyback effect measured, not estimated |
 | NY Supreme Court (Will's browser via PROME) | Kenilworth v. RGB merits ruling | Open — judge said "before the end of the year" | Freeze vacated = mechanism input reverses | Vacatur → lowers the 2027–28 DSCR stress; upheld → the 2028-Q2 fuse (T-11) stands |
 | REGINALD | Cohort read on Q3 problem-loan / coverage pattern | Open — its 11/07 re-score | Whether FLG is an outlier or the cohort's leading edge | Cohort-wide → the stance is a sector call, not single-name |
 
