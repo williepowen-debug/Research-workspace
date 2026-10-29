@@ -12,6 +12,11 @@ The four acceptance tests (BACKLOG 2026-09-27 row, reviewer-specified):
      is honored, and a wait beyond RECAP_MAX_WAIT exits 3 instead of hanging
   T4 a wrong-case document is rejected (exit 4, quarantined), and an
      unreadable image-only header is UNVERIFIED (exit 5), never accepted
+Added 2026-10-29 (OTTO packet 10/28, CourtListener now 401s anonymous search):
+  T6 an API 401 exits 7 "TOKEN REQUIRED" (or "TOKEN REJECTED" with a token
+     set), says it is not "no results", and is never cached
+  T7 `feed` states its window: entry count, oldest date, and the 30-entry
+     cap warning when at the cap; it always fetches fresh
 """
 
 import http.server, json, os, subprocess, sys, tempfile, threading, time
@@ -47,6 +52,29 @@ DOCS = {
     "/recap/wrong.pdf": make_pdf("Case 8:26-bk-11647-MH Doc 77 Filed 09/08/26 Conejo Loan Investors"),
     "/recap/scan.pdf": make_pdf(""),
 }
+def make_rss(n):
+    items = "".join(
+        f"<item><title>Entry {i}</title><link>https://example/{i}</link>"
+        f"<pubDate>Mon, {10 + i % 18:02d} Oct 2026 12:00:00 -0000</pubDate></item>"
+        for i in range(n))
+    return (f'<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel>'
+            f"<title>docket</title>{items}</channel></rss>").encode()
+
+
+def make_atom(n):
+    """CourtListener's real docket-feed format (Atom), shaped on the live 10/29 feed."""
+    items = "".join(
+        f"<entry><title>Entry #{4000 - i} in Test v. Case</title>"
+        f'<link href="https://example/docket#entry-{4000 - i}" rel="alternate"/>'
+        f"<published>2026-10-{29 - i % 20:02d}T00:00:00-07:00</published>"
+        f'<summary type="html">Motion {i}</summary>'
+        f'<link href="https://ecf.example/doc1/{i}" length="0" rel="enclosure" type="None"/></entry>'
+        for i in range(n))
+    return (f'<?xml version="1.0" encoding="utf-8"?><feed xml:lang="en-us" '
+            f'xmlns="http://www.w3.org/2005/Atom"><title>Docket updates</title>{items}</feed>').encode()
+
+
+FEEDS = {"/docket/123/feed/": make_rss(3), "/docket/999/feed/": make_atom(30)}
 HITS = Counter()
 STATE = {"429_once": True}
 
@@ -64,6 +92,15 @@ class Fake(http.server.BaseHTTPRequestHandler):
             self.send_response(200); self.send_header("Content-Type", "application/pdf")
             self.send_header("Content-Length", str(len(body))); self.end_headers()
             self.wfile.write(body); return
+        if path in FEEDS:
+            body = FEEDS[path]
+            self.send_response(200); self.send_header("Content-Type", "application/rss+xml")
+            self.send_header("Content-Length", str(len(body))); self.end_headers()
+            self.wfile.write(body); return
+        if path == "/api/search/" and "needauth" in self.path:
+            body = b'{"detail":"Authentication credentials were not provided."}'
+            self.send_response(401); self.send_header("Content-Length", str(len(body)))
+            self.end_headers(); self.wfile.write(body); return
         if path == "/api/search/":
             if "htmlonce" in self.path and STATE.setdefault("html_once", True):
                 STATE["html_once"] = False
@@ -99,7 +136,8 @@ def main():
     base = f"http://127.0.0.1:{srv.server_address[1]}"
     cache = tempfile.mkdtemp(prefix="recap_test_")
     env = dict(os.environ, RECAP_CACHE=cache, RECAP_API_BASE=base + "/api",
-               RECAP_STORAGE_BASE=base, RECAP_LIMITS="100/60", RECAP_MAX_WAIT="10")
+               RECAP_STORAGE_BASE=base, RECAP_WEB_BASE=base,
+               RECAP_LIMITS="100/60", RECAP_MAX_WAIT="10")
     env.pop("COURTLISTENER_TOKEN", None)
     fails = []
 
@@ -167,6 +205,31 @@ def main():
     # page-numbered quote
     r = run(["text", man[0]["sha256"], "--grep", "Nano Banc owed"], env)
     check("quotes carry a page number", r.returncode == 0 and r.stdout.startswith("p.1:"), r.stdout.strip()[:60])
+
+    # T6: an API 401 is loud, distinct, and never cached
+    env6 = dict(env, RECAP_CACHE=tempfile.mkdtemp(prefix="recap_t6_"))
+    r1 = run(["search", "needauth"], env6); r2 = run(["search", "needauth"], env6)
+    nh = sum(v for k, v in HITS.items() if "needauth" in k)
+    check("T6 anonymous 401 → exit 7 TOKEN REQUIRED, 'NOT no results', not cached (2 hits)",
+          r1.returncode == 7 and "TOKEN REQUIRED" in r1.stderr and "NOT 'no results'" in r1.stderr
+          and r2.returncode == 7 and nh == 2, f"rc={r1.returncode} hits={nh} {r1.stderr.strip()[:90]}")
+    r = run(["search", "needauth"], dict(env6, COURTLISTENER_TOKEN="bogus"))
+    check("T6b 401 with a token set → exit 7 TOKEN REJECTED", r.returncode == 7 and "TOKEN REJECTED" in r.stderr,
+          r.stderr.strip()[:90])
+
+    # T7: feed states its window; at the cap it warns; it never serves from cache
+    r = run(["feed", "123"], env)
+    check("T7 feed below cap: count + oldest date + 'not verified', 3 rows",
+          r.returncode == 0 and "3 entries, oldest 2026-10-10" in r.stdout and "not verified" in r.stdout
+          and r.stdout.count("Entry ") == 3, r.stdout.splitlines()[0][:90] if r.stdout else r.stderr[:90])
+    r = run(["feed", "999"], env)
+    check("T7b Atom feed (the live format) at the 30 cap → oldest date + 'older entries are NOT in this feed'",
+          r.returncode == 0 and "30 entries, oldest 2026-10-10" in r.stdout and "AT THE 30-ENTRY CAP" in r.stdout
+          and "NOT in this feed" in r.stdout and "#entry-4000" in r.stdout and "ecf.example" not in r.stdout,
+          r.stdout.splitlines()[1][:90] if r.stdout else r.stderr[:90])
+    run(["feed", "123"], env)
+    check("T7c feed always fetches fresh (2 server hits for 2 runs on docket 123)",
+          HITS["/docket/123/feed/"] == 2, f"hits={HITS['/docket/123/feed/']}")
 
     srv.shutdown()
     print(f"\n{'ALL PASS' if not fails else str(len(fails)) + ' FAIL: ' + ', '.join(fails)}")

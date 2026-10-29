@@ -16,7 +16,8 @@ to. The document's own page-1 header does ("Case 8:26-bk-10986-MH Doc 88
 Filed 09/08/26").
 
 Usage:
-  recap_pull.py search '"Nano Banc"' --type rd --court cacb
+  recap_pull.py search '"Nano Banc"' --type rd --court cacb   # needs a token since ~10/26-28
+  recap_pull.py feed 71483359    # docket RSS, anonymous; NEWEST 30 ENTRIES ONLY
   recap_pull.py doc URL --case 8:26-bk-10986 --entry 88     # verify + cache
   recap_pull.py text <sha256|URL> --grep "Nano Banc"        # page-numbered
   recap_pull.py status        # budget windows, blocked-until, cache size
@@ -44,16 +45,31 @@ Scope (deliberately narrow, not a research platform):
     kept in quarantine. Unreadable header (image-only scan) → UNVERIFIED,
     exit 5, never silently accepted.
 
+  * Auth (2026-10-29, OTTO packet 10/28): the v4 search API now answers
+    anonymous requests with HTTP 401 (anonymous search worked through
+    2026-10-25 20:48 per requests.log). A 401/403 from the API exits 7 with
+    "TOKEN REQUIRED" and is never cached, so no desk can read it as "no
+    results". The anonymous fallback is `feed`, whose window is stated in
+    every run (see below).
+  * Feed: `feed <docket_id>` reads the docket's public RSS feed
+    (/docket/<id>/feed/). CourtListener caps it at the newest 30 entries, so
+    an absence there covers only entries on or after the oldest one printed.
+    It always fetches fresh (a cached feed would hide newer entries) and
+    draws on the shared budget as local pacing.
+
 Environment:
-  COURTLISTENER_TOKEN   optional API token (enables auth + the Usage API)
+  COURTLISTENER_TOKEN   API token, read from the environment only (not from
+                        .env). Keep it in ~/.bashrc, outside the repo; never
+                        commit or paste it. `usage` then reports auth: token.
   RECAP_CACHE           cache dir (default ~/.cache/dewey_recap)
   RECAP_LIMITS          e.g. "5/60,50/3600,125/86400" (count/seconds)
   RECAP_MAX_WAIT        max seconds to sleep for budget (default 90)
-  RECAP_API_BASE / RECAP_STORAGE_BASE   override hosts (used by the tests)
+  RECAP_API_BASE / RECAP_STORAGE_BASE / RECAP_WEB_BASE   override hosts (tests)
 
 Exit codes: 0 ok · 2 usage · 3 THROTTLED (wait exceeds RECAP_MAX_WAIT; the
 wait is printed) · 4 identity MISMATCH · 5 identity UNVERIFIED · 6 HTTP or
-transport error.
+transport error · 7 AUTH: the API refused the request (401/403); a token is
+required or the one set was rejected. Not "no results".
 
 Stdlib only. The PDF-text fallback uses pdfminer (run with .venv/bin/python3).
 """
@@ -67,6 +83,8 @@ from fetch_url import headers_for, _decompress  # reuse: per-host UA + gzip
 
 API_BASE = os.environ.get("RECAP_API_BASE", "https://www.courtlistener.com/api/rest/v4")
 STORAGE_BASE = os.environ.get("RECAP_STORAGE_BASE", "https://storage.courtlistener.com")
+WEB_BASE = os.environ.get("RECAP_WEB_BASE", "https://www.courtlistener.com")
+FEED_CAP = 30   # CourtListener docket RSS carries the newest 30 entries (OTTO 10/28)
 CACHE = os.path.expanduser(os.environ.get("RECAP_CACHE", "~/.cache/dewey_recap"))
 LIMITS = [tuple(int(x) for x in w.split("/"))
           for w in os.environ.get("RECAP_LIMITS", "5/60,50/3600,125/86400").split(",")]
@@ -83,6 +101,10 @@ class Throttled(Exception):
 
 class FetchError(Exception):
     pass
+
+
+class AuthRequired(FetchError):
+    """401/403 from the API. Separate class so it can never pass as an empty result."""
 
 
 # ---------------------------------------------------------------- cache paths
@@ -196,6 +218,17 @@ def _http(url, metered):
             if e.code == 429:
                 _note_429(e.headers, body)
                 continue           # _reserve_slot now waits out blocked_until
+            if e.code in (401, 403) and url.startswith(API_BASE):
+                if TOKEN:
+                    why = (f"TOKEN REJECTED: HTTP {e.code} with COURTLISTENER_TOKEN set. "
+                           f"The token may be wrong or revoked; check it at courtlistener.com")
+                else:
+                    why = (f"TOKEN REQUIRED: HTTP {e.code}, CourtListener refuses anonymous API "
+                           f"requests. Set COURTLISTENER_TOKEN (environment only, never the repo)")
+                raise AuthRequired(
+                    f"{why}. This is NOT 'no results'. Anonymous fallback: "
+                    f"`recap_pull.py feed <docket_id>` (newest {FEED_CAP} entries only). "
+                    f"Server said: {body[:120]!r}") from e
             raise FetchError(f"HTTP {e.code} for {url}: {body[:200]!r}") from e
         except urllib.error.URLError as e:
             raise FetchError(f"transport error for {url}: {e.reason}") from e
@@ -221,6 +254,9 @@ def _cached_get(url, metered, suffix, refresh=False):
             except ValueError:
                 raise FetchError(f"{url} returned non-JSON ({len(data)} bytes, starts "
                                  f"{data[:60]!r}); NOT cached")
+        elif suffix == ".xml" and b"<rss" not in data[:500] and b"<feed" not in data[:500]:
+            raise FetchError(f"{url} did not return an Atom/RSS feed ({len(data)} bytes, starts "
+                             f"{data[:60]!r}); NOT cached")
         elif suffix == ".pdf" and not data.startswith(b"%PDF"):
             raise FetchError(f"{url} did not return a PDF ({len(data)} bytes, starts "
                              f"{data[:60]!r}); NOT cached")
@@ -356,6 +392,50 @@ def cmd_search(a):
     return 0
 
 
+def cmd_feed(a):
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+    url = f"{WEB_BASE.rstrip('/')}/docket/{int(a.docket_id)}/feed/"
+    data, path, _ = _cached_get(url, metered=True, suffix=".xml", refresh=True)
+    # The live docket feed is Atom (checked 2026-10-29 on 71483359); RSS 2.0 is
+    # accepted too, in case the site switches.
+    A = "{http://www.w3.org/2005/Atom}"
+    try:
+        root = ET.fromstring(data)
+    except ET.ParseError as e:
+        raise FetchError(f"{url} returned an unparseable feed: {e}")
+    rows = []
+    for it in root.findall(f"{A}entry"):
+        raw = (it.findtext(f"{A}published") or it.findtext(f"{A}updated") or "").strip()
+        link = next((l.get("href", "") for l in it.findall(f"{A}link")
+                     if l.get("rel", "alternate") == "alternate"), "")
+        rows.append((raw[:10] or "?", it.findtext(f"{A}title") or "",
+                     it.findtext(f"{A}summary") or "", link))
+    for it in root.findall("./channel/item"):
+        raw = (it.findtext("pubDate") or "").strip()
+        try:
+            when = parsedate_to_datetime(raw).date().isoformat()
+        except (TypeError, ValueError):
+            when = raw or "?"
+        rows.append((when, it.findtext("title") or "", it.findtext("description") or "",
+                     (it.findtext("link") or "").strip()))
+    rows = [(d, " ".join(t.split())[:80], " ".join(x.split())[:140], l) for d, t, x, l in rows]
+    dates = sorted(r[0] for r in rows if re.fullmatch(r"\d{4}-\d{2}-\d{2}", r[0]))
+    oldest = dates[0] if dates else "?"
+    print(f"# FEED WINDOW: {len(rows)} entries, oldest {oldest} — {url}")
+    if len(rows) >= FEED_CAP:
+        print(f"# ⚠ AT THE {FEED_CAP}-ENTRY CAP: older entries are NOT in this feed. "
+              f"'Not found here' covers only entries dated {oldest} or later.")
+    else:
+        print(f"# Below the {FEED_CAP}-entry cap; the feed may hold the whole docket, "
+              f"but that is not verified. Treat absence as covering {oldest} or later.")
+    print(f"# raw saved: {path} (fetched fresh, never served from cache)")
+    print("# date\ttitle\tsummary\tlink")
+    for r in rows[: a.limit]:
+        print("\t".join(r))
+    return 0
+
+
 def cmd_doc(a):
     rec, why = get_doc(a.url, a.case, a.entry, a.court)
     print(f"{rec['identity']}: {why}")
@@ -450,13 +530,18 @@ def main():
     d.add_argument("--entry", help="expected docket entry, e.g. 88"); d.add_argument("--court")
     t = sub.add_parser("text"); t.add_argument("ref", help="sha256 or URL")
     t.add_argument("--grep"); t.add_argument("--context", type=int, default=200)
+    f = sub.add_parser("feed", help=f"docket RSS (anonymous; newest {FEED_CAP} entries only)")
+    f.add_argument("docket_id", help="CourtListener docket id, e.g. 71483359")
+    f.add_argument("--limit", type=int, default=FEED_CAP)
     sub.add_parser("status"); sub.add_parser("usage")
     a = ap.parse_args()
     try:
-        return {"search": cmd_search, "doc": cmd_doc, "text": cmd_text,
+        return {"search": cmd_search, "feed": cmd_feed, "doc": cmd_doc, "text": cmd_text,
                 "status": cmd_status, "usage": cmd_usage}[a.cmd](a)
     except Throttled as e:
         print(e, file=sys.stderr); return 3
+    except AuthRequired as e:
+        print(f"AUTH: {e}", file=sys.stderr); return 7
     except FetchError as e:
         print(f"ERROR: {e}", file=sys.stderr); return 6
 
