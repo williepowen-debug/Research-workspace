@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-30T02:21:34Z — EO 14421 primary review and one new source signal; FULL record checkpoint. Boot source/perimeter scope remains PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-30T13:02:52Z — CLOSED on Will request; full session closeout. Boot source/perimeter scope remains PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
 Will's White House primary led to SIG-W-20261030-001: August 26 EO 14421 and DOE's October 6 guidance add a conditional grid-equipment procurement/security constraint. Data-centre generators, batteries and UPS are neither automatically included nor excluded by behind-the-meter location; foreign nexus and required DOE risk findings still matter. WATT/CYPHER owner questions saved with VULCAN/ZHAO/HENRY/RED context. No named vendor restriction, affected project, lost MW, cost effect or actual cyber incident established. Sources and exact limits: `research/2026-10-30_bulk-power-order/REVIEW.md` and the BOARD card.
 
-Research-Intake access works; X reauthorized and head checked October 29 21:13:24 ET with 0 new items. No fresh market/threshold-family clearance in this policy review. Existing approvals, pending publication and source/perimeter gaps remain in LAST_COMPLETION.md. BOARD count 1853; latest UTC-day signal SIG-W-20261030-001.
+Research-Intake access works; X reauthorized and head checked October 29 21:13:24 ET with 0 new items. No fresh market/threshold-family clearance in this policy review. Existing approvals and source/perimeter gaps remain in LAST_COMPLETION.md. Session closed on Will request; no new source pull in closeout. BOARD count 1853; latest UTC-day signal SIG-W-20261030-001.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -65,7 +65,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY owner lead headers refreshed 2026-10-30T02:21:34Z; evidence `research/2026-10-30_bulk-power-order/owner-header-review.json`. WATT's maintained record October 29, CYPHER closed October 29, VULCAN October 29 source cutoff; no current owner presence inferred from those dates. Grades/membership unchanged. Latest bounded Codex task list sees this WALTER and idle CATO plus older notLoaded tasks; cross-runtime owner readiness remains UNKNOWN. ACTION readiness for SIG-W-20261030-001 logged P0-UNKNOWN for WATT and CYPHER; no doorbell or launch. Two discovered LIAISON paths remain dormant under the existing manifest. Missing dispatch identifier caches for WATT/CYPHER/VULCAN were handled through current charters/STATUS, not invented identifiers.
+REGISTRY owner lead headers re-read 2026-10-30T13:02:52Z; evidence `research/2026-10-30_session-closeout/owner-header-review.json`. WATT's maintained record October 29, CYPHER closed October 29, VULCAN October 29 source cutoff; no current owner presence inferred from those dates. Grades/membership unchanged. Latest bounded Codex task list sees this WALTER and idle CATO plus older notLoaded tasks; cross-runtime owner readiness remains UNKNOWN. ACTION readiness for SIG-W-20261030-001 logged P0-UNKNOWN for WATT and CYPHER; no doorbell or launch. Two discovered LIAISON paths remain dormant under the existing manifest. Missing dispatch identifier caches for WATT/CYPHER/VULCAN were handled through current charters/STATUS, not invented identifiers.
 
 ## Active LIAISON channels
 
