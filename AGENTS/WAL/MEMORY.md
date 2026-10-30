@@ -10,6 +10,7 @@
 
 - **Will 14:21 ET "update your workbook … look for available updates":** 8 expired KB rows judged (092/102/194/196 SUPERSEDED; 093/095 → 10-Q; 251 → 2027-01-31; 227 → 12/9, stay state unverified). Added KB-273 (Q3 NDFI peer slide), KB-274 (Q3 deposits/LTD), KB-275 (Series A preferred not called at 9/30; WAL-PA $24.33; reset coupon UNKNOWN: read it from the next preferred dividend 8-K). MI3 attention line re-dated. News search and EDGAR: nothing after 10/28. KB 275 rows / 20 groups.
 
+- **After closeout (16:32–16:40 ET):** 10/30 close $76.29 (−1.94%, KRE −1.17%) to STATUS; base-case Q&A (neutral, beta ~1 to KRE, 2-week 1-sd range ~$73–80 from realized vol); short interest Q&A. **Will: "we should track metrics like this"** → built `workbook/MARKET_TRACKER.tsv` + `scripts/market_tracker.py` (FINRA series since 1/2025, % of shares from SEC cover counts, weekly price/vol/beta snapshot); boot.py wired; 23 tests pass. FINRA readings now go to the tracker, not new KB rows (KB only for a notable reading).
 **PRIOR SESSION (10/28 22:36–~22:55 ET, Claude Opus 5.5 on the laptop `WilliePOwen`, interactive; Will: "get caught up on any owed tasks or updating data"):**
 - Boot: not behind origin, so no pull; foreign dirty paths (CARL/PHAN, REGINALD) left untouched. Corrections check rc 0. 10/28 close $75.96 = EV exactly.
 - **EDGAR 9/24 → 10/28:** only the 10/19 8-K and ten 10/19 Form 4s; no 10-Q, 144, 13D/G or open-market trade. Three routes agree; the Form 144 route was positive-controlled (12 historical WAL 144s, newest 6/15) → KB-259.

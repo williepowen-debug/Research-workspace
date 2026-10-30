@@ -380,10 +380,21 @@ def ffiec_section(rep, today, args):
         print(f"  Call Report for {qend}: NOT FILED yet ({len(filers)} banks filed so far){note}")
 
 
+def tracker_last(text, metric):
+    """Newest Date for `metric` in workbook/MARKET_TRACKER.tsv (long format), else None."""
+    ds = [l.split("\t")[0] for l in text.splitlines()
+          if not l.startswith("#") and l.count("\t") >= 2 and l.split("\t")[1] == metric]
+    return date.fromisoformat(max(ds)) if ds else None
+
+
 def finra_section(rep, today, args):
-    section("FINRA SHORT INTEREST  (last logged reading = newest ACTIVE KB row)")
-    kb_last = kb_latest_finra_settlement((WAL_DIR / "workbook" / "KB.tsv").read_text(encoding="utf-8"))
-    print(f"  KB last logged settlement: {kb_last}")
+    section("FINRA SHORT INTEREST + MARKET TRACKER  (last logged = workbook/MARKET_TRACKER.tsv)")
+    tracker = (WAL_DIR / "workbook" / "MARKET_TRACKER.tsv").read_text(encoding="utf-8")
+    kb_last = tracker_last(tracker, "short_interest_shares")
+    snap = tracker_last(tracker, "close_WAL")
+    print(f"  Tracker last FINRA settlement: {kb_last} · last price snapshot: {snap}")
+    if snap is None or (today - snap).days > 10:
+        rep.attend(f"market tracker snapshot is {'missing' if snap is None else f'{(today - snap).days}d old'} — run scripts/market_tracker.py --write")
     if args.offline:
         rep.miss("FINRA (offline)")
         return
@@ -404,7 +415,7 @@ def finra_section(rep, today, args):
     print(f"  FINRA latest settlement {last['settlementDate']}: {last['currentShortPositionQuantity']:,} shares "
           f"({'chg n/a' if pct is None else f'{pct:+.2f}%'}), days-to-cover {last.get('daysToCoverQuantity')}")
     if kb_last is None or last["settlementDate"] > kb_last.isoformat():
-        rep.attend(f"FINRA settlement {last['settlementDate']} is newer than the KB's — log a KB row, supersede the old one")
+        rep.attend(f"FINRA settlement {last['settlementDate']} is newer than the tracker's — run scripts/market_tracker.py --write")
 
 
 def main():

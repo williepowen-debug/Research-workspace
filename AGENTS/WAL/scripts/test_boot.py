@@ -3,7 +3,8 @@ from datetime import date
 from pathlib import Path
 import base64,json,re,unittest
 from boot import (latest_quarter_end,periodic_report,call_report_due,jwt_expiry,form4_codes,classify,
-                  thesis_ev,exit_level,exit_log_last,mi3_last_quarter,kb_latest_finra_settlement,status_last_updated)
+                  thesis_ev,exit_level,exit_log_last,mi3_last_quarter,kb_latest_finra_settlement,status_last_updated,
+                  tracker_last)
 
 DESK=Path(__file__).resolve().parents[1];ROOT=DESK.parents[1]
 
@@ -60,5 +61,30 @@ class OwnerFiles(unittest.TestCase):
         row=['']*len(cols);row[cols.index('ID')]='KB-WAL-999';row[cols.index('Status')]='SUPERSEDED'
         row[cols.index('Fact')]='FINRA settlement 2099-01-15: test row'
         self.assertIsNone(re.search('2099',str(kb_latest_finra_settlement(hdr+'\n'+'\t'.join(row)))))
+    def test_tracker_last_reads_the_live_ledger_and_ignores_comment_lines(self):
+        t=(DESK/'workbook/MARKET_TRACKER.tsv').read_text()
+        for m in ('short_interest_shares','close_WAL','shares_outstanding'):
+            d=tracker_last(t,m);self.assertIsNotNone(d,m);self.assertIn(f'{d.isoformat()}\t{m}\t',t)
+        self.assertIsNone(tracker_last('# 2099-01-01\tclose_WAL\tx\n',"close_WAL"))
+
+class Tracker(unittest.TestCase):
+    def test_denominator_is_the_latest_cover_count_on_or_before_the_settlement(self):
+        from market_tracker import denominator
+        sh=[('2026-05-04',109185360),('2026-07-28',109100864)]
+        self.assertEqual(denominator(sh,'2026-07-27'),('2026-05-04',109185360))
+        self.assertEqual(denominator(sh,'2026-07-28'),('2026-07-28',109100864))
+        self.assertIsNone(denominator(sh,'2026-05-03'))
+    def test_every_short_pct_row_recomputes_from_its_own_ledger_inputs(self):
+        from market_tracker import read_rows,denominator
+        rows=read_rows((DESK/'workbook/MARKET_TRACKER.tsv').read_text())
+        sh=[(r['Date'],int(r['Value'])) for r in rows if r['Metric']=='shares_outstanding']
+        si={r['Date']:int(r['Value']) for r in rows if r['Metric']=='short_interest_shares'}
+        pct=[r for r in rows if r['Metric']=='short_pct_shares_out'];self.assertTrue(pct)
+        for r in pct:self.assertEqual(r['Value'],f"{si[r['Date']]/denominator(sh,r['Date'])[1]*100:.2f}")
+    def test_vol_and_beta_on_a_known_series(self):
+        from market_tracker import realized_vol,beta
+        x=[100*(1.01 if i%2 else 0.99)**i for i in range(70)]
+        self.assertAlmostEqual(beta(x,x,60),1.0,places=9)
+        self.assertGreater(realized_vol(x,20),0)
 
 if __name__=='__main__':unittest.main()

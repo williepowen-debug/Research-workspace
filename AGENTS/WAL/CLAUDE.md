@@ -190,6 +190,7 @@ One `.md` per signal, written direct into the recipient's `inbox/` and self-comm
 | `scripts/kb_expiry_check.py` | Reads KB's `Stale_By` column (nothing did before 8/20). Boot step 4b, advisory, exit 0. |
 | `scripts/predictions_due_check.py` | Reads PREDICTIONS' `Resolve_By`. Boot step 4d. |
 | `scripts/boot.py` + `test_boot.py` | Boot step 5 (10/28), read-only. |
+| `scripts/market_tracker.py` + `workbook/MARKET_TRACKER.tsv` | Short interest (% of shares), price snapshot, realized vol, beta vs KRE, spot vs EV (10/30, Will). Dry run by default; `--write` appends only new readings; boot step 5 flags when due. |
 | `scripts/derived_drift_check.py` + `workbook/RETIRED_CLAIMS.tsv` | Catches derived surfaces still asserting pre-bump state. Boot step 4c. **Add a RETIRED_CLAIMS row whenever you kill a claim.** |
 | `scripts/maintenance_state_check.py` + `scripts/test_maintenance_state_check.py` | Named current-field checks (KB/INDEX/KB_INDEX counts, position mirrors, inbox lanes) run inside 4c; `python3 -m unittest test_maintenance_state_check` from `scripts/` (10/10 on 10/22). Fixtures must read live values, not hard-coded counts. |
 | `MEMORY.md` | Session handoff + first-boot mandates. |

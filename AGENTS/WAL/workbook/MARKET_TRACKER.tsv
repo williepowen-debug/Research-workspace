@@ -1,0 +1,245 @@
+# WAL market tracker — dated positioning and market readings, one row per reading (long format). LIVE ledger: `scripts/market_tracker.py --write` appends only new readings; `scripts/boot.py` flags a newer FINRA settlement or a snapshot older than 7 days. Built 2026-10-30 (Will: "we should track metrics like this").
+# Last real data refresh: 2026-10-30 (scripts/market_tracker.py --write) | Staleness sweep (no data): not advanced
+# Metrics: short_interest_shares · avg_daily_volume · days_to_cover (FINRA consolidated short interest, semi-monthly) · shares_outstanding (SEC XBRL dei cover-page counts) · short_pct_shares_out (short ÷ the latest cover count dated on or before the settlement) · weekly snapshot: close_WAL, close_KRE, close_WAL-PA, realized_vol_20d/60d (annualized, backward-looking), beta_KRE_60d, spot_vs_ev_pct (EV from THESIS.md at run time).
+# Owner: WAL (single-name only). Cohort and KRE judgments → REGINALD; implied volatility → TERRY (card-time pulls). Rule of thumb for short_pct_shares_out (not peer data): <5% low · 5–10% moderate · >10% heavy. Never hand-edit a row; a correction is a new dated row with Basis saying what it corrects.
+Date	Metric	Value	Unit	Basis	Source	Recorded
+2011-07-31	shares_outstanding	82187686	shares	cover-page count as of this date	SEC 10-Q cover acc 0000950123-11-073760 (XBRL dei)	2026-10-30 16:39
+2011-10-31	shares_outstanding	82339547	shares	cover-page count as of this date	SEC 10-Q cover acc 0000950123-11-096511 (XBRL dei)	2026-10-30 16:39
+2012-02-29	shares_outstanding	83132092	shares	cover-page count as of this date	SEC 10-K cover acc 0001193125-12-094320 (XBRL dei)	2026-10-30 16:39
+2012-04-30	shares_outstanding	83137711	shares	cover-page count as of this date	SEC 10-Q cover acc 0001193125-12-208742 (XBRL dei)	2026-10-30 16:39
+2012-07-31	shares_outstanding	83156957	shares	cover-page count as of this date	SEC 10-Q cover acc 0001193125-12-334292 (XBRL dei)	2026-10-30 16:39
+2012-10-31	shares_outstanding	86421966	shares	cover-page count as of this date	SEC 10-Q cover acc 0001193125-12-449418 (XBRL dei)	2026-10-30 16:39
+2013-02-28	shares_outstanding	86945168	shares	cover-page count as of this date	SEC 10-K cover acc 0001193125-13-087604 (XBRL dei)	2026-10-30 16:39
+2013-04-30	shares_outstanding	86946543	shares	cover-page count as of this date	SEC 10-Q cover acc 0001193125-13-198691 (XBRL dei)	2026-10-30 16:39
+2013-07-31	shares_outstanding	87082783	shares	cover-page count as of this date	SEC 10-Q cover acc 0001193125-13-329360 (XBRL dei)	2026-10-30 16:39
+2013-10-25	shares_outstanding	87198769	shares	cover-page count as of this date	SEC 10-Q cover acc 0001193125-13-421093 (XBRL dei)	2026-10-30 16:39
+2014-02-18	shares_outstanding	87126374	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-14-000080 (XBRL dei)	2026-10-30 16:39
+2014-04-25	shares_outstanding	87588436	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-14-000132 (XBRL dei)	2026-10-30 16:39
+2014-07-25	shares_outstanding	87771721	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-14-000144 (XBRL dei)	2026-10-30 16:39
+2014-10-24	shares_outstanding	88081701	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-14-000170 (XBRL dei)	2026-10-30 16:39
+2015-02-11	shares_outstanding	88937807	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-15-000090 (XBRL dei)	2026-10-30 16:39
+2015-05-04	shares_outstanding	89191366	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-15-000142 (XBRL dei)	2026-10-30 16:39
+2015-08-03	shares_outstanding	102322933	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-15-000188 (XBRL dei)	2026-10-30 16:39
+2015-10-26	shares_outstanding	102307277	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-15-000211 (XBRL dei)	2026-10-30 16:39
+2016-02-10	shares_outstanding	103418400	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-16-000325 (XBRL dei)	2026-10-30 16:39
+2016-04-25	shares_outstanding	103510488	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-16-000371 (XBRL dei)	2026-10-30 16:39
+2016-07-25	shares_outstanding	105072142	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-16-000417 (XBRL dei)	2026-10-30 16:39
+2016-10-26	shares_outstanding	105069893	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-16-000467 (XBRL dei)	2026-10-30 16:39
+2017-02-21	shares_outstanding	105330934	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-17-000112 (XBRL dei)	2026-10-30 16:39
+2017-04-21	shares_outstanding	105428718	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-17-000168 (XBRL dei)	2026-10-30 16:39
+2017-07-21	shares_outstanding	105536405	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-17-000182 (XBRL dei)	2026-10-30 16:39
+2017-10-20	shares_outstanding	105490079	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-17-000198 (XBRL dei)	2026-10-30 16:39
+2018-02-16	shares_outstanding	105666960	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-18-000091 (XBRL dei)	2026-10-30 16:39
+2018-04-23	shares_outstanding	105860364	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-18-000141 (XBRL dei)	2026-10-30 16:39
+2018-07-26	shares_outstanding	105864560	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-18-000172 (XBRL dei)	2026-10-30 16:39
+2018-10-26	shares_outstanding	105858808	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-18-000180 (XBRL dei)	2026-10-30 16:39
+2019-02-22	shares_outstanding	105296854	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-19-000066 (XBRL dei)	2026-10-30 16:39
+2019-04-25	shares_outstanding	104473076	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-19-000090 (XBRL dei)	2026-10-30 16:39
+2019-07-26	shares_outstanding	103633094	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-19-000108 (XBRL dei)	2026-10-30 16:39
+2019-10-25	shares_outstanding	102637384	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-19-000115 (XBRL dei)	2026-10-30 16:39
+2020-02-24	shares_outstanding	102479213	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-20-000104 (XBRL dei)	2026-10-30 16:39
+2020-04-27	shares_outstanding	100851015	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-20-000131 (XBRL dei)	2026-10-30 16:39
+2020-07-27	shares_outstanding	100836148	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-20-000163 (XBRL dei)	2026-10-30 16:39
+2020-10-26	shares_outstanding	100829164	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-20-000170 (XBRL dei)	2026-10-30 16:39
+2021-02-18	shares_outstanding	106997341	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-22-000090 (XBRL dei)	2026-10-30 16:39
+2021-02-19	shares_outstanding	101097102	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-21-000085 (XBRL dei)	2026-10-30 16:39
+2021-04-26	shares_outstanding	103474792	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-21-000127 (XBRL dei)	2026-10-30 16:39
+2021-07-26	shares_outstanding	104221389	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-21-000151 (XBRL dei)	2026-10-30 16:39
+2021-10-27	shares_outstanding	104201673	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-21-000170 (XBRL dei)	2026-10-30 16:39
+2022-04-25	shares_outstanding	108282445	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-22-000109 (XBRL dei)	2026-10-30 16:39
+2022-07-25	shares_outstanding	108280237	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-22-000130 (XBRL dei)	2026-10-30 16:39
+2022-10-27	shares_outstanding	108912097	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-22-000155 (XBRL dei)	2026-10-30 16:39
+2023-02-17	shares_outstanding	109614818	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-23-000093 (XBRL dei)	2026-10-30 16:39
+2023-05-01	shares_outstanding	109501483	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-23-000127 (XBRL dei)	2026-10-30 16:39
+2023-07-28	shares_outstanding	109503457	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-23-000149 (XBRL dei)	2026-10-30 16:39
+2023-10-27	shares_outstanding	109473703	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-23-000163 (XBRL dei)	2026-10-30 16:39
+2024-02-21	shares_outstanding	110180344	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-24-000092 (XBRL dei)	2026-10-30 16:39
+2024-04-26	shares_outstanding	110110512	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-24-000145 (XBRL dei)	2026-10-30 16:39
+2024-07-26	shares_outstanding	110086404	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-24-000224 (XBRL dei)	2026-10-30 16:39
+2024-10-25	shares_outstanding	110069292	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-24-000293 (XBRL dei)	2026-10-30 16:39
+2025-01-15	avg_daily_volume	1124099	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-01-15	days_to_cover	4.6	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-01-15	short_interest_shares	5167917	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-01-15	short_pct_shares_out	4.70	%	short / 110,069,292 cover shares as of 2024-10-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-01-31	avg_daily_volume	1526918	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-01-31	days_to_cover	3.25	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-01-31	short_interest_shares	4957419	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-01-31	short_pct_shares_out	4.50	%	short / 110,069,292 cover shares as of 2024-10-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-02-14	avg_daily_volume	814207	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-02-14	days_to_cover	6.71	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-02-14	short_interest_shares	5466650	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-02-14	short_pct_shares_out	4.97	%	short / 110,069,292 cover shares as of 2024-10-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-02-18	shares_outstanding	110454292	shares	cover-page count as of this date	SEC 10-K cover acc 0001212545-25-000090 (XBRL dei)	2026-10-30 16:39
+2025-02-28	avg_daily_volume	1324530	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-02-28	days_to_cover	4.41	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-02-28	short_interest_shares	5841991	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-02-28	short_pct_shares_out	5.29	%	short / 110,454,292 cover shares as of 2025-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-03-14	avg_daily_volume	1289417	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-03-14	days_to_cover	4.06	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-03-14	short_interest_shares	5235745	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-03-14	short_pct_shares_out	4.74	%	short / 110,454,292 cover shares as of 2025-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-03-31	avg_daily_volume	949915	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-03-31	days_to_cover	4.47	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-03-31	short_interest_shares	4246266	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-03-31	short_pct_shares_out	3.84	%	short / 110,454,292 cover shares as of 2025-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-04-15	avg_daily_volume	2049431	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-04-15	days_to_cover	2.17	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-04-15	short_interest_shares	4457039	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-04-15	short_pct_shares_out	4.04	%	short / 110,454,292 cover shares as of 2025-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-04-25	shares_outstanding	110404256	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-25-000141 (XBRL dei)	2026-10-30 16:39
+2025-04-30	avg_daily_volume	1168988	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-04-30	days_to_cover	3.72	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-04-30	short_interest_shares	4352055	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-04-30	short_pct_shares_out	3.94	%	short / 110,404,256 cover shares as of 2025-04-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-05-15	avg_daily_volume	899870	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-05-15	days_to_cover	4.95	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-05-15	short_interest_shares	4457311	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-05-15	short_pct_shares_out	4.04	%	short / 110,404,256 cover shares as of 2025-04-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-05-30	avg_daily_volume	833600	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-05-30	days_to_cover	4.88	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-05-30	short_interest_shares	4065233	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-05-30	short_pct_shares_out	3.68	%	short / 110,404,256 cover shares as of 2025-04-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-06-13	avg_daily_volume	632329	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-06-13	days_to_cover	6.77	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-06-13	short_interest_shares	4281467	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-06-13	short_pct_shares_out	3.88	%	short / 110,404,256 cover shares as of 2025-04-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-06-30	avg_daily_volume	811161	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-06-30	days_to_cover	5.33	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-06-30	short_interest_shares	4320324	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-06-30	short_pct_shares_out	3.91	%	short / 110,404,256 cover shares as of 2025-04-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-07-15	avg_daily_volume	949306	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-07-15	days_to_cover	4.68	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-07-15	short_interest_shares	4439428	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-07-15	short_pct_shares_out	4.02	%	short / 110,404,256 cover shares as of 2025-04-25	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-07-28	shares_outstanding	110368816	shares	cover-page count as of this date	SEC 10-Q cover acc 0001212545-25-000214 (XBRL dei)	2026-10-30 16:39
+2025-07-31	avg_daily_volume	1311683	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-07-31	days_to_cover	3.76	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-07-31	short_interest_shares	4934767	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-07-31	short_pct_shares_out	4.47	%	short / 110,368,816 cover shares as of 2025-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-08-15	avg_daily_volume	927510	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-08-15	days_to_cover	5.63	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-08-15	short_interest_shares	5224369	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-08-15	short_pct_shares_out	4.73	%	short / 110,368,816 cover shares as of 2025-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-08-29	avg_daily_volume	980873	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-08-29	days_to_cover	5.17	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-08-29	short_interest_shares	5069177	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-08-29	short_pct_shares_out	4.59	%	short / 110,368,816 cover shares as of 2025-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-09-15	avg_daily_volume	1041892	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-09-15	days_to_cover	4.99	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-09-15	short_interest_shares	5201482	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-09-15	short_pct_shares_out	4.71	%	short / 110,368,816 cover shares as of 2025-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-09-30	avg_daily_volume	1235440	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-09-30	days_to_cover	4.2	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-09-30	short_interest_shares	5189444	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-09-30	short_pct_shares_out	4.70	%	short / 110,368,816 cover shares as of 2025-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-10-15	avg_daily_volume	1636304	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-10-15	days_to_cover	2.87	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-10-15	short_interest_shares	4700464	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-10-15	short_pct_shares_out	4.26	%	short / 110,368,816 cover shares as of 2025-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-10-28	shares_outstanding	110053667	shares	cover-page count as of this date	SEC 10-Q cover acc 0001628280-25-047883 (XBRL dei)	2026-10-30 16:39
+2025-10-31	avg_daily_volume	1988628	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-10-31	days_to_cover	2.23	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-10-31	short_interest_shares	4426153	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-10-31	short_pct_shares_out	4.02	%	short / 110,053,667 cover shares as of 2025-10-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-11-14	avg_daily_volume	809152	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-11-14	days_to_cover	5.32	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-11-14	short_interest_shares	4304202	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-11-14	short_pct_shares_out	3.91	%	short / 110,053,667 cover shares as of 2025-10-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-11-28	avg_daily_volume	887953	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-11-28	days_to_cover	4.59	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-11-28	short_interest_shares	4080098	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-11-28	short_pct_shares_out	3.71	%	short / 110,053,667 cover shares as of 2025-10-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-12-15	avg_daily_volume	918373	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-12-15	days_to_cover	3.78	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-12-15	short_interest_shares	3472647	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-12-15	short_pct_shares_out	3.16	%	short / 110,053,667 cover shares as of 2025-10-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2025-12-31	avg_daily_volume	806634	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-12-31	days_to_cover	4.81	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-12-31	short_interest_shares	3880208	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2025-12-31	short_pct_shares_out	3.53	%	short / 110,053,667 cover shares as of 2025-10-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-01-15	avg_daily_volume	777629	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-01-15	days_to_cover	5.82	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-01-15	short_interest_shares	4524418	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-01-15	short_pct_shares_out	4.11	%	short / 110,053,667 cover shares as of 2025-10-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-01-30	avg_daily_volume	1079608	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-01-30	days_to_cover	4.15	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-01-30	short_interest_shares	4477711	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-01-30	short_pct_shares_out	4.07	%	short / 110,053,667 cover shares as of 2025-10-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-02-13	avg_daily_volume	1214657	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-02-13	days_to_cover	3.92	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-02-13	short_interest_shares	4758812	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-02-13	short_pct_shares_out	4.32	%	short / 110,053,667 cover shares as of 2025-10-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-02-18	shares_outstanding	109879137	shares	cover-page count as of this date	SEC 10-K cover acc 0001628280-26-010336 (XBRL dei)	2026-10-30 16:39
+2026-02-27	avg_daily_volume	1577740	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-02-27	days_to_cover	3	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-02-27	short_interest_shares	4739356	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-02-27	short_pct_shares_out	4.31	%	short / 109,879,137 cover shares as of 2026-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-03-13	avg_daily_volume	2312505	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-03-13	days_to_cover	1.59	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-03-13	short_interest_shares	3688093	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-03-13	short_pct_shares_out	3.36	%	short / 109,879,137 cover shares as of 2026-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-03-31	avg_daily_volume	1485017	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-03-31	days_to_cover	2.01	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-03-31	short_interest_shares	2989036	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-03-31	short_pct_shares_out	2.72	%	short / 109,879,137 cover shares as of 2026-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-04-15	avg_daily_volume	958781	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-04-15	days_to_cover	2.35	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-04-15	short_interest_shares	2251017	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-04-15	short_pct_shares_out	2.05	%	short / 109,879,137 cover shares as of 2026-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-04-30	avg_daily_volume	1022346	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-04-30	days_to_cover	2.28	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-04-30	short_interest_shares	2326472	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-04-30	short_pct_shares_out	2.12	%	short / 109,879,137 cover shares as of 2026-02-18	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-05-04	shares_outstanding	109185360	shares	cover-page count as of this date	SEC 10-Q cover acc 0001628280-26-033054 (XBRL dei)	2026-10-30 16:39
+2026-05-15	avg_daily_volume	1211228	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-05-15	days_to_cover	2.75	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-05-15	short_interest_shares	3330701	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-05-15	short_pct_shares_out	3.05	%	short / 109,185,360 cover shares as of 2026-05-04	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-05-29	avg_daily_volume	1165903	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-05-29	days_to_cover	3.32	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-05-29	short_interest_shares	3872988	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-05-29	short_pct_shares_out	3.55	%	short / 109,185,360 cover shares as of 2026-05-04	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-06-15	avg_daily_volume	871466	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-06-15	days_to_cover	4.69	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-06-15	short_interest_shares	4085239	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-06-15	short_pct_shares_out	3.74	%	short / 109,185,360 cover shares as of 2026-05-04	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-06-30	avg_daily_volume	1212801	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-06-30	days_to_cover	4.3	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-06-30	short_interest_shares	5218885	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-06-30	short_pct_shares_out	4.78	%	short / 109,185,360 cover shares as of 2026-05-04	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-07-15	avg_daily_volume	992186	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-07-15	days_to_cover	5.61	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-07-15	short_interest_shares	5570519	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-07-15	short_pct_shares_out	5.10	%	short / 109,185,360 cover shares as of 2026-05-04	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-07-28	shares_outstanding	109100864	shares	cover-page count as of this date	SEC 10-Q cover acc 0001628280-26-051418 (XBRL dei)	2026-10-30 16:39
+2026-07-31	avg_daily_volume	1071912	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-07-31	days_to_cover	5.88	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-07-31	short_interest_shares	6302163	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-07-31	short_pct_shares_out	5.78	%	short / 109,100,864 cover shares as of 2026-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-08-14	avg_daily_volume	878379	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-08-14	days_to_cover	6.1	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-08-14	short_interest_shares	5355526	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-08-14	short_pct_shares_out	4.91	%	short / 109,100,864 cover shares as of 2026-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-08-31	avg_daily_volume	1043423	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-08-31	days_to_cover	5.42	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-08-31	short_interest_shares	5650274	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-08-31	short_pct_shares_out	5.18	%	short / 109,100,864 cover shares as of 2026-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-09-15	avg_daily_volume	933316	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-09-15	days_to_cover	6.4	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-09-15	short_interest_shares	5974409	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-09-15	short_pct_shares_out	5.48	%	short / 109,100,864 cover shares as of 2026-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-09-30	avg_daily_volume	1316148	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-09-30	days_to_cover	4.73	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-09-30	short_interest_shares	6219780	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-09-30	short_pct_shares_out	5.70	%	short / 109,100,864 cover shares as of 2026-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-10-15	avg_daily_volume	1357402	shares/day	FINRA period average	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-10-15	days_to_cover	4.68	days	FINRA: short / average daily volume	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-10-15	short_interest_shares	6353689	shares	settlement date	FINRA consolidatedShortInterest API	2026-10-30 16:39
+2026-10-15	short_pct_shares_out	5.82	%	short / 109,100,864 cover shares as of 2026-07-28	FINRA consolidatedShortInterest API + SEC XBRL cover count	2026-10-30 16:39
+2026-10-30	beta_KRE_60d	1.02	x	60 daily log returns, WAL on KRE	yfinance daily bars (vendor, not exchange-certified)	2026-10-30 16:39
+2026-10-30	close_KRE	72.01	$	session close	yfinance daily bars (vendor, not exchange-certified)	2026-10-30 16:39
+2026-10-30	close_WAL	76.29	$	session close	yfinance daily bars (vendor, not exchange-certified)	2026-10-30 16:39
+2026-10-30	close_WAL-PA	24.36	$	session close; $25 liquidation preference	yfinance daily bars (vendor, not exchange-certified)	2026-10-30 16:39
+2026-10-30	realized_vol_20d	25.0	% annualized	stdev of 20 daily log returns x sqrt(252)	yfinance daily bars (vendor, not exchange-certified)	2026-10-30 16:39
+2026-10-30	realized_vol_60d	21.1	% annualized	stdev of 60 daily log returns x sqrt(252)	yfinance daily bars (vendor, not exchange-certified)	2026-10-30 16:39
+2026-10-30	spot_vs_ev_pct	+0.43	%	close vs EV $75.96 (THESIS.md at run time)	yfinance daily bars (vendor, not exchange-certified) + THESIS.md	2026-10-30 16:39
