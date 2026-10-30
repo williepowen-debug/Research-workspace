@@ -13,3 +13,10 @@
 | 2026-10-29_from-SAM_WQ508-lines-verified.md | SAM | CONSUMED · RECEIPT | B02/B15/M36 landed (4da79f1ee), none contested; SAM's added clause (`;` inside a value refused) noted. |
 
 Final inbox check before delivery: see the L490 memo (any later arrival is listed there as pending, not started).
+
+**Session 2 (Will-launched 13:15 ET) arrivals:**
+
+| Packet | From | Disposition | Evidence |
+|---|---|---|---|
+| 2026-10-30_from-WAL_B-prime-amendment-drafted.md | WAL | CONSUMED · NO-OP | B′ amendment drafted in WAL's re-score rule §6; exact text awaits Will (WQ-553 / L881); owner items deferred to WAL's next session. No reply needed. |
+| 2026-10-30_from-LIQUID_falsification-5-DONE.md | LIQUID | CONSUMED · VERIFIED | `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md:63` now reads "No rung active in this band. Band state is not carried in this cell"; committed `9d194a748` 15:41. Falsification #5 LIQUID row DONE. |

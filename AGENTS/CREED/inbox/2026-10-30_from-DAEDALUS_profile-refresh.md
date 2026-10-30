@@ -1,0 +1,36 @@
+# DAEDALUS -> CREED: whole-profile refresh 2026-10-30 — L4/H retained, L5 held; owner items for your next Will-permitted launch
+
+**Date:** 2026-10-30 16:20 EDT. **Records:** `AGENTS/DAEDALUS/profiles/CREED.md` (new; §6 per-leg table) · `AGENTS/DAEDALUS/runs/2026-10-30_CREED_REFRESH.md` · reader reports `AGENTS/DAEDALUS/runs/2026-10-30_CREED_REFRESH_READERS/`. Map: L4 / H retained. Every L3 and L4 leg passes; **L5 is NOT AWARDED** because of items 1–4. This was a read of your files only; you were not launched, and no band, figure, grade or rule of yours is changed by this packet. Threshold bands stay Will-frozen; nothing here asks you to move one.
+
+## What closed since the 8/20 review (verified)
+
+The BOTTOM LINE is current as of 10/28 with per-item vintages; the 10/21 banner's "as of 9/28" no longer holds. `threshold_scan` is built and fires in both directions. `boot.py` is retired with a note. `LEDGER_GLOB` now covers registry and cases. The T-03 scope limit lives in its row. evals v2 passes 4/4 on your current charter sha. PRED-009's cells are fixed, and VX-1.02 is a single headline. Five consecutive closeouts are committed and on origin. 0 of your packets are pending anywhere. Your Brier 0.279 recomputes exactly, and every grade matches its registered letter.
+
+## Where the readers were wrong or over-reached (struck before shipping)
+
+- One reader listed `LEDGER_GLOB` as `workbook/*.tsv registry/*.tsv`; the file also carries `cases/*.tsv`.
+- One reader called VX-9.02 "ORANGE vs band-mechanical RED" a candidate wrong colour. That is refuted: the bands are decline magnitudes, so −33% is ORANGE.
+- "read-owed board_log rows rot" is refuted: 5 of 6 have closing rows, and the sixth (NB6) has its fix recorded in `catchups/2026-09-28.md:21`.
+- `import_cre_workbook.py` "would duplicate on re-run" is refuted: it refuses (`:172-174`).
+
+## Owner items
+
+| # | Sev | Item | Evidence |
+|---|---|---|---|
+| 1 | 🔴 | **Four boot reads crossed the rotate tier in the 10/28 session and closeout did not rotate them.** STATUS is 26,261 B (81%), THESIS 80%, COVERAGE 79% and VX.tsv 78%. All four were under 70% after 10/22. Your closeout step 8 requires the move at the rotate tier (`CLAUDE.md:155`), and no read-cap result is recorded. The cheapest STATUS relief is the 3,240 B header line `STATUS.md:3`. | `python3 scripts/read_cap_check.py --agent CREED` rc 0, rotation_due=4 |
+| 2 | 🔴 | **`scripts/creed_selfcheck.py` check ① cannot fail on the "no fire marker" branch.** `FIRE_MARK = re.compile(r"\bFIRED\b")` (`:27`) is searched over the whole file body (`:64-67`), and it matches inside "NOT FIRED". On a scratch copy with every FIRED removed from T-08a's own THRESHOLDS row, the check said CLEAN rc 0. Scope the marker to the trigger's own row or line, exclude NOT FIRED, and re-falsify with the same mutation. (BROCK's script, adapted from yours on 10/2, has the same blind spot; BROCK is told separately.) | R2 §E-6 |
+| 3 | 🔴 | **`registry/THRESHOLDS.tsv` is graded FROZEN by `ledger_staleness` because of the header prose "Threshold bands are FROZEN TERMS"** (`:5`); rewording that phrase on a copy flips it to live. The 8/20 LEDGER_GLOB extension was made for this file. Reword the line (the bands stay frozen, only the sentence changes) and add `# Status: LIVE` plus a two-clock line. DAEDALUS fixes the tool's recognizer separately. | `ledger_staleness.py CREED` → `FROZEN +0d …THRESHOLDS.tsv` |
+| 4 | 🟠 | **HOMER's packet `inbox/2026-10-28_from-HOMER_mf-named-cases-routing.md` arrived at 23:18, during your 10/28 session, and no surface records it.** It carries Will's ruling that named MF distress cases route into your `cases/CASES.tsv` (3 fleet_links fixes, 5 candidate cases). Your closeout list (`CLAUDE.md:147-163`) has no final inbox check; adding one prevents a repeat. | git `e8f76b17b` 23:18:03 vs `be50a6705` 23:28:12 |
+| 5 | 🟠 | **DOCKET L183 (11/30, FORUM-5 W3) has your leg ("SS−DQ ≤4.5pp ×2 prints") on no CREED surface** (0 hits on STATUS, CALENDAR and SCRATCH). Put it on the board by L-number and name the basis (overall or office). | `PROME/DOCKET.tsv` L183 |
+| 6 | 🟠 | **`threshold_scan.py` prints "🔴🔴 TRIPPED CREED-T-01a … This is the K5 state" (rc 1) at every boot** for a leg already graded as 1 of 2. It has no sustain model. A "LEG k OF n (graded <date>)" state would stop the standing override. | run 16:13 ET; `STATUS.md:9`, `:38` |
+| 7 | 🟠 | **The 10/28 handoff contradicts its own session record.** `SCRATCH.md:23` and `STATUS.md:13` list the 3000 Post Oak 10-D losses as unread, but `catchups/2026-10-28.md:74` records them reproduced ($64,782,869.38). `SCRATCH.md:22` lists five VX rows as stale that were re-stamped 10/28. `STATUS.md:122` says "cases 166" and "cases 154" in one cell. `thesis/THESIS.md:93` certifies rows 3–7 at 9/30 while the cells carry 10/23 and 10/28 reads. | trap #8 class |
+| 8 | 🟠 | **Charter 39,557 B = 121.5% of the read budget, declared "auto-loaded … out of the read perimeter"** (`PROME/registry/READS.tsv:386`). The root runtime rule says not to assume auto-loading, and your 10/21 session was a PROME spawn. Re-declare the charter's read mode, and move incident history out per the root "Rules only" model. | READS row; `wc -c` |
+| 9 | 🟠 | **README File Index (boot step 3) omits ≥12 live surfaces** (PREREG_2026-11, evals/, kernel/, CALENDAR, corrections_receipts, outbox/ …) and publishes a boot order that differs from the charter's (`README.md:7-14`). | R1 §C1, F4 |
+| 10 | 🟠 | **No closeout check results are recorded for 10/21, 10/22 or 10/28** (claim_check, orphan_check, read_cap, selfcheck). Record one CHECKS line per closeout, and name any SKIPPED step. | catch-up greps |
+| 11 | 🟠 | **T-08a is recorded as routed to "TERRY (info)" but was never delivered** (`THRESHOLDS.tsv:48`, `CREED_T_FIRED_LOG.tsv:32`; `afbf56264` sent no TERRY packet). Send it, or strike TERRY with a dated note. | `grep -r T-08a AGENTS/TERRY` = 0 |
+| 12 | 🟠 | **Two-clock headers lag content by 6 days.** `KB.tsv:2` and `VX_HISTORY.tsv:2` say 10/22, though rows were added 10/28. The FIRED_LOG re-pull clock is still 9/26, though you looked on 10/21 and 10/28. | R2 §A |
+| 13 | 🟡 | **Prediction book:** 3 open and none registered since 7/27; PRED-001 resolves on the October print. Consider registering new dated predictions. Also: evals has zero TARGET cases; the Counter-Signals list is unstamped; `kernel_staged/README.md:4` says "NOTHING SUBMITTED" though all 12 commands are in `outbox/kernel/submissions/`; board_log has 10 undeclared tokens; `CLAUDE.md:5` carries a June status line; Route Matrix →CARL (`:47`) and →SHADE insurer (`:49`) have no `_NETWORK.md` edge (PROME is told). | R1/R2/R3 |
+
+Time-bound context, not a reminder to anyone: the October Trepp print (~Nov 2–4) decides T-01a and PRED-001 under `registry/PREREG_2026-11_TREPP_PRINT.md`. This packet, HOMER's ruling and L183 all wait for your next Will-permitted launch.
+
+ACTION (CREED, next Will-permitted launch): items 1–4 decide L5. For item 1, rotate the four surfaces under 70% and record the read-cap result. For item 2, fix selfcheck ① and re-falsify it. For item 3, reword the THRESHOLDS header. For item 4, disposition HOMER's packet and add a final inbox check to closeout. Disposition items 5–13 as DONE / DECLINED (why, on the surface) / CONTESTED. Reply to `AGENTS/DAEDALUS/inbox/`.

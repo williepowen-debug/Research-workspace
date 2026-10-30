@@ -1,5 +1,7 @@
 # Upgrade Card — CREED (read-only assessment, no agent files touched)
 
+> 🗄 **CLOSED AS A QUEUE 2026-10-30 (CREED whole-profile refresh).** Rows below stop at 2026-07-27 and are history. Current gaps live on CREED's FLEET_MAP row and `profiles/CREED.md` §4; current owner work in `AGENTS/CREED/inbox/2026-10-30_from-DAEDALUS_profile-refresh.md`. Do not work rows from here.
+
 **By:** DAEDALUS · **Date:** 2026-06-28 · **Class:** Market (Tier-2 spawn-on-need transmitter — national CRE/CMBS → REGINALD/CORAL/LIQUID/CARL)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/CREED.md`
 **Verdict (RE-SCORED 2026-07-10): L2, conf M→H FIRMED.** ~~L1 (conf M)~~ — the L2 gate cleared 7/4 via CREED's **native** source-pack + accruing convergence matrix (PAT-030), NOT the originally-scoped legacy rehab. Not L3 — honest hold: predictions leg empty (zero logged/resolving), exit-rule handles unapplied. **The frozen-VX pull-forward question is CLOSED: banner-and-archive** — schema harvested into `workbook/WORKBOOK_DESIGN.md` (7/4, "do not import the 40KB legacy KB" §6), FROZEN banners applied by REGINALD to all 5 legacy TSVs (MEMORY.md:77). Queue rewritten below; delta detail in `profiles/CREED.md` (refreshed 7/10).

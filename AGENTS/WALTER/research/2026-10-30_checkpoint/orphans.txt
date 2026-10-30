@@ -1,0 +1,21 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BROCK/STATUS.md
+     [not yours]    AGENTS/BROCK/inbox/2026-10-30_from-DAEDALUS_selfcheck-lineage-note.md
+     [not yours]    AGENTS/CREED/inbox/2026-10-30_from-DAEDALUS_profile-refresh.md
+     [not yours]    AGENTS/DAEDALUS/FLEET_DIRECTORY.md
+     [not yours]    AGENTS/DAEDALUS/FLEET_MAP.tsv
+     [not yours]    AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv
+     [not yours]    AGENTS/DAEDALUS/inbox/2026-10-30_from-LIQUID_falsification-5-DONE.md
+     [not yours]    AGENTS/DAEDALUS/inbox/processed/2026-10-30_from-LIQUID_falsification-5-DONE.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CREED.md
+     [not yours]    AGENTS/DAEDALUS/profiles/_prior/CREED_2026-10-30_before_refresh.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_CREED_REFRESH_READERS/
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_INBOX_DISPOSITIONS.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/CREED_CARD.md
+     [not yours]    BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md
+     [not yours]    BOARD/SIG-W-20261030-004-FLASH-vix-plus-5-intraday-safety-net-22-33-vs-17-20-close-vix9d-over-vix3m-VIOLET.md
+     [not yours]    KIMI_BOOT.md
+     [not yours]    PROME/inbox/2026-10-30_from-DAEDALUS_creed-profile-refresh.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
