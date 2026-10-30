@@ -10,7 +10,8 @@ import tempfile
 import threading
 
 from server import make_server
-from store import HERE
+from store import HERE, digest, encoded
+import pilot_files as pilot
 from test_browser import windows
 from test_pilot_files import PilotFileTests
 
@@ -22,7 +23,9 @@ CHECKS = r'''<script>
  for(let tries=0;!model&&tries<100;tries++)await new Promise(resolve=>setTimeout(resolve,50));
  await check('Pilot model labels supervised confirmation and four views',()=>{assert(model&&isPilot(),'pilot missing');assert(el('mode-intro').textContent.includes('matching confirmation'),'condition missing');assert(document.querySelectorAll('#nav button').length===5,'views missing');});
  if(model){
+ if(model.responses.events.length){view='Follow-through';render();}
  const unit=model.snapshot.record.units[0];
+ await check('Recommended option is named on the card',()=>{assert(el('main').textContent.includes('Recommendation: '+unit.proposal.recommendation.option_id+' · '),'recommended option missing');});
  if('__PHASE__'==='write'){
   await check('Exact conditions survive review and cancel without a save',()=>{const d=draft(unit);d.note='One test only.\nNo schedule. <img src=x> stays text.';review(unit,d,null);assert(el('review-body').textContent.includes(d.note),'words changed');assert(!el('review-body').querySelector('img'),'executable text');el('cancel').click();assert(model.responses.events.length===0,'cancel saved');});
   await check('Save exports the complete response without a delivery claim',async()=>{review(unit,draft(unit),null);await el('save').onclick();assert(model.responses.events.length===1,'save missing');const event=model.responses.events[0];assert(event.kind==='decisions-response/1'&&!event.synthetic,'wrong dialect');assert(model.responses.delivery[event.id].includes('not committed'),'false delivery');assert(el('main').textContent.includes('No receiver acknowledgment'),'false receipt');});
@@ -31,7 +34,9 @@ CHECKS = r'''<script>
  }else if('__PHASE__'==='receipt'){
   await check('Committed owner receipt is distinct from work completion',()=>{view='Follow-through';render();assert(el('main').textContent.includes('PROME recorded the ruling and matching chat confirmation'),'owner receipt missing');assert(el('main').textContent.includes('not completed implementation'),'completion overclaim');});
   await check('Integrated answer has no response controls',()=>{assert(!el('main').querySelector('select,textarea'),'settled question still answerable');});
-  await check('Canonical evidence and prior exact answer remain inspectable',()=>{const event=latest(unit.id),receipt=model.responses.receipts[event.id];assert(receipt.canonical_ruling.path.endsWith('-RULED.md'),'canonical ruling lost');assert(receipt.confirmed_response_sha256===event.sha256,'confirmation mismatch');assert(el('main').textContent.includes(event.request.note),'answer lost');});
+  await check('Canonical evidence and prior exact answer remain inspectable',()=>{const receipt=model.responses.integrated[unit.id],event=model.responses.events.find(e=>e.id===receipt.response_id);assert(event.id!==latest(unit.id).id,'fixture must integrate the earlier response');assert(receipt.canonical_ruling.path.endsWith('-RULED.md'),'canonical ruling lost');assert(receipt.confirmed_response_sha256===event.sha256,'confirmation mismatch');assert(el('main').textContent.includes(event.request.note),'answer lost');});
+ }else if('__PHASE__'==='quarantine'){
+  await check('Missing history stays visible and prevents another answer',()=>{view='Follow-through';render();assert(model.import_errors.length===1,'quarantine missing');assert(model.responses.events.length===1,'readable prefix lost');assert(!model.submissions_enabled&&!el('main').querySelector('select,textarea'),'unsafe answer allowed');assert(el('main').textContent.includes('Pinned Git evidence unavailable'),'reason missing');});
  }else{
   await check('Default preview refuses submissions and shows the reason',()=>{assert(!model.submissions_enabled,'unexpected enablement');assert(!el('main').querySelector('select,textarea'),'preview controls present');assert(el('main').textContent.includes('independent review'),'gate missing');});
  }
@@ -45,7 +50,7 @@ def main():
     work = Path(tempfile.mkdtemp(prefix="cato-pilot-browser-", dir="/mnt/c/Users/willi/AppData/Local/Temp"))
     runs = {}
     for phase, width, height in [("write", 1440, 1150), ("write", 520, 1100),
-                                 ("receipt", 1440, 1150), ("receipt", 520, 1100), ("locked", 1440, 1150)]:
+                                 ("receipt", 1440, 1150), ("receipt", 520, 1100), ("locked", 1440, 1150), ("quarantine", 1440, 1150)]:
         label = f"{phase}-{width}"
         fixture = PilotFileTests(methodName="test_default_is_read_only_and_creates_no_response_directory")
         fixture.setUp()
@@ -53,6 +58,7 @@ def main():
         try:
             if phase == "receipt":
                 event = fixture.event()
+                fixture.store.save(fixture.request(action="defer", choice_id=None, supersedes=event["id"]))
                 fixture.put("PROME/proposals/fixture-RULED.md", "Fictional ruling only.\n")
                 fixture.put("PROME/proposals/fixture-chat.md", "Fictional matching confirmation only.\n")
                 fixture.commit()
@@ -63,6 +69,15 @@ def main():
                                confirmed_response_sha256=event["sha256"])
                 fixture.write_receipt(receipt)
                 fixture.commit()
+            if phase == "quarantine":
+                first = fixture.event()
+                second = fixture.store.save(fixture.request(action="defer", choice_id=None, supersedes=first["id"]))
+                second["display"]["source_commit"] = "f" * 40
+                second["request"]["display_hash"] = digest(second["display"])
+                second["sha256"] = digest({k: v for k, v in second.items() if k != "sha256"})
+                fixture.put(f"{pilot.RESPONSES}/{second['id']}.json", encoded(second) + "\n")
+                fixture.commit()
+                fixture.store = fixture.new_store("quarantine.sqlite3", enabled=True)
             if phase == "locked":
                 fixture.store.enable_submissions = False
             server = make_server(fixture.store)

@@ -50,10 +50,12 @@ class PilotFileTests(unittest.TestCase):
         target.write_text(text)
         return target
 
-    def commit(self):
+    def commit(self, published=True):
         # Only the temporary fixture repository is ever staged here.
         self.git("add", "--all")
         self.git("commit", "-qm", "Isolated fixture state")
+        if published:
+            self.git("update-ref", "refs/remotes/origin/master", "HEAD")
 
     def write_source(self):
         self.put(self.source_path, "# Fictional pilot fixture\n\n```wq-record\n" + json.dumps(self.record) + "\n```\n")
@@ -104,6 +106,10 @@ class PilotFileTests(unittest.TestCase):
         text = (self.root / self.source_path).read_text()
         with self.assertRaisesRegex(ValueError, "exactly one"):
             pilot.record_block(text + text)
+        for opening, closing in [(" ```wq-record", " ```"), ("   ```wq-record", "   ```"),
+                                 ("~~~wq-record", "~~~"), ("````wq-record", "````")]:
+            with self.subTest(opening=opening), self.assertRaisesRegex(ValueError, "exactly one"):
+                pilot.record_block(text + opening + "\n{}\n" + closing + "\n")
         self.record["mode"] = "design-copy"
         self.write_source()
         self.commit()
@@ -144,6 +150,82 @@ class PilotFileTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "terms changed"):
             self.store.save(self.request())
 
+    def test_unpublished_head_rewrite_does_not_break_clone_restore(self):
+        published = self.git("rev-parse", "origin/master").strip()
+        self.put("unrelated.txt", "Unpublished work")
+        self.commit(published=False)
+        old_head = self.git("rev-parse", "HEAD").strip()
+        display = self.store.display()
+        self.assertEqual(display["snapshot"]["source_commit"], published)
+        event = self.store.save(self.request(display_hash=display["hash"]))
+        self.commit(published=False)
+        # Rewrite only this disposable fixture, as a normal rebase would.
+        self.git("reset", "--soft", published)
+        self.git("commit", "-qm", "Rewritten unpublished work and response")
+        clone = Path(self.temp.name) / "rebased-clone"
+        subprocess.run(["git", "clone", "-q", "--no-local", str(self.root), str(clone)], check=True)
+        other = self.new_store("rebased.sqlite3", repo=pilot.Repo(clone))
+        with self.assertRaises(subprocess.CalledProcessError):
+            other.repo.git("cat-file", "-e", old_head)
+        self.assertEqual(other.display()["responses"]["events"], [event])
+
+    def test_unpublished_source_or_queue_row_cannot_be_used(self):
+        self.put("PROME/WILL_QUEUE.md", "| 900 | New unpublished terms | RULE |\n")
+        self.commit(published=False)
+        with self.assertRaisesRegex(ValueError, "must be published"):
+            self.store.display()
+
+    def test_decoy_with_same_ids_cannot_restore_under_real_source(self):
+        original = self.source_path
+        self.source_path = "PROME/proposals/decoy.md"
+        self.record["units"][0]["proposal"]["choices"][0]["label"] = "Decline (decoy A)"
+        self.write_source()
+        self.commit()
+        decoy = self.new_store("decoy.sqlite3", enabled=True)
+        event = decoy.save(self.request(display_hash=decoy.display()["hash"]))
+        self.commit()
+        self.source_path = original
+        real = self.new_store("real.sqlite3", enabled=True)
+        display = real.display()
+        self.assertEqual(display["responses"]["events"], [])
+        self.assertIn("another source path", display["import_errors"][0]["reason"])
+        self.assertFalse(display["submissions_enabled"])
+        with self.assertRaisesRegex(ValueError, "another source path"):
+            real.save(self.request(display_hash=display["hash"]))
+        # A local DB reused under a different source is equally rejected.
+        decoy.source_path = original
+        self.assertFalse(decoy.display()["responses"]["events"])
+
+    def test_missing_pinned_commit_quarantines_event_keeps_readable_prefix(self):
+        first = self.event()
+        second = self.store.save(self.request(action="defer", choice_id=None, supersedes=first["id"]))
+        third = self.store.save(self.request(supersedes=second["id"]))
+        changed = deepcopy(second)
+        changed["display"]["source_commit"] = "f" * 40
+        changed["request"]["display_hash"] = digest(changed["display"])
+        changed["sha256"] = digest({k: v for k, v in changed.items() if k != "sha256"})
+        self.put(f"{pilot.RESPONSES}/{second['id']}.json", encoded(changed) + "\n")
+        self.commit()
+        restored = self.new_store("unavailable.sqlite3", enabled=True)
+        display = restored.display()
+        self.assertEqual(display["responses"]["events"], [first])
+        self.assertEqual(display["responses"]["heads"]["900.READER"], first["id"])
+        self.assertEqual(len(display["import_errors"]), 2)
+        self.assertFalse(display["submissions_enabled"])
+        self.assertTrue(display["groups"]["Decisions"])
+        with self.assertRaisesRegex(ValueError, "reconciliation"):
+            restored.save(self.request(supersedes=first["id"], display_hash=display["hash"]))
+
+    def test_disabled_export_cannot_write_existing_local_response(self):
+        request = self.request()
+        with patch("pilot_files.os.link", side_effect=OSError("injected export failure")):
+            with self.assertRaisesRegex(ValueError, "export pending"):
+                self.store.save(request)
+        self.store.enable_submissions = False
+        with self.assertRaisesRegex(ValueError, "exports remain disabled"):
+            self.store.export(request["id"])
+        self.assertFalse((self.root / pilot.RESPONSES / (request["id"] + ".json")).exists())
+
     def test_committed_queue_change_and_settled_state_invalidate_old_display(self):
         self.put("PROME/WILL_QUEUE.md", "| 900 | Settled elsewhere | RULE |\n")
         self.commit()
@@ -157,7 +239,7 @@ class PilotFileTests(unittest.TestCase):
         self.assertEqual(self.store.save(request), event)
         self.assertEqual(event["request"]["note"], request["note"])
         self.assertIn("not committed", pilot.delivery_status(self.repo, event))
-        self.commit()
+        self.commit(published=False)
         self.assertIn("remote delivery unverified", pilot.delivery_status(self.repo, event))
         self.git("update-ref", "refs/remotes/origin/master", "HEAD")
         self.assertIn("fresh delivery and acknowledgment not established", pilot.delivery_status(self.repo, event))
@@ -241,8 +323,9 @@ class PilotFileTests(unittest.TestCase):
         old = self.root / pilot.RESPONSES / (event["id"] + ".json")
         old.rename(old.with_name(uuid.uuid4().hex + ".json"))
         self.commit()
-        with self.assertRaisesRegex(ValueError, "filename/ID"):
-            self.new_store("wrong-name.sqlite3").display()
+        display = self.new_store("wrong-name.sqlite3").display()
+        self.assertIn("filename/ID", display["import_errors"][0]["reason"])
+        self.assertFalse(display["submissions_enabled"])
 
     def test_two_simultaneous_answers_cannot_silently_override(self):
         def save(request):
@@ -257,6 +340,7 @@ class PilotFileTests(unittest.TestCase):
 
     def test_received_is_separate_and_integration_requires_chat_and_ruling(self):
         event = self.event()
+        later = self.store.save(self.request(action="defer", choice_id=None, supersedes=event["id"]))
         received = self.receipt(event)
         self.write_receipt(received)
         self.commit()
@@ -278,9 +362,11 @@ class PilotFileTests(unittest.TestCase):
         self.assertEqual(pilot.read_receipts(self.repo, event), [received, integrated])
         display = self.store.display()
         self.assertEqual(display["responses"]["receipts"][event["id"]]["state"], "integrated")
+        self.assertEqual(display["responses"]["integrated"]["900.READER"]["response_id"], event["id"])
+        self.assertEqual(display["responses"]["heads"]["900.READER"], later["id"])
         self.assertNotIn("completed", encoded(display["responses"]["receipts"]))
         with self.assertRaisesRegex(ValueError, "already integrated"):
-            self.store.save(self.request(supersedes=event["id"]))
+            self.store.save(self.request(supersedes=later["id"]))
         self.assertEqual(self.store.save(event["request"]), event)
 
     def test_receipt_mismatch_dirty_work_and_unknown_state_fail_visibly(self):

@@ -31,20 +31,24 @@ function render(){
  const visible=list.filter(e=>e.group===view);if(!visible.length)node('p',isPilot()?'Nothing in this view for this pilot.':'Nothing in this view in the fictional rehearsal.',el('main'));
  for(const entry of visible){const u=entry.unit,p=u.proposal,a=node('article',null,el('main'));a.dataset.unit=u.id;
   node('div',u.id+(isPilot()?' · supervised pilot':' · fictional'),a,'small');node('h2',p.question,a);node('p',p.context,a);
-  node('p','Recommendation: '+p.recommendation.reason,a);
+  const recommended=p.choices.find(c=>c.id===p.recommendation.option_id);
+  node('p','Recommendation: '+(recommended?recommended.id+' · '+recommended.label+' — ':'')+p.recommendation.reason,a);
+  for(const error of (model.import_errors||[]))node('p','Response history needs reconciliation: '+error.path+' — '+error.reason,a,'notice');
   for(const c of p.caveats)node('p',c,a,'notice');
   for(const c of (entry.corrections||[]))node('p','Correction: '+c.summary,a,'notice');
   if(u.timing.needed_by)node('p',u.timing.needed_by+' — '+u.timing.meaning,a);
   if(u.timing.revisit_condition)node('p','Return condition: '+u.timing.revisit_condition,a);
-  for(const c of p.choices){node('h3',c.id+' · '+c.label,a);node('p',c.meaning,a);node('p',c.consequence,a);}
+  for(const c of p.choices){node('h3',c.id+' · '+c.label,a);node('p',c.meaning,a);node('p',c.consequence,a);if(c.outcome)node('p','Outcome: '+c.outcome,a);}
+  const integration=isPilot()?model.responses.integrated?.[u.id]:null;
+  if(integration)node('p',receiptText(integration)+' Recorded against response '+integration.response_id+'. This closes the question, including later local replies.',a,'notice');
   const previous=latest(u.id);
   if(previous){const r=previous.request;node('h3',isPilot()?'Saved response':'Saved locally · fictional response',a);node('p',r.action+(previous.selected_choice?' — '+previous.selected_choice.label:''),a);node('pre',r.note,a);if(r.revisit)node('p','Return: '+r.revisit,a);node('p',previous.saved_at+' · '+previous.id,a,'small');
    const receipt=model.responses.receipts[previous.id];node('p',receiptText(receipt),a,'notice');if(isPilot())node('p',model.responses.delivery[previous.id],a,'small');
    const history=node('details',null,a);node('summary','Preserved response history',history);for(const event of model.responses.events.filter(e=>e.request.unit_id===u.id))node('pre',JSON.stringify(event,null,2),history);
   }
   const original=node('details',null,a);node('summary','Full source record retained with your response',original);node('pre',JSON.stringify(model.snapshot.record,null,2),original);
-  if(!['awaiting_answer','outstanding'].includes(u.disposition.state)||(isPilot()&&previous&&model.responses.receipts[previous.id]?.state==='integrated')){node('p','Reference only. No answer requested.',a);continue;}
-  if(isPilot()&&!model.submissions_enabled){node('p','Submissions are disabled until the source contract and independent review are accepted.',a,'notice');continue;}
+  if(!['awaiting_answer','outstanding'].includes(u.disposition.state)||integration){node('p','Reference only. No answer requested.',a);continue;}
+  if(isPilot()&&!model.submissions_enabled){node('p','Submissions are disabled until the source contract and independent review are accepted and response history is reconciled.',a,'notice');continue;}
   const d=draft(u),form=node('div',null,a);node('h3',isPilot()?(previous?'Revise your response':'Your response'):(previous?'Revise the fictional response':'Your fictional response'),form);
   const actionLabel=node('label','Action',form),select=node('select',null,actionLabel);
   const actions=u.kind==='decision'?{choose:'Choose an option',defer:'Leave for later',request_changes:'Ask a question or request changes'}:{report_done:'Report task done',defer:'Leave for later',request_changes:'Ask a question or request changes'};

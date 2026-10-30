@@ -45,7 +45,7 @@
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-xw4o5ah7/desktop.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-mxrfnclh/desktop.png"
     },
     "narrow": {
       "returncode": 0,
@@ -91,14 +91,14 @@
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-xw4o5ah7/narrow.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-mxrfnclh/narrow.png"
     }
   },
-  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-xw4o5ah7",
+  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-mxrfnclh",
   "hashes": {
     "store.py": "376f2c8497b4b2de9bb89060557e720af6b92d3fd06bbd23d894c446e25382df",
     "server.py": "2861db872b2d6294c417b7ad8541eb371b8f5f47992f2b1f174f6e1d99a06951",
-    "index.html": "b2413c68324cc95a985a6d36b4894e34fcb162589cd40da040ce3706a0c942e1",
+    "index.html": "a96eebeead2d6170b80e7d7146d770a3129a7a353234334ed5934c7ecf7a5829",
     "test_mvp.py": "83940a2b81800c80e73b5152bb0d65fad51e646dbf9343809a3d33f94563a7fb",
     "test_browser.py": "4c11d33f523c1f32b98a699e59ce7853458f80a1b1e3623c24ff2831ba15d6fe"
   }

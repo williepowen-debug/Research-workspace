@@ -100,7 +100,24 @@ class Repo:
 
 
 def record_block(text):
-    blocks = re.findall(r"^```wq-record[ \t]*\r?\n(.*?)^```[ \t]*\r?$", text, re.M | re.S)
+    # Recognize CommonMark backtick/tilde fences, including up to three spaces.
+    # Scan all fences so a nested example cannot masquerade as a record.
+    blocks, fence, body, is_record = [], None, [], False
+    for line in text.splitlines():
+        if fence is None:
+            opening = re.fullmatch(r" {0,3}(`{3,}|~{3,})([^\r\n]*)", line)
+            if opening:
+                fence, info = opening.groups()
+                is_record = info.strip().split(None, 1)[:1] == ["wq-record"]
+                body = []
+        elif re.fullmatch(r" {0,3}" + re.escape(fence[0]) + "{" + str(len(fence)) + r",}[ \t]*", line):
+            if is_record:
+                blocks.append("\n".join(body))
+            fence = None
+        else:
+            body.append(line)
+    if fence is not None and is_record:
+        raise ValueError("Unclosed wq-record block")
     if len(blocks) != 1:
         raise ValueError("Expected exactly one wq-record block")
     return strict_json(blocks[0])
@@ -146,7 +163,7 @@ def validate_record(repo, record):
 
 
 def queue_row(text, wq_id):
-    rows = [line for line in text.splitlines() if line.startswith("|") and line.split("|")[1].strip() == wq_id]
+    rows = [line for line in text.splitlines() if line.lstrip().startswith("|") and line.split("|")[1].strip() == wq_id]
     if len(rows) != 1:
         raise ValueError("Pilot WQ row is missing or ambiguous; no permission inferred")
     return rows[0]
@@ -172,8 +189,14 @@ def snapshot(repo, source_path, wq_id, unit_id, presentation_sha256):
     working_row = queue_row(repo.path("PROME/WILL_QUEUE.md").read_text(), wq_id)
     if row != working_row:
         raise ValueError("Direct queue edit requires owner reconciliation")
+    # Only published history survives the normal rebase of local commits. Bind
+    # BOTH source and selected queue row to the same already-published commit.
+    published = repo.git("rev-parse", "origin/master").strip()
+    if (repo.read(source_path, published) != source
+            or queue_row(repo.read("PROME/WILL_QUEUE.md", published), wq_id) != row):
+        raise ValueError("Pilot source and queue row must be published before display or answer")
     content = {"record": record, "source_path": source_path, "source_text": source, "queue_row": row}
-    return {"kind": "decisions-display/1", **content, "source_commit": head,
+    return {"kind": "decisions-display/1", **content, "source_commit": published,
             "fingerprint": digest(content), "presentation_sha256": presentation_sha256}
 
 
@@ -186,7 +209,7 @@ def assert_current(repo, displayed):
     return current
 
 
-def validate_event(repo, event, wq_id, unit_id):
+def validate_event(repo, event, wq_id, unit_id, source_path=None):
     fields(event, {"kind", "synthetic", "id", "saved_at", "request", "display", "selected_choice", "identity", "sha256"}, "Response")
     if event["kind"] != "decisions-response/1" or event["synthetic"] is not False or event["identity"] != IDENTITY:
         raise ValueError("Not a supervised pilot response")
@@ -198,6 +221,8 @@ def validate_event(repo, event, wq_id, unit_id):
     fields(display, SNAPSHOT_FIELDS, "Display")
     if display["kind"] != "decisions-display/1":
         raise ValueError("Wrong display kind")
+    if source_path is not None and display["source_path"] != source_path:
+        raise ValueError("Response belongs to another source path")
     sha(display["presentation_sha256"])
     content = {key: display[key] for key in ("record", "source_path", "source_text", "queue_row")}
     if sha(display["fingerprint"]) != digest(content):
@@ -293,12 +318,17 @@ def export_event(repo, event, wq_id, unit_id):
 def import_responses(repo, store, wq_id, unit_id):
     if store.event_kind != "decisions-response/1":
         raise ValueError("Pilot import cannot use the rehearsal database")
-    incoming = []
+    incoming, errors = [], []
+    store.import_errors = errors
     for path in repo.files(RESPONSES):
         if not re.fullmatch(re.escape(RESPONSES) + r"/[0-9a-f]{32}\.json", path):
             raise ValueError("Unexpected response file in the adopted path")
         event = strict_json(repo.read(path, clean=True, prefix=RESPONSES))
-        validate_event(repo, event, wq_id, unit_id)
+        try:
+            validate_event(repo, event, wq_id, unit_id, store.source_path)
+        except subprocess.CalledProcessError:
+            errors.append({"path": path, "reason": "Pinned Git evidence unavailable; response quarantined"})
+            continue
         if Path(path).stem != event["id"]:
             raise ValueError("Response filename/ID mismatch")
         incoming.append(event)
@@ -307,11 +337,26 @@ def import_responses(repo, store, wq_id, unit_id):
         existing = {json.loads(row[0])["id"]: json.loads(row[0]) for row in db.execute("SELECT body FROM responses")}
         combined = dict(existing)
         for event in existing.values():
-            validate_event(repo, event, wq_id, unit_id)
+            try:
+                validate_event(repo, event, wq_id, unit_id, store.source_path)
+            except subprocess.CalledProcessError:
+                errors.append({"path": f"local response {event['id']}", "reason": "Pinned Git evidence unavailable; response quarantined"})
+                combined.pop(event["id"])
         for event in incoming:
             if event["id"] in combined and combined[event["id"]] != event:
                 raise ValueError("Imported response conflicts with local history")
             combined[event["id"]] = event
+        # Preserve the usable prefix while quarantining descendants of a lost
+        # event. Never promote a later reply across a missing predecessor.
+        if errors:
+            while True:
+                missing = [e for e in combined.values() if e["request"]["supersedes"] is not None
+                           and e["request"]["supersedes"] not in combined]
+                if not missing:
+                    break
+                for event in missing:
+                    errors.append({"path": f"response {event['id']}", "reason": "Predecessor unavailable; response quarantined"})
+                    combined.pop(event["id"])
         ordered = chain(list(combined.values()), "id", lambda e: e["request"]["supersedes"])
         for event in ordered:
             if event["id"] in existing:
@@ -326,6 +371,7 @@ def import_responses(repo, store, wq_id, unit_id):
         if ordered:
             db.execute("INSERT OR REPLACE INTO heads VALUES (?, ?)", (unit_id, ordered[-1]["id"]))
         db.commit()
+    store.visible_response_ids = set(combined)
     return len(combined) - len(existing)
 
 
@@ -430,19 +476,30 @@ class PilotStore(Store):
             raise ValueError("Owner withheld pilot submission or choices")
 
     def display(self):
-        import_responses(self.repo, self, self.wq_id, self.unit_id)
+        try:
+            import_responses(self.repo, self, self.wq_id, self.unit_id)
+        except (ValueError, subprocess.CalledProcessError) as error:
+            # A bad history must not hide the proposal or create permission.
+            self.import_errors = [{"path": RESPONSES, "reason": str(error)}]
+            self.visible_response_ids = set()
         record = self.current()
         displayed = self.make_snapshot(record)
         key = digest(displayed)
         with self.connection() as db:
             db.execute("INSERT OR IGNORE INTO snapshots VALUES (?, ?)", (key, encoded(displayed)))
         responses = self.responses()
+        responses["events"] = [e for e in responses["events"] if e["id"] in self.visible_response_ids]
+        responses["heads"] = ({self.unit_id: chain(responses["events"], "id", lambda e: e["request"]["supersedes"])[-1]["id"]}
+                              if responses["events"] else {})
+        responses["integrated"] = {}
         responses["receipt_history"], responses["receipts"], responses["delivery"] = [], {}, {}
         for event in responses["events"]:
             receipts = read_receipts(self.repo, event)
             responses["receipt_history"].extend(receipts)
             if receipts:
                 responses["receipts"][event["id"]] = receipts[-1]
+                if receipts[-1]["state"] == "integrated":
+                    responses["integrated"][self.unit_id] = receipts[-1]
             responses["delivery"][event["id"]] = delivery_status(self.repo, event)
         groups = {name: [] for name in reader.GROUPS}
         unit = record["units"][0]
@@ -450,20 +507,22 @@ class PilotStore(Store):
         groups[group].append({"wq_id": self.wq_id, "title": record["title"], "unit": unit,
                               "sources": record["sources"], "observations": [], "corrections": record["corrections"]})
         return {"hash": key, "snapshot": displayed, "responses": responses, "groups": groups,
-                "mode": "supervised-pilot", "submissions_enabled": self.enable_submissions,
+                "mode": "supervised-pilot", "submissions_enabled": self.enable_submissions and not self.import_errors,
+                "import_errors": self.import_errors,
                 "notice": "Pilot adapter candidate. A matching PROME-chat confirmation is required; owner completion is not inferred."}
 
     def save(self, request):
         if not self.enable_submissions:
             raise ValueError("Pilot submissions remain disabled pending owner contract and independent acceptance")
         import_responses(self.repo, self, self.wq_id, self.unit_id)
+        if self.import_errors:
+            raise ValueError("Response history needs owner reconciliation; submissions disabled")
         state = self.responses()
         if isinstance(request, dict) and not any(e["id"] == request.get("id") for e in state["events"]):
-            head = state["heads"].get(self.unit_id)
-            previous = next((e for e in state["events"] if e["id"] == head), None)
-            receipts = read_receipts(self.repo, previous) if previous else []
-            if receipts and receipts[-1]["state"] == "integrated":
-                raise ValueError("This answer is already integrated; PROME must supply a new question before another response")
+            for previous in state["events"]:
+                receipts = read_receipts(self.repo, previous)
+                if receipts and receipts[-1]["state"] == "integrated":
+                    raise ValueError("This answer is already integrated; PROME must supply a new question before another response")
         event = super().save(request)
         try:
             export_event(self.repo, event, self.wq_id, self.unit_id)
@@ -475,6 +534,8 @@ class PilotStore(Store):
         raise ValueError("Only PROME writes pilot receipts; synthetic acknowledgment is unavailable")
 
     def export(self, event_id):
+        if not self.enable_submissions:
+            raise ValueError("Pilot exports remain disabled with submissions")
         event = next((e for e in self.responses()["events"] if e["id"] == identifier(event_id)), None)
         if event is None:
             raise ValueError("Unknown pilot response")
