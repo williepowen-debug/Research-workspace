@@ -30,15 +30,8 @@ AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DEAD POINTER	`long
 AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DATE DRIFT	artifact says 2027-01-01 ('1/1')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DATE DRIFT	artifact says 2027-01-02 ('1/2')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/YURI/research/2026-10-21_L432-read-and-actor-update.md	DATE DRIFT	artifact says 2027-01-03 ('1/3')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
-AGENTS/GIBBS/research/2026-10-21_five-things-regional-question.md	DEAD POINTER	`reports/2026-10-20_reported-bank-earnings-catchup.md`	2026-10-30	PROME/reports/2026-10-30_firetime-refresh-flags-disposition.md
 AGENTS/DEWEY/output/2026-10-22_hyperscaler-ai-funding-gap-ig-capacity.md	DEAD POINTER	`scripts/funding_gap.py`	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
 AGENTS/DEWEY/output/2026-10-22_hyperscaler-ai-funding-gap-ig-capacity.md	DATE DRIFT	artifact says 2027-01-03 ('1/3')	2026-10-22	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
-AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-02 ('1/2')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
-AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-10 ('1/10')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
-AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-08 ('1/8')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
-AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-23 ('1/23')	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
-AGENTS/DEWEY/output/2026-10-22_reserve-coverage-decline-base-rate.md	DATE DRIFT	artifact says 2027-01-03 ('Jan 3')	2026-10-23	PROME/reports/2026-10-22_firetime-boot-flags-disposition.md
-AGENTS/MIDAS/gold/research/2026-10-23_WQ451-decomposition-letter.md	DATE DRIFT	artifact says 2027-01-20 ('2027-01-20')	2026-10-30	PROME/reports/2026-10-30_firetime-refresh-flags-disposition.md
 PROME/proposals/2026-10-23_wq513-516-RULED.md	DATE DRIFT	artifact says 2027-01-15 ('Jan-15')	2026-10-23	PROME/reports/2026-10-23_firetime-late-boot-flags-disposition.md
 PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`AGENTS/BROCK/new.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
 PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md	DEAD POINTER	`AGENTS/ZED`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
@@ -59,7 +52,6 @@ PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`l796-pin
 PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`l796-pin-read3/run3.txt`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
 PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`memory/auto/f.md`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
 PROME/reports/2026-10-24_L796-pin-counterexample-read3.md	DEAD POINTER	`scripts/.gitignore`	2026-10-25	PROME/reports/2026-10-25_firetime-boot-flags-disposition.md
-AGENTS/CARL/research/2026-10-26_L786/RESULT.md	DEAD POINTER	`memory/threshold`	2026-10-30	PROME/reports/2026-10-30_firetime-refresh-flags-disposition.md
 HEARTBEAT.md	DATE DRIFT	artifact says 2027-01-02 ('1/2')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot2-flags-disposition.md
 memory/auto/INDEX_COLD.md	DATE DRIFT	artifact says 2027-01-04 ('1/4')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot2-flags-disposition.md
 AGENTS/BOND/STATUS.md	DATE DRIFT	artifact says 2027-01-25 ('1/25')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
