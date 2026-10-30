@@ -1,0 +1,90 @@
+{
+ "as_of": "2026-10-30T23:43:54Z",
+ "scope": "owner lead headers only (STATUS commits after 14:23 ET); colour Status cells unchanged; no live presence proof",
+ "rows": [
+  {
+   "agent": "PROME",
+   "path": "PROME/STATUS.md",
+   "lead": "**Updated:** 2026-10-30 19:1x ET end-of-day Standard closeout with ARGUS (prome-c5, desktop; booted 10:24 ET; three legs with two restart checkpoints). Current state moved by this session: HEARTBEAT at the 75% rotate line after amendment 3 (37th base owed next synthesis); CATO Decisions pilot cleared to display AND submissions on WQ-558 with two PROME procedure conditions (WQ-555 receipts); WAL L171 10-Q graded (v2.5); DOCKET L887\u2013L891 new, L171/L269/L621/L711/L879/L885/L886 RESOLVED; WQ-556/558/559 OPEN for Will; ACTIVE_DECISIONS rotated (11 rows incl. the retained-guards row; 22,724 B by measure.py at this closeout). Prior: 09:49 ET intra-day Standard closeout (prome-a9, laptop; audit deferred) \u2192 its text in git history.",
+   "sha256": "7b322f923988b371e068068d36d71294534c1fb8d4fa28106e97083008804572",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "REGINALD",
+   "path": "AGENTS/REGINALD/STATUS.md",
+   "lead": "**Last Updated:** 2026-10-30T18:43-04:00; Will-launched evening boot: \u00a7EXIT RULES WAL-source row finalised from WAL's Q3 10-Q grade (NOT FIRED, FINAL for Q3); no score, threshold or probability change. Prior 2026-10-30T09:14:16-04:00; PROME-spawned (WQ-184 Tier 1): DOCKET L801 decided (coverage-decline leg dropped as a predictor) + inbox drain \u2192 `reports/2026-10-30_L801/REPORT.md`. Prior 2026-10-28T22:37:32-04:00; Will-launched boot + catch-up after 3 trading days away \u2192 `reports/2026-10-28_boot/REPORT.md`. Prior top block (stamp chain from 10/23 back, Update 10/23, judgment 10/22, evidence limits, appraisal test, AI-agent doc, audit 10/21, next work) \u2192 `archive/STATUS_rotation_2026-10-28.md` BLOCK T35, crc32 `4e8d0e70`.",
+   "sha256": "39158c66e892681b84f024de1eae37360f89b9b3491a99bb58d57a336d2d48ad",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "WAL",
+   "path": "AGENTS/WAL/STATUS.md",
+   "lead": "**Last Updated: 2026-10-30 17:4x ET \u2014 Q3 10-Q GRADED (D:L171) + v2.5 re-score applied verbatim (PROME `prome-c5` relay of Will's request).** Prior: 16:56 ET core-file fold (WQ-553 ruled, 10-Q frame dry run, $99M appraisal prior).",
+   "sha256": "c132e6c2a4153164fbf141bba072a3da27b45a70244f7dd71c1b00bc3ce246d3",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "BROCK",
+   "path": "AGENTS/BROCK/STATUS.md",
+   "lead": "**Updated:** 2026-10-30T17:23-04:00 \u2014 DAEDALUS fixes (MAINTENANCE); CREED W3 datum; L794 NO FILING; L269 closed; no rescore. Narrative: `catchups/2026-10-30.md`.",
+   "sha256": "7ee3ec3f8a28cf6ee4e2351d0930b9671e9ab8efda5501439019886014d002ac",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "LIQUID",
+   "path": "AGENTS/LIQUID/STATUS.md",
+   "lead": "**Last Updated:** 2026-10-30T15:5x-04:00 \u2014 PROME prome-c5 Tier-1 wake: 076 W1 graded on the CFTC as-of 10/27 print (NOT MET), CHK-40 facts integrated, 6-item drain. Last real data refresh: 2026-10-30. Evidence \u2192 `research/2026-10-30_cftc-W1/REPORT.md`. Prior wake \u2192 `research/2026-10-30_wq545-grade/`.",
+   "sha256": "648c2ac2bc5ecae1ca4706298cbbe690e1cd1ceff638c4692a8aab95de8190e8",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "HENRY",
+   "path": "AGENTS/HENRY/STATUS.md",
+   "lead": "**Last owner update:** 2026-10-30 16:40\u201316:50 ET, PROME-spawned C8 wake (prome-c5, DOCKET L885, WALTER IMMEDIATE card SIG-W-20261030-002; Claude Code, Opus 5.5, `claude-opus-5-5`): post-close gamma grade of the 10/30 tech selloff + whole-inbox drain (2 general + 9 WALTER). Vendor closes pulled 16:43 ET (yfinance daily and 1-minute bars, after the 16:15 ET VIX final); Cboe delayed chains after the close 16:43\u201316:46 ET (Cboe payload stamp 20:43 UTC); Treasury par 10/30 CSV 16:4x ET; FRED through 10/29. Changed: header, VIEW, \u00a7 OCTOBER 30 CLOSE (new), \u00a7 GEX, \u00a7 QQQ/NDX, \u00a7 VOL, \u00a7 CREDIT, threshold rows, catalyst stack. The 10/28 VIEW paragraph, the 10/29 after-hours block and the L773/L774 records moved VERBATIM to `STATUS_COLD.md` \u00a7 ROT-10/30. Pre-session copy: `research/2026-10-30_L885/STATUS-before.md`. Previous owner updates (10/29 00:1x, 09:0x, 14:51\u201316:59, 18:51\u201319:5x ET): `git log -p -- AGENTS/HENRY/STATUS.md`.",
+   "sha256": "8105255dbddc8e0e035457c56e733b4b498dee109d9c0cf3dde9c0307290c0ab",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "VIOLET",
+   "path": "AGENTS/VIOLET/STATUS.md",
+   "lead": "**As of:** October 30, 2026 16:50 ET. PROME Tier-1 follow-up (prome-c5, KB-VIO-362 close grade), Claude Code, Opus 5.5. Cboe 16:15:01 ET final quotes (delayed_quotes feed) + Cboe VX settlement CSV 10/30, pulled 16:42 ET; boot.py 16:41 ET; fetch.py 16:42 ET. Cboe dated History CSVs had NOT posted 10/30 at 16:42 ET, so the 10/30 VX_DAILY row is basis TICK holding the final quotes (SETTLE stamp next session). **Last real data refresh: 2026-10-30.** Thesis **v4.1.4**; no new numerical line or regime phase. Prior same day 12:58 ET: BOJ grade, official 10/29 closes.",
+   "sha256": "6d86bf8ef5b09d8f6c0b72a118f4da062833f40d3769b8a267b2d6884ba5f821",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "CREED",
+   "path": "AGENTS/CREED/STATUS.md",
+   "lead": "**Updated:** 2026-10-30 (Fri) 17:13 ET \u2014 **Will-directed sweep of owed and incomplete work** (Will 17:01 ET: *\"Lets check innbox. Do a sweep of any owed or incomplete tasks\"*), then the instruction-file cleanup (Will-ruled 18:41: charter 40,535 \u2192 25,448 B; boot reads 6.5/6.7 on demand, 6.4 newest 3 CHANGELOG entries), closed out 19:06 ET. Sweep DONE 17:19 ET (commits local, not pushed; record `catchups/2026-10-30.md`): inbox 4/4 acted \u00b7 read-cap rotation (STATUS, THESIS, COVERAGE, VX.tsv all under 70%; verbatim, crc-stamped) \u00b7 DAEDALUS profile-refresh items 1\u20133 + 6 (self-check fire marker line-scoped and re-falsified; THRESHOLDS header reads LIVE; `threshold_scan` recognises a graded sustain leg) \u00b7 HOMER fleet_links + 4 MF cases (167\u2013170) \u00b7 PROME EGBN pointer \u00b7 **BXMT Q3 (KB-091): dividend cut $0.47 \u2192 $0.30, GAAP book value per share \u221211.7% \u2192 mREIT cuts 5 of 11; `T-08b` NOT re-graded (Q3 book erosion >3% is 1 of 5 reporters)** \u00b7 CREFC to 10/23: CRE CLO Class A S+160 (+10bp, one deal); Bridge's $1.19B CLO was put ON HOLD, not withdrawn (KB-092). **No band, score, trigger or prediction moved; 27/45.** PRIOR: 2026-10-28 (Wed) ~23:00 ET \u2014 Will-launched boot + drain + open list (450 5th St NW outcome A; Trepp 12.33% not adopted; VX-9.02 proxy ADOPTED by Will); full clause \u2192 `archive/STATUS_ROTATION_2026-10-30.md` \u00a79; record `catchups/2026-10-28.md`.",
+   "sha256": "5f894396a9e86ae26b1c404bf27172222e21cb77c18f8bc72c692b4331b34ac0",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "DAEDALUS",
+   "path": "AGENTS/DAEDALUS/STATUS.md",
+   "lead": "**Last Updated: 2026-10-30 18:43 ET (session 3 CLOSED on Will's \"lets close out here\" 18:43) \u2014 third Will-launched session of the day (Claude Code / Opus 5.5, booted 16:31): on Will's \"yes go ahead\" 16:40 ET, the REGINALD whole profile; on Will's \"Okay go ahead\" 17:37 ET, the FALCON whole profile (both read-only, neither desk launched).** Session 2 (13:15\u201316:2x) did BROCK and CREED. Earlier 10/30 session (weekly wake, Wiring \u2470 #4, \u00a710 leg, WAL profile, Falsification #5) closed at 13:01; its record is the table below. Prior STATUS (10/28 body) in git at `46d830a92:AGENTS/DAEDALUS/STATUS.md`.",
+   "sha256": "e53fb8d732accdf3d9f0aee088ef7be77911063aa59927cb6e2ebe246a0dc542",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "VULCAN",
+   "path": "AGENTS/VULCAN/STATUS.md",
+   "lead": "**Last Updated:** 2026-10-30T16:48:42-04:00 \u2014 PROME-spawned post-close session (prome-c5, DOCKET L879). **Mag7 slot 8: 33.2351% [holdings 10/29], breadth \u22120.50pp \u2014 YELLOW, NOT FIRED** [KB-341]. **S2 row: memory core 1mo \u221225.39%, DDR5 spot $61.50** [KB-342]. **GPU reading 8: on-demand flat at $4.64; OCPI $2.92 (\u22127.3% w/w)** [KB-343]. **10/30 sell-off (QQQ \u22123.47%, INTC \u221228.58%) fires no VULCAN letter** [KB-344]. **WQ-551.HELD encoded in EXIT \u00a74c; WQ-551.FIRM DEFERRED** [KB-345]. **15/25 unchanged.** Morning (09:15) L800 second leg: Amazon HELD \u2248 $220B, \u00a74b NO-VERDICT, EXIT rewritten [KB-334..340]; report `reports/2026-10-30_L800_amzn/REPORT.md`. Older header text \u2192 `archive/STATUS_EXCERPTS_2026-10-30.md`.",
+   "sha256": "b140a45c5084a5eb2097ac12d568dfab38c2d89465d9c05c8e574d8f6022bcae",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "MIDAS",
+   "path": "AGENTS/MIDAS/STATUS.md",
+   "lead": "**C9 commission October 30, 2026 (Fri, from 16:41 EDT; Claude Code, Opus 5.5; PROME prome-c5, WQ-554 hypothesis test):** [study](gold/research/2026-10-30_july-low-break-liquidation-test.md), bundle `gold/sources/2026-10-30_july-low-break/`. **GLD closed $355.78 (\u22123.47%, MIRROR; issuer row pending), its first close below the July 16 low $364.96 and lowest since 2025-10-02.** Gold fell **against** its drivers: PRIMARY real 10Y 2.63 \u2192 2.60, 2Y \u22125 bp, DXY \u22120.15%. Stocks (S&P \u22121.82%, QQQ \u22123.47%), bitcoin and copper fell with it, VIX +2.22, only Treasuries bid; GLD volume ~4\u20137\u00d7. Frozen WQ-451 classifier: residual \u22123.93% (2.80 sd) + equity stress \u2192 **LIQUIDATION-candidate, tonnes leg pending** (10/29 UNEXPLAINED-DOWN on a calm day). **Verdict: liquidation was the proximate driver today (moderate confidence); \"forced\"/margin calls unproven; the three-week rate-insensitive slide says it is not the whole story.** COT 10/27 consumed: net/OI 46.9875% (sixth decline); disaggregated: the cut came from Other Reportables (\u221214,956 longs), managed money added (+1,538) \u2192 **MIDAS-16 HIT**. WQ-451 one-month downside line $360.71 **CROSSED**; 3-month lines not crossed (second-liquidation + \u221220 t line completes if 10/30 tonnes fall \u22655.38 t). **M1 flip UNRESOLVED on the letter** (no certified settle; all observations below $4,050: 10/29 $4,031.40, 10/30 ~$3,888 quote). SLV/PPLT/PALL all trend-level 4. Actual 8/20, counterfactual 13/20. Inbox drained 6/6. KB-240..244.",
+   "sha256": "b425dd9f8b5327683ce388fcde71ed1ee2811c2a70dfa713532ea02915d9b43e",
+   "status_commit_date": "2026-10-30"
+  },
+  {
+   "agent": "FALCON",
+   "path": "AGENTS/FALCON/STATUS.md",
+   "lead": "**Updated:** 2026-10-30 ~16:49 EDT, PROME-spawned relaunch under DOCKET L886 (C8 wake on WALTER IMMEDIATE SIG-W-20261030-011): 10/29 hull attacks and Qeshm/Ras Tanura reports graded; no mark moved. Runtime Claude Code, Opus 5.5 (claude-opus-5-5). Memo `PROME/inbox/2026-10-30_from-FALCON_hull-attacks-grade-relaunch.md`. Prior header: 10/29 12:14 EDT weekly + GATE-FALCON-001 review ([report](reports/2026-10-29_weekly-review-gate001.md); [prior dashboard](domain/sources/STATUS_before_2026-10-29_review.md)).",
+   "sha256": "6cae7e2dca3e7e4fa3542e7c6ec892b9a3ab7399e32dcf18aa972fbb15b68fdc",
+   "status_commit_date": "2026-10-30"
+  }
+ ]
+}

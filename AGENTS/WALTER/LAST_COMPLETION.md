@@ -1,44 +1,47 @@
-# WALTER — LIGHT checkpoint, session OPEN (full deferred)
+# WALTER — CLOSED on Will request; FULL session closeout
 
-Updated 2026-10-30T20:20:36Z. Claude Code, Opus 5.5 (`claude-opus-5-5`), session df4d59fe-0749-406a-b8d4-356e6a18aa0c, Will-launched 14:08 ET. Previous completion preserved verbatim: research/2026-10-30_checkpoint/prior-LAST_COMPLETION.md.
+Updated 2026-10-30T23:43:54Z. Claude Code, Opus 5.5 (`claude-opus-5-5`), session df4d59fe-0749-406a-b8d4-356e6a18aa0c, Will-launched 14:08 ET, closed on Will's word 19:43 ET ("lets close out here walter we will handle these in next session"). Previous completion preserved verbatim: research/2026-10-30_session-close/prior-LAST_COMPLETION.md (light checkpoint 20:20:36Z), and research/2026-10-30_checkpoint/prior-LAST_COMPLETION.md (prior Codex session).
 
 ## STATUS
 
-Session OPEN. Boot PARTIAL: steps 0–7h executed; step 8 registry refresh covered owner lead headers only (11 changed desks); HANS daily sovereign/compound and CREED/REGINALD event legs not graded; READS attestation still stale (October 23). Prior session's deferred push resolved: cc29537bc and 29d796182 confirmed on origin by another desk's push. Light checkpoint; full narrative/network/memory refresh deferred (1 full-deferred breadcrumb).
+CLOSED. Full closeout clears the light deferral. Boot remained PARTIAL: registry refresh covered owner lead headers only (23 desk rows across two passes); HANS daily sovereign/compound and CREED/REGINALD event legs not graded; READS attestation stale (October 23). **Research-Intake 10/30 19:48Z collect: 42 NEW items carried UNPROCESSED and UNMARKED to the next session** (Will's word: handle next session).
 
 ## CHANGED
 
-BOARD SIG-W-20261030-002 through -011 (10 cards: IMMEDIATE 002/003/011, FLASH 004, PRIORITY 005/006, ROUTINE 007–010) with create-only handoffs, route rows and delivery rows; additive close updates on 002 and 004; generated INDEX. REGISTRY Updated/Focus for 11 desks. Iran anchor dated addendum (10/30 afternoon). Batch manifest BM-20261030-01 (54/54 CLOSED); x_bookmarks seen/pending/receipt after --mark with review file. Evidence: research/2026-10-30_boot/ (THRESHOLD-SCAN, observations.json, owner-header-review.json, close-pull.txt), research/2026-10-30_bookmarks/ (scan-output, verify-iran.md, review JSON, dispatch helper and specs). Commits 78aa4aa81, c36dcd2ad, 092914d40, 33f7a2638, b001121c8 — all on origin. No owner file, grade, band or threshold edited.
+BOARD SIG-W-20261030-002 through -011 with create-only handoffs, route rows and delivery rows; additive close updates on 002 and 004; generated INDEX. REGISTRY Updated/Focus for 23 rows (11 at 18:23Z, 12 at closeout) plus the WALTER row. Iran anchor addendum (10/30 afternoon). Batch BM-20261030-01 CLOSED 54/54; bookmarks marked with review file. PROME/inbox/2026-10-30_from-WALTER_L334-info-copy-citation-study.md (D:L334). MEMORY #51 n+1 and session note; STATUS, SESSION_LOG. Evidence: research/2026-10-30_boot/, research/2026-10-30_bookmarks/, research/2026-10-30_L334/, research/2026-10-30_checkpoint/, research/2026-10-30_session-close/. No owner file, grade, band or threshold edited by WALTER.
+
+⚠️ **Commit-scope incident:** 93138e05e (light checkpoint) swept foreign dirty paths — DAEDALUS CREED-refresh files, AGENTS/BROCK/STATUS.md, DAEDALUS packets to BROCK/CREED inboxes and PROME/inbox — because its path list was built from `git status`. Owners verified bytes unaltered (DAEDALUS bb631be73; BROCK told by PROME); attribution wrong in the subject only; not rewritten; PROME recorded it. MEMORY #51 n+1 carries the rule.
 
 ## RESULT
 
-**Tape 10/30:** tech sell-off on Intel (−28.6%), Amazon and AI-capex worries; vendor VIX touched 22.33 at 18:28:53Z (+5.13 vs 17.20, FLASH 004), next read 22.02; at 16:20 ET VIX 20.83, VIX9D under VIX3M again; QQQ 690.23 (−3.51%) at HENRY's 690 trough; S&P index −1.82% vs SPY −2.29% (basis gap, not reconciled). HY 326 [10/29] = fired-state re-entry, no new fire. KRE never breached −3%.
+**Tape 10/30 and owner grades:** vendor VIX touched 22.33 at 14:28 ET (+5.13, FLASH 004), closed ~20.8; HENRY L885 graded the SPX 7,700 put wall BROKEN on the 7,580.07 close (gamma NEGATIVE, deeper), QQQ traded through the 690 trough (low 683.45) and closed 690.49; VIOLET KB-VIO-362 close grade, no regime-phase change. HY 326 [10/29] fired-state re-entry, no new fire.
 
-**Iran (011, Rule 9 helper):** LOUISE 1 — UKMTO 187-26 Upd 001: two explosive devices above the waterline, ~25 NM NE Khasab, not sunk, attacker unstated; RITI/RIT1 — Oman evacuated 25 crew 1.6 NM off Musandam, separate event; Jask US strike INDETERMINATE (anonymous CENTCOM: Qeshm launcher); Ras Tanura distillation shutdown not established.
+**Iran (011):** FALCON L886 — LOUISE 1 above-waterline devices, not a loss, census stays 6, no ladder effect; Qeshm/Jask US strike INDETERMINATE, FAL-07 NOT FIRED; Abqaiq claim-only, D 85→92 rung armed not fired; RITI/RIT1 crew evacuated, separate event.
 
-**Coordination:** PROME (live) registered and woke HENRY (L885, post-close gamma grade) and FALCON (L886, ladder #2 / FAL-07 / loss census). X reauthorized by Will 15:13 ET; 54 bookmarks dispositioned: 24 DISPATCH, 15 FOLD, 8 KILL, 3 DUP, 2 NO-ACTION, 2 NOTE (counted from the manifest row).
+**Bookmarks:** X reauthorized 15:13 ET; 54 IDs: 24 DISPATCH, 15 FOLD, 8 KILL, 3 DUP, 2 NO-ACTION, 2 NOTE (counted from the manifest row).
+
+**D:L334:** INFO copies later cited 9% strict / 16% broad vs ACTION 32% / 49% over 2,444 rows (9/12–10/23); first run's 99% was a ledger artifact and discarded; lever (a) (trim discretionary INFO cc's to HENRY, LIQUID, REGINALD, SAM, noted per card) applies from 10/30; predictive leg re-dated 11/06.
 
 ## GAPS
 
-- Chicago PMI (10/30 09:45 ET) not read: no primary reached; ISHM owns. Not a no-print finding.
-- S&P index vs SPY close basis disagree (~0.5 return points); vendor index print may not be final. HENRY grades on its own basis.
-- Brent contract identity UNKNOWN by probe (truncated name); BZZ26 expired today; boundary #8 to January 11/2, count restarts.
-- Iran helper read Reuters/AP/AFP only via syndicators; ukmto.org 403; X posts not fetched. Valero/Lyondell, Novokuibyshevsk, Oyu Tolgoi, Anthropic FT body, SLRK call report all unverified at primary (claim-only cards say so).
-- Bookmark bodies read as text; images/links not opened (read_state partly_read with follow-ups).
-- Carried: READS attestation stale (October 23, re-attestation 11/3); cross-runtime visibility incomplete; HANS-T-12 and boundary #5 UNINSTRUMENTED; 13 delivered >2-day unconsumed (GIBBS 9, ISHM 3, CATO 1) owner side; 027-001 empty-action header retained (WQ-503 B); REQ-PROME-20261016-vulcan-intake-design past 14 days without ruling.
-- Resolved this session: R1 'withdrawals' false positive fixed by DAEDALUS L875 (d3cd891d4, PROME-verified); prior pending publication of cc29537bc/29d796182 confirmed on origin.
+- **42 Research-Intake NEW items (10/30 19:48Z collect) unprocessed and unmarked**: AMZN and META 8-Ks (META items 1.01/3.03/5.03), RCL/NCLH 8-Ks incl. NCLH 5.02, 1 NEW_ALERT, 13 NEW_WATCH, BRENT 'Russia diesel export' WATCH_HIT, and others. Step 7g/7e(d.1) apply: open hyperscaler 8-Ks before dismissal.
+- Chicago PMI (10/30) not read at a primary (ISHM owns).
+- S&P index vs SPY close basis disagreed at the 16:20 ET vendor pull; HENRY's 16:43 ET grade used ^GSPC 7,580.07.
+- Iran helper read Reuters/AP/AFP via syndicators; ukmto.org 403. Claim-only cards 005 (Valero/Lyondell), 008, 009, 010 and 006 (FT body) unverified at primary.
+- Boot basis REVIEW: root CLAUDE.md (WQ-549 A), PROME/COMPLETION_SPEC.md and scripts/corrections_boot_check.py (L875) changed; their changes were read this session, hash record not re-attested (READS is PROME-registered).
+- Carried: READS attestation stale (re-attest 11/3); cross-runtime visibility incomplete; HANS-T-12 and boundary #5 UNINSTRUMENTED; aged consumption backlog owner-side (GIBBS 9, ISHM 3, CATO 1); 027-001 header retained (WQ-503 B); REQ-PROME-20261016-vulcan-intake-design past 14 days without ruling.
 
 ## WILL_NEEDS
 
-None. X reauthorized this session. No trade approval requested; no position call made.
+None. No trade approval requested; no position call made. Levers (b) digest and (c) pull-mode from D:L334 are Will's rulings when PROME presents them.
 
 ## FOLLOW-UP
 
-1. Tonight/weekend: HENRY L885 and VIOLET post-close grades of 002/004; FALCON L886 grade of 011; FRED HY/VIXCLS for 10/30 publish ~T+1 (watch HY vs 320 re-entry and REG-T-04 350).
-2. ~10/31 Iran answer to Qatar's draft; 11/1 Sinokor "legal action" date and OPEC+ meeting; 11/2 boundary #8 to January contracts (count restarts), DEWEY 005R, LIQUID October issuance; 11/3 midterms, READS re-attestation, NEXUS weekly; 11/4 Cushing, GATE-FALCON-001 review, CF Q3 (FERT); 11/5 Iran full sweep, MEMORY calendar check, claims; 11/11 Veterans Day non-session (HY bridge); ~11/12 staleness sweep; mid-December ERCOT data-center audit.
-3. WALTER decision owed: when:7d recency operator on the two CYPHER lane queries (next tuning pass).
-4. EO 14421 follow-ups unchanged (WATT before 12/24; CYPHER policy context).
-5. Offered, not done: NEXUS cross-theme card; missed-data-day proposal to PROME. Still open: REGINALD coverage-basis conflict (DEWEY 003R).
+1. **Next session first:** process the 42 carried Research-Intake items (batch manifest, verify, dispatch, then `intake_scan.py --mark`); check X bookmarks head.
+2. Monday 11/2: FRED HY/VIXCLS for 10/30 (HY vs 320 re-entry, REG-T-04 at 350); boundary #8 to January contracts (count restarts); ~10/31 Iran answer to Qatar's draft; 11/1 Sinokor "legal action" date and OPEC+ meeting; DEWEY 005R; LIQUID October issuance.
+3. 11/3 midterms, READS re-attestation, NEXUS weekly; 11/4 Cushing, GATE-FALCON-001 review, CF Q3 (FERT); 11/5 Iran full sweep, MEMORY calendar check; 11/6 D:L334 predictive leg; 11/11 Veterans Day non-session (HY bridge); ~11/12 staleness sweep; mid-December ERCOT data-center audit.
+4. WALTER decision owed: when:7d recency operator on the two CYPHER lane queries.
+5. EO 14421 follow-ups unchanged (WATT before 12/24; CYPHER policy context). Offered, not done: NEXUS cross-theme card; missed-data-day proposal. Still open: REGINALD coverage-basis conflict (DEWEY 003R).
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will2026-10-16
 
@@ -60,55 +63,60 @@ Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C
 
 ## CLOSEOUT RECEIPT
 
-Light checkpoint receipt; all of this session's publication cohorts confirmed on origin by safe-push receipts. Selected checks do not certify missing duties.
+Full closeout receipt; publication cohorts checked against the closeout fetch. Selected checks do not certify missing duties.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-30T20:20:36Z",
-  "next_review": "2026-10-31",
+  "as_of": "2026-10-30T23:43:54Z",
+  "next_review": "2026-11-02",
   "publication": [
-    {
-      "commit": "cc29537bc50e6c8555135bea2b32d2e2b4e9deeb",
-      "state": "published",
-      "note": "EO 14421 signal; confirmed ancestor of origin at 10/30 boot (another desk's push)."
-    },
-    {
-      "commit": "29d79618239f4e9809ef3d00ac7529b7b6846608",
-      "state": "published",
-      "note": "Prior full closeout; confirmed on origin at 10/30 boot."
-    },
     {
       "commit": "78aa4aa81",
       "state": "published",
-      "note": "002 IMMEDIATE tech sell-off; safe-push receipt."
+      "note": "002 IMMEDIATE; safe-push receipt."
     },
     {
       "commit": "c36dcd2ad",
       "state": "published",
-      "note": "003 ECI, REGISTRY refresh, boot evidence; safe-push receipt."
+      "note": "003 ECI, REGISTRY, boot evidence; safe-push receipt."
     },
     {
       "commit": "092914d40",
       "state": "published",
-      "note": "004 FLASH VIX +5 touch; safe-push receipt after a non-ff retry."
+      "note": "004 FLASH; safe-push receipt."
     },
     {
       "commit": "33f7a2638",
       "state": "published",
-      "note": "005-010 bookmark cards; carried by the b001121c8 push."
+      "note": "005-010; carried by b001121c8 push."
     },
     {
       "commit": "b001121c8",
       "state": "published",
-      "note": "011 IMMEDIATE Iran, anchor addendum, batch close, bookmark mark; safe-push receipt."
+      "note": "011 IMMEDIATE Iran, anchor addendum, batch close; safe-push receipt."
+    },
+    {
+      "commit": "93138e05e",
+      "state": "published",
+      "note": "Light checkpoint + close updates; SWEPT foreign dirty paths (see CHANGED); carried to origin by PROME's checkpoint fast-forward (13433caff)."
+    },
+    {
+      "commit": "94803befa",
+      "state": "published",
+      "note": "MEMORY #51 n+1 (local 95cbd7c53 rebased by a shared-checkout pull; matched by subject)."
+    },
+    {
+      "commit": "a304df334",
+      "state": "published",
+      "note": "D:L334 packet to PROME/inbox; on origin at closeout fetch."
     }
   ],
   "delivery": {
     "signal_date": "20261030",
     "total": 32,
     "delivered": 32,
-    "note": "All 20261030 delivery rows reconciled to delivered after pushes (5 for 001 plus 27 this session); recipient consumption not established."
+    "note": "All 20261030 delivery rows delivered; recipient consumption established by owner STATUS for HENRY (L885), FALCON (L886), VIOLET (KB-VIO-362) only."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -122,26 +130,31 @@ Light checkpoint receipt; all of this session's publication cohorts confirmed on
         "sha256": "942f5d68cfca3e9b7af95aeb2fd943deb1b5ce850636cc1280589cc7bd356ee8"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-30_boot/close-pull.txt",
-        "sha256": "ce5b7dac07a5331bdf0c0701e538afbd0e69a1e93122a4cfb423004feaa8daad"
+        "path": "AGENTS/WALTER/research/2026-10-30_L334/results_strict.json",
+        "sha256": "87b75b0c43dba416ba9757f5bacebc7e6e0336739272b7c043f8e4fe5fa3e324"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-30_session-close/owner-header-review.json",
+        "sha256": "3d345fe2960345ac6ba984d4f73ba0d7beadd87cf6070bcafe41987989610b35"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
+    "tier": "full",
     "boot": "PARTIAL; owner-header-only registry refresh, HANS/CREED event legs ungraded, READS stale",
-    "session": "OPEN; light checkpoint after market close, full deferred"
+    "session": "CLOSED on Will request 19:43 ET; 42 intake NEW items carried"
   },
   "manual_duties": {
-    "0": "git pull --rebase clean at boot; untracked KIMI_BOOT.md (Will draft 10/27) not touched.",
-    "0.5": "Doctor 0 HIGH / 2 MED (aged consumption backlog owner-side; 027-001 header retained).",
-    "1-9a": "Executed; corrections 0 owed; read-cap rc 0; READS UNKNOWN (stale attestation).",
-    "9b": "ListAgents: prome-c5, wal-71, daedalus-d5 live; HENRY and FALCON absent, UNKNOWN; PROME launched both after its own preflight.",
-    "11": "Ten cards 002-011 with route/delivery rows; batch BM-20261030-01 closed 54/54.",
-    "12": "STATUS header, BOTTOM LINE and market row refreshed; network narrative deferred (light).",
-    "13": "REGISTRY owner lead headers refreshed for 11 changed desks.",
-    "14": "No new memory written; deferred to full.",
-    "16": "Each push preceded by a same-command foreign-dirty check; only untracked KIMI_BOOT.md and WALTER caches present."
+    "0": "Closeout pull refused by foreign dirty work (FALCON state JSON, CATO prototypes, scripts/*.ps1); HEAD equal to fetched origin; no stash.",
+    "0.5": "Doctor MED items unchanged (aged consumption owner-side; 027-001 header).",
+    "1-9a": "Executed at boot; corrections 0 owed; READS UNKNOWN.",
+    "9b": "ListAgents prome-c5/wal-71/daedalus-d5; PROME launched HENRY and FALCON; no doorbell.",
+    "11": "Cards 002-011; batch 54/54 closed.",
+    "12": "STATUS header, BOTTOM LINE, NETWORK AWARENESS regenerated after step 13; FILTER POSTURE BALANCED and event window CLOSED unchanged.",
+    "13": "REGISTRY owner headers refreshed (12 desks at closeout) before 12(b).",
+    "14": "MEMORY #51 n+1; session note replaced; 99 lines.",
+    "15": "This record.",
+    "16": "Exact-path commit; push only if foreign dirty check is clean, else deferred."
   }
 }
 END_CLOSEOUT_RECEIPT -->

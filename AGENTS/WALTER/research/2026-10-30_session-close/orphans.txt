@@ -1,0 +1,12 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/CATO/prototypes/decisions/mvp/launch-validation.json
+     [not yours]    AGENTS/CATO/prototypes/decisions/mvp/pilot_launch.py
+     [not yours]    AGENTS/CATO/prototypes/decisions/mvp/test_pilot_launch.py
+     [not yours]    AGENTS/FALCON/scripts/baghdad_watch_state.json
+     [not yours]    AGENTS/FALCON/scripts/hormuz_transit_watch_state.json
+     [not yours]    KIMI_BOOT.md
+     [not yours]    scripts/agents_gui.ps1
+     [not yours]    scripts/decisions_launcher.ps1
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
