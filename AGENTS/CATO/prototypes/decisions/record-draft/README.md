@@ -12,6 +12,8 @@ Start with a JSON object in a uniquely identified `wq-record` fenced block in th
 
 Files: [machine-readable shape](record.schema.json), [fictional example](example.json), [fictional source](example-source.md), [author-check receipt](validation.json). The schema checks structure. Source truth and equivalence require the separate checks below.
 
+**Follow-up:** PROME delivered the three mappings at `e948bfdbf`; CATO's [rendered comparison and dispositions](../comparison/README.md) now demonstrate the reader behavior on those pinned copies. No source authority moved. The documentation below includes the docket-key and exact-display clarifications found during that comparison; the JSON Schema remains draft 0.1 unchanged.
+
 ## Field contract
 
 | Field | Meaning and ownership |
@@ -58,7 +60,7 @@ An original approval remains tied to its original revision even if the current p
 
 The same WQ may appear in several views with different units. Counts count units in that view, not parent numbers. A search can group by parent number without merging part outcomes. A historical receipt can have linked open work; view placement follows that work rather than the word `recorded` alone.
 
-Follow-through links identify the owner record's stable key, not a physical line number. The mapping exercise reads the pinned source. A later live reader may resolve the current path/key as a separate stamped observation; the historical source commit remains provenance. Missing keys, unknown owner verification and inaccessible sources stay unknown. Existing docket exports are useful for open-work lookup but do not by themselves prove completed work or verification.
+Follow-through links use the source's canonical citation key. For PROME's append-only DOCKET, `L880` is deliberately a stable physical-line key under WQ-138; retain that convention rather than inventing a new row ID. The mapping exercise reads the pinned source. A later live reader may resolve the current path/key as a separate stamped observation; the historical source commit remains provenance. Missing keys, unknown owner verification and inaccessible sources stay unknown. Existing docket exports are useful for open-work lookup but do not by themselves prove completed work or verification.
 
 ## Responses — boundary for the later integration
 
@@ -67,6 +69,8 @@ The first-version choices include free-text pushback. A future submitted respons
 The app records that event; PROME acknowledges/interprets it and changes the canonical disposition. The app does not write `approved` directly into this source record. Repeated delivery must be accepted once. Conditional approvals remain conditional; unresolved interpretation is visible. Saving locally, reaching PROME, acknowledgment and owner completion remain separate states.
 
 This draft does not choose event storage, authentication, Git delivery, acknowledgment format or machine switching. Those are the next integration contract. Desktop/laptop selection does not imply that a local response is synchronized. Existing chat rulings remain valid through PROME's normal record process; the app is not the only channel for Will's word.
+
+An exact displayed snapshot requires evidence linking the answer to the actual displayed terms. A committed proposal and a matching option letter alone do not prove what was displayed in chat. A future app can retain an immutable copy of the shown terms and bind its response event to that revision/hash; Git is one possible storage mechanism, not a mandatory commit-before-every-answer workflow. Historical reconstructed rulings remain valid as recorded; this provenance distinction does not reopen them.
 
 ## Queue generation and source ownership
 

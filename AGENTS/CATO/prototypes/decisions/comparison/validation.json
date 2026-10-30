@@ -1,0 +1,103 @@
+{
+  "kind": "Author checks of pinned-copy comparison; no live adoption or independent acceptance",
+  "mapping_commit": "e948bfdbf4b01038ad9f2f3cb707bcdf1ff83cc5",
+  "python_tests": {
+    "command": "python3 -B AGENTS/CATO/prototypes/decisions/comparison/test_render.py -v",
+    "count": 17,
+    "status": "passed in preceding tool execution"
+  },
+  "browser_runs": {
+    "desktop": {
+      "returncode": 0,
+      "viewport": [
+        1440,
+        1150
+      ],
+      "checks": [
+        {
+          "name": "Task view shows one outstanding task and no approval inputs",
+          "pass": true
+        },
+        {
+          "name": "Follow-through preserves approved and deferred units",
+          "pass": true
+        },
+        {
+          "name": "Reconstructed history is visible",
+          "pass": true
+        },
+        {
+          "name": "Bundled history preserves correction and exact-snapshot caveat",
+          "pass": true
+        },
+        {
+          "name": "Generated queue contains HANDS row and separate deferral",
+          "pass": true
+        },
+        {
+          "name": "Empty decision view is explicit",
+          "pass": true
+        },
+        {
+          "name": "Unit anchors open the correct panel",
+          "pass": true
+        },
+        {
+          "name": "Layout has no page-width overflow",
+          "pass": true
+        }
+      ],
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-wq-comparison-avdr_3sg/desktop.png"
+    },
+    "narrow": {
+      "returncode": 0,
+      "viewport": [
+        520,
+        1100
+      ],
+      "checks": [
+        {
+          "name": "Task view shows one outstanding task and no approval inputs",
+          "pass": true
+        },
+        {
+          "name": "Follow-through preserves approved and deferred units",
+          "pass": true
+        },
+        {
+          "name": "Reconstructed history is visible",
+          "pass": true
+        },
+        {
+          "name": "Bundled history preserves correction and exact-snapshot caveat",
+          "pass": true
+        },
+        {
+          "name": "Generated queue contains HANDS row and separate deferral",
+          "pass": true
+        },
+        {
+          "name": "Empty decision view is explicit",
+          "pass": true
+        },
+        {
+          "name": "Unit anchors open the correct panel",
+          "pass": true
+        },
+        {
+          "name": "Layout has no page-width overflow",
+          "pass": true
+        }
+      ],
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-wq-comparison-avdr_3sg/narrow.png"
+    }
+  },
+  "temporary_harness": "/tmp/cato-wq-comparison-browser-check.py",
+  "sha256": {
+    "render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+    "test_render.py": "07f62fc393dc12d4f86c02862792dab0a34389dfefbf76c7ff434fe42b97da66",
+    "view.json": "04a73cf287b28fc2af69173539d8f0aaa08d1147294e4d991909852025c0170b",
+    "queue.md": "7b51dc05efc856bb665d755f112ccd14c984da622a9c755ba606a1ac357f2211",
+    "index.html": "188c80ba6d67b809ddc26198103d59137a308ed9105d9c5d728ae63acc55e668"
+  }
+}

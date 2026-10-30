@@ -1,6 +1,6 @@
 # Decisions — first design preview
 
-**October 30, 2026.** Will authorized the mockup/workflow, liked the preview and subsequently selected desktop/laptop only; decisions, personal tasks and follow-through; and choices, defer and free-text requests for changes. This is a local, non-operational prototype. The subsequent [source-record draft](record-draft/README.md) is ready for PROME's three example mappings. CATO owns these design artifacts. PROME's live authority and paused Decision Deck remain unchanged.
+**October 30, 2026.** Will authorized the mockup/workflow, liked the preview and subsequently selected desktop/laptop only; decisions, personal tasks and follow-through; and choices, defer and free-text requests for changes. This is a local, non-operational prototype. The subsequent [source-record draft](record-draft/README.md) and [three-copy comparison](comparison/README.md) are delivered for review. CATO owns these design artifacts. PROME's live authority and paused Decision Deck remain unchanged.
 
 Open [index.html](index.html) in a browser. [Screenshot](preview.png) · [author-check receipt](validation.json) · [workflow investigation](../../runs/2026-10-30_1059_wq-decision-workflow.md).
 
@@ -88,13 +88,13 @@ Will selected desktop/laptop only for the first version. Phone access is outside
 
 ## Bounded implementation sequence after design review
 
-1. **Confirm the interaction and source contract.** Will likes the mockup and has settled first-version device/view/response preferences. CATO's source-record draft is delivered; PROME next supplies copies of 495, 551 and 552 with expected meanings/output. Compare those to generated queue/app views before moving source authority. Exit: preserved meaning in the three cases and a bounded live integration scope.
+1. **Confirm the interaction and source contract.** Will likes the mockup and has settled first-version device/view/response preferences. PROME's copies of 495, 551 and 552 and CATO's generated comparison are delivered. Review the shown conditions and remaining provenance/task-identity questions before moving source authority. Exit: Will has seen the three cases and a bounded live integration scope is settled.
 2. **Implement the source reader/export.** PROME's producer contract and CATO's app reader agree on state and exact terms. Read-only production data first; uncertain legacy rows are explicit. Exit: representative simple, mixed, partial, settled, corrected, empty and unreadable cases display accurately without sends.
 3. **Implement response persistence and intake together.** Choose storage, identity, ownership, delivery and acknowledgment. Exit: a test response survives restart, is accepted once, preserves conditions and produces a truthful receipt; stale/conflicting proposals cannot silently authorize different work.
 4. **Verify the full path on both computers.** Cover interrupted saves, repeated delivery, simultaneous source edits and machine switching under the existing Git rules. Independent review applies to the consequential live integration under the relevant owner instructions. Exit: observed end-to-end behavior, plus explicit untested limits.
 5. **Use it for ordinary decisions.** Begin with a few appropriate real decisions under the approved rollout scope. Check whether it reduces repeated explanations and whether PROME can consume responses without manual presentation upkeep. Expand only from that experience; no new timing study or recurring audit is implied.
 
-The delivered scope now includes the mockup, workflow proposal and source-record schema draft. Real owner mappings and the generated-view comparison remain pending. No owner edits, authority transfer or live submissions have been activated.
+The delivered scope now includes the mockup, workflow proposal, source-record schema draft and generated comparison of PROME's three pinned copies. Will's review and owner adoption conditions remain. No owner edits, authority transfer or live submissions have been activated.
 
 ## Author validation
 

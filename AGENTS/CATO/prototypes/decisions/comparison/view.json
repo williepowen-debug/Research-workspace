@@ -1,0 +1,846 @@
+{
+  "kind": "pinned design-copy comparison; no live authority",
+  "mapping_commit": "e948bfdbf4b01038ad9f2f3cb707bcdf1ff83cc5",
+  "schema_commit": "ddb8148bcba7ce13204aceff865799fb66fb920b",
+  "counts": {
+    "Decisions": 0,
+    "Tasks for me": 1,
+    "Follow-through": 3,
+    "History": 2
+  },
+  "groups": {
+    "Decisions": [],
+    "Tasks for me": [
+      {
+        "wq_id": "495",
+        "title": "OZK + DEWEY — three units from their 10/22 packets (495.CDR / 495.NPORT / 495.REPO)",
+        "unit": {
+          "id": "495.CDR",
+          "kind": "hands",
+          "proposer": "OZK",
+          "proposal": {
+            "revision": 1,
+            "question": "Renew the FFIEC CDR (Call Report) login by Thu 11/5.",
+            "context": "The FFIEC CDR JWT expires 11/05 (90-day lifetime; DOCKET L180). The renewal blocks OZK-10 and OZK invalidation test 8 (DOCKET L808) and REGINALD's cohort pulls. Only Will holds the FFIEC PWS account; the same action is the November credential sitting's first item (WQ-31 / DOCKET L219).",
+            "choices": [],
+            "recommendation": {
+              "action": "none",
+              "option_id": null,
+              "reason": "A personal action by the account holder; no approval decision."
+            },
+            "caveats": [
+              "This is the same physical action as WQ-31's FFIEC item; two queue rows describe one task (the 10/30 checkpoint already notes '= WQ-495.CDR').",
+              "Under WQ-538 A a HANDS row once shown is never re-presented individually in briefs; it stays visible in the task view."
+            ],
+            "source_ids": [
+              "row-registered",
+              "ozk-memo"
+            ],
+            "submission_block_reason": "Design copy; no live task reporting."
+          },
+          "timing": {
+            "needed_by": "2026-11-05",
+            "meaning": "The current FFIEC CDR token's expiry date; after it, the owner pulls that depend on it fail.",
+            "revisit_on": null,
+            "revisit_condition": null
+          },
+          "disposition": {
+            "state": "outstanding",
+            "basis": "No completion reported by Will in the queue, the ruling record or the 10/30 checkpoint (SCRATCH ★ NEXT lists it among 'hands, parked'). env_doctor at the 12:45 ET pick-up still reads 'FFIEC_CDR_TOKEN expires in 6d'.",
+            "source_ids": [
+              "row-updated",
+              "docket"
+            ],
+            "ruling": null
+          },
+          "follow_through": [
+            {
+              "source_id": "docket",
+              "key": "L808"
+            },
+            {
+              "source_id": "docket",
+              "key": "L180"
+            }
+          ],
+          "supersedes_unit_id": null
+        },
+        "sources": [
+          {
+            "id": "row-registered",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "§ OPEN, row beginning `| 495 |`",
+            "description": "The row as registered 14:2x ET 10/22 (prome-25): three named units — CDR (Will's hands, dated), NPORT (⚖️ decision, options A/B), REPO (recorded, class C2). Type MIXED, needed-by 2026-11-05."
+          },
+          {
+            "id": "ozk-memo",
+            "path": "PROME/inbox/processed/2026-10-22_from-OZK_L793-fix-batch-closeout.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "the CDR login ask and the repo-visibility question",
+            "description": "Originating desk memo for CDR and REPO."
+          },
+          {
+            "id": "dewey-memo",
+            "path": "PROME/inbox/processed/2026-10-22_from-DEWEY_data-center-abs-cmbs-holders-v2.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "the N-PORT holder-scanner promotion ask (REQ-007 v2)",
+            "description": "Originating desk memo for NPORT."
+          },
+          {
+            "id": "ruled-record",
+            "path": "PROME/proposals/2026-10-30_wq551-495nport-RULED.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "Will verbatim line; table row WQ-495.NPORT; the '495's other units' paragraph; Relays paragraph",
+            "description": "PROME's ruling record for NPORT (shared with WQ-551): exact words, interpretation, encoder and verification duties."
+          },
+          {
+            "id": "row-updated",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "§ OPEN, row 495, Notes cell sentence `**495.NPORT RULED A 2026-10-30 11:10 ET** … row stays OPEN for 495.CDR only`",
+            "description": "The legacy row after the NPORT ruling: still one OPEN row typed MIXED, carrying the settled NPORT and REPO text beside the outstanding CDR task."
+          },
+          {
+            "id": "docket",
+            "path": "PROME/DOCKET.tsv",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "physical line 880 (L880: DEWEY encodes README + ONE selftest, NO schedule; PROME verifies at the commit); physical line 808 (L808: OZK invalidation tests 6 and 8 + OZK-10, blocked by the CDR login); physical line 180 (L180: FFIEC CDR JWT expires 11/05)",
+            "description": "Canonical dated obligations by stable L-number."
+          },
+          {
+            "id": "dewey-relay",
+            "path": "AGENTS/DEWEY/inbox/2026-10-30_from-PROME_WQ495-NPORT-RULED-keep-the-tool.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "whole packet",
+            "description": "Relay of the NPORT ruling to the encoding desk. Delivery of the instruction, not evidence of the encode."
+          },
+          {
+            "id": "wq455-ledger",
+            "path": "PROME/registry/WQ_LEDGER.tsv",
+            "commit": "312944671611824fb233e57b107c68f212faf28e",
+            "locator": "rows with wq=455 (REGISTERED 2026-10-18 · UPDATED 10/20, 10/22 · RULED 10/29)",
+            "description": "The prior ruling REPO records: WQ-455 RULED A 10/18 ('okay lets work on what we can do limit xposure now'), the repo stays PUBLIC with history intact (10/20 'okay we will leave it as it is I suppose'; 10/22 the history-rewrite option closed). Generated ledger; the queue row and its ruling record are the authority."
+          }
+        ],
+        "observations": [
+          {
+            "source_id": "docket",
+            "key": "L808",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "status": "pending_at_snapshot",
+            "evidence": "PENDING — registered 2026-10-22 14:2x ET (PROME prome-25) on OZK's FOLLOW-UP; predictions live at the owner (workbook/PREDICTIONS.tsv), not mirrored in GATES (no owner ask; REG-28/29/30 were) · 2026-10-28 22:5x ET (PROME, C2 record): P-OZK-9 RULED by Will in the OZK window 22:52 ET, verbatim \"P-OZK-9 approved, go ahead\" — VERIFIED at OZK 20a239b55 (CHANGELOG entry; SCENARIOS prices re-based on Q3, EV $44.41 → $48.56, 10/28 close $50.51 is 4.0% above; weights, multiples, OZK-09 45%, the IQHQ tree and conviction 🟡 LOW unchanged; no thesis version bump). Consumer surfaces: this row's $44.41 context superseded above; AGENTS/DAEDALUS/FLEET_MAP.tsv row 36 (10/22) is DAEDALUS's to refresh (OZK's consumer check named it).",
+            "owner": "OZK / PROME / REGINALD informed",
+            "due": "2026-11-16"
+          },
+          {
+            "source_id": "docket",
+            "key": "L180",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "status": "pending_at_snapshot",
+            "evidence": "PENDING",
+            "owner": "REGINALD (run+cohort ruling) / Will (JWT regen, queue 31)",
+            "due": "2026-11-05..2026-11-07"
+          }
+        ],
+        "controls": [],
+        "corrections": [],
+        "snapshot_assessment": null
+      }
+    ],
+    "Follow-through": [
+      {
+        "wq_id": "495",
+        "title": "OZK + DEWEY — three units from their 10/22 packets (495.CDR / 495.NPORT / 495.REPO)",
+        "unit": {
+          "id": "495.NPORT",
+          "kind": "decision",
+          "proposer": "DEWEY",
+          "proposal": {
+            "revision": 1,
+            "question": "PROMOTE DEWEY's N-PORT holder-scanner script (the thing that found the fund holders of data-center bonds in REQ-007 v2) from a one-off to a kept tool?",
+            "context": "A build gate under DEWEY's charter: a kept tool is maintained, documented and tested; a one-off is evidence only.",
+            "choices": [
+              {
+                "id": "A",
+                "label": "Yes — keep it as a DEWEY tool",
+                "meaning": "Keep the scanner as a DEWEY tool with a README and ONE selftest, NO schedule.",
+                "consequence": "A reusable tool is maintained by DEWEY; no unattended run is granted.",
+                "outcome": "approve"
+              },
+              {
+                "id": "B",
+                "label": "No — one-off",
+                "meaning": "Retain the evidence; do not maintain a reusable tool.",
+                "consequence": "No tool maintenance is assigned; a future need re-derives the scan.",
+                "outcome": "decline"
+              }
+            ],
+            "recommendation": {
+              "action": "choose",
+              "option_id": "A",
+              "reason": "The scanner already produced the REQ-007 v2 holder list; keeping it avoids another discovery pass. No schedule, so no unattended-run grant rides on it."
+            },
+            "caveats": [
+              "No schedule: the approval does not grant an unattended run."
+            ],
+            "source_ids": [
+              "row-registered",
+              "dewey-memo"
+            ],
+            "submission_block_reason": "Design copy; the unit is already ruled."
+          },
+          "timing": {
+            "needed_by": "2026-11-05",
+            "meaning": "The row's needed-by as registered (shared with CDR); the NPORT unit itself carried no separate deadline.",
+            "revisit_on": null,
+            "revisit_condition": null
+          },
+          "disposition": {
+            "state": "approved",
+            "basis": "Will's 'yes approved' on the row (11:10 ET), interpreted by PROME as option A as shown; recorded in the ruling record, the row's Notes cell, DOCKET L880 and the DEWEY relay. Owner encode (README + ONE selftest) not yet evidenced — L880 is dated 11/02.",
+            "source_ids": [
+              "ruled-record",
+              "row-updated",
+              "docket",
+              "dewey-relay"
+            ],
+            "ruling": {
+              "source_id": "ruled-record",
+              "verbatim": "495 - yes approved",
+              "as_recorded_at": "2026-10-30 11:10 ET, in the PROME conversation window (same message as '551- yes')",
+              "answered_proposal_revision": 1,
+              "selected_option_id": "A",
+              "proposal_source_ids": [
+                "row-registered"
+              ],
+              "snapshot_quality": "reconstructed",
+              "conditions": [
+                "README and ONE selftest; NO schedule — no unattended run is granted.",
+                "PROME verifies README + selftest exist at DEWEY's commit (DOCKET L880)."
+              ]
+            }
+          },
+          "follow_through": [
+            {
+              "source_id": "docket",
+              "key": "L880"
+            }
+          ],
+          "supersedes_unit_id": null
+        },
+        "sources": [
+          {
+            "id": "row-registered",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "§ OPEN, row beginning `| 495 |`",
+            "description": "The row as registered 14:2x ET 10/22 (prome-25): three named units — CDR (Will's hands, dated), NPORT (⚖️ decision, options A/B), REPO (recorded, class C2). Type MIXED, needed-by 2026-11-05."
+          },
+          {
+            "id": "ozk-memo",
+            "path": "PROME/inbox/processed/2026-10-22_from-OZK_L793-fix-batch-closeout.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "the CDR login ask and the repo-visibility question",
+            "description": "Originating desk memo for CDR and REPO."
+          },
+          {
+            "id": "dewey-memo",
+            "path": "PROME/inbox/processed/2026-10-22_from-DEWEY_data-center-abs-cmbs-holders-v2.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "the N-PORT holder-scanner promotion ask (REQ-007 v2)",
+            "description": "Originating desk memo for NPORT."
+          },
+          {
+            "id": "ruled-record",
+            "path": "PROME/proposals/2026-10-30_wq551-495nport-RULED.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "Will verbatim line; table row WQ-495.NPORT; the '495's other units' paragraph; Relays paragraph",
+            "description": "PROME's ruling record for NPORT (shared with WQ-551): exact words, interpretation, encoder and verification duties."
+          },
+          {
+            "id": "row-updated",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "§ OPEN, row 495, Notes cell sentence `**495.NPORT RULED A 2026-10-30 11:10 ET** … row stays OPEN for 495.CDR only`",
+            "description": "The legacy row after the NPORT ruling: still one OPEN row typed MIXED, carrying the settled NPORT and REPO text beside the outstanding CDR task."
+          },
+          {
+            "id": "docket",
+            "path": "PROME/DOCKET.tsv",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "physical line 880 (L880: DEWEY encodes README + ONE selftest, NO schedule; PROME verifies at the commit); physical line 808 (L808: OZK invalidation tests 6 and 8 + OZK-10, blocked by the CDR login); physical line 180 (L180: FFIEC CDR JWT expires 11/05)",
+            "description": "Canonical dated obligations by stable L-number."
+          },
+          {
+            "id": "dewey-relay",
+            "path": "AGENTS/DEWEY/inbox/2026-10-30_from-PROME_WQ495-NPORT-RULED-keep-the-tool.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "whole packet",
+            "description": "Relay of the NPORT ruling to the encoding desk. Delivery of the instruction, not evidence of the encode."
+          },
+          {
+            "id": "wq455-ledger",
+            "path": "PROME/registry/WQ_LEDGER.tsv",
+            "commit": "312944671611824fb233e57b107c68f212faf28e",
+            "locator": "rows with wq=455 (REGISTERED 2026-10-18 · UPDATED 10/20, 10/22 · RULED 10/29)",
+            "description": "The prior ruling REPO records: WQ-455 RULED A 10/18 ('okay lets work on what we can do limit xposure now'), the repo stays PUBLIC with history intact (10/20 'okay we will leave it as it is I suppose'; 10/22 the history-rewrite option closed). Generated ledger; the queue row and its ruling record are the authority."
+          }
+        ],
+        "observations": [
+          {
+            "source_id": "docket",
+            "key": "L880",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "status": "pending_at_snapshot",
+            "evidence": "PENDING — registered 2026-10-30 11:11 ET by PROME (prome-c5) on Will's word; relay AGENTS/DEWEY/inbox/2026-10-30_from-PROME_WQ495-NPORT-RULED-keep-the-tool.md.",
+            "owner": "DEWEY (builds) / PROME (verifies)",
+            "due": "2026-11-02"
+          }
+        ],
+        "controls": [],
+        "corrections": [],
+        "snapshot_assessment": "Reconstructed snapshot: the original ruling is retained; the exact display is not claimed."
+      },
+      {
+        "wq_id": "551",
+        "title": "VULCAN — two proposals from the L800 Amazon leg (551.HELD / 551.FIRM)",
+        "unit": {
+          "id": "551.HELD",
+          "kind": "decision",
+          "proposer": "VULCAN",
+          "proposal": {
+            "revision": 1,
+            "question": "For VULCAN's §4c successor capex test (Q4 prints, late Jan–early Feb 2027), ALSO count a ≥5% after-hours fall on a HELD-or-raised guide in ≥2 prints as a confirm leg?",
+            "context": "Amazon HELD 2026 capex at ~$220B. The pre-registered October test (§4b) ended NO-VERDICT because its rule counts a stock falling only on a RAISE; Alphabet (−12.6%) and Amazon (−7.3%) fell on HELD guides and went uncounted — recorded as a disagreement, not counted. A frozen test rule changes, so the decision is Will's.",
+            "choices": [
+              {
+                "id": "A",
+                "label": "Add the confirm leg to §4c",
+                "meaning": "The §4c successor test also counts a ≥5% after-hours fall on a HELD-or-raised guide in ≥2 prints as a confirm leg.",
+                "consequence": "Written BEFORE the next test window, so no re-cutting of a frozen letter; §4b's NO-VERDICT stands and is never re-graded. VULCAN encodes the letter; PROME verifies the literal text at the commit. No money.",
+                "outcome": "approve"
+              }
+            ],
+            "recommendation": {
+              "action": "choose",
+              "option_id": "A",
+              "reason": "The October prints showed the frozen rule missed the market's actual reaction; the change is written before the next test, so nothing is re-cut."
+            },
+            "caveats": [
+              "The registered row named the recommendation A and no lettered alternative; 'do not add the leg' was the unstated alternative. This copy does not invent a B.",
+              "Never re-grades §4b — the October NO-VERDICT stands."
+            ],
+            "source_ids": [
+              "row-registered",
+              "vulcan-memo"
+            ],
+            "submission_block_reason": "Design copy; the unit is already ruled."
+          },
+          "timing": {
+            "needed_by": "2026-11-13",
+            "meaning": "Row needed-by as registered; the §4c letter must be written before the Q4 print window (late Jan–early Feb 2027), and VULCAN's next session carried the encode.",
+            "revisit_on": null,
+            "revisit_condition": null
+          },
+          "disposition": {
+            "state": "approved",
+            "basis": "Will's 'yes' on the row (11:10 ET), interpreted by PROME as approval of the standing rec A as shown; recorded in the ruling record, the RECENTLY DONE row, DOCKET L879 and the VULCAN relay.",
+            "source_ids": [
+              "ruled-record",
+              "row-done",
+              "docket",
+              "vulcan-relay"
+            ],
+            "ruling": {
+              "source_id": "ruled-record",
+              "verbatim": "551- yes",
+              "as_recorded_at": "2026-10-30 11:10 ET, in the PROME conversation window (same message as '495 - yes approved'; 549 held with a question, not ruled)",
+              "answered_proposal_revision": 1,
+              "selected_option_id": "A",
+              "proposal_source_ids": [
+                "row-registered"
+              ],
+              "snapshot_quality": "reconstructed",
+              "conditions": [
+                "Written before the §4c window; never re-grades §4b.",
+                "VULCAN encodes the literal rule text; PROME verifies at the commit (DOCKET L879)."
+              ]
+            }
+          },
+          "follow_through": [
+            {
+              "source_id": "docket",
+              "key": "L879"
+            }
+          ],
+          "supersedes_unit_id": null
+        },
+        "sources": [
+          {
+            "id": "row-registered",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "1a32f5363259be9a986145e61a8bd138ab0701a1",
+            "locator": "§ OPEN, row beginning `| 551 |`",
+            "description": "The proposal as registered 09:22 ET by PROME (prome-a9) from VULCAN's L800 memo. The only commit touching the row before the ruling, so the text Will's rec was read from is this revision."
+          },
+          {
+            "id": "vulcan-memo",
+            "path": "PROME/inbox/processed/2026-10-30_from-VULCAN_L800-amzn-cluster-grade.md",
+            "commit": "1a32f5363259be9a986145e61a8bd138ab0701a1",
+            "locator": "the two proposals (HELD leg; firm-level falsifier)",
+            "description": "Originating desk memo; the proposals' full reasoning. Filed to processed/ in the registering commit."
+          },
+          {
+            "id": "ruled-record",
+            "path": "PROME/proposals/2026-10-30_wq551-495nport-RULED.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "Will verbatim line; table rows WQ-551.HELD and WQ-551.FIRM; Relays paragraph",
+            "description": "PROME's ruling record: Will's exact words, PROME's interpretation ('yes' = each row's standing rec as shown at 11:0x ET), encoder and verification duties."
+          },
+          {
+            "id": "row-done",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "§ RECENTLY DONE, row beginning `| **551 — VULCAN two proposals`",
+            "description": "The legacy terminal row (whole WQ moved out of OPEN at the ruling, FIRM's deferral carried in its text)."
+          },
+          {
+            "id": "docket",
+            "path": "PROME/DOCKET.tsv",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "physical line 879 (L879: VULCAN encodes the §4c confirm leg; PROME verifies at the commit); physical line 834 (L834: DEWEY evidence-preserving XBRL replay — FIRM's prerequisite)",
+            "description": "Canonical dated obligations. L-numbers are stable row keys by the docket's citation convention."
+          },
+          {
+            "id": "vulcan-relay",
+            "path": "AGENTS/VULCAN/inbox/2026-10-30_from-PROME_WQ551-RULED-held-leg-counted-firm-deferred.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "whole packet",
+            "description": "Relay of the ruling to the encoding desk (carve-out ①). Delivery of the instruction, not evidence of the encode."
+          }
+        ],
+        "observations": [
+          {
+            "source_id": "docket",
+            "key": "L879",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "status": "pending_at_snapshot",
+            "evidence": "PENDING — registered 2026-10-30 11:11 ET by PROME (prome-c5) on Will's word; relay AGENTS/VULCAN/inbox/2026-10-30_from-PROME_WQ551-RULED-held-leg-counted-firm-deferred.md.",
+            "owner": "VULCAN (encodes) / PROME (verifies)",
+            "due": "2026-10-30"
+          }
+        ],
+        "controls": [],
+        "corrections": [],
+        "snapshot_assessment": "Reconstructed snapshot: the original ruling is retained; the exact display is not claimed."
+      },
+      {
+        "wq_id": "551",
+        "title": "VULCAN — two proposals from the L800 Amazon leg (551.HELD / 551.FIRM)",
+        "unit": {
+          "id": "551.FIRM",
+          "kind": "decision",
+          "proposer": "VULCAN",
+          "proposal": {
+            "revision": 1,
+            "question": "Add a firm-level falsifier: if the five-name hyperscaler funding gap (DEWEY method; −$169.6B at 10/30) closes to ≥0 over a year while capex is held or raised, the 'returns' worry is disproved?",
+            "context": "A new level/falsifier on VULCAN's thesis, so Will's. The instrument that would grade it (DEWEY's evidence-preserving XBRL replay, DOCKET L834) does not exist yet, and the DEWEY method omits $63.8B of Amazon lab stakes.",
+            "choices": [
+              {
+                "id": "A",
+                "label": "Add the firm-level falsifier now",
+                "meaning": "Register the year-long funding-gap falsifier as a VULCAN thesis letter.",
+                "consequence": "A new falsifier is live before its instrument exists; grading would rest on a method with a known $63.8B omission.",
+                "outcome": "approve"
+              }
+            ],
+            "recommendation": {
+              "action": "defer",
+              "option_id": null,
+              "reason": "A year-long falsifier needs DEWEY's XBRL replay (L834) to be the instrument first, and the method still omits $63.8B of AMZN lab stakes."
+            },
+            "caveats": [
+              "Deferral is not a decline: the proposal returns when its prerequisite lands.",
+              "The registered row named no lettered alternative for FIRM; 'defer' was the recommendation, not a choice label."
+            ],
+            "source_ids": [
+              "row-registered",
+              "vulcan-memo"
+            ],
+            "submission_block_reason": "Design copy; the unit is deferred on a condition, not awaiting an answer."
+          },
+          "timing": {
+            "needed_by": null,
+            "meaning": null,
+            "revisit_on": null,
+            "revisit_condition": "DEWEY's DOCKET L834 XBRL replay lands (PROME re-presents at L834's return)."
+          },
+          "disposition": {
+            "state": "deferred",
+            "basis": "Will's 'yes' on the row approved the standing rec, whose FIRM half was DEFER; recorded in the ruling record and the RECENTLY DONE row; VULCAN told in the relay. Not declined.",
+            "source_ids": [
+              "ruled-record",
+              "row-done",
+              "vulcan-relay"
+            ],
+            "ruling": {
+              "source_id": "ruled-record",
+              "verbatim": "551- yes",
+              "as_recorded_at": "2026-10-30 11:10 ET, in the PROME conversation window",
+              "answered_proposal_revision": 1,
+              "selected_option_id": null,
+              "proposal_source_ids": [
+                "row-registered"
+              ],
+              "snapshot_quality": "reconstructed",
+              "conditions": [
+                "Re-present when DOCKET L834 lands; the $63.8B AMZN lab-stake omission is named as a second reason."
+              ]
+            }
+          },
+          "follow_through": [
+            {
+              "source_id": "docket",
+              "key": "L834"
+            }
+          ],
+          "supersedes_unit_id": null
+        },
+        "sources": [
+          {
+            "id": "row-registered",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "1a32f5363259be9a986145e61a8bd138ab0701a1",
+            "locator": "§ OPEN, row beginning `| 551 |`",
+            "description": "The proposal as registered 09:22 ET by PROME (prome-a9) from VULCAN's L800 memo. The only commit touching the row before the ruling, so the text Will's rec was read from is this revision."
+          },
+          {
+            "id": "vulcan-memo",
+            "path": "PROME/inbox/processed/2026-10-30_from-VULCAN_L800-amzn-cluster-grade.md",
+            "commit": "1a32f5363259be9a986145e61a8bd138ab0701a1",
+            "locator": "the two proposals (HELD leg; firm-level falsifier)",
+            "description": "Originating desk memo; the proposals' full reasoning. Filed to processed/ in the registering commit."
+          },
+          {
+            "id": "ruled-record",
+            "path": "PROME/proposals/2026-10-30_wq551-495nport-RULED.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "Will verbatim line; table rows WQ-551.HELD and WQ-551.FIRM; Relays paragraph",
+            "description": "PROME's ruling record: Will's exact words, PROME's interpretation ('yes' = each row's standing rec as shown at 11:0x ET), encoder and verification duties."
+          },
+          {
+            "id": "row-done",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "§ RECENTLY DONE, row beginning `| **551 — VULCAN two proposals`",
+            "description": "The legacy terminal row (whole WQ moved out of OPEN at the ruling, FIRM's deferral carried in its text)."
+          },
+          {
+            "id": "docket",
+            "path": "PROME/DOCKET.tsv",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "physical line 879 (L879: VULCAN encodes the §4c confirm leg; PROME verifies at the commit); physical line 834 (L834: DEWEY evidence-preserving XBRL replay — FIRM's prerequisite)",
+            "description": "Canonical dated obligations. L-numbers are stable row keys by the docket's citation convention."
+          },
+          {
+            "id": "vulcan-relay",
+            "path": "AGENTS/VULCAN/inbox/2026-10-30_from-PROME_WQ551-RULED-held-leg-counted-firm-deferred.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "whole packet",
+            "description": "Relay of the ruling to the encoding desk (carve-out ①). Delivery of the instruction, not evidence of the encode."
+          }
+        ],
+        "observations": [
+          {
+            "source_id": "docket",
+            "key": "L834",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "status": "pending_at_snapshot",
+            "evidence": "PENDING — DELIVERED 2026-10-24 18:2x ET (DEWEY desk session, Opus; commits 27c784951 acceptance-before-edit · 0c0ab27ab implementation+tests+fixtures · 5fb7539d3 delivery; memo PROME/inbox/processed/2026-10-24_from-DEWEY_L834-xbrl-compare-delivered.md; VULCAN copy AGENTS/VULCAN/inbox/2026-10-24_from-DEWEY_L834-saved-packets.md). INDEPENDENTLY VERIFIED by PROME at the artifact 18:2x ET: `test_edgar_xbrl_compare.py` 30 OK + `test_research_readers.py` 14 OK under PROME's own run; `compare --snapshot` on CATO's response reproduces CATO's packet to the value, accession and response sha256 (9b6ac23b…); the five limits print verbatim (CATO's four + the SEC-API lag); `xbrl_concept` separates CATO's probe pair (start 2025-09-28 vs 2026-03-29, same end/fp/accn); nine saved META/ORCL packets under AGENTS/DEWEY/research/edgar_xbrl/ with raw responses; `git diff 38e1c2304 HEAD -- AGENTS/CATO` empty; commit paths scoped to AGENTS/DEWEY/ + the two packets. FINDINGS from the first real run (DEWEY, 20 calls: 9 saved, 11 explicit failures, 0 substitutions): ① 10-Q cash-flow facts are YEAR-TO-DATE only — no three-month Q3 rows for OCF/capex/lease principal/buybacks; the latest-quarter figure is VULCAN's subtraction (Q3 YTD − Q2 YTD), labelled derived; ② ORCL Q1 FY27 carries no FinanceLeasePrincipalPayments or buyback row under the standard tags (document work); ③ dividend tags differ by issuer (ORCL PaymentsOfDividendsCommonStock; META reports Q3-25 dividends two ways, $1,330M vs $1,323M — the tool does not pick); ④ GOOGL/AMZN/MSFT 10-Qs not yet filed (~10/29–31) — print-day numbers are not in the API. OPEN: VULCAN confirms/amends the concept list before its 10/29 wake (consumer packet) · GOOGL/AMZN/MSFT run when filed · ORCL lease/buyback source work (VULCAN's call). RECEIPT RECONCILED 2026-10-25 (PROME): DEWEY WQ-249 ASKED 18:25 → RECEIPT 18:29 on 10/24, recorded in state/ORCH_LOG.tsv DEWEY 1-RECEIPT (observed 18:30:54 ET; last commit 5fb7539d3; no unsaved/staged desk work; push delegated to PROME). The former OPEN closeout phrase was stale; the VULCAN/future-source work above remains PENDING. Prior cell: PENDING — registered 2026-10-24 18:1x ET (PROME prome-06 fresh context #2) on Will's directive; packets AGENTS/DEWEY/inbox/2026-10-24_from-PROME_L834-xbrl-compare-integration.md and AGENTS/VULCAN/inbox/2026-10-24_from-PROME_L834-xbrl-compare-consumer.md; DEWEY session: Tier 1 under the directive once the desk-spawn preflight clears (ListAgents + host process check recorded in ORCH_LOG), else at DEWEY's next session · 2026-10-28 22:2x ET (PROME): DEWEY run log AGENTS/DEWEY/research/edgar_xbrl/2026-10-28_L800_msft-run-log.md (85fa3b8f2): 5 Microsoft Q1 FY27 packets saved, 2 explicit 404s, nothing derived; GOOGL/AMZN Q3 10-Qs not yet filed at 02:09 UTC. VULCAN consumer read (L800) still VULCAN's. · GOOGL Q3 leg DELIVERED 2026-10-29 10:55 ET (DEWEY a3fb0e5ec → VULCAN; memo PROME/inbox/processed/2026-10-29_from-DEWEY_L834-googl-q3-packets.md; PARTIAL: AMZN after the 10/29 close, COF by 11/13; consumed by PROME 12:1x ET) · 2026-10-29 20:51 ET (PROME prome-a9 boot): re-dated 10/28 → 11/02 for the remaining AMZN leg — Amazon printed after the 10/29 close, its Q3 10-Q is not yet filed at this read (DEWEY closeout acce9f67f 'still owed: Amazon Q3 packets once its 10-Q files'); the GOOGL leg is consumed; the COF leg lives at L567 (by 11/13). Not a new commission.",
+            "owner": "DEWEY (tool owner, builds; acceptance conditions before the edit, WQ-229) · VULCAN (consuming desk: concept list + comparability + interpretation) · PROME (coordination; verifies at the artifact) · CATO informed by this row only (no new CATO work)",
+            "due": "2026-11-02"
+          }
+        ],
+        "controls": [],
+        "corrections": [],
+        "snapshot_assessment": "Reconstructed snapshot: the original ruling is retained; the exact display is not claimed."
+      }
+    ],
+    "History": [
+      {
+        "wq_id": "495",
+        "title": "OZK + DEWEY — three units from their 10/22 packets (495.CDR / 495.NPORT / 495.REPO)",
+        "unit": {
+          "id": "495.REPO",
+          "kind": "receipt",
+          "proposer": "OZK",
+          "proposal": {
+            "revision": 1,
+            "question": "Record for OZK: repo visibility (public vs private) for the third-party-text ruling is already ruled.",
+            "context": "OZK asked which visibility to assume. Will ruled it under WQ-455 (10/18, 10/20 and 10/22 13:09 ET): the repo stays PUBLIC, history intact, for the application. PROME recorded the answer here as class C2 (a ruling Will already gave), never a new ask.",
+            "choices": [],
+            "recommendation": {
+              "action": "none",
+              "option_id": null,
+              "reason": "A receipt of an existing ruling; no new question."
+            },
+            "caveats": [
+              "The authority is WQ-455's ruling, not this receipt; OZK applies its third-party-text handling to a public repo."
+            ],
+            "source_ids": [
+              "row-registered",
+              "ozk-memo",
+              "wq455-ledger"
+            ],
+            "submission_block_reason": "Receipt only; no approval controls."
+          },
+          "timing": {
+            "needed_by": null,
+            "meaning": null,
+            "revisit_on": null,
+            "revisit_condition": null
+          },
+          "disposition": {
+            "state": "recorded",
+            "basis": "Recorded at registration 10/22 from Will's WQ-455 rulings; nothing asked, nothing owed.",
+            "source_ids": [
+              "row-registered",
+              "wq455-ledger"
+            ],
+            "ruling": null
+          },
+          "follow_through": [],
+          "supersedes_unit_id": null
+        },
+        "sources": [
+          {
+            "id": "row-registered",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "§ OPEN, row beginning `| 495 |`",
+            "description": "The row as registered 14:2x ET 10/22 (prome-25): three named units — CDR (Will's hands, dated), NPORT (⚖️ decision, options A/B), REPO (recorded, class C2). Type MIXED, needed-by 2026-11-05."
+          },
+          {
+            "id": "ozk-memo",
+            "path": "PROME/inbox/processed/2026-10-22_from-OZK_L793-fix-batch-closeout.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "the CDR login ask and the repo-visibility question",
+            "description": "Originating desk memo for CDR and REPO."
+          },
+          {
+            "id": "dewey-memo",
+            "path": "PROME/inbox/processed/2026-10-22_from-DEWEY_data-center-abs-cmbs-holders-v2.md",
+            "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+            "locator": "the N-PORT holder-scanner promotion ask (REQ-007 v2)",
+            "description": "Originating desk memo for NPORT."
+          },
+          {
+            "id": "ruled-record",
+            "path": "PROME/proposals/2026-10-30_wq551-495nport-RULED.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "Will verbatim line; table row WQ-495.NPORT; the '495's other units' paragraph; Relays paragraph",
+            "description": "PROME's ruling record for NPORT (shared with WQ-551): exact words, interpretation, encoder and verification duties."
+          },
+          {
+            "id": "row-updated",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "§ OPEN, row 495, Notes cell sentence `**495.NPORT RULED A 2026-10-30 11:10 ET** … row stays OPEN for 495.CDR only`",
+            "description": "The legacy row after the NPORT ruling: still one OPEN row typed MIXED, carrying the settled NPORT and REPO text beside the outstanding CDR task."
+          },
+          {
+            "id": "docket",
+            "path": "PROME/DOCKET.tsv",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "physical line 880 (L880: DEWEY encodes README + ONE selftest, NO schedule; PROME verifies at the commit); physical line 808 (L808: OZK invalidation tests 6 and 8 + OZK-10, blocked by the CDR login); physical line 180 (L180: FFIEC CDR JWT expires 11/05)",
+            "description": "Canonical dated obligations by stable L-number."
+          },
+          {
+            "id": "dewey-relay",
+            "path": "AGENTS/DEWEY/inbox/2026-10-30_from-PROME_WQ495-NPORT-RULED-keep-the-tool.md",
+            "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+            "locator": "whole packet",
+            "description": "Relay of the NPORT ruling to the encoding desk. Delivery of the instruction, not evidence of the encode."
+          },
+          {
+            "id": "wq455-ledger",
+            "path": "PROME/registry/WQ_LEDGER.tsv",
+            "commit": "312944671611824fb233e57b107c68f212faf28e",
+            "locator": "rows with wq=455 (REGISTERED 2026-10-18 · UPDATED 10/20, 10/22 · RULED 10/29)",
+            "description": "The prior ruling REPO records: WQ-455 RULED A 10/18 ('okay lets work on what we can do limit xposure now'), the repo stays PUBLIC with history intact (10/20 'okay we will leave it as it is I suppose'; 10/22 the history-rewrite option closed). Generated ledger; the queue row and its ruling record are the authority."
+          }
+        ],
+        "observations": [],
+        "controls": [],
+        "corrections": [],
+        "snapshot_assessment": null
+      },
+      {
+        "wq_id": "552",
+        "title": "BOOT.md rotation #3 (LOGREAD · NONNEG · BANNERS · MEMORIES)",
+        "unit": {
+          "id": "552.ROTATION",
+          "kind": "decision",
+          "proposer": "PROME",
+          "proposal": {
+            "revision": 1,
+            "question": "Finish the BOOT.md rotation the gate has flagged since 10/16 (84% of the 32,550 B read budget; finished = under 70%): which of the four named components move out of the boot-read path?",
+            "context": "Four components, each a VERBATIM MOVE or a CONSOLIDATION, never a rule change: 552.LOGREAD (2,218 B, the gate log-read contract → BOOT_MODULES § Gate log-read contract) · 552.NONNEG (995 B, the Non-Negotiables block → ONE pointer line naming its three homes; a rules-overlap decision) · 552.BANNERS (766 B, the Helm-RETIRED and Deck-PAUSED banners → one line each inside step 3b; Will's two standing instructions) · 552.MEMORIES (2,060 B, § Boot-class fleet memories → BOOT_MODULES with the five hooks kept as one line in step 4b). The components were offered as bundles under lettered options, not as four separate questions.",
+            "choices": [
+              {
+                "id": "A",
+                "label": "All four: LOGREAD + NONNEG + BANNERS + MEMORIES",
+                "meaning": "Move or consolidate all four components in one rotation.",
+                "consequence": "≈65% of budget, rotation FINISHED, the gate's rotation_due flag clears; every rule survives verbatim at its new home; the boot runner's pointers re-aimed in the same commit. No money; no rule's meaning moves. Counts as a process-class change under the session ceiling.",
+                "outcome": "approve"
+              },
+              {
+                "id": "B",
+                "label": "LOGREAD + MEMORIES only",
+                "meaning": "The two verbatim moves, no consolidation of Non-Negotiables or banners.",
+                "consequence": "≈68%, finished; the Non-Negotiables duplication and the banners stay in the boot-read path.",
+                "outcome": "approve"
+              },
+              {
+                "id": "C",
+                "label": "Defer again",
+                "meaning": "Leave BOOT.md at 84%.",
+                "consequence": "Every boot keeps paying ~4.5 KB of history; the gate keeps flagging rotation_due.",
+                "outcome": "defer"
+              }
+            ],
+            "recommendation": {
+              "action": "choose",
+              "option_id": "A",
+              "reason": "Finishes the rotation in one pass with every rule surviving verbatim at its new home; B leaves the file within 2 points of the stop and the duplication in place."
+            },
+            "caveats": [
+              "Approval scope is the BUNDLE named by option A: the four components are implementation scope of one decision, not four independently answerable units (Will was never offered 'NONNEG alone' or 'BANNERS alone').",
+              "The approved form of the NONNEG component was ONE pointer line; the executed form differs — see corrections.",
+              "Plan + result cold reads (Sonnet) required under the Review budget; a plan record with exact OLD/NEW text before any edit."
+            ],
+            "source_ids": [
+              "row-registered"
+            ],
+            "submission_block_reason": "Design copy; the unit is already ruled and encoded."
+          },
+          "timing": {
+            "needed_by": "2026-11-06",
+            "meaning": "Row needed-by as registered; the row did not state what the date means beyond the gate having flagged rotation_due since 10/16.",
+            "revisit_on": null,
+            "revisit_condition": null
+          },
+          "disposition": {
+            "state": "approved",
+            "basis": "Will chose option A by letter, 12:15 ET, after asking for PROME's rec; recorded in the RECENTLY DONE row at 12:17 and encoded 12:28 ET (BOOT.md 22,739 B at the result read, 0 ❌). The encode is PROME's own owner evidence, independently read once.",
+            "source_ids": [
+              "ruled-row",
+              "plan-final",
+              "boot-encoded",
+              "row-encoded"
+            ],
+            "ruling": {
+              "source_id": "ruled-row",
+              "verbatim": "okay go ahead with 552 A",
+              "as_recorded_at": "2026-10-30 12:15 ET, in the PROME conversation window, after Will's question 'what is your rec for WQ-552?'",
+              "answered_proposal_revision": 1,
+              "selected_option_id": "A",
+              "proposal_source_ids": [
+                "row-registered"
+              ],
+              "snapshot_quality": "exact",
+              "conditions": [
+                "No rule's meaning moves; every rule survives verbatim at its new home.",
+                "Plan and result cold reads per the Review budget.",
+                "The third process-class change of the harness session (ceiling five)."
+              ]
+            }
+          },
+          "follow_through": [
+            {
+              "source_id": "plan-final",
+              "key": "Completion (WQ-229): IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED none"
+            },
+            {
+              "source_id": "boot-encoded",
+              "key": "PROME/BOOT.md @ cac2da4a4"
+            }
+          ],
+          "supersedes_unit_id": null
+        },
+        "sources": [
+          {
+            "id": "row-registered",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "a6ba1db408f62d8e4036fd7e1cdf7c4a6e6008f5",
+            "locator": "§ OPEN, row beginning `| 552 |`",
+            "description": "The proposal as registered 12:05 ET (prome-c5): four named work components (552.LOGREAD · 552.NONNEG · 552.BANNERS · 552.MEMORIES) and three lettered options A / B / C over them. Unchanged until the ruling."
+          },
+          {
+            "id": "ruled-row",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "2071ae4e834e6d041e8765f9c6cf682f2e87f385",
+            "locator": "§ RECENTLY DONE, row beginning `| **552 — BOOT.md rotation #3`",
+            "description": "The ruling as recorded 12:17 ET: Will's exact words and time, 'all four units' restated."
+          },
+          {
+            "id": "plan-at-ruling",
+            "path": "PROME/proposals/2026-10-30_boot-rotation-3-PLAN.md",
+            "commit": "2071ae4e834e6d041e8765f9c6cf682f2e87f385",
+            "locator": "whole file as first written (pre-read draft: § Measurements, § NEW texts N1–N7, § Invariants)",
+            "description": "PROME's implementation plan written after the ruling; its title line repeats Will's verbatim word."
+          },
+          {
+            "id": "plan-final",
+            "path": "PROME/proposals/2026-10-30_boot-rotation-3-PLAN.md",
+            "commit": "cac2da4a45a0999625459723c127bca764e4e9b2",
+            "locator": "§ Plan read (read 1) ❌11a · § FINAL texts as inserted N2 · § Reads · § Declared residue ⚠️1–⚠️5 · Completion (WQ-229) line",
+            "description": "The plan after both cold reads: the NONNEG deviation (executed as a tightened block, not the approved one-pointer line), the result read (0 ❌), declared residue and the four-state completion note."
+          },
+          {
+            "id": "boot-encoded",
+            "path": "PROME/BOOT.md",
+            "commit": "cac2da4a45a0999625459723c127bca764e4e9b2",
+            "locator": "whole file (22,739 B at the result read; § Non-Negotiables, step 3b, step 4b, the ⚡ gate bullet)",
+            "description": "The encoded result. Owner evidence that the approved work landed; PROME is both owner and encoder here."
+          },
+          {
+            "id": "row-encoded",
+            "path": "PROME/WILL_QUEUE.md",
+            "commit": "cac2da4a45a0999625459723c127bca764e4e9b2",
+            "locator": "§ RECENTLY DONE, row 552, the `**ENCODED 12:28 ET:**` sentence and the `⚠️ Deviation from the approved form, declared` sentence",
+            "description": "The legacy row carrying encode state and the declared deviation in the same cell as the ruling."
+          }
+        ],
+        "observations": [
+          {
+            "source_id": "plan-final",
+            "key": "Completion (WQ-229): IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED none",
+            "commit": "cac2da4a45a0999625459723c127bca764e4e9b2",
+            "status": "owner_reports_complete",
+            "evidence": "**Completion (WQ-229):** IMPLEMENTED (this commit) · TESTED (measure.py, read_cap_check rotation_due=0, cmp parity, crc32 ×4 by the move script) · INDEPENDENTLY VERIFIED (read 2, 0 ❌) · STILL UNRESOLVED: none; rotation #3 FINISHED at 69.9% (22,739 B at the read; 22,738 B after the post-read typo fix — `measure.py` is the instrument)."
+          },
+          {
+            "source_id": "boot-encoded",
+            "key": "PROME/BOOT.md @ cac2da4a4",
+            "commit": "cac2da4a45a0999625459723c127bca764e4e9b2",
+            "status": "supporting_artifact",
+            "evidence": "Pinned implementation artifact exists; its behavior was not reverified by CATO."
+          }
+        ],
+        "controls": [],
+        "corrections": [
+          {
+            "source_id": "plan-final",
+            "affected_unit_ids": [
+              "552.ROTATION"
+            ],
+            "summary": "NONNEG component executed as a TIGHTENED Non-Negotiables block keeping every rule, not the approved 'one pointer line': the plan reader (❌11a) showed the pointer form dropped 'No trade execution', the FORGE-never-execution-authority line and the COMPLETION_SPEC carry. Declared in the plan record and the queue row; Will was not re-asked; undo by naming it. This corrects the IMPLEMENTATION description; the ruling (option A, all four components) is unchanged."
+          }
+        ],
+        "snapshot_assessment": "PROME labels this snapshot exact. Exact displayed terms are not established by this comparison; a letter naming a committed option does not prove the full chat display."
+      }
+    ]
+  }
+}
