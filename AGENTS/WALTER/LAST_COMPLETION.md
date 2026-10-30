@@ -8,7 +8,7 @@ Instruction and approval recovery completed. Operational boot PARTIAL, with inde
 
 ## CHANGED
 
-Boot/read/market evidence; REGISTRY owner-header refresh; STATUS and memory session note; this continuity record and SESSION_LOG. Operational packet PROME/inbox/2026-10-29_from-WALTER_codex-startup-access-and-R1-warning.md flags the local sync failure, stale READS and reproduced R1 warning. Notification/consumption UNKNOWN. Exact-path commit and coordinated publication state are recorded below.
+Boot/read/market evidence; REGISTRY owner-header refresh; STATUS and memory session note; this continuity record and SESSION_LOG. Operational packet PROME/inbox/2026-10-29_from-WALTER_codex-startup-access-and-R1-warning.md flags the local sync failure, stale READS and reproduced R1 warning. Notification/consumption UNKNOWN. Startup evidence/packet committed at d478fc4e8715b238603e592818b5f641025832a5; origin state pending at fresh fetch. Routine push deferred; notification and recipient consumption UNKNOWN. Receipt metadata follows in its own exact-path commit.
 
 ## RESULT
 
@@ -106,6 +106,11 @@ Current startup receipt; preceding publication cohort retained and verified sepa
       "commit": "a564289c9",
       "state": "published",
       "note": "Light closeout records."
+    },
+    {
+      "commit": "d478fc4e8715b238603e592818b5f641025832a5",
+      "state": "pending",
+      "note": "Codex startup recovery and operational PROME packet; routine push deferred under WALTER coordinated-push rule. No notification or consumption receipt."
     }
   ],
   "delivery": {
@@ -130,7 +135,7 @@ Current startup receipt; preceding publication cohort retained and verified sepa
   "procedure": {
     "tier": "full",
     "boot": "PARTIAL; instruction and approval recovery complete",
-    "session": "Fresh Will-launched Codex owner; no launches or cross-session sends; publication pending exact-path commit."
+    "session": "Fresh Will-launched Codex owner. Startup artifact committed; routine publication deferred; no cross-session sends. Checkpoint receipt metadata committed separately."
   },
   "manual_duties": {
     "0": "Foreign dirty stop respected; later rebase pull succeeded; no push.",
@@ -142,7 +147,7 @@ Current startup receipt; preceding publication cohort retained and verified sepa
     "13": "Existing registry owner-header refresh only; no grade or roster change.",
     "14": "Standing memory retained; session note refreshed; no auto-memory authored.",
     "root.retirement": "No new retirement-eligible artifact; broad historical retirement review not claimed complete.",
-    "16": "Exact paths only; commit/publication receipt updated after commit. Routine push deferred to Will-coordinated publication."
+    "16": "Startup evidence and PROME packet committed with exact paths. Routine push deferred under BOARD_CONSUMPTION_SPEC section 7. No new market delivery rows or published handoff to reconcile."
   }
 }
 END_CLOSEOUT_RECEIPT -->
