@@ -8,7 +8,7 @@ Instruction and approval recovery completed. Operational boot PARTIAL, with inde
 
 ## CHANGED
 
-Access-recovery evidence and current-state corrections; create-only INFO packet PROME/inbox/2026-10-29_from-WALTER_intake-and-X-access-restored.md supersedes the earlier access-failure report. Tokens remain ignored and local. No tool/spec or collector edit.
+Access-recovery evidence and current-state corrections; create-only INFO packet PROME/inbox/2026-10-29_from-WALTER_intake-and-X-access-restored.md supersedes the earlier access-failure report. Tokens remain ignored and local. No tool/spec or collector edit. Recovery commit 5e93a1240eb648031cca4349a58169f5a2a8812e; routine publication deferred. Light selected checks REVIEW only for the carried R1 warning and ledger nudge; no new route, kill or delivery event exists, so those logs receive no row.
 
 Boot/read/market evidence; REGISTRY owner-header refresh; STATUS and memory session note; this continuity record and SESSION_LOG. Operational packet PROME/inbox/2026-10-29_from-WALTER_codex-startup-access-and-R1-warning.md flags the local sync failure, stale READS and reproduced R1 warning. Notification/consumption UNKNOWN. Startup evidence/packet committed at d478fc4e8715b238603e592818b5f641025832a5; origin state pending at fresh fetch. Routine push deferred; notification and recipient consumption UNKNOWN. Receipt metadata follows in its own exact-path commit.
 
@@ -114,6 +114,11 @@ Current startup receipt; preceding publication cohort retained and verified sepa
       "commit": "d478fc4e8715b238603e592818b5f641025832a5",
       "state": "pending",
       "note": "Codex startup recovery and operational PROME packet; routine push deferred under WALTER coordinated-push rule. No notification or consumption receipt."
+    },
+    {
+      "commit": "5e93a1240eb648031cca4349a58169f5a2a8812e",
+      "state": "pending",
+      "note": "Research-Intake sync and X read-access recovery; no bookmark content review, staging or marks. Routine push deferred."
     }
   ],
   "delivery": {
@@ -154,7 +159,7 @@ Current startup receipt; preceding publication cohort retained and verified sepa
     "13": "Existing registry owner-header refresh only; no grade or roster change.",
     "14": "Standing memory retained; session note refreshed; no auto-memory authored.",
     "root.retirement": "No new retirement-eligible artifact; broad historical retirement review not claimed complete.",
-    "16": "Startup evidence and PROME packet committed with exact paths. Routine push deferred under BOARD_CONSUMPTION_SPEC section 7. No new market delivery rows or published handoff to reconcile.",
+    "16": "Recovery artifacts and PROME INFO packet committed with exact paths; routine push deferred. No dispatch, kill, delivery or publication transition requiring a new ledger row. Final receipt metadata committed separately.",
     "Tier1": "Transport repair only. Affected access state corrected; no fresh-market or family-wide clearance. Light checkpoint; full narrative deferred."
   }
 }

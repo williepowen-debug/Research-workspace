@@ -1,0 +1,13 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "R1 write compliance OWED: R1-WRITE 1 OWED: 1 correction-class signal(s) with NO register row \u00b7 0 row(s) whose targets miss a recipient of the corrected or correcting signal \u00b7 0 unresolvable explicit pointer(s) \u2014 since 2026-10-08 \u00b7 613 BOARD signal(s) scanned \u00b7 56 correction-class (signal_type: correction OR title marker) \u00b7 53 with a register row \u00b7 2 exempt (dispatch_note 'not correction-class') \u00b7 0 without a closed frontmatter block (title-only basis) \u00b7 34 row(s) target-checked against the corrected \u222a correcting recipients, 19 not checkable (no explicit `corrects:` SIG id and no unambiguous filename pointer, or a filen"
+  ],
+  "as_of": "2026-10-30T01:06:55Z",
+  "origin_ref": "1e1ec7244dd905e450040f166c7e23acf4c0ae3e",
+  "delivery_scope": "20261029",
+  "delivered": 173,
+  "total": 173,
+  "next_review": "2026-10-30",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}
