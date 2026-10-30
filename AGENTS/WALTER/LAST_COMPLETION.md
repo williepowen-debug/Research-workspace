@@ -8,7 +8,7 @@ One new primary-source signal SIG-W-20261030-001 from Will's White House link: A
 
 ## CHANGED
 
-BOARD/SIG-W-20261030-001-eo-14421-aug26-bulk-power-security-doe-oct6-faq-datacenter-equipment-not-automatically-exempt-conditional-procurement-risk.md; generated INDEX; one route row; five create-only recipient handoffs/delivery rows (WATT/CYPHER ACTION, VULCAN/ZHAO/HENRY INFO; RED exempt INFO pull); two P0-UNKNOWN doorbell-log rows; primary-review evidence, owned current state and source follow-up. No owner file, grade, band or threshold changed. Routine publication deferred; written/committed/published/delivered/consumed remain separate.
+BOARD/SIG-W-20261030-001-eo-14421-aug26-bulk-power-security-doe-oct6-faq-datacenter-equipment-not-automatically-exempt-conditional-procurement-risk.md; generated INDEX; one route row; five create-only recipient handoffs/delivery rows (WATT/CYPHER ACTION, VULCAN/ZHAO/HENRY INFO; RED exempt INFO pull); two P0-UNKNOWN doorbell-log rows; primary-review evidence, owned current state and source follow-up. No owner file, grade, band or threshold changed. Committed cc29537bc50e6c8555135bea2b32d2e2b4e9deeb. Fresh origin check: publication deferred; five handoffs written, not delivered; recipient consumption unknown.
 
 Zero-new-bookmark scan receipt and pending-stage metadata; no consumed-set change, review attestation or delivery row. No new signal.
 
@@ -82,7 +82,7 @@ Current source-routing receipt; preceding publication cohorts retained and reche
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-30T02:25:44Z",
+  "as_of": "2026-10-30T02:26:31Z",
   "next_review": "2026-10-30",
   "publication": [
     {
@@ -134,6 +134,11 @@ Current source-routing receipt; preceding publication cohorts retained and reche
       "commit": "548e4b6b481ad059d021d90cdb554a9786710eb6",
       "state": "published",
       "note": "Authorized zero-new bookmark check; pending-stage and scan receipt only, no consumed-set change or new delivery. Superseding publication observation 2026-10-30T02:25:44Z: confirmed ancestor of freshly fetched origin/master; consumption not established."
+    },
+    {
+      "commit": "cc29537bc50e6c8555135bea2b32d2e2b4e9deeb",
+      "state": "pending",
+      "note": "EO 14421 signal, five handoffs and full record checkpoint. Fresh origin ancestry confirms pending; coordinated publication deferred, recipient consumption unknown."
     }
   ],
   "delivery": {
@@ -186,7 +191,7 @@ Current source-routing receipt; preceding publication cohorts retained and reche
     "13": "Existing owner-header mirror review before NETWORK AWARENESS; grade/classification unchanged.",
     "14": "Session note refreshed, no new durable rule or auto-memory; dated memory review not due until November 5, under rotation trigger.",
     "root.retirement": "New reviewed artifacts not retirement-eligible. No new qualifying historical deletion; broad historical source-retirement review remains unverified.",
-    "16": "Exact-path local commit pending; no routine self-push. Delivery rows remain written_not_delivered_pending_push until origin proof.",
+    "16": "Exact-path local commit cc29537bc50e6c8555135bea2b32d2e2b4e9deeb; freshly fetched origin confirms pending. No routine self-push; five handoffs written_not_delivered_pending_push, recipient consumption unknown. Receipt metadata follows separately.",
     "Tier1": "Full narrative checkpoint clears two light deferrals. Missing source/perimeter duties remain explicit; full record tier is not market clearance."
   }
 }
