@@ -1,10 +1,10 @@
 # CATO — current continuity
 
-**Updated October 30, 2026; Decisions mockup delivered.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 30, 2026; Will likes the Decisions mockup.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
 
-**Decisions mockup and proposed workflow delivered; await Will's feedback.** [Open preview](prototypes/decisions/index.html) · [workflow and scope](prototypes/decisions/README.md) · [continuing report](runs/2026-10-30_1059_wq-decision-workflow.md#october-30--interactive-mockup-and-workflow). Will approved proceeding with the mockup/workflow; six fictional cases, ten checks at two widths pass, screenshots inspected, local Chrome opening requested successfully. No live submissions or source integration. Desktop/laptop first is an assumption; production contract, delivery/storage and phone access remain unselected. No remaining mockup implementation or automatic audit; existing unrelated approvals survive.
+**Decisions mockup received positive feedback; next build proposed.** [Open preview](prototypes/decisions/index.html) · [workflow and scope](prototypes/decisions/README.md) · [feedback and next step](runs/2026-10-30_1059_wq-decision-workflow.md#october-30--design-feedback-and-next-step). Will said the mockup looks good and asked what comes next. Recommend a read-only view of real WQ records, checking exact terms, independent parts and truthful status before live responses. That build is proposed, not yet assigned by this question. The fictional mockup remains delivered and author-tested; no live integration. Desktop/laptop first remains an assumption; production contract, delivery/storage and phone access are unselected. Existing unrelated approvals survive.
 
 **Research tab implemented and author-tested. Orient and await Will.** [Delivery](runs/2026-10-27_1440_program-opportunities.md#october-29--research-tab-delivery): Will approved the build October 29; CARL/BROCK/LIQUID source reading and literal search use a separate bounded worker. File-service, native Windows/WSL and concurrent fake-launch checks pass. Reopen launcher and use Research; ordinary usefulness and independent acceptance remain unmeasured. No implementation remains, no new study or automatic follow-up.
 
