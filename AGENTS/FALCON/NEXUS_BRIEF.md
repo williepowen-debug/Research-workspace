@@ -1,15 +1,18 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 B 1 / C 14 / D 85 HELD at 10/29 weekly review; Bab gate LIVE (leg 2 NOT MET); Iran's Sinokor action from 11/1 is the next watch.
+**Status:** 🔴 B 1 / C 14 / D 85 HELD (10/29 review; 10/30 grade moved nothing); two unattributed tanker attacks 10/29 near Khasab/Musandam, neither sunk; FAL-07 NOT FIRED.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-10-29 12:20 EDT | STATUS commit: `a091ad187` | Evidence cutoff ~14:05 EDT
+**As of:** 2026-10-30 16:58 EDT | STATUS commit: `fd64b229d` | Evidence cutoff ~16:55 EDT
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
 | BRENT / HAWK / WALTER / PROME | Khasab 10/29 fire RESOLVED: dhow MSV QUBA (MNV 2183) sank ~9 NM N of Khasab after a "security incident" fire, crew evacuated (NAVAREA IX 417/26 own fetch; UKMTO 185-26 relayed). Confirmed losses 5 → 6, class(i) 1 → 2 | P1 | Dhow = ledger row only, no rung, no mark change; NOT one of the IRGC-claimed 3 mine-hit tankers (still claim-only). Cause unattributed |
+| BRENT / HAWK / SAM / PROME | 10/29 hull attacks: LOUISE 1 (Panama Suezmax) two devices attached above the waterline ~25 NM NE Khasab, fire, continued voyage (UKMTO 187-26); RITI (oil tanker, 166k dwt) fire, anchored ~1 NM NW Ra's Tahir, 25 crew evacuated (NAVAREA IX 420/26). Both UNATTRIBUTED. Census stays 6 | P1 | First successful limpet-type attack of the war; no ladder effect (#6 fired 9/5). RITI total loss ⇒ first (iii-A) + EXIT rewrite trigger, no mark move |
+| HAWK / BRENT | Qeshm launcher "US strike" night 10/29–30 rests on one anonymous CENTCOM official; Iran says jet intercepted | P1 | FAL-07 NOT FIRED; would count if CENTCOM/DoD/WH or two wires confirm |
+| BRENT | "Ras Tanura distillation shutdown per Bloomberg" NOT ESTABLISHED (Bloomberg 3/02 merge hazard); Houthi 10/29 Abqaiq claim uncorroborated | P1 | Production rung ARMED, not fired. KB-373/374 |
 | BRENT | PortWatch dropped Sohar's daily series; bypass gauge DEGRADED. Fujairah alone 14d to 10/23 = 77,581 t/d, 90% of base, holding | P2 | No combined bypass verdict until Sohar returns |
 | BRENT / HAWK / PROME | Houthi 10/27 Ras Tanura refinery missile claim: damage and operations UNKNOWN (one anonymous Bloomberg source: terminal-area fire contained; no Saudi/Aramco statement). Own FIRMS read: 10/27 heat inside the site's routine flare range | P1 | Refinery/terminal = OUT-class for the D 85→92 production rung even if confirmed. "Aramco fire contained, 8 injured" relay is a 2016 story |
 | BRENT / HAWK | Iran PGSA: "legal action" against ALL Sinokor vessels from 11/1; ≥7 already actioned. Reuters: ~40% of Sept Hormuz crude outflow | P1 | Hormuz flow already ~1 tanker/day (PortWatch to 10/25) ⇒ no band change possible; a named-hull detention = shipping event; VLCC/freight read is BRENT's |
@@ -25,7 +28,9 @@
 |---|---|---|---|
 | Aramco / MoE | Ras Tanura damage/operations statement or loadings | On statement/data | Separates claim from damage and flow effect |
 | PGSA / Sinokor / Korea | Any named Sinokor hull detained or turned back | From 11/1 | Shipping-vector event; BRENT freight read |
-| UKMTO | 182/183/184+ originals (403 here) | Next recovery | Could add attacks/hulls |
+| UKMTO | 182/183/184+ and 187-26 originals (403 here) | Next recovery | Could add attacks/hulls |
+| NAVAREA IX / IMO | RITI status (sunk / constructive total loss?) | Any day | Total loss = first class (iii-A), EXIT §5 rewrite + memo |
+| CENTCOM / DoD / WH / wires | On-record Qeshm strike confirmation | Any day | FAL-07 CONFIRMED in-session |
 
 ## VIEW
 
