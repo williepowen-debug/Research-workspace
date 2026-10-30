@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated October 29, 2026; ORACLE preset and Research tab delivered.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 29, 2026; laptop launcher verified.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
 
@@ -29,4 +29,4 @@
 
 ## Machine handoff
 
-**October 27 switch check:** CATO's launcher work is complete and published; [handoff evidence](runs/2026-10-26_2115_agent-launcher.md#october-27--machine-switch-closeout) records the verification. The sole remaining dirty path at the check was PROME's `state/argus_review.json`, review bookkeeping excluded from CATO delivery. PROME owns its disposition and publication before a fully clean machine handoff. No CATO implementation remains; orient and await Will. On the destination machine, follow root Git startup rules; local launcher shortcuts/preferences require their machine-local setup.
+**October 29 laptop setup complete:** on `WILLIEPOWEN`, current wrappers verified, matching icon/desktop shortcut installed, native UI checks passed and the actual shortcut opened a visible launcher. [Installation evidence and prior desktop record](runs/2026-10-26_2115_agent-launcher.md#october-29--laptop-installation-and-verification). Desktop installation remains supported by its earlier verification, not a fresh remote check. Groups/history remain machine-local. No CATO setup action remains; orient and await Will. Follow root Git rules before switching machines; current concurrent PROME work is outside CATO delivery.
