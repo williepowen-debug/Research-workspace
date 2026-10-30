@@ -8,10 +8,10 @@
 
 - Wiring ⑰ #5 by 2026-11-20 under rulings (v) denominator, (vi) panel + HANS/HOMER stratum, (vii) stale-cell re-check (`sweeps/WIRING_SWEEP.md` § ⑰ RUN #4).
 - §10 fix batch (14 proposals, `runs/2026-10-30_CHECK_STANDARD_10_RETROACTIVE.md` §2) → Will at PR 11/04.
-- `falsification_scan.py`: read STATUS-embedded kill rails (WAL case) — acceptance first.
+- Falsification #5 done 10/30 (scanner STATUS-rail fix shipped). Owed: scanner label-set proposal (one blueprint label, never prose matching) → PR 11/04; replies from 16 desks.
 
 - Prose-Remedy run #3 (2026-11-20): make step-1 tokens case-insensitive and scope form 2 to step lines, each with a fleet before/after diff.
 - Owner replies owed to DAEDALUS: LABOR, NEXUS, ORACLE, RED (census #2 packets 10/30).
 - WQ-480, L757, surfaces candidate rows, HOMER profile independent read → Production Review 11/04.
 - `corrections_boot_check.py` clean acceptance case (HAWK) re-pick; two docstrings citing held history docs; STATE_VOCABULARY Class 14; CATO launcher files (L852 ⑦).
-- Charter `CLAUDE.md` at 76% of read budget — rotation owed (remove ≥1,850 B to reach <70%).
+- ⚠️ CORRECTED 10/30 13:0x: the gate's C7 "CLAUDE.md 76%" is the ROOT `CLAUDE.md` (24,634 B, boot-read by this desk), not DAEDALUS's charter (20,194 B = 62%). Root canon is PROME's and Will-gated: flagged to PROME, never rotated here. Earlier 10/30 STATUS/commit text called it "own charter" — wrong.

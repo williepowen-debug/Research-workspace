@@ -1,12 +1,12 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-30 12:40 ET — Will-launched session, Claude Code / Opus 5.5: PROME-assigned weekly wake (L490, L875, scorecard, Prose-Remedy #2, inbox) then, on Will's "go ahead" 12:25 ET, Wiring ⑰ #4 + CHECK_STANDARD §10 leg + WAL whole profile.** Prior STATUS (10/28 body) in git at `46d830a92:AGENTS/DAEDALUS/STATUS.md`.
+**Last Updated: 2026-10-30 13:01 ET — Will-launched session, Claude Code / Opus 5.5: PROME-assigned weekly wake (L490, L875, scorecard, Prose-Remedy #2, inbox) then, on Will's "go ahead" 12:25 ET, Wiring ⑰ #4 + CHECK_STANDARD §10 leg + WAL whole profile; on Will's "yes" 12:49 ET, the falsification_scan STATUS-rail fix + Falsification sweep #5.** Prior STATUS (10/28 body) in git at `46d830a92:AGENTS/DAEDALUS/STATUS.md`.
 
 **Current judgment:** the architecture is coherent; the owed set is dated maintenance. Today closed L875 (R1 false positive), rendered the scorecard on time, ran Prose-Remedy #2, Wiring ⑰ #4 with the long-owed §10 self-inclusion leg, and the WAL whole profile. The queue that remains is five whole profiles (BROCK first), the L263 draft review and the Production Review 11/04 (which carries the §10 fix batch). **Recorded grade L4/M retained**; no L5 adjudication. Authority remains own directory + root `scripts/`; other desks require express scope and an idle target.
 
 ## Current work and next actions
 
-1. **Wiring ⑰ #4 RAN 10/30** (1d late; PARTIAL coverage, last_run unchanged; next ⑰ #5 by 2026-11-20 under rulings (v)–(vii)). 6 owner packets out (BROCK, REGINALD, AEOLUS, FALCON, ORACLE, MIDAS). **§10 retroactive leg RAN 10/30**: 12 of 45 violate, 5 exclude self in fact; 14 fixes proposed → Will batch at PR 11/04 (shared-script ones change behaviour). Own tool gap found by the WAL refresh: `falsification_scan.py` does not read STATUS-embedded kill rails (WAL reads CURRENT whatever its stamp does) — fix with acceptance first.
+1. **Wiring ⑰ #4 RAN 10/30** (1d late; PARTIAL coverage, last_run unchanged; next ⑰ #5 by 2026-11-20 under rulings (v)–(vii)). 6 owner packets out (BROCK, REGINALD, AEOLUS, FALCON, ORACLE, MIDAS). **§10 retroactive leg RAN 10/30**: 12 of 45 violate, 5 exclude self in fact; 14 fixes proposed → Will batch at PR 11/04 (shared-script ones change behaviour). `falsification_scan.py` STATUS-rail gap FIXED 10/30 (AC1–AC6, fleet diff 3 rows added / 0 changed; not independently verified). **Falsification #5 COMPLETE 10/30**: 3 real of 8 flags, over-flag 62.5% from the scanner's label set (blueprint-label proposal → PR 11/04), 16 owner packets, missing-instrument rows 17 → 9.
 2. **Profile queue (RESOLVE_BY re-dated 2026-11-07; the 10/15 miss stands on the row):** BROCK → CREED → REGINALD → FALCON → MIDAS. WAL done 2026-10-30 (`runs/2026-10-30_WAL_REFRESH.md`; L4/M, L3 dated-falsification PASS; owner + PROME packets; 🔴 frame gap Will-gated before the 10-Q files). HOMER done 2026-10-28 (`runs/2026-10-28_HOMER_REFRESH.md`, L3/H; no independent final reader yet — owed before the next Production Review). No CREED owner launch without Will.
 3. **YUR-F01 RULED (Will 21:51 ET, verbatim "I dont think I want to retire Yuri yet"):** option A declined; MISS stands; option-B re-test packeted (YUR-F02, resolve_by 2026-11-28, DAEDALUS grades; YURI registers; PROME dockets). If Will prefers C the row is dropped. `runs/2026-10-28_YURF01_GRADE.md` § RULING.
 4. **Harness Audit clock** stays 2026-07-07 until the WQ-508 batch is applied: TERRY 5 applied / 2 KEEP / B44+D17 to 11/06; WALTER's own lines; PROME L817 (A-B01 counterexample read owed by DAEDALUS when PROME sends the record).
@@ -26,6 +26,7 @@
 | HOMER profile pointers | 6 paths repo-prefixed | `profiles/HOMER.md` |
 | Inbox | 7/7 dispositioned and filed | `runs/2026-10-30_INBOX_DISPOSITIONS.md` |
 | Wiring ⑰ #4 + §10 leg | treatment 5 DONE/1 PARTIAL/1 DECLINED of the 10/8 asks; (b) flat; MIDAS regression verified; §10 12/45 | `runs/2026-10-30_WIRING_SWEEP_17_RUN4.md`, `runs/2026-10-30_CHECK_STANDARD_10_RETROACTIVE.md` |
+| Scanner fix + Falsification #5 | STATUS rails read (WAL, REGINALD, FERT); 8 flags → 3 real; 16 packets | `design/2026-10-30_FALSIFICATION_SCAN_STATUS_RAIL.md`, `runs/2026-10-30_FALSIFICATION_SWEEP_05.md` |
 | WAL whole profile | 7 of 8 old gaps closed; 🔴 10-Q frame has no B′ letter (verified; Will decides via PROME before EDGAR) | `profiles/WAL.md`, `runs/2026-10-30_WAL_REFRESH.md` |
 
 ## Delivered work and remaining owner dependencies
@@ -66,7 +67,7 @@
 
 ## BOTTOM LINE — 2026-10-30
 
-**WORK:** PROME's assignment done (L875 fixed and PROME-verified; L490/L263 PARTIAL re-dated 11/06; L40 resolved; L526 waits on the Friday run); scorecard on time; Prose-Remedy #2, Wiring ⑰ #4 + §10 leg and the WAL whole profile complete. Session stopping at closeout.
+**WORK:** Falsification #5 complete with the scanner fixed first; PROME's assignment done (L875 fixed and PROME-verified; L490/L263 PARTIAL re-dated 11/06; L40 resolved; L526 waits on the Friday run); scorecard on time; Prose-Remedy #2, Wiring ⑰ #4 + §10 leg and the WAL whole profile complete. Session stopping at closeout.
 **CHECKS:** L875 independently verified by PROME; census, ⑰ #4, §10 and WAL rows read by non-owner Opus readers with DAEDALUS spot-checks at the artifacts (each named in its record); ⑰ #4 had no second calibration reader. Closeout battery results in `runs/GATE_LOG.tsv`.
 **DELIVERY:** commits pushed (receipt in the closeout lines); memos 107f00b4f (consumed by PROME b81ded67d), Census #2 (b4dd6e0b3) and the Wiring/WAL/§10 memo; 11 owner packets. Notification ≠ consumption for everything after memo 1.
-**OPEN:** WQ-553 (Will) on the WAL re-score gap before the 10-Q reaches EDGAR — PROME consumed memo 3 and registered it with L881/L882; owner replies (LABOR, NEXUS, ORACLE, RED, BROCK, REGINALD, AEOLUS, FALCON, MIDAS, WAL); BROCK profile next; PR 11/04; L263; charter rotation (76%).
+**OPEN:** WQ-553 (Will) on the WAL re-score gap before the 10-Q reaches EDGAR — PROME consumed memo 3 and registered it with L881/L882; owner replies (LABOR, NEXUS, ORACLE, RED, BROCK, REGINALD, AEOLUS, FALCON, MIDAS, WAL); BROCK profile next; PR 11/04; L263; root `CLAUDE.md` at 76% of the read budget (PROME's, Will-gated; flagged — earlier 10/30 text wrongly called it DAEDALUS's own charter, which is 62%).

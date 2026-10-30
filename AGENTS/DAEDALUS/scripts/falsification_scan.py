@@ -407,7 +407,41 @@ def scan_agent(name, group):
                          cited=f"v{cited[0]}.{cited[1]}" if cited else "-",
                          live_ver=(f"v{ver[0]}.{ver[1]}" if ver else
                                    ("thesis-BANNERED" if tbannered else "-")), why=why))
+    rows.extend(status_rails(name, group, agent_dir, sdate, ver, tbannered))
     return rows, (ver, tdate, sdate, tbannered)
+
+
+def status_rails(name, group, agent_dir, sdate, ver, tbannered):
+    """2026-10-30 (WAL profile refresh, reader R2 O2; design/2026-10-30_FALSIFICATION_SCAN_STATUS_RAIL.md):
+    STATUS.md is this scan's reference clock, never a surface, so a kill rail written INSIDE it had no
+    mechanical reader — WAL read CURRENT off its CHANGELOG whatever its STATUS rail stamp did, and
+    REGINALD (thesis dead-bannered, live rail in STATUS) was graded on a CHANGELOG and a FROZEN file.
+    Recognised ONLY by the labelled stamp (never prose), anywhere in the file (WAL's sits at :90,
+    far below HEADER_LINES); one row per occurrence, graded against the STATUS clock."""
+    p = agent_dir / "STATUS.md"
+    body = read(p)
+    out = []
+    for i, ln in enumerate(body.splitlines(), 1):
+        m = IN_THESIS_RAIL.search(ln)
+        if not m:
+            continue
+        stamp = newest(m.group(0))
+        age = (sdate - stamp).days if (stamp and sdate) else None
+        if group == "DORMANT":
+            verdict, why = "DORMANT-SKIP", "dormant agent: surface may lag legitimately (check the dormant book's own clock)"
+        elif stamp is None:
+            verdict, why = "UNSTAMPED", "labelled rail stamp did not parse as a date"
+        elif age is None:
+            verdict, why = "CURRENT", f"stamp {stamp} — ⚠ STATUS has no parseable date, age not computed"
+        elif age > STALE_DAYS:
+            verdict, why = "STALE-FLAGGED", f"rail stamp {stamp} is {age}d behind its own STATUS {sdate} (threshold {STALE_DAYS}d)"
+        else:
+            verdict, why = "CURRENT", f"stamp {stamp}, {age}d behind its own STATUS"
+        out.append(dict(agent=name, group=group, surface=f"STATUS.md:{i}", cls="kill rail (in-STATUS)",
+                        verdict=verdict, stamp=stamp, live_ref=sdate, age=age, cited="-",
+                        live_ver=(f"v{ver[0]}.{ver[1]}" if ver else
+                                  ("thesis-BANNERED" if tbannered else "-")), why=why))
+    return out
 
 
 ORDER = {"STALE-FLAGGED": 0, "UNSTAMPED": 1, "CURRENT": 2, "FROZEN-OK": 3,

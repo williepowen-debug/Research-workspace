@@ -1,0 +1,45 @@
+Agent	Group	Surface	Class	Verdict	Stamp	LiveRef	AgeDays	CitedVer	LiveVer	Why
+CORAL	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	STALE-FLAGGED	2026-09-28	2026-10-29	31	-	v1.1	stamp 2026-09-28 is 31d behind live ref 2026-10-29 (threshold 21d) — vintage = NEWEST ENTRY (append-only surface)
+FALCON	ACTIVE	workbook/EXIT_PROTOCOL.md	thesis/validation	STALE-FLAGGED	2026-10-01	2026-10-29	28	-	v3.0	stamp 2026-10-01 is 28d behind live ref 2026-10-29 (threshold 21d) — ⚠ header also carries 2026-10-26, 25d newer than its own stamp: check which one describes the surface
+FERT	ACTIVE	STATUS.md:86	kill rail (in-STATUS)	STALE-FLAGGED	2026-08-17	2026-10-28	72	-	-	rail stamp 2026-08-17 is 72d behind its own STATUS 2026-10-28 (threshold 21d)
+FERT	ACTIVE	workbook/EXIT_PROTOCOL.md	thesis/validation	STALE-FLAGGED	2026-08-17	2026-10-28	72	-	-	stamp 2026-08-17 is 72d behind live ref 2026-10-28 (threshold 21d) — ⚠ header also carries 2026-10-09, 53d newer than its own stamp: check which one describes the surface
+HANS	TIER-2	thesis/KILL_TREE.md	kill tree/memo	STALE-FLAGGED	2026-08-28	2026-10-29	62	-	-	stamp 2026-08-28 is 62d behind live ref 2026-10-29 (threshold 21d) — ⚠ header also carries 2026-10-29, 62d newer than its own stamp: check which one describes the surface
+LIQUID	ACTIVE	workbook/KILL_MEMO_HY_OAS_260.md	kill tree/memo	STALE-FLAGGED	2026-05-18	2026-10-30	165	-	v2.0	stamp 2026-05-18 is 165d behind live ref 2026-10-30 (threshold 21d) — ⚠ header also carries 2026-10-19, 154d newer than its own stamp: check which one describes the surface
+VIOLET	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	STALE-FLAGGED	2026-09-17	2026-10-29	42	v4.1	-	stamp 2026-09-17 is 42d behind live ref 2026-10-29 (threshold 21d) — vintage = NEWEST ENTRY (append-only surface) — ⚠ header also carries 2026-10-14, 27d newer than its own stamp: check which one describes the surface
+WATT	ACTIVE	KILL_MEMO.md	kill tree/memo	STALE-FLAGGED	2026-09-17	2026-10-29	42	-	-	stamp 2026-09-17 is 42d behind live ref 2026-10-29 (threshold 21d)
+BOND	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-29	2026-10-29	0	v1.2	v1.2	logged v1.2 = the LIVE thesis version, so no entry is owed; the 0d age measures how long the THESIS has been stable, not the log — vintage = NEWEST ENTRY (append-only surface)
+BRENT	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-28	2026-10-29	1	v5.13	v5.13	logged v5.13 = the LIVE thesis version, so no entry is owed; the 1d age measures how long the THESIS has been stable, not the log — vintage = NEWEST ENTRY (append-only surface)
+CARL	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-29	2026-10-29	0	-	v2.6	stamp 2026-10-29, 0d behind ref — vintage = NEWEST ENTRY (append-only surface)
+CREED	TIER-2	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-28	2026-10-30	2	-	-	stamp 2026-10-28, 2d behind ref — vintage = NEWEST ENTRY (append-only surface)
+CYPHER	TIER-2	workbook/EXIT_PROTOCOL.md	thesis/validation	CURRENT	2026-10-22	2026-10-30	8	-	-	stamp 2026-10-22, 8d behind ref
+FALCON	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-29	2026-10-29	0	v3.0	v3.0	logged v3.0 = the LIVE thesis version, so no entry is owed; the 0d age measures how long the THESIS has been stable, not the log — vintage = NEWEST ENTRY (append-only surface)
+FLG	ACTIVE	workbook/EXIT_PROTOCOL.md	thesis/validation	CURRENT	2026-10-22	2026-10-28	6	v1.0	v1.0	stamp 2026-10-22, 6d behind ref
+GIBBS	TIER-2	workbook/EXIT_PROTOCOL.md	thesis/validation	CURRENT	2026-10-21	2026-10-23	2	-	-	stamp 2026-10-21, 2d behind ref
+HAWK	ACTIVE	thesis/FALSIFICATION.md	falsification/conviction	CURRENT	2026-10-25	2026-10-29	4	-	thesis-BANNERED	stamp 2026-10-25, 4d behind ref
+HOMER	ACTIVE	thesis/THESIS.md	kill rail (in-thesis)	CURRENT	2026-10-15	2026-10-29	14	-	-	stamp 2026-10-15, 14d behind ref
+ISHM	TIER-2	workbook/EXIT_PROTOCOL.md	thesis/validation	CURRENT	2026-10-26	2026-10-26	0	-	-	stamp 2026-10-26, 0d behind ref
+LIQUID	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-08-28	2026-10-30	63	v2.0	v2.0	logged v2.0 = the LIVE thesis version, so no entry is owed; the 63d age measures how long the THESIS has been stable, not the log — vintage = NEWEST ENTRY (append-only surface)
+MARCO	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-09-24	2026-10-29	35	v3.2	v3.2	logged v3.2 = the LIVE thesis version, so no entry is owed; the 35d age measures how long the THESIS has been stable, not the log — vintage = NEWEST ENTRY (append-only surface)
+OTTO	TIER-2	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-28	2026-10-30	2	v1.6	v1.5	stamp 2026-10-28, 2d behind ref — vintage = NEWEST ENTRY (append-only surface)
+OZK	ACTIVE	CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-28	2026-10-30	2	v1.7	v1.7	logged v1.7 = the LIVE thesis version, so no entry is owed; the 2d age measures how long the THESIS has been stable, not the log — vintage = NEWEST ENTRY (append-only surface)
+RED	ACTIVE	registry/FALSIFICATION_TRIGGERS_SCAN.tsv	falsification/conviction	CURRENT	2026-10-28	2026-10-28	0	v1.1	-	stamp 2026-10-28, 0d behind ref — vintage = NEWEST ENTRY (append-only surface)
+RED	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-28	2026-10-28	0	-	-	stamp 2026-10-28, 0d behind ref — vintage = NEWEST ENTRY (append-only surface)
+REGINALD	ACTIVE	STATUS.md:87	kill rail (in-STATUS)	CURRENT	2026-10-22	2026-10-30	8	-	thesis-BANNERED	stamp 2026-10-22, 8d behind its own STATUS
+REGINALD	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-12	2026-10-30	18	-	thesis-BANNERED	stamp 2026-10-12, 18d behind ref — vintage = NEWEST ENTRY (append-only surface)
+SAM	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-29	2026-10-30	1	v1.7	v1.7	logged v1.7 = the LIVE thesis version, so no entry is owed; the 1d age measures how long the THESIS has been stable, not the log — vintage = NEWEST ENTRY (append-only surface)
+VULCAN	ACTIVE	workbook/EXIT_PROTOCOL.md	thesis/validation	CURRENT	2026-10-30	2026-10-30	0	-	-	stamp 2026-10-30, 0d behind ref — ⚠ stamp INFERRED (no labelled freshness claim in header; may be an event date)
+WAL	ACTIVE	CHANGELOG.md	changelog/pivot log	CURRENT	2026-10-22	2026-10-30	8	v2.4	v2.4	logged v2.4 = the LIVE thesis version, so no entry is owed; the 8d age measures how long the THESIS has been stable, not the log — vintage = NEWEST ENTRY (append-only surface)
+WAL	ACTIVE	STATUS.md:90	kill rail (in-STATUS)	CURRENT	2026-10-22	2026-10-30	8	-	v2.4	stamp 2026-10-22, 8d behind its own STATUS
+WALTER	ACTIVE	filtered/kill_log.tsv	kill tree/memo	CURRENT	2026-10-29	2026-10-30	1	-	-	stamp 2026-10-29, 1d behind ref — vintage = NEWEST ENTRY (append-only surface)
+HAWK	ACTIVE	thesis/CHANGELOG.md	changelog/pivot log	FROZEN-OK	2026-04-20	2026-10-29	192	v1.0	thesis-BANNERED	dead-state banner in header — deliberately frozen, not rot — ⚠ header also carries 2026-07-12, 83d newer than its own stamp: check which one describes the surface
+HAWK	ACTIVE	workbook/EXIT_PROTOCOL.md	thesis/validation	FROZEN-OK	2026-08-10	2026-10-29	80	-	thesis-BANNERED	dead-state banner in header — deliberately frozen, not rot
+HENRY	ACTIVE	workbook/THESIS_VALIDATION.md	thesis/validation	FROZEN-OK	2026-06-23	2026-10-29	128	-	-	dead-state banner in header — deliberately frozen, not rot — ⚠ header also carries 2026-08-06, 44d newer than its own stamp: check which one describes the surface
+RED	ACTIVE	registry/FALSIFICATION_TRIGGERS.tsv	falsification/conviction	FROZEN-OK	2026-10-28	2026-10-28	0	v1.1	-	dead-state banner in header — deliberately frozen, not rot
+REGINALD	ACTIVE	workbook/THESIS_VALIDATION.md	thesis/validation	FROZEN-OK	2026-03-05	2026-10-30	239	-	thesis-BANNERED	dead-state banner in header — deliberately frozen, not rot — ⚠ header also carries 2026-07-10, 127d newer than its own stamp: check which one describes the surface
+SAM	ACTIVE	red/COUNTER_THESIS.md	thesis/validation	FROZEN-OK	2026-08-17	2026-10-30	74	v1.6	v1.7	dead-state banner in header — deliberately frozen, not rot
+WALTER	ACTIVE	registry/FALSIFICATION_FIRED_LOG.tsv	falsification/conviction	EVENT-LOG	2026-10-25	2026-10-30	5	-	-	fills only when a trigger fires (last entry 2026-10-25) — age measures the WORLD, not the surface; not a staleness signal. Whether nothing SHOULD have fired is a domain question for the owner, not this sweep
+SENTRY	DORMANT	CHANGELOG.md	changelog/pivot log	DORMANT-SKIP	2026-05-09	2026-09-24	138	v0.6	-	dormant agent: surface may lag legitimately (check the dormant book's own clock) — ⚠ header also carries 2026-06-06, 28d newer than its own stamp: check which one describes the surface
+# NO-RAIL (3): AEOLUS, MIDAS, OSPREY — thesis w/o separate rail, candidate findings
+# NO-THESIS (8): BARON, CATO, DAEDALUS, DEWEY, NEXUS, ORACLE, RAV, TERRY — falsification n/a (utility/meta)
+# BANNERED-THESIS (2): HAWK, REGINALD — graded on STATUS clock
+# NO-CLOCK (4): BARON, CATO, DEWEY, RAV — age comparisons unavailable
