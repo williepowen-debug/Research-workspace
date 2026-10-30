@@ -34,3 +34,4 @@ Per row: `PROSE-REMEDY (<sessions carried>)` · `DIAGNOSIS-ONLY` · `BUILT` · `
 |---|---|---|---|---|---|
 | #0 | 2026-09-04 | VIOLET only (owner self-run, the founding evidence) | 5 typed, 1 premise-wrong on external review | — | `AGENTS/VIOLET/workbook/KB.tsv` KB-VIO-240, KB-VIO-242 |
 | #1 | 2026-10-08 (13d late) | 41 charters (DAEDALUS incl.; RAV no surfaces; CATO out by ruling) | 26 rows / 22 distinct / 17 desks (7 LOW line caps); 19 BUILT-stale; FALSE 42%; VIOLET control 5/5 BUILT | one consolidated packet per desk; ordering rule (7 desks) HELD for a shared DAEDALUS check | `runs/2026-10-08_PROSE_REMEDY_CENSUS_01.md` |
+| #2 | 2026-10-30 (1d late) | 38 desks with candidates (ROSTER ACTIVE + TIER-2 + SPECIAL; DAEDALUS incl.) | 25 distinct / 32 rows (15 LOW line caps); 44 BUILT; FALSE 48%; ordering class closed | LABOR · NEXUS · ORACLE · RED; line caps → one PROME note; PROME L730 cited; SAM gated | `runs/2026-10-30_PROSE_REMEDY_CENSUS_02.md` |

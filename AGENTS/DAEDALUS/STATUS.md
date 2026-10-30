@@ -1,31 +1,30 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-28 21:56 ET — catch-up session (Will-launched, Claude Code / Fable 5.1): overdue grades, sweeps and the HOMER profile.** Prior STATUS (2026-10-24 body) preserved in git at `0d769a634:AGENTS/DAEDALUS/STATUS.md`; the 10/23 pre-sweep copy stays at `archive/STATUS_2026-10-23_before_sweep.md` (crc32 300895856).
+**Last Updated: 2026-10-30 11:43 ET — PROME-assigned weekly wake (prome-c5 by cross-session message; Will-launched session, Claude Code / Opus 5.5): L490 owed set, L875 tool fix, scorecard, Prose-Remedy #2, inbox drain.** Prior STATUS (10/28 body) in git at `46d830a92:AGENTS/DAEDALUS/STATUS.md`.
 
-**Current judgment:** the architecture is coherent and the owed set is now mostly dated maintenance, not design debt. This session cleared the two overdue grades, two overdue sweeps, the late scorecard, the 10/25 retirement checkpoint and one of the six remaining whole profiles; the queue that remains is profile capacity (five desks plus REGINALD) and two sweeps due tomorrow. **Recorded grade L4/M retained**, self-row re-cut 2026-10-28; no L5 adjudication. Authority remains own directory + root `scripts/`; other desks require express scope and an idle target.
+**Current judgment:** the architecture is coherent; the owed set is dated maintenance. Today closed L875 (R1 false positive), rendered the scorecard on time, ran Prose-Remedy #2 and drained the inbox. The queue that remains is five whole profiles + REGINALD, Wiring ⑰ #4 (re-dated 11/06), the L263 draft review and the Production Review 11/04. **Recorded grade L4/M retained**; no L5 adjudication. Authority remains own directory + root `scripts/`; other desks require express scope and an idle target.
 
 ## Current work and next actions
 
-1. **Due 2026-10-29:** Wiring Sweep ⑰ #4 and Prose-Remedy Census #2 (`sweeps/REGISTRY.tsv` resolve_by rows). CHECK_STANDARD §10's retroactive self-inclusion leg is re-registered to ⑰ #4 (no record of it in the 8/28 run).
+1. **Wiring Sweep ⑰ #4 RE-DATED 2026-10-29 → 2026-11-06** (not run; miss kept on the registry row). CHECK_STANDARD §10's retroactive self-inclusion leg rides it. Prose-Remedy #2 DONE 10/30.
 2. **Profile queue (RESOLVE_BY re-dated 2026-11-07; the 10/15 miss stands on the row):** WAL → BROCK → CREED → REGINALD → FALCON → MIDAS. HOMER done 2026-10-28 (`runs/2026-10-28_HOMER_REFRESH.md`, L3/H; no independent final reader yet — owed before the next Production Review). No CREED owner launch without Will.
 3. **YUR-F01 RULED (Will 21:51 ET, verbatim "I dont think I want to retire Yuri yet"):** option A declined; MISS stands; option-B re-test packeted (YUR-F02, resolve_by 2026-11-28, DAEDALUS grades; YURI registers; PROME dockets). If Will prefers C the row is dropped. `runs/2026-10-28_YURF01_GRADE.md` § RULING.
 4. **Harness Audit clock** stays 2026-07-07 until the WQ-508 batch is applied: TERRY 5 applied / 2 KEEP / B44+D17 to 11/06; WALTER's own lines; PROME L817 (A-B01 counterexample read owed by DAEDALUS when PROME sends the record).
-5. **Own tool residue:** `corrections_boot_check.py` names HAWK as its clean acceptance case and HAWK now returns rc 1 — re-pick; `ledger_staleness.py` reads a `PRIOR HEADER VERBATIM` clock as a second data clock (HOMER's six ledgers, safe direction) — decide which side moves; two script docstrings cite history docs held from retirement (`2026-08-11_STALENESS_CADENCE_PROPOSAL.md`, `LABOR_QC_2026-07-22.md`) — re-point at the next edit; register the CATO launcher files in `scripts/` at the next check-registry pass unless PROME claims them.
+5. **Own tool residue:** L875 DONE 10/30 (title marker bounded; not independently verified). `corrections_boot_check.py` names HAWK as its clean acceptance case and HAWK now returns rc 1 — re-pick; `ledger_staleness.py` reads a `PRIOR HEADER VERBATIM` clock as a second data clock (HOMER's six ledgers, safe direction) — decide which side moves; two script docstrings cite history docs held from retirement (`2026-08-11_STALENESS_CADENCE_PROPOSAL.md`, `LABOR_QC_2026-07-22.md`) — re-point at the next edit; register the CATO launcher files in `scripts/` at the next check-registry pass unless PROME claims them.
 6. **Next Production Review (14d cadence from 10/21 → 2026-11-04):** carry WQ-480 (NEXUS charter over cap, cites D:L470), L757 firetime false-positive classes, the surfaces candidate rows (14, none added), and the HOMER profile independent read.
+7. **DOCKET rows on this board (gate B5):** **L852** (11/03, PROME disposes DAEDALUS's 10/28 asks ① ③ ⑤ ⑥ ⑦ ⑧; DAEDALUS answers ⑦ ownership when PROME asks) · **L854** (11/28, YUR-F02 grade; YURI registers first) · **L869** (next PROME process pass: TSV two-clock stamp vs parser — DAEDALUS applies the chosen convention to `asmade_audit.py` / `ledger_staleness.py` after PROME decides it) · **L872** (next PROME process pass: `orch_log.py` writer-side closeout_v1 refusal — DAEDALUS builds if PROME assigns the writer class; acceptance first) · **L875** DONE 10/30 · **L490** PARTIAL (memo 107f00b4f) · **L526** waits on Fri 20:15Z run (AC4 restatement drafted) · **L263** PARTIAL (draft review owed; next session after Wiring) · **L40** ANSWERED 10/28.
+8. **Prose-Remedy #2 follow-ups:** step-1 recall fix (case-insensitive tokens, `prose_remedy_candidates.py` V1/V2) + form-2 scope narrowing, both with a fleet before/after diff at run #3 (2026-11-20). Owner replies awaited: LABOR, NEXUS, ORACLE, RED.
 
 ## Done this session (evidence)
 
 | Item | Result | Record |
 |---|---|---|
-| DOCKET **L40** amendment-12 discriminator | HOLDS on its letter (1 format amendment, 0 non-format, verified at 8 commits); NEXUS paraphrase MISSED (already graded by NEXUS); untestable after the 9/1 cap. PROME writes back; row slated to Will | `runs/2026-10-28_L40_AMENDMENT12_GRADE.md` |
-| **YUR-F01** (due 10/24) | MISS, 0 of 3 on a complete perimeter; zero-call branch ⇒ retire / re-merge proposal with impact table; YURI ledger cell text packeted | `runs/2026-10-28_YURF01_GRADE.md`; packets to YURI and PROME |
-| Scorecard window 10/17–23 (**L239**, due 10/23) | rendered +5d; basis HEAD c6d77fc1f pinned; registry last_run 10/28, next 10/30 | `scorecards/2026-10-23.md`, `runs/2026-10-28_SCORECARD_2026-10-23_DELIVERY.md` |
-| ISHM · CYPHER · HOMER rows | ISHM L0→L2/M; CYPHER refreshed (22/40 raw); HOMER L3/M→L3/H; directory regenerated 10/28 | `FLEET_MAP.tsv`, `FLEET_MAP_HISTORY.tsv`, `FLEET_DIRECTORY.md` |
-| Surfaces-currency sweep (+13d) | 12 of 13 rows stale, all re-cut; 🔴 PROME heartbeat guard blind (verified at the regexes) routed | `runs/2026-10-28_SURFACES_CURRENCY_READER.md`, `SURFACES.tsv` |
-| Shared-guard-standard (+9d) | 11 defects fixed in two standards, 2 deferred; EVOLUTION 2026-10-28 (a) | `runs/2026-10-28_SHARED_GUARD_STANDARD_READER.md` |
-| Doc-retirement checkpoint (10/25, +3d) | 12 history docs moved, 4 held with reasons | `archive/retired_2026-10-28/README.md` |
-| Tool fixes (scripts/ grant, both directions watched) | `claim_check.py` SKIPPED reporting + rc 2 on all-skipped (selftest 42/42); `asmade_audit.py` H2 re-spec (pre-ledger surfaces, own-ledger selection); `falsification_scan.py` in-thesis kill rail | `CHECKS.tsv` row; `sweeps/REGISTRY.tsv` H2 row |
-| Inbox | 4 packets dispositioned and filed (TERRY ×2 receipt, CYPHER refresh applied, NEXUS L40 graded); top level empty at closeout | `inbox/processed/` |
+| **L875** R1 title-marker false positive | FIXED: letters-bounded marker + inflection list; selftest 68/68; live R1-WRITE OWED 1 → OK 0; BOARD matches 122 → 119 (3 money-vocabulary dropped, 0 added); 10/8 correcting signals still match. Not independently verified | `CHECKS.tsv` row; commit d3cd891d4 |
+| **L490** owed set | 5 DONE · 3 PARTIAL, all dated; memo to PROME | `PROME/inbox/2026-10-30_from-DAEDALUS_L490-weekly-wake.md` (107f00b4f) |
+| Scorecard Oct 24–30 (**L239**) | ON TIME 11:29 at c1ad5137f; partial last day noted | `runs/2026-10-30_SCORECARD_2026-10-30_DELIVERY.md` |
+| Prose-Remedy Census #2 | 165 read; 25 distinct remedies (15 LOW); 4 owner packets | `runs/2026-10-30_PROSE_REMEDY_CENSUS_02.md` |
+| HOMER profile pointers | 6 paths repo-prefixed | `profiles/HOMER.md` |
+| Inbox | 7/7 dispositioned and filed | `runs/2026-10-30_INBOX_DISPOSITIONS.md` |
 
 ## Delivered work and remaining owner dependencies
 
@@ -63,9 +62,9 @@
 - Informed-only: **L473/L504/L557/L561/L562/L581/L646/L735/L737**. NEXUS blind commission #2 scheduling is PROME's. CREED WQ-100, OSPREY Channel 3, NEXUS rotation, HANS rotation remain owner watches. WQ-374 helper/registrar proposal DEFERRED. **L285** ladder N/A encoded; **L593** done; **L658** resolved.
 - **Concurrency note:** PROME, RED, NEXUS, CARL, LABOR, STUE, WALTER and ORACLE all committed during this session (HEAD moved f9a497d95 → 2c47cae31); HOMER and YURI were idle (verified by git log) when their inbox packets were written. `AGENTS/CARL/sub_agents/DOC/CLAUDE.md` is dirty and foreign at closeout — not touched, flagged here.
 
-## BOTTOM LINE — 2026-10-28
+## BOTTOM LINE — 2026-10-30
 
-**WORK:** overdue set reduced from nine items to three (five profiles + REGINALD; two sweeps due 10/29; Harness clock on owners). L40 and YUR-F01 graded; HOMER profile rebuilt (L3/H); surfaces-currency and shared-guard-standard serviced and applied; scorecard rendered; 12 docs retired; three tools repaired with both directions watched. Session stopped at closeout.
-**CHECKS:** gate boot rc 0 with 1 DUE (cleared in part); closeout battery results in `runs/GATE_LOG.tsv` and the commit — stopping grants no clearance. No independent reader on the HOMER profile; the YUR-F01 count is reproducible by the greps in its record.
-**DELIVERY:** own artifacts saved and committed by exact pathspec; packets to HOMER, YURI and PROME written (carve-out ①); publication receipt in the commit/push lines; no consumption claimed.
-**OPEN:** YUR-F02 registration (YURI) and docket row (PROME) after Will declined retirement 21:51 ET; PROME's heartbeat-guard repair, HOMER wake row, L40/L565 write-backs; six profiles; Wiring ⑰ #4 and Prose-Remedy #2 tomorrow. No unrelated inbox arrivals at the final check.
+**WORK:** PROME's five-item assignment done or graded: L875 fixed, L490 graded (5 DONE / 3 PARTIAL), L526 waits on today's 20:15Z run, L263 PARTIAL, L40 ANSWERED; scorecard on time; Prose-Remedy #2 complete (165 rows, 2 readers); inbox drained. Wiring ⑰ #4 re-dated 11/06. Session stopping at closeout.
+**CHECKS:** gate boot rc 0 (DUE items listed in `runs/GATE_LOG.tsv`); L875 selftest 68/68 and live run watched both directions; no independent reader on L875 or on the census synthesis (two non-owner classifiers did the row reads). Closeout battery results in the gate log.
+**DELIVERY:** commits d3cd891d4 (work) and 107f00b4f (PROME memo) plus the closeout commit; SendMessage to prome-c5 accepted (notification only, no consumption claimed); push receipt in the closeout lines.
+**OPEN:** second memo to PROME (Prose-Remedy #2 + line-cap fleet note); owner replies LABOR/NEXUS/ORACLE/RED; L526 AC4 after the Friday run; profiles from WAL; Production Review 11/04; L263 review.
