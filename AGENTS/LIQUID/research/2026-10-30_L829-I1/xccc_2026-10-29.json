@@ -1,0 +1,1281 @@
+{
+ "source": "https://bondbloxxetf.com/bondbloxx-ccc-rated-usd-high-yield-corporate-bond-etf/",
+ "retrieved": "2026-10-30 09:06 ET (curl, browser UA, HTTP 200)",
+ "holdings_as_of": "2026-10-29",
+ "n_securities": 178,
+ "issuer_breakdowns": [
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.19740000000000002,
+   "basket_metric": "Consumer Cyclical",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 0,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.17020000000000002,
+   "basket_metric": "Communications",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 1,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.1274,
+   "basket_metric": "Capital Goods",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 2,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.08680000000000002,
+   "basket_metric": "Basic Industry",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 3,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.08260000000000002,
+   "basket_metric": "Insurance",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 4,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.07819999999999999,
+   "basket_metric": "Healthcare",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 5,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.07709999999999999,
+   "basket_metric": "Technology",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 6,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.04139999999999999,
+   "basket_metric": "Brokerages, Asset Managers, Exchanges",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 7,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0352,
+   "basket_metric": "Consumer Non Cyclical",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 8,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.025300000000000003,
+   "basket_metric": "Reits",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 9,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0252,
+   "basket_metric": "Energy",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 10,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0176,
+   "basket_metric": "Industrial Other",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 11,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.012400000000000001,
+   "basket_metric": "Transportation",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 12,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0088,
+   "basket_metric": "Cash and Equivalents",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 13,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0071,
+   "basket_metric": "Finance Companies",
+   "metric_type": "sector_exposure_breakdown",
+   "numeric_rank": 14,
+   "ticker": "XCCC"
+  }
+ ],
+ "holdings": [
+  {
+   "security_name": "ATHENAHEALTH GRO 6.5% 02/15/30",
+   "cusip": "60337JAA4",
+   "weight": 0.0206,
+   "market_value": 4171929.22
+  },
+  {
+   "security_name": "ARDONAGH GROUP 8.875% 02/15/32",
+   "cusip": "039956AA5",
+   "weight": 0.0181,
+   "market_value": 3654103.55
+  },
+  {
+   "security_name": "CONNECT HOLDING 10.5% 04/03/31",
+   "cusip": "20753PAD3",
+   "weight": 0.0165,
+   "market_value": 3341414.76
+  },
+  {
+   "security_name": "MCAFEE CORP 7.375% 02/15/30",
+   "cusip": "579063AB4",
+   "weight": 0.0165,
+   "market_value": 3324561.84
+  },
+  {
+   "security_name": "1261229 BC LTD 10% 04/15/32",
+   "cusip": "68288AAA5",
+   "weight": 0.015,
+   "market_value": 3036915.87
+  },
+  {
+   "security_name": "MAUSER PACKAGIN 9.25% 04/15/30",
+   "cusip": "57763RAF4",
+   "weight": 0.0141,
+   "market_value": 2843113.62
+  },
+  {
+   "security_name": "SURGERY CENTER  7.25% 04/15/32",
+   "cusip": "86881WAF9",
+   "weight": 0.0139,
+   "market_value": 2802100.14
+  },
+  {
+   "security_name": "FERTITTA ENTERT 6.75% 01/15/30",
+   "cusip": "31556TAC3",
+   "weight": 0.0134,
+   "market_value": 2698116.72
+  },
+  {
+   "security_name": "CLARIOS GLOBAL  6.75% 09/15/32",
+   "cusip": "18060TAE5",
+   "weight": 0.013300000000000001,
+   "market_value": 2679099.33
+  },
+  {
+   "security_name": "BRAND INDUSTR 10.375% 08/01/30",
+   "cusip": "104931AA8",
+   "weight": 0.0128,
+   "market_value": 2592825.41
+  },
+  {
+   "security_name": "WR GRACE HOLDI 5.625% 08/15/29",
+   "cusip": "92943GAA9",
+   "weight": 0.012199999999999999,
+   "market_value": 2461427.49
+  },
+  {
+   "security_name": "HOWDEN UK REFI 8.125% 02/15/32",
+   "cusip": "44287DAA1",
+   "weight": 0.012199999999999999,
+   "market_value": 2455921.75
+  },
+  {
+   "security_name": "ARDAGH METAL PACKA 4% 09/01/29",
+   "cusip": "03969YAB4",
+   "weight": 0.0113,
+   "market_value": 2291428.18
+  },
+  {
+   "security_name": "ALLIED UNIVERSAL 6% 06/01/29",
+   "cusip": "019576AC1",
+   "weight": 0.0108,
+   "market_value": 2176020.98
+  },
+  {
+   "security_name": "COMPASS GROUP D 5.25% 04/15/29",
+   "cusip": "20451RAB8",
+   "weight": 0.010700000000000001,
+   "market_value": 2165056.6
+  },
+  {
+   "security_name": "ALTICE FINANCIN 5.75% 08/15/29",
+   "cusip": "02154CAH6",
+   "weight": 0.0098,
+   "market_value": 1974315.03
+  },
+  {
+   "security_name": "GARDA WORLD SE 8.375% 11/15/32",
+   "cusip": "36485MAP4",
+   "weight": 0.009399999999999999,
+   "market_value": 1905379.32
+  },
+  {
+   "security_name": "CHS/COMMUNITY  6.875% 04/15/29",
+   "cusip": "12543DBJ8",
+   "weight": 0.009399999999999999,
+   "market_value": 1892901.79
+  },
+  {
+   "security_name": "CASHUSD",
+   "cusip": "CASHUSD",
+   "weight": 0.0088,
+   "market_value": 1774525.08
+  },
+  {
+   "security_name": "SKEENA RESOURCES 8.5% 04/01/31",
+   "cusip": "83056PAA1",
+   "weight": 0.0087,
+   "market_value": 1760960.46
+  },
+  {
+   "security_name": "CHOBANI LLC/FI 6.375% 04/15/34",
+   "cusip": "17027NAD4",
+   "weight": 0.0086,
+   "market_value": 1736514.69
+  },
+  {
+   "security_name": "GRAY MEDIA INC 9.625% 07/15/32",
+   "cusip": "389375AN6",
+   "weight": 0.0086,
+   "market_value": 1736363.51
+  },
+  {
+   "security_name": "FXI HOLDINGS INC 11% 11/15/30",
+   "cusip": "36120RAG4",
+   "weight": 0.0086,
+   "market_value": 1731343.68
+  },
+  {
+   "security_name": "MICHAELS COS INC/ 11% 03/15/34",
+   "cusip": "59408QAA4",
+   "weight": 0.0084,
+   "market_value": 1706253.17
+  },
+  {
+   "security_name": "UNITI GROUP/CS 8.625% 06/15/32",
+   "cusip": "91327TAC5",
+   "weight": 0.0083,
+   "market_value": 1674498.71
+  },
+  {
+   "security_name": "VIASAT INC 7.5% 05/30/31",
+   "cusip": "92552VAR1",
+   "weight": 0.008199999999999999,
+   "market_value": 1665755.26
+  },
+  {
+   "security_name": "CHS/COMMUNITY  6.125% 04/01/30",
+   "cusip": "12543DBL3",
+   "weight": 0.008199999999999999,
+   "market_value": 1657524.82
+  },
+  {
+   "security_name": "LIFEPOINT HEALTH  10% 06/01/32",
+   "cusip": "53219LAX7",
+   "weight": 0.008100000000000001,
+   "market_value": 1643835.75
+  },
+  {
+   "security_name": "ACRISURE LLC /  8.25% 02/01/29",
+   "cusip": "00489LAK9",
+   "weight": 0.008100000000000001,
+   "market_value": 1634568.23
+  },
+  {
+   "security_name": "PETSMART LLC/PETS 10% 09/15/33",
+   "cusip": "71677KAD0",
+   "weight": 0.008100000000000001,
+   "market_value": 1631690.07
+  },
+  {
+   "security_name": "OSAIC HOLDINGS INC 8% 08/01/33",
+   "cusip": "00791GAC1",
+   "weight": 0.008,
+   "market_value": 1608305.15
+  },
+  {
+   "security_name": "MAVIS TIRE EXPRE 6.5% 05/15/29",
+   "cusip": "59155LAA0",
+   "weight": 0.008,
+   "market_value": 1607823.51
+  },
+  {
+   "security_name": "INFRABUILD AUST 14.5% 11/15/28",
+   "cusip": "45682RAC4",
+   "weight": 0.0079,
+   "market_value": 1605710.79
+  },
+  {
+   "security_name": "BROADSTREET PA 5.875% 04/15/29",
+   "cusip": "11135RAA3",
+   "weight": 0.0079,
+   "market_value": 1596679.22
+  },
+  {
+   "security_name": "TKC HOLDINGS INC 12% 02/15/31",
+   "cusip": "87256YAG8",
+   "weight": 0.0079,
+   "market_value": 1591981.01
+  },
+  {
+   "security_name": "CORELOGIC INC 12% 02/01/32",
+   "cusip": "21871DAH6",
+   "weight": 0.0078000000000000005,
+   "market_value": 1572489.16
+  },
+  {
+   "security_name": "LBM ACQUISITION  9.5% 06/15/31",
+   "cusip": "52109SAB5",
+   "weight": 0.0078000000000000005,
+   "market_value": 1571811.61
+  },
+  {
+   "security_name": "ALLIANT HOLD / 7.375% 10/01/32",
+   "cusip": "01883LAH6",
+   "weight": 0.0077,
+   "market_value": 1559996.25
+  },
+  {
+   "security_name": "USI INC/NY 7.5% 01/15/32",
+   "cusip": "90346KAB5",
+   "weight": 0.0076,
+   "market_value": 1540017.33
+  },
+  {
+   "security_name": "TRIVIUM PACKAG 12.25% 01/15/31",
+   "cusip": "89686QAC0",
+   "weight": 0.0075,
+   "market_value": 1506496.31
+  },
+  {
+   "security_name": "WHITE CAP SUPP 7.375% 11/15/30",
+   "cusip": "96467GAC2",
+   "weight": 0.0070999999999999995,
+   "market_value": 1436931.34
+  },
+  {
+   "security_name": "STAPLES INC 12.75% 01/15/30",
+   "cusip": "855030AS1",
+   "weight": 0.0070999999999999995,
+   "market_value": 1430921.36
+  },
+  {
+   "security_name": "MPT OPER PARTNERSP 5% 10/15/27",
+   "cusip": "55342UAH7",
+   "weight": 0.0070999999999999995,
+   "market_value": 1427713.6
+  },
+  {
+   "security_name": "GARDA WORLD SEC 8.25% 08/01/32",
+   "cusip": "36485MAN9",
+   "weight": 0.0069,
+   "market_value": 1396169.27
+  },
+  {
+   "security_name": "SIX FLAGS/CAN  8.625% 01/15/32",
+   "cusip": "83003AAA8",
+   "weight": 0.0069,
+   "market_value": 1395239.47
+  },
+  {
+   "security_name": "TRIDENT TPI HO 12.75% 12/31/28",
+   "cusip": "89616RAC3",
+   "weight": 0.0069,
+   "market_value": 1387317.44
+  },
+  {
+   "security_name": "GRAY MEDIA INC 5.375% 11/15/31",
+   "cusip": "389286AA3",
+   "weight": 0.0068000000000000005,
+   "market_value": 1378438.39
+  },
+  {
+   "security_name": "CHAMPIONS FINAN 8.75% 02/15/29",
+   "cusip": "15870LAA6",
+   "weight": 0.0066,
+   "market_value": 1342624.47
+  },
+  {
+   "security_name": "IHEARTCOMMUNIC 9.125% 05/01/29",
+   "cusip": "45174HBJ5",
+   "weight": 0.0066,
+   "market_value": 1339535.54
+  },
+  {
+   "security_name": "MPH ACQUISITION 5.75% 12/31/30",
+   "cusip": "553283AG7",
+   "weight": 0.0066,
+   "market_value": 1338863.31
+  },
+  {
+   "security_name": "OSISKO GOLD GRO 9.25% 10/01/31",
+   "cusip": "68827XAA3",
+   "weight": 0.0066,
+   "market_value": 1326361.32
+  },
+  {
+   "security_name": "CALUMET SPECIAL 9.75% 02/15/31",
+   "cusip": "131477BA8",
+   "weight": 0.0064,
+   "market_value": 1299975.71
+  },
+  {
+   "security_name": "CNTRL PARENT/CD 7.25% 06/15/29",
+   "cusip": "15477CAA3",
+   "weight": 0.0064,
+   "market_value": 1293530.6
+  },
+  {
+   "security_name": "EW SCRIPPS CO 9.875% 08/15/30",
+   "cusip": "811054AH8",
+   "weight": 0.0063,
+   "market_value": 1274668.14
+  },
+  {
+   "security_name": "TRANSOCEAN INTER 6.8% 03/15/38",
+   "cusip": "893830AT6",
+   "weight": 0.0063,
+   "market_value": 1272723.71
+  },
+  {
+   "security_name": "LCPR SR SECURED 6.75% 10/15/27",
+   "cusip": "50201DAA1",
+   "weight": 0.0063,
+   "market_value": 1270361.39
+  },
+  {
+   "security_name": "UNITI GROUP/CSL  6.5% 02/15/29",
+   "cusip": "91327BAA8",
+   "weight": 0.0063,
+   "market_value": 1265386.84
+  },
+  {
+   "security_name": "ROCKET SOFTWARE  6.5% 02/15/29",
+   "cusip": "77314EAA6",
+   "weight": 0.0060999999999999995,
+   "market_value": 1241788.48
+  },
+  {
+   "security_name": "TRONOX INC 4.625% 03/15/29",
+   "cusip": "897051AC2",
+   "weight": 0.0060999999999999995,
+   "market_value": 1226861.37
+  },
+  {
+   "security_name": "ALTICE FINANCING S 5% 01/15/28",
+   "cusip": "02154CAF0",
+   "weight": 0.0059,
+   "market_value": 1190896.17
+  },
+  {
+   "security_name": "TRANSMONTAIGNE P 8.5% 06/15/30",
+   "cusip": "89377AAA3",
+   "weight": 0.0058,
+   "market_value": 1168027.41
+  },
+  {
+   "security_name": "MAXIM CRANE WOR 11.5% 09/01/28",
+   "cusip": "57779EAA6",
+   "weight": 0.0058,
+   "market_value": 1167816.64
+  },
+  {
+   "security_name": "CHOBANI LLC/FI 7.625% 07/01/29",
+   "cusip": "17027NAC6",
+   "weight": 0.0058,
+   "market_value": 1163894.12
+  },
+  {
+   "security_name": "IHEARTCOMMUNICA 7.75% 08/15/30",
+   "cusip": "45174HBM8",
+   "weight": 0.005600000000000001,
+   "market_value": 1138037.16
+  },
+  {
+   "security_name": "VELOCITY VEHICLE G 8% 06/01/29",
+   "cusip": "92262TAA4",
+   "weight": 0.005600000000000001,
+   "market_value": 1131215.99
+  },
+  {
+   "security_name": "SIX FLAGS ENTER 7.25% 05/15/31",
+   "cusip": "83001AAD4",
+   "weight": 0.005600000000000001,
+   "market_value": 1130441.58
+  },
+  {
+   "security_name": "DEXKO GLOBAL INC 7.5% 04/15/32",
+   "cusip": "252142AB0",
+   "weight": 0.005600000000000001,
+   "market_value": 1126347.77
+  },
+  {
+   "security_name": "ASTON MARTIN CAPI 10% 03/31/29",
+   "cusip": "04625HAJ8",
+   "weight": 0.005600000000000001,
+   "market_value": 1124713.09
+  },
+  {
+   "security_name": "DOMTAR CORP 6.75% 10/01/28",
+   "cusip": "70478JAA2",
+   "weight": 0.0055000000000000005,
+   "market_value": 1119604.72
+  },
+  {
+   "security_name": "ALTA EQUIPMENT GRO 9% 06/01/29",
+   "cusip": "02128LAC0",
+   "weight": 0.0055000000000000005,
+   "market_value": 1119401.56
+  },
+  {
+   "security_name": "ALTICE FRANCE SA 6.5% 04/15/32",
+   "cusip": "02090DAD0",
+   "weight": 0.0055000000000000005,
+   "market_value": 1117279.16
+  },
+  {
+   "security_name": "ARCHES BUYER I 6.125% 12/01/28",
+   "cusip": "039524AB9",
+   "weight": 0.0055000000000000005,
+   "market_value": 1102279.28
+  },
+  {
+   "security_name": "GB AIT BUYER 8.75% 04/30/34",
+   "cusip": "36147AAA3",
+   "weight": 0.0054,
+   "market_value": 1098461.41
+  },
+  {
+   "security_name": "DIVERSIFIED HEA 4.75% 02/15/28",
+   "cusip": "81721MAM1",
+   "weight": 0.0054,
+   "market_value": 1088378.92
+  },
+  {
+   "security_name": "SINCLAIR TELEVI 9.75% 02/15/33",
+   "cusip": "829259BG4",
+   "weight": 0.0053,
+   "market_value": 1080591.87
+  },
+  {
+   "security_name": "LIFEPOINT HEAL 5.375% 01/15/29",
+   "cusip": "53219LAU3",
+   "weight": 0.0053,
+   "market_value": 1070879.11
+  },
+  {
+   "security_name": "SCIH SALT HOLDINGS 8% 08/15/32",
+   "cusip": "78433BAH1",
+   "weight": 0.0053,
+   "market_value": 1070613.38
+  },
+  {
+   "security_name": "PARK RIVER HOLD 8.75% 12/31/30",
+   "cusip": "70082LAD9",
+   "weight": 0.0052,
+   "market_value": 1058671.2
+  },
+  {
+   "security_name": "DEALER TIRE F 10.375% 10/01/31",
+   "cusip": "24230SAB6",
+   "weight": 0.005,
+   "market_value": 1005694.55
+  },
+  {
+   "security_name": "MIWD HLDCO II/MI 5.5% 02/01/30",
+   "cusip": "55337PAA0",
+   "weight": 0.005,
+   "market_value": 1003543.27
+  },
+  {
+   "security_name": "PREMIER ENTERT 5.625% 09/01/29",
+   "cusip": "74052HAA2",
+   "weight": 0.005,
+   "market_value": 1001138.9
+  },
+  {
+   "security_name": "FIESTA PURCHAS 9.625% 09/15/32",
+   "cusip": "31659AAB2",
+   "weight": 0.0049,
+   "market_value": 1000040.43
+  },
+  {
+   "security_name": "INNOPHOS HOLDIN 11.5% 06/15/29",
+   "cusip": "45774NAD0",
+   "weight": 0.0049,
+   "market_value": 981513.63
+  },
+  {
+   "security_name": "ARTERA SERVICES  8.5% 02/15/31",
+   "cusip": "04302XAA2",
+   "weight": 0.0048,
+   "market_value": 976295.85
+  },
+  {
+   "security_name": "ALLIANT HOLD / 5.875% 11/01/29",
+   "cusip": "01883LAD5",
+   "weight": 0.0048,
+   "market_value": 973065.13
+  },
+  {
+   "security_name": "CSC HOLDINGS L 11.75% 01/31/29",
+   "cusip": "126307BN6",
+   "weight": 0.0048,
+   "market_value": 970779
+  },
+  {
+   "security_name": "SPECIALTY BUILD 7.75% 10/15/29",
+   "cusip": "84749AAC1",
+   "weight": 0.004699999999999999,
+   "market_value": 951657.69
+  },
+  {
+   "security_name": "PREMIER ENTERT 5.875% 09/01/31",
+   "cusip": "74052HAB0",
+   "weight": 0.004699999999999999,
+   "market_value": 945887.89
+  },
+  {
+   "security_name": "GRAY MEDIA INC 4.75% 10/15/30",
+   "cusip": "389375AL0",
+   "weight": 0.0046,
+   "market_value": 936601.46
+  },
+  {
+   "security_name": "KRONOS ACQUISIT 8.25% 06/30/31",
+   "cusip": "50106GAG7",
+   "weight": 0.0046,
+   "market_value": 925130.32
+  },
+  {
+   "security_name": "HIGHTOWER HOLD 9.125% 01/31/30",
+   "cusip": "43118DAB6",
+   "weight": 0.0046,
+   "market_value": 921803.1
+  },
+  {
+   "security_name": "GARDA WORLD SECURI 6% 06/01/29",
+   "cusip": "36485MAL3",
+   "weight": 0.0046,
+   "market_value": 920218.13
+  },
+  {
+   "security_name": "VIASAT INC 6.5% 07/15/28",
+   "cusip": "92552VAN0",
+   "weight": 0.0046,
+   "market_value": 919693.66
+  },
+  {
+   "security_name": "ARKO CORP 5.125% 11/15/29",
+   "cusip": "041242AA6",
+   "weight": 0.0045000000000000005,
+   "market_value": 915117.27
+  },
+  {
+   "security_name": "EMERGENT BIOSO 3.875% 08/15/28",
+   "cusip": "29089QAC9",
+   "weight": 0.0045000000000000005,
+   "market_value": 915022.37
+  },
+  {
+   "security_name": "LCPR SR SECURE 5.125% 07/15/29",
+   "cusip": "50201DAD5",
+   "weight": 0.0045000000000000005,
+   "market_value": 914824.1
+  },
+  {
+   "security_name": "ALTICE FRANCE  6.875% 07/15/32",
+   "cusip": "02090DAE8",
+   "weight": 0.0045000000000000005,
+   "market_value": 914139.42
+  },
+  {
+   "security_name": "MATIV HOLDINGS INC 8% 10/01/29",
+   "cusip": "808541AC0",
+   "weight": 0.0045000000000000005,
+   "market_value": 908841.86
+  },
+  {
+   "security_name": "ARETEC GROUP INC 7.5% 04/01/29",
+   "cusip": "040133AA8",
+   "weight": 0.0045000000000000005,
+   "market_value": 899578.12
+  },
+  {
+   "security_name": "NET OTHER ASSETS",
+   "cusip": "",
+   "weight": 0.0044,
+   "market_value": 899081.65
+  },
+  {
+   "security_name": "CP ATLAS BUYER  9.75% 07/15/30",
+   "cusip": "12597YAC3",
+   "weight": 0.0044,
+   "market_value": 897785.18
+  },
+  {
+   "security_name": "MAJORDRIVE HOL 6.375% 06/01/29",
+   "cusip": "56085RAA8",
+   "weight": 0.0044,
+   "market_value": 896115.57
+  },
+  {
+   "security_name": "OLYMPUS WTR US  6.25% 10/01/29",
+   "cusip": "681639AB6",
+   "weight": 0.0044,
+   "market_value": 895162.68
+  },
+  {
+   "security_name": "TRANSOCEAN INTER 7.5% 04/15/31",
+   "cusip": "893830AF6",
+   "weight": 0.0044,
+   "market_value": 893875.73
+  },
+  {
+   "security_name": "SERVICE PROPERT 4.95% 10/01/29",
+   "cusip": "44106MBB7",
+   "weight": 0.0044,
+   "market_value": 889422.33
+  },
+  {
+   "security_name": "SERVICE PROPERT 3.95% 01/15/28",
+   "cusip": "44106MAX0",
+   "weight": 0.0044,
+   "market_value": 888394.4
+  },
+  {
+   "security_name": "ACRISURE LLC / F 8.5% 06/15/29",
+   "cusip": "00489LAM5",
+   "weight": 0.0044,
+   "market_value": 887837.09
+  },
+  {
+   "security_name": "MOTION BONDCO  6.625% 11/15/27",
+   "cusip": "61978XAA5",
+   "weight": 0.0043,
+   "market_value": 864644.55
+  },
+  {
+   "security_name": "CMG MEDIA CORP 8.875% 06/18/29",
+   "cusip": "125773AA9",
+   "weight": 0.0043,
+   "market_value": 859430.46
+  },
+  {
+   "security_name": "SC GAMES HOLDI 6.625% 03/01/30",
+   "cusip": "80874DAA4",
+   "weight": 0.0043,
+   "market_value": 859283.38
+  },
+  {
+   "security_name": "PM GENERAL PURCH 9.5% 10/01/28",
+   "cusip": "69356MAA4",
+   "weight": 0.0042,
+   "market_value": 855399.93
+  },
+  {
+   "security_name": "ALTICE FRANCE SA 9.5% 11/01/29",
+   "cusip": "02090DAA6",
+   "weight": 0.0042,
+   "market_value": 846987.45
+  },
+  {
+   "security_name": "ACRISURE LLC / FIN 6% 08/01/29",
+   "cusip": "00489LAH6",
+   "weight": 0.0040999999999999995,
+   "market_value": 837538.63
+  },
+  {
+   "security_name": "LBM ACQUISITION 6.25% 01/15/29",
+   "cusip": "05552BAA4",
+   "weight": 0.0040999999999999995,
+   "market_value": 837021.95
+  },
+  {
+   "security_name": "IHEARTCOMMUNI 10.875% 05/01/30",
+   "cusip": "45174HBL0",
+   "weight": 0.0040999999999999995,
+   "market_value": 833107.68
+  },
+  {
+   "security_name": "WABASH NATIONAL  4.5% 10/15/28",
+   "cusip": "929566AL1",
+   "weight": 0.0040999999999999995,
+   "market_value": 832588.23
+  },
+  {
+   "security_name": "SERVICE PROPER 4.375% 02/15/30",
+   "cusip": "44106MAY8",
+   "weight": 0.004,
+   "market_value": 813001.81
+  },
+  {
+   "security_name": "IRIS HOLDING INC 10% 12/15/28",
+   "cusip": "462914AA0",
+   "weight": 0.004,
+   "market_value": 808014.52
+  },
+  {
+   "security_name": "SIX FLAGS/CANAD 5.25% 07/15/29",
+   "cusip": "150190AE6",
+   "weight": 0.004,
+   "market_value": 803303.69
+  },
+  {
+   "security_name": "LD HOLDINGS GR 6.125% 04/01/28",
+   "cusip": "521088AC8",
+   "weight": 0.0039000000000000003,
+   "market_value": 796998.37
+  },
+  {
+   "security_name": "ARMOR HOLDCO INC 8.5% 11/15/29",
+   "cusip": "04625PAA9",
+   "weight": 0.0039000000000000003,
+   "market_value": 796566.78
+  },
+  {
+   "security_name": "JONES DESLAURI 6.875% 10/01/33",
+   "cusip": "48020RAE5",
+   "weight": 0.0039000000000000003,
+   "market_value": 796514.46
+  },
+  {
+   "security_name": "DYE & DURHAM L 8.625% 04/15/29",
+   "cusip": "267486AA6",
+   "weight": 0.0039000000000000003,
+   "market_value": 791394.37
+  },
+  {
+   "security_name": "GRAFTECH GLOBA 9.875% 12/23/29",
+   "cusip": "38431AAB2",
+   "weight": 0.0039000000000000003,
+   "market_value": 789046.92
+  },
+  {
+   "security_name": "WILSONART LLC 11% 08/15/32",
+   "cusip": "97246JAA6",
+   "weight": 0.0039000000000000003,
+   "market_value": 785298.11
+  },
+  {
+   "security_name": "JELD-WEN INC 4.875% 12/15/27",
+   "cusip": "475795AD2",
+   "weight": 0.0039000000000000003,
+   "market_value": 785020.27
+  },
+  {
+   "security_name": "UNITED NATURAL  6.75% 10/15/28",
+   "cusip": "911163AA1",
+   "weight": 0.0038,
+   "market_value": 776818.15
+  },
+  {
+   "security_name": "C&S GROUP ENTERPRI 5% 12/15/28",
+   "cusip": "12467AAF5",
+   "weight": 0.0038,
+   "market_value": 774166.83
+  },
+  {
+   "security_name": "AMYNTA AGENCY/WA 7.5% 07/15/33",
+   "cusip": "03238AAA3",
+   "weight": 0.0038,
+   "market_value": 771695.91
+  },
+  {
+   "security_name": "GRAFTECH FINAN 4.625% 12/23/29",
+   "cusip": "384311AC0",
+   "weight": 0.0038,
+   "market_value": 771686.43
+  },
+  {
+   "security_name": "CSC HOLDINGS LLC 6.5% 02/01/29",
+   "cusip": "126307AZ0",
+   "weight": 0.0038,
+   "market_value": 765748.98
+  },
+  {
+   "security_name": "VIRTUSA CORP 7.125% 12/15/28",
+   "cusip": "92837TAA0",
+   "weight": 0.0038,
+   "market_value": 762645.93
+  },
+  {
+   "security_name": "TMS INTERNATION 6.25% 04/15/29",
+   "cusip": "87261QAC7",
+   "weight": 0.0038,
+   "market_value": 760111.87
+  },
+  {
+   "security_name": "B&G FOODS INC 11% 06/15/31",
+   "cusip": "05508WAD7",
+   "weight": 0.0037,
+   "market_value": 755812.85
+  },
+  {
+   "security_name": "ANGI GROUP LLC 3.875% 08/15/28",
+   "cusip": "001846AA2",
+   "weight": 0.0037,
+   "market_value": 751155.4
+  },
+  {
+   "security_name": "HERTZ CORP/THE 5% 12/01/29",
+   "cusip": "428040DB2",
+   "weight": 0.0037,
+   "market_value": 742365.57
+  },
+  {
+   "security_name": "UNITI GRP/UNITI HL 6% 01/15/30",
+   "cusip": "91327AAB8",
+   "weight": 0.0036,
+   "market_value": 724282.41
+  },
+  {
+   "security_name": "CORONADO FINANC 9.25% 10/01/29",
+   "cusip": "21979LAB2",
+   "weight": 0.0036,
+   "market_value": 723949.93
+  },
+  {
+   "security_name": "FULL HOUSE RESO 8.25% 02/15/28",
+   "cusip": "359678AC3",
+   "weight": 0.0036,
+   "market_value": 720580.79
+  },
+  {
+   "security_name": "MERLIN ENTERTA 7.375% 02/15/31",
+   "cusip": "59010UAA5",
+   "weight": 0.0034999999999999996,
+   "market_value": 698936.26
+  },
+  {
+   "security_name": "WEALTHSPIRE LP 9% 09/15/34",
+   "cusip": "94701XAA0",
+   "weight": 0.0033,
+   "market_value": 675557.63
+  },
+  {
+   "security_name": "AHEAD DB HOLDI 6.625% 05/01/28",
+   "cusip": "00867FAA6",
+   "weight": 0.0033,
+   "market_value": 666176.74
+  },
+  {
+   "security_name": "CARRIAGE PURCH 7.875% 10/15/29",
+   "cusip": "14445LAA5",
+   "weight": 0.0033,
+   "market_value": 659114.92
+  },
+  {
+   "security_name": "HIGHTOWER HOLDI 6.75% 04/15/29",
+   "cusip": "43118DAA8",
+   "weight": 0.0033,
+   "market_value": 658619.6
+  },
+  {
+   "security_name": "XEROX CORPORATI 13.5% 04/15/31",
+   "cusip": "984121CT8",
+   "weight": 0.0032,
+   "market_value": 655815.44
+  },
+  {
+   "security_name": "LD HOLDINGS GRO 8.75% 11/01/27",
+   "cusip": "521088AD6",
+   "weight": 0.0032,
+   "market_value": 648561.92
+  },
+  {
+   "security_name": "CSC HOLDINGS LLC 4.5% 11/15/31",
+   "cusip": "126307BH9",
+   "weight": 0.0032,
+   "market_value": 646559.26
+  },
+  {
+   "security_name": "COMPASS GROUP DIVE 5% 01/15/32",
+   "cusip": "20451RAC6",
+   "weight": 0.0031,
+   "market_value": 633250.77
+  },
+  {
+   "security_name": "AFFINITY INTER 6.875% 12/15/27",
+   "cusip": "00842XAA7",
+   "weight": 0.0031,
+   "market_value": 621388.73
+  },
+  {
+   "security_name": "CAMELOT RETURN  8.75% 08/01/28",
+   "cusip": "13323NAA0",
+   "weight": 0.0029,
+   "market_value": 589266.56
+  },
+  {
+   "security_name": "MOTION FINCO S 8.375% 02/15/32",
+   "cusip": "61980LAB5",
+   "weight": 0.0028000000000000004,
+   "market_value": 568801.2
+  },
+  {
+   "security_name": "NEWFOLD DIGITA 11.75% 04/30/29",
+   "cusip": "650929AD4",
+   "weight": 0.0027,
+   "market_value": 554911.87
+  },
+  {
+   "security_name": "JELDWEN HOLDING 7% 09/01/32",
+   "cusip": "47580PAA1",
+   "weight": 0.0027,
+   "market_value": 539760.46
+  },
+  {
+   "security_name": "ALTICE FRAN LUX 3 10% 01/15/33",
+   "cusip": "020956AA6",
+   "weight": 0.0026,
+   "market_value": 515490.56
+  },
+  {
+   "security_name": "SIX FLAGS/CANADA 6.5% 10/01/28",
+   "cusip": "150190AK2",
+   "weight": 0.0025,
+   "market_value": 502406.16
+  },
+  {
+   "security_name": "ALTICE FRANCE  6.875% 10/15/30",
+   "cusip": "02090DAB4",
+   "weight": 0.0024,
+   "market_value": 489598.7
+  },
+  {
+   "security_name": "HERENS HOLDCO S 4.75% 07/01/31",
+   "cusip": "427169AB3",
+   "weight": 0.0024,
+   "market_value": 476140.12
+  },
+  {
+   "security_name": "CALUMET SPECIAL 9.75% 07/15/28",
+   "cusip": "131477AW1",
+   "weight": 0.0023,
+   "market_value": 465999.27
+  },
+  {
+   "security_name": "CORNERSTONE BUIL 9.5% 08/15/29",
+   "cusip": "21925DAB5",
+   "weight": 0.0023,
+   "market_value": 462937.68
+  },
+  {
+   "security_name": "BAUSCH HEALTH COS 11% 09/30/28",
+   "cusip": "071734AQ0",
+   "weight": 0.0022,
+   "market_value": 453815.09
+  },
+  {
+   "security_name": "CD&R SMOKEY / RA 9.5% 10/15/29",
+   "cusip": "12515KAA6",
+   "weight": 0.0022,
+   "market_value": 448331.88
+  },
+  {
+   "security_name": "CSC HOLDINGS L 11.25% 05/15/28",
+   "cusip": "126307BM8",
+   "weight": 0.0022,
+   "market_value": 445470.22
+  },
+  {
+   "security_name": "ACCENDRA HEALTH 9.75% 06/15/33",
+   "cusip": "690732AL6",
+   "weight": 0.0022,
+   "market_value": 442620.2
+  },
+  {
+   "security_name": "CSC HOLDINGS L 4.125% 12/01/30",
+   "cusip": "126307BB2",
+   "weight": 0.0022,
+   "market_value": 438804.11
+  },
+  {
+   "security_name": "SCRIPPS ESCROW 5.375% 01/15/31",
+   "cusip": "81105DAB1",
+   "weight": 0.0021,
+   "market_value": 419703.99
+  },
+  {
+   "security_name": "CSC HOLDINGS L 3.375% 02/15/31",
+   "cusip": "126307BF3",
+   "weight": 0.0021,
+   "market_value": 419416.56
+  },
+  {
+   "security_name": "BAUSCH HEALTH  4.875% 06/01/28",
+   "cusip": "071734AN7",
+   "weight": 0.002,
+   "market_value": 410486.79
+  },
+  {
+   "security_name": "MERCER INTL IN 5.125% 02/01/29",
+   "cusip": "588056BB6",
+   "weight": 0.002,
+   "market_value": 407977.67
+  },
+  {
+   "security_name": "ALLEN MEDIA LLC 10.5% 02/15/28",
+   "cusip": "01771YAA8",
+   "weight": 0.002,
+   "market_value": 406103.46
+  },
+  {
+   "security_name": "CSC HOLDINGS L 5.375% 02/01/28",
+   "cusip": "126307AS6",
+   "weight": 0.0019,
+   "market_value": 389557.75
+  },
+  {
+   "security_name": "OT MIDCO INC 10% 02/15/30",
+   "cusip": "68877AAA2",
+   "weight": 0.0019,
+   "market_value": 385043.75
+  },
+  {
+   "security_name": "XEROX HOLDINGS 8.875% 11/30/29",
+   "cusip": "98421MAC0",
+   "weight": 0.0015,
+   "market_value": 312389.5
+  },
+  {
+   "security_name": "CABLE ONE INC 4% 11/15/30",
+   "cusip": "12685JAC9",
+   "weight": 0.0014000000000000002,
+   "market_value": 286877.26
+  },
+  {
+   "security_name": "GOTO GROUP INC 5.5% 05/01/28",
+   "cusip": "38349YAB1",
+   "weight": 0.0013,
+   "market_value": 267692.78
+  },
+  {
+   "security_name": "MERCER INTL I 12.875% 10/01/28",
+   "cusip": "588056BC4",
+   "weight": 0.0012,
+   "market_value": 238694.77
+  },
+  {
+   "security_name": "ALTICE FRANCE SA 6.5% 10/15/31",
+   "cusip": "02090DAC2",
+   "weight": 0.0011,
+   "market_value": 222831.51
+  },
+  {
+   "security_name": "BAUSCH HEALTH COS 14% 10/15/30",
+   "cusip": "071734AR8",
+   "weight": 0.0008,
+   "market_value": 171364.58
+  },
+  {
+   "security_name": "GPS HOSPITALITY/N 11% 03/05/31",
+   "cusip": "362981AB8",
+   "weight": 0.0006,
+   "market_value": 127157.72
+  }
+ ],
+ "top_issuers": [
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0209,
+   "basket_metric": "GARDA WORLD SECURITY",
+   "metric_type": "top_issuers",
+   "numeric_rank": 0,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0206,
+   "basket_metric": "ATHENAHEALTH GROUP INC",
+   "metric_type": "top_issuers",
+   "numeric_rank": 1,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0202,
+   "basket_metric": "CSC HOLDINGS LLC",
+   "metric_type": "top_issuers",
+   "numeric_rank": 2,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.02,
+   "basket_metric": "GRAY MEDIA INC",
+   "metric_type": "top_issuers",
+   "numeric_rank": 3,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0181,
+   "basket_metric": "ARDONAGH GROUP FINANCE",
+   "metric_type": "top_issuers",
+   "numeric_rank": 4,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0177,
+   "basket_metric": "ALTICE FRANCE SA",
+   "metric_type": "top_issuers",
+   "numeric_rank": 5,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.017599999999999998,
+   "basket_metric": "CHS/COMMUNITY HEALTH SYS",
+   "metric_type": "top_issuers",
+   "numeric_rank": 6,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0166,
+   "basket_metric": "ACRISURE LLC / FIN INC",
+   "metric_type": "top_issuers",
+   "numeric_rank": 7,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0165,
+   "basket_metric": "MCAFEE CORP",
+   "metric_type": "top_issuers",
+   "numeric_rank": 8,
+   "ticker": "XCCC"
+  },
+  {
+   "asof_date": "2026-10-29",
+   "basket_exposure": 0.0165,
+   "basket_metric": "CONNECT HOLDING II LLC",
+   "metric_type": "top_issuers",
+   "numeric_rank": 9,
+   "ticker": "XCCC"
+  }
+ ],
+ "screen_note": "AI-builder name screen (CoreWeave, Applied Digital, TeraWulf, Cipher, IREN, Core Scientific, Nebius, Lambda, Crusoe, Hut 8, data-center names incl. Digital Realty/Switch/Aligned/Vantage/CyrusOne/QTS/Galaxy): 0 holdings"
+}

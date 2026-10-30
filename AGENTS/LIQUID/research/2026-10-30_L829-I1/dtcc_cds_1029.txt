@@ -1,0 +1,9 @@
+Fri Oct 30 09:08:32 EDT 2026
+2026-10-29: 1433 SEC credit rows; 3 NEWT for 'ORACLE'; 0 BATCH (excluded)
+  2026-10-29T19:30Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.14pts ~par 270bp (approx) | ORACLE CORPORATION
+  2026-10-29T19:53Z exp 2029-12-20  5,000,000+ | spread 208bp (disseminated) | Oracle Corporation
+  2026-10-29T20:51Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.37pts ~par 276bp (approx) | ORACLE CORPORATION
+2026-10-29: 1433 SEC credit rows; 3 NEWT for 'COREWEAVE'; 0 BATCH (excluded)
+  2026-10-16T16:58Z exp 2031-12-20   2,000,000 | cpn 500 upfront 18.76pts ~par 1132bp (approx) | COREWEAVE;INC.
+  2026-10-29T13:49Z exp 2031-12-20   2,000,000 | cpn 500 upfront 15.33pts ~par 989bp (approx) | COREWEAVE;INC.
+  2026-10-29T18:13Z exp 2031-12-20   1,000,000 | cpn 500 upfront 15.71pts ~par 1004bp (approx) | COREWEAVE;INC.
