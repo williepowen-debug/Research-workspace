@@ -1,6 +1,6 @@
 # REGINALD — TRADE SURFACE
 
-Last real data refresh: 2026-10-22 — §2 legs re-derived from `FORGE/STATUS.md` ANVIL reconcile of Will's Fidelity capture pasted 11:01 ET 10/22 (intraday marks, not closes). Robinhood not in that capture: its rows stay UNVERIFIED since 9/29.
+Last real data refresh: 2026-10-30 — §2 `KRE $68P Nov-27 ×10` row added from `FORGE/STATUS.md:71` (FORGE marks 10/30 ~13:2x ET; PROME via DAEDALUS addendum 17:41 ET: held by Will); other legs unchanged. Prior: 2026-10-22 — §2 legs re-derived from `FORGE/STATUS.md` ANVIL reconcile of Will's Fidelity capture pasted 11:01 ET 10/22 (intraday marks, not closes). Robinhood not in that capture: its rows stay UNVERIFIED since 9/29.
 
 > **RECONCILED 2026-10-22 12:30 ET (DAEDALUS D:L793 item 2).** The October 21 'RECONCILIATION REQUIRED' banner is resolved for §2–§3: legs re-derived from the 10/22 FORGE capture, expired HBAN row moved to §6. Prior banner text → git history (`git log -p -- AGENTS/REGINALD/TRADE.md`). Broker truth stays off-repo (Will/FORGE).
 
@@ -21,6 +21,7 @@ Last real data refresh: 2026-10-22 — §2 legs re-derived from `FORGE/STATUS.md
 | `KRE $66P Nov-20-2026 ×3` | Fidelity | FORGE (NEW 10/22, broker-verified buy) | No REGINALD card; `REG-T-01` KRE <$60 UN-FIRED |
 | `KRE $67P Nov-27-2026 ×4` | Fidelity | FORGE (bought 10/12; card/owner UNKNOWN, D-77) | Same |
 | `KRE $70P Nov-27-2026 ×2` | Fidelity | FORGE (NEW 10/22, broker-verified buy) | Same |
+| `KRE $68P Nov-27-2026 ×10` | Fidelity | FORGE:71 (added 2026-10-30; held per PROME: Will's 10/30 13:21 Fidelity capture agrees with FORGE; buy date/price UNSEEN, D-90; card/owner UNKNOWN, D-74) | Same |
 | `KRE $60P Dec-18-2026 ×5` | Fidelity (2 + 3 lots) | FORGE · `POSITIONS.md` | Same |
 | `KRE $65P Dec-31-2026 ×2` | Fidelity | FORGE (`MGMT-KRE65P-DEC31`, `5ce609f80`) | TERRY rail: hard stop Thu 12/31 15:00 ET (not a price gate) |
 | `WAL $65P Dec-18-2026 ×4` · `WAL $70P Dec-18-2026 ×2` | Fidelity | FORGE · `../WAL/` | `REG-T-02` FIRED; exit ≥ $81.90 ×3 (`registry/REG_T02_EXIT_LOG.tsv`). ROLL70's gate does not transfer to the $65P line |
