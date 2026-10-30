@@ -40,6 +40,9 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 - **Skipped:** SBCF call not heard; Pathward 10/21 release unread. Consumer check not run: no registered figure superseded (the CFG fix corrects a vintage label, and its owner is BROCK).
 
 ### CHANGES SINCE LAST SESSION
+- *(10/30 17:25 ET Will-launched boot, status only; `date`-stamped.)* Vendor quotes 10/30 after close, NOT settled bars: WAL $76.29 (−1.9%, still under $78; REG-T-02 exit needs ≥$81.90 ×3), KRE $72.01, FLG $10.51 (ladder RED, last settled $10.47 [10/29]), ^TNX 4.93, VIX 19.42 (+12.9%), QQQ −3.5%. No bank name moved >3%.
+- New 8-Ks 10/30: **CFG Item 4.01** auditor change, Deloitte → PwC after FY2026 audit, no disagreements or reportable events (acc 0001193125-26-441754) · **WAL Item 8.01** dividend $0.46/sh common, payable 11/27 (acc 0001628280-26-068622; prior rate not compared).
+- Intake: WALTER 2 filed INFO_ONLY (SLRK claim closed, outside cohort; `56aa57c85`); WAL channel ACK no-change (`63ec034ac`). Open, unprocessed: 3 DAEDALUS packets 10/30 (profile refresh 14 owner items, items 1–4 decide L5; falsification #5 token, amended; wiring ⑰ run 4). DAEDALUS item 4: FORGE lists KRE $68P Nov-27 ×10, owner UNKNOWN, absent from TRADE/POSITIONS.
 
 ### NEXT SESSION
 0. **⏰ FFIEC short-list RE-RUN between Sat 10/31 and Wed 11/04 (token expires 11/05):** `.venv/bin/python3 AGENTS/REGINALD/scripts/borrowing_shortlist_ffiec.py --out AGENTS/REGINALD/domain/sources/2026-10-28_boot/borrowing_shortlist`. 28 of 139 filed on 10/28 (net −$4.3B; Simmons flag explained as a brokered-to-FHLB swap). Read any NEW flag at the issuer before routing (deep dive §14).
