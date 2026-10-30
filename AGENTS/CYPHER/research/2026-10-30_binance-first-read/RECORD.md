@@ -100,3 +100,7 @@ BTC-USD 77,165.81 (−0.78% on the day) · ETH-USD 2,227.59 (−0.97%) · BNB-US
 - Post-mortem and Proof of Reserves: Binance has promised both, with no date. Watch for them at the same check.
 - Government attribution (FBI or other): if one comes, re-class the incident to STATE-CAMPAIGN and re-score VX-CYP-08 against its band (currently 3, YELLOW, on non-attribution warnings).
 - Tron USDT freeze leg: not checked. It is the open gap in the freeze tally.
+
+## 11. Addendum 09:18 ET: reconcile with LIQUID's issuer read (packet `inbox/processed/2026-10-30_from-LIQUID_binance-stablecoin-primaries.md`)
+
+LIQUID read the issuers' own sites between 09:07 and 09:08 ET. Its findings: no Tether notice (tether.io/news, latest item 10/28), no Circle notice (blog and pressroom, latest 10/28), and Tether's transparency feed showing only $36.0M quarantined. Both reads hold. The freeze is an issuer **action** verified at the contracts (section 2), but there is no issuer **statement**, and Tether's transparency feed does not reflect the blacklisted balances. So: "Tether and Circle froze $X (per their contract events)" is PRIMARY. Any figure attributed to an issuer *announcement* is SECONDARY (CEO posts via press). LIQUID's funding baseline, for its own leg: Tether liabilities $180.51B, assets $185.98B; Circle's reserve report is as of 10/26, before the event.

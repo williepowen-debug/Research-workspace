@@ -87,7 +87,7 @@
 
 ## Standing conditions
 
-- **Event, not consequence.** **10 of 11 boundary owners confirmed:** GIBBS, WATT, VULCAN, FALCON, BRENT, LIQUID, OTTO, plus SHADE, HENRY and BOND on 10/29 (KB-CYP-062..064). SHADE graded the 10/26 KEV P1 as NONE for the insurer channel. **REGINALD is outstanding** (reminded 10/29).
+- **Event, not consequence.** **All 11 boundary owners confirmed** (REGINALD 10/30, with one amendment: credit-union-only items go to it as P3 context; a multi-institution outage of 1 business day or more stays P2; KB-CYP-084). The others: GIBBS, WATT, VULCAN, FALCON, BRENT, LIQUID, OTTO, SHADE, HENRY, BOND (KB-CYP-062..064).
 - **Intake rule** (WALTER v0.48): ledger rows only for financial or chokepoint victims, desk-cited claims, or claims CYPHER checked. Everything else goes in board_log notes (`inbox/PROTOCOL.md` rule 0).
 - **Recorded disagreement:** DEWEY recommended a WALTER watch, not a desk; Will chose a desk. R0 review on 2026-12-17.
 - **Guardrails:** no scanning or probing of institutions. Packets carry counts; names stay in research files.
