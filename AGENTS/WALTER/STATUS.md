@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-30T00:58:44Z — Codex startup recovery; operational boot PARTIAL. Resume/duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-30T01:06:55Z — Research-Intake and X access restored; remaining boot scope PARTIAL. Resume/duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-October 29 evening Codex startup: instructions and approvals recovered; operational boot PARTIAL. No new signal or threshold fire established in completed checks. Local Research-Intake Git sync returns 403, while connected GitHub confirms today's remote collector healthy. X token refresh failed; bookmarks remain unread. Primary settlement, cohort and broad owner-context coverage limits remain explicit in the boot receipt.
+October 29 evening Codex startup: instructions and approvals recovered; operational boot PARTIAL. No new signal or threshold fire established in completed checks. Research-Intake is synced and healthy. X reauthorization succeeded; a read-only bookmark API probe passed. Substantive bookmark content remains unreviewed in this recovery. Primary settlement, cohort and broad owner-context coverage limits remain explicit in the boot receipt.
 
-Prior evening cards 039–055 remain the latest dispatches, including the Binance suspected-hack claim and Amazon after-hours summaries; their primary-source limits survive. Source-search stopping rules and existing approvals are retained in LAST_COMPLETION.md. Evidence: `research/2026-10-29_codex-evening-boot/BOOT-RECEIPT.md` and `THRESHOLD-SCAN.md`.
+Prior evening cards 039–055 remain the latest dispatches, including the Binance suspected-hack claim and Amazon after-hours summaries; their primary-source limits survive. Source-search stopping rules and existing approvals are retained in LAST_COMPLETION.md. Evidence: `research/2026-10-29_codex-evening-boot/BOOT-RECEIPT.md` and `THRESHOLD-SCAN.md`; access recovery supersession: `research/2026-10-29_intake-access-recovery/RECOVERY.md`.
 
 ## DATED MARKET OBSERVATIONS
 

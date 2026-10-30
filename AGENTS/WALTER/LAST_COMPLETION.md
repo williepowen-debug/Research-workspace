@@ -1,6 +1,6 @@
 # WALTER — Codex startup recovery; operational boot PARTIAL
 
-Updated 2026-10-30T00:58:44Z. OpenAI Codex, GPT-6 family (exact serving variant UNKNOWN), session 01a18a48-0e7c-7892-9560-3672bf9cf6ef. Prior evening session CLOSED; this is a fresh Will-launched startup. Previous completion preserved verbatim: research/2026-10-29_codex-evening-boot/prior-LAST_COMPLETION.md.
+Updated 2026-10-30T01:06:55Z. OpenAI Codex, GPT-6 family (exact serving variant UNKNOWN), session 01a18a48-0e7c-7892-9560-3672bf9cf6ef. Prior evening session CLOSED; this is a fresh Will-launched startup. Previous completion preserved verbatim: research/2026-10-29_codex-evening-boot/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
@@ -8,16 +8,19 @@ Instruction and approval recovery completed. Operational boot PARTIAL, with inde
 
 ## CHANGED
 
+Access-recovery evidence and current-state corrections; create-only INFO packet PROME/inbox/2026-10-29_from-WALTER_intake-and-X-access-restored.md supersedes the earlier access-failure report. Tokens remain ignored and local. No tool/spec or collector edit.
+
 Boot/read/market evidence; REGISTRY owner-header refresh; STATUS and memory session note; this continuity record and SESSION_LOG. Operational packet PROME/inbox/2026-10-29_from-WALTER_codex-startup-access-and-R1-warning.md flags the local sync failure, stale READS and reproduced R1 warning. Notification/consumption UNKNOWN. Startup evidence/packet committed at d478fc4e8715b238603e592818b5f641025832a5; origin state pending at fresh fetch. Routine push deferred; notification and recipient consumption UNKNOWN. Receipt metadata follows in its own exact-path commit.
 
 ## RESULT
+
+**Access recovery completed at 2026-10-30T01:06:55Z:** Research-Intake synced by its default stored credential to 63a16b4, local/remote 0 ahead / 0 behind, six healthy feeds, scanner 0 NEW / 28 suppressed. Will completed X browser approval; read-only bookmark API probe PASS (50 rows, more pages available), seen/pending unchanged. No staging or marks. Evidence: research/2026-10-29_intake-access-recovery/RECOVERY.md. No substantive bookmark review or complete queue scan claimed.
 
 Doctor 0 HIGH / 2 MED; correction receipts 0 owed; boot basis matches 29 paths. Read all 48 owner threshold IDs and required fire ledgers; RED view hash matches canon. No new fire in completed checks. Cboe publisher successfully read: SKEW 148.74 [October 28]; prior Cboe access gap superseded for this pull only. HY 314 [October 28] near-exit watch unchanged, exits 0/3 and 0/5. Root pull initially blocked by foreign dirty PROME files, then succeeded after their owner committed; no foreign edit/stash. Inbox and dropzone empty. No marks.
 
 ## GAPS
 
-- Local Research-Intake pull HTTP 403, clone October 28. Remote collector proven healthy October 29 20:00:25Z through connected GitHub; local diagnostic keys are not current onsets. No intake --mark or re-route.
-- X refresh failed; current bookmarks unread, no IDs marked, no browser authorization initiated.
+- X access restored, but bookmark content remains unreviewed in this recovery: one page was an access probe only, older-page coverage incomplete. No IDs staged or marked.
 - Broad first-30-line owner/filter context is PARTIAL; header review does not certify all owner evidence. Current settlement grades, HANS sovereign/compound checks and CREED qualitative/cohort censuses incomplete. HANS-T-12 and boundary #5 UNINSTRUMENTED. KRE/WAL October 29 history rows NULL; quotes not substituted for missing closes.
 - Cross-runtime fleet visibility incomplete; readiness UNKNOWN. Truncated Codex task list and ORCH_INFLIGHT do not establish DARK. Recipient consumption beyond the preceding session's named receipts remains UNKNOWN.
 - READS attestation stale October 23; coordinator registry reconciliation dated November 3. Current-byte boot basis match does not certify execution/perimeter.
@@ -29,11 +32,11 @@ Doctor 0 HIGH / 2 MED; correction receipts 0 owed; boot basis matches 29 paths. 
 
 ## WILL_NEEDS
 
-None urgent. X reauthorization requires Will's browser when that intake is needed; no authorization flow started. Existing optional/unapproved items remain Iran group-3 trims, kill_strings backfill recommendation no, and verification of the retired launcher flag. No new decision or trade approval requested.
+None urgent. X reauthorization completed by Will in this session; no further access decision needed. Existing optional/unapproved items remain Iran group-3 trims, kill_strings backfill recommendation no, and verification of the retired launcher flag. No new decision or trade approval requested.
 
 ## FOLLOW-UP
 
-Current startup dependencies: recover local Research-Intake Git access, reauthorize X in Will's browser when desired, complete omitted filter/threshold context, and retain November 3 READS reconciliation. Continue only independent authorized work while these are pending.
+Access blockers resolved. Remaining startup work: substantive bookmark scan/review, omitted filter/threshold context and November 3 READS reconciliation. Prior source/owner duties below remain unchanged.
 
 Prior dated work, unchanged unless a named owner artifact supersedes it:
 
@@ -69,7 +72,7 @@ Current startup receipt; preceding publication cohort retained and verified sepa
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-30T00:58:44Z",
+  "as_of": "2026-10-30T01:06:55Z",
   "next_review": "2026-10-30",
   "publication": [
     {
@@ -129,25 +132,30 @@ Current startup receipt; preceding publication cohort retained and verified sepa
       {
         "path": "AGENTS/WALTER/research/2026-10-29_codex-evening-boot/THRESHOLD-SCAN.md",
         "sha256": "b406a931c85562aefa1348fd2d7ddd3c3dca7aeb7d48485cd871cd79832977e9"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-29_intake-access-recovery/RECOVERY.md",
+        "sha256": "d04f9c360e86b7617e23e96899a518ee4a625f3fe6f2cfb94299ddb4f9a8cb08"
       }
     ]
   },
   "procedure": {
-    "tier": "full",
+    "tier": "light",
     "boot": "PARTIAL; instruction and approval recovery complete",
-    "session": "Fresh Will-launched Codex owner. Startup artifact committed; routine publication deferred; no cross-session sends. Checkpoint receipt metadata committed separately."
+    "session": "Same Will-launched Codex owner; intake and X access recovery complete. No content review, signal, mark, launch or cross-session send. Publication remains coordinated."
   },
   "manual_duties": {
     "0": "Foreign dirty stop respected; later rebase pull succeeded; no push.",
     "0.5": "Doctor zero HIGH/two MED, carried by scope.",
-    "1-9a": "Explicit reads and selected scans recorded in BOOT-RECEIPT; 7 filter context PARTIAL; 7e Git sync unavailable; 7h failed token refresh.",
+    "1-9a": "Prior partial boot conserved. 7e access recovered, current scanner 0 NEW. 7h reauthorization and one-page access validation succeeded; substantive queue scan/review remains incomplete.",
     "9b": "UNKNOWN where current cross-runtime owner visibility unverified; no doorbell.",
     "11": "No new signals, batches or market handoffs; one operational PROME packet.",
     "12": "Current partial startup state and dated market observation; oldest contiguous dated rows rotated verbatim to SESSION_LOG.",
     "13": "Existing registry owner-header refresh only; no grade or roster change.",
     "14": "Standing memory retained; session note refreshed; no auto-memory authored.",
     "root.retirement": "No new retirement-eligible artifact; broad historical retirement review not claimed complete.",
-    "16": "Startup evidence and PROME packet committed with exact paths. Routine push deferred under BOARD_CONSUMPTION_SPEC section 7. No new market delivery rows or published handoff to reconcile."
+    "16": "Startup evidence and PROME packet committed with exact paths. Routine push deferred under BOARD_CONSUMPTION_SPEC section 7. No new market delivery rows or published handoff to reconcile.",
+    "Tier1": "Transport repair only. Affected access state corrected; no fresh-market or family-wide clearance. Light checkpoint; full narrative deferred."
   }
 }
 END_CLOSEOUT_RECEIPT -->

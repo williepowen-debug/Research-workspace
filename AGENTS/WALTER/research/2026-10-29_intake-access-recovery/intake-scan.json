@@ -1,0 +1,415 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-29T20:00:25Z (1 missed weekday runs, 0 calendar days)"
+    ],
+    [
+      "OK",
+      "news search items saved: 242 (trailing median 190 over 10 batches)"
+    ]
+  ],
+  "new": [],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=48.1 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.24 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=314.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=314bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:VLY_2026_10_22_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "VLY 2026-10-22 ['2.02', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:FLG_2026_10_23_2_02_7_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "FLG",
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "FLG 2026-10-23 ['2.02', '7.01', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:MSFT_2026_10_28_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MSFT 2026-10-28 ['2.02', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:GOOGL_2026_10_28_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "GOOGL 2026-10-28 ['2.02', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:NCLC_2026_10_29_5_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "NCLC 2026-10-29 ['5.02', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:NCLC_2026_10_29_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "NCLC 2026-10-29 ['2.02', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-10-29/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "3 NEW_ALERT item(s) \u2014 read data/2026-10-29/news.json",
+      "label": "3 NEW_ALERT",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-29/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "9 NEW_WATCH item(s) \u2014 read data/2026-10-29/news.json",
+      "label": "9 NEW_WATCH",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:944aecf25773",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CRUISE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "NCLH's Q3 outperforms, full year guidance goes up - Seatrade Cruise News",
+      "label": "WATCH_HIT [CRUISE:'NCLH guidance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:1207734d5765",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CRUISE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Royal Caribbean raises 2026 earnings guidance after strong third-quarter results - Travel Daily News International",
+      "label": "WATCH_HIT [CRUISE:'Royal Caribbean guidance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:48c099c016f4",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CRUISE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Norwegian Cruise Line Soars 11% on Raised Guidance as CEO Sees \u201cMeaningful Acceleration\u201d in 2027 - TIKR.com",
+      "label": "WATCH_HIT [CRUISE:'Norwegian Cruise guidance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:64a11414b5c8",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CRUISE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Royal Caribbean Q3 Adjusted EPS $6.57 Beats Guidance; Full-Year Outlook Raised to $17.85-$17.95 - Minichart",
+      "label": "WATCH_HIT [CRUISE:'Royal Caribbean guidance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:17ad07244232",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia to extend diesel export ban, use quotas to fulfil US deal, sources say - Reuters",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'US diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:30a33eb835b9",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia to extend diesel export ban, raise quotas to meet US supply commitment: Report - Firstpost",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'US diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:0230b7db4780",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Trump Says He is Still Considering Diesel Export Ban - EnergyNow.com",
+      "label": "WATCH_HIT [BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:70d5275e345e",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia to Extend Diesel Export Ban, Allow Some Shipments Under Quota System to US - www.marketscreener.com",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'US diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:7796e6d54239",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "BROCK",
+        "LIQUID"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "Blue Owl third-quarter profit beats estimates, AUM hits record $330 billion - Reuters",
+      "label": "DEVELOPMENT [known entity Blue Owl + escalation qualifier]",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:ee483a962774",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BROCK"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Blue Owl Fees Beat Estimates Though Redemptions Weigh on Inflows - Bloomberg.com",
+      "label": "WATCH_HIT [BROCK:'Blue Owl redemptions']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:41396c84726c",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "SHADE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Insurance moves: Markel, Hanover, Group 1001 and ICW Group - Insurance Business",
+      "label": "WATCH_HIT [SHADE:'Group 1001 Insurance']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:6bfe2232adfd",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Eases Fuel Rations in 15 Regions After Kyiv Halts Refinery Attacks - Kyiv Post",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:36cd8e77cea6",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia to extend diesel export ban until end of year - scanx.trade",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:3ad195bac4bd",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "HANS",
+        "MARCO"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "ICE reports record open interest in TTF natural gas contracts - Investing.com",
+      "label": "DEVELOPMENT [known entity ICE + escalation qualifier]",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:fb54a8b4bab0",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "EU gas storage is 75% filled - EU Reporter",
+      "label": "WATCH_HIT [HANS:'EU gas storage']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:dcbea16a68b8",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "HANS",
+        "MARCO"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "ICE\u2019s TTF Options Reach Record Open Interest as Customers Hedge Natural Gas Price Risk - Business Wire",
+      "label": "DEVELOPMENT [known entity ICE + escalation qualifier]",
+      "onset": false
+    }
+  ]
+}

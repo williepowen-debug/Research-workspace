@@ -1,0 +1,9 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-29_from-WALTER_intake-and-X-access-restored.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"

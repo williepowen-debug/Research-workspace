@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-30T01:05:18Z",
+  "method": "one bookmark API page, no queue staging or marking",
+  "read_only_scopes": "tweet.read users.read bookmark.read offline.access",
+  "status": "PASS",
+  "page_items": 50,
+  "more_pages": true,
+  "seen_unchanged": true,
+  "pending_unchanged": true,
+  "seen_sha256": "13111ecdfd0b01f1af31f00773b1570b10176f7ff223e2fa37ca704b76629061",
+  "pending_sha256": "bc71d305dec59bf41779158252c38acb39022ec0b78f7ec65d8303a49b518cbe",
+  "bookmark_bodies_saved": false
+}
