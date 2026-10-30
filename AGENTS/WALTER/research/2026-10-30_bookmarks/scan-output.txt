@@ -1,0 +1,210 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 54 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 54]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2115944476292104688  @KobeissiLetter  2026-10-29T23:10:50.000Z  [DIG: media]
+     │ There it is.  Over 60% of the S&P 500's components are now in bear market territory, down -20% or more from their record highs.  Four of the Magnificent 7 stocks are now in bear market territory, with these seven names erasing a combined -$4 trillion in market cap since their highs.  We are in a "stealth" bear market.  And, we believe it's a huge opportunity as we outlined below on October 15th.
+     🖼  photo: https://pbs.twimg.com/media/HV1XYwtWwAAQghc.png
+
+  2. 2116225321993142329  @JTheretohelp1  2026-10-30T17:46:48.000Z  [DIG: media]
+     │ The Dollar, Foreign Investors, and a $20T Problem…  Perhaps the scariest quote and chart I’ve read all week. If you’re a bull, look away. If you’re an unbiased investor ready for cold hard facts, here you go.  The quote and chart are from Deutsche Bank w/some additional commentary by Zerohedge. But the facts reflect the reality. Thanks to this bank and Zerohedge for explaining it in language clear to those not savvy in “market talk.”  According to Deutsche Bank: “We estimate that roughly 90% of the $20+ trillion value of US equities owned by foreigners is attributable to price appreciation rather than underlying buying. Put simply, for every $1 of US equities that has been bought, there are roughly $10 equities now owned.”  Napkin math: roughly $2 trillion of actual buying under $18 trillion of mark-to-market gains (likely from a handful of megacaps). The flow that built the pile was small; the pile that can be sold is not.  Read that last sentence again!  Translation via ZeroHedge:  Our take: the market still treats the dollar as the default hedge for a tech crash, and the unhedged, concentrated positioning prices exactly that. If the next leg of the AI unwind is US-made—which it will be—the dollar is more likely part of the problem than the solution. Nothing says “safe haven” like an asset whose foreign owners are 90% paper gains.  H/T: ZeroHedge, Deutsche Bank Research  Source: Deutsche Bank Research
+     🖼  photo: https://pbs.twimg.com/media/HV5XtyBXgAA172c.jpg
+
+  3. 2116176348293259442  @justmazer  2026-10-30T14:32:12.000Z  [DIG: media]
+     │ if you are non technical and your github looks like this then I want to hire you https://t.co/HHUOO0GcCX
+     🖼  photo: https://pbs.twimg.com/media/HV4q_3Ka8AAaw7-.png
+
+  4. 2116000055249293596  @TheLetterxen  2026-10-30T02:51:41.000Z  [DIG: media]
+     │ BREAKING: U.S. forces reportedly struck Iran’s naval base in Bandar-e-Jask last night, with four missiles hitting the facility in southern Iran.  Axios journalist Barak Ravid also reported that American forces have carried out so-called “self-defense strikes” against Iranian missile launchers along the southern coast over the past two weeks. His post was later deleted, fueling questions about the operation’s disclosure.
+     🖼  photo: https://pbs.twimg.com/media/HV2KwMAXEAAAMKW.jpg
+     🖼  photo: https://pbs.twimg.com/media/HV2KyZ6WsAAGU_K.jpg
+
+  5. 2116215652557951003  @CheddarFlow  2026-10-30T17:08:23.000Z  [DIG: media]
+     │ They're not done.  Someone just added another $1.5M of $QQQ 650 puts  That's $4M+ on one strike in 18 minutes https://t.co/ueY1vwIVfg
+     🖼  photo: https://pbs.twimg.com/media/HV5O7A6WYAAQ2sa.jpg
+
+  6. 2116146568323604534  @MattLasky  2026-10-30T12:33:52.000Z
+     │ I’m a partner in a CRE shop with ~$1B AUM & I tell most people not to allocate to private CRE most of the time.  Cullen Roche & Adam Katz have the right frame: asset-liability matching. Pensions/insurers live by it, individuals mostly ignore it. The question isn’t “what’s the best investment,” it’s “when do I need this money and what’s actually built for that horizon.”  Private CRE fund is 7-10 year money. Capital calls on sponsors schedule, distributions when they say, no exit button. It’s the longest duration, least liquid thing most people will ever own. Any realistic chance you need it sooner and there are problems. The IRR on the deck is irrelevant.  Even when it IS 10 year money, two more gates:  Does the deal work on its own terms? Going-in yield vs cost of debt w/ room for things to break. Well above replacement cost or an exit cap I don’t believe = pass.  Does it beat everything else that belongs in the opportunity set? Public equities, PE, private credit, your own business? Some years a plain index fund wins, nobody’s collecting carry on it, and it's liquid.  Anyone telling you it’s always a good time to allocate to CRE is selling allocation, not returns.  Duration first -> Then vintage -> Then the opportunity set.   In that order.
+
+  7. 2116205004159594607  @dirtcheapbanks  2026-10-30T16:26:04.000Z  [DIG: media]
+     │ Solera National Bancorp, Inc. $SLRK has a ticking time bomb in their call report filed today and the market is unaware of it because the company has not filed a press release. I think the stock is going to collapse here and if you are in it you need to read the call report now.   Here is my thesis:  The bomb: $161.6 million in unhedged long-duration U.S. Treasuries sitting on the balance sheet of a single-branch community bank in Colorado. No derivatives. No hedge. The 10-year was 4% when they bought. It is 5% today. YTD trading losses: $24 million. The position is still open. Rates are still rising.  Implied Q3 2026 net income from the call report: negative $8.7 million. Negative $2.02 per share. This bank earned $5.35 per share last year.  The stock is at $20.10. The screeners still show a 3.3x P/E based on last year. The real trailing P/E once Q3 is absorbed: 14.4x.  The man running this bank is Michael Quagliano, a restaurant owner from Quincy, Illinois who operates from his home in Wellington, Florida. There is no CEO. There is no Chief Risk Officer. There is no risk committee. His daughter sits on the board and is classified as "independent." His compensation was just raised to $2.14 million. His education is not disclosed in any filing.  He made a $326 million leveraged securities bet in Q4 2025 funded by $279 million in short-term FHLB borrowings. The SVB trade. At a bank with 69 employees and one ATM.  Q1 2026 was originally reported as a record quarter. Five months …
+     🖼  photo: https://pbs.twimg.com/media/HV5D9RYWgAAqLLV.jpg
+
+  8. 2116210456259916013  @DeItaone  2026-10-30T16:47:44.000Z
+     │ ANTHROPIC MAY NOT SECURE INVESTMENT-GRADE RATING AFTER IPO, BLACKSTONE TELLS INVESTORS - FT
+
+  9. 2116210625651351747  @DeItaone  2026-10-30T16:48:25.000Z
+     │ *ANTHROPIC EXPECTED TO RECEIVE A “HIGH” JUNK RATING: FT
+
+  10. 2116175838399832288  @pbpost  2026-10-30T14:30:11.000Z  [DIG: link]
+     │ Florida added 60 locally acquired dengue cases in a week, bringing the 2026 total to 485 as of Oct. 24. Here's how to avoid getting bit. https://t.co/98qeIJFGH3
+     🔗 https://www.palmbeachpost.com/story/news/state/2026/10/30/florida-dengue-cases-surge/92477372007/?taid=6ae4a9f21d3fbb0001453b06&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter
+
+  11. 2116179965011951804  @LukeGromen  2026-10-30T14:46:35.000Z  [DIG: media]
+     │ "Warren Buffett metric" (total equity mkt cap as a % of GDP), adj. for Federal debt (b/c Fed will eventually have to monetize it)  Every time it has hit 100% (circles), stocks massively underperformed gold.  Today, it's at 130%.  Gold &lt;$4,000 = something wicked this way comes https://t.co/LsyfVsgRN3
+     🖼  photo: https://pbs.twimg.com/media/HV4tEevW8AAdhYh.jpg
+
+  12. 2116191524765515807  @HormuzLetter  2026-10-30T15:32:31.000Z
+     │ BREAKING: Saudi Aramco has shut down the main oil distillation unit at its 550,000 barrel-a-day Ras Tanura oil refinery, the largest in Saudi Arabia, following Houthi attacks 3 days ago, per Bloomberg.  The main crude oil train took major damage and the unit is expected offline for at least a month.  It is the first attack-related shut down at Ras Tanura, which also houses the world's largest oil export terminal.
+
+  13. 2115881930084196597  @AmtrakNECAlerts  2026-10-29T19:02:17.000Z  [DIG: link]
+     │ Due to a commercial power outage, Washington Union Station is currently without power. As a result, ticket counters, station display boards, restrooms, the food court, and other station amenities maybe unavailable. Train service continues to operate, however could see a minimal impact. Customers are encouraged to take extra time and use caution when moving throughout the station and on platforms, as lighting and station services may be limited. For the latest train status and travel updates, please visit https://t.co/Lc6raWKeA3 or use the Amtrak Mobile App.
+     🔗 http://spr.ly/6019BHWUsh
+
+  14. 2116009752610156769  @fox35orlando  2026-10-30T03:30:13.000Z  [DIG: link]
+     │ The Florida Department of Education is warning millions of families to keep a close eye on their personal information after hackers gained unauthorized access to the state's student financial aid website. https://t.co/8NZVYXZk2C
+     🔗 https://www.fox35orlando.com/news/florida-department-education-warns-data-breach-affecting-nearly-5-million-people?taid=6ae40f45f24b6b00016d0b55&utm_campaign=trueanthem&utm_medium=trueanthem&utm_source=twitter
+
+  15. 2115946789354254589  @tradedmiami  2026-10-29T23:20:01.000Z  [DIG: media]
+     │ Lennar is buying the Boynton Beach Mall.  - ~91 acres in the middle of Palm Beach County - Mall opened in 1985 - Plan: townhomes plus retail, commercial, open space and civic uses - Site has been zoned mixed-use since 2020 - Closing expected early 2027  @Lennar https://t.co/7UyDIVqy1N
+     🖼  photo: https://pbs.twimg.com/media/HV1aZHrWIAA0L0H.jpg
+
+  16. 2116174252982579386  @KenTumin  2026-10-30T14:23:53.000Z
+     │ Highest I Bond fixed rate in 20 years! https://t.co/IWDAhq1PmK
+
+  17. 2115938298438791669  @themiddleeastle  2026-10-29T22:46:17.000Z
+     │ BREAKING: The U.S. Army announced that is now training soldiers in North Carolina to dig mass battlefield graves for American troops for the first time in decades, rehearsing how to handle mass casualties as Trump's war on Iran is near.  The Army says it hasn't needed to do this on a large scale since the Korean War.
+
+  18. 2115923125422764309  @EUxReport  2026-10-29T21:45:59.000Z  [DIG: media]
+     │ 🔴BREAKING NEWS: 🇺🇸🇮🇱🇮🇷  US strikes on the Bandar Jask area 27 minutes ago. 4 missiles targeted a Revolutionary Guard naval base in Jask https://t.co/VSo8Fip278
+     🖼  photo: https://pbs.twimg.com/media/HV1E3ftWgAAlZQG.jpg
+
+  19. 2116177434340999293  @MacrostrategyP  2026-10-30T14:36:31.000Z  [DIG: media, link]
+     │ ***** Crack Spreads are the new "Rate Hikes".... – Spot Brent fell USD6.08 yesterday to USD114.91bbl, dropping below the front month Brent future at USD116.19bbl. Whilst the curve remains in backwardation beyond the front month, this gradual flattening of the curve suggests an easing of spot prices as oil continues to flow, but an elevated price for an extended period as dangerously low inventories need to be rebuilt. This would change the dynamics from inflation to stagnation.Gas and coal prices continued to rise. (The US lent oil companies 40m barrels from its strategic reserves, the last batch of the US share of the global IEA deal).  Obviously, the longer the duration of the high energy price, the worse the situation is, i.e. if its 8% for one day and then comes back down, it is irrelevant. The longer it is above that level, then theoretically the economy would be consuming down the internal energy gradient of the capital stock – (ie things would be depreciating and not being reinvested in) until eventually the economy was sufficiently weak that it declined and the energy share of GDP fell back below that 7.1% level.  https://t.co/zLBQ8zJbwJ
+     🖼  photo: https://pbs.twimg.com/media/HV4rosRWsAAiIwx.jpg
+     🔗 https://themacrostrategypartnership.substack.com/p/macrostrategy-partners-daily-news-621
+
+  20. 2115946580213686764  @DailyMail  2026-10-29T23:19:11.000Z  [DIG: link]
+     │ FBI agent reveals 'existential threat' that could unleash chaos across US without warning as Pentagon prepares for blackouts... and why families must stockpile food, keep cash and pack escape bags now https://t.co/dRA5OzUhEm
+     🔗 https://trib.al/WXas0wj
+
+  21. 2116137918955663817  @WhaleNewsDaily  2026-10-30T11:59:30.000Z  [DIG: media]
+     │ 🚨 33 COUNTRIES ARE TELLING THEIR CITIZENS TO STOCKPILE FOR EMERGENCY. HERE IS THE FULL LIST   🌍 EUROPE (17): 🇦🇹 AUSTRIA: 10–14 DAYS 🇩🇪 GERMANY: UP TO 10 DAYS 🇸🇪 SWEDEN: 1 WEEK 🇳🇴 NORWAY: 1 WEEK 🇨🇭 SWITZERLAND: 1 WEEK 🇪🇪 ESTONIA: 1 WEEK 🇬🇧 UK: 3 DAYS 🇫🇷 FRANCE: 72 HOURS 🇳🇱 NETHERLANDS: 72 HOURS 🇩🇰 DENMARK: 3 DAYS 🇫🇮 FINLAND: 72 HOURS 🇱🇻 LATVIA: 72 HOURS 🇱🇹 LITHUANIA: 72 HOURS 🇵🇱 POLAND: 3 DAYS 🇨🇿 CZECHIA: 72 HOURS 🇭🇷 CROATIA: 72 HOURS 🇮🇪 IRELAND: "STOCK THE ESSENTIALS"  🌎 AMERICAS (7): 🇨🇦 CANADA: 72 HOURS 🇲🇽 MEXICO: 72 HOURS 🇨🇱 CHILE: 72 HOURS 🇨🇴 COLOMBIA: 72 HOURS 🇺🇸 USA: "SEVERAL DAYS" 🇧🇷 BRAZIL: EMERGENCY KIT 🇦🇷 ARGENTINA: EMERGENCY KIT  🌏 ASIA (6): 🇹🇼 TAIWAN: 7 DAYS 🇯🇵 JAPAN: 3 DAYS, 1 WEEK IF POSSIBLE 🇮🇱 ISRAEL: 3 DAYS 🇮🇳 INDIA: EMERGENCY KIT 🇵🇭 PHILIPPINES: GO BAG 🇸🇬 SINGAPORE: READY BAG  🌏 OCEANIA + AFRICA (3): 🇳🇿 NEW ZEALAND: 3+ DAYS 🇿🇦 SOUTH AFRICA: 3 DAYS 🇦🇺 AUSTRALIA: EMERGENCY KIT  🇪🇺 EU: EVERY CITIZEN READY FOR 72 HOURS  REASONS GIVEN: WAR. EXTREME WEATHER. CYBER ATTACKS.  SAME WEEK: A $6.3 BILLION HACK HIT BINANCE, THE BIGGEST CRYPTO HEIST ON RECORD.  WHAT DO THEY KNOW THAT WE DON'T?  FOLLOW ME FOR EVERY NEW COUNTRY THAT JOINS 🔔
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2116137787590131712/img/3bhv8teutTCHvJTT.jpg
+
+  22. 2115852901780533758  @OpenRouter  2026-10-29T17:06:57.000Z  [DIG: link, pointer]
+     │ Read more about our approach: https://t.co/d9jJfxr78k
+     🔗 https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing/
+
+  23. 2115952375810998346  @Currentreport1  2026-10-29T23:42:13.000Z  [DIG: media]
+     │ US is carrying out a major military airlift to the Middle East, with a large number of transport aircraft moving toward the region as Washington warns Gulf countries to prepare for a possible resumption of war with Iran.  At least 10 US military transport planes have arrived at Israeli bases in the past 24 hours, with some carrying additional Patriot air defense systems.  More US transport aircraft have landed in Jordan, Saudi Arabia and Qatar in recent hours.
+     🖼  photo: https://pbs.twimg.com/media/HV1fd7QaoAAQxUU.jpg
+
+  24. 2115971045551456691  @JMChyno  2026-10-30T00:56:24.000Z
+     │ ALERT: Wave of major cyberattacks hit Polymarket, Binance, US FEC, Florida education system and more in one week.
+
+  25. 2116175558283325440  @DeItaone  2026-10-30T14:29:04.000Z
+     │ DEUTSCHE BANK WARNS AI SELLOFF COULD WEAKEN US DOLLAR  Deutsche Bank warns the US dollar may lose its traditional safe-haven status during an AI-driven stock market correction.  Foreign investors hold over $20 trillion in US equities, with roughly 90% of that value attributed to price appreciation.  According to strategist George Saravelos, a US-led technology selloff could push stocks and the dollar lower simultaneously, potentially triggering increased currency hedging by foreign investors.  The key takeaway: An AI-driven market correction could create a double hit to US equities and the dollar, challenging traditional safe-haven assumptions.
+
+  26. 2115824019106857179  @HormuzLetter  2026-10-29T15:12:10.000Z
+     │ BREAKING: Israel asks US for approval to strike Iranian energy facilities as soon as possible, per Kan 11.  Netanyahu is seeking Trump's green light for targets the US has not yet authorized.
+
+  27. 2116081694092714428  @leshka_eth  2026-10-30T08:16:05.000Z  [DIG: media]
+     │ 🚨 BREAKING  🇺🇸 ALL INSIDERS JUST STARTED AGGRESSIVELY DUMPING RISK ASSETS AHEAD OF THE U.S. MARKET OPEN TODAY!  EVERY SINGLE INSIDER IS NONSTOP SELLING BILLIONS RIGHT NOW:  0 BUYS. 1,509 SELLS. $19.58 BILLION IN VOLUME.  LOOKS LIKE THE MARKET WILL COLLAPSE... https://t.co/mngKFlIOIM
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2116081674173952000/img/J9M7nAZP5ayKJGYL.jpg
+
+  28. 2116012298460610712  @Osinttechnical  2026-10-30T03:40:20.000Z  [DIG: media]
+     │ The UKMTO reports that IRGC forces sailed a small boat into the US-protected Hormuz lane overnight, attached a pair of limpet mines to the side of an oil tanker, and blew a hole in its engine room. https://t.co/7u9oSoxpmC
+     🖼  photo: https://pbs.twimg.com/media/HV2V-E6XEAAY1iK.jpg
+
+  29. 2116028644468392438  @HormuzLetter  2026-10-30T04:45:17.000Z  [DIG: media]
+     │ BREAKING: Ukraine has just struck Russia's Novokuibyshevsk oil refinery, and set it ablaze this morning with black smoke rising several kilometres.  It is the first Ukrainian strike on Russian oil infrastructure in nearly 2 weeks, after the St. Petersburg oil port on October 18.  Russia's Rosneft said it has stopped repairing most of its oil refineries because the strikes made the damage cycle too expensive to sustain.
+     🖼  photo: https://pbs.twimg.com/media/HV2klZNWUAAGNt8.jpg
+     🖼  photo: https://pbs.twimg.com/media/HV2kmlVWAAEBR8d.jpg
+
+  30. 2116168436883566622  @TheIranianzg3z  2026-10-30T14:00:46.000Z
+     │ BREAKING: The US is deploying additional military forces to the Middle East, according to Fox News, as the Army conducts mass-casualty burial drills for potential large-scale conflicts.  The exercise tested the military’s ability to handle up to 2,400 remains within 24 hours, per the US Army.
+
+  31. 2115847093122150493  @thegreattaking  2026-10-29T16:43:52.000Z  [DIG: media]
+     │ 🚨 BREAKING: Hackers are hitting banks in 7 countries at the same time. https://t.co/eQqZdbxpzo
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2115847022582370304/img/vraDTHJXuW66ZQ3q.jpg
+
+  32. 2116172297706860847  @DeItaone  2026-10-30T14:16:07.000Z
+     │ MAJOR BANKS RAISE OIL PRICE FORECASTS FOR 2026 AND 2027  Major banks have raised their oil price forecasts, according to a Wall Street Journal survey.  2026 Forecasts:  🔸 Brent: $90.40/bbl, up from $88.13 🔸 WTI: $84.38/bbl, up from $82.98  Q4 2026 Forecasts:  🔸 Brent: $94.78/bbl, up from $90.22 🔸 WTI: $88.10/bbl, up from $85.47  2027 Forecasts:  🔸 Brent: $76.74/bbl, up from $74.75 🔸 WTI: $70.52/bbl, up from $69.86  Q1 2027 Forecasts:  🔸 Brent: $84.63/bbl, up from $83.44 🔸 WTI: $79.71/bbl, down from $79.88  The key takeaway: Banks expect elevated oil prices through late 2026, followed by moderation in 2027.  Source: The Wall Street Journal — Major Banks Oil Price Survey
+
+  33. 2116073351034937399  @JavierBlas  2026-10-30T07:42:56.000Z  [DIG: media]
+     │ BIG OIL 3Q EARNINGS: BP reports its highest profit in 18 years on the back of sky-high refining margins. The company reduces debt sharply (nearly $10 billion in a single quarter), and says it plans to use excess cash to accelerate payments linked to the US Gulf of Mexico spill. https://t.co/hp9XOoNvex
+     🖼  photo: https://pbs.twimg.com/media/HV3NWQwaEAEud4j.jpg
+
+  34. 2116051165117141013  @JMChyno  2026-10-30T06:14:46.000Z
+     │ BREAKING: Japan's PM office warns of mass personal data leaks from successive cyberattacks and urges victims to seek official help.
+
+  35. 2116125795953385727  @chigrl  2026-10-30T11:11:20.000Z
+     │ $XOM $CVX Exxon and Chevron Beat Estimates as Oil Refining Profits Soar  ExxonMobil Holdings Corp. and Chevron Corp. beat profit expectations as conflicts in the Persian Gulf and Russia roiled energy markets, driving refining results to record highs.  ExxonMobil’s adjusted third-quarter earnings of $4.23 a share were 10 cents higher than the average analyst estimate. Chevron’s, at $5.28 a share, were 35 cents higher than expectations. (Reuters)
+
+  36. 2116085070956265778  @XTexchange  2026-10-30T08:29:30.000Z  [DIG: media, link]
+     │ 🛢️ Energy Earnings Showdown!  $XOM vs. $CVX — Two oil giants report Q3 earnings today, before the US market opens. With oil prices in focus, which company will deliver the stronger results? 👀  🔗 Explore XT TradFi markets: https://t.co/gFR5gbYajD  #Oil #XTexchange #XTtradFi https://t.co/hDYV7iqu9f
+     🖼  photo: https://pbs.twimg.com/media/HV3XhCBbcAA-1nA.jpg
+     🔗 https://www.xt.com/en/futures/tradfi
+
+  37. 2116143072186958129  @FirstSquawk  2026-10-30T12:19:59.000Z
+     │ OMAN'S NAVY: EVACUATES 25 CREW FROM VESSEL AFTER BEING STRUCK 1.6 NM OFF OF OMAN'S MUSANDAM - STATEMENT
+
+  38. 2116149714949156914  @BRICSinfo  2026-10-30T12:46:22.000Z
+     │ JUST IN: 🇴🇲 Oman rescues 25 crew members from ship targeted in attack off Musandam.
+
+  39. 2116143823713882386  @macropaperr  2026-10-30T12:22:58.000Z  [DIG: media]
+     │ ₺270,000,000,000 has been wiped out from the Turkey stock market today.  Everything is dumping now. https://t.co/lX44kAxPOP
+     🖼  photo: https://pbs.twimg.com/media/HV4NjX4bYAAeg36.jpg
+
+  40. 2115851551205896245  @GlobalMktObserv  2026-10-29T17:01:35.000Z  [DIG: media]
+     │ US credit market is CRACKING beneath the surface:  Option-adjusted spreads on US high-yield bonds rated CCC or lower have surged to 13.45%, their highest level since the 2020 CRASH.  In other words, investors demand significantly more compensation for credit risk.  This comes as lower-rated companies face rising pressure from overleveraged balance sheets, higher interest rates, and business models disrupted by AI and changing consumer behavior.  In effect, companies struggling to repay their debt are increasingly negotiating with bondholders to change repayment terms, raising the risk that investors will recover less money than expected.  Stress is increasingly uneven across sectors, with CCC-rated telecom, cable, transport and media bonds facing further spread widening.  At the same time, retail, utilities, energy and food bonds saw spreads tighten sharply in October.  Credit investors are starting to see what equity investors are missing.
+     🖼  photo: https://pbs.twimg.com/media/HV0DxfPW4AA6BsI.jpg
+
+  41. 2116143689437446354  @TomKloza  2026-10-30T12:22:26.000Z
+     │ Valero is buying the mothballed Lyondell refinery in Houston and today said they will restart the facility and process about 167,000 b/d of crude and feedstock sometime in 2027. Not on most traders' bingo cards for sure.
+
+  42. 2116168124550545804  @GlobalMktObserv  2026-10-30T13:59:32.000Z  [DIG: media]
+     │ Institutional investors RAMPED UP their BULLISH tech positions just before the SELLOFF:  Speculative investors added ~$60 BILLION in Nasdaq futures over the last 2 months, marking their largest 2-month increase on record.  These investors include leveraged funds such as hedge funds and CTAs, as well as other institutional asset managers.  This pushed Nasdaq Non-Dealer Net Positioning to +$55 BILLION, its highest level in at least 2 years, according to CFTC data.  Meanwhile, Nasdaq 100 Futures are now down over -2%, to their lowest level since early August.  The market’s most crowded tech position ran into massive earnings disappointments from Big Tech.  Truly incredible.
+     🖼  photo: https://pbs.twimg.com/media/HV4jsb2XUAArM6H.jpg
+
+  43. 2116166856381980703  @OddStats  2026-10-30T13:54:29.000Z
+     │ That's two different fun facts from two different instruments (SOXX and QQQ) where the list of other times in history that were like this week was basically:  - The 2 biggest collapses since the Great Depression - Global pandemic - Liberation Day - Right now  Good luck.
+
+  44. 2116168357367988395  @zerohedge  2026-10-30T14:00:27.000Z  [DIG: link, pointer]
+     │ Reddit Crashes As Weak User Growth Spooks Wall Street  https://t.co/pfgnCPpgEm
+     🔗 https://www.zerohedge.com/markets/reddit-crashes-weak-user-growth-spooks-wall-street
+
+  45. 2116165371245830301  @TomKloza  2026-10-30T13:48:35.000Z
+     │ Let's put Valero purchase of LyondellBasell refinery in perspective. They are paying $320.5-million. That essentially matches the cost for the two refinery turnarounds staged by Irving Oil in 2023 and 2026. Quite a bargain price.
+
+  46. 2116153150163882028  @macropaperr  2026-10-30T13:00:01.000Z  [DIG: media]
+     │ $3.54 TRILLION has been wiped out from just 5 Magnificent Seven stocks since their all time highs.  • Google: -$1.54 trillion (-30.8%) • Nvidia: -$734 billion (-12.5%) • Amazon: -$458 billion (-14.8%) • Meta: -$434 billion (-21.3%) • Tesla: -$373 billion (-18.9%)  5 of the Magnificent 7 are now down more than 10%, and Google and Meta are already in a bear market.  What is even happening in US Stock market.
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2116147250128998400/img/uXQZvJzCOYrBzMac.jpg
+
+  47. 2116012083137650860  @GoldTelegraph  2026-10-30T03:39:28.000Z
+     │ BREAKING NEWS   RIO TINTO HAS SUSPENDED UNDERGROUND OPERATIONS AT ITS MASSIVE OYU TOLGOI COPPER MINE IN MONGOLIA.  One of the largest copper and gold mines globally.
+
+  48. 2116108225783218620  @JacobKinge  2026-10-30T10:01:31.000Z  [DIG: media]
+     │ BREAKING: We have officially breached bear market territory.  Over 60%+ of S&amp;P 500 stocks have hemorrhaged -20% or more from their peak highs. https://t.co/FGkAqsRNdL
+     🖼  photo: https://pbs.twimg.com/media/HV3tN0_XUAEfH1N.jpg
+
+  49. 2116165266535076230  @OddStats  2026-10-30T13:48:10.000Z
+     │ SOXX, the semiconductor ETF, was down -7.03% already this morning; the second time in 7 trading days this has happened.  Here's a list of every time SOXX had at least 2 such draw downs within a 7 trading day period:  - Sep '01 - Oct '02 - Q4 '08 - COVID - Liberation Day - The month after AI peaked this June - Right. Fucking. Now.
+
+  50. 2116104181677162765  @zerohedge  2026-10-30T09:45:26.000Z  [DIG: link, pointer]
+     │ Key China Copper Gauge Flashes Warning As Mysteel Global Warns Metal Is "Sold Out Everywhere"  https://t.co/7tJCIH5bFP
+     🔗 https://www.zerohedge.com/commodities/key-china-copper-gauge-flashes-warning-mysteel-global-warns-metal-sold-out-everywhere
+
+  51. 2116069844110213247  @puckrin  2026-10-30T07:29:00.000Z  [DIG: media]
+     │ High yield credit spreads are skyrocketing.  The ICE BofA CCC- bond yield index is at 6 year highs.  Historically, high yield corporate spreads were able to identify impending economic problems before equity markets could.  Probably nothing... https://t.co/frGdSJ1doS
+     🖼  photo: https://pbs.twimg.com/media/HV3D2eZbcAAx45s.jpg
+
+  52. 2116143125500702984  @OddStats  2026-10-30T12:20:11.000Z
+     │ Fuck.  For absolutely no reason whatsoever, here is a list of every time in QQQ history where it ▪ Gapped down -2.5% or worse ▪ On a Friday ▪ Following a -1% day  - 3 times in 2001 - Jun 2002 - Oct 2008 - Twice at the beginning of COVID - Liberation Day - Possibly today
+
+  53. 2116157630720950768  @Polymarket  2026-10-30T13:17:50.000Z
+     │ BREAKING: U.S. Treasury borrows a record $839,000,000,000.00 through debt auctions in a single week.
+
+  54. 2115975905202024860  @jimcramer  2026-10-30T01:15:43.000Z
+     │ Scanning the sheets, today there was a vast program where there were billions taken out of tech and put into consumer product stocks, health care and banks. Very strange, and maybe not finished
+
+
+Bookmark receipt — 2026-10-30T19:13:17Z
+Fetched 54 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-10-30T19:13:17Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.
