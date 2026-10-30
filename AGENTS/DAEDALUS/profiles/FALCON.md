@@ -1,55 +1,110 @@
-# FALCON — DAEDALUS Comprehension Profile
+<!-- INSTALLED 2026-10-30 by DAEDALUS (whole-profile refresh, eighth of the accepted nine). Mode-A: three Opus readers (R1 architecture, R2 ledgers/guards, R3 flows/ladder), read-only, FALCON never launched or messaged; DAEDALUS re-verified every 🟠 at the artifact. Record: runs/2026-10-30_FALCON_REFRESH.md; reader reports runs/2026-10-30_FALCON_REFRESH_READERS/ (index FALCON_REFRESH_READER_REPORTS.md). Prior body (8/07 + 8/15 Δ + banners to 10/21) preserved at profiles/_prior/FALCON_2026-10-30_before_refresh.md (crc32 3140782960). -->
+# Agent Profile — FALCON
 
-> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: L4 trade leg PASS under reading A3: charter DOMAIN SCOPE excludes oil as a trade to LIQUID and owns theater signals; HAWK STATUS October10 consumes them. WQ192 is event-specific NO DEPLOY, not the no-book authority. D85→92 registered WQ355; WQ432 keeps gate leg2 provisional; FAL06 dated-search rule adopted WQ433. L5 clean/current not fully adjudicated. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+**Profile vintage:** 2026-10-30 · **FULLY REWRITTEN: 2026-10-30** (Mode-A, HEAD `b2188833f`; FALCON's last commit `475f2dea6` 10/30 16:49:55 after an L886 wake; `git status -- AGENTS/FALCON/` clean at every reader check 17:38–17:48, no FALCON commit during the read)
 
-> ⚠️ **NO DATED STALENESS TRIGGER (PR#5 2026-09-01):** this profile names no day clock or floor, so `scripts/profile_clock_check.py` reports it NO-DATED-CLOCK and cannot certify it. Add one at the next refresh (checkpoint **2026-09-15**).
+**Built by:** DAEDALUS · **Method:** Mode-A, 3 parallel readers; synthesis + artifact re-verification by DAEDALUS
+**Sources read:** charter whole (chunked) · STATUS, SCRATCH, MEMORY, LESSONS, NEXUS_BRIEF, LAST_COMPLETION, SOURCES whole · `thesis/` (THESIS, PREDICTIONS every row, CHANGELOG/ARCHIVE heads) · `workbook/` (VX every row, EXIT_PROTOCOL, FLOW, KB census, WARRISK) · `registry/` · all 5 watch scripts (run on copies only; four write state files) · git since 8/15 · inbox/outbox/board_log · DOCKET/GATES rows · research/reports/domain census. **Not read:** the 8/15 war-triad review files directly (taken via the prior profile), TIMELINE body, PREDICTIONS_ARCHIVE body. Exact coverage: each reader's coverage section.
+**Staleness (dated):** refresh when ANY fires — (1) **2026-11-05**: FAL-06 resolves and THESIS v3.0's dated rewrite trigger falls due; (2) the 2026-11-04 weekly/gate review lands (EXIT §1/§3 re-stamped, IRAN-01/DIPLOMACY-01 band proposal); (3) Will rules WQ-559 (FAL-07 search window); (4) STATUS marks leave **B 1 / C 14 / D 85** or confirmed losses leave **6**; (5) FALCON gains READS rows (the read-cap perimeter changes); (6) >45 days (→ 2026-12-14).
 
-**Built:** 2026-08-07 (first profile — closes the top build-queue slot; Mode-A single-reader full read, all clusters) · **Grade at build:** L4 Conf-H (promoted 8/7, run #3) · **Class:** Market (Iran/Gulf war theater — Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad/PMF discriminator; HAWK-split sibling of OSPREY, spun out 2026-07-12) · **Staleness:** work-volume-keyed (PAT-085) — **trigger FIRED 8/15** (8/10 double session + 8/15 recovery session were both heavy Will-active; Δ-block below is the sanctioned interim, full refresh owed at next touch).
+## 1. Identity
 
-> ⚠️ **Δ-BLOCK 2026-08-15 (war-triad review; full evidence `upgrades/WAR_TRIAD_REVIEW_2026-08-15_READER_REPORTS.md` §READER 3).** ① **Write-back tail CLOSED 8/10** (4d late, as the 8/7 packet predicted) — retire the `:40` flag; VX = **9 rows incl. VX-FALCON-SUNK-01** (registered 8/10, cell credits the absent-flag); inbox **empty both lanes**. ② **ADD to anatomy: `domain/vessel-incidents/VESSELS.tsv`** (19 rows/20 cols, born 8/10 with a two-clock header at birth — currently outside the `ledger_staleness` workbook glob, nothing reads it). ③ **Reference-rail rot cluster** (my 8/15 rail-repair packet, Will-gate on D-indicator wording): SUNK indicator fired-on-its-letter (VX-SUNK-01, 8/4) while 4 surfaces read unfired · twice-refuted first-fatality claim live in the rail §3.5 AND `VX.tsv:6` · 7/30 Status cells incl. the kill-#4 **$0.60 near-miss** (PROME spot-fixed #4 8/15; the second `$90.21` at `:65` still live) · §5 clock 9d past. ④ **The STATUS first-fatality correction banner is itself superseded** — 7th already-true instance, inside the correction machinery; true first fatality UNRESOLVED (VI-2026-0001/0002). ⑤ THESIS header/body contradiction now 16d (three sessions survived). ⑥ GATE-FALCON-001: leg-3 **ADJUDICATED FIRED 8/15** (Will: R3 HOLD 1/5; Petroline/Ras-Tanura discriminator commissioned to BRENT; sweep #2 DOCKET row 8/19-21); MISSED-WINDOW reconciled honestly both sides. ⑦ PAT-054 consumer-mutation: re-verified 8/15, still zero hits. ⑧ 8/15 session discipline (watch-only, zero mark moves, adjudication-with-receipts) = strong L4 evidence.
+US/Israel/Iran–Gulf war-theater desk (spun out of HAWK 7/12): converts kinetic events into a molecule-scoped premium-vs-supply-loss read that HAWK synthesises and BRENT prices; also routes Gulf ammonia/urea shocks to FERT and Gulf theater info to CRUISE (`_NETWORK.md:151-152`). Owner of the fleet's **reference dated falsification rail** (`workbook/EXIT_PROTOCOL.md` v3). The live ladder is **3-tier B/C/D** (THESIS, EXIT "no Scenario A", `CLAUDE.md:298`); "A/B/C/D" at charter `:37, :223, :288` is inherited HAWK wording. Current marks (STATUS 10/30): **B 1 / C 14 / D 85**, convergence 43/50, 6 confirmed losses, FAL-06 and FAL-07 OPEN.
 
-## Identity in one line
-Tracks the Iran/Gulf escalation ladder and converts kinetic events into a **molecule-scoped** (crude/gas/refined-product) premium-vs-supply-loss read that BRENT/HENRY/SAM/CARL price off — owner of the fleet's **reference dated falsification rail** (EXIT_PROTOCOL.md, REWRITTEN 2026-07-30) and reference proxy-ratification-by-hash form (STATUS:8).
+Operating pattern: weekly cycle + event wakes. 25 commit-days of 76 since 8/15, longest gap 11 days (8/20–8/31). The 10/30 L886 wake graded a WALTER IMMEDIATE card in ~1h28m on its letter (first spawn went dark 50 min, runtime incident, PROME-handled).
 
-## Routing (two-tier — better than the flat blueprint)
-Routine → HAWK synthesis **via NEXUS_BRIEF.md write-back** (HAWK and NEXUS both read it at boot — it IS the route, not a report). Acute 🔴 → **direct to BRENT, HAWK cc'd** (the one sanctioned bypass). Signals HENRY (VIX catalyst, never level), LIQUID/REGINALD (risk-off, no credit level carried), SAM (Japan energy/LNG), CARL (cracks→pump). **OIL HANDOFF (inherited, Mar-06):** oil fundamentals are BRENT's — this is why there is deliberately no TRADE.md/CALENDAR.md (CLAUDE:7, :330). Has a SPAWNED-MODE BOOT CARD (CLAUDE:27-34) because PROME spawns inherit PROME's cwd.
+## 2. File anatomy (~520 files; inbox 328 mostly processed)
 
-## File anatomy (where the richness lives)
-| Cluster | Files | State (8/7) |
-|---|---|---|
-| Core | `CLAUDE.md` (330 ln; 15-step symmetric boot/closeout; FILES table doubles as inheritance ledger — **3 stale cells**, see flags) · `STATUS.md` (221 ln ≤ cap, 8/6 ~23:45 ET; matrix + P/K/R split + GATE-FALCON-001 legs + **false-fire register :178-198** + BOTTOM LINE) · `SCRATCH.md` (canonical handoff, CLOSEOUT-VERIFIED block) · `LESSONS.md` (4 inherited + 4 own) | LIVE |
-| Thesis | `thesis/THESIS.md` v2.1 (171 ln; molecule-split regime table + 3 channels w/ FLOW-IDs + two-counter-moving-wars table; **header/body ladder contradiction** — see flags) · `TIMELINE.md` (229 ln, stops Jul-27) · `CHANGELOG.md` (append-log, ascending despite "reverse-chron" header) · `PREDICTIONS.tsv` (FAL-01..04 + 11-line calibration preamble) · `PREDICTIONS_ARCHIVE.md` (post-mortems) · `FAL-01_REREGISTRATION_SCAFFOLD.md` (bannered DEAD 7/30 → FAL-04, kept as case study) | LIVE / 11d / frozen-good |
-| Workbook | `KB.tsv` (83 rows KB-FALCON-001..083, 13-col REGINALD-family schema per `SCHEMA.tsv`) · `VX.tsv` (8 rows — 7 VX-HAWK-* provenance-retained + 1 VX-FALCON-*; **VX-FALCON-SUNK-01 absent**, see flags) · `FLOW.tsv` (13 — 11 HAWK rows self-labeled `[STALE Apr20 figs]`+`MUTED (dormant-armed)`) · `WARRISK.tsv` (**three-clock surface**: data 7/23 / attempted 8/6 / registered falsifier + mirror + negative control) · `EXIT_PROTOCOL.md` (84 ln — the reference rail, below) | LIVE |
-| Domain | `energy-strikes/STRIKES.tsv` (31 rows, facilities-only by labeled scope, `swept-complete through: 2026-08-06`) + `ANALYSIS_<date>.md` (**regenerated never appended**, superseded chain bannered — exemplary) · `FRESH_LEG_BASELINE.md` · `BYPASS_INTEGRITY_BASELINE.md` · `KHARG_LOADINGS_SOURCE.md` (FROZEN SPEC by design) · `IRAQ_PMF_DISCRIMINATOR_REVIEW.md` (7/30 UPDATE banner overturns own 7/18 verdict in place; re-review due 8/13) | LIVE / rot-flagged |
-| Instruments | 4 watchers, all cwd-proof (`Path(__file__)`), state JSONs **committed for cross-machine travel**: `baghdad_watch` (DEMOTED 7/18 to positive-alert backstop — dead-feed finding; primary = CTP/ISW+Shafaq) · `hormuz_transit_watch` (PortWatch chokepoint6, 18/day bar off 88 baseline) · `bypass_watch` (**rc-INVERTED: 0=HOLDING, 1=collapse**; runtime rolling floor in state JSON) · `kharg_loadings_watch` (**rc-INVERTED: 1=flow-continuing=REFUTES, 0=UNINFORMATIVE not a strand**) | LIVE, last run 8/6 |
-| Mail | `board_log.tsv` (55 rows, 8/6) · `inbox/` (**2 packets SITTING**: 8/6 PROME ruling + 8/7 DAEDALUS promotion; processed/ 24, WALTER/processed/ 43) · `outbox/` (18 memos, `delivered/` never used — waived by own CLAUDE:98 messaging-overhaul line) | backlog |
+| Cluster | State 10/30 (bytes; % of 32,550 B budget) |
+|---|---|
+| **Charter** `CLAUDE.md` **50,986 B = 157%** (94% of the 54,250 B cap) | +8.8 KB since 8/06; spawned card makes it an explicit whole read; no READS declaration |
+| Boot reads: STATUS 13,634 (42%) · SCRATCH 3,354 · **LESSONS 24,319 (74.7%, 93 B to the rotate line)** · **MEMORY 23,209 (71%, ~200 B/day, uncounted by the tool)** · **thesis/PREDICTIONS.tsv 23,664 (73%; comment header 12,840 B)** · SCHEMA · shared VOCABULARIES | three surfaces projected to cross 75% ~11/04–11/05 (inferred) |
+| Derived: NEXUS_BRIEF (pin = STATUS commit ✓) · LAST_COMPLETION (one session behind) · SOURCES (last additions 9/08; missing NAVAREA IX, IMO, TankerMap API) | |
+| `thesis/` THESIS v3.0 (10/01; rewrite trigger 11/05) · PREDICTIONS (FAL-01..07) · CHANGELOG (titled `# HAWK CHANGELOG`, says reverse-chronological, is ascending) · TIMELINE 41,650 · PREDICTIONS_ARCHIVE 69,796 (header scoreboard 7/30) · FAL-01 scaffold (DEAD, retirement-eligible) | |
+| `workbook/` EXIT_PROTOCOL v3 · VX.tsv (IDs keep `VX-HAWK-` prefix by design) · KB.tsv 376×13 · FLOW.tsv + frozen HAWK migrant · WARRISK.tsv | §4 |
+| `domain/` instrument ledgers (VESSELS, CASUALTIES, STRIKES, FIRMS, TankerMap) + gate letters (FRESH_LEG_BASELINE, FALSE_FIRE_REGISTER, CASUALTY_RATCHET, BYPASS_INTEGRITY_BASELINE) | none in the charter FILES table; no `workbook/LEDGER_GLOB` (open since 8/15) |
+| `scripts/` 5 watchers + 4 state JSONs (transit, bypass, baghdad, kharg, warrisk rows) | kharg dead since 9/16; bypass can't give a verdict (§4) |
+| `research/` 46 (one 10/26 session) · `reports/` 38 · `outbox/` 25 (22 legacy 7/17–8/20) · `archive/` 7 + `domain/sources/` 20 | ~13 outbox memos + 2 reports retirement-eligible |
 
-## Per-dimension vs blueprint
-§1 thesis **RICH** — best-argued version history in cohort (v2.1 openly states v2.0 was false since March). §2 convergence **RICH + local invention**: 10-vector matrix 43/50 **plus P/K/R split** (P 23/25 premium · K 15/20 kinetic · R 13/20 realized-loss, R decomposed R1-R4) with an explicit instruction to grade R directly, against its own composite. §3 thresholds **RICH** — every threshold typed FROZEN vs ROLLING with hardcode-warning ("stale LOW floor fails FALSE-NEGATIVE"); WARRISK carries registered falsifier AND registered mirror. §4 invalidation **THE FLEET REFERENCE**: EXIT_PROTOCOL.md in-content stamp `REWRITTEN 2026-07-30 by FALCON` + 7-row molecule-scoped kill table w/ per-condition dated Status cells + fired-marks ladder + archived March rail §6 "so nobody resurrects it" + **dated rewrite trigger** (FAL-04 / 5th axis / Oman framework / 2026-09-01). Rationale line worth citing: *"a falsification rail that fires on conditions from a different phase of the war is worse than none."* §5 predictions **REFERENCE-GRADE at n=4** (1C/2F/0P/0V/1-OPEN; no Brier BY CHOICE at this n — 11-line preamble argues against its own headline rate; WORDING-WEDGE family tracked n=5: HAW-10/14/15, FAL-01/03; FAL-04 carries INSTRUMENT-SCOPE DISCLOSURE). §6 routing rich on content (owed corrections addressed by name in STATUS), **thin on mechanics** (no PUBLISHED.tsv, no delivered/ discipline).
+## 3. Per-dimension local representation
 
-## §3b. Invalidation-surface inventory (Falsification-Sweep canonical rows — EXTRACTED 2026-08-11 from this profile's own §Per-dimension prose; PAT-088 audit. Substance was present 8/7, rows were not — the scan reads rows.)
-| Surface (file) | Kills / flips what | Stamp (in-content) | Fired-state form |
+| Dimension | Local form |
+|---|---|
+| Current judgment | STATUS:5-18 "Current marks and authority" (10/30) + BOTTOM LINE :74-76 (plain language, 9 sentences vs the charter's 2–4) |
+| Convergence matrix | STATUS:45-62, 10 vectors, 43/50, per-row threshold→next level, dated 10/29–10/30 |
+| Exit / falsification | EXIT_PROTOCOL v3: §1 kill (0/7), §2 ladder, §2a production rung letter, §3 D-indicators, §4 cross-agent thresholds, §5 review clock (next 11/04) |
+| Predictions | FAL-01..05 RESOLVED (1C/3F/1P); FAL-06 OPEN to 11/05 with a WQ-433 dated search; FAL-07 OPEN to 12/31; interim grades as dated header lines, rows never edited |
+| Gate | GATE-FALCON-001 LIVE, review_by 11/04 (the day after the US midterms) |
+| Trade | none by charter (reading A3): oil as a trade routed out (`CLAUDE.md:257`), oil levels → BRENT (`:261`); consumers HAWK, BRENT, TERRY, NEXUS |
+| Mail | grep-membership inbox discipline; one board_log row per signal since 8/15 |
+
+## 3b. Invalidation-surface inventory (Falsification-Sweep canonical rows)
+
+| Surface | Kind | Stamp | State |
 |---|---|---|---|
-| `workbook/EXIT_PROTOCOL.md` | THE FLEET REFERENCE rail — 7-row molecule-scoped kill table (crude/gas/refined premium-vs-loss) + fired-marks ladder + archived March rail §6 | `REWRITTEN 2026-07-30 by FALCON` at :3 + per-condition dated Status cells + **dated rewrite trigger** (FAL-04 / 5th axis / Oman framework / 2026-09-01) | per-condition Status cells (⚠️ §5 past its own 8/6 re-mark clock — owner-lane flag below) |
-| `thesis/PREDICTIONS.tsv` | FAL-04 (OPEN, instrument-scope disclosure); scoreboard 1C/2F/0P/0V/1-OPEN | header As-of 2026-07-30 | outcome tokens per row; no Brier by choice at n=4 (argued in its own preamble) |
-| `workbook/WARRISK.tsv` | war-risk carry falsifier + registered mirror; thresholds typed FROZEN vs ROLLING | two-clock header `Last real data refresh:` (PAT-044) | threshold rows w/ falsifier registration |
-| `thesis/THESIS.md` | scenario ladder B/C/D marks + 43/50 composite | header/CORE stamped 8/6 (⚠️ §SCENARIO body :108-115 carries pre-7/30 ladder — known self-contradiction, flagged below) | version history (v2.1 states v2.0 false-since-March) |
-| watcher quartet `scripts/*_watch.py` + committed state JSONs | live gate legs incl. two rc-INVERTED semantics (DO-NOT-TOUCH 1-2) | state JSONs committed w/ run dates (last 8/6) | rc + state JSON |
+| EXIT §5 review clock | STATE | 10/29 (next 11/04) | in force ✓ |
+| **EXIT §1 kill table + §3 indicators** | STATE | **"status 2026-10-01"** (`EXIT_PROTOCOL.md:24`) | 🟠 29 days; cell #3 `:30` "6–9% (Reuters 9/25)" vs own `WARRISK.tsv:30` 6–10 (10/06), which FALCON told HAWK superseded 6–9 on 10/14 (`030882ae3`) |
+| EXIT §3 indicator #7 (Fujairah + Sohar bypass) | STATE | 10/26 | 🟠 Sohar series gone upstream; `bypass_watch.py` always rc 2, no combined verdict |
+| `thesis/PREDICTIONS.tsv` | APPEND-ONLY | 10/30 header | live ✓; FAL-07 search date conflict → WQ-559 (Will) |
+| THESIS v3.0 | STATE | 10/01, rewrite trigger 11/05 | dated ✓ |
+| VX.tsv band rows | STATE | mixed | 🟡 IRAN-01 + DIPLOMACY-01 Green ">25/day" on the retired UKMTO basis; 5 band cells with stale "(current …)" wording; BABMANDAB-01 Notes overwritten (§4) |
+| WARRISK.tsv | STATE | data 9/25, re-pull attempted 10/26 | own per-row check fires ✓; shared staleness check silenced (§4) |
+| FLOW.tsv | STATE | header 10/01 under a 10/29 row | 🟡 |
+| KB.tsv | APPEND-ONLY | 10/30 | 🟡 179 ACTIVE rows past own Stale_By |
 
-## Deviations (verdicts)
-No TRADE.md/CALENDAR.md = **deliberate/equivalent** (oil handoff; worth an explicit waiver ruling). VX-HAWK-*/FLOW-HAWK-* prefixes inside own ledgers = **better** (provenance per build-spec MANIFEST_B; never renumber). Calibration-as-prose = mild debt, revisit n≈8. **No `workbook/PUBLISHED.tsv` = real debt** — already bitten by the class (~5% Hormuz carry exported 12d while market was 7.5-10%); WARRISK fixed the figure, not the class. STRIKES facilities-only scope = better (labeled). baghdad demote-not-delete = better.
+## 4. Deviations from standard (+ why)
 
-## DO-NOT-TOUCH
-1. **The 4 `scripts/*_state.json`** — committed by design; `bypass_watch_state.json` holds a runtime-computed rolling floor (`primary_floor_daily`), never edit or quote it as config. 2. **rc-INVERTED semantics** on bypass_watch + kharg_loadings_watch — "normalising" silently inverts two live gates. 3. **WARRISK three-clock header + the `--days 7` override** (CLAUDE:47-52) — the tight gate is supposed to keep firing; never widen to silence. 4. **HAW-10 wording-identity**: PREDICTIONS.tsv canonical; EXIT_PROTOCOL §3 + STATUS D-tell reference FAL-04, never restate. 5. **False-fire register** (STATUS:178-198, 14 traps) + KB-anchored guards (KB-068 UKMTO advisory, KB-071/074 IRGC) — deleting a row deletes the guard. 6. KB-HAWK duplicate IDs 131/132 = "no surgery" stated policy; GI-2026MAR-ISFAHAN = sole intentionally date-unpinned STRIKES row. 7. **88/day Hormuz baseline provenance block** (hormuz_transit_watch.py:43-57; rivals reconciled-not-rejected; ArcGIS caps 1000 rows — paginate or silently get 2019-21; cite `15/88` never bare %). 8. `SCHEMA.tsv` verbatim-from-HAWK, KB enum validation depends on it. 9. Frozen-with-successor chain (SCAFFOLD→FAL-04, ANALYSIS 7/12→7/27→8/6, §6 March rail, KHARG FROZEN SPEC, CLAUDE:324-330 HAWK block incl. **DO-NOT-PORT on all 5 HAWK legacy scripts**). 10. ~~HAWK boot.py dead-scripts finding~~ **CORRECTED 8/7 eve (HAWK rebuild read): the claim was WRONG and FALCON conceded it in writing 7/30** ("my load-bearing claim was wrong — that mtime was the FREEZE commit"). HAWK's boot.py is FROZEN 7/9 with its own do-not-invoke banner, is wired into nothing, and has zero invocation sites repo-wide — HAWK does NOT open on a stale Iran read. What survives: the five legacy scripts exit rc=0 printing stale constants (rc-checks can't catch them — the DO-NOT-PORT ruling in item 9 stands), and the sanctions-tracker LANE is genuinely HAWK's and unbuilt.
+| # | Sev | Deviation | Receipt | Owner |
+|---|---|---|---|---|
+| 1 | 🟠 | **Reference falsification rail stale:** EXIT §1/§3 "status 2026-10-01"; cell #3 contradicts the desk's own ledger | `EXIT_PROTOCOL.md:24,:30`; `WARRISK.tsv:30` | FALCON |
+| 2 | 🟠 | **Boot perimeter undeclared and undercounted:** 0 READS rows (`reads_check` rc 2); the root tool drops MEMORY (71%) because "the CARRIED OPEN **section**" at `CLAUDE.md:40` reads as a scoped marker | READS grep = 0; `read_cap_check --agent FALCON` lists no MEMORY | FALCON (declare) · DAEDALUS (tool) |
+| 3 | 🟠 | **Charter 157% of budget, 94% of the harness cap** | `wc -c` 50,986 | FALCON (hot/cold split) |
+| 4 | 🟠 | **WARRISK staleness gate silenced by `Cadence: EVENT-DRIVEN`** (added 10/26): `scripts/ledger_staleness.py:566-568` treats any parseable re-pull date as quiet, against its own docstring (`:40-48`: the declaration affects `--nudge` only). R2: 29-day re-pull → rc 0; line removed → rc 1 | code + R2 copy test | **DAEDALUS** (shared tool) |
+| 5 | 🟠 | **VX-HAWK-BABMANDAB-01 Notes cell overwritten** with a bare `2026-09-14` by `a8d259b44`; 695 B of history lost for 46 days; recoverable from `c4b8c83b9` | VX row field 11 = `2026-09-14` | FALCON |
+| 6 | 🟠 | **EXIT §3 indicator #7 lost a leg:** Sohar (port988) returns zero rows; `bypass_watch.py:124,144,157` return 2, so a real Fujairah collapse shows only as a per-port line under the code the boot card reads as a fetch failure | script :126-129 comment (10/29) | FALCON |
+| 7 | 🟠 | **FAL-07's key word settled inside a grade note:** row says "OFFENSIVE strike"; KB-FALCON-372 (10/30) rules a "defensive" launcher strike would count; the same note says the row's four wires are unsearchable from this box | R2 rank 4 | FALCON → PROME (bundle with WQ-559 for Will) |
+| 8 | 🟠 | **Charter route matrix disagrees with canon:** no FERT or CRUISE row (`_NETWORK.md:151-152`); FERT has never received a FALCON packet; `CLAUDE.md:257` points oil-as-a-trade at LIQUID, whose charter routes oil/geopolitical to HAWK (`AGENTS/LIQUID/CLAUDE.md:131`) — TERRY constructs trades, BRENT owns oil | greps | FALCON |
+| 9 | 🟡 | Three boot reads at 71–74.7%; PREDICTIONS header half the file | §2 | FALCON |
+| 10 | 🟡 | Charter internal: A/B/C/D wording ×3; FILES table missing 9+ live surfaces; 250-line STATUS cap (`:143`) conflicts with the size check (`:96`); spawned card skips 5a-2, 5a-3, 5b and 7b (corrections); no explicit root-canon / COMPLETION_SPEC read | R1 ranks 4–7 | FALCON |
+| 11 | 🟡 | Instrument TSVs (VESSELS, CASUALTIES, STRIKES) outside `ledger_staleness`; no LEDGER_GLOB (76 days open) | R2 rank 7 | FALCON |
+| 12 | 🟡 | `kharg_loadings_watch.py` dead (400 / 0 rows since 9/16) but still in the boot triad; `hormuz_transit_watch.py` docstring describes the retired 18/day bar; `warrisk_row_staleness.py` skips short rows silently | R2 ranks 11–13, R1 rank 8 | FALCON |
 
-## Owner-lane flags (ranked; as of 8/7 build)
-🔴 **Write-back tail OPEN — all three 8/6 Will rulings unimplemented**: VX-FALCON-SUNK-01 absent from VX.tsv; P-2 leg-3 re-key not applied to KB-072's pre-staged line; D→75-absolute unrecorded — while SCRATCH:23 + STATUS:8/:157 still say "pending Will." Live fact rides the two unprocessed inbox packets; every canonical surface reads clean and `ledger_staleness` returns ok (VX at 30d default) — `[[finding_canonical_surfaces_stale_inbox_carries_live_state]]`, first-action-next-boot class. 🔴 **THESIS.md self-contradiction** — header/CORE carry 8/6-consistent B5/C35/D60 + 43/50, but the §SCENARIO FRAMEWORK body (:108-115) still carries pre-7/30 B10/C40/D50 with the old narrative; "STATUS wins" contains it, but a section-reader gets the superseded ladder. Highest-value fix in the tree — inside the document cited as the rewrite exemplar. 🟠 **EXIT_PROTOCOL §5 past its own clock** (re-mark was due 8/6; the 8/6 session ran the check, held 0/7, didn't restamp; §1 Status cells carry 7/30 figures vs 8/6 live). 🟠 **Silent-rot trio outside every gate**: FRESH_LEG_BASELINE (consumer-facing, leg-2 cites 7/23 print; 8/6 backfill moved band 9-16→2-6/day, STATUS-only) · BYPASS_INTEGRITY §3 read 20d · TIMELINE.md stops 7/27 (misses pause-death, 7/29 wave, Kuwait fatality, 8/1-8/5 maritime phase). 🟡 CLAUDE FILES-table 3 stale cells (KB 66→83; STRIKES sweep 7/30→8/6; ANALYSIS live-pointer aims at superseded 7/27) + MEMORY:30 same dead pointer. 🟡 LAST_COMPLETION 7/30 (8/6 session wrote none). 🟡 SCRATCH template still titled `# HAWK SCRATCH` (sole genuine inheritance residue — everything else is labeled provenance). 🟡 CHANGELOG header says reverse-chron, practice ascending (self-flagged).
+## 5. Load-bearing context / DO NOT TOUCH
 
-## Precision notes (verified, sharper than the FLEET_MAP row)
-FAL-03 4-agent propagation claim is true **as of 8/6, not 7/30** (7/30 reached SAM/BRENT only; WALTER found the gap 8/2; HENRY+CARL pointer packets 8/6). PAT-054 consumer-mutation rule: **not present anywhere in FALCON's tree** (only hit = the DAEDALUS packet asking about it) — consistent with the row's carried-forward-unverified note, unproven either way.
+- **`VX-HAWK-` ID prefix** is kept for provenance by design (VX.tsv header); new FALCON vectors use `VX-F…`.
+- **Interim grades append as dated PREDICTIONS header lines; rows are never edited** (Will-registered letters). FALCON routes letter conflicts to Will rather than fixing them (WQ-559) — correct, protect it.
+- **FAL-06's dated-search letter** is the cleanest WQ-433 encoding in the fleet; copy it, don't "improve" it.
+- **IRAN-02** is a model single-instrument band row (re-based 10/14, `ede013415`).
+- **`bypass_watch.py`'s empty-series guard (10/29) fails toward "unknown", not "collapse"** — the remedy for §4 #6 is restoring a second leg or re-lettering the indicator, never removing the guard.
+- Oil levels and oil-as-a-trade stay OUT of FALCON's charter (reading A3): the L4 trade leg depends on it.
+- NEXUS_BRIEF pinned to the exact STATUS commit every session; same-day PROME consumption chain with a COMPLETION block.
+- board_log is append-only; corrections go in as new rows (the `SIG-W-20261004-011` repeat is a dated correction, not a re-process).
 
-## Maturity snapshot
-L4 Conf-H (FLEET_MAP row 8/7 — classification lives there, not here). L5 path per row: process the write-back tail FIRST + clean closeouts. No upgrade card yet; the flags list above is the de-facto queue — card only if section-work gets scheduled.
+**Distinctive strengths:** IMMEDIATE-to-grade latency ~1.5 h with every claim graded on its letter; DOCKET rows closed on or before date; wall-clock stamp self-correction (`87a5097a9`); raw evidence captured beside reports with sha256 before-images.
 
-## Open questions
-PROME-side claims in the 8/6 packet (GATES.tsv wording sync, DOCKET successor row ~8/12-8/14, queue row 30 closure) unverified from FALCON's tree. Whether the no-TRADE.md waiver should be ruled explicit (blueprint §5 wording) — candidate for the next blueprint pass.
+## 6. Maturity snapshot (per-leg; Market class; readings A and B ratified)
+
+| Level | Leg | Verdict | Receipt |
+|---|---|---|---|
+| L0 | dir + charter | PASS | 50,986 B |
+| L1 | STATUS + current judgment (reading B) | PASS | STATUS:5-18 (10/30) |
+| L2 | structured record, accruing | PASS | KB 376×13 (KB-370..376 on 10/30); VESSELS 87 rows; board_log |
+| L3 | convergence matrix | PASS | STATUS:45-62 |
+| L3 | exit rules | PASS | EXIT v3 §1–§5 |
+| L3 | predictions resolving | PASS | FAL-01..05 resolved; FAL-06/07 dated |
+| L3 | dated falsification surface | PASS with debits | §5 clock 10/29 → 11/04; THESIS trigger 11/05; §1/§3 stamped 10/01 (§4 #1) |
+| L4 | signals flowing | PASS | HAWK STATUS:16-18, BRENT, TERRY, NEXUS, PROME same-day |
+| L4 | trade leg (reading A3: no book by charter + consumers) | PASS | `CLAUDE.md:257,:261`; pointer target needs correcting (§4 #8) |
+| L5 | clean closeouts | PASS with debit | 6/6 recent sessions pushed, STATUS + BOTTOM LINE, NEXUS pinned, inbox drained; LAST_COMPLETION one behind |
+| L5 | current | **FAIL** | reference rail cells 29 days old and contradicting own ledger (§4 #1); one EXIT indicator without a verdict (§4 #6); perimeter undeclared (§4 #2) |
+| L5 | registered-date grading | PASS with one slip | 10/28 review graded 10/29, disclosed |
+| L5 | mechanical-QC | N/A | WQ-181 ② |
+
+**Grade: L4 / H retained. L5 NOT AWARDED** on §4 #1, #2, #5, #6 (owner-fixable; #1 and #6 naturally land at the 11/04 review). §4 #4 is DAEDALUS's tool and does not count against the desk.
+
+## 7. Open questions / comprehension gaps
+
+- FAL-07: search window (WQ-559) and the "OFFENSIVE" adjective plus unsearchable wires — Will's, via PROME.
+- Should dated prediction resolutions (FAL-06 11/05, FAL-07 12/31) carry DOCKET rows so a missed search is visible to PROME's due-row scan? Fleet convention, PROME's call.
+- `PUBLISHED.tsv` (8/07 "real debt") still absent: waive or build at the next blueprint pass (DAEDALUS).
+- 11/04 review is the day after the US midterms, the date FAL-07's posture evidence points at — treat as hard.
