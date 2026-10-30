@@ -5,6 +5,8 @@
 
 October19's one-week mid-curve reading is superseded by the saved October22 publication/as-ofOctober14: W2 MET. Current076 conjunction remains MET in its existing episode; no10-business-day reset, new re-arm or second write-up. CFTC W1 as-ofOctober20 NOT MET; original raw archive/Last-Modified receipt now saved in October26 boot evidence. Near-boundary W3 closes still require VIOLET; no new Monday witness certified here.
 
+**October30 (graded 15:4x ET):** CFTC W1 as-ofOctober27, first published 10/30 15:27:46 ET: CME SOFR-3M lev-fund net **−2,535,985**, w/w **−162,945** ⇒ **W1 NOT MET** on both the level (≤ −2,950,000; 414,015 short) and cover (> +300,000) legs. The10/16→10/29 window stays MET 2-of-3 (W2 + W3), now fully measured; existing episode, no re-arm, no second write-up. Raw file and receipt → `research/2026-10-30_cftc-W1/`.
+
 Exact source values and dated qualifications stay in STATUS§2 and `research/2026-10-26_boot/REPORT.md`, rather than a second live numerical table. Net positioning is not gross selling, margin calls or capacity refusal. The older logs below retain their original dates and grades; they are not current absence evidence. W1 multi-week orderly-exit blind spot and the registered vintage convention remain unchanged.
 
 ## Registered rules and historical grades

@@ -1,0 +1,20 @@
+HTTP/2 200 
+date: Fri, 30 Oct 2026 19:37:21 GMT
+content-type: text/plain
+content-length: 77413
+server: cloudflare
+last-modified: Fri, 30 Oct 2026 19:27:46 GMT
+x-request-id: v-37709a4e-d498-11f1-ad67-039ff031f3b7
+x-ah-environment: prod
+x-frame-options: SAMEORIGIN
+cache-control: max-age=3600, public, no-store
+accept-ranges: bytes
+via: varnish
+x-cache: HIT
+x-cache-hits: 1
+set-cookie: __cf_bm=M2TEtdpZ6KvKaHa4RmN6lFO2JJxdy0HGrg05qRcLyPY-1793389041.4077785-1.0.1.1-3i8W_pZYsAECzTFyyUEGpcJzYZMcW.VyaCSWTX9sLgXZigcZptuz.20pnondtFcEN92U8ASjNaiKuHcCSnS1BFl0nv25.K4hXz9N4q3Sp5_1Kx56_lhtzRY5gIB3ke69; HttpOnly; SameSite=None; Secure; Path=/; Domain=cftc.gov; Expires=Fri, 30 Oct 2026 20:07:21 GMT
+age: 474
+cf-cache-status: HIT
+strict-transport-security: max-age=15552000; includeSubDomains
+cf-ray: a52cdfc4c8895593-MIA
+

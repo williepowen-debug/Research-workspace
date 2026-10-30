@@ -1,0 +1,30 @@
+====================================================================================================
+  LIQUID — CFTC TFF rates-complex, LEVERAGED FUND positioning
+  Source: CFTC raw files (NOT Socrata).  history OK (3824 rows) | weekly OK (100 rows)
+  As-of dates are TUESDAYS; files publish Fri ~15:30 ET. Net EXCLUDES spreading.
+====================================================================================================
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  🔴 INSTRUMENT-FAULT — 'SOFR-3M' matches 2 MARKETS. Keyed identically, LAST ROW WINS,
+     so the figures below may be the WRONG VENUE. Rows are NOT comparable across exchanges.
+       · SOFR-3M - CHICAGO MERCANTILE EXCHANGE                latest 2026-10-27  OI   13,078,528
+       · SOFR-3M - FMX FUTURES EXCHANGE                       latest 2026-10-27  OI      154,034
+     ⇒ RE-RUN with the FULL market name, e.g. --contracts "SOFR-3M - CHICAGO MERCANTILE EXCHANGE"
+     ⛔ DO NOT GRADE A GATE OFF A COLLIDED ROW.
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+  (continuing, but every collided contract above is UNSAFE for grading)
+
+
+  SOFR-3M   (43 as-of dates in file; showing 8)
+    as-of           LevF Long   LevF Short     LevF NET     w/w ΔNET LevF Spread     Open Int
+    2026-09-08              0       27,486      -27,486                   20,926      189,554
+    2026-09-15        972,837    3,746,985   -2,774,148   -2,746,662   2,860,344   13,349,060
+    2026-09-22        972,889    3,417,875   -2,444,986     +329,162   2,774,812   12,230,496
+    2026-09-29          5,150        3,860        1,290   +2,446,276      19,559      154,665
+    2026-10-06          5,508        4,088        1,420         +130      17,313      154,636
+    2026-10-13          5,736        5,491          245       -1,175      18,618      162,558
+    2026-10-20          1,405       17,216      -15,811      -16,056      14,897      155,052
+    2026-10-27          1,403        9,204       -7,801       +8,010      16,120      154,034
+
+====================================================================================================
