@@ -371,3 +371,11 @@ Mandatory: maintain catalyst docket in STATUS so next boot sees what it owes. PR
 - ❌ Don't surface a narrative gap without naming a market-verdict counter-signal. Otherwise it's confirmation bias.
 
 <!-- END VERBATIM -->
+
+## Ruling records appended after the split (the one exception to the line-3 "not appended here" rule: WQ-519 (iii) named this file)
+
+### WQ-519 (iii) — recorded 2026-10-30T10:54:21-04:00 (NEXUS, DOCKET L873)
+Will 2026-10-29 21:07 ET, verbatim *"519 approve"*; record `PROME/proposals/2026-10-29_wq519iii-504-RULED.md`; packet `inbox/processed/2026-10-29_from-PROME_WQ519-iii-RULED-encode-three-sentences.md`. Decision inputs: `research/2026-10-26_five_desk_return/REPORT.md` § Tuesday preparation.
+- **(a) five-root sentence** — encoded in the live charter § Convergence Detection: "NEXUS **proposes** action … root rule #5 governs". Proposals only, no execution authority (the 10/24 interim, now permanent).
+- **(b) threshold-proximity cluster — NO TEXT CHANGE.** The letter stands: the cluster counts threshold LINES (3+ within 20%); the Disc-H evidence-class count is written beside it and does not gate. On the 10/23 example (M-01 HY 338/350 · M-07 IG 91/93 · M-09 BB 206/220: three lines, one ICE cash-credit repricing class) the alert fires to PROME with "class count 1" beside it. PROME stated this reading back to Will for correction; no superseding packet existed in `PROME/inbox/processed/` or this desk's inbox at this stamp.
+- **(c) TIERS** — encoded: every correction commit stays STANDARD; a non-corrective supersession that re-marks an authoritative brief-state row (LIQUID repair-consumption case, 8a66a0c57) is STANDARD; plain filing, logging and consume/annotation with no authoritative supersession stay LIGHT; the LIGHT residue grep (9b) covers superseded claims that are not corrections.
