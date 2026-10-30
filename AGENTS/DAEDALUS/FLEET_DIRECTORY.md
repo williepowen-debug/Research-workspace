@@ -27,7 +27,7 @@ WF source: `/home/willi/Research-Intake/scripts/newsweep_config.py` · SHA256 `1
 | BROCK | Market | L4 | H | 2026-10-30 | Private credit / BDC / non-traded credit | L5 on the first clean closeout after gaps 1 to 3 are dispositioned (own… | 8 |
 | HAWK | Market | L4 | H | 2026-10-22 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 requires closing registered due work (HAW-20 grade on its letter 10/… | 8 |
 | TERRY | Utility | L5 | H | 2026-10-21 | Trade construction / risk scoring ‡‡ | L5 retained at prior grade | 7 |
-| REGINALD | Market | L4 | H | 2026-10-22 | Regional banks | Adjudicate the L3 dated-falsification leg at the queued whole-profile r… | 6 |
+| REGINALD | Market | L4 | H | 2026-10-30 | Regional banks | L5 on the first clean closeout after gaps 1-4 are fixed (owner packet 2… | 6 |
 | MARCO | Market | L4 | M | 2026-10-21 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | DAEDALUS confirm-read may restore Conf H after remaining matrix/figure/… | 5 |
 | ORACLE | Utility | L4 | H | 2026-10-21 | Prediction-market diagnostics ‡‡‡ | Review F1 calibration artifact and NEH leg when owner delivers | — |
 | BOND | Market | L4 | H | 2026-10-21 | US bond-market structure / auctions / rates | L5 candidate after own-tree LEDGER_GLOB and named-core two-clock header… | 7 |
