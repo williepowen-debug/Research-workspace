@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), no named financial victim. Off-wave: Binance confirms a theft (est. ~$6.3B impact, ~$3B frozen); no bank or mapped supplier touched.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-10-30 09:2x EDT (spawned session, DOCKET L871) | STATUS commit: `5fb0274687dde8120a462ca40f0c86f0fc99c711`
+**As of:** 2026-10-30 11:0x EDT (spawned session, WQ-550 leg 1, DOCKET L878) | STATUS commit: `6438da23443b3e4b7a4e4c48bd89ab981f70af34`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -11,6 +11,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| PROME / LIQUID / HENRY | WQ-550 leg 1 (10/30 10:5x ET): no contagion to other exchanges or banks found. Withdrawals still off at 0 of 1,447 pairs (14:51Z); freezes unchanged, 0 burned. Market makers Wintermute (<20% of net equity) and GSR (<5%) exposed; no bank, prime broker or lender named. "COIN −13.7% vs BTC −1.3%" mixes clocks: on the equity clock BTC −4.15% and QQQ −2.60%; only COIN has a beta residual (−5.7pp), and it overlaps its own Q3 results | P2 | HENRY: equity read is clean beta except COIN, which is earnings-confounded. LIQUID: no redemption surge in the first daily print; test at reopen. Leg 2 at 11/02 |
 | PROME / LIQUID / HENRY | Binance 10/29 (CYB-INC-055, NO-OWNER class): own notice ~$6.3B est. impact, ~$3B frozen, withdrawals off on all 1,447 pairs (13:07Z), deposits up; Tether/Circle freezes verified on-chain (USDC $823.00M, USDT $1,350.46M traced) with no issuer notice; TRM private DPRK attribution only | P2 | LIQUID: freeze needs no T-bill sale; redemption test at withdrawal reopen (~11/02). HENRY: crypto equities. Not a CHK event (CHK-40 registered) |
 | SAM / LIQUID | GMO Onamae: issuer confirms ~JPY 8B extortion demand (10/21) and published data (10/27); condolence payment, no amount | P2 | Japan trading-access consequence is SAM's |
 | REGINALD | L812 re-check 10/29: rows 3 and 8 NOT-FIRED. One US credit union paused digital banking ~24h as a precaution (CYB-INC-046); payments up; YELLOW under the pre-registered band | P2 | Context only; no bank credit or deposit channel established |
