@@ -45,3 +45,6 @@ Result read: DONE 12:16 ET (Sonnet coldreader `coldread-539-result`, ledger `scr
 - Remaining residue (cosmetic, unchanged): BOOT.md step 0 omits "never delete" and the own-files-first branch (root rule #11 and docs step 2 bind PROME); docs step 2's stash path reads `AGENTS/<YOUR_NAME>/`, which is `PROME/` for PROME.
 - Same-day correction of the same change set ⇒ counted inside process change 2 of 5 (WQ-505 unit).
 
+
+## Supersession note — 2026-10-30 (WQ-549 A)
+The parenthetical reason quoted above as inserted on 10/29 — *"this clone's `pull.rebase` is `false`, so a plain pull MERGES…"* — is clone-specific: on the desktop `git config --show-origin --get-all pull.rebase` prints `~/.gitconfig true` and `.git/config false` (the repo-local value wins); the laptop's `~/.gitconfig` reads `true` (spine audit #18 reader, 10/29) and its clone's effective value is UNKNOWN. Root `CLAUDE.md` and `docs/GIT_WORKTREE_PROCEDURES.md` now carry a setting-agnostic reason (record `PROME/proposals/2026-10-30_wq549-RULED.md`). The directive is unchanged. This record's quotes stay as the 10/29 letter.
