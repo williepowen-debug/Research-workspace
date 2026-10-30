@@ -1,0 +1,569 @@
+{
+ "files": [
+  {
+   "file": "/home/willi/Research-workspace/CLAUDE.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Factual claim is false on the current box and is a machine-local fact stated in repo canon (the class PROME/MACHINE_LOCAL.md exists to hold): \"this clone's `pull.rebase` is `false`, so a plain pull MERGES\". VERIFIED: `git config --local --get pull.rebase` is unset (rc=1); `~/.gitconfig` carries `[pull] rebase = true` (mtime 2026-10-21 20:38 ET — eight days BEFORE the WQ-539 ruling record line 5 asserted it false); effective `git config --get pull.rebase` → `true`. On this box a plain `git pull` already rebases and refuses on a dirty tree, so the stated reason for the rule is wrong here; the directive (`git pull --rebase` is the one form) is unaffected. Same claim mirrored at docs/GIT_WORKTREE_PROCEDURES.md § Before pulling step 1 \"(merges; `pull.rebase=false`)\" and in PROME/proposals/2026-10-29_git-pull-rule-RULED.md line 5. Suggested fix: drop the config-value claim or reword to \"whatever `pull.rebase` is set to on the box\"; ruling record gets a sourced receipt.",
+     "location": "Git Protocol → \"Never:\" paragraph, line 105 (pointer mirror: line 103 → docs/GIT_WORKTREE_PROCEDURES.md § Before pulling step 1)"
+    },
+    {
+     "severity": "minor",
+     "description": "Header-stamp ride-under: the only dated stamp reads \"Runtime amendment: 2026-10-05, WQ-385\" while four later amendments landed unstamped — cdb58ceb4 2026-10-21 (Output Canon spaced-words rule), 3d0f802a0 2026-10-24 (carve-out ⑤ FORUM posts, WQ-486 A), a4a1bce16 and 90ddbf85b 2026-10-29 (WQ-539 A pull rule + desk-prefix authorship test). A cold reader takes 2026-10-05 as the latest amendment. The file delegates history to `git log -p -- CLAUDE.md`, so either refresh the line to the latest amendment (WQ-539 A, 2026-10-29) or retire the dated label entirely.",
+     "location": "Header, line 3"
+    }
+   ],
+   "sample": "Line 99 (session-end step 3) matches the canon anchor verbatim: overlap check first, then `git pull --rebase --autostash` + re-push, escalate only on out-of-dir conflict or persisting non-ff. All 60+ backticked paths resolve; `AGENTS/PROME/` correctly absent; `KERNEL/audit/commands/` is a write-target created by KERNEL/tools/writer.py on first receipt, not rot."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/CLAUDE.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Lapsed-window text still reads as live: the bold FREEZE says \"no new bullet enters this section before 2026-10-25\" (today 2026-10-29 — the window has passed by its own terms) and describes \"spine audit #15 carries a consolidation PROPOSAL (C2–C4 …) approved by Will candidate by candidate\" as a future event, but that proposal was RULED — APPROVE C2 · C3 · C4 on 2026-10-08 20:09 ET (`PROME/proposals/2026-10-02_wq299-c2-c4-consolidation-RULED.md` line 3). The \"charter target under 20,000 B\" is still unmet: PROME/tools/measure.py reads PROME/CLAUDE.md at 27,046 B (wc -c), and the RULED record itself projected ≈24.4 KB post-consolidation. A reader cannot tell whether the freeze is still binding or what remains of C3/C4. Needs a dated retire/re-date line (and, if the freeze is to continue, a new window) — a PROME-charter edit, so ask-first per § Ask First.",
+     "location": "Session Process Controls section header (the bold FREEZE clause), line 59"
+    },
+    {
+     "severity": "minor",
+     "description": "Header stamp names only \"WQ-539 A, Boot step 3 pull clause\" for 2026-10-29, but a later same-day commit 0fb653e7d also edited this file (restart trigger renamed to \"pick up PROME\", \"Resume PROME\" retired — Boot Sequence step 2, line 19). Date is correct; the parenthetical under-describes what changed. Cosmetic.",
+     "location": "Header, line 2"
+    }
+   ],
+   "sample": "Boot Sequence step 3 (line 20) now reads \"pull only as the root Git Protocol allows (rebase form; Git's refusal is the stop)\" — consistent with root line 105 and BOOT.md step 0 after WQ-539. DOCKET cites verified: L291 RESOLVED (WQ-268), L378 PENDING, L445 dated 2026-10-25 PENDING, L511 RESOLVED. Root and PROME copies of all five skill runners are byte-identical (cmp)."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/BOOT.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Header stamp ride-under: line 4 reads 'Updated: 2026-10-16' and claims 'this line keeps the latest and at most ONE prior', but the body carries later changes — inbox drain (2026-10-21, step 6), WQ-467 fire-time rules (10-21, steps 5/8), WQ-526 resume pointer (10-26, line 36), rotation #2 moving § Resume to BOOT_MODULES M6 (2026-10-29 per BOOT_MODULES.md line 1 and commit de34841ac), and WQ-538 A HANDS-rows-parked (10-29, step 8). Only the 10-25 WQ-525 editorial line is stamped.",
+     "location": "Header, lines 3–4"
+    },
+    {
+     "severity": "minor",
+     "description": "Owed rotation: scripts/read_cap_check.py --agent PROME (run read-only this audit) grades BOOT.md 27,106 B = 83% of the 32,550 B budget, rotate-tier, 'REMOVE 4,322 MORE B' to reach the <70% stop — still above the band after rotation #2 (de34841ac). rc=0, advisory, but it is an open owed item on this file.",
+     "location": "Whole file (read-cap verdict)"
+    },
+    {
+     "severity": "minor",
+     "description": "Heading structure: '## Boot Sequence' (line 34) is immediately followed by a second H2 '## Resume after a restart' (line 36), so steps 0–9 structurally sit under the Resume pointer rather than under Boot Sequence; the runner's 'pointer at BOOT.md's § heading' still resolves, but a cold reader's outline is wrong. Should be an H3 or a paragraph under Boot Sequence.",
+     "location": "§ Boot Sequence, lines 34–37"
+    },
+    {
+     "severity": "minor",
+     "description": "Runner layering (manual→runner, direction a): BOOT.md step 8 carries two report rules the /boot runner (PROME/.claude/skills/boot/SKILL.md item 7, identical root copy) does not name — the WQ-538 A HANDS-rows-parked one-line rule and the WQ-525 research-first lead; the runner enumerates Done-without-asking, ACTION OWED, SKIPPED, book line and delta brief and otherwise points to step 8 generally. Step 6's trigger-gated residual 'If AGENTS/PROME/ reappears, migrate…' is likewise absent from runner item 5 (prome_gate.py has no mechanical check for it). Both are reachable via the pointer; name them in the runner.",
+     "location": "Step 6 (line 74) and step 8 (line 81) vs runner items 5 and 7"
+    },
+    {
+     "severity": "minor",
+     "description": "Runner layering (runner→manual, direction b): the /boot runner item 5 states 'count it with inbox_census.py PROME (never ls | wc)' for the inbox-drain count, but BOOT.md step 6's drain paragraph names no counting instrument; the only manual home is PROME/CLAUDE.md § Desk-spawn preflight, scoped to 'counts quoted to a desk'. Add the instrument to step 6 so the rule is visible to a cold reader of the manual.",
+     "location": "Step 6, line 74 (inbox drain paragraph)"
+    },
+    {
+     "severity": "minor",
+     "description": "Glued words contrary to root Output Canon ('write normal spaced words and numbers'): 'steps1–5' and 'step8' (line 40), 'WQ460' (line 44).",
+     "location": "Bounded reads paragraph line 40; Execution order line 44"
+    }
+   ],
+   "sample": "Verified at artifact: all 45 backticked paths resolve (the 4 MISS lines are a glob, a placeholder, and AGENTS/PROME/ which the line declares must not exist); every cited CLI flag exists (boot_read --view orch-compact-v1/--sha256, boot_session --charter-mode/--refresh, prome_gate --sessions-json, firetime_delta --accept/--prune/--pointer, will_brief --book-line, corrections_boot_check --receipt/--action, read_cap_check --require-manifest); prome_gate.py boot runs exactly the five named checks (lines 1942–1986) plus freshness/inbox-drained/WQ-249/spawn_list; GATES logic keys on FIRED-UNEXECUTED and consumed_by (lines 69–506); WQ-538 A row 91 confirms 'HANDS rows parked'; STATUS 'Last spine audit' 2026-10-23 (6d, not stale); git text matches root Git Protocol verbatim in substance; /boot root and local copies byte-identical; symmetry_missing() = []."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/CLOSEOUT.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Header stamp ride-under: line 4 'Updated: 2026-10-16 00:01 ET' and line 7 'Current amendment — 2026-10-19, WQ-460' while the body carries WQ-485 A (10-22, step 8 and tier table), WQ-517 A + perimeter pin (10-24, steps 8/10), gate reconciliation (10-25, stamped on line 5 only), WQ-526 restart checkpoint (10-26, § Restart checkpoint), and WQ-448 re-scope + freeze foreign_at_freeze (10-29, steps 8/10). 'Current amendment' is no longer current; the file is also 32,831 B (declared scoped in READS.tsv, so not a cap breach, but a whole read would exceed the 32,550 B budget).",
+     "location": "Header, lines 4–7"
+    },
+    {
+     "severity": "minor",
+     "description": "Internal tension on the gate's --tier argument: the tier table (line 44) and step 8 (line 95) say an intra-day Standard closeout 'passes the gate as --tier light', while step 9 (line 102) says 'Pass the tier you actually ran'. Reconciled only by the reader knowing WQ-485 A is the later rule; step 9 should carry the one-line exception or point at it.",
+     "location": "Tier table line 44 / step 8 line 95 vs step 9 line 102"
+    },
+    {
+     "severity": "minor",
+     "description": "Stale rationale naming a retired consumer: the SCRATCH symmetry row says 'the dashboard parses the exact label Pending Will:' — the dashboard (Helm) is RETIRED (WQ-461, line 7); the live producer/consumer of that block is PROME/tools/willq_view.py --write/--check (generated block, line 76). Rule stands; attribution is dead.",
+     "location": "§ Boot↔Closeout symmetry, SCRATCH row, line 62"
+    },
+    {
+     "severity": "minor",
+     "description": "Garbled sentence: 'the calendar view … and SCRATCH's and `Pending Will` (PROME/tools/willq_view.py --write), the WQ ledger' — 'SCRATCH's and' is a dangling possessive left from an edit.",
+     "location": "§ Boot↔Closeout symmetry, 'Generated blocks' paragraph, line 76"
+    },
+    {
+     "severity": "minor",
+     "description": "Ownership wording over-cites the root: Pre-closeout item 2 says 'Include daily memory and self-authored auto-memory under the root grants' — root CLAUDE.md carve-out ③ and PROME/GIT_COORDINATION.md line 31 grant only memory/auto/; the daily memory/YYYY-MM-DD.md commit rests on PROME/CLAUDE.md § Handoff Requirement (line 82) and this file's symmetry row, not a root grant. Point at the actual home.",
+     "location": "§ Pre-closeout item 2, line 35"
+    },
+    {
+     "severity": "minor",
+     "description": "Runner layering (manual→runner): Pre-closeout 3b (every inbox packet dispositioned or named as carried, with its count, in the closeout report — Will 2026-10-21) is not named in the /closeout runner (item 0 says 'items 1–4', item 8 Report omits the count); the trigger-gated 'If AGENTS/PROME/ reappears' residual in item 2 is likewise unnamed. Both reachable by pointer only.",
+     "location": "§ Pre-closeout items 2 and 3b (lines 35, 37) vs PROME/.claude/skills/closeout/SKILL.md items 0 and 8"
+    },
+    {
+     "severity": "minor",
+     "description": "Glued words contrary to root Output Canon: 'item3' (line 24), 'October24' (lines 5, 98), 'schema2' (lines 97–98, 112), 'step12' (runner item 7 mirrors it).",
+     "location": "Lines 5, 24, 97–98, 112"
+    }
+   ],
+   "sample": "Verified at artifact: all 40 backticked paths resolve (CLOSEOUT_PROCEDURES.md relative from PROME/, AGENTS/PROME/ declared-dead, memory/YYYY-MM-DD.md placeholder); argus_scope.py carries --record-review/--contract/--consumed-move/--mark-reviewed/--verify-review/--observe/--record-baseline; commit_check.py commit takes --stage and -F; prome_gate closeout is declaration-gated (--no-memory|--slug, --no-superseded|--superseded, --tier) and runs orch_log check + OBSERVED (lines 2050–2052); check_deck_republish prints PAUSED under WQ-460 (line 1625), consistent with line 7 superseding the line-4 WQ-446 wording; DOCKET physical lines match the text (L473 'RESOLVED — FOLDED INTO L488', L488 PENDING next-PROME-session, L796 RESOLVED WITH RESIDUE → L835, L835 PENDING 2026-11-01, L688/L733/L738 RESOLVED); WQ rows 448 (10-29 13:45 ET, re-scoped), 517 (10-24), 485 (10-22 12:10 ET), 526 (10-26), 525 (10-25), 467 (10-21), 460/461 (10-19) all present with matching dates; AUDIT_PERIMETER.tsv at PROME/state/, argus_contract.never_advisory() at line 195; .claude/agents/argus.md § Scope under WQ-485 exists; non-ff text matches root step 3 (overlap check before autostash); /closeout root and local copies byte-identical; the five CLOSEOUT_PROCEDURES sections cited all exist."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/STATUS.md",
+   "verdict": "FLAG",
+   "sample": "Row 'Position follow-through' (line 18): '**Current (10/22 11:01 ET): latest broker capture = `PROME/data/2026-10-22_broker-capture-TRANSCRIPTION.md` … ties $39,876.06 …' — while line 4 and SCRATCH's operator card record the 10/29 ANVIL-1029 reconcile (69f91a091, $39,159.02).",
+   "issues": [
+    {
+     "severity": "blocking",
+     "description": "Internal contradiction on the book: the 'Position follow-through' row still calls the 10/22 capture (ec5a7058b, $39,876.06, 'USO Oct-30 165C now ×2') the CURRENT/latest broker capture, but line 4 of this same file and SCRATCH § Operator card record the 10/29 post-close capture reconciled by ANVIL-1029 (FORGE 69f91a091, $39,159.02; `PROME/data/2026-10-29_broker-capture-TRANSCRIPTION.md`), under which the USO Oct-30 165C ×2 are GONE and KRE/other lines changed. A boot reader citing this row would quote a superseded book and a superseded 'latest capture'.",
+     "location": "§ Current Work Queue table, row 'Position follow-through' (line 18), the bold 'Current (10/22 11:01 ET)' lead"
+    },
+    {
+     "severity": "blocking",
+     "description": "Row 'Maintenance session (WQ-430 RULED 10/14)' says 'L628/L676 remain pending'. DOCKET L628 state cell = RESOLVED 2026-10-23 21:2x ET (CATO R2 read ACCEPT-WITH-RESIDUE); L676 (JANUS build) state cell = TOMBSTONE 2026-10-28 RETIRED under WQ-530 A (Will verbatim '530 A approve'). The same table's row 'Process backlog triage (WQ-530 A)' two rows above records that triage, so the file contradicts itself and would send a boot reader to plan a JANUS build Will retired.",
+     "location": "§ Current Work Queue table, row 'Maintenance session (WQ-430 RULED 10/14)' (line 23), 'L628/L676 remain pending'"
+    },
+    {
+     "severity": "minor",
+     "description": "Row 'Regime / synthesis' links the 'current rebase plan' to `plans/2026-10-26_heartbeat-35th-rebase-PLAN.md`; HEARTBEAT's header is the THIRTY-SIXTH base (10/29 19:46 ET) and `plans/2026-10-29_heartbeat-36th-rebase-PLAN.md` exists (SCRATCH § Open carry already points there). Stale plan pointer under a row that instructs carrying that plan's residue.",
+     "location": "§ Current Work Queue table, row 'Regime / synthesis' (line 25)"
+    },
+    {
+     "severity": "minor",
+     "description": "Row 'Approved consolidation / remaining defects' cites DOCKET L655 and L679 as open residue — both are TOMBSTONE/RETIRED 2026-10-28 under WQ-530 A; L678 is RESOLVED 2026-10-10. Row 'Last-mile wiring plan' cites 'residue L742' — L742 is TOMBSTONE (compacted 2026-10-28). Dead rows cited as live residue.",
+     "location": "§ Current Work Queue table, rows 'Approved consolidation / remaining defects' (line 26) and 'Last-mile wiring plan' (line 22)"
+    },
+    {
+     "severity": "minor",
+     "description": "Ownership drift on the HY re-kill letter: the lane row says the `GATE-HY-REKILL` row in `PROME/GATES.tsv` 'carries the full counting rule … and is canonical'. The GATES cell itself states that it was the ruled canonical home only until the 2026-09-03 fold and that the canonical letter since then is the definition_surface `AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md` (the trigger-band anchor). Level/operator/count are identical in both, so no band drift — only the 'which doc owns it' claim is wrong.",
+     "location": "§ Owner lanes table, row 'HY >280 X1 watch' (line 43)"
+    },
+    {
+     "severity": "minor",
+     "description": "Dated 10/19 state written in the present tense: 'Latest Will report at this closeout: most independent desks closed; OTTO and WALTER still working' (row 'Current owner handoff') and 'explicit contract adoption/delivery is the current bounded task at reports/2026-10-19_delivery-adoption.md' (row 'Maintenance session'). Will closed OTTO/CRUISE/MARCO on 10/25 (SCRATCH 'Latest handoff').",
+     "location": "§ Current Work Queue table, rows 'Current owner handoff' (line 20) and 'Maintenance session' (line 23)"
+    },
+    {
+     "severity": "minor",
+     "description": "Positional pointer rotted within the hour: 'Writer-side closeout_v1 guard: DOCKET last row (process slot owed)' — that row is L872 (registered 20:2x ET); L873 and L874 were appended at 21:10 ET by session prome-a9 (7946cf76d), so 'last row' now names the CRUISE WQ-504 row. The header also records no post-closeout PROME session, though prome-a9 ruled WQ-519(iii)/504 and landed BOOT.md rotation #2 (de34841ac, 21:18 ET) after the 20:2x stamp. Cite L872 by number.",
+     "location": "§ Current Work Queue table, row 'Day's desk touches CLOSED' (line 13), last sentence; header line 4"
+    },
+    {
+     "severity": "minor",
+     "description": "Bare file cites that resolve only with their directory: `safe-push.sh` (scripts/safe-push.sh), `grade_auction.py` (AGENTS/BOND/monitors/grade_auction.py), `READS.tsv` (PROME/registry/READS.tsv). Audit #17 already listed the bare `READS.tsv` cite as a minor; it is still present.",
+     "location": "§ Restrictions 'Push is auto' bullet (line 66) and 'BOND's TIPS-R' bullet (line 74); § History 'Retained carrier pointers' paragraph (line 94)"
+    }
+   ]
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/SCRATCH.md",
+   "verdict": "FLAG",
+   "sample": "★ NEXT ⑤ (line 12): '… spine audit #18 by Fri (last 10/23) · WQ-515 cutoff 16:00 · the Fri cluster (519 iii · 504 · 531). … Rotation debt carried: BOOT.md 97% …' — WQ-519(iii)/504 were RULED APPROVE 21:07 ET and BOOT.md rotation #2 landed 21:18 ET, after this block was written.",
+   "issues": [
+    {
+     "severity": "blocking",
+     "description": "★ NEXT ⑤ carries 'the Fri cluster (519 iii · 504 · 531)' as Friday asks for Will. WQ-519 (iii) and WQ-504 were RULED APPROVE by Will at 21:07 ET 2026-10-29 (WILL_QUEUE § RECENTLY DONE lines 73–74; record `PROME/proposals/2026-10-29_wq519iii-504-RULED.md`; packets fd58e6cc4; DOCKET L873 NEXUS encode due 11/03 and L874 CRUISE self-correction due 11/05). The generated WILLQ-VIEW in this same file (regenerated in 7946cf76d: 10 open) no longer lists them — the ★ NEXT block contradicts the view. A boot reader would re-present ruled items to Will (root rule #10 loop already closed) and would not know the two encode-verification rows exist.",
+     "location": "§ ★ NEXT SESSION, item ⑤ (line 12), 'the Fri cluster (519 iii · 504 · 531)'"
+    },
+    {
+     "severity": "blocking",
+     "description": "'Quartr re-auth and EDGAR string remain owed' contradicts Will's word of 2026-10-28 22:53 ET (verbatim 'We cannot use QUARTR no need to try. No subscription.'; memory `memory/auto/feedback_quartr_no_subscription_do_not_call.md`): there is no re-auth to owe and nobody may ask for one. Same bullet: 'WQ204/WQ187 date-or-decline and WQ412 before its print remain in WILL_QUEUE' — none of the three is in § OPEN (view lists 10 open: 463 · 422 · 471 · 477 · 531 · 31 · 548 · 495 · 547 · 489; no WQ-204 or WQ-412 row exists in the file, 187 appears only inside the 530 row text). A boot reader acting on this bullet would chase a prohibited re-auth and look for queue rows that are gone.",
+     "location": "§ Open carry, bullet 'HEARTBEAT base' (line 53), last sentence"
+    },
+    {
+     "severity": "blocking",
+     "description": "'Approved process sequence → DOCKET L710 (WQ-430 RULED 10/14): L628 → L676 JANUS → repair B then A … L675's in-flight regeneration precedes … Other due process duties (L664/L634/L658-resolved) remain in DOCKET' — DOCKET state cells: L628 RESOLVED 2026-10-23; L676 TOMBSTONE/RETIRED 2026-10-28 (WQ-530 A); L675 TOMBSTONE 2026-10-28; L664 TOMBSTONE 2026-10-28; L710 compacted 10/28. The sequence a reader would execute was retired by Will the night before; only L634 (PENDING) survives. STATUS line 15 records the WQ-530 triage, so the two files disagree.",
+     "location": "§ Open carry, bullet 'Approved process sequence' (line 52)"
+    },
+    {
+     "severity": "minor",
+     "description": "ARGUS bullet: 'L679 legacy done-row record sweep rides with the spine audit; legacy flags remain advisories pending that sweep' — L679 is TOMBSTONE/RETIRED 2026-10-28 under WQ-530 A. Spine audit #18 is due Fri 10/30 (★ NEXT ⑤), so the next audit sitting would carry a retired sweep.",
+     "location": "§ Open carry, bullet 'ARGUS follow-through' (line 54)"
+    },
+    {
+     "severity": "minor",
+     "description": "'Rotation debt carried: BOOT.md 97% … of budget' is stale: BOOT.md rotation #2 landed 21:18 ET (de34841ac, § Resume after a restart → BOOT_MODULES M6) after this block was written; `scripts/read_cap_check.py --agent PROME` now reads BOOT.md 27,106 B / 83%. The post-closeout session prome-a9 (21:07–21:21 ET) is not mentioned anywhere in ★ NEXT.",
+     "location": "§ ★ NEXT SESSION, item ⑤ (line 12), last sentence"
+    },
+    {
+     "severity": "minor",
+     "description": "'Untracked foreign file at the repo root: `KIMI_BOOT.md` (owner UNKNOWN … ask Will)' — the file is no longer on disk and was never committed (working tree clean at this read; `git log -- KIMI_BOOT.md` empty). Stale observation; the ask to Will is moot unless the file reappears.",
+     "location": "§ ★ NEXT SESSION, item ② (line 9)"
+    },
+    {
+     "severity": "minor",
+     "description": "Dead carries stated as open: 'L688 broker UNKNOWN-asof consumer defect remains open' (L688 RESOLVED 2026-10-15 17:43 ET — STATUS line 22 says so too, so the two files disagree) and 'AEOLUS read-cap attestation owed' (L350 RESOLVED 2026-10-20, fleet re-measured). Also the 'Near-term desk context' bullet lists L566 · L654 · L633 · L672 · L673 · L200 · L674 · L667 as retaining 'their canonical DOCKET status' — every one is RESOLVED (10/12–10/21); L516 and L554 are re-dated to 11/03. Hedged wording, but the carry is dead weight a reader must re-verify.",
+     "location": "§ Open carry, bullets 'Known defects/unknowns' (line 55) and 'Near-term desk context' (line 51)"
+    },
+    {
+     "severity": "minor",
+     "description": "'**Latest handoff:**' labels the 10/25 three-desk sweep (Will closed OTTO/CRUISE/MARCO) while the ★ NEXT block above it is the 10/29 closeout; the label should read as dated history or point at the 10/29 closeout report.",
+     "location": "paragraph 'Latest handoff' (line 20)"
+    },
+    {
+     "severity": "minor",
+     "description": "Vintage-clock mismatch: ★ NEXT ⑤ says 'NEXUS L573/L751 and LIQUID's call line on the 10/29 FRED cells (~16:15 ET …)' while DOCKET L573 reads 'WINDOW CLOSE on the 10/30 FRED cells'. One names the observation date, the other the publication day (BAMLH0A0HYM2 is T+1); the lead should name which clock, per KILL_MEMO convention 2 (as-first-published, pending-publication).",
+     "location": "§ ★ NEXT SESSION, item ⑤ (line 12), the NEXUS/LIQUID clause"
+    }
+   ]
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/ACTIVE_DECISIONS.md",
+   "verdict": "FLAG",
+   "sample": "L38 TERRY row: \"WQ357 SELL was approved; TBT execution remains owed\" / \"TBT5 remain\" — vs WILL_QUEUE.md L87: WQ-357 RESOLVED 2026-10-29 11:42 ET, Will verbatim \"357 I did rebuy a couple. no need to flag to Prome.\"; 10/29 capture TBT ×10 (FORGE/STATUS.md L30); no sale owed.",
+   "issues": [
+    {
+     "severity": "blocking",
+     "location": "Live Decision Index, TERRY duration/TLT-put row (line 38), State cell: \"WQ357 SELL was approved; TBT execution remains owed\" and \"TBT5 remain\"",
+     "description": "Stale directive contradicted by canon: PROME/WILL_QUEUE.md row 357 is RESOLVED 2026-10-29 11:42 ET (Will verbatim \"357 I did rebuy a couple. no need to flag to Prome.\"; TBT partly sold 10/13 then rebought; 10/29 capture TBT ×10, confirmed FORGE/STATUS.md L30; MGMT-DURSHORT-EXIT-WQ291 CLOSED at TERRY; \"no sale owed\"). The same row carries Will's standing word \"If WQ is resolved lets make sure we dont keep rechecking it — resolved rows are never re-presented.\" A boot reader acting on this cell would re-surface a resolved TBT exit against Will's explicit instruction. Fix: replace the pending text with the resolution (Rules: resolution REPLACES pending language)."
+    },
+    {
+     "severity": "minor",
+     "location": "Header line 2: \"Updated: 2026-10-15 12:15 ET\"",
+     "description": "Header vintage lags the body: rows carry edits dated 10/21 (OZK/WAL row, af287aee), 10/22 (FORGE ec5a7058b capture) and 10/29 (CORAL row \"touched 2026-10-29 00:2x ET (PROME, CORAL 5e85abbed)\"); git log shows the file committed 10/21, 10/22 and 10/29. A reader keyed on the header would treat the file as two weeks older than its rows."
+    },
+    {
+     "severity": "minor",
+     "location": "TERRY row (line 38), Backstop cell beginning \"October19 accepted broker evidence\" and State cell \"HBAN absent after expiry, disposition UNKNOWN ... actual HBAN outcome is owed\"",
+     "description": "Overtaken evidence vintage: FORGE/STATUS.md has been reconciled twice since (10/22 ec5a7058b ANVIL D-82; 10/29 ANVIL-1029 69f91a091, D-90), and WQ-302 (HBAN R-B) was CLOSED 2026-10-21 at reconcile (PROME/archive/WILL_QUEUE_ROWS_2026-10-29_rolloff.md L23). The cell still says \"QQQ Oct20 720P/719P/715P each1 expire next session\" and \"TERRY integration/C5 packet dated10/19\" although C5 is PAUSED by Will 10/20. Not a wrong directive (the row defers to FORGE for holdings) but a reader lands on a 10/19 picture."
+    },
+    {
+     "severity": "minor",
+     "location": "OZK/WAL SELL row (line 39), State cell: latest capture cited \"10/22 11:01 ET capture (FORGE ec5a7058b, ANVIL D-82)\"",
+     "description": "Vintage drift only: the 10/29 FORGE reconcile (ANVIL, 69f91a091) still shows OZK Nov-20 40P ×4 and WAL Dec-18 65P ×4 held MARK ONLY (FORGE/STATUS.md L90, L92), so the row's conclusion (no fill, lines ride, never infer) is unchanged; the row does not carry the newer capture. DOCKET L709 remains PENDING past its 10/20 date — the fills-owed obligation is itself aging."
+    },
+    {
+     "severity": "minor",
+     "location": "CORAL row (line 36), Next cell: \"reading #9 graded 10/15, next weekly 10/22 — GATES review_by canonical\"",
+     "description": "Internal inconsistency within one row: the 10/29 touch in the same row says \"MSI reading #11 fails the re-fire\" while the Next cell still names reading #9 / next weekly 10/22. GATES.tsv GATE-CORAL-MSI-01 review_by is now 2026-11-05 (reading #12). The row defers to GATES so no wrong action follows, but two readings are stated in one row."
+    },
+    {
+     "severity": "minor",
+     "location": "Rules, Row-weight bullet (line 22): \"Byte flow rule + rotation order = `PROME/CLOSEOUT.md` Chunk 1\"",
+     "description": "Dead section anchor: PROME/CLOSEOUT.md no longer has a \"Chunk 1\"; the byte-flow and rotation recipes live in PROME/CLOSEOUT_PROCEDURES.md (CLOSEOUT.md L137: \"§ Byte-flow and rotation recipes\"; L91 cites \"§ Chunk 3\" there). Repoint to CLOSEOUT_PROCEDURES.md."
+    },
+    {
+     "severity": "minor",
+     "location": "Rules, Row-weight bullet (line 22) vs rows at lines 35, 36, 38",
+     "description": "Self-rule drift: the file targets ≤ ~2 KB per index row, but the TERRY row (line 38) is ~4.9 KB, the Post-FOMC/Hormuz row (line 35) ~3.2 KB and the CORAL row (line 36) ~2.6 KB (character counts via awk; file total 24,653 B per measure.py). Standing guards may stay, but the narrative around them is rotation-eligible under the row's own rule."
+    },
+    {
+     "severity": "minor",
+     "location": "Concurrent-session isolation row (line 37), Next cell: \"Mitigations live now (pre-commit `git status` check in root CLAUDE.md; pathspec commits)\"",
+     "description": "Stale mitigation inventory: the git-status-before-editing step is in PROME/CLAUDE.md Boot step 3 and docs/GIT_WORKTREE_PROCEDURES.md (root CLAUDE.md now points there), and the native git hooks (core.hooksPath=scripts/githooks, pre-commit/commit-msg/pre-push, installed 2026-10-05, verified both boxes per PROME/MACHINE_LOCAL.md § Fleet safeguards) are not named as a live mitigation. Machine-model phrasing (serial, one box at a time) is correct."
+    },
+    {
+     "severity": "minor",
+     "location": "Roster migration row (line 31), FORGE ownership row (line 32), Auto-memory row (line 33) — owed items",
+     "description": "Aging owed confirmations with no closure path dated: WALTER Phase-2 confirm \"still owed\" since 8/5 (row says resolve at next WALTER touch, don't chase — 85 days of WALTER touches since); DAEDALUS ledger_staleness FORGE path-mode patch owed since 7/31 (no DOCKET row named for it); TERRY's boot-read cohort check and the auto-memory canon amendment owed since 7/31–9/7. Not wrong directives, but the index carries three non-terminal rows whose only remaining work has no date."
+    }
+   ]
+  },
+  {
+   "file": "/home/willi/Research-workspace/HEARTBEAT.md",
+   "verdict": "CLEAN",
+   "sample": "L68 calendar line: \"Sun November 1 — OPEC+ (L609); Russia №954 (L771); metals scoring floor\" — DOCKET L771 is dated 2026-10-31.",
+   "issues": [
+    {
+     "severity": "minor",
+     "location": "Thresholds and owner clocks, intro paragraph (line 61): pointer `/tmp/prome-boot-20261029-1051/refresh-equ7ofzd/gate.txt`",
+     "description": "Pointer to an ephemeral scratch path that does not exist on disk; the pick-up refresh gate receipt cannot be verified by a later reader. Cite a committed record (e.g. the rebase sources.json / plan) or the instrument rather than a /tmp file."
+    },
+    {
+     "severity": "minor",
+     "location": "Thresholds § Energy / theaters (line 65) and Near-term calendar (line 68): \"Russia diesel exemption start November 1 (L771)\" / \"Sun November 1 — … Russia №954 (L771)\"",
+     "description": "Date placement drifts from the canonical docket: DOCKET L771 is dated 2026-10-31 (the \"POSTPONE AGAIN?\" decision read ahead of the 01.11 exemption start). The calendar line is a declared view where DOCKET wins; the event date is right but the row date is not the one shown."
+    },
+    {
+     "severity": "minor",
+     "location": "Thresholds § Energy / theaters (line 65) and Near-term calendar (line 68): \"COT #11 review and the F-a roll October 30\" / \"Fri October 30 — … COT #11, BRENT Friday routine 20:15Z\"",
+     "description": "Un-row-cited dates on the declared-view line: no DOCKET row dated 2026-10-30 names BRENT, COT #11 or the F-a roll (the only 10/30 non-cited row is L847 ORACLE). SYSTEM.md registers the HEARTBEAT near-dates line as a view where \"every date [is] row-cited (L###), DOCKET wins on drift\"; these two entries rest on BRENT's own file only."
+    },
+    {
+     "severity": "minor",
+     "location": "Near-term calendar (line 68): \"Wed November 4 — … CYPHER +14d\"",
+     "description": "Un-row-cited date: CYPHER's DOCKET rows are L871 (2026-10-30 Binance first read) and L812 (2026-11-05 open-wave re-check); no row lands on 11/04. Either cite the row the +14d derives from or drop it from the view line."
+    },
+    {
+     "severity": "minor",
+     "location": "Kernel section (line 76): \"→ `PROME/HEARTBEAT_COLD.md` §K / §K.1; DOCKET L247\"",
+     "description": "Pointer mismatch: DOCKET L247 is the KERNEL three-outcome projection vocabulary row (2026-09-09, IN PROGRESS, re-keyed to L416), not the carve-out ④ activation ruling the paragraph describes. The INACTIVE claim itself matches root CLAUDE.md carve-out ④ and no Kernel activation row exists in DOCKET; only the L### cited is the wrong row."
+    },
+    {
+     "severity": "minor",
+     "location": "Book state (line 71): \"0d since receipt — not live, re-check before any fill\"",
+     "description": "Generated self-describing counter that rots daily (PROME/CLAUDE.md § Measurement: a document never carries a figure a reader can recompute; a dated stamp of itself is stale by the next edit). The line names the receipt date already; the day-count adds a figure that reads wrong from tomorrow."
+    },
+    {
+     "severity": "minor",
+     "location": "Amendment 1 (line 8) vs §3 Credit (line 14 \"HTGC printed October 29, grade owed (L827)\"), central judgment (line 6 \"HTGC's software marks\") and Missing-links Private credit row (line 53 \"ungraded until BROCK\")",
+     "description": "By amendment-chain design the superseded strings stay in the body and Amendment 1 names each one it overrides, so no wrong action follows; noted only because a cold reader meets both states (grade owed vs THESIS FAILS FOR Q3) in one file until the next base folds them."
+    }
+   ]
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/GIT_COORDINATION.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Pointer drift: cites 'root Git Protocol 4b' (never --amend / heredoc -F), 'root Git Protocol 4d' (subject <=100 chars) and 'root CLAUDE.md Before-committing step 0' (repo-root cwd). Root CLAUDE.md no longer carries numbered steps 4b/4d/0 (grep '4b|4d|amend' on root = 0 hits); they live in docs/GIT_WORKTREE_PROCEDURES.md (step 0 at L6, 4b at L11, 4d at L13), which root's Git Protocol now delegates to. Rule content is unchanged, so no reader acts wrongly; the cite should read 'docs/GIT_WORKTREE_PROCEDURES.md 4b/4d/step 0'.",
+     "location": "Hard Rules bullet 2 (~L16); Commit cookbook heading line (~L49); Step 0 paragraph (~L97)"
+    },
+    {
+     "severity": "minor",
+     "description": "Incomplete carve-out mirror: the heading says 'root canon ①–③ + ④ — mirror re-synced 2026-08-29' and lists only ①–④. Root CLAUDE.md Git Protocol now carries carve-out ⑤ (self-authored FORUM posts, WQ-486 A, Will 2026-10-24). Additive omission; root is auto-injected and wins, but the mirror claims completeness.",
+     "location": "Ownership > Prome > 'Cross-dir carve-outs' block (~L36–41)"
+    },
+    {
+     "severity": "minor",
+     "description": "Header stamp stale: 'Updated: 2026-10-02' while the body carries a 'reconciled 2026-10-03 22:0x ET' edit (Commit cookbook fail-stop paragraph) and git log shows later edits at spine audits #16 (f13a1b197, 2026-10-15) and #17 (17458066d, 2026-10-23). The file's own convention ('body edits are dated in place') covers the content, but the stamp under-reports.",
+     "location": "Header Status/Updated line (~L4) vs Commit cookbook (~L90)"
+    },
+    {
+     "severity": "minor",
+     "description": "safe-push description (4 numbered behaviours) omits the hook-coverage pre-gate added 2026-10-05: scripts/safe-push.sh L47 runs `bash scripts/install-git-hooks.sh || ABORT: native hook coverage unverified` before the on-branch/shallow guards (MACHINE_LOCAL.md Fleet safeguards row: 'safe-push requires verified installation'). A reader debugging an ABORT from this doc would not find that cause listed.",
+     "location": "Push Discipline, numbered list items 1–4 (~L125–128)"
+    }
+   ],
+   "sample": "Non-ff abort ... = another SESSION pushed since this clone last fetched — usually a concurrent agent on the SAME box ... recovery = root CLAUDE.md Git Protocol session-end step 3 IN FULL: FIRST the dirty-path overlap check ... THEN the autostash-rebase + re-push ... Tripwire (escalate to Will ...): rebase conflicts outside your own dir, or non-ff persisting through a completed rebase→re-push cycle"
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/SYSTEM.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Stale channel claim: 'Will-facing: conversational synthesis and check-ins (via Telegram)'. Telegram is RETIRED by Will 2026-10-27 — AGENTS/WALTER/CLAUDE.md L5 ('WALTER's Telegram connection is disabled. Do not launch, reconnect, poll or promise Telegram replies'), MACHINE_LOCAL.md Telegram row ('RETIRED 2026-10-27 ... plugin disabled, launcher flags removed by CATO 08398d421'). Descriptive, not a git/date/band directive, so minor — but note USER.md L8 ('Primary research channel: Telegram') and MACHINE_LOCAL.md Launch lines (~L42, 'PROME's Will-facing Telegram goes through WALTER's bot') carry the same stale fact; not this file's to fix, flagged for the owner.",
+     "location": "Prome Runtime > 'Will-facing' bullet (~L82)"
+    },
+    {
+     "severity": "minor",
+     "description": "Dead pointer (moved, not deleted): the VIOLET packet is cited at AGENTS/VIOLET/inbox/2026-09-17_from-PROME_cheap-tail-routed-WQ-258-plus-KB-VIO-302-accepted.md; it now lives at AGENTS/VIOLET/inbox/processed/2026-09-17_from-PROME_cheap-tail-routed-WQ-258-plus-KB-VIO-302-accepted.md (consumed). The rule text and DOCKET L413 cite are correct.",
+     "location": "Operating Defaults > 'Desk decision-surface alerts that name PROME as the route' bullet (~L193)"
+    },
+    {
+     "severity": "minor",
+     "description": "Header stamp stale: 'Updated: 2026-10-02' while the body carries dated edits of 2026-10-16 (Dashboard row, Helm/projection RETIRED), 2026-10-19 (WQ-461), 2026-10-20 (CALENDAR.md row), and 2026-10-23 (GIT_WORKTREE_PROCEDURES row P03; VIOLET alert-route bullet; git log 786919d56 / 0f3649c5c / adbc76d18). The file's own 'stamp reconcile' practice is owed.",
+     "location": "Header Updated line (L2) vs rows at ~L35, ~L42, ~L71, ~L193"
+    },
+    {
+     "severity": "minor",
+     "description": "Internal wording drift on the calendar generator: the PROME tools row describes scripts/docket_view.py as 'SCRATCH calendar generator + drift check', and the SCRATCH row still says the operator card holds 'near-gates'; but the CALENDAR row (~L42) and CLOSEOUT.md step 1 (`docket_view.py --write PROME/state/CALENDAR.md`) moved the calendar out of SCRATCH on 2026-10-20. (docket_view.py's own docstring, L16/L42, also still says SCRATCH — the tool's text, not this file's.)",
+     "location": "Tools/Data table PROME tools row (~L173); Read-at-boot table SCRATCH row (~L41)"
+    },
+    {
+     "severity": "minor",
+     "description": "Mirror Map 'Git/push protocol' row names only 'root CLAUDE.md Git Protocol' as canonical home, while the boot table row (~L35) correctly registers docs/GIT_WORKTREE_PROCEDURES.md as the canonical continuation and 'the only home of the pathspec / amend / reset bans'. A canon walk driven from the Mirror Map row would skip that file.",
+     "location": "Canonical → Mirrors table, 'Git/push protocol' row (~L63)"
+    },
+    {
+     "severity": "minor",
+     "description": "Spawn reminder is a thin mirror: 'PROME may spawn domain agents via teams-mode when orchestrating; apply the mode-split rule ... before spawning >1' carries none of the live gates — the TIERED spawn default (Tier 1 free / Tier 2 propose / Tier 3 ask; WQ-184/206/221 caps), the C6/C8/C9 done-without-asking classes, or the WQ-385 Desk-spawn preflight — all in PROME/CLAUDE.md. SYSTEM.md is on-demand (not a boot read) and PROME/CLAUDE.md is auto-injected and wins, so minor; a one-line pointer to PROME/CLAUDE.md 'Spawn default — TIERED' + 'Desk-spawn preflight' would close it.",
+     "location": "Safety / Autonomy Reminders, 5th bullet (~L233)"
+    }
+   ],
+   "sample": "RESEARCH-INTAKE lane is the machine-independent PRIMARY for the HY OAS watch (GH Actions, weekday-daily, bands + named >280 X1-breach / <260-two-consecutive-closes re-kill alerts — band definitions per config.py/KILL_MEMO canon); LIQUID's desktop liquid-hy-watch systemd timer is machine-local redundancy"
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/HANDOFF.md",
+   "verdict": "FLAG",
+   "issues": [
+    {
+     "severity": "blocking",
+     "location": "§ Existing approvals, positions and repair order (line 23), first sentence",
+     "description": "States the LATEST supplied broker record is the 10/22 11:01 ET capture with FORGE mirror ec5a7058b at $39,876.06. Contradicted inside the same file by the October29 prome-5c entry (line 8: 'ANVIL-1029 FORGE mirror 69f91a091 ($39,159.02)'), by PROME/data/2026-10-29_broker-capture-TRANSCRIPTION.md (exists; Fidelity IRA post-close view posted 18:25 ET 10/29) and by FORGE/STATUS.md's header (RECONCILE BY ANVIL to the 10/29 capture). A boot reader using this section for position truth would name the wrong latest record, wrong mirror commit and a superseded account total. Needs: latest record = 10/29 transcription, mirror = 69f91a091; move the 10/22 record to history."
+    },
+    {
+     "severity": "blocking",
+     "location": "Header 'Resume:' paragraph (line 5) vs 'Current closeout' line (line 3)",
+     "description": "Two live start-here directives disagree. Line 3 (10/29 prome-5c) says start ordinary BOOT from the 10/29 account and SCRATCH ★ NEXT; line 5 is 10/25-vintage text carried unchanged through four rotations: it directs resume from the October25 evening account, the 10/25 three-desk sweep 'including the four next-session file corrections', and the 10/25 evening inbox disposition 'before any launch', and asserts 'The day's ARGUS already ran; this later set stays on the retained baseline' — true on 10/25, not after the 10/29 20:2x ET Standard closeout that ran ARGUS (reports/2026-10-29_standard-closeout.md). A boot reader following (1)–(5) resumes from the wrong day and treats a four-day-old inbox disposition as the pre-launch gate. Rewrite the Resume paragraph to the 10/29 state or delete it in favour of line 3."
+    },
+    {
+     "severity": "minor",
+     "location": "§ Existing approvals, positions and repair order (line 23), last sentence",
+     "description": "'The closeout-repair plan now runs under WQ-430 (DOCKET L710) in the order L628 → L676 → B → A' is stale: DOCKET L628 is RESOLVED 2026-10-23 (CATO R2 read, ACCEPT-WITH-RESIDUE); L676 and L710 were compacted to PROME/archive/DOCKET_HISTORY_2026-10-28.md while PENDING under the 10/28 backlog triage (no live row remains); WQ-430 rolled off WILL_QUEUE as Done on 10/22; PROME/STATUS.md line 23 records delivery B brought forward and independently accepted. Same stale sentence also sits in SCRATCH.md line 52 (not this audit's file; flag to PROME). Replace with the current residual (repair A only, or 'none')."
+    },
+    {
+     "severity": "minor",
+     "location": "§ Older unresolved continuity (line 26)",
+     "description": "Claims 'SCRATCH's open carry remains live' for items SCRATCH no longer carries: HEARTBEAT '32nd re-base (79% after amendment #1…)' — HEARTBEAT is at the 36th base (HEARTBEAT.md line 2; this file's own line 8); 'ARGUS L678/P5' — L678 RESOLVED 2026-10-10 (SCRATCH line 54 lists only bounded follow-through); 'the L679 legacy done-row sweep' — L679 compacted to DOCKET_HISTORY_2026-10-28 while PENDING (no live row); 'the Deck reference view (hosted v12 of 9/26)' — SCRATCH line 57 lists it under 'Dropped carries (10/16): … a rule, not a carry'. Paragraph is a pre-10/14 carry list under a 10/29 header; re-cut to what SCRATCH § Open carry actually holds or point at that section without restating."
+    },
+    {
+     "severity": "minor",
+     "location": "Header 'Current closeout' line (line 3)",
+     "description": "'C9 is live (`CLAUDE.md` § Ask First)' — the Ask First section lives in PROME/CLAUDE.md; root CLAUDE.md has no such section. Qualify the path (`PROME/CLAUDE.md`)."
+    }
+   ],
+   "sample": "Verified clean: all 52 linked/backticked paths resolve on disk (reports, proposals, plans, data, tools, every archive/HANDOFF_ROTATED_* link, memory anchors incl. memory/2026-10-29.md § Working session prome-5c and memory/2026-10-25.md § evening session); all 21 cited commit hashes resolve (e927b386e 36th base, 7ad038462 HTGC amendment, 69f91a091 FORGE $39,159.02, d7df60f77, 6a5839afd, 085508b7e, 504e56cc4, ec5a7058b, 08398d421…); DOCKET dates match canon (L871 2026-10-30 = Fri CYPHER; L800 10/30; L482 11/02; L784 11/03; L516 11/3; L554 11/3; L751 10/30; L785 11/4; L811 11/9; L860/861/862 CRL-32 11/25·12/10·12/23; L714 re-dated 11/05 10-Q leg consistent with the 'release leg graded' account); FERT G5 review_by 2026-11-04 matches GATES.tsv row 13; L466/L741/L773/L781/L805/L818/L826/L846/L851/L739 state cells read RESOLVED as the entries claim; roster names (CYPHER Tier-2, CATO SPECIAL, ANVIL/ARGUS tool-class, GIBBS/ISHM) match ROSTER.md; machine labels (DESKTOP prome-90/5c, LAPTOP prome-92) and 'ARGUS DEFERRED under WQ-485' consistent with MACHINE_LOCAL.md and WILL_QUEUE WQ-485; no git-protocol restatement, no band definitions cited (HY 318 / CCC 1,321 [10/27] are dated levels, ignored by rule). Date basis: environment date 2026-10-29 (task said UNSTAMPED; file's own stamps used)."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/AUTONOMY.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "location": "§ Tier 1, 'Converted from ask-first by WQ-348' index bullet (line 27) and § Tier 2 new-direction spawn bullet (line 38)",
+     "description": "The in-file index of the WQ-348 done-without-asking class lists C1–C7 only. It omits C8 (encoded 10/23; this file's own change-log row 110 says 'the WQ-348 class now reads eight kinds') and C9 (the header stamp names the 10/29 C9 update; change-log row 112), while the governing PROME/CLAUDE.md § Ask First reads 'Nine kinds of step'. The Tier-2 'A NEW-DIRECTION domain spawn' bullet likewise carries no note that C9 narrows it for the $0/one-desk/one-session research-commission subset. Fail-safe direction (a reader would ask rather than act), hence minor, but it is this file's own 'log here, mirror there' rule failing inside the file: add C8 · C9 to the index with the paused-C5 marker pattern, and a one-clause C9 carve-out on the Tier-2 bullet."
+    },
+    {
+     "severity": "minor",
+     "location": "§ Trust Evolution, 'Review quarterly' bullet (line 75)",
+     "description": "'last full review: 2026-07-01 — the quarterly review is DUE since 2026-10-01; candidate for the 2026-10-25 WQ-299 review sitting' — the 10/25 sitting is past (DOCKET L600 RESOLVED by WQ-505 on 10/24; record proposals/2026-10-24_wq505-486-517-493-488-RULED.md) and that record performs no AUTONOMY tier review (no 'quarterly' mention in any 10/23–10/29 proposal). The obligation is still OWED and now points at a candidate date that has passed: re-date it (or register a DOCKET row) or record a decline."
+    },
+    {
+     "severity": "minor",
+     "location": "§ Autonomy Change Log, 2026-08-27 Gate C row (line 96)",
+     "description": "'the custody paragraph after carve-outs ①–④' — root CLAUDE.md Git Protocol now carries five carve-outs (⑤ self-authored FORUM posts, WQ-486 A, Will 2026-10-24) and the custody paragraph follows ⑤. Historical row, so wording drift only; a bracketed '(now ①–⑤)' suffices."
+    },
+    {
+     "severity": "minor",
+     "location": "§ Autonomy Change Log table rows at lines 100, 104, 108, 112",
+     "description": "Table hygiene: the 2026-10-20 C5-pause row (line 108) has only two cells (Direction and Reason columns empty, the cell text runs into the Change column); the 2026-10-29 C9 row (line 112) lacks its closing pipe; the 2026-07-30 row (line 100) sits after the 2026-09-10 rows and the 2026-10-16 row (line 104) before the 2026-10-14 row, so the log is not in date order. Cosmetic; table_check.py-class fix."
+    }
+   ],
+   "sample": "Verified clean: header git note is pointer-only to root CLAUDE.md Git Protocol (no restated push/non-ff rule — matches SYSTEM.md mirror-map row and the 8/9 demotion); machine-model phrasing ('serial multi-machine amendment', 7/01 row) matches root and MACHINE_LOCAL.md; all 28 backticked pointers resolve (12 proposal records incl. 2026-10-29_wq538-c9-fire-commissions-RULED.md, plans/2026-10-16_boot-closeout-cost-PLAN.md, tools/spawn_list.py, spawn_slate.py, prome_gate.py, state/ORCH_LOG.tsv, inbox/processed/2026-10-05_from-WALTER_WQ-369…, AGENTS/WALTER registry/routed logs + LAST_COMPLETION.md, USER.md, KERNEL/, archive/WILL_QUEUE_ROWS_2026-08-16_rotation.md); all cited commits resolve (8a2dbfa65, 43a4c3bc2, 9094e262f, 7318799c4, b6d3e37a5, c9897174e, 15729786c, 9e7d9c370, 9fd0544ef, 2d7e41774, 07eca9d72, 55cfb3982); C5 PAUSED 2026-10-20 11:32 ET consistent with PROME/CLAUDE.md § Ask First and USER.md § No expiry nagging; process-ceiling history (1 → 3 on 10/18 → 5 on 10/21; unit defined by WQ-505 10/24) consistent with PROME/CLAUDE.md § Session Process Controls; C8/C9 wording consistent with the charter; spawn-driver rows (WQ-184/206/221 caps 4/8, L291 RESOLVED → L445 successor 10/25) match PROME/CLAUDE.md and DOCKET L291/L445; no catalyst dates, trigger bands or roster membership asserted in this file. Zero blocking issues."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/MACHINE_LOCAL.md",
+   "verdict": "FLAG",
+   "issues": [
+    {
+     "severity": "blocking",
+     "description": "§ Launch lines (lines 40–43) still prescribes `cd ~/Research-workspace/AGENTS/WALTER && claude --dangerously-skip-permissions --channels plugin:telegram@claude-plugins-official`, says Telegram inbound is a LAUNCH flag, and says PROME's Will-facing Telegram goes through WALTER's bot. All three are contradicted inside the same file by inventory row 14 (Telegram RETIRED 2026-10-27 by Will, plugin disabled, launcher flags removed by CATO 08398d421) and by the live artifacts: `AGENTS/WALTER/.claude/settings.json` has `telegram@claude-plugins-official: false`; `scripts/agents.json` no longer carries `claude_args --channels` (removed in 08398d421); `scripts/AGENT_LAUNCHER.md` line 227 says new and resumed sessions launch without Telegram flags; `AGENTS/WALTER/CLAUDE.md` line 118 marks the cited memory `project_telegram_plugin_scope` historical. A boot reader following this section would launch WALTER with a retired flag and expect a Telegram delivery path that no longer exists. VERIFIED at the artifacts. Fix: retire or strike the section (keep the PROME line without the Telegram clause), pointing at row 14 and `scripts/AGENT_LAUNCHER.md`.",
+     "location": "§ Launch lines, lines 40–43 (vs row 14, line 14)"
+    },
+    {
+     "severity": "minor",
+     "description": "Header `Updated: 2026-10-02` declares coverage only through the 9/23 edits, but git log shows body edits after it: be8bdb712 (10/15 § Overnight desk runs), 80c7b1ebd/342883532 (10/21–22 Git author email row + checklist item 5), the 10/27 Telegram-retirement edit to row 14, and ed9665b9c (10/28 ORACLE cron row 30). Line 7's `verifications run through 9/22` is likewise stale (cells now dated through 10/28). The file's own rule says per-cell dates govern, so this is stamp drift, not a wrong directive — but the header-edit-is-mistaken-for-maintenance pattern applies: the header currently certifies a 10/02 body.",
+     "location": "Header line 2 and § Inventory preamble line 7"
+    },
+    {
+     "severity": "minor",
+     "description": "Row 30 (ORACLE `daily_pull` cron): the INSTALLED claim is VERIFIED at `crontab -l` (line present, matches `AGENTS/ORACLE/SCHEDULED_RUNS.md` line 13), but no run is evidenced on this box: cron daemon is running (pid 180), WSL has been up since 2026-10-29 15:07 ET so the 16:15 and 19:15 slots have passed, yet `~/.local/state/oracle_daily_pull.log` is 0 bytes with mtime 10/28 22:15 and the receipt file the row cites, `AGENTS/ORACLE/workbook/ROUTINE_RUNS.tsv`, does not exist (not on disk, never committed). The row's only stated condition is 'runs only while WSL is up'; something else is also required. Not a text defect of this file — flag to ORACLE/PROME to run `tools/routine_check.py` and diagnose before the November reads are assumed covered.",
+     "location": "§ Inventory, row 30 (line 30)"
+    },
+    {
+     "severity": "minor",
+     "description": "Row 27 (Bright Data) says WALTER keeps a manual count 'for the 10/17 review, L599'. DOCKET physical line 599 is dated 2026-10-19 (re-dated) and its row already carries the review result (source `AGENTS/WALTER/research/2026-10-19_morning/L599-review.md`; WQ-373 in RECENTLY DONE). The cell reads as a pending review that has already happened.",
+     "location": "§ Inventory, row 27 (line 27), consequence cell"
+    },
+    {
+     "severity": "minor",
+     "description": "Row 11 (venv) attributes the rebuild line `.venv/bin/pip install yfinance pandas pyyaml pdfminer.six` to `scripts/env_doctor.py`'s fix lines. The script's actual fix line (line 251) is `python3 -m venv .venv && .venv/bin/pip install yfinance pandas`; pyyaml appears only in the MESSAGING-tier warn text (line 148) and pdfminer/bs4 as per-dep warns. The row's pass-condition correction (rc=0 AND no MESSAGING warn) is right; only the attribution of the consolidated line is drift.",
+     "location": "§ Inventory, row 11 (line 11), consequence cell"
+    },
+    {
+     "severity": "minor",
+     "description": "Row 15 refers to 'ORACLE `kalshi.py`' with no path; the file is `AGENTS/ORACLE/scripts/kalshi.py` (no `AGENTS/ORACLE/kalshi.py`). Cosmetic — commit 5eae08a1c cited for the unsigned-mode change exists.",
+     "location": "§ Inventory, row 15 (line 15)"
+    }
+   ],
+   "sample": "Checked clean: switching-checklist pull form (`git pull --rebase`, matches root Git Protocol and BOOT step 0); `core.hooksPath=scripts/githooks` with commit-msg/pre-commit/pre-push present; `git config user.email` = no-reply on this box (row 29); FFIEC JWT 11/05, desktop PAT 11/12, laptop PAT 11/15 all match WILL_QUEUE row 31 (dated 2026-11-01, THREE credentials); env_doctor REQUIRED_KEYS carries FFIEC_CDR_TOKEN/USERNAME and FIRMS_MAP_KEY with the JWT expiry probe; VIRGIL/OFF-FLEET matches ROSTER; `WILL/private` absent on this (laptop) box as the row states; `scripts/requirements.txt` absent as the row declares; all other backticked repo paths exist."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/COMPLETION_SPEC.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Header carve-out text says `PROME/BOOT.md` step 3b harvests WALTER's §WILL_NEEDS 'as a Decision-Deck feed'. The Decision Deck is PAUSED BY WILL (WQ-460; BOOT.md line 8 and 3b); BOOT 3b now reads `AGENTS/WALTER/LAST_COMPLETION.md` §WILL_NEEDS and registers WQ rows directly (WQ-206 intake remains active). The carve-out's conclusion — WALTER's copy stays LIVE — still holds and `AGENTS/WALTER/LAST_COMPLETION.md` is live (updated 2026-10-30T01:14Z); only the stated reason is stale wording.",
+     "location": "Header, line 3 (carve-out sentence)"
+    },
+    {
+     "severity": "minor",
+     "description": "Header pointer: HENRY's 'LAST_COMPLETION block' mixed-vintage banner pattern 'is recorded in `AGENTS/DAEDALUS/BLUEPRINTS/STATUS_TWO_STATE_PILOT.md`, no longer in CLOSEOUT [audit #15 pointer fix]'. The CLOSEOUT half is VERIFIED (no 'LAST_COMPLETION block' in PROME/CLOSEOUT.md). The blueprint half is SEARCH-NOT-FOUND: the file contains no 'LAST_COMPLETION', 'mixed-vintage' or HENRY-banner text — its only banner is the archive-close banner at its line 46. The pattern may live elsewhere or under a different name; the pointer should be re-checked.",
+     "location": "Header, line 3 (last bracketed clause)"
+    },
+    {
+     "severity": "minor",
+     "description": "'(L378, October19)' glues the month and day into one token; root Output Canon requires normal spaced words. DOCKET L378 itself resolves correctly (2026-09-19 WQ-249 mechanize row).",
+     "location": "§ Required spawn brief and handoff checkpoint, line 23"
+    }
+   ],
+   "sample": "Checked clean: delivery home `PROME/inbox/{date}_from-{AGENT}_{slug}.md` matches root canon and BOOT.md step 6 line 74 (SOLE delivery surface); `PROME/inbox/processed/` exists; `orch_closeout.py` exposes `--expected-key`, `--inventory-complete`, `--session-inventory`, `closeout_v1=` marker and `resolves` (lines 28, 141, 235–238) and `prome_gate.py` runs it as the advisory reader (line 1717); DOCKET L378/L381/L399 resolve to the rows the text describes; HANS commit b2e53cf73 exists; WAL promoted out of REGINALD 7/25 matches ROSTER; Helm RETIRED (WQ-461) / Deck PAUSED (WQ-460) matches CLOSEOUT.md § Boot↔Closeout symmetry; WILL_QUEUE-as-only-Pending-Will-list and ACTIVE_DECISIONS-only-if-non-terminal match CLOSEOUT's table; Tier-2 carve on routing matches PROME/CLAUDE.md spawn tiers; all six embedded memory files exist; root AGENTS.md and USER.md exist for the spawn-brief read list."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/.claude/skills/boot/SKILL.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Item 0 still says 'the repo-state checks + pull-if-safe'. BOOT.md step 0 (commit a4a1bce16, WQ-539 A, Will 2026-10-29 12:11 ET) replaced the 'if clean/safe pull, if dirty do not pull' rule with: `git pull --rebase` is the one form and Git's own refusal on modified/staged files is the stop — PROME no longer judges 'safe'. The runner points at step 0 and quotes no command, so the manual wins, but the phrase is the superseded rule's wording (runner lagging a same-day canon change).",
+     "location": "item 0 'Repo state + the clock', line 15"
+    },
+    {
+     "severity": "minor",
+     "description": "Item 7's enumerated report contents (Done without asking · ACTION OWED dispositions · fire-time accept/prune · SKIPPED · book line · delta brief) omit the WQ-538 A HANDS-rows-parked rule added to BOOT.md step 8 'Required operational accounting' on 2026-10-29 (a HANDS row is never re-presented individually; ONE line 'parked (your hands): n items, oldest WQ-n (date)'; re-present only on Will's ask or a due `⏰ re-present <date>` marker). Covered by the generic '→ BOOT.md step 8' pointer, but the runner enumerates the other accounting items explicitly and not this one (layering direction a).",
+     "location": "item 7 'Report, then continue', line 24"
+    },
+    {
+     "severity": "minor",
+     "description": "Item 3's one-shot command omits the `--charter-mode` selection that BOOT.md line 12 requires be passed through `boot_session.py` (also on refresh): `--charter-mode explicit` is the default and `injected` is permitted only on confirmed injection. VERIFIED: boot_session.py accepts `--charter-mode {explicit,injected}` default explicit, so the verbatim command fails safe; the runner just never names the choice.",
+     "location": "item 3 'One-shot gate', lines 18–20"
+    },
+    {
+     "severity": "minor",
+     "description": "Item 5's conditional-read list names 'flagged GATES/DOCKET rows; BOARD action lines', which BOOT.md step 6 does not enumerate as such (step 6 lists fleet-state reads · BOARD diff-scan standalone-only-if-skipped · spawn slate · inbox drain · identity docs · CLOSEOUT pointer), and omits step 6's trigger-gated residual 'If `AGENTS/PROME/` reappears, read its contents, migrate to `PROME/inbox/`, flag the sender; never service it in place' (a residual present in the manual, absent from the runner — layering direction a). Also absent: step 6's BOARD-scan 'rc=1 ⇒ on an ACTION line; disposition before proceeding' and the void-exemption hand-back to WALTER, though item 3 does point to 'step 6 owns the board-scan re-run rule'.",
+     "location": "item 5 'Targeted evidence AND the inbox drain', line 22"
+    },
+    {
+     "severity": "minor",
+     "description": "Glued tokens 'steps1–4' and 'items0–9' (Mode selection line) violate root Output Canon 'write normal spaced words and numbers'. Cosmetic; BOOT.md line 40 carries the same 'steps1–5' / 'step8' glue (outside this file's scope).",
+     "location": "'Mode selection' paragraph, line 13"
+    }
+   ],
+   "sample": "3. **One-shot gate** → BOOT.md step 5 \"⚡ ONE-SHOT GATE\", run ONCE: `cd \"$(git rev-parse --show-toplevel)\" && python3 PROME/tools/boot_session.py --run-dir /tmp/prome-boot-<session-id>` — VERIFIED: matches BOOT.md step 5 verbatim; boot_session.py takes --run-dir (required), --refresh, --charter-mode; fire-time log name in item 7 matches today's run dir /tmp/prome-boot-20261029-2045/checks/04-firetime-owner-routed-flags-persist-.txt."
+  },
+  {
+   "file": "/home/willi/Research-workspace/PROME/.claude/skills/closeout/SKILL.md",
+   "verdict": "CLEAN",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Step 2 quotes the calendar command as a bare `docket_view.py --write PROME/state/CALENDAR.md`. No `PROME/tools/docket_view.py` exists; the script is `scripts/docket_view.py` and CLOSEOUT.md step 1 quotes the full `cd \"$(git rev-parse --show-toplevel)\" && python3 scripts/docket_view.py --write PROME/state/CALENDAR.md`. Runners own the commands (layering), so the bare name is a pointer gap; a reader from `PROME/` would not resolve it without opening the manual.",
+     "location": "step 2 'Steps 1–7 of § The routine', line 16"
+    },
+    {
+     "severity": "minor",
+     "description": "Steps 3 and 5 describe the freeze/verify contract as it stood before 2026-10-29: step 3 says '`observed` = PENDING foreign paths only' and step 5 says 'the pending-only foreign exception is advisory; strict arrivals require the documented classification or re-freeze'. CLOSEOUT.md steps 8 and 10 were amended twice today after the runner's last substantive commit (493b376fb, 10/26): WQ-448 re-scoped (cd0e114dc 13:59 ET, Will 13:45 'yes approved please fix') makes a desk-committed-and-still-pending foreign path advisory too (`FOREIGN-PENDING-OVER-COMMITTED`, attributed by its own commits) at every verify form, and the freeze change (831c11d6f 14:12 ET, Will 14:05 'we need to fix this freeze thing') records such paths under the manifest's `foreign_at_freeze` instead of demanding a hand-written `observed` entry. The gate itself prints the class, so a reader following the runner would at worst do unnecessary `--observe` classification, never a wrong act — but the runner's statement of the rule is now narrower than canon.",
+     "location": "step 3 'FREEZE, then AUDIT' line 17 and step 5 'Commit → VERIFY → push' line 22"
+    },
+    {
+     "severity": "minor",
+     "description": "Step 0 names 'Pre-closeout items 1–4' and step 8's report list names Done-without-asking and SKIPPED but not Pre-closeout item 3b (Will 2026-10-21): every packet that reached `PROME/inbox/` during the session is dispositioned or named as carried, WITH ITS COUNT, in the closeout report. The runner nowhere carries the inbox count as a report item (layering direction a). Note for the CLOSEOUT.md reader: the manual's own § Delivery 'Session summary to Will' list also omits the inbox count, so the runner mirrors a gap inside the manual (3b vs § Delivery) rather than inventing one.",
+     "location": "step 0 line 13 and step 8 'Report' line 25"
+    },
+    {
+     "severity": "minor",
+     "description": "Step 2 says 'root steps 1b–1e' but CLOSEOUT.md step 6 also carries the PROME-only '1d-bis hot-index FLOW rule' (at ≥75% of the `MEMORY.md` cap demote settled rows to `INDEX_COLD.md` until under 70%, same sitting; Will-approved 2026-08-12, ba3a68739) which is explicitly 'not a root step' — so 'root steps 1b–1e' does not reach it. Trigger-gated residual present in the manual, absent from the runner.",
+     "location": "step 2, line 16 ('root steps 1b–1e')"
+    }
+   ],
+   "sample": "4. **FINAL gate WITH THE TIER** → step 9: `cd \"$(git rev-parse --show-toplevel)\" && python3 PROME/tools/prome_gate.py closeout --tier <bounce|light|standard|heavy> (--no-memory | --slug <name> …) (--no-superseded | --superseded <old> <new> …)` — VERIFIED verbatim against CLOSEOUT.md step 9 and prome_gate.py usage (lines 29–30); step 5's no-`--push` rule, `--verify-review --ref <DELIVERY_SHA> --paths`, safe-push-only-on-rc-0 and the WQ-485 A ARGUS once-per-day cadence all match the manual; root and PROME skill copies byte-identical."
+  },
+  {
+   "file": "PROME/DOCKET.tsv (anchor sample)",
+   "verdict": "CLEAN",
+   "sample": "today = 2026-10-29 (task said UNSTAMPED; no args JSON was passed, so the harness environment date was used — re-run with {today:...} if a different stamp is intended). Cutoff = today+8 = 2026-11-06. Data rows parsed = 800 (tab-split, first field matches ~?YYYY-MM-DD; comment/short lines ignored); status beginning PENDING = 156; ELIGIBLE (PENDING and first date >= 2026-11-06) N = 77. STEP = max(1, floor(77/8)) = 9; R = 0; selected indices 9,18,27,36,45,54,63,72 (8 rows, cap not hit). Arithmetic note: a first pass with a strict date regex excluded line 240 ('~2026-11-15') and gave N=76/STEP=9 with a different tail; the reported sample is the corrected pass that counts tilde-dated rows as dated. SAMPLED ROWS (physical line · date · description head): idx9 L157 · 2027-07-01..2027-07-31 · 'EARLIEST-POSSIBLE date a Jul-1-2026-transitio' · CARL/STUE · src AGENTS/CARL/thesis/PREDICTIONS.tsv — EXISTS; CRL-14 RETIRED→CRL-28 OPEN matches; ~Jul 2027 270-day floor carried in CARL CHANGELOG.md L563 and PREDICTIONS_MIRROR.md L30 (not in PREDICTIONS.tsv itself) — PASS. idx18 L322 · 2026-11-19 · 'REQ-DEWEY-20260829-002 TESTS at NVDA Q3 FY2' · VULCAN · src DEWEY output 2026-09-10 report — EXISTS; VULCAN docket/CATALYSTS.tsv L19 carries the same 11/19 estimated row citing DOCKET L322 — PASS (minor: stale DARK note in owner cell). idx27 L521 · 2026-11-09 · 'VLY Q3-2026 release + deck (est. Thu 10/22' · REGINALD · both sources EXIST; print leg graded 10/22 per status, 10-Q leg open; REGINALD STATUS.md says VLY 10-Q ~11/10 vs row 11/09 (both declared estimates, row notes CHECK-BY 11/10) — PASS. idx36 L613 · 2026-11-18 · 'WQ-386 VLO held-share next contract-month' · TERRY/Will/PROME · src proposals/2026-10-07_VLO-december-management-RULED.md EXISTS (review by Nov 18, suspend after Nov 19 settlement); GATES.tsv GATE-TERRY-VLO-HELD-01 present; VLO 3 sh held per FORGE/STATUS.md — PASS. idx45 L753 · 2026-11-10 · 'NEXUS WQ459/L16 — provisional weekday-only' · NEXUS · letter + CALENDAR.json EXIST; CALENDAR provisional_cell15_observation 2026-11-09 / read 2026-11-10 matches; grading log shows cells 1–6 QUALIFIED, no fire (DOWN run 1 of 3 at 10/27 obs) so count-governed date still holds — PASS (minor: status-cell head wording). idx54 L791 · 2026-12-21 · 'EGBN — PRINCE GEORGE S $56.0M MULTIFAMILY' · RED/REGINALD · REPORT.md + RECEIPT.md EXIST; REPORT L114 confirms extension to 12/21/2026, nonaccrual, $56.0M — PASS. idx63 L821 · 2026-11-18 · 'MIDAS WQ-451 L3-TIC — TIC September (publi' · MIDAS · letter EXISTS; §L3 line 54 'TIC September, published ~2026-11-18' and grading calendar line 58 '11/18 (TIC)' — PASS. idx72 L854 · 2026-11-28 · 'YURI — YUR-F02 RE-TEST WINDOW CLOSES' · YURI/DAEDALUS/PROME · DAEDALUS runs/2026-10-28_YURF01_GRADE.md § RULING EXISTS, names option B window closing 2026-11-28 and Will's verbatim decline of A; YURI inbox packet 2026-10-28_from-DAEDALUS_YUR-F01-ruling-register-F02.md present; F02 not yet in YURI INTENT_LEDGER (consistent with PENDING registration) — PASS.",
+   "issues": [
+    {
+     "severity": "minor",
+     "description": "Owner cell carries a stale state claim: 'VULCAN (owner; DARK 9/10 with 3+11 unread ⇒ L0 at the first boot on/after the WQ-206 age)'. VULCAN is active (own commits 2026-10-29: 5ab113a99, 4a75685eb, d2daf2c9c; its CATALYSTS.tsv L19 carries this row's 11/19 test). Owner identity is correct; the DARK/L0 instruction embedded in the cell is overtaken and could prompt a needless L0-drain read when the row enters its window. Wording drift only.",
+     "location": "PROME/DOCKET.tsv line 322, owner field"
+    },
+    {
+     "severity": "minor",
+     "description": "Status cell opens 'PENDING — PROVISIONAL anchor not yet qualified' but its own appended 2026-10-24 note and the source CALENDAR.json ('ANCHOR QUALIFIED 2026-10-19', actual_anchor 2026-10-19) say the anchor qualified; the appended 'UP run 1 of 3' is also behind the owner's 10/28 read (cells 5–6 ⇒ DOWN run 1 of 3). The 11/10 date remains count-governed and unaffected (6/15 cells qualified, no fire). Two live readings inside one status cell — wording drift, not a date/state contradiction.",
+     "location": "PROME/DOCKET.tsv line 753, status field (same head wording duplicated on sibling row line 754)"
+    }
+   ]
+  }
+ ],
+ "blocking_count": 9
+}

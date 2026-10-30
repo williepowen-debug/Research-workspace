@@ -1,7 +1,7 @@
 # PROME Boot
 
 **Editorial amendment:** 2026-10-25, WQ-525 — research-first briefing, step 8; [ruling and reads](proposals/2026-10-25_research-first-briefing-RULED.md).
-**Owner:** PROME · **Updated:** 2026-10-16 12:5x ET (boot rewiring — ruling `PROME/proposals/2026-10-16_boot-rewiring-RULED.md`: execution order · GATES wording · HEARTBEAT scope · bounded-read rule · delta brief · one price pull · slate rule; plan read HOLD→fixed, result read recorded there). Prior stamps → `archive/BOOT_STAMP_CHAIN_2026-10-16.md`; this line keeps the latest and at most ONE prior.
+**Owner:** PROME · **Updated:** 2026-10-29 21:36 ET (spine audit #18 — later body changes are dated in place: inbox drain 10/21, WQ-467 fire-time 10/21, WQ-526 pointer 10/26, WQ-538 A HANDS 10/29, rotation #2 M6 10/29). Prior: 2026-10-16 12:5x ET (boot rewiring — ruling `PROME/proposals/2026-10-16_boot-rewiring-RULED.md`: execution order · GATES wording · HEARTBEAT scope · bounded-read rule · delta brief · one price pull · slate rule; plan read HOLD→fixed, result read recorded there). Prior stamps → `archive/BOOT_STAMP_CHAIN_2026-10-16.md`; this line keeps the latest and at most ONE prior.
 
 **Helm RETIRED (WQ-461, 2026-10-19).** No routine dashboard generation, presentation upkeep, hosted reads or publication. Historical BRIEF/HANDBOOK/HTML and change-feed records are frozen; use canonical owner records and the direct conversation. The boot book line, WALTER intake and decision checks remain active. Authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`.
 
@@ -33,15 +33,15 @@ On a runtime without confirmed context injection, explicitly read root `CLAUDE.m
 
 ## Boot Sequence
 
-## Resume after a restart (WQ-526, 2026-10-26) → `PROME/BOOT_MODULES.md` § Resume after a restart
+### Resume after a restart (WQ-526, 2026-10-26) → `PROME/BOOT_MODULES.md` § Resume after a restart
 Read it ONLY when Will says “pick up PROME” (the bounded continuation of an unfinished working session; “Resume PROME” is RETIRED). Ordinary “boot” is the full sequence below; “Checkpoint for restart” is CLOSEOUT's Bounce checkpoint. The branch's step numbers cite THIS file's steps.
 
 
-**Bounded reads (ruling 2026-10-16, A4):** every mandatory document read in steps1–5 uses `python3 PROME/tools/boot_read.py <path>` from repo root, one page per tool output and one document per call. Follow `next_offset` with `--offset <next_offset> --sha256 <sha256>` until `eof: true`; a changed-source refusal means restart that document. The manual's selected sections still determine scope. Never concatenate documents; truncated or harness-persisted output is incomplete beyond text received. Any read not completed to `eof: true` is SKIPPED at step8.
+**Bounded reads (ruling 2026-10-16, A4):** every mandatory document read in steps 1–5 uses `python3 PROME/tools/boot_read.py <path>` from repo root, one page per tool output and one document per call. Follow `next_offset` with `--offset <next_offset> --sha256 <sha256>` until `eof: true`; a changed-source refusal means restart that document. The manual's selected sections still determine scope. Never concatenate documents; truncated or harness-persisted output is incomplete beyond text received. Any read not completed to `eof: true` is SKIPPED at step 8.
 
 **Repeat boot** — before reusing ANY earlier read in retained context, or on `--refresh`: `PROME/BOOT_MODULES.md` § Repeat boot decides eligibility (acknowledged reads, read-state IDs, invalidation, refresh of a completed original).
 
-**Execution order (ruling 2026-10-16, B1):** step numbers are stable citations, not running order. Run **0 → 1 → 2 → 3 → 4 (STATUS restrictions before any gate-driven act) → step5’s ⚡ ONE-SHOT GATE → 3b → rest of step5 in full (HEARTBEAT · weekend rule · one dashboard pull · five-verdict rules · 5b) → 4b → 6 → 7 → 8 → 9.** Run every active step; WQ460 Deck duties are PAUSED BY WILL, other omitted mandatory steps are SKIPPED under step8. The `/boot` runner (`PROME/.claude/skills/boot/SKILL.md`) follows this order; this manual wins any conflict and the runner must be fixed.
+**Execution order (ruling 2026-10-16, B1):** step numbers are stable citations, not running order. Run **0 → 1 → 2 → 3 → 4 (STATUS restrictions before any gate-driven act) → step5’s ⚡ ONE-SHOT GATE → 3b → rest of step5 in full (HEARTBEAT · weekend rule · one dashboard pull · five-verdict rules · 5b) → 4b → 6 → 7 → 8 → 9.** Run every active step; WQ-460 Deck duties are PAUSED BY WILL, other omitted mandatory steps are SKIPPED under step8. The `/boot` runner (`PROME/.claude/skills/boot/SKILL.md`) follows this order; this manual wins any conflict and the runner must be fixed.
 
 0. **Check repo state (and take the clock):**
    At the opening report, read and execute `PROME/BOOT_MODULES.md` § Runtime disclosure in full. It retains the capability evidence, coverage and unavailable-control requirements; it is mandatory on every boot.

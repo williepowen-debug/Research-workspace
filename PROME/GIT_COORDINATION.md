@@ -33,12 +33,13 @@ Prome may write:
 
 Prome must not treat archived `AGENTS/PROME/` files as live instructions.
 
-**Cross-dir carve-outs (root canon ①–③ + ④ — mirror re-synced 2026-08-29 audit #11):**
+**Cross-dir carve-outs (root canon ①–⑤ — mirror re-synced 2026-08-29 audit #11, ⑤ added 2026-10-29 audit #18):**
 - **① Self-authored inbox packets (ratified 2026-07-23 — HENRY orphan-gap memo):** a packet **PROME authored** into another agent's `inbox/` is PROME's to commit, **and PROME must** — an uncommitted packet never reaches the recipient (~12% orphaned this way pre-detector). Commit it explicitly-pathed with the recipient named in the subject (`PROME -> <RECIPIENT>: <what>`).
 - **② Self-authored shared-log rows (ratified 2026-07-25):** a row PROME authored in a shared cross-agent log (`AGENTS/SIGNALS.md` class) is PROME's to commit, explicitly path-scoped. Rows other agents wrote and file restructures stay off-limits.
 - **③ Self-authored auto-memory files (ratified 2026-07-27, MANDATORY):** any memory file under `memory/auto/` that PROME authored or appended MUST be self-committed — the shared `MEMORY.md` index row rides out on whoever commits next while the FILE needs a deliberate add, so an uncommitted memory leaves the index advertising content the other machine doesn't have (worse than the memory not existing). Enforcement at closeout: `python3 scripts/memory_index_check.py --strict --slug <slug>` per memory written — **the `--slug` form, never bare `--strict`** (bare gates the whole index and blocks on OTHER agents' orphans ③ forbids PROME to commit).
 
 - **④ Gate C Kernel — root's domain-agent SUBMISSION carve-out (activation-gated) plus, SEPARATELY, PROME's custody grant (root's paragraph after the numbered carve-outs, not a numbered one); both inactive outside an operator-activated packet:** under an approved activation PROME is the sole acceptance custodian for `KERNEL/shadow/events/`, `KERNEL/audit/commands/`, the four registered `KERNEL/views/` projections and the sitting's governance records — additions-only, exact pathspecs, never a directory. Domain agents may commit only their own `AGENTS/<NAME>/outbox/kernel/submissions/<command_id>.json`. Full text = root Git Protocol ④ + the custody paragraph (reconciled 8/27 C8).
+- **⑤ Self-authored FORUM posts** (WQ-486 A, Will 2026-10-24) — root carve-out ⑤: a standing-bucket post **you authored** (`FORUM/<bucket>/<stamp>_<YOU>_<slug>.md`) is yours to commit, explicitly pathed, and only that file; no other `FORUM/` file.
 
 Someone else's work outside `PROME/` remains strictly off-limits. Root `CLAUDE.md` Git Protocol owns the full carve-out text; on any drift, root wins.
 
