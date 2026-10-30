@@ -2,7 +2,7 @@
 
 **⚠️ Open question:** what the Q3 10-Q says about the $99M life-science appraisal. Release, deck and call were all silent, so it is PENDING-10-Q (never benign). Still not on EDGAR at 2026-10-30 13:16 ET; statutory Mon 11/9. **Grade it with the re-score rule's §6 Amendment 1 (ruled 10/30).**
 
-**LAST SESSION (10/30 13:04–13:2x ET, Claude Opus 5.5 on the laptop, interactive; Will: boot + status, then WQ-553):**
+**LAST SESSION (10/30 13:04–15:43 ET, Claude Opus 5.5 on the laptop, interactive; Will: boot + status, then WQ-553):**
 - Boot: not behind origin (ahead 1 = PROME's unpushed commit), no pull. Checks: corrections rc 0; `boot.py` rc 1 (FFIEC token 6d, Q3 Call Report not filed at 13:04, 3,484 banks filed); KB expiry 8 rows overdue (untouched, see NEXT 4).
 - **WQ-553 RULED.** The 10-Q frame had no letter for a below-carrying appraisal with $0 charge-off and zero/undisclosed reserve; literally B, so 16 → 12 on adverse news (DAEDALUS 10/30 refresh). Will: principle "yes approve go ahead" 13:05 ET; WAL drafted §6 Amendment 1 (B′₀/B′ᵤ graded on the A′ row: Bear-medium held 16, EV $75.96, never B); PROME verified the cells at `41d3eb9ef`; Will text "yes approved" 13:16 ET (`df8b27000`). EDGAR checked at both moments: no 10-Q.
 - Inbox drained: PROME (8/23 packet consumed → outbox/delivered), REGINALD (WAL owns its own debt/preferred spreads and holdco uninsured/brokered; REGINALD frozen bank-level baseline 6/30 uninsured 38.09%, cite `[CONF REGINALD FUNDING_COHORT_2026Q2 6/30/26, frozen]`, never difference vs 10-Q), TERRY (IV/skew are TERRY's, no standing series: ask for a pull), DAEDALUS (B′ done; owner items replied DEFERRED). WALTER SIG-W-20261029-020 acted: Carvana SEC investigation closed, no enforcement rec → `FRAUD/AUDITOR_NEXUS.md` rows corrected with limits + RETIRED_CLAIMS row; also fixed RETIRED_CLAIMS:46 `$` expansion.
@@ -23,6 +23,8 @@
 - **Quartr: Will 22:53 ET, "We cannot use QUARTR no need to try. No subscription."** Fleet memory `feedback_quartr_no_subscription_do_not_call` written (carve-out 3).
 - **Housekeeping (Will 23:02 ET "do all housekeeping now"):** credit-ratings baseline (KB-265–267, Opus subagent, A1 rows re-read by the desk); LEADERSHIP.md refreshed from the 2026 proxy + 5.02/5.07 8-Ks + 71 Form 4s (KB-261–264; March "Boyd 11.54%" retired); 19 March KB rows re-verified (Opus subagent; Nevada split, PCAOB tables, FIBK and BROCK retraction re-verified by the desk; 13 superseded, KB-268–270 added, three RETIRED_CLAIMS guards, AUDITOR_NEXUS corrected inline); outbox 26/27 filed to delivered (8/23 PROME packet held, delivery unverified); 3/25 charts archived. Packets: REGINALD (dashboard $1.54T), OZK (SF-district basis).
 - Could not do: Makhijani dates (CourtListener now refuses anonymous access); Quartr transcript check (Pro subscription required; Will declined Quartr, WQ-220). STATUS and the old 10/22 notes are preserved verbatim under `archive/*_before-10-28_2026-10-28.md`.
+
+*Closeout 15:43 ET: 10-Q and Call Report both still unfiled (3,555 filers); WAL $76.03 intraday (+0.09% vs EV). All work pushed.*
 
 **NEXT SESSION (numbered, checkable):**
 1. **Q3 10-Q (D:L171)** — run `Q3_10Q_GRADING_FRAME_2026-09-24.md` verbatim: subsequent events first; $99M (§4, incl. the B′ᵤ/B′₀ split); WAL-01 cross-check vs classified loans + OREO (expected ~$926M + $165M); WAL-02 confirm; full NPL; OREO roll-forward/valuation on the 7 Q2 additions (WQ-313 ④); NDFI 25.9% test; Cantor tie-out and legal paragraphs; hotel O1–O8. Write PREDICTIONS.tsv explicitly (PAT-053).
