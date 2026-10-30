@@ -1,13 +1,203 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-10-30T01:13:24Z",
-  "items": 0,
+  "kind": "marked",
+  "checked_at": "2026-10-30T19:21:36Z",
+  "items": 54,
   "scan": {
-    "checked_at": "2026-10-30T01:13:24Z",
-    "head_checked_at": "2026-10-30T01:13:24Z",
+    "checked_at": "2026-10-30T19:13:17Z",
+    "head_checked_at": "2026-10-30T19:13:17Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 1
+    "attempts": 3
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "partly_read": 54
+  },
+  "dispositions": {
+    "FOLD": 15,
+    "KILL": 8,
+    "DISPATCH": 24,
+    "NO-ACTION": 2,
+    "DUP": 3,
+    "NOTE": 2
+  },
+  "follow_ups": [
+    {
+      "id": "2115944476292104688",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116225321993142329",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116000055249293596",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2116215652557951003",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116205004159594607",
+      "ref": "BOARD/SIG-W-20261030-010-claim-only-solera-national-slrk-call-report-161m-unhedged-long-treasuries-REGINALD.md"
+    },
+    {
+      "id": "2116210456259916013",
+      "ref": "BOARD/SIG-W-20261030-006-anthropic-post-ipo-may-not-get-investment-grade-high-junk-expected-blackstone-to-investors-ft-update-to-016-BROCK.md"
+    },
+    {
+      "id": "2116210625651351747",
+      "ref": "BOARD/SIG-W-20261030-006-anthropic-post-ipo-may-not-get-investment-grade-high-junk-expected-blackstone-to-investors-ft-update-to-016-BROCK.md"
+    },
+    {
+      "id": "2116191524765515807",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2116009752610156769",
+      "ref": "BOARD/SIG-W-20261029-055-florida-department-of-education-confirms-data-breach-unauthorized-criminal-access-ag-notified-fdle-fds-involved-no-count-CYPHER-CORAL.md"
+    },
+    {
+      "id": "2115946789354254589",
+      "ref": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv"
+    },
+    {
+      "id": "2115938298438791669",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2115923125422764309",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2116177434340999293",
+      "ref": "BOARD/SIG-W-20261030-005-refining-margins-q3-bp-18yr-high-xom-cvx-beat-valero-reported-lyondell-houston-restart-2027-unverified-banks-raise-brent-forecasts-BRENT.md"
+    },
+    {
+      "id": "2115952375810998346",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2115971045551456691",
+      "ref": "BOARD/SIG-W-20261030-007-cyber-claims-roundup-fec-polymarket-week-banks-seven-countries-japan-pm-office-data-leaks-CYPHER.md"
+    },
+    {
+      "id": "2116175558283325440",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2115824019106857179",
+      "ref": "AGENTS/WALTER/anchors/IRAN_WAR.md"
+    },
+    {
+      "id": "2116081694092714428",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116012298460610712",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2116028644468392438",
+      "ref": "BOARD/SIG-W-20261030-008-claim-only-ukraine-strike-novokuibyshevsk-refinery-oct-30-not-found-at-search-latest-located-april-OSPREY.md"
+    },
+    {
+      "id": "2116168436883566622",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2115847093122150493",
+      "ref": "BOARD/SIG-W-20261030-007-cyber-claims-roundup-fec-polymarket-week-banks-seven-countries-japan-pm-office-data-leaks-CYPHER.md"
+    },
+    {
+      "id": "2116172297706860847",
+      "ref": "BOARD/SIG-W-20261030-005-refining-margins-q3-bp-18yr-high-xom-cvx-beat-valero-reported-lyondell-houston-restart-2027-unverified-banks-raise-brent-forecasts-BRENT.md"
+    },
+    {
+      "id": "2116073351034937399",
+      "ref": "BOARD/SIG-W-20261030-005-refining-margins-q3-bp-18yr-high-xom-cvx-beat-valero-reported-lyondell-houston-restart-2027-unverified-banks-raise-brent-forecasts-BRENT.md"
+    },
+    {
+      "id": "2116051165117141013",
+      "ref": "BOARD/SIG-W-20261030-007-cyber-claims-roundup-fec-polymarket-week-banks-seven-countries-japan-pm-office-data-leaks-CYPHER.md"
+    },
+    {
+      "id": "2116125795953385727",
+      "ref": "BOARD/SIG-W-20261030-005-refining-margins-q3-bp-18yr-high-xom-cvx-beat-valero-reported-lyondell-houston-restart-2027-unverified-banks-raise-brent-forecasts-BRENT.md"
+    },
+    {
+      "id": "2116143072186958129",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2116149714949156914",
+      "ref": "AGENTS/WALTER/research/2026-10-30_bookmarks/verify-iran.md"
+    },
+    {
+      "id": "2116143823713882386",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2115851551205896245",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116143689437446354",
+      "ref": "BOARD/SIG-W-20261030-005-refining-margins-q3-bp-18yr-high-xom-cvx-beat-valero-reported-lyondell-houston-restart-2027-unverified-banks-raise-brent-forecasts-BRENT.md"
+    },
+    {
+      "id": "2116168124550545804",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116166856381980703",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116168357367988395",
+      "ref": "BOARD/SIG-W-20261029-050-after-hours-earnings-selloff-amzn-minus-7-capex-held-220b-not-a-cut-fcf-minus-42b-aws-plus-39-intc-minus-23-twlo-rddt-rblx-minus-17-18-results-unread-VULCAN-HENRY.md"
+    },
+    {
+      "id": "2116165371245830301",
+      "ref": "BOARD/SIG-W-20261030-005-refining-margins-q3-bp-18yr-high-xom-cvx-beat-valero-reported-lyondell-houston-restart-2027-unverified-banks-raise-brent-forecasts-BRENT.md"
+    },
+    {
+      "id": "2116153150163882028",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116012083137650860",
+      "ref": "BOARD/SIG-W-20261030-009-claim-only-rio-tinto-oyu-tolgoi-underground-suspended-not-confirmed-china-copper-sold-out-mysteel-MIDAS.md"
+    },
+    {
+      "id": "2116108225783218620",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116165266535076230",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116104181677162765",
+      "ref": "BOARD/SIG-W-20261030-009-claim-only-rio-tinto-oyu-tolgoi-underground-suspended-not-confirmed-china-copper-sold-out-mysteel-MIDAS.md"
+    },
+    {
+      "id": "2116069844110213247",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116143125500702984",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    },
+    {
+      "id": "2116157630720950768",
+      "ref": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv"
+    },
+    {
+      "id": "2115975905202024860",
+      "ref": "BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md"
+    }
+  ],
+  "requests": []
 }
