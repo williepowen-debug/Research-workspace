@@ -1,6 +1,6 @@
 # WAL STATUS
 
-**Last Updated: 2026-10-30 13:2x ET — WQ-553 ruled + inbox drain (Will, interactive): the post-10-Q re-score rule gained Amendment 1 (B′₀/B′ᵤ graded on the A′ row, Will "yes approved" 13:16 ET); 4 inbox packets + 1 WALTER signal processed; Carvana SEC rows in `FRAUD/AUDITOR_NEXUS.md` corrected.** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged; nothing graded since 10/22. KB **270 rows / 20 groups**. *Prior header (10/28 catch-up and data refresh) → git history.*
+**Last Updated: 2026-10-30 13:18 ET — WQ-553 ruled + inbox drain (Will, interactive): the post-10-Q re-score rule gained Amendment 1 (B′₀/B′ᵤ graded on the A′ row, Will "yes approved" 13:16 ET); 4 inbox packets + 1 WALTER signal processed; Carvana SEC rows in `FRAUD/AUDITOR_NEXUS.md` corrected.** Thesis **v2.4** / EV **$75.96** / PT **$52–76** / weights / composite **13/25** unchanged; nothing graded since 10/22. KB **270 rows / 20 groups**. *Prior header (10/28 catch-up and data refresh) → git history.*
 
 *The 10/22 version of this file is preserved verbatim at `archive/STATUS_before-10-28_2026-10-28.md` (sha256 59f568d3…daca9); earlier history at `archive/STATUS_before-cleanup_2026-10-22.md` and `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
 
