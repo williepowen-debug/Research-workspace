@@ -1,54 +1,92 @@
-# WAL — DAEDALUS Comprehension Profile
+# Agent Profile — WAL (Western Alliance Bancorp single-name bank desk)
 
-> **⚠️ STALE — trigger verified 2026-10-21:** named calendar/content/owner-state trigger fired; see the per-desk trigger table in PR8. Backlog disposition checkpoint October25; accepted whole-refresh order/scope (~October29 cohort where assigned) and prior body vintage unchanged. Current verified delta: Q3 published andStage1 graded October 19 (old unannounced-date premise refuted). WAL-02 RESOLVED-INVALIDATED; WAL-01 OPEN with INVALIDATED-PROVISIONAL Outcome pending the registered 10-Q classified-assets cross-check. STATUS11797 B, rotation_due=0. Stage2 call integration remains pending in latest owner state. Profile FIRED atQ3 framing/print. Source/evidence: `upgrades/PRODUCTION_REVIEW_2026-10-21.md` and its named reader companion. This annotation supersedes conflicting current-state claims below only on these inspected facts; no whole-profile refresh or grade change is established by the annotation.
+**Profile vintage:** 2026-10-30 (whole-profile refresh; replaces the 2026-08-07 body, preserved verbatim at `profiles/_prior/WAL_2026-10-30_before_refresh.md`, crc32 3865287047).
 
-**Built:** 2026-08-07 (first profile — closes TWO consecutive deferrals; Mode-A single-reader full read, 87 files / ~7,953 lines, hours after the 8/7 catch-up spawn delivered) · **Grade at build:** L3 Conf-H, **L4 re-examination flagged** (FLEET_MAP owns it; two listed-open L4 legs were exercised 8/7 — reader-side consumption confirm at REGINALD is the missing piece) · **Class:** Market — single-name specialist, Western Alliance Bancorporation (promoted out of REGINALD 7/25, WP-W1 `ed1ce777e`; WP-W2..W6 same day) · **Staleness (content-derived):** re-read after the Q3 frame-writing window (~10/13) or when the WILL_QUEUE row-32 rulings land.
+**Built by:** DAEDALUS · **Date:** 2026-10-30 · **Comprehension method:** 3-reader Mode-A fan-out (R1 architecture · R2 ledgers/falsification/guards · R3 flows/consumers/review reconciliation), raw reports at `runs/2026-10-30_WAL_REFRESH_READERS/`, synthesis `runs/2026-10-30_WAL_REFRESH.md`. Paths below are repo-relative.
+**Subject state at build:** WAL not live; last WAL-authored commit `4a7d83e28` 2026-10-28 23:34 ET (laptop, Opus 5.5, interactive). Four arrivals since are unprocessed (PROME, REGINALD and TERRY packets; WALTER signal SIG-W-20261029-020).
 
-## Identity in one line
-Owns one bank completely and is **the fleet's reference implementation of frozen pre-registered print-grading** — and its 8/7 session is the reference implementation of *recording a miss*: the Q2 10-Q frame leg went VOID (filing landed 7/31, a week early, into a 13-day dark period), WAL recorded the loss in **6 surfaces with root cause and no backdated frame**, then ran the first-ever execution of its primary falsifier (MI3 — dark 4+ months across two missed windows), got a DISCONFIRMING result on a baseline that reproduced to 24.24% vs the thesis's 24.2%, refuted one of its own convergence rationales at the primary (NDFI grew to 25.9%, a new high), found its own spec unfalsifiable in three places — and **moved zero thresholds, probabilities, scores or specs**, routing all ten proposals P1-P10 to Will/PROME.
+> A Profile is DAEDALUS's durable understanding of a heavy agent. Section-tasks read the relevant slice of this, not the raw agent; re-read the file before applying any change (PAT-009).
 
-## REGINALD seam (post-promotion — pointer-only, holds both directions)
-WAL cites, never restates (CLAUDE:88 seam rule, from OZK rot evidence: "pointer + last-verified date, NO restated figures" — 8 of 9 cross-refs existence-verified). Q2 grade reports stay REGINALD-side by ruling ("WAL cites, never moves"). REG-24/25 → WAL-01/02 with verbatim dual-provenance lineage. WAL = one row in REGINALD's matrix; peers incl. OZK ("same lifecycle as you") stay REGINALD's. **⚠️ Direction note for future readers: the two 8/7 packets are WAL→REGINALD** (NDFI superseded-figure + MI3 disconfirming w/ peer-cohort recipe), authored by WAL, delivered by PROME (`407965429`) — WAL's own inbox is at ZERO.
+---
 
-## File anatomy (highlights)
-| Cluster | Files | Notes |
-|---|---|---|
-| Boot spine | `CLAUDE.md` 165 (SPAWNED-MODE card :30-38; closeout HARDENED 8/7 `929bcac49` — brief fold MANDATORY any session that writes STATUS, because session #1 wrote STATUS 7× and the brief 0× = the largest drift in NEXUS's 25-brief audit) · `INDEX.md` declared MIRROR ("mirrors, never originates" — never fix a value here) · `STATUS.md` 225/250 | LIVE 8/7 |
-| Thesis spine | `THESIS.md` 398 — v2.3 ★CURRENT w/ **every superseded version preserved inline** (archive AND live doc — a naive stale-content pass destroys version history) · `CHANGELOG.md` 498 — incl. the 8/7 **deliberate no-version-bump grade entry** (a form the blueprint should contemplate) · `SCENARIOS.md` (EV $73.92, PT $52-74 pinned convention) · `WEAKNESSES.md` standing steelman | LIVE / one header lag |
-| ★ 8/7 deliverables | `Q2_10Q_READ_2026-08-07.md` 329 (opens on **§0 FRAME-VOID RECORD** — states what void does and does NOT mean: tie-outs are verification w/ no pre-registration to expire; the 7/25 v2.3.1 condition survives on its own terms — two instruments, two fates, reasoned separately) · `MI3_FIRST_RUN_2026-08-07.md` 196 (opens on **§0 SPEC-EXECUTABILITY CHECK run BEFORE grading**) · `workbook/MI3_SERIES.tsv` 12 qtrs, two-clock + declares its own next-data date | NEW, exemplary |
-| 🧊 Frozen calibration | `Q2_GRADING_FRAME_2026-07-21.md` · `PREPRINT_RECON_2026-07-17.md` · `EARNINGS_PREP.md` — superseded-looking confidences (65/72/33) are CORRECT; path-fixes only, content never | frozen-by-design |
-| Workbook | `KB.tsv` 170 rows/16 groups, two-clock (both clocks legitimately advanced 8/7) · **`KB_INDEX.md` 🔴 25 rows stale** ("145 rows… MI3 never re-tested" — refuted same day; **the tree's ONLY silent-middle surface**) · `PREDICTIONS.tsv` 2 rows, REGINALD 10-col schema, ~2,400-char Notes lineage | flagged |
-| Fossils | ~12 files, **every one dated-bannered** (📼 records, 🧊 FROZEN incl. MARKET/TRADE_LOG w/ its unfreeze condition written into the banner — a model banner). **Silent-middle count across 87 files: 1.** The strongest single structural fact about WAL | two-state clean |
-| Absent | scripts/, boot.py, CALENDAR, LESSONS (findings live in MEMORY), board_log | deliberate; **now evidenced as costly** — "price token 13 days stale at boot, nearest catalyst already fired unnoticed" (MEMORY:70) |
+## 1. Identity
 
-## Exit rules & the 8/7 states (STATUS:181-192 — each rule names the FILING THAT CARRIES the metric, WAL's own ratified frame-spec rule)
-Bear-medium KILL ⬜ (~mid-late Oct) · **Bear-fast KILL ✅ FIRED 8/7** · **⏱Time-box ✅ DISSOLVED 8/7** ("purpose discharged — it created the pressure that cleared the blocker four weeks before it would have tripped; not deferred, not waived") · Bear CONFIRM ⬜ w/ spec risk ESCALATED · Thesis RETIRE ⬜ 1-of-3, N formally defined, earliest ~Jan-2027 · Price discipline 🟢 (**stale token — see flags**).
+- **What it is:** a market-class single-name desk that owns Western Alliance Bancorporation (NYSE: WAL) completely: "every office-classified migration, every FRAUD/ litigation development, every MI3 data point, every pre-registered grading frame on a WAL print" (`AGENTS/WAL/CLAUDE.md:11`). Promoted out of `AGENTS/REGINALD/WAL/` 2026-07-25 (`builds/wal_promotion/PROMOTION_REVIEW.md`).
+- **Signature discipline:** frozen, pre-registered print and filing grading frames, graded verbatim, plus a pre-registered outcome → weight map (`AGENTS/WAL/Q3_10Q_RESCORE_RULE_2026-10-22.md`, Will-approved 10/22 12:37 ET). The fleet's reference implementation of that pattern.
+- **Current judgment (owner, 10/28):** thesis **v2.4** (8/20); weights Bear-fast 2 / Bear-medium 16 / Base 45 / Bull 30 / Tail 7; EV $75.96, PT $52–76; composite 13/25. Q3 print + call graded 10/19–10/21: WAL-02 INVALIDATED (30 bps), WAL-01 INVALIDATED-PROVISIONAL ($272.75M office classified), migrations DISCONFIRM, coverage 118%. What remains of the bear is the **$99M life-science appraisal**, PENDING the Q3 10-Q (`AGENTS/WAL/STATUS.md:7-34`).
+- **Seams:** REGINALD is the obliged consumer (cohort, KRE, funding, peers, price guards stay REGINALD's; pointer-only seam, `CLAUDE.md:107,136-138`). TERRY constructs trades; WAL books dispositions in `POSITIONS.md` and never sizes. Edges also to OTTO/BROCK (First Brands / Jefferies), OZK, WALTER.
 
-## §3 Invalidation-surface inventory (PAT-088 rows; kinds per PAT-077)
-| Surface | Kind | Vintage rule | State 8/7 |
+## 2. File anatomy (where the richness lives)
+
+| File | Role | Bytes (% of 32,550 B budget) | Boot read |
 |---|---|---|---|
-| STATUS §EXIT RULES (6) | STATE | STATUS header 8/7 | LIVE — 2 of 6 resolved today (FIRED + DISSOLVED) |
-| THESIS v2.1 MI3 calibration table (:226-234) | STATE frozen | frozen-spec label; graded 8/7 | **EXECUTED — half survived**: Status column graded cleanly and stands; **Implication column proposed for retirement (P9)** — a frozen spec's consequence clauses did not survive a version change |
-| PREDICTIONS WAL-01 (25%) | APPEND-ONLY | 8/7 NOTE-ONLY append | OPEN, **resolvability DEGRADED** (no 10-Q publishes classified-by-property-type; "Schedule O" VOID; Q3 = only window) |
-| PREDICTIONS WAL-02 (50%) | APPEND-ONLY | 8/7 NOTE-ONLY append | OPEN, **invalidation clause FORMALLY UNSATISFIABLE** (Q2 A1-confirm spent at 37bps; a 35-40 Q3 print has no defined outcome); mark itself sound. Both escalated = WILL_QUEUE row 32 |
-| Q2 grading frame 7/21 | EVENT 🧊 | frozen | DISCHARGED (graded 7/21+7/22, REGINALD-side) |
-| **Q2-10-Q pre-registration frame** | EVENT | deadline = the filing date (7/31) | ⛔ **EXPIRED-UNWRITTEN / VOID — recorded in 6 surfaces, no backdated frame, no grade will ever exist** |
-| PROPOSED v2.3.1 condition | EVENT | registered 7/25, evaluated 8/7 | ⚖️ DOES-NOT-FIRE, zero re-mark; **UNRATIFIED; leg (a) unfalsifiable as written** (names the 10-Q as carrier for consensus EPS — can only ever return not-confirmed); repair proposed, not applied |
-| Bear-fast time-box (~Sep 1) | EVENT | own forcing date | DISSOLVED 8/7 |
-| §EXPECTED SIGNALS (9 rows) | STATE | 8/7 | CURRENT — 4 struck-and-resolved; absence-is-data framing intact |
-| Insider scan V4 | EVENT→standing monthly watch | 7/25 | discharged; 3 pre-registered forward discriminators |
+| `AGENTS/WAL/CLAUDE.md` | charter: boot 0–8, closeout checklist, doc ownership, signal table; every check carries its born-from incident inline | 28,784 (**88%**, rotate tier; L810 hot/cold split owed) | whole |
+| `AGENTS/WAL/STATUS.md` | BOTTOM LINE, LATEST (sourced rows), JUDGMENT, Q3 frozen-frame grades, convergence matrix `:75-86`, **EXIT RULES `:88-99`** (stamped 10/22, re-checked 10/28), NEXT CARRIERS `:101-110` | 19,714 (61%), 114 lines | whole |
+| `AGENTS/WAL/MEMORY.md` | one current handoff (open question, last/next session) | 7,567 | whole |
+| `AGENTS/WAL/THESIS.md` + `CHANGELOG.md` | v2.4 + superseded versions inline; header line 3 is machine-read | 61,921 + 69,779 | scoped |
+| Frames | Q3 print frame (graded) · **Q3 10-Q frame (frozen 10/22)** · re-score rule (amendable until the 10-Q is on EDGAR) · Q2 frames and `EARNINGS_PREP.md` 🧊 | 6–34 KB each | task-scoped |
+| `AGENTS/WAL/workbook/` | `KB.tsv` 293,696 B (270 rows, 184 ACTIVE, two-clock header) · `PREDICTIONS.tsv` (3 rows) · `RETIRED_CLAIMS.tsv` (40 rows, drift-check patterns) · `MI3_SERIES.tsv` (12 quarters, LIVE, Q3 row owed) · `DRIFT_HISTORY_2026-10-14.json` (identity baseline, review_by 11/9) | — | via scripts |
+| `AGENTS/WAL/scripts/` | `boot.py` (built 10/28, boot step 5) · `predictions_due_check.py` · `kb_expiry_check.py` · `derived_drift_check.py` · `maintenance_state_check.py` · 2 test files (19/19 pass) · 4 dated one-shot research scripts | — | executed |
+| `AGENTS/WAL/REGINALD_CHANNEL.md` | pair log, 204 lines, top entry 10/19 | 29,071 | scoped (top-scan) |
+| `AGENTS/WAL/POSITIONS.md` | only trade surface (no TRADE.md); accepted broker mirror vintage 10/19 | 8,970 | summary |
+| `research/` (61 files) · `sources/` (114 tracked, 35.7 MB on disk) · `FRAUD/` (7) · `archive/` (47) | Q3 grade reports live in `research/`; FRAUD records carry dated riders; archive rotations carry sha256/crc | — | no |
 
-## DO-NOT-TOUCH
-1. The three 🧊 frozen calibration records — superseded-looking confidences are CORRECT; path-only edits ever. 2. **PREDICTIONS Status/Confidence/Invalidation/spec on both rows — Will-gated**; WAL had every reason to fix WAL-02's unsatisfiable clause 8/7 and deliberately did not (note-append + escalate). 3. THESIS v2.1 calibration table **Status column** (the frozen spec the 8/7 grade executed against; the Implication column has a separate proposed fate — the two columns differ). 4. 📼 FRAUD records (new state = new dated sections, never in-place). 5. 🧊 MARKET/TRADE_LOG (phantom-strike residue; unfreeze condition in-banner). 6. THESIS superseded version blocks (the archive is inline). 7. PREDICTIONS Notes lineage (verbatim dual provenance). 8. INDEX.md mirror discipline (fix the source, re-sync).
+Absent by design: `LESSONS.md`, `CALENDAR.md`, `TRADE.md`, `SCRATCH.md` (equivalents named in §4).
 
-## Owner-lane flags (ranked; all small — the tree is unusually clean)
-🔴 KB_INDEX 25 rows stale incl. a refuted claim ("MI3 never re-tested") — the only silent-middle surface. 🔴 STATUS:192 price cell $83.11/+$5.11 (7/24) vs header $81.77 — **the closeout rule enumerates TWO price tokens and there are THREE; fix the rule, not just the cell** (DEV-1). 🟠 REGINALD_CHANNEL has no 8/7 entry despite two qualifying packets (content reached REGINALD via PROME; a channel-top reader sees 7/25). 🟠 THESIS:21 carries the refuted fold-premise (INDEX/WEAKNESSES "still carry v2.2.1" — both folded 7/25); THESIS header not restamped after the 8/7 in-place correction (version correctly unbumped; the Last-Updated clock is a different claim). 🟡 STATUS:114 research checkbox that survived its own resolution · CLAUDE:159 KB count 105→170 · DROPZONE.md old-path ×2 (sole WP-W3 residue) · outbox→delivered sweep (delivery landed 2 min after WAL's last commit — next session's tail) · scripts/ first increment (mandate #13, now cost-evidenced).
+## 3. Per-dimension local representation
 
-## FLEET_MAP re-cut applied 8/7 PM (the PAT-080 catch, instance 2 today)
-The row's `Next_upgrade` named an act that is **permanently unreachable** — "10-Q pre-reg frame executed BEFORE the ~Aug 7-10 filing" — the frame is VOID and the filing is read. Four Notes claims were hours-stale (FFIEC "still Will-blocked" → CLEARED; "zero commits since 7/25" → 7 on 8/7; "3 unread packets + $83.11 10-sessions-stale" → inbox 0, price synced; brief re-pin "NOT done" → done twice). **Re-cut L4 gate:** (a) Q3 frames written before the 10/13 print + 10/24 10-Q earliest-plausible dates (both already PROME-docketed w/ ⚠️FRAME-BEFORE-FILING stamps — the miss produced the coordinator-side gate PAT-089 calls for); (b) REGINALD-side consumption of the 8/7 packets confirmed reader-side; (c) boot.py first increment built + wired same-session (PAT-041).
+| Dimension | Local form |
+|---|---|
+| Current judgment | `STATUS.md:7` BOTTOM LINE + `:32-34` JUDGMENT; mirrored pointer-style in INDEX, NEXUS_BRIEF (pinned, `brief_pin_check` rc 0) and MEMORY |
+| Convergence | six scored vectors in STATUS (V1a 1 · V1b-broadening 2 · V1b-magnitude 4 · V2 historical excluded · V3 3 · V4 3 = 13/25) |
+| Exit / kill rules | STATUS §EXIT RULES, six rows with a dated re-derivation stamp |
+| Predictions | `workbook/PREDICTIONS.tsv`: WAL-01 OPEN (provisional INVALIDATED, Resolve_By 11/15), WAL-02 RESOLVED-INVALIDATED 10/19, REG-15 RESOLVED-FAILED 8/20. **No new prediction since 2026-04-24**; Q4 rows promised for the 10-Q session (L793 item 4, ≤11/15) |
+| Logging | KB.tsv with per-row `Stale_By`; RETIRED_CLAIMS; CHANGELOG; board_log; corrections receipts (0 unreceipted) |
+| Trade surface | `POSITIONS.md` (book exists; TERRY constructs, Will orders) |
+| Primary-data falsifier | `MI3_SERIES.tsv` (Bear-fast; Q3 Call Report pull owed, FFIEC token expires 11/5) |
 
-## Blueprint/PATTERNS harvest from this read (queued)
-**§0 SPEC-EXECUTABILITY CHECK** — "can the named instrument physically carry this datum?" run BEFORE grading; generalizes to every pre-registered rule (3 unfalsifiable-by-construction rules found in one day: MI3-not-a-10-Q-line · void Schedule O · v2.3.1 leg (a)); maps onto finding_executability_is_a_separate_audit_axis. **Version-bump rule:** a bump must re-check every frozen spec's *consequence* clauses, not merely preserve them (the half-usable v2.1 table). **V2-excluded-from-composite** + the :179 "lossy handle, not a probability" caveat — harvest for §2. **The no-version-bump CHANGELOG grade entry** as a named form. **Base-rate-the-threshold**: a falsifier that never came within 76bps of its trigger in 12 quarters carried 10% of a thesis for 4+ months (WAL flagged it out-of-scope itself).
+## §3b. Invalidation-surface inventory (what `falsification_scan` and the sweep read)
 
-## Open questions
-L4 timing (reader-side REGINALD confirm — next REGINALD touch). Whether the prediction-count rubric under-reads frame-graded agents (n=2 rows but 6 exit rules + frozen-frame regime + a 12-quarter series ledger — blueprint note owed). DEV-9 (inbox/WALTER empty lane vs WAL's one-place protocol — documented divergence, WALTER-side ack owed).
+| Surface | Stamp | State 2026-10-30 | Mechanical reader |
+|---|---|---|---|
+| STATUS §EXIT RULES `:88-99` (Bear-medium KILL · Bear-fast KILL · Bear CONFIRM · Thesis RETIRE · GATE-REG-T02 · Robinhood exit guard) | `Kill rail re-derived: 2026-10-22`, re-checked 10/28 (`:90`) | Bear-medium NOT FIRED (leg b PENDING-10-Q); Bear-fast FIRED 8/7; CONFIRM NOT FIRED; RETIRE counter 2 of 3, coverage leg MET; T02 TERMINAL; Robinhood guard run 0 of 3 (REGINALD grades) | **none — hand only.** `falsification_scan.py --agent WAL` sees `CHANGELOG.md` only, so it reads CURRENT whatever the STATUS stamp does (DAEDALUS tool gap) |
+| `PREDICTIONS.tsv` Invalidation column | re-spec 8/20 | WAL-01 open-provisional | `predictions_due_check.py` (both directions verified) |
+| `Q3_10Q_GRADING_FRAME_2026-09-24.md` | registered 9/24, frozen 10/22 | ARMED, awaiting the 10-Q (statutory Mon 11/9) | WAL by hand, verbatim |
+| `Q3_10Q_RESCORE_RULE_2026-10-22.md` | Will-approved 10/22 | ARMED; amendment window closes when the 10-Q is on EDGAR | WAL by hand |
+| `MI3_SERIES.tsv` | data clock 8/07, attention 10/28 | Q3 row owed | `ledger_staleness.py` (rc 1 at every boot until the pull) |
+| `RETIRED_CLAIMS.tsv` | newest row 10/28 | 40 rows | `derived_drift_check.py` CHECK 2 |
+
+⚠️ **Open frame gap (R2 O1, verified by DAEDALUS at the artifact 10/30):** the print frame defines B′₀ / B′ᵤ (appraisal disclosed below carrying, reserve zero or undisclosed) as **adverse** evidence (`AGENTS/WAL/Q3_PRINT_GRADING_FRAME_2026-09-24.md:126-133,187-194`). The 10-Q frame's letter table (`Q3_10Q_GRADING_FRAME_2026-09-24.md:53-58`) has no such letter, so that case reads literally as **B**, and the re-score rule maps B to **Bear-medium 16 → 12** (`Q3_10Q_RESCORE_RULE_2026-10-22.md:24`), a trim on evidence the print frame calls adverse. Only Will can amend the re-score rule, and only before the 10-Q appears on EDGAR.
+
+## 4. Deviations from standard (+ why)
+
+| Deviation | Verdict |
+|---|---|
+| No LESSONS / CALENDAR / TRADE / SCRATCH; equivalents are charter rationale, STATUS §NEXT CARRIERS, `POSITIONS.md`, MEMORY | equivalent for a single-name desk |
+| Kill rail in STATUS; outcome mapping in a separate dated, frozen file | better: frozen per-carrier files cannot be edited after the event |
+| Drift detection by tree scan + reviewed identity baseline, not an enumerated fold list | better; fleet-harvestable |
+| NEXUS brief not in schema form (NEXUS census `n/a`); content current and pinned | deviation, not a consumption break |
+| Glued-word tokens in INDEX, SCENARIOS, POSITIONS, RETIRED_CLAIMS, channel entries 10/14 and 10/19 | **debt** (root Output Canon) |
+| `predictions_due_check --quiet` and `kb_expiry_check --quiet` print nothing when clean; `derived_drift_check` exits 0 always | **debt** (CHECK_STANDARD §3(b) clean line; drift advisory at boot) |
+
+## 5. Load-bearing context / DO NOT TOUCH
+
+1. Frozen frames: Q2 frame, PREPRINT_RECON, EARNINGS_PREP: path fixes only. Q3 10-Q frame: graded verbatim. Re-score rule: dated note before the filing only. Q3 print frame: graded, never edited.
+2. WAL-01 stays OPEN until the 10-Q cross-check; never closed to quiet a guard.
+3. KB `Stale_By`: never bulk re-dated; `AWAITS:<carrier>@<date>` is the only sanctioned deferral.
+4. RETIRED_CLAIMS rows are drift-check patterns: append, never delete.
+5. THESIS line-3 header format is regex-read by `boot.py:89-93` and `derived_drift_check.py:59-70`; reformatting blinds both silently. STATUS line 3 "Last Updated" is read by `boot.py:84-86`. KB Fact text "FINRA settlement YYYY-MM-DD" is `boot.py`'s short-interest key.
+6. `POSITIONS.md` wording "acquisition October 7 from earlier Activity" is a test fixture anchor (`test_maintenance_state_check.py:22`).
+7. 📼 FRAUD records take dated riders, never in-place edits. GATE-REG-T02 is TERMINAL: never re-signal.
+8. `DRIFT_HISTORY_2026-10-14.json`: new identities need review, never bulk acceptance; `review_by` 11/9 lands on the 10-Q session.
+
+## 6. Maturity snapshot (references `FLEET_MAP.tsv`; does not restate class)
+
+Re-cut 2026-10-30 from this refresh: 7 of the 8 gaps recorded 10/22 are closed at the artifact (re-score rule, kill-rail stamp, CLOSED-set fix, BOTTOM LINE, inbox/WALTER boot step, 25 READS rows, REGINALD ACKs); `scripts/boot.py` now exists. **L3 dated-falsification leg adjudicated PASS** (dated rail + pre-registered mapping). Open: forward predictions (dated deferral ≤11/15), the 10-Q frame gap above, kill rail with no mechanical reader, charter at 88%, 8 ACTIVE KB rows past `Stale_By` (the 10/28 review missed them by the strict `<` boundary). Consumer leg evidenced: REGINALD (obliged, quotes grades accurately), TERRY (SHA-matched use of the Q3 report), NEXUS and RED (direction).
+
+## 7. Open questions / comprehension gaps
+
+- Has the Q3 10-Q filed? Not on EDGAR at 10/28 22:40 ET; no check since (no reader fetched EDGAR).
+- Bear CONFIRM loses its last carrier at the 10-Q: re-derive or retire it at that session.
+- Not read whole by any reader: THESIS body, CHANGELOG, frame bodies, KB.tsv (header, sample and scripted counts only), research/sources/archive bodies, 71 processed inbox packets.
+- `boot.py` price step not run (network + cache writes).

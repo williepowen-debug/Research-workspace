@@ -263,6 +263,8 @@ Run #2's pool (and this run's, to stay comparable) reads only `workbook/`. Thres
 
 ### 4.3 New GATES instances (flags, not fixes)
 
+> **ERRATUM 2026-10-30 (run #4 §6 flag 13, DAEDALUS):** two flags below were read from cell text that was already stale: GATE-LIQ-076 had its boot instrument (`boot.py:656`, wired 9/29), and GATE-BRENT-COT-35B's 4.909% was reproduced 9/18 (`1af68399c`). Kept as written; ruling (vii) in `sweeps/WIRING_SWEEP.md`.
+
 | Row | Instance | Severity |
 |---|---|---|
 | GATE-LIQ-079 | `last_checked` = 2026-09-03 20:3x (35 days); FIRE legs CANNOT-FIRE until banded, proposal due 10/31 | WATCH (disclosed) |

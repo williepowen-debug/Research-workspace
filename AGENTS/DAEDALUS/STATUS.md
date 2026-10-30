@@ -1,13 +1,13 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-10-30 11:43 ET — PROME-assigned weekly wake (prome-c5 by cross-session message; Will-launched session, Claude Code / Opus 5.5): L490 owed set, L875 tool fix, scorecard, Prose-Remedy #2, inbox drain.** Prior STATUS (10/28 body) in git at `46d830a92:AGENTS/DAEDALUS/STATUS.md`.
+**Last Updated: 2026-10-30 12:40 ET — Will-launched session, Claude Code / Opus 5.5: PROME-assigned weekly wake (L490, L875, scorecard, Prose-Remedy #2, inbox) then, on Will's "go ahead" 12:25 ET, Wiring ⑰ #4 + CHECK_STANDARD §10 leg + WAL whole profile.** Prior STATUS (10/28 body) in git at `46d830a92:AGENTS/DAEDALUS/STATUS.md`.
 
-**Current judgment:** the architecture is coherent; the owed set is dated maintenance. Today closed L875 (R1 false positive), rendered the scorecard on time, ran Prose-Remedy #2 and drained the inbox. The queue that remains is five whole profiles + REGINALD, Wiring ⑰ #4 (re-dated 11/06), the L263 draft review and the Production Review 11/04. **Recorded grade L4/M retained**; no L5 adjudication. Authority remains own directory + root `scripts/`; other desks require express scope and an idle target.
+**Current judgment:** the architecture is coherent; the owed set is dated maintenance. Today closed L875 (R1 false positive), rendered the scorecard on time, ran Prose-Remedy #2, Wiring ⑰ #4 with the long-owed §10 self-inclusion leg, and the WAL whole profile. The queue that remains is five whole profiles (BROCK first), the L263 draft review and the Production Review 11/04 (which carries the §10 fix batch). **Recorded grade L4/M retained**; no L5 adjudication. Authority remains own directory + root `scripts/`; other desks require express scope and an idle target.
 
 ## Current work and next actions
 
-1. **Wiring Sweep ⑰ #4 RE-DATED 2026-10-29 → 2026-11-06** (not run; miss kept on the registry row). CHECK_STANDARD §10's retroactive self-inclusion leg rides it. Prose-Remedy #2 DONE 10/30.
-2. **Profile queue (RESOLVE_BY re-dated 2026-11-07; the 10/15 miss stands on the row):** WAL → BROCK → CREED → REGINALD → FALCON → MIDAS. HOMER done 2026-10-28 (`runs/2026-10-28_HOMER_REFRESH.md`, L3/H; no independent final reader yet — owed before the next Production Review). No CREED owner launch without Will.
+1. **Wiring ⑰ #4 RAN 10/30** (1d late; PARTIAL coverage, last_run unchanged; next ⑰ #5 by 2026-11-20 under rulings (v)–(vii)). 6 owner packets out (BROCK, REGINALD, AEOLUS, FALCON, ORACLE, MIDAS). **§10 retroactive leg RAN 10/30**: 12 of 45 violate, 5 exclude self in fact; 14 fixes proposed → Will batch at PR 11/04 (shared-script ones change behaviour). Own tool gap found by the WAL refresh: `falsification_scan.py` does not read STATUS-embedded kill rails (WAL reads CURRENT whatever its stamp does) — fix with acceptance first.
+2. **Profile queue (RESOLVE_BY re-dated 2026-11-07; the 10/15 miss stands on the row):** BROCK → CREED → REGINALD → FALCON → MIDAS. WAL done 2026-10-30 (`runs/2026-10-30_WAL_REFRESH.md`; L4/M, L3 dated-falsification PASS; owner + PROME packets; 🔴 frame gap Will-gated before the 10-Q files). HOMER done 2026-10-28 (`runs/2026-10-28_HOMER_REFRESH.md`, L3/H; no independent final reader yet — owed before the next Production Review). No CREED owner launch without Will.
 3. **YUR-F01 RULED (Will 21:51 ET, verbatim "I dont think I want to retire Yuri yet"):** option A declined; MISS stands; option-B re-test packeted (YUR-F02, resolve_by 2026-11-28, DAEDALUS grades; YURI registers; PROME dockets). If Will prefers C the row is dropped. `runs/2026-10-28_YURF01_GRADE.md` § RULING.
 4. **Harness Audit clock** stays 2026-07-07 until the WQ-508 batch is applied: TERRY 5 applied / 2 KEEP / B44+D17 to 11/06; WALTER's own lines; PROME L817 (A-B01 counterexample read owed by DAEDALUS when PROME sends the record).
 5. **Own tool residue:** L875 DONE 10/30 (title marker bounded; PROME independently verified 11:34). `corrections_boot_check.py` names HAWK as its clean acceptance case and HAWK now returns rc 1 — re-pick; `ledger_staleness.py` reads a `PRIOR HEADER VERBATIM` clock as a second data clock (HOMER's six ledgers, safe direction) — decide which side moves; two script docstrings cite history docs held from retirement (`2026-08-11_STALENESS_CADENCE_PROPOSAL.md`, `LABOR_QC_2026-07-22.md`) — re-point at the next edit; register the CATO launcher files in `scripts/` at the next check-registry pass unless PROME claims them.
@@ -25,6 +25,8 @@
 | Prose-Remedy Census #2 | 165 read; 25 distinct remedies (15 LOW); 4 owner packets | `runs/2026-10-30_PROSE_REMEDY_CENSUS_02.md` |
 | HOMER profile pointers | 6 paths repo-prefixed | `profiles/HOMER.md` |
 | Inbox | 7/7 dispositioned and filed | `runs/2026-10-30_INBOX_DISPOSITIONS.md` |
+| Wiring ⑰ #4 + §10 leg | treatment 5 DONE/1 PARTIAL/1 DECLINED of the 10/8 asks; (b) flat; MIDAS regression verified; §10 12/45 | `runs/2026-10-30_WIRING_SWEEP_17_RUN4.md`, `runs/2026-10-30_CHECK_STANDARD_10_RETROACTIVE.md` |
+| WAL whole profile | 7 of 8 old gaps closed; 🔴 10-Q frame has no B′ letter (verified; Will decides via PROME before EDGAR) | `profiles/WAL.md`, `runs/2026-10-30_WAL_REFRESH.md` |
 
 ## Delivered work and remaining owner dependencies
 
@@ -64,7 +66,7 @@
 
 ## BOTTOM LINE — 2026-10-30
 
-**WORK:** PROME's five-item assignment done or graded: L875 fixed, L490 graded (5 DONE / 3 PARTIAL), L526 waits on today's 20:15Z run, L263 PARTIAL, L40 ANSWERED; scorecard on time; Prose-Remedy #2 complete (165 rows, 2 readers); inbox drained. Wiring ⑰ #4 re-dated 11/06. Session stopping at closeout.
-**CHECKS:** gate boot rc 0 (DUE items listed in `runs/GATE_LOG.tsv`); L875 selftest 68/68 and live run watched both directions; L875 independently verified by PROME (b81ded67d); no independent reader on the census synthesis (two non-owner classifiers did the row reads). Closeout battery results in the gate log.
-**DELIVERY:** commits d3cd891d4 (work) and 107f00b4f (PROME memo) plus the closeout commit; SendMessage to prome-c5 accepted; PROME CONSUMED memo 1 at the artifact (b81ded67d); memo 2 not yet consumed; push receipt in the closeout lines.
-**OPEN:** second memo to PROME (Prose-Remedy #2 + line-cap fleet note); owner replies LABOR/NEXUS/ORACLE/RED; L526 AC4 after the Friday run; profiles from WAL; Production Review 11/04; L263 review.
+**WORK:** PROME's assignment done (L875 fixed and PROME-verified; L490/L263 PARTIAL re-dated 11/06; L40 resolved; L526 waits on the Friday run); scorecard on time; Prose-Remedy #2, Wiring ⑰ #4 + §10 leg and the WAL whole profile complete. Session stopping at closeout.
+**CHECKS:** L875 independently verified by PROME; census, ⑰ #4, §10 and WAL rows read by non-owner Opus readers with DAEDALUS spot-checks at the artifacts (each named in its record); ⑰ #4 had no second calibration reader. Closeout battery results in `runs/GATE_LOG.tsv`.
+**DELIVERY:** commits pushed (receipt in the closeout lines); memos 107f00b4f (consumed by PROME b81ded67d), Census #2 (b4dd6e0b3) and the Wiring/WAL/§10 memo; 11 owner packets. Notification ≠ consumption for everything after memo 1.
+**OPEN:** Will decision via PROME on the WAL re-score gap before the 10-Q reaches EDGAR; owner replies (LABOR, NEXUS, ORACLE, RED, BROCK, REGINALD, AEOLUS, FALCON, MIDAS, WAL); BROCK profile next; PR 11/04; L263; charter rotation (76%).
