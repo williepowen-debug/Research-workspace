@@ -1,5 +1,5 @@
 # REGINALD ROADMAP — "Where are we"
-**Updated:** **2026-10-28T22:40:09-04:00 — 10/28 boot catch-up appended to Recently Resolved; BaaS row answered (Coastal ~$447M Bluevine deposits); REG-T-02 row count refreshed.** Prior stamp chain → `archive/ROADMAP_rotation_2026-10-28.md` BLOCK R11, crc32 `0939062b`. Other rows retain their stated observation dates.
+**Updated:** **2026-10-30T09:14:16-04:00 — L801 decision appended to Recently Resolved.** Prior 2026-10-28T22:40:09-04:00 — 10/28 boot catch-up appended to Recently Resolved; BaaS row answered (Coastal ~$447M Bluevine deposits); REG-T-02 row count refreshed. Prior stamp chain → `archive/ROADMAP_rotation_2026-10-28.md` BLOCK R11, crc32 `0939062b`. Other rows retain their stated observation dates.
 *Stamps 10/10 AM (BLOCK R5, crc32 `3693ce98`) and 10/9 PM · 10/7 · 9/29 (BLOCK R3, crc32 `adb2708f`) rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-10.md`.*
 *Stamps 9/27 PM, 9/27 and 9/26 rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-07.md` BLOCK R1, crc32 `ebe14531`.*
 *Stamps 9/14 and 9/02 rotated VERBATIM → `archive/STATUS_rotation_2026-09-27.md` BLOCK R1, crc32 `cb6c187f`.*
@@ -78,6 +78,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 
 ## RECENTLY RESOLVED — October20
+
+**10/30 DOCKET L801 (PROME-spawned):** `reports/2026-10-30_L801/REPORT.md`. Coverage-decline leg of the Q3 cohort pattern DROPPED as a predictor on DEWEY's base rate (2 of 10 vs 25%); problem-loan leg kept (7 of 10). Matrix coverage point waits for the 11/07 test. Inbox drained (13). Last touched 2026-10-30.
 
 **10/28 boot catch-up (Will-launched):** `reports/2026-10-28_boot/REPORT.md`. REG-T-04 never fired (peak 340, HY 318 [10/27]). SBCF 8-K cell HOLDS, so the FL frame has no transmitting cell (aggregate PROVISIONAL to the 10-Qs). H.8 small-bank borrowings back to a high, with deposits and cash also up. Coastal Bluevine deposits sized. CARL WQ-228 joins accepted; ISHM boundary accepted; DEWEY FHA/VA pointer + Nano passive-route ask. BROCK CFG vintage correction integrated (my 10/21 row 12 was wrong). 4 correction receipts; 45 WALTER + 5 BOARD dispositions. **Blind-spot thread, borrowing leg:** deep dive + pre-registered tests (no KRE edge; the 'deposits down' tell has no record) + per-bank screen frozen + FFIEC short list (re-run 10/31–11/04) → `reports/2026-10-28_small-bank-borrowing-deep-dive.md`. Last touched 2026-10-28.
 

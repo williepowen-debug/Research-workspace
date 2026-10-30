@@ -24,7 +24,14 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 ⚠️ **Open question at close:** does the 8/20 ranking predict anything? The frozen 11/07 test against simple baselines answers it, as a retrospective check, not a blind one.
 
-### LAST SESSION — 2026-10-28 22:21 → 23:30 ET, Will-launched: boot + catch-up, then Will-asked borrowing deep dive, tests and FFIEC short list
+### LAST SESSION — 2026-10-30, started 09:05 ET (`date`), PROME-spawned (WQ-184 Tier 1, DOCKET L801) + whole-inbox drain
+- **L801 decided** → `reports/2026-10-30_L801/REPORT.md`, KB ML-REG-260: problem-loan leg KEPT (7 of 10 up [10/23]; 2007–10 ρ +0.46); coverage-decline leg DROPPED as a predictor (2 of 10 episodes vs 25% unconditional; ρ −0.06; adds R² 0.088→0.094). Coverage stays a question about no-reserve collateral claims (FLG $1,571M; FLG cure 59.5%→1.6%, payoff/disposition 87.5%). Matrix coverage POINT untouched until the 11/07 S1-vs-S2 test. No score/threshold/probability change.
+- **Q3 Call Reports:** FDIC BankFind 0 rows at 10/30 09:09 ET. Not waited for.
+- **Inbox:** 13 drained (3 CYPHER + 10 WALTER) + 1 BOARD backfill; CYPHER boundary CONFIRMED with a CU→P3 amendment; COR-20261029-43 NO-OP. HY 314 [10/28], CCC/HY 4.16×; WAL $77.80 / KRE $72.86 [10/29]; REG-T-02 log +2 rows.
+- **My error:** typed semicolons into a corrections `--scope` again (lesson from 10/28 repeated; the writer refused, re-sent clean).
+- **Skipped:** CCB Q3 (10/29) and H.4.1 (10/29) unread — outside this spawn's task.
+
+### PRIOR SESSION — 2026-10-28 22:21 → 23:30 ET, Will-launched: boot + catch-up, then Will-asked borrowing deep dive, tests and FFIEC short list
 - **Report** → `reports/2026-10-28_boot/REPORT.md`. REG-T-02 graded 10/23–10/27 (run 0-of-3). **REG-T-04 never fired** (peak 340; HY 318 [10/27]). CCC/HY 4.15× on the denominator, no escalation. SBCF 8-K cell HOLDS, so the FL frame has no transmitting cell (PROVISIONAL to the 10-Qs). H.8 small-bank borrowings $316.4B, back to a high. Coastal ~$447M Bluevine deposits ≈ 9%. FLG director buy verified. Nano P&A unposted.
 - **Owed items closed:** CARL WQ-228 joins ACCEPTED (`a6caf49aa`; my 10/26 review date had lapsed) · ISHM boundary (`1500962a7`) · DEWEY FHA/VA pointer + Nano passive-route ask (`228cfa31a`, doorbelled) · BROCK CFG vintage integrated (KB ML-REG-251) · 4 correction receipts · 45 WALTER + 5 BOARD rows (read by a no-write fork; I verified its counts and the rows touching my surfaces) · read-cap rotations of STATUS, CALENDAR, ROADMAP and MEMORY.
 - **My errors:** I told Will "47" WALTER signals from the boot listing; the files numbered 45. My 10/21 CFG row (lesson 49). I typed corrections scopes with semicolons, which the writer refused (fixed).
@@ -38,7 +45,7 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 0. **⏰ FFIEC short-list RE-RUN between Sat 10/31 and Wed 11/04 (token expires 11/05):** `.venv/bin/python3 AGENTS/REGINALD/scripts/borrowing_shortlist_ffiec.py --out AGENTS/REGINALD/domain/sources/2026-10-28_boot/borrowing_shortlist`. 28 of 139 filed on 10/28 (net −$4.3B; Simmons flag explained as a brokered-to-FHLB swap). Read any NEW flag at the issuer before routing (deep dive §14).
 1. **CCB Q3 Thu 10/29 pre-market:** Bluevine deposit detail, partner concentration, provisions. Reconcile with CARL's 10/30 consumer leg to one figure per metric.
 2. **H.4.1 Thu 10/29 · H.8 Fri 10/30:** read as descriptive only. The aggregate 'deposits down' tell was TESTED and RETRACTED (no track record since 1985, deep dive §10). **Per-bank borrowing screen FROZEN** (`reports/2026-10-28_borrowing-screen_FROZEN_rule.md`, sha256 `90e0a4a2…948a`): run `scripts/borrowing_screen.py --prior 20260630 --current 20260930` once FDIC posts Q3 (~mid/late Nov; exit 2 until posted). SOFR−IORB +5 [10/27], 10bp under REG-T-08.
-3. **~10/30:** FHLB Q3 Highlights (REG-T-06 descriptive; grades 11/13 from the CFR) · Q3 Call Reports → DOCKET L801 re-read vs DEWEY's base rate.
+3. **~10/30:** FHLB Q3 Highlights (REG-T-06 descriptive; grades 11/13 from the CFR). ✅ L801 DECIDED 10/30 (coverage-decline leg dropped). **CCB Q3 (printed 10/29) and H.4.1 10/29: unread** — read CCB's Bluevine/partner lines at the next session.
 4. **Sat 10/31:** REG-06 EDGAR scan (WAL/EGBN capital raise; 424B, S-1/S-3/S-4, 8-K 3.02).
 5. **HY:** grade each FRED print for the REG-T-03 exit run (≤300 ×5). CCC/HY escalates only on a CCC-led re-cross.
 6. **Pathward (CASH) September-quarter release 10/21:** read the partner-credit and deposit lines (BaaS row). GDOT Q3 date still unannounced.
