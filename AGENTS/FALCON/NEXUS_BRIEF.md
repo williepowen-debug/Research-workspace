@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (10/29 review; 10/30 grade moved nothing); two unattributed tanker attacks 10/29 near Khasab/Musandam, neither sunk; FAL-07 NOT FIRED.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-10-30 16:58 EDT | STATUS commit: `fd64b229d` | Evidence cutoff ~16:55 EDT
+**As of:** 2026-10-30 16:50 EDT | STATUS commit: `87a5097a9` | Evidence cutoff ~16:49 EDT
 
 ## CROSS-DOMAIN
 
