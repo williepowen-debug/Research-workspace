@@ -11,18 +11,12 @@ AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-05 ('1/5')	2026-10-24	P
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-01 ('2027-01-01')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2026-12-30 ('Dec 30')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
 AGENTS/AEOLUS/STATUS.md	DATE DRIFT	artifact says 2027-01-15 ('1/15')	2026-10-24	PROME/reports/2026-10-24_firetime-boot-flags-disposition.md
-PROME/inbox/processed/2026-09-25_from-DAEDALUS_L290-render-4-inbox-drain-wq295-doorbell-close.md	DEAD POINTER	`Research-Intake/scripts/newsweep_config.py`	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
-AGENTS/DAEDALUS/runs/2026-09-25_INBOX_DISPOSITIONS.md	DATE DRIFT	artifact says 2027-01-02 ('1/2')	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
 AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md	DATE DRIFT	artifact says 2026-12-24 ('12/24')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md	DATE DRIFT	artifact says 2026-12-25 ('12/25')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/CREED/analysis/2026-09-27_nano-banc-collateral-read.md	DEAD POINTER	`reports/2026-09-26_CRE_top3_dossiers/dossier_EGBN.md`	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-18 ('1/18')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-01 ('01/01')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
 AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md	DATE DRIFT	artifact says 2027-01-13 ('1/13')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot3-flags-disposition.md
-AGENTS/WAL/research/2026-09-27_nano-banc-receivership-stupin-recovery.md	DEAD POINTER	`reports/2026-09-27_nano-banc-failure-forensics.md`	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
-AGENTS/WAL/research/2026-09-27_nano-banc-receivership-stupin-recovery.md	DATE DRIFT	artifact says 2027-01-26 ('1/26')	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
-AGENTS/WAL/research/2026-09-27_nano-banc-receivership-stupin-recovery.md	DATE DRIFT	artifact says 2027-01-13 ('1/13')	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
-AGENTS/WAL/research/2026-09-27_nano-banc-receivership-stupin-recovery.md	DATE DRIFT	artifact says 2027-01-18 ('1/18')	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
 AGENTS/FLG/reports/2026-09-27_WQ312_Q2_workout_rows.md	DATE DRIFT	artifact says 2027-01-19 ('1/19')	2026-10-21	PROME/reports/2026-10-21_firetime-boot-flags-disposition.md
 PROME/inbox/processed/2026-09-28_from-BRENT_monday-routine-flags.md	DATE DRIFT	artifact says 2026-12-26 ('Dec 26')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
 AGENTS/BRENT/demand_destruction/data/monday_2026-09-28.md	DATE DRIFT	artifact says 2026-12-26 ('Dec 26')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
@@ -62,8 +56,5 @@ HEARTBEAT.md	DATE DRIFT	artifact says 2027-01-02 ('1/2')	2026-10-28	PROME/report
 memory/auto/INDEX_COLD.md	DATE DRIFT	artifact says 2027-01-04 ('1/4')	2026-10-28	PROME/reports/2026-10-28_firetime-night-boot2-flags-disposition.md
 AGENTS/BOND/STATUS.md	DATE DRIFT	artifact says 2027-01-25 ('1/25')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
 AGENTS/BOND/STATUS.md	DATE DRIFT	artifact says 2027-01-27 ('1/27')	2026-10-29	PROME/reports/2026-10-29_firetime-boot-flags-disposition.md
-PROME/proposals/2026-10-30_wq550-binance-RULED.md	DEAD POINTER	`workbook/VX.tsv`	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
-AGENTS/DAEDALUS/runs/2026-10-30_WIRING_SWEEP_17_RUN4.md	DEAD POINTER	`scripts/cot_grade.py`	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
-AGENTS/DAEDALUS/runs/2026-10-30_WIRING_SWEEP_17_RUN4.md	DEAD POINTER	`scripts/hormuz_transit_watch.py`	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
-AGENTS/DAEDALUS/runs/2026-10-30_WIRING_SWEEP_17_RUN4.md	DEAD POINTER	`water/SOURCES.md`	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
-AGENTS/DAEDALUS/runs/2026-10-30_WIRING_SWEEP_17_RUN4.md	DATE DRIFT	artifact says 2027-01-01 ('01/1')	2026-10-30	PROME/reports/2026-10-30_firetime-pickup-flags-disposition.md
+BOARD/SIG-W-20261030-002-*.md	UNREADABLE	[Errno 2] No such file or directory: '/home/willi/Research-workspace/BOARD/SIG-W-20261030-002-*.md'	2026-10-30	PROME/reports/2026-10-30_firetime-pickup2-flags-disposition.md
+BOARD/SIG-W-20261030-011-*.md	UNREADABLE	[Errno 2] No such file or directory: '/home/willi/Research-workspace/BOARD/SIG-W-20261030-011-*.md'	2026-10-30	PROME/reports/2026-10-30_firetime-pickup2-flags-disposition.md
