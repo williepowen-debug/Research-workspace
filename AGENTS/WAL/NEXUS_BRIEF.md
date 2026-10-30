@@ -1,7 +1,7 @@
 # WAL — NEXUS Brief
 
-**As of:** October 28 2026 23:28 ET. **STATUS commit `4e713d7c13d1603e1394fecb5c23f32f3d71965d`**. Will-interactive session (Claude Opus 5.5, laptop): catch-up and data refresh — no 10-Q yet, Q3 Call Report not yet filed, KB expiry review, short interest, EDGAR sweep, First Eagle NDFI joinder, inbox drain. *Prior pins (same session):* 22:58 ET STATUS `03125d44c` (boot kit); 22:50 ET STATUS `66c884cf7`.
-**Status:** nothing graded since 10/22. Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is **still not on EDGAR** (10/28 ~22:40 ET; statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md` (10/28 close $75.96 = EV).
+**As of:** October 30 2026 13:18 ET. **STATUS commit `1426e6f29facefba035be17220cd8bbe7c91663c`**. Will-interactive session (Claude Opus 5.5, laptop): WQ-553 ruled (post-10-Q re-score rule Amendment 1) + inbox drain. *Prior pin:* October 28 23:28 ET STATUS `4e713d7c1` (catch-up and data refresh).
+**Status:** nothing graded since 10/22. Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is **still not on EDGAR** (10/30 13:16 ET; statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md` (10/30 13:17 ET intraday $76.39, +0.57% vs EV).
 **Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** The re-score is owed right after the 10-Q grade.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity and the price guards are REGINALD's; structure and position management are TERRY's and Will's.
 
@@ -21,8 +21,10 @@
 
 **Judgment:** Q3 runs against the credit bear and slightly against the bull's NII engine. What remains of the bear rests on the $99M appraisal and the OREO/special-mention build. No re-mark until the 10-Q, because the Bear-medium kill needs both of its legs and only one is in. **Pre-registered 10/22:** a cure moves Bear-medium 16 → 8 (kill fires); still non-paying or unmentioned 16 → 12; a partial write-down holds 16; a majority loss 16 → 20.
 
-## Since the print (through 10/28)
+## Since the print (through 10/30)
 
+- **Re-score rule Amendment 1 (WQ-553, ruled 10/30, Will "yes approved" 13:16 ET):** a 10-Q disclosing the $99M appraisal below carrying with $0 charge-off and zero or undisclosed reserve (B′₀/B′ᵤ) grades on the A′ row: Bear-medium **held at 16**, EV $75.96, kill leg (b) not satisfied, never B (which would have trimmed it 16 → 12). Closed before the filing; `Q3_10Q_RESCORE_RULE_2026-10-22.md` §6 (`df8b27000`).
+- **Carvana (auditor-nexus, V2 excluded):** SEC closed its Jun-2025-subpoena investigation Sep 2026 with no enforcement recommendation (Carvana Q3 10-Q; issuer description, not exoneration; Jan-2025 report only). `FRAUD/AUDITOR_NEXUS.md` rows corrected 10/30; no score moved.
 - **NDFI (new 10/28):** First Eagle Private Credit Fund SPV amendment dated 10/1 (8-K 10/5): Western Alliance Bank joins as a lender with a **$100M commitment** — the second private-credit SPV joinder in two weeks after Crestline 9/18. A commitment, not a funded balance; exposure direction, not stress; V3 stays 3/5 until the 10-Q NDFI table (KB-260).
 - **Q3 Call Report (MI3, bank NDFI):** not filed as of 10/28 (RSSD absent from FFIEC's 2,643-filer list); due Fri 10/30; FFIEC token expires Thu 11/5.
 - **Insiders / ownership:** 9/24 → 10/28 no Form 144, 13D/G or open-market trade; 10/19 Form 4s routine RSU settlements (KB-252/259).
