@@ -6,7 +6,7 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
-## October19,2026 — v4.1.4: enact approved correlation first-tell retirement
+## October 19, 2026 — v4.1.4: enact approved correlation first-tell retirement
 
 **Old view → new view:** COR1M first-tell remained registered pending WQ410 in the October14 desk state. Will approved retirement October15 at16:26:18.977UTC; committed ruling checked directly. Removed the live row from SIGNAL_INTAKE and recorded RETIRED in KB/STATUS. Series remains context, no successor line. RED's October14 FT10 grade is consumed without re-execution; official observations recovered throughOctober16. Friday's narrow front-end stress does not meet the distinct3M cash/VVIX daily lines. Path-A causation remains unproven.
 
@@ -14,7 +14,7 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
-## October14,2026 — v4.1.3: prediction7 grade scope corrected
+## October 14, 2026 — v4.1.3: prediction7 grade scope corrected
 
 **Old view → new view:** active thesis still called the September1 test untested while KB-VIO-220 recorded a clean HIT. Original August27 thesis required actual SKEW spot within ±2% of the August23 reference; August23 was Sunday, and the last available August21 close was143.90. Actual September1 close149.23 rose3.704%, outside eligibility. Official20-day mean141.1315 and the pinned143.31 counterfactual140.1175 reproduce timing and roll-off arithmetic. HENRY explicitly supplied a counterfactual, not a forecast. Withdraw the clean full-letter predictive HIT; retain the arithmetic finding and close the expired live obligation. The requires-versus-actual clause does not justify inventing a FAILED result.
 
@@ -22,7 +22,7 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
-## October14,2026 — v4.1.2: post-CPI price response, causal attribution withheld
+## October 14, 2026 — v4.1.2: post-CPI price response, causal attribution withheld
 
 **Old view → new view:** October10 dashboard carried a calm index with earlier credit widening and a live pre-CPI decision. October14 delayed evidence shows front-end repricing; the curve remains upward, credit size/origin incomplete, funding accompaniment absent on dated owner gauges. The credit-vol WATCH remains, with a minor evidence refinement distinguishing sequence from credit causation and spread breadth from default breadth. Price bucket COMPLACENCY→LOW_VOL is observed; no systemic phase transition is declared. WQ418 PASSED is the actual prior decision, and the pre-CPI window is closed.
 **Basis:** KB-VIO-326..329 and `../research/2026-10-14_post-CPI/REPORT.md`; official history throughOctober13, delayedOctober14 quote timestamps stated. OfficialOctober14SKEW grade pending RED.

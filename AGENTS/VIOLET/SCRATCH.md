@@ -1,39 +1,40 @@
 # VIOLET — session handoff
 
-**As of:** October 30, 2026 12:58 ET (from `date`). PROME WQ-184 due-row wake (prome-c5, BOJ CATALYSTS row), Claude Code, Opus 5.5. Bounded session; canonical numbers: [STATUS](STATUS.md). Thesis v4.1.4; convergence **32/50, not re-scored** (intraday ticks are not scored).
+**As of:** October 30, 2026 16:50 ET (from `date`). PROME Tier-1 follow-up (prome-c5): grade the official 10/30 close (KB-VIO-362) + whole inbox. Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.4; convergence **32/50, not re-scored** (no VIOLET line fired on the close).
 
-## CHANGES SINCE (10/29 14:59 ET → 10/30 12:52 ET)
+## CHANGES SINCE (10/30 12:58 ET → 16:41 ET)
 
-- BOJ held at 1.25%, 8–1 (Takata for a hike); ETF sales pace to ~¥860B/yr book from Jan 2027 (BOJ `k261030a.pdf`). SAM owns substance.
-- Official 10/29 Cboe closes: VIX 17.20, VVIX 98.01, SKEW 151.03, 3M/VIX 1.1262; OVX/VIX 57.16/17.20 = 3.32 FIRE.
-- HENRY: gamma NEGATIVE both horizons at the 10/29 close (flips ~7,739/~7,741), 7,700 put wall held (SIG-W-20261029-053). AMZN −7% after hours 10/29 (SIG-W-20261029-050).
-- ⚠️ **10/30 INTRADAY (12:52–12:55 ET):** VIX 19.96–20.00 (+16%), VVIX 111.81, VIX3M/VIX 1.049, VIX9D 19.43, COR1M 14.40, OVX/VIX 3.0 WATCH; SPX 7,598.51 (−1.58%), QQQ −3.52%. TICK row classes RISING_VOL.
+- Equity vol spiked and reversed inside the session: VIX high **23.93 at 14:35 ET** (vendor 1m ≥22.20 for 44 bars 14:13–14:56 ET), closed **19.42** (+12.9%). VVIX high 124.06, close 106.43. At 14:35 ET VIX9D 25.06 and VIX 23.93 both sat above VIX3M 23.08 (cash curve inverted intraday, not on the close).
+- WALTER cards SIG-W-20261030-002 (INFO, 14:21 ET tape) and -004 (FLASH ACTION, +5 safety net touch 22.33).
+- Tape (HENRY/VULCAN own): SPY −1.77%, QQQ −3.47%, INTC −28.6%, NVDA −4.2%, AMZN −1.41% (opened −4.6%), AAPL −1.23%.
+- DAEDALUS sweep #5 packet (glued CHANGELOG heading dates).
 
 ## WHAT I DID
 
-- **Graded the BOJ row: carry-to-vol CALM, no transmission** (RV10 7.02% p34.5 vs WATCH 14.15%; USDJPY 157.96 → 157.42; decision-window range 0.79 yen; FXY IV/RV 1.66 → 1.61). KB-VIO-360; record `research/2026-10-30_boj-carry-vol/GRADE.md`; row moved to that dir's `catalysts-fired.tsv`; CALENDAR resolved.
-- Settled the 10/29 VX_DAILY row from Cboe (`backfill.py --spot-only`: 5 TICK cells corrected, SETTLE stamped). Owed WQ-545 leg done: official values equal the 10/29 quote read, so no packet. KB-VIO-361.
-- OVX.tsv 10/29 row NOT overwritten: `ovx.py`'s past-dated-row guard refused it (state identical, FIRE; official values in KB-VIO-361).
-- Recorded the 10/30 intraday surface as INTRADAY (KB-VIO-362), not graded.
-- Inbox: SIG-W-20261029-053 acted (STATUS gamma line), board_log + processed/.
+- **Graded the close on Cboe 16:15:01 ET finals (KB-VIO-363): every intraday touch un-fired.** VIX 19.42 < 20 (LOW_VOL); VVIX 106.43 < 120 (124.06 intraday = WATCH); VIX3M/VIX 1.070; VIX9D/VIX3M 0.926; 5-day +30% no (+14.8% from 16.91). No outbox. **Held on the settle: VX futures front inverted, M1:M2 −2.807%** (X6 20.3603 / Z6 19.7888), deepest since 4/07, unregistered.
+- `thresholds.py --supersede` rewrote the 10/30 VX_DAILY row with the finals, basis TICK (Cboe History CSVs not posted 10/30 at 16:42 ET; SKEW null by the stale-column guard).
+- Single-name reaction (KB-VIO-364): VXAZN 46.49 → 34.55 (−25.7%, Amazon earnings vol released), VXAPL 27.75 → 31.12 (+12.1%); COR1M 10.38 → 13.51 (+30%, ledger high) — index vol rose on correlation, not single-name event vol.
+- Ledger-basis gaps recorded, guards not bypassed (KB-VIO-365): OVX.tsv and IMPLIED_CORR.tsv 10/29 rows TICK; implied_corr.py stamped the 10/30 row SETTLE by clock.
+- Inbox drained 3/3: WALTER 002 noted, 004 acted, DAEDALUS acted (CHANGELOG headings :9/:17/:25 spaced; DONE reply in `AGENTS/DAEDALUS/inbox/`).
 
 ## NEXT SESSION
 
-0. **Official 10/30 close FIRST:** `backfill.py --spot-only` after Cboe finals post (no assumed hour; check the dated bar), then grade the day: VIX vs 20 (RISING_VOL on a close?), VVIX vs 120, 3M/VIX vs 1.000, the 5-day +30% line, COR1M. Include AMZN/AAPL reaction (VULCAN owns substance). Re-score convergence only on closes. If a VIOLET outbound trigger fires on the close → outbox per CLAUDE.md trigger table.
-1. SKEW 10/30 bar for RED FT-10 (exit 0 of 4 at 151.03 [10/29]).
-2. Election Day 11/03: VX/X6 event kink over VX/Z6.
-3. Verify payrolls 11/06 and CPI 11/10 at bls.gov (403 twice).
-4. OVX past-row backfill path does not exist in `ovx.py` (the guard refuses past-dated writes); decide whether the 10/29 TICK row needs the official values or the KB row is enough. Not commissioned.
-5. Correlation helper clock-only SETTLE label: bounded repair still owed (not commissioned).
+0. `backfill.py --spot-only` after Cboe History posts 10/30 → stamp SETTLE; compare to KB-VIO-363 finals (difference = correction).
+1. SKEW 10/30 bar → RED FT-10 (exit 0 of 4 through 10/29).
+2. Convergence re-score on closes (deferred candidates: front curve, oil vol FIRE→WATCH, implied correlation).
+3. Election Day 11/03: VX/X6 already above VX/Z6 — read the kink against an inverted front.
+4. Verify payrolls 11/06 and CPI 11/10 at bls.gov (403 twice).
+5. Ledger-basis repair (KB-VIO-365) — not commissioned; needs PROME.
 6. November 17 lag endpoint (credit-vol WATCH), November 18 VIX expiry, L342 11/26 holiday-bar defect (not due), December 16 L441.
+7. MAINTENANCE.md at 303 lines (cap ~300) — archive oldest entries before the next append.
 
 ## CARRY-FORWARD
 
-- RED owns FT-10 and FT-06 grades; VIOLET supplies Cboe bars only.
-- LIQUID owns HY and REG-T-04 proximity; HENRY owns gamma (now NEGATIVE, 10/29 close); SAM owns BOJ substance and SAM-42.
-- PREDICTIONS.tsv: all 6 rows terminal; `ledger_staleness.py` flags it +35d behind STATUS — expected (no live rows), kept maintained not frozen (banner would break `asmade_audit.py`'s header parse).
-- Forward-calendar check: 3 HIGH/MED rows inside 14 days after the BOJ row fired.
+- RED owns FT-10 and FT-06 grades (VIX 19.42 close ≥18 is a bar for FT-06, RED grades); VIOLET supplies Cboe bars only.
+- LIQUID owns HY (326bp 10/29 per WALTER); HENRY owns gamma (NEGATIVE, 10/29 close) and equity; VULCAN single-name substance; SAM owns BOJ.
+- PREDICTIONS.tsv: all 6 rows terminal; kept maintained, not frozen.
+- CHANGELOG body text of the 10/14–10/19 entries still has glued words (residue named in the DAEDALUS reply).
 
 ## OPEN HYPOTHESES
 
-Oil-vol leading equity-vol: FIRE re-fires inside a regime with no transmission so far (KB-VIO-359); 10/30 intraday VIX rose while OVX/VIX fell to WATCH — the opposite ordering, VIX catching up. Credit-origin and concentration amplification remain hypotheses; today's QQQ-led drop is the concentration channel's shape, untested until the close. RQ8 PARKED.
+Correlation-led index vol: 10/30 COR1M +30% while AMZN's own vol fell — the KB-VIO-126 suppression mechanism unwinding in one session, then partly reversing into the close (COR1M high 19.68 → 13.51). Untested whether the futures-front inversion persists past Election Day. Oil-vol leading equity-vol: not observed (ratio fell on a VIX rise). RQ8 PARKED.
