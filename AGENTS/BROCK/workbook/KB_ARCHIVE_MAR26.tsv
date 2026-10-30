@@ -1,3 +1,4 @@
+# FROZEN 2026-03 archive — not maintained; do not cite rows as current. 89 of its 100 IDs also exist in workbook/KB.tsv and 12 of those differ (DAEDALUS 10/30, recounted by BROCK 10/30): on any duplicate ID, workbook/KB.tsv is canonical.
 ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
 KB-BRK-001	2026-02-22	ATHENE	Athene	Athene holds $442B assets, 48% illiquid. RBC 412%.	10-K, internal analysis	B2	EMPIRICAL	CONFIRMED		 	VX-BRK-005	Reflexivity loop — RBC depends on marks that depend on liquidity
 KB-BRK-002	2026-02-25	ATHENE	ARI	ARI transferred $9B CRE to Athene at 99.7% of par	ARI filings	B2	EMPIRICAL	CONFIRMED			 	Moving CRE off public REIT onto insurance balance sheet

@@ -1,10 +1,25 @@
 # BROCK Predictions Scoreboard
 
-**Updated:** 2026-07-09 (BRK-01 + BRK-24 resolved, 9d-overdue queue-clear; BRK-29 ledger-consistency fix found in same-day self-sweep — substantively graded 7/4, formally moved to archive 7/9). Tracks resolution outcomes + calibration for falsified/confirmed predictions. Resolved rows live in `PREDICTIONS_ARCHIVE.tsv`; OPEN/PARTIAL/tombstones stay in `PREDICTIONS.tsv`. Full per-prediction detail (invalidation, notes) is in the archive — this is the summary scoreboard.
+**Updated:** 2026-10-30 17:16 ET — RE-SCORED on all 15 resolved predictions (DAEDALUS profile refresh item 2; recomputed by BROCK from the two ledgers, reproducing the 7/09 n=10 figures exactly). **The 7/09 calibration read below is SUPERSEDED: its sign has flipped.** Resolved rows through 7/09 live in `PREDICTIONS_ARCHIVE.tsv`; later resolutions (BRK-02, 10, 22, 27, 30) stay in place in `PREDICTIONS.tsv` (the archive move is retired, not owed). Update this file at every resolution (closeout 7a).
+
+## SCORE — CURRENT (n=15, 2026-10-30)
+
+| Set | Came true | Brier (mean) | Baseline |
+|---|---|---|---|
+| **All resolved (n=15)** | **8 / 15 = 53%** | **0.254** | 0.25 (coin-flip) |
+| Through 7/09 (n=10) | 7 / 10 = 70% | 0.216 | 0.25 |
+| Since 7/09 (n=5) | 1 / 5 = 20% | 0.331 | 0.25 |
+
+**Since 7/09:** BRK-27 FALSE-on-letter (60%) · BRK-30 TRUE (65%, calibration ≈0, LESSONS #32) · BRK-02 FALSE (75%) · BRK-22 FALSE (60%) · BRK-10 FALSE (50%). All four misses were bearish calls at ≥50%.
+
+**Current calibration read:** overall Brier is now slightly WORSE than a coin flip. The 7/09 advice to "lean into" structural bear calls and not anchor them low (CALIBRATION READ first bullet, TAKEAWAYS #1) is **WITHDRAWN**: the later sample went the other way on exactly those calls. n=15 is still small; the honest read is "no demonstrated edge on dated bear calls", and new bearish predictions at ≥60% need a named instrument and an inversion test at registration (STANDING TRAPS 7). BRK-06 PARTIAL is excluded from both counts.
 
 ---
 
-## SCORE (fully-resolved, n=10)
+## 7/09 READ (n=10) — SUPERSEDED, kept as history
+
+---
+
 
 | Hit rate | Brier (mean) | Baseline |
 |----------|--------------|----------|
@@ -45,7 +60,7 @@
 - **BRK-29 is a ledger-hygiene catch, not a new finding.** Substantively graded LAPSE on 7/4 (STATUS/NEXUS_BRIEF/LAST_COMPLETION all cited it correctly) but the PREDICTIONS.tsv row itself sat Status=OPEN for 5 days past its own resolve date — a "said it but didn't file it" gap, caught only by the 7/9 self-sweep's explicit resolve-date scan. **Takeaway: a narrative grade in STATUS text is not a substitute for updating the ledger row — both must happen at resolution time, not just one.**
 
 ## TAKEAWAYS (feed into next prediction-writing)
-1. **Structural/cascade calls (gates, default-acknowledgment, sponsor distress) hit and were under-priced** → don't anchor them too low.
+1. ~~Structural/cascade calls hit and were under-priced → don't anchor them too low.~~ **WITHDRAWN 10/30** — see SCORE — CURRENT.
 2. **Premise-verify at creation for any call naming a specific deal/entity mechanic** (HRZN direction was the failure mode), not just at resolution.
 3. **Low-conf macro-contrarian calls against a secular tailwind are healthy** even when they miss (BRK-14) — keep the confidence honest and low.
 4. **"Publication-exists" predictions need an actual targeted search at every audit, not just a general sweep** — BRK-24's false-negative RE-ARM (6/8) shows a passive "did anything cross my desk" scan can miss a named, findable, already-published event. For monitoring-type predictions, run an explicit targeted query (named principals + topic) at every disposition check, not just a general news skim.

@@ -11,6 +11,20 @@ Reverse-chronological log of **structural** changes to BROCK's docs, folders, sc
 
 ---
 
+## 2026-10-30 — DAEDALUS profile refresh (11 items) + falsification #5 + wiring ⑰ run 4, worked in-session on Will's word ("yes please implement these fixes now")
+
+- **Ladder re-homed:** `trade/TRIGGER_LADDER.md` (LIVE, 11 rows refreshed to 10/30, VIX row restored, STEP-2 rule). STATUS §5 and `trade/TRADE.md` point there; BRK-25/26 `Action_If_Falsified` re-pointed. TRADE.md: no unfreeze condition.
+- **Scoreboard re-scored:** n=15, 8/15 came true, Brier 0.254 (n=10 7/10, 0.216 reproduced). The 7/09 "lean into structural bear calls" advice WITHDRAWN.
+- **Frozen:** `VX_HISTORY.tsv` (git log is the history) · `KB_ARCHIVE_MAR26.tsv` banner (89 duplicate IDs, 12 differ; KB.tsv canonical).
+- **Selfcheck v3:** "NOT FIRED" no longer passes as FIRED; 1b reads the archive too and live CATALYSTS rows; slash lists expand. Six planted mutations: four caught as intended, two controls behaved.
+- **CATALYSTS:** 18 past-dated rows given an outcome prefix; row-state prefixes and `date_class` tokens declared in `docket/README.md` (schema unchanged).
+- **EXPECTED_SIGNALS:** PIK denominator (TII), non-accrual basis (bands FV, BROCK reads cost), NAV-discount precedence (live leg = median >35%).
+- **Charter:** history moved verbatim to `CHARTER_PROVENANCE.md` (31,274 → 29,360 B, 90% of budget); outbox row fixed; EXIT §4 expired template dates replaced by a pointer; closeout 7a/8 wire the scoreboard, ladder, docket prefixes and NEXUS_BRIEF; FILES table rebuilt (frozen files labelled).
+- **STATUS:** ~30 run-together words split; DOCKET L270/L286/L716/L780/L876 cited by number; EXIT RULES review stamp.
+- **Predictions:** grading instruments named on BRK-11/18/25/26.
+- **VX:** VX-BRK-013 band cells name their metric; VX-BRK-017 renamed (share of defaults driven by PIK). No level, status or score changed anywhere.
+- **Retired:** 17 Apr–Jul outbox files + `OPEN_THREADS_2026-07-09.md` + `ARCH_REPORT_2026-06-26.md` → `archive/`. Kept in place: 2 outbox files with live referrers (REGINALD FHLB manifest; FORGE JUN18 trigger set).
+
 ## 2026-10-02 — CREED structural adoption: STATUS hot/cold + catchups/, SCRATCH reset, always-loaded traps, selfcheck, LEDGER_GLOB
 
 - **Trigger:** Will, 10/2: *"I would like you to adopt as much as you think is valuable"*, after the read-across `research/2026-10-02_CREED-read-across.md` (12 items ranked). The decisive evidence: VX-BRK-004 still read "three vehicles at 2 [9/3]" after GATE-BRK-R2 (a) had fired twice.

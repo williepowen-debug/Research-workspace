@@ -20,8 +20,12 @@ CHECK 1  fire / resolution propagation
   1a  Gates with a FIRE RECORD line in workbook/PC_REDEMPTION_REGISTER.tsv: every LIVE line on
       STATUS.md, workbook/VX.tsv and docket/CATALYSTS.tsv (future-dated rows only) that names the
       gate must carry FIRED, and none may assert "0 fired".
-  1b  Predictions whose PREDICTIONS.tsv Status is RESOLVED-*: no LIVE line on STATUS.md that names
-      the ID may say it is open / not graded / stays open.
+  1b  Predictions resolved in PREDICTIONS.tsv (RESOLVED-*) or PREDICTIONS_ARCHIVE.tsv (RESOLVED /
+      CONFIRMED): no LIVE line on STATUS.md, and no docket/CATALYSTS.tsv row not marked closed
+      (event cell starting ✅), that names the ID may say it is open / not graded / stays open.
+      Slash lists ("BRK-24/01") expand to each ID.
+  FIRED means a positive marker: "NOT FIRED" alone does not count (DAEDALUS 10/30 item 6; the
+  parent creed_selfcheck.py carried the same substring defect).
   HISTORY SEGMENTS are stripped before the test, never whole lines: text from a marker
   (PRIOR CELL, PRIOR NOTE, Original row, Pre-grade record, Superseded text, earlier stamp) to the
   end of that cell. v1 exempted any LINE with a marker and so MISSED VX-BRK-004 itself (its
@@ -67,6 +71,7 @@ def surfaces():
     for ln, line in enumerate(R("docket/CATALYSTS.tsv").split("\n"), 1):
         d = line.split("\t")[0]
         if re.match(r"\d{4}-\d{2}-\d{2}$", d) and d >= a.today: yield "docket/CATALYSTS.tsv", ln, line
+POS_FIRED = re.compile(r"(?<!NOT )(?<!NOT\s)\bFIRED\b")
 for gate in fired:
     short = gate.replace("GATE-", "")
     for f, ln, line in surfaces():
@@ -74,22 +79,36 @@ for gate in fired:
         if gate not in live and short not in live and not re.search(r"\bR2 \((a|b)\)", live): continue
         if re.search(r"\b0 (fired|FIRED)\b", live):
             flag("1a", f"{f}:{ln} names {gate} and asserts '0 fired' — the gate has a FIRE RECORD")
-        elif "FIRED" not in live.upper():
+        elif not POS_FIRED.search(live.upper()):
             flag("1a", f"{f}:{ln} names {gate} with no FIRED marker — the gate has a FIRE RECORD")
 if not fired:
     flag("1a", "no FIRE RECORD parsed from the register — if a gate has fired, the parser is stale (fail loud)") if "FIRE RECORD" in reg else None
 
 # ── CHECK 1b ── resolved predictions shown as open
 resolved = {}
-for line in R("workbook/PREDICTIONS.tsv").split("\n")[1:]:
-    c = line.split("\t")
-    if len(c) > 5 and c[5].startswith("RESOLVED"): resolved[c[0]] = c[5]
-OPEN_WORDS = re.compile(r"STAYS OPEN|NOT GRADED|\bis DUE\b|still OPEN|ungraded", re.I)
-for ln, line in enumerate(R("STATUS.md").split("\n"), 1):
-    for pid, st in resolved.items():
-        live = live_of(line)
-        if re.search(rf"\b{re.escape(pid)}\b", live) and OPEN_WORDS.search(live):
-            flag("1b", f"STATUS.md:{ln} calls {pid} open/ungraded but PREDICTIONS.tsv says {st}")
+for src in ("workbook/PREDICTIONS.tsv", "workbook/PREDICTIONS_ARCHIVE.tsv"):
+    for line in (R(src) or "").split("\n")[1:]:
+        c = line.split("\t")
+        if len(c) > 5 and re.match(r"RESOLVED|CONFIRMED", c[5]): resolved.setdefault(c[0], f"{c[5]} ({src.split('/')[-1]})")
+OPEN_WORDS = re.compile(r"STAYS OPEN|NOT GRADED|\bis DUE\b|still OPEN|ungraded|\bopen to\b|\bOPEN\b(?!-)", re.I)
+def ids_in(text):
+    out = set()
+    for m in re.finditer(r"\bBRK-(\d+)((?:/\d+)*)", text):
+        out.add(f"BRK-{int(m.group(1)):02d}")
+        out |= {f"BRK-{int(x):02d}" for x in m.group(2).split("/") if x}
+    return out
+def live_lines_1b():
+    for ln, line in enumerate(R("STATUS.md").split("\n"), 1):
+        yield "STATUS.md", ln, line
+    for ln, line in enumerate(R("docket/CATALYSTS.tsv").split("\n"), 1):
+        c = line.split("\t")
+        if len(c) > 1 and re.match(r"\d{4}-\d{2}-\d{2}$", c[0]) and not c[1].lstrip().startswith("✅"):
+            yield "docket/CATALYSTS.tsv", ln, line
+for f, ln, line in live_lines_1b():
+    live = live_of(line)
+    if not OPEN_WORDS.search(live): continue
+    for pid in sorted(ids_in(live) & resolved.keys()):
+        flag("1b", f"{f}:{ln} names {pid} beside open/ungraded wording but it is {resolved[pid]}")
 
 # ── CHECK 2 ── asserted counts
 st = R("STATUS.md")

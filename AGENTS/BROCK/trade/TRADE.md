@@ -2,7 +2,9 @@
 >
 > **Condition, not lifecycle:** this file carried a `Base: 2026-03-16 / Last cleaned: 2026-05-21` header, a convergence line reading `~46/60 (May 21)` against a live score of **59/70**, live-tape figures from the **May 1 close**, and a newest trigger-state block dated **6/15** — i.e. every number in it is stale by 8-19 weeks and several are wrong in the bearish direction. It is the file most likely to be cited into a trade while silently wrong.
 >
-> **§9 (TRIGGER LADDER) was LOAD-BEARING** — `BRK-25` and `BRK-26` cite it in their `Action_If_Falsified` fields. It has been **migrated verbatim-in-substance and refreshed to 7/27 state into `STATUS.md` § "EXIT RULES → 5. TRIGGER LADDER"**, which is now its only live home. Nothing else in this file is live.
+> **§9 (TRIGGER LADDER) was LOAD-BEARING** — `BRK-25` and `BRK-26` cite it in their `Action_If_Falsified` fields. It was migrated to `STATUS.md` § EXIT RULES §5 on 7/27 and **re-homed 2026-10-30 to `trade/TRIGGER_LADDER.md`, its only live home** (STATUS §5 now points there; BRK-25/26 cite it). Nothing else in this file is live.
+>
+> **Unfreeze condition:** none. This file stays frozen. New trade construction goes on a TERRY card (root rule #5), never back here.
 >
 > **Position truth:** `STATUS.md` BOTTOM LINE (APO Dec $95P HOLD) + current broker-derived `FORGE/STATUS.md` (PORTFOLIO.md is frozen history). **Trade construction is TERRY's** (`AGENTS/TERRY/RISK_RULES.md`).
 >

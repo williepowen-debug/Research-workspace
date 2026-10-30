@@ -2,13 +2,15 @@
 
 **Purpose:** Defines what metrics mean and when to act. Thresholds only — no live data here.
 **Live data:** STATUS.md dashboard + workbook/VX.tsv
-**Last reviewed:** 2026-03-06
+**Last reviewed:** 2026-10-30 (DAEDALUS profile refresh item 4: three bases corrected below). **Precedence:** the live scoring thresholds are the convergence matrix in `STATUS.md` and `workbook/VX.tsv`. The bands here are per-name reading aids; where they differ from a live threshold, the live threshold governs.
 
 ---
 
 ## Quarterly Signals (Earnings Season)
 
-### PIK % of Investment Income
+### PIK % of TOTAL Investment Income (TII)
+
+*Denominator: total investment income, as the issuer reports it. Not NII (net of expenses, so the same PIK reads roughly twice as high on NII), not % of loans. Live vector threshold: industry median >20% of TII sustained (STATUS matrix).*
 PIK = borrowers paying interest with more debt, not cash. Single most important BDC health metric.
 
 | Reading | Interpretation | Action |
@@ -43,7 +45,9 @@ PIK = borrowers paying interest with more debt, not cash. Single most important 
 
 **Key question:** Concentrated (1-2 names) or broad-based? Concentrated = idiosyncratic. Broad = systemic.
 
-### Non-Accrual Rate (at Fair Value)
+### Non-Accrual Rate (bands set 3/06 on FAIR VALUE; BROCK reads and resolves at AMORTIZED COST)
+
+*Standing Trap 1: the two bases can move in opposite directions (OBDC 2.8% cost vs 0.8% FV over the same two quarters). Quote the basis with every figure and never test a cost figure against these FV bands; at-cost bands are not calibrated.*
 
 | Reading | Interpretation | Action |
 |---------|----------------|--------|
@@ -69,6 +73,8 @@ Compare to shadow default rate (~6-7%). The gap = PIK masking stress.
 | **GATED** | Redemptions halted | 🔴 CRISIS |
 
 ### Market Price to NAV Discount (Listed BDCs)
+
+*Per-name reading aid. The live vector leg is the sector MEDIAN discount >35% sustained (STATUS matrix), not the RED band below for one name.*
 
 | Reading | Interpretation | Action |
 |---------|----------------|--------|
@@ -119,7 +125,7 @@ Compare to shadow default rate (~6-7%). The gap = PIK masking stress.
 1. Any BDC with >$2B bank revolver + NAV decline >15%
 2. Multiple BDCs mark down same portfolio company
 3. Redemption gate at non-traded BDC with bank sub-lines
-4. PIK >20% at FSK or ARCC (largest syndicates)
+4. PIK >20% of total investment income at FSK or ARCC (largest syndicates)
 5. Software sector broad markdown >5%
 
 ### → LABOR (employment)

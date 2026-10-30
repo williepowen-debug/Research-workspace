@@ -1,5 +1,6 @@
+# FROZEN 2026-10-30 — not maintained; STATUS is canonical, do not cite rows as current. VX field-change history = git log -p -- AGENTS/BROCK/workbook/VX.tsv
 # Last real data refresh: 2026-08-07
-# LIVE append-log of VX field changes (Date/VX_ID/Field/Old/New/Reason). NOT an archive - staleness grades from the line above, never mtime.
+# Was a LIVE append-log of VX field changes (Date/VX_ID/Field/Old/New/Reason) until 2026-08-07; frozen 2026-10-30 (DAEDALUS profile refresh item 3). 14 VX.tsv commits 8/08-10/30 were never logged here, incl. VX-BRK-020 RED->ORANGE 9/21 and back to RED 9/25.
 Date	VX_ID	Field	Old_Value	New_Value	Reason
 2026-03-16	VX-BRK-004	Current_Value	4 confirmed	5+ confirmed (OBDC II permanent, HLEND, Cliffwater, MS North Haven, BCRED $6.5B, Canada)	Gate cascade expanded. MS met only 45.8%. BCRED actual 71% higher.
 2026-03-16	VX-BRK-005	Status	ORANGE	RED	Three escalations: Iran financial targets, Kuvari stuffing confirmed, gate cascade impacting insurer portfolios.
