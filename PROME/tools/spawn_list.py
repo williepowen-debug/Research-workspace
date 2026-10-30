@@ -71,18 +71,93 @@ if str(_DV) not in sys.path:
 from docket_view import state_kind, owner_names   # noqa: E402  — fail LOUD if either moves; never fall back to a local copy
 
 
-COVERED_SELF = re.compile(r"COVERED:[^·|]*\bPROME\b[^·|]*\b(?:L0 SPAWN|SPAWN|SLATED|SLATE)\b", re.I)
+COVERED_SELF = re.compile(r"COVERED:[^·|]*\bPROME\b[^·|]*\b(?:L0 SPAWN|SPAWN|SLATED|SLATE)\b", re.I)   # legacy form, kept for the record; coverage() below is the predicate
+
+# ── coverage predicate (DOCKET L368 redesign, 2026-10-30; acceptance PROME/tools/tests/ACCEPTANCE_spawn_list_covered_L368_2026-10-30.md)
+# The old predicate was `"COVERED" in cell.upper()` — a SUBSTRING. It read "recovered" (L800, the day's
+# position-facing row), "Not COVERED" (L40 · L263), prose "covered by" (L565 · L734 · L812), PROME's own
+# slate in any wording but the one regex (L317 HANS), and a lapsed promise (L440 · L445, sitting 10/25)
+# as live coverage — and hid them without a count. Rules, in the order they fire:
+#   form      : uppercase whole-word COVERED immediately followed by ':' or '(' — else NOT an annotation
+#   negation  : NOT/Not/never COVERED, or UNCOVERED — NOT an annotation
+#   self-slate: the clause names PROME and a slate/spawn/wake word, either order — the driver's own job
+#   lapsed    : a promise date (sitting-YYYY-MM-DD, or by/to/until/through/before/at/on-after <date>) before
+#               today — the promise has passed; dates inside an "… ET)" parenthetical are stamps, not promises
+#   covered   : everything else that is a form-valid annotation — suppressed, but PRINTED (render → covered_rows)
+_COV_FORM = re.compile(r"\bCOVERED\s*[:(](?![`'\"])")   # a quoted/backticked `COVERED:` is prose ABOUT the form (L368's own cell), not an annotation
+_COV_NEG = re.compile(r"\b(?:NOT|Not|never)\s+COVERED\b|\bUNCOVERED\b")
+# self-slate: PROME is the SUBJECT of the slate (PROME spawns/wakes/slates it, it sits on PROME's or Will's slate, or
+# PROME reads it at its own boot). A bare slate word anywhere in the clause is NOT enough — "calendar spawn suppressed"
+# (L198) and an annotation stamp "by PROME" (every cell) would otherwise collide (found at the first fixture run).
+_COV_SELF = re.compile(r"\bPROME\s+(?:re-?)?(?:spawns?|wakes?|slates?|L0-?spawns?)\b|\bslated\s+(?:for|at|tonight|today)\b"
+                       r"|\bon\s+Will'?s\s+slate\b|\bboot\s+slate\b|\bL0[\s-]spawn\b|\bWQ-184\s+(?:wake|driver|spawn)\b|\bPROME\s+boot\b", re.I)
+_COV_STAMP = re.compile(r"\([^()]*\bET\b[^()]*\)")
+_COV_PROMISE = re.compile(r"sitting-(\d{4}-\d{2}-\d{2})|\b(?:by|to|until|through|before|at|on/after)\s+(\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2})\b", re.I)
 
 
-def covered(state_cell: str, notes_cell: str) -> bool:
-    """A `COVERED:` annotation suppresses the row as a spawn candidate — EXCEPT when the coverer IS this
-    driver: "COVERED: PROME 9/11 boot slate — WATT L0 spawn (SLATED …)" names PROME's own slated spawn, and
-    reading that as coverage made the 9/11 boot skip the very rows its closeout had slated (L319 · L323 ·
-    L311 · L320 · L124 — found 2026-09-11 11:5x). A PROME-slated spawn is the driver's job, never its excuse."""
+def _promise_dates(clause: str, today):
+    text = _COV_STAMP.sub(" ", clause)
+    out = []
+    for m in _COV_PROMISE.finditer(text):
+        tok = m.group(1) or m.group(2)
+        try:
+            if "-" in tok:
+                out.append(dt.date.fromisoformat(tok))
+            else:
+                mo, da = tok.split("/")
+                out.append(dt.date(today.year, int(mo), int(da)))
+        except ValueError:
+            continue
+    return out
+
+
+def coverage(state_cell: str, notes_cell: str, today=None):
+    """(suppressed, reason, clause). reason ∈ {"", "NOT-AN-ANNOTATION", "NEGATED", "SELF-SLATE", "LAPSED <date>",
+    "COVERED"}; only "COVERED" suppresses. `today` defaults to the wall clock (callers on frozen vintages pass it)."""
+    today = today or dt.date.today()
     s = state_cell + " " + notes_cell
-    if "COVERED" not in s.upper():
-        return False
-    return not COVERED_SELF.search(s)
+    m = _COV_FORM.search(s)
+    if not m:
+        return (False, "NOT-AN-ANNOTATION", "") if re.search(r"covered", s, re.I) else (False, "", "")
+    # the clause: from the annotation to the next ' · ' or '|' (the cell's own separators)
+    rest = s[m.start():]
+    cut = re.search(r"\s·\s|\|", rest)
+    clause = rest[:cut.start()] if cut else rest
+    pre = s[max(0, m.start() - 12):m.start() + 8]
+    if _COV_NEG.search(pre) or _COV_NEG.search(clause[:12]):
+        return False, "NEGATED", clause
+    if _COV_SELF.search(_COV_STAMP.sub(" ", clause)):
+        return False, "SELF-SLATE", clause
+    pd = _promise_dates(clause, today)
+    if pd and max(pd) < today:
+        return False, f"LAPSED {max(pd).isoformat()}", clause
+    return True, "COVERED", clause
+
+
+def covered(state_cell: str, notes_cell: str, today=None) -> bool:
+    """Spawn-candidate suppression. Signature kept (open_records · collect); see coverage() for the reasons.
+    History: the 9/11 self-slate carve-out (L319 · L323 · L311 · L320 · L124) is now the SELF-SLATE rule, either order."""
+    return coverage(state_cell, notes_cell, today)[0]
+
+
+def covered_rows(docket_text: str, today, horizon_days: int):
+    """Every PENDING row inside the horizon that coverage() SUPPRESSES — printed by render so suppression is never
+    silent (acceptance A6). Not part of collect()'s rows: the slate's conservation count and Row's shape are untouched."""
+    horizon = today + dt.timedelta(days=horizon_days)
+    out = []
+    for ln, raw in enumerate(docket_text.split("\n"), start=1):
+        if not raw or raw.startswith("#"):
+            continue
+        c = raw.split("\t")
+        if len(c) < 4 or state_kind(c[3]) != "PENDING":
+            continue
+        end_s = c[0].split("..")[-1].strip()
+        if not DATE.fullmatch(end_s) or dt.date.fromisoformat(end_s) > horizon:
+            continue
+        sup, reason, clause = coverage(c[3], c[5] if len(c) > 5 else "", today)
+        if sup:
+            out.append((f"D:L{ln}", end_s, owner_token(c[2]), reason, re.sub(r"\s+", " ", clause)[:90] or "(empty clause)"))
+    return out
 
 
 def owner_token(cell: str) -> str:
@@ -328,7 +403,7 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
         if not DATE.fullmatch(end_s):
             continue
         due = dt.date.fromisoformat(end_s)
-        if due > horizon or covered(c[3], c[5] if len(c) > 5 else ""):
+        if due > horizon or covered(c[3], c[5] if len(c) > 5 else "", today):
             continue
         start = dt.date.fromisoformat(start_s) if DATE.fullmatch(start_s) else due
         owner = owner_token(c[2])
@@ -363,6 +438,9 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
     return rows
 
 
+COVERED_ROWS = None   # set by main() before render(): the suppressed rows, printed for visibility (A6)
+
+
 def render(rows, today, horizon_days, tsv: bool) -> int:
     n = {k: sum(1 for r in rows if r[4] == k) for k in ("UNKNOWN", "DARK", "ACTIVE", "PROME-OWNED", "WILL-OWNED")}
     lands = sum(1 for r in rows if r[4].startswith("LANDS"))
@@ -374,6 +452,9 @@ def render(rows, today, horizon_days, tsv: bool) -> int:
     for r in rows:
         line = "\t".join(str(x) for x in r)
         print(("\u26d4 " if r[4] == "UNKNOWN" else "⚠️ " if r[4] == "DARK" else "") + line)
+    if COVERED_ROWS is not None:
+        print(f"covered-suppressed {len(COVERED_ROWS)}: " + (" · ".join(f"{k} {o} [{r}] {cl}" for k, _d, o, r, cl in COVERED_ROWS) if COVERED_ROWS else "none")
+              + "  — form-valid COVERED annotations with no self-slate, no negation, no lapsed promise date (L368 A6: visible, never a candidate)")
     if not tsv:
         print(f"\nREAD (WQ-184 L0): DARK = Tier-1 due-row spawn after an in-session ListAgents check (live desk ⇒ doorbell); "
               f"cap {CAP_PER_BOOT}/boot, beyond → slate to Will. ACTIVE = read the owner's artifact FIRST — the row may already "
@@ -513,7 +594,7 @@ def open_records(docket_text, today):
                     "will_owned": tok == "WILL", "prome_owned": tok == "PROME",
                     "state_cell": c[3], "covered": cov is not None,
                     "coverage": cov.group(1).strip() if cov else "",
-                    "spawn_suppressed": covered(c[3], c[5]), "catalyst": c[1], "notes": c[5]})
+                    "spawn_suppressed": covered(c[3], c[5], today), "catalyst": c[1], "notes": c[5]})
     return out
 
 
@@ -611,7 +692,10 @@ def main():
         roster_text = ""
         print(f"\u26a0\ufe0f  cadence source unreadable ({a.roster}: {type(e).__name__}) — "
               "every row below reads CANNOT-EVALUATE for cadence; due rows are UNAFFECTED", file=sys.stderr)
-    rows = collect(read_text(a.docket), read_text(a.gates), today, a.horizon, live, roster_text)
+    docket_text = read_text(a.docket)
+    rows = collect(docket_text, read_text(a.gates), today, a.horizon, live, roster_text)
+    global COVERED_ROWS
+    COVERED_ROWS = covered_rows(docket_text, today, a.horizon)
     return render(rows, today, a.horizon, a.tsv)
 
 
