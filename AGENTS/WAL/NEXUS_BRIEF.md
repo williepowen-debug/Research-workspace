@@ -1,6 +1,6 @@
 # WAL — NEXUS Brief
 
-**As of:** October 30 2026 13:18 ET. **STATUS commit `1426e6f29facefba035be17220cd8bbe7c91663c`**. Will-interactive session (Claude Opus 5.5, laptop): WQ-553 ruled (post-10-Q re-score rule Amendment 1) + inbox drain. *Prior pin:* October 28 23:28 ET STATUS `4e713d7c1` (catch-up and data refresh).
+**As of:** October 30 2026 13:18 ET. **STATUS commit `8f0bae468936ec992b0c6381edb4a44d3bc7feff`**. Will-interactive session (Claude Opus 5.5, laptop): WQ-553 ruled (post-10-Q re-score rule Amendment 1) + inbox drain. *Prior pin:* October 28 23:28 ET STATUS `4e713d7c1` (catch-up and data refresh).
 **Status:** nothing graded since 10/22. Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is **still not on EDGAR** (10/30 13:16 ET; statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md` (10/30 13:17 ET intraday $76.39, +0.57% vs EV).
 **Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** The re-score is owed right after the 10-Q grade.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity and the price guards are REGINALD's; structure and position management are TERRY's and Will's.
