@@ -1,0 +1,38 @@
+Fri Oct 30 10:53:15 EDT 2026
+2026-10-28: 1524 SEC credit rows; 9 NEWT for 'AMAZON'; 0 BATCH (excluded)
+  2026-10-28T11:46Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 1.00pts ~par 122bp (approx) | Amazon.com;Inc.
+  2026-10-28T12:15Z exp 2031-12-20  5,000,000+ | spread 79bp (disseminated) | Amazon.com Inc
+  2026-10-28T12:16Z exp 2031-12-20  5,000,000+ | spread 79bp (disseminated) | Amazon.com Inc
+  2026-10-28T13:31Z exp 2031-12-20  5,000,000+ | spread 790000bp (disseminated) | Amazon.com;Inc.
+  2026-10-28T16:23Z exp 2031-12-20   2,000,000 | cpn 100 upfront 0.91pts ~par 120bp (approx) | Amazon.com;Inc.
+  2026-10-28T16:42Z exp 2031-12-20   2,000,000 | cpn 100 upfront 1.05pts ~par 123bp (approx) | Amazon.com;Inc.
+  2026-10-28T18:44Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.98pts ~par 133bp (approx) | AMAZON.COM;INC.
+  2026-10-28T18:44Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.98pts ~par 133bp (approx) | AMAZON.COM;INC.
+  2026-10-28T21:00Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.87pts ~par 119bp (approx) | AMAZON.COM;INC.
+2026-10-29: 1433 SEC credit rows; 16 NEWT for 'AMAZON'; 0 BATCH (excluded)
+  2026-10-29T13:28Z exp 2031-12-20  5,000,000+ | spread 84bp (disseminated) | Amazon.com Inc
+  2026-10-29T13:28Z exp 2031-12-20  5,000,000+ | spread 84bp (disseminated) | Amazon.com Inc
+  2026-10-29T14:17Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.96pts ~par 121bp (approx) | Amazon.com;Inc.
+  2026-10-29T16:10Z exp 2031-12-20  5,000,000+ | spread 85bp (disseminated) | Amazon.com Inc
+  2026-10-29T17:12Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.73pts ~par 116bp (approx) | Amazon Com Inc
+  2026-10-29T17:52Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.73pts ~par 116bp (approx) | Amazon Com Inc
+  2026-10-29T18:18Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.69pts ~par 115bp (approx) | AMAZON.COM;INC.
+  2026-10-29T18:37Z exp 2029-12-20     400,000 | cpn 100 upfront 1.19pts ~par 141bp (approx) | Amazon.com;Inc.
+  2026-10-29T18:37Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.76pts ~par 117bp (approx) | AMAZON.COM;INC.
+  2026-10-29T18:45Z exp 2029-12-20   1,000,000 | cpn 100 upfront 1.10pts ~par 138bp (approx) | AMAZON.COM;INC.
+  2026-10-29T19:49Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 1.10pts ~par 138bp (approx) | AMAZON.COM;INC.
+  2026-10-29T19:57Z exp 2031-12-20  5,000,000+ | spread 86bp (disseminated) | Amazon.com Inc
+  2026-10-29T19:58Z exp 2028-12-20  5,000,000+ | spread 53bp (disseminated) | Amazon.com Inc
+  2026-10-29T20:33Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.49pts ~par 111bp (approx) | AMAZON.COM INC
+  2026-10-29T20:40Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.51pts ~par 111bp (approx) | Amazon.com;Inc.
+  2026-10-29T20:53Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.46pts ~par 110bp (approx) | AMAZON.COM INC
+2026-10-28: 1524 SEC credit rows; 3 NEWT for 'MICROSOFT'; 0 BATCH (excluded)
+  2026-10-28T14:33Z exp 2031-06-20  5,000,000+ | cpn 100 upfront 2.37pts ~par 159bp (approx) | Microsoft Corporation
+  2026-10-28T14:34Z exp 2031-12-20   1,000,000 | cpn 100 upfront 2.37pts ~par 154bp (approx) | Microsoft Corporation
+  2026-10-28T20:20Z exp 2031-12-20   5,000,000 | cpn 100 upfront 2.28pts ~par 152bp (approx) | Microsoft Corporation
+2026-10-29: 1433 SEC credit rows; 5 NEWT for 'MICROSOFT'; 0 BATCH (excluded)
+  2026-10-29T12:18Z exp 2031-12-20   3,000,000 | cpn 100 upfront 2.19pts ~par 150bp (approx) | Microsoft Corp
+  2026-10-29T13:48Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 2.19pts ~par 150bp (approx) | Microsoft Corporation
+  2026-10-29T16:42Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 2.19pts ~par 150bp (approx) | MICROSOFT CORPORATION
+  2026-10-29T16:44Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 2.24pts ~par 151bp (approx) | MICROSOFT CORPORATION
+  2026-10-29T19:23Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 2.14pts ~par 149bp (approx) | MICROSOFT CORPORATION
