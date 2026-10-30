@@ -1,8 +1,10 @@
 # CREED THRESHOLD REGISTRY -- machine-readable transcription of the FIRE conditions in thesis/THESIS.md.
+# Status: LIVE
+# Last real data refresh: 2026-10-28 -- T-06 / T-06b / T-08b state cells re-stated from the 10/28 re-census (fund gates still 1 = SREIT; forced-sale comps not a primary-read cluster; mREIT Q3 census 4 of 11). PRIOR: 2026-10-22 key-file currency pass. Header-only edit 2026-10-30 (no data change).
 # Created 2026-07-27 (adopted from REGINALD/registry/THRESHOLDS.tsv).
 #
 # *** THIS FILE MOVES NOTHING. *** It TRANSCRIBES bands that already exist in THESIS.md and VX.tsv.
-# Threshold bands are FROZEN TERMS (Will, 2026-07-21) -- propose to Will, never edit here or anywhere else.
+# The threshold BANDS are Will-frozen terms (Will, 2026-07-21) -- a band moves only by proposal to Will, never by an edit here or anywhere else. The registry itself is LIVE: its state cells are maintained. (Reworded 2026-10-30, DAEDALUS profile-refresh item 3: the old sentence front-loaded the word that the fleet staleness reader treats as a dead-ledger banner, so this live registry read as frozen and dropped out of staleness enforcement. No band moved.)
 # If this registry and thesis/THESIS.md disagree, THESIS.md is right and this file is the stale copy -- fix this file.
 #
 # recipient_chain uses the CLAUDE.md Route Matrix. "action" = must do something; "info" = cc.

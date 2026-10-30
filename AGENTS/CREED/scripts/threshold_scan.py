@@ -293,6 +293,29 @@ def load_fired():
     return {r[0]: r[1] for r in rows(FIRED, "CREED-T") if len(r) >= 2}
 
 
+# SUSTAIN LEGS (added 2026-10-30, DAEDALUS profile-refresh item 6). A trigger whose sustain is "N
+# consecutive prints" passes its band on leg 1 without firing. Before this, the scan printed
+# 🔴🔴 TRIPPED / "the K5 state" (rc 1) at EVERY boot for a leg already graded at primary, which
+# trained the reader to override the scan's loudest line. Now a GRADED leg is recognised -- but ONLY
+# when the registry row's CURRENT state cell says "STATE <date>: LEG k OF n -- <Period> ... <value> ["
+# AND the live vector shows that SAME value AND that SAME period tag. A new print (another period,
+# even at the same value) or a missing/unparseable state falls back to TRIPPED: fail closed.
+LEG_RE = re.compile(r"^\W*STATE (\d{4}-\d\d-\d\d): LEG (\d+) OF (\d+) -- ([A-Z][a-z]{2})\b[^\[]*?(-?\d+(?:\.\d+)?)\s*\[")
+
+
+def graded_leg(state_cell, cur, vec_value):
+    m = LEG_RE.match(state_cell or "")
+    if not m:
+        return None
+    date, k, n, period, val = m.groups()
+    if int(k) >= int(n) or float(val) != cur:
+        return None
+    tags = re.findall(r"\[([^\]]*)\]", vec_value or "")
+    if not any(re.search(r"\b" + period + r"\b", t) for t in tags):
+        return None
+    return {"date": date, "k": int(k), "n": int(n), "period": period}
+
+
 def trips(op, value, band):
     if op == ">":
         return value > band
@@ -409,6 +432,8 @@ def main():
                "ctx": parse_context(vectors[vid]["value"]),
                "nvals": len(all_numbers(vectors[vid]["value"])),
                "trip": trips(op, cur, band),
+               "leg": graded_leg(next((c for c in r[9:] if "STATE 20" in c[:30]), ""),
+                                 cur, vectors[vid]["value"]),
                "dist": abs(cur - band),
                "frac": abs(cur - band) / abs(band) if band else None}
         (blocked if tid in BASIS_BLOCKS else scannable).append(rec)
@@ -428,6 +453,11 @@ def main():
         if rec["trip"] and tid in fired:
             print(f"  🔴 FIRED    {tid:12} {arrow}  — exceeds, and FIRED {fired[tid]}. "
                   f"State confirmed, not a new alarm. [{rec['vid']}, {rec['updated']}]")
+        elif rec["trip"] and rec.get("leg"):
+            g = rec["leg"]
+            print(f"  🟠 LEG {g['k']}/{g['n']}  {tid:12} {arrow}  — leg {g['k']} of {g['n']} on the "
+                  f"{g['period']} print (registry state cell recorded {g['date']}). Sustain NOT met: "
+                  f"not a fire. The next print decides. [{rec['vid']}, {rec['updated']}]")
         elif rec["trip"]:
             attention = True
             print(f"  🔴🔴 TRIPPED {tid:12} {arrow}  — EXCEEDS ITS BAND AND IS NOT IN THE FIRE "

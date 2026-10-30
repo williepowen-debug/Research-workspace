@@ -8,7 +8,7 @@ STATE (a fired trigger invisible on the registry that declares it) and supersede
 different objects, so a clean consumer_check meant nothing.
 
 DELIBERATELY NOT A GENERAL "CLAIM DETECTOR." claim_check.py's own scoping lesson: 13 decision files
--> 1 flag; the whole tree -> 131 flags of alert fatigue. Both checks below are file-level and
+-> 1 flag; the whole tree -> 131 flags of alert fatigue. Both checks below are scoped to named CREED files and
 enumerable, so a flag is always actionable and the false-positive rate is ~0 by construction.
 
 RUN AT CLOSEOUT, NOT BOOT. CREED is Tier-2 spawn-on-need and process weight is precisely what makes
@@ -24,7 +24,16 @@ import os, re, sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 R = lambda p: open(os.path.join(ROOT, p), encoding="utf-8").read() if os.path.exists(os.path.join(ROOT, p)) else None
 
-FIRE_MARK = re.compile(r"\bFIRED\b")
+FIRE_MARK = re.compile(r"\bFIRED\b")   # fire-LEDGER column only (a controlled cell)
+# Prose/row marker (fixed 2026-10-30, DAEDALUS profile-refresh item 2): the old check searched the
+# WHOLE FILE for FIRED, which matched inside "NOT FIRED" and inside other triggers' lines, so the
+# "no fire marker" branch could never fail (DAEDALUS mutation: every FIRED stripped from T-08a's own
+# THRESHOLDS row -> still CLEAN rc 0). Now: a marker must sit on a LINE THAT NAMES THE TRIGGER (for
+# THRESHOLDS.tsv, the trigger's own ROW), and negated forms do not count.
+POS_MARK = re.compile(r"(?<!NOT )(?<!not )(?<!Not )(?<!NEVER )(?<!never )\bFIRED\b|FIRE IN FORCE|\b[Ss]pent\b|\bSPENT\b")
+def _names(tid):
+    short = tid.replace("CREED-", "")
+    return re.compile(r"(?<![\w-])(CREED-)?" + re.escape(short) + r"(?!\w)")
 findings = []
 def flag(sev, check, msg):
     findings.append((sev, check, msg))
@@ -55,16 +64,21 @@ else:
             if body is None:
                 flag("RED", "fired-consistency", f"{tid}: surface MISSING — {surf}")
                 continue
-            names = tid in body
+            pat = _names(tid)
+            if surf == "registry/THRESHOLDS.tsv":   # the declaring registry: the trigger's OWN row
+                unit = [l for l in body.splitlines() if l.split("\t")[0] == tid]
+            else:                                   # prose / other TSVs: every line naming it
+                unit = [l for l in body.splitlines() if pat.search(l)]
+            names = bool(unit)
             if surf in CONTEXT and not names:
                 continue                      # context surface may legitimately not discuss it
             if not names:
                 flag("RED", "fired-consistency",
                      f"{tid} FIRED {fired_date} but {surf} never names it (CORE surface)")
-            elif not FIRE_MARK.search(body):
+            elif not any(POS_MARK.search(l) for l in unit):
                 flag("RED", "fired-consistency",
-                     f"{tid} FIRED {fired_date} (effective {eff}) but {surf} names the trigger "
-                     f"with NO fire marker — a reader of that file alone cannot tell it fired")
+                     f"{tid} FIRED {fired_date} (effective {eff}) but no line of {surf} that names "
+                     f"the trigger carries a fire marker — a reader of that file alone cannot tell it fired")
 
 # ══════════════ CHECK 2 — asserted counts vs actual ══════════════
 # README.md and CLAUDE.md assert counts in prose. They drifted to VX 31->32, KB 17->19,
@@ -209,7 +223,7 @@ print(f"  actual: VX={actual['vx']} · KB={actual['kb']} · PRED={actual['pred']
       f"(open={open_n if predb else '?'}) · workbook files={actual['wbfiles']}")
 if not findings:
     print("\n  ✓ CLEAN — no fire-state or count inconsistencies.")
-    print("  Scope: file-level fire markers on 6 surfaces · known count phrasings · open")
+    print("  Scope: line-scoped fire markers (own row in THRESHOLDS) on 6 surfaces · known count phrasings · open")
     print("  staleness banners. A NEW prose phrasing for a count is NOT covered — add it to")
     print("  ASSERTIONS in the same edit that introduces it. Check 3: KB/VX field vocabularies,")
     print("  band-vs-status colours, and VX_HISTORY validation (the boot counter's own validate_history).")

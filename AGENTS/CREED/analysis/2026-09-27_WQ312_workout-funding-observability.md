@@ -33,4 +33,4 @@ A bank discloses the **dollar and the fact** of a payoff/repayment, **not the lo
 ---
 
 ## Sources / limits
-- FLG par payoffs & Bisnow n=1: `analysis/2026-09-27_property-comparable-transfer-test.md`; `research/2026-09-26_REGINALD_TOP3_PROPERTY_TEST.md`. OZK RESG & VLY figures: REGINALD `reports/2026-09-26_CRE_top3_loss_bridge.md`, `reports/2026-09-27_VLY_CRE_transmission.md` (§ maturities). Trepp payoff rate 72.05% (Jul, snippet-tier): `research/2026-09-26_CRE_VULNERABILITY_MAP.md` §6 point 6. CMBS-spread data block: STATUS Standing Obligation 5 / SCRATCH deferred 17. **No new pulls made.**
+- FLG par payoffs & Bisnow n=1: `analysis/2026-09-27_property-comparable-transfer-test.md`; `research/2026-09-26_REGINALD_TOP3_PROPERTY_TEST.md`. OZK RESG & VLY figures: `AGENTS/REGINALD/reports/2026-09-26_CRE_top3_loss_bridge.md`, `AGENTS/REGINALD/reports/2026-09-27_VLY_CRE_transmission.md` (§ maturities). Trepp payoff rate 72.05% (Jul, snippet-tier): `research/2026-09-26_CRE_VULNERABILITY_MAP.md` §6 point 6. CMBS-spread data block: STATUS Standing Obligation 5 / SCRATCH deferred 17. **No new pulls made.**

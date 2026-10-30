@@ -1,7 +1,7 @@
 # CREED Thesis Rails
 
 **Created:** 2026-06-21 15:10 ET  
-**Status:** Current rails. **Split + current-state correction 2026-09-30** (Will-approved; CATO key-files audit CK1): this file now carries **current state only**; the full pre-split text (47,288 B, crc32 `42275fe2`) is verbatim at **`thesis/THESIS_HISTORY_2026-09-30.md`**, the reasoning trail for every figure below. Score history: convergence 20/40 → 23/45 (7/27: S8 split, S5 demoted) → 25/45 (8/20: S2 FIRED) → **27/45 (9/28: S8a 2 → 4, Will-ruled WQ-303; hold confirmed 9/30)**. See CHANGELOG.  
+**Status:** Current rails, current state only (split 2026-09-30, Will-approved; pre-split text verbatim at `thesis/THESIS_HISTORY_2026-09-30.md`, later rotations at `thesis/THESIS_HISTORY_2026-10-30.md`). Convergence **27/45** since 9/28 (S8a 2 → 4, Will-ruled WQ-303); score history in `thesis/CHANGELOG.md` and history §5.  
 **Scope:** National CRE / CMBS market-stress synthesis. Not a trade recommendation.
 
 ---
@@ -12,7 +12,7 @@ CREED's current base case is **selective CRE recognition accelerating**. **Broad
 
 > CMBS is showing the pain because securitized loans force recognition faster. Banks are still absorbing/deferring through modifications, reserves, concentration management and liquidity. The edge is not "CRE bad"; it is identifying when maturity-default and special-servicing stress crosses into bank provisions, reserve-coverage deterioration, forced sales or funding pressure.
 
-**Where the distress sits (as of 2026-09-30):** a **capital-structure / maturity** event, not a tenant-demand event. Office leasing improved in Q2 (CBRE +12.6M sf absorption) while CMBS maturity measures kept worsening, and the September equity-tape fire was rate-led. **The binding constraint is the asset against the coupon: refinancing at today's rates.**
+**Where the distress sits (as of 2026-10-28):** a **capital-structure / maturity** event, not a tenant-demand event. Office leasing stayed positive in Q3 (CBRE +4.9M sf, slower than Q2's +12.6M) while CMBS maturity measures kept worsening and office prices sit −33% from the 2022 peak (`VX-9.02`); the September equity-tape fire was rate-led. **The binding constraint is the asset against the coupon: refinancing at today's rates.**
 
 **Recognition speed is a property of the *holder*, not just the *wrapper*.** Fast-recognition holders are every publicly marked, quarterly reporting CRE holder (CMBS, commercial mortgage REITs); slow-recognition holders include banks and **insurance balance sheets**. Named instance: **ARI sold its CRE loan book to Athene (closed 4/24/26; ~$9B commitments, $8.7B final per Athene's Q2 10-Q) at 99.7% of commitments; ARI stockholders approved dissolution 9/29/26** (8-K Item 5.07). Track the *migration*, not just the delinquency rate.
 
@@ -28,13 +28,11 @@ CREED's current base case is **selective CRE recognition accelerating**. **Broad
 
 **Current evidence** (dated; primary unless marked):
 - 🆕 **Trepp SEPTEMBER 2026 [PRIMARY-READ 2026-10-21, graded on `registry/PREREG_2026-10_TREPP_PRINT.md` §6]: office DQ 12.16% (+16bp) = `CREED-T-01a` LEG 1 of 2 (October decides); overall 8.02% (+17bp, highest since Nov-2020); MF 8.04 (HOMER's); retail 6.58; lodging 6.18; industrial 1.14. Mat-adj 9.66 (−15bp) and performing matured balloons 1.96 → 1.64 fell by CONVERSION into non-performing (Trepp), not payoffs — F1 not triggered. SS 11.49% (highest since Feb-2013); office SS 16.85 (`T-01b` not fired).** The August bullet below is the prior print.
-- **Trepp AUGUST 2026 delinquency [PRIMARY-READ, archived `AGENTS/WALTER/sources/`]: overall 7.85% (−1bp); office 12.00% (+9bp); retail 7.20% (+24bp); lodging 5.84%; industrial 1.14%; multifamily 7.69% (unchanged; HOMER-owned, cite HOMER).** The flat headline hides the maturity book: **maturity-adjusted DQ 9.81% (+19bp)**, its gap to headline widening 176 → 196bp as performing matured balloons accumulated (1.76 → 1.96% of balance). ⚠️ Headline basis (defeased included); never mix Trepp's CMBS-2.0 set.
-- **Composition: non-performing matured balloon = 81% of August's newly delinquent balances**, the 4th consecutive print above 50 (`CREED-T-02` fired 8/20, spent). ⚠️ **August printed no newly-delinquent dollar total, so no shape word is written** (trap #6). The dollar series (`VX-3.05`) peaked at **$3.96B in July**.
-- **Trepp AUGUST 2026 special servicing [PRIMARY-READ]: overall 11.42% (+33bp, highest since Feb 2013); office 16.90% (+32bp), 110bp below the >18 line and moving toward it.** Transfers in $3.16B / 32 loans (~2× July), mostly imminent-maturity-default rather than payment distress (Trepp). Office SS−DQ spread 4.90pp; ⚠️ its sign is not an instrument (`KB-CREED-034`): read the gross flows.
+- **AUGUST 2026 Trepp (prior print)** — DQ, composition and SS bullets moved verbatim to `thesis/THESIS_HISTORY_2026-10-30.md` §1. Carried facts: `CREED-T-02` fired 8/20 and is spent; the newly-delinquent dollar series (`VX-3.05`) peaked at **$3.96B in July**; ⚠️ never mix Trepp's CMBS-2.0 set with the headline basis; the office SS−DQ spread's sign is not an instrument (`KB-CREED-034`).
 - **Maturity wall:** >$100B 2026 CMBS maturities, >50% expected not to repay; Trepp hard maturities **$76.6B, 39% in Q4, 36% at debt yield ≤8%**. Sept hard maturities $2.74B (office 54%).
 - **FDIC Q2 2026 [QBP pub 8/25, PRIMARY-READ]:** overall PDNA 1.44% (−9bp); >$250B nonfarm-nonres CRE PDNA **2.48% (−25bp)**; reserve coverage 172.7% industry / **145.6% community banks**. `CREED-T-03` NOT FIRED 8/27; S3 held at 2. ⚠️ Composition leans recognition, not healing: regional CRE OREO **+26.4% QoQ**, large-bank CRE charge-offs +57% QoQ (`KB-CREED-023`). ⚠️ A clean print is not "no CRE stress at banks": unsecured CRE books as C&I (scope limit, REGINALD's to close).
 - **CRE lender cohort (census 2026-09-26): 4 of 11 cut or liquidating** (ARI wind-down, stockholders approved 9/29; KREF −60%; RC −92%; GPMT $0.05 → $0.01 + formal review 9/23); **7 held Q3**. Q2 book-value erosion **concentrated** (GPMT −19.1%, KREF −13.7%, RC −8.1%, BXMT −4.4%; rest −3.4% to +0.4%). `CREED-T-08b` graded NOT FIRED 9/26.
-- **CRE equity tape:** `CREED-T-08a` **FIRED 9/24** (VNQ vs SPY 3-mo TR −10.12pp; −13.06 on 9/25), a **rate fire** (10y 4.38 → 5.18% on the window; FOMC +25bp 9/16). **🆕 10/21 close −11.48pp TR (10/20 −9.15; 11 of 14 October sessions below −10); 10y 5.15% (^TNX proxy). The fire stands; S8a = 4 (Will, 9/28; hold confirmed 9/30).** *(9/30 −9.14 was the prior reading.)* Recompute with `scripts/s8a_relative.py` before citing.
+- **CRE equity tape:** `CREED-T-08a` **FIRED 9/24** (VNQ vs SPY 3-mo TR −10.12pp), a **rate fire** (10y 4.38 → 5.18% on the window). **10/28 close −11.33pp TR; every session 10/21–10/28 below −10 (σ10 1.12pp); 10y 5.05% (^TNX proxy).** The fire stands; S8a = 4 (Will, 9/28). Recompute with `scripts/s8a_relative.py` before citing. *(10/21 version → history §2.)*
 - **Realized recognition (cluster, not an instance):** 205 W Randolph −72% realized; Aon −58% appraisal; Galveston $8.79/sf; OZK Seattle deed-in-lieu; **3000 Post Oak (Houston) CMBS REO sale, Sept 2026: gross proceeds $12.50M on a $74.58M senior balance; **realized loss $64.78M across all three trusts (86.9% of balance), all three trustee reports read 2026-10-28**; only unrated/risk-retention classes took it; the $20M mezz sits outside** (`KB-CREED-046`). 2026 CMBS loss severity CREFC Jul 48.8% / Aug 72.6%, all-types YTD 35% (`KB-CREED-041`).
 - **Insurer absorption:** MBA Q2 life-insurer CM/MF holdings **+$7.8B → $781.6B** (whole loans only, a floor on insurer CRE; `KB-CREED-047`).
 
@@ -44,24 +42,7 @@ Source trail: `research/REFRESH_2026-07-27.md` is the **prior** pack (CRE lender
 
 ## Mechanism Map
 
-### 1. Maturity-default channel
-Loans can still cash-flow and still default at maturity if refinance proceeds no longer cover prior debt. **The cleanest 2026 CREED forcing function, and now the one firing.**
-Watch: non-performing matured balloon share **and dollars** of new CMBS delinquencies · hard-maturity loans with no extension options · low debt-yield cohorts (≤8%) · the Q4 2026 maturity bulge.
-
-### 2. Special-servicing / appraisal channel
-Special servicing forces updated appraisals, modification decisions or liquidation paths. Large-loan cures/returns can improve headline rates without genuine market repair.
-Watch: SS rate by property type · transfer volume and largest transfers · repeat transfers / re-defaults after modification · office and mixed-use concentration.
-
-### 3. Bank-recognition channel
-Banks can lag CMBS because they can modify, extend, reserve or hold collateral at non-market-clearing marks. The trade-relevant signal is convergence: bank PDNA/provisions/charge-offs catching up to CMBS stress.
-Watch: FDIC non-owner CRE PDNA by bank size · community/regional reserve coverage · provision spikes and CRE charge-offs · modifications and second modifications · CRE OREO · FHLB/repo/funding usage if CRE losses force liquidity needs.
-
-### 4. Multifamily property-level channel
-Multifamily is not only a maturity wall: term defaults tie to occupancy, operating costs and local weakness. **HOMER owns MF scoring** (see S5).
-
-### 5. Forced-sale / NAV channel
-CRE valuation truth appears when assets transact under pressure; forced sales turn private marks into comparable marks.
-Watch: sales >30% below prior appraisal / loan basis · **open-end fund gates: OBSERVED (SREIT, eff. 2026-04-29; `CREED-T-06b` fired 8/27), and a gate BLOCKS recognition rather than showing it** · redemption-queue reversal · appraisal reductions and LTV covenant breaches · ODCE / private-fund redemption data.
+The five channels (maturity-default · special-servicing/appraisal · bank recognition · multifamily property-level · forced-sale/NAV) and the watch list for each live at **`thesis/MECHANISMS.md`** (moved verbatim 2026-10-30; stable reference, not a boot read).
 
 ---
 
@@ -79,7 +60,7 @@ Watch: sales >30% below prior appraisal / loan basis · **open-end fund gates: O
 | 🟡 8a | CRE **equity** tape | VNQ underperforms SPY by >10pp/3mo (total return) with rate/refi or property confirmation · office REIT NAV discounts >50% with confirming data · REIT dividend cuts on NOI/refi stress | update the REIT tape module; never treat REIT price action alone as CRE→bank confirmation |
 | 🟡 8b | CRE **credit / lender** tape | dividend cuts or realized book erosion **across multiple names** · a lender exits/liquidates/sells its book · cohort-wide provisioning on risk-rated-5 credits · lenders persistently below book with cuts | LIQUID (lender appetite), REGINALD (collateral), CARL (consumer spillover) |
 
-S5 is **HOMER-owned** (DAEDALUS ruling 7/12, Will-approved; applied 7/27): HOMER owns the Trepp CMBS-MF row, the GSE-vs-CMBS divergence and Sun-Belt MF realization. CREED cites `AGENTS/HOMER/STATUS.md` and never publishes a second Trepp-MF citation as a CREED vote. S8 was split into 8a/8b on 7/27 because the equity and credit legs diverged; numbering 1–8 is unchanged so citations still resolve.
+S5 is **HOMER-owned** (applied 7/27; cite `AGENTS/HOMER/STATUS.md`, never a second Trepp-MF citation as a CREED vote). S8 was split into 8a/8b on 7/27; numbering 1–8 is unchanged. Full paragraph → history §10.
 
 **Discipline on 8b (all live):**
 1. **Separate lender ECONOMICS from CREDIT LOSS.** ARI exiting at 99.7% (economics) is not KREF reserving against risk-5 credits (credit loss). ARI's clearing is evidence *against* "marks are fictional" even as its exit is evidence *for* credit withdrawal.
@@ -90,7 +71,7 @@ S5 is **HOMER-owned** (DAEDALUS ruling 7/12, Will-approved; applied 7/27): HOMER
 
 ## Convergence Matrix (5-pt stackable handle)
 
-Maps the 8 Expected Signals onto the universal 5-pt scale so NEXUS/PROME can stack CREED's read **without spawning this tier-2 agent**. Scale: 5 firing → 4 🔴 elevated → 3 🟠 building → 2 🟡 latent → 1 ⚪ dormant. Independence = shared-antecedent flag. **Reads as of: rows 1, 2, 8a, 8b 2026-10-21/22 (September Trepp, S8a 10/21 close, lender evidence 10/22); rows 3–7 2026-09-30** (no new print for them since; row 7's CBRE Q3 not yet checked). Full prior cell texts (as of 9/28) are in the history snapshot.
+Maps the 8 Expected Signals onto the universal 5-pt scale so NEXUS/PROME can stack CREED's read **without spawning this tier-2 agent**. Scale: 5 firing → 4 🔴 elevated → 3 🟠 building → 2 🟡 latent → 1 ⚪ dormant. Independence = shared-antecedent flag. **Reads as of: each cell carries its own as-of date** (re-stated 2026-10-30: rows 1–2 September Trepp [10/21]; 4 modifications series [10/22]; 6 forced-sale re-census + 3000 Post Oak [10/28]; 7 CBRE Q3 [10/23 pub, read 10/28]; 8a 10/28 close; 8b Q3 census 4 of 11 [10/28]; 3 FDIC Q2 [8/27 grade], Q3 QBP ~late Nov). The old preamble (rows 3–7 at 9/30) is at `thesis/THESIS_HISTORY_2026-10-30.md` §3.
 
 | # | Vector | Score | Current read [as-of] | Independence | Upgrade trigger |
 |---|---|---:|---|---|---|
@@ -100,9 +81,9 @@ Maps the 8 Expected Signals onto the universal 5-pt scale so NEXUS/PROME can sta
 | 4 | Modification exhaustion | 2 | 🆕 **Aggregate adopted 10/22 (Will):** bank CRE modifications (FDIC, nonfarm-nonres, Jun/Dec only) performing $10.66B / troubled $4.13B [Jun-26], both down from a Jun-25 peak (−28% / −38% YoY); **not attributable** (fewer modifications vs exits vs cures), no band, score unchanged (`KB-CREED-074`). Asset level: Aon and Seattle recaps failed; Sangertown 3rd extension refused on a DSCR hurdle. Mods exhausting one credit at a time. | independent | re-default / 2nd-mod rates rise |
 | 5 | MF term-default broadening | *(3)* | **HOMER-fed cross-reference; not a CREED vote.** Cite `AGENTS/HOMER/STATUS.md`. Excluded from the independent-root count. | not a CREED vote | *(HOMER's call)* |
 | 6 | Forced-sale / NAV recognition | 3 | Realized-comp cluster holds (incl. 3000 Post Oak 9/28: **$64.78M trust loss, 86.9%, read at all three 10-Ds 10/28**). 🆕 **10/28 re-census:** gates still 1 (SREIT = Starwood; CFIT = proration at cap, not a gate); since 8/27 only 1 sale + 1 note sale in OCCUPIED collateral >30% below a named basis, SECONDARY (`KB-088`) — not yet a performing cluster. **`CREED-T-06b` FIRED 8/27 (SREIT gate); S6 HELD AT 3, Will-ruled**: a gate is a refusal to sell, so it blocks recognition. Counter: ARI's book cleared at 99.7%. | independent | a gated fund actually **selling**, or a large **performing** book clearing materially below par (not another gate) |
-| 7 | Office-demand structural hit | 2 | 🆕 **Q3 [CBRE, 10/23]: 18.2% (−10bp), absorption +4.9M sf — 10th positive quarter but slower than Q2's +12.6M**; Moody's 20.7% Aug, rising (SECONDARY dissent). Office **prices −33% from the 2022 peak** (Green Street via CRE Daily; `VX-9.02` adopted 10/28, Will). Tenant demand slowing, not reversing (`KB-089`). Q2: CBRE 18.3%, −30bp, +12.6M sf; JLL −60bp. ⚠️ `VX-9.03` Moody's → CBRE was a basis change, not an improvement. | shares office-demand root with #8a | REIT selloff **AND** direct tenant-demand impairment |
+| 7 | Office-demand structural hit | 2 | 🆕 **Q3 [CBRE, 10/23]: 18.2% (−10bp), absorption +4.9M sf — 10th positive quarter but slower than Q2's +12.6M**; Moody's 20.7% Aug, rising (SECONDARY dissent). Office **prices −33% from the 2022 peak** (Green Street via CRE Daily; `VX-9.02` adopted 10/28, Will). Tenant demand slowing, not reversing (`KB-089`). ⚠️ `VX-9.03` Moody's → CBRE was a basis change, not an improvement. | shares office-demand root with #8a | REIT selloff **AND** direct tenant-demand impairment |
 | 8a | CRE equity tape | **4 🔴** | `CREED-T-08a` FIRED 9/24 (TR −10.12; −13.06 9/25). **Rate-led** (10y 4.38 → 5.18%; FOMC +25bp 9/16); ~2.2pp of the 9/25 depth was window roll. **10/28 close −11.33pp TR (σ10 1.12pp; every session 10/21–10/28 past −10; 10y 5.05% proxy), past the band; the fire stands.** Scored 4 by Will 9/28 (WQ-303); hold confirmed 9/30. Confirms the maturity/coupon root, adds no new root. | equity-tape read of #7 / coupon root | VNQ −10pp vs SPY/3mo + confirming fundamentals |
-| 8b | CRE credit / lender tape | 3 | 4 of 11 cut or liquidating, 7 held (census 9/26); Q2 book erosion concentrated in four names; ARI dissolution approved 9/29. `T-08b` NOT FIRED 9/26 (cuts, but erosion not cohort-wide). 🆕 **Q3 census PARTIAL 10/28 (4 of 11, `KB-CREED-086`):** GAAP BVPS KREF −1.0% (after $155.9M write-offs, mostly Q2-reserved), TRTX −0.9%, BRSP +4.0% GAAP / −2.8% undepreciated, LADR +3.1%; no new cut; erosion NOT cohort-wide so far. 10/22: first Q3 print Ladder, book value up (`KB-CREED-063`); cohort stocks −16.6%/21 sessions to 10/21 but only −4.3pp vs agency mREITs = a rate move, not a credit verdict (`KB-CREED-062`); price is not a `T-08b` input. Census not re-run until Q3 prints. | **independent** (lender-capital channel) | multi-name cuts **AND** realized book erosion across the cohort |
+| 8b | CRE credit / lender tape | 3 | 4 of 11 cut or liquidating (9/26 census; ARI dissolution approved 9/29); `T-08b` NOT FIRED 9/26. **Q3 census PARTIAL 10/28 (4 of 11, `KB-CREED-086`):** GAAP BVPS KREF −1.0%, TRTX −0.9%, BRSP +4.0% GAAP / −2.8% undepreciated, LADR +3.1%; no new cut; erosion not cohort-wide so far. Price is not a `T-08b` input (cohort −16.6%/21 sessions was a rate move, `KB-CREED-062`). Full cell → history §6. | **independent** (lender-capital channel) | multi-name cuts **AND** realized book erosion across the cohort |
 
 **Composite: 27/45 (60.0%)**: S8a 2 → 4, Will-ruled 2026-09-28 (WQ-303); hold confirmed 2026-09-30. ⚠️ **Caveat travels with the score:** a rate-led fire, with ~2.2pp of the 9/25 depth from the window roll. It argues against 5 and does not lower the 4. Prior: 25/45 from 8/20 (S2 3 → 5); 23/45 from 7/27.
 
@@ -129,7 +110,6 @@ Would weaken the bear read:
 - **Office leasing still positive in Q3 2026, but slowing** (CBRE 18.2%, −10bp, +4.9M sf vs Q2 +12.6M; `KB-089`). Q2: CBRE −30bp with +12.6M sf; JLL −60bp; C&W's −10bp largely inventory removal. With office prices −33% from peak (`VX-9.02`), this sharpens the thesis rather than weakening it: buildings leasing better while still failing to refinance locates the distress in values and debt.
 - **The lender leg is selective:** 7 of 11 held Q3 dividends; Q2 book erosion concentrated in four names (9/26 census).
 - **FDIC Q2 bank CRE metrics improved** (PDNA down, reserve coverage up), with the recognition-composition and C&I scope caveats above.
-- ⛔ **No longer live:** the 7–8/2026 CRE **equity-tape** counter-signal. `CREED-T-08a` fired 9/24; its history is in the snapshot.
 
 ---
 
@@ -153,9 +133,9 @@ Would weaken the bear read:
 3. Does AI office-demand risk show up in leasing/vacancy/default data, or stay equity narrative?
 4. **How much CRE credit is migrating from fast-recognition holders (mREITs, CMBS) to slow-recognition holders (insurers, banks), and does migration *defer* recognition or merely *relocate* it?** If the fast channel keeps shedding at par into balance-sheet buyers, headline CMBS/mREIT metrics understate system CRE risk by construction. *(SHADE owns the insurer side.)*
 5. **Is ARI the first of several lender exits?** Partly answered: by 9/26, 4 of 11 had cut or were liquidating and GPMT opened a formal review (9/23). Whether that becomes cohort-wide book erosion is the `T-08b` test.
-6. **Reframed 2026-09-30 (no new research):** the July question *"why did the equity and credit tapes diverge?"* is overtaken. The equity leg sold off in September on **rates**, so the two legs now point the same way for different reasons (rates vs lender economics). **Open:** whether the lender leg's cuts become cohort-wide erosion, and whether rates keep leading the equity tape. The July framing is in the snapshot.
+6. **Do rates keep leading the equity tape, and does the lender leg's dividend cutting become cohort-wide book erosion (`T-08b`)?** (The July equity-vs-credit divergence question is overtaken; its 9/30 reframing is at history §4.)
 7. *(HOMER's question since 7/27: whether MF stress stays metro-specific.)*
-8. **Research candidate — potentially useful, presently unconnected, lower priority** *(added 2026-09-30, Will via PROME)*: **is office / multifamily maturity risk concentrated in a few sponsors or loans, the way Trepp found for self-storage** (`KB-CREED-048`: three loans = 97.9% of that sector's estimated shortfall under an 8% debt-yield screen)? If so, stress would arrive as a few large events rather than a gradual rise, which changes how a monthly print should be read. **Bounded:** first check whether a published study already answers it; a new loan-level calculation may need data CREED does not have. ⛔ **Recording this does not authorize the research: starting it is a new direction and returns to Will as a proposal.**
+8. **Research candidate, not authorized** (Will via PROME 9/30): is office/MF maturity risk concentrated in a few sponsors or loans, as Trepp found for self-storage (`KB-CREED-048`)? Starting it returns to Will as a proposal. Full text → history §9.
 
 ---
 

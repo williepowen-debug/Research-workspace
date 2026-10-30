@@ -100,7 +100,7 @@
 | 🟠 **SoCal: Bank of America Plaza, downtown LA** | sold 6/16/26 | **44.0%** ($175.9M on $400.0M) | balance before disposition | 1.43M sf CBD office, 1974, receivership sale at ~$147/sf | CREFC July (Trepp), PRIMARY-READ |
 | 🟠 **SoCal: 315 South Beverly Drive, Beverly Hills** | Aug-26 reporting | **100% of balance before disposition** ($19.46M) · 92.7% of securitized $21.0M | balance | urban office | CREFC August (Trepp, Bloomberg), PRIMARY-READ |
 | 🟠 **SoCal: La Terraza, Escondido (San Diego County)** | Aug-26 reporting | **31.4%** ($4.15M on $13.23M) · 27.7% of securitized $15.0M | balance | suburban office | CREFC August, PRIMARY-READ |
-| Bank exit: EGBN FY-25 problem-loan transfers | FY-25 | **39.6%** (transfer at 60.4% of cost, 7 loans) | loan cost | property type not shown; office ≤ 41% | REGINALD `reports/2026-09-26_CRE_top3_dossiers/dossier_EGBN.md`, via CREED's 9/26 property test |
+| Bank exit: EGBN FY-25 problem-loan transfers | FY-25 | **39.6%** (transfer at 60.4% of cost, 7 loans) | loan cost | property type not shown; office ≤ 41% | `AGENTS/REGINALD/reports/2026-09-26_CRE_top3_dossiers/dossier_EGBN.md`, via CREED's 9/26 property test |
 | Bank note sale: BCB Bancorp | Sep-26 | $43.3M pre-tax loss on $205.3M face | **vs carrying value; price as % of par undisclosed** | problem loans, NJ/NY | CREED 9/26 catch-up §⑦. **Not convertible to a severity** |
 | Counter-datum: ARI book → Athene | closed 4/24/26 | **0.3%** (cleared at 99.7% of commitments) | commitments | performing national CRE lending book | `VX-CREED-5.02`, PRIMARY-READ |
 
