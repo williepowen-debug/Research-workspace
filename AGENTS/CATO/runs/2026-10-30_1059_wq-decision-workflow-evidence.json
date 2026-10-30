@@ -1,0 +1,590 @@
+{
+  "revision": "d53b51d9118056159afa050049034b62efd86391",
+  "captured_at": "2026-10-30T11:03:18-04:00",
+  "snapshot_directory": "/tmp/cato-wq-study-q57dgg5z",
+  "manifest": {
+    "PROME/WILL_QUEUE.md": {
+      "sha256": "9956b41d357cd4296f414ba4af485d3ff4378e3adc52f63a28b7143aeca228d6",
+      "bytes": 121525,
+      "matches_worktree": false
+    },
+    "PROME/registry/WQ_LEDGER.tsv": {
+      "sha256": "d2887b835efb7a52da6a909cfc9dfe61ff55865f437b73ba86d1ec2ed3abb7f1",
+      "bytes": 2073666,
+      "matches_worktree": true
+    },
+    "PROME/registry/WQ_LEDGER.crc": {
+      "sha256": "c35f1a0aae51fc00a606fbbe99d34516128110894b6a17f9c0c4374c9d158f7d",
+      "bytes": 16,
+      "matches_worktree": true
+    },
+    "PROME/registry/WQ_EXPLAINERS.tsv": {
+      "sha256": "3c31ca123b6371456c2da2fa118d9af8869e8da3f6d987581759f8168f33a9db",
+      "bytes": 228343,
+      "matches_worktree": true
+    },
+    "PROME/SCRATCH.md": {
+      "sha256": "f3ff5d90ba5682a892fc70b1bbfd64500d433d11f200e5439561ff52081f1ba2",
+      "bytes": 17871,
+      "matches_worktree": true
+    },
+    "PROME/tools/decision_deck.py": {
+      "sha256": "c3e7235cc3dd746c0c70b12af712be43c5a101aa8cbef137b29ee48170ab6a5e",
+      "bytes": 134240,
+      "matches_worktree": true
+    },
+    "PROME/tools/wq_ledger.py": {
+      "sha256": "49aeb2da11305637e25aefb3511452cd753504d37a54b56a228e2fa06ac35ece",
+      "bytes": 24899,
+      "matches_worktree": true
+    },
+    "PROME/tools/willq_view.py": {
+      "sha256": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+      "bytes": 20664,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-08-16_rotation.md": {
+      "sha256": "4ba85630407ff9b59059a575dc7396051432440826d85a593d91a53d2beaffe1",
+      "bytes": 50625,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-08-21_rolloff.md": {
+      "sha256": "066e9f1617895e00f9f594d8a16fe4775cee6d73b4c9448f67e8174eab121cbc",
+      "bytes": 3979,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-08-28_slimdown.md": {
+      "sha256": "5416c94749b7b19ad28d0e2171b959732753a6957411b6aa722f170700678947",
+      "bytes": 48773,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-02_rolloff.md": {
+      "sha256": "6c39261e5738ca6fb3392f42e77ef476418160cdfb014f06cceb333eac3af252",
+      "bytes": 2808,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-05_rolloff.md": {
+      "sha256": "e7efa57665d6185d755154604efa4eee89dbbbb6097640d04d6a2fb7398588bd",
+      "bytes": 16175,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-06_rolloff.md": {
+      "sha256": "d2bbae3199fda658ffe26b837d2449b978bc1968218555fdceb1359fce42178f",
+      "bytes": 9911,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-07_rolloff.md": {
+      "sha256": "ced3cdc8b48257e4aeecab71913d8d9d97f2f65f95d36ecf820baab6ae9bfc42",
+      "bytes": 7461,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-09_rolloff.md": {
+      "sha256": "e704123bd0c569453c704cd25e61d3ad28e16ab9c3e1987481554580e047bc55",
+      "bytes": 6324,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-10_evening_rolloff.md": {
+      "sha256": "bcb36fd2b8489286a8b387b4171aa01315e4199deb98abdc6f4cfc5fbb2705af",
+      "bytes": 6096,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-10_rolloff.md": {
+      "sha256": "73100e15947d65b010567715bbd834eba69d323869e8e75e9139f1ee89a431be",
+      "bytes": 1756,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-11_night_rolloff.md": {
+      "sha256": "f9b8b95351df744b0725564d6411dd901de8f48669163e791a1cf80ffa1a9e39",
+      "bytes": 3432,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-09-26_rolloff.md": {
+      "sha256": "e791a93b18d4d1898343a98dd7814e43afc71771295677c7090de092652bbbe4",
+      "bytes": 73495,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-10-03_rolloff.md": {
+      "sha256": "c23f0f82b9717056328ad258dc672b7105006f16f18b11225b660b7d41b6b068",
+      "bytes": 27842,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-10-08_rolloff.md": {
+      "sha256": "22e237b43291156e2bbdf1923a6d6bc7ac4a31874369910dce5b70ae7cb4dd83",
+      "bytes": 65075,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-10-10_rolloff.md": {
+      "sha256": "318369905b6130f9e7787366e841eb453a44529bd2a271ea1fd2989a9f822abb",
+      "bytes": 34284,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-10-21_rolloff.md": {
+      "sha256": "2e0d0cefb585f126cef1b85f89e94251c550b1dbd47f8405de4486f15eebffb6",
+      "bytes": 22468,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-10-22_rolloff.md": {
+      "sha256": "32eea7bc980e3fd6a9dbc8f43adfc95e83f487f8106e90e312cebf8c2693df00",
+      "bytes": 12416,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-10-28_rolloff.md": {
+      "sha256": "29227a04310554e5e3cb390a5e0ff012dfe222a56ed6271c1820e1aeae318203",
+      "bytes": 19775,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-10-29_rolloff.md": {
+      "sha256": "d734b0f9f00620e47c0a95ad2fc3efe86cd9ab44519ae686de44f7ddbb0c8084",
+      "bytes": 14542,
+      "matches_worktree": true
+    },
+    "PROME/archive/WILL_QUEUE_ROWS_2026-10-30_rolloff.md": {
+      "sha256": "81ede2458ac1af8d86eb72ff688e5508cba94680bb568803f6db2f14e774c7b6",
+      "bytes": 3346,
+      "matches_worktree": true
+    },
+    "PROME/tools/done_rows_check.py": {
+      "sha256": "67ecce978eba0d169fb6c6f2a0d2e29ec851a2d13a3d418c407fe60c9a834e06",
+      "bytes": 18087,
+      "matches_worktree": true
+    },
+    "PROME/tools/table_check.py": {
+      "sha256": "5a00e9e9c715e3c6b2959b97dee745a1ed9b107f88b73ab0a852b5a9d2b32d39",
+      "bytes": 8367,
+      "matches_worktree": true
+    }
+  },
+  "checks": {
+    "ledger_integrity": {
+      "rc": 0,
+      "output": "WQ-LEDGER ✓ PROME/registry/WQ_LEDGER.tsv: 1470 event row(s) × 14 columns; append-only order holds\n"
+    },
+    "generated_pending_view": {
+      "rc": 0,
+      "output": "WILLQ-VIEW ✓ PROME/SCRATCH.md block agrees with PROME/WILL_QUEUE.md § OPEN (442 B, as-of 2026-10-30)\n"
+    },
+    "done_rows_independent": {
+      "rc": 0,
+      "output": "⚠️  DONE-ROWS advisories: OVER-DONE ×1 · VERBATIM-LOST ×18 · VERDICT-DASH ×17 (run without --quiet for the rows)\n✅ DONE-ROWS ok — 103 done row(s) parsed, each with a terminal ledger event; 11 open row(s) at width 7; 433 archived row(s) parse (+12 un-numbered legacy) (36 advisory)\n"
+    },
+    "table_shape": {
+      "findings": []
+    }
+  },
+  "open_row_count": 11,
+  "open_row_types": {
+    "RULE": 2,
+    "HANDS": 6,
+    "MIXED": 1,
+    "RECORD": 1,
+    "ACTION": 1
+  },
+  "view_open_ids": [
+    "463",
+    "422",
+    "477",
+    "531",
+    "31",
+    "549",
+    "548",
+    "495",
+    "551",
+    "547",
+    "489"
+  ],
+  "ledger_event_count": 1470,
+  "ledger_distinct_wq_count": 522,
+  "open_rows": [
+    {
+      "wq": "551",
+      "kind": "RULE",
+      "due": "2026-11-13",
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "549",
+      "kind": "RULE",
+      "due": "2026-11-05",
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "548",
+      "kind": "HANDS",
+      "due": "2026-11-05",
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "547",
+      "kind": "HANDS",
+      "due": "2026-11-17",
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "531",
+      "kind": "HANDS",
+      "due": "2026-10-30",
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "495",
+      "kind": "MIXED",
+      "due": "2026-11-05",
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "489",
+      "kind": "RECORD",
+      "due": null,
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "477",
+      "kind": "HANDS",
+      "due": "2026-10-27",
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "463",
+      "kind": "HANDS",
+      "due": "2026-10-09",
+      "blocked": false,
+      "parser_answered": false,
+      "ledger_status": "OPEN",
+      "explainer_present": false
+    },
+    {
+      "wq": "422",
+      "kind": "HANDS",
+      "due": "2026-10-23",
+      "blocked": false,
+      "parser_answered": true,
+      "ledger_status": "ANSWERED-OWED",
+      "explainer_present": true
+    },
+    {
+      "wq": "31",
+      "kind": "ACTION",
+      "due": "2026-11-01",
+      "blocked": false,
+      "parser_answered": true,
+      "ledger_status": "ANSWERED-OWED",
+      "explainer_present": true
+    }
+  ],
+  "queue_ledger_differences": [],
+  "selected_history": {
+    "489": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-22",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-22 13:41"
+      },
+      {
+        "event": "UPDATED",
+        "at": "2026-10-22",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-22 19:23"
+      }
+    ],
+    "495": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-22",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-22 14:23"
+      }
+    ],
+    "519": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-24",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-24 16:44"
+      },
+      {
+        "event": "UPDATED",
+        "at": "2026-10-24",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-24 16:44"
+      },
+      {
+        "event": "UPDATED",
+        "at": "2026-10-24",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-24 17:11"
+      },
+      {
+        "event": "UPDATED",
+        "at": "2026-10-24",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-24 17:11"
+      },
+      {
+        "event": "UPDATED",
+        "at": "2026-10-24",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-24 17:36"
+      },
+      {
+        "event": "UPDATED",
+        "at": "2026-10-27",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-27 00:17"
+      },
+      {
+        "event": "CLOSED",
+        "at": "2026-10-29",
+        "status_after": "CLOSED",
+        "verdict": "—",
+        "written_at": "2026-10-29 21:10"
+      },
+      {
+        "event": "RULED",
+        "at": "2026-10-30",
+        "status_after": "RULED",
+        "verdict": "APPROVE",
+        "written_at": "2026-10-30 09:06"
+      }
+    ],
+    "538": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-29",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-29 09:27"
+      },
+      {
+        "event": "RULED",
+        "at": "2026-10-29",
+        "status_after": "RULED",
+        "verdict": "APPROVE",
+        "written_at": "2026-10-29 09:35"
+      }
+    ],
+    "543": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-29",
+        "status_after": "RULED",
+        "verdict": "APPROVE",
+        "written_at": "2026-10-29 19:43"
+      }
+    ],
+    "544": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-29",
+        "status_after": "CLOSED",
+        "verdict": "—",
+        "written_at": "2026-10-29 19:43"
+      },
+      {
+        "event": "RULED",
+        "at": "2026-10-29",
+        "status_after": "RULED",
+        "verdict": "RULED",
+        "written_at": "2026-10-29 20:24"
+      }
+    ],
+    "545": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-29",
+        "status_after": "RULED",
+        "verdict": "RULED",
+        "written_at": "2026-10-29 19:43"
+      }
+    ],
+    "546": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-29",
+        "status_after": "RULED",
+        "verdict": "RULED",
+        "written_at": "2026-10-29 19:43"
+      }
+    ],
+    "550": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-30",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-30 09:21"
+      },
+      {
+        "event": "RULED",
+        "at": "2026-10-30",
+        "status_after": "RULED",
+        "verdict": "RULED",
+        "written_at": "2026-10-30 10:49"
+      }
+    ],
+    "551": [
+      {
+        "event": "REGISTERED",
+        "at": "2026-10-30",
+        "status_after": "OPEN",
+        "verdict": "—",
+        "written_at": "2026-10-30 09:22"
+      }
+    ]
+  },
+  "selected_terminal_source_lengths": {
+    "550": {
+      "queue_record_chars": 874,
+      "ledger_record_chars": 300
+    },
+    "519": {
+      "queue_record_chars": 759,
+      "ledger_record_chars": 300
+    },
+    "538": {
+      "queue_record_chars": 539,
+      "ledger_record_chars": 300
+    }
+  },
+  "diagnostic_correction": "Initial diagnostic passed archives in ascending order, unlike the production reader. Corrected to its reverse filename order before drawing conclusions; discarded the resulting 25 artificial differences.",
+  "reference_manifest": {
+    "PROME/CLAUDE.md": {
+      "sha256": "6403e2155eec7564c0b6a52702edb42868ec4b17ed01f487b98fd518fe3ff5b5",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/ROSTER.md": {
+      "sha256": "eee50d3ec9addc36ccbb4e48715a8e56841a18ffd934e483f0c83d7fe8dd2b3a",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/AUTONOMY.md": {
+      "sha256": "1f66e7ec9099967908c3ff12fe4235802fa20e1de129c9ce10bccae337edc42f",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/BOOT.md": {
+      "sha256": "8f22c0bf676b9acb7d24fa051caa1bf6da3abb3f66b9bcc320339c842205a7b9",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/BOOT_MODULES.md": {
+      "sha256": "ac307c7be2642c32ebf3f8de0edc2c991326270d8e9d0cf0a2603d8e6c00f471",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/CLOSEOUT.md": {
+      "sha256": "21d2fcccc181a29568343cbc555a6ad39d471e36c1bb164113161a90e2658642",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/ACTIVE_DECISIONS.md": {
+      "sha256": "5e2c0226f9714a209ae5ef594cc491daf2dc0077b02465d9e27aa011c2dbd62b",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/MACHINE_LOCAL.md": {
+      "sha256": "a2d62da3ba44787e599c331bbbef36ee7bf016ab8a5f7560b2b8c9345d25bb23",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/action-cards/TEMPLATE.md": {
+      "sha256": "43d8e478803032ceab8109397ca91002d19ec25bb8b40c56f73e421462f35f71",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/tools/prome_gate.py": {
+      "sha256": "d4f0ec7849f1adf5cfc881dee9bf9b781aed54dd610fd5ef9468e3a8541c5d57",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/proposals/2026-09-10_wq202-decision-deck-RULED.md": {
+      "sha256": "ec02bb85da2152164e4ec5ec3528452f82ce91f7f6060fd8634efaedf038cb7a",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md": {
+      "sha256": "68da9ad1248df90099cea91c470a8d133508760395ba26a90e01f0ac6ebee26f",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/proposals/2026-10-24_wq519-nexus-charter-split-RULED.md": {
+      "sha256": "44e7151dbb67c82e1047e480938880a31341fc357b871ac170750fc68c200897",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/proposals/2026-10-29_wq519iii-504-RULED.md": {
+      "sha256": "57a1a69d6d985727f64e91e9a7a17d4bde7817020f741ccee753aa5eeb4d8bfb",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/proposals/2026-10-29_wq538-c9-fire-commissions-RULED.md": {
+      "sha256": "a371a0f3163a37a48840ec596b0bf8d6b29f04cd728973b46686dc06f9de533b",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/proposals/2026-10-30_wq550-binance-RULED.md": {
+      "sha256": "747243051340192827cd8ef8304e67680a9d39b39743d7f18d102505bc818fb5",
+      "matches_study_revision": false,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/proposals/2026-10-09_deck-options-and-grouping-RULED.md": {
+      "sha256": "3a06b467c774f41eba1e29885406b293f0a4451de63708e9e052433c4d552c63",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/tools/tests/ACCEPTANCE_deck_options_2026-10-09.md": {
+      "sha256": "fa273240a09a0c923b8da2093871e9009efddd7107d01db5caf7bd593fdfd0b5",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/tools/tests/ACCEPTANCE_deck_options_episode2_2026-10-09.md": {
+      "sha256": "f5f1aaee69d009e362bf99cc55bb2657125d8a1fccff14f2966cdba0f1078b2e",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/reports/2026-09-14_decision-deck-review.md": {
+      "sha256": "f5aa15cc788e9019a240b7a76a2b759eac7fcd6ed5107b38ff713bb1818133d7",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    },
+    "PROME/inbox/processed/2026-10-09_from-WALTER_decision-deck-suggestions-ranked-ack-data-age-readability-evidence-pilot.md": {
+      "sha256": "b4a9e25de9068ca2d76ac6681cbea9a76eb6e9983c8f7daf5ed28e4760be9752",
+      "matches_study_revision": true,
+      "scope": "Relevant sections only; hashing is not a claim of whole-file review."
+    }
+  }
+}

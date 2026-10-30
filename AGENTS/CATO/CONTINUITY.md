@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated October 30, 2026; desktop handoff.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
+**Updated October 30, 2026; WQ workflow investigation delivered.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry on follow-up. Saved approvals are not commands to start unrelated work.
 
 ## Resume point
+
+**WQ decision-app discussion: investigation delivered; await Will.** [Twenty questions and answers](runs/2026-10-30_1059_wq-decision-workflow.md), with source/code checks at `d53b51d91`, distinguish answers, hands-owed tasks, receipts, partial rulings and owner completion. [Task scope and remaining unknowns](TASK_INDEX.md#october-30-wq-decision-workflow): no app/platform decision, build, Deck restart or owner send authorized. Discuss findings next; no automatic repair or further audit.
 
 **Research tab implemented and author-tested. Orient and await Will.** [Delivery](runs/2026-10-27_1440_program-opportunities.md#october-29--research-tab-delivery): Will approved the build October 29; CARL/BROCK/LIQUID source reading and literal search use a separate bounded worker. File-service, native Windows/WSL and concurrent fake-launch checks pass. Reopen launcher and use Research; ordinary usefulness and independent acceptance remain unmeasured. No implementation remains, no new study or automatic follow-up.
 

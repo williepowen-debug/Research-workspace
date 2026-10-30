@@ -2,6 +2,10 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## October 30 WQ decision workflow
+
+- **Research before design, complete:** Will asked CATO to write questions about PROME's WQ system and find their answers. [Report](runs/2026-10-30_1059_wq-decision-workflow.md) answers twenty questions; [snapshot evidence](runs/2026-10-30_1059_wq-decision-workflow-evidence.json) pins checks to `d53b51d91`. Q10/WQ-F1: OPEN/type/unit interpretation is not a reliable unanswered-decision count. Q14/WQ-F2: terminal ledger text is shortened, so full ruling records remain necessary. Old Deck features exist but remain paused; historical acceptance is not a fresh hosted test. Unknowns include current per-unit coverage, number allocation, app-response delivery/offline behavior and Will's device/scope preferences. No platform/design, build, owner change, hosted-store access, send or cleanup approved. Next: discuss findings with Will; no implementation remains and no automatic follow-up audit.
+
 ## October 29 system review and launcher approvals
 
 - [Recent-system review and October 30 handoff](runs/2026-10-29_0942_recent-system-review.md#october-30--desktop-handoff): evening independent scope remains 8f9049d6c; PROME subsequently records L368 repaired/independently reviewed at 55f6f727f, not rerun by CATO. Prior start-L368 recommendation superseded; L863 remains owner work. SR2 baseline/method and SR3 record corrections retain their limits; SR4 coverage caveat survives. Experiment A stopped. No remaining CATO implementation; desktop resume = orient and await Will.

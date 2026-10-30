@@ -1,0 +1,201 @@
+# WQ decision workflow — questions and evidence
+
+**Assignment:** Will asked CATO to read PROME's WQ-related files, first write questions, then investigate their answers before making decisions about a possible decision-management app. This authorizes investigation and CATO records, not a build, restarting the paused Decision Deck, owner edits or sends.
+
+**Scope and starting revision:** October 30, 2026, desktop; `d53b51d9118056159afa050049034b62efd86391`. PROME is concurrently changing its records. Distinguish governing rules, inspected implementation, dated examples and unverified behavior. Read bounded relevant sections; do not audit every historical decision or re-adjudicate research/trades.
+
+## Questions written before the investigation
+
+1. What does a WQ number identify, and which kinds of items get one?
+2. Who creates and owns the item, and how is a new number allocated?
+3. Which files are authoritative for an open question, a ruling, history and outstanding work?
+4. What information must a proposal contain before Will can decide?
+5. Which work still needs Will's approval, and which WQ entries merely record existing authority?
+6. What responses exist beyond approve/decline: choices, conditions, deferral, partial answers and requests for revision?
+7. Can one WQ contain multiple independently decidable questions, and how are they identified?
+8. Where can Will give a valid answer, and what proves that answer and its scope?
+9. What steps turn Will's answer into the canonical recorded ruling?
+10. How are unanswered, blocked, deferred, approved and completed items distinguished?
+11. What happens after approval: who receives the work, where is it tracked and what closes it?
+12. How do due dates, aging, priority and reminders work, including work that only Will can do?
+13. How are changed proposals, changed minds, corrections and superseded decisions handled?
+14. How are history and archived decisions retained and searched without reopening settled questions?
+15. What existing commands, parsers and integrity checks can read this information, and what do they actually expose?
+16. What did the earlier Decision Deck do, and what information did it store separately?
+17. Why was the Deck paused, what remains paused and what unresolved delivery conditions survive?
+18. What actual failures or awkward cases should we learn from before considering another interface?
+19. What does desktop/laptop/offline use imply, and does any existing mechanism reliably deliver an answer while PROME is not running?
+20. What can the files establish now, what remains unknown, and what needs Will's preference rather than further repository research?
+
+## Current assessment — investigation delivered October 30
+
+The WQ system is an operator-work register with several distinct meanings: an unanswered decision, an action only Will can perform, a receipt of an earlier ruling, or a bundle combining these. Its recorded decision and the work resulting from that decision have different lifecycles. The files contain useful readers, history and validation, but they are not a complete structured approval service. A new interface cannot safely infer that every OPEN row needs an Approve button, that a RULED row is completed work, or that a short ledger entry contains the whole approved scope.
+
+The earlier Decision Deck already implemented many of the features discussed in this conversation: named choices, independent decision units, notes, history and pickup receipts. Their existence is established in source and dated acceptance records, not newly verified hosted behavior. Will paused the Deck because it was cumbersome and he wanted its upkeep off PROME's plate. No decision to revive it, replace it, select a platform or build an app was made in this study.
+
+**Stopping point:** the twenty questions below are answered to the extent supported by the files, with remaining unknowns explicit. Discuss the findings with Will next. No implementation, owner send or further audit is commissioned.
+
+## Answers
+
+### 1. What does a WQ number identify, and which items get one?
+
+It identifies an item in Will's queue, not necessarily one yes/no question. The queue rules call it the sole numbered series for decisions PROME presents to Will, with registration before the ask. They also admit operator tasks such as a broker export, reading a document or supplying access. Current practice adds HANDS, MIXED and RECORD types. Autonomous-action receipts can also receive numbers directly in RECENTLY DONE. Sources: [queue rules and OPEN](../../../PROME/WILL_QUEUE.md#open), [C9 receipt rule](../../../PROME/proposals/2026-10-29_wq538-c9-fire-commissions-RULED.md).
+
+**Snapshot, not a live workload claim:** at `d53b51d91`, the OPEN table had eleven rows: two RULE, six HANDS, one MIXED, one RECORD and one ACTION. Several rows contain multiple parts. Eleven rows therefore means neither eleven unanswered questions nor eleven executable approvals. The [evidence file](2026-10-30_1059_wq-decision-workflow-evidence.json) records exact IDs and parsed states.
+
+### 2. Who creates and owns the item? How is a number allocated?
+
+PROME owns queue registration and numbering. BOOT step 3b explicitly says WALTER supplies WILL_NEEDS, “WALTER never registers; PROME numbers.” Domain desks supply their proposals/evidence; Will can also originate the issue directly. The roster describes PROME's responsibility as the operator decision/approval service, not ownership of every underlying mechanism.
+
+**Unsettled:** no transactional number allocator or explicit next-number reservation command was found in the inspected queue/ledger/view tools and targeted proposal/registry searches. The ledger reads already assigned numbers; its `REGISTERED` event does not allocate one. Legacy suffixes such as `36a` exist, alongside modern unit IDs such as `551.HELD`. Do not infer a concurrency-safe allocation procedure from the numbering pattern. Sources: [BOOT step 3b](../../../PROME/BOOT.md), [ROSTER](../../../PROME/ROSTER.md), [ledger implementation](../../../PROME/tools/wq_ledger.py).
+
+### 3. Which files own which facts?
+
+| Information | Existing home | Limit |
+|---|---|---|
+| What presently needs Will | `PROME/WILL_QUEUE.md` OPEN | Some rows contain mixed responsibilities or already-ruled text; read the substance. |
+| Recorded ruling | RECENTLY DONE plus its named `PROME/proposals/*RULED.md` or owner record | Preserve exact words, scope, conditions and later corrections. |
+| Event history | Generated `PROME/registry/WQ_LEDGER.tsv` and `.crc` | Summary/state history; terminal text is shortened. |
+| Older original rows | `PROME/archive/WILL_QUEUE_ROWS_*.md` and Git | History, not renewed requests. |
+| Dated follow-through | `PROME/DOCKET.tsv` | Its L-number identifies an obligation, not a new WQ approval. |
+| Nonterminal action state | `PROME/ACTIVE_DECISIONS.md` and owner action cards | Does not replace broker/owner evidence. |
+| Gate state | `PROME/GATES.tsv`; full conditions at the domain owner | A gate grade is distinct from permission. |
+| Resume pointers | `PROME/SCRATCH.md`, HANDOFF | Generated/pointer views, not another authoritative queue. |
+| Old Deck presentation | `PROME/registry/WQ_EXPLAINERS.tsv`, generated HTML | Upkeep paused; not current decision authority. |
+
+This separation is explicit in [CLOSEOUT's “one home per fact” table](../../../PROME/CLOSEOUT.md#bootcloseout-symmetry--one-home-per-fact). It is not a proposal for a new data structure.
+
+### 4. What must a proposal contain before Will decides?
+
+The live queue has seven columns: number, Item, Type, Needed by, Since, PROME recommendation and Notes. Its row-weight rule calls for the decision, options, recommendation and anchors, targeting about 2 KB; full analysis belongs in a linked proposal/owner artifact. Material caveats must survive the short explanation. Before presenting a mirrored owner proposal, PROME must reverify its state at that owner's artifact.
+
+The old Deck adds readable fields: name, what, why yours, what yes/no/nothing does, recommendation reason, named options with consequences, source and domain tags. These are useful existing presentation requirements, but their maintenance is paused. The [action-card template](../../../PROME/action-cards/TEMPLATE.md) further supplies Owner, Next, Window, Backstop, sources and completion conditions for action/trade workflows; it is not a universal WQ form. No universal structured proposal schema governing every current WQ type was established by this read.
+
+### 5. Which entries require permission, and which just record authority?
+
+PROME's [current charter](../../../PROME/CLAUDE.md#ask-first--do-not-do-autonomously) and [AUTONOMY](../../../PROME/AUTONOMY.md) govern, not the presence of a WQ number. Trades/spend, external sends, meaningful rule/gate changes, ownership changes and other specified actions remain gated. Approved-workstream follow-up is generally already authorized. C2 records a ruling Will already gave after verifying it at the desk's committed file. C9 permits specified bounded, free research commissions under its exact conditions and cap, with same-day receipts rather than waiting for another approval.
+
+Thus a future reader must preserve **why authority exists**: new Will answer, prior Will answer, or an applicable standing grant. A receipt saying RULED is not proof Will personally clicked Approve. C5 expiry-card commissioning remains paused; existing no-expiry-nagging instructions survive. This is a summary, not a replacement for the authority clauses.
+
+### 6. What responses exist beyond approve/decline?
+
+Actual records contain named alternatives, partial approvals, defer/not now, keep-as-is, conditional approvals, withdrawals and supersession. Will can amend or discuss a proposal before ruling. An unqualified “approve” is sometimes interpreted as the recommendation shown at that time; the record needs to distinguish his exact words from PROME's interpretation.
+
+WQ-519 is a strong example: on October 24 Will approved (i)/(ii), deferred (iii), specified interim rules and authorized the approved parts to proceed. On October 29 “519 approve” was recorded against the later recommendation, with a consequential interpretation explicitly stated back for correction. The old Deck supports APPROVE, DECLINE, LATER, DONE and CHOICE plus notes; LATER leaves a unit unruled. I found no dedicated current structured “request revision” workflow in these tools. Sources: [October 24 ruling](../../../PROME/proposals/2026-10-24_wq519-nexus-charter-split-RULED.md), [October 29 ruling](../../../PROME/proposals/2026-10-29_wq519iii-504-RULED.md), [unit handling](../../../PROME/BOOT_MODULES.md#deck-unit-taps-change-a).
+
+### 7. Can one WQ hold independently decidable parts?
+
+Yes. Current examples include `551.HELD` and `551.FIRM`; WQ-495 combines `CDR` (Will's hands), `NPORT` (a build decision), and `REPO` (already ruled). WQ-519 used roman-numbered parts. The old Deck's structured unit model uses `decision_id`, normally `<wq>.<UNIT>`, and separate controls, note and response per unit.
+
+**Limit:** modern units are often described inside Markdown prose; the queue's seven columns and the ledger's one-current-state-per-WQ do not provide a universal per-unit state table. Declared units in the paused explainer sidecar do not establish coverage for new queue rows. Source: [queue](../../../PROME/WILL_QUEUE.md), [option parser](../../../PROME/tools/decision_deck.py) `parse_options`, [BOOT_MODULES](../../../PROME/BOOT_MODULES.md#deck-unit-taps-change-a).
+
+### 8. Where can Will answer, and what proves it?
+
+Currently the ordinary route is the PROME conversation, or a desk conversation whose committed record PROME verifies under C2. Ruling records preserve Will's words, date/time where known, context, chosen recommendation and limitations. A relay is evidence to verify, not permission invented by the relayer.
+
+Historically the private Deck's response store was another route, with document ID, timestamp, build and selected terms. That pickup is now paused. This study verifies repository records and code; it does not independently authenticate every historical conversation or access the hosted store. WQ-538 itself discloses that its original conversation is not a file. Sources: [charter C2](../../../PROME/CLAUDE.md), [WQ-538 record](../../../PROME/proposals/2026-10-29_wq538-c9-fire-commissions-RULED.md), [pause](../../../PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md).
+
+### 9. How does an answer become the canonical ruling?
+
+The documented path is: capture the word and what it refers to; record it verbatim with a stamp and durable anchor; update the WQ disposition; register any owner follow-through; run `wq_ledger.py sync` then `check`; regenerate/check SCRATCH's Pending Will view. Commit/publish under PROME's existing delivery rules. For cross-desk rulings, verify the committed owner evidence first.
+
+The old Deck adds a separate pickup step: preserve the stored choice text and consequence rather than substitute current wording, then mark the response consumed with a receipt. Recording, receipt and execution are different events. The live research examined here did not run `sync`, write PROME records or consume any response. Sources: [BOOT 3b](../../../PROME/BOOT.md), [CLOSEOUT step 2](../../../PROME/CLOSEOUT.md), [dormant pickup contract](../../../PROME/BOOT_MODULES.md#deck-unit-taps-change-a).
+
+### 10. How are the states distinguished?
+
+There are several state vocabularies, each describing a different thing. The ledger currently implements **seven** states: OPEN, ANSWERED-OWED, BLOCKED, ANSWERED-BLOCKED, RULED, DECLINED and CLOSED (an old code comment says six). Its terminal states mean the queue decision is settled. ACTIVE_DECISIONS/action cards separately track such things as DRAFT, PROPOSED, WILL_APPROVED, BROKER_PENDING, DEFERRED and COMPLETED.
+
+**Observed limit WQ-F1:** at the study snapshot WQ-489 is Type RECORD and explicitly says “No decision owed,” yet remains in OPEN and the existing parser/ledger classify it OPEN. Its text reports an earlier approval and encoding. The parser detects selected leading words and Type tokens; it does not understand every sentence. WQ-495's mixed parts similarly cannot be reduced to a single approval status. This is sufficient evidence that mechanically copying the current OPEN count into “decisions awaiting you” would mislead. It is not a new assignment to clean the queue. Sources: [WILL_QUEUE](../../../PROME/WILL_QUEUE.md), [parser](../../../PROME/tools/decision_deck.py) `parse_open`, [captured results](2026-10-30_1059_wq-decision-workflow-evidence.json).
+
+### 11. What happens after approval, and what closes the work?
+
+The WQ leaves OPEN once it no longer needs Will; owner encoding/implementation belongs on DOCKET and the owner's artifact. PROME verifies the resulting commit or evidence before claiming incorporation. A row can legitimately remain open if Will still owes an action, as with WQ-422's approved access request: approval did not supply the documents.
+
+WQ-519 demonstrates the distinction: its October 29 decision was closed while NEXUS's remaining encoding was registered for November 3 (DOCKET L873 in the inspected record), with PROME verification owed. The earlier October 24 record reports (i)/(ii) incorporation at a named NEXUS commit. I inspected those PROME receipts, not a new independent NEXUS implementation audit. A WQ approval never establishes a broker fill. Sources: [queue leave-at-ruling rule](../../../PROME/WILL_QUEUE.md), [WQ-519 records](../../../PROME/proposals/2026-10-29_wq519iii-504-RULED.md), [ACTIVE_DECISIONS](../../../PROME/ACTIVE_DECISIONS.md#rules).
+
+### 12. How do deadlines, priority and reminders work?
+
+Needed-by uses ISO dates at day resolution; time-of-day prose is not an intraday timer. Queue rules specify dated-first ordering, explicit blocked notes (`⛔ waits: <owner>`), aging/cap triage and an artifact check before presentation. The rules name a soft cap of twenty dated/unblocked actionable rows and a twenty-one-day tripwire for undated rows; the inspected gate also increments its actionable counter for undated unblocked rows. Neither mechanical count is a reliable count of unanswered decisions without interpreting types and parts.
+
+**HANDS has a newer special rule:** after first presentation, park it; show one aggregate line. Re-present individually only when Will asks or its explicit `⏰ re-present YYYY-MM-DD` marker is due. Needed-by alone must not trigger a reminder. “Once shown” has no dedicated state field beyond the boot record, a limitation disclosed in WQ-538. Deferred decisions need a dated DOCKET entry; urgency alone does not interrupt unrelated authorized work. Sources: [queue rules](../../../PROME/WILL_QUEUE.md), [BOOT step 8](../../../PROME/BOOT.md), [WQ-538](../../../PROME/proposals/2026-10-29_wq538-c9-fire-commissions-RULED.md), [gate implementation](../../../PROME/tools/prome_gate.py) `check_will_queue`.
+
+### 13. What about changed proposals, corrections or changed minds?
+
+The ledger appends events rather than editing old events. The current-state projection is the last row per WQ. The old hosted store likewise retains a new document per response; its dormant pickup rule uses the latest timestamp per unit, preserves earlier responses and asks about conflicts across rows affecting the same position. An old whole-row response on a newly split decision is not silently assigned to a unit. Options should be interpreted as shown when answered, not reinterpreted from a later label.
+
+**Observed during this study:** PROME appended an 11:03 ET correction to WQ-550's record and queue row, preserving the original text and stating that the ruling was unchanged while two claimed consequences were corrected. This is owner-reported correction evidence, not CATO verification of the financial claims. It demonstrates why a reader needs both the original approval and subsequent corrections. The pinned parser checks use the earlier `d53b51d91` snapshot; the correction is disclosed separately, not silently blended into those counts. Source: [WQ-550 correction](../../../PROME/proposals/2026-10-30_wq550-binance-RULED.md), [BOOT_MODULES](../../../PROME/BOOT_MODULES.md#deck-unit-taps-change-a), [ledger](../../../PROME/tools/wq_ledger.py).
+
+### 14. Is history complete, and how should it be read?
+
+Original rows rotate to dated archives; Git preserves prior versions; ruling documents retain full explanation and conditions. DONE rows require a durable anchor when written. The append-only ledger is useful for finding status changes, but its contents are generated from queue snapshots, not a raw transcript of each operator action. One first-seen event can already be RULED; WQ-545 is an observed example. Event time and write time can differ from the actual conversational ruling time.
+
+**Observed limit WQ-F2:** terminal ledger `record` is capped at 300 characters and extracted `will_verbatim` at 400; title and other fields are also shortened. At the pinned snapshot WQ-550's queue ruling cell was 874 characters, its ledger record 300; WQ-519 was 759 versus 300. The Decided reader prefers terminal ledger summaries before original rows. Therefore a ledger-only history is insufficient for reading the exact terms of an approval. The snapshot's 1,470 events across 522 distinct IDs does not certify all lifetime rulings or conversations. Sources: [ledger `live_state`/`clean`](../../../PROME/tools/wq_ledger.py), [Decided precedence](../../../PROME/tools/decision_deck.py) `parse_decided`, [evidence](2026-10-30_1059_wq-decision-workflow-evidence.json).
+
+### 15. Which existing tools are useful, and what do they actually expose?
+
+| Tool | Inspected capability | Practical limit |
+|---|---|---|
+| `willq_view.py` | Parse OPEN; generated Pending Will text; check drift; `--write ... --dry-run` for a preview | No complete approval API or per-unit state; rejects a zero-row queue rather than treating it as a valid empty inbox. |
+| `wq_ledger.py` | `state`, `check`; append through `sync`; one-time `backfill` | `check` validates ledger structure/seal/order, not complete meaning or source agreement. `sync` mutates; not a decision-submission command. |
+| `decision_deck.py` | Shared parsers for open/history/options; former HTML and response-client generation | Rendering/publication paused. Some bad rows warn and skip; warnings are not an exhaustive coverage guarantee. |
+| `done_rows_check.py` | Independently detects missed/malformed decision rows and missing terminal events | Legacy advisories remain; not authentication of Will's words or verification of execution. |
+| `table_check.py`, `queue_parser_selftest.py` | Table shape and cross-parser behavior checks | Structural agreement does not prove all displayed claims mean the same thing. |
+| `active_decisions_digest.py` | Read nonterminal index rows and next actions | An index reader, not the implementation or execution receipt itself. |
+
+Only bounded read-only checks were run, on a pinned temporary snapshot. No full PROME boot, gate stack, selftest-driven Deck build or ledger sync was run. See the validation section below.
+
+### 16. What did the earlier Decision Deck already do?
+
+It projected the queue into Owed and Reference pages. It used a separate explainer sidecar for plain-English cards, supported options/units with consequences, notes, category views, list/table/grid presentation, and a private hosted `rulings` store. Its client distinguishes recorded, received by PROME, and disposition recorded; the latter does not certify execution. UI preferences use browser-local storage, while responses use the hosted store.
+
+The actual response object includes WQ, verdict, note, timestamp, build and consumed flag; unit responses add decision ID, displayed options and chosen text/consequence. Without the supported hosted runtime, the code makes the view read-only. Later options acceptance records report independent verification with disclosed residue; the failed first episode was superseded by the second episode, not the final state of the feature. These are inspected implementation and historical results, not a new live hosted test. Sources: [original spec](../../../PROME/proposals/2026-09-10_wq202-decision-deck-RULED.md), [client code](../../../PROME/tools/decision_deck.py) `RULING_JS`, [episode-two acceptance](../../../PROME/tools/tests/ACCEPTANCE_deck_options_episode2_2026-10-09.md).
+
+### 17. What remains paused, and why?
+
+Will's October 19 reason was that the Deck was becoming cumbersome and he wanted it off PROME's plate. The ruling pauses hosted-store pickup, card/explainer upkeep, generation, publication and hosted verification. It preserves active queue/ledger work and shared parsers. The hosted page was not disabled; its unseen responses remain UNKNOWN. Any eventual use requires reconciliation before treating the old page as current.
+
+The ruling discusses separating presentation operations from PROME's prioritization and follow-through, but explicitly commissions neither a replacement owner nor a build. At the pinned snapshot nine of eleven OPEN rows lacked old Deck explainer entries; that is consistent with the authorized pause, **not nine newly discovered maintenance failures**. Source: [WQ-460](../../../PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md), [current BOOT/CLOSEOUT](../../../PROME/BOOT.md), [evidence](2026-10-30_1059_wq-decision-workflow-evidence.json).
+
+### 18. What actual failure cases should inform the discussion?
+
+- A readable summary can drift from the live proposal or omit a condition that changes the answer. The September 14 review documented this; these are historical lessons, not reopened current defects.
+- Approve can be ambiguous when there are several alternatives or independent parts. The October options work addressed that with exact choices, consequences and unit identity.
+- A page can show an old proposal after the decision was already settled. The queue records October 9 taps on stale builds as history rather than new action.
+- A click can be saved without PROME having received it; a receipt can exist without implementation. The later Deck client already separates these.
+- One malformed Markdown ruling can be missed by both a view and its shared parser. `done_rows_check.py` was introduced after two-cell rulings escaped into neither the ledger nor Decided view.
+- Mechanical state detection still needs interpretation: WQ-489 and WQ-495 are concrete examples from this study. The shortened ledger must not replace full terms.
+
+These cases explain consequential information requirements. They do not select a UI, justify rebuilding every old feature, or authorize another repair campaign. Sources: [historical review](../../../PROME/reports/2026-09-14_decision-deck-review.md), [options acceptance](../../../PROME/tools/tests/ACCEPTANCE_deck_options_episode2_2026-10-09.md), [independent row checker](../../../PROME/tools/done_rows_check.py), queue history and evidence above.
+
+### 19. What is established about desktop/laptop and offline responses?
+
+The repository follows serial multi-machine operation: committed and pushed records travel through Git; machine-local infrastructure does not. The old hosted response store was a separate system and could record a response without PROME running, with pickup intended for a later boot. That mechanism is paused, and its current availability and unconsumed contents were not tested.
+
+No active, verified unattended receiver, offline outbox/retry guarantee, cross-device conflict policy or general local decision-submission service was established in this perimeter. A private hosted response is not automatically a Git record; a local saved preference is not cross-machine delivery. The existing CATO forecast/launcher machinery supplies no implied approval-routing authority. Source: [MACHINE_LOCAL introduction](../../../PROME/MACHINE_LOCAL.md), [Deck client](../../../PROME/tools/decision_deck.py), [pause record](../../../PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md).
+
+### 20. What is known, unknown, and a preference question?
+
+**Established:** current owners and file responsibilities; the queue-to-ruling-to-owner-work flow; mixed/partial decisions; separate permission and completion; exact-word and durable-anchor requirements; source/ledger limitations; the earlier Deck's implemented concepts and pause boundary.
+
+**Not established:** a complete machine-readable current per-unit decision model; transactional number allocation; a currently authorized/tested app-to-PROME receiver; reliability when offline/across devices; the current private store's contents; whether prior Deck effort saved time overall. The sampled integrity checks do not settle these.
+
+**Will's preferences still open:** desktop/laptop versus phone access; whether the program includes hands-owed tasks as well as decisions; how he wants to discuss or amend a proposal; and how much follow-through he wants visible. These are topics for the next conversation, not decisions requested during this investigation. No platform or ownership change is recommended as settled.
+
+## Validation, corrections and limits
+
+The companion [JSON evidence](2026-10-30_1059_wq-decision-workflow-evidence.json) records the named revision, capture time, SHA256/byte manifests, individual queue classifications, selected event histories and checks. Ten core/checker files and twenty queue archives were extracted from `d53b51d91` into a temporary directory. Reference-file hashes are separately recorded; relevant sections were read, not all files wholesale. The temporary path is an execution aid, not the only durable evidence: inputs are recoverable from Git at the named revision.
+
+- Ledger integrity: rc 0, 1,470 event rows, fourteen columns. This is structure/seal/order validation, not authenticity or full completeness.
+- Generated Pending Will block: rc 0, agreed with the same snapshot queue (eleven rows).
+- Independently parsed done rows: rc 0 with **36 advisories**: OVER-DONE 1, VERBATIM-LOST 18, VERDICT-DASH 17. Reported coverage: 103 done rows, eleven OPEN rows, 433 archived rows plus twelve unnumbered legacy entries. No new historical repair was commissioned and advisories were not relabelled passes.
+- Table-shape scan: no findings on that queue snapshot.
+- Additional read-only source/ledger comparison: no semantic differences using production archive precedence. **Diagnostic correction:** CATO's first comparison passed archives in ascending order instead of the production reverse filename order, creating twenty-five artificial differences; corrected before drawing conclusions. No live `sync` or repair was run.
+- The working queue changed during the study. The WQ-550 correction was read separately and disclosed in answer 13. Counts and tests remain pinned to the earlier snapshot; no whole live fleet consistency claim is made.
+
+This is CATO's authored investigation and bounded testing, not independent acceptance of a new app or a re-audit of financial conclusions. Source studies include prior CATO-authored reviews; their dated limits remain. No subagents, owner messages, app build, hosted access, live trade operations or edits to PROME were performed.
+
+**Delivery checks:** weekday check passed on six verified readable inputs: `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, CATO `CONTINUITY.md`, `TASK_INDEX.md`, and this report. Startup read-cap check passed on all six verified readable required files: CATO `AGENTS.md` (8,039 B), `CHARTER.md` (11,436 B), `CONTINUITY.md` (9,723 B), root `CLAUDE.md` (24,313 B), `USER.md` (8,458 B), and `AGENTS.md` (5,756 B). No absent optional desk file was counted. Orphan advisory found preserved non-CATO work; CATO's changes are the report, evidence JSON and two continuity/index pointers. No ledger, memory or shared financial figure was changed, so those conditional checks do not apply. Scoped whitespace, evidence JSON and report-link existence are checked before exact-path delivery. Commit/push receipt is delivered in-session, not a follow-on report edit.
+
+## Reconciliation and next step
+
+All twenty research questions are dispositioned above. WQ-F1 (row/type/unit interpretation) and WQ-F2 (shortened terminal history) remain documented integration limits, not assigned repairs. Before a later build, its proposal would need to say how those limits are handled and how an answer reaches PROME with a reliable receipt. PROME retains its canonical records and delivery duties; Will retains platform/scope choices. Any reuse of the paused hosted store requires reconciliation under the existing pause ruling. No CATO implementation remains from this investigation. Await Will's discussion of the findings.
