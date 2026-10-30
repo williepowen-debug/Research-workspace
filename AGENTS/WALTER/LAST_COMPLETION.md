@@ -122,6 +122,11 @@ Current startup receipt; preceding publication cohort retained and verified sepa
       "commit": "5e93a1240eb648031cca4349a58169f5a2a8812e",
       "state": "pending",
       "note": "Research-Intake sync and X read-access recovery; no bookmark content review, staging or marks. Routine push deferred."
+    },
+    {
+      "commit": "548e4b6b481ad059d021d90cdb554a9786710eb6",
+      "state": "pending",
+      "note": "Authorized zero-new bookmark check; pending-stage and scan receipt only, no consumed-set change or new delivery."
     }
   ],
   "delivery": {
@@ -166,7 +171,7 @@ Current startup receipt; preceding publication cohort retained and verified sepa
     "13": "Existing registry owner-header refresh only; no grade or roster change.",
     "14": "Standing memory retained; session note refreshed; no auto-memory authored.",
     "root.retirement": "No new retirement-eligible artifact; broad historical retirement review not claimed complete.",
-    "16": "Recovery artifacts and PROME INFO packet committed with exact paths; routine push deferred. No dispatch, kill, delivery or publication transition requiring a new ledger row. Final receipt metadata committed separately.",
+    "16": "Zero-item scan and owned current-state corrections committed at 548e4b6b481ad059d021d90cdb554a9786710eb6. Routine push deferred. No new market handoff/delivery rows; final receipt metadata separately committed.",
     "Tier1": "Zero-item bookmark scan. Current pending-scan carry cleared; other boot/source limits retained. No route, kill or delivery event to log."
   }
 }
