@@ -1,0 +1,86 @@
+# HEARTBEAT.md
+**Base:** Thursday night, 2026-10-29, THIRTY-SIXTH base, PROME. Market pull: 19:46:18 ET; individual observation dates below. Owner evidence through the October 29 returns named in the source record (`PROME/reports/2026-10-29_heartbeat-rebase/sources.json`); this is not a whole-fleet refresh. **Amendment chain: 0.** Prior base and its three amendments, verbatim: `PROME/archive/HEARTBEAT_PREREBASE_SNAPSHOT_2026-10-29.md`. Plan, verification and declared review residue: `PROME/plans/2026-10-29_heartbeat-36th-rebase-PLAN.md`.
+
+> **DERIVED SURFACE — owner evidence wins:** `PROME/GATES.tsv`, `PROME/DOCKET.tsv`, `PROME/WILL_QUEUE.md`, desk letters and Will's rulings. Observation, publication and retrieval dates differ. Vendor futures bars are not exchange settlements; after-hours quotes are not closes. Missing observations and owner grades stay missing. Binding older limits remain in `PROME/HEARTBEAT_COLD.md` (§KOS through §KOS.16 except named retirements).
+
+**Central judgment — PROME synthesis:** The week's stress moved from Brazil and credit into equities: an AI-capex repricing across the complex (Alphabet −12.6% October 29 regular session; Amazon about −7% after hours on held capex and negative free cash flow) under negative dealer gamma, while high-yield spreads tightened five sessions running to 314 bp [October 28] and the one measured utility credit print was flat. Oil volatility has sat near the top of its range since July without reaching equity vol or credit (VIOLET, LIQUID). The Fed held with two hawkish dissents and December is priced as a hike. A multi-billion Binance drain is claimed and unconfirmed. Nothing new fired on the ledger (the standing fires — LIQ-069, REG-T-03, the QQQ-card T1 — are carried as such); the split stays 20/47/33 (NEXUS, October 28). The next discriminating prints are tomorrow's: the October 29 credit cells, Amazon's cash open, ECI, the BOJ and HTGC's software marks. **X1 CLOSED / DON'T-SIZE; energy STAND DOWN. No new deployment decision.**
+
+**1. Energy —** BRENT October 29: v5.13 / WAIT; no confirmed Saudi loss (Ras Tanura is a Houthi claim; Khasab was a dhow). Brent Dec `BZZ26` $115.47 is a vendor evening bar into October 30. Refiners run near 98% with no demand destruction, yet VLO closed $384.77, −9.8% from October 26, unexplained at a primary. Held-VLO December crack $93.06 [October 28, source 3 ESTIMATE]: under the $95 notice line, above the $90.16 sell line; the 11:09 ET 88.60 is intraday, not an observation. TTF traded above €100/MWh intraday October 28; no settle is established. → `AGENTS/BRENT/STATUS.md`.
+
+**2. Rates / funding —** FOMC held 3.75–4.00% October 28, 10–2 with two hike dissents; ORACLE prices a December hike at 79.5% [October 29 00:44Z]. Official 10Y par 5.05% [October 28], RED; HENRY's October 29 par 4.98%, 2Y 4.61%. SOFR 3.94% / IORB 3.90% [October 28]; SOFR99−IORB +12 bp, LIQ-079 NOT ARMED. BOND: the October 26 2Y took an audit-only I′ fire (record-low indirect 45.68%); dealers' long-end holdings +$16.3B [week to October 14]; composite 19/35; refunding freeze window November 4–8. BOJ decides October 30; SAM expects a hold at 1.25%. → `AGENTS/BOND/STATUS.md`.
+
+**3. Credit —** First-published October 28: HY 314, BB 184, CCC 1,307 bp, tighter every session from 340 [October 22]. LIQUID: HY >320 run 0-of-3; rekill 0/2; REG-T-04 0 of 3; LIQ-069 2-of-2 FIRED (CRWV 5Y 956–995 bp); LIQ-076 MET 2-of-3 in the same episode, no second write-up (G5L10 −$1,861 mm [October 21], not an extreme). NEXUS L16 cell 8 reads Friday. BDCs: ARCC Q3 marks 0.950 → 0.946 FV/cost, <80 tail 4.2% → 7.4%, same three issuers, no bellwether (L826); HTGC printed October 29, grade owed (L827). NextEra 5Y 64 → 66 bp, flat; energy-HY OAS dark. → `AGENTS/LIQUID/STATUS.md`.
+
+**4. Japan / carry —** SAM October 29 (first read in nine days): no observed Japan-led unwind. The yen weakened on the October 26 Brazil shock; the October 22 Asia selloff gave a haven bid below the fast-move bar. CFTC speculators are net long yen (+69,878 [October 20]), so the August 2024 short-yen pool is absent; offshore FX-swap funding stays unmeasured. Totan prices October at 2%, December at 82%; insurers' H2 plans show no stated Treasury sales. USD/JPY 157.79 [October 29, vendor]; 30Y JGB 3.941% [October 28]. SAM-42 grades on the statement PDF. → `AGENTS/SAM/STATUS.md`.
+
+**5. Equity-vol —** S&P 7,720.39 close October 29 (−0.30%): the 7,700 put wall was tested and held; dealer gamma is NEGATIVE at both horizons (flip about 7,739–7,741), so hedging amplifies either direction (HENRY). VIX 17.20 on Cboe's delayed 16:15 ET quote (provisional). VIOLET's OVX/VIX canary 3.46 [October 28] is a regime since July 13 with no demonstrated edge; cheap-tail DORMANT 2/4. After hours, vendor quotes not closes: QQQ about 703 (−1.7%), AMZN −7%. TERRY's QQQ-card T1 FIRED October 23 stands; the Nov-20 690 strike is 3.5% below the close. → `AGENTS/HENRY/STATUS.md`.
+
+**6. AI capex —** VULCAN October 29: composite 15/25, S5 4, S2 2; cluster three of four in, Amazon decides the §4b grade (L800 re-spawn October 30). Funding gap on DEWEY's method −$173.3B before Amazon; MSFT launched its first USD bond in years, size blank; META priced $37.5B equity-linked; ORCL capped market raises at $20B; no funding-forced cut. Amazon, from news summaries: 2026 capex held near $220B and rising in 2027, free cash flow −$42.4B, AWS +39% — not a cut; the market is punishing the spend. → `AGENTS/VULCAN/STATUS.md`.
+
+**7. War / housing / banks / China —** FALCON October 29: GATE-FALCON-001 leg 2 NOT MET (ratio 80% vs ≤65%). Housing: PMMS 7.32% [week October 22]; HOMER C1/C2 0/3. Florida: household gauges loud, every bank 8-K cell quiet; MSI #11 4-of-5. Banks: REG-28 u 4 of 4, 65% OPEN; REG-T-03 FIRED. China: no fiscal figure at the plenum; HIBOR−SOFR −122.5 bp YELLOW. Power: WATT P1 3 → 5 on October 27 PJM prints. Consumer: saving rate 3.8%, core PCE +0.3% as frozen, claims 194,000 band B. Binance: $2–5.8B drain claimed, unconfirmed (L871). → `PROME/reports/2026-10-29_florida-synthesis.md`.
+
+**8. Metals —** MIDAS closed October 29 00:15 ET: actual 8/20, counterfactual 13/20; WQ-522 retired on Will's word, nothing re-anchored. Real 10Y 2.64 → 2.67 on the Fed hold. GLD +1.55% over two sessions to October 28, trust +2.56 t, the first back-to-back additions since October 22; the October 28 gold diagnostic $4,051.60 sits $1.60 above the flip line, uncertified; certified GCZ26 settlements remain unavailable. Will holds GLD 28 and Nov-02 375C ×2; nothing here grades them. Only open Will item: the certified settlement source. → `AGENTS/MIDAS/STATUS.md`.
+
+## Stress dashboard
+Source: `PROME/reports/2026-10-29_heartbeat-rebase/dashboard.txt`, retrieved October 29 19:46:18 ET. Levels keep observation dates; vendor deltas are omitted where they may compare different vintages. Dashboard colors are not owner grades.
+
+| Measure | Latest carried observation | Basis / limit |
+|---|---|---|
+| HY / CCC OAS | 314 / 1,307 bp [Oct 28] | First-published cells (LIQUID 14:55 ET); Oct 29 publishes Oct 30 |
+| IG / BB / single-B OAS | 86 / 184 / 318 bp [Oct 28] | LIQUID first-published |
+| Brent Dec BZZ26 | $115.47 [Oct 29 evening → Oct 30] | Vendor evening bar; no settle or daily change claimed |
+| DGS10 | 5.05% [Oct 28] | Official observation; HENRY's Oct 29 par 4.98% |
+| SOFR / IORB | 3.94% / 3.90% [Oct 28] | Median gap +4 bp; tail SOFR99 gap +12 bp (LIQUID) |
+| VIX / MOVE | 17.20 (Cboe delayed 16:15 ET, PROVISIONAL) / 93.54 [Oct 29] | Archive final owed (VIOLET); no multi-close fire count |
+| USD/JPY | 157.79 [Oct 29] | Vendor; SAM owns the carry read |
+| KRE / OZK / WAL | $72.86 / $51.31 / $77.80 [Oct 29] | Vendor daily closes |
+| APO / ARES | $118.56 / $127.47 [Oct 29] | Vendor daily closes |
+| TLT / BIZD / ARCC | $81.49 / $12.48 / $19.12 [Oct 29] | Vendor daily closes |
+| FSK / OBDC | $11.17 / $10.50 [Oct 29] | Vendor daily closes |
+| Initial / continuing claims | 194,000 [week Oct 24] / 1,701,000 [week Oct 17] | Different observation weeks; LABOR owns interpretation |
+| Gas (weekly) / Cushing | $4.27 [Oct 26] / 26.97 [Oct 23] | Vendor; EIA retail series carried at $4.284 [Oct 19] by BRENT |
+
+## Missing links that matter next
+These are evidence needs within existing work, not new commissions, thresholds or promises of unattended monitoring.
+
+| Chain | Established / counterevidence | Next discriminating observation |
+|---|---|---|
+| AI-capex repricing → credit | Equity repriced across the complex Oct 29 (GOOGL regular, AMZN/AMD/CRWV/ORCL/AVGO/NVDA after hours); capex was held, not cut. HY tightened to 314 [Oct 28]; CRWV 5Y 956–995 bp, Meta CDS eased. | FRED Oct 29 cells (publish Oct 30 ~16:15 ET): LIQUID's call line is HY ≥324 with BB ≥189 and VIX up; ORCL/CRWV CDS Oct 30; VULCAN's §4b cluster grade; MSFT bond pricing. |
+| Oil-vol premium → equity / credit | OVX/VIX FIRE regime since Jul 13; VIX fell through the cluster; refiners fell while airlines rose; HY tracks VIX (+0.67) not Brent (+0.34). Energy-HY OAS dark. | HY widening with lower tiers leading while OVX stays high; a refiner filing that explains Oct 27; energy names inside HY vs the index (unmeasured). |
+| Binance → stablecoin / T-bill plumbing | Carrier claims only ($2–5.8B); freezes $1.5–1.8B reported; no Binance notice, no issuer notice read. No bank or core vendor named. | Binance's own notice; Tether/Circle freeze and redemption notices; withdrawal state; on-chain tally (CYPHER L871). |
+| Private credit → banks | ARCC no bellwether; HTGC Q3 printed, three-condition letter ungraded until BROCK; Blue Owl redemptions and the shelved Texas HY sale are headlines. | HTGC software marks / non-accruals / NAV at the 8-K; Blue Owl redemption size and vehicles; whether the Hubbard bridge is sold down. |
+| Brazil → dollar funding | Nothing new since Oct 26: SOFR99−IORB +12, yen weakened on the shock, specs long yen. | Event-day ICE tiers and funding cells still unobserved; a named refused roll, cash demand or bank loss. |
+| Energy access → physical shortage | FALCON leg 2 NOT MET; casualties are a dhow and claims; refiners run at 98%. | Comparable insured transit and product flows; measured lost barrels; a named-hull Sinokor detention from Nov 1. |
+| Florida households → banks | Bankruptcies, condo supply and negative equity loud; every bank 8-K cell quiet; condo associations unnamed in any release. | Q3 10-Q cells (~Nov 14): CRE 30–89 days, nonaccruals, residential nonaccruals; whether any bank names condo associations. |
+
+Detailed source provenance: `PROME/reports/2026-10-29_heartbeat-rebase/sources.json`. Supporting synthesis: `PROME/reports/2026-10-29_energy-cluster-synthesis.md`, `PROME/reports/2026-10-29_florida-synthesis.md`. Prior-base chains (Brazil absorption, UBR, Anthropic cash) stay in the exact archive.
+
+## Thresholds and owner clocks
+`PROME/GATES.tsv` remains the action-gate ledger. Its current condition, consequence, owner grade and review date control; this memo does not regrade other desks. The pick-up refresh gate passed (`/tmp/prome-boot-20261029-1051/refresh-equ7ofzd/gate.txt`, 19:4x ET); that is not whole-fleet evidence freshness.
+
+- **Credit:** LIQUID October 29: HY >320 run 0-of-3; strict <260 ×2 rekill 0/2; REG-T-04 0 of 3 (REGINALD); 069 2-of-2 FIRED; 076 MET 2-of-3 same episode (re-arm needs 10 business days with no leg met); 069/076/079 review November 5. NEXUS L16 cell 8 and M-09 (BB ≥220 on two cells) grade Friday (L573, L751). HYG card approved, NOT-FIRED at the carried grade; approval is not a fill.
+- **Funding:** LIQ-079 NOT ARMED (+12 bp [October 28]); ARM = SOFR99−IORB ≥+30 bp on 2 eligible consecutive days; FIRE legs 3/4 now banded (WQ-535 A), gradeable on ARMED days only. October 28–November 3 publication exclusions break qualifying runs.
+- **Energy / theaters:** BRENT boundary #1 (≥$120 ×3 settlements) not met; COT #11 review and the F-a roll October 30; FALCON-001 review November 4; held-VLO crack $95 notice line crossed, $90.16 sell line governed by daily rows (TERRY, review November 18); OPEC+ November 1 (L609); Russia diesel exemption start November 1 (L771).
+- **Equity / AI:** QQQ-card T1 FIRED October 23, Will-filled; HENRY's gamma read is current to October 29; HENRY's frozen November letters: HEN-59 payrolls <+100,000 (November 6), HEN-57 core CPI 0.4+ (November 10), HEN-58 PPI ladder (November 13). VULCAN L800 cluster grade October 30; ORCL card conditional on its own trigger. NEXUS split 20/47/33 held October 28; Tuesday L554 grades.
+- **Metals:** actual 8/20; the November 1 21:40 ET scoring floor remains; WQ-522 RETIRED; dated WQ-451 tests L819–L822 remain registered; certified GCZ26 settlements unavailable.
+- **Near-term calendar:** Fri October 30 — ECI 08:30 ET (LABOR L764), BOJ decision (SAM), Samsung, VULCAN L800, CYPHER L871 Binance first read, FRED October 29 cells ~16:15 ET (LIQUID call line; NEXUS L573/L751), WQ-515 cutoff 16:00 ET (L828), COT #11, BRENT Friday routine 20:15Z. Sat October 31 — Citizens month-end; AEOLUS L426; REGINALD L857. Sun November 1 — OPEC+ (L609); Russia №954 (L771); metals scoring floor. Mon November 2 — AAPL; ZHAO L482 and NPCSC (L802); FERT L759; OSPREY L814; October HY issuance. Tue November 3 — NEXUS L554; FDIC Nano Banc (L516); JOLTS (L765); CORAL L784; WALTER L845. Wed November 4 — refunding freeze window opens (BOND L859); WATT P1 re-test (L866); CF Industries (L578); MIA (L785); FALCON-001; CYPHER +14d. Thu November 5 — FFIEC JWT expiry (L180); NCLH 10-Q (L714); Challenger (L766); CYPHER L812; LIQUID gate review. → `PROME/state/CALENDAR.md`; `PROME/DOCKET.tsv`.
+
+## Book state
+Book $39,159.02 · cash 34.19% · broker export received 2026-10-29 · marks as-of 2026-10-29 post-close · 0d since receipt — not live, re-check before any fill
+
+Generated by `python3 PROME/tools/will_brief.py --book-line`; broker truth and reconciliation belong to `FORGE/STATUS.md` (ANVIL-1029, 69f91a091: positions $24,810.30 + cash $13,386.72 + pending $962.00; Fidelity last prices, not settles). The October 29 capture is a positions view; the Activity ledger for October 22–29 is unseen (D-90), so nothing realized is booked and the seven lines gone since October 22 have no recorded outcome. Current dispositions are not inferred from calendar passage. No expiry reminders or sell/roll prompts (`USER.md`).
+
+## Kernel
+Gate C carve-out ④ remains INACTIVE pending its separate activation ruling. Planning or installation grants no operational authority. → `PROME/HEARTBEAT_COLD.md` §K / §K.1; DOCKET L247.
+
+## Kill-on-sight at this cut
+Do not assert: "Amazon cut capex" (held near $220B, rising 2027); "the after-hours tape is one company's print" (a complex-wide repricing); "TTF settled above $100" (traded above €100/MWh intraday, settle not established, and the unit is euros); "the Binance loss is $5B" (carrier estimates $2–5.8B, unconfirmed); "HY tightening proves the AI-credit scare is over"; "VIX closed 16.50 on Oct 29" (Cboe provisional 17.20; archive final owed); "the VLO crack crossed the sell line" (an intraday print, not an observation); "the Khasab fire was a tanker" (a dhow); "Brent $115.47 is a settle"; "the yen is unwinding"; "CCC is the AI trade"; "credit widening automatically pays regional puts"; "HTGC's aggregate mark proves concealment"; "AI announced financing equals funded capex"; "gold score flipped." The prior cut's list (Brazil, UBR, HYG/LQD, issuance, France, gold hedge) stays binding in the exact archive.
+
+## Pointers and binding limits
+`PROME/HEARTBEAT_COLD.md`: §32.1/2/3/5/7/B retain older channel detail; §30.4 Japan; §29.8 metals; §KOS through §KOS.16 binding except named retirements; §B.1/§D.2/§K/§K.1/§R/§R.2/§C/§S standing rules; §19.2R vendor defects. The prior base and its amendments are preserved verbatim in the archive above. Prior spot levels, expired date language and superseded synthesis there are historical evidence. No guard is silently retired; current corrections replace the specific former claims only.
+
+## HEARTBEAT Cadence / Ownership
+PROME owns this file; cadence and HOT/COLD structure remain at cold §C. Byte budget 32,550 B; rotate at 75%, stop below 70%; channel paragraphs target ≤600 B. Measure with `PROME/tools/measure.py`. This is a DOMAIN synthesis refresh, no process-rule change. Plan/read record above carries declared residue and source limitations.
+
+## Skip
+Thursday-night synthesis of the dated evidence above. X1 CLOSED / DON'T-SIZE and energy STAND DOWN remain. $0 moved by PROME. Owner grades, current broker truth and future qualifying observations are not supplied by this memo. Research follow-through and coordination resume at `PROME/SCRATCH.md` ★ NEXT.
