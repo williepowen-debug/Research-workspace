@@ -18,7 +18,8 @@ def _fixture_rows():
         if not line or line.startswith("#") or line.startswith("src_line"):
             continue
         c = line.split("\t")
-        out[int(c[0])] = c[1:]
+        k = c[0]
+        out[int(k) if k.isdigit() else k] = c[1:]
     return out
 
 
@@ -76,6 +77,19 @@ class A3_self_slate(unittest.TestCase):
     def test_wills_slate_from_prome_report(self):
         self.assertFalse(_sup("PENDING · COVERED: on Will's slate from the 10/29 morning boot report (DAEDALUS not woken, cap 8 reached; PROME re-presents)")[0])
 
+    def test_passive_and_auxiliary_prome_promises_are_self_slate(self):
+        for cell in ("PENDING · COVERED: WATT spawned by PROME at the next boot",
+                     "PENDING · COVERED: HANS woken by PROME at boot",
+                     "PENDING · COVERED: PROME slated HANS for Friday",
+                     "PENDING · COVERED: PROME will wake HANS after the print",
+                     "PENDING · COVERED: read at the next PROME boots",
+                     "PENDING · COVERED:PROME next boot for unfinished coordination",
+                     "PENDING · COVERED:NEXUS at the existing wake; PROME next boot dispatches after presence check",
+                     "PENDING · COVERED (PROME 2026-10-29 07:5x ET): HANS L0-spawned at first boot on/after 10/30",
+                     "PENDING · COVERED: on Will\u2019s slate from the morning report"):
+            s, r, _ = _sup(cell)
+            self.assertFalse(s, cell); self.assertEqual(r, "SELF-SLATE", cell)
+
     def test_other_desk_slate_without_prome_still_covers(self):
         # a desk slating ITS OWN work is coverage, not PROME's job
         self.assertTrue(_sup("PENDING · COVERED: WALTER — its own design; lands at WALTER's dated wake")[0])
@@ -101,6 +115,11 @@ class A4_lapsed_promise(unittest.TestCase):
         self.assertFalse(s); self.assertTrue(r.startswith("LAPSED"))
         self.assertTrue(_sup("PENDING · COVERED: YURI holds the window until 10/31", today=dt.date(2026, 10, 30))[0])
 
+    def test_year_boundary_nearest_year(self):
+        s, r, _ = _sup("PENDING · COVERED: BOND holds it by 12/31", today=dt.date(2027, 1, 2))
+        self.assertFalse(s); self.assertEqual(r, "LAPSED 2026-12-31")
+        self.assertTrue(_sup("PENDING · COVERED: BOND holds it by 1/5", today=dt.date(2026, 12, 30))[0])
+
     def test_stamp_in_ET_parenthetical_is_not_a_promise(self):
         s, _, _ = _sup("PENDING · COVERED: FLG holds the 10-Q leg of the window (2026-10-29 10:2x ET, PROME prome-90)", today=dt.date(2026, 10, 30))
         self.assertTrue(s)
@@ -124,6 +143,12 @@ class A5_legitimate_coverage_and_fixture(unittest.TestCase):
             self.assertTrue(s, f"L{n} must stay suppressed; got {r}: {cl[:80]}")
         for n in (764, 795, 871):   # controls: no COVERED anywhere
             self.assertEqual(S.coverage(rows[n][3], rows[n][5], TODAY), (False, "", ""))
+
+    def test_fixture_L467_L555_prome_promises_visible_at_1027(self):
+        rows = _fixture_rows()
+        for k in ("ef7b600c2:467", "ef7b600c2:555"):
+            s, r, cl = S.coverage(rows[k][3], rows[k][5], dt.date(2026, 10, 27))
+            self.assertFalse(s, f"{k} must be visible; got {r}: {cl[:100]}"); self.assertEqual(r, "SELF-SLATE", k)
 
     def test_fixture_L264_L265_consumer_read_at_vintage(self):
         rows = _fixture_rows()

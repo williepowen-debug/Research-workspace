@@ -89,8 +89,13 @@ _COV_NEG = re.compile(r"\b(?:NOT|Not|never)\s+COVERED\b|\bUNCOVERED\b")
 # self-slate: PROME is the SUBJECT of the slate (PROME spawns/wakes/slates it, it sits on PROME's or Will's slate, or
 # PROME reads it at its own boot). A bare slate word anywhere in the clause is NOT enough — "calendar spawn suppressed"
 # (L198) and an annotation stamp "by PROME" (every cell) would otherwise collide (found at the first fixture run).
-_COV_SELF = re.compile(r"\bPROME\s+(?:re-?)?(?:spawns?|wakes?|slates?|L0-?spawns?)\b|\bslated\s+(?:for|at|tonight|today)\b"
-                       r"|\bon\s+Will'?s\s+slate\b|\bboot\s+slate\b|\bL0[\s-]spawn\b|\bWQ-184\s+(?:wake|driver|spawn)\b|\bPROME\s+boot\b", re.I)
+_COV_SELF = re.compile(
+    r"\bPROME\s+(?:re-?)?(?:spawns?|wakes?|slates?|slated|dispatch(?:es)?|L0-?spawns?)\b"          # PROME spawns / PROME slated
+    r"|\bPROME\s+(?:will|to|then|would)\s+(?:re-?)?(?:spawn|wake|slate|dispatch)\b"               # PROME will wake …
+    r"|\b(?:re-?spawned|spawned|woken|waked|slated|dispatched)\s+by\s+PROME\b"                     # spawned by PROME (passive)
+    r"|\bslated\s+(?:for|at|tonight|today)\b|\bon\s+Will[\u2019']?s\s+slate\b|\bboot\s+slate\b"  # slated for …; on Will's slate
+    r"|\bL0[\s-]spawn\w*|\bWQ-184\s+(?:wake|driver|spawn)\b"                                      # L0 spawn(ed); WQ-184 wake
+    r"|\b(?:next\s+)?PROME(?:[\u2019']s)?\s+(?:next\s+)?boots?\b", re.I)                             # PROME boot / next PROME boots / PROME's next boot
 _COV_STAMP = re.compile(r"\([^()]*\bET\b[^()]*\)")
 _COV_PROMISE = re.compile(r"sitting-(\d{4}-\d{2}-\d{2})|\b(?:by|to|until|through|before|at|on/after)\s+(\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2})\b", re.I)
 
@@ -105,7 +110,16 @@ def _promise_dates(clause: str, today):
                 out.append(dt.date.fromisoformat(tok))
             else:
                 mo, da = tok.split("/")
-                out.append(dt.date(today.year, int(mo), int(da)))
+                # M/D has no year: take the candidate nearest today (±183 d) so "by 12/31" read on Jan 2 and
+                # "by 1/5" read on Dec 30 both resolve to the promise the writer meant (reader ❌2, 2026-10-30)
+                cands = []
+                for y in (today.year - 1, today.year, today.year + 1):
+                    try:
+                        cands.append(dt.date(y, int(mo), int(da)))
+                    except ValueError:
+                        continue
+                if cands:
+                    out.append(min(cands, key=lambda d: abs((d - today).days)))
         except ValueError:
             continue
     return out
