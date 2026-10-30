@@ -1,7 +1,7 @@
 # WAL — NEXUS Brief
 
-**As of:** October 30 2026 14:24 ET. **STATUS commit `d6089dccea1a914f1ec7c3846506c86430ccbdf5`**. Will-interactive session (Claude Opus 5.5, laptop): WQ-553 ruled (post-10-Q re-score rule Amendment 1) + inbox drain; then 10-Q frame dry run and $99M appraisal prior (Will 14:07 "lets do 1 through 3"); then a workbook update (Will 14:21). *Prior pin:* October 28 23:28 ET STATUS `4e713d7c1` (catch-up and data refresh).
-**Status:** nothing graded since 10/22. Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is **still not on EDGAR** (10/30 13:16 ET; statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md` (10/30 13:17 ET intraday $76.39, +0.57% vs EV).
+**As of:** October 30 2026 15:43 ET (closeout). **STATUS commit `a94cdbbf0566ba4052fd1381fe55efd18312d7d0`**. Will-interactive session (Claude Opus 5.5, laptop): WQ-553 ruled (post-10-Q re-score rule Amendment 1) + inbox drain; then 10-Q frame dry run and $99M appraisal prior (Will 14:07 "lets do 1 through 3"); then a workbook update (Will 14:21). *Prior pin:* October 28 23:28 ET STATUS `4e713d7c1` (catch-up and data refresh).
+**Status:** nothing graded since 10/22. Q3 print (10/19) and call (10/20) are graded on the frozen frames; the Q3 10-Q is **still not on EDGAR** (10/30 15:43 ET; statutory Mon 11/9) and is the single carrier for what remains open. Live price → `STATUS.md` (10/30 15:43 ET intraday $76.03, +0.09% vs EV).
 **Thesis:** v2.4 (dated 2026-08-20); Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 / PT $52–76**; composite 13/25 (V1a 1, V1b-broadening 2, V1b-magnitude 4, V3 3, V4 3; V2 5/5 historical, excluded). **Unchanged.** The re-score is owed right after the 10-Q grade.
 **Domain:** issuer evidence and frozen grading. Funding/cohort/severity and the price guards are REGINALD's; structure and position management are TERRY's and Will's.
 
