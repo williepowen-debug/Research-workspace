@@ -1,8 +1,8 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟠 One wave trigger FIRED (CISA KEV, 10/26). An unnamed successful compromise is now reported; no named financial victim.
+**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), no named financial victim. Off-wave: Binance confirms a theft (est. ~$6.3B impact, ~$3B frozen); no bank or mapped supplier touched.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-10-29 14:44 EDT (session closed) | STATUS commit: `556ecdd909d65bc0d2279693640d0bf795656e2b`
+**As of:** 2026-10-30 09:2x EDT (spawned session, DOCKET L871) | STATUS commit: `5fb0274687dde8120a462ca40f0c86f0fc99c711`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -11,6 +11,8 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| PROME / LIQUID / HENRY | Binance 10/29 (CYB-INC-055, NO-OWNER class): own notice ~$6.3B est. impact, ~$3B frozen, withdrawals off on all 1,447 pairs (13:07Z), deposits up; Tether/Circle freezes verified on-chain (USDC $823.00M, USDT $1,350.46M traced) with no issuer notice; TRM private DPRK attribution only | P2 | LIQUID: freeze needs no T-bill sale; redemption test at withdrawal reopen (~11/02). HENRY: crypto equities. Not a CHK event (CHK-40 registered) |
+| SAM / LIQUID | GMO Onamae: issuer confirms ~JPY 8B extortion demand (10/21) and published data (10/27); condolence payment, no amount | P2 | Japan trading-access consequence is SAM's |
 | REGINALD | L812 re-check 10/29: rows 3 and 8 NOT-FIRED. One US credit union paused digital banking ~24h as a precaution (CYB-INC-046); payments up; YELLOW under the pre-registered band | P2 | Context only; no bank credit or deposit channel established |
 | VULCAN / HENRY | Palo Alto advisory (upd 10/29): "Active exploitation has been observed" on its management interface, Critical since 10/27; Dream reports an unnamed firewall compromise chain (CYB-INC-047, VENDOR CLAIM) | P2 | Row 9 vector-vendor leg is theirs to grade; CYPHER grades no price |
 | VULCAN | Node2Shell CVE-2026-111497 (AI-found) in CISA KEV 10/27 under Google Brotli (CYB-INC-027 CONFIRMED at the flaw level) | P2 | AI-found flaw exploited within 6 days of the fix; off the PHP2Shell root |
@@ -26,9 +28,12 @@
 | Dream | Correction or retraction | 11/04 | Two earlier firm claims in this wave were withdrawn or corrected | A retraction drops CYB-INC-047 back to a lead |
 | ConnectWise | Restoration completion | 11/04 | Phased restoration only began 10/28 | MSP availability verdict |
 | REGINALD | Boundary reply | Its next session | 1 of 11 still outstanding | Owner amendments only on an actual reply |
+| Binance | Withdrawal resumption, post-mortem, Proof of Reserves | 2026-11-02 check | ~$3.3B not frozen by Binance's own figures; reopen is the redemption and solvency test | Still suspended past 11/02 -> VX-02 crypto-venue boundary question to PROME |
 | HENRY | Equity persistence grade incl. PANW as vector vendor (VULCAN declined the price leg; scope with PROME) | 2026-11-18 | Row 9 | Owner-graded thermometer |
 
 ## VIEW
+
+- Binance (10/29, off-wave) shows that the stablecoin issuers worked as a kill switch: Tether and Circle froze the attacker's Ethereum balances 37–41 minutes after the first drain. That is the control working, not a chokepoint failing. The US-finance risk sits at the issuer itself (its mint and freeze keys, its reserve custodian); it is now map row CHK-40, with nothing current touching it. Do not relay "$5B hack" or "$6.3B stolen": Binance says "impact", and about half of it is frozen.
 
 - The MSP route into banks has carried real traffic: an August 2026 N-able N-central flaw (NYDFS 8/11 alert: compromised MSPs used to move into customers' networks; impact on "a limited number" of regulated firms per a NYDFS spokesperson, not the letter) (CYB-INC-051). Bank-supplier incidents run at about one a month in 2026 (KB-CYP-076). None is wave-rooted.
 
