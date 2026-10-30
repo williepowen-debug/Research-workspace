@@ -1,6 +1,7 @@
 # CREED BOARD/MAIL LOG — every mail item CREED has read, with its reasoned disposition.
 # Created 2026-07-27 (adopted from the SHADE/BROCK fleet pattern). Fleet-standard 5-col schema.
 # disposition vocabulary: acted | noted | info-only | killed | dup | provenance
+# LEGACY tokens on older rows (declared 2026-10-30, DAEDALUS profile-refresh item 13; rows NOT rewritten): read-owed (read deferred; each has a later closing row) · acted-corrected / acted-with-correction / corrected (acted, and the sender's figure was corrected) · delivered / filed / logged (an outbound or filing record) · adopted (case or row adopted) · triaged · superseded · read · no-op-verified · disposition · and 5 rows with a BLANK token (pre-schema). New rows use only the six tokens above.
 #   acted     = changed a score, a rail, a routing decision, or forced a correction
 #   noted     = absorbed as mechanism/precedent; no score moved
 #   info-only = read, adjacent, another agent owns the action
@@ -260,3 +261,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-30T20:31:08Z	2026-10-28_from-PROME_egbn-dossier-pointer	noted	PROME	Read at boot 10/30. Dead pointer at analysis/2026-09-27_nano-banc-collateral-read.md:103 -> qualify to AGENTS/REGINALD/... OWED one-line fix. Not started.
 2026-10-30T20:31:08Z	2026-10-30_from-DAEDALUS_profile-refresh	noted	DAEDALUS	Read at boot 10/30. L4/H retained, L5 held on items 1-4 (read-cap rotation x4, selfcheck check 1 blind, THRESHOLDS FROZEN-by-prose, HOMER packet undispositioned); items 5-13 owe dispositions. Not started; awaiting Will's go.
 2026-10-30T20:31:08Z	SIG-W-20261029-024	noted	WALTER	Read at boot 10/30. Four named cases (540 W Madison, Salesforce Tower Indy, Moxy Oakland, Royal Sonesta Mpls) + Sep office payoff 12.79% of $516.9M (SECONDARY via CRE Daily). Case intake OWED. Not started.
+2026-10-30T21:17:21Z	2026-10-28_from-HOMER_mf-named-cases-routing	acted	HOMER	fleet_links on 132/162/165; cases 167-170 adopted after verification (S2 Fund I folded into 170, not a 2nd row); 5 corrections packeted to HOMER (keys-handed-back unsourced; $400M = equity; DFW/Phoenix = REIT; report dates; Trepp SASB labels).
+2026-10-30T21:17:21Z	2026-10-28_from-PROME_egbn-dossier-pointer	acted	PROME	Pointer qualified at nano-banc read :103 + 2 sibling REGINALD pointers in WQ312 file :36 (fix by pattern). Committed 37c154d24.
+2026-10-30T21:17:21Z	2026-10-30_from-DAEDALUS_profile-refresh	acted	DAEDALUS	Items 1-4 DONE (rotation, selfcheck re-falsified, THRESHOLDS LIVE, HOMER + closeout 6b); 5-7, 9-12 DONE; 8 partly contested -> Will/PROME; 13 mixed. Reply AGENTS/DAEDALUS/inbox/2026-10-30_from-CREED_profile-refresh-dispositions.md.
+2026-10-30T21:17:21Z	SIG-W-20261029-024	acted	WALTER	4 cases adopted 171-174 after verification (540 W Madison + Salesforce Tower at trust 10-Ds; Moxy + Sonesta trade-press tier); payoff by type -> KB-093 (office 12.79% of $516.9M re-read by CREED).

@@ -12,7 +12,7 @@
 # The gap between effective_date and fired_date is the DETECTION LAG and is recorded deliberately, never smoothed.
 #
 # Cadence: EVENT-DRIVEN
-# Last re-pull ATTEMPTED: 2026-09-26
+# Last re-pull ATTEMPTED: 2026-10-30 -- T-08b partial look (BXMT Q3, KB-091; not re-graded, census 5 of 11). PRIOR: 2026-10-28 (S8a re-run -11.33; T-06b gate re-census, still 1; T-06 forced-sale census, not a cluster) · 2026-10-21 (Trepp September graded: T-01a leg 1 of 2, T-01b not fired; S8a re-anchored). No new fire since T-08a. (This clock read 2026-09-26 until 2026-10-30, DAEDALUS item 12.) PRIOR clock: 2026-09-26
 # *** WHY THIS BLOCK EXISTS (added 2026-09-02, closing DAEDALUS's 2026-08-28 wiring-sweep item 2). ***
 # CREED filed a false-positive complaint against ledger_staleness.py --nudge on 2026-08-27: an append-only
 # EVENT ledger fires "N STATUS-writes behind" forever, because a fire ledger with nothing to add is CORRECT,

@@ -409,3 +409,18 @@ HENRY's `evals/README.md` draws a distinction no other agent states: **a princip
 ## 2026-09-27 — `analysis/` folder created (commissioned reads)
 
 **Structural change:** new folder `AGENTS/CREED/analysis/`, first file `2026-09-27_nano-banc-collateral-read.md`, at the path PROME's commissioning packet named (`17a205519`). **Why a new folder rather than `research/`:** `research/` holds CREED's own source packs and trails (REFRESH_*, news sweeps, the 9/26 maps). A commissioned read answers another desk's asks, cites that desk's shared figure, and is graded by the commissioner's consumer read, so it is a different object. Indexed in `README.md` §Commissioned analyses. Also: a research-agent notes file committed verbatim under `research/` for provenance (read in full before commit). **Pointers moved in the same edit:** `CLAUDE.md` step 6.1's catch-up example and `README.md` 2b now name `catchups/2026-09-27.md`.
+
+---
+
+## 2026-10-30 — DAEDALUS profile-refresh structural fixes (Will-directed sweep)
+
+**Structural changes (all CREED-owned; no band, route or authority moved):**
+- **`thesis/MECHANISMS.md` created** — the Mechanism Map moved verbatim out of THESIS (stable reference, not a boot read; THESIS links it). New rotation archives: `archive/STATUS_ROTATION_2026-10-30.md`, `archive/COVERAGE_HISTORY_2026-10-30.md`, `thesis/THESIS_HISTORY_2026-10-30.md`; `notes/VX_NOTES.md` gained §VX-SOURCES (full Trepp citations) and §Header history.
+- **Closeout protocol amended (charter):** step **6b** re-list `inbox/` + `inbox/WALTER/` immediately before the closeout commit; step **8c** one CHECKS line per closeout in the catch-up, SKIPPED steps named.
+- **`creed_selfcheck` check ①** is now line-scoped (THRESHOLDS: the trigger's own row) and negation-aware. **Why:** the file-level `\bFIRED\b` search matched inside "NOT FIRED", so the no-marker branch could never fail. Falsified on 3 mutations before adoption.
+- **`threshold_scan`** recognises a graded sustain leg (`🟠 LEG k/n`) only when the THRESHOLDS state cell names that leg, the same value and the same period tag; anything else falls back to TRIPPED (fail closed). **Why:** a standing false TRIPPED at every boot trains the reader to override the scan's loudest line.
+- **`registry/THRESHOLDS.tsv` header:** `# Status: LIVE` + two-clock line; line 5 reworded so the fleet staleness reader no longer classifies the live registry as a dead FROZEN ledger.
+- **README:** boot order is no longer restated (points at the charter's Canonical Boot Order — a second list had drifted).
+- **`board_log.tsv`:** legacy disposition tokens declared in the header; rows not rewritten.
+
+**Not done, and why:** `registry/kernel_staged/README.md` line 4 is stale but the directory is byte-frozen by its own header — correction recorded in `README.md`. Charter slimming (DAEDALUS item 8) is a proposal for Will, not a sweep edit.

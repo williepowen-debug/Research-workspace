@@ -86,3 +86,15 @@
 
 Sources: EDGAR accessions 0001628280-26-067907 (KREF Q3), 0001628280-26-049023 (KREF Q2), 0001630472-26-000031 (TRTX), 0001717547-26-000072 (BRSP), 0000921895-26-002666 (BRSP 13D), 0001577670-26-000050 / -000055 / -000032 (LADR), 0001562528-26-000035 / -000025 (FBRT), 0001193125-26-424253 (ARI), 0001628280-26-065542 / -063051 (ACRE), 0001703644-26-000038 (GPMT), 0001628280-26-063725 (RC), 0001104659-26-114127 (LFT), 0001682220-26-000067 (SACH); XBRL companyfacts.
 Web: https://finviz.com/news/400834/apollo-commercial-real-estate-finance-inc-declares-initial-cash-liquidating-distribution ; https://finviz.com/news/400067/blackstone-mortgage-trust-announces-third-quarter-2026-earnings-release-and-conference-call ; https://finviz.com/news/401414/starwood-property-trust-announces-date-for-third-quarter-2026-earnings-release-and-conference-call ; https://finviz.com/news/407416/ares-commercial-real-estate-corporation-schedules-earnings-release-and-conference-call-for-the-third-quarter-ended-september-30-2026 ; https://www.earningswhispers.com/stocks/nref ; https://www.earningswhispers.com/stocks/rc
+
+---
+
+## Addendum 2026-10-30 — BXMT reported (census now 5 of 11)
+
+**Source:** BXMT 8-K 2026-10-29 (acc 0001061630-26-000099; EX-99.1, EX-99.2) — BVPS, dividend and EPS read by CREED at sec.gov 10/30 (PRIMARY-READ); 10-Q (acc 0001061630-26-000097) read by CREED's verifier 10/30. Recorded as `KB-CREED-091`.
+
+| Ticker | GAAP BVPS 6/30 → 9/30 | Reserve-and-D&A-neutral (DERIVED) | Q4 dividend vs Q3 | Credit events |
+|---|---|---|---|---|
+| BXMT | $19.31 → $17.06 (**−11.7%**) | $22.50 → $21.63 (−3.9%) | **$0.30 vs $0.47 (−36%) — CUT** | CECL $410M → $606M; 6 newly impaired loans $787.8M (5 office, 1 hotel); $63.9M HFS mark on 8 loans (6 office, 2 MF); new REO Richmond CA mixed-use $82.9M (deed-in-lieu); charge-offs $6.9M |
+
+**Count after BXMT:** reporters 5 of 11; GAAP decliners 3 of 5 (BXMT −11.7, KREF −1.0, TRTX −0.9); **erosion > 3%: BXMT only**; dividend cuts in the cohort **5 of 11** (`VX-10.01`). **`CREED-T-08b` NOT re-graded** — erosion is one name, not cohort-wide; most of BXMT's drop is reserve build plus a held-for-sale mark, not realized charge-offs (adjudicate 'realized' at the full census, not on the cleanest leg). Still to report: NREF Thu 11/5 (company release via repost, SECONDARY), STWD + ACRE Fri 11/6, RC and GPMT undated. ⚠️ No covenant amendment found; TNW headroom is not computable from GAAP equity — do not cite "$38M of headroom".

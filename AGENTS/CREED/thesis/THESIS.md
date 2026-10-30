@@ -64,7 +64,7 @@ S5 is **HOMER-owned** (applied 7/27; cite `AGENTS/HOMER/STATUS.md`, never a seco
 
 **Discipline on 8b (all live):**
 1. **Separate lender ECONOMICS from CREDIT LOSS.** ARI exiting at 99.7% (economics) is not KREF reserving against risk-5 credits (credit loss). ARI's clearing is evidence *against* "marks are fictional" even as its exit is evidence *for* credit withdrawal.
-2. **Check corporate actions before reading a price.** ARI printed −33.4% on 7/16 on a $3.75 return of capital. ARI's first liquidating distribution will print the same way.
+2. **Check corporate actions before reading a price.** ARI printed −33.4% on 7/16 on a $3.75 return of capital; its $4.10 liquidating distribution (ex 10/30) prints the same way.
 3. **Count the cohort, not the headline.** 4 of 11 cut or liquidating, 7 held (9/26): selective, not a cascade.
 
 ---
@@ -102,6 +102,8 @@ Would weaken the bear read:
 - FDIC bank CRE PDNA improving while reserve coverage stabilizes.
 - Transaction volume and price discovery improving without forced-sale discounts.
 - Funding/rates easing enough to refinance low-debt-yield cohorts.
+
+**State, 2026-10-30:** none met except FDIC Q2 (PDNA down, coverage up; caveats above; Q3 ~late Nov). CMBS DQ 8.02 · office DQ 12.16 / SS 16.85 [Sep] · Sep payoff 57.98% (office 12.79%, SECONDARY) · distress sales +26.4% 9M (`KB-078`) · 10y 5.05%.
 
 **Live counter-signals as of 2026-10-28** (10/28 additions marked 🆕; the rest carried from 9/30):
 - 🆕 **Office leasing recovering in specific markets:** SF availability 27.2% vs 33.6% a year earlier on AI-tenant leasing; Manhattan availability 12.4% (Colliers Q3). Local, not national (`KB-CREED-079`).
