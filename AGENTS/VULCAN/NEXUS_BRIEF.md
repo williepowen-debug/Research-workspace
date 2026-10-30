@@ -2,36 +2,33 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-10-29T13:48:14-04:00 | **STATUS commit:** 4a75685eb
-**Variant:** FULL. Will-launched session closed BEFORE Amazon's 10/29 print: memory test graded (S2 2), cluster three of four with Amazon's grading rule committed in advance, L800 re-cut on DEWEY's method, GE Vernova/Vertiv power read. AMZN grade, EXIT rewrite and the L800 AMZN row are owed by 10/30.
+**As of:** 2026-10-30T09:19:50-04:00 | **STATUS commit:** bb7d2b6b3
+**Variant:** FULL. PROME-spawned L800 second leg: Amazon graded at the primary (capex HELD), §4b RESOLVED NO-VERDICT, EXIT_PROTOCOL rewritten with a §4c successor, L800 AMZN row filled, MSFT bond flex checked. Friday post-close slots (Mag7 8, GPU 8, S2 row) are ARMED, not run.
 
 ## CROSS-DOMAIN
 
 | Desk | Material finding and limit | Source |
 |---|---|---|
-| HENRY / CARL | Pre-stated hynix/Samsung memory test GRADED AMBIGUOUS (consumer-only), S2 stays 2: no server order cuts; 4Q DRAM bits guided up (hynix +mid-20%, Samsung +mid-to-high teens); no price-down guide; 2027 HBM contracted. Both name PC/mobile unit declines on memory cost. hynix Q3 net ₩39.8T (−57.7% QoQ) on FX/valuation losses, operating ₩83.3T. Near miss on the older 10/15 wording recorded. | KB-326/327; hynix 6-K 10/28 (primary), transcripts T2 |
-| VIOLET / HENRY | §4b cluster three of four: META raise rewarded; MSFT calendar-2026 capex ≈ $170B (supply-timing trim, not a YoY cut); GOOGL guide held, stock −12.67% intraday 10/29. No management pressure citation. Confirm legs 0, falsify legs 1. AMZN decides by a rule committed before its print (79045befb). Alphabet's fall on an unchanged guide is recorded as a disagreement, not a leg. | KB-332; reports/2026-10-29_cluster-4b_prestatement.md |
-| BOND / LIQUID / BROCK / HENRY / PROME | L800 re-cut on DEWEY's own method (control replays −$186,456M): five-name 2026E **−$173.3B** pre-AMZN; MSFT CY26 −$5.9B headline / **+$14.9B cash basis**; GOOGL **−$42.1B** (wider). ⚠️ The 09:08 figures (MSFT −1.5/−26.1, GOOGL −31.6) used a different method; see the erratum. All five payers raise outside money; none pulled or flexed. | KB-328/331; recut.py |
-| WATT | GE Vernova gas backlog plus slots 116 → 122 GW (target ≥130), FCF guide $16–17B; Vertiv organic orders >100% YoY and a ~$1.45B behind-the-meter power acquisition (UIG). Supplier demand accelerating; no firm-capacity removal; S3 NOT FIRED. | KB-333; GEV/VRT 8-Ks 10/27–28 |
-| CYPHER / HENRY | PANW = vector vendor for row 9 on its own advisory; the price leg is outside VULCAN's charter (scope flagged to PROME). No AI-lab or neocloud victim. | KB-330; c24556e87 |
-| WALTER | Discovery/dedupe packet: three primary material omissions plus qualified supply/power and proposed-regulatory findings. Prior Meta/SpaceX/Anthropic work not recounted; March AWS events rejected as fresh October news. | Report; WALTER packet |
-| BROCK / LIQUID | Nebius entered $3.5B Citi senior-secured facility October 22; 364-day maturity, initial SOFR+275bp, contractual increase up to 350bp plus adjustments. Draws not disclosed. Funding-access counterevidence with refinancing risk; step-up is not launch flex or CRWV comparable. | KB-300; bounded owner packets |
-| WATT | PG&E September pipeline 12,870 MW and separate 174 MW online since 2024; deferrals beyond initial 1.8 GW. No named contracted firm-capacity removal. Qualified Bloom first-power block is not commissioned compute/full-campus MW; NERC registry petition not approval. | KB-301/303/306; WATT packet |
-| HENRY / CARL | Micron original October 21 slide16 rejects 4F² for complexity/cost; extending 6F²/3D roadmap, directional with no dates. This counters automatic cheap-bit inference from CXMT; does not prove rival failure or a memory-demand cut. Existing October 28–29 test unchanged. | KB-302; WALTER route |
-| ZHAO / HAWK | China NAND process upgrades reported with issuer comments to Reuters; full licenses/output unresolved. TSMC rare-earth substitutions reported, no measured lost output. Tech relay extension claim lacks instrument; November 10 clocks unchanged. Treasury October 26 outbound rule proposed. | KB-304/305/307; ZHAO packet |
-| VIOLET | No new capex cut, useful-life event, concentration sample or repricing claim. Payer/borrower and delivery risks remain mixed. No new threshold or volatility assertion. | KB-300..307 |
+| VIOLET / HENRY | **§4b RESOLVED NO-VERDICT:** META raise rewarded; MSFT trim to ≈ $170B CY2026 (up YoY); GOOGL held; **AMZN held ≈ $220B ("We continue to expect…", 8-K)**, 2027 "meaningfully more" (T2). Confirm 0, falsify 1. ⚠️ GOOGL (−12.6%) and AMZN (−7.30% after hours) fell on HELD guides: the returns-case in spirit, recorded not counted, confounded with revenue/EPS misses. No YoY capex cut anywhere. §4c successor at the Q4 2026 cluster (~2027-02-05). | KB-334/335; Amazon 8-K Ex99.1 acc 0001018724-26-000038 |
+| HENRY / BOND / LIQUID / BROCK / PROME | L800 on DEWEY's method: **AMZN −$65.8B**; five-name 2026E **−$169.6B** mixed basis (−$148.7B with MSFT cash basis; DEWEY −$186.5B). Amazon TTM FCF −$42.357B (the "−$42.4B" headline is TTM). ⚠️ Method excludes Amazon's $63.8B 9M acquisitions/lab investments. No funding-forced cut in the five. | KB-336; recut_run_2026-10-30.txt |
+| LIQUID / BROCK | **Amazon 10-Q (10/30): NEW secured supplier Loan Facility up to ≈ $80.0B** (draws Q1 2027–Q3 2028, five-year, security in purchased assets; supplier unnamed); $17.5B term loan drawn Sept; $115.1B long-term debt raised in 9M. **MSFT $25.0B priced +25 to +105bp, 2066 ≈ 30bp inside guidance** (FWP primary; guidance T2). Hubbard (Anthropic-leased) $5–7B HY take-out shelved, bridge kept = NOT SCORED. No S5 letter. | KB-337..339; packets 10/30 |
+| DEWEY | Amazon's 10-Q is filed (acc 0001018724-26-000040); VULCAN's AMZN row was read from the 8-K text, not XBRL — replay welcome. | packet 10/30 |
+| HENRY / CARL | Memory stays 2 (AMBIGUOUS, graded 10/29 with Samsung's 10/29 KST call). Amazon names "heightened component costs like memory" = cost-push into capex, not a demand roll. | KB-326; T2 call |
+| ZHAO / HAWK | MOFCOM notice 48 proposes export controls on 23 Chinese AI technologies (comments to 11/15): outbound, not a chip cutoff; 11/10 clocks stay ZHAO's. | KB-340 |
+| WATT | GE Vernova gas 116 → 122 GW, Vertiv orders >100% YoY (10/28); Texas permit pause behind the Hubbard shelving is grid-audit-driven (ERCOT, ~mid-December). No firm-capacity removal; S3 NOT FIRED. | KB-333/339 |
+| PROME | Disinflationary-productivity falsifier ANSWERED in EXIT §7: macro form declined (no inflation instrument; HENRY's domain); firm-level form "five-name gap ≥ $0 with capex held or raised" PROPOSED (needs a word). | EXIT_PROTOCOL §7 |
 
 ## VIEW
 
-The payers are raising money early rather than cutting. Microsoft trimmed calendar-2026 capex to about $170B because third-party capacity arrived late. On DEWEY's method its 2026 cash gap is positive, yet it launched a bond. Alphabet's gap widened to about −$42B, and its stock fell about 12.7% on an unchanged guide. That is the returns-case worry in spirit, but not on the registered letter. The supplier tier is accelerating: GE Vernova gas commitments rose to 122 GW, Vertiv orders more than doubled, and memory makers guide more DRAM bits with 2027 HBM contracted. The only demand loss memory makers name is phones and PCs priced out by memory costs. That is price rationing at the consumer end, not a server-led roll. The developer tier remains where the chain breaks first (S5 fired, n=2); nothing today added a third event.
+The payers are not cutting: Amazon held this year at about $220B and says 2027 will be higher, Alphabet repeated a significant 2027 increase, and Microsoft's trim is supplier timing. What changed is the market's reception. The July cluster rewarded raises; October punished two held plans (Alphabet −12.6%, Amazon −7.3% after hours). On the pre-registered letter that is NO-VERDICT, and both moves carry other misses, but it is the clearest returns-case signal of the year. The payers fund easily (Microsoft inside talk, Amazon $115B of debt) and are now adding secured, purchase-linked supplier credit, which ties vendor balance sheets to hyperscaler plans. The developer tier is still where deals stall (Hubbard). Financing remains the only fired channel; composite 15/25.
 
 ## CALIBRATION
 
-17 predictions registered, 12 resolved, five OPEN; none due. The hynix/Samsung test graded on its 10/23 pre-stated text; the earlier 10/15 wording would have read the PC/mobile language more strictly, and the disagreement is recorded (L-85). The 09:08 L800 report misdescribed DEWEY's method (L-83); the correction widens Alphabet's gap and turns Microsoft's cash basis positive. §4b graded on the letter with Alphabet's fall recorded beside it, not counted.
+17 predictions registered, 12 resolved, five OPEN; none due. §4b graded on its 9/29 letter and a 10/29 decision table written before Amazon printed; the held-guide falls were not counted after the fact. The carrier FCF figure was a TTM number (L-87); the DOCKET's Samsung date disagreed with the desk register (L-88).
 
 ## NEXT DECISION POINT
 
-Amazon's Q3 release after the 10/29 close decides §4b on a rule committed at 13:37 ET. A raise that is rewarded after hours ⇒ FALSIFIES the fragility read for this cluster. A YoY cut or a pressure citation ⇒ CONFIRMS. Otherwise NO-VERDICT. The EXIT_PROTOCOL rewrite and PROME's disinflationary-productivity falsifier follow the grade; the L800 AMZN row is due 10/30. No Will decision needed.
+The 10/30 post-close slots (Mag7 slot 8, GPU reading 8, S2 row). Then the proposed §4c amendment and firm-level falsifier await PROME/Will's word; neither is adopted. No Will decision is required to keep the rail live.
 
 ## WATCH (next 2–4 weeks and beyond) — ⏱️ THE CLOCK
 
@@ -39,8 +36,6 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 
 | When | What | Whose |
 |---|---|---|
-| 2026-10-30 | EXIT_PROTOCOL next dated REWRITE — on the FIRST of {the §4b successor flip resolving at the hyperscaler cluster · the 11/15 backstop} — plus PROME's disinflationary-productivity falsifier (open since 8/21) | PROME |
-| 2026-10-30 | HYPERSCALER Q3 CLUSTER (MSFT · GOOGL · META · AMZN) — the SUCCESSOR bidirectional flip (EXIT_PROTOCOL §4b) | VULCAN, VIOLET, HENRY |
 | 2026-10-30 | GPU-rental panel reading 8 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
 | 2026-10-30 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 8 of 8 (S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-11-06 | GPU-rental panel reading 9 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
@@ -68,4 +63,6 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 | 2026-12-15 | ORCL Q2 FY27 10-Q — thesis-kill LEG 4 reading 1 of 2 (off-BS DC leases not yet commenced) | VULCAN, LIQUID, BROCK |
 | 2026-12-18 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 15 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-24 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 16 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
+| 2027-02-05 | HYPERSCALER Q4 2026 CLUSTER (MSFT · GOOGL · META · AMZN) — successor bidirectional flip EXIT_PROTOCOL §4c | VULCAN, VIOLET, HENRY |
+| 2027-02-05 | EXIT_PROTOCOL next dated REWRITE — FIRST of {§4c resolves at the Q4 2026 cluster · 2027-02-15 (VULCAN-10 / thesis-kill leg 1)} | PROME |
 | 2027-03-31 | THESIS-KILL LEG 4 window closes — financing structure de-risks? (EXIT_PROTOCOL §1) | VULCAN, PROME |
