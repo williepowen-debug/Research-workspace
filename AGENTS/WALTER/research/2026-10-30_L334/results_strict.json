@@ -1,0 +1,562 @@
+{
+ "window": [
+  "2026-09-12",
+  "2026-10-23T23:59:59Z"
+ ],
+ "rows": 2444,
+ "results": [
+  {
+   "desk": "AEOLUS",
+   "role": "ACTION",
+   "n": 11,
+   "cited": 6,
+   "rate": 0.545
+  },
+  {
+   "desk": "AEOLUS",
+   "role": "INFO",
+   "n": 13,
+   "cited": 4,
+   "rate": 0.308
+  },
+  {
+   "desk": "ALL",
+   "role": "ACTION",
+   "n": 828,
+   "cited": 269,
+   "rate": 0.325
+  },
+  {
+   "desk": "ALL",
+   "role": "INFO",
+   "n": 1616,
+   "cited": 151,
+   "rate": 0.093
+  },
+  {
+   "desk": "BOND",
+   "role": "ACTION",
+   "n": 29,
+   "cited": 18,
+   "rate": 0.621
+  },
+  {
+   "desk": "BOND",
+   "role": "INFO",
+   "n": 56,
+   "cited": 37,
+   "rate": 0.661
+  },
+  {
+   "desk": "BRENT",
+   "role": "ACTION",
+   "n": 105,
+   "cited": 3,
+   "rate": 0.029
+  },
+  {
+   "desk": "BRENT",
+   "role": "INFO",
+   "n": 106,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "BROCK",
+   "role": "ACTION",
+   "n": 41,
+   "cited": 18,
+   "rate": 0.439
+  },
+  {
+   "desk": "BROCK",
+   "role": "INFO",
+   "n": 83,
+   "cited": 6,
+   "rate": 0.072
+  },
+  {
+   "desk": "CARL",
+   "role": "ACTION",
+   "n": 42,
+   "cited": 6,
+   "rate": 0.143
+  },
+  {
+   "desk": "CARL",
+   "role": "INFO",
+   "n": 6,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "CATO",
+   "role": "ACTION",
+   "n": 1,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "CORAL",
+   "role": "ACTION",
+   "n": 24,
+   "cited": 13,
+   "rate": 0.542
+  },
+  {
+   "desk": "CORAL",
+   "role": "INFO",
+   "n": 9,
+   "cited": 1,
+   "rate": 0.111
+  },
+  {
+   "desk": "CREED",
+   "role": "ACTION",
+   "n": 17,
+   "cited": 5,
+   "rate": 0.294
+  },
+  {
+   "desk": "CREED",
+   "role": "INFO",
+   "n": 26,
+   "cited": 1,
+   "rate": 0.038
+  },
+  {
+   "desk": "CRUISE",
+   "role": "ACTION",
+   "n": 5,
+   "cited": 5,
+   "rate": 1.0
+  },
+  {
+   "desk": "CRUISE",
+   "role": "INFO",
+   "n": 3,
+   "cited": 3,
+   "rate": 1.0
+  },
+  {
+   "desk": "CYPHER",
+   "role": "ACTION",
+   "n": 12,
+   "cited": 3,
+   "rate": 0.25
+  },
+  {
+   "desk": "CYPHER",
+   "role": "INFO",
+   "n": 4,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "DAEDALUS",
+   "role": "INFO",
+   "n": 2,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "DEWEY",
+   "role": "ACTION",
+   "n": 2,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "DEWEY",
+   "role": "INFO",
+   "n": 9,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "FALCON",
+   "role": "ACTION",
+   "n": 82,
+   "cited": 59,
+   "rate": 0.72
+  },
+  {
+   "desk": "FALCON",
+   "role": "INFO",
+   "n": 20,
+   "cited": 5,
+   "rate": 0.25
+  },
+  {
+   "desk": "FERT",
+   "role": "ACTION",
+   "n": 4,
+   "cited": 2,
+   "rate": 0.5
+  },
+  {
+   "desk": "FERT",
+   "role": "INFO",
+   "n": 10,
+   "cited": 1,
+   "rate": 0.1
+  },
+  {
+   "desk": "FLG",
+   "role": "ACTION",
+   "n": 4,
+   "cited": 3,
+   "rate": 0.75
+  },
+  {
+   "desk": "FLG",
+   "role": "INFO",
+   "n": 4,
+   "cited": 2,
+   "rate": 0.5
+  },
+  {
+   "desk": "GIBBS",
+   "role": "ACTION",
+   "n": 3,
+   "cited": 1,
+   "rate": 0.333
+  },
+  {
+   "desk": "GIBBS",
+   "role": "INFO",
+   "n": 12,
+   "cited": 1,
+   "rate": 0.083
+  },
+  {
+   "desk": "HANS",
+   "role": "ACTION",
+   "n": 38,
+   "cited": 7,
+   "rate": 0.184
+  },
+  {
+   "desk": "HANS",
+   "role": "INFO",
+   "n": 53,
+   "cited": 5,
+   "rate": 0.094
+  },
+  {
+   "desk": "HAWK",
+   "role": "ACTION",
+   "n": 22,
+   "cited": 9,
+   "rate": 0.409
+  },
+  {
+   "desk": "HAWK",
+   "role": "INFO",
+   "n": 142,
+   "cited": 18,
+   "rate": 0.127
+  },
+  {
+   "desk": "HENRY",
+   "role": "ACTION",
+   "n": 46,
+   "cited": 4,
+   "rate": 0.087
+  },
+  {
+   "desk": "HENRY",
+   "role": "INFO",
+   "n": 251,
+   "cited": 4,
+   "rate": 0.016
+  },
+  {
+   "desk": "HOMER",
+   "role": "ACTION",
+   "n": 23,
+   "cited": 1,
+   "rate": 0.043
+  },
+  {
+   "desk": "HOMER",
+   "role": "INFO",
+   "n": 23,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "LABOR",
+   "role": "ACTION",
+   "n": 10,
+   "cited": 8,
+   "rate": 0.8
+  },
+  {
+   "desk": "LABOR",
+   "role": "INFO",
+   "n": 15,
+   "cited": 3,
+   "rate": 0.2
+  },
+  {
+   "desk": "LIQUID",
+   "role": "ACTION",
+   "n": 56,
+   "cited": 10,
+   "rate": 0.179
+  },
+  {
+   "desk": "LIQUID",
+   "role": "INFO",
+   "n": 183,
+   "cited": 6,
+   "rate": 0.033
+  },
+  {
+   "desk": "MARCO",
+   "role": "ACTION",
+   "n": 3,
+   "cited": 2,
+   "rate": 0.667
+  },
+  {
+   "desk": "MARCO",
+   "role": "INFO",
+   "n": 10,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "MIDAS",
+   "role": "ACTION",
+   "n": 4,
+   "cited": 2,
+   "rate": 0.5
+  },
+  {
+   "desk": "MIDAS",
+   "role": "INFO",
+   "n": 8,
+   "cited": 5,
+   "rate": 0.625
+  },
+  {
+   "desk": "NEXUS",
+   "role": "ACTION",
+   "n": 6,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "NEXUS",
+   "role": "INFO",
+   "n": 36,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "ORACLE",
+   "role": "ACTION",
+   "n": 1,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "ORACLE",
+   "role": "INFO",
+   "n": 9,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "OSPREY",
+   "role": "ACTION",
+   "n": 30,
+   "cited": 19,
+   "rate": 0.633
+  },
+  {
+   "desk": "OSPREY",
+   "role": "INFO",
+   "n": 25,
+   "cited": 8,
+   "rate": 0.32
+  },
+  {
+   "desk": "OTTO",
+   "role": "ACTION",
+   "n": 10,
+   "cited": 2,
+   "rate": 0.2
+  },
+  {
+   "desk": "OTTO",
+   "role": "INFO",
+   "n": 9,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "OZK",
+   "role": "ACTION",
+   "n": 6,
+   "cited": 1,
+   "rate": 0.167
+  },
+  {
+   "desk": "OZK",
+   "role": "INFO",
+   "n": 6,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "PROME",
+   "role": "ACTION",
+   "n": 2,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "PROME",
+   "role": "INFO",
+   "n": 1,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "RED",
+   "role": "ACTION",
+   "n": 23,
+   "cited": 2,
+   "rate": 0.087
+  },
+  {
+   "desk": "REGINALD",
+   "role": "ACTION",
+   "n": 39,
+   "cited": 4,
+   "rate": 0.103
+  },
+  {
+   "desk": "REGINALD",
+   "role": "INFO",
+   "n": 133,
+   "cited": 1,
+   "rate": 0.008
+  },
+  {
+   "desk": "SAM",
+   "role": "ACTION",
+   "n": 17,
+   "cited": 1,
+   "rate": 0.059
+  },
+  {
+   "desk": "SAM",
+   "role": "INFO",
+   "n": 81,
+   "cited": 1,
+   "rate": 0.012
+  },
+  {
+   "desk": "SHADE",
+   "role": "ACTION",
+   "n": 8,
+   "cited": 0,
+   "rate": 0.0
+  },
+  {
+   "desk": "SHADE",
+   "role": "INFO",
+   "n": 45,
+   "cited": 1,
+   "rate": 0.022
+  },
+  {
+   "desk": "VIOLET",
+   "role": "ACTION",
+   "n": 11,
+   "cited": 4,
+   "rate": 0.364
+  },
+  {
+   "desk": "VIOLET",
+   "role": "INFO",
+   "n": 59,
+   "cited": 6,
+   "rate": 0.102
+  },
+  {
+   "desk": "VULCAN",
+   "role": "ACTION",
+   "n": 59,
+   "cited": 37,
+   "rate": 0.627
+  },
+  {
+   "desk": "VULCAN",
+   "role": "INFO",
+   "n": 79,
+   "cited": 11,
+   "rate": 0.139
+  },
+  {
+   "desk": "WAL",
+   "role": "ACTION",
+   "n": 6,
+   "cited": 2,
+   "rate": 0.333
+  },
+  {
+   "desk": "WAL",
+   "role": "INFO",
+   "n": 6,
+   "cited": 1,
+   "rate": 0.167
+  },
+  {
+   "desk": "WATT",
+   "role": "ACTION",
+   "n": 11,
+   "cited": 6,
+   "rate": 0.545
+  },
+  {
+   "desk": "WATT",
+   "role": "INFO",
+   "n": 33,
+   "cited": 10,
+   "rate": 0.303
+  },
+  {
+   "desk": "YURI",
+   "role": "ACTION",
+   "n": 8,
+   "cited": 1,
+   "rate": 0.125
+  },
+  {
+   "desk": "YURI",
+   "role": "INFO",
+   "n": 22,
+   "cited": 1,
+   "rate": 0.045
+  },
+  {
+   "desk": "ZHAO",
+   "role": "ACTION",
+   "n": 7,
+   "cited": 5,
+   "rate": 0.714
+  },
+  {
+   "desk": "ZHAO",
+   "role": "INFO",
+   "n": 24,
+   "cited": 9,
+   "rate": 0.375
+  }
+ ]
+}
