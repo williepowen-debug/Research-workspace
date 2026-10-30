@@ -1,10 +1,15 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY tightened to 318bp [10/27] without REG-T-04 ever firing (peak 340); the widening was BANK-ABSENT and has partly reversed. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names, coverage down at 6 of 8 (a weak predictor on DEWEY's base rate); the Florida books hold on every read cell.
+**Status:** Concentrated bank risk. HY tightened to 314bp [10/28] without REG-T-04 ever firing (peak 340); the widening was BANK-ABSENT and has partly reversed. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-28 23:06 ET, Will-launched boot + catch-up (10/28), re-folded after the borrowing tests | STATUS commit: 12b8da085
+**As of:** 2026-10-30 09:15 ET, PROME-spawned DOCKET L801 decision + inbox drain (10/30) | STATUS commit: 4222ea74d
 
 ## CROSS-DOMAIN
+
+**October30 L801** (`reports/2026-10-30_L801/REPORT.md`):
+- **Coverage-decline leg DROPPED as a predictor** (weight zero, descriptive only). DEWEY: problem loans up AND coverage down preceded a ≥25bp charge-off jump within 4 quarters in **2 of 10 episodes vs 25% of all quarters**; in 2007–10 coverage change did not sort later losses (ρ −0.06) once the problem-loan rise was counted. ⚠️ ~3 loss cycles; CECL makes today's coverage look safer than history; 'collateral covers it' has a poor record at failed banks.
+- **Problem-loan leg KEPT** (7 of 10 up [10/23]; 2007–10 ρ +0.46). Coverage becomes a question about loans called safe on collateral: FLG $1,571M carries no allowance and its exits are now 87.5% payoff/disposition, 1.6% cure (FLG desk roll-forward). Graded by loss on exit at the FLG 10-Q (~Nov 6–9). No peer base rate for cure share exists (Y-14Q, non-public).
+- **No score, threshold or probability change.** The matrix coverage POINT (a level) stays frozen until the 11/07 S1-vs-S2 test. Q3 Call Reports not yet at FDIC (0 rows 10/30 09:09 ET). HY 314 [10/28], CCC/HY 4.16× on the denominator.
 
 **October28 catch-up** (`reports/2026-10-28_boot/REPORT.md`, commit `db025d223`):
 - **HY / REG-T-04 (DOCKET L818): NOT FIRED.** 338 → 330 → 318 [10/23–10/27]; BB and B lead the tightening, so no transmission widening. CCC/HY 4.15× rises on the denominator: no escalation (LIQUID owns re-entry).
