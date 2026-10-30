@@ -1,0 +1,195 @@
+{
+  "schema_version": "wq-record/0.1-draft",
+  "mode": "design-copy",
+  "wq_id": "551",
+  "title": "VULCAN — two proposals from the L800 Amazon leg (551.HELD / 551.FIRM)",
+  "record_revision": 1,
+  "registered_on": "2026-10-30",
+  "sources": [
+    {
+      "id": "row-registered",
+      "path": "PROME/WILL_QUEUE.md",
+      "commit": "1a32f5363259be9a986145e61a8bd138ab0701a1",
+      "locator": "§ OPEN, row beginning `| 551 |`",
+      "description": "The proposal as registered 09:22 ET by PROME (prome-a9) from VULCAN's L800 memo. The only commit touching the row before the ruling, so the text Will's rec was read from is this revision."
+    },
+    {
+      "id": "vulcan-memo",
+      "path": "PROME/inbox/processed/2026-10-30_from-VULCAN_L800-amzn-cluster-grade.md",
+      "commit": "1a32f5363259be9a986145e61a8bd138ab0701a1",
+      "locator": "the two proposals (HELD leg; firm-level falsifier)",
+      "description": "Originating desk memo; the proposals' full reasoning. Filed to processed/ in the registering commit."
+    },
+    {
+      "id": "ruled-record",
+      "path": "PROME/proposals/2026-10-30_wq551-495nport-RULED.md",
+      "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+      "locator": "Will verbatim line; table rows WQ-551.HELD and WQ-551.FIRM; Relays paragraph",
+      "description": "PROME's ruling record: Will's exact words, PROME's interpretation ('yes' = each row's standing rec as shown at 11:0x ET), encoder and verification duties."
+    },
+    {
+      "id": "row-done",
+      "path": "PROME/WILL_QUEUE.md",
+      "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+      "locator": "§ RECENTLY DONE, row beginning `| **551 — VULCAN two proposals`",
+      "description": "The legacy terminal row (whole WQ moved out of OPEN at the ruling, FIRM's deferral carried in its text)."
+    },
+    {
+      "id": "docket",
+      "path": "PROME/DOCKET.tsv",
+      "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+      "locator": "physical line 879 (L879: VULCAN encodes the §4c confirm leg; PROME verifies at the commit); physical line 834 (L834: DEWEY evidence-preserving XBRL replay — FIRM's prerequisite)",
+      "description": "Canonical dated obligations. L-numbers are stable row keys by the docket's citation convention."
+    },
+    {
+      "id": "vulcan-relay",
+      "path": "AGENTS/VULCAN/inbox/2026-10-30_from-PROME_WQ551-RULED-held-leg-counted-firm-deferred.md",
+      "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+      "locator": "whole packet",
+      "description": "Relay of the ruling to the encoding desk (carve-out ①). Delivery of the instruction, not evidence of the encode."
+    }
+  ],
+  "units": [
+    {
+      "id": "551.HELD",
+      "kind": "decision",
+      "proposer": "VULCAN",
+      "proposal": {
+        "revision": 1,
+        "question": "For VULCAN's §4c successor capex test (Q4 prints, late Jan–early Feb 2027), ALSO count a ≥5% after-hours fall on a HELD-or-raised guide in ≥2 prints as a confirm leg?",
+        "context": "Amazon HELD 2026 capex at ~$220B. The pre-registered October test (§4b) ended NO-VERDICT because its rule counts a stock falling only on a RAISE; Alphabet (−12.6%) and Amazon (−7.3%) fell on HELD guides and went uncounted — recorded as a disagreement, not counted. A frozen test rule changes, so the decision is Will's.",
+        "choices": [
+          {
+            "id": "A",
+            "label": "Add the confirm leg to §4c",
+            "meaning": "The §4c successor test also counts a ≥5% after-hours fall on a HELD-or-raised guide in ≥2 prints as a confirm leg.",
+            "consequence": "Written BEFORE the next test window, so no re-cutting of a frozen letter; §4b's NO-VERDICT stands and is never re-graded. VULCAN encodes the letter; PROME verifies the literal text at the commit. No money.",
+            "outcome": "approve"
+          }
+        ],
+        "recommendation": {
+          "action": "choose",
+          "option_id": "A",
+          "reason": "The October prints showed the frozen rule missed the market's actual reaction; the change is written before the next test, so nothing is re-cut."
+        },
+        "caveats": [
+          "The registered row named the recommendation A and no lettered alternative; 'do not add the leg' was the unstated alternative. This copy does not invent a B.",
+          "Never re-grades §4b — the October NO-VERDICT stands."
+        ],
+        "source_ids": [
+          "row-registered",
+          "vulcan-memo"
+        ],
+        "submission_block_reason": "Design copy; the unit is already ruled."
+      },
+      "timing": {
+        "needed_by": "2026-11-13",
+        "meaning": "Row needed-by as registered; the §4c letter must be written before the Q4 print window (late Jan–early Feb 2027), and VULCAN's next session carried the encode.",
+        "revisit_on": null,
+        "revisit_condition": null
+      },
+      "disposition": {
+        "state": "approved",
+        "basis": "Will's 'yes' on the row (11:10 ET), interpreted by PROME as approval of the standing rec A as shown; recorded in the ruling record, the RECENTLY DONE row, DOCKET L879 and the VULCAN relay.",
+        "source_ids": [
+          "ruled-record",
+          "row-done",
+          "docket",
+          "vulcan-relay"
+        ],
+        "ruling": {
+          "source_id": "ruled-record",
+          "verbatim": "551- yes",
+          "as_recorded_at": "2026-10-30 11:10 ET, in the PROME conversation window (same message as '495 - yes approved'; 549 held with a question, not ruled)",
+          "answered_proposal_revision": 1,
+          "selected_option_id": "A",
+          "proposal_source_ids": [
+            "row-registered"
+          ],
+          "snapshot_quality": "reconstructed",
+          "conditions": [
+            "Written before the §4c window; never re-grades §4b.",
+            "VULCAN encodes the literal rule text; PROME verifies at the commit (DOCKET L879)."
+          ]
+        }
+      },
+      "follow_through": [
+        {
+          "source_id": "docket",
+          "key": "L879"
+        }
+      ],
+      "supersedes_unit_id": null
+    },
+    {
+      "id": "551.FIRM",
+      "kind": "decision",
+      "proposer": "VULCAN",
+      "proposal": {
+        "revision": 1,
+        "question": "Add a firm-level falsifier: if the five-name hyperscaler funding gap (DEWEY method; −$169.6B at 10/30) closes to ≥0 over a year while capex is held or raised, the 'returns' worry is disproved?",
+        "context": "A new level/falsifier on VULCAN's thesis, so Will's. The instrument that would grade it (DEWEY's evidence-preserving XBRL replay, DOCKET L834) does not exist yet, and the DEWEY method omits $63.8B of Amazon lab stakes.",
+        "choices": [
+          {
+            "id": "A",
+            "label": "Add the firm-level falsifier now",
+            "meaning": "Register the year-long funding-gap falsifier as a VULCAN thesis letter.",
+            "consequence": "A new falsifier is live before its instrument exists; grading would rest on a method with a known $63.8B omission.",
+            "outcome": "approve"
+          }
+        ],
+        "recommendation": {
+          "action": "defer",
+          "option_id": null,
+          "reason": "A year-long falsifier needs DEWEY's XBRL replay (L834) to be the instrument first, and the method still omits $63.8B of AMZN lab stakes."
+        },
+        "caveats": [
+          "Deferral is not a decline: the proposal returns when its prerequisite lands.",
+          "The registered row named no lettered alternative for FIRM; 'defer' was the recommendation, not a choice label."
+        ],
+        "source_ids": [
+          "row-registered",
+          "vulcan-memo"
+        ],
+        "submission_block_reason": "Design copy; the unit is deferred on a condition, not awaiting an answer."
+      },
+      "timing": {
+        "needed_by": null,
+        "meaning": null,
+        "revisit_on": null,
+        "revisit_condition": "DEWEY's DOCKET L834 XBRL replay lands (PROME re-presents at L834's return)."
+      },
+      "disposition": {
+        "state": "deferred",
+        "basis": "Will's 'yes' on the row approved the standing rec, whose FIRM half was DEFER; recorded in the ruling record and the RECENTLY DONE row; VULCAN told in the relay. Not declined.",
+        "source_ids": [
+          "ruled-record",
+          "row-done",
+          "vulcan-relay"
+        ],
+        "ruling": {
+          "source_id": "ruled-record",
+          "verbatim": "551- yes",
+          "as_recorded_at": "2026-10-30 11:10 ET, in the PROME conversation window",
+          "answered_proposal_revision": 1,
+          "selected_option_id": null,
+          "proposal_source_ids": [
+            "row-registered"
+          ],
+          "snapshot_quality": "reconstructed",
+          "conditions": [
+            "Re-present when DOCKET L834 lands; the $63.8B AMZN lab-stake omission is named as a second reason."
+          ]
+        }
+      },
+      "follow_through": [
+        {
+          "source_id": "docket",
+          "key": "L834"
+        }
+      ],
+      "supersedes_unit_id": null
+    }
+  ],
+  "corrections": []
+}

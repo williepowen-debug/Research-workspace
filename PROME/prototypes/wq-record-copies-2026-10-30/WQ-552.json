@@ -1,0 +1,136 @@
+{
+  "schema_version": "wq-record/0.1-draft",
+  "mode": "design-copy",
+  "wq_id": "552",
+  "title": "BOOT.md rotation #3 (LOGREAD · NONNEG · BANNERS · MEMORIES)",
+  "record_revision": 1,
+  "registered_on": "2026-10-30",
+  "sources": [
+    {
+      "id": "row-registered",
+      "path": "PROME/WILL_QUEUE.md",
+      "commit": "a6ba1db408f62d8e4036fd7e1cdf7c4a6e6008f5",
+      "locator": "§ OPEN, row beginning `| 552 |`",
+      "description": "The proposal as registered 12:05 ET (prome-c5): four named work components (552.LOGREAD · 552.NONNEG · 552.BANNERS · 552.MEMORIES) and three lettered options A / B / C over them. Unchanged until the ruling."
+    },
+    {
+      "id": "ruled-row",
+      "path": "PROME/WILL_QUEUE.md",
+      "commit": "2071ae4e834e6d041e8765f9c6cf682f2e87f385",
+      "locator": "§ RECENTLY DONE, row beginning `| **552 — BOOT.md rotation #3`",
+      "description": "The ruling as recorded 12:17 ET: Will's exact words and time, 'all four units' restated."
+    },
+    {
+      "id": "plan-at-ruling",
+      "path": "PROME/proposals/2026-10-30_boot-rotation-3-PLAN.md",
+      "commit": "2071ae4e834e6d041e8765f9c6cf682f2e87f385",
+      "locator": "whole file as first written (pre-read draft: § Measurements, § NEW texts N1–N7, § Invariants)",
+      "description": "PROME's implementation plan written after the ruling; its title line repeats Will's verbatim word."
+    },
+    {
+      "id": "plan-final",
+      "path": "PROME/proposals/2026-10-30_boot-rotation-3-PLAN.md",
+      "commit": "cac2da4a45a0999625459723c127bca764e4e9b2",
+      "locator": "§ Plan read (read 1) ❌11a · § FINAL texts as inserted N2 · § Reads · § Declared residue ⚠️1–⚠️5 · Completion (WQ-229) line",
+      "description": "The plan after both cold reads: the NONNEG deviation (executed as a tightened block, not the approved one-pointer line), the result read (0 ❌), declared residue and the four-state completion note."
+    },
+    {
+      "id": "boot-encoded",
+      "path": "PROME/BOOT.md",
+      "commit": "cac2da4a45a0999625459723c127bca764e4e9b2",
+      "locator": "whole file (22,739 B at the result read; § Non-Negotiables, step 3b, step 4b, the ⚡ gate bullet)",
+      "description": "The encoded result. Owner evidence that the approved work landed; PROME is both owner and encoder here."
+    },
+    {
+      "id": "row-encoded",
+      "path": "PROME/WILL_QUEUE.md",
+      "commit": "cac2da4a45a0999625459723c127bca764e4e9b2",
+      "locator": "§ RECENTLY DONE, row 552, the `**ENCODED 12:28 ET:**` sentence and the `⚠️ Deviation from the approved form, declared` sentence",
+      "description": "The legacy row carrying encode state and the declared deviation in the same cell as the ruling."
+    }
+  ],
+  "units": [
+    {
+      "id": "552.ROTATION",
+      "kind": "decision",
+      "proposer": "PROME",
+      "proposal": {
+        "revision": 1,
+        "question": "Finish the BOOT.md rotation the gate has flagged since 10/16 (84% of the 32,550 B read budget; finished = under 70%): which of the four named components move out of the boot-read path?",
+        "context": "Four components, each a VERBATIM MOVE or a CONSOLIDATION, never a rule change: 552.LOGREAD (2,218 B, the gate log-read contract → BOOT_MODULES § Gate log-read contract) · 552.NONNEG (995 B, the Non-Negotiables block → ONE pointer line naming its three homes; a rules-overlap decision) · 552.BANNERS (766 B, the Helm-RETIRED and Deck-PAUSED banners → one line each inside step 3b; Will's two standing instructions) · 552.MEMORIES (2,060 B, § Boot-class fleet memories → BOOT_MODULES with the five hooks kept as one line in step 4b). The components were offered as bundles under lettered options, not as four separate questions.",
+        "choices": [
+          {
+            "id": "A",
+            "label": "All four: LOGREAD + NONNEG + BANNERS + MEMORIES",
+            "meaning": "Move or consolidate all four components in one rotation.",
+            "consequence": "≈65% of budget, rotation FINISHED, the gate's rotation_due flag clears; every rule survives verbatim at its new home; the boot runner's pointers re-aimed in the same commit. No money; no rule's meaning moves. Counts as a process-class change under the session ceiling.",
+            "outcome": "approve"
+          },
+          {
+            "id": "B",
+            "label": "LOGREAD + MEMORIES only",
+            "meaning": "The two verbatim moves, no consolidation of Non-Negotiables or banners.",
+            "consequence": "≈68%, finished; the Non-Negotiables duplication and the banners stay in the boot-read path.",
+            "outcome": "approve"
+          },
+          {
+            "id": "C",
+            "label": "Defer again",
+            "meaning": "Leave BOOT.md at 84%.",
+            "consequence": "Every boot keeps paying ~4.5 KB of history; the gate keeps flagging rotation_due.",
+            "outcome": "defer"
+          }
+        ],
+        "recommendation": {
+          "action": "choose",
+          "option_id": "A",
+          "reason": "Finishes the rotation in one pass with every rule surviving verbatim at its new home; B leaves the file within 2 points of the stop and the duplication in place."
+        },
+        "caveats": [
+          "Approval scope is the BUNDLE named by option A: the four components are implementation scope of one decision, not four independently answerable units (Will was never offered 'NONNEG alone' or 'BANNERS alone').",
+          "The approved form of the NONNEG component was ONE pointer line; the executed form differs — see corrections.",
+          "Plan + result cold reads (Sonnet) required under the Review budget; a plan record with exact OLD/NEW text before any edit."
+        ],
+        "source_ids": ["row-registered"],
+        "submission_block_reason": "Design copy; the unit is already ruled and encoded."
+      },
+      "timing": {
+        "needed_by": "2026-11-06",
+        "meaning": "Row needed-by as registered; the row did not state what the date means beyond the gate having flagged rotation_due since 10/16.",
+        "revisit_on": null,
+        "revisit_condition": null
+      },
+      "disposition": {
+        "state": "approved",
+        "basis": "Will chose option A by letter, 12:15 ET, after asking for PROME's rec; recorded in the RECENTLY DONE row at 12:17 and encoded 12:28 ET (BOOT.md 22,739 B at the result read, 0 ❌). The encode is PROME's own owner evidence, independently read once.",
+        "source_ids": ["ruled-row", "plan-final", "boot-encoded", "row-encoded"],
+        "ruling": {
+          "source_id": "ruled-row",
+          "verbatim": "okay go ahead with 552 A",
+          "as_recorded_at": "2026-10-30 12:15 ET, in the PROME conversation window, after Will's question 'what is your rec for WQ-552?'",
+          "answered_proposal_revision": 1,
+          "selected_option_id": "A",
+          "proposal_source_ids": ["row-registered"],
+          "snapshot_quality": "exact",
+          "conditions": [
+            "No rule's meaning moves; every rule survives verbatim at its new home.",
+            "Plan and result cold reads per the Review budget.",
+            "The third process-class change of the harness session (ceiling five)."
+          ]
+        }
+      },
+      "follow_through": [
+        {"source_id": "plan-final", "key": "Completion (WQ-229): IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · STILL UNRESOLVED none"},
+        {"source_id": "boot-encoded", "key": "PROME/BOOT.md @ cac2da4a4"}
+      ],
+      "supersedes_unit_id": null
+    }
+  ],
+  "corrections": [
+    {
+      "source_id": "plan-final",
+      "affected_unit_ids": ["552.ROTATION"],
+      "summary": "NONNEG component executed as a TIGHTENED Non-Negotiables block keeping every rule, not the approved 'one pointer line': the plan reader (❌11a) showed the pointer form dropped 'No trade execution', the FORGE-never-execution-authority line and the COMPLETION_SPEC carry. Declared in the plan record and the queue row; Will was not re-asked; undo by naming it. This corrects the IMPLEMENTATION description; the ruling (option A, all four components) is unchanged."
+    }
+  ]
+}

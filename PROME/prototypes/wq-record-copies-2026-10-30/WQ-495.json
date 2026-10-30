@@ -1,0 +1,183 @@
+{
+  "schema_version": "wq-record/0.1-draft",
+  "mode": "design-copy",
+  "wq_id": "495",
+  "title": "OZK + DEWEY — three units from their 10/22 packets (495.CDR / 495.NPORT / 495.REPO)",
+  "record_revision": 1,
+  "registered_on": "2026-10-22",
+  "sources": [
+    {
+      "id": "row-registered",
+      "path": "PROME/WILL_QUEUE.md",
+      "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+      "locator": "§ OPEN, row beginning `| 495 |`",
+      "description": "The row as registered 14:2x ET 10/22 (prome-25): three named units — CDR (Will's hands, dated), NPORT (⚖️ decision, options A/B), REPO (recorded, class C2). Type MIXED, needed-by 2026-11-05."
+    },
+    {
+      "id": "ozk-memo",
+      "path": "PROME/inbox/processed/2026-10-22_from-OZK_L793-fix-batch-closeout.md",
+      "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+      "locator": "the CDR login ask and the repo-visibility question",
+      "description": "Originating desk memo for CDR and REPO."
+    },
+    {
+      "id": "dewey-memo",
+      "path": "PROME/inbox/processed/2026-10-22_from-DEWEY_data-center-abs-cmbs-holders-v2.md",
+      "commit": "be5a7b4096265172e1754468c685dc8c484eb270",
+      "locator": "the N-PORT holder-scanner promotion ask (REQ-007 v2)",
+      "description": "Originating desk memo for NPORT."
+    },
+    {
+      "id": "ruled-record",
+      "path": "PROME/proposals/2026-10-30_wq551-495nport-RULED.md",
+      "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+      "locator": "Will verbatim line; table row WQ-495.NPORT; the '495's other units' paragraph; Relays paragraph",
+      "description": "PROME's ruling record for NPORT (shared with WQ-551): exact words, interpretation, encoder and verification duties."
+    },
+    {
+      "id": "row-updated",
+      "path": "PROME/WILL_QUEUE.md",
+      "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+      "locator": "§ OPEN, row 495, Notes cell sentence `**495.NPORT RULED A 2026-10-30 11:10 ET** … row stays OPEN for 495.CDR only`",
+      "description": "The legacy row after the NPORT ruling: still one OPEN row typed MIXED, carrying the settled NPORT and REPO text beside the outstanding CDR task."
+    },
+    {
+      "id": "docket",
+      "path": "PROME/DOCKET.tsv",
+      "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+      "locator": "physical line 880 (L880: DEWEY encodes README + ONE selftest, NO schedule; PROME verifies at the commit); physical line 808 (L808: OZK invalidation tests 6 and 8 + OZK-10, blocked by the CDR login); physical line 180 (L180: FFIEC CDR JWT expires 11/05)",
+      "description": "Canonical dated obligations by stable L-number."
+    },
+    {
+      "id": "dewey-relay",
+      "path": "AGENTS/DEWEY/inbox/2026-10-30_from-PROME_WQ495-NPORT-RULED-keep-the-tool.md",
+      "commit": "5e63885b1c8489dddf67c20cbb4cf731a67f1d24",
+      "locator": "whole packet",
+      "description": "Relay of the NPORT ruling to the encoding desk. Delivery of the instruction, not evidence of the encode."
+    },
+    {
+      "id": "wq455-ledger",
+      "path": "PROME/registry/WQ_LEDGER.tsv",
+      "commit": "312944671611824fb233e57b107c68f212faf28e",
+      "locator": "rows with wq=455 (REGISTERED 2026-10-18 · UPDATED 10/20, 10/22 · RULED 10/29)",
+      "description": "The prior ruling REPO records: WQ-455 RULED A 10/18 ('okay lets work on what we can do limit xposure now'), the repo stays PUBLIC with history intact (10/20 'okay we will leave it as it is I suppose'; 10/22 the history-rewrite option closed). Generated ledger; the queue row and its ruling record are the authority."
+    }
+  ],
+  "units": [
+    {
+      "id": "495.CDR",
+      "kind": "hands",
+      "proposer": "OZK",
+      "proposal": {
+        "revision": 1,
+        "question": "Renew the FFIEC CDR (Call Report) login by Thu 11/5.",
+        "context": "The FFIEC CDR JWT expires 11/05 (90-day lifetime; DOCKET L180). The renewal blocks OZK-10 and OZK invalidation test 8 (DOCKET L808) and REGINALD's cohort pulls. Only Will holds the FFIEC PWS account; the same action is the November credential sitting's first item (WQ-31 / DOCKET L219).",
+        "choices": [],
+        "recommendation": {"action": "none", "option_id": null, "reason": "A personal action by the account holder; no approval decision."},
+        "caveats": [
+          "This is the same physical action as WQ-31's FFIEC item; two queue rows describe one task (the 10/30 checkpoint already notes '= WQ-495.CDR').",
+          "Under WQ-538 A a HANDS row once shown is never re-presented individually in briefs; it stays visible in the task view."
+        ],
+        "source_ids": ["row-registered", "ozk-memo"],
+        "submission_block_reason": "Design copy; no live task reporting."
+      },
+      "timing": {
+        "needed_by": "2026-11-05",
+        "meaning": "The current FFIEC CDR token's expiry date; after it, the owner pulls that depend on it fail.",
+        "revisit_on": null,
+        "revisit_condition": null
+      },
+      "disposition": {
+        "state": "outstanding",
+        "basis": "No completion reported by Will in the queue, the ruling record or the 10/30 checkpoint (SCRATCH ★ NEXT lists it among 'hands, parked'). env_doctor at the 12:45 ET pick-up still reads 'FFIEC_CDR_TOKEN expires in 6d'.",
+        "source_ids": ["row-updated", "docket"],
+        "ruling": null
+      },
+      "follow_through": [
+        {"source_id": "docket", "key": "L808"},
+        {"source_id": "docket", "key": "L180"}
+      ],
+      "supersedes_unit_id": null
+    },
+    {
+      "id": "495.NPORT",
+      "kind": "decision",
+      "proposer": "DEWEY",
+      "proposal": {
+        "revision": 1,
+        "question": "PROMOTE DEWEY's N-PORT holder-scanner script (the thing that found the fund holders of data-center bonds in REQ-007 v2) from a one-off to a kept tool?",
+        "context": "A build gate under DEWEY's charter: a kept tool is maintained, documented and tested; a one-off is evidence only.",
+        "choices": [
+          {
+            "id": "A",
+            "label": "Yes — keep it as a DEWEY tool",
+            "meaning": "Keep the scanner as a DEWEY tool with a README and ONE selftest, NO schedule.",
+            "consequence": "A reusable tool is maintained by DEWEY; no unattended run is granted.",
+            "outcome": "approve"
+          },
+          {
+            "id": "B",
+            "label": "No — one-off",
+            "meaning": "Retain the evidence; do not maintain a reusable tool.",
+            "consequence": "No tool maintenance is assigned; a future need re-derives the scan.",
+            "outcome": "decline"
+          }
+        ],
+        "recommendation": {"action": "choose", "option_id": "A", "reason": "The scanner already produced the REQ-007 v2 holder list; keeping it avoids another discovery pass. No schedule, so no unattended-run grant rides on it."},
+        "caveats": ["No schedule: the approval does not grant an unattended run."],
+        "source_ids": ["row-registered", "dewey-memo"],
+        "submission_block_reason": "Design copy; the unit is already ruled."
+      },
+      "timing": {
+        "needed_by": "2026-11-05",
+        "meaning": "The row's needed-by as registered (shared with CDR); the NPORT unit itself carried no separate deadline.",
+        "revisit_on": null,
+        "revisit_condition": null
+      },
+      "disposition": {
+        "state": "approved",
+        "basis": "Will's 'yes approved' on the row (11:10 ET), interpreted by PROME as option A as shown; recorded in the ruling record, the row's Notes cell, DOCKET L880 and the DEWEY relay. Owner encode (README + ONE selftest) not yet evidenced — L880 is dated 11/02.",
+        "source_ids": ["ruled-record", "row-updated", "docket", "dewey-relay"],
+        "ruling": {
+          "source_id": "ruled-record",
+          "verbatim": "495 - yes approved",
+          "as_recorded_at": "2026-10-30 11:10 ET, in the PROME conversation window (same message as '551- yes')",
+          "answered_proposal_revision": 1,
+          "selected_option_id": "A",
+          "proposal_source_ids": ["row-registered"],
+          "snapshot_quality": "reconstructed",
+          "conditions": ["README and ONE selftest; NO schedule — no unattended run is granted.", "PROME verifies README + selftest exist at DEWEY's commit (DOCKET L880)."]
+        }
+      },
+      "follow_through": [
+        {"source_id": "docket", "key": "L880"}
+      ],
+      "supersedes_unit_id": null
+    },
+    {
+      "id": "495.REPO",
+      "kind": "receipt",
+      "proposer": "OZK",
+      "proposal": {
+        "revision": 1,
+        "question": "Record for OZK: repo visibility (public vs private) for the third-party-text ruling is already ruled.",
+        "context": "OZK asked which visibility to assume. Will ruled it under WQ-455 (10/18, 10/20 and 10/22 13:09 ET): the repo stays PUBLIC, history intact, for the application. PROME recorded the answer here as class C2 (a ruling Will already gave), never a new ask.",
+        "choices": [],
+        "recommendation": {"action": "none", "option_id": null, "reason": "A receipt of an existing ruling; no new question."},
+        "caveats": ["The authority is WQ-455's ruling, not this receipt; OZK applies its third-party-text handling to a public repo."],
+        "source_ids": ["row-registered", "ozk-memo", "wq455-ledger"],
+        "submission_block_reason": "Receipt only; no approval controls."
+      },
+      "timing": {"needed_by": null, "meaning": null, "revisit_on": null, "revisit_condition": null},
+      "disposition": {
+        "state": "recorded",
+        "basis": "Recorded at registration 10/22 from Will's WQ-455 rulings; nothing asked, nothing owed.",
+        "source_ids": ["row-registered", "wq455-ledger"],
+        "ruling": null
+      },
+      "follow_through": [],
+      "supersedes_unit_id": null
+    }
+  ],
+  "corrections": []
+}
