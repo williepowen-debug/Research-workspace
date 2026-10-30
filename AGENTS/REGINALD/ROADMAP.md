@@ -1,5 +1,5 @@
 # REGINALD ROADMAP — "Where are we"
-**Updated:** **2026-10-30T09:14:16-04:00 — L801 decision appended to Recently Resolved.** Prior 2026-10-28T22:40:09-04:00 — 10/28 boot catch-up appended to Recently Resolved; BaaS row answered (Coastal ~$447M Bluevine deposits); REG-T-02 row count refreshed. Prior stamp chain → `archive/ROADMAP_rotation_2026-10-28.md` BLOCK R11, crc32 `0939062b`. Other rows retain their stated observation dates.
+**Updated:** **2026-10-30 19:07 ET — evening session appended to Recently Resolved.** Prior 2026-10-30T09:14:16-04:00 — L801 decision appended to Recently Resolved. Prior 2026-10-28T22:40:09-04:00 — 10/28 boot catch-up appended to Recently Resolved; BaaS row answered (Coastal ~$447M Bluevine deposits); REG-T-02 row count refreshed. Prior stamp chain → `archive/ROADMAP_rotation_2026-10-28.md` BLOCK R11, crc32 `0939062b`. Other rows retain their stated observation dates.
 *Stamps 10/10 AM (BLOCK R5, crc32 `3693ce98`) and 10/9 PM · 10/7 · 9/29 (BLOCK R3, crc32 `adb2708f`) rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-10.md`.*
 *Stamps 9/27 PM, 9/27 and 9/26 rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-07.md` BLOCK R1, crc32 `ebe14531`.*
 *Stamps 9/14 and 9/02 rotated VERBATIM → `archive/STATUS_rotation_2026-09-27.md` BLOCK R1, crc32 `cb6c187f`.*
@@ -78,6 +78,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 
 ## RECENTLY RESOLVED — October20
+
+**10/30 evening (Will-launched boot + DAEDALUS follow-ups):** WAL Q3 10-Q grade integrated (exit-rail WAL row NOT FIRED, FINAL for Q3); KRE $68P ×10 on TRADE §2; `scripts/thresholds.py` now fails closed (rc 0/1/2, `--selftest` 7/7, in boot TRI_STATE; DAEDALUS profile-refresh item 1 DONE). Items 2–14 + A1–A3 → MEMORY NEXT SESSION 2. Last touched 2026-10-30.
 
 **10/30 DOCKET L801 (PROME-spawned):** `reports/2026-10-30_L801/REPORT.md`. Coverage-decline leg of the Q3 cohort pattern DROPPED as a predictor on DEWEY's base rate (2 of 10 vs 25%); problem-loan leg kept (7 of 10). Matrix coverage point waits for the 11/07 test. Inbox drained (13). Last touched 2026-10-30.
 

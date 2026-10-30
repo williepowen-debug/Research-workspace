@@ -35,7 +35,7 @@ MARKET_PY = WORKSPACE / "scripts" / "market.py"
 # Scripts on the shared verdict contract (repair 2026-10-09): rc 0 = read, nothing to review ·
 # rc 1 = ALERT, read the output · rc 2 = INCOMPLETE, some name or input has NO VERDICT.
 # Every other script: rc != 0 = FAIL. Only an all-OK run prints the all-clear line.
-TRI_STATE = {"Insider Activity", "8-K Monitor", "Earnings Countdown", "Corrections Check", "FLG Ladder",
+TRI_STATE = {"Thresholds", "Insider Activity", "8-K Monitor", "Earnings Countdown", "Corrections Check", "FLG Ladder",
              "Ledger Staleness", "Trade-Surface Staleness"}
 DESK = SCRIPTS_DIR.parent  # AGENTS/REGINALD
 

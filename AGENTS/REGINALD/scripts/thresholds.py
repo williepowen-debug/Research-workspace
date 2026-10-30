@@ -6,6 +6,13 @@ Prints breaches and near-miss warnings (within 5%).
 
 Usage:
   .venv/bin/python3 AGENTS/REGINALD/scripts/thresholds.py
+  .venv/bin/python3 AGENTS/REGINALD/scripts/thresholds.py --selftest
+
+Exit codes (shared boot verdict contract, repair 2026-10-30, DAEDALUS profile-refresh item 1):
+  0 = every threshold ticker priced, nothing breached
+  1 = ALERT: at least one BREACHED line (read the output)
+  2 = INCOMPLETE: no prices at all, or a threshold ticker has NO DATA, or yfinance missing.
+      Fails closed: 2 outranks 1, because a missing price can hide a breach.
 """
 
 import sys
@@ -14,8 +21,10 @@ from datetime import datetime
 try:
     import yfinance as yf
 except ImportError:
-    print("  ERROR: yfinance not installed. Run: pip install yfinance")
-    sys.exit(1)
+    if "--selftest" not in sys.argv:
+        print("  ERROR: yfinance not installed. Run: pip install yfinance")
+        sys.exit(2)
+    yf = None
 
 # Thresholds: (ticker, direction, level, label)
 # direction: "below" means breach when price < level, "above" means breach when price > level
@@ -89,6 +98,39 @@ def check_thresholds(prices):
     return results
 
 
+def verdict(prices, alerts):
+    """Exit code from what was measured: 2 INCOMPLETE > 1 ALERT > 0 clean."""
+    if not prices or any(a[3] == "NO DATA" for a in alerts):
+        return 2
+    if any(a[3] == "BREACHED" for a in alerts):
+        return 1
+    return 0
+
+
+def selftest():
+    """Exercise every branch of verdict() on fixtures; rc 0 only if all pass."""
+    def px(**kw):
+        return {k.replace("_", "="): {"price": v, "prev": v, "chg": 0.0} for k, v in kw.items()}
+    clean = dict(KRE=72.0, WAL=85.0, OZK=50.0, EGBN=33.0, BZ_F=100.0, HYG=80.0)
+    cases = [
+        ("clean -> 0", px(**clean), 0),
+        ("KRE 59.99 < 60 -> 1", px(**{**clean, "KRE": 59.99}), 1),
+        ("Brent 120.01 > 120 -> 1", px(**{**clean, "BZ_F": 120.01}), 1),
+        ("WAL exactly 78 is not < 78 -> 0", px(**{**clean, "WAL": 78.0}), 0),
+        ("OZK missing -> 2", px(**{k: v for k, v in clean.items() if k != "OZK"}), 2),
+        ("breach + missing -> 2 (fail closed)", px(**{k: v for k, v in {**clean, "KRE": 50.0}.items() if k != "OZK"}), 2),
+        ("no prices -> 2", {}, 2),
+    ]
+    bad = 0
+    for name, prices, want in cases:
+        got = verdict(prices, check_thresholds(prices))
+        ok = got == want
+        bad += not ok
+        print(f"  {'PASS' if ok else 'FAIL'}  {name}  (got {got}, want {want})")
+    print(f"  selftest: {len(cases) - bad}/{len(cases)} pass")
+    return 0 if bad == 0 else 2
+
+
 def main():
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
 
@@ -104,7 +146,7 @@ def main():
 
     if not prices:
         print("\n  ERROR: Could not fetch any prices. Check network.")
-        return
+        return 2
 
     # Check thresholds
     alerts = check_thresholds(prices)
@@ -153,7 +195,8 @@ def main():
             print(f"  {arrow} {sym:<8} ${p['price']:>10.2f}  ({p['chg']:+.2f}%)")
 
     print()
+    return verdict(prices, alerts)
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(selftest() if "--selftest" in sys.argv else main())

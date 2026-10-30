@@ -1,8 +1,8 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY tightened to 314bp [10/28] without REG-T-04 ever firing (peak 340); the widening was BANK-ABSENT and has partly reversed. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell.
+**Status:** Concentrated bank risk. HY tightened to 314bp [10/28] without REG-T-04 ever firing (peak 340); the widening was BANK-ABSENT and has partly reversed. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-30 09:15 ET, PROME-spawned DOCKET L801 decision + inbox drain (10/30) | STATUS commit: 4222ea74d
+**As of:** 2026-10-30 19:07 ET, Will-launched evening boot (WAL 10-Q exit-rail cell, thresholds.py fix) | STATUS commit: 82030c0e7
 
 ## CROSS-DOMAIN
 
