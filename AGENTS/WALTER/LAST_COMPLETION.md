@@ -1,6 +1,6 @@
 # WALTER — Codex startup recovery; operational boot PARTIAL
 
-Updated 2026-10-30T01:06:55Z. OpenAI Codex, GPT-6 family (exact serving variant UNKNOWN), session 01a18a48-0e7c-7892-9560-3672bf9cf6ef. Prior evening session CLOSED; this is a fresh Will-launched startup. Previous completion preserved verbatim: research/2026-10-29_codex-evening-boot/prior-LAST_COMPLETION.md.
+Updated 2026-10-30T01:14:33Z. OpenAI Codex, GPT-6 family (exact serving variant UNKNOWN), session 01a18a48-0e7c-7892-9560-3672bf9cf6ef. Prior evening session CLOSED; this is a fresh Will-launched startup. Previous completion preserved verbatim: research/2026-10-29_codex-evening-boot/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
@@ -8,11 +8,15 @@ Instruction and approval recovery completed. Operational boot PARTIAL, with inde
 
 ## CHANGED
 
+Zero-new-bookmark scan receipt and pending-stage metadata; no consumed-set change, review attestation or delivery row. No new signal.
+
 Access-recovery evidence and current-state corrections; create-only INFO packet PROME/inbox/2026-10-29_from-WALTER_intake-and-X-access-restored.md supersedes the earlier access-failure report. Tokens remain ignored and local. No tool/spec or collector edit. Recovery commit 5e93a1240eb648031cca4349a58169f5a2a8812e; routine publication deferred. Light selected checks REVIEW only for the carried R1 warning and ledger nudge; no new route, kill or delivery event exists, so those logs receive no row.
 
 Boot/read/market evidence; REGISTRY owner-header refresh; STATUS and memory session note; this continuity record and SESSION_LOG. Operational packet PROME/inbox/2026-10-29_from-WALTER_codex-startup-access-and-R1-warning.md flags the local sync failure, stale READS and reproduced R1 warning. Notification/consumption UNKNOWN. Startup evidence/packet committed at d478fc4e8715b238603e592818b5f641025832a5; origin state pending at fresh fetch. Routine push deferred; notification and recipient consumption UNKNOWN. Receipt metadata follows in its own exact-path commit.
 
 ## RESULT
+
+**Authorized bookmark check:** latest head check October 29 21:13:24 ET (2026-10-30T01:13:24Z), 0 NEW IDs, returned traversal complete under scanner contract, no pending items. No new content to review or route; consumed IDs unchanged at 1,363. No --mark. Evidence: research/2026-10-29_bookmark-check/REVIEW.md.
 
 **Access recovery completed at 2026-10-30T01:06:55Z:** Research-Intake synced by its default stored credential to 63a16b4, local/remote 0 ahead / 0 behind, six healthy feeds, scanner 0 NEW / 28 suppressed. Will completed X browser approval; read-only bookmark API probe PASS (50 rows, more pages available), seen/pending unchanged. No staging or marks. Evidence: research/2026-10-29_intake-access-recovery/RECOVERY.md. No substantive bookmark review or complete queue scan claimed.
 
@@ -20,7 +24,6 @@ Doctor 0 HIGH / 2 MED; correction receipts 0 owed; boot basis matches 29 paths. 
 
 ## GAPS
 
-- X access restored, but bookmark content remains unreviewed in this recovery: one page was an access probe only, older-page coverage incomplete. No IDs staged or marked.
 - Broad first-30-line owner/filter context is PARTIAL; header review does not certify all owner evidence. Current settlement grades, HANS sovereign/compound checks and CREED qualitative/cohort censuses incomplete. HANS-T-12 and boundary #5 UNINSTRUMENTED. KRE/WAL October 29 history rows NULL; quotes not substituted for missing closes.
 - Cross-runtime fleet visibility incomplete; readiness UNKNOWN. Truncated Codex task list and ORCH_INFLIGHT do not establish DARK. Recipient consumption beyond the preceding session's named receipts remains UNKNOWN.
 - READS attestation stale October 23; coordinator registry reconciliation dated November 3. Current-byte boot basis match does not certify execution/perimeter.
@@ -36,7 +39,7 @@ None urgent. X reauthorization completed by Will in this session; no further acc
 
 ## FOLLOW-UP
 
-Access blockers resolved. Remaining startup work: substantive bookmark scan/review, omitted filter/threshold context and November 3 READS reconciliation. Prior source/owner duties below remain unchanged.
+Access blockers resolved. Latest authorized bookmark head check is complete with 0 new items. Remaining startup work: omitted filter/threshold context and November 3 READS reconciliation. Prior source/owner duties below remain unchanged.
 
 Prior dated work, unchanged unless a named owner artifact supersedes it:
 
@@ -72,7 +75,7 @@ Current startup receipt; preceding publication cohort retained and verified sepa
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-30T01:06:55Z",
+  "as_of": "2026-10-30T01:14:33Z",
   "next_review": "2026-10-30",
   "publication": [
     {
@@ -141,13 +144,17 @@ Current startup receipt; preceding publication cohort retained and verified sepa
       {
         "path": "AGENTS/WALTER/research/2026-10-29_intake-access-recovery/RECOVERY.md",
         "sha256": "d04f9c360e86b7617e23e96899a518ee4a625f3fe6f2cfb94299ddb4f9a8cb08"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-29_bookmark-check/REVIEW.md",
+        "sha256": "607c8ea4747d934d11a621794eefffa42e171a55e860caba5ba0f10ac5392fda"
       }
     ]
   },
   "procedure": {
     "tier": "light",
     "boot": "PARTIAL; instruction and approval recovery complete",
-    "session": "Same Will-launched Codex owner; intake and X access recovery complete. No content review, signal, mark, launch or cross-session send. Publication remains coordinated."
+    "session": "Same Will-launched Codex owner; authorized bookmark scan completed, zero NEW IDs. No review/mark/dispatch required. Other PARTIAL boot legs unchanged."
   },
   "manual_duties": {
     "0": "Foreign dirty stop respected; later rebase pull succeeded; no push.",
@@ -160,7 +167,7 @@ Current startup receipt; preceding publication cohort retained and verified sepa
     "14": "Standing memory retained; session note refreshed; no auto-memory authored.",
     "root.retirement": "No new retirement-eligible artifact; broad historical retirement review not claimed complete.",
     "16": "Recovery artifacts and PROME INFO packet committed with exact paths; routine push deferred. No dispatch, kill, delivery or publication transition requiring a new ledger row. Final receipt metadata committed separately.",
-    "Tier1": "Transport repair only. Affected access state corrected; no fresh-market or family-wide clearance. Light checkpoint; full narrative deferred."
+    "Tier1": "Zero-item bookmark scan. Current pending-scan carry cleared; other boot/source limits retained. No route, kill or delivery event to log."
   }
 }
 END_CLOSEOUT_RECEIPT -->
