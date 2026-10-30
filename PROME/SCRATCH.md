@@ -35,7 +35,7 @@
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-29 · 12 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-471 (10/24) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-519 (10/30) · WQ-504 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-495 (11/5) · WQ-547 (11/17) · WQ-489 (—)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-10-29 · 10 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-471 (10/24) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-495 (11/5) · WQ-547 (11/17) · WQ-489 (—)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card

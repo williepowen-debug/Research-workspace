@@ -50,7 +50,7 @@ flowchart LR
         WATT[WATT<br/>Grid stress / power price]
         MIDAS[MIDAS<br/>Metals: monetary + industrial]
         FERT[FERT<br/>Fertilizer: N + P → food CPI]
-        CRUISE[CRUISE<br/>Cruise sector: CCL fuel-cost vehicle]
+        CRUISE[CRUISE<br/>Cruise: operator dispersion / NCLH credit · consumer-demand read · FL-Gulf ports]
     end
 
     subgraph MACRO[Funding / macro / market structure]
@@ -149,6 +149,7 @@ flowchart LR
     BRENT -->|fuel cost → CCL| CRUISE
     OSPREY -.->|Black-Sea / RU supply shocks| FERT
     FALCON -.->|Hormuz / Gulf ammonia-urea shocks| FERT
+    FALCON -.->|Gulf theater; info-only| CRUISE
     FERT -->|food-CPI transmission| CARL
     FERT -->|ag-input cost tape| HENRY
     MIDAS -->|copper ↔ China demand| ZHAO
@@ -221,7 +222,7 @@ flowchart LR
 | AI-capex | VULCAN → VIOLET / HENRY / WATT; ZHAO / HAWK → VULCAN | Hyperscaler capex guides, Mag-7 concentration, memory cycle, export controls, Taiwan chokepoint |
 | Industrial cycle | HANS → ISHM → HENRY / CARL / LABOR / REGINALD-GIBBS / WATT; ISHM → VULCAN (J1), → LIQUID / RED (J2) — added 2026-10-23 (WQ-507 A; desk built under WQ-506) | ISM/PMI new orders vs inventories, core capex orders, IP/CU, freight volumes (Cass, rail carloads, Class 8), the eight bellwethers' guides; ISM Mfg <47 = the recession trigger (ISHM owns, HENRY informed) |
 | Metals | {BOND, ZHAO} ↔ MIDAS → LIQUID / HENRY; HAWK → MIDAS | Gold real-rate divergence (debasement), copper/China demand, GSR, PGM supply |
-| Energy → consumer discretionary | BRENT → CRUISE (CCL vehicle; event-driven, re-classed ACTIVE 2026-08-21) | Fuel-cost pass-through, pre-announce channels, Q3 print |
+| Energy → consumer discretionary | BRENT → CRUISE (fuel cost; event-driven, re-classed ACTIVE 2026-08-21), FALCON → CRUISE info-only (Gulf theater) — CRUISE re-scoped 2026-10-15 (WQ-435) to operator dispersion / NCLH credit, a consumer-demand read for CARL and MARCO, and FL/Gulf ports; node and row updated 2026-10-29 (WQ-504 A) | Operator dispersion, NCLH credit/demand, fuel-cost pass-through, one Big-3 cancellation (VX-CRU-04), port disruption |
 | Japan/carry | SAM → LIQUID/HENRY | JGB/BOJ/carry unwind, USDJPY/FXY, global funding volatility |
 | Credit-to-vol | BOND/BROCK/REGINALD → VIOLET → HENRY/LIQUID/RED | Credit spreads or bank stress widen before VIX/vol catches up |
 
