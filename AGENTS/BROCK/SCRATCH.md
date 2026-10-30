@@ -1,15 +1,15 @@
-# BROCK SCRATCH — 2026-10-29 ~20:0x ET closeout handoff (PROME L827 wake, prome-5c)
+# BROCK SCRATCH — 2026-10-30 ~09:1x ET handoff (PROME L795 wake, prome-a9)
 
-Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-10-29.md`.
+Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-10-30.md`.
 
-**Done 10/29 evening:** L827 HTGC Q3 GRADED — THESIS FAILS FOR Q3 (software 0.981 label / 0.976 constant perimeter ≥0.97 · NA 0.4% cost · NAV $12.26) · Experiment A HTGC cells (event 3 of 3; BROCK's part done) · BRK-10 RESOLVED-FALSE (invalidation clause) · KB-405–408 · drain 10/10 (3 top-level + 7 WALTER) · TERRY + PROME packets.
+**Done 10/30 morning:** L795 CABO graded NOT CLOSED (primary); TRO hearing adjourned to 11/13 is press-only (Cablefax 10/29); Graham tail closed; Q3 release + 10-Q Thu 11/05 AMC (KB-BRK-409; CATALYSTS rows 11/05 + 11/13). L794 CRMT baseline 09:09 ET: newest still the 10/21 8-K (not a grade). Inbox 0/0.
 
 **Next-boot first moves:**
-1. **Fri 10/30:** CRMT eighth bridge (L794) after ~16:30 ET plus Mon 11/02 AM · CABO L795 · DAEDALUS asks by 10/30 (R2 post-fire rule per vehicle; BDC median NAV discount refresh; BRK-11/18/25/26 search instrument; Medallia → REGINALD).
-2. **Sat 10/31:** GATE-BRK-R2 review (mine).
-3. **~11/05:** North Haven Q3 final (R2 (b)) · FSK Q3 (trap; software funded-only basis) · ~11/06 MFIC Q3 10-Q → `compare_pairs.py` / `mfic_tail.py`.
+1. **Fri 10/30 after ~16:30 ET + Mon 11/02 AM:** CRMT eighth-bridge feed read (L794) — whole feed from 10/22, every form type, INDEX acceptance time.
+2. **Sat 10/31:** OCIC tender final (L269) + GATE-BRK-R2 review — and the DAEDALUS 10/8 asks (R2 post-fire rule per vehicle; BDC median NAV discount; BRK-11/18/25/26 search instrument; Medallia → REGINALD), NOT worked 10/30.
+3. **Thu 11/05:** CABO Q3 8-K + 10-Q AMC (TRO subsequent events, going concern, financing names) · FSK Q3 BMO · North Haven final ~11/05.
 
 **Thread notes:**
-- HTGC re-cut its SOI industry labels at 9/30 (Cybersecurity, Healthcare Tech, FinTech, Energy Tech). For any later HTGC software read use `research/2026-10-29_htgc-q3/perimeter.py` (6/30 issuer set) alongside the label basis; never compare the label figure to the 6/30 66.0%.
-- Software sector marks vector 🔴🔴(5): two Q3 bellwether non-confirmations, no registered downgrade leg — review candidate, not a rescore.
-- EDGAR JSON: `curl --compressed` + UA header. Unquoted heredocs execute backticks and eat `$` — write prose with the Write tool.
+- CABO free docket: CourtListener returns 401/403 to anonymous calls; PACER paid → ask-first. Cablefax body paywalled; meta description + JSON-LD readable by curl.
+- EDGAR full-text (efts) works with `--compressed` + UA; always run a positive control window.
+- Weekly CABO row successor: asked PROME (memo FOLLOW-UP) to register 11/06 (after the 11/05 10-Q) instead of a bare weekly Friday.
