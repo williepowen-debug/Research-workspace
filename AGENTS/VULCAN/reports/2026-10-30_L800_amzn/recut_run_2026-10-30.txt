@@ -1,0 +1,10 @@
+CONTROL DEWEY 10/22 sum -186,456 (expected -186,456)
+MSFT   OCF   209,090 capex   170,000 FL       0 payouts   44,992 GAP    -5,902  (DEWEY   -26,806)
+GOOGL  OCF   172,037 capex   200,000 FL   3,060 payouts   11,103 GAP   -42,126  (DEWEY   -34,388)
+AMZN   OCF   155,916 capex   220,000 FL   1,729 payouts        0 GAP   -65,813  (DEWEY   -69,532)
+META   OCF   130,145 capex   140,000 FL       0 payouts    5,421 GAP   -15,276  (DEWEY   -15,276)  (unchanged: DEWEY 10/22)
+ORCL   OCF    58,308 capex    92,500 FL       0 payouts    6,260 GAP   -40,452  (DEWEY   -40,452)  (unchanged: DEWEY 10/22)
+SUM mixed basis -169,570  (DEWEY -186,456)
+MSFT CY26 cash basis 14,944 (DEWEY -5,762; FY26 FL ROU additions 24,608 held out of the guide)
+SUM with MSFT on cash basis -148,723
+GOOGL sensitivity if preferred dividends are outside the ordinary tag: -42,594 (Q3 actual + Q4 at Q3 rate)

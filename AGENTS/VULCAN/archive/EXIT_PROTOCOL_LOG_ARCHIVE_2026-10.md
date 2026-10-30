@@ -194,3 +194,18 @@ Markets have been shut since the Friday 2026-09-11 close and **this session took
 ---
 
 **Footer (computed at write time):** §A 128 lines crc32 `0x17de3eb9` · §C 5 lines crc32 `0x1a695073` · §B 39 lines crc32 `0x6a43ed45`. Live file before the move: 311 lines, 56347 B.
+
+
+---
+
+## §D — from the live header: dated entries 2026-10-23 → 2026-10-26 (live lines 3–9, moved verbatim 2026-10-30 at the §4b rewrite)
+
+**Newest entry: 2026-10-26** (re-read 2026-10-26T14:27:16-04:00, news sweep): no completed thesis kill; FY27-guide/clean-concentration/four-quarter-memory/financing-structure legs remain incomplete. Nebius financing/qualified on-site generation support adaptation,not two quarters clean issues or two planning-cycle grid clearance. Micron roadmap no price/useful-life event. §4b awaits October28–29 prints. Prior entry retained.
+
+**Prior entry: 2026-10-26** (re-read 2026-10-26T13:45:33-04:00, original-source financing pass): no completed thesis kill. FY27-guide and three-month clean-concentration legs incomplete; memory healthy only one of four quarters; structure leg not satisfied after Firmus withdrawal. Today's financing access counters blanket shutdown, but does not satisfy two-quarter clean issuance/other S5 kill conditions. META capex held; §4b remains one raise/reward observation pending October28–29 cluster. No current price refresh or new rule. Prior entry retained.
+
+**Prior entry: 2026-10-26** (re-read 2026-10-26T13:32:03-04:00, Codex startup): no completed four-leg thesis kill. FY27 aggregate guide still unobserved; retained Mag7 34.0060% [holdings October22] exceeds 28%; healthy memory remains one of four required quarters, no new print; structure not clean after Firmus withdrawal. Current four-quarter S2 equity-relative condition remains UNMEASURED; a one-month drawdown cannot grade it. §4b still META raise/reward alone; remaining cluster pending. No live market-price refresh. Prior entry retained below.
+
+**Newest entry: 2026-10-23** (re-read 2026-10-23T17:50:05-04:00, Will-launched closeout): kill legs unchanged — no completed four-leg kill. Leg1 awaits FY27 guides (MSFT/GOOGL 10/28, AMZN 10/29 are FY26/FY27 inputs). Leg2 Mag-7 34.0060% [holdings 10/22, slot 7] > 28%. Leg3 contract forecasts still positive (TrendForce 4Q26 DRAM +10–15% unrevised; no 1Q27 forecast). Leg4 not clean (CRWV unsecured 80–86c, Lambda SASB unsold; Solidigm IPO review halt NOT SCORED). S2 channel-kill conjunct 2 failing (memory core −24.09% vs QQQ −4.95%, 1 month) — channel ALIVE. §4b: one leg (META RAISE and REWARDED AH); MSFT/GOOGL/AMZN pending 10/28–29. Prior entry (2026-10-22) retained: (re-read 2026-10-22T13:34-04:00, L782 v2 session): kill legs unchanged — no completed four-leg kill. Leg4 structure still not clean (NextDC primary: contracted M3 revenue out of FY27 guide on a power delay, FM considered; Meta commitments $810.25B primary). §4b: META leg stays RAISE and REWARDED on the after-hours letter; the −7.1% 10/22 regular session is a recorded disagreement for the 10/28 rewrite, not a regrade. Prior entry (2026-10-21) retained: 2026-10-21 (re-read 2026-10-21T22:58-04:00, L782 session): kill legs unchanged — no completed four-leg kill. Leg1: META is the first FY26 cluster print and RAISED the low end of its 2026 guide (FY27 not guided) — leg1 still awaits FY27 guides; leg2 unchanged (34.5986% [holdings10/15] > 28%); leg3 contract forecasts positive (TrendForce newsroom relay ~20% QoQ is not a research revision); leg4 structure still not clean (Firmus, Volta, NextDC power-delay cut). §4b: META = RAISE and REWARDED (AH +2.1%), one leg of the cluster, no verdict. Prior entry (2026-10-20) retained in Git.
+
+**Footer §D (computed at write time):** 7 lines crc32 `0xcf64d345`.
