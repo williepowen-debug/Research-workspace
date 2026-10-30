@@ -6,13 +6,13 @@
 | Unit | Source span in `PROME/BOOT.md` | Bytes | crc32 | Destination |
 |---|---|---|---|---|
 | BANNERS | lines 6 and 8 (the two bold banner paragraphs; the blank lines 5/7/9 collapse to one) | 766 | 3574064564 | CONSOLIDATED into step 3b (one sentence each + ruling pointers); verbatim prior text → `BOOT_MODULES.md` § Rotated banners (2026-10-30) |
-| NONNEG | `## Non-Negotiables` heading through the line before the `---` separator (lines 16–25) | 990 | 816980847 | REPLACED by a pointer section (text below); verbatim prior text → `BOOT_MODULES.md` § Rotated Non-Negotiables (2026-10-30) |
+| NONNEG (⚠️ destination SUPERSEDED: executed as a TIGHTENED block, not a pointer section — read 1 ❌11a) | `## Non-Negotiables` heading through the line before the `---` separator (lines 16–25) | 990 | 816980847 | REPLACED by a pointer section (text below); verbatim prior text → `BOOT_MODULES.md` § Rotated Non-Negotiables (2026-10-30) |
 | LOGREAD | inside step 5's ⚡ ONE-SHOT GATE bullet: from `**Log-read contract` through `Acquisition details: \`PROME/tools/SESSION_PILOT.md\`.` | 2218 | 3869686084 | MOVED verbatim → `BOOT_MODULES.md` § Gate log-read contract; pointer sentence left in place |
-| MEMORIES | `## Boot-class fleet memories` heading to EOF (lines 108–121) | 2060 | 2981797587 | MOVED verbatim → `BOOT_MODULES.md` § Boot-class fleet memories; step 4b rewritten to carry the five every-boot hooks as one line |
+| MEMORIES | `## Boot-class fleet memories` heading to EOF (heading INCLUDED in the bytes and crc) (lines 108–121) | 2060 | 2981797587 | MOVED verbatim → `BOOT_MODULES.md` § Boot-class fleet memories; step 4b rewritten to carry the five every-boot hooks as one line |
 
-Sum leaving the boot-read path ≈ 6034 B before pointers; expected size after = measured by `PROME/tools/measure.py` at the result read, target < 22,785 B (70% of 32,550). READS.tsv: BOOT.md stays `whole`; BOOT_MODULES.md stays `scoped` (not cap-bearing) — no registry change.
+Sum leaving the boot-read path ≈ 6034 B before pointers; expected size after = measured by `PROME/tools/measure.py` at the result read, target < 22,785 B (70% of 32,550). `PROME/registry/READS.tsv`: BOOT.md stays `whole`; BOOT_MODULES.md stays `scoped` (not cap-bearing) — no registry change.
 
-## NEW texts (exact)
+## NEW texts (exact) — ⚠️ SUPERSEDED by § FINAL texts as inserted (read 1 corrections); kept as the pre-read draft
 ### N1 — step 3b: APPEND to the end of the 3b bullet (same line):
 ` **Standing banners folded here (WQ-552 A, 2026-10-30; the banners above the Boot Sequence were removed in rotation #3 — the rulings are unchanged):** Helm RETIRED (WQ-461, 2026-10-19; `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`) — no routine dashboard generation, presentation upkeep, hosted reads or publication; the boot book line, WALTER intake and decision checks remain active. Decision Deck PAUSED BY WILL (WQ-460, 2026-10-19; `PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md`) — pickup, upkeep, builds and publication suspended until explicit resume and reconciliation; the hosted page is not disabled and unseen taps remain UNKNOWN.`
 ### N2 — replaces the whole Non-Negotiables block (heading through the line before `---`):
@@ -35,13 +35,50 @@ Every non-negotiable this file once restated binds from its canonical home, each
 | P3 | `PROME/BOOT.md` header line 2 `**Updated:**` | as is | prefix `2026-10-30 12:xx ET (rotation #3, WQ-552 A — four blocks to BOOT_MODULES; plan …boot-rotation-3-PLAN.md). Prior:` and keep the existing latest stamp as the one prior (the line keeps the latest and at most ONE prior) |
 
 ## Invariants (what the reads check)
-1. Each moved block appears in BOOT_MODULES byte-identical to its source span (crc32 above = crc32 of the destination body, heading line excluded for MEMORIES as stated).
-2. No rule changes meaning: N1 restates the two rulings with their record pointers; N2 names the homes that already bind and keeps the two boot-local reminders verbatim in substance; N3 keeps the one operative sentence of the contract; N4 keeps the five every-boot hooks by slug.
+1. Each moved block appears in BOOT_MODULES byte-identical to its source span (crc32 above = crc32 of the destination text; for MEMORIES the heading line is INCLUDED — the section moves whole). ⚠️ SUPERSEDED wording, pre-read: "heading line excluded for MEMORIES" — corrected after read 1 (❌15).
+2. (⚠️ wording SUPERSEDED — see the FINAL texts; the invariant's intent holds) No rule changes meaning: N1 restates the two rulings with their record pointers; N2 names the homes that already bind and keeps the two boot-local reminders verbatim in substance; N3 keeps the one operative sentence of the contract; N4 keeps the five every-boot hooks by slug.
 3. The /boot runner's two copies stay identical (parity gate) and point at the new homes (P1, P2).
 4. READS.tsv unchanged; BOOT_MODULES remains `scoped`.
 5. `python3 PROME/tools/measure.py PROME/BOOT.md` < 22,785 B after the move; `scripts/read_cap_check.py --agent PROME` shows rotation_due=0.
 6. Nothing else in BOOT.md changes: `git diff --numstat` shows only the spans named here plus P3.
 7. The execution order paragraph and every step number are unchanged (the runner cites them).
 
-## Plan read / Result read / Declared residue
-Plan read: PENDING. Result read: PENDING. Residue: (after the reads)
+
+## Plan read (read 1) and plan corrections — 12:25 ET
+Sonnet coldreader `coldread-552-plan` (ledger `/tmp/claude-1000/-home-willi-Research-workspace-PROME/ea9c7b61-1017-42e5-b9bb-0fed5471f6f1/scratchpad/coldread-552-plan.md`, session-local; ORCH_LOG COLDREAD-552-PLAN): 24 claims · 11 ✅ · 8 ⚠️ · 5 ❌; mechanics (spans, bytes, crcs, P1/P2 BEFORE texts, runner parity) all exact. Verdict: not actable as drafted. Every ❌ corrected in the PLAN before any edit (the plan read exists for this):
+- ❌8/20 (size: the drafted NEW texts added 2,845 B ⇒ ≈74%, missing the 70% target): N1–N4 rewritten tight — the move script asserts the projected size < 22,785 B before writing ANY file and refused twice (23,033 B · 22,846 B) before the third tightening passed; the live 4b line (457 B) is replaced, not added to; the header's "Prior stamps →" tail is kept once. Measured value: result-read paragraph.
+- ❌15 (invariant 1 said MEMORIES crc excludes the heading; it includes it): the MEMORIES section moves WHOLE, heading line included; its crc32 2981797587 is over heading-to-EOF; invariant 1 reads that way now.
+- ❌10 (N1 lost "historical BRIEF/HANDBOOK/HTML and change-feed records are frozen; use canonical owner records and the direct conversation" and had no pointer to § Rotated banners): both restored in N1 FINAL.
+- ❌11a (N2 dropped "No trade execution", "FORGE is a stale mirror, never execution authority / live prices at fire-time", "each brief carries COMPLETION_SPEC" and loosened the trade line): N2 FINAL is a TIGHTENED Non-Negotiables block keeping every instruction in substance. Will approved "one pointer line"; the reader showed that form loses rules, so the unit is executed as a wording consolidation, not a deletion — deviation declared here and in the WQ-552 row. The playbook's "mode split + Runtime mechanics" sub-clause is not restated (the playbook is the pointer).
+- ❌11b (N2 claimed all four homes load before this manual — false for GIT_COORDINATION and ORCHESTRATION_PLAYBOOK): claim removed; the trigger lines kept.
+- ⚠️ acted on (action-class): N3 keeps the rc meanings and names the trigger for opening the module (any ⚠️/❌/UNKNOWN gate line); N4 no longer says "Read" and marks the module "not a boot read"; `memory/auto/INDEX_COLD_EMBEDDED.md` L5 pointer re-aimed at the module (carve-out ③, a pointer row PROME authored); P3 uses the `date` clock and the dropped 10/16 prior stamp is appended to `archive/BOOT_STAMP_CHAIN_2026-10-16.md`; bare `READS.tsv` → `PROME/registry/READS.tsv`.
+- ⚠️ to residue: N3 does not restate the WQ-249 COMPLETE / "counts UNKNOWN — read the log" sentences (in the module; the trigger sentence sends the reader there); N4 drops the "Full lessons: memory/auto/<slug>.md" pointer (the module carries it).
+
+### FINAL texts as inserted
+- N1 (appended to step 3b): ` **Standing banners (folded here 2026-10-30, WQ-552 A; verbatim: `PROME/BOOT_MODULES.md` § Rotated banners):** Helm RETIRED (WQ-461): no routine dashboard generation, presentation upkeep, hosted reads or publication; historical BRIEF/HANDBOOK/HTML and change-feed records are frozen — use canonical owner records and the direct conversation; book line, WALTER intake and decision checks stay active. Deck PAUSED BY WILL (WQ-460): as this bullet says.`
+- N2 (replaces § Non-Negotiables through the line before `---`):
+```
+## Non-Negotiables
+
+- **No trade execution.** Live prices and the broker book at fire-time; FORGE is a stale mirror, never execution authority. Root `CLAUDE.md` rules #4/#5, position-truth canon and Git Protocol bind; `PROME/CLAUDE.md` Ask-First governs external sends and shared/root edits.
+- **No agent edits** unless Will explicitly approves.
+- **Repeated same-day respawns:** no HEARTBEAT rewrite or state churn for hygiene alone — a real market/system event or a user decision is required.
+- **FRED citations** name observation dates, not retrieval dates.
+- Another agent's local/branch work ⇒ `PROME/GIT_COORDINATION.md` before commit/merge/push. More than one agent ⇒ `PROME/ORCHESTRATION_PLAYBOOK.md`; each brief carries `PROME/COMPLETION_SPEC.md`; preflight and authority: `PROME/CLAUDE.md`.
+```
+- N3 (replaces the LOGREAD span): `**Log-read contract → `PROME/BOOT_MODULES.md` § Gate log-read contract (verbatim, 2026-10-30, WQ-552 A); open it on any ⚠️/❌/UNKNOWN gate line.** Here: `gate.txt` to EOF with the bounded reader; a named log only as drill-down on a flagged line whose preview does not name the item; rc=1 blocking, rc=2 unknown; a `--sessions-json` snapshot is scoped evidence, never proof of absence.`
+- N4 (replaces the 4b line): `   - **4b. Boot-class fleet memories — the every-boot five** (full section, mechanized pointers and trigger-keyed groups moved verbatim 2026-10-30 to `PROME/BOOT_MODULES.md` § Boot-class fleet memories; not a boot read): `finding_boot_sweep_macro_regime_context` · `finding_inbound_lane_is_the_falsification_channel` · `finding_gitignored_private_drop_boot_surfaced` · `feedback_front_load_planning` · `finding_display_filter_gating_safety_net`.`
+- N5: banner lines deleted; N6: four module sections appended (MEMORIES with its own heading line, verbatim); N7 P1/P2 as planned, P3 = the `**Owner:** … **Updated:**` header line with the `date` clock, the prior stamp rotated to the archive file, the "Prior stamps →" tail kept once.
+
+## Reads
+Plan read: DONE (above). Result read: DONE 12:28 ET — Sonnet coldreader `coldread-552-result` (ledger `/tmp/claude-1000/-home-willi-Research-workspace-PROME/ea9c7b61-1017-42e5-b9bb-0fed5471f6f1/scratchpad/coldread-552-result.md`, session-local; ORCH_LOG COLDREAD-552-RESULT): 24 claims · 19 ✅ · 5 ⚠️ · 0 ❌. At the files: N1–N4 each once in BOOT.md; all four crc32s recomputed over BOOT_MODULES match the table (LOGREAD 3869686084 · MEMORIES 2981797587 · NONNEG 816980847 · BANNERS 3574064564); `measure.py` 22,739 B (46 B under the 22,785 B stop); runner copies cmp-identical, P1/P2 once each; no old instruction lost outright, no new instruction added; numstat BOOT.md 8/32 · BOOT_MODULES 52/1 · SKILL.md 2/2 ×2 · archive 2/0 · INDEX_COLD_EMBEDDED 1/1. Verdict: "Yes for the six files." No third read owed (0 ❌). Post-read typo-class fixes only: the header's double period and the BOOT_MODULES L1 dangling plan tail.
+
+## Declared residue (⚠️ not fixed, per the Review budget)
+- ⚠️1 (two versions of N1–N4 in this record): marked SUPERSEDED above; the pre-read draft stays as history.
+- ⚠️2 (one unnamed BOOT.md hunk — a blank line removed before "Bounded reads" by the blank-collapse step; invariant 6 named spans only): whitespace, no text moved; declared.
+- ⚠️3 (N2 narrows the orchestration bullet's sub-clause "mode split and Runtime mechanics" to the playbook pointer, and "trade fire-time" to "fire-time"): the playbook is the home of the mode split; "fire-time" in the trade line is unambiguous in context. Declared, not re-cut.
+- ⚠️4 (step 4b lists the five slugs with no verb; "not a boot read" could be misread as covering the five): the heading phrase "the every-boot five" carries the read; the hooks and the `memory/auto/<slug>.md` pointer live in the module. If a cold boot stumbles here, re-cut at the next touch — recorded as a watch item, not fixed after the final read.
+- ⚠️5 (the Helm ruling-record path and "the hosted page has not been disabled" survive only in § Rotated banners): step 3b carries WQ-460/461 by id and the "unseen taps remain UNKNOWN" sentence; the record paths are one hop away. Declared.
+- Reader's unscored notes: the duplicate `## Non-Negotiables` heading inside § Rotated Non-Negotiables is the verbatim moved text (intentional); the WQ-552 row's "Done" is the RULING's date, not the encode's — the row note names this record for the encode state.
+
+**Completion (WQ-229):** IMPLEMENTED (this commit) · TESTED (measure.py, read_cap_check rotation_due=0, cmp parity, crc32 ×4 by the move script) · INDEPENDENTLY VERIFIED (read 2, 0 ❌) · STILL UNRESOLVED: none; rotation #3 FINISHED at 69.9% (22,739 B at the read; 22,738 B after the post-read typo fix — `measure.py` is the instrument).

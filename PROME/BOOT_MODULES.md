@@ -1,4 +1,4 @@
-# PROME/BOOT_MODULES.md — on-demand companions of `PROME/BOOT.md` (created 2026-10-16 16:1x ET, rotation M2–M5; plan + reads: `PROME/proposals/2026-10-16_boot-rotation-PLAN.md`; M6 Resume after a restart moved 2026-10-29 — plan `PROME/proposals/2026-10-29_boot-rotation-PLAN.md`)
+# PROME/BOOT_MODULES.md — on-demand companions of `PROME/BOOT.md` (created 2026-10-16 16:1x ET, rotation M2–M5; plan + reads: `PROME/proposals/2026-10-16_boot-rotation-PLAN.md`; M6 Resume after a restart moved 2026-10-29; M7 rotation #3 (log-read contract · fleet memories · Non-Negotiables · banners) 2026-10-30 — plan PROME/proposals/2026-10-30_boot-rotation-3-PLAN.md — plan `PROME/proposals/2026-10-29_boot-rotation-PLAN.md`)
 **Owner:** PROME. **Not a boot read** — each section is opened at the trigger its BOOT.md pointer names. Every section below is the BOOT.md text byte-identical at the move (crc32 per section in the commit body); it is maintained HERE from now on, never re-copied into BOOT.md. READS.tsv mode `scoped`.
 
 ## Repeat boot
@@ -66,3 +66,54 @@ At the opening report, apply the runtime selection sequence in `PROME/COMPLETION
 4. **Targeted context, then act.** Read the research/HEARTBEAT sections and boot-memory guidance needed by the resumed task, changed decisions, arrivals or flagged checks. Unlike full step5/4b/9, no automatic whole HEARTBEAT reload, broad boot-memory recital, unrelated historical report reload, dashboard pull or new top-proposals exercise is required. A changed-source/task/market requirement triggers its relevant read or refresh; current-price tasks still require fresh observations. Step8's book line, decision/critical-blocker, ACTION/SKIPPED/PARTIAL and research-first rules remain, expressed as a concise delta; explicitly name carried unresolved controls. Say which task is resumed and take its next authorized action. A valid checkpoint is research navigation, not retained conversational memory or a completed boot verdict.
 
 This mode adds no spawn allowance, closes no assignment and changes no grade or trade authority. Day boundaries and new events trigger fresh due-work checks, not automatic clearance. The actual end-of-day Standard closeout and its duties remain owed. If no new arrival/deadline occurred, report that observation rather than claiming that detection was experimentally demonstrated.
+
+---
+
+## Gate log-read contract
+*Moved verbatim from `PROME/BOOT.md` 2026-10-30 under WQ-552 A (rotation #3); crc32 3869686084 over the moved text as stated in the plan; plan `PROME/proposals/2026-10-30_boot-rotation-3-PLAN.md`.*
+
+**Log-read contract (change 2026-10-16, Will's word 16:04 ET; acceptance `PROME/tools/tests/ACCEPTANCE_gate_log_summary_2026-10-16.md`): read `gate.txt` to EOF with the bounded reader — it carries every check's verdict, its named flags and, for the WQ-249 orchestration check, the four closeout-state counts with today's touch names read from the log itself. A named log is read (bounded reader, to EOF) ONLY when its gate line is ⚠️/❌ AND the line's preview does not name the item PROME must act on, or when PROME drills into one named flag; the WQ-249 log's UNKNOWN rows older than today are legacy and are never a boot read. A WQ-249 line that names every touch dated today (the four states and the UNKNOWN rows) is COMPLETE — its standing sentence *spawn inventory coverage UNKNOWN* is printed on every run and alone never requires the log; UNKNOWN rows older than today are the standing WQ-249 backlog, worked at closeout (Pre-closeout 3), not re-read at boot. The spawn-list line carries the class counts and every DARK and ACTIVE row id; ACTIVE rows take their consumer read at the owner's artifact (the slate's read-first list, step 6), never from the log. A gate line reading `UNKNOWN: counts UNKNOWN — read the log` means exactly that. Only the WQ-249 log may use `--view orch-compact-v1` when it IS read: identical UNKNOWN reasons are grouped, every full identity and all other text retained, never converted to receipts; continue with the same view and returned offset/digest; `full-fallback`, missing view or rendering errors require full-text inspection; an unreadable original remains UNKNOWN. The gate's verdict block owns the check list and severity; rc=1 means blocking failure, rc=2 unknown execution. **New fleet-wide checks get added to the SCRIPT, not to this prose.** Optional `--sessions-json <path>` takes a fresh same-host `session_bridge.py` snapshot; otherwise presence is collected in the caller's visible namespace. A snapshot is scoped evidence; record its runtime/namespace coverage and observation time. It never alone proves a desk absent or replaces the canonical same-minute Desk-spawn preflight in `PROME/CLAUDE.md`. Acquisition details: `PROME/tools/SESSION_PILOT.md`.
+
+---
+
+*Moved verbatim from `PROME/BOOT.md` 2026-10-30 under WQ-552 A (rotation #3); crc32 2981797587 over the moved text as stated in the plan; plan `PROME/proposals/2026-10-30_boot-rotation-3-PLAN.md`.*
+
+## Boot-class fleet memories (fleet-memory embeds — migrated 2026-07-31, Phase-2 restructure; per-item review 2026-08-29 EVE)
+*Memory hooks; the `INDEX_COLD.md` pointers resolve here. Only the first group is every-boot; other groups apply at their named trigger. Full lessons: `memory/auto/<slug>.md` (on-demand).*
+
+**PROME's own boot (unpredictable-trigger — read every boot):**
+- finding_boot_sweep_macro_regime_context — a month-old Fed-Chair/BOJ-Gov change can sit un-modeled if boot covers only feeds + calendars; check principals
+- finding_inbound_lane_is_the_falsification_channel — a lane that can carry a falsifier for a thesis you own is boot-MANDATORY, never spawn-optional (HAWK 9d unread)
+- finding_gitignored_private_drop_boot_surfaced — gitignored drops (broker exports) are invisible to `git status`; a boot-card line is the only discovery path
+- feedback_front_load_planning — multi-step deterministic work: surface every decision in ONE planning pass, let Will batch-approve, then execute mechanically
+- finding_display_filter_gating_safety_net — a forward-section display filter silently gates the past-due safety net too (OTTO 7/25: 3-of-4 fired items hidden)
+
+**Already mechanized on PROME's boot path (pointer only — the step is the carrier):**
+- finding_fetch_before_trusting_boot_sync → step 0 (`git fetch` before ahead/behind) · feedback_scan_agent_outboxes_at_boot → step 6 (the every-boot carrier is the BOARD diff-scan inside the gate; the raw `outbox/*to-PROME*` read stays conditional — WALTER routes, the scan is the pull) · finding_freshness_audit_vs_caught_up → `prome_gate.py boot` (step 5) check "agent freshness (ground-truth vs narrative)" (advisory, per-agent staleness) plus the ACTION OWED check "PROME/inbox drained" (every unfiled file; 2026-10-21) — neither stops boot (mtime-fresh ≠ caught-up on inbox backlog)
+
+**Trigger-keyed groups** (desk revival · desk hardening) → `PROME/BOOT_MODULES.md` § Trigger-keyed fleet memories (read at the spawn or hardening moment, never at boot).
+
+---
+
+## Rotated Non-Negotiables (2026-10-30)
+*Verbatim prior text of `PROME/BOOT.md` § Non-Negotiables before rotation #3 (crc32 816980847); the live, tightened block is in BOOT.md — this is history, not instruction.*
+
+## Non-Negotiables
+
+- **Repeated same-day respawns:** do not rewrite HEARTBEAT or churn state for hygiene alone; require a real market/system event or user decision.
+- **FRED citations:** name observation dates, not retrieval dates.
+- Root `CLAUDE.md` Critical Rules #4/#5, position-truth canon and Git Protocol bind; PROME/CLAUDE.md Ask-First governs external sends and shared/root edits. Use live prices and the broker book at trade fire-time; FORGE is a stale mirror, never execution authority.
+- **No trade execution.**
+- **No agent edits** unless Will explicitly approves.
+- **Shared repo coordination:** when another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
+- **Multi-agent orchestration:** before spawning more than one agent, apply `PROME/ORCHESTRATION_PLAYBOOK.md`'s substantive mode split and Runtime mechanics. Each brief carries `PROME/COMPLETION_SPEC.md`; launch preflight and authority remain in `PROME/CLAUDE.md`.
+
+
+---
+
+## Rotated banners (2026-10-30)
+*Verbatim prior text of `PROME/BOOT.md` lines 6 and 8 before rotation #3 (crc32 3574064564); the rulings are carried at BOOT.md step 3b — history, not instruction.*
+
+**Helm RETIRED (WQ-461, 2026-10-19).** No routine dashboard generation, presentation upkeep, hosted reads or publication. Historical BRIEF/HANDBOOK/HTML and change-feed records are frozen; use canonical owner records and the direct conversation. The boot book line, WALTER intake and decision checks remain active. Authority: `PROME/proposals/2026-10-19_wq461-helm-retired-RULED.md`.
+
+**Decision Deck PAUSED BY WILL (WQ-460, 2026-10-19).** Deck-specific pickup, upkeep, builds and publication are suspended until explicit resume and reconciliation. Decisions continue in chat + WILL_QUEUE; WALTER intake still runs at step 3b. Scope: `PROME/proposals/2026-10-19_wq460-decision-deck-paused-RULED.md`. The hosted page has not been disabled; unseen taps remain UNKNOWN.
