@@ -1,0 +1,1362 @@
+{
+  "as_of": "2026-10-30T00:51:31.653072+00:00",
+  "basis": "Fetched evidence; intraday/vendor bars do not complete settlement or daily-close grades.",
+  "T5YIFR": [
+    {
+      "date": "2026-10-29",
+      "value": "2.23"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "2.27"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "2.25"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "2.21"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "2.2"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "2.19"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "2.34"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "2.31"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "2.32"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "2.33"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "2.31"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "2.34"
+    }
+  ],
+  "BAMLH0A0HYM2": [
+    {
+      "date": "2026-10-28",
+      "value": "3.14"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "3.18"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "3.3"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "3.38"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "3.4"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "3.27"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "3.33"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "3.29"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "3.31"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "3.23"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "3.25"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "3.16"
+    }
+  ],
+  "VIXCLS": [
+    {
+      "date": "2026-10-28",
+      "value": "16.91"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "17.52"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "18.39"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "19.45"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "19.03"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "16.68"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "17.31"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "18.44"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "19.99"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "16.46"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "16.87"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "15.27"
+    }
+  ],
+  "ICSA": [
+    {
+      "date": "2026-10-24",
+      "value": "194000"
+    },
+    {
+      "date": "2026-10-17",
+      "value": "195000"
+    },
+    {
+      "date": "2026-10-10",
+      "value": "200000"
+    },
+    {
+      "date": "2026-10-03",
+      "value": "198000"
+    },
+    {
+      "date": "2026-09-26",
+      "value": "199000"
+    },
+    {
+      "date": "2026-09-19",
+      "value": "198000"
+    },
+    {
+      "date": "2026-09-12",
+      "value": "198000"
+    },
+    {
+      "date": "2026-09-05",
+      "value": "207000"
+    },
+    {
+      "date": "2026-08-29",
+      "value": "207000"
+    },
+    {
+      "date": "2026-08-22",
+      "value": "204000"
+    },
+    {
+      "date": "2026-08-15",
+      "value": "207000"
+    },
+    {
+      "date": "2026-08-08",
+      "value": "212000"
+    }
+  ],
+  "BAMLH0A3HYC": [
+    {
+      "date": "2026-10-28",
+      "value": "13.07"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "13.21"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "13.45"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "13.56"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "13.4"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "13.07"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "13.27"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "13.1"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "12.97"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "12.78"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "12.82"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "12.67"
+    }
+  ],
+  "SOFR": [
+    {
+      "date": "2026-10-28",
+      "value": "3.94"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "3.95"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "3.93"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "3.92"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "3.88"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "3.88"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "3.87"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "3.88"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "3.89"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "3.88"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "3.89"
+    }
+  ],
+  "DGS5": [
+    {
+      "date": "2026-10-28",
+      "value": "4.85"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "4.82"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "4.84"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "4.82"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "4.78"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "4.95"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "4.94"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "4.94"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "4.89"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "4.91"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5"
+    }
+  ],
+  "DGS2": [
+    {
+      "date": "2026-10-28",
+      "value": "4.67"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "4.7"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "4.68"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "4.69"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "4.65"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "4.81"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "4.79"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "4.77"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "4.74"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "4.77"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "4.82"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "4.79"
+    }
+  ],
+  "IORB": [
+    {
+      "date": "2026-10-30",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-29",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-25",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-24",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "3.9"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "3.9"
+    }
+  ],
+  "DGS10": [
+    {
+      "date": "2026-10-28",
+      "value": "5.05"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "4.99"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "5"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "5"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "4.96"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "5.13"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "5.12"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "5.15"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "5.09"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "5.1"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5.19"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5.21"
+    }
+  ],
+  "T10YIE": [
+    {
+      "date": "2026-10-29",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "2.38"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "2.34"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "2.34"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "2.32"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "2.37"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "2.32"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "2.35"
+    }
+  ],
+  "DGS20": [
+    {
+      "date": "2026-10-28",
+      "value": "5.41"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "5.34"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "5.35"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "5.37"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "5.32"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "5.47"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "5.47"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "5.53"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "5.47"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "5.48"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5.57"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5.6"
+    }
+  ],
+  "DFII10": [
+    {
+      "date": "2026-10-28",
+      "value": "2.67"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "2.64"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "2.66"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "2.66"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "2.64"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "2.76"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "2.77"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "2.8"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "2.74"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "2.78"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "2.84"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "2.88"
+    }
+  ],
+  "DGS30": [
+    {
+      "date": "2026-10-28",
+      "value": "5.37"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "5.3"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "5.31"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "5.33"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "5.29"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "5.42"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "5.42"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "5.48"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "5.43"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "5.43"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5.52"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5.56"
+    }
+  ],
+  "SKEW": [
+    {
+      "DATE": "10/13/2026",
+      "SKEW": "154.740000"
+    },
+    {
+      "DATE": "10/14/2026",
+      "SKEW": "157.300000"
+    },
+    {
+      "DATE": "10/15/2026",
+      "SKEW": "160.450000"
+    },
+    {
+      "DATE": "10/16/2026",
+      "SKEW": "168.590000"
+    },
+    {
+      "DATE": "10/19/2026",
+      "SKEW": "161.860000"
+    },
+    {
+      "DATE": "10/20/2026",
+      "SKEW": "160.400000"
+    },
+    {
+      "DATE": "10/21/2026",
+      "SKEW": "150.360000"
+    },
+    {
+      "DATE": "10/22/2026",
+      "SKEW": "152.390000"
+    },
+    {
+      "DATE": "10/23/2026",
+      "SKEW": "151.800000"
+    },
+    {
+      "DATE": "10/26/2026",
+      "SKEW": "150.970000"
+    },
+    {
+      "DATE": "10/27/2026",
+      "SKEW": "149.220000"
+    },
+    {
+      "DATE": "10/28/2026",
+      "SKEW": "148.740000"
+    }
+  ],
+  "Cushing": [
+    {
+      "date": "2026-10-23",
+      "value": "26970"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "27594"
+    }
+  ],
+  "bank_history": {
+    "KRE": {
+      "name": "Regional Banks ETF",
+      "days": 20,
+      "history": [
+        {
+          "date": "2026-10-01",
+          "close": 69.95,
+          "volume": 21331200
+        },
+        {
+          "date": "2026-10-02",
+          "close": 70.78,
+          "volume": 18654200
+        },
+        {
+          "date": "2026-10-05",
+          "close": 70.39,
+          "volume": 9793600
+        },
+        {
+          "date": "2026-10-06",
+          "close": 70.07,
+          "volume": 10550800
+        },
+        {
+          "date": "2026-10-07",
+          "close": 68.89,
+          "volume": 20355600
+        },
+        {
+          "date": "2026-10-08",
+          "close": 69.59,
+          "volume": 18920300
+        },
+        {
+          "date": "2026-10-09",
+          "close": 69.01,
+          "volume": 15111600
+        },
+        {
+          "date": "2026-10-12",
+          "close": 69.56,
+          "volume": 7091200
+        },
+        {
+          "date": "2026-10-13",
+          "close": 69.06,
+          "volume": 12186800
+        },
+        {
+          "date": "2026-10-14",
+          "close": 68.54,
+          "volume": 19909400
+        },
+        {
+          "date": "2026-10-15",
+          "close": 69.75,
+          "volume": 20139400
+        },
+        {
+          "date": "2026-10-16",
+          "close": 69.81,
+          "volume": 15244300
+        },
+        {
+          "date": "2026-10-19",
+          "close": 69.26,
+          "volume": 10147100
+        },
+        {
+          "date": "2026-10-20",
+          "close": 70.62,
+          "volume": 17367500
+        },
+        {
+          "date": "2026-10-21",
+          "close": 70.62,
+          "volume": 15446400
+        },
+        {
+          "date": "2026-10-22",
+          "close": 72.41,
+          "volume": 18516300
+        },
+        {
+          "date": "2026-10-23",
+          "close": 72.46,
+          "volume": 16066000
+        },
+        {
+          "date": "2026-10-26",
+          "close": 72.73,
+          "volume": 13662200
+        },
+        {
+          "date": "2026-10-27",
+          "close": 72.58,
+          "volume": 12754000
+        },
+        {
+          "date": "2026-10-28",
+          "close": 72.11,
+          "volume": 12333500
+        }
+      ],
+      "high": 72.73,
+      "low": 68.54,
+      "start": 69.95,
+      "end": 72.11,
+      "null_bars": [
+        "2026-10-29"
+      ],
+      "missing_sessions": [],
+      "holiday_gaps": [],
+      "complete": false,
+      "period_change_pct": 3.09
+    },
+    "WAL": {
+      "name": "Western Alliance",
+      "days": 20,
+      "history": [
+        {
+          "date": "2026-10-01",
+          "close": 75.7,
+          "volume": 1429400
+        },
+        {
+          "date": "2026-10-02",
+          "close": 76.38,
+          "volume": 983000
+        },
+        {
+          "date": "2026-10-05",
+          "close": 76.02,
+          "volume": 1594100
+        },
+        {
+          "date": "2026-10-06",
+          "close": 76.09,
+          "volume": 1797200
+        },
+        {
+          "date": "2026-10-07",
+          "close": 74.35,
+          "volume": 1480000
+        },
+        {
+          "date": "2026-10-08",
+          "close": 75.5,
+          "volume": 1387200
+        },
+        {
+          "date": "2026-10-09",
+          "close": 74.27,
+          "volume": 838100
+        },
+        {
+          "date": "2026-10-12",
+          "close": 74.69,
+          "volume": 736100
+        },
+        {
+          "date": "2026-10-13",
+          "close": 73.73,
+          "volume": 1433400
+        },
+        {
+          "date": "2026-10-14",
+          "close": 72.22,
+          "volume": 1680700
+        },
+        {
+          "date": "2026-10-15",
+          "close": 74.35,
+          "volume": 1572000
+        },
+        {
+          "date": "2026-10-16",
+          "close": 74.51,
+          "volume": 852800
+        },
+        {
+          "date": "2026-10-19",
+          "close": 73.63,
+          "volume": 1501700
+        },
+        {
+          "date": "2026-10-20",
+          "close": 75.3,
+          "volume": 1471200
+        },
+        {
+          "date": "2026-10-21",
+          "close": 75.55,
+          "volume": 1178700
+        },
+        {
+          "date": "2026-10-22",
+          "close": 76.67,
+          "volume": 1157500
+        },
+        {
+          "date": "2026-10-23",
+          "close": 76.12,
+          "volume": 915100
+        },
+        {
+          "date": "2026-10-26",
+          "close": 75.44,
+          "volume": 981400
+        },
+        {
+          "date": "2026-10-27",
+          "close": 76.4,
+          "volume": 874600
+        },
+        {
+          "date": "2026-10-28",
+          "close": 75.96,
+          "volume": 856700
+        }
+      ],
+      "high": 76.67,
+      "low": 72.22,
+      "start": 75.7,
+      "end": 75.96,
+      "null_bars": [
+        "2026-10-29"
+      ],
+      "missing_sessions": [],
+      "holiday_gaps": [],
+      "complete": false,
+      "period_change_pct": 0.34
+    }
+  },
+  "HY_first_published": {
+    "basis": "first-published",
+    "series": "BAMLH0A0HYM2",
+    "rows": [
+      {
+        "date": "2026-10-28",
+        "value": "3.14",
+        "first_published": "2026-10-28"
+      },
+      {
+        "date": "2026-10-27",
+        "value": "3.18",
+        "first_published": "2026-10-27"
+      },
+      {
+        "date": "2026-10-26",
+        "value": "3.3",
+        "first_published": "2026-10-26"
+      },
+      {
+        "date": "2026-10-23",
+        "value": "3.38",
+        "first_published": "2026-10-23"
+      },
+      {
+        "date": "2026-10-22",
+        "value": "3.4",
+        "first_published": "2026-10-22"
+      },
+      {
+        "date": "2026-10-21",
+        "value": "3.27",
+        "first_published": "2026-10-21"
+      },
+      {
+        "date": "2026-10-20",
+        "value": "3.33",
+        "first_published": "2026-10-20"
+      },
+      {
+        "date": "2026-10-19",
+        "value": "3.29",
+        "first_published": "2026-10-19"
+      },
+      {
+        "date": "2026-10-16",
+        "value": "3.31",
+        "first_published": "2026-10-16"
+      },
+      {
+        "date": "2026-10-15",
+        "value": "3.23",
+        "first_published": "2026-10-15"
+      },
+      {
+        "date": "2026-10-14",
+        "value": "3.25",
+        "first_published": "2026-10-14"
+      },
+      {
+        "date": "2026-10-13",
+        "value": "3.16",
+        "first_published": "2026-10-13"
+      }
+    ],
+    "request": {
+      "series_id": "BAMLH0A0HYM2",
+      "output_type": 4,
+      "observation_start": "2026-09-15",
+      "realtime_start": "2026-09-01",
+      "realtime_end": "9999-12-31",
+      "limit": 12
+    },
+    "short": false,
+    "missing": [],
+    "under_limit": false
+  },
+  "AGSI": {
+    "row": [
+      "2026-10-28",
+      74.89,
+      "-0.06"
+    ],
+    "error": null,
+    "norm": [
+      89.65599999999999,
+      94.27,
+      5,
+      [
+        [
+          2021,
+          77.03
+        ],
+        [
+          2022,
+          94.27
+        ],
+        [
+          2023,
+          98.84
+        ],
+        [
+          2024,
+          95.31
+        ],
+        [
+          2025,
+          82.83
+        ]
+      ]
+    ]
+  },
+  "prices": {
+    "KRE": {
+      "price": 72.86,
+      "prev": 72.11,
+      "change_pct": 1.04,
+      "name": "Regional Banks ETF",
+      "volume": 9136465,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": null,
+      "contract_basis": "name-cut-confirmed-by-longName-at-31:'State Street SPDR S&P Regional '",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "WAL": {
+      "price": 77.8,
+      "prev": 75.96,
+      "change_pct": 2.42,
+      "name": "Western Alliance",
+      "volume": 1114708,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Western Alliance Bancorporation'",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "OZK": {
+      "price": 51.31,
+      "prev": 50.51,
+      "change_pct": 1.58,
+      "name": "Bank OZK",
+      "volume": 1242270,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Bank OZK' (instrumentType='EQUITY')",
+      "instrument_type": "EQUITY",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "^VIX": {
+      "price": 17.2,
+      "prev": 16.91,
+      "change_pct": 1.71,
+      "name": "VIX",
+      "volume": 0,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'CBOE Volatility Index' (instrumentType='INDEX')",
+      "instrument_type": "INDEX",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "QQQ": {
+      "price": 715.34,
+      "prev": 725.61,
+      "change_pct": -1.42,
+      "name": "QQQ",
+      "volume": 36940569,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'Invesco QQQ Trust, Series 1' (instrumentType='ETF')",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "USO": {
+      "price": 168.19,
+      "prev": 166.57,
+      "change_pct": 0.97,
+      "name": "USO",
+      "volume": 4402544,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'United States Oil Fund' (instrumentType='ETF')",
+      "instrument_type": "ETF",
+      "is_future": false,
+      "contract_symbol": null
+    },
+    "CLZ26.NYM": {
+      "price": 102.74,
+      "prev": 102.78,
+      "change_pct": null,
+      "name": "CLZ26.NYM",
+      "volume": 5180,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "CLZ26",
+      "session": "evening-next-session",
+      "trade_date": "2026-10-30",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-10-29 20:41:28 [America/New_York] vs bar 2026-10-29; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "CLF27.NYM": {
+      "price": 100.78,
+      "prev": 100.99,
+      "change_pct": null,
+      "name": "CLF27.NYM",
+      "volume": 1161,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": "Jan 2027",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "CLF27",
+      "session": "evening-next-session",
+      "trade_date": "2026-10-30",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-10-29 20:40:28 [America/New_York] vs bar 2026-10-29; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "BZZ26.NYM": {
+      "price": 115.5,
+      "prev": 115.32,
+      "change_pct": null,
+      "name": "BZZ26.NYM",
+      "volume": 17,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ'",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": null,
+      "session": "evening-next-session",
+      "trade_date": "2026-10-30",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-10-29 20:04:53 [America/New_York] vs bar 2026-10-29; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "RBX26.NYM": {
+      "price": 3.18,
+      "prev": 3.17,
+      "change_pct": 0.1,
+      "name": "RBX26.NYM",
+      "volume": 9728,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": "Nov 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "RBX26",
+      "session": "day",
+      "trade_date": "2026-10-29",
+      "session_basis": "day session; last trade 2026-10-29 16:55:57 [America/New_York] vs bar 2026-10-29; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-28)"
+    },
+    "RBZ26.NYM": {
+      "price": 3.1,
+      "prev": 3.11,
+      "change_pct": null,
+      "name": "RBZ26.NYM",
+      "volume": 83,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "RBZ26",
+      "session": "evening-next-session",
+      "trade_date": "2026-10-30",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-10-29 20:37:36 [America/New_York] vs bar 2026-10-29; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "HOX26.NYM": {
+      "price": 4.72,
+      "prev": 4.82,
+      "change_pct": null,
+      "name": "HOX26.NYM",
+      "volume": 128,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": "Nov 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "HOX26",
+      "session": "evening-next-session",
+      "trade_date": "2026-10-30",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-10-29 20:26:25 [America/New_York] vs bar 2026-10-29; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "HOZ26.NYM": {
+      "price": 4.59,
+      "prev": 4.66,
+      "change_pct": null,
+      "name": "HOZ26.NYM",
+      "volume": 367,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "HOZ26",
+      "session": "evening-next-session",
+      "trade_date": "2026-10-30",
+      "session_basis": "last trade at/after the day-session close on the bar date; last trade 2026-10-29 20:37:59 [America/New_York] vs bar 2026-10-29; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "withheld: evening bar spans two sessions \u2014 regularMarketPreviousClose is the settle BEFORE the overwritten session",
+      "prev_basis": "regularMarketPreviousClose \u2014 NOT the last settle while the session is not a verified day bar (may be two sessions back)"
+    },
+    "TTFZ26.NYM": {
+      "price": 97.51,
+      "prev": 100.34,
+      "change_pct": -2.82,
+      "name": "TTFZ26.NYM",
+      "volume": 86,
+      "asof": "2026-10-29",
+      "prev_asof": "2026-10-28",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Dutch TTF Natural Gas Calendar '",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": null,
+      "session": "day",
+      "trade_date": "2026-10-29",
+      "session_basis": "day session; last trade 2026-10-29 11:46:45 [America/New_York] vs bar 2026-10-29; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-28)"
+    },
+    "EURUSD=X": {
+      "price": 1.12,
+      "prev": 1.12,
+      "change_pct": 0.08,
+      "name": "EURUSD=X",
+      "volume": 0,
+      "asof": "2026-10-30",
+      "prev_asof": "2026-10-29",
+      "contract_month": null,
+      "contract_basis": "name-carries-no-month:'EUR/USD' (instrumentType='CURRENCY')",
+      "instrument_type": "CURRENCY",
+      "is_future": false,
+      "contract_symbol": null
+    }
+  }
+}

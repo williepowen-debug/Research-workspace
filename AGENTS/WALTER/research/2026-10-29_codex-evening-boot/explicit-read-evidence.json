@@ -1,0 +1,112 @@
+{
+  "as_of": "2026-10-30T00:55:14Z",
+  "session": "01a18a48-0e7c-7892-9560-3672bf9cf6ef",
+  "basis": "Manual explicit reads; scoped/partial reads are separately declared in BOOT-RECEIPT.md. Hashes bind bytes, not execution certification.",
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "sha256": "fbb9eaa7a5586de62911ad84130b1792d77a483b34897681b125f4c4a0d4325b",
+      "bytes": 24313
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "70ec98ebc0c046d5db796b208f15ef7fd4552f6ef8634e550cfcf8f117a1c5b0",
+      "bytes": 5756
+    },
+    {
+      "path": "USER.md",
+      "sha256": "cf1ccc03a1aec9ab27d5c8bdcb99555be7d976fe18cc53798dda3ccc18f70299",
+      "bytes": 8458
+    },
+    {
+      "path": "AGENTS/WALTER/CLAUDE.md",
+      "sha256": "efa11a04d2ee7aeb695565aad461ce2a42bf7e45712072e57b0cbd99d5733749",
+      "bytes": 24017
+    },
+    {
+      "path": "AGENTS/WALTER/STATUS.md",
+      "sha256": "9c6c1b612d70f847ca91f708a40c1538a1baccc704c9e4dd510f18c4f83d27be",
+      "bytes": 24171
+    },
+    {
+      "path": "AGENTS/WALTER/MEMORY.md",
+      "sha256": "4cb521e3ae7485e959a1eb13535c17c0cf15b585593ed2cbf0527dc59f086366",
+      "bytes": 23808
+    },
+    {
+      "path": "AGENTS/WALTER/LAST_COMPLETION.md",
+      "sha256": "5e4f832f613e1dd54c382f0f4ebf4e0595102c39ceb69ff3c79be969582d8552",
+      "bytes": 12197
+    },
+    {
+      "path": "AGENTS/WALTER/anchors/IRAN_WAR.md",
+      "sha256": "e591da4cc34d91bdd5bc3f48fecb4adf993d4722132291352d163dd17d6c374a",
+      "bytes": 18817
+    },
+    {
+      "path": "AGENTS/WALTER/REGISTRY.tsv",
+      "sha256": "516d09c8ad270d52d2563e065989b2901b7d349469621a9459c9d0061feb1862",
+      "bytes": 21836
+    },
+    {
+      "path": "AGENTS/WALTER/design/ROUTING_TABLE.md",
+      "sha256": "454cca69f753ac08dd9d1d6bb4b3f61e2e919b7d3245cfe9b942002a92d1f1b3",
+      "bytes": 22776
+    },
+    {
+      "path": "AGENTS/WALTER/design/ROUTING_OVERLAYS.md",
+      "sha256": "03a6f13f336f510ef246cb3c9a05ec40e2677e23cadde6f2f5c1e2cf1f0f1d9e",
+      "bytes": 21692
+    },
+    {
+      "path": "AGENTS/WALTER/design/THRESHOLD_SCAN.md",
+      "sha256": "d69441041cb6ee26cea0702802f713672cd896a3fbe173cb66270907e148205b",
+      "bytes": 16788
+    },
+    {
+      "path": "AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv",
+      "sha256": "66d7af2c4083d99e88010437a4a1be22bc7562c11ada8afb9b471fc20dd80ec4",
+      "bytes": 20621
+    },
+    {
+      "path": "AGENTS/REGINALD/registry/THRESHOLDS.tsv",
+      "sha256": "d22500b59a6686f771f38e11ae597c7eaaa5ff21dd8696681cdf581a0d3f7939",
+      "bytes": 3542
+    },
+    {
+      "path": "AGENTS/CREED/registry/THRESHOLDS.tsv",
+      "sha256": "137d38e54c88170247b8181a7f909a857ea52ce2e29036cf36044abd2f770e45",
+      "bytes": 15559
+    },
+    {
+      "path": "AGENTS/HANS/registry/THRESHOLDS.tsv",
+      "sha256": "98f2f554a2fbf5f6fa2d10716cea80bc6e1c6a7772f449b3f38e58a0b496bd8e",
+      "bytes": 19632
+    },
+    {
+      "path": "AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv",
+      "sha256": "e37b49eac76b313f3d41aab85d0fe3dc666a1da40a7dccf54b4ddbba487131a7",
+      "bytes": 11101
+    },
+    {
+      "path": "AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv",
+      "sha256": "08b4b56020bb12517af70aee047391f1b1fce4699a3ab06f54f81acdc8dcb85d",
+      "bytes": 15260
+    },
+    {
+      "path": "AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv",
+      "sha256": "51efefa4a5b5a5b9463237b21d250de3200c70d61f26640635c7659e3a828796",
+      "bytes": 2933
+    },
+    {
+      "path": "AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv",
+      "sha256": "a14d3d1ada6879315cf1aec054e0ce77d4328e8c4ddc584a37cf1b75d2d9a9ec",
+      "bytes": 2531
+    },
+    {
+      "path": "PROME/state/ORCH_INFLIGHT.md",
+      "sha256": "7249ea07d2abea5732720ba918c83b35a8a26cabd09694fde7e4958e0d18c4b2",
+      "bytes": 30895
+    }
+  ]
+}

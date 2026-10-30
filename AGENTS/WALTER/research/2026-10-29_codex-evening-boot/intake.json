@@ -1,0 +1,363 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-10-28T20:00:53Z (2 missed weekday runs, 1 calendar days)"
+    ],
+    [
+      "OK",
+      "news search items saved: 202 (trailing median 190 over 10 batches)"
+    ]
+  ],
+  "new": [
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:EGBN_2026_10_21_2_02_7_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "EGBN 2026-10-21 ['2.02', '7.01', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": true
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:META_2026_10_21_1_01_2_02_8_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "META 2026-10-21 ['1.01', '2.02', '8.01', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": true
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:RCL_2026_10_27_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "RCL 2026-10-27 ['2.02', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-10-28/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "8 NEW_WATCH item(s) \u2014 read data/2026-10-28/news.json",
+      "label": "8 NEW_WATCH",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:138c5b0a72f1",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CRUISE"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "ROYAL CARIBBEAN GROUP REPORTS THIRD QUARTER RESULTS ABOVE EXPECTATIONS AND RAISES FULL YEAR GUIDANCE - TradingView",
+      "label": "WATCH_HIT [CRUISE:'Royal Caribbean guidance']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:a88d57166e97",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russian Refineries' Crude Runs Up 25% as Drone Strikes Halt, Diesel Exports Resume - BigGo Finance",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:91dbeead2c30",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia partially lifts ban on diesel exports after Trump-Putin deal - The Kyiv Independent",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export'; OSPREY:'Russia lifts diesel export ban']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:68dd206b6425",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Oil prices rise on Yemen fighting, Saudi refinery attack - Reuters",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:d25729448156",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Oil prices increase after attack on Saudi refinery - Transport Topics",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:962994f052b1",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Oil spikes following Houthi attack on Saudi oil refinery - CNBC",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f16718d4aa98",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Gold recovery stalls as Saudi refinery attack claims lift crude, silver retreats - Kitco AM Report - Kitco",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:39fb439e28f0",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Ansar Allah Claim Attack on Saudi Arabia\u2019s Largest Oil Refinery - Democracy Now!",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:e97f9127e9a2",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Oil prices rise after attack on Saudi Arabian refinery reignites supply concerns - CNBC",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:a6973de0be4a",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia extends diesel export ban until end of October - Awani International",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia extends diesel export ban']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f704df56bb49",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Lifts Diesel Export Ban, Ships First Loads to U.S. - PravdaReport",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'U.S. diesel export'; OSPREY:'Russia lifts diesel export ban']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:c66a0574ae6a",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HANS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "EU gas storage stalls at record low as central Europe starts drawing down - IntelliNews",
+      "label": "WATCH_HIT [HANS:'EU gas storage']",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:9f769cf08521",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "HANS",
+        "MARCO"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "ICE reports record open interest in TTF natural gas contracts By Investing.com - Investing.com Nigeria",
+      "label": "DEVELOPMENT [known entity ICE + escalation qualifier]",
+      "onset": true
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:DEVELOPMENT:81c9ddc3f9b7",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "HANS",
+        "MARCO"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "Intercontinental Exchange (ICE) Reported Record TTF Natural Gas Open Interest - Yahoo Finance",
+      "label": "DEVELOPMENT [known entity ICE + escalation qualifier]",
+      "onset": true
+    }
+  ],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=48.1 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.32 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=318.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=318bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:VLY_2026_10_22_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "VLY 2026-10-22 ['2.02', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:FLG_2026_10_23_2_02_7_01_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "FLG",
+        "REGINALD"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "FLG 2026-10-23 ['2.02', '7.01', '9.01']",
+      "label": "critical 8-K [regional_bank]",
+      "onset": false
+    }
+  ]
+}

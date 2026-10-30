@@ -96,4 +96,4 @@
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
 ## Session Notes
 
-**October 29 evening FULL closeout:** cards 039–055 (CYPHER addendum + 043 NYDFS attribution correction; Fiserv/Cl0p miss found by the lane test; Binance IMMEDIATE 048/049; Amazon capex held = not a cut; Texas data-center pause; Russia diesel). PROME landed two CYPHER lane queries. Carried: when:7d decision; R1 'WITHDRAW' false positive on 048 to flag; Iran group-3 trims. Resume: LAST_COMPLETION.md.
+**October 29 evening Codex recovery:** instruction/approval continuity recovered; operational boot PARTIAL. Local intake Git 403; remote collector healthy by connected GitHub. X refresh failed, no marks. Cboe publisher access restored, SKEW 148.74 [October 28]. Prior routing/source caveats retained. R1 withdrawals/WITHDRAW defect flagged by packet; no shared-script repair. Resume: LAST_COMPLETION.md and research/2026-10-29_codex-evening-boot/BOOT-RECEIPT.md.

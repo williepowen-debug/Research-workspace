@@ -1,0 +1,141 @@
+{
+  "last_run_utc": "2026-10-29T20:00:25Z",
+  "status": "ok",
+  "jobs": {
+    "eia_petroleum": {
+      "status": "ok",
+      "metrics": {
+        "commercial_crude_mbbl": 410.625,
+        "spr_mbbl": 282.583,
+        "cushing_mbbl": 26.97,
+        "gasoline_mbbl": 209.18,
+        "distillate_mbbl": 102.824
+      },
+      "alerts": [],
+      "saved": "data/2026-10-29/eia_petroleum.json"
+    },
+    "edgar_8k": {
+      "status": "ok",
+      "count": 7,
+      "critical": [
+        "VLY 2026-10-22 ['2.02', '9.01']",
+        "FLG 2026-10-23 ['2.02', '7.01', '9.01']",
+        "MSFT 2026-10-28 ['2.02', '9.01']",
+        "GOOGL 2026-10-28 ['2.02', '9.01']",
+        "NCLC 2026-10-29 ['5.02', '9.01']",
+        "NCLC 2026-10-29 ['2.02', '9.01']"
+      ],
+      "saved": "data/2026-10-29/edgar_8k.json"
+    },
+    "treasury_auctions": {
+      "status": "ok",
+      "count": 25,
+      "weak": [],
+      "saved": "data/2026-10-29/treasury_auctions.json"
+    },
+    "cftc_cot": {
+      "status": "ok",
+      "vix_report_date": "2026-10-20",
+      "vix_lev_money_net": -20890,
+      "alerts": [],
+      "saved": "data/2026-10-29/cftc_cot.json"
+    },
+    "fred": {
+      "status": "ok",
+      "series_count": 18,
+      "errored": [],
+      "alerts": [
+        "UMCSENT UMich sentiment=48.1 [orange]",
+        "MORTGAGE30US 30yr mortgage rate %=7.24 [red]",
+        "BAMLH0A0HYM2 HY OAS bps=314.0 [red]",
+        "BAMLH0A0HYM2 HY OAS=314bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)"
+      ],
+      "saved": "data/2026-10-29/fred.json"
+    },
+    "newsweep": {
+      "status": "ok",
+      "new": 283,
+      "skipped_already_seen": 434,
+      "by_class": {
+        "KNOWN": 15,
+        "NEW": 240,
+        "NEW_WATCH_HIT": 13,
+        "NEW_WATCH": 9,
+        "DEVELOPMENT": 3,
+        "NEW_ALERT": 3
+      },
+      "alerts": [
+        "NCLH's Q3 outperforms, full year guidance goes up - Seatrade Cruise News [NEW_WATCH_HIT]",
+        "Royal Caribbean raises 2026 earnings guidance after strong third-quarter results [NEW_WATCH_HIT]",
+        "Norwegian Cruise Line Soars 11% on Raised Guidance as CEO Sees \u201cMeaningful Accel [NEW_WATCH_HIT]",
+        "Royal Caribbean Q3 Adjusted EPS $6.57 Beats Guidance; Full-Year Outlook Raised t [NEW_WATCH_HIT]",
+        "Russia to extend diesel export ban, use quotas to fulfil US deal, sources say -  [NEW_WATCH_HIT]",
+        "Russia to extend diesel export ban, raise quotas to meet US supply commitment: R [NEW_WATCH_HIT]",
+        "Trump Says He is Still Considering Diesel Export Ban - EnergyNow.com [NEW_WATCH_HIT]",
+        "Russia to Extend Diesel Export Ban, Allow Some Shipments Under Quota System to U [NEW_WATCH_HIT]",
+        "Blue Owl third-quarter profit beats estimates, AUM hits record $330 billion - Re [DEVELOPMENT]",
+        "Blue Owl Fees Beat Estimates Though Redemptions Weigh on Inflows - Bloomberg.com [NEW_WATCH_HIT]",
+        "Insurance moves: Markel, Hanover, Group 1001 and ICW Group - Insurance Business [NEW_WATCH_HIT]",
+        "Russia Eases Fuel Rations in 15 Regions After Kyiv Halts Refinery Attacks - Kyiv [NEW_WATCH_HIT]",
+        "Silicon Valley Bank failure might further stymie tech funding - TechTarget [NEW_ALERT]",
+        "Stablecoin Issuance Mathematically Cannot Cause Deposit Flight, Campbell Argues  [NEW_ALERT]",
+        "US Bank Failures Pile Up \u2014 Is It Just Noise? - Global Finance Magazine [NEW_ALERT]"
+      ],
+      "saved": "data/2026-10-29/news.json",
+      "legs": {
+        "google_news": {
+          "requests": {
+            "attempted": 57,
+            "succeeded": 57,
+            "failed": 0,
+            "failed_by_class": {}
+          },
+          "responses": {
+            "parsed": 57,
+            "valid_empty": 0,
+            "malformed": 0
+          },
+          "headlines": {
+            "retrieved": 3373,
+            "dropped_over_cap": 2588,
+            "dropped_within_run_dup": 21,
+            "dropped_already_seen": 418,
+            "dropped_noise_known": 104,
+            "dropped_processing_error": 0,
+            "saved": 242
+          },
+          "processing_errors_by_class": {}
+        },
+        "rss": {
+          "requests": {
+            "attempted": 4,
+            "succeeded": 4,
+            "failed": 0,
+            "failed_by_class": {}
+          },
+          "responses": {
+            "parsed": 4,
+            "valid_empty": 0,
+            "malformed": 0
+          },
+          "headlines": {
+            "retrieved": 105,
+            "dropped_over_cap": 48,
+            "dropped_within_run_dup": 0,
+            "dropped_already_seen": 16,
+            "dropped_noise_known": 0,
+            "dropped_processing_error": 0,
+            "saved": 41
+          },
+          "processing_errors_by_class": {}
+        },
+        "web_scrape": {
+          "status": "not_run",
+          "reason": "this collector has no scrape leg; cfg.WEB_SCRAPE is inert here"
+        }
+      }
+    }
+  },
+  "errors": []
+}
+
