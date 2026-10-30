@@ -215,6 +215,8 @@ Unchanged count 10/22; GPMT cut now PRIMARY (was secondary). Q4 declarations due
 
 **2026-10-30 superseded row (verbatim, before the BXMT update):** VX-CREED-10.01	CRE mREIT Dividend Actions (cohort)	10-CRE_Lender	4 of 11 cut/liquidating [ARI wind-down, KREF -60%, RC -92%, GPMT $0.05->$0.01 per pre-split share]; 7 paid Q3 as declared [re-checked 10/22]	2 of 11	4 of 11	6 of 11	ORANGE	90%	2026-10-22	yfinance dividend + split record, 11-name cohort, pulled 2026-10-22; GPMT 8-K 2026-10-06 (acc 0001104659-26-114056: $0.01 per pre-split share, record 10/1) PRIMARY-READ	LIQUID	S8b	Unchanged 4/11 [10/22]; GPMT cut now PRIMARY. Price is not this vector. ⚠️ GPMT 1:10 split 10/5. [FULL NOTE: notes/VX_NOTES.md#VX-CREED-10.01]
 
+**2026-10-30 hot cell (column 14) moved verbatim for read-cap:** 5/11 [10/30]: BXMT is the first in-window Q3/Q4 cut. Cut count is one leg of T-08b only; price is not this vector. ⚠️ GPMT 1:10 split 10/5. [FULL NOTE: notes/VX_NOTES.md#VX-CREED-10.01]
+
 ## VX-CREED-10.02 — CRE Credit vs CRE Equity divergence
 *moved verbatim 2026-09-26, crc32 `8ed2f001`, 426 B*
 
@@ -239,6 +241,8 @@ Unchanged count 10/22; GPMT cut now PRIMARY (was secondary). Q4 declarations due
 *** 2026-10-28 Q3 PARTIAL (4 of 11): GAAP BVPS KREF -1.0% ($155.9M write-offs, mostly Q2-reserved; RR5 $674M -> $329M), TRTX -0.9%, BRSP +4.0% GAAP / -2.8% undepreciated, LADR +3.1%. No new cut. ACRE + GPMT covenant relief (funding leg). ARI $4.10 liquidating distribution ex 10/30 = ROC. KB-CREED-086.
 
 **2026-10-30 superseded row (verbatim, before the BXMT update):** VX-CREED-10.04	CRE Lender Credit Provisioning	10-CRE_Lender	Q3 PARTIAL (4 of 11 reported, 10/28): GAAP BVPS KREF -1.0% (+$155.9M realized write-offs, mostly Q2-reserved), TRTX -0.9%, BRSP +4.0% GAAP / -2.8% undepreciated, LADR +3.1%. Q2 basis: GPMT -19.1%, KREF -13.7%, RC -8.1%, BXMT -4.4% (ARI excluded: ROC)	1 name	2 names	cohort-wide	ORANGE	80%	2026-10-28	KREF Q2 10-Q summary + earnings coverage ~7/21-22 (SECONDARY — primary 10-Q NOT read)	LIQUID, REGINALD, HOMER	S8b	Q3 so far: no cohort-wide erosion (2 of 4 GAAP decliners, both ~1%). BXMT 10/29, STWD/ACRE 11/6, NREF ~11/5, RC/GPMT undated. ARI $4.10 liquidating distribution ex 10/30 = ROC. T-08b not re-graded until the census completes. KB-CREED-086. [FULL NOTE: notes/VX_NOTES.md#VX-CREED-10.04]
+
+**2026-10-30 hot cell (column 4) moved verbatim for read-cap:** Q3 PARTIAL (5 of 11 reported, 10/30): GAAP BVPS BXMT -11.7% ($19.31->$17.06; -3.9% on a DERIVED reserve-and-D&A-neutral basis), KREF -1.0%, TRTX -0.9%, BRSP +4.0% GAAP / -2.8% undepreciated, LADR +3.1%. Erosion >3% in Q3 so far: BXMT only. Q2 basis: GPMT -19.1%, KREF -13.7%, RC -8.1%, BXMT -4.4% (ARI excluded: ROC)
 
 ## VX-CREED-10.05 — CRE Migration to Insurance Balance Sheets
 *moved verbatim 2026-09-26, crc32 `1f853d2a`, 790 B*
@@ -283,3 +287,5 @@ SREIT (Starwood Real Estate Income Trust) 8-K, effective 2026-04-29, SEC accessi
 - VX-CREED-1.01, VX-CREED-1.02, VX-CREED-1.03, VX-CREED-1.04, VX-CREED-1.05, VX-CREED-1.06, VX-CREED-3.01, VX-CREED-3.04: Trepp September 2026 CMBS Delinquency Report PDF (trepp.com/hubfs; excerpt pub 2026-10-02), archived by WALTER at AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-dq.pdf (sha256 b39845196613ef98...) -- PRIMARY-READ 2026-10-21 (CREED: rendered Table 1/2 page image + extracted text)
 
 - VX-CREED-2.01, VX-CREED-2.02: Trepp September 2026 CMBS Special Servicing Report PDF (trepp.com/hubfs; excerpt pub 2026-10-13), archived by WALTER at AGENTS/WALTER/research/2026-10-16_finish/credit-trepp-ss.pdf (sha256 f8ec5c43b63543...) -- PRIMARY-READ 2026-10-21 (CREED: rendered Table 1 page image + extracted text)
+
+**VX.tsv line-2 10/28 (late) clause, moved verbatim 2026-10-30 (read-cap):** PRIOR: 2026-10-28 (late) -- 9.02 PROXY ADOPTED (Will) office -33% from peak ORANGE; 5.01/5.03 re-census; 9.03 CBRE Q3 18.2%/+4.9M sf; 3.03 re-verified + DBRS quarterly; 9.02 free proxy found (not adopted); 6.01 HOMER cross-ref; VX-10.04 Q3 partial census (4 of 11, KB-086) + VX-7.01 re-run (s8a_relative.py, 10/28 close -11.33 TR).

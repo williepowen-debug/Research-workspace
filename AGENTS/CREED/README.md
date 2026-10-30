@@ -65,10 +65,10 @@ Use these before making current CRE / CMBS claims:
 - `AGENTS/CREED/research/REFRESH_2026-06-21.md` — superseded 7/4; retained as FDIC-Q1 / maturity-wall source-trail
 - `AGENTS/CREED/thesis/THESIS.md` — current thesis rails (**current state only since the 2026-09-30 split**)
 - `AGENTS/CREED/thesis/THESIS_HISTORY_2026-09-30.md` — ⛔ verbatim pre-split THESIS (crc32 `42275fe2`): the reasoning trail, never current state
-- `AGENTS/CREED/thesis/CHANGELOG.md` — thesis change history
-- `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md` — stale inbox resolved against current rails
+- `AGENTS/CREED/thesis/CHANGELOG.md` — thesis change history (boot reads the newest 3 entries only, since 2026-10-30)
+- `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md` — stale inbox resolved against current rails (ON DEMAND since 2026-10-30)
 - `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` — public REIT equity-market tape module absorbed from dormant REITS
-- `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md` — durable mechanisms pulled from legacy CREED, with old values marked stale
+- `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md` — durable mechanisms pulled from legacy CREED, with old values marked stale (ON DEMAND since 2026-10-30)
 
 ## Other live surfaces *(indexed 2026-10-30, DAEDALUS profile-refresh item 9 — these existed and were missing from this index)*
 

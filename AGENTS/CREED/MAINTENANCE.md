@@ -330,7 +330,7 @@ HENRY's `evals/README.md` draws a distinction no other agent states: **a princip
 |---|---|
 | **`board_log.tsv`** | CREED had consumed **~30 mail items** across four sessions with dispositions recorded **only as prose inside STATUS catch-up sections** — unqueryable, and scrolling off as STATUS grows. Both SHADE (45 rows) and BROCK (68 rows) run this. **Backfilled honestly:** the 12 items from 7/11 forward are logged per-signal; the 17 older WALTER SIGs are marked **PRE-LEDGER provenance and deliberately NOT retrofitted** — reconstructing a disposition I never recorded would manufacture false precision. |
 | **`SCRATCH.md`** | The crash. Recovery worked only because modified files happened to be legible on disk. **The file that should have carried the handoff — `LAST_COMPLETION.md` — had skipped two closeouts (7/20, 7/27)** and was still 7/4 vintage, asserting *"CREED has NO own workbook"* four hours after the workbook was built. |
-| **`workbook/PREDICTIONS_SCOREBOARD.md`** | CREED registered **10 predictions with self-set confidences on 7/27 and had no calibration surface at all.** BROCK's scoreboard (n=10, Brier 0.216) produced a read that **changed its behaviour** — *"structural calls are under-priced, lean in"* — which is the entire point of keeping score. Created at n=0 deliberately: the discipline has to exist **before** the first resolution, or the first resolution sets the precedent for skipping it. |
+| **`workbook/PREDICTIONS_SCOREBOARD.md`** | CREED registered **10 predictions with self-set confidences on 7/27 and had no calibration surface at all.** BROCK's scoreboard (n=10, Brier 0.216) produced a read that **changed its behaviour** — *"structural calls are under-priced, lean in"* — which is the entire point of keeping score. Created at n=0 deliberately: the discipline has to exist **before** the first resolution, or the first resolution sets the precedent for skipping it. ⚠️ **2026-10-30: BROCK WITHDREW that advice** (re-scored n=15: 8 of 15, Brier 0.254 vs coin-flip 0.25; since 7/09 1 of 5, Brier 0.331, all four misses bearish calls at ≥50%) — do not set CREED confidences by it (`inbox/processed/2026-10-30_from-BROCK_scoreboard-advice-withdrawn.md`). |
 | **`MAINTENANCE.md`** | This file. CREED made **three structural changes on 7/27** (workbook built, S8 split 8a/8b, S5 ownership moved to HOMER) with the rationale buried inside a dated catch-up section that will scroll off. |
 
 **Deliberately NOT adopted, and why — the survey's more useful half:**
@@ -424,3 +424,11 @@ HENRY's `evals/README.md` draws a distinction no other agent states: **a princip
 - **`board_log.tsv`:** legacy disposition tokens declared in the header; rows not rewritten.
 
 **Not done, and why:** `registry/kernel_staged/README.md` line 4 is stale but the directory is byte-frozen by its own header — correction recorded in `README.md`. Charter slimming (DAEDALUS item 8) is a proposal for Will, not a sweep edit.
+
+---
+
+## 2026-10-30 (evening) — charter slimmed to rules only (Will-ruled; DAEDALUS item 8)
+
+**Will (pasted in CREED's session, 18:41 ET):** go ahead — fix the 11 wrong statements, cut duplicates, move history word for word, keep every rule / warning / step number, one example per trap, map every removed line; boot reads 6.5 and 6.7 → on demand, 6.4 → newest 3 entries; ARI example marked dated.
+**Result:** `CLAUDE.md` 40,535 → 25,448 B. Old file 176 non-blank lines = 93 kept verbatim + 83 moved to `archive/CHARTER_HISTORY_2026-10-30.md` (verbatim, crc32 per line, disposition + "rule now lives at" per line), 0 lost — checked by script in both directions. Pre-change file = `git show a475b7cb7:AGENTS/CREED/CLAUDE.md` (crc32 `28bbbcb9`). Review: `research/2026-10-30_CHARTER_REVIEW.md`. PROME sent the READS replacement rows (402/403/405) in the same commit.
+**Rule for future edits:** this file carries rules; a reason, incident or date-stamped "changed because" goes to MAINTENANCE or an archive, not into the rule. Section headings other files cite (§Mission, §Standing traps, §Source Archive, §Working Hypothesis, §Guardrails, §Current Rails) are kept even where the section is now a pointer.

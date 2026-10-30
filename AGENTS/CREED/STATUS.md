@@ -86,10 +86,10 @@ Current thesis:
 
 - Source pack: `AGENTS/CREED/research/REFRESH_2026-07-27.md` (**PRIOR pack, ON DEMAND since 2026-09-30, Will-approved**; not current state; supersedes 7/04, retained as the June-Trepp / recognition-cluster source-trail; 6/21 retained as FDIC-Q1 / maturity-wall source-trail)
 - Thesis rails: `AGENTS/CREED/thesis/THESIS.md`
-- Thesis changelog: `AGENTS/CREED/thesis/CHANGELOG.md`
-- Inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
+- Thesis changelog: `AGENTS/CREED/thesis/CHANGELOG.md` (boot: newest 3 entries only, since 2026-10-30)
+- Inbox triage: `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md` (ON DEMAND since 2026-10-30, Will)
 - REIT equity tape module: `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
-- Legacy pull-forward map: `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+- Legacy pull-forward map: `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md` (ON DEMAND since 2026-10-30, Will)
 
 
 ---

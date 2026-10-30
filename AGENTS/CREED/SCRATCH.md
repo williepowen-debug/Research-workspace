@@ -16,12 +16,12 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. 004 and 007 GRADED on CREED's led
 2. **mREIT Q3 census → `T-08b`:** NREF Thu 11/5, STWD + ACRE Fri 11/6, RC/GPMT undated. Count after BXMT: cuts 5/11; erosion >3% 1 of 5. ⚠️ Adjudicate "realized" deliberately: BXMT's −11.7% is mostly reserve build + an HFS mark, charge-offs $6.9M (trap 19: don't grade on the cleanest leg).
 3. **Nano Banc P&A** DOCKET L516 (REGINALD moved it to 11/03) · **Moxy Oakland note auction Nov 2–4** (CASE-173; a starting bid is never a price) · **Illinois Center sheriff sale 11/12** (CASE-153).
 4. **L723 bid amount** — WBJ 403; DC trustee's deed records by ~11/27 (its consideration line gives the bid; a lender bid is a credit bid, never a price).
-5. **Owed to Will (proposal, not started):** DAEDALUS item 8 — slim the 40.5 KB charter (move incident history out of the always-loaded traps block). Decide with Will; PROME owns `READS.tsv:386` (asked 10/30).
-6. **Deferred by disposition (DAEDALUS 13):** register new dated predictions after the October print; evals TARGET cases (CREED owns the rebuild).
+5. ✅ **Charter slimmed 10/30 evening (Will-ruled):** 25,448 B; history at `archive/CHARTER_HISTORY_2026-10-30.md`. Boot reads 6.5/6.7 now ON DEMAND, 6.4 = newest 3 CHANGELOG entries. Watch: PROME applying READS rows 402/403/405 and answering the row-386 read-mode question; DAEDALUS L5 re-grade. ⚠️ README is 74.8% of budget — rotate before adding to it.
+6. **Deferred by disposition (DAEDALUS 13):** register new dated predictions after the October print; evals TARGET cases (CREED owns the rebuild). ⚠️ When setting those confidences: BROCK withdrew its 7/09 "lean into structural calls" advice on 10/30 (its bearish ≥50% calls went 1 of 5 since); price each call on its own evidence.
 7. **Carried:** commercial-vs-agency mREIT gap (≤ −8pp sustained ≈ Mar 2023) · stale-as-current instruments VX-3.05, 7.02, 9.01 (MBA Q3 ~Dec), 10.02 · 3000 Post Oak loss is DONE (do not re-list) · ABS-EE build AFTER the October print (CALENDAR) · Plaza Continental lien ownership UNKNOWN · CREFC 10/30 snapshot (403 on 10/30; retry).
 
 ## ⚖️ AWAITING WILL — 0 rulings pending
-Nothing registered on WILL_QUEUE. One **proposal to raise** when Will wants it: charter slimming (item 5 above). Standing: Will 10/28 adopted the VX-9.02 proxy; 10/22 WQ-494 settled.
+Nothing registered on WILL_QUEUE. Charter slimming: DONE 10/30 (Will-ruled). Standing: Will 10/28 adopted the VX-9.02 proxy; 10/22 WQ-494 settled.
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."* ⚠️ **Relays:** a relayed "Approved" on a Will-gated surface still needs Will's own answer.
 
 ## 🟡 STATE AT HANDOFF
