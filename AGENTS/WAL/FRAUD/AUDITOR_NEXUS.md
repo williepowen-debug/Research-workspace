@@ -18,7 +18,7 @@ WAL's three fraud vectors all failed at the gatekeeper level. This doc maps the 
 |--------|---------|-------------|----------------|
 | **Western Alliance (WAL)** | **RSM US LLP** | 3 active fraud vectors | Direct — RSM signs off on WAL's reserves + collateral |
 | **Tricolor** | **Grant Thornton** | DOJ indicted, $800M fraud | WAL exposure via NDFI/warehouse/BDC |
-| **Carvana/DriveTime/GoFi** | **Grant Thornton** | SEC subpoena; Gotham alleges fraud | WAL auto/NDFI exposure |
+| **Carvana/DriveTime/GoFi** | **Grant Thornton** | SEC subpoena (Jun 2025); SEC closed that investigation Sep 2026 with no enforcement recommendation (Carvana Q3 10-Q, see Gotham table below); Gotham alleges fraud | WAL auto/NDFI exposure |
 | **First Brands Group** | **BDO USA** | DOJ indicted, $9.3B+ | WAL exposure via Jefferies/Point Bonita |
 | **Zions (ZION)** | Ernst & Young | Stupin victim — charged off 83% | Same fraud ring as WAL Vector 3 |
 
@@ -88,7 +88,7 @@ RSM's confirmed bank clients are almost exclusively community banks under $20B i
 | GT will resign from Garcia entities | ❌ Not yet |
 | CVNA 10-K delayed | ❌ Filed on time Feb 18 |
 | Financials require restatement | ⏳ Pending |
-| SEC enforcement action | ⏳ Pending (subpoena confirmed Jun 2025) |
+| SEC enforcement action | ❌ Not recommended: Carvana says the SEC told it in Sep 2026 that the investigation is concluded with no enforcement recommendation (Q3 10-Q acc 0001690820-26-000067, Part II Item 1, accepted 10/28; read by OTTO, routed SIG-W-20261029-020; corrected 2026-10-30). ⚠️ Carvana describing a non-public staff letter, not an exoneration; covers the Jan-2025 report only, not Gotham's 1/28/2026 report. Was: pending, subpoena Jun 2025 |
 
 ### No Direct GT→WAL Link in Public Filings
 EDGAR full-text search found zero SEC filings containing both "Grant Thornton" and "Western Alliance." The connection runs through private companies (Tricolor SPVs, warehouse borrowers) that don't file with the SEC. **The opacity is itself the risk factor.**
