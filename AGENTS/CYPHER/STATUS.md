@@ -1,10 +1,14 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-30 09:2x EDT — spawned session (PROME prome-a9, WQ-184 Tier 1, DOCKET L871).**
-- **Binance first read done at the primaries** (CYB-INC-055; `research/2026-10-30_binance-first-read/RECORD.md`). Binance's own notice confirms the incident: estimated impact about $6.3B, about $3B frozen, withdrawals suspended. The issuer freezes are verified on-chain.
-- **Whole inbox drained (10 items).** The Fiserv/Cl0p claim from August is now CYB-INC-056, with no cyber 8-K at EDGAR. Polymarket is CYB-INC-057. The Florida education-department breach is logged only. EO 14421 is KB-CYP-082. Four PROME packets are answered in the memo.
-- **Catalysts consumed.** Palo Alto has no remaining hotfix ETAs (all released by 10/29). GMO now confirms an extortion demand and published data; SAM and LIQUID have the packet, and the check is re-dated to 10/31.
-- **10/29 session** (wave re-check, boot fixes, news sweeps) is summarised below unchanged.
+**Last Updated: 2026-10-30 11:0x EDT — spawned session (PROME prome-c5, WQ-550 commission on Will's word 10:46 ET, DOCKET L878).**
+- **WQ-550 leg 1 done** (`research/2026-10-30_wq550-leg1/RECORD.md`), four reads on the Binance incident:
+  - **The headline premise was a clock mismatch.** "COIN −13.7% vs BTC −1.3%" compares the equity move since Thursday's 4pm close with a bitcoin move since midnight UTC. On the equity clock bitcoin is −4.15% and the Nasdaq-100 −2.6%, so Coinbase is down about 3× bitcoin, not 10×.
+  - Beta check (IBIT + QQQ, 120 days): only COIN has a residual (−5.7pp), and its own Q3 results (10/29) and two target cuts (10/30) overlap it. MSTR, HOOD, CRCL and the rest sit within their beta. The venue risk shows in Binance's token BNB (−5.7%), not in US stocks.
+  - **Venue contagion:** none found. No other exchange has halted. Aave froze its affected lending markets. Binance withdrawals are still off on all 1,447 pairs (14:51Z).
+  - **Stablecoins:** the freezes are unchanged and nothing has been burned. There is no redemption surge in the first daily print. The redemption test opens when withdrawals reopen.
+  - **Counterparties:** market makers Wintermute (<20% of net equity) and GSR (<5%); no bank, prime broker or lender is named.
+- **Leg 2 registered** (11/02, P1). The VX-CYP-02 letter caveat went to PROME before the grade. Facts went to LIQUID (CHK-40) and HENRY (equity tape). Inbox drained (2 items; FIS and Q2 WATCH_FOR phrases ADOPTED). No score moved.
+- **Earlier 10/30 (09:2x, prome-a9, L871):** Binance first read at the primaries (CYB-INC-055; `research/2026-10-30_binance-first-read/RECORD.md`); inbox drain of 10 items (CYB-INC-056 Fiserv/Cl0p claim, 057 Polymarket, KB-CYP-082 EO 14421); Palo Alto hotfix ETAs retired; GMO re-dated to 10/31.
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** Normal boot.
 
@@ -35,12 +39,13 @@
 |---|---|---|
 | What happened | Unauthorized withdrawals from hot wallets; Binance points to a compromised DevOps engineer laptop that reached a service container, and says it found "no evidence of any wallet private key leak". Its CEO later said "additional points of breach" | Notice PRIMARY-VERIFIED; CEO SECONDARY |
 | Size | Binance: ~$6.3B estimated total IMPACT and ~$3B frozen, so about $3.3B is not frozen. Arkham: $6.01B taken, $2.80B frozen | OWNER-ASSERTED / SECONDARY |
-| Issuer freezes | On Ethereum: USDC $823.00M and USDT $1,350.46M traced (+$30M probable), frozen 37–41 min after the first drain; none destroyed. Tron not checked | PRIMARY-VERIFIED on-chain |
-| Withdrawals | Off on 0 of 1,447 coin-network pairs at 13:07Z (all off); deposits on. CEO "~45h" | ARTIFACT-VERIFIED / SECONDARY |
-| Attribution | TRM (private): TraderTraitor. No government attribution found | SECONDARY / SEARCH-NOT-FOUND |
+| Issuer freezes | On Ethereum: USDC $823.00M and USDT $1,350.46M traced (+$30M probable), frozen 37–41 min after the first drain; none destroyed. **Unchanged at 14:54Z re-tally.** Tron not checked | PRIMARY-VERIFIED on-chain |
+| Withdrawals | Off on 0 of 1,447 coin-network pairs at 13:07Z and **still at 14:51Z**; deposits on. Binance account "45 hours" (from its latest update) | ARTIFACT-VERIFIED / SECONDARY |
+| Attribution | TRM and Chainalysis (private): TraderTraitor. No government attribution found | SECONDARY / SEARCH-NOT-FOUND |
+| Transmission (WQ-550 leg 1) | No other exchange halted; Aave froze its affected markets. Market makers Wintermute (<20% of net equity) and GSR (<5%) are exposed; no bank, prime broker or lender is named. US crypto stocks move with bitcoin and the Nasdaq on the equity clock. COIN's residual overlaps its own earnings | SECONDARY / ARTIFACT-VERIFIED (prices) |
 | Map | Not a CHK event: the issuers were the control that worked. New class row CHK-40 (USD stablecoin issuers, NONE-KNOWN) | desk judgment |
-| Watch / vectors | No escalation row (not PHP2Shell). VX-02 held at 3; whether a crypto venue counts there is a question to PROME, to be answered before the 11/02 check | desk judgment |
-| Do not relay | "$5B hack" · "$6.3B stolen" · "largest bank heist" · "CZ confirms" · "North Korea did it" · "user funds lost" (RECORD §9) | — |
+| Watch / vectors | No escalation row (not PHP2Shell). VX-02 held at 3. **Answered by Will (WQ-550 C):** grade on the letter as written at 11/02, note that the composition does not match the mechanism, and draft a prospective re-cut. ⚠️ The ORANGE cell says "bank or payment operator" and Binance calls its pause a "precaution" (the YELLOW cell's word); this went to PROME before the grade (leg-1 RECORD §5) | desk judgment |
+| Do not relay | "$5B hack" · "$6.3B stolen" · "largest bank heist" · "CZ confirms" · "North Korea did it" · "user funds lost" (first-read RECORD §9) · "COIN down 10× bitcoin" · "Binance halted trading" · "Tether and Circle said they froze $2.36B" (leg-1 RECORD §6) | — |
 
 ## Open wave — WAVE-2026-10 (all rows State_As_Of 2026-10-29 except row 2, terminal 10/26)
 
@@ -122,7 +127,7 @@
 | Date | Check |
 |---|---|
 | 10/31 | GMO replacement-service / payment procedure (the 10/30 JST deliverable was not yet posted) |
-| 11/02 | **Binance withdrawal resumption** (all-pairs config read; second notice, post-mortem or Proof of Reserves; any government attribution); VX-02 question before then |
+| 11/02 | **WQ-550 leg 2 (P1):** the same four reads at the Binance reopening, plus the VX-CYP-02 grade on its letter, the prospective re-cut draft, and a recommendation on whether crypto venues need a standing owner (Will's word) |
 | 11/03 | Keystone erasure statement |
 | 11/04 | **PHP2Shell +14d (P1):** rows 1, 3, 4; Dream correction or a named victim; ConnectWise restoration completion |
 | 11/05 | Financial-claim pass: 036–040, 043 |
@@ -131,4 +136,4 @@
 
 ## BOTTOM LINE
 
-The October PHP2Shell wave is still open, with one trigger fired (CISA's exploitation listing, 10/26) and no bank, credit union or banking vendor named as a victim. The big new event sits outside the wave. Binance confirms a theft with an estimated $6.3B impact, about $3B of it frozen. Tether and Circle froze the attacker's stablecoins within about 40 minutes, and CYPHER verified that freeze on-chain. No bank or mapped supplier is touched, and crypto venues have no consequence owner in the fleet. The most important unconfirmed points are whether Binance reopens withdrawals on time (checked 11/02) and, in the wave, whether a named victim surfaces behind the firewall break-ins (checked 11/04). Next wakes: GMO 10/31, Binance 11/02, the 11/04 two-week check, the 11/05 bank-vendor watch and the 11/20 flip test.
+The October PHP2Shell wave is still open, with one trigger fired (CISA's exploitation listing, 10/26) and no bank, credit union or banking vendor named as a victim. The big new event sits outside the wave. Binance confirms a theft with an estimated $6.3B impact, about $3B of it frozen. Tether and Circle froze the attacker's stablecoins within about 40 minutes, and CYPHER verified that freeze on-chain. No bank or mapped supplier is touched, and crypto venues have no consequence owner in the fleet. Today's transmission read found no contagion to other exchanges or banks. US crypto stocks are moving with bitcoin and the Nasdaq once both are measured from Thursday's close. The most important unconfirmed points are whether Binance reopens withdrawals and whether stablecoin redemptions follow (leg 2, 11/02) and, in the wave, whether a named victim surfaces behind the firewall break-ins (checked 11/04). Next wakes: GMO 10/31, Binance 11/02, the 11/04 two-week check, the 11/05 bank-vendor watch and the 11/20 flip test.

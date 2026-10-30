@@ -1,0 +1,4 @@
+Source: Ethereum JSON-RPC https://ethereum-rpc.publicnode.com (public, read-only), CYPHER 2026-10-30T14:54Z, block 26306300 (latest state only)
+USDT totalSupply on Ethereum: 88,301,265,725.97
+USDC totalSupply on Ethereum: 47,647,116,796.40
+Attacker-address balance re-read: SKIPPED here (full addresses live in ../2026-10-30_binance-first-read/onchain_freeze_tally_2026-10-30.txt; see freeze_tally.py)
