@@ -1,10 +1,10 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-10-29 14:44 EDT — SESSION CLOSED at Will's request.** — a full working day on 10/29:
-- **Wave re-check (DOCKET L812) done.** 1 FIRED (row 2), 8 NOT-FIRED, no score change (22/40 raw, 16/40 adjusted); DEWEY's rerun agrees.
-- **Boot check fixed** (legs 5/7/8/9; drills 33/33).
-- **Two news sweeps.** They added the bank-vendor thread (Jack Henry, N-central/NYDFS, Sharetec, Sefas, Citizens; `banking/`), a weekly bank-vendor cluster watch (Will 13:29 ET), the policy record (EO 14409, Bowman 9/29) and the US commissary freezer row (054).
-- **Evidence:** `research/2026-10-29_wave-recheck/` and `research/2026-10-29_news-sweep/`. Prior STATUS rotated verbatim to `archive/STATUS_ARCHIVE_2026-10-29.md` (cksum 3362934535).
+**Last Updated: 2026-10-30 09:2x EDT — spawned session (PROME prome-a9, WQ-184 Tier 1, DOCKET L871).**
+- **Binance first read done at the primaries** (CYB-INC-055; `research/2026-10-30_binance-first-read/RECORD.md`). Binance's own notice confirms the incident: estimated impact about $6.3B, about $3B frozen, withdrawals suspended. The issuer freezes are verified on-chain.
+- **Whole inbox drained (10 items).** The Fiserv/Cl0p claim from August is now CYB-INC-056, with no cyber 8-K at EDGAR. Polymarket is CYB-INC-057. The Florida education-department breach is logged only. EO 14421 is KB-CYP-082. Four PROME packets are answered in the memo.
+- **Catalysts consumed.** Palo Alto has no remaining hotfix ETAs (all released by 10/29). GMO now confirms an extortion demand and published data; SAM and LIQUID have the packet, and the check is re-dated to 10/31.
+- **10/29 session** (wave re-check, boot fixes, news sweeps) is summarised below unchanged.
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** Normal boot.
 
@@ -24,10 +24,23 @@
 | Escalation rows, WAVE-2026-10 | **1 FIRED (row 2, KEV 10/26) · 8 NOT-FIRED**, all re-checked 2026-10-29 (row 2 terminal) | `workbook/ESCALATION_WATCH.tsv` |
 | Convergence composite | **22/40 raw · 16/40 shared-root-adjusted** (VX-02/03/06 PHP2Shell cluster counted once at max 4). VX-02 held at 3, VX-06 held at 4 ORANGE (RED needs mass compromise or a late-surfacing victim list) | `workbook/VX.tsv` |
 | Transmission map | 20 mechanisms: 7 CONFIRMED, 7 NOT-OBSERVED, 2 MODELED, 4 UNTESTED (unchanged since 10/26) | `workbook/FLOW.tsv` |
-| Incident ledger | 54 rows. Today: 046 credit-union PHP pause; 047 Dream firewall chain; 048 Jack Henry; 049 Central Bank of India; 050 Sharetec; 051 N-central; 052 NY bank closure; 053 Citizens CA AG notice; 054 US commissary freezers. 027 Node2Shell -> CONFIRMED (KEV 10/27) | `workbook/INCIDENTS.tsv` |
-| Chokepoint map | 39 rows: CHK-34/35 Treasury nodes (BOND); CHK-36 Sharetec, CHK-37 print/mail vendors (Sefas), CHK-38 N-able N-central, CHK-39 SitusAMC. CHK-03 Jack Henry CONFIRMED-OFF-WAVE; CHK-32 perimeter appliances CONFIRMED wave touch | `workbook/CHOKEPOINTS.tsv` |
+| Incident ledger | 57 rows. 10/30: 055 Binance, 056 Fiserv/Cl0p claim (Aug, denied), 057 Polymarket halt; 032 GMO updated. 10/29: 046 credit-union PHP pause; 047 Dream firewall chain; 048 Jack Henry; 049 Central Bank of India; 050 Sharetec; 051 N-central; 052 NY bank closure; 053 Citizens CA AG notice; 054 US commissary freezers. 027 Node2Shell -> CONFIRMED (KEV 10/27) | `workbook/INCIDENTS.tsv` |
+| Chokepoint map | 40 rows: CHK-40 USD stablecoin issuers (10/30, NONE-KNOWN); CHK-34/35 Treasury nodes (BOND); CHK-36 Sharetec, CHK-37 print/mail vendors (Sefas), CHK-38 N-able N-central, CHK-39 SitusAMC. CHK-03 Jack Henry CONFIRMED-OFF-WAVE; CHK-32 perimeter appliances CONFIRMED wave touch | `workbook/CHOKEPOINTS.tsv` |
 | Predictions | CYP-01 30% · CYP-02 15% · CYP-03 15% · CYP-04 35%; all OPEN, none due (registered on Will's word 10/22–10/23) | `workbook/PREDICTIONS.tsv` |
 | R1 two-way flip | Toward MOVEit: row 1 or 3 FIRES on or before 2026-11-20 (a named organisation). Toward Log4Shell: rows 1, 3 and 4 all NOT-FIRED at 11/20, with re-checks dated 11/13–11/20 | `workbook/EXIT_PROTOCOL.md` |
+
+## Binance, 10/29 (OFF-WAVE · NO-OWNER class · canonical CYB-INC-055)
+
+| Item | Reading (2026-10-30) | Basis |
+|---|---|---|
+| What happened | Unauthorized withdrawals from hot wallets; Binance points to a compromised DevOps engineer laptop that reached a service container, and says it found "no evidence of any wallet private key leak". Its CEO later said "additional points of breach" | Notice PRIMARY-VERIFIED; CEO SECONDARY |
+| Size | Binance: ~$6.3B estimated total IMPACT and ~$3B frozen, so about $3.3B is not frozen. Arkham: $6.01B taken, $2.80B frozen | OWNER-ASSERTED / SECONDARY |
+| Issuer freezes | On Ethereum: USDC $823.00M and USDT $1,350.46M traced (+$30M probable), frozen 37–41 min after the first drain; none destroyed. Tron not checked | PRIMARY-VERIFIED on-chain |
+| Withdrawals | Off on 0 of 1,447 coin-network pairs at 13:07Z (all off); deposits on. CEO "~45h" | ARTIFACT-VERIFIED / SECONDARY |
+| Attribution | TRM (private): TraderTraitor. No government attribution found | SECONDARY / SEARCH-NOT-FOUND |
+| Map | Not a CHK event: the issuers were the control that worked. New class row CHK-40 (USD stablecoin issuers, NONE-KNOWN) | desk judgment |
+| Watch / vectors | No escalation row (not PHP2Shell). VX-02 held at 3; whether a crypto venue counts there is a question to PROME, to be answered before the 11/02 check | desk judgment |
+| Do not relay | "$5B hack" · "$6.3B stolen" · "largest bank heist" · "CZ confirms" · "North Korea did it" · "user funds lost" (RECORD §9) | — |
 
 ## Open wave — WAVE-2026-10 (all rows State_As_Of 2026-10-29 except row 2, terminal 10/26)
 
@@ -108,13 +121,14 @@
 
 | Date | Check |
 |---|---|
-| 10/30 | Palo Alto remaining hotfix ETAs; GMO replacement-service checkpoint (DEWEY 008R landed 10/29, consumed) |
+| 10/31 | GMO replacement-service / payment procedure (the 10/30 JST deliverable was not yet posted) |
+| 11/02 | **Binance withdrawal resumption** (all-pairs config read; second notice, post-mortem or Proof of Reserves; any government attribution); VX-02 question before then |
 | 11/03 | Keystone erasure statement |
 | 11/04 | **PHP2Shell +14d (P1):** rows 1, 3, 4; Dream correction or a named victim; ConnectWise restoration completion |
 | 11/05 | Financial-claim pass: 036–040, 043 |
-| 11/06 | Kiteworks victim check (advisory upd. 10/27, still no exploitation statement); GMO compensation; Capcom |
+| 11/06 | Row 9 magnitude decision (due to PROME by 11/10) · Kiteworks victim check (advisory upd. 10/27, still no exploitation statement); GMO compensation; Capcom |
 | 11/15 · 11/18 · 11/20 | TruStage answer window · row 9 equity test · **R1 flip test (P1)** |
 
 ## BOTTOM LINE
 
-The October PHP2Shell wave is open with one trigger fired (CISA confirming exploitation, 10/26). The evidence moved this week: Palo Alto confirms attacks on its firewall management interface, and one security firm reports an unnamed break-in. But no bank, credit union or banking vendor is a named victim, and DEWEY's rerun agrees the wave is still loud-but-small on outcomes. Separately, bank suppliers have a steady drip of incidents (about one a month in 2026, including Jack Henry in August and an IT-provider tool that NYDFS says hit regulated firms). That costs data and legal bills, not solvency; it is now its own thread in `banking/` with a weekly cluster watch. The most important unconfirmed lead is whether a named victim surfaces behind the firewall break-ins, checked 11/04. The next wakes are Palo Alto and GMO on 10/30, the 11/04 two-week check, the first weekly bank-vendor watch on 11/05, and the 11/20 flip test.
+The October PHP2Shell wave is still open, with one trigger fired (CISA's exploitation listing, 10/26) and no bank, credit union or banking vendor named as a victim. The big new event sits outside the wave. Binance confirms a theft with an estimated $6.3B impact, about $3B of it frozen. Tether and Circle froze the attacker's stablecoins within about 40 minutes, and CYPHER verified that freeze on-chain. No bank or mapped supplier is touched, and crypto venues have no consequence owner in the fleet. The most important unconfirmed points are whether Binance reopens withdrawals on time (checked 11/02) and, in the wave, whether a named victim surfaces behind the firewall break-ins (checked 11/04). Next wakes: GMO 10/31, Binance 11/02, the 11/04 two-week check, the 11/05 bank-vendor watch and the 11/20 flip test.
