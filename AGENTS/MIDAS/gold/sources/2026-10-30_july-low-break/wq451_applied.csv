@@ -1,0 +1,7 @@
+date,gld_pct,gld_source,d_real_bp,implied_pct,e_pct,e_sd,spx_pct,dvix_pts,dxy_pct,stress,tonnes_d,cls
+2026-10-23,-0.648,issuer,2.0,-0.305,-0.342,-0.24,-0.519,0.42,0.197,False,-3.99,RATE
+2026-10-26,0.33,issuer,0.0,-0.0,0.33,0.24,0.696,-1.06,0.147,False,-0.85,RATE
+2026-10-27,1.213,issuer,-2.0,0.305,0.907,0.65,0.597,-0.87,0.353,False,0.85,RATE
+2026-10-28,0.33,issuer,3.0,-0.458,0.788,0.56,0.277,-0.61,-0.127,False,1.71,RATE
+2026-10-29,-1.323,issuer,-4.0,0.61,-1.933,-1.38,-0.305,0.29,-0.147,False,-2.28,UNEXPLAINED-DOWN
+2026-10-30,-3.47,MIRROR Yahoo (issuer row unpublished),-3.0,0.458,-3.928,-2.8,-1.818,2.22,-0.145,True,,LIQUIDATION-candidate: tonnes leg PENDING (issuer 10/30 unpublished)

@@ -1,0 +1,406 @@
+[
+  {
+    "file": "GLD.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.098533+00:00",
+    "status": 200,
+    "bytes": 50409,
+    "sha256": "17dca840512550591a9e11b4c27d6f583245e4e4b4f90c4f73ec992853d330ac",
+    "received_utc": "2026-10-30T20:42:26.148024+00:00"
+  },
+  {
+    "file": "IAU.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IAU?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.099116+00:00",
+    "status": 200,
+    "bytes": 50181,
+    "sha256": "a388041badd165bc1fe1f70c3e76adc3ce84f081daa2c9eb46b530a3c9987b53",
+    "received_utc": "2026-10-30T20:42:25.368113+00:00"
+  },
+  {
+    "file": "SLV.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SLV?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.099516+00:00",
+    "status": 200,
+    "bytes": 50954,
+    "sha256": "7a1130619bb3a7f1471ba3adc5fee05d1ef0498cd16deb88bffc56fca242b934",
+    "received_utc": "2026-10-30T20:42:25.355758+00:00"
+  },
+  {
+    "file": "GDX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GDX?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.099804+00:00",
+    "status": 200,
+    "bytes": 50848,
+    "sha256": "69942f516384602b1fd569dc4c51a6ee7970961d0490818ab7a3f486eeae4a31",
+    "received_utc": "2026-10-30T20:42:25.462415+00:00"
+  },
+  {
+    "file": "GDXJ.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GDXJ?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.100950+00:00",
+    "status": 200,
+    "bytes": 50997,
+    "sha256": "34ed3e7068b3e6bc4ce12e2a3bc943597ada22a341bd11198aec10a5d164a59c",
+    "received_utc": "2026-10-30T20:42:26.410388+00:00"
+  },
+  {
+    "file": "PPLT.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PPLT?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.102101+00:00",
+    "status": 200,
+    "bytes": 51849,
+    "sha256": "141952888a3cfd23406450ca9a4755b3f27384c49ec5ba43b64632c967daa6e9",
+    "received_utc": "2026-10-30T20:42:26.132313+00:00"
+  },
+  {
+    "file": "PALL.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PALL?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.355788+00:00",
+    "status": 200,
+    "bytes": 51736,
+    "sha256": "ece54a8bd64a0f9291d168172653a1b7a98cfe4e63a816ad0707e1b62566efa4",
+    "received_utc": "2026-10-30T20:42:26.499957+00:00"
+  },
+  {
+    "file": "CPER.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CPER?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.368160+00:00",
+    "status": 200,
+    "bytes": 50332,
+    "sha256": "7bf767ebb7941d363be5b10c9fbb1e84c3f16e4c04c7a98f78dc8191a765279d",
+    "received_utc": "2026-10-30T20:42:25.673543+00:00"
+  },
+  {
+    "file": "SPY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.462444+00:00",
+    "status": 200,
+    "bytes": 50421,
+    "sha256": "ae627ed95977e523f02b12a2f5b3df5a4122157057dba66020926c741d6387ad",
+    "received_utc": "2026-10-30T20:42:25.764525+00:00"
+  },
+  {
+    "file": "QQQ.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.673570+00:00",
+    "status": 200,
+    "bytes": 50483,
+    "sha256": "d8d804e341c319afe195603a4c8217a94f1a36641359771bb14b49e9f8042557",
+    "received_utc": "2026-10-30T20:42:25.989650+00:00"
+  },
+  {
+    "file": "IWM.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IWM?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.764552+00:00",
+    "status": 200,
+    "bytes": 52241,
+    "sha256": "ca643e2df49c87456a009fa0ae51b253d2c72690c8fb601827e65d383c4b464d",
+    "received_utc": "2026-10-30T20:42:26.064542+00:00"
+  },
+  {
+    "file": "TLT.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:25.989686+00:00",
+    "status": 200,
+    "bytes": 51458,
+    "sha256": "a8a466f204ec13e195dfb6de524615ce76f5b9cdae07e5e6335e51d099d54628",
+    "received_utc": "2026-10-30T20:42:26.348969+00:00"
+  },
+  {
+    "file": "IEF.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/IEF?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.064570+00:00",
+    "status": 200,
+    "bytes": 50884,
+    "sha256": "d2edc1408b5bf8504740c2aeb44cc8ecc34e2cc645d33b4d84be3d3189775b0a",
+    "received_utc": "2026-10-30T20:42:26.391939+00:00"
+  },
+  {
+    "file": "HYG.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HYG?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.132343+00:00",
+    "status": 200,
+    "bytes": 51256,
+    "sha256": "3a0f1bd3e0e387bf289a285ce9e42731b8363f412c5b9160ce1b2a738772896e",
+    "received_utc": "2026-10-30T20:42:27.266699+00:00"
+  },
+  {
+    "file": "VIX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.148090+00:00",
+    "status": 200,
+    "bytes": 49755,
+    "sha256": "e3ef372d3cf1b52a98d7003da2dddafb67442ed270a95a4e6a6347b91a60513d",
+    "received_utc": "2026-10-30T20:42:27.171331+00:00"
+  },
+  {
+    "file": "DX-Y.NYB.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.348998+00:00",
+    "status": 200,
+    "bytes": 51873,
+    "sha256": "047e3ec2a49e569ed66e1164c300376efe0cfc68a8ae05b9935a360adfb8351e",
+    "received_utc": "2026-10-30T20:42:26.631601+00:00"
+  },
+  {
+    "file": "TNX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.391967+00:00",
+    "status": 200,
+    "bytes": 48386,
+    "sha256": "6609d75dcf8e462da86e0133c4e7ea390baa5c47301d8ae228ad9fb4570c12b8",
+    "received_utc": "2026-10-30T20:42:27.410076+00:00"
+  },
+  {
+    "file": "BTC-USD.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BTC-USD?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.410442+00:00",
+    "status": 200,
+    "bytes": 61385,
+    "sha256": "a9591553f64bef590a110d817964ad020ff3055e38b535b784b415445681ff21",
+    "received_utc": "2026-10-30T20:42:26.847826+00:00"
+  },
+  {
+    "file": "GCZ26.CMX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GCZ26.CMX?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.500010+00:00",
+    "status": 200,
+    "bytes": 41026,
+    "sha256": "0a0727af5b72b67d02c6abf79a556f2acb7a3afac8341dd5d2cd461fee1c45b0",
+    "received_utc": "2026-10-30T20:42:26.711208+00:00"
+  },
+  {
+    "file": "SIZ26.CMX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SIZ26.CMX?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.631627+00:00",
+    "status": 200,
+    "bytes": 48379,
+    "sha256": "124f1ae2181bc00c9688606dc47c02fcb748a6e7b48bc6d3ab8a51d9110ade1d",
+    "received_utc": "2026-10-30T20:42:26.922499+00:00"
+  },
+  {
+    "file": "HGZ26.CMX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HGZ26.CMX?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.711235+00:00",
+    "status": 200,
+    "bytes": 49573,
+    "sha256": "2e4fc557dcebc5129bdcf608914e6854cb8c303442d2ff956c2b51bfe0671671",
+    "received_utc": "2026-10-30T20:42:27.012927+00:00"
+  },
+  {
+    "file": "CL_F.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.847853+00:00",
+    "status": 200,
+    "bytes": 49324,
+    "sha256": "831b905fba8f2e5a56483ff1ec1a16e5e3af648c30a014e19dbf225b6e3cfd0e",
+    "received_utc": "2026-10-30T20:42:28.008733+00:00"
+  },
+  {
+    "file": "USDJPY_X.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/USDJPY%3DX?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:26.922531+00:00",
+    "status": 200,
+    "bytes": 51170,
+    "sha256": "d92035f4b8df1e25dc1a7a06010808155f9e274a28fa5894112aee77db44c7c8",
+    "received_utc": "2026-10-30T20:42:27.200857+00:00"
+  },
+  {
+    "file": "CNH_X.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CNH%3DX?period1=1735689600&period2=1793419200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "requested_utc": "2026-10-30T20:42:27.012953+00:00",
+    "status": 200,
+    "bytes": 1199,
+    "sha256": "198cfc4cc63a612a15767467936a1aae72cd9fbbca5f9e0750cb0db71f01fe08",
+    "received_utc": "2026-10-30T20:42:27.277835+00:00"
+  },
+  {
+    "file": "intraday_GLD.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GLD?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.171374+00:00",
+    "status": 200,
+    "bytes": 35874,
+    "sha256": "45c950b6ddf6b88b80e3f1e15b5b277bdc5ee393f7b4c8bccf6a70d5b88f7678",
+    "received_utc": "2026-10-30T20:42:27.495618+00:00"
+  },
+  {
+    "file": "intraday_SPY.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SPY?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.200889+00:00",
+    "status": 200,
+    "bytes": 35747,
+    "sha256": "7a969437a6517aa51de86383ac079b75fe869617bc5cfc0ed82297e13a21608c",
+    "received_utc": "2026-10-30T20:42:28.245124+00:00"
+  },
+  {
+    "file": "intraday_QQQ.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/QQQ?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.266757+00:00",
+    "status": 200,
+    "bytes": 35518,
+    "sha256": "34efb89984bac107d13c1d2b97575dc6ba032a5e65a57936459c50defaaf8eb8",
+    "received_utc": "2026-10-30T20:42:28.327057+00:00"
+  },
+  {
+    "file": "intraday_GDX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GDX?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.277864+00:00",
+    "status": 200,
+    "bytes": 35568,
+    "sha256": "83563aa08df304b06b288dffbd069e15cd878f5cd0e23ab277baa76d6d035fbe",
+    "received_utc": "2026-10-30T20:42:27.469313+00:00"
+  },
+  {
+    "file": "intraday_SLV.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SLV?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.410150+00:00",
+    "status": 200,
+    "bytes": 36554,
+    "sha256": "77132aead04943258aa4bad0c34c74cf74f79388181b72f016e0c7ff6e404a71",
+    "received_utc": "2026-10-30T20:42:27.727764+00:00"
+  },
+  {
+    "file": "intraday_DX-Y.NYB.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.469350+00:00",
+    "status": 200,
+    "bytes": 116310,
+    "sha256": "b199847d923718d7f9716619560e8b66d0fb993645cc6e234062f3f02eb70314",
+    "received_utc": "2026-10-30T20:42:27.877331+00:00"
+  },
+  {
+    "file": "intraday_TNX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.495668+00:00",
+    "status": 200,
+    "bytes": 35504,
+    "sha256": "055fd513b630ecb0f8732874fdea11549411c9fd263bd40e698711532bb69459",
+    "received_utc": "2026-10-30T20:42:28.282548+00:00"
+  },
+  {
+    "file": "intraday_VIX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.727794+00:00",
+    "status": 200,
+    "bytes": 68472,
+    "sha256": "fb388bc65e2cc7b1de5cc3930b1a25d47d042dd8fb1c4c94d81ebd48a1f152d2",
+    "received_utc": "2026-10-30T20:42:28.018192+00:00"
+  },
+  {
+    "file": "intraday_GCZ26.CMX.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GCZ26.CMX?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:27.877371+00:00",
+    "status": 200,
+    "bytes": 103130,
+    "sha256": "5b7d0a2ac626de756bba28f1396455a96f5447370f40c99a75be22e9d9cabfaf",
+    "received_utc": "2026-10-30T20:42:29.040713+00:00"
+  },
+  {
+    "file": "intraday_TLT.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?range=5d&interval=5m&includePrePost=false",
+    "requested_utc": "2026-10-30T20:42:28.008786+00:00",
+    "status": 200,
+    "bytes": 35955,
+    "sha256": "a68ed24b29902cd0b3d6ab31a428a00cfa96445507d8fed83b8d707b60de9661",
+    "received_utc": "2026-10-30T20:42:28.308147+00:00"
+  },
+  {
+    "file": "GLD_issuer_archive.xlsx",
+    "url": "https://api.spdrgoldshares.com/api/v1/historical-archive?exchange=NYSE&lang=en&product=gld",
+    "requested_utc": "2026-10-30T20:42:28.018224+00:00",
+    "status": 200,
+    "bytes": 542871,
+    "sha256": "7fd2326e38d85c2e6384d979ba6f1d189f9d8c155a91c422d734fbb5de2b6cd9",
+    "received_utc": "2026-10-30T20:42:28.198183+00:00"
+  },
+  {
+    "file": "treasury_real.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "requested_utc": "2026-10-30T20:42:28.202194+00:00",
+    "status": 200,
+    "bytes": 7566,
+    "sha256": "7f2f75b6152c44cec9678f8d4335dd3db21d95c9baba24ffcf98389d5444a7d2",
+    "received_utc": "2026-10-30T20:42:28.672500+00:00"
+  },
+  {
+    "file": "treasury_nominal.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "requested_utc": "2026-10-30T20:42:28.245173+00:00",
+    "status": 200,
+    "bytes": 17039,
+    "sha256": "12905220311b5a38a82cbae68135f4c62169d230fb457d3e16689c15f385bb3c",
+    "received_utc": "2026-10-30T20:42:28.569567+00:00"
+  },
+  {
+    "file": "fred_DFII10.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10",
+    "requested_utc": "2026-10-30T20:42:28.282576+00:00",
+    "status": 200,
+    "bytes": 99415,
+    "sha256": "c7367a06a914bb86c02974e37ef6d1979de31e78e88402af697640b85b41c791",
+    "received_utc": "2026-10-30T20:42:28.410232+00:00"
+  },
+  {
+    "file": "fred_DTWEXBGS.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS",
+    "requested_utc": "2026-10-30T20:42:28.308173+00:00",
+    "status": 200,
+    "bytes": 104829,
+    "sha256": "8080a7d962c8e8976e4394a5dbdb2e4a2ddb984c1c5aefc581aa42b715fd6932",
+    "received_utc": "2026-10-30T20:42:28.431863+00:00"
+  },
+  {
+    "file": "fred_BAMLH0A0HYM2.csv",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "requested_utc": "2026-10-30T20:42:28.327108+00:00",
+    "status": 200,
+    "bytes": 12702,
+    "sha256": "9821f8417d061ba2304abd622034f2fb8581dffedaeccf353674bdca49d98c12",
+    "received_utc": "2026-10-30T20:42:28.437580+00:00"
+  },
+  {
+    "file": "cftc_disagg_other_lf.htm",
+    "url": "https://www.cftc.gov/dea/futures/other_lf.htm",
+    "requested_utc": "2026-10-30T20:42:28.410280+00:00",
+    "status": 403,
+    "bytes": 6040,
+    "sha256": "0afac48fb874a53fe4c19012f880b4a0d968bb0559be5da0ecd6dda4869cd5e4",
+    "received_utc": "2026-10-30T20:42:28.473608+00:00"
+  },
+  {
+    "file": "cftc_legacy_deafut.txt",
+    "url": "https://www.cftc.gov/dea/newcot/deafut.txt",
+    "requested_utc": "2026-10-30T20:42:28.431893+00:00",
+    "status": 403,
+    "bytes": 6031,
+    "sha256": "4503ee53a2c9d23395c74b163d20bcd32c3001a6694997f0c183af3533e863b0",
+    "received_utc": "2026-10-30T20:42:28.521557+00:00"
+  },
+  {
+    "file": "cftc_disagg_f_disagg.txt",
+    "url": "https://www.cftc.gov/dea/newcot/f_disagg.txt",
+    "requested_utc": "2026-10-30T20:42:28.437608+00:00",
+    "status": 403,
+    "bytes": 6037,
+    "sha256": "279d2c231533966569f42ba63595845850ea8699640c26575351829310db2281",
+    "received_utc": "2026-10-30T20:42:28.508022+00:00"
+  },
+  {
+    "file": "wgc_etf_page.html",
+    "url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows",
+    "requested_utc": "2026-10-30T20:42:28.473638+00:00",
+    "status": 200,
+    "bytes": 65992,
+    "sha256": "912040aa9c1b8b5dde29740cb3ab4d46b11f35b9bef6a672dd81eec55c0db776",
+    "received_utc": "2026-10-30T20:42:28.583599+00:00"
+  },
+  {
+    "file": "GSPC.json",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=1735689600&period2=1793419200&interval=1d",
+    "status": 200,
+    "bytes": 47502,
+    "sha256": "1ca42230816091a7c2e624c427d052252d6829a41671758c15e9f05ecd0e2893",
+    "received_utc": "2026-10-30T20:47:10.523975+00:00"
+  }
+]

@@ -73,6 +73,8 @@ Put inseparable multi-metal work in [shared](../shared/README.md), once, and lin
 
 - [October 26 certified gold settlement review](research/2026-10-26_certified-settlement-review.md) — wrong-month comparison explained; certification still missing, scoring rules preserved.
 
+- [October 30 July-low break: forced selling or repricing?](research/2026-10-30_july-low-break-liquidation-test.md) — PROME C9 commission (WQ-554): rates/dollar vs tape, cross-asset liquidation tests, GLD/WGC flows, COT legacy and disaggregated, frozen WQ-451 classifier applied, distinguishing evidence. [Captures and calculations](sources/2026-10-30_july-low-break/).
+
 - [October 26 close snapshot](../shared/research/2026-10-26_close-snapshot.md) — latest completed fund prices, provisional named futures and existing band levels; no new scoring rule.
 
 - [Precious-metals research candidates](../shared/research/2026-10-26_precious-metals-research-gaps.md) — recycling supply and mine/refinery timing; original recommendations, now executed in the reports below.

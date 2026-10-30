@@ -1,0 +1,29 @@
+[
+  {
+    "file": "cftc_legacy_deafut.txt",
+    "url": "https://www.cftc.gov/dea/newcot/deafut.txt",
+    "status": 200,
+    "bytes": 439640,
+    "sha256": "8345120a6bfdea15c5a5bb921dd3462f5be395ef3babb2444f7e650ab9e75442",
+    "received_utc": "2026-10-30T20:42:33.167798+00:00",
+    "client": "urllib"
+  },
+  {
+    "file": "cftc_disagg_f_disagg.txt",
+    "url": "https://www.cftc.gov/dea/newcot/f_disagg.txt",
+    "status": 200,
+    "bytes": 459372,
+    "sha256": "7adad516d50410738ad7da2bf09f256f3585dfaf480b3372a15cb2a4e69b8a52",
+    "received_utc": "2026-10-30T20:42:33.294506+00:00",
+    "client": "urllib"
+  },
+  {
+    "file": "cftc_disagg_other_lf.htm",
+    "url": "https://www.cftc.gov/dea/futures/other_lf.htm",
+    "status": 200,
+    "bytes": 251336,
+    "sha256": "4ac42308276eb4989d099a69a12b1c8d2eb81e50d68682c9b1c99189b4685d49",
+    "received_utc": "2026-10-30T20:42:33.466213+00:00",
+    "client": "urllib"
+  }
+]

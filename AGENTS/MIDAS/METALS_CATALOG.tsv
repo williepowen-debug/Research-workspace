@@ -127,3 +127,5 @@ shared	gold,silver,platinum,palladium,copper	sources	shared/sources/2026-10-28_c
 copper	copper	sources	copper/sources/2026-10-28_ICSG-check	ICSG primary forecast and monthly release	October 14 forecast and October 23 monthly PDFs with hashes and extracted text.
 gold	gold	sources	gold/sources/2026-10-29_net-exports	BEA/Census August trade release	Exhibits 7/8 nonmonetary gold values with hashes; dollars, not tonnes.
 copper	copper	sources	copper/sources/2026-10-29_FQM-Q3	First Quantum Q3 2026 release	Issuer HTML/PDF with acid sales and guidance, hashes.
+gold	gold	research	gold/research/2026-10-30_july-low-break-liquidation-test.md	GLD July-low break: liquidation versus demand repricing	C9 commission; liquidation proximate (moderate), forced unproven; WQ-451 class pending tonnes; no score or forecast change.
+gold	gold	sources	gold/sources/2026-10-30_july-low-break	July-low break captures and calculations	PRIMARY Treasury/GLD issuer/CFTC legacy+disaggregated/WGC WMM PDF; Yahoo daily and 5-minute mirrors; WQ-451 frozen-parameter application.

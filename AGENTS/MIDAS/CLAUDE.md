@@ -174,7 +174,7 @@ Durable banded rules here; the live read lives in STATUS with `[src M/D]` + as-o
 
 ## PREDICTIONS — metals resolve on a clock
 
-Real-rate divergence, copper inflections, and GSR moves resolve against a fixed macro calendar — good for calibration. `workbook/PREDICTIONS.tsv` live; resolved rows → archive with post-mortems; failure-pattern synthesis fed back into THESIS as rules gating future calls.
+Real-rate divergence, copper inflections, and GSR moves resolve against a fixed macro calendar — good for calibration. `workbook/PREDICTIONS.tsv` live; copy the resolved row with its post-mortem to the archive; the live row stays in `workbook/PREDICTIONS.tsv` because `grade_midas07.py` and the fleet `scripts/asmade_audit.py` read it verbatim (wording per PROME packet 2026-10-29, C4 own-charter edit; no authority, route or threshold moved); failure-pattern synthesis fed back into THESIS as rules gating future calls.
 - Prediction ID format: `MIDAS-NN`.
 - Every prediction carries an **if-falsified action**, a **confidence tier** (EMPIRICAL / PROVISIONAL / ASSUMPTION), and resolution criteria.
 - **Boot resolution:** scan past-trigger rows at boot; resolve HIT/MISS/FALSIFIED; never leave OPEN-but-stale.
