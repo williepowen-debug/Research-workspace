@@ -1851,7 +1851,30 @@
     ]
   },
   "contract_sha256": "493b3b94daa412b41f9085c5e97f7db9a37df3b7ad897a143bb287d33ffcf720",
-  "observed": {},
+  "observed": {
+    "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": [
+      {
+        "owner": "CATO",
+        "reason": "CATO's nested ignore file under its Decisions MVP prototype, committed by CATO at 645ab957b (15:04 ET, 'build durable Decisions rehearsal and record live integration plan'); excludes local-state/ and __pycache__/. Not written by PROME, not in the delivered set, no PROME claim relies on it; strict at the verify as a nested ignore file (DOCKET L835 class) and classified here per CLOSEOUT step 10.",
+        "basis": {
+          "path": "AGENTS/CATO/prototypes/decisions/mvp/.gitignore",
+          "commit": "645ab957bcbb64f765d49047fe032926fa196afa",
+          "sha256": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838"
+        },
+        "quote": "local-state/",
+        "not_relied_on": true,
+        "snapshot": {
+          "commits": [
+            "645ab957bcbb64f765d49047fe032926fa196afa"
+          ],
+          "pending": [],
+          "working_sha256": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+          "commit_sha256": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838"
+        },
+        "recorded_at": "2026-10-30T23:36:52.485196+00:00"
+      }
+    ]
+  },
   "inventory": {
     ".claude/agents/anvil.md": {
       "commits": [
@@ -10967,13 +10990,12 @@
     },
     "PROME/ACTIVE_DECISIONS.md": {
       "commits": [
-        "2d5ae31cc562f42f296b5e8c6f050169024dae2f"
+        "2d5ae31cc562f42f296b5e8c6f050169024dae2f",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "164f1971fbbd561d093d00f9b40ab89495e8b76428575db471d607f40b21958f",
-      "commit_sha256": "5e2c0226f9714a209ae5ef594cc491daf2dc0077b02465d9e27aa011c2dbd62b"
+      "commit_sha256": "164f1971fbbd561d093d00f9b40ab89495e8b76428575db471d607f40b21958f"
     },
     "PROME/BOOT.md": {
       "commits": [
@@ -11055,13 +11077,12 @@
         "e9e058ffd5edd7746b08fb6f16d8ad36b39e6284",
         "c869d31a609ff3e9f354c4538c44d8ee86452fba",
         "4f49602aa4bc57bce655e545d185954df52eb43b",
-        "3e242d7a7bea672e0a2c8906e42b328f9dae653c"
+        "3e242d7a7bea672e0a2c8906e42b328f9dae653c",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "ff18dababc21fae2eea18dc635cc882e4125814bc8c5ecbfec9a62a131e3aba1",
-      "commit_sha256": "7a6d240c2caec87c67ef8543253dd0e80f9169a0839df7e8695f663d2515c46b"
+      "commit_sha256": "ff18dababc21fae2eea18dc635cc882e4125814bc8c5ecbfec9a62a131e3aba1"
     },
     "PROME/GATES.tsv": {
       "commits": [
@@ -11089,13 +11110,12 @@
         "732ddc9e6ee6ae35b006b43aad87c8b4c34c0360",
         "0ef9ea06e90d4fb721826c8ab6a0f9df8813f2d6",
         "e4e8000f16e0209a17ccf0e95d36443c5f96c2c5",
-        "13e2e4eeba7d8d93a3bb4e5cf743688a737a7d4d"
+        "13e2e4eeba7d8d93a3bb4e5cf743688a737a7d4d",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "3b11133270323155167aecee0531e96bf66f9187058c2c424237c6f7fd8997e1",
-      "commit_sha256": "04646da14f7c08a86068a640d999f6980e12389504e765e9d6753a271352168b"
+      "commit_sha256": "3b11133270323155167aecee0531e96bf66f9187058c2c424237c6f7fd8997e1"
     },
     "PROME/MACHINE_LOCAL.md": {
       "commits": [
@@ -11107,13 +11127,12 @@
     },
     "PROME/ROSTER.md": {
       "commits": [
-        "0ef9ea06e90d4fb721826c8ab6a0f9df8813f2d6"
+        "0ef9ea06e90d4fb721826c8ab6a0f9df8813f2d6",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "bd9c8e9bf115ca6781a02622cf01b4c707722f75ced9646701c270db73869c4b",
-      "commit_sha256": "4e351281afcbb1b4333b5398af10a8609ff8fafc0ae096480f227581a1461d3f"
+      "commit_sha256": "bd9c8e9bf115ca6781a02622cf01b4c707722f75ced9646701c270db73869c4b"
     },
     "PROME/SCRATCH.md": {
       "commits": [
@@ -11139,24 +11158,22 @@
         "7a23ad2f602c7cef0acc974b9b788fb81da40d22",
         "468f0457c0a3b643bac458bb7d5384265874908f",
         "e30cb8febc36d2a8d2d286362cc3ab18f21e4445",
-        "13e2e4eeba7d8d93a3bb4e5cf743688a737a7d4d"
+        "13e2e4eeba7d8d93a3bb4e5cf743688a737a7d4d",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "5422af06d50b67ed17d6e24d733b925d4e347bd8995425ff69a37fdbd670cfd3",
-      "commit_sha256": "ac800334ac2019c33a2b513f2b201ffc144e0a74384fb2d8c3d1f6a0f854d4ef"
+      "commit_sha256": "5422af06d50b67ed17d6e24d733b925d4e347bd8995425ff69a37fdbd670cfd3"
     },
     "PROME/STATUS.md": {
       "commits": [
         "2d5ae31cc562f42f296b5e8c6f050169024dae2f",
-        "732ddc9e6ee6ae35b006b43aad87c8b4c34c0360"
+        "732ddc9e6ee6ae35b006b43aad87c8b4c34c0360",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "7b322f923988b371e068068d36d71294534c1fb8d4fa28106e97083008804572",
-      "commit_sha256": "c802f3d70434209e920d6ceb61fc362334b04db36a62b98456783810c75e44c6"
+      "commit_sha256": "7b322f923988b371e068068d36d71294534c1fb8d4fa28106e97083008804572"
     },
     "PROME/SYSTEM.md": {
       "commits": [
@@ -11196,21 +11213,20 @@
         "91aee6f99b45ef08e16d5fef8f62190cb9d3c277",
         "e9e058ffd5edd7746b08fb6f16d8ad36b39e6284",
         "3e242d7a7bea672e0a2c8906e42b328f9dae653c",
-        "eeab020bbab0ca2fbf1f32c6ee0764590176123c"
+        "eeab020bbab0ca2fbf1f32c6ee0764590176123c",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "9da8dbccc821aea4147d914014755976eb477a5cdba1a2814f9f1f6691b6ec0a",
-      "commit_sha256": "80bd7a7726fe6c7ac7933b5e3be525639f366adf1ce0609fd0816f399baa779e"
+      "commit_sha256": "9da8dbccc821aea4147d914014755976eb477a5cdba1a2814f9f1f6691b6ec0a"
     },
     "PROME/archive/ACTIVE_DECISIONS_ROTATION_2026-10-30.md": {
-      "commits": [],
-      "pending": [
-        "??"
+      "commits": [
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
+      "pending": [],
       "working_sha256": "caf2288fb6a1dd200f34c4e2c130c7871b90c24a39cdd8b4db69eb70e0aa3f35",
-      "commit_sha256": null
+      "commit_sha256": "caf2288fb6a1dd200f34c4e2c130c7871b90c24a39cdd8b4db69eb70e0aa3f35"
     },
     "PROME/archive/BOOT_STAMP_CHAIN_2026-10-16.md": {
       "commits": [
@@ -11221,12 +11237,12 @@
       "commit_sha256": "a0c2f669644196a96467ddf2b6e4054d574d5b6fabd410fbb5f7817ce2254908"
     },
     "PROME/archive/HANDOFF_ROTATED_2026-10-30_prome-c5.md": {
-      "commits": [],
-      "pending": [
-        "??"
+      "commits": [
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
+      "pending": [],
       "working_sha256": "5e2a6b04fd8a6a105344c339f08ecdea578a890198f389b928abcb569616cc60",
-      "commit_sha256": null
+      "commit_sha256": "5e2a6b04fd8a6a105344c339f08ecdea578a890198f389b928abcb569616cc60"
     },
     "PROME/archive/STATUS_SPINE_AUDIT_PRIORS_2026-10-23.md": {
       "commits": [
@@ -12084,13 +12100,12 @@
     },
     "PROME/registry/READS.tsv": {
       "commits": [
-        "de34841ac4aa3d6c6be755f7ad1a5b6cb2a77310"
+        "de34841ac4aa3d6c6be755f7ad1a5b6cb2a77310",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "dec638045935e56b325b19fc4e4fcce6405218eadb0bd84c1e0ac65186c71166",
-      "commit_sha256": "c0d14dd88cec865388785f853a4f3bbb298f3a8486fdd66e2cb633e1d16a3678"
+      "commit_sha256": "dec638045935e56b325b19fc4e4fcce6405218eadb0bd84c1e0ac65186c71166"
     },
     "PROME/registry/WQ_LEDGER.crc": {
       "commits": [
@@ -12115,13 +12130,12 @@
         "468f0457c0a3b643bac458bb7d5384265874908f",
         "e30cb8febc36d2a8d2d286362cc3ab18f21e4445",
         "91aee6f99b45ef08e16d5fef8f62190cb9d3c277",
-        "eeab020bbab0ca2fbf1f32c6ee0764590176123c"
+        "eeab020bbab0ca2fbf1f32c6ee0764590176123c",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "16e5365fa461e578074727a0eac0c22fe57dab0714743c9b81b637c80500d982",
-      "commit_sha256": "319e26faec7fbcbf3b4e3967bddf2d3d5583dd8d858e7b1251825167757c9aa3"
+      "commit_sha256": "16e5365fa461e578074727a0eac0c22fe57dab0714743c9b81b637c80500d982"
     },
     "PROME/registry/WQ_LEDGER.tsv": {
       "commits": [
@@ -12146,13 +12160,12 @@
         "468f0457c0a3b643bac458bb7d5384265874908f",
         "e30cb8febc36d2a8d2d286362cc3ab18f21e4445",
         "91aee6f99b45ef08e16d5fef8f62190cb9d3c277",
-        "eeab020bbab0ca2fbf1f32c6ee0764590176123c"
+        "eeab020bbab0ca2fbf1f32c6ee0764590176123c",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "193c0849dcc7b586656cb447ecc65d9cf21f11a82cc984766988fdc4e877a029",
-      "commit_sha256": "79fbb8aedb1a69fa5f96b6a1ac585db414de592affdaf5791bef3bc3bdeb2762"
+      "commit_sha256": "193c0849dcc7b586656cb447ecc65d9cf21f11a82cc984766988fdc4e877a029"
     },
     "PROME/reports/2026-10-29_evening-boot.md": {
       "commits": [
@@ -12250,13 +12263,12 @@
         "e9e058ffd5edd7746b08fb6f16d8ad36b39e6284",
         "c869d31a609ff3e9f354c4538c44d8ee86452fba",
         "4f49602aa4bc57bce655e545d185954df52eb43b",
-        "3e242d7a7bea672e0a2c8906e42b328f9dae653c"
+        "3e242d7a7bea672e0a2c8906e42b328f9dae653c",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "27e536e50cfb136559f46eeff6d2b7f39101e0ab014af47c2aa617964ace502d",
-      "commit_sha256": "df16b851f22e72a8c4bf3c7eed4dae360e015e4b226852bb4aea56b342c8c3d5"
+      "commit_sha256": "27e536e50cfb136559f46eeff6d2b7f39101e0ab014af47c2aa617964ace502d"
     },
     "PROME/state/ORCH_INFLIGHT.md": {
       "commits": [
@@ -12295,13 +12307,12 @@
         "4f49602aa4bc57bce655e545d185954df52eb43b",
         "3e242d7a7bea672e0a2c8906e42b328f9dae653c",
         "eeab020bbab0ca2fbf1f32c6ee0764590176123c",
-        "43a8d4e691ffc22b87c647794cabc6807b915291"
+        "43a8d4e691ffc22b87c647794cabc6807b915291",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "e19c48a02f9d54a987acbcc78705539fbeef98be42923ad758d5b91c57979cfd",
-      "commit_sha256": "5308214818d81896ce33af774da05716a19f386e4a3fdc22daadc20cb5511d10"
+      "commit_sha256": "e19c48a02f9d54a987acbcc78705539fbeef98be42923ad758d5b91c57979cfd"
     },
     "PROME/state/ORCH_LOG.tsv": {
       "commits": [
@@ -12349,13 +12360,12 @@
         "4f49602aa4bc57bce655e545d185954df52eb43b",
         "3e242d7a7bea672e0a2c8906e42b328f9dae653c",
         "eeab020bbab0ca2fbf1f32c6ee0764590176123c",
-        "43a8d4e691ffc22b87c647794cabc6807b915291"
+        "43a8d4e691ffc22b87c647794cabc6807b915291",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "cc9c09f45a1e986f39e816861533c4862a55106103b3ab9f695184b43936a501",
-      "commit_sha256": "d0ee3975ec437013bd206efa5a69f1280566e20263f1293e3ec0ad84bd7d34ac"
+      "commit_sha256": "cc9c09f45a1e986f39e816861533c4862a55106103b3ab9f695184b43936a501"
     },
     "PROME/state/board_consumed.tsv": {
       "commits": [
@@ -12445,13 +12455,12 @@
         "0ef9ea06e90d4fb721826c8ab6a0f9df8813f2d6",
         "e948bfdbf4b01038ad9f2f3cb707bcdf1ff83cc5",
         "e4e8000f16e0209a17ccf0e95d36443c5f96c2c5",
-        "13e2e4eeba7d8d93a3bb4e5cf743688a737a7d4d"
+        "13e2e4eeba7d8d93a3bb4e5cf743688a737a7d4d",
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
-      "pending": [
-        " M"
-      ],
+      "pending": [],
       "working_sha256": "5c10a8208a5bbf02ba45603537a5c80a5d7d6a9f7fe1590af2ab681db4e5a48e",
-      "commit_sha256": "a627e93e957b639bbcc19f93de3614c51c4dd4c01b1c77f3aa06ccfd84366212"
+      "commit_sha256": "5c10a8208a5bbf02ba45603537a5c80a5d7d6a9f7fe1590af2ab681db4e5a48e"
     },
     "memory/auto/INDEX_COLD_EMBEDDED.md": {
       "commits": [
@@ -12462,12 +12471,12 @@
       "commit_sha256": "2d72c27e274bf8e97bbc71e1b1ab6847ec1e6a867504eb73639d139b644d9da3"
     },
     "memory/auto/finding_a_stamp_written_from_narrative_drifts_from_the_wall_clock.md": {
-      "commits": [],
-      "pending": [
-        " M"
+      "commits": [
+        "ec963a6f8a19c44223654d1352d83a42148b0150"
       ],
+      "pending": [],
       "working_sha256": "5c8a5fd486a7a657bd2849a81ec7139cd168670d03f4770fca19d46e5581b1d7",
-      "commit_sha256": "9c6390340daec15514fb502aff15fe175eb2020506c1286f7ee2861b3450e9d9"
+      "commit_sha256": "5c8a5fd486a7a657bd2849a81ec7139cd168670d03f4770fca19d46e5581b1d7"
     },
     "scripts/agents_gui.ps1": {
       "commits": [],
