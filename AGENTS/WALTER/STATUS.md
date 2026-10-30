@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-30T01:14:33Z — Authorized bookmark scan: 0 new items; other boot scope PARTIAL. Resume/duties: LAST_COMPLETION.md.
+**Updated:** 2026-10-30T02:21:34Z — EO 14421 primary review and one new source signal; FULL record checkpoint. Boot source/perimeter scope remains PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-October 29 evening Codex startup: instructions and approvals recovered; operational boot PARTIAL. No new signal or threshold fire established in completed checks. Research-Intake is synced and healthy. X reauthorization succeeded; a read-only bookmark API probe passed. Authorized head scan at October 29 21:13:24 ET returned 0 new items; no new content required review or routing. Primary settlement, cohort and broad owner-context coverage limits remain explicit in the boot receipt.
+Will's White House primary led to SIG-W-20261030-001: August 26 EO 14421 and DOE's October 6 guidance add a conditional grid-equipment procurement/security constraint. Data-centre generators, batteries and UPS are neither automatically included nor excluded by behind-the-meter location; foreign nexus and required DOE risk findings still matter. WATT/CYPHER owner questions saved with VULCAN/ZHAO/HENRY/RED context. No named vendor restriction, affected project, lost MW, cost effect or actual cyber incident established. Sources and exact limits: `research/2026-10-30_bulk-power-order/REVIEW.md` and the BOARD card.
 
-Prior evening cards 039–055 remain the latest dispatches, including the Binance suspected-hack claim and Amazon after-hours summaries; their primary-source limits survive. Source-search stopping rules and existing approvals are retained in LAST_COMPLETION.md. Evidence: `research/2026-10-29_codex-evening-boot/BOOT-RECEIPT.md` and `THRESHOLD-SCAN.md`; access recovery supersession: `research/2026-10-29_intake-access-recovery/RECOVERY.md`.
+Research-Intake access works; X reauthorized and head checked October 29 21:13:24 ET with 0 new items. No fresh market/threshold-family clearance in this policy review. Existing approvals, pending publication and source/perimeter gaps remain in LAST_COMPLETION.md. BOARD count 1853; latest UTC-day signal SIG-W-20261030-001.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -65,7 +65,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Existing REGISTRY rows reviewed from available owner lead headers 2026-10-30T00:58:44Z; `research/2026-10-29_codex-evening-boot/registry-owner-review.json` retains the header evidence. Grades and membership unchanged; header freshness is not source freshness. GIBBS remains October 23, YURI October 21 on their owner headers. Codex task discovery was truncated and cross-runtime coverage unverified; readiness is UNKNOWN without corroboration. ORCH_INFLIGHT was read whole and is historical coordination evidence, not liveness. No ACTIVE LIAISON channels in the current manifest.
+REGISTRY owner lead headers refreshed 2026-10-30T02:21:34Z; evidence `research/2026-10-30_bulk-power-order/owner-header-review.json`. WATT's maintained record October 29, CYPHER closed October 29, VULCAN October 29 source cutoff; no current owner presence inferred from those dates. Grades/membership unchanged. Latest bounded Codex task list sees this WALTER and idle CATO plus older notLoaded tasks; cross-runtime owner readiness remains UNKNOWN. ACTION readiness for SIG-W-20261030-001 logged P0-UNKNOWN for WATT and CYPHER; no doorbell or launch. Two discovered LIAISON paths remain dormant under the existing manifest. Missing dispatch identifier caches for WATT/CYPHER/VULCAN were handled through current charters/STATUS, not invented identifiers.
 
 ## Active LIAISON channels
 

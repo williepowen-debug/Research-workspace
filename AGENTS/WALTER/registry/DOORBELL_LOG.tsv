@@ -529,3 +529,5 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-10-16	REGINALD	SIG-W-20261016-025	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet visibility; Will named PROME/CATO/WALTER active; no cross-runtime relay tool. Foreign writes gate push.
 2026-10-16	FALCON	SIG-W-20261016-026	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet census; no darkness or eligibility inferred. Repo packet saved.
 2026-10-16	BRENT	SIG-W-20261016-026	NONE	P0-UNKNOWN	NO	NA	NA	NA		No native fleet census; no darkness or eligibility inferred. Repo packet saved.
+2026-10-30	WATT	SIG-W-20261030-001	NONE	P0-UNKNOWN	NO	NA	NA	NA		Codex bounded task list and historical ORCH view do not establish cross-runtime owner absence. Create-only packet; no doorbell or launch.
+2026-10-30	CYPHER	SIG-W-20261030-001	NONE	P0-UNKNOWN	NO	NA	NA	NA		Codex bounded task list and historical ORCH view do not establish cross-runtime owner absence. Create-only packet; no doorbell or launch.

@@ -1,12 +1,14 @@
-# WALTER — Codex startup recovery; operational boot PARTIAL
+# WALTER — EO 14421 primary-source routing; FULL record checkpoint
 
-Updated 2026-10-30T01:14:33Z. OpenAI Codex, GPT-6 family (exact serving variant UNKNOWN), session 01a18a48-0e7c-7892-9560-3672bf9cf6ef. Prior evening session CLOSED; this is a fresh Will-launched startup. Previous completion preserved verbatim: research/2026-10-29_codex-evening-boot/prior-LAST_COMPLETION.md.
+Updated 2026-10-30T02:21:34Z. OpenAI Codex, GPT-6 family (exact serving variant UNKNOWN), session 01a18a48-0e7c-7892-9560-3672bf9cf6ef. Prior evening session CLOSED; this is a fresh Will-launched startup. Previous completion preserved verbatim: research/2026-10-29_codex-evening-boot/prior-LAST_COMPLETION.md.
 
 ## STATUS
 
-Instruction and approval recovery completed. Operational boot PARTIAL, with independent checks performed and exact gaps in research/2026-10-29_codex-evening-boot/BOOT-RECEIPT.md. No new dispatch, owner launch, research commission, trade or external message. Previous cards 039–055 and their source qualifications remain historical evidence, not new work this session.
+One new primary-source signal SIG-W-20261030-001 from Will's White House link: August 26 bulk-power equipment security EO, October 6 DOE FAQ. Full record checkpoint refreshes narrative/registry/memory and clears the two light deferrals; it does not certify the outstanding PARTIAL boot/source/perimeter legs. No trade, new research commission, helper/domain launch, external send or new monitor. Existing approvals preserved.
 
 ## CHANGED
+
+BOARD/SIG-W-20261030-001-eo-14421-aug26-bulk-power-security-doe-oct6-faq-datacenter-equipment-not-automatically-exempt-conditional-procurement-risk.md; generated INDEX; one route row; five create-only recipient handoffs/delivery rows (WATT/CYPHER ACTION, VULCAN/ZHAO/HENRY INFO; RED exempt INFO pull); two P0-UNKNOWN doorbell-log rows; primary-review evidence, owned current state and source follow-up. No owner file, grade, band or threshold changed. Routine publication deferred; written/committed/published/delivered/consumed remain separate.
 
 Zero-new-bookmark scan receipt and pending-stage metadata; no consumed-set change, review attestation or delivery row. No new signal.
 
@@ -16,21 +18,24 @@ Boot/read/market evidence; REGISTRY owner-header refresh; STATUS and memory sess
 
 ## RESULT
 
+**SIG-W-20261030-001:** August 26 EO 14421, primary text confirmed; DOE October 6 FAQ, especially questions 2/5/8/9/16/19/22. No automatic blanket foreign-equipment ban; behind-the-meter/data-centre location alone neither covers nor exempts. Date arithmetic: 120-day rule direction as needed → December 24, 2026; 180-day FAR recommendations → February 22, 2027; later FAR Council period is receipt-dependent. Potential lead-time/cost constraint is INFERENCE, not a measured effect. No vendor ban, removal order, named project impact, cost/MW loss or actual cyber incident established by this bounded review. No source-date reset. REVIEW.md gives locators and scope.
+
 **Authorized bookmark check:** latest head check October 29 21:13:24 ET (2026-10-30T01:13:24Z), 0 NEW IDs, returned traversal complete under scanner contract, no pending items. No new content to review or route; consumed IDs unchanged at 1,363. No --mark. Evidence: research/2026-10-29_bookmark-check/REVIEW.md.
 
 **Access recovery completed at 2026-10-30T01:06:55Z:** Research-Intake synced by its default stored credential to 63a16b4, local/remote 0 ahead / 0 behind, six healthy feeds, scanner 0 NEW / 28 suppressed. Will completed X browser approval; read-only bookmark API probe PASS (50 rows, more pages available), seen/pending unchanged. No staging or marks. Evidence: research/2026-10-29_intake-access-recovery/RECOVERY.md. No substantive bookmark review or complete queue scan claimed.
 
-Doctor 0 HIGH / 2 MED; correction receipts 0 owed; boot basis matches 29 paths. Read all 48 owner threshold IDs and required fire ledgers; RED view hash matches canon. No new fire in completed checks. Cboe publisher successfully read: SKEW 148.74 [October 28]; prior Cboe access gap superseded for this pull only. HY 314 [October 28] near-exit watch unchanged, exits 0/3 and 0/5. Root pull initially blocked by foreign dirty PROME files, then succeeded after their owner committed; no foreign edit/stash. Inbox and dropzone empty. No marks.
+At the earlier boot: doctor 0 HIGH / 2 MED; correction receipts 0 owed; boot basis matched 29 paths then. Current checkpoint basis is REVIEW because PROME/COMPLETION_SPEC.md changed concurrently; current text re-read, owner registry/hash reconciliation remains outstanding. Read all 48 owner threshold IDs and required fire ledgers; RED view hash matches canon. No new fire in completed checks. Cboe publisher successfully read: SKEW 148.74 [October 28]; prior Cboe access gap superseded for this pull only. HY 314 [October 28] near-exit watch unchanged, exits 0/3 and 0/5. Root pull initially blocked by foreign dirty PROME files, then succeeded after their owner committed; no foreign edit/stash. Inbox and dropzone empty. No marks.
 
 ## GAPS
 
+- EO-specific: later legally effective DOE actions were not established; this is not a no-action finding. October 6 FAQ does not certify the full October 30 legal position. Named supplier/project exposure and cost/MW effects remain unknown, owned by WATT/VULCAN; CYPHER owns incident/policy distinction. Missing identifier caches and WATT docket/CATALYSTS.tsv are explicit dependencies, not an assumed absence of any calendar surface.
 - Broad first-30-line owner/filter context is PARTIAL; header review does not certify all owner evidence. Current settlement grades, HANS sovereign/compound checks and CREED qualitative/cohort censuses incomplete. HANS-T-12 and boundary #5 UNINSTRUMENTED. KRE/WAL October 29 history rows NULL; quotes not substituted for missing closes.
 - Cross-runtime fleet visibility incomplete; readiness UNKNOWN. Truncated Codex task list and ORCH_INFLIGHT do not establish DARK. Recipient consumption beyond the preceding session's named receipts remains UNKNOWN.
 - READS attestation stale October 23; coordinator registry reconciliation dated November 3. Current-byte boot basis match does not certify execution/perimeter.
 - Existing doctor MED: seven delivered >2-day unconsumed packets (2 ACTION / 5 INFO; oldest ACTION 10 days by routed timestamp) plus historical 027-001 header retained under WQ-503 B. No owner neglect inferred.
 - Prior R1 closeout REVIEW reproduced: withdrawals in 048 filename matches unbounded WITHDRAW regex. Flagged in PROME packet; shared script/immutable card untouched. A repair is not commissioned or certified by this flag.
 - Carried source gaps: Amazon release and Intel/Twilio/Reddit/Roblox results unread; Binance/Polymarket/Fiserv company notices unread; Bloomberg Hubbard body unread. No startup source upgrade. Prior unauthorized identifying SEC request remains reported historical incident; no such header used here.
-- Closeout checkpoint selected checks UNKNOWN: stale READS perimeter; receipt REVIEW from the reproduced R1 warning; ledger nudge REVIEW because route_log/kill_log had no new event. No dispatch or kill occurred, so neither log was fabricated or frozen. Event-driven fire/correction/doorbell logs also had no new qualifying event. Read-cap, archives, versions and weekday checks PASS within their scope; local memory 99 lines.
+- Closeout checkpoint selected checks UNKNOWN: stale READS perimeter; basis REVIEW for concurrently changed COMPLETION_SPEC (re-read, registry reconciliation not assumed); receipt REVIEW for the carried R1 false positive. Ledger nudge counts committed history, so current route/delivery/REGISTRY updates are not yet reflected; kill_log has no new qualifying kill event and receives no fabricated row. Two new readiness rows are recorded; other fire/correction/batch logs have no new qualifying event. Read-cap, archives, versions and weekday checks PASS within scope; local memory 99 lines.
 - Broad historical retirement/context work is not certified by this recovery or by selected automated checks. No qualifying new old artifact introduced; no speculative deletion or rewrite.
 
 ## WILL_NEEDS
@@ -38,6 +43,8 @@ Doctor 0 HIGH / 2 MED; correction receipts 0 owed; boot basis matches 29 paths. 
 None urgent. X reauthorization completed by Will in this session; no further access decision needed. Existing optional/unapproved items remain Iran group-3 trims, kill_strings backfill recommendation no, and verification of the retired launcher flag. No new decision or trade approval requested.
 
 ## FOLLOW-UP
+
+EO 14421: WATT next owner review before December 24 (or on an earlier binding DOE rule/order/determination) checks relevance to existing P2/P3, later effective actions and named equipment/project evidence; owner decides existing catalyst integration. CYPHER integrates policy context on its next routed-item session, without incident/watch fire from declaration alone. No new recurring scan or channel authorized.
 
 Access blockers resolved. Latest authorized bookmark head check is complete with 0 new items. Remaining startup work: omitted filter/threshold context and November 3 READS reconciliation. Prior source/owner duties below remain unchanged.
 
@@ -70,12 +77,12 @@ Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C
 
 ## CLOSEOUT RECEIPT
 
-Current startup receipt; preceding publication cohort retained and verified separately from the pending startup files. No new signal delivery rows. Selected checks do not certify missing duties.
+Current source-routing receipt; preceding publication cohorts retained and rechecked against fetched origin. Five new signal delivery rows remain pending publication. Selected checks do not certify missing duties.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-30T01:14:33Z",
+  "as_of": "2026-10-30T02:25:44Z",
   "next_review": "2026-10-30",
   "publication": [
     {
@@ -115,25 +122,25 @@ Current startup receipt; preceding publication cohort retained and verified sepa
     },
     {
       "commit": "d478fc4e8715b238603e592818b5f641025832a5",
-      "state": "pending",
-      "note": "Codex startup recovery and operational PROME packet; routine push deferred under WALTER coordinated-push rule. No notification or consumption receipt."
+      "state": "published",
+      "note": "Codex startup recovery and operational PROME packet; routine push deferred under WALTER coordinated-push rule. No notification or consumption receipt. Superseding publication observation 2026-10-30T02:25:44Z: confirmed ancestor of freshly fetched origin/master; consumption not established."
     },
     {
       "commit": "5e93a1240eb648031cca4349a58169f5a2a8812e",
-      "state": "pending",
-      "note": "Research-Intake sync and X read-access recovery; no bookmark content review, staging or marks. Routine push deferred."
+      "state": "published",
+      "note": "Research-Intake sync and X read-access recovery; no bookmark content review, staging or marks. Routine push deferred. Superseding publication observation 2026-10-30T02:25:44Z: confirmed ancestor of freshly fetched origin/master; consumption not established."
     },
     {
       "commit": "548e4b6b481ad059d021d90cdb554a9786710eb6",
-      "state": "pending",
-      "note": "Authorized zero-new bookmark check; pending-stage and scan receipt only, no consumed-set change or new delivery."
+      "state": "published",
+      "note": "Authorized zero-new bookmark check; pending-stage and scan receipt only, no consumed-set change or new delivery. Superseding publication observation 2026-10-30T02:25:44Z: confirmed ancestor of freshly fetched origin/master; consumption not established."
     }
   ],
   "delivery": {
-    "signal_date": "20261029",
-    "total": 173,
-    "delivered": 173,
-    "note": "Session rows 039-055: 45/45 delivered. Consumption separate."
+    "signal_date": "20261030",
+    "total": 5,
+    "delivered": 0,
+    "note": "One new policy source signal, five create-only handoffs. Pending publication; no recipient-consumption receipt."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -153,26 +160,34 @@ Current startup receipt; preceding publication cohort retained and verified sepa
       {
         "path": "AGENTS/WALTER/research/2026-10-29_bookmark-check/REVIEW.md",
         "sha256": "607c8ea4747d934d11a621794eefffa42e171a55e860caba5ba0f10ac5392fda"
+      },
+      {
+        "path": "BOARD/SIG-W-20261030-001-eo-14421-aug26-bulk-power-security-doe-oct6-faq-datacenter-equipment-not-automatically-exempt-conditional-procurement-risk.md",
+        "sha256": "9e3324dece231394c4052380f7927f97f4f992cbbfd958ceebccfec666008ce2"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-10-30_bulk-power-order/REVIEW.md",
+        "sha256": "e33072a07f9b911c09db17e2896e35fb7c884495cf5d92add6d32a58eb9d3875"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
-    "boot": "PARTIAL; instruction and approval recovery complete",
-    "session": "Same Will-launched Codex owner; authorized bookmark scan completed, zero NEW IDs. No review/mark/dispatch required. Other PARTIAL boot legs unchanged."
+    "tier": "full",
+    "boot": "PARTIAL; original omitted source/context/perimeter duties remain",
+    "session": "Same Will-launched Codex owner; one primary-source signal; full narrative checkpoint clears two light deferrals, no fresh market grade."
   },
   "manual_duties": {
     "0": "Foreign dirty stop respected; later rebase pull succeeded; no push.",
     "0.5": "Doctor zero HIGH/two MED, carried by scope.",
-    "1-9a": "Prior partial boot conserved. 7e access recovered, current scanner 0 NEW. 7h reauthorization and one-page access validation succeeded; substantive queue scan/review remains incomplete.",
-    "9b": "UNKNOWN where current cross-runtime owner visibility unverified; no doorbell.",
-    "11": "No new signals, batches or market handoffs; one operational PROME packet.",
-    "12": "Current partial startup state and dated market observation; oldest contiguous dated rows rotated verbatim to SESSION_LOG.",
-    "13": "Existing registry owner-header refresh only; no grade or roster change.",
-    "14": "Standing memory retained; session note refreshed; no auto-memory authored.",
-    "root.retirement": "No new retirement-eligible artifact; broad historical retirement review not claimed complete.",
-    "16": "Zero-item scan and owned current-state corrections committed at 548e4b6b481ad059d021d90cdb554a9786710eb6. Routine push deferred. No new market handoff/delivery rows; final receipt metadata separately committed.",
-    "Tier1": "Zero-item bookmark scan. Current pending-scan carry cleared; other boot/source limits retained. No route, kill or delivery event to log."
+    "1-9a": "Prior partial boot conserved. 7e access recovered, scanner 0 NEW. 7h reauthorization succeeded and authorized complete returned bookmark traversal found 0 NEW, consumed IDs unchanged. COMPLETION_SPEC re-read after concurrent owner change; reviewed-basis hash and stale READS remain unreconciled by registry owner.",
+    "9b": "Current bounded Codex discovery incomplete across runtimes. P0-UNKNOWN for ACTION recipients, logged; no darkness, doorbell or launch.",
+    "11": "One new source signal, route row, five create-only handoffs/delivery rows; no correction-class card or batch manifest (one offered content item).",
+    "12": "STATUS new source summary/count and network awareness refreshed; no new market-price claim; FILTER POSTURE remains BALANCED, event window CLOSED.",
+    "13": "Existing owner-header mirror review before NETWORK AWARENESS; grade/classification unchanged.",
+    "14": "Session note refreshed, no new durable rule or auto-memory; dated memory review not due until November 5, under rotation trigger.",
+    "root.retirement": "New reviewed artifacts not retirement-eligible. No new qualifying historical deletion; broad historical source-retirement review remains unverified.",
+    "16": "Exact-path local commit pending; no routine self-push. Delivery rows remain written_not_delivered_pending_push until origin proof.",
+    "Tier1": "Full narrative checkpoint clears two light deferrals. Missing source/perimeter duties remain explicit; full record tier is not market clearance."
   }
 }
 END_CLOSEOUT_RECEIPT -->

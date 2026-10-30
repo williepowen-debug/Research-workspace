@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-10-30T02:18:54Z",
+  "signal_id": "SIG-W-20261030-001",
+  "board_path": "BOARD/SIG-W-20261030-001-eo-14421-aug26-bulk-power-security-doe-oct6-faq-datacenter-equipment-not-automatically-exempt-conditional-procurement-risk.md",
+  "handoffs": {
+    "WATT": "AGENTS/WATT/inbox/WALTER/SIG-W-20261030-001.md",
+    "CYPHER": "AGENTS/CYPHER/inbox/WALTER/SIG-W-20261030-001.md",
+    "VULCAN": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261030-001.md",
+    "ZHAO": "AGENTS/ZHAO/inbox/WALTER/SIG-W-20261030-001.md",
+    "HENRY": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261030-001.md"
+  },
+  "source_urls": [
+    "https://www.whitehouse.gov/presidential-actions/2026/08/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system/",
+    "https://www.energy.gov/documents/bulk-power-system-eo-and-doe-rfi-faqs",
+    "https://www.energy.gov/ceser/declaring-national-emergency-secure-united-states-bulk-power-system-executive-order"
+  ],
+  "source_dates": {
+    "order": "2026-08-26",
+    "faq": "2026-10-06"
+  },
+  "implementation_days": {
+    "120": "2026-12-24",
+    "180": "2027-02-22"
+  },
+  "readiness": "UNKNOWN",
+  "published": false,
+  "consumed": "UNKNOWN"
+}
