@@ -1,42 +1,38 @@
-# FALCON SCRATCH — October 29, 2026, ~13:50 EDT evidence cutoff
+# FALCON SCRATCH — October 30, 2026, ~16:55 EDT evidence cutoff
 
 ## CURRENT MARKS
-B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 6 (class i 2 · ii 2 · iii-B 2 · iii-A 0). FAL-06 OPEN 70% (resolves 11/05); FAL-07 OPEN 65% (NOT FIRED). GATE-FALCON-001 LIVE, next review_by 11/04. Claude Code, Opus 5.5.
+B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 6, unchanged (class i 2 · ii 2 · iii-B 2 · iii-A 0). FAL-06 OPEN 70% (resolves 11/05); FAL-07 OPEN 65% (NOT FIRED). GATE-FALCON-001 LIVE, next review_by 11/04. Claude Code, Opus 5.5.
 
-## CHANGES SINCE LAST SESSION (10/26 17:51 → 10/29)
-- No FALCON session 10/27–10/28: the 10/28 weekly + gate review was graded 10/29, one day late.
-- Houthi 10/27 Ras Tanura refinery claim (damage unknown, OUT-class). Iran PGSA 10/27: legal action vs all Sinokor vessels from 11/1. NAVCENT 10/28 stay-clear + blockade enforcement; WSJ/AP post-midterm campaign posture.
-- 10/29 ~03:00Z dhow MSV QUBA sank ~9 NM N Khasab (security-incident fire, crew evacuated). IRGC claims 3 tankers mined (claim-only).
-- Qatar LNG force majeure extended to end-December. Kan 10/29: Israel asked US to clear new Iranian energy targets if operations resume.
-- PortWatch server-side 400 flake; Sohar series dropped upstream.
+## CHANGES SINCE LAST SESSION (10/29 ~14:05 → 10/30 16:55)
+- 10/29: LOUISE 1 (Panama Suezmax) — two devices attached above the waterline ~25 NM NE Khasab, engine-room fire, continued voyage (UKMTO 187-26). RITI (oil tanker, Panama, HK-managed) — fire, anchored ~1 NM NW Ra's Tahir, 25 crew evacuated by Oman (NAVAREA IX 420/26 own fetch). Both unattributed.
+- Night 10/29–30: reported US strike on a Qeshm launcher, anonymous CENTCOM official only; Iran says jet intercepted.
+- "Ras Tanura distillation shutdown per Bloomberg" not established. Fars/Houthi 10/29 Aramco claims (incl. Abqaiq) claim-only.
 
 ## WHAT I DID
-- Weekly review + gate grade (report reports/2026-10-29_weekly-review-gate001.md, incl. §7 addendum). KB-348..365. VX all 10 rows stamped 10/29. VESSELS VI-0085 + VI-0082/83/84 notes. STRIKES mark → 10/28. FRESH_LEG_BASELINE 10/29 block. FLOW-FALCON-05 (Sinokor administrative-enforcement pathway, ARMED). PREDICTIONS interim header. EXIT §5 dates. MEMORY instrument traps. STATUS rewritten (prior archived).
-- Scripts: PortWatch retry ×6 in both watches; bypass empty-series guard + DEGRADED mode (Fujairah 90% of base to 10/23).
-- 8 WALTER signals processed; PROME gate packet; WALTER replies (Khasab resolution; ladder #3/#3b restatement). Consumer check run (no packet owed).
+- PROME relaunch spawn under DOCKET L886 (C8; first 15:23 spawn went dark). Graded SIG-W-20261030-011: KB-370..376, VESSELS VI-0086/0087 (+ data clock 10/30), EXIT §2 date line + #6 receipt, STRIKES mark → 10/29, PREDICTIONS 10/30 header line, VX SUNK-01 + IRAN-02 [Oct30] stamps, STATUS 10/30 grade table + BOTTOM LINE.
+- Inbox drained 4/4: WALTER 011 (acted) + 046 (acted); DAEDALUS falsification-5 (EXIT date DONE; FAL-07 search-date conflict routed to PROME for Will) + wiring-17 run 4 (IRAN-01 bands DEFERRED to 11/04; OWED note superseded). Reply packet in DAEDALUS inbox.
+- PortWatch: transit 10/25 DEEPENING unchanged; bypass DEGRADED rc 2 (Sohar empty), Fujairah HOLDING to 10/23.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. October 31 (approx.): Iran's reply to Qatar's draft deal — grade vs diplomacy vector 3 (executed framework →2; breakdown →4).
-2. November 1–2: Sinokor watch (FLOW-FALCON-05) — named-hull detention/seizure/turn-back/fine; Sinokor, charterer, insurer or Korean government response. Record in VESSELS; BRENT owns freight.
-3. Day-by-day gap sweep from 10/30 → session date (10/27–10/29 DONE 10/29, KB-366..369).
-4. November 4: weekly scenario + GATE-FALCON-001 review (current TankerMap vintage).
-5. November 5: FAL-06 dated search ON that day. January 2, 2027: FAL-07 failure search if unresolved.
-6. Post-11/3: watch any US answer to the Israeli energy-target request / resumed strikes (VX-ISR-01; D 85→92 path via Iranian retaliation on Gulf-ally production).
+1. **RITI status** (any day): if declared a total loss (NAVAREA IX / IMO "Sunk"/constructive total loss), that's the first class (iii-A) and the third class-(iii) ⇒ EXIT §5 rewrite trigger + same-day memo to PROME, with no mark move (D 75→85 (a) already fired).
+2. **Qeshm / FAL-07**: re-check for an on-record CENTCOM/DoD/WH statement or two wires naming US forces; if found, resolve FAL-07 CONFIRMED in that session.
+3. October 31 (approx.): Iran's reply to Qatar's draft deal — diplomacy vector 3.
+4. November 1–2: Sinokor watch (FLOW-FALCON-05).
+5. November 4: weekly scenario + GATE-FALCON-001 review; bring the IRAN-01 band proposal (DAEDALUS wiring 17 #8).
+6. November 5: FAL-06 dated search ON that day. FAL-07 search-date ruling pending from Will via PROME.
 
 ## OPEN THREADS / WATCHES
-- IRGC 3-tanker mine claim: watch IMO table + NAVAREA IX for named tankers.
-- VI-0083 identity; VI-0084 Al-Faw cause/outcome; UKMTO originals 403 from this box.
-- Ras Tanura: no Saudi/Aramco statement as of 10/29 13:xx.
-- Sohar series restoration (bypass DEGRADED; never read DEGRADED as HOLDING).
-- TIMELINE.md extended to War Day 244 (10/29) — next extension at the next phase change. Egypt deployment = fifth-axis watch (KB-366).
-- Insurance 5 rows EXPIRED, WQ-298 CANNOT-FIRE; do not re-argue access.
-- Carried builds: KB-168 Yanbu proxy (PROME WQ-533(a) recs abandoning BRENT's shadow run — their call), baseline hot/cold split, sub-$80 duration bar, archive-content guard, EXIT boot reader.
+- LOUISE 1 owner unreconciled (Indian-managed vs "UAE-owned"); 10/29 ~1600Z UKMTO "unknown projectile" tanker near Khasab not matched to any hull (RITI link unproven).
+- Abqaiq FIRMS population control not run this session (claim-only anyway).
+- UKMTO originals 403 from this box; IMO table lags (newest row 23 Oct).
+- Sohar series restoration (bypass DEGRADED; never read it as HOLDING).
+- Carried builds unchanged (KB-168 Yanbu proxy etc.).
 
 ## PREDICTIONS / DECISIONS
-None due. No Will decision from FALCON.
+None due. One Will decision via PROME: the FAL-07 failure-search date (12/31 vs a named 1/2 exception), not urgent before 12/31.
 
 ## MAIL STATE
-WALTER lane drained (8 → processed). PROME gate packet committed (carve-out ①).
+FALCON inbox 0 top-level, WALTER lane 0 (all 4 moved to processed). DAEDALUS reply committed (carve-out ①).
 
 ## PENDING PUSH / GIT
-No pull this session (shared tree dirty with other desks' files). Exact-path commits; safe-push receipts confirmed through ebcf1ac08.
+No pull (shared tree carries other desks' work). Exact-path commits; safe-push at closeout per spawn prompt.

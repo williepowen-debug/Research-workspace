@@ -39,7 +39,7 @@
 
 ## 2. SCENARIO LADDER — 3-tier B/C/D (no Scenario A)
 
-**Marks B 1 / C 14 / D 85** (re-marked 2026-09-28 by the registered rung; last full review HELD 2026-10-21; next due 2026-10-28). Mark moves are by registered letter only. A mark reverts only via a registered downgrade trigger.
+**Marks B 1 / C 14 / D 85** (re-marked 2026-09-28 by the registered rung; last full review HELD 2026-10-29 (owed 10/28); next due 2026-11-04 — §5 governs these dates; reconciled 2026-10-30 on DAEDALUS falsification sweep #5). Mark moves are by registered letter only. A mark reverts only via a registered downgrade trigger.
 
 | Move | Registered trigger | Status 2026-10-01 |
 |---|---|---|
@@ -79,7 +79,7 @@
 | 3 | US strike tempo NIGHTLY, or the US target set crosses into energy | ✅ energy limb FIRED 9/5 (tankers) · ❌ nightly limb (no US strike since 9/8) |
 | 4 | Iraq/PMF backlash turns kinetic; next rung = a damaging follow-on | 🔴 firing on the actor axis since 7/27 · ❌ no damaging follow-on at the 9/30 withdrawal deadline (US out of federal Iraq 9/30) |
 | 5 | Casualty ratchet (`domain/CASUALTY_RATCHET.md` §2) | 🔴 RED recorded-killed rate-step, recomputed October 26: 24 September 27–October 26 versus 7 August 28–September 26 (3.43x). Injury comparison incomplete; no fresh firm ORANGE ratio. WQ-434 class-step anchor 9/8 unchanged. See domain/CASUALTY_RATCHET.md §3 and CASUALTIES.tsv; historical computed prose archived at archive/2026-10-26_closeout_before_workbook_EXIT_PROTOCOL.md. |
-| 6 | Vessel confirmed SUNK / mine detonation on a hull | ✅ Fired September 5, no repeat clause. October 26 census 5 confirmed (class i1 / ii2 / iii-B2 / iii-A0); Cape Dao dispute resolved on own IMO Sunk and NAVAREA 403/26, KB-341. Old non-tanker episode, WQ-431 HOLD. No named-hull mine detonation established by the reviewed evidence. |
+| 6 | Vessel confirmed SUNK / mine detonation on a hull | ✅ Fired September 5, no repeat clause. October 26 census 5 confirmed (class i1 / ii2 / iii-B2 / iii-A0); Cape Dao dispute resolved on own IMO Sunk and NAVAREA 403/26, KB-341. Old non-tanker episode, WQ-431 HOLD. No named-hull mine detonation established by the reviewed evidence. **[Oct30 receipt]** LOUISE 1 (UKMTO 187-26, 10/29): two explosive devices attached above the waterline detonated on a named hull ('limpet' per Reuters' security sources), not sunk — the limb's substance is met at C2, but #6 has no repeat clause ⇒ no ladder effect (KB-370). Census 6 unchanged. |
 | 7 | Bypass breakage: Fujairah+Sohar below the ROLLING floor AND transits collapsed — read the floor from a live `bypass_watch.py` run, never from a document | Current condition UNKNOWN: evening rerun has no newer print than October 16 (10 days old); that vintage HOLDING 92,073 versus rolling floor 32,115 t/day. Not a current all-clear. Script run and source limits in evening report. |
 | 8 | WC-Saudi war-risk rising from 0.1% (transit → origin migration) | 🔴 LIT 9/28 (~3%, Reuters 9/25) |
 
