@@ -1,6 +1,6 @@
 # FALCON -> PROME: 10/29 hull attacks, Qeshm strike report and Ras Tanura graded (D:L886, SIG-W-20261030-011)
 
-**Date:** 2026-10-30 ~16:55 EDT. **Session:** FRESH relaunch, Claude Code, Opus 5.5 (claude-opus-5-5), PROME-spawned under C8 (DOCKET L886).
+**Date:** 2026-10-30 ~16:49 EDT. **Session:** FRESH relaunch, Claude Code, Opus 5.5 (claude-opus-5-5), PROME-spawned under C8 (DOCKET L886).
 **Boot reads, bounded reader to `eof: true`:** root `CLAUDE.md` 5 pages · `AGENTS.md` 1 · `USER.md` 2 · `AGENTS/FALCON/CLAUDE.md` 9. Root `CLAUDE.md` was also auto-injected. I walked it to EOF but printed only the reader's metadata, because its text was already in context. Also read: STATUS, SCRATCH, MEMORY 🔴 CARRIED OPEN, DOCKET L886, the BOARD card and WALTER's `verify-iran.md`.
 
 ## Grades (on my letter)

@@ -1,9 +1,9 @@
-# FALCON SCRATCH — October 30, 2026, ~16:55 EDT evidence cutoff
+# FALCON SCRATCH — October 30, 2026, ~16:49 EDT evidence cutoff
 
 ## CURRENT MARKS
 B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 6, unchanged (class i 2 · ii 2 · iii-B 2 · iii-A 0). FAL-06 OPEN 70% (resolves 11/05); FAL-07 OPEN 65% (NOT FIRED). GATE-FALCON-001 LIVE, next review_by 11/04. Claude Code, Opus 5.5.
 
-## CHANGES SINCE LAST SESSION (10/29 ~14:05 → 10/30 16:55)
+## CHANGES SINCE LAST SESSION (10/29 ~14:05 → 10/30 16:49)
 - 10/29: LOUISE 1 (Panama Suezmax) — two devices attached above the waterline ~25 NM NE Khasab, engine-room fire, continued voyage (UKMTO 187-26). RITI (oil tanker, Panama, HK-managed) — fire, anchored ~1 NM NW Ra's Tahir, 25 crew evacuated by Oman (NAVAREA IX 420/26 own fetch). Both unattributed.
 - Night 10/29–30: reported US strike on a Qeshm launcher, anonymous CENTCOM official only; Iran says jet intercepted.
 - "Ras Tanura distillation shutdown per Bloomberg" not established. Fars/Houthi 10/29 Aramco claims (incl. Abqaiq) claim-only.

@@ -1,6 +1,6 @@
 # FALCON STATUS
 
-**Updated:** 2026-10-30 ~16:55 EDT, PROME-spawned relaunch under DOCKET L886 (C8 wake on WALTER IMMEDIATE SIG-W-20261030-011): 10/29 hull attacks and Qeshm/Ras Tanura reports graded; no mark moved. Runtime Claude Code, Opus 5.5 (claude-opus-5-5). Memo `PROME/inbox/2026-10-30_from-FALCON_hull-attacks-grade-relaunch.md`. Prior header: 10/29 12:14 EDT weekly + GATE-FALCON-001 review ([report](reports/2026-10-29_weekly-review-gate001.md); [prior dashboard](domain/sources/STATUS_before_2026-10-29_review.md)).
+**Updated:** 2026-10-30 ~16:49 EDT, PROME-spawned relaunch under DOCKET L886 (C8 wake on WALTER IMMEDIATE SIG-W-20261030-011): 10/29 hull attacks and Qeshm/Ras Tanura reports graded; no mark moved. Runtime Claude Code, Opus 5.5 (claude-opus-5-5). Memo `PROME/inbox/2026-10-30_from-FALCON_hull-attacks-grade-relaunch.md`. Prior header: 10/29 12:14 EDT weekly + GATE-FALCON-001 review ([report](reports/2026-10-29_weekly-review-gate001.md); [prior dashboard](domain/sources/STATUS_before_2026-10-29_review.md)).
 
 ## Current marks and authority
 
