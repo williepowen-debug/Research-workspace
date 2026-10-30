@@ -2,7 +2,7 @@
 
 **Cold start:** resolve the repository root and explicitly load root/local instructions. `AGENTS.md` is the Codex entry shim; **CLAUDE.md owns the single boot/closeout sequence**. Do not assume CLAUDE auto-loading or peer-messaging availability. Runtime/delivery → PROME/COMPLETION_SPEC and ORCHESTRATION_PLAYBOOK § Runtime mechanics.
 
-**Current mirrors, checked October 30 (WQ-553 ruled, 10-Q frame dry run, $99M appraisal prior KB-271/272; nothing graded since the 10/22 Q3 thesis fold):** Thesis **v2.4**; Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 · PT $52-76** unchanged. **KB 275 rows / 20 groups**; full group membership is generated in workbook/KB_INDEX. Positions and their per-account vintages → POSITIONS/FORGE; no book count or live market figure is maintained in this index. Current quote/source timestamp → STATUS. Q3 Stage1 saved: WAL02 INVALIDATED 30bps; WAL01 provisional INVALIDATED 272.75M; Stage2 call graded 10/21: $99M PENDING-10-Q; migration DP2 final; falsifier NOT TRIGGERED. Frozen frames govern. FFIEC access verified October 14 with eight fresh reports; recorded November 5 expiry/November 1 renewal sitting remain. Q3 Call Report not yet filed at 10/28 (RSSD absent from FFIEC's filer list; credential re-verified on the laptop by a byte-identical 6/30 control).
+**Current mirrors, checked October 30 (WQ-553 ruled, 10-Q frame dry run, $99M appraisal prior KB-271/272; nothing graded since the 10/22 Q3 thesis fold):** Thesis **v2.4**; Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; **EV $75.96 · PT $52-76** unchanged. **KB 276 rows / 20 groups**; full group membership is generated in workbook/KB_INDEX. Positions and their per-account vintages → POSITIONS/FORGE; no book count or live market figure is maintained in this index. Current quote/source timestamp → STATUS. Q3 Stage1 saved: WAL02 INVALIDATED 30bps; WAL01 provisional INVALIDATED 272.75M; Stage2 call graded 10/21: $99M PENDING-10-Q; migration DP2 final; falsifier NOT TRIGGERED. Frozen frames govern. FFIEC access verified October 14 with eight fresh reports; recorded November 5 expiry/November 1 renewal sitting remain. Q3 Call Report not yet filed at 10/28 (RSSD absent from FFIEC's filer list; credential re-verified on the laptop by a byte-identical 6/30 control).
 
 ## One boot sequence
 
@@ -27,6 +27,9 @@ Follow CLAUDE.md §Boot: STATUS and current MEMORY in full; THESIS header/calibr
 | FRAUD/ | Legal/recovery evidence; Ontario B1 docket-evidenced, other three U; no recovery value inferred |
 | research/2026-10-13_securities-hedges-rate-model-reconciliation.md | Completed issuer securities/hedges/model read; REGINALD funding integration31c02fd74 |
 | research/2026-10-13_preprint-expectations-gap.md | October 13 dated snapshot and conditional valuation; no demonstrated gap |
+| workbook/MARKET_TRACKER.tsv + scripts/market_tracker.py | Dated market/positioning series (FINRA short interest since 1/2025 with % of shares, weekly price/vol/beta/spot-vs-EV snapshot); boot.py flags when due (10/30) |
+| research/2026-10-30_10Q-frame-dry-run.md | Every 10-Q frame cell located in the Q2 10-Q; frame §8 F1–F5 reading rules (10/30) |
+| research/2026-10-30_99M-appraisal-prior.md | 440 Bedford St collateral candidate + Boston lab base rate + letter forecast; a prior, grades nothing (10/30) |
 | research/2026-10-14_FFIEC-deep-read.md | Eight-quarter issuer evidence; NDFI/credit/mortgage/capital, primary metrics/source manifest; no grade change |
 | research/2026-10-14_FY2027-earnings-bridge.md | Conditional earnings component paths, no analyst/model-belief assertion |
 | research/2026-10-14_Q3-earnings-quality-credit-read.md | Dated preparation preserved; actuals in October 19 worksheet |

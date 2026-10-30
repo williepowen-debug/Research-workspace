@@ -1,6 +1,6 @@
 # WAL KB Index — generated group navigation
 
-**275 rows | 20 groups | Inventory updated October 30 (275 Series A preferred not called; 273 Q3 NDFI peer slide; 274 Q3 deposits/LTD; 271 440 Bedford St identification candidate; 272 Boston lab market Q3 2026; October 28: 258 FINRA October 15 short interest; 259 EDGAR window 9/24-10/28; 260 First Eagle SPV lender joinder; 261-264 proxy, board and auditor facts; 265-267 credit ratings baseline; 268-270 PCAOB and Nevada; 19 March rows re-verified).** Source dates/status/expiry govern.
+**276 rows | 20 groups | Inventory updated October 30 (276 short interest % of shares; 275 Series A preferred not called; 273 Q3 NDFI peer slide; 274 Q3 deposits/LTD; 271 440 Bedford St identification candidate; 272 Boston lab market Q3 2026; October 28: 258 FINRA October 15 short interest; 259 EDGAR window 9/24-10/28; 260 First Eagle SPV lender joinder; 261-264 proxy, board and auditor facts; 265-267 credit ratings baseline; 268-270 PCAOB and Nevada; 19 March rows re-verified).** Source dates/status/expiry govern.
 
 | Group | Rows | IDs |
 |---|---:|---|
@@ -13,7 +13,7 @@
 | NEVADA_GAMING | 5 | 041, 042, 043, 044, 045 |
 | CAPITAL | 23 | 046, 047, 048, 049, 103, 119, 120, 159, 161, 173, 196, 198, 200, 212, 219, 221, 234, 241, 243, 265, 266, 267, 275 |
 | EARNINGS | 31 | 050, 051, 052, 053, 100, 101, 102, 104, 105, 115, 116, 117, 118, 122, 139, 149, 158, 217, 220, 224, 225, 233, 235, 239, 240, 244, 245, 246, 247, 250, 274 |
-| MARKET_SIGNAL | 14 | 054, 055, 056, 057, 058, 059, 061, 125, 126, 160, 180, 214, 229, 258 |
+| MARKET_SIGNAL | 15 | 054, 055, 056, 057, 058, 059, 061, 125, 126, 160, 180, 214, 229, 258, 276 |
 | ANALYST_SIGNALS | 10 | 062, 063, 064, 065, 138, 197, 213, 223, 226, 253 |
 | CRE_MACRO | 7 | 067, 068, 070, 179, 209, 228, 272 |
 | NDFI_PC | 1 | 069 |

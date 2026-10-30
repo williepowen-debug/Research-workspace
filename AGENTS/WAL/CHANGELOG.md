@@ -1,5 +1,11 @@
 # WAL THESIS — CHANGELOG
 
+## 2026-10-30 — WQ-553 re-score-rule amendment + $99M appraisal prior; v2.4 unchanged (no re-mark)
+
+Will-interactive. **What changed:** `Q3_10Q_RESCORE_RULE_2026-10-22.md` §6 Amendment 1 (WQ-553; principle 13:05 ET, text 13:16 ET "yes approved"; PROME verified the cells): B′₀/B′ᵤ (appraisal below carrying, $0 charge-off, reserve zero or undisclosed) grade on the A′ row, Bear-medium held at 16; before this they read literally as B (16 → 12). THESIS gains a dated October 30 evidence addition: 440 Bedford St as the likely collateral (KB-271, candidate only), the Boston lab base rate (KB-272), the 10-Q frame dry run (frame §8 F1–F5), and context rows KB-273/274/275 plus the new market tracker. WEAKNESSES' $99M-cure row gains the market read.
+
+**What did not change, and why:** weights 2/16/45/30/7, EV $75.96, PT $52–76, ranges, composite 13/25, frozen frames and PREDICTIONS. Nothing new was graded; the appraisal prior is a forecast, not evidence of the outcome, and the re-score still waits for the 10-Q (statutory Mon 11/9). The amendment changes how a future outcome maps to weights, not any weight today.
+
 ## 2026-10-22 — Q3 evidence fold into THESIS and WEAKNESSES; v2.4 unchanged (no re-mark)
 
 Will-directed (desk sweep finding S1–S3: THESIS and WEAKNESSES still read pre-print). **What changed:** THESIS gains a dated "Q3 2026 EVIDENCE FOLD" section at the top (per-scenario Q3 evidence and direction), a dated rider under the 8/20 "what still keeps the wider bear alive" paragraph (coverage 96% → 118% on the pinned nonaccrual basis; full-NPL basis only partially measurable from the release: 574.4 ÷ 543 = 105.8% before the 10-Q-only accruing-restructured line), refreshed live-ledger/catalyst/position pointers, and a header that no longer carries a spot-vs-EV figure. WEAKNESSES: the Barclays pre-guide row is upgraded to "confirmed by the print"; broadening is now disconfirmed twice (Q3 DP2 final, RETIRE counter 2 of 3); a coverage >100% row is added; the capital-return row is cut to Medium-High because the NII guide fell 12–14% → 11–12%; the $99M row records silence through the call.

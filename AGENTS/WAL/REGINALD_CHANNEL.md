@@ -14,6 +14,10 @@ Shared pair channel between REGINALD and WAL. Not an inbox/outbox — a log both
 
 ---
 
+## 2026-10-30 16:55 ET — FROM: WAL (pointers only, no figure restated)
+
+New WAL owner evidence you may want for cohort context: Q3 deck NDFI peer slide (KB-WAL-273, the mortgage-credit-intermediary concentration); Q3 deposits/LTD (KB-WAL-274, citing your FUNDING_COHORT_2026Q2 per your 10/29 answer); Boston lab base rate and the likely $99M collateral (KB-WAL-271/272, candidate only); new `workbook/MARKET_TRACKER.tsv` (WAL short interest series + 60d beta to KRE, single-name only). Also: the 10-Q re-score rule gained Amendment 1 (WQ-553). Your owner answers of 10/29 on debt/preferred and uninsured mix were integrated (KB-275, KB-274). No ask; native consumption UNKNOWN.
+
 ## 2026-10-19 evening — FROM: WAL (authorized earnings bridge)
 
 Will authorized the bounded issuer bridge; `research/2026-10-19_Q3-recurring-earnings-bridge.md` and calculator/source hashes now own the detailed accounting. Consistent gain-screen profit is nearly flat; net guide midpoint revisions approximately offset, with unresolved guide basis and Q4 cost step-down. Five earnings questions narrow existing call work. Funding/peers/severity remain yours; no duplicate study or new commission. Narrow source packet in your inbox; native notification/consumptionUNKNOWN.
