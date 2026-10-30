@@ -1,0 +1,33 @@
+{
+  "commit": "c1ad5137f09e6f6f1f67339b2ac31f3ba2db5532",
+  "basis": "Rendered 2026-10-30 11:29 EDT from the working tree at HEAD (unchanged across the run); the six input files below were clean against HEAD at render time (git status --porcelain on them printed nothing). Selected key hashes, not an exhaustive dependency manifest.",
+  "inputs_dirty_at_render": "none",
+  "files": [
+    {
+      "path": "PROME/DOCKET.tsv",
+      "sha256": "b8d568684b3f1076e65bee519729f206246fa754a9c879e8e418e4806739b22a"
+    },
+    {
+      "path": "PROME/WILL_QUEUE.md",
+      "sha256": "c473b02e70873acd844c8a8b0065f50e9270c5d478405ad97a06346c86d17085"
+    },
+    {
+      "path": "PROME/state/ORCH_LOG.tsv",
+      "sha256": "a90be843c57c18543c559039bd421a1e4c5e07a688e6a548b2f4bd638df2794c"
+    },
+    {
+      "path": "PROME/archive/ORCH_LOG_2026-09.tsv",
+      "sha256": "334747daffc18e3a4e1304dcc6e5699b66b68d8c363474bd4852cf9edb3677c6"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scorecards/LEDGERS.tsv",
+      "sha256": "a049706bb29e324f6a7ff4b4cf949db93e3ba80750d1227483be9e9bfae1bd6a"
+    },
+    {
+      "path": "AGENTS/DAEDALUS/scripts/scorecard.py",
+      "sha256": "6f21ce10ec65a3da8ff884fb8547fd88c6bc28492251ad760347fc37c15a2e93"
+    }
+  ],
+  "generated_body_bytes": 91613,
+  "generated_body_sha256": "951ad1f017b8cae98e59a8e48178c6350db43c9bd99b35cef7df77c7f488dc7a"
+}

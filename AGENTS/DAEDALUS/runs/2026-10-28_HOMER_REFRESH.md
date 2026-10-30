@@ -8,7 +8,7 @@ Claude Code, Fable 5.1 (claude-fable-5-1), DAEDALUS desk session launched by Wil
 
 ## Result
 
-`profiles/HOMER.md` replaced whole (13,306 B). The 8/07 body's two L3-blocking absences are GONE: `thesis/THESIS.md` with a FROZEN kill rail was built 2026-09-29 (not 10/15 as my FLEET_MAP row said — my error, corrected by R2 at the file), the convergence handle 2026-10-15 (19/25, 3 roots). Every 🔴 from the 8/22 review is CLOSED. Two 8/07 flag classes have RECURRED: lapsed self-registered dates (~13 docket rows past date since 10/19) and an unprocessed inbox (29 WALTER packets, 19 ACTION, oldest 8 days, all UNLOGGED in board_log — the charter's own boot loop prints them).
+`profiles/HOMER.md` replaced whole (13,306 B). The 8/07 body's two L3-blocking absences are GONE: `AGENTS/HOMER/thesis/THESIS.md` with a FROZEN kill rail was built 2026-09-29 (not 10/15 as my FLEET_MAP row said — my error, corrected by R2 at the file), the convergence handle 2026-10-15 (19/25, 3 roots). Every 🔴 from the 8/22 review is CLOSED. Two 8/07 flag classes have RECURRED: lapsed self-registered dates (~13 docket rows past date since 10/19) and an unprocessed inbox (29 WALTER packets, 19 ACTION, oldest 8 days, all UNLOGGED in board_log — the charter's own boot loop prints them).
 
 ## DAEDALUS verification of reader reds (PAT-100 rule: re-verify before routing)
 
@@ -16,7 +16,7 @@ Claude Code, Fable 5.1 (claude-fable-5-1), DAEDALUS desk session launched by Wil
 |---|---|---|---|
 | Desk dark since 10/19; 29 unlogged | R1, R3 | `git log -- AGENTS/HOMER/` shows zero HOMER-authored commits after `454435973`; both readers ran the charter's loop independently | CONFIRMED |
 | `falsification_scan.py` drops the in-thesis rail and prints HOMER as NO-RAIL | R2 | ran the scanner: HOMER in the 4-agent bucket; `THESIS.md:3` carries `Kill rail re-derived: 2026-09-29` | CONFIRMED — **fixed this session** (`IN_THESIS_RAIL` label check; HOMER now a "kill rail (in-thesis)" row, CURRENT; AEOLUS/MIDAS/OSPREY unchanged) |
-| `thesis/PREDICTIONS.tsv` 36,472 B is whole-read at boot step 8 and invisible to `read_cap_check` | R1 | `wc -c` 36,472; `CLAUDE.md:204` "read thesis/PREDICTIONS.tsv (HOM-xx) for past-trigger rows"; `read_cap_check --agent HOMER` reads=3, no READS.tsv row | CONFIRMED as a declaration gap; whether the due-scan is a whole read is HOMER's to declare |
+| `AGENTS/HOMER/thesis/PREDICTIONS.tsv` 36,472 B is whole-read at boot step 8 and invisible to `read_cap_check` | R1 | `wc -c` 36,472; `CLAUDE.md:204` "read thesis/PREDICTIONS.tsv (HOM-xx) for past-trigger rows"; `read_cap_check --agent HOMER` reads=3, no READS.tsv row | CONFIRMED as a declaration gap; whether the due-scan is a whole read is HOMER's to declare |
 | No PROME wake row before 11/20 | R3 | R3 enumerated DOCKET/GATES/WQ by physical line; open HOMER rows = L545 (11/20) and L565 only | ACCEPTED on R3's method (not re-enumerated); SCRATCH/ORCH_LOG not checked |
 | Kill rail dated 9/29 not 10/15 | R2 | `THESIS.md:3` | CONFIRMED (DAEDALUS's own FLEET_MAP text was wrong) |
 

@@ -378,7 +378,10 @@ def cmd_coverage(root, reg_path):
 # missed row is printed by name at the publisher's closeout instead of found by a 30-day audit.
 WQ393_RULING_DATE = "2026-10-08"
 SIG_FILE_RE = re.compile(r"^(SIG-W-(\d{4})(\d{2})(\d{2})-\d{3})")
-TITLE_MARK_RE = re.compile(r"CORRECTION|RETRACT|ERRATUM|ERRATA|WITHDRAW", re.I)
+# L875 (2026-10-30, WALTER finding 10/29): the marker had no boundaries, so `withdrawals` in a hack report
+# (SIG-W-20261029-048) read as a correction. Now a whole hyphen-word with an inflection list: `withdrawal(s)`
+# is money vocabulary and is NOT a marker (3 BOARD files dropped, 0 added, measured over all 122 matches).
+TITLE_MARK_RE = re.compile(r"(?<![A-Za-z])(?:CORRECTION|RETRACT|ERRATUM|ERRATA|WITHDRAW)(?:S|ED|ION|N|ING)?(?![A-Za-z])", re.I)
 EXEMPT_RE = re.compile(r"not correction-class", re.I)
 # A correcting signal named `...-to-YYYYMMDD-NNN-...` identifies the signal it corrects. The desks
 # that RECEIVED the wrong figure are that original's action+info; a row targeting only the
@@ -799,7 +802,21 @@ def cmd_selftest():
     got, out = run_r1(lambda b: (base(b), corr(b, "SIG-W-20261015-005-CORRECTION-to-20261014-018-z.md", "BROCK", "sig-w-20261014-018")), "BROCK")
     good = got == 1 and "BAD-POINTER" in out; ok = ok and good; npass += good
     print(f"  {'PASS' if good else 'FAIL'}  R1h malformed explicit pointer (lower-case id) ⇒ 1 BAD-POINTER, never quiet (independent read CE1): rc={got} (want 1)")
-    total = len(cases) + len(d4) + len(w399) + len(r1) + 1
+    # ---- L875 title marker (2026-10-30): whole words + inflections only; money vocabulary is not a marker ----
+    print("SELFTEST L875 — title marker bounded by letters:")
+    tm = [("SIG-W-20261029-048-binance-hot-wallet-withdrawals-paused-CYPHER.md", False),
+          ("SIG-W-20260424-006-man-group-single-client-withdrawal.md", False),
+          ("SIG-W-20261008-018-CORRECTION-to-20261004-011-iraq-vlcc.md", True),
+          ("SIG-W-20261008-016-CORRECTION-to-20261008-009-CPI-is-WEDNESDAY.md", True),
+          ("SIG-W-20261029-004-marco-corrections-mia-range-withdrawn.md", True),
+          ("SIG-W-20260828-016-RESOLVED-and-i-withdraw-an-unearned-vindication.md", True),
+          ("SIG-W-20261001-001-x-retraction.md", True), ("SIG-W-20260908-001-ERRATUM-y.md", True),
+          ("SIG-W-20261001-002-uncorrectionable-z.md", False)]
+    for name, want in tm:
+        good = bool(TITLE_MARK_RE.search(name)) == want
+        ok = ok and good; npass += good
+        print(f"  {'PASS' if good else 'FAIL'}  {name[:60]} ⇒ {'marker' if want else 'not a marker'}")
+    total = len(cases) + len(d4) + len(w399) + len(r1) + 1 + len(tm)
     print(f"SELFTEST {'0 PASS' if ok else '1 FAIL'}: {npass}/{total} cases")
     return 0 if ok else 1
 

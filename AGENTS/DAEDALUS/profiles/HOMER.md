@@ -3,7 +3,7 @@
 **Profile vintage:** 2026-10-28 (whole-profile refresh; replaces the 2026-08-07 body, preserved verbatim at `profiles/_prior/HOMER_2026-10-28_before_refresh.md`, crc32 1345916504).
 
 **Built by:** DAEDALUS · **Date:** 2026-10-28 · **Comprehension method:** 3-reader Mode-A fan-out (R1 architecture · R2 ledgers/falsification/guards · R3 flows/consumers/review reconciliation), raw reports at `runs/2026-10-28_HOMER_REFRESH_READERS/`, synthesis `runs/2026-10-28_HOMER_REFRESH.md`.
-**Sources read whole by readers:** `CLAUDE.md`, `STATUS.md`, `LESSONS.md`, `OBLIGATIONS_OTHERS.md`, `NEXUS_BRIEF.md`, `MEMORY.md`, `SCRATCH.md`, `LAST_COMPLETION.md`, `thesis/THESIS.md`, `thesis/PREDICTIONS.tsv`, `tools/rent_breadth.py`, `registry/corrections_receipts.tsv`, all 29 unprocessed `inbox/WALTER/` packets, `docket/CATALYSTS.tsv` (row 3 partial), the card and the 8/22 review. Header-only: the three cold registers, the eight workbook ledger bodies (~556 KB), `board_log.tsv` rows 2–77. **Staleness:** refresh at HOMER's 2026-11-20 formal grade or on a material STATUS/thesis change.
+**Sources read whole by readers:** `CLAUDE.md`, `STATUS.md`, `LESSONS.md`, `OBLIGATIONS_OTHERS.md`, `NEXUS_BRIEF.md`, `MEMORY.md`, `SCRATCH.md`, `LAST_COMPLETION.md`, `AGENTS/HOMER/thesis/THESIS.md`, `AGENTS/HOMER/thesis/PREDICTIONS.tsv`, `AGENTS/HOMER/tools/rent_breadth.py`, `registry/corrections_receipts.tsv`, all 29 unprocessed `inbox/WALTER/` packets, `AGENTS/HOMER/docket/CATALYSTS.tsv` (row 3 partial), the card and the 8/22 review. Header-only: the three cold registers, the eight workbook ledger bodies (~556 KB), `board_log.tsv` rows 2–77. **Staleness:** refresh at HOMER's 2026-11-20 formal grade or on a material STATUS/thesis change.
 **Subject state at build:** HOMER not live; last HOMER-authored commit `454435973` 2026-10-19 13:24 ET (Will-requested close). Every later commit under `AGENTS/HOMER/` is a WALTER delivery.
 
 > A Profile is DAEDALUS's durable understanding of a heavy agent. Section-tasks read the relevant slice of this, not the raw agent; re-read the file before applying any change (PAT-009).
@@ -31,13 +31,13 @@ Bytes 2026-10-28; budget 32,550 B, rotation trigger 24,412 B, cap 54,250 B. Boot
 | `STATUS.md` | dashboard (values + bands + obligations) + BOTTOM LINE `:158-164` | step 2 | 22,157 (68%) | 628 B under HOMER's own soft line 22,785 B (`CLAUDE.md:212`) |
 | `SCRATCH.md` | session handoff | step 3 | 3,908 | — |
 | `LESSONS.md` | INDEX over 54 lessons in two cold shards; best-in-fleet Mistake→Rule→Tell corpus | step 4 | 23,910 (73%) | **502 B under the rotation trigger**; closeout measures STATUS only |
-| `thesis/PREDICTIONS.tsv` | HOM-xx ledger (2 rows); line-1 preamble carries the CRL-06/23 parent-retain ruling | step 8 "due-scan … for past-trigger rows" | **36,472 (112%)** | a predicate scan over unindexed rows is a whole read; invisible to `read_cap_check` (HOMER has no READS.tsv row) |
-| `thesis/THESIS.md` | **THESIS + THESIS-LEVEL KILL RAIL** — §3 frozen criteria, §4 pre-registered decision rule, §6 defect register, §8 convergence handle, §9 fired-count ledger | not boot-read (`:245`); graded via docket row | 23,077 | the L3 surface the 8/07 profile said did not exist |
+| `AGENTS/HOMER/thesis/PREDICTIONS.tsv` | HOM-xx ledger (2 rows); line-1 preamble carries the CRL-06/23 parent-retain ruling | step 8 "due-scan … for past-trigger rows" | **36,472 (112%)** | a predicate scan over unindexed rows is a whole read; invisible to `read_cap_check` (HOMER has no READS.tsv row) |
+| `AGENTS/HOMER/thesis/THESIS.md` | **THESIS + THESIS-LEVEL KILL RAIL** — §3 frozen criteria, §4 pre-registered decision rule, §6 defect register, §8 convergence handle, §9 fired-count ledger | not boot-read (`:245`); graded via docket row | 23,077 | the L3 surface the 8/07 profile said did not exist |
 | `NEXUS_BRIEF.md` | VIEW/CALIBRATION/CROSS-DOMAIN + the 17-row DO-NOT-CITE register (`:60-77`), the cross-agent retraction vehicle | read whole by NEXUS, CARL, REGINALD, HENRY | 13,447 | CROSS-DOMAIN first (amendment 12) |
 | `workbook/` (10) | the record: KB_LIVE 71,786 · PRICING 97,910 · MULTIFAMILY 89,022 · PIPELINE 61,902 · BUILDER 58,735 · RATES 53,951 · STATE_HSG 42,491 · KB 30,499 (FROZEN) · SCHEMA · RENT_BREADTH_ROSTER (FROZEN) | header eyeball, step 7 | — | SCHEMA covers all 8 live/frozen data ledgers |
-| `docket/CATALYSTS.tsv` | forward calendar, 45 rows; row 3 is the 39 KB servicer-watch class rail | step 5 awk projection | 120,296 | 40 unresolved rows on 10/28 |
+| `AGENTS/HOMER/docket/CATALYSTS.tsv` | forward calendar, 45 rows; row 3 is the 39 KB servicer-watch class rail | step 5 awk projection | 120,296 | 40 unresolved rows on 10/28 |
 | `board_log.tsv` | WALTER signal dispositions, grep-class, never rotate | step 9 membership grep | 70,745 | 3 malformed rows `:65-67` |
-| `MEMORY.md` · `OBLIGATIONS_OTHERS.md` · `LAST_COMPLETION.md` (frozen 10/15) · `STATUS_COLD.md` (150,761, crc-pinned) · `LESSONS_COLD*.md` (98,868 crc-pinned; 13,389 append shard) · `reports/` (19 + 5 evidence dirs) · `tools/rent_breadth.py` · `registry/` · `state_vectors/` (retired channel) · `archive/` (22) | not boot-read | — | eight of these are absent from the charter FILES table |
+| `MEMORY.md` · `OBLIGATIONS_OTHERS.md` · `LAST_COMPLETION.md` (frozen 10/15) · `STATUS_COLD.md` (150,761, crc-pinned) · `LESSONS_COLD*.md` (98,868 crc-pinned; 13,389 append shard) · `reports/` (19 + 5 evidence dirs) · `AGENTS/HOMER/tools/rent_breadth.py` · `registry/` · `state_vectors/` (retired channel) · `archive/` (22) | not boot-read | — | eight of these are absent from the charter FILES table |
 
 ## 3. Per-dimension local representation
 
@@ -47,20 +47,20 @@ Bytes 2026-10-28; budget 32,550 B, rotation trigger 24,412 B, cap 54,250 B. Boot
 | Convergence / scoring | `THESIS.md` §8 (`:141-171`): **19/25 across 5 legs, 3 independent roots**; A1 co-rooted with C1, A2 feeds CARL V12 (count once); C2's upgrade trigger MET (Trepp 8.04%) but re-scoring deliberately waits for 11/20 | 5-point handle, dated 2026-10-15 | yes |
 | Invalidation / exit | `THESIS.md` §3 FROZEN kill rail (`:34-89`, stamp `Kill rail re-derived: 2026-09-29` line 3, registered `GATE-HOMER-THESIS-KILL`); §4 decision rule (both cores ⇒ FALSIFIED; one ⇒ PARTIAL); §9 fired counts 0/5 | dated, frozen, GATES-mirrored | yes |
 | Thresholds | `CLAUDE.md:87-149` rung census: every level traces to a sourced year or bracket; two Will-ruled re-arms 9/29 (rent breadth, national FC starts); basis discipline across four ATTOM bases | bands with RE-ARMED stamps | yes |
-| Predictions | `thesis/PREDICTIONS.tsv`: HOM-01 MISSED (early-kill) 2026-08-31; HOM-02 OPEN (FHA SA DQ ≥12.00%, 65%, arm 1 of 2 fired 8/13, decider Q3 NDS ~mid-Nov, Resolve_By 2027-02-28). No new row since 7/24 | 11-col ledger with Resolve_By | thin (2 rows) |
+| Predictions | `AGENTS/HOMER/thesis/PREDICTIONS.tsv`: HOM-01 MISSED (early-kill) 2026-08-31; HOM-02 OPEN (FHA SA DQ ≥12.00%, 65%, arm 1 of 2 fired 8/13, decider Q3 NDS ~mid-Nov, Resolve_By 2027-02-28). No new row since 7/24 | 11-col ledger with Resolve_By | thin (2 rows) |
 | Cross-agent routing | charter edges `:11`; packets to CARL/REGINALD/CORAL demonstrated (R3 §2); TERRY none since 7/24; HENRY never | packets + brief | partial |
 
 ## §3b. Invalidation-surface inventory (what `falsification_scan` and the sweep read)
 
 | Surface | Kills / flips what | Stamp (in-content) | Fired-state form | Mechanical reader |
 |---|---|---|---|---|
-| `thesis/THESIS.md` §3–4, §9 | the thesis (5 legs; kill counts per leg) | `Kill rail re-derived: 2026-09-29` (line 3); formal grades 2026-11-20, 2027-02-20 (`:89`) | §9 ledger: 0/5 fired; V5 says 11/20 cannot return FALSIFIED/PARTIAL on cores | `falsification_scan` **since 2026-10-28** (class "kill rail (in-thesis)"); docket row 37; GATES:21 |
-| `thesis/PREDICTIONS.tsv` Invalidation col | HOM-01 (fired 8/31), HOM-02 (arm 1 of 2 fired 8/13) | registered 7/12, 7/24; rulings 8/22 | status cell | fleet tools (consumer_check, asmade_audit) |
-| `docket/CATALYSTS.tsv:3` servicer-watch classes A–G (+Z) | any class ⇒ 🔴 | ratified 8/13, encoded 8/22; last full sweep 2026-09-29 | Class A FIRED 2026-08-07 (UWM Fitch B+), found 9/29 | boot awk only |
-| `MULTIFAMILY.tsv:68` + `RENT_BREADTH_ROSTER.tsv` rent-decline breadth >20/>40/>55% | A3-class band | re-armed 2026-09-29 (Will) | ORANGE 46/100 (Sep); Oct file due ~10/27–31 | **`tools/rent_breadth.py`** (verified both directions) |
+| `AGENTS/HOMER/thesis/THESIS.md` §3–4, §9 | the thesis (5 legs; kill counts per leg) | `Kill rail re-derived: 2026-09-29` (line 3); formal grades 2026-11-20, 2027-02-20 (`:89`) | §9 ledger: 0/5 fired; V5 says 11/20 cannot return FALSIFIED/PARTIAL on cores | `falsification_scan` **since 2026-10-28** (class "kill rail (in-thesis)"); docket row 37; GATES:21 |
+| `AGENTS/HOMER/thesis/PREDICTIONS.tsv` Invalidation col | HOM-01 (fired 8/31), HOM-02 (arm 1 of 2 fired 8/13) | registered 7/12, 7/24; rulings 8/22 | status cell | fleet tools (consumer_check, asmade_audit) |
+| `AGENTS/HOMER/docket/CATALYSTS.tsv:3` servicer-watch classes A–G (+Z) | any class ⇒ 🔴 | ratified 8/13, encoded 8/22; last full sweep 2026-09-29 | Class A FIRED 2026-08-07 (UWM Fitch B+), found 9/29 | boot awk only |
+| `MULTIFAMILY.tsv:68` + `RENT_BREADTH_ROSTER.tsv` rent-decline breadth >20/>40/>55% | A3-class band | re-armed 2026-09-29 (Will) | ORANGE 46/100 (Sep); Oct file due ~10/27–31 | **`AGENTS/HOMER/tools/rent_breadth.py`** (verified both directions) |
 | `PIPELINE.tsv:77` national FC STARTS >100K/130K/175K | band | re-armed 2026-09-29 | below Yellow (Q2 81,935); Q3 ATTOM access UNRESOLVED | none |
 | Dated kills executed: Trepp MF maturity-adjusted (`CATALYSTS.tsv:9`, 2026-10-15); $160B+ MF wall (`MULTIFAMILY.tsv:17`, RETIRED 2026-09-02) | — | — | spent | — |
-| `reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md` | pre-registered print card (HOLD fired at 7.28%) | 2026-09-29 | never edited post-print | none |
+| `AGENTS/HOMER/reports/2026-09-29_PMMS-2026-10-01_PRE-REGISTRATION.md` | pre-registered print card (HOLD fired at 7.28%) | 2026-09-29 | never edited post-print | none |
 
 ## 4. Deviations from standard (+ why)
 
@@ -74,7 +74,7 @@ Bytes 2026-10-28; budget 32,550 B, rotation trigger 24,412 B, cap 54,250 B. Boot
 
 ## 5. Load-bearing context / DO NOT TOUCH
 
-1. `workbook/KB.tsv` FROZEN 2026-07-10 — row-ID contract with CARL's KB; 3 short rows (`:14,26,27`) are frozen too: annotate, never rewrite. New rows → `KB_LIVE.tsv`.
+1. `AGENTS/HOMER/workbook/KB.tsv` FROZEN 2026-07-10 — row-ID contract with CARL's KB; 3 short rows (`:14,26,27`) are frozen too: annotate, never rewrite. New rows → `KB_LIVE.tsv`.
 2. `state_vectors/` is the retired SV channel; `corrected/` is a retrieval hazard.
 3. **Frozen thesis criteria and the 11/20 grade** (`THESIS.md:3,86,89`): no criterion reworded, split or merged at grading; C2's handle upgrade is recorded, not re-scored, until 11/20. `Date_Resolved`/`Outcome` stay empty while one arm of a two-arm kill has fired (`STATUS.md:154`).
 4. GSE-MF band letter frozen (WQ-248 C); an ungraded leg above the top rung is correct. Re-levelling any pinned rung = Will-gated RETUNE; rent roster change = re-spec; ratio band annual-only (`CLAUDE.md:112,114,145`).
