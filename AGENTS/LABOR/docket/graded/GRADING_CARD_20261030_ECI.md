@@ -99,4 +99,41 @@ The STATUS letter reads *"≤3.4% flat-or-down **while AHE accelerates** = COMPO
 
 ## 8. GRADE (write 2026-10-30 off this frozen card — never re-read a band)
 
-*Blank until release. Order: ① save + text-extract the release; check the reference-period line · ② read C and ECI_PW from Table A · ③ grade §3a, read §3b's cell, grade §3c, then §3d if closed · ④ write into STATUS (ECI row, CORE TENSION pointer), `git mv` to `docket/graded/`.*
+*Order followed: ① save + text-extract the release; check the reference-period line · ② read C and ECI_PW from Table A · ③ grade §3a, read §3b's cell, grade §3c, then §3d if closed · ④ write into STATUS (ECI row, CORE TENSION pointer), `git mv` to `docket/graded/`.*
+
+**GRADED 2026-10-30 09:08 EDT (`date` at the card write) by LABOR (PROME-spawned, DOCKET L764). No band was re-read or moved; every figure below is the one-decimal figure BLS printed.**
+
+**① Source (L-33).** BLS news release **USDL-26-1620**, *"Employment Cost Index — September 2026"*, embargoed until **8:30 a.m. ET Friday, October 30, 2026** — fetched 09:06 EDT from `bls.gov/news.release/eci.nr0.htm` by `scripts/fetch_primary.py` (bare curl HTTP 403 rejected; research-bot UA HTTP 200, 66,235 B html, sha256 prefix `abdc9dde713a8cea`); tag-stripped text saved at `domain/sources/2026-10-30_USDL-26-1620_eci_sep2026.txt`. Re-read with `--file … --expect` on the release number and both narrative sentences: **3 of 3 FOUND, rc 0**. Reference period: *"12-month period ending in September 2026"* ✓ (observation September 2026 vs September 2025, NSA).
+
+**② Table A (12-month, NSA, current dollar — Sep 2025 · Jun 2026 · Sep 2026):**
+
+| Series | Sep 2025 | Jun 2026 | **Sep 2026** | Text agrees? |
+|---|---|---|---|---|
+| Civilian compensation (`C`, E1) | 3.5 | 3.4 | **3.4** | ✓ "increased 3.4 percent, not seasonally adjusted" |
+| Civilian wages and salaries | 3.5 | 3.2 | 3.1 | ✓ |
+| Civilian benefits | 3.5 | 3.8 | 3.9 | ✓ |
+| Private wages and salaries (`ECI_PW`, E2/E3) | 3.6 | 3.1 | **3.1** | ✓ "Wages and salaries increased 3.1 percent" (private paragraph) |
+| Private compensation | 3.5 | 3.3 | 3.4 | ✓ |
+| Private benefits / health benefits | 3.5 / 6.1 | 3.8 / 6.0 | 3.9 / **6.4** | ✓ (benefits); health from Table A only |
+| Private wages, constant dollar | — | −0.4 | **−0.6** | ✓ "decreased 0.6 percent" |
+
+Frozen inputs check: Jun 2026 civilian comp 3.4 and private wages 3.1 in today's Table A = the §2 frozen values (no revision).
+
+**③ Grades.**
+
+| Step | Arithmetic | Result |
+|---|---|---|
+| §3a E1 | `C = 3.4` ⇒ `3.4 ≤ 3.4` | **E1-c — no pressure on the composition-controlled gauge** |
+| §3b cell | E1-c × AHE decelerating (frozen 3.5 → 3.0) | **COMPOSITION branch does NOT fire** (its "while AHE accelerates" leg is false). No band by letter — recorded: **"both gauges soft; no mix wedge to explain."** |
+| §3c E2 | `w = 3.0 − 3.1 = −0.1` ⇒ `w ≤ 0.0` | **WEDGE CLOSES** |
+| §3d E3 | `3.1 − 3.1 = 0.0` ⇒ `≤ 0.0` | **Closed from the AHE side** — AHE fell to meet the composition-controlled gauge. **The re-open consequence does NOT apply; the composition read is not refuted.** Record only |
+
+**④ Records, no-band lines, attribution (§4–§5).**
+- **No prediction registered or resolved** on this card (§4). LAB-xx book unchanged.
+- **Real wages (no band, CARL's read):** private wages 3.1 against CPI-U 3.7% y/y (Sep; STATUS AHE row, BLS 10/14) ⇒ `3.1 − 3.7 = −0.6`, which equals BLS's own constant-dollar figure (−0.6, from −0.4 in June).
+- **Wages-vs-benefits split (§5.1):** total civilian comp held 3.4 with benefits 3.9 over wages 3.1; private health benefits **6.4%** (Jun 6.0). Benefit costs, not wages, hold total compensation up. E1's band does not change on it.
+- **Re-weighting (§5.2 / falsifier ②):** the release's own notice says updated fixed weights and the removal of workers' compensation begin **with December 2026 data** (Jan 29, 2027 release). This print is on the current basis ⇒ falsifier ② NOT triggered; E1/E2 grade.
+- **Quarterly (3-month SA) context, no band:** civilian comp 0.9 → 0.8, civilian wages 0.9 → 0.7, private wages 0.9 → 0.8. Union private wages 4.3% y/y vs nonunion 3.0%.
+- **No Fed-path inference (§5.3).** Rate path is BOND/HENRY/ORACLE's.
+
+**⑤ Routing (§6):** outcome is "everything else" ⇒ STATUS (KEY THRESHOLDS ECI row) + NEXUS brief. **No 1c packet** (neither E1-a nor the §3d re-open fired). Card moved to `docket/graded/` this session.
