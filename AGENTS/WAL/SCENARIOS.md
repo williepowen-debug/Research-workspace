@@ -6,7 +6,26 @@
 
 **Evidence annotation — October14 integration sweep:** the copied v2.4 rationale below records the August20 decision and later dated riders; its valuation table remains current and unchanged. The old NDFI single-observation limitation is superseded by seven primary observations (KB230; `research/2026-10-14_FFIEC-deep-read.md`). This is not a valuation re-mark or an endorsement of every dated rationale as current. Borrower/loss attribution and persistent earnings damage remain unresolved. The September holdings rider is also dated history; current account-specific holdings/vintages live only in POSITIONS/FORGE. The copied block itself is preserved verbatim.
 
-## EXPECTED VALUE SUMMARY (v2.4 — post-MI3-disconfirmation re-mark) ★ CURRENT
+## EXPECTED VALUE SUMMARY (v2.5 — post-Q3-10-Q re-score, 2026-10-30) ★ CURRENT
+
+**Trigger:** the Q3 10-Q (acc 0001628280-26-068599, 10/30 16:38 ET) graded the $99M life-science loan **NO-VERDICT** (absent from release, deck, call and 10-Q). `Q3_10Q_RESCORE_RULE_2026-10-22.md` §2 maps that to Bear-medium 16 → 12, +4 to Base; no §3 override fired; §4 Tail unchanged. Grade: `research/2026-10-30_Q3_10Q_GRADE.md`. Weights are owned by THESIS.
+
+| Scenario | v2.4 Prob | **v2.5 Prob** | Δ | Range | Midpoint | Weighted |
+|----------|----------|--------------|----|-------|----------|----------|
+| Bear-fast (V1a MI3 ≥25 trigger) | 2% | **2%** | 0 | $52-62 *(unch)* | $57.00 | $1.14 |
+| Bear-medium (V1 Office migration) | 16% | **12%** | **−4** | $58-66 *(unch)* | $62.00 | $7.44 |
+| Base | 45% | **49%** | +4 | $74-82 *(unch)* | $78.00 | $38.22 |
+| Bull | 30% | **30%** | 0 | $86-94 *(unch)* | $90.00 | $27.00 |
+| Tail | 7% | **7%** | 0 | $35-45 *(unch)* | $40.00 | $2.80 |
+| **Expected Value** | **$75.96** | **100%** | | | | **$76.60** |
+
+**PT $52–77** (convention pinned: [Bear-fast range low, EV]). Anti-ratchet: total bear (fast + medium) 18% → 14%. ⚠️ NO-VERDICT is not C: the Bear-medium kill did not fire and leg (b), the appraisal, carries to the Q4 call.
+
+---
+
+*The v2.4 block below is SUPERSEDED by v2.5 above (2026-10-30); kept verbatim as the prior re-mark.*
+
+## EXPECTED VALUE SUMMARY (v2.4 — post-MI3-disconfirmation re-mark) — SUPERSEDED 2026-10-30
 
 **Trigger:** the **V1a MI3 primary falsifier ran 2026-08-07 and DISCONFIRMED** (Q1-26 23.88% · Q2-26 21.20%, both in the frozen `<24%` PLATEAUED band; never ≥25% in 12 quarters). **Bear-fast's 10% weight sat on a tested-and-failed premise.** Will ruled its disposition 2026-08-12 (batch, row 32b, `PROME/proposals/2026-08-12_rule-batch-RULED.md`) with a hard constraint: ⛔ **total bear must NOT rise on a disconfirmation.**
 

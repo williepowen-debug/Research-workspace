@@ -1,6 +1,26 @@
 # WAL — Compounder with Concentrated CRE Tail Risk
 
-**Last Updated:** **2026-10-30** (WQ-553 amendment + $99M appraisal prior, no numerical re-mark; prior 10/22 Q3 evidence fold) | **Version:** **v2.4** (dated 2026-08-20) | **EV $75.96 · PT $52-76** · spot vs EV → `STATUS.md` only (a spot figure in this file goes stale at the next close; the 5.4% @ $80.05 was the 8/20 mark) | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-10-30 eve** (v2.5: post-Q3-10-Q re-score, applied verbatim from the pre-registered rule) | **Version:** **v2.5** (dated 2026-10-30) | **EV $76.60 · PT $52-77** · spot vs EV → `STATUS.md` only | **Prior:** v2.4 (Aug 20; EV $75.96, PT $52-76) | v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+
+---
+
+## v2.5 RE-SCORE — 2026-10-30 (post-Q3-10-Q, rule applied verbatim) ★ READ FIRST
+
+**Source:** Q3 10-Q acc 0001628280-26-068599 (accepted 10/30 16:38 ET, A1), graded against the frozen frame → `research/2026-10-30_Q3_10Q_GRADE.md`. **Mapping:** `Q3_10Q_RESCORE_RULE_2026-10-22.md` (Will-approved 10/22; §6 Amendment 1 ruled 10/30). No judgment was added to the table; the weights below are the rule's output.
+
+| Scenario | v2.4 | **v2.5** | Why (rule cell) |
+|---|---|---|---|
+| Bear-fast | 2% | **2%** | Outside this filing (MI3 is a Call Report item; Q3 not yet filed) |
+| Bear-medium | 16% | **12%** | §2 **NO-VERDICT** row: the $99M is absent from release, deck, call **and** 10-Q. The 4pp is the print/call trim (0 migrations, NCO 30bps, coverage 118%); the kill does **not** fire because leg (b), the appraisal, is still open |
+| Base | 45% | **49%** | +4 funded side of §2 |
+| Bull | 30% | **30%** | Moves only on row C |
+| Tail | 7% | **7%** | §4 "otherwise": Cantor shows no new charge-off, allowance or recovery (disclosure narrowed: the "no additional charge-offs" sentence was dropped, not updated) |
+
+**EV $76.60** (1.14 + 7.44 + 38.22 + 27.00 + 2.80) · **PT $52–77** on the pinned [Bear-fast range low, EV] convention · ranges and midpoints unchanged · total bear 18 → 14 (anti-ratchet satisfied). Overrides checked and not triggered: no new office credit named; WAL-01 cross-check PASS (926 + 165 = 1,091 ≥ 272.75 ⇒ INVALIDATED final); WAL-02 confirmed at 30bps.
+
+**⚠️ What this re-score does NOT say:** that the $99M is resolved. NO-VERDICT is "nothing anywhere", never C. The 10-Q dropped the sentence that named the loan in Q2. Other CRE-NOO nonaccrual fell 279 → 173 with all of it "with no allowance" and the Level-3 specific ACL fell 23 → 5, so there is **no below-book-appraisal tell**, but nothing shows where the loan went either. It goes to management at the Q4 call.
+
+**What the 10-Q adds to the live residual (evidence, not re-weighted here; V1b-magnitude/V3/V4/composite re-judgment is owed by evidence, rule §5):** OREO **22 → 27 properties** ($36M taken in Q3, "primarily one office property") ⇒ the registered "still taking title to office" grade · special mention 316 → 397 · **hotel franchise finance criticized $75M → $185M** (classified +$31M = the Q2 special-mention credit, candidate; new special mention $110M), still $0 nonaccrual and $0 charge-offs · against that, accruing restructured loans **fell** 164 → 129 and full NPL 781 → 672. NDFI 25.7% (from 25.9%) with dollars up ⇒ MIXED, V3 unchanged. **Preferred reset to 8.36%** (from 4.25%; ~+$12.3M/yr dividend cost; 8-K 10/30 declares $0.5225/depositary share) and common dividend $0.42 → $0.46.
 
 ---
 
@@ -474,7 +494,7 @@ Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike
 
 ---
 
-*★ **v2.4 (Aug 20, 2026) is CURRENT** — the MI3-disconfirmation re-mark: bear-fast 10%→2% on its own falsifier's negative, freed 8pp to Base 45 / Bull 30, bear-medium HELD 16, Tail HELD 7; **EV $73.92 → $75.96; PT $52-74 → $52-76**; no range moved; ⛔ **anti-ratchet verified — total bear 26% → 18%, it FELL.** Full entry + the two judgment calls → `CHANGELOG.md`. **Header, §What-moved and this history line are the version's three homes — all three now agree.** ⚠️ *This line said "v2.3 … is CURRENT" until 2026-08-23, three days after the bump: the version-history footer is written once per version and re-read never.*
+*★ **v2.5 (Oct 30, 2026) is CURRENT** (post-Q3-10-Q re-score: Bear-medium 16 → 12, Base 45 → 49, EV $76.60; section at the top). **v2.4 (Aug 20, 2026), superseded,** — the MI3-disconfirmation re-mark: bear-fast 10%→2% on its own falsifier's negative, freed 8pp to Base 45 / Bull 30, bear-medium HELD 16, Tail HELD 7; **EV $73.92 → $75.96; PT $52-74 → $52-76**; no range moved; ⛔ **anti-ratchet verified — total bear 26% → 18%, it FELL.** Full entry + the two judgment calls → `CHANGELOG.md`. **Header, §What-moved and this history line are the version's three homes — all three now agree.** ⚠️ *This line said "v2.3 … is CURRENT" until 2026-08-23, three days after the bump: the version-history footer is written once per version and re-read never.*
 
 *v2.3 (Jul 25, 2026) — **SUPERSEDED by v2.4.** The post-Q2 second-data-point re-mark. B1 disposition resolved **(B)** (nonaccrual, $0 C/O, brought current end-June); **REG-26 RESOLVED-DISCONFIRMED**; 0 new office migrations (pattern stays N=1); office classified $316M < $407M baseline; SM −22%. Reweight **Bear-medium 25→16, Bear-fast 12→10, Base 35→40, Bull 21→27, Tail 7 flat**. **EV $68.93 → $73.92.** First range edit since v2.1: Base $70-77→**$74-82**, Bull $82-90→**$86-94** (NII floor raise absorbing a Sept hike + $150M H2 buyback; net of fee-guide and deposit-guide cuts and 96% ACL/NPL). **PT $50-68 → $52-74**, convention pinned **[Bear-fast low, EV]**. **Overvaluation 18.8% → 12.4% — margin of safety COMPRESSED ~6.4pp.** Bear kept alive by the pending $99M appraisal + 96% coverage + 5-qtr-high CRE-NOO C/O $32.0M + untested V1 MI3. Does NOT touch INDEX/WEAKNESSES (PROME WP-W2 standup; documented divergence). Rationale in `CHANGELOG.md`.*
 

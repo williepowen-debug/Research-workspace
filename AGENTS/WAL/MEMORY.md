@@ -1,6 +1,21 @@
-## Session Notes — current handoff, October 30 2026 (Will, interactive)
+## Session Notes — current handoff, October 30 2026 evening (PROME relay)
 
-**⚠️ Open question:** what the Q3 10-Q says about the $99M life-science appraisal. Release, deck and call were all silent, so it is PENDING-10-Q (never benign). Still not on EDGAR at 2026-10-30 13:16 ET; statutory Mon 11/9. **Grade it with the re-score rule's §6 Amendment 1 (ruled 10/30).**
+**⚠️ Open question:** where the $99M life-science loan went. The Q3 10-Q (acc 0001628280-26-068599, 16:38 ET) does not mention it at all, so it graded **NO-VERDICT** (never C). Put it to management directly at the Q4 call: status at 9/30, appraisal received, value vs carrying.
+
+**LAST SESSION (10/30 17:30–17:4x ET, Claude Opus 5.5, Claude Code; PROME `prome-c5` relayed Will's request for the filing):**
+- **Q3 10-Q graded verbatim** → `research/2026-10-30_Q3_10Q_GRADE.md`. $99M NO-VERDICT (F2: Other CRE-NOO nonaccrual 279 → 173, all no-allowance; Level-3 specific ACL 23 → 5; no below-book tell). WAL-01 cross-check PASS (926 + 165 = 1,091) ⇒ **RESOLVED-INVALIDATED final**; WAL-02 **10-Q-confirmed** 0.30%. Coverage 118.4% MET. OREO 22 → 27 (one office property taken, $36M). NDFI 25.7% with $ up ⇒ MIXED. Buyback $92.1M on track. Cantor NARROWED (Q2 "no additional charge-offs" sentence dropped); $64M PCD UNTIED. Hotel O1–O8 logged: **HFF criticized $75M → $185M**, still $0 nonaccrual/charge-offs.
+- **v2.5 re-score applied verbatim** (rule §2 NO-VERDICT row; no §3 override; §4 Tail unchanged): **2 / 12 / 49 / 30 / 7, EV $76.60, PT $52–77.** THESIS/SCENARIOS/CHANGELOG/STATUS/INDEX/WEAKNESSES/NEXUS folded; PREDICTIONS written (PAT-053); KB-277–281; frame §8 filing-clock pin only.
+- **8-K 10/30 17:18 ET = dividend declaration:** common $0.42 → $0.46; Series A $0.5225/depositary share = **8.36% reset** (closes KB-275's coupon question).
+- Packets: PROME memo; REGINALD (WAL-01 final, v2.5).
+
+**NEXT SESSION (numbered, checkable):**
+1. **Re-judge scores by evidence** (rule §5; not done tonight): V1b-magnitude (OREO count up, SM +81, HFF criticized 2.5× vs accruing restructured down), V3 (MIXED ⇒ hold 3/5 unless an A1 stress datum), V4, composite. Separate dated edit.
+2. **Register forward Q4 predictions by 11/15** (Bear CONFIRM lost its last carrier at this 10-Q), each with dated Resolve_By + anchor type. Candidates: the $99M disposition at the Q4 call/10-K; HFF nonaccrual > $0 by 12/31; OREO count.
+3. **Hotel franchise finance read** (new): criticized $185M across 7 loans; classified +$31M = the Q2 SM credit (candidate). Worth a short desk read before Q4.
+4. Q3 Call Report / MI3 (unchanged, see item 3 below), JWT dies Thu 11/5.
+5. The 10/30 afternoon NEXT list below still stands for items 2b–7 (items 1–2 there are done by this session).
+
+**PRIOR — 10/30 afternoon handoff (kept):**
 
 **LAST SESSION (10/30 13:04–15:43 ET, Claude Opus 5.5 on the laptop, interactive; Will: boot + status, then WQ-553):**
 - Boot: not behind origin (ahead 1 = PROME's unpushed commit), no pull. Checks: corrections rc 0; `boot.py` rc 1 (FFIEC token 6d, Q3 Call Report not filed at 13:04, 3,484 banks filed); KB expiry 8 rows overdue (untouched, see NEXT 4).
