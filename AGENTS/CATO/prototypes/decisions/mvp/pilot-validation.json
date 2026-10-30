@@ -1,0 +1,144 @@
+{
+  "kind": "candidate pilot author checks on temporary repositories; no live activation or laptop proof",
+  "runs": {
+    "write-1440": {
+      "checks": [
+        {
+          "name": "Pilot model labels supervised confirmation and four views",
+          "pass": true
+        },
+        {
+          "name": "Exact conditions survive review and cancel without a save",
+          "pass": true
+        },
+        {
+          "name": "Save exports the complete response without a delivery claim",
+          "pass": true
+        },
+        {
+          "name": "Deferral keeps both answers and exact return condition",
+          "pass": true
+        },
+        {
+          "name": "Backend refresh restores saved answers and does not create receipt",
+          "pass": true
+        },
+        {
+          "name": "Pilot layout fits the viewport",
+          "pass": true
+        }
+      ],
+      "returncode": 0,
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-pilot-browser-w8zm9ya4/write-1440.png"
+    },
+    "write-520": {
+      "checks": [
+        {
+          "name": "Pilot model labels supervised confirmation and four views",
+          "pass": true
+        },
+        {
+          "name": "Exact conditions survive review and cancel without a save",
+          "pass": true
+        },
+        {
+          "name": "Save exports the complete response without a delivery claim",
+          "pass": true
+        },
+        {
+          "name": "Deferral keeps both answers and exact return condition",
+          "pass": true
+        },
+        {
+          "name": "Backend refresh restores saved answers and does not create receipt",
+          "pass": true
+        },
+        {
+          "name": "Pilot layout fits the viewport",
+          "pass": true
+        }
+      ],
+      "returncode": 0,
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-pilot-browser-w8zm9ya4/write-520.png"
+    },
+    "receipt-1440": {
+      "checks": [
+        {
+          "name": "Pilot model labels supervised confirmation and four views",
+          "pass": true
+        },
+        {
+          "name": "Committed owner receipt is distinct from work completion",
+          "pass": true
+        },
+        {
+          "name": "Integrated answer has no response controls",
+          "pass": true
+        },
+        {
+          "name": "Canonical evidence and prior exact answer remain inspectable",
+          "pass": true
+        },
+        {
+          "name": "Pilot layout fits the viewport",
+          "pass": true
+        }
+      ],
+      "returncode": 0,
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-pilot-browser-w8zm9ya4/receipt-1440.png"
+    },
+    "receipt-520": {
+      "checks": [
+        {
+          "name": "Pilot model labels supervised confirmation and four views",
+          "pass": true
+        },
+        {
+          "name": "Committed owner receipt is distinct from work completion",
+          "pass": true
+        },
+        {
+          "name": "Integrated answer has no response controls",
+          "pass": true
+        },
+        {
+          "name": "Canonical evidence and prior exact answer remain inspectable",
+          "pass": true
+        },
+        {
+          "name": "Pilot layout fits the viewport",
+          "pass": true
+        }
+      ],
+      "returncode": 0,
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-pilot-browser-w8zm9ya4/receipt-520.png"
+    },
+    "locked-1440": {
+      "checks": [
+        {
+          "name": "Pilot model labels supervised confirmation and four views",
+          "pass": true
+        },
+        {
+          "name": "Default preview refuses submissions and shows the reason",
+          "pass": true
+        },
+        {
+          "name": "Pilot layout fits the viewport",
+          "pass": true
+        }
+      ],
+      "returncode": 0,
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-pilot-browser-w8zm9ya4/locked-1440.png"
+    }
+  },
+  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-pilot-browser-w8zm9ya4",
+  "hashes": {
+    "store.py": "376f2c8497b4b2de9bb89060557e720af6b92d3fd06bbd23d894c446e25382df",
+    "server.py": "2861db872b2d6294c417b7ad8541eb371b8f5f47992f2b1f174f6e1d99a06951",
+    "index.html": "b2413c68324cc95a985a6d36b4894e34fcb162589cd40da040ce3706a0c942e1",
+    "pilot_files.py": "1202ad23fe57affa787e28b1058d5b33b1550ddc080090b658973565fe72ac32",
+    "test_pilot_files.py": "46cfb071288cf87ec869100b012f66d686d633dd0ffbd000a8adb17ade92a9ee",
+    "test_pilot_browser.py": "82ca43184614e4fe0e963958a7fdd7bc1731a86e812ea2f988176d61026331a8"
+  }
+}

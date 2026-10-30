@@ -47,6 +47,10 @@ def demo_record():
 
 
 class Store:
+    event_kind = "synthetic-response/1"
+    synthetic = True
+    identity = "local rehearsal session; not authenticated Will authority"
+
     def __init__(self, path, loader=demo_record):
         self.path = Path(path)
         self.loader = loader
@@ -61,6 +65,9 @@ class Store:
                 CREATE TABLE IF NOT EXISTS receipts (
                     sequence INTEGER PRIMARY KEY, response TEXT NOT NULL, body TEXT NOT NULL);
             """)
+            for row in db.execute("SELECT body FROM responses"):
+                if json.loads(row[0]).get("kind") != self.event_kind:
+                    raise ValueError("This database belongs to another response mode")
 
     @contextmanager
     def connection(self):
@@ -81,10 +88,18 @@ class Store:
         reader.validate_record(record, schema)
         return record
 
+    def make_snapshot(self, record):
+        return {"kind": "synthetic-display/1", "record": record,
+                "presentation_sha256": hashlib.sha256((HERE / "index.html").read_bytes()).hexdigest()}
+
+    def validate_display(self, snapshot, current):
+        template = hashlib.sha256((HERE / "index.html").read_bytes()).hexdigest()
+        if snapshot["record"] != current or snapshot["presentation_sha256"] != template:
+            raise ValueError("Displayed terms changed; keep your note, reload and review")
+
     def display(self):
         record = self.current()
-        snapshot = {"kind": "synthetic-display/1", "record": record,
-                    "presentation_sha256": hashlib.sha256((HERE / "index.html").read_bytes()).hexdigest()}
+        snapshot = self.make_snapshot(record)
         key = digest(snapshot)
         with self.connection() as db:
             db.execute("INSERT OR IGNORE INTO snapshots VALUES (?, ?)", (key, encoded(snapshot)))
@@ -127,9 +142,7 @@ class Store:
                 raise ValueError("Display snapshot is missing; reload and review")
             snapshot = json.loads(row[0])
             current = self.current()
-            template = hashlib.sha256((HERE / "index.html").read_bytes()).hexdigest()
-            if snapshot["record"] != current or snapshot["presentation_sha256"] != template:
-                raise ValueError("Displayed terms changed; keep your note, reload and review")
+            self.validate_display(snapshot, current)
             unit = next((u for u in current["units"] if u["id"] == request["unit_id"]), None)
             if unit is None or unit["disposition"]["state"] not in {"awaiting_answer", "outstanding"}:
                 raise ValueError("This unit is unavailable for a rehearsal response")
@@ -148,10 +161,10 @@ class Store:
             head = db.execute("SELECT id FROM heads WHERE unit=?", (unit["id"],)).fetchone()
             if request["supersedes"] != (head[0] if head else None):
                 raise ValueError("Another response exists; review it before replacing it")
-            event = {"kind": "synthetic-response/1", "synthetic": True, "id": event_id,
+            event = {"kind": self.event_kind, "synthetic": self.synthetic, "id": event_id,
                      "saved_at": now(), "request": request, "display": snapshot,
                      "selected_choice": choice,
-                     "identity": "local rehearsal session; not authenticated Will authority"}
+                     "identity": self.identity}
             event["sha256"] = digest(event)
             db.execute("INSERT INTO responses VALUES (?, ?, ?, ?, ?)",
                        (event_id, unit["id"], request_body, encoded(event), request["supersedes"]))

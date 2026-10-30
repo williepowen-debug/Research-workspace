@@ -47,6 +47,8 @@ def make_server(store, port=0):
                     records = reader.load_records()
                     return self.send(200, reader.html_document(reader.project(records), reader.queue_markdown(records)), "text/html")
                 return self.send(404, {"error": "Unknown route"})
+            except ValueError as error:
+                return self.send(409, {"error": str(error)})
             except Exception as error:
                 return self.send(503, {"error": f"Source/store unavailable: {type(error).__name__}. No empty inbox or permission is inferred."})
 
