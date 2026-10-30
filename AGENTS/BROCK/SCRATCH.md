@@ -1,15 +1,15 @@
-# BROCK SCRATCH — 2026-10-30 ~09:1x ET handoff (PROME L795 wake, prome-a9)
+# BROCK SCRATCH — 2026-10-30 15:4x ET handoff (Will status boot, no task)
 
 Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-10-30.md`.
 
-**Done 10/30 morning:** L795 CABO graded NOT CLOSED (primary); TRO hearing adjourned to 11/13 is press-only (Cablefax 10/29); Graham tail closed; Q3 release + 10-Q Thu 11/05 AMC (KB-BRK-409; CATALYSTS rows 11/05 + 11/13). L794 CRMT baseline 09:09 ET: newest still the 10/21 8-K (not a grade). Inbox 0/0.
+**Done 10/30:** 09:1x L795 CABO NOT CLOSED (KB-BRK-409) + L794 CRMT baseline. 15:4x status boot: WALTER lane 1/1 (SIG-W-20261030-006 noted); HY 326 [10/29] refreshed on STATUS.
 
 **Next-boot first moves:**
-1. **Fri 10/30 after ~16:30 ET + Mon 11/02 AM:** CRMT eighth-bridge feed read (L794) — whole feed from 10/22, every form type, INDEX acceptance time.
-2. **Sat 10/31:** OCIC tender final (L269) + GATE-BRK-R2 review — and the DAEDALUS 10/8 asks (R2 post-fire rule per vehicle; BDC median NAV discount; BRK-11/18/25/26 search instrument; Medallia → REGINALD), NOT worked 10/30.
-3. **Thu 11/05:** CABO Q3 8-K + 10-Q AMC (TRO subsequent events, going concern, financing names) · FSK Q3 BMO · North Haven final ~11/05.
+1. **Fri 10/30 after ~16:30 ET + Mon 11/02 AM:** CRMT eighth-bridge feed read (L794) — whole feed from 10/22, every form type, INDEX acceptance time. Not started.
+2. **Sat 10/31 session:** GATE-BRK-R2 review + say by L-number whether L269 (OCIC final) is discharged (10/28 already graded 29.8%, (b) NOT FIRED) · DAEDALUS profile items 1–3 🔴 (re-home trigger ladder/STEP-2 + fix TRADE.md:5; scoreboard re-score or FROZEN; VX_HISTORY FROZEN or resume) · falsification #5 instruments BRK-11/18/25/26 · wiring ⑰ three rows · DAEDALUS 10/8 asks. Process the four direct packets in `inbox/` then.
+3. **Thu 11/05:** CABO Q3 10-Q AMC · FSK Q3 BMO · North Haven final ~11/05.
 
 **Thread notes:**
-- CABO free docket: CourtListener returns 401/403 to anonymous calls; PACER paid → ask-first. Cablefax body paywalled; meta description + JSON-LD readable by curl.
-- EDGAR full-text (efts) works with `--compressed` + UA; always run a positive control window.
-- Weekly CABO row successor: asked PROME (memo FOLLOW-UP) to register 11/06 (after the 11/05 10-Q) instead of a bare weekly Friday.
+- CABO docket: CourtListener 401/403 anonymous; PACER paid → ask-first.
+- EDGAR full-text (efts) works with `--compressed` + UA; run a positive control window.
+- VULCAN 10/30 packet hands BROCK the pricing read on hyperscaler secured vendor financing (AMZN ~$80B) and the Hubbard $15B bank bridge — sits inside the deferred AI-infra financing leg.

@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-10-30T09:1x-04:00 — PROME Tier-1 wake (L795): CABO weekly read graded NOT CLOSED (primary), TRO hearing adjourned to 11/13 (press-only) (KB-BRK-409); L794 CRMT armed, baseline only; inbox 0/0. Narrative: `catchups/2026-10-30.md`.
+**Updated:** 2026-10-30T15:44-04:00 — status boot: WALTER 1/1 noted; 4 packets owed 10/31; no score change. Narrative: `catchups/2026-10-30.md`.
 
 ---
 
@@ -15,7 +15,7 @@
 | ✅ DONE 10/29 | **WQ-511 HTGC falsifier (L827) GRADED: THESIS FAILS FOR Q3** (KB-BRK-405/406; HTGC software figures name their basis). Full row → `catchups/2026-10-30.md` § Rotated. | Next software-mark reads: FSK 11/05 (trap), GBDC 11/17, HTGC Q4 ~late Feb 2027 |
 | **L829 (PROME consumer read 10/30)** | **WQ-516 I2** standing line below. GBDC per-name undrawn and Pluralsight amount still UNKNOWN; peer ±1.4 stays WITHDRAWN (KB376–384). | **Experiment A: BROCK's cells DONE** (ARCC 10/28, HTGC 10/29); L833 assessment is PROME's. Full row → catch-up 10/30 § Rotated. |
 | **Thu 11/05 BMO; call 09:00 ET** | **FSK Q3 cash/PIK + Kellermeyer marks / actual collateral contribution / funded lender shares** (issuer 10/8, KB334) | `research/2026-10-14_wave/FSK_cash_collateral_lenders.md` |
-| Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — **LIQUID rung MET: 325/323/331, 331 [10/16] (WALTER SIG-W-20261019-003); RED/REGINALD own consequences.** Dashboard HY **314 [10/28]**, under 320 — LIQUID's count, not mine. My watch: CCC/BB (FORUM W3 "≤5.93 ×2 obs" grades 11/30). 10/1→10/20 the ratio turned UP during the widening (5.96 → 6.57, KB-BRK-360); older 10/6–10/8 detail → catch-up 2026-10-23 § Rotated | MY signal only if CCC/BB turns UP DURING a widening (X1 test (b) needs both) |
+| Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — **LIQUID rung MET: 325/323/331, 331 [10/16] (WALTER SIG-W-20261019-003); RED/REGINALD own consequences.** Dashboard HY **326 [10/29]**, above 320 — LIQUID's count, not mine. My watch: CCC/BB (FORUM W3 "≤5.93 ×2 obs" grades 11/30). 10/1→10/20 the ratio turned UP during the widening (5.96 → 6.57, KB-BRK-360); older 10/6–10/8 detail → catch-up 2026-10-23 § Rotated | MY signal only if CCC/BB turns UP DURING a widening (X1 test (b) needs both) |
 | 10/31 · ~11/3–11/5 | **North Haven Q3 final ~11/05** grades R2 (b) (prelim 43.8%; (a) fired 9/25) · **GATE-BRK-R2 review 10/31** · APO Q3 (EST.) | R2: (a) on the first issuer-stated figure (any form type — watch 8-K 7.01 letters), (b) on the FINAL |
 | ~mid-Nov | **BCRED Q3 10-Q** — the FINAL DOLLAR value of the Q3 tender (Valuation Date 9/30/26) | no Q3 dollar figure exists before it |
 | OTF Q3 10-Q (date not yet set) | Blue Owl liquidity vector: **OTF Q3 NII < dividend = forced cut**; PIK: test the **"13% TII vs ~25% NII" denominator hypothesis** on a labelled basis | REGIME line 3 |
@@ -24,7 +24,7 @@
 | next VX review | **Duration red rung carries no sustain count** — flagged 9/25, not re-spec'd | VX-BRK-020; spec change = Will |
 | Will | **OTIC REGISTERED 10/15 (WQ-403):** R >45.0% / S structural, grades from Q4-2026; Q3 recorded never graded; review 2027-04-30. WQ-364 opacity bloc WITHDRAWN; named NOT-FOUND leg survives (KB-BRK-347). **R2 FIRED ×2; population unchanged.** W1 strict-vs-functional: my leg NOT FOUND (KB-BRK-313). | No fresh Will decision here. |
 | PROME | **L587 X1-R** candidate relative instrument (register or decline) | wrapper half stays NOT ARMED meanwhile |
-| **by Fri 10/30** (before R2 review 10/31) — ⚠️ NOT worked 10/30 (L795 session scope); carried to the 10/31 R2 session | **DAEDALUS 10/8 asks + Radiant court-source gap:** R2 post-fire rule per vehicle (P9 has RESET only) · refresh BDC median NAV discount (exit §2) · search instrument + dated attempt for BRK-11/18/25/26 · Medallia canonical → REGINALD. Answered 10/9: P1's named six governs R2 | catch-up 2026-10-09 |
+| **by Fri 10/30** (before R2 review 10/31) — ⚠️ NOT worked 10/30 (L795 session scope); carried to the 10/31 R2 session | **DAEDALUS 10/8 asks + Radiant court-source gap:** R2 post-fire rule per vehicle (P9 has RESET only) · refresh BDC median NAV discount (exit §2) · search instrument + dated attempt for BRK-11/18/25/26 · Medallia canonical → REGINALD. Answered 10/9: P1's named six governs R2. **🆕 Owed 10/31: three DAEDALUS 10/30 packets in `inbox/` (profile items 1–3 🔴 · falsification #5 · wiring ⑰) + L269 discharge statement.** | catch-up 2026-10-09 |
 | on Will's ask | **AI-infra financing leg** — SIG-W-20261002-012 Amazon ~$8B chip SPV · **SIG-W-20261008-006** Anthropic: who holds the junior risk ($42B Broadcom convertible · ~$60B syndicate, $18B junior Blackstone-led · DC CMBS) — credit-structure read vs the off-BS AI-debt map | deferred 10/2 + 10/8, not started as a study. 10/26–10/28 inputs → KB-BRK-398–402 (detail: catch-up 10/29 § Rotated). VULCAN asks (SpaceX recourse/residuals; drawn vs drawable) open. VULCAN watch: Firmus private round (line back if PC prices it) · Volta $5.0B GPU loan, Apollo $1.5bn order |
 
 **Carried debts — moved here from SCRATCH 2026-10-02** (SCRATCH was not a boot read, so these were invisible at boot; each row keeps its original vintage — **status unverified since that date unless stated**; full text `archive/SCRATCH_PRESPLIT_2026-10-02.md`):
@@ -89,7 +89,7 @@
 
 ### 1. Thesis Kill (exit 100% PC overlay) — LITERAL THRESHOLDS
 - Fed emergency lending facility for PC vehicles — **NOT FIRED**
-- ~~HY OAS <260bps for 10+ sessions~~ **RETIRED AS A KILL 9/2 (WQ-106).** The registry 2-close **GATE-HY-REKILL** is the kill (LIQUID owns series/count). Latest dashboard HY **314 [10/28]**, above 260. My 10-session observable authorises no position action.
+- ~~HY OAS <260bps for 10+ sessions~~ **RETIRED AS A KILL 9/2 (WQ-106).** The registry 2-close **GATE-HY-REKILL** is the kill (LIQUID owns series/count). Latest dashboard HY **326 [10/29]**, above 260. My 10-session observable authorises no position action.
 - Major PC fund reports default rate declining 2 consecutive quarters — **NOT FIRED** (no 2-consecutive-Q decline anywhere)
 
 
