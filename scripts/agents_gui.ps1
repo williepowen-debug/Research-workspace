@@ -266,7 +266,7 @@ $tabs.SetBounds(24,108,1112,578); $tabs.Anchor='Top,Bottom,Left,Right'
 $tabs.DrawMode='OwnerDrawFixed'; $tabs.ItemSize=New-Object Drawing.Size(205,38); $tabs.SizeMode='Fixed'
 $form.Controls.Add($tabs)
 $pages=@{}
-foreach ($key in @('Agents','Selected','Instructions','Activity','Research')) {
+foreach ($key in @('Agents','Selected','Instructions','Activity','Research','Decisions')) {
     $page=New-Object Windows.Forms.TabPage
     $page.Name=$key; $page.Text=$key; $page.BackColor=$panel; $page.ForeColor=$ink
     if ($key -eq 'Selected') {$page.Text='Selected & groups'}
@@ -415,6 +415,7 @@ Place $batch $tray 856 26 280 40 'Top,Right'
 Place $stop $tray 700 26 144 40 'Top,Right'
 $subtitle.Text='Find agents, prepare their work, and review launches on separate tabs.'
 . (Join-Path $PSScriptRoot 'research_reader.ps1')
+. (Join-Path $PSScriptRoot 'decisions_launcher.ps1')
 $form.KeyPreview=$true
 $form.Add_KeyDown({
     param($sender,$e)
@@ -1728,6 +1729,7 @@ if ($SmokeTest) {
             $task.AppendText(' Editable follow-up.')
             if ($script:settings['ORACLE'].task -cne ($expectedOracle+' Editable follow-up.')) {throw 'ORACLE preset is not editable'}
             Test-ResearchReader
+            Test-DecisionsLauncher
             Test-Step 'Page bounds and resize'
             # Activity has its own page; errors reveal it without growing the window.
             $tabs.SelectedTab=$pages.Agents; $height=$form.ClientSize.Height

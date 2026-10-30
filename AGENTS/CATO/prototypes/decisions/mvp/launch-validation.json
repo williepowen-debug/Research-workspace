@@ -1,0 +1,21 @@
+{
+  "kind": "actual WQ-558 desktop preview through pilot_launch.py; GET only",
+  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-wq558-preview-egle_732",
+  "source_commit": "6fd6afac6658d98e5fd43ec2532fb374c1ead473",
+  "source_revision": 2,
+  "fingerprint": "b043c011e1c2f59fb3b1d97f614e875129bde68702281dbacece5654332fd33f",
+  "checks": {
+    "CLI_default_preview": true,
+    "Windows_HTTP": true,
+    "actual_recommended_option": true,
+    "no_answer_controls": true,
+    "revision_2_caveats_visible": true
+  },
+  "hashes": {
+    "pilot_launch.py": "43ba9ba1b61a2cd203d140538a8a7363a7c34925f5ba95be0c59e5577eb0bec4",
+    "pilot_files.py": "696188b5006ad5c1957ef62730c098399f076bd0cbf8864b5a9c28c622adcc52",
+    "server.py": "2861db872b2d6294c417b7ad8541eb371b8f5f47992f2b1f174f6e1d99a06951",
+    "store.py": "376f2c8497b4b2de9bb89060557e720af6b92d3fd06bbd23d894c446e25382df",
+    "index.html": "a96eebeead2d6170b80e7d7146d770a3129a7a353234334ed5934c7ecf7a5829"
+  }
+}
