@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Decisions — durable rehearsal</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f1e9;color:#223b3a;font:16px/1.6 system-ui,sans-serif}header{padding:28px 6vw;background:#173e3a;color:white}h1,h2{font-family:Georgia,serif}h1{font-size:36px;margin:0}header p{max-width:900px}header a{color:#d3e8dd}.layout{max-width:1250px;margin:auto;display:grid;grid-template-columns:230px minmax(0,1fr);gap:26px;padding:28px}nav{display:grid;align-content:start;gap:10px}button,select,textarea,input{font:inherit}button{cursor:pointer;border:1px solid #92ada3;border-radius:7px;background:#fffdf7;color:#173e3a;padding:10px 14px}button[aria-pressed=true],button.primary{background:#173e3a;color:white}button:disabled{opacity:.6;cursor:default}article{padding:25px;border:1px solid #d8ded5;background:#fffdf7;border-radius:12px;margin-bottom:22px;overflow-wrap:anywhere}h2{margin:8px 0 15px;font-size:27px}h3{font-size:18px}.small{font-size:13px}.notice{border-left:4px solid #b58b32;padding:10px 15px;background:#f7ecd2}label{display:block;margin-top:14px}select,textarea,input{width:100%;padding:9px;background:white;border:1px solid #a5b7af;border-radius:5px}textarea{min-height:100px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.6 ui-monospace,monospace}details{margin-top:15px}summary{cursor:pointer}#status{max-width:1200px;margin:15px auto;padding:0 28px;white-space:pre-wrap}dialog{max-width:720px;width:calc(100% - 32px);max-height:90vh;overflow:auto;border:1px solid #92ada3;border-radius:12px;padding:26px}dialog::backdrop{background:#102a2899}.actions{display:flex;gap:12px;margin-top:20px;flex-wrap:wrap}[hidden]{display:none!important}@media(max-width:760px){.layout{display:block;padding:18px}nav{grid-template-columns:1fr 1fr;margin-bottom:24px}article{padding:18px}header{padding:24px}h1{font-size:29px}}
+</style></head><body>
+<header><div class="small">CATO · LOCAL REHEARSAL</div><h1>Decisions that stay saved</h1><p>Try a fictional answer, condition, deferral or task report. Saved responses survive a restart on this computer. Nothing here is a real ruling or sent to PROME.</p><a href="/comparison" target="_blank" rel="noopener">Open the completed three-record comparison</a></header>
+<p id="status" role="status" aria-live="polite">Loading source…</p>
+<div class="layout"><nav id="nav" aria-label="Work views"></nav><main id="main"></main></div>
+<dialog id="review" aria-labelledby="review-title"><h2 id="review-title">Review this fictional response</h2><div id="review-body"></div><p id="review-status" role="status"></p><div class="actions"><button id="cancel">Keep editing</button><button class="primary" id="save">Save rehearsal response</button></div></dialog>
+<script>
+const capability=__CAPABILITY__;
+let model=null,view='Decisions',drafts={},pending=null,busy=false;
+const groups=['Decisions','Tasks for me','Follow-through','History'];
+const el=id=>document.getElementById(id);
+function node(tag,text,parent,cls){const e=document.createElement(tag);if(text!==null)e.textContent=text;if(cls)e.className=cls;if(parent)parent.append(e);return e;}
+async function api(path,body){const options=body?{method:'POST',headers:{'Content-Type':'application/json','X-Decisions-Session':capability},body:JSON.stringify(body)}:{};const response=await fetch(path,options);const result=await response.json();if(!response.ok)throw new Error(result.error||'Request failed');return result;}
+function latest(id){const head=model.responses.heads[id];return model.responses.events.find(e=>e.id===head);}
+function entries(){return groups.flatMap(group=>model.groups[group].map(entry=>({...entry,group:latest(entry.unit.id)?'Follow-through':group})));}
+function draft(unit){return drafts[unit.id]||(drafts[unit.id]={action:unit.kind==='hands'?'report_done':'choose',choice_id:unit.proposal.choices[0]?.id||null,note:'',revisit:''});}
+function input(label,tag,value,parent,change){const wrapper=node('label',label,parent);const control=node(tag,null,wrapper);control.value=value;control.addEventListener('input',()=>change(control.value));return control;}
+function render(){
+ el('nav').replaceChildren();el('main').replaceChildren();const list=entries();
+ for(const group of groups){const b=node('button',group+' · '+list.filter(e=>e.group===group).length,el('nav'));b.setAttribute('aria-pressed',String(group===view));b.onclick=()=>{view=group;render();};}
+ const refresh=node('button','Refresh saved state',el('nav'));refresh.onclick=()=>load();
+ const visible=list.filter(e=>e.group===view);if(!visible.length)node('p','Nothing in this view in the fictional rehearsal.',el('main'));
+ for(const entry of visible){const u=entry.unit,p=u.proposal,a=node('article',null,el('main'));a.dataset.unit=u.id;
+  node('div',u.id+' · fictional',a,'small');node('h2',p.question,a);node('p',p.context,a);
+  node('p','Recommendation: '+p.recommendation.reason,a);
+  for(const c of p.caveats)node('p',c,a,'notice');
+  if(u.timing.needed_by)node('p',u.timing.needed_by+' — '+u.timing.meaning,a);
+  if(u.timing.revisit_condition)node('p','Return condition: '+u.timing.revisit_condition,a);
+  for(const c of p.choices){node('h3',c.id+' · '+c.label,a);node('p',c.meaning,a);node('p',c.consequence,a);}
+  const previous=latest(u.id);
+  if(previous){const r=previous.request;node('h3','Saved locally · fictional response',a);node('p',r.action+(previous.selected_choice?' — '+previous.selected_choice.label:''),a);node('pre',r.note,a);if(r.revisit)node('p','Return: '+r.revisit,a);node('p',previous.saved_at+' · '+previous.id,a,'small');
+   const receipt=model.responses.receipts[previous.id];node('p',receipt?'Simulated receiver: '+receipt.state+' — '+receipt.reference:'No receiver acknowledgment. No delivery or completed work established.',a,'notice');
+   const history=node('details',null,a);node('summary','Preserved response history',history);for(const event of model.responses.events.filter(e=>e.request.unit_id===u.id))node('pre',JSON.stringify(event,null,2),history);
+  }
+  const original=node('details',null,a);node('summary','Full source record retained with your response',original);node('pre',JSON.stringify(model.snapshot.record,null,2),original);
+  if(!['awaiting_answer','outstanding'].includes(u.disposition.state)){node('p','Reference only. No answer requested.',a);continue;}
+  const d=draft(u),form=node('div',null,a);node('h3',previous?'Revise the fictional response':'Your fictional response',form);
+  const actionLabel=node('label','Action',form),select=node('select',null,actionLabel);
+  const actions=u.kind==='decision'?{choose:'Choose an option',defer:'Leave for later',request_changes:'Ask a question or request changes'}:{report_done:'Report task done',defer:'Leave for later',request_changes:'Ask a question or request changes'};
+  for(const [value,label] of Object.entries(actions)){const option=node('option',label,select);option.value=value;}select.value=d.action;select.onchange=()=>{d.action=select.value;render();};
+  if(d.action==='choose'){const label=node('label','Choice',form),choices=node('select',null,label);for(const c of p.choices){const option=node('option',c.id+' · '+c.label,choices);option.value=c.id;}choices.value=d.choice_id;choices.onchange=()=>d.choice_id=choices.value;}
+  input('Your exact words / conditions','textarea',d.note,form,value=>d.note=value);
+  if(d.action==='defer')input('When or under what condition to return (optional)','input',d.revisit,form,value=>d.revisit=value);
+  const button=node('button','Review response',form);button.style.marginTop='16px';button.onclick=()=>review(u,d,previous);
+ }
+}
+function review(unit,d,previous){
+ pending={id:crypto.randomUUID().replaceAll('-',''),display_hash:model.hash,unit_id:unit.id,action:d.action,choice_id:d.action==='choose'?d.choice_id:null,note:d.note,revisit:d.action==='defer'?d.revisit:'',supersedes:previous?.id||null};
+ const body=el('review-body');body.replaceChildren();node('h3',unit.proposal.question,body);
+ const choice=unit.proposal.choices.find(c=>c.id===pending.choice_id);node('p',pending.action,body);
+ if(choice){node('h3',choice.id+' · '+choice.label,body);node('p',choice.meaning,body);node('p',choice.consequence,body);}
+ node('pre',pending.note,body);if(pending.revisit)node('p','Return: '+pending.revisit,body);
+ node('p','This response concerns only '+unit.id+'. '+(previous?'It links to and preserves your previous response.':'No other unit is answered.'),body);
+ el('review-status').textContent='';el('review').showModal();
+}
+async function load(){try{const loaded=await api('/api/display');model=loaded;render();el('status').textContent='Fictional source loaded. Local saves are not PROME receipt or Git synchronization.';}catch(error){el('status').textContent=error.message;el('main').replaceChildren();el('nav').replaceChildren();model=null;const retry=node('button','Retry source read',el('nav'));retry.onclick=()=>load();}}
+el('cancel').onclick=()=>{if(!busy){el('review').close();pending=null;}};
+el('review').addEventListener('cancel',event=>{if(busy)event.preventDefault();});
+el('save').onclick=async()=>{if(busy||!pending)return;busy=true;el('save').disabled=true;el('cancel').disabled=true;try{await api('/api/responses',pending);delete drafts[pending.unit_id];el('review').close();pending=null;view='Follow-through';await load();}catch(error){el('review-status').textContent=error.message+' Your draft is retained; an unchanged retry uses the same response ID.';}finally{busy=false;el('save').disabled=false;el('cancel').disabled=false;}};
+load();
+</script></body></html>

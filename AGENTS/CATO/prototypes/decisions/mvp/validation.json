@@ -1,0 +1,105 @@
+{
+  "kind": "synthetic MVP author browser checks; not live adoption or laptop acceptance",
+  "runs": {
+    "desktop": {
+      "returncode": 0,
+      "checks": [
+        {
+          "name": "Source and all four views load",
+          "pass": true
+        },
+        {
+          "name": "Review cancel preserves exact condition and saves nothing",
+          "pass": true
+        },
+        {
+          "name": "Failed source read stays explicit and retry preserves the draft",
+          "pass": true
+        },
+        {
+          "name": "Save binds one unit and appears as locally saved only",
+          "pass": true
+        },
+        {
+          "name": "Refresh recovers saved answer from backend",
+          "pass": true
+        },
+        {
+          "name": "Question cannot save without words and keeps draft",
+          "pass": true
+        },
+        {
+          "name": "Deferral preserves return condition and prior answer",
+          "pass": true
+        },
+        {
+          "name": "Personal task report does not create approval or receipt",
+          "pass": true
+        },
+        {
+          "name": "History remains readable without response controls",
+          "pass": true
+        },
+        {
+          "name": "Layout fits viewport with saved conditions",
+          "pass": true
+        }
+      ],
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-achxf4gc/desktop.png"
+    },
+    "narrow": {
+      "returncode": 0,
+      "checks": [
+        {
+          "name": "Source and all four views load",
+          "pass": true
+        },
+        {
+          "name": "Review cancel preserves exact condition and saves nothing",
+          "pass": true
+        },
+        {
+          "name": "Failed source read stays explicit and retry preserves the draft",
+          "pass": true
+        },
+        {
+          "name": "Save binds one unit and appears as locally saved only",
+          "pass": true
+        },
+        {
+          "name": "Refresh recovers saved answer from backend",
+          "pass": true
+        },
+        {
+          "name": "Question cannot save without words and keeps draft",
+          "pass": true
+        },
+        {
+          "name": "Deferral preserves return condition and prior answer",
+          "pass": true
+        },
+        {
+          "name": "Personal task report does not create approval or receipt",
+          "pass": true
+        },
+        {
+          "name": "History remains readable without response controls",
+          "pass": true
+        },
+        {
+          "name": "Layout fits viewport with saved conditions",
+          "pass": true
+        }
+      ],
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-achxf4gc/narrow.png"
+    }
+  },
+  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-mvp-achxf4gc",
+  "hashes": {
+    "store.py": "cb285024de2e7d15b762dca1627d0386c1aba92b5234ae2dafa328e6768def0a",
+    "server.py": "e236056ac749468a84822af974ab0ee830d0dccbe4ded2b45556e62ab8bde2fd",
+    "index.html": "af4f45f3c1b5b8364fe328967430da53aacbcbdad1d9d42a0abece9654769f37",
+    "test_mvp.py": "83940a2b81800c80e73b5152bb0d65fad51e646dbf9343809a3d33f94563a7fb",
+    "test_browser.py": "4c11d33f523c1f32b98a699e59ce7853458f80a1b1e3623c24ff2831ba15d6fe"
+  }
+}
