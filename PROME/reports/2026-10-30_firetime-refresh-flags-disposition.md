@@ -1,0 +1,11 @@
+# October30 Friday refresh fire-time dispositions
+
+Owner: PROME (session prome-a9, Claude Code, Fable 5.1, laptop; day-boundary refresh of run directory `/tmp/prome-boot-20261029-2045`, refresh `refresh-m9fv19hc`, 09:0x ET Fri 2026-10-30). Gate line: 65 flags, 3 NEW, 62 persisting (earlier receipts named on the gate line), 3 dispositioned flags no longer reported (PRUNED by `firetime_delta.py --prune`, 09:0x ET). Each NEW flag below was read at its artifact in full context before disposition (WQ-467 C4). Recorded 2026-10-30 09:07 ET.
+
+| Source and flag | Disposition and evidence |
+|---|---|
+| `AGENTS/GIBBS/research/2026-10-21_five-things-regional-question.md` — DEAD POINTER `reports/2026-10-20_reported-bank-earnings-catchup.md` (line 3) | DONE, benign: the sentence reads *"Regional comparator: REGINALD `reports/2026-10-20_reported-bank-earnings-catchup.md`"* — a desk-relative path qualified by the desk name in the same sentence; the file exists at `AGENTS/REGINALD/reports/2026-10-20_reported-bank-earnings-catchup.md`. Allowlist row added (expires 2027-01-20) with the resolution written in its note; no owner packet — a cosmetic qualification on a Tier-2 desk's 10/21 research note does not earn a wake (GIBBS is told at its next PROME brief). |
+| `AGENTS/MIDAS/gold/research/2026-10-23_WQ451-decomposition-letter.md` — DATE DRIFT "2027-01-20" (line 62) | DONE, true date, full read of the line: *"It called one month (to 11/20) neutral to slightly lower and three months (to 2027-01-20) modestly higher"* — the three-month horizon of MIDAS's 10/20 outlook, a prose forecast horizon, not a catalyst row or a mis-typed date (10/20 + 3 months = 1/20). Allowlist row added (expires 2027-01-21, the day after the horizon). |
+| `AGENTS/CARL/research/2026-10-26_L786/RESULT.md` — DEAD POINTER `memory/threshold` (line 17) | DONE, NOT A PATH: *"No new memory lesson or superseded threshold required a memory/threshold propagation mutation"* — the slash joins two nouns (memory-or-threshold), the same class as the allowlisted `PROME/coordinator` prose (OSPREY row). Allowlist row added (expires 2027-01-20). |
+
+Accept: `python3 PROME/tools/firetime_delta.py --log <refresh check 04> --accept --pointer PROME/reports/2026-10-30_firetime-refresh-flags-disposition.md` after this record; `PROME/state/firetime_dispositioned.tsv` committed with it.
