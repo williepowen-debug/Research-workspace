@@ -1,0 +1,124 @@
+{
+  "kind": "Draft schema author checks; no live renderer or owner mapping acceptance",
+  "schema_version": "wq-record/0.1-draft",
+  "jsonschema_version": "4.10.3",
+  "validator": "Draft202012Validator with FormatChecker",
+  "sha256": {
+    "record.schema.json": "ec293e5b76104a8009878337d9ab26df8a0b5288e71b9366eff79a8e870b5742",
+    "example.json": "482126a296f8823b4adcd1cf1f4093632443edd2a0a669ec28b2d9029550ad4c",
+    "example-source.md": "d29bcbe7cb521a6ef1a4d1447b47b6b5d951fb89d82b82ee6c0f882ba4733103"
+  },
+  "checks": [
+    {
+      "name": "Schema is valid for its declared dialect",
+      "pass": true
+    },
+    {
+      "name": "Fictional example has valid shape",
+      "expected_valid": true,
+      "actual_valid": true,
+      "pass": true
+    },
+    {
+      "name": "A personal task cannot be approved",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "A receipt cannot carry decision choices",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Approved decision requires a ruling object",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Deferred decision requires a ruling object",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Requesting changes is distinct from approval",
+      "expected_valid": true,
+      "actual_valid": true,
+      "pass": true
+    },
+    {
+      "name": "Unknown historical snapshot and time are representable",
+      "expected_valid": true,
+      "actual_valid": true,
+      "pass": true
+    },
+    {
+      "name": "Exact snapshot cannot omit answered revision",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Exact snapshot cannot omit proposal source references",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Missing choices need an explicit withholding reason",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Unknown fields are rejected, not silently discarded",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Invalid calendar date is rejected with format checking",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Production mode is outside this draft dialect",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Choosing a recommendation requires an option ID",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Long original ruling text has no schema truncation cap",
+      "expected_valid": true,
+      "actual_valid": true,
+      "pass": true
+    },
+    {
+      "name": "Ruling must explicitly represent its conditions",
+      "expected_valid": false,
+      "actual_valid": false,
+      "pass": true
+    },
+    {
+      "name": "Fictional example IDs, references and local source resolve",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Real WQ mappings remain PROME work.",
+    "No queue renderer, app reader or response intake implemented.",
+    "Schema shape does not authenticate a ruling or prove source truth.",
+    "General semantic/reference/path-boundary validation remains an acceptance requirement."
+  ],
+  "temporary_harness": "/tmp/cato-wq-schema-check.py"
+}

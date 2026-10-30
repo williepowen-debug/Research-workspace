@@ -1,6 +1,6 @@
 # Decisions — first design preview
 
-**October 30, 2026.** Will authorized proceeding with the proposed mockup and workflow. This is a local, non-operational prototype, not a live decision intake system. Desktop/laptop use is the initial assumption; phone access has not been selected. CATO owns this preview. PROME's authority, records and paused Decision Deck are unchanged.
+**October 30, 2026.** Will authorized the mockup/workflow, liked the preview and subsequently selected desktop/laptop only; decisions, personal tasks and follow-through; and choices, defer and free-text requests for changes. This is a local, non-operational prototype. The subsequent [source-record draft](record-draft/README.md) is ready for PROME's three example mappings. CATO owns these design artifacts. PROME's live authority and paused Decision Deck remain unchanged.
 
 Open [index.html](index.html) in a browser. [Screenshot](preview.png) · [author-check receipt](validation.json) · [workflow investigation](../../runs/2026-10-30_1059_wq-decision-workflow.md).
 
@@ -36,7 +36,7 @@ Deferred and question-pending items retain their specific unresolved status. The
 
 Lead with the question, recommendation and consequences. Keep a material caveat visible; expansion is for depth, not a place to hide a qualification. Original proposal text and later corrections remain available. Display genuine dates with their meaning rather than converting every due date into urgency. HANDS reminder policy remains the existing one.
 
-Use explicit choices for each decision part. Preserve option letters, text and consequences together. A free-text question or condition must not be reduced to a yes/no token. Provide one review step showing only the parts actually answered, the exact choice and the exact note. No bulk-approve-all control is proposed. In the mockup, question/defer acts concern the selected item; fine-grained question/defer scope and revisit-date entry remain to be specified for live intake.
+Use explicit choices for each decision part. Preserve option letters, text and consequences together. A free-text question or condition must not be reduced to a yes/no token. Provide one review step showing only the parts actually answered, the exact choice and the exact note. No bulk-approve-all control is proposed. In the mockup, question/defer acts concern the selected item; the subsequent record draft requires explicit unit scope for future responses. Revisit-date entry remains to be designed for live intake.
 
 ## Proposed workflow contract — not installed
 
@@ -54,7 +54,7 @@ flowchart LR
 
 ### 1. Proposal production: one place to write the meaning
 
-PROME retains WQ numbering, the live queue and ruling integration; domain owners retain their evidence. Introduce an explicit versioned decision description as part of the existing proposal workflow, rather than maintaining a second hand-written explainer for the app. A structured section in the existing proposal record is the starting candidate. Its exact home, writer and relationship to the queue require PROME-facing implementation scope before integration.
+PROME retains WQ numbering and ruling integration; domain owners retain their evidence. The proposed structured record becomes the authored source for both the generated Markdown queue row and app view. PROME agreed this is necessary to avoid another separately maintained explainer. The [draft contract](record-draft/README.md) specifies a JSON block in an existing proposal/record and separate unit states. The current queue remains authoritative throughout the copy-based demonstration; changing that authority requires Will to see the comparison and approve bounded adoption.
 
 The proposed description includes: WQ identifier; stable part identifiers; decision versus hands-task versus receipt classification; question and scope; option labels, text and consequences; recommendation; visible caveats; source references; dates and their meaning; owner; and a revision of the semantic content. The queue remains the live operator register. A deterministic reader/export should connect the two; it must report disagreement rather than choose the convenient copy.
 
@@ -84,17 +84,17 @@ Distinguish **saved on this computer**, **available to PROME**, **acknowledged**
 
 The production plan must specify the durable response store, who includes responses in authorized Git delivery (if Git is selected), any private-data boundary, receipts and failure recovery. The app must not pull/stash over other agents' work. Ordinary source refresh rereads files; it is not an automatic Git operation. Until delivery is verified, retain a visible pending state and a recoverable response. Offline reading can expose the last available snapshot with its age, never a claim of current remote state.
 
-Phone access would add a reachable authenticated service and a defined synchronization policy. A narrower layout alone does not provide those capabilities. No hosting, always-on receiver, notifications or recurring job is part of this prototype.
+Will selected desktop/laptop only for the first version. Phone access is outside that scope; a narrower layout alone does not provide a reachable authenticated service or synchronization. No hosting, always-on receiver, notifications or recurring job is part of this prototype.
 
 ## Bounded implementation sequence after design review
 
-1. **Confirm the interaction and first-use scope.** Will tries the six sample scenarios. Settle whether the views, reading density, partial answers and review step feel useful. Device choice remains open. Exit: a concrete UI direction and a bounded live integration scope.
+1. **Confirm the interaction and source contract.** Will likes the mockup and has settled first-version device/view/response preferences. CATO's source-record draft is delivered; PROME next supplies copies of 495, 551 and 552 with expected meanings/output. Compare those to generated queue/app views before moving source authority. Exit: preserved meaning in the three cases and a bounded live integration scope.
 2. **Implement the source reader/export.** PROME's producer contract and CATO's app reader agree on state and exact terms. Read-only production data first; uncertain legacy rows are explicit. Exit: representative simple, mixed, partial, settled, corrected, empty and unreadable cases display accurately without sends.
 3. **Implement response persistence and intake together.** Choose storage, identity, ownership, delivery and acknowledgment. Exit: a test response survives restart, is accepted once, preserves conditions and produces a truthful receipt; stale/conflicting proposals cannot silently authorize different work.
 4. **Verify the full path on both computers.** Cover interrupted saves, repeated delivery, simultaneous source edits and machine switching under the existing Git rules. Independent review applies to the consequential live integration under the relevant owner instructions. Exit: observed end-to-end behavior, plus explicit untested limits.
 5. **Use it for ordinary decisions.** Begin with a few appropriate real decisions under the approved rollout scope. Check whether it reduces repeated explanations and whether PROME can consume responses without manual presentation upkeep. Expand only from that experience; no new timing study or recurring audit is implied.
 
-The current authorization delivers step 1's reviewable mockup and this workflow proposal. It does not select the production contract, authorize owner edits or activate live submissions.
+The delivered scope now includes the mockup, workflow proposal and source-record schema draft. Real owner mappings and the generated-view comparison remain pending. No owner edits, authority transfer or live submissions have been activated.
 
 ## Author validation
 

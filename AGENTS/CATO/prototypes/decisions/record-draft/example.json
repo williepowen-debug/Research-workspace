@@ -1,0 +1,80 @@
+{
+  "schema_version": "wq-record/0.1-draft",
+  "mode": "design-copy",
+  "wq_id": "DEMO-900",
+  "title": "Fictional reader, document task and prior receipt",
+  "record_revision": 1,
+  "registered_on": "2026-10-30",
+  "sources": [
+    {
+      "id": "fictional-source",
+      "path": "AGENTS/CATO/prototypes/decisions/record-draft/example-source.md",
+      "commit": null,
+      "locator": "Sections DEMO-900.READER, FILE and RECEIPT",
+      "description": "Invented design material; working-copy source, no real ruling or obligation."
+    }
+  ],
+  "units": [
+    {
+      "id": "DEMO-900.READER",
+      "kind": "decision",
+      "proposer": "FICTIONAL-DESK",
+      "proposal": {
+        "revision": 1,
+        "question": "Keep the fictional document reader after the one-off exercise?",
+        "context": "The existing reader could be reused without another discovery pass.",
+        "choices": [
+          {"id": "A", "label": "Keep the reader", "meaning": "Retain it with a short usage note and one selftest.", "consequence": "A reusable tool is kept. No schedule or unattended run.", "outcome": "approve"},
+          {"id": "B", "label": "Keep it as a one-off", "meaning": "Retain the evidence and do not maintain a reusable tool.", "consequence": "No reusable-tool maintenance is assigned.", "outcome": "decline"}
+        ],
+        "recommendation": {"action": "choose", "option_id": "A", "reason": "Reuse the existing reader without another discovery pass."},
+        "caveats": ["Coverage is limited to the sample document format."],
+        "source_ids": ["fictional-source"],
+        "submission_block_reason": "Fictional design example; no live responses."
+      },
+      "timing": {"needed_by": null, "meaning": null, "revisit_on": null, "revisit_condition": null},
+      "disposition": {"state": "awaiting_answer", "basis": "The fictional source contains no answer.", "source_ids": ["fictional-source"], "ruling": null},
+      "follow_through": [],
+      "supersedes_unit_id": null
+    },
+    {
+      "id": "DEMO-900.FILE",
+      "kind": "hands",
+      "proposer": "FICTIONAL-DESK",
+      "proposal": {
+        "revision": 1,
+        "question": "Provide the fictional source document.",
+        "context": "Will can supply it through the existing workspace handoff for a comparison.",
+        "choices": [],
+        "recommendation": {"action": "none", "option_id": null, "reason": "A personal action is outstanding, not an approval decision."},
+        "caveats": ["This example is not permission to upload or transmit a real document."],
+        "source_ids": ["fictional-source"],
+        "submission_block_reason": "Fictional design example; no live task reporting."
+      },
+      "timing": {"needed_by": "2026-11-05", "meaning": "Document needed for the fictional comparison.", "revisit_on": null, "revisit_condition": null},
+      "disposition": {"state": "outstanding", "basis": "No completion has been reported in the fictional source.", "source_ids": ["fictional-source"], "ruling": null},
+      "follow_through": [],
+      "supersedes_unit_id": null
+    },
+    {
+      "id": "DEMO-900.RECEIPT",
+      "kind": "receipt",
+      "proposer": "FICTIONAL-DESK",
+      "proposal": {
+        "revision": 1,
+        "question": "Record the fictional previous naming decision.",
+        "context": "Informational receipt only; no new answer or follow-through is requested.",
+        "choices": [],
+        "recommendation": {"action": "none", "option_id": null, "reason": "This item records information and asks no new question."},
+        "caveats": ["Not evidence that Will gave a real ruling."],
+        "source_ids": ["fictional-source"],
+        "submission_block_reason": "Receipt only; no approval controls."
+      },
+      "timing": {"needed_by": null, "meaning": null, "revisit_on": null, "revisit_condition": null},
+      "disposition": {"state": "recorded", "basis": "The fictional source explicitly describes an informational receipt.", "source_ids": ["fictional-source"], "ruling": null},
+      "follow_through": [],
+      "supersedes_unit_id": null
+    }
+  ],
+  "corrections": []
+}

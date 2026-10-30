@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WQ source record, design-copy dialect 0.1",
+  "description": "Draft structure only. A valid document is not a Will ruling, source verification, or permission to migrate the live queue.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "mode", "wq_id", "title", "record_revision", "registered_on", "sources", "units", "corrections"],
+  "properties": {
+    "schema_version": {"const": "wq-record/0.1-draft"},
+    "mode": {"const": "design-copy"},
+    "wq_id": {"type": "string", "pattern": "^(?:[1-9][0-9]*[a-z]?|DEMO-[1-9][0-9]*)$"},
+    "title": {"$ref": "#/$defs/text"},
+    "record_revision": {"type": "integer", "minimum": 1},
+    "registered_on": {"$ref": "#/$defs/dateOrNull"},
+    "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source"}},
+    "units": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/unit"}},
+    "corrections": {"type": "array", "items": {"$ref": "#/$defs/correction"}}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "id": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"},
+    "unitId": {"type": "string", "pattern": "^(?:[1-9][0-9]*[a-z]?|DEMO-[1-9][0-9]*)\\.[A-Z][A-Z0-9_]*$"},
+    "textOrNull": {"anyOf": [{"$ref": "#/$defs/text"}, {"type": "null"}]},
+    "dateOrNull": {"anyOf": [{"type": "string", "format": "date"}, {"type": "null"}]},
+    "idOrNull": {"anyOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
+    "sourceIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+    "texts": {"type": "array", "items": {"$ref": "#/$defs/text"}},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "path", "commit", "locator", "description"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "path": {"$ref": "#/$defs/text"},
+        "commit": {"anyOf": [{"type": "string", "pattern": "^[0-9a-f]{40}$"}, {"type": "null"}]},
+        "locator": {"$ref": "#/$defs/text"},
+        "description": {"$ref": "#/$defs/text"}
+      }
+    },
+    "choice": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "label", "meaning", "consequence", "outcome"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "label": {"$ref": "#/$defs/text"},
+        "meaning": {"$ref": "#/$defs/text"},
+        "consequence": {"$ref": "#/$defs/text"},
+        "outcome": {"enum": ["approve", "decline", "defer", "other"]}
+      }
+    },
+    "recommendation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["action", "option_id", "reason"],
+      "properties": {
+        "action": {"enum": ["choose", "defer", "none"]},
+        "option_id": {"$ref": "#/$defs/idOrNull"},
+        "reason": {"$ref": "#/$defs/text"}
+      },
+      "allOf": [{
+        "if": {"properties": {"action": {"const": "choose"}}},
+        "then": {"properties": {"option_id": {"$ref": "#/$defs/id"}}},
+        "else": {"properties": {"option_id": {"type": "null"}}}
+      }]
+    },
+    "proposal": {
+      "type": "object", "additionalProperties": false,
+      "required": ["revision", "question", "context", "choices", "recommendation", "caveats", "source_ids", "submission_block_reason"],
+      "properties": {
+        "revision": {"type": "integer", "minimum": 1},
+        "question": {"$ref": "#/$defs/text"},
+        "context": {"$ref": "#/$defs/text"},
+        "choices": {"type": "array", "items": {"$ref": "#/$defs/choice"}},
+        "recommendation": {"$ref": "#/$defs/recommendation"},
+        "caveats": {"$ref": "#/$defs/texts"},
+        "source_ids": {"$ref": "#/$defs/sourceIds"},
+        "submission_block_reason": {"$ref": "#/$defs/textOrNull"}
+      }
+    },
+    "timing": {
+      "type": "object", "additionalProperties": false,
+      "required": ["needed_by", "meaning", "revisit_on", "revisit_condition"],
+      "properties": {
+        "needed_by": {"$ref": "#/$defs/dateOrNull"},
+        "meaning": {"$ref": "#/$defs/textOrNull"},
+        "revisit_on": {"$ref": "#/$defs/dateOrNull"},
+        "revisit_condition": {"$ref": "#/$defs/textOrNull"}
+      },
+      "allOf": [{
+        "if": {"properties": {"needed_by": {"type": "string"}}},
+        "then": {"properties": {"meaning": {"$ref": "#/$defs/text"}}}
+      }]
+    },
+    "ruling": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "verbatim", "as_recorded_at", "answered_proposal_revision", "selected_option_id", "proposal_source_ids", "snapshot_quality", "conditions"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/id"},
+        "verbatim": {"$ref": "#/$defs/text"},
+        "as_recorded_at": {"$ref": "#/$defs/textOrNull"},
+        "answered_proposal_revision": {"anyOf": [{"type": "integer", "minimum": 1}, {"type": "null"}]},
+        "selected_option_id": {"$ref": "#/$defs/idOrNull"},
+        "proposal_source_ids": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+        "snapshot_quality": {"enum": ["exact", "reconstructed", "unavailable"]},
+        "conditions": {"$ref": "#/$defs/texts"}
+      },
+      "allOf": [{
+        "if": {"properties": {"snapshot_quality": {"const": "exact"}}},
+        "then": {"properties": {"answered_proposal_revision": {"type": "integer", "minimum": 1}, "proposal_source_ids": {"minItems": 1}}}
+      }]
+    },
+    "disposition": {
+      "type": "object", "additionalProperties": false,
+      "required": ["state", "basis", "source_ids", "ruling"],
+      "properties": {
+        "state": {"enum": ["awaiting_answer", "approved", "declined", "deferred", "changes_requested", "withdrawn", "superseded", "unknown", "outstanding", "reported_done", "confirmed_done", "cancelled", "recorded"]},
+        "basis": {"$ref": "#/$defs/text"},
+        "source_ids": {"$ref": "#/$defs/sourceIds"},
+        "ruling": {"anyOf": [{"$ref": "#/$defs/ruling"}, {"type": "null"}]}
+      }
+    },
+    "followThrough": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "key"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/id"},
+        "key": {"$ref": "#/$defs/text"}
+      }
+    },
+    "unit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "kind", "proposer", "proposal", "timing", "disposition", "follow_through", "supersedes_unit_id"],
+      "properties": {
+        "id": {"$ref": "#/$defs/unitId"},
+        "kind": {"enum": ["decision", "hands", "receipt"]},
+        "proposer": {"$ref": "#/$defs/text"},
+        "proposal": {"$ref": "#/$defs/proposal"},
+        "timing": {"$ref": "#/$defs/timing"},
+        "disposition": {"$ref": "#/$defs/disposition"},
+        "follow_through": {"type": "array", "items": {"$ref": "#/$defs/followThrough"}},
+        "supersedes_unit_id": {"anyOf": [{"$ref": "#/$defs/unitId"}, {"type": "null"}]}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"kind": {"const": "decision"}}},
+          "then": {
+            "properties": {"disposition": {"properties": {"state": {"enum": ["awaiting_answer", "approved", "declined", "deferred", "changes_requested", "withdrawn", "superseded", "unknown"]}}}},
+            "allOf": [
+              {
+                "if": {"properties": {"disposition": {"properties": {"state": {"enum": ["approved", "declined", "deferred"]}}}}},
+                "then": {"properties": {"disposition": {"properties": {"ruling": {"$ref": "#/$defs/ruling"}}}}}
+              },
+              {
+                "if": {"properties": {"disposition": {"properties": {"state": {"const": "awaiting_answer"}}}, "proposal": {"properties": {"choices": {"maxItems": 0}}}}},
+                "then": {"properties": {"proposal": {"properties": {"submission_block_reason": {"$ref": "#/$defs/text"}}}}}
+              }
+            ]
+          },
+          "else": {"properties": {"proposal": {"properties": {"choices": {"maxItems": 0}, "recommendation": {"properties": {"action": {"const": "none"}, "option_id": {"type": "null"}}}}}, "disposition": {"properties": {"ruling": {"type": "null"}}}}}
+        },
+        {
+          "if": {"properties": {"kind": {"const": "hands"}}},
+          "then": {"properties": {"disposition": {"properties": {"state": {"enum": ["outstanding", "reported_done", "confirmed_done", "cancelled", "superseded", "unknown"]}}}}}
+        },
+        {
+          "if": {"properties": {"kind": {"const": "receipt"}}},
+          "then": {"properties": {"disposition": {"properties": {"state": {"enum": ["recorded", "superseded", "unknown"]}}}}}
+        }
+      ]
+    },
+    "correction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "affected_unit_ids", "summary"],
+      "properties": {
+        "source_id": {"$ref": "#/$defs/id"},
+        "affected_unit_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/unitId"}},
+        "summary": {"$ref": "#/$defs/text"}
+      }
+    }
+  }
+}
