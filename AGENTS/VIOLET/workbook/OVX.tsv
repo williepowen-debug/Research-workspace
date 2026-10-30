@@ -50,3 +50,4 @@ date	ovx	vix	gap	ratio	ovx_pctile	ratio_pctile	gap_pctile	p90_ratio	p95_ratio	p7
 2026-10-27	55.44	17.52	37.92	3.16	92.4	93.1	93.8	3.01	3.31	43.14	52.94	WATCH	BACKFILL 10/29 from Cboe OVX/VIX_History.csv, as-of-date window (no later data)	2026-10-29T18:55:26+00:00
 2026-10-28	58.59	16.91	41.68	3.46	94.1	96.5	95.4	3.01	3.31	43.16	53.03	FIRE	BACKFILL 10/29 from Cboe OVX/VIX_History.csv, as-of-date window (no later data)	2026-10-29T18:55:26+00:00
 2026-10-29	56.32	16.97	39.35	3.32	91.1	95.8	94.6	2.95	3.24	44.81	54.84	FIRE	-	2026-10-29T18:52:48+00:00
+2026-10-30	59.79	19.9	39.89	3.0	92.6	91.0	94.8	2.95	3.24	44.82	54.88	WATCH	-	2026-10-30T16:53:08+00:00

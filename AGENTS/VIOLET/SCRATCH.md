@@ -1,47 +1,39 @@
 # VIOLET — session handoff
 
-**As of:** October 29, 2026 14:59 ET (from `date`). PROME-assigned catch-up (prome-5c, Will 14:52 ET), Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.4; **convergence 32/50** (prior 30/50, KB-VIO-358).
+**As of:** October 30, 2026 12:58 ET (from `date`). PROME WQ-184 due-row wake (prome-c5, BOJ CATALYSTS row), Claude Code, Opus 5.5. Bounded session; canonical numbers: [STATUS](STATUS.md). Thesis v4.1.4; convergence **32/50, not re-scored** (intraday ticks are not scored).
 
-## CHANGES SINCE (10/21 22:16 ET → 10/29 14:51 ET; desk dark 10/22–10/28)
+## CHANGES SINCE (10/29 14:59 ET → 10/30 12:52 ET)
 
-- 10/22–10/23 AI/semis selloff (SOX −6.72%, Meta CDS at a record): VIX 16.68 → 19.03 → **19.45** [10/23 peak, under 20], VVIX peak 109.70, VX/X6 above VX/Z6 (−0.770% / −0.601%). Cash VIX3M/VIX never below 1.053.
-- Unwind 10/26–10/28: VIX 16.91, VVIX 96.61, 3M/VIX 1.1366, M1:M2 +0.952% [10/28].
-- FOMC 10/28 held at 3.75–4.00%, 10–2 with two dissents for a hike; vol was sold (VIX −3.48%, MOVE 97.87 → 94.55).
-- SKEW ≥150 run ended at 12 closes (10/09–10/26); 149.22 [10/27] and 148.74 [10/28]. **RED FT-10 still FIRING** (exit is <140 ×4).
-- OVX/VIX canary: WATCH 10/23, 10/26, 10/27 → **FIRE 10/28** (3.46, p96.5).
-- CFTC 10/20: speculators flipped from EXTREME_LONG (+1,105) to NORMAL (−20,890, p59).
-- HY 340 [10/22] → 314 [10/28] (FRED); CCC 13.07%. HENRY gamma: NEG 10/22 → POSITIVE both horizons at the 10/28 close (flips ~7,734/7,738); the 7,650 wall broke on 10/23.
-- 10/29: GDP/PCE; Alphabet −12.75% (vendor intraday); VIX tick 17.05. AMZN/AAPL report after the close.
+- BOJ held at 1.25%, 8–1 (Takata for a hike); ETF sales pace to ~¥860B/yr book from Jan 2027 (BOJ `k261030a.pdf`). SAM owns substance.
+- Official 10/29 Cboe closes: VIX 17.20, VVIX 98.01, SKEW 151.03, 3M/VIX 1.1262; OVX/VIX 57.16/17.20 = 3.32 FIRE.
+- HENRY: gamma NEGATIVE both horizons at the 10/29 close (flips ~7,739/~7,741), 7,700 put wall held (SIG-W-20261029-053). AMZN −7% after hours 10/29 (SIG-W-20261029-050).
+- ⚠️ **10/30 INTRADAY (12:52–12:55 ET):** VIX 19.96–20.00 (+16%), VVIX 111.81, VIX3M/VIX 1.049, VIX9D 19.43, COR1M 14.40, OVX/VIX 3.0 WATCH; SPX 7,598.51 (−1.58%), QQQ −3.52%. TICK row classes RISING_VOL.
 
 ## WHAT I DID
 
-- Booted on live data; no pull needed (HEAD = origin/master after fetch); CATO/WALTER dirty files untouched.
-- Backfilled VX_DAILY 10/22–10/28 from Cboe (5 rows SETTLE, 0 corrections) plus the X6/Z6 settle slope from the Cboe settlement files (saved under research/2026-10-29_catchup/settle/).
-- Backfilled OVX matched rows 10/19–10/28 and IMPLIED_CORR 10/22–10/28 from Cboe histories (as-of windows); CHEAP_TAIL 10/22–10/28 via `--as-of` against the 10/21 calendar snapshot (DORMANT 2/4 throughout; clears the CANARY_MAP dark-ledger breach).
-- Drained the inbox: 19 WALTER + 3 top-level, logged in board_log.tsv and git-mv'd to processed/. COR-20261022-04 receipted APPLIED.
-- WQ-508 B39: already applied by DAEDALUS 4da79f1ee; verified; no contest; no report-back owed.
-- cheap_tail.py route text now describes the real route (PROME 10/23 ask); no logic change.
-- KB-VIO-355..358; STATUS, CALENDAR, CATALYSTS (FOMC/GDP fired and archived, CPI 11/10 SECONDARY added), NEXUS_BRIEF.
+- **Graded the BOJ row: carry-to-vol CALM, no transmission** (RV10 7.02% p34.5 vs WATCH 14.15%; USDJPY 157.96 → 157.42; decision-window range 0.79 yen; FXY IV/RV 1.66 → 1.61). KB-VIO-360; record `research/2026-10-30_boj-carry-vol/GRADE.md`; row moved to that dir's `catalysts-fired.tsv`; CALENDAR resolved.
+- Settled the 10/29 VX_DAILY row from Cboe (`backfill.py --spot-only`: 5 TICK cells corrected, SETTLE stamped). Owed WQ-545 leg done: official values equal the 10/29 quote read, so no packet. KB-VIO-361.
+- OVX.tsv 10/29 row NOT overwritten: `ovx.py`'s past-dated-row guard refused it (state identical, FIRE; official values in KB-VIO-361).
+- Recorded the 10/30 intraday surface as INTRADAY (KB-VIO-362), not graded.
+- Inbox: SIG-W-20261029-053 acted (STATUS gamma line), board_log + processed/.
 
 ## NEXT SESSION
 
-0. **FIRST LEG (WQ-545 owed, delivered PARTIAL 10/29 16:3x ET):** official 10/29 Cboe finals were unpublished at 16:31 ET. Grade the 10/29 SKEW bar for RED FT-10 and the canary on the official close (quotes: OVX/VIX 3.32 FIRE, VIX 17.20, VVIX 98.01); packet PROME if either differs from the quote read. ⚠️ Cboe CDN now 307-redirects: fetch with redirects followed. KB-VIO-359 corrects KB-VIO-357's novelty framing (canary has fired on 28 days since July, no transmission).
-1. **Official 10/29 closes:** spot SETTLE (backfill.py --spot-only), SKEW bar for RED's FT-10 exit count, and the OVX FIRE re-read.
-2. **BOJ (evening 10/29 ET)** carry-to-vol read; SAM owns substance.
-3. **AMZN/AAPL surface reaction** on the 10/30 close; VULCAN owns substance.
-4. **Election Day 11/03:** check VX/X6 for an event kink over VX/Z6.
-5. Verify payrolls 11/06 and CPI 11/10 at bls.gov (403 again 10/29).
-6. Correlation helper clock-only SETTLE label: bounded repair still owed (not commissioned).
-7. November 17 lag endpoint (credit-vol WATCH), November 18 VIX expiry, L342 11/26 holiday-bar defect (not due), December 16 L441.
+0. **Official 10/30 close FIRST:** `backfill.py --spot-only` after Cboe finals post (no assumed hour; check the dated bar), then grade the day: VIX vs 20 (RISING_VOL on a close?), VVIX vs 120, 3M/VIX vs 1.000, the 5-day +30% line, COR1M. Include AMZN/AAPL reaction (VULCAN owns substance). Re-score convergence only on closes. If a VIOLET outbound trigger fires on the close → outbox per CLAUDE.md trigger table.
+1. SKEW 10/30 bar for RED FT-10 (exit 0 of 4 at 151.03 [10/29]).
+2. Election Day 11/03: VX/X6 event kink over VX/Z6.
+3. Verify payrolls 11/06 and CPI 11/10 at bls.gov (403 twice).
+4. OVX past-row backfill path does not exist in `ovx.py` (the guard refuses past-dated writes); decide whether the 10/29 TICK row needs the official values or the KB row is enough. Not commissioned.
+5. Correlation helper clock-only SETTLE label: bounded repair still owed (not commissioned).
+6. November 17 lag endpoint (credit-vol WATCH), November 18 VIX expiry, L342 11/26 holiday-bar defect (not due), December 16 L441.
 
 ## CARRY-FORWARD
 
-- RED owns FT-10 and FT-06 grades; VIOLET supplies Cboe bars only. The ≥150 daily run ending is NOT an FT-10 exit.
-- LIQUID owns HY and REG-T-04 proximity; REGINALD owns REG-T-04.
-- HENRY owns gamma; today's 7,701 intraday sits below his 10/28 flips.
-- PREDICTIONS.tsv: all 6 rows terminal; kept maintained, not frozen (a banner line would sit above the header that `scripts/asmade_audit.py` parses).
-- Forward-calendar check BLOCKS closeout without a HIGH/MED row inside 14 days; 4 rows now.
+- RED owns FT-10 and FT-06 grades; VIOLET supplies Cboe bars only.
+- LIQUID owns HY and REG-T-04 proximity; HENRY owns gamma (now NEGATIVE, 10/29 close); SAM owns BOJ substance and SAM-42.
+- PREDICTIONS.tsv: all 6 rows terminal; `ledger_staleness.py` flags it +35d behind STATUS — expected (no live rows), kept maintained not frozen (banner would break `asmade_audit.py`'s header parse).
+- Forward-calendar check: 3 HIGH/MED rows inside 14 days after the BOJ row fired.
 
 ## OPEN HYPOTHESES
 
-Oil-vol leading equity-vol: FIRE on one official close, with VIX transmission not observed. Credit-origin and concentration amplification remain hypotheses. The 10/22–23 futures-front inversion without a cash inversion is one observation. Inherited credit-lead statistics remain unreplicated; RQ8 PARKED.
+Oil-vol leading equity-vol: FIRE re-fires inside a regime with no transmission so far (KB-VIO-359); 10/30 intraday VIX rose while OVX/VIX fell to WATCH — the opposite ordering, VIX catching up. Credit-origin and concentration amplification remain hypotheses; today's QQQ-led drop is the concentration channel's shape, untested until the close. RQ8 PARKED.
