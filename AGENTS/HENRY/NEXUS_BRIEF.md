@@ -1,20 +1,19 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-10-29 19:5x ET (late-evening fold: AMZN after hours + SKEW; prior folds 16:59 ET and 16:0x–16:1x ET) (Claude Code, Opus 5.5; Will-launched boot + PROME catch-up prome-5c). Last write-back after the STATUS writes. Tape and gamma at the 10/29 close (16:06 ET); Treasury par 10/29; FRED through 10/28. Prior brief: `research/2026-10-29_catchup/NEXUS_BRIEF-before.md`.
+**Owner fold:** 2026-10-30 16:50 ET (PROME C8 wake prome-c5, DOCKET L885; Claude Code, Opus 5.5). Last write-back after the STATUS writes. Vendor closes 16:43 ET; gamma `--both --publish` 16:46 ET on post-close Cboe chains; Treasury par 10/30; FRED through 10/29. Prior brief: `research/2026-10-30_L885/NEXUS_BRIEF-before.md`.
 
-**View:** Dealer gamma turned NEGATIVE at both horizons on 10/29; the 7,700 put wall was tested intraday and held on the close. The drop was mega-cap (GOOGL −12.64% on an unchanged capex guide, AMZN −4.25% into its print) with positive breadth (RSP +1.20%). The curve rallied 5–7bp; the 10Y is back under 5.0%. Vol rose mildly (VIX 17.20) and credit did not price stress. No systemic-cascade or crash-timing conclusion.
+**View:** The 7,700 put wall broke on the 10/30 close (SPX 7,580.07, −1.82%) and dealer gamma is NEGATIVE at both horizons on SPX, QQQ and NDX into Monday 11/02. The selloff was concentrated in semis and mega-cap tech (SOXX −8.24%, INTC −28.58%, QQQ −3.47%) against RSP −0.79% and HYG −0.19%, with Treasuries bid. Index mechanics amplified a sector repricing; credit's one lead is HY +12bp [10/29]. No systemic-cascade or crash-timing conclusion.
 
-- **After hours 10/29 (18:53 ET, vendor quotes, NOT a close):** AMZN −6.97% ($226.80) on Q3; SPY −0.71% ⇒ implied SPX ~7,665, under the 7,700 wall and the flip; QQQ −1.75% (702.85). Wall break is graded on the 10/30 close, not on this.
-- **Gamma — CURRENT (10/29 close):** NEGATIVE both. 14d flip ~7,739 (−$19.4B per 1%); 35d flip ~7,741 (−$25.7B). Spot 7,720.39 is 19–21 pts under. Put wall **7,700** PUBLISHED (clean both); call wall WITHHELD (14d 7,750 vs 35d 8,000). Free-tier proxy: the sign and the flip are the robust reads.
-- **QQQ / NDX (first map, 10/29 close, 16:5x ET):** QQQ NEGATIVE both (flips ~724/~726, −$3.1B/−$4.4B per 1%); amplification deepest near 690–695; largest put OI 680, then 690 and 700; walls withheld. NDX index chain just POSITIVE (flips ~29,319/~29,258). This is a split Nasdaq map, not a regime call.
-- **Put wall:** low 7,690.94, close 7,720.39 ⇒ TESTED, HELD on the close. (Prior break: 7,650 wall broke on the 10/23 close.)
-- **Cascade proxy:** SPX 22 pts above its 50-day (7,698.3, own calc), intraday low traded under it; vol-control dormant (VIX 17.20 < 23).
-- **Vol inputs (10/29):** VIX 17.20 (+1.71%, final after 16:15 ET), VIX9D 15.87, VIX3M 19.37 (contango), VVIX 98.01, MOVE 93.46, **SKEW 151.03 [10/29] ⇒ ORANGE** (was 148.74 [10/28]). OVX 56.63. VIOLET owns the vol broadcast.
-- **Rates (Treasury par 10/29):** 2Y 4.61% · 10Y **4.98%** · 30Y 5.32% (−6 / −7 / −5bp). 10Y ORANGE (was RED 5.05 on 10/28); 2Y RED by 1bp; 30Y orange. NEXUS owns the duration letter, BOND the attribution.
-- **Credit (FRED obs 10/28):** HY 314bp (second reading under 320) · BB 184 · CCC 1,307 · CCC−BB 1,123.
-- **Energy cluster 10/27–10/28 (WQ-545):** no equity-vol transmission seen (VIX fell each session 10/27–10/28, then rose +1.71% on 10/29 with the mega-cap drop). Equity footprint was refiners down (VLO −9.24%, MPC −7.36%, PSX −7.03% on 10/27) and airlines up (JETS +2.23%): a falling-diesel/margin move, not an energy-cost shock.
-- **L774 (10/29 08:30 ET):** core PCE September +0.3% m/m ⇒ NOT FIRED.
+- **Gamma — CURRENT (10/30 close):** SPX flips ~7,732 / ~7,736 (14d / 35d), net −$38.6B / −$60.7B per 1%; spot 152–156 pts under. Put wall WITHHELD (band 7,500–7,600); call wall withheld. Profile deepens to a 7,400–7,450 trough, no second flip inside −10%. Free-tier proxy: sign and flip are the robust reads.
+- **Put wall grade:** 7,700 (published 10/29) BROKEN on the close; low 7,527.56 at 14:53 ET. Prior break: 7,650 on the 10/23 close.
+- **QQQ / NDX (10/30 close):** QQQ NEGATIVE both (flips ~725 / ~727, −$3.0B / −$5.0B), put wall **680 PUBLISHED**, profile flat 675–690; closed 690.49 after a 683.45 low. NDX now NEGATIVE both (flips 28,937–29,047; was positive 10/29): the split map is resolved.
+- **Close mechanics:** +61 SPX pts off the low, +19.6 in 15:45–15:50 ET; QQQ settled on the 690 strike where 10/30 puts traded 347K on 61K OI. Expiry pin and month-end auction are consistent; not instrumented.
+- **Open interest caveat:** the 10/30 chains carry 10/29-trade OI; 10/30 trading lands Monday morning. Re-pull pre-open.
+- **Cascade proxy:** SPX 117 pts under its 50-day (7,697.1, own calc) ⇒ layer-2 proxy MET; VIX touched 23.93 intraday (layer 1 band) but closed 19.42 ⇒ not sustained.
+- **Vol inputs (10/30):** VIX 19.42 (+12.91%), VIX9D 19.25, VIX3M 20.78 (inverted intraday, thin contango at the close), VVIX 106.43. SKEW 10/30 not posted (151.03 [10/29]). VIOLET owns the vol broadcast.
+- **Rates (Treasury par 10/30):** 2Y 4.56% · 10Y 4.94% · 30Y 5.31%. 2Y back to ORANGE (was RED 4.61); 10Y ORANGE. NEXUS owns the duration letter, BOND the attribution.
+- **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+- **AI capex (VULCAN 10/30):** no hyperscaler capex cut in the Q3 cluster; HEN-36 resolution unchanged.
 - **Row 9 (CYPHER wave):** HENRY grades the PANW price leg and the bank-stock leg on 11/18.
-- **ISM <47:** ISHM's trigger since 10/23 (WQ-507 A).
 
 No new prediction, threshold, trade, sizing or monitor. No Will decision needed.

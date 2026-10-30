@@ -1,0 +1,25 @@
+Fri Oct 30 16:44:00 EDT 2026
+===== NDX GAMMA FLIP  (asof 2026-10-30, <= 14d, 1,613 contracts, src=cboe) =====
+  NDX spot        28,384.85   (--spot override; feed price 28,384.85)
+  Net GEX @ spot  -0.6 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~28,937
+                  spot is -552 pts BELOW (neg-gamma) the flip
+  Call wall       29,600  (clean #1, +14% over #2)
+  Put wall       28,500  (clean #1, +23% over #2)  <- NDX BELOW put wall (intensified downside feedback)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== NDX GAMMA FLIP  (asof 2026-10-30, <= 35d, 2,809 contracts, src=cboe) =====
+  NDX spot        28,384.85   (--spot override; feed price 28,384.85)
+  Net GEX @ spot  -1.2 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~29,047
+                  spot is -662 pts BELOW (neg-gamma) the flip
+  Call wall       29,675  (clean #1, +86% over #2)
+  Put wall       27,500  (clean #1, +27% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== CROSS-HORIZON CHECK (audit E2) =====
+  Flip band       28,937-29,047  (14d ~28,937 · 35d ~29,047)
+  Regime          14d NEGATIVE · 35d NEGATIVE
+  Call  wall      ⛔ WITHHOLD: 14d 29,600 vs 35d 29,675 — horizons disagree
+  Put   wall      ⛔ WITHHOLD: 14d 28,500 vs 35d 27,500 — horizons disagree
+  PUBLISHED.tsv NOT written (pass --publish to record this read)

@@ -36,6 +36,8 @@
 
 - [2026-10-08] **A CHOSEN same-day grading deadline with no registered WAKE is a letter its owner cannot meet.** HEN-48–56 fixed 10/5 16:00 EDT as the grading deadline while stating "no automatic wake or capture"; the desk stayed dark and the grade landed ~64h late, leaving a live ambiguity over whether a late evaluation is NO-VERDICT. **Next time a letter names an evaluation deadline, register the wake in the same edit (a DOCKET row dated AT the release, owner named), and write the late-evaluation disposition into the letter's NO-VERDICT list explicitly.** Cf. `finding_a_warning_dated_on_its_own_event_fires_too_late`.
 
+- [2026-10-29] **Carried from the rotated 10/29 session note:** VIX/VIX9D/VIX3M/VVIX settle at 16:15 ET, not 16:00 (a 16:06 pull is pre-final); key any ledger edit on (metric, date), never metric alone, and `git diff --stat` before moving on; take every stamp from `date` (typed stamps drifted n=3 on 10/29).
+
 ## References
 
 - [2026-04-17] Live refresh: `source .venv/bin/activate && python3 FORGE/tools/market-data/fetch.py price ^GSPC ^VIX ^SKEW ^VIX3M ^VIX9D ^VVIX KRE WAL JPY=X ^TNX TLT APO`. Use `^GSPC`/`^VIX` (SPX/VIX bare fail). **.venv works on this surface** (Will's "no venv" note was a different container 6/3).
@@ -50,21 +52,16 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-29 14:51–16:1x ET, Will-launched boot + PROME catch-up (prome-5c) + WQ-545 equity leg (Claude Code, Opus 5.5)
+### CHANGES SINCE — 2026-10-30 16:40–16:50 ET, PROME C8 wake (prome-c5, DOCKET L885, WALTER card SIG-W-20261030-002; Claude Code, Opus 5.5)
 
-- **Gamma reversed to NEGATIVE both at the 10/29 close** (flips ~7,739/~7,741; −$19.4B/−$25.7B); put wall 7,700 PUBLISHED clean both, tested intraday (low 7,690.94), held on close 7,720.39. Signal to WALTER inbox. Call wall withheld.
-- Treasury par 10/29: 2Y 4.61 (RED by 1bp), 10Y 4.98 (back to ORANGE), 30Y 5.32. HY 314 [FRED 10/28]. KB ML-HEN-191; MARKET_DATA 10/29 row + refresh stamp.
-- Inbox drained (10 general + 6 WALTER). **Row 9 (CYPHER wave): HENRY carries the PANW price leg AND the bank-stock leg, grade 11/18 live pull** (PROME 15:03 ET final routing). The letter has no "collapse" magnitude: raised to PROME, not set.
-- VLO −9.24% 10/27 = refiner-sector move (MPC −7.36%, PSX −7.03%), gapped at the open, not earnings (10/22); cause unestablished at a primary (secondaries: margin outlook, Russian diesel, Iran).
-- **Own errors caught:** (1) `gamma_flip.py` writes `PUBLISHED.tsv` on every run, replacing same-date rows WITHOUT basis notes, even for a read you are not publishing; restored once. (2) my hand edit to PUBLISHED replaced EVERY row of each metric (history ledger, one row per metric per date): restored from git, re-applied keyed on date. **Key any ledger edit on (metric, date), never metric alone; `git diff --stat` before moving on.** (3) **VIX/VIX9D/VIX3M/VVIX settle at 16:15 ET, not 16:00:** I stamped a 16:06 ET pull (16.50) as the close; final was 17.20 and it flipped the VIX kill-leg row and a "VIX fell every session" claim (PROME/VIOLET caught it). Pull vol closes after 16:15 ET.
-
-- **Evening follow-on (Will: items 4+6+7+2):** QQQ/NDX gamma map (QQQ NEGATIVE, deepest near 690; NDX just positive) KB ML-HEN-192; `gamma_flip.py` now writes PUBLISHED.tsv ONLY with `--publish` (pass it on the read you publish), plus `--underlying`/`--spot`, and the put==call guard now withholds in `--both`; ISM services 11/4 rule-derived (ISM table behind SSO); **HEN-57/58/59 pre-registered** (letter `research/2026-10-29_catchup/PREREG_nov-releases.md`). Stamp drift n=3 today: typed 16:3x/17:0x/17:1x when the clock read 16:12/16:58. Take every stamp from `date`.
-
-- **Evening boot + closeout (18:51–19:5x ET):** inbox empty, corrections rc=0, nothing due. **AMZN −6.97% after hours ($226.80); SPY −0.71% AH ⇒ SPX about 7,665, under the 7,700 wall and the flip; QQQ AH 702.85.** SKEW 10/29 close 151.03 ⇒ ORANGE (row + vol table re-stamped). 18:51 ET 14d gamma −$9.8B, flip ~7,733: not published.
+- **10/29 put wall 7,700 BROKE on the 10/30 close** (SPX 7,580.07, −1.82%; low 7,527.56 14:53 ET). Gamma NEGATIVE both on SPX (flips 7,732/7,736, −$38.6B/−$60.7B), QQQ (725/727; put wall 680 PUBLISHED) and NDX (28,937/29,047; reversed from positive). SPX walls withheld (put band 7,500–7,600). Flip barely moved: price slid down the same curve. KB ML-HEN-193; PUBLISHED.tsv 10/30 via `--publish`; signal to WALTER inbox.
+- QQQ closed 690.49 on the 690 trough after 683.45; 10/30-expiry 690 puts traded 347K on 61K OI ⇒ pin + month-end auction plausible, NOT instrumented. 2Y par 4.56% ⇒ ORANGE; HY 326 [FRED 10/29] ⇒ YELLOW; cascade layer-2 proxy met (SPX 117 under 50-day 7,697.1).
+- Inbox drained 2 + 9; L773/L774 records and the 10/28 VIEW moved verbatim to STATUS_COLD § ROT-10/30.
+- **Own catches:** (1) PUBLISHED.tsv never got the 10/29 16:06 ET 7,700 put-wall row (the 00:08 ET rows sat there as the day's walls) — recorded late. **After any `--publish`, write the wall rows by hand in the same edit** (the script writes flips and GEX only). (2) **Comparing a profile across days mixes in expiry roll-off:** the 10/29 ≤35d chain contained the 10/30 expiry (nearest-dated, largest gamma); "less negative trough" on 10/30 is partly composition. Compare flips, not $B, across an expiry. (3) Cboe chain open interest after the close is the PRIOR day's trades; the day's trading lands at OCC the next morning.
 
 ### NEXT SESSION
 
-1. Grade the post-AMZN session (10/30) against the negative-gamma state (AH implied SPX ~7,665, under the 7,700 wall; did the wall break on the CLOSE?): `gamma_flip.py --both` (add `--publish --note` only for the read you publish); re-run QQQ with `--underlying QQQ`.
-2. Row 9 on 11/18: PANW + bank-stock legs from a live pull; get the collapse magnitude settled with CYPHER/PROME BEFORE 11/18.
+1. **Monday 11/02 pre-open:** re-pull SPX/QQQ/NDX `--both` once OCC open interest includes 10/30 trading; compare flips (7,732–7,736 SPX, 725–727 QQQ) and the 7,500–7,600 put band. ISM manufacturing 11/2 (ISHM); AAPL 11/02 after the close (vendor date).
+2. Row 9 on 11/18: PANW + bank-stock legs from a live pull; the collapse magnitude must be settled with CYPHER/PROME BEFORE 11/18.
 3. Operating Dashboard not refreshed since 10/22 (version 4). ISM services date (11/4) still unverified.
-4. Catalysts: ECI + BOJ 10/30, Russian №1252 expiry 10/31, AAPL 11/02 (vendor date), ISM mfg 11/2 (ISHM), NFP 11/6, CPI 11/10 (L435/L437 co-owned), PPI 11/13, NVDA 11/19 (L322).
+4. Catalysts: Russian №1252 10/31 (extended to year-end per Reuters), ISM services 11/4, NFP 11/6 (HEN-59), CPI 11/10 (HEN-57; L435/L437), PPI 11/13 (HEN-58), NVDA 11/19 (L322).
