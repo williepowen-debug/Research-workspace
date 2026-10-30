@@ -1,0 +1,100 @@
+{
+  "kind": "mockup author checks; no production integration",
+  "source": "/home/willi/Research-workspace/AGENTS/CATO/prototypes/decisions/index.html",
+  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-preview-if4udviz",
+  "runs": {
+    "desktop": {
+      "returncode": 0,
+      "checks": [
+        {
+          "name": "Initial view and selection",
+          "pass": true
+        },
+        {
+          "name": "Cancel preserves draft and has no response effect",
+          "pass": true
+        },
+        {
+          "name": "Draft survives navigation and exact note is displayed as text",
+          "pass": true
+        },
+        {
+          "name": "Partial decision keeps unanswered unit and scopes response",
+          "pass": true
+        },
+        {
+          "name": "Final part moves to follow-through with receipt pending",
+          "pass": true
+        },
+        {
+          "name": "Question requires content and is not recorded as approval",
+          "pass": true
+        },
+        {
+          "name": "Tasks record reported action without inventing receipt",
+          "pass": true
+        },
+        {
+          "name": "Search covers all categories and handles empty results",
+          "pass": true
+        },
+        {
+          "name": "Reset requires confirmation and restores examples",
+          "pass": true
+        },
+        {
+          "name": "Page has no horizontal overflow",
+          "pass": true
+        }
+      ],
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-preview-if4udviz/desktop.png"
+    },
+    "narrow": {
+      "returncode": 0,
+      "checks": [
+        {
+          "name": "Initial view and selection",
+          "pass": true
+        },
+        {
+          "name": "Cancel preserves draft and has no response effect",
+          "pass": true
+        },
+        {
+          "name": "Draft survives navigation and exact note is displayed as text",
+          "pass": true
+        },
+        {
+          "name": "Partial decision keeps unanswered unit and scopes response",
+          "pass": true
+        },
+        {
+          "name": "Final part moves to follow-through with receipt pending",
+          "pass": true
+        },
+        {
+          "name": "Question requires content and is not recorded as approval",
+          "pass": true
+        },
+        {
+          "name": "Tasks record reported action without inventing receipt",
+          "pass": true
+        },
+        {
+          "name": "Search covers all categories and handles empty results",
+          "pass": true
+        },
+        {
+          "name": "Reset requires confirmation and restores examples",
+          "pass": true
+        },
+        {
+          "name": "Page has no horizontal overflow",
+          "pass": true
+        }
+      ],
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-decisions-preview-if4udviz/narrow.png"
+    }
+  },
+  "source_sha256": "5a894c3129b2594dc3673ee783af0990c2064b2a8f388ab561fc68571033bf60"
+}

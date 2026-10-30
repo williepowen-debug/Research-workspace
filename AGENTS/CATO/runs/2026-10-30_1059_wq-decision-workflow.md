@@ -4,6 +4,8 @@
 
 **Scope and starting revision:** October 30, 2026, desktop; `d53b51d9118056159afa050049034b62efd86391`. PROME is concurrently changing its records. Distinguish governing rules, inspected implementation, dated examples and unverified behavior. Read bounded relevant sections; do not audit every historical decision or re-adjudicate research/trades.
 
+**Current disposition:** Will subsequently authorized proceeding with the proposed mockup/workflow. [Interactive preview and workflow delivered](#october-30--interactive-mockup-and-workflow); await his design feedback. The investigation below remains dated evidence; no production intake or owner changes are authorized by the mockup delivery.
+
 ## Questions written before the investigation
 
 1. What does a WQ number identify, and which kinds of items get one?
@@ -27,7 +29,7 @@
 19. What does desktop/laptop/offline use imply, and does any existing mechanism reliably deliver an answer while PROME is not running?
 20. What can the files establish now, what remains unknown, and what needs Will's preference rather than further repository research?
 
-## Current assessment — investigation delivered October 30
+## Investigation assessment — delivered before design, October 30
 
 The WQ system is an operator-work register with several distinct meanings: an unanswered decision, an action only Will can perform, a receipt of an earlier ruling, or a bundle combining these. Its recorded decision and the work resulting from that decision have different lifecycles. The files contain useful readers, history and validation, but they are not a complete structured approval service. A new interface cannot safely infer that every OPEN row needs an Approve button, that a RULED row is completed work, or that a short ledger entry contains the whole approved scope.
 
@@ -199,3 +201,19 @@ This is CATO's authored investigation and bounded testing, not independent accep
 ## Reconciliation and next step
 
 All twenty research questions are dispositioned above. WQ-F1 (row/type/unit interpretation) and WQ-F2 (shortened terminal history) remain documented integration limits, not assigned repairs. Before a later build, its proposal would need to say how those limits are handled and how an answer reaches PROME with a reliable receipt. PROME retains its canonical records and delivery duties; Will retains platform/scope choices. Any reuse of the paused hosted store requires reconciliation under the existing pause ruling. No CATO implementation remains from this investigation. Await Will's discussion of the findings.
+
+## October 30 — Interactive mockup and workflow
+
+**Authority and scope:** after CATO proposed a local browser app and recommended the mockup/workflow as the next step, Will said “Okay lets proceed.” Implemented that bounded step: [local preview](../prototypes/decisions/index.html), [workflow proposal](../prototypes/decisions/README.md), [desktop screenshot](../prototypes/decisions/preview.png) and [author-check evidence](../prototypes/decisions/validation.json). Baseline `c76a478dac62d3243102eb3c28418ed13be3b8a7`; active PROME/other-owner work was preserved. Desktop/laptop first is a disclosed assumption; the optional device question was unanswered at implementation. Phone support is not selected by a responsive layout.
+
+**Implemented:** four views (Decisions, Tasks for me, Follow-through, History), six fictional DEMO cases, original sample evidence, explicit options/consequences, per-part approval, exact notes, response review/cancel, clarification and deferral, separate acknowledgment/completion states, cross-view search, draft preservation during navigation and confirmed reset. All state is in this tab; reload resets it. No live files, network endpoints, private store, accounts or agents are connected. Content security policy disables network connections and form submission. No launcher installation or production code changed.
+
+**Proposed, not implemented:** a single authored decision description in PROME's existing proposal flow; versioned export to the app; exact proposal/choice snapshots; durable response events; idempotent PROME intake and separate receipts; owner verification before completion. The workflow explicitly names unresolved identity/storage, cross-machine delivery, stale-response handling and owner-authority conditions. It reuses the launcher's existing structured-export pattern as precedent, not as evidence a WQ export already exists. Browser implementation and local backend are a starting direction, not a settled production framework. No new hosting, scheduler, recurring audit or standalone agent is selected.
+
+**Author verification:** ten meaningful interaction checks passed at both 1440 × 1150 and 520 × 1100 using Windows Chrome headless and isolated temporary profiles. Coverage includes cancel/draft preservation, hostile text rendered literally, partial answers not authorizing an unselected part, pending receipt after save, question versus approval, task completion versus receipt, search/empty state, confirmed reset and width overflow. Both screenshots were inspected. `validation.json` pins the HTML SHA256. No production source reader, persistence, live dispatch, device synchronization, native phone or assistive-technology verification is claimed. This reversible inert preview has no independent acceptance claim and no measured benefit yet.
+
+**Presentation:** Windows `Start-Process` successfully requested a new Chrome window on the repository-local preview URL. No claim is made that Will has reviewed or accepted it. Use the existing preview file directly; its test harness and browser profiles are under the temporary path in the receipt, not installed application infrastructure.
+
+**Reconciliation:** the authorized mockup/workflow is delivered with no implementation remaining in that scope. Next observation: Will tries the interaction, particularly independent parts and follow-through, and supplies design feedback. WQ-F1/F2 remain production integration limits addressed in the proposed contract, not repaired in PROME. Live intake, ownership/protocol changes, private-store reconciliation and production rollout await an explicit bounded implementation scope. All unrelated approvals remain unchanged.
+
+**Delivery checks:** all intended inputs were verified present/readable before checking. Weekday check passed for `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, `AGENTS/CATO/CONTINUITY.md`, `AGENTS/CATO/TASK_INDEX.md`, this continuing report and `AGENTS/CATO/prototypes/decisions/README.md`. Read-cap check covered the six actual startup files: `AGENTS/CATO/AGENTS.md`, `AGENTS/CATO/CHARTER.md`, `AGENTS/CATO/CONTINUITY.md`, root `CLAUDE.md`, `USER.md` and `AGENTS.md`; all remain below the cap, with root `CLAUDE.md` at the existing rotation advisory tier (24,634 bytes). HTML SHA256 matches the twenty passing browser-check executions; retained screenshot has the PNG signature. Scoped whitespace check passed. Orphan advisory identified concurrent DAEDALUS/PROME work, DAEDALUS-authored packets, WALTER caches and `KIMI_BOOT.md`; none is CATO-authored and all are preserved. No consumer-figure, STATUS/ledger or auto-memory change triggers the corresponding conditional checks. Delivery uses seven exact CATO paths; the in-session receipt records the final commit and fresh-fetch publication result.
