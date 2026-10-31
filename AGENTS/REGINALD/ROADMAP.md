@@ -79,6 +79,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 ## RECENTLY RESOLVED — October20
 
+**10/31 DOCKET L857 (PROME-spawned):** FFIEC Q3 short list re-run, 134 of 139 filed; frozen universe ex acquirers −$5.70B borrowings, +$39.20B deposits; 6 flags all funding-mix at the issuer; Santander–Webster merger handled → `reports/2026-10-31_L857/REPORT.md`. Blind-spot thread, borrowing leg: the per-bank concentration verdict stays ungraded until the FDIC posting (the list's own top-10 share is 64% of gross increases, a list figure, not the frozen measure). 4 DAEDALUS packets drained. Last touched 2026-10-31.
+
 **10/30 evening (Will-launched boot + DAEDALUS follow-ups):** WAL Q3 10-Q grade integrated (exit-rail WAL row NOT FIRED, FINAL for Q3); KRE $68P ×10 on TRADE §2; `scripts/thresholds.py` now fails closed (rc 0/1/2, `--selftest` 7/7, in boot TRI_STATE; DAEDALUS profile-refresh item 1 DONE). Items 2–14 + A1–A3 → MEMORY NEXT SESSION 2. Last touched 2026-10-30.
 
 **10/30 DOCKET L801 (PROME-spawned):** `reports/2026-10-30_L801/REPORT.md`. Coverage-decline leg of the Q3 cohort pattern DROPPED as a predictor on DEWEY's base rate (2 of 10 vs 25%); problem-loan leg kept (7 of 10). Matrix coverage point waits for the 11/07 test. Inbox drained (13). Last touched 2026-10-30.

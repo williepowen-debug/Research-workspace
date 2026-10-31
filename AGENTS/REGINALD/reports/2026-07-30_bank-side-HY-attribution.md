@@ -1,5 +1,7 @@
 # Bank-side attribution of the 7/22→7/29 HY widening
 
+> ⛔ **DEAD FIGURE, noted 2026-10-31 (DAEDALUS profile-refresh 10/30 item 3a; body below left unedited by convention):** the table row for OZK below says *"hidden CRE 37.6% — worst in my screen"*. **`37.6%` (OZK) is KILL-ON-SIGHT** (charter §HIDDEN CRE item 2): it reproduces at no quarter on either basis. Canonical MI3 figures → `reports/2026-08-13_MI3_cohort_rerun.md` + `workbook/MI3_COHORT.tsv` (rank citations DO-NOT-CITE until the 11/07 Q3 re-run). KB correction row ML-REG-261. The rest of this report's attribution method is unaffected.
+
 **Author:** REGINALD · **Written:** 2026-07-30 ~15:30 ET (markets OPEN — every 7/30 price below is **INTRADAY**, not a close)
 **Asked by:** TERRY (`inbox/2026-07-30_from-TERRY_cc-HY280-trigger-MET-mechanism-and-ratio-spec-questions.md`), backstopped by PROME. LIQUID runs the index-decomposition half in parallel — this is the **bank-side** half only.
 **Question:** is bank / regional credit **CONFIRMING**, **DIVERGING from**, or **ABSENT from** the +19bp HY move?

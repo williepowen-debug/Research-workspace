@@ -1,0 +1,40 @@
+filed 134 pending 5: [(197478, 'EAST WEST BANK'), (413208, 'HSBC BANK USA NATIONAL ASSN'), (761806, 'WEBSTER BANK NATIONAL ASSN'), (980661, 'FIRST HAWAIIAN BANK'), (782306, 'BEACON BANK&TRUST')]
+SMALL ex-acquirers n=127: borrowings net -5.70 $B, gross up +13.44, gross down -19.13; deposits net +39.20 $B
+  top-10 share of gross increases within the LIST (not the frozen universe measure): 64.0% of 51 increasers
+PROBABLE ACQUIRERS (assets >=+20%) n=4:
+  ARROW BANK NATIONAL ASSN NEW YORK assets 4.5->5.5 $B (+24%), bor -0.13, dep +1.07 $B, tags Q2-flag
+  SUNWEST BANK UTAH assets 4.4->5.4 $B (+23%), bor -0.20, dep +1.20 $B, tags Q2-flag
+  SANTANDER BANK N A DELAWARE assets 104.0->204.0 $B (+96%), bor +10.70, dep +73.07 $B, tags top100-assets
+  PROSPERITY BANK TEXAS assets 43.9->54.1 $B (+23%), bor +0.01, dep +8.72 $B, tags top100-assets
+LARGE (not in small universe; cohort context) n=3: borrowings net +6.19, deposits net +0.60
+  CITIZENS BANK NATIONAL ASSN bor 11.51->13.87 (+2,359M) dep -594M assets +0.5% tags cohort
+  MANUFACTURERS&TRADERS TR CO bor 12.55->14.57 (+2,025M) dep -939M assets +0.5% tags cohort
+  HUNTINGTON NATIONAL BANK bor 15.13->16.94 (+1,810M) dep +2,138M assets +1.4% tags cohort
+FLAGS (small, ex-acquirers, frozen rule):
+  REGIONS BANK ALABAMA rssd 233031 assets 161.2B (+0.9%), bor 5.91->8.29 (+2,382M, +40%), dep -525M, FHLB 5.40B, brokered 9/30 1.00B tags Q2-flag,Q2-top20,top100-assets
+  RENASANT BANK MISSISSIPPI rssd 749242 assets 27.5B (+1.9%), bor 0.32->0.81 (+491M, +156%), dep -153M, FHLB 0.80B, brokered 9/30 0.00B tags top100-assets
+  SIMMONS BANK ARKANSAS rssd 663245 assets 24.0B (-2.8%), bor 1.27->1.75 (+478M, +38%), dep -1,082M, FHLB 1.35B, brokered 9/30 0.94B tags Q2-flag,Q2-top20,top100-assets
+  BCORP BANK NATIONAL ASSN SOUTH DAKOTA rssd 2858960 assets 9.4B (+2.4%), bor 0.75->1.11 (+366M, +49%), dep -139M, FHLB 1.11B, brokered 9/30 0.13B tags Q2-flag
+  BANK OF HAWAII HAWAII rssd 795968 assets 23.8B (-0.1%), bor 0.56->0.90 (+345M, +62%), dep -412M, FHLB 0.84B, brokered 9/30 0.00B tags top100-assets
+  ISRAEL DISCOUNT BANK OF NY NEW YORK rssd 320119 assets 14.5B (+1.0%), bor 0.18->0.45 (+275M, +155%), dep -168M, FHLB 0.45B, brokered 9/30 2.33B tags top100-assets
+COHORT (all 14):
+  BANK OZK small=True bor 0.00->0.75 (+749M) dep +831M FHLB 0.60 bro 3.02
+  WESTERN ALLIANCE BANK small=True bor 6.52->6.05 (-467M) dep -127M FHLB 5.20 bro 5.64
+  EAGLEBANK small=True bor 0.10->0.00 (-100M) dep -154M FHLB 0.00 bro 0.81
+  ZIONS BCORP N A small=True bor 2.46->2.58 (+127M) dep +1,331M FHLB 0.00 bro 3.49
+  SOUTHSTATE BANK NA small=True bor 0.87->0.80 (-71M) dep +1,318M FHLB 0.30 bro 5.34
+  CITIZENS BANK NATIONAL ASSN small=False bor 11.51->13.87 (+2,359M) dep -594M FHLB 8.36 bro 1.33
+  BANKUNITED NATIONAL ASSN small=True bor 1.92->2.18 (+259M) dep -565M FHLB 1.93 bro 4.15
+  SEACOAST NATIONAL BANK small=True bor 1.31->1.49 (+176M) dep -212M FHLB 0.94 bro 0.45
+  AMERANT BANK NATIONAL ASSN small=True bor 0.70->0.71 (+12M) dep -49M FHLB 0.71 bro 0.50
+  FLAGSTAR BANK NATIONAL ASSN small=True bor 10.49->10.49 (+0M) dep +298M FHLB 9.90 bro 2.63
+  MANUFACTURERS&TRADERS TR CO small=False bor 12.55->14.57 (+2,025M) dep -939M FHLB 6.30 bro 7.97
+  HUNTINGTON NATIONAL BANK small=False bor 15.13->16.94 (+1,810M) dep +2,138M FHLB 8.65 bro 5.07
+  VALLEY NATIONAL BANK small=True bor 2.40->2.01 (-383M) dep +1,062M FHLB 1.96 bro 5.30
+  CUSTOMERS BANK small=True bor 2.06->2.14 (+78M) dep +823M FHLB 2.14 bro 4.25
+---- reconciliation & 10/28 comparison
+Santander+Webster pro forma: assets 189.9->204.0 (+7.5%), bor 7.78->14.49 (+6.72B), dep +2.39B
+List small incl acquirers, Webster prior netted: borrowings +0.70 $B (H.8 NSA small 7/1->9/30 +4.3B; list = 75% of Q2 small-bank borrowings)
+unfiled 6/30 borrowings: {'EAST WEST BANK': 4.44, 'HSBC BANK USA NATIONAL ASSN': 7.17, 'FIRST HAWAIIAN BANK': 0.02, 'BEACON BANK&TRUST': 0.69}
+10/28 rows 28; matched now 28; changed []
+same 28 now: bor -4.27B; the 106 newly filed: bor +15.23B dep +117.93B (raw, incl acquirers and 3 large cohort)
