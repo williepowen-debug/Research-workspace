@@ -1,0 +1,609 @@
+{
+  "retrieved_at": "2026-10-31T17:36:43.926235+00:00",
+  "sources": {
+    "boe_10y": [
+      "28 Oct 2026",
+      5.3087
+    ],
+    "ecb_aaa": [
+      [
+        "2026-10-29",
+        3.3733145545
+      ],
+      [
+        "2026-10-28",
+        3.392748863
+      ],
+      [
+        "2026-10-27",
+        3.3710900506
+      ],
+      [
+        "2026-10-26",
+        3.3735503672
+      ],
+      [
+        "2026-10-23",
+        3.3694058329
+      ]
+    ],
+    "ttf_dec": {
+      "symbol": "TTFZ26.NYM",
+      "history": [
+        {
+          "Date": "2026-10-19 00:00:00-04:00",
+          "Open": 88.19000244140625,
+          "High": 88.19000244140625,
+          "Low": 88.10600280761719,
+          "Close": 88.10600280761719,
+          "Adj Close": 88.10600280761719,
+          "Volume": 79,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-20 00:00:00-04:00",
+          "Open": 87.79000091552734,
+          "High": 87.79000091552734,
+          "Low": 84.71499633789062,
+          "Close": 85.13899993896484,
+          "Adj Close": 85.13899993896484,
+          "Volume": 168,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-21 00:00:00-04:00",
+          "Open": 87.8949966430664,
+          "High": 87.9000015258789,
+          "Low": 85.93499755859375,
+          "Close": 87.42900085449219,
+          "Adj Close": 87.42900085449219,
+          "Volume": 143,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-22 00:00:00-04:00",
+          "Open": 90.94499969482422,
+          "High": 90.94499969482422,
+          "Low": 89.9739990234375,
+          "Close": 89.9739990234375,
+          "Adj Close": 89.9739990234375,
+          "Volume": 148,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-23 00:00:00-04:00",
+          "Open": 92.29499816894531,
+          "High": 93.83000183105469,
+          "Low": 92.2300033569336,
+          "Close": 93.7959976196289,
+          "Adj Close": 93.7959976196289,
+          "Volume": 247,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-26 00:00:00-04:00",
+          "Open": 97.2249984741211,
+          "High": 97.2249984741211,
+          "Low": 95.94499969482422,
+          "Close": 96.53700256347656,
+          "Adj Close": 96.53700256347656,
+          "Volume": 42,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-27 00:00:00-04:00",
+          "Open": 95.16000366210938,
+          "High": 95.82499694824219,
+          "Low": 93.5,
+          "Close": 95.82499694824219,
+          "Adj Close": 95.82499694824219,
+          "Volume": 20,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-28 00:00:00-04:00",
+          "Open": 96.73500061035156,
+          "High": 100.34100341796875,
+          "Low": 96.73500061035156,
+          "Close": 100.34100341796875,
+          "Adj Close": 100.34100341796875,
+          "Volume": 157,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-29 00:00:00-04:00",
+          "Open": 96.98999786376953,
+          "High": 97.9209976196289,
+          "Low": 95.41500091552734,
+          "Close": 97.9209976196289,
+          "Adj Close": 97.9209976196289,
+          "Volume": 86,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-30 00:00:00-04:00",
+          "Open": 100.0999984741211,
+          "High": 103.94400024414062,
+          "Low": 100.0999984741211,
+          "Close": 103.94400024414062,
+          "Adj Close": 103.94400024414062,
+          "Volume": 86,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      ],
+      "metadata": {
+        "currency": "EUR",
+        "symbol": "TTFZ26.NYM",
+        "exchangeName": "NYM",
+        "fullExchangeName": "NY Mercantile",
+        "instrumentType": "FUTURE",
+        "firstTradeDate": 1606712400,
+        "regularMarketTime": 1793379045,
+        "hasPrePostMarketData": false,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 103.944,
+        "regularMarketChangePercent": 6.151,
+        "fulldayPrice": 103.944,
+        "fulldayChange": 6.023,
+        "fulldayChangePercent": 6.151,
+        "fiftyTwoWeekHigh": 103.944,
+        "fiftyTwoWeekLow": 26.576,
+        "regularMarketDayHigh": 103.9,
+        "regularMarketDayLow": 100.1,
+        "regularMarketVolume": 68,
+        "longName": "Dutch TTF Natural Gas Calendar",
+        "shortName": "Dutch TTF Natural Gas Calendar ",
+        "chartPreviousClose": 96.537,
+        "previousClose": 97.921,
+        "scale": 3,
+        "priceHint": 3,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1793332800,
+            "end": 1793332800,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1793332800,
+            "end": 1793419140,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1793419140,
+            "end": 1793419140,
+            "gmtoffset": -14400
+          }
+        },
+        "tradingPeriods": "                                              start                       end\nDate                                                                         \n2026-10-26 00:00:00-04:00 2026-10-26 00:00:00-04:00 2026-10-26 23:59:00-04:00\n2026-10-27 00:00:00-04:00 2026-10-27 00:00:00-04:00 2026-10-27 23:59:00-04:00\n2026-10-28 00:00:00-04:00 2026-10-28 00:00:00-04:00 2026-10-28 23:59:00-04:00\n2026-10-29 00:00:00-04:00 2026-10-29 00:00:00-04:00 2026-10-29 23:59:00-04:00\n2026-10-30 00:00:00-04:00 2026-10-30 00:00:00-04:00 2026-10-30 23:59:00-04:00",
+        "dataGranularity": "1h",
+        "range": "5d",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ],
+        "YF repair?": false
+      }
+    },
+    "eurusd": {
+      "symbol": "EURUSD=X",
+      "history": [
+        {
+          "Date": "2026-10-19 00:00:00+01:00",
+          "Open": 1.12291419506073,
+          "High": 1.1235954761505127,
+          "Low": 1.1187684535980225,
+          "Close": 1.1225486993789673,
+          "Adj Close": 1.1225486993789673,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-20 00:00:00+01:00",
+          "Open": 1.1214282512664795,
+          "High": 1.1259105205535889,
+          "Low": 1.1206490993499756,
+          "Close": 1.1215791702270508,
+          "Adj Close": 1.1215791702270508,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-21 00:00:00+01:00",
+          "Open": 1.1225864887237549,
+          "High": 1.1238480806350708,
+          "Low": 1.121415615081787,
+          "Close": 1.122674584388733,
+          "Adj Close": 1.122674584388733,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-22 00:00:00+01:00",
+          "Open": 1.1233556270599365,
+          "High": 1.1257457733154297,
+          "Low": 1.1190564632415771,
+          "Close": 1.1234692335128784,
+          "Adj Close": 1.1234692335128784,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-23 00:00:00+01:00",
+          "Open": 1.122158169746399,
+          "High": 1.1226494312286377,
+          "Low": 1.1187058687210083,
+          "Close": 1.1221455335617065,
+          "Adj Close": 1.1221455335617065,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-26 00:00:00+00:00",
+          "Open": 1.1218183040618896,
+          "High": 1.12271249294281,
+          "Low": 1.117468237876892,
+          "Close": 1.1217553615570068,
+          "Adj Close": 1.1217553615570068,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-27 00:00:00+00:00",
+          "Open": 1.1175307035446167,
+          "High": 1.117817997932434,
+          "Low": 1.1136106252670288,
+          "Close": 1.1173808574676514,
+          "Adj Close": 1.1173808574676514,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-28 00:00:00+00:00",
+          "Open": 1.113089919090271,
+          "High": 1.1140819787979126,
+          "Low": 1.1113210916519165,
+          "Close": 1.1129660606384277,
+          "Adj Close": 1.1129660606384277,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-29 00:00:00+00:00",
+          "Open": 1.115411639213562,
+          "High": 1.1174432039260864,
+          "Low": 1.1109507083892822,
+          "Close": 1.1155734062194824,
+          "Adj Close": 1.1155734062194824,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-30 00:00:00+00:00",
+          "Open": 1.1184431314468384,
+          "High": 1.1214659214019775,
+          "Low": 1.1137346029281616,
+          "Close": 1.1182805299758911,
+          "Adj Close": 1.1182805299758911,
+          "Volume": 0,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      ],
+      "metadata": {
+        "currency": "USD",
+        "symbol": "EURUSD=X",
+        "exchangeName": "CCY",
+        "fullExchangeName": "CCY",
+        "instrumentType": "CURRENCY",
+        "firstTradeDate": 1070236800,
+        "regularMarketTime": 1793395769,
+        "hasPrePostMarketData": false,
+        "gmtoffset": 0,
+        "timezone": "GMT",
+        "exchangeTimezoneName": "Europe/London",
+        "regularMarketPrice": 1.1166,
+        "regularMarketChangePercent": -0.134,
+        "fulldayPrice": 1.1166,
+        "fulldayChange": -0.0015,
+        "fulldayChangePercent": -0.134,
+        "fiftyTwoWeekHigh": 1.2024,
+        "fiftyTwoWeekLow": 1.111,
+        "regularMarketDayHigh": 1.1217,
+        "regularMarketDayLow": 1.114,
+        "regularMarketVolume": 0,
+        "longName": "EUR/USD",
+        "shortName": "EUR/USD",
+        "chartPreviousClose": 1.1218,
+        "previousClose": 1.1181,
+        "scale": 4,
+        "priceHint": 4,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "GMT",
+            "end": 1793318400,
+            "start": 1793318400,
+            "gmtoffset": 0
+          },
+          "regular": {
+            "timezone": "GMT",
+            "end": 1793404740,
+            "start": 1793318400,
+            "gmtoffset": 0
+          },
+          "post": {
+            "timezone": "GMT",
+            "end": 1793404740,
+            "start": 1793404740,
+            "gmtoffset": 0
+          }
+        },
+        "tradingPeriods": "                                                end                     start\nDate                                                                         \n2026-10-26 00:00:00+00:00 2026-10-26 23:59:00+00:00 2026-10-26 00:00:00+00:00\n2026-10-27 00:00:00+00:00 2026-10-27 23:59:00+00:00 2026-10-27 00:00:00+00:00\n2026-10-28 00:00:00+00:00 2026-10-28 23:59:00+00:00 2026-10-28 00:00:00+00:00\n2026-10-29 00:00:00+00:00 2026-10-29 23:59:00+00:00 2026-10-29 00:00:00+00:00\n2026-10-30 00:00:00+00:00 2026-10-30 23:59:00+00:00 2026-10-30 00:00:00+00:00",
+        "dataGranularity": "1h",
+        "range": "5d",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ],
+        "YF repair?": false
+      }
+    },
+    "ttf_nov": {
+      "symbol": "TTFX26.NYM",
+      "history": [
+        {
+          "Date": "2026-10-16 00:00:00-04:00",
+          "Open": 88.03500366210938,
+          "High": 88.59500122070312,
+          "Low": 87.5469970703125,
+          "Close": 87.5469970703125,
+          "Adj Close": 87.5469970703125,
+          "Volume": 39,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-19 00:00:00-04:00",
+          "Open": 89.0250015258789,
+          "High": 89.5,
+          "Low": 88.04000091552734,
+          "Close": 88.04000091552734,
+          "Adj Close": 88.04000091552734,
+          "Volume": 89,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-20 00:00:00-04:00",
+          "Open": 89.67500305175781,
+          "High": 89.7249984741211,
+          "Low": 83.51499938964844,
+          "Close": 85.06199645996094,
+          "Adj Close": 85.06199645996094,
+          "Volume": 218,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-21 00:00:00-04:00",
+          "Open": 87.4000015258789,
+          "High": 88.6050033569336,
+          "Low": 86.37999725341797,
+          "Close": 87.4260025024414,
+          "Adj Close": 87.4260025024414,
+          "Volume": 180,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-22 00:00:00-04:00",
+          "Open": 90.09500122070312,
+          "High": 91.0999984741211,
+          "Low": 90.01499938964844,
+          "Close": 90.04299926757812,
+          "Adj Close": 90.04299926757812,
+          "Volume": 265,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-23 00:00:00-04:00",
+          "Open": 92.97000122070312,
+          "High": 94.0250015258789,
+          "Low": 92.56999969482422,
+          "Close": 93.85299682617188,
+          "Adj Close": 93.85299682617188,
+          "Volume": 338,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-26 00:00:00-04:00",
+          "Open": 97.3499984741211,
+          "High": 97.3499984741211,
+          "Low": 96.08499908447266,
+          "Close": 96.68099975585938,
+          "Adj Close": 96.68099975585938,
+          "Volume": 57,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-27 00:00:00-04:00",
+          "Open": 96.05500030517578,
+          "High": 96.06099700927734,
+          "Low": 93.74500274658203,
+          "Close": 96.06099700927734,
+          "Adj Close": 96.06099700927734,
+          "Volume": 377,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-28 00:00:00-04:00",
+          "Open": 97.5250015258789,
+          "High": 100.72000122070312,
+          "Low": 97.5250015258789,
+          "Close": 100.72000122070312,
+          "Adj Close": 100.72000122070312,
+          "Volume": 186,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        },
+        {
+          "Date": "2026-10-29 00:00:00-04:00",
+          "Open": 98.58799743652344,
+          "High": 98.58799743652344,
+          "Low": 98.58799743652344,
+          "Close": 98.58799743652344,
+          "Adj Close": 98.58799743652344,
+          "Volume": 186,
+          "Dividends": 0.0,
+          "Stock Splits": 0.0
+        }
+      ],
+      "metadata": {
+        "currency": "EUR",
+        "symbol": "TTFX26.NYM",
+        "exchangeName": "NYM",
+        "fullExchangeName": "NY Mercantile",
+        "instrumentType": "FUTURE",
+        "firstTradeDate": 1606712400,
+        "regularMarketTime": 1793193982,
+        "hasPrePostMarketData": false,
+        "gmtoffset": -14400,
+        "timezone": "EDT",
+        "exchangeTimezoneName": "America/New_York",
+        "regularMarketPrice": 99.9,
+        "regularMarketChangePercent": 1.331,
+        "fulldayPrice": 99.9,
+        "fulldayChange": 1.312,
+        "fulldayChangePercent": 1.331,
+        "fiftyTwoWeekHigh": 100.72,
+        "fiftyTwoWeekLow": 26.306,
+        "regularMarketDayHigh": 99.9,
+        "regularMarketDayLow": 97.525,
+        "regularMarketVolume": 147,
+        "longName": "Dutch TTF Natural Gas Calendar",
+        "shortName": "Dutch TTF Natural Gas Calendar ",
+        "chartPreviousClose": 96.681,
+        "previousClose": 98.588,
+        "scale": 3,
+        "priceHint": 2,
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1793332800,
+            "end": 1793332800,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1793332800,
+            "end": 1793419140,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1793419140,
+            "end": 1793419140,
+            "gmtoffset": -14400
+          }
+        },
+        "tradingPeriods": "                                              start                       end\nDate                                                                         \n2026-10-26 00:00:00-04:00 2026-10-26 00:00:00-04:00 2026-10-26 23:59:00-04:00\n2026-10-27 00:00:00-04:00 2026-10-27 00:00:00-04:00 2026-10-27 23:59:00-04:00\n2026-10-28 00:00:00-04:00 2026-10-28 00:00:00-04:00 2026-10-28 23:59:00-04:00\n2026-10-29 00:00:00-04:00 2026-10-29 00:00:00-04:00 2026-10-29 23:59:00-04:00\n2026-10-30 00:00:00-04:00 2026-10-30 00:00:00-04:00 2026-10-30 23:59:00-04:00",
+        "dataGranularity": "1h",
+        "range": "5d",
+        "validRanges": [
+          "1d",
+          "5d",
+          "1mo",
+          "3mo",
+          "6mo",
+          "1y",
+          "2y",
+          "5y",
+          "10y",
+          "ytd",
+          "max"
+        ],
+        "YF repair?": false
+      }
+    },
+    "agsi": {
+      "obs": [
+        "2026-10-29",
+        74.77,
+        "-0.13"
+      ],
+      "error": null,
+      "norm": [
+        89.67999999999999,
+        94.38,
+        5,
+        [
+          [
+            2021,
+            77.01
+          ],
+          [
+            2022,
+            94.38
+          ],
+          [
+            2023,
+            99.01
+          ],
+          [
+            2024,
+            95.21
+          ],
+          [
+            2025,
+            82.79
+          ]
+        ]
+      ]
+    }
+  }
+}

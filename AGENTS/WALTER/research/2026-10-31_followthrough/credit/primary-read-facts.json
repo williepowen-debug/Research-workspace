@@ -1,0 +1,37 @@
+{
+  "read_at": "2026-10-31T17:40:02.455479+00:00",
+  "sources": [
+    {
+      "url": "https://cdn.fhlb-of.com/files/2026/2026Q3FHLBCombinedOperatingHighlights.pdf",
+      "method": "web tool PDF text read, pages 0 and 4",
+      "publication_date": "2026-10-30",
+      "observation_date": "2026-09-30",
+      "advances_usd_millions": 798428,
+      "prior_20251231_usd_millions": 676711,
+      "qualification": "Preliminary unaudited Highlights, not Combined Financial Report. Local requests download timed out; no local PDF claimed."
+    },
+    {
+      "url": "https://www.dol.gov/ui/data.pdf",
+      "method": "web tool PDF text read, pages 0 and 3",
+      "publication_date": "2026-10-29",
+      "week_ending": "2026-10-24",
+      "initial_claims_sa_first_release": 194000,
+      "prior_week_revised": 195000,
+      "prior_week_first_release": 194000
+    },
+    {
+      "url": "https://www.cbre.com/insights/figures/q3-2026-us-office-market-report",
+      "method": "web page body read",
+      "publication_date": "2026-10-23",
+      "period": "2026Q3",
+      "vacancy_pct": 18.2,
+      "net_absorption_million_sf": 4.9,
+      "qualification": "Provider-specific national evidence, not all properties or every tenant."
+    }
+  ],
+  "access_limits": [
+    "SEC BXMT accession directory was inaccessible through web tool; retained CREED owner primary-read evidence, not claimed freshly independently read",
+    "Trepp latest topic URL inaccessible; bounded October print search returned no new registered monthly release; September publisher evidence retained at its owner date",
+    "No new fund-wide 27-vehicle or eleven-name mREIT census performed; owner October28 and October30 evidence used with dates"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "REGINALD": {
+    "source": "AGENTS/REGINALD/STATUS.md",
+    "owner_vintage": "2026-10-31",
+    "reviewed_at": "2026-10-31T17:42:48Z",
+    "source_sha256": "5d1a3127be73b169149aae33028e62e0ff1a16b51bef4c4f5eccdcb432f620e3",
+    "scope": "lead header and current judgment only"
+  },
+  "HENRY": {
+    "source": "AGENTS/HENRY/STATUS.md",
+    "owner_vintage": "2026-10-31",
+    "reviewed_at": "2026-10-31T17:42:48Z",
+    "source_sha256": "4a6e2e4fe432cf92688c65cc86953d054bca51883cb19545292794999fed03bd",
+    "scope": "lead header and current judgment only"
+  },
+  "NEXUS": {
+    "source": "AGENTS/NEXUS/STATUS.md",
+    "owner_vintage": "2026-10-31",
+    "reviewed_at": "2026-10-31T17:42:48Z",
+    "source_sha256": "ca243d632a5e814fe08a24d03defa60e329ed864248e6b32daf4a3de94f11acc",
+    "scope": "lead header and current judgment only"
+  },
+  "WALTER": {
+    "source": "AGENTS/WALTER/STATUS.md",
+    "owner_vintage": "2026-10-31",
+    "reviewed_at": "2026-10-31T17:42:48Z",
+    "source_sha256": "9cd4e696ad7d4e30d5880dbefd310226231edfabc6f93973750802ec69513fa6",
+    "scope": "lead header and current judgment only"
+  },
+  "ISHM": {
+    "source": "AGENTS/ISHM/STATUS.md",
+    "owner_vintage": "2026-10-31",
+    "reviewed_at": "2026-10-31T17:42:48Z",
+    "source_sha256": "2ccfb5561428c6039de46cc4c61ce842896326436e0abc62695a43805d2a9dfc",
+    "scope": "lead header and current judgment only"
+  }
+}

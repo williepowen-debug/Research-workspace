@@ -1,0 +1,29 @@
+---
+signal_id: "SIG-W-20261031-009"
+timestamp: "2026-10-31T17:41:30Z"
+dispatched: "2026-10-31T17:41:30Z"
+source: "WALTER monitoring follow-through"
+origin: "https://cdn.fhlb-of.com/files/2026/2026Q3FHLBCombinedOperatingHighlights.pdf"
+action: ["REGINALD"]
+info: ["BROCK", "LIQUID", "RED"]
+precedence: "PRIORITY"
+signal_type: "context"
+confidence: 0.94
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+cluster: "BANK_COLLATERAL"
+domain: "BANK_CRE"
+entities: ["FHLB", "Office-of-Finance"]
+word_count: 191
+dispatch_note: "Existing monitoring authorization. No threshold change or new research commission. Required defaults retained under WQ-556 C; no discretionary HENRY/LIQUID/REGINALD/SAM copies."
+---
+# FHLB Q3 preliminary advances fall about 1.5% q/q; November 13 report still governs the trigger
+
+The Office of Finance's October 30 preliminary unaudited Q3 Highlights report **$798.428B advances at September 30**, versus $676.711B at December 31, 2025. Compared with the rounded Q2 carrying value **$810.71B** in REGINALD's primary-read composition report, this is approximately **−$12.3B / −1.5% q/q**. The Q2 district-table par amount $813.30B is a different basis and is not substituted. Exact Q2 million-dollar precision was not reverified.
+
+**This does not complete REG-T-06.** Will's WQ-454.REGT06 B retains the **November 13 Combined Financial Report** as the third eligible observation; the official count remains **2 of 3**, with consequence REVIEW rather than automatic crisis or trade action. The release attributes year-to-date growth primarily to large members, but supplies no new borrower-level breadth verdict here. Preliminary figures may change.
+
+**ACTION REGINALD:** incorporate the Highlights as context in the existing FHLB review while retaining the November 13 grading date and borrower-composition conditions. **INFO BROCK / LIQUID / RED:** bank-funding context, not a new trigger fire or research commission.
+
+Verification: `AGENTS/WALTER/research/2026-10-31_followthrough/credit/fhlb-primary-read.md`; helper read PDF pages 0 and 4 through web. Parent re-open failed and local download timed out; no archived PDF or independent second primary capture claimed. Q2 basis: `AGENTS/REGINALD/research/FHLB/reports/2026-10-10_FHLB_Q2_composition_and_REG-T-06_base_rate.md` §2.

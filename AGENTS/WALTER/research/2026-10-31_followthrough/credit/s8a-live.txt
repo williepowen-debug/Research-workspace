@@ -1,0 +1,38 @@
+S8a — VNQ vs SPY, trailing 63-session relative
+  as of 2026-10-30   (band CREED-T-08a < -10pp, Will-frozen 2026-07-21)
+
+  ── THE SERIES (total-return, last 15 sessions) ──
+    2026-10-12   -9.30pp  ORANGE    ###########################
+    2026-10-13   -9.39pp  ORANGE    ############################
+    2026-10-14  -11.70pp  RED/FIRED ###################################
+    2026-10-15  -11.88pp  RED/FIRED ###################################
+    2026-10-16  -10.07pp  RED/FIRED ##############################
+    2026-10-19  -10.75pp  RED/FIRED ################################
+    2026-10-20   -9.15pp  ORANGE    ###########################
+    2026-10-21  -11.48pp  RED/FIRED ##################################
+    2026-10-22  -10.94pp  RED/FIRED ################################
+    2026-10-23  -10.09pp  RED/FIRED ##############################
+    2026-10-26  -10.47pp  RED/FIRED ###############################
+    2026-10-27  -13.19pp  RED/FIRED #######################################
+    2026-10-28  -11.33pp  RED/FIRED #################################
+    2026-10-29   -7.56pp  YELLOW    ######################
+    2026-10-30   -4.35pp  GREEN     #############
+
+  ── NOISE (this is why a single point is not a read) ──
+    last 10 sessions : mean -9.93pp   stdev 2.46pp
+    full sample n=256 : mean -2.53pp   stdev 5.25pp   range -13.19 to +7.69
+    ⚠ any two-point delta smaller than ~4.9pp is inside this instrument's noise.
+
+  ── BASE RATE (how far is 'far'?) ──
+    below    -5pp :  90/256 sessions (35.2%)   most recent 2026-10-29 (1d ago)
+    below    -8pp :  38/256 sessions (14.8%)   most recent 2026-10-28 (2d ago)
+    below   -10pp :  22/256 sessions ( 8.6%)   most recent 2026-10-28 (2d ago)
+    current reading is 1.1 sigma from the band (sigma = 5.25pp).
+
+  ── THE POINT (quote this LAST, and never alone) ──
+    total-return  -4.35pp   GREEN   (5.65pp from the band)
+    price-only    -4.92pp   GREEN   (5.08pp from the band)
+    basis spread 0.57pp   |   sign robust to basis: YES
+
+  VX-CREED-7.01 stores the TOTAL-RETURN figure. Report the level WITH the
+  10-session stdev; do not characterise a move under ~2 sigma as a trend.

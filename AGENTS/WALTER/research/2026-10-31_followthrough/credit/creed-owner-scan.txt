@@ -1,0 +1,47 @@
+CREED BOOT THRESHOLD SCAN — current values vs FROZEN bands
+  registry: 11 CREED-T rows · 5 comparable · 0 basis-BLOCKED · 6 not scannable
+
+  ── COMPARABLE ──
+  🔴 FIRED    CREED-T-06b  1.0 >= 1.0  — exceeds, and FIRED 2026-08-27. State confirmed, not a new alarm. [VX-CREED-5.03, 2026-10-28]
+  🟠 LEG 1/2  CREED-T-01a  12.16 > 12.0  — leg 1 of 2 on the Sep print (registry state cell recorded 2026-10-22). Sustain NOT met: not a fire. The next print decides. [VX-CREED-1.01, 2026-10-21]
+  ✅ CLEAR    CREED-T-01b  16.85 > 18.0  — 1.15 away (6.4% of band). [VX-CREED-2.01, 2026-10-21]
+  🔴 FIRED    CREED-T-08a  -11.33 < -10.0  — exceeds, and FIRED 2026-09-26. State confirmed, not a new alarm. [VX-CREED-7.01, 2026-10-28]
+  🔴 FIRED    CREED-T-02   68.0 > 50.0  — exceeds, and FIRED 2026-08-20. State confirmed, not a new alarm. [VX-CREED-3.04, 2026-10-21]
+     parsed-from (eyeball these — the cells are prose, not fields):
+       CREED-T-01a     12.16  ←  12.16% [Trepp Sep]
+       CREED-T-01b     16.85  ←  16.85% [Trepp Sep]
+       CREED-T-02       68.0  ←  68% [Trepp Sep] -- 5th consecutive p…
+       CREED-T-06b       1.0  ←  1 gate [SREIT (Starwood REIT) still…
+       CREED-T-08a    -11.33  ←  -11.33pp/3mo TOTAL-RETURN [close 2026-10…
+
+  ── NOT SCANNABLE — enumerated every run, by name and reason ──
+  ·  CREED-T-03   ⚖️ LEVEL LEG SUSPENDED 2026-08-27 (Will-ruled) -- basis re-declared to the QBP nonfarm-nonresidential COMBINED cell; NO replacement level set (n=4 too thin, trap #4). Grades on legs (b) direction + (c) reserve-coverage BY HAND. Level revisit at n=12, header (D).
+  ·  CREED-T-04   no numeric band (op='rising', band='QUALITATIVE -- no numeric band set')
+  ·  CREED-T-05   no numeric band (op='n/a', band='HOMER-OWNED -- CREED does not score this')
+  ·  CREED-T-06   ⚠️ NUMERIC BAND (> 30.0) AND A VECTOR IS WIRED, BUT THE VECTOR'S VALUE CELL IS QUALITATIVE — marked [QUALITATIVE-VALUE]. Wired for EVIDENCE NAVIGATION only. GRADE IT BY HAND; a numeric pass on this row compares prose.
+  ·  CREED-T-07   no numeric band (op='AND', band='REIT selloff AND direct tenant-demand impairment (BOTH legs)')
+  ·  CREED-T-08b  no numeric band (op='AND', band='multi-name cuts AND realized book erosion ACROSS the cohort')
+
+  ── shorthand the scan INTERPRETED (not read literally) ──
+  ·  CREED-T-08b  expanded range shorthand → 5 vectors
+
+  ── n=12 BASE-RATING COUNTER (obligation D; distinct CANONICAL periods in VX_HISTORY) ──
+  ·  CREED-T-01a  VX-CREED-1.01: n=9/12
+  ·  CREED-T-01b  VX-CREED-2.01: n=8/12
+  ·  CREED-T-02   VX-CREED-3.04: n=6/12
+  ·  CREED-T-03   VX-CREED-4.01: n=4/12
+  ·  CREED-T-06   VX-CREED-5.01: n=0/12 (no CANONICAL rows for this vector)
+  ·  CREED-T-06b  VX-CREED-5.03: n=2/12
+  ·  CREED-T-06b  VX-CREED-5.01: n=0/12 (no CANONICAL rows for this vector)
+  ·  CREED-T-08a  VX-CREED-7.01: n=9/12
+  Counts only rows with Role=CANONICAL and a numeric Value; placeholders, duplicates,
+  superseded values, context providers and basis markers are excluded by design.
+  A series is counted only if every CANONICAL row has a real period and a Basis, with one
+  cadence, one Basis and no conflicting period; otherwise it prints ⛔ INVALID, never n or DUE.
+
+  ==========================================================================
+  A numeric pass covers 5 of 11 rows. IT SAYS NOTHING ABOUT THE OTHER 6.
+  This scan CANNOT tell you: whether a band is still the right band; whether a
+  vector's value is fresh or true; whether a qualitative trigger has fired. Those
+  need a session to look. A green here certifies arithmetic on resolvable rows only.
+  ==========================================================================

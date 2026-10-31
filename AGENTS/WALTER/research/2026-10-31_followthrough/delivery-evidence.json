@@ -1,0 +1,249 @@
+{
+  "as_of": "2026-10-31T17:38:25.420276+00:00",
+  "origin_master": "4cf366aa73a5bc3f7e41e16ef53455d6d89cb1e3",
+  "prior_queue_commits": [
+    "eee287123",
+    "a30956e0d"
+  ],
+  "publication_total": 31,
+  "batch": [
+    {
+      "signal_id": "SIG-W-20261031-001",
+      "recipient": "BRENT",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-001.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-001",
+      "recipient": "OSPREY",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261031-001.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-001",
+      "recipient": "YURI",
+      "role": "INFO",
+      "handoff_path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261031-001.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-001",
+      "recipient": "HANS",
+      "role": "INFO",
+      "handoff_path": "AGENTS/HANS/inbox/WALTER/SIG-W-20261031-001.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-001",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "handoff_path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261031-001.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-001",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "handoff_path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261031-001.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-002",
+      "recipient": "HENRY",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261031-002.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-002",
+      "recipient": "VIOLET",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261031-002.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-002",
+      "recipient": "LIQUID",
+      "role": "INFO",
+      "handoff_path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-002.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-002",
+      "recipient": "VULCAN",
+      "role": "INFO",
+      "handoff_path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261031-002.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-003",
+      "recipient": "OSPREY",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261031-003.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-003",
+      "recipient": "BRENT",
+      "role": "INFO",
+      "handoff_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-003.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-003",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "handoff_path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261031-003.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-003",
+      "recipient": "SAM",
+      "role": "INFO",
+      "handoff_path": "AGENTS/SAM/inbox/WALTER/SIG-W-20261031-003.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-004",
+      "recipient": "BRENT",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-004.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-004",
+      "recipient": "OSPREY",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/OSPREY/inbox/WALTER/SIG-W-20261031-004.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-004",
+      "recipient": "YURI",
+      "role": "INFO",
+      "handoff_path": "AGENTS/YURI/inbox/WALTER/SIG-W-20261031-004.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-004",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "handoff_path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261031-004.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-005",
+      "recipient": "FERT",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/FERT/inbox/WALTER/SIG-W-20261031-005.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-005",
+      "recipient": "AEOLUS",
+      "role": "INFO",
+      "handoff_path": "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261031-005.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-005",
+      "recipient": "MARCO",
+      "role": "INFO",
+      "handoff_path": "AGENTS/MARCO/inbox/WALTER/SIG-W-20261031-005.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-005",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "handoff_path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261031-005.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-006",
+      "recipient": "VULCAN",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/VULCAN/inbox/WALTER/SIG-W-20261031-006.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-006",
+      "recipient": "VIOLET",
+      "role": "INFO",
+      "handoff_path": "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261031-006.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-006",
+      "recipient": "HENRY",
+      "role": "INFO",
+      "handoff_path": "AGENTS/HENRY/inbox/WALTER/SIG-W-20261031-006.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-006",
+      "recipient": "WATT",
+      "role": "INFO",
+      "handoff_path": "AGENTS/WATT/inbox/WALTER/SIG-W-20261031-006.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-007",
+      "recipient": "BROCK",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/BROCK/inbox/WALTER/SIG-W-20261031-007.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-007",
+      "recipient": "LIQUID",
+      "role": "INFO",
+      "handoff_path": "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-007.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-007",
+      "recipient": "REGINALD",
+      "role": "INFO",
+      "handoff_path": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-007.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-008",
+      "recipient": "BRENT",
+      "role": "ACTION",
+      "handoff_path": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-008.md",
+      "written_state": "delivered"
+    },
+    {
+      "signal_id": "SIG-W-20261031-008",
+      "recipient": "HAWK",
+      "role": "INFO",
+      "handoff_path": "AGENTS/HAWK/inbox/WALTER/SIG-W-20261031-008.md",
+      "written_state": "delivered"
+    }
+  ],
+  "aged_action_reviews": [
+    {
+      "recipient": "GIBBS",
+      "signal_id": "SIG-W-20261023-009",
+      "evidence": "AGENTS/GIBBS/research/2026-10-23_axp-q3-print.md",
+      "conclusion": "Requested four-item AXP print review independently completed by recipient on October 23; no need to repeat research. Exact signal consumption/filing remains unrecorded.",
+      "commit": "eec95118e",
+      "sha256": "2f8f00e7b64f79ce9492c4350d76a18f8460dc1bddcc77bf502be515b24e761a",
+      "on_origin": true
+    },
+    {
+      "recipient": "CATO",
+      "signal_id": "SIG-W-20261019-012",
+      "evidence": "AGENTS/CATO/runs/2026-10-19_1322_otto-readiness-review.md",
+      "conclusion": "Recipient independent October 19 follow-up incorporates Ally July amendment/cancellation, warehouse forecast 55% to 25%, original scoring and timing caveats. Exact signal receipt not recorded. ROSTER WQ-255 bars routine signal routing to CATO; this historic copy creates no routine obligation or wake.",
+      "commit": "566c749dc",
+      "sha256": "c8992b431b54e2e7cbe29a3064cae0bc624977e0e5bf111978afd5c5b019b57a",
+      "on_origin": true
+    }
+  ],
+  "consumption_claim": "No recipient receipt invented; existing recipient artifacts establish the requested substantive work, not reading of these exact handoffs."
+}

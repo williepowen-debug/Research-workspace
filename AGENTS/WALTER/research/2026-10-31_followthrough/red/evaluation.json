@@ -1,0 +1,42 @@
+{
+  "run_counts": {
+    "FT01_fire": 0,
+    "FT02_reentry": 1,
+    "FT02_exit": 0,
+    "FT06_exit": 0,
+    "FT07_exit": 0,
+    "FT09_fire": 0,
+    "FT12_fire": 0
+  },
+  "FT11": {
+    "start": "2026-10-22",
+    "end": "2026-10-29",
+    "deltas_bp": {
+      "DGS30": "3.00",
+      "DGS5": "0.00",
+      "DGS2": "-4.00",
+      "DGS20": "3.00",
+      "DGS10": "2.00",
+      "T10YIE": "3.00"
+    },
+    "curve_bp": "3.00",
+    "fly_bp": "1.00",
+    "rally_admission": false,
+    "butterfly_admission": false
+  },
+  "Cushing_million": "26.97",
+  "boundary6_provisional_vendor_last_trade": "28.4530",
+  "source_files": {
+    "AGENTS/WALTER/research/2026-10-31_followthrough/red/observations.json": "2521a2558c358223ff65d37c10cf60ffa6302fd97e001856dbda8e0cd8af2409",
+    "AGENTS/WALTER/research/2026-10-31_followthrough/red/SKEW_History.csv": "c3e487bb4731cb56b434a2762b79db11b1771128f49849a8333299242c49e7de",
+    "AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv": "5ec4667eaa53635d653013d8adcd88f1723b04ea5740c85dcab6be4ed5ba8dcb",
+    "AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv": "66d7af2c4083d99e88010437a4a1be22bc7562c11ada8afb9b471fc20dd80ec4"
+  },
+  "as_of": "2026-10-31T17:38:48.265130+00:00",
+  "FT08_rounded_MoM_crosscheck": {
+    "annualized_pct": "3.247216070202248617993734800",
+    "basis": "Rounded Table A monthly percentage changes; not exact published index levels",
+    "registered_basis_regrade": false,
+    "disposition": "Carry prior owner fire, no independent fire/exit grade"
+  }
+}

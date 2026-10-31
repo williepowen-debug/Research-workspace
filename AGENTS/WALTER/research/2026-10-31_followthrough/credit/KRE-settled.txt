@@ -1,0 +1,9 @@
+KRE settled closes (yfinance daily bars, NaN + today's bar excluded) vs Nasdaq historical:
+  2026-10-21  70.62   nasdaq    70.62   agree
+  2026-10-22  72.41   nasdaq    72.41   agree
+  2026-10-23  72.46   nasdaq    72.46   agree
+  2026-10-26  72.73   nasdaq    72.73   agree
+  2026-10-27  72.58   nasdaq    72.58   agree
+  2026-10-28  72.11   nasdaq    72.11   agree
+  2026-10-29  72.86   nasdaq    72.86   agree
+  2026-10-30  72.01   nasdaq    72.01   agree

@@ -1881,3 +1881,5 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-31T16:49:27Z	SIG-W-20261031-006	RESEARCH-INTAKE 2026-10-30	NAND spot price falls; reported Kioxia price growth slows, while Sandisk data-center revenue rises	PRIORITY	VULCAN	VIOLET,HENRY,WATT,RED	0.85
 2026-10-31T16:49:27Z	SIG-W-20261031-007	RESEARCH-INTAKE 2026-10-30	Blue Owl institutional fundraising strength coexists with weaker credit fundraising	PRIORITY	BROCK	LIQUID,REGINALD,RED	0.8
 2026-10-31T16:50:58Z	SIG-W-20261031-008	RESEARCH-INTAKE 2026-10-30	DOE announces final SPR exchange awards; contracted releases are not completed deliveries	PRIORITY	BRENT	HAWK,RED	0.97
+2026-10-31T17:41:30Z	SIG-W-20261031-009	WALTER monitoring follow-through	FHLB Q3 preliminary advances fall about 1.5% q/q; November 13 report still governs the trigger	PRIORITY	REGINALD	BROCK,LIQUID,RED	0.94
+2026-10-31T17:41:30Z	SIG-W-20261031-010	WALTER monitoring follow-through	VNQ versus SPY relative return recovers to −4.35 pp; CREED fire has no automatic exit	PRIORITY	CREED	REGINALD,RED	0.92

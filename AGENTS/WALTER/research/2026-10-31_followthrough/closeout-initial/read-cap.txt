@@ -1,0 +1,86 @@
+READ-CAP [WALTER] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 25 cap-bearing (whole/programmatic) measured, 33 declared-not-counted (scoped/grep/summary), 91 manifest row(s) for this desk; 2 of the measured are MEMBERS of 3 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  🟡 PROME/state/ORCH_INFLIGHT.md         31,968 B    98% of budget  rotate-tier (≥75% of budget)  (whole · WALTER:9b)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 9,184 MORE B to finish rotating. The owner rotates by moving dated history VERBATIM to archive/ with a one-line pointer left behind, or by splitting the file hot/cold. ⛔ Never meet the budget by deleting the spaces between words and numbers (root CLAUDE.md § Output Canon). ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+  🟡 CLAUDE.md                            24,897 B    76% of budget  rotate-tier (≥75% of budget)  (whole · WALTER:runtime)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 2,113 MORE B to finish rotating. The owner rotates by moving dated history VERBATIM to archive/ with a one-line pointer left behind, or by splitting the file hot/cold. ⛔ Never meet the budget by deleting the spaces between words and numbers (root CLAUDE.md § Output Canon). ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+  🟡 AGENTS/WALTER/STATUS.md              24,618 B    76% of budget  rotate-tier (≥75% of budget)  (whole · WALTER:1 · ALSO read whole by NEXUS:6)
+      ↳ rule 5 STOP is <70% of budget (22,785 B): REMOVE 1,834 MORE B to finish rotating. The owner rotates by moving dated history VERBATIM to archive/ with a one-line pointer left behind, or by splitting the file hot/cold. ⛔ Never meet the budget by deleting the spaces between words and numbers (root CLAUDE.md § Output Canon). ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.
+  ✅ AGENTS/WALTER/MEMORY.md              24,405 B    75% of budget    (whole · WALTER:2)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,621 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 7 B.
+  ✅ AGENTS/WALTER/CLAUDE.md              24,017 B    74% of budget    (whole · WALTER:runtime)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,233 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 395 B.
+  ✅ AGENTS/WALTER/REGISTRY.tsv           22,896 B    70% of budget    (whole · WALTER:4)
+      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 112 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. ⚠️ Headroom to the trigger: 1,516 B.
+  ✅ AGENTS/WALTER/design/ROUTING_TABLE.md   22,776 B    70% of budget    (whole · WALTER:6)
+  ✅ AGENTS/WALTER/reading/SIG-W-20260619-008.md   21,889 B    67% of budget    (whole · WALTER:7 · ALSO read whole by REGINALD:CLAUDE.md-Boot-9b-selected)
+  ✅ AGENTS/WALTER/design/ROUTING_OVERLAYS.md   21,692 B    67% of budget    (whole · WALTER:6)
+  ✅ AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv   20,621 B    63% of budget    (whole · WALTER:6b)
+  ✅ AGENTS/WALTER/anchors/IRAN_WAR.md    19,924 B    61% of budget    (whole · WALTER:1)
+  ✅ AGENTS/HANS/registry/THRESHOLDS.tsv   19,632 B    60% of budget    (whole · WALTER:6b)
+  ✅ AGENTS/WALTER/design/THRESHOLD_SCAN.md   16,788 B    52% of budget    (whole · WALTER:6c)
+  ✅ AGENTS/CREED/registry/THRESHOLDS.tsv   16,222 B    50% of budget    (whole · WALTER:6b)
+  ✅ AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv   15,260 B    47% of budget    (whole · WALTER:6b)
+  ✅ AGENTS/WALTER/LAST_COMPLETION.md     14,714 B    45% of budget    (whole · WALTER:3)
+  ✅ AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv   11,488 B    35% of budget    (whole · WALTER:6b)
+  ✅ USER.md                               9,198 B    28% of budget    (whole · WALTER:runtime)
+  ✅ AGENTS/WALTER/design/EVENT_WINDOW_STATE.md    6,157 B    19% of budget    (whole · WALTER:7b)
+  ✅ AGENTS.md                             5,756 B    18% of budget    (whole · WALTER:runtime)
+  ✅ AGENTS/REGINALD/registry/THRESHOLDS.tsv    3,542 B    11% of budget    (whole · WALTER:6b)
+  ✅ AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv    2,933 B     9% of budget    (whole · WALTER:6b)
+  ✅ AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv    2,531 B     8% of budget    (whole · WALTER:6b)
+  ▣ AGENTS/WALTER/inbox/DEWEY/*                  declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 1 member(s) measured, 0 over budget, 0 over the CAP, largest 1,558 B (5% of budget)  (WALTER:7d)
+      1 member(s) all under 70% of budget (<22,785 B)
+  ▣ AGENTS/WALTER/outbox/REQ-*.md                declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 1 member(s) measured, 0 over budget, 0 over the CAP, largest 4,936 B (15% of budget)  (WALTER:9)
+      1 member(s) all under 70% of budget (<22,785 B)
+  ▣ AGENTS/WALTER/inbox/*.md                  —  declared `whole` · CLASS row matched 0 files today (501 files matched historically) — correctly quiet, not counted  (WALTER:7g)
+  ◦ AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv121,774 B  declared `scoped` — not cap-bearing, not counted  (WALTER:6b)
+  ◦ BOARD/INDEX.md                    985,192 B  declared `scoped` — not cap-bearing, not counted  (WALTER:7)
+  ◦ AGENTS/*/STATUS.md                        —  declared `scoped · CLASS row, not a single file` — not cap-bearing, not counted  (WALTER:8)
+  ◦ PROME/STATUS.md                    20,622 B  declared `scoped` — not cap-bearing, not counted  (WALTER:8)
+  ◦ AGENTS/*/handoff_WALTER/LIAISON.md        —  declared `scoped · CLASS row, not a single file` — not cap-bearing, not counted  (WALTER:9)
+  ◦ AGENTS/WALTER/tools/walter_doctor.py171,781 B  declared `summary` — not cap-bearing, not counted  (WALTER:0.5)
+  ◦ AGENTS/WALTER/tools/intake_scan.py 20,058 B  declared `summary` — not cap-bearing, not counted  (WALTER:7e)
+  ◦ scripts/corrections_boot_check.py  55,113 B  declared `summary` — not cap-bearing, not counted  (WALTER:9a)
+  ◦ PROME/tools/reads_check.py         45,998 B  declared `summary` — not cap-bearing, not counted  (WALTER:1)
+  ◦ scripts/read_cap_check.py         146,385 B  declared `summary` — not cap-bearing, not counted  (WALTER:1)
+  ◦ FORGE/tools/market-data/dashboard.py 30,773 B  declared `summary` — not cap-bearing, not counted  (WALTER:6c)
+  ◦ FORGE/tools/market-data/fetch.py   98,813 B  declared `summary` — not cap-bearing, not counted  (WALTER:6c)
+  ◦ AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv 81,726 B  declared `grep` — not cap-bearing, not counted  (WALTER:7d)
+  ◦ AGENTS/WALTER/inbox/WILL/*                —  declared `scoped · CLASS row, not a single file` — not cap-bearing, not counted  (WALTER:7f)
+  ◦ AGENTS/WALTER/registry/corrections_receipts.tsv    368 B  declared `grep` — not cap-bearing, not counted  (WALTER:9a)
+  ◦ AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md142,480 B  declared `scoped` — not cap-bearing, not counted  (WALTER:6c)
+  ◦ AGENTS/WALTER/design/FILTER_SPEC.md 28,682 B  declared `scoped` — not cap-bearing, not counted  (WALTER:7)
+  ◦ FORGE/STATUS.md                    32,413 B  declared `scoped` — not cap-bearing, not counted  (WALTER:7)
+  ◦ AGENTS/RED/CALENDAR.md             10,390 B  declared `scoped` — not cap-bearing, not counted  (WALTER:7)
+  ◦ AGENTS/WALTER/filtered/kill_log.tsv620,121 B  declared `scoped` — not cap-bearing, not counted  (WALTER:7)
+  ◦ AGENTS/WALTER/routed/route_log.tsv1,297,665 B  declared `scoped` — not cap-bearing, not counted  (WALTER:7)
+  ◦ BOARD/SIG-W-*.md                          —  declared `scoped · CLASS row, not a single file` — not cap-bearing, not counted  (WALTER:7)
+  ◦ AGENTS/WALTER/tools/dropzone_scan.py    649 B  declared `summary` — not cap-bearing, not counted  (WALTER:7f)
+  ◦ AGENTS/WALTER/tools/boot_basis_check.py  1,864 B  declared `summary` — not cap-bearing, not counted  (WALTER:0.5)
+  ◦ AGENTS/RED/docket/CATALYSTS.tsv    72,149 B  declared `scoped` — not cap-bearing, not counted  (WALTER:7)
+  ◦ AGENTS/WALTER/tools/signal_read_check.py  4,000 B  declared `summary` — not cap-bearing, not counted  (WALTER:7)
+  ◦ RESEARCH-INTAKE/data/*/news.json          —  declared `scoped · EXTERNAL repo, declared for visibility, not byte-graded` — not cap-bearing, not counted  (WALTER:7e)
+  ◦ PROME/COMPLETION_SPEC.md           18,615 B  declared `scoped` — not cap-bearing, not counted  (WALTER:runtime)
+  ◦ PROME/ORCHESTRATION_PLAYBOOK.md    50,315 B  declared `scoped` — not cap-bearing, not counted  (WALTER:runtime)
+  ◦ AGENTS/WALTER/tools/x_bookmarks_scan.py 31,737 B  declared `summary` — not cap-bearing, not counted  (WALTER:7h)
+  ◦ AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md 39,739 B  declared `scoped` — not cap-bearing, not counted  (WALTER:7h)
+  ◦ AGENTS/WALTER/registry/x_bookmarks_seen.json 38,351 B  declared `summary` — not cap-bearing, not counted  (WALTER:7h)
+  ◦ AGENTS/WALTER/registry/x_bookmarks_pending.json     37 B  declared `summary` — not cap-bearing, not counted  (WALTER:7h)
+  ℹ️ ADVISORY: CLASS row `AGENTS/WALTER/inbox/*.md` (WALTER:7g) declared `whole` matched 0 files today (501 files matched historically) — correctly quiet, not counted
+✅ READ-CAP 0 [WALTER]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (25 measured, 33 declared-not-counted). Perimeter = the desk's own declaration, not a scan.
+  ℹ️  charter AGENTS/WALTER/CLAUDE.md = 24,017 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+   ⚠️  PROME/state/ORCH_INFLIGHT.md ANNOUNCES ITSELF AS GENERATED — every remedy this check names for it, in the
+      table row above (`rotate-tier`) and in any over-budget paragraph, does NOT apply.
+      banner: # ORCH_INFLIGHT — GENERATED in-flight view of `PROME/state/ORCH_LOG.tsv` (DOCKET L262 (a), PROME-ruled 2026-09-04). DO NOT EDIT — regenerated by `scri
+      Rotation is MEANINGLESS (the next generator run restores every byte; a projection
+      has no history to move) and rewording is IMPOSSIBLE (the generator copies its
+      source verbatim). A generated file's SIZE IS NOT A PROPERTY OF ITSELF — it is a
+      function of writing habits on its SOURCE surface. ⇒ This flag is really a flag on
+      the SOURCE and routes to the SOURCE's owner. The only remedies are upstream:
+      narrow the projected column set, or TYPE the source column so narrative cannot
+      enter it. (RED 2026-09-12, on its own FALSIFICATION_TRIGGERS_SCAN.tsv.)
+      ➜ ROUTE TO: PROME   SOURCE(S) the banner names: PROME/state/ORCH_LOG.tsv, scripts/orch_log.py
+        ⚠️  DERIVED from this file's own banner, not adjudicated — confirm before sending. The reader's desk is NOT the owner of these bytes.
+  ℹ️  OWNER-DIRECTED NOTICE [WALTER] (READ_CAP rule 15): no file under AGENTS/WALTER/ is loaded whole by another desk OUTSIDE this desk's own perimeter (manifest scanned, CLASS rows expanded); 2 file(s) this desk also reads are annotated `ALSO read whole by` in the table above — nothing further to report.
+ℹ️  READ-CAP ADVISORY [WALTER]: 1 reading(s) this check will NOT adjudicate (above). ⛔ These do NOT affect rc — the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=WALTER reads=25 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=1 rotation_due=3 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=24017

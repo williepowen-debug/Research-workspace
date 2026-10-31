@@ -1,0 +1,15 @@
+2026-10-31T13:37:27.266094 FRED_FETCH latency=849ms {"series": "BAMLH0A3HYC", "observations": 16}
+2026-10-31T13:37:27.269885 FRED_FETCH latency=842ms {"series": "T5YIFR", "observations": 15}
+2026-10-31T13:37:27.270555 FRED_FETCH latency=853ms {"series": "VIXCLS", "observations": 16}
+2026-10-31T13:37:27.276726 FRED_FETCH latency=861ms {"series": "BAMLH0A0HYM2", "observations": 16}
+2026-10-31T13:37:27.385319 FRED_FETCH latency=968ms {"series": "ICSA", "observations": 16}
+2026-10-31T13:37:27.598009 FRED_FETCH latency=327ms {"series": "DGS10", "observations": 15}
+2026-10-31T13:37:27.642914 FRED_FETCH latency=375ms {"series": "DGS2", "observations": 15}
+2026-10-31T13:37:27.646800 FRED_FETCH latency=376ms {"series": "DGS5", "observations": 15}
+2026-10-31T13:37:27.663209 FRED_FETCH latency=277ms {"series": "DGS30", "observations": 15}
+2026-10-31T13:37:27.930039 FRED_FETCH latency=331ms {"series": "T10YIE", "observations": 15}
+2026-10-31T13:37:28.004600 FRED_FETCH latency=727ms {"series": "DGS20", "observations": 15}
+2026-10-31T13:37:29.045684 FREDV_FETCH latency=670ms {"series": "BAMLH0A0HYM2", "rows": 16, "missing": 0}
+2026-10-31T13:37:29.133331 EIA_FETCH latency=1469ms {"series": "W_EPC0_SAX_YCUOK_MBBL", "observations": 4}
+2026-10-31T13:37:31.989510 PRICE_FETCH latency=3250ms {"tickers": 7, "errors": 0}
+2026-10-31T13:37:34.678026 FRED_ERROR latency=7034ms {"series": "BAMLH0A0E2Y", "error": "HTTP Error 400: Bad Request"}

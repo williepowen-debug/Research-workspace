@@ -1,0 +1,1179 @@
+{
+  "as_of": "2026-10-31T17:37:26.412882+00:00",
+  "BAMLH0A3HYC": [
+    {
+      "date": "2026-10-29",
+      "value": "13.25"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "13.07"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "13.21"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "13.45"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "13.56"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "13.4"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "13.07"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "13.27"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "13.1"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "12.97"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "12.78"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "12.82"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "12.67"
+    },
+    {
+      "date": "2026-10-12",
+      "value": "12.53"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "12.53"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "12.52"
+    }
+  ],
+  "T5YIFR": [
+    {
+      "date": "2026-10-30",
+      "value": "2.22"
+    },
+    {
+      "date": "2026-10-29",
+      "value": "2.23"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "2.27"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "2.25"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "2.21"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "2.2"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "2.19"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "2.34"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "2.31"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "2.32"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "2.33"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "2.31"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "2.34"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "2.33"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "2.32"
+    }
+  ],
+  "VIXCLS": [
+    {
+      "date": "2026-10-29",
+      "value": "17.2"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "16.91"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "17.52"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "18.39"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "19.45"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "19.03"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "16.68"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "17.31"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "18.44"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "19.99"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "16.46"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "16.87"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "15.27"
+    },
+    {
+      "date": "2026-10-12",
+      "value": "15.21"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "14.84"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "15.41"
+    }
+  ],
+  "BAMLH0A0HYM2": [
+    {
+      "date": "2026-10-29",
+      "value": "3.26"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "3.14"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "3.18"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "3.3"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "3.38"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "3.4"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "3.27"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "3.33"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "3.29"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "3.31"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "3.23"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "3.25"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "3.16"
+    },
+    {
+      "date": "2026-10-12",
+      "value": "3.11"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "3.11"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "3.15"
+    }
+  ],
+  "ICSA": [
+    {
+      "date": "2026-10-24",
+      "value": "194000"
+    },
+    {
+      "date": "2026-10-17",
+      "value": "195000"
+    },
+    {
+      "date": "2026-10-10",
+      "value": "200000"
+    },
+    {
+      "date": "2026-10-03",
+      "value": "198000"
+    },
+    {
+      "date": "2026-09-26",
+      "value": "199000"
+    },
+    {
+      "date": "2026-09-19",
+      "value": "198000"
+    },
+    {
+      "date": "2026-09-12",
+      "value": "198000"
+    },
+    {
+      "date": "2026-09-05",
+      "value": "207000"
+    },
+    {
+      "date": "2026-08-29",
+      "value": "207000"
+    },
+    {
+      "date": "2026-08-22",
+      "value": "204000"
+    },
+    {
+      "date": "2026-08-15",
+      "value": "207000"
+    },
+    {
+      "date": "2026-08-08",
+      "value": "212000"
+    },
+    {
+      "date": "2026-08-01",
+      "value": "200000"
+    },
+    {
+      "date": "2026-07-25",
+      "value": "198000"
+    },
+    {
+      "date": "2026-07-18",
+      "value": "189000"
+    },
+    {
+      "date": "2026-07-11",
+      "value": "209000"
+    }
+  ],
+  "DGS10": [
+    {
+      "date": "2026-10-29",
+      "value": "4.98"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "5.05"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "4.99"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "5"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "5"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "4.96"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "5.13"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "5.12"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "5.15"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "5.09"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "5.1"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5.19"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5.21"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "5.24"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "5.22"
+    }
+  ],
+  "DGS2": [
+    {
+      "date": "2026-10-29",
+      "value": "4.61"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "4.67"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "4.7"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "4.68"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "4.69"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "4.65"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "4.81"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "4.79"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "4.77"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "4.74"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "4.77"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "4.82"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "4.79"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "4.8"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "4.75"
+    }
+  ],
+  "DGS5": [
+    {
+      "date": "2026-10-29",
+      "value": "4.78"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "4.85"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "4.82"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "4.84"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "4.82"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "4.78"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "4.95"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "4.94"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "4.94"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "4.89"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "4.91"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "5.02"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "4.99"
+    }
+  ],
+  "DGS30": [
+    {
+      "date": "2026-10-29",
+      "value": "5.32"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "5.37"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "5.3"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "5.31"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "5.33"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "5.29"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "5.42"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "5.42"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "5.48"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "5.43"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "5.43"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5.52"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5.56"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "5.6"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "5.6"
+    }
+  ],
+  "T10YIE": [
+    {
+      "date": "2026-10-30",
+      "value": "2.34"
+    },
+    {
+      "date": "2026-10-29",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "2.38"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "2.34"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "2.34"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "2.32"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "2.37"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "2.32"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "2.35"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "2.33"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "2.33"
+    }
+  ],
+  "DGS20": [
+    {
+      "date": "2026-10-29",
+      "value": "5.35"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "5.41"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "5.34"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "5.35"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "5.37"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "5.32"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "5.47"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "5.47"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "5.53"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "5.47"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "5.48"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5.57"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5.6"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "5.65"
+    },
+    {
+      "date": "2026-10-08",
+      "value": "5.64"
+    }
+  ],
+  "SKEW": [
+    {
+      "DATE": "10/05/2026",
+      "SKEW": "143.040000"
+    },
+    {
+      "DATE": "10/06/2026",
+      "SKEW": "141.210000"
+    },
+    {
+      "DATE": "10/07/2026",
+      "SKEW": "141.840000"
+    },
+    {
+      "DATE": "10/08/2026",
+      "SKEW": "149.190000"
+    },
+    {
+      "DATE": "10/09/2026",
+      "SKEW": "154.340000"
+    },
+    {
+      "DATE": "10/12/2026",
+      "SKEW": "155.060000"
+    },
+    {
+      "DATE": "10/13/2026",
+      "SKEW": "154.740000"
+    },
+    {
+      "DATE": "10/14/2026",
+      "SKEW": "157.300000"
+    },
+    {
+      "DATE": "10/15/2026",
+      "SKEW": "160.450000"
+    },
+    {
+      "DATE": "10/16/2026",
+      "SKEW": "168.590000"
+    },
+    {
+      "DATE": "10/19/2026",
+      "SKEW": "161.860000"
+    },
+    {
+      "DATE": "10/20/2026",
+      "SKEW": "160.400000"
+    },
+    {
+      "DATE": "10/21/2026",
+      "SKEW": "150.360000"
+    },
+    {
+      "DATE": "10/22/2026",
+      "SKEW": "152.390000"
+    },
+    {
+      "DATE": "10/23/2026",
+      "SKEW": "151.800000"
+    },
+    {
+      "DATE": "10/26/2026",
+      "SKEW": "150.970000"
+    },
+    {
+      "DATE": "10/27/2026",
+      "SKEW": "149.220000"
+    },
+    {
+      "DATE": "10/28/2026",
+      "SKEW": "148.740000"
+    },
+    {
+      "DATE": "10/29/2026",
+      "SKEW": "151.030000"
+    },
+    {
+      "DATE": "10/30/2026",
+      "SKEW": "149.760000"
+    }
+  ],
+  "HY_first_published": {
+    "basis": "first-published",
+    "series": "BAMLH0A0HYM2",
+    "rows": [
+      {
+        "date": "2026-10-29",
+        "value": "3.26",
+        "first_published": "2026-10-29"
+      },
+      {
+        "date": "2026-10-28",
+        "value": "3.14",
+        "first_published": "2026-10-28"
+      },
+      {
+        "date": "2026-10-27",
+        "value": "3.18",
+        "first_published": "2026-10-27"
+      },
+      {
+        "date": "2026-10-26",
+        "value": "3.3",
+        "first_published": "2026-10-26"
+      },
+      {
+        "date": "2026-10-23",
+        "value": "3.38",
+        "first_published": "2026-10-23"
+      },
+      {
+        "date": "2026-10-22",
+        "value": "3.4",
+        "first_published": "2026-10-22"
+      },
+      {
+        "date": "2026-10-21",
+        "value": "3.27",
+        "first_published": "2026-10-21"
+      },
+      {
+        "date": "2026-10-20",
+        "value": "3.33",
+        "first_published": "2026-10-20"
+      },
+      {
+        "date": "2026-10-19",
+        "value": "3.29",
+        "first_published": "2026-10-19"
+      },
+      {
+        "date": "2026-10-16",
+        "value": "3.31",
+        "first_published": "2026-10-16"
+      },
+      {
+        "date": "2026-10-15",
+        "value": "3.23",
+        "first_published": "2026-10-15"
+      },
+      {
+        "date": "2026-10-14",
+        "value": "3.25",
+        "first_published": "2026-10-14"
+      },
+      {
+        "date": "2026-10-13",
+        "value": "3.16",
+        "first_published": "2026-10-13"
+      },
+      {
+        "date": "2026-10-12",
+        "value": "3.11",
+        "first_published": "2026-10-12"
+      },
+      {
+        "date": "2026-10-09",
+        "value": "3.11",
+        "first_published": "2026-10-09"
+      },
+      {
+        "date": "2026-10-08",
+        "value": "3.15",
+        "first_published": "2026-10-08"
+      }
+    ],
+    "request": {
+      "series_id": "BAMLH0A0HYM2",
+      "output_type": 4,
+      "observation_start": "2026-09-06",
+      "realtime_start": "2026-08-23",
+      "realtime_end": "9999-12-31",
+      "limit": 16
+    },
+    "short": false,
+    "missing": [],
+    "under_limit": false
+  },
+  "Cushing": [
+    {
+      "date": "2026-10-23",
+      "value": "26970"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "27594"
+    },
+    {
+      "date": "2026-10-09",
+      "value": "26607"
+    },
+    {
+      "date": "2026-10-02",
+      "value": "24745"
+    }
+  ],
+  "probe_BZ": {
+    "root": "BZ",
+    "continuous": "BZ=F",
+    "continuous_price": 113.43,
+    "continuous_time": 1793393997,
+    "candidates": {
+      "BZZ26.NYM": 117.64,
+      "BZF27.NYM": 113.43,
+      "BZG27.NYM": 109.56
+    },
+    "candidate_times": {
+      "BZZ26.NYM": 1793384774,
+      "BZF27.NYM": 1793393997,
+      "BZG27.NYM": 1793393990
+    },
+    "candidate_age_s": {
+      "BZZ26.NYM": 9223,
+      "BZF27.NYM": 0,
+      "BZG27.NYM": 7
+    },
+    "attempted": [
+      "BZV26.NYM",
+      "BZX26.NYM",
+      "BZZ26.NYM",
+      "BZF27.NYM",
+      "BZG27.NYM"
+    ],
+    "dropped": {
+      "BZV26.NYM": "KeyError",
+      "BZX26.NYM": "KeyError"
+    },
+    "verdict": "IDENTIFIED",
+    "tracking": "BZF27.NYM",
+    "control": "passed-distinct-prices-but-stale-candidates:['BZZ26.NYM']",
+    "cross_check": "no-vendor-name-to-compare"
+  },
+  "probe_CL": {
+    "root": "CL",
+    "continuous": "CL=F",
+    "continuous_price": 104.12,
+    "continuous_time": 1793393999,
+    "candidates": {
+      "CLZ26.NYM": 104.12,
+      "CLF27.NYM": 102.21,
+      "CLG27.NYM": 99.94
+    },
+    "candidate_times": {
+      "CLZ26.NYM": 1793393999,
+      "CLF27.NYM": 1793393999,
+      "CLG27.NYM": 1793393997
+    },
+    "candidate_age_s": {
+      "CLZ26.NYM": 0,
+      "CLF27.NYM": 0,
+      "CLG27.NYM": 2
+    },
+    "attempted": [
+      "CLV26.NYM",
+      "CLX26.NYM",
+      "CLZ26.NYM",
+      "CLF27.NYM",
+      "CLG27.NYM"
+    ],
+    "dropped": {
+      "CLV26.NYM": "KeyError",
+      "CLX26.NYM": "KeyError"
+    },
+    "verdict": "IDENTIFIED",
+    "tracking": "CLZ26.NYM",
+    "control": "passed-distinct-prices",
+    "cross_check": "agrees-with-vendor-name:CLZ26"
+  },
+  "probe_RB": {
+    "root": "RB",
+    "continuous": "RB=F",
+    "continuous_price": 3.1565,
+    "continuous_time": 1793393993,
+    "candidates": {
+      "RBX26.NYM": 3.312,
+      "RBZ26.NYM": 3.1565,
+      "RBF27.NYM": 3.0976,
+      "RBG27.NYM": 3.0671
+    },
+    "candidate_times": {
+      "RBX26.NYM": 1793384781,
+      "RBZ26.NYM": 1793393993,
+      "RBF27.NYM": 1793393977,
+      "RBG27.NYM": 1793393998
+    },
+    "candidate_age_s": {
+      "RBX26.NYM": 9212,
+      "RBZ26.NYM": 0,
+      "RBF27.NYM": 16,
+      "RBG27.NYM": 5
+    },
+    "attempted": [
+      "RBV26.NYM",
+      "RBX26.NYM",
+      "RBZ26.NYM",
+      "RBF27.NYM",
+      "RBG27.NYM"
+    ],
+    "dropped": {
+      "RBV26.NYM": "KeyError"
+    },
+    "verdict": "IDENTIFIED",
+    "tracking": "RBZ26.NYM",
+    "control": "passed-distinct-prices-but-stale-candidates:['RBX26.NYM']",
+    "cross_check": "agrees-with-vendor-name:RBZ26"
+  },
+  "prices": {
+    "CLZ26.NYM": {
+      "price": 104.12,
+      "prev": 102.0,
+      "change_pct": 2.08,
+      "name": "CLZ26.NYM",
+      "volume": 262537,
+      "asof": "2026-10-30",
+      "prev_asof": "2026-10-29",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "CLZ26",
+      "session": "day",
+      "trade_date": "2026-10-30",
+      "session_basis": "day session; last trade 2026-10-30 16:59:59 [America/New_York] vs bar 2026-10-30; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-29)"
+    },
+    "BZZ26.NYM": {
+      "price": 117.64,
+      "prev": 114.88,
+      "change_pct": 2.4,
+      "name": "BZZ26.NYM",
+      "volume": 6774,
+      "asof": "2026-10-30",
+      "prev_asof": "2026-10-29",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ'",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": null,
+      "session": "day",
+      "trade_date": "2026-10-30",
+      "session_basis": "day session; last trade 2026-10-30 14:26:14 [America/New_York] vs bar 2026-10-30; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-29)"
+    },
+    "RBZ26.NYM": {
+      "price": 3.16,
+      "prev": 3.09,
+      "change_pct": 2.21,
+      "name": "RBZ26.NYM",
+      "volume": 74838,
+      "asof": "2026-10-30",
+      "prev_asof": "2026-10-29",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "RBZ26",
+      "session": "day",
+      "trade_date": "2026-10-30",
+      "session_basis": "day session; last trade 2026-10-30 16:59:53 [America/New_York] vs bar 2026-10-30; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-29)"
+    },
+    "HOZ26.NYM": {
+      "price": 4.68,
+      "prev": 4.59,
+      "change_pct": 1.93,
+      "name": "HOZ26.NYM",
+      "volume": 66028,
+      "asof": "2026-10-30",
+      "prev_asof": "2026-10-29",
+      "contract_month": "Dec 2026",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "HOZ26",
+      "session": "day",
+      "trade_date": "2026-10-30",
+      "session_basis": "day session; last trade 2026-10-30 16:59:59 [America/New_York] vs bar 2026-10-30; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-29)"
+    },
+    "BZF27.NYM": {
+      "price": 113.43,
+      "prev": 110.8,
+      "change_pct": 2.37,
+      "name": "BZF27.NYM",
+      "volume": 38567,
+      "asof": "2026-10-30",
+      "prev_asof": "2026-10-29",
+      "contract_month": null,
+      "contract_basis": "name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ'",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": null,
+      "session": "day",
+      "trade_date": "2026-10-30",
+      "session_basis": "day session; last trade 2026-10-30 16:59:57 [America/New_York] vs bar 2026-10-30; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-29)"
+    },
+    "RBF27.NYM": {
+      "price": 3.1,
+      "prev": 3.03,
+      "change_pct": 2.21,
+      "name": "RBF27.NYM",
+      "volume": 45046,
+      "asof": "2026-10-30",
+      "prev_asof": "2026-10-29",
+      "contract_month": "Jan 2027",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "RBF27",
+      "session": "day",
+      "trade_date": "2026-10-30",
+      "session_basis": "day session; last trade 2026-10-30 16:59:37 [America/New_York] vs bar 2026-10-30; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-29)"
+    },
+    "HOF27.NYM": {
+      "price": 4.58,
+      "prev": 4.5,
+      "change_pct": 1.82,
+      "name": "HOF27.NYM",
+      "volume": 33995,
+      "asof": "2026-10-30",
+      "prev_asof": "2026-10-29",
+      "contract_month": "Jan 2027",
+      "contract_basis": "vendor-shortName",
+      "instrument_type": "FUTURE",
+      "is_future": true,
+      "contract_symbol": "HOF27",
+      "session": "day",
+      "trade_date": "2026-10-30",
+      "session_basis": "day session; last trade 2026-10-30 16:59:36 [America/New_York] vs bar 2026-10-30; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+      "change_basis": "regularMarketPreviousClose (prior bar 2026-10-29)"
+    }
+  },
+  "probe_HO": {
+    "root": "HO",
+    "continuous": "HO=F",
+    "continuous_price": 4.6761,
+    "continuous_time": 1793393999,
+    "candidates": {
+      "HOX26.NYM": 4.791,
+      "HOZ26.NYM": 4.6761,
+      "HOF27.NYM": 4.582,
+      "HOG27.NYM": 4.4868
+    },
+    "candidate_times": {
+      "HOX26.NYM": 1793384697,
+      "HOZ26.NYM": 1793393999,
+      "HOF27.NYM": 1793393976,
+      "HOG27.NYM": 1793393990
+    },
+    "candidate_age_s": {
+      "HOX26.NYM": 9302,
+      "HOZ26.NYM": 0,
+      "HOF27.NYM": 23,
+      "HOG27.NYM": 9
+    },
+    "attempted": [
+      "HOV26.NYM",
+      "HOX26.NYM",
+      "HOZ26.NYM",
+      "HOF27.NYM",
+      "HOG27.NYM"
+    ],
+    "dropped": {
+      "HOV26.NYM": "KeyError"
+    },
+    "verdict": "IDENTIFIED",
+    "tracking": "HOZ26.NYM",
+    "control": "passed-distinct-prices-but-stale-candidates:['HOX26.NYM']",
+    "cross_check": "agrees-with-vendor-name:HOZ26"
+  },
+  "BAMLH0A0E2Y": [
+    {
+      "error": "HTTP Error 400: Bad Request"
+    }
+  ]
+}
