@@ -1,12 +1,14 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-10-31T23:06:13Z. Will-launched Codex/OpenAI session; exact serving model unknown. FULL outbox cleanup closeout.
+Updated 2026-10-31T23:26:48Z. Will-launched Codex/OpenAI session; exact serving model unknown. FULL approved burst-window retirement closeout.
 
 ## STATUS
 
-ACTIVE and routing-ready. Boot remains PARTIAL on preserved source, owner-evidence and global-visibility limits. Prior cleanup publication and registrar follow-through are verified complete; this outbox pass requires its own coordinated publication. The implemented WALTER cleanup is validated; no blanket market clearance or new threshold fire/exit.
+ACTIVE and routing-ready. Boot remains PARTIAL on preserved source, owner-evidence and global-visibility limits. Prior cleanup/outbox publication and earlier registrar follow-through are verified complete. Burst-window retirement is implemented locally; its central READ-row transcription and coordinated publication remain distinct. The implemented WALTER cleanup is validated; no blanket market clearance or new threshold fire/exit.
 
 ## CHANGED
+
+Implemented Will’s explicit approval (“ok go ahead”) of the explained burst-window retirement. EVENT_WINDOW_STATE is a retired CLOSED tombstone; original logs preserved verbatim and full procedure recoverable in git. Boot7b read, Phase2.5 blanket FLASH override, activation/verification/staleness checks and daily/closing summaries removed. Normal per-signal FLASH and BRENT’s current domain tests/grades unchanged. FORMAT v0.29 keeps the legacy enum readable; new dispatches omit event_window or use closed. FILTER v0.10, CHECKLIST/THRESHOLD_SCAN v0.56; threshold body unchanged. Five changed basis files reviewed and hashed. PROME gets exact central READ retirement/transcription request; BRENT gets informational note. Evidence: research/2026-10-31_burst-window-retirement/REVIEW.md.
 
 Completed the authorized outbox archival pass: 12 completed notification/closeout records moved byte-identically; 61 original top-level artifacts preserved for evidence references, relative paths or uncertain/open matters. Added outbox README plus a dated disposition/hash manifest. No new checker or source/owner closure inferred. Evidence: research/2026-10-31_outbox-cleanup/REVIEW.md.
 
@@ -15,7 +17,7 @@ PROME registrar confirmation consumed; retired phone hash removed after exact ro
 
 Implemented the authorized process/check cleanup. Doctor: 31 routine checks plus 4 static checks on edits (previously 38 every scan); retired cron/TERRY checks and Cushing credential probe removed. Valid block-style action lists pass; malformed/header-spoof guards remain. Outbox reporting compacted without declaring requests complete. Closeout outputs consolidated into one checks.json; history retained in git.
 
-COP and operative Telegram/runtime instructions reconciled; phone setup and legacy migration/news-sweep references bannered historical. Routing family v0.51, CHECKLIST/THRESHOLD_SCAN v0.55, delivery v0.36, filter v0.9 and operator brief v0.4. No domain route/threshold, delivery/correction protection or burst-window policy change. Review: research/2026-10-31_process-cleanup/REVIEW.md. Local ignored Telegram bootstrap permissions removed.
+COP and operative Telegram/runtime instructions reconciled; phone setup and legacy migration/news-sweep references bannered historical. The earlier cleanup landed routing family v0.51, CHECKLIST/THRESHOLD_SCAN v0.55, delivery v0.36, filter v0.9 and operator brief v0.4. Its domain route/threshold and delivery/correction protections are unchanged; subsequent burst retirement and versions are recorded above. Review: research/2026-10-31_process-cleanup/REVIEW.md. Local ignored Telegram bootstrap permissions removed.
 
 Completed the authorized boundary 7 reconciliation: routing v0.50 retires the stale +50-from-408 alert prospectively, preserves historical 458 versus closed BRT-26 457 identities, and commissions no replacement. Card022 and two required handoffs plus R1 correction written. May draft bannered historical; parent/companions/STATE synchronized.
 
@@ -29,9 +31,11 @@ CME preliminary December CL/RB/HO = 104.12 / 3.1565 / 4.6761; HO×42−CL = 92.2
 
 Local Codex inventory succeeded at 19:50:18Z: WALTER active, CATO idle, six helpers. Claude inventory at 19:53:32Z identifies PROME interactive idle. Other desks are UNKNOWN, not DARK. Eight threads are not eight domain desks; idle is not closed. No owner launch, cross-session message or doorbell.
 
-All 43 other-owner STATUS lead blocks remain unchanged from the previous manual review; WALTER mirror refreshed before NETWORK AWARENESS. Current FULL review clears the prior LIGHT deferral. Fresh origin proves 7bf36fa9a/a88c01e3e and PROME transcription 91e310264. All 74 October 31 handoffs now origin-proven, including card022; recipient consumption remains separate.
+Forty-two other-owner STATUS lead blocks remain unchanged from the prior review; PROME’s October31 closeout header was reviewed and mirrored. WALTER mirror refreshed before NETWORK AWARENESS. Current FULL review clears the prior LIGHT deferral. Fresh origin proves 7bf36fa9a/a88c01e3e and PROME transcription 91e310264. All 74 October 31 handoffs now origin-proven, including card022; recipient consumption remains separate.
 
 ## GAPS
+
+- Burst-window retirement: WALTER implementation complete. PROME central READ row at WALTER:7b still needs retirement/transcription; exact packet PROME/inbox/2026-10-31_from-WALTER_burst-window-retirement-reads.md. No event-window BASIS row exists. Publication and recipient consumption remain separate.
 
 - Attestation gap CLOSED: central READS is attested October 31, L845 resolved. Subsequent WQ-578 root delta and ten cleanup-owned basis deltas reviewed and hashes updated; cleanup transcription/phone-BASIS retirement verified complete, local hash removed. Root/shared rotation warnings remain PROME-owned; source coverage is separate from these checks.
 - Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
@@ -44,13 +48,13 @@ All 43 other-owner STATUS lead blocks remain unchanged from the previous manual 
 
 ## WILL_NEEDS
 
-Authorized cleanup implemented and validated. The legacy burst-window retirement remains a separate policy decision, unchanged in this pass. No new checker or replacement monitoring system. Conservative outbox archival pass is complete: 12 moved, 61 retained with recorded reasons. Referenced history and unresolved/uncertain matters remain preserved; they are not bulk-deletion candidates.
+Authorized cleanup implemented. Will approved the legacy burst-window retirement; it is implemented and no further retirement decision is owed. No new checker or replacement monitoring system. Conservative outbox archival pass is complete: 12 moved, 61 retained with recorded reasons. Referenced history and unresolved/uncertain matters remain preserved; they are not bulk-deletion candidates.
 
 No new decision required for the completed oil-rig reconciliation. Registrar transcription and prior repair publication are verified complete. WQ-556 C remains active: required routes retained, discretionary INFO trimmed, no digest or new exemption. Source/feed reinstatement and CREED launch retain their existing approval conditions; none inferred from this repair. Cards 020–021 and the administrative packet are published. This maintenance follows the existing coordinated-publication rule; no automatic self-push authority is inferred. Card022 and its two handoffs are now origin-proven; no recipient consumption claimed.
 
 ## FOLLOW-UP
 
-1. Prior attestation/L845 and publication repair CLOSED. Cleanup registrar packet: PROME/inbox/2026-10-31_from-WALTER_process-cleanup-owner-followthrough.md; phone BASIS removal/transcription verified; local basis now 28. Legacy VPS gap closed by Will’s confirmation at owner commit 61b16595a. Prior cleanup published; publish this archive pass in the next coordinated window. PROME owns bridge repair L907; retain current positive-only runtime visibility until the adapter is repaired and verified.
+1. Prior attestation/L845 and publication repair CLOSED. Cleanup registrar packet: PROME/inbox/2026-10-31_from-WALTER_process-cleanup-owner-followthrough.md; phone BASIS removal/transcription verified; local basis now 28. Legacy VPS gap closed by Will’s confirmation at owner commit 61b16595a. Prior cleanup and archive pass published; publish the burst-retirement payload in the next coordinated window and have PROME retire the exact central READ row/transcribe the five-file basis review. PROME owns bridge repair L907; retain current positive-only runtime visibility until the adapter is repaired and verified.
 2. All 74 daily handoffs are delivered, including 020–022. Boundary 7 repair and its publication are complete. BRENT/HANS/TERRY integration of source repairs is not yet evidenced; use normal owner receipts, not duplicate dispatches or artificial acknowledgment requests.
 3. Monday November 2: FRED HY/VIXCLS October 30 release check, final dated CME bulletin, boundary 8 January switch/new count with missing ICE leg explicit. November 1 OPEC+ and Sinokor legal-action date, existing Iran answer/Qatar draft, DEWEY 005R and LIQUID October issuance carries unchanged.
 4. November 3: midterms and NEXUS weekly; central attestation checkpoint L845 is resolved. November 4: Cushing, GATE-FALCON-001 review, CF Q3. November 5: Iran full sweep, MEMORY calendar check and NREF Q3 (secondary date). November 6: L334 predictive leg, WQ-556 C check and STWD/ACRE cohort releases. November 11: Veterans Day HY non-session bridge. Around November 12: staleness sweep. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit unchanged.
@@ -72,20 +76,20 @@ Approval: “okay approving your recs for #4. You can do that when free/after ou
 Other gaps, including HANS T12's missing feed and owner-method decisions, remain as previously recorded. This approval supplies neither an instrument nor a grade and does not close unrelated obligations.
 ## OPEN DESIGN DECISIONS
 
-Authorized first cleanup pass implemented; results at research/2026-10-31_process-cleanup/REVIEW.md. Burst-window retirement remains a separate policy decision. Outbox archive pass complete with reference-protected/uncertain records retained. Registrar and legacy VPS gaps closed at owner evidence; remaining bridge work retains its owner. Existing approvals below are preserved.
+Authorized first cleanup pass implemented; results at research/2026-10-31_process-cleanup/REVIEW.md. Burst-window retirement approved and implemented; central transcription/publication are follow-through, not a new policy decision. Outbox archive pass complete with reference-protected/uncertain records retained. Registrar and legacy VPS gaps closed at owner evidence; remaining bridge work retains its owner. Existing approvals below are preserved.
 
-Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C7, 63a16b4); WATCH_FOR["CYPHER"] pending CYPHER adoption (WQ-295 R3); when:7d open (WALTER). Still open: VX-CYP tags, AI_INFRA_CAPEX re-cut, verdict-letter F1/F2, L730 re-scope, staleness-sweep P2, CRUISE miss option 2, lane dateline flag; missed-data-day BOARD coverage and unscanned boundary #8 fallback remain pending design findings. Prior approvals remain intact; cleanup versions are routing v0.51 and checklist v0.55, with unchanged domain/threshold semantics.
+Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C7, 63a16b4); WATCH_FOR["CYPHER"] pending CYPHER adoption (WQ-295 R3); when:7d open (WALTER). Still open: VX-CYP tags, AI_INFRA_CAPEX re-cut, verdict-letter F1/F2, L730 re-scope, staleness-sweep P2, CRUISE miss option 2, lane dateline flag; missed-data-day BOARD coverage and unscanned boundary #8 fallback remain pending design findings. Prior approvals remain intact; current versions are routing v0.51, FORMAT v0.29, FILTER v0.10 and CHECKLIST/THRESHOLD_SCAN v0.56, with unchanged domain/threshold semantics.
 
 
 
 ## CLOSEOUT RECEIPT
 
-FULL outbox archival pass; prior source/owner limits preserved. Prior cleanup publication is verified; archive payload 0e5cfdb47 publication is pending against freshly fetched origin. Hash-bound manual review and dispositions below. Existing daily cohort remains 74/74 origin-proven, consumption separate. Next source review November 2; earlier dated duties remain above.
+FULL approved burst-window retirement. Original logs and normal FLASH rules retained; no new market scan or domain grade. Prior archive payload is origin-proven. New maintenance payload awaits exact commit and coordinated publication; central READ retirement remains owner follow-through. Existing daily cohort remains74/74 delivered, consumption separate. Hash-bound review below; earlier scheduled duties remain above.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T23:08:01Z",
+  "as_of": "2026-10-31T23:26:48Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -150,8 +154,8 @@ FULL outbox archival pass; prior source/owner limits preserved. Prior cleanup pu
     },
     {
       "commit": "0e5cfdb479396382047a2fd40b8ee17550fbcce6",
-      "state": "pending",
-      "note": "Outbox archive/continuity payload: 12 exact archive moves, consumed registrar packet, local phone basis removal and dated review. Ordinary maintenance publication remains coordinated."
+      "state": "published",
+      "note": "Prior outbox archival pass verified on freshly fetched origin during burst-window retirement."
     }
   ],
   "delivery": {
@@ -164,28 +168,24 @@ FULL outbox archival pass; prior source/owner limits preserved. Prior cleanup pu
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-31_outbox-cleanup/REVIEW.md",
-        "sha256": "f2fd90119263b83d95a1a520b372a4a0c1acf6f2f4e645bb789b8db6f4416249"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_outbox-cleanup/DISPOSITIONS.tsv",
-        "sha256": "d2a6d2bb1861fbe765ed082dea3fcf8875537d78dc6335affebf613aad351aa9"
+        "path": "AGENTS/WALTER/research/2026-10-31_burst-window-retirement/REVIEW.md",
+        "sha256": "ec07b4a470423e593b4c39713c98d76b6f7cfc77fc3f4ae78afacbda208d3364"
       }
     ]
   },
   "procedure": {
     "tier": "full",
     "boot": "PARTIAL: existing source, owner-evidence and full-fleet visibility limits retained; rig mismatch closed.",
-    "session": "Conservative outbox archive pass and owner follow-through reconciliation; no new code/spec, dispatch, market scan or helper."
+    "session": "Will-approved legacy burst-window retirement; owner/dependent docs, basis review, continuity and create-only administrative packets. No new dispatch, market scan or helper."
   },
   "manual_duties": {
-    "0-9b": "Existing source/owner/global-visibility gaps retained; no new boot claim. Registrar packet integrated and consumed, phone BASIS hash removed after transcription.",
-    "11": "No signal/content batch or handoff created; 74 daily handoffs retain prior delivery proof, consumption remains separate.",
-    "12-14": "43 other-owner lead hashes unchanged; self REGISTRY before NETWORK, dated levels retained, BALANCED/CLOSED. SESSION_LOG/MEMORY refreshed; no full deferral or promotion.",
-    "root.retirement": "Explicitly authorized 12 byte-identical receipt archives; all 73 top-level originals checked for reference constraints. Protected/uncertain originals retained. No historical obligation closed by file age.",
-    "15": "Preserved scheduled duties and source-search approvals; closed only proven phone/registrar/VPS/publication carries. Current record references dated review and manifest.",
-    "16": "Archive payload 0e5cfdb479396382047a2fd40b8ee17550fbcce6 committed with exact paths; 13 byte-identical renames and owned continuity only. Publication pending against freshly fetched origin. No foreign edits or self-push.",
-    "checks": "All 73 original hashes conserved; README links PASS; 13 archive pairs PASS. Full runner receipt/read-cap/archives/weekdays/basis (28)/READS/memory PASS; one known CATO consumption MED and unchanged-event-ledger nudge retained with disposition. No tests for byte-identical moves."
+    "0-9b": "Earlier boot remains PARTIAL on source/owner/global visibility. Retired step7b approved; five changed basis files content-reviewed and hashes renewed. Other boot reads retained. No new complete-boot claim.",
+    "11": "No signal/content batch or market handoff; two administrative protocol packets only. Prior 74 daily handoffs remain delivered; consumption separate.",
+    "12-14": "42 other-owner lead hashes unchanged; PROME new October31 header reviewed and mirrored, self REGISTRY before NETWORK. Dated prices retained, BALANCED, legacy window retired CLOSED. SESSION_LOG/MEMORY updated; no full deferral or promotion.",
+    "root.retirement": "Approved procedure retired in place with exact original logs and git provenance; previous outbox archival pass complete. No historical source or unresolved obligation deleted.",
+    "15": "Existing source duties, search approvals and independent design questions retained. Burst decision closed on explicit approval; exact PROME registrar/publication follow-through retained.",
+    "16": "Exact owned paths plus two self-authored inbox packets planned; coordinated publication only. No foreign owner files edited or self-push. Rule6 discovery positive PROME busy via existing bridge; full fleet coverage UNKNOWN, no exposed verified native messaging tool, live notification not claimed.",
+    "checks": "Receipt/read-cap/archive/weekday/basis28/READS/memory99 PASS. Spec/companion/boot-reference checks PASS. One inherited CATO consumption MED retained; unchanged event-ledger nudge dispositioned. No new defects or tests required. Exact original log content retained and threshold body unchanged."
   }
 }
 END_CLOSEOUT_RECEIPT -->

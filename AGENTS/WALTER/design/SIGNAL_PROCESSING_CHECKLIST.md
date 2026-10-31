@@ -1,5 +1,5 @@
 # WALTER Signal Processing Checklist
-**Version:** 0.55 | **Date:** October 31, 2026 — remove retired COP workflow and reconcile active-session transport; THRESHOLD_SCAN lockstep, scan behavior unchanged.
+**Version:** 0.56 | **Date:** October 31, 2026 — Will-approved burst-window retirement; Phase 2.5 tombstone and legacy field guidance. THRESHOLD_SCAN lockstep; scan behavior unchanged. Prior v0.55 removed COP workflow and reconciled transport.
 
 Previous header/version narrative is preserved in git at c7f5230ac; older dated examples below are historical.
 
@@ -25,7 +25,7 @@ Previous header/version narrative is preserved in git at c7f5230ac; older dated 
 
 ## v0.13 Item — Inline Cross-Reference
 
-**Paired same-channel dispatch (Phase 2.6)** — applied at dispatch-batch shaping, after Phase 2.5 event-window check and before Phase 2.7 composite-bifurcation tagging. **Trigger:** two or more signals in the same session share one transmission channel — same mechanism the substance rides, not merely same cluster (de-dollarization axis; Phase-2 oil-thesis supply channel; a single conflict-escalation arc). **Action:** dispatch as an explicitly cross-referenced pair: (a) mutual signal-ID cross-reference in both dispatch_notes naming the shared channel; (b) paired framing in both INDEX cells ("pairs SIG-... same session"); (c) same-session timing so recipients encounter them together. **Why:** the pairing itself carries the channel-level read neither signal carries alone (e.g., CB-gold-rising + foreign-CB-UST-share-falling = composition-shift narrative only visible as a pair); recipients consume one structure instead of reassembling it from separate dispatches. **Distinct from Phase 1b same-theme combine:** 1b merges duplicate-origin tellings of ONE story into ONE signal; 2.6 keeps TWO distinct stories as separate signals but binds them. Distinct from Phase 2.7: 2.7 tags N orthogonal *layers* at batch level; 2.6 binds 2+ signals on ONE shared channel. **Promotion record:** pattern pre-registered at 2nd instance (6/06 PM-3 closeout), trigger set at 3rd; fired 6/10. Instances: 6/06 PM-2 de-dollarization (SIG-W-20260606-001 + -002), 6/06 PM-3 Phase-2 oil-thesis (SIG-W-20260606-003 + -004), 6/10 Iran multi-front (SIG-W-20260610-001 + -002). Will sign-off 2026-06-10.
+**Paired same-channel dispatch (Phase 2.6)** — applied at dispatch-batch shaping, after Phase 2 classification (Phase 2.5 retired) and before Phase 2.7 composite-bifurcation tagging. **Trigger:** two or more signals in the same session share one transmission channel — same mechanism the substance rides, not merely same cluster (de-dollarization axis; Phase-2 oil-thesis supply channel; a single conflict-escalation arc). **Action:** dispatch as an explicitly cross-referenced pair: (a) mutual signal-ID cross-reference in both dispatch_notes naming the shared channel; (b) paired framing in both INDEX cells ("pairs SIG-... same session"); (c) same-session timing so recipients encounter them together. **Why:** the pairing itself carries the channel-level read neither signal carries alone (e.g., CB-gold-rising + foreign-CB-UST-share-falling = composition-shift narrative only visible as a pair); recipients consume one structure instead of reassembling it from separate dispatches. **Distinct from Phase 1b same-theme combine:** 1b merges duplicate-origin tellings of ONE story into ONE signal; 2.6 keeps TWO distinct stories as separate signals but binds them. Distinct from Phase 2.7: 2.7 tags N orthogonal *layers* at batch level; 2.6 binds 2+ signals on ONE shared channel. **Promotion record:** pattern pre-registered at 2nd instance (6/06 PM-3 closeout), trigger set at 3rd; fired 6/10. Instances: 6/06 PM-2 de-dollarization (SIG-W-20260606-001 + -002), 6/06 PM-3 Phase-2 oil-thesis (SIG-W-20260606-003 + -004), 6/10 Iran multi-front (SIG-W-20260610-001 + -002). Will sign-off 2026-06-10.
 
 
 ## v0.15/v0.16 Items — Inline Cross-Reference
@@ -293,7 +293,7 @@ The cluster is written to the signal YAML header (`cluster: <NAME>`) AND determi
 
 - **`consumer_lens`** (4-value enum: `tier_stratified` / `broad_collapse` / `mixed` / `counter`) — tag ONLY on consumer-cluster signals with CARL on routing line. Codifies K-shape framing: `tier_stratified` = mid-tier pullback with top-decile counter-channels intact / `broad_collapse` = multi-tier consumer demand destruction / `mixed` = multi-axis no clear K-shape / `counter` = counter-evidence to consumer-stress thesis. Energy-cluster signals don't carry.
 
-- **`event_window`** (boolean: `open` / `closed`) — read current state from `AGENTS/WALTER/design/EVENT_WINDOW_STATE.md`. If state = OPEN: set `event_window: open` on Phase-2-cluster signals; cross-cluster signals stay `closed`. If state = CLOSED (default): omit field or set `closed`. State transitions are BRENT-declares-OPEN / WALTER-declares-CLOSE per JOINT_PROPOSAL §2d state machine.
+- **`event_window`** — legacy optional enum, retained for historical records. New dispatches omit it or use `closed`; no state-file read or precedence override. Canonical schema: SIGNAL_FORMAT_SPEC; retirement record: EVENT_WINDOW_STATE.
 
 **Worked example (today's SIG-W-20260508-006 NFP, retro):** primary cluster CONSUMER_STAGFLATION + cluster_secondary BANK_COLLATERAL (Financial -11K cross-cluster) + signal_role cluster_mediating (paper-vs-structural Goldilocks-tape vs stagflation-underbelly) + consumer_transmission wage_pressure (AHE 3.6% YoY accelerating + LFPR drop) + consumer_lens mixed (multi-axis labor cooling AND wages accelerating) + event_window closed (no Phase-2 declaration active 2026-05-08). The v0.7 `cluster_mediating: true` interim form on today's dispatches maps equivalently to v0.8 `signal_role: cluster_mediating` — forward dispatches use the v0.8 form.
 
@@ -309,36 +309,10 @@ The cluster is written to the signal YAML header (`cluster: <NAME>`) AND determi
 
 ---
 
-## PHASE 2.5: EVENT-WINDOW STATE CHECK (Precedence override)
+## PHASE 2.5: EVENT-WINDOW STATE CHECK — RETIRED
 
-Added v0.11 per JOINT_PROPOSAL_2026-05-05_walter_carl_brent §2d.6. Runs once per session AFTER Phase 2 classification has assigned per-signal precedence, BEFORE Phase 3 OUTPUT writes. Reads `AGENTS/WALTER/design/EVENT_WINDOW_STATE.md` for current declared state.
+Will approved retirement October 31, 2026. No state check, blanket FLASH override, daily roll-up, closing summary or stale-OPEN check. Continue with normal per-signal precedence, verification and recipient routing. Stable phase number retained; historical logs and decision pointer: `design/EVENT_WINDOW_STATE.md`.
 
-```
-Read EVENT_WINDOW_STATE.md → current state?
-
-  CLOSED (default)         → no action; Phase 2 precedence assignments hold; proceed to Phase 3
-  OPEN                     → for each signal, check cluster:
-                             - Phase-2-cluster (IRAN_HORMUZ + HYDROCARBON_INFRA + OIL_ENERGY-domain transmits) →
-                                 * override precedence to FLASH (regardless of Phase 2 default)
-                                 * tag signal header `event_window: open` per FORMAT_SPEC v0.8
-                                 * Will-session alerts identify "BURST WINDOW OPEN — Phase 2 trigger" and retain durable dispatch references
-                                 * verify-research mandatory on extreme-claim items (heightened threshold)
-                             - Cross-cluster (CONSUMER_STAGFLATION / BANK_COLLATERAL / POSITIONING_VALUATION /
-                               FED_FRAMEWORK / etc.) →
-                                 * Phase 2 precedence holds (no override)
-                                 * tag `event_window: closed` (default) — don't bleed window context
-  PENDING_VERIFICATION     → treat as OPEN; verify-research extra-mandatory; gate-status check first
-```
-
-**Daily roll-up requirement during OPEN:** WALTER posts a single 00:00 UTC roll-up message (signal count, key dispatches, verification-gate progress per gates a-d in EVENT_WINDOW_STATE.md). One message per UTC day until window closes.
-
-**Close-of-window summary required at OPEN→CLOSED transition:** WALTER posts a window-summary to Will (window duration, dispatches fired, gate-confirmation status, any retroactive false-positive-tagging if early-close per LESSONS #18 disambiguation).
-
-**Stale check:** if EVENT_WINDOW_STATE.md hasn't been updated in >7 days AND state shows OPEN, flag stale and revert to BALANCED posture pending freshness re-confirmation (don't sit in declared-OPEN forever on memory alone).
-
-**Composes with Phase 2 routing-augmentation steps 5-7:** OPEN-window precedence override happens AFTER cluster_mediating + CORRECTED-FRAMING + falsification_trigger augmentation — it overrides the precedence floor but doesn't change recipient routing. RED auto-cc still applies; falsification triggers still fire as configured.
-
-See FILTER_SPEC v0.5 "OPEN-window dispatch posture" sub-section for the full posture rules + cost-asymmetry justification + state-transition handling. EVENT_WINDOW_STATE.md is canonical for current state.
 
 ---
 
@@ -469,7 +443,7 @@ cluster_secondary: <CLUSTER_NAME>[, <CLUSTER_NAME>]   # multi-cluster cross-tag,
 signal_role: primary_substance | cluster_mediating | counter_evidence | thesis_confirmation
 consumer_transmission: pump_pass_through | wage_pressure | wealth_effect | policy_pass_through | discretionary_demand | services_export | lng_substitution | counter_evidence | none   # CARL-on-routing-line only
 consumer_lens: tier_stratified | broad_collapse | mixed | counter   # consumer-cluster + CARL-on-routing-line only
-event_window: open | closed           # default closed; set 'open' during BURST_WINDOW state per EVENT_WINDOW_STATE.md
+event_window: closed                  # optional legacy field; omit or use closed on new dispatches
 ---
 ```
 

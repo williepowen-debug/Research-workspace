@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-31T23:06:13Z — Codex/OpenAI outbox cleanup; FULL closeout. Duties and publication evidence: LAST_COMPLETION.md.
+**Updated:** 2026-10-31T23:26:21Z — Codex/OpenAI burst-window retirement; FULL closeout. Duties and publication evidence: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Outbox cleanup archived 12 completed notification/closeout records byte-for-byte and retained 61 original artifacts for references, relative paths and unresolved matters. A short outbox guide separates historical evidence from current work. Registrar cleanup and the old VPS owner gap are resolved at the canonical evidence; delivery protections and burst-window policy are unchanged. Review: research/2026-10-31_outbox-cleanup/REVIEW.md.
+Will-approved legacy burst-window retirement implemented: mandatory boot read, blanket oil/Hormuz FLASH override and daily/closing summaries removed. Historical CLOSED state and logs preserved. Normal per-signal FLASH, routing and BRENT-owned tests remain in force. Prior outbox archive pass completed. Review: research/2026-10-31_burst-window-retirement/REVIEW.md.
 
 Boot remains PARTIAL on preserved source, owner-evidence and full-fleet visibility limits. Daily totals remain 22 cards across 9 clusters, 45 kill-log rows and 14 bounded helpers across sittings; this archive pass adds no dispatch/helper/market scan. BALANCED posture, zero cluster_mediating flags. Current obligations and publication evidence: LAST_COMPLETION.md.
 
@@ -64,7 +64,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-All 44 STATUS-backed registry rows rechecked at 2026-10-31T23:06:13Z; 43 other-owner lead blocks match the prior rig-reconciliation review, and WALTER was refreshed before this summary; owner update dates retained, including PROME's October 30 header. All 49 mirror names matched roster entries; no missing STATUS-backed desk, eligibility change or launch. Five rows without STATUS retain explicit prior evidence. REGISTRY is a routing mirror, not a liveness census.
+All 44 STATUS-backed registry rows rechecked at 2026-10-31T23:26:21Z: 42 other-owner leads match the prior reviewed capture; PROME’s October 31 closeout header was manually reviewed and mirrored, then WALTER refreshed before this summary. All 49 mirror names remain represented; five rows without STATUS retain prior evidence. REGISTRY is a routing mirror, not a liveness census.
 
 SAM has graded the BOJ decision; no observed Japan unwind established. HENRY's October 31 breadth study retains Friday's technology weakness and negative gamma; VULCAN's October 30 sell-off fired no registered letter. GIBBS completed its October 31 cyber-consequence/inbox pass. ISHM retains selective equipment strength and its November final frame. NEXUS's October 31 matrix reports vulnerabilities without three-root convergence. MIDAS's October 30 liquidation candidate does not prove forced margin selling. Owner-header review is not fresh market verification or proof of consuming today's cards. Local runtime observations: Codex endpoint shows WALTER active and CATO idle at 19:50:18Z; Claude inventory shows PROME interactive idle at 19:53:32Z. Six Codex helpers are separate from owner sessions. Other-desk absence and full-fleet lifecycle readiness remain UNKNOWN; no dark-owner verdict.
 

@@ -45,9 +45,9 @@ For a selected signal, run the checker first. PASS supplies a whole companion re
 
 The September16 repair checkpoint is discharged early only for this independently reviewed case by the recorded implementation tests. The September30 review is now expired. Keep the companion unavailable and use the original-source fallback until independent content review is actually renewed; do not clear it by restamping hashes/dates. Every newly selected over-budget signal still triggers its own remedy. The companion has an explicit obligation map, full original recommendations/caveats/source-limit tail, and a checked independent census; cold detail remains accessible, not silently discarded. Byte/obligation cost accounting is in `research/2026-09-15_signal-reading/RESULTS.md`.
 
-## §7b — EVENT_WINDOW_STATE.md (BURST_WINDOW)
+## §7b — EVENT_WINDOW_STATE.md (BURST_WINDOW, retired)
 
-Added 2026-05-08 (`JOINT_PROPOSAL_2026-05-05_walter_carl_brent` §2d, Will sign-off). WALTER + BRENT both have write access; the file is the canonical current state. OPEN-window posture (Phase-2-cluster → FLASH; **verify-research mandatory on extreme-claim items**; active-session alerts with durable references; daily 00:00 UTC roll-up; close-of-window summary) per FILTER_SPEC v0.5. The >7d-stale-while-OPEN gate prevents sitting in declared-OPEN forever on memory alone. Per-signal field tagging via CHECKLIST Phase 2 step 4.5 + Phase 2.5 precedence-override.
+Added May 8, 2026 under the joint proposal §2d; retired with Will’s explicit approval October 31, 2026. The activation basis was superseded at BRENT (old BRT-08/09/21 closed; BRT-31 owns the successor demand test). The last declared state was CLOSED. No boot read, activation check, blanket FLASH override, daily/closing summary or stale-OPEN check remains. Normal per-signal FLASH and verification rules continue. The stable step and `design/EVENT_WINDOW_STATE.md` tombstone preserve discovery and historical logs; no new activation mechanism is authorized.
 
 ## §7c — cron-driven feed sources
 

@@ -257,7 +257,7 @@ Pre-cosigned May/June scope (REG LIAISON Turn 3 Q6):
 | REG-CAL-20260801-IQHQ-MAT | 2026-08-01 | OZK | LOAN-MATURITY | ±7d-IMMEDIATE | OZK peer-agent primary; REGINALD-info |
 | REG-CAL-20261001-OZK-SUBNOTE | 2026-10-01 | OZK | SUB-NOTE-REPRICE | ±5d-PRIORITY | $350M sub notes 2.75%→SOFR+209; OZK peer primary; REGINALD-info |
 
-**Dispatch-time pre-position logic:** WALTER reads CALENDAR_DATA.tsv at boot, builds in-memory pre-position queue for next 7 sessions. At dispatch, if signal touches a named bank in the pre-position queue + within precedence_override_window, auto-flag `event_window: open` + `event_ref: <REG-CAL-id>` + override precedence per the row's window-precedence column.
+**Historical proposed pre-position logic (dependent on the future calendar above):** the May/June proposal described a seven-session queue and calendar-based precedence. Its `event_window: open` tagging is retired October 31, 2026 with the legacy burst-window procedure; do not reuse that field to activate a bank-calendar override. Current routing and precedence come from the canonical ROUTING_TABLE / SIGNAL_FORMAT_SPEC; this cache does not activate the future calendar workflow.
 
 ---
 
