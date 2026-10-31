@@ -1,0 +1,17 @@
+{
+  "base": "HEARTBEAT 37th, 2026-10-31, PROME prome-34 (laptop WilliePOwen)",
+  "levels": "PROME/reports/2026-10-31_heartbeat-rebase/dashboard.txt (pull 2026-10-30 20:02:05 ET)",
+  "carried_from_36th_base_and_amendments_1_3": "PROME/reports/2026-10-31_heartbeat-rebase/before.md (= HEARTBEAT.md at the 10/31 capture, 24,410 B, crc32 3158791139)",
+  "owner_returns_since_amendment_3": [
+    {"desk":"LIQUID","what":"DTCC 10/30 ORCL/CRWV","memo":"PROME/inbox/processed/2026-10-30_from-LIQUID_dtcc-1030-orcl-crwv.md","commit":"4edee7bbd"},
+    {"desk":"YURI","what":"L771 Resolution 1436; YUR-005 HIT","memo":"PROME/inbox/processed/2026-10-31_from-YURI_L771-diesel-exemption.md","commit":"032ebe712"},
+    {"desk":"YURI","what":"YUR-004 final read, NOT-DECIDED to 11/02","memo":"PROME/inbox/processed/2026-10-31_from-YURI_YUR-004-final-read.md","commit":"40faf7537"},
+    {"desk":"REGINALD","what":"L857 Q3 small-bank borrowing shortlist","memo":"PROME/inbox/processed/2026-10-31_from-REGINALD_L857-shortlist-rerun.md","commit":"a7d9d76ea"},
+    {"desk":"REGINALD","what":"REG-06 scan","memo":"PROME/inbox/processed/2026-10-31_from-REGINALD_REG-06-scan.md","commit":"d12f7bb56"},
+    {"desk":"AEOLUS","what":"L426 base rate; WQ-562 encode","memo":"PROME/inbox/processed/2026-10-31_from-AEOLUS_L426-base-rate.md","commit":"a3b12fbe6"},
+    {"desk":"BROCK","what":"GATE-BRK-R2 review; WQ-563","memo":"PROME/inbox/processed/2026-10-31_from-BROCK_GATE-BRK-R2-review.md","commit":"747e854da"},
+    {"desk":"ORACLE","what":"December-hike raw cells (UNGRADED)","file":"AGENTS/ORACLE/workbook/ODDS_LOG.tsv","commit":"c0687f8b7"}
+  ],
+  "not_read": ["BOJ 2026-10-30 decision outcome (no SAM read, no routed signal)", "MIDAS 10/30 tonnage", "BRENT supply consequence of Resolution 1436", "the FRED 10/30 cells (publish Mon 11/2)"],
+  "rulings": ["PROME/proposals/2026-10-31_wq562-RULED.md", "PROME/proposals/2026-10-31_wq563-RULED.md"]
+}
