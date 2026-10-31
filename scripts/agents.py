@@ -76,6 +76,13 @@ def load_config(path: Path) -> list[dict]:
             value = entry.get(key)
             if not isinstance(value, str) or not value.strip() or any(ord(c) < 32 for c in value):
                 raise LaunchError(f'{path}: invalid or missing {key}.')
+        if 'short_description' in entry:
+            label = entry['short_description']
+            if (not isinstance(label, str) or not label.strip() or len(label) > 60
+                    or any(ord(c) < 32 for c in label)):
+                raise LaunchError(f'{path}: invalid short description.')
+        if 'parent' in entry and not isinstance(entry['parent'], str):
+            raise LaunchError(f'{path}: invalid parent name.')
         name = entry['name']
         if not re.fullmatch(r'[A-Z][A-Z0-9_-]*', name) or name in names:
             raise LaunchError(f'{path}: invalid or duplicate agent name {name!r}.')
@@ -92,6 +99,13 @@ def load_config(path: Path) -> list[dict]:
             raise LaunchError(f'{name}: project startup prompt is missing.')
         if entry['kind'] == 'cato' and entry['default_runtime'] != 'astra':
             raise LaunchError('CATO must retain its Astra default.')
+    by_name = {entry['name']: entry for entry in entries}
+    for entry in entries:
+        if 'parent' in entry:
+            parent = by_name.get(entry['parent'])
+            if (not parent or parent is entry or 'parent' in parent
+                    or parent['group'] != entry['group']):
+                raise LaunchError(f"{entry['name']}: parent must name a top-level agent in the same category.")
     return entries
 
 

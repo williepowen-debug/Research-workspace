@@ -10,10 +10,39 @@ the task box to enable Resume. Resume opens the selected runtime's saved-session
 picker in its terminal. The app stays open for more launches; closing it leaves
 the agent windows running.
 
-Choose a **category** on the left, or **All agents**. Search covers all agents; clearing it restores the current
-category. Click an agent's name for details and use its checkbox to include it
-in a batch. Checked agents stay selected across categories and searches; the
-selection count includes hidden agents. **Clear selection** removes all checks.
+Choose **Favorites**, **All agents**, or a category on the left. Each agent row
+shows its name, short job description, and activity/due-work information. Click
+the name for full details; use its checkbox to include it in a batch. Checked
+agents stay selected across categories and searches. **Clear selection** removes
+all checks.
+
+**Favorites:** select an agent and click **Add favorite** beside its name. Use
+**Remove favorite** to unpin it. Pinning never checks an agent for launch or changes
+its model/instructions. The app opens on Favorites when you have configured agents
+pinned there; otherwise it opens on All agents. Search also finds agents outside
+Favorites. Clear search to return to the selected category.
+
+Favorites are saved for this Windows account in
+`%LOCALAPPDATA%\ResearchAgentLauncher\favorites.json`, with a previous-version
+backup. They do not sync between computers. **Reload favorites** picks up changes
+from another launcher window. A stale write or unreadable file is refused without
+overwriting it. Removed/unavailable names stay in the preference file but cannot
+appear as launch targets; other favorites keep working.
+
+**Consumer specialists:** CARL's six specialists are collapsed beneath CARL in
+All agents and Consumers & housing. Click **Show consumer specialists**, or
+highlight the section and press Enter/Space, to expand it. Collapsing preserves
+checked specialists and their instructions, and the section shows how many are
+selected. Search, Favorites and Due today / overdue show matching specialists
+directly. Opening a specialist from Selected & groups or the Instructions dropdown
+expands its section automatically. A section heading is never a launch target.
+
+The browsing categories are **Coordination & research**, **Banks & credit**,
+**Consumers & housing**, **Markets & liquidity**, **Global economies**,
+**Industry & technology**, **Energy & resources**, and **Geopolitics & cyber**.
+GIBBS is in Banks & credit; ISHM and VULCAN are in Industry & technology; ORACLE is
+in Coordination & research; CORAL is with HOMER and MARCO in Consumers & housing.
+These are personal browsing categories, not changes to desk responsibilities.
 
 With multiple agents checked, **Apply edits to all selected agents** defaults on.
 Changing the model, typing instructions, or applying a preset updates every checked
@@ -238,9 +267,8 @@ new model choices and history format. Agent terminal sessions can remain open.
   New and resumed sessions launch without Telegram channel flags.
 - CARL's specialists use their nested folders. Project folders and startup files
   are checked; the launcher never creates missing desks or substitutes another.
-- The configuration contains 49 launch targets, including GIBBS (Banks,
-  property, and private credit), ISHM (Funding, macro, and global markets),
-  and CYPHER (Geopolitics and cyber). ARCHITECT, CAREER, ZION, and VIRGIL
+- The configuration contains 49 launch targets, including GIBBS (Banks & credit),
+  ISHM (Industry & technology), and CYPHER (Geopolitics & cyber). ARCHITECT, CAREER, ZION, and VIRGIL
   have been removed from the menu; their folders and saved sessions are untouched.
   Reopen the app after configuration changes to load the updated list.
   It is a personal menu, not a new fleet roster, schedule,

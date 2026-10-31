@@ -205,7 +205,14 @@ class LauncherTests(unittest.TestCase):
     def test_config_duplicate_and_malformed_data_fail_closed(self):
         for data in [{'version': 1, 'agents': [self.entry, self.entry]},
                      {'version': 9, 'agents': [self.entry]},
-                     {'version': 1, 'agents': [dict(self.entry, claude_args='bad')]}]:
+                     {'version': 1, 'agents': [dict(self.entry, claude_args='bad')]},
+                     {'version': 1, 'agents': [dict(self.entry, short_description='bad\nlabel')]},
+                     {'version': 1, 'agents': [dict(self.entry, parent=3)]},
+                     {'version': 1, 'agents': [dict(self.entry, parent='ABSENT')]},
+                     {'version': 1, 'agents': [dict(self.entry, parent='FIXTURE')]},
+                     {'version': 1, 'agents': [self.entry, dict(self.entry, name='CHILD', parent='FIXTURE', group='Wrong')]},
+                     {'version': 1, 'agents': [self.entry, dict(self.entry, name='CHILD', parent='FIXTURE'),
+                                               dict(self.entry, name='GRANDCHILD', parent='CHILD')]}]:
             self.config.write_text(json.dumps(data))
             result = self.cli('fixture', '--new')
             self.assertEqual(result.returncode, 2)

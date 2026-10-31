@@ -5,397 +5,452 @@
       "name": "PROME",
       "path": "PROME",
       "purpose": "Coordination, decisions, and final synthesis.",
-      "group": "System, research, and trading",
+      "group": "Coordination & research",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Coordination & decisions"
     },
     {
       "name": "WALTER",
       "path": "AGENTS/WALTER",
       "purpose": "Signal intake and routing.",
-      "group": "System, research, and trading",
+      "group": "Coordination & research",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Signals & news"
     },
     {
       "name": "CATO",
       "path": "AGENTS/CATO",
       "purpose": "Independent advice on system direction, productivity, and reliability.",
-      "group": "System, research, and trading",
+      "group": "Coordination & research",
       "kind": "cato",
-      "default_runtime": "astra"
+      "default_runtime": "astra",
+      "short_description": "System advice"
     },
     {
       "name": "DAEDALUS",
       "path": "AGENTS/DAEDALUS",
       "purpose": "Agent architecture, structure, and lifecycle.",
-      "group": "System, research, and trading",
+      "group": "Coordination & research",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Agent architecture"
     },
     {
       "name": "NEXUS",
       "path": "AGENTS/NEXUS",
       "purpose": "Cross-agent synthesis and contradictions.",
-      "group": "System, research, and trading",
+      "group": "Coordination & research",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Research synthesis"
     },
     {
       "name": "RED",
       "path": "AGENTS/RED",
       "purpose": "Adversarial review and thesis challenges.",
-      "group": "System, research, and trading",
+      "group": "Coordination & research",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Challenge the thesis"
     },
     {
       "name": "DEWEY",
       "path": "AGENTS/DEWEY",
       "purpose": "Focused, source-backed research.",
-      "group": "System, research, and trading",
+      "group": "Coordination & research",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Source research"
     },
     {
       "name": "TERRY",
       "path": "AGENTS/TERRY",
       "purpose": "Trade construction and risk structure; Will approves trades.",
-      "group": "System, research, and trading",
+      "group": "Coordination & research",
       "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "LABOR",
-      "path": "AGENTS/LABOR",
-      "purpose": "Employment, claims, hiring, and workforce stress.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "CARL",
-      "path": "AGENTS/CARL",
-      "purpose": "Consumer credit, spending, and household stress.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "STUE",
-      "path": "AGENTS/CARL/sub_agents/STUE",
-      "purpose": "Federal student-loan stress; CARL specialist.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "POLLY",
-      "path": "AGENTS/CARL/sub_agents/POLLY",
-      "purpose": "Insurance affordability and market stress; CARL specialist.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "DOC",
-      "path": "AGENTS/CARL/sub_agents/DOC",
-      "purpose": "Healthcare costs and medical debt; CARL specialist.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "GIG",
-      "path": "AGENTS/CARL/sub_agents/GIG",
-      "purpose": "Gig-economy saturation and worker stress; CARL specialist.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "PHAN",
-      "path": "AGENTS/CARL/sub_agents/PHAN",
-      "purpose": "Phantom debt and shadow credit; CARL specialist.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "POP",
-      "path": "AGENTS/CARL/sub_agents/POP",
-      "purpose": "Small-business stress; CARL specialist.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "OTTO",
-      "path": "AGENTS/OTTO",
-      "purpose": "Auto-industry fraud and credit stress.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "HOMER",
-      "path": "AGENTS/HOMER",
-      "purpose": "Housing-market conditions.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "MARCO",
-      "path": "AGENTS/MARCO",
-      "purpose": "Population movement, migration, and visitor flows.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "CRUISE",
-      "path": "AGENTS/CRUISE",
-      "purpose": "Cruise operators, demand, and financial health.",
-      "group": "Consumers, employment, and housing",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "REGINALD",
-      "path": "AGENTS/REGINALD",
-      "purpose": "Regional-bank stress synthesis.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "GIBBS",
-      "path": "AGENTS/GIBBS",
-      "purpose": "Large-bank stress, lending, and links to non-bank finance.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "OZK",
-      "path": "AGENTS/OZK",
-      "purpose": "Bank OZK.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "WAL",
-      "path": "AGENTS/WAL",
-      "purpose": "Western Alliance.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "FLG",
-      "path": "AGENTS/FLG",
-      "purpose": "Flagstar and its commercial-property exposure.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "CREED",
-      "path": "AGENTS/CREED",
-      "purpose": "National commercial real estate and CMBS.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "CORAL",
-      "path": "AGENTS/CORAL",
-      "purpose": "Florida economic and property-risk convergence.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "BROCK",
-      "path": "AGENTS/BROCK",
-      "purpose": "Private credit and business development companies.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "SHADE",
-      "path": "AGENTS/SHADE",
-      "purpose": "Private-equity and insurance funding links.",
-      "group": "Banks, property, and private credit",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "LIQUID",
-      "path": "AGENTS/LIQUID",
-      "purpose": "Funding markets and financial plumbing.",
-      "group": "Funding, macro, and global markets",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "BOND",
-      "path": "AGENTS/BOND",
-      "purpose": "Rates, Treasury markets, and credit spreads.",
-      "group": "Funding, macro, and global markets",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "HENRY",
-      "path": "AGENTS/HENRY",
-      "purpose": "Macro releases, market structure, and positioning.",
-      "group": "Funding, macro, and global markets",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "ISHM",
-      "path": "AGENTS/ISHM",
-      "purpose": "US manufacturing, industrial demand, factory surveys, and freight volumes.",
-      "group": "Funding, macro, and global markets",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "VIOLET",
-      "path": "AGENTS/VIOLET",
-      "purpose": "Volatility and its transmission to markets.",
-      "group": "Funding, macro, and global markets",
-      "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Trade construction"
     },
     {
       "name": "ORACLE",
       "path": "AGENTS/ORACLE",
       "purpose": "Prediction-market evidence.",
-      "group": "Funding, macro, and global markets",
+      "group": "Coordination & research",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Prediction markets"
+    },
+    {
+      "name": "REGINALD",
+      "path": "AGENTS/REGINALD",
+      "purpose": "Regional-bank stress synthesis.",
+      "group": "Banks & credit",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Regional banks"
+    },
+    {
+      "name": "GIBBS",
+      "path": "AGENTS/GIBBS",
+      "purpose": "Large-bank stress, lending, and links to non-bank finance.",
+      "group": "Banks & credit",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Large banks"
+    },
+    {
+      "name": "OZK",
+      "path": "AGENTS/OZK",
+      "purpose": "Bank OZK.",
+      "group": "Banks & credit",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Bank OZK"
+    },
+    {
+      "name": "WAL",
+      "path": "AGENTS/WAL",
+      "purpose": "Western Alliance.",
+      "group": "Banks & credit",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Western Alliance"
+    },
+    {
+      "name": "FLG",
+      "path": "AGENTS/FLG",
+      "purpose": "Flagstar and its commercial-property exposure.",
+      "group": "Banks & credit",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Flagstar"
+    },
+    {
+      "name": "CREED",
+      "path": "AGENTS/CREED",
+      "purpose": "National commercial real estate and CMBS.",
+      "group": "Banks & credit",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Commercial property credit"
+    },
+    {
+      "name": "BROCK",
+      "path": "AGENTS/BROCK",
+      "purpose": "Private credit and business development companies.",
+      "group": "Banks & credit",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Private credit"
+    },
+    {
+      "name": "SHADE",
+      "path": "AGENTS/SHADE",
+      "purpose": "Private-equity and insurance funding links.",
+      "group": "Banks & credit",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Insurance & private equity"
+    },
+    {
+      "name": "LABOR",
+      "path": "AGENTS/LABOR",
+      "purpose": "Employment, claims, hiring, and workforce stress.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Jobs & employment"
+    },
+    {
+      "name": "CARL",
+      "path": "AGENTS/CARL",
+      "purpose": "Consumer credit, spending, and household stress.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Consumer credit & spending"
+    },
+    {
+      "name": "STUE",
+      "path": "AGENTS/CARL/sub_agents/STUE",
+      "purpose": "Federal student-loan stress; CARL specialist.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Student loans",
+      "parent": "CARL"
+    },
+    {
+      "name": "POLLY",
+      "path": "AGENTS/CARL/sub_agents/POLLY",
+      "purpose": "Insurance affordability and market stress; CARL specialist.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Insurance affordability",
+      "parent": "CARL"
+    },
+    {
+      "name": "DOC",
+      "path": "AGENTS/CARL/sub_agents/DOC",
+      "purpose": "Healthcare costs and medical debt; CARL specialist.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Healthcare costs",
+      "parent": "CARL"
+    },
+    {
+      "name": "GIG",
+      "path": "AGENTS/CARL/sub_agents/GIG",
+      "purpose": "Gig-economy saturation and worker stress; CARL specialist.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Gig workers",
+      "parent": "CARL"
+    },
+    {
+      "name": "PHAN",
+      "path": "AGENTS/CARL/sub_agents/PHAN",
+      "purpose": "Phantom debt and shadow credit; CARL specialist.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Shadow consumer debt",
+      "parent": "CARL"
+    },
+    {
+      "name": "POP",
+      "path": "AGENTS/CARL/sub_agents/POP",
+      "purpose": "Small-business stress; CARL specialist.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Small businesses",
+      "parent": "CARL"
+    },
+    {
+      "name": "OTTO",
+      "path": "AGENTS/OTTO",
+      "purpose": "Auto-industry fraud and credit stress.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Auto credit & industry"
+    },
+    {
+      "name": "HOMER",
+      "path": "AGENTS/HOMER",
+      "purpose": "Housing-market conditions.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Housing"
+    },
+    {
+      "name": "MARCO",
+      "path": "AGENTS/MARCO",
+      "purpose": "Population movement, migration, and visitor flows.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Migration & tourism"
+    },
+    {
+      "name": "CRUISE",
+      "path": "AGENTS/CRUISE",
+      "purpose": "Cruise operators, demand, and financial health.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Cruise demand & operators"
+    },
+    {
+      "name": "CORAL",
+      "path": "AGENTS/CORAL",
+      "purpose": "Florida economic and property-risk convergence.",
+      "group": "Consumers & housing",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Florida property & economy"
+    },
+    {
+      "name": "HENRY",
+      "path": "AGENTS/HENRY",
+      "purpose": "Macro releases, market structure, and positioning.",
+      "group": "Markets & liquidity",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Macro & positioning"
+    },
+    {
+      "name": "LIQUID",
+      "path": "AGENTS/LIQUID",
+      "purpose": "Funding markets and financial plumbing.",
+      "group": "Markets & liquidity",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Funding & liquidity"
+    },
+    {
+      "name": "BOND",
+      "path": "AGENTS/BOND",
+      "purpose": "Rates, Treasury markets, and credit spreads.",
+      "group": "Markets & liquidity",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Rates & credit spreads"
+    },
+    {
+      "name": "VIOLET",
+      "path": "AGENTS/VIOLET",
+      "purpose": "Volatility and its transmission to markets.",
+      "group": "Markets & liquidity",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Volatility"
     },
     {
       "name": "SAM",
       "path": "AGENTS/SAM",
       "purpose": "Japan, the Bank of Japan, and carry trades.",
-      "group": "Funding, macro, and global markets",
+      "group": "Global economies",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Japan & carry trades"
     },
     {
       "name": "ZHAO",
       "path": "AGENTS/ZHAO",
       "purpose": "China and capital flows.",
-      "group": "Funding, macro, and global markets",
+      "group": "Global economies",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "China & capital flows"
     },
     {
       "name": "HANS",
       "path": "AGENTS/HANS",
       "purpose": "Europe and its financial transmission channels.",
-      "group": "Funding, macro, and global markets",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "HAWK",
-      "path": "AGENTS/HAWK",
-      "purpose": "Cross-war geopolitical synthesis.",
-      "group": "Geopolitics and cyber",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "FALCON",
-      "path": "AGENTS/FALCON",
-      "purpose": "Iran and Gulf war theater.",
-      "group": "Geopolitics and cyber",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "OSPREY",
-      "path": "AGENTS/OSPREY",
-      "purpose": "Russia and Ukraine war theater.",
-      "group": "Geopolitics and cyber",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "BARON",
-      "path": "AGENTS/BARON",
-      "purpose": "Political-financial networks and policy beneficiaries.",
-      "group": "Geopolitics and cyber",
-      "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "CYPHER",
-      "path": "AGENTS/CYPHER",
-      "purpose": "Cyber incidents and market consequences.",
-      "group": "Geopolitics and cyber",
+      "group": "Global economies",
       "kind": "fleet",
       "default_runtime": "opus",
-      "claude_args": [
-        "--model",
-        "claude-opus-5-5"
-      ]
+      "short_description": "European economy"
     },
     {
-      "name": "BRENT",
-      "path": "AGENTS/BRENT",
-      "purpose": "Oil and energy markets.",
-      "group": "Energy, metals, and infrastructure",
+      "name": "ISHM",
+      "path": "AGENTS/ISHM",
+      "purpose": "US manufacturing, industrial demand, factory surveys, and freight volumes.",
+      "group": "Industry & technology",
       "kind": "fleet",
-      "default_runtime": "opus"
-    },
-    {
-      "name": "MIDAS",
-      "path": "AGENTS/MIDAS",
-      "purpose": "Gold, silver, and industrial metals.",
-      "group": "Energy, metals, and infrastructure",
-      "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "US manufacturing"
     },
     {
       "name": "VULCAN",
       "path": "AGENTS/VULCAN",
       "purpose": "AI investment and the semiconductor cycle.",
-      "group": "Energy, metals, and infrastructure",
+      "group": "Industry & technology",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "AI & semiconductors"
+    },
+    {
+      "name": "BRENT",
+      "path": "AGENTS/BRENT",
+      "purpose": "Oil and energy markets.",
+      "group": "Energy & resources",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Oil & energy"
+    },
+    {
+      "name": "MIDAS",
+      "path": "AGENTS/MIDAS",
+      "purpose": "Gold, silver, and industrial metals.",
+      "group": "Energy & resources",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Gold & metals"
     },
     {
       "name": "WATT",
       "path": "AGENTS/WATT",
       "purpose": "Electricity-market stress.",
-      "group": "Energy, metals, and infrastructure",
+      "group": "Energy & resources",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Electricity"
     },
     {
       "name": "AEOLUS",
       "path": "AGENTS/AEOLUS",
       "purpose": "Weather, climate, and economic transmission.",
-      "group": "Energy, metals, and infrastructure",
+      "group": "Energy & resources",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Weather & climate"
     },
     {
       "name": "FERT",
       "path": "AGENTS/FERT",
       "purpose": "Fertilizer and food-security signals.",
-      "group": "Energy, metals, and infrastructure",
+      "group": "Energy & resources",
       "kind": "fleet",
-      "default_runtime": "opus"
+      "default_runtime": "opus",
+      "short_description": "Fertilizer & food"
+    },
+    {
+      "name": "HAWK",
+      "path": "AGENTS/HAWK",
+      "purpose": "Cross-war geopolitical synthesis.",
+      "group": "Geopolitics & cyber",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Geopolitical synthesis"
+    },
+    {
+      "name": "FALCON",
+      "path": "AGENTS/FALCON",
+      "purpose": "Iran and Gulf war theater.",
+      "group": "Geopolitics & cyber",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Iran & Gulf"
+    },
+    {
+      "name": "OSPREY",
+      "path": "AGENTS/OSPREY",
+      "purpose": "Russia and Ukraine war theater.",
+      "group": "Geopolitics & cyber",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Russia & Ukraine"
+    },
+    {
+      "name": "BARON",
+      "path": "AGENTS/BARON",
+      "purpose": "Political-financial networks and policy beneficiaries.",
+      "group": "Geopolitics & cyber",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "short_description": "Politics & beneficiaries"
+    },
+    {
+      "name": "CYPHER",
+      "path": "AGENTS/CYPHER",
+      "purpose": "Cyber incidents and market consequences.",
+      "group": "Geopolitics & cyber",
+      "kind": "fleet",
+      "default_runtime": "opus",
+      "claude_args": [
+        "--model",
+        "claude-opus-5-5"
+      ],
+      "short_description": "Cybersecurity & markets"
     }
   ]
 }

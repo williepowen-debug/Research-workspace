@@ -12,6 +12,8 @@ $data = Get-Content -LiteralPath $DataFile -Raw | ConvertFrom-Json
 $script:busy=$false; $script:process=$null; $script:selected=$null
 $script:loading=$false; $script:filtering=$false
 $script:checked=@{}; $script:settings=@{}
+$script:expandedParents=@{}
+$script:favorites=@(); $script:favoritesVersion=''; $script:favoritesHealthy=$true
 $script:editAll=$true
 $script:refreshProcess=$null; $script:refreshFailure=''
 $script:queue=New-Object Collections.Queue
@@ -35,7 +37,30 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 public class LauncherAgentList : CheckedListBox {
-    public override int ItemHeight { get { return Math.Max(44, Font.Height * 2 + 6); } set { } }
+    public override int ItemHeight { get { return Math.Max(66, Font.Height * 3 + 10); } set { } }
+    public System.Collections.Generic.HashSet<int> SectionRows = new System.Collections.Generic.HashSet<int>();
+    public System.Collections.Generic.HashSet<int> ChildRows = new System.Collections.Generic.HashSet<int>();
+    public event EventHandler SectionToggle;
+    public void ToggleSection() {
+        if (SectionRows.Contains(SelectedIndex) && SectionToggle != null) SectionToggle(this, EventArgs.Empty);
+    }
+    protected override void OnItemCheck(ItemCheckEventArgs e) {
+        if (SectionRows.Contains(e.Index)) { e.NewValue = CheckState.Unchecked; return; }
+        base.OnItemCheck(e);
+    }
+    protected override void OnMouseDown(MouseEventArgs e) {
+        int index = IndexFromPoint(e.Location);
+        if (e.Button == MouseButtons.Left && SectionRows.Contains(index)) {
+            SelectedIndex = index; ToggleSection(); return;
+        }
+        base.OnMouseDown(e);
+    }
+    protected override void OnKeyDown(KeyEventArgs e) {
+        if (SectionRows.Contains(SelectedIndex) && (e.KeyCode == Keys.Space || e.KeyCode == Keys.Enter)) {
+            ToggleSection(); e.Handled = true; e.SuppressKeyPress = true; return;
+        }
+        base.OnKeyDown(e);
+    }
     public Color AccentColor { get; set; }
     public Color SelectionColor { get; set; }
     public Color MutedColor { get; set; }
@@ -45,8 +70,16 @@ public class LauncherAgentList : CheckedListBox {
         bool selected = (e.State & DrawItemState.Selected) != 0;
         Color background = selected ? SelectionColor : BackColor;
         using (var brush = new SolidBrush(background)) e.Graphics.FillRectangle(brush, e.Bounds);
+        if (SectionRows.Contains(e.Index)) {
+            var section = new Rectangle(e.Bounds.Left + 10, e.Bounds.Top + 4, e.Bounds.Width - 16, e.Bounds.Height - 8);
+            TextRenderer.DrawText(e.Graphics, GetItemText(Items[e.Index]), Font, section, AccentColor,
+                TextFormatFlags.VerticalCenter | TextFormatFlags.NoPrefix);
+            if ((e.State & DrawItemState.Focus) != 0) ControlPaint.DrawFocusRectangle(e.Graphics, e.Bounds, ForeColor, background);
+            return;
+        }
+        int indent = ChildRows.Contains(e.Index) ? 16 : 0;
         int box = Math.Max(12, Math.Min(e.Bounds.Height - 6, Font.Height - 1));
-        var bounds = new Rectangle(e.Bounds.Left + 6, e.Bounds.Top + (e.Bounds.Height - box) / 2, box, box);
+        var bounds = new Rectangle(e.Bounds.Left + 6 + indent, e.Bounds.Top + (e.Bounds.Height - box) / 2, box, box);
         bool check = GetItemChecked(e.Index);
         if (check) {
             using (var brush = new SolidBrush(AccentColor)) e.Graphics.FillRectangle(brush, bounds);
@@ -60,11 +93,16 @@ public class LauncherAgentList : CheckedListBox {
         } else {
             using (var pen = new Pen(MutedColor)) e.Graphics.DrawRectangle(pen, bounds);
         }
-        var text = new Rectangle(bounds.Right + 8, e.Bounds.Top,
-            Math.Max(0, e.Bounds.Right - bounds.Right - 12), e.Bounds.Height);
-        Color color = AgeColors.ContainsKey(e.Index) ? AgeColors[e.Index] : ForeColor;
-        TextRenderer.DrawText(e.Graphics, GetItemText(Items[e.Index]), Font, text, color,
-            TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis | TextFormatFlags.NoPrefix);
+        string[] lines = GetItemText(Items[e.Index]).Split('\n');
+        int height = (e.Bounds.Height - 6) / 3;
+        for (int line = 0; line < Math.Min(3, lines.Length); line++) {
+            var text = new Rectangle(bounds.Right + 8, e.Bounds.Top + 3 + line * height,
+                Math.Max(0, e.Bounds.Right - bounds.Right - 12), height);
+            Color color = line == 0 ? ForeColor : MutedColor;
+            if (line == 2 && AgeColors.ContainsKey(e.Index)) color = AgeColors[e.Index];
+            TextRenderer.DrawText(e.Graphics, lines[line], Font, text, color,
+                TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis | TextFormatFlags.NoPrefix);
+        }
         if ((e.State & DrawItemState.Focus) != 0)
             ControlPaint.DrawFocusRectangle(e.Graphics, e.Bounds, ForeColor, background);
     }
@@ -165,11 +203,12 @@ $saveGroup=$groupMenu.Items.Add('Save selection to this group')
 $saveAsGroup=$groupMenu.Items.Add('Save selection as a new group...')
 $renameGroup=$groupMenu.Items.Add('Rename group...')
 $deleteGroup=$groupMenu.Items.Add('Delete group...')
-$categoryLabel=Label 'Categories' 26 250 224 26
+$categoryLabel=Label 'Browse' 26 250 224 26
 $categories=New-Object Windows.Forms.ListBox
 $categories.SetBounds(26,284,224,328); $categories.BorderStyle='None'
-$categories.IntegralHeight=$false; $categories.DrawMode='OwnerDrawFixed'; $categories.ItemHeight=46
+$categories.IntegralHeight=$false; $categories.DrawMode='OwnerDrawFixed'; $categories.ItemHeight=32
 $categories.DisplayMember='Display'; $form.Controls.Add($categories)
+[void]$categories.Items.Add([pscustomobject]@{Name='__favorites__';Display='Favorites'})
 [void]$categories.Items.Add([pscustomobject]@{Name='';Display='All agents'})
 foreach ($g in ($data.agents | Select-Object -ExpandProperty group -Unique)) {
     [void]$categories.Items.Add([pscustomobject]@{Name=$g;Display=$g})
@@ -183,7 +222,7 @@ $categories.Add_DrawItem({
     $brush=New-Object Drawing.SolidBrush($fill)
     try {$e.Graphics.FillRectangle($brush,$e.Bounds)} finally {$brush.Dispose()}
     $rect=New-Object Drawing.Rectangle(($e.Bounds.X+9),$e.Bounds.Y,($e.Bounds.Width-16),$e.Bounds.Height)
-    [Windows.Forms.TextRenderer]::DrawText($e.Graphics,$sender.Items[$e.Index].Display,$sender.Font,$rect,$text,([Windows.Forms.TextFormatFlags]::WordBreak -bor [Windows.Forms.TextFormatFlags]::VerticalCenter))
+    [Windows.Forms.TextRenderer]::DrawText($e.Graphics,$sender.Items[$e.Index].Display,$sender.Font,$rect,$text,([Windows.Forms.TextFormatFlags]::WordBreak -bor [Windows.Forms.TextFormatFlags]::VerticalCenter -bor [Windows.Forms.TextFormatFlags]::NoPrefix))
     $e.DrawFocusRectangle()
 })
 $searchLabel=Label 'Find an agent' 274 111 238 26
@@ -215,6 +254,7 @@ $name.ForeColor=$accent
 $purpose=Label '' 542 151 594 48 11
 $purpose.ForeColor=$muted
 $group=Label '' 542 204 594 24
+$group.UseMnemonic=$false
 $group.ForeColor=$muted
 $runtimeLabel=Label 'Runtime' 542 246 594 25
 $runtime=New-Object Windows.Forms.ComboBox
@@ -291,43 +331,49 @@ function Place($control,$parent,$x,$y,$width,$height,$anchor='Top,Left') {
     $control.Anchor='Top,Left'; $parent.Controls.Add($control)
     $control.SetBounds($x,$y,$width,$height); $control.Anchor=$anchor
 }
-Place $categoryLabel $pages.Agents 16 16 220 26
-Place $categories $pages.Agents 16 50 220 410 'Top,Bottom,Left'
-Place $searchLabel $pages.Agents 260 16 252 26
-Place $search $pages.Agents 260 50 252 30
+Place $categoryLabel $pages.Agents 16 16 196 26
+Place $categories $pages.Agents 16 50 196 370 'Top,Bottom,Left'
+$reloadFavorites=New-Object Windows.Forms.LinkLabel
+$reloadFavorites.Text='Reload favorites'; $reloadFavorites.LinkColor=$accent; $reloadFavorites.ActiveLinkColor=$accent
+Place $reloadFavorites $pages.Agents 16 426 196 24 'Bottom,Left'
+Place $searchLabel $pages.Agents 230 16 320 26
+Place $search $pages.Agents 230 50 320 30
 $searchScope=Label 'Browse by category, or search all agents.' 0 0 1 1 9
-Place $searchScope $pages.Agents 260 88 252 34
+Place $searchScope $pages.Agents 230 88 320 34
 $searchScope.ForeColor=$muted
 $ageSource=New-Object Windows.Forms.ComboBox
 $ageSource.DropDownStyle='DropDownList'; Style-Input $ageSource
 [void]$ageSource.Items.Add('Last launch here'); [void]$ageSource.Items.Add('Last saved work')
 [void]$ageSource.Items.Add('Due work')
 $ageSource.SelectedIndex=0
-Place $ageSource $pages.Agents 260 124 252 30
+Place $ageSource $pages.Agents 16 460 196 30 'Bottom,Left'
 $tooltip.SetToolTip($ageSource,'Choose the evidence used for age highlighting. Neither source proves the agent is idle or needs a new session.')
-Place $list $pages.Agents 260 164 252 280 'Top,Bottom,Left'
+Place $list $pages.Agents 230 124 320 370 'Top,Bottom,Left'
 $ageLegend=Label 'Amber: 7+ days. Orange: 14+ days. Missing history stays neutral.' 0 0 1 1 9
 $ageLegend.ForeColor=$muted
-Place $ageLegend $pages.Agents 260 450 252 44 'Bottom,Left'
-Place $count $pages.Agents 260 498 252 24 'Bottom,Left'
-Place $name $pages.Agents 548 16 520 38 'Top,Left,Right'
-Place $purpose $pages.Agents 550 62 518 46 'Top,Left,Right'
-Place $group $pages.Agents 550 112 518 24 'Top,Left,Right'
+Place $ageLegend $pages.Agents 16 496 196 34 'Bottom,Left'
+Place $count $pages.Agents 230 498 320 24 'Bottom,Left'
+Place $name $pages.Agents 576 16 300 38 'Top,Left,Right'
+$favoriteButton=Button 'Add favorite' 0 0 1
+Place $favoriteButton $pages.Agents 890 16 178 34 'Top,Right'
+$tooltip.SetToolTip($favoriteButton,'Pin this agent to Favorites. This does not check it for launch.')
+Place $purpose $pages.Agents 576 62 492 46 'Top,Left,Right'
+Place $group $pages.Agents 576 112 492 24 'Top,Left,Right'
 $recentDetails=New-Object Windows.Forms.TextBox
 $recentDetails.Multiline=$true; $recentDetails.ReadOnly=$true; $recentDetails.ScrollBars='Vertical'
 Style-Input $recentDetails
-Place $recentDetails $pages.Agents 550 144 518 128 'Top,Left,Right'
-Place $runtimeLabel $pages.Agents 550 282 518 25 'Top,Left,Right'
-Place $runtime $pages.Agents 550 310 518 32 'Top,Left,Right'
+Place $recentDetails $pages.Agents 576 144 492 128 'Top,Left,Right'
+Place $runtimeLabel $pages.Agents 576 282 492 25 'Top,Left,Right'
+Place $runtime $pages.Agents 576 310 492 32 'Top,Left,Right'
 $taskSummary=New-Object Windows.Forms.TextBox
 $taskSummary.Multiline=$true; $taskSummary.ReadOnly=$true; $taskSummary.ScrollBars='Vertical'
 Style-Input $taskSummary
-Place $taskSummary $pages.Agents 550 354 518 62 'Top,Left,Right'
+Place $taskSummary $pages.Agents 576 354 492 62 'Top,Left,Right'
 $editInstructions=Button 'Edit instructions...' 0 0 1
-Place $editInstructions $pages.Agents 550 422 518 32 'Top,Left,Right'
-Place $start $pages.Agents 550 462 250 32
-Place $resume $pages.Agents 812 462 256 32 'Top,Right'
-Place $hint $pages.Agents 550 498 518 30 'Top,Left,Right'
+Place $editInstructions $pages.Agents 576 422 492 32 'Top,Left,Right'
+Place $start $pages.Agents 576 462 236 32
+Place $resume $pages.Agents 828 462 240 32 'Top,Right'
+Place $hint $pages.Agents 576 498 492 30 'Top,Left,Right'
 
 Place $savedLabel $pages.Selected 16 16 500 26
 Place $savedGroups $pages.Selected 16 50 500 32
@@ -440,11 +486,16 @@ $form.Add_Shown({
 function Set-DetailsVisible($visible) {
     if ($visible) {$tabs.SelectedTab=$pages.Activity} else {$tabs.SelectedTab=$pages.Agents}
 }
+function Select-Category($category) {
+    foreach ($item in $categories.Items) {if ($item.Name -ceq $category) {$categories.SelectedItem=$item; return}}
+}
 function Focus-Agent($agentName,$page='Instructions') {
     if ($script:busy) {return}
     $script:editAll=$false
+    $entry=@($data.agents | Where-Object {$_.name -eq $agentName})
+    if ($entry.Count -eq 1 -and $entry[0].parent) {$script:expandedParents[$entry[0].parent]=$true}
     $script:filtering=$true
-    try {$categories.SelectedIndex=0; $search.Clear()} finally {$script:filtering=$false}
+    try {Select-Category ''; $search.Clear()} finally {$script:filtering=$false}
     Filter-Agents
     for ($i=0;$i -lt $list.Items.Count;$i++) {
         if ($list.Items[$i].Entry.name -eq $agentName) {
@@ -513,6 +564,7 @@ if ($SmokeTest -or $data.test_mode) {
 $script:groupsPath=Join-Path $preferencesFolder 'groups.json'
 $script:presetPath=Join-Path $preferencesFolder 'presets.json'
 $script:historyPath=Join-Path $preferencesFolder 'history.json'
+$script:favoritesPath=Join-Path $preferencesFolder 'favorites.json'
 $script:customPresets=@(); $script:presetVersion=''; $script:presetsHealthy=$true
 $script:history=@()
 $script:lastOpened=@(); $script:historyHealthy=$true
@@ -597,7 +649,7 @@ function Apply-Group($g) {
         if ($value -eq 'claude') {$value='opus'; if ($member.name -eq 'PROME') {$value='fable'}}
         $script:settings[$member.name].runtime=$value
     }
-    $categories.SelectedIndex=0; $search.Clear(); Filter-Agents
+    Select-Category ''; $search.Clear(); Filter-Agents
     $status.Text='Loaded '+$g.name+'. Review selected when ready.'
 }
 # Confirmation is injectable only by the isolated native control tests.
@@ -687,7 +739,10 @@ function Validate-LocalRecords($document,$kind) {
         $items+=@($document.last_opened)
     }
     foreach ($item in $items) {
-        if ($kind -eq 'presets') {
+        if ($kind -eq 'favorites') {
+            if ($item.name -isnot [string] -or $item.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $seen.ContainsKey($item.name)) {throw 'Invalid or duplicate favorite. The original file was kept.'}
+            $seen[$item.name]=$true
+        } elseif ($kind -eq 'presets') {
             if ($item.name -isnot [string] -or [string]::IsNullOrWhiteSpace($item.name) -or $item.name.Length -gt 60 -or $item.name -match '[\x00-\x1f]' -or $seen.ContainsKey($item.name) -or $item.text -isnot [string] -or [string]::IsNullOrWhiteSpace($item.text) -or $item.text.Length -gt 32767) {throw 'Invalid or duplicate custom preset. The original file was kept.'}
             if (@($builtInPresets | Where-Object {$_.name -eq $item.name}).Count -gt 0) {throw 'A custom preset uses a built-in name. The original file was kept.'}
             $seen[$item.name]=$true
@@ -725,7 +780,7 @@ function Write-LocalRecords($path,$kind,$items,$expected,$append=$false) {
         try {$locked=$mutex.WaitOne(1500)} catch [Threading.AbandonedMutexException] {$locked=$true}
         if (-not $locked) {throw 'Another launcher is saving. Try again shortly.'}
         $current=Read-LocalRecords $path $kind
-        if (-not $append -and $current.text -cne $expected) {throw 'Custom presets changed in another window. Reload them before saving.'}
+        if (-not $append -and $current.text -cne $expected) {throw ('The '+$kind+' file changed in another window. Reload it before saving.')}
         $records=@($items)
         $lastOpened=@()
         if ($kind -eq 'history') {$lastOpened=@(Latest-Launches (@($current.lastOpened)+@($current.records)+@($items)))}
@@ -742,6 +797,37 @@ function Write-LocalRecords($path,$kind,$items,$expected,$append=$false) {
     } finally {
         if ($locked) {$mutex.ReleaseMutex()}; $mutex.Dispose()
     }
+}
+function Reload-Favorites {
+    try {
+        $saved=Read-LocalRecords $script:favoritesPath 'favorites'
+        $script:favorites=@($saved.records); $script:favoritesVersion=$saved.text; $script:favoritesHealthy=$true
+    } catch {
+        $script:favoritesHealthy=$false
+        $status.Text='Favorites could not be read. Reload favorites after repairing the file.'
+        Log-Result ($_.Exception.Message+' File: '+$script:favoritesPath)
+    }
+}
+function Toggle-Favorite {
+    if (-not $script:selected -or $script:busy) {return}
+    try {
+        if (-not $script:favoritesHealthy) {throw 'Favorites could not be read. Reload favorites before saving; the original file is kept.'}
+        $agentName=$script:selected.name
+        $items=@($script:favorites | Where-Object {$_.name -ne $agentName})
+        $removing=($items.Count -ne $script:favorites.Count)
+        if (-not $removing) {$items+=@{name=$agentName}}
+        $saved=Write-LocalRecords $script:favoritesPath 'favorites' $items $script:favoritesVersion
+        $script:favorites=@($saved.records); $script:favoritesVersion=$saved.text
+        Filter-Agents
+        $verb='Added to'; if ($removing) {$verb='Removed from'}
+        $status.Text=$agentName+': '+$verb+' Favorites.'
+    } catch {$status.Text=$_.Exception.Message; $tooltip.SetToolTip($status,$status.Text)}
+}
+function Toggle-Specialists {
+    if ($script:busy -or -not $list.SelectedItem.SectionParent) {return}
+    $parent=$list.SelectedItem.SectionParent
+    if ($script:expandedParents.ContainsKey($parent)) {$script:expandedParents.Remove($parent)} else {$script:expandedParents[$parent]=$true}
+    Filter-Agents $parent
 }
 function Refresh-Presets {
     $previous=$preset.Text
@@ -982,6 +1068,10 @@ function Apply-Preset($toChecked) {
 }
 
 function Update-Buttons {
+    $favoriteButton.Enabled=($null -ne $script:selected -and -not $script:busy -and $script:favoritesHealthy)
+    $favoriteButton.Text='Add favorite'
+    if ($script:selected -and @($script:favorites | Where-Object {$_.name -eq $script:selected.name}).Count -gt 0) {$favoriteButton.Text='Remove favorite'}
+    $reloadFavorites.Enabled=-not $script:busy
     $ageSource.Enabled=-not $script:busy
     $reloadActivity.Enabled=-not $script:busy
     $refreshEvidence.Enabled=(-not $script:busy -and $null -eq $script:refreshProcess)
@@ -1004,7 +1094,15 @@ function Update-Buttons {
     $clear.Enabled=($script:checked.Count -gt 0 -and -not $script:busy)
     $clear.Visible=-not $script:busy; $stop.Visible=$script:busy
     $stop.Enabled=($script:queue.Count -gt 0)
-    $count.Text=[string]$list.Items.Count+' shown / '+$script:checked.Count+' selected'
+    foreach ($index in $list.SectionRows) {
+        $item=$list.Items[$index]
+        $children=@($data.agents | Where-Object {$_.parent -eq $item.SectionParent})
+        $selectedChildren=@($children | Where-Object {$script:checked.ContainsKey($_.name)}).Count
+        $verb='Show'; if ($script:expandedParents.ContainsKey($item.SectionParent)) {$verb='Hide'}
+        $item.Display=$verb+' consumer specialists ('+$children.Count+")`n"+$selectedChildren+' selected; click or press Enter'
+    }
+    $list.Invalidate()
+    $count.Text=[string]@($list.Items | Where-Object {$_.Entry}).Count+' shown / '+$script:checked.Count+' selected'
     $selectedLink.Text=[string]$script:checked.Count+' selected - view'
     $pages.Selected.Text='Selected & groups ('+$script:checked.Count+')'
     $selectionLabel.Text=[string]$script:checked.Count+' selected agents - name to edit, x to remove'
@@ -1094,8 +1192,13 @@ function Select-Agent {
     $script:loading=$true
     try {
         $runtime.Items.Clear()
-        if ($null -eq $list.SelectedItem) {
+        if ($null -eq $list.SelectedItem -or $null -eq $list.SelectedItem.Entry) {
             $script:selected=$null; $name.Text='No matching agents'; $purpose.Text='Try another name or category.'
+            if ($list.SelectedItem.SectionParent) {$name.Text='Consumer specialists'; $purpose.Text='Click this section or press Enter to expand or collapse it.'}
+            elseif ($categories.SelectedItem.Name -eq '__favorites__' -and -not $search.Text.Trim()) {
+                $name.Text='Your favorites'; $purpose.Text='Choose an agent in All agents, then Add favorite to pin it here.'
+                if (-not $script:favoritesHealthy) {$purpose.Text='Favorites could not be read. Your file is preserved; use Reload favorites after repairing it.'}
+            }
             $recentDetails.Clear()
             $group.Text=''; $task.Text=''; $instructionAgent.SelectedIndex=-1; $instructionRuntime.Items.Clear(); return
         }
@@ -1108,10 +1211,11 @@ function Select-Agent {
         $tooltip.SetToolTip($status,$status.Text); $tooltip.SetToolTip($name,$script:selected.folder)
     } finally {$script:loading=$false; Sync-Editors}
 }
-function Filter-Agents {
+function Filter-Agents($focusName='') {
     if ($script:filtering) {return}
     $previous=$null
     if ($script:selected) {$previous=$script:selected.name}
+    if ($focusName) {$previous=$focusName}
     $query=$search.Text.Trim(); $category=''
     if ($categories.SelectedItem) {$category=$categories.SelectedItem.Name}
     $searchScope.Text='Browsing the selected category'
@@ -1121,19 +1225,22 @@ function Filter-Agents {
     $ageLegend.Text='Amber: 7+ days; orange: 14+ days '+$basis+'.'
     if ($ageSource.SelectedIndex -eq 2) {$ageLegend.Text='Docket: amber = due today; orange = overdue. Unknown dates stay neutral.'}
     if ($category -eq '__due__') {$searchScope.Text='Due docket work, including unknown evidence'}
+    if ($category -eq '__favorites__' -and -not $query) {$searchScope.Text='Your pinned agents; check to select for launch'}
+    if ($category -eq '__favorites__' -and -not $script:favoritesHealthy) {$searchScope.Text='Favorites unavailable; reload after repairing the file'}
     $script:filtering=$true
     $list.BeginUpdate()
     try {
         $list.Items.Clear()
-        $list.AgeColors.Clear()
+        $list.AgeColors.Clear(); $list.SectionRows.Clear(); $list.ChildRows.Clear()
         foreach ($entry in $data.agents) {
-            $haystack=$entry.name+' '+$entry.purpose+' '+$entry.group
+            $haystack=$entry.name+' '+$entry.short_description+' '+$entry.purpose+' '+$entry.group
             $categoryMatch=($query -ne '' -or $category -eq '' -or $category -eq $entry.group)
+            if ($category -eq '__favorites__' -and -not $query) {$categoryMatch=(@($script:favorites | Where-Object {$_.name -eq $entry.name}).Count -gt 0)}
+            if ($entry.parent -and -not $query -and $category -notin @('__favorites__','__due__') -and -not $script:expandedParents.ContainsKey($entry.parent)) {continue}
             if ($category -eq '__due__') {$categoryMatch=(-not $entry.due_work -or $entry.due_work.state -ne 'available' -or $entry.due_work.today -gt 0 -or $entry.due_work.overdue -gt 0 -or $entry.due_work.unknown -gt 0 -or @($entry.due_work.other_rows | Where-Object {$_.timing -ne 'future'}).Count -gt 0)}
             if ($categoryMatch -and $haystack.IndexOf($query,[StringComparison]::OrdinalIgnoreCase) -ge 0) {
                 $display=$entry.name
                 $dueLabel=Due-Label $entry
-                if ($dueLabel -ne 'No docket work due') {$display+='  '+$dueLabel}
                 if ($entry.error) {$display+=' (check setup)'}
                 $launch=Launch-For $entry.name
                 $stamp=$launch.time
@@ -1147,9 +1254,20 @@ function Filter-Agents {
                 $ageText=$age.label
                 if ($ageSource.SelectedIndex -eq 0 -and -not $script:historyHealthy) {$ageText='History unavailable'}
                 if ($ageSource.SelectedIndex -eq 1 -and $entry.saved_work.state -eq 'unavailable') {$ageText='History unavailable'}
-                $display+="`n"+$ageText
+                $description=$entry.short_description; if (-not $description) {$description=$entry.purpose}
+                if ($ageSource.SelectedIndex -ne 2 -and $dueLabel -ne 'No docket work due') {$ageText+=' | '+$dueLabel}
+                $display+="`n"+$description+"`n"+$ageText
                 $index=$list.Items.Add([pscustomobject]@{Display=$display;Entry=$entry},$script:checked.ContainsKey($entry.name))
                 $list.AgeColors[$index]=$age.color
+                if ($entry.parent -and -not $query -and $category -notin @('__favorites__','__due__')) {[void]$list.ChildRows.Add($index)}
+                $children=@($data.agents | Where-Object {$_.parent -eq $entry.name})
+                if ($children.Count -gt 0 -and -not $query -and $category -notin @('__favorites__','__due__')) {
+                    $verb='Show'; if ($script:expandedParents.ContainsKey($entry.name)) {$verb='Hide'}
+                    $selectedChildren=@($children | Where-Object {$script:checked.ContainsKey($_.name)}).Count
+                    $section=$verb+' consumer specialists ('+$children.Count+")`n"+$selectedChildren+' selected; click or press Enter'
+                    $sectionIndex=$list.Items.Add([pscustomobject]@{Display=$section;Entry=$null;SectionParent=$entry.name},$false)
+                    [void]$list.SectionRows.Add($sectionIndex)
+                }
             }
         }
         if ($list.Items.Count -gt 0) {
@@ -1309,9 +1427,13 @@ $reloadActivity.Add_Click({Reload-Activity})
 $refreshEvidence.Add_Click({Start-EvidenceRefresh})
 $categories.Add_SelectedIndexChanged({Filter-Agents})
 $list.Add_SelectedIndexChanged({Select-Agent})
+$list.Add_SectionToggle({Toggle-Specialists})
+$favoriteButton.Add_Click({Toggle-Favorite})
+$reloadFavorites.Add_LinkClicked({Reload-Favorites; Filter-Agents})
 $list.Add_ItemCheck({
     param($sender,$e)
     if ($script:filtering) {return}
+    if (-not $list.Items[$e.Index].Entry) {$e.NewValue=[Windows.Forms.CheckState]::Unchecked; return}
     $key=$list.Items[$e.Index].Entry.name
     if ($e.NewValue -eq [Windows.Forms.CheckState]::Checked) {$script:checked[$key]=$true} else {$script:checked.Remove($key)}
     $script:editAll=$true; Sync-Editors
@@ -1374,7 +1496,8 @@ $presetActions.Add_Click({Update-Buttons; $presetMenu.Show($presetActions,(New-O
 $preset.Add_SelectedIndexChanged({Update-Buttons})
 $details.Add_LinkClicked({Set-DetailsVisible $true})
 Reload-CustomPresets
-$categories.SelectedIndex=0
+Reload-Favorites
+if (@($script:favorites | Where-Object {$_.name -in @($data.agents.name)}).Count -gt 0) {Select-Category '__favorites__'} else {Select-Category ''}
 try {Read-Groups; Refresh-Groups} catch {
     $script:groupsHealthy=$false
     $status.Text='Cannot read saved groups. See results below.'
@@ -1394,6 +1517,75 @@ if ($SmokeTest) {
     function Test-Step($name) {[IO.File]::WriteAllText((Join-Path $data.directory 'test-stage.txt'),$name)}
     $form.Add_Shown({
         try {
+            Test-Step 'Browsing, specialists and favorites'
+            $initialSettings=$script:settings | ConvertTo-Json -Depth 8 -Compress
+            Select-Category ''; $search.Clear()
+            if ($categories.Items[0].Name -ne '__favorites__') {throw 'Favorites is not at the top'}
+            if (@($list.Items | Where-Object {$_.Entry.parent}).Count -ne 0 -or $list.SectionRows.Count -ne 1) {throw 'Specialists were not collapsed by default'}
+            foreach ($entry in $data.agents) {
+                $search.Text=$entry.name
+                if (@($list.Items | Where-Object {$_.Entry.name -eq $entry.name}).Count -ne 1) {throw ('Search lost '+$entry.name)}
+            }
+            $search.Text='Student loans'
+            if ($list.Items.Count -ne 1 -or $list.Items[0].Entry.name -ne 'STUE' -or $list.Items[0].Display -notmatch 'Student loans') {throw 'Short descriptions are not displayed/searchable'}
+            $search.Clear(); Select-Category 'Consumers & housing'
+            $section=@($list.SectionRows)[0]; $list.SelectedIndex=$section
+            $list.SetItemChecked($section,$true)
+            if ($start.Enabled -or $resume.Enabled -or $list.GetItemChecked($section) -or $script:checked.Count -ne 0) {throw 'Section header can launch or enter selection'}
+            $keys=New-Object Windows.Forms.KeyEventArgs([Windows.Forms.Keys]::Enter)
+            $keyMethod=[LauncherAgentList].GetMethod('OnKeyDown',([Reflection.BindingFlags]::Instance -bor [Reflection.BindingFlags]::NonPublic))
+            [void]$keyMethod.Invoke($list,@($keys.PSObject.BaseObject))
+            if (-not $keys.Handled -or @($list.Items | Where-Object {$_.Entry.parent -eq 'CARL'}).Count -ne 6) {throw 'Keyboard did not expand specialists'}
+            $section=@($list.SectionRows)[0]; $rect=$list.GetItemRectangle($section)
+            $mouse=New-Object Windows.Forms.MouseEventArgs([Windows.Forms.MouseButtons]::Left,1,($rect.Left+10),($rect.Top+10),0)
+            $mouseMethod=[LauncherAgentList].GetMethod('OnMouseDown',([Reflection.BindingFlags]::Instance -bor [Reflection.BindingFlags]::NonPublic))
+            [void]$mouseMethod.Invoke($list,@($mouse.PSObject.BaseObject))
+            if (@($list.Items | Where-Object {$_.Entry.parent}).Count -ne 0 -or $script:checked.Count -ne 0) {throw 'Mouse collapse checked a section or kept children visible'}
+            Focus-Agent 'STUE' 'Agents'
+            $list.SetItemChecked($list.SelectedIndex,$true); $task.Text='Preserve this specialist task'
+            Select-Category 'Consumers & housing'; $search.Clear()
+            $list.SelectedIndex=@($list.SectionRows)[0]; $list.ToggleSection()
+            if (@($list.Items | Where-Object {$_.Entry.parent}).Count -ne 0 -or $script:checked.Count -ne 1 -or @(Selected-Requests)[0].name -ne 'STUE' -or $script:settings['STUE'].task -cne 'Preserve this specialist task') {throw 'Collapse lost hidden selection/task'}
+            if (@($list.Items | Where-Object {$_.SectionParent}).Display -notmatch '1 selected') {throw 'Collapsed section hides selected count'}
+            Focus-Agent 'STUE' 'Agents'
+            if ($script:selected.name -ne 'STUE' -or -not $script:expandedParents.ContainsKey('CARL')) {throw 'Selected specialist cannot be reopened'}
+            $prepared=$script:settings | ConvertTo-Json -Depth 8 -Compress
+            $favoriteButton.PerformClick()
+            Focus-Agent 'GIBBS' 'Agents'; $favoriteButton.PerformClick()
+            if (($script:settings | ConvertTo-Json -Depth 8 -Compress) -cne $prepared -or $script:checked.Count -ne 1) {throw 'Pinning changed launch preparation'}
+            $script:favorites=@(); Reload-Favorites
+            Select-Category '__favorites__'
+            if ($list.Items.Count -ne 2 -or @($list.Items | Where-Object {$_.Entry.name -eq 'STUE'}).Count -ne 1 -or $list.SectionRows.Count -ne 0) {throw 'Saved favorites did not restore or hid a specialist'}
+            $favoriteText=[IO.File]::ReadAllText($script:favoritesPath)
+            # Stale writers must refuse before altering another window's choices.
+            [IO.File]::WriteAllText($script:favoritesPath,$favoriteText+"`r`n")
+            $favoriteButton.PerformClick()
+            if ($status.Text -notmatch 'changed in another window' -or [IO.File]::ReadAllText($script:favoritesPath) -cne ($favoriteText+"`r`n")) {throw 'Favorite write overwrote another window'}
+            Reload-Favorites
+            $favoriteButton.PerformClick()
+            if ($list.Items.Count -ne 1 -or $script:checked.Count -ne 1) {throw 'Removing a favorite changed selection or left it visible'}
+            foreach ($bad in @('{broken','{"version":1,"favorites":[{"name":"GIBBS"},{"name":"GIBBS"}]}')) {
+                [IO.File]::WriteAllText($script:favoritesPath,$bad); Reload-Favorites
+                if ($script:favoritesHealthy) {throw 'Invalid favorites accepted'}
+                Toggle-Favorite
+                if ([IO.File]::ReadAllText($script:favoritesPath) -cne $bad) {throw 'Invalid favorites file overwritten'}
+            }
+            [IO.File]::WriteAllText($script:favoritesPath,$favoriteText); Reload-Favorites
+            $saved=Write-LocalRecords $script:favoritesPath 'favorites' @(@{name='GIBBS'},@{name='REMOVED_DESK'}) $script:favoritesVersion
+            Reload-Favorites; Filter-Agents
+            if ($list.Items.Count -ne 1 -or $list.Items[0].Entry.name -ne 'GIBBS') {throw 'Unavailable favorite became launchable'}
+            $favoriteButton.PerformClick()
+            if ($script:favorites.Count -ne 1 -or $script:favorites[0].name -ne 'REMOVED_DESK' -or $list.Items.Count -ne 0 -or $start.Enabled) {throw 'Removing a favorite discarded unknown names or enabled empty launch'}
+            $search.Text='STUE'
+            if ($list.Items.Count -ne 1 -or $list.Items[0].Entry.name -ne 'STUE') {throw 'Favorites search did not search globally'}
+            $search.Clear()
+            if ($list.Items.Count -ne 0 -or $name.Text -ne 'Your favorites') {throw 'Empty favorites has no useful empty state'}
+            $saved=Write-LocalRecords $script:favoritesPath 'favorites' @() $script:favoritesVersion
+            Reload-Favorites
+            $script:checked.Clear(); $script:expandedParents.Clear()
+            foreach ($entry in $data.agents) {$script:settings[$entry.name]=@{runtime=$entry.default_runtime;task=$null}}
+            Select-Category ''; Filter-Agents
+            if (($script:settings | ConvertTo-Json -Depth 8 -Compress) -cne $initialSettings) {throw 'Browsing changed default settings'}
             Test-Step 'Opus startup defaults'
             foreach ($entry in $data.agents) {
                 $expected='opus'; if ($entry.kind -eq 'cato') {$expected='astra'}
@@ -1467,7 +1659,7 @@ if ($SmokeTest) {
             if ($items.Count -ne 2 -or (Preview-Text $items) -notmatch 'Codex Astra') {throw 'Preview lost a hidden selection'}
             $carl=@($items | Where-Object {$_.name -eq 'CARL'})[0]
             if ($carl.runtime -ne 'opus' -or $carl.task -ne 'Only CARL receives this task') {throw 'Per-agent settings were lost'}
-            $categories.SelectedIndex=0; $search.Text='CARL'
+            Select-Category ''; $search.Text='CARL'
             if ($runtime.Text -ne 'Claude Opus' -or $task.Text -ne $carl.task) {throw 'Settings did not restore'}
             $search.Text='no-such-agent-987654'
             if ($start.Enabled -or $resume.Enabled -or -not $batch.Enabled) {throw 'Empty search/hidden batch behavior failed'}
@@ -1646,8 +1838,8 @@ if ($SmokeTest) {
             }
             Focus-Agent 'CATO' 'Instructions'; $instructionRuntime.SelectedItem='Codex Sol'
             if ($runtime.Text -ne 'Codex Sol' -or $script:settings['CATO'].runtime -ne 'sol') {throw 'CATO Sol choice failed'}
-            $group=@{name='Legacy';members=@(@{name='PROME';runtime='claude'},@{name='CARL';runtime='claude'})}
-            Apply-Group $group
+            $legacyGroup=@{name='Legacy';members=@(@{name='PROME';runtime='claude'},@{name='CARL';runtime='claude'})}
+            Apply-Group $legacyGroup
             if ($script:settings['PROME'].runtime -ne 'fable' -or $script:settings['CARL'].runtime -ne 'opus') {throw 'Legacy Claude group defaults failed'}
             $now=[DateTimeOffset]::Parse('2026-10-29T12:00:00Z')
             foreach ($days in @(0,6,7,13,14,30)) {
@@ -1714,7 +1906,7 @@ if ($SmokeTest) {
             try {Apply-EvidenceSnapshot ([pscustomobject]@{ok=$true;agents=@();captured_at='2026-10-29T17:00:00Z'})} catch {$failed=$true}
             if (-not $failed -or $data.captured_at -ne $beforeStamp) {throw 'Incomplete refresh replaced good evidence'}
             $data.agents=$originalRows; $data.captured_at=$oldStamp
-            $ageSource.SelectedIndex=0; $categories.SelectedIndex=0; Filter-Agents
+            $ageSource.SelectedIndex=0; Select-Category ''; Filter-Agents
             Test-Step 'ORACLE daily read preset'
             Focus-Agent 'ORACLE'; $task.Text='Keep the prepared ORACLE task'
             $oracleRuntime=$script:settings['ORACLE'].runtime
@@ -1775,6 +1967,18 @@ if ($SmokeTest) {
             Filter-Agents
             if (@(Get-ChildItem -LiteralPath $data.directory -Filter '*.claimed').Count -ne 0) {throw 'Saving/loading/presets started an agent'}
             Test-Step 'Screenshots'
+            $script:checked.Clear(); $script:expandedParents.Clear()
+            foreach ($entry in $data.agents) {$script:settings[$entry.name]=@{runtime=$entry.default_runtime;task=$null}}
+            $script:favorites=@(@{name='PROME'},@{name='GIBBS'},@{name='ISHM'},@{name='STUE'})
+            Select-Category '__favorites__'; $search.Clear(); Filter-Agents; $tabs.SelectedTab=$pages.Agents; $form.Refresh()
+            $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
+            $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
+            $bitmap.Save((Join-Path $data.directory 'favorites.png')); $bitmap.Dispose()
+            Focus-Agent 'CARL' 'Agents'; Select-Category 'Consumers & housing'; $search.Clear(); Filter-Agents 'CARL'; $form.Refresh()
+            $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
+            $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
+            $bitmap.Save((Join-Path $data.directory 'specialists-collapsed.png')); $bitmap.Dispose()
+            $script:expandedParents['CARL']=$true; Filter-Agents 'CARL'
             $status.Text='Ready. Use the tabs to choose agents, prepare instructions, and review activity.'
             $tabs.SelectedTab=$pages.Agents
             $form.Refresh()
@@ -1787,7 +1991,7 @@ if ($SmokeTest) {
                 $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
                 $bitmap.Save((Join-Path $data.directory ($page.Name+'.png'))); $bitmap.Dispose()
             }
-            @{ok=$true;checks='Explicit Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, Research real worker/search/source/limits/stale responses/queue independence, task presets including exact ORACLE daily-read text/edit/cancel/no-launch, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
+            @{ok=$true;checks='Favorites persistence/removal/stale-window/corrupt/unknown-name handling, all-agent search, short descriptions, specialist expand/collapse/header safety/hidden selection, Explicit Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, Research real worker/search/source/limits/stale responses/queue independence, task presets including exact ORACLE daily-read text/edit/cancel/no-launch, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))

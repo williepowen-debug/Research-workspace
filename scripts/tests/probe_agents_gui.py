@@ -108,7 +108,8 @@ $form.Add_Shown({
 })
 '''.replace('TASK', base64.b64encode(task.encode()).decode())
 source = source.replace('[void]$form.ShowDialog()', hook + '\n[void]$form.ShowDialog()')
-(base / 'research_reader.ps1').write_bytes((SCRIPTS / 'research_reader.ps1').read_bytes())
+for module in ('research_reader.ps1', 'decisions_launcher.ps1'):
+    (base / module).write_bytes((SCRIPTS / module).read_bytes())
 psfile = base / 'probe.ps1'
 psfile.write_text(source)
 cmd = ['powershell.exe', '-NoProfile', '-STA', '-ExecutionPolicy', 'Bypass', '-File',
