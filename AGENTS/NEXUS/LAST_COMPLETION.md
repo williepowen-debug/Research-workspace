@@ -1,5 +1,13 @@
 # NEXUS — LAST COMPLETION
 
+## 2026-10-31T13:02:52-04:00 — FULL MATRIX REVIEW (HEAVY) + TERRY term-premium note — Claude Code, claude-opus-5-5
+Will 12:53 ET: "okay approved go" (on NEXUS's recommendation: full brief pass this weekend + note to TERRY). Record → `research/2026-10-31_full_pass/RECORD.md`.
+**Result:** 31 briefs read whole by 3 Opus digest readers; NEXUS read LIQUID STATUS and the FALCON/BRENT/ZHAO/VIOLET/MIDAS/HENRY owner figures directly. 10/29–10/30 AI/semis repricing = one class (credit "rode" it, n=1); effective N 1 established (R1) + AI Root B CANDIDATE + R3 unproved; no 3-root alert; literal proximity cluster met → PROME. War: first successful limpet attacks 10/29. Disc-D gap reversed: tape now more stressed than substance. No letter fired; split 20/47/33 HELD; no Conf moved. STATUS rewritten whole (preimage §H26, crc 5017b3bb), obligation audit restored 7 dropped live refs. TERRY packet fe8a41f19 (term premium; QRA 11/4; auctions 11/9–11/12).
+**Flags to PROME:** ISHM dark since 10/26 — ISM 11/2 unowned; brief hygiene (LIQUID stale pin, RED unpinned, CARL residue, BROCK graded-as-upcoming, BOND non-schema, OTTO v1.6 missing).
+**Files:** STATUS · STATUS_COLD · CONFIRMED · PREDICTIONS_MONITOR · BRIEFS_MAP · brief_fallback_log · this file · research/2026-10-31_full_pass/ · packets PROME (full review) and TERRY (fe8a41f19).
+**Next:** Tue 11/3 L554/L751 — Monday deltas only (ICE 10/30–11/2 cells, L16 cells 9–11, ISM if graded); Thu 11/5 L631 + L13 cell 13; 11/10 L572.
+**Promotion (14):** none this pass.
+
 ## 2026-10-31T12:28:57-04:00 — owed-work pass (HEAVY: STATUS rule-5 rotation + 15a) — Claude Code, claude-opus-5-5
 Will 12:03 ET: "Okay lets work on owed and incomplete/unstarted tasks for NEXUS." Record → `research/2026-10-31_owed/RECORD.md`.
 **Result:** M-03 premium mechanism **TRUE-in-spirit** at the NY Fed ACM primary (TP −24.6bp vs DGS10 −22bp, 10/8→10/23; number stays withdrawn). L13 cell 9 = **2.63** [10/29] ⇒ DOWN run 1 of 5. PRED-38 running **k = 0 / 27 banks** (27 10-Qs unfiled; GS $368M wholesale provision to watch). PRED-45 none found, not a clean MISS (BDC 10-Qs ~11/2–11/16). PRED-41 HHDC Q3 date still unverified (no advisory). DAEDALUS census #2 → DECLINE (reason on CLAUDE.md:155). STATUS rotated 24,048 → 22,703 B (§H25/§H25b/§H25c, crc-verified against 501555a51); BOND/BRENT/SAM stale labels refreshed; 48 glued dates spaced. Split 20/47/33 HELD; no Conf % moved.

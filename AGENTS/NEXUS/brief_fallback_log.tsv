@@ -102,3 +102,5 @@ date	agent	cause	note
 2026-10-26	OZK	stale	Full fleet review: Brief-less specialist; raw LOW/Q3 owner evidence, no broad-bank-loss inference.
 2026-10-26	CREED	stale	Full fleet review: Brief-less live context; existing10/22HY-to-CRE owner report read, no owner launch.
 2026-10-26	HANS	stale	Full fleet review: Active Tier2 without brief; whole10/22STATUS read including France/funding gap; past Moody/storage grades unshown, not quiet.
+2026-10-31	DIGEST	digest	Full review: 31 briefs, 3 Opus digest readers (R1 9 credit/banks, R2 11 energy/geo, R3 11 markets/macro); readers flagged LIQUID STALE-PIN, RED UNPINNED, CARL pre-print residue, BOND non-schema.
+2026-10-31	LIQUID	stale	Full review: brief pin 4 STATUS commits behind HEAD 4edee7bbd; raw STATUS read for the 10/29 ICE cells, funding and H.4.1 (10/30 DTCC fold not in brief).

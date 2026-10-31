@@ -1,0 +1,32 @@
+BRIEF-PIN 1 STALE: 31 brief(s) checked against amendment 11 (pin-follows-STATUS-HEAD) — OK-PINNED 15 · OK-SAME-COMMIT 14 · STALE-PIN 1 · UNPINNED 1. A PASS proves the pin, never the brief's content; UNPINNED briefs are not A11-checked.
+  ✅ AEOLUS    OK-SAME-COMMIT  brief and STATUS last committed together in a3b12fbe6
+  ✅ BOND      OK-SAME-COMMIT  brief and STATUS last committed together in d5d579fdc
+  ✅ BRENT     OK-SAME-COMMIT  brief and STATUS last committed together in 79ae046b4
+  ✅ BROCK     OK-SAME-COMMIT  brief and STATUS last committed together in d8970fd6b
+  ✅ CARL      OK-PINNED       pin 5dc1234ed = STATUS HEAD
+  ✅ CORAL     OK-SAME-COMMIT  brief and STATUS last committed together in 62700efd1
+  ✅ CYPHER    OK-PINNED       pin 6438da23443b3e4b7a4e4c48bd89ab981f70af34 = STATUS HEAD
+  ✅ FALCON    OK-PINNED       pin 87a5097a9 = STATUS HEAD
+  ✅ FLG       OK-PINNED       pin d61051aed = STATUS HEAD
+  ✅ GIBBS     OK-PINNED       pin 6d1d9df51 = STATUS HEAD
+  ✅ HAWK      OK-PINNED       pin 37ec47127 = STATUS HEAD
+  ✅ HENRY     OK-SAME-COMMIT  brief and STATUS last committed together in add5c4282
+  ✅ HOMER     OK-SAME-COMMIT  brief and STATUS last committed together in 055a9ab6f
+  ✅ ISHM      OK-PINNED       pin 0dbba244d11634da886bdd8327f884c4e7e85c7e = STATUS HEAD
+  ✅ LABOR     OK-PINNED       pin 4eff54b75 = STATUS HEAD
+  ⛔ LIQUID    STALE-PIN       pin ecf7b52a5 is 4 STATUS commit(s) behind HEAD 4edee7bbd — STATUS was re-committed after the brief fold; re-pin and re-commit the brief
+  ✅ MARCO     OK-SAME-COMMIT  brief and STATUS last committed together in 687a1f553
+  ✅ MIDAS     OK-SAME-COMMIT  brief and STATUS last committed together in 4be44045f
+  ✅ ORACLE    OK-SAME-COMMIT  brief and STATUS last committed together in a9fa63d7f
+  ✅ OSPREY    OK-SAME-COMMIT  brief and STATUS last committed together in fbd9ec51d
+  ✅ OTTO      OK-PINNED       pin e8d36c9f11f4cc32ebe94d71a4abde833092a455 = STATUS HEAD
+  ⚠️ RED       UNPINNED        no STATUS hash in the first 40 header lines — A11 not checkable; A10 fallback: brief commit c16b86f94 is BEFORE STATUS HEAD 0c09cce9b
+  ✅ REGINALD  OK-PINNED       pin a7d9d76ea = STATUS HEAD
+  ✅ SAM       OK-PINNED       pin 536b1afd4 = STATUS HEAD
+  ✅ SHADE     OK-SAME-COMMIT  brief and STATUS last committed together in cf97c133c
+  ✅ VIOLET    OK-PINNED       pin 614e9ad57 = STATUS HEAD
+  ✅ VULCAN    OK-PINNED       pin 2259e91f0 = STATUS HEAD
+  ✅ WAL       OK-PINNED       pin 33bb4c4c95581dbd9ee7d01c6fcb9367688fc038 = STATUS HEAD
+  ✅ WATT      OK-PINNED       pin 184810f96 = STATUS HEAD
+  ✅ YURI      OK-SAME-COMMIT  brief and STATUS last committed together in 40faf7537
+  ✅ ZHAO      OK-SAME-COMMIT  brief and STATUS last committed together in 2e1090a0d

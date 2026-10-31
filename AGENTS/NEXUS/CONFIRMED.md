@@ -1,4 +1,5 @@
 # NEXUS — Confirmed Convergences
+**Full-review cross-check 2026-10-31T13:02:04-04:00:** no promotion. M-03's closed DOWN result is historical; its premium mechanism graded TRUE-in-spirit 10/31 (row is a matrix judgment, not a CONFIRMED row). The 10/29–10/30 AI/semis repricing is one class, no convergence. C-36 LEVEL/SPLIT and C-35 ungradeable unchanged.
 **Full-review cross-check 2026-10-26T23:40:25-04:00:** no promotion. M-03’s closed DOWN result 78→74 is historical; its ongoing number is withdrawn without a successor. C-36 LEVEL/SPLIT unchanged; C-35 transit grading remains ungradeable pending owner control disposition.
 **Purpose:** Thesis scorecard. Convergences that fired. Detail preserved, out of the active matrix.
 **Rule:** Once STATUS.md marks ✅ CONFIRMED/TRIGGERED/FACT → move here with timestamp.

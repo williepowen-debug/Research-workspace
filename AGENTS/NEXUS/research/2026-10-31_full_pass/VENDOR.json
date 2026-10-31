@@ -1,0 +1,402 @@
+{
+  "KRE": {
+    "name": "Regional Banks ETF",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 72.73,
+        "volume": 13662200
+      },
+      {
+        "date": "2026-10-27",
+        "close": 72.58,
+        "volume": 12754000
+      },
+      {
+        "date": "2026-10-28",
+        "close": 72.11,
+        "volume": 12333500
+      },
+      {
+        "date": "2026-10-29",
+        "close": 72.86,
+        "volume": 9292900
+      },
+      {
+        "date": "2026-10-30",
+        "close": 72.01,
+        "volume": 17706700
+      }
+    ],
+    "high": 72.86,
+    "low": 72.01,
+    "start": 72.73,
+    "end": 72.01,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -0.99
+  },
+  "SPY": {
+    "name": "SPY",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 765.37,
+        "volume": 31737800
+      },
+      {
+        "date": "2026-10-27",
+        "close": 769.66,
+        "volume": 28631700
+      },
+      {
+        "date": "2026-10-28",
+        "close": 772.31,
+        "volume": 30133800
+      },
+      {
+        "date": "2026-10-29",
+        "close": 769.36,
+        "volume": 40299600
+      },
+      {
+        "date": "2026-10-30",
+        "close": 755.72,
+        "volume": 77625800
+      }
+    ],
+    "high": 772.31,
+    "low": 755.72,
+    "start": 765.37,
+    "end": 755.72,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -1.26
+  },
+  "QQQ": {
+    "name": "QQQ",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 712.2,
+        "volume": 33110800
+      },
+      {
+        "date": "2026-10-27",
+        "close": 721.25,
+        "volume": 30942800
+      },
+      {
+        "date": "2026-10-28",
+        "close": 725.61,
+        "volume": 30507400
+      },
+      {
+        "date": "2026-10-29",
+        "close": 715.34,
+        "volume": 38251600
+      },
+      {
+        "date": "2026-10-30",
+        "close": 690.49,
+        "volume": 85108900
+      }
+    ],
+    "high": 725.61,
+    "low": 690.49,
+    "start": 712.2,
+    "end": 690.49,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -3.05
+  },
+  "RSP": {
+    "name": "RSP",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 217.29,
+        "volume": 7662200
+      },
+      {
+        "date": "2026-10-27",
+        "close": 217.52,
+        "volume": 9212800
+      },
+      {
+        "date": "2026-10-28",
+        "close": 217.43,
+        "volume": 8544200
+      },
+      {
+        "date": "2026-10-29",
+        "close": 220.04,
+        "volume": 8730300
+      },
+      {
+        "date": "2026-10-30",
+        "close": 218.31,
+        "volume": 10334200
+      }
+    ],
+    "high": 220.04,
+    "low": 217.29,
+    "start": 217.29,
+    "end": 218.31,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": 0.47
+  },
+  "HYG": {
+    "name": "HY Bond ETF",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 77.2,
+        "volume": 41378000
+      },
+      {
+        "date": "2026-10-27",
+        "close": 77.6,
+        "volume": 54993100
+      },
+      {
+        "date": "2026-10-28",
+        "close": 77.59,
+        "volume": 65283700
+      },
+      {
+        "date": "2026-10-29",
+        "close": 77.58,
+        "volume": 51353900
+      },
+      {
+        "date": "2026-10-30",
+        "close": 77.43,
+        "volume": 60754300
+      }
+    ],
+    "high": 77.6,
+    "low": 77.2,
+    "start": 77.2,
+    "end": 77.43,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": 0.3
+  },
+  "LQD": {
+    "name": "LQD",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 104.02,
+        "volume": 24933200
+      },
+      {
+        "date": "2026-10-27",
+        "close": 104.3,
+        "volume": 26362900
+      },
+      {
+        "date": "2026-10-28",
+        "close": 104.07,
+        "volume": 34568700
+      },
+      {
+        "date": "2026-10-29",
+        "close": 104.22,
+        "volume": 52979600
+      },
+      {
+        "date": "2026-10-30",
+        "close": 104.27,
+        "volume": 40271100
+      }
+    ],
+    "high": 104.3,
+    "low": 104.02,
+    "start": 104.02,
+    "end": 104.27,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": 0.24
+  },
+  "SOXX": {
+    "name": "SOXX",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 491.83,
+        "volume": 9260800
+      },
+      {
+        "date": "2026-10-27",
+        "close": 511.06,
+        "volume": 8684800
+      },
+      {
+        "date": "2026-10-28",
+        "close": 521.94,
+        "volume": 8392200
+      },
+      {
+        "date": "2026-10-29",
+        "close": 513.86,
+        "volume": 6482000
+      },
+      {
+        "date": "2026-10-30",
+        "close": 471.51,
+        "volume": 18767300
+      }
+    ],
+    "high": 521.94,
+    "low": 471.51,
+    "start": 491.83,
+    "end": 471.51,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -4.13
+  },
+  "GLD": {
+    "name": "GLD",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 367.82,
+        "volume": 6548100
+      },
+      {
+        "date": "2026-10-27",
+        "close": 372.28,
+        "volume": 5335900
+      },
+      {
+        "date": "2026-10-28",
+        "close": 373.51,
+        "volume": 9013100
+      },
+      {
+        "date": "2026-10-29",
+        "close": 368.57,
+        "volume": 9132600
+      },
+      {
+        "date": "2026-10-30",
+        "close": 355.78,
+        "volume": 16231700
+      }
+    ],
+    "high": 373.51,
+    "low": 355.78,
+    "start": 367.82,
+    "end": 355.78,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -3.27
+  },
+  "^VIX": {
+    "name": "VIX",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 18.39,
+        "volume": 0
+      },
+      {
+        "date": "2026-10-27",
+        "close": 17.52,
+        "volume": 0
+      },
+      {
+        "date": "2026-10-28",
+        "close": 16.91,
+        "volume": 0
+      },
+      {
+        "date": "2026-10-29",
+        "close": 17.2,
+        "volume": 0
+      },
+      {
+        "date": "2026-10-30",
+        "close": 19.42,
+        "volume": 0
+      }
+    ],
+    "high": 19.42,
+    "low": 16.91,
+    "start": 18.39,
+    "end": 19.42,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": 5.6
+  },
+  "^TNX": {
+    "name": "10Y Treasury Yield",
+    "days": 5,
+    "history": [
+      {
+        "date": "2026-10-26",
+        "close": 4.99,
+        "volume": 0
+      },
+      {
+        "date": "2026-10-27",
+        "close": 4.99,
+        "volume": 0
+      },
+      {
+        "date": "2026-10-28",
+        "close": 5.05,
+        "volume": 0
+      },
+      {
+        "date": "2026-10-29",
+        "close": 4.99,
+        "volume": 0
+      },
+      {
+        "date": "2026-10-30",
+        "close": 4.93,
+        "volume": 0
+      }
+    ],
+    "high": 5.05,
+    "low": 4.93,
+    "start": 4.99,
+    "end": 4.93,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": -1.2
+  }
+}
