@@ -1,5 +1,10 @@
 """
-News Sweep Config — Source of truth for queries, sources, keywords, entities, watch lists.
+News Sweep Config — entity index for sweep.py (no cron).
+
+⚠️ NOT MAINTAINED since 2026-10-31 (PROME, DOCKET L634, on Will's "Okay can we handle the backlog now"): the
+GOOGLE_NEWS_QUERIES and WATCH_FOR sections below are a frozen, drifted copy. The ONLY maintained lane config is
+~/Research-Intake/scripts/newsweep_config.py (the live collector). Edit entities here for sweep.py only.
+(Former line: "Source of truth for queries, sources, keywords, entities, watch lists.")
 Pattern: mirrors market-data/config.py
 Updated: 2026-04-03
 
