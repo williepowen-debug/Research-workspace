@@ -14,7 +14,6 @@
   "AGENTS/WALTER/tools/dropzone_scan.py": "2b37fec95b95671ef0de8f111210f9cebfad640ec527dc6a52654e056339c3db",
   "AGENTS/WALTER/tools/intake_cadence.py": "5863bb1ae09cd8abb87370233a748b0862c055585a77f24b4effe24f89df9053",
   "AGENTS/WALTER/tools/intake_scan.py": "2695e6191ba83cde166b1f30f16c68fa68b4fc6d12219c311b434b4ee816dfc9",
-  "AGENTS/WALTER/tools/phone_scan.py": "5249386c7ca093d2c222ecf691b6b10049d83967423fd358f7f91ac8059262e6",
   "AGENTS/WALTER/tools/signal_read_check.py": "91717b708d94b2e8e452fa108a9c7781515d84131ea6388efbacc33df85b7039",
   "AGENTS/WALTER/tools/version_drift_check.py": "c9c4c4a69ceb6f819df03fd5a4ed1b6a8b6eb9699c6e37202d8fc71d0607ac12",
   "AGENTS/WALTER/tools/walter_doctor.py": "c07b1f6ef6dc5d5d67faf428845b1b07fd52e94be9404c8b2844d4d1f2ee75a7",
