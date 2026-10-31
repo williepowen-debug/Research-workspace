@@ -1,0 +1,39 @@
+check	recommendation	seconds_one_run	source_lines	reason
+future_timestamps	KEEP	0.0507	2864-3016	Invalid/future dispatch clocks; not equivalent to weekday validation.
+version_drift	CONSOLIDATE / ON SPEC EDIT	0.0057	220-235	Doctor repeats core version checks but omits COMPANIONS; retain the standalone full comparison as the one implementation.
+claude_md_version_drift	ON SPEC EDIT	0.0093	1337-1386	Checks current claims in charter/SPEC_OWNERSHIP, a distinct scope from STATE and companion versions.
+restated_set_drift	SIMPLIFY	0.0199	1707-1880	Keep recipient/cluster behavioral agreement; retire cosmetic check-count/docstring/enumeration seed 3 and its duplicated inventories.
+board_reconcile	KEEP	0.0226	239-289	Counts, totals and per-section structure are not checked by the sorted-row freshness comparison.
+log_reconcile	KEEP	0.0541	1390-1487	Routes/delivery audit records versus BOARD; different objects from INDEX.
+cron_liveness	RETIRE FROM ROUTINE	0.0001	293-315	All three feeds are retired; filesystem mtime is not a revival ruling. Keep the charter tombstone.
+intake_liveness	KEEP	0.0006	341-394	Current collection lane; doctor catches health before processing. Shared cadence implementation already exists.
+cushing_capability	SIMPLIFY	0.0002	1491-1505	Only tests .env existence and a literal key name; change claims to configuration-only, with actual scan output deciding availability.
+outbox_age	SIMPLIFY	0.0012	398-418	73 output records, 35 LOW; age is mtime, not unresolved state. Relocate completed evidence; preserve actual pending requests and recorded deferrals.
+registry_staleness	CONSOLIDATE	0.0012	422-432	Date-age summary can accompany registry_lag; do not infer fleet liveness from either.
+registry_lag	KEEP	1.9792	436-506	Mirror versus owner header/git evidence; not runtime liveness. Preserve guards against incidental STATUS touches.
+registry_self_lag	KEEP	0.0185	509-527	Self row excluded from peer loop; removing this would lose coverage unless integrated explicitly.
+liaison_enum	ON CHANNEL REVIEW	0.003	531-541	Informational mtime list; charter step 9 already discovers channels and reads authored turns. Keep discovery, avoid duplicate routine display.
+delivered_but_unconsumed	KEEP	2.5108	958-1107	Publication without recipient integration is a distinct risk; known CATO receipt limitation is not a reason to delete the check.
+board_log_path_divergence	KEEP	0.0706	935-955	Finds alternate recipient evidence locations; needed by consumption checks.
+written_but_undelivered	KEEP	2.6688	1111-1135	Written/local copies not on origin; distinct from falsely claiming delivered.
+delivery_claim_vs_git	KEEP	6.2636	1139-1287	Stored delivered claims independently checked against origin; costly but load-bearing.
+deep_research_pending_overdue	KEEP	0.0197	1290-1333	Existing live commissioned-work return obligations.
+dewey_handoff_liveness	KEEP	0.0001	2068-2099	Return-channel liveness; absence is not the same as overdue individual commissioned work.
+staleness_sweep_overdue	KEEP	0.0003	1509-1527	Existing correction/lifecycle sweep obligation; no new cadence proposed.
+dropzone_pending	KEEP	0.0009	1568-1585	Current Will file intake, shares discovery with dropzone_scan; repetition is notification versus workflow, not duplicate code to delete.
+boot_protocol_xref	ON SPEC EDIT	0.0009	1531-1565	Check split-document pointers after changing those documents, not every unchanged market session.
+status_spine_overflow	KEEP	0.0003	1642-1662	Actual status layout guard; do not confuse with read-cap size.
+full_closeout_owed	KEEP	0.0156	1665-1690	Backstop for deferred full reviews; still active under current tiers.
+status_bottom_line	KEEP	0.0003	1588-1639	Standalone operational summary can vanish independently of file size or ledger state.
+cluster_review_overdue	KEEP	0.0085	1883-1983	Coherence review, not retired numerical cluster soft caps.
+registered_but_unrouted	KEEP	0.0351	1986-2065	Routing coverage; shared/partial scaffolds remain qualified, not automatic new launches.
+correction_target_declared	KEEP	0.1208	2156-2222	Corrections identify what they correct; no automatic dismissal of older formats.
+correction_kill_strings	KEEP	0.0479	2116-2153	Exact retracted literals, forward-only enforcement; retain generator/consumer fail-closed behavior.
+batch_manifest_open	KEEP	0.0233	2226-2288	Declared input completeness, not proof of undeclared batches or underlying truth.
+dispatch_frontmatter	REPAIR EXISTING	0.0503	2330-2383	Inline-list-only parser rejects valid block YAML in October27 card001; preserve header/body separation and duplicate-key checks.
+action_line_rule	KEEP	0.1511	2386-2454	Directed asks on ACTION rather than INFO; heuristic limits already explicit.
+terry_override_ratio	RETIRE FROM ROUTINE	0.0182	2486-2563	Measures closed August26 rule; only historical INFO. Event can eventually be printed unfired after rolling out of the 90-day window.
+filed_vs_consumed	KEEP	2.8075	2599-2659	A processed move without owner declaration is not consumption; separate from publication and board-log content.
+entities_at_dispatch	KEEP	0.0457	2662-2698	Entity identification required by current signal schema.
+auto_load_budget	ON RUNTIME / INSTRUCTION REVIEW	0.0014	2702-2774	Informational measurement with no threshold; hardcoded Claude memory path does not prove actual Codex injection.
+index_generated_fresh	KEEP	0.2453	2806-2862	Checks source projection and actual row content; not a substitute for section/ToC integrity.

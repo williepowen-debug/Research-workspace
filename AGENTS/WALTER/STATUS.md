@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-31T21:36:45Z — Codex/OpenAI oil-rig reconciliation; FULL closeout. Duties and publication evidence: LAST_COMPLETION.md.
+**Updated:** 2026-10-31T21:46:53Z — Codex/OpenAI process/check audit; FULL closeout. Duties and publication evidence: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-The stale oil-rig routing trigger is retired in routing v0.50. WALTER's historical 408 + 50 = 458 formula remains distinct from BRENT's closed 457 prediction; no replacement trigger or new study. The dedicated correction preserves ordinary routing for material rig news and all other boundary letters.
+WALTER process/check audit completed: 38 doctor checks profiled, 11 evidence-backed findings and a bounded cleanup proposal. Strong candidates include retired cron/TERRY checks, obsolete COP/Telegram/phone instructions, and the burst-window procedure tied to BRENT's closed May trigger set. That policy retirement needs a separate decision. No operating process, check or routing rule changed by this audit.
 
-Boot remains PARTIAL on existing final/ICE settlement, energy-feed, owner-evidence and full-fleet visibility limits. Central attestation and prior boot repairs remain verified. Daily totals: 22 cards across 9 clusters, 45 kill-log rows and 14 bounded helpers across sittings; this pass adds one correction and two required handoffs, no helpers or market scan. Zero cluster_mediating flags and no new threshold fire/exit. BALANCED posture, CLOSED event window. FULL design closeout clears the prior administrative deferral; current duties and transport evidence are in LAST_COMPLETION.md.
+Boot remains PARTIAL on preserved source, owner-evidence and full-fleet visibility limits. The prior rig-boundary repair remains complete. Daily totals remain 22 cards across 9 clusters, 45 kill-log rows and 14 bounded helpers across sittings; this audit adds no dispatch/helper/market scan. BALANCED posture, CLOSED event window, zero cluster_mediating flags. Current obligations and publication evidence: LAST_COMPLETION.md. Report: research/2026-10-31_process-audit/REPORT.md.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -64,7 +64,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-All 44 STATUS-backed registry rows rechecked at 2026-10-31T21:36:45Z; 43 other-owner lead blocks match committed repair 7bf36fa9a, and WALTER is refreshed; owner update dates retained, including PROME's October 30 header. All 49 mirror names matched roster entries; no missing STATUS-backed desk, eligibility change or launch. Five rows without STATUS retain explicit prior evidence. REGISTRY is a routing mirror, not a liveness census.
+All 44 STATUS-backed registry rows rechecked at 2026-10-31T21:46:53Z; 43 other-owner lead blocks match the prior rig-reconciliation review, and WALTER is refreshed; owner update dates retained, including PROME's October 30 header. All 49 mirror names matched roster entries; no missing STATUS-backed desk, eligibility change or launch. Five rows without STATUS retain explicit prior evidence. REGISTRY is a routing mirror, not a liveness census.
 
 SAM has graded the BOJ decision; no observed Japan unwind established. HENRY's October 31 breadth study retains Friday's technology weakness and negative gamma; VULCAN's October 30 sell-off fired no registered letter. GIBBS completed its October 31 cyber-consequence/inbox pass. ISHM retains selective equipment strength and its November final frame. NEXUS's October 31 matrix reports vulnerabilities without three-root convergence. MIDAS's October 30 liquidation candidate does not prove forced margin selling. Owner-header review is not fresh market verification or proof of consuming today's cards. Local runtime observations: Codex endpoint shows WALTER active and CATO idle at 19:50:18Z; Claude inventory shows PROME interactive idle at 19:53:32Z. Six Codex helpers are separate from owner sessions. Other-desk absence and full-fleet lifecycle readiness remain UNKNOWN; no dark-owner verdict.
 

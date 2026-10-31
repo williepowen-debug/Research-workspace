@@ -1,0 +1,1137 @@
+{
+  "as_of": "2026-10-31T21:40:51.587643+00:00",
+  "scope": "Tracked WALTER files; historical/evidence is path-based inventory, not a semantic retirement verdict. Gitignored files and foreign owner content excluded. Historical/evidence paths counted but omitted from itemized rows; this is not a claim that every historical file body was reviewed.",
+  "tracked_total": 4324,
+  "class_counts": {
+    "operational/candidate": 222,
+    "historical/evidence": 4102
+  },
+  "rows": [
+    {
+      "path": "AGENTS/WALTER/.claude/settings.json",
+      "bytes": 121,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/.gitignore",
+      "bytes": 7,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/CLAUDE.md",
+      "bytes": 24017,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/LAST_COMPLETION.md",
+      "bytes": 20034,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/MEMORY.md",
+      "bytes": 22825,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/MEMORY_PROMOTED.md",
+      "bytes": 112330,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/REGISTRY.tsv",
+      "bytes": 19950,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/SESSION_LOG.md",
+      "bytes": 1243201,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/STATUS.md",
+      "bytes": 23501,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/anchors/IRAN_WAR.md",
+      "bytes": 19924,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/anchors/IRAN_WAR_GUARDS.md",
+      "bytes": 66781,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/anchors/IRAN_WAR_HISTORY.md",
+      "bytes": 455677,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/AI_CAPEX_AXIS_CHECK_2026-07-16.md",
+      "bytes": 13537,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/AI_CAPEX_AXIS_CHECK_2026-07-27.md",
+      "bytes": 7237,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/AI_CAPEX_AXIS_CHECK_2026-08-31.md",
+      "bytes": 11080,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/AI_CAPEX_AXIS_CHECK_2026-10-10.md",
+      "bytes": 10000,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md",
+      "bytes": 142480,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/BOARD_INDEX_GENERATION_DESIGN.md",
+      "bytes": 13638,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+      "bytes": 71491,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/CLUSTER_TAXONOMY.md",
+      "bytes": 32776,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/CROSS_REFS/RED.md",
+      "bytes": 27811,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/CROSS_REFS/REGINALD.md",
+      "bytes": 28616,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/DEEP_RESEARCH_FLAG_PROPOSAL.md",
+      "bytes": 25662,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/EVENT_WINDOW_STATE.md",
+      "bytes": 6157,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/FILTER_SPEC.md",
+      "bytes": 28682,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/FILTER_V3_REVIEW.md",
+      "bytes": 10316,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/LIAISON_PLAYBOOK.md",
+      "bytes": 11478,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/NEWS_SWEEP_TARGETS.md",
+      "bytes": 15431,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md",
+      "bytes": 21007,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_ROOT_PROME_SIGNOFF.md",
+      "bytes": 7320,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/OPERATOR_BRIEF_SPEC.md",
+      "bytes": 9624,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/PHONE_PART_A_CARD.md",
+      "bytes": 5041,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/PHONE_SIGNAL_INGESTION.md",
+      "bytes": 11438,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/PILOT_STEP_FORM_2026-09-06.md",
+      "bytes": 20382,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/ROUTING_CARVEOUTS.md",
+      "bytes": 73114,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/ROUTING_COVERAGE_PROPOSAL_2026-08-19.md",
+      "bytes": 9216,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/ROUTING_OVERLAYS.md",
+      "bytes": 22524,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/ROUTING_TABLE.md",
+      "bytes": 23029,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/SCOUT_BUILD_PLAN.md",
+      "bytes": 11943,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md",
+      "bytes": 70213,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/SIGNAL_INTAKE_TEMPLATE.md",
+      "bytes": 5087,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md",
+      "bytes": 126287,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/SPEC_OWNERSHIP.md",
+      "bytes": 16466,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/STATE.md",
+      "bytes": 66416,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/THRESHOLD_SCAN.md",
+      "bytes": 16788,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/V0_9_STACK.md",
+      "bytes": 9354,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md",
+      "bytes": 39739,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/X_BOOKMARKS_SETUP_CARD.md",
+      "bytes": 8157,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/X_BOOKMARKS_WORKFLOW.md",
+      "bytes": 9861,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/ARM_CONTROL.md",
+      "bytes": 1311,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/ARM_CONTROL_RAW.md",
+      "bytes": 13810,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/ARM_REVISED.md",
+      "bytes": 1627,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/ARM_REVISED_RAW.md",
+      "bytes": 11647,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/fixture/AGENTS/REGINALD/registry/THRESHOLDS.tsv",
+      "bytes": 205,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/fixture/AGENTS/WALTER/LAST_COMPLETION.md",
+      "bytes": 625,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/fixture/BOARD/SIG-W-20260812-003-example-signal.md",
+      "bytes": 273,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/step3_ORIGINAL.txt",
+      "bytes": 1724,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/design/pilot_runs/step3_REVISED.txt",
+      "bytes": 1537,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/filtered/kill_log.tsv",
+      "bytes": 624717,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/handoff_BRENT/LIAISON_TURN_2_DRAFT.md",
+      "bytes": 13692,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/handoff_BRENT/LIAISON_TURN_4_DRAFT.md",
+      "bytes": 11460,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/handoff_BRENT/route_log_brent_slice.tsv",
+      "bytes": 30730,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/handoff_RED/CHALLENGES_BACKFILL_diff.tsv",
+      "bytes": 950,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/handoff_RED/LIAISON_TURN_2_DRAFT.md",
+      "bytes": 18805,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/DEWEY/README.md",
+      "bytes": 1558,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/WILL/.gitignore",
+      "bytes": 370,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/WILL/.gitkeep",
+      "bytes": 0,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/inbox/WILL/README.md",
+      "bytes": 1326,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_board-index-cutover-receipt.json",
+      "bytes": 1499,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_boot-maintenance.md",
+      "bytes": 4298,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_closeout-validation.json",
+      "bytes": 21918,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_codex-owner-catchup-completion.md",
+      "bytes": 19536,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_codex-owner-progress.md",
+      "bytes": 2912,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_consumer-cross.txt",
+      "bytes": 4953,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_consumer-self.txt",
+      "bytes": 1980,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_consumer-skew-self.txt",
+      "bytes": 1927,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_consumer-skew.txt",
+      "bytes": 5557,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_created-paths.json",
+      "bytes": 2541,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_diff-hygiene.txt",
+      "bytes": 35,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_doctor-results.txt",
+      "bytes": 13228,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_energy-and-yen-follow-through.md",
+      "bytes": 6236,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_evening-boot-skew-receipt.json",
+      "bytes": 526,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_evening-boot.md",
+      "bytes": 6290,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_file-sweep.md",
+      "bytes": 7406,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_inbox-dispositions.tsv",
+      "bytes": 3856,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_intake-after.json",
+      "bytes": 1135,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_intake-dispositions.tsv",
+      "bytes": 1447,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_intake-inputs.json",
+      "bytes": 10915,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_intended-git-paths.txt",
+      "bytes": 7173,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_news-catchup-validation.json",
+      "bytes": 1266,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_news-catchup.md",
+      "bytes": 10863,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_previous-completion-carry.md",
+      "bytes": 10263,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_read-cap-results.txt",
+      "bytes": 1293,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_registry-header-receipt.json",
+      "bytes": 20045,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_regression-results.txt",
+      "bytes": 5031,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_source-and-consumer-receipt.md",
+      "bytes": 6121,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_verify-intake-memory.md",
+      "bytes": 10460,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_verify-intake-other.md",
+      "bytes": 13257,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-08_version-drift-results.txt",
+      "bytes": 875,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-14_boundary-6-8-month-basis-RECOMMENDATION-to-Will.md",
+      "bytes": 11402,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-15_boot-assessment.md",
+      "bytes": 14286,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-21_verdict-letter-FALSE-vs-UNSUPPORTED-PROPOSAL-to-Will.md",
+      "bytes": 8518,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-09-29_boot-assessment-PM.md",
+      "bytes": 6389,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-03_to-PROME_bookmark-links-215-162-220-231.md",
+      "bytes": 18504,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-10_closeout/closeout_check.json",
+      "bytes": 355,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_2318-X-bookmarks-auth-required.md",
+      "bytes": 1253,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_L673-consumption-check-queue-receipt.md",
+      "bytes": 1076,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_OZK-Horton-intake-receipt.json",
+      "bytes": 743,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_YURI-SIG031-file-coordination-queue.json",
+      "bytes": 878,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_YURI-SIG031-persistence-resolved.md",
+      "bytes": 828,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_active-checkpoint-queue-receipt.md",
+      "bytes": 799,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_boot-gap-completion-queue-receipt.md",
+      "bytes": 1244,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_desk-sweep-queue-receipt.md",
+      "bytes": 1006,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_machine-switch-checkpoint.md",
+      "bytes": 2226,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_owner-intake-queue-receipt.json",
+      "bytes": 1591,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_prome-directed-followup-queue-receipt.md",
+      "bytes": 1608,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_reboot-queue-receipt.md",
+      "bytes": 659,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_runner-cl9-queue-receipt.md",
+      "bytes": 629,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_session-closeout-queue-receipt.md",
+      "bytes": 1042,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_session-closeout.md",
+      "bytes": 3039,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_to-PROME_closeout-repairs.md",
+      "bytes": 2284,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_to-PROME_desktop-coordination-queue-receipt.md",
+      "bytes": 2357,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_to-PROME_desktop-coordination-status.md",
+      "bytes": 3448,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-12_x-authorization-restored.md",
+      "bytes": 1759,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-13_to-PROME_priority-routing-completion.md",
+      "bytes": 1544,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-13_to-PROME_priority-routing-persistence.md",
+      "bytes": 780,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-14_context-persistence-closeout.md",
+      "bytes": 1591,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-14_morning-news-boot.md",
+      "bytes": 1210,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-14_morning-news-receipt.md",
+      "bytes": 1519,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-14_three-thread-verification.md",
+      "bytes": 1360,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-14_to-PROME_bookmark-routing-completion.md",
+      "bytes": 1482,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-14_to-PROME_bookmark-routing-mark-proof.md",
+      "bytes": 1302,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-14_to-PROME_full-reboot-closeout.md",
+      "bytes": 1908,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-25_WQ515-prospective-selection-rule.md",
+      "bytes": 1865,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-25_X-reauthorized.md",
+      "bytes": 806,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-25_bookmark-processing-complete.md",
+      "bytes": 753,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-25_bookmark-queue-check.md",
+      "bytes": 657,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-25_boot-completion.md",
+      "bytes": 3188,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-25_to-DEWEY_WQ515-selection-rule-committed.md",
+      "bytes": 1173,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/2026-10-26_1900-LIQUID-request-relay.md",
+      "bytes": 602,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/REQ-PROME-20261016-vulcan-intake-design.md",
+      "bytes": 4936,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/outbox/VERIFY-20260831-iran-weekend-claims.md",
+      "bytes": 11568,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/proposals/2026-08-23_leg3b-re-score-the-bar-is-WRONG-not-stale-FOR-WILL.md",
+      "bytes": 10974,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/proposals/2026-08-23_rule6b-orchestration-era-amendment-FOR-WILL.md",
+      "bytes": 6653,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/proposals/2026-08-28_prevention-findings-need-a-push-surface-BOARD-is-a-pull-surface-FOR-WILL.md",
+      "bytes": 4429,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/reading/SIG-W-20260619-008.md",
+      "bytes": 21889,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv",
+      "bytes": 818333,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/BM-20260828-02-manifest.tsv",
+      "bytes": 1593,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/BM-20260828-03-manifest.tsv",
+      "bytes": 1457,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/BM-20260828-04-manifest.tsv",
+      "bytes": 1585,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/CLUSTER_RECATEGORIZATIONS.tsv",
+      "bytes": 4600,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/CORRECTIONS.tsv",
+      "bytes": 55857,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv",
+      "bytes": 81726,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/DOORBELL_LOG.tsv",
+      "bytes": 249999,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/ENTITIES_MISSES_ACKNOWLEDGED.tsv",
+      "bytes": 1586,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv",
+      "bytes": 2933,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/INDEX_ERRATUM_SUPPRESSIONS.tsv",
+      "bytes": 598,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/INDEX_LEGACY_TITLES.tsv",
+      "bytes": 24818,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/NOTE_ROWS_REVIEWED.tsv",
+      "bytes": 5440,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/README.md",
+      "bytes": 4327,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv",
+      "bytes": 2531,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-06-10.tsv",
+      "bytes": 1792,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-06-16.tsv",
+      "bytes": 3749,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-07-02.tsv",
+      "bytes": 13900,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-07-19.tsv",
+      "bytes": 18530,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-08-03.tsv",
+      "bytes": 29452,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-08-18.tsv",
+      "bytes": 9711,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-09-03.tsv",
+      "bytes": 5807,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-09-24.tsv",
+      "bytes": 4169,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-10-10.tsv",
+      "bytes": 4591,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/STALENESS_SWEEP_2026-10-29.tsv",
+      "bytes": 3561,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/UNOWNED_DOMAINS_2026-08-18.tsv",
+      "bytes": 4589,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/boot_basis_hashes.json",
+      "bytes": 3120,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/brightdata_usage.tsv",
+      "bytes": 2998,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/corrections_receipts.tsv",
+      "bytes": 368,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/intake_seen.json",
+      "bytes": 2206,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/signal_read_companions.json",
+      "bytes": 669,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/x_bookmarks_pending.json",
+      "bytes": 422,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/x_bookmarks_receipt.json",
+      "bytes": 290,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/registry/x_bookmarks_seen.json",
+      "bytes": 38702,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/routed/delivery_log.tsv",
+      "bytes": 1370006,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/routed/route_log.tsv",
+      "bytes": 1300194,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/sources/2026-04_Trepp_CMBS_Delinquency_Report.pdf",
+      "bytes": 6112804,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/sources/2026-08_Trepp_CMBS_Delinquency_Report.pdf",
+      "bytes": 11391718,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/sources/2026-08_Trepp_CMBS_Special_Servicing_Report.pdf",
+      "bytes": 9421151,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/sources/2026-09-08_evening_CBOE_SKEW_History.csv",
+      "bytes": 202894,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/archive_pair_check.py",
+      "bytes": 1859,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/batch_manifest.py",
+      "bytes": 12457,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/boot_basis_check.py",
+      "bytes": 1864,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/closeout_check.py",
+      "bytes": 7372,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/closeout_run.py",
+      "bytes": 9863,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/dropzone_scan.py",
+      "bytes": 649,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/gen_board_index.py",
+      "bytes": 22254,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/intake_cadence.py",
+      "bytes": 393,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/intake_scan.py",
+      "bytes": 20058,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/phone_scan.py",
+      "bytes": 9632,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/reconcile_delivery_log.py",
+      "bytes": 7640,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/signal_read_check.py",
+      "bytes": 4000,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/split_verify.py",
+      "bytes": 13218,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/staleness_sweep.py",
+      "bytes": 2853,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_boot_repairs.py",
+      "bytes": 10539,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_closeout_check.py",
+      "bytes": 5028,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_closeout_run.py",
+      "bytes": 7200,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_cluster_recategorization.py",
+      "bytes": 5730,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_correction_identity.py",
+      "bytes": 4305,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_dispatch_frontmatter.py",
+      "bytes": 1994,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_doctor_backlog.py",
+      "bytes": 5002,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_event_ledger_headers.py",
+      "bytes": 2390,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_false_assurance_regressions.py",
+      "bytes": 30040,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_kill_strings_enforcement.py",
+      "bytes": 2364,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_note_rows_review.py",
+      "bytes": 2532,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_quoted_signal_metadata.py",
+      "bytes": 2444,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_resolution_guards.py",
+      "bytes": 12608,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_signal_read_check.py",
+      "bytes": 3547,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_x_bookmarks_scan.py",
+      "bytes": 18039,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/test_x_bookmarks_workflow.py",
+      "bytes": 20556,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/version_drift_check.py",
+      "bytes": 7431,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/walter_doctor.py",
+      "bytes": 171781,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/watch_for_harness.py",
+      "bytes": 7192,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/x_bookmarks_scan.py",
+      "bytes": 31737,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/tools/x_bookmarks_workflow.py",
+      "bytes": 17486,
+      "class": "operational/candidate"
+    },
+    {
+      "path": "AGENTS/WALTER/workbook/LEDGER_GLOB",
+      "bytes": 1504,
+      "class": "operational/candidate"
+    }
+  ],
+  "reviewed_at": "2026-10-31T21:46:53Z",
+  "head_at_review": "34e12169a171a135fd91ccd7c526ce65e7887fcf",
+  "owner_header_comparison": "43 other-owner lead blocks unchanged against prior rig-reconciliation manual review; WALTER self updated after audit.",
+  "source_hashes": {
+    "AGENTS/WALTER/CLAUDE.md": "efa11a04d2ee7aeb695565aad461ce2a42bf7e45712072e57b0cbd99d5733749",
+    "AGENTS/WALTER/tools/walter_doctor.py": "9c755418c6d9c24fc2393086662d1f15833e734f9340b093ddc64e17eb53ce02",
+    "AGENTS/WALTER/tools/closeout_run.py": "5bc2904bdf4160d1be375b0edddf8f57e39a6a7eb10c086a2fee2964c794c3ac",
+    "AGENTS/WALTER/tools/closeout_check.py": "a6c2484b4444b347f5b4f255d3f9a0bdc2199404f1f951daff0df4ad472bfeac",
+    "AGENTS/WALTER/tools/version_drift_check.py": "9252e5290bcaf2da5d3cb9561fc0e5ab9e0e77375b50ce841feb5f53538b841b",
+    "AGENTS/WALTER/design/EVENT_WINDOW_STATE.md": "f8eff9ab8d02a284b07b35f02eb8581eed3bf20ff353569df3835ced314a1d2d",
+    "AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md": "ef39cc544523a36c166c2698c5a5387f8be8065631643d51c9c5fbc1109b2ab0",
+    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "a190e3e43fb4cb041104bee6bb3084b3dd51219fda16580dd6fea23845defba0",
+    "AGENTS/WALTER/design/PHONE_SIGNAL_INGESTION.md": "8c165314e54e2e52818640fd1ad17dc49c9eca53c12a846e1ff66dbb7cc6d649",
+    "AGENTS/WALTER/design/PHONE_PART_A_CARD.md": "928ab0b41d87438a62591b372e8563716fe1981084646e406b1f18e10286c026",
+    "AGENTS/WALTER/design/STATE.md": "1a67bafbefeb404215cae9a00b171526a9da709b7876982160f37416131aeff8"
+  }
+}
