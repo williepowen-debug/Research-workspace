@@ -1,0 +1,18 @@
+{
+  "schema_version": "decisions-receipt/1",
+  "id": "14d9440a65e64e71b94708441d40aa5d",
+  "response_id": "383f964ca28f4421817310393b307e32",
+  "response_sha256": "7a9328ed7b3cbc192f708f9cbeb0fd78b7bd15d5bff8c9b48ba48d1a78b61227",
+  "state": "integrated",
+  "at": "2026-10-30T20:34:27-04:00",
+  "previous_receipt_id": null,
+  "canonical_ruling": {
+    "path": "PROME/proposals/2026-10-30_wq558-RULED.md",
+    "commit": "b2cb03c75377750e62305fe859f9649b154b54fd"
+  },
+  "chat_confirmation": {
+    "path": "PROME/proposals/2026-10-30_wq558-RULED.md",
+    "commit": "b2cb03c75377750e62305fe859f9649b154b54fd"
+  },
+  "confirmed_response_sha256": "7a9328ed7b3cbc192f708f9cbeb0fd78b7bd15d5bff8c9b48ba48d1a78b61227"
+}
