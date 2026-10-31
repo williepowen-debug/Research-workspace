@@ -1,0 +1,26 @@
+$CLV26.NYM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+$BZV26.NYM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+$BZX26.NYM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+$CLX26.NYM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+$RBV26.NYM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+$HOV26.NYM: possibly delisted; no price data found  (period=5d) (Yahoo error = "No data found, symbol may be delisted")
+Saved /home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-31_evening-boot/red/observations.json
+VIXCLS [{'date': '2026-10-29', 'value': '17.2'}, {'date': '2026-10-28', 'value': '16.91'}]
+T5YIFR [{'date': '2026-10-30', 'value': '2.22'}, {'date': '2026-10-29', 'value': '2.23'}]
+BAMLH0A0HYM2 [{'date': '2026-10-29', 'value': '3.26'}, {'date': '2026-10-28', 'value': '3.14'}]
+ICSA [{'date': '2026-10-24', 'value': '194000'}, {'date': '2026-10-17', 'value': '195000'}]
+BAMLH0A3HYC [{'date': '2026-10-29', 'value': '13.25'}, {'date': '2026-10-28', 'value': '13.07'}]
+DGS2 [{'date': '2026-10-29', 'value': '4.61'}, {'date': '2026-10-28', 'value': '4.67'}]
+DGS5 [{'date': '2026-10-29', 'value': '4.78'}, {'date': '2026-10-28', 'value': '4.85'}]
+DGS20 [{'date': '2026-10-29', 'value': '5.35'}, {'date': '2026-10-28', 'value': '5.41'}]
+DGS10 [{'date': '2026-10-29', 'value': '4.98'}, {'date': '2026-10-28', 'value': '5.05'}]
+DGS30 [{'date': '2026-10-29', 'value': '5.32'}, {'date': '2026-10-28', 'value': '5.37'}]
+T10YIE [{'date': '2026-10-30', 'value': '2.34'}, {'date': '2026-10-29', 'value': '2.35'}]
+SKEW [{'DATE': '10/23/2026', 'SKEW': '151.800000'}, {'DATE': '10/26/2026', 'SKEW': '150.970000'}, {'DATE': '10/27/2026', 'SKEW': '149.220000'}, {'DATE': '10/28/2026', 'SKEW': '148.740000'}, {'DATE': '10/29/2026', 'SKEW': '151.030000'}, {'DATE': '10/30/2026', 'SKEW': '149.760000'}]
+Cushing [{'date': '2026-10-23', 'value': '26970'}, {'date': '2026-10-16', 'value': '27594'}]
+HY_first_published [{'date': '2026-10-29', 'value': '3.26', 'first_published': '2026-10-29'}, {'date': '2026-10-28', 'value': '3.14', 'first_published': '2026-10-28'}, {'date': '2026-10-27', 'value': '3.18', 'first_published': '2026-10-27'}, {'date': '2026-10-26', 'value': '3.3', 'first_published': '2026-10-26'}, {'date': '2026-10-23', 'value': '3.38', 'first_published': '2026-10-23'}] short False error None
+probe_BZ IDENTIFIED
+probe_CL IDENTIFIED
+probe_RB IDENTIFIED
+BAMLH0A0E2Y [{'error': 'HTTP Error 400: Bad Request'}]
+probe_HO IDENTIFIED

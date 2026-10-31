@@ -1,0 +1,2 @@
+2026-10-31T15:18:54.673557 FRED_FETCH latency=412ms {"series": "SOFR", "observations": 8}
+2026-10-31T15:18:54.687039 FRED_FETCH latency=425ms {"series": "IORB", "observations": 12}

@@ -1,0 +1,197 @@
+[
+  {
+    "title": "NCLH 2026-10-30 ['1.01', '2.03', '9.01']",
+    "key": "edgar:NCLH_2026_10_30_1_01_2_03_9_01_",
+    "number": 1,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261031-017"
+  },
+  {
+    "title": "NCLC 2026-10-30 ['1.01', '2.03', '9.01']",
+    "key": "edgar:NCLC_2026_10_30_1_01_2_03_9_01_",
+    "number": 2,
+    "disposition": "FOLD",
+    "reference": "SIG-W-20261031-017; same facilities; NCLC primary-body access caveat retained"
+  },
+  {
+    "title": "Comcast announces mass layoffs amid company-wide restructuring - PhillyVoice",
+    "key": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4c2U1MzBPdFBWQ0ZGOUc2MWE1aWMxNmtUTDJoRVgzbEZVMWtpdnRhejVqMnpwVGV2dWJraW5PUWpHOXozZjVBRmh2SC12dnhGLVNac2F0OWpkNWRqaUNSajVBeERERWFOZm16SEdRY1B2eXhHVzFTUXFpZw?oc=5",
+    "date": "Fri, 30 Oct 2026 21:11:06 GMT",
+    "number": 3,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261031-019"
+  },
+  {
+    "title": "Stablecoins causing bank deposit flight is 'mathematically not possible' says CEO | CoinDesk Videos - CoinDesk",
+    "key": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZDNmdW9FZzlxemF6c3dKQmdwWGt5MzBjZHBpNGU5QmZuNWVRd1ZTaHh0SjJvZnJWMnJIbmt2V3dCZktQOFNOUi1MMWRUeWhjQndYbTdwVlJWRnY1Z2tURWp0Mml2cldaUG13SVNvWFI4RlZ2U1hGSS12MTJOUVZYMWZ6dmg4NVpWcDJWSlEzUnp2ekMyRHpwendGNmc1RHRaQ3Z1ZFRXeEdQS3BPN2VV?oc=5",
+    "date": "Fri, 23 Oct 2026 07:00:00 GMT",
+    "number": 4,
+    "disposition": "FOLD",
+    "reference": "SIG-W-20261022-018; aggregate versus franchise/composition already covered; no new measurement"
+  },
+  {
+    "title": "After the Silicon Valley Bank failure, Berkeley Haas faculty raise concerns about systemic weaknesses in banking - University of California",
+    "key": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUU5GaE1xRjhmSDBLbXBTZVJoNW5YUUx6cGhiY0kzdC03RGJxQVp0ZE9XMXhud0xFQXpuRkJlTGlTZFFJX3hMQ2JZSnRYOVBTNzBZYzhJU3BuMjVIeHRZTGkzd1JrejhhR3pabWwzQzZqenRzQTBoQ2g2NEltLTNHaWdDNHNzZ25UT1RTZHhyV1ZqamI3SlV3cTNxQmt2OE9pQ1JOTVZPUHdxU2ViYjFWeXZsUVdRSGZhLV9pTGZOWGtUSzFUT0hueQ?oc=5",
+    "date": "Thu, 16 Mar 2023 07:00:00 GMT",
+    "number": 5,
+    "disposition": "KILL",
+    "reference": "Historical March16 2023 article; no fresh event"
+  },
+  {
+    "title": "Dealership growth, geographic expansion boost subprime auto originations - Auto Finance News",
+    "key": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVjhpYkdoRWZ6NTRpczRUNUJDOWxSc0hzSTRxT0dmY3NFR3RKZC1hQmVjN3NoTktRNUFrODZfbExyaUlwSWlXellDWmVzT3pjaDA2Nm8zTlU5OXlYTldGaW85TzBhb0VSOVd0dlliTVVXSlpfd0JmSkxVU3hDSFl6aVR1TWYtdjBnVHRzYzZid2FrdHlHY1oxREhWRnp4ZjdVTWNOZG0zZXdkUlZFRDR6NF83TjFEQXUxUHR0YjRUTnBOVUNaei1Cbw?oc=5",
+    "date": "Fri, 30 Oct 2026 20:58:18 GMT",
+    "number": 6,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261031-018"
+  },
+  {
+    "title": "Aramco Offers Europe Spot Crude as Yanbu Hits 2.5 mb/d - https://houseofsaud.com/",
+    "key": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UbFJqOENLb2NNR1lFMV9HXzQyNUo2VWk5ZUIzY0tIVGRyajExelJKYzVvRnRkdnpBMVI5VEZrT0JqUjRYN0VxT1Etby1OaTFYa296OGFOWkZGY0I0aWExUGRLcw?oc=5",
+    "date": "Wed, 28 Oct 2026 19:42:27 GMT",
+    "number": 7,
+    "disposition": "DUP",
+    "reference": "October29 Iran sweep row7e; SIG-W-20261029-002"
+  },
+  {
+    "title": "SanDisk stock tumbles as Kioxia warns on NAND price surge - Yahoo Finance",
+    "key": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONzdCLXQtTVJ4N3lDWVNlRGhreERSaTFsbzJPQTdWZENQelJqV1VJRG5BU0c2V2Z1YXpjZXRKLS11MlNnVl9DQkxsY3E0ZmZCUzJtNHRydXoxZVVLUkgzQjl2QVQwTjJnamVmbVhRay02N0NWYldZdUZtMmZVTVZOdDJSakgwZU9SS2JlcmNDTFRqVkJtWkNxdGptRlBRLTlY?oc=5",
+    "date": "Fri, 30 Oct 2026 16:18:34 GMT",
+    "number": 8,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-006; same Kioxia/ASP source gap preserved"
+  },
+  {
+    "title": "Russia Extends Ban on Most Diesel Exports Through January - Bloomberg.com",
+    "key": "news:WATCH_HIT:1aac04d3b5c8",
+    "number": 9,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Russia extends diesel export ban through January, allows limited shipments - Investing.com",
+    "key": "news:WATCH_HIT:00765f52a728",
+    "number": 10,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Russia Prepares to Prolong Diesel Export Limits Into 2027 - Egypt Oil & Gas",
+    "key": "news:WATCH_HIT:b23f55a02c58",
+    "number": 11,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Russia extends diesel export ban until end of January, government says - TradingView",
+    "key": "news:WATCH_HIT:3fc4d34f3712",
+    "number": 12,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Russia has extended its ban on diesel exports, but plans to quadruple sales - UkrMedia News",
+    "key": "news:WATCH_HIT:49e934260775",
+    "number": 13,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Russia Extends Diesel Export Ban Through January, Keeps Limited Quotas for Some Suppliers - BigGo Finance",
+    "key": "news:WATCH_HIT:049a6c894a68",
+    "number": 14,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Russia extends diesel export ban until January - Breakingthenews.net",
+    "key": "news:WATCH_HIT:72aebb6201cc",
+    "number": 15,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Russia to keep most diesel export limits into January 2027, with narrow carve outs - Briefs Finance",
+    "key": "news:WATCH_HIT:f54c14ba560c",
+    "number": 16,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Russia to extend diesel export ban until late January 2027 - https://www.irishsun.com/",
+    "key": "news:WATCH_HIT:53363cfb4582",
+    "number": 17,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "US Delegation Expected in Doha as Iran, Qatar Discuss Nuclear Program, Strait of Hormuz - The Media Line",
+    "key": "news:WATCH_HIT:b7a77d214c4a",
+    "number": 18,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261031-015"
+  },
+  {
+    "title": "OPEC+ agrees in principle to keep oil output targets steady in December, sources say - Reuters",
+    "key": "news:WATCH_HIT:98f1505ad99d",
+    "number": 19,
+    "disposition": "DISPATCH",
+    "reference": "SIG-W-20261031-016"
+  },
+  {
+    "title": "WAL 8-K & SEC Filings - Yahoo Finance",
+    "key": "news:DEVELOPMENT:a41554a3fb41",
+    "number": 20,
+    "disposition": "NO-ACTION",
+    "reference": "Yahoo generic filing category page, no new accession; Q3 10-Q already graded by WAL October30"
+  },
+  {
+    "title": "WAL 10-Q & SEC Filings - Yahoo Finance",
+    "key": "news:DEVELOPMENT:be61c86a5b79",
+    "number": 21,
+    "disposition": "NO-ACTION",
+    "reference": "Yahoo generic filing category page, no new accession; Q3 10-Q already graded by WAL October30"
+  },
+  {
+    "title": "France assesses military deployment at the Saudi terminal in Yanbu amid parliamentary doubts and the Houthi threat - Atalayar",
+    "key": "news:WATCH_HIT:43b89515e97c",
+    "number": 22,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261015-009; exact October13 Atalayar report"
+  },
+  {
+    "title": "Russia to extend diesel export ban until late January 2027 - Free Malaysia Today",
+    "key": "news:WATCH_HIT:673cb6cea7ed",
+    "number": 23,
+    "disposition": "DUP",
+    "reference": "SIG-W-20261031-001/004; signed January31 endpoint and planned volumes already routed"
+  },
+  {
+    "title": "Gas prices rise 12.09% in a week at Dutch TTF hub, 6.48% at Bulgaria's Gas Hub Balkan - BurgasMedia",
+    "key": "news:WATCH_HIT:e0f88c22def2",
+    "number": 24,
+    "disposition": "DUP",
+    "reference": "October27 weekly relay predates HANS October28 L3 and October31 verification; no official settlement supplied"
+  },
+  {
+    "title": "Jack Henry reports limited cyber breach in non-production systems - Yahoo Finance",
+    "key": "news:WATCH_HIT:cf10c69ddf8f",
+    "number": 25,
+    "disposition": "DUP",
+    "reference": "CYPHER CYB-INC-048; August31 release/September2 relay; nonproduction incident, no core outage"
+  },
+  {
+    "title": "ConnectWise CTO On Cloud Backup Cyberattack, M365 Update And Helping Thousands Of Partners - CRN",
+    "key": "news:WATCH_HIT:2952d441dac2",
+    "number": 26,
+    "disposition": "DUP",
+    "reference": "CYPHER CYB-INC-018; October19/20 sources precede owner October28 phased-restoration record; not fully restored"
+  },
+  {
+    "title": "ConnectWise breach puts more than 300 companies\u2019 secrets at risk - Cybernews",
+    "key": "news:WATCH_HIT:313803d0a7be",
+    "number": 27,
+    "disposition": "DUP",
+    "reference": "CYPHER CYB-INC-018; October19/20 sources precede owner October28 phased-restoration record; not fully restored"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "Date": "2026-10-29T00:42:28Z",
+    "Signal_ID": "SIG-W-20261029-001",
+    "Origin": "federalreserve.gov FOMC statement 2026-10-28",
+    "Summary": "FOMC 10/28 held 3.75-4.00, 10-2 with Cook and Hammack dissenting for a 25bp hike",
+    "Precedence": "PRIORITY",
+    "To": "HENRY,NEXUS",
+    "Info": "CARL,LIQUID,BOND,VIOLET,SAM,RED,PROME",
+    "Confidence": "0.97"
+  },
+  {
+    "Date": "2026-10-29T00:42:28Z",
+    "Signal_ID": "SIG-W-20261029-002",
+    "Origin": "RESEARCH-INTAKE lane + WALTER full Iran sweep 2026-10-29",
+    "Summary": "Ras Tanura Houthi claim only; no Saudi/Aramco statement; fire near export terminal per 1 anon source; full Iran sweep deltas",
+    "Precedence": "PRIORITY",
+    "To": "FALCON",
+    "Info": "BRENT,HAWK,SAM,RED,PROME",
+    "Confidence": "0.55"
+  },
+  {
+    "Date": "2026-10-29T00:42:28Z",
+    "Signal_ID": "SIG-W-20261029-003",
+    "Origin": "Tasnim 2026-10-27 (PGSA X post)",
+    "Summary": "PGSA: legal action vs all Sinokor vessels from 11/1; Sinokor ~47% of Hormuz VLCC transits (LLI, secondary)",
+    "Precedence": "PRIORITY",
+    "To": "FALCON,BRENT",
+    "Info": "HAWK,SAM,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T00:55:41Z",
+    "Signal_ID": "SIG-W-20261029-004",
+    "Origin": "MARCO owner packets 2026-10-25",
+    "Summary": "MARCO withdraws MIA Spirit-free premise (CORAL STATUS still stale), CBO -290K/-525K range, FL $600M-1.2B winter hole",
+    "Precedence": "PRIORITY",
+    "To": "CORAL,NEXUS",
+    "Info": "LABOR,REGINALD,CARL,RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T00:55:41Z",
+    "Signal_ID": "SIG-W-20261029-005",
+    "Origin": "CRUISE owner packets 2026-10-25",
+    "Summary": "CRUISE VX-CRU-04 GREEN->YELLOW (Norwegian Sky 9/9 Mideast sailing cancelled, reported 8/5); Canaveral/Miami/Galveston volumes up",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "CARL,MARCO,CORAL,FALCON,RED,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T00:55:41Z",
+    "Signal_ID": "SIG-W-20261029-006",
+    "Origin": "OTTO owner packets 2026-10-25",
+    "Summary": "OTTO auto-credit: Ally Q3 NCO 1.89%, KBRA nonprime 60+ 6.64%, Bridgecrest D +30bp, CPS D coupon +83bp; $767M aggregate retired",
+    "Precedence": "PRIORITY",
+    "To": "CARL",
+    "Info": "REGINALD,LIQUID,NEXUS,BROCK,RED,PROME",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T00:55:41Z",
+    "Signal_ID": "SIG-W-20261029-007",
+    "Origin": "CYPHER owner packets 2026-10-26",
+    "Summary": "CYPHER: Schwab-System = Swiss timber firm (not Charles Schwab); Unit42 withdrew PHP gov-breach link; Finzly/bank claims unconfirmed",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "REGINALD,GIBBS,BROCK,WATT,LIQUID,RED",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T00:55:41Z",
+    "Signal_ID": "SIG-W-20261029-008",
+    "Origin": "MARCO owner packet 2026-10-25",
+    "Summary": "Canada tariff line changes effective 10/30 (stacking retained); H-2A replacement rule 12/30; CA farm labor shortfalls (local)",
+    "Precedence": "PRIORITY",
+    "To": "CARL,LABOR",
+    "Info": "HAWK,ISHM,HENRY,REGINALD,RED",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T00:57:46Z",
+    "Signal_ID": "SIG-W-20261029-009",
+    "Origin": "RESEARCH-INTAKE / SEC 8-K RCL 2026-10-27",
+    "Summary": "RCL Q3 adj EPS 6.57; FY adj EPS guide 17.85-17.95 (from 17.73-17.87), fuel cost a partial offset",
+    "Precedence": "PRIORITY",
+    "To": "CRUISE",
+    "Info": "CARL,MARCO,CORAL,BRENT,RED",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-29T00:57:46Z",
+    "Signal_ID": "SIG-W-20261029-010",
+    "Origin": "RESEARCH-INTAKE news lane 2026-10-27/28",
+    "Summary": "Russian diesel 'lift' headlines = 10/10 quota recirculating; new: US energy secretary may allow more Russian diesel (CNBC 10/27)",
+    "Precedence": "PRIORITY",
+    "To": "BRENT,OSPREY",
+    "Info": "YURI,HENRY,RED",
+    "Confidence": "0.6"
+  },
+  {
+    "Date": "2026-10-29T00:57:46Z",
+    "Signal_ID": "SIG-W-20261029-011",
+    "Origin": "RESEARCH-INTAKE news lane 2026-10-27/28",
+    "Summary": "EU gas storage record low for date (73.94% 10/12, -14.91pp vs 5yr, TASS/GIE); drawdown starting (IntelliNews 10/28); ICE TTF options record OI ~3M",
+    "Precedence": "PRIORITY",
+    "To": "HANS",
+    "Info": "MARCO,BRENT,RED",
+    "Confidence": "0.6"
+  },
+  {
+    "Date": "2026-10-29T00:59:29Z",
+    "Signal_ID": "SIG-W-20261029-012",
+    "Origin": "DEWEY research-output (HAWK prompt 01)",
+    "Summary": "DEWEY helium: Polar fab on allocation by 1 of 3 suppliers (10/19); DOE helium critical material (10/23); no shutdown/runway measured",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "HAWK,VULCAN,BRENT",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T00:59:29Z",
+    "Signal_ID": "SIG-W-20261029-013",
+    "Origin": "DEWEY research-output (HAWK prompt 02)",
+    "Summary": "DEWEY Taiwan: no current LNG/coal inventory-days public; 12.2d is a forecast; 70kt Osaka Gas spot cargo arrived 9/14; Alaska 6Mt/yr from 2032",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "HAWK,SAM,BRENT",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T00:59:29Z",
+    "Signal_ID": "SIG-W-20261029-014",
+    "Origin": "DEWEY research-output (HAWK prompt 03)",
+    "Summary": "DEWEY war-risk: no matched Oct quotes; Yanbu ~3%/south-of-Yanbu to 7%/Red Sea 0.2-0.3% are 9/25; Black Sea quotes general transit",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "HAWK,FALCON,OSPREY,BRENT",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T15:01:50Z",
+    "Signal_ID": "SIG-W-20261029-015",
+    "Origin": "BEA 10/29 08:30 ET + FRED ICSA",
+    "Summary": "Q3 GDP +3.4% (Q2 +2.2%); Sept PCE +0.5% m/m, 3.6% y/y; core +0.3%, 3.1% y/y; claims 194k w/e 10/24",
+    "Precedence": "IMMEDIATE",
+    "To": "CARL",
+    "Info": "HENRY,LIQUID,LABOR,RED",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-29T15:01:50Z",
+    "Signal_ID": "SIG-W-20261029-016",
+    "Origin": "ECB press releases 10/29 (14:15 and 11:00 CET)",
+    "Summary": "ECB holds DFR 2.50/MRO 2.65/MLF 2.90; HANS-T-04 (>=2.75) not fired; financing conditions tightened; Lagarde to step down 2/7/2027",
+    "Precedence": "IMMEDIATE",
+    "To": "HANS",
+    "Info": "BOND,LIQUID,REGINALD,CARL,RED",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-29T15:01:50Z",
+    "Signal_ID": "SIG-W-20261029-017",
+    "Origin": "FRED pull 14:54Z + LIQUID packet",
+    "Summary": "HY OAS 314 [10/28]: fired state held, 14bp (4.7%) above the 300 exit; LIQUID WQ-444 >320 run reset 0-of-3; CCC 1,307",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "RED,REGINALD,LIQUID,HENRY,BROCK,CARL",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-29T15:01:50Z",
+    "Signal_ID": "SIG-W-20261029-018",
+    "Origin": "CRUISE owner grade 10/29 09:07 ET",
+    "Summary": "NCLH Q3 beat, FY26 guide raised (CRUISE: exit rule 1 limb fired, VX-CRU-03 RED->YELLOW; VX-CRU-05 held RED); stock +12.8% intraday",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "CARL,CORAL,BRENT,TERRY",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T15:01:50Z",
+    "Signal_ID": "SIG-W-20261029-019",
+    "Origin": "BROCK packets 10/28 + 10/29 correction",
+    "Summary": "ARCC to buy Apollo-managed MFIC at $10.88/sh (~84.6% of prelim 9/30 NAV $12.86); close H1 2027 (corrected from Q1)",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "LIQUID,SHADE,OTTO,REGINALD,TERRY",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T15:01:50Z",
+    "Signal_ID": "SIG-W-20261029-020",
+    "Origin": "OTTO packet 10/28 (Carvana Q3 10-Q)",
+    "Summary": "Carvana 10-Q: SEC concluded its short-report investigation (Sept 2026), no enforcement recommendation; WAL AUDITOR_NEXUS lines 20/90 stale",
+    "Precedence": "PRIORITY",
+    "To": "WAL",
+    "Info": "CARL,TERRY,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T15:01:50Z",
+    "Signal_ID": "SIG-W-20261029-021",
+    "Origin": "DEWEY handoffs 10/28 (x3)",
+    "Summary": "DEWEY: Bread Q3 card cohort 139.20bp scale, no measured hidden delinquency; Canadian-owned FL homes 48,107 ($21.32B just value), no Canadian spend figure; Nano records route not desk-completable, CourtListener 401",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "RED,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-022",
+    "Origin": "X bookmarks 10/28 + Rule 9 helper H1",
+    "Summary": "NAVCENT/JMIC advisory 10/28 (reported 016-26): ships that need not transit should remain well clear; WSJ posture detail; Iran war cost $47.1B as of 10/16",
+    "Precedence": "PRIORITY",
+    "To": "FALCON",
+    "Info": "BRENT,HAWK,SAM,RED",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-023",
+    "Origin": "X bookmark 10/28 + Rule 9 helper H2",
+    "Summary": "TTF Nov (X26) traded above EUR100 intraday 10/28 (high 100.945); settle conflicting 98.50 vs 100.72; HANS-T-07 L3 needs official ICE Endex settle",
+    "Precedence": "PRIORITY",
+    "To": "HANS",
+    "Info": "BRENT,LIQUID,RED",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-024",
+    "Origin": "X bookmarks 10/27-10/28 + Rule 9 helper H3",
+    "Summary": "Four named CRE distress cases (540 W Madison, Salesforce Tower Indy, Moxy Oakland NPL auction, Royal Sonesta Mpls $5M); Sept office CMBS payoff 12.79% of $516.9M",
+    "Precedence": "PRIORITY",
+    "To": "CREED",
+    "Info": "REGINALD,BROCK,RED",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-025",
+    "Origin": "X bookmarks 10/26-10/28 + Rule 9 helper H4 + vendor tape",
+    "Summary": "'$200B AI capital call' = ~$37.5B priced (Meta $25B common upsized + $12.5B preferred); SpaceX $40B lease binding not closed; GOOGL -11.7% intraday after Q3; SK hynix record OP, net -57.7% q/q",
+    "Precedence": "PRIORITY",
+    "To": "VULCAN",
+    "Info": "HENRY,VIOLET,WATT,BROCK,RED",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-026",
+    "Origin": "X bookmarks 10/26-10/27 + Rule 9 helper H2",
+    "Summary": "CCC 1,127bp is Bloomberg BCAUOAS (through 10/23), ICE CCC OAS 1,307 [10/28]; ICE CCC yield peaked 18.17% [10/23], 17.73% [10/28]; hyperscaler spread chart Oracle-led",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "LIQUID,BROCK,VULCAN,RED",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-027",
+    "Origin": "X bookmarks 10/28 + Rule 9 helper H2",
+    "Summary": "World Bank CMO 10/28: energy +32% in 2026, commodities +23%, Brent avg $91; Census Sept goods deficit $134.9B (Aug $132.1B); US HRC steel 4-yr high unverified",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "CARL,BRENT,ISHM,HENRY",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-028",
+    "Origin": "X bookmarks 10/27-10/28 + Rule 9 helper H3",
+    "Summary": "Investors bought ~224K homes H1 2026 (-7%), small investors record 66.2% share; CMHC provisions: median flat ~0.15%, riskiest quartile ~0.34%; Australian banks loosening",
+    "Precedence": "ROUTINE",
+    "To": "HOMER",
+    "Info": "REGINALD,CARL",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-029",
+    "Origin": "X bookmark 10/27 + Rule 9 helper H3",
+    "Summary": "Bloomberg 10/27: PE-owned K-12 vendors (HMH, Renaissance Learning, Lakeshore Learning) loans trading at distressed levels as school districts cut",
+    "Precedence": "ROUTINE",
+    "To": "BROCK",
+    "Info": "LIQUID,RED",
+    "Confidence": "0.65"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-030",
+    "Origin": "X bookmarks 10/27 + Rule 9 helper H1",
+    "Summary": "FEC e-filing offline 22:15 ET 10/26 to 16:50 ET 10/28; Reuters: hacker attempting breach (internal email); no attribution; restored",
+    "Precedence": "ROUTINE",
+    "To": "CYPHER",
+    "Info": "",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-031",
+    "Origin": "X bookmarks 10/27-10/29 + Rule 9 helper H1",
+    "Summary": "SRS 10/28: SRNL lab fire, Site Area Emergency 17:07-21:45 EDT, no detectable contamination; Japan: non-binding stockpile appeal planned 11/02 (quake/Fuji); 'US war on American soil' = Pentagon FORTRESS 90-day off-grid base plan",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "WATT,SAM,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-032",
+    "Origin": "X bookmarks 10/27-10/28 + Rule 9 helpers H2/H4",
+    "Summary": "S&P ex-AI +6.4pp Oct unverified; BofA clients -$18.5B 2 weeks (secondary); 10Y-NDX corr +0.5; HOOD $6B Dell Trump Accounts deposits; Visa div +16%; Dropbox -9% staff; CSI 300 weekly losing streak",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "HENRY,ZHAO,LABOR,CARL",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-29T15:33:08Z",
+    "Signal_ID": "SIG-W-20261029-033",
+    "Origin": "X bookmarks 10/27-10/28 + Rule 9 helper H4",
+    "Summary": "Villa Vie Odyssey residential cruise laid up at Sihanoukville, 'unable to secure the fuel necessary', 60-day restructuring; FT: airlines expect years of fuel-cost pain",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "CRUISE,BRENT,CARL",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T15:57:38Z",
+    "Signal_ID": "SIG-W-20261029-034",
+    "Origin": "staleness sweep 10/29 (FALCON 10/26 evening sweep)",
+    "Summary": "Cape Dao loss-status conflict RESOLVED (FALCON 10/26): IMO table Sunk; NAVAREA IX 403/26 (10/24) reports sunk ~35NM E of Sohar, cancels 380/26; census 5 confirmed losses",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "HAWK,BRENT,SAM,RED",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T16:15:46Z",
+    "Signal_ID": "SIG-W-20261029-035",
+    "Origin": "WALTER afternoon news sweep (CBS live blog, Anadolu/Newsquawk UKMTO)",
+    "Summary": "UKMTO vessel on fire 9NM N of Khasab ~03:00Z, unnamed, no cause; IRGC claims 3 tankers hit mines on southern route CLAIM-ONLY; ladder #2 NOT FIRED; Sylvia removed 10/28; Qatar draft answer ~10/31",
+    "Precedence": "IMMEDIATE",
+    "To": "FALCON",
+    "Info": "BRENT,HAWK,SAM,RED",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T16:48:51Z",
+    "Signal_ID": "SIG-W-20261029-036",
+    "Origin": "DEWEY REQ-008R return (4a9c972c1)",
+    "Summary": "Cyber wave still Log4Shell-like, one step toward MOVEit (Dream unnamed vendor-claimed compromise); no named bank/core-vendor victim, no 1.05 8-K, no PCS designation; KEV Fragnesia 10/28 not 10/27",
+    "Precedence": "PRIORITY",
+    "To": "CYPHER,SHADE,REGINALD",
+    "Info": "GIBBS,VULCAN,RED,PROME",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T16:55:06Z",
+    "Signal_ID": "SIG-W-20261029-037",
+    "Origin": "FALCON resolution of 035 (9449e1681)",
+    "Summary": "Khasab vessel = dhow MSV QUBA (MNV 2183), sank after security incident ~03:00Z, crew evacuated (NAVAREA IX 417/26); cause unattributed; not an IRGC-claimed tanker; census 5->6; ladder #2 NOT FIRED",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "BRENT,HAWK,SAM,RED",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T17:31:03Z",
+    "Signal_ID": "SIG-W-20261029-038",
+    "Origin": "CYPHER news sweep packet 10/29 (23627d5f9)",
+    "Summary": "Bank-vendor/payment-plumbing incidents: Jack Henry 8/31 (non-material), Sharetec CU core outage 9/15 (accidental, 23 CUs), Central Bank of India SFMS/RTGS 10/15-17, print/mail vendor class; none PHP2Shell",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "REGINALD,LIQUID,GIBBS,RED,PROME",
+    "Confidence": "0.65"
+  },
+  {
+    "Date": "2026-10-29T17:48:04Z",
+    "Signal_ID": "SIG-W-20261029-039",
+    "Origin": "CYPHER addendum packet 10/29 (7bd525beb)",
+    "Summary": "Bank-software second pass: N-able N-central exploited 7/31 with NYDFS 8/11 impact statement (limited covered entities, none named); small NY bank branch closure 8/3 blamed on vendor flaw (name withheld); Citizens CA AG notice breach 9/10; Sefas named as print vendor; SitusAMC 11/2025",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "REGINALD,GIBBS,HOMER,RED,PROME",
+    "Confidence": "0.6"
+  },
+  {
+    "Date": "2026-10-29T17:49:56Z",
+    "Signal_ID": "SIG-W-20261029-040",
+    "Origin": "x-bookmark (Will) x-bookmark (Will) @Polymarket 2115844980220874838",
+    "Summary": "Shell Q3 2026: adjusted earnings $10.8B (Q2 $9.8B, Q3 2025 $5.4B) on higher refining margins; new $5.0B buyback. The 'second-highest quarterly profit ever' line is the poster's, not Shell's",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "BRENT,HENRY,RED",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-29T17:49:56Z",
+    "Signal_ID": "SIG-W-20261029-041",
+    "Origin": "x-bookmark (Will) x-bookmark (Will) @Kalshi 2115594462923485674",
+    "Summary": "House Democrats (Reps. Casar and Waters) filed a NON-BINDING resolution 10/28: no federal bailout for failing AI firms; ordinary bankruptcy instead",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "VULCAN,RED",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-29T17:49:56Z",
+    "Signal_ID": "SIG-W-20261029-042",
+    "Origin": "x-bookmark (Will) x-bookmark (Will) @nypost 2115765732671701035",
+    "Summary": "Reuters 10/29: Pentagon treats the late-August military commissary freezer failures as a suspected hack; a Cyber Command unit and Army CID (working with French police on the October supermarket attack) are involved. No c",
+    "Precedence": "PRIORITY",
+    "To": "CYPHER",
+    "Info": "HANS,RED,PROME",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-29T18:04:47Z",
+    "Signal_ID": "SIG-W-20261029-043",
+    "Origin": "CYPHER af2970a33 primary reads",
+    "Summary": "CORRECTION to 039: NYDFS 'limited number of covered entities' is a spokesperson quote, not the 8/11 letter; Citizens 9/10 notice read (no vendor/count/mechanism); Jack Henry issuer-confirmed",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "REGINALD,GIBBS,HOMER,CYPHER,RED,PROME",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-29T19:37:15Z",
+    "Signal_ID": "SIG-W-20261029-044",
+    "Origin": "WALTER lane test; Reuters 8/13; ISMG 8/17",
+    "Summary": "Missed August event: Fiserv named in Cl0p PTC Windchill mass-theft claim (874 GB claimed); Fiserv: no customer/bank/transaction/personal data, operating environment unaffected; Reuters unverified",
+    "Precedence": "PRIORITY",
+    "To": "CYPHER",
+    "Info": "REGINALD,GIBBS,LIQUID,RED,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-29T19:39:22Z",
+    "Signal_ID": "SIG-W-20261029-045",
+    "Origin": "x-bookmark (Will) x-bookmark (Will) @PolymarketTrade 2115874609014726842 (company account) + @Fina",
+    "Summary": "Polymarket (international platform) halted trading 10/29 after one of its third-party providers was compromised; it says affected users will be made whole. Users report drained accounts. Second vendor-route incident sinc",
+    "Precedence": "PRIORITY",
+    "To": "CYPHER",
+    "Info": "ORACLE,PROME,RED",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-29T19:39:22Z",
+    "Signal_ID": "SIG-W-20261029-046",
+    "Origin": "x-bookmark (Will) x-bookmark (Will) @UK_REPT 2115849370407194667 + @HormuzLetter 21158495529053473",
+    "Summary": "CLAIM ONLY: Fars says the Houthis made a 'massive' attack on Aramco facilities 10/29; no site named, no Saudi confirmation; the coalition reports intercepting one missile over the Eastern Province. FAL-01 NOT fired on th",
+    "Precedence": "PRIORITY",
+    "To": "FALCON",
+    "Info": "BRENT,HAWK,RED",
+    "Confidence": "0.4"
+  },
+  {
+    "Date": "2026-10-29T19:39:22Z",
+    "Signal_ID": "SIG-W-20261029-047",
+    "Origin": "x-bookmark (Will) x-bookmark (Will) @zerohedge 2115842384273539095 (cites USA Today, QSR, NRN)",
+    "Summary": "Wendy's largest-class franchisee Meritage Hospitality (Chapter 11 since 9/17) has closed 33 of 314 restaurants and may close up to 60 more by mid-November; Wendy's claims about $147M owed",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "CARL,RED",
+    "Confidence": "0.65"
+  },
+  {
+    "Date": "2026-10-29T22:58:55Z",
+    "Signal_ID": "SIG-W-20261029-048",
+    "Origin": "PROME doorbell packet 74a91d5c6 + WALTER search",
+    "Summary": "LIVE, UNCONFIRMED: suspected Binance hot-wallet drain 10/29 evening; outflow claims $2B to $5.8B; Tether and Circle reportedly froze $1.5B-$1.8B; withdrawal pause reports conflict; BTC -3%, BNB -7%",
+    "Precedence": "IMMEDIATE",
+    "To": "CYPHER",
+    "Info": "LIQUID,HENRY,PROME,RED",
+    "Confidence": "0.6"
+  },
+  {
+    "Date": "2026-10-29T23:44:20Z",
+    "Signal_ID": "SIG-W-20261029-049",
+    "Origin": "x-bookmarks (Will) x8 Binance",
+    "Summary": "Binance update (to 048): one hot wallet ('Binance 14') reportedly drained of ~$2.53B in 60+ tokens to a fresh address whose initiator was funded through Tornado Cash; Circle froze $823M and Tether $971M (= $1.79B); 'CZ c",
+    "Precedence": "PRIORITY",
+    "To": "CYPHER",
+    "Info": "LIQUID,HENRY,PROME,RED",
+    "Confidence": "0.55"
+  },
+  {
+    "Date": "2026-10-29T23:44:20Z",
+    "Signal_ID": "SIG-W-20261029-050",
+    "Origin": "x-bookmarks (Will) earnings screenshots + search",
+    "Summary": "After-hours earnings selloff 10/29: Amazon \u22127% (capex HELD at $220B for 2026, rising in 2027 = not a cut; free cash flow \u2212$42.4B; AWS +39%); Intel \u221223%, Reddit \u221218%, Twilio \u221217%, Roblox \u221217% on results WALTER has not rea",
+    "Precedence": "PRIORITY",
+    "To": "VULCAN",
+    "Info": "HENRY,RED",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-29T23:44:20Z",
+    "Signal_ID": "SIG-W-20261029-051",
+    "Origin": "x-bookmarks (Will) Bloomberg + Nvidia/BYD",
+    "Summary": "Banks shelve the $5\u20137B junk bond sale for the $15B Anthropic-tied Texas data center (Hubbard) and keep the bridge loan, after Texas paused new data-center approvals pending an ERCOT grid audit due mid-December",
+    "Precedence": "PRIORITY",
+    "To": "VULCAN",
+    "Info": "LIQUID,BROCK,WATT,RED",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-29T23:44:20Z",
+    "Signal_ID": "SIG-W-20261029-052",
+    "Origin": "RESEARCH-INTAKE 10/29 Russia diesel + rations",
+    "Summary": "Reuters 10/29: Russia to keep its diesel export ban to year-end but use quotas (up to 2 Mt in November) for the US deal; Russian fuel rations eased in 15 regions. Two traps: 'Kyiv halts refinery attacks' is the 10/11\u201314 ",
+    "Precedence": "PRIORITY",
+    "To": "BRENT,OSPREY",
+    "Info": "YURI,HENRY,RED",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-29T23:44:20Z",
+    "Signal_ID": "SIG-W-20261029-053",
+    "Origin": "HENRY packet gamma 10/29",
+    "Summary": "HENRY: S&P 500 dealer gamma turned NEGATIVE at both horizons at the 10/29 close (flip ~7,739/~7,741); the 7,700 put wall was tested (low 7,690.94) and held (close 7,720.39). Below the flip dealers amplify moves",
+    "Precedence": "PRIORITY",
+    "To": "",
+    "Info": "PROME,TERRY,VIOLET,LIQUID,RED",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-29T23:44:20Z",
+    "Signal_ID": "SIG-W-20261029-054",
+    "Origin": "RESEARCH-INTAKE 10/29 credit headlines",
+    "Summary": "Credit headlines 10/29: Blue Owl Q3 beat with record $330B AUM but redemptions weighing on inflows (Bloomberg); Arini's European high-yield fund losses deepen to 26% as a European junk selloff accelerates (Hedgeweek)",
+    "Precedence": "ROUTINE",
+    "To": "",
+    "Info": "BROCK,LIQUID,HANS,BOND,RED",
+    "Confidence": "0.55"
+  },
+  {
+    "Date": "2026-10-29T23:44:20Z",
+    "Signal_ID": "SIG-W-20261029-055",
+    "Origin": "x-bookmark (Will) FLDOE breach",
+    "Summary": "Florida Department of Education confirms a data breach ('unauthorized criminal access'); Attorney General notified under s.501.171; FDLE and Florida Digital Service involved; scope not stated",
+    "Precedence": "ROUTINE",
+    "To": "CYPHER",
+    "Info": "CORAL,PROME",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-30T02:18:54Z",
+    "Signal_ID": "SIG-W-20261030-001",
+    "Origin": "Will direct White House EO 14421 + DOE primary FAQ",
+    "Summary": "Aug26 bulk-power security EO; Oct6 DOE FAQ: data-centre generators/batteries/UPS not automatically exempt, foreign nexus AND DOE risk finding required; implementation clocks Dec24/Feb22, no specific impact measured",
+    "Precedence": "PRIORITY",
+    "To": "WATT,CYPHER",
+    "Info": "VULCAN,ZHAO,HENRY,RED",
+    "Confidence": "0.94"
+  },
+  {
+    "Date": "2026-10-30T18:22:22Z",
+    "Signal_ID": "SIG-W-20261030-002",
+    "Origin": "WALTER tape pull (FORGE vendor + FRED) + Investing.com 10/30",
+    "Summary": "Tech sell-off intraday 10/30: S&P 7,548 (-2.2%) ~150 pts under HENRY 7,700 put wall, QQQ 685.83 (-4.1%) through 690 gamma trough, VIX 22.03 (+28%, +5 line 22.20 not met), INTC -31%, NVDA -5%; HY 326 [10/29] +12 bp re-entry, no fire",
+    "Precedence": "IMMEDIATE",
+    "To": "HENRY",
+    "Info": "VIOLET,LIQUID,VULCAN,RED,TERRY",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-30T18:24:52Z",
+    "Signal_ID": "SIG-W-20261030-003",
+    "Origin": "BLS ECI primary + LABOR grade 10/30",
+    "Summary": "ECI Q3 (Sep qtr): civilian comp +0.8% q/q SA, +3.4% y/y; civilian and private wages +3.1% y/y; LABOR grade E1-c, wage wedge closed; data-day coverage card",
+    "Precedence": "IMMEDIATE",
+    "To": "CARL",
+    "Info": "HENRY,RED",
+    "Confidence": "0.95"
+  },
+  {
+    "Date": "2026-10-30T18:29:41Z",
+    "Signal_ID": "SIG-W-20261030-004",
+    "Origin": "WALTER live VIX monitor (vendor) 18:28:53Z",
+    "Summary": "FLASH safety net: VIX 22.33 = +5.13 vs 17.20 close (touch; next read 22.02); VIX9D 22.22 > VIX3M 22.06 intraday; S&P -2.30%, QQQ -4.16%, HYG -0.33%",
+    "Precedence": "FLASH",
+    "To": "VIOLET",
+    "Info": "HENRY,LIQUID,RED,TERRY,PROME",
+    "Confidence": "0.80"
+  },
+  {
+    "Date": "2026-10-30T19:15:45Z",
+    "Signal_ID": "SIG-W-20261030-005",
+    "Origin": "x-bookmark (Will) energy batch",
+    "Summary": "Q3 refining windfall (BP 18yr high, XOM/CVX beat), Valero buying Lyondell Houston refinery restart 2027 UNVERIFIED (closure record conflicts), WSJ bank Brent forecast $90.40, spot Brent below front future 10/29",
+    "Precedence": "PRIORITY",
+    "To": "BRENT",
+    "Info": "HENRY,CARL,RED,TERRY",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-30T19:16:43Z",
+    "Signal_ID": "SIG-W-20261030-006",
+    "Origin": "x-bookmark (Will) DeItaone FT relay",
+    "Summary": "Anthropic may not get IG after IPO, 'high junk' expected (Blackstone to investors, FT relay); update to 016 KBRA BB+; FT body unread",
+    "Precedence": "PRIORITY",
+    "To": "BROCK",
+    "Info": "VULCAN,LIQUID,RED",
+    "Confidence": "0.65"
+  },
+  {
+    "Date": "2026-10-30T19:16:43Z",
+    "Signal_ID": "SIG-W-20261030-007",
+    "Origin": "x-bookmark (Will) cyber claims",
+    "Summary": "ROUTINE cyber claims: FEC in one-week wave list, banks in 7 countries (unnamed), Japan PM office data-leak warning; no primaries",
+    "Precedence": "ROUTINE",
+    "To": "CYPHER",
+    "Info": "SAM,REGINALD,PROME",
+    "Confidence": "0.4"
+  },
+  {
+    "Date": "2026-10-30T19:16:43Z",
+    "Signal_ID": "SIG-W-20261030-008",
+    "Origin": "x-bookmark (Will) HormuzLetter",
+    "Summary": "CLAIM-ONLY Ukraine strike on Novokuibyshevsk refinery 10/30; no 10/30 report found (latest April 2026); would reverse 'Kyiv halted refinery attacks'",
+    "Precedence": "ROUTINE",
+    "To": "OSPREY",
+    "Info": "BRENT,HAWK",
+    "Confidence": "0.3"
+  },
+  {
+    "Date": "2026-10-30T19:16:43Z",
+    "Signal_ID": "SIG-W-20261030-009",
+    "Origin": "x-bookmark (Will) copper claims",
+    "Summary": "CLAIM-ONLY Rio Tinto Oyu Tolgoi underground suspension (not confirmed); Mysteel China copper sold out (ZeroHedge relay)",
+    "Precedence": "ROUTINE",
+    "To": "MIDAS",
+    "Info": "LIQUID,RED",
+    "Confidence": "0.35"
+  },
+  {
+    "Date": "2026-10-30T19:16:44Z",
+    "Signal_ID": "SIG-W-20261030-010",
+    "Origin": "x-bookmark (Will) dirtcheapbanks",
+    "Summary": "CLAIM-ONLY SLRK call report $161.6M unhedged long Treasuries; call report unread",
+    "Precedence": "ROUTINE",
+    "To": "REGINALD",
+    "Info": "RED",
+    "Confidence": "0.4"
+  },
+  {
+    "Date": "2026-10-30T19:21:04Z",
+    "Signal_ID": "SIG-W-20261030-011",
+    "Origin": "x-bookmark (Will) Iran batch + Rule 9 helper",
+    "Summary": "Iran 10/29: LOUISE 1 explosive devices above waterline (UKMTO 187-26, not sunk); RITI/RIT1 25 crew evacuated off Musandam (Oman, confirmed); Jask US strike INDETERMINATE (anon CENTCOM: Qeshm launcher); Ras Tanura distillation shutdown not established",
+    "Precedence": "IMMEDIATE",
+    "To": "FALCON",
+    "Info": "HAWK,BRENT,SAM,RED,TERRY,PROME",
+    "Confidence": "0.75"
+  },
+  {
+    "Date": "2026-10-31T16:44:07Z",
+    "Signal_ID": "SIG-W-20261031-001",
+    "Origin": "Owner primary evidence / dated grade",
+    "Summary": "052 tentative year-end diesel duration superseded by signed January 31 2027 endpoint; producer exemption deleted; US quota instrument not found, not zero flows",
+    "Precedence": "PRIORITY",
+    "To": "BRENT,OSPREY",
+    "Info": "YURI,HANS,HAWK,HENRY,RED,PROME",
+    "Confidence": "0.94"
+  },
+  {
+    "Date": "2026-10-31T16:44:07Z",
+    "Signal_ID": "SIG-W-20261031-002",
+    "Origin": "Owner primary evidence / dated grade",
+    "Summary": "002/004 close paragraphs VIX 20.83, 9D 20.94, 3M 21.49 and QQQ 690.23 replaced by dated owner final observations 19.42,19.25,20.78,690.49; intraday event and close fade hold",
+    "Precedence": "PRIORITY",
+    "To": "HENRY,VIOLET",
+    "Info": "LIQUID,VULCAN,RED,TERRY,PROME",
+    "Confidence": "0.94"
+  },
+  {
+    "Date": "2026-10-31T16:48:41Z",
+    "Signal_ID": "SIG-W-20261031-003",
+    "Origin": "RESEARCH-INTAKE 2026-10-30",
+    "Summary": "October 30 Novokuibyshevsk attack now corroborated in dated reporting; output loss remains unknown",
+    "Precedence": "PRIORITY",
+    "To": "OSPREY",
+    "Info": "BRENT,HAWK,SAM",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-31T16:48:41Z",
+    "Signal_ID": "SIG-W-20261031-004",
+    "Origin": "RESEARCH-INTAKE 2026-10-30",
+    "Summary": "Novak reports a 2.15 Mt November diesel-export plan; a plan is not delivered supply",
+    "Precedence": "PRIORITY",
+    "To": "BRENT,OSPREY",
+    "Info": "YURI,HAWK,RED",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-31T16:48:41Z",
+    "Signal_ID": "SIG-W-20261031-005",
+    "Origin": "RESEARCH-INTAKE 2026-10-30",
+    "Summary": "Reported US pressure for Belarus potash transit; Lithuania denies pressure and plans no sanctions change",
+    "Precedence": "PRIORITY",
+    "To": "FERT",
+    "Info": "CARL,AEOLUS,MARCO,RED,HAWK,PROME",
+    "Confidence": "0.7"
+  },
+  {
+    "Date": "2026-10-31T16:49:27Z",
+    "Signal_ID": "SIG-W-20261031-006",
+    "Origin": "RESEARCH-INTAKE 2026-10-30",
+    "Summary": "NAND spot price falls; reported Kioxia price growth slows, while Sandisk data-center revenue rises",
+    "Precedence": "PRIORITY",
+    "To": "VULCAN",
+    "Info": "VIOLET,HENRY,WATT,RED",
+    "Confidence": "0.85"
+  },
+  {
+    "Date": "2026-10-31T16:49:27Z",
+    "Signal_ID": "SIG-W-20261031-007",
+    "Origin": "RESEARCH-INTAKE 2026-10-30",
+    "Summary": "Blue Owl institutional fundraising strength coexists with weaker credit fundraising",
+    "Precedence": "PRIORITY",
+    "To": "BROCK",
+    "Info": "LIQUID,REGINALD,RED",
+    "Confidence": "0.8"
+  },
+  {
+    "Date": "2026-10-31T16:50:58Z",
+    "Signal_ID": "SIG-W-20261031-008",
+    "Origin": "RESEARCH-INTAKE 2026-10-30",
+    "Summary": "DOE announces final SPR exchange awards; contracted releases are not completed deliveries",
+    "Precedence": "PRIORITY",
+    "To": "BRENT",
+    "Info": "HAWK,RED",
+    "Confidence": "0.97"
+  },
+  {
+    "Date": "2026-10-31T17:41:30Z",
+    "Signal_ID": "SIG-W-20261031-009",
+    "Origin": "WALTER monitoring follow-through",
+    "Summary": "FHLB Q3 preliminary advances fall about 1.5% q/q; November 13 report still governs the trigger",
+    "Precedence": "PRIORITY",
+    "To": "REGINALD",
+    "Info": "BROCK,LIQUID,RED",
+    "Confidence": "0.94"
+  },
+  {
+    "Date": "2026-10-31T17:41:30Z",
+    "Signal_ID": "SIG-W-20261031-010",
+    "Origin": "WALTER monitoring follow-through",
+    "Summary": "VNQ versus SPY relative return recovers to \u22124.35 pp; CREED fire has no automatic exit",
+    "Precedence": "PRIORITY",
+    "To": "CREED",
+    "Info": "REGINALD,RED",
+    "Confidence": "0.92"
+  },
+  {
+    "Date": "2026-10-31T18:31:57Z",
+    "Signal_ID": "SIG-W-20261031-011",
+    "Origin": "Will X bookmarks; 6, 10; BM-20261031-04",
+    "Summary": "International port actions were real; duration and participation varied",
+    "Precedence": "PRIORITY",
+    "To": "HANS,ISHM",
+    "Info": "CARL,HENRY,LABOR,LIQUID,REGINALD,HAWK,RED",
+    "Confidence": "0.78"
+  },
+  {
+    "Date": "2026-10-31T18:31:57Z",
+    "Signal_ID": "SIG-W-20261031-012",
+    "Origin": "Will X bookmarks; 8, 13; BM-20261031-04",
+    "Summary": "Treasury gross issuance reached $839B; selected allies reduced net duration purchases",
+    "Precedence": "PRIORITY",
+    "To": "BOND,LIQUID,ZHAO",
+    "Info": "BROCK,SHADE,HENRY,RED",
+    "Confidence": "0.9"
+  },
+  {
+    "Date": "2026-10-31T18:31:57Z",
+    "Signal_ID": "SIG-W-20261031-013",
+    "Origin": "Will X bookmarks; 9; BM-20261031-04",
+    "Summary": "Final 2027 ACA benchmark premiums average 13% higher before subsidies",
+    "Precedence": "PRIORITY",
+    "To": "CARL",
+    "Info": "HENRY,LIQUID,RED",
+    "Confidence": "0.93"
+  },
+  {
+    "Date": "2026-10-31T18:31:57Z",
+    "Signal_ID": "SIG-W-20261031-014",
+    "Origin": "Will X bookmarks; 11; BM-20261031-04",
+    "Summary": "QQQ short interest rose to 82.0M shares by October 15; it predates Friday\u2019s sell-off",
+    "Precedence": "PRIORITY",
+    "To": "HENRY",
+    "Info": "LIQUID,RED",
+    "Confidence": "0.9"
+  }
+]

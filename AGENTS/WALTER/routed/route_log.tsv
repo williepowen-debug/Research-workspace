@@ -1887,3 +1887,8 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-31T18:31:57Z	SIG-W-20261031-012	Will X bookmarks; 8, 13; BM-20261031-04	Treasury gross issuance reached $839B; selected allies reduced net duration purchases	PRIORITY	BOND,LIQUID,ZHAO	BROCK,SHADE,HENRY,RED	0.9
 2026-10-31T18:31:57Z	SIG-W-20261031-013	Will X bookmarks; 9; BM-20261031-04	Final 2027 ACA benchmark premiums average 13% higher before subsidies	PRIORITY	CARL	HENRY,LIQUID,RED	0.93
 2026-10-31T18:31:57Z	SIG-W-20261031-014	Will X bookmarks; 11; BM-20261031-04	QQQ short interest rose to 82.0M shares by October 15; it predates Friday’s sell-off	PRIORITY	HENRY	LIQUID,RED	0.9
+2026-10-31T19:23:29Z	SIG-W-20261031-015	October31 collection; BM-20261031-05	Iranian negotiators reportedly meet Qatar; direct US talks remain unsettled	PRIORITY	FALCON	HAWK,BRENT,SAM,RED	0.85
+2026-10-31T19:23:29Z	SIG-W-20261031-016	October31 collection; BM-20261031-05	Reuters reports preliminary OPEC+ agreement to hold December targets ahead of November 1	PRIORITY	BRENT	HAWK,RED	0.85
+2026-10-31T19:23:29Z	SIG-W-20261031-017	October31 collection; BM-20261031-05	Norwegian discloses two conditional ship-financing facilities of approximately $2.5B each	PRIORITY	CRUISE	CARL,RED	0.94
+2026-10-31T19:23:29Z	SIG-W-20261031-018	October31 collection; BM-20261031-05	CPS Q3 contract purchases more than doubled while reported delinquency and loss ratios fell	PRIORITY	OTTO,CARL	REGINALD,RED	0.96
+2026-10-31T19:23:29Z	SIG-W-20261031-019	October31 collection; BM-20261031-05	Comcast WARN notices identify 753 planned affected positions across Pennsylvania and New Jersey	PRIORITY	LABOR,CARL	HENRY,RED	0.95
