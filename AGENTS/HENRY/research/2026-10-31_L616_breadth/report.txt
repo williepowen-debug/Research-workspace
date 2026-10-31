@@ -1,0 +1,185 @@
+=== A. ETF / INDEX RETURNS to 2026-10-30 close (ETF = total return on Adj Close; ^index = price) ===
+ref dates: {'1d': '2026-10-29', '1w': '2026-10-23', '1m': '2026-09-30', '3m': '2026-07-31', '6m': '2026-04-30', 'YTD': '2025-12-31', '12m': '2025-10-30'}
+SPY     1d:  -1.77  1w:  -0.56  1m:  -0.91  3m:  +1.41  6m:  +5.69  YTD: +11.69  12m: +12.36
+RSP     1d:  -0.79  1w:  +0.82  1m:  +4.95  3m:  +1.92  6m:  +8.13  YTD: +15.33  12m: +18.28
+OEF     1d:  -2.00  1w:  -1.04  1m:  -2.28  3m:  +1.38  6m:  +5.66  YTD:  +9.61  12m:  +9.48
+QQQ     1d:  -3.47  1w:  -1.97  1m:  -6.66  3m:  +0.47  6m:  +3.63  YTD: +12.78  12m: +10.81
+QQEW    1d:  -3.26  1w:  -2.22  1m:  -7.01  3m:  -2.58  6m: +10.14  YTD:  +6.48  12m:  +5.70
+MDY     1d:  -1.18  1w:  +1.32  1m:  +1.85  3m:  -2.31  6m:  +1.20  YTD: +11.69  12m: +14.74
+IJH     1d:  -1.17  1w:  +1.33  1m:  +1.92  3m:  -2.28  6m:  +1.33  YTD: +11.99  12m: +15.10
+IJR     1d:  -1.21  1w:  +1.50  1m:  +3.12  3m:  -3.21  6m:  +3.01  YTD: +17.70  12m: +20.84
+IWM     1d:  -1.65  1w:  +1.30  1m:  +0.52  3m:  -3.83  6m:  +0.99  YTD: +14.24  12m: +15.24
+SOXX    1d:  -8.24  1w:  -1.40  1m: -17.08  3m:  -6.55  6m:  +2.30  YTD: +56.84  12m: +54.88
+SMH     1d:  -6.98  1w:  -0.89  1m: -14.21  3m:  -3.34  6m:  +3.11  YTD: +45.08  12m: +44.09
+XLK     1d:  -4.89  1w:  -2.03  1m:  -8.30  3m:  +2.49  6m: +12.81  YTD: +25.14  12m: +20.13
+XLC     1d:  -1.29  1w:  -5.32  1m:  -9.98  3m:  -7.40  6m: -13.75  YTD: -14.36  12m: -11.53
+XLY     1d:  -0.71  1w:  +2.02  1m:  +6.01  3m:  -0.39  6m:  -2.10  YTD:  -2.77  12m:  -0.47
+XLF     1d:  -0.76  1w:  +1.09  1m:  +5.82  3m:  -0.40  6m:  +9.17  YTD:  +4.44  12m:  +9.90
+XLV     1d:  +0.45  1w:  +3.12  1m:  +9.77  3m: +14.17  6m: +27.68  YTD: +20.91  12m: +30.26
+XLI     1d:  -1.60  1w:  +1.69  1m:  +0.25  3m:  -6.67  6m:  -3.62  YTD:  +8.78  12m:  +9.45
+XLE     1d:  +1.91  1w:  +1.00  1m: +13.85  3m: +18.28  6m: +18.93  YTD: +59.71  12m: +64.63
+XLP     1d:  +1.41  1w:  +1.31  1m: +10.94  3m:  +5.83  6m:  +7.50  YTD: +17.33  12m: +20.10
+XLU     1d:  +0.67  1w:  +2.04  1m: +10.12  3m:  -1.35  6m:  -6.02  YTD:  +3.86  12m:  -0.43
+XLB     1d:  +0.40  1w:  +2.79  1m:  +8.30  3m:  +5.06  6m:  +3.32  YTD: +17.79  12m: +24.62
+XLRE    1d:  +0.26  1w:  +1.41  1m:  +5.52  3m:  -3.41  6m:  -1.09  YTD:  +9.57  12m:  +9.33
+^GSPC   1d:  -1.82  1w:  -0.57  1m:  -0.93  3m:  +1.21  6m:  +5.15  YTD: +10.73  12m: +11.11
+^NDX    1d:  -3.46  1w:  -1.98  1m:  -6.65  3m:  +0.39  6m:  +3.40  YTD: +12.42  12m: +10.30
+^SP400  1d:  -1.22  1w:  +1.26  1m:  +1.84  3m:  -2.57  6m:  +0.62  YTD: +10.80  12m: +13.50
+^SP600  1d:  -1.22  1w:  +1.46  1m:  +3.10  3m:  -3.52  6m:  +2.21  YTD: +16.25  12m: +19.00
+^RUT    1d:  -1.66  1w:  +1.29  1m:  +0.54  3m:  -4.08  6m:  +0.43  YTD: +13.29  12m: +14.03
+
+=== B. RELATIVE RETURNS (ratio basis, pp) ===
+RSP/SPY   1d: +1.00  1w: +1.38  1m: +5.91  3m: +0.50  6m: +2.31  YTD: +3.26  12m: +5.27  | equal- vs cap-weight S&P 500
+QQEW/QQQ   1d: +0.22  1w: -0.25  1m: -0.38  3m: -3.03  6m: +6.28  YTD: -5.59  12m: -4.61  | equal- vs cap-weight Nasdaq-100
+OEF/SPY   1d: -0.23  1w: -0.49  1m: -1.39  3m: -0.04  6m: -0.03  YTD: -1.86  12m: -2.56  | S&P 100 mega vs S&P 500
+MDY/SPY   1d: +0.61  1w: +1.89  1m: +2.78  3m: -3.67  6m: -4.25  YTD: +0.00  12m: +2.11  | S&P 400 mid vs S&P 500
+IJR/SPY   1d: +0.57  1w: +2.07  1m: +4.07  3m: -4.56  6m: -2.54  YTD: +5.38  12m: +7.54  | S&P 600 small vs S&P 500
+IWM/SPY   1d: +0.13  1w: +1.87  1m: +1.44  3m: -5.17  6m: -4.45  YTD: +2.29  12m: +2.56  | Russell 2000 vs S&P 500
+SOXX/SPY   1d: -6.59  1w: -0.84  1m:-16.32  3m: -7.85  6m: -3.21  YTD:+40.43  12m:+37.84  | semis vs S&P 500
+XLK/SPY   1d: -3.17  1w: -1.48  1m: -7.46  3m: +1.06  6m: +6.74  YTD:+12.04  12m: +6.91  | tech sector vs S&P 500
+
+=== C. SECTOR SPDRs (11, cap-weighted GICS sectors of the S&P 500) ===
+1d   positive  6/11  beat SPY 10/11  SPY  -1.77  best XLE  +1.91  worst XLK  -4.89
+1w   positive  9/11  beat SPY  9/11  SPY  -0.56  best XLV  +3.12  worst XLC  -5.32
+1m   positive  9/11  beat SPY  9/11  SPY  -0.91  best XLE +13.85  worst XLC  -9.98
+3m   positive  5/11  beat SPY  5/11  SPY  +1.41  best XLE +18.28  worst XLC  -7.40
+6m   positive  6/11  beat SPY  5/11  SPY  +5.69  best XLV +27.68  worst XLC -13.75
+YTD  positive  9/11  beat SPY  5/11  SPY +11.69  best XLE +59.71  worst XLC -14.36
+12m  positive  8/11  beat SPY  5/11  SPY +12.36  best XLE +64.63  worst XLC -11.53
+
+=== D. VULCAN S1 breadth leg reproduced (RSP/SPY 63-session, Adj Close, ratio) ===
+2026-08-20  63d  +5.18pp  pctile(2003-05..date)  97.6
+2026-09-01  63d  +3.43pp  pctile(2003-05..date)  93.3
+2026-10-01  63d  -5.07pp  pctile(2003-05..date)   3.7
+2026-10-08  63d  -3.44pp  pctile(2003-05..date)   8.4
+2026-10-15  63d  -2.83pp  pctile(2003-05..date)  11.8
+2026-10-22  63d  -1.04pp  pctile(2003-05..date)  28.8
+2026-10-29  63d  -0.50pp  pctile(2003-05..date)  39.1
+2026-10-30  63d  +0.94pp  pctile(2003-05..date)  67.7
+2026 min of the 63d series: -8.22pp on 2026-05-15
+RSP/SPY ratio (Adj Close) 10/30 0.28888; 52-wk range 0.27097-0.29757; min date 2026-10-07 max date 2026-02-27
+
+=== E. CONSTITUENT UNIVERSE: 1506 names with data; missing 0: []
+names whose last bar is before 10/30: 0 []
+{'SP500': 503, 'SP400': 400, 'SP600': 603, 'SP1500': 1506}
+
+=== F. CONSTITUENT BREADTH SNAPSHOTS (share of names, %; NH/NL intraday 52-wk) ===
+-- SP500
+2025-12-31  >50d  55.7% (n=499)  >200d  60.9% (n=499)  NH   1 NL   0  adv   15 dec  483  SPX 6845.50
+2026-04-30  >50d  57.2% (n=500)  >200d  57.7% (n=499)  NH  37 NL  14  adv  378 dec  118  SPX 7209.01
+2026-07-31  >50d  62.4% (n=500)  >200d  66.7% (n=499)  NH   4 NL   3  adv  221 dec  280  SPX 7489.72
+2026-08-31  >50d  49.8% (n=502)  >200d  66.8% (n=500)  NH   5 NL  10  adv  134 dec  363  SPX 7686.14
+2026-09-30  >50d  20.9% (n=502)  >200d  40.4% (n=500)  NH  10 NL  24  adv  114 dec  388  SPX 7651.54
+2026-10-06  >50d  29.5% (n=502)  >200d  46.6% (n=500)  NH  23 NL   2  adv  338 dec  164  SPX 7818.93
+2026-10-23  >50d  58.0% (n=502)  >200d  55.8% (n=500)  NH  19 NL   8  adv  135 dec  367  SPX 7623.68
+2026-10-29  >50d  64.9% (n=502)  >200d  63.6% (n=500)  NH  19 NL   6  adv  406 dec   97  SPX 7720.39
+2026-10-30  >50d  60.2% (n=502)  >200d  59.2% (n=500)  NH  42 NL   5  adv  226 dec  277  SPX 7580.07
+-- SP400
+2025-12-31  >50d  55.0% (n=400)  >200d  57.9% (n=399)  NH   1 NL   3  adv   24 dec  375  SPX 6845.50
+2026-04-30  >50d  66.2% (n=400)  >200d  61.2% (n=399)  NH  24 NL   6  adv  312 dec   86  SPX 7209.01
+2026-07-31  >50d  60.5% (n=400)  >200d  70.7% (n=399)  NH   6 NL   2  adv  180 dec  219  SPX 7489.72
+2026-08-31  >50d  41.0% (n=400)  >200d  58.2% (n=400)  NH   4 NL   3  adv  114 dec  285  SPX 7686.14
+2026-09-30  >50d  15.8% (n=400)  >200d  35.0% (n=400)  NH   2 NL  26  adv  103 dec  295  SPX 7651.54
+2026-10-06  >50d  27.0% (n=400)  >200d  42.5% (n=400)  NH   6 NL   4  adv  231 dec  165  SPX 7818.93
+2026-10-23  >50d  45.0% (n=400)  >200d  46.0% (n=400)  NH  21 NL  19  adv  124 dec  273  SPX 7623.68
+2026-10-29  >50d  57.2% (n=400)  >200d  51.5% (n=400)  NH  13 NL   3  adv  313 dec   86  SPX 7720.39
+2026-10-30  >50d  54.2% (n=400)  >200d  49.8% (n=400)  NH  22 NL   4  adv  161 dec  239  SPX 7580.07
+-- SP600
+2025-12-31  >50d  50.8% (n=597)  >200d  57.0% (n=596)  NH   3 NL   6  adv   76 dec  521  SPX 6845.50
+2026-04-30  >50d  72.6% (n=598)  >200d  62.3% (n=597)  NH  42 NL   6  adv  438 dec  154  SPX 7209.01
+2026-07-31  >50d  63.1% (n=599)  >200d  72.0% (n=597)  NH  15 NL   8  adv  290 dec  305  SPX 7489.72
+2026-08-31  >50d  40.9% (n=599)  >200d  67.0% (n=597)  NH   5 NL   8  adv  170 dec  427  SPX 7686.14
+2026-09-30  >50d  19.5% (n=601)  >200d  46.2% (n=597)  NH   2 NL  29  adv  186 dec  409  SPX 7651.54
+2026-10-06  >50d  26.6% (n=601)  >200d  48.7% (n=598)  NH  10 NL   9  adv  270 dec  323  SPX 7818.93
+2026-10-23  >50d  46.5% (n=602)  >200d  48.8% (n=598)  NH  22 NL  15  adv  234 dec  364  SPX 7623.68
+2026-10-29  >50d  57.0% (n=602)  >200d  54.0% (n=598)  NH  25 NL   6  adv  464 dec  134  SPX 7720.39
+2026-10-30  >50d  51.5% (n=602)  >200d  51.8% (n=598)  NH  23 NL  10  adv  186 dec  412  SPX 7580.07
+-- SP1500
+2025-12-31  >50d  53.5% (n=1496)  >200d  58.6% (n=1494)  NH   5 NL   9  adv  115 dec 1379  SPX 6845.50
+2026-04-30  >50d  65.8% (n=1498)  >200d  60.5% (n=1495)  NH 103 NL  26  adv 1128 dec  358  SPX 7209.01
+2026-07-31  >50d  62.2% (n=1499)  >200d  69.9% (n=1495)  NH  25 NL  13  adv  691 dec  804  SPX 7489.72
+2026-08-31  >50d  43.9% (n=1501)  >200d  64.6% (n=1497)  NH  14 NL  21  adv  418 dec 1075  SPX 7686.14
+2026-09-30  >50d  19.0% (n=1503)  >200d  41.3% (n=1497)  NH  14 NL  79  adv  403 dec 1092  SPX 7651.54
+2026-10-06  >50d  27.7% (n=1503)  >200d  46.3% (n=1498)  NH  39 NL  15  adv  839 dec  652  SPX 7818.93
+2026-10-23  >50d  49.9% (n=1504)  >200d  50.4% (n=1498)  NH  62 NL  42  adv  493 dec 1004  SPX 7623.68
+2026-10-29  >50d  59.7% (n=1504)  >200d  56.5% (n=1498)  NH  57 NL  15  adv 1183 dec  317  SPX 7720.39
+2026-10-30  >50d  55.1% (n=1504)  >200d  53.7% (n=1498)  NH  87 NL  19  adv  573 dec  928  SPX 7580.07
+
+-- names making at least one 52-wk high / low inside the window (intraday basis)
+SP500 {'wk 10/26-10/30': [60, 20], 'wk 10/19-10/23': [53, 12], 'Oct (10/1-10/30)': [102, 73], 'Sep': [50, 78], 'Aug': [108, 20]}
+SP400 {'wk 10/26-10/30': [38, 17], 'wk 10/19-10/23': [35, 29], 'Oct (10/1-10/30)': [60, 77], 'Sep': [31, 58], 'Aug': [79, 17]}
+SP600 {'wk 10/26-10/30': [55, 28], 'wk 10/19-10/23': [39, 41], 'Oct (10/1-10/30)': [81, 104], 'Sep': [54, 83], 'Aug': [140, 26]}
+SP1500 {'wk 10/26-10/30': [153, 65], 'wk 10/19-10/23': [127, 82], 'Oct (10/1-10/30)': [243, 254], 'Sep': [135, 219], 'Aug': [327, 63]}
+
+=== G. S&P 500 PARTICIPATION BY HORIZON (constituent total returns) ===
+1d   ref 2026-10-29 n=503  SPY  -1.77  CW(const)  -1.81  EW  -0.83  median  -0.29  %up  45.3  %beat SPY  71.8  | contrib pp: Mag7 -0.68 semis(exMag7) -0.76 rest -0.38 (top10-by-weight -0.76)
+1w   ref 2026-10-23 n=503  SPY  -0.56  CW(const)  -0.56  EW  +0.85  median  +1.33  %up  64.2  %beat SPY  69.8  | contrib pp: Mag7 -1.06 semis(exMag7) -0.09 rest +0.60 (top10-by-weight -0.86)
+1m   ref 2026-09-30 n=502  SPY  -0.91  CW(const)  -0.88  EW  +5.12  median  +7.20  %up  72.1  %beat SPY  75.7  | contrib pp: Mag7 -1.84 semis(exMag7) -1.67 rest +2.64 (top10-by-weight -2.34)
+3m   ref 2026-07-31 n=502  SPY  +1.41  CW(const)  +1.56  EW  +2.13  median  +1.00  %up  53.0  %beat SPY  49.0  | contrib pp: Mag7 +0.48 semis(exMag7) -0.68 rest +1.75 (top10-by-weight -0.33)
+6m   ref 2026-04-30 n=500  SPY  +5.69  CW(const)  +6.10  EW  +8.17  median  +4.64  %up  60.2  %beat SPY  48.0  | contrib pp: Mag7 +1.28 semis(exMag7) +0.04 rest +4.78 (top10-by-weight +0.79)
+YTD  ref 2025-12-31 n=500  SPY +11.69  CW(const) +12.73  EW +16.61  median +10.73  %up  68.2  %beat SPY  48.6  | contrib pp: Mag7 +2.29 semis(exMag7) +3.10 rest +7.35 (top10-by-weight +2.26)
+12m  ref 2025-10-30 n=500  SPY +12.36  CW(const) +13.37  EW +20.27  median +14.14  %up  70.4  %beat SPY  51.4  | contrib pp: Mag7 +1.85 semis(exMag7) +2.93 rest +8.59 (top10-by-weight +1.66)
+semis set (S&P 500, from yfinance industry): ['ADI', 'AMAT', 'AMD', 'AVGO', 'INTC', 'KLAC', 'LRCX', 'MCHP', 'MPWR', 'MRVL', 'MU', 'NVDA', 'NXPI', 'ON', 'Q', 'QCOM', 'SWKS', 'TER', 'TXN']
+-- SP400 EW participation
+1d   n=400 EW  -0.90 median  -0.48 %up  40.8
+1w   n=400 EW  +1.49 median  +1.32 %up  64.2
+1m   n=400 EW  +4.34 median  +5.04 %up  70.8
+3m   n=400 EW  -1.63 median  -2.49 %up  40.8
+6m   n=400 EW  +3.95 median  +0.69 %up  52.0
+YTD  n=400 EW +11.56 median  +8.21 %up  65.8
+12m  n=400 EW +15.54 median +13.73 %up  68.0
+-- SP600 EW participation
+1d   n=603 EW  -1.19 median  -0.85 %up  31.2
+1w   n=603 EW  +1.24 median  +0.68 %up  57.9
+1m   n=602 EW  +3.57 median  +3.39 %up  65.1
+3m   n=602 EW  -2.53 median  -3.53 %up  40.4
+6m   n=599 EW  +6.23 median  +2.74 %up  54.3
+YTD  n=598 EW +18.15 median +13.01 %up  66.9
+12m  n=597 EW +21.83 median +16.59 %up  67.0
+
+=== H. FRIDAY 10/30 DECOMPOSITION ===
+SP500 {'n': 503, 'down': 277, 'up': 226, 'pct_down': 55.1, 'median': -0.32, 'EW': -0.85, 'down_gt2pct': 128, 'down_gt5pct': 47}
+SP400 {'n': 400, 'down': 239, 'up': 161, 'pct_down': 59.8, 'median': -0.51, 'EW': -0.91, 'down_gt2pct': 111, 'down_gt5pct': 42}
+SP600 {'n': 603, 'down': 412, 'up': 186, 'pct_down': 68.3, 'median': -0.85, 'EW': -1.2, 'down_gt2pct': 186, 'down_gt5pct': 63}
+SP1500 {'n': 1506, 'down': 928, 'up': 573, 'pct_down': 61.6, 'median': -0.6, 'EW': -1.01, 'down_gt2pct': 425, 'down_gt5pct': 152}
+S&P 500 CW(const) price return -1.818% vs ^GSPC -1.82% | contributions pp: {'Mag7': -0.676, 'SemisExMag7': -0.757, 'Rest': -0.384}
+largest negative contributors: {'NVDA': -0.328, 'INTC': -0.197, 'AMD': -0.151, 'AVGO': -0.135, 'AAPL': -0.094, 'MSFT': -0.092, 'MU': -0.084, 'AMZN': -0.051, 'PLTR': -0.043, 'SNDK': -0.039, 'AMAT': -0.038, 'GOOGL': -0.035}
+largest positive contributors: {'MRK': 0.012, 'CVX': 0.012, 'WMT': 0.015, 'REGN': 0.016, 'XOM': 0.024, 'LLY': 0.053}
+S&P 500 ex Mag7 & semis: {'n': 477, 'pct_down': 52.8, 'median': -0.16, 'EW': -0.61}
+-- by GICS sector (S&P 500): n, %down, EW, median, CW contribution pp
+  Information Technology   {'n': 75, 'pct_down': 80.0, 'EW': -4.38, 'median': -4.34, 'contrib_pp': -1.63}
+  Industrials              {'n': 83, 'pct_down': 66.3, 'EW': -0.88, 'median': -0.86, 'contrib_pp': -0.128}
+  Communication Services   {'n': 22, 'pct_down': 50.0, 'EW': -1.5, 'median': -0.36, 'contrib_pp': -0.093}
+  Financials               {'n': 76, 'pct_down': 55.3, 'EW': -0.36, 'median': -0.66, 'contrib_pp': -0.089}
+  Consumer Discretionary   {'n': 47, 'pct_down': 63.8, 'EW': -0.43, 'median': -0.19, 'contrib_pp': -0.077}
+  Materials                {'n': 24, 'pct_down': 25.0, 'EW': 0.63, 'median': 0.82, 'contrib_pp': 0.001}
+  Real Estate              {'n': 30, 'pct_down': 53.3, 'EW': 0.27, 'median': -0.09, 'contrib_pp': 0.003}
+  Utilities                {'n': 31, 'pct_down': 25.8, 'EW': 0.39, 'median': 0.61, 'contrib_pp': 0.013}
+  Health Care              {'n': 60, 'pct_down': 70.0, 'EW': -0.98, 'median': -0.73, 'contrib_pp': 0.043}
+  Consumer Staples         {'n': 34, 'pct_down': 11.8, 'EW': 1.38, 'median': 1.47, 'contrib_pp': 0.067}
+  Energy                   {'n': 21, 'pct_down': 14.3, 'EW': 1.59, 'median': 1.57, 'contrib_pp': 0.072}
+semis 10/30 (S&P 500 members): {'INTC': -28.58, 'QCOM': -11.12, 'AMD': -10.88, 'MRVL': -10.05, 'AMAT': -7.49, 'TER': -7.38, 'LRCX': -6.01, 'KLAC': -5.69, 'AVGO': -5.48, 'MU': -5.3, 'Q': -4.88, 'ON': -4.74, 'MCHP': -4.66, 'NVDA': -4.22, 'TXN': -3.87, 'ADI': -3.73, 'NXPI': -2.4, 'SWKS': -2.07, 'MPWR': 1.07}
+
+=== I. BASE RATES: how narrow was 10/30 for a day of its size? ===
+SPY day in [-2.3,-1.3]%: n=321 days since 2003-05; RSP-vs-SPY rel median -0.03pp, p90 +0.48, max +1.50 on 2025-01-27 | 10/30 rel +1.00pp -> pctile 98.8
+   most equal-weight-favourable such days: [('2025-01-27', np.float64(-1.41), np.float64(1.5)), ('2026-06-23', np.float64(-1.45), np.float64(1.13)), ('2024-07-24', np.float64(-2.27), np.float64(1.12)), ('2024-07-17', np.float64(-1.4), np.float64(1.01)), ('2025-04-16', np.float64(-2.22), np.float64(0.96)), ('2022-01-13', np.float64(-1.38), np.float64(0.93))]
+SPY day in [-99,-1.5]%: n=365 days since 2003-05; RSP-vs-SPY rel median -0.06pp, p90 +0.51, max +1.71 on 2008-10-08 | 10/30 rel +1.00pp -> pctile 97.0
+   most equal-weight-favourable such days: [('2008-10-08', np.float64(-2.52), np.float64(1.71)), ('2008-10-06', np.float64(-5.09), np.float64(1.66)), ('2025-03-10', np.float64(-2.66), np.float64(1.29)), ('2026-06-05', np.float64(-2.58), np.float64(1.19)), ('2020-09-03', np.float64(-3.44), np.float64(1.18)), ('2024-07-24', np.float64(-2.27), np.float64(1.12))]
+QQQ day <= -2.5%: n=198 since 2006-05-03; QQEW-vs-QQQ rel median +0.25pp | 10/30 rel +0.22pp -> pctile 48.5
+S&P 500 days with SPY <= -1.3% (2025-01-02..10/29, n=32): % of members down median 75.8, min 33.7 on 2025-01-27; median-stock move median -1.35% | 10/30: 55.1% down, median -0.32%
+   days: [('2025-01-10', -1.53, 87.3, -1.64), ('2025-01-27', -1.41, 33.7, 1.21), ('2025-02-21', -1.71, 76.9, -1.45), ('2025-02-27', -1.6, 63.9, -0.52), ('2025-03-03', -1.75, 67.7, -1.03), ('2025-03-06', -1.78, 70.7, -1.06), ('2025-03-10', -2.66, 72.0, -1.52), ('2025-03-13', -1.33, 74.7, -1.11), ('2025-03-28', -2.01, 83.0, -1.57), ('2025-04-03', -4.93, 82.3, -4.79), ('2025-04-04', -5.85, 97.6, -5.76), ('2025-04-08', -1.57, 85.2, -1.64), ('2025-04-10', -4.38, 85.7, -3.32), ('2025-04-16', -2.22, 87.1, -1.39), ('2025-04-21', -2.38, 93.2, -2.09), ('2025-05-21', -1.69, 96.2, -1.99), ('2025-08-01', -1.64, 72.5, -1.16), ('2025-10-10', -2.7, 84.4, -2.12), ('2025-11-13', -1.66, 74.5, -1.03), ('2025-11-20', -1.52, 70.7, -0.76), ('2026-01-20', -2.04, 80.1, -1.44), ('2026-02-12', -1.54, 68.4, -1.31), ('2026-03-06', -1.31, 71.7, -1.11), ('2026-03-12', -1.52, 78.4, -1.7), ('2026-03-18', -1.4, 84.0, -1.43), ('2026-03-20', -1.43, 78.0, -1.09), ('2026-03-26', -1.79, 63.5, -0.55), ('2026-03-27', -1.71, 78.5, -1.55), ('2026-06-05', -2.58, 53.7, -0.15), ('2026-06-10', -1.58, 65.6, -1.18), ('2026-06-23', -1.45, 43.7, 0.37), ('2026-07-29', -1.54, 64.7, -0.73)]
+
+=== J. DID BREADTH CONFIRM THE INDEX HIGHS? (S&P 500 record closes, 2026) ===
+record closes in 2026: 28; last record 2026-10-06 7818.93; all-time closing high in data 7818.93 on 2026-10-06
+{'date': '2026-01-27', 'SPX': 6978.6, 'pct50': np.float64(66.8), 'pct200': np.float64(67.9), 'nh': 35, 'nl': 11, 'cumAD': 6071, 'RSP_SPY': 0.28486, 'SP1500_pct200': np.float64(66.5)}
+{'date': '2026-04-30', 'SPX': 7209.01, 'pct50': np.float64(57.2), 'pct200': np.float64(57.7), 'nh': 37, 'nl': 14, 'cumAD': 7041, 'RSP_SPY': 0.28236, 'SP1500_pct200': np.float64(60.5)}
+{'date': '2026-05-29', 'SPX': 7580.06, 'pct50': np.float64(53.6), 'pct200': np.float64(55.9), 'nh': 29, 'nl': 10, 'cumAD': 6833, 'RSP_SPY': 0.27535, 'SP1500_pct200': np.float64(59.0)}
+{'date': '2026-06-02', 'SPX': 7609.78, 'pct50': np.float64(52.8), 'pct200': np.float64(54.1), 'nh': 31, 'nl': 15, 'cumAD': 6772, 'RSP_SPY': 0.27582, 'SP1500_pct200': np.float64(57.9)}
+{'date': '2026-08-13', 'SPX': 7798.99, 'pct50': np.float64(68.7), 'pct200': np.float64(73.6), 'nh': 29, 'nl': 1, 'cumAD': 8158, 'RSP_SPY': 0.28597, 'SP1500_pct200': np.float64(73.7)}
+{'date': '2026-10-06', 'SPX': 7818.93, 'pct50': np.float64(29.5), 'pct200': np.float64(46.6), 'nh': 23, 'nl': 2, 'cumAD': 6434, 'RSP_SPY': 0.27254, 'SP1500_pct200': np.float64(46.3)}
+S&P 500 cum A/D (base 2025-01-02): max 8160 on 2026-08-14; at 10/06 6434; at 10/30 7393
+S&P 1500 cum A/D (base 2025-01-02): max 15890 on 2026-08-14; at 10/06 10414; at 10/30 12062
+SP500_pct50: 2026 max 72.8 on 2026-01-15, min 19.4 on 2026-03-30, 10/30 60.2
+SP500_pct200: 2026 max 73.6 on 2026-08-13, min 40.4 on 2026-09-30, 10/30 59.2
+SP1500_pct50: 2026 max 76.7 on 2026-01-15, min 19.0 on 2026-03-20, 10/30 55.1
+SP1500_pct200: 2026 max 74.6 on 2026-08-04, min 41.3 on 2026-09-30, 10/30 53.7

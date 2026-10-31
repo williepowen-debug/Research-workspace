@@ -1,36 +1,39 @@
-# HENRY — 2026-10-30 after the close: grade of Friday's tech selloff against the dealer-hedging map — DONE
+# HENRY — 2026-10-31 13:23 ET (Saturday, on Friday's closes): how broad is the stock market's rally? (DOCKET L616) — DONE
 
-**RESULT:** The S&P 500 closed at 7,580 (−1.8%), 120 points under the 7,700 level where put-option hedging had held it on Thursday, so that support broke on the close. Dealers are now positioned to speed moves up in both directions on the S&P, the Nasdaq-100 ETF (QQQ) and the Nasdaq-100 index into Monday. That only changes if the S&P gets back above about 7,732–7,736 (+2%) or QQQ above about 725 (+5%). QQQ closed at 690.49, right on the 690 strike where Friday-expiring puts traded heavily; that looks like an expiry pin, but nothing I have can prove it.
+**RESULT:** You asked on October 7 how broad the market's participation is. As of Friday's close: very narrow at the start of October, and much broader since. The S&P 500's record close on October 6 had fewer than a third of its stocks above their 50-day average, the weakest backing of any of this year's 28 record closes. Since then the index has slipped 3% while the typical stock rose: in October the median S&P 500 stock gained 7.2% while the S&P 500 fund (SPY) lost 0.9%. Friday's 1.8% drop was narrow: chip makers and the biggest tech companies caused about four-fifths of it, only 55% of S&P 500 stocks fell (on comparable down days since January 2025 the norm was about three-quarters), and 42 stocks hit 52-week highs against 5 hitting lows. Inside tech the selling was broad. The unfinished part: small and mid-sized companies are still down over three months, and the share of stocks in long-term uptrends has not regained its August level.
 
-**CHANGED:** `STATUS.md` (header, VIEW, new § OCTOBER 30 CLOSE, gamma, QQQ/NDX, vol, credit, thresholds, catalysts), `STATUS_COLD.md` (§ ROT-10/30, verbatim move), `workbook/PUBLISHED.tsv`, `workbook/KB.tsv` (ML-HEN-193), `workbook/MARKET_DATA.tsv`, `board_log.tsv` (11 rows), `MEMORY.md`, `NEXUS_BRIEF.md`, this file, `research/2026-10-30_L885/`, inbox files moved to `processed/`; packets to WALTER and PROME.
+**CHANGED:** `STATUS.md` (header, VIEW line, new § MARKET BREADTH, Russian diesel line, inbox and runtime lines), `workbook/KB.tsv` (ML-HEN-194), `board_log.tsv` (3 rows), `registry/corrections_receipts.tsv` (2 receipts), `MEMORY.md`, `NEXUS_BRIEF.md`, this file, `research/2026-10-31_L616_breadth/` (new: scripts, data, notes); 3 WALTER cards moved to `inbox/WALTER/processed/`; delivery memo `PROME/inbox/2026-10-31_from-HENRY_L616-market-breadth.md`.
 
 ## Session work
 
-| Item | Outcome |
+| Question | Answer (Friday 10/30 closes) |
 |---|---|
-| 7,700 put wall (published 10/29) | **Broken on the close**: 7,580.07; low 7,527.56 at 14:53 ET |
-| QQQ 690 (deepest dealer amplification on the 10/29 map) | Low 683.45, closed 690.49 on top of it; 690 was never a hold/break line in my letter |
-| Dealer gamma, Monday open | Negative on all three chains; S&P turning point 7,732–7,736 barely moved from Thursday's 7,739–7,741, so prices slid down an unchanged curve |
-| New walls | S&P put level withheld (the two horizons disagree; band 7,500–7,600); QQQ put level 680 published |
-| Credit and rates | High-yield spread 326bp on 10/29 (+12bp, back over the 320 yellow line, a session before stocks broke); 2-year Treasury 4.56%, back under its red line |
-| Inbox | 2 packets + 9 WALTER cards logged and filed |
+| Was Friday narrow or broad? | Narrow at the index level: 55% of S&P 500 stocks fell; chips and the seven biggest tech names made 79% of the −1.82%; equal-weighted S&P 500 fund (RSP) beat SPY by 1.0 point, a margin seen on only 4 of 321 similar days since 2003, all chip-led. Broad inside tech: 80% of tech stocks fell |
+| Broad or concentrated? | Concentrated at the October 6 record; broad and broadening since |
+| Improving or deteriorating? | Improving over one week and one month (RSP beat SPY by 5.9 points in October, a top-half-percent month since 2003); three-month damage in small and mid caps only partly repaired |
+| Inbox | 3 WALTER cards logged and filed; 2 corrections receipted (the Russian diesel export ban now runs to January 31, 2027) |
 
 ## GAPS / still pending
-- The option open interest behind Monday's map is Thursday's; Friday's trading appears Monday morning. The map can shift before the open.
-- The closing jump (+19.6 S&P points in 15:45–15:50 ET) may be the month-end closing auction or expiry hedging; no data here separates them.
-- Dollar figures for dealer exposure are estimates on an assumed positioning; the sign and the turning point are the reliable parts.
-- Row 9's "vector-vendor collapse" size is still undefined (with PROME/CYPHER). Operating Dashboard not refreshed since 10/22.
+
+- The exchange-wide counts of rising and falling stocks and of new highs and lows (NYSE, Nasdaq) for Friday were not reachable for free; I counted the 1,506 S&P 1500 member stocks directly instead.
+- Using today's index members for past dates makes history look slightly stronger than it was (companies dropped from the index are missing); the size of that effect was not measured.
+- The "% of stocks above their average" counts could not be checked against a published series (none free).
+- The Nasdaq-100 and Russell 2000 member lists could not be downloaded, so those two are read only from equal-weighted versus cap-weighted funds.
 
 ## COMMITS
-See the HENRY commits of 2026-10-30 (`git log --since=2026-10-30 -- AGENTS/HENRY`); shas are in the PROME memo `PROME/inbox/2026-10-30_from-HENRY_post-close-gamma-grade.md`.
+
+Shas in the PROME memo's message to PROME and in `git log --since=2026-10-31 -- AGENTS/HENRY`.
 
 ## NEXT SESSION FOLLOW-UP
-Monday 11/02 before the open: re-pull the three gamma maps once Friday's open interest is posted. Then ISM manufacturing 11/2, Apple after the close 11/02 (vendor date), ISM services 11/4, payrolls 11/6, CPI 11/10, PPI 11/13, Nvidia 11/19.
+
+Monday 11/02 before the open: re-pull the three dealer-hedging maps (DOCKET L888). Then ISM manufacturing 11/2, Apple after the close 11/02 (vendor date), ISM services 11/4, payrolls 11/6, CPI 11/10, PPI 11/13, Nvidia 11/19.
 
 ## THESIS SNAPSHOT (frozen at close)
-Cyclical: inflation firm, Fed on hold; curve rallied two days (2Y 4.56%, 10Y 4.94%). AI capex: no hyperscaler cut, stocks punished for the spending (Intel −28.6% on its own results, chip stocks −8.2%). Credit: high-yield spread back over 320 ahead of the equity break, tail still wide (CCC 1,325bp). Market structure: no dealer cushion on any of the three maps into Monday.
+
+No market data re-pulled beyond the breadth study; the gamma, volatility, credit and rate reads are the 10/30 post-close ones. Breadth: the index's weakness since October 6 is the AI, chip and mega-cap group repricing while most stocks rallied; that is not a broad retreat. Credit's one warning is the high-yield spread back over 320, at 326bp on 10/29, a session before Friday's drop.
 
 ## WILL_NEEDS
+
 Nothing. No probability, threshold, prediction or trade changed.
 
-**Honest scope:** this grades levels and dealer mechanics on a free option-chain proxy; it says nothing about where prices go next, and it is not a trade view.
+**Honest scope:** a measurement of participation on free data, as of Friday 10/30 and looking back; it does not forecast prices and is not a trade view. Commissioned under C9 (one bounded session); it creates no recurring monitor.

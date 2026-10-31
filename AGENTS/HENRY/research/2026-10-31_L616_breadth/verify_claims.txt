@@ -1,0 +1,22 @@
+2026 record closes: 28; October records: ['2026-10-06']
+SP500_pct50    lowest at a record close: 29.4821 on 2026-10-06 | 10/06: 29.4821 | rank of 10/06 from lowest: 1 of 28
+SP500_pct200   lowest at a record close: 46.6000 on 2026-10-06 | 10/06: 46.6000 | rank of 10/06 from lowest: 1 of 28
+SP1500_pct50   lowest at a record close: 27.6780 on 2026-10-06 | 10/06: 27.6780 | rank of 10/06 from lowest: 1 of 28
+SP1500_pct200  lowest at a record close: 46.3284 on 2026-10-06 | 10/06: 46.3284 | rank of 10/06 from lowest: 1 of 28
+RSP_SPY        lowest at a record close: 0.2715 on 2026-05-14 | 10/06: 0.2725 | rank of 10/06 from lowest: 2 of 28
+SP500_nhnl     lowest at a record close: -5.0000 on 2026-05-13 | 10/06: 21.0000 | rank of 10/06 from lowest: 12 of 28
+                  SPX  SP500_pct50  SP500_pct200  SP500_nh  SP500_nl  SP1500_pct50  SP1500_pct200  RSP_SPY  SP500_nhnl
+Date                                                                                                                  
+2026-08-04  7736.5200      68.2000       71.3427      25.0       3.0       70.5804        74.6488   0.2852        22.0
+2026-08-07  7757.6401      65.6687       72.9459       9.0       0.0       65.8000        73.7300   0.2843         9.0
+2026-08-13  7798.9902      68.6627       73.6000      29.0       1.0       64.0000        73.6807   0.2860        28.0
+2026-10-06  7818.9302      29.4821       46.6000      23.0       2.0       27.6780        46.3284   0.2725        21.0
+
+8/13 tier readings: {'SP400_pct50': 61.8, 'SP400_pct200': 72.2, 'SP600_pct50': 61.6, 'SP600_pct200': 74.7, 'SP1500_pct50': 64.0, 'SP1500_pct200': 73.7}
+
+Character of the most equal-weight-favourable SPY -1.3..-2.3% days (total return %):
+2025-01-27 {'SPY': -1.41, 'RSP': 0.07, 'QQQ': -2.91, 'SOXX': -7.84, 'XLK': -4.9, 'XLC': 0.52, 'XLY': 0.57, 'XLE': -1.04, 'XLP': 2.71, 'XLU': -2.31, 'XLV': 2.25}
+2026-06-23 {'SPY': -1.45, 'RSP': -0.34, 'QQQ': -3.29, 'SOXX': -7.88, 'XLK': -4.14, 'XLC': 0.38, 'XLY': -1.03, 'XLE': 0.74, 'XLP': 1.87, 'XLU': 0.78, 'XLV': 1.41}
+2024-07-24 {'SPY': -2.27, 'RSP': -1.17, 'QQQ': -3.59, 'SOXX': -5.32, 'XLK': -4.14, 'XLC': -2.61, 'XLY': -4.09, 'XLE': 0.01, 'XLP': -0.09, 'XLU': 1.12, 'XLV': 0.83}
+2024-07-17 {'SPY': -1.4, 'RSP': -0.41, 'QQQ': -2.94, 'SOXX': -7.11, 'XLK': -3.89, 'XLC': -1.51, 'XLY': -1.67, 'XLE': 1.0, 'XLP': 1.29, 'XLU': 0.06, 'XLV': 0.45}
+2026-10-30 {'SPY': -1.77, 'RSP': -0.79, 'QQQ': -3.47, 'SOXX': -8.24, 'XLK': -4.89, 'XLC': -1.29, 'XLY': -0.71, 'XLE': 1.91, 'XLP': 1.41, 'XLU': 0.67, 'XLV': 0.45}

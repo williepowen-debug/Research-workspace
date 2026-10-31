@@ -15,6 +15,8 @@
 - [2026-06-03] **Duration-gate discipline: don't push harder either way; wait for confirmation at better levels.** When near-term easing is real but structural thesis intact, "hold core + defer the add until the catalyst confirms" beats forcing a directional call. Will explicitly endorsed this restraint.
 - [2026-06-06] **HENRY drops VOL-BROADCAST responsibility → VIOLET owns it.** VIX/vol stays a load-bearing HENRY *input* (cascade, 0DTE/GEX, soft-kill arm/de-arm) — keep using it — but HENRY does NOT alert the network on vol-regime events. VIX>30→ALL row removed from CLAUDE.md, reassigned to VIOLET. HENRY retains gamma/0DTE/put-wall broadcast. Saved auto-mem `[[feedback_henry_vol_broadcast_to_violet]]`.
 
+- [2026-10-30] **Carried from the rotated 10/30 session note (own catches):** after any `--publish`, write the wall rows by hand in the same edit (the script writes flips and GEX only); comparing a gamma profile across days mixes in expiry roll-off, so compare flips, not $B, across an expiry; Cboe chain open interest after the close is the PRIOR day's trades (the day's trading reaches OCC the next morning).
+
 ## Findings
 
 - [2026-04-17] When oil shocks reverse on unilateral headlines, regional-bank beta (KRE, APO) gives back most of the AM rally by close — conviction bid is small vs beta bid.
@@ -52,16 +54,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-30 16:40–16:50 ET, PROME C8 wake (prome-c5, DOCKET L885, WALTER card SIG-W-20261030-002; Claude Code, Opus 5.5)
+### CHANGES SINCE — 2026-10-31 12:58–13:22 ET, PROME C9 research commission (prome-34, DOCKET L616 market breadth; Claude Code, Opus 5.5)
 
-- **10/29 put wall 7,700 BROKE on the 10/30 close** (SPX 7,580.07, −1.82%; low 7,527.56 14:53 ET). Gamma NEGATIVE both on SPX (flips 7,732/7,736, −$38.6B/−$60.7B), QQQ (725/727; put wall 680 PUBLISHED) and NDX (28,937/29,047; reversed from positive). SPX walls withheld (put band 7,500–7,600). Flip barely moved: price slid down the same curve. KB ML-HEN-193; PUBLISHED.tsv 10/30 via `--publish`; signal to WALTER inbox.
-- QQQ closed 690.49 on the 690 trough after 683.45; 10/30-expiry 690 puts traded 347K on 61K OI ⇒ pin + month-end auction plausible, NOT instrumented. 2Y par 4.56% ⇒ ORANGE; HY 326 [FRED 10/29] ⇒ YELLOW; cascade layer-2 proxy met (SPX 117 under 50-day 7,697.1).
-- Inbox drained 2 + 9; L773/L774 records and the 10/28 VIEW moved verbatim to STATUS_COLD § ROT-10/30.
-- **Own catches:** (1) PUBLISHED.tsv never got the 10/29 16:06 ET 7,700 put-wall row (the 00:08 ET rows sat there as the day's walls) — recorded late. **After any `--publish`, write the wall rows by hand in the same edit** (the script writes flips and GEX only). (2) **Comparing a profile across days mixes in expiry roll-off:** the 10/29 ≤35d chain contained the 10/30 expiry (nearest-dated, largest gamma); "less negative trough" on 10/30 is partly composition. Compare flips, not $B, across an expiry. (3) Cboe chain open interest after the close is the PRIOR day's trades; the day's trading lands at OCC the next morning.
+- **L616 breadth study delivered:** `research/2026-10-31_L616_breadth/`, memo `PROME/inbox/2026-10-31_from-HENRY_L616-market-breadth.md`, KB ML-HEN-194, STATUS § MARKET BREADTH. Concentrated at the 10/6 record (29.5% of S&P 500 members above the 50-day), broadening since (October RSP/SPY +5.91pp; median member +7.20% vs SPY −0.91%). Friday narrow at the index level (55.1% of members down; Mag-7 + 18 chip makers = 79% of −1.82%; 42 highs / 5 lows), broad only inside tech. Small/mid three-month damage only partly repaired.
+- **Reusable instrument (free):** S&P 1500 member breadth from SSGA holdings (SPY / MDY / SPSM + 11 Select Sector SPDRs; SLY 404s, iShares serves a web page, Invesco QQQ returns 406) plus yfinance bars (~75 s for 1,506 names; ~19 connection timeouts recovered by a per-ticker retry). It is a study, NOT an authorized monitor.
+- **Own catch:** I was about to write "narrowest record close on every measure"; `verify_claims.py` showed 10/6 was lowest on % above 50/200-day but 2nd on the RSP/SPY ratio and 12th of 28 on highs minus lows. The superlative lesson covers "narrowest" too.
+- WALTER cards 001/002/006 consumed; COR-20261031-01 APPLIED (diesel ban through 1/31/2027), COR-20261031-02 NO-OP.
 
 ### NEXT SESSION
 
-1. **Monday 11/02 pre-open:** re-pull SPX/QQQ/NDX `--both` once OCC open interest includes 10/30 trading; compare flips (7,732–7,736 SPX, 725–727 QQQ) and the 7,500–7,600 put band. ISM manufacturing 11/2 (ISHM); AAPL 11/02 after the close (vendor date).
+1. **Monday 11/02 pre-open (DOCKET L888):** re-pull SPX/QQQ/NDX `--both` once OCC open interest includes 10/30 trading; compare flips (7,732–7,736 SPX, 725–727 QQQ) and the 7,500–7,600 put band. ISM manufacturing 11/2 (ISHM); AAPL 11/02 after the close (vendor date).
 2. Row 9 on 11/18: PANW + bank-stock legs from a live pull; the collapse magnitude must be settled with CYPHER/PROME BEFORE 11/18.
 3. Operating Dashboard not refreshed since 10/22 (version 4). ISM services date (11/4) still unverified.
-4. Catalysts: Russian №1252 10/31 (extended to year-end per Reuters), ISM services 11/4, NFP 11/6 (HEN-59), CPI 11/10 (HEN-57; L435/L437), PPI 11/13 (HEN-58), NVDA 11/19 (L322).
+4. Catalysts: Russian diesel/gasoil producer ban now through 1/31/2027 (decree №1436; BRENT/OSPREY), ISM services 11/4, NFP 11/6 (HEN-59), CPI 11/10 (HEN-57; L435/L437), PPI 11/13 (HEN-58), NVDA 11/19 (L322).
+5. Breadth: no recurring pull is authorized; if PROME or Will asks for a repeat, re-run the research-folder scripts (about three minutes).
