@@ -1,0 +1,32 @@
+{
+  "status": "REVIEW",
+  "findings": [
+    "d03508467: claimed pending, origin proves published",
+    "SIG-W-20261031-011/HANS: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-011/ISHM: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-011/HENRY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-011/LABOR: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-011/LIQUID: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-011/REGINALD: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-011/HAWK: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-012/BOND: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-012/LIQUID: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-012/ZHAO: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-012/BROCK: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-012/SHADE: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-012/HENRY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-013/CARL: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-013/HENRY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-013/LIQUID: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-014/HENRY: ledger/origin disagree; reconcile or investigate",
+    "SIG-W-20261031-014/LIQUID: ledger/origin disagree; reconcile or investigate",
+    "delivery receipt mismatch: actual 54/54"
+  ],
+  "as_of": "2026-10-31T18:48:29Z",
+  "origin_ref": "86168b63c1d1c923878a7e5b375a11abc7f1ed1a",
+  "delivery_scope": "20261031",
+  "delivered": 54,
+  "total": 54,
+  "next_review": "2026-11-02",
+  "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+}

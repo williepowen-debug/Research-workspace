@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-10-31T18:34:28Z — Codex/OpenAI, Will-approved X bookmark review completed; LIGHT checkpoint. Prior boot/source and FULL-closeout limits remain at LAST_COMPLETION.md.
+**Updated:** 2026-10-31T18:48:29Z — Codex/OpenAI, Will-approved FULL closeout. Research/source limits and current duties remain at LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-All 13 staged X bookmarks reviewed and marked: four new cards, one duplicate, five folds and three no-action dispositions. ACA final benchmark premiums +13% before subsidies; QQQ short-interest data are October 15, not October 30 flow; Treasury $839B is gross issuance; international port actions had mixed durations. Nine original items fully read, four partly read, with alternative primary evidence and explicit source limits. Four cards 011–014 and 18 required handoffs are written; publication proof lives at LAST_COMPLETION. Today's totals: 14 cards, three prior registered corrections and nine bounded verification helpers.
+All 13 staged X bookmarks reviewed and marked: four new cards, one duplicate, five folds and three no-action dispositions. ACA final benchmark premiums +13% before subsidies; QQQ short-interest data are October 15, not October 30 flow; Treasury $839B is gross issuance; international port actions had mixed durations. Nine original items fully read, four partly read, with alternative primary evidence and explicit source limits. Today's totals: 14 cards, three prior registered corrections, two intake kills and nine bounded verification helpers. Zero cluster_mediating flags; no network_uncertainty_peak. Eight clusters: HYDROCARBON_INFRA 4; POSITIONING_VALUATION, BANK_COLLATERAL and INFLATION_TRANSMISSION 2 each; FED_FRAMEWORK, AI_INFRA_CAPEX, CONSUMER_STAGFLATION and PC_STRESS 1 each.
 
 WQ-556 C unchanged; required routes retained, no discretionary informational additions or new studies. Earlier 48-threshold/eight-oil-boundary review remains dated; this bookmark batch creates no new fire or exit. Current duties and delivery/consumption evidence: LAST_COMPLETION.md.
 
@@ -63,7 +63,9 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-16 owner-header mirrors refreshed at 2026-10-31T18:34:28Z before this narrative (research/2026-10-31_x-review/owner-headers.json); other rows retain their prior dates. SAM already incorporated the BOJ ETF decision; no duplicate handoff. HENRY/VULCAN already cover the Intel sell-off; no unsupported volume ranking adopted. New cards preserve existing owner responsibilities and WQ-556 C. Codex task discovery was truncated and does not cover all runtimes: owner readiness UNKNOWN, no dark-owner inference or domain launch. Full registry/MEMORY narrative and READS re-attestation debt remain explicit at LAST_COMPLETION; this is not full procedural clearance.
+All 44 STATUS-backed registry rows reviewed at 2026-10-31T18:48:29Z; owner update dates retained, including PROME's October 30 header. All 49 mirror names matched roster entries; no missing STATUS-backed desk, eligibility change or launch. Five rows without STATUS retain explicit prior evidence. REGISTRY is a routing mirror, not a liveness census.
+
+SAM has graded the BOJ decision; no observed Japan unwind established. HENRY's October 31 breadth study retains Friday's technology weakness and negative gamma; VULCAN's October 30 sell-off fired no registered letter. GIBBS completed its October 31 cyber-consequence/inbox pass. ISHM retains selective equipment strength and its November final frame. NEXUS's October 31 matrix reports vulnerabilities without three-root convergence. MIDAS's October 30 liquidation candidate does not prove forced margin selling. Owner-header review is not fresh market verification or proof of consuming today's cards. Full cross-runtime readiness remains UNKNOWN.
 
 ## Active LIAISON channels
 
