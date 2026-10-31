@@ -151,6 +151,26 @@ def check_current_snapshot(repo, snapshot):
         raise ValueError("PROME marked this item waiting on someone else")
 
 
+def queue_chain(repo, events):
+    """A published answer may start the available history after private drafts.
+
+    Keep its immutable supersedes ID; only traversal treats that published
+    boundary as a root. Never infer missing content or join disconnected roots.
+    An unpublished answer still needs its predecessor in the local history.
+    """
+    ids = {e["id"] for e in events}
+    def previous(e):
+        parent = e["request"]["supersedes"]
+        if parent is not None and parent not in ids:
+            try:
+                if repo.read(f"{REPLIES}/{e['id']}.json", "origin/master") == encoded(e) + "\n":
+                    return None
+            except (ValueError, subprocess.CalledProcessError):
+                pass
+        return parent
+    return chain(events, "id", previous)
+
+
 class QueueStore(Store):
     event_kind = "decisions-queue-response/1"
     synthetic = False
@@ -194,7 +214,7 @@ class QueueStore(Store):
             validate_reply(self.repo, e, self.wq)
         self.conflict = None
         try:
-            ordered = chain(list(events.values()), "id", lambda e: e["request"]["supersedes"])
+            ordered = queue_chain(self.repo, list(events.values()))
         except ValueError as error:
             if not str(error).startswith("Conflicting branches"):
                 raise
@@ -255,11 +275,16 @@ class QueueStore(Store):
                 delivery_block = "Saved terms are no longer current. " + str(error)
         group = "History" if integration else ("Follow-through" if last or unit["queue_kind"] not in {"HANDS", "DECISION"}
                                                else ("Tasks for me" if unit["kind"] == "hands" else "Decisions"))
+        ids = {e["id"] for e in events}
+        gaps = sorted({e["request"]["supersedes"] for e in events
+                       if e["request"]["supersedes"] and e["request"]["supersedes"] not in ids})
         return {"wq_id": self.wq, "unit": unit, "snapshot": d, "hash": key, "group": group,
                 "events": events, "last": last, "receipt": integration or (receipts.get(last["id"]) if last else None),
                 "errors": errors, "can_respond": self.enabled and not historical and not errors and not unit["blocked"],
                 "can_deliver": bool(last) and self.enabled and not historical and not errors and not delivery_block,
                 "delivery_block": delivery_block, "conflict": bool(self.conflict),
+                "history_notes": (["Earlier saved versions are unavailable on this computer; their words are not inferred. "
+                                   "Only published answers travel through the repository."] if gaps else []),
                 "response_type": "queue", "requires_confirmation": True}
 
     def save(self, request):

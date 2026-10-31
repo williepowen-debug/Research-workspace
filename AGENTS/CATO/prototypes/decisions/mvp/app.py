@@ -188,7 +188,9 @@ class Desk:
                 def guard():
                     if not self.permissions()[0]:
                         raise ValueError("Acceptance or application changed during delivery; reopen Decisions")
-                return delivery.deliver(self.repo, event, guard=guard)
+                store = self.stores[card["wq_id"]]
+                return delivery.deliver(self.repo, event, guard=guard,
+                                        local_events=lambda: store.responses()["events"])
             raise ValueError("Unknown desk operation")
 
 

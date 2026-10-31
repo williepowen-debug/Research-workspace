@@ -2,7 +2,7 @@
 
 **October 30, 2026 · CATO · Draft for discussion; implementation not commissioned.**
 
-Build a calendar that answers: **What matters this week, what does it mean for our research and recorded positioning, and which agents have work around it?** The proposed first version is a local Calendar window opened from the Agent Launcher. It combines economic events, scheduled agent work and dated research follow-ups, with links back to their sources and results. The sketch waits until the Decisions desk passes its independent re-check; passing that review does not itself commission calendar work.
+Build a calendar that answers: **What matters this week, what does it mean for our research and recorded positioning, and which agents have work around it?** The proposed first version is a local Calendar window opened from the Agent Launcher. It combines economic events, scheduled agent work and dated research follow-ups, with links back to their sources and results. Will’s October 31 relay permits the sketch alongside the Decisions review if no frozen build/dependency file changes; full calendar implementation remains uncommissioned.
 
 Will requested a plan after discussing the idea. The working assumption is that it should support both morning planning and occasional checks during the day. Week view is the default. This assumption can change during discussion without changing the underlying source work.
 
@@ -71,7 +71,7 @@ The application does not run PROME's operational boot or closeout to refresh its
 
 | Stage | Deliverable | Completion condition |
 |---|---|---|
-| 0. Sequence | Decisions desk independent re-check passes; calendar work separately commissioned | CATO preserves the frozen Decisions build during review. No calendar sketch or implementation starts automatically. |
+| 0. Sequence | Sketch can proceed outside the Decisions frozen build; full calendar implementation remains separately commissioned | CATO preserves every frozen build/dependency file during review. Sketching does not authorize integration or changes to that build. |
 | 1. Layout and source sample | Reviewable Week/Today/details sketch of one real week; representative preserved records from the proposed feeds | Will can assess default research visibility with housekeeping hidden, then toggle it on. Gate/card relevance and its source date are legible. Every item is traceable; missing fields and coverage are explicit. |
 | 2. Calendar data reader | Normalized snapshot with source provenance, event-to-work links and refresh diagnostics | Real-source fixtures cover date-only items, windows, time zones, moved dates, duplicate feeds, conflicting records, missing files and malformed rows. No source files change. |
 | 3. Desktop window | Week, Month, Today, filters, details and source/research opening | Opens through the existing launcher; navigation stays responsive while refreshing; long titles and overlapping entries remain readable on desktop and laptop. |
@@ -86,7 +86,7 @@ Possible later additions: optional reminders, calendar export, broader event cov
 
 The likely benefit is less manual searching between events, agent obligations and resulting research. The principal implementation risk is reconciling inconsistent source records while preserving their meaning; the visible calendar grid is the simpler part. A modest, explicitly covered source set is sufficient for a useful first version.
 
-**Revised plan delivered; sketch waits for Decisions acceptance.** Next CATO action is to discuss Will's changes to this draft. After the Decisions re-check passes and Will commissions calendar work, begin with the one-week layout and representative source sample. Resolve housekeeping classification, explicit gate/card relationships and the supported owner-preflight interface before integration. No owner task, send, launch or application change has been made by this planning assignment. Existing unrelated approvals survive.
+**Revised plan delivered; sketch may proceed outside the Decisions freeze.** Will’s October 31 relay permits the one-week layout and representative source sample alongside the review. The current repair turn leaves the sketch pending, rather than starting unrelated implementation. Resolve housekeeping classification, explicit gate/card relationships and the supported owner-preflight interface before integration. No owner task, send, launch or application change has been made by this planning assignment. Existing unrelated approvals survive.
 
 ## Evidence and delivery record
 
@@ -103,3 +103,8 @@ Delivery checks: verified existence/readability of all ten inputs. Weekday check
 Will relayed PROME's review. Incorporate its four recommendations as draft design changes: Decisions first, housekeeping hidden by default, explicit gate/trade-card relevance, and canonical duplicate-owner preflight at actual Start. PROME's quoted 61 undated/16 overdue counts are owner-reported snapshots, not a CATO census or a design constant. PROME's statement that Decisions still had two defects predates CATO's repair handoff: author repairs are frozen at `f7b03a732`; independent re-check remains pending, so the sequencing recommendation still applies. No fresh Decisions audit or edit was triggered.
 
 Bounded reference reads confirm the existing gates state contract carries ticker relevance, TERRY's position-intake contract refuses to establish holdings from memory, and the launcher documents limited lock coverage. No current holdings, gate fires or live event dates were verified. Source reuse reduces duplicate maintenance but does not guarantee correct/current records; the plan preserves that distinction. No owner sends, launches, new implementation or build authorization followed from this feedback. Check coverage for this two-document revision remains the ten named inputs above; publication is delivered in-session.
+
+
+## October 31 sequencing update
+
+Will relayed PROME's instruction that calendar sketch and ORACLE launcher preset work may continue in parallel if no file in the frozen Decisions build changes. Preserve that permission; it supersedes the prior sketch wait condition. Full calendar implementation, deployment and owner scheduling changes are not inferred. This update reconciles the plan only; no sketch, launcher change or source audit was performed.

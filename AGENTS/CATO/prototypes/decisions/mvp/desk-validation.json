@@ -20,6 +20,10 @@
           "pass": true
         },
         {
+          "name": "Revise a never-sent decision and send only its replacement",
+          "pass": true
+        },
+        {
           "name": "Explicit Send publishes saved fixture response without inventing receipt",
           "pass": true
         },
@@ -32,11 +36,15 @@
           "pass": true
         },
         {
+          "name": "Revise a never-sent task deferral and send completion report",
+          "pass": true
+        },
+        {
           "name": "Layout fits the viewport",
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-pr75nxph/desktop.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/desktop.png"
     },
     "narrow": {
       "checks": [
@@ -57,6 +65,10 @@
           "pass": true
         },
         {
+          "name": "Revise a never-sent decision and send only its replacement",
+          "pass": true
+        },
+        {
           "name": "Explicit Send publishes saved fixture response without inventing receipt",
           "pass": true
         },
@@ -69,11 +81,15 @@
           "pass": true
         },
         {
+          "name": "Revise a never-sent task deferral and send completion report",
+          "pass": true
+        },
+        {
           "name": "Layout fits the viewport",
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-pr75nxph/narrow.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/narrow.png"
     },
     "recorded-answer": {
       "checks": [
@@ -94,7 +110,28 @@
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-pr75nxph/recorded-answer.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/recorded-answer.png"
+    },
+    "revision-restore": {
+      "checks": [
+        {
+          "name": "Published replacement restored without private predecessor",
+          "pass": true
+        },
+        {
+          "name": "Missing private history is explicit",
+          "pass": true
+        },
+        {
+          "name": "No invented earlier words or owner receipt",
+          "pass": true
+        },
+        {
+          "name": "Current question remains respondable",
+          "pass": true
+        }
+      ],
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/revision-restore.png"
     },
     "actual-history": {
       "checks": [
@@ -123,14 +160,14 @@
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-pr75nxph/actual-history.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/actual-history.png"
     }
   },
   "build_hashes": {
-    "app.py": "5efaf66d4f4ba8beaa6fe7a7a661fe10787f34fc1385a8a8878697040501a84b",
-    "desk.html": "9980d1f97764018d53d6ece632651d44cf8227c294f469f34b9373945e698abc",
-    "queue_store.py": "0959c9e970e44687c8b99d11ab4d03184c40ccfe1930db350131223320504f3a",
-    "delivery.py": "0ef7d3f5ef96db477d3de088cb40781b5bbb5964a4894703f3aa61d9e9ec543d",
+    "app.py": "5b133efa6758bbc95cd411de62b2d10ed69bd2730b2d40a4b04ed18fcf063edd",
+    "desk.html": "4b5b6f454b52b63a768374def3850a18dbd2776a8585ccec24568a9032928de5",
+    "queue_store.py": "e0df66bd78a9197866bc7f86a84e0b93e6a5ffe54212edfd17cbc79a17a822df",
+    "delivery.py": "00d21a132e7d408e80019381ab8063fdabb8dd0ecb0b26311894e8bac6043d78",
     "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
     "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
@@ -148,5 +185,5 @@
     "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
     "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
   },
-  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-pr75nxph"
+  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g"
 }

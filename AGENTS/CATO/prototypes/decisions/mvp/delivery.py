@@ -7,8 +7,8 @@ import re
 import subprocess
 import tempfile
 
-from pilot_files import RESPONSES, chain, encoded, identifier, read_receipts, strict_json, validate_event
-from queue_store import REPLIES, check_current_snapshot, validate_reply
+from pilot_files import RESPONSES, encoded, identifier, read_receipts, strict_json, validate_event
+from queue_store import REPLIES, check_current_snapshot, queue_chain, validate_reply
 
 
 def event_path(event):
@@ -65,11 +65,20 @@ def sync(repo):
                 "origin": repo.git("rev-parse", "origin/master").strip()}
 
 
-def check_queue_delivery(repo, event):
+def check_queue_delivery(repo, event, local_events=None):
     if event["kind"] != "decisions-queue-response/1":
         return
     wq = event["display"]["record"]["wq_id"]
     events = {event["id"]: event}
+    # Read anew at every guard; another app window can save a newer revision
+    # while the advisory checks run. Local versions remain local-only files.
+    for saved in local_events() if local_events else ():
+        if saved.get("display", {}).get("record", {}).get("wq_id") != wq:
+            raise ValueError("Local history names another queue item")
+        validate_reply(repo, saved, wq)
+        if saved["id"] in events and events[saved["id"]] != saved:
+            raise ValueError("Conflicting immutable response; delivery refused")
+        events[saved["id"]] = saved
     for ref in ("HEAD", "origin/master"):
         for path in repo.git("ls-tree", "-r", "--name-only", ref, "--", REPLIES).splitlines():
             saved = strict_json(repo.read(path, ref, prefix=REPLIES))
@@ -83,7 +92,7 @@ def check_queue_delivery(repo, event):
         for ref in ("HEAD", "origin/master"):
             if any(r["state"] == "integrated" for r in read_receipts(repo, saved, commit=ref)):
                 raise ValueError("PROME already recorded an answer to this item; no further answer can be delivered")
-    ordered = chain(list(events.values()), "id", lambda e: e["request"]["supersedes"])
+    ordered = queue_chain(repo, list(events.values()))
     if ordered[-1]["id"] != event["id"]:
         raise ValueError("Only the latest saved response can be delivered; review its replacement")
     check_current_snapshot(repo, event["display"])
@@ -100,7 +109,7 @@ def run_advisory(repo, command, label):
     return {"check": label, "exit": result.returncode, "output": result.stdout + result.stderr}
 
 
-def deliver(repo, event, guard=None):
+def deliver(repo, event, guard=None, local_events=None):
     """Explicit button only, after acceptance. Exact immutable response plus one inbox pointer."""
     validate(repo, event)
     path = event_path(event)
@@ -125,7 +134,7 @@ def deliver(repo, event, guard=None):
             repo.git("fetch", "origin")
         except subprocess.CalledProcessError as error:
             raise ValueError("Response saved; not delivered: latest published terms could not be fetched") from error
-        check_queue_delivery(repo, event)
+        check_queue_delivery(repo, event, local_events)
         if repo.path(processed).exists():
             packet = processed
         target = repo.path(packet, "PROME/inbox")
@@ -141,7 +150,7 @@ def deliver(repo, event, guard=None):
                     raise ValueError("Delivery file changed during Send; preserved for reconciliation")
             if guard:
                 guard()
-            check_queue_delivery(repo, event)
+            check_queue_delivery(repo, event, local_events)
         checks = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md"]
         for name in checks:
             with repo.path(name).open("rb") as stream:
@@ -154,7 +163,7 @@ def deliver(repo, event, guard=None):
             results = [run_advisory(repo, ["python3", "scripts/claim_check.py", "--check", "weekday",
                                           *checks, str(candidate)], "Weekday check"),
                        run_advisory(repo, ["bash", "scripts/orphan_check.sh", "CATO"], "Orphan advisory")]
-        check_queue_delivery(repo, event)
+        check_queue_delivery(repo, event, local_events)
         if not target.exists():
             target.parent.mkdir(parents=True, exist_ok=True)
             with target.open("x") as out:

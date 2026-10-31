@@ -1,11 +1,11 @@
 {
   "schema_version": "decisions-release-review/1",
-  "status": "FROZEN: independent HOLD repairs author-tested; PROME exact-revision re-check pending; Will activation decision separate",
+  "status": "FROZEN: R1 local-predecessor repair author-tested; PROME final independent read 3 pending; WQ-564 A pre-approves activation on acceptance without blockers",
   "build_hashes": {
-    "app.py": "5efaf66d4f4ba8beaa6fe7a7a661fe10787f34fc1385a8a8878697040501a84b",
-    "desk.html": "9980d1f97764018d53d6ece632651d44cf8227c294f469f34b9373945e698abc",
-    "queue_store.py": "0959c9e970e44687c8b99d11ab4d03184c40ccfe1930db350131223320504f3a",
-    "delivery.py": "0ef7d3f5ef96db477d3de088cb40781b5bbb5964a4894703f3aa61d9e9ec543d",
+    "app.py": "5b133efa6758bbc95cd411de62b2d10ed69bd2730b2d40a4b04ed18fcf063edd",
+    "desk.html": "4b5b6f454b52b63a768374def3850a18dbd2776a8585ccec24568a9032928de5",
+    "queue_store.py": "e0df66bd78a9197866bc7f86a84e0b93e6a5ffe54212edfd17cbc79a17a822df",
+    "delivery.py": "00d21a132e7d408e80019381ab8063fdabb8dd0ecb0b26311894e8bac6043d78",
     "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
     "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
@@ -23,8 +23,8 @@
     "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
     "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
   },
-  "python_checks": "87 tests PASS; strengthened A/B publication fixture rerun: 8 HOLD regressions PASS",
-  "browser_checks": 26,
+  "python_checks": "95 tests PASS: test_mvp test_pilot_files test_pilot_launch test_desk test_desk_review test_revision_delivery; subsequent history-notice wording-only change covered by final browser run",
+  "browser_checks": 34,
   "native_launcher": "Prior launcher smoke PASS reused: launcher command unchanged. Current browser entrypoint checked directly.",
   "activation_template": {
     "schema_version": "decisions-app-acceptance/1",
@@ -35,10 +35,10 @@
       "commit": "REPLACE-WITH-FULL-PUBLISHED-COMMIT"
     },
     "build_hashes": {
-      "app.py": "5efaf66d4f4ba8beaa6fe7a7a661fe10787f34fc1385a8a8878697040501a84b",
-      "desk.html": "9980d1f97764018d53d6ece632651d44cf8227c294f469f34b9373945e698abc",
-      "queue_store.py": "0959c9e970e44687c8b99d11ab4d03184c40ccfe1930db350131223320504f3a",
-      "delivery.py": "0ef7d3f5ef96db477d3de088cb40781b5bbb5964a4894703f3aa61d9e9ec543d",
+      "app.py": "5b133efa6758bbc95cd411de62b2d10ed69bd2730b2d40a4b04ed18fcf063edd",
+      "desk.html": "4b5b6f454b52b63a768374def3850a18dbd2776a8585ccec24568a9032928de5",
+      "queue_store.py": "e0df66bd78a9197866bc7f86a84e0b93e6a5ffe54212edfd17cbc79a17a822df",
+      "delivery.py": "00d21a132e7d408e80019381ab8063fdabb8dd0ecb0b26311894e8bac6043d78",
       "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
       "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
       "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
@@ -58,13 +58,13 @@
     }
   },
   "review_focus": [
-    "Blocking 1: receipt-bound recorded answer, separately visible unsent revision, no later send on integrated unit",
-    "Blocking 2: current published/working terms and options checked on Send, including fetch and changes during checks",
-    "W1: preserve competing answers and scope fork block to one item; manual reconciliation remains",
-    "W2: advisory findings are reported; check execution failure preserves saved answer without creating inbox packet",
-    "W10/W11: explicit approval scope, separate verdict and conditions; option rows require explicit choice; contradictory verdict text refuses review"
+    "R1: never-sent A -> revised B/C -> Send for decision and task; stale-source recovery and refused-commit recovery",
+    "Local history reread at every guard; reject superseded, forked, wrong-WQ, tampered and genuinely missing unpublished predecessors",
+    "Only selected event and packet published; fresh-store published replacement restores with explicit missing-private-history notice; disconnected segments refuse",
+    "Preserve independently closed original blockers: receipt-bound exact recorded words, closed/integrated refusal, current published/working terms and options checks",
+    "Preserve exact-file/shared-index/retry behavior and verdict/conditions controls; real WQ-558 remains read-only witness"
   ],
-  "freeze": "No CATO edits to build files during PROME re-check. Review the code commit named in the repair handoff and these hashes; a changed target requires an explicit new handoff.",
+  "freeze": "No CATO edits to any build/dependency file during final read 3. Review the full code revision named in the R1 handoff and these hashes. A further independent read requires Will named authorization.",
   "retained_residue": [
     "W1 branch chooser not implemented; readable/copyable originals and manual owner reconciliation",
     "W3 orphan advisory output returned; not an enforcement gate",
@@ -75,6 +75,14 @@
     "W8 same-day ruling order is filename order, not answer chronology",
     "W9 shared push publishes other already committed work as disclosed",
     "W12 longer option-fence info string accepted",
-    "Actual desktop/laptop event/receipt restore unobserved"
-  ]
+    "Actual desktop/laptop event/receipt restore unobserved",
+    "W-A: origin fetched once; remote changes during checks can leave a stale local commit after non-fast-forward refusal, publishable by later shared rebase/push",
+    "W-B: refused commit hook leaves its two files staged and opaque error",
+    "W-C: reused integrated WQ with new question remains hidden in History",
+    "W-D: some refusal messages incorrectly blame final acceptance",
+    "W-E: action-menu change can clear verdict but leave Approve title",
+    "Disconnected published history separated by an unavailable private intermediate revision remains readable but blocked for manual reconciliation; no missing edge guessed"
+  ],
+  "activation_authority": "PROME/proposals/2026-10-31_wq564-RULED.md: PROME publishes exact-build acceptance on ACCEPT or ACCEPT WITH NAMED RESIDUE with no blocker; matching chat confirmation remains required.",
+  "owner_procedure": "PROME reports direct packet intake instead of pending helper; publish ruling before integrated receipt. These are owner procedures, not new CATO enforcement."
 }
