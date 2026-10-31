@@ -8,14 +8,14 @@ python3 -B AGENTS/CATO/prototypes/decisions/mvp/app.py --open-browser
 
 The page reads the existing PROME queue and your saved responses. **Decisions**, **Tasks for me**, **Follow-through** and **History** keep their full source wording. Mixed/action rows stay intact in Follow-through rather than being guessed into new decisions. History now includes **Recently decided**: the 20 newest dated, published `PROME/proposals/*-RULED.md` files by filename date, with literal owner wording and all corrections available. A ruling file can contain several WQ decisions; this is not a complete chat ledger and is not sorted by inferred answer times. WQ-558's saved A, receipt and separately attributed implementation remain below these records. Prior approvals are never re-requested.
 
-**Current release status:** completion build, author-tested, awaiting one consolidated independent acceptance. It opens read-only until PROME publishes the accepted build record described below. The earlier pilot's acceptance does not silently authorize changed code or general replies. The queue remains authoritative; this release does not make structured records the source of the queue.
+**Current release status:** independent HOLD repairs author-tested; build frozen for PROME’s one exact-revision re-check. Activation remains a separate Will decision after a passing review. It opens read-only until PROME publishes the accepted build record described below. The earlier pilot's acceptance does not silently authorize changed code or general replies. The queue remains authoritative; this release does not make structured records the source of the queue.
 
 ## Everyday use after acceptance
 
 1. Open Decisions. **Sync latest records** fetches receipts and applies remote commits only when the checkout is clean and has no diverging local commits. Concurrent owner work is preserved; unresolved Git work is reported.
-2. Decision cards show **Approve** and **Disapprove** beside PROME's displayed recommendation. Either prepares an editable exact-text reply for review; no option letter needs typing and no A/B mapping is inferred. Disapproval selects no alternative. You may add conditions before saving. These buttons do not require a supplemental choice block; final app acceptance still gates replies. **Other response** supports a different answer or question. Tasks use **Respond**. When PROME supplies explicit choices, click an option; none is preselected. Review shows its full meaning and consequence alongside your exact conditions. Otherwise write your decision/option letter and conditions, report a personal task done, ask a question, or defer with a return condition. A mixed row needs you to identify its part; no options are inferred from prose.
-3. **Review response** shows the full terms and your exact words. **Save & deliver to PROME** saves first, exports one immutable event, commits only that event and its inbox pointer, and runs the repository safe-push protocol. Like ordinary repository closeout, the push also carries other already committed work on master; the review screen states this. Foreign staged/unstaged work is not committed by Send. A failed or uncertain delivery leaves the saved answer available for retry. Only the latest response can be delivered through the app. **Save on this computer** is available separately.
-4. Confirm the same answer in PROME's chat under the retained local-user trust rule. PROME writes its own receipt and ruling. A receipt records interpretation, not completed implementation. Sync shows the latest receipt; a closed question cannot be answered again. No app operation launches an agent or executes the proposed work.
+2. On a decision without explicit options, **Approve** and **Disapprove** open a scope field: name the specific decision you mean and add conditions separately. The full recommendation stays reference text; it is never copied wholesale into your approval. Switching verdicts keeps your conditions and replaces the generated verdict; **Other response** clears the verdict. A response containing both “I approve” and “I disapprove” cannot proceed to review until clarified. Where PROME supplies explicit choices, use those choice buttons; no recommended option ID is inferred from prose. None is preselected. Tasks use **Respond**. Mixed rows require you to name the part you mean.
+3. **Review response** shows the full terms and your exact words. **Save & deliver to PROME** saves first, exports one immutable event, commits only that event and its inbox pointer, and runs the repository safe-push protocol. Like ordinary repository closeout, the push also carries other already committed work on master; the review screen states this. Foreign staged/unstaged work is not committed by Send. A failed or uncertain delivery leaves the saved answer available for retry. Only the latest eligible response can be delivered through the app. Send fetches and checks current published and working terms, option text, competing replies and integrated receipts before creating the packet and again before committing/pushing. Changed, closed, blocked or already recorded items refuse delivery while preserving the saved answer. Weekday findings remain visible advice; failure to run a required check reports “saved; not delivered”. **Save on this computer** is available separately.
+4. Confirm the same answer in PROME's chat under the retained local-user trust rule. PROME writes its own receipt and ruling. A receipt records interpretation, not completed implementation. History shows the exact event named by an integrated receipt; other saved answers remain separately labelled with their own terms and delivery state. A closed question cannot be answered again. No app operation launches an agent or executes the proposed work.
 
 The browser is local to the current computer. Keep its terminal open while using it. SQLite is machine-local and ignored by Git; immutable event files and owner receipts travel through the repository. An actual desktop restore of the saved WQ-558 answer/receipt remains to be observed at the next ordinary machine switch; local fixture clones are not that observation.
 
@@ -23,7 +23,7 @@ The browser is local to the current computer. Keep its terminal open while using
 
 PROME receives one completed-code review request. Its independent reader must devise counterexamples for closed queue rows, bad/unpublished pins, missing events, mixed rows, stale terms, concurrent replies, delivery retries and staged foreign files. Author tests are not independent acceptance.
 
-After acceptance, PROME publishes `PROME/decisions/app-acceptance.json`:
+After independent acceptance and Will’s separate activation decision, PROME publishes `PROME/decisions/app-acceptance.json`:
 
 ```json
 {
@@ -84,11 +84,18 @@ python3 -B AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py prepare EVENT_I
 
 To disable responses, open with `--preview` or have PROME revoke its acceptance record. Do not delete or move response/receipt history. Restore an earlier application revision only together with its compatible acceptance; never rewrite saved events. Legacy `pilot_launch.py` retains its original acceptance pin and correctly refuses this changed core. Use `app.py` for the new desk.
 
+
+## Review freeze and retained limits
+
+`release-review.json` pins the frozen code and dependencies; the repair handoff names its code commit. CATO will not edit that build during PROME's re-check. New consequential findings return in one bounded list; a change requires a new named target before review resumes. Author test results do not override the independent HOLD.
+
+A cross-machine answer fork now preserves both exact answers visibly and blocks only that item's new saves/delivery. Its minimum recovery is copying the originals for owner reconciliation; an in-app branch chooser is not implemented. Other integrity errors may still disable all cards. The independent ledger's retained warnings also cover symbolic receipt-reference input, unpublished-event intake, unpublished receipt display and missing receipt-time/semantic validation, same-date History ordering, and permissive option-fence info strings. These remain named acceptance residue, not repaired claims. Standard Send pushes other already committed work as disclosed. The orphan tool is advisory; its output is returned in the delivery check record, and exact pathspec commits enforce file scope.
+
 ## Verification
 
 ```sh
 # From this directory; all writes use temporary fixture repositories/stores.
-python3 -B -m unittest test_mvp test_pilot_files test_pilot_launch test_desk -q
+python3 -B -m unittest test_mvp test_pilot_files test_pilot_launch test_desk test_desk_review -q
 # From repository root; Windows Chrome and local HTTP required.
 python3 -B AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
 python3 -B scripts/agents_gui.py --smoke-test

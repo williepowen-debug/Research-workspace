@@ -400,16 +400,16 @@ def import_responses(repo, store, wq_id, unit_id):
     return len(combined) - len(existing)
 
 
-def read_receipts(repo, event):
+def read_receipts(repo, event, commit="HEAD"):
     event_id = identifier(event["id"])
     prefix = f"{RECEIPTS}/{event_id}"
     receipts = []
     expected = {"schema_version", "id", "response_id", "response_sha256", "state", "at", "previous_receipt_id",
                 "canonical_ruling", "chat_confirmation", "confirmed_response_sha256"}
-    for path in repo.files(prefix):
+    for path in repo.git("ls-tree", "-r", "--name-only", commit, "--", prefix).splitlines():
         if not re.fullmatch(re.escape(prefix) + r"/[0-9a-f]{32}\.json", path):
             raise ValueError("Unexpected owner receipt path")
-        receipt = strict_json(repo.read(path, clean=True, prefix=prefix))
+        receipt = strict_json(repo.read(path, commit, clean=commit == "HEAD", prefix=prefix))
         fields(receipt, expected, "Receipt")
         identifier(receipt["id"])
         if Path(path).stem != receipt["id"] or receipt["schema_version"] != "decisions-receipt/1":

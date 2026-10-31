@@ -120,6 +120,37 @@ def immutable_export(repo, event):
     return path
 
 
+def current_source(repo, wq):
+    commit = repo.git("rev-parse", "origin/master").strip()
+    published = open_rows(repo.read(QUEUE, commit)).get(wq)
+    current = open_rows(repo.path(QUEUE).read_text()).get(wq)
+    head = open_rows(repo.read(QUEUE)).get(wq)
+    if not published or not current or not head:
+        raise ValueError("Published/current queue item unavailable or changed; sync after PROME finishes its update")
+    if not (published["row"] == current["row"] == head["row"]):
+        raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
+    import hashlib
+    options = source_for(repo, current, commit, current=True)
+    result = {"kind": "decisions-queue-display/2" if options else "decisions-queue-display/1",
+              "record": {"wq_id": wq, "units": [unit_for(current, options)]},
+              "source_path": QUEUE, "source_commit": commit, "queue_row": current["row"],
+              "presentation_sha256": hashlib.sha256((HERE / "desk.html").read_bytes()).hexdigest()}
+    if options:
+        result["options_source"] = options
+    return result
+
+
+def check_current_snapshot(repo, snapshot):
+    d = current_source(repo, snapshot["record"]["wq_id"])
+    if any(snapshot[k] != d[k] for k in ("record", "queue_row", "presentation_sha256")):
+        raise ValueError("Terms changed since this answer was saved; review and save again")
+    for key in ("path", "text", "choices"):
+        if (snapshot.get("options_source") or {}).get(key) != (d.get("options_source") or {}).get(key):
+            raise ValueError("Option terms changed since this answer was saved; review and save again")
+    if d["record"]["units"][0]["blocked"]:
+        raise ValueError("PROME marked this item waiting on someone else")
+
+
 class QueueStore(Store):
     event_kind = "decisions-queue-response/1"
     synthetic = False
@@ -133,23 +164,7 @@ class QueueStore(Store):
         super().__init__(path)
 
     def source(self):
-        commit = self.repo.git("rev-parse", "origin/master").strip()
-        published = open_rows(self.repo.read(QUEUE, commit)).get(self.wq)
-        current = open_rows(self.repo.path(QUEUE).read_text()).get(self.wq)
-        head = open_rows(self.repo.read(QUEUE)).get(self.wq)
-        if not published or not current or not head:
-            raise ValueError("Published/current queue item unavailable or changed; sync after PROME finishes its update")
-        if not (published["row"] == current["row"] == head["row"]):
-            raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
-        import hashlib
-        options = source_for(self.repo, current, commit, current=True)
-        result = {"kind": "decisions-queue-display/2" if options else "decisions-queue-display/1",
-                "record": {"wq_id": self.wq, "units": [unit_for(current, options)]},
-                "source_path": QUEUE, "source_commit": commit, "queue_row": current["row"],
-                "presentation_sha256": hashlib.sha256((HERE / "desk.html").read_bytes()).hexdigest()}
-        if options:
-            result["options_source"] = options
-        return result
+        return current_source(self.repo, self.wq)
 
     def current(self):
         return self.source()["record"]
@@ -161,15 +176,7 @@ class QueueStore(Store):
         return d
 
     def validate_display(self, snapshot, current):
-        d = self.source()
-        if any(snapshot[k] != d[k] for k in ("record", "queue_row", "presentation_sha256")):
-            raise ValueError("Terms changed; refresh and review your answer again")
-        # Unrelated commits may advance the pin, but the exact option text must agree.
-        for key in ("path", "text", "choices"):
-            if (snapshot.get("options_source") or {}).get(key) != (d.get("options_source") or {}).get(key):
-                raise ValueError("Option terms changed; refresh and review your answer again")
-        if d["record"]["units"][0]["blocked"]:
-            raise ValueError("PROME marked this item waiting on someone else")
+        check_current_snapshot(self.repo, snapshot)
 
     def restore(self):
         events = {e["id"]: e for e in self.responses()["events"]}
@@ -185,7 +192,15 @@ class QueueStore(Store):
             events[event["id"]] = event
         for e in events.values():
             validate_reply(self.repo, e, self.wq)
-        ordered = chain(list(events.values()), "id", lambda e: e["request"]["supersedes"])
+        self.conflict = None
+        try:
+            ordered = chain(list(events.values()), "id", lambda e: e["request"]["supersedes"])
+        except ValueError as error:
+            if not str(error).startswith("Conflicting branches"):
+                raise
+            self.conflict = "Conflicting saved answers. Both are preserved below; this item needs reconciliation before another save or delivery."
+            # Display order only: never promote a branch to the canonical head.
+            ordered = sorted(events.values(), key=lambda e: (e["saved_at"], e["id"]))
         with self.connection() as db:
             db.execute("BEGIN IMMEDIATE")
             for e in ordered:
@@ -193,7 +208,7 @@ class QueueStore(Store):
                 db.execute("INSERT OR IGNORE INTO snapshots VALUES (?, ?)", (r["display_hash"], encoded(e["display"])))
                 db.execute("INSERT OR IGNORE INTO responses VALUES (?, ?, ?, ?, ?)",
                            (e["id"], r["unit_id"], encoded(r), encoded(e), r["supersedes"]))
-            if ordered:
+            if ordered and not self.conflict:
                 db.execute("INSERT OR REPLACE INTO heads VALUES (?, ?)", (self.wq + ".queue", ordered[-1]["id"]))
             db.commit()
         return ordered
@@ -201,6 +216,8 @@ class QueueStore(Store):
     def display(self):
         errors = []
         events = self.restore()
+        if self.conflict:
+            errors.append(self.conflict)
         receipts, integration = {}, None
         for e in events:
             try:
@@ -228,12 +245,21 @@ class QueueStore(Store):
         with self.connection() as db:
             db.execute("INSERT OR IGNORE INTO snapshots VALUES (?, ?)", (key, encoded(d)))
         unit = d["record"]["units"][0]
-        last = events[-1] if events else None
+        last = (next(e for e in events if e["id"] == integration["response_id"]) if integration
+                else events[-1] if events else None)
+        delivery_block = "PROME already recorded an answer to this item" if integration else ""
+        if last and not delivery_block:
+            try:
+                check_current_snapshot(self.repo, last["display"])
+            except (ValueError, OSError, subprocess.CalledProcessError) as error:
+                delivery_block = "Saved terms are no longer current. " + str(error)
         group = "History" if integration else ("Follow-through" if last or unit["queue_kind"] not in {"HANDS", "DECISION"}
                                                else ("Tasks for me" if unit["kind"] == "hands" else "Decisions"))
         return {"wq_id": self.wq, "unit": unit, "snapshot": d, "hash": key, "group": group,
                 "events": events, "last": last, "receipt": integration or (receipts.get(last["id"]) if last else None),
                 "errors": errors, "can_respond": self.enabled and not historical and not errors and not unit["blocked"],
+                "can_deliver": bool(last) and self.enabled and not historical and not errors and not delivery_block,
+                "delivery_block": delivery_block, "conflict": bool(self.conflict),
                 "response_type": "queue", "requires_confirmation": True}
 
     def save(self, request):

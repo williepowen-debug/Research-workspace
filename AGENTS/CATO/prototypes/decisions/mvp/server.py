@@ -74,6 +74,8 @@ def make_server(store, port=0):
             except (ValueError, TypeError) as error:
                 return self.send(409, {"error": str(error)})
             except Exception as error:
+                if self.path == "/api/deliver":
+                    return self.send(503, {"error": f"Response remains saved; delivery is unconfirmed ({type(error).__name__}). Sync and retry the saved response."})
                 return self.send(503, {"error": f"Save not confirmed ({type(error).__name__}); keep your draft and retry the same response."})
 
     return ThreadingHTTPServer(("127.0.0.1", port), Handler)

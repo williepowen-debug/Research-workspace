@@ -5,9 +5,10 @@ import json
 from pathlib import Path
 import re
 import subprocess
+import tempfile
 
-from pilot_files import RESPONSES, encoded, identifier, validate_event
-from queue_store import REPLIES, validate_reply
+from pilot_files import RESPONSES, chain, encoded, identifier, read_receipts, strict_json, validate_event
+from queue_store import REPLIES, check_current_snapshot, validate_reply
 
 
 def event_path(event):
@@ -64,6 +65,41 @@ def sync(repo):
                 "origin": repo.git("rev-parse", "origin/master").strip()}
 
 
+def check_queue_delivery(repo, event):
+    if event["kind"] != "decisions-queue-response/1":
+        return
+    wq = event["display"]["record"]["wq_id"]
+    events = {event["id"]: event}
+    for ref in ("HEAD", "origin/master"):
+        for path in repo.git("ls-tree", "-r", "--name-only", ref, "--", REPLIES).splitlines():
+            saved = strict_json(repo.read(path, ref, prefix=REPLIES))
+            if saved.get("display", {}).get("record", {}).get("wq_id") != wq:
+                continue
+            validate_reply(repo, saved, wq)
+            if saved["id"] in events and events[saved["id"]] != saved:
+                raise ValueError("Conflicting immutable response; delivery refused")
+            events[saved["id"]] = saved
+    for saved in events.values():
+        for ref in ("HEAD", "origin/master"):
+            if any(r["state"] == "integrated" for r in read_receipts(repo, saved, commit=ref)):
+                raise ValueError("PROME already recorded an answer to this item; no further answer can be delivered")
+    ordered = chain(list(events.values()), "id", lambda e: e["request"]["supersedes"])
+    if ordered[-1]["id"] != event["id"]:
+        raise ValueError("Only the latest saved response can be delivered; review its replacement")
+    check_current_snapshot(repo, event["display"])
+
+
+def run_advisory(repo, command, label):
+    try:
+        result = subprocess.run(command, cwd=repo.root, capture_output=True, text=True, timeout=30)
+    except (OSError, subprocess.SubprocessError) as error:
+        raise ValueError(f"Response saved; not delivered: {label} could not run ({type(error).__name__})") from error
+    if result.returncode not in ({0, 1} if label == "Weekday check" else {0}):
+        raise ValueError(f"Response saved; not delivered: {label} failed (exit {result.returncode}). "
+                         + (result.stdout + result.stderr)[-1800:])
+    return {"check": label, "exit": result.returncode, "output": result.stdout + result.stderr}
+
+
 def deliver(repo, event, guard=None):
     """Explicit button only, after acceptance. Exact immutable response plus one inbox pointer."""
     validate(repo, event)
@@ -85,16 +121,17 @@ def deliver(repo, event, guard=None):
     with locked(repo):
         if guard:
             guard()
+        try:
+            repo.git("fetch", "origin")
+        except subprocess.CalledProcessError as error:
+            raise ValueError("Response saved; not delivered: latest published terms could not be fetched") from error
+        check_queue_delivery(repo, event)
         if repo.path(processed).exists():
             packet = processed
         target = repo.path(packet, "PROME/inbox")
         if target.exists():
             if target.read_text() != text:
                 raise ValueError("Existing delivery packet differs; owner reconciliation required")
-        else:
-            target.parent.mkdir(parents=True, exist_ok=True)
-            with target.open("x") as out:
-                out.write(text)
         paths = [path, packet]
         def exact_working_files():
             if repo.git("branch", "--show-current").strip() != "master":
@@ -104,14 +141,24 @@ def deliver(repo, event, guard=None):
                     raise ValueError("Delivery file changed during Send; preserved for reconciliation")
             if guard:
                 guard()
-        checks = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md", packet]
+            check_queue_delivery(repo, event)
+        checks = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md"]
         for name in checks:
             with repo.path(name).open("rb") as stream:
                 stream.read(1)
-        subprocess.run(["python3", "scripts/claim_check.py", "--check", "weekday", *checks],
-                       cwd=repo.root, check=True, capture_output=True, text=True, timeout=30)
-        subprocess.run(["bash", "scripts/orphan_check.sh", "CATO"], cwd=repo.root,
-                       check=True, capture_output=True, text=True, timeout=30)
+        # Check the exact candidate before creating an inbox artifact. rc 1 is
+        # advisory; rc 2 or failure to execute is unassessed, never a pass.
+        with tempfile.TemporaryDirectory(prefix="decisions-packet-") as temp:
+            candidate = Path(temp) / Path(packet).name
+            candidate.write_text(text)
+            results = [run_advisory(repo, ["python3", "scripts/claim_check.py", "--check", "weekday",
+                                          *checks, str(candidate)], "Weekday check"),
+                       run_advisory(repo, ["bash", "scripts/orphan_check.sh", "CATO"], "Orphan advisory")]
+        check_queue_delivery(repo, event)
+        if not target.exists():
+            target.parent.mkdir(parents=True, exist_ok=True)
+            with target.open("x") as out:
+                out.write(text)
         # A pathspec commit preserves unrelated staged work. No directory staging.
         exact_working_files()
         repo.git("add", "--", *paths)
@@ -132,6 +179,9 @@ def deliver(repo, event, guard=None):
         repo.git("merge-base", "--is-ancestor", commit, "origin/master")
         if repo.read(path, "origin/master") != payload or repo.read(packet, "origin/master") != text:
             raise ValueError("Published response does not match; delivery unconfirmed")
-        return {"message": "Delivered to PROME's inbox. Awaiting its receipt and matching chat confirmation.",
+        advice = "\n\n".join(r["check"] + ":\n" + r["output"] for r in results if r["exit"] == 1)
+        return {"message": "Delivered to PROME's inbox. Awaiting its receipt and matching chat confirmation."
+                           + ("\nAdvisory findings (delivery completed):\n" + advice if advice else ""),
                 "commit": commit, "packet": packet,
+                "checks": results,
                 "receipt": output.stdout[-2500:]}

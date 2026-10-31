@@ -114,6 +114,8 @@ class Desk:
                     card = self.queue_store(wq, enabled and not errors).display()
                     if card["last"]:
                         card["delivery"] = delivery.delivery_state(self.repo, card["last"])
+                    for e in card["events"]:
+                        card.setdefault("event_delivery", {})[e["id"]] = delivery.delivery_state(self.repo, e)
                     cards.append(card)
                 except (ValueError, OSError, subprocess.CalledProcessError) as error:
                     errors.append("WQ-" + wq + ": " + str(error))
@@ -177,9 +179,12 @@ class Desk:
                 state = self.display()
                 if not state["can_deliver"]:
                     raise ValueError("Delivery is unavailable until final acceptance or reconciliation")
-                event = next((c["last"] for c in state["cards"] if c.get("last") and c["last"]["id"] == eid), None)
-                if event is None:
+                card = next((c for c in state["cards"] if c.get("last") and c["last"]["id"] == eid), None)
+                if card is None:
                     raise ValueError("Only the latest saved response can be delivered; review its replacement")
+                if not card.get("can_deliver"):
+                    raise ValueError(card.get("delivery_block") or "This item needs reconciliation before delivery")
+                event = card["last"]
                 def guard():
                     if not self.permissions()[0]:
                         raise ValueError("Acceptance or application changed during delivery; reopen Decisions")
