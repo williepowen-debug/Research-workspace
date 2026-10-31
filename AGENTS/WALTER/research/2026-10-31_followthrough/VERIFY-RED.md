@@ -1,3 +1,5 @@
+> **Correction 2026-10-31T19:57:22Z:** FT08's governing basis is published Table A MoM under RED S50, not index levels. July 0.2%, August 0.3%, September 0.3% independently verified at BLS; Decimal compound 3.247216% → 3.2% reproduces the existing October 14 fire. The index-only verification gap below is withdrawn. No new fire/grade. Full correction: `AGENTS/WALTER/research/2026-10-31_boot-repair/VERIFY-OTHER-GAPS.md`.
+
 # RED, Cushing and oil-boundary verification — October 31, 2026
 
 As of 2026-10-31T17:38:48Z. WALTER bounded verification helper `/root/verify_red_monitoring`, OpenAI/Codex; exact model ID not exposed. Root resolved to `/home/willi/Research-workspace`. Root CLAUDE/AGENTS/USER and inherited WALTER local instructions, THRESHOLD_SCAN procedure, boundary overlay, RED scan registry and WALTER fire-only ledger consulted. No owner files, weights, grades or fire ledger edited; no dispatch or publication claimed. Parent performs routing and closeout.

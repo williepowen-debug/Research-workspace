@@ -1,0 +1,47 @@
+# Bounded boot-gap verification — 2026-10-31
+
+Owner-first verification by WALTER helper. Actual runtime: Codex/OpenAI; shell and web reads available. Root/local instruction and runtime references checked. No owner edits, desk launch, dispatch, registration, subscription, collector, or canonical regrade. Research cut: October 31; source dates are specified below. This is evidence for the parent repair receipt, not a clean-board verdict.
+
+## RED FT08 — repair the WALTER basis description; arithmetic is verified
+
+**Result: the claimed missing exact-index regrade is not the governing verification gap.** `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv`, RED-FT-08 `state_detail`, contains the October 1 S50 pre-data ruling: published Table A one-decimal MoM values govern; the index-level compound is a cross-check only. This expressly resolves the older operative paragraph demanding index levels. Decimal arithmetic remains binding. The October 14 S52 owner grade is FIRED; its current fire keeps the already executed +3 action. WALTER must not execute a new fire or change that grade.
+
+Fresh primary read: [BLS September CPI release, October 14](https://www.bls.gov/news.release/archives/cpi_10142026.htm), Table A, CPI-U all items less food and energy, seasonally adjusted: July **0.2%**, August **0.3%**, September **0.3%**. Exact Decimal calculation `(1.002 × 1.003 × 1.003)^4 − 1` gives **3.247216%**, or **3.2%** on the registered one-decimal grid, meeting **≥3.0%**. This independently verifies the source inputs and reproduces the owner's arithmetic. See `FT08-ARITHMETIC.json` beside this report.
+
+Owner-source cross-check: `AGENTS/RED/reports/2026-10-14_S52_FT08_fire_and_CPI_grade.md`, June 336.065 and September 338.896 imply **3.4124%** annualized; these index values were read from the owner report, not independently re-fetched here. Both bases agree. Do not turn this distinction into an assertion that an index cross-check was freshly source-verified. The canonical row also records retirement of the older 0.4% confirmation note; do not revive it from historical prose.
+
+**Concrete repair available:** correct `2026-10-31_evening-boot/THRESHOLD-SCAN.md` and `2026-10-31_followthrough/VERIFY-RED.md` through the parent's additive repair receipt: Table A is governing, not merely a rounded cross-check. The manual/unmapped machine row remains intentional; today's evidence closes the arithmetic/input verification limitation for the latest published release, without creating a continuous FRED mapping.
+
+## Worldscale boundary 5 — inactive instrument gap, not a failed pull
+
+`design/ROUTING_OVERLAYS.md` boundary 5 is **VLCC Worldscale ≥2× trailing 30-day median, sustained ≥3 sessions**. It explicitly says NO INSTRUMENT, never not-met; the kit never had a Worldscale feed, the older WS200 line was retired July 31, and reinstatement requires **new registration with base rates**. BWET is expressly disallowed as a substitute.
+
+The primary [Baltic tanker-services page](https://www.balticexchange.com/en/data-services/market-information0/tankers-services.html) identifies route-specific assessments such as TD3C (270,000 tonnes, Middle East Gulf–China) and the composite BDTI. It does not furnish the matching current daily Worldscale history needed here. No registered specific route plus usable 30-day daily WS history and three-session comparison was recovered in this bounded check. A composite tanker index, a dollar-per-tonne freight index, an isolated fixture, and a futures ETF do not close this measurement requirement.
+
+**Repair available:** identify this accurately as an acknowledged uninstrumented/retired lane in boot coverage. Current firing cannot be assessed. Finding a source alone would not authorize reinstatement; BRENT/Will would still need the new route/basis registration already required by the overlay.
+
+## HANS T12 — known non-live gap; substitute is explicitly shelved
+
+`AGENTS/HANS/registry/THRESHOLDS.tsv`, HANS-T-12: EURUSD 3m cross-currency basis **<−50 bp**, daily, UNINSTRUMENTED, registered as a known gap rather than a live trigger. Last historical −12 bp is not a current observation. `AGENTS/LIQUID/analysis/2026-10-01_eurusd-basis-instrument.md` documents unsuccessful existing public-source checks and rejects asynchronously derived FX-futures estimates as too noisy.
+
+Later authority supersedes HANS STATUS's pending-letter language: `PROME/proposals/2026-10-29_wq534-535-RULED.md`, WQ-534, and `AGENTS/HANS/inbox/2026-10-29_from-LIQUID_eu-energy-liquidity-read-none-swapline-shelved.md` say the swapline tool/letter is **WITHHELD with no further read**, reopening only for a live European dollar-funding event. Gas prices alone do not satisfy that condition. No swapline tool was run here. Usage would not itself measure basis in any case.
+
+A source lead exists: [CME XEURBI](https://www.cmegroup.com/market-data/cme-group-benchmark-administration/eur-usd-cross-currency-basis-index.html) uses synchronized 4pm London Euro FX, SOFR and ESTR futures inputs. Its [methodology](https://www.cmegroup.com/market-data/files/cme-eur-usd-cross-currency-basis-index-methodology.pdf) selects quarterly IMM contracts, with the basis expressed on ESTR; this is not automatically a constant spot-starting three-month OTC quote. The public page supplied no dated current value to the browser extraction. A linked public historical CSV was tested separately; see the addendum below. CME also advertises API delivery, but account/access entitlement was not tested or obtained. **Do not apply −50 to XEURBI without owner basis adjudication.** This lead does not override the swapline shelving ruling or silently activate T12.
+
+## CREED — latest owner evidence narrows, but does not close, qualitative coverage
+
+Sources: `AGENTS/CREED/STATUS.md` (October 30), `registry/THRESHOLDS.tsv`, and the October 28 owner reports `2026-10-28_GATE_CENSUS_AND_FORCED_SALE.md`, `2026-10-28_DATA_REFRESH_MATURITY_OFFICE_CPPI.md`, and `2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md` including its October 30 BXMT addendum. No CREED launch or independent full census was performed.
+
+| Row | Latest supported evidence and exact remaining limitation |
+|---|---|
+| T04: CMBS redefault / second modifications | Still qualitative without a numeric band or CMBS rate series. The October 22 adopted FDIC bank nonfarm-nonresidential modification aggregate is a different perimeter, published June/December. It cannot fill this CMBS gap. |
+| T06: forced sales >30% below basis, cluster in performing collateral | October 28 census found one occupied property sale (100 Summer St, Boston) and one occupied note sale (700 Sixth NW, DC), both secondary. Boston's default/self-bid and the property-versus-note distinction remain; occupied does not by itself establish performing collateral. No primary-read qualifying cluster is established. |
+| T06b: ≥1 major fund gates | Existing owner fire remains count **1**, SREIT/Starwood, after a positive-controlled **27-vehicle** October 28 census. RREEF is below the $1bn size rule; CFIT proration at its stated limit is not a gate; Trez evidence was 2025/Canadian. This is a dated, bounded census, not complete current market surveillance; private ODCE queues and unobserved redemption fills remain coverage limits. Existing fire is not new. |
+| T07: REIT selloff AND direct tenant-demand impairment | Fresh primary [CBRE Q3 office report, October 23](https://www.cbre.com/insights/figures/q3-2026-us-office-market-report) confirms vacancy **18.2%, down 10 bp q/q**, and **+4.9m sq ft** absorption, tenth consecutive positive quarter. That supports the owner evidence refresh but does not establish the two-leg tenant-impairment conjunction or an exhaustive tenant check. |
+| T08b: multi-name cuts AND realized erosion across cohort | October 30 addendum updates coverage to **5/11 reporters** and cut/liquidating count **5/11**; the October 28 registry prose still says 4/11. BXMT dividend $0.47→$0.30; GAAP BVPS $19.31→$17.06 (−11.7%). Three of five reporters have GAAP declines, but only BXMT exceeds 3%; its decline is mainly reserves/HFS marks, not realized charge-offs. BRSP rises on GAAP and falls on undepreciated basis; ARI liquidation distributions are not erosion. Owner explicitly did not regrade T08b. NREF November 5 (secondary date), STWD/ACRE November 6, RC/GPMT undated remain pending. |
+
+**Repair available:** parent receipt should use the newer October 30 **5/11** owner evidence, explicitly preserving the stale registry discrepancy and pending cohort release calendar. T06b's existing fire is supported by an October 28 bounded census. None of T04/T06/T07/T08b becomes a freshly closed or fired qualitative trigger from this helper. Remaining limitations require owner evidence/judgment or future releases, not another boot rerun.
+
+## CME historical-file access result
+
+The official XEURBI page links [this historical CSV](https://www.cmegroup.com/reports/cme-xccy-basis-historical-data.csv). The browser reported unsupported CSV content type; a bounded Python HTTPS fetch timed out after 25 seconds, and one curl retry returned HTTP/2 stream INTERNAL_ERROR. No quote or history was obtained. This establishes an unresolved access attempt, **not** a claim that the file is unavailable or requires payment. The public historical-file lead is more specific than a blanket “no public basis source exists”; it still needs retrieval and owner instrument adjudication before any T12 use.

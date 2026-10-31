@@ -1,0 +1,10 @@
+# Manual check disposition — 2026-10-31T19:59:07Z
+
+- Receipt final PASS after preserving the existing required manual-review scope token and removing a duplicated volatile delivery claim from STATUS. The initial receipt UNKNOWN is retained in the initial runner evidence; it is superseded by receipt-final.txt, not silently called a pass.
+- Read-cap final PASS on its measured perimeter; local MEMORY 99 lines. No owned rotation trigger. Central READS remains UNKNOWN pending PROME transcription; current-byte basis PASS 29 is separate.
+- Existing correction classifier selftest: 68/68 PASS. No code change or new checker. Archive conservation, version references and weekday checks passed in the full runner; glued-date flag was inspected and corrected (October30 → October 30), then passed.
+- Three doctor MED findings unchanged: VULCAN completed design with PROME-deferred deployment; old CATO ACTION has substantive work without exact receipt and no routine wake; October 27 CARL block-list YAML is valid but misparsed. No HIGH. No new finding among the two current cards.
+- Ledger nudge accounted for: two real route rows, five handoff rows, closed two-item batch, 13 provenance-backed delivered updates. No fire/exit/commission. New untracked handoffs are pending commit/publication, not historic orphans. CSV review restored unrelated historical quoting; only 13 delivered cells plus five new rows remain changed.
+- Both helpers returned completed evidence and made no owner-state/grade edits. Parent checked decisive primary inputs and existing owner/ruling scope. No domain desk launched or cross-session message sent.
+- Publication is deferred under WALTER charter 16: PRIORITY/administrative work requires coordinated publication, and PROME foreign work was observed during closeout. Existing 67 delivered copies remain proven; five new copies pending.
+- Carried source-search limits and approvals preserved; prior LAST_COMPLETION/STATUS/MEMORY/REGISTRY before-images retained. Full narrative closeout completed, not comprehensive market clearance.

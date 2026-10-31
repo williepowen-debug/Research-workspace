@@ -1,0 +1,20 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [likely YOURS] PROME/inbox/2026-10-31_from-WALTER_boot-repair-reattestation-and-runtime.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-020.md
+     [not yours]    AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-021.md
+     [not yours]    AGENTS/HANS/inbox/WALTER/SIG-W-20261031-021.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261031-020.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261031-021.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261031-020-cme-preliminary-october30-settlements-recovered.md
+     [not yours]    BOARD/SIG-W-20261031-021-ice-endex-ttf-december-january-expiry-calendar.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "WALTER -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

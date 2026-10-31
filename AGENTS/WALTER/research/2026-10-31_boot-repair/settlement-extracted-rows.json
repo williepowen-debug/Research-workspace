@@ -1,0 +1,28 @@
+{
+  "checked_date": "2026-10-31",
+  "capture_method": "manual transcription of successful web-tool extraction; raw local downloads failed as recorded in settlement-access.json",
+  "cme": {
+    "url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf",
+    "bulletin": 210,
+    "trade_date": "2026-10-30",
+    "status": "PRELIMINARY",
+    "column": "SETT. PRICE",
+    "rows": [
+      {"product":"CL","month":"2026-12","settlement":104.12,"units":"USD/bbl","physical_page":1},
+      {"product":"CL","month":"2027-01","settlement":102.21,"units":"USD/bbl","physical_page":1},
+      {"product":"HO","month":"2026-12","settlement":4.6761,"units":"USD/gal","physical_page":1},
+      {"product":"HO","month":"2027-01","settlement":4.5818,"units":"USD/gal","physical_page":1},
+      {"product":"RB","month":"2026-12","settlement":3.1565,"units":"USD/gal","physical_page":2},
+      {"product":"RB","month":"2027-01","settlement":3.0976,"units":"USD/gal","physical_page":2},
+      {"product":"NYMEX BZ LAST DAY, not ICE direct","month":"2026-12","settlement":117.64,"units":"USD/bbl","physical_page":3},
+      {"product":"NYMEX BZ LAST DAY, not ICE direct","month":"2027-01","settlement":113.43,"units":"USD/bbl","physical_page":3}
+    ]
+  },
+  "ice_endex_ttf_expiry": {
+    "url":"https://www.ice.com/products/27996665/Dutch-TTF-Natural-Gas-Futures/expiry",
+    "rows":[
+      {"month":"2026-12","last_trade_date":"2026-11-27","final_settlement_date":"2026-11-30"},
+      {"month":"2027-01","last_trade_date":"2026-12-30","final_settlement_date":"2026-12-31"}
+    ]
+  }
+}

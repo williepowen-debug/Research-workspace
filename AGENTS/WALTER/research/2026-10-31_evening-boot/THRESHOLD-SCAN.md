@@ -1,3 +1,5 @@
+> **Correction 2026-10-31T19:57:22Z:** FT08's governing basis is published Table A MoM under RED S50, not index levels. July 0.2%, August 0.3%, September 0.3% independently verified at BLS; Decimal compound 3.247216% → 3.2% reproduces the existing October 14 fire. The index-only verification gap below is withdrawn. No new fire/grade. Full correction: `AGENTS/WALTER/research/2026-10-31_boot-repair/VERIFY-OTHER-GAPS.md`.
+
 # October 31 evening boot — threshold evidence
 
 Pulls: 19:16:52Z FRED/ALFRED/EIA/Cboe and futures probes; 19:18:54Z matched funding, banks, FX, TTF and AGSI. These are retrieval times, not observation or first-publication times. No new completed fire or exit established. **PARTIAL coverage**, not market clearance. Saturday adds no sustain session.

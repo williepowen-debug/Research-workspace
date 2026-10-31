@@ -1,0 +1,23 @@
+{
+  "verified_at_date": "2026-10-31",
+  "primary_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+  "release_date": "2026-10-14",
+  "series": "CPI-U all items less food and energy, seasonally adjusted, Table A published 1dp MoM",
+  "months": [
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "rates_pct": [
+    "0.2",
+    "0.3",
+    "0.3"
+  ],
+  "governing_annualized_pct": "3.247216070202248617993734841799297600",
+  "governing_rounded_1dp": "3.2",
+  "crosscheck_index_source": "RED S52 report values; not independently re-fetched in this helper",
+  "crosscheck_june_index": "336.065",
+  "crosscheck_september_index": "338.896",
+  "crosscheck_annualized_pct": "3.412403778822040419923980521444907178900",
+  "scope": "Arithmetic verification only; RED retains owner grade. S50 pre-data ruling makes published Table A MoM governing."
+}

@@ -1,5 +1,10 @@
 ## 2026-10-31T19:26:30Z — LIGHT closeout — full deferred; Will-launched boot ACTIVE
 
+
+## FULL CLOSEOUT — 2026-10-31T19:57:22Z — boot repair
+
+Will requested fixes to partial-boot gaps. Reviewed seven changed bases; all 29 hashes match, exact attestation packeted for PROME. Corrected FT08 false limitation using owner's Table A ruling and primary inputs. Local Codex/Claude visibility recovered; positive observations only, global absence UNKNOWN. CME preliminary settlements and TTF calendar recovered: cards 020–021, five handoffs, BM-20261031-06 closed 2/2; two helpers. Prior 13 copies reconciled, 67/72 daily delivered. No new grade, trade, checker/feed or domain launch. Owner headers unchanged; REGISTRY before NETWORK, MEMORY updated, full deferral cleared. Current obligations: LAST_COMPLETION; evidence: research/2026-10-31_boot-repair/REPAIR-RECEIPT.md. Spec changes: none.
+
 27 input records closed in BM-20261031-05; cards015–019 and13 required handoffs written. Three Rule9 reports; fresh redundant threshold pull with no new completed fire/exit, AGSI gas-day10/30 gap−15.086pp in existing fire. Other43 owner-header candidates unchanged; self mirror and affected state refreshed. Prior full narrative/MEMORY review retained; one full-deferred breadcrumb. Publication and duty details in LAST_COMPLETION.md; no unattended work.
 
 ## 2026-10-31T19:14:40Z — FULL session CLOSED on Will request

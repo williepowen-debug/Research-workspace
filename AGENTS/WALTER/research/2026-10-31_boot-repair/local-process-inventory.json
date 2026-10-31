@@ -1,0 +1,102 @@
+{
+  "observed_at": "2026-10-31T19:53:32.375527+00:00",
+  "host": "WilliePOwen",
+  "processes": [
+    {
+      "runtime": "claude",
+      "identity": {
+        "pid": 630,
+        "start_ticks": "43316",
+        "state": "S",
+        "boot_id": "e6a9bca5-2fee-4195-bf96-41db1e72288d",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi/Research-workspace/PROME",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 1768,
+        "start_ticks": "57267",
+        "state": "S",
+        "boot_id": "e6a9bca5-2fee-4195-bf96-41db1e72288d",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 1907,
+        "start_ticks": "57428",
+        "state": "S",
+        "boot_id": "e6a9bca5-2fee-4195-bf96-41db1e72288d",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 2026,
+        "start_ticks": "57489",
+        "state": "S",
+        "boot_id": "e6a9bca5-2fee-4195-bf96-41db1e72288d",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi/Research-workspace",
+      "turn_status": "UNKNOWN"
+    },
+    {
+      "runtime": "codex",
+      "identity": {
+        "pid": 397664,
+        "start_ticks": "2204741",
+        "state": "S",
+        "boot_id": "e6a9bca5-2fee-4195-bf96-41db1e72288d",
+        "pid_namespace": "pid:[4026532221]"
+      },
+      "cwd": "/home/willi/Research-workspace/AGENTS/WALTER",
+      "turn_status": "UNKNOWN"
+    }
+  ],
+  "coverage": "Visible PID namespace only; turn activity and native helpers UNKNOWN",
+  "codex": {
+    "state": "UNKNOWN",
+    "reason": "No explicit app-server endpoint supplied"
+  },
+  "pid1": "systemd",
+  "visible_memory": {
+    "MemTotal": "6064796 kB",
+    "MemAvailable": "4331100 kB",
+    "SwapTotal": "4194304 kB",
+    "SwapFree": "3769372 kB"
+  },
+  "claude": [
+    {
+      "id": "0abdc7bb",
+      "sessionId": "0abdc7bb-275e-4d81-83e6-c179f400df75",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace",
+      "kind": "background",
+      "pid": null,
+      "state": "blocked",
+      "status": null,
+      "waitingFor": null
+    },
+    {
+      "id": null,
+      "sessionId": "9df9d657-c7ea-4d69-a836-9a7e7d21c3ee",
+      "parentThreadId": null,
+      "cwd": "/home/willi/Research-workspace/PROME",
+      "kind": "interactive",
+      "pid": 630,
+      "state": null,
+      "status": "idle",
+      "waitingFor": null
+    }
+  ]
+}

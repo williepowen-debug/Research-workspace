@@ -1,0 +1,79 @@
+SELFTEST corrections_boot_check.py — header validation is row-count-independent:
+CORRECTIONS-CHECK 2 CANNOT-EVALUATE: register header missing required column(s) ['correction_id', 'date', 'corrector', 'targets', 'pointer', 'date_cap', 'status'] at /tmp/tmpowuccc93/reg.tsv — parse is by HEADER NAME
+  PASS  capable: WRONG header, NO rows -> 2 (the defect Codex demonstrated): rc=2 (want 2)
+CORRECTIONS-CHECK 2 CANNOT-EVALUATE: register has no header at /tmp/tmpzloda0cg/reg.tsv — an empty/headerless file cannot be validated; parse is by HEADER NAME
+  PASS  capable: NO header at all (empty file) -> 2: rc=2 (want 2)
+CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for DAEDALUS (register 0 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 0) — PASS covers the register at /tmp/tmpy1vszncz/reg.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)
+  PASS  clean:   CORRECT header, NO rows -> 0 (valid empty register): rc=0 (want 0)
+CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for DAEDALUS (register 0 row(s), 0 ALL-warn, 0 ALL-row(s) past cap unreceipted = broadcast expired, not an obligation; receipts on file: 0) — PASS covers the register at /tmp/tmpto9mj5wx/reg.tsv and this desk's receipts file, nothing else (it does not prove a receipt's action was correct or that the correction was applied)
+  PASS  clean:   '#'-banner + CORRECT header, NO rows -> 0: rc=0 (want 0)
+CORRECTIONS-CHECK 2 CANNOT-EVALUATE: register header missing required column(s) ['correction_id', 'date', 'corrector', 'targets', 'pointer', 'date_cap', 'status'] at /tmp/tmpkpq5oj6i/reg.tsv — parse is by HEADER NAME
+  PASS  regress: WRONG header WITH a data row -> still 2 (pre-existing path holds): rc=2 (want 2)
+SELFTEST WQ-254 D4(a) — a passed cap never clears a NAMED target's block:
+  PASS  capable: DEAD-AT-CAP NAMED row, unreceipted -> 1 (SAM/-0826-02, the live instance): rc=1 (want 1)
+  PASS  clean:   same DEAD-AT-CAP row, receipted NO-OP -> 0: rc=0 (want 0)
+  PASS  clean:   same DEAD-AT-CAP row, receipted CONTESTED -> 0 (a receipt of ANY action): rc=0 (want 0)
+  PASS  capable: cap-passed LIVE NAMED row, unreceipted -> 1 (pre-prune state; was rc 0 + INFO): rc=1 (want 1)
+  PASS  capable: DEAD-AT-CAP NAMED row with NO cap, unreceipted -> 1 (status alone never discharges): rc=1 (want 1)
+  PASS  clean:   ALL-row past cap, unreceipted -> 0, no WARN (broadcast expired): rc=0 (want 0)
+  PASS  regress: ALL-row cap NOT passed, unreceipted -> 0 WITH WARN (warn-never-block holds): rc=0 (want 0)
+  PASS  clean:   multi-target cap-passed row, THIS desk receipted -> 0 (HAWK/-0828-01, NO-OP 9/8): rc=0 (want 0)
+  PASS  capable: same multi-target row, OTHER target unreceipted -> 1 (receipts are per-desk): rc=1 (want 1)
+  PASS  clean:   DEAD-AT-CAP row naming SOMEONE ELSE -> 0 (HAWK is not SAM): rc=0 (want 0)
+  PASS  capable: RETIRED NAMED row, unreceipted -> 1 (WQ-286 (4): a receipt is still required): rc=1 (want 1)
+  PASS  clean:   RETIRED NAMED row, receipted by this desk -> 0: rc=0 (want 0)
+  PASS  clean:   RETIRED ALL-row, future cap -> 0 (ALL-row rules: WARN never block; pinned after the 10/02 read): rc=0 (want 0)
+  PASS  clean:   RETIRED row naming SOMEONE ELSE -> 0: rc=0 (want 0)
+  PASS  regress: LIVE NAMED row cap in future, unreceipted -> 1 labelled LIVE (pre-existing path): rc=1 (want 1)
+  PASS  mixed:   dead named + past-cap ALL + receipted live -> 1, counts split 1 NAMED · 1 ALL: rc=1 (want 1)
+SELFTEST WQ-399 — the receipt writer requires the 9/17 fields; a refusal writes nothing:
+  PASS  W1 APPLIED without --artifact -> 2, file unchanged: rc=2 (want 2)
+  PASS  W2 APPLIED without --validation-ref -> 2, unchanged: rc=2 (want 2)
+  PASS  W3 NO-OP without --scope -> 2, unchanged: rc=2 (want 2)
+  PASS  W4 DEFERRED without --review -> 2, file still absent: rc=2 (want 2)
+  PASS  W5 DEFERRED --review 2026-13-01 -> 2: rc=2 (want 2)
+  PASS  W5b DEFERRED --review soon -> 2: rc=2 (want 2)
+  PASS  W6 DEFERRED --review before today -> 2: rc=2 (want 2)
+  PASS  W7 --artifact without # -> 2: rc=2 (want 2)
+  PASS  W8 --validation-ref malformed -> 2: rc=2 (want 2)
+  PASS  W9 value with ';' -> 2: rc=2 (want 2)
+  PASS  W10 APPLIED complete -> 0, tokens in order: rc=0 (want 0)
+  PASS  W10b APPLIED, key with spaces (STATUS.md#BOTTOM LINE) -> 0: rc=0 (want 0)
+  PASS  W7b --artifact with empty key (path#) -> 2: rc=2 (want 2)
+  PASS  W11 NO-OP complete -> 0, scope first: rc=0 (want 0)
+  PASS  W12 DEFERRED complete -> 0, review first: rc=0 (want 0)
+  PASS  W13 CONTESTED with no fields -> 0 (unchanged): rc=0 (want 0)
+  PASS  W15 unknown COR-id -> 2 (no regression): rc=2 (want 2)
+  PASS  W9t tab in --scope -> 2: rc=2 (want 2)
+  PASS  W9n newline in --scope -> 2: rc=2 (want 2)
+  PASS  W9r carriage return in --artifact (CRLF paste) -> 2: rc=2 (want 2)
+  PASS  W9u U+2028 in --validation-ref -> 2: rc=2 (want 2)
+  PASS  W9x non-UTF-8 (surrogate) in --scope -> 2, no file created: rc=2 (want 2)
+  PASS  W9note CR and U+2028 in --note -> 0, replaced by spaces: rc=0 (want 0)
+  PASS  W11b NO-OP scope + artifact -> scope first: rc=0 (want 0)
+  PASS  W15b bad action -> 2: rc=2 (want 2)
+  PASS  W17 whitespace-only --scope counts as missing -> 2: rc=2 (want 2)
+  PASS  W18 --validation-ref given twice -> 2: rc=2 (want 2)
+  PASS  W19 --review on an APPLIED receipt -> 2 (stray field): rc=2 (want 2)
+  PASS  W20 --note beginning artifact= -> 2 (forged token): rc=2 (want 2)
+  PASS  W21 --review with a time suffix -> 2: rc=2 (want 2)
+SELFTEST R1-RESOLVER — explicit pointers first, corrected ∪ correcting recipients, no guessing:
+  PASS  R1a ordinary: same-day `-to-014` filename only, targets cover ⇒ 0: rc=0 (want 0)
+  PASS  R1b the 10/16 defect: `-to-014-018` + frontmatter 20261014-018 ⇒ checked against 018, not same-day 014 ⇒ 0: rc=0 (want 0)
+  PASS  R1c overlap: two explicit originals ⇒ union of both required (one missing ⇒ 1): rc=1 (want 1)
+  PASS  R1d wrong owner: a recipient on the CORRECTING signal only must be targeted ⇒ 1: rc=1 (want 1)
+  PASS  R1e missing information: explicit pointer to a signal not on BOARD ⇒ 1 BAD-POINTER, never guessed from filename: rc=1 (want 1)
+  PASS  R1f chained shorthand with no frontmatter ⇒ not checkable, never guessed ⇒ 0: rc=0 (want 0)
+  PASS  R1g explicit non-signal pointer (`EXTERNAL: claim`) ⇒ not checkable, filename NOT used ⇒ 0: rc=0 (want 0)
+  PASS  R1h malformed explicit pointer (lower-case id) ⇒ 1 BAD-POINTER, never quiet (independent read CE1): rc=1 (want 1)
+SELFTEST L875 — title marker bounded by letters:
+  PASS  SIG-W-20261029-048-binance-hot-wallet-withdrawals-paused-CYP ⇒ not a marker
+  PASS  SIG-W-20260424-006-man-group-single-client-withdrawal.md ⇒ not a marker
+  PASS  SIG-W-20261008-018-CORRECTION-to-20261004-011-iraq-vlcc.md ⇒ marker
+  PASS  SIG-W-20261008-016-CORRECTION-to-20261008-009-CPI-is-WEDNESD ⇒ marker
+  PASS  SIG-W-20261029-004-marco-corrections-mia-range-withdrawn.md ⇒ marker
+  PASS  SIG-W-20260828-016-RESOLVED-and-i-withdraw-an-unearned-vindi ⇒ marker
+  PASS  SIG-W-20261001-001-x-retraction.md ⇒ marker
+  PASS  SIG-W-20260908-001-ERRATUM-y.md ⇒ marker
+  PASS  SIG-W-20261001-002-uncorrectionable-z.md ⇒ not a marker
+SELFTEST 0 PASS: 68/68 cases

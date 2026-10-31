@@ -1,0 +1,12 @@
+[
+  {
+    "file": "cme-2026-10-30-preliminary-pg61.pdf",
+    "url": "https://www.cmegroup.com/daily_bulletin/current/Section61_Energy_Futures_Products.pdf",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "ice-endex-ttf-expiry.csv",
+    "url": "https://www.ice.com/api/productguide/spec/27996665/expiry/csv",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "path": "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md",
+    "reviewed_base_commit": "c03a6dad99cb07705dfa91eef88fdc97a144aee4",
+    "prior_sha256": "5939cc0949a0266de5325d542808afb9524ae7e23ddf6bb293690cf62c6d1c99",
+    "current_sha256": "a190e3e43fb4cb041104bee6bb3084b3dd51219fda16580dd6fea23845defba0",
+    "diff_path": "AGENTS/WALTER/research/2026-10-31_boot-repair/AGENTS__WALTER__design__BOARD_CONSUMPTION_SPEC.md.diff",
+    "diff_lines": 72
+  },
+  {
+    "path": "CLAUDE.md",
+    "reviewed_base_commit": "90ddbf85bc427874051f16b22660e8f27b5e3882",
+    "prior_sha256": "fbb9eaa7a5586de62911ad84130b1792d77a483b34897681b125f4c4a0d4325b",
+    "current_sha256": "b4998049f3a4b84e3feb426b3fa3c4dd052ccfad66a75e842069bdbd9b89e660",
+    "diff_path": "AGENTS/WALTER/research/2026-10-31_boot-repair/CLAUDE.md.diff",
+    "diff_lines": 30
+  },
+  {
+    "path": "PROME/COMPLETION_SPEC.md",
+    "reviewed_base_commit": "c5286bf6d2ed39ab9d24f1a493b84d8720fdc387",
+    "prior_sha256": "5f30f4c9396ec26a887e6e57a864dee47902d37de8e3b1fba9784d0ad7d2cac7",
+    "current_sha256": "7598fd0955e19179bb4dfd4fef1c41eef97219a77bac17b6b6cbecca82124d3e",
+    "diff_path": "AGENTS/WALTER/research/2026-10-31_boot-repair/PROME__COMPLETION_SPEC.md.diff",
+    "diff_lines": 21
+  },
+  {
+    "path": "PROME/ORCHESTRATION_PLAYBOOK.md",
+    "reviewed_base_commit": "3336dc2e3a253a87bb5a50b37fdbb2c1118eb197",
+    "prior_sha256": "de76e1cdf10035e2d96225099ff433d24a6abdbe392a9326bc824503b155392c",
+    "current_sha256": "dc3a558d9313439f3b422b1148918fbbeb2b136d11dd95a35d0621e0f7d3e02c",
+    "diff_path": "AGENTS/WALTER/research/2026-10-31_boot-repair/PROME__ORCHESTRATION_PLAYBOOK.md.diff",
+    "diff_lines": 12
+  },
+  {
+    "path": "USER.md",
+    "reviewed_base_commit": "463c3e4570b54a22d24145196e6cb5d64fb19f90",
+    "prior_sha256": "cf1ccc03a1aec9ab27d5c8bdcb99555be7d976fe18cc53798dda3ccc18f70299",
+    "current_sha256": "707b71e2be36f5b1f776b5eee55a119b8ef78e72e17373a36f97f838a8498d08",
+    "diff_path": "AGENTS/WALTER/research/2026-10-31_boot-repair/USER.md.diff",
+    "diff_lines": 14
+  },
+  {
+    "path": "scripts/corrections_boot_check.py",
+    "reviewed_base_commit": "1e997b58b85552df164377ff7e0dfc73ef8eb209",
+    "prior_sha256": "457c956964742dfb3866fc37b39ce703498ba5fc48037265b392abfed96109c0",
+    "current_sha256": "0c01347df227938c66ac72b3b5b064a9787f14587f1858aa0fa2e5b83f31bc7f",
+    "diff_path": "AGENTS/WALTER/research/2026-10-31_boot-repair/scripts__corrections_boot_check.py.diff",
+    "diff_lines": 39
+  },
+  {
+    "path": "scripts/read_cap_check.py",
+    "reviewed_base_commit": "8b1012baf0812929e9ad66582ecdd047df0514b7",
+    "prior_sha256": "88f0217a92fdb23b4a6e26f674cf7128d0c130ce02f8e978051493cec6d74db0",
+    "current_sha256": "cd834a833696802cde745ffb09a9b3c17a52f0b51876d6b79a03ec9afc669ea2",
+    "diff_path": "AGENTS/WALTER/research/2026-10-31_boot-repair/scripts__read_cap_check.py.diff",
+    "diff_lines": 30
+  }
+]

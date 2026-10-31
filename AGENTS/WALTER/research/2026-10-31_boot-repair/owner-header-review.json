@@ -1,0 +1,272 @@
+{
+  "as_of": "2026-10-31T19:54:40.680799+00:00",
+  "basis": "Match exact line counts in the prior first30 captures; 43 other-owner header blocks byte-identical. Prior trailing blank stripping must not add a spurious extra-line difference.",
+  "rows": [
+    {
+      "path": "AGENTS/AEOLUS/STATUS.md",
+      "sha256": "e20b458eba3bfe882ed9612512b652560eac527fb67b7b84947ff20243fa6a70",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/ATHENA/STATUS.md",
+      "sha256": "402c220565df07464ea17fcb0347ee15a80f15a34820ce84eab68446c68b0339",
+      "header_lines_compared": 26,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/BOND/STATUS.md",
+      "sha256": "b3b0da22d358cb0d373dc1de22691222f7efb74c3fc77b845f1ae9167114abe1",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/BRENT/STATUS.md",
+      "sha256": "cb9c62cfe11abec1c18c5a9fcfd9def0af275a150b00cb0737eb132cfc5adf05",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/BROCK/STATUS.md",
+      "sha256": "d595ddee43b86c983ee18b462d644229b3cbc1e27ccce69e248da567da037690",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/CARL/STATUS.md",
+      "sha256": "05f29464f0b24e84898ea6d48ea977e8495cd0d836dcc4904b33b0306cb64e84",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/CORAL/STATUS.md",
+      "sha256": "018732f6bcdbe5c15ba1c109b77d9b131c7325feeb5a4508fe6ade0cce638692",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/CREED/STATUS.md",
+      "sha256": "5f894396a9e86ae26b1c404bf27172222e21cb77c18f8bc72c692b4331b34ac0",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/CRUISE/STATUS.md",
+      "sha256": "696f1ed2e2bd802abd42022606565b8c97062f97de5788d89708027ae73f7f1c",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/CYPHER/STATUS.md",
+      "sha256": "2533352d6a8d14c01fd482adbd7300b49dda2486201c1bf3367b02c54a9216c4",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "sha256": "2b543ded49ba6e7cb907c6ef4edf4b7fb35b404e6096a19233f78be0605a6939",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/FALCON/STATUS.md",
+      "sha256": "6cae7e2dca3e7e4fa3542e7c6ec892b9a3ab7399e32dcf18aa972fbb15b68fdc",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/FERT/STATUS.md",
+      "sha256": "f30705b21a33b020a7c460d5c2f53f7cf9bc5fab2497f04bb0f2cc6e58dfe79f",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/FLG/STATUS.md",
+      "sha256": "aed9b5cad045c15d5825c53fa36f32bda5f41abe4c0b62364a03f67cb416d311",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/GIBBS/STATUS.md",
+      "sha256": "e126dd4e561bb0b6de9b376535f2269ade3f2a6b7fe631eaae5994bf139452e6",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/HANS/STATUS.md",
+      "sha256": "f0f277e6d4516b1dda6d1376693016e3efed3668f1a5b2b6746b06bdf9cb143f",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/HAWK/STATUS.md",
+      "sha256": "977317d4fb3bcf968f11ba1acede474d5cbce346a364137fa3d76ba77d41ba5a",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/HENRY/STATUS.md",
+      "sha256": "4a6e2e4fe432cf92688c65cc86953d054bca51883cb19545292794999fed03bd",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/HOMER/STATUS.md",
+      "sha256": "4c54f39ae47ec8bae414e933c0cd0e960770bab53580bc5f52f3195ee8e7e36d",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/ISHM/STATUS.md",
+      "sha256": "2ccfb5561428c6039de46cc4c61ce842896326436e0abc62695a43805d2a9dfc",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/LABOR/STATUS.md",
+      "sha256": "393d6c6403c66e8cc454d2a074bbb07d5e08cc490dbdef007120ec22d22f1fa6",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "sha256": "7186aaa11bc9f819b907a282b6d608a97e900e215faa4ec77f4fbbcfbecdb845",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/MARCO/STATUS.md",
+      "sha256": "fba078bfe026c644ad0659a93f8807757618d13045b006e6eb506e2a4627752c",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/MIDAS/STATUS.md",
+      "sha256": "b425dd9f8b5327683ce388fcde71ed1ee2811c2a70dfa713532ea02915d9b43e",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/NEXUS/STATUS.md",
+      "sha256": "ca243d632a5e814fe08a24d03defa60e329ed864248e6b32daf4a3de94f11acc",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/ORACLE/STATUS.md",
+      "sha256": "15ab77c5073e96c774e31e1f38a3110ba2fa06e3ff35a88c521b6cff83559b03",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/OSPREY/STATUS.md",
+      "sha256": "343ca14e0447bef7f9317e33aaa16735efc0b8f8b980b12a4ec7390b0569eba5",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/OTTO/STATUS.md",
+      "sha256": "73bc8e2064b5d156e7bc3b0ce41c806bf8de2d5c2b8b1c754c543c2a531011ea",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/OZK/STATUS.md",
+      "sha256": "b851aa5c70a1ffd433de6f084e9b284b152b9517fd079405e171ec773d80a061",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/RED/STATUS.md",
+      "sha256": "c04ffba107804b7dcdcad0ed8c0a005d7ce1493532dc540345e281e1b8041a9c",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/REGINALD/STATUS.md",
+      "sha256": "5d1a3127be73b169149aae33028e62e0ff1a16b51bef4c4f5eccdcb432f620e3",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/SAM/STATUS.md",
+      "sha256": "250cdfe24de80b71bf6c9bf0a0721d88054f937318b2622a29710cc6435751bc",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/SENTRY/STATUS.md",
+      "sha256": "1282c07adec5863c63cf32c0c35bea5eb65076510e8d9dbeab3602e6e4496f83",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/SHADE/STATUS.md",
+      "sha256": "e20c8a9ebf37da41cee92960840bdaa755c7a00e7cb0421dcc9ead32e689042a",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/TERRY/STATUS.md",
+      "sha256": "65cf67a102b287398c258e31e74e3cf41f3a6ab7dd6aad97402c5c3ad14e830c",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/VIOLET/STATUS.md",
+      "sha256": "6d86bf8ef5b09d8f6c0b72a118f4da062833f40d3769b8a267b2d6884ba5f821",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/VULCAN/STATUS.md",
+      "sha256": "b140a45c5084a5eb2097ac12d568dfab38c2d89465d9c05c8e574d8f6022bcae",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/WAL/STATUS.md",
+      "sha256": "c132e6c2a4153164fbf141bba072a3da27b45a70244f7dd71c1b00bc3ce246d3",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/WALTER/STATUS.md",
+      "sha256": "c22ae3cc4c236d792d921410947592379929f0ac3faf6841aa2a583af61791f4",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": true
+    },
+    {
+      "path": "AGENTS/WATT/STATUS.md",
+      "sha256": "1c465f3eba738091abda1a9b4fabfcda2d111f798e5f8e3a63ccdbfafd0eb9a0",
+      "header_lines_compared": 29,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/YEYOU/STATUS.md",
+      "sha256": "5d75fcd89db7fa2b9116a25e6c264aac75ee5168d9f1aa3d87f44cb08313287b",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/YURI/STATUS.md",
+      "sha256": "c7bf5c31ce196d53599671c6b6319206eaa4d595ae068e5ee9b93091d04de765",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "AGENTS/ZHAO/STATUS.md",
+      "sha256": "272fb9957ca2494541a5fc52aa0e5bd594dc0f47a8e7aab94f795f393a738feb",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    },
+    {
+      "path": "PROME/STATUS.md",
+      "sha256": "564c13aa9bd5fd64da9b9f6face4be30cdf26e5471fb4627635aff08a16f4aeb",
+      "header_lines_compared": 30,
+      "changed_from_evening_header": false
+    }
+  ],
+  "new_paths": [],
+  "missing_paths": []
+}
