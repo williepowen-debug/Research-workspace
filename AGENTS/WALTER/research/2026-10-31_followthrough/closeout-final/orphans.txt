@@ -1,0 +1,15 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    PROME/AUTONOMY.md
+     [not yours]    PROME/CLAUDE.md
+     [not yours]    PROME/proposals/2026-10-31_wq295-R2-encode-RULED.md
+     [not yours]    PROME/state/ORCH_INFLIGHT.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+     [not yours]    PROME/tools/prome_gate.py
+     [not yours]    PROME/tools/spawn_list.py
+     [not yours]    scripts/AGENT_LAUNCHER.md
+     [not yours]    scripts/agents.json
+     [not yours]    scripts/agents_gui.ps1
+     [not yours]    scripts/tests/test_agents_launcher.py
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

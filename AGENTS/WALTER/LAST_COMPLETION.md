@@ -62,12 +62,12 @@ Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C
 
 ## CLOSEOUT RECEIPT
 
-Fresh origin evidence supersedes the prior pending claims. Original 31 delivered; five new handoffs pending. Publication and recipient incorporation remain separate. Shared foreign edits prevent WALTER self-push under the existing protocol. Selected check results are scoped and cannot clear source/authentication or full-closeout gaps.
+Fresh origin evidence supersedes the prior pending claims. Original 31 delivered; five new handoffs pending. Publication and recipient incorporation remain separate. Shared foreign edits prevent WALTER self-push under the existing protocol. Receipt, read-cap, archive conservation, weekday and whitespace checks passed. Ledger nudge REVIEW was manually dispositioned: route/delivery and batch records changed; no killed input or event required an additional ledger row. Full procedure remains PARTIAL; these checks cannot clear source/authentication or full-closeout gaps.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T17:44:10Z",
+  "as_of": "2026-10-31T17:46:39Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -79,13 +79,18 @@ Fresh origin evidence supersedes the prior pending claims. Original 31 delivered
       "commit": "a30956e0d",
       "state": "published",
       "note": "Prior queue checkpoint also on origin."
+    },
+    {
+      "commit": "9c1ff7fae",
+      "state": "pending",
+      "note": "Approved delivery/monitoring follow-through, two new cards and five handoffs, source/authentication limits retained."
     }
   ],
   "delivery": {
     "signal_date": "20261031",
     "total": 36,
     "delivered": 31,
-    "note": "31 prior handoffs on origin; five new handoffs for 009/010 pending. Exact recipient use not inferred."
+    "note": "31/36 handoffs origin-proven. Exact recipient consumption not inferred."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -130,7 +135,7 @@ Fresh origin evidence supersedes the prior pending claims. Original 31 delivered
     "Tier1": "Fresh eligible observations and dated owner evidence; all source/grade limits retained.",
     "15": "Both ACTION requests checked semantically; approvals preserved; source/authentication/procedure gaps named.",
     "root.retirement": "New evidence current and unresolved sources referenced; no broad historical retirement claimed.",
-    "16": "Exact authored paths only; foreign changes excluded. New publication pending shared coordination.",
+    "16": "Exact authored paths committed 9c1ff7fae; foreign changes excluded. Five new handoffs pending coordinated publication unless later origin proof supersedes. All prior 31 reconciled.",
     "ledger-nudge": "Route/delivery ledgers refreshed in this change. No kills, new corrections, threshold fire/exit, deep-research commission or doorbell arose, so corresponding event ledgers need no invented row. Batch manifest updated. Nudge pre-commit counts are historical; this explanation discharges review, not future duties."
   }
 }

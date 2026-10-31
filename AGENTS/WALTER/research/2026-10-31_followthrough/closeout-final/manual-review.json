@@ -1,0 +1,15 @@
+{
+  "as_of": "2026-10-31T17:47:28.683958+00:00",
+  "selected_checks": {
+    "receipt": "PASS",
+    "read_cap": "PASS",
+    "archive_conservation": "PASS",
+    "weekday": "PASS",
+    "whitespace": "PASS",
+    "ledger_nudge": "REVIEW dispositioned manually"
+  },
+  "ledger_review": "Two inputs both dispatched, no kills. No new correction, threshold fire/exit, research commission or doorbell; do not invent a row to clear the check. Route/delivery and batch records updated. Commit message and LAST_COMPLETION carry explanation.",
+  "publication": "9c1ff7fae pending on fresh origin; five new handoffs remain local. Prior 31 on origin and reconciled.",
+  "temporary_cache": "RED helper cache moved outside repository after raw observations were retained. No source/body/credential cache staged.",
+  "procedure": "PARTIAL, not certified complete; X authentication and exact named source/procedure gaps remain."
+}
