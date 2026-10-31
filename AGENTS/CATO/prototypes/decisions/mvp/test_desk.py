@@ -33,7 +33,12 @@ class DeskTests(unittest.TestCase):
         self.put("scripts/claim_check.py", "raise SystemExit(0)\n")
         self.put("scripts/orphan_check.sh", "exit 0\n")
         self.put("scripts/install-git-hooks.sh", "exit 0\n")
+        self.put("scripts/account_guard.py", "raise SystemExit(0)\n")
+        for hook in ("commit-msg", "pre-commit", "pre-push"):
+            self.put("scripts/githooks/" + hook, "#!/bin/sh\nexit 0\n").chmod(0o755)
         self.put("scripts/safe-push.sh", (reader.ROOT / "scripts/safe-push.sh").read_text())
+        self.put("AGENTS/CATO/prototypes/decisions/mvp/.gitignore", "local-state/\n__pycache__/\n")
+        self.put("AGENTS/CATO/decisions/.gitignore", "/queue-responses/*.json\n/responses/*.json\n")
         self.commit()
         self.remote = Path(self.tmp.name) / "remote.git"
         subprocess.run(["git", "init", "-q", "--bare", str(self.remote)], check=True)
@@ -148,7 +153,7 @@ class DeskTests(unittest.TestCase):
         self.assertFalse(h["records"][0]["current"])
         self.assertIn("not a complete ledger", h["scope"])
 
-    def test_failed_push_leaves_exact_commit_and_retry_does_not_duplicate(self):
+    def test_failed_push_leaves_no_shared_commit_and_retry_does_not_duplicate(self):
         e = self.store.save(self.request())
         run = subprocess.run
         def fail_push(args, **kwargs):
@@ -156,15 +161,18 @@ class DeskTests(unittest.TestCase):
                 return subprocess.CompletedProcess(args, 2, "Cannot confirm", "")
             return run(args, **kwargs)
         with patch("delivery.subprocess.run", side_effect=fail_push):
-            with self.assertRaisesRegex(ValueError, "publication not confirmed"):
+            with self.assertRaisesRegex(ValueError, "publication status unknown"):
                 delivery.deliver(self.repo, e)
         before = self.git("rev-parse", "HEAD")
-        self.assertEqual(delivery.delivery_state(self.repo, e), "committed")
+        self.assertEqual(delivery.delivery_state(self.repo, e), "saved")
         delivery.deliver(self.repo, e)
-        self.assertEqual(before, self.git("rev-parse", "HEAD"))
+        self.assertNotEqual(before, self.git("rev-parse", "HEAD"))
+        sent = self.git("rev-parse", "HEAD")
+        delivery.deliver(self.repo, e)
+        self.assertEqual(sent, self.git("rev-parse", "HEAD"))
         self.assertEqual(delivery.delivery_state(self.repo, e), "delivered")
 
-    def test_changed_export_during_checks_stops_before_commit(self):
+    def test_untracked_legacy_export_cannot_replace_saved_words(self):
         e = self.store.save(self.request()); before = self.git("rev-parse", "HEAD")
         run = subprocess.run
         def change_export(args, **kwargs):
@@ -173,8 +181,9 @@ class DeskTests(unittest.TestCase):
                 self.put(delivery.event_path(e), "Changed by another writer")
             return result
         with patch("delivery.subprocess.run", side_effect=change_export):
-            with self.assertRaisesRegex(ValueError, "changed during Send"):
-                delivery.deliver(self.repo, e)
+            delivery.deliver(self.repo, e)
+        self.assertEqual(self.repo.read(delivery.event_path(e), "origin/master"), encoded(e)+"\n")
+        self.assertEqual(self.repo.path(delivery.event_path(e)).read_text(), "Changed by another writer")
         self.assertEqual(before, self.git("rev-parse", "HEAD"))
 
     def test_concurrent_transport_refuses_without_packet_mutation(self):
@@ -184,7 +193,7 @@ class DeskTests(unittest.TestCase):
                 delivery.deliver(self.repo, e)
         self.assertFalse((self.root / "PROME/inbox").exists())
 
-    def test_delivery_non_fast_forward_never_rebases_or_forces(self):
+    def test_preexisting_remote_advance_is_used_without_rebase_or_force(self):
         other = Path(self.tmp.name) / "other-push"
         subprocess.run(["git", "clone", "-q", "-b", "master", str(self.remote), str(other)], check=True)
         for key, value in [("user.name", "Fixture"), ("user.email", "fixture@example.invalid")]:
@@ -194,11 +203,10 @@ class DeskTests(unittest.TestCase):
             subprocess.run(["git", *args], cwd=other, check=True)
         remote_head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=other, text=True)
         e = self.store.save(self.request())
-        with self.assertRaisesRegex(ValueError, "publication not confirmed"):
-            delivery.deliver(self.repo, e)
-        self.assertEqual(self.git("rev-parse", "origin/master"), remote_head)
-        self.assertFalse((self.root / "owner.txt").exists())
-        self.assertEqual(delivery.delivery_state(self.repo, e), "committed")
+        delivery.deliver(self.repo, e)
+        self.assertTrue(delivery.ancestor(self.repo, remote_head.strip(), "origin/master"))
+        self.assertEqual((self.root / "owner.txt").read_text(), "Owner's remote work")
+        self.assertEqual(delivery.delivery_state(self.repo, e), "delivered")
 
     def test_desk_refuses_delivery_of_superseded_reply(self):
         desk = app.Desk(self.repo, Path(self.tmp.name) / "superseded", True)

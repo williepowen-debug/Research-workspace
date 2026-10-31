@@ -102,7 +102,7 @@ class ReviewTests(unittest.TestCase):
         run = subprocess.run
         def change(args, **kwargs):
             result=run(args,**kwargs)
-            if args[:2]==['python3','scripts/claim_check.py']:
+            if args[:3]==['python3','-I','scripts/claim_check.py']:
                 self.put('PROME/WILL_QUEUE.md',self.text.replace('Exact caveat','New scope'))
             return result
         with patch('delivery.subprocess.run',side_effect=change):

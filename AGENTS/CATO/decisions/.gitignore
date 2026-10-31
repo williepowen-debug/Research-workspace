@@ -1,0 +1,3 @@
+# Only explicit app Send force-adds selected replies in its temporary checkout.
+/queue-responses/*.json
+/responses/*.json

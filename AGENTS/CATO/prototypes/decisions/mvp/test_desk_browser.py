@@ -10,6 +10,7 @@ import threading
 from unittest.mock import patch
 
 import app
+from pilot_files import encoded
 import test_desk
 import test_desk_review
 import test_revision_delivery
@@ -41,6 +42,10 @@ HISTORY = r'''<script>(async()=>{for(let i=0;!model&&i<100;i++)await new Promise
 REPAIR_HISTORY = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));view='History';render();const c=model.cards.find(c=>c.wq_id==='901');const a=document.querySelector('[data-unit="901.queue"]');const checks=[{name:'Recorded words belong to receipt event A',pass:c?.last.request.note==='Send digests'&&c.receipt.response_id===c.last.id&&a.textContent.includes('Answer recorded by PROME')},{name:'Opposite unsent B remains visible and separately labelled',pass:a.textContent.includes('Do not send digests')&&a.textContent.includes('Other saved answers — not the answer recorded above')&&a.textContent.includes('Delivery: saved')},{name:'Closed question offers no delivery or response controls',pass:!a.querySelector('button')},{name:'Saved answer terms retained separately',pass:a.textContent.includes('Exact terms saved with this answer')}];const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);})();</script>'''
 
 REVISION_RESTORE = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));view='Follow-through';render();const c=model.cards.find(c=>c.wq_id==='901');const a=document.querySelector('[data-unit="901.queue"]');const checks=[{name:'Published replacement restored without private predecessor',pass:c?.last.request.note==='Final sent answer'&&c.events.length===1},{name:'Missing private history is explicit',pass:!!c?.history_notes.length&&a.textContent.includes('Earlier saved versions are unavailable')},{name:'No invented earlier words or owner receipt',pass:!a.textContent.includes('Private draft')&&!c.receipt},{name:'Current question remains respondable',pass:!!c?.can_respond}];const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);})();</script>'''
+
+
+PACKET_RECOVERY = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));view='Follow-through';render();let c=model.cards.find(c=>c.wq_id==='901');let a=document.querySelector('[data-unit="901.queue"]');const checks=[{name:'Published words without packet are not labelled delivered',pass:c.delivery==='published without inbox packet'&&a.textContent.includes('Delivery is incomplete')},{name:'Incomplete publication cannot offer a one-file Send',pass:!c.can_deliver&&![...a.querySelectorAll('button')].some(b=>b.textContent==='Deliver saved response')},{name:'Replacement remains available and original answer is preserved',pass:!!c.can_respond&&!!c.last&&a.textContent.includes('Save a new response version')},{name:'Confirmation remains required',pass:c.requires_confirmation===true}];const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);})();</script>'''
+
 
 
 def windows(path):
@@ -120,6 +125,19 @@ def main():
         # A fresh state reads committed events only; no private SQLite history.
         desk=app.Desk(fixture.repo,Path(fixture.tmp.name)/'restored-browser',True)
         runs['revision-restore']=run_browser(desk,REVISION_RESTORE,work,'revision-restore',1440)
+    finally:
+        fixture.doCleanups()
+    fixture = test_desk.DeskTests(methodName="test_reuses_owner_parser_and_preserves_literal_pipe_and_words")
+    fixture.setUp()
+    try:
+        e=fixture.store.save(fixture.request())
+        path=delivery.event_path(e)
+        fixture.put(path,encoded(e)+'\n')
+        fixture.git('add','-f',path); fixture.git('commit','-qm','Fixture response without packet'); fixture.git('push','-q')
+        with patch('app.accepted',return_value=(True,'')):
+            desk=app.Desk(fixture.repo,Path(fixture.tmp.name)/'packet-browser',True)
+            desk.stores['901']=fixture.store
+            runs['packet-recovery']=run_browser(desk,PACKET_RECOVERY,work,'packet-recovery',1440)
     finally:
         fixture.doCleanups()
     with tempfile.TemporaryDirectory() as tmp:

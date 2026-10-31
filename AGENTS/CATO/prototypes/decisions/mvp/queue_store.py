@@ -103,7 +103,7 @@ def validate_reply(repo, event, wq):
 
 
 def immutable_export(repo, event):
-    path = repo.path(f"{REPLIES}/{identifier(event['id'])}.json", REPLIES)
+    path = repo.path(f"AGENTS/CATO/prototypes/decisions/mvp/local-state/exports/{identifier(event['id'])}.json")
     payload = (encoded(event) + "\n").encode()
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists():
@@ -200,10 +200,10 @@ class QueueStore(Store):
 
     def restore(self):
         events = {e["id"]: e for e in self.responses()["events"]}
-        for path in self.repo.files(REPLIES):
+        for path in self.repo.git("ls-tree", "-r", "--name-only", "origin/master", "--", REPLIES).splitlines():
             if not re.fullmatch(re.escape(REPLIES) + r"/[0-9a-f]{32}\.json", path):
                 raise ValueError("Unexpected queue response path")
-            event = strict_json(self.repo.read(path, clean=True, prefix=REPLIES))
+            event = strict_json(self.repo.read(path, "origin/master", prefix=REPLIES))
             if event.get("display", {}).get("record", {}).get("wq_id") != self.wq:
                 continue
             validate_reply(self.repo, event, self.wq)

@@ -60,8 +60,8 @@ class Repo:
             raise ValueError("Expected the Git repository root")
 
     def git(self, *args):
-        return subprocess.check_output(["git", *args], cwd=self.root,
-                                       stderr=subprocess.PIPE).decode("utf-8")
+        return subprocess.check_output(["git", "--no-replace-objects", *args], cwd=self.root,
+                                       stderr=subprocess.PIPE, env=getattr(self, "git_environment", None)).decode("utf-8")
 
     def path(self, name, prefix=None):
         if not isinstance(name, str) or any(c in name for c in ("\\", ":", "\x00", "\n")):

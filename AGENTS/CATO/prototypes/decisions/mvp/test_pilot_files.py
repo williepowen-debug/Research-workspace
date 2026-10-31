@@ -485,6 +485,8 @@ class PilotFileTests(unittest.TestCase):
         reply = daily.save({"id": uuid.uuid4().hex, "display_hash": d["hash"], "unit_id": "901.queue",
                             "action": "reply", "choice_id": None, "note": "A with conditions",
                             "revisit": "", "supersedes": None})
+        # Model a delivered reply explicitly; Save now exports only to ignored local state.
+        self.put(f"AGENTS/CATO/decisions/queue-responses/{reply['id']}.json", encoded(reply)+"\n")
         self.write_receipt(self.receipt(reply)); self.commit()
         restored = self.new_store("coexist.sqlite3").display()
         self.assertFalse(restored["import_errors"])

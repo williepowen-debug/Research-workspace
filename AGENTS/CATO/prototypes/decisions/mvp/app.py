@@ -26,6 +26,8 @@ def build_hashes():
     values = {name: hashlib.sha256((HERE / name).read_bytes()).hexdigest() for name in BUILD_FILES}
     for name in ("PROME/tools/willq_view.py", "AGENTS/CATO/prototypes/decisions/comparison/render.py",
                  "scripts/safe-push.sh", "scripts/install-git-hooks.sh", "scripts/claim_check.py", "scripts/orphan_check.sh",
+                 "AGENTS/CATO/decisions/.gitignore",
+                 "AGENTS/CATO/prototypes/decisions/mvp/.gitignore",
                  "scripts/githooks/commit-msg", "scripts/githooks/pre-commit", "scripts/githooks/pre-push", "scripts/account_guard.py"):
         values[name] = hashlib.sha256((reader.ROOT / name).read_bytes()).hexdigest()
     return values
@@ -114,6 +116,9 @@ class Desk:
                     card = self.queue_store(wq, enabled and not errors).display()
                     if card["last"]:
                         card["delivery"] = delivery.delivery_state(self.repo, card["last"])
+                        if card["delivery"].startswith("published without"):
+                            card["can_deliver"] = False
+                            card["delivery_block"] = "Delivery is incomplete. Save a new response version before sending; earlier words are preserved."
                     for e in card["events"]:
                         card.setdefault("event_delivery", {})[e["id"]] = delivery.delivery_state(self.repo, e)
                     cards.append(card)

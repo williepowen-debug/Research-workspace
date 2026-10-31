@@ -84,11 +84,13 @@ class RevisionDeliveryTests(unittest.TestCase):
 
     def test_refused_commit_then_revised_answer_delivers_without_sweeping_old_stage(self):
         a=self.desk.save(self.request(note='Rejected fixture wording'))
-        hook=self.put('scripts/githooks/pre-commit','#!/bin/sh\necho "Fixture refusal" >&2\nexit 1\n')
+        hook=self.put('scripts/githooks/pre-commit','#!/bin/sh\ngit diff --cached --name-only | rg queue-responses && exit 1\nexit 0\n')
         hook.chmod(0o755)
-        with self.assertRaises(subprocess.CalledProcessError): self.send(a)
+        self.git('add','scripts/githooks/pre-commit'); self.git('commit','-qm','Fixture refusing hook')
+        with self.assertRaisesRegex(ValueError, 'commit refused'): self.send(a)
         staged=self.git('diff','--cached','--name-only').splitlines()
         hook.write_text('#!/bin/sh\nexit 0\n')
+        self.git('add','scripts/githooks/pre-commit'); self.git('commit','-qm','Fixture hook recovery')
         b=self.desk.save(self.request(supersedes=a['id'],note='Revised fixture wording'))
         self.send(b)
         self.assertEqual(self.git('diff','--cached','--name-only').splitlines(),staged)
@@ -135,7 +137,7 @@ class RevisionDeliveryTests(unittest.TestCase):
         run=subprocess.run
         def revise(args,**kwargs):
             result=run(args,**kwargs)
-            if args[:2]==['python3','scripts/claim_check.py']:
+            if args[:3]==['python3','-I','scripts/claim_check.py']:
                 self.store.save(self.request(supersedes=b['id'],note='Changed during checks'))
             return result
         with patch('delivery.subprocess.run',side_effect=revise):
