@@ -128,6 +128,11 @@ RE_PTR = re.compile(r"`([A-Za-z0-9_][A-Za-z0-9_.\-]*(?:/[A-Za-z0-9_.\-]+)+\.(?:m
 # (Will-approved 2026-07-31) ruled a mechanized STYLE screen DO-NOT-BUILD for false positives on deliberately dense
 # writing. This is not that screen: it flags only a DATE glued to the word beside it — the tokens the fleet's date
 # instruments misread — and leaves every other density choice alone (`SKEW148.86`, `cap100`, `BB194` stay silent).
+# M/D matches must be a possible calendar date (month 1–12, day 1–31): a glued COUNT such as `consumer0/4` or
+# `Score53/70` is NOT flagged (DAEDALUS review F1, 2026-10-30 — counts are outside the date carve-out). Known residue:
+# a count that is also a possible date (`Score3/4`) still flags. NOT searched (DAEDALUS F3–F5, F8): abbreviated months
+# (`Oct25` — collides with option-expiry notation), two-letter words (`by11/04`), ISO or M/D/YYYY dates glued to a word,
+# all-caps months, a month glued AFTER a word (`dueOctober5`).
 _MONTHS_FULL = "January|February|March|April|May|June|July|August|September|October|November|December"
 RE_GLUED = [
     # "October25", "post-October1", "October7–9"; NOT "October2026" (a year), NOT "Oct-16", NOT lowercase "may12"
@@ -151,6 +156,11 @@ def glued_flags(rel, n, line):
     for kind, rx in RE_GLUED:
         for m in rx.finditer(masked):
             a, b = m.group(1), m.group(2)
+            md = b if kind == "word+date" else a if kind == "date+word" else None
+            if md is not None:
+                mo, dy = (int(x) for x in md.split("/"))
+                if not (1 <= mo <= 12 and 1 <= dy <= 31):
+                    continue          # a glued COUNT, not a date (F1) — outside the carve-out
             out.append((rel, n, "glued",
                         f"“{m.group()}” is glued — write “{a} {b}”. Root CLAUDE.md § Output Canon: "
                         f"spaced words and numbers; meet a byte budget by rotating history out, "
@@ -410,6 +420,18 @@ def partition_files(files):
     return checkable, skipped
 
 
+KNOWN_CHECKS = {"weekday", "hash", "units", "pointer", "glued"}
+
+
+def parse_checks(spec):
+    checks = {c.strip() for c in spec.split(",") if c.strip()}
+    unknown = sorted(checks - KNOWN_CHECKS)
+    if unknown or not checks:
+        raise ValueError(f"unknown or empty --check name(s) {unknown or [spec]}; valid: "
+                         f"{', '.join(sorted(KNOWN_CHECKS))} — nothing was checked")
+    return checks
+
+
 def check_file(path, checks, year):
     rel = str(pathlib.Path(path))
     p = ROOT / path
@@ -542,7 +564,9 @@ GLUED_SELFTEST = [
     ("graded 10/27settled on the archive", 1),                        # date+word
     ("only qualifying post-October1 21:40 crossings", 1),             # hyphen-prefixed month
     ("October7–9 orchestration rows", 1),                             # en-dash range
-    ("Cboe9/8 SKEW148.86 breaks the run: consumer0/4", 2),            # SKEW148.86 stays silent (no date)
+    ("Cboe9/8 SKEW148.86 breaks the run: consumer0/4", 1),            # Cboe9/8 flags; consumer0/4 is a count (F1)
+    ("selftest61/61 and Score53/70 and 13/30days", 0),                 # glued COUNTS are not dates (DAEDALUS F1)
+    ("month 13 is no date: label13/05 · 12/32days", 0),                # impossible month / day stay silent
     ("encoding ACCEPTED October 14 and owner", 0),                    # spaced
     ("settled 10/27 and FRED 10/27", 0),                              # spaced
     ("as-of 9/28; as of 9/28", 0),                                    # spaced
@@ -605,7 +629,17 @@ def selftest():
     fails += not ok
     mark = "\u2713" if ok else "\u2717"
     print(f"  {mark} overlap expect ['glued', 'weekday'] got {kinds}")
-    total = len(SELFTEST) + 6 + len(GLUED_SELFTEST) + 1
+    # F2: an unknown --check name must refuse (rc 2 path), never run nothing and certify clean
+    for spec, want_ok in (("glud", False), ("weekday,glud", False), ("", False), ("weekday,glued", True)):
+        try:
+            parse_checks(spec); got_ok = True
+        except ValueError:
+            got_ok = False
+        ok = got_ok == want_ok
+        fails += not ok
+        mark = "\u2713" if ok else "\u2717"
+        print(f"  {mark} parse_checks({spec!r}) accepted={got_ok} expected={want_ok}")
+    total = len(SELFTEST) + 6 + len(GLUED_SELFTEST) + 1 + 4
     if fails:
         print(f"CLAIM-CHECK SELFTEST \u2717 {fails}/{total} case(s) FAILED \u2014 do not trust the weekday or glued check")
         return 1
@@ -627,7 +661,13 @@ def main():
     if a.selftest:
         return selftest()
 
-    checks = {c.strip() for c in a.check.split(",") if c.strip()}
+    try:
+        checks = parse_checks(a.check)
+    except ValueError as e:
+        # An unknown name used to run NOTHING and print "✓ clean" with rc 0 (DAEDALUS review F2, 2026-10-30:
+        # `--check glud` certified a dirty file). A clean line must never stand on a check that did not run.
+        print(f"CLAIM-CHECK ✗ {e}")
+        return 2
     files = a.paths or changed_files(a.staged)
     # Expand directory arguments. Without this, `claim_check.py AGENTS PROME` read the two
     # DIRECTORY names as files, failed silently on OSError, and printed
