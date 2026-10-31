@@ -1,0 +1,637 @@
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/README.md b/AGENTS/CATO/prototypes/decisions/mvp/README.md
+index b1bf98495..f310514fe 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/README.md
++++ b/AGENTS/CATO/prototypes/decisions/mvp/README.md
+@@ -93,9 +93,9 @@ To disable responses, open with `--preview` or have PROME revoke its acceptance
+ 
+ ## Review freeze and retained limits
+ 
+-`release-review.json` pins this candidate. The handoff names the exact candidate commit and portable bundle. Will authorized one independent review of this batch; no live code changes or further reviewer launches follow from author tests. Point 4 (making selected app answers authoritative without chat) is a separate proposal, not implemented.
++`release-review.json` pins this candidate. The handoff names the exact candidate commit and portable bundle. The original review returned HOLD on W-J. Will authorized this targeted repair, one focused recheck owned by PROME, and installation with matching acceptance if it passes. Will chose to retain chat confirmation for every answer (WQ-571 A). Author tests do not grant acceptance.
+ 
+-The fingerprint retains answer/receipt code, source parsing, rendering, Git publication, hook installation, hooks, account guard and draft-ignore rules. It excludes the date and orphan advisory implementations. Their commands still run on each new Send with the existing contract: weekday exits 0/1 are complete (1 reports advice), other exits fail; orphan must finish successfully and returns its output. No root-required safeguard was removed. A changed critical dependency still disables replies pending reacceptance.
++The fingerprint retains answer/receipt code, source parsing, rendering, Git publication, hook installation, hooks, account guard and draft-ignore rules. The date and orphan advisory implementations are repinned under WQ-570 because they execute with publication access. Their commands still run on each new Send with the existing contract: weekday exits 0/1 are complete (1 reports advice), other exits fail; orphan must finish successfully and returns its output. No root-required safeguard was removed. A changed critical dependency still disables replies pending reacceptance.
+ 
+ W-F/W-G, the W-A stranded-commit consequence, W-B shared staging on hook refusal, and W5 whole-scan failure on unpublished events are repaired in this candidate under author tests. Shared-HEAD rollback is never used. Legacy unpublished reply commits already on shared master are refused for explicit owner reconciliation; this candidate does not erase earlier mistakes. Publication still has a final check-to-push interval: a local change after the final check can occur after the send boundary. PROME must check latest delivered answer/current question and obtain matching chat confirmation before ruling. A remote advance refuses without leaving a candidate on shared master.
+ 
+@@ -107,7 +107,7 @@ The temporary publication checkout materializes only the selected pair, hook/pus
+ 
+ ```sh
+ # From this directory; all writes use temporary fixture repositories/stores.
+-python3 -B -m unittest test_mvp test_pilot_files test_pilot_launch test_desk test_desk_review test_revision_delivery test_batch -q
++python3 -B -m unittest test_mvp test_pilot_files test_pilot_launch test_desk test_desk_review test_revision_delivery test_batch test_focused -q
+ # From repository root; Windows Chrome and local HTTP required.
+ python3 -B AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
+ python3 -B scripts/agents_gui.py --smoke-test
+@@ -116,3 +116,11 @@ python3 -B scripts/agents_gui.py --smoke-test
+ The daily desk tests use a local bare Git remote and preserve an unrelated staged file through delivery/retry. Native browser fixtures exercise real forms at desktop/narrow widths; actual-history mode only reads the real completed pilot. `desk-validation.json` records author evidence. No fixture answer is published to the real repository.
+ 
+ The original fictional rehearsal and copy comparison remain available under their existing commands and files. Their dated evidence and the original pilot acceptance are preserved in the [continuing report](../../../runs/2026-10-30_1059_wq-decision-workflow.md). They are not the current release status.
++
++## WQ-570 focused repair
++
++One new commit must change exactly the selected response and packet paths; verify parent, commit count, paths and bytes before push and after fetch. Private publication rejects unknown executable hooks and changed pinned helpers before enabling hooks. Timeouts without fetched publication evidence are unknown, including a delayed push that subsequently lands. A busy checkout is preserved and reports exact ahead/behind state and recovery instructions. It may still require owner recovery before later desk pushes.
++
++An incomplete earlier publication cannot satisfy the literal two-changed-path contract. Its Send button is disabled: save a replacement version, then explicitly Send its new pair. The original answer remains readable. No old reply export is staged or erased by installation. PROME must reconcile pending delivered answers and staged/committed legacy exports first (W-L/W-P). Other W-H through W-Q findings remain explicitly recorded in release-review.json; this is not a broad second review.
++
++Author evidence: 123 Python checks passed in the full run; its single loopback-socket test was sandbox-blocked and passed on an isolated rerun (124 distinct checks total). Eight are targeted counterexamples. Native Chrome: 38 assertions, including replacement after partial publication. No real reply was sent.
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/app.py b/AGENTS/CATO/prototypes/decisions/mvp/app.py
+index 69472f3fb..4990d6445 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/app.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/app.py
+@@ -25,7 +25,8 @@ POWERSHELL = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"
+ def build_hashes():
+     values = {name: hashlib.sha256((HERE / name).read_bytes()).hexdigest() for name in BUILD_FILES}
+     for name in ("PROME/tools/willq_view.py", "AGENTS/CATO/prototypes/decisions/comparison/render.py",
+-                 "scripts/safe-push.sh", "scripts/install-git-hooks.sh", "AGENTS/CATO/decisions/.gitignore",
++                 "scripts/safe-push.sh", "scripts/install-git-hooks.sh", "scripts/claim_check.py", "scripts/orphan_check.sh",
++                 "AGENTS/CATO/decisions/.gitignore",
+                  "AGENTS/CATO/prototypes/decisions/mvp/.gitignore",
+                  "scripts/githooks/commit-msg", "scripts/githooks/pre-commit", "scripts/githooks/pre-push", "scripts/account_guard.py"):
+         values[name] = hashlib.sha256((reader.ROOT / name).read_bytes()).hexdigest()
+@@ -115,6 +116,9 @@ class Desk:
+                     card = self.queue_store(wq, enabled and not errors).display()
+                     if card["last"]:
+                         card["delivery"] = delivery.delivery_state(self.repo, card["last"])
++                        if card["delivery"].startswith("published without"):
++                            card["can_deliver"] = False
++                            card["delivery_block"] = "Delivery is incomplete. Save a new response version before sending; earlier words are preserved."
+                     for e in card["events"]:
+                         card.setdefault("event_delivery", {})[e["id"]] = delivery.delivery_state(self.repo, e)
+                     cards.append(card)
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/delivery.py b/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
+index d38190937..00ddcd033 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
+@@ -2,6 +2,7 @@
+ from datetime import datetime, timezone
+ import fcntl
+ import json
++import os
+ from pathlib import Path
+ import re
+ import subprocess
+@@ -49,6 +50,8 @@ def delivery_state(repo, event):
+                 return label if published_packet(repo, event, ref) else "published without inbox packet" if ref == "origin/master" else "committed without inbox packet"
+         except (ValueError, subprocess.CalledProcessError):
+             pass
++    if published_packet(repo, event):
++        return "published without response"
+     return "saved"
+ 
+ 
+@@ -151,6 +154,39 @@ def delivery_base(repo):
+     raise ValueError("Response saved; checkout histories diverge. Reconcile Git before Send; no reply committed.")
+ 
+ 
++PINNED_HOOKS = {"commit-msg", "pre-commit", "pre-push"}
++TRANSPORT_FILES = ("scripts/safe-push.sh", "scripts/install-git-hooks.sh", "scripts/account_guard.py",
++                   "scripts/claim_check.py", "scripts/orphan_check.sh",
++                   *("scripts/githooks/" + name for name in sorted(PINNED_HOOKS)))
++
++
++def check_transport_files(repo):
++    """Refuse unreviewed executable hooks before any hook-capable command."""
++    folder = repo.path("scripts/githooks")
++    if folder.exists():
++        for path in folder.iterdir():
++            if path.is_symlink() or (path.name not in PINNED_HOOKS and os.access(path, os.X_OK)):
++                raise ValueError("Unreviewed publication hook refused: " + path.name)
++    for name in TRANSPORT_FILES:
++        target = repo.path(name)
++        if not target.is_file() or target.read_bytes() != repo.read(name).encode("utf-8"):
++            raise ValueError("Publication safeguard has uncommitted or missing changes: " + name)
++
++
++def exact_pair_commit(work, base, commit, expected):
++    """One child commit of base, exactly the selected two paths and bytes."""
++    if work.git("rev-list", "--count", base + ".." + commit).strip() != "1":
++        raise ValueError("Publication is not exactly one response commit; refused")
++    if work.git("show", "-s", "--format=%P", commit).strip() != base:
++        raise ValueError("Publication has unexpected ancestry; refused")
++    changed = set(work.git("diff-tree", "--no-commit-id", "--name-only", "-r", "-z", commit).rstrip("\0").split("\0"))
++    if changed != set(expected):
++        raise ValueError("Publication must change exactly the two selected response/packet paths; refused")
++    for name, content in expected.items():
++        if work.read(name, commit) != content or work.path(name).read_text() != content:
++            raise ValueError("Publication artifacts changed; refused")
++
++
+ def publication_checkout(repo, directory, base, paths):
+     # No shared index or branch writes. Failed commits die with this private clone.
+     subprocess.run(["git", "clone", "-q", "--shared", "--no-checkout", str(repo.root), str(directory)],
+@@ -171,26 +207,35 @@ def publication_checkout(repo, directory, base, paths):
+     work.git("remote", "set-url", "--push", "origin", remote_url(True))
+     for key in ("user.name", "user.email"):
+         work.git("config", key, repo.git("config", "--get", key).strip())
++    # Validate the base's hook directory before enabling it or fetching with it.
++    check_transport_files(work)
++    for name in TRANSPORT_FILES:
++        if repo.path(name).read_bytes() != work.path(name).read_bytes():
++            raise ValueError("Publication safeguard has uncommitted or newer changes: " + name)
+     work.git("config", "core.hooksPath", "scripts/githooks")
+     work.git("fetch", "origin")
+-    # Execute exactly the committed safeguards, never silently discard dirty hooks.
+-    for name in ("scripts/safe-push.sh", "scripts/install-git-hooks.sh", "scripts/account_guard.py",
+-                 "scripts/githooks/commit-msg", "scripts/githooks/pre-commit", "scripts/githooks/pre-push"):
+-        source, candidate = repo.path(name), work.path(name)
+-        if source.exists() != candidate.exists() or (source.exists() and source.read_bytes() != candidate.read_bytes()):
+-            raise ValueError("Publication safeguard has uncommitted or newer changes: " + name)
+     return work
+ 
+ 
+ def refresh_after_publication(repo):
+-    # A clean shared tree may advance normally; active owners keep their checkout.
+-    if not repo.git("status", "--porcelain", "--untracked-files=no").strip():
++    # Never stash, reset, rebase foreign work, or move a busy shared checkout.
++    dirty = bool(repo.git("status", "--porcelain", "--untracked-files=no").strip())
++    ahead, behind = map(int, repo.git("rev-list", "--left-right", "--count", "HEAD...origin/master").split())
++    if not ahead and not behind:
++        return " Shared checkout is up to date."
++    if not dirty and not ahead:
+         try:
+             repo.git("merge", "--ff-only", "--no-overwrite-ignore", "origin/master")
+-            return ""
++            return " Shared checkout fast-forwarded to the published records."
+         except subprocess.CalledProcessError:
+             pass
+-    return " Shared checkout preserved; use Sync after current desk work is reconciled."
++    head = repo.git("rev-parse", "--short", "HEAD").strip()
++    remote = repo.git("rev-parse", "--short", "origin/master").strip()
++    ahead, behind = map(int, repo.git("rev-list", "--left-right", "--count", "HEAD...origin/master").split())
++    next_step = ("After owners save their work, use the root Git recovery procedure for the diverged histories."
++                 if ahead and behind else "After owners save their work, use Sync to load the published records.")
++    return (f" Shared checkout preserved: {head}, {ahead} ahead / {behind} behind origin/master {remote}; "
++            f"tracked work {'is' if dirty else 'is not'} pending. Other desks' pushes may wait for synchronization. " + next_step)
+ 
+ 
+ def deliver(repo, event, guard=None, local_events=None):
+@@ -205,7 +250,9 @@ def deliver(repo, event, guard=None, local_events=None):
+         def recheck():
+             if guard:
+                 guard()
++            check_transport_files(repo)
+             check_queue_delivery(repo, event, local_events)
++        recheck()
+         try:
+             repo.git("fetch", "origin")
+         except subprocess.CalledProcessError as error:
+@@ -215,6 +262,8 @@ def deliver(repo, event, guard=None, local_events=None):
+             return {"message": "Already delivered to PROME; awaiting matching chat confirmation and receipt.",
+                     "commit": repo.git("rev-parse", "origin/master").strip(),
+                     "packet": published_packet(repo, event), "checks": [], "receipt": "Exact published pair verified."}
++        if delivery_state(repo, event).startswith("published without"):
++            raise ValueError("Incomplete earlier publication. Save a new response version before Send; the original words are preserved.")
+         checks = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md"]
+         for name in checks:
+             with repo.path(name).open("rb") as stream:
+@@ -252,31 +301,40 @@ def deliver(repo, event, guard=None, local_events=None):
+                 raise ValueError("Response saved; publication commit refused. Shared index unchanged; no reply published. "
+                                  + error.stderr.decode("utf-8", errors="replace")[-1600:]) from error
+             commit = work.git("rev-parse", "HEAD").strip()
++            expected = {path: payload, packet: text}
++            exact_pair_commit(work, base, commit, expected)
+             # Fetch after commit: a refusal leaves no reachable reply on shared master.
+             repo.git("fetch", "origin")
+             recheck()
+             if not ancestor(work, repo.git("rev-parse", "origin/master").strip(), commit):
+                 raise ValueError("Response saved; origin changed during commit. Sync and retry. No shared reply commit.")
+-            for name, expected in ((path, payload), (packet, text)):
+-                if work.read(name, commit) != expected or work.path(name).read_text() != expected:
+-                    raise ValueError("Publication artifacts changed; no reply published")
++            exact_pair_commit(work, base, commit, expected)
++            check_transport_files(work)
++            uncertain = False
+             try:
+                 output = subprocess.run(["bash", "scripts/safe-push.sh"], cwd=work.root,
+                                         capture_output=True, text=True, timeout=120)
+                 detail = (output.stderr + output.stdout)[-1800:]
+-            except subprocess.SubprocessError as error:
++                uncertain = output.returncode != 1
++            except (OSError, subprocess.SubprocessError) as error:
+                 detail = type(error).__name__
+-            # A killed/ambiguous push can have succeeded. Verify before claiming failure.
++                uncertain = True
++            # A killed push may still land later. Absence now is not proof of failure.
+             try:
+                 repo.git("fetch", "origin")
+             except subprocess.CalledProcessError as error:
+                 raise ValueError("Response saved; publication status unknown. Sync before retrying or confirming in chat.") from error
+             if delivery_state(repo, event) != "delivered":
++                if uncertain:
++                    raise ValueError("Response saved; publication status unknown. Sync before retrying or confirming in chat. " + detail)
+                 raise ValueError("Response saved; exact response and inbox packet are not published. "
+                                  "No reply commit was left on shared master. Retry after reconciliation. " + detail)
++            exact_pair_commit(work, base, work.git("rev-parse", "HEAD").strip(), expected)
++            if not ancestor(repo, commit, "origin/master"):
++                raise ValueError("Publication history differs from the verified commit; reconcile before confirming in chat")
+             tail = refresh_after_publication(repo)
+             advice = "\n\n".join(r["check"] + ":\n" + r["output"] for r in results if r["exit"] == 1)
+             return {"message": "Delivered to PROME's inbox. Awaiting matching chat confirmation and receipt." + tail
+                                + ("\nAdvisory findings (delivery completed):\n" + advice if advice else ""),
+                     "commit": commit, "packet": published_packet(repo, event), "checks": results,
+-                    "receipt": "Exact published response and packet verified after fetch."}
++                    "receipt": "One response commit, exactly the two selected paths, and published pair verified after fetch."}
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/desk-validation.json b/AGENTS/CATO/prototypes/decisions/mvp/desk-validation.json
+index dc48a3a41..d081a1537 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/desk-validation.json
++++ b/AGENTS/CATO/prototypes/decisions/mvp/desk-validation.json
+@@ -44,7 +44,7 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/desktop.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-2c3h4zee/desktop.png"
+     },
+     "narrow": {
+       "checks": [
+@@ -89,7 +89,7 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/narrow.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-2c3h4zee/narrow.png"
+     },
+     "recorded-answer": {
+       "checks": [
+@@ -110,7 +110,7 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/recorded-answer.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-2c3h4zee/recorded-answer.png"
+     },
+     "revision-restore": {
+       "checks": [
+@@ -131,7 +131,7 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/revision-restore.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-2c3h4zee/revision-restore.png"
+     },
+     "packet-recovery": {
+       "checks": [
+@@ -140,19 +140,19 @@
+           "pass": true
+         },
+         {
+-          "name": "Missing packet retains explicit Deliver control",
++          "name": "Incomplete publication cannot offer a one-file Send",
+           "pass": true
+         },
+         {
+-          "name": "Explicit retry publishes packet and displays delivered",
++          "name": "Replacement remains available and original answer is preserved",
+           "pass": true
+         },
+         {
+-          "name": "Confirmation remains required after packet recovery",
++          "name": "Confirmation remains required",
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/packet-recovery.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-2c3h4zee/packet-recovery.png"
+     },
+     "actual-history": {
+       "checks": [
+@@ -181,14 +181,14 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/actual-history.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-2c3h4zee/actual-history.png"
+     }
+   },
+   "build_hashes": {
+-    "app.py": "8a82a87a92b0cb6fc91a36662a7c6417aaa7ae7c74b4563231c8956a58b81315",
++    "app.py": "493866d608f617e5e4bc9b30b8c128eca0e83dc55d6295e7eb898f9be5ae494d",
+     "desk.html": "ddf2789e980f0703dd080b882f1fe4bffefb0d422ff4be5d75a28deb2f017b46",
+     "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
+-    "delivery.py": "145fb55976785f7d1492cdc1cb04a15f7ca7614876e917feccf027f691cb4190",
++    "delivery.py": "4f6d46b48b4c6f4d9d01a5883d4fb2a88af123dd20bacc36a8b946cc23960147",
+     "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
+     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+     "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+@@ -199,6 +199,8 @@
+     "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+     "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+     "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
++    "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
++    "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
+     "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
+     "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+     "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+@@ -206,5 +208,5 @@
+     "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+     "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
+   },
+-  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz"
++  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-2c3h4zee"
+ }
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/release-review.json b/AGENTS/CATO/prototypes/decisions/mvp/release-review.json
+index 433023a9a..2f2d1a4de 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/release-review.json
++++ b/AGENTS/CATO/prototypes/decisions/mvp/release-review.json
+@@ -1,11 +1,11 @@
+ {
+   "schema_version": "decisions-release-review/1",
+-  "status": "FROZEN CANDIDATE: work-reduction points 1\u20133 author-tested in isolation; one newly authorized independent review pending; installed live build unchanged",
++  "status": "FROZEN WQ-570 focused repair; author tested; PROME owns one focused recheck and conditional installation",
+   "build_hashes": {
+-    "app.py": "8a82a87a92b0cb6fc91a36662a7c6417aaa7ae7c74b4563231c8956a58b81315",
++    "app.py": "493866d608f617e5e4bc9b30b8c128eca0e83dc55d6295e7eb898f9be5ae494d",
+     "desk.html": "ddf2789e980f0703dd080b882f1fe4bffefb0d422ff4be5d75a28deb2f017b46",
+     "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
+-    "delivery.py": "145fb55976785f7d1492cdc1cb04a15f7ca7614876e917feccf027f691cb4190",
++    "delivery.py": "4f6d46b48b4c6f4d9d01a5883d4fb2a88af123dd20bacc36a8b946cc23960147",
+     "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
+     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+     "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+@@ -16,6 +16,8 @@
+     "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+     "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+     "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
++    "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
++    "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
+     "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
+     "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+     "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+@@ -35,10 +37,10 @@
+       "commit": "REPLACE-WITH-FULL-PUBLISHED-COMMIT"
+     },
+     "build_hashes": {
+-      "app.py": "8a82a87a92b0cb6fc91a36662a7c6417aaa7ae7c74b4563231c8956a58b81315",
++      "app.py": "493866d608f617e5e4bc9b30b8c128eca0e83dc55d6295e7eb898f9be5ae494d",
+       "desk.html": "ddf2789e980f0703dd080b882f1fe4bffefb0d422ff4be5d75a28deb2f017b46",
+       "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
+-      "delivery.py": "145fb55976785f7d1492cdc1cb04a15f7ca7614876e917feccf027f691cb4190",
++      "delivery.py": "4f6d46b48b4c6f4d9d01a5883d4fb2a88af123dd20bacc36a8b946cc23960147",
+       "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
+       "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+       "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+@@ -49,6 +51,8 @@
+       "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+       "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+       "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
++      "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
++      "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
+       "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
+       "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+       "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+@@ -58,15 +62,14 @@
+     }
+   },
+   "review_focus": [
+-    "W-F/W-A: temporary publication checkout; post-commit refusal and non-fast-forward cannot leak a candidate through shared master; no shared rollback or foreign-index mutation",
+-    "W-G: ignored drafts/legacy exports, exact response-plus-packet delivery, processed-packet support and incomplete-packet recovery",
+-    "W-B: failed hooks leave shared index unchanged; ambiguous push confirmation and idempotent retry",
+-    "Existing owner intake: published-only enumeration, per-item malformed/error reporting, latest observable chain and unchanged terms/options, received-only writes and duplicate/local-receipt compatibility",
+-    "Dependency policy: advisory implementation hashes excluded but commands/exit checks retained; parser and publication/receipt safeguards still pinned",
+-    "Preserve original wrong-answer/stale-terms/R1 fixes, real WQ-558 history, confirmation and owner ruling boundary",
+-    "Point 4 policy proposal only: no app-only authority or automatic classification implemented"
++    "W-J: exactly one child commit and exactly the selected response plus packet paths, checked before publication and after fetch; extra commits/paths refuse privately",
++    "W-J: only pinned hooks and helper bytes can execute in private publication; source and origin-only unknown hooks refuse before enabling hooks",
++    "W-I: a timeout or indeterminate push result without fetched evidence is unknown, never definitely not published; delayed-push counterexample included",
++    "W-H: preserve busy shared work; return exact HEAD/origin/ahead/behind and owner recovery instructions; clean behind checkout fast-forwards only",
++    "Partial old publication cannot satisfy exactly two changed paths; require saved replacement version, preserve original answer; never silently repair with one-path commit",
++    "Retain original review findings, answer/receipt semantics and matching chat confirmation; assess W-L/W-P installation prerequisites before changing live build"
+   ],
+-  "freeze": "One newly authorized independent review of the exact candidate commit named in the batch packet. No edits to candidate code/dependencies after freeze. Original live app and acceptance remain unchanged.",
++  "freeze": "One focused independent recheck authorized by Will under WQ-570 A. PROME owns recheck and installation with matching acceptance if it passes, without another ask. Exact commit in portable package. No author acceptance.",
+   "retained_residue": [
+     "W1 branch chooser not implemented; readable/copyable originals and manual owner reconciliation",
+     "W3 orphan advisory output returned; not an enforcement gate",
+@@ -86,16 +89,27 @@
+     "Private cross-device drafts are not observable to owner intake; ambiguous/disconnected published histories require reconciliation",
+     "Intake received receipts are mechanical acknowledgments, not semantic validation, ruling, confirmation or completed work",
+     "A busy shared checkout can remain behind after successful delivery; later Sync/reconciliation is still needed",
+-    "Normal-use productivity and cross-device restore are not established by author fixtures"
++    "Normal-use productivity and cross-device restore are not established by author fixtures",
++    "W-H: busy or diverged shared checkout still requires owner reconciliation; precise recovery reporting added, no takeover of edits",
++    "W-I: unknown outcome remains possible; wording repaired and delayed landing tested, Sync/retry required for evidence",
++    "W-J: targeted exact-commit/path and hook/helper repair author-tested; independent focused verdict still pending",
++    "W-K: legacy unrelated unpublished reply commits still block for owner reconciliation",
++    "W-L: build changes can invalidate delivered but unreceived answers; PROME must reconcile pending replies before installation",
++    "W-M: owner intake check/write race remains; canonical ruling validation required",
++    "W-N: intake isolation and wording limitations retained from original review",
++    "W-O: private cross-device revisions remain invisible",
++    "W-P: old staged/committed reply exports require explicit installation reconciliation; never sweep them",
++    "W-Q: crash residue may require owner cleanup; no destructive automatic cleanup added"
+   ],
+-  "activation_authority": "Will approved points 1\u20133 and one independent review in CATO chat. This candidate is not installed or accepted by these author results. Point 4 remains Will\u2019s separate decision; matching chat confirmation stays true.",
++  "activation_authority": "Will: \"ok approve your recs\" in CATO chat, approving WQ-570 A and keeping chat confirmation for every answer under WQ-571 A. Exact contextual packet in PROME/inbox/2026-10-31_from-CATO_WQ570-571-approved.md.",
+   "owner_procedure": "PROME may run owner_receipt.py intake --write for validated received receipts. PROME retains exact-answer/current-question judgment, matching chat confirmation, canonical ruling and ruling-before-integration publication.",
+   "dependency_policy": {
+-    "excluded_advisory_implementations": [
++    "excluded_advisory_implementations": [],
++    "repinned": [
+       "scripts/claim_check.py",
+       "scripts/orphan_check.sh"
+     ],
+-    "unchanged_runtime_contract": "Both commands still run on each new Send; weekday rc 0/1 complete with rc 1 advice, other exits refuse; orphan rc 0 required. Root Git safeguards retained."
++    "runtime_contract": "Existing weekday/orphan commands and exit handling retained; any changed pinned bytes need reacceptance."
+   },
+   "isolation_smoke": "Full repository sparse publication preparation: 0.40 seconds, 62 materialized files, complete tree unchanged, canonical hooks configured, disabled candidate push target preserved. One local observation, not end-to-end network latency."
+ }
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py b/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py
+index c4d939b90..7a38c39f0 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py
+@@ -46,15 +46,19 @@ class BatchTests(unittest.TestCase):
+         with self.assertRaises(ValueError): self.repo.read(delivery.event_path(a), 'origin/master')
+         self.assertEqual(self.repo.path(delivery.event_path(a)).read_text(), encoded(a)+'\n')
+ 
+-    def test_published_event_alone_is_not_delivery_and_can_repair_packet(self):
++    def test_published_event_alone_requires_new_version_for_exact_pair(self):
+         event = self.store.save(self.request())
+         self.publish_file(delivery.event_path(event), encoded(event)+'\n')
+         self.assertEqual(delivery.delivery_state(self.repo, event), 'published without inbox packet')
+         report = owner_receipt.intake(self.repo, True)
+         self.assertEqual(report['items'][0]['status'], 'needs_clarification')
+         self.assertFalse(self.repo.path('PROME/decisions/receipts').exists())
+-        self.send(event)
+-        self.assertEqual(delivery.delivery_state(self.repo, event), 'delivered')
++        before=self.git('rev-parse','origin/master')
++        with self.assertRaisesRegex(ValueError,'Incomplete earlier publication'): self.send(event)
++        self.assertEqual(before,self.git('rev-parse','origin/master'))
++        replacement=self.store.save(self.request(supersedes=event['id']))
++        self.send(replacement)
++        self.assertEqual(delivery.delivery_state(self.repo,replacement),'delivered')
+ 
+     def test_processed_packet_still_proves_delivery(self):
+         event = self.store.save(self.request()); result = self.send(event)
+@@ -247,10 +251,10 @@ class BatchTests(unittest.TestCase):
+         self.assertEqual(row['status'],'needs_clarification')
+         self.assertFalse(self.repo.path('PROME/decisions/receipts').exists())
+ 
+-    def test_fingerprint_excludes_advice_but_keeps_parser_and_publication_guards(self):
++    def test_fingerprint_repins_advice_and_keeps_parser_and_publication_guards(self):
+         before=app.build_hashes()
+         for name in ['scripts/claim_check.py','scripts/orphan_check.sh']:
+-            self.assertNotIn(name,before)
++            self.assertIn(name,before)
+         for name in ['PROME/tools/willq_view.py','scripts/safe-push.sh','scripts/githooks/pre-push','scripts/account_guard.py','owner_receipt.py']:
+             self.assertIn(name,before)
+         read=Path.read_bytes
+@@ -258,7 +262,7 @@ class BatchTests(unittest.TestCase):
+             data=read(p)
+             if str(p).endswith('/scripts/claim_check.py'): return data+b'\n# advisory edit\n'
+             return data
+-        with patch.object(Path,'read_bytes',changed): self.assertEqual(before,app.build_hashes())
++        with patch.object(Path,'read_bytes',changed): self.assertNotEqual(before,app.build_hashes())
+         def critical(p):
+             data=read(p)
+             if str(p).endswith('/PROME/tools/willq_view.py'): return data+b'\n# parser edit\n'
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py b/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
+index 525efe961..c2a2923f1 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
+@@ -33,6 +33,9 @@ class DeskTests(unittest.TestCase):
+         self.put("scripts/claim_check.py", "raise SystemExit(0)\n")
+         self.put("scripts/orphan_check.sh", "exit 0\n")
+         self.put("scripts/install-git-hooks.sh", "exit 0\n")
++        self.put("scripts/account_guard.py", "raise SystemExit(0)\n")
++        for hook in ("commit-msg", "pre-commit", "pre-push"):
++            self.put("scripts/githooks/" + hook, "#!/bin/sh\nexit 0\n").chmod(0o755)
+         self.put("scripts/safe-push.sh", (reader.ROOT / "scripts/safe-push.sh").read_text())
+         self.put("AGENTS/CATO/prototypes/decisions/mvp/.gitignore", "local-state/\n__pycache__/\n")
+         self.put("AGENTS/CATO/decisions/.gitignore", "/queue-responses/*.json\n/responses/*.json\n")
+@@ -158,7 +161,7 @@ class DeskTests(unittest.TestCase):
+                 return subprocess.CompletedProcess(args, 2, "Cannot confirm", "")
+             return run(args, **kwargs)
+         with patch("delivery.subprocess.run", side_effect=fail_push):
+-            with self.assertRaisesRegex(ValueError, "not published"):
++            with self.assertRaisesRegex(ValueError, "publication status unknown"):
+                 delivery.deliver(self.repo, e)
+         before = self.git("rev-parse", "HEAD")
+         self.assertEqual(delivery.delivery_state(self.repo, e), "saved")
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py b/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
+index 669f25682..8fd04981f 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
+@@ -44,7 +44,8 @@ REPAIR_HISTORY = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new
+ REVISION_RESTORE = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));view='Follow-through';render();const c=model.cards.find(c=>c.wq_id==='901');const a=document.querySelector('[data-unit="901.queue"]');const checks=[{name:'Published replacement restored without private predecessor',pass:c?.last.request.note==='Final sent answer'&&c.events.length===1},{name:'Missing private history is explicit',pass:!!c?.history_notes.length&&a.textContent.includes('Earlier saved versions are unavailable')},{name:'No invented earlier words or owner receipt',pass:!a.textContent.includes('Private draft')&&!c.receipt},{name:'Current question remains respondable',pass:!!c?.can_respond}];const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);})();</script>'''
+ 
+ 
+-PACKET_RECOVERY = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));view='Follow-through';render();let c=model.cards.find(c=>c.wq_id==='901');let a=document.querySelector('[data-unit="901.queue"]');const checks=[{name:'Published words without packet are not labelled delivered',pass:c.delivery==='published without inbox packet'&&a.textContent.includes('Delivery is incomplete')},{name:'Missing packet retains explicit Deliver control',pass:[...a.querySelectorAll('button')].some(b=>b.textContent==='Deliver saved response')}];await deliver(c.last.id);c=model.cards.find(c=>c.wq_id==='901');checks.push({name:'Explicit retry publishes packet and displays delivered',pass:c.delivery==='delivered'&&!c.receipt});checks.push({name:'Confirmation remains required after packet recovery',pass:c.requires_confirmation===true});const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);})();</script>'''
++PACKET_RECOVERY = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));view='Follow-through';render();let c=model.cards.find(c=>c.wq_id==='901');let a=document.querySelector('[data-unit="901.queue"]');const checks=[{name:'Published words without packet are not labelled delivered',pass:c.delivery==='published without inbox packet'&&a.textContent.includes('Delivery is incomplete')},{name:'Incomplete publication cannot offer a one-file Send',pass:!c.can_deliver&&![...a.querySelectorAll('button')].some(b=>b.textContent==='Deliver saved response')},{name:'Replacement remains available and original answer is preserved',pass:!!c.can_respond&&!!c.last&&a.textContent.includes('Save a new response version')},{name:'Confirmation remains required',pass:c.requires_confirmation===true}];const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);})();</script>'''
++
+ 
+ 
+ def windows(path):
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_focused.py b/AGENTS/CATO/prototypes/decisions/mvp/test_focused.py
+new file mode 100644
+index 000000000..71ddc8541
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_focused.py
+@@ -0,0 +1,108 @@
++"""WQ-570 targeted adverse tests. Local bare origins only; no real answers."""
++import subprocess
++import time
++from pathlib import Path
++import unittest
++from unittest.mock import patch
++import delivery
++from pilot_files import Repo
++import test_desk as fixtures
++
++class FocusedTests(unittest.TestCase):
++    setUp=fixtures.DeskTests.setUp
++    git=fixtures.DeskTests.git
++    put=fixtures.DeskTests.put
++    commit=fixtures.DeskTests.commit
++    request=fixtures.DeskTests.request
++
++    def send(self,event):
++        return delivery.deliver(self.repo,event,local_events=lambda:self.store.responses()['events'])
++
++    def test_extra_private_commit_is_refused_and_cannot_ride_shared_push(self):
++        event=self.store.save(self.request()); original=Repo.git
++        before=self.git('rev-parse','HEAD')
++        def inject(work,*args):
++            result=original(work,*args)
++            if args[0]=='commit' and work.root!=self.root:
++                (work.root/'scripts/extra.txt').write_text('Unexpected publication')
++                original(work,'add','scripts/extra.txt')
++                original(work,'commit','-qm','Extra commit','--','scripts/extra.txt')
++            return result
++        with patch.object(Repo,'git',inject):
++            with self.assertRaisesRegex(ValueError,'exactly one'): self.send(event)
++        self.assertEqual(before,self.git('rev-parse','HEAD'))
++        self.put('foreign.txt','Owner work'); self.commit(publish=True)
++        self.assertFalse(delivery.published_packet(self.repo,event))
++        with self.assertRaises(ValueError): self.repo.read('scripts/extra.txt','origin/master')
++
++    def test_same_commit_with_third_path_is_not_an_exact_pair(self):
++        base=self.git('rev-parse','HEAD').strip()
++        self.put('a','a'); self.put('b','b'); self.put('extra','extra'); self.commit()
++        commit=self.git('rev-parse','HEAD').strip()
++        with self.assertRaisesRegex(ValueError,'two selected'):
++            delivery.exact_pair_commit(self.repo,base,commit,{'a':'a','b':'b'})
++
++    def test_unpinned_shared_hook_refused_before_it_runs(self):
++        event=self.store.save(self.request())
++        self.put('scripts/githooks/post-commit','#!/bin/sh\ntouch unexpected-hook\n').chmod(0o755)
++        with self.assertRaisesRegex(ValueError,'Unreviewed'): self.send(event)
++        self.assertFalse(self.repo.path('unexpected-hook').exists())
++        self.assertFalse(delivery.published_packet(self.repo,event))
++
++    def test_origin_only_unpinned_hook_refused_before_private_execution(self):
++        event=self.store.save(self.request()); before=self.git('rev-parse','HEAD')
++        other=Path(self.tmp.name)/'other'
++        subprocess.run(['git','clone','-q',str(self.remote),str(other)],check=True)
++        for key,value in [('user.name','Fixture'),('user.email','fixture@example.invalid')]:
++            subprocess.run(['git','config',key,value],cwd=other,check=True)
++        hook=other/'scripts/githooks/post-commit'; hook.write_text('#!/bin/sh\necho bad > scripts/extra.txt\ngit add scripts/extra.txt\n'); hook.chmod(0o755)
++        for args in [('add','scripts/githooks/post-commit'),('commit','-qm','Remote extra hook'),('push','-q')]:
++            subprocess.run(['git',*args],cwd=other,check=True)
++        with self.assertRaisesRegex(ValueError,'Unreviewed'): self.send(event)
++        self.assertEqual(before,self.git('rev-parse','HEAD'))
++        self.assertFalse(delivery.published_packet(self.repo,event))
++        with self.assertRaises(ValueError): self.repo.read('scripts/extra.txt','origin/master')
++
++    def test_dirty_advisory_refused_without_running_or_changing_question(self):
++        event=self.store.save(self.request()); before=self.repo.path('PROME/WILL_QUEUE.md').read_text()
++        self.put('scripts/claim_check.py',"from pathlib import Path\nPath('PROME/WILL_QUEUE.md').write_text('Wrong answer')\n")
++        with self.assertRaisesRegex(ValueError,'Publication safeguard'): self.send(event)
++        self.assertEqual(before,self.repo.path('PROME/WILL_QUEUE.md').read_text())
++        self.assertFalse(delivery.published_packet(self.repo,event))
++
++    def test_late_real_push_reports_unknown_then_sync_finds_exact_pair(self):
++        event=self.store.save(self.request()); run=subprocess.run
++        hook=self.remote/'hooks/pre-receive'; hook.write_text('#!/bin/sh\nsleep 1\n'); hook.chmod(0o755)
++        def short_timeout(args,**kwargs):
++            if args==['bash','scripts/safe-push.sh']: kwargs['timeout']=0.15
++            return run(args,**kwargs)
++        with patch('delivery.subprocess.run',side_effect=short_timeout):
++            with self.assertRaisesRegex(ValueError,'publication status unknown'): self.send(event)
++        time.sleep(1.3)
++        self.git('fetch','-q','origin')
++        self.assertEqual(delivery.delivery_state(self.repo,event),'delivered')
++        before=self.git('rev-parse','origin/master')
++        self.send(event)
++        self.assertEqual(before,self.git('rev-parse','origin/master'))
++
++    def test_busy_checkout_message_names_exact_recovery_state(self):
++        event=self.store.save(self.request()); before=self.git('rev-parse','HEAD')
++        self.put('foreign.txt','Other desk'); self.git('add','foreign.txt')
++        result=self.send(event)
++        self.assertIn('0 ahead / 1 behind',result['message'])
++        self.assertIn('After owners save their work, use Sync',result['message'])
++        self.assertEqual(before,self.git('rev-parse','HEAD'))
++        self.assertEqual(self.git('diff','--cached','--name-only').strip(),'foreign.txt')
++
++    def test_concurrent_shared_commit_names_diverged_recovery_without_rebase(self):
++        event=self.store.save(self.request()); run=subprocess.run
++        def advance(args,**kwargs):
++            if args==['bash','scripts/safe-push.sh']:
++                self.put('owner.txt','Concurrent owner'); self.commit()
++            return run(args,**kwargs)
++        with patch('delivery.subprocess.run',side_effect=advance): result=self.send(event)
++        self.assertIn('1 ahead / 1 behind',result['message'])
++        self.assertIn('root Git recovery procedure',result['message'])
++        self.assertEqual(self.repo.path('owner.txt').read_text(),'Concurrent owner')
++
++if __name__=='__main__': unittest.main()
