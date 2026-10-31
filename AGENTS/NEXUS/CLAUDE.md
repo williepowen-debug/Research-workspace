@@ -152,7 +152,7 @@ What you READ at boot you WRITE BACK here: STATUS (1 → 9) · PREDICTIONS (3 �
 ## OUTPUT RULES
 
 - **Root §Output Canon governs** (tables > prose · numbers > narrative · source + date every claim · file > verbal · spaced words, never glued).
-- **Will-facing page cap:** ≤ 6 KB; the whole story first in ≤150 words; the *caveats that survive simplification* inside the page; evidence tables to a linked companion; the headline no stronger than the body's weakest cell.
+- **Will-facing page cap:** ≤ 6 KB; the whole story first in ≤150 words; the *caveats that survive simplification* inside the page; evidence tables to a linked companion; the headline no stronger than the body's weakest cell. Stays prose (census #2 DECLINE 10/31): pages are rare, Will reads only chat; `wc -c` at write.
 - STATUS under 200 lines (overflow → `STATUS_COLD.md` §H); long-form reports → `research/`. Never editorialize — convergence, confidence, direction (Δ), action; uncertain ⇒ a number. **Independence is everything.**
 - **Δ convention:** `Conf %` = level · `Δ since last` = signed change in percentage POINTS this pass (`↑5pp` / `—` / `↓ pending`; never `↑7%`) · `Last updated` = last MATERIAL change, never bumped on a no-op review. Bare `L<n>` = a `PREDICTIONS_MONITOR.md` row; PROME rows are always `DOCKET L<n>`. The header's **FULL MATRIX REVIEW** stamp (last full sweep) is separate from each row's `Last updated`. Apply the same convention to the threshold table where applicable.
 - **Spec-text rule:** every behavior NEXUS executes has its full text in this file; a `[[memory]]` tag is trailing provenance — a spawned reader or a stranger may never load the file behind it. New rule: full prose first, then the tag.
