@@ -1,5 +1,15 @@
 # SAM TIMELINE
 
+## 2026-10-31 — ✅ RESOLVED: the BOJ held, called 2% reached, and the yen did not move
+
+**Branch point resolved: the October 29–30 MPM.** The Bank held at 1.25% on 8–1. Takata dissented for a hike to 1.5%, arguing underlying inflation had reached the target. The Board majority wrote the same judgment into the Outlook Report: underlying inflation "is at a level that is generally consistent with" 2% (July: "approaching"), price risks are skewed up, and the Bank "will continue to raise the policy interest rate". It is the hawkish hold the pre-meeting reporting described. The only balance-sheet change was ETF sales, raised from about ¥330B to about ¥860B a year (book value) from January 2027. The JGB purchase plan is unchanged: November's operations carry the same sizes as the September 30 plan.
+
+The yen firmed slightly: USD/JPY ended the October 30 session at 157.519, down 0.19% on a 0.94-yen range, nowhere near a fast move. Speculators had already added yen longs into the meeting (CFTC +101,591 on 10/27). A hold with a hawkish tilt and a long-yen market is the opposite set-up from August 2024; there is no crowded short-yen pool for a hawkish BOJ to squeeze.
+
+**SAM-42 resolved FALSE** at the October 31 23:59 JST boundary: as-made 25%, Brier 0.0625. **Forward branch:** December. The 'at 2%' judgment is written; what remains is timing. A December skip or dovish press messaging is now the yen-weakening risk, not a carry-unwind risk. Ueda's press conference and post-decision OIS are not yet read.
+
+**Thesis consequence:** none. v1.7 retired-to-LOW, no successor, book FLAT. [Primary read](../../research/outputs/2026-10-31_boj/BOJ_1030_READ.md) · STATUS for levels.
+
 ## 2026-10-29 — Two stress days pass without a yen-funding unwind, and the BOJ is expected to hold while calling 2% reached
 
 SAM was offline October 20–28. Two shocks tested the carry channel in that window. On October 22, Asian equities fell about 3% on an AI and chip selloff, and the yen firmed 0.91% on a 1.66-yen range. That was the largest move of the window, orderly, and short of the fast-move bar; it retraced by October 28. On October 26, Brazil's post-election crash took the real down sharply, and the yen *weakened* (+0.45% USD/JPY). Speculators hold yen net **long** at the CFTC (+69,878 on 10/20), so the short-yen pool that unwound in August 2024 is no longer there to be forced out. Offshore swap funding stays unmeasured.

@@ -2,6 +2,13 @@
 
 Cold history; not a boot read.
 
+## 2026-10-29 — LAST SESSION notes rotated out 2026-10-31
+
+- 2026-10-29, Claude Code / Opus 5.5, Will-directed boot + catch-up + owed tasks. Boot 13/14 scripts; the OIS failure was an unreviewed chart, reviewed and ingested (10/29 11:15 JST). Corrections 5/5 receipted (rc=0). WALTER lane 33 → 0, top-level inbox 9 → 0; replies to WALTER (CPI, Brazil), DAEDALUS (WQ-508 verified, applied by `4da79f1ee`), MIDAS (official-flow series), HAWK (Japan fuel stocks UNMEASURED).
+- **Owed code closed, tests written first and failing on the old code:** `mof_flows.py` every-new-week bar (owed since 10/1); L546 float ties in `rate_differential.py` / `jgb_auctions.py` (BTC deliberately untouched — zero counterexamples); TSE Dec-31 in `catalyst_countdown.py`. **Correction:** my carried claim that the countdown "knows NO Japanese holiday" was false at HEAD — the table has existed since 8/4.
+- SAM-33 October purchases audited at the record: all six days on date and size; falsifier un-fired. Docket: six rows resolved, Nov purchase-date row added (10/30 17:00 JST). STATUS rewritten; TRACKER H2-plans table; TIMELINE/CHANGELOG 10/29. THESIS, prediction marks and terms, and money fields unchanged.
+- ⚠️ **Process error:** I relaunched the news sweep believing the first agent dead (missing file); both wrote the same path. Three STATUS claims were re-sourced before commit; one ("no remark since 10/17") was wrong. → auto-memory `[[finding_missing_output_is_not_a_dead_agent]]`. METSUKE not spawned (no thesis or mark moved). Pull not needed (0 behind); commits local; push at Will's closeout.
+
 ## 2026-09-29 — session notes rotated out 2026-10-01
 
 #### CHANGES SINCE LAST SESSION

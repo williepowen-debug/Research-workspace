@@ -8,6 +8,11 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-10-31 — TIMELINE: BOJ October 29–30 branch point RESOLVED (hawkish hold); SAM-42 FALSE; v1.7 unchanged
+
+**TIMELINE:** new 2026-10-31 block. Hold at 1.25% 8–1 (Takata for 1.5%); Outlook judges underlying inflation at 2%; ETF sales pace ~¥860B/yr book from Jan-2027; JGB purchase plan unchanged; USD/JPY 10/30 −0.19% on 0.94 yen; CFTC +101,591 long (10/27). SAM-42 resolved FALSE, as-made 25%.
+**Old view → new view:** no fresh Japan-led carry unwind → unchanged; the decision added no carry stress. **THESIS.md not edited:** no thesis-level change. Detail → `research/outputs/2026-10-31_boj/BOJ_1030_READ.md`.
+
 ## 2026-10-29 — TIMELINE: October 20–29 catch-up entry; v1.7 unchanged
 
 **TIMELINE:** new 2026-10-29 block. October 22 Asia selloff (yen +0.91%, orderly) and October 26 Brazil shock (yen weaker) show no yen-funding unwind signature; October BOJ hike priced out (Totan 10/29: Oct 2%, Dec 82%); SAM-33 October purchases on schedule; insurer H2 plans are swap-led with open foreign books trimmed and no stated UST sales.

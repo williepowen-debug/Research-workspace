@@ -268,3 +268,11 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T04:26:36+00:00	SIG-W-20261029-002	noted	INBOX_WALTER	Ras Tanura Houthi claim; damage unknown; oil-in-yen context.
 2026-10-29T04:26:36+00:00	SIG-W-20261029-003	noted	INBOX_WALTER	Iran targeting Sinokor fleet from Nov-1; shipping-risk context; FALCON owns.
 2026-10-29T04:26:36+00:00	SIG-W-20261029-013	noted	INBOX_WALTER	Taiwan LNG inventory-days not public; informs SAM reply to HAWK on Japan fuel stocks (Japan inventory also UNMEASURED by SAM).
+2026-10-31T14:42:51+00:00	SIG-W-20261029-022	noted	INBOX_WALTER	NAVCENT/JMIC 10/28 'remain well clear' Hormuz advisory + CENTCOM war cost $47.1B; FALCON action. Oil-in-yen context only; no SAM threshold moved.
+2026-10-31T14:42:51+00:00	SIG-W-20261029-031	info-only	INBOX_WALTER	Japan row: Takaichi non-binding preparedness appeal planned 11/02 (Nikkei 10/28), earthquake/Fuji not war/energy. No Japan-macro consequence.
+2026-10-31T14:42:51+00:00	SIG-W-20261029-034	noted	INBOX_WALTER	Cape Dao resolved SUNK (FALCON census 5); old 9/23 event, no new loss. Oil-in-yen context; no SAM change.
+2026-10-31T14:42:51+00:00	SIG-W-20261029-035	noted	INBOX_WALTER	UKMTO vessel fire N of Khasab 10/29; IRGC mine claims CLAIM-ONLY; ladder #2 not fired. Superseded in part by -037. No SAM change.
+2026-10-31T14:42:51+00:00	SIG-W-20261029-037	noted	INBOX_WALTER	Khasab vessel = dhow MSV QUBA sunk; FALCON census 6; ladder #2 NOT FIRED. No SAM change.
+2026-10-31T14:42:51+00:00	SIG-W-20261030-007	info-only	INBOX_WALTER	Cyber claims roundup; Japan PM office data-leak warning is claim-only, no primary. Same theme as CYPHER GMO packet (filed). No SAM change.
+2026-10-31T14:42:51+00:00	SIG-W-20261030-011	noted	INBOX_WALTER	Two hull attacks 10/29 (LOUISE 1, RITI), neither sunk; Jask strike unconfirmed; Ras Tanura shutdown not established. Oil-yen context; SAM did not re-grade oil (benchmark repair still owed).
+2026-10-31T14:42:51+00:00	2026-10-30_from-CYPHER_gmo-onamae-scope-change	noted	INBOX_TOPLEVEL	FILED, no SAM grade: GMO Onamae extortion (~JPY 8B demand) + published data are CYPHER-verified; '70+ securities/FX firms' is attacker THREAT scope, no broker-backend breach or loss total established. SAM charter has no cyber trigger; no channel (carry, insurer, JGB) moves. Re-read if a named broker/FX-firm outage or loss is confirmed.

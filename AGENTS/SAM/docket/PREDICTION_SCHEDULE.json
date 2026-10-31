@@ -7,12 +7,6 @@
       "timezone": "America/New_York",
       "boundary_rule": "Through the named date; exact cutoff not specified in the original row. SAM reviews; no automatic grade.",
       "condition_sha256": "8e5c8aeeae3a957daf78d450d0bc85cf7693580ab824377a35a0828635008926"
-    },
-    "SAM-42": {
-      "due_date": "2026-10-31",
-      "timezone": "Asia/Tokyo",
-      "boundary_rule": "Through 2026-10-31 23:59 JST inclusive (IMMOVABLE calendar anchor). Resolves on the BOJ statement PDF; a meeting slipping past the date grades FALSE. SAM reviews; no automatic grade.",
-      "condition_sha256": "019857eff92dda6b218394f186a30c6e19de32185f7aac55c150319adeb8c271"
     }
   }
 }
