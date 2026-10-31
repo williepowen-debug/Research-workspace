@@ -7,7 +7,7 @@ Form: `**<sentence>** ` inserted at the very start of the Item cell (bold, then 
 
 | Row | Sentence to prepend |
 |---|---|
-| 559 | Decide which day FALCON runs the dated check on its prediction FAL-07: Thu 12/31 (recommended) or Sat 1/2. |
+| 559 | Decide which day FALCON runs the dated check on its prediction FAL-07: Thu Dec 31 (recommended) or Sat Jan 2, 2027. |
 | 556 | Decide whether WALTER cuts the flood of FYI news copies to desks that rarely use them (recommended A). |
 | 548 | Your hands: post one Fidelity Activity screenshot covering 10/22–10/29 so last week's trades can be booked. |
 | 547 | Your hands: look up three Florida condo-association bankruptcy dockets (one free, two on PACER, under $5). |
