@@ -1394,6 +1394,16 @@ if ($SmokeTest) {
     function Test-Step($name) {[IO.File]::WriteAllText((Join-Path $data.directory 'test-stage.txt'),$name)}
     $form.Add_Shown({
         try {
+            Test-Step 'Opus startup defaults'
+            foreach ($entry in $data.agents) {
+                $expected='opus'; if ($entry.kind -eq 'cato') {$expected='astra'}
+                if ($script:settings[$entry.name].runtime -ne $expected) {throw ('Incorrect startup model for '+$entry.name)}
+            }
+            Focus-Agent 'PROME' 'Agents'
+            if ($runtime.Text -ne 'Claude Opus') {throw 'Startup dropdown did not select Opus'}
+            # Distinct fixture values keep the bulk-edit isolation check meaningful.
+            $script:settings['PROME'].runtime='fable'
+            foreach ($key in @('CARL','MIDAS','HENRY','LIQUID')) {$script:settings[$key].runtime='sol'}
             Test-Step 'Default bulk edits and individual overrides'
             foreach ($key in @('CARL','MIDAS','HENRY','LIQUID')) {
                 $search.Text=$key
@@ -1629,7 +1639,7 @@ if ($SmokeTest) {
             if ($tabs.SelectedTab -ne $pages.Agents -or $script:selected.name -ne 'CARL' -or $script:checked.Count -ne $beforeCount -or $script:settings['CARL'].task -cne $beforeTask) {throw 'History navigation changed preparation state'}
             Test-Step 'Model choices and activity ages'
             Focus-Agent 'PROME' 'Agents'
-            if ($runtime.Text -ne 'Claude Fable') {throw 'PROME default is not Fable'}
+            if ($runtime.Text -ne 'Claude Opus') {throw 'PROME default is not Opus'}
             foreach ($choice in @('Claude Opus','Claude Fable','Codex Astra','Codex Sol')) {
                 $runtime.SelectedItem=$choice
                 if ($instructionRuntime.Text -ne $choice) {throw 'Model controls did not synchronize'}

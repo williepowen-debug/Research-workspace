@@ -250,8 +250,12 @@ class LauncherTests(unittest.TestCase):
                 self.assertEqual(args[args.index('--model') + 1], model)
                 self.assertEqual(args.count('--model'), 1)
         entries = {e['name']: e for e in agents.load_config(SCRIPTS / 'agents.json')}
-        for runtime in (None, 'claude', 'fable'):
+        for runtime in ('claude', 'fable'):
             self.assertEqual(agents.build_plan(entries['PROME'], runtime, 'new').runtime, 'fable')
+        for entry in entries.values():
+            for action in ('new', 'resume'):
+                expected = 'astra' if entry['kind'] == 'cato' else 'opus'
+                self.assertEqual(agents.build_plan(entry, None, action).runtime, expected)
         self.assertEqual(agents.build_plan(entries['PROME'], 'opus', 'new').runtime, 'opus')
         for action in ('new', 'resume'):
             args = agents.build_plan(entries['CYPHER'], 'fable', action).argv

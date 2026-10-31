@@ -3,8 +3,9 @@
 Double-click **Agent Launcher.cmd** on the Windows desktop for the graphical
 app, or run `agents-gui` from WSL. Search by name or topic, select **Claude Opus**,
 **Claude Fable**, **Codex Astra**, or **Codex Sol**, then start a new conversation
-or resume. PROME defaults to Fable; CATO defaults to Astra and offers Sol as well.
-Other agents retain their Sol default; choose Claude Opus when using Claude. An optional task applies to a new conversation; clear
+or resume. Claude Opus is the starting choice for all agents, including PROME,
+except CATO, which defaults to Astra and offers Sol as well. Loading a saved group
+restores its saved model choices. An optional task applies to a new conversation; clear
 the task box to enable Resume. Resume opens the selected runtime's saved-session
 picker in its terminal. The app stays open for more launches; closing it leaves
 the agent windows running.
@@ -223,7 +224,8 @@ new model choices and history format. Agent terminal sessions can remain open.
 
 ## Defaults and scope
 
-- Codex defaults to **gpt-6.1-sol** with full access and approval prompts disabled.
+- The app and terminal launcher default to **Claude Opus**, except CATO.
+- Choosing Codex Sol uses **gpt-6.1-sol** with full access and approval prompts disabled.
 - Claude uses `--dangerously-skip-permissions` and an explicit `--model opus`
   or `--model fable` for both new and resumed conversations. The selection
   overrides older configured Claude model flags, including CYPHER's.

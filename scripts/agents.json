@@ -7,7 +7,7 @@
       "purpose": "Coordination, decisions, and final synthesis.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "fable"
+      "default_runtime": "opus"
     },
     {
       "name": "WALTER",
@@ -15,7 +15,7 @@
       "purpose": "Signal intake and routing.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "CATO",
@@ -31,7 +31,7 @@
       "purpose": "Agent architecture, structure, and lifecycle.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "NEXUS",
@@ -39,7 +39,7 @@
       "purpose": "Cross-agent synthesis and contradictions.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "RED",
@@ -47,7 +47,7 @@
       "purpose": "Adversarial review and thesis challenges.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "DEWEY",
@@ -55,7 +55,7 @@
       "purpose": "Focused, source-backed research.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "TERRY",
@@ -63,7 +63,7 @@
       "purpose": "Trade construction and risk structure; Will approves trades.",
       "group": "System, research, and trading",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "LABOR",
@@ -71,7 +71,7 @@
       "purpose": "Employment, claims, hiring, and workforce stress.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "CARL",
@@ -79,7 +79,7 @@
       "purpose": "Consumer credit, spending, and household stress.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "STUE",
@@ -87,7 +87,7 @@
       "purpose": "Federal student-loan stress; CARL specialist.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "POLLY",
@@ -95,7 +95,7 @@
       "purpose": "Insurance affordability and market stress; CARL specialist.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "DOC",
@@ -103,7 +103,7 @@
       "purpose": "Healthcare costs and medical debt; CARL specialist.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "GIG",
@@ -111,7 +111,7 @@
       "purpose": "Gig-economy saturation and worker stress; CARL specialist.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "PHAN",
@@ -119,7 +119,7 @@
       "purpose": "Phantom debt and shadow credit; CARL specialist.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "POP",
@@ -127,7 +127,7 @@
       "purpose": "Small-business stress; CARL specialist.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "OTTO",
@@ -135,7 +135,7 @@
       "purpose": "Auto-industry fraud and credit stress.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "HOMER",
@@ -143,7 +143,7 @@
       "purpose": "Housing-market conditions.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "MARCO",
@@ -151,7 +151,7 @@
       "purpose": "Population movement, migration, and visitor flows.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "CRUISE",
@@ -159,7 +159,7 @@
       "purpose": "Cruise operators, demand, and financial health.",
       "group": "Consumers, employment, and housing",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "REGINALD",
@@ -167,7 +167,7 @@
       "purpose": "Regional-bank stress synthesis.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "GIBBS",
@@ -175,7 +175,7 @@
       "purpose": "Large-bank stress, lending, and links to non-bank finance.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "OZK",
@@ -183,7 +183,7 @@
       "purpose": "Bank OZK.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "WAL",
@@ -191,7 +191,7 @@
       "purpose": "Western Alliance.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "FLG",
@@ -199,7 +199,7 @@
       "purpose": "Flagstar and its commercial-property exposure.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "CREED",
@@ -207,7 +207,7 @@
       "purpose": "National commercial real estate and CMBS.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "CORAL",
@@ -215,7 +215,7 @@
       "purpose": "Florida economic and property-risk convergence.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "BROCK",
@@ -223,7 +223,7 @@
       "purpose": "Private credit and business development companies.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "SHADE",
@@ -231,7 +231,7 @@
       "purpose": "Private-equity and insurance funding links.",
       "group": "Banks, property, and private credit",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "LIQUID",
@@ -239,7 +239,7 @@
       "purpose": "Funding markets and financial plumbing.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "BOND",
@@ -247,7 +247,7 @@
       "purpose": "Rates, Treasury markets, and credit spreads.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "HENRY",
@@ -255,7 +255,7 @@
       "purpose": "Macro releases, market structure, and positioning.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "ISHM",
@@ -263,7 +263,7 @@
       "purpose": "US manufacturing, industrial demand, factory surveys, and freight volumes.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "VIOLET",
@@ -271,7 +271,7 @@
       "purpose": "Volatility and its transmission to markets.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "ORACLE",
@@ -279,7 +279,7 @@
       "purpose": "Prediction-market evidence.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "SAM",
@@ -287,7 +287,7 @@
       "purpose": "Japan, the Bank of Japan, and carry trades.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "ZHAO",
@@ -295,7 +295,7 @@
       "purpose": "China and capital flows.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "HANS",
@@ -303,7 +303,7 @@
       "purpose": "Europe and its financial transmission channels.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "HAWK",
@@ -311,7 +311,7 @@
       "purpose": "Cross-war geopolitical synthesis.",
       "group": "Geopolitics and cyber",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "FALCON",
@@ -319,7 +319,7 @@
       "purpose": "Iran and Gulf war theater.",
       "group": "Geopolitics and cyber",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "OSPREY",
@@ -327,7 +327,7 @@
       "purpose": "Russia and Ukraine war theater.",
       "group": "Geopolitics and cyber",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "BARON",
@@ -335,7 +335,7 @@
       "purpose": "Political-financial networks and policy beneficiaries.",
       "group": "Geopolitics and cyber",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "CYPHER",
@@ -343,7 +343,7 @@
       "purpose": "Cyber incidents and market consequences.",
       "group": "Geopolitics and cyber",
       "kind": "fleet",
-      "default_runtime": "sol",
+      "default_runtime": "opus",
       "claude_args": [
         "--model",
         "claude-opus-5-5"
@@ -355,7 +355,7 @@
       "purpose": "Oil and energy markets.",
       "group": "Energy, metals, and infrastructure",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "MIDAS",
@@ -363,7 +363,7 @@
       "purpose": "Gold, silver, and industrial metals.",
       "group": "Energy, metals, and infrastructure",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "VULCAN",
@@ -371,7 +371,7 @@
       "purpose": "AI investment and the semiconductor cycle.",
       "group": "Energy, metals, and infrastructure",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "WATT",
@@ -379,7 +379,7 @@
       "purpose": "Electricity-market stress.",
       "group": "Energy, metals, and infrastructure",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "AEOLUS",
@@ -387,7 +387,7 @@
       "purpose": "Weather, climate, and economic transmission.",
       "group": "Energy, metals, and infrastructure",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     },
     {
       "name": "FERT",
@@ -395,7 +395,7 @@
       "purpose": "Fertilizer and food-security signals.",
       "group": "Energy, metals, and infrastructure",
       "kind": "fleet",
-      "default_runtime": "sol"
+      "default_runtime": "opus"
     }
   ]
 }
