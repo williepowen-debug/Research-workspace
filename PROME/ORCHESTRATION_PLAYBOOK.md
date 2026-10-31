@@ -71,6 +71,7 @@ Don't pick one mode for the whole session. The common shape:
 | Notify and receive | Native messaging when verified for the exact pair. | Native task messaging when verified for the exact pair. | Save content first; distinguish send acknowledgment from recipient consumption. No raw socket guesses or permission bypass. |
 | Permissions | Claude Code session permissions. | Codex session permissions, including only installed applicable rules. | Assignment approval persists; technical grants do not transfer automatically. |
 | Close | Explicit ask and owner receipt, with actual lifecycle evidence. | Explicit ask and owner receipt, with actual lifecycle evidence. | Do not infer closeout from idle, clean files, or a process exit. |
+| Output form | Root `CLAUDE.md` § Output Canon binds every runtime. | Same; a Codex spawn brief names it (WQ-558 A, 2026-10-30). | Pointer only — the root sentence ("write normal spaced words and numbers … never glue words together") is the single home; no restatement here. |
 
 The table is a runtime selection guide, not a certification of every tool/provider combination. For models, keep the existing applicable selection authority. A supported tool that requires inheritance must have its inherited choice identified and checked against that authority; do not invent an Opus-to-OpenAI mapping or silently inherit a prohibited model. Owner sessions and read-only review helpers remain distinct roles regardless of provider.
 
