@@ -108,7 +108,7 @@ $form.Add_Shown({
 })
 '''.replace('TASK', base64.b64encode(task.encode()).decode())
 source = source.replace('[void]$form.ShowDialog()', hook + '\n[void]$form.ShowDialog()')
-for module in ('research_reader.ps1', 'decisions_launcher.ps1'):
+for module in ('research_reader.ps1', 'decisions_launcher.ps1', 'calendar_launcher.ps1'):
     (base / module).write_bytes((SCRIPTS / module).read_bytes())
 psfile = base / 'probe.ps1'
 psfile.write_text(source)

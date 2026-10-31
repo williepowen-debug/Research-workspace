@@ -220,6 +220,21 @@ The **Decisions** tab opens the local daily desk with **Open Decisions**. It rea
 
 The completion build opens read-only until its final independently accepted build record is published by PROME. After acceptance, Save & deliver preserves the reply and transports its exact file plus an inbox pointer. PROME retains ruling/receipt ownership and matching-chat confirmation. The app does not replace the authoritative queue. [Usage, acceptance, owner commands and rollback](../AGENTS/CATO/prototypes/decisions/mvp/README.md).
 
+## Calendar
+
+Reopen the launcher, choose **Calendar**, then **Open Calendar**. The local browser
+view keeps the accepted Week/Day layout, with previous/next week, Today, search,
+owner filters and source details. **Refresh sources** reads current local files;
+it does not fetch GitHub or reverify external release schedules. Keep the separate
+service window open while using the calendar; Ctrl+C stops it.
+
+Coverage includes HENRY's dated economic table, PROME's open-docket export, dated
+gate reviews and all six currently registered catalyst ledgers. The coverage
+panel names unavailable sources and limitations. Housekeeping starts hidden;
+unknown categories stay visible as Unclassified. Open a card for full text.
+No agent, reminder or scheduling action is offered. **Check source coverage**
+prints diagnostics and waits for Enter. [Reader scope and checks](../AGENTS/CATO/prototypes/calendar/live/README.md).
+
 ## Activity dates and highlighting
 
 The Agents tab shows the last confirmed **launch here** and the last **saved work**

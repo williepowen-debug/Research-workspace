@@ -1,0 +1,136 @@
+{
+  "kind": "Author checks; captured live inputs, simulated refresh changes/failures; no source writes",
+  "work": "/mnt/c/Users/willi/AppData/Local/Temp/cato-calendar-live-rx83nbwj",
+  "runs": [
+    {
+      "viewport": "desktop",
+      "checks": [
+        {
+          "name": "Live sources loaded with housekeeping hidden and unclassified visible",
+          "pass": true
+        },
+        {
+          "name": "Accepted Week/Day layout and details preserve evidence",
+          "pass": true
+        },
+        {
+          "name": "Navigation moves week without claiming complete coverage",
+          "pass": true
+        },
+        {
+          "name": "Search and owner filtering narrow actual records",
+          "pass": true
+        },
+        {
+          "name": "Housekeeping toggle exposes reviewed rows",
+          "pass": true
+        },
+        {
+          "name": "Timing inventory does not invent dated grid events",
+          "pass": true
+        },
+        {
+          "name": "Source text is escaped in cards and details",
+          "pass": true
+        },
+        {
+          "name": "Refresh moves an event and replaces old view",
+          "pass": true
+        },
+        {
+          "name": "Failed refresh keeps last view with explicit warning",
+          "pass": true
+        },
+        {
+          "name": "Unavailable source and stale source remain visible",
+          "pass": true
+        },
+        {
+          "name": "No research launch or source mutation controls",
+          "pass": true
+        },
+        {
+          "name": "Desktop and narrow viewport fit",
+          "pass": true
+        },
+        {
+          "name": "HTTP read-only boundary /source?path=../../.ssh/configGET",
+          "pass": true
+        },
+        {
+          "name": "HTTP read-only boundary /api/calendarGET",
+          "pass": true
+        },
+        {
+          "name": "HTTP read-only boundary /api/calendarPOST",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "viewport": "narrow",
+      "checks": [
+        {
+          "name": "Live sources loaded with housekeeping hidden and unclassified visible",
+          "pass": true
+        },
+        {
+          "name": "Accepted Week/Day layout and details preserve evidence",
+          "pass": true
+        },
+        {
+          "name": "Navigation moves week without claiming complete coverage",
+          "pass": true
+        },
+        {
+          "name": "Search and owner filtering narrow actual records",
+          "pass": true
+        },
+        {
+          "name": "Housekeeping toggle exposes reviewed rows",
+          "pass": true
+        },
+        {
+          "name": "Timing inventory does not invent dated grid events",
+          "pass": true
+        },
+        {
+          "name": "Source text is escaped in cards and details",
+          "pass": true
+        },
+        {
+          "name": "Refresh moves an event and replaces old view",
+          "pass": true
+        },
+        {
+          "name": "Failed refresh keeps last view with explicit warning",
+          "pass": true
+        },
+        {
+          "name": "Unavailable source and stale source remain visible",
+          "pass": true
+        },
+        {
+          "name": "No research launch or source mutation controls",
+          "pass": true
+        },
+        {
+          "name": "Desktop and narrow viewport fit",
+          "pass": true
+        },
+        {
+          "name": "HTTP read-only boundary /source?path=../../.ssh/configGET",
+          "pass": true
+        },
+        {
+          "name": "HTTP read-only boundary /api/calendarGET",
+          "pass": true
+        },
+        {
+          "name": "HTTP read-only boundary /api/calendarPOST",
+          "pass": true
+        }
+      ]
+    }
+  ]
+}
