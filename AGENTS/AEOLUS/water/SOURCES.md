@@ -143,7 +143,8 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/W.
 
 🔴🔴 **C5 →5 keys to `NNW` Kaub 25 / Duisburg 153 FROZEN 2026-08-13 — NEVER re-point at the live field** (WSV rewrites `NNW` on a record, so a live key cannot fire on one). Re-read only to DETECT republication.
 🔑 `NNW` = lowest known **daily mean** ⇒ **grade on UNROUNDED daily means.** Kaub `NW` 25.0 is not an independent witness.
-✅ `GlW` verified 9/18 (Kaub 77.0 · Duisburg 227.0, `validFrom` 2023-01-01) = stage undercut ~20 ice-free days/yr; re-check `validFrom`. GlW re-key: PROPOSED, NOT EXECUTED.
+✅ `GlW` verified 9/18 (Kaub 77.0 · Duisburg 227.0, `validFrom` 2023-01-01) = stage undercut ~20 ice-free days/yr; re-check `validFrom`. GlW as the →5 key was REJECTED 10/31 (met in 11 of 26 years, and met at write time); a 40/180 re-key is PROPOSED (KB-231).
+✅ **LONG SERIES FROM 2000: route RESOLVED 2026-10-31 (KB-230).** Run `bash "$(git rev-parse --show-toplevel)/AGENTS/AEOLUS/sources/2026-10-31_rhine-long-series/pull_wsv_long_series.sh" <outdir> [start] [end]`. It POSTs `/gast/download/prepare` (uuid × 2, `parameter=W`, `format=csv`), gets JSON `downloadUrl`, then GETs the zip: 15-min W in local time (MEZ/MESZ), `quality=unchecked`, licence DL-DE->Zero-2.0. The full 2000→ pull took seconds, 7.2 MB. It reproduces the REST daily means to ≤0.020 cm. **This is the base-rate source. REST (~31 d) remains the live-grading source.**
 🔴 **`TuGLW` is a DEPTH below GlW, not a stage** — never difference it against a gauge reading.
 🔴 REST caps at ~31 days. A raw-data route back to 2000 exists, unresolved (paths in archive) — retry; never re-close from REST alone (L-35).
 

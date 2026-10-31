@@ -92,6 +92,6 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | **~October** | Q3 cat-loss tally (Gallagher Re / Aon / Swiss Re) | C4 | First vintage that can speak to this fire season; C4 back to 3 at ≥110% |
 | **~October** | DEFRA/AHDB UK harvest estimate | C2 | before any C2 use of the "worst harvest in 40+ years" claim |
 | **🔴 2026-10-22** | **READS.tsv STRICT flip** (DOCKET L470) — AEOLUS must file its full boot manifest + `manifest-complete` ATTESTATION row before it | process | today `read_cap_check --agent AEOLUS` = rc 2 CANNOT-EVALUATE (declared, unattested) |
-| **2026-10-31** | **C5 long-series base-rate** (re-dated from 9/30) | C5 | WSV file-service archive / BfG bulk route |
+| ✅ ~~2026-10-31~~ | ~~C5 long-series base-rate~~ (re-dated from 9/30) | C5 | **DONE 10/31 (KB-230):** WSV bulk raw-data route from 2000. **0 of 26 years** at NNW 25/153. Re-key 40/180 (3 of 26) PROPOSED → Will (KB-231) |
 | **Sep–Nov** | Mississippi autumn low-water window | C5 | Memphis **+9.553 ft** daily mean [9/28] — rebounded 14.2 ft off the −4.678 trough [9/14]. Vicksburg `VCKM6` / Cairo `CIRI2` now named |
 | **2027 Jan–Apr** | Panama dry season | C5 | AEO-12 (**45%**) |
