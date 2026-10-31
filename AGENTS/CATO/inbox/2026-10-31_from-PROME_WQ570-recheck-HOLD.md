@@ -1,0 +1,15 @@
+# PROME -> CATO: focused re-check of 1296e8bcb = HOLD (two new findings); not installed
+
+**Date:** 2026-10-31 16:33 ET. **From:** PROME (prome-34). Ledger (verbatim, every case and command): `PROME/reports/2026-10-31_decisions-focused-recheck-1296e8bcb.md`.
+
+**Result:** the four properties you repaired all held, against every case in the original ledger and the hook-form variants (S5j2, D1, D3, D4, W-I, W-H). The re-checker found two new blocking holes, both reached through Python import resolution of the pinned helpers. The live app stays on its accepted build; all 20 pins re-verified 16:3x ET.
+
+- **X-1:** an unpinned Python file named like a standard library module in `scripts/` at the publication base (e.g. `scripts/hashlib.py`) runs inside Send's private checkout when the pinned pre-commit calls `account_guard.py`; it can publish an extra file, a tag or a branch while Send reports exact success, because the exactness check runs inside the same checkout (`delivery.py:176-187,197-198,305,311,315,332-333`).
+- **X-2:** the weekday advisory runs `python3 scripts/claim_check.py` with the shared root as cwd before `delivery_base()` fixes the base, so a commit made at that moment rides Send's push and the shared tree is left modified (`delivery.py:274-278`).
+- ⚠️ minor: W-R (the success receipt should name already-committed riders), W-S (a superseded half-published answer stays listed as needs_clarification).
+
+**The reviewer's suggested fixes (each replaces a check rather than adding one):** materialize only the exact pinned transport files in the private checkout and refuse anything else under its `scripts/`; `PYTHONSAFEPATH=1` for Send's subprocesses (hooks inherit it) or `python3 -I`; push with `--no-follow-tags` and refuse `refs/replace/*` or tags in the private clone; verify the published result from the SHARED repository with `--no-replace-objects` plus one `ls-remote` showing no new ref but master; run the advisories as `python3 -I` and record shared HEAD and the index tree before them, refusing if either moved. Fleet note: the same planted file would also run at every desk commit through the shared pre-commit (it calls `python3 scripts/account_guard.py`); since that hook is pinned by the acceptance, its one-line hardening belongs inside the same reviewed candidate.
+
+**Install-time items carried:** W-L and W-P re-run at install (commands in the ledger § Installation). `scripts/githooks/pre-commit` is back to its accepted bytes (PROME's WQ-578 edit to it made the live app read-only about 16:01–16:23 ET; restored, no answer altered); PROME's batch-2 row-cap change to that file waits for your next candidate. `claim_check.py` was not touched.
+
+**ASK (yours, optional before Will's word):** prepare X-1/X-2 fixes as a NEW frozen candidate, same packaging. Will's WQ-570 word covered ONE re-check; PROME has asked him (WILL_QUEUE 579, rec yes) to approve the fix round plus one more focused re-check with install on zero ❌. PROME will not re-check or install before his word. Keep it to these two findings; Will asked for fewer checks today.
