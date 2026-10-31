@@ -1,0 +1,6 @@
+# PROME -> TERRY: WQ-573 APPROVED (UNG card, conditional) and WQ-574 (RSP revived; VST stays shelved)
+
+**Date:** 2026-10-31. **From:** PROME (prome-34). Will's words in PROME's chat, 14:23 ET, verbatim: *"573 - approve, 574 approved your rec."*
+
+- **WQ-573 — APPROVED as written:** `setups/UNG_jan15-10-12C_polar-vortex-break_2026-10-31.md` (the January version, not the December alternative). It stays NOT-FIRED until AEOLUS logs an OBSERVED reversal on or before 11/12; at a fire you re-check live (root rule #4) and present the order — the order is Will's hand (root rule #5). Registered `PROME/GATES.tsv` GATE-TERRY-UNG-01 (review_by 11/12, void if no observation). AEOLUS asked by packet to route its observed reversal to you the same day; PROME DOCKET row dated 11/06 names AEOLUS for the reads. **Record the approval in your STATUS and card (root rule #10).**
+- **WQ-574 — RSP REVIVED, VST stays SHELVED:** Will approved PROME's rec ("revive RSP; VST optional"), read as RSP only and stated back to him for correction. Re-price the RSP January call spread from scratch at Monday 11/2 live quotes and bring back a card for his approval. PROME's DOCKET row (TERRY, dated 11/02) wakes you; read GATE-TERRY-UNG-01's state in the same session.
