@@ -965,7 +965,10 @@ def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspeci
             need, thr = stop_distance(b)
             if need and not in_ambiguous_band(b):
                 print(f"      ↳ rule 5 STOP is <70% of budget ({thr:,} B): REMOVE {need:,} MORE B to finish "
-                      f"rotating. ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on "
+                      f"rotating. The owner rotates by moving dated history VERBATIM to archive/ with a "
+                      f"one-line pointer left behind, or by splitting the file hot/cold. ⛔ Never meet the "
+                      f"budget by deleting the spaces between words and numbers (root CLAUDE.md § Output "
+                      f"Canon). ⛔ Stopping at the 75% TRIGGER is not finishing — that band re-breaches on "
                       f"the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.")
             elif need:
                 print(f"      ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you "
@@ -1051,8 +1054,11 @@ def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspeci
                       f"⛔ NEVER trim a live contract to satisfy a guessed perimeter.")
             if n_over_budget:
                 print(f"⚠️  READ-CAP 1 [{name}]: {n_over_budget} boot-mandated read(s) over budget, "
-                      f"{n_over_cap} over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, "
-                      f"to archive/) or hot/cold split — per surface, owner's choice of HOW. "
+                      f"{n_over_cap} over the CAP itself. Remedy = two-state rotation (move dated history "
+                      f"verbatim, crc-stamped, to archive/ and leave a one-line pointer) or hot/cold split — "
+                      f"per surface, owner's choice of HOW. ⛔ Never meet the budget by deleting the spaces "
+                      f"between words and numbers (root CLAUDE.md § Output Canon): a glued date is a different "
+                      f"token to every date-reading instrument. "
                       f"⛔ Never raise the budget: the read cap is not ours to move.\n"
                       # BROCK 2026-09-12, measured from inside its own repair and asked for here by name:
                       # the first instinct is to tighten the prose, and tightening is an EDIT — it notices
