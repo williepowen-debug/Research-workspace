@@ -220,7 +220,7 @@ class LauncherTests(unittest.TestCase):
 
     def test_production_special_cases_preserve_settings(self):
         entries = {e['name']: e for e in agents.load_config(SCRIPTS / 'agents.json')}
-        self.assertEqual(len(entries), 51)
+        self.assertEqual(len(entries), 53)
         for action in ('new', 'resume'):
             walter = agents.build_plan(entries['WALTER'], 'claude', action)
             self.assertNotIn('--channels', walter.argv)

@@ -170,6 +170,14 @@
       "default_runtime": "sol"
     },
     {
+      "name": "GIBBS",
+      "path": "AGENTS/GIBBS",
+      "purpose": "Large-bank stress, lending, and links to non-bank finance.",
+      "group": "Banks, property, and private credit",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
       "name": "OZK",
       "path": "AGENTS/OZK",
       "purpose": "Bank OZK.",
@@ -245,6 +253,14 @@
       "name": "HENRY",
       "path": "AGENTS/HENRY",
       "purpose": "Macro releases, market structure, and positioning.",
+      "group": "Funding, macro, and global markets",
+      "kind": "fleet",
+      "default_runtime": "sol"
+    },
+    {
+      "name": "ISHM",
+      "path": "AGENTS/ISHM",
+      "purpose": "US manufacturing, industrial demand, factory surveys, and freight volumes.",
       "group": "Funding, macro, and global markets",
       "kind": "fleet",
       "default_runtime": "sol"
