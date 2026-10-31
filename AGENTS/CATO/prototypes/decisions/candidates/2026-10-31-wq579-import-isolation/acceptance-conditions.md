@@ -1,0 +1,7 @@
+# WQ-579 bounded author repair acceptance
+
+Prior candidate 1296e8bcb remains frozen. Implement only X-1/X-2 and the approved shared pre-commit hardening; fold the dormant row-cap removal into that same hook. W-R receipt wording may disclose existing riders; W-S and prior residue stay named. No live acceptance or reply writes.
+
+Closure: planted scripts/hashlib.py and scripts/argparse.py (including origin-only copies and Python environment search paths) cannot execute through the publication hooks or advisories. Private checkout materializes exact pinned transport files only. Verify real Git objects from the shared clone after fetch, with no replacement objects; no extra branch/tag may be described as exact success. Preserve legitimate existing remote tags. Prevent tag-following in the actual safe-push subprocess. Source/index changes during advisories refuse without reverting another owner's work; pre-existing committed riders remain deliberate and disclosed. Preserve normal Send, idempotence, partial-answer replacement, delayed publication uncertainty, busy/shared recovery, source/answer races, hook refusal and published-only intake.
+
+Author tests reproduce the reported mechanisms in disposable local repositories, never send a real answer. Preserve the new regression cases in the frozen package. PROME owns the one approved independent focused recheck and conditional installation with W-L/W-P reconciliation. No additional review launch by CATO.

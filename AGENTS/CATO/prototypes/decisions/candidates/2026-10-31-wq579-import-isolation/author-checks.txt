@@ -1,0 +1,18 @@
+WQ-579 author tests, October 31, 2026. Fixture writes only; no live reply sent.
+
+usage: python3 -m unittest [-h] [--check | --supervised] [--open-browser]
+                           [--pause] [--store STORE]
+python3 -m unittest: error: argument --supervised: not allowed with argument --check
+WQ-558 preview — answers disabled: http://127.0.0.1:12345/
+Keep this window open. Ctrl+C stops the app. Saving is local export, not delivery or acknowledgment.
+A real answer also needs your matching confirmation in PROME's chat.
+Decisions could not open: No acceptance
+----------------------------------------------------------------------
+Ran 135 tests in 95.212s
+
+OK
+
+Native Windows Chrome: 38/38 PASS; all 22 hashes in candidate desk-validation.json match release-review.json.
+Initial full run: 133 passed, two instrumentation failures because race injection matched the old non-isolated command. Updated triggers to python3 -I; both targeted reruns passed, then full 135/135 passed.
+Initial focused run: one third-path witness could not stage outside the narrowed sparse paths; explicit --sparse restored the original attack. Final exact-commit assertion holds.
+Bundle verification and independent temporary-index reconstruction of both patches reproduce the exact candidate tree.
