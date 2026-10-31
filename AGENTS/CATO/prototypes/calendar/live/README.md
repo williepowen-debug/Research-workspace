@@ -1,6 +1,6 @@
 # Live read-only research calendar
 
-Will approved the bounded live reader on October 31, 2026, then approved an agenda-first layout after seeing the full source volume. Open Agent Launcher → Calendar → Open Calendar, or from the Git root:
+Will approved the bounded live reader on October 31, 2026, then approved an agenda-first layout after seeing the full source volume. On the current Windows machine, double-click **Calendar** on the desktop. You can also open Agent Launcher → Calendar → Open Calendar, or run from the Git root:
 
 ```sh
 python3 -B AGENTS/CATO/prototypes/calendar/live/app.py --open-browser
