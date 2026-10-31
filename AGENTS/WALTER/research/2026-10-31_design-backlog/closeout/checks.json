@@ -193,5 +193,13 @@
     "doctor": "Inherited CATO exact-consumption gap retained; no new finding.",
     "ledger-nudge": "No new market events; event ledgers unchanged under root WQ-578.",
     "scope": "Backlog reconciliation only; draft semantics not activated."
+  },
+  "receipt_after_commit": {
+    "as_of": "2026-10-31T23:44:28Z",
+    "payload_commit": "e9f80744d3114c99b8a62ee9a7aaf9a5e2b34514",
+    "origin_ref": "0629fd459fbd403dacf2b3ac8d08f7e1104c254d",
+    "publication_state": "pending",
+    "rc": 0,
+    "output_text": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"as_of\": \"2026-10-31T23:44:28Z\",\n  \"origin_ref\": \"0629fd459fbd403dacf2b3ac8d08f7e1104c254d\",\n  \"delivery_scope\": \"20261031\",\n  \"delivered\": 74,\n  \"total\": 74,\n  \"next_review\": \"2026-11-02\",\n  \"limits\": \"Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.\"\n}\n"
   }
 }
