@@ -8,11 +8,11 @@ Form: `**<sentence>** ` inserted at the very start of the Item cell (bold, then 
 | Row | Sentence to prepend |
 |---|---|
 | 559 | Decide which day FALCON runs the dated check on its prediction FAL-07: Thu Dec 31 (recommended) or Sat Jan 2, 2027. |
-| 556 | Decide whether WALTER cuts the flood of FYI news copies to desks that rarely use them (recommended A). |
+| 556 | Decide whether WALTER sends quiet desks one dated news digest instead of a copy per item (recommended A). |
 | 548 | Your hands: post one Fidelity Activity screenshot covering 10/22–10/29 so last week's trades can be booked. |
-| 547 | Your hands: look up three Florida condo-association bankruptcy dockets (one free, two on PACER, under $5). |
+| 547 | Your hands: look up three bankruptcy dockets for CORAL (two Florida condo cases on PACER, one free), under $5. |
 | 531 | Your hands: make a free CourtListener account and token so the desks' court-record searches work again. |
-| 495 | Your hands by Thu 11/5: renew the FFIEC bank-data login (recorded as the same renewal as WQ-31's item ①). |
+| 495 | Your hands by Thu 11/5: renew the FFIEC Call Report login (probably the same renewal as WQ-31's item ①). |
 | 477 | Your hands, about 5 minutes: capture two entries from FLG's New York rent-freeze court case (no login, no cost). |
 | 463 | Your hands, about 2 minutes: check the Florida condo-records portal for CORAL's request; any fee needs your OK. |
 | 422 | Your hands: share any access you already have to Clear Spring Life's insurer financial statements for SHADE. |
@@ -31,4 +31,5 @@ Form: `**<sentence>** ` inserted at the very start of the Item cell (bold, then 
 - The "Notes begins with ⛔ waits" blocked-row rule is not triggered by the ⏰ prefix (neither row is a waits row).
 
 ## Read log
-- Plan read: PENDING.
+- **Plan read** 21:4x ET (blind Sonnet coldreader; ledger `willq-headlines-plan-read.md` in PROME's session scratchpad): **PROCEED WITH FIXES — 3 ❌ · 7 ⚠️.** **❌ fixed in the table above (before any edit):** 547 — the free docket is Brightline (FIHPNP LLC, Bankr. D.N.J.), not a Florida condo association; 556 — lever (a) is ALREADY in force, the ask is (b) one dated digest per quiet (dark ≥7 days) desk, with (c) case by case; 495 — no repo record links the 495.CDR login to WQ-31 item ① (DOCKET L180 ties the FFIEC CDR JWT to row 31, but no record names 495), so "recorded as" became "probably". **Declared residue (⚠️):** the 559 headline names only the date question, while the row carries two more points on the letter (the headline leads into the full row, which keeps them) · the WQ-31 marker puts the sitting on Sun 11/1 though DOCKET L219 asked it be raised from ~mid-October; the first boot after may be Mon 11/2 — the 11/1 DOCKET row also surfaces it · nothing yet says that doing WQ-31's sitting closes 495.CDR; PROME checks that at Will's report of the sitting, before the 11/3 marker re-asks · the scripted edit must not pass the sentences through an unquoted shell heredoc (the $5) — the edit reads them from this file in Python · the pass criterion gains: each prepended sentence is byte-identical to this table, and the result read re-checks each sentence against its row.
+- Result read: PENDING.
