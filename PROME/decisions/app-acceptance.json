@@ -1,0 +1,31 @@
+{
+  "schema_version": "decisions-app-acceptance/1",
+  "queue_responses": true,
+  "matching_chat_confirmation": true,
+  "independent_review": {
+    "path": "PROME/reports/2026-10-31_decisions-desk-final-ledger.md",
+    "commit": "0f432828e8bedca9530a2e4d8bd4df8c5f1eb50a"
+  },
+  "build_hashes": {
+    "app.py": "5b133efa6758bbc95cd411de62b2d10ed69bd2730b2d40a4b04ed18fcf063edd",
+    "desk.html": "4b5b6f454b52b63a768374def3850a18dbd2776a8585ccec24568a9032928de5",
+    "queue_store.py": "e0df66bd78a9197866bc7f86a84e0b93e6a5ffe54212edfd17cbc79a17a822df",
+    "delivery.py": "00d21a132e7d408e80019381ab8063fdabb8dd0ecb0b26311894e8bac6043d78",
+    "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
+    "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+    "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+    "owner_receipt.py": "38d433ca2087ee239f288457f14d6127d4731424ae8383bb9332129fd6f9b843",
+    "options.py": "7cb9e82fdd0279489c613d403b02031aeb6b87024fe22ce34d93df653ef371a0",
+    "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
+    "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+    "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+    "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+    "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
+    "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
+    "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
+    "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+    "scripts/githooks/pre-commit": "7da0c8e68b01f73c3c6969297e24855752c517007f0e9e06dd4d4621cc264cba",
+    "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+    "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
+  }
+}
