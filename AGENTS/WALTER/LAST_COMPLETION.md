@@ -70,7 +70,7 @@ Current administrative evidence: research/2026-10-31_boot-cleanup/REVIEW.md and 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T21:18:57Z",
+  "as_of": "2026-10-31T21:20:37Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -112,6 +112,11 @@ Current administrative evidence: research/2026-10-31_boot-cleanup/REVIEW.md and 
       "commit": "a88c01e3e",
       "state": "published",
       "note": "Repair closeout receipt verified on fresh origin."
+    },
+    {
+      "commit": "4c6971ffab3ba0f26634a43df529934582f7a7c9",
+      "state": "pending",
+      "note": "Administrative cleanup committed locally; coordinated publication pending. All 72 signal handoffs are already delivered."
     }
   ],
   "delivery": {
@@ -188,7 +193,7 @@ Current administrative evidence: research/2026-10-31_boot-cleanup/REVIEW.md and 
     "12-14": "Affected STATUS, self registry and MEMORY corrected for completed duties; full narrative regeneration deferred under LIGHT administrative scope.",
     "root.retirement": "Same-sitting two old candidates retained for substantive live references; no eligible deletion.",
     "15": "Old completion preserved; unrelated source-search approvals and open-design duties retained. Attestation/L845/publication follow-ups discharged.",
-    "16": "Repair payload 7bf36fa9a and receipt a88c01e3e published; cleanup will be exact-path committed with coordinated publication.",
+    "16": "Cleanup 4c6971ffa committed with exact authored paths including the unchanged consume move; no foreign work staged. Coordinated publication deferred under charter 16; CATO foreign untracked work observed. All prior signal handoffs are delivered.",
     "ledger-nudge": "Delivery ledger updated on five newly verified publication events; no new source/grade event.",
     "checks": "BOOT BASIS MATCH 29; central READS PASS with 26 cap-bearing reads; receipt 72/72 PASS, read-cap/archives/weekday PASS. Light runner ledger nudge REVIEW is unchanged kill-log data under WQ-578; no substantive kill data changed. Packet move byte-identical and unrelated approval/design sections preserved exactly."
   }
