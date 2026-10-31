@@ -70,7 +70,7 @@ Evidence: research/2026-10-31_boot-repair/REPAIR-RECEIPT.md and checks/. Prior L
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T19:59:07Z",
+  "as_of": "2026-10-31T20:00:00Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -102,6 +102,11 @@ Evidence: research/2026-10-31_boot-repair/REPAIR-RECEIPT.md and checks/. Prior L
       "commit": "3851270da",
       "state": "published",
       "note": "Five cards 015\u2013019 and 13 handoffs proven on fresh origin; delivery reconciled."
+    },
+    {
+      "commit": "7bf36fa9a07435db9d28fc6cc0239b3ac577463f",
+      "state": "pending",
+      "note": "Boot repair evidence, exact PROME attestation packet, two cards and five required handoffs committed locally; coordinated publication pending."
     }
   ],
   "delivery": {
@@ -166,7 +171,7 @@ Evidence: research/2026-10-31_boot-repair/REPAIR-RECEIPT.md and checks/. Prior L
     "12-14": "43 other-owner headers unchanged; self mirror then NETWORK refreshed. STATUS/MEMORY/full session entry updated; BALANCED/CLOSED held.",
     "root.retirement": "Same-sitting two old candidates retained for substantive live references; no eligible deletion.",
     "15": "Unresolved source-search, design and approved duties retained; current errors corrected, central registration pending.",
-    "16": "Prior 3851270da/de3f06a5f origin-proven; five new copies and administrative packet pending exact-path commit/coordinated publication.",
+    "16": "Payload 7bf36fa9a committed with 62 exact authored paths. Prior 67 daily copies origin-proven, five new copies pending coordinated publication. Foreign PROME work observed; no self-push.",
     "ledger-nudge": "Route/delivery/batch ledgers updated on actual events; no fire/exit or research commission. FT08 correction concerns owned research text, not a previously dispatched card.",
     "checks": "Receipt/read-cap/archives/versions/weekday/glued checks pass within scope; 68/68 existing selftests pass. Central READS UNKNOWN pending registrar. Three existing doctor MED findings manually dispositioned, no HIGH; evidence checks/OWNER-REVIEW.md."
   }
