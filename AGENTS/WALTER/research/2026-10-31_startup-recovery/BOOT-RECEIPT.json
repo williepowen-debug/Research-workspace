@@ -1,0 +1,115 @@
+{
+  "observed_at": "2026-10-31T16:03:10.884126+00:00",
+  "task": "Will-requested startup, recovery and short status only; do not begin unassigned work",
+  "status": "Recovery complete; operational boot PARTIAL",
+  "runtime": {
+    "provider": "OpenAI",
+    "runtime": "Codex",
+    "model": "GPT-6 family; exact serving model UNKNOWN",
+    "session_id": "01a192b0-c510-7c01-8e13-13239496b1df",
+    "root": "/home/willi/Research-workspace",
+    "launch_directory": "/home/willi/Research-workspace/AGENTS/WALTER",
+    "instruction_injection": "User supplied root AGENTS instructions; required files explicitly read from disk"
+  },
+  "explicit_reads": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "USER.md",
+    "AGENTS/WALTER/CLAUDE.md",
+    "AGENTS/WALTER/STATUS.md",
+    "AGENTS/WALTER/MEMORY.md",
+    "AGENTS/WALTER/LAST_COMPLETION.md",
+    "AGENTS/WALTER/anchors/IRAN_WAR.md",
+    "PROME/COMPLETION_SPEC.md",
+    "docs/GIT_WORKTREE_PROCEDURES.md"
+  ],
+  "scoped_reads": [
+    "PROME/ORCHESTRATION_PLAYBOOK.md Runtime mechanics",
+    "PROME/ROSTER.md WALTER rows",
+    "PROME/WILL_QUEUE.md WQ-369/377/383/503/508/556",
+    "PROME/DOCKET.tsv L334",
+    "PROME/state/ORCH_INFLIGHT.md header only"
+  ],
+  "absent_optional_instructions": [
+    "AGENTS/CLAUDE.md",
+    "AGENTS/AGENTS.md",
+    "AGENTS/WALTER/AGENTS.md"
+  ],
+  "capabilities": {
+    "verified": "Shell, filesystem, Git and repository Python; web tool exposed, unused",
+    "discovery": "Codex read_thread and send_message_to_thread exposed; no fleet-wide enumerator verified; thread-local collaboration is not a fleet census",
+    "fleet_presence": "UNKNOWN; no DARK inference, no launches or messages",
+    "telegram": "Retired by Will, not a missing dependency"
+  },
+  "git": {
+    "startup_pull": "Refused on two foreign CATO modified paths; untouched",
+    "fetch": "Initial github.com DNS failure; retry succeeded",
+    "comparison_before_receipt": "HEAD and freshly fetched origin/master equal (0 / 0)",
+    "push": "Deferred: foreign dirty work and WALTER coordinated-push rule"
+  },
+  "checks": {
+    "doctor": "Exit 4: four MED, no HIGH. Aged REQ, YURI registry lag, 13 aged unconsumed handoffs, historical malformed signal action header",
+    "corrections": "0 unreceipted named rows",
+    "dropzone": "0 content files",
+    "read_cap": "0 measured over-budget/cap; stale declared perimeter is not execution attestation",
+    "boot_basis": "REVIEW on 6 paths; root/user/playbook/completion read this turn; changed corrections/read-cap implementations not reviewed or re-attested",
+    "reads_attestation": "Stale, dated 2026-10-23; November 3 re-attestation carry remains"
+  },
+  "intake": {
+    "refresh": "Research-Intake pull --ff-only succeeded, already up to date",
+    "health": [
+      [
+        "OK",
+        "last_run 2026-10-30T19:48:35Z (0 missed weekday runs, 0 calendar days)"
+      ],
+      [
+        "OK",
+        "news search items saved: 225 (trailing median 194 over 10 batches)"
+      ]
+    ],
+    "new_entries": 42,
+    "marked": false,
+    "disposition": "Recovery inventory only; 42 entries include aggregate news gates, not a certified count of unique content items"
+  },
+  "inbox": {
+    "read_whole": [
+      "AGENTS/WALTER/inbox/2026-10-30_from-HENRY_put-wall-7700-broken-on-close-gamma-negative-all-three.md",
+      "AGENTS/WALTER/inbox/2026-10-30_from-PROME_board-spec-five-dead-pointers-firetime.md",
+      "AGENTS/WALTER/inbox/2026-10-31_from-PROME_yuri-side-finding-aleshki-ceasefire.md",
+      "AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261031a_diesel-1436-producer-exemption-deleted.md"
+    ],
+    "pending_count": 4,
+    "consumed_or_moved": false,
+    "priorities": [
+      "YURI diesel primary correction; delivery to BRENT/HANS reported by YURI, not independently re-proven here",
+      "PROME Aleshki side finding for routing judgment",
+      "HENRY close-grade packet; underlying October 29 OI vintage and proxy limits retained",
+      "PROME five BOARD spec pointers repair, assigned no deadline"
+    ]
+  },
+  "recovered_authority": [
+    "LAST_COMPLETION source-search stop/reopen approval October 16 remains scoped; no clean-source inference",
+    "WQ-377 launch-only bookmark scan; no unattended approval",
+    "WQ-508 applied charter scope preserved",
+    "L334 discretionary INFO trims active; predictive leg due November 6",
+    "WQ-556 pending: digest and additional pull-mode changes not approved",
+    "CREED launch needs explicit Will permission; no launch inferred"
+  ],
+  "unresolved": [
+    "HANS daily/compound and CREED/REGINALD event legs not freshly graded",
+    "HANS T12 and boundary 5 uninstrumented; boundary 8 fallback design gap",
+    "13 aged unconsumed handoffs (3 ACTION, oldest 12 days, routed timestamp basis); recipient consumption is not established by publication",
+    "VULCAN intake design request 15 days old; no implementation ruling recovered",
+    "CYPHER when:7d choice and other open designs remain at LAST_COMPLETION"
+  ],
+  "not_executed": [
+    "Full registry/routing/threshold-family boot reads and current threshold scan",
+    "BOARD/FILTER scoped market context, owner refresh and full ORCH read",
+    "Inbox disposition, signal verification/dispatch or intake marking",
+    "X bookmark network scan or token-status verification",
+    "Canonical STATUS/MEMORY/LAST_COMPLETION refresh or operational full closeout"
+  ],
+  "next_step": "Disposition the four inbox packets, prioritizing YURI diesel, then process the 42 intake entries under normal boot and batch controls; no work started beyond recovery",
+  "canonical_duties": "AGENTS/WALTER/LAST_COMPLETION.md remains unchanged; this is a dated recovery receipt, not a replacement duty list",
+  "will_needs": "No new approval requested during recovery; existing WQ-556 remains pending"
+}
