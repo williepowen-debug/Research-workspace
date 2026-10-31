@@ -1,0 +1,33 @@
+Fri Oct 30 20:15:40 EDT 2026
+2026-10-30: 1563 SEC credit rows; 20 NEWT for 'ORACLE'; 0 BATCH (excluded)
+  2026-10-20T18:13Z exp 2030-06-20   1,000,000 | cpn 100 upfront 5.41pts ~par 270bp (approx) | ORACLE CORPORATION
+  2026-10-20T18:13Z exp 2030-06-20  5,000,000+ | cpn 100 upfront 5.41pts ~par 270bp (approx) | ORACLE CORPORATION
+  2026-10-29T21:00Z exp 2031-06-20     250,000 | cpn 100 upfront 6.12pts ~par 258bp (approx) | Oracle Corporation
+  2026-10-29T21:00Z exp 2030-12-20   3,000,000 | cpn 100 upfront 5.15pts ~par 245bp (approx) | Oracle Corporation
+  2026-10-29T21:00Z exp 2031-06-20     500,000 | cpn 100 upfront 6.12pts ~par 258bp (approx) | Oracle Corporation
+  2026-10-29T21:00Z exp 2030-12-20  5,000,000+ | cpn 100 upfront 5.15pts ~par 245bp (approx) | Oracle Corporation
+  2026-10-29T21:00Z exp 2031-06-20     750,000 | cpn 100 upfront 6.12pts ~par 258bp (approx) | Oracle Corporation
+  2026-10-30T13:40Z exp 2031-12-20   1,000,000 | cpn 100 upfront 7.56pts ~par 281bp (approx) | Oracle Corporation
+  2026-10-30T13:40Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.64pts ~par 283bp (approx) | ORACLE CORPORATION
+  2026-10-30T13:59Z exp 2031-12-20   2,000,000 | cpn 100 upfront 7.53pts ~par 280bp (approx) | ORACLE CORPORATION
+  2026-10-30T15:53Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.64pts ~par 283bp (approx) | ORACLE CORPORATION
+  2026-10-30T16:05Z exp 2030-06-20  5,000,000+ | no level field | Oracle Corporation
+  2026-10-30T16:05Z exp 2030-06-20   1,000,000 | no level field | Oracle Corporation
+  2026-10-30T17:26Z exp 2031-06-20  5,000,000+ | cpn 100 upfront 6.90pts ~par 279bp (approx) | ORACLE CORPORATION
+  2026-10-30T18:05Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 8.06pts ~par 294bp (approx) | ORACLE CORPORATION
+  2026-10-30T18:15Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.91pts ~par 290bp (approx) | ORACLE CORPORATION
+  2026-10-30T19:28Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.91pts ~par 290bp (approx) | ORACLE CORPORATION
+  2026-10-30T19:51Z exp 2031-12-20  5,000,000+ | spread 293bp (disseminated) | Oracle Corporation
+  2026-10-30T19:51Z exp 2031-12-20  5,000,000+ | spread 293bp (disseminated) | Oracle Corporation
+  2026-10-30T20:28Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.91pts ~par 290bp (approx) | Oracle Corporation
+2026-10-30: 1563 SEC credit rows; 3 NEWT for 'COREWEAVE'; 0 BATCH (excluded)
+  2026-10-29T18:47Z exp 2030-12-20   2,000,000 | cpn 500 upfront 12.21pts ~par 934bp (approx) | COREWEAVE;INC.
+  2026-10-30T12:59Z exp 2030-12-20   3,000,000 | cpn 500 upfront 13.32pts ~par 980bp (approx) | COREWEAVE;INC.
+  2026-10-30T13:02Z exp 2030-12-20   2,000,000 | cpn 500 upfront 13.44pts ~par 986bp (approx) | COREWEAVE;INC.
+Fri Oct 30 20:15:58 EDT 2026
+2026-10-30: 1563 SEC credit rows; 5 NEWT for 'META PLATFORMS'; 0 BATCH (excluded)
+  2026-10-30T13:53Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.55pts ~par 119bp (approx) | META PLATFORMS INC
+  2026-10-30T15:28Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.95pts ~par 121bp (approx) | META PLATFORMS INC
+  2026-10-30T17:26Z exp 2029-12-20  5,000,000+ | cpn 100 upfront 0.59pts ~par 120bp (approx) | META PLATFORMS;INC.
+  2026-10-30T17:55Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.95pts ~par 121bp (approx) | Meta Platforms Inc
+  2026-10-30T18:20Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.99pts ~par 122bp (approx) | META PLATFORMS;INC.

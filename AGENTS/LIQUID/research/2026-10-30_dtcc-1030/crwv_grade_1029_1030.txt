@@ -1,0 +1,9 @@
+Fri Oct 30 20:15:41 EDT 2026
+2026-10-29: 1433 SEC credit rows; 3 live CoreWeave prints
+  2026-10-16T16:58Z id 6046860193000000101 mat 2031-12-20   2,000,000 cpn 500 upfront  18.76pt ->  1110bp (dirty  1125)  
+  2026-10-29T13:49Z id 6045557690000000101 mat 2031-12-20   2,000,000 cpn 500 upfront  15.33pt ->   978bp (dirty   998)  
+  2026-10-29T18:13Z id 6048847385000000101 mat 2031-12-20   1,000,000 cpn 500 upfront  15.71pt ->   992bp (dirty  1012)  
+2026-10-30: 1563 SEC credit rows; 3 live CoreWeave prints
+  2026-10-29T18:47Z id 6077319706000000101 mat 2030-12-20   2,000,000 cpn 500 upfront  12.21pt ->   926bp (dirty   948)  
+  2026-10-30T12:59Z id 6071836579000000101 mat 2030-12-20   3,000,000 cpn 500 upfront  13.32pt ->   972bp (dirty   995)  
+  2026-10-30T13:02Z id 6072056462000000101 mat 2030-12-20   2,000,000 cpn 500 upfront  13.44pt ->   977bp (dirty  1000) NONSTD 
