@@ -33,7 +33,7 @@ Seam replies received and integrated October 31: CARL, OTTO, HAWK, REGINALD, WAT
 
 - **Equipment is being bought and delivered.** Census September advance (October 27): core orders $88.039B, +0.5%; core shipments $86.052B, +1.2%; durable headline +1.8% was aircraft (+28.4%), excluding transportation +0.5%. BEA Q3 advance (October 29): real equipment +20.9% q/q SAAR, computers +66.7%, industrial +24.7%, transportation −7.9%.
 - **End users are buying at the bellwether.** CAT Q3: sales +17%, volume-led; dealer retail +22%, North American construction +27%; record backlog (dollars not stated).
-- **Survey orders cooled.** October regional new orders: NY 23.2, Philadelphia 4.3, Richmond −8, KC 3, Dallas 9.3. Same 1-of-5 negative count as September, but three districts fell 15 to 25 points. S&P October flash: orders and output growth slowed; headline held by hiring, stockbuilding and delivery delays.
+- **Survey orders cooled.** October regional new orders: NY 23.2, Philadelphia 4.3, Richmond −8, KC 3, Dallas 9.3. Same 1-of-5 negative count as September, but three districts fell 21 to 25 points (Philadelphia 29.2 to 4.3, KC 24 to 3, Dallas 30.7 to 9.3). S&P October flash: orders and output growth slowed; headline held by hiring, stockbuilding and delivery delays.
 - **Freight:** IATA September air cargo +7.7% y/y (North American carriers +11.8%) is context; J2 instruments unchanged (Cass +1.9%, AAR carloads +3.5% week of October 17).
 - Mechanism score 18/35 raw, shared-root 13/25, unchanged; neither is a probability. Equity thermometer UNKNOWN.
 
