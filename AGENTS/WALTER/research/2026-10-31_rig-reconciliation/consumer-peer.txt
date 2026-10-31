@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded US oil rigs +50 from 408 trough → current boundary 7 RETIRED 2026-10-31
+     🟢 cleared: marker-adjacent / next to new value / frozen file (1)  [--show-handled to audit]
+
+  ✓ clean — every consumer is current or has it flagged superseded.
+==================================================================
+

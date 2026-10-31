@@ -1,0 +1,11 @@
+# Manual closeout review
+
+The exact spec diff was reviewed: only boundary 7 eligibility and its cadence exclusion change; parent/companion labels and STATE synchronize at v0.50. Other boundary rows are unchanged. Two boot-file hashes refreshed after review. Peer consumer check is clean; self hits adjudicated as historical evidence and the newly bannered May draft, not new alerts.
+
+The first basis check found a concurrent PROME playbook edit. Reviewed the complete delta against previously reviewed 7bf36fa9a: WQ-578 batch 2 retires the OBSERVED view-count check, retains blocking orch_log.py check and the typed writer contract. No runtime permission, source-set or read-mode change. Saved playbook-review.diff and refreshed that one hash. Initial basis output is superseded by basis-final.txt, not erased.
+
+Receipt 72/74, cap, archive, weekday, versions and READS checks pass. The runner's three doctor MED findings are preserved, previously adjudicated carries: VULCAN request deployment deferred by PROME; CATO old ACTION has substantive evidence without exact consume receipt; October 27 CARL action header is valid block-list YAML outside the checker's parser. None is caused or closed by this rig correction. Ledger nudge reflects unchanged kill data under WQ-578; no new kill data exists to refresh. Shared rotation warnings remain PROME-owned.
+
+All 43 other-owner lead blocks exactly match committed repair 7bf36fa9a. Self registry updated before NETWORK; prior review retained with evidence, no freshness invented. MEMORY reviewed with session note only; no new general finding to promote. FULL design closeout clears administrative deferral. The original approval/source-search/open-design duties and November schedule remain; only the rig inconsistency is discharged. Retirement preserves the old row and May text as explicit history. No new market scan, prediction grade, helper, collector or checker.
+
+Foreign PROME edits and staged renames remain outside this exact-path commit. Prior cleanup commits are now origin-proven. New card022 and its two handoffs are written; publication/consumption are separate and remain to be proved. The closeout receipt is updated after the exact local commit.

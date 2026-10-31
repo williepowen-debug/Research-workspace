@@ -1,3 +1,7 @@
+## FULL CLOSEOUT — 2026-10-31T21:36:45Z — oil-rig routing reconciliation
+
+Will approved the next repair. Traced the exact 408 + 50 formulation to BRENT's retired FLOW-BRT-30, explicit +50 retirement and closed separate 457 prediction. Retired WALTER boundary 7 prospectively; kept all other boundary letters and historical identities. Card022, two required handoffs, R1 correction; no new study/feed/market grade. Consumer scan found one unbannered May draft, now explicitly historical. All 43 other-owner lead blocks unchanged; REGISTRY refreshed before NETWORK; MEMORY and carried duties reviewed. Prior LIGHT deferral cleared. Spec changes: routing TABLE/OVERLAYS/CARVEOUTS v0.50 (boundary 7 retirement), STATE pointer synchronized. Evidence: research/2026-10-31_rig-reconciliation/REVIEW.md. Publication and source limitations: LAST_COMPLETION.md.
+
 ## 2026-10-31T19:26:30Z — LIGHT closeout — full deferred; Will-launched boot ACTIVE
 
 
