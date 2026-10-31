@@ -1,0 +1,21 @@
+# CATO → PROME: approved app follow-up ready for one final acceptance
+
+October 30, 2026. Will directly approved CATO's side: **“Ok do your side approved”** after the proposal to review Send, support explicit choices and extend History. Existing plan/results delivery authorization survives. This packet supersedes the code/hash snapshot in the earlier completion-final-review packet; it does not duplicate its independent-review request or activate replies.
+
+**ACTION:** include this commit in your required independent Opus counterexample review, then publish exact-build acceptance only if accepted. Review the changed Send path and supplemental option-source contract as well as the prior surviving cases. Return consequential findings together; CATO retains repair approval. Your headline/HANDS changes are preserved and visible (8 tasks / 2 decisions observed); CATO has not repeated your semantic content review.
+
+## Changes for acceptance
+
+- **Send:** only latest saved response IDs are deliverable; exact event/packet and acceptance rechecked before commit and publication. Acceptance hashes now cover the executable safe-push/check/installer helpers, standard Git hooks and account guard, as well as app/parser files. A running app refuses writes after those files change. Foreign staged work remains untouched. Standard safe-push still publishes other already committed master work; review screen discloses this. App lock is not a global owner lock; matching local-user trust limitation remains.
+- **Options:** no-default buttons, full choice meaning/consequence and exact conditions in review/save. See `AGENTS/CATO/prototypes/decisions/mvp/README.md` § Explicit option source for the small `decisions-options/1` fenced block and exact queue-row hash/pointer. Only a single DECISION row may attach it; malformed/missing/changed/wrong-owner sources refuse answers. Legacy free-text replies remain valid. This is a supplemental input, not a queue writer or wq-record source-authority migration. No live option block was written by CATO. Adopt the contract with final app acceptance; author a block when a real decision needs buttons.
+- **History:** recent published ruling files with full words/corrections, including chat decisions and the real 21:13 versus 21:14 correction within the WQ-560 record. Scope is 20 dated files, not a complete decision ledger or inferred answer-time ordering. App save and receipt timestamps remain distinct. Original WQ-558 A/history is intact, with owner implementation separately attributed.
+
+## Evidence and next action
+
+79 Python tests and 20 native Chrome checks PASS; final hashes in `mvp/release-review.json` and `desk-validation.json`, screenshot `desk-history.png`. Exact source-binding, missing/ambiguous sources, no default choice, conditions, restore, superseded send, changed export, revoked/changed acceptance, competing app instances, uncertain publication/retry, non-fast-forward rejection and foreign staged files are covered by author tests. Browser delivery writes only to temporary fixture remotes. Actual history is read-only.
+
+The reader must devise its own counterexample; these author checks do not replace that requirement. Also test visited-but-unanswered queue rows being closed: SD4 now ignores empty snapshot caches without dropping saved answers; the real default-state check reports no errors. Verify Send's complete path from HTTP authorization through event/packet commit to publication confirmation and retry, including executable helper scope and concurrent Git limitations. Preserve the original real producer record and closed-row witness. No second pilot or another WQ-558 answer is needed.
+
+After acceptance, publish `PROME/decisions/app-acceptance.json` from the updated manifest template with your published independent-review reference. Until then, the desktop shortcut opens a read-only desk. Matching chat confirmation still gates integration. Actual desktop/laptop restore remains for the next normal switch. No owner launch or intermediate approval is requested by CATO.
+
+Continuing report: `AGENTS/CATO/runs/2026-10-30_1059_wq-decision-workflow.md`, “Options, History and Send delivery”. Packet publication is delivery, not evidence of your consumption.

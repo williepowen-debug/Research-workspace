@@ -10,6 +10,7 @@ import tempfile
 
 from pilot_files import Repo, chain, fields, read_receipts, strict_json
 from store import HERE, Store, digest, encoded, identifier, reader
+from options import source_for
 
 QUEUE = "PROME/WILL_QUEUE.md"
 REPLIES = "AGENTS/CATO/decisions/queue-responses"
@@ -41,10 +42,10 @@ def open_rows(text):
     return {m["n"]: {**found[m["n"]], **m} for m in metadata}
 
 
-def unit_for(row):
+def unit_for(row, options=None):
     c = row["cells"]
     return {"id": c[0] + ".queue", "kind": "hands" if row["kind"] == "HANDS" else "decision",
-            "proposal": {"question": c[1], "context": c[6], "choices": [],
+            "proposal": {"question": c[1], "context": c[6], "choices": options["choices"] if options else [],
                          "recommendation": {"reason": c[5], "option_id": None}, "caveats": []},
             "timing": {"needed_by": row["due"], "meaning": c[3], "revisit_condition": None},
             "disposition": {"state": "outstanding" if row["kind"] == "HANDS" else "awaiting_answer"},
@@ -59,20 +60,35 @@ def validate_reply(repo, event, wq):
     if digest({k: v for k, v in event.items() if k != "sha256"}) != event["sha256"]:
         raise ValueError("Queue response hash mismatch")
     d, r = event["display"], event["request"]
-    fields(d, {"kind", "record", "source_path", "source_commit", "queue_row", "presentation_sha256"}, "Queue snapshot")
+    expected = {"kind", "record", "source_path", "source_commit", "queue_row", "presentation_sha256"}
+    if d.get("kind") == "decisions-queue-display/2":
+        expected.add("options_source")
+    fields(d, expected, "Queue snapshot")
     fields(r, {"id", "display_hash", "unit_id", "action", "choice_id", "note", "revisit", "supersedes"}, "Queue request")
-    if d["kind"] != "decisions-queue-display/1" or d["source_path"] != QUEUE:
+    if d["kind"] not in {"decisions-queue-display/1", "decisions-queue-display/2"} or d["source_path"] != QUEUE:
         raise ValueError("Wrong queue source")
+    repo.git("merge-base", "--is-ancestor", d["source_commit"], "origin/master")
     row = open_rows(repo.read(QUEUE, d["source_commit"])).get(wq)
-    if row is None or row["row"] != d["queue_row"] or d["record"] != {"wq_id": wq, "units": [unit_for(row)]}:
+    options = source_for(repo, row, d["source_commit"]) if row and d["kind"].endswith("/2") else None
+    if d["kind"].endswith("/2") and (options is None or d["options_source"] != options):
+        raise ValueError("Saved choices differ from published source")
+    if row is None or row["row"] != d["queue_row"] or d["record"] != {"wq_id": wq, "units": [unit_for(row, options)]}:
         raise ValueError("Saved queue terms differ from published source")
     if row["blocked"] or r["unit_id"] != wq + ".queue" or r["id"] != event["id"] or r["display_hash"] != digest(d):
         raise ValueError("Wrong or blocked queue response identity")
     allowed = {"reply", "request_changes", "defer"}
+    if options:
+        allowed.add("choose")
     if row["kind"] == "HANDS":
         allowed.add("report_done")
-    if r["action"] not in allowed or r["choice_id"] is not None or event["selected_choice"] is not None:
-        raise ValueError("Queue reply cannot infer or select an option")
+    if r["action"] not in allowed:
+        raise ValueError("Queue reply cannot infer an option")
+    choices = {c["id"]: c for c in options["choices"]} if options else {}
+    if r["action"] == "choose":
+        if r["choice_id"] not in choices or event["selected_choice"] != choices[r["choice_id"]]:
+            raise ValueError("Selected option does not preserve the shown meaning")
+    elif r["choice_id"] is not None or event["selected_choice"] is not None:
+        raise ValueError("A text reply, deferral or question cannot select an option")
     if not isinstance(r["note"], str) or not isinstance(r["revisit"], str):
         raise ValueError("Reply must preserve text")
     if r["action"] in {"reply", "request_changes"} and not r["note"].strip():
@@ -126,9 +142,14 @@ class QueueStore(Store):
         if not (published["row"] == current["row"] == head["row"]):
             raise ValueError("Queue terms changed or are not yet published; refresh after PROME finishes")
         import hashlib
-        return {"kind": "decisions-queue-display/1", "record": {"wq_id": self.wq, "units": [unit_for(current)]},
+        options = source_for(self.repo, current, commit, current=True)
+        result = {"kind": "decisions-queue-display/2" if options else "decisions-queue-display/1",
+                "record": {"wq_id": self.wq, "units": [unit_for(current, options)]},
                 "source_path": QUEUE, "source_commit": commit, "queue_row": current["row"],
                 "presentation_sha256": hashlib.sha256((HERE / "desk.html").read_bytes()).hexdigest()}
+        if options:
+            result["options_source"] = options
+        return result
 
     def current(self):
         return self.source()["record"]
@@ -143,6 +164,10 @@ class QueueStore(Store):
         d = self.source()
         if any(snapshot[k] != d[k] for k in ("record", "queue_row", "presentation_sha256")):
             raise ValueError("Terms changed; refresh and review your answer again")
+        # Unrelated commits may advance the pin, but the exact option text must agree.
+        for key in ("path", "text", "choices"):
+            if (snapshot.get("options_source") or {}).get(key) != (d.get("options_source") or {}).get(key):
+                raise ValueError("Option terms changed; refresh and review your answer again")
         if d["record"]["units"][0]["blocked"]:
             raise ValueError("PROME marked this item waiting on someone else")
 

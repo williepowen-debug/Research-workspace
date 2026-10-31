@@ -64,7 +64,7 @@ def sync(repo):
                 "origin": repo.git("rev-parse", "origin/master").strip()}
 
 
-def deliver(repo, event):
+def deliver(repo, event, guard=None):
     """Explicit button only, after acceptance. Exact immutable response plus one inbox pointer."""
     validate(repo, event)
     path = event_path(event)
@@ -83,6 +83,8 @@ def deliver(repo, event):
             "confirmation. Preserve conditions verbatim. A task report is not evidence that an owner verified completion. "
             "Never infer completion from a receipt. The app does not change the queue or launch an agent.\n")
     with locked(repo):
+        if guard:
+            guard()
         if repo.path(processed).exists():
             packet = processed
         target = repo.path(packet, "PROME/inbox")
@@ -94,6 +96,14 @@ def deliver(repo, event):
             with target.open("x") as out:
                 out.write(text)
         paths = [path, packet]
+        def exact_working_files():
+            if repo.git("branch", "--show-current").strip() != "master":
+                raise ValueError("Checkout changed during delivery")
+            for name, expected in ((path, payload), (packet, text)):
+                if repo.path(name).read_text() != expected:
+                    raise ValueError("Delivery file changed during Send; preserved for reconciliation")
+            if guard:
+                guard()
         checks = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md", packet]
         for name in checks:
             with repo.path(name).open("rb") as stream:
@@ -103,12 +113,16 @@ def deliver(repo, event):
         subprocess.run(["bash", "scripts/orphan_check.sh", "CATO"], cwd=repo.root,
                        check=True, capture_output=True, text=True, timeout=30)
         # A pathspec commit preserves unrelated staged work. No directory staging.
+        exact_working_files()
         repo.git("add", "--", *paths)
         changed = repo.git("diff", "--cached", "--name-only", "--", *paths).strip()
         if changed:
             repo.git("commit", "-m", f"CATO -> PROME: deliver Decisions response {eid[:12]}",
                      "-m", "Implemented-by: CATO", "--", *paths)
         commit = repo.git("rev-parse", "HEAD").strip()
+        exact_working_files()
+        if repo.read(path, commit) != payload or repo.read(packet, commit) != text:
+            raise ValueError("Committed delivery differs; publication stopped for reconciliation")
         output = subprocess.run(["bash", "scripts/safe-push.sh"], cwd=repo.root,
                                 capture_output=True, text=True, timeout=120)
         if output.returncode:

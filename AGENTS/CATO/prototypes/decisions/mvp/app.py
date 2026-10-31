@@ -10,26 +10,31 @@ import threading
 import webbrowser
 
 import delivery
+import history
 from pilot_files import PilotStore, Repo, RESPONSES, RECEIPTS, strict_json
 from queue_store import QueueStore, QUEUE, REPLIES, open_rows, unit_for
 from server import make_server
 from store import HERE, identifier, reader
 
 ACCEPTANCE = "PROME/decisions/app-acceptance.json"
-BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py")
+BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py")
 PILOT_SOURCE = "PROME/proposals/2026-10-30_wq558-l884-pilot-source.md"
 POWERSHELL = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"
 
 
 def build_hashes():
     values = {name: hashlib.sha256((HERE / name).read_bytes()).hexdigest() for name in BUILD_FILES}
-    for name in ("PROME/tools/willq_view.py", "AGENTS/CATO/prototypes/decisions/comparison/render.py"):
+    for name in ("PROME/tools/willq_view.py", "AGENTS/CATO/prototypes/decisions/comparison/render.py",
+                 "scripts/safe-push.sh", "scripts/install-git-hooks.sh", "scripts/claim_check.py", "scripts/orphan_check.sh",
+                 "scripts/githooks/commit-msg", "scripts/githooks/pre-commit", "scripts/githooks/pre-push", "scripts/account_guard.py"):
         values[name] = hashlib.sha256((reader.ROOT / name).read_bytes()).hexdigest()
     return values
 
 
 def accepted(repo):
     try:
+        if repo.git("config", "--get", "core.hooksPath").strip() != "scripts/githooks":
+            raise ValueError("Expected the repository's reviewed Git hooks")
         raw = repo.read(ACCEPTANCE, clean=True, prefix="PROME/decisions")
         if repo.read(ACCEPTANCE, "origin/master") != raw:
             raise ValueError("Acceptance is not published")
@@ -55,8 +60,11 @@ class Desk:
         self.lock = threading.RLock()
         self.sync_receipt = None
         self.stores = {}
+        self.loaded_hashes = build_hashes()
 
     def permissions(self):
+        if build_hashes() != self.loaded_hashes:
+            return False, "Application files changed. Reopen Decisions before responding."
         ok, reason = accepted(self.repo)
         return self.requested and ok, reason or ("Preview only." if not self.requested else "")
 
@@ -79,7 +87,11 @@ class Desk:
             ids = set(rows)
             for path in self.state.glob("queue-*.sqlite3"):
                 wq = path.stem.removeprefix("queue-")
-                if re.fullmatch(r"[1-9][0-9]*[a-z]?", wq):
+                if (re.fullmatch(r"[1-9][0-9]*[a-z]?", wq)
+                        and self.queue_store(wq, enabled).responses()["events"]):
+                    # Viewing creates a snapshot cache, not a pending answer.
+                    # A later owner closure must not turn an empty cache into
+                    # a missing-source error that disables the whole desk.
                     ids.add(wq)
             for path in self.repo.files(REPLIES):
                 try:
@@ -137,7 +149,9 @@ class Desk:
             if errors:
                 for card in cards:
                     card["can_respond"] = False
+            rulings = history.recent(self.repo)
             return {"mode": "decisions-desk", "cards": cards, "errors": errors, "limit": limit,
+                    "rulings": rulings,
                     "can_deliver": enabled and not errors, "sync": self.sync_receipt,
                     "head": self.repo.git("rev-parse", "HEAD").strip()}
 
@@ -163,10 +177,13 @@ class Desk:
                 state = self.display()
                 if not state["can_deliver"]:
                     raise ValueError("Delivery is unavailable until final acceptance or reconciliation")
-                event = next((e for c in state["cards"] for e in c.get("events", []) if e["id"] == eid), None)
+                event = next((c["last"] for c in state["cards"] if c.get("last") and c["last"]["id"] == eid), None)
                 if event is None:
-                    raise ValueError("Saved response not found")
-                return delivery.deliver(self.repo, event)
+                    raise ValueError("Only the latest saved response can be delivered; review its replacement")
+                def guard():
+                    if not self.permissions()[0]:
+                        raise ValueError("Acceptance or application changed during delivery; reopen Decisions")
+                return delivery.deliver(self.repo, event, guard=guard)
             raise ValueError("Unknown desk operation")
 
 

@@ -16,6 +16,14 @@
           "pass": true
         },
         {
+          "name": "Explicit Send publishes saved fixture response without inventing receipt",
+          "pass": true
+        },
+        {
+          "name": "Recent rulings preserve answer time, write time and corrections as text",
+          "pass": true
+        },
+        {
           "name": "Task deferral keeps its return condition",
           "pass": true
         },
@@ -24,7 +32,7 @@
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-5e5vugfy/desktop.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-q8knyxgk/desktop.png"
     },
     "narrow": {
       "checks": [
@@ -41,6 +49,14 @@
           "pass": true
         },
         {
+          "name": "Explicit Send publishes saved fixture response without inventing receipt",
+          "pass": true
+        },
+        {
+          "name": "Recent rulings preserve answer time, write time and corrections as text",
+          "pass": true
+        },
+        {
           "name": "Task deferral keeps its return condition",
           "pass": true
         },
@@ -49,7 +65,7 @@
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-5e5vugfy/narrow.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-q8knyxgk/narrow.png"
     },
     "actual-history": {
       "checks": [
@@ -66,24 +82,42 @@
           "pass": true
         },
         {
+          "name": "Real ruling correction keeps both answer and write times",
+          "pass": true
+        },
+        {
+          "name": "Saved time and receipt time are distinct labels",
+          "pass": true
+        },
+        {
           "name": "Layout fits viewport",
           "pass": true
         }
       ],
-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-5e5vugfy/actual-history.png"
+      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-q8knyxgk/actual-history.png"
     }
   },
   "build_hashes": {
-    "app.py": "c87b3f02ae2a8fd96303660d072d2dc863c2886a1bf82d442f0945efd2c4c382",
-    "desk.html": "8336b862204632d183c21e113925021ef67777bbe38f4e4401bf61c696dfd57d",
-    "queue_store.py": "6aa99be37626a46cd2665ced3424d7168b21152ad8761cdf015386fa9313035d",
-    "delivery.py": "3191cf14ac9c3ab28e1d3feccc1e9fdd26d7d87f98e97f34a652e137419c7548",
-    "pilot_files.py": "d0da579618b0f505bacc1633263d921ebb47293f4666f1124934461367f3f9d6",
+    "app.py": "8c1be0bc38286585fe201ced09f9fb72212ea6d937e4f70b51e42194bda67451",
+    "desk.html": "e2adddfd112b66f7c034c3f75aed7d99b9d8990be9fb678ae72600bc7d74ee67",
+    "queue_store.py": "5649628085af1584174b8470639f853230b46874864e065d29554148cb360f4b",
+    "delivery.py": "9b31aecac6b9e2ef6bf7529718593d9a06cbf301974f57b29a038e5db9f0a7cf",
+    "pilot_files.py": "9239f88cc41f42bd5c652ea85ee1539dec26f4624805e632a1f4cf0752f006aa",
     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
     "server.py": "80cabaf8a5a3b16ecf54f331fada8a7a0273243f52ba67f5ea0970260acb3892",
     "owner_receipt.py": "38d433ca2087ee239f288457f14d6127d4731424ae8383bb9332129fd6f9b843",
+    "options.py": "7cb9e82fdd0279489c613d403b02031aeb6b87024fe22ce34d93df653ef371a0",
+    "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
     "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
-    "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229"
+    "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+    "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+    "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
+    "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
+    "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
+    "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+    "scripts/githooks/pre-commit": "7da0c8e68b01f73c3c6969297e24855752c517007f0e9e06dd4d4621cc264cba",
+    "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+    "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
   },
-  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-5e5vugfy"
+  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-q8knyxgk"
 }

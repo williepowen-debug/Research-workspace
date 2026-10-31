@@ -99,7 +99,7 @@ class Repo:
         return self.git("ls-tree", "-r", "--name-only", "HEAD", "--", prefix).splitlines()
 
 
-def record_block(text):
+def record_block(text, label="wq-record"):
     # Recognize CommonMark backtick/tilde fences, including up to three spaces.
     # Scan all fences so a nested example cannot masquerade as a record.
     blocks, fence, body, is_record = [], None, [], False
@@ -107,14 +107,14 @@ def record_block(text):
         # The adopted dialect forbids container fences and invalid backtick info.
         # Reject rather than pretending this small scanner is a Markdown parser.
         if re.match(r"\s*(?:>\s*|[-+*]\s+|\d+[.)]\s+)+(?:.*?)(?:`{3,}|~{3,})", line):
-            raise ValueError("Expected exactly one top-level wq-record block; container fences are unsupported")
+            raise ValueError(f"Expected exactly one top-level {label} block; container fences are unsupported")
         if fence is None:
             opening = re.fullmatch(r" {0,3}(`{3,}|~{3,})([^\r\n]*)", line)
             if opening:
                 fence, info = opening.groups()
                 if fence[0] == "`" and "`" in info:
                     raise ValueError("Invalid backtick fence info; ambiguous record source")
-                is_record = info.strip().split(None, 1)[:1] == ["wq-record"]
+                is_record = info.strip().split(None, 1)[:1] == [label]
                 body = []
         elif re.fullmatch(r" {0,3}" + re.escape(fence[0]) + "{" + str(len(fence)) + r",}[ \t]*", line):
             if is_record:
@@ -123,9 +123,9 @@ def record_block(text):
         else:
             body.append(line)
     if fence is not None and is_record:
-        raise ValueError("Unclosed wq-record block")
+        raise ValueError(f"Unclosed {label} block")
     if len(blocks) != 1:
-        raise ValueError("Expected exactly one wq-record block")
+        raise ValueError(f"Expected exactly one {label} block")
     return strict_json(blocks[0])
 
 
