@@ -1,0 +1,5 @@
+ARCHIVE CHECK: 4 staged WALTER deletion(s), 4 need review
+UNPAIRED OR EDITED: AGENTS/WALTER/inbox/2026-10-30_from-HENRY_put-wall-7700-broken-on-close-gamma-negative-all-three.md; supply exact archive addition or split_verify proof
+UNPAIRED OR EDITED: AGENTS/WALTER/inbox/2026-10-30_from-PROME_board-spec-five-dead-pointers-firetime.md; supply exact archive addition or split_verify proof
+UNPAIRED OR EDITED: AGENTS/WALTER/inbox/2026-10-31_from-PROME_yuri-side-finding-aleshki-ceasefire.md; supply exact archive addition or split_verify proof
+UNPAIRED OR EDITED: AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261031a_diesel-1436-producer-exemption-deleted.md; supply exact archive addition or split_verify proof

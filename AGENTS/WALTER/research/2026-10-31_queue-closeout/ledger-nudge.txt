@@ -1,0 +1,5 @@
+ℹ️  nudge: [WALTER] event-driven: corrections_receipts.tsv (38 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-23) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: REG_THRESHOLDS_FIRED_LOG.tsv (35 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-25) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: FALSIFICATION_FIRED_LOG.tsv (35 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-25) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: DEEP_RESEARCH_FLAGGED_LOG.tsv (10 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-15) — confirm the re-pull clock moved
+ℹ️  nudge: [WALTER] event-driven: DOORBELL_LOG.tsv (3 STATUS-writes behind — absence expected by declaration; re-pull attempted 2026-10-23) — confirm the re-pull clock moved

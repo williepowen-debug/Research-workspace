@@ -1,0 +1,30 @@
+[
+  {
+    "original": "eee287123:AGENTS/WALTER/inbox/2026-10-30_from-HENRY_put-wall-7700-broken-on-close-gamma-negative-all-three.md",
+    "archive": "AGENTS/WALTER/inbox/processed/2026-10-30_from-HENRY_put-wall-7700-broken-on-close-gamma-negative-all-three.md",
+    "sha256_both": "c3ed25bccc77f8054b455dd06d2c3d48aab34dfbbb77e93a3032b0c56cbdae8e",
+    "equal_bytes": true,
+    "split_verify_output": "source      : eee287123:AGENTS/WALTER/inbox/2026-10-30_from-HENRY_put-wall-7700-broken-on-close-gamma-negative-all-three.md\ndestinations: AGENTS/WALTER/inbox/processed/2026-10-30_from-HENRY_put-wall-7700-broken-on-close-gamma-negative-all-three.md\nsource lines: 8 (8 distinct)\noutput lines: 8\nadded (scaffolding, expected): 0\n\n\u2705 CONSERVED: every source line appears in the outputs. Nothing lost.\n"
+  },
+  {
+    "original": "eee287123:AGENTS/WALTER/inbox/2026-10-30_from-PROME_board-spec-five-dead-pointers-firetime.md",
+    "archive": "AGENTS/WALTER/inbox/processed/2026-10-30_from-PROME_board-spec-five-dead-pointers-firetime.md",
+    "sha256_both": "e12180f8fe7fda394b049802053bc4c00fcf64da1d46548b069c129596393a34",
+    "equal_bytes": true,
+    "split_verify_output": "source      : eee287123:AGENTS/WALTER/inbox/2026-10-30_from-PROME_board-spec-five-dead-pointers-firetime.md\ndestinations: AGENTS/WALTER/inbox/processed/2026-10-30_from-PROME_board-spec-five-dead-pointers-firetime.md\nsource lines: 24 (17 distinct)\noutput lines: 24\nadded (scaffolding, expected): 0\n\n\u2705 CONSERVED: every source line appears in the outputs. Nothing lost.\n"
+  },
+  {
+    "original": "eee287123:AGENTS/WALTER/inbox/2026-10-31_from-PROME_yuri-side-finding-aleshki-ceasefire.md",
+    "archive": "AGENTS/WALTER/inbox/processed/2026-10-31_from-PROME_yuri-side-finding-aleshki-ceasefire.md",
+    "sha256_both": "c9baab5eeffe6166b6e8d1c8430f52dfaa71e88229f7763eadf95c0d734026fc",
+    "equal_bytes": true,
+    "split_verify_output": "source      : eee287123:AGENTS/WALTER/inbox/2026-10-31_from-PROME_yuri-side-finding-aleshki-ceasefire.md\ndestinations: AGENTS/WALTER/inbox/processed/2026-10-31_from-PROME_yuri-side-finding-aleshki-ceasefire.md\nsource lines: 10 (7 distinct)\noutput lines: 10\nadded (scaffolding, expected): 0\n\n\u2705 CONSERVED: every source line appears in the outputs. Nothing lost.\n"
+  },
+  {
+    "original": "eee287123:AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261031a_diesel-1436-producer-exemption-deleted.md",
+    "archive": "AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261031a_diesel-1436-producer-exemption-deleted.md",
+    "sha256_both": "48e3a9104b7cf105d58136ea8248b15f40a7ca73754a34e793ad818d522e1c49",
+    "equal_bytes": true,
+    "split_verify_output": "source      : eee287123:AGENTS/WALTER/inbox/SIG-YURI-WALTER-20261031a_diesel-1436-producer-exemption-deleted.md\ndestinations: AGENTS/WALTER/inbox/processed/SIG-YURI-WALTER-20261031a_diesel-1436-producer-exemption-deleted.md\nsource lines: 6 (6 distinct)\noutput lines: 6\nadded (scaffolding, expected): 0\n\n\u2705 CONSERVED: every source line appears in the outputs. Nothing lost.\n"
+  }
+]
