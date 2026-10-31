@@ -75,3 +75,9 @@
 - L839 — October23 → October 23
 
 **Count:** 157 glue points (insert one space each).
+
+## Read log
+- **Plan read** 21:0x ET (blind Sonnet coldreader; ledger `wq560-docket-plan-read.md` in PROME's session scratchpad): **PROCEED WITH FIXES — 0 ❌ · 5 ⚠️.** All 61 rows and 157 tokens verified; none in quotes, code spans, links, URLs, field 1 or a leading state token; the reader's patched copy kept 892 lines and tab counts and rerun to 0 flags.
+- **Declared residue:** ⚠️1 four state cells, not three, begin `RESOLVED2026-10-12` (L200, L689, L690, L691); out of scope, unchanged · ⚠️4 the pass criterion certifies the glued-DATE class only — other glue stays in these rows (`remaining740P`, `sell1 at6.71`); the file is "glued-date class re-spaced", not clean of glue · ⚠️5 the invariant's trailing "— check" was an instruction; the test used is recorded below. **Adopted in execution:** ⚠️2 `PROME/state/CALENDAR.md` regenerated in the same commit · ⚠️3 scripted insertion, with a whole-file spaces-only proof.
+- **Executed** 21:10 ET by script (the checker's own patterns and masks): 157 spaces inserted on 61 lines. Whole-file comparison against the pre-edit copy: 893 split lines, unchanged count; 61 changed; 0 differences other than spaces; 0 tab-count changes; 0 field-1 changes; final newline kept; no CR. Pass criterion: `claim_check.py --check glued PROME/DOCKET.tsv` → clean, rc 0. Calendar regenerated.
+- **Result read:** PENDING.
