@@ -1,0 +1,40 @@
+{
+  "schema_version": "decisions-release-review/1",
+  "status": "author-tested; independent acceptance pending",
+  "build_hashes": {
+    "app.py": "c87b3f02ae2a8fd96303660d072d2dc863c2886a1bf82d442f0945efd2c4c382",
+    "desk.html": "8336b862204632d183c21e113925021ef67777bbe38f4e4401bf61c696dfd57d",
+    "queue_store.py": "6aa99be37626a46cd2665ced3424d7168b21152ad8761cdf015386fa9313035d",
+    "delivery.py": "3191cf14ac9c3ab28e1d3feccc1e9fdd26d7d87f98e97f34a652e137419c7548",
+    "pilot_files.py": "d0da579618b0f505bacc1633263d921ebb47293f4666f1124934461367f3f9d6",
+    "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+    "server.py": "80cabaf8a5a3b16ecf54f331fada8a7a0273243f52ba67f5ea0970260acb3892",
+    "owner_receipt.py": "38d433ca2087ee239f288457f14d6127d4731424ae8383bb9332129fd6f9b843",
+    "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+    "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229"
+  },
+  "python_checks": "65 focused tests plus one coexistence regression passed",
+  "browser_checks": 14,
+  "native_launcher": "PASS; /home/willi/.cache/research-agent-launcher/gui/558b9e0567cd49599d64fdf65dff0ca7",
+  "activation_template": {
+    "schema_version": "decisions-app-acceptance/1",
+    "queue_responses": true,
+    "matching_chat_confirmation": true,
+    "independent_review": {
+      "path": "PROME/reports/REPLACE-WITH-INDEPENDENT-REVIEW.md",
+      "commit": "REPLACE-WITH-FULL-PUBLISHED-COMMIT"
+    },
+    "build_hashes": {
+      "app.py": "c87b3f02ae2a8fd96303660d072d2dc863c2886a1bf82d442f0945efd2c4c382",
+      "desk.html": "8336b862204632d183c21e113925021ef67777bbe38f4e4401bf61c696dfd57d",
+      "queue_store.py": "6aa99be37626a46cd2665ced3424d7168b21152ad8761cdf015386fa9313035d",
+      "delivery.py": "3191cf14ac9c3ab28e1d3feccc1e9fdd26d7d87f98e97f34a652e137419c7548",
+      "pilot_files.py": "d0da579618b0f505bacc1633263d921ebb47293f4666f1124934461367f3f9d6",
+      "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+      "server.py": "80cabaf8a5a3b16ecf54f331fada8a7a0273243f52ba67f5ea0970260acb3892",
+      "owner_receipt.py": "38d433ca2087ee239f288457f14d6127d4731424ae8383bb9332129fd6f9b843",
+      "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+      "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229"
+    }
+  }
+}

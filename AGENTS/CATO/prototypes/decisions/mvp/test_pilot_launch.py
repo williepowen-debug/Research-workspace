@@ -23,9 +23,9 @@ class LaunchTests(unittest.TestCase):
             launch.make_store(Path("local.sqlite3"), True)
             self.assertTrue(store.call_args.kwargs["enable_submissions"])
 
-    def test_real_acceptance_and_reviewed_core_are_available(self):
-        repo = launch.accepted_repo()
-        self.assertEqual(repo.root, launch.reader.ROOT)
+    def test_original_acceptance_does_not_authorize_the_changed_core(self):
+        with self.assertRaisesRegex(ValueError, "Reviewed pilot code changed"):
+            launch.accepted_repo()
 
     def test_dirty_reviewed_core_prevents_launch(self):
         original = Path.read_bytes

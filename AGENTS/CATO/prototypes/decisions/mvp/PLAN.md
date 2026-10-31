@@ -1,6 +1,8 @@
 # Decisions MVP — storage, receipt and pilot plan
 
-October 30, 2026. Will's direction to proceed survives the context handoff. CATO owns the app; PROME owns source adoption, interpretation of responses and canonical rulings. This plan makes the next implementation concrete; it does not activate live intake.
+**Current completion build:** Will explicitly directed CATO to finish without checking with PROME at every step. The [current README](README.md) and [completion report](../../../runs/2026-10-30_1059_wq-decision-workflow.md#october-30--completion-build-delivery) supersede the implementation/status statements below. Daily replies preserve the existing authoritative queue; explicit Save & deliver and Sync commands now implement transport, with one final independent acceptance before activation. Structured-source authority migration remains separately scoped.
+
+**Historical initial plan (preserved):** October 30, 2026. Will's direction to proceed survives the context handoff. CATO owns the app; PROME owns source adoption, interpretation of responses and canonical rulings. This plan makes the next implementation concrete; it does not activate live intake.
 
 ## First delivery and stopping point
 

@@ -180,7 +180,9 @@ class RehearsalTests(unittest.TestCase):
         self.assertEqual(call("GET", "/api/display", extra={"Host": "foreign.example"})[0], 403)
         self.assertEqual(call("POST", "/api/responses", json.dumps(request), headers)[0], 200)
         self.assertEqual(call("POST", "/api/responses", json.dumps(request), headers)[0], 200)
-        self.assertEqual(call("POST", "/api/responses", "x" * 600001, headers)[0], 413)
+        # Reject the advertised oversize before reading it. Sending the entire
+        # body races the deliberate early close and can raise BrokenPipe client-side.
+        self.assertEqual(call("POST", "/api/responses", "", {**headers, "Content-Length": "600001"})[0], 413)
         self.assertEqual(len(self.store.responses()["events"]), 1)
 
 

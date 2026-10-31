@@ -104,10 +104,16 @@ def record_block(text):
     # Scan all fences so a nested example cannot masquerade as a record.
     blocks, fence, body, is_record = [], None, [], False
     for line in text.splitlines():
+        # The adopted dialect forbids container fences and invalid backtick info.
+        # Reject rather than pretending this small scanner is a Markdown parser.
+        if re.match(r"\s*(?:>\s*|[-+*]\s+|\d+[.)]\s+)+(?:.*?)(?:`{3,}|~{3,})", line):
+            raise ValueError("Expected exactly one top-level wq-record block; container fences are unsupported")
         if fence is None:
             opening = re.fullmatch(r" {0,3}(`{3,}|~{3,})([^\r\n]*)", line)
             if opening:
                 fence, info = opening.groups()
+                if fence[0] == "`" and "`" in info:
+                    raise ValueError("Invalid backtick fence info; ambiguous record source")
                 is_record = info.strip().split(None, 1)[:1] == ["wq-record"]
                 body = []
         elif re.fullmatch(r" {0,3}" + re.escape(fence[0]) + "{" + str(len(fence)) + r",}[ \t]*", line):
@@ -372,6 +378,25 @@ def import_responses(repo, store, wq_id, unit_id):
             db.execute("INSERT OR REPLACE INTO heads VALUES (?, ?)", (unit_id, ordered[-1]["id"]))
         db.commit()
     store.visible_response_ids = set(combined)
+    committed_responses = set(repo.files(RESPONSES))
+    queue_responses = set(repo.files("AGENTS/CATO/decisions/queue-responses"))
+    # A retired event must not erase the fact that its owner issued a receipt.
+    for path in repo.files(RECEIPTS):
+        match = re.fullmatch(re.escape(RECEIPTS) + r"/([0-9a-f]{32})/[0-9a-f]{32}\.json", path)
+        if not match:
+            raise ValueError("Unexpected owner receipt path")
+        event_path = f"{RESPONSES}/{match[1]}.json"
+        if event_path not in committed_responses:
+            queue_path = f"AGENTS/CATO/decisions/queue-responses/{match[1]}.json"
+            if queue_path in queue_responses:
+                # The daily desk's separate dialect has its own validator. It
+                # must not mask a retired response belonging to this pilot.
+                from queue_store import validate_reply
+                other = strict_json(repo.read(queue_path, clean=True))
+                if other.get("display", {}).get("record", {}).get("wq_id") != wq_id:
+                    validate_reply(repo, other, other["display"]["record"]["wq_id"])
+                    continue
+            errors.append({"path": path, "reason": "Owner receipt has no committed response; reconciliation required"})
     return len(combined) - len(existing)
 
 
@@ -404,6 +429,10 @@ def read_receipts(repo, event):
                 fields(ref, {"path", "commit"}, key)
                 if not re.fullmatch(r"[0-9a-f]{40}", ref["commit"]):
                     raise ValueError("Receipt evidence must be pinned")
+                try:
+                    repo.git("merge-base", "--is-ancestor", ref["commit"], "origin/master")
+                except subprocess.CalledProcessError as error:
+                    raise ValueError("Receipt evidence is missing or unpublished; reconciliation required") from error
                 repo.read(ref["path"], ref["commit"], prefix="PROME/proposals")
             if not receipt["canonical_ruling"]["path"].endswith("-RULED.md"):
                 raise ValueError("Canonical integration requires a ruling record")
@@ -482,11 +511,6 @@ class PilotStore(Store):
             # A bad history must not hide the proposal or create permission.
             self.import_errors = [{"path": RESPONSES, "reason": str(error)}]
             self.visible_response_ids = set()
-        record = self.current()
-        displayed = self.make_snapshot(record)
-        key = digest(displayed)
-        with self.connection() as db:
-            db.execute("INSERT OR IGNORE INTO snapshots VALUES (?, ?)", (key, encoded(displayed)))
         responses = self.responses()
         responses["events"] = [e for e in responses["events"] if e["id"] in self.visible_response_ids]
         responses["heads"] = ({self.unit_id: chain(responses["events"], "id", lambda e: e["request"]["supersedes"])[-1]["id"]}
@@ -494,22 +518,48 @@ class PilotStore(Store):
         responses["integrated"] = {}
         responses["receipt_history"], responses["receipts"], responses["delivery"] = [], {}, {}
         for event in responses["events"]:
-            receipts = read_receipts(self.repo, event)
+            try:
+                receipts = read_receipts(self.repo, event)
+            except (ValueError, OSError, subprocess.CalledProcessError) as error:
+                self.import_errors.append({"path": f"{RECEIPTS}/{event['id']}", "reason": str(error)})
+                receipts = []
             responses["receipt_history"].extend(receipts)
             if receipts:
                 responses["receipts"][event["id"]] = receipts[-1]
                 if receipts[-1]["state"] == "integrated":
                     responses["integrated"][self.unit_id] = receipts[-1]
             responses["delivery"][event["id"]] = delivery_status(self.repo, event)
+        integrated = responses["integrated"].get(self.unit_id)
+        historical = False
+        if integrated:
+            # A ruling consumes the live queue row. Its exact saved terms remain
+            # the display authority for this historical answer, never for a save.
+            displayed = next(e["display"] for e in responses["events"]
+                             if e["id"] == integrated["response_id"])
+            historical = True
+        else:
+            try:
+                displayed = self.source()
+            except (ValueError, OSError, subprocess.CalledProcessError) as error:
+                if not responses["events"]:
+                    raise
+                displayed = responses["events"][-1]["display"]
+                historical = True
+                self.import_errors.append({"path": self.source_path,
+                                           "reason": "Saved terms only; current source unavailable: " + str(error)})
+        record = displayed["record"]
+        key = digest(displayed)
+        with self.connection() as db:
+            db.execute("INSERT OR IGNORE INTO snapshots VALUES (?, ?)", (key, encoded(displayed)))
         groups = {name: [] for name in reader.GROUPS}
         unit = record["units"][0]
-        group = "Decisions" if unit["disposition"]["state"] == "awaiting_answer" else "Follow-through"
+        group = "History" if integrated else ("Decisions" if unit["disposition"]["state"] == "awaiting_answer" else "Follow-through")
         groups[group].append({"wq_id": self.wq_id, "title": record["title"], "unit": unit,
                               "sources": record["sources"], "observations": [], "corrections": record["corrections"]})
         return {"hash": key, "snapshot": displayed, "responses": responses, "groups": groups,
-                "mode": "supervised-pilot", "submissions_enabled": self.enable_submissions and not self.import_errors,
+                "mode": "supervised-pilot", "submissions_enabled": self.enable_submissions and not self.import_errors and not historical and not integrated,
                 "import_errors": self.import_errors,
-                "notice": "Pilot adapter candidate. A matching PROME-chat confirmation is required; owner completion is not inferred."}
+                "notice": "Decision recorded by PROME." if integrated else "Saved answers keep their exact terms. PROME records the ruling after matching chat confirmation."}
 
     def save(self, request):
         if not self.enable_submissions:

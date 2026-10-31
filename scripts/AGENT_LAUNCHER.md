@@ -182,13 +182,13 @@ settings or groups. The main window is still shared. Limits are 1 MiB per file,
 package, model call, automatic Git pull or research refresh is installed.
 The source configuration is `scripts/research_sources.json`.
 
-## Decisions pilot
+## Decisions
 
-The **Decisions** tab opens the accepted WQ-558 proposal in a local browser. **Open proposal preview** starts a separate window and keeps answering disabled. Keep that window open while reading; Ctrl+C stops the service. This does not start an agent or touch the agent launch queue/history.
+The **Decisions** tab opens the local daily desk with **Open Decisions**. It reads the existing queue, personal tasks, saved replies and owner receipts. Response controls are near the top of each actionable item; full conditions remain in the review. The completed WQ-558 pilot is retained in History. This starts no agent and does not touch the agent launch queue/history.
 
-**Check this computer** runs a GET-only check through Python and Windows using a temporary database. It prints the Windows computer name, source revision and connection results. It creates no answer or receipt. After the repository update reaches the laptop, run this check there and open the preview. The desktop check has been demonstrated; the actual laptop check remains required before live use. Existing installed shortcuts load these repository scripts; no reinstall is needed.
+**Check this computer** reads the desk and reports source errors without saving an answer. Existing installed shortcuts read the current repository scripts; no reinstall is needed. The command is `python3 -B AGENTS/CATO/prototypes/decisions/mvp/app.py --open-browser`.
 
-The launch command is `python3 -B AGENTS/CATO/prototypes/decisions/mvp/pilot_launch.py --open-browser`. It accepts only WQ-558 / 558.L884, verifies published PROME acceptance and the reviewed core files, and defaults to preview. The supervised answer command is reserved for CATO's supervised pilot after both-device checks; the launcher does not select it yet. A saved answer still needs exact-file Git delivery and matching confirmation in PROME chat. See the [pilot run instructions](../AGENTS/CATO/prototypes/decisions/mvp/README.md).
+The completion build opens read-only until its final independently accepted build record is published by PROME. After acceptance, Save & deliver preserves the reply and transports its exact file plus an inbox pointer. PROME retains ruling/receipt ownership and matching-chat confirmation. The app does not replace the authoritative queue. [Usage, acceptance, owner commands and rollback](../AGENTS/CATO/prototypes/decisions/mvp/README.md).
 
 ## Activity dates and highlighting
 

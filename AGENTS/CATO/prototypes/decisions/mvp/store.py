@@ -50,6 +50,7 @@ class Store:
     event_kind = "synthetic-response/1"
     synthetic = True
     identity = "local rehearsal session; not authenticated Will authority"
+    reply_allowed = False
 
     def __init__(self, path, loader=demo_record):
         self.path = Path(path)
@@ -148,13 +149,15 @@ class Store:
                 raise ValueError("This unit is unavailable for a rehearsal response")
             action = request["action"]
             allowed = {"choose", "defer", "request_changes"} if unit["kind"] == "decision" else {"report_done", "defer", "request_changes"}
+            if self.reply_allowed:
+                allowed.add("reply")
             if action not in allowed:
                 raise ValueError("Action does not belong to this unit")
             choices = {c["id"]: c for c in unit["proposal"]["choices"]}
             choice = choices.get(request["choice_id"])
             if (action == "choose" and choice is None) or (action != "choose" and request["choice_id"] is not None):
                 raise ValueError("Selected choice and response action disagree")
-            if action == "request_changes" and not request["note"].strip():
+            if action in {"request_changes", "reply"} and not request["note"].strip():
                 raise ValueError("A question or change request needs your words")
             if action != "defer" and request["revisit"]:
                 raise ValueError("Return condition belongs to a deferral")

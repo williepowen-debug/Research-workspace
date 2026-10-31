@@ -398,6 +398,98 @@ class PilotFileTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Wrong owner"):
             self.repo.read("AGENTS/CATO/claims.md", prefix="PROME/proposals")
 
+    def integrated_fixture(self):
+        event = self.event()
+        self.put("PROME/proposals/closed-RULED.md", "Fictional ruling and matching confirmation")
+        self.commit()
+        receipt = self.receipt(event, "integrated")
+        ref = {"path": "PROME/proposals/closed-RULED.md", "commit": self.git("rev-parse", "HEAD").strip()}
+        receipt.update(canonical_ruling=ref, chat_confirmation=ref, confirmed_response_sha256=event["sha256"])
+        self.write_receipt(receipt)
+        self.put("PROME/WILL_QUEUE.md", "| **900 — completed fixture** | Done |\n")
+        self.commit()
+        return event, receipt
+
+    def test_closed_queue_restores_integrated_history_and_refuses_new_answers(self):
+        event, receipt = self.integrated_fixture()
+        other = self.new_store("closed.sqlite3", enabled=True)
+        display = other.display()
+        self.assertEqual(display["responses"]["events"], [event])
+        self.assertEqual(display["responses"]["integrated"]["900.READER"], receipt)
+        self.assertEqual(len(display["groups"]["History"]), 1)
+        self.assertFalse(display["submissions_enabled"])
+        with self.assertRaisesRegex(ValueError, "already integrated"):
+            other.save(self.request(display_hash=display["hash"], supersedes=event["id"]))
+
+    def test_missing_queue_without_receipt_preserves_history_without_permission(self):
+        event = self.event()
+        self.put("PROME/WILL_QUEUE.md", "Question removed elsewhere\n")
+        self.commit()
+        display = self.new_store("missing-row.sqlite3", enabled=True).display()
+        self.assertEqual(display["responses"]["events"], [event])
+        self.assertFalse(display["submissions_enabled"])
+        self.assertIn("Saved terms only", display["import_errors"][0]["reason"])
+        self.assertFalse(display["responses"]["integrated"])
+
+    def test_container_and_invalid_info_record_fences_fail(self):
+        original = (self.root / self.source_path).read_text()
+        for prefix in ["> ", "- ", "1. ", "  > - "]:
+            with self.subTest(prefix=prefix), self.assertRaises(ValueError):
+                pilot.record_block(original + prefix + "```wq-record\n{}\n```\n")
+        with self.assertRaisesRegex(ValueError, "Invalid backtick"):
+            pilot.record_block(original + "```x`y\n```wq-record\n{}\n```\n")
+
+    def test_orphan_receipt_blocks_new_response_in_fresh_store(self):
+        event = self.event()
+        self.write_receipt(self.receipt(event))
+        self.commit()
+        (self.root / pilot.RESPONSES / (event["id"] + ".json")).unlink()
+        self.commit()
+        other = self.new_store("orphan.sqlite3", enabled=True)
+        display = other.display()
+        self.assertFalse(display["submissions_enabled"])
+        self.assertIn("no committed response", display["import_errors"][0]["reason"])
+        with self.assertRaisesRegex(ValueError, "reconciliation"):
+            other.save(self.request(display_hash=display["hash"]))
+
+    def test_bad_receipt_pin_remains_visible_and_disables_answers(self):
+        event, receipt = self.integrated_fixture()
+        receipt["canonical_ruling"] = {**receipt["canonical_ruling"], "commit": "f" * 40}
+        self.write_receipt(receipt)
+        self.commit()
+        display = self.new_store("bad-pin.sqlite3", enabled=True).display()
+        self.assertEqual(display["responses"]["events"], [event])
+        self.assertFalse(display["responses"]["integrated"])
+        self.assertFalse(display["submissions_enabled"])
+        self.assertTrue(any("missing or unpublished" in e["reason"] for e in display["import_errors"]))
+
+    def test_actual_producer_closed_pilot_restores_without_reopening(self):
+        real = pilot.Repo(reader.ROOT)
+        with tempfile.TemporaryDirectory() as tmp:
+            store = pilot.PilotStore(Path(tmp) / "real-read.sqlite3", real,
+                    "PROME/proposals/2026-10-30_wq558-l884-pilot-source.md", "558", "558.L884")
+            display = store.display()
+            self.assertEqual(display["responses"]["integrated"]["558.L884"]["response_id"],
+                             "383f964ca28f4421817310393b307e32")
+            self.assertEqual(display["import_errors"], [])
+            self.assertFalse(display["submissions_enabled"])
+
+    def test_daily_reply_receipt_does_not_break_closed_pilot_history(self):
+        from queue_store import QueueStore
+        event, receipt = self.integrated_fixture()
+        self.put("PROME/WILL_QUEUE.md", "## OPEN\n| # | Item | Type | Needed by | Since | PROME rec | Notes |\n"
+                 "|---|---|---|---|---|---|---|\n| 901 | Fictional next question | DECISION | 2026-11-06 | 10/30 | Reply | Caveat |\n")
+        self.commit()
+        daily = QueueStore(Path(self.temp.name) / "daily.sqlite3", self.repo, "901", True)
+        d = daily.display()
+        reply = daily.save({"id": uuid.uuid4().hex, "display_hash": d["hash"], "unit_id": "901.queue",
+                            "action": "reply", "choice_id": None, "note": "A with conditions",
+                            "revisit": "", "supersedes": None})
+        self.write_receipt(self.receipt(reply)); self.commit()
+        restored = self.new_store("coexist.sqlite3").display()
+        self.assertFalse(restored["import_errors"])
+        self.assertEqual(restored["responses"]["integrated"]["900.READER"], receipt)
+
 
 if __name__ == "__main__":
     unittest.main()

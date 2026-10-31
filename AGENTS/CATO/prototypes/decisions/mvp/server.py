@@ -39,7 +39,7 @@ def make_server(store, port=0):
                 return self.send(403, {"error": "Unexpected host"})
             try:
                 if self.path == "/":
-                    html = (HERE / "index.html").read_text(encoding="utf-8")
+                    html = getattr(store, "html_path", HERE / "index.html").read_text(encoding="utf-8")
                     return self.send(200, html.replace("__CAPABILITY__", json.dumps(capability)), "text/html")
                 if self.path == "/api/display":
                     return self.send(200, store.display())
@@ -56,7 +56,7 @@ def make_server(store, port=0):
             if (not self.host_ok() or self.headers.get("Origin") != "http://" + self.expected_host()
                     or not secrets.compare_digest(self.headers.get("X-Decisions-Session", ""), capability)):
                 return self.send(403, {"error": "Local session validation failed"})
-            if self.path != "/api/responses":
+            if self.path not in {"/api/responses", "/api/sync", "/api/deliver"}:
                 return self.send(404, {"error": "Unknown route"})
             if self.headers.get("Content-Type") != "application/json":
                 return self.send(415, {"error": "JSON required"})
@@ -66,6 +66,10 @@ def make_server(store, port=0):
                     return self.send(413, {"error": "Response exceeds request limit"})
                 self.connection.settimeout(10)
                 request = json.loads(self.rfile.read(size))
+                if self.path != "/api/responses":
+                    if not hasattr(store, "operate"):
+                        return self.send(404, {"error": "This mode has no transport operations"})
+                    return self.send(200, store.operate(self.path, request))
                 return self.send(200, store.save(request))
             except (ValueError, TypeError) as error:
                 return self.send(409, {"error": str(error)})
