@@ -194,5 +194,13 @@
     "doctor": "Inherited CATO exact consumption gap retained; no new findings.",
     "ledger-nudge": "No new market events; do not fabricate ledger refresh for maintenance writes.",
     "central-manifest": "Exact READ retirement/transcription packet authored; owner action pending."
+  },
+  "receipt_after_commit": {
+    "as_of": "2026-10-31T23:28:00Z",
+    "payload_commit": "e5ae4142647db3590a7340ad59dd8c8421a843a9",
+    "origin_ref": "b55973ce36f8ae09cb59217b04f2966097b69bc4",
+    "publication_state": "pending",
+    "rc": 0,
+    "output_text": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"as_of\": \"2026-10-31T23:28:00Z\",\n  \"origin_ref\": \"b55973ce36f8ae09cb59217b04f2966097b69bc4\",\n  \"delivery_scope\": \"20261031\",\n  \"delivered\": 74,\n  \"total\": 74,\n  \"next_review\": \"2026-11-02\",\n  \"limits\": \"Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.\"\n}\n"
   }
 }
