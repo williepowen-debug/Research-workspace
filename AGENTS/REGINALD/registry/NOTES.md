@@ -334,7 +334,11 @@ The cohort was selected under **ratio-era priors**: MTB, HBAN and VLY were admit
 - **2026-10-10, window 7/1–10/9 = NONE.**
   - WAL: 10-Q, 8-Ks 7/21 (2.02) and 7/30 (8.01), Forms 4, 13G. No 424B, S-1/S-3/S-4 or 3.02.
   - EGBN: 10-Q, 8-Ks 7/06 (5.02) and 7/22 (2.02), 8-K/A 9/14 (5.02), **S-8 8/07 (CEO inducement plan — recorded, not a raise)**, Forms 3/4, 13G.
-- **Next scans:** 2026-10-31 · 2026-11-30 · **2027-01-05 (final, covering through 12/31).**
+- **2026-10-31 09:39 ET (`date`), window 10/9–10/31 = NONE** (EDGAR submissions API; filer names verified WESTERN ALLIANCE BANCORPORATION / EAGLE BANCORP INC).
+  - WAL: 8-K 10/19 (2.02, Q3 results), Forms 4 ×10 10/19, 10-Q 10/30 (acc 0001628280-26-068599), 8-K 10/30 (8.01: common dividend $0.46 and Series A preferred dividend; acc 0001628280-26-068622), SC 13G/A 10/30. No 424B, S-1/S-3/S-4, 8-K 1.01 or 3.02.
+  - EGBN: Form 4 10/19, 8-K 10/21 (2.02/7.01/9.01, Q3 results; acc 0001050441-26-000110). No 424B, S-1/S-3/S-4, 8-K 1.01 or 3.02. No sub-debt issuance seen at either bank, so nothing to flag to Will.
+  - Row state unchanged: OPEN, 10%. Counted issuance H2 to date: none.
+- **Next scans:** ~~2026-10-31~~ (done) · 2026-11-30 · **2027-01-05 (final, covering through 12/31).**
 
 **Resolution:** TRUE on the first counted issuance in H2 2026. FALSE if the 2027-01-05 scan returns none.
 

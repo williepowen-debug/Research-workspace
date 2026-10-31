@@ -49,7 +49,7 @@
 |---|---|---|
 | **Wed10/21 after close; quarterly throughQ2-2027** | **REG-27 (SSB),15%, WQ-454.REG27 APPROVED10/21** | EX-99.1 NPL/period-end loans **≥0.70%** at any print; FALSE if none throughQ2-2027. Thin base0/5, prior0.54%. Grade release,confirm10-Q. REG-07 stays VOID/unscored |
 | **Q4-2026 releases (~late Jan 2027) → 10-K deadlines Mon 2027-03-01 (VLY) · Tue 2027-03-16 (EGBN)** | **REG-28 (EGBN, 65%) · REG-29 (cohort NCO, 45%) · REG-30 (VLY, 60%)**, Will-approved 10/22 | REG-28: ≥3 of 4 Q4 criticized maturities still held at 12/31 · REG-29: ≥4 of 6 banks' Q4 NCO above Q3 · REG-30: VLY non-accrual ≥ $511.4M. Letters + MECE bands → `workbook/PREDICTIONS.tsv`; dates → `registry/PREDICTION_RESOLVE_BY.tsv`. First live checkpoint: EGBN 10/27 maturities (REG-28) |
-| **Sat 10/31 · Mon 11/30 · Tue 2027-01-05 (final)** | `REG-06` (WAL / EGBN capital raise) | EDGAR submissions scan: 424B, S-1/S-3/S-4, 8-K 3.02. Equity counts; sub-debt is flagged to Will. Scan 10/10 (7/1–10/9) = none |
+| **~~Sat 10/31~~ ✅ · Mon 11/30 · Tue 2027-01-05 (final)** | `REG-06` (WAL / EGBN capital raise) | EDGAR submissions scan: 424B, S-1/S-3/S-4, 8-K 3.02. Equity counts; sub-debt is flagged to Will. Scan 10/10 (7/1–10/9) = none · **Scan 10/31 (10/9–10/31) = none** (`registry/NOTES.md` §REG-06) |
 | **~Wed 11/25 (Q3 QBP) · ~late Feb 2027 (Q4 QBP)** | `REG-03` (recognition wave) | FDIC QBP industry CRE NCO rate Q3 or Q4 ≥ 1.5× Q2, as printed; via CREED (L514). FALSE if not met by the Q4 QBP |
 
 ## LATER (forward catalysts — OZK-primary, REGINALD info)
