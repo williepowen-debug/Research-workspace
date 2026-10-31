@@ -1,2 +1,4 @@
 receipt_date	correction_id	action	note
 2026-10-23T12:39Z	COR-20261022-48	NO-OP	scope=No GIBBS-owned surface carries any 048 kill string - grep 2026-10-23 found them only in the inbox signals themselves; 
+2026-10-31T17:50Z	COR-20261029-07	NO-OP	scope=No GIBBS-owned surface carries the Schwab-System/Charles Schwab join or the Unit 42 PHP government-breach link - grep 2026-10-31 excluding inbox rc=1, the strings appear only in WALTER's delivered copy SIG-W-20261029-007, SCHW four-item rows unaffected; 
+2026-10-31T17:50Z	COR-20261029-43	NO-OP	scope=Kill string (NYDFS 8/11 letter limited-number line) is on no GIBBS-owned surface - grep 2026-10-31 excluding inbox rc=1, only in delivered copies SIG-W-20261029-039 and -043, Citizens is REGINALD's name and not in the GIBBS 16; 
