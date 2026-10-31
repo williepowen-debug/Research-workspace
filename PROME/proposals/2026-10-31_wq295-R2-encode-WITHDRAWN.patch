@@ -1,0 +1,390 @@
+diff --git a/PROME/AUTONOMY.md b/PROME/AUTONOMY.md
+index aa2e7bc6b..de8e25e8c 100644
+--- a/PROME/AUTONOMY.md
++++ b/PROME/AUTONOMY.md
+@@ -21,7 +21,7 @@ These are internal actions that don't change thesis, don't touch positions, don'
+ - Archive resolved Prome items to `PROME/archive/` (rotation discipline: HANDOFF, drafts, served-purpose reports)
+ - Cross-reference and link existing research
+ - **Build architecture required by in-progress work** (e.g., signal processing needs a folder → build it, don't stop to propose)
+-- **Follow-up spawns within an already-approved workstream** (same direction, not new direction) — a registered dated DOCKET/GATES row with a dark owner IS the trigger (WQ-184 L0, change log 9/05). **Any desk-WRITING spawn follows the canonical Desk-spawn preflight in `PROME/CLAUDE.md` § Session Process Controls** (WQ-178, reconciled WQ-385; read-only verification exemption remains there). *(Pointer added 9/6, audit #12.)*
++- **Follow-up spawns within an already-approved workstream** (same direction, not new direction) — a registered dated DOCKET/GATES row with a dark owner IS the trigger (WQ-184 L0, change log 9/05); so is a WEEKLY or MONTHLY desk past its cadence clock with no open dated row (`CADENCE-DUE`, WQ-295 R2, change log 2026-10-31; conditions in `PROME/CLAUDE.md` Ask-First). **Any desk-WRITING spawn follows the canonical Desk-spawn preflight in `PROME/CLAUDE.md` § Session Process Controls** (WQ-178, reconciled WQ-385; read-only verification exemption remains there). *(Pointer added 9/6, audit #12.)*
+ - **Research/verification sub-agent spawns** (read-only fan-outs, verify passes) — report at closeout, not per-spawn. *(Full revival/catch-up programs are Tier 2 below.)*
+ - **Prome inbox triage** — reading, summarizing, and archiving Prome's own intake. Housekeeping, not a proposal.
+ - **Converted from ask-first by WQ-348 (Will 2026-10-01 22:08 ET) — an INDEX only: the conditions, exclusions and the guard live in the auto-loaded `PROME/CLAUDE.md` § Ask First "Done without asking", and that paragraph governs every item here:** C1 owner wording clarifications · C2 recording a ruling Will already gave · C3 an agreed no-change answer · C4 a desk's own-charter edit · C5 sell-or-roll cards for held option lines (**⬇️ PAUSED by Will 2026-10-20 11:32 ET — change-log row below; the class is dormant, not retired**) · C6 the eight-wake boot · C7 free feed and schedule-time changes in the news-collection lane.
+@@ -111,3 +111,4 @@ This doc should get MORE permissive over time. As patterns emerge (in the Change
+ | 2026-10-24 | **WQ-505 RULED U1 A / U2 A / U3 B (Will 2026-10-24 ~19:30 ET, pasted rulings; record `PROME/proposals/2026-10-24_wq505-486-517-493-488-RULED.md`)** — the process-ceiling UNIT is defined: one harness session = one boot to one completed closeout across `/clear`, context resets or model switches; a same-day correction of the SAME defect in the SAME artifact is part of the original change, a materially different defect counts separately; NO day unit; the dedicated process-day obligation (WQ-379 c) is DROPPED, individually approved work preserved; five stays a CEILING, never a target. Encoded in `PROME/CLAUDE.md` § Session Process Controls, process-ceiling bullet (unit sentence replaced; no bullet added). DOCKET L600 RESOLVED. | ↔ (definition, no authority moved) | The 10/23 L600 review measured six sittings overrunning the old ONE ceiling and two overrunning FIVE by one; the unit was undefined, so the count was contestable. Will's letter fixes the unit and keeps the number. |
+ | 2026-10-29 | ⬆️ **C9 ADDED to the WQ-348 done-without-asking class (WQ-538 RULED A, Will 09:31 ET, verbatim *"okay approve go ahead and make these changes now if you can"*; record `PROME/proposals/2026-10-29_wq538-c9-fire-commissions-RULED.md`)** — a $0, one-session, one-desk research commission inside the desk's own domain, following from a named finding on the record, is FIRED as encountered (cap TWO per boot, position-facing first) and reported the same day with its queue row written as a receipt, never an OPEN wait. Tier 2 narrows by exactly that carve-out; Tier 3 unchanged; the 60-day one-undo guard covers it. Companion reporting change (BOOT.md step 8): HANDS rows parked, not re-presented. Will's reasoning, verbatim 09:30 ET: *"by NOT acting when it makes sense it actually costs us too"*. | ⬆️ Widening (Tier 2 → do-and-report for the C9 subset) | PROME prome-90
+ | 2026-10-31 | ⏸️ **Process ceiling SUSPENDED (WQ-566, Will in PROME's chat 12:39 ET, verbatim "Okay lets remove the cap for now.")** — after PROME's backlog triage showed seven Will-approved changes waiting up to a month behind the five-per-session ceiling and its zero-while-domain-due clause. Read back to Will: the number and the clause stop binding "for now" (until he reinstates); reviews per change, closeout reporting of every process change, and desk-blocking/Will-approved-first ordering stay. Banner at `PROME/CLAUDE.md` § Session Process Controls (text below it unchanged). Record `PROME/proposals/2026-10-31_wq566-RULED.md`. |
++| 2026-10-31 | ⬆️ **CADENCE WAKE ENCODED (WQ-295 R2, Will RULED 2026-10-01 21:24 ET, verbatim *"295 yes go with your recs"*; record `PROME/proposals/2026-10-31_wq295-R2-encode-RULED.md`; DOCKET L581)** — a WEEKLY or MONTHLY desk past its clock with no open first-owner dated row (PENDING DOCKET not annotated COVERED, or LIVE GATES) within +14 days is a Tier-1 `CADENCE-DUE` wake (L0 drain + cadence self-check; it never grades anything on the desk's behalf and never marks a BOARD item consumed), after dated wakes and only within the base four; EVENT-DRIVEN desks with no such row are surfaced in the boot report as UNREACHED (not woken), so the owner registers a row or PROME asks; launchable desks with no cadence row are surfaced there as CANNOT-EVALUATE. Text in `PROME/CLAUDE.md` § Ask First; driver `PROME/tools/spawn_list.py`. Encode of a 10/1 grant, held 30 days behind the process ceiling. | ⬆️ Promotion (encode of a 10/1 grant) | PROME prome-34 |
+diff --git a/PROME/CLAUDE.md b/PROME/CLAUDE.md
+index 268afa190..a81dae302 100644
+--- a/PROME/CLAUDE.md
++++ b/PROME/CLAUDE.md
+@@ -48,6 +48,8 @@ Ask Will before:
+ 
+ **Registered dated row is the nod (WQ-184):** a PENDING DOCKET row not annotated COVERED, or LIVE GATES row at `review_by`, naming a desk owner is an approved workstream: outcome ①, never ②. Outcome ②'s referents only time signals without a registered row naming that desk. At the first boot on/after the date, after owner absence is established by the Desk-spawn preflight below, spawn Tier 1 without another research nod. Cap four due-row spawns per boot, eight only under C6 below; excess → slate for Will. An ACTIVE owner (self-commit since the row date) gets a consumer read at its artifact first: the grade may exist. Will-owned rows → WILL_QUEUE; trade/spend and unregistered new directions retain Tiers 3/2. Driver: `tools/spawn_list.py` inside `tools/prome_gate.py`; boot covers due rows. Closeout SLATES rows before next likely boot (+1d; +3d Fri/Sat) for Will, but spawning still waits for due date or Will's word; a pre-date spawn is outcome ② or Will. Prior review L291 is RESOLVED (WQ-268); successor L445, 2026-10-25, re-spec M1 remains live.
+ 
++**Cadence wake (WQ-295 R2, Will 2026-10-01 *"295 yes go with your recs"*):** only a WEEKLY or MONTHLY desk (`PROME/ROSTER.md` § DESK CADENCE) wakes by age: past its clock from its last SELF-commit, launchable, with no open dated row (a PENDING DOCKET row not annotated COVERED, or a LIVE GATES row) naming it first owner due by today +14 days (overdue included), it is a Tier-1 `CADENCE-DUE` wake — L0 drain plus a cadence self-check, beside dated rows, never instead. A cadence wake never grades anything on the desk's behalf and never marks a BOARD item consumed. Dated wakes fill the cap first; a cadence wake takes only a slot left under the base four (C6's eight needs every wake on a due dated row), else rolls to the next boot. An EVENT-DRIVEN desk with no such row is surfaced in the boot report as UNREACHED (not woken), so its owner registers a dated row or PROME asks; a launchable desk with no cadence row is surfaced there as CANNOT-EVALUATE, also not woken. Driver: the cadence block of `tools/spawn_list.py`.
++
+ **Aged ACTION (WQ-206):** unconsumed `action:` older than seven days at a DARK owner, or a Will RULING packet at a dark owner → outcome ①, PROME L0 drain-only, no per-item ask, cap four/boot. **Aged waits (WQ-221):** WILL_QUEUE ⛔ waits row whose Notes begins `⛔ waits: <who>` and blocking desk is dark ≥7 days → the same L0 drain-only authority, cap four, through a PENDING DOCKET row naming the desk (WQ-184 remains the one wake mechanism). A wait on a DATED deliverable is not aged before its date. Ruling records: `PROME/proposals/2026-09-05_spawn-driver-RULED.md`, `2026-09-10_wq206-aged-action-rule-RULED.md`, `2026-09-10_wq221-aged-waits-rule-RULED.md` in that directory.
+ 
+ **Done without asking (WQ-348; C5 repaired under WQ-361):** Rulings: `PROME/proposals/2026-10-01_wq348-approval-inventory-RULED.md` and its WQ-361 repair.  Nine kinds of step no longer stop for Will's word; PROME does them and reports each the same day. **C1** encode a desk owner's WORDING CLARIFICATION of its own gate or thesis line that changes no level, no operator, no instrument and no consequence — verify all four unchanged at the owner's file first; doubt on any one ⇒ it is a gate change and goes to Will. **C2** record a ruling Will ALREADY gave (in a desk's window or earlier) after verifying his word at the desk's committed file — never a new ask. **C3** record a NO-CHANGE answer (decline · not now · keep as is) when the owner desk AND PROME both recommend it and no money is involved — if the two disagree it goes to Will. **C4** let a domain desk edit ITS OWN charter where no authority, route or threshold moves (a pointer, a stale date, how often it runs one of its own checks); PROME verifies; an edit that moves any of the three goes to Will, and PROME's own charter is never this class. **C5 — PAUSED by Will 2026-10-20 11:32 ET** (*"I just dont need to be told multiples times a day that I have puts expiring today. Im thoroughly aware"*; `USER.md` § No expiry nagging): commission no sell-or-roll cards and send no expiry reminders until he lifts it. Original letter, dormant: every option line Will HOLDS gets a sell-or-roll card from TERRY at least two sessions before its expiry — PROME commissions that ONE card without asking; the commission covers preparing that card and nothing else (no inbox drain, no new direction — it is not outcome ② above). The card is preparation: its recommendation returns to Will exactly as the Tier-3 line above says, and nothing is approved, ordered or filled by it; the order stays Will's (root rule #5); a card for a NEW position stays an ask. **C6** wake up to EIGHT desks in one boot when EVERY desk woken that boot is woken on a row whose date is a catalyst or review date that has come due (the WQ-184 class) — position-facing rows first, and the boot report lists who was woken and why; past eight ⇒ a slate for Will's word. A boot that wakes ANY desk under the aged-ACTION rule (WQ-206) or the aged-waits rule (WQ-221) stays at four, although those wakes also run through a docket row. **C7** add or remove a FREE feed, or change a schedule time, in the news-collection lane — anything that costs money, or sends Will's name or email to an outside party, stays ask-first. **C8 (WQ-369, Will to WALTER 2026-10-04 ~20:00 ET, verbatim *"WQ-369 yes"*; committed relay 8a2dbfa65; AUTONOMY change log 2026-10-04 row; encoded 2026-10-23 under WQ-508):** ONE bounded session where the dispatch class is IMMEDIATE, the ACTION owner is dark and the event is in that owner's registered theater — an ordinary-cap / Tier-2 exception; same-day report; the same one-undo-in-60-days guard; NOT an unattended-run grant (WQ-388 is separate and unruled). First applications 2026-10-08 (AEOLUS · CORAL · BRENT; `PROME/state/ORCH_LOG.tsv`). **C9 (WQ-538, Will 2026-10-29 09:31 ET, verbatim *"okay approve go ahead and make these changes now if you can"*; record `PROME/proposals/2026-10-29_wq538-c9-fire-commissions-RULED.md`):** a RESEARCH COMMISSION is fired as encountered, never queued for Will's word, when ALL of (a)–(e) hold: (a) $0 — no spend, paid data, subscription, account, key or external send; (b) it moves no position, card, threshold, gate letter, grade, seat or charter; (c) ONE bounded session for ONE existing active desk inside that desk's own charter domain; (d) it follows directly from a finding on the record — a dated print, an owner grade, a signal, or Will's own remark — and the brief names it; (e) at most TWO such commissions per boot (a cost cap, raised only by Will's word), position-facing first. (f) The report duty: named the same day under "Done without asking" with its commit, and its WILL_QUEUE row written as a RECEIPT in RECENTLY DONE (RULED by class C9), never as an OPEN row that waits. A commission failing any of (a)–(e) stays ask-first (Tier 2). **Guard, all nine:** each act is named in that day's closeout or boot report under the heading "Done without asking", with its commit where it has one; Will undoes an act by naming it; **ONE such undo of an act within 60 days of that act returns the whole class to ask-first** (logged in `PROME/AUTONOMY.md` as a demotion). ⛔ Nothing else moved — ask-first exactly as before: trades and anything on a held position · spending money, paid data, subscriptions, accounts and keys · external sends · a change to what a root or fleet rule MEANS · a change to PROME's own authority or charter · a new or changed level, operator, instrument or consequence on any desk gate, kill rule, band or frozen prediction letter · seats, classes and ownership · a new-direction commission outside C9 · Kernel windows.
+diff --git a/PROME/tools/prome_gate.py b/PROME/tools/prome_gate.py
+index 5a8a5f2d3..b2d4a8a42 100644
+--- a/PROME/tools/prome_gate.py
++++ b/PROME/tools/prome_gate.py
+@@ -1711,7 +1711,31 @@ def summarize_spawn_list(body, rc):
+     for cls in ("DARK", "ACTIVE"):
+         if ids.get(cls):
+             parts.append(f"{cls}: " + ", ".join(ids[cls]))
+-    return rc == 0, " · ".join(parts)          # no cap (read 2 C17): every DARK/ACTIVE id, or nothing is claimed complete
++    # WQ-295 R2 (DOCKET L581; record PROME/proposals/2026-10-31_wq295-R2-encode-RULED.md): the cadence block.
++    # CADENCE-DUE ids make the line not-ok (a Tier-1 wake is owed, after dated wakes, within the base four);
++    # UNREACHED and CANNOT-EVALUATE are named for the boot report and never move ok. A missing block is UNKNOWN.
++    cad = next((l for l in lines if l.startswith("cadence wake (WQ-295 R2) · ")), None)
++    if cad is None:
++        parts.append("cadence block MISSING — CADENCE-DUE UNKNOWN, read the log")
++        return False, " · ".join(parts)
++    due = [l.lstrip("⚠️ ").split("\t")[0] for l in lines if re.match(r"(?:⚠️ )?C:[A-Z]", l)]
++    def _names(prefix):
++        l = next((x for x in lines if x.startswith(prefix)), "")
++        tail = l.split("): ", 1)[1] if "): " in l else ""
++        return [] if tail in ("", "none") else [x.split(" ")[0] for x in tail.split(" · ")]
++    unreached, cannot = _names("cadence UNREACHED "), _names("cadence CANNOT-EVALUATE ")
++    hm = re.search(r"CADENCE-DUE (\d+)", cad)
++    em = re.search(r"clock-evaluated (\d+)", cad)          # third read ❌1: zero desks reached the clock test = nothing checked
++    if "*" in cannot or not hm or int(hm.group(1)) != len(due) or not em or int(em.group(1)) == 0:
++        # result read ❌2 (2026-10-31): "*" = no ROSTER cadence section / unreadable ROSTER — no desk was evaluated, so
++        # "CADENCE-DUE: none" would be a green line over an empty check; a count that disagrees with the C: rows is the
++        # same lie in another form. Both are UNKNOWN, the MISSING branch's verdict.
++        parts.append("cadence UNKNOWN — no desk reached the clock test, or the block's count disagrees with its rows; read the log")
++        return False, " · ".join(parts)
++    parts.append("CADENCE-DUE: " + (", ".join(due) if due else "none")
++                 + (" · UNREACHED: " + ", ".join(unreached) if unreached else "")
++                 + (" · cadence CANNOT-EVALUATE: " + ", ".join(cannot) if cannot else ""))
++    return rc == 0 and not due, " · ".join(parts)          # no cap (read 2 C17): every DARK/ACTIVE id, or nothing is claimed complete
+ 
+ 
+ def check_orch_closeout():
+@@ -2023,7 +2047,9 @@ def mode_boot(advance_board=True):
+     run_script(ADVISE, "spawn list — L0 due-row candidates (WQ-184)",
+                [sys.executable, "PROME/tools/spawn_list.py", "--horizon", "0"],
+                "DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; "
+-               "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it",
++               "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it; "
++               "CADENCE-DUE ⇒ Tier-1 wake after dated wakes, only in a slot left under the base four (WQ-295 R2); "
++               "UNREACHED / cadence CANNOT-EVALUATE ⇒ name them in the boot report, never wake",
+                summarize=summarize_spawn_list)
+     # DAEDALUS 2026-10-02 (Will-commissioned via PROME DAEDALUS packet 3892a8e40): spawn slate built
+     # on spawn_list.render(). The ANSWERED/PARTIAL class the brief asked for FAILED its independent
+diff --git a/PROME/tools/spawn_list.py b/PROME/tools/spawn_list.py
+index 6b2cc9657..7f58a3a12 100644
+--- a/PROME/tools/spawn_list.py
++++ b/PROME/tools/spawn_list.py
+@@ -35,18 +35,20 @@ METHOD (every leg verifiable at the artifact):
+             LANDS-IN-k  not yet due; printed with the owner's last-commit age so closeout can SLATE what lands
+                         in the gap to the next boot (the spawn waits for the first boot on/after the date)
+             PROME-OWNED / WILL-OWNED as above.
+-  cadence   NOT modelled in v1 — the Class 8 DESK cadence column (STATE_VOCABULARY, Will-approved 8/21,
+-            "instrument = fleet_triage.py, PROME applies the column") was UNBUILT at 2026-09-05 (VERIFIED:
+-            no cadence column in PROME/ROSTER.md; fleet_triage.py absent from PROME/tools, scripts,
+-            AGENTS/DAEDALUS/scripts) — commissioned as WQ-184 leg ⑥ (DOCKET, 2026-09-19). A WEEKLY desk whose
+-            row lands on its own day reads DARK here; the in-session ListAgents leg and the owner's STATUS
+-            "next boot" line are the v1 corrective. When the column lands, DARK requires last-commit older
+-            than the declared cadence.
+-
+-EXIT: 1 when any DARK candidate exists (the gate prints them as ⚠️ lines), else 0. --selftest: 0 pass / 1 fail.
++  cadence   ANNOTATION on every dated row (`cadence_note`, ROSTER § DESK CADENCE; WQ-269, wired 2026-09-19): it never
++            changes a dated row's class, never hides a due row and never moves the exit code.
++  cadence wake  the ONE exception, in its OWN block after the dated rows (`cadence_wakes`, WQ-295 R2 — Will RULED
++            2026-10-01; encode DOCKET L581, record PROME/proposals/2026-10-31_wq295-R2-encode-RULED.md):
++            CADENCE-DUE = a WEEKLY/MONTHLY launchable desk past its clock from its last SELF-commit with no
++            first-owner row in collect(+14d) — a Tier-1 wake after dated wakes, only in a slot left under the base
++            four; UNREACHED = an EVENT-DRIVEN desk with no such row (reported, never woken); every non-evaluable
++            desk is NAMED CANNOT-EVALUATE. collect(), the Row shape and the exit code are untouched.
++
++EXIT: 2 when any UNKNOWN row, 1 when any DARK candidate (the gate prints them as ⚠️ lines), else 0 — the cadence block
++never moves it. --selftest / --cadence-selftest / --cadence-wake-selftest: 0 pass / 1 fail.
+ USAGE: python3 PROME/tools/spawn_list.py [--horizon N] [--tsv] [--as-of YYYY-MM-DD] [--docket PATH|REV:PATH] [--selftest]
+ """
+-import argparse, datetime as dt, hashlib, json, re, subprocess, sys
++import argparse, contextlib, datetime as dt, hashlib, io, json, re, subprocess, sys
+ from typing import NamedTuple
+ from pathlib import Path
+ 
+@@ -452,10 +454,88 @@ def collect(docket_text: str, gates_text: str, today: dt.date, horizon_days: int
+     return rows
+ 
+ 
++# ── CADENCE WAKE (WQ-295 R2 — Will RULED 2026-10-01 21:24 ET, verbatim "295 yes go with your recs"; encode DOCKET L581,
++# record PROME/proposals/2026-10-31_wq295-R2-encode-RULED.md) ─────────────────────────────────────────────────────────────
++# The ONE place cadence moves from annotation to a wake. collect()'s rows, their classes, the Row shape, the slate's
++# conservation count and the exit code are untouched: the wake prints in its OWN block after the dated rows.
++#   wake      WEEKLY or MONTHLY · launchable ROSTER class · clock past from the last SELF-commit (rider ②: Liveness, the
++#             L455 rule) · NO first-owner row among collect(…, +14d) → CADENCE-DUE, key C:<DESK>
++#   governs   any first-owner row collect() returns at +14d — overdue included, any class — one wake, not two
++#   unreached EVENT-DRIVEN with no such row → reported, never woken (rider ③)
++#   never     ON-DEMAND and DAILY (outside R2) — no age wake, nothing to report
++#   named     UNDECLARED, duplicates, unknown tokens, launchable desks with no cadence row, cadence desks that are not
++#             launchable, no qualifying commit, a failed git log → CANNOT-EVALUATE by name (spec point 5), never a wake
++# Rider ① (dated wakes fill the cap first; a cadence wake takes only a slot left under the BASE four, because C6's eight
++# needs every wake on a due dated row) is PROME's to enforce at spawn time after its same-minute preflight; never counted here.
++CADENCE_WINDOW_DAYS = 14
++AGE_WAKE = ("WEEKLY", "MONTHLY")
++
++
++def governing_owners(rows):
++    """{desk: "<key> (<due>)"} — the FIRST owner of every row in `rows` (collect() at +CADENCE_WINDOW_DAYS)."""
++    out = {}
++    for r in rows:
++        if r.owner not in ("PROME", "WILL", "?"):
++            out.setdefault(r.owner, f"{r.key} ({r.due})")
++    return out
++
++
++def cadence_wakes(roster_text: str, governing: dict, live, today: dt.date):
++    """(due, unreached, governed, cannot, evaluated): due = Rows (cls CADENCE-DUE, key C:<DESK>) most-overdue first;
++    unreached [(desk, why)] · governed [(desk, token, age_days, row)] · cannot [(desk, why)] · evaluated = how many
++    WEEKLY/MONTHLY launchable desks reached the clock comparison (third read ❌1, 2026-10-31: zero means nothing was
++    checked, whatever the lists say — the gate reads that as UNKNOWN, never as "none due"). Every list is printed."""
++    cad_map, dupes, bad, present = read_cadence(roster_text)
++    due, unreached, governed, cannot = [], [], [], []
++    if not present:
++        return due, unreached, governed, [("*", "no ROSTER cadence section — no desk can be evaluated")], 0
++    from spawn_slate import roster_classes, LAUNCH   # ONE roster reader; imported late because spawn_slate imports this module
++    classes = roster_classes(roster_text)
++    # The section opens with a token-DEFINITIONS table (`| \`DAILY\` | review hint past one calendar day |`) that
++    # read_cadence parses as rows with "unknown tokens" — harmless for the per-row annotation (no desk is named after
++    # a token), but naming them here would print six non-desks. A desk is never named after a cadence token.
++    dupes = {d for d in dupes if d not in CADENCE_TOKENS}
++    bad = {d: t for d, t in bad.items() if d not in CADENCE_TOKENS}
++    cannot += [(d, "duplicate cadence identity") for d in sorted(dupes)]
++    cannot += [(d, f"unknown token {t!r}") for d, t in sorted(bad.items())]
++    cannot += [(d, f"no cadence row (ROSTER {c})") for d, c in sorted(classes.items())
++               if c in LAUNCH and d not in ("PROME", "WILL") and d not in cad_map and d not in dupes and d not in bad]
++    evaluated = 0
++    for d, tok in sorted(cad_map.items()):
++        if tok == "UNDECLARED":
++            cannot.append((d, "UNDECLARED")); continue
++        if tok not in AGE_WAKE and tok != "EVENT-DRIVEN":
++            continue                                   # ON-DEMAND, DAILY: no age wake
++        if classes.get(d) not in LAUNCH:
++            cannot.append((d, f"not launchable (ROSTER {classes.get(d) or 'class absent'})")); continue
++        lsc = live.last_self_commit(d)
++        if lsc is not None and lsc[0] == "!ERR":
++            cannot.append((d, f"git log FAILED, liveness not established ({lsc[1]})")); continue
++        last = dt.date.fromisoformat(lsc[0]) if lsc else None
++        if tok == "EVENT-DRIVEN":
++            if d not in governing:
++                unreached.append((d, f"last self-commit {lsc[0]}, {(today - last).days}d" if lsc else "no self-commit found"))
++            continue
++        if last is None:
++            cannot.append((d, "no qualifying owner commit")); continue
++        evaluated += 1
++        clock = last + dt.timedelta(days=7) if tok == "WEEKLY" else _month_later(last)
++        if today <= clock:
++            continue                                   # within cadence — exactly seven days is WITHIN
++        age = (today - last).days
++        if d in governing:
++            governed.append((d, tok, age, governing[d])); continue
++        due.append(Row(f"C:{d}", clock.isoformat(), (today - clock).days, d, "CADENCE-DUE",
++                       f"last self-commit {lsc[0]} ({age}d ago, {lsc[1]}); no first-owner row ≤ +{CADENCE_WINDOW_DAYS}d (COVERED rows do not count)",
++                       f"{tok} — past cadence ({age}d)", "Tier-1 wake (WQ-295 R2): L0 drain + cadence self-check"))
++    due.sort(key=lambda r: (-r.delta, r.key))
++    return due, unreached, governed, cannot, evaluated
++
++
+ COVERED_ROWS = None   # set by main() before render(): the suppressed rows, printed for visibility (A6)
+ 
+ 
+-def render(rows, today, horizon_days, tsv: bool) -> int:
++def render(rows, today, horizon_days, tsv: bool, cad=None) -> int:
+     n = {k: sum(1 for r in rows if r[4] == k) for k in ("UNKNOWN", "DARK", "ACTIVE", "PROME-OWNED", "WILL-OWNED")}
+     lands = sum(1 for r in rows if r[4].startswith("LANDS"))
+     cne = sum(1 for r in rows if str(r[6]).startswith("CANNOT-EVALUATE"))
+@@ -469,11 +549,26 @@ def render(rows, today, horizon_days, tsv: bool) -> int:
+     if COVERED_ROWS is not None:
+         print(f"covered-suppressed {len(COVERED_ROWS)}: " + (" · ".join(f"{k} {o} [{r}] {cl}" for k, _d, o, r, cl in COVERED_ROWS) if COVERED_ROWS else "none")
+               + "  — form-valid COVERED annotations with no self-slate, no negation, no lapsed promise date (L368 A6: visible, never a candidate)")
++    if cad is not None:
++        due, unreached, governed, cannot, evaluated = cad
++        print(f"cadence wake (WQ-295 R2) · clock-evaluated {evaluated} · CADENCE-DUE {len(due)} · UNREACHED {len(unreached)} · "
++              f"past clock, dated row governs {len(governed)} · CANNOT-EVALUATE {len(cannot)}")
++        for r in due:
++            print("⚠️ " + "\t".join(str(x) for x in r))
++        print(f"cadence UNREACHED {len(unreached)} (EVENT-DRIVEN, no first-owner row ≤ +{CADENCE_WINDOW_DAYS}d, COVERED rows not counted — surfaced, never woken): "
++              + (" · ".join(f"{d} [{why}]" for d, why in unreached) or "none"))
++        print(f"cadence governed {len(governed)} (past clock; a first-owner row ≤ +{CADENCE_WINDOW_DAYS}d wakes them — one wake, not two): "
++              + (" · ".join(f"{d} {tok} {age}d → {row}" for d, tok, age, row in governed) or "none"))
++        print(f"cadence CANNOT-EVALUATE {len(cannot)} (named, never a wake): "
++              + (" · ".join(f"{d} ({why})" for d, why in cannot) or "none"))
+     if not tsv:
+         print(f"\nREAD (WQ-184 L0): DARK = Tier-1 due-row spawn after an in-session ListAgents check (live desk ⇒ doorbell); "
+               f"cap {CAP_PER_BOOT}/boot, beyond → slate to Will. ACTIVE = read the owner's artifact FIRST — the row may already "
+               "be graded (receipt gap). \u26d4 CADENCE IS AN ANNOTATION ONLY — it never changes a class, never hides a due "
+-              "row and never moves the exit code; PLANNED QUIET IS NOT A COMPLETED GRADE, and CANNOT-EVALUATE is not a pass.")
++              "row and never moves the exit code; PLANNED QUIET IS NOT A COMPLETED GRADE, and CANNOT-EVALUATE is not a pass."
++              + (" The one wake is the cadence block (WQ-295 R2): CADENCE-DUE = Tier-1, AFTER dated wakes and only in a slot left "
++                 "under the base four (C6's eight needs every wake on a due dated row) — same-minute preflight first, a live "
++                 "owner is doorbelled; UNREACHED and CANNOT-EVALUATE are reported, never woken." if cad is not None else ""))
+     if n["UNKNOWN"]:
+         print(f"\n\u26d4 {n['UNKNOWN']} row(s) UNKNOWN: liveness could not be established (failed git log, or an "
+               "unparseable owner cell). \u26d4 NEVER spawn on UNKNOWN \u2014 fix the read, then re-run. A failed check is "
+@@ -574,6 +669,126 @@ def cadence_selftest() -> int:
+     return 0 if ok else 1
+ 
+ 
++def cadence_wake_selftest() -> int:
++    """WQ-295 R2 acceptance A1–A7 + A9 (record PROME/proposals/2026-10-31_wq295-R2-encode-RULED.md § 7) on fixtures.
++    A stub stands in for Liveness (no git); the DOCKET fixture goes through the real collect() so 'first owner' and
++    'COVERED' are the production readings. The ROSTER fixture mirrors the live layout: class tables under `## `, then a
++    non-class `## ` heading, then `### DESK CADENCE`, terminated by `## Transmission chain`."""
++    ok = True
++    def chk(name, passed):
++        nonlocal ok
++        print(("✅ " if passed else "❌ ") + name); ok &= bool(passed)
++    T = dt.date(2026, 3, 10)
++    ago = lambda n: (T - dt.timedelta(days=n)).isoformat()
++    tbl = lambda names: "| Agent | Role |\n|---|---|\n" + "".join(f"| {n} | x |\n" for n in names)
++    roster = ("## ACTIVE (13)\n" + tbl(["PROME", "ALPHA", "BETA", "GAMMA", "DAYLY", "EPS", "SEC", "NOCOM", "ERRD", "BOUND",
++                                         "GOV", "GOV2", "GOV3", "FAR", "COV", "DELTA", "OWNR", "GATED"])
++              + "## TIER-2 — spawned as needed (1)\n" + tbl(["ABSENT"])
++              + "## DORMANT — revive only on explicit need (1)\n" + tbl(["SLEEPY"])
++              + "## Coverage notes\nprose\n\n### DESK CADENCE — owner-declared\n| Token | Elapsed-time treatment |\n|---|---|\n"
++              + "| `DAILY` | review hint past one calendar day |\n| `WEEKLY` | review hint past seven calendar days |\n"
++              + "| `EVENT-DRIVEN` | **no elapsed-time classification** |\n\n| Agent | Cadence | Declared by |\n|---|---|---|\n"
++              + "| *(PROME)* | — | x |\n"
++              + "".join(f"| {d} | `{t}` | x |\n" for d, t in [
++                  ("ALPHA", "WEEKLY"), ("BETA", "EVENT-DRIVEN"), ("GAMMA", "ON-DEMAND"), ("DAYLY", "DAILY"),
++                  ("EPS", "UNDECLARED"), ("SEC", "WEEKLY"), ("NOCOM", "WEEKLY"), ("ERRD", "WEEKLY"), ("BOUND", "WEEKLY"),
++                  ("GOV", "WEEKLY"), ("GOV2", "WEEKLY"), ("GOV3", "WEEKLY"), ("FAR", "WEEKLY"), ("COV", "WEEKLY"),
++                  ("DELTA", "EVENT-DRIVEN"), ("GATED", "WEEKLY"), ("SLEEPY", "WEEKLY"), ("GHOST", "WEEKLY"), ("DUPE", "WEEKLY"), ("DUPE", "DAILY"),
++                  ("BADTOK", "HOURLY")])
++              + "\n## Transmission chain\n")
++    class _Live:
++        def __init__(self, m): self.m = m
++        def last_self_commit(self, desk): return self.m.get(desk)
++    live = _Live({"ALPHA": (ago(8), "a1"), "BETA": (ago(30), "b1"), "GAMMA": (ago(30), "g1"), "DAYLY": (ago(30), "y1"),
++                  "SEC": (ago(8), "s1"), "ERRD": ("!ERR", "git log rc=128"), "BOUND": (ago(7), "o1"),
++                  "GOV": (ago(9), "v1"), "GOV2": (ago(9), "v2"), "GOV3": (ago(9), "v3"), "FAR": (ago(9), "f1"),
++                  "COV": (ago(9), "c1"), "DELTA": (ago(30), "d1"), "SLEEPY": (ago(30), "z1"), "GHOST": (ago(30), "h1"),
++                  "OWNR": (ago(1), "o2"), "GATED": (ago(9), "gg1")})
++    row = lambda date, owner, state="PENDING — fixture": f"{date}\tfixture row\t{owner}\t{state}\tev\tnotes"
++    docket = "\n".join(["# fixture DOCKET", row(T.isoformat(), "GOV (owner)"),
++                        row(ago(3), "GOV2 (owner)"),
++                        row((T + dt.timedelta(days=14)).isoformat(), "GOV3 (owner)"),
++                        row((T + dt.timedelta(days=15)).isoformat(), "FAR (owner)"),
++                        row((T + dt.timedelta(days=5)).isoformat(), "OWNR (owner) / SEC (co-grader)"),
++                        row((T + dt.timedelta(days=5)).isoformat(), "DELTA (owner)"),
++                        row((T + dt.timedelta(days=5)).isoformat(), "COV (owner)",
++                            "PENDING · COVERED: COV's own weekly session handles it")]) + "\n"
++    gates = ("gate_id\tstate\treview_by\towner\tregistered\tscannable\tcondition\n"
++             f"GATE-GATED-01\tLIVE — fixture\t{(T + dt.timedelta(days=5)).isoformat()}\tGATED (owner)\t2026-03-01\tINSTRUMENT x\tfixture condition\n")
++    gov = governing_owners(collect(docket, gates, T, CADENCE_WINDOW_DAYS, live, ""))
++    due, unreached, governed, cannot, evaluated = cadence_wakes(roster, gov, live, T)
++    keys = [r.key for r in due]
++    cn = dict(cannot)
++    chk("A1 WEEKLY 8 days, no first-owner row → exactly one C:ALPHA, class CADENCE-DUE, clock = last+7, delta 1",
++        keys.count("C:ALPHA") == 1 and next(r for r in due if r.key == "C:ALPHA").cls == "CADENCE-DUE"
++        and next(r for r in due if r.key == "C:ALPHA").due == ago(1) and next(r for r in due if r.key == "C:ALPHA").delta == 1)
++    chk("A2 WEEKLY at exactly 7 days → nothing anywhere",
++        "C:BOUND" not in keys and "BOUND" not in cn and all(g[0] != "BOUND" for g in governed))
++    mm = lambda today: cadence_wakes("### DESK CADENCE\n| Agent | Cadence | x |\n|---|---|---|\n| MONTH | `MONTHLY` | x |\n"
++                                     "## Transmission chain\n" + "## ACTIVE (1)\n| MONTH | x |\n",
++                                     {}, _Live({"MONTH": ("2026-01-31", "m1")}), today)[0]
++    # third read ❌1: a damaged ROSTER that keeps the heading but loses the class headings or the desk table
++    nohdr = roster.replace("## ACTIVE (13)", "## Desks").replace("## TIER-2 — spawned as needed (1)", "## More")
++    notbl = roster[:roster.index("| Agent | Cadence | Declared by |")] + "\n## Transmission chain\n"
++    chk("A2 MONTHLY Jan 31 → Feb 28 within, Mar 1 CADENCE-DUE (month-end clamp, no 30-day constant)",
++        mm(dt.date(2026, 2, 28)) == [] and [r.key for r in mm(dt.date(2026, 3, 1))] == ["C:MONTH"])
++    gd = {g[0]: g[3] for g in governed}
++    chk("A3 first-owner row due TODAY governs → no C:GOV, listed governed with its key",
++        "C:GOV" not in keys and gd.get("GOV", "").startswith("D:L2 "))
++    chk("A3 first-owner row OVERDUE governs → no C:GOV2", "C:GOV2" not in keys and "GOV2" in gd)
++    chk("A3 first-owner row due at +14d (window edge) governs → no C:GOV3", "C:GOV3" not in keys and "GOV3" in gd)
++    chk("A3 a row due at +15d is outside the window → C:FAR is CADENCE-DUE", "C:FAR" in keys and "FAR" not in gd)
++    chk("A3 reading: a COVERED-suppressed row does not govern → C:COV is CADENCE-DUE", "C:COV" in keys)
++    chk("A4 named only as SECOND owner on a row → C:SEC still CADENCE-DUE", "C:SEC" in keys and "SEC" not in gd)
++    chk("A14 a LIVE GATES row (first owner, review_by inside +14d) governs → no C:GATED, listed governed by G:GATE-GATED-01",
++        "C:GATED" not in keys and gd.get("GATED", "").startswith("G:GATE-GATED-01"))
++    un = dict(unreached)
++    chk("A5 EVENT-DRIVEN 30 days quiet, no row → UNREACHED, never CADENCE-DUE", "BETA" in un and "C:BETA" not in keys)
++    chk("A5 EVENT-DRIVEN with a first-owner row ≤ +14d → not listed", "DELTA" not in un and "C:DELTA" not in keys)
++    chk("A5 ON-DEMAND and DAILY 30 days quiet → never CADENCE-DUE, UNREACHED or CANNOT-EVALUATE",
++        not any(d in ("GAMMA", "DAYLY") for d in [k[2:] for k in keys] + list(un) + list(cn)))
++    chk("A6 WEEKLY table desk that is DORMANT → named not launchable, never a wake",
++        cn.get("SLEEPY", "").startswith("not launchable (ROSTER DORMANT") and "C:SLEEPY" not in keys)
++    chk("A6 WEEKLY table desk absent from ROSTER classes → named not launchable", cn.get("GHOST", "").startswith("not launchable") and "C:GHOST" not in keys)
++    chk("A7 launchable desk with no cadence row (TIER-2) → named", cn.get("ABSENT") == "no cadence row (ROSTER TIER-2)")
++    chk("A7 UNDECLARED → named", cn.get("EPS") == "UNDECLARED")
++    chk("A7 duplicate identity → named, never a wake", cn.get("DUPE") == "duplicate cadence identity" and "C:DUPE" not in keys)
++    chk("A7 unknown token → named", cn.get("BADTOK", "").startswith("unknown token"))
++    chk("A7 no qualifying owner commit → named", cn.get("NOCOM") == "no qualifying owner commit" and "C:NOCOM" not in keys)
++    chk("live layout: the token-definitions table names no desk, and PROME is never a 'no cadence row' desk",
++        not any(d in CADENCE_TOKENS for d in cn) and "PROME" not in cn)
++    chk("A7 git log failure → named, never a wake", cn.get("ERRD", "").startswith("git log FAILED") and "C:ERRD" not in keys)
++    chk("A7 no cadence section at all → one named line, nothing else, clock-evaluated 0",
++        cadence_wakes("## ACTIVE (1)\n| X | y |\n", {}, live, T) == ([], [], [], [("*", "no ROSTER cadence section — no desk can be evaluated")], 0))
++    chk("A17 healthy fixture: clock-evaluated = the 9 launchable WEEKLY desks with a qualifying commit (ALPHA SEC BOUND GOV GOV2 GOV3 FAR COV GATED; "
++        "not NOCOM/ERRD/SLEEPY/GHOST/DUPE)", evaluated == 9)
++    chk("A17 class headings lost (cadence heading kept) → clock-evaluated 0", cadence_wakes(nohdr, gov, live, T)[4] == 0)
++    chk("A17 desk table lost (cadence heading kept) → clock-evaluated 0", cadence_wakes(notbl, gov, live, T)[4] == 0)
++    class _Err:
++        def last_self_commit(self, desk): return ("!ERR", "git log rc=128")
++    chk("A17 git log failing for every desk → clock-evaluated 0", cadence_wakes(roster, gov, _Err(), T)[4] == 0)
++    chk("A9 rider ②: a WALTER delivery or PROME packet into the desk's own inbox is not its commit; its own work is",
++        not attributed("ALPHA", "WALTER -> ALPHA: delivery", ["AGENTS/ALPHA/inbox/WALTER/SIG-W-1.md"])
++        and not attributed("ALPHA", "PROME -> ALPHA: packet", ["AGENTS/ALPHA/inbox/2026-03-01_from-PROME_x.md"])
++        and attributed("ALPHA", "ALPHA: weekly self-check", ["AGENTS/ALPHA/STATUS.md"]))
++    chk("ordering: most-overdue first", [r.delta for r in due] == sorted([r.delta for r in due], reverse=True))
++    buf = io.StringIO()
++    with contextlib.redirect_stdout(buf):
++        rc = render([], T, 0, True, (due, unreached, governed, cannot, evaluated))
++    out = buf.getvalue()
++    chk("render: the block prints counts, every C: row, UNREACHED, governed and CANNOT-EVALUATE lines; rc unchanged (0)",
++        rc == 0 and f"CADENCE-DUE {len(due)}" in out and all(k in out for k in keys)
++        and "cadence UNREACHED" in out and "cadence governed" in out and "cadence CANNOT-EVALUATE" in out)
++    buf2 = io.StringIO()
++    with contextlib.redirect_stdout(buf2):
++        render([], T, 0, True)
++    chk("render without the block (the slate's census call) prints no cadence-block line",
++        not any(l.startswith(("cadence wake", "cadence UNREACHED", "cadence governed", "cadence CANNOT")) for l in buf2.getvalue().split("\n"))
++        and "The one wake is the cadence block" not in buf2.getvalue())
++    print("cadence wake selftest", "PASS" if ok else "FAIL")
++    return 0 if ok else 1
++
++
+ OPEN_SCHEMA, OPEN_VERSION = "spawn_list.open", 1
+ OPEN_SCOPE = "DOCKET only — GATES rows are not in this export; 'open' is the shared state_kind reading, no spawn-candidacy filter"
+ OPEN_FIELDS = ("key", "line", "date_cell", "due", "approx", "status", "owner_cell", "owner_names", "owner_token",
+@@ -683,11 +898,15 @@ def main():
+                          "COVERED suppression that governs the latter is wrong for the former and hides "
+                          "assigned work that has not happened yet (DOCKET L368).")
+     ap.add_argument("--selftest", action="store_true")
++    ap.add_argument("--cadence-wake-selftest", action="store_true",
++                    help="WQ-295 R2 acceptance A1–A7 + A9 on fixtures (record § 7; no git)")
+     ap.add_argument("--cadence-selftest", action="store_true",
+                     help="DAEDALUS's delivered acceptance cases for the cadence reader (WQ-269)")
+     a = ap.parse_args()
+     if a.cadence_selftest:
+         sys.exit(cadence_selftest())
++    if a.cadence_wake_selftest:
++        sys.exit(cadence_wake_selftest())
+     if a.selftest:
+         return selftest()
+     today = dt.date.fromisoformat(a.as_of) if a.as_of else dt.date.today()
+@@ -707,10 +926,12 @@ def main():
+         print(f"\u26a0\ufe0f  cadence source unreadable ({a.roster}: {type(e).__name__}) — "
+               "every row below reads CANNOT-EVALUATE for cadence; due rows are UNAFFECTED", file=sys.stderr)
+     docket_text = read_text(a.docket)
+-    rows = collect(docket_text, read_text(a.gates), today, a.horizon, live, roster_text)
++    gates_text = read_text(a.gates)
++    rows = collect(docket_text, gates_text, today, a.horizon, live, roster_text)
+     global COVERED_ROWS
+     COVERED_ROWS = covered_rows(docket_text, today, a.horizon)
+-    return render(rows, today, a.horizon, a.tsv)
++    gov = governing_owners(collect(docket_text, gates_text, today, CADENCE_WINDOW_DAYS, live, ""))
++    return render(rows, today, a.horizon, a.tsv, cadence_wakes(roster_text, gov, live, today))
+ 
+ 
+ if __name__ == "__main__":
