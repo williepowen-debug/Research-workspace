@@ -3,7 +3,7 @@
   "status": "CATO-approved follow-up implemented; author checks passed; independent acceptance pending",
   "build_hashes": {
     "app.py": "8c1be0bc38286585fe201ced09f9fb72212ea6d937e4f70b51e42194bda67451",
-    "desk.html": "e2adddfd112b66f7c034c3f75aed7d99b9d8990be9fb678ae72600bc7d74ee67",
+    "desk.html": "975a7827a4ae49b9d94768e478b6bf121c836c3408c1641b9d3ce914c61102b4",
     "queue_store.py": "5649628085af1584174b8470639f853230b46874864e065d29554148cb360f4b",
     "delivery.py": "9b31aecac6b9e2ef6bf7529718593d9a06cbf301974f57b29a038e5db9f0a7cf",
     "pilot_files.py": "9239f88cc41f42bd5c652ea85ee1539dec26f4624805e632a1f4cf0752f006aa",
@@ -23,8 +23,8 @@
     "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
     "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
   },
-  "python_checks": "79 focused tests passed",
-  "browser_checks": 20,
+  "python_checks": "Prior 79-test result reused: Python implementation unchanged; current browser run exercises reply save/delivery.",
+  "browser_checks": 22,
   "native_launcher": "Prior launcher smoke PASS reused: launcher command unchanged. Current browser entrypoint checked directly.",
   "activation_template": {
     "schema_version": "decisions-app-acceptance/1",
@@ -36,7 +36,7 @@
     },
     "build_hashes": {
       "app.py": "8c1be0bc38286585fe201ced09f9fb72212ea6d937e4f70b51e42194bda67451",
-      "desk.html": "e2adddfd112b66f7c034c3f75aed7d99b9d8990be9fb678ae72600bc7d74ee67",
+      "desk.html": "975a7827a4ae49b9d94768e478b6bf121c836c3408c1641b9d3ce914c61102b4",
       "queue_store.py": "5649628085af1584174b8470639f853230b46874864e065d29554148cb360f4b",
       "delivery.py": "9b31aecac6b9e2ef6bf7529718593d9a06cbf301974f57b29a038e5db9f0a7cf",
       "pilot_files.py": "9239f88cc41f42bd5c652ea85ee1539dec26f4624805e632a1f4cf0752f006aa",
