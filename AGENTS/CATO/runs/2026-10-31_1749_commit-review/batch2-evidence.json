@@ -1,0 +1,66 @@
+{
+  "revision": "61b16595ab7cf3fbff4454bedf19df765d84992f",
+  "date": "2026-10-31",
+  "reviewer": "CATO; independent of PROME cleanup, author of Decisions app",
+  "real_source_witnesses": {
+    "dark": {
+      "ok": false,
+      "detail": "rc=1 · as-of 2026-10-31 · horizon +0d · 1 row(s): DARK 1 · ACTIVE 0 · lands-ahead 0 · PROME 0 · WILL 0 · DARK: D:L2 SAM · slate PROME/state/SPAWN_SLATE.md regenerated\n       ↳ ⚠️ D:L2\t2026-10-31\t0\tSAM\tDARK\tno self-commit found in history\tWEEKLY — CANNOT-EVALUATE (no qualifying owner commit)\tCATO… [preview]\n       full output: /tmp/gate-fixture-0e82261_/review-dark/00-review-dark.txt",
+      "failed_banner": false
+    },
+    "unknown": {
+      "ok": false,
+      "detail": "rc=2 · as-of 2026-10-31 · horizon +0d · 1 row(s): DARK 0 · ACTIVE 0 · lands-ahead 0 · PROME 0 · WILL 0 · ⛔ UNKNOWN 1 (liveness NOT established — never a spawn) · slate PROME/state/SPAWN_SLATE.md regenerated\n       full output: /tmp/gate-fixture-0e82261_/review-unknown/00-review-unknown.txt",
+      "failed_banner": false
+    },
+    "empty": {
+      "ok": true,
+      "detail": "rc=0 · as-of 2026-10-31 · horizon +0d · 0 row(s): DARK 0 · ACTIVE 0 · lands-ahead 0 · PROME 0 · WILL 0 · slate PROME/state/SPAWN_SLATE.md regenerated\n       full output: /tmp/gate-fixture-0e82261_/review-empty/00-review-empty.txt",
+      "failed_banner": false
+    },
+    "failed_slate": {
+      "ok": false,
+      "detail": "rc=1 · UNKNOWN: counts UNKNOWN — read the log (no spawn_list count line) · slate NOT regenerated (spawn_slate.py rc=2; a FAILED banner replaced it; log /tmp/gate-fixture-0e82261_/review-failed_slate/00-spawn-slate-0d.txt) — do not read a stale slate\n       full output: /tmp/gate-fixture-0e82261_/review-failed_slate/00-review-failed-slate.txt",
+      "failed_banner": true
+    },
+    "malformed_date": {
+      "rc": 2,
+      "output": "DOCKET-VIEW ✗ rc 2 — L2: malformed date span '2026-10.30' (nothing written)\n"
+    }
+  },
+  "unittest": {
+    "ran": 204,
+    "passed": 200,
+    "failures": [
+      "CleanFixturePasses.test_no_check_errored",
+      "CleanFixturePasses.test_rc_is_0",
+      "CleanFixturePasses.test_verdict_says_pass",
+      "NoFabricatedDefaults.test_no_bare_check_call_sites_remain"
+    ],
+    "known": true,
+    "modules": [
+      "test_wq578_batch2",
+      "test_boot_coverage",
+      "test_orch_log_wiring_L733",
+      "test_deck_pause_WQ460",
+      "test_orch_closeout",
+      "test_agent_freshness_L294_F4",
+      "test_repeat_boot",
+      "test_closeout_declarations_readonly_boot",
+      "test_docket_row_cap",
+      "test_gate_isolation_L294_F7"
+    ]
+  },
+  "direct_predicate_script": "test_docket_state_predicate_L370.py: 13 cases across predicate/parity/fallback PASS",
+  "acceptance_hashes": {
+    "checked": 22,
+    "matched": 22,
+    "SR5_installed": false
+  },
+  "limits": [
+    "No provider/token/billing inspection",
+    "No new speed measurement",
+    "Not full ARGUS/daily closeout",
+    "No blanket review acceptance"
+  ]
+}
