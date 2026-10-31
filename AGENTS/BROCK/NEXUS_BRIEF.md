@@ -2,8 +2,8 @@
 
 **Status:** 🔴 STAGE 2→3 — substance firming; bank transmission unconfirmed; X1 NOT MET, wrapper NOT ARMED.
 **Domain:** BDCs / private credit / alternative managers / AI-infrastructure lending / PE-insurance links. Insurer exposure belongs to SHADE; EU bank/private-credit seam to HANS.
-**Recent thesis pivots:** ① **GATE-BRK-R2 (a) FIRED ×2** — North Haven PIF 9/25 (Q3 prelim 43.8%), OCIC 10/2 (Q3 prelim ~30%); one redemption wave, scored once. ② **BRK-02 RESOLVED FALSE 10/2:** Octus industry non-accruals at COST fell 2.02→1.90% in Q2, while rated-universe medians rose. ③ Duration 3→4 on 9/25, registered >5.00% rung met; latest 4.96 [FRED 10/22] is below the rung now, without an inferred reset rule. ④ WQ-363 (Will 10/3): X1 sustained = 3 consecutive HY readings >280.0; HY leg met, wrapper fails. ⑤ WQ-370 keeps OTIC OUT of R2; **standalone GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)**, first grading Q4-2026. ⑥ **10/28 (KB-393–404):** ARCC Q3 software guide NOT MET (FV/cost 0.946, <80 share 7.4%); OCIC Q3 FINAL 29.8% ⇒ R2 (b) NOT FIRED; BRK-22 RESOLVED FALSE ($0.48 held). **ARCC buys Apollo's MFIC at ~75% of NAV on its own account (84.6% with Ares adviser cash)**; MFIC marks ≈ ARCC on 12 shared names, but those are 5% of its book.
-**As of:** 2026-10-29T00:08:20-04:00 | STATUS commit: `df2cbea74` | Convergence **58/70**, last rescore **9/25**, unchanged. 10/28–29 owed reads + ARCC–MFIC deal; HTGC 10/29 remains the earnings test.
+**Recent thesis pivots:** ① **GATE-BRK-R2 (a) FIRED ×2** — North Haven PIF 9/25 (Q3 prelim 43.8%, FINAL 43.7% filed 10/26), OCIC 10/2 (Q3 final 29.8%); (b) <25% NOT FIRED on either final; one redemption wave, scored once. Post-fire "latch" rule P13 PROPOSED (PROME/Will). ② **BRK-02 RESOLVED FALSE 10/2:** Octus industry non-accruals at COST fell 2.02→1.90% in Q2, while rated-universe medians rose. ③ Duration 3→4 on 9/25, registered >5.00% rung met; latest 4.96 [FRED 10/22] is below the rung now, without an inferred reset rule. ④ WQ-363 (Will 10/3): X1 sustained = 3 consecutive HY readings >280.0; HY leg met, wrapper fails. ⑤ WQ-370 keeps OTIC OUT of R2; **standalone GATE-BRK-OTIC REGISTERED 10/15 (WQ-403)**, first grading Q4-2026. ⑥ **10/28 (KB-393–404):** ARCC Q3 software guide NOT MET (FV/cost 0.946, <80 share 7.4%); OCIC Q3 FINAL 29.8% ⇒ R2 (b) NOT FIRED; BRK-22 RESOLVED FALSE ($0.48 held). **ARCC buys Apollo's MFIC at ~75% of NAV on its own account (84.6% with Ares adviser cash)**; MFIC marks ≈ ARCC on 12 shared names, but those are 5% of its book.
+**As of:** 2026-10-31T09:46-04:00 (BROCK R2 review session) | STATUS commit: the 2026-10-31 BROCK commit (`git log -1 -- AGENTS/BROCK/STATUS.md`) | Convergence **58/70**, last rescore **9/25**, unchanged. GATE-BRK-R2 review held; North Haven Q3 final 43.7% (b) NOT FIRED; 39-name NAV discount 28.68%.
 
 ## CROSS-DOMAIN
 
@@ -39,7 +39,7 @@
 - **Software marks are the near-term test, with better comparisons and weaker HTGC inference.** Six-SOI reconciliation and funded USD screen DONE. The seven both-software disclosed-term candidates show absolute gaps0.01–3.00pp, not proof of identical rights or systematic manager bias. HTGC venture growth terms differ from syndicated buyout debt; its Smartsheet/New Relic economic aliases mostly mark close to peers. The old ±1.4 claim remains withdrawn. Preserve original October23 expectations in Experiment A; do not substitute the new FV/principal screen for HTGC's FV/COST falsifier. Report/rows/code at `research/2026-10-25_three-followups/`.
 - **Substance is firmer than established transmission.** Historical 11-for-11 negatives drove NDFI4→3 on9/3. The new Q3 pass now covers11/11 release/deck packages, **provisional and attribution-insufficient**, with no qualifying F1/F2 established. Those are different observations, not a second eleven-bank flat-reserve verdict. Industry NA at cost fell in Q2; no score changed.
 - **BCRED:** Q3 cap held, ~10% shares requested / ~50% satisfied, backlog largely resubmitted; **9/30 NAV $23.51/sh, −0.59% QoQ; aggregate ~$41.1B, −3.9%**, issuer 8-K 10/22 (KB-BRK-359). July $280.4M and August $227.1M subscriptions counter a one-way outflow story. R2 (a) fires concern other named vehicles; count once.
-- **Measurement basis can reverse a conclusion.** OBDC NA rose 2.3→2.8% COST while falling 1.1→0.8% FV over the same quarters; MFIC has the same shape (KB-BRK-279/283/284). NAV sector median remains UNVERIFIED now: RJ 45-name 32% [10/8] and six-name diagnostic 17.23% [10/13] are separate cohorts, neither substitutes for the other.
+- **Measurement basis can reverse a conclusion.** OBDC NA rose 2.3→2.8% COST while falling 1.1→0.8% FV over the same quarters; MFIC has the same shape (KB-BRK-279/283/284). NAV discount: BROCK 39-name median **28.68%** [10/30 closes over latest XBRL NAVs, mostly 6/30; KB-BRK-412]; six-name diagnostic 17.36%; RJ 45-name 32% [10/8] not refreshed — separate cohorts, no trend claimed.
 - **Open constraints:** BRK-32 restored STUCK, March31 weights/45% frozen, grade 11/30 under WQ-161/288; CCLFX satisfaction UNKNOWN, repurchase percentage proves neither demand nor satisfaction. Matched June30 Medallia marks both ~49.5c, private-rights identity unverified. FSK May30 commitment bridge is not October funded retained exposure; Kellermeyer PIK/accrual does not certify cash-pay category. Next FSK 11/05 BMO, 09:00 ET call.
 
 ## CALIBRATION
@@ -52,9 +52,9 @@
 
 ## NEXT DECISION POINT
 
-- **What / when:** six overdue initial bank reads DONE, calls/final filings remain; **ARCC read DONE 10/28 (guide NOT MET)**; **HTGC 10/29** pick falsifier. **R2 FIRED ×2**, review **10/31**; OCIC final (b) NOT FIRED, North Haven final ~11/05 can still grade (b). CRMT/CABO are case evidence, not automatic vector movers.
+- **What / when:** six overdue initial bank reads DONE, calls/final filings remain; **ARCC read DONE 10/28 (guide NOT MET)**; **HTGC 10/29** pick falsifier. **R2 FIRED ×2**, review HELD 10/31 (next 11/16 proposed); both Q3 finals (b) NOT FIRED; BCRED Q4 letter ~12/03 is the only live (a) read. CRMT/CABO are case evidence, not automatic vector movers.
 - **Falsifier:** HTGC's three Q3 conditions above; ARCC FV/cost down ≥2 pts from 0.950 or <80-par share ≥8% from 4.2% is a reading guide, not a registered threshold.
-- **Other changes:** ≥80% satisfaction at a named vehicle for two quarters supports downgrade; OTF NII covering dividend weakens the cut thesis. Attributable reserve build escalates bank channel; BRK-25 requires an arm's-length print, count remains 2. BRK-26 requires qualifying post-5/1 enforcement; Madison 2/25 cannot resolve (L657 settled, no interpretation decision owed).
+- **Other changes:** ≥80% satisfaction at a named vehicle for two quarters supports downgrade; OTF NII covering dividend weakens the cut thesis. Attributable reserve build escalates bank channel; BRK-25 requires an arm's-length print, count remains 2. BRK-26 requires qualifying post-5/1 enforcement; Madison 2/25 cannot resolve. 🆕 SEC v. SQN Capital (settled 10/8, fund NAV inflation) is a CANDIDATE pending RED on whether asset-based lending is "PC" — not graded (KB-BRK-413).
 
 ## FORWARD CATALYSTS (next 2–4 weeks; canonical = docket/CATALYSTS.tsv)
 
@@ -62,13 +62,12 @@
 |------|-------|---------------------|
 | 10/29 | HTGC Q3 after close, call 17:00 ET (L827) | Three-part falsifier; same one-time Experiment A cells, then trial ends at PROME assessment. |
 | 10/30 | CRMT pre-STD (L794), CABO weekly (L795), WQ-516 encode check L829 | Full feeds; no silence-as-default inference. |
-| By 10/30 | DAEDALUS 10/8 asks + Radiant court-source gap | R2 post-fire rule per vehicle (already FIRED ×2), sector median, search records BRK-11/18/25/26, VX-013 coverage basis, Medallia canonical handoff. |
-| 10/31 / ~late Oct | R2 review / OCIC Q3 final | (a) already FIRED ×2; final (b) <25%. |
 | 11/02 | CRMT post-STD read (STD Sun 11/01) | Ninth bridge / waiver / transaction / acceleration / bankruptcy. |
 | 11/04–05 | BXSL / OBDC / FSK Q3 | Refresh each six-name column only at its filing; FSK cash/PIK/collateral/lender shares. |
-| ~11/05 | North Haven Q3 final | R2 final leg (b). |
 | 11/05–18 | SHADE joint reconcile (L185) | Distinct instruments until normalization agreed. |
 | 11/17 AMC | GBDC annual results (issuer 10/6 8-K) | Revisit post-maturity funding and named draw disclosure; June arithmetic is historical. |
-| ~mid-Nov | BCRED Q3 10-Q | Final Q3 tender dollars on 9/30 valuation date. |
+| ~mid-Nov | BCRED Q3 10-Q | Final Q3 tender dollars on 9/30 valuation date (cannot fire R2 (a)). |
+| 11/16 | Q3 10-Q deadline · R2 review (proposed) | BRK-11 coverage re-run; Monroe/ADS Q3 tender outcomes. |
+| ~12/03 | BCRED Q4 tender letter | Third consecutive sub-100% FIRES R2 (a) at BCRED. |
 
 *FULL schema R3 + amendments 7/9/10/11/12. Content repair replaces the 10/15 live claims; historical observations remain dated in catchups/ and Git. Owner fold completed after final STATUS commit 84e7a03c1; NEXUS consumption remains unverified. Source dates and instrument boundaries survive this summary.*
