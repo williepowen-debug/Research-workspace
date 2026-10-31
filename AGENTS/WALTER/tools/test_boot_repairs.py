@@ -71,6 +71,37 @@ class BootRepairs(unittest.TestCase):
                 (root / 'design/X.md').unlink()
                 self.assertTrue(any(level == doctor.MED for level, _ in doctor.check_claude_md_version_drift()))
 
+    def test_doctor_versions_include_companion_drift(self):
+        import version_drift_check as versions
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'design').mkdir()
+            (root / 'design/X.md').write_text('# X v1.0\n')
+            (root / 'design/Y.md').write_text('# Y v0.9\n')
+            (root / 'design/STATE.md').write_text('## 1. Active design specs\n| `design/X.md` | **v1.0** |\n')
+            with patch.object(versions, 'WALTER', root), patch.object(versions, 'SPECS', ['design/X.md']), patch.object(versions, 'COMPANIONS', {'design/Y.md':'design/X.md'}):
+                self.assertTrue(any(level == doctor.HIGH and 'COMPANION DRIFT' in msg for level,msg in doctor.check_version_drift()))
+                (root / 'design/Y.md').write_text('# Y v1.0\n')
+                self.assertTrue(all(level == doctor.INFO for level,_ in doctor.check_version_drift()))
+                (root / 'design/Y.md').unlink()
+                self.assertTrue(any(level == doctor.HIGH for level,_ in doctor.check_version_drift()))
+
+    def test_outbox_age_does_not_infer_completion_or_escalation(self):
+        import os
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'outbox').mkdir()
+            for name in ['REQ-owner.md'] + [f'evidence-{n}.txt' for n in range(50)]:
+                path = root / 'outbox' / name
+                path.write_text('retained evidence or pending work')
+                os.utime(path, (0, 0))
+            with patch.object(doctor, 'WALTER', root):
+                result = doctor.check_outbox_age()
+            self.assertEqual(len(result), 2)
+            self.assertTrue(all(level in (doctor.INFO, doctor.LOW) for level,_ in result))
+            self.assertTrue(any('REQ-owner.md' in msg for _,msg in result))
+            self.assertEqual(len(list((root / 'outbox').iterdir())), 51)
+
     def test_owner_session_date_is_not_commit_date(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

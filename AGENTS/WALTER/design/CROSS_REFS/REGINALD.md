@@ -127,7 +127,7 @@ REGINALD's 8-channel BANK_EXPOSURE_MATRIX framework. **v0.9 candidate:** `bank_t
 | `fed_layoffs` | FED-LAYOFFS | DOGE federal layoffs cascade (DC corridor) | DC bank exposure / federal layoff cascade / Trump EO / DOGE specific mention |
 | `stagflation_trap` | STAGFLATION | Stagflation trap (oil → consumer → bank borrower stress) | Oil pump-pass-through + consumer DQ + bank borrower stress chain (Brent ≥$110 cluster) |
 
-**v0.9 enum candidate (pre-cosigned in REG LIAISON Turn 4, V0_9_STACK.md tracker):**
+**Historical v0.9 enum candidate — not a live schema.** The V0_9_STACK plan was killed July 3, 2026; the snippet below records the old liaison proposal, not authority to emit a new field. Current header schema is SIGNAL_FORMAT_SPEC; the live watchlist and pattern keys elsewhere in this file remain dispatch references.
 ```yaml
 bank_transmission: cre | hidden_cre | ndfi | private_credit | mfs_fraud | cmbs_maturity | fed_layoffs | stagflation_trap
 ```

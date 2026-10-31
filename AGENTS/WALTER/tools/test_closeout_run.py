@@ -26,7 +26,7 @@ class CloseoutRun(unittest.TestCase):
     def test_light_does_not_run_full_or_unselected_conditionals(self):
         names = {r[0] for r in plan(self.root, "light")}
         self.assertNotIn("doctor", names); self.assertNotIn("reads", names)
-        self.assertNotIn("versions", names); self.assertNotIn("ledger-nudge", names)
+        self.assertNotIn("static", names); self.assertNotIn("ledger-nudge", names)
         report, rc = run(self.root, "light", self.out, executor=self.ok)
         self.assertEqual(rc, 0)
         self.assertIn("UNVERIFIED", report["procedure_completion"])
@@ -35,10 +35,22 @@ class CloseoutRun(unittest.TestCase):
     def test_conditionals_and_full_tier(self):
         names = {r[0] for r in plan(self.root, "light", status_changed=True,
                     spec_changed=True, memory_slugs=["one"], superseded=[("old", "new")])}
-        self.assertTrue({"versions", "ledger-nudge", "memory-index", "memory-length",
+        self.assertTrue({"static", "ledger-nudge", "memory-index", "memory-length",
                          "consumer-1-peer", "consumer-1-self"} <= names)
         names = {r[0] for r in plan(self.root, "full")}
-        self.assertTrue({"doctor", "reads", "basis", "versions"} <= names)
+        self.assertTrue({"doctor", "reads", "basis"} <= names)
+
+    def test_static_validation_runs_once_only_when_requested(self):
+        for tier in ("light", "full"):
+            with self.subTest(tier=tier):
+                unchanged = plan(self.root, tier)
+                self.assertFalse(any("--spec-changed" in argv or "--static-only" in argv
+                                     for _, argv, _ in unchanged))
+                changed = plan(self.root, tier, spec_changed=True)
+                static = [argv for _, argv, _ in changed
+                          if "--spec-changed" in argv or "--static-only" in argv]
+                self.assertEqual(len(static), 1)
+                self.assertFalse(any(argv[1].endswith("version_drift_check.py") for _, argv, _ in changed))
 
     def test_failure_and_unknown_are_not_success(self):
         for code, state in ((1, "REVIEW"), (2, "UNKNOWN")):
@@ -74,7 +86,8 @@ class CloseoutRun(unittest.TestCase):
     def test_runner_writes_only_evidence_not_owner_sources(self):
         before = {p: p.read_bytes() for p in self.root.rglob("*") if p.is_file()}
         run(self.root, "light", self.out, executor=self.ok)
-        self.assertTrue((self.out / "draft.md").exists())
+        self.assertEqual({p.name for p in self.out.iterdir()}, {"checks.json"})
+        self.assertTrue(all("output_text" in c for c in json.loads((self.out / "checks.json").read_text())["checks"]))
         self.assertTrue(all(p.read_bytes() == data for p, data in before.items()))
         self.assertIn("not passes", json.loads((self.out / "checks.json").read_text())["limits"])
 
@@ -97,13 +110,13 @@ class CloseoutRun(unittest.TestCase):
         doctor = next(c for c in report["checks"] if c["check"] == "doctor")
         self.assertEqual(doctor["state"], "UNKNOWN")
         self.assertEqual((report["selected_check_state"], rc), ("UNKNOWN", 2))
-        self.assertEqual(next(c for c in report["checks"] if c["check"] == "versions")["state"], "PASS")
+        self.assertEqual(next(c for c in report["checks"] if c["check"] == "local-memory-lines")["state"], "PASS")
         return doctor
 
     def test_missing_doctor_script_is_unknown_and_later_checks_continue(self):
         doctor = self.assert_doctor_unrun()
         self.assertEqual(doctor["rc"], 2)
-        self.assertIn("can't open file", (self.root / doctor["output"]).read_text())
+        self.assertIn("can't open file", doctor["output_text"])
 
     def test_doctor_syntax_error_is_unknown_and_later_checks_continue(self):
         script = self.root / "AGENTS/WALTER/tools/walter_doctor.py"
@@ -111,7 +124,7 @@ class CloseoutRun(unittest.TestCase):
         script.write_text("def broken(:\n")
         doctor = self.assert_doctor_unrun()
         self.assertEqual(doctor["rc"], 1)
-        self.assertIn("SyntaxError", (self.root / doctor["output"]).read_text())
+        self.assertIn("SyntaxError", doctor["output_text"])
 
     def test_completed_doctor_findings_remain_review(self):
         script = self.root / "AGENTS/WALTER/tools/walter_doctor.py"

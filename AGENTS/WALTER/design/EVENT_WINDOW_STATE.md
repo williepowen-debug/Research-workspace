@@ -17,7 +17,7 @@
 ```
 States:
   CLOSED (default)         — normal dispatch cadence; FLASH per-signal as usual; this file shows CLOSED
-  OPEN (declared)          — all Phase-2-cluster signals dispatch FLASH; threaded Telegram master-message;
+  OPEN (declared)          — all Phase-2-cluster signals dispatch FLASH; active-session alerts with durable references;
                              daily 00:00 UTC roll-up by WALTER; close-of-window summary at transition
   PENDING_VERIFICATION     — declared OPEN but verification gate has not yet fired (≤48h)
 
@@ -40,7 +40,7 @@ Verification gates (BRENT canonical):
 ## During OPEN window — operational rules
 
 - All Phase-2-cluster signals dispatch FLASH (overrides per-signal precedence)
-- Telegram pings get threaded under a single rolling **"BURST WINDOW OPEN — Phase 2 trigger"** master message; one new message per dispatched signal under that thread
+- Active-session alerts identify **"BURST WINDOW OPEN — Phase 2 trigger"** and the durable signal reference. Telegram is retired; no unattended notification is implied.
 - Daily 00:00 UTC roll-up posted by WALTER (signal count, key dispatches, verification-gate progress)
 - Close-of-window summary at transition to CLOSED (window duration, dispatches fired, gate-confirmation status, retroactive false-positive-tagging if early-close)
 - Other-cluster signals stay normal precedence (don't bleed Phase-2 burst into unrelated domains)
@@ -53,7 +53,7 @@ WALTER and BRENT both have write access to this file. To declare a state change:
 1. **Replace the lead block** (Current state / Last transition / Last transition by / Verification gate status / Expected close trigger lines)
 2. **Append a new entry** to the State Transition Log section below — one row per transition, immutable history
 3. **Commit immediately** — state is operational, can't sit unstaged. WALTER stages this file alongside other WALTER scope per CLAUDE.md spawn-protocol step 16b (file lives under AGENTS/WALTER/, no exception needed)
-4. **Telegram-ping Will** on every transition — one line, format: `BURST_WINDOW: <prior> → <new>; declared by <agent>; trigger <reason>; expected close <trigger>`
+4. **Alert Will in the active session and retain the transition record** on every transition — one line, format: `BURST_WINDOW: <prior> → <new>; declared by <agent>; trigger <reason>; expected close <trigger>`
 
 Either agent may declare CLOSED → OPEN; default declaration is BRENT (domain primary). Either agent may declare OPEN → CLOSED; default is WALTER (post-48h-stable check). LESSONS #18 disambiguation early-close can fire from either side.
 

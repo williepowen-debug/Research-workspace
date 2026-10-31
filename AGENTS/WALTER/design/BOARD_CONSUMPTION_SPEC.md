@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.35
+**Version:** v0.36
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 
@@ -76,11 +76,11 @@ The kernel is a self-contained summary so the recipient can act without round-tr
 
 ### 3.3 `delivered` — single-machine definition
 
-All agents run as Claude Code sessions on the one shared desktop repo (the OpenClaw/VPS platform was cut 2026-06-26 — see `design/OPENCLAW_CUTOVER_PLAN.md`). `delivered` has **one meaning for every recipient**:
+Runtime and provider discovery follow root `CLAUDE.md` and `PROME/COMPLETION_SPEC.md`; provider names do not establish tools or permissions. Shared-repository delivery is runtime-neutral. `delivered` has **one meaning for every recipient**:
 
 > A handoff file is **delivered** when it is **written, committed, AND pushed/synced to origin** (reachable on the recipient's next pull). **Written-but-unpushed is NOT delivered.**
 
-**Urgent fallback:** FLASH (and IMMEDIATE) while a sync is pending falls back to the existing **FLASH → Telegram/Will alert** path so the signal is never invisible. See §3.4 for the precedence→push handling.
+**Urgent fallback:** for FLASH and IMMEDIATE while sync is pending, alert Will in the active session and retain BOARD, handoff and delivery-log records. WALTER Telegram was retired October 27, 2026; never claim an unattended notification was sent. The alert does not establish delivery. See §3.4 for the precedence→push handling.
 
 ### 3.4 Push handling by precedence
 
@@ -519,7 +519,7 @@ WALTER commits locally; **pushing is Will-coordinated** (a Will-opened window or
 **Delivery ships first (Phase 1, this session).** Consumption is **Phase 2 — tracked and time-boxed**, because "define template, agents apply later" already failed once (v0.1 → the BRENT miss).
 
 - **WALTER defines** the recipient consumption boot-step template (§8.1) and does **not** edit other agents' boot docs.
-- **All recipients self-apply** the consume boot-step (§8.1) on next spawn — single-machine, every agent is a CC session. (The OpenClaw "PROME installs it" path is retired with the VPS.)
+- **All recipients self-apply** the consume boot-step (§8.1) on next spawn using its actual supported runtime. The old OpenClaw installation path is historical.
 - **Time-box:** the `delivered_but_unconsumed` telemetry (§6.1) makes the gap visible per recipient every boot; it is the mechanism that prevents an open-ended stall.
 
 ### 3.5.8 🔴 THE DRAIN UNIT FOR AN EXEMPT DESK IS THE BOARD ID-DIFF, NOT THE INBOX (added v0.24, 2026-09-11)
@@ -655,6 +655,8 @@ Auto-memory `[[project_messaging_overhaul]]` ("don't patch inbox/outbox/HERMES h
 ---
 
 ## Version History
+
+- **v0.36 — October 31, 2026:** reconcile operative transport/runtime wording with root October 5 runtime rules and Will’s October 27 Telegram retirement. No delivery-proof, exemption, correction, push-authority or ledger-enum change.
 
 - **v0.30 (2026-09-15):** Boot-audit repair: reconcile current instructions with owner rulings and implemented tools; remove unsupported extrapolation. Frozen thresholds and unresolved month-basis decision unchanged.
 

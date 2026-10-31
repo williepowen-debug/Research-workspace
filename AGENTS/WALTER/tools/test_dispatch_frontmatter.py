@@ -19,6 +19,19 @@ class DispatchFrontmatter(unittest.TestCase):
     def test_quoted_recipients_and_utc_are_valid(self):
         out=self.check_text('---\naction: ["RED", "CARL"]\ndispatched: "2026-10-16T17:00:00Z"\n---\nbody')
         self.assertEqual(out[0][0],doctor.INFO)
+    def test_block_list_recipients_are_valid(self):
+        for members in ('  - CARL\n  - "RED"', '- CARL\n- RED'):
+            out = self.check_text('---\naction:\n' + members + '\ndispatched: 2026-10-16T17:00:00Z\n---\n')
+            self.assertEqual(out[0][0], doctor.INFO)
+
+    def test_malformed_block_and_body_list_cannot_pass(self):
+        for header, body in [('action:\n  - CARL\n  - bad agent', ''),
+                             ('action:', '  - CARL'),
+                             ('action:\n  CARL', ''),
+                             ('action:\n  - CARL\naction:\n  - RED', '')]:
+            out = self.check_text('---\n' + header + '\ndispatched: 2026-10-16T17:00:00Z\n---\n' + body)
+            self.assertTrue(any(sev == doctor.MED for sev, _ in out))
+
     def test_explicit_empty_action_list_is_valid(self):
         self.assertEqual(self.check_text('---\naction: []\ndispatched: 2026-10-16T17:00:00Z\n---\n')[0][0],doctor.INFO)
     def test_invalid_clock_and_duplicate_key_fail(self):

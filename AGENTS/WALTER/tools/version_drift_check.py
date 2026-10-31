@@ -35,7 +35,6 @@ SPECS = [
     "design/BOARD_CONSUMPTION_SPEC.md",
     "design/OPERATOR_BRIEF_SPEC.md",
     "design/SIGNAL_INTAKE_TEMPLATE.md",
-    "design/PHONE_SIGNAL_INGESTION.md",
 ]
 
 # COMPANION SPECS (added 2026-08-30, Codex finding 3): files that are ONE spec split

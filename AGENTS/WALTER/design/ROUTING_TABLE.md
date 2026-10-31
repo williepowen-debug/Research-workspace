@@ -1,4 +1,4 @@
-# WALTER Routing Table v0.50
+# WALTER Routing Table v0.51
 
 Default routing rules. WALTER uses this table to determine recipients and precedence when classifying incoming information. These are defaults — WALTER can override based on context, safety net triggers, or MINIMIZE state.
 
@@ -86,7 +86,7 @@ Default routing rules. WALTER uses this table to determine recipients and preced
 |-----|--------|--------|-----------------|-------------------|---------------|
 | **Thesis Confirmation** (signal_type: thesis-confirmation) | RED | — | THESIS_CORE | PRIORITY | ADVERSARIAL |
 | **Counter-Evidence** (signal_type: counter-evidence) | RED | — | — | PRIORITY | ADVERSARIAL |
-| **Position-Specific Risk** (signal_type: position-risk) | Will (via Telegram) | — | Relevant agent | FLASH or IMMEDIATE | — |
+| **Position-Specific Risk** (signal_type: position-risk) | Will (active session + durable record) | — | Relevant agent | FLASH or IMMEDIATE | — |
 | **Broad Market Stress** (safety-net trigger, multi-domain) | LIQUID | HENRY | FULL_NETWORK | IMMEDIATE | FULL_NETWORK |
 | **Convergence / cluster-narrative** (v0.19 — `signal_role: cluster_mediating`, or a signal bearing on a registered `PRED-NN`) | **NEXUS** | HENRY | RED | PRIORITY | SYNTHESIS |
 

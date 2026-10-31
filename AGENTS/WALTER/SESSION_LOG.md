@@ -1,5 +1,11 @@
 ## FULL CLOSEOUT — 2026-10-31T21:46:53Z — process/check audit
 
+## 2026-10-31T22:07:39Z — FULL closeout: authorized process cleanup
+
+Implemented the October 31 audit cleanup: retired cron/TERRY checks and Cushing credential probe removed; 31 routine checks plus 4 edit-time checks; companion validation reused once; block-style action headers accepted with malformed/duplicate/body-spoof safeguards; outbox inventory compacted without declaring requests complete. One checks.json retains full closeout outputs; no duplicate draft. COP retired, active-session transport reconciled, phone/migration/news-sweep historical banners added. Current duties remain in LAST_COMPLETION; no dispatch, market scan, helper or owner launch. No full-deferred debt.
+
+Spec changes: CHECKLIST v0.55 / THRESHOLD_SCAN v0.55 (COP and transport cleanup, scan unchanged); BOARD_CONSUMPTION_SPEC v0.36 (runtime/transport wording); FILTER_SPEC v0.9, routing family v0.51 and OPERATOR_BRIEF_SPEC v0.4 (transport reconciliation only). Delivery, corrections, exemptions, thresholds and burst-window state semantics preserved. Prior audit is historical evidence; no copied before-images. Review: research/2026-10-31_process-cleanup/REVIEW.md.
+
 Will requested a sweep for redundant, obsolete or superseded WALTER work. Inventoried 4,324 tracked files (222 operational/candidate paths), reviewed active processes and source/callers, profiled all 38 doctor checks (17.273s, one read-only run), and recorded 11 findings plus a 38-row disposition matrix. Two routine checks are already historical; COP/Telegram/phone and legacy burst-window instructions need reconciliation. Kept distinct delivery/consumption/index guarantees and live external interfaces. No implementation, dispatch, market pull, new checker or helper. Other 43 owner headers unchanged; REGISTRY before NETWORK, MEMORY and all current duties reviewed. Spec changes: none. Report: research/2026-10-31_process-audit/REPORT.md. Full deferral remains cleared.
 
 ## FULL CLOSEOUT — 2026-10-31T21:36:45Z — oil-rig routing reconciliation

@@ -11,45 +11,11 @@ surfaced for awareness.
   exit 0  = no HIGH/MED findings (LOW/INFO may still print)
   exit N  = N HIGH+MED findings — see the punch-list
 
-Checks:
-  future_timestamps      no stamp in the FUTURE; malformed stamps (the age basis lives here)
-  version_drift          spec header vs STATE.md §1            (reuses version_drift_check)
-  claude_md_version_drift  CLAUDE.md spec-version citations vs spec headers (the boot doc nothing else watched)
-  board_reconcile        ToC == section headers == SIG rows == files on disk
-  log_reconcile          route_log / delivery_log SIG-ids ↔ BOARD files (orphans / missing)
-  cron_liveness          3 boot-triage feeds (step 7c) vs cadence
-  intake_liveness        RESEARCH-INTAKE lane liveness.json staleness/health (step 7e consumer backstop)
-  cushing_capability     EIA .env / key present → Boundary-#3 (Cushing) auto-fire live (silent-death guard)
-  outbox_age             all staged outbox files (REQ-* >14d retry; drafts surfaced)
-  registry_staleness     Tier-1 REGISTRY rows with Updated >14d
-  registry_lag           REGISTRY date vs agent's last STATUS commit (board-lags-agents)
-  registry_self_lag      WALTER's own REGISTRY row vs WALTER STATUS.md header date
-  liaison_enum           LIAISON files on disk (informational)
-  delivered_but_unconsumed  inbox/WALTER/ handoff delivered but not moved to processed/ (>N days)
-  board_log_path_divergence  a desk whose consumption record is NOT at the canonical board_log.tsv path (DISCLOSED, never silently resolved)
-  written_but_undelivered   inbox/WALTER/ handoff committed-local but not on origin (git-derived)
-  delivery_claim_vs_git    delivery_log says 'delivered' but git says untracked/gone (2026-07-27 orphan class)
-  deep_research_pending_overdue  DEEP_RESEARCH_FLAGGED_LOG row PENDING past its deadline (or stale open >30d)
-  dewey_handoff_liveness  DEWEY handoff sitting NEW in inbox/DEWEY/ >1d (backstop-A liveness alarm)
-  staleness_sweep_overdue  last STALENESS_SWEEP_*.tsv vs 14d cadence (lifecycle-tagging lapse guard)
-  dropzone_pending       unprocessed items in the inbox/WILL/ desktop drop-zone (backstops step 7f)
-  boot_protocol_xref     every [→ BP §x] pointer resolves to a real BOOT_PROTOCOL section (and back)
-  status_spine_overflow  STATUS.md dated-lead count vs the ~5 cap (protocol §12 spine-trim guard)
-  status_bottom_line     STATUS.md `## BOTTOM LINE` is a STANDALONE heading with a body (lost twice: deleted 7/23, ABSORBED into prose 9/3)
-  full_closeout_owed     stacked `full deferred` SESSION_LOG headers since the last full closeout (>=3 = Tier-2 owed; DAEDALUS Prose-Remedy #1, 10/8)
-  restated_set_drift     prose restatements of a SET/COUNT vs canonical source (3 seeds; see docstring)
-  cluster_review_overdue  days since each large cluster's last coherence review (cadence prompt)
-  registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
-  correction_target_declared  every `signal_type: correction` declares a resolvable `corrects:` (SIG-ID/SELF/EXTERNAL)
-  correction_kill_strings  corrections dispatched from 2026-10-29T16:00Z carry `kill_strings:` (FORMAT_SPEC v0.22); older misses counted
-  batch_manifest_open    a declared Will-batch left OPEN with un-dispositioned items (the input-side blind spot)
-  dispatch_frontmatter   recent BOARD action list and UTC dispatched header; body cannot satisfy
-  action_line_rule       an agent on `info:` while the body carries ask-language naming it (§3.5.4, mechanized)
-  terry_override_ratio   S1 — TERRY inverted-token override ratio (90d/10%/n≥10) + the 72h revert falsifier
-  filed_vs_consumed      S7 — processed/ moves without a consume:<AGENT> declaration are FILED, not CONSUMED (§5.1)
-  entities_at_dispatch   `entities:` header present on every signal dated ≥2026-08-19 (FORMAT_SPEC v0.18, never retro)
-  index_generated_fresh  BOARD/INDEX.md rowset sha vs a fresh regeneration (WQ-174; pre-cutover = generator --check soak)
-  auto_load_budget       CLAUDE.md's UNCONDITIONAL auto-load cost — MEASURED, never graded against the read cap (read_cap_check cannot see it); MED only when a component is unreadable
+Inventory: CHECKS (routine state) and STATIC_CHECKS (document edits).
+Use --spec-changed to include static checks, or --static-only to run just those.
+Cushing availability is established by the actual boot step 6c data scan, never
+by searching a credentials file. Retired cron and TERRY override checks were
+removed under the October 31 process cleanup; their evidence remains in git.
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -57,7 +23,10 @@ READ-ONLY from git — PROME never writes a flag (requirement B of the v2 packet
 
 Informational, never a boot gate. Stdlib only. Add checks by appending to CHECKS.
 """
+import argparse
+import contextlib
 import csv
+import io
 import datetime as dt
 import json
 import re
@@ -80,12 +49,9 @@ ACTION_LINE_WINDOW_DAYS = 14   # trailing scan window for check_action_line_rule
 # rejects -0011→-001 truncation and anywhere-on-line matches (both RAV fixes survive).
 SIG_ID_RE = re.compile(r"^(SIG-W-\d{8}-\d{3})(\s+\(.+\))?$")
 
-# Single-machine (desktop CC) since 2026-06-26 — OpenClaw/VPS cut. Every agent
-# runs as a Claude Code session on the one shared repo, so a delivered handoff =
-# committed AND on origin for ALL recipients (no platform split). The former
-# _cc_agents()/REGISTRY-Platform-column derivation + OPENCLAW branches are gone.
-# Source: BOARD_CONSUMPTION_SPEC v0.6 §3.3 (design/OPENCLAW_CUTOVER_PLAN.md).
-
+# Delivery requires committed AND on-origin proof for every recipient.
+# Runtime/provider discovery follows root instructions; ledger enum values are
+# historical compatibility fields, not claims about the receiving runtime.
 
 # delivered handoff older than this (days) without being consumed → flag
 N_UNCONSUMED_DAYS = 2
@@ -218,21 +184,14 @@ def _registry_row(agent_name: str):
 
 # ── version drift (reuse the dedicated module) ──────────────────────────────
 def check_version_drift():
-    from version_drift_check import SPECS, spec_version, state_versions
-    out = []
-    state = state_versions()
-    for rel in SPECS:
-        sv = spec_version(WALTER / rel)
-        stv = state.get(rel)
-        if sv is None:
-            out.append((HIGH, f"{rel}: no version token in header"))
-        elif stv is None:
-            out.append((HIGH, f"{rel}: missing from STATE.md §1"))
-        elif sv != stv:
-            out.append((HIGH, f"{rel}: STATE §1 says v{stv}, spec header is v{sv}"))
-    if not out:
-        out.append((INFO, "all core specs match STATE.md §1"))
-    return out
+    # Reuse the complete comparator, including split-spec companions.
+    from version_drift_check import main as compare_versions
+    output = io.StringIO()
+    with contextlib.redirect_stdout(output):
+        code = compare_versions()
+    if code:
+        return [(HIGH, output.getvalue().strip())]
+    return [(INFO, "active specs match STATE §1; companions in lockstep")]
 
 
 # ── BOARD reconciliation ────────────────────────────────────────────────────
@@ -286,32 +245,6 @@ def check_board_reconcile():
             out.append((MED, f"{name}: in ToC but no '## {name} (N)' section"))
         elif not (t == sd == sa):
             out.append((MED, f"{name}: ToC={t} / header={sd} / actual rows={sa}"))
-    return out
-
-
-# ── cron-feed liveness (boot step 7c) ───────────────────────────────────────
-def check_cron_liveness():
-    # These 3 cron feeds are KNOWN-DARK — superseded by the RESEARCH-INTAKE lane
-    # (boot step 7e; see CLAUDE.md step 7c). They are NOT live inputs, so staleness
-    # is EXPECTED, not a failure → emit INFO, not MED (removes the false-MED that
-    # fired every boot; fix per the 2026-07-03 arch/infra audit). A feed going
-    # FRESH again surfaces as "(ok) — REVIVED?" = the signal to re-integrate it.
-    feeds = [  # (path, cadence label, stale-after days)
-        ("FORGE/tools/news-sweep/latest.md", "M-F daily", 3),
-        ("FORGE/tools/filing-watch/latest.md", "~daily", 3),
-        ("SIGNALS/inbound.md", "2×/day", 2),
-    ]
-    out = []
-    for rel, cadence, limit in feeds:
-        p = REPO / rel
-        if not p.exists():
-            out.append((INFO, f"{rel}: absent (known-dark; superseded by RESEARCH-INTAKE lane, 7e)"))
-            continue
-        age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
-        if age > limit:
-            out.append((INFO, f"{rel}: {age}d stale — known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input"))
-        else:
-            out.append((INFO, f"{rel}: {age}d (ok) — REVIVED? re-integrate as a live input if intended"))
     return out
 
 
@@ -396,25 +329,31 @@ def check_intake_liveness():
 
 # ── outbox queue age (boot step 9) ──────────────────────────────────────────
 def check_outbox_age():
-    """All outbox artifacts, not just REQ-*.md — the REQ-only glob made staged
-    drafts (e.g. DEWEY prompts) invisible and mis-reported the outbox as "empty"
-    while items sat there. REQ-* keep the >14d retry/escalate semantics; other
-    artifacts surface informationally (LOW only if very stale). Age is filesystem mtime, not proof of an unresolved request."""
+    """Compact inventory; file age is a review prompt, never an obligation verdict.
+
+    Charter step 9 reads each REQ whole and checks its owner disposition. Other
+    artifacts may be evidence or unresolved drafts; keep them discoverable without
+    treating each historical receipt as a separate overdue request.
+    """
     files = sorted(p for p in (WALTER / "outbox").glob("*")
-                   if p.is_file() and p.name != ".gitkeep" and not p.name.startswith("."))
+                   if p.is_file() and not p.name.startswith("."))
     if not files:
         return [(INFO, "outbox empty")]
-    out = []
+    out, artifacts = [], []
     for p in files:
         age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
         if p.name.startswith("REQ-"):
-            sev = MED if age > 14 else INFO
-            out.append((sev, f"{p.name}: {age}d old (REQ)"
-                            + (" — retry/escalate (>14d)" if age > 14 else "")))
+            out.append((LOW if age > 14 else INFO,
+                        f"{p.name}: {age}d since mtime — read whole and check owner disposition; "
+                        "age alone does not establish unresolved work or justify escalation"))
         else:
-            sev = LOW if age > 30 else INFO
-            out.append((sev, f"{p.name}: {age}d since mtime (outbox artifact; disposition not inferred)"
-                            + (" — >30d since mtime; review disposition" if age > 30 else "")))
+            artifacts.append((p.name, age))
+    if artifacts:
+        oldest = max(artifacts, key=lambda item: item[1])
+        stale = sum(age > 30 for _, age in artifacts)
+        out.append((INFO, f"{len(artifacts)} other outbox artifacts retained; {stale} older than 30d "
+                          f"by mtime (oldest {oldest[0]}, {oldest[1]}d). "
+                          "Inventory only, not pending/completed status; current duties live in LAST_COMPLETION."))
     return out
 
 
@@ -620,7 +559,7 @@ _HANDOFF_SCAFFOLD = {"README.md", ".gitkeep", ".gitignore", ".DS_Store"}
 def _handoff_files():
     """Non-processed WALTER delivery handoffs: (path, recipient, relpath).
     Globs AGENTS/*/inbox/WALTER/*.md, excluding anything under processed/.
-    Single-machine: every recipient is CC → delivered = committed AND on origin."""
+    Every runtime: delivered = committed AND on origin."""
     out = []
     for p in (REPO / "AGENTS").glob("*/inbox/WALTER/*.md"):
         if "/processed/" in p.as_posix():
@@ -1101,10 +1040,10 @@ def check_delivered_but_unconsumed():
                f"{action_total} ACTION / {info_total} INFO, {age_bit}{uk}: {'; '.join(parts)}"
                f" [age from delivery_log.timestamp_routed{nr}]{nd}")
     if action_total:
-        return pc + [(MED, summary + " — ACTION items are the risk; install recipient "
-                      "consume boot-step (CC self-apply set) to clear")]
-    return pc + [(LOW, summary + " — all-INFO cc-pile, low-stakes; clears when the "
-                  "consume boot-step is installed")]
+        return pc + [(MED, summary + " — review recipient consumption evidence and its boot procedure; "
+                      "a procedure installation alone does not establish consumption")]
+    return pc + [(LOW, summary + " — all-INFO cc-pile; retain until recipient consumption "
+                  "is evidenced, independent of runtime")]
 
 
 # ── written-but-undelivered (BOARD_CONSUMPTION_SPEC v0.2 §6.2, git-derived) ──
@@ -1487,24 +1426,6 @@ def check_log_reconcile():
     return out
 
 
-# ── Cushing/Boundary-#3 capability (silent-death of a wired auto-fire) ───────
-def check_cushing_capability():
-    """Boot step-6c claims Cushing (ROUTING_TABLE Boundary #3, <20M → IMMEDIATE) is
-    auto-scanned, but the EIA key lives in a gitignored machine-local .env that does
-    not survive a box change — so the trigger goes silently dark (reads N/A). Cheap
-    file probe (no 30s dashboard pull) so the silent-death becomes a loud boot flag."""
-    env = REPO / "FORGE" / "tools" / "market-data" / ".env"
-    if not env.exists():
-        return [(MED, "Cushing/Boundary-#3 DARK: FORGE/tools/market-data/.env missing "
-                     "(EIA key gone — step-6c Cushing scan reads N/A)")]
-    try:
-        if "EIA_API_KEY" not in env.read_text(errors="replace"):
-            return [(MED, ".env present but no EIA_API_KEY → Cushing/Boundary-#3 scan dark")]
-    except OSError:
-        return [(LOW, ".env unreadable — Cushing capability unverifiable")]
-    return [(INFO, "EIA key present (Cushing/Boundary-#3 scan live)")]
-
-
 # ── staleness-sweep cadence (lifecycle tagging keeping pace with BOARD growth) ─
 def check_staleness_sweep_overdue():
     """The SUPERSEDED/FALSIFIED/EVENT-PASSED sweep runs ad-hoc; nothing alarmed when
@@ -1714,7 +1635,7 @@ def check_restated_set_drift():
     of the 11' when CLIMATE_MACRO made it 12 on 6/28 (18 days stale, in the step run on
     every dispatch). Same class as the two version checks, one datum-type over.
 
-    SCOPED TO THREE SEEDS ON PURPOSE (Will-approved 2026-07-16; seed 3 added same day).
+    SCOPED TO TWO BEHAVIORAL SEEDS (October 31 cleanup removed cosmetic inventory parity).
     This is NOT a generic
     'scan prose for stale claims' — that isn't buildable and would be overselling. It
     checks only registered (canonical -> restatement-site) pairs, so a NEW restatement
@@ -1772,6 +1693,7 @@ def check_restated_set_drift():
 
     # ── Seed 2: the cluster set ─────────────────────────────────────────────────
     # Canonical = CLUSTER_TAXONOMY's numbered table (`| N | **NAME** | ...`).
+    clusters = set()
     tax = _read(WALTER / "design/CLUSTER_TAXONOMY.md")
     if tax is None:
         out.append((LOW, "CLUSTER_TAXONOMY.md unreadable — cluster-set claims unverifiable"))
@@ -1816,67 +1738,9 @@ def check_restated_set_drift():
                         bits.append(f"taxonomy has un-sectioned {{{', '.join(sorted(missing))}}}")
                     out.append((MED, "BOARD INDEX cluster sections ≠ CLUSTER_TAXONOMY: " + "; ".join(bits)))
 
-    # ── Seed 3: the doctor's own check set ──────────────────────────────────────
-    # Canonical = this module's CHECKS list — the strongest possible ground truth
-    # (exact, no regex on the canon side). LOWEST-VALUE seed of the three and
-    # deliberately labelled as such: a wrong check-count is COSMETIC (nobody acts on
-    # it), unlike seeds 1-2 which guard BEHAVIOURAL claims (RULE 10 decides whether a
-    # handoff gets written; step 11 runs on every dispatch). Added on near-zero-cost
-    # grounds, not value — it caught two real drifts on 2026-07-16 (CLAUDE.md "the 15
-    # checks" when there were 18; BP §0.5 enumerating 17, having never been given
-    # status_spine_overflow when it landed 7/11).
-    names = {n for n, _ in CHECKS}
-    claude = _read(WALTER / "CLAUDE.md")
-    if claude:
-        m = re.search(r"BP §0\.5 for the (\d+) checks", claude)
-        if not m and "BP §0.5" in claude and "CHECKS" in claude:
-            pass  # Canonical pointer replaces the deliberately retired numeric claim.
-        elif not m:
-            out.append((LOW, "CLAUDE.md step 0.5: check-count claim didn't match — "
-                             "phrasing changed? re-anchor the regex"))
-        elif int(m.group(1)) != len(names):
-            out.append((MED, f"CLAUDE.md step 0.5 says 'the {m.group(1)} checks' but CHECKS "
-                             f"has {len(names)} — stale restatement"))
-    # this module's own docstring "Checks:" block — a 3rd restatement, and it was
-    # itself stale (listed 15 of 20) when seed 3 was built. Self-referential on purpose.
-    doc = __doc__ or ""
-    block = re.search(r"^Checks:\n(.*?)^\n", doc, re.S | re.M)
-    if block:
-        docnames = set(re.findall(r"^  ([a-z_]+)\s", block.group(1), re.M))
-        if docnames and docnames != names:
-            miss, extra = names - docnames, docnames - names
-            bits = []
-            if miss:
-                bits.append(f"CHECKS undocumented: {{{', '.join(sorted(miss))}}}")
-            if extra:
-                bits.append(f"documented but gone: {{{', '.join(sorted(extra))}}}")
-            out.append((MED, "walter_doctor module docstring 'Checks:' ≠ CHECKS — " + "; ".join(bits)))
-
-    bp = _read(WALTER / "design/BOOT_PROTOCOL.md")
-    if bp:
-        sec = re.search(r"^## §0\.5.*?(?=^## §\d)", bp, re.S | re.M)
-        if not sec:
-            out.append((LOW, "BOOT_PROTOCOL §0.5 span didn't parse — re-anchor before trusting"))
-        else:
-            # `\d+[a-z]?\.` — the enumeration uses letter sub-labels (19b.), the same
-            # convention as the charter's 12(e)/7e steps. The old digits-only parse
-            # could only ever produce a FALSE ALARM ("not enumerated" for a row that
-            # plainly was); widening it cannot create a false PASS, because a name
-            # enumerated but absent from CHECKS is still reported as `extra`.
-            listed = set(re.findall(r"^\d+[a-z]?\. \*\*([a-z_]+)\*\*", sec.group(0), re.M))
-            if listed and listed != names:
-                miss, extra = names - listed, listed - names
-                bits = []
-                if miss:
-                    bits.append(f"CHECKS not enumerated: {{{', '.join(sorted(miss))}}}")
-                if extra:
-                    bits.append(f"enumerated but not in CHECKS: {{{', '.join(sorted(extra))}}}")
-                out.append((MED, "BOOT_PROTOCOL §0.5 enumeration ≠ CHECKS — " + "; ".join(bits)))
-
     if not out:
         out.append((INFO, f"restated sets match canon (pull-complete = "
-                          f"{{{', '.join(sorted(truth))}}}; clusters = {len(clusters)}; "
-                          f"checks = {len(names)})"))
+                          f"{{{', '.join(sorted(truth))}}}; clusters = {len(clusters)})"))
     return out
 
 
@@ -2366,9 +2230,20 @@ def check_dispatch_frontmatter():
             value = values[0]
             if key == "action":
                 tokens = value[1:-1].split(",") if value.startswith("[") and value.endswith("]") else None
+                if value == "":
+                    pos = next(i for i, line in enumerate(header) if line.startswith("action:"))
+                    block = []
+                    for line in header[pos + 1:]:
+                        if re.match(r"^[A-Za-z_]+:", line):
+                            break
+                        if not line.strip() or line.lstrip().startswith("#"):
+                            continue
+                        member = re.fullmatch(r"[ \t]*-[ \t]+(.+?)\s*", line)
+                        block.append(member[1] if member else "")
+                    tokens = block or None
                 agent = r"[A-Z][A-Z0-9_]*"
                 token_pattern = agent + "|" + chr(34) + agent + chr(34) + "|" + chr(39) + agent + chr(39)
-                valid = tokens is not None and (not value[1:-1].strip() or all(re.fullmatch(token_pattern, token.strip()) for token in tokens))
+                valid = tokens is not None and ((value.startswith("[") and value.endswith("]") and not value[1:-1].strip()) or all(re.fullmatch(token_pattern, token.strip()) for token in tokens))
             else:
                 if len(value) >= 2 and value[0] in ("'", chr(34)) and value[-1] == value[0]:
                     value = value[1:-1]
@@ -2456,8 +2331,6 @@ def check_action_line_rule():
 
 
 # ── 8/08 forum-carry builds (PROME packet, executed 2026-08-20, Will-directed) ──
-TERRY_TOKEN_ADOPTED = "2026-08-20"   # rows before this graded by the legacy TERRY-OVERRIDE
-                                     # prefix — a ruling governs the NEXT write, not disk
 ENTITIES_ACK = WALTER / "registry" / "ENTITIES_MISSES_ACKNOWLEDGED.tsv"  # reviewed historical misses
 ENTITIES_ADOPTED = "2026-08-19"      # empirical full-coverage start (34/34 on 8/19);
                                      # mandate ratified FORMAT_SPEC v0.18, 2026-08-20
@@ -2481,86 +2354,6 @@ def _delivery_rows():
             if len(row) != len(header):
                 continue
             yield dict(zip(header, row))
-
-
-def check_terry_override_ratio():
-    """S1 — the instrument that can revert TERRY's §3.5.5 routing rule (built 2026-08-20,
-    8/08 forum-carry item 2, PROME-accepted inverted-token design).
-
-    INVERTED TOKEN: every `action: TERRY` delivery_log row declares its qualifying test
-    by BEGINNING its notes cell with `T-1` / `T-2` / `T-3` (closed vocabulary). Absence
-    of a valid leading token IS an override by definition — typos OVER-report, so the
-    clause fires early (over-firing costs a read; under-firing costs the guard).
-    `TERRY-OVERRIDE` survives as the human-readable reason prefix, no longer load-bearing.
-    Rows timestamped before TERRY_TOKEN_ADOPTED are graded by the legacy discriminator
-    (TERRY-OVERRIDE prefix = override) — a new grammar must not manufacture violations
-    out of rows written before it existed.
-
-    TWO CLOCKS, DELIBERATELY UNHARMONISED (SPEC v0.16): the ratio clause is 90d /
-    ratio ≤10% / activation n≥10; the revert FALSIFIER is an event test — ONE
-    `action:` item unconsumed >72h, no denominator. Do not harmonise them.
-    Violations name the recipient and the specific signals, never a bare count."""
-    out = []
-    now = dt.datetime.now(dt.timezone.utc)
-    window_start = now - dt.timedelta(days=90)
-    action_rows, overrides, falsifier = [], [], []
-    for r in _delivery_rows():
-        if r.get("recipient", "").strip().upper() != "TERRY":
-            continue
-        if r.get("role", "").strip().lower() != "action":
-            continue
-        ts_raw = r.get("timestamp_routed", "").strip()
-        # 2026-08-26: legacy rows carry the desk's anti-false-precision minute stamps
-        # ("...T20:1xZ"). fromisoformat throws on them and v1 SILENTLY SKIPPED the row —
-        # the doctor printed "falsifier unfired" while the fired condition stood on disk.
-        # Fallback: substitute '0' for the placeholder digit (event tests here run on a
-        # 72h clock; sub-hour precision is immaterial). Never skip a TERRY action row.
-        try:
-            ts = dt.datetime.fromisoformat(ts_raw.replace("Z", "+00:00"))
-        except ValueError:
-            try:
-                ts = dt.datetime.fromisoformat(
-                    ts_raw.replace("x", "0").replace("X", "0").replace("Z", "+00:00"))
-            except ValueError:
-                continue
-        notes = r.get("notes", "").strip()
-        sig = r.get("signal_id", "?")
-        # falsifier leg: an ACTION handoff still sitting in TERRY's inbox past 72h
-        path = r.get("handoff_path", "").strip()
-        if path and (REPO / path).exists() and (now - ts) > dt.timedelta(hours=72):
-            falsifier.append((sig, round((now - ts).total_seconds() / 3600)))
-        if ts < window_start:
-            continue
-        action_rows.append(sig)
-        if ts.date().isoformat() >= TERRY_TOKEN_ADOPTED:
-            qualifying = bool(re.match(r"T-[123]\b", notes))
-        else:
-            qualifying = not notes.upper().startswith("TERRY-OVERRIDE")
-        if not qualifying:
-            overrides.append(sig)
-    # 2026-08-26: the falsifier FIRED (SIG-W-20260822-002-CORRECTION, ~78h) and the
-    # revert was EXECUTED (SPEC v0.21: TERRY in PULL_COMPLETE, no new deliveries).
-    # Non-renewable ⇒ post-revert this leg is a record, not an alarm: report INFO.
-    for sig, hours in falsifier:
-        out.append((INFO, f"S1 falsifier record: TERRY `action:` item {sig} unconsumed "
-                          f"{hours}h (>72h) — falsifier FIRED 2026-08-26, revert to "
-                          f"RED-class exemption EXECUTED (SPEC v0.21); residual handoff "
-                          f"awaits TERRY's own consume, no action"))
-    n = len(action_rows)
-    if n >= 10 and overrides and len(overrides) / n > 0.10:
-        # Post-revert (2026-08-26, SPEC v0.21) the TERRY action lane is CLOSED — no new
-        # rows can be written, so the ratio measures a retired rule. The mandatory
-        # read-the-log was performed at the revert (all three named rows adjudicated in
-        # the 8/26 TERRY packet). Historical record, not an alarm.
-        out.append((INFO, f"TERRY override ratio {len(overrides)}/{n} over the trailing "
-                          f"90d window ({', '.join(overrides)}) — lane CLOSED by the "
-                          f"§3.5.5 revert 2026-08-26; log read at revert; rolls off with "
-                          f"the window"))
-    if not out:
-        out.append((INFO, f"TERRY lane clean: {n} action row(s) in 90d "
-                          f"({len(overrides)} override(s), activation at n≥10), "
-                          f"falsifier unfired"))
-    return out
 
 
 def _later_consume_receipt(owner, dest, moved_date):
@@ -2700,78 +2493,23 @@ def check_entities_at_dispatch():
 
 
 def check_auto_load_budget():
-    """THE COST NO READ-CAP INSTRUMENT WAS MEASURING (added 2026-08-30).
+    """Measure required instruction files at edit time, without assuming injection.
 
-    scripts/read_cap_check.py enumerates the files a BOOT STEP names — it opens
-    CLAUDE.md to find those 'read X' lines and never weighs CLAUDE.md itself. But
-    CLAUDE.md is loaded UNCONDITIONALLY, on every session, before boot step 0 runs:
-    it is the one read no branch can avoid, and it was the largest single surface on
-    the desk (75,296 B = 139% of the cap) while every read-cap report said nothing.
-
-    ⇒ The perimeter of a budget check is a CHOICE, and anything outside it is not
-    'compliant', it is UNMEASURED. A file can be the biggest cost on the desk and
-    absent from the report that ranks costs. [[finding_instrument_reports_clean_against_the_wrong_reference]]
-
-    SCOPE — only AGENTS/WALTER/CLAUDE.md is WALTER's to fix. Root CLAUDE.md and the
-    fleet auto-memory index are PROME-owned; they are REPORTED (they are real cost on
-    every WALTER session) but never graded against WALTER, per the flag-don't-commit rule.
-
-    🔴 2026-09-06 — THIS CHECK WAS RAISING A FALSE CAP ALARM. Corrected after Codex
-    review, on Will's approval. It graded an AUTO-LOADED file against the SINGLE-READ
-    cap (54,250 B) and budget (32,550 B), and summed three surfaces against that same
-    per-surface number. Both are refuted by canon:
-      · READ_CAP.md:37 — `CLAUDE.md` | **No** — auto-loaded into context, not a Read;
-        large charters cost context, not truncation (WATCH, DON'T ROTATE ON THIS RULE).
-      · READ_CAP.md rule 3 — "Per surface, never a joint cap."
-    The cap is derived from the harness SINGLE-READ limit; an auto-loaded charter is
-    not Read and does not truncate. So `n > cap` described no failure that can occur,
-    and `total*100//cap` compared a joint sum to a per-surface limit. The alarm then
-    propagated into LAST_COMPLETION, MEMORY and a report to Will as "28 B of headroom,
-    no mandated line may land" — an urgency canon does not support.
-
-    ⚠️ NOT a false-assurance defect, and the distinction is the point (Codex, 9/6).
-    The nine 9/05 defects reported SUCCESS wrongly — they failed SILENT. This one
-    INVENTS A VIOLATION — it fails LOUD. Opposite directions; do not pool them into
-    that count. Recorded here as mechanism + consequence instead.
-
-    ⚠️ AND THE FIX ITSELF CARRIES THE INVERSE RISK:
-    [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]
-    — relaxing a noisy guard trades loud-and-safe for silent-and-certifying. So this
-    check still FAILS LOUD on the one thing that IS a real defect: an auto-load
-    component it could not measure. An incomplete total is reported as a FLOOR and
-    never as a clean verdict. Unavailable evidence stays UNKNOWN through to the
-    final report — the same invariant as the 9/05 fixes, applied in the other
-    direction. What was removed is the GRADE, not the MEASUREMENT."""
-    own = WALTER / "CLAUDE.md"
-    others = [(REPO / "CLAUDE.md", "root CLAUDE.md (PROME-owned)"),
-              (Path.home() / ".claude/projects/-home-willi-Research-workspace/memory/MEMORY.md",
-               "fleet auto-memory index (PROME-owned)")]
-    try:
-        n = own.stat().st_size
-    except OSError:
-        return [(MED, "AGENTS/WALTER/CLAUDE.md UNREADABLE — auto-load cost UNMEASURED, "
-                      "not clean. No total is reported: a sum missing its largest known "
-                      "component would understate the cost it exists to surface.")]
-    parts, total, unmeasured = [], n, []
-    for p, label in others:
+    Other runtime-specific memory/configuration surfaces require runtime discovery;
+    this is neither a total context measurement nor a read-cap grade.
+    """
+    parts, missing = [], []
+    for path, label in ((WALTER / "CLAUDE.md", "WALTER CLAUDE.md"),
+                        (REPO / "CLAUDE.md", "root CLAUDE.md (PROME-owned)")):
         try:
-            b = p.stat().st_size
-            total += b
-            parts.append(f"{label} {b:,} B")
+            parts.append(f"{label} {path.stat().st_size:,} B")
         except OSError:
-            unmeasured.append(label)
-            parts.append(f"{label} UNREADABLE (not in the total)")
-    floor = " FLOOR, not a total —" if unmeasured else ""
-    detail = (f"WALTER CLAUDE.md {n:,} B (own, the only one WALTER may fix) · "
-              f"unconditional auto-load with {' + '.join(parts)} ={floor} {total:,} B. "
-              f"Reported, NOT graded: an auto-loaded charter is not a Read and does not "
-              f"truncate (READ_CAP.md:37), and the read cap is per surface, never joint "
-              f"(rule 3). There is no ruled auto-load threshold — growth here is a "
-              f"CONTEXT cost to watch, not a violation to clear.")
-    if unmeasured:
-        return [(MED, f"auto-load measurement INCOMPLETE — could not read: "
-                      f"{', '.join(unmeasured)}. {detail}")]
-    return [(INFO, f"auto-load measured — {detail}")]
+            missing.append(label)
+    detail = "; ".join(parts)
+    if missing:
+        return [(MED, f"instruction measurement INCOMPLETE — UNREADABLE: {', '.join(missing)}; {detail}")]
+    return [(INFO, f"required instruction files: {detail}. No cap grade or total context claim; "
+                   "runtime injection and additional memory must be verified at boot.")]
 
 
 def _processed_owner(path: str):
@@ -3018,14 +2756,10 @@ def check_future_timestamps(_fields=None):
 
 CHECKS = [
     ("future_timestamps", check_future_timestamps),
-    ("version_drift", check_version_drift),
-    ("claude_md_version_drift", check_claude_md_version_drift),
     ("restated_set_drift", check_restated_set_drift),
     ("board_reconcile", check_board_reconcile),
     ("log_reconcile", check_log_reconcile),
-    ("cron_liveness", check_cron_liveness),
     ("intake_liveness", check_intake_liveness),
-    ("cushing_capability", check_cushing_capability),
     ("outbox_age", check_outbox_age),
     ("registry_staleness", check_registry_staleness),
     ("registry_lag", check_registry_lag),
@@ -3039,7 +2773,6 @@ CHECKS = [
     ("dewey_handoff_liveness", check_dewey_handoff_liveness),
     ("staleness_sweep_overdue", check_staleness_sweep_overdue),
     ("dropzone_pending", check_dropzone_pending),
-    ("boot_protocol_xref", check_boot_protocol_xref),
     ("status_spine_overflow", check_status_spine_overflow),
     ("full_closeout_owed", check_full_closeout_owed),
     ("status_bottom_line", check_status_bottom_line),
@@ -3050,21 +2783,32 @@ CHECKS = [
     ("batch_manifest_open", check_batch_manifest_open),
     ("dispatch_frontmatter", check_dispatch_frontmatter),
     ("action_line_rule", check_action_line_rule),
-    ("terry_override_ratio", check_terry_override_ratio),
     ("filed_vs_consumed", check_filed_vs_consumed),
     ("entities_at_dispatch", check_entities_at_dispatch),
-    ("auto_load_budget", check_auto_load_budget),
     ("index_generated_fresh", check_index_generated_fresh),
+]
+
+STATIC_CHECKS = [
+    ("version_drift", check_version_drift),
+    ("claude_md_version_drift", check_claude_md_version_drift),
+    ("boot_protocol_xref", check_boot_protocol_xref),
+    ("auto_load_budget", check_auto_load_budget),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--spec-changed", action="store_true", help="include document/instruction checks")
+    group.add_argument("--static-only", action="store_true", help="only document/instruction checks")
+    args = parser.parse_args()
+    selected = STATIC_CHECKS if args.static_only else CHECKS + (STATIC_CHECKS if args.spec_changed else [])
     print(f"WALTER doctor — {TODAY.isoformat()}")
     print("=" * 72)
     attn = 0
-    for name, fn in CHECKS:
+    for name, fn in selected:
         try:
             findings = fn()
         except Exception as e:  # a broken check must not hide the others

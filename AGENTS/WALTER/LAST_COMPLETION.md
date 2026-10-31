@@ -1,14 +1,16 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-10-31T21:47:31Z. Will-launched Codex/OpenAI session; exact serving model unknown. FULL process/check audit closeout.
+Updated 2026-10-31T22:08:29Z. Will-launched Codex/OpenAI session; exact serving model unknown. FULL authorized process cleanup closeout.
 
 ## STATUS
 
-ACTIVE and routing-ready. Boot remains PARTIAL on preserved source, owner-evidence and global-visibility limits. Attestation and publication blockers are closed. Repair work within WALTER's authority is completed; no blanket market clearance or new threshold fire/exit.
+ACTIVE and routing-ready. Boot remains PARTIAL on preserved source, owner-evidence and global-visibility limits. Prior attestation/publication repair is complete; this cleanup’s registrar follow-through and coordinated publication remain pending. The implemented WALTER cleanup is validated; no blanket market clearance or new threshold fire/exit.
 
 ## CHANGED
 
-Completed Will’s requested WALTER process/check sweep: 4,324 tracked-file inventory, 38 existing doctor checks profiled, 11 findings and a concrete bounded cleanup proposal. No operating rules/checks changed. Evidence: research/2026-10-31_process-audit/REPORT.md and CHECKS.tsv.
+Implemented the authorized process/check cleanup. Doctor: 31 routine checks plus 4 static checks on edits (previously 38 every scan); retired cron/TERRY checks and Cushing credential probe removed. Valid block-style action lists pass; malformed/header-spoof guards remain. Outbox reporting compacted without declaring requests complete. Closeout outputs consolidated into one checks.json; history retained in git.
+
+COP and operative Telegram/runtime instructions reconciled; phone setup and legacy migration/news-sweep references bannered historical. Routing family v0.51, CHECKLIST/THRESHOLD_SCAN v0.55, delivery v0.36, filter v0.9 and operator brief v0.4. No domain route/threshold, delivery/correction protection or burst-window policy change. Review: research/2026-10-31_process-cleanup/REVIEW.md. Local ignored Telegram bootstrap permissions removed.
 
 Completed the authorized boundary 7 reconciliation: routing v0.50 retires the stale +50-from-408 alert prospectively, preserves historical 458 versus closed BRT-26 457 identities, and commissions no replacement. Card022 and two required handoffs plus R1 correction written. May draft bannered historical; parent/companions/STATE synchronized.
 
@@ -26,24 +28,24 @@ All 43 other-owner STATUS lead blocks remain unchanged from the previous manual 
 
 ## GAPS
 
-- Attestation gap CLOSED: central READS is attested October 31, L845 resolved. Subsequent WQ-578 root delta reviewed and hash updated. Root/shared rotation warnings remain PROME-owned; source coverage is separate from these checks.
+- Attestation gap CLOSED: central READS is attested October 31, L845 resolved. Subsequent WQ-578 root delta and ten cleanup-owned basis deltas reviewed and hashes updated; current cleanup transcription/phone-BASIS retirement requested from PROME. Root/shared rotation warnings remain PROME-owned; source coverage is separate from these checks.
 - Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
 - Energy-OAS BAMLH0A0E2Y is an invalid series, confirmed with authenticated positive control; no verified energy feed, not a transient fetch fault. Historical ICE H0EN is a lead only. Worldscale boundary 5 is an uninstrumented/retired lane requiring new registration; HANS T12 is registered non-live, with swapline proxy shelved by WQ-534. CME XEURBI public-history lead still needs retrieval and basis adjudication. No silent broad-HY, ETF or futures proxy.
 - Boundary 7 reconciliation CLOSED: the exact historical contract is retired at BRENT; WALTER row 7 is now a retired tombstone, not a 457 substitute. New rig alerts require new registration. CREED owner evidence is 5/11 reporters/cut-or-liquidating names as of October 30, not registry's older 4/11. Qualitative CMBS redefault, performing-collateral forced-sale conjunction, tenant demand and realized cohort erosion remain owner-limited; next releases are future. No CREED launch. HANS T14/T15 event searches remain bounded.
 - Local runtime read works, but complete cross-runtime absence/lifecycle visibility remains UNKNOWN. PROME's bridge uses newline JSON whereas this Codex Unix endpoint requires WebSocket Upgrade; PROME registered the existing-adapter repair as L907. WALTER has not altered owner code or granted messaging authority.
 - Earlier intake limits retained: Al-Araby original interview/official diplomacy acceptance unavailable; AP/MediaLine to/by-two-days discrepancy; NCLC direct body unavailable; AFN/Arivo denominators unverified; Comcast planned hiring/transfers are not realized employment. Earlier Kioxia ASP, Blue Owl release, selected paywalled originals, Chicago PMI primary, cards 005/009/010 and FT 006 limits persist. Refinery reporting corroborated, not physically inspected.
 - X authentication/staging is closed: 13/13 reviewed and marked, nine full/four partial originals. Embassy alert and MOF transcript remain inaccessible; NYT/Bloomberg originals partial. Existing triggers: research/2026-10-31_x-review/REVIEW.md. No user-upload request needed.
-- VULCAN design completed, deployment explicitly deferred by PROME October 16; no deployment inferred. Historic CATO ACTION has substantive evidence without exact receipt; no routine wake. October 27 CARL action-header warning is a valid block-list YAML parser limitation. REGINALD's old scripts/market.py pointer remains missing; settled_bars.py plus Nasdaq supplied the prior bank-close check. Two retirement candidates retained for substantive live references. Iran November 5 full-sweep date unchanged, no guard reset.
+- VULCAN design completed, deployment explicitly deferred by PROME October 16; no deployment inferred. Historic CATO ACTION has substantive evidence without exact receipt; no routine wake. October 27 CARL false action-header warning is fixed; the published signal is unchanged. REGINALD's old scripts/market.py pointer remains missing; settled_bars.py plus Nasdaq supplied the prior bank-close check. Two retirement candidates retained for substantive live references. Iran November 5 full-sweep date unchanged, no guard reset.
 
 ## WILL_NEEDS
 
-Process/check audit is complete. The report recommends a bounded cleanup and a separate explicit retirement of the legacy burst-window policy; neither implementation is inferred from the audit request. No new checker or replacement monitoring system proposed.
+Authorized cleanup implemented and validated. The legacy burst-window retirement remains a separate policy decision, unchanged in this pass. No new checker or replacement monitoring system. Historical outbox bulk archival is unfinished pending artifact-by-artifact disposition/backlink review; current obligations are preserved.
 
 No new decision required for the completed oil-rig reconciliation. Registrar transcription and prior repair publication are verified complete. WQ-556 C remains active: required routes retained, discretionary INFO trimmed, no digest or new exemption. Source/feed reinstatement and CREED launch retain their existing approval conditions; none inferred from this repair. Cards 020–021 and the administrative packet are published. This correction follows the existing coordinated-publication rule; foreign PROME work is dirty. Card022 and its two handoffs are now origin-proven; no recipient consumption claimed.
 
 ## FOLLOW-UP
 
-1. Attestation/L845 and publication cleanup CLOSED. PROME owns bridge repair L907; retain current positive-only runtime visibility until the adapter is repaired and verified.
+1. Prior attestation/L845 and publication repair CLOSED. Cleanup registrar packet: PROME/inbox/2026-10-31_from-WALTER_process-cleanup-owner-followthrough.md; phone BASIS removal remains owner-dependent, keep local declaration matched until transcription. Legacy physical VPS shutdown remains unverified/PROME-owned. Publish this cleanup in the next coordinated window. PROME owns bridge repair L907; retain current positive-only runtime visibility until the adapter is repaired and verified.
 2. All 74 daily handoffs are delivered, including 020–022. Boundary 7 repair and its publication are complete. BRENT/HANS/TERRY integration of source repairs is not yet evidenced; use normal owner receipts, not duplicate dispatches or artificial acknowledgment requests.
 3. Monday November 2: FRED HY/VIXCLS October 30 release check, final dated CME bulletin, boundary 8 January switch/new count with missing ICE leg explicit. November 1 OPEC+ and Sinokor legal-action date, existing Iran answer/Qatar draft, DEWEY 005R and LIQUID October issuance carries unchanged.
 4. November 3: midterms and NEXUS weekly; central attestation checkpoint L845 is resolved. November 4: Cushing, GATE-FALCON-001 review, CF Q3. November 5: Iran full sweep, MEMORY calendar check and NREF Q3 (secondary date). November 6: L334 predictive leg, WQ-556 C check and STWD/ACRE cohort releases. November 11: Veterans Day HY non-session bridge. Around November 12: staleness sweep. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit unchanged.
@@ -65,20 +67,20 @@ Approval: “okay approving your recs for #4. You can do that when free/after ou
 Other gaps, including HANS T12's missing feed and owner-method decisions, remain as previously recorded. This approval supplies neither an instrument nor a grade and does not close unrelated obligations.
 ## OPEN DESIGN DECISIONS
 
-New audit proposal: research/2026-10-31_process-audit/REPORT.md F01–F11. Strong first pass removes retired instructions/checks and completed-artifact noise; burst-window retirement is a distinct policy choice. Shared READS and external-backlink changes retain owner boundaries. Existing approvals below are preserved.
+Authorized first cleanup pass implemented; results at research/2026-10-31_process-cleanup/REVIEW.md. Burst-window retirement remains a separate policy decision. Historical outbox bulk archival awaits item-level disposition review; shared registrar and infrastructure changes retain owner boundaries. Existing approvals below are preserved.
 
-Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C7, 63a16b4); WATCH_FOR["CYPHER"] pending CYPHER adoption (WQ-295 R3); when:7d open (WALTER). Still open: VX-CYP tags, AI_INFRA_CAPEX re-cut, verdict-letter F1/F2, L730 re-scope, staleness-sweep P2, CRUISE miss option 2, lane dateline flag; missed-data-day BOARD coverage and unscanned boundary #8 fallback remain pending design findings. Prior approvals (WQ-508 scope, routing v0.50, checklist v0.54) intact.
+Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C7, 63a16b4); WATCH_FOR["CYPHER"] pending CYPHER adoption (WQ-295 R3); when:7d open (WALTER). Still open: VX-CYP tags, AI_INFRA_CAPEX re-cut, verdict-letter F1/F2, L730 re-scope, staleness-sweep P2, CRUISE miss option 2, lane dateline flag; missed-data-day BOARD coverage and unscanned boundary #8 fallback remain pending design findings. Prior approvals remain intact; cleanup versions are routing v0.51 and checklist v0.55, with unchanged domain/threshold semantics.
 
 
 
 ## CLOSEOUT RECEIPT
 
-Current manual evidence: research/2026-10-31_process-audit/REPORT.md, CHECKS.tsv, inventory.json and doctor-profile.json. Prior rig-reconciliation evidence remains valid. Prior LAST_COMPLETION preserved byte-for-byte. Two routing basis hashes plus the concurrent WQ-578 playbook delta reviewed; existing central October 31 attestation and source set unchanged. FULL closeout, no fresh market scan. Other source limits and scheduled duties retained.
+FULL authorized cleanup; prior source/owner limits preserved. Manual review is hash-bound below. Exact local commit/publication scope is recorded after commit; no signal handoffs created. Existing daily cohort: 74/74 origin-proven, consumption separate. Next source review November 2; earlier dated duties remain above.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T21:48:29Z",
+  "as_of": "2026-10-31T22:09:42Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -133,8 +135,8 @@ Current manual evidence: research/2026-10-31_process-audit/REPORT.md, CHECKS.tsv
     },
     {
       "commit": "89e7629c31bdb864d6ab828ea3b8d0236fe8933e",
-      "state": "pending",
-      "note": "Process/check audit committed locally; implementation remains proposed. Coordinated publication deferred while foreign PROME work is dirty."
+      "state": "published",
+      "note": "Completed audit; implementation now authorized and recorded separately."
     }
   ],
   "delivery": {
@@ -147,117 +149,25 @@ Current manual evidence: research/2026-10-31_process-audit/REPORT.md, CHECKS.tsv
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/REPAIR-RECEIPT.md",
-        "sha256": "3aa26a9046e81702097f3401179a76f7d1af7d2e917d8e0ec5545580c5f30684"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/BOOT-BASIS-REVIEW.md",
-        "sha256": "37f533798fda89f218033d026de7b31a29a8662db7bcf1c7f6eb07cc1e493415"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/VERIFY-OTHER-GAPS.md",
-        "sha256": "5416a0d45511b9e6816381e2cc053a6b44bea368258dfe454507a9e7a534312b"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/VERIFY-SETTLEMENTS.md",
-        "sha256": "63acafe37f9e55c6162d4afb7ffcaac61a240e16609651d40ef85774a301b5ce"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/codex-inventory.json",
-        "sha256": "98a0818c83409a9a5bf1b6e603bde31b8de3a472a4ccb3a0d28f81667f10e590"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/local-process-inventory.json",
-        "sha256": "4f0f0925a3b364802705c8c600c5742a768067bcbe9a4cd686c08c7024ea4d87"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/owner-header-review.json",
-        "sha256": "429ad3cc667b1b9247993cb594574f535e7866c4a2dbe73483873c70479c1d32"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/publication-proof.json",
-        "sha256": "edcd3e74af9aa7e07bc62099719a924d50c86bc9d9fc44f1131c4f2c5a6e4d21"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/prior-LAST_COMPLETION.md",
-        "sha256": "b443f85629217928709b4fa3e0da870c889200253689ef8e4485e9ec5ead69ca"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-repair/checks/OWNER-REVIEW.md",
-        "sha256": "1dd132309cd97df3eec02ab64617a170d05d4cfc38c54650a38740ac48256b0c"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-cleanup/REVIEW.md",
-        "sha256": "d81b9a88ef13aba0e57ea1c37d18b659dcc15f49ddea9275d984a5959c9091e2"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-cleanup/ROOT-REVIEW.diff",
-        "sha256": "1ca6f1106b1c6d0ec4819cd73357ed9ab8976b661a39d03b8bab1ffac831ce81"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_boot-cleanup/prior-LAST_COMPLETION.md",
-        "sha256": "8cc8d840cc4b2cd7955bf4746ab4b2b808a77849de107bc1d8beeae340007fef"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_rig-reconciliation/REVIEW.md",
-        "sha256": "33f789e0df2491970198fd1ebc00c4a3895753af931ea027e5e9fcedb8897695"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_rig-reconciliation/spec-review.diff",
-        "sha256": "415caa6cb41027427621093b1d41df237f9b323b0b2301d0677b9f54702b60be"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_rig-reconciliation/owner-header-review.json",
-        "sha256": "49d079dc85c09faf40cc586df494659f9037b09c90d587741607eeebf14052fa"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_rig-reconciliation/publication-proof.json",
-        "sha256": "3290473463c98e513e1ff00d71268801adbe08563c0056efd65f3c5507e76ec4"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_rig-reconciliation/prior-LAST_COMPLETION.md",
-        "sha256": "896e8cd948cc81acb68008447bcfe44dc12653a50541c2c3231e8bdfc6960c37"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_rig-reconciliation/playbook-review.diff",
-        "sha256": "0bd1ce564b14a6b97c33dc64a90707c1e28bdc3c0eb31a19c66df12546c626ea"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_rig-reconciliation/checks/OWNER-REVIEW.md",
-        "sha256": "8944d5e1bc1154b37d5588991e843bb9b08bf274cb8c85bbefea84683e1564e9"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_process-audit/REPORT.md",
-        "sha256": "b7e161902dc0ebcb5e6152aef63b147e62c19cb3959e2c694771b60def3861d2"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_process-audit/CHECKS.tsv",
-        "sha256": "75be118f40ccdac9e569a2fbc7f128181a7581672338f9872773c9efe07c66e5"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_process-audit/inventory.json",
-        "sha256": "a01040327dacd9ec2d64886c0905643b3ea04e9f03f26c26aee1004a6e70d339"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_process-audit/doctor-profile.json",
-        "sha256": "4f1bd9e61a1fb6b52d5e5edf5ee4f36d3e4ecb14000f50cb7e8337b1225eaacc"
+        "path": "AGENTS/WALTER/research/2026-10-31_process-cleanup/REVIEW.md",
+        "sha256": "f76a85876a21a1a99b3a867f88c91d5cf32527097d7d5930a928c6a4db1ca319"
       }
     ]
   },
   "procedure": {
     "tier": "full",
     "boot": "PARTIAL: existing source, owner-evidence and full-fleet visibility limits retained; rig mismatch closed.",
-    "session": "Read-only process/check audit with written findings, FULL continuity closeout; no operational code/spec change, dispatch, market scan or new helper."
+    "session": "Authorized cleanup implemented; full manual continuity review, 174 unittest cases and 59 behavioral assertions PASS. No new dispatch, market scan or helper."
   },
   "manual_duties": {
-    "0-9b": "Existing boot evidence retained; subsequent root diff reviewed and hash refreshed, PROME confirmation consumed. No new market scan.",
-    "11": "No new dispatch or content batch. Two card022 copies became origin-proven during audit and were reconciled; all 74 daily handoffs delivered.",
-    "12-14": "43 other-owner lead blocks match prior reviewed capture; self registry refreshed before NETWORK. Existing dated market levels retained. BALANCED/CLOSED, no full deferral; session entry and MEMORY updated for audit recommendations.",
-    "root.retirement": "Audit identified candidate archives but preserved live external backlinks and unresolved decisions. No file archived/deleted on age alone. No existing operating process retired.",
-    "15": "All previous scheduled work, source-search approvals and publication duties preserved. Added explicit pending implementation proposal, not a new commissioned study.",
-    "16": "Audit 89e7629c31bdb864d6ab828ea3b8d0236fe8933e committed with 23 exact authored paths, no foreign changes. Coordinated publication deferred; earlier rig repair published and all 74 daily signal handoffs delivered.",
-    "ledger-nudge": "Only delivery-state reconciliation changed ledger data: two origin-proven card022 copies. No new route, kill or grade event.",
-    "checks": "Basis MATCH 29; READS, versions, archives, read-cap, weekdays and memory-line checks PASS. Final receipt PASS 74/74 after fresh-origin reconciliation. Runner REVIEW retains initial publication mismatch (superseded by receipt-final.txt), the three documented doctor MEDs, and unchanged-kill-data nudge. All reviewed; no operating code or spec changed. No new tests for read-only audit."
+    "0-9b": "Existing boot remains PARTIAL on source/owner/global-visibility limits; ten changed owned basis operations reviewed and hashed. Current central transcription requested, not presumed. Concurrent WQ-578 batch-2 playbook delta reviewed and local hash refreshed; no foreign edit.",
+    "11": "No new signals or content batch. Existing 74 daily handoffs remain delivered; no new recipient consumption claimed.",
+    "12-14": "43 other-owner lead hashes unchanged; REGISTRY self refreshed before NETWORK. Dated market levels retained, BALANCED/CLOSED, session and 99-line MEMORY refreshed. No full deferral or memory promotion.",
+    "root.retirement": "Removed retired diagnostics/obsolete live instructions; historical plans frozen in place. Outbox retained pending artifact-level archival review. No source/routing trigger retired except already-approved prior work; burst-window policy unchanged.",
+    "15": "Preserved all scheduled/source-search duties and approvals. Current review replaces duplicated historical evidence list; old receipt survives in git. Registrar/physical cutover dependencies explicit.",
+    "16": "Exact-path local commit to follow; coordinated publication deferred because foreign PROME work is dirty. No auto-push or foreign edit.",
+    "ledger-nudge": "No event-ledger data changed; no new route, kill, threshold grade or delivery-state event.",
+    "checks": "174 unittest cases and 59 behavioral assertions PASS. Full runner: receipt/read-cap/archives/READS/memory PASS; one known CATO MED, unchanged-event-ledger nudge. Concurrent PROME playbook delta reviewed; affected basis/receipt rerun follows. No market/consumption clearance."
   }
 }
 END_CLOSEOUT_RECEIPT -->

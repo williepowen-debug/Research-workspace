@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect existing WALTER closeout checks and draft a dated receipt.
+"""Collect existing WALTER closeout checks into one dated evidence report.
 
 No source edits, fetch, staging, commit, push, scheduling or completion judgment.
 Run after the applicable owner updates. Manual outcomes remain in LAST_COMPLETION;
@@ -53,9 +53,10 @@ def plan(root, tier, *, spec_changed=False, status_changed=False,
     if tier == "full":
         checks += [python("basis", str(DESK / "tools/boot_basis_check.py")),
                    python("reads", "PROME/tools/reads_check.py", "--agent", "WALTER"),
-                   ("doctor", [py, str(DESK / "tools/walter_doctor.py")], "doctor")]
-    if tier == "full" or spec_changed:
-        checks.append(python("versions", str(DESK / "tools/version_drift_check.py")))
+                   ("doctor", [py, str(DESK / "tools/walter_doctor.py"),
+                               *(["--spec-changed"] if spec_changed else [])], "doctor")]
+    if spec_changed and tier != "full":
+        checks.append(("static", [py, str(DESK / "tools/walter_doctor.py"), "--static-only"], "doctor"))
     if memory_slugs:
         args = [arg for slug in memory_slugs for arg in ("--slug", slug)]
         checks += [python("memory-index", "scripts/memory_index_check.py", "--strict", *args),
@@ -111,10 +112,8 @@ def run(root, tier, output_dir, *, executor=execute, **options):
                 code, text = completed.returncode, completed.stdout + completed.stderr
             except (OSError, subprocess.TimeoutExpired) as exc:
                 code, text = 2, f"Check did not finish: {type(exc).__name__}: {exc}\n"
-        artifact = output_dir / (name + ".txt")
-        artifact.write_text(text)
         rows.append({"check": name, "state": classify(code, kind, text), "rc": code,
-                     "command": argv, "output": str(artifact.relative_to(root))})
+                     "command": argv, "output_text": text})
     if tier == "full":
         try:
             count = len((root / DESK / "MEMORY.md").read_text().splitlines())
@@ -139,22 +138,13 @@ def run(root, tier, output_dir, *, executor=execute, **options):
               "limits": "No fetch or source writes. Local origin can be stale. Advisory findings and manual judgments require review. Conditional flags must match actual work; unselected checks are not passes."}
     # Reuse the existing receipt check's facts; do not reconstruct a second ledger.
     try:
-        current = json.loads((output_dir / "receipt.txt").read_text())
+        current = json.loads(next(r["output_text"] for r in rows if r["check"] == "receipt"))
         report["receipt_observation"] = {k: current[k] for k in
             ("as_of", "origin_ref", "delivery_scope", "delivered", "total", "limits") if k in current}
         report["receipt_observation"]["note"] = "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
-    except (ValueError, OSError):
+    except (ValueError, OSError, StopIteration):
         pass
     (output_dir / "checks.json").write_text(json.dumps(report, indent=2) + "\n")
-    draft = [f"# WALTER {tier} closeout check draft — {report['as_of']}", "",
-             f"Selected checks: {state}. Procedure completion: UNVERIFIED.", "",
-             "Record owner outcomes/evidence or unresolved dispositions in the existing LAST_COMPLETION receipt.", "",
-             "| Check | Result |", "|---|---|"]
-    draft += [f"| {r['check']} | {r['state']} |" for r in rows]
-    draft += ["", "Manual duties — none is certified by command success:", ""]
-    draft += [f"- {k}: UNVERIFIED — {v}" for k, v in duties.items()]
-    draft += ["", report["limits"], ""]
-    (output_dir / "draft.md").write_text("\n".join(draft))
     return report, {"PASS": 0, "REVIEW": 1, "UNKNOWN": 2}[state]
 
 
@@ -175,7 +165,7 @@ def main():
     except (ValueError, OSError) as exc:
         print("UNKNOWN: " + str(exc)); return 2
     print(f"Selected checks: {report['selected_check_state']}; procedure completion: UNVERIFIED.")
-    print(f"Evidence and owner-review draft: {a.output}")
+    print(f"Check evidence (manual outcomes remain in LAST_COMPLETION): {a.output}")
     return rc
 
 

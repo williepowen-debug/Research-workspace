@@ -1,5 +1,8 @@
 # NEWS SWEEP — TARGET LIST
 
+> HISTORICAL SNAPSHOT — August 22, 2026 targets, frozen October 31. Retained at this path for external backlinks; not a live task list. Use current owner registries and WALTER LAST_COMPLETION for work and unresolved duties.
+
+
 **Built:** 2026-08-22 (Sat) by WALTER, at Will's request, from LIVE board state — not from generic categories.
 **Refresh trigger:** re-cut whenever a trigger fires/exits, a dated row resolves, or an open question closes. **A stale sweep list is worse than none — it sends you looking for answers that already arrived.**
 

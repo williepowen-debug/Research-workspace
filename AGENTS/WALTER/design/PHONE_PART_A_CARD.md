@@ -1,5 +1,8 @@
 # PHONE PART A — Will's 15 minutes, copy-paste ready
 
+> RETIRED October 21, 2026 — WQ-204 DECLINE. No setup action is owed. Recipe below is historical and dormant; only Will can revive it. Canonical: PHONE_SIGNAL_INGESTION.md.
+
+
 **Status:** the **entire fleet side is built and PROVEN** (Part B shipped 7/27, re-verified end-to-end 8/3). **This card is the only thing left.**
 **Why it's yours and not mine:** A1 needs your github.com account settings; A2 needs your phone. I have access to neither. Everything I *could* do is done.
 

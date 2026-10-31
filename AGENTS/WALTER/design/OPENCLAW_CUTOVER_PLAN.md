@@ -1,5 +1,8 @@
 # OpenClaw Cutover — Migration Plan (single-machine / desktop CC)
 
+> HISTORICAL PLAN — frozen October 31, 2026. Do not execute this old migration checklist. SCOUT was retired July 3; RESEARCH-INTAKE is the live successor. Runtime canon is root CLAUDE.md / PROME/COMPLETION_SPEC.md. Physical VPS/gateway decommission is NOT verified by this banner; that legacy owner obligation is referred to PROME in the cleanup packet.
+
+
 **Authored:** 2026-06-26 by WALTER (scoping pass, Will-directed). **Status:** SCOPING DRAFT — execution Will-coordinated; touches root/PROME/infra scope (WALTER does not edit those unilaterally). **Method:** 4-agent parallel discovery (115 touchpoints) → synthesis → adversarial completeness critic. Verified load-bearing facts live (committed tokens, dead paths, walter_doctor Platform-index, the active gateway unit).
 
 ---
