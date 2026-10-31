@@ -73,7 +73,11 @@ def inspect_event(repo, event):
                 continue  # Report this quarantined artifact on its own intake row.
             if not isinstance(other, dict):
                 continue
-            if other.get("display", {}).get("record", {}).get("wq_id") != wq:
+            display = other.get("display")
+            record = display.get("record") if isinstance(display, dict) else None
+            if not isinstance(record, dict):
+                continue  # Unidentifiable corruption is reported on its own intake row.
+            if record.get("wq_id") != wq:
                 continue
             validate_reply(repo, other, wq)
             if path != f"{REPLIES}/{other['id']}.json":

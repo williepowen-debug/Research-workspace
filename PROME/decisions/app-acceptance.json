@@ -2,11 +2,11 @@
   "schema_version": "decisions-app-acceptance/1",
   "queue_responses": true,
   "matching_chat_confirmation": true,
-  "acceptance_basis": "Explicit operator approval; further WQ-579 independent review waived",
+  "acceptance_basis": "PROME independent review ACCEPT of CATO's SR5 intake-isolation patch (Will 2026-10-31 18:34 ET 'Can we fix this.'), installed on the WQ-579 build, whose own acceptance stays the operator approval below",
   "independent_review": {
-    "path": "PROME/reports/2026-10-31_decisions-desk-final-ledger.md",
-    "commit": "0f432828e8bedca9530a2e4d8bd4df8c5f1eb50a",
-    "scope": "Historical original release only. This upgrade is operator-approved; no new independent acceptance is claimed."
+    "path": "PROME/reports/2026-10-31_decisions-sr5-intake-fix-review.md",
+    "commit": "da0963a39164a0b7d165746c595e626efa8d725c",
+    "scope": "SR5 intake-isolation patch only (owner_receipt.py + its witnesses). The WQ-579 build it sits on was operator-approved with further review waived; the original release's review is PROME/reports/2026-10-31_decisions-desk-final-ledger.md at 0f432828e."
   },
   "operator_approval": {
     "by": "Will",
@@ -24,7 +24,7 @@
     "pilot_files.py": "8203454d5f96ddc422b46c21a82dd3f3cb4279875dbb6c05ee81c3a352eb4006",
     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
     "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
-    "owner_receipt.py": "4b3a16666704b1148e1195470f6751c699b8ec24fc1bcbbb5ca73a206818e919",
+    "owner_receipt.py": "963486f3f69c41df876dac9ec591895cde0ffd9db1ce087089de276f62b5fb39",
     "options.py": "7cb9e82fdd0279489c613d403b02031aeb6b87024fe22ce34d93df653ef371a0",
     "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
     "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
