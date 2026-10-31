@@ -20,7 +20,12 @@ safety_net: "not-triggered"
 event_window: "closed"
 word_count: 153
 dispatch_note: "Batch item 29. Date-check first (MEMORY #6): search returned strikes on the same refinery in Aug, Oct, Nov 2025 and April 2026, none dated 10/30/2026, so recirculation is live. Relevant if real because the RESEARCH-INTAKE lane carried 'Russia eases fuel rations after Kyiv halts refinery attacks' (10/29); a resumption would reverse that state. Routed claim-only at ROUTINE for the owner's own collection."
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20261031-003 \u2014 dated reporting now found; throughput/damage still unquantified"
 ---
+
+> **October31 update — SIG-W-20261031-003:** the earlier search gap is superseded by October30 reports. This is corroboration of a reported attack, not a measured loss of refinery output. Original search record preserved below.
+
 # CLAIM-ONLY: "Ukraine struck Russia's Novokuibyshevsk refinery this morning" (10/30) — no same-day report located
 
 **Claim:** @HormuzLetter, 2026-10-30 04:45 UTC: Ukraine struck Rosneft's Novokuibyshevsk refinery (Samara), set it ablaze, "the first Ukrainian strike on Russian oil infrastructure in nearly ..." (truncated).

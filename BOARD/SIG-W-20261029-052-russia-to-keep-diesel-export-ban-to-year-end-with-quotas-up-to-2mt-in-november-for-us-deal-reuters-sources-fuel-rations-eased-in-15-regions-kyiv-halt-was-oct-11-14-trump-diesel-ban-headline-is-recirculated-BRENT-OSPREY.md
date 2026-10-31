@@ -19,7 +19,12 @@ confidence_language: "Reuters citing two unnamed sources; no Russian government 
 entities: ["Russia", "Novak", "Reuters", "Kyiv-Post", "Izvestia"]
 word_count: 197
 dispatch_note: "Lane: 5 BRENT watch hits + 1 HENRY 'refinery attack' hit + 1 EnergyNow item. Builds on SIG-W-20261029-010 (the 10/10 quota and the 10/31 producer ban). Date-checked: 'Kyiv halts refinery attacks' refers to the 10/11-14 pause OSPREY already holds; the Trump diesel-ban headline matches September reporting, reversed 10/2. Delivery and consumption separate."
+status: PARTIALLY-SUPERSEDED
+status_ref: "SIG-W-20261031-001 \u2014 052 tentative year-end diesel duration superseded by signed January 31 2027 endpoint; producer exemption deleted; US quota instrument not found, not zero flows"
 ---
+
+> **October 31 update — SIG-W-20261031-001:** 052 tentative year-end diesel duration superseded by signed January 31 2027 endpoint; producer exemption deleted; US quota instrument not found, not zero flows. Original dated reporting below is preserved; read the linked correction before reuse.
+
 # Reuters 10/29: Russia to keep its diesel export ban to year-end but use quotas (up to 2 Mt in November) for the US deal; Russian fuel rations eased in 15 regions. Two traps: 'Kyiv halts refinery attacks' is the 10/11–14 pause, and 'Trump still considering a diesel export ban' is September news
 
 - **Diesel ban (Reuters 10/29 15:48Z, two unnamed sources):** the producer ban expiring **10/31** is to run **through year-end**; quota exports to meet the US commitment would rise to **~2 Mt in November (~0.5 mb/d)**; intergovernmental shipments continue; a government order expected **early November** may widen exempt refiners. US deal background: Trump 10/9, 300 kt immediately, 500 kt November, 1 Mt after (US News 10/26). Builds on `SIG-W-20261029-010`.

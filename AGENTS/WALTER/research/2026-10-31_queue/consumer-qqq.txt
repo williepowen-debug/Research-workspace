@@ -1,0 +1,17 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 690.23 → current 690.49
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (2)
+        BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md:69  [690.23]
+           VIX 20.83 (+21.1%, +3.63 points vs 17.20) · VIX9D 20.94 · VIX3M 21.49 — **the intraday +5 touch and the VIX9D-over-VIX3M inversion did NOT h
+        BOARD/SIG-W-20261030-004-FLASH-vix-plus-5-intraday-safety-net-22-33-vs-17-20-close-vix9d-over-vix3m-VIOLET.md:58  [690.23]
+           VIX 20.83 (+21.1%, +3.63 points vs 17.20) · VIX9D 20.94 · VIX3M 21.49 — **the intraday +5 touch and the VIX9D-over-VIX3M inversion did NOT h
+     🟢 cleared: marker-adjacent / next to new value / frozen file (7)  [--show-handled to audit]
+
+  🔴 2 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

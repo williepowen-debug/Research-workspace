@@ -1,0 +1,326 @@
+[
+  {
+    "item": 1,
+    "title": "AMZN",
+    "disposition": "DUP",
+    "evidence": "VULCAN 2026-10-30 L800 AMZN report; SEC8-K and Ex99.1 opened, maintained guide verified"
+  },
+  {
+    "item": 2,
+    "title": "META",
+    "disposition": "NOTE",
+    "evidence": "META SEC8-K body read; preferred closing/forward terms already VULCAN L800 and BOARD20261029-025; not new cash proceeds"
+  },
+  {
+    "item": 3,
+    "title": "RCL",
+    "disposition": "DUP",
+    "evidence": "CRUISE owner KB203/204/208/213 and BOARD20261029-009/-018 cover exact results/CFO dates"
+  },
+  {
+    "item": 4,
+    "title": "NCLH",
+    "disposition": "DUP",
+    "evidence": "CRUISE owner KB203/204/208/213 and BOARD20261029-009/-018 cover exact results/CFO dates"
+  },
+  {
+    "item": 5,
+    "title": "NCLH",
+    "disposition": "DUP",
+    "evidence": "CRUISE owner KB203/204/208/213 and BOARD20261029-009/-018 cover exact results/CFO dates"
+  },
+  {
+    "item": 6,
+    "title": "Russia Plans to Extend Diesel-Export Ban With Exemptions - Bloomberg.com",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-001 signed law governs extension claim; exact-relay access limits in VERIFY-ENERGY-FILINGS.md"
+  },
+  {
+    "item": 7,
+    "title": "Russia to Extend Diesel Export Ban Despite Resuming US Shipments - Caspian Post",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-001 signed law governs extension claim; exact-relay access limits in VERIFY-ENERGY-FILINGS.md"
+  },
+  {
+    "item": 8,
+    "title": "Russia will draw up plan for December diesel exports at the end of November, Novak says - marketscreener.com",
+    "disposition": "DISPATCH",
+    "evidence": "SIG-W-20261031-004"
+  },
+  {
+    "item": 9,
+    "title": "Russia extends diesel export ban as US-bound cargoes lack confirmed buyers - IntelliNews",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-004 shipping/plan evidence; primary delivery record unread"
+  },
+  {
+    "item": 10,
+    "title": "Russia eyes diesel export ban through January - Breakingthenews.net",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-001 signed law governs extension claim; exact-relay access limits in VERIFY-ENERGY-FILINGS.md"
+  },
+  {
+    "item": 11,
+    "title": "Russia Extends Diesel Export Ban Through Year-End, Set to Sharply Expand U.S. Supply Quota - BigGo Finance",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-001 signed law governs extension claim; exact-relay access limits in VERIFY-ENERGY-FILINGS.md"
+  },
+  {
+    "item": 12,
+    "title": "Blue Owl posts record institutional quarter as 12-month raise hits $48.8bn - Alternatives Watch",
+    "disposition": "DISPATCH",
+    "evidence": "SIG-W-20261031-007"
+  },
+  {
+    "item": 13,
+    "title": "Oil Markets Caught Between Iran War Risks and Emergency SPR Releases - Crude Oil Prices Today | OilPrice.com",
+    "disposition": "DISPATCH",
+    "evidence": "SIG-W-20261031-008 DOE primary awards, not completed deliveries"
+  },
+  {
+    "item": 14,
+    "title": "Drone attack and fire reported at Russia's Novokuibyshevsk oil refinery - Euronews.com",
+    "disposition": "DISPATCH",
+    "evidence": "SIG-W-20261031-003"
+  },
+  {
+    "item": 15,
+    "title": "Ukrainian Drones Hit Russian Military Food Supplier, Oil Refinery in Overnight Attacks - Kyiv Post",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-003 same October30 refinery event; access/source-dependence limits retained"
+  },
+  {
+    "item": 16,
+    "title": "Russian oil refinery suffers major drone attack - POLITICO.eu",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-003 same October30 refinery event; access/source-dependence limits retained"
+  },
+  {
+    "item": 17,
+    "title": "Russian oil refinery struck as Ukraine renews drone attacks - Al Jazeera",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-003 same October30 refinery event; access/source-dependence limits retained"
+  },
+  {
+    "item": 18,
+    "title": "Wells Fargo announces single largest mass layoff in at least 5 years - WHO13.com",
+    "disposition": "NOTE",
+    "evidence": "VERIFY-MARKET.md WFC86 planned Iowa cuts effective12/26; local superlative, primary WARN inaccessible, not realized bankwide job losses"
+  },
+  {
+    "item": 19,
+    "title": "Post-2022 credit tightening could boost subprime auto tranche appeal - Auto Finance News",
+    "disposition": "NOTE",
+    "evidence": "VERIFY-MARKET.md AutoFinance Oct20 introduction only; paid body/performance evidence unread, no recovery claim"
+  },
+  {
+    "item": 20,
+    "title": "Subprime auto dealer America\u2019s Car-Mart on the brink - Transport Topics",
+    "disposition": "DUP",
+    "evidence": "July21 Car-Mart background superseded by BOARD20261021-008/-010 primary lineage"
+  },
+  {
+    "item": 21,
+    "title": "Ares Management on Pace for Record Fundraising Year, RBC Capital Markets Says - Yahoo Finance",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-007 same MT/RBC attributed Ares counter-context; not independent sources"
+  },
+  {
+    "item": 22,
+    "title": "Ares Management on Pace for Record Fundraising Year, RBC Capital Markets Says - marketscreener.com",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-007 same MT/RBC attributed Ares counter-context; not independent sources"
+  },
+  {
+    "item": 23,
+    "title": "TrendForce Projects Apple to Ship Up to 1.5 Million OLED Touchscreen MacBook Pros in 2027 - Gadget Review",
+    "disposition": "NO-ACTION",
+    "evidence": "VERIFY-MARKET.md consumer-display forecast/reliability discussion, no new AI-capex/memory instrument"
+  },
+  {
+    "item": 24,
+    "title": "iPhone Duo Launch Sparks Strong Demand, but Fold-Area Structural Reliability and Hardware\u2013Software Integration Remain Challenges, Says TrendForce - TrendForce",
+    "disposition": "NO-ACTION",
+    "evidence": "VERIFY-MARKET.md consumer-display forecast/reliability discussion, no new AI-capex/memory instrument"
+  },
+  {
+    "item": 25,
+    "title": "Zelenskyy orders new Russia refinery attacks in Trump rebuke - The Spokesman-Review",
+    "disposition": "DUP",
+    "evidence": "OSPREY KB195/201 historical Oct11 conditional offer and Oct15 pause-end; source dates/bounds in VERIFY-ENERGY-FILINGS.md"
+  },
+  {
+    "item": 26,
+    "title": "Zelensky Says Will Stop Russia Refinery Attacks. But There's 1 Condition - NDTV",
+    "disposition": "DUP",
+    "evidence": "OSPREY KB195/201 historical Oct11 conditional offer and Oct15 pause-end; source dates/bounds in VERIFY-ENERGY-FILINGS.md"
+  },
+  {
+    "item": 27,
+    "title": "India\u2019s Reliance pays record $25 million freight cost for Iraqi crude amid Hormuz crisis - IraqiNews",
+    "disposition": "NOTE",
+    "evidence": "August8 freight context; archive date verified, full article unread; not current freight quote"
+  },
+  {
+    "item": 28,
+    "title": "Saudi Yanbu oil terminal reportedly hit in aerial attack - safety4sea",
+    "disposition": "DUP",
+    "evidence": "Historical Oct1 Yanbu/Sept22 pipeline restart; dated bodies verified, no current status inferred"
+  },
+  {
+    "item": 29,
+    "title": "Saudi Arabia restarts East-West oil pipeline, sources say - Reuters",
+    "disposition": "DUP",
+    "evidence": "Historical Oct1 Yanbu/Sept22 pipeline restart; dated bodies verified, no current status inferred"
+  },
+  {
+    "item": 30,
+    "title": "SanDisk stock tumbles as Kioxia warns on NAND price surge - Investing.com",
+    "disposition": "DISPATCH",
+    "evidence": "SIG-W-20261031-006"
+  },
+  {
+    "item": 31,
+    "title": "SNDK Dips Premarket Despite Strong Q1: Analyst Sees Memory Pricing Peak On The Horizon - Stocktwits",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-006 distinguish NAND spot/ASP growth/data-center results; omit false EPS comparison"
+  },
+  {
+    "item": 32,
+    "title": "TrendForce estimates Apple will sell 1.2-1.5 million MacBook Pros with PROLED XDR Display next year - Apple World Today",
+    "disposition": "FOLD",
+    "evidence": "Item23 same TrendForce Oct29 consumer-display forecast; exact relay access limits in VERIFY-MARKET.md"
+  },
+  {
+    "item": 33,
+    "title": "TrendForce expects Apple to ship up to 1.5 million OLED MacBook Pros in 2027 - Mezha.net",
+    "disposition": "FOLD",
+    "evidence": "Item23 same TrendForce Oct29 consumer-display forecast; exact relay access limits in VERIFY-MARKET.md"
+  },
+  {
+    "item": 34,
+    "title": "Kioxia\u2019s NAND price slowdown and what it means for memory stocks - Investing.com",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-006 distinguish NAND spot/ASP growth/data-center results; omit false EPS comparison"
+  },
+  {
+    "item": 35,
+    "title": "[Insights] Memory Spot Price Update: NAND Price Cuts Accelerate Amid China Phone Discounts; 512Gb TLC Sink 9.19% - TrendForce",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-006 distinguish NAND spot/ASP growth/data-center results; omit false EPS comparison"
+  },
+  {
+    "item": 36,
+    "title": "Hybrid Bonding Is Costly. Is There a Cheaper Bumpless Option? - TrendForce",
+    "disposition": "NOTE",
+    "evidence": "VERIFY-MARKET.md packaging explainer paid boundary; no confirmed new commercial capacity event, full body unread"
+  },
+  {
+    "item": 37,
+    "title": "Trump pressures Lithuania to open its ports for Belarusian potash exports despite EU sanctions - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "disposition": "DISPATCH",
+    "evidence": "SIG-W-20261031-005 FERT triage/PROME flag, report and denial retained"
+  },
+  {
+    "item": 38,
+    "title": "Russia to extend diesel export ban, use quotas to fulfil US deal, sources say - marketscreener.com",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-001 signed law governs extension claim; exact-relay access limits in VERIFY-ENERGY-FILINGS.md"
+  },
+  {
+    "item": 39,
+    "title": "Russia Extends Diesel Fuel Export Ban Through 2026 While Boosting Shipments - 112.ua",
+    "disposition": "FOLD",
+    "evidence": "SIG-W-20261031-001 signed law governs extension claim; exact-relay access limits in VERIFY-ENERGY-FILINGS.md"
+  },
+  {
+    "item": 40,
+    "title": "Finastra Hit by Ransomware Attack, Shuts Down Servers - CISO Mag",
+    "disposition": "KILL",
+    "evidence": "VERIFY-CYBER.md Finastra date traps: CISO March2020; Krebs November2024, not current incidents"
+  },
+  {
+    "item": 41,
+    "title": "Sharetec Outage Knocks Credit Unions Offline Across Multiple States - CU Today",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 42,
+    "title": "Fiserv Ransomware Hit Ends the \"It Won't Be Us\" Era - FinanceX Magazine",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 43,
+    "title": "Jack Henry Cyberattack Compromises Client Data - Banking Exchange",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 44,
+    "title": "Jack Henry falls victim to ransomware attack - Finextra Research",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 45,
+    "title": "Jack Henry Ransomware Attack: Voice Phishing Breach Insights - The Cryptonomist",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 46,
+    "title": "Fintech Giant Finastra Investigating Data Breach - Krebs on Security",
+    "disposition": "KILL",
+    "evidence": "VERIFY-CYBER.md Finastra date traps: CISO March2020; Krebs November2024, not current incidents"
+  },
+  {
+    "item": 47,
+    "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack - SecurityWeek",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 48,
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack - BleepingComputer",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 49,
+    "title": "China-Linked Cyberattack Forces Tampa\u2019s ConnectWise to Shut Down Services - TBBW",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 50,
+    "title": "Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants - The Register",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 51,
+    "title": "100 Days After TruStage Cyberattack, Claims Delays & Trust Concerns Persist - CUTimes",
+    "disposition": "NOTE",
+    "evidence": "VERIFY-CYBER.md Oct19 TruStage secondary complaint/royalty/grant context; no newly verified threshold or new attack"
+  },
+  {
+    "item": 52,
+    "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise - TechCrunch",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 53,
+    "title": "CU vendor TruStage faces 14 suits over monthslong outage - American Banker",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  },
+  {
+    "item": 54,
+    "title": "ConnectWise Cloud Backup Breach: 2,250 Tenants [2026] - shattered.io",
+    "disposition": "DUP",
+    "evidence": "VERIFY-CYBER.md per-title original/primary-grounded incident mapping; no new event or blanket service-restoration claim"
+  }
+]

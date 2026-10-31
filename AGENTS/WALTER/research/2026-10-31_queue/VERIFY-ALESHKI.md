@@ -1,0 +1,22 @@
+# Aleshki / Oleshky humanitarian ceasefire verification
+
+Date checked: 2026-10-31. Helper: verify_aleshki, read-only evidence verification for WALTER. No owner-state edits, routing, or Git commit.
+
+**VERDICT — Historical statement corroborated; present-tense negotiation framing is superseded by later announcements.**
+
+**CLAIM CHECKED:** PROME's `inbox/2026-10-31_from-PROME_yuri-side-finding-aleshki-ceasefire.md` relays YURI's statement that on October 23 Peskov described military coordination of ceasefire timing for a humanitarian evacuation in Aleshki, Kherson. The core date, speaker, local scope and coordination status at that moment are supported. The exact phrase “Russian/Ukrainian military departments” is more specific than the accessible Peskov quotation, which says military personnel were coordinating timing.
+
+**EVIDENCE LOCATOR / ACCESS LIMITS:**
+
+- Local original inspected: `AGENTS/YURI/research/2026-10-31_YUR-004_FINAL-READ.md`, context-bodies paragraph. It explicitly dates the Peskov item October 23 and calls it OSPREY/HAWK context. The corresponding `AGENTS/YURI/sources/2026-10-31/yur004/kremlin-scan-21-30.10.json` contains scan metadata rather than the quoted body; no exact Kremlin transcript locator was established in this check.
+- [Interfax, October 23, 18:16](https://www.interfax.ru/russia/1124617), accessible full body, directly attributes to Peskov the coordination of ceasefire timing in this location for the humanitarian mission and departure of willing residents. This is a contemporary reported quotation, not an independently retrieved Kremlin original.
+- [White House, October 23](https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/), accessible official statement: temporary local halt for humanitarian aid and preparation of civilian evacuation; its original announced start is October 29.
+- [Ukrainian armed forces, October 23, 22:05](https://www.zsu.gov.ua/news/syly-oborony-ukrainy-zaprovadzhuiut-rezhym-prypynennia-vohniu-dlia-dopomohy-meshkantsiam-okupovanykh-oleshok), accessible official body: defined-area ceasefire from 03:00 Kyiv time on October 27 for the Oleshky humanitarian operation.
+- [Interfax reporting Gerasimov, October 23, 19:05](https://www.interfax.ru/russia/1124628), accessible full body: Russian announcement of a halt on the Kherson direction from 04:00 Moscow time October 27 to support the operation and safe movement of aid. This corroborates the later military start date; the exact geographic perimeter is not supplied.
+- [Russian Red Cross, October 29](https://redcross.ru/news/pomoshch-v-chs/rossiyskiy-krasnyy-krest-predostavil-gumanitarnuyu-pomoshch-dlya-naseleniya-goroda-alyeshki/), accessible official body: says it supplied water, food and hygiene aid and that the Russian human-rights ombudsperson's office handled delivery directly into Aleshki. This is the organization's account of assistance, not independent certification of evacuation completion.
+
+**SUPPORTING OBSERVATION:** The statement date is October 23, not a new October 31 agreement. The initial White House October 29 schedule differs from the subsequently announced military October 27 start; preserve this chronology rather than silently conflating the dates. The accessible material supports a local humanitarian arrangement. It does not support a general Russian-Ukrainian ceasefire or completion of all evacuations.
+
+**DUPLICATE CHECK:** Case-insensitive repository searches across `BOARD/`, `AGENTS/OSPREY/`, and `AGENTS/HAWK/` for Aleshk/Olesh/Alyosh and Cyrillic Алеш/Алёш/Олеш variants found no place-name record. Broader humanitarian evacuation/corridor and Kherson-evacuation searches returned unrelated July Golden Leo grain-ship corridor material. Thus no textual duplicate was located within that perimeter; this is not proof against an unnamed semantic duplicate or unpublished owner knowledge. No canonical state was changed.
+
+**BOUNDED CONCLUSION:** The dated Peskov claim can be retained as corroborated background, but routing it as fresh unresolved negotiation would be misleading. Any packet should include the later October 27 local start announcement and attributed humanitarian activity. Unknown: exact operational boundaries, current adherence, number/destination of evacuees, and whether the full operation is complete. Domain significance remains with OSPREY/HAWK; this helper assigns no thesis or priority.

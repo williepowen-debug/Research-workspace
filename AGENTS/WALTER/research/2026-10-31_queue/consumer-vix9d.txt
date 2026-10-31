@@ -1,0 +1,35 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 20.94 → current 19.25
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (2)
+        BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md:69  [20.94]
+           VIX 20.83 (+21.1%, +3.63 points vs 17.20) · VIX9D 20.94 · VIX3M 21.49 — **the intraday +5 touch and the VIX9D-over-VIX3M inversion did NOT h
+        BOARD/SIG-W-20261030-004-FLASH-vix-plus-5-intraday-safety-net-22-33-vs-17-20-close-vix9d-over-vix3m-VIOLET.md:58  [20.94]
+           VIX 20.83 (+21.1%, +3.63 points vs 17.20) · VIX9D 20.94 · VIX3M 21.49 — **the intraday +5 touch and the VIX9D-over-VIX3M inversion did NOT h
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (258)
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/raw/vix.csv:237  [20.94]  (no unit/series context on line)
+           12/05/1990,20.940000,20.940000,20.940000,20.940000
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/raw/vix.csv:1807  [20.94]  (no unit/series context on line)
+           02/24/1997,20.940000,20.960000,19.840000,19.840000
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/raw/vix.csv:2107  [20.94]  (no unit/series context on line)
+           05/05/1998,20.940000,21.730000,20.730000,21.460000
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/raw/vix.csv:2110  [20.94]  (no unit/series context on line)
+           05/08/1998,20.940000,21.100000,20.180000,20.570000
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/raw/vix.csv:2654  [20.94]  (no unit/series context on line)
+           07/06/2000,20.770000,21.510000,20.760000,20.940000
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/raw/vix.csv:3364  [20.94]  (no unit/series context on line)
+           05/07/2003,21.450000,21.580000,20.940000,21.000000
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/raw/vix.csv:3580  [20.94]  (no unit/series context on line)
+           03/16/2004,20.270000,20.940000,19.860000,20.340000
+        AGENTS/SAM/research/outputs/2026-09-08_catchup/raw/vix.csv:5637  [20.94]  (no unit/series context on line)
+           05/14/2012,21.470000,21.870000,20.940000,21.870000
+        … +250 more 🟠 hit(s) on [20.94] across 55 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (7)  [--show-handled to audit]
+
+  🔴 2 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

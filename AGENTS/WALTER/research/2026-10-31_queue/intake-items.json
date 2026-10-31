@@ -1,0 +1,1079 @@
+[
+  {
+    "item": 1,
+    "ticker": "AMZN",
+    "date": "2026-10-29",
+    "items": [
+      "2.02",
+      "9.01"
+    ],
+    "severity": "red",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/0001018724-26-000038-index.htm",
+    "entity_class": "hyperscaler_ai",
+    "route_to": [
+      "VULCAN",
+      "HENRY"
+    ]
+  },
+  {
+    "item": 2,
+    "ticker": "META",
+    "date": "2026-10-29",
+    "items": [
+      "1.01",
+      "3.03",
+      "5.03",
+      "9.01"
+    ],
+    "severity": "red",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526438017/0001193125-26-438017-index.htm",
+    "entity_class": "hyperscaler_ai",
+    "route_to": [
+      "VULCAN",
+      "HENRY"
+    ]
+  },
+  {
+    "item": 3,
+    "ticker": "RCL",
+    "date": "2026-10-27",
+    "items": [
+      "2.02",
+      "9.01"
+    ],
+    "severity": "red",
+    "url": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000042/0000884887-26-000042-index.htm",
+    "entity_class": "other",
+    "route_to": []
+  },
+  {
+    "item": 4,
+    "ticker": "NCLH",
+    "date": "2026-10-29",
+    "items": [
+      "2.02",
+      "9.01"
+    ],
+    "severity": "red",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513761/000117184326006957/0001171843-26-006957-index.htm",
+    "entity_class": "other",
+    "route_to": []
+  },
+  {
+    "item": 5,
+    "ticker": "NCLH",
+    "date": "2026-10-29",
+    "items": [
+      "5.02",
+      "9.01"
+    ],
+    "severity": "red",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513761/000110465926119841/0001104659-26-119841-index.htm",
+    "entity_class": "other",
+    "route_to": []
+  },
+  {
+    "item": 6,
+    "title": "Russia Plans to Extend Diesel-Export Ban With Exemptions - Bloomberg.com",
+    "source": "Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONkFtQmRLN2psMHVkTTJWeHZuVHlHNEtmSkVKd2pvc3p3SVFvbXhRN2JuaUlSdThHWWVWZnFOdzdWbV9Lb2xmck5TQTR1Vk5wanJVWkthWDY2RnNGUG5wMEJYeS1MMVZMUERpelZ2NnNsVEJxLTJuTGIwWkRpMDhBN1ZiQ25HUFVSSm1vTFd1Rk5XNm9adEtka3E0QXF4RUwycHFhU3p4ZEx0bjg?oc=5",
+    "date": "Fri, 30 Oct 2026 15:23:23 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy"
+  },
+  {
+    "item": 7,
+    "title": "Russia to Extend Diesel Export Ban Despite Resuming US Shipments - Caspian Post",
+    "source": "Caspian Post",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWUFXU0xRS3FneXNfSmpsek14QTMxNkFhYjBmQXJLbklsRWczdG5YOEhwOEs0WFg1cWVtNmRnbURpV19OTEdVMm5ZNXBZTUlJMWJDRzIwVU9oQjJ2VWYzak9SN0tTUTMyZEM4bDZFX21scU5jRms2cTlycVlQc2VOdkp3bDZ6NHZXZHRNMVp1Q3FxdFJjV21WVXM2dw?oc=5",
+    "date": "Fri, 30 Oct 2026 18:46:38 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ],
+      [
+        "BRENT",
+        "US diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy"
+  },
+  {
+    "item": 8,
+    "title": "Russia will draw up plan for December diesel exports at the end of November, Novak says - marketscreener.com",
+    "source": "marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSmEtczBoekgxME9nd1hzUmZCaG83emtNYTZKdS1STmxMbERBdHd5a0U3dWUtQ0VTbmVQRS1vdFpZSGVIVXozYXZlZGV5QmpxdEJRS2tYUWlUSU5wbXZDMVFKTG03NHd5Nng5Ql8taHZsRFhRODVhNFU3a2FkQmprRThfS2dOeFF3TTZFVUduaGNYSExTZVp5clNoVUFTeUJreUNWcU9LOGliTjNwRGhkUF8yNEhfa1FST2g5dUI2ZnlmUjBMaE1ZbUxEa05tbzhGcjJDYmRB?oc=5",
+    "date": "Fri, 30 Oct 2026 17:21:06 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy"
+  },
+  {
+    "item": 9,
+    "title": "Russia extends diesel export ban as US-bound cargoes lack confirmed buyers - IntelliNews",
+    "source": "IntelliNews",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMG1oSmZzSExwS0cyUzA0MC11bE0wMG9heUdsNWdwSUFDQkFNanJFLTZfSm1NVjdrVWFBSDNmaklYVS1ubzhUT2dmZ3RPVHFrbC1YMlNITnA0SF9CaDJCYU51eW5EQTVXYmgwRmVuUnd6MWY3NFZybGJYZzNidUJ4NDVQcGRaZFhsWnljYWNGOUd4WEw5LU5YUjNIc1dSaUhlWHBucjEyQ09aQ3VSU1NF?oc=5",
+    "date": "Fri, 30 Oct 2026 09:44:33 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ],
+      [
+        "BRENT",
+        "US diesel export"
+      ],
+      [
+        "OSPREY",
+        "Russia extends diesel export ban"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy"
+  },
+  {
+    "item": 10,
+    "title": "Russia eyes diesel export ban through January - Breakingthenews.net",
+    "source": "Breakingthenews.net",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYTNkQ0dNVEM2ZUtndzRzWF96R1Y0Y29TcldZVHZSeUVBRVpPaTJpaTdvdVlhUGdXaFdDWTlRbGd1cFFWdFlpc3ZJaDAyWS1HbTY1bmw3OWZaR0xndmFmdDVCd1JYQzR6bDRLWW5zR2ZzaGVLT0xOWVVFNkV1WFB1YVJqTDE3enEzSTk2Z1pudmJlZV8w?oc=5",
+    "date": "Fri, 30 Oct 2026 13:05:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy"
+  },
+  {
+    "item": 11,
+    "title": "Russia Extends Diesel Export Ban Through Year-End, Set to Sharply Expand U.S. Supply Quota - BigGo Finance",
+    "source": "BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55S0xYbE1Ic1U5RmNveUVHUE9Fc3JnZVNrUnhzNDhuc0d6WEIyNmlOYXRvclFVcS1kcnpqOVZNUlFfdjgtT3NCamc5VVVvZXVfNkFOMGJlMjVXS3VWc0tMQmxxWHpQcUdhbGZ6TU5MTlJUVk5iTXc?oc=5",
+    "date": "Fri, 30 Oct 2026 05:30:54 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ],
+      [
+        "BRENT",
+        "U.S. diesel export"
+      ],
+      [
+        "OSPREY",
+        "Russia extends diesel export ban"
+      ]
+    ],
+    "agents": [
+      "BRENT",
+      "TERRY",
+      "HENRY"
+    ],
+    "label": "diesel-export-policy"
+  },
+  {
+    "item": 12,
+    "title": "Blue Owl posts record institutional quarter as 12-month raise hits $48.8bn - Alternatives Watch",
+    "source": "Alternatives Watch",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcWtMaktBamxhOGZJVjdMeGpiaFVCcHNLLVVobElHdmJSZENnM3Zhd0o2OUZqN3VaQ1RMNGhmQmVwLS1obnFjVU4wRzQwaUtfb0lMV1d5akxwN2RpbkRyM1ZhN2stWFlVY0psMGRYOV93eU5tdnlaVm1QYzIzTDJMUzU1ZFpGMUx2ZGM5dUNJdTEzQ2lhVmd1Z2JwQjB0b1NDRlE?oc=5",
+    "date": "Fri, 30 Oct 2026 11:21:00 GMT",
+    "classification": "DEVELOPMENT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Blue Owl",
+    "watch_hits": [],
+    "agents": [
+      "BROCK",
+      "LIQUID"
+    ],
+    "label": "bdc-names"
+  },
+  {
+    "item": 13,
+    "title": "Oil Markets Caught Between Iran War Risks and Emergency SPR Releases - Crude Oil Prices Today | OilPrice.com",
+    "source": "Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNE52a2l6QkhxSG9XR2VjaG9wVFNDMFozQ0tGSnhQRnFQcHRTaFpHTUpMbmJrNUJKTUtUUW1CaUxxb20yOWZENXkyWmtYV3lYWmxCNS1la0hTYXBkNEFBQS04OEczWUpKcjJ4MUhHTjFBQUdlZVM5X3dLcENEUVRTTG9ha1R0aTVBZW01M2lGdTlXMi1BLWF0ZGJtbGRmUmViMWpDWWt1bVpuYnp0cFZJQUxfZ2prYUHSAbwBQVVfeXFMUGxibGxNWTk3NlBqMEk2bUpsQVRiRzNDYVNxdF9ocVhzaXhQXzNzZm1kZmd5VUJIaGF3UncybkRydUJCZ2s1Zkx3eFQzcmE0Sk9PZWZFWi1wVkRjVmFtdXJkSEg0ZkhlWGttRUE1c183V2piUFpYZXppTDdsbTIyc3hoUHR5b0NxQkdPUkQ3bFhubi1DZk9rY0oxTnNpSVF1SGtYTWRRQ3JwUkxoTV91aEQ2UDRzdGJPY0Y1XzQ?oc=5",
+    "date": "Fri, 30 Oct 2026 11:30:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "SPR release",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "HENRY",
+      "BRENT"
+    ],
+    "label": "oil-energy"
+  },
+  {
+    "item": 14,
+    "title": "Drone attack and fire reported at Russia's Novokuibyshevsk oil refinery - Euronews.com",
+    "source": "Euronews.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZTlaZTlIaThQZlNwQlktYUJRalZMSVBZc25MUjBXTmFMU1hwemh6YXFycDJ5Qy1hVmMyeXpOVW1jYVFrNDN0LVJxamhXUXlZcUE2NUVqSUVDQzlPUUhydW9EQ2NhRjRrZTV1R3lkZXJubXdDVVM0ZURaSnpEeURJQkRhZ0p0dU1nOWhDMmxfeHpRdThWaGNHS0xBS0N0RmZnMjVVRGxDbDlyUQ?oc=5",
+    "date": "Fri, 30 Oct 2026 08:57:34 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "BRENT"
+    ],
+    "label": "gas-supply"
+  },
+  {
+    "item": 15,
+    "title": "Ukrainian Drones Hit Russian Military Food Supplier, Oil Refinery in Overnight Attacks - Kyiv Post",
+    "source": "Kyiv Post",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1uckNvNTBjbVVPUUJfbkZHNUJxMC1yREtFVFloNFJreFY2WkloWUN3M19SSHZaZTZuWUdhcjA2QktEME1wT19HVm5DNA?oc=5",
+    "date": "Fri, 30 Oct 2026 06:57:26 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "BRENT"
+    ],
+    "label": "gas-supply"
+  },
+  {
+    "item": 16,
+    "title": "Russian oil refinery suffers major drone attack - POLITICO.eu",
+    "source": "POLITICO.eu",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZTBLejNBaWk1SFhoVTZkNzd2T18tNXYyZVhwYk9JY3EyWUtGbkJhNWdRTnVyb2lvVnQ1Mm1Yel9pZ0hrWnRhTGFEdnhURzJ5cTRfREVjTGRPUnlEcVIxc1ZEXzhZUXktTDNTOFBuelRIQllrOGNlS1ZmaGtfOG5FbUlzWVdBYUxGRG4ySVBjWU4?oc=5",
+    "date": "Fri, 30 Oct 2026 09:34:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "BRENT"
+    ],
+    "label": "gas-supply"
+  },
+  {
+    "item": 17,
+    "title": "Russian oil refinery struck as Ukraine renews drone attacks - Al Jazeera",
+    "source": "Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcVQwNDJLZkYzWGpxRVdaQjg5enB4bzRZaUt2Y3c3enFfM2ZEVVNVRi1jLWZ2M3FERzBlT0xPbzJrbm5GTElnajF1dG01YmpRNzJHUTJ0eTNDV0RRbVdzTldseTRIRERpWVpHUFcxTWpHc3hNWDFheTZlY24tTF9NNlIyQ0JxRDJhNVZmSG9ndkR4cGs5dGtTM09QZDYzbGtURmZZSGFfVmw3blJVQkdUdtIBtgFBVV95cUxNQmt4WmF6dUIyRDE1Q3pnWk9xaEZqSlJDU0xSdktQTEdnXzBQRTFzWGliYnhTQjRtaGRHdlowOGY4RXhDSktDRFU5VXFPNVhSTmQ5djVtdWtiOGRrNGNSMklNLXdXbUZlOUFFQ2JyamdZUThmcThfcGl6ek1yaGVpcFFaOXFuSkk4TkM1R1FrZlYyeWxTdnVEXzR6OGVDRHpvcHpLQXh0REc2bHN1NVlwYlNna09xQQ?oc=5",
+    "date": "Fri, 30 Oct 2026 09:19:58 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "BRENT"
+    ],
+    "label": "gas-supply"
+  },
+  {
+    "item": 18,
+    "title": "Wells Fargo announces single largest mass layoff in at least 5 years - WHO13.com",
+    "source": "WHO13.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOEg1UDMyQnBaLVlGbVJTMlZ0X2tKUGFVWTJ5WEVXN2VZNzVneVFQc3BUZkxqek5NVEZuNS1qLXJHS2RSZ1hLejdmemZlZFoyZTRISkJJM3B4VjZuQXlzWk5nLTFVM2JrRmx0cGIzeE1vMjRKZ3dqbGJvQjVudEg1QzVuanRNbXZpeXhDaU9Nc0FNcEFaX25rMjBsWUEzTDBJNFZSRTdB0gGrAUFVX3lxTE1heEJ6c29reEgwbVlOVkxiWWZOOWZzRFpSV19sYWZldXg3ZHFEUU5aWk1hVDNLVVlQM3BSWXVqVnRpVTJ4cEplV2ZwUmdnLXhFQ3JYZVdMRTRPTjlTNVhDSjZNUFJJVHNocE81T09HblA3Qm82YWRxM0l6RjV6d2M4bHlTX1NfeEFrUG10YWhjWHVUNHZ3aWZaUWMzRVl0S09WTkg2aHNDYmpCOA?oc=5",
+    "date": "Fri, 30 Oct 2026 14:20:38 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "mass layoff",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "LABOR"
+    ],
+    "label": "labor-layoffs"
+  },
+  {
+    "item": 19,
+    "title": "Post-2022 credit tightening could boost subprime auto tranche appeal - Auto Finance News",
+    "source": "Auto Finance News",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObTFiS2tKU0NmaFdHMjY2R2F0UnJ2MnlPVnFZcG90YVI0STQ2ckNlY2JzMnNaa1h1N29haU4wMGw3MFlfQWpWZFMtT2hrYUlRdmFWZzV5R2ZCSG5xeE5DRk1NbXZkQVBwRkx0cktMTHFRZ3VodW9Wd180UmJGUlZpLUI0WTRSbnNoa3NJams3cV9DUFB3Mi0zVXUyQ1hmWU9oemdub25fU21KOXVBSUIwNHFsNmMwZng4WG1vZzNabGI1QXht?oc=5",
+    "date": "Tue, 20 Oct 2026 19:25:36 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "subprime",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "CARL"
+    ],
+    "label": "consumer-stress"
+  },
+  {
+    "item": 20,
+    "title": "Subprime auto dealer America\u2019s Car-Mart on the brink - Transport Topics",
+    "source": "Transport Topics",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5yRmtVb3hJTzc4X0JUb3NmN1c0TUhnMTdZaVlHSDliaUlDcVlTRjJhbVNDM0pJTmlrQVNlOXVtUjZSWlNYa2lkbXQxRUdmMWt3bDBHMWNzVXppbFgtYTRHRUlaaEFIUQ?oc=5",
+    "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "subprime",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "CARL"
+    ],
+    "label": "consumer-stress"
+  },
+  {
+    "item": 21,
+    "title": "Ares Management on Pace for Record Fundraising Year, RBC Capital Markets Says - Yahoo Finance",
+    "source": "Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNURZMkstX2hBYVhHN3FtZ3JNS0MzYUE3Z3BIRXotcEVGbDNTY3hNYU5sNmswdVFIRWFobDlDaFEzcHhZSVd6NTE1WXBhZ0VDX0JlR2dIWWZwNXdWUU56OEszRHVuQmpkbmloR2tieFI4eFVQU05JVnoxYk1oTTVOcGFiTmV6bnFQUm9EQXI1cV9rV2JnVHBrUWpSV2JDVjQtNDZDYmVPYw?oc=5",
+    "date": "Fri, 30 Oct 2026 15:58:18 GMT",
+    "classification": "DEVELOPMENT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "ARES",
+    "watch_hits": [],
+    "agents": [
+      "BROCK"
+    ],
+    "label": "position-pe"
+  },
+  {
+    "item": 22,
+    "title": "Ares Management on Pace for Record Fundraising Year, RBC Capital Markets Says - marketscreener.com",
+    "source": "marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYTZDdXlyNXZBb250YzVHUnd1aV9rVnROTk5NNlhPRERmeGpTZnlwX052QVpqeEQ5dFBMbndTZEJCcHUzMmVWY052ZkR4dnJXYlNTYXRSbmVuR09nU3NqMVV3OXlQakU5T1BNUDI3bDZEVVZIeFR4MmRLd3d4TUM5VEs5VlZ0Z0dQNGlOcGtUWHRWSmNFcWcxMjZrRWtmVmRrWUZ4ODQ4bWw4Z0hLYUltTlJITVNCYWpzWHQ3V2RwV3JXYU01MWdnVw?oc=5",
+    "date": "Fri, 30 Oct 2026 16:51:06 GMT",
+    "classification": "DEVELOPMENT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "ARES",
+    "watch_hits": [],
+    "agents": [
+      "BROCK"
+    ],
+    "label": "position-pe"
+  },
+  {
+    "item": 23,
+    "title": "TrendForce Projects Apple to Ship Up to 1.5 Million OLED Touchscreen MacBook Pros in 2027 - Gadget Review",
+    "source": "Gadget Review",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGVINkNhS0oweHJyanpJZFZnSHo0eFp0azFnRm5EWEwxQV91azlsaUd2RHhSVVkwa2E3SHpzVHhQZmpNaWVfV3RhMmZMV2licXMzNnl4ajB1d3pfRTZESFhjYTZSZlZaX2xBUC1nZlR2R1JZbjRKRzBvaVF3WFNKeU84eTBlWjRUd2kyRmM2RWVXNURjUzNPMXNBQVY0S2FfQmtFdWc0aWZBRy1BX1BNZXNFem9PLWdQRWc?oc=5",
+    "date": "Fri, 30 Oct 2026 16:33:55 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle"
+  },
+  {
+    "item": 24,
+    "title": "iPhone Duo Launch Sparks Strong Demand, but Fold-Area Structural Reliability and Hardware\u2013Software Integration Remain Challenges, Says TrendForce - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBid05pMDg3NWttbXI1VUFUMU9uMUxfSGtYemNPV0k4bWxPenMwSjQ0X1RibXZlU29KbW5aNUJLMlV5cDFkOUYxOG00S0ppVGtJMnFWNUlTU3BDTl9odmV0SU93TWhNWWRUWTBlVElLM2o?oc=5",
+    "date": "Wed, 28 Oct 2026 09:19:11 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-cycle"
+  },
+  {
+    "item": 25,
+    "title": "Zelenskyy orders new Russia refinery attacks in Trump rebuke - The Spokesman-Review",
+    "source": "The Spokesman-Review",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYXBkRzVNemo2UzdRX0w2bXRZYkJ1MXVjaktGOHVWd2FYUXVxZk00Nmt4dU5aeEZnNkktdGJ5a1ZCSFQ1R3o0Sjh3a1l4UXFBUmtuNnZMbXRNT2FWUVlQTTdvamg0ZHVWdHJqb3kybUo2ZkFIR09kc3Axb1Jwa0h0N3ZWZmJCQVVUYnVLNzhGRmhMUkZGTUxIUFdZTDQ0Zw?oc=5",
+    "date": "Thu, 15 Oct 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "OSPREY",
+      "BRENT"
+    ],
+    "label": "russia-ukraine-energy"
+  },
+  {
+    "item": 26,
+    "title": "Zelensky Says Will Stop Russia Refinery Attacks. But There's 1 Condition - NDTV",
+    "source": "NDTV",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObkNKV3R3ZERhNG02OGZTY0JZREhnSDNVeHJrRXI2N0FpREwxYXVDajJUMWFLZGl0MVZmRy1Yd1NSdXR6WmJ6OTdDc1gxMlE4aDNVM0NvdGJrTGNZVjJwQUt0NjI2MTRDTy1mTHFoVENiZ0NxaDNsZ3ViMjhvYU9rWUhxc2tfclVoMC1aN3FoQUoxLWpfNFhmV1A3Wkk5QTFHQmNveDZnTDJOcVA3eVE4VG1vY0t3NkhEV1NmQU9kcWJKcjZ0MWkxOE9n0gHSAUFVX3lxTFA3WmVpZTF2MU83eko5NWJqLTRWa1lLaWtsSVRhalZXLTEwNkVBemlmdVlxaGp6QzZmakdKZXoyS2czTEhrU2UxVU0tSEhfREdKS1NEVTh1ZEFzTFBCUkpRSDRzVy1yWU5ld2hfMERCS3RNUFlQSWM1bGtrMU9JQnFvY191cUxRM2FnY3V6dW5yMXhudmgxaEI3dVNpRjFpZWN0VTkxb3ZDRldYUGgwWXRHUDI2d2tqOGhwa2paeEVPcW13aEFUZDZVVDVPUEdIaUhEUQ?oc=5",
+    "date": "Sun, 11 Oct 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "HENRY",
+        "refinery attack"
+      ]
+    ],
+    "agents": [
+      "OSPREY",
+      "BRENT"
+    ],
+    "label": "russia-ukraine-energy"
+  },
+  {
+    "item": 27,
+    "title": "India\u2019s Reliance pays record $25 million freight cost for Iraqi crude amid Hormuz crisis - IraqiNews",
+    "source": "IraqiNews",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVzJHQlF1Ymp3TmVSckNNUzVXOXVUZE85WkNPS00tM3J3WVFHNVhqY050NTZlRlNFNmtfaEppNFg4czFIcDE4d1BGdWFLTFZQRkpFSHB5ZHBLVFRXdVhyaEtVQmw3TzNKS2YtMEtzYm9YV0luN3llN2tVMlI2cUdneDFUeFJMRGRNRVY0Mg?oc=5",
+    "date": "Sat, 08 Aug 2026 07:00:00 GMT",
+    "classification": "DEVELOPMENT",
+    "level": "normal",
+    "keyword": null,
+    "entity": "Hormuz",
+    "watch_hits": [],
+    "agents": [
+      "FALCON",
+      "BRENT",
+      "HENRY",
+      "SAM"
+    ],
+    "label": "gulf-theater"
+  },
+  {
+    "item": 28,
+    "title": "Saudi Yanbu oil terminal reportedly hit in aerial attack - safety4sea",
+    "source": "safety4sea",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdksyNVp0VHZ1LWNuZHdJeHJOYUg0ZzNqRG55aGZlNGhYZFRMOWxweThvcUJXR3BHNzBzMzZHLWhGZklRZHFMQjRUVS1nU19PZF90dHZhdl96N2xCN2Y1U3pKalpINHMydnMwUUVvTFM0djdpOHJGT2JVQUdXY2N6UWQtVXZqcUk?oc=5",
+    "date": "Fri, 02 Oct 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "watch",
+    "keyword": "Yanbu",
+    "entity": null,
+    "watch_hits": [
+      [
+        "HAWK",
+        "Yanbu terminal"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea"
+  },
+  {
+    "item": 29,
+    "title": "Saudi Arabia restarts East-West oil pipeline, sources say - Reuters",
+    "source": "Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5",
+    "date": "Tue, 22 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "FALCON",
+        "East-West pipeline"
+      ],
+      [
+        "BRENT",
+        "restarts East-West pipeline"
+      ]
+    ],
+    "agents": [
+      "FALCON",
+      "BRENT"
+    ],
+    "label": "saudi-redsea"
+  },
+  {
+    "item": 30,
+    "title": "SanDisk stock tumbles as Kioxia warns on NAND price surge - Investing.com",
+    "source": "Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUUNXb2h0eGZMajlPU2NpMEU1Y2lNeXA1amRQWVBSbllucjlQSUh0S1JOd18xTDc2d2l4YkVaQ3ptRkFuc1Q5RnlZWm9OVm1Vb19vNXY4Y01rV1RYOVctWEhZR3o4VmtteWZ1Q1lLUVpuV3p1bmg4UDB4aFhBWXlLWDdJbmRYNlJmQ01sVmduSm4zVmdFVnozVXdyTTdDbHFvcl9Td0VabFRIV1pGbmVJYXByT1Q?oc=5",
+    "date": "Fri, 30 Oct 2026 15:56:32 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "NAND price",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing"
+  },
+  {
+    "item": 31,
+    "title": "SNDK Dips Premarket Despite Strong Q1: Analyst Sees Memory Pricing Peak On The Horizon - Stocktwits",
+    "source": "Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWnlRSTFJd3Fqb2dSU05KSWo5R0tSbXJOeXRscVgyNmJIaXVjTWdQZk1tTWhDOGdwMXY2bzdLdkFwTVpFeWJ4UXlSMWtLWGYteWZwekxRRXJhSGFTVUtVTHNLZENPeU9rbUVUb1BRdkpzTmotNG1wUTFaNkZ0cW9TZDFNN24waEh3STBhWFMydlhOamNaekhZWXBITmRVc0Y2UHFDTTJlbU9fUm0tMUVkWVFjbWtPV0ZpV1RvemExVWhlRDBYVTZ5WFl2VVZlQ3lLcVotcnNQZ2dIVVE2MFBTeFo0RQ?oc=5",
+    "date": "Fri, 30 Oct 2026 09:04:25 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "memory pricing",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing"
+  },
+  {
+    "item": 32,
+    "title": "TrendForce estimates Apple will sell 1.2-1.5 million MacBook Pros with PROLED XDR Display next year - Apple World Today",
+    "source": "Apple World Today",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaXN3WVc2X3JjR1JqNXNfUXE3bW93NFBWSHNWNXd5dXlDMFZySUROS0lCNWNSQktqZzNCeWZBbzAtOXRBUTZYMmk3V2huby0tSU9ZYk9ONjY5SHg3YVlRZDRwZzRRMlJFTDVidGhnTEZ3SjVBT0pmQUFHS3NrWWJ2Z1U3TURwTmE5Q0x2dDZwTEFGVUZwYU5tT3p4M3FZZHlhdHhLYnI3cHJ2UlZucGZka1VMSGZjN2hRclVGZlMxSlJWamFkSTFpUWZLMXBhZw?oc=5",
+    "date": "Fri, 30 Oct 2026 06:11:00 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing"
+  },
+  {
+    "item": 33,
+    "title": "TrendForce expects Apple to ship up to 1.5 million OLED MacBook Pros in 2027 - Mezha.net",
+    "source": "Mezha.net",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0VrVDdnR3lidjdzODVObVBVdm1xN2NqMEV2eDJIdnhEcGFHUUFoa1hsSWFwb2lEY192NkRFVHdqakcwMXRjMElUbzQxaFMyQklGcjFWUlBxaHpWMF9zWXNYQlY5TzBWdnVwSEdhMEZncTFfSVJQUVNUalQwUWVzNU5OWGtFWldYOVlF?oc=5",
+    "date": "Thu, 29 Oct 2026 23:43:46 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing"
+  },
+  {
+    "item": 34,
+    "title": "Kioxia\u2019s NAND price slowdown and what it means for memory stocks - Investing.com",
+    "source": "Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSlhpZFhEN0JJdElmWS16eEFSTjBSNTMtdldFTHZSMzlQaGpqRHBEM3dTS2o3TjV0dGRfU1NIc2lsQUsxdHdLamFFbWljOUEzdF9vejVhRVlZcFAwQjVLRzRza1M2U3B1OVZsQ3hUN3JNMmJRQWsyV3pGRDFSSGtYekx5TS1fUm03ZmY1bTdPMTBKRWZVSDNFVEFFMkVzV2thOG5uNDNBMlZBbS1CbVNMT0F4alVKeGFrdElWY2RuZmVBaHM?oc=5",
+    "date": "Fri, 30 Oct 2026 19:46:09 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "NAND price",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing"
+  },
+  {
+    "item": 35,
+    "title": "[Insights] Memory Spot Price Update: NAND Price Cuts Accelerate Amid China Phone Discounts; 512Gb TLC Sink 9.19% - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWFFrQ1JLVmNZVXZVNVVwWFlOQkIxSmQ2SDFPRWJyaElENmRKQXlPSXFWQnZXRVdXbEZlMnhRWF80YVRMaVF0NFNlcTNVd3NPWVpTTGtaSjgxQUhHUzV6MXZOdFh4UGdYSWY1X3d0YldRaE5fVnhYV0VkcFFpbHBnckhXblY4WFg3YU1VTmY5UEdfLXotSmZMaG5IbXB1YTI2am5sc2QzWG5wNURRN29uX2k2MWlBSzBFdlZiTFpiM09EQU5nTm9fTjNaTFFSMjNCM0NDMjhnTVVLLWVSUTZnNXJwVmZDTGRXTnFvQw?oc=5",
+    "date": "Wed, 28 Oct 2026 08:04:31 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing"
+  },
+  {
+    "item": 36,
+    "title": "Hybrid Bonding Is Costly. Is There a Cheaper Bumpless Option? - TrendForce",
+    "source": "TrendForce",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRDMzXzhMalJmc01zVFdDejNTWklDWkJxNVA4THNTaFBtUXhpQmJydXQtS0RDekFnZWlmTVZET3JiX3JRdW13VElTaXJVWXdLYkNIOFF1SlA3b2N1a0pwci11YjZQLXNoUnVwLVlsc0RpcFU2ZzdjelRwTzZ3OEUzdFZPRQ?oc=5",
+    "date": "Fri, 30 Oct 2026 01:35:51 GMT",
+    "classification": "NEW_WATCH",
+    "level": "watch",
+    "keyword": "TrendForce",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "VULCAN"
+    ],
+    "label": "memory-pricing"
+  },
+  {
+    "item": 37,
+    "title": "Trump pressures Lithuania to open its ports for Belarusian potash exports despite EU sanctions - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "source": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSV9EVUdpalpNMWhvQmVTbDBDakxSelZIbXBOV3hwQWpWU3k4cXo0d1FKNjkydUhuYWk5ZmJuUkdUV0ludHVPYmFTdnZjdHg0TWI2ak1NaDJpRk1NV0h2aFZaX2thbHAyRVZJT2JzUGwwMC1qcEJUWXBER1BUNC1uRTdTME1BRDF1anpSaXY3NXhBNjBGTVJiV1NuYlQ0TV9mOF9PWkFPbXFPUm45Yko4cDhOeEZxalo00gG3AUFVX3lxTE91LThkZ0xMa05EYkJmSHViZDdnREUwN3N6NGNZcE9GalVQcko5TVA3ZDFQWmRub1VZZW10Wnh3QURObFlBbFNHcERCM1BOVHFNRk1VbTFjMXlFS1VNdkFWTENoM2k5aGpJQVpOS3R5MzVteElmWWtnczFFbHowNDV3RW0yVzQ3WDhiQVpDVnhyZm80MjRCS3hjSWpVLU93VFlFQzVUdFpLMzVVanFYVHJXX3djdDZsMA?oc=5",
+    "date": "Fri, 30 Oct 2026 11:25:55 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "FERT",
+        "potash sanctions"
+      ]
+    ],
+    "agents": [
+      "FERT"
+    ],
+    "label": "fertilizer"
+  },
+  {
+    "item": 38,
+    "title": "Russia to extend diesel export ban, use quotas to fulfil US deal, sources say - marketscreener.com",
+    "source": "marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQTNBc0JWbTRESWU2OV9KTVJQNmNyWGdXTXJVNXVMR2hPNmVHSHEwQ1kybUVaa3JFZE03RGlzR0NRcnBvNGxQaEZuQ1NqTjlhQ1RvV3hPQVJ1eVZsQU95M2RUaVJ1VVRUR2xzUnNxb2dqaUliOVpSNVMyc2wzWTJOcE5xOGZCODJNRnlmVXZzd29HU0haYW82LWVPZ1AyVDQ5a3h6RmN2Y21RWlFqek5vWUxXQUFuWDZKbGRmRFVtTmloSlJwYVpV?oc=5",
+    "date": "Thu, 29 Oct 2026 22:34:58 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ],
+      [
+        "BRENT",
+        "US diesel export"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "OSPREY",
+      "BRENT"
+    ],
+    "label": "russia-fuel-export-ban"
+  },
+  {
+    "item": 39,
+    "title": "Russia Extends Diesel Fuel Export Ban Through 2026 While Boosting Shipments - 112.ua",
+    "source": "112.ua",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMlFnbS1rYTFXVjdYWEQtN0trV3p0aDlNU0JkVTN2QkRZZWVsQmNUSkNIcjg0NEVpekhERk9tNEJGZHZ1dFVTLXRCRURZY3ZhMnpOQ24zWXJOVnkySlJMNVI4TzhXVjM3LTdCUUREYWFHa2lFcmlFb0NUTUxZVDFMVkNIZVdKTXduMGsyY3RWZ01ha3JMWTNsUDFSNzdSY0ZlNVlJUWVtMXE4RXYzYkJRT3J0aFVVTVM3Z2Rj?oc=5",
+    "date": "Thu, 29 Oct 2026 20:18:37 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "BRENT",
+        "Russia diesel export"
+      ],
+      [
+        "OSPREY",
+        "Russia extends diesel export ban"
+      ]
+    ],
+    "agents": [
+      "HENRY",
+      "OSPREY",
+      "BRENT"
+    ],
+    "label": "russia-fuel-export-ban"
+  },
+  {
+    "item": 40,
+    "title": "Finastra Hit by Ransomware Attack, Shuts Down Servers - CISO Mag",
+    "source": "CISO Mag",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YVmJlOFlVRjNzS0FHVWMzZmdtaVQwRVA4OXNOUXAtejktLXJEa0Z3b1d3Mk9jM1JBNW1pQV9LZmZBYkl1cW5fTEJYc1ZtU3VUVjlGd05hN1QtbkNrcFBjVGQyWk1BcUtJbWNYMkU3SW5nekl6aTNPYTdNQU9GZ9IBfkFVX3lxTE1YVmJlOFlVRjNzS0FHVWMzZmdtaVQwRVA4OXNOUXAtejktLXJEa0Z3b1d3Mk9jM1JBNW1pQV9LZmZBYkl1cW5fTEJYc1ZtU3VUVjlGd05hN1QtbkNrcFBjVGQyWk1BcUtJbWNYMkU3SW5nekl6aTNPYTdNQU9GZw?oc=5",
+    "date": "Tue, 27 Oct 2026 18:56:02 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "Finastra ransomware"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-core"
+  },
+  {
+    "item": 41,
+    "title": "Sharetec Outage Knocks Credit Unions Offline Across Multiple States - CU Today",
+    "source": "CU Today",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWFdJVUplSmlYNkxPNTZzZlhRN01ENVVSY3hlY2JLZVM5bkk3ZzRJa2VSSjlOM25OZHFjNUxBbGhiUE1NaGVoYWw4alg4UnN1OUpVeWpJX2xYelhUbkVhRk9XbUhvZW9oUjZNT0NUbU5nVzBlZmFBbjBLMUZ0S3pfa0dOYjVWSV93cWVoWll4UjZtclF4NE5Db1pSMU83VktaYWtrRlVadw?oc=5",
+    "date": "Thu, 17 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "Sharetec outage"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-core"
+  },
+  {
+    "item": 42,
+    "title": "Fiserv Ransomware Hit Ends the \"It Won't Be Us\" Era - FinanceX Magazine",
+    "source": "FinanceX Magazine",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRFVac3VfWXNkNHNKaHd4cGx2cnNfRXY3VFhCclAxcW5rWlU4V3E2RmZDRFNSaG0wZXdiOHlpM3hrWmM3NENZeGNMQy1jZ1U5Y2g0ZThWOTZ6VmoxMUdlYl9CdGFNcHhpZmRSLUJBN25sMndJSUxuWURhaVJMdXhwajloN1V1N25sVUpwd3N4U0dtcGszcktrQjB1R2Y4ZWd2WTktbW5GY3lfMl9PSWhNYUJBRQ?oc=5",
+    "date": "Fri, 14 Aug 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "Fiserv ransomware"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-core"
+  },
+  {
+    "item": 43,
+    "title": "Jack Henry Cyberattack Compromises Client Data - Banking Exchange",
+    "source": "Banking Exchange",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQemZqVmtsQjR2a1ZEeE5xMDlhSW9YdEpraVp2Q0V6V2V1YjlMcVpFUU1wM1F3VWdKVU01R2RtNE9VcUhSUGlJSUVXcEdmMmhQUHZyZDMwdm5INmVUbDR0LVZWZVNtM0k4YXJOOTFJYWQ0NVdrTnMxTWNwcjFHamZjMDVqeU1DNnR4WUtidHBTdThyb20wTk4ycmlKUmRTclBP?oc=5",
+    "date": "Tue, 01 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "Jack Henry cyberattack"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-core"
+  },
+  {
+    "item": 44,
+    "title": "Jack Henry falls victim to ransomware attack - Finextra Research",
+    "source": "Finextra Research",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWFY0eUtUR1c4UVROaVBZdDZZTFVRd1hnQ0hlUTBuU1VvS3VWMjFheG4wTV9xQ2Q5eFgyVksyRERtR05FelBPdDJUNC0yYUEtRHpIMTlneUJERUJZTl8wRlpWVWtDbDZMblBseXRNT2xpNWpNczVId3lNU1JCbGdMN2h4TU5KUGNmNnZzN2lUMWo?oc=5",
+    "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "Jack Henry ransomware"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-core"
+  },
+  {
+    "item": 45,
+    "title": "Jack Henry Ransomware Attack: Voice Phishing Breach Insights - The Cryptonomist",
+    "source": "The Cryptonomist",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1SGlpYW9KNnRzMW9hdnUwSVFaQWQtaG04MjBra1BVRF83ejNoeGNBVXFTWGJCS2tuSko1Z0Jaejh5TURqZFpSbjdoWG51U2FYV2VCcWxsRWY3NWo0RXBUb2dTWXZJaG5jN3paQjVUa2lRSGdFeEE?oc=5",
+    "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "Jack Henry breach"
+      ],
+      [
+        "CYPHER",
+        "Jack Henry ransomware"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-core"
+  },
+  {
+    "item": 46,
+    "title": "Fintech Giant Finastra Investigating Data Breach - Krebs on Security",
+    "source": "Krebs on Security",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU1pwUDBpa1lhVWJ4ek96QWl3NmlsOWdabWRNMTM4aTZPck16M09wdWxuaGJSYjMxLWRjOTJycVFLSVQzeHNfclZQNU9PdmljM3VFVlRPclZtNnh6T2hKRnlCd1hZeHBmU0hCRlJNRUlZYTV3Si1uVkNVcXpuZEExMWJtRENzWjFuYlFoQkFR?oc=5",
+    "date": "Tue, 19 Nov 2024 08:00:00 GMT",
+    "classification": "NEW_ALERT",
+    "level": "alert",
+    "keyword": "gating",
+    "entity": null,
+    "watch_hits": [],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-core"
+  },
+  {
+    "item": 47,
+    "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack - SecurityWeek",
+    "source": "SecurityWeek",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNGJjaHE4dkx2YlR5UlEwcVZMcGlCNE1ubTRvZkFPTVUtejhxS2hBcWV4SmNBbFpHQm1ZWHQxSWpTN1RCNGdfb3NfWXZnZFBuUi10UkgyY0hpYkJDcGEyOVlCSEwxRHkzNTkybFFUS0IwckNPQXpicXl4aVNlWTZNSE4tUFluQV85VTMwNk1jOGg2OWlMOHhv0gGcAUFVX3lxTE5xMk95elFLT2NQdFlCclc5cWtVa2Y4ZmViNDBIdjhDVE40aENDTzl1NzZEZDVlSExZYWVGTGJhM1hQM0hqbk4tRk9JUlV3WHlkd1N2V1B0SXNqUjI1bDdFZVlFaFRhMXZvN05JcmRvT0hidWVDcHA5WWV1a1JZUUR4OFVGY01tOVFaeXUxa3ZPTHY1WUFEZlhnREVHdw?oc=5",
+    "date": "Mon, 19 Oct 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "ConnectWise cyberattack"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-msp"
+  },
+  {
+    "item": 48,
+    "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack - BleepingComputer",
+    "source": "BleepingComputer",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNclltSEJ0UTh3UzMya2ZUNlJnMVRkeTBsX2d5bEdxeDJKUlhOZ1lBVi1vX21WYWkzdmZ0VVhRSVY0THlYOXcwR2ZfY1NvSzJoNENTS2ljWEpFRXVCYnpDR3NjTXd5ZE5QMFprV1Y4R3kxV2JrdGhpRFh0QzZXcE56UE82M3VJSDJIVGJrNGlRdmpBM2duYXRzOTlub0R4WVY5WmdSWjZQWURHLTJhSXRnTUt5Q3N2dTlObm9yTNIBwgFBVV95cUxQb010TkNjTHNkazM5ZXkyT1ZIZXVTNVF5VUQwNkowTEVLWVNBbWxXcjM2TXRvUUFlR2VqLVZsM3lXdHJiZTkwT2dJZjIzaWUySWl4NHRpNXdLczlnckIwX0NPamhQUzV2QkhmdHNnWXpaZ1hfVTFzY3ctUC1xbmt4QXV0bzZTV3lsSTFDaWxsN1VaQnlYSDFSNUxiTzk3aWdoekVLeDhxcVotRGF4STZWVTFUMk8xWjJzSEZVZnp3eng3Zw?oc=5",
+    "date": "Sat, 17 Oct 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "ConnectWise breach"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-msp"
+  },
+  {
+    "item": 49,
+    "title": "China-Linked Cyberattack Forces Tampa\u2019s ConnectWise to Shut Down Services - TBBW",
+    "source": "TBBW",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsTGJNVEIyNEg4VXZsdTJkaXZOSGFob3NEWXkwVGk1cHlIOFFITVc3U2VWZUdfclhUallENnlTYnlvb19adnBER2lZM3pHTjdCRDRXbUlvd0NkOC10dWNVS0c5QzFpdw?oc=5",
+    "date": "Wed, 28 Oct 2026 17:58:34 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "ConnectWise cyberattack"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-msp"
+  },
+  {
+    "item": 50,
+    "title": "Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants - The Register",
+    "source": "The Register",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeGtiNElQei0tZjF2TjJuM0V0eVZLbzhObng5bVJGc2x0Um5UbUVpVW9MVGlBMEFscHFmc1VWVTFrc3ZONVBwVUNLU1k1cGh2Vmh2ekZpTExjRkJpa19IT09YY2dfX1VJOFFyZjV5OGIwSldNelE3ZXRsQ0RCVGIzRUNuaHZ2V1RheHNhRTM5LTMwRjU3VkQwLVVRbUNfRmozTHUwRnlIUzA4T1ZITVVsUWExM0J6b1FtakZBdnBlckljVnFLMTJlVU90MmRXNXpy?oc=5",
+    "date": "Thu, 22 Oct 2026 11:28:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "ConnectWise breach"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-msp"
+  },
+  {
+    "item": 51,
+    "title": "100 Days After TruStage Cyberattack, Claims Delays & Trust Concerns Persist - CUTimes",
+    "source": "CUTimes",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV1pvSTNyVzIyZXA5V1F3TDRWZWlKQTN1Ulc5OUROdlY1ZmZ6SWFaQW0yWGlhMzBER2YxckhwUnhYRG9qNUFFbEQxMkxMeERGSUtCYXYtN0w4LTk5VkpQRFVPUFhpcjVraTNDSm9DSWExOFFIY0IyRGIxOFZ4S3FBQ01sUGRNaW9pY3FSMUYwUVFHRWhKLUNHcEowQnJqTHBYQnVBTnpTYjdWZ2I1?oc=5",
+    "date": "Mon, 19 Oct 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "TruStage cyberattack"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-msp"
+  },
+  {
+    "item": 52,
+    "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise - TechCrunch",
+    "source": "TechCrunch",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbEhXMGVnYldDOTRDM0FqaGRFT0pYelRtR3QzbFBaQzNNMnJUdW5mVzU2YTcyY0NiWHJSc25zSEVtOGFBMEtZYWo3OGdjTXg1Q2J1X1lPLTZQb2JxY3lHemJ0WVU1dE5JdzUyV293ekc0YnZ6WVpfWUREVnRCX0Q3NksyMlJiMUxHZ3ZnNng5WG5DUTRGdnlMbzJmZTByVzJPOGF2QldzQUtIWDhzWmk0VVVnZUFtRm9yMTVR?oc=5",
+    "date": "Thu, 22 Oct 2026 16:47:17 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "ConnectWise breach"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-msp"
+  },
+  {
+    "item": 53,
+    "title": "CU vendor TruStage faces 14 suits over monthslong outage - American Banker",
+    "source": "American Banker",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLV91ZFZyckljd2VaUWV0QkdyNWg0NmpNaHdHZlVvUnVNU3RyU3dnWGxUb0pUQUh3aHAtaGJIOVd3UWtBZUVhejdhTFFsZXNFY0ZPTHlKbllGVlF2NE1jUmJ5RkY2VXU0dU4tVV9GYlphUm4ycHcxVUhwWmRuRnBlNEZYOERVSGUxZ3I3VWtYOTJ3WXRYOVBV?oc=5",
+    "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "TruStage outage"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-msp"
+  },
+  {
+    "item": 54,
+    "title": "ConnectWise Cloud Backup Breach: 2,250 Tenants [2026] - shattered.io",
+    "source": "shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZS15eFRiOElBMTZWazcxSDIzRVRQZTBIQWNUSmppLW05YkdMRXZQUll4Y3NlOVE1WjE4ZmlJc25LYlVpazh6enlXY05kdnViQjFUSktNYUNwekhneE9YSzZWRUNpeTNOX0JOVnZwUGd1LTZ5UUtQa2R2cF9KX2xici1tMnRfd0ZX?oc=5",
+    "date": "Fri, 23 Oct 2026 22:44:36 GMT",
+    "classification": "NEW_WATCH_HIT",
+    "level": "normal",
+    "keyword": null,
+    "entity": null,
+    "watch_hits": [
+      [
+        "CYPHER",
+        "ConnectWise breach"
+      ]
+    ],
+    "agents": [
+      "CYPHER"
+    ],
+    "label": "bank-vendor-incidents-msp"
+  }
+]

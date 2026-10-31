@@ -21,7 +21,12 @@ safety_net: "not-triggered at dispatch; VIX 22.03 at 18:21Z = +4.83 points vs 17
 event_window: "closed"
 word_count: 689
 dispatch_note: "No BOARD card for the October 30 regular-session follow-through as of 14:21 ET; card 20261029-050 covered the after-hours AMZN/INTC prints only. All tape is intraday vendor last, not closes; HENRY grades the gamma state after the close. Precedence IMMEDIATE = MARKET_VOL index-mechanics spike row; not FLASH because no bypass trigger is met at dispatch. If VIX reaches 22.20 a FLASH follow-up issues. Search-summary layer put the prior VIX close at 16.91; that is the 10/28 value, the 10/29 close is 17.20 (HENRY correction b99d0d63a), kept out of this card."
+status: PARTIALLY-CORRECTED
+status_ref: "SIG-W-20261031-002 \u2014 002/004 close paragraphs VIX 20.83, 9D 20.94, 3M 21.49 and QQQ 690.23 replaced by dated owner final observations 19.42,19.25,20.78,690.49; intraday event and close fade hold"
 ---
+
+> **October 31 update — SIG-W-20261031-002:** 002/004 close paragraphs VIX 20.83, 9D 20.94, 3M 21.49 and QQQ 690.23 replaced by dated owner final observations 19.42,19.25,20.78,690.49; intraday event and close fade hold. Original dated reporting below is preserved; read the linked correction before reuse.
+
 # Tech sell-off deepens: S&P 500 ~150 points under the 7,700 put wall, QQQ through its 690 gamma trough, VIX ~22
 
 **Vintage:** October 30, 2026 regular session, vendor quotes 14:10–14:21 ET. Intraday last prices, **not closes**. FRED cells are the October 29 first-published values.
@@ -60,5 +65,7 @@ HENRY's 10/29 close read was dealer gamma **NEGATIVE at both horizons**, with th
 Intraday only; a reversal into the 16:00 close would change every row. Cause attribution is one secondary outlet. No safety-net or registered-threshold fire at dispatch.
 
 ## Close update (additive, WALTER 2026-10-30, vendor pull 16:20 ET; not official settles)
+
+> **Superseded close figures (SIG-W-20261031-002): VIX 20.83 → 19.42; VIX9D 20.94 → 19.25; VIX3M 21.49 → 20.78; QQQ 690.23 → 690.49.** Owner October30 final-quote/close basis and remaining limits are in the correction. Original vendor paragraph retained below.
 
 VIX 20.83 (+21.1%, +3.63 points vs 17.20) · VIX9D 20.94 · VIX3M 21.49 — **the intraday +5 touch and the VIX9D-over-VIX3M inversion did NOT hold into the close.** S&P 500 7,580.07 (−1.82%) while SPY 751.78 (−2.29%): ⚠️ index and ETF disagree by ~0.5 points of return, so the vendor index print may not be the final close; HENRY's grade uses its own basis. Nasdaq 25,437 (−2.86%) · QQQ 690.23 (−3.51%, closed at the 690 trough of HENRY's 10/29 map) · KRE 72.01 (−1.17%) · WAL 76.28 (−1.95%) · HYG 77.43 (−0.19%) · INTC 65.76 (−28.6%) · NVDA 203.24 (−4.9%) · 10Y 4.92%. Evidence `AGENTS/WALTER/research/2026-10-30_boot/close-pull.txt`.
