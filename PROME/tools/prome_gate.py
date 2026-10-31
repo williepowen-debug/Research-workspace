@@ -1658,7 +1658,7 @@ def mode_boot(advance_board=True):
 
 
 def mode_closeout(tier=None, memory=None, superseded=None):
-    check_orch_closeout()
+    guard(check_orch_closeout)     # L294 F-7: every check isolated (the last bare call site, fixed 2026-10-31, L737)
     # L733 (2026-10-15): the orchestration log has ONE writer and closeout is where its rows get WRITTEN
     # (Pre-closeout 3, step 8) — the validator runs here, BLOCKING (its OBSERVED companion retired 2026-10-31). The writer existed
     # since 9/3 (L262 RESOLVED named it canonical); every 10/15 row was typed by hand because no procedure

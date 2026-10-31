@@ -56,7 +56,9 @@ nor forbids later necessary maintenance.
   edit (`finding_regression_test_pinned_to_a_live_surface_rots_on_the_next_edit`).
 - **Falsify the guard itself.** A test that cannot fail is decoration: induce the defect, watch it fire, restore.
   `finding_test_the_guard_not_just_the_guarded`.
-- Run under `python3 -W error::ResourceWarning`.
+- Run under the repo's virtualenv: `.venv/bin/python -W error::ResourceWarning -m unittest PROME/tools/tests/<file>.py`
+  from the repo root (L737, 2026-10-31). The market-data tool tests import `yfinance`, which is installed only in
+  `.venv/` — under the system `python3` they ERROR on the import, which is not a tool defect. No suite needs pytest.
 
 ## Current suites
 

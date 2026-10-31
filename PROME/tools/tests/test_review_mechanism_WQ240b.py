@@ -274,7 +274,10 @@ class Repro5_GenerationBeforeFreeze(unittest.TestCase):
         """Anchor on COMMANDS, which are stable, not on headings, which get reworded.
         Three of this session's test failures were headings pinned as assertions."""
         i_commit = self.m.index("commit_check.py commit --stage -F")
-        i_verify = self.m.index("--verify-review --ref HEAD --paths")
+        # The verify step pins the immutable delivery commit, never HEAD (CLOSEOUT step 10, c5286bf6d: HEAD moves in this
+        # shared clone and can be another desk's commit). Expectation updated 2026-10-31 (L737); the order is the safeguard.
+        i_verify = self.m.index("--verify-review --ref <DELIVERY_SHA> --paths")
+        self.assertNotIn("--verify-review --ref HEAD", self.m)
         i_push = self.m.index("safe-push.sh")
         i_publish = self.m.index("Publish the verified artifacts")
         self.assertLess(i_commit, i_verify, "commit must precede verification")
@@ -304,8 +307,10 @@ class Repro5_GenerationBeforeFreeze(unittest.TestCase):
     def test_the_runner_matches_the_manual_order(self):
         r = (ROOT / ".claude/skills/closeout/SKILL.md").read_text(encoding="utf-8")
         self.assertLess(r.index("ALL generation"), r.index("FREEZE, then AUDIT"))
-        self.assertIn("--ref HEAD", r)
-        self.assertIn("--paths", r)
+        self.assertIn("--verify-review --ref <DELIVERY_SHA> --paths", r)   # was "--ref HEAD" until c5286bf6d (L737, 2026-10-31)
+        self.assertNotIn("--verify-review --ref HEAD", r)
+        self.assertLess(r.index("commit_check.py commit --stage"), r.index("--verify-review --ref <DELIVERY_SHA>"))
+        self.assertLess(r.index("--verify-review --ref <DELIVERY_SHA>"), r.index("bash scripts/safe-push.sh"))
         self.assertIn("--tier", r)
 
 

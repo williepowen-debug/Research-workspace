@@ -67,6 +67,27 @@ def _run(args, cwd, check=True):
 _OWNED: dict[pathlib.Path, tempfile.TemporaryDirectory] = {}
 
 
+def _gate_letter_paths(ref: str) -> list:
+    """The desk files that LIVE rows of `ref`'s PROME/GATES.tsv cite in definition_surface (col 10), filtered to
+    files tracked at `ref`. The gate-citability check (L417) must READ every LIVE row's letter; a fixture that
+    exports only the thin AGENTS/ slice made the CLEAN run report those letters unread (L561/L737, fixed
+    2026-10-31). Same path pattern as prome_gate._DEF_PATH."""
+    try:
+        gates = _run(["git", "show", f"{ref}:PROME/GATES.tsv"], REPO).stdout
+    except RuntimeError:
+        return []
+    import re
+    cited = set()
+    for line in gates.split("\n"):
+        cells = line.split("\t")
+        if len(cells) > 10 and cells[5].startswith("LIVE"):
+            cited.update(re.findall(r"[\w./-]+\.(?:md|tsv)", cells[10]))
+    if not cited:
+        return []
+    tracked = set(_run(["git", "ls-tree", "-r", "--name-only", ref, "--", *sorted(cited)], REPO).stdout.split())
+    return sorted(cited & tracked)
+
+
 def build(ref: str = "HEAD") -> pathlib.Path:
     """Export `ref` into a fresh temp repo and return its root."""
     holder = tempfile.TemporaryDirectory(prefix="gate-fixture-")
@@ -75,6 +96,7 @@ def build(ref: str = "HEAD") -> pathlib.Path:
     paths = list(BULK)
     listed = _run(["git", "ls-files", "--", *THIN_GLOBS], REPO).stdout.split()
     paths += listed
+    paths += [q for q in _gate_letter_paths(ref) if q not in paths]
     # BINARY, deliberately: `_run` decodes as text and a tar stream is not text.
     p = subprocess.run(["git", "archive", ref, "--", *paths], cwd=REPO,
                        capture_output=True)

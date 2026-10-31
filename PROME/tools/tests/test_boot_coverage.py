@@ -333,7 +333,7 @@ class Fixtures(unittest.TestCase):
                     guarded.append(fn.__name__)
                     if fn is gate.check_byte_budgets:
                         fn(*args, **kw)
-                with patch.object(gate, "guard", side_effect=guard), patch.object(gate, "check_orch_closeout"), \
+                with patch.object(gate, "guard", side_effect=guard), patch.object(gate, "check_orch_closeout", new=lambda: None), \
                      patch.object(gate, "run_capability"), patch.object(gate, "run_script") as run:
                     mode()
                 calls = run.call_args_list

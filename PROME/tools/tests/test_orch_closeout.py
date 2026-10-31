@@ -170,8 +170,12 @@ class CloseoutTests(unittest.TestCase):
         import ast
         tree = ast.parse(Path(gate.__file__).read_text())
         functions = {n.name: n for n in tree.body if isinstance(n, ast.FunctionDef)}
-        calls = lambda name: any(isinstance(n, ast.Call) and isinstance(n.func, ast.Name)
-                                 and n.func.id == 'check_orch_closeout' for n in ast.walk(functions[name]))
+        def calls(name):   # a direct call, or guard(check_orch_closeout) — the guarded form since 2026-10-31 (L737)
+            return any(isinstance(n, ast.Call) and isinstance(n.func, ast.Name)
+                       and (n.func.id == 'check_orch_closeout'
+                            or (n.func.id == 'guard' and n.args and isinstance(n.args[0], ast.Name)
+                                and n.args[0].id == 'check_orch_closeout'))
+                       for n in ast.walk(functions[name]))
         self.assertTrue(calls('mode_closeout'))
         self.assertFalse(calls('mode_boot'))
         with patch.object(gate, 'run_script') as run:

@@ -52,15 +52,25 @@ class Safeguards(unittest.TestCase):
         return self.run_command("bash", "scripts/install-git-hooks.sh")
 
     def test_subject_boundaries_and_paragraphs(self):
+        # 2026-10-29 (Will, WQ-539 friction item 6): an over-long subject is WRAPPED at its last space at or before
+        # column 100 — the tail becomes the first body paragraph; only a subject with no space to split on is refused.
+        # Expectations updated 2026-10-31 (L737); the safeguard is the same: no commit lands with a subject over 100.
         self.assertEqual(self.install().returncode, 0)
-        for message, expected in [("x" * 100, 0), ("x" * 101, 1),
-                                  ("x" * 60 + "\n" + "y" * 60, 1),
-                                  ("x" * 40 + "\n" + "y" * 40, 0),
-                                  ("\n\nShort\n\n" + "x" * 200, 0),
-                                  ("x" * 50 + "\n  " + "y" * 48, 1)]:
+        for message, expected, wrapped in [("x" * 100, 0, None), ("x" * 101, 1, None),
+                                           ("x" * 60 + "\n" + "y" * 60, 0, ("x" * 60, "y" * 60)),
+                                           ("x" * 40 + "\n" + "y" * 40, 0, None),
+                                           ("\n\nShort\n\n" + "x" * 200, 0, None),
+                                           ("x" * 50 + "\n  " + "y" * 48, 0, ("x" * 50, "y" * 48))]:
             with self.subTest(message=message):
                 result = self.git("commit", "--allow-empty", "-m", message, check=False)
                 self.assertEqual(result.returncode, expected, result.stderr)
+                if wrapped:
+                    self.assertIn("wrapped at column", result.stderr)
+                    body = self.git("log", "-1", "--format=%B").stdout.split("\n")
+                    self.assertEqual(body[0], wrapped[0])            # the subject is the head, at most 100 characters
+                    self.assertLessEqual(len(body[0]), 100)
+                    self.assertEqual(body[1], "")                    # a blank line, then the tail as the first body paragraph
+                    self.assertEqual(body[2], wrapped[1])
 
     def test_file_comment_and_unicode(self):
         self.assertEqual(self.install().returncode, 0)

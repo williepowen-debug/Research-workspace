@@ -245,9 +245,13 @@ class NoFabricatedDefaults(unittest.TestCase):
     def test_no_bare_check_call_sites_remain(self):
         """Every check must go through guard(), or one of them is still able to
         take the whole run down. Reads CODE, not comments."""
+        # A CALL, at any indentation: `check_x(` not inside guard(). The old prefix test also matched the attribute
+        # assignment `check_will_queue.last_problems = …` (not a call) and missed calls nested deeper than four
+        # spaces (L737, 2026-10-31) — the safeguard is unchanged and now covers every depth.
+        import re as _re
         bare = [ln.rstrip() for ln in
                 (ROOT / "PROME/tools/prome_gate.py").read_text().splitlines()
-                if ln.split("#", 1)[0].startswith("    check_")]
+                if _re.match(r"\s+check_\w+\(", ln.split("#", 1)[0])]
         self.assertEqual(bare, [], f"unguarded call sites: {bare}")
 
 

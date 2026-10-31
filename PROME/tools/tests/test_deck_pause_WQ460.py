@@ -65,7 +65,7 @@ class DeckPause(unittest.TestCase):
             scripts.append((severity, cmd))
         with patch.object(G, 'guard', side_effect=guard), \
              patch.object(G, 'run_script', side_effect=run_script), \
-             patch.object(G, 'check_orch_closeout'):
+             patch.object(G, 'check_orch_closeout', new=lambda: None):
             G.mode_closeout('standard', [], [])
         for name in ['check_review_manifest', 'check_gates_tsv', 'check_will_queue',
                      'check_memory_declared', 'check_consumer_declared']:
