@@ -76,6 +76,9 @@ class Pure(unittest.TestCase):
 
 
 class Repo(unittest.TestCase):
+    # WQ-578 batch 2 (2026-10-31, review ⚠️ W2): the six cases that committed THROUGH the pre-commit hook's row-cap block
+    # were removed with that block (CATO's Decisions install cd0f1a254, 17:28 ET, WQ-578 #41); the tool's own logic
+    # (the Pure class and the reader cases below) is still exercised, because docket_line_stability reuses it.
     """The CLI and the pre-commit hook against disposable repositories."""
 
     def setUp(self):
@@ -127,19 +130,6 @@ class Repo(unittest.TestCase):
         self.assertEqual(self.check("--staged").returncode, 0)
         self.assertEqual(self.check().returncode, 1)
 
-    def test_hook_refuses_plain_and_pathspec_commits(self):
-        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
-        self.git("add", "--", "PROME/DOCKET.tsv")
-        r = self.git("commit", "-q", "-m", "over", check=False)
-        self.assertNotEqual(r.returncode, 0)
-        self.assertIn("DOCKET-ROW-CAP", r.stderr)
-        # Root Git Protocol form: `git commit <path>` builds a TEMPORARY index; the hook must see it.
-        self.git("reset", "-q", "--", "PROME/DOCKET.tsv")
-        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "-m", "over via pathspec", check=False)
-        self.assertNotEqual(r.returncode, 0)
-        self.assertIn("DOCKET-ROW-CAP", r.stderr)
-        self.assertEqual(self.git("log", "--oneline").stdout.count("\n"), 1)
-
     def test_hook_allows_in_cap_row_and_grandfathered_shrink(self):
         text = self.docket.read_text().split("\n")
         text[2] = row(2, D + 200).rstrip("\n")                              # shrink L3 (still over cap)
@@ -153,73 +143,17 @@ class Repo(unittest.TestCase):
         self.git("add", "--", "other.txt")
         self.git("commit", "-q", "other.txt", "-m", "unrelated")           # pathspec: docket excluded
 
-    def test_hook_fails_closed_when_check_missing(self):
-        (self.repo / "PROME/tools/docket_row_cap.py").unlink()
-        self.docket.write_text(self.docket.read_text() + row(3, 50))
-        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "-m", "x", check=False)
-        self.assertNotEqual(r.returncode, 0)
-        self.assertIn("cannot be checked", r.stderr)
-
-    def test_unconfigured_cap_is_dormant_and_says_so(self):
-        # The policy change is COMMITTED WITH the candidate (A4): the hook reads the index.
-        (self.repo / "scripts/harness_caps.env").write_text("# no docket key\n")
-        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
-        r = self.check()
-        self.assertEqual(r.returncode, 0)
-        self.assertIn("not configured", r.stdout)
-        self.assertEqual(self.check("--cap", str(D)).returncode, 1)         # explicit cap still works
-        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "scripts/harness_caps.env", "-m", "dormant")
-        self.assertIn("not configured", r.stderr)                            # git relays the notice
-        self.assertIn("(index)", r.stderr)                                   # and names the source
-
-    def test_malformed_cap_is_unknown_and_hook_refuses(self):
-        (self.repo / "scripts/harness_caps.env").write_text("DOCKET_ROW_CAP_BYTES=abc\n")
-        self.docket.write_text(self.docket.read_text() + row(3, 50))
-        self.assertEqual(self.check().returncode, 2)
-        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "scripts/harness_caps.env", "-m", "x", check=False)
-        self.assertNotEqual(r.returncode, 0)
-        self.assertIn("could not run", r.stderr)
-
-    # --- CATO PR1 (2026-10-05): --staged reads the policy from the index, never the worktree ---
-
     def env(self, text):
         (self.repo / "scripts/harness_caps.env").write_text(text)
 
     def commits(self):
         return self.git("log", "--oneline").stdout.count("\n")
 
-    def test_unstaged_policy_removal_or_raise_cannot_admit_an_over_cap_row(self):   # A2
-        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
-        for unstaged in ("# docket key removed, not staged\n", f"DOCKET_ROW_CAP_BYTES={D * 5}\n"):
-            self.env(unstaged)
-            self.assertEqual(self.check().returncode, 0)   # worktree view: unset or 5× cap ⇒ passes
-            self.assertEqual(self.check("--staged").returncode, 0)   # docket not staged yet: base == index
-            r = self.git("commit", "-q", "PROME/DOCKET.tsv", "-m", "over", check=False)
-            self.assertNotEqual(r.returncode, 0, unstaged)
-            self.assertIn("NEW-OVER-CAP", r.stderr)
-            self.git("add", "--", "PROME/DOCKET.tsv")
-            r = self.git("commit", "-q", "-m", "over, plain", check=False)
-            self.assertNotEqual(r.returncode, 0, unstaged)
-            self.git("reset", "-q", "--", "PROME/DOCKET.tsv")
-        self.assertEqual(self.commits(), 1)
-        self.assertIn(f"DOCKET_ROW_CAP_BYTES={D}", self.git("show", "HEAD:scripts/harness_caps.env").stdout)
-
     def test_unstaged_tighter_cap_does_not_block_a_valid_row(self):            # A3
         self.env("DOCKET_ROW_CAP_BYTES=60\n")                                 # unstaged, tighter
         self.docket.write_text(self.docket.read_text() + row(3, 80))         # 80 B: over 60, under D
         self.assertEqual(self.check().returncode, 1)                          # worktree mode still sees 60
         self.git("commit", "-q", "PROME/DOCKET.tsv", "-m", "valid under the committed cap")
-        self.assertEqual(self.commits(), 2)
-
-    def test_staged_policy_change_governs_its_own_commit(self):               # A4
-        self.docket.write_text(self.docket.read_text() + row(3, D + 50))
-        self.env(f"DOCKET_ROW_CAP_BYTES={D * 5}\n")                          # raise, staged with it
-        self.git("commit", "-q", "PROME/DOCKET.tsv", "scripts/harness_caps.env", "-m", "raise + row")
-        self.assertEqual(self.commits(), 2)
-        self.docket.write_text(self.docket.read_text() + row(4, 150))
-        self.env("DOCKET_ROW_CAP_BYTES=100\n")                               # tighten, staged with it
-        r = self.git("commit", "-q", "PROME/DOCKET.tsv", "scripts/harness_caps.env", "-m", "x", check=False)
-        self.assertNotEqual(r.returncode, 0)
         self.assertEqual(self.commits(), 2)
 
     def test_partially_staged_policy_uses_the_index_version(self):            # overlap

@@ -158,9 +158,15 @@ class MissingInput(unittest.TestCase):
 
     # ---- condition 2: independent checks are RETAINED
     def test_independent_checks_still_report(self):
-        printed = (MISSING.stdout.count("[BLOCKING]") + MISSING.stdout.count("[advisory]")
-                   + MISSING.stdout.count("[ACTION OWED]") + MISSING.stdout.count("[action  ]"))   # WQ-467 class
-        self.assertGreater(printed, 20, f"only {printed} checks printed")
+        def printed(out):
+            return (out.count("[BLOCKING]") + out.count("[advisory]")
+                    + out.count("[ACTION OWED]") + out.count("[action  ]"))   # WQ-467 class
+        # Floor derived from the clean run (WQ-578 batch 2, review ⚠️ W1): the fixed "> 20" broke when the cleanup
+        # removed eight lines; every clean line except the GATES ones (the check that cannot run) must still print.
+        gates_lines = sum(1 for l in CLEAN.stdout.split("\n") if "] GATES " in l)
+        floor = printed(CLEAN.stdout) - gates_lines
+        self.assertGreater(floor, 10, f"clean fixture printed only {printed(CLEAN.stdout)} checks")
+        self.assertGreaterEqual(printed(MISSING.stdout), floor, f"only {printed(MISSING.stdout)} checks printed")
 
     def test_it_retains_the_same_checks_the_clean_run_produced_minus_the_failed_one(self):
         """Stronger than a count: the surviving set must be the clean set less

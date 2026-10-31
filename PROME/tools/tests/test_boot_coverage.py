@@ -286,35 +286,62 @@ class Fixtures(unittest.TestCase):
             self.assertIn("full output:", gate.results[-1][3])
         self.assertEqual(gate.aggregate_rc(gate.results, []), 0)  # Advisory findings remain advisory.
 
-    def test_budget_failure_does_not_suppress_memory(self):
-        (self.root / "scripts").mkdir()
-        (self.root / "memory/auto").mkdir(parents=True)
-        (self.root / "scripts/harness_caps.env").write_text("MEMORY_HARNESS_CAP_BYTES=100\n")
-        (self.root / "memory/auto/MEMORY.md").write_text("x" * 80)
+    def test_read_budget_and_memory_length_are_separate_checks(self):
+        # WQ-578 batch 2 (2026-10-31, #35): MEMORY.md is measured by ONE implementation, root step 1d's script — at boot
+        # by the gate, at closeout by CLOSEOUT step 6; check_byte_budgets carries the declared read budgets alone.
         with patch.object(gate, "run_script", return_value=False) as run:
             gate.check_byte_budgets()
+            self.assertEqual(run.call_count, 1)
             self.assertIn("--require-manifest", run.call_args.args[2])
-        self.assertEqual(gate.results[-1][1], "auto-memory byte budget")
-        self.assertFalse(gate.results[-1][2])
-        (self.root / "scripts/harness_caps.env").write_text("MEMORY_HARNESS_CAP_BYTES=0\n")
-        gate.check_memory_budget()
-        self.assertIn("UNKNOWN", gate.results[-1][3])
+        with patch.object(gate, "run_script") as run:
+            gate.check_memory_length()
+            self.assertEqual(run.call_args.args[2], ["bash", "scripts/check_memory_length.sh"])
+            self.assertEqual(run.call_args.args[0], gate.ADVISE)
+            self.assertIs(run.call_args.kwargs["summarize"], gate.summarize_memory_length)
+        line = "MEMORY.md: 23 lines (11% of 200), 18892 bytes (73% of 25600) — boot-load cap"
+        self.assertEqual(gate.summarize_memory_length(line + "\nOK: under the cap", 0), (True, line))
+        ok, detail = gate.summarize_memory_length(line + "\nWARNING: …", 1)
+        self.assertFalse(ok)
+        self.assertIn("flow-rule", detail)
+        self.assertIn("OVER the boot-load cap", gate.summarize_memory_length(line, 2)[1])
+        for body, rc in (("MISSING: scripts/harness_caps.env", 2), ("no MEMORY.md at x — nothing to check.", 0), (line, 3)):
+            with self.subTest(body=body, rc=rc), self.assertRaises(ValueError):
+                gate.summarize_memory_length(body, rc)
 
-    def test_both_modes_wire_independent_calendar_and_budget_checks(self):
+    def test_real_memory_length_script_reads_through_the_summary(self):
+        (self.root / "scripts").mkdir()
+        (self.root / "memory/auto").mkdir(parents=True)
+        (self.root / "scripts/check_memory_length.sh").write_bytes((REPO / "scripts/check_memory_length.sh").read_bytes())
+        (self.root / "scripts/harness_caps.env").write_text(
+            "MEMORY_HARNESS_CAP_BYTES=100\nMEMORY_HARNESS_CAP_LINES=200\nMEMORY_WARN_PERCENT=75\n")
+        subprocess.run(["git", "init", "-q", str(self.root)], check=True)
+        for size, ok in ((10, True), (80, False), (120, False)):
+            with self.subTest(size=size):
+                (self.root / "memory/auto/MEMORY.md").write_text("x" * size)
+                gate.check_memory_length()   # results accumulate: each run gets its own numbered log
+                self.assertEqual(gate.results[-1][2], ok, gate.results[-1][3])
+                self.assertIn("MEMORY.md:", gate.results[-1][3])
+
+    def test_both_modes_wire_budgets_and_no_calendar_check(self):
+        # WQ-578 batch 2 (2026-10-31): the calendar is regenerated (BOOT step 2, CLOSEOUT step 1), never checked by
+        # the gate (#20); the read budget runs once per mode; the memory length runs at boot only — closeout measures
+        # it at CLOSEOUT step 6, before the freeze (#35).
         for mode in (gate.mode_boot, gate.mode_closeout):
             with self.subTest(mode=mode.__name__):
+                guarded = []
                 def guard(fn, *args, **kw):
-                    if fn in (gate.check_calendar_views, gate.check_byte_budgets):
+                    guarded.append(fn.__name__)
+                    if fn is gate.check_byte_budgets:
                         fn(*args, **kw)
-                with patch.object(gate, "guard", side_effect=guard), \
+                with patch.object(gate, "guard", side_effect=guard), patch.object(gate, "check_orch_closeout"), \
                      patch.object(gate, "run_capability"), patch.object(gate, "run_script") as run:
                     mode()
                 calls = run.call_args_list
-                for flag in ("--check-generated", "--require-manifest"):
-                    self.assertEqual(sum(flag in c.args[2] for c in calls), 1)
-                calendar = [c for c in calls if "scripts/docket_view.py" in c.args[2]]
-                self.assertEqual(len(calendar), 1)   # handwritten-calendar coverage retired 2026-10-31 (WQ-578 G1 #21)
-                self.assertTrue(all(c.args[0] == gate.ADVISE and "summarize" in c.kwargs for c in calendar))
+                self.assertEqual(sum("--require-manifest" in c.args[2] for c in calls), 1)
+                self.assertFalse(any("scripts/docket_view.py" in c.args[2] for c in calls))
+                self.assertFalse(any("PROME/tools/willq_view.py" in c.args[2] for c in calls))   # #24
+                self.assertFalse(any("PROME/tools/session_presence.py" in c.args[2] for c in calls))   # #33
+                self.assertEqual("check_memory_length" in guarded, mode is gate.mode_boot)
 
 
 if __name__ == "__main__":

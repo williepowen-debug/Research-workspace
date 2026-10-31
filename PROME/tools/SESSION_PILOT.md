@@ -2,7 +2,7 @@
 
 Status: tested first slice, not fleet-wide activation. Evidence and rollout limits: [September 8 capability report](../reports/2026-09-08_session-pilot-results.md). Existing roster, orchestration, completion and messaging rules remain authoritative.
 
-Boot integration (2026-09-09): `boot_session.py` runs the gate once per chosen run directory and saves all check output. The gate's `session_presence.py` view pairs every due row with scoped runtime evidence, keeping Git activity separate. Read the complete view at its printed log path. Without `--sessions-json`, inventory uses the calling runtime's visible namespace. Supply a host-captured JSON only when captured within the preceding minute on this host; stale, future, malformed and wrong-host snapshots stay UNKNOWN. Codex endpoint observations must independently meet the same age limit. No empty inventory authorizes a desk launch. BOOT.md step 5 owns the procedure; [implementation record](../plans/2026-09-09_boot-hardening.md) records its limits.
+Boot integration (2026-09-09; the gate line RETIRED 2026-10-31, WQ-578 batch 2 #33 — `session_presence.py` now runs on demand only, and `boot_session.py`/`prome_gate.py` no longer take `--sessions-json`): `session_presence.py` pairs every due row with scoped runtime evidence, keeping Git activity separate. Without its own `--sessions-json`, inventory uses the calling runtime's visible namespace. Supply a host-captured JSON only when captured within the preceding minute on this host; stale, future, malformed and wrong-host snapshots stay UNKNOWN. Codex endpoint observations must independently meet the same age limit. No empty inventory authorizes a desk launch. The Desk-spawn preflight in `PROME/CLAUDE.md` owns the launch procedure; [implementation record](../plans/2026-09-09_boot-hardening.md) records its limits.
 
 From the repository root, capture metadata with:
 
@@ -35,7 +35,7 @@ advancement. Failed path enumeration leaves the prior snapshot intact. A complet
 path inventory can retain null fingerprints for unmeasured files; their contents
 remain unknown while measured files can still be compared. Use the same desk
 set and snapshot path for comparisons; a changed due-owner set needs a fresh
-comparison file. Without `--activity-state`, the boot gate collects current pending
+comparison file. Without `--activity-state`, `session_presence.py` collects current pending
 files and commits without writing a baseline. This is an on-demand snapshot view;
 it does not monitor while PROME is idle. Evidence: [presence/activity report](../reports/2026-09-09_presence-activity.md).
 

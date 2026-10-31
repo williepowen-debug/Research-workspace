@@ -53,8 +53,7 @@ class ReadOnlyBoot(unittest.TestCase):
         def capture(flag):
             calls = []
             with patch.object(gate, "run_script", side_effect=lambda *a, **k: calls.append(a)), \
-                 patch.object(gate, "run_capability"), patch.object(gate, "guard"), \
-                 patch.object(gate, "SESSION_JSON", None):
+                 patch.object(gate, "run_capability"), patch.object(gate, "guard"):
                 gate.mode_boot(advance_board=flag)
             return [a[2] for a in calls if a[1] == "board_scan"][0]
         self.assertNotIn("--advance", capture(False))

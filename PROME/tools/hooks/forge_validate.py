@@ -35,31 +35,15 @@ def forge_status(p: pathlib.Path) -> list[str]:
     return msgs
 
 
-def prome_gate_checks(which: str) -> list[str]:
+def prome_gate_checks() -> list[str]:
     import importlib.util
     spec = importlib.util.spec_from_file_location("pg", ROOT / "PROME/tools/prome_gate.py")
     m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
-    if which == "gates":
-        m.check_gates_tsv()
-    else:
-        m.check_docket_overdue()
+    m.check_gates_tsv()
     return [f"⛔ {name}: {detail}" for (sev, name, ok, detail, owner) in m.results
             if not ok and sev == m.BLOCK] + \
            [f"⚠️ {name}: {detail}" for (sev, name, ok, detail, owner) in m.results
             if not ok and sev == m.ADVISE]
-
-
-def docket_row_cap() -> list[str]:
-    """Changed-row byte cap at save time (rc 0 clean or DORMANT · 1 over · 2 could not establish → advisory).
-    Dormant (DOCKET_ROW_CAP_BYTES unset) is silent here by necessity: this hook's exit-0 stderr is not
-    shown to the model; the pre-commit hook and the closeout gate carry the notice."""
-    r = subprocess.run([sys.executable, str(ROOT / "PROME/tools/docket_row_cap.py"), "--quiet"],
-                       capture_output=True, text=True, cwd=ROOT, timeout=60)
-    if r.returncode == 1:
-        return ["⛔ " + r.stdout.strip()]
-    if r.returncode != 0:
-        return [f"⚠️ docket_row_cap could not establish (rc={r.returncode}): {(r.stdout + r.stderr).strip()[:200]}"]
-    return []
 
 
 def main() -> int:
@@ -79,7 +63,7 @@ def main() -> int:
         if fp.endswith("FORGE/STATUS.md"):
             msgs = forge_status(p)
         elif fp.endswith("PROME/GATES.tsv"):
-            msgs = prome_gate_checks("gates")
+            msgs = prome_gate_checks()
         else:
             return 0
     except Exception as e:

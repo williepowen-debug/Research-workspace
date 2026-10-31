@@ -164,14 +164,16 @@ class CloseoutTests(unittest.TestCase):
         result, issues = oc.evaluate(self.path, DAY, inventory_complete=True, now=NOW)
         self.assertEqual((result, issues), ([], []))
 
-    def test_gate_calls_reader_at_both_boundaries(self):
+    def test_gate_calls_reader_at_closeout_only(self):
+        # WQ-578 batch 2 (2026-10-31, #1): the WQ-249 reader runs at CLOSEOUT only; the boot line added nothing.
         import prome_gate as gate
         import ast
         tree = ast.parse(Path(gate.__file__).read_text())
         functions = {n.name: n for n in tree.body if isinstance(n, ast.FunctionDef)}
-        for name in ('mode_boot', 'mode_closeout'):
-            self.assertTrue(any(isinstance(n, ast.Call) and isinstance(n.func, ast.Name)
-                                and n.func.id == 'check_orch_closeout' for n in ast.walk(functions[name])))
+        calls = lambda name: any(isinstance(n, ast.Call) and isinstance(n.func, ast.Name)
+                                 and n.func.id == 'check_orch_closeout' for n in ast.walk(functions[name]))
+        self.assertTrue(calls('mode_closeout'))
+        self.assertFalse(calls('mode_boot'))
         with patch.object(gate, 'run_script') as run:
             gate.check_orch_closeout()
             self.assertEqual(run.call_args.args[0], gate.ADVISE)

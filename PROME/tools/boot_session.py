@@ -21,7 +21,7 @@ def write_json(path, value):
     temporary.replace(path)
 
 
-def run_once(run_dir, sessions_json=None, charter_mode="explicit"):
+def run_once(run_dir, charter_mode="explicit"):
     if charter_mode not in ("explicit", "injected"):
         raise ValueError("Invalid charter mode")
     run_dir = Path(run_dir).resolve()
@@ -49,8 +49,6 @@ def run_once(run_dir, sessions_json=None, charter_mode="explicit"):
     # The ONLY advancing caller: a bare `prome_gate.py boot` is non-advancing since 2026-10-05.
     command = [sys.executable, str(ROOT / "PROME/tools/prome_gate.py"), "boot", "--advance-board",
                "--log-dir", str(run_dir / "checks"), "--charter-mode", charter_mode]
-    if sessions_json:
-        command += ["--sessions-json", str(Path(sessions_json).resolve())]
     print(f"Boot attempt claimed; full output: {run_dir / 'gate.txt'}", flush=True)
     with (run_dir / "gate.txt").open("x", encoding="utf-8") as output:
         result = subprocess.run(command, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT)
@@ -78,7 +76,7 @@ def run_once(run_dir, sessions_json=None, charter_mode="explicit"):
     return result.returncode
 
 
-def run_refresh(run_dir, sessions_json=None, charter_mode="explicit"):
+def run_refresh(run_dir, charter_mode="explicit"):
     """Fresh mechanical observations after a completed boot; never advance BOARD.
 
     Keep the original claim/receipt untouched. An incomplete original is not a
@@ -110,8 +108,6 @@ def run_refresh(run_dir, sessions_json=None, charter_mode="explicit"):
     write_json(refresh / "attempt.json", receipt)
     command = [sys.executable, str(ROOT / "PROME/tools/prome_gate.py"), "refresh",
                "--log-dir", str(refresh / "checks"), "--charter-mode", charter_mode]
-    if sessions_json:
-        command += ["--sessions-json", str(Path(sessions_json).resolve())]
     print(f"Fresh mechanical refresh; original boot unchanged; full output: {refresh / 'gate.txt'}", flush=True)
     with (refresh / "gate.txt").open("x", encoding="utf-8") as output:
         result = subprocess.run(command, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT)
@@ -132,11 +128,10 @@ def main():
     ap.add_argument("--charter-mode", choices=("explicit", "injected"), default="explicit",
                     help="Only use injected when root/local context injection is confirmed")
     ap.add_argument("--run-dir", required=True, help="Choose ONCE per boot; reuse on retries")
-    ap.add_argument("--sessions-json", help="Optional fresh same-host session_bridge snapshot")
     ap.add_argument("--refresh", action="store_true", help="Fresh non-advancing checks after a completed original boot")
     args = ap.parse_args()
     try:
-        return (run_refresh if args.refresh else run_once)(args.run_dir, args.sessions_json, args.charter_mode)
+        return (run_refresh if args.refresh else run_once)(args.run_dir, args.charter_mode)
     except (OSError, ValueError) as exc:
         print(f"UNKNOWN: {exc}; inspect the run directory before any further action.")
         return 2

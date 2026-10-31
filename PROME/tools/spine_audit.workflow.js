@@ -23,8 +23,9 @@
 //
 // ANCHOR LEG (added 8/16, audit-#9 process review, Will-approved): the paired
 // readers check the spine AGAINST DOCKET.tsv as canon, so an error INSIDE DOCKET
-// is self-sealing — the audit would enforce it. firetime_check validates only rows
-// dated <=7d out; the 8th reader samples ~8 far-dated PENDING rows and verifies
+// is self-sealing — the audit would enforce it. The 8th reader samples ~8 future-dated
+// PENDING rows (1+ days out; was 8+ while the boot fire-time scan covered the first 7 days —
+// that scan retired 2026-10-31, WQ-578 G3, so the sample starts tomorrow, W2) and verifies
 // them at their SOURCE ARTIFACTS. Sampling is deterministic off a WEEK COUNTER
 // (Math.random is unavailable in Workflow scripts by design), so successive weeks
 // walk different slices of the tail.
@@ -165,15 +166,15 @@ const WEEK_SEED = weekSeed(TODAY)
 function anchorPrompt() {
   return `You are a READ-ONLY canon-anchor auditor in a multi-agent research repo. Do NOT edit, write, commit, or run any state-changing command. Today is ${TODAY}.
 
-CONTEXT: the weekly spine audit checks PROME's boot-read docs AGAINST ${REPO}/PROME/DOCKET.tsv as canon — so an error INSIDE DOCKET is self-sealing (views get "corrected" toward it). scripts/firetime_check.py already validates rows dated within 7 days; you audit a sample of the tail BEYOND that window against the rows' own source artifacts.
+CONTEXT: the weekly spine audit checks PROME's boot-read docs AGAINST ${REPO}/PROME/DOCKET.tsv as canon — so an error INSIDE DOCKET is self-sealing (views get "corrected" toward it). You audit a sample of the future-dated PENDING rows against the rows' own source artifacts.
 
 1. Read ${REPO}/PROME/DOCKET.tsv entirely. Data rows are TAB-separated: date, description, owner, status, source, notes. Ignore comment/short legacy lines.
-2. ELIGIBLE rows: status field begins "PENDING" AND the row's date (the FIRST date, for "A..B" ranges) is 8 or more days after today.
+2. ELIGIBLE rows: status field begins "PENDING" AND the row's date (the FIRST date, for "A..B" ranges) is 1 or more days after today (tomorrow onward).
 3. DETERMINISTIC SAMPLE — do this arithmetic carefully and record it: number the eligible rows 1..N in file order. STEP = max(1, floor(N/8)). R = ${WEEK_SEED} mod STEP. Select rows whose (index mod STEP) == R; keep at most the FIRST 8 selected.
 4. For EACH sampled row, read the file(s) named in its source field (and notes-field pointers where the source is thin) and check: (a) the pointer EXISTS; (b) the artifact SUPPORTS the row's date — a row self-declared "~approximate" or "~TARGET/SLIPPABLE" passes unless the artifact names a DIFFERENT date; (c) the OWNER matches the artifact; (d) STATE — the artifact does not show the catalyst already resolved/graded/retired/superseded while the row still says PENDING.
 5. NOT findings: an artifact that is merely stale or not recently updated (you are testing CONTRADICTION, not freshness) · market levels · the inherent uncertainty of declared-slippable dates.
 
-Return ONE files[] entry with file "PROME/DOCKET.tsv (anchor sample)". Verdict CLEAN only if zero blocking issues. Severity "blocking" = a date/state/owner a boot reader or firetime consumer would act on wrongly when the row enters its window; "minor" = pointer or wording drift. In the entry's "sample" property record N, STEP, R, and each sampled row's date + first ~40 chars of description, so the sample itself is auditable. Do not pad — an all-CLEAN sample is a valid and useful result. Your final action: return the structured output.`
+Return ONE files[] entry with file "PROME/DOCKET.tsv (anchor sample)". Verdict CLEAN only if zero blocking issues. Severity "blocking" = a date/state/owner a boot reader would act on wrongly when the row comes due; "minor" = pointer or wording drift. In the entry's "sample" property record N, STEP, R, and each sampled row's date + first ~40 chars of description, so the sample itself is auditable. Do not pad — an all-CLEAN sample is a valid and useful result. Your final action: return the structured output.`
 }
 
 phase('Audit')

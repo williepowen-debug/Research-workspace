@@ -51,25 +51,14 @@ def main() -> int:
     # the old exact-match test must NOT be what the predicate does (the defect itself)
     if gate._docket_pending("PENDING — registered") is False:
         fails.append("predicate still behaves like the exact-match test")
-    # ❌1 (reader 2026-10-29): an OVERDUE annotation counts only if dated on/after the row's end date
-    ANN = {
-        ("PENDING — OVERDUE (annotated 2026-09-23 22:4x ET by prome-7a; owner PROME)", "2026-09-19"): True,
-        ("PENDING · RE-DATED 2026-09-16→2026-09-19 by PROME 2026-09-17 10:1x ET (OVERDUE 1d; …)", "2026-09-19"): False,
-        ("PENDING · RE-DATED 2026-10-05→2026-10-12 … (OVERDUE 3d at the 10/8 boot)", "2026-10-12"): False,
-        ("PENDING(OVERDUE-annotated 2026-10-13 by PROME)", "2026-10-12"): True,
-        ("PENDING — registered 2026-10-22", "2026-10-27"): False,
-        ("PENDING · OVERDUE", "2026-10-27"): False,
-    }
-    for (cell, end), expected in ANN.items():
-        got = gate._docket_overdue_annotated(cell, end)
-        if got != expected:
-            fails.append(f"overdue-annotation: {cell!r} end {end} → {got}, expected {expected}")
+    # The dated-OVERDUE annotation cases (❌1, reader 2026-10-29) retired 2026-10-31 with the check they tested —
+    # DOCKET overdue-unannotated (WQ-578 batch 2, #17); the predicate cases above still bind check_docket_today.
     if fails:
         print("❌ L370 predicate test: " + str(len(fails)) + " failure(s)")
         for f in fails:
             print("   - " + f)
         return 1
-    print(f"✅ L370 predicate test: {len(CASES)} cases × predicate/parity/fallback agree with the canonical reader; 6 dated-OVERDUE cases pass")
+    print(f"✅ L370 predicate test: {len(CASES)} cases × predicate/parity/fallback agree with the canonical reader")
     return 0
 
 

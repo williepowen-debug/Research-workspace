@@ -335,15 +335,12 @@ class GateConsumer(unittest.TestCase):
                      if "own_surface_age_days" in ln and "or 0" in ln]
         self.assertEqual(offenders, [], f"the collapsing idiom is still live: {offenders}")
 
-    def test_gate_calls_the_state_accessor(self):
-        self.assertTrue(any("own_surface_age_state(n)" in ln for ln in self._code_lines()))
-
-    def test_gate_names_all_three_outcomes(self):
-        src = (ROOT / "PROME/tools/prome_gate.py").read_text()
-        for phrase in ("own-surface age >7d",
-                       "NO COMMIT has ever touched their own tree",
-                       "could NOT be established"):
-            self.assertIn(phrase, src)
+    def test_gate_no_longer_consumes_own_surface_age(self):
+        """The gate's only consumer of the age was the Fleet-Ops dashboard check (retired 2026-10-16, WQ-452); its
+        unreferenced code was deleted 2026-10-31 (WQ-578 batch 2). The two tests that asserted that dead code's
+        accessor call and its three outcome phrases retired with it. If a gate check consumes the age again, it must
+        use own_surface_age_state() — the idiom guard above still runs."""
+        self.assertFalse(any("own_surface_age" in ln for ln in self._code_lines()))
 
 
 class LiveCheckoutUntouched(unittest.TestCase):

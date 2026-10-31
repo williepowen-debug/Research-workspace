@@ -467,8 +467,7 @@ class Refresh(Fixture):
             calls=[]
             with patch.object(gate,'run_script',side_effect=lambda *a,**k:calls.append(('script',a,k))), \
                  patch.object(gate,'run_capability',side_effect=lambda *a,**k:calls.append(('cap',a,k))), \
-                 patch.object(gate,'guard',side_effect=lambda *a,**k:calls.append(('guard',a,k))), \
-                 patch.object(gate,'SESSION_JSON',None):
+                 patch.object(gate,'guard',side_effect=lambda *a,**k:calls.append(('guard',a,k))):
                 gate.mode_boot(advance_board=advance)
             return calls
         normal,fresh=capture(True),capture(False)

@@ -17,8 +17,8 @@ DESIGN CONSTRAINTS (Will-approved, in the 7/28 disposition packet):
   2. Every wrapped check stays INDEPENDENTLY RUNNABLE — this is a thin shell
      dispatcher, not a monolith. Each failure prints the owner doc to read.
   3. The T3-a MECHANICAL CORE lives here (dashboard-state checks RETIRED 10/16 WQ-452;
-     GATES token vocabulary + ages, DOCKET overdue rows, boot↔closeout symmetry
-     diff) so scriptable checks run EVERY BOOT — DAEDALUS's ~21d external sweep
+     DOCKET overdue rows and the boot↔closeout symmetry diff RETIRED 2026-10-31 WQ-578;
+     GATES token vocabulary + ages remain) so scriptable checks run EVERY BOOT — DAEDALUS's ~21d external sweep
      keeps only the judgment tail a script cannot do.
 
 USAGE
@@ -62,14 +62,12 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[2]
 LOG_DIR = None
 CHARTER_MODE = "explicit"
-SESSION_JSON = None
 # WQ-460: resume only on Will's word, with store reconciliation and matching procedures.
 DECISION_DECK_PAUSED = True
 
 GATES_STATES = ("LIVE", "FIRED-UNEXECUTED", "RESOLVED", "LAPSED", "RETIRED")
 # GATES_AGE_DAYS retired 8/9 — the >5d raw-age rule was RETIRED by the 8/7
 # consumed_by ruling (forum S2/ABN, Will-adopted); staleness keys on consumed_by.
-DASH_STALE_HOURS = 72       # dashboard self-declares red past this
 
 # Desk catalyst-summons registry (BD-02, LABOR ask 2026-08-20 — three misses:
 # a frozen card only grades if a session runs, and nothing summons a session on
@@ -351,33 +349,6 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,), summarize=None, preview=T
     return ok
 
 
-def _firetime_delta_summary(body, rc):
-    """WQ-467 C4: owe a disposition only for fire-time flags NEW since the dispositioned baseline
-    (PROME/state/firetime_dispositioned.tsv). No readable baseline ⇒ every flag is NEW (fail closed).
-    A parse miss raises ValueError ⇒ run_script records UNKNOWN, never clean."""
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
-    import firetime_delta as fd
-    flags, raw = fd.parse(body)
-    last = (body.strip().splitlines() or [""])[-1][:110]
-    if len(flags) != raw:
-        raise ValueError(f"firetime_delta parsed {len(flags)} of {raw} flag lines · {last}")
-    why = fd.validate(body, raw, rc)          # read 1 ❌1: a crash exits 1 and must never read clean
-    if why:
-        raise ValueError(f"{why} · {last}")
-    baseline = fd.load_baseline(ROOT / "PROME/state/firetime_dispositioned.tsv")
-    new, old = fd.split(flags, baseline)
-    dropped = fd.gone(flags, baseline)        # read 1 ❌2: stale rows would let a recurrence read as persisting
-    ptrs = sorted({baseline[f][1] for f in old}) if baseline else []
-    summary = (f"{len(flags)} flag(s): {len(new)} NEW · {len(old)} persisting"
-               + (f" (dispositioned at {', '.join(ptrs)})" if ptrs else "")
-               + (f" · {len(dropped)} dispositioned flag(s) no longer reported — owed: `firetime_delta.py --log <log> --prune`" if dropped else "")
-               + (" · NO readable baseline — every flag counts as NEW" if baseline is None else ""))
-    summary += "".join(f"\n       ↳ NEW {k}: {a} — {c[:100]}" for a, k, c in new[:5])
-    if len(new) > 5:
-        summary += f"\n       ↳ {len(new) - 5} more NEW flag(s); `python3 PROME/tools/firetime_delta.py --log <log> --show {len(new)}`"
-    return (not new and not dropped), summary
-
-
 def coverage_result(body, prefix, rc, counts):
     """Strict footer parsing for the three coverage producers; no heuristic fallback."""
     lines = [line for line in body.splitlines() if line.startswith(prefix)]
@@ -432,6 +403,9 @@ def summarize_read_cap(body, rc, expected_charter_mode=None):
     return rc == 0 and not any(f[k] for k in ("rotation_due", "advisories", "generated_flagged")), detail
 
 
+# summarize_generated / summarize_prose parse scripts/docket_view.py's result lines. Not wired since 2026-10-31
+# (WQ-578 batch 2, #20: the calendar is regenerated at BOOT step 2 and CLOSEOUT step 1 instead of checked);
+# kept because PROME/tools/tests/test_boot_coverage.py exercises docket_view.py through them.
 def summarize_generated(body, rc):
     f = coverage_result(body, "DOCKET-GENERATED-RESULT", rc, ("assessed",))
     dt.date.fromisoformat(f["as_of"])
@@ -647,7 +621,9 @@ def check_gates_tsv():
     Will-approved): a LIVE INSTRUMENT row past its review date is BLOCKING —
     the instrument may have crossed while nobody looked, which is the ledger's
     one job; JUDGEMENT rows past review are advisory (owner-graded at cadence);
-    a LIVE INSTRUMENT row with blank last_checked is advisory."""
+    a LIVE INSTRUMENT row with blank last_checked is advisory. Those advisories and the consumed_by
+    one print as ONE "GATES upkeep" line since 2026-10-31 (WQ-578 batch 2, #13–15); each flag
+    keeps its own label inside it."""
     path = ROOT / "PROME/GATES.tsv"
     today = dt.date.today()
     with open(path, encoding="utf-8") as f:
@@ -666,19 +642,18 @@ def check_gates_tsv():
     record(BLOCK, "GATES token vocabulary", not o["bad_tokens"],
            "; ".join(o["bad_tokens"]) or f"{len(rows)} rows all lead with enumerated tokens",
            "PROME/GATES.tsv header STATES line")
-    record(ADVISE, "GATES consumed_by (consumer passed / cell empty)", not o["stale_live"],
-           "; ".join(o["stale_live"]) or "all LIVE rows have live consumers or declared NONE",
-           "PROME/GATES.tsv (resolve at the consumer, re-date, or declare NONE)")
     record(BLOCK, "GATES review_by passed — LIVE INSTRUMENT rows", not o["review_overdue_instrument"],
            "; ".join(o["review_overdue_instrument"]) or "no live INSTRUMENT row past its review date",
            "PROME/GATES.tsv (consume the owner's grade → re-date review_by; if the owner is dark, "
            "read the instrument as a CONSUMER read and say so in the row — never as the grade)")
-    record(ADVISE, "GATES review_by passed — LIVE JUDGEMENT rows", not o["review_overdue_judgement"],
-           "; ".join(o["review_overdue_judgement"]) or "no live JUDGEMENT row past its review date",
-           "PROME/GATES.tsv (owner grades at review_by; re-date or summon the owner)")
-    record(ADVISE, "GATES last_checked blank on LIVE INSTRUMENT rows", not o["instrument_unchecked"],
-           "; ".join(o["instrument_unchecked"]) or "every live INSTRUMENT row carries a last_checked",
-           "PROME/GATES.tsv (fill from the owner's latest grade; a blank reads as never-graded)")
+    upkeep = ([f"consumer: {x}" for x in o["stale_live"]]
+              + [f"JUDGEMENT review: {x}" for x in o["review_overdue_judgement"]]
+              + [f"INSTRUMENT last_checked BLANK: {x}" for x in o["instrument_unchecked"]])
+    record(ADVISE, "GATES upkeep (consumed_by · JUDGEMENT review_by · INSTRUMENT last_checked)", not upkeep,
+           "; ".join(upkeep) or "every LIVE row has a live consumer or NONE, no JUDGEMENT row is past review, "
+           "every INSTRUMENT row carries a last_checked",
+           "PROME/GATES.tsv (consumer: resolve at the consumer, re-date, or declare NONE · JUDGEMENT: the owner grades "
+           "at review_by — re-date or summon the owner · last_checked: fill from the owner's latest grade)")
     record_gate_citability(rows)          # L417: the GATE-CITABILITY RULE, mechanised (was a README one-liner)
 
 
@@ -705,48 +680,6 @@ def _docket_pending(state: str) -> bool:
         return docket_view.state_kind(state or "") == "PENDING"
     except Exception:
         return _docket_pending_fallback(state)
-
-
-def _docket_overdue_annotated(annotation: str, end: str) -> bool:
-    """True iff the state+notes text carries an OVERDUE annotation DATED on or after the row's
-    current end date. A bare substring test read an old re-date note ("…→2026-09-19 … (OVERDUE 1d …")
-    as a current annotation (L370 reader 2026-10-29, ❌1: L378 and L557 were wrongly cleared)."""
-    for m in re.finditer(r"OVERDUE", annotation or ""):
-        tail = annotation[m.end(): m.end() + 60]
-        d = re.search(r"(\d{4}-\d{2}-\d{2})", tail)
-        if d and d.group(1) >= end:
-            return True
-    return False
-
-
-def check_docket_overdue():
-    """PENDING rows whose (end-)date has passed — the row-56 ballot-cert class."""
-    path = ROOT / "PROME/DOCKET.tsv"
-    today = dt.date.today().isoformat()
-    overdue = []
-    with open(path, encoding="utf-8") as f:
-        for r in csv.reader(f, delimiter="\t"):
-            if not r or r[0].startswith("#") or len(r) < 4 or not _docket_pending(r[3]):
-                continue
-            end = r[0].split("..")[-1]
-            if re.fullmatch(r"\d{4}-\d{2}-\d{2}", end) and end < today:
-                # The annotation lives in STATUS — PENDING(OVERDUE-annotated …) — or in
-                # NOTES; practice has used both (4 rows vs 2 on 2026-08-03). Scanning only
-                # NOTES made every status-annotated row read as unannotated, so the check
-                # reported work that was already done and hid the rows that weren't.
-                annotation = r[3] + " " + (r[5] if len(r) > 5 else "")
-                if not _docket_overdue_annotated(annotation, end):
-                    overdue.append(f"{r[0]} {r[1][:40]}")
-    record(ADVISE, "DOCKET overdue-unannotated", not overdue,
-           # ⚠️ 2026-08-08: truncation must ANNOUNCE itself. The 8/3 audit found this
-           # check's column-scan bug AND named its 4-item display cap as the mechanism
-           # that let false positives crowd out 4 real rows — only the column half was
-           # fixed. A silent cap reads as "that's all of them."
-           # [[finding_display_filter_gating_safety_net]]
-           "; ".join(overdue[:4]) +
-           (f" (+{len(overdue)-4} more)" if len(overdue) > 4 else "")
-           or "every past-dated PENDING row carries an OVERDUE annotation",
-           "PROME/DOCKET.tsv (grade, re-date, or annotate OVERDUE + owner)")
 
 
 def check_docket_buried_state_token():
@@ -826,7 +759,7 @@ def check_docket_today():
     size rulings 12:50, into an inbox nobody was reading. TERRY never got the
     size ruling and logged the item NOT DONE at its own 15:12 closeout.
 
-    Nothing existing could catch it. check_docket_overdue() scans only PAST
+    Nothing existing could catch it. check_docket_overdue() (retired 2026-10-31, WQ-578) scanned only PAST
     dates; GATES fired-unexecuted needs a gate to have already FIRED; an
     inbox check would have passed (inbox was 0 at 11:10 — the packets had not
     been sent yet). The missing question is the simple one: *is anything
@@ -984,8 +917,13 @@ def check_will_queue():
                 continue
             # G2 (WQ-578, 2026-10-31): a HANDS row (Will's own hands-on errand) never raises PASSED / DUE TODAY / AGING —
             # WQ-538 A: "its Needed-by date is never the trigger". Only its Notes marker `⏰ re-present YYYY-MM-DD` is.
+            # W4 (WQ-578 batch 2, 2026-10-31): parse-or-flag. A colon after "re-present" and the emoji form ⏰️ parse; a
+            # re-present marker anywhere else on a HANDS row (the rec cell, an M/D date, no date) is flagged MALFORMED,
+            # never silently skipped. A ⏰ with no "re-present" after it is not a marker and stays silent.
             if cells[2].strip().strip("*`").upper().startswith("HANDS"):
-                rp = re.search(r"⏰\s*re-present\s+(\d{4}-\d{2}-\d{2})", cells[6])
+                rp = re.search(r"⏰\ufe0f?\s*re-present:?\s+(\d{4}-\d{2}-\d{2})(?![\d-])", cells[6])
+                if not rp and re.search(r"⏰\ufe0f?\s*re-?present", " ".join(cells), re.I):
+                    problems.append(f"MALFORMED ⏰ #{cells[0]} — write `⏰ re-present YYYY-MM-DD` in the Notes cell (WQ-538 A)")
                 if rp:
                     try:
                         if dt.date.fromisoformat(rp.group(1)) <= today:
@@ -1058,7 +996,7 @@ def check_will_queue():
         problems.insert(0, f"CAP: {actionable} actionable rows (>20) — PROME over-routing")
     check_will_queue.last_problems = list(problems)   # the FULL list, for queue_parser_selftest (the detail below shows five)
     record(_owed_sev(), "WILL_QUEUE fresh + nothing due/passed/aging", not problems,
-           # ⚠️ 2026-08-08: same silent-cap class as check_docket_overdue above —
+           # ⚠️ 2026-08-08: same silent-cap class as the retired check_docket_overdue —
            # measured live at this boot, 14 roll-off-eligible rows displayed as 4.
            "; ".join(problems[:5]) +
            (f" (+{len(problems)-5} more)" if len(problems) > 5 else "")
@@ -1105,279 +1043,6 @@ def check_aged_waits():
            + (f" (+{len(hits)-5} more)" if len(hits) > 5 else "")
            or "no ⛔-waits row has a blocker dark ≥7d without a dated deliverable",
            "each hit ⇒ register a PENDING DOCKET row naming the blocking desk (L0 drain-only, cap-counted; WQ-221 rule 3) — never a per-item ask")
-
-
-# Accepted HEARTBEAT amendment-block forms, each must START a line (L852 ask ①, 2026-10-28):
-#   pre-7/31   `> ## AMENDMENT #N …`      7/31–34th base  `> **AMENDMENT #N …`
-#   35th base+ `**Amendment N — …:**`     (6a3e1e364, 2026-10-26; no blockquote, no `#`)
-HB_BLOCK_RE = re.compile(r"^(?:>\s*)?(?:#{1,6}\s*|\*\*)?AMENDMENT\s*#?\s*(\d+)\b(?!\s*chain)", re.M | re.I)
-# Accepted header declarations of the chain length:
-#   pre-35th  `**Amendments append … Chain: N`      35th base+  `**Amendment chain: N.**` (inside the Base line)
-# Both declarations are HEADER LINES: every archived base 08-07 → 10-26 and the live file carry the figure on a
-# line that STARTS `**Amendments append` (pre-33rd) or `**Base:**` (33rd base on). Anchoring to those line starts is
-# what keeps a body quote of the declaration from standing in for the header (read 2 R5/R8, 2026-10-28).
-HB_DECLARED_RE = re.compile(r"(?:^\*\*Amendments append.*?Chain:\s*(\d+))|(?:^\*\*Base:\*\*.*?\*\*Amendment chain:\s*(\d+))", re.M)
-HB_FORMS = ("blocks: `> ## AMENDMENT #N` · `> **AMENDMENT #N` · `**Amendment N —`; "
-            "declaration (a header LINE starting `**Amendments append` or `**Base:**`): `**Amendments append … Chain: N` · `**Base:** … **Amendment chain: N.**`")
-
-
-def heartbeat_chain_counts(text):
-    """(counted, declared) for a HEARTBEAT text. counted = amendment blocks that start a line in any
-    accepted form; declared = the header's own chain figure, or None when no accepted declaration
-    form is present. Pure; the check decides what None means (UNVERIFIABLE, never a count)."""
-    blocks = list(HB_BLOCK_RE.finditer(text))
-    counted = len(blocks)
-    # The declaration is read from the HEADER only — the text before the first amendment block.
-    # A body paragraph that QUOTES `**Amendment chain: N.**` must not stand in for the header
-    # (independent read P-14, 2026-10-28: whole-file search passed exactly that fixture silently).
-    header = text[:blocks[0].start()] if blocks else text
-    m = HB_DECLARED_RE.search(header)
-    declared = int(m.group(1) or m.group(2)) if m else None
-    return counted, declared
-
-
-def check_heartbeat_chain(path=None):
-    """HEARTBEAT amendment-chain length vs the ~5 re-base rule (Cadence section).
-    The rule lived in prose on 5+ surfaces and in no script until 2026-07-30
-    (DAEDALUS FORGE-audit follow-up, gap (a)) — it held at chain=4 on memory,
-    twice. Advisory: warn at 4 (plan the re-base), and at >=5 the rule's own
-    trip has occurred. [[finding_mechanize_the_cap_not_the_ritual]]
-
-    ⚠️ 2026-08-04 REPAIR — this check was BLIND from the 7/31 re-base until then.
-    v1 matched only `> ## AMENDMENT #N`; the 7/31 re-base changed the house style
-    to `> **AMENDMENT #N`, so it counted ZERO against a header that declared
-    "Chain: 2" and printed a confident ✅ PASS.
-
-    ⚠️ 2026-10-28 REPAIR (DAEDALUS ask ①, DOCKET L852; acceptance
-    PROME/tools/tests/ACCEPTANCE_heartbeat_chain_format_L852_2026-10-28.md) — blind AGAIN
-    from the 35th base (6a3e1e364): blocks became `**Amendment N —` and the declaration
-    `**Amendment chain: N.**`; the check counted 0 against 2 and, because it could not read
-    the declaration either, treated "no cross-check" as silence and PASSED. Three fixes:
-      (a) match every accepted block form (HB_BLOCK_RE), (b) read both declaration forms
-      (HB_DECLARED_RE), (c) an UNREADABLE declaration is a FAILED check that names the
-      accepted forms — missing information fails LOUD, never defaults to a count
-      (PROME/tools/tests/README.md category 4). The 8/4 cross-check (disagreement ⇒
-      UNVERIFIABLE on max) is unchanged.
-    [[finding_test_the_guard_not_just_the_guarded]] · [[finding_scan_keyed_on_naming_reads_local_form_as_absence]]"""
-    path = Path(path) if path else ROOT / "HEARTBEAT.md"
-    try:
-        text = path.read_text(encoding="utf-8")
-    except Exception as e:
-        record(ADVISE, "HEARTBEAT chain length", False, f"unreadable: {e}", "HEARTBEAT.md")
-        return
-    counted, declared = heartbeat_chain_counts(text)
-
-    src = "HEARTBEAT.md Cadence section + PROME/HEARTBEAT_COLD.md §C (re-base = plan + blind reads -> archive verbatim; PROME-standard since 2026-08-23, AUTONOMY change-log — no Will approval step)"
-    if declared is None:
-        record(ADVISE, "HEARTBEAT amendment chain (<4)", False,
-               f"UNVERIFIABLE — the header declares no chain length this check can read "
-               f"(counted {counted} block(s), which is NOT a verdict). Accepted forms — {HB_FORMS}. "
-               f"Either the header moved format again or the declaration is missing: fix the header, "
-               f"or add the new form to prome_gate.py HB_DECLARED_RE with its acceptance test",
-               src + " · a count without the header's own figure is never trusted")
-        return
-    if declared != counted:
-        record(ADVISE, "HEARTBEAT amendment chain (<4)", False,
-               f"UNVERIFIABLE — counted {counted} amendment block(s) but the header declares "
-               f"chain {declared}. One of them is wrong and this check cannot say which: "
-               f"either the header is stale or the block format moved again (accepted forms — {HB_FORMS}). Tripping on the "
-               f"larger ({max(counted, declared)}) so the re-base rule fails LOUD, not silent",
-               src + " · reconcile the header stamp against the blocks before trusting either")
-        return
-
-    n = counted
-    ok = n < 4
-    detail = (f"chain at {n} amendment(s) (header-declared count agrees)"
-              + ("" if ok else " — re-base rule trips at ~5: plan it into the next substantive session"
-                 if n == 4 else " — the ~5 trip HAS OCCURRED: re-base (draft->Will->archive-verbatim) is due"))
-    record(ADVISE, "HEARTBEAT amendment chain (<4)", ok, detail, src)
-
-
-def check_dashboard_build_receipt(state_built):
-    """RETIRED 2026-10-16 (WQ-452.FLEETOPS) — no gate path calls this; kept unreferenced pending cleanup.
-    L339: fleet_dashboard.py writes dashboard_state.json ONLY on a clean
-    build, so a FAILING build leaves the previous snapshot in place and returns
-    rc=1 silently — and every check below then certifies that stale snapshot and
-    passes. The receipt records each baseline-advancing run's own outcome; this
-    check refuses a snapshot that is not the product of the latest build.
-    Compared on CONTENT stamps only, never mtime (git sync restamps mtime).
-    Returns "" when the snapshot is certified current, else a stale-note prefix."""
-    path = ROOT / "PROME/tools/dashboard_build.json"
-    src = "PROME/tools/fleet_dashboard.py (rebuild; fix the build, never the state file)"
-    name = "dashboard state is the product of the latest build (L339)"
-    try:
-        r = json.loads(path.read_text())
-        # Everything that dereferences `r` stays INSIDE this try. A receipt that
-        # is valid JSON but not an object ([], null, "ok", 3) used to raise
-        # AttributeError out of this function, and main() wraps no check --
-        # so every LATER gate check silently never ran. Failing open on a
-        # malformed input is worse than the defect this check exists to catch.
-        if not isinstance(r, dict):
-            raise TypeError(f"receipt is {type(r).__name__}, expected an object")
-        attempted = str(r.get("attempted", ""))
-        ok = r.get("ok")
-        errs = r.get("errors") or []
-    except FileNotFoundError:
-        # NOT the same as a failed build: nothing has been recorded either way.
-        record(BLOCK, name, False,
-               "NO BUILD RECEIPT — cannot establish that dashboard_state.json came "
-               "from the latest build; run fleet_dashboard.py", src)
-        return "UNCERTIFIED SNAPSHOT — "
-    except Exception as e:
-        record(BLOCK, name, False, f"build receipt unreadable: {type(e).__name__}: {e}", src)
-        return "UNCERTIFIED SNAPSHOT — "
-    if not ok:
-        record(BLOCK, name, False,
-               f"LAST BUILD FAILED at {attempted or 'unknown'} ({len(errs)} error(s)): "
-               + " | ".join(str(e) for e in errs)
-               + f" — dashboard_state.json still at {state_built or 'unknown'}", src)
-        return "STALE SNAPSHOT (last build failed) — "
-    if attempted != state_built:
-        # Both stamps are YYYY-MM-DD HH:MM, so a string compare gives the
-        # direction for free. Asserting "older" unconditionally printed a
-        # sentence the two numbers beside it refuted, and sent a cold reader
-        # to fix the wrong file.
-        older = "OLDER than" if state_built < attempted else "NEWER than"
-        record(BLOCK, name, False,
-               f"snapshot does not match the last build — state is {older} it: "
-               f"state built {state_built or 'unknown'}, last build {attempted}", src)
-        return "STALE SNAPSHOT (does not match last build) — "
-    record(BLOCK, name, True, f"last build {attempted} succeeded and produced this snapshot", src)
-    return ""
-
-
-def check_dashboard_state():
-    """RETIRED 2026-10-16 (WQ-452.FLEETOPS) — no gate path calls this; kept unreferenced pending cleanup.
-    The publisher's own blank panels — the 4-day silent regression class.
-    BLOCKING on emptiness (a degraded Will-facing page), advisory on vintage.
-    L339: the checks below certify the FILE — the receipt check above certifies
-    that the file is the latest build's output. A green line here over a stale
-    snapshot is the exact shape that let a failed build ship."""
-    path = ROOT / "PROME/tools/dashboard_state.json"
-    try:
-        s = json.loads(path.read_text())
-    except Exception as e:
-        check_dashboard_build_receipt("")
-        record(BLOCK, "dashboard panels nonempty", False, f"state unreadable: {e}",
-               "PROME/tools/fleet_dashboard.py")
-        return
-    built = s.get("built", "")
-    stale = check_dashboard_build_receipt(built)
-    empty = [k for k, v in (("one-liner", s.get("one")), ("channels", s.get("channels")),
-                            ("levels", s.get("levels"))) if not v]
-    record(BLOCK, "dashboard panels nonempty", not empty,
-           stale + (("EMPTY: " + ", ".join(empty)) if empty else "one-liner/channels/levels populated"),
-           "PROME/tools/fleet_dashboard.py (rebuild; if still empty a parser broke — PAT-069)")
-    try:
-        age_h = (dt.datetime.now() - dt.datetime.strptime(built, "%Y-%m-%d %H:%M")).total_seconds() / 3600
-        record(ADVISE, f"dashboard vintage ≤{DASH_STALE_HOURS}h", age_h <= DASH_STALE_HOURS,
-               stale + f"built {built} ({age_h:.0f}h ago)", "regenerate + republish to the RECORDED URL")
-    except ValueError:
-        record(ADVISE, "dashboard vintage", False, stale + f"unparseable built stamp '{built}'",
-               "PROME/tools/fleet_dashboard.py")
-    # PAT-105 content assertions (8/16, DAEDALUS sweep-1 guard rec, Will "go"):
-    # nonemptiness certifies presence, not truth — every live Will-facing
-    # failure this window was NONEMPTY (the one-liner rendered "SPENT", a
-    # kill-on-sight token). Four cheap truth checks, advisory tier:
-    bad = []
-    one = (s.get("one") or "").strip().strip('"“”')
-    hb_text = ""
-    try:
-        hb_text = (ROOT / "HEARTBEAT.md").read_text(errors="ignore")
-    except OSError:
-        pass
-    kill_line = next((ln for ln in hb_text.splitlines()
-                      if "kill-on-sight" in ln), "")
-    if len(one) < 40:
-        bad.append(f"one-liner suspiciously short ({len(one)} chars) — token-capture class")
-    elif kill_line and one[:60] in kill_line:
-        bad.append("one-liner text appears on HEARTBEAT's own kill-on-sight line")
-    if not (s.get("split") or "").strip():
-        bad.append("NEXUS split EMPTY (separator-drift class, blank 17d once)")
-    if len(s.get("levels") or {}) < 6:
-        bad.append(f"only {len(s.get('levels') or {})} gate tiles (<6 floor — "
-                   "token-rename attrition class, 13→4 once)")
-    try:
-        import agent_freshness
-        # L294 F-4: this read `(own_surface_age_days(n) or 0) > 7`, so BOTH
-        # "never committed" and "the git query failed" arrived as 0 days = brand
-        # new. Three states now, each reported as itself — a desk whose freshness
-        # could not be established is not a desk that is fresh.
-        wrong, unknown, never = [], [], []
-        for n, cls in (s.get("fleet") or {}).items():
-            if cls != "ok" or n == "PROME":
-                continue
-            state, days = agent_freshness.own_surface_age_state(n)
-            if state == "aged" and days > 7:
-                wrong.append(f"{n} ({days:.0f}d)")
-            elif state == "never":
-                never.append(n)
-            elif state == "unknown":
-                unknown.append(n)
-        if wrong:
-            bad.append("fleet grid says ok but own-surface age >7d: " + ", ".join(wrong))
-        if never:
-            bad.append("fleet grid says ok but NO COMMIT has ever touched their own tree: "
-                       + ", ".join(never))
-        if unknown:
-            bad.append("fleet grid says ok but own-surface age could NOT be established "
-                       "(git query failed): " + ", ".join(unknown))
-    except Exception as e:
-        bad.append(f"grid-agreement check unavailable ({type(e).__name__})")
-    record(ADVISE, "dashboard content assertions (PAT-105)", not bad,
-           stale + ("; ".join(bad) or "one-liner sane · split populated · tile floor met · grid agrees with freshness"),
-           "PROME/tools/fleet_dashboard.py (rebuild + fix the parser, never the state file)")
-
-
-def symmetry_boot_reads(boot_text):
-    """Mandatory boot reads = backticked paths on a BOOT.md Boot-Sequence line that carries
-    the word `Read` (T2-c v1 contract, DAEDALUS 7/28). Lowercase directory segments allowed
-    (2026-10-20): the old pattern could not see `PROME/state/CALENDAR.md` at all."""
-    seq = boot_text.split("## Boot Sequence", 1)[-1].split("## Conditional Modules")[0]
-    reads = set()
-    for ln in seq.splitlines():
-        if re.search(r"\bRead\b", ln):
-            reads.update(re.findall(r"`((?:PROME/)?(?:[a-z_]+/)*[A-Z][A-Za-z_]+\.(?:md|tsv))`", ln))
-    return reads
-
-
-def symmetry_registered(close_text):
-    """Registered = the path in a symmetry-table row's FIRST cell, or named on the explicit
-    `**Intentionally one-way` line. A prose mention, a comment, or another row's cell does
-    NOT register a surface (CATO CM1, 2026-10-20: the old `name in section` test passed with
-    the CALENDAR row deleted, because the DOCKET row mentioned the file)."""
-    sym = close_text.split("## Boot↔Closeout symmetry", 1)[-1].split("\n## ", 1)[0]
-    reg = set()
-    for ln in sym.splitlines():
-        m = re.match(r"^\|\s*`([^`]+)`\s*\|", ln)
-        if m:
-            reg.add(m.group(1).strip())
-        elif ln.startswith("**Intentionally one-way"):
-            reg.update(x.strip() for x in re.findall(r"`([^`]+)`", ln))
-    return reg
-
-
-def symmetry_missing(boot_text, close_text):
-    reg = symmetry_registered(close_text)
-    # A bare root-relative name (e.g. `HEARTBEAT.md`) matches only itself; a `PROME/` path
-    # matches itself or its PROME-relative spelling. Never a basename match across owners.
-    def registered(s):
-        return s in reg or (s.startswith("PROME/") and s[len("PROME/"):] in reg)
-    return sorted(s for s in symmetry_boot_reads(boot_text) if not registered(s))
-
-
-def check_symmetry():
-    """T2-c: a boot-read surface isn't wired until its CLOSEOUT symmetry row
-    exists (paired-write or explicitly one-way). BOOT absorbed 4 gates in 48h
-    the table never learned about — growth must register at the slow surface."""
-    boot = (ROOT / "PROME/BOOT.md").read_text(errors="ignore")
-    close = (ROOT / "PROME/CLOSEOUT.md").read_text(errors="ignore")
-    missing = symmetry_missing(boot, close)
-    n = len(symmetry_boot_reads(boot))
-    record(ADVISE, "boot↔closeout symmetry", not missing,
-           ("boot-reads with no symmetry row: " + ", ".join(missing)) if missing
-           else f"{n} boot-read surfaces all registered",
-           "PROME/CLOSEOUT.md symmetry table (add paired-write row or declare one-way)")
 
 
 def check_desk_catalyst_summons(today=None):
@@ -1449,45 +1114,32 @@ def check_desk_catalyst_summons(today=None):
 # ----------------------------------------------------------------------- modes
 
 def check_byte_budgets():
-    """Declared read coverage plus the separately governed auto-memory cap."""
+    """Declared read coverage (READ_CAP). MEMORY.md is measured by check_memory_length (WQ-578 batch 2)."""
     run_script(ADVISE, "declared read budgets", [sys.executable,
                "scripts/read_cap_check.py", "--agent", "PROME", "--require-manifest",
                "--charter-mode", CHARTER_MODE],
                "READ_CAP.md · PROME/registry/READS.tsv · full output names affected reads",
                summarize=lambda body, rc: summarize_read_cap(body, rc, CHARTER_MODE))
-    # Keep memory independent: an unassessed manifest must not suppress its check.
-    guard(check_memory_budget)
 
 
-def check_memory_budget():
-    try:
-        caps = (ROOT / "scripts/harness_caps.env").read_text(encoding="utf-8")
-        values = re.findall(r'^MEMORY_HARNESS_CAP_BYTES=(.+)$', caps, re.M)
-        if len(values) != 1:
-            raise ValueError("missing or duplicate memory cap")
-        cap = int(values[0].strip().strip('"'))
-        if cap <= 0:
-            raise ValueError("memory cap must be positive")
-        size = (ROOT / "memory/auto/MEMORY.md").stat().st_size
-        pct = size * 100 // cap
-        ok, detail = pct < 75, f"MEMORY.md {size} B / {cap} B ({pct}%)"
-        if not ok:
-            detail += " — ≥75%: rotation due"
-    except (OSError, ValueError) as exc:
-        ok, detail = False, f"UNKNOWN: {exc}"
-    record(ADVISE, "auto-memory byte budget", ok, detail,
-           "scripts/harness_caps.env · MEMORY flow rule 8/12")
+def summarize_memory_length(body, rc):
+    """The script's own measurement line, verbatim; no line ⇒ UNKNOWN (caps file or index missing), never clean."""
+    head = next((l for l in body.splitlines() if l.startswith("MEMORY.md: ")), None)
+    if head is None or rc not in (0, 1, 2):
+        raise ValueError("no `MEMORY.md:` measurement line — caps file or index missing; read the log")
+    return rc == 0, head + {0: "", 1: " — at/over the 75% flow-rule line: demote rows at this session's closeout (CLOSEOUT step 6)",
+                            2: " — OVER the boot-load cap: entries past it are not loaded; demote at this session's closeout"}[rc]
 
 
-def check_calendar_views():
-    # Both checks use the same caller date even if the pair crosses ET midnight.
-    as_of = dt.datetime.now(ZoneInfo("America/New_York")).date().isoformat()
-    base = [sys.executable, "scripts/docket_view.py", "--as-of", as_of]
-    run_script(ADVISE, "generated calendar freshness", base + ["--check-generated", "PROME/state/CALENDAR.md"],
-               "Regenerate with scripts/docket_view.py --write PROME/state/CALENDAR.md; source is DOCKET.tsv",
-               summarize=summarize_generated)
-    # "handwritten calendar coverage" RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #21): no hand-written calendar left in
-    # SCRATCH since 2026-10-20, so it matched zero claims every run.
+def check_memory_length():
+    """WQ-578 batch 2 (#35, Will 2026-10-31 15:57 ET): ONE measurement of MEMORY.md per moment, ONE implementation —
+    the root step-1d script. Here at BOOT as the early warning; at closeout it runs at CLOSEOUT step 6, BEFORE the
+    freeze, where the flow rule's demotions still land in the reviewed candidate (the gate's post-freeze closeout
+    copy and its own Python re-measurement are retired)."""
+    run_script(ADVISE, "auto-memory length (scripts/check_memory_length.sh — the root step-1d script)",
+               ["bash", "scripts/check_memory_length.sh"],
+               "MEMORY flow rule 8/12: ≥75% ⇒ demote rows to INDEX_COLD.md until <70% (PROME only; desks flag)",
+               summarize=summarize_memory_length)
 
 
 def check_claude_dir_drift():
@@ -1692,7 +1344,7 @@ def summarize_orch_closeout(body, rc, today=None):
     todays = [l[len("UNKNOWN: "):].split(" ", 1)[1].split(" touch ", 1)[0] for l in unknown if l.split()[1] == today]
     older = [d for d in dates if d != today]
     legacy = (f"UNKNOWN rows {len(unknown)} (today {len(todays)}" + (f": {' '.join(dict.fromkeys(todays))}" if todays else "")
-              + f" · older {len(older)}" + (f" ≤{older[-1]}, the standing WQ-249 backlog — not a boot read" if older else "")
+              + f" · older {len(older)}" + (f" ≤{older[-1]}, the standing WQ-249 backlog, worked at closeout" if older else "")
               + ")") if unknown else "UNKNOWN rows 0"
     def seg(label, short):
         n = counts[label]; who = names.get(label) or []
@@ -1725,6 +1377,46 @@ def summarize_spawn_list(body, rc):
     return rc == 0, " · ".join(parts)          # no cap (read 2 C17): every DARK/ACTIVE id, or nothing is claimed complete
 
 
+def spawn_list_and_slate(horizon, label, owner, tsv=False):
+    """WQ-578 batch 2 (#32): ONE gate line for the spawn driver. The slate (PROME/state/SPAWN_SLATE.md, gitignored)
+    is regenerated first; its outcome rides on the spawn-list line, and a failed regeneration turns that line ⚠️ —
+    never silent. Both were advisory before the merge; the merged line is advisory."""
+    log = _check_log_path(f"spawn slate +{horizon}d")
+    try:
+        with log.open("x", encoding="utf-8") as output:
+            rc_slate = subprocess.run([sys.executable, "PROME/tools/spawn_slate.py", "--horizon", horizon],
+                                      cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120).returncode
+        out = log.read_text(encoding="utf-8", errors="replace")
+        # ❌ X1 (batch-2 review, 2026-10-31): spawn_slate WRITES the slate and then exits with spawn_list's rc — 1 on any
+        # DARK row, 2 on an UNKNOWN row or a FAILED conservation count — so its rc never says whether it wrote. Its own
+        # lines do: `spawn_slate · as-of … → <path>` on a write, `spawn_slate · ⛔ FAILED` when a banner replaced the slate.
+        wrote = re.search(r"^spawn_slate · as-of .* → (\S+)", out, re.M)
+        if wrote and "spawn_slate · ⛔ FAILED" not in out:
+            try:
+                incomplete = "conservation FAILED" in (ROOT / wrote.group(1)).read_text(encoding="utf-8", errors="replace")
+            except OSError:
+                incomplete = True
+            slate_ok = not incomplete
+            slate = (f"slate {wrote.group(1)} regenerated" + (" — ⚠️ INCOMPLETE: conservation FAILED or unreadable; read its "
+                     "top block before trusting any count" if incomplete else ""))
+        else:
+            slate_ok = False
+            slate = (f"slate NOT regenerated (spawn_slate.py rc={rc_slate}"
+                     + ("; a FAILED banner replaced it" if "spawn_slate · ⛔ FAILED" in out else "; no write line")
+                     + f"; log {log}) — do not read a stale slate")
+    except Exception as e:
+        slate_ok, slate = False, f"slate NOT regenerated ({type(e).__name__}: {str(e)[:80]}) — do not read a stale slate"
+
+    def summarize(body, rc):
+        try:
+            ok, summary = summarize_spawn_list(body, rc)
+        except (ValueError, KeyError) as exc:
+            raise ValueError(f"{exc} · {slate}") from exc
+        return ok and slate_ok, f"{summary} · {slate}"
+    cmd = [sys.executable, "PROME/tools/spawn_list.py", "--horizon", horizon] + (["--tsv"] if tsv else [])
+    run_script(ADVISE, label, cmd, owner, summarize=summarize)
+
+
 def check_orch_closeout():
     run_script(ADVISE, "orchestrated touch closeout evidence (WQ-249)",
                [sys.executable, "PROME/tools/orch_closeout.py"],
@@ -1734,74 +1426,9 @@ def check_orch_closeout():
                "without that attestation inventory coverage remains UNKNOWN. Reporting only, not BLOCK.",
                summarize=summarize_orch_closeout)
 
-ORCH_LEDGER = ROOT / "PROME/state/ORCH_LOG.tsv"
-ORCH_VIEW = ROOT / "PROME/state/ORCH_INFLIGHT.md"
-ORCH_VIEW_HEADER = re.compile(r"^# generated (\d{4}-\d{2}-\d{2}) · source \S+ \((\d+) data rows\)", re.M)
 ORCH_OWNER = ("scripts/orch_log.py append — the ONLY writer (validates the row and the ledger, appends under a lock, "
               "regenerates PROME/state/ORCH_INFLIGHT.md as its last step); a hand row: `orch_log.py check`, then "
               "`orch_log.py view`, and NAME the row in the closeout report (L733, 2026-10-15)")
-
-
-def orch_ledger_rows(path):
-    """Data-row count + newest date of a schema-v2 ledger, counted the way orch_log.check counts
-    (non-empty, non-comment lines; the `date\t…` header excluded). Raises OSError on an unreadable file."""
-    n, newest = 0, ""
-    for ln in Path(path).read_text(encoding="utf-8").split("\n"):
-        if not ln.strip() or ln.startswith("#"):
-            continue
-        f = ln.split("\t")
-        if f[0] == "date":
-            continue
-        n += 1
-        newest = max(newest, f[0].strip())
-    return n, newest
-
-
-def check_orch_log_observed(ledger=None, view=None):
-    """L733 OBSERVED (2026-10-15): `scripts/orch_log.py append` regenerates the in-flight view as its LAST
-    step under the writer lock, so the view's header count equals the ledger's data-row count whenever
-    every row entered through the writer. A ledger with MORE rows than the view records holds a row
-    typed by hand (or a writer append whose view step failed and said so). COUNT, not date: a same-day
-    hand row passes a date test (the 10/15 class — 59 hand rows, two merged plus a blank line, found by
-    a hand width check hours later). BLOCKING because an advisory here is overridden exactly as the
-    width check was; the remedy is one command and the row's name in the closeout report. A missing or
-    unparseable input is UNKNOWN and FAILS — never a pass, never a silent default.
-    ⚠️ LIMIT (independent read 1, 2026-10-15, CE1): this catches a hand row that NO writer append has
-    followed. A later `append` rebuilds the view over the whole ledger, so equality is NOT evidence of
-    zero hand rows; the fix that closes that hole is in the writer (refuse to append onto a ledger whose
-    count disagrees with the view) — DAEDALUS-owned, packeted 2026-10-15."""
-    ledger = Path(ledger) if ledger else ORCH_LEDGER
-    view = Path(view) if view else ORCH_VIEW
-    name = "orchestration log OBSERVED (in-flight view row count == ledger, L733)"
-    try:
-        head = "\n".join(view.read_text(encoding="utf-8").split("\n")[:3])
-    except OSError as e:
-        record(BLOCK, name, False, f"UNKNOWN: view unreadable ({type(e).__name__}: {str(e)[:80]}) — "
-               "regenerate with `orch_log.py view`", ORCH_OWNER)
-        return False
-    m = ORCH_VIEW_HEADER.search(head)
-    if not m:
-        record(BLOCK, name, False, "UNKNOWN: the view's header carries no `# generated <date> · source … (N data rows)` "
-               "line — not the writer's form; regenerate with `orch_log.py view`", ORCH_OWNER)
-        return False
-    vdate, vcount = m.group(1), int(m.group(2))
-    try:
-        n, newest = orch_ledger_rows(ledger)
-    except OSError as e:
-        record(BLOCK, name, False, f"UNKNOWN: ledger unreadable ({type(e).__name__}: {str(e)[:80]})", ORCH_OWNER)
-        return False
-    ok = n == vcount
-    if ok:
-        detail = f"view generated {vdate} records {vcount} data rows == ledger {n} (newest row {newest or '—'})"
-    elif n > vcount:
-        detail = (f"ledger holds {n} data rows, the view (generated {vdate}) records {vcount}: {n - vcount} row(s) "
-                  f"entered WITHOUT the writer, or its view step failed — `orch_log.py check`, then `orch_log.py view`, "
-                  f"and name the row(s) in the closeout report (newest ledger row {newest})")
-    else:
-        detail = (f"the view (generated {vdate}) records {vcount} data rows, the ledger holds {n}: rows left the ledger "
-                  f"without `orch_log.py rotate`/`view` — regenerate with `orch_log.py view` and say what moved")
-    record(BLOCK, name, ok, detail, ORCH_OWNER)
-    return ok
 
 
 MEMORY_OWNER = "root CLAUDE.md carve-out ③ · scripts/memory_index_check.py --strict --slug <name>"
@@ -1949,7 +1576,7 @@ def check_claims():
 
 
 def mode_boot(advance_board=True):
-    check_orch_closeout()
+    # WQ-249 orchestration closeout evidence runs at CLOSEOUT only since 2026-10-31 (WQ-578 batch 2, #1).
     run_capability("machine credentials (env_doctor)",
                    [sys.executable, "scripts/env_doctor.py", "--quiet"],
                    "PROME/MACHINE_LOCAL.md",
@@ -1986,16 +1613,13 @@ def mode_boot(advance_board=True):
                "`scripts/corrections_boot_check.py PROME --receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` "
                "and commit PROME/registry/corrections_receipts.tsv")
     guard(check_gates_tsv)
-    guard(check_docket_overdue)
+    # WQ-578 batch 2 (Will 2026-10-31 15:57 ET): DOCKET overdue-unannotated (#17) RETIRED — spawn_list below names every
+    # due row by owner class and the generated calendar carries the OVERDUE line; the calendar-freshness check (#20)
+    # RETIRED — BOOT step 2 regenerates the calendar before reading it; the willq_view drift check (#24) RETIRED —
+    # the view is regenerated after every queue write (BOOT 3b) and at closeout (CLOSEOUT step 2).
     guard(check_docket_buried_state_token)
-    guard(check_calendar_views)
     guard(check_will_queue)
     guard(check_aged_waits)  # WQ-221 instrument — boot only; closeout slates via spawn_list
-    run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
-               "PROME/tools/willq_view.py", "--check", "PROME/SCRATCH.md"],
-               "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "
-               "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
-               "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
     # HEARTBEAT amendment-chain check RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #25): read_cap_check meters the file.
     # 2026-09-13: a markdown row with MORE cells than its header has the excess
     # DROPPED at render, silently. PROME/STATUS.md L21 lost two cells that way —
@@ -2020,36 +1644,29 @@ def mode_boot(advance_board=True):
     # WQ-184 L1 (Will 2026-09-05 21:42 "approve WQ-184 with your recs"): the spawn driver. rc=1 = a DARK row —
     # a registered dated row has arrived and its owner has no self-commit since; under L0 that is a Tier-1
     # spawn at THIS boot (ListAgents first; cap 4; ACTIVE ⇒ consumer read at the owner's artifact first).
-    run_script(ADVISE, "spawn list — L0 due-row candidates (WQ-184)",
-               [sys.executable, "PROME/tools/spawn_list.py", "--horizon", "0"],
-               "DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; "
-               "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it",
-               summarize=summarize_spawn_list)
-    # DAEDALUS 2026-10-02 (Will-commissioned via PROME DAEDALUS packet 3892a8e40): spawn slate built
-    # on spawn_list.render(). The ANSWERED/PARTIAL class the brief asked for FAILED its independent
-    # read (BRENT and MIDAS each asked their own packets for re-spawn ≥15:30 ET; v1 said ALREADY ANSWERED)
-    # and is WITHDRAWN. The tool now says only: RETURN FOUND (pointer, never a grade) · NO CITING RETURN ·
-    # UNCHECKED. SPAWN_SLATE.md is state-local (`.gitignore` entry); regenerated per gate run.
-    run_script(ADVISE, "spawn slate — prepared stanzas (advisory; RETURN FOUND is a pointer, not a grade)",
-               [sys.executable, "PROME/tools/spawn_slate.py", "--horizon", "0"],
-               "read the top block of PROME/state/SPAWN_SLATE.md, then only the stanzas you act on")
-    presence_cmd = [sys.executable, "PROME/tools/session_presence.py"]
-    if SESSION_JSON:
-        presence_cmd += ["--sessions-json", str(SESSION_JSON)]
-    run_script(ADVISE, "session evidence beside ALL due rows — fleet presence UNKNOWN",
-               presence_cmd, "read full output; snapshot is NOT native spawn preflight or proof of absence")
+    # DAEDALUS 2026-10-02: the spawn slate is built on spawn_list.render(); its ANSWERED/PARTIAL class FAILED
+    # its independent read and is WITHDRAWN — RETURN FOUND is a pointer, never a grade. SPAWN_SLATE.md is
+    # state-local (`.gitignore` entry). One line for both since 2026-10-31 (WQ-578 batch 2, #32).
+    guard(spawn_list_and_slate, "0", "spawn list — L0 due-row candidates (WQ-184) + slate",
+          "DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; "
+          "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it · "
+          "read the slate's top block (PROME/state/SPAWN_SLATE.md), then only the stanzas you act on")
+    # Session-presence line RETIRED 2026-10-31 (WQ-578 batch 2, #33): it said itself it proved nothing; presence before a
+    # launch is the same-minute Desk-spawn preflight in PROME/CLAUDE.md. The tool stays for on-demand use.
     guard(check_byte_budgets)
+    guard(check_memory_length)      # early warning; the closeout measurement is CLOSEOUT step 6, before the freeze
 
 
 def mode_closeout(tier=None, memory=None, superseded=None):
     check_orch_closeout()
     # L733 (2026-10-15): the orchestration log has ONE writer and closeout is where its rows get WRITTEN
-    # (Pre-closeout 3, step 8) — the validator and the OBSERVED check run here, BLOCKING. The writer existed
+    # (Pre-closeout 3, step 8) — the validator runs here, BLOCKING (its OBSERVED companion retired 2026-10-31). The writer existed
     # since 9/3 (L262 RESOLVED named it canonical); every 10/15 row was typed by hand because no procedure
     # routed to it and this gate never ran `check`.
     run_script(BLOCK, "orchestration log validates (scripts/orch_log.py check, L733)",
                [sys.executable, "scripts/orch_log.py", "check"], ORCH_OWNER)
-    guard(check_orch_log_observed)
+    # OBSERVED view-count check RETIRED 2026-10-31 (WQ-578 batch 2, #37): its own notes said a match was NOT evidence of
+    # zero hand rows; the hand-row fix belongs in the writer (`orch_log.py append`), and `orch_log.py check` above stays.
     guard(check_review_manifest, tier)
     # Decision Deck checks (publication prerequisites, Deck republish) RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #39/#40):
     # the Deck is PAUSED (WQ-460) and they always printed PASS; restore them with the Deck on Will's word. NOT CATO's
@@ -2057,40 +1674,29 @@ def mode_closeout(tier=None, memory=None, superseded=None):
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical")
     guard(check_gates_tsv)          # FIRED-UNEXECUTED must never leave a session
-    guard(check_docket_overdue)
     guard(check_docket_buried_state_token)
     guard(check_docket_today)       # the pre-fire analogue: don't go dark before today's items
-    guard(check_calendar_views)
     guard(check_desk_catalyst_summons)  # don't go dark on a desk's catalyst eve (BD-02)
     # WQ-184 L1 closeout half: what LANDS before the next likely boot (1d weekday, 3d Fri/Sat) and who is there —
     # slate them in the closeout report (8/27 precedent); the spawn itself waits for the first boot on/after the date. Never silence.
     _gap = "3" if dt.date.today().weekday() in (4, 5) else "1"
-    run_script(ADVISE, f"spawn list — rows landing before the next boot (+{_gap}d, WQ-184)",
-               [sys.executable, "PROME/tools/spawn_list.py", "--horizon", _gap, "--tsv"],
-               "LANDS-IN rows with a dark owner ⇒ SLATE them in the closeout report (the spawn waits for the first "
-               "boot on/after the date, or Will's word from the slate); DARK ⇒ act before going dark")
-    run_script(ADVISE, f"spawn slate — closeout stanzas (horizon +{_gap}d, advisory)",
-               [sys.executable, "PROME/tools/spawn_slate.py", "--horizon", _gap],
-               "read the top block of PROME/state/SPAWN_SLATE.md, then only the stanzas you act on")
+    guard(spawn_list_and_slate, _gap, f"spawn list — rows landing before the next boot (+{_gap}d, WQ-184) + slate",
+          "LANDS-IN rows with a dark owner ⇒ SLATE them in the closeout report (the spawn waits for the first "
+          "boot on/after the date, or Will's word from the slate); DARK ⇒ act before going dark", tsv=True)
     guard(check_will_queue)
-    run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
-               "PROME/tools/willq_view.py", "--check", "PROME/SCRATCH.md"],
-               "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "
-               "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
-               "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
+    # willq_view drift check RETIRED 2026-10-31 (WQ-578 batch 2, #24): CLOSEOUT step 2 regenerates the view instead.
     # HEARTBEAT amendment-chain check RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #25).
     # Fleet-Ops dashboard checks RETIRED 2026-10-16 (WQ-452.FLEETOPS, Will 12:56 ET) — the page was retired 10/2 (WQ-372); the state file's only readers were these checks and will_brief's channel feed (retired with it). Record: PROME/proposals/2026-10-16_wq452-fleetops-retire-RULED.md
-    guard(check_byte_budgets)       # flow-rule meter: >=75% here means rotate NOW, in this closeout
+    guard(check_byte_budgets)       # declared read budgets (READ_CAP)
+    # MEMORY.md is measured at CLOSEOUT step 6 (root 1d's check_memory_length.sh, before the freeze), not here (WQ-578 batch 2, #35).
     # BLOCKING at closeout and advisory at boot, deliberately: closeout is where
     # these rows get WRITTEN, so this is the only run that can stop the defect
     # from shipping. Shipping it costs a rendered reader the content entirely.
     run_script(BLOCK, "boot-read tables: no over-celled rows",
                [sys.executable, "PROME/tools/table_check.py", "--quiet"],
                "fix the ROW before committing — the named cells are DROPPED in every rendered read")
-    # WQ-417 P1: BLOCK at closeout — a short done row ships a ruling the ledger and the Deck never see.
-    run_script(BLOCK, "done rows: parser-independent short-row + rulings-reach-ledger (WQ-417 P1)",
-               [sys.executable, "PROME/tools/done_rows_check.py", "--quiet"],
-               "fix the ROW (three cells) and `wq_ledger.py sync` before committing; rc=2 = file or heading missing")
+    # WQ-417 P1 done-rows check: NOT run here since 2026-10-31 (WQ-578 batch 2, #27) — it runs ONCE per closeout, at
+    # CLOSEOUT step 7 before the freeze where a fix still lands in the reviewed candidate; advisory while the Deck is paused.
     # DOCKET changed-row byte cap RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #41): dormant since 2026-10-05 (no cap set),
     # it decided nothing; also unwired from the pre-commit and save hooks.
     guard(check_claude_dir_drift)   # root<->PROME skill/agent parity at CLOSEOUT too (REV 8/29): a closeout that edits one tree would otherwise ship drift and find it next boot
@@ -2109,13 +1715,12 @@ def mode_closeout(tier=None, memory=None, superseded=None):
 
 
 def main():
-    global LOG_DIR, SESSION_JSON, CHARTER_MODE, GATE_MODE
+    global LOG_DIR, CHARTER_MODE, GATE_MODE
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     ap.add_argument("mode", choices=["boot", "refresh", "closeout"])
     ap.add_argument("--charter-mode", choices=("explicit", "injected"), default="explicit",
                     help="Budget root/local explicit reads unless context injection is confirmed")
     ap.add_argument("--log-dir", type=Path, help="New directory for complete child-check output")
-    ap.add_argument("--sessions-json", type=Path, help="Optional fresh same-host inventory for boot")
     ap.add_argument("--tier", choices=["bounce", "light", "standard", "heavy"],
                     help="closeout tier; standard/heavy REQUIRE a recorded ARGUS review "
                          "(missing or unevaluable becomes BLOCKING)")
@@ -2152,7 +1757,6 @@ def main():
         LOG_DIR = args.log_dir.resolve()
     else:
         LOG_DIR = Path(tempfile.mkdtemp(prefix="prome-gate-checks-"))
-    SESSION_JSON = args.sessions_json.resolve() if args.sessions_json else None
 
     # L294 F-7: the mode call itself is the last unguarded frame. guard() covers each
     # check, but anything raising BETWEEN checks would still discard the whole run's
