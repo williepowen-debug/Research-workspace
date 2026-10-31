@@ -8,7 +8,8 @@ Targets (by path suffix):
                       clean while emitting phantom positions; this hook makes that loud at save)
                     + read-cap byte meter (32,550 B) as a WARNING line
   PROME/GATES.tsv   → prome_gate token-vocabulary / fired / review_by checks (read-only funcs)
-  PROME/DOCKET.tsv  → prome_gate overdue-annotation check + changed-row byte cap (docket_row_cap.py)
+  (PROME/DOCKET.tsv part RETIRED 2026-10-31, WQ-578 G1 #59/#41: its output could never show — exit 0 output is
+   hidden — and the row cap was dormant; the gate's DOCKET checks remain.)
 
 Protocol: stdin JSON {tool_name, tool_input:{file_path}}. exit 2 + stderr = the message is
 shown to the model as an error it must fix; exit 0 = silent. Parse failure ⇒ exit 0.
@@ -79,8 +80,6 @@ def main() -> int:
             msgs = forge_status(p)
         elif fp.endswith("PROME/GATES.tsv"):
             msgs = prome_gate_checks("gates")
-        elif fp.endswith("PROME/DOCKET.tsv"):
-            msgs = prome_gate_checks("docket") + docket_row_cap()
         else:
             return 0
     except Exception as e:

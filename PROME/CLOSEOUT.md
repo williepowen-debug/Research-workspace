@@ -53,7 +53,7 @@ End-of-day runs at least Standard. **Decision Deck Owed and Reference are PAUSED
 
 ## Boot↔Closeout symmetry — ONE HOME PER FACT
 
-Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_tail]]`). `check_symmetry()` reads this section: every mandatory boot-read surface is registered here, paired-write or explicitly one-way.
+Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_tail]]`). Every mandatory boot-read surface is registered here, paired-write or explicitly one-way.
 
 ⛔ **Write each fact ONCE, in the column that owns it, and nowhere else.** A fact that already has a home is a POINTER everywhere else — never a second copy. This table replaces the former "Prome Write-Back Contract", which said the same things again in different words.
 

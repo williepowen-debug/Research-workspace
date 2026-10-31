@@ -95,3 +95,28 @@ There are 61 automated checks: 47 lines in PROME's boot/closeout gate, the boot 
 
 ### What the reviewer could not measure
 Hook fire counts (no logs for `git_guard`, `pre-push`, `account_guard`, `pipeline_rc_block`, `forge_validate`); a small frequency sample (one boot plus two refreshes, the 10/26 boot, the 9/9 runs; no recent closeout gate output saved); desk closeout outcomes counted by commit-message keyword search (the 760/314 nudge figures and `consumer_check` examples are estimates); the fire-time 197 / 0 / 3 figures taken from PROME's own write-ups, not re-judged; harm avoided by the rare guards (KEEP rests on cost of a miss); each desk's own `boot.py` out of scope.
+
+## Execution receipt — WQ-578 batch 1 (PROME prome-34, 2026-10-31 16:32 ET)
+
+Will's word 15:57 ET in PROME's chat, verbatim *"Okay approved go ahead"* (WQ-578 as revised with Sloane's refinements). One combined independent review of the removal batch: **ACCEPT WITH NAMED RESIDUE, ❌ 0, ⚠️ 7** — ledger `PROME/reports/2026-10-31_wq578-combined-review.md`.
+
+| Group | Done in this commit | Not done |
+|---|---|---|
+| G1 | Gate wiring removed, functions kept: #6 boot fire-time scan, #7 agent-freshness line, #21 handwritten-calendar coverage, #25 HEARTBEAT chain (boot and closeout), #28 boot↔closeout symmetry, #39/#40 paused-Deck checks, #41 DOCKET row-cap closeout run. #57 and #58 hook entries removed from both repo `settings.json` files. #59 DOCKET part of `forge_validate.py` removed. | #41's `scripts/githooks/pre-commit` half: **deferred**. That file is pinned by the live Decisions app acceptance; editing it put the live app into its read-only state from about 16:01 to 16:23 ET (no answer altered; restored to HEAD bytes, all 20 pins re-verified 16:3x ET). It moves only inside a reviewed Decisions candidate. #57/#58 still live in the user-level `~/.claude/settings.json` (W1): Will's call, not edited. |
+| G2 | HANDS rows no longer raise PASSED / DUE TODAY / AGING / NOT-ISO; a due `⏰ re-present YYYY-MM-DD` marker in Notes raises RE-PRESENT. | — |
+| G3 | Boot fire-time scan and the WQ-467 C4 written-disposition duty retired (`BOOT.md` steps 5 and 8, both boot skill copies, `BOOT_MODULES.md`, `SYSTEM.md`); the glued-date command is out of root closeout step 1e. Single-document on-demand `firetime_check.py` and the closeout run on artifacts citing a changed DOCKET row stay. | — |
+| G4 | Root step 1c-bis: refresh or freeze a ledger whose data you changed; no explanation needed when nothing substantive changed. | `scripts/ledger_staleness.py` still prints "or say why not in the commit" (W3): owner DAEDALUS, packet sent. |
+
+**Tests (run 16:2x ET, working tree):** `test_docket_row_cap` OK (the pre-commit is untouched), `test_gate_action_owed_WQ467` OK, `test_deck_pause_WQ460` OK, `test_boot_coverage` OK — each trimmed of assertions on retired wiring. `test_locks_safeguards`: the removed fallback-hook assertion is replaced by an assertion that the hook is absent; its 2 remaining failures are in `test_subject_boundaries_and_paragraphs`, which exercises only `scripts/githooks/commit-msg` — byte-identical to HEAD, so not caused by this batch. `test_gate_isolation_L294_F7`: its missing-input probe moved from `CLOSEOUT.md` (read only by the retired symmetry check) to `GATES.tsv`; 4 failures remain against the HEAD-export fixture, all present before this batch (3 clean-fixture failures from the GATES gate-citability check, whose LIVE rows cite desk files the fixture's thin `AGENTS/` slice does not export; 1 bare-call-site check).
+
+**Completion states:** IMPLEMENTED · TESTED (above) · INDEPENDENTLY VERIFIED for the removal batch the combined review read · NOT independently verified: the fixes made after that review (test edits, W5 DOCKET annotations, W7 wording, the pre-commit restore) · STILL UNRESOLVED: W1 (Will), W3 (DAEDALUS), batch 2 (DOCKET row).
+
+**Declared residue (2026-10-31, from the combined review):**
+- W1 — #57/#58 still run through the user-level settings file on this machine (laptop INFERRED the same). Asked of Will; the repo files no longer carry them.
+- W2 — `PROME/tools/spine_audit.workflow.js` still assumes fire-time covers the next 7 days (its sample starts at 8 or more days out). Carried to the batch-2 row.
+- W3 — `ledger_staleness.py` message, DAEDALUS-owned; packet sent.
+- W4 — a malformed ⏰ marker on a HANDS row (in the PROME rec cell, with a colon, or in M/D form) is now silent; both real HANDS markers today (#31, #495) parse. Low priority; batch-2 row.
+- W5 — fixed: DOCKET L852 ① and L892 (4) annotated VOID, L855 and L893 tombstoned, state token first.
+- W6 — fixed as above.
+- W7 — fixed: "four-verdict rules" in `BOOT.md` and both skill copies; save-hook label drops DOCKET in both repo settings files (the user-level label goes with W1); SCRATCH carry line updated; DAEDALUS packet sent. The 10/29 BOOT header stamp left the header without an archive copy; git keeps it.
+- O2 — the Deck resume rows (DOCKET L580, L663, L734) do not say the two Deck checks must be re-wired on resume; the code and test comments do. Batch-2 row.

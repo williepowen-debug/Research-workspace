@@ -313,8 +313,7 @@ class Fixtures(unittest.TestCase):
                 for flag in ("--check-generated", "--require-manifest"):
                     self.assertEqual(sum(flag in c.args[2] for c in calls), 1)
                 calendar = [c for c in calls if "scripts/docket_view.py" in c.args[2]]
-                self.assertEqual(len(calendar), 2)
-                self.assertEqual(calendar[0].args[2][3], calendar[1].args[2][3])
+                self.assertEqual(len(calendar), 1)   # handwritten-calendar coverage retired 2026-10-31 (WQ-578 G1 #21)
                 self.assertTrue(all(c.args[0] == gate.ADVISE and "summarize" in c.kwargs for c in calendar))
 
 

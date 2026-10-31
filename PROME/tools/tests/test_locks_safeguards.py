@@ -212,13 +212,10 @@ class Safeguards(unittest.TestCase):
                     result = self.run_command("bash", "-c", hook["command"], cwd=unrelated, input="{}")
                     self.assertEqual(result.returncode, 0)
                     self.assertEqual(result.stdout, "")
-        fallback = settings["hooks"]["PreToolUse"][0]["hooks"][1]["command"]
-        packet = json.dumps({"tool_name": "Bash", "tool_input": {"command": "git commit -m '" + "x" * 101 + "'"}})
-        self.git("config", "core.hooksPath", "custom")
-        self.assertEqual(self.run_command("bash", "-c", fallback, input=packet).returncode, 2)
-        self.git("config", "--unset", "core.hooksPath")
-        self.assertEqual(self.install().returncode, 0)
-        self.assertEqual(self.run_command("bash", "-c", fallback, input=packet).returncode, 0)
+        # The commit-subject fallback hook was removed from settings 2026-10-31 (WQ-578 G1 #57): it never ran,
+        # because the git hooks are reinstalled at every session start. The wrong-repo half above still applies.
+        self.assertFalse(any("commit_subject_guard" in h["command"]
+                             for h in settings["hooks"]["PreToolUse"][0]["hooks"]))
 
 
 if __name__ == "__main__":

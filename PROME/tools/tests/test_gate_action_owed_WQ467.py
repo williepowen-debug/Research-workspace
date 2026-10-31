@@ -89,8 +89,8 @@ class ActionOwed(unittest.TestCase):
             "WILL_QUEUE present",
             "PROME/inbox drained (every unfiled file, BOOT step 6)",   # 2026-10-21 inbox drain
             "WILL_QUEUE fresh + nothing due/passed/aging",
-            "exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers)",
-            "firetime (owner-routed flags persist)"]))
+            "exempt-desk BOARD gap (§3.5 pull-complete desks vs their ledgers)"]))
+        # "firetime (owner-routed flags persist)" left the gate 2026-10-31 (WQ-578 G3): on-demand only.
 
     def test_C1_missing_queue_file_is_action_at_boot(self):
         with tempfile.TemporaryDirectory() as td, mock.patch.object(g, "ROOT", pathlib.Path(td)):

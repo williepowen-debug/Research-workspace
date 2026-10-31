@@ -33,18 +33,6 @@
             "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; python3 \"$R/PROME/tools/hooks/git_guard.py\"",
             "timeout": 5,
             "statusMessage": "Git guard (root canon prohibitions)"
-          },
-          {
-            "type": "command",
-            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; hp=$(git config --get core.hooksPath 2>/dev/null); if [ \"$hp\" = scripts/githooks ] && [ -x \"$R/scripts/githooks/commit-msg\" ]; then exit 0; fi; python3 \"$R/PROME/tools/hooks/commit_subject_guard.py\"",
-            "timeout": 5,
-            "statusMessage": "Subject guard fallback when native hooks unverified"
-          },
-          {
-            "type": "command",
-            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; python3 \"$R/PROME/tools/hooks/pipeline_rc_block.py\"",
-            "timeout": 5,
-            "statusMessage": "Pipeline rc advisory (additionalContext; no approval)"
           }
         ]
       }
@@ -57,7 +45,7 @@
             "type": "command",
             "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; [ -f \"$R/PROME/ROSTER.md\" ] || exit 0; python3 \"$R/PROME/tools/hooks/forge_validate.py\"",
             "timeout": 90,
-            "statusMessage": "Post-save validator (FORGE/STATUS, GATES, DOCKET)"
+            "statusMessage": "Post-save validator (FORGE/STATUS, GATES)"
           }
         ]
       }

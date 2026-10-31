@@ -982,6 +982,19 @@ def check_will_queue():
                     f"MISFILED #{cells[0]} {cells[1][:30]} "
                     "(closed-in-place in OPEN — move to RECENTLY DONE)")
                 continue
+            # G2 (WQ-578, 2026-10-31): a HANDS row (Will's own hands-on errand) never raises PASSED / DUE TODAY / AGING —
+            # WQ-538 A: "its Needed-by date is never the trigger". Only its Notes marker `⏰ re-present YYYY-MM-DD` is.
+            if cells[2].strip().strip("*`").upper().startswith("HANDS"):
+                rp = re.search(r"⏰\s*re-present\s+(\d{4}-\d{2}-\d{2})", cells[6])
+                if rp:
+                    try:
+                        if dt.date.fromisoformat(rp.group(1)) <= today:
+                            problems.append(f"RE-PRESENT #{cells[0]} {cells[1][:36]} (⏰ {rp.group(1)}, WQ-538 A)")
+                    except ValueError:
+                        problems.append(f"IMPOSSIBLE DATE #{cells[0]} ⏰ re-present '{rp.group(1)}'")
+                if not blocked:
+                    actionable += 1
+                continue
             if re.match(r"\d", cells[0]) and datelike_not_iso(cells[3]):   # B3: flagged by name, still counted; AFTER the closed-in-place exclusion (parity)
                 problems.append(f"NOT-ISO #{cells[0]} needed-by '{cells[3][:24]}' (hard dates are YYYY-MM-DD)")
             d = re.search(r"\d{4}-\d{2}-\d{2}", cells[3])
@@ -1473,10 +1486,8 @@ def check_calendar_views():
     run_script(ADVISE, "generated calendar freshness", base + ["--check-generated", "PROME/state/CALENDAR.md"],
                "Regenerate with scripts/docket_view.py --write PROME/state/CALENDAR.md; source is DOCKET.tsv",
                summarize=summarize_generated)
-    run_script(ADVISE, "handwritten calendar coverage", base + ["--check", "PROME/SCRATCH.md",
-               "--section", "Calendar", "--ignore", r"\breviews?\b"],
-               "Dated handwritten claims only; unassessed claims require inspection; generated content excluded",
-               summarize=summarize_prose)
+    # "handwritten calendar coverage" RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #21): no hand-written calendar left in
+    # SCRATCH since 2026-10-20, so it matched zero claims every run.
 
 
 def check_claude_dir_drift():
@@ -1958,22 +1969,11 @@ def mode_boot(advance_board=True):
                [sys.executable, "PROME/tools/exempt_gap.py"],
                "the ledger is the DESK's to fill (§3.5.2) — packet/doorbell the desk; no ledger ⇒ the desk owes one; "
                "never grade on its behalf")
-    run_script(ACTION, "firetime (owner-routed flags persist)", [sys.executable,
-               "scripts/firetime_check.py", "--window", "7"],  # not --quiet: the flagged lines are the payload
-               "NEW flags only are owed (WQ-467 C4): full logic re-read per DATE flag, never find-replace. ONLY when "
-               "every NEW flag is done or routed: `python3 PROME/tools/firetime_delta.py --log <this log> --accept "
-               "--pointer <record>`; a deferred flag is never accepted (SKIPPED + PARTIAL). Rows no longer reported: "
-               "`--prune` (always allowed). Commit PROME/state/firetime_dispositioned.tsv. BOOT.md step 8",
-               ok_rc=(0, 1), summarize=_firetime_delta_summary, preview=False)
-    # 8/14 Will-directed: agent staleness reads come from ground truth, not narrative.
-    # rc=1 = unread from-agent packets sit in PROME/inbox — PROME's model of those
-    # agents is stale regardless of what SCRATCH's spawn-queue prose says.
-    # Per-agent staleness only (it keys on `from-<AGENT>` names, so it cannot measure the whole inbox —
-    # independent read 2026-10-21 ❌1). The inbox drain itself is the ACTION check `check_prome_inbox` below.
-    run_script(ADVISE, "agent freshness (ground-truth vs narrative)", [sys.executable,
-               "PROME/tools/agent_freshness.py", "--gate"],
-               "run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; the drain is the "
-               "'PROME/inbox drained' line")
+    # Fire-time boot scan RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G3; sweep PROME/reports/2026-10-31_checker-value-sweep.md
+    # #6: ~21 s a run, 197 flags in 11 days, 0 real date errors). On demand only: `python3 scripts/firetime_check.py`
+    # against one trade or gate document when it becomes actionable; no written-disposition duty (WQ-467 C4 undone).
+    # "agent freshness" boot line RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #7): a strict subset of the inbox-drained
+    # line below; the tool stays for one desk on demand: `PROME/tools/agent_freshness.py --agent <NAME>`.
     # 2026-10-21 (Will "we need to fix this"): the inbox went undrained 10/19–10/21 (127 packets) with no
     # step naming the drain; acceptance PROME/tools/tests/ACCEPTANCE_inbox_drain_2026-10-21.md.
     guard(check_prome_inbox)
@@ -1996,7 +1996,7 @@ def mode_boot(advance_board=True):
                "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "
                "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
                "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
-    guard(check_heartbeat_chain)
+    # HEARTBEAT amendment-chain check RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #25): read_cap_check meters the file.
     # 2026-09-13: a markdown row with MORE cells than its header has the excess
     # DROPPED at render, silently. PROME/STATUS.md L21 lost two cells that way —
     # visible to a `cat`, invisible to the operator and to every rendered view,
@@ -2014,7 +2014,7 @@ def mode_boot(advance_board=True):
                [sys.executable, "PROME/tools/done_rows_check.py", "--quiet"],
                "fix the ROW (three cells: title | done | record) and re-sync the ledger; rc=2 = file or heading missing")
     # Fleet-Ops dashboard checks RETIRED 2026-10-16 (WQ-452.FLEETOPS, Will 12:56 ET) — the page was retired 10/2 (WQ-372); the state file's only readers were these checks and will_brief's channel feed (retired with it). Record: PROME/proposals/2026-10-16_wq452-fleetops-retire-RULED.md
-    guard(check_symmetry)
+    # boot<->closeout symmetry check RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #28): bookkeeping on procedure documents.
     guard(check_claude_dir_drift)
     guard(check_desk_catalyst_summons)
     # WQ-184 L1 (Will 2026-09-05 21:42 "approve WQ-184 with your recs"): the spawn driver. rc=1 = a DARK row —
@@ -2051,8 +2051,9 @@ def mode_closeout(tier=None, memory=None, superseded=None):
                [sys.executable, "scripts/orch_log.py", "check"], ORCH_OWNER)
     guard(check_orch_log_observed)
     guard(check_review_manifest, tier)
-    guard(check_publication_prereqs)
-    guard(check_deck_republish)     # WQ-460: reports PAUSED; preserved L738 branch requires authorized resume
+    # Decision Deck checks (publication prerequisites, Deck republish) RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #39/#40):
+    # the Deck is PAUSED (WQ-460) and they always printed PASS; restore them with the Deck on Will's word. NOT CATO's
+    # live Decisions app, which these never covered.
     run_script(BLOCK, "position_agreement", [sys.executable, "scripts/position_agreement_check.py",
                "--all", "--quiet"], "owner STATUS is canonical")
     guard(check_gates_tsv)          # FIRED-UNEXECUTED must never leave a session
@@ -2077,7 +2078,7 @@ def mode_closeout(tier=None, memory=None, superseded=None):
                "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "
                "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
                "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
-    guard(check_heartbeat_chain)    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
+    # HEARTBEAT amendment-chain check RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #25).
     # Fleet-Ops dashboard checks RETIRED 2026-10-16 (WQ-452.FLEETOPS, Will 12:56 ET) — the page was retired 10/2 (WQ-372); the state file's only readers were these checks and will_brief's channel feed (retired with it). Record: PROME/proposals/2026-10-16_wq452-fleetops-retire-RULED.md
     guard(check_byte_budgets)       # flow-rule meter: >=75% here means rotate NOW, in this closeout
     # BLOCKING at closeout and advisory at boot, deliberately: closeout is where
@@ -2090,16 +2091,8 @@ def mode_closeout(tier=None, memory=None, superseded=None):
     run_script(BLOCK, "done rows: parser-independent short-row + rulings-reach-ledger (WQ-417 P1)",
                [sys.executable, "PROME/tools/done_rows_check.py", "--quiet"],
                "fix the ROW (three cells) and `wq_ledger.py sync` before committing; rc=2 = file or heading missing")
-    # 2026-10-05: the STATUS read cap moved the bytes into DOCKET.tsv (15 KB Jul → 1.3 MB Oct;
-    # avg row 430 B → 2,170 B). Same shape as the cap that worked: BLOCK at closeout, where the
-    # rows are written; the native pre-commit hook is the fail-closed twin for every runtime.
-    run_script(BLOCK, "DOCKET changed-row byte cap (worktree vs HEAD)",
-               [sys.executable, "PROME/tools/docket_row_cap.py", "--quiet"],
-               "shorten the ROW: narrative to the owner's file with a pointer; a rule-class row belongs in "
-               "a rules file, not the docket — PROME/tools/docket_row_cap.py",
-               summarize=lambda body, rc: (rc == 0, "DORMANT — DOCKET_ROW_CAP_BYTES unset in scripts/harness_caps.env "
-                                           "(policy pending; the mechanism decides nothing)" if "not configured" in body
-                                           else "within cap" if rc == 0 else body.strip().split("\n")[-1][:160]))
+    # DOCKET changed-row byte cap RETIRED 2026-10-31 (WQ-578, Will 2026-10-31 15:57 ET, G1 #41): dormant since 2026-10-05 (no cap set),
+    # it decided nothing; also unwired from the pre-commit and save hooks.
     guard(check_claude_dir_drift)   # root<->PROME skill/agent parity at CLOSEOUT too (REV 8/29): a closeout that edits one tree would otherwise ship drift and find it next boot
     run_script(ADVISE, "orphan_check (advisory by design)", ["bash", "scripts/orphan_check.sh", "PROME"],
                "[likely YOURS] = commit per carve-out ① · [not yours] = flag, never sweep")

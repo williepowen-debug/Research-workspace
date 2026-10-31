@@ -62,7 +62,8 @@ import prome_gate as g  # noqa: E402
 
 
 # One fixture for the module: build it, run the gate CLEAN, then delete the
-# FIXTURE's CLOSEOUT.md and run again. Two runs, one export, everything disposable.
+# FIXTURE's GATES.tsv and run again. Two runs, one export, everything disposable.
+# (Re-pointed 2026-10-31, WQ-578: the probe was CLOSEOUT.md, read only by the retired symmetry check.)
 _FIX = None
 CLEAN = MISSING = None
 
@@ -71,7 +72,7 @@ def setUpModule():
     global _FIX, CLEAN, MISSING
     _FIX = gate_fixture.build()
     CLEAN = gate_fixture.run_gate(_FIX)
-    (_FIX / "PROME/CLOSEOUT.md").unlink()          # the FIXTURE's copy, not the repo's
+    (_FIX / "PROME/GATES.tsv").unlink()            # the FIXTURE's copy, not the repo's
     MISSING = gate_fixture.run_gate(_FIX)
 
 
@@ -139,18 +140,18 @@ class CleanFixturePasses(unittest.TestCase):
 
 
 class MissingInput(unittest.TestCase):
-    """Conditions 1-3 against a fixture whose CLOSEOUT.md is absent.
+    """Conditions 1-3 against a fixture whose GATES.tsv is absent.
 
     Pre-fix, this shape produced rc=1, EMPTY stdout, zero verdict lines and no
     summary — every already-passed check lost with it."""
 
     # ---- condition 1: identify the failed check
     def test_names_the_check_that_did_not_run(self):
-        self.assertIn("check_symmetry DID NOT RUN", MISSING.stdout)
+        self.assertIn("check_gates_tsv DID NOT RUN", MISSING.stdout)
 
     def test_names_the_cause_and_the_missing_path(self):
         self.assertIn("FileNotFoundError", MISSING.stdout)
-        self.assertIn("CLOSEOUT.md", MISSING.stdout)
+        self.assertIn("GATES.tsv", MISSING.stdout)
 
     def test_says_the_subject_is_unknown_not_clean(self):
         self.assertIn("UNKNOWN, not clean", MISSING.stdout)
@@ -170,7 +171,8 @@ class MissingInput(unittest.TestCase):
                     if ("[BLOCKING]" in l or "[advisory]" in l or "[ACTION OWED]" in l
                         or "[action  ]" in l) and "] " in l}
         lost = names(CLEAN.stdout) - names(MISSING.stdout)
-        self.assertEqual(lost, {"boot↔closeout symmetry"}, f"unexpectedly lost: {lost}")
+        # every line the failed check would have printed is a GATES line; nothing else may go missing
+        self.assertTrue(lost and all(n.startswith("GATES ") for n in lost), f"unexpectedly lost: {lost}")
 
     def test_a_summary_block_is_printed_at_all(self):
         self.assertIn("PROME GATE · BOOT", MISSING.stdout)

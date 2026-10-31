@@ -67,15 +67,16 @@ class DeckPause(unittest.TestCase):
              patch.object(G, 'run_script', side_effect=run_script), \
              patch.object(G, 'check_orch_closeout'):
             G.mode_closeout('standard', [], [])
-        for name in ['check_publication_prereqs', 'check_deck_republish',
-                     'check_review_manifest', 'check_gates_tsv', 'check_will_queue',
+        for name in ['check_review_manifest', 'check_gates_tsv', 'check_will_queue',
                      'check_orch_log_observed', 'check_memory_declared', 'check_consumer_declared']:
             self.assertIn(name, invoked)
+        # The paused-Deck checks were unwired 2026-10-31 (WQ-578 G1 #39/#40); restore with the Deck on Will's word.
+        for name in ['check_publication_prereqs', 'check_deck_republish']:
+            self.assertNotIn(name, invoked)
         for tool in ['scripts/position_agreement_check.py', 'scripts/orch_log.py',
                      'PROME/tools/table_check.py', 'PROME/tools/done_rows_check.py']:
             self.assertTrue(any(sev == G.BLOCK and tool in cmd for sev, cmd in scripts), tool)
-        self.assertEqual(len(G.results), 2)
-        self.assertTrue(all('PAUSED BY WILL' in row[3] for row in G.results))
+        self.assertEqual(len(G.results), 0)   # no Deck rows are produced now that the paused-Deck checks are unwired
 
 
 if __name__ == '__main__':
