@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-10-31T18:17:17Z",
+  "authorization": "SUCCESS",
+  "live_bookmark_scan": "SUCCESS",
+  "head_checked_at": "2026-10-31T18:16:09Z",
+  "fetched_new_ids": 13,
+  "reviewed": 0,
+  "marked": 0,
+  "reauthorization_preserved_seen_set": true,
+  "reauthorization_preserved_pending_stage": true,
+  "verification_basis": "Authorization process exited successfully; before/after SHA256 checks unchanged before separate scan; authenticated scan returned 13 new IDs.",
+  "credentials": "Stored only in existing gitignored .env; no token or authorization code in this record.",
+  "coverage": "Returned traversal complete through recorded head check, not a remote snapshot guarantee or content review.",
+  "local_review_scratch": "/tmp/walter-x-restored-scan.txt (temporary post bodies, not committed; reuse for staged review while available)"
+}

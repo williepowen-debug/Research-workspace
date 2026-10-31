@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-31T17:42:48Z — Codex/OpenAI, Will-approved delivery and monitoring follow-through; LIGHT checkpoint. Boot remains PARTIAL with named source/authentication and procedural gaps at LAST_COMPLETION.md.
+**Updated:** 2026-10-31T17:42:48Z — Codex/OpenAI, Will-approved delivery and monitoring follow-through; LIGHT checkpoint. Boot remains PARTIAL with named source/intake and procedural gaps at LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
 October 31 monitoring follow-through: all 48 registered threshold IDs and eight oil boundaries dispositioned. No new fire or exit established on available evidence; source-limited rows remain explicitly ungraded. UK 10Y and 30Y are near-trigger watches. Two additional cards carry preliminary FHLB advances and CREED relative-return recovery; neither changes an owner grade. Today's total is ten cards, three registered corrections and six bounded verification helpers.
 
-Recipient evidence shows the substantive work behind both aged ACTION flags already exists; exact handoff receipts remain distinct. CATO's manual-only charter creates no routine signal obligation. WQ-556 C remains unchanged and is recorded by PROME. Current duties, source/authentication limits and publication evidence: LAST_COMPLETION.md.
+Recipient evidence shows the substantive work behind both aged ACTION flags already exists; exact handoff receipts remain distinct. CATO's manual-only charter creates no routine signal obligation. WQ-556 C remains unchanged and is recorded by PROME. Current duties, source/intake limits and publication evidence: LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
