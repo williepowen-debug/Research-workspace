@@ -182,5 +182,20 @@
     "total": 74,
     "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.",
     "note": "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
-  }
+  },
+  "affected_input_rechecks": [
+    {
+      "check": "basis",
+      "as_of": "2026-10-31T22:10:44Z",
+      "rc": 0,
+      "output_text": "BOOT BASIS MATCH: 29 declared paths; execution not certified\n"
+    },
+    {
+      "check": "receipt",
+      "as_of": "2026-10-31T22:10:44Z",
+      "rc": 0,
+      "output_text": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"as_of\": \"2026-10-31T22:10:44Z\",\n  \"origin_ref\": \"f415eb466b99b62432d29e474a1d955ed745b01f\",\n  \"delivery_scope\": \"20261031\",\n  \"delivered\": 74,\n  \"total\": 74,\n  \"next_review\": \"2026-11-02\",\n  \"limits\": \"Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.\"\n}\n"
+    }
+  ],
+  "owner_disposition": "See current LAST_COMPLETION and dated REVIEW. CATO consume evidence remains incomplete; no route/kill events changed. Original run is preserved; initial basis mismatch was resolved after reviewing the concurrent owner delta."
 }
