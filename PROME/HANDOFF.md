@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Current state: RESTART CHECKPOINT 2026-10-31 12:42 ET (prome-34, LAPTOP; session UNFINISHED, not a closeout) → [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) carries the two unconsumed arrivals (CATO's frozen batch, WALTER's WQ-556 relay), the ordered next work from the backlog triage, Monday's wakes and the owed closeout.** Last actual closeout: 2026-10-30 19:1x ET end-of-day Standard with ARGUS (prome-c5).
+**Current state: RESTART CHECKPOINT 2026-10-31 16:49 ET (prome-34, LAPTOP; session UNFINISHED, not a closeout) → [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) carries the in-flight state (nothing from PROME; CATO's WQ-579 fix round out), the ordered next work, Monday's wakes and the owed closeout.** Last actual closeout: 2026-10-30 19:1x ET end-of-day Standard with ARGUS (prome-c5).
 
 **Resume:** (1) [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) and the [October 29 account](../memory/2026-10-29.md); (2) DOCKET/GATES/WILL_QUEUE for obligations and `PROME/tools/inbox_census.py PROME` before any launch; (3) [research-first briefing instruction](proposals/2026-10-25_research-first-briefing-RULED.md), installed at BOOT step 8; (4) [delivery contract](tools/ARGUS_CONTRACT.md). The 10/25 three-desk sweep, its four file corrections and its evening inbox disposition are history at [its report](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will) and [that closeout](reports/2026-10-25_evening-closeout.md). Dated sections below are historical continuity.
 
