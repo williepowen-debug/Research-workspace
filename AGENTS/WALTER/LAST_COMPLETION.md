@@ -1,5 +1,7 @@
 # WALTER — CLOSED on Will request; FULL session closeout
 
+**Approval-only addendum 2026-10-31T16:19:17Z:** WQ-556 C recorded below. The October 30 operational closeout and its evidence remain dated as written; October 31 recovery boot remains PARTIAL. No new market work or intake disposition.
+
 Updated 2026-10-30T23:43:54Z. Claude Code, Opus 5.5 (`claude-opus-5-5`), session df4d59fe-0749-406a-b8d4-356e6a18aa0c, Will-launched 14:08 ET, closed on Will's word 19:43 ET ("lets close out here walter we will handle these in next session"). Previous completion preserved verbatim: research/2026-10-30_session-close/prior-LAST_COMPLETION.md (light checkpoint 20:20:36Z), and research/2026-10-30_checkpoint/prior-LAST_COMPLETION.md (prior Codex session).
 
 ## STATUS
@@ -33,7 +35,7 @@ BOARD SIG-W-20261030-002 through -011 with create-only handoffs, route rows and 
 
 ## WILL_NEEDS
 
-None. No trade approval requested; no position call made. Levers (b) digest and (c) pull-mode from D:L334 are Will's rulings when PROME presents them.
+None. WQ-556 RULED C by Will on October 31, verbatim "okay approved C"; supersedes the earlier in-session A before implementation. Existing delivery and discretionary INFO-copy trimming continue. Digests and additional pull-mode exemptions are not approved. Ruling packet: PROME/inbox/2026-10-31_from-WALTER_WQ556-C-RULED.md (also check processed/ after PROME consumption). PROME's queue update remains pending; no new Will decision. No trade approval requested.
 
 ## FOLLOW-UP
 
@@ -42,6 +44,7 @@ None. No trade approval requested; no position call made. Levers (b) digest and 
 3. 11/3 midterms, READS re-attestation, NEXUS weekly; 11/4 Cushing, GATE-FALCON-001 review, CF Q3 (FERT); 11/5 Iran full sweep, MEMORY calendar check; 11/6 D:L334 predictive leg; 11/11 Veterans Day non-session (HY bridge); ~11/12 staleness sweep; mid-December ERCOT data-center audit.
 4. WALTER decision owed: when:7d recency operator on the two CYPHER lane queries.
 5. EO 14421 follow-ups unchanged (WATT before 12/24; CYPHER policy context). Offered, not done: NEXUS cross-theme card; missed-data-day proposal. Still open: REGINALD coverage-basis conflict (DEWEY 003R).
+6. WQ-556 C: continue existing discretionary-copy trims; two-week remeasurement November 13 (October 30 start), within L334. November 6 predictive leg remains due. PROME queue/docket reconciliation pending the committed ruling packet; no digest build or new checks.
 
 ## SOURCE-SEARCH DISPOSITION — approved by Will2026-10-16
 
