@@ -236,12 +236,12 @@ new model choices and history format. Agent terminal sessions can remain open.
   New and resumed sessions launch without Telegram channel flags.
 - CARL's specialists use their nested folders. Project folders and startup files
   are checked; the launcher never creates missing desks or substitutes another.
-- The configuration contains the command sheet's 50 distinct targets plus CATO,
-  GIBBS (Banks, property, and private credit), and ISHM (Funding, macro, and
-  global markets). CYPHER is included under Geopolitics and cyber. Reopen the
-  app after configuration changes to load the updated list.
-  VIRGIL and ZION are retained references whose folders were absent on the
-  installation machine. It is a personal menu, not a new fleet roster, schedule,
+- The configuration contains 49 launch targets, including GIBBS (Banks,
+  property, and private credit), ISHM (Funding, macro, and global markets),
+  and CYPHER (Geopolitics and cyber). ARCHITECT, CAREER, ZION, and VIRGIL
+  have been removed from the menu; their folders and saved sessions are untouched.
+  Reopen the app after configuration changes to load the updated list.
+  It is a personal menu, not a new fleet roster, schedule,
   or grant of launch authority. Existing restrictions, including CREED's manual
   permission condition, remain with their owners.
 

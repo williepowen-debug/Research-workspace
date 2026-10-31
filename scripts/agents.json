@@ -396,52 +396,6 @@
       "group": "Energy, metals, and infrastructure",
       "kind": "fleet",
       "default_runtime": "sol"
-    },
-    {
-      "name": "ARCHITECT",
-      "path": "~/FFB-RESEARCH",
-      "purpose": "FFB research project.",
-      "group": "Separate projects",
-      "kind": "project",
-      "default_runtime": "sol",
-      "prompt": "Boot up as ARCHITECT. Follow BOOTSTRAP.md and AGENTS.md exactly and return the Agent boot report.",
-      "required": [
-        "BOOTSTRAP.md",
-        "AGENTS.md"
-      ]
-    },
-    {
-      "name": "VIRGIL",
-      "path": "WILL/private/fellowship",
-      "purpose": "Fellowship preparation project.",
-      "group": "Separate projects",
-      "kind": "project",
-      "default_runtime": "sol",
-      "prompt": "You are VIRGIL. Read this project's AGENTS.md and CLAUDE.md if present, then its required startup and handoff files. Recover current work and approvals and report any missing startup instructions.",
-      "required": [
-        "CLAUDE.md"
-      ]
-    },
-    {
-      "name": "CAREER",
-      "path": "~/career-launch",
-      "purpose": "Career-launch materials and handoff.",
-      "group": "Separate projects",
-      "kind": "project",
-      "default_runtime": "sol",
-      "prompt": "Read the project instructions and HANDOFF.md. Continue the career project from its current handoff and existing approvals.",
-      "required": [
-        "CLAUDE.md",
-        "HANDOFF.md"
-      ]
-    },
-    {
-      "name": "ZION",
-      "path": "AGENTS/ZION",
-      "purpose": "Legacy bank-desk command from the original sheet.",
-      "group": "Legacy reference",
-      "kind": "fleet",
-      "default_runtime": "sol"
     }
   ]
 }
