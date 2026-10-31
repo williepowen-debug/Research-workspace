@@ -78,7 +78,7 @@ Current manual evidence: research/2026-10-31_process-audit/REPORT.md, CHECKS.tsv
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T21:47:31Z",
+  "as_of": "2026-10-31T21:48:29Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -130,6 +130,11 @@ Current manual evidence: research/2026-10-31_process-audit/REPORT.md, CHECKS.tsv
       "commit": "9faae49a1ecae05b28bf889a16cf8c6b16980548",
       "state": "published",
       "note": "Rig correction origin-proven during process audit; two handoffs reconciled. Consumption remains separate."
+    },
+    {
+      "commit": "89e7629c31bdb864d6ab828ea3b8d0236fe8933e",
+      "state": "pending",
+      "note": "Process/check audit committed locally; implementation remains proposed. Coordinated publication deferred while foreign PROME work is dirty."
     }
   ],
   "delivery": {
@@ -250,7 +255,7 @@ Current manual evidence: research/2026-10-31_process-audit/REPORT.md, CHECKS.tsv
     "12-14": "43 other-owner lead blocks match prior reviewed capture; self registry refreshed before NETWORK. Existing dated market levels retained. BALANCED/CLOSED, no full deferral; session entry and MEMORY updated for audit recommendations.",
     "root.retirement": "Audit identified candidate archives but preserved live external backlinks and unresolved decisions. No file archived/deleted on age alone. No existing operating process retired.",
     "15": "All previous scheduled work, source-search approvals and publication duties preserved. Added explicit pending implementation proposal, not a new commissioned study.",
-    "16": "Audit artifacts and continuity updates to exact-path local commit; coordinated publication while foreign PROME work is dirty.",
+    "16": "Audit 89e7629c31bdb864d6ab828ea3b8d0236fe8933e committed with 23 exact authored paths, no foreign changes. Coordinated publication deferred; earlier rig repair published and all 74 daily signal handoffs delivered.",
     "ledger-nudge": "Only delivery-state reconciliation changed ledger data: two origin-proven card022 copies. No new route, kill or grade event.",
     "checks": "Basis MATCH 29; READS, versions, archives, read-cap, weekdays and memory-line checks PASS. Final receipt PASS 74/74 after fresh-origin reconciliation. Runner REVIEW retains initial publication mismatch (superseded by receipt-final.txt), the three documented doctor MEDs, and unchanged-kill-data nudge. All reviewed; no operating code or spec changed. No new tests for read-only audit."
   }
