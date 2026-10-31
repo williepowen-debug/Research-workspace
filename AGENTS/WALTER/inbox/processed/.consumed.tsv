@@ -363,3 +363,4 @@ BOND-SIG-008-ANSWERED	2026-09-14T18:51:40Z	WALTER	consumed	BOND answered SIG-W-2
 2026-10-31T16:44:32Z	2026-10-31_from-PROME_yuri-side-finding-aleshki-ceasefire.md	WALTER	NOTE dated local context to OSPREY/HAWK; VERIFY-ALESHKI.md
 2026-10-31T16:44:32Z	2026-10-30_from-HENRY_put-wall-7700-broken-on-close-gamma-negative-all-three.md	WALTER	DISPATCH SIG-W-20261031-002
 2026-10-31T16:44:32Z	2026-10-30_from-PROME_board-spec-five-dead-pointers-firetime.md	WALTER	Five pointers repaired; recipient-generic consumption semantics preserved
+2026-10-31	2026-10-31_from-PROME_attestation-transcribed.md	WALTER	Consumed 2026-10-31T21:18:57Z; central attestation and L845 closure verified; WQ-578 root diff reviewed and hash refreshed; L907 stays PROME-owned. Evidence: AGENTS/WALTER/research/2026-10-31_boot-cleanup/REVIEW.md

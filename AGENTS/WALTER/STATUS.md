@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-31T19:56:41Z — Codex/OpenAI boot repair; FULL closeout. Duties and publication evidence: LAST_COMPLETION.md.
+**Updated:** 2026-10-31T21:18:57Z — Codex/OpenAI administrative cleanup; LIGHT closeout. Duties and publication evidence: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Boot repair completed within WALTER's scope: 29 reviewed basis hashes match, the FT08 verification gap was a reporting error and is corrected, official CME preliminary settlements and ICE TTF expiry dates are recovered, and local Codex/Claude session inventory works. Central attestation registration, final/ICE settlement sources and inactive or owner-dependent monitoring lanes keep the full boot PARTIAL.
+Boot repair completed within WALTER's scope: 29 reviewed basis hashes match, the FT08 verification gap was a reporting error and is corrected, official CME preliminary settlements and ICE TTF expiry dates are recovered, and local Codex/Claude session inventory works. Central attestation is registered and the subsequent root change is reviewed. Final/ICE settlement sources and inactive or owner-dependent monitoring lanes keep the full boot PARTIAL.
 
-Two source-repair cards 020–021 and five required handoffs added; two bounded helpers. Daily totals: 21 cards across 9 clusters, 45 kill-log rows and 14 bounded helpers across sittings. Zero cluster_mediating flags; no new completed threshold fire/exit. Current publication and delivery evidence: LAST_COMPLETION.md. WQ-556 C required routes retained. BALANCED posture, CLOSED event window. Full narrative deferrals cleared.
+Two source-repair cards 020–021 and five required handoffs added; two bounded helpers. Daily totals: 21 cards across 9 clusters, 45 kill-log rows and 14 bounded helpers across sittings. Zero cluster_mediating flags; no new completed threshold fire/exit. Current publication and delivery evidence: LAST_COMPLETION.md. WQ-556 C required routes retained. BALANCED posture, CLOSED event window. Prior FULL narrative review retained; one LIGHT administrative deferral.
 
 ## DATED MARKET OBSERVATIONS
 
