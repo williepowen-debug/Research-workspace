@@ -72,7 +72,7 @@ Current manual evidence: research/2026-10-31_rig-reconciliation/REVIEW.md, spec-
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T21:36:45Z",
+  "as_of": "2026-10-31T21:38:40Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -119,6 +119,11 @@ Current manual evidence: research/2026-10-31_rig-reconciliation/REVIEW.md, spec-
       "commit": "4c6971ffab3ba0f26634a43df529934582f7a7c9",
       "state": "published",
       "note": "Fresh origin ancestry checked during rig reconciliation; cleanup transport only."
+    },
+    {
+      "commit": "9faae49a1ecae05b28bf889a16cf8c6b16980548",
+      "state": "pending",
+      "note": "Rig boundary reconciliation and card022 committed locally; coordinated publication deferred with foreign PROME work dirty. Two new handoffs are not yet origin-proven."
     }
   ],
   "delivery": {
@@ -223,9 +228,9 @@ Current manual evidence: research/2026-10-31_rig-reconciliation/REVIEW.md, spec-
     "12-14": "Other 43 owner header blocks unchanged versus committed repair; self registry refreshed before NETWORK. Dated market data preserved; BALANCED/CLOSED and zero cluster_mediating retained. FULL session entry, MEMORY reviewed; prior LIGHT deferral cleared.",
     "root.retirement": "Historical rig row preserved as a tombstone. Unbannered May liaison draft is now explicitly historical; original text preserved. Previously reviewed research retirement candidates retain substantive references; no deletion.",
     "15": "Prior completion preserved. Rig mismatch discharged; all unrelated source-search approvals, owner tasks, dates and open-design decisions retained.",
-    "16": "Exact authored-path commit follows checks. Foreign PROME dirty work prevents self-publication; no owner files altered except authorized create-only recipient handoffs.",
+    "16": "Exact-path payload 9faae49a1ecae05b28bf889a16cf8c6b16980548 committed, 43 authored paths only; foreign PROME edits/staged archives excluded. Coordinated publication deferred. Prior 72 handoffs delivered; two new copies await publication.",
     "ledger-nudge": "One route row, two handoffs and one R1 correction added. No kill/fire/exit/commission data changed.",
-    "checks": "Receipt 72/74, read-cap, archives, weekdays, versions and central READS PASS. First basis check caught concurrent WQ-578 playbook delta; complete delta reviewed and one hash refreshed, final basis check follows. Three doctor MED carry findings and unchanged kill-data nudge adjudicated in checks/OWNER-REVIEW.md; no new rig-repair defect."
+    "checks": "Final basis MATCH 29; receipt 72/74, cap, archives, weekdays, versions and central READS PASS. Three pre-existing doctor MED carries and unchanged kill-data nudge reviewed in checks/OWNER-REVIEW.md. Verbatim tool-output/patch whitespace retained as evidence; operational-file whitespace clean."
   }
 }
 END_CLOSEOUT_RECEIPT -->
