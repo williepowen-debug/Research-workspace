@@ -38,6 +38,6 @@
 STATUS: ✅ DONE
 CHANGED: AGENTS/YURI/{workbook/INTENT_LEDGER.tsv, STATUS.md, NEXUS_BRIEF.md, board_log.tsv, research/2026-10-31_L771_YUR-005_GRADE.md, sources/2026-10-31/×5, inbox→processed ×7}; packets: BRENT, HANS, WALTER (SIG-YURI-WALTER-20261031a), DAEDALUS, PROME ×2
 RESULT: L771 decided at the primary: Resolution №1436 (31.10, body read 2/2) voids №954 ¶2(г), keeping the producer diesel export ban to 31.01.2027 and voiding ¶5 (intergovernmental/EAEU exemption continues). YUR-005 HIT, Brier 0.16. Inbox 7/7 drained; YUR-F01 MISS recorded, YUR-F02 registered (to 11/28).
-GAPS: 500 kt / US-quota act still NOT-FOUND (non-public route inferred only). YUR-004 checkpoints 10/23 and 10/30 MISSED; final read not done this session (title-only scan only).
+GAPS: 500 kt / US-quota act still NOT-FOUND (non-public route inferred only). YUR-004 checkpoints 10/23 and 10/30 MISSED; final read not done this session (title-only scan only). Messaging rule 6: no ListAgents in this runtime, so BRENT/HANS/WALTER/DAEDALUS liveness UNKNOWN; no doorbells sent (packets committed 92613b4c5).
 WILL_NEEDS: None.
 FOLLOW-UP: PROME: mark L771 RESOLVED; spawn YURI for the YUR-004 final read by Mon 11/02; land the WATCH_FOR C7 set. BRENT: supply consequence of №1436.
