@@ -1,6 +1,6 @@
 {
   "kind": "Author checks; captured live inputs, simulated refresh changes/failures; no source writes",
-  "work": "/mnt/c/Users/willi/AppData/Local/Temp/cato-calendar-live-rx83nbwj",
+  "work": "/mnt/c/Users/willi/AppData/Local/Temp/cato-calendar-live-m0pv104o",
   "runs": [
     {
       "viewport": "desktop",
@@ -10,7 +10,19 @@
           "pass": true
         },
         {
-          "name": "Accepted Week/Day layout and details preserve evidence",
+          "name": "Agenda details stay alongside on desktop and become modal on narrow screens",
+          "pass": true
+        },
+        {
+          "name": "Week strip counts and keyboard-accessible day selection match the agenda",
+          "pass": true
+        },
+        {
+          "name": "Week Grid remains available and returns to the selected agenda",
+          "pass": true
+        },
+        {
+          "name": "Unclassified work is accessible separately without crowding the day agenda",
           "pass": true
         },
         {
@@ -34,7 +46,7 @@
           "pass": true
         },
         {
-          "name": "Refresh moves an event and replaces old view",
+          "name": "Refresh moves an event and updates the selected detail",
           "pass": true
         },
         {
@@ -75,7 +87,19 @@
           "pass": true
         },
         {
-          "name": "Accepted Week/Day layout and details preserve evidence",
+          "name": "Agenda details stay alongside on desktop and become modal on narrow screens",
+          "pass": true
+        },
+        {
+          "name": "Week strip counts and keyboard-accessible day selection match the agenda",
+          "pass": true
+        },
+        {
+          "name": "Week Grid remains available and returns to the selected agenda",
+          "pass": true
+        },
+        {
+          "name": "Unclassified work is accessible separately without crowding the day agenda",
           "pass": true
         },
         {
@@ -99,7 +123,7 @@
           "pass": true
         },
         {
-          "name": "Refresh moves an event and replaces old view",
+          "name": "Refresh moves an event and updates the selected detail",
           "pass": true
         },
         {

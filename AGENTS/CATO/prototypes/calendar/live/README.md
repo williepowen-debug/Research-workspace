@@ -1,6 +1,6 @@
 # Live read-only research calendar
 
-Will approved the bounded live reader and chose “Keep this layout for the live read-only version” on October 31, 2026. Open Agent Launcher → Calendar → Open Calendar, or from the Git root:
+Will approved the bounded live reader on October 31, 2026, then approved an agenda-first layout after seeing the full source volume. Open Agent Launcher → Calendar → Open Calendar, or from the Git root:
 
 ```sh
 python3 -B AGENTS/CATO/prototypes/calendar/live/app.py --open-browser
@@ -9,7 +9,7 @@ python3 -B AGENTS/CATO/prototypes/calendar/live/app.py --check
 
 Keep the service window open; Ctrl+C stops it. Reopen the launcher to load its new tab. The browser waits for Windows/WSL localhost forwarding before opening. No model calls, source writes, reminders or agent starts occur. The server binds only loopback, validates Host/Origin, exposes only GET routes and serves source text only from the calendar's allowlist. Source checking can use `--pause` to keep its window visible.
 
-The accepted Week/Day/details layout now reads local files on demand. Previous/next week, Today, owner filters and literal search narrow the view. Housekeeping is off; Unclassified is on. Long cards are visually shortened; details retain full titles, source excerpts, file hashes, current-source links and caveats. Uncertain dates, windows, undated and earlier records remain separate. Past records are not automatically marked completed. Counts are source records, not unique economic events or launch recommendations.
+Agenda is the default, opening on today in Eastern time. A compact Monday–Sunday strip shows filtered dated-item counts and separate unclassified counts; select any day to read its timed events and date-only work. Week Grid remains optional. Desktop details stay in a panel beside the agenda; narrow screens and Week Grid use a dismissible dialog. Previous/next week preserves the selected weekday; Today returns to today. Owner filters and literal search apply to the agenda and inventories. Housekeeping starts off. Unclassified work is kept in its own counted, expandable inventory, not placed in the day agenda. Earlier/overdue, uncertain, undated and window records have separate counted lists. Expanded lists survive filtering; refresh updates selected details when the record still exists. Agenda titles remain readable in full; evidence details retain full titles, source excerpts, file hashes, current-source links and caveats. Uncertain dates, windows, undated and earlier records remain separate. Past records are not automatically marked completed. Counts are source records, not unique economic events or launch recommendations.
 
 ## Sources and limits
 
