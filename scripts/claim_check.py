@@ -25,12 +25,18 @@ CHECKS
   units    a named instrument quoted at a magnitude that belongs to its tracking
            ETF (or vice versa) — "gold $374" is GLD, not gold.
   pointer  a backtick-quoted repo path that does not exist (dead cross-reference).
+  glued    a date glued to the word beside it — "October25", "settled10/27",
+           "10/27settled", "as-of9/28" (WQ-560 A, Will 2026-10-30). Every date-reading
+           instrument reads a glued date as a different token; root CLAUDE.md § Output
+           Canon forbids it. OPT-IN (not in the default set): root closeout step 1e names it.
+           Skips backtick code spans, markdown link targets and URLs.
 
 USAGE
     python3 scripts/claim_check.py                 # files changed vs HEAD (pre-commit)
     python3 scripts/claim_check.py PATH [PATH...]  # explicit files
     python3 scripts/claim_check.py --staged        # only staged files
     python3 scripts/claim_check.py --check weekday,hash
+    python3 scripts/claim_check.py --check weekday,glued PATH...
     python3 scripts/claim_check.py --selftest     # shipped falsification set (CHECK_STANDARD §3/§14)
 Exit 0 = clean · 1 = flags found (advisory) · 2 = usage/environment error.
 --selftest: exit 0 = every case behaved · 1 = a case failed (the tool is NOT trustworthy).
@@ -116,6 +122,40 @@ RE_HASH = re.compile(r"(?<![0-9a-zA-Z/])([0-9a-f]{7,40})(?![0-9a-zA-Z])")
 # `orphan_check.sh` — is a conversational reference, not a cross-reference, and
 # flagging those was pure noise on the first live run.
 RE_PTR = re.compile(r"`([A-Za-z0-9_][A-Za-z0-9_.\-]*(?:/[A-Za-z0-9_.\-]+)+\.(?:md|tsv|py|sh|json|js|csv))`")
+
+# GLUED (WQ-560 A, Will 2026-10-30 20:57 ET "okay REC A approved"; ruling PROME/proposals/2026-10-30_wq560-RULED.md;
+# acceptance PROME/tools/tests/ACCEPTANCE_claim_check_glued_2026-10-30.md). NARROW by design: DAEDALUS's STRICT_TEXT
+# (Will-approved 2026-07-31) ruled a mechanized STYLE screen DO-NOT-BUILD for false positives on deliberately dense
+# writing. This is not that screen: it flags only a DATE glued to the word beside it — the tokens the fleet's date
+# instruments misread — and leaves every other density choice alone (`SKEW148.86`, `cap100`, `BB194` stay silent).
+_MONTHS_FULL = "January|February|March|April|May|June|July|August|September|October|November|December"
+RE_GLUED = [
+    # "October25", "post-October1", "October7–9"; NOT "October2026" (a year), NOT "Oct-16", NOT lowercase "may12"
+    ("month", re.compile(r"\b(" + _MONTHS_FULL + r")(\d{1,2})(?!\d)")),
+    # "settled10/27", "FRED10/27", "Cboe9/8"; needs 3+ letters so "HY10/27"-style two-letter prefixes stay silent
+    ("word+date", re.compile(r"\b([A-Za-z]{3,})(\d{1,2}/\d{1,2})(?![\d/])")),
+    # "10/27settled"
+    ("date+word", re.compile(r"(?<![\d/A-Za-z])(\d{1,2}/\d{1,2})([A-Za-z]{3,})\b")),
+    # "as-of9/28"
+    ("as-of", re.compile(r"\b(as-of)(\d)", re.I)),
+]
+# Spans masked before the glued scan (same length, so columns stay true): `code`, ](link target), bare URLs.
+_GLUE_MASKS = [re.compile(r"`[^`]*`"), re.compile(r"\]\([^)]*\)"), re.compile(r"https?://\S+")]
+
+
+def glued_flags(rel, n, line):
+    masked = line
+    for rx in _GLUE_MASKS:
+        masked = rx.sub(lambda m: " " * len(m.group()), masked)
+    out = []
+    for kind, rx in RE_GLUED:
+        for m in rx.finditer(masked):
+            a, b = m.group(1), m.group(2)
+            out.append((rel, n, "glued",
+                        f"“{m.group()}” is glued — write “{a} {b}”. Root CLAUDE.md § Output Canon: "
+                        f"spaced words and numbers; meet a byte budget by rotating history out, "
+                        f"never by deleting spaces. [{kind}]"))
+    return out
 
 # label, name-regex, plausible band for the UNDERLYING, band for its tracking ETF, ETF ticker
 UNITS = [
@@ -435,6 +475,8 @@ def check_text(rel, text, checks, year, p=None):
                     continue
                 if not (ROOT / t).exists() and not (p is not None and (p.parent / t).exists()):
                     flags.append((rel, n, "pointer", f"`{t}` does not exist"))
+        if "glued" in checks:
+            flags += glued_flags(rel, n, line)
     return flags
 
 
@@ -490,6 +532,30 @@ SELFTEST = [
     ("Aug 12-13 Wed-Fri", 1),
 ]
 
+# GLUED falsification set (WQ-560 A, 2026-10-30). (line, expected glued-flag count). Positives are real fleet
+# specimens from DAEDALUS's 10/30 reader ledgers and PROME's own files; negatives are the identifiers and spaced
+# forms that must stay silent (AC2) and the masked contexts (AC3).
+GLUED_SELFTEST = [
+    ("encoding independently ACCEPTED October14 and owner", 1),       # PROME ACTIVE_DECISIONS
+    ("VX.tsv header settled10/27 and FRED10/27 cells", 2),            # REGINALD, word+date incl. capitals
+    ("as-of9/28 per the profile banner", 1),                          # CREED (DAEDALUS cell)
+    ("graded 10/27settled on the archive", 1),                        # date+word
+    ("only qualifying post-October1 21:40 crossings", 1),             # hyphen-prefixed month
+    ("October7–9 orchestration rows", 1),                             # en-dash range
+    ("Cboe9/8 SKEW148.86 breaks the run: consumer0/4", 2),            # SKEW148.86 stays silent (no date)
+    ("encoding ACCEPTED October 14 and owner", 0),                    # spaced
+    ("settled 10/27 and FRED 10/27", 0),                              # spaced
+    ("as-of 9/28; as of 9/28", 0),                                    # spaced
+    ("Q3 2026-10-27 · Oct-16 16P · L884 · WQ-558 · S5 · MIDAS-16", 0),  # identifiers, ISO, abbreviation
+    ("in October2026 the series", 0),                                 # a four-digit year is not a day
+    ("HY10/27 and BB3/4", 0),                                         # two-letter prefixes stay silent
+    ("we may12 not", 0),                                              # lowercase month word
+    ("the specimens `October25` · `settled10/27` are examples", 0),   # code spans masked
+    ("[October 25 account](archive/October25_notes.md)", 0),          # link target masked
+    ("see https://example.com/feed10/27 today", 0),                   # URL masked
+    ("`October25` stays but October26 flags", 1),                     # overlap: masked + unmasked on one line
+]
+
 
 def selftest_partition():
     """File-collection leg (2026-10-28): a missing path or an unsupported suffix is SKIPPED and
@@ -526,11 +592,24 @@ def selftest():
         fails += not ok
         mark = "\u2713" if ok else "\u2717"
         print(f"  {mark} expect {want} got {got}  {line!r}")
-    total = len(SELFTEST) + 6
+    for line, want in GLUED_SELFTEST:
+        got = len(check_text("<selftest>", line, {"glued"}, 2026))
+        ok = got == want
+        fails += not ok
+        mark = "\u2713" if ok else "\u2717"
+        print(f"  {mark} glued expect {want} got {got}  {line!r}")
+    # AC3 overlap: one line, a weekday mismatch (2026-09-06 is a Sunday) AND a glued date — both kinds fire
+    both = check_text("<selftest>", "x Sat 9/6 y and October25 z", {"weekday", "glued"}, 2026)
+    kinds = sorted(k for _, _, k, _ in both)
+    ok = kinds == ["glued", "weekday"]
+    fails += not ok
+    mark = "\u2713" if ok else "\u2717"
+    print(f"  {mark} overlap expect ['glued', 'weekday'] got {kinds}")
+    total = len(SELFTEST) + 6 + len(GLUED_SELFTEST) + 1
     if fails:
-        print(f"CLAIM-CHECK SELFTEST \u2717 {fails}/{total} case(s) FAILED \u2014 do not trust the weekday check")
+        print(f"CLAIM-CHECK SELFTEST \u2717 {fails}/{total} case(s) FAILED \u2014 do not trust the weekday or glued check")
         return 1
-    print(f"CLAIM-CHECK SELFTEST \u2713 {total}/{total} cases behaved [weekday + file-partition]")
+    print(f"CLAIM-CHECK SELFTEST \u2713 {total}/{total} cases behaved [weekday + glued + file-partition]")
     return 0
 
 
