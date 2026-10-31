@@ -18,3 +18,4 @@ receipt_date	correction_id	action	note
 2026-10-19T21:31Z	COR-20261019-12	NO-OP	scope=October19 eight held-contract cards and follow-through use no Ally contract, warehouse-exit probability, OTTO score or earnings/Tminus7 short-report timing inference. All corrected scopes read. No dependent trade or gate.;
 2026-10-22T17:35Z	COR-20261021-22	APPLIED	artifact=AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md#Leg-A assessment 2026-10-22; validation_ref=NONE; 
 2026-10-22T17:35Z	COR-20261022-04	APPLIED	artifact=AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md#2. Trigger state; validation_ref=NONE; 
+2026-10-31T18:08Z	COR-20261031-02	APPLIED	artifact=AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md#CARD-STATE-2026-10-31; validation_ref=AGENTS/TERRY/research/2026-10-31_trade-ideas/prices_1030close.txt#QQQ; 

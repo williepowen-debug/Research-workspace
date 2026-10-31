@@ -1,0 +1,103 @@
+Sat Oct 31 14:03:01 EDT 2026
+TERRY live option-chain fetch
+=============================
+Data only — no broker access, no execution recommendation.
+
+Underlying: UNG  Spot: 9.08 (as-of 2026-10-31 14:03)
+Expiry: 2027-01-15  Type: call  Rows: 7
+Greeks (Delta/Theta): N/A — yfinance does not provide them.
+
+Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade
+-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------
+   6.00   -33.9  C   3.05   3.40   3.22   10.85   75.78      6    365  -         2026-10-30 10:59
+   7.00   -22.9  C   2.00   2.49   2.25   21.83   55.86      5    784  -         2026-10-30 12:15
+   8.00   -11.9  C   1.62   1.73   1.68    6.57   67.29    282   3716  -         2026-10-30 15:19
+   9.00    -0.9  C   1.15   1.23   1.19    6.72   69.73   1279   8660  -         2026-10-30 15:58
+  10.00    10.1  C   0.83   0.88   0.85    5.85   72.56   3102  31202  -         2026-10-30 15:58
+  11.00    21.1  C   0.63   0.64   0.64    1.57   76.17   1266  18282  -         2026-10-30 16:14
+  12.00    32.2  C   0.45   0.50   0.47   10.53   78.91    418  33917  -         2026-10-30 15:52
+
+TERRY liquidity flags
+- Wide spread rows >15% of mark: 1
+- Thin OI rows <100 OI: 0
+
+TERRY quote sanity
+  ✓ no quote defects: no locked, crossed, dead or no-bid rows; strike monotonicity holds
+
+⚠️  FRESHNESS: freshest trade in set = 2026-10-30 16:14 (NOT today 2026-10-31). Marks may be stale (after-hours/weekend). Re-confirm live broker marks before any fill.
+
+⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.
+   The spot above is Yahoo-declared real-time. The option bid/ask carries NO
+   timestamp and no delay flag, and is NOT proven contemporaneous with it.
+   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you
+      actually transact on from the BROKER chain. (2026-09-11: this tool read
+      ~10% high on the bid vs the broker, on the side being sold.)
+Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.
+TERRY live option-chain fetch
+=============================
+Data only — no broker access, no execution recommendation.
+
+Underlying: UNG  Spot: 9.08 (as-of 2026-10-31 14:03)
+Expiry: 2026-12-18  Type: call  Rows: 6
+Greeks (Delta/Theta): N/A — yfinance does not provide them.
+
+Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade
+-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------
+   7.00   -22.9  C   2.17   2.26   2.21    4.06   65.63     11     35  NONMONO   2026-10-30 15:14
+   8.00   -11.9  C   1.39   1.51   1.45    8.28   64.06    120    379  -         2026-10-30 12:10
+   9.00    -0.9  C   0.91   0.97   0.94    6.38   68.26    907   1782  -         2026-10-30 13:33
+  10.00    10.1  C   0.58   0.60   0.59    3.39   70.70   2740   5473  -         2026-10-30 16:12
+  11.00    21.1  C   0.36   0.40   0.38   10.53   74.02    253   2844  -         2026-10-30 15:55
+  12.00    32.2  C   0.25   0.27   0.26    7.69   78.13    418   1304  -         2026-10-30 15:25
+
+TERRY liquidity flags
+- Wide spread rows >15% of mark: 0
+- Thin OI rows <100 OI: 1
+
+TERRY quote sanity
+  ⚠️  NONMONO    1 row(s)
+     NONMONO base rate: 1/6 rows = 17% of the displayed strip.
+     ⚠️  It flags BOTH sides of an inverted pair and does NOT say which one is wrong — usually the one with the OLDER lastTradeDate. Check that before blaming a strike.
+     (ADVISORY only — adjacent-strike noise is normal in an illiquid strip; it earns its keep as CORROBORATION of a hard flag.)
+
+⚠️  FRESHNESS: freshest trade in set = 2026-10-30 16:12 (NOT today 2026-10-31). Marks may be stale (after-hours/weekend). Re-confirm live broker marks before any fill.
+
+⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.
+   The spot above is Yahoo-declared real-time. The option bid/ask carries NO
+   timestamp and no delay flag, and is NOT proven contemporaneous with it.
+   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you
+      actually transact on from the BROKER chain. (2026-09-11: this tool read
+      ~10% high on the bid vs the broker, on the side being sold.)
+Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.
+TERRY live option-chain fetch
+=============================
+Data only — no broker access, no execution recommendation.
+
+Underlying: RSP  Spot: 218.31 (as-of 2026-10-31 14:03)
+Expiry: 2027-01-15  Type: call  Rows: 5
+Greeks (Delta/Theta): N/A — yfinance does not provide them.
+
+Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade
+-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------
+ 210.00    -3.8  C  10.40  14.70  12.55   34.26   25.50     25    605  -         2026-10-30 13:37
+ 215.00    -1.5  C   6.70   9.50   8.10   34.57   19.48    143    973  -         2026-10-30 14:13
+ 220.00     0.8  C   4.80   6.10   5.45   23.85   17.21    100   3992  -         2026-10-30 15:52
+ 225.00     3.1  C   2.35   3.80   3.08   47.15   16.29     13   7801  -         2026-10-30 15:28
+ 230.00     5.4  C   0.05   2.90   1.47  193.22   17.79     58   1486  -         2026-10-30 15:07
+
+TERRY liquidity flags
+- Wide spread rows >15% of mark: 5
+- Thin OI rows <100 OI: 0
+
+TERRY quote sanity
+  ✓ no quote defects: no locked, crossed, dead or no-bid rows; strike monotonicity holds
+
+⚠️  FRESHNESS: freshest trade in set = 2026-10-30 15:52 (NOT today 2026-10-31). Marks may be stale (after-hours/weekend). Re-confirm live broker marks before any fill.
+
+⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.
+   The spot above is Yahoo-declared real-time. The option bid/ask carries NO
+   timestamp and no delay flag, and is NOT proven contemporaneous with it.
+   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you
+      actually transact on from the BROKER chain. (2026-09-11: this tool read
+      ~10% high on the bid vs the broker, on the side being sold.)
+Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.
