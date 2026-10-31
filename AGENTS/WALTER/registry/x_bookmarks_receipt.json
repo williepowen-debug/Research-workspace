@@ -1,6 +1,6 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-10-31T18:16:09Z",
+  "kind": "marked",
+  "checked_at": "2026-10-31T18:32:54Z",
   "items": 13,
   "scan": {
     "checked_at": "2026-10-31T18:16:09Z",
@@ -9,5 +9,34 @@
     "incomplete": false,
     "attempts": 2
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "partly_read": 4,
+    "fully_read": 9
+  },
+  "dispositions": {
+    "NO-ACTION": 3,
+    "DUP": 1,
+    "FOLD": 5,
+    "DISPATCH": 4
+  },
+  "follow_ups": [
+    {
+      "id": "2116547960062578768",
+      "ref": "AGENTS/WALTER/research/2026-10-31_x-review/REVIEW.md"
+    },
+    {
+      "id": "2116277383557009865",
+      "ref": "AGENTS/WALTER/research/2026-10-31_x-review/REVIEW.md"
+    },
+    {
+      "id": "2116264376093315413",
+      "ref": "AGENTS/WALTER/research/2026-10-31_x-review/REVIEW.md"
+    },
+    {
+      "id": "2116271855744999881",
+      "ref": "AGENTS/WALTER/research/2026-10-31_x-review/REVIEW.md"
+    }
+  ],
+  "requests": []
 }

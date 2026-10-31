@@ -1,0 +1,32 @@
+⚠️  uncommitted files outside AGENTS/WALTER/:
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20261031-012.md
+     [not yours]    AGENTS/BROCK/inbox/WALTER/SIG-W-20261031-012.md
+     [not yours]    AGENTS/CARL/inbox/WALTER/SIG-W-20261031-013.md
+     [not yours]    AGENTS/HANS/inbox/WALTER/SIG-W-20261031-011.md
+     [not yours]    AGENTS/HAWK/inbox/WALTER/SIG-W-20261031-011.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261031-011.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261031-012.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261031-013.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20261031-014.md
+     [not yours]    AGENTS/ISHM/inbox/WALTER/SIG-W-20261031-011.md
+     [not yours]    AGENTS/LABOR/inbox/WALTER/SIG-W-20261031-011.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-011.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-012.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-013.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-014.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-011.md
+     [not yours]    AGENTS/SHADE/inbox/WALTER/SIG-W-20261031-012.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20261031-012.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20261031-011-port-actions-mixed-stoppages-not-global-shutdown.md
+     [not yours]    BOARD/SIG-W-20261031-012-treasury-gross-issuance-and-country-flow-bases.md
+     [not yours]    BOARD/SIG-W-20261031-013-aca-2027-final-benchmark-premiums-13-percent.md
+     [not yours]    BOARD/SIG-W-20261031-014-qqq-short-interest-oct15-not-oct30-selling.md
+     [not yours]    PROME/AUTONOMY.md
+     [not yours]    PROME/CLAUDE.md
+     [not yours]    PROME/proposals/2026-10-31_wq295-R2-encode-RULED.md
+     [not yours]    PROME/tools/prome_gate.py
+     [not yours]    PROME/tools/spawn_list.py
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

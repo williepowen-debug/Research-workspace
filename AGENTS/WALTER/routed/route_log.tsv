@@ -1883,3 +1883,7 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-31T16:50:58Z	SIG-W-20261031-008	RESEARCH-INTAKE 2026-10-30	DOE announces final SPR exchange awards; contracted releases are not completed deliveries	PRIORITY	BRENT	HAWK,RED	0.97
 2026-10-31T17:41:30Z	SIG-W-20261031-009	WALTER monitoring follow-through	FHLB Q3 preliminary advances fall about 1.5% q/q; November 13 report still governs the trigger	PRIORITY	REGINALD	BROCK,LIQUID,RED	0.94
 2026-10-31T17:41:30Z	SIG-W-20261031-010	WALTER monitoring follow-through	VNQ versus SPY relative return recovers to −4.35 pp; CREED fire has no automatic exit	PRIORITY	CREED	REGINALD,RED	0.92
+2026-10-31T18:31:57Z	SIG-W-20261031-011	Will X bookmarks; 6, 10; BM-20261031-04	International port actions were real; duration and participation varied	PRIORITY	HANS,ISHM	CARL,HENRY,LABOR,LIQUID,REGINALD,HAWK,RED	0.78
+2026-10-31T18:31:57Z	SIG-W-20261031-012	Will X bookmarks; 8, 13; BM-20261031-04	Treasury gross issuance reached $839B; selected allies reduced net duration purchases	PRIORITY	BOND,LIQUID,ZHAO	BROCK,SHADE,HENRY,RED	0.9
+2026-10-31T18:31:57Z	SIG-W-20261031-013	Will X bookmarks; 9; BM-20261031-04	Final 2027 ACA benchmark premiums average 13% higher before subsidies	PRIORITY	CARL	HENRY,LIQUID,RED	0.93
+2026-10-31T18:31:57Z	SIG-W-20261031-014	Will X bookmarks; 11; BM-20261031-04	QQQ short interest rose to 82.0M shares by October 15; it predates Friday’s sell-off	PRIORITY	HENRY	LIQUID,RED	0.9

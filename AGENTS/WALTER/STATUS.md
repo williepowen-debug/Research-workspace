@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-31T17:42:48Z — Codex/OpenAI, Will-approved delivery and monitoring follow-through; LIGHT checkpoint. Boot remains PARTIAL with named source/intake and procedural gaps at LAST_COMPLETION.md.
+**Updated:** 2026-10-31T18:34:28Z — Codex/OpenAI, Will-approved X bookmark review completed; LIGHT checkpoint. Prior boot/source and FULL-closeout limits remain at LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-October 31 monitoring follow-through: all 48 registered threshold IDs and eight oil boundaries dispositioned. No new fire or exit established on available evidence; source-limited rows remain explicitly ungraded. UK 10Y and 30Y are near-trigger watches. Two additional cards carry preliminary FHLB advances and CREED relative-return recovery; neither changes an owner grade. Today's total is ten cards, three registered corrections and six bounded verification helpers.
+All 13 staged X bookmarks reviewed and marked: four new cards, one duplicate, five folds and three no-action dispositions. ACA final benchmark premiums +13% before subsidies; QQQ short-interest data are October 15, not October 30 flow; Treasury $839B is gross issuance; international port actions had mixed durations. Nine original items fully read, four partly read, with alternative primary evidence and explicit source limits. Four cards 011–014 and 18 required handoffs are written; publication proof lives at LAST_COMPLETION. Today's totals: 14 cards, three prior registered corrections and nine bounded verification helpers.
 
-Recipient evidence shows the substantive work behind both aged ACTION flags already exists; exact handoff receipts remain distinct. CATO's manual-only charter creates no routine signal obligation. WQ-556 C remains unchanged and is recorded by PROME. Current duties, source/intake limits and publication evidence: LAST_COMPLETION.md.
+WQ-556 C unchanged; required routes retained, no discretionary informational additions or new studies. Earlier 48-threshold/eight-oil-boundary review remains dated; this bookmark batch creates no new fire or exit. Current duties and delivery/consumption evidence: LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -38,14 +38,10 @@ Recipient evidence shows the substantive work behind both aged ACTION flags alre
 | Data (10/23, primaries) | S&P Global flash PMI October: manufacturing 56.0 (55.9), services 57.9 (58.8), composite 57.6 (58.4); selling prices fastest since August 2022 (010). Michigan final October 48.0 (prelim 46.3); 1-year 4.7%, long-run 3.5% (014). France flash composite 48.4 (51.1), manufacturing 49.3 (011, French release); Germany flash not read. AmEx Q3 reserve release, NWO 1.8% (009). |
 | Oil (10/23 intraday 12:3xZ, not settles) | BZ=F rolled December to January on 10/23 (BZ=F = BZF27 110.28); BZZ26 114.98 (+1.2%), CLZ26 101.26 (+1.3%) (006). Boundary #8 stays on December legs until 11/02. |
 | Chips and Asia (10/22 close; 10/23 Asia intraday 04:39Z) | Vendor closes 10/22: SOX 10,731.98 (−6.72%), SMH $523.35, AMD $507.93 (−8.10%), MU $856.49 (−6.26%), NVDA $212.21 (−4.40%), QQQ $704.47 (−2.86%), NDX 28,958.69, SPY $763.96 (−1.18%), CRWV $55.60 (−10.1%, low $54.85 15:45 ET), AMZN $250.38 (−4.56%). Asia 10/23 intraday: Nikkei 62,238 (−1.06%), Kospi 5,486 (−0.86%, −21% from 10/06), SK Hynix +2.21%; USD/JPY 156.89 (158.13 prior). Japan Sept core CPI 2.1% (CNBC/Xinhua; primary not read). T5YIFR 2.19 [10/22]. Boundary #8 est. ≈$39.75 Dec legs overnight, not a settle. FRED HY/CCC/VIXCLS/DGS10 for 10/22 unpublished at 11:27Z. |
-| Cyber (10/22 night) | All nine CYPHER WAVE-2026-10 rows NOT-FIRED (CYPHER first session). CISA KEV v2026.10.21: PHP2Shell CVEs absent; 0 banking-software entries of 1,754. NVD new CVEs Q3 2026 37,712 vs Q3 2025 12,207 (API re-pull just before 047, stamped 2026-10-23T01:45:57Z). Quest DGX 8-K 8.01 06:53 ET 10/22; DGX $243.28 (+1.82%) vendor close, confounded by same-day earnings. Oracle 5Y CDS 314bp [10/22, DTCC] is PROME's read. |
-| Rates and Europe (10/22 close) | US 10-year 4.95% (−3.75%, about −19bp), 5-year 4.77%, 30-year 5.29% vendor 20:19Z; FRED DGS10 5.13 [10/21]; TLT +1.87%. Reuters intraday: US 10-year 4.994%; France 10-year 5.06% (high 5.1415%, highest since July 2002), above US 10-year first since 2013 (031). HANS's i-i basis governs; not graded by WALTER. |
-| Banks and funding (10/22 close) | Vendor closes: KRE $72.41 (+2.53%), WAL $76.67 (+1.48%, REG-T-02 fired state, re-entry, exit 0 of 3), FISV $50.82, FIS $38.29, JKHY $161.80 (each about +5%). H.4.1 [Wed 10/21]: primary credit $9.169B (avg $8.935B, −$2.377B), reserves $2.970T, TGA avg $952B (+$68.6B) (034). VIX 18.90 (+13.3%) vendor close; no safety net. |
-| Banks (10/22 afternoon) | Vendor 16:04Z intraday, not closes: KRE $71.85 (+1.74%), WAL $76.42 (+1.15%, REG-T-02 fired state, re-entry, exit 0 of 3 at 81.90). Owner answers to Will's 005: REGINALD BANK-ABSENT about 0.6 (012); CREED says the CRE channel is the 10-year rate, not HY spreads (015). Q3 problem loans up at 6 of 6 banks read, reserve coverage down at 5 of 5 (REGINALD, descriptive). Discount-window primary credit $11.044B [Wed 10/14]; H.4.1 tonight 16:30 ET, REGINALD descriptive lines above about $12.9B notable, above about $15.7B outlier. FLG Q3 Friday 06:00 ET. |
-| Credit and funding (10/22 afternoon) | FRED first-published: HY 327 [10/21]; CCC OAS 1,307 [10/21]; CCC effective yield 18.01% [10/20], 17.82% [10/21]; SOFR 3.88% minus IORB 3.90% = −2bp [10/21]; 5y5y forward 2.34 [10/21]. HYG $77.00 vendor 16:04Z. REG-T-04 (>350 for 3 days) 23bp away, outside the 5% watch band. FINRA margin debt $1,480,054M September (+$26.2B; 016). Fitch Q3 nontraded BDC redemption requests 9.8% of shares from 10.3%; Blue Owl Technology Income Corp 39% (013, via two outlets). |
-| Volatility and rates (10/22 afternoon) | VIX 18.78 (+12.6%) vendor 16:04Z intraday; VIXCLS 16.68 [10/21]; no safety net (VIX >30 or +5 intraday not met). 10-year 5.00% intraday (^TNX). SPY $764.84 (−1.07%), QQQ $709.26 (−2.20%) at 16:04Z. |
 
 Evidence: today `research/2026-10-22_boot/THRESHOLD-SCAN.md`, `research/2026-10-22_iran-full-sweep/SWEEP.md`, `research/2026-10-22_afternoon/`. Twenty older rows (10/15–10/22 morning) rotated verbatim to `SESSION_LOG.md` 2026-10-22T16:47:25Z (root Output Canon: spaced words; history moved, not compressed). Each series keeps its source date and basis.
+
+Oldest six observation rows rotated verbatim to SESSION_LOG.md at 2026-10-31T18:34:28Z; no historical claim rewritten.
 
 ## MISSION
 
@@ -67,7 +63,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Owner lead headers refreshed October 31 for ISHM, HENRY, NEXUS and REGINALD, plus WALTER's own row; evidence `research/2026-10-31_followthrough/owner-header-review.json`. Earlier October 30 reviews remain at their recorded vintages. ISHM's own board log establishes its three aged items were processed; GIBBS and CATO own research establishes substantive completion of the two remaining ACTION requests, without inventing exact signal receipts. Cross-runtime readiness remains UNKNOWN; no doorbell or domain launch. Three bounded verification helpers used the available Codex collaboration tools. Full registry/network refresh remains deferred, with the third LIGHT breadcrumb explicitly carrying FULL-closeout debt.
+16 owner-header mirrors refreshed at 2026-10-31T18:34:28Z before this narrative (research/2026-10-31_x-review/owner-headers.json); other rows retain their prior dates. SAM already incorporated the BOJ ETF decision; no duplicate handoff. HENRY/VULCAN already cover the Intel sell-off; no unsupported volume ranking adopted. New cards preserve existing owner responsibilities and WQ-556 C. Codex task discovery was truncated and does not cover all runtimes: owner readiness UNKNOWN, no dark-owner inference or domain launch. Full registry/MEMORY narrative and READS re-attestation debt remain explicit at LAST_COMPLETION; this is not full procedural clearance.
 
 ## Active LIAISON channels
 

@@ -1,0 +1,98 @@
+{
+  "schema": 2,
+  "staged_at": 1793470569.3072429,
+  "items": [
+    {
+      "id": "2116547960062578768",
+      "disposition": "NO-ACTION",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_x-review/REVIEW.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116279044765540568",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2116277383557009865",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_x-review/REVIEW.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116286244955275432",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2116263274815861197",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2116279010304962631",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2116134725899128910",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2116264376093315413",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_x-review/REVIEW.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116271855744999881",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_x-review/REVIEW.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116046893906325551",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2116271956987154764",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2116275391304265864",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2115945567402553823",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    }
+  ],
+  "stage_id": "bb94d3c62ee84b0fbaf62203dd12b2b0"
+}
