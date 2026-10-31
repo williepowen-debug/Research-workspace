@@ -2,10 +2,10 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-10-31 09:35 ET (PROME Tier-1 due-row wake, DOCKET L426; LAST write before commit per Amendment 10). The 10/29 fold below stands except where the 🟠 RHINE section is updated.** Prior: 2026-10-29 08:04 ET (Will-launched session; 8 days dark 10/21→10/29). Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-29_10-21-fold.md`.
+**Last writeback: 2026-10-31 09:40 ET (PROME Tier-1 due-row wake, DOCKET L426, plus the WQ-562 encoding; LAST write before commit per Amendment 10). The 10/29 fold below stands except where the 🟠 RHINE section is updated.** Prior: 2026-10-29 08:04 ET (Will-launched session; 8 days dark 10/21→10/29). Prior fold rotated verbatim → `archive/NEXUS_BRIEF_ARCHIVE_2026-10-29_10-21-fold.md`.
 **WAITING-FOR:**
 - **each session:** Rhine re-entry 3-day test (WSV estimate Kaub at 25 cm ~11/01, instantaneous) · 10 hPa 60°N vortex wind (ECMWF reversal forecast ~11/05)
-- **10/30:** responses on Arizona's intervention in *Nevada v. Burgum* · **Will's ruling:** the C5 →5 re-key (40/180 PROPOSED 10/31, KB-231)
+- **10/30:** responses on Arizona's intervention in *Nevada v. Burgum* · **each session:** the NEW C5 →5 key, 40/180 (Will-ruled 10/31, WQ-562; NOT MET at encoding)
 - **11/02 (Mon):** Colorado milestone band → YELLOW unless the LB agreement is executed · NIFC November outlook (AEO-09)
 - **11/05:** PJM OC · **11/10:** WASDE (SA corn, Aus wheat) · CAP intervention responses · MWD board · **11/12:** CPC ENSO · **~11/15:** November 24-Month Study · **11/26:** SA CEC final
 - **11/30:** hurricane season end (AEO-01, C1 channel-kill)
@@ -20,7 +20,7 @@
 ## 🟠 RHINE — exited (5→4)
 - The record-low run ended **10/22** (35 complete days 9/18→10/22). 10/26–28: Kaub 54–57 cm vs 25, Duisburg 208–235 vs 153 (KB-220, VX-43). Contargo Kaub surcharge **€550** (was €1,075).
 - Held at 4, not 3: Kaub is still below GlW 77 (draft-constrained), and WSV's own estimate returns it to 25 cm around 11/01. ⚠️ European basin root, **not** ENSO.
-- **10/31 BASE RATE (KB-230):** WSV's 26-year gauge record shows the registered record-low trigger (25/153, 3 days) was **never met 2000–2025**; 2026 alone has 43 windows. **Re-key to Kaub ≤40 / Duisburg ≤180 (3 of 26 years: 2003, 2018, 2022) PROPOSED to Will; not executed.** The river is falling again: Kaub 41.2 / Duisburg 204.8 [10/30]. **For CARL/HENRY:** under the proposed line, a C5 →5 becomes a ~1-in-9-year occurrence. 2026's depth (Kaub below gauge zero, a 35-day run below both record lows) stays unprecedented in the 2000–2025 record.
+- **10/31 BASE RATE (KB-230):** WSV's 26-year gauge record shows the registered record-low trigger (25/153, 3 days) was **never met 2000–2025**; 2026 alone has 43 windows. **Re-keyed by Will at 09:38 ET (WQ-562 "A") to Kaub ≤40 AND Duisburg ≤180 (3 of 26 years: 2003, 2018, 2022). NOT MET at encoding: Duisburg was 204.8 on 10/30 (KB-236).** The river is falling again: Kaub 41.2 / Duisburg 204.8 [10/30]. **For CARL/HENRY:** under the new line, a C5 →5 becomes a ~1-in-9-year occurrence. 2026's depth (Kaub below gauge zero, a 35-day run below both record lows) stays unprecedented in the 2000–2025 record.
 
 ## 🟠 COASTAL — hurricane-class tide levels, no hurricane (Will-flagged)
 - NOAA CO-OPS (preliminary): **Lake Worth Pier 35.76 ft = monthly-max record**; Key West **#3 since 1913**, Virginia Key #3 (only Wilma/Irma higher); NWS MAJOR at 4 FL Atlantic gauges 10/25–29. Driver: king tide + 9 days NE wind on an elevated baseline; Gulf normal (KB-216). CA residual raised since early Oct, possibly El Niño, one gauge, unattributed (KB-217).

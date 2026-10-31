@@ -86,7 +86,7 @@
 
 | Leg | *bear-kill* (channel dies) | *bull-confirm* (channel fires) |
 |---|---|---|
-| **European rivers** (Rhine/Danube — the live leg) | **Kaub daily mean back above `GlW` 78 cm for 10 consecutive days** AND Rhine spot freight back under €40/t | **the charter's C5 →5 trigger** — Kaub ≤25 AND Duisburg-Ruhrort ≤153 on the **3 most recent complete days** (the 10-day clause was retired 8/21; read the letter in `CLAUDE.md`, never this cell) — FIRED 9/28 |
+| **European rivers** (Rhine/Danube — the live leg) | **Kaub daily mean back above `GlW` 78 cm for 10 consecutive days** AND Rhine spot freight back under €40/t | **the charter's C5 →5 trigger** — Kaub ≤40 AND Duisburg-Ruhrort ≤180 on the **3 most recent complete days** (re-keyed from 25/153 on 2026-10-31, WQ-562; the 10-day clause was retired 8/21; read the letter in `CLAUDE.md`, never this cell). FIRED 9/28 under 25/153, exited 10/22; NOT MET on the new key at encoding |
 | **Panama** (dormant leg) | transits ≥32/day sustained AND no draft restriction | binding draft/transit restriction, ≤22 transits/day, with a freight-rate spike |
 | **Freight pass-through** (the never-confirmed leg) | goods-CPI contribution flat 2+ prints with rivers constrained — **this kills the CHANNEL, not the peril** | a measured river-attributable goods-CPI contribution at CARL |
 

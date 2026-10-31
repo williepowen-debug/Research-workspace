@@ -85,7 +85,7 @@
 |---|---|
 | **Mead** daily elevation (USBR 921/49) — every day since the last recorded row, + the minimum and its date | **Hoover 1,035 ft** *(BINDING, C6 →5 leg 1)*; exit ≥1,045 ft × 5 consecutive days |
 | **Powell** daily elevation (USBR 919/49) — REALISED only, never a 24-Month Study table | **3,510 ft** ROD protection line *(C6 →5 leg 3)*; exit ≥3,520 × 5 days |
-| **Kaub** and **Duisburg-Ruhrort** UNROUNDED daily means + reading counts, every complete day (≥90/96) since the last row | **≤25 cm** and **≤153 cm** (WSV `NNW`); report every 3-consecutive-complete-day window where BOTH hold — the COUNT, not a grade |
+| **Kaub** and **Duisburg-Ruhrort** UNROUNDED daily means + reading counts, every complete day (≥90/96) since the last row | **≤40 cm** and **≤180 cm** (the C5 →5 key since 2026-10-31, WQ-562; it was WSV `NNW` 25/153 until then). Report every 3-consecutive-complete-day window where BOTH hold — the COUNT, not a grade. Also report the count at NNW 25/153 as a descriptive record-low marker |
 | **Memphis** (NWPS MEMT1) DAILY-MEAN stage from hourly obs (n≥22/24) + the trough and its date | `lowThreshold` −8 ft · 2022-10-21 −10.81 · 2023-10-17 −12.06 |
 | **Gatún** (ACP CSV) + any new ACP Advisory to Shipping — draft (TFW), **SLOTS**, **TRANSITS** labelled separately | the 2023 same-date analogue; bands on TRANSITS ≤32 / ≤27 / ≤22 |
 | **USDM** CONUS D1–D4 | the prior week (direction + magnitude) |
