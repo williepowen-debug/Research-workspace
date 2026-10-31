@@ -1,6 +1,6 @@
 # WALTER — October 31 full closeout
 
-Updated 2026-10-31T18:48:29Z. Codex/OpenAI; exact serving model unavailable. Session 01a192b0-c510-7c01-8e13-13239496b1df. Will approved the stated three-step follow-through with “ok approved go ahead.” Prior receipt and STATUS preserved verbatim under research/2026-10-31_followthrough/prior-*.md. Root and local instructions recovered; no local AGENTS.md exists. Shell, web and thread-local verification helpers available; no native Claude tools or complete fleet census assumed.
+Updated 2026-10-31T19:14:40Z. Session CLOSED on Will’s explicit request for full closeout. Codex/OpenAI; exact serving model unavailable. Session 01a192b0-c510-7c01-8e13-13239496b1df. Will approved the stated three-step follow-through with “ok approved go ahead.” Prior receipt and STATUS preserved verbatim under research/2026-10-31_followthrough/prior-*.md. Root and local instructions recovered; no local AGENTS.md exists. Shell, web and thread-local verification helpers available; no native Claude tools or complete fleet census assumed.
 
 ## STATUS
 
@@ -8,7 +8,7 @@ Delivery reconciliation and evidence checks completed. All 48 registered thresho
 
 ## CHANGED
 
-Latest continuation: Will “ok proceed” approved publication, reconciliation and FULL closeout. All 44 STATUS-backed registry mirrors and network/MEMORY refreshed; retirement and outstanding warnings reviewed. Prior state preserved under research/2026-10-31_full-closeout/.
+Latest continuation: Will requested final session closeout. No owner STATUS or WALTER research changes since the completed full refresh at 70046806f; current research conclusions and duties retained. Final closeout checks saved under research/2026-10-31_session-close/. The earlier “ok proceed” approved publication, reconciliation and FULL closeout. All 44 STATUS-backed registry mirrors and network/MEMORY refreshed; retirement and outstanding warnings reviewed. Prior state preserved under research/2026-10-31_full-closeout/.
 
 Earlier continuation: Will “okay review and process” authorized the staged X batch. BM-20261031-04 closed 13/13; four cards 011–014, eighteen required handoffs, one duplicate, five folds and three no-action dispositions. Three Rule 9 reports; primary ACA/QQQ/Treasury checks and port/body/media review. Nine fully read/four partly read original-item records, zero unread. No new study or monitor. Sixteen owner-header mirrors refreshed; oldest six STATUS observation rows preserved verbatim in SESSION_LOG.
 
@@ -39,7 +39,7 @@ WQ-556 C is centrally recorded as DONE/RULED C in PROME/WILL_QUEUE.md. Earlier A
 
 ## FOLLOW-UP
 
-1. X batch complete: no remaining staged IDs. Four new cards and 18 required handoffs are now origin-proven and reconciled. The shared push completed publication; foreign PROME dirty work still defers WALTER pushing its closeout receipt. FULL closeout is now complete; scheduled READS re-attestation remains November 3. Source limitations above remain distinct from executable work.
+1. X batch complete: no remaining staged IDs. Four new cards and 18 required handoffs are now origin-proven and reconciled. The shared push completed publication; foreign launcher/CATO calendar work still defers WALTER pushing its closeout receipt under charter step 16. FULL closeout is now complete; scheduled READS re-attestation remains November 3. Source limitations above remain distinct from executable work.
 2. Monday November 2: published FRED HY/VIXCLS for October 30; boundary 8 January contract switch and new count. Existing Iran answer/Qatar draft, November 1 Sinokor legal-action date and OPEC+ meeting, DEWEY 005R and LIQUID October issuance carries unchanged.
 3. November 3: midterms, scheduled READS re-attestation and NEXUS weekly. November 4: Cushing, GATE-FALCON-001 review, CF Q3. November 5: existing Iran full sweep and MEMORY calendar check. November 6: L334 predictive leg. November 11: Veterans Day HY non-session bridge. Around November 12: staleness sweep. November 13: WQ-556 C remeasurement from October 30 and REG-T-06 CFR grade. Mid-December ERCOT audit unchanged.
 4. WALTER decision on when:7d CYPHER queries, EO 14421 follow-ups (WATT before December 24; CYPHER context), offered NEXUS cross-theme card/missed-data-day proposal, and REGINALD coverage-basis conflict (DEWEY 003R) remain in their existing scopes. No new assignment inferred.
@@ -66,6 +66,8 @@ Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C
 
 ## CLOSEOUT RECEIPT
 
+Final session-close rerun: receipt, read-cap, archive conservation, weekday, version and 99-line memory checks PASS. READS UNKNOWN, seven basis-review paths and three doctor MED warnings retain the evidence dispositions below. No new routing or killed item occurred after the previous full refresh, so route/kill/event ledgers intentionally remain unchanged despite cadence nudges. Top-level inbox empty; delivery reconciler reports zero pending-to-delivered changes and zero real orphans. Foreign launcher/calendar changes remain outside WALTER scope. Session CLOSED.
+
 FULL closeout: all 44 STATUS-backed mirrors, network, lead and MEMORY refreshed; retirement assessed; version/byte/weekday checks completed. READS remains UNKNOWN with the scheduled November 3 review, seven basis changes remain explicit, and three doctor MED findings are manually dispositioned in full-closeout/REVIEW.md. Root and PROME inflight read-cap rotation warnings belong to PROME. Final delivery receipt check PASS after reconciliation; final byte and glued-text checks passed. No comprehensive-source or recipient-consumption clearance claimed.
 
 Current X payload: four cards / eighteen required handoffs now published and reconciled. All 54 daily handoffs are delivered on fresh origin evidence at 2026-10-31T18:49:27Z. Exact-stage mark completed at 18:32:54Z. No recipient incorporation is inferred.
@@ -75,7 +77,7 @@ Fresh origin evidence at 2026-10-31T17:48:11Z supersedes both prior pending clai
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T18:49:27Z",
+  "as_of": "2026-10-31T19:14:40Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -97,6 +99,11 @@ Fresh origin evidence at 2026-10-31T17:48:11Z supersedes both prior pending clai
       "commit": "d03508467",
       "state": "published",
       "note": "Four X cards and 18 required handoffs verified on freshly fetched origin/master 86168b63c1d1c923878a7e5b375a11abc7f1ed1a"
+    },
+    {
+      "commit": "70046806f",
+      "state": "pending",
+      "note": "Completed full registry/network/MEMORY refresh and delivery reconciliation; fresh origin fetch does not yet include this administrative record."
     }
   ],
   "delivery": {
@@ -169,14 +176,14 @@ Fresh origin evidence at 2026-10-31T17:48:11Z supersedes both prior pending clai
   "procedure": {
     "tier": "full",
     "boot": "PARTIAL: documented source/perimeter limits and scheduled READS re-attestation remain.",
-    "session": "FULL closeout completed; 54/54 handoffs delivered; closeout receipt publication deferred on foreign dirty work."
+    "session": "CLOSED on Will explicit request; FULL closeout duties completed. Known source/READS limits retained. Administrative closeout publication deferred on foreign launcher/CATO calendar changes."
   },
   "manual_duties": {
     "11": "Four new cards 011–014, 18 handoffs, BM-20261031-04 closed 13/13; exact stage marked.",
     "Tier1": "Affected state refreshed; dated source gaps retained; all subsequent full narrative deferrals cleared.",
     "15": "Prior duties preserved; valid YAML warning and aged design carry evidence-dispositioned; check outputs retained.",
     "root.retirement": "Complete content-age assessment: two candidates, both retained for live substantive references; REVIEW.md.",
-    "16": "Payload d03508467 origin-proven; exactly 18 ledger rows reconciled. Own closeout changes exact-path commit; foreign PROME edits defer its push.",
+    "16": "All 54 signal handoffs origin-proven. Full-closeout commit 70046806f and final receipt require coordinated publication; foreign launcher/calendar edits defer WALTER self-push under charter step 16.",
     "ledger-nudge": "No new intake, correction, kill, threshold fire/exit, commission or doorbell in administrative closeout; event ledgers intentionally unchanged.",
     "X_reauthorization": "Authorization previously verified; 13 IDs now reviewed/marked at 18:32:54Z; stage empty. No refetch.",
     "12-14": "All 44 owner-header mirrors refreshed before network; lead/counts/posture/SESSION_LOG/MEMORY updated; full narrative deferrals cleared."
