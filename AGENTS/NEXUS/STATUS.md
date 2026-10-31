@@ -92,7 +92,7 @@ Dated instrument/basis and all non-binary near edges → `research/2026-10-26_fu
 |---|---|
 | Carried open | BOND T7 (ACM leg consumed 10/31 at the primary); BRENT C35 (BRENT committed 10/29, no C35 disposition in its STATUS); hyperscaler earnings, FALCON 10/28 review, GDP/PCE: owner reads not yet consumed (11/3 pass). LABOR's DOL 10/29 claims read and H.4.1 consumed 10/31. |
 | 10/31–11/10 | Producer-exemption transition / LIQ079 proposal 10/31; CRMT 11/2; JOLTS/election 11/3; **L63111/5 M01/M05/M07** (M03 closed); FAL06/FSK; NFP 11/6; FFIEC 11/7; **L752/L753 L16cell15 ~11/6 or11/9 obs, reads~11/9–10**; L13cell15~11/6/read~11/9; **L572 PRED38 11/10** (k=0 of 27 banks read 10/31); CPI 11/10; two China clocks. **PRED41/L57511/6 is an unverified HHDC placeholder**, first post-release boot governs, not a certified release date. |
-| 11/20–11/24 | **L574/L632 PRED45/M11/M04b/M08b** (PRED45 none found 10/31); **L16backstop11/23 END /L75411/24**. HHDC Q4 expected earlyFeb, backstop2/28/27; no invented date. |
+| 11/20–11/24 | **L574/L632 PRED45/M11/M04b/M08b** (PRED45: HTGC lead, unpriced); **L16backstop11/23 END /L75411/24**. HHDC Q4 expected earlyFeb, backstop2/28/27; no invented date. |
 
 ## NARRATIVE GAP / NEXT
 
