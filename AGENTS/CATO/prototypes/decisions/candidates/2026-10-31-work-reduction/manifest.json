@@ -1,0 +1,40 @@
+{
+  "schema_version": "cato-isolated-candidate/1",
+  "base_commit": "3a9e489ba2acd3aa4e448f6c497caa14bca4ae82",
+  "candidate_commit": "a859a531d42f706cec3817c0a53907cbd49b0166",
+  "candidate_tree": "825366d353c8a2f55a1ec59f751e1daba19713e3",
+  "installed": false,
+  "matching_chat_confirmation": true,
+  "artifacts": {
+    "candidate.bundle": "e2abce266e7901d15071cf7411462c7471d6b061ac079936f1196e1eb5afe283",
+    "candidate.patch": "068bff2c584f419f8cf7d0da7f091a0fcd040382b4cccce9834b98a513d83d63",
+    "confirmation-proposal.md": "6f1046a506933de5d074ade4af5ab7dc6eb2a81769c87130281ff3673e7485fa"
+  },
+  "build_hashes": {
+    "app.py": "8a82a87a92b0cb6fc91a36662a7c6417aaa7ae7c74b4563231c8956a58b81315",
+    "desk.html": "ddf2789e980f0703dd080b882f1fe4bffefb0d422ff4be5d75a28deb2f017b46",
+    "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
+    "delivery.py": "145fb55976785f7d1492cdc1cb04a15f7ca7614876e917feccf027f691cb4190",
+    "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
+    "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+    "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+    "owner_receipt.py": "4b3a16666704b1148e1195470f6751c699b8ec24fc1bcbbb5ca73a206818e919",
+    "options.py": "7cb9e82fdd0279489c613d403b02031aeb6b87024fe22ce34d93df653ef371a0",
+    "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
+    "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+    "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+    "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+    "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
+    "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
+    "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+    "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+    "scripts/githooks/pre-commit": "7da0c8e68b01f73c3c6969297e24855752c517007f0e9e06dd4d4621cc264cba",
+    "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+    "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
+  },
+  "python_tests": 116,
+  "native_browser_checks": 38,
+  "review_owner": "PROME",
+  "authorized_independent_reviews": 1,
+  "scope": "Points 1\u20133; point 4 is proposal only; original installed code/acceptance unchanged"
+}

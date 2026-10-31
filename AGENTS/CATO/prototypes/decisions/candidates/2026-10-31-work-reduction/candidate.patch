@@ -1,0 +1,1276 @@
+diff --git a/AGENTS/CATO/decisions/.gitignore b/AGENTS/CATO/decisions/.gitignore
+new file mode 100644
+index 0000000000000000000000000000000000000000..2cd4ec4d424cbf20ad21ba96c02d453631f98904
+--- /dev/null
++++ b/AGENTS/CATO/decisions/.gitignore
+@@ -0,0 +1,3 @@
++# Only explicit app Send force-adds selected replies in its temporary checkout.
++/queue-responses/*.json
++/responses/*.json
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/README.md b/AGENTS/CATO/prototypes/decisions/mvp/README.md
+index e93c70fec4980e1804f6c337cc230ab853fb799a..b1bf984950f88e127aaeb0b24756ef39b2a148a8 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/README.md
++++ b/AGENTS/CATO/prototypes/decisions/mvp/README.md
+@@ -8,13 +8,13 @@ python3 -B AGENTS/CATO/prototypes/decisions/mvp/app.py --open-browser
+ 
+ The page reads the existing PROME queue and your saved responses. **Decisions**, **Tasks for me**, **Follow-through** and **History** keep their full source wording. Mixed/action rows stay intact in Follow-through rather than being guessed into new decisions. History now includes **Recently decided**: the 20 newest dated, published `PROME/proposals/*-RULED.md` files by filename date, with literal owner wording and all corrections available. A ruling file can contain several WQ decisions; this is not a complete chat ledger and is not sorted by inferred answer times. WQ-558's saved A, receipt and separately attributed implementation remain below these records. Prior approvals are never re-requested.
+ 
+-**Current release status:** accepted and live on October 31, 2026. PROME's final independent read accepted `4955b465f` with named residue and no blocker; acceptance was published under WQ-564 A at `9b5ed5994`. Matching chat confirmation remains required. Any fingerprinted code/dependency change returns the app to read-only until fresh acceptance. The queue remains authoritative; this release does not make structured records the source of the queue.
++**Candidate status:** this is the isolated work-reduction batch approved by Will on October 31, 2026. It is not the installed live app. The previously accepted `4955b465f` remains live until this candidate passes its newly authorized independent review and is installed with matching acceptance. Chat confirmation remains required for every answer. The queue remains authoritative.
+ 
+ ## Everyday use after acceptance
+ 
+ 1. Open Decisions. **Sync latest records** fetches receipts and applies remote commits only when the checkout is clean and has no diverging local commits. Concurrent owner work is preserved; unresolved Git work is reported.
+ 2. On a decision without explicit options, **Approve** and **Disapprove** open a scope field: name the specific decision you mean and add conditions separately. The full recommendation stays reference text; it is never copied wholesale into your approval. Switching verdicts keeps your conditions and replaces the generated verdict; **Other response** clears the verdict. A response containing both “I approve” and “I disapprove” cannot proceed to review until clarified. Where PROME supplies explicit choices, use those choice buttons; no recommended option ID is inferred from prose. None is preselected. Tasks use **Respond**. Mixed rows require you to name the part you mean.
+-3. **Review response** shows the full terms and your exact words. **Save & deliver to PROME** saves first, exports one immutable event, commits only that event and its inbox pointer, and runs the repository safe-push protocol. Like ordinary repository closeout, the push also carries other already committed work on master; the review screen states this. Foreign staged/unstaged work is not committed by Send. A failed or uncertain delivery leaves the saved answer available for retry. Only the latest eligible response can be delivered through the app. Send fetches once, then checks that fetched published state and current working terms, option text, competing replies and integrated receipts before creating the packet and again before committing/pushing. Later checks do not refetch origin; a remote change during Send remains the named W-A race. Changed, closed, blocked or already recorded items refuse delivery while preserving the saved answer. Weekday findings remain visible advice; failure to run a required check reports “saved; not delivered”. **Save on this computer** is available separately. Revisions can supersede never-sent versions: Send reads the current local response chain as well as committed history at each guard. It publishes only the selected event and its packet; it does not publish earlier private drafts.
++3. **Save & deliver** saves the exact reviewed answer, then prepares its selected response and inbox packet in a temporary publication checkout. It checks current terms and local history before and after commit, pushes with the existing Git safeguards, and verifies both artifacts after fetching. A refusal leaves no candidate commit or staged reply on shared master. An uncertain push says so; retry first checks for an already-published pair. Only these two paths are committed by Send; other already-committed owner work can still travel in the push. The shared working tree advances only if clean and safe to fast-forward, without overwriting ignored files. Otherwise delivery is complete and current owner work stays in place until Sync/reconciliation. Failed checks keep the saved answer. Weekday findings remain visible advice; failed execution blocks Send. Never-sent answers stay in ignored local state.
+ 4. Confirm the same answer in PROME's chat under the retained local-user trust rule. PROME writes its own receipt and ruling. A receipt records interpretation, not completed implementation. History shows the exact event named by an integrated receipt; other saved answers remain separately labelled with their own terms and delivery state. A closed question cannot be answered again. No app operation launches an agent or executes the proposed work.
+ 
+ The browser is local to the current computer. Keep its terminal open while using it. SQLite is machine-local and ignored by Git; immutable event files and owner receipts travel through the repository. An actual desktop restore of the saved WQ-558 answer/receipt remains to be observed at the next ordinary machine switch; local fixture clones are not that observation.
+@@ -65,14 +65,20 @@ The new snapshot dialect `decisions-queue-display/2` includes the exact option s
+ 
+ History displays each published ruling's opening paragraph and full text, including embedded follow-up decisions and corrections. Unpublished local changes are labelled while the published record remains visible. App answer save time and PROME receipt time are separately labelled in Eastern time; neither is relabelled as the time Will spoke. No ruling, time or completed-work conclusion is extracted heuristically.
+ 
+-PROME can inspect new replies with:
++PROME can check all published answers and prepare received receipts with one command:
+ 
+ ```sh
++# Read-only report (fetches published state; no receipt writes):
+ python3 -B AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py pending
+-python3 -B AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py prepare EVENT_ID received
++# PROME owner action: mechanical checks plus idempotent received receipts:
++python3 -B AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py intake --write
++# Optional single-item scope:
++python3 -B AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py intake --event-id EVENT_ID --write
+ ```
+ 
+-`prepare` prints JSON by default. `--write` is for PROME's owner action only: it creates one immutable receipt, never commits or pushes. For `integrated`, supply `--ruling-path`, `--ruling-commit`, `--confirmation-path`, and `--confirmation-commit`; both references must resolve under PROME/proposals at published commits and the ruling path ends in `-RULED.md`. The helper does not decide whether the wording actually matches; that is PROME's judgment. PROME changes the queue and publishes the ruling first, then writes/commits its receipt. Receipt states remain received, needs_clarification, rejected_stale and integrated; no completed-work state is invented.
++Intake checks the exact published packet/event, latest observable published chain, current queue/option wording and existing receipts. A malformed item is reported separately; unchanged valid items remain inspectable. Unpublished HEAD-only events are excluded. Private drafts on another computer are unknowable, and disconnected published histories require reconciliation. Reports name the fetched revision; rerun before acting if the question or published answers have changed. `received` means the mechanical intake passed; it is neither Will's confirmation, a ruling nor completed work. Concurrent/repeated intake preserves one immutable received receipt, including before its owner commit. The command never commits, pushes, rules or edits the queue.
++
++The existing `prepare EVENT_ID STATE` command remains for explicit owner dispositions. It prints JSON by default; `--write` creates an immutable receipt. For `integrated`, supply `--ruling-path`, `--ruling-commit`, `--confirmation-path`, and `--confirmation-commit`; references must resolve under PROME/proposals at published commits, and the ruling path ends in `-RULED.md`. The helper does not decide whether wording semantically matches: PROME must verify exact answer, conditions and matching chat confirmation, publish the ruling first, then write/commit integration. No automatic ruling or confirmation waiver was added.
+ 
+ ## Data and rollback
+ 
+@@ -80,26 +86,28 @@ python3 -B AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py prepare EVENT_I
+ - Daily queue replies: `AGENTS/CATO/decisions/queue-responses/`, dialect `decisions-queue-response/1`; exact published queue row and displayed terms retained.
+ - Owner receipts: `PROME/decisions/receipts/<event_id>/` (unchanged contract).
+ - Delivery pointer: `PROME/inbox/decisions-<event_id>-from-CATO.md`; processing may move it to `processed/`.
+-- Local stores: `local-state/queue-<WQ>.sqlite3` and the original `wq558.sqlite3`.
++- Local stores: `local-state/queue-<WQ>.sqlite3`, ignored `local-state/exports/` backups and the original `wq558.sqlite3`. Never-sent legacy exports in `decisions/queue-responses/` are now ignored without deleting or publishing them. Only explicit Send force-adds its selected pair inside its temporary checkout.
+ 
+ To disable responses, open with `--preview` or have PROME revoke its acceptance record. Do not delete or move response/receipt history. Restore an earlier application revision only together with its compatible acceptance; never rewrite saved events. Legacy `pilot_launch.py` retains its original acceptance pin and correctly refuses this changed core. Use `app.py` for the new desk.
+ 
+ 
+ ## Review freeze and retained limits
+ 
+-`release-review.json` pins the accepted code and dependencies. Final read 3 is complete; its ledger is `PROME/reports/2026-10-31_decisions-desk-final-ledger.md`. No further review of this episode is authorized without Will's named approval. A later repair must return for fresh acceptance; do not casually edit fingerprinted files on the live installation.
++`release-review.json` pins this candidate. The handoff names the exact candidate commit and portable bundle. Will authorized one independent review of this batch; no live code changes or further reviewer launches follow from author tests. Point 4 (making selected app answers authoritative without chat) is a separate proposal, not implemented.
++
++The fingerprint retains answer/receipt code, source parsing, rendering, Git publication, hook installation, hooks, account guard and draft-ignore rules. It excludes the date and orphan advisory implementations. Their commands still run on each new Send with the existing contract: weekday exits 0/1 are complete (1 reports advice), other exits fail; orphan must finish successfully and returns its output. No root-required safeguard was removed. A changed critical dependency still disables replies pending reacceptance.
+ 
+-A cross-machine answer fork now preserves both exact answers visibly and blocks only that item's new saves/delivery. Its minimum recovery is copying the originals for owner reconciliation; an in-app branch chooser is not implemented. Other integrity errors may still disable all cards. The independent ledger's retained warnings also cover symbolic receipt-reference input, unpublished-event intake, unpublished receipt display and missing receipt-time/semantic validation, same-date History ordering, and permissive option-fence info strings. These remain named acceptance residue, not repaired claims. Standard Send pushes other already committed work as disclosed. The orphan tool is advisory; its output is returned in the delivery check record, and exact pathspec commits enforce file scope.
++W-F/W-G, the W-A stranded-commit consequence, W-B shared staging on hook refusal, and W5 whole-scan failure on unpublished events are repaired in this candidate under author tests. Shared-HEAD rollback is never used. Legacy unpublished reply commits already on shared master are refused for explicit owner reconciliation; this candidate does not erase earlier mistakes. Publication still has a final check-to-push interval: a local change after the final check can occur after the send boundary. PROME must check latest delivered answer/current question and obtain matching chat confirmation before ruling. A remote advance refuses without leaving a candidate on shared master.
+ 
+-A fresh store may begin with a published response whose never-sent predecessor is unavailable. That published answer remains readable/respondable with a visible history-gap notice; the immutable predecessor ID is preserved. A missing predecessor of an unpublished response still blocks delivery. Disconnected segments (for example, sent A → private B → sent C on a computer lacking B) are preserved but require reconciliation; the app does not guess the missing link or silently select a branch.
++Remaining named limits: manual fork/disconnected-history reconciliation (W1); advisory orphan rather than enforcement (W3); symbolic receipt-reference preparation (W4); unpublished HEAD receipt display and missing semantic/time checks in legacy integration (W6); some integrity errors can block the desk (W7); same-day ruling filename order (W8); other committed owner work can ride a push (W9); permissive option fence (W12); reused integrated WQ hidden in History (W-C); some misleading refusal text (W-D); action-menu/verdict-title mismatch (W-E). Published responses with unavailable private predecessors stay readable with an explicit gap notice; disconnected chains are never guessed. Actual desktop/laptop restore and ordinary-use productivity remain unobserved.
+ 
+-The October 31 re-check's W-A through W-E remain named: a concurrent remote update can leave a stale answer committed for later shared publication; a failed commit hook leaves the app's paths staged; an integrated WQ reused for a new question stays in History; some refusal messages wrongly mention acceptance; changing the action menu can leave a verdict title after clearing its verdict. PROME adopts direct packet/event reads instead of the pending helper, and publishes its ruling before committing an integrated receipt. Each response still requires matching chat confirmation. These procedure choices are owner-reported, not CATO runtime verification.
++The temporary publication checkout materializes only the selected pair, hook/push scripts and repository marker; it retains the complete Git tree. A busy shared tree may remain behind after successful delivery. Sync applies published records when current owner work permits; it does not take over another desk's edits. Malformed artifacts quarantined by intake remain visible for owner reconciliation; the tool cannot infer their missing contents or ownership. Ordinary performance and repeated use remain observations, not author-test claims.
+ 
+ ## Verification
+ 
+ ```sh
+ # From this directory; all writes use temporary fixture repositories/stores.
+-python3 -B -m unittest test_mvp test_pilot_files test_pilot_launch test_desk test_desk_review test_revision_delivery -q
++python3 -B -m unittest test_mvp test_pilot_files test_pilot_launch test_desk test_desk_review test_revision_delivery test_batch -q
+ # From repository root; Windows Chrome and local HTTP required.
+ python3 -B AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
+ python3 -B scripts/agents_gui.py --smoke-test
+@@ -108,5 +116,3 @@ python3 -B scripts/agents_gui.py --smoke-test
+ The daily desk tests use a local bare Git remote and preserve an unrelated staged file through delivery/retry. Native browser fixtures exercise real forms at desktop/narrow widths; actual-history mode only reads the real completed pilot. `desk-validation.json` records author evidence. No fixture answer is published to the real repository.
+ 
+ The original fictional rehearsal and copy comparison remain available under their existing commands and files. Their dated evidence and the original pilot acceptance are preserved in the [continuing report](../../../runs/2026-10-30_1059_wq-decision-workflow.md). They are not the current release status.
+-
+-**Final-review residue:** W-F broadens W-A: a refusal after the app commits can leave that refused answer on shared master, publishable by the next Send or any desk's push. The local-history guarantee holds before commit, not through its race window. W-G: never-sent exports are untracked and not ignored under `AGENTS/CATO/decisions/queue-responses/`; a manual commit can publish them and falsely show delivery without an inbox packet. **CATO must never commit these files by hand or by directory; only the app's explicit Send owns those commits.** W-F/W-G repair is deferred to a later pass, with fresh acceptance required. PROME reports checking each packet's latest answer and current question before acting, in addition to matching chat confirmation.
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/app.py b/AGENTS/CATO/prototypes/decisions/mvp/app.py
+index b6e20be483b5b046ad43510cf96b094d5dc0366e..69472f3fbfb4fb3e8c7af70c48924d4321ea133c 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/app.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/app.py
+@@ -25,7 +25,8 @@ POWERSHELL = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"
+ def build_hashes():
+     values = {name: hashlib.sha256((HERE / name).read_bytes()).hexdigest() for name in BUILD_FILES}
+     for name in ("PROME/tools/willq_view.py", "AGENTS/CATO/prototypes/decisions/comparison/render.py",
+-                 "scripts/safe-push.sh", "scripts/install-git-hooks.sh", "scripts/claim_check.py", "scripts/orphan_check.sh",
++                 "scripts/safe-push.sh", "scripts/install-git-hooks.sh", "AGENTS/CATO/decisions/.gitignore",
++                 "AGENTS/CATO/prototypes/decisions/mvp/.gitignore",
+                  "scripts/githooks/commit-msg", "scripts/githooks/pre-commit", "scripts/githooks/pre-push", "scripts/account_guard.py"):
+         values[name] = hashlib.sha256((reader.ROOT / name).read_bytes()).hexdigest()
+     return values
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/delivery.py b/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
+index 319c4f3afee117358d54890701764d43c26044d5..d381909370bb4fe0f05bfd7ac3cb28d7c5955516 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
+@@ -16,13 +16,37 @@ def event_path(event):
+     return f"{prefix}/{identifier(event['id'])}.json"
+ 
+ 
++def packet_text(event):
++    path = event_path(event)
++    eid = identifier(event["id"])
++    return (f"# CATO → PROME: Decisions response {eid}\n\n"
++            f"Response: `{path}`\n\nEvent SHA256: `{event['sha256']}`\n\n"
++            f"Unit: `{event['request']['unit_id']}`; saved {event['saved_at']}.\n\n"
++            "ACTION: read the exact immutable event and displayed terms, verify the matching operator confirmation "
++            "under the adopted trust rule, and write your own receipt/ruling. This packet is transport, not that "
++            "confirmation. Preserve conditions verbatim. A task report is not evidence that an owner verified completion. "
++            "Never infer completion from a receipt. The app does not change the queue or launch an agent.\n")
++
++
++def published_packet(repo, event, ref="origin/master"):
++    expected = packet_text(event)
++    for directory in ("PROME/inbox", "PROME/inbox/processed"):
++        path = f"{directory}/decisions-{event['id']}-from-CATO.md"
++        try:
++            if repo.read(path, ref, prefix="PROME/inbox") == expected:
++                return path
++        except (ValueError, subprocess.CalledProcessError):
++            pass
++    return None
++
++
+ def delivery_state(repo, event):
+     path = event_path(event)
+     payload = encoded(event) + "\n"
+     for ref, label in [("origin/master", "delivered"), ("HEAD", "committed")]:
+         try:
+             if repo.read(path, ref) == payload:
+-                return label
++                return label if published_packet(repo, event, ref) else "published without inbox packet" if ref == "origin/master" else "committed without inbox packet"
+         except (ValueError, subprocess.CalledProcessError):
+             pass
+     return "saved"
+@@ -109,88 +133,150 @@ def run_advisory(repo, command, label):
+     return {"check": label, "exit": result.returncode, "output": result.stdout + result.stderr}
+ 
+ 
++def ancestor(repo, older, newer):
++    result = subprocess.run(["git", "merge-base", "--is-ancestor", older, newer],
++                            cwd=repo.root, capture_output=True)
++    if result.returncode not in (0, 1):
++        raise ValueError("Git ancestry could not be checked")
++    return result.returncode == 0
++
++
++def delivery_base(repo):
++    head = repo.git("rev-parse", "HEAD").strip()
++    remote = repo.git("rev-parse", "origin/master").strip()
++    if ancestor(repo, head, remote):
++        return remote
++    if ancestor(repo, remote, head):
++        return head
++    raise ValueError("Response saved; checkout histories diverge. Reconcile Git before Send; no reply committed.")
++
++
++def publication_checkout(repo, directory, base, paths):
++    # No shared index or branch writes. Failed commits die with this private clone.
++    subprocess.run(["git", "clone", "-q", "--shared", "--no-checkout", str(repo.root), str(directory)],
++                   check=True, capture_output=True)
++    work = type(repo)(directory)
++    # Only materialize the hook/push programs, repository marker and selected pair.
++    # Git's complete tree/index still preserves every other committed path.
++    work.git("sparse-checkout", "set", "--no-cone", "/scripts/", "/PROME/ROSTER.md",
++             "/AGENTS/CATO/decisions/.gitignore", *("/" + name for name in paths))
++    work.git("checkout", "-q", "-B", "master", base)
++    def remote_url(push=False):
++        args = ("remote", "get-url", "--push", "origin") if push else ("remote", "get-url", "origin")
++        value = repo.git(*args).strip()
++        if ":" not in value and not Path(value).is_absolute():
++            value = str((repo.root / value).resolve())
++        return value
++    work.git("remote", "set-url", "origin", remote_url())
++    work.git("remote", "set-url", "--push", "origin", remote_url(True))
++    for key in ("user.name", "user.email"):
++        work.git("config", key, repo.git("config", "--get", key).strip())
++    work.git("config", "core.hooksPath", "scripts/githooks")
++    work.git("fetch", "origin")
++    # Execute exactly the committed safeguards, never silently discard dirty hooks.
++    for name in ("scripts/safe-push.sh", "scripts/install-git-hooks.sh", "scripts/account_guard.py",
++                 "scripts/githooks/commit-msg", "scripts/githooks/pre-commit", "scripts/githooks/pre-push"):
++        source, candidate = repo.path(name), work.path(name)
++        if source.exists() != candidate.exists() or (source.exists() and source.read_bytes() != candidate.read_bytes()):
++            raise ValueError("Publication safeguard has uncommitted or newer changes: " + name)
++    return work
++
++
++def refresh_after_publication(repo):
++    # A clean shared tree may advance normally; active owners keep their checkout.
++    if not repo.git("status", "--porcelain", "--untracked-files=no").strip():
++        try:
++            repo.git("merge", "--ff-only", "--no-overwrite-ignore", "origin/master")
++            return ""
++        except subprocess.CalledProcessError:
++            pass
++    return " Shared checkout preserved; use Sync after current desk work is reconciled."
++
++
+ def deliver(repo, event, guard=None, local_events=None):
+-    """Explicit button only, after acceptance. Exact immutable response plus one inbox pointer."""
++    """Explicit Send: create and push the exact pair in a disposable checkout."""
+     validate(repo, event)
+     path = event_path(event)
+     payload = encoded(event) + "\n"
+-    if repo.path(path).read_text() != payload:
+-        raise ValueError("Export changed or is absent; response was not delivered")
+     eid = identifier(event["id"])
+-    # Stable filename makes an unchanged retry idempotent.
+     packet = f"PROME/inbox/decisions-{eid}-from-CATO.md"
+-    processed = f"PROME/inbox/processed/decisions-{eid}-from-CATO.md"
+-    text = (f"# CATO → PROME: Decisions response {eid}\n\n"
+-            f"Response: `{path}`\n\nEvent SHA256: `{event['sha256']}`\n\n"
+-            f"Unit: `{event['request']['unit_id']}`; saved {event['saved_at']}.\n\n"
+-            "ACTION: read the exact immutable event and displayed terms, verify the matching operator confirmation "
+-            "under the adopted trust rule, and write your own receipt/ruling. This packet is transport, not that "
+-            "confirmation. Preserve conditions verbatim. A task report is not evidence that an owner verified completion. "
+-            "Never infer completion from a receipt. The app does not change the queue or launch an agent.\n")
++    text = packet_text(event)
+     with locked(repo):
+-        if guard:
+-            guard()
+-        try:
+-            repo.git("fetch", "origin")
+-        except subprocess.CalledProcessError as error:
+-            raise ValueError("Response saved; not delivered: latest published terms could not be fetched") from error
+-        check_queue_delivery(repo, event, local_events)
+-        if repo.path(processed).exists():
+-            packet = processed
+-        target = repo.path(packet, "PROME/inbox")
+-        if target.exists():
+-            if target.read_text() != text:
+-                raise ValueError("Existing delivery packet differs; owner reconciliation required")
+-        paths = [path, packet]
+-        def exact_working_files():
+-            if repo.git("branch", "--show-current").strip() != "master":
+-                raise ValueError("Checkout changed during delivery")
+-            for name, expected in ((path, payload), (packet, text)):
+-                if repo.path(name).read_text() != expected:
+-                    raise ValueError("Delivery file changed during Send; preserved for reconciliation")
++        def recheck():
+             if guard:
+                 guard()
+             check_queue_delivery(repo, event, local_events)
++        try:
++            repo.git("fetch", "origin")
++        except subprocess.CalledProcessError as error:
++            raise ValueError("Response saved; latest published terms could not be fetched. No reply committed.") from error
++        recheck()
++        if delivery_state(repo, event) == "delivered":
++            return {"message": "Already delivered to PROME; awaiting matching chat confirmation and receipt.",
++                    "commit": repo.git("rev-parse", "origin/master").strip(),
++                    "packet": published_packet(repo, event), "checks": [], "receipt": "Exact published pair verified."}
+         checks = ["PROME/DOCKET.tsv", "PROME/GATES.tsv", "PROME/WILL_QUEUE.md"]
+         for name in checks:
+             with repo.path(name).open("rb") as stream:
+                 stream.read(1)
+-        # Check the exact candidate before creating an inbox artifact. rc 1 is
+-        # advisory; rc 2 or failure to execute is unassessed, never a pass.
+-        with tempfile.TemporaryDirectory(prefix="decisions-packet-") as temp:
++        with tempfile.TemporaryDirectory(prefix="decisions-send-") as temp:
+             candidate = Path(temp) / Path(packet).name
+             candidate.write_text(text)
+             results = [run_advisory(repo, ["python3", "scripts/claim_check.py", "--check", "weekday",
+-                                          *checks, str(candidate)], "Weekday check"),
++                                           *checks, str(candidate)], "Weekday check"),
+                        run_advisory(repo, ["bash", "scripts/orphan_check.sh", "CATO"], "Orphan advisory")]
+-        check_queue_delivery(repo, event, local_events)
+-        if not target.exists():
+-            target.parent.mkdir(parents=True, exist_ok=True)
+-            with target.open("x") as out:
+-                out.write(text)
+-        # A pathspec commit preserves unrelated staged work. No directory staging.
+-        exact_working_files()
+-        repo.git("add", "--", *paths)
+-        changed = repo.git("diff", "--cached", "--name-only", "--", *paths).strip()
+-        if changed:
+-            repo.git("commit", "-m", f"CATO -> PROME: deliver Decisions response {eid[:12]}",
+-                     "-m", "Implemented-by: CATO", "--", *paths)
+-        commit = repo.git("rev-parse", "HEAD").strip()
+-        exact_working_files()
+-        if repo.read(path, commit) != payload or repo.read(packet, commit) != text:
+-            raise ValueError("Committed delivery differs; publication stopped for reconciliation")
+-        output = subprocess.run(["bash", "scripts/safe-push.sh"], cwd=repo.root,
+-                                capture_output=True, text=True, timeout=120)
+-        if output.returncode:
+-            raise ValueError("Saved and committed locally; publication not confirmed. CATO must reconcile Git. "
+-                             + (output.stderr + output.stdout)[-1800:])
+-        repo.git("fetch", "origin")
+-        repo.git("merge-base", "--is-ancestor", commit, "origin/master")
+-        if repo.read(path, "origin/master") != payload or repo.read(packet, "origin/master") != text:
+-            raise ValueError("Published response does not match; delivery unconfirmed")
+-        advice = "\n\n".join(r["check"] + ":\n" + r["output"] for r in results if r["exit"] == 1)
+-        return {"message": "Delivered to PROME's inbox. Awaiting its receipt and matching chat confirmation."
+-                           + ("\nAdvisory findings (delivery completed):\n" + advice if advice else ""),
+-                "commit": commit, "packet": packet,
+-                "checks": results,
+-                "receipt": output.stdout[-2500:]}
++            recheck()
++            base = delivery_base(repo)
++            legacy = repo.git("diff", "--name-only", "origin/master", base, "--", REPLIES, RESPONSES, "PROME/inbox").splitlines()
++            if any(n.startswith((REPLIES + "/", RESPONSES + "/")) or re.search(r"/decisions-[0-9a-f]{32}-from-CATO\.md$", n) for n in legacy):
++                raise ValueError("An earlier unpublished reply commit needs owner reconciliation; Send will not publish it implicitly")
++            work = publication_checkout(repo, Path(temp) / "repo", base, [path, packet])
++            if not ancestor(work, "origin/master", "HEAD"):
++                raise ValueError("Response saved; origin changed during preparation. Sync and retry. No shared reply commit.")
++            for name, expected in ((path, payload), (packet, text)):
++                target = work.path(name)
++                if target.exists() and target.read_text() != expected:
++                    raise ValueError("Existing delivery artifact differs; reconcile " + name)
++                target.parent.mkdir(parents=True, exist_ok=True)
++                if not target.exists():
++                    with target.open("x") as out:
++                        out.write(expected)
++            recheck()
++            # Force applies only to these selected files; draft exports never enter this checkout.
++            work.git("add", "-f", "--", path, packet)
++            try:
++                if work.git("diff", "--cached", "--name-only", "--", path, packet).strip():
++                    work.git("commit", "-m", f"CATO -> PROME: deliver Decisions response {eid[:12]}",
++                             "-m", "Implemented-by: CATO", "--", path, packet)
++            except subprocess.CalledProcessError as error:
++                raise ValueError("Response saved; publication commit refused. Shared index unchanged; no reply published. "
++                                 + error.stderr.decode("utf-8", errors="replace")[-1600:]) from error
++            commit = work.git("rev-parse", "HEAD").strip()
++            # Fetch after commit: a refusal leaves no reachable reply on shared master.
++            repo.git("fetch", "origin")
++            recheck()
++            if not ancestor(work, repo.git("rev-parse", "origin/master").strip(), commit):
++                raise ValueError("Response saved; origin changed during commit. Sync and retry. No shared reply commit.")
++            for name, expected in ((path, payload), (packet, text)):
++                if work.read(name, commit) != expected or work.path(name).read_text() != expected:
++                    raise ValueError("Publication artifacts changed; no reply published")
++            try:
++                output = subprocess.run(["bash", "scripts/safe-push.sh"], cwd=work.root,
++                                        capture_output=True, text=True, timeout=120)
++                detail = (output.stderr + output.stdout)[-1800:]
++            except subprocess.SubprocessError as error:
++                detail = type(error).__name__
++            # A killed/ambiguous push can have succeeded. Verify before claiming failure.
++            try:
++                repo.git("fetch", "origin")
++            except subprocess.CalledProcessError as error:
++                raise ValueError("Response saved; publication status unknown. Sync before retrying or confirming in chat.") from error
++            if delivery_state(repo, event) != "delivered":
++                raise ValueError("Response saved; exact response and inbox packet are not published. "
++                                 "No reply commit was left on shared master. Retry after reconciliation. " + detail)
++            tail = refresh_after_publication(repo)
++            advice = "\n\n".join(r["check"] + ":\n" + r["output"] for r in results if r["exit"] == 1)
++            return {"message": "Delivered to PROME's inbox. Awaiting matching chat confirmation and receipt." + tail
++                               + ("\nAdvisory findings (delivery completed):\n" + advice if advice else ""),
++                    "commit": commit, "packet": published_packet(repo, event), "checks": results,
++                    "receipt": "Exact published response and packet verified after fetch."}
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/desk-validation.json b/AGENTS/CATO/prototypes/decisions/mvp/desk-validation.json
+index 6e10d91c307c4c6bbf9e2f4dd6c86be51ddcaef5..dc48a3a41c7d7bcc516146d903a0e411a7daf962 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/desk-validation.json
++++ b/AGENTS/CATO/prototypes/decisions/mvp/desk-validation.json
+@@ -44,7 +44,7 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/desktop.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/desktop.png"
+     },
+     "narrow": {
+       "checks": [
+@@ -89,7 +89,7 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/narrow.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/narrow.png"
+     },
+     "recorded-answer": {
+       "checks": [
+@@ -110,7 +110,7 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/recorded-answer.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/recorded-answer.png"
+     },
+     "revision-restore": {
+       "checks": [
+@@ -131,7 +131,28 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/revision-restore.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/revision-restore.png"
++    },
++    "packet-recovery": {
++      "checks": [
++        {
++          "name": "Published words without packet are not labelled delivered",
++          "pass": true
++        },
++        {
++          "name": "Missing packet retains explicit Deliver control",
++          "pass": true
++        },
++        {
++          "name": "Explicit retry publishes packet and displays delivered",
++          "pass": true
++        },
++        {
++          "name": "Confirmation remains required after packet recovery",
++          "pass": true
++        }
++      ],
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/packet-recovery.png"
+     },
+     "actual-history": {
+       "checks": [
+@@ -160,30 +181,30 @@
+           "pass": true
+         }
+       ],
+-      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g/actual-history.png"
++      "screenshot": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz/actual-history.png"
+     }
+   },
+   "build_hashes": {
+-    "app.py": "5b133efa6758bbc95cd411de62b2d10ed69bd2730b2d40a4b04ed18fcf063edd",
+-    "desk.html": "4b5b6f454b52b63a768374def3850a18dbd2776a8585ccec24568a9032928de5",
+-    "queue_store.py": "e0df66bd78a9197866bc7f86a84e0b93e6a5ffe54212edfd17cbc79a17a822df",
+-    "delivery.py": "00d21a132e7d408e80019381ab8063fdabb8dd0ecb0b26311894e8bac6043d78",
++    "app.py": "8a82a87a92b0cb6fc91a36662a7c6417aaa7ae7c74b4563231c8956a58b81315",
++    "desk.html": "ddf2789e980f0703dd080b882f1fe4bffefb0d422ff4be5d75a28deb2f017b46",
++    "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
++    "delivery.py": "145fb55976785f7d1492cdc1cb04a15f7ca7614876e917feccf027f691cb4190",
+     "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
+     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+     "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+-    "owner_receipt.py": "38d433ca2087ee239f288457f14d6127d4731424ae8383bb9332129fd6f9b843",
++    "owner_receipt.py": "4b3a16666704b1148e1195470f6751c699b8ec24fc1bcbbb5ca73a206818e919",
+     "options.py": "7cb9e82fdd0279489c613d403b02031aeb6b87024fe22ce34d93df653ef371a0",
+     "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
+     "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+     "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+     "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+     "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
+-    "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
+-    "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
++    "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
++    "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+     "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+     "scripts/githooks/pre-commit": "7da0c8e68b01f73c3c6969297e24855752c517007f0e9e06dd4d4621cc264cba",
+     "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+     "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
+   },
+-  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-_tlhq73g"
++  "work_directory": "/mnt/c/Users/willi/AppData/Local/Temp/cato-desk-rxgc5swz"
+ }
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/desk.html b/AGENTS/CATO/prototypes/decisions/mvp/desk.html
+index 7bc99bb18403280a99dedf52316b5d96150bcfa3..d08c07a99caa6e59da2b3beca9745df55f4814d8 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/desk.html
++++ b/AGENTS/CATO/prototypes/decisions/mvp/desk.html
+@@ -26,7 +26,7 @@ function canVerdict(c){return hasRecommendation(c)&&!c.unit.proposal.choices?.le
+ function setVerdict(value){verdict=value;$('verdict-panel').hidden=value===null;$('verdict-label').textContent=value===true?'Approve only the decision you name below.':value===false?'Disapprove only the decision you name below.':'';}
+ function openVerdict(c,approve){if(!c.can_respond||!canVerdict(c))return;openReply(c);setVerdict(approve);$('action').value='reply';chosen=null;actionFields();remember();$('reply-title').textContent=approve?'Approve a specific decision':'Disapprove a specific decision';$('verdict-scope').focus();}
+ function answerText(e,parent){add('p','Saved '+stamp(e.saved_at),parent,'small');add('p',e.selected_choice?e.selected_choice.id+' · '+e.selected_choice.label:e.request.action.replaceAll('_',' '),parent);if(e.request.note)add('p',e.request.note,parent,'bodytext');if(e.request.revisit)add('p','Return: '+e.request.revisit,parent);const d=add('details',null,parent);add('summary','Exact terms saved with this answer',d);terms({unit:e.display.record.units[0],snapshot:e.display},d);}
+-function renderAnswer(c,a,action){const recorded=c.receipt?.state==='integrated';const stages=add('ol',null,a,'stages');for(const [label,done] of [['Saved',true],['Delivered',c.delivery==='delivered'||!!c.receipt],['Received',!!c.receipt],['Decision recorded',recorded]])add('li',label,stages,done?'done':'');add('h3',recorded?'Answer recorded by PROME':c.conflict?'Saved answer — alternatives need reconciliation':'Your saved response',a);answerText(c.last,a);if(c.receipt)add('p','PROME receipt '+stamp(c.receipt.at)+' (receipt time, not your answer time)',a,'small');if(recorded)add('p','PROME recorded this exact answer. No further answer is needed.',a,'notice success');else if(c.delivery_block)add('p',c.delivery_block+' Your original answer and its saved terms remain available below.',a,'notice');else if(!c.receipt)add('p',c.delivery==='delivered'?'Your response reached PROME’s inbox. Its acknowledgment is pending.':'Your response is safely saved here. Deliver it when ready.',a,'notice');if(c.completion)add('p',c.completion.label+'.',a,'notice success');if(model.can_deliver&&c.can_deliver&&c.delivery!=='delivered'){const b=add('button','Deliver saved response',action);b.onclick=()=>deliver(c.last.id);}if(c.requires_confirmation&&!c.receipt&&c.delivery==='delivered')add('p','Confirm the same response in PROME’s chat.',a,'small');const others=(c.events||[]).filter(e=>e.id!==c.last.id);if(others.length){const d=add('details',null,a);d.open=recorded||c.conflict;add('summary',recorded?'Other saved answers — not the answer recorded above':c.conflict?'Conflicting answers — preserved for copying and reconciliation':'Earlier saved answers',d);for(const e of others){const section=add('section',null,d);add('h3','Saved answer '+e.id.slice(0,8),section);add('p','Delivery: '+(c.event_delivery?.[e.id]||'unknown')+(recorded?' · not the recorded answer':''),section,'small');answerText(e,section);}}}
++function renderAnswer(c,a,action){const recorded=c.receipt?.state==='integrated';const stages=add('ol',null,a,'stages');for(const [label,done] of [['Saved',true],['Delivered',c.delivery==='delivered'||!!c.receipt],['Received',!!c.receipt],['Decision recorded',recorded]])add('li',label,stages,done?'done':'');add('h3',recorded?'Answer recorded by PROME':c.conflict?'Saved answer — alternatives need reconciliation':'Your saved response',a);answerText(c.last,a);if(c.receipt)add('p','PROME receipt '+stamp(c.receipt.at)+' (receipt time, not your answer time)',a,'small');if(recorded)add('p','PROME recorded this exact answer. No further answer is needed.',a,'notice success');else if(c.delivery_block)add('p',c.delivery_block+' Your original answer and its saved terms remain available below.',a,'notice');else if(!c.receipt)add('p',c.delivery==='delivered'?'Your response reached PROME’s inbox. Its acknowledgment is pending.':c.delivery==='saved'?'Your response is safely saved here. Deliver it when ready.':'Your response is '+c.delivery+'. Delivery is incomplete; use Deliver saved response.',a,'notice');if(c.completion)add('p',c.completion.label+'.',a,'notice success');if(model.can_deliver&&c.can_deliver&&c.delivery!=='delivered'){const b=add('button','Deliver saved response',action);b.onclick=()=>deliver(c.last.id);}if(c.requires_confirmation&&!c.receipt&&c.delivery==='delivered')add('p','Confirm the same response in PROME’s chat.',a,'small');const others=(c.events||[]).filter(e=>e.id!==c.last.id);if(others.length){const d=add('details',null,a);d.open=recorded||c.conflict;add('summary',recorded?'Other saved answers — not the answer recorded above':c.conflict?'Conflicting answers — preserved for copying and reconciliation':'Earlier saved answers',d);for(const e of others){const section=add('section',null,d);add('h3','Saved answer '+e.id.slice(0,8),section);add('p','Delivery: '+(c.event_delivery?.[e.id]||'unknown')+(recorded?' · not the recorded answer':''),section,'small');answerText(e,section);}}}
+ function render(){if(!model)return;$('nav').replaceChildren();for(const name of views){const b=add('button',null,$('nav'));b.setAttribute('aria-pressed',String(view===name));add('span',name,b);add('span',String(model.cards.filter(c=>c.group===name).length+(name==='History'?(model.rulings?.records?.length||0):0)),b);b.onclick=()=>{view=name;render();};}const q=$('search').value.toLowerCase();const cards=model.cards.filter(c=>c.group===view&&JSON.stringify(c).toLowerCase().includes(q));$('count').textContent=cards.length+' item'+(cards.length===1?'':'s');$('cards').replaceChildren();if(view==='History'){const n=renderRulings(q);$('count').textContent=n+' ruling records · '+cards.length+' app answer'+(cards.length===1?'':'s');}if(!cards.length)add('p','Nothing here right now.',$('cards'),'empty');for(const c of cards){const a=add('article',null,$('cards'));a.dataset.unit=c.unit.id;const top=add('div',null,a,'row');add('span','WQ-'+c.wq_id+(c.unit.timing.needed_by?' · '+c.unit.timing.needed_by:''),top,'eyebrow');add('span',status(c),top,'badge');const title=plain(c.unit.proposal.question);add('h2',title.length>180?title.slice(0,180)+'…':title,a);if(hasRecommendation(c)){add('h3','PROME recommends',a);add('p',plain(c.unit.proposal.recommendation.reason),a,'bodytext');}const action=add('div',null,a,'actions');if(canVerdict(c)){for(const [label,approve] of [['Approve',true],['Disapprove',false]]){const b=add('button',label,action,approve?'primary':'');b.dataset.verdict=approve?'approve':'disapprove';b.disabled=!c.can_respond;b.onclick=()=>openVerdict(c,approve);}}if(c.can_respond){const b=add('button',canVerdict(c)?'Other response':c.last?'Revise response':'Respond',action,hasRecommendation(c)?'':'primary');b.onclick=()=>openReply(c);}else if(!c.last)add('p',c.unit.blocked?'Waiting on the owner before an answer is requested.':'Read-only while final acceptance is pending.',action,'small');if(c.last)renderAnswer(c,a,action);for(const note of c.history_notes||[])add('p',note,a,'notice');for(const error of c.errors||[])add('p',error,a,'notice');const d=add('details',null,a);add('summary','Read proposal, recommendation and conditions',d);terms(c,d);if(c.completion){const e=add('details',null,a);add('summary','Owner’s implementation record',e);add('p',c.completion.evidence,e,'bodytext');}if(c.last){const h=add('details',null,a);add('summary','Saved history and receipt',h);add('pre',JSON.stringify({events:c.events,receipt:c.receipt},null,2),h);}}}
+ function remember(){if(selected)drafts[selected.unit.id]={action:$('action').value,choice_id:chosen,note:$('note').value,revisit:$('revisit').value,verdict,scope:$('verdict-scope').value};}
+ function openReply(c){selected=c;pending=null;setVerdict(null);$('reply-title').textContent='Your response';$('reply-terms').replaceChildren();terms(c,$('reply-terms'));$('action').replaceChildren();const options=c.unit.kind==='hands'?{report_done:'Report task done',reply:'Write a response',defer:'Leave for later',request_changes:'Ask a question'}:{reply:'Write my decision or response',defer:'Leave for later',request_changes:'Ask a question or request changes'};if(c.unit.proposal.choices?.length)options.choose='Choose an option';for(const [value,text] of Object.entries(options)){const o=add('option',text,$('action'));o.value=value;}const d=drafts[c.unit.id]||{action:c.unit.proposal.choices?.length?'choose':c.unit.kind==='hands'?'report_done':'reply',choice_id:null,note:'',revisit:''};$('action').value=d.action;$('note').value=d.note;$('revisit').value=d.revisit;$('verdict-scope').value=d.scope||'';chosen=d.choice_id||null;$('choice-buttons').replaceChildren();for(const option of c.unit.proposal.choices||[]){const b=add('button',option.id+' · '+option.label,$('choice-buttons'));b.dataset.choice=option.id;b.type='button';b.onclick=()=>chooseOption(option.id);}chooseOption(chosen);actionFields();$('reply-status').textContent='';$('reply').showModal();$('note').focus();}
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py b/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py
+index 654b035371f045562f07058d681d3c4ada04f09a..f9744ee46fcc00fc0bafb692640dc238286baa02 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py
+@@ -3,25 +3,31 @@
+ import argparse
+ from datetime import datetime, timezone
+ import json
++import fcntl
++import os
++import subprocess
++import tempfile
+ from pathlib import Path
+ import uuid
+ 
+-from delivery import validate
++from delivery import validate, published_packet
+ from pilot_files import RECEIPTS, RESPONSES, Repo, encoded, identifier, read_receipts, strict_json
+-from queue_store import REPLIES
++from queue_store import REPLIES, queue_chain, check_current_snapshot, validate_reply
+ from store import reader
+ 
+ 
+ def load_event(repo, event_id):
+     identifier(event_id)
+-    candidates = [p for prefix in (RESPONSES, REPLIES) for p in repo.files(prefix)
++    candidates = [p for prefix in (RESPONSES, REPLIES) for p in repo.git("ls-tree", "-r", "--name-only", "origin/master", "--", prefix).splitlines()
+                   if p == f"{prefix}/{event_id}.json"]
+     if len(candidates) != 1:
+         raise ValueError("Expected one committed response with this ID")
+-    event = strict_json(repo.read(candidates[0], clean=True))
++    event = strict_json(repo.read(candidates[0], "origin/master"))
+     if repo.read(candidates[0], "origin/master") != encoded(event) + "\n":
+         raise ValueError("Response is not published exactly")
+     validate(repo, event)
++    if event["id"] != event_id:
++        raise ValueError("Response filename disagrees with its identity")
+     return event
+ 
+ 
+@@ -49,10 +55,132 @@ def prepare(repo, event, state, ruling=None, confirmation=None):
+             "confirmed_response_sha256": event["sha256"] if state == "integrated" else None}
+ 
+ 
++def inspect_event(repo, event):
++    """Owner intake preflight; never interprets an answer as a ruling."""
++    packet = published_packet(repo, event)
++    if not packet:
++        raise ValueError("Published response lacks its exact inbox packet; not delivered")
++    receipts = read_receipts(repo, event, commit="origin/master")
++    if receipts and receipts[-1]["state"] in {"integrated", "rejected_stale", "needs_clarification"}:
++        return {"status": receipts[-1]["state"], "receipt": receipts[-1], "packet": packet}
++    if event["kind"] == "decisions-queue-response/1":
++        wq = event["display"]["record"]["wq_id"]
++        events = []
++        for path in repo.git("ls-tree", "-r", "--name-only", "origin/master", "--", REPLIES).splitlines():
++            try:
++                other = strict_json(repo.read(path, "origin/master", prefix=REPLIES))
++            except (ValueError, subprocess.CalledProcessError):
++                continue  # Report this quarantined artifact on its own intake row.
++            if not isinstance(other, dict):
++                continue
++            if other.get("display", {}).get("record", {}).get("wq_id") != wq:
++                continue
++            validate_reply(repo, other, wq)
++            if path != f"{REPLIES}/{other['id']}.json":
++                raise ValueError("Published response filename disagrees with its identity")
++            events.append(other)
++        ordered = queue_chain(repo, events)
++        if not ordered or ordered[-1]["id"] != event["id"]:
++            return {"status": "superseded", "packet": packet, "reason": "A later published answer exists"}
++        for other in ordered:
++            if any(r["state"] == "integrated" for r in read_receipts(repo, other, commit="origin/master")):
++                raise ValueError("An answer was already recorded for this item")
++        check_current_snapshot(repo, event["display"])
++    else:
++        # The old supervised pilot has a different source contract.
++        from pilot_files import assert_current
++        assert_current(repo, event["display"])
++    return {"status": "received" if receipts else "ready", "packet": packet,
++            "receipt": receipts[-1] if receipts else None,
++            "requires_chat_confirmation": True,
++            "meaning": "Mechanical checks only; PROME must interpret, confirm and record the ruling."}
++
++
++def receipt_path(repo, receipt):
++    return repo.path(f"{RECEIPTS}/{receipt['response_id']}/{receipt['id']}.json", RECEIPTS)
++
++
++def write_received(repo, event):
++    # Deterministic identity makes a retry before the owner's commit idempotent.
++    receipt = prepare(repo, event, "received")
++    receipt["id"] = uuid.uuid5(uuid.NAMESPACE_URL, "decisions-received/1/" + event["sha256"]).hex
++    path = receipt_path(repo, receipt)
++    path.parent.mkdir(parents=True, exist_ok=True)
++    # Respect a receipt prepared by PROME but not committed yet, including the
++    # older explicit prepare command's random ID. Never create a parallel root.
++    pending = list(path.parent.glob("*.json"))
++    if pending:
++        if len(pending) != 1:
++            raise ValueError("Multiple local receipts need owner reconciliation before intake writes")
++        prior_path = repo.path(str(pending[0].relative_to(repo.root)), RECEIPTS)
++        prior = strict_json(prior_path.read_text())
++        from pilot_files import timestamp
++        timestamp(prior.get("at")); identifier(prior.get("id"))
++        if prior_path.stem != prior["id"] or ({k: v for k, v in prior.items() if k not in {"id", "at"}} !=
++                                               {k: v for k, v in receipt.items() if k not in {"id", "at"}}):
++            raise ValueError("Existing local receipt conflicts; preserve it for owner reconciliation")
++        return str(prior_path.relative_to(repo.root))
++    if not path.exists():
++        with tempfile.NamedTemporaryFile(dir=path.parent, prefix=".receipt-") as out:
++            out.write((encoded(receipt) + "\n").encode()); out.flush(); os.fsync(out.fileno())
++            try:
++                os.link(out.name, path)
++            except FileExistsError:
++                pass
++    existing = strict_json(path.read_text())
++    from pilot_files import timestamp
++    timestamp(existing.get("at"))
++    if {k: v for k, v in existing.items() if k != "at"} != {k: v for k, v in receipt.items() if k != "at"}:
++        raise ValueError("Existing received receipt conflicts; preserve it for reconciliation")
++    return str(path.relative_to(repo.root))
++
++
++def intake(repo, write=False, event_id=None):
++    # origin is fetched by the CLI once; report the checked revision with each run.
++    revision = repo.git("rev-parse", "origin/master").strip()
++    if event_id:
++        identifier(event_id)
++        ids = {event_id}
++    else:
++        ids = set()
++        for prefix in (RESPONSES, REPLIES):
++            ids.update(Path(path).stem for path in repo.git("ls-tree", "-r", "--name-only", revision, "--", prefix).splitlines()
++                       if path.endswith(".json"))
++    results = []
++    for eid in sorted(ids):
++        row = {"id": eid}
++        try:
++            event = load_event(repo, eid)
++            row.update({"unit": event["request"]["unit_id"], "request": event["request"],
++                        "question": event["display"]["record"], "response_sha256": event["sha256"]})
++            row.update(inspect_event(repo, event))
++            if write and row["status"] == "ready":
++                lock = repo.path("AGENTS/CATO/prototypes/decisions/mvp/local-state/intake.lock")
++                lock.parent.mkdir(parents=True, exist_ok=True)
++                with lock.open("a") as stream:
++                    fcntl.flock(stream, fcntl.LOCK_EX)
++                    # Detect new published state / working question before writing.
++                    if repo.git("rev-parse", "origin/master").strip() != revision:
++                        raise ValueError("Published state changed during intake; rerun")
++                    row.update(inspect_event(repo, event))
++                    if row["status"] == "ready":
++                        row["receipt_path"] = write_received(repo, event)
++                        row["status"] = "received"
++        except (ValueError, KeyError, TypeError, AttributeError, OSError, subprocess.CalledProcessError) as error:
++            row.update({"status": "needs_clarification", "reason": str(error)})
++        results.append(row)
++    return {"checked_revision": revision, "items": results,
++            "scope": "Published answers only; private drafts are not observable. Received is not ruled or implemented.",
++            "requires_chat_confirmation": True}
++
++
+ def main():
+     p = argparse.ArgumentParser(description=__doc__)
+     sub = p.add_subparsers(dest="command", required=True)
+-    sub.add_parser("pending")
++    sub.add_parser("pending", help="Read-only published intake report; one bad item does not stop the scan")
++    i = sub.add_parser("intake", help="Check delivered answers; optionally write received receipts, never rulings")
++    i.add_argument("--event-id")
++    i.add_argument("--write", action="store_true", help="PROME only: write received receipts; no Git commit or ruling")
+     r = sub.add_parser("prepare")
+     r.add_argument("event_id")
+     r.add_argument("state", choices=["received", "needs_clarification", "rejected_stale", "integrated"])
+@@ -60,22 +188,17 @@ def main():
+     r.add_argument("--confirmation-path"); r.add_argument("--confirmation-commit")
+     r.add_argument("--write", action="store_true", help="PROME only: create one immutable receipt; no Git mutation")
+     args = p.parse_args(); repo = Repo(reader.ROOT)
+-    if args.command == "pending":
+-        result = []
+-        for prefix in (RESPONSES, REPLIES):
+-            for path in repo.files(prefix):
+-                event = load_event(repo, Path(path).stem)
+-                receipts = read_receipts(repo, event)
+-                if not receipts or receipts[-1]["state"] == "received":
+-                    result.append({"id": event["id"], "unit": event["request"]["unit_id"],
+-                                   "request": event["request"], "state": receipts[-1]["state"] if receipts else "unacknowledged"})
+-        print(json.dumps(result, indent=2, ensure_ascii=False)); return
++    if args.command in {"pending", "intake"}:
++        repo.git("fetch", "origin")
++        print(json.dumps(intake(repo, getattr(args, "write", False), getattr(args, "event_id", None)),
++                         indent=2, ensure_ascii=False))
++        return
+     event = load_event(repo, args.event_id)
+     ruling = {"path": args.ruling_path, "commit": args.ruling_commit} if args.ruling_path else None
+     confirmation = {"path": args.confirmation_path, "commit": args.confirmation_commit} if args.confirmation_path else None
+     receipt = prepare(repo, event, args.state, ruling, confirmation)
+     if args.write:
+-        path = repo.path(f"{RECEIPTS}/{event['id']}/{receipt['id']}.json", RECEIPTS)
++        path = receipt_path(repo, receipt)
+         path.parent.mkdir(parents=True, exist_ok=True)
+         with path.open("x") as out:
+             out.write(encoded(receipt) + "\n")
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py b/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
+index 2829dfb0459eb304adcc988bc287f29b678b04cc..fb5f80201424a0a51c23881f01ab8b3c0714c9c1 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
+@@ -103,7 +103,7 @@ def validate_reply(repo, event, wq):
+ 
+ 
+ def immutable_export(repo, event):
+-    path = repo.path(f"{REPLIES}/{identifier(event['id'])}.json", REPLIES)
++    path = repo.path(f"AGENTS/CATO/prototypes/decisions/mvp/local-state/exports/{identifier(event['id'])}.json")
+     payload = (encoded(event) + "\n").encode()
+     path.parent.mkdir(parents=True, exist_ok=True)
+     if path.exists():
+@@ -200,10 +200,10 @@ class QueueStore(Store):
+ 
+     def restore(self):
+         events = {e["id"]: e for e in self.responses()["events"]}
+-        for path in self.repo.files(REPLIES):
++        for path in self.repo.git("ls-tree", "-r", "--name-only", "origin/master", "--", REPLIES).splitlines():
+             if not re.fullmatch(re.escape(REPLIES) + r"/[0-9a-f]{32}\.json", path):
+                 raise ValueError("Unexpected queue response path")
+-            event = strict_json(self.repo.read(path, clean=True, prefix=REPLIES))
++            event = strict_json(self.repo.read(path, "origin/master", prefix=REPLIES))
+             if event.get("display", {}).get("record", {}).get("wq_id") != self.wq:
+                 continue
+             validate_reply(self.repo, event, self.wq)
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/release-review.json b/AGENTS/CATO/prototypes/decisions/mvp/release-review.json
+index e06171ae122ed124362453d9a61e3db6187400e0..433023a9af3084a758b480574eabf774639af040 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/release-review.json
++++ b/AGENTS/CATO/prototypes/decisions/mvp/release-review.json
+@@ -1,30 +1,30 @@
+ {
+   "schema_version": "decisions-release-review/1",
+-  "status": "FROZEN: R1 local-predecessor repair author-tested; PROME final independent read 3 pending; WQ-564 A pre-approves activation on acceptance without blockers",
++  "status": "FROZEN CANDIDATE: work-reduction points 1\u20133 author-tested in isolation; one newly authorized independent review pending; installed live build unchanged",
+   "build_hashes": {
+-    "app.py": "5b133efa6758bbc95cd411de62b2d10ed69bd2730b2d40a4b04ed18fcf063edd",
+-    "desk.html": "4b5b6f454b52b63a768374def3850a18dbd2776a8585ccec24568a9032928de5",
+-    "queue_store.py": "e0df66bd78a9197866bc7f86a84e0b93e6a5ffe54212edfd17cbc79a17a822df",
+-    "delivery.py": "00d21a132e7d408e80019381ab8063fdabb8dd0ecb0b26311894e8bac6043d78",
++    "app.py": "8a82a87a92b0cb6fc91a36662a7c6417aaa7ae7c74b4563231c8956a58b81315",
++    "desk.html": "ddf2789e980f0703dd080b882f1fe4bffefb0d422ff4be5d75a28deb2f017b46",
++    "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
++    "delivery.py": "145fb55976785f7d1492cdc1cb04a15f7ca7614876e917feccf027f691cb4190",
+     "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
+     "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+     "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+-    "owner_receipt.py": "38d433ca2087ee239f288457f14d6127d4731424ae8383bb9332129fd6f9b843",
++    "owner_receipt.py": "4b3a16666704b1148e1195470f6751c699b8ec24fc1bcbbb5ca73a206818e919",
+     "options.py": "7cb9e82fdd0279489c613d403b02031aeb6b87024fe22ce34d93df653ef371a0",
+     "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
+     "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+     "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+     "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+     "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
+-    "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
+-    "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
++    "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
++    "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+     "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+     "scripts/githooks/pre-commit": "7da0c8e68b01f73c3c6969297e24855752c517007f0e9e06dd4d4621cc264cba",
+     "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+     "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
+   },
+-  "python_checks": "95 tests PASS: test_mvp test_pilot_files test_pilot_launch test_desk test_desk_review test_revision_delivery; subsequent history-notice wording-only change covered by final browser run",
+-  "browser_checks": 34,
++  "python_checks": "116 tests PASS in 86.041 seconds: test_mvp test_pilot_files test_pilot_launch test_desk test_desk_review test_revision_delivery test_batch",
++  "browser_checks": 38,
+   "native_launcher": "Prior launcher smoke PASS reused: launcher command unchanged. Current browser entrypoint checked directly.",
+   "activation_template": {
+     "schema_version": "decisions-app-acceptance/1",
+@@ -35,22 +35,22 @@
+       "commit": "REPLACE-WITH-FULL-PUBLISHED-COMMIT"
+     },
+     "build_hashes": {
+-      "app.py": "5b133efa6758bbc95cd411de62b2d10ed69bd2730b2d40a4b04ed18fcf063edd",
+-      "desk.html": "4b5b6f454b52b63a768374def3850a18dbd2776a8585ccec24568a9032928de5",
+-      "queue_store.py": "e0df66bd78a9197866bc7f86a84e0b93e6a5ffe54212edfd17cbc79a17a822df",
+-      "delivery.py": "00d21a132e7d408e80019381ab8063fdabb8dd0ecb0b26311894e8bac6043d78",
++      "app.py": "8a82a87a92b0cb6fc91a36662a7c6417aaa7ae7c74b4563231c8956a58b81315",
++      "desk.html": "ddf2789e980f0703dd080b882f1fe4bffefb0d422ff4be5d75a28deb2f017b46",
++      "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
++      "delivery.py": "145fb55976785f7d1492cdc1cb04a15f7ca7614876e917feccf027f691cb4190",
+       "pilot_files.py": "be49eb28947288c47f9f360a0ec6d6f289bdc030dac0e450a278d4447e9bf6fc",
+       "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+       "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+-      "owner_receipt.py": "38d433ca2087ee239f288457f14d6127d4731424ae8383bb9332129fd6f9b843",
++      "owner_receipt.py": "4b3a16666704b1148e1195470f6751c699b8ec24fc1bcbbb5ca73a206818e919",
+       "options.py": "7cb9e82fdd0279489c613d403b02031aeb6b87024fe22ce34d93df653ef371a0",
+       "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
+       "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+       "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+       "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+       "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
+-      "scripts/claim_check.py": "efe09d44ea0d66f86636f45f0da9b6fcdf3499352910e1925ae6a5e6606660bb",
+-      "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
++      "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
++      "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+       "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+       "scripts/githooks/pre-commit": "7da0c8e68b01f73c3c6969297e24855752c517007f0e9e06dd4d4621cc264cba",
+       "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+@@ -58,31 +58,44 @@
+     }
+   },
+   "review_focus": [
+-    "R1: never-sent A -> revised B/C -> Send for decision and task; stale-source recovery and refused-commit recovery",
+-    "Local history reread at every guard; reject superseded, forked, wrong-WQ, tampered and genuinely missing unpublished predecessors",
+-    "Only selected event and packet published; fresh-store published replacement restores with explicit missing-private-history notice; disconnected segments refuse",
+-    "Preserve independently closed original blockers: receipt-bound exact recorded words, closed/integrated refusal, current published/working terms and options checks",
+-    "Preserve exact-file/shared-index/retry behavior and verdict/conditions controls; real WQ-558 remains read-only witness"
++    "W-F/W-A: temporary publication checkout; post-commit refusal and non-fast-forward cannot leak a candidate through shared master; no shared rollback or foreign-index mutation",
++    "W-G: ignored drafts/legacy exports, exact response-plus-packet delivery, processed-packet support and incomplete-packet recovery",
++    "W-B: failed hooks leave shared index unchanged; ambiguous push confirmation and idempotent retry",
++    "Existing owner intake: published-only enumeration, per-item malformed/error reporting, latest observable chain and unchanged terms/options, received-only writes and duplicate/local-receipt compatibility",
++    "Dependency policy: advisory implementation hashes excluded but commands/exit checks retained; parser and publication/receipt safeguards still pinned",
++    "Preserve original wrong-answer/stale-terms/R1 fixes, real WQ-558 history, confirmation and owner ruling boundary",
++    "Point 4 policy proposal only: no app-only authority or automatic classification implemented"
+   ],
+-  "freeze": "No CATO edits to any build/dependency file during final read 3. Review the full code revision named in the R1 handoff and these hashes. A further independent read requires Will named authorization.",
++  "freeze": "One newly authorized independent review of the exact candidate commit named in the batch packet. No edits to candidate code/dependencies after freeze. Original live app and acceptance remain unchanged.",
+   "retained_residue": [
+     "W1 branch chooser not implemented; readable/copyable originals and manual owner reconciliation",
+     "W3 orphan advisory output returned; not an enforcement gate",
+     "W4 symbolic receipt references may be rejected later by reader",
+-    "W5 pending helper can stop on unpublished event",
+     "W6 receipt display can use unpublished HEAD receipt; time order and semantic WQ match not enforced",
+     "W7 integrity errors other than preserved forks may block whole desk",
+     "W8 same-day ruling order is filename order, not answer chronology",
+     "W9 shared push publishes other already committed work as disclosed",
+     "W12 longer option-fence info string accepted",
+     "Actual desktop/laptop event/receipt restore unobserved",
+-    "W-A: origin fetched once; remote changes during checks can leave a stale local commit after non-fast-forward refusal, publishable by later shared rebase/push",
+-    "W-B: refused commit hook leaves its two files staged and opaque error",
+     "W-C: reused integrated WQ with new question remains hidden in History",
+     "W-D: some refusal messages incorrectly blame final acceptance",
+     "W-E: action-menu change can clear verdict but leave Approve title",
+-    "Disconnected published history separated by an unavailable private intermediate revision remains readable but blocked for manual reconciliation; no missing edge guessed"
++    "Disconnected published history separated by an unavailable private intermediate revision remains readable but blocked for manual reconciliation; no missing edge guessed",
++    "Final check-to-push interval remains; local source/answer changes after final check require owner intake validation before ruling",
++    "Existing unpublished reply commits from the old release require explicit owner reconciliation; the candidate refuses to carry them",
++    "Private cross-device drafts are not observable to owner intake; ambiguous/disconnected published histories require reconciliation",
++    "Intake received receipts are mechanical acknowledgments, not semantic validation, ruling, confirmation or completed work",
++    "A busy shared checkout can remain behind after successful delivery; later Sync/reconciliation is still needed",
++    "Normal-use productivity and cross-device restore are not established by author fixtures"
+   ],
+-  "activation_authority": "PROME/proposals/2026-10-31_wq564-RULED.md: PROME publishes exact-build acceptance on ACCEPT or ACCEPT WITH NAMED RESIDUE with no blocker; matching chat confirmation remains required.",
+-  "owner_procedure": "PROME reports direct packet intake instead of pending helper; publish ruling before integrated receipt. These are owner procedures, not new CATO enforcement."
++  "activation_authority": "Will approved points 1\u20133 and one independent review in CATO chat. This candidate is not installed or accepted by these author results. Point 4 remains Will\u2019s separate decision; matching chat confirmation stays true.",
++  "owner_procedure": "PROME may run owner_receipt.py intake --write for validated received receipts. PROME retains exact-answer/current-question judgment, matching chat confirmation, canonical ruling and ruling-before-integration publication.",
++  "dependency_policy": {
++    "excluded_advisory_implementations": [
++      "scripts/claim_check.py",
++      "scripts/orphan_check.sh"
++    ],
++    "unchanged_runtime_contract": "Both commands still run on each new Send; weekday rc 0/1 complete with rc 1 advice, other exits refuse; orphan rc 0 required. Root Git safeguards retained."
++  },
++  "isolation_smoke": "Full repository sparse publication preparation: 0.40 seconds, 62 materialized files, complete tree unchanged, canonical hooks configured, disabled candidate push target preserved. One local observation, not end-to-end network latency."
+ }
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py b/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..c4d939b9082006dfa816e938e2b2914cc3599114
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py
+@@ -0,0 +1,269 @@
++"""Work-reduction batch counterexamples. All writes target disposable repositories."""
++import hashlib
++import json
++from pathlib import Path
++import subprocess
++import unittest
++from unittest.mock import patch
++import uuid
++
++import app
++import delivery
++import owner_receipt
++from pilot_files import Repo, encoded
++from queue_store import QueueStore, REPLIES
++import test_desk as fixtures
++
++
++class BatchTests(unittest.TestCase):
++    git = fixtures.DeskTests.git
++    put = fixtures.DeskTests.put
++    commit = fixtures.DeskTests.commit
++    request = fixtures.DeskTests.request
++
++    def setUp(self):
++        fixtures.DeskTests.setUp(self)
++
++    def send(self, event):
++        return delivery.deliver(self.repo, event, local_events=lambda: self.store.responses()['events'])
++
++    def publish_file(self, path, text):
++        self.put(path, text)
++        self.git('add', '-f', '--', path)
++        self.git('commit', '-qm', 'Fixture explicit publication', '--', path)
++        self.git('push', '-q')
++
++    def test_drafts_and_legacy_exports_are_ignored_and_never_swept(self):
++        a = self.store.save(self.request(note='Private draft alpha'))
++        b = self.store.save(self.request(supersedes=a['id'], note='Final beta'))
++        self.assertFalse(self.repo.path(delivery.event_path(a)).exists())
++        self.put(delivery.event_path(a), encoded(a)+'\n')  # Old-install export.
++        self.assertTrue(self.git('check-ignore', delivery.event_path(a)).strip())
++        self.assertNotIn('exports', self.git('status', '--porcelain', '--untracked-files=all'))
++        self.assertNotIn(a['id'], self.git('status', '--porcelain', '--untracked-files=all'))
++        self.send(b)
++        self.assertFalse(delivery.published_packet(self.repo, a))
++        with self.assertRaises(ValueError): self.repo.read(delivery.event_path(a), 'origin/master')
++        self.assertEqual(self.repo.path(delivery.event_path(a)).read_text(), encoded(a)+'\n')
++
++    def test_published_event_alone_is_not_delivery_and_can_repair_packet(self):
++        event = self.store.save(self.request())
++        self.publish_file(delivery.event_path(event), encoded(event)+'\n')
++        self.assertEqual(delivery.delivery_state(self.repo, event), 'published without inbox packet')
++        report = owner_receipt.intake(self.repo, True)
++        self.assertEqual(report['items'][0]['status'], 'needs_clarification')
++        self.assertFalse(self.repo.path('PROME/decisions/receipts').exists())
++        self.send(event)
++        self.assertEqual(delivery.delivery_state(self.repo, event), 'delivered')
++
++    def test_processed_packet_still_proves_delivery(self):
++        event = self.store.save(self.request()); result = self.send(event)
++        self.git('mv', result['packet'], result['packet'].replace('/inbox/', '/inbox/processed/')) if self.repo.path('PROME/inbox/processed').exists() else None
++        if not self.repo.path('PROME/inbox/processed').exists():
++            self.repo.path('PROME/inbox/processed').mkdir()
++            self.git('mv', result['packet'], result['packet'].replace('/inbox/', '/inbox/processed/'))
++        self.git('commit', '-qm', 'Fixture owner files packet'); self.git('push', '-q')
++        self.assertEqual(delivery.delivery_state(self.repo, event), 'delivered')
++        before = self.git('rev-parse', 'HEAD'); self.send(event)
++        self.assertEqual(before, self.git('rev-parse', 'HEAD'))
++
++    def refusal_after_commit(self, mutate):
++        event = self.store.save(self.request(note='Candidate that must not leak'))
++        before = self.git('rev-parse', 'HEAD')
++        self.put('foreign.txt', 'Another owner staged text'); self.git('add', 'foreign.txt')
++        original = Repo.git
++        def interleave(work, *args):
++            result = original(work, *args)
++            if args[0] == 'commit' and work.root != self.root:
++                mutate(event)
++            return result
++        with patch.object(Repo, 'git', interleave):
++            with self.assertRaises(ValueError): self.send(event)
++        self.assertEqual(before, self.git('rev-parse', 'HEAD'))
++        self.assertEqual(self.git('diff', '--cached', '--name-only').strip(), 'foreign.txt')
++        self.assertFalse(self.repo.path(f"PROME/inbox/decisions-{event['id']}-from-CATO.md").exists())
++        self.git('commit', '-qm', 'Unrelated owner closeout', '--', 'foreign.txt'); self.git('push', '-q')
++        self.assertFalse(delivery.published_packet(self.repo, event))
++        with self.assertRaises(ValueError): self.repo.read(delivery.event_path(event), 'origin/master')
++        return event
++
++    def test_new_local_answer_during_commit_never_reaches_shared_push(self):
++        def revise(event):
++            self.store.save(self.request(supersedes=event['id'], note='New local answer'))
++        self.refusal_after_commit(revise)
++
++    def test_changed_question_during_commit_never_reaches_shared_push(self):
++        self.refusal_after_commit(lambda e: self.put('PROME/WILL_QUEUE.md', self.text.replace('Exact caveat', 'Different consequence')))
++
++    def test_revoked_acceptance_after_commit_leaves_no_shared_commit(self):
++        event=self.store.save(self.request()); before=self.git('rev-parse','HEAD'); active=[True]
++        original=Repo.git
++        def interleave(work,*args):
++            result=original(work,*args)
++            if args[0]=='commit' and work.root != self.root: active[0]=False
++            return result
++        def guard():
++            if not active[0]: raise ValueError('Acceptance changed')
++        with patch.object(Repo,'git',interleave):
++            with self.assertRaisesRegex(ValueError,'Acceptance changed'):
++                delivery.deliver(self.repo,event,guard=guard)
++        self.assertEqual(before,self.git('rev-parse','HEAD'))
++        self.assertEqual(delivery.delivery_state(self.repo,event),'saved')
++
++    def test_remote_advance_at_push_is_refused_without_shared_commit(self):
++        event=self.store.save(self.request()); run=subprocess.run
++        def advance(args,**kwargs):
++            if args==['bash','scripts/safe-push.sh']:
++                self.publish_file('owner.txt','Owner remote update')
++            return run(args,**kwargs)
++        with patch('delivery.subprocess.run',side_effect=advance):
++            with self.assertRaisesRegex(ValueError,'not published'): self.send(event)
++        self.assertEqual(delivery.delivery_state(self.repo,event),'saved')
++        self.assertFalse(delivery.published_packet(self.repo,event))
++        self.send(event)
++        self.assertEqual(delivery.delivery_state(self.repo,event),'delivered')
++
++    def test_push_succeeds_then_times_out_is_confirmed_without_duplicate(self):
++        event=self.store.save(self.request()); run=subprocess.run
++        def ambiguous(args,**kwargs):
++            result=run(args,**kwargs)
++            if args==['bash','scripts/safe-push.sh']:
++                self.assertEqual(result.returncode,0)
++                raise subprocess.TimeoutExpired(args,120)
++            return result
++        with patch('delivery.subprocess.run',side_effect=ambiguous): self.send(event)
++        before=self.git('rev-parse','origin/master'); self.send(event)
++        self.assertEqual(before,self.git('rev-parse','origin/master'))
++
++    def test_existing_unpublished_reply_commit_cannot_be_swept(self):
++        a=self.store.save(self.request()); self.put(delivery.event_path(a),encoded(a)+'\n')
++        self.git('add','-f',delivery.event_path(a)); self.git('commit','-qm','Fixture old refused send')
++        b=self.store.save(self.request(supersedes=a['id'],note='Replacement'))
++        with self.assertRaisesRegex(ValueError,'earlier unpublished reply'): self.send(b)
++        self.assertEqual(delivery.delivery_state(self.repo,b),'saved')
++
++    def test_intake_receives_once_and_never_rules(self):
++        event=self.store.save(self.request()); self.send(event)
++        preview=owner_receipt.intake(self.repo)
++        self.assertEqual(preview['items'][0]['status'],'ready')
++        first=owner_receipt.intake(self.repo,True); second=owner_receipt.intake(self.repo,True)
++        self.assertEqual(first['items'][0]['receipt_path'],second['items'][0]['receipt_path'])
++        files=list(self.repo.path('PROME/decisions/receipts').rglob('*.json'))
++        self.assertEqual(len(files),1)
++        receipt=json.loads(files[0].read_text()); self.assertEqual(receipt['state'],'received')
++        self.assertIsNone(receipt['canonical_ruling']); self.assertIsNone(receipt['chat_confirmation'])
++        self.assertEqual(self.repo.path('PROME/WILL_QUEUE.md').read_text(),self.text)
++        self.assertTrue(first['requires_chat_confirmation'])
++        self.assertEqual(self.git('diff','--cached','--name-only'),'')
++
++    def test_intake_rejects_stale_terms_and_superseded_answer(self):
++        a=self.store.save(self.request()); self.send(a)
++        b=self.store.save(self.request(supersedes=a['id'],note='Replacement')); self.send(b)
++        report=owner_receipt.intake(self.repo)
++        rows={r['id']:r for r in report['items']}
++        self.assertEqual(rows[a['id']]['status'],'superseded'); self.assertEqual(rows[b['id']]['status'],'ready')
++        self.put('PROME/WILL_QUEUE.md',self.text.replace('Exact caveat','Changed terms'))
++        report=owner_receipt.intake(self.repo,True)
++        self.assertEqual(next(r for r in report['items'] if r['id']==b['id'])['status'],'needs_clarification')
++        self.assertFalse(self.repo.path('PROME/decisions/receipts').exists())
++
++    def test_intake_quarantines_malformed_event_without_losing_good_item(self):
++        event=self.store.save(self.request()); self.send(event)
++        bad=uuid.uuid4().hex; self.publish_file(f'{REPLIES}/{bad}.json','{broken')
++        rows={r['id']:r for r in owner_receipt.intake(self.repo)['items']}
++        self.assertEqual(rows[bad]['status'],'needs_clarification')
++        self.assertEqual(rows[event['id']]['status'],'ready')
++
++    def test_intake_ignores_unpublished_head_only_event(self):
++        event=self.store.save(self.request()); self.put(delivery.event_path(event),encoded(event)+'\n')
++        self.git('add','-f',delivery.event_path(event)); self.git('commit','-qm','Fixture unpublished response')
++        self.assertEqual(owner_receipt.intake(self.repo)['items'],[])
++
++    def test_intake_receipt_collision_preserves_original(self):
++        event=self.store.save(self.request()); self.send(event)
++        receipt=owner_receipt.prepare(self.repo,event,'received')
++        receipt['id']=uuid.uuid5(uuid.NAMESPACE_URL,'decisions-received/1/'+event['sha256']).hex
++        receipt['state']='rejected_stale'; path=owner_receipt.receipt_path(self.repo,receipt)
++        path.parent.mkdir(parents=True); path.write_text(encoded(receipt)+'\n')
++        row=owner_receipt.intake(self.repo,True)['items'][0]
++        self.assertEqual(row['status'],'needs_clarification')
++        self.assertEqual(json.loads(path.read_text())['state'],'rejected_stale')
++
++    def test_intake_reuses_uncommitted_owner_prepared_received_receipt(self):
++        event=self.store.save(self.request()); self.send(event)
++        receipt=owner_receipt.prepare(self.repo,event,'received')
++        path=owner_receipt.receipt_path(self.repo,receipt); path.parent.mkdir(parents=True)
++        path.write_text(encoded(receipt)+'\n')
++        row=owner_receipt.intake(self.repo,True)['items'][0]
++        self.assertEqual(row['receipt_path'],str(path.relative_to(self.root)))
++        self.assertEqual(len(list(path.parent.glob('*.json'))),1)
++
++    def test_intake_refuses_response_with_wrong_filename(self):
++        event=self.store.save(self.request()); self.send(event)
++        wrong=uuid.uuid4().hex
++        self.publish_file(f'{REPLIES}/{wrong}.json',encoded(event)+'\n')
++        with self.assertRaisesRegex(ValueError,'filename'):
++            owner_receipt.load_event(self.repo,wrong)
++
++    def test_concurrent_intake_retries_write_one_received_receipt(self):
++        from concurrent.futures import ThreadPoolExecutor
++        event=self.store.save(self.request()); self.send(event)
++        with ThreadPoolExecutor(max_workers=2) as pool:
++            results=list(pool.map(lambda _: owner_receipt.intake(self.repo,True),range(2)))
++        self.assertTrue(all(r['items'][0]['status']=='received' for r in results))
++        self.assertEqual(len(list(self.repo.path('PROME/decisions/receipts').rglob('*.json'))),1)
++
++    def test_intake_changed_options_refused(self):
++        fixtures.DeskTests.install_options(self)
++        event=self.store.save(self.request(action='choose',choice_id='A')); self.send(event)
++        self.options['choices'][0]['meaning']='New obligation'
++        path=event['display']['options_source']['path']
++        self.publish_file(path,'```decisions-options\n'+json.dumps(self.options)+'\n```\n')
++        row=owner_receipt.intake(self.repo,True)['items'][0]
++        self.assertEqual(row['status'],'needs_clarification')
++        self.assertFalse(self.repo.path('PROME/decisions/receipts').exists())
++
++    def test_intake_disconnected_history_refuses_only_that_item(self):
++        a=self.store.save(self.request()); self.send(a)
++        b=self.store.save(self.request(supersedes=a['id'],note='Private middle'))
++        c=self.store.save(self.request(supersedes=b['id'],note='Published last')); self.send(c)
++        task=QueueStore(Path(self.tmp.name)/'task.sqlite3',self.repo,'902',True)
++        d=task.display(); e=task.save(self.request(display_hash=d['hash'],unit_id='902.queue',action='report_done',note='Task report'))
++        delivery.deliver(self.repo,e)
++        rows={r['id']:r for r in owner_receipt.intake(self.repo,True)['items']}
++        self.assertEqual(rows[c['id']]['status'],'needs_clarification')
++        self.assertEqual(rows[e['id']]['status'],'received')
++        self.assertFalse(self.repo.path('PROME/decisions/receipts/'+c['id']).exists())
++
++    def test_intake_changed_source_inside_receipt_lock_refuses(self):
++        event=self.store.save(self.request()); self.send(event)
++        lock=owner_receipt.fcntl.flock
++        def changed(*args):
++            result=lock(*args)
++            self.put('PROME/WILL_QUEUE.md',self.text.replace('Exact caveat','Different now'))
++            return result
++        with patch('owner_receipt.fcntl.flock',side_effect=changed):
++            row=owner_receipt.intake(self.repo,True)['items'][0]
++        self.assertEqual(row['status'],'needs_clarification')
++        self.assertFalse(self.repo.path('PROME/decisions/receipts').exists())
++
++    def test_fingerprint_excludes_advice_but_keeps_parser_and_publication_guards(self):
++        before=app.build_hashes()
++        for name in ['scripts/claim_check.py','scripts/orphan_check.sh']:
++            self.assertNotIn(name,before)
++        for name in ['PROME/tools/willq_view.py','scripts/safe-push.sh','scripts/githooks/pre-push','scripts/account_guard.py','owner_receipt.py']:
++            self.assertIn(name,before)
++        read=Path.read_bytes
++        def changed(p):
++            data=read(p)
++            if str(p).endswith('/scripts/claim_check.py'): return data+b'\n# advisory edit\n'
++            return data
++        with patch.object(Path,'read_bytes',changed): self.assertEqual(before,app.build_hashes())
++        def critical(p):
++            data=read(p)
++            if str(p).endswith('/PROME/tools/willq_view.py'): return data+b'\n# parser edit\n'
++            return data
++        with patch.object(Path,'read_bytes',critical): self.assertNotEqual(before,app.build_hashes())
++
++
++if __name__=='__main__': unittest.main()
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py b/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
+index 43479b84180b369dfc7730827c18bfd361327d23..525efe9613db31f6328403cae878dca540e3e487 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
+@@ -34,6 +34,8 @@ class DeskTests(unittest.TestCase):
+         self.put("scripts/orphan_check.sh", "exit 0\n")
+         self.put("scripts/install-git-hooks.sh", "exit 0\n")
+         self.put("scripts/safe-push.sh", (reader.ROOT / "scripts/safe-push.sh").read_text())
++        self.put("AGENTS/CATO/prototypes/decisions/mvp/.gitignore", "local-state/\n__pycache__/\n")
++        self.put("AGENTS/CATO/decisions/.gitignore", "/queue-responses/*.json\n/responses/*.json\n")
+         self.commit()
+         self.remote = Path(self.tmp.name) / "remote.git"
+         subprocess.run(["git", "init", "-q", "--bare", str(self.remote)], check=True)
+@@ -148,7 +150,7 @@ class DeskTests(unittest.TestCase):
+         self.assertFalse(h["records"][0]["current"])
+         self.assertIn("not a complete ledger", h["scope"])
+ 
+-    def test_failed_push_leaves_exact_commit_and_retry_does_not_duplicate(self):
++    def test_failed_push_leaves_no_shared_commit_and_retry_does_not_duplicate(self):
+         e = self.store.save(self.request())
+         run = subprocess.run
+         def fail_push(args, **kwargs):
+@@ -156,15 +158,18 @@ class DeskTests(unittest.TestCase):
+                 return subprocess.CompletedProcess(args, 2, "Cannot confirm", "")
+             return run(args, **kwargs)
+         with patch("delivery.subprocess.run", side_effect=fail_push):
+-            with self.assertRaisesRegex(ValueError, "publication not confirmed"):
++            with self.assertRaisesRegex(ValueError, "not published"):
+                 delivery.deliver(self.repo, e)
+         before = self.git("rev-parse", "HEAD")
+-        self.assertEqual(delivery.delivery_state(self.repo, e), "committed")
++        self.assertEqual(delivery.delivery_state(self.repo, e), "saved")
+         delivery.deliver(self.repo, e)
+-        self.assertEqual(before, self.git("rev-parse", "HEAD"))
++        self.assertNotEqual(before, self.git("rev-parse", "HEAD"))
++        sent = self.git("rev-parse", "HEAD")
++        delivery.deliver(self.repo, e)
++        self.assertEqual(sent, self.git("rev-parse", "HEAD"))
+         self.assertEqual(delivery.delivery_state(self.repo, e), "delivered")
+ 
+-    def test_changed_export_during_checks_stops_before_commit(self):
++    def test_untracked_legacy_export_cannot_replace_saved_words(self):
+         e = self.store.save(self.request()); before = self.git("rev-parse", "HEAD")
+         run = subprocess.run
+         def change_export(args, **kwargs):
+@@ -173,8 +178,9 @@ class DeskTests(unittest.TestCase):
+                 self.put(delivery.event_path(e), "Changed by another writer")
+             return result
+         with patch("delivery.subprocess.run", side_effect=change_export):
+-            with self.assertRaisesRegex(ValueError, "changed during Send"):
+-                delivery.deliver(self.repo, e)
++            delivery.deliver(self.repo, e)
++        self.assertEqual(self.repo.read(delivery.event_path(e), "origin/master"), encoded(e)+"\n")
++        self.assertEqual(self.repo.path(delivery.event_path(e)).read_text(), "Changed by another writer")
+         self.assertEqual(before, self.git("rev-parse", "HEAD"))
+ 
+     def test_concurrent_transport_refuses_without_packet_mutation(self):
+@@ -184,7 +190,7 @@ class DeskTests(unittest.TestCase):
+                 delivery.deliver(self.repo, e)
+         self.assertFalse((self.root / "PROME/inbox").exists())
+ 
+-    def test_delivery_non_fast_forward_never_rebases_or_forces(self):
++    def test_preexisting_remote_advance_is_used_without_rebase_or_force(self):
+         other = Path(self.tmp.name) / "other-push"
+         subprocess.run(["git", "clone", "-q", "-b", "master", str(self.remote), str(other)], check=True)
+         for key, value in [("user.name", "Fixture"), ("user.email", "fixture@example.invalid")]:
+@@ -194,11 +200,10 @@ class DeskTests(unittest.TestCase):
+             subprocess.run(["git", *args], cwd=other, check=True)
+         remote_head = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=other, text=True)
+         e = self.store.save(self.request())
+-        with self.assertRaisesRegex(ValueError, "publication not confirmed"):
+-            delivery.deliver(self.repo, e)
+-        self.assertEqual(self.git("rev-parse", "origin/master"), remote_head)
+-        self.assertFalse((self.root / "owner.txt").exists())
+-        self.assertEqual(delivery.delivery_state(self.repo, e), "committed")
++        delivery.deliver(self.repo, e)
++        self.assertTrue(delivery.ancestor(self.repo, remote_head.strip(), "origin/master"))
++        self.assertEqual((self.root / "owner.txt").read_text(), "Owner's remote work")
++        self.assertEqual(delivery.delivery_state(self.repo, e), "delivered")
+ 
+     def test_desk_refuses_delivery_of_superseded_reply(self):
+         desk = app.Desk(self.repo, Path(self.tmp.name) / "superseded", True)
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py b/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
+index 3786ad770b058ffc4224f6995c0cacbc1178f817..669f25682e88ad441d1912188f8a58cc8711b4b0 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_desk_browser.py
+@@ -10,6 +10,7 @@ import threading
+ from unittest.mock import patch
+ 
+ import app
++from pilot_files import encoded
+ import test_desk
+ import test_desk_review
+ import test_revision_delivery
+@@ -43,6 +44,9 @@ REPAIR_HISTORY = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new
+ REVISION_RESTORE = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));view='Follow-through';render();const c=model.cards.find(c=>c.wq_id==='901');const a=document.querySelector('[data-unit="901.queue"]');const checks=[{name:'Published replacement restored without private predecessor',pass:c?.last.request.note==='Final sent answer'&&c.events.length===1},{name:'Missing private history is explicit',pass:!!c?.history_notes.length&&a.textContent.includes('Earlier saved versions are unavailable')},{name:'No invented earlier words or owner receipt',pass:!a.textContent.includes('Private draft')&&!c.receipt},{name:'Current question remains respondable',pass:!!c?.can_respond}];const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);})();</script>'''
+ 
+ 
++PACKET_RECOVERY = r'''<script>(async()=>{for(let i=0;!model&&i<150;i++)await new Promise(r=>setTimeout(r,50));view='Follow-through';render();let c=model.cards.find(c=>c.wq_id==='901');let a=document.querySelector('[data-unit="901.queue"]');const checks=[{name:'Published words without packet are not labelled delivered',pass:c.delivery==='published without inbox packet'&&a.textContent.includes('Delivery is incomplete')},{name:'Missing packet retains explicit Deliver control',pass:[...a.querySelectorAll('button')].some(b=>b.textContent==='Deliver saved response')}];await deliver(c.last.id);c=model.cards.find(c=>c.wq_id==='901');checks.push({name:'Explicit retry publishes packet and displays delivered',pass:c.delivery==='delivered'&&!c.receipt});checks.push({name:'Confirmation remains required after packet recovery',pass:c.requires_confirmation===true});const out=document.createElement('pre');out.id='test-results';out.hidden=true;out.textContent=JSON.stringify(checks);document.body.append(out);})();</script>'''
++
++
+ def windows(path):
+     return subprocess.check_output(["wslpath", "-w", str(path)], text=True).strip()
+ 
+@@ -122,6 +126,19 @@ def main():
+         runs['revision-restore']=run_browser(desk,REVISION_RESTORE,work,'revision-restore',1440)
+     finally:
+         fixture.doCleanups()
++    fixture = test_desk.DeskTests(methodName="test_reuses_owner_parser_and_preserves_literal_pipe_and_words")
++    fixture.setUp()
++    try:
++        e=fixture.store.save(fixture.request())
++        path=delivery.event_path(e)
++        fixture.put(path,encoded(e)+'\n')
++        fixture.git('add','-f',path); fixture.git('commit','-qm','Fixture response without packet'); fixture.git('push','-q')
++        with patch('app.accepted',return_value=(True,'')):
++            desk=app.Desk(fixture.repo,Path(fixture.tmp.name)/'packet-browser',True)
++            desk.stores['901']=fixture.store
++            runs['packet-recovery']=run_browser(desk,PACKET_RECOVERY,work,'packet-recovery',1440)
++    finally:
++        fixture.doCleanups()
+     with tempfile.TemporaryDirectory() as tmp:
+         desk = app.Desk(Repo(reader.ROOT), Path(tmp), False)
+         runs["actual-history"] = run_browser(desk, HISTORY, work, "actual-history", 1440)
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_pilot_files.py b/AGENTS/CATO/prototypes/decisions/mvp/test_pilot_files.py
+index df25b1c78aca0fa04f6c557abe7dd802111473ac..d7f6ef26c9d3b5917c7978a6f3c990db67d26b3f 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_pilot_files.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_pilot_files.py
+@@ -485,6 +485,8 @@ class PilotFileTests(unittest.TestCase):
+         reply = daily.save({"id": uuid.uuid4().hex, "display_hash": d["hash"], "unit_id": "901.queue",
+                             "action": "reply", "choice_id": None, "note": "A with conditions",
+                             "revisit": "", "supersedes": None})
++        # Model a delivered reply explicitly; Save now exports only to ignored local state.
++        self.put(f"AGENTS/CATO/decisions/queue-responses/{reply['id']}.json", encoded(reply)+"\n")
+         self.write_receipt(self.receipt(reply)); self.commit()
+         restored = self.new_store("coexist.sqlite3").display()
+         self.assertFalse(restored["import_errors"])
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_revision_delivery.py b/AGENTS/CATO/prototypes/decisions/mvp/test_revision_delivery.py
+index 2557a6d9eef30f253f1bf974e312865ced9401b5..be0e67454525ec0da1e95710fd4b7d61954ae92a 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_revision_delivery.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_revision_delivery.py
+@@ -84,11 +84,13 @@ class RevisionDeliveryTests(unittest.TestCase):
+ 
+     def test_refused_commit_then_revised_answer_delivers_without_sweeping_old_stage(self):
+         a=self.desk.save(self.request(note='Rejected fixture wording'))
+-        hook=self.put('scripts/githooks/pre-commit','#!/bin/sh\necho "Fixture refusal" >&2\nexit 1\n')
++        hook=self.put('scripts/githooks/pre-commit','#!/bin/sh\ngit diff --cached --name-only | rg queue-responses && exit 1\nexit 0\n')
+         hook.chmod(0o755)
+-        with self.assertRaises(subprocess.CalledProcessError): self.send(a)
++        self.git('add','scripts/githooks/pre-commit'); self.git('commit','-qm','Fixture refusing hook')
++        with self.assertRaisesRegex(ValueError, 'commit refused'): self.send(a)
+         staged=self.git('diff','--cached','--name-only').splitlines()
+         hook.write_text('#!/bin/sh\nexit 0\n')
++        self.git('add','scripts/githooks/pre-commit'); self.git('commit','-qm','Fixture hook recovery')
+         b=self.desk.save(self.request(supersedes=a['id'],note='Revised fixture wording'))
+         self.send(b)
+         self.assertEqual(self.git('diff','--cached','--name-only').splitlines(),staged)
