@@ -181,5 +181,10 @@
     "total": 74,
     "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.",
     "note": "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
+  },
+  "receipt_after_commit": {
+    "as_of": "2026-10-31T23:08:01Z",
+    "rc": 0,
+    "output_text": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"as_of\": \"2026-10-31T23:08:01Z\",\n  \"origin_ref\": \"5020a99fa882dfee9fc4c3b8e0e8a8498b98fda0\",\n  \"delivery_scope\": \"20261031\",\n  \"delivered\": 74,\n  \"total\": 74,\n  \"next_review\": \"2026-11-02\",\n  \"limits\": \"Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.\"\n}\n"
   }
 }
