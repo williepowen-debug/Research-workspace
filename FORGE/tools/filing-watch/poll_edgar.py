@@ -27,8 +27,8 @@ WATCHLIST = TOOL_DIR / "watchlist.yml"
 SEEN_FILE = TOOL_DIR / "seen_filings.json"
 LATEST_JSON = TOOL_DIR / "latest.json"
 LATEST_MD = TOOL_DIR / "latest.md"
-USER_AGENT = "Prome Filing Radar contact: research@local"
-SEC_DELAY = 0.12  # stay below SEC's 10 req/sec guidance
+USER_AGENT = "PROME-Research williepowen@gmail.com"  # WQ-565 A (Will 2026-10-31): SEC fair access asks for a declared name + reachable contact; same form as REGINALD-Research
+SEC_DELAY = 0.25  # ~4 req/s: SEC guidance is 10 req/s across ALL our tools at once; the 10/31 403 followed parallel sweeps
 DEFAULT_FORMS = {"10-K", "10-Q", "8-K", "NT 10-K", "NT 10-Q", "4", "SC 13D", "SC 13G"}
 
 
