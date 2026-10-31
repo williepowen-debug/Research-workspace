@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Research week · Calendar sketch</title>
+<style>
+:root{--ink:#243b45;--muted:#687879;--paper:#f6f5ef;--line:#dadfd7;--market:#0e706e;--research:#3f668b;--followup:#86643d;--housekeeping:#7c7286}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,sans-serif}button,input,select{font:inherit}button{cursor:pointer;color:inherit}button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid #d07a40;outline-offset:3px}a{color:#176975;text-underline-offset:3px}.shell{max-width:1640px;margin:auto;padding:32px 36px}.mast{display:flex;justify-content:space-between;align-items:center;gap:20px}.eyebrow{font-size:11px;letter-spacing:.16em;font-weight:750;text-transform:uppercase;color:var(--muted)}h1{font:500 38px/1.15 Georgia,serif;margin:9px 0 10px}h2{font-size:18px;margin:0 0 12px}h3{font-size:16px;margin:0 0 10px}p{margin:0 0 12px}.intro{color:var(--muted);font-size:14px}.stamp{border:1px solid #cbd6ce;background:#eaf0e8;padding:8px 12px;border-radius:7px;font-size:12px;white-space:nowrap}.ribbon{margin:22px 0 18px;padding:15px 18px;border-left:3px solid #91a99c;background:#eaf0e8;font-size:14px}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin:16px 0}.layers,.view-controls{display:flex;gap:7px;flex-wrap:wrap;align-items:center}.chip,.mode,.today,select{border:1px solid var(--line);border-radius:7px;padding:8px 12px;background:transparent;font-size:12px}.chip[aria-pressed=true]{background:white;box-shadow:0 1px 2px #243b4508}.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:7px}.chip[aria-pressed=false]{color:var(--muted);border-style:dashed}.mode[aria-pressed=true]{background:var(--ink);color:white;border-color:var(--ink)}.small{font-size:12px;color:var(--muted)}.board-caption{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin:22px 0 12px}.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px}.day{min-width:0;background:#eeeee6;border:1px solid var(--line);border-radius:10px;padding:10px;min-height:480px}.day.weekend{background:transparent}.dayhead{display:flex;justify-content:space-between;align-items:baseline;margin:2px 3px 16px}.dayhead strong{font:500 25px Georgia,serif}.dayhead span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.group-title{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:15px 2px 8px;font-weight:700}.card{display:block;text-align:left;width:100%;border:1px solid #dbe1da;border-top:3px solid var(--accent);background:#fffef9;border-radius:6px;padding:11px 10px;margin:0 0 9px;box-shadow:0 2px 3px #243b4505}.card:hover{border-bottom-color:var(--accent);box-shadow:0 3px 12px #243b4510;transform:translateY(-1px)}.card-time{font-size:10px;color:var(--accent);font-weight:700;display:block;margin-bottom:6px}.card-title{font-size:13px;line-height:1.35;font-weight:650;display:block}.card-note{display:block;font-size:10px;color:var(--muted);margin-top:9px;line-height:1.45}.linked{display:block;font-size:10px;margin-top:9px;color:#705336}.empty{font-size:12px;color:var(--muted);padding:12px 3px}.rails{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0}.rail{padding:18px;border:1px solid var(--line);border-radius:9px}.rail h2{font-size:14px}.rail .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.rail .card{margin:0}.rail .small{margin-bottom:12px}.coverage{border-top:1px solid var(--line);padding:22px 0 8px;margin-top:8px}.coverage summary{cursor:pointer;font-size:13px;font-weight:650}.coverage-body{max-width:900px;padding:16px 0;font-size:13px;color:var(--muted)}.source-list{margin:10px 0;padding-left:20px;font-size:12px;overflow-wrap:anywhere}.footer{display:flex;justify-content:space-between;gap:15px;color:var(--muted);font-size:11px;padding-top:16px}.dayview{max-width:720px}.dayview .day{min-height:220px}.dayview .card{padding:16px}.dayview .card-title{font-size:16px}.dayview .card-note{font-size:12px}.notice{background:white;border:1px solid var(--line);padding:24px;border-radius:9px}.dialog{border:0;box-shadow:0 20px 100px #142b4140;max-width:580px;width:calc(100% - 28px);max-height:90vh;border-radius:12px;padding:0;background:#fffef9;color:var(--ink)}.dialog::backdrop{background:#132a3a68}.detail-head{position:sticky;top:0;background:#fffef9;padding:22px 26px 14px;border-bottom:1px solid var(--line);display:flex;gap:14px;justify-content:space-between;align-items:start}.detail-head h2{font:500 27px/1.2 Georgia,serif;margin:8px 0}.close{background:#f0f0e8;border:0;border-radius:50%;width:32px;height:32px;flex-shrink:0}.detail-body{padding:22px 26px}.detail-body p{font-size:14px}.detail-section{margin:0 0 24px}.detail-label{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:700;margin-bottom:8px}.callout{padding:14px;border-radius:6px;background:#eef1e8}.source{border-top:1px solid var(--line);padding:10px 0;font-size:12px}.source summary{cursor:pointer;color:#176975}.source pre{white-space:pre-wrap;overflow-wrap:anywhere;font:11px/1.6 ui-monospace,monospace;background:#f0f1eb;padding:12px;max-height:240px;overflow:auto}.tag{font-size:11px;background:#eff0e8;border-radius:4px;padding:4px 7px;display:inline-block;margin-right:5px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(min-width:1700px){.card-title{font-size:15px}.card-time,.card-note,.linked{font-size:11px}}
+@media(max-width:1100px){.week{grid-template-columns:repeat(4,minmax(0,1fr))}.day{min-height:280px}.shell{padding:24px}.card-title{font-size:14px}}
+@media(max-width:650px){.shell{padding:20px 14px}.mast{align-items:flex-start}.stamp{white-space:normal;max-width:100px;font-size:10px}h1{font-size:30px}.week{grid-template-columns:1fr 1fr}.day{min-height:180px}.rails{grid-template-columns:1fr}.rail .cards{grid-template-columns:1fr}.footer{display:block}.toolbar{gap:12px}.chip{padding:8px}.board-caption{gap:12px}.detail-head,.detail-body{padding:18px}.card-title{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.card:hover{transform:none}}
+</style></head><body><main class="shell">
+<header class="mast"><div><div class="eyebrow">CATO / Research calendar</div><h1>The week ahead.</h1><p class="intro">November 2–8, 2026 <span aria-hidden="true">·</span> Eastern time (EST this week)</p></div><div class="stamp">One-week sketch<br>Snapshot · Oct 31</div></header>
+<div class="ribbon"><strong>Events, the work around them, and why it matters.</strong><br>Start with Monday’s gamma refresh and Friday’s jobs report. Open any card for its assignment and evidence.</div>
+<div class="toolbar"><div class="layers" role="group" aria-label="Calendar layers" id="layers"></div><div class="view-controls" role="group" aria-label="View"><button class="mode" id="week-mode" aria-pressed="true">Week</button><button class="mode" id="day-mode" aria-pressed="false">Day</button><label class="sr-only" for="day-select">Choose a day</label><select id="day-select"><option value="2026-11-02">Mon · Nov 2</option><option value="2026-11-03">Tue · Nov 3</option><option value="2026-11-04">Wed · Nov 4</option><option value="2026-11-05">Thu · Nov 5</option><option value="2026-11-06">Fri · Nov 6</option><option value="2026-11-07">Sat · Nov 7</option><option value="2026-11-08">Sun · Nov 8</option></select><button class="today" id="today">Today</button></div></div>
+<div class="board-caption"><span id="visible-count" aria-live="polite"></span><span>Selected records · not complete coverage</span></div><section id="board" aria-label="Week calendar"></section><section id="rails" class="rails" aria-label="Windows and unresolved timing"></section>
+<details class="coverage" id="coverage"><summary>About this snapshot · source coverage and missing work</summary><div class="coverage-body"><p>This is a frozen selection for judging the layout. It does not refresh or start agents. Every card preserves its source row at the named revision. Linked releases and assignments appear together only where their identity is explicit.</p><p>The full open-docket export contains <strong>204 rows</strong>: <strong>51</strong> have a parsed due date in this week, <strong>18</strong> are overdue as of October 31, and <strong>56</strong> have no parsed date. Those are overlapping planning categories, not counts of this preview’s cards. An export’s range-end date is not necessarily an event date.</p><p>The sketch samples HENRY, DOCKET, GATES, LABOR, VIOLET, CYPHER and one dated TERRY card. VULCAN, GIBBS and ISHM catalyst ledgers and the remaining source rows are not loaded. There is no complete overdue/undated inventory or unclassified-row count here. An empty day means no selected item, not no work.</p><p>Schedule checks: CATO read <a href="https://www.bls.gov/schedule/2026/11_sched.htm" target="_blank" rel="noopener">BLS</a>, <a href="https://www.bea.gov/news/schedule/full" target="_blank" rel="noopener">BEA</a> and <a href="https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar" target="_blank" rel="noopener">ISM</a> on October 31. Claims timing remains a pattern. Other dates retain the desk’s stated status. Reading a source today does not refresh its evidence.</p><p>Agent starts would require PROME’s supported duplicate-owner check at the actual launch. This sketch offers no Start control, and current running sessions have not been checked.</p><p id="revision"></p></div></details><footer class="footer"><span>Source-owned records. Calendar presentation by CATO.</span><span>Preview only · no reminders, writes or launches</span></footer>
+</main><dialog class="dialog" id="detail" aria-labelledby="detail-title"><div class="detail-head"><div><div class="eyebrow" id="detail-category"></div><h2 id="detail-title"></h2><div id="detail-tags"></div></div><button class="close" id="close" aria-label="Close details">×</button></div><div class="detail-body" id="detail-body"></div></dialog>
+<script id="snapshot" type="application/json">{
+  "revision": "db5226357f67390cf7b4dc4abef55047851f4c16",
+  "asof": "2026-10-31",
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "timezone": "America/New_York",
+  "events": [
+    {
+      "id": "ism-m",
+      "title": "ISM Manufacturing",
+      "date": "2026-11-02",
+      "end": "",
+      "layer": "market",
+      "when": "10:00 ET",
+      "time": "10:00",
+      "why": "LABOR records the employment-index leg; ISHM owns the cycle read.",
+      "sources": [
+        {
+          "path": "AGENTS/HENRY/domain/ECON_CALENDAR.md",
+          "line": 24,
+          "label": "HENRY economic calendar",
+          "excerpt": "| Mon Nov 2 | 10:00 | ISM Manufacturing | Oct | ISM calendar via search index (page 503) | PMI \u003c50/\u003c48/\u003c47; prices >75 red |",
+          "sha256": "e0d9d6bbca59f8f1cfa7ff58bcc42529aaa07ccb9d189f03920f0aa1d8ec1500"
+        },
+        {
+          "path": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+          "line": 8,
+          "label": "LABOR catalyst ledger",
+          "excerpt": "2026-11-02\tISM Manufacturing PMI October 2026 (10:00 ET) -- Employment Index\tEmployment Index vs 50 (Sep 52.7, Aug 51.2; ISM PDF baby202609pmi). Record beside ISM Services Oct (11/4).\tv3 at floor 1; R3-B (both \u003c50 two consecutive months) needs Oct AND Nov -- Oct alone is leg 1 of 2 and moves no score.\tMED\tLABOR,ISHM\tNOCARD: v3 at floor 1 (KB-LAB-223). Return letter R3-B (adopted 2026-10-28, Will): both ISM Emp \u003c50 in two consecutive months => v3 1 -> 2. Sep was >50 on both, so an Oct print can only be LEG 1 of 2 and cannot move the score -- no card owed; record the leg. ISHM owns the cycle read. Date modeled: ISM first business day.\tmodeled",
+          "sha256": "1ec56be5ede7c70b6d0e69c3b02852a0f9d0d292c01e2e693bef35a029eab901"
+        }
+      ],
+      "confidence": "Schedule checked",
+      "work": "LABOR: record October employment index. This single print cannot by itself move the registered R3-B score.",
+      "launch": "Linked work is due after the release; this is not a verified start time.",
+      "link": "",
+      "verification": "CATO read the primary release calendar on October 31, 2026. Original desk verification notes remain in the preserved source text.",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar",
+      "lane": "timed",
+      "note": "",
+      "owner": "LABOR · ISHM"
+    },
+    {
+      "id": "jolts",
+      "title": "Job openings · JOLTS",
+      "date": "2026-11-03",
+      "end": "",
+      "layer": "market",
+      "when": "10:00 ET",
+      "time": "10:00",
+      "why": "September hiring and revised August figures feed LABOR’s registered labor tests.",
+      "sources": [
+        {
+          "path": "AGENTS/HENRY/domain/ECON_CALENDAR.md",
+          "line": 25,
+          "label": "HENRY economic calendar",
+          "excerpt": "| Tue Nov 3 | 10:00 | JOLTS | Sep | BLS | LABOR owns |",
+          "sha256": "e0d9d6bbca59f8f1cfa7ff58bcc42529aaa07ccb9d189f03920f0aa1d8ec1500"
+        },
+        {
+          "path": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+          "line": 5,
+          "label": "LABOR catalyst ledger",
+          "excerpt": "2026-11-03\tJOLTS September (Aug revised) — 10:00 ET\tAug NET +122K (P) REVISES here: does LEG C survive (Jul +18K is now final-vintage; Aug must stay >0 AND Sep must be >0 for the NEXT pair)? v4 re-test: NET \u003c=0 => v4 2->3. Layoffs rate vs 1.2% bar. Hires vs T-10 5.0M.\tLEG C pair becomes Aug(rev)+Sep: both >0 => stays MET; either \u003c=0 => LEG C lost. Layoffs rate >=1.2% => escalate CARL+REGINALD same-day. v4 re-escalation to 3 on NET \u003c=0; to 4 on NET \u003c=0 x2 AND hires rate \u003c=3.2%.\tHIGH\tLABOR,CARL,HENRY,REGINALD\tMODELED DATE - re-verify against the BLS release schedule by 2026-10-20. Added 2026-09-29 after JOLTS Aug printed 9/29 against a STATUS-only modeled ~Oct 6 that was never a CATALYSTS row (2nd modeled-date miss: 9/1 was the 1st). A card is owed if >=2 live tests ride it (LEG C + v4 + layoffs bar = multi-loaded). | DATE CONFIRMED 2026-10-15 at the BLS November 2026 release calendar (bls.gov/schedule/2026/11_sched.htm: Tue Nov 3, JOLTS September 2026, 10:00 AM). The JOLTS release-schedule page (schedule/news_release/jolts.htm) lists only the Oct-2026 reference month (Dec 01) - read the monthly calendar, not that page.\tconfirmed",
+          "sha256": "1ec56be5ede7c70b6d0e69c3b02852a0f9d0d292c01e2e693bef35a029eab901"
+        },
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 765,
+          "label": "DOCKET L765",
+          "excerpt": "2026-11-03\tLABOR WAKE — JOLTS September, 10:00 ET: grade off the frozen card GRADING_CARD_20261103_JOLTS.md (LEG C of the bull-side kill rule, v4 hiring-freeze dial, 1.2% layoffs-rate alarm, T-10 hires floor). ⚠️ SAME WAKE must write the LEG C result into the NFP card §2.4 (GRADING_CARD_20261106_NFP.md) before the 11/6 grade.\tLABOR / PROME\tPENDING — registered 2026-10-21 09:46 ET (PROME af287aee) — card frozen pre-print by LABOR today (memo 7a1e91417); release date verified at the issuer by LABOR (379a9e509)\tAGENTS/LABOR/docket/GRADING_CARD_20261103_JOLTS.md · AGENTS/LABOR/docket/GRADING_CARD_20261106_NFP.md\tNo capital path.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Schedule checked",
+      "work": "LABOR: grade the September JOLTS card. Source assignment L765; release and assignment are linked, not counted as two events.",
+      "launch": "Linked work is due after the release; this is not a verified start time.",
+      "link": "",
+      "verification": "CATO read the primary release calendar on October 31, 2026. Original desk verification notes remain in the preserved source text.",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "lane": "timed",
+      "note": "",
+      "owner": "LABOR"
+    },
+    {
+      "id": "trade",
+      "title": "US trade balance",
+      "date": "2026-11-04",
+      "end": "",
+      "layer": "market",
+      "when": "08:30 ET",
+      "time": "08:30",
+      "why": "September trade release on HENRY’s watch. No specific gate or trade-card relationship was established in this sample.",
+      "sources": [
+        {
+          "path": "AGENTS/HENRY/domain/ECON_CALENDAR.md",
+          "line": 26,
+          "label": "HENRY economic calendar",
+          "excerpt": "| Wed Nov 4 | 8:30 | Trade balance | Sep | BEA | — |",
+          "sha256": "e0d9d6bbca59f8f1cfa7ff58bcc42529aaa07ccb9d189f03920f0aa1d8ec1500"
+        }
+      ],
+      "confidence": "Schedule checked",
+      "work": "",
+      "launch": "",
+      "link": "",
+      "verification": "CATO read the primary release calendar on October 31, 2026. Original desk verification notes remain in the preserved source text.",
+      "url": "https://www.bea.gov/news/schedule/full",
+      "lane": "timed",
+      "note": "",
+      "owner": "HENRY watch"
+    },
+    {
+      "id": "ism-s",
+      "title": "ISM Services",
+      "date": "2026-11-04",
+      "end": "",
+      "layer": "market",
+      "when": "10:00 ET",
+      "time": "10:00",
+      "why": "Read alongside Monday’s manufacturing employment index.",
+      "sources": [
+        {
+          "path": "AGENTS/HENRY/domain/ECON_CALENDAR.md",
+          "line": 27,
+          "label": "HENRY economic calendar",
+          "excerpt": "| Wed Nov 4 | 10:00 | ISM Services | Oct | **RULE-DERIVED, table UNREAD** (re-checked 2026-10-29 16:5x ET): ISM's stated rule \"third business day of the month at 10:00 a.m.\" (ISM calendar page as quoted by a search index) ⇒ Nov 2 Mon / 3 Tue / **4 Wed**; ISM's own table not readable from this box (page redirects to an ISM SSO login); secondary calendars agree (one marks it \"Estimated\") | — |",
+          "sha256": "e0d9d6bbca59f8f1cfa7ff58bcc42529aaa07ccb9d189f03920f0aa1d8ec1500"
+        },
+        {
+          "path": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+          "line": 9,
+          "label": "LABOR catalyst ledger",
+          "excerpt": "2026-11-04\tISM Services PMI October 2026 (10:00 ET) -- Employment Index\tEmployment Index vs 50 (Sep 50.1, first >50 in three months; Aug 47.8). Record beside ISM Mfg Oct (11/2).\tR3-B leg 1 of 2 only (Sep >50); record the leg.\tMED\tLABOR,ISHM,CARL\tNOCARD: Oct can only be R3-B leg 1 of 2 -- see the 11/2 row. Date modeled: ISM third business day.\tmodeled",
+          "sha256": "1ec56be5ede7c70b6d0e69c3b02852a0f9d0d292c01e2e693bef35a029eab901"
+        }
+      ],
+      "confidence": "Schedule checked",
+      "work": "LABOR: record the October employment-index leg. HENRY’s snapshot called the date rule-derived; CATO could read ISM’s own November table on October 31.",
+      "launch": "Linked work is due after the release; this is not a verified start time.",
+      "link": "",
+      "verification": "CATO read the primary release calendar on October 31, 2026. Original desk verification notes remain in the preserved source text.",
+      "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar",
+      "lane": "timed",
+      "note": "",
+      "owner": "LABOR · ISHM"
+    },
+    {
+      "id": "productivity",
+      "title": "Productivity & costs",
+      "date": "2026-11-05",
+      "end": "",
+      "layer": "market",
+      "when": "08:30 ET",
+      "time": "08:30",
+      "why": "Q3 preliminary productivity and unit labor cost; on HENRY’s watch.",
+      "sources": [
+        {
+          "path": "AGENTS/HENRY/domain/ECON_CALENDAR.md",
+          "line": 28,
+          "label": "HENRY economic calendar",
+          "excerpt": "| Thu Nov 5 | 8:30 | Productivity and Costs (prelim) | Q3 | BLS | Unit labor cost |",
+          "sha256": "e0d9d6bbca59f8f1cfa7ff58bcc42529aaa07ccb9d189f03920f0aa1d8ec1500"
+        }
+      ],
+      "confidence": "Schedule checked",
+      "work": "",
+      "launch": "",
+      "link": "",
+      "verification": "CATO read the primary release calendar on October 31, 2026. Original desk verification notes remain in the preserved source text.",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "lane": "timed",
+      "note": "",
+      "owner": "HENRY watch"
+    },
+    {
+      "id": "jobs",
+      "title": "October jobs report",
+      "date": "2026-11-06",
+      "end": "",
+      "layer": "market",
+      "when": "08:30 ET",
+      "time": "08:30",
+      "why": "LABOR grades payrolls and household data; HENRY reads the market reaction.",
+      "sources": [
+        {
+          "path": "AGENTS/HENRY/domain/ECON_CALENDAR.md",
+          "line": 29,
+          "label": "HENRY economic calendar",
+          "excerpt": "| **Fri Nov 6** | 8:30 | **Employment Situation (NFP)** | Oct | BLS | LABOR owns; HENRY logs market reaction |",
+          "sha256": "e0d9d6bbca59f8f1cfa7ff58bcc42529aaa07ccb9d189f03920f0aa1d8ec1500"
+        },
+        {
+          "path": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+          "line": 4,
+          "label": "LABOR catalyst ledger",
+          "excerpt": "2026-11-06\tNFP October + household (BLS Employment Situation, 08:30 ET) — v2 LEG A draw 2 · LAB-18/LAB-19 draw 2 · §3g Aug third estimate\tFIRST re-check JOLTS-Sep LEG C (prints ~Nov 3: Jul/Aug NET both >0?). Then revised Aug/Sep (10/2 vintage +133K/+29K) => LEG A bar max(150, 300 - (A + S)) = +150K on the 10/2 vintage; recompute. EPOP Oct vs Jul 58.9 (T-03 \u003c=58.6). LF MoM >0 resolves LAB-19 TRUE. Aug third estimate vs watch lines +73.5K/+183.5K (ALFRED 20261106). v8 restore counter 0 of 2 (needs net Aug+Sep rev >=0).\tv2 FIRES on LEG A (if LEG C still met) => WALTER 🔴; T-03/T-04 on EPOP \u003c=58.6; T-06 = X \u003c100K AND U-3 >=4.3%\tHIGH\tCARL, HENRY, BOND, REGINALD, NEXUS\tDate CONFIRMED in BLS USDL-26-1549 text (2026-10-02): \"The Employment Situation for October 2026 is scheduled to be published on Friday, November 6, 2026, at 8:30 a.m. (ET)\". Multi-loaded => frozen card owed ~10/30 (C2a). 10/2 row pruned: graded 2026-10-02 (card s.8). CR to 12/11 covers it.\tconfirmed",
+          "sha256": "1ec56be5ede7c70b6d0e69c3b02852a0f9d0d292c01e2e693bef35a029eab901"
+        },
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 767,
+          "label": "DOCKET L767",
+          "excerpt": "2026-11-06\tLABOR WAKE — NFP October, 08:30 ET: grade off the frozen card GRADING_CARD_20261106_NFP.md (LEG A of the bull-side kill rule, T-03/T-04 employment-rate alarms, LAB-18/LAB-19). Requires the 11/3 JOLTS LEG C result already written into card §2.4 (row above).\tLABOR / PROME / HENRY (market-reaction read, co-reader — asked 10/21, packet PROME/inbox/processed/2026-10-21_from-HENRY_econ-calendar-refreshed-wake-rows.md; LABOR owns the data)\tPENDING — registered 2026-10-21 09:46 ET (PROME af287aee) — card frozen pre-print by LABOR today (memo 7a1e91417); release date verified at the issuer by LABOR (14e475502) · 2026-10-29 17:1x ET (PROME prome-5c): HENRY PRE-REGISTRATION HEN-59 frozen before the print (packet PROME/inbox/processed/2026-10-29_from-HENRY_prereg-wake-rows-HEN57-59.md; letter AGENTS/HENRY/research/2026-10-29_catchup/PREREG_nov-releases.md): payrolls first print \u003c+100,000 = FIRED; HENRY's frozen expectation FIRES (4 of the last 5 months under 100K). HENRY grades HEN-59 at this wake alongside LABOR's card; LABOR owns the data. No separate row: this row is the wake.\tAGENTS/LABOR/docket/GRADING_CARD_20261106_NFP.md\tNo capital path.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        },
+        {
+          "path": "AGENTS/VIOLET/workbook/CATALYSTS.tsv",
+          "line": 3,
+          "label": "VIOLET catalyst ledger",
+          "excerpt": "2026-11-06\tOctober Employment Situation (nonfarm payrolls), 08:30 ET\tDATA\tLABOR/HENRY\tMEDIUM\tLABOR register LAB-18/LAB-19 'prints Oct 2 / Nov 6 / Dec 4'; BLS schedule page returned HTTP 403 to own fetch 2026-10-21\tADDED 2026-10-21. date_class SECONDARY (peer register, not primary-verified this session). Verify at bls.gov before any grade keys on it. The June NFP miss launched the Path B episode (KB-VIO-071).",
+          "sha256": "db194e3fbaeee7724ea88702703073a4aeea34f1c40e64aa73657c2e9f52ebd2"
+        }
+      ],
+      "confidence": "Schedule checked",
+      "work": "LABOR: grade the frozen NFP card, including revisions and the JOLTS dependency. HENRY: market reaction.",
+      "launch": "Linked work is due after the release; this is not a verified start time.",
+      "link": "",
+      "verification": "CATO read the primary release calendar on October 31, 2026. Original desk verification notes remain in the preserved source text.",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "lane": "timed",
+      "note": "",
+      "owner": "LABOR · HENRY"
+    },
+    {
+      "id": "claims",
+      "title": "Initial jobless claims",
+      "date": "2026-11-05",
+      "end": "",
+      "layer": "market",
+      "when": "08:30 ET · pattern",
+      "time": "08:30",
+      "why": "LABOR has a dated grading card for this weekly release.",
+      "sources": [
+        {
+          "path": "AGENTS/HENRY/domain/ECON_CALENDAR.md",
+          "line": 47,
+          "label": "HENRY standing pattern",
+          "excerpt": "- **Initial jobless claims** — >250K sustained is LABOR's trigger. Pattern only; not re-verified at DOL 2026-10-21.",
+          "sha256": "e0d9d6bbca59f8f1cfa7ff58bcc42529aaa07ccb9d189f03920f0aa1d8ec1500"
+        },
+        {
+          "path": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+          "line": 2,
+          "label": "LABOR catalyst ledger",
+          "excerpt": "2026-11-05\tInitial claims w/e Oct 31 (+ continuing claims w/e Oct 24) — RECURRING WEEKLY, re-docketed each closeout\tLevel vs the 194K / MA 196,750 spine [w/e Oct 24, DOL 2026-10-29]. ROLL-OFF: w/e Oct 3 (198K) drops out -- mechanical term = (X-198,000)/4; a 194K repeat moves the MA -1,000. REGENERATE FOUR quantities on the as-published vintage BEFORE reading the level (L-02): (i) dMA, (ii) MA_next = (589,000+X)/4, (iii) T-01 MA bound X > 1,000,000 - (W2+W3+W4), frozen 411,000, (iv) R13-c 52-week MA minimum (196,750 w/e Oct 24 on the 10/29 vintage). Card FROZEN 2026-10-29: docket/GRADING_CARD_20261105_claims.md\t>300K single = T-02 FIRE; 251-300K single = ARM T-01 provisional; 230-250K = accelerating (v13 1 -> 3); \u003c=185K = Kill B leg 1 of 5. R13-c (card s.5d): published MA >= 1.15 x its prior-52-week min (min 196,750 => ~226,263, X >= 317,000) => v13 1 -> 2 (higher assignment governs). The v13 \u003c200,000 run (2) and v7 CC \u003c1,750,000 run (7) are RECORD-ONLY; v7 has no return letter (decided 10/21). RAW SA basis only.\tHIGH\tLABOR,CARL,REGINALD\tPrior print graded 2026-10-29 (194,000, Band B; w/e Oct 17 rev 194,000 -> 195,000; MA 196,750 (-1,250, mechanical; lowest on FRED IC4WSA current vintage since w/e 1969-10-18 -- a level, not a rate); CC 1,701,000 (w/e Oct 10 rev 1,728,000 -> 1,722,000); R13-c 0.9937 no action; score 27/80 unchanged; card -> docket/graded/GRADING_CARD_20261029_claims.md). Same morning as Challenger Oct (own card). Release Thu 08:30 ET, DOL weekly schedule.\tconfirmed",
+          "sha256": "1ec56be5ede7c70b6d0e69c3b02852a0f9d0d292c01e2e693bef35a029eab901"
+        }
+      ],
+      "confidence": "Pattern only",
+      "work": "LABOR: grade the November 5 claims card; preserve the source vintage.",
+      "launch": "",
+      "link": "",
+      "verification": "The Thursday 08:30 timing is HENRY’s standing pattern. CATO did not reverify the DOL schedule. No automatic wake follows from this pattern.",
+      "url": "",
+      "lane": "timed",
+      "note": "",
+      "owner": "LABOR"
+    },
+    {
+      "id": "election",
+      "title": "US midterm elections",
+      "date": "2026-11-03",
+      "end": "",
+      "layer": "market",
+      "when": "Date only",
+      "time": "",
+      "why": "VIOLET’s recorded checkpoint: look for an event kink in the volatility term structure.",
+      "sources": [
+        {
+          "path": "AGENTS/VIOLET/workbook/CATALYSTS.tsv",
+          "line": 2,
+          "label": "VIOLET catalyst ledger",
+          "excerpt": "2026-11-03\tUS midterm elections (Election Day)\tELECTION\tHENRY/HAWK/VIOLET\tMEDIUM\t2 U.S.C. 7: Tuesday after the first Monday in November; first Monday 2026-11-02, so 2026-11-03\tADDED 2026-10-21. date_class CONFIRMED (statutory calendar arithmetic). VIOLET checkpoint: whether VX/X6 carries an event kink over VX/Z6; HENRY/HAWK own political substance.",
+          "sha256": "db194e3fbaeee7724ea88702703073a4aeea34f1c40e64aa73657c2e9f52ebd2"
+        }
+      ],
+      "confidence": "Desk-confirmed",
+      "work": "VIOLET: volatility checkpoint. HENRY / HAWK own political substance.",
+      "launch": "",
+      "link": "",
+      "verification": "VIOLET records statutory calendar arithmetic, added October 21. CATO has not independently verified this source’s date in this sketch.",
+      "url": "",
+      "lane": "date",
+      "note": "",
+      "owner": "VIOLET · HAWK"
+    },
+    {
+      "id": "gamma",
+      "title": "Refresh the gamma map",
+      "date": "2026-11-02",
+      "end": "",
+      "layer": "research",
+      "when": "Before 09:30 ET",
+      "time": "",
+      "why": "Monday’s updated open interest can change the map behind the recorded QQQ downside thesis.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 888,
+          "label": "DOCKET L888",
+          "excerpt": "2026-11-02\tHENRY — MONDAY PRE-OPEN GAMMA RE-PULL (successor of L885): re-run SPX/QQQ/NDX `gamma_flip.py --both --publish` once OCC open interest includes 10/30 trading (posts Monday AM ~06:00–07:00 ET), BEFORE the 09:30 open — the 10/30 post-close maps carry 10/29-trade OI, so Friday's 347k QQQ 690P and the Nov-20 put volume are not in the flips/walls yet. Publish the Monday regime (NEGATIVE at both horizons on all three per the 10/30 read; flips SPX 7,732–7,736 · QQQ 725–727 · NDX 28,937–29,047; SPX put wall WITHHELD band 7,500–7,600; QQQ put wall 680) as re-read, and whether the 7,700 wall re-forms or the 7,500–7,600 band publishes clean. Mechanics and levels only (USER.md § No expiry nagging). Wake form: Tier-1 WQ-184 L0 due-row wake if HENRY is dark at the first boot on 11/02; if live, the row reaches it through its verified channel.\tHENRY / PROME (wake) / WALTER informed\tPENDING — registered 2026-10-30 16:5x ET by PROME (prome-c5) from HENRY's L885 memo FOLLOW-UP (\"no DOCKET row exists; PROME's call whether to register one\" — registered: position-facing).\tPROME/inbox/processed/2026-10-30_from-HENRY_post-close-gamma-grade.md · AGENTS/HENRY/research/2026-10-30_L885/ · AGENTS/HENRY/workbook/PUBLISHED.tsv\tPosition-facing: Will holds QQQ Nov-02 715P ×1 (expires Monday) and Nov-20 690P ×2 (naked); no capital path in the read; no reminder duty.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        },
+        {
+          "path": "AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md",
+          "line": 14,
+          "label": "TERRY QQQ card · October 22",
+          "excerpt": "**Thesis owners (evidence, not a TERRY thesis):** HENRY (dealer gamma, put wall: SIG-W-20261022-004); VULCAN / LIQUID (AI tape and IG-tech credit: SIG-W-20261022-006); LIQUID (HY >320 rung MET 3/3, X1 CLOSED: SIG-W-20261019-003); WALTER follow-ups (FINRA margin debt $1,480,054M Sep-26, CCC effective yield 18.01% [10/20]: SIG-W-20261022-016); HENRY (Asia: CSI 300 20% below its June peak: SIG-W-20261022-002).",
+          "sha256": "dd5b885b3874e29067878f1048036329a558283a2058e7726b502327c42e95e7"
+        },
+        {
+          "path": "AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md",
+          "line": 10,
+          "label": "TERRY recorded fill · October 23",
+          "excerpt": "> **FILL 2026-10-23 (TERRY booking, written 13:2x ET from `date`; root rule #10).** Source: PROME transcription of Will's Fidelity Pending view (`PROME/data/2026-10-23_broker-activity-TRANSCRIPTION.md`, ~13:2x ET; TERRY did not view the image; fill clock not displayed). **BTO 2 × 690P @ $13.39 (−$2,679.33) / STO 2 × 670P @ $8.72 (+$1,742.63), one order, net debit limit $4.67 ⇒ net $936.70 = max loss** (1.87× the $500 default and against the closed X1 gate: Will's explicit per-card choices, root rule #5 by his own hand). Max gain $3,063.30 at QQQ ≤ $670; breakeven $685.32. **Card conditions at the fill:** T1 NOT met (SPX 7,629.53 intraday at 13:23 ET; the cash close had not printed; 10/22 close 7,663.43) ⇒ fired ahead of the trigger · QQQ green ($705.65, +0.17%, 13:23 ET) ⇒ root rule #6 colour respected · net $4.67 ≤ $5.00 chase line · QQQ > $685 · SPX \u003c 7,745 · T2 (HENRY gamma) not re-read at entry, UNKNOWN. Screening mark 13:24 ET: spread mid $4.66 / sell-side $4.62 (vendor, not broker). **Book overlap: QQQ Oct-26 710P ×1 + Oct-26 705P ×2 (bought today, $861.33) + this spread = ONE Nasdaq-downside bet, basis $2,255.69, ≈ $2,668 at 13:23–13:24 ET screening bids.** Arithmetic: `../research/2026-10-23_broker-booking/NOTE.md`. Paper book `PB-0008` (`lane=real`).",
+          "sha256": "dd5b885b3874e29067878f1048036329a558283a2058e7726b502327c42e95e7"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "HENRY: refresh SPX, QQQ and NDX after OCC open interest includes October 30 trading. Expected input availability is roughly 06:00–07:00 ET, not a fixed launch time.",
+      "launch": "L888 requests a due-row wake only if HENRY is dark at the first November 2 boot. If already live, route through its verified channel. Session status has not been checked.",
+      "link": "QQQ Nov 20 690/670 put spread · TERRY recorded a fill October 23. The card explicitly names HENRY’s gamma evidence. Current holdings are unverified.",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "",
+      "owner": "HENRY"
+    },
+    {
+      "id": "yuri",
+      "title": "Resolve the YUR004 forecast",
+      "date": "2026-11-02",
+      "end": "",
+      "layer": "research",
+      "when": "On or after Nov 2",
+      "time": "",
+      "why": "Check late publications before resolving the forecast; HAWK has a consumer read.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 896,
+          "label": "DOCKET L896",
+          "excerpt": "2026-11-02\tYURI — YUR-004 RESOLVE READ (mobilisation declaration): short re-read on/after Mon 11/02 once in-window late publications have closed; write MISS or HIT on the letter (§4–§6); then HAWK consumer read and PROME closes L432 with the §9 line verbatim. Successor of the 10/31 final read (no declaration found 02.10→30.10).\tYURI / HAWK (consumer) / PROME (registrar)\tPENDING — registered 2026-10-31 09:40 ET by PROME (prome-34) from YURI's YUR-004 FOLLOW-UP.\tPROME/inbox/processed/2026-10-31_from-YURI_YUR-004-final-read.md · AGENTS/YURI/research/2026-10-31_YUR-004_FINAL-READ.md · DOCKET L432\tDomain row; no capital path.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "YURI: final resolve read. HAWK: consume. PROME: close the predecessor when the result is delivered.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "",
+      "owner": "YURI · HAWK"
+    },
+    {
+      "id": "hy",
+      "title": "Review the guarded HY gate",
+      "date": "2026-11-03",
+      "end": "",
+      "layer": "followup",
+      "when": "Review due · no time",
+      "time": "",
+      "why": "New qualified observations feed GATE-NEXUS-WQ459-HY.",
+      "sources": [
+        {
+          "path": "PROME/GATES.tsv",
+          "line": 23,
+          "label": "GATE-NEXUS-WQ459-HY",
+          "excerpt": "GATE-NEXUS-WQ459-HY\t2026-10-19\tNEXUS\tGuarded HY: 15 qualified observations AFTER ruling-date anchor; UP HY>=L+10bp for3; DOWN HY\u003c=L-10bp for3 plus CCC\u003c=C0 at completion. First full branch wins. Carry-forward/vintage/C/VOID/count-once and mechanism rules: owner letter.\tUP: Break+6pp from Grind; DOWN: Break-6pp to Grind; Unresolved unchanged. Same-direction L13 fire within30 calendar days counts once; opposite fires net0. No probability move on approval.\tLIVE — 8/15 cells through obs 10/29 (NEXUS 501555a51, PROME wake 10/30): cell 7 (obs 10/28) HY 314 ⇒ DOWN run 2; cell 8 (obs 10/29) HY 326 BROKE it ⇒ NO FIRE, both runs 0; anchor 329/1,310 unchanged; split 20/47/33 HELD; earliest fire either way = cell 11 (obs 10/30 → 11/3), read at the L554 wake ~11/3–11/4; backstop 11/23 END (L754) · prior: 6/15 cells through obs 10/27 (NEXUS 66713a294, late Tuesday wake 10/28): cells 5–6 = HY 330 · 318 ⇒ DOWN run 1 of 3 (CCC 1,321 vs guard C0 1,310); UP run 0; anchor 329/1,310 unchanged; split 20/47/33 HELD; earliest DOWN completion = cell 8 (obs 10/29, read Fri 10/30: needs HY ≤319 on obs 10/28–29 AND CCC ≤1,310 on obs 10/29); earliest UP = cell 9. No fire. · hist→GATES_STATE_HISTORY_2026-10-26_nexus\t2026-10-30 11:01 ET PROME consumed NEXUS 501555a51 / d0595dda6 (prome-c5 wake; record research/2026-10-30_L573_L751_L630/RECORD.md) · prior: 2026-10-28 PROME consumed NEXUS 66713a294 (late L554 wake; record research/2026-10-28_wake/RECORD.md)\tPROME/proposals/2026-10-19_wq459-guarded-hy-RULED.md; AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md\t2026-11-03 | NEXUS L554 Tuesday wake: cells 9–10 (obs 10/30, 11/2) as published | NEXUS · [10/30 consumer DONE: cell 8 read 10/30 10:59 ET, NEXUS 501555a51 — re-dated by PROME 10:31 ET 10/31]\tJUDGEMENT\tAGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md\t2026-11-03 (next L554 Tuesday wake; L751 cell-8 read 10/30 precedes it; counts and publication govern)",
+          "sha256": "e5c2ca4e3e72d6d6c0c7c7ec5bd3ed4c301de987db28b7153d2ab521ba9ccfd7"
+        },
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 554,
+          "label": "DOCKET L554",
+          "excerpt": "2026-11-03\tNEXUS WEEKLY WAKE (TUESDAY) — WQ-343 RULED APPROVE (Will 2026-09-29 17:16 ET, verbatim \"Approve WQ-343\"): a dated weekly Tuesday wake for NEXUS while ON-DEMAND stays its ROSTER token (NEXUS debrief C3, 6efb45d52). Scope at each fire: NEXUS boots, runs its self-letter audit, reads what moved since its last pass, grades any resolver due, and closes — a boot with nothing moved is short. RECURRING: at each RESOLVED, PROME re-dates THIS row's date cell +7d in place (one row, one line number — never a new row per week; the week's outcome goes in notes). Wake mechanism = the WQ-184 driver: ListAgents first; doorbell if live; Tier-1 spawn if dark; inside the cap of 4 due-row spawns per boot. First fire Tue 2026-10-06. The 10/09 PRED-50 grade (L553) stays its own row.\tNEXUS (owner; boots weekly) / PROME (spawn driver; re-dates the row at each RESOLVED)\tPENDING — RE-DATED 2026-10-27 → 2026-11-03 in place (recurring rule) by PROME prome-92 2026-10-28 21:1x ET; the 10/27 wake ran LATE on 10/28 (Will-launched NEXUS 21:02 ET; packet PROME/inbox/processed/2026-10-28_from-NEXUS_late-tuesday-wake-and-fomc-delta.md, 66713a294; record AGENTS/NEXUS/research/2026-10-28_wake/RECORD.md): no fire, split 20/47/33 held; L16 cells 5–6 = HY 330 · 318 (DOWN run 1 of 3; CCC 1,321 vs guard 1,310); L13 cells 6–7 = 2.66 · 2.64 (DOWN run 1 of 5); rollup #6 shipped (L555). · prior state: PENDING — October 26 full review 77b131be7 ACCEPTED: all 30 briefs with Will-selected Sol readers; previous reader dependency resolved for this task. Tuesday due-day L554/L751 grades and L555 rollup remain pending, as does FLG intake. Carry existing T7 grade/lapse, M03 ACM mechanism, C35 control-date/disposition, old correlation-collapse answer and T24 resolver/disposition. Literal proximity alert received; split20/47/33 unchanged. · Prior dated state: PENDING — October 26 bounded return 69ad87b85 ACCEPTED: five-desk delta and WQ-519 examples delivered, L555 inputs prepared; Tuesday due-day grades/rollup/full-pass duties and FLG intake remain. No new split or score; full review still October 23 with BOOT 6 reader dependency unresolved. · Prior dated state: PENDING — October 26 reconciliation: NEXUS L832 assigned scope COMPLETE at ea274f610; Tuesday L554 full-pass/M-03 mechanism follow-through and WQ-519 examples retain their scope/date. Last full review October 23; required Opus digest-reader dependency remains unresolved. Bounded preparation assigned by Will-authorized packet 28fe117f3; no early completion. · Prior dated state: PENDING — October 26 NEXUS 8a66a0c57 delivers bounded L832 grades and BROCK/LIQUID brief consumption; required full fleet pass remains incomplete (three required Opus digest readers unavailable, no approved mapping verified). Carry proper-pass remainder and M-03 post-fire disposition here on October 27; L555 rollup/WQ519 examples and FLG follow-through unchanged. · prior dated state: PENDING · fire #3 RESOLVED 2026-10-20 (NEXUS 8d025b5d6; memo PROME/inbox/processed/2026-10-20_from-NEXUS_L554-wake-L13-C1-graded-L16-not-armed.md); re-dated +7d → 2026-10-27 (PROME 1acea012). PENDING — fire #3 (Tue 10/20): re-dated +7d IN PLACE per this row's RECURRING rule at 2026-10-14 21:0x ET (PROME prome-8e); fire #2 (10/13) RESOLVED-LATE 10/14 by Will's own NEXUS launch (nexus-7d; memo 3d7442c03: S1 C1 committed f87e66c1f, PRED-50 re-pull clean/closed, M-06 letter DEFECTIVE, split 20/47/33 HELD by its letter). · prior: PENDING — fire #2 (Tue 10/13): re-dated +7d IN PLACE per this row's own RECURRING rule at 2026-10-08 09:55 ET (prome-fc) on CATO PR3 (7494604d1): the 10/8 RESOLVED had closed the row without advancing it, so no 10/13 carrier existed; the week-1 outcome is preserved in notes. Scope unchanged. WQ-394 (seat verdict, 10/14) does not cancel this cadence until Will rules; the 10/29 · 11/05 · 11/20 letter-window rows are separate wakes, not this one. Wake mechanism = the WQ-184 driver (ListAgents first; doorbell if live; Tier-1 spawn if dark; inside the cap). · 2026-10-19 carry: qualify L16/WQ459 ruling-date-or-next matching HY/CCC anchor, fill actual levels and recompute conditional dates; registration is complete but NOT ARMED until anchor qualifies. Existing other publication-qualified letter checks and L11 held interpretation remain. No substitution of pre-ruling cells. · 2026-10-24 17:11 ET (PROME, Will's WQ-519 word 17:10 ET): this Tuesday return packet ALSO carries (a) ONE concrete example of how counting threshold LINES vs independent EVIDENCE CLASSES changes the \"3+ within 20%\" alert result, and (b) any genuinely ambiguous non-corrective supersession case for the LIGHT tier — both for Will's (iii) ruling ≤ 10/30; no separate study; no trigger or tier behaviour changes meanwhile · 2026-10-28 20:4x ET (PROME prome-92): NEXUS closed 10/27 00:26 ET at Will's request (processed/2026-10-27_from-NEXUS_session-closeout.md) BEFORE the Tuesday wake; L554/L555/L751 are 1d overdue and GATE-NEXUS-WQ459-HY's consumer date passed; NEXUS DARK at this boot (ListAgents + host ps 20:33 ET); wake candidate\tPROME/WILL_QUEUE.md WQ-343 · AGENTS/NEXUS/proposals/2026-09-29_session-debrief-fixes.md C3 · PROME/ROSTER.md (NEXUS cadence cell)\tREGISTERED 2026-09-29 17:1x ET by PROME (prome-e6, third sitting) on Will's word 17:16 ET; NEXUS doorbelled with the row number the same minute. · WEEK-1 OUTCOME (moved here from the state cell 2026-10-08 09:55 ET, verbatim): RESOLVED 2026-10-08 08:45 ET (PROME consumed NEXUS's WQ-389 wake memo 5fb20c5bf; desk eac4e605a): the weekly wake ran 10/8 (two days late — no wake existed Tue 10/6): regime split RE-DATED 10/8 and HELD 20/47/33 (Break · Grind · Unresolved; L13 falsifier NEITHER — DFII10 touched 2.95 once [10/5], 2.91 [10/6], official 2.92 [10/7]; 8 of 15 cells + early-copy cell 9); the evidence since 10/1 leans Grind but no number moved on judgment; the falsifier still cannot see credit. Disc-J (L15) DISCHARGED: eight letters registered (M-01 · M-03 · M-04 · M-05 · M-06 · M-07 · M-10 · M-11; AGENTS/NEXUS/research/2026-10-08_disc-J_letters.md) so all 10 matrix rows carry falsifiers; no Conf % moved (⚠️ M-04 26% reads ~3pp high: its 9/29 +3 was on negative gamma, now positive — held until its VIX test). PRED-41 band KEPT. Successor wakes registered today: 10/29 · 11/05 · 11/20 (letter windows). HEARTBEAT: the split is re-dated [10/8] at the closeout amendment.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "NEXUS: read the next published observations at the Tuesday wake.",
+      "launch": "",
+      "link": "GATE-NEXUS-WQ459-HY · review scheduled November 3. The gate depends on its qualified HY / CCC observations and full owner letter; a calendar date does not fire it.",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "This is a gate review date, not the scheduled publication time of a market release.",
+      "owner": "NEXUS"
+    },
+    {
+      "id": "banks",
+      "title": "Finish the four-bank screen",
+      "date": "2026-11-04",
+      "end": "",
+      "layer": "research",
+      "when": "Due date · no time",
+      "time": "",
+      "why": "The recorded data-access deadline is November 5, ahead of the remaining bank reads.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 895,
+          "label": "DOCKET L895",
+          "excerpt": "2026-11-04\tREGINALD — L857 TAIL: re-run the frozen Q3 borrowing screen for the 4 banks unfiled at 10/31 09:31 ET (East West $4.44B and HSBC Bank USA $7.17B of 6/30 borrowings matter for size; First Hawaiian; Beacon Bank & Trust) BEFORE the FFIEC token expires 11/05 — new dated file, re-apply apply_frozen_2026-10-31.py; LAPTOP only (credentials).\tREGINALD / PROME (registrar)\tPENDING — registered 2026-10-31 09:39 ET by PROME (prome-34) from REGINALD's L857 FOLLOW-UP; hard edge = the 11/05 token expiry unless Will renews it Sunday (WQ-31).\tPROME/inbox/processed/2026-10-31_from-REGINALD_L857-shortlist-rerun.md · AGENTS/REGINALD/reports/2026-10-31_L857/REPORT.md\tDomain row; no capital path.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "REGINALD: rerun the frozen Q3 screen for four outstanding banks, on the laptop with the existing credentials.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "Dependency is source-recorded; credential availability and renewals were not checked.",
+      "owner": "REGINALD"
+    },
+    {
+      "id": "fert",
+      "title": "Review fertilizer-price gate",
+      "date": "2026-11-04",
+      "end": "",
+      "layer": "followup",
+      "when": "Review due · no time",
+      "time": "",
+      "why": "FERT’s next DTN reading tests the registered retail-price gate.",
+      "sources": [
+        {
+          "path": "PROME/GATES.tsv",
+          "line": 13,
+          "label": "GATE-FERT-G5",
+          "excerpt": "GATE-FERT-G5\t2026-08-17\tFERT\tDTN retail DAP OR MAP > $1,000/ton (instrument = DTN Progressive Farmer weekly retail $/ton — NEVER conflate w/ Pink Sheet $/mt or NOLA $/st). CLARIFIED 2026-10-01 (WQ-351; level, operator and instrument UNCHANGED — FERT's text verbatim): Geography: DTN US national average retail, as printed in the weekly article. Tie: strictly > $1,000/ton at DTN's whole-dollar precision — a $1,000 print does NOT fire. Registration CONTEXT, not this gate's base rate (different instrument, unit, cadence and operator): Pink Sheet DAP $781.3/mt = 93rd pct monthly (≥). No base rate on the letter's own instrument exists — DTN's full weekly index is MyDTN-subscriber. Distance to the line at registration: MAP +4.3% / DAP +9.1%; cost-push root ~+0.5% MoM (rock + sulfur + Mosaic idles). Will-RATIFIED 8/17. FULL LETTER + base-rate table → definition_surface (registry letter archived 8/22). LETTER HOME, RULED EXCEPTION recorded 2026-10-08 16:38 ET (DAEDALUS Gate-Basis #2 ②: the pointer was circular — T4 carries wake notes, the 8/17 packet predates the clarification, GATE_GRADES.md points back here): the WQ-351 CLARIFIED text lived in THIS cell by Will's 10/1 13:54 ET word (PROME 83c67fe95) until FERT encoded it; LANDED 2026-10-09 10:06 ET: LETTER HOME = AGENTS/FERT/workbook/TRIGGERS.tsv row T4, column Why_It_Wakes_You (FERT 15efd80df, on origin/master; opens 'GATE-FERT-G5 LETTER — CANONICAL HOME', text copied VERBATIM from this cell as read 2026-10-09, C4-class — no level, operator, instrument or consequence moved; PROME verified the marker at origin/master, 1 hit). This cell's text stays the registered letter of record for citation; T4 is the owner's home; on any divergence this cell wins until a Will word moves it. SUPERSEDED 2026-10-01: \"Base-rated at registration: 93rd-pct context\" (the phrase read as this gate's own base rate; it is Pink Sheet context).\tFIRE = FERT adjudication at the letter same-wake + packet to PROME routing CARL (food-CPI transmission read) + HENRY cc. Watch-only: NO capital path, NO auto state change; any threshold move stays Will-gated\tLIVE — NOT FIRED 11-of-11 DTN prints: MAP $983 / DAP $939 [data wk Oct 19–23, print 10/28, FERT first-party KB-FERT-097]; MAP $17 (1.73%) under $1,000 (strictly greater); pace ~+0.98%/mo (≈late Dec; FERT, not scored)\t2026-10-28 print OWNER-GRADED 2026-10-28 22:2x ET (FERT Will-directed wake; report AGENTS/FERT/reports/2026-10-28_wake.md; packet PROME/inbox/processed/2026-10-28_from-FERT_wake-T1-T4-T12-G5-not-fired-potash-triage.md): NOT FIRED 11-of-11; PROME read 22:5x ET · prior → git\tPROME/inbox/processed/2026-08-17_from-FERT_gate-proposals-base-rated-plus-three-asks.md + AGENTS/FERT/workbook/TRIGGERS.tsv (T4 DTN weekly = the wake) + AGENTS/FERT/workbook/EXIT_PROTOCOL.md\t2026-11-04 | FERT owner grade at the next DTN Wednesday print (FERT set review_by 11/04 at the 10/28 grade; the 10/28 consumer date MET by the 10/28 wake NOT FIRED 11-of-11 + PROME read 22:5x ET) · prior → git\tJUDGEMENT (re-tagged 8/28 on DAEDALUS GATES audit: was INSTRUMENT with NO producer anywhere — Class 7 says INSTRUMENT = a machine can grade it; owner grades at review_by until a producer exists)\tAGENTS/FERT/workbook/TRIGGERS.tsv (T4) + PROME/inbox/processed/2026-08-17_from-FERT_gate-proposals-base-rated-plus-three-asks.md (base-rate record)\t2026-11-04 (OWNER-SET 2026-10-28 at the 10/28 grade: next DTN Wednesday = FERT T4 wake) · prior: 2026-10-28 (OWNER-SET 2026-10-21) · hist→git",
+          "sha256": "e5c2ca4e3e72d6d6c0c7c7ec5bd3ed4c301de987db28b7153d2ab521ba9ccfd7"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "FERT: owner grade after the weekly DTN print.",
+      "launch": "",
+      "link": "GATE-FERT-G5 · next owner-set review November 4. Uses DTN retail DAP / MAP, not the World Bank Pink Sheet series.",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "",
+      "owner": "FERT"
+    },
+    {
+      "id": "cypher",
+      "title": "Check banking incident cluster",
+      "date": "2026-11-05",
+      "end": "",
+      "layer": "research",
+      "when": "Due date · no time",
+      "time": "",
+      "why": "CYPHER’s recorded scope covers bank vendors and payment plumbing.",
+      "sources": [
+        {
+          "path": "AGENTS/CYPHER/docket/CATALYSTS.tsv",
+          "line": 19,
+          "label": "CYPHER catalyst ledger",
+          "excerpt": "2026-11-05\tBank-vendor and payment-plumbing incident cluster watch (Will 10/29 13:29 ET: \"keep an eye out for bank issues like that\")\tSearch vendor newsrooms, trade press (American Banker, Banking Dive, CU Times) and state AG portals for new incidents or outages at CHK-01..11, 33, 36, 37 (cores, digital banking, CU vendors, print/mail) and at payment messaging or settlement (RTGS, SWIFT, Fedwire-connected middleware). Count new items since 2026-10-29 alongside Jack Henry 048, Central Bank of India 049 and Sharetec 050. Re-date weekly while any count is above zero\tEscalate (P1 to REGINALD, LIQUID and PROME, not an escalation-row fire) on: 2 or more NEW confirmed incidents or outages at distinct bank-core, CU-vendor or payment-messaging suppliers inside any 30-day window, OR one that disrupts processing at 2 or more institutions for 1 business day or more. A single claim or a leak-site listing does not count\tP2\tREGINALD; LIQUID; GIBBS; PROME\tRegistered 2026-10-29 on Will's word. Desk watch, not a prediction or gate. Base: 048 (Aug, corporate env, no processing hit), 049 (Oct, India, payment messaging), 050 (Sep, accidental) predate the window and do not count toward it; they set the shape\tFIRM",
+          "sha256": "e0715f2b046fc8d2817d168ffba55279997958c66e58a7d1cad8d5bc61bd2123"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "CYPHER: check for new confirmed incidents and attributable effects; apply the existing escalation conditions.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "A watch is owed; the calendar does not assert that an incident or escalation has happened.",
+      "owner": "CYPHER"
+    },
+    {
+      "id": "cot",
+      "title": "Review crude positioning gate",
+      "date": "2026-11-06",
+      "end": "",
+      "layer": "followup",
+      "when": "Review due · no time",
+      "time": "",
+      "why": "BRENT grades the next COT vintage; PROME consumes the result.",
+      "sources": [
+        {
+          "path": "PROME/GATES.tsv",
+          "line": 12,
+          "label": "GATE-BRENT-COT-35B",
+          "excerpt": "GATE-BRENT-COT-35B\t2026-08-14\tBRENT\tFuel-spent band 35b (ruled 8/12): crude MM gross shorts vs FROZEN base 122,904.5 (trailing-8wk median 6/16-8/4; an 8-obs median - carry the .5 or the levels do not reproduce). Leg A: \u003c=109,164 SPENT | 109,165-118,325 NO-VERDICT (deadband decisive; 113,745 is its CENTRE, not a boundary) | >=118,326 NOT-SPENT. Leg B OI-share \u003c=4.909% GATING. Leg B = M_Money_Positions_Short_All ÷ Open_Interest_All × 100 (fields 15 ÷ 8 of CFTC f_disagg.txt, DISAGGREGATED FUTURES-ONLY, market 'WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE' code 067651; the futures+options file gives a different share — never use it). 4.909% = trailing-104wk median of OI-share over the build window ending 2026-08-04, FROZEN at registration 2026-08-14 (BRENT register card 8/14 §2) — REPRODUCED by BRENT at the CFTC archive 2026-09-18 (1af68399c; the stale 'not re-reproduced' clause struck 2026-10-08 16:38 ET, DAEDALUS Gate-Basis #2 ①). 'GATING' and 'BOTH agree or NO-VERDICT' are ONE rule. Resolving vintage = FIRST PRINT carrying the as-of report_date. BOTH agree or NO-VERDICT. REVERT: re-read every print, never a latch. median_unit 9,160 FROZEN; bar -1.0, deadband +/-0.5. Letter -> REGISTRY.tsv COT-FUEL-35B\tSPENT joint verdict => fuller-size branch becomes ARGUABLE on TERRY card logic (Will-gated; sizing never auto) · NO-VERDICT/NOT-SPENT => base-case sizing within cap\tLIVE — vintage #12 [as-of 10/27] JOINT NOT-SPENT, 6th consecutive (9/22 · 9/29 · 10/6 · 10/13 · 10/20 · 10/27; BRENT autonomous Friday routine ~16:17 ET 10/30, cot_grade.py exit 0, ledger 785fb3d44): Leg A MM gross shorts 126,305 (−921 WoW) ≥ 118,326 NOT-SPENT · Leg B 6.6960% (OI 1,886,280, +51,136; longs 157,433 −5,980) > 4.909% NOT-SPENT; both legs de-grossed · prior: LIVE — vintage #11 [as-of 10/20] JOINT NOT-SPENT, 5th consecutive (9/22 · 9/29 · 10/6 · 10/13 · 10/20; BRENT 27f149944, graded 15:51 ET 10/23): Leg A MM gross shorts 127,226 (−4,173 WoW) ≥ 118,326 NOT-SPENT, 8,900 above the deadband top · Leg B 6.9328% (OI 1,835,144, −65,035) > 4.909% NOT-SPENT; second raw pull matched to the digit · prior: LIVE — vintage #10 [as-of 10/13] JOINT NOT-SPENT, 4th consecutive (9/22 · 9/29 · 10/6 · 10/13; BRENT 060db28ad): Leg A MM gross shorts 131,399 (+6,644 WoW) ABOVE the 109,165–118,325 deadband · Leg B 6.9151% (131,399 ÷ OI 1,900,179) vs 4.909% NOT-SPENT — both legs moved further from their SPENT bars · #9 [as-of 10/6] 124,755 / 6.6028% NOT-SPENT (f50d59625) · #8 and earlier → hist→STATE_HISTORY_2026-10-03_step3\t2026-10-30 16:4x ET PROME consumer read (prome-c5) of BRENT's #12 owner grade at the packet PROME/inbox/processed/2026-10-30_from-BRENT_friday-routine-flags.md + ledger commit 785fb3d44 (AGENTS/BRENT/demand_destruction/data/friday_2026-10-30.md) · prior: 2026-10-23 PROME consumer read at the artifact (COT_VINTAGES.tsv row 2026-10-20 + packet processed/2026-10-23_from-BRENT_cot11-graded-joint-not-spent.md; PROME prome-03 16:0x ET) · 2026-10-16 17:0x ET PROME CONSUMER READ (prome-7b) of BRENT's #10 owner grade at AGENTS/BRENT/workbook/COT_VINTAGES.tsv row 2026-10-13 (060db28ad: 131399 / 1900179 / 6.9151 graded NOT-SPENT, cot_grade.py 20:17:29Z rc=0 + independent curl match per packet; packet PROME/inbox/processed/2026-10-16_from-BRENT_friday-routine-flags.md) · prior read 10/9 15:48 ET (prome-15, #9 f50d59625) · earlier reads (10/3 · 9/25 · 9/19) → hist→STATE_HISTORY_2026-10-03_step3\tAGENTS/BRENT/STATUS.md rows 13-14 + AGENTS/BRENT/workbook/REGISTRY.tsv COT-FUEL-35B [source path corrected 8/28, same fix as definition_surface] (supersedes COT-FUEL) + card AGENTS/BRENT/setups/2026-08-14_COT-friday-card-incumbent-final-grade-then-35b-register.md + PROME/proposals/2026-08-12_rule-batch-RULED.md (35b)\t2026-11-06 | #13 consumer read (COT as-of Tue 11/3 posts ~15:30 ET Fri 11/6; BRENT owner grade, PROME consumer read) · #12 CONSUMED 2026-10-30 same day (BRENT autonomous routine) · prior: 2026-10-30 | #12 consumer read (COT as-of Tue 10/27 posts ~15:30 ET Fri 10/30; BRENT owner grade, PROME consumer read) · #11 CONSUMED 2026-10-23 same day (BRENT live in Will's window) · prior: 2026-10-23 | #11 consumer read (COT as-of Tue 10/20 posts ~15:30 ET Fri 10/23; BRENT owner grade, PROME consumer read at the artifact + packet) · #10 CONSUMED 2026-10-16 same day (BRENT's autonomous routine graded it 20:17Z — the routine now runs AFTER the post, so the ⚠ STRUCTURAL note below is OBSERVED FIXED for this vintage, one observation; PROME consumer read 17:0x ET at the artifact + packet) · #9 CONSUMED 2026-10-09 same day (PROME consumer read 15:48 ET; re-ordered 2026-10-10 10:57 ET prome-1e so the leading date is the NEXT consumer) · prior consumers CONSUMED same day (#8 10/2 · #7 9/25) → hist→STATE_HISTORY_2026-10-03_step3. ⚠ STRUCTURAL, BRENT-owned (as recorded 10/9): the autonomous Friday routine fired ~14:00 ET, before the ~15:30 post, so cot_grade.py exited 3 and the grade fell to a live session — one later-run observation (#10) does not retire this note; BRENT retires it\tINSTRUMENT\tAGENTS/BRENT/workbook/REGISTRY.tsv COT-FUEL-35B (row id, live — path corrected 8/28 Codex audit M3: `registry/` never existed; verified at the artifact, row 123; letter/threshold/state untouched) + AGENTS/BRENT/setups/2026-08-14_COT-friday-card-incumbent-final-grade-then-35b-register.md\t2026-11-06 (next COT print, as-of 11/3; #12 graded same day 10/30 by BRENT's autonomous routine ~16:17 ET) · prior: 2026-10-30 (next COT print, as-of 10/27; #11 graded same day 10/23 by BRENT live, 15:51 ET) · prior: 2026-10-23 (next COT print, as-of 10/20; #10 graded same day 10/16 by BRENT's autonomous routine at 20:17Z, the first autonomous same-day grade; #9 graded same day 10/9 by BRENT live. Base 122,904.5 + the Leg-A exhaustive form stay on the condition cell; re-basing = NEW N1 build + Will ruling) · prior 2026-10-16 · 2026-10-09 → this row's history",
+          "sha256": "e5c2ca4e3e72d6d6c0c7c7ec5bd3ed4c301de987db28b7153d2ab521ba9ccfd7"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "BRENT: grade after publication. PROME: consumer read. The source expects the print around 15:30 ET; this is not a launch appointment.",
+      "launch": "",
+      "link": "GATE-BRENT-COT-35B · next review November 6. The two registered legs must agree; the full condition is preserved below.",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "",
+      "owner": "BRENT · PROME"
+    },
+    {
+      "id": "cohort",
+      "title": "Q3 cohort screen + access deadline",
+      "date": "2026-11-05",
+      "end": "2026-11-07",
+      "layer": "research",
+      "when": "Nov 5–7 · dependency window",
+      "time": "",
+      "why": "Recorded access expiry precedes the November 7 research deadline.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 180,
+          "label": "DOCKET L180",
+          "excerpt": "2026-11-05..2026-11-07\tFFIEC CDR JWT EXPIRES 11/05 (90d lifetime; WILL_QUEUE row 31 = the regen action) → MI3 Q3 cohort screen run DUE 11/07 (REGINALD registered cadence, quarterly ~45d post-quarter-end) — the token expiry sits TWO DAYS before the run that needs it; regenerate BEFORE or the instrument fails at creds() by design. ⚠ Rider: the COHORT-SELECTION open question must be decided BEFORE this run (clean-benchmark names are where the dollars went — MTB $4.95B; a mid-instrument re-cut on a quarter boundary with both cohorts reported once, never silently), owner REGINALD\tREGINALD (run+cohort ruling) / Will (JWT regen, queue 31)\tPENDING\tAGENTS/REGINALD/CALENDAR.md (11/05+11/07 rows, the owner read-path) + AGENTS/REGINALD/registry/NOTES.md (cohort question)\tREGISTERED 2026-08-13 by PROME at the screen-hardening delivery (REGINALD flagged the adjacency; prose-only-catalyst class — a dated dependency needs a canonical row, not just an owner-calendar view) · ⟦WQ-313 CHECK, Will 2026-09-27 21:16 ET; synthesis PROME/reports/2026-09-27_cre-to-bank-transmission-SYNTHESIS.md §15–§17⟧ ADDS the mid-pack BREADTH TEST (REGINALD cross-bank §D). SOURCE: Q3 Call Reports (FFIEC) for the 14-bank sample, with the Q3 releases 10/20–10/28 as the first read. DESK: REGINALD. QUESTION: do ≥3 of WAL · VLY · SSB · BKU · SBCF show CRE bad loans up >50% QoQ or a new foreclosure build (→ BROADER); VLY multifamily 30–89 / nonaccrual split. IF INSUFFICIENT: record which banks' Q3 data were unavailable at the run and grade only the rest; the sample is 14 chosen banks, not the population. DATES: 11/07 is the REGISTERED run date; release dates are ESTIMATES. · ⟦WILL's 10/9 RESTATEMENT — recorded under C2 2026-10-09 21:43 ET (prome-1e) from REGINALD's COMMITTED memo PROME/inbox/processed/2026-10-09_from-REGINALD_q3-read-plan-and-monitor-repair.md (a2d11a0ec) § 'Will's clarifications (21:33 ET)' — the desk's rendering, NO verbatim quote in the memo; Will's window, REGINALD session reginald-6d⟧ SUPERSEDES the IF-INSUFFICIENT clause wherever missing banks could change the ≥3-of-5 verdict: with c = banks showing the condition and m = banks MISSING at the run — c ≥ 3 → BROADER · c + m \u003c 3 → NOT BROADER · otherwise UNKNOWN (never 'grade only the rest'). BASIS (original, confirmed): total-CRE bad-loan RATE (nonaccrual + 90+ days over construction + multifamily + NOO, Call Report) + `oreo_total_k`; MULTIFAMILY is a SEPARATE sub-read, not counted in the breadth verdict; individual-bank deterioration ≠ cross-bank spread. DATE: 11/07 = the PLANNED Call Report retrieval, completeness checked then. Plan of record: AGENTS/REGINALD/reports/2026-10-09_Q3_earnings_read_plan.md §2.0; provisional cross-bank judgment CONCENTRATED on 6/30 evidence (total-CRE 2.23%; MF sub-read 3.23→3.58% at FLG/EGBN/CFG only). ⚠️ OPEN FOR WILL BEFORE THE 11/07 RUN (REGINALD's optional note, not yet asked — a materiality floor is a NEW level ⇒ Will's): 'new foreclosure build' is unquantified; the literal reading (any QoQ rise) already counts WAL at Q2 (+2.3%). Earnings reads proceed on schedule, CFG Fri 10/16 first; CUBI/FLG Q3 dates NOT ANNOUNCED at 10/9 21:2x.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "REGINALD: cohort screen due November 7. Will: source-recorded credential renewal dependency for November 5. The cohort-selection question must be settled before the run.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "window",
+      "note": "Two distinct edges in one source range. Neither is collapsed to midnight or treated as permission to launch.",
+      "owner": "REGINALD · Will"
+    },
+    {
+      "id": "nexus-est",
+      "title": "Household debt release follow-up",
+      "date": "2026-11-06",
+      "end": "",
+      "layer": "research",
+      "when": "Early November · date unverified",
+      "time": "",
+      "why": "NEXUS’s PRED-41 read follows the actual NY Fed release, whenever it publishes.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 575,
+          "label": "DOCKET L575",
+          "excerpt": "2026-11-06\tNEXUS PRED-41 WAKE — first boot after the NY Fed Household Debt & Credit release for Q3-26 (expected early November; date UNVERIFIED — anchor type = the EXPECTED release, so this row is re-dated to the actual release when the NY Fed announces it). PRED-41 as re-spec'd 10/1: credit-card flow into 90+ days delinquent, symmetric ±50bp on Q2's 6.97% (~20%). A second wake is owed for the Q4-26 release (expected early February 2027): register it when this row resolves.\tNEXUS (grades) / PROME (wake + re-date at the announcement)\tPENDING — registered 2026-10-01 19:1x ET by PROME (prome-2f) from NEXUS's packet (6b10bc72d); 2026-11-06 is a placeholder inside 'early November', not a published date.\tPROME/inbox/processed/2026-10-01_from-NEXUS_charter-fix-ef23c5351-and-L572-redate.md · AGENTS/NEXUS/PREDICTIONS_MONITOR.md\tWQ-184 driver: names NEXUS. No capital path; a published probability only.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Placeholder date",
+      "work": "NEXUS: first boot after the Q3 release. November 6 in the docket is explicitly a placeholder; re-date when the actual release is announced.",
+      "launch": "No wake can be timed from this placeholder alone.",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "uncertain",
+      "note": "Displayed outside the dated grid so a stored placeholder cannot look like a confirmed appointment.",
+      "owner": "NEXUS"
+    },
+    {
+      "id": "audit",
+      "title": "Review cloud-routine prompts",
+      "date": "2026-11-03",
+      "end": "",
+      "layer": "housekeeping",
+      "when": "Due date · no time",
+      "time": "",
+      "why": "PROME’s quarterly process audit.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 143,
+          "label": "DOCKET L143",
+          "excerpt": "2026-11-03\tQuarterly cloud-routine prompt audit — every live routine's prompt vs its repo registry + current canon\tPROME\tPENDING\tAGENTS/BRENT/SCHEDULED_RUNS.md\tREGISTERED 2026-08-03 EVE off the VULCAN off-repo-regression class (routine prompt text lives server-side, invisible to repo greps; the 8/3 audit found BRENT's 3 live routines running April-vintage thresholds). Method: RemoteTrigger list → diff each live prompt against its SCHEDULED_RUNS.md registry (BRENT + VULCAN pattern) + spot-check thresholds/git-canon/model/delivery paths. First run 11/3; recur quarterly. New-routine rule: creation includes a registry row same-pass.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "PROME: compare routine prompts with their registry and canon.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "",
+      "owner": "PROME"
+    },
+    {
+      "id": "glued",
+      "title": "Check wording-guard effectiveness",
+      "date": "2026-11-06",
+      "end": "",
+      "layer": "housekeeping",
+      "when": "Due date · no time",
+      "time": "",
+      "why": "PROME’s process follow-up; hidden from the default research view.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 893,
+          "label": "DOCKET L893",
+          "excerpt": "2026-11-06\tWQ-560 A — DID THE GUARD WORK? Re-count glued dates fleet-wide with the SAME instrument and perimeter as the 2026-10-30 baseline: `python3 scripts/claim_check.py --check glued AGENTS/*/STATUS.md AGENTS/*/CLAUDE.md AGENTS/*/CALENDAR.md PROME/*.md HEARTBEAT.md`. Baseline at c3d16ffd8's version was 341 flags on 122 files; re-measured with the corrected checker (4ce11cd1a, counts excluded) BEFORE comparing, so the two numbers share one instrument. Falling ⇒ the advisory step-1e check works; flat or rising ⇒ bring Will the choice of making it blocking (his call). Report per desk, not only the total.\tPROME\tPENDING — registered 2026-10-30 21:26 ET by PROME (prome-34) at Will's question \"thats good right? Progress?\"; the prediction is open: no expected value written. · BASELINE 21:27 ET, corrected checker (HEAD 4ce11cd1a's claim_check), same perimeter: **262 flags across 122 files** — after PROME's 62 re-spaced, DAEDALUS's own fixes and the count exclusion. Compare 11/06 against 262, not 341.\tPROME/proposals/2026-10-30_wq560-RULED.md · PROME/tools/tests/ACCEPTANCE_claim_check_glued_2026-10-30.md · DOCKET L892\tMeasurement row; no capital path.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "PROME: perform the registered follow-up recount.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "",
+      "owner": "PROME"
+    },
+    {
+      "id": "scale",
+      "title": "Grade operation-scale test",
+      "date": "2026-11-07",
+      "end": "",
+      "layer": "housekeeping",
+      "when": "Due date · no time",
+      "time": "",
+      "why": "A governance review of closed-position evidence, not an instruction to trade.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 37,
+          "label": "DOCKET L37",
+          "excerpt": "2026-11-07\tGATE-OP-SCALE-01 grades (Will-registered 8/8, dissent round — the operation-level falsifier): agent-proposed book shows N>=10 CLOSED positions or the response is STRUCTURAL SHRINK, not another slate. Baseline n=2 at registration. Guard v2 (TERRY-sharpened 8/8): outcome bound; N = DISTINCT closed positions w/ distinct entry decisions (never rows/tranches/split-children); perimeter = live capital, agent-proposed, Will-approved, closed (day-desk/paper/would-fire EXCLUDED); loosened-gate diff shown at grading; N reported beside R (refusals on met/near-met), N-up-with-R->0 = quota fingerprint; no trade may cite this row\tTERRY/PROME/Will\tPENDING\tFORUM/2026-08-07_system-review/08_dissent/05_TERRY_capitals-case.md\tREGISTERED 2026-08-08 (Will in-session); GATES row = coordination index",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        },
+        {
+          "path": "PROME/GATES.tsv",
+          "line": 11,
+          "label": "GATE-OP-SCALE-01",
+          "excerpt": "GATE-OP-SCALE-01\t2026-08-08 (Will-registered in-session, dissent round — TERRY proposed it against the operation itself; first operation-level falsifier)\tTERRY/PROME\tFROZEN SPEC (dissent post): by 2026-11-07 the agent-proposed book shows N ≥10 CLOSED positions, else a structural-shrink proposal. GUARD v2: N = outcome bound, never quota; distinct closed positions with distinct entry decisions (harvest tranches count ONCE); day-desk/paper/would-fire EXCLUDED; no card may cite this row to fire; loosened-lines log at grading; report N AND R (refusals) — N↑ with R→0 = the quota fingerprint. Baseline n=2 closed, +$17.26. Spec → definition_surface\tnot-met at 2026-11-07 -> structural-shrink proposal to Will (explicitly NOT another improvement slate); met -> capital-productivity question closed at current scale, dissent closed on the record\tLIVE\t2026-08-08\tFORUM/2026-08-07_system-review/08_dissent/05_TERRY_capitals-case.md (frozen spec = the post, closing ask)\t2026-11-07 | the N>=10 closed-positions count grades | TERRY/PROME/Will\tJUDGEMENT\tFORUM/2026-08-07_system-review/08_dissent/05_TERRY_capitals-case.md (frozen spec = the post)\t2026-11-07 (the grade date — spec-frozen)",
+          "sha256": "e5c2ca4e3e72d6d6c0c7c7ec5bd3ed4c301de987db28b7153d2ab521ba9ccfd7"
+        }
+      ],
+      "confidence": "Owner date",
+      "work": "TERRY / PROME / Will: grade the existing operation-level falsifier.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "date",
+      "note": "Classified as housekeeping by its purpose, even though TERRY is an owner. This is not a trading quota.",
+      "owner": "TERRY · PROME · Will"
+    },
+    {
+      "id": "diesel",
+      "title": "Diesel producer-source follow-up",
+      "date": "",
+      "end": "",
+      "layer": "research",
+      "when": "On publication · undated",
+      "time": "",
+      "why": "An authenticated direct source is the trigger for the follow-up.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 140,
+          "label": "DOCKET L140",
+          "excerpt": "on-publication-of-the-Russia-diesel-producer-direct-source\tRussia diesel producer-direct follow-up: Q1 instrument / Q2 OSPREY diesel flow / Q3 matched crack; no authenticated opening claimed.\tOSPREY/BRENT\tPENDING · ⛔ **STATE TOKEN RESTORED 2026-09-19 12:5x — PROME COINED AN UNREGISTERED TOKEN AND BURIED THREE ROWS WITH IT.** This morning PROME re-keyed these rows DATE→CONDITION and led the cell with `RE-KEYED`. **`scripts/docket_view.py:110` treats only PENDING · ★ · RE-DATED · SLID as live; everything else is TERMINAL — so `RE-KEYED` silently retired three live obligations.** ⚠️ PROME invented a state token without registering it in `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` or teaching it to the reader — the token looked like canon because it resembled `RE-DATED`. **Found by the buried-state-token guard PROME built minutes earlier for four OTHER rows; it caught three more the author believed were fine.** ORIGINAL CELL FOLLOWS VERBATIM: RE-KEYED DATE->CONDITION 2026-09-19 by PROME (registrar), EXECUTING THE OWNER'S OWN RECORDED DISPOSITION, not overriding it: this row's state already said PUBLICATION-EVENT WAIT with the calendar spawn suppressed and no recurring retry, reconciled 2026-09-14 from BRENT's owner recommendation. A wait on an unscheduled publication has no date, so a past date made it read OVERDUE every boot while nothing was late and no desk could act. Same shape as L208, re-keyed the same day on WALTER's recommendation. ⚠️ FLAGGED TO BRENT AND REVERSIBLE ON ITS WORD — if BRENT wants a date back it says so and PROME restores it; nothing about the substance, the owner or the trigger has changed. PRIOR STATE, verbatim: PENDING — COVERED:BRENT publication-event wait; calendar spawn suppressed. PUBLICATION-EVENT WAIT; reconciled 2026-09-14 from BRENT's owner recommendation. September 8 is the original follow-up date, not a recurring retry. KEEP the source retry, triggered by a publication event: temporary DNS failures do not establish a permanent data wall. Q1 UNKNOWN-AT-PRIMARY (official No1097 text/publication and original No954 scope unrecovered); Q2 OSPREY diesel/gasoil flow and Q3 fresh matched diesel crack UNKNOWN. October 1 remains a transcribed successor only; the separately registered full read October 1 is unchanged. No grade, imported window change, crude-flow substitution or policy-headline substitution. Supersedes the old next-boot retry instruction.\tAGENTS/BRENT/setups/2026-09-08_market-docket-owner-read.md + AGENTS/BRENT/docket/CATALYSTS.tsv + PROME/inbox/processed/2026-09-14_from-BRENT_barrels-vs-routing-the-tape-priced-it-once-on-the-attack-day-and-freight-is-still-repricing.md\tSeptember 8 owner integration; current wait disposition reconciled September 14. Prior row history: git a993a451b:PROME/DOCKET.tsv L140; earlier full row in PROME/reports/2026-09-08_owner-docket-before.json. Existing thresholds and owner split unchanged; receipt: PROME/reports/2026-09-14_docket-reconciliation.md",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Condition only",
+      "work": "OSPREY / BRENT: follow the source-recorded instrument, flow and crack questions when the named source publishes.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "undated",
+      "note": "No authenticated opening is claimed. No fabricated calendar date.",
+      "owner": "OSPREY · BRENT"
+    },
+    {
+      "id": "wal-carry",
+      "title": "WAL Q3 row remains open",
+      "date": "2026-10-22",
+      "end": "",
+      "layer": "research",
+      "when": "Oct 22 · carried open",
+      "time": "",
+      "why": "The docket date has passed, but the row records a partial grade and a separate 10-Q successor.",
+      "sources": [
+        {
+          "path": "PROME/DOCKET.tsv",
+          "line": 170,
+          "label": "DOCKET L170",
+          "excerpt": "2026-10-19..2026-10-22\tWAL Q3 print + deck slide 12 — ⚠️ FRAME-BEFORE-FILING: pre-registration frame must be WRITTEN before the earliest-plausible date (10/13); a frame written after is VOID per WAL's ratified principle (the Q2 10-Q frame died exactly this way 7/31)\tWill (launch WAL) / WAL (frame)\tPENDING — STAGE-2 GRADED 2026-10-21 13:18 ET (WAL 42fe5c022, packet 5017d3679; rebuilt from e50270188/5d697426b without the two third-party transcripts, Will option A 13:37 ET) on the frozen frame: the $99M loan was not mentioned on the call ⇒ PENDING-10-Q (never benign); migration DISCONFIRM DP2 of 3 FINAL (RETIRE counter 2/3); coverage 118% MET; management $567M-basis NPL PENDING-10-Q; non-credit falsifier NOT TRIGGERED (10/20 WAL +2.27%, KRE +1.96%). No thesis/score/PREDICTIONS change. Graded from two third-party transcripts (Quartr needs re-auth; issuer audio unreviewed). Remaining legs ride L171 (10-Q, statutory 11/9). Prior: PENDING · RE-DATED 2026-10-13..22→2026-10-19..22 at 2026-10-09 10:10 ET (PROME prome-75) on WAL's verification at the issuer (KB-WAL-217; WALTER SIG-W-20261009-007 agrees): results AFTER THE CLOSE Mon 10/19, call Tue 10/20 12:00 ET; 10/13 was only the window-open date. FRAME-BEFORE-FILING: WRITTEN 2026-09-24 (AGENTS/WAL/Q3_PRINT_GRADING_FRAME_2026-09-24.md, §9 date-pinned 10/9) — satisfied. WAL print session = Mon 10/19 evening / Tue 10/20 call · prior: PENDING · +2026-10-02 11:28 ET (PROME prome-70): OZK's 10/02 regional-bank calendar (42e766acd) finds WAL's Q3 date NOT ANNOUNCED as of 10/2 and estimates ~10/20–22 from the WAL desk's own two-quarter pattern — the 10/13 lower bound stays as the FRAME-BEFORE-FILING deadline (the frame must still be written before the earliest-plausible date), but 10/13 is not an expected print date; WAL confirms at its IR page. · NOTE 2026-10-15 10:28 ET (PROME prome-81, inbox drain): WAL's 10/13 pre-print note (PROME/inbox/processed/2026-10-13_from-WAL_preprint-expectations-gap.md; AGENTS/WAL/research/2026-10-13_preprint-expectations-gap.md) finds NO demonstrated expectations gap — $73.73 [10/13 16:00 ET] vs conditional normalized values ≈$62 / $79 / $90 at 13% required return (sustainable EPS $8.0 / $9.8 / $11.0); no TERRY referral. REGINALD's 10/13 reconciliation (31c02fd74): +100bp dynamic ramp NII +3.2% vs broader EaR +0.8%; ECR costs and mortgage revenue cut sensitivity; Q2 shock/EVE and current hedge coverage UNVERIFIED (filing retrieval failed). Will's WQ-429 SELL (A) stands as ruled — these are context, not a change. Riverside recorder results: UNAVAILABLE (Will 10/13 lacks them; no REGINALD pull receipt) — REGINALD may pull at its next WAL touch, nothing is owed by Will.\tAGENTS/WAL/STATUS.md catalyst table (~mid-Oct; Q2 print was Tue 7/21)\tRegistered 8/7 per WAL-spawn P6, pinned EARLIEST-PLAUSIBLE not expected. Confirm exact date at WAL's IR announcement; per the 8/7 DAEDALUS corollary, filing-gated deadlines get checked at the FILING FEED (EDGAR/IR), never the owner's expectation. Tests riding this print: migration N=2 (KB-WAL-111) · office-classified slide 12 (WAL-01's ONLY carrying instrument — no 10-Q publishes it) · ex-fraud NCO vs \"peaked\" guide (KB-WAL-118) · FRAME WRITTEN 2026-09-24 (WAL 52304eeae, `AGENTS/WAL/Q3_PRINT_GRADING_FRAME_2026-09-24.md`, 19d before earliest-plausible 10/13): WAL-02 exhaustive >40/≤40 bps · WAL-01 slide-12 Office $ >$500M provisional to the 10-Q cross-check · migration N=2 (not-disclosed ≠ 0) · 'peaked' guide HELD/FLAT/BROKEN vs Q2 $55.0M/0.37% · $99M letter · mgmt 9/16 benchmark (⚠️ B2 transcript, re-verify at the IR webcast before grading). PRINT DATE NOT ANNOUNCED [WAL IR, 9/24 04:10Z]; §9 pins from IR/EDGAR. Row stays PENDING for the print itself. Consumed PROME 9/24 00:3x (memo d5e5e103a). · Barclays 9/16 quotes (frame §6 benchmark) STAY B2 after one capped pull 9/24: WAL IR events page HTTP 404, no IR transcript reached, replay is audio (KB-194). Verify-before-grading stands for the print session; the Q3 release's own figures grade §6 regardless. · ⟦WQ-313 CHECK, Will 2026-09-27 21:16 ET; synthesis PROME/reports/2026-09-27_cre-to-bank-transmission-SYNTHESIS.md §15–§17⟧ ADDS WQ-313 item ④. SOURCE: WAL Q3 release + deck. DESK: WAL. QUESTION: the $99M life-science loan's new appraisal and any charge-off; any new office migration; OREO valuation on the 7 Q2 additions. IF INSUFFICIENT: record 'appraisal outcome not disclosed at the Q3 release' and carry to L171 (10-Q). DATES: 10/13–10/22 is WAL's EARLIEST-PLAUSIBLE ESTIMATE window, not an announced date. · +2026-09-28 15:5x ET (PROME): WAL audit (AUDIT_2026-09-28.md; REGINALD packet 8ebeae9cd): the Q3 print date is NOT announced (EDGAR + IR re-checked 9/28; last year announced 10/2); pattern inference ~Tue 10/20 or 10/27, call the Wednesday after. 10/13 is this row's WINDOW START, not a print date — the frame must still be written before it. Three frame-rule gaps → WQ-325 (register by 10/09 or accept UNRESOLVED); V3 score basis → WQ-324.",
+          "sha256": "77f0c64fc0e4ef7cd28eae157f0635eaacfa153329e8714916143e9fc0fabe8c"
+        }
+      ],
+      "confidence": "Open carry · inspect status",
+      "work": "Source status records Stage 2 graded October 21; remaining 10-Q legs ride L171. This card does not call for repeating completed work.",
+      "launch": "",
+      "link": "",
+      "verification": "",
+      "url": "",
+      "lane": "overdue",
+      "note": "Overdue is an export date/status classification, not proof that the owner missed a task. The full PENDING annotation is preserved below.",
+      "owner": "WAL · Will"
+    }
+  ],
+  "coverage": {
+    "open_docket": 204,
+    "week_docket": 51,
+    "undated_docket": 56,
+    "overdue_docket": 18
+  },
+  "sources": [
+    "AGENTS/HENRY/domain/ECON_CALENDAR.md",
+    "PROME/DOCKET.tsv",
+    "PROME/GATES.tsv",
+    "AGENTS/LABOR/docket/CATALYSTS.tsv",
+    "AGENTS/VIOLET/workbook/CATALYSTS.tsv",
+    "AGENTS/CYPHER/docket/CATALYSTS.tsv",
+    "AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md"
+  ]
+}
+</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('snapshot').textContent);
+const layers={market:'Market events',research:'Desk research',followup:'Research follow-ups',housekeeping:'Housekeeping'};
+const active=new Set(['market','research','followup']);let mode='week';let selected='2026-11-02';
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const dates=Array.from({length:7},(_,i)=>`2026-11-${String(i+2).padStart(2,'0')}`);
+const weekdays=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+function card(e){const extra=e.link?(e.id==='gamma'?'↗ Recorded QQQ thesis':'↗ Linked gate'):e.work?'Desk work attached':'';return `<button class="card" data-id="${esc(e.id)}" style="--accent:var(--${e.layer})"><span class="card-time">${esc(e.when)}</span><span class="card-title">${esc(e.title)}</span><span class="card-note">${esc(e.owner)}<br>${esc(e.confidence)}</span>${extra?`<span class="linked">${esc(extra)}</span>`:''}</button>`;}
+function day(d){const i=dates.indexOf(d),rows=data.events.filter(e=>active.has(e.layer)&&e.date===d&&['timed','date'].includes(e.lane));let html='';for(const [lane,label] of [['timed','Scheduled releases'],['date','Other events & due work']]){const rs=rows.filter(e=>e.lane===lane).sort((a,b)=>a.time.localeCompare(b.time));if(rs.length)html+=`<div class="group-title">${label}</div>`+rs.map(card).join('');}return `<article class="day ${i>4?'weekend':''}" data-date="${d}"><div class="dayhead"><span>${weekdays[i]}</span><strong>${i+2}</strong></div>${html||'<p class="empty">No selected items<br>in these layers.</p>'}</article>`;}
+function render(){document.getElementById('layers').innerHTML=Object.entries(layers).map(([k,v])=>{const n=data.events.filter(e=>e.layer===k).length;return `<button class="chip" data-layer="${k}" aria-pressed="${active.has(k)}" style="--accent:var(--${k})"><span class="dot"></span>${v} <span class="small">${n}</span></button>`;}).join('');document.getElementById('week-mode').setAttribute('aria-pressed',mode==='week');document.getElementById('day-mode').setAttribute('aria-pressed',mode==='day');const board=document.getElementById('board');board.className=mode==='week'?'week':'dayview';board.innerHTML=mode==='week'?dates.map(day).join(''):dates.includes(selected)?day(selected):`<div class="notice"><h2>Today is outside this sample</h2><p>This preview contains November 2–8 only. It has no loaded schedule for ${esc(selected)}.</p><p class="small">Choose Week or a sample day to continue.</p></div>`;let railHTML='';for(const [lanes,title,subtitle] of [[['window'],'Across the week','Source windows retain both edges.'],[['uncertain','undated','overdue'],'Needs a timing check','Placeholders, undated triggers and overdue work stay outside the day grid.']]){let rows=data.events.filter(e=>active.has(e.layer)&&lanes.includes(e.lane));railHTML+=`<div class="rail"><h2>${title}</h2><p class="small">${subtitle}</p><div class="cards">${rows.map(card).join('')||'<p class="empty">No selected items in these layers.</p>'}</div></div>`;}document.getElementById('rails').innerHTML=railHTML;const shown=document.querySelectorAll('.card').length;document.getElementById('visible-count').textContent=`${shown} selected cards shown${active.has('housekeeping')?'':' · 3 housekeeping cards hidden'}${mode==='day'?' · timing rail remains visible':''}`;}
+function section(label,body,cls=''){return `<section class="detail-section ${cls}"><div class="detail-label">${esc(label)}</div><p>${esc(body)}</p></section>`;}
+function openDetail(id){const e=data.events.find(e=>e.id===id);if(!e)return;document.getElementById('detail-category').textContent=layers[e.layer];document.getElementById('detail-title').textContent=e.title;document.getElementById('detail-tags').innerHTML=`<span class="tag">${esc(e.when)}</span><span class="tag">${esc(e.confidence)}</span>`;let html=section('Why it matters',e.why);if(e.link)html+=section('Recorded relevance',e.link,'callout');if(e.work)html+=section('Work around this event',e.work);if(e.launch)html+=section('When an agent may be needed',e.launch);if(e.verification)html+=section('Date evidence',e.verification);if(e.note)html+=section('Keep in view',e.note);if(e.url)html+=`<p><a href="${esc(e.url)}" target="_blank" rel="noopener">Open primary schedule ↗</a></p>`;html+=`<div class="detail-label">Preserved source records</div><p class="small">Snapshot ${data.revision.slice(0,12)} · October 31, 2026. The excerpts below are frozen; local file links may show newer work.</p>`;for(const s of e.sources)html+=`<details class="source"><summary>${esc(s.label)} · line ${s.line}</summary><p class="small">${esc(s.path)}</p><pre>${esc(s.excerpt)}</pre><a href="../../../../../${encodeURI(s.path)}" target="_blank" rel="noopener">Open local source file ↗</a></details>`;document.getElementById('detail-body').innerHTML=html;document.getElementById('detail').showModal();}
+document.addEventListener('click',e=>{const c=e.target.closest('[data-id]');if(c)openDetail(c.dataset.id);const l=e.target.closest('[data-layer]');if(l){active.has(l.dataset.layer)?active.delete(l.dataset.layer):active.add(l.dataset.layer);render();document.querySelector(`[data-layer="${l.dataset.layer}"]`).focus();}});
+document.getElementById('week-mode').onclick=()=>{mode='week';render();};document.getElementById('day-mode').onclick=()=>{mode='day';selected=document.getElementById('day-select').value;render();};document.getElementById('day-select').onchange=e=>{selected=e.target.value;mode='day';render();};document.getElementById('today').onclick=()=>{selected=new Intl.DateTimeFormat('en-CA',{timeZone:data.timezone,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());mode='day';render();};document.getElementById('close').onclick=()=>document.getElementById('detail').close();document.getElementById('revision').textContent='Repository snapshot: '+data.revision;render();
+</script></body></html>

@@ -1,6 +1,6 @@
 # Central calendar draft plan
 
-**October 30, 2026 · CATO · Draft for discussion; implementation not commissioned.**
+**October 30, 2026 · CATO · Updated October 31: one-week sketch delivered; production implementation not commissioned.**
 
 Build a calendar that answers: **What matters this week, what does it mean for our research and recorded positioning, and which agents have work around it?** The proposed first version is a local Calendar window opened from the Agent Launcher. It combines economic events, scheduled agent work and dated research follow-ups, with links back to their sources and results. Will’s October 31 relay permits the sketch alongside the Decisions review if no frozen build/dependency file changes; full calendar implementation remains uncommissioned.
 
@@ -86,7 +86,7 @@ Possible later additions: optional reminders, calendar export, broader event cov
 
 The likely benefit is less manual searching between events, agent obligations and resulting research. The principal implementation risk is reconciling inconsistent source records while preserving their meaning; the visible calendar grid is the simpler part. A modest, explicitly covered source set is sufficient for a useful first version.
 
-**Revised plan delivered; sketch may proceed outside the Decisions freeze.** Will’s October 31 relay permits the one-week layout and representative source sample alongside the review. The current repair turn leaves the sketch pending, rather than starting unrelated implementation. Resolve housekeeping classification, explicit gate/card relationships and the supported owner-preflight interface before integration. No owner task, send, launch or application change has been made by this planning assignment. Existing unrelated approvals survive.
+**One-week sketch delivered; await Will's layout judgment.** Will subsequently directed the sketch to proceed while PROME reviews Decisions. [Open the preview](../prototypes/calendar/week-sketch/index.html); the October 31 delivery below records its bounded coverage and checks. The source selection, housekeeping mapping and explicit gate/card examples are demonstrated in a frozen sample. Production reading, source refresh and the supported owner-preflight interface remain future work, requiring commissioning. Existing unrelated approvals survive.
 
 ## Evidence and delivery record
 
@@ -108,3 +108,30 @@ Bounded reference reads confirm the existing gates state contract carries ticker
 ## October 31 sequencing update
 
 Will relayed PROME's instruction that calendar sketch and ORACLE launcher preset work may continue in parallel if no file in the frozen Decisions build changes. Preserve that permission; it supersedes the prior sketch wait condition. Full calendar implementation, deployment and owner scheduling changes are not inferred. This update reconciles the plan only; no sketch, launcher change or source audit was performed.
+
+## October 31 — one-week sketch delivery
+
+Will's subsequent “okay go ahead and proceed” commissioned the suggested real-week sketch. **Recommendation: judge the Week layout and the details panel before commissioning the reader.** The useful first interaction is Monday's HENRY gamma assignment: deadline, conditional wake and explicit dated QQQ relationship together. Source interpretation, rather than calendar drawing, remains the material implementation risk.
+
+Delivered [self-contained preview](../prototypes/calendar/week-sketch/index.html), [preserved sample](../prototypes/calendar/week-sketch/snapshot.json), [author checks](../prototypes/calendar/week-sketch/checks.json), and desktop/narrow captures under the same directory. Week, Day, Today, layer toggles and modal source details work locally. Today outside the sample explicitly means unavailable coverage. No network fetch, writes, agent launch or launcher integration occurs. The Windows Chrome desktop open request returned success; user viewing and usefulness remain unobserved.
+
+Scope: November 2–8, 2026, snapshot `db5226357f67390cf7b4dc4abef55047851f4c16`. Twenty-two curated cards preserve 34 source-row references: eight market, eight desk research, three research follow-up and three housekeeping. Default visibility is 19. HENRY, DOCKET, GATES, LABOR, VIOLET, CYPHER and one TERRY card are sampled; remaining registered ledgers and rows are explicitly omitted. This fixture is not the proposed live reader or a new schedule of record. No owner sources, frozen Decisions artifacts/dependencies or launcher files were edited. WALTER and PROME had concurrent dirty/staged work; it was preserved.
+
+The supported read-only export was `python3 -B PROME/tools/spawn_list.py --open --json --as-of 2026-10-31 --docket db5226357f67390cf7b4dc4abef55047851f4c16:PROME/DOCKET.tsv`. Its `spawn_list.open` v1 output contains 204 open rows; 51 have a parsed due date in the selected week, 56 no parsed date, 18 overdue before October 31. These are dated source counts, not complete calendar coverage. The parser's range-end date is preserved separately from presentation. The older owner-reported 61/16 figures remain historical, not a discrepancy to repair.
+
+Consequential source examples and decisions:
+
+- L575's November 6 date is explicitly an early-November placeholder. It appears outside the dated grid, with the actual release as the wake dependency.
+- L180 retains both November 5 access expiry and November 7 cohort-screen deadline; L895's separate four-bank tail remains its own obligation. Credential/decision state was not freshly checked.
+- L888's before-open deadline is distinct from roughly 06:00–07:00 input availability and a conditional wake. HENRY's running status is unknown. TERRY's October 22 card explicitly links gamma evidence and records an October 23 fill; current holdings are unverified.
+- Gate reviews use their owner-set review dates; neither review dates nor adjacent economic releases are portrayed as gate fires. GATES_README's review/consumer semantics govern this distinction.
+- L170 illustrates why an overdue open row does not prove undone work: its partial grade and 10-Q successor remain visible. No repeat work is assigned.
+- Housekeeping is explicitly mapped by purpose: L143, L893 and L37/GATE-OP-SCALE-01, including the TERRY-owned governance row. Unselected rows are not silently classified.
+
+Primary schedule reads on October 31: [BLS November](https://www.bls.gov/schedule/2026/11_sched.htm) confirms JOLTS November 3 at 10:00, productivity November 5 at 08:30 and jobs November 6 at 08:30 ET; [BEA](https://www.bea.gov/news/schedule/full) confirms trade November 4 at 08:30; [ISM](https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar) has readable November dates 2/4 at 10:00. The Services table-read uncertainty is therefore resolved for this sketch, with HENRY's original caveat preserved and no owner edit/send. Claims remains pattern-only; the election date remains VIOLET-recorded, not independently verified by CATO. No prices, gate grades or holdings were reverified.
+
+Author validation: exact revision/line/excerpt and file SHA-256 checks pass for all 34 source references; 22 IDs are unique; November 2–8 Eastern offsets are EST. Native Chrome passed ten assertions at each of 1520×1140 and 600×1100: defaults, event/assignment join, housekeeping toggle, undated/placeholder/window/overdue separation, qualified card relevance, Day selection, out-of-sample Today, native modal open/close, Week horizontal overflow and absence of write/launch controls. Captures visually inspected. Initial Windows/WSL transport failures were retried, not counted as passes. A 430px capture clipped due to the native minimum layout width; final narrow evidence is 600px. No independent review or actual mobile-device claim.
+
+Reconciliation: the authorized sketch implementation and author verification are complete. Will's remaining action is a layout/usefulness judgment; closure is whether the week, due work and relevance are understandable. Full reader/integration remain proposed, not owed implementation. If commissioned, CATO must cover the unsampled schemas and failures, classification inventory, refresh, and supported same-minute duplicate-owner preflight before offering launch. PROME retains the Decisions review; this work changes neither its candidate nor acceptance. No new owner obligation, message, recurring job or trade decision was created.
+
+Delivery checks: existence/readability established for all intended inputs. Weekday clean on `PROME/DOCKET.tsv`, `PROME/GATES.tsv`, `PROME/WILL_QUEUE.md`, CATO `CONTINUITY.md`, this report and the sketch `README.md`; glued clean on those three CATO documents. Exact-source validation covers the raw excerpts preserved in JSON/HTML instead of rewriting owner annotations. Read-cap covers CATO `AGENTS.md`, `CHARTER.md`, `CONTINUITY.md` and root `CLAUDE.md`, `USER.md`, `AGENTS.md`: all below cap, root CLAUDE retains the 75%-tier advisory. No CATO STATUS/calendar/catalyst input exists to include. Orphan advisory flags only HENRY's untracked `research/2026-10-31_L616_breadth/` at the check, left untouched and flagged to Will in delivery; CATO has no self-authored external packet. No memory, ledger or superseded-figure condition arose. Whitespace clean. Concurrent commits advanced shared HEAD after the pinned sample; the preview remains visibly frozen at its named revision. Publication receipt is delivered in-session. Publication is the sketch only, not a live calendar service.

@@ -1,0 +1,104 @@
+{
+  "scope": "CATO author checks; frozen layout sample only",
+  "html_sha256": "f4aeed68fde901d63be543be20be02772a83e437ef804aacc50633bc02a02595",
+  "source_rows_exact": 34,
+  "source_revision": "db5226357f67390cf7b4dc4abef55047851f4c16",
+  "timezone_check": "November 2\u20138, 2026: America/New_York is UTC-05:00",
+  "browser_viewports": {
+    "desktop": "1520x1140",
+    "narrow": "600x1100"
+  },
+  "browser_checks": [
+    {
+      "viewport": "desktop",
+      "checks": [
+        {
+          "name": "Default layers hide all housekeeping",
+          "pass": true
+        },
+        {
+          "name": "Same release has one card and linked owner records",
+          "pass": true
+        },
+        {
+          "name": "Housekeeping toggles on and off",
+          "pass": true
+        },
+        {
+          "name": "Uncertain, undated, overdue and windows outside grid",
+          "pass": true
+        },
+        {
+          "name": "Trade context is dated and qualified",
+          "pass": true
+        },
+        {
+          "name": "Day mode changes selected day",
+          "pass": true
+        },
+        {
+          "name": "Out of sample Today does not claim no events",
+          "pass": true
+        },
+        {
+          "name": "Native details dialog opens and closes",
+          "pass": true
+        },
+        {
+          "name": "No horizontal document overflow in week view",
+          "pass": true
+        },
+        {
+          "name": "No launches or writes offered",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "viewport": "narrow",
+      "checks": [
+        {
+          "name": "Default layers hide all housekeeping",
+          "pass": true
+        },
+        {
+          "name": "Same release has one card and linked owner records",
+          "pass": true
+        },
+        {
+          "name": "Housekeeping toggles on and off",
+          "pass": true
+        },
+        {
+          "name": "Uncertain, undated, overdue and windows outside grid",
+          "pass": true
+        },
+        {
+          "name": "Trade context is dated and qualified",
+          "pass": true
+        },
+        {
+          "name": "Day mode changes selected day",
+          "pass": true
+        },
+        {
+          "name": "Out of sample Today does not claim no events",
+          "pass": true
+        },
+        {
+          "name": "Native details dialog opens and closes",
+          "pass": true
+        },
+        {
+          "name": "No horizontal document overflow in week view",
+          "pass": true
+        },
+        {
+          "name": "No launches or writes offered",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "limits": "No independent acceptance, live refresh, exhaustive coverage, session preflight, or user usefulness test. 430px native Chrome screenshots clipped because native layout minimum exceeded the capture; final narrow check uses 600px."
+}
