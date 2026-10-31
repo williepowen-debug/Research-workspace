@@ -1,0 +1,81 @@
+--- a/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py
+@@ -73,7 +73,11 @@
+                 continue  # Report this quarantined artifact on its own intake row.
+             if not isinstance(other, dict):
+                 continue
+-            if other.get("display", {}).get("record", {}).get("wq_id") != wq:
++            display = other.get("display")
++            record = display.get("record") if isinstance(display, dict) else None
++            if not isinstance(record, dict):
++                continue  # Unidentifiable corruption is reported on its own intake row.
++            if record.get("wq_id") != wq:
+                 continue
+             validate_reply(repo, other, wq)
+             if path != f"{REPLIES}/{other['id']}.json":
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_intake_shape_review.py
+@@ -0,0 +1,63 @@
++"""CATO review witnesses; only disposable repositories and synthetic replies."""
++import json
++from pathlib import Path
++import unittest
++import uuid
++
++import delivery
++import owner_receipt
++import test_batch
++from pilot_files import encoded
++from queue_store import QueueStore, REPLIES
++
++
++class IntakeShapeReview(unittest.TestCase):
++    setUp = test_batch.BatchTests.setUp
++    git = test_batch.BatchTests.git
++    put = test_batch.BatchTests.put
++    commit = test_batch.BatchTests.commit
++    request = test_batch.BatchTests.request
++    send = test_batch.BatchTests.send
++    publish_file = test_batch.BatchTests.publish_file
++
++    def task_answer(self):
++        task = QueueStore(Path(self.tmp.name) / 'task.sqlite3', self.repo, '902', True)
++        display = task.display()
++        event = task.save(self.request(display_hash=display['hash'], unit_id='902.queue',
++                                      action='report_done', note='Synthetic task report'))
++        delivery.deliver(self.repo, event)
++        return event
++
++    def test_unknown_nested_shapes_do_not_block_valid_answer(self):
++        event = self.store.save(self.request()); self.send(event)
++        self.assertEqual(owner_receipt.intake(self.repo)['items'][0]['status'], 'ready')
++        for malformed in [{'display': []}, {'display': None}, {'display': 'bad'},
++                          {'display': {'record': []}}, {'display': {'record': None}},
++                          {'display': {'record': 'bad'}}]:
++            with self.subTest(malformed=malformed):
++                bad_id = uuid.uuid4().hex
++                self.publish_file(f'{REPLIES}/{bad_id}.json', encoded(malformed) + '\n')
++                rows = {r['id']: r for r in owner_receipt.intake(self.repo, True)['items']}
++                self.assertEqual(rows[bad_id]['status'], 'needs_clarification')
++                self.assertEqual(rows[event['id']]['status'], 'received')
++                self.assertFalse(self.repo.path('PROME/decisions/receipts/' + bad_id).exists())
++                receipt = json.loads(self.repo.path(rows[event['id']]['receipt_path']).read_text())
++                self.assertEqual(receipt['state'], 'received')
++                self.assertIsNone(receipt['canonical_ruling'])
++        self.assertEqual(self.repo.path('PROME/WILL_QUEUE.md').read_text(), self.text)
++        self.assertEqual(len(list(self.repo.path('PROME/decisions/receipts').rglob('*.json'))), 1)
++
++    def test_identifiable_corruption_still_blocks_its_question_only(self):
++        event = self.store.save(self.request()); self.send(event)
++        task = self.task_answer()
++        bad_id = uuid.uuid4().hex
++        self.publish_file(f'{REPLIES}/{bad_id}.json', encoded({'display': {'record': {'wq_id': '901'}}}) + '\n')
++        rows = {r['id']: r for r in owner_receipt.intake(self.repo, True)['items']}
++        self.assertEqual(rows[event['id']]['status'], 'needs_clarification')
++        self.assertEqual(rows[bad_id]['status'], 'needs_clarification')
++        self.assertEqual(rows[task['id']]['status'], 'received')
++        self.assertFalse(self.repo.path('PROME/decisions/receipts/' + event['id']).exists())
++
++
++if __name__ == '__main__':
++    unittest.main()

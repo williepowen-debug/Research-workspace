@@ -1,0 +1,190 @@
+{
+  "scope": {
+    "head": "34e12169a171a135fd91ccd7c526ce65e7887fcf",
+    "base": "988057e3b8d8b4ab0d8bee1240946e21b2f42586",
+    "commits": 170,
+    "paths": 870
+  },
+  "runtime": {
+    "provider": "OpenAI",
+    "runtime": "Codex",
+    "model": "UNKNOWN exact variant",
+    "thread_identity": "/root"
+  },
+  "finding": {
+    "id": "SR5",
+    "file": "AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py",
+    "line": 76,
+    "introduced_in": "86578df24",
+    "condition": "Valid JSON with display or display.record that is a list, null, or string, in another published queue-response artifact.",
+    "before": "Valid answer changes from ready to needs_clarification: list object has no attribute get. No receipts/rulings written.",
+    "live_queue_responses_at_pin": 0,
+    "candidate_paths": [
+      "AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py",
+      "AGENTS/CATO/prototypes/decisions/mvp/test_intake_shape_review.py"
+    ],
+    "candidate_installed": false,
+    "author_review": true
+  },
+  "checks": {
+    "changed_python_AST": {
+      "files": 41,
+      "errors": 0
+    },
+    "calendar_reader": {
+      "tests": 12,
+      "result": "PASS"
+    },
+    "launcher_python": {
+      "tests": 39,
+      "result": "PASS"
+    },
+    "decisions_baseline": {
+      "distinct_tests": 135,
+      "result": "PASS across main run (130) and corrected/escalated five-test rerun",
+      "setup_limits": "First export omitted Git metadata and decisions files; restored from exact pin. HTTP loopback initially denied; five-test rerun with approved escalation passed. Those setup errors are not product findings."
+    },
+    "intake_positive_control": {
+      "tests": 2,
+      "failure_reports": 7,
+      "meaning": "Six malformed nested-shape subcases and absent-receipt assertion fail on baseline; same-question blocking witness passes."
+    },
+    "candidate": {
+      "tests": 23,
+      "result": "PASS",
+      "scope": "21 existing test_batch cases plus 2 new regression cases (six malformed shapes; identifiable corruption remains blocked for its question)."
+    },
+    "PROME_changed_test_modules": {
+      "modules": [
+        "test_boot_coverage",
+        "test_deck_pause_WQ460",
+        "test_gate_action_owed_WQ467",
+        "test_gate_isolation_L294_F7",
+        "test_locks_safeguards"
+      ],
+      "distinct_tests": 83,
+      "failure_reports": 6,
+      "result": "38 cases in first three modules pass; 45 cases in last two produce six already-disclosed failures (three thin-fixture checks, one bare-call scanner, two commit-subject subcases).",
+      "not_new": "Matches PROME/reports/2026-10-31_checker-value-sweep.md execution receipt at lines 110-112. Subject-wrap behavior predates today at 7c443f0b2; does not establish a new product regression."
+    }
+  },
+  "research_replay": {
+    "henry": {
+      "members": 503,
+      "declining_pct": 55.06958250497018,
+      "above_50": 60.1593625498008,
+      "above_200": 59.199999999999996,
+      "new_highs": 42.0,
+      "new_lows": 5.0,
+      "october_median": 7.203,
+      "comparable_days": 32,
+      "comparable_decliners_median": 75.82856476004217
+    },
+    "rhine": {
+      "25/153": {
+        "pre2026_windows": 0,
+        "years": [],
+        "2026_windows": 43
+      },
+      "30/160": {
+        "pre2026_windows": 1,
+        "years": [
+          "2018"
+        ],
+        "2026_windows": 58
+      },
+      "35/170": {
+        "pre2026_windows": 19,
+        "years": [
+          "2018",
+          "2022"
+        ],
+        "2026_windows": 68
+      },
+      "40/180": {
+        "pre2026_windows": 31,
+        "years": [
+          "2003",
+          "2018",
+          "2022"
+        ],
+        "2026_windows": 71
+      },
+      "50/190": {
+        "pre2026_windows": 53,
+        "years": [
+          "2003",
+          "2011",
+          "2018",
+          "2022"
+        ],
+        "2026_windows": 79
+      },
+      "65/201": {
+        "pre2026_windows": 111,
+        "years": [
+          "2003",
+          "2009",
+          "2011",
+          "2015",
+          "2018",
+          "2022"
+        ],
+        "2026_windows": 85
+      },
+      "77/227": {
+        "pre2026_windows": 255,
+        "years": [
+          "2003",
+          "2005",
+          "2009",
+          "2011",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2021",
+          "2022",
+          "2023"
+        ],
+        "2026_windows": 102
+      }
+    }
+  },
+  "limits": [
+    "Risk-focused review, not a line-by-line audit of 870 paths.",
+    "Research calculations replay committed derived data; raw prices, raw station data, issuers, market facts and external schedules not independently verified.",
+    "No native Windows GUI/browser rerun in this review; earlier author UI evidence is not fresh independent verification.",
+    "Uncommitted PROME batch-2 work is outside the reviewed commit.",
+    "WALTER 89e7629c3 and c7f5230ac arrived after the freeze: inventory and audit summary read, not a full independent audit.",
+    "No real answer sent, no owner packet or external message, no fleet launch, no installed runtime or acceptance changed."
+  ],
+  "delivery_checks": {
+    "readable_inputs": 10,
+    "weekday": {
+      "paths": [
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/CATO/CONTINUITY.md",
+        "AGENTS/CATO/runs/2026-10-29_0942_recent-system-review.md"
+      ],
+      "result": "PASS"
+    },
+    "startup_read_cap": {
+      "paths": [
+        "AGENTS/CATO/AGENTS.md",
+        "AGENTS/CATO/CHARTER.md",
+        "AGENTS/CATO/CONTINUITY.md",
+        "CLAUDE.md",
+        "USER.md",
+        "AGENTS.md"
+      ],
+      "result": "All below hard cap; root CLAUDE 76% rotation advisory"
+    },
+    "orphan_advisory": "Foreign PROME/WALTER changes; no self-authored packets found. Ownership assessed against this session changes, not path labels alone.",
+    "candidate_apply_check": "PASS",
+    "whitespace_check": "PASS",
+    "conditional_checks": "No memory/STATUS/canonical figure change; memory/ledger/consumer conditions not triggered."
+  }
+}
