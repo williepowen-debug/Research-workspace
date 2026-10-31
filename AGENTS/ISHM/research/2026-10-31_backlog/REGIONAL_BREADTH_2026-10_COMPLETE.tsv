@@ -1,0 +1,5 @@
+# New dated vintage 2026-10-31 (does not overwrite the FROZEN 2026-10-26 panel at data/REGIONAL_BREADTH.tsv). Same-month new-order diffusion indexes, issuer SA, current activity only; no equal-weight national average.
+# Richmond October is first-published October 27 (workbook/PRINTS.tsv). The other four October values are as read October 26 and were not rechecked for revision. September row copied from the frozen panel for comparison.
+Ref_Period	NY	PHILLY	RICHMOND	KC	DALLAS	Regions_Observed	Negative_Regions	Coverage	Vintage
+2026-09	2	29.2	-6	24	30.7	5	1	COMPLETE	CURRENT-2026-10-26 (frozen panel)
+2026-10	23.2	4.3	-8	3	9.3	5	1	COMPLETE	CURRENT-2026-10-31

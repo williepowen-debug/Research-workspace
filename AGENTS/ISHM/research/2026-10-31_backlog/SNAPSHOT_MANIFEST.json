@@ -1,0 +1,58 @@
+[
+  {
+    "path": "sources/census_durgd_sep2026_advance.pdf",
+    "bytes": 1024363,
+    "sha256": "c1bdb26d0979624bfc83d08a1ea0b67c2c6b7f9f54b1f7817d81da86e41f8e1c",
+    "url": "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf",
+    "retrieved_utc": "2026-10-31T17:12:45Z"
+  },
+  {
+    "path": "sources/census_durgd_sep2026_advance_layout.txt",
+    "bytes": 49587,
+    "sha256": "960ceaa1245c09bdf74cb5e30f4f2d2a830783d03066bedc2bded87c0c934957",
+    "url": "derived: pdfplumber layout text of census_durgd_sep2026_advance.pdf",
+    "retrieved_utc": "2026-10-31T17:12:45Z"
+  },
+  {
+    "path": "sources/richmond_mfg_10_27_26_layout.txt",
+    "bytes": 12527,
+    "sha256": "1269651c1b02eb97f874f063d16a74bc0821418903d48dc116042a540493c9ab",
+    "url": "https://www.richmondfed.org/-/media/RichmondFedOrg/region_communities/regional_data_analysis/regional_economy/surveys_of_business_conditions/manufacturing/2026/pdf/mfg_10_27_26.pdf (derived layout text; PDF sha256 ab8675202d9d28f97099a2dae444451cf3e3c551e3bea4eddeba0dbb716a36f4, 1075650 B, not archived: dated non-mutable path)",
+    "retrieved_utc": "2026-10-31T17:13:33Z"
+  },
+  {
+    "path": "sources/bea_section5_2026-10-29.xlsx",
+    "bytes": 1820904,
+    "sha256": "12f0fd7993b53245fce5fc351e15ce08eb69e07a13209a284f8b75eae1a14a32",
+    "url": "https://apps.bea.gov/national/Release/XLS/Survey/Section5All_xls.xlsx (mutable endpoint; workbook stamp 'Data published October 29, 2026')",
+    "retrieved_utc": "2026-10-31T17:13:57Z"
+  },
+  {
+    "path": "sources/fred_ANXAVS.csv",
+    "bytes": 381,
+    "sha256": "ea2facf9c88156f01957d80af6d31689b577dcaefa4131931e4d7d92bb6abd26",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ANXAVS&cosd=2025-01-01",
+    "retrieved_utc": "2026-10-31T17:14:33Z"
+  },
+  {
+    "path": "sources/fred_NEWORDER.csv",
+    "bytes": 383,
+    "sha256": "314e0f5aef8066e7a2273a495eb85763370cfcc525882b86e1c414b2fba97a15",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=NEWORDER&cosd=2025-01-01",
+    "retrieved_utc": "2026-10-31T17:14:33Z"
+  },
+  {
+    "path": "sources/iata_2026-10-29_release51_text.txt",
+    "bytes": 5008,
+    "sha256": "dc052cb80041434b6768e22fb702bf1266c23b1d00fceb215e1505f616a701a1",
+    "url": "https://www.iata.org/en/pressroom/2026-releases/10-29-air-cargo-demand-accelerates-september/ (derived text)",
+    "retrieved_utc": "2026-10-31T17:18:02Z"
+  },
+  {
+    "path": "sources/spg_release_dates.txt",
+    "bytes": 6450,
+    "sha256": "15065a08a19db94ad3dc24dacc8dd6787c78974a48a2ddd8bcc93a170296458e",
+    "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates?language=en (derived text)",
+    "retrieved_utc": "2026-10-31T17:20:33Z"
+  }
+]

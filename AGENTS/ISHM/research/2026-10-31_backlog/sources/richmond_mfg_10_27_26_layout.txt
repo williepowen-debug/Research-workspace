@@ -1,0 +1,145 @@
+===== PAGE 1 =====
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
+       Regional   Surveys    of Business    Activity                                
+                                                                                    
+                                                                                    
+       Fifth District Survey of Manufacturing Activity        October 27, 2026      
+                                                                                    
+       Fifth District Manufacturing Activity Remained Flat in October               
+                                                                                    
+       Fifth District manufacturing activity remained                               
+       flat in October, according to the most recent                                
+       survey from the Federal Reserve Bank of                                      
+       Richmond. The composite manufacturing                                        
+       index remained at -2. Two of its three                                       
+       component indexes decreased in October:                                      
+       new orders to -8 from -6, and employment to                                  
+       3 from 7. Meanwhile, the shipments index                                     
+       rose to 0 from -5.                                                           
+                                                                                    
+       The future indexes for shipments and new                                     
+       orders remained in positive territory while the                              
+       expectations index for employment remained                                   
+       at 8 in October.                                                             
+       The local business conditions index                                          
+       decreased from -6 in September to -8 in                                      
+       October. The future local business conditions                                
+       index also fell from 10 to 7.                                                
+                                                                                    
+       The average growth rate of prices paid was                                   
+       flat from September to October, while the                                    
+       average growth rate of prices received                                       
+       increased. Firms expected growth in prices                                   
+       paid and prices received to fall over the next                               
+       12 months.                                                                   
+                                                                                    
+                                                                                    
+                                                                                    
+        16                                                                          
+        14                                                                          
+        12                                                                          
+        10                                                                          
+         8                                                                          
+         6                                                                          
+         4                                                                          
+         2                                                                          
+         0                                                                          
+         -2                                                                         
+         Oct-21 Oct-22 Oct-23 Oct-24 Oct-25 Oct-26                                  
+      ASN                                                                           
+      ,egnahC                                                                       
+      tnecreP                                                                       
+                      Price Trends            50                                    
+                                              40                                    
+                                              30                                    
+                                              20                                    
+                                              10                                    
+                                               0                                    
+                                               Oct-21 Oct-22 Oct-23 Oct-24 Oct-25 Oct-26
+                Prices Paid Prices Received                                         
+                                            AS                                      
+                                            ,xednI                                  
+                                              40                                    
+                                              30                                    
+                                              20                                    
+                                              10                                    
+                                               0                                    
+                                              -10                                   
+                                              -20                                   
+                                               Oct-21 Oct-22 Oct-23 Oct-24 Oct-25 Oct-26
+                                                             Wages                  
+                                                    Monthly    3-month moving average
+                                            AS                                      
+                                            ,xednI                                  
+                                              20                                    
+                                              10                                    
+                                               0                                    
+                                              -10                                   
+                                              -20                                   
+                                              -30                                   
+                                               Oct-21 Oct-22 Oct-23 Oct-24 Oct-25 Oct-26
+                                                           Employment               
+                                                    Monthly   3-month moving average
+                                            AS                                      
+                                            ,xednI                                  
+          PUBLIC/OFFICIAL RELEASE // EXTERNAL                                       
+                                                       Manufacturing Activity       
+                                                    Monthly   3-month moving average
+===== PAGE 2 =====
+                                                                                    
+                                                                                    
+          PUBLIC/OFFICIAL RELEASE // EXTERNAL                                       
+                                                                                    
+       Regional   Surveys    of Business    Activity                                
+                                                                                    
+                                                                                    
+       Fifth District Survey of Manufacturing Activity        October 27, 2026      
+                                                                                    
+                                                    1                               
+                                Business Activity Indexes                           
+                                                                                    
+                                      Current Conditions    Expectations2           
+          Manufacturing Indicators   Oct-26 Sep-26 Aug-26 Oct-26 Sep-26 Aug-26      
+            Fifth District Manufacturing Index3 -2 -2 4   --   --     --            
+            Shipments                  0    -5    11     19    33     26            
+            Volume of New Orders      -8    -6    3      22    32     32            
+            Backlog of Orders         -21   -10   -7      7    2      6             
+                                                                                    
+            Capacity Utilization      -7    -7    2       8    15     14            
+            Vendor Lead Time          18    8     16     13    5      10            
+            Local Business Conditions -8    -6    4       7    10     16            
+            Capital Expenditures      -12   -7    -5      4    -1     4             
+            Finished Goods Inventories 4    4     3       3    1      0             
+            Raw Materials Inventories -2    6     9      -3    -1     3             
+            Equipment & Software Spending -8 -4   0       2    -5     2             
+            Services Expenditures     -19   -10  -13     -12   -18   -10            
+                                                                                    
+          Employment                                                                
+                                                                                    
+            Number of Employees        3    7     -2      8    8      20            
+            Wages                     20    17    26     49    50     42            
+            Availability of Skills Needed -7 -11 -13     -7    -9     -5            
+                                                                                    
+          Price Trends4                                                             
+            Prices Paid               7.12 7.08  6.22    5.32 4.73   4.34           
+            Prices Received           5.27 4.19  4.09    4.30 3.84   3.69           
+                                                                                    
+          Technical Notes:                                                          
+           1 Each index equals the percentage of responding firms reporting increase minus the percentage reporting decrease. Results are
+            based on responses from 120-130 firms. All firms surveyed are located within the Fifth Federal Reserve District, which includes
+            the District of Columbia, Maryland, North Carolina, South Carolina, Virginia, and most of West Virginia. Data, excluding price
+            trends, are seasonally adjusted. Seasonal adjustment factors are recalculated every July and the entire series is revised to better
+            reflect current economic trends.                                        
+           2 Expectations refer to the time period six months out from the survey period.
+           3 The manufacturing Index is a gauge of broad activity in the District's manufacturing sector. It is a composite index representing a
+            weighted average of the shipments (33 percent), new orders (40 percent) and employment (27 percent) indexes.
+           4 Current price changes are percentage changes over the last 12 months.  
+            Expected price changes are expected changes over the next 12 months.    
+          For more information contact Rich.RegionalSurveyTeam@rich.frb.org         
+                                                                                    
+                                                                                    
+                                                                                    
+                                                                                    
