@@ -2,9 +2,14 @@
 
 **Status:** Concentrated bank risk. HY tightened to 314bp [10/28] without REG-T-04 ever firing (peak 340); the widening was BANK-ABSENT and has partly reversed. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-30 19:07 ET, Will-launched evening boot (WAL 10-Q exit-rail cell, thresholds.py fix) | STATUS commit: 82030c0e7
+**As of:** 2026-10-31 09:38 ET, PROME-spawned L857 (FFIEC Q3 borrowing short list) | STATUS commit: a7d9d76ea
 
 ## CROSS-DOMAIN
+
+**October31 L857** (`reports/2026-10-31_L857/REPORT.md`):
+- **Who borrowed in Q3 (FFIEC Call Reports, 134 of the 139 banks holding 75% of Q2 small-bank borrowings):** the frozen small universe, excluding probable acquirers, **cut borrowing −$5.70B net while deposits rose +$39.20B**. Among these banks more borrowing was repaid than added (51 of 127 increased); the frozen concentration verdict is still ungraded. Santander absorbed Webster on 8/20, so its +$10.70B is mostly inherited (pro forma +$6.72B, deposits up).
+- **6 frozen-rule flags, all funding-mix shifts at the issuer:** Regions (commercial balances moved to off-balance-sheet products), Renasant (public-fund outflow, loan growth), Simmons (brokered → FHLB), The Bancorp (secured lines fund fintech loan growth; BaaS sponsor), Bank of Hawaii (public-fund runoff), Israel Discount NY (private). **No TERRY route:** the concentration verdict needs the FDIC posting (~mid/late Nov). LIQUID context only.
+- **No score, threshold or probability change.** 4 banks unfiled (East West, HSBC USA, First Hawaiian, Beacon).
 
 **October30 L801** (`reports/2026-10-30_L801/REPORT.md`):
 - **Coverage-decline leg DROPPED as a predictor** (weight zero, descriptive only). DEWEY: problem loans up AND coverage down preceded a ≥25bp charge-off jump within 4 quarters in **2 of 10 episodes vs 25% of all quarters**; in 2007–10 coverage change did not sort later losses (ρ −0.06) once the problem-loan rise was counted. ⚠️ ~3 loss cycles; CECL makes today's coverage look safer than history; 'collateral covers it' has a poor record at failed banks.
