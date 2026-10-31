@@ -63,12 +63,12 @@ Unchanged from the 13:40 ET record except: lane supplier queries landed (PROME C
 
 ## CLOSEOUT RECEIPT
 
-Boot/checkpoint evidence: research/2026-10-31_evening-boot/BOOT-RECEIPT.md and checks/. Prior LAST_COMPLETION preserved byte-for-byte. Fresh origin ancestry proves all prior publication entries below. Current payload commit will be recorded after exact-path commit. Checker PASS, where obtained, covers its declared checks only; READS/source gaps and publication deferral persist.
+Boot/checkpoint evidence: research/2026-10-31_evening-boot/BOOT-RECEIPT.md and checks/. Prior LAST_COMPLETION preserved byte-for-byte. Fresh origin ancestry proves all prior publication entries below. Current payload is local commit3851270da; publication pending coordinated push. Receipt/read-cap/archive/weekday checks passed; ledger nudge was manually accounted for by the new route/kill rows and no-event dispositions. Checker PASS, where obtained, covers its declared checks only; READS/source gaps and publication deferral persist.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-10-31T19:26:30Z",
+  "as_of": "2026-10-31T19:28:16Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -95,6 +95,11 @@ Boot/checkpoint evidence: research/2026-10-31_evening-boot/BOOT-RECEIPT.md and c
       "commit": "70046806f",
       "state": "published",
       "note": "Earlier full refresh now verified on freshly fetched origin/master."
+    },
+    {
+      "commit": "3851270da",
+      "state": "pending",
+      "note": "Five cards015\u2013019,13 required handoffs,27-record manifest and boot evidence committed locally; awaits coordinated publication."
     }
   ],
   "delivery": {
@@ -146,7 +151,7 @@ Boot/checkpoint evidence: research/2026-10-31_evening-boot/BOOT-RECEIPT.md and c
     "11": "Five new015\u2013019 cards,13 required handoffs; BM-20261031-05 closed27/27; intake marked only afterward.",
     "12-14": "Affected state and self registry updated; other43 owner-header candidates unchanged from earlier full review. One LIGHT narrative/MEMORY deferral. No durable rule added.",
     "15": "Prior source-search approval, duties and design decisions preserved; old receipt archived exactly.",
-    "16": "Prior administrative70046806f and54 earlier handoffs origin-proven. New payload pending exact-path local commit and coordinated publication; PRIORITY publication uses the coordinated process; earlier foreign work has since been committed by its owners.",
+    "16": "Payload3851270da committed locally using64 exact authored paths; prior54 handoffs origin-proven. New13 copies and this receipt await coordinated publication; consumption remains separate.",
     "root.retirement": "Earlier same-day content review still current: two old artifacts retained for substantive live references; no retirement mutation.",
     "ledger-nudge": "Route/delivery,kill,batch,intake and doorbell-denominator ledgers updated on real events. No trigger fire/exit,commission or correction event."
   }
