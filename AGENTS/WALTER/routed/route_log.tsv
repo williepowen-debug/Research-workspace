@@ -1898,3 +1898,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-01T01:08:38Z	SIG-W-20261031-023	Will-launch X bookmarks	Bloomberg reports prospective CLO loan purchases by Carlyle, KKR and Oaktree	PRIORITY	BROCK	LIQUID,REGINALD,RED	0.8
 2026-11-01T01:08:38Z	SIG-W-20261031-024	Will-launch X bookmarks	Florida mortgage announcement reportedly targets next year; implementation unverified	PRIORITY	CORAL	REGINALD,HOMER,CARL,RED	0.45
 2026-11-01T01:08:38Z	SIG-W-20261031-025	Will-launch X bookmarks	Rio Vista broker reports asking-price cuts and temporary withdrawals during king tides	PRIORITY	CORAL	REGINALD,CARL,AEOLUS,RED	0.78
+2026-11-01T02:28:12Z	SIG-W-20261031-026	FFIEC CDR / Will-requested analysis	Q3 fourteen-bank equity pressure, mixed credit evidence; FLG/HBAN M3 step checks, no population or trade grade	PRIORITY	REGINALD,FLG,CORAL	OZK,WAL,BROCK,LIQUID,RED	0.95

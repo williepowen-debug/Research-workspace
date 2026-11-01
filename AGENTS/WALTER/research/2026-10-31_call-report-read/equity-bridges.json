@@ -1,0 +1,212 @@
+[
+  {
+    "bank": "OZK",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "168361",
+      "RIAD4356": "0",
+      "RIAD4415": "5134",
+      "RIAD4460": "52566",
+      "RIAD4470": "4047",
+      "RIADB509": "-31922",
+      "RIADB510": "0",
+      "RIADB511": "-214631"
+    },
+    "equity_change_k": "-129671",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "WAL",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "298758",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "210000",
+      "RIAD4470": "0",
+      "RIADB509": "17260",
+      "RIADB510": "0",
+      "RIADB511": "-338013"
+    },
+    "equity_change_k": "-231995",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "EGBN",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "26056",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "357",
+      "RIAD4470": "0",
+      "RIADB509": "3170",
+      "RIADB510": "0",
+      "RIADB511": "-19376"
+    },
+    "equity_change_k": "9493",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "ZION",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "262875",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "70980",
+      "RIAD4470": "751",
+      "RIADB509": "-65637",
+      "RIADB510": "0",
+      "RIADB511": "-121765"
+    },
+    "equity_change_k": "3742",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "SSB",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "236388",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "125000",
+      "RIAD4470": "0",
+      "RIADB509": "0",
+      "RIADB510": "0",
+      "RIADB511": "-229475"
+    },
+    "equity_change_k": "-118087",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "CFG",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "635370",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "350000",
+      "RIAD4470": "0",
+      "RIADB509": "0",
+      "RIADB510": "0",
+      "RIADB511": "-1420746"
+    },
+    "equity_change_k": "-1135376",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "BKU",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "83004",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "93000",
+      "RIAD4470": "0",
+      "RIADB509": "0",
+      "RIADB510": "0",
+      "RIADB511": "-137771"
+    },
+    "equity_change_k": "-147767",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "SBCF",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "60270",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "133435",
+      "RIAD4470": "0",
+      "RIADB509": "29205",
+      "RIADB510": "0",
+      "RIADB511": "-176097"
+    },
+    "equity_change_k": "-220057",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "AMTB",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "27801",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "20000",
+      "RIAD4470": "0",
+      "RIADB509": "1250",
+      "RIADB510": "0",
+      "RIADB511": "-96173"
+    },
+    "equity_change_k": "-87122",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "FLG",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "12117",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "4142",
+      "RIAD4470": "8211",
+      "RIADB509": "11858",
+      "RIADB510": "-215839",
+      "RIADB511": "-291966"
+    },
+    "equity_change_k": "-496183",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "MTB",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "786000",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "700000",
+      "RIAD4470": "0",
+      "RIADB509": "20000",
+      "RIADB510": "0",
+      "RIADB511": "-589000"
+    },
+    "equity_change_k": "-483000",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "HBAN",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "794383",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "500000",
+      "RIAD4470": "0",
+      "RIADB509": "46651",
+      "RIADB510": "0",
+      "RIADB511": "-760781"
+    },
+    "equity_change_k": "-419747",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "VLY",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "207691",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "50000",
+      "RIAD4470": "0",
+      "RIADB509": "0",
+      "RIADB510": "0",
+      "RIADB511": "-132578"
+    },
+    "equity_change_k": "25113",
+    "bridge_residual_k": "0"
+  },
+  {
+    "bank": "CUBI",
+    "q3_RIA_changes_k": {
+      "RIAD4340": "81953",
+      "RIAD4356": "0",
+      "RIAD4415": "0",
+      "RIAD4460": "20000",
+      "RIAD4470": "0",
+      "RIADB509": "5070",
+      "RIADB510": "0",
+      "RIADB511": "-59665"
+    },
+    "equity_change_k": "7358",
+    "bridge_residual_k": "0"
+  }
+]

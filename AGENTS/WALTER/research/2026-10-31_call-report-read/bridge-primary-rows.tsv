@@ -1,0 +1,601 @@
+bank	period	Call Date	Bank RSSD	MDRM	Value	Last Update	Short Definition	Schedule	Line
+OZK	20260630	20260630	107244	RIAD4340	330735	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+OZK	20260630	20260630	107244	RIAD4356	0	20260730	Changes incident to business combinations, net	RIA	7
+OZK	20260630	20260630	107244	RIAD4415	10507	20260730	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+OZK	20260630	20260630	107244	RIAD4460	102808	20260730	LESS: Cash dividends declared on common stock	RIA	9
+OZK	20260630	20260630	107244	RIAD4470	8094	20260730	LESS: Cash dividends declared on preferred stock	RIA	8
+OZK	20260630	20260630	107244	RIADB509	-80219	20260730	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+OZK	20260630	20260630	107244	RIADB510	0	20260730	Treasury stock transactions, net	RIA	6
+OZK	20260630	20260630	107244	RIADB511	-1904	20260730	Other comprehensive income	RIA	10
+OZK	20260630	20260630	107244	RIAD3210	6278068	20260730	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+OZK	20260630	20260630	107244	RCON2746	430277	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+OZK	20260630	20260630	107244	RCONC226	0	20260730	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+OZK	20260630	20260630	107244	RCONJ454	3264019	20260730	Loans to nondepository financial institutions	RCCI	9a
+OZK	20260630	20260630	107244	RCONK036	3820	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+OZK	20260630	20260630	107244	RCONK037	0	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+OZK	20260630	20260630	107244	RCONK038	3455	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+OZK	20260630	20260630	107244	RCONK039	2852	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+OZK	20260630	20260630	107244	RCONK040	0	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+OZK	20260630	20260630	107244	RCONK041	2614	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+OZK	20260630	20260630	107244	RCONK042	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+OZK	20260630	20260630	107244	RCONK043	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+OZK	20260630	20260630	107244	RCONK044	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+OZK	20260930	20260930	107244	RIAD4340	499096	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+OZK	20260930	20260930	107244	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+OZK	20260930	20260930	107244	RIAD4415	15641	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+OZK	20260930	20260930	107244	RIAD4460	155374	20261030	LESS: Cash dividends declared on common stock	RIA	9
+OZK	20260930	20260930	107244	RIAD4470	12141	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+OZK	20260930	20260930	107244	RIADB509	-112141	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+OZK	20260930	20260930	107244	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+OZK	20260930	20260930	107244	RIADB511	-216535	20261030	Other comprehensive income	RIA	10
+OZK	20260930	20260930	107244	RIAD3210	6148397	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+OZK	20260930	20260930	107244	RCON2746	441743	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+OZK	20260930	20260930	107244	RCONC226	0	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+OZK	20260930	20260930	107244	RCONJ454	3568848	20261030	Loans to nondepository financial institutions	RCCI	9a
+OZK	20260930	20260930	107244	RCONK036	3278	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+OZK	20260930	20260930	107244	RCONK037	0	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+OZK	20260930	20260930	107244	RCONK038	2690	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+OZK	20260930	20260930	107244	RCONK039	3059	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+OZK	20260930	20260930	107244	RCONK040	0	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+OZK	20260930	20260930	107244	RCONK041	2532	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+OZK	20260930	20260930	107244	RCONK042	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+OZK	20260930	20260930	107244	RCONK043	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+OZK	20260930	20260930	107244	RCONK044	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+WAL	20260630	20260630	3138146	RIAD4340	561931	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+WAL	20260630	20260630	3138146	RIAD4356	0	20260730	Changes incident to business combinations, net	RIA	7
+WAL	20260630	20260630	3138146	RIAD4415	0	20260730	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+WAL	20260630	20260630	3138146	RIAD4460	340000	20260730	LESS: Cash dividends declared on common stock	RIA	9
+WAL	20260630	20260630	3138146	RIAD4470	0	20260730	LESS: Cash dividends declared on preferred stock	RIA	8
+WAL	20260630	20260630	3138146	RIADB509	1718	20260730	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+WAL	20260630	20260630	3138146	RIADB510	0	20260730	Treasury stock transactions, net	RIA	6
+WAL	20260630	20260630	3138146	RIADB511	-107043	20260730	Other comprehensive income	RIA	10
+WAL	20260630	20260630	3138146	RIAD3210	7932402	20260730	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+WAL	20260630	20260630	3138146	RCON2746	2554610	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+WAL	20260630	20260630	3138146	RCONC226	4453	20260730	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+WAL	20260630	20260630	3138146	RCONJ454	15812034	20260730	Loans to nondepository financial institutions	RCCI	9a
+WAL	20260630	20260630	3138146	RCONK036	151931	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+WAL	20260630	20260630	3138146	RCONK037	1225166	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+WAL	20260630	20260630	3138146	RCONK038	1960	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+WAL	20260630	20260630	3138146	RCONK039	1423	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+WAL	20260630	20260630	3138146	RCONK040	2271	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+WAL	20260630	20260630	3138146	RCONK041	1577	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+WAL	20260630	20260630	3138146	RCONK042	150508	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+WAL	20260630	20260630	3138146	RCONK043	1222895	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+WAL	20260630	20260630	3138146	RCONK044	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+WAL	20260930	20260930	3138146	RIAD4340	860689	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+WAL	20260930	20260930	3138146	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+WAL	20260930	20260930	3138146	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+WAL	20260930	20260930	3138146	RIAD4460	550000	20261030	LESS: Cash dividends declared on common stock	RIA	9
+WAL	20260930	20260930	3138146	RIAD4470	0	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+WAL	20260930	20260930	3138146	RIADB509	18978	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+WAL	20260930	20260930	3138146	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+WAL	20260930	20260930	3138146	RIADB511	-445056	20261030	Other comprehensive income	RIA	10
+WAL	20260930	20260930	3138146	RIAD3210	7700407	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+WAL	20260930	20260930	3138146	RCON2746	2458442	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+WAL	20260930	20260930	3138146	RCONC226	5398	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+WAL	20260930	20260930	3138146	RCONJ454	15832394	20261030	Loans to nondepository financial institutions	RCCI	9a
+WAL	20260930	20260930	3138146	RCONK036	148671	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+WAL	20260930	20260930	3138146	RCONK037	1321125	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+WAL	20260930	20260930	3138146	RCONK038	1624	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+WAL	20260930	20260930	3138146	RCONK039	752	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+WAL	20260930	20260930	3138146	RCONK040	2100	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+WAL	20260930	20260930	3138146	RCONK041	1355	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+WAL	20260930	20260930	3138146	RCONK042	147919	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+WAL	20260930	20260930	3138146	RCONK043	1319025	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+WAL	20260930	20260930	3138146	RCONK044	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+EGBN	20260630	20260630	2652092	RIAD4340	26136	20260902	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+EGBN	20260630	20260630	2652092	RIAD4356	0	20260902	Changes incident to business combinations, net	RIA	7
+EGBN	20260630	20260630	2652092	RIAD4415	0	20260902	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+EGBN	20260630	20260630	2652092	RIAD4460	982	20260902	LESS: Cash dividends declared on common stock	RIA	9
+EGBN	20260630	20260630	2652092	RIAD4470	0	20260902	LESS: Cash dividends declared on preferred stock	RIA	8
+EGBN	20260630	20260630	2652092	RIADB509	2384	20260902	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+EGBN	20260630	20260630	2652092	RIADB510	0	20260902	Treasury stock transactions, net	RIA	6
+EGBN	20260630	20260630	2652092	RIADB511	-4563	20260902	Other comprehensive income	RIA	10
+EGBN	20260630	20260630	2652092	RIAD3210	1172467	20260902	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+EGBN	20260630	20260630	2652092	RCON2746	152732	20260902	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+EGBN	20260630	20260630	2652092	RCONC226	0	20260902	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+EGBN	20260630	20260630	2652092	RCONJ454	91664	20260902	Loans to nondepository financial institutions	RCCI	9a
+EGBN	20260630	20260630	2652092	RCONK036	0	20260902	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+EGBN	20260630	20260630	2652092	RCONK037	0	20260902	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+EGBN	20260630	20260630	2652092	RCONK038	48	20260902	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+EGBN	20260630	20260630	2652092	RCONK039	0	20260902	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+EGBN	20260630	20260630	2652092	RCONK040	0	20260902	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+EGBN	20260630	20260630	2652092	RCONK041	48	20260902	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+EGBN	20260630	20260630	2652092	RCONK042	0	20260902	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+EGBN	20260630	20260630	2652092	RCONK043	0	20260902	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+EGBN	20260630	20260630	2652092	RCONK044	0	20260902	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+EGBN	20260930	20260930	2652092	RIAD4340	52192	20261029	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+EGBN	20260930	20260930	2652092	RIAD4356	0	20261029	Changes incident to business combinations, net	RIA	7
+EGBN	20260930	20260930	2652092	RIAD4415	0	20261029	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+EGBN	20260930	20260930	2652092	RIAD4460	1339	20261029	LESS: Cash dividends declared on common stock	RIA	9
+EGBN	20260930	20260930	2652092	RIAD4470	0	20261029	LESS: Cash dividends declared on preferred stock	RIA	8
+EGBN	20260930	20260930	2652092	RIADB509	5554	20261029	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+EGBN	20260930	20260930	2652092	RIADB510	0	20261029	Treasury stock transactions, net	RIA	6
+EGBN	20260930	20260930	2652092	RIADB511	-23939	20261029	Other comprehensive income	RIA	10
+EGBN	20260930	20260930	2652092	RIAD3210	1181960	20261029	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+EGBN	20260930	20260930	2652092	RCON2746	174445	20261029	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+EGBN	20260930	20260930	2652092	RCONC226	0	20261029	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+EGBN	20260930	20260930	2652092	RCONJ454	135752	20261029	Loans to nondepository financial institutions	RCCI	9a
+EGBN	20260930	20260930	2652092	RCONK036	0	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+EGBN	20260930	20260930	2652092	RCONK037	0	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+EGBN	20260930	20260930	2652092	RCONK038	46	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+EGBN	20260930	20260930	2652092	RCONK039	0	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+EGBN	20260930	20260930	2652092	RCONK040	0	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+EGBN	20260930	20260930	2652092	RCONK041	46	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+EGBN	20260930	20260930	2652092	RCONK042	0	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+EGBN	20260930	20260930	2652092	RCONK043	0	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+EGBN	20260930	20260930	2652092	RCONK044	0	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+ZION	20260630	20260630	276579	RIAD4340	685692	20260729	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+ZION	20260630	20260630	276579	RIAD4356	0	20260729	Changes incident to business combinations, net	RIA	7
+ZION	20260630	20260630	276579	RIAD4415	0	20260729	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+ZION	20260630	20260630	276579	RIAD4460	134417	20260729	LESS: Cash dividends declared on common stock	RIA	9
+ZION	20260630	20260630	276579	RIAD4470	1498	20260729	LESS: Cash dividends declared on preferred stock	RIA	8
+ZION	20260630	20260630	276579	RIADB509	-122991	20260729	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+ZION	20260630	20260630	276579	RIADB510	0	20260729	Treasury stock transactions, net	RIA	6
+ZION	20260630	20260630	276579	RIADB511	74356	20260729	Other comprehensive income	RIA	10
+ZION	20260630	20260630	276579	RIAD3210	7680845	20260729	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+ZION	20260630	20260630	276579	RCON2746	310722	20260729	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+ZION	20260630	20260630	276579	RCONC226	0	20260729	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+ZION	20260630	20260630	276579	RCONJ454	2517907	20260729	Loans to nondepository financial institutions	RCCI	9a
+ZION	20260630	20260630	276579	RCONK036	2709	20260729	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+ZION	20260630	20260630	276579	RCONK037	24	20260729	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+ZION	20260630	20260630	276579	RCONK038	15485	20260729	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+ZION	20260630	20260630	276579	RCONK039	1974	20260729	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+ZION	20260630	20260630	276579	RCONK040	20	20260729	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+ZION	20260630	20260630	276579	RCONK041	12460	20260729	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+ZION	20260630	20260630	276579	RCONK042	0	20260729	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+ZION	20260630	20260630	276579	RCONK043	0	20260729	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+ZION	20260630	20260630	276579	RCONK044	0	20260729	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+ZION	20260930	20260930	276579	RIAD4340	948567	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+ZION	20260930	20260930	276579	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+ZION	20260930	20260930	276579	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+ZION	20260930	20260930	276579	RIAD4460	205397	20261030	LESS: Cash dividends declared on common stock	RIA	9
+ZION	20260930	20260930	276579	RIAD4470	2249	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+ZION	20260930	20260930	276579	RIADB509	-188628	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+ZION	20260930	20260930	276579	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+ZION	20260930	20260930	276579	RIADB511	-47409	20261030	Other comprehensive income	RIA	10
+ZION	20260930	20260930	276579	RIAD3210	7684587	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+ZION	20260930	20260930	276579	RCON2746	348549	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+ZION	20260930	20260930	276579	RCONC226	417	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+ZION	20260930	20260930	276579	RCONJ454	2210173	20261030	Loans to nondepository financial institutions	RCCI	9a
+ZION	20260930	20260930	276579	RCONK036	3644	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+ZION	20260930	20260930	276579	RCONK037	0	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+ZION	20260930	20260930	276579	RCONK038	10770	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+ZION	20260930	20260930	276579	RCONK039	2823	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+ZION	20260930	20260930	276579	RCONK040	0	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+ZION	20260930	20260930	276579	RCONK041	8654	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+ZION	20260930	20260930	276579	RCONK042	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+ZION	20260930	20260930	276579	RCONK043	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+ZION	20260930	20260930	276579	RCONK044	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SSB	20260630	20260630	1929247	RIAD4340	481109	20260820	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SSB	20260630	20260630	1929247	RIAD4356	0	20260820	Changes incident to business combinations, net	RIA	7
+SSB	20260630	20260630	1929247	RIAD4415	0	20260820	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+SSB	20260630	20260630	1929247	RIAD4460	425000	20260820	LESS: Cash dividends declared on common stock	RIA	9
+SSB	20260630	20260630	1929247	RIAD4470	0	20260820	LESS: Cash dividends declared on preferred stock	RIA	8
+SSB	20260630	20260630	1929247	RIADB509	0	20260820	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+SSB	20260630	20260630	1929247	RIADB510	0	20260820	Treasury stock transactions, net	RIA	6
+SSB	20260630	20260630	1929247	RIADB511	-26753	20260820	Other comprehensive income	RIA	10
+SSB	20260630	20260630	1929247	RIAD3210	9699275	20260820	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+SSB	20260630	20260630	1929247	RCON2746	74314	20260820	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SSB	20260630	20260630	1929247	RCONC226	0	20260820	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+SSB	20260630	20260630	1929247	RCONJ454	752984	20260820	Loans to nondepository financial institutions	RCCI	9a
+SSB	20260630	20260630	1929247	RCONK036	6792	20260820	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SSB	20260630	20260630	1929247	RCONK037	0	20260820	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SSB	20260630	20260630	1929247	RCONK038	66788	20260820	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SSB	20260630	20260630	1929247	RCONK039	5077	20260820	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SSB	20260630	20260630	1929247	RCONK040	0	20260820	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SSB	20260630	20260630	1929247	RCONK041	51566	20260820	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SSB	20260630	20260630	1929247	RCONK042	0	20260820	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SSB	20260630	20260630	1929247	RCONK043	0	20260820	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SSB	20260630	20260630	1929247	RCONK044	0	20260820	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SSB	20260930	20260930	1929247	RIAD4340	717497	20261029	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SSB	20260930	20260930	1929247	RIAD4356	0	20261029	Changes incident to business combinations, net	RIA	7
+SSB	20260930	20260930	1929247	RIAD4415	0	20261029	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+SSB	20260930	20260930	1929247	RIAD4460	550000	20261029	LESS: Cash dividends declared on common stock	RIA	9
+SSB	20260930	20260930	1929247	RIAD4470	0	20261029	LESS: Cash dividends declared on preferred stock	RIA	8
+SSB	20260930	20260930	1929247	RIADB509	0	20261029	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+SSB	20260930	20260930	1929247	RIADB510	0	20261029	Treasury stock transactions, net	RIA	6
+SSB	20260930	20260930	1929247	RIADB511	-256228	20261029	Other comprehensive income	RIA	10
+SSB	20260930	20260930	1929247	RIAD3210	9581188	20261029	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+SSB	20260930	20260930	1929247	RCON2746	69191	20261029	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SSB	20260930	20260930	1929247	RCONC226	0	20261029	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+SSB	20260930	20260930	1929247	RCONJ454	807540	20261029	Loans to nondepository financial institutions	RCCI	9a
+SSB	20260930	20260930	1929247	RCONK036	8193	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SSB	20260930	20260930	1929247	RCONK037	561	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SSB	20260930	20260930	1929247	RCONK038	64039	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SSB	20260930	20260930	1929247	RCONK039	6128	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SSB	20260930	20260930	1929247	RCONK040	420	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SSB	20260930	20260930	1929247	RCONK041	49357	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SSB	20260930	20260930	1929247	RCONK042	0	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SSB	20260930	20260930	1929247	RCONK043	0	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SSB	20260930	20260930	1929247	RCONK044	0	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CFG	20260630	20260630	3303298	RIAD4340	1133526	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CFG	20260630	20260630	3303298	RIAD4356	0	20260730	Changes incident to business combinations, net	RIA	7
+CFG	20260630	20260630	3303298	RIAD4415	0	20260730	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+CFG	20260630	20260630	3303298	RIAD4460	1200000	20260730	LESS: Cash dividends declared on common stock	RIA	9
+CFG	20260630	20260630	3303298	RIAD4470	0	20260730	LESS: Cash dividends declared on preferred stock	RIA	8
+CFG	20260630	20260630	3303298	RIADB509	0	20260730	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+CFG	20260630	20260630	3303298	RIADB510	0	20260730	Treasury stock transactions, net	RIA	6
+CFG	20260630	20260630	3303298	RIADB511	-293087	20260730	Other comprehensive income	RIA	10
+CFG	20260630	20260630	3303298	RIAD3210	26478552	20260730	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+CFG	20260630	20260630	3303298	RCFD2746	2136043	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+CFG	20260630	20260630	3303298	RCFDC226	119	20260730	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+CFG	20260630	20260630	3303298	RCFDJ454	21993287	20260730	Loans to nondepository financial institutions	RCCI	9a
+CFG	20260630	20260630	3303298	RCFDK036	48689	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CFG	20260630	20260630	3303298	RCFDK037	582130	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CFG	20260630	20260630	3303298	RCFDK038	22716	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CFG	20260630	20260630	3303298	RCFDK039	3780	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CFG	20260630	20260630	3303298	RCFDK040	5699	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CFG	20260630	20260630	3303298	RCFDK041	15408	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CFG	20260630	20260630	3303298	RCFDK042	44466	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CFG	20260630	20260630	3303298	RCFDK043	576313	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CFG	20260630	20260630	3303298	RCFDK044	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CFG	20260630	20260630	3303298	RCONJ454	21993287	20260730	Loans to nondepository financial institutions	RCCI	9a
+CFG	20260930	20260930	3303298	RIAD4340	1768896	20261029	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CFG	20260930	20260930	3303298	RIAD4356	0	20261029	Changes incident to business combinations, net	RIA	7
+CFG	20260930	20260930	3303298	RIAD4415	0	20261029	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+CFG	20260930	20260930	3303298	RIAD4460	1550000	20261029	LESS: Cash dividends declared on common stock	RIA	9
+CFG	20260930	20260930	3303298	RIAD4470	0	20261029	LESS: Cash dividends declared on preferred stock	RIA	8
+CFG	20260930	20260930	3303298	RIADB509	0	20261029	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+CFG	20260930	20260930	3303298	RIADB510	0	20261029	Treasury stock transactions, net	RIA	6
+CFG	20260930	20260930	3303298	RIADB511	-1713833	20261029	Other comprehensive income	RIA	10
+CFG	20260930	20260930	3303298	RIAD3210	25343176	20261029	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+CFG	20260930	20260930	3303298	RCFD2746	2146089	20261029	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+CFG	20260930	20260930	3303298	RCFDC226	10533	20261029	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+CFG	20260930	20260930	3303298	RCFDJ454	23003913	20261029	Loans to nondepository financial institutions	RCCI	9a
+CFG	20260930	20260930	3303298	RCFDK036	53810	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CFG	20260930	20260930	3303298	RCFDK037	555541	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CFG	20260930	20260930	3303298	RCFDK038	22910	20261029	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CFG	20260930	20260930	3303298	RCFDK039	3328	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CFG	20260930	20260930	3303298	RCFDK040	4731	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CFG	20260930	20260930	3303298	RCFDK041	15456	20261029	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CFG	20260930	20260930	3303298	RCFDK042	49179	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CFG	20260930	20260930	3303298	RCFDK043	550684	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CFG	20260930	20260930	3303298	RCFDK044	126	20261029	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CFG	20260930	20260930	3303298	RCONJ454	23003913	20261029	Loans to nondepository financial institutions	RCCI	9a
+BKU	20260630	20260630	3938186	RIAD4340	151899	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+BKU	20260630	20260630	3938186	RIAD4356	0	20260730	Changes incident to business combinations, net	RIA	7
+BKU	20260630	20260630	3938186	RIAD4415	0	20260730	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+BKU	20260630	20260630	3938186	RIAD4460	110000	20260730	LESS: Cash dividends declared on common stock	RIA	9
+BKU	20260630	20260630	3938186	RIAD4470	0	20260730	LESS: Cash dividends declared on preferred stock	RIA	8
+BKU	20260630	20260630	3938186	RIADB509	0	20260730	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+BKU	20260630	20260630	3938186	RIADB510	0	20260730	Treasury stock transactions, net	RIA	6
+BKU	20260630	20260630	3938186	RIADB511	-27346	20260730	Other comprehensive income	RIA	10
+BKU	20260630	20260630	3938186	RIAD3210	3181503	20260730	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+BKU	20260630	20260630	3938186	RCON2746	237494	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+BKU	20260630	20260630	3938186	RCONC226	3900	20260730	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+BKU	20260630	20260630	3938186	RCONJ454	2152485	20260730	Loans to nondepository financial institutions	RCCI	9a
+BKU	20260630	20260630	3938186	RCONK036	108215	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+BKU	20260630	20260630	3938186	RCONK037	175377	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+BKU	20260630	20260630	3938186	RCONK038	33601	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+BKU	20260630	20260630	3938186	RCONK039	2912	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+BKU	20260630	20260630	3938186	RCONK040	1205	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+BKU	20260630	20260630	3938186	RCONK041	31835	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+BKU	20260630	20260630	3938186	RCONK042	105046	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+BKU	20260630	20260630	3938186	RCONK043	173849	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+BKU	20260630	20260630	3938186	RCONK044	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+BKU	20260930	20260930	3938186	RIAD4340	234903	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+BKU	20260930	20260930	3938186	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+BKU	20260930	20260930	3938186	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+BKU	20260930	20260930	3938186	RIAD4460	203000	20261030	LESS: Cash dividends declared on common stock	RIA	9
+BKU	20260930	20260930	3938186	RIAD4470	0	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+BKU	20260930	20260930	3938186	RIADB509	0	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+BKU	20260930	20260930	3938186	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+BKU	20260930	20260930	3938186	RIADB511	-165117	20261030	Other comprehensive income	RIA	10
+BKU	20260930	20260930	3938186	RIAD3210	3033736	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+BKU	20260930	20260930	3938186	RCON2746	240415	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+BKU	20260930	20260930	3938186	RCONC226	0	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+BKU	20260930	20260930	3938186	RCONJ454	2215066	20261030	Loans to nondepository financial institutions	RCCI	9a
+BKU	20260930	20260930	3938186	RCONK036	98889	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+BKU	20260930	20260930	3938186	RCONK037	170770	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+BKU	20260930	20260930	3938186	RCONK038	33211	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+BKU	20260930	20260930	3938186	RCONK039	2662	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+BKU	20260930	20260930	3938186	RCONK040	1218	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+BKU	20260930	20260930	3938186	RCONK041	31543	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+BKU	20260930	20260930	3938186	RCONK042	96002	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+BKU	20260930	20260930	3938186	RCONK043	169226	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+BKU	20260930	20260930	3938186	RCONK044	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SBCF	20260630	20260630	34537	RIAD4340	92700	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SBCF	20260630	20260630	34537	RIAD4356	0	20260730	Changes incident to business combinations, net	RIA	7
+SBCF	20260630	20260630	34537	RIAD4415	0	20260730	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+SBCF	20260630	20260630	34537	RIAD4460	72213	20260730	LESS: Cash dividends declared on common stock	RIA	9
+SBCF	20260630	20260630	34537	RIAD4470	0	20260730	LESS: Cash dividends declared on preferred stock	RIA	8
+SBCF	20260630	20260630	34537	RIADB509	-12997	20260730	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+SBCF	20260630	20260630	34537	RIADB510	0	20260730	Treasury stock transactions, net	RIA	6
+SBCF	20260630	20260630	34537	RIADB511	-6875	20260730	Other comprehensive income	RIA	10
+SBCF	20260630	20260630	34537	RIAD3210	3037354	20260730	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+SBCF	20260630	20260630	34537	RCON2746	0	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SBCF	20260630	20260630	34537	RCONC226	0	20260730	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+SBCF	20260630	20260630	34537	RCONJ454	66418	20260730	Loans to nondepository financial institutions	RCCI	9a
+SBCF	20260630	20260630	34537	RCONK036	2922	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SBCF	20260630	20260630	34537	RCONK037	0	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SBCF	20260630	20260630	34537	RCONK038	7296	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SBCF	20260630	20260630	34537	RCONK039	2175	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SBCF	20260630	20260630	34537	RCONK040	0	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SBCF	20260630	20260630	34537	RCONK041	5516	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SBCF	20260630	20260630	34537	RCONK042	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SBCF	20260630	20260630	34537	RCONK043	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SBCF	20260630	20260630	34537	RCONK044	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SBCF	20260930	20260930	34537	RIAD4340	152970	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SBCF	20260930	20260930	34537	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+SBCF	20260930	20260930	34537	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+SBCF	20260930	20260930	34537	RIAD4460	205648	20261030	LESS: Cash dividends declared on common stock	RIA	9
+SBCF	20260930	20260930	34537	RIAD4470	0	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+SBCF	20260930	20260930	34537	RIADB509	16208	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+SBCF	20260930	20260930	34537	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+SBCF	20260930	20260930	34537	RIADB511	-182972	20261030	Other comprehensive income	RIA	10
+SBCF	20260930	20260930	34537	RIAD3210	2817297	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+SBCF	20260930	20260930	34537	RCON2746	0	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SBCF	20260930	20260930	34537	RCONC226	0	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+SBCF	20260930	20260930	34537	RCONJ454	55198	20261030	Loans to nondepository financial institutions	RCCI	9a
+SBCF	20260930	20260930	34537	RCONK036	1082	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SBCF	20260930	20260930	34537	RCONK037	0	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SBCF	20260930	20260930	34537	RCONK038	7985	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+SBCF	20260930	20260930	34537	RCONK039	842	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SBCF	20260930	20260930	34537	RCONK040	0	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SBCF	20260930	20260930	34537	RCONK041	5939	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+SBCF	20260930	20260930	34537	RCONK042	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SBCF	20260930	20260930	34537	RCONK043	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+SBCF	20260930	20260930	34537	RCONK044	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+AMTB	20260630	20260630	83638	RIAD4340	44850	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+AMTB	20260630	20260630	83638	RIAD4356	0	20260730	Changes incident to business combinations, net	RIA	7
+AMTB	20260630	20260630	83638	RIAD4415	0	20260730	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+AMTB	20260630	20260630	83638	RIAD4460	15000	20260730	LESS: Cash dividends declared on common stock	RIA	9
+AMTB	20260630	20260630	83638	RIAD4470	0	20260730	LESS: Cash dividends declared on preferred stock	RIA	8
+AMTB	20260630	20260630	83638	RIADB509	1642	20260730	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+AMTB	20260630	20260630	83638	RIADB510	0	20260730	Treasury stock transactions, net	RIA	6
+AMTB	20260630	20260630	83638	RIADB511	-23570	20260730	Other comprehensive income	RIA	10
+AMTB	20260630	20260630	83638	RIAD3210	986289	20260730	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+AMTB	20260630	20260630	83638	RCFD2746	0	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+AMTB	20260630	20260630	83638	RCFDC226	0	20260730	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+AMTB	20260630	20260630	83638	RCFDJ454	85492	20260730	Loans to nondepository financial institutions	RCCI	9a
+AMTB	20260630	20260630	83638	RCFDK036	133	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+AMTB	20260630	20260630	83638	RCFDK037	2252	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+AMTB	20260630	20260630	83638	RCFDK038	424	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+AMTB	20260630	20260630	83638	RCFDK039	100	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+AMTB	20260630	20260630	83638	RCFDK040	1839	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+AMTB	20260630	20260630	83638	RCFDK041	34	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+AMTB	20260630	20260630	83638	RCFDK042	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+AMTB	20260630	20260630	83638	RCFDK043	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+AMTB	20260630	20260630	83638	RCFDK044	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+AMTB	20260630	20260630	83638	RCONJ454	85492	20260730	Loans to nondepository financial institutions	RCCI	9a
+AMTB	20260930	20260930	83638	RIAD4340	72651	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+AMTB	20260930	20260930	83638	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+AMTB	20260930	20260930	83638	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+AMTB	20260930	20260930	83638	RIAD4460	35000	20261030	LESS: Cash dividends declared on common stock	RIA	9
+AMTB	20260930	20260930	83638	RIAD4470	0	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+AMTB	20260930	20260930	83638	RIADB509	2892	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+AMTB	20260930	20260930	83638	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+AMTB	20260930	20260930	83638	RIADB511	-119743	20261030	Other comprehensive income	RIA	10
+AMTB	20260930	20260930	83638	RIAD3210	899167	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+AMTB	20260930	20260930	83638	RCFD2746	0	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+AMTB	20260930	20260930	83638	RCFDC226	0	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+AMTB	20260930	20260930	83638	RCFDJ454	49502	20261030	Loans to nondepository financial institutions	RCCI	9a
+AMTB	20260930	20260930	83638	RCFDK036	303	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+AMTB	20260930	20260930	83638	RCFDK037	0	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+AMTB	20260930	20260930	83638	RCFDK038	2948	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+AMTB	20260930	20260930	83638	RCFDK039	0	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+AMTB	20260930	20260930	83638	RCFDK040	0	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+AMTB	20260930	20260930	83638	RCFDK041	1870	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+AMTB	20260930	20260930	83638	RCFDK042	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+AMTB	20260930	20260930	83638	RCFDK043	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+AMTB	20260930	20260930	83638	RCFDK044	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+AMTB	20260930	20260930	83638	RCONJ454	49502	20261030	Loans to nondepository financial institutions	RCCI	9a
+FLG	20260630	20260630	694904	RIAD4340	55326	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+FLG	20260630	20260630	694904	RIAD4356	0	20260730	Changes incident to business combinations, net	RIA	7
+FLG	20260630	20260630	694904	RIAD4415	0	20260730	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+FLG	20260630	20260630	694904	RIAD4460	8413	20260730	LESS: Cash dividends declared on common stock	RIA	9
+FLG	20260630	20260630	694904	RIAD4470	16418	20260730	LESS: Cash dividends declared on preferred stock	RIA	8
+FLG	20260630	20260630	694904	RIADB509	-4679	20260730	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+FLG	20260630	20260630	694904	RIADB510	28371	20260730	Treasury stock transactions, net	RIA	6
+FLG	20260630	20260630	694904	RIADB511	-58233	20260730	Other comprehensive income	RIA	10
+FLG	20260630	20260630	694904	RIAD3210	8140809	20260730	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+FLG	20260630	20260630	694904	RCFD2746	440610	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+FLG	20260630	20260630	694904	RCFDC226	4980	20260730	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+FLG	20260630	20260630	694904	RCFDJ454	3457706	20260730	Loans to nondepository financial institutions	RCCI	9a
+FLG	20260630	20260630	694904	RCFDK036	4353	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+FLG	20260630	20260630	694904	RCFDK037	0	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+FLG	20260630	20260630	694904	RCFDK038	183760	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+FLG	20260630	20260630	694904	RCFDK039	0	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+FLG	20260630	20260630	694904	RCFDK040	0	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+FLG	20260630	20260630	694904	RCFDK041	1652	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+FLG	20260630	20260630	694904	RCFDK042	4353	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+FLG	20260630	20260630	694904	RCFDK043	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+FLG	20260630	20260630	694904	RCFDK044	182108	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+FLG	20260630	20260630	694904	RCONJ454	3457706	20260730	Loans to nondepository financial institutions	RCCI	9a
+FLG	20260930	20260930	694904	RIAD4340	67443	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+FLG	20260930	20260930	694904	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+FLG	20260930	20260930	694904	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+FLG	20260930	20260930	694904	RIAD4460	12555	20261030	LESS: Cash dividends declared on common stock	RIA	9
+FLG	20260930	20260930	694904	RIAD4470	24629	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+FLG	20260930	20260930	694904	RIADB509	7179	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+FLG	20260930	20260930	694904	RIADB510	-187468	20261030	Treasury stock transactions, net	RIA	6
+FLG	20260930	20260930	694904	RIADB511	-350199	20261030	Other comprehensive income	RIA	10
+FLG	20260930	20260930	694904	RIAD3210	7644626	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+FLG	20260930	20260930	694904	RCFD2746	679072	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+FLG	20260930	20260930	694904	RCFDC226	4236	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+FLG	20260930	20260930	694904	RCFDJ454	4511574	20261030	Loans to nondepository financial institutions	RCCI	9a
+FLG	20260930	20260930	694904	RCFDK036	4457	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+FLG	20260930	20260930	694904	RCFDK037	0	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+FLG	20260930	20260930	694904	RCFDK038	169054	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+FLG	20260930	20260930	694904	RCFDK039	174	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+FLG	20260930	20260930	694904	RCFDK040	0	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+FLG	20260930	20260930	694904	RCFDK041	1413	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+FLG	20260930	20260930	694904	RCFDK042	4283	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+FLG	20260930	20260930	694904	RCFDK043	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+FLG	20260930	20260930	694904	RCFDK044	167641	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+FLG	20260930	20260930	694904	RCONJ454	4511572	20261030	Loans to nondepository financial institutions	RCCI	9a
+MTB	20260630	20260630	501105	RIAD4340	1510000	20260728	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+MTB	20260630	20260630	501105	RIAD4356	0	20260728	Changes incident to business combinations, net	RIA	7
+MTB	20260630	20260630	501105	RIAD4415	0	20260728	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+MTB	20260630	20260630	501105	RIAD4460	1600000	20260728	LESS: Cash dividends declared on common stock	RIA	9
+MTB	20260630	20260630	501105	RIAD4470	0	20260728	LESS: Cash dividends declared on preferred stock	RIA	8
+MTB	20260630	20260630	501105	RIADB509	92000	20260728	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+MTB	20260630	20260630	501105	RIADB510	0	20260728	Treasury stock transactions, net	RIA	6
+MTB	20260630	20260630	501105	RIADB511	-368000	20260728	Other comprehensive income	RIA	10
+MTB	20260630	20260630	501105	RIAD3210	28164000	20260728	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+MTB	20260630	20260630	501105	RCFD2746	4947000	20260728	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+MTB	20260630	20260630	501105	RCFDC226	0	20260728	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+MTB	20260630	20260630	501105	RCFDJ454	13681000	20260728	Loans to nondepository financial institutions	RCCI	9a
+MTB	20260630	20260630	501105	RCFDK036	361000	20260728	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+MTB	20260630	20260630	501105	RCFDK037	712000	20260728	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+MTB	20260630	20260630	501105	RCFDK038	84000	20260728	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+MTB	20260630	20260630	501105	RCFDK039	101000	20260728	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+MTB	20260630	20260630	501105	RCFDK040	97000	20260728	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+MTB	20260630	20260630	501105	RCFDK041	57000	20260728	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+MTB	20260630	20260630	501105	RCFDK042	257000	20260728	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+MTB	20260630	20260630	501105	RCFDK043	615000	20260728	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+MTB	20260630	20260630	501105	RCFDK044	21000	20260728	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+MTB	20260630	20260630	501105	RCONJ454	13652000	20260728	Loans to nondepository financial institutions	RCCI	9a
+MTB	20260930	20260930	501105	RIAD4340	2296000	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+MTB	20260930	20260930	501105	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+MTB	20260930	20260930	501105	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+MTB	20260930	20260930	501105	RIAD4460	2300000	20261030	LESS: Cash dividends declared on common stock	RIA	9
+MTB	20260930	20260930	501105	RIAD4470	0	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+MTB	20260930	20260930	501105	RIADB509	112000	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+MTB	20260930	20260930	501105	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+MTB	20260930	20260930	501105	RIADB511	-957000	20261030	Other comprehensive income	RIA	10
+MTB	20260930	20260930	501105	RIAD3210	27681000	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+MTB	20260930	20260930	501105	RCFD2746	5413000	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+MTB	20260930	20260930	501105	RCFDC226	0	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+MTB	20260930	20260930	501105	RCFDJ454	13734000	20261030	Loans to nondepository financial institutions	RCCI	9a
+MTB	20260930	20260930	501105	RCFDK036	373000	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+MTB	20260930	20260930	501105	RCFDK037	689000	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+MTB	20260930	20260930	501105	RCFDK038	87000	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+MTB	20260930	20260930	501105	RCFDK039	113000	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+MTB	20260930	20260930	501105	RCFDK040	88000	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+MTB	20260930	20260930	501105	RCFDK041	60000	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+MTB	20260930	20260930	501105	RCFDK042	257000	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+MTB	20260930	20260930	501105	RCFDK043	601000	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+MTB	20260930	20260930	501105	RCFDK044	21000	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+MTB	20260930	20260930	501105	RCONJ454	13702000	20261030	Loans to nondepository financial institutions	RCCI	9a
+HBAN	20260630	20260630	12311	RIAD4340	1431831	20260821	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+HBAN	20260630	20260630	12311	RIAD4356	8335209	20260821	Changes incident to business combinations, net	RIA	7
+HBAN	20260630	20260630	12311	RIAD4415	0	20260821	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+HBAN	20260630	20260630	12311	RIAD4460	550000	20260821	LESS: Cash dividends declared on common stock	RIA	9
+HBAN	20260630	20260630	12311	RIAD4470	0	20260821	LESS: Cash dividends declared on preferred stock	RIA	8
+HBAN	20260630	20260630	12311	RIADB509	79743	20260821	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+HBAN	20260630	20260630	12311	RIADB510	0	20260821	Treasury stock transactions, net	RIA	6
+HBAN	20260630	20260630	12311	RIADB511	-305215	20260821	Other comprehensive income	RIA	10
+HBAN	20260630	20260630	12311	RIAD3210	33284616	20260821	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+HBAN	20260630	20260630	12311	RCFD2746	2206543	20260821	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+HBAN	20260630	20260630	12311	RCFDC226	0	20260821	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+HBAN	20260630	20260630	12311	RCFDJ454	17511739	20260821	Loans to nondepository financial institutions	RCCI	9a
+HBAN	20260630	20260630	12311	RCFDK036	187445	20260821	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+HBAN	20260630	20260630	12311	RCFDK037	325894	20260821	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+HBAN	20260630	20260630	12311	RCFDK038	489976	20260821	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+HBAN	20260630	20260630	12311	RCFDK039	66469	20260821	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+HBAN	20260630	20260630	12311	RCFDK040	19606	20260821	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+HBAN	20260630	20260630	12311	RCFDK041	363362	20260821	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+HBAN	20260630	20260630	12311	RCFDK042	105703	20260821	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+HBAN	20260630	20260630	12311	RCFDK043	306288	20260821	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+HBAN	20260630	20260630	12311	RCFDK044	0	20260821	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+HBAN	20260630	20260630	12311	RCONJ454	17511739	20260821	Loans to nondepository financial institutions	RCCI	9a
+HBAN	20260930	20260930	12311	RIAD4340	2226214	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+HBAN	20260930	20260930	12311	RIAD4356	8335209	20261030	Changes incident to business combinations, net	RIA	7
+HBAN	20260930	20260930	12311	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+HBAN	20260930	20260930	12311	RIAD4460	1050000	20261030	LESS: Cash dividends declared on common stock	RIA	9
+HBAN	20260930	20260930	12311	RIAD4470	0	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+HBAN	20260930	20260930	12311	RIADB509	126394	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+HBAN	20260930	20260930	12311	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+HBAN	20260930	20260930	12311	RIADB511	-1065996	20261030	Other comprehensive income	RIA	10
+HBAN	20260930	20260930	12311	RIAD3210	32864869	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+HBAN	20260930	20260930	12311	RCFD2746	2836768	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+HBAN	20260930	20260930	12311	RCFDC226	0	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+HBAN	20260930	20260930	12311	RCFDJ454	19938764	20261030	Loans to nondepository financial institutions	RCCI	9a
+HBAN	20260930	20260930	12311	RCFDK036	203484	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+HBAN	20260930	20260930	12311	RCFDK037	341385	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+HBAN	20260930	20260930	12311	RCFDK038	519861	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+HBAN	20260930	20260930	12311	RCFDK039	69316	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+HBAN	20260930	20260930	12311	RCFDK040	21266	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+HBAN	20260930	20260930	12311	RCFDK041	385874	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+HBAN	20260930	20260930	12311	RCFDK042	116404	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+HBAN	20260930	20260930	12311	RCFDK043	319983	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+HBAN	20260930	20260930	12311	RCFDK044	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+HBAN	20260930	20260930	12311	RCONJ454	19938764	20261030	Loans to nondepository financial institutions	RCCI	9a
+VLY	20260630	20260630	229801	RIAD4340	349411	20260729	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+VLY	20260630	20260630	229801	RIAD4356	0	20260729	Changes incident to business combinations, net	RIA	7
+VLY	20260630	20260630	229801	RIAD4415	100000	20260729	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+VLY	20260630	20260630	229801	RIAD4460	225000	20260729	LESS: Cash dividends declared on common stock	RIA	9
+VLY	20260630	20260630	229801	RIAD4470	0	20260729	LESS: Cash dividends declared on preferred stock	RIA	8
+VLY	20260630	20260630	229801	RIADB509	0	20260729	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+VLY	20260630	20260630	229801	RIADB510	0	20260729	Treasury stock transactions, net	RIA	6
+VLY	20260630	20260630	229801	RIADB511	-25259	20260729	Other comprehensive income	RIA	10
+VLY	20260630	20260630	229801	RIAD3210	8384348	20260729	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+VLY	20260630	20260630	229801	RCFD2746	539365	20260729	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+VLY	20260630	20260630	229801	RCFDC226	0	20260729	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+VLY	20260630	20260630	229801	RCFDJ454	1765627	20260729	Loans to nondepository financial institutions	RCCI	9a
+VLY	20260630	20260630	229801	RCFDK036	0	20260729	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+VLY	20260630	20260630	229801	RCFDK037	0	20260729	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+VLY	20260630	20260630	229801	RCFDK038	0	20260729	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+VLY	20260630	20260630	229801	RCFDK039	0	20260729	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+VLY	20260630	20260630	229801	RCFDK040	0	20260729	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+VLY	20260630	20260630	229801	RCFDK041	0	20260729	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+VLY	20260630	20260630	229801	RCFDK042	0	20260729	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+VLY	20260630	20260630	229801	RCFDK043	0	20260729	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+VLY	20260630	20260630	229801	RCFDK044	0	20260729	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+VLY	20260630	20260630	229801	RCONJ454	1765627	20260729	Loans to nondepository financial institutions	RCCI	9a
+VLY	20260930	20260930	229801	RIAD4340	557102	20261027	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+VLY	20260930	20260930	229801	RIAD4356	0	20261027	Changes incident to business combinations, net	RIA	7
+VLY	20260930	20260930	229801	RIAD4415	100000	20261027	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+VLY	20260930	20260930	229801	RIAD4460	275000	20261027	LESS: Cash dividends declared on common stock	RIA	9
+VLY	20260930	20260930	229801	RIAD4470	0	20261027	LESS: Cash dividends declared on preferred stock	RIA	8
+VLY	20260930	20260930	229801	RIADB509	0	20261027	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+VLY	20260930	20260930	229801	RIADB510	0	20261027	Treasury stock transactions, net	RIA	6
+VLY	20260930	20260930	229801	RIADB511	-157837	20261027	Other comprehensive income	RIA	10
+VLY	20260930	20260930	229801	RIAD3210	8409461	20261027	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+VLY	20260930	20260930	229801	RCFD2746	521871	20261027	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+VLY	20260930	20260930	229801	RCFDC226	8750	20261027	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+VLY	20260930	20260930	229801	RCFDJ454	2062490	20261027	Loans to nondepository financial institutions	RCCI	9a
+VLY	20260930	20260930	229801	RCFDK036	0	20261027	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+VLY	20260930	20260930	229801	RCFDK037	0	20261027	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+VLY	20260930	20260930	229801	RCFDK038	0	20261027	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+VLY	20260930	20260930	229801	RCFDK039	0	20261027	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+VLY	20260930	20260930	229801	RCFDK040	0	20261027	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+VLY	20260930	20260930	229801	RCFDK041	0	20261027	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+VLY	20260930	20260930	229801	RCFDK042	0	20261027	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+VLY	20260930	20260930	229801	RCFDK043	0	20261027	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+VLY	20260930	20260930	229801	RCFDK044	0	20261027	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+VLY	20260930	20260930	229801	RCONJ454	2062490	20261027	Loans to nondepository financial institutions	RCCI	9a
+CUBI	20260630	20260630	2354985	RIAD4340	147417	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CUBI	20260630	20260630	2354985	RIAD4356	0	20260730	Changes incident to business combinations, net	RIA	7
+CUBI	20260630	20260630	2354985	RIAD4415	0	20260730	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+CUBI	20260630	20260630	2354985	RIAD4460	45000	20260730	LESS: Cash dividends declared on common stock	RIA	9
+CUBI	20260630	20260630	2354985	RIAD4470	0	20260730	LESS: Cash dividends declared on preferred stock	RIA	8
+CUBI	20260630	20260630	2354985	RIADB509	70563	20260730	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+CUBI	20260630	20260630	2354985	RIADB510	0	20260730	Treasury stock transactions, net	RIA	6
+CUBI	20260630	20260630	2354985	RIADB511	-4296	20260730	Other comprehensive income	RIA	10
+CUBI	20260630	20260630	2354985	RIAD3210	2324111	20260730	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+CUBI	20260630	20260630	2354985	RCON2746	568808	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+CUBI	20260630	20260630	2354985	RCONC226	69	20260730	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+CUBI	20260630	20260630	2354985	RCONJ454	6143029	20260730	Loans to nondepository financial institutions	RCCI	9a
+CUBI	20260630	20260630	2354985	RCONK036	2	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CUBI	20260630	20260630	2354985	RCONK037	3490	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CUBI	20260630	20260630	2354985	RCONK038	12562	20260730	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CUBI	20260630	20260630	2354985	RCONK039	2	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CUBI	20260630	20260630	2354985	RCONK040	3490	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CUBI	20260630	20260630	2354985	RCONK041	9390	20260730	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CUBI	20260630	20260630	2354985	RCONK042	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CUBI	20260630	20260630	2354985	RCONK043	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CUBI	20260630	20260630	2354985	RCONK044	0	20260730	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CUBI	20260930	20260930	2354985	RIAD4340	229370	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CUBI	20260930	20260930	2354985	RIAD4356	0	20261030	Changes incident to business combinations, net	RIA	7
+CUBI	20260930	20260930	2354985	RIAD4415	0	20261030	Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)	RIA	11
+CUBI	20260930	20260930	2354985	RIAD4460	65000	20261030	LESS: Cash dividends declared on common stock	RIA	9
+CUBI	20260930	20260930	2354985	RIAD4470	0	20261030	LESS: Cash dividends declared on preferred stock	RIA	8
+CUBI	20260930	20260930	2354985	RIADB509	75633	20261030	Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)	RIA	5
+CUBI	20260930	20260930	2354985	RIADB510	0	20261030	Treasury stock transactions, net	RIA	6
+CUBI	20260930	20260930	2354985	RIADB511	-63961	20261030	Other comprehensive income	RIA	10
+CUBI	20260930	20260930	2354985	RIAD3210	2331469	20261030	Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)	RIA	12
+CUBI	20260930	20260930	2354985	RCON2746	447932	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+CUBI	20260930	20260930	2354985	RCONC226	150	20261030	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)	RCN	M5
+CUBI	20260930	20260930	2354985	RCONJ454	6206273	20261030	Loans to nondepository financial institutions	RCCI	9a
+CUBI	20260930	20260930	2354985	RCONK036	101	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CUBI	20260930	20260930	2354985	RCONK037	3487	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CUBI	20260930	20260930	2354985	RCONK038	12186	20261030	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:	RCN	11
+CUBI	20260930	20260930	2354985	RCONK039	50	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CUBI	20260930	20260930	2354985	RCONK040	3487	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CUBI	20260930	20260930	2354985	RCONK041	9133	20261030	"Guaranteed portion of loans and leases included in item 11 above, excluding rebooked ""GNMA loans"""	RCN	11a
+CUBI	20260930	20260930	2354985	RCONK042	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CUBI	20260930	20260930	2354985	RCONK043	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b
+CUBI	20260930	20260930	2354985	RCONK044	0	20261030	"Rebooked ""GNMA loans"" that have been repurchased or are eligible for repurchase included in item 11 above"	RCN	11b

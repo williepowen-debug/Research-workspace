@@ -1,16 +1,17 @@
 # WALTER STATUS
-**Updated:** 2026-11-01T01:10:51Z — Codex/OpenAI Will-launched night boot; FULL continuity. Duties and publication evidence: LAST_COMPLETION.md.
+**Updated:** 2026-11-01T02:31:35Z — Codex/OpenAI requested Call Report analysis; FULL continuity. Duties and publication evidence: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Routing ready; boot PARTIAL on explicit source, context and full-fleet visibility gaps. Fresh threshold checks establish no new fire or exit. Ten bookmarks processed: three cards, one duplicate, three kills and three local notes; seven fully read, three partly read. Cards 023–025 cover prospective CLO demand, next-year Florida mortgage policy and local king-tide listing friction with source limits attached.
+Requested 14-bank Q3 comparison complete: material book-equity pressure, no selected 20% equity cliff. OZK/WAL headline credit improves; FLG earnings remain thin and its unsecured CRE-financing composition step needs owner reconciliation. VLY/EGBN credit deterioration remains selective. Card 026 and seven handoffs recorded; no new grade or trade. Prior boot PARTIAL limits persist.
 
-Daily aggregate: 25 cards across 9 clusters, 49 kill-log rows, 17 bounded source helpers across sittings; earlier prose reviewer separate. BALANCED, zero cluster_mediating flags. Current duties/publication evidence: LAST_COMPLETION.md. Evidence: research/2026-10-31_night-boot/REVIEW.md.
+Daily aggregate: 26 cards across 9 clusters, 49 kill-log rows, 18 bounded source helpers across sittings; earlier prose reviewer separate. BALANCED, zero cluster_mediating flags. Duties/publication: LAST_COMPLETION.md. Evidence: research/2026-10-31_call-report-read/REPORT.md.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| Q3 Call Reports (September 30 versus June 30; retrieved October 31 ET) | 42 same-bank facsimiles, 14 exact equity bridges. Equity OZK −2.07%, WAL −2.92%, FLG −6.10%, AMTB −8.83%, SBCF −7.25%. FLG M3 +54.12% versus loans +1.50%; classification versus growth unresolved. Not a national sample, capital grade or trade finding. Evidence: research/2026-10-31_call-report-read/REPORT.md. |
 | Night boot (November 1 01:02–01:04Z; observation dates retained) | HY 326/CCC 1325/VIXCLS 17.20/SOFR-IORB+4bp [Oct29]; T5YIFR 2.22/SKEW 149.76/KRE 72.01/WAL 76.29/AGSI 74.68% [Oct30]; Cushing 26.970M [w/eOct23]. No new fire/exit in completed scope. THRESHOLD-SCAN.md records source and persistence limits. |
 | October 31 source repair | October 30 CME PRELIMINARY December CL 104.12, RB 3.1565, HO 4.6761; calculated HO×42−CL 92.2762 $/bbl. Final bulletin and direct ICE leg remain missing. ICE Endex Dec26 LTD November 27 / FSD November 30; Jan27 LTD December 30 / FSD December 31. FT08 governing Table A calculation verified at 3.247216% → 3.2%; earlier index-only gap was incorrect. Evidence and remaining limits: research/2026-10-31_boot-repair/REPAIR-RECEIPT.md. |
 | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22% and Cboe SKEW 149.76 [October 30]. KRE/WAL unadjusted October 30 closes 72.01/76.29, Yahoo/Nasdaq agree; WAL existing fire, exit 0/3. Cushing 26.970M [week ending October 23]. HANS UK 10Y 5.29%, 30Y 5.72% [October 30, TE benchmark]: near-trigger watches; France OAT 4.93%, spread 159.0 bp [same-day governing i-i screen], fire open. AGSI fresh evening pull: fill74.68%, native five-year mean89.766%, gap−15.086pp [gas day October 30], existing fire, exit0/5; benchmark-composition caveat retained. No new fire/exit established; official oil settlements, energy OAS, Worldscale and event/cohort limits remain. Evidence: research/2026-10-31_evening-boot/THRESHOLD-SCAN.md plus the dated followthrough/VERIFY-RED.md, VERIFY-CREDIT.md, VERIFY-HANS.md. |
@@ -65,9 +66,9 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-All 44 STATUS-backed registry rows checked at 2026-11-01T01:10:51Z: 42 other-owner leads byte-identical to the prior reviewed capture; current PROME lead reviewed; WALTER refreshed before this summary. All 49 mirror names retained, five without STATUS keep older evidence. REGISTRY is a routing mirror, not a liveness census. Prior owner grades retain their source dates; new cards do not prove consumption.
+All 44 STATUS-backed registry rows checked at 2026-11-01T02:31:35Z: 43 other-owner leads byte-identical to the prior reviewed capture; WALTER refreshed before this summary. All 49 mirror names retained, five without STATUS keep older evidence. REGISTRY is a routing mirror, not a liveness census. Owner grades retain source dates; new cards do not prove consumption.
 
-Native Codex list shows current WALTER active, prior WALTER idle and CATO notLoaded. Three bounded verification helpers returned; no domain launch. Cross-runtime absence and full-fleet lifecycle readiness UNKNOWN; no dark-owner verdict. Boot context reused unchanged prior headers rather than claiming a fresh whole read of every owner.
+One bounded verification helper completed this analysis; no domain launch. Earlier night-boot runtime observations remain dated, not refreshed by this research. Cross-runtime absence and full-fleet lifecycle readiness UNKNOWN; no dark-owner verdict. Evidence: research/2026-10-31_call-report-read/owner-header-review.json.
 
 ## Active LIAISON channels
 

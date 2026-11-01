@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-01T01:10:51Z. Will-launched Codex/OpenAI night boot; exact serving model unknown. FULL continuity closeout.
+Updated 2026-11-01T02:31:35Z. Will-requested Call Report analysis, Codex/OpenAI; exact serving model unknown. FULL continuity closeout.
 
 ## STATUS
 
@@ -8,9 +8,11 @@ ACTIVE and routing-ready. Boot remains PARTIAL on preserved source, owner-eviden
 
 ## CHANGED
 
-Will-launched boot completed at PARTIAL coverage. Fresh threshold pulls and ten bookmark dispositions; cards 023–025, nine required handoffs, three source helpers. Evidence: research/2026-10-31_night-boot/REVIEW.md and THRESHOLD-SCAN.md. Previous completed CHANGED narrative rotated verbatim to SESSION_LOG at 2026-11-01T01:10:51Z.
+Completed requested comparison of 14 banks across March/June/September primary FFIEC reports. All 14 equity bridges reconcile; independent helper checked five focused names and material basis traps. Book-equity pressure, mixed credit and FLG/HBAN composition flags recorded in card 026 with seven handoffs. Evidence: research/2026-10-31_call-report-read/REPORT.md. Previous CHANGED preserved verbatim in SESSION_LOG.
 
 ## RESULT
+
+Current analysis: 14/14 bank items folded into card 026; 42 dated/RSSD-validated facsimiles, one helper complete. No 20% equity decline in this selected sample; not a test of the national 95-bank claim. FLG/HBAN M3 steps need owner reconciliation, not automatic risk grades. Seven new handoffs written; publication pending. Prior boot results below retain their earlier scope.
 
 This boot: three new cards (023–025), nine written handoffs; batch 10/10 closed and marked, seven full/three partial source packages. Doctor has no HIGH; retained exact-consumption MED and source coverage gaps. Current local Codex visibility is positive-only; previous runtime observations below are dated history.
 
@@ -40,7 +42,7 @@ Forty-two other-owner STATUS lead blocks remain unchanged from the prior review;
 
 ## WILL_NEEDS
 
-No new decision needed for this boot. Systems bookmarks are evidence/options only; no automatic build approval inferred.
+No new decision needed for this requested analysis or prior boot. Systems bookmarks are evidence/options only; no automatic build approval inferred.
 
 F1/F2 decision approved and implemented. No further approval needed for this amendment. Remaining proposals, dependencies and optional ideas are listed under OPEN DESIGN DECISIONS; no new blanket build approval requested.
 
@@ -50,8 +52,10 @@ No new decision required for the completed oil-rig reconciliation. Registrar tra
 
 ## FOLLOW-UP
 
+Current research: REGINALD/FLG/CORAL have create-only packets for existing owner review. Reconcile FLG/HBAN M3 growth versus classification and AMTB/SBCF equity components; full-universe work remains REGINALD’s existing November 7 pass. No new monitor or owner launch.
+
 1. Prior attestation/L845 and publication repair CLOSED. Cleanup registrar packet: PROME/inbox/2026-10-31_from-WALTER_process-cleanup-owner-followthrough.md; phone BASIS removal/transcription verified; local basis now 28. Legacy VPS gap closed by Will’s confirmation at owner commit 61b16595a. Prior cleanup and archive pass published; burst-retirement payload is now origin-proven; central READ retirement and five-file basis transcription verified complete. Backlog-reconciliation payload e9f80744d and receipt 0ce5ddca4 are origin-proven. Publish the verdict-amendment payload in the next coordinated window; its unchanged-footprint basis review is recorded for registrar transcription. PROME owns bridge repair L907; retain current positive-only runtime visibility until the adapter is repaired and verified.
-2. Earlier 74 daily handoffs are delivered, including 020–022; nine new copies for 023–025 await coordinated publication, making 83 total. No recipient consumption claimed. Boundary 7 repair and its publication are complete. BRENT/HANS/TERRY integration of source repairs is not yet evidenced; use normal owner receipts, not duplicate dispatches or artificial acknowledgment requests.
+2. Earlier 74 daily handoffs are delivered, including 020–022; 16 new copies for 023–026 await coordinated publication, making 90 total. No recipient consumption claimed. Boundary 7 repair and its publication are complete. BRENT/HANS/TERRY integration of source repairs is not yet evidenced; use normal owner receipts, not duplicate dispatches or artificial acknowledgment requests.
 3. Monday November 2: FRED HY/VIXCLS October 30 release check, final dated CME bulletin, boundary 8 January switch/new count with missing ICE leg explicit. November 1 OPEC+ and Sinokor legal-action date, existing Iran answer/Qatar draft, DEWEY 005R and LIQUID October issuance carries unchanged.
 4. November 3: midterms and NEXUS weekly; central attestation checkpoint L845 is resolved. November 4: Cushing, GATE-FALCON-001 review, CF Q3. November 5: Iran full sweep, MEMORY calendar check and NREF Q3 (secondary date). November 6: L334 predictive leg, WQ-556 C check and STWD/ACRE cohort releases. November 11: Veterans Day HY non-session bridge. Around November 12: staleness sweep. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit unchanged.
 5. EO 14421 follow-ups (WATT before December 24; CYPHER context) and REGINALD coverage-basis conflict (DEWEY 003R) retain their existing scopes. Design/tuning dependencies and optional ideas are specified once in OPEN DESIGN DECISIONS below. No new assignment inferred.
@@ -96,12 +100,12 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-FULL boot continuity. Existing 74 October31 handoffs origin-proven; nine new copies awaiting coordinated publication. Boot remains PARTIAL. Source limits and exact publication scope below.
+FULL analysis continuity. Existing 74 October 31 handoffs origin-proven; 16 new copies awaiting coordinated publication. Prior boot remains PARTIAL. Source limits and exact publication scope below.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-01T01:13:21Z",
+  "as_of": "2026-11-01T02:31:35Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -192,36 +196,36 @@ FULL boot continuity. Existing 74 October31 handoffs origin-proven; nine new cop
   ],
   "delivery": {
     "signal_date": "20261031",
-    "total": 83,
+    "total": 90,
     "delivered": 74,
-    "note": "Nine new 023\u2013025 handoffs written; coordinated publication pending. Existing 74 origin-proven; consumption separate."
+    "note": "16 handoffs for 023\u2013026 written; coordinated publication pending. Existing 74 origin-proven; consumption separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-31_night-boot/REVIEW.md",
-        "sha256": "e33394cff78ff324f02a57e87913c77c34cae0c9da3bdb9ecac48d5c0f9f3537"
+        "path": "AGENTS/WALTER/research/2026-10-31_call-report-read/REPORT.md",
+        "sha256": "526f8b429067c088375c477c0034c61cc02c9f9a92e210e1c44c68a45b6ec2d0"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-10-31_night-boot/THRESHOLD-SCAN.md",
-        "sha256": "038baa333283f0852981bd5312327bcbd9d8e74e63ef134a5549a2770157e941"
+        "path": "AGENTS/WALTER/research/2026-10-31_call-report-read/VERIFY-BASIS.md",
+        "sha256": "d0c5541999db9bbfc67fa2253749495e6b8aee7bc55a68cd9ad505831b89b3d7"
       }
     ]
   },
   "procedure": {
     "tier": "full",
     "boot": "PARTIAL: source execution, carried owner context and full-fleet visibility gaps recorded.",
-    "session": "Will-launched boot, source checks and ten bookmark dispositions."
+    "session": "Will-requested bounded Q3 Call Report analysis; prior boot coverage limits carried."
   },
   "manual_duties": {
     "0-9b": "Root/local runtime verified; operations and source/context gaps in hash-bound REVIEW. No DARK or all-clear inferred.",
-    "11": "Cards 023\u2013025, nine handoffs;10/10 batch closed and marked; four kill-log rows includes one duplicate.",
-    "12-14": "REGISTRY refreshed before NETWORK; prior CHANGED moved verbatim; BALANCED; MEMORY session note; no promotion or full deferral.",
-    "root.retirement": "No deletion or new source retirement; historical narratives moved verbatim, approvals retained.",
-    "15": "Canonical duties and source limits preserved; current receipt and dated manual evidence.",
-    "16": "Payload 3ae4a8ded42a196481bfa578b1b19b1a15a18892 committed with40 exact authored paths. Fresh origin f07735f67e2da3fd0bb84057d1197b3763af62a0 does not include it; nine new handoffs remain undelivered. Coordinated publication deferred; foreign PROME work untouched. No external send, owner consumption or self-push claimed.",
-    "checks": "Read-cap/archive/weekday/basis28/READS/MEMORY99 pass. Doctor no HIGH, retained CATO MED. Ledger advisory disposition: real route/kill/delivery/batch changes in this payload; no fabricated event rows. Orphan advisory separates authored BOARD/handoffs from foreign PROME. Receipt scope literal corrected and targeted recheck recorded."
+    "11": "Card 026, seven handoffs; BM-20261101-02 CLOSED 14/14. No new kills or threshold fires.",
+    "12-14": "REGISTRY self refreshed before NETWORK; 43 other-owner leads unchanged; prior CHANGED preserved verbatim; MEMORY note; BALANCED, zero full deferrals.",
+    "root.retirement": "No deletion or source retirement; all carried approvals retained.",
+    "15": "Current hash-bound report and independent verification manually reviewed; prior source gaps retained.",
+    "16": "Exact-path payload commit pending. Fresh origin remains f07735f67e2da3fd0bb84057d1197b3763af62a0; foreign PROME work excludes self-push. No owner consumption claimed.",
+    "checks": "Receipt/read-cap/archive/weekday/basis/READS/MEMORY checks pass. Doctor has no HIGH: retained CATO consumption MED plus nine prior pending-publication MED, with seven new written packets. Coordinated publication deferred under the existing rule; foreign PROME work untouched. Orphan labels are path-based: only self-authored BOARD and seven packets included. Source arithmetic and all 14 equity bridges verified."
   }
 }
 END_CLOSEOUT_RECEIPT -->

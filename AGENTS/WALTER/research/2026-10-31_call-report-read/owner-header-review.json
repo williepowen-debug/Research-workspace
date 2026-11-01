@@ -1,0 +1,270 @@
+{
+  "as_of": "2026-11-01T02:31:35Z",
+  "basis": "43 other-owner leads byte-identical to prior reviewed capture; self refreshed separately. Not new source pulls or liveness evidence.",
+  "rows": [
+    {
+      "path": "AGENTS/AEOLUS/STATUS.md",
+      "header_lines": 30,
+      "sha256": "4994eafcda279b1b418b6cde2c8a81f164febcbe92f7122cd5f684a576a3480a",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/ATHENA/STATUS.md",
+      "header_lines": 26,
+      "sha256": "d17ea84aaf4cfce746f9002e7bae4644184618f1a8fd819dd52c7104986ece78",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/BOND/STATUS.md",
+      "header_lines": 30,
+      "sha256": "ea7e29e92efe0bb445fca16640fff7afc8b7426eefa64461147220483e2f018a",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/BRENT/STATUS.md",
+      "header_lines": 30,
+      "sha256": "4682458ff71366908ddfa888ef788c8605ac437cbca91f708eb3226f2f794bd3",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/BROCK/STATUS.md",
+      "header_lines": 29,
+      "sha256": "23004008c27d8ecdbf82f28d6cfd767687d0f2a9ce9952bd3068eae981c20b93",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/CARL/STATUS.md",
+      "header_lines": 30,
+      "sha256": "f75dd85b19d50258c8453ad22fa6a07461146c825da5477ee9f4749f69db45f2",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/CORAL/STATUS.md",
+      "header_lines": 30,
+      "sha256": "e71e4712027342a6bf603bf4f1e78352751c9f176a8b222bf8ff5604c4497bbc",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/CREED/STATUS.md",
+      "header_lines": 30,
+      "sha256": "fc000d9617cfb1adba2c52e72d86f2af87acfa1adb9dc5f48741daec9508aca3",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/CRUISE/STATUS.md",
+      "header_lines": 30,
+      "sha256": "d097b7353c502f86fefec24c2a8b1937a4f3eb7ee5f74929ec4797a850f6fce1",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/CYPHER/STATUS.md",
+      "header_lines": 30,
+      "sha256": "f4367afc38a639c2a7f8377c0b4a682873c0c1f2656b9690655da9804990988b",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/DAEDALUS/STATUS.md",
+      "header_lines": 30,
+      "sha256": "0041b4e065ce7be36990f38e5d463e6e455620db863dbbf2a1acad094b37959a",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/FALCON/STATUS.md",
+      "header_lines": 30,
+      "sha256": "b8ed52c8ae549670e7fda6d0b7d3e240373ca376f9fdf9bf0e8673da37e57c97",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/FERT/STATUS.md",
+      "header_lines": 30,
+      "sha256": "8069dfe4e8bc10ef385b6f8d072140679ed458bb72ba7ee68b3acf7a80ed60ef",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/FLG/STATUS.md",
+      "header_lines": 29,
+      "sha256": "34ba3a6614b15b48e7dd992469a893c5b251cacbfb17e6760ce3bc0cf464718a",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/GIBBS/STATUS.md",
+      "header_lines": 30,
+      "sha256": "4f3359b801cd0ff4688f1968a97d33dfe8185618e5da21d619c53acca3e6a562",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/HANS/STATUS.md",
+      "header_lines": 29,
+      "sha256": "0ba5b8d5e1ed9d59a4a1921721c1f0861151d8fdc6f35b242b2d257c7f900883",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/HAWK/STATUS.md",
+      "header_lines": 30,
+      "sha256": "f89a434517b0b4fe38b8539d589b0a166a63d0217d688cf1ac170a85b08e02bf",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/HENRY/STATUS.md",
+      "header_lines": 30,
+      "sha256": "28e462cc302167bf0921b6a2c523125a1426f2882c8862d75dac60cf4fada7a8",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/HOMER/STATUS.md",
+      "header_lines": 30,
+      "sha256": "3e0aa895b466826615412a191110740e73539bc52ba5d6d77e6e1464fd9e1e15",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/ISHM/STATUS.md",
+      "header_lines": 29,
+      "sha256": "1169f4dae383f4d732844c60a3f73d284d827bf2c03b4cbeb096bf53e65bdf6d",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/LABOR/STATUS.md",
+      "header_lines": 30,
+      "sha256": "436d43d880229d533660657db65461c2254280c8e6db2aae88792e7fe517f16f",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "header_lines": 30,
+      "sha256": "6229b07f83080c347b1d309fbe785a2fbf77ee153d2c479ed875f6181f5c771b",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/MARCO/STATUS.md",
+      "header_lines": 30,
+      "sha256": "2840014517114eb41a603e1a0d2656ffe05eba72d24c47810682cd86283d1901",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/MIDAS/STATUS.md",
+      "header_lines": 30,
+      "sha256": "8ba1336951fa4d55f931a856e4c86380b07b8ac98059a257e3ebf0f1ed49e51f",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/NEXUS/STATUS.md",
+      "header_lines": 30,
+      "sha256": "5956a9da3ea5cc3e3a3ca079ad047751b7feac69fea401991178996c72102a89",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/ORACLE/STATUS.md",
+      "header_lines": 29,
+      "sha256": "bb17745d07e0eac2c00ea56964ffc762d0d0a1e8db2792f262de4826700744a4",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/OSPREY/STATUS.md",
+      "header_lines": 29,
+      "sha256": "5e1c5f39d83b5e5a031ad56a3f359114f76e615bb4e1b2ec5034b49d175fe2b1",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/OTTO/STATUS.md",
+      "header_lines": 30,
+      "sha256": "48980ba68ccabc0b10e4edfdf01d600902dcd96000e5167f4d46d1a21edf1945",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/OZK/STATUS.md",
+      "header_lines": 30,
+      "sha256": "76b0a87565baa40a4bdc7348f101a6f559e7aff4ab8db7d22f7c28190b8251da",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/RED/STATUS.md",
+      "header_lines": 29,
+      "sha256": "7839bfec8c00d0d4b919cf9680fefcb656cf806ab5cd8180c5701fe50ac24e3e",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/REGINALD/STATUS.md",
+      "header_lines": 30,
+      "sha256": "510082cd7c64a9d2215c04556523cf7bc8b4af33b768c43cb378fa3de3048e68",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/SAM/STATUS.md",
+      "header_lines": 30,
+      "sha256": "9541fbf6ec8e5f432410fd7f22b5c6e854b4ec8048b3dee2b81d6f860d5c2de2",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/SENTRY/STATUS.md",
+      "header_lines": 30,
+      "sha256": "9e66d689ca734caabff621766a896a73835d8adf397857d958740acbd2699bc6",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/SHADE/STATUS.md",
+      "header_lines": 29,
+      "sha256": "1532635fc73c62a5af87725563e061abc42376269d393165b68c3c015c9af02c",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/TERRY/STATUS.md",
+      "header_lines": 30,
+      "sha256": "b77f9022dfa42fcbbdf2c9eb3e46a72e7cf2d23d2808a31b9abb736b730b0cc5",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/VIOLET/STATUS.md",
+      "header_lines": 30,
+      "sha256": "be89f50d157fd6714355ce7508e33ebdf6fb2bb4c07f87c41f65db53ca16dee4",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/VULCAN/STATUS.md",
+      "header_lines": 30,
+      "sha256": "6345c5d2d96b7e1205471a0be957db4aad2142ef4b2478b86cfe3d438ed90ccc",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/WAL/STATUS.md",
+      "header_lines": 30,
+      "sha256": "9ffab6d32553094cf2ca2d1f35b9d27eaed1659dd20334664b9d90107f81f67c",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/WALTER/STATUS.md",
+      "header_lines": 30,
+      "sha256": "bdb4ab6fa69e85310c4991f04cb3730640a28b0f4958d149a81d452d84e2ce75",
+      "changed_since_prior_review": true
+    },
+    {
+      "path": "AGENTS/WATT/STATUS.md",
+      "header_lines": 29,
+      "sha256": "50e1e376e34c8750ed3d53379146fa802e685225cf302d2f8ce506b17249a626",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/YEYOU/STATUS.md",
+      "header_lines": 30,
+      "sha256": "fc04ae5c743bb4f5ca5c1a938f8bc2283843cd8a9b48a0cb7e5a0fe3130f58d8",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/YURI/STATUS.md",
+      "header_lines": 30,
+      "sha256": "693c624b888281ea7fdd21370344ef895e82f57b348f5e056ed774c219755af3",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "AGENTS/ZHAO/STATUS.md",
+      "header_lines": 30,
+      "sha256": "7b384511a4ad1355df0def00a3789c3a6f340717ada89d385231e6293e2461c6",
+      "changed_since_prior_review": false
+    },
+    {
+      "path": "PROME/STATUS.md",
+      "header_lines": 30,
+      "sha256": "e91369ba0ac651831504412af7f7d3ed9516e0fc821504ff8bd2e56e84b41fec",
+      "changed_since_prior_review": false
+    }
+  ]
+}

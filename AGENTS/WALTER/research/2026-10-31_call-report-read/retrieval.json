@@ -1,0 +1,422 @@
+[
+  {
+    "bank": "OZK",
+    "rssd": 107244,
+    "report_date": "20260331",
+    "sha256": "e556fd08c75aef6aab7f05d6e5abf63e737c76d1a55ae0c3cb19479ad1bbf3f2",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/OZK_20260331.sdf",
+    "rows": 1764,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.533825+00:00"
+  },
+  {
+    "bank": "OZK",
+    "rssd": 107244,
+    "report_date": "20260630",
+    "sha256": "66ac3ac388cd7b6334d2a9edd7c47c0436a697118989727a8462efad412fdf1f",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/OZK_20260630.sdf",
+    "rows": 1783,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.538610+00:00"
+  },
+  {
+    "bank": "WAL",
+    "rssd": 3138146,
+    "report_date": "20260331",
+    "sha256": "8f051cbe7742e91fbb14a1ffd157c8163c68c7183e2c1e456dcfdcdaaf64c359",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/WAL_20260331.sdf",
+    "rows": 1795,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.544261+00:00"
+  },
+  {
+    "bank": "WAL",
+    "rssd": 3138146,
+    "report_date": "20260630",
+    "sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/WAL_20260630.sdf",
+    "rows": 1812,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.548999+00:00"
+  },
+  {
+    "bank": "EGBN",
+    "rssd": 2652092,
+    "report_date": "20260331",
+    "sha256": "18c1d131681efc7c80efaeee1c4872d2b5474e3c2e407c724aa667af4e0b87c0",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/EGBN_20260331.sdf",
+    "rows": 1697,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.552501+00:00"
+  },
+  {
+    "bank": "EGBN",
+    "rssd": 2652092,
+    "report_date": "20260630",
+    "sha256": "2b4a941f68e290b750e98c5f543c6a8412917acdeec8a1f07bae3a40ad102a7a",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/EGBN_20260630.sdf",
+    "rows": 1713,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.555621+00:00"
+  },
+  {
+    "bank": "ZION",
+    "rssd": 276579,
+    "report_date": "20260331",
+    "sha256": "9680d3cb3447d4d8ef41d5a6653deeff41a12405b3c759a032e4acfa1414afa8",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/ZION_20260331.sdf",
+    "rows": 1785,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.559167+00:00"
+  },
+  {
+    "bank": "ZION",
+    "rssd": 276579,
+    "report_date": "20260630",
+    "sha256": "5418792a7b827b8a3b2ef5f6589701cbce492db7abe39758c7c283aaad1050d6",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/ZION_20260630.sdf",
+    "rows": 1801,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.562825+00:00"
+  },
+  {
+    "bank": "SSB",
+    "rssd": 1929247,
+    "report_date": "20260331",
+    "sha256": "1bf62a5414d82845a19f43f3cbef33086a0aa756723c97f2931951b49b97de92",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/SSB_20260331.sdf",
+    "rows": 1769,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.566132+00:00"
+  },
+  {
+    "bank": "SSB",
+    "rssd": 1929247,
+    "report_date": "20260630",
+    "sha256": "4c97d979ee3de8cbe35dafbffdf57a1243bcd9524aa98c7c147f3c7498e09ba9",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/SSB_20260630.sdf",
+    "rows": 1787,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.569104+00:00"
+  },
+  {
+    "bank": "CFG",
+    "rssd": 3303298,
+    "report_date": "20260331",
+    "sha256": "37f165f0607b44e1c03530a3c8f9af71bb78f6f82e05f2c1320fbbf501ec60a5",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/CFG_20260331.sdf",
+    "rows": 1941,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.572199+00:00"
+  },
+  {
+    "bank": "CFG",
+    "rssd": 3303298,
+    "report_date": "20260630",
+    "sha256": "bde384b2e990326cc069a216fc24e0b143ddca64353fb8d877a1091b8068d817",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/CFG_20260630.sdf",
+    "rows": 1960,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.575794+00:00"
+  },
+  {
+    "bank": "BKU",
+    "rssd": 3938186,
+    "report_date": "20260331",
+    "sha256": "f79eb6a20b27628bcb40519560e9ba94fe2c90f84085590238a28fb801f10c8f",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/BKU_20260331.sdf",
+    "rows": 1694,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.579559+00:00"
+  },
+  {
+    "bank": "BKU",
+    "rssd": 3938186,
+    "report_date": "20260630",
+    "sha256": "1efb4d22f362a1670a57125639d3367d46b02f43a4a16aaf0412c3a62e0e143e",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/BKU_20260630.sdf",
+    "rows": 1710,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.582855+00:00"
+  },
+  {
+    "bank": "SBCF",
+    "rssd": 34537,
+    "report_date": "20260331",
+    "sha256": "d0de0f46a73ff9c54391104f43f0a06978efd452b60d121cd23cd13738f3611b",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/SBCF_20260331.sdf",
+    "rows": 1766,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.586136+00:00"
+  },
+  {
+    "bank": "SBCF",
+    "rssd": 34537,
+    "report_date": "20260630",
+    "sha256": "82b3895db3d1e872185973bae44d901a19ded04ec310c88bc81bb033e072da66",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/SBCF_20260630.sdf",
+    "rows": 1789,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.589455+00:00"
+  },
+  {
+    "bank": "AMTB",
+    "rssd": 83638,
+    "report_date": "20260331",
+    "sha256": "7b32e4407521c9ab157404616676e04c2542d8fc89317a62bd560132b1c3581a",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/AMTB_20260331.sdf",
+    "rows": 1797,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.592661+00:00"
+  },
+  {
+    "bank": "AMTB",
+    "rssd": 83638,
+    "report_date": "20260630",
+    "sha256": "8574ba8f1ba16b72cb54f75bddefe95eb5b19d6f634479ef1586970bebda06d8",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/AMTB_20260630.sdf",
+    "rows": 1816,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.595993+00:00"
+  },
+  {
+    "bank": "FLG",
+    "rssd": 694904,
+    "report_date": "20260331",
+    "sha256": "d956f180fc45143872769eec60b19db87b1804d50c4dbb71953536b5b54287af",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/FLG_20260331.sdf",
+    "rows": 1935,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.599566+00:00"
+  },
+  {
+    "bank": "FLG",
+    "rssd": 694904,
+    "report_date": "20260630",
+    "sha256": "466db13809ffa5762a701a6b49cf032409de3b965381970ab1c8344e9b15b239",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/FLG_20260630.sdf",
+    "rows": 1953,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.603116+00:00"
+  },
+  {
+    "bank": "MTB",
+    "rssd": 501105,
+    "report_date": "20260331",
+    "sha256": "c71583ab0a2f7da1bae97f235cf1ec4603bbcf56bc228e1d697ff4d2460d6225",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/MTB_20260331.sdf",
+    "rows": 2085,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.607804+00:00"
+  },
+  {
+    "bank": "MTB",
+    "rssd": 501105,
+    "report_date": "20260630",
+    "sha256": "74c9d31e2a1212bbae4e49e79ebb215184873f4aeb114e2b888f217e7dca35fa",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/MTB_20260630.sdf",
+    "rows": 2104,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.611973+00:00"
+  },
+  {
+    "bank": "HBAN",
+    "rssd": 12311,
+    "report_date": "20260331",
+    "sha256": "1f74e80df201aed6edc4fa854ff460c643e25145a57b717e3918ff9399f43abf",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/HBAN_20260331.sdf",
+    "rows": 2086,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.616845+00:00"
+  },
+  {
+    "bank": "HBAN",
+    "rssd": 12311,
+    "report_date": "20260630",
+    "sha256": "dcc520913f27d0187c5c4ec7d4616dcbeee5e6587859286fbdb7370c76215a18",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/HBAN_20260630.sdf",
+    "rows": 2105,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.621219+00:00"
+  },
+  {
+    "bank": "VLY",
+    "rssd": 229801,
+    "report_date": "20260331",
+    "sha256": "16c56626921fb232316821aeffe8314ee1597e1565482dcccb7807acd94868b3",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/VLY_20260331.sdf",
+    "rows": 1992,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.624452+00:00"
+  },
+  {
+    "bank": "VLY",
+    "rssd": 229801,
+    "report_date": "20260630",
+    "sha256": "19c15228bc487fd9a97ac1a158d2d46aeaf6b130bf86450b07c375a86ac4646e",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/VLY_20260630.sdf",
+    "rows": 2011,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.627403+00:00"
+  },
+  {
+    "bank": "CUBI",
+    "rssd": 2354985,
+    "report_date": "20260331",
+    "sha256": "ab1e4e72364afff99ced3cdafbd217db61db02b3f208b26cc33f7658877f410f",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/CUBI_20260331.sdf",
+    "rows": 1716,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.629989+00:00"
+  },
+  {
+    "bank": "CUBI",
+    "rssd": 2354985,
+    "report_date": "20260630",
+    "sha256": "8e049f35ccfc84b79ca337c9e508c5481d0615a1139a3b7ff6dc5869185de50f",
+    "raw_path": "/tmp/walter-call-report-comparison-eagcicxy/CUBI_20260630.sdf",
+    "rows": 1734,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:22:04.632663+00:00"
+  },
+  {
+    "bank": "OZK",
+    "rssd": 107244,
+    "report_date": "20260930",
+    "sha256": "583734eb75aa7ba1062d4a929e7ac4ce63bfe79dcc800eccec41b43e05df3e5d",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/OZK_20260930.sdf",
+    "rows": 1767,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "WAL",
+    "rssd": 3138146,
+    "report_date": "20260930",
+    "sha256": "2e04cc7bf1a78e525a68059c358215c8ce9e3c24c3639d84ea74ccb8d69c60a4",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/WAL_20260930.sdf",
+    "rows": 1792,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "EGBN",
+    "rssd": 2652092,
+    "report_date": "20260930",
+    "sha256": "a4b07063cc10f7ba0cb0c19b8dc0e84f30e36455ab2cb39e8dce90904df3f991",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/EGBN_20260930.sdf",
+    "rows": 1689,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "ZION",
+    "rssd": 276579,
+    "report_date": "20260930",
+    "sha256": "7dc7a996708da29bfd418d376e921106e5fe84b1960243a4a6dc1558a28a64a8",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/ZION_20260930.sdf",
+    "rows": 1780,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "SSB",
+    "rssd": 1929247,
+    "report_date": "20260930",
+    "sha256": "88142f5c6a8563157d34545fa491631bb19a761b38cbd03e099be6458d480c35",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/SSB_20260930.sdf",
+    "rows": 1763,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "CFG",
+    "rssd": 3303298,
+    "report_date": "20260930",
+    "sha256": "0dbd8bf5ab37ce31bf484fff17ce56e19819dc29e8804b94411d4eb5a1b0bc3b",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/CFG_20260930.sdf",
+    "rows": 1940,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "BKU",
+    "rssd": 3938186,
+    "report_date": "20260930",
+    "sha256": "5ec65702131f149ea8c236d059ce0b095dd3564bb5239ece5f26761828484192",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/BKU_20260930.sdf",
+    "rows": 1688,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "SBCF",
+    "rssd": 34537,
+    "report_date": "20260930",
+    "sha256": "1a5594e0a7fab9e2c814e73bba5f5d21040887e22bfa9fac07dc7402be26c73b",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/SBCF_20260930.sdf",
+    "rows": 1770,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "AMTB",
+    "rssd": 83638,
+    "report_date": "20260930",
+    "sha256": "7acc609b92e8ded3f527809ff48cbed1e8cdbca84c31ec8cdaee30c40db3b6a9",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/AMTB_20260930.sdf",
+    "rows": 1791,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "FLG",
+    "rssd": 694904,
+    "report_date": "20260930",
+    "sha256": "8cf81ff12e2bad75b58273e4d8702a29d0823a94d393bf5b0ab61d9cc0c82e12",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/FLG_20260930.sdf",
+    "rows": 1934,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "MTB",
+    "rssd": 501105,
+    "report_date": "20260930",
+    "sha256": "839d287ac3354968d0c3d3168a100c5670281403ccf4596f325c097bc60cc997",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/MTB_20260930.sdf",
+    "rows": 2084,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "HBAN",
+    "rssd": 12311,
+    "report_date": "20260930",
+    "sha256": "3037002bcb6cbb2a114629c49cad957866085b0023f4c9fd0960310fba98c4f8",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/HBAN_20260930.sdf",
+    "rows": 2085,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "VLY",
+    "rssd": 229801,
+    "report_date": "20260930",
+    "sha256": "37b15f97a6dd668c9a25cdc49bd4f9a359b7d7b05a278a404512207102e4b065",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/VLY_20260930.sdf",
+    "rows": 1987,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  {
+    "bank": "CUBI",
+    "rssd": 2354985,
+    "report_date": "20260930",
+    "sha256": "3dbc389b02e024248134468850e80ded66ef52c97de16c7b24ba65559609b3e3",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/CUBI_20260930.sdf",
+    "rows": 1713,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  }
+]

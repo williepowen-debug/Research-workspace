@@ -1,0 +1,1150 @@
+bank	period	field	Call Date	Bank RSSD	MDRM	Value	Last Update	Short Definition	Schedule	Line
+OZK	20260331	asset	20260331	107244	RCON2170	41663976	20260430	Total balance sheet assets	RCRII	11
+OZK	20260331	equity	20260331	107244	RCON3210	6156210	20260430	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+OZK	20260331	aoci	20260331	107244	RCONB530	-47897	20260430	Accumulated other comprehensive income	RC	26b
+OZK	20260331	afs_cost	20260331	107244	RCON1772	3906731	20260430	Total (sum of items 1 through 7)	RCB	8
+OZK	20260331	afs_fv	20260331	107244	RCON1773	3843525	20260430	Total (sum of items 1 through 7)	RCB	8
+OZK	20260331	htm_cost	20260331	107244	RCON1754	0	20260430	Total (sum of items 1 through 7)	RCB	8
+OZK	20260331	htm_fv	20260331	107244	RCON1771	0	20260430	Total (sum of items 1 through 7)	RCB	8
+OZK	20260331	dom_dep	20260331	107244	RCON2200	33764925	20260430	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+OZK	20260331	nib_dom	20260331	107244	RCON6631	3900511	20260430	Noninterest-bearing	RC	13a1
+OZK	20260331	brokered	20260331	107244	RCON2365	2482863	20260430	Total brokered deposits	RCE	M1b
+OZK	20260331	uninsured_dom	20260331	107244	RCON5597	11176423	20260430	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+OZK	20260331	loans	20260331	107244	RCON2122	32975210	20260430	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+OZK	20260331	allowance	20260331	107244	RCON3123	479945	20260430	LESS: Allowance for credit losses on loans and leases	RCRII	6
+OZK	20260331	nal	20260331	107244	RCON1403	296575	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260331	past90	20260331	107244	RCON1407	0	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260331	past30	20260331	107244	RCON1406	190947	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260331	ni_ytd	20260331	107244	RIAD4340	163364	20260430	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+OZK	20260331	co_ytd	20260331	107244	RIAD4635	46285	20260430	Total (sum of items 1 through 8)	RIBI	9
+OZK	20260331	rec_ytd	20260331	107244	RIAD4605	947	20260430	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+OZK	20260331	loan_prov_ytd	20260331	107244	RIAD4230	49562	20260430	Provisions for credit losses	RIBII	5
+OZK	20260331	other_bor	20260331	107244	RCON3190	200000	20260430	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+OZK	20260331	fedfunds	20260331	107244	RCONB993	150000	20260430	Federal funds purchased	RC	14a
+OZK	20260331	repos	20260331	107244	RCONB995	636	20260430	Securities sold under agreements to repurchase	RC	14b
+OZK	20260331	cet1ratio	20260331	107244	RCOAP793	11.5952%	20260430	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+OZK	20260331	cet1	20260331	107244	RCOAP859	5199490	20260430	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+OZK	20260331	mi3	20260331	107244	RCON2746	489284	20260430	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+OZK	20260331	ndfi	20260331	107244	RCONJ454	3057519	20260430	Loans to nondepository financial institutions	RCCI	9a
+OZK	20260630	asset	20260630	107244	RCON2170	41703134	20260730	Total balance sheet assets	RCRII	11
+OZK	20260630	equity	20260630	107244	RCON3210	6278068	20260730	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+OZK	20260630	aoci	20260630	107244	RCONB530	-26763	20260730	Accumulated other comprehensive income	RC	26b
+OZK	20260630	afs_cost	20260630	107244	RCON1772	4270243	20260730	Total (sum of items 1 through 7)	RCB	8
+OZK	20260630	afs_fv	20260630	107244	RCON1773	4235075	20260730	Total (sum of items 1 through 7)	RCB	8
+OZK	20260630	htm_cost	20260630	107244	RCON1754	0	20260730	Total (sum of items 1 through 7)	RCB	8
+OZK	20260630	htm_fv	20260630	107244	RCON1771	0	20260730	Total (sum of items 1 through 7)	RCB	8
+OZK	20260630	dom_dep	20260630	107244	RCON2200	33996752	20260730	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+OZK	20260630	nib_dom	20260630	107244	RCON6631	3951241	20260730	Noninterest-bearing	RC	13a1
+OZK	20260630	brokered	20260630	107244	RCON2365	2517280	20260730	Total brokered deposits	RCE	M1b
+OZK	20260630	uninsured_dom	20260630	107244	RCON5597	11037207	20260730	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+OZK	20260630	loans	20260630	107244	RCON2122	32560970	20260730	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+OZK	20260630	allowance	20260630	107244	RCON3123	461534	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+OZK	20260630	nal	20260630	107244	RCON1403	300416	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260630	past90	20260630	107244	RCON1407	0	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260630	past30	20260630	107244	RCON1406	23273	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260630	ni_ytd	20260630	107244	RIAD4340	330735	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+OZK	20260630	co_ytd	20260630	107244	RIAD4635	103512	20260730	Total (sum of items 1 through 8)	RIBI	9
+OZK	20260630	rec_ytd	20260630	107244	RIAD4605	1920	20260730	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+OZK	20260630	loan_prov_ytd	20260630	107244	RIAD4230	87405	20260730	Provisions for credit losses	RIBII	5
+OZK	20260630	other_bor	20260630	107244	RCON3190	0	20260730	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+OZK	20260630	fedfunds	20260630	107244	RCONB993	0	20260730	Federal funds purchased	RC	14a
+OZK	20260630	repos	20260630	107244	RCONB995	734	20260730	Securities sold under agreements to repurchase	RC	14b
+OZK	20260630	cet1ratio	20260630	107244	RCOAP793	11.8009%	20260730	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+OZK	20260630	cet1	20260630	107244	RCOAP859	5300530	20260730	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+OZK	20260630	mi3	20260630	107244	RCON2746	430277	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+OZK	20260630	ndfi	20260630	107244	RCONJ454	3264019	20260730	Loans to nondepository financial institutions	RCCI	9a
+WAL	20260331	asset	20260331	3138146	RCON2170	98766387	20260430	Total balance sheet assets	RCRII	11
+WAL	20260331	equity	20260331	3138146	RCON3210	7718589	20260430	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+WAL	20260331	aoci	20260331	3138146	RCONB530	-452937	20260430	Accumulated other comprehensive income	RC	26b
+WAL	20260331	afs_cost	20260331	3138146	RCON1772	19314861	20260430	Total (sum of items 1 through 7)	RCB	8
+WAL	20260331	afs_fv	20260331	3138146	RCON1773	18672659	20260430	Total (sum of items 1 through 7)	RCB	8
+WAL	20260331	htm_cost	20260331	3138146	RCON1754	1625057	20260430	Total (sum of items 1 through 7)	RCB	8
+WAL	20260331	htm_fv	20260331	3138146	RCON1771	1450309	20260430	Total (sum of items 1 through 7)	RCB	8
+WAL	20260331	dom_dep	20260331	3138146	RCON2200	83216785	20260430	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+WAL	20260331	nib_dom	20260331	3138146	RCON6631	28078230	20260430	Noninterest-bearing	RC	13a1
+WAL	20260331	brokered	20260331	3138146	RCON2365	14993757	20260430	Total brokered deposits	RCE	M1b
+WAL	20260331	uninsured_dom	20260331	3138146	RCON5597	30354748	20260430	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+WAL	20260331	loans	20260331	3138146	RCON2122	63258844	20260430	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+WAL	20260331	allowance	20260331	3138146	RCON3123	461111	20260430	LESS: Allowance for credit losses on loans and leases	RCRII	6
+WAL	20260331	nal	20260331	3138146	RCON1403	492592	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260331	past90	20260331	3138146	RCON1407	1292012	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260331	past30	20260331	3138146	RCON1406	294061	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260331	ni_ytd	20260331	3138146	RIAD4340	174873	20260430	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+WAL	20260331	co_ytd	20260331	3138146	RIAD4635	209215	20260430	Total (sum of items 1 through 8)	RIBI	9
+WAL	20260331	rec_ytd	20260331	3138146	RIAD4605	636	20260430	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+WAL	20260331	loan_prov_ytd	20260331	3138146	RIAD4230	209000	20260430	Provisions for credit losses	RIBII	5
+WAL	20260331	other_bor	20260331	3138146	RCON3190	5791948	20260430	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+WAL	20260331	fedfunds	20260331	3138146	RCONB993	0	20260430	Federal funds purchased	RC	14a
+WAL	20260331	repos	20260331	3138146	RCONB995	0	20260430	Securities sold under agreements to repurchase	RC	14b
+WAL	20260331	cet1ratio	20260331	3138146	RCOAP793	11.6103%	20260430	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+WAL	20260331	cet1	20260331	3138146	RCOAP859	7445588	20260430	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+WAL	20260331	mi3	20260331	3138146	RCON2746	2722527	20260430	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+WAL	20260331	ndfi	20260331	3138146	RCONJ454	14927699	20260430	Loans to nondepository financial institutions	RCCI	9a
+WAL	20260630	asset	20260630	3138146	RCON2170	98568765	20260730	Total balance sheet assets	RCRII	11
+WAL	20260630	equity	20260630	3138146	RCON3210	7932402	20260730	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+WAL	20260630	aoci	20260630	3138146	RCONB530	-447749	20260730	Accumulated other comprehensive income	RC	26b
+WAL	20260630	afs_cost	20260630	3138146	RCON1772	19513633	20260730	Total (sum of items 1 through 7)	RCB	8
+WAL	20260630	afs_fv	20260630	3138146	RCON1773	18846464	20260730	Total (sum of items 1 through 7)	RCB	8
+WAL	20260630	htm_cost	20260630	3138146	RCON1754	1676204	20260730	Total (sum of items 1 through 7)	RCB	8
+WAL	20260630	htm_fv	20260630	3138146	RCON1771	1496832	20260730	Total (sum of items 1 through 7)	RCB	8
+WAL	20260630	dom_dep	20260630	3138146	RCON2200	82322362	20260730	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+WAL	20260630	nib_dom	20260630	3138146	RCON6631	27819683	20260730	Noninterest-bearing	RC	13a1
+WAL	20260630	brokered	20260630	3138146	RCON2365	15436378	20260730	Total brokered deposits	RCE	M1b
+WAL	20260630	uninsured_dom	20260630	3138146	RCON5597	31358475	20260730	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+WAL	20260630	loans	20260630	3138146	RCON2122	65574902	20260730	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+WAL	20260630	allowance	20260630	3138146	RCON3123	487385	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+WAL	20260630	nal	20260630	3138146	RCON1403	564365	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260630	past90	20260630	3138146	RCON1407	1285415	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260630	past30	20260630	3138146	RCON1406	275483	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260630	ni_ytd	20260630	3138146	RIAD4340	561931	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+WAL	20260630	co_ytd	20260630	3138146	RIAD4635	266797	20260730	Total (sum of items 1 through 8)	RIBI	9
+WAL	20260630	rec_ytd	20260630	3138146	RIAD4605	3191	20260730	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+WAL	20260630	loan_prov_ytd	20260630	3138146	RIAD4230	290301	20260730	Provisions for credit losses	RIBII	5
+WAL	20260630	other_bor	20260630	3138146	RCON3190	6515625	20260730	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+WAL	20260630	fedfunds	20260630	3138146	RCONB993	0	20260730	Federal funds purchased	RC	14a
+WAL	20260630	repos	20260630	3138146	RCONB995	0	20260730	Securities sold under agreements to repurchase	RC	14b
+WAL	20260630	cet1ratio	20260630	3138146	RCOAP793	11.5823%	20260730	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+WAL	20260630	cet1	20260630	3138146	RCOAP859	7651672	20260730	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+WAL	20260630	mi3	20260630	3138146	RCON2746	2554610	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+WAL	20260630	ndfi	20260630	3138146	RCONJ454	15812034	20260730	Loans to nondepository financial institutions	RCCI	9a
+EGBN	20260331	asset	20260331	2652092	RCON2170	9902571	20260506	Total balance sheet assets	RCRII	11
+EGBN	20260331	equity	20260331	2652092	RCON3210	1165171	20260506	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+EGBN	20260331	aoci	20260331	2652092	RCONB530	-89540	20260506	Accumulated other comprehensive income	RC	26b
+EGBN	20260331	afs_cost	20260331	2652092	RCON1772	1008764	20260506	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260331	afs_fv	20260331	2652092	RCON1773	930314	20260506	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260331	htm_cost	20260331	2652092	RCON1754	797881	20260506	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260331	htm_fv	20260331	2652092	RCON1771	714765	20260506	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260331	dom_dep	20260331	2652092	RCON2200	8596517	20260506	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+EGBN	20260331	nib_dom	20260331	2652092	RCON6631	1488860	20260506	Noninterest-bearing	RC	13a1
+EGBN	20260331	brokered	20260331	2652092	RCON2365	2920081	20260506	Total brokered deposits	RCE	M1b
+EGBN	20260331	uninsured_dom	20260331	2652092	RCON5597	2214889	20260506	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+EGBN	20260331	loans	20260331	2652092	RCON2122	6994262	20260506	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+EGBN	20260331	allowance	20260331	2652092	RCON3123	147163	20260506	LESS: Allowance for credit losses on loans and leases	RCRII	6
+EGBN	20260331	nal	20260331	2652092	RCON1403	184259	20260506	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260331	past90	20260331	2652092	RCON1407	0	20260506	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260331	past30	20260331	2652092	RCON1406	18014	20260506	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260331	ni_ytd	20260331	2652092	RIAD4340	16808	20260506	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+EGBN	20260331	co_ytd	20260331	2652092	RIAD4635	26096	20260506	Total (sum of items 1 through 8)	RIBI	9
+EGBN	20260331	rec_ytd	20260331	2652092	RIAD4605	148	20260506	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+EGBN	20260331	loan_prov_ytd	20260331	2652092	RIAD4230	13506	20260506	Provisions for credit losses	RIBII	5
+EGBN	20260331	other_bor	20260331	2652092	RCON3190	0	20260506	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+EGBN	20260331	fedfunds	20260331	2652092	RCONB993	0	20260506	Federal funds purchased	RC	14a
+EGBN	20260331	repos	20260331	2652092	RCONB995	0	20260506	Securities sold under agreements to repurchase	RC	14b
+EGBN	20260331	cet1ratio	20260331	2652092	RCOAP793	14.1321%	20260506	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+EGBN	20260331	cet1	20260331	2652092	RCOAP859	1200757	20260506	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+EGBN	20260331	mi3	20260331	2652092	RCON2746	203695	20260506	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+EGBN	20260331	ndfi	20260331	2652092	RCONJ454	135330	20260506	Loans to nondepository financial institutions	RCCI	9a
+EGBN	20260630	asset	20260630	2652092	RCON2170	9618012	20260902	Total balance sheet assets	RCRII	11
+EGBN	20260630	equity	20260630	2652092	RCON3210	1172467	20260902	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+EGBN	20260630	aoci	20260630	2652092	RCONB530	-93169	20260902	Accumulated other comprehensive income	RC	26b
+EGBN	20260630	afs_cost	20260630	2652092	RCON1772	984608	20260902	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260630	afs_fv	20260630	2652092	RCON1773	904184	20260902	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260630	htm_cost	20260630	2652092	RCON1754	782750	20260902	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260630	htm_fv	20260630	2652092	RCON1771	700089	20260902	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260630	dom_dep	20260630	2652092	RCON2200	8201597	20260902	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+EGBN	20260630	nib_dom	20260630	2652092	RCON6631	1578973	20260902	Noninterest-bearing	RC	13a1
+EGBN	20260630	brokered	20260630	2652092	RCON2365	2618316	20260902	Total brokered deposits	RCE	M1b
+EGBN	20260630	uninsured_dom	20260630	2652092	RCON5597	2271133	20260902	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+EGBN	20260630	loans	20260630	2652092	RCON2122	6672098	20260902	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+EGBN	20260630	allowance	20260630	2652092	RCON3123	121141	20260902	LESS: Allowance for credit losses on loans and leases	RCRII	6
+EGBN	20260630	nal	20260630	2652092	RCON1403	136915	20260902	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260630	past90	20260630	2652092	RCON1407	0	20260902	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260630	past30	20260630	2652092	RCON1406	44087	20260902	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260630	ni_ytd	20260630	2652092	RIAD4340	26136	20260902	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+EGBN	20260630	co_ytd	20260630	2652092	RIAD4635	75157	20260902	Total (sum of items 1 through 8)	RIBI	9
+EGBN	20260630	rec_ytd	20260630	2652092	RIAD4605	1287	20260902	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+EGBN	20260630	loan_prov_ytd	20260630	2652092	RIAD4230	35406	20260902	Provisions for credit losses	RIBII	5
+EGBN	20260630	other_bor	20260630	2652092	RCON3190	100000	20260902	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+EGBN	20260630	fedfunds	20260630	2652092	RCONB993	0	20260902	Federal funds purchased	RC	14a
+EGBN	20260630	repos	20260630	2652092	RCONB995	0	20260902	Securities sold under agreements to repurchase	RC	14b
+EGBN	20260630	cet1ratio	20260630	2652092	RCOAP793	14.9484%	20260902	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+EGBN	20260630	cet1	20260630	2652092	RCOAP859	1210564	20260902	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+EGBN	20260630	mi3	20260630	2652092	RCON2746	152732	20260902	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+EGBN	20260630	ndfi	20260630	2652092	RCONJ454	91664	20260902	Loans to nondepository financial institutions	RCCI	9a
+ZION	20260331	asset	20260331	276579	RCON2170	87956932	20260429	Total balance sheet assets	RCRII	11
+ZION	20260331	equity	20260331	276579	RCON3210	7295506	20260429	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+ZION	20260331	aoci	20260331	276579	RCONB530	-1935508	20260429	Accumulated other comprehensive income	RC	26b
+ZION	20260331	afs_cost	20260331	276579	RCON1772	10383099	20260429	Total (sum of items 1 through 7)	RCB	8
+ZION	20260331	afs_fv	20260331	276579	RCON1773	9184330	20260429	Total (sum of items 1 through 7)	RCB	8
+ZION	20260331	htm_cost	20260331	276579	RCON1754	8687417	20260429	Total (sum of items 1 through 7)	RCB	8
+ZION	20260331	htm_fv	20260331	276579	RCON1771	8696383	20260429	Total (sum of items 1 through 7)	RCB	8
+ZION	20260331	dom_dep	20260331	276579	RCON2200	76926168	20260429	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+ZION	20260331	nib_dom	20260331	276579	RCON6631	27080916	20260429	Noninterest-bearing	RC	13a1
+ZION	20260331	brokered	20260331	276579	RCON2365	5409491	20260429	Total brokered deposits	RCE	M1b
+ZION	20260331	uninsured_dom	20260331	276579	RCON5597	35948842	20260429	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+ZION	20260331	loans	20260331	276579	RCON2122	61373409	20260429	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+ZION	20260331	allowance	20260331	276579	RCON3123	666418	20260429	LESS: Allowance for credit losses on loans and leases	RCRII	6
+ZION	20260331	nal	20260331	276579	RCON1403	278610	20260429	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260331	past90	20260331	276579	RCON1407	2602	20260429	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260331	past30	20260331	276579	RCON1406	82181	20260429	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260331	ni_ytd	20260331	276579	RIAD4340	232932	20260429	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+ZION	20260331	co_ytd	20260331	276579	RIAD4635	10801	20260429	Total (sum of items 1 through 8)	RIBI	9
+ZION	20260331	rec_ytd	20260331	276579	RIAD4605	6494	20260429	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+ZION	20260331	loan_prov_ytd	20260331	276579	RIAD4230	-7326	20260429	Provisions for credit losses	RIBII	5
+ZION	20260331	other_bor	20260331	276579	RCON3190	1259895	20260429	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+ZION	20260331	fedfunds	20260331	276579	RCONB993	345366	20260429	Federal funds purchased	RC	14a
+ZION	20260331	repos	20260331	276579	RCONB995	7812	20260429	Securities sold under agreements to repurchase	RC	14b
+ZION	20260331	cet1ratio	20260331	276579	RCOAP793	11.5571%	20260429	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+ZION	20260331	cet1	20260331	276579	RCOAP859	8049632	20260429	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+ZION	20260331	mi3	20260331	276579	RCON2746	318250	20260429	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+ZION	20260331	ndfi	20260331	276579	RCONJ454	2033937	20260429	Loans to nondepository financial institutions	RCCI	9a
+ZION	20260630	asset	20260630	276579	RCON2170	89041284	20260729	Total balance sheet assets	RCRII	11
+ZION	20260630	equity	20260630	276579	RCON3210	7680845	20260729	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+ZION	20260630	aoci	20260630	276579	RCONB530	-1867002	20260729	Accumulated other comprehensive income	RC	26b
+ZION	20260630	afs_cost	20260630	276579	RCON1772	10396103	20260729	Total (sum of items 1 through 7)	RCB	8
+ZION	20260630	afs_fv	20260630	276579	RCON1773	9239494	20260729	Total (sum of items 1 through 7)	RCB	8
+ZION	20260630	htm_cost	20260630	276579	RCON1754	8476554	20260729	Total (sum of items 1 through 7)	RCB	8
+ZION	20260630	htm_fv	20260630	276579	RCON1771	8439621	20260729	Total (sum of items 1 through 7)	RCB	8
+ZION	20260630	dom_dep	20260630	276579	RCON2200	76616434	20260729	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+ZION	20260630	nib_dom	20260630	276579	RCON6631	26232818	20260729	Noninterest-bearing	RC	13a1
+ZION	20260630	brokered	20260630	276579	RCON2365	5646565	20260729	Total brokered deposits	RCE	M1b
+ZION	20260630	uninsured_dom	20260630	276579	RCON5597	35377492	20260729	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+ZION	20260630	loans	20260630	276579	RCON2122	62557386	20260729	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+ZION	20260630	allowance	20260630	276579	RCON3123	662241	20260729	LESS: Allowance for credit losses on loans and leases	RCRII	6
+ZION	20260630	nal	20260630	276579	RCON1403	292385	20260729	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260630	past90	20260630	276579	RCON1407	3066	20260729	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260630	past30	20260630	276579	RCON1406	91004	20260729	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260630	ni_ytd	20260630	276579	RIAD4340	685692	20260729	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+ZION	20260630	co_ytd	20260630	276579	RIAD4635	24570	20260729	Total (sum of items 1 through 8)	RIBI	9
+ZION	20260630	rec_ytd	20260630	276579	RIAD4605	12129	20260729	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+ZION	20260630	loan_prov_ytd	20260630	276579	RIAD4230	-3369	20260729	Provisions for credit losses	RIBII	5
+ZION	20260630	other_bor	20260630	276579	RCON3190	1329502	20260729	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+ZION	20260630	fedfunds	20260630	276579	RCONB993	785984	20260729	Federal funds purchased	RC	14a
+ZION	20260630	repos	20260630	276579	RCONB995	339839	20260729	Securities sold under agreements to repurchase	RC	14b
+ZION	20260630	cet1ratio	20260630	276579	RCOAP793	11.8279%	20260729	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+ZION	20260630	cet1	20260630	276579	RCOAP859	8367526	20260729	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+ZION	20260630	mi3	20260630	276579	RCON2746	310722	20260729	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+ZION	20260630	ndfi	20260630	276579	RCONJ454	2517907	20260729	Loans to nondepository financial institutions	RCCI	9a
+SSB	20260331	asset	20260331	1929247	RCON2170	67870584	20260820	Total balance sheet assets	RCRII	11
+SSB	20260331	equity	20260331	1929247	RCON3210	9590534	20260820	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+SSB	20260331	aoci	20260331	1929247	RCONB530	-326109	20260820	Accumulated other comprehensive income	RC	26b
+SSB	20260331	afs_cost	20260331	1929247	RCON1772	6969183	20260820	Total (sum of items 1 through 7)	RCB	8
+SSB	20260331	afs_fv	20260331	1929247	RCON1773	6530348	20260820	Total (sum of items 1 through 7)	RCB	8
+SSB	20260331	htm_cost	20260331	1929247	RCON1754	2007249	20260820	Total (sum of items 1 through 7)	RCB	8
+SSB	20260331	htm_fv	20260331	1929247	RCON1771	1684138	20260820	Total (sum of items 1 through 7)	RCB	8
+SSB	20260331	dom_dep	20260331	1929247	RCON2200	55918390	20260820	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+SSB	20260331	nib_dom	20260331	1929247	RCON6631	13693526	20260820	Noninterest-bearing	RC	13a1
+SSB	20260331	brokered	20260331	1929247	RCON2365	4044774	20260820	Total brokered deposits	RCE	M1b
+SSB	20260331	uninsured_dom	20260331	1929247	RCON5597	21747892	20260820	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+SSB	20260331	loans	20260331	1929247	RCON2122	49824718	20260820	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+SSB	20260331	allowance	20260331	1929247	RCON3123	585882	20260820	LESS: Allowance for credit losses on loans and leases	RCRII	6
+SSB	20260331	nal	20260331	1929247	RCON1403	293160	20260820	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260331	past90	20260331	1929247	RCON1407	8901	20260820	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260331	past30	20260331	1929247	RCON1406	92597	20260820	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260331	ni_ytd	20260331	1929247	RIAD4340	238343	20260820	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SSB	20260331	co_ytd	20260331	1929247	RIAD4635	14434	20260820	Total (sum of items 1 through 8)	RIBI	9
+SSB	20260331	rec_ytd	20260331	1929247	RIAD4605	3921	20260820	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+SSB	20260331	loan_prov_ytd	20260331	1929247	RIAD4230	11198	20260820	Provisions for credit losses	RIBII	5
+SSB	20260331	other_bor	20260331	1929247	RCON3190	1068	20260820	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+SSB	20260331	fedfunds	20260331	1929247	RCONB993	343758	20260820	Federal funds purchased	RC	14a
+SSB	20260331	repos	20260331	1929247	RCONB995	299628	20260820	Securities sold under agreements to repurchase	RC	14b
+SSB	20260331	cet1ratio	20260331	1929247	RCOAP793	12.3274%	20260820	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+SSB	20260331	cet1	20260331	1929247	RCOAP859	6553175	20260820	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+SSB	20260331	mi3	20260331	1929247	RCON2746	67134	20260820	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SSB	20260331	ndfi	20260331	1929247	RCONJ454	857557	20260820	Loans to nondepository financial institutions	RCCI	9a
+SSB	20260630	asset	20260630	1929247	RCON2170	68794317	20260820	Total balance sheet assets	RCRII	11
+SSB	20260630	equity	20260630	1929247	RCON3210	9699275	20260820	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+SSB	20260630	aoci	20260630	1929247	RCONB530	-310135	20260820	Accumulated other comprehensive income	RC	26b
+SSB	20260630	afs_cost	20260630	1929247	RCON1772	7016431	20260820	Total (sum of items 1 through 7)	RCB	8
+SSB	20260630	afs_fv	20260630	1929247	RCON1773	6598177	20260820	Total (sum of items 1 through 7)	RCB	8
+SSB	20260630	htm_cost	20260630	1929247	RCON1754	1955754	20260820	Total (sum of items 1 through 7)	RCB	8
+SSB	20260630	htm_fv	20260630	1929247	RCON1771	1641042	20260820	Total (sum of items 1 through 7)	RCB	8
+SSB	20260630	dom_dep	20260630	1929247	RCON2200	56375284	20260820	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+SSB	20260630	nib_dom	20260630	1929247	RCON6631	13476568	20260820	Noninterest-bearing	RC	13a1
+SSB	20260630	brokered	20260630	1929247	RCON2365	4877337	20260820	Total brokered deposits	RCE	M1b
+SSB	20260630	uninsured_dom	20260630	1929247	RCON5597	21292005	20260820	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+SSB	20260630	loans	20260630	1929247	RCON2122	51252313	20260820	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+SSB	20260630	allowance	20260630	1929247	RCON3123	586664	20260820	LESS: Allowance for credit losses on loans and leases	RCRII	6
+SSB	20260630	nal	20260630	1929247	RCON1403	270615	20260820	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260630	past90	20260630	1929247	RCON1407	3796	20260820	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260630	past30	20260630	1929247	RCON1406	93181	20260820	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260630	ni_ytd	20260630	1929247	RIAD4340	481109	20260820	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SSB	20260630	co_ytd	20260630	1929247	RIAD4635	26176	20260820	Total (sum of items 1 through 8)	RIBI	9
+SSB	20260630	rec_ytd	20260630	1929247	RIAD4605	7822	20260820	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+SSB	20260630	loan_prov_ytd	20260630	1929247	RIAD4230	19821	20260820	Provisions for credit losses	RIBII	5
+SSB	20260630	other_bor	20260630	1929247	RCON3190	300944	20260820	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+SSB	20260630	fedfunds	20260630	1929247	RCONB993	286301	20260820	Federal funds purchased	RC	14a
+SSB	20260630	repos	20260630	1929247	RCONB995	283185	20260820	Securities sold under agreements to repurchase	RC	14b
+SSB	20260630	cet1ratio	20260630	1929247	RCOAP793	12.1666%	20260820	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+SSB	20260630	cet1	20260630	1929247	RCOAP859	6663891	20260820	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+SSB	20260630	mi3	20260630	1929247	RCON2746	74314	20260820	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SSB	20260630	ndfi	20260630	1929247	RCONJ454	752984	20260820	Loans to nondepository financial institutions	RCCI	9a
+CFG	20260331	asset	20260331	3303298	RCFD2170	227134099	20260429	Total balance sheet assets	RCRII	11
+CFG	20260331	equity	20260331	3303298	RCFD3210	26651224	20260429	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+CFG	20260331	aoci	20260331	3303298	RCFDB530	-2069416	20260429	Accumulated other comprehensive income	RC	26b
+CFG	20260331	afs_cost	20260331	3303298	RCFD1772	37721417	20260429	Total (sum of items 1 through 7)	RCB	8
+CFG	20260331	afs_fv	20260331	3303298	RCFD1773	36360980	20260429	Total (sum of items 1 through 7)	RCB	8
+CFG	20260331	htm_cost	20260331	3303298	RCFD1754	7800052	20260429	Total (sum of items 1 through 7)	RCB	8
+CFG	20260331	htm_fv	20260331	3303298	RCFD1771	6998886	20260429	Total (sum of items 1 through 7)	RCB	8
+CFG	20260331	dom_dep	20260331	3303298	RCON2200	186851400	20260429	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+CFG	20260331	foreign_dep	20260331	3303298	RCFN2200	0	20260429	Total	RCEII	6
+CFG	20260331	nib_dom	20260331	3303298	RCON6631	44209056	20260429	Noninterest-bearing	RC	13a1
+CFG	20260331	brokered	20260331	3303298	RCON2365	5127840	20260429	Total brokered deposits	RCEI	M1b
+CFG	20260331	uninsured_dom	20260331	3303298	RCON5597	87165484	20260429	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+CFG	20260331	loans	20260331	3303298	RCFD2122	145521403	20260429	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+CFG	20260331	allowance	20260331	3303298	RCFD3123	1958158	20260429	LESS: Allowance for credit losses on loans and leases	RCRII	6
+CFG	20260331	nal	20260331	3303298	RCFD1403	1534202	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260331	past90	20260331	3303298	RCFD1407	623125	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260331	past30	20260331	3303298	RCFD1406	974017	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260331	ni_ytd	20260331	3303298	RIAD4340	533380	20260429	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CFG	20260331	co_ytd	20260331	3303298	RIAD4635	183353	20260429	Total (sum of items 1 through 8)	RIBI	9
+CFG	20260331	rec_ytd	20260331	3303298	RIAD4605	44999	20260429	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+CFG	20260331	loan_prov_ytd	20260331	3303298	RIAD4230	153938	20260429	Provisions for credit losses	RIBII	5
+CFG	20260331	other_bor	20260331	3303298	RCFD3190	7897030	20260429	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+CFG	20260331	fedfunds	20260331	3303298	RCONB993	0	20260429	Federal funds purchased in domestic offices	RC	14a
+CFG	20260331	repos	20260331	3303298	RCFDB995	0	20260429	Securities sold under agreements to repurchase	RC	14b
+CFG	20260331	cet1ratio	20260331	3303298	RCFAP793	12.1160%	20260429	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+CFG	20260331	cet1	20260331	3303298	RCFAP859	20870811	20260429	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+CFG	20260331	mi3	20260331	3303298	RCFD2746	2234547	20260429	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+CFG	20260331	ndfi	20260331	3303298	RCFDJ454	19610625	20260429	Loans to nondepository financial institutions	RCCI	9a
+CFG	20260630	asset	20260630	3303298	RCFD2170	232517438	20260730	Total balance sheet assets	RCRII	11
+CFG	20260630	equity	20260630	3303298	RCFD3210	26478553	20260730	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+CFG	20260630	aoci	20260630	3303298	RCFDB530	-2242235	20260730	Accumulated other comprehensive income	RC	26b
+CFG	20260630	afs_cost	20260630	3303298	RCFD1772	38908748	20260730	Total (sum of items 1 through 7)	RCB	8
+CFG	20260630	afs_fv	20260630	3303298	RCFD1773	37447612	20260730	Total (sum of items 1 through 7)	RCB	8
+CFG	20260630	htm_cost	20260630	3303298	RCFD1754	7637766	20260730	Total (sum of items 1 through 7)	RCB	8
+CFG	20260630	htm_fv	20260630	3303298	RCFD1771	6783292	20260730	Total (sum of items 1 through 7)	RCB	8
+CFG	20260630	dom_dep	20260630	3303298	RCON2200	188731766	20260730	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+CFG	20260630	foreign_dep	20260630	3303298	RCFN2200	0	20260730	Total	RCEII	6
+CFG	20260630	nib_dom	20260630	3303298	RCON6631	43859236	20260730	Noninterest-bearing	RC	13a1
+CFG	20260630	brokered	20260630	3303298	RCON2365	4945038	20260730	Total brokered deposits	RCEI	M1b
+CFG	20260630	uninsured_dom	20260630	3303298	RCON5597	89616508	20260730	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+CFG	20260630	loans	20260630	3303298	RCFD2122	149243774	20260730	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+CFG	20260630	allowance	20260630	3303298	RCFD3123	1969005	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+CFG	20260630	nal	20260630	3303298	RCFD1403	1435342	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260630	past90	20260630	3303298	RCFD1407	590666	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260630	past30	20260630	3303298	RCFD1406	460376	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260630	ni_ytd	20260630	3303298	RIAD4340	1133526	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CFG	20260630	co_ytd	20260630	3303298	RIAD4635	349500	20260730	Total (sum of items 1 through 8)	RIBI	9
+CFG	20260630	rec_ytd	20260630	3303298	RIAD4605	75657	20260730	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+CFG	20260630	loan_prov_ytd	20260630	3303298	RIAD4230	300274	20260730	Provisions for credit losses	RIBII	5
+CFG	20260630	other_bor	20260630	3303298	RCFD3190	11514164	20260730	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+CFG	20260630	fedfunds	20260630	3303298	RCONB993	0	20260730	Federal funds purchased in domestic offices	RC	14a
+CFG	20260630	repos	20260630	3303298	RCFDB995	0	20260730	Securities sold under agreements to repurchase	RC	14b
+CFG	20260630	cet1ratio	20260630	3303298	RCFAP793	11.9179%	20260730	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+CFG	20260630	cet1	20260630	3303298	RCFAP859	20867985	20260730	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+CFG	20260630	mi3	20260630	3303298	RCFD2746	2136043	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+CFG	20260630	ndfi	20260630	3303298	RCFDJ454	21993287	20260730	Loans to nondepository financial institutions	RCCI	9a
+BKU	20260331	asset	20260331	3938186	RCON2170	35341660	20260430	Total balance sheet assets	RCRII	11
+BKU	20260331	equity	20260331	3938186	RCON3210	3191890	20260430	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+BKU	20260331	aoci	20260331	3938186	RCONB530	-203080	20260430	Accumulated other comprehensive income	RC	26b
+BKU	20260331	afs_cost	20260331	3938186	RCON1772	9773608	20260430	Total (sum of items 1 through 7)	RCB	8
+BKU	20260331	afs_fv	20260331	3938186	RCON1773	9499543	20260430	Total (sum of items 1 through 7)	RCB	8
+BKU	20260331	htm_cost	20260331	3938186	RCON1754	0	20260430	Total (sum of items 1 through 7)	RCB	8
+BKU	20260331	htm_fv	20260331	3938186	RCON1771	0	20260430	Total (sum of items 1 through 7)	RCB	8
+BKU	20260331	dom_dep	20260331	3938186	RCON2200	29564537	20260430	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+BKU	20260331	nib_dom	20260331	3938186	RCON6631	9148281	20260430	Noninterest-bearing	RC	13a1
+BKU	20260331	brokered	20260331	3938186	RCON2365	4592735	20260430	Total brokered deposits	RCE	M1b
+BKU	20260331	uninsured_dom	20260331	3938186	RCON5597	15646049	20260430	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+BKU	20260331	loans	20260331	3938186	RCON2122	24171606	20260430	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+BKU	20260331	allowance	20260331	3938186	RCON3123	208790	20260430	LESS: Allowance for credit losses on loans and leases	RCRII	6
+BKU	20260331	nal	20260331	3938186	RCON1403	274690	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260331	past90	20260331	3938186	RCON1407	197333	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260331	past30	20260331	3938186	RCON1406	220439	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260331	ni_ytd	20260331	3938186	RIAD4340	73425	20260430	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+BKU	20260331	co_ytd	20260331	3938186	RIAD4635	36796	20260430	Total (sum of items 1 through 8)	RIBI	9
+BKU	20260331	rec_ytd	20260331	3938186	RIAD4605	658	20260430	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+BKU	20260331	loan_prov_ytd	20260331	3938186	RIAD4230	25103	20260430	Provisions for credit losses	RIBII	5
+BKU	20260331	other_bor	20260331	3938186	RCON3190	1777324	20260430	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+BKU	20260331	fedfunds	20260331	3938186	RCONB993	0	20260430	Federal funds purchased	RC	14a
+BKU	20260331	repos	20260331	3938186	RCONB995	0	20260430	Securities sold under agreements to repurchase	RC	14b
+BKU	20260331	cet1ratio	20260331	3938186	RCOAP793	12.8904%	20260430	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+BKU	20260331	cet1	20260331	3938186	RCOAP859	3317763	20260430	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+BKU	20260331	mi3	20260331	3938186	RCON2746	154146	20260430	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+BKU	20260331	ndfi	20260331	3938186	RCONJ454	2245505	20260430	Loans to nondepository financial institutions	RCCI	9a
+BKU	20260630	asset	20260630	3938186	RCON2170	34864976	20260730	Total balance sheet assets	RCRII	11
+BKU	20260630	equity	20260630	3938186	RCON3210	3181503	20260730	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+BKU	20260630	aoci	20260630	3938186	RCONB530	-216941	20260730	Accumulated other comprehensive income	RC	26b
+BKU	20260630	afs_cost	20260630	3938186	RCON1772	9594139	20260730	Total (sum of items 1 through 7)	RCB	8
+BKU	20260630	afs_fv	20260630	3938186	RCON1773	9311863	20260730	Total (sum of items 1 through 7)	RCB	8
+BKU	20260630	htm_cost	20260630	3938186	RCON1754	0	20260730	Total (sum of items 1 through 7)	RCB	8
+BKU	20260630	htm_fv	20260630	3938186	RCON1771	0	20260730	Total (sum of items 1 through 7)	RCB	8
+BKU	20260630	dom_dep	20260630	3938186	RCON2200	29091654	20260730	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+BKU	20260630	nib_dom	20260630	3938186	RCON6631	10145045	20260730	Noninterest-bearing	RC	13a1
+BKU	20260630	brokered	20260630	3938186	RCON2365	3033609	20260730	Total brokered deposits	RCE	M1b
+BKU	20260630	uninsured_dom	20260630	3938186	RCON5597	16845813	20260730	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+BKU	20260630	loans	20260630	3938186	RCON2122	23932973	20260730	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+BKU	20260630	allowance	20260630	3938186	RCON3123	217516	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+BKU	20260630	nal	20260630	3938186	RCON1403	227825	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260630	past90	20260630	3938186	RCON1407	175882	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260630	past30	20260630	3938186	RCON1406	180054	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260630	ni_ytd	20260630	3938186	RIAD4340	151899	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+BKU	20260630	co_ytd	20260630	3938186	RIAD4635	47187	20260730	Total (sum of items 1 through 8)	RIBI	9
+BKU	20260630	rec_ytd	20260630	3938186	RIAD4605	4677	20260730	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+BKU	20260630	loan_prov_ytd	20260630	3938186	RIAD4230	40201	20260730	Provisions for credit losses	RIBII	5
+BKU	20260630	other_bor	20260630	3938186	RCON3190	1651761	20260730	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+BKU	20260630	fedfunds	20260630	3938186	RCONB993	265000	20260730	Federal funds purchased	RC	14a
+BKU	20260630	repos	20260630	3938186	RCONB995	0	20260730	Securities sold under agreements to repurchase	RC	14b
+BKU	20260630	cet1ratio	20260630	3938186	RCOAP793	13.0126%	20260730	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+BKU	20260630	cet1	20260630	3938186	RCOAP859	3321226	20260730	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+BKU	20260630	mi3	20260630	3938186	RCON2746	237494	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+BKU	20260630	ndfi	20260630	3938186	RCONJ454	2152485	20260730	Loans to nondepository financial institutions	RCCI	9a
+SBCF	20260331	asset	20260331	34537	RCON2170	21134120	20260430	Total balance sheet assets	RCRII	11
+SBCF	20260331	equity	20260331	34537	RCON3210	3032154	20260430	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+SBCF	20260331	aoci	20260331	34537	RCONB530	-78587	20260430	Accumulated other comprehensive income	RC	26b
+SBCF	20260331	afs_cost	20260331	34537	RCON1772	5173458	20260430	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260331	afs_fv	20260331	34537	RCON1773	5069260	20260430	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260331	htm_cost	20260331	34537	RCON1754	576155	20260430	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260331	htm_fv	20260331	34537	RCON1771	477706	20260430	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260331	dom_dep	20260331	34537	RCON2200	16646859	20260430	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+SBCF	20260331	nib_dom	20260331	34537	RCON6631	4186260	20260430	Noninterest-bearing	RC	13a1
+SBCF	20260331	brokered	20260331	34537	RCON2365	209281	20260430	Total brokered deposits	RCE	M1b
+SBCF	20260331	uninsured_dom	20260331	34537	RCON5597	6234948	20260430	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+SBCF	20260331	loans	20260331	34537	RCON2122	12659619	20260430	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+SBCF	20260331	allowance	20260331	34537	RCON3123	176252	20260430	LESS: Allowance for credit losses on loans and leases	RCRII	6
+SBCF	20260331	nal	20260331	34537	RCON1403	95031	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260331	past90	20260331	34537	RCON1407	0	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260331	past30	20260331	34537	RCON1406	28187	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260331	ni_ytd	20260331	34537	RIAD4340	32265	20260430	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SBCF	20260331	co_ytd	20260331	34537	RIAD4635	3926	20260430	Total (sum of items 1 through 8)	RIBI	9
+SBCF	20260331	rec_ytd	20260331	34537	RIAD4605	614	20260430	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+SBCF	20260331	loan_prov_ytd	20260331	34537	RIAD4230	761	20260430	Provisions for credit losses	RIBII	5
+SBCF	20260331	other_bor	20260331	34537	RCON3190	775000	20260430	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+SBCF	20260331	fedfunds	20260331	34537	RCONB993	0	20260430	Federal funds purchased	RC	14a
+SBCF	20260331	repos	20260331	34537	RCONB995	483575	20260430	Securities sold under agreements to repurchase	RC	14b
+SBCF	20260331	cet1ratio	20260331	34537	RCOAP793	13.8739%	20260430	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+SBCF	20260331	cet1	20260331	34537	RCOAP859	1956601	20260430	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+SBCF	20260331	mi3	20260331	34537	RCON2746	0	20260430	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SBCF	20260331	ndfi	20260331	34537	RCONJ454	73190	20260430	Loans to nondepository financial institutions	RCCI	9a
+SBCF	20260630	asset	20260630	34537	RCON2170	21335888	20260730	Total balance sheet assets	RCRII	11
+SBCF	20260630	equity	20260630	34537	RCON3210	3037354	20260730	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+SBCF	20260630	aoci	20260630	34537	RCONB530	-84070	20260730	Accumulated other comprehensive income	RC	26b
+SBCF	20260630	afs_cost	20260630	34537	RCON1772	5286332	20260730	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260630	afs_fv	20260630	34537	RCON1773	5174602	20260730	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260630	htm_cost	20260630	34537	RCON1754	564067	20260730	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260630	htm_fv	20260630	34537	RCON1771	465718	20260730	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260630	dom_dep	20260630	34537	RCON2200	16801603	20260730	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+SBCF	20260630	nib_dom	20260630	34537	RCON6631	4224555	20260730	Noninterest-bearing	RC	13a1
+SBCF	20260630	brokered	20260630	34537	RCON2365	611578	20260730	Total brokered deposits	RCE	M1b
+SBCF	20260630	uninsured_dom	20260630	34537	RCON5597	6100385	20260730	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+SBCF	20260630	loans	20260630	34537	RCON2122	13164004	20260730	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+SBCF	20260630	allowance	20260630	34537	RCON3123	182050	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+SBCF	20260630	nal	20260630	34537	RCON1403	86540	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260630	past90	20260630	34537	RCON1407	0	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260630	past30	20260630	34537	RCON1406	20061	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260630	ni_ytd	20260630	34537	RIAD4340	92700	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SBCF	20260630	co_ytd	20260630	34537	RIAD4635	8530	20260730	Total (sum of items 1 through 8)	RIBI	9
+SBCF	20260630	rec_ytd	20260630	34537	RIAD4605	2018	20260730	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+SBCF	20260630	loan_prov_ytd	20260630	34537	RIAD4230	9759	20260730	Provisions for credit losses	RIBII	5
+SBCF	20260630	other_bor	20260630	34537	RCON3190	835000	20260730	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+SBCF	20260630	fedfunds	20260630	34537	RCONB993	0	20260730	Federal funds purchased	RC	14a
+SBCF	20260630	repos	20260630	34537	RCONB995	473997	20260730	Securities sold under agreements to repurchase	RC	14b
+SBCF	20260630	cet1ratio	20260630	34537	RCOAP793	13.5524%	20260730	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+SBCF	20260630	cet1	20260630	34537	RCOAP859	1974396	20260730	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+SBCF	20260630	mi3	20260630	34537	RCON2746	0	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SBCF	20260630	ndfi	20260630	34537	RCONJ454	66418	20260730	Loans to nondepository financial institutions	RCCI	9a
+AMTB	20260331	asset	20260331	83638	RCFD2170	9880787	20260430	Total balance sheet assets	RCRII	11
+AMTB	20260331	equity	20260331	83638	RCFD3210	979090	20260430	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+AMTB	20260331	aoci	20260331	83638	RCFDB530	-21709	20260430	Accumulated other comprehensive income	RC	26b
+AMTB	20260331	afs_cost	20260331	83638	RCFD1772	2398361	20260430	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260331	afs_fv	20260331	83638	RCFD1773	2368817	20260430	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260331	htm_cost	20260331	83638	RCFD1754	0	20260430	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260331	htm_fv	20260331	83638	RCFD1771	0	20260430	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260331	dom_dep	20260331	83638	RCON2200	7947792	20260430	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+AMTB	20260331	foreign_dep	20260331	83638	RCFN2200	0	20260430	Total	RCEII	6
+AMTB	20260331	nib_dom	20260331	83638	RCON6631	1470618	20260430	Noninterest-bearing	RC	13a1
+AMTB	20260331	brokered	20260331	83638	RCON2365	548052	20260430	Total brokered deposits	RCEI	M1b
+AMTB	20260331	uninsured_dom	20260331	83638	RCON5597	3420799	20260430	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+AMTB	20260331	loans	20260331	83638	RCFD2122	6753781	20260430	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+AMTB	20260331	allowance	20260331	83638	RCFD3123	79236	20260430	LESS: Allowance for credit losses on loans and leases	RCRII	6
+AMTB	20260331	nal	20260331	83638	RCFD1403	173713	20260430	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260331	past90	20260331	83638	RCFD1407	2337	20260430	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260331	past30	20260331	83638	RCFD1406	26359	20260430	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260331	ni_ytd	20260331	83638	RIAD4340	21474	20260430	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+AMTB	20260331	co_ytd	20260331	83638	RIAD4635	9113	20260430	Total (sum of items 1 through 8)	RIBI	9
+AMTB	20260331	rec_ytd	20260331	83638	RIAD4605	1863	20260430	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+AMTB	20260331	loan_prov_ytd	20260331	83638	RIAD4230	6750	20260430	Provisions for credit losses	RIBII	5
+AMTB	20260331	other_bor	20260331	83638	RCFD3190	732263	20260430	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+AMTB	20260331	fedfunds	20260331	83638	RCONB993	0	20260430	Federal funds purchased in domestic offices	RC	14a
+AMTB	20260331	repos	20260331	83638	RCFDB995	0	20260430	Securities sold under agreements to repurchase	RC	14b
+AMTB	20260331	cet1ratio	20260331	83638	RCFAP793	12.7194%	20260430	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+AMTB	20260331	cet1	20260331	83638	RCFAP859	985567	20260430	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+AMTB	20260331	mi3	20260331	83638	RCFD2746	0	20260430	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+AMTB	20260331	ndfi	20260331	83638	RCFDJ454	112667	20260430	Loans to nondepository financial institutions	RCCI	9a
+AMTB	20260630	asset	20260630	83638	RCFD2170	10274427	20260730	Total balance sheet assets	RCRII	11
+AMTB	20260630	equity	20260630	83638	RCFD3210	986289	20260730	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+AMTB	20260630	aoci	20260630	83638	RCFDB530	-24606	20260730	Accumulated other comprehensive income	RC	26b
+AMTB	20260630	afs_cost	20260630	83638	RCFD1772	2580980	20260730	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260630	afs_fv	20260630	83638	RCFD1773	2547770	20260730	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260630	htm_cost	20260630	83638	RCFD1754	0	20260730	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260630	htm_fv	20260630	83638	RCFD1771	0	20260730	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260630	dom_dep	20260630	83638	RCON2200	8360591	20260730	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+AMTB	20260630	foreign_dep	20260630	83638	RCFN2200	0	20260730	Total	RCEII	6
+AMTB	20260630	nib_dom	20260630	83638	RCON6631	1711116	20260730	Noninterest-bearing	RC	13a1
+AMTB	20260630	brokered	20260630	83638	RCON2365	498242	20260730	Total brokered deposits	RCEI	M1b
+AMTB	20260630	uninsured_dom	20260630	83638	RCON5597	3906704	20260730	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+AMTB	20260630	loans	20260630	83638	RCFD2122	6865627	20260730	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+AMTB	20260630	allowance	20260630	83638	RCFD3123	85499	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+AMTB	20260630	nal	20260630	83638	RCFD1403	168838	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260630	past90	20260630	83638	RCFD1407	2252	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260630	past30	20260630	83638	RCFD1406	32212	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260630	ni_ytd	20260630	83638	RIAD4340	44850	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+AMTB	20260630	co_ytd	20260630	83638	RIAD4635	14644	20260730	Total (sum of items 1 through 8)	RIBI	9
+AMTB	20260630	rec_ytd	20260630	83638	RIAD4605	6007	20260730	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+AMTB	20260630	loan_prov_ytd	20260630	83638	RIAD4230	12500	20260730	Provisions for credit losses	RIBII	5
+AMTB	20260630	other_bor	20260630	83638	RCFD3190	702608	20260730	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+AMTB	20260630	fedfunds	20260630	83638	RCONB993	0	20260730	Federal funds purchased in domestic offices	RC	14a
+AMTB	20260630	repos	20260630	83638	RCFDB995	0	20260730	Securities sold under agreements to repurchase	RC	14b
+AMTB	20260630	cet1ratio	20260630	83638	RCFAP793	12.9138%	20260730	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+AMTB	20260630	cet1	20260630	83638	RCFAP859	995909	20260730	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+AMTB	20260630	mi3	20260630	83638	RCFD2746	0	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+AMTB	20260630	ndfi	20260630	83638	RCFDJ454	85492	20260730	Loans to nondepository financial institutions	RCCI	9a
+FLG	20260331	asset	20260331	694904	RCFD2170	87128815	20260430	Total balance sheet assets	RCRII	11
+FLG	20260331	equity	20260331	694904	RCFD3210	8120652	20260430	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+FLG	20260331	aoci	20260331	694904	RCFDB530	-527843	20260430	Accumulated other comprehensive income	RC	26b
+FLG	20260331	afs_cost	20260331	694904	RCFD1772	15200700	20260430	Total (sum of items 1 through 7)	RCB	8
+FLG	20260331	afs_fv	20260331	694904	RCFD1773	14513545	20260430	Total (sum of items 1 through 7)	RCB	8
+FLG	20260331	htm_cost	20260331	694904	RCFD1754	0	20260430	Total (sum of items 1 through 7)	RCB	8
+FLG	20260331	htm_fv	20260331	694904	RCFD1771	0	20260430	Total (sum of items 1 through 7)	RCB	8
+FLG	20260331	dom_dep	20260331	694904	RCON2200	66832203	20260430	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+FLG	20260331	nib_dom	20260331	694904	RCON6631	11798816	20260430	Noninterest-bearing	RC	13a1
+FLG	20260331	brokered	20260331	694904	RCON2365	6572380	20260430	Total brokered deposits	RCEI	M1b
+FLG	20260331	uninsured_dom	20260331	694904	RCON5597	17938099	20260430	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+FLG	20260331	loans	20260331	694904	RCFD2122	60658407	20260430	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+FLG	20260331	allowance	20260331	694904	RCFD3123	954000	20260430	LESS: Allowance for credit losses on loans and leases	RCRII	6
+FLG	20260331	nal	20260331	694904	RCFD1403	2869108	20260430	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260331	past90	20260331	694904	RCFD1407	31867	20260430	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260331	past30	20260331	694904	RCFD1406	996840	20260430	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260331	ni_ytd	20260331	694904	RIAD4340	20863	20260430	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+FLG	20260331	co_ytd	20260331	694904	RIAD4635	112596	20260430	Total (sum of items 1 through 8)	RIBI	9
+FLG	20260331	rec_ytd	20260331	694904	RIAD4605	35089	20260430	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+FLG	20260331	loan_prov_ytd	20260331	694904	RIAD4230	1508	20260430	Provisions for credit losses	RIBII	5
+FLG	20260331	other_bor	20260331	694904	RCFD3190	10737385	20260430	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+FLG	20260331	fedfunds	20260331	694904	RCONB993	0	20260430	Federal funds purchased in domestic offices	RC	14a
+FLG	20260331	repos	20260331	694904	RCFDB995	0	20260430	Securities sold under agreements to repurchase	RC	14b
+FLG	20260331	cet1ratio	20260331	694904	RCFAP793	13.2315%	20260430	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+FLG	20260331	cet1	20260331	694904	RCFAP859	7880976	20260430	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+FLG	20260331	mi3	20260331	694904	RCFD2746	424924	20260430	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+FLG	20260331	ndfi	20260331	694904	RCFDJ454	2889636	20260430	Loans to nondepository financial institutions	RCCI	9a
+FLG	20260630	asset	20260630	694904	RCFD2170	87714456	20260730	Total balance sheet assets	RCRII	11
+FLG	20260630	equity	20260630	694904	RCFD3210	8140809	20260730	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+FLG	20260630	aoci	20260630	694904	RCFDB530	-546938	20260730	Accumulated other comprehensive income	RC	26b
+FLG	20260630	afs_cost	20260630	694904	RCFD1772	17290295	20260730	Total (sum of items 1 through 7)	RCB	8
+FLG	20260630	afs_fv	20260630	694904	RCFD1773	16553484	20260730	Total (sum of items 1 through 7)	RCB	8
+FLG	20260630	htm_cost	20260630	694904	RCFD1754	0	20260730	Total (sum of items 1 through 7)	RCB	8
+FLG	20260630	htm_fv	20260630	694904	RCFD1771	0	20260730	Total (sum of items 1 through 7)	RCB	8
+FLG	20260630	dom_dep	20260630	694904	RCON2200	67521229	20260730	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+FLG	20260630	nib_dom	20260630	694904	RCON6631	11730364	20260730	Noninterest-bearing	RC	13a1
+FLG	20260630	brokered	20260630	694904	RCON2365	6534970	20260730	Total brokered deposits	RCEI	M1b
+FLG	20260630	uninsured_dom	20260630	694904	RCON5597	19538006	20260730	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+FLG	20260630	loans	20260630	694904	RCFD2122	61194867	20260730	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+FLG	20260630	allowance	20260630	694904	RCFD3123	869000	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+FLG	20260630	nal	20260630	694904	RCFD1403	2987555	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260630	past90	20260630	694904	RCFD1407	51465	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260630	past30	20260630	694904	RCFD1406	372703	20260730	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260630	ni_ytd	20260630	694904	RIAD4340	55326	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+FLG	20260630	co_ytd	20260630	694904	RIAD4635	232410	20260730	Total (sum of items 1 through 8)	RIBI	9
+FLG	20260630	rec_ytd	20260630	694904	RIAD4605	55488	20260730	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+FLG	20260630	loan_prov_ytd	20260630	694904	RIAD4230	15923	20260730	Provisions for credit losses	RIBII	5
+FLG	20260630	other_bor	20260630	694904	RCFD3190	10487753	20260730	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+FLG	20260630	fedfunds	20260630	694904	RCONB993	0	20260730	Federal funds purchased in domestic offices	RC	14a
+FLG	20260630	repos	20260630	694904	RCFDB995	0	20260730	Securities sold under agreements to repurchase	RC	14b
+FLG	20260630	cet1ratio	20260630	694904	RCFAP793	13.1575%	20260730	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+FLG	20260630	cet1	20260630	694904	RCFAP859	7937040	20260730	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+FLG	20260630	mi3	20260630	694904	RCFD2746	440610	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+FLG	20260630	ndfi	20260630	694904	RCFDJ454	3457706	20260730	Loans to nondepository financial institutions	RCCI	9a
+MTB	20260331	asset	20260331	501105	RCFD2170	214201000	20260429	Total balance sheet assets	RCRII	11
+MTB	20260331	equity	20260331	501105	RCFD3210	28171000	20260429	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+MTB	20260331	aoci	20260331	501105	RCFDB530	72000	20260429	Accumulated other comprehensive income	RC	26b
+MTB	20260331	afs_cost	20260331	501105	RCFD1772	25218000	20260429	Total (sum of items 1 through 7)	RCB	8
+MTB	20260331	afs_fv	20260331	501105	RCFD1773	25227000	20260429	Total (sum of items 1 through 7)	RCB	8
+MTB	20260331	htm_cost	20260331	501105	RCFD1754	12121000	20260429	Total (sum of items 1 through 7)	RCB	8
+MTB	20260331	htm_fv	20260331	501105	RCFD1771	11355000	20260429	Total (sum of items 1 through 7)	RCB	8
+MTB	20260331	dom_dep	20260331	501105	RCON2200	167232000	20260429	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+MTB	20260331	foreign_dep	20260331	501105	RCFN2200	24000	20260429	Total	RCEII	6
+MTB	20260331	nib_dom	20260331	501105	RCON6631	47220000	20260429	Noninterest-bearing	RC	13a1
+MTB	20260331	brokered	20260331	501105	RCON2365	9077000	20260429	Total brokered deposits	RCEI	M1b
+MTB	20260331	uninsured_dom	20260331	501105	RCON5597	82314000	20260429	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+MTB	20260331	loans	20260331	501105	RCFD2122	140021000	20260429	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+MTB	20260331	allowance	20260331	501105	RCFD3123	2135000	20260429	LESS: Allowance for credit losses on loans and leases	RCRII	6
+MTB	20260331	nal	20260331	501105	RCFD1403	1238000	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260331	past90	20260331	501105	RCFD1407	779000	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260331	past30	20260331	501105	RCFD1406	1333000	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260331	ni_ytd	20260331	501105	RIAD4340	679000	20260429	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+MTB	20260331	co_ytd	20260331	501105	RIAD4635	153000	20260429	Total (sum of items 1 through 8)	RIBI	9
+MTB	20260331	rec_ytd	20260331	501105	RIAD4605	48000	20260429	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+MTB	20260331	loan_prov_ytd	20260331	501105	RIAD4230	125000	20260429	Provisions for credit losses	RIBII	5
+MTB	20260331	other_bor	20260331	501105	RCFD3190	13786000	20260429	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+MTB	20260331	fedfunds	20260331	501105	RCONB993	0	20260429	Federal funds purchased in domestic offices	RC	14a
+MTB	20260331	repos	20260331	501105	RCFDB995	51000	20260429	Securities sold under agreements to repurchase	RC	14b
+MTB	20260331	cet1ratio	20260331	501105	RCFAP793	11.9803%	20260429	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+MTB	20260331	cet1	20260331	501105	RCFAP859	19597000	20260429	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+MTB	20260331	mi3	20260331	501105	RCFD2746	5068000	20260429	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+MTB	20260331	ndfi	20260331	501105	RCFDJ454	13333000	20260429	Loans to nondepository financial institutions	RCCI	9a
+MTB	20260630	asset	20260630	501105	RCFD2170	218788000	20260728	Total balance sheet assets	RCRII	11
+MTB	20260630	equity	20260630	501105	RCFD3210	28164000	20260728	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+MTB	20260630	aoci	20260630	501105	RCFDB530	-86000	20260728	Accumulated other comprehensive income	RC	26b
+MTB	20260630	afs_cost	20260630	501105	RCFD1772	25494000	20260728	Total (sum of items 1 through 7)	RCB	8
+MTB	20260630	afs_fv	20260630	501105	RCFD1773	25369000	20260728	Total (sum of items 1 through 7)	RCB	8
+MTB	20260630	htm_cost	20260630	501105	RCFD1754	11910000	20260728	Total (sum of items 1 through 7)	RCB	8
+MTB	20260630	htm_fv	20260630	501105	RCFD1771	11119000	20260728	Total (sum of items 1 through 7)	RCB	8
+MTB	20260630	dom_dep	20260630	501105	RCON2200	172299000	20260728	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+MTB	20260630	foreign_dep	20260630	501105	RCFN2200	26000	20260728	Total	RCEII	6
+MTB	20260630	nib_dom	20260630	501105	RCON6631	49603000	20260728	Noninterest-bearing	RC	13a1
+MTB	20260630	brokered	20260630	501105	RCON2365	7442000	20260728	Total brokered deposits	RCEI	M1b
+MTB	20260630	uninsured_dom	20260630	501105	RCON5597	84239000	20260728	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+MTB	20260630	loans	20260630	501105	RCFD2122	143295000	20260728	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+MTB	20260630	allowance	20260630	501105	RCFD3123	2175000	20260728	LESS: Allowance for credit losses on loans and leases	RCRII	6
+MTB	20260630	nal	20260630	501105	RCFD1403	1207000	20260728	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260630	past90	20260630	501105	RCFD1407	729000	20260728	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260630	past30	20260630	501105	RCFD1406	1450000	20260728	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260630	ni_ytd	20260630	501105	RIAD4340	1510000	20260728	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+MTB	20260630	co_ytd	20260630	501105	RIAD4635	291000	20260728	Total (sum of items 1 through 8)	RIBI	9
+MTB	20260630	rec_ytd	20260630	501105	RIAD4605	106000	20260728	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+MTB	20260630	loan_prov_ytd	20260630	501105	RIAD4230	245000	20260728	Provisions for credit losses	RIBII	5
+MTB	20260630	other_bor	20260630	501105	RCFD3190	12483000	20260728	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+MTB	20260630	fedfunds	20260630	501105	RCONB993	0	20260728	Federal funds purchased in domestic offices	RC	14a
+MTB	20260630	repos	20260630	501105	RCFDB995	64000	20260728	Securities sold under agreements to repurchase	RC	14b
+MTB	20260630	cet1ratio	20260630	501105	RCFAP793	11.8115%	20260728	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+MTB	20260630	cet1	20260630	501105	RCFAP859	19754000	20260728	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+MTB	20260630	mi3	20260630	501105	RCFD2746	4947000	20260728	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+MTB	20260630	ndfi	20260630	501105	RCFDJ454	13681000	20260728	Loans to nondepository financial institutions	RCCI	9a
+HBAN	20260331	asset	20260331	12311	RCFD2170	284135374	20260821	Total balance sheet assets	RCRII	11
+HBAN	20260331	equity	20260331	12311	RCFD3210	33143721	20260821	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+HBAN	20260331	aoci	20260331	12311	RCFDB530	-2040426	20260821	Accumulated other comprehensive income	RC	26b
+HBAN	20260331	afs_cost	20260331	12311	RCFD1772	37857680	20260821	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260331	afs_fv	20260331	12311	RCFD1773	35556939	20260821	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260331	htm_cost	20260331	12311	RCFD1754	14768414	20260821	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260331	htm_fv	20260331	12311	RCFD1771	13089073	20260821	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260331	dom_dep	20260331	12311	RCON2200	227513232	20260821	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+HBAN	20260331	foreign_dep	20260331	12311	RCFN2200	0	20260821	Total	RCEII	6
+HBAN	20260331	nib_dom	20260331	12311	RCON6631	44792921	20260821	Noninterest-bearing	RC	13a1
+HBAN	20260331	brokered	20260331	12311	RCON2365	10522339	20260821	Total brokered deposits	RCEI	M1b
+HBAN	20260331	uninsured_dom	20260331	12311	RCON5597	72295427	20260821	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+HBAN	20260331	loans	20260331	12311	RCFD2122	189769953	20260821	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+HBAN	20260331	allowance	20260331	12311	RCFD3123	3242877	20260821	LESS: Allowance for credit losses on loans and leases	RCRII	6
+HBAN	20260331	nal	20260331	12311	RCFD1403	1334869	20260821	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260331	past90	20260331	12311	RCFD1407	423117	20260821	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260331	past30	20260331	12311	RCFD1406	1044656	20260821	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260331	ni_ytd	20260331	12311	RIAD4340	629840	20260821	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+HBAN	20260331	co_ytd	20260331	12311	RIAD4635	172997	20260821	Total (sum of items 1 through 8)	RIBI	9
+HBAN	20260331	rec_ytd	20260331	12311	RIAD4605	61740	20260821	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+HBAN	20260331	loan_prov_ytd	20260331	12311	RIAD4230	238669	20260821	Provisions for credit losses	RIBII	5
+HBAN	20260331	other_bor	20260331	12311	RCFD3190	16896712	20260821	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+HBAN	20260331	fedfunds	20260331	12311	RCONB993	0	20260821	Federal funds purchased in domestic offices	RC	14a
+HBAN	20260331	repos	20260331	12311	RCFDB995	11528	20260821	Securities sold under agreements to repurchase	RC	14b
+HBAN	20260331	cet1ratio	20260331	12311	RCFAP793	12.0433%	20260821	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+HBAN	20260331	cet1	20260331	12311	RCFAP859	24918158	20260821	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+HBAN	20260331	mi3	20260331	12311	RCFD2746	2262570	20260821	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+HBAN	20260331	ndfi	20260331	12311	RCFDJ454	16368218	20260821	Loans to nondepository financial institutions	RCCI	9a
+HBAN	20260630	asset	20260630	12311	RCFD2170	283073605	20260821	Total balance sheet assets	RCRII	11
+HBAN	20260630	equity	20260630	12311	RCFD3210	33284616	20260821	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+HBAN	20260630	aoci	20260630	12311	RCFDB530	-2194678	20260821	Accumulated other comprehensive income	RC	26b
+HBAN	20260630	afs_cost	20260630	12311	RCFD1772	37556139	20260821	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260630	afs_fv	20260630	12311	RCFD1773	35205584	20260821	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260630	htm_cost	20260630	12311	RCFD1754	14384113	20260821	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260630	htm_fv	20260630	12311	RCFD1771	12676714	20260821	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260630	dom_dep	20260630	12311	RCON2200	227123103	20260821	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+HBAN	20260630	foreign_dep	20260630	12311	RCFN2200	0	20260821	Total	RCEII	6
+HBAN	20260630	nib_dom	20260630	12311	RCON6631	44716225	20260821	Noninterest-bearing	RC	13a1
+HBAN	20260630	brokered	20260630	12311	RCON2365	9953390	20260821	Total brokered deposits	RCEI	M1b
+HBAN	20260630	uninsured_dom	20260630	12311	RCON5597	73733178	20260821	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+HBAN	20260630	loans	20260630	12311	RCFD2122	191186569	20260821	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+HBAN	20260630	allowance	20260630	12311	RCFD3123	3248583	20260821	LESS: Allowance for credit losses on loans and leases	RCRII	6
+HBAN	20260630	nal	20260630	12311	RCFD1403	1588963	20260821	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260630	past90	20260630	12311	RCFD1407	437635	20260821	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260630	past30	20260630	12311	RCFD1406	1284421	20260821	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260630	ni_ytd	20260630	12311	RIAD4340	1431831	20260821	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+HBAN	20260630	co_ytd	20260630	12311	RIAD4635	363942	20260821	Total (sum of items 1 through 8)	RIBI	9
+HBAN	20260630	rec_ytd	20260630	12311	RIAD4605	133535	20260821	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+HBAN	20260630	loan_prov_ytd	20260630	12311	RIAD4230	363525	20260821	Provisions for credit losses	RIBII	5
+HBAN	20260630	other_bor	20260630	12311	RCFD3190	15132116	20260821	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+HBAN	20260630	fedfunds	20260630	12311	RCONB993	0	20260821	Federal funds purchased in domestic offices	RC	14a
+HBAN	20260630	repos	20260630	12311	RCFDB995	0	20260821	Securities sold under agreements to repurchase	RC	14b
+HBAN	20260630	cet1ratio	20260630	12311	RCFAP793	11.8181%	20260821	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+HBAN	20260630	cet1	20260630	12311	RCFAP859	25197415	20260821	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+HBAN	20260630	mi3	20260630	12311	RCFD2746	2206543	20260821	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+HBAN	20260630	ndfi	20260630	12311	RCFDJ454	17511739	20260821	Loans to nondepository financial institutions	RCCI	9a
+VLY	20260331	asset	20260331	229801	RCFD2170	64388074	20260429	Total balance sheet assets	RCRII	11
+VLY	20260331	equity	20260331	229801	RCFD3210	8231825	20260429	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+VLY	20260331	aoci	20260331	229801	RCFDB530	-97156	20260429	Accumulated other comprehensive income	RC	26b
+VLY	20260331	afs_cost	20260331	229801	RCFD1772	4276964	20260429	Total (sum of items 1 through 7)	RCB	8
+VLY	20260331	afs_fv	20260331	229801	RCFD1773	4157034	20260429	Total (sum of items 1 through 7)	RCB	8
+VLY	20260331	htm_cost	20260331	229801	RCFD1754	3620554	20260429	Total (sum of items 1 through 7)	RCB	8
+VLY	20260331	htm_fv	20260331	229801	RCFD1771	3228740	20260429	Total (sum of items 1 through 7)	RCB	8
+VLY	20260331	dom_dep	20260331	229801	RCON2200	52955541	20260429	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+VLY	20260331	foreign_dep	20260331	229801	RCFN2200	0	20260429	Total	RCEII	6
+VLY	20260331	nib_dom	20260331	229801	RCON6631	12346894	20260429	Noninterest-bearing	RC	13a1
+VLY	20260331	brokered	20260331	229801	RCON2365	5099228	20260429	Total brokered deposits	RCEI	M1b
+VLY	20260331	uninsured_dom	20260331	229801	RCON5597	22001063	20260429	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+VLY	20260331	loans	20260331	229801	RCFD2122	50835050	20260429	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+VLY	20260331	allowance	20260331	229801	RCFD3123	584221	20260429	LESS: Allowance for credit losses on loans and leases	RCRII	6
+VLY	20260331	nal	20260331	229801	RCFD1403	432646	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260331	past90	20260331	229801	RCFD1407	10702	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260331	past30	20260331	229801	RCFD1406	117231	20260429	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260331	ni_ytd	20260331	229801	RIAD4340	169863	20260429	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+VLY	20260331	co_ytd	20260331	229801	RIAD4635	19801	20260429	Total (sum of items 1 through 8)	RIBI	9
+VLY	20260331	rec_ytd	20260331	229801	RIAD4605	2257	20260429	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+VLY	20260331	loan_prov_ytd	20260331	229801	RIAD4230	18365	20260429	Provisions for credit losses	RIBII	5
+VLY	20260331	other_bor	20260331	229801	RCFD3190	2114394	20260429	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+VLY	20260331	fedfunds	20260331	229801	RCONB993	0	20260429	Federal funds purchased in domestic offices	RC	14a
+VLY	20260331	repos	20260331	229801	RCFDB995	63877	20260429	Securities sold under agreements to repurchase	RC	14b
+VLY	20260331	cet1ratio	20260331	229801	RCFAP793	12.4158%	20260429	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+VLY	20260331	cet1	20260331	229801	RCFAP859	6370185	20260429	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+VLY	20260331	mi3	20260331	229801	RCFD2746	521194	20260429	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+VLY	20260331	ndfi	20260331	229801	RCFDJ454	1343752	20260429	Loans to nondepository financial institutions	RCCI	9a
+VLY	20260630	asset	20260630	229801	RCFD2170	66227555	20260729	Total balance sheet assets	RCRII	11
+VLY	20260630	equity	20260630	229801	RCFD3210	8384348	20260729	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+VLY	20260630	aoci	20260630	229801	RCFDB530	-99181	20260729	Accumulated other comprehensive income	RC	26b
+VLY	20260630	afs_cost	20260630	229801	RCFD1772	4417585	20260729	Total (sum of items 1 through 7)	RCB	8
+VLY	20260630	afs_fv	20260630	229801	RCFD1773	4292148	20260729	Total (sum of items 1 through 7)	RCB	8
+VLY	20260630	htm_cost	20260630	229801	RCFD1754	3757944	20260729	Total (sum of items 1 through 7)	RCB	8
+VLY	20260630	htm_fv	20260630	229801	RCFD1771	3368350	20260729	Total (sum of items 1 through 7)	RCB	8
+VLY	20260630	dom_dep	20260630	229801	RCON2200	54339086	20260729	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+VLY	20260630	foreign_dep	20260630	229801	RCFN2200	0	20260729	Total	RCEII	6
+VLY	20260630	nib_dom	20260630	229801	RCON6631	12770006	20260729	Noninterest-bearing	RC	13a1
+VLY	20260630	brokered	20260630	229801	RCON2365	5282621	20260729	Total brokered deposits	RCEI	M1b
+VLY	20260630	uninsured_dom	20260630	229801	RCON5597	21601882	20260729	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+VLY	20260630	loans	20260630	229801	RCFD2122	52476084	20260729	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+VLY	20260630	allowance	20260630	229801	RCFD3123	590072	20260729	LESS: Allowance for credit losses on loans and leases	RCRII	6
+VLY	20260630	nal	20260630	229801	RCFD1403	462629	20260729	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260630	past90	20260630	229801	RCFD1407	16066	20260729	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260630	past30	20260630	229801	RCFD1406	164144	20260729	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260630	ni_ytd	20260630	229801	RIAD4340	349411	20260729	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+VLY	20260630	co_ytd	20260630	229801	RIAD4635	47427	20260729	Total (sum of items 1 through 8)	RIBI	9
+VLY	20260630	rec_ytd	20260630	229801	RIAD4605	7837	20260729	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+VLY	20260630	loan_prov_ytd	20260630	229801	RIAD4230	46262	20260729	Provisions for credit losses	RIBII	5
+VLY	20260630	other_bor	20260630	229801	RCFD3190	2339346	20260729	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+VLY	20260630	fedfunds	20260630	229801	RCONB993	0	20260729	Federal funds purchased in domestic offices	RC	14a
+VLY	20260630	repos	20260630	229801	RCFDB995	58484	20260729	Securities sold under agreements to repurchase	RC	14b
+VLY	20260630	cet1ratio	20260630	229801	RCFAP793	12.2786%	20260729	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+VLY	20260630	cet1	20260630	229801	RCFAP859	6527141	20260729	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+VLY	20260630	mi3	20260630	229801	RCFD2746	539365	20260729	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+VLY	20260630	ndfi	20260630	229801	RCFDJ454	1765627	20260729	Loans to nondepository financial institutions	RCCI	9a
+CUBI	20260331	asset	20260331	2354985	RCON2170	25862378	20260430	Total balance sheet assets	RCRII	11
+CUBI	20260331	equity	20260331	2354985	RCON3210	2292297	20260430	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+CUBI	20260331	aoci	20260331	2354985	RCONB530	-54669	20260430	Accumulated other comprehensive income	RC	26b
+CUBI	20260331	afs_cost	20260331	2354985	RCON1772	2028455	20260430	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260331	afs_fv	20260331	2354985	RCON1773	1961852	20260430	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260331	htm_cost	20260331	2354985	RCON1754	663545	20260430	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260331	htm_fv	20260331	2354985	RCON1771	608461	20260430	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260331	dom_dep	20260331	2354985	RCON2200	21707136	20260430	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+CUBI	20260331	nib_dom	20260331	2354985	RCON6631	6848503	20260430	Noninterest-bearing	RC	13a1
+CUBI	20260331	brokered	20260331	2354985	RCON2365	4466211	20260430	Total brokered deposits	RCE	M1b
+CUBI	20260331	uninsured_dom	20260331	2354985	RCON5597	9287034	20260430	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+CUBI	20260331	loans	20260331	2354985	RCON2122	17391546	20260430	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+CUBI	20260331	allowance	20260331	2354985	RCON3123	160962	20260430	LESS: Allowance for credit losses on loans and leases	RCRII	6
+CUBI	20260331	nal	20260331	2354985	RCON1403	47818	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260331	past90	20260331	2354985	RCON1407	3890	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260331	past30	20260331	2354985	RCON1406	75175	20260430	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260331	ni_ytd	20260331	2354985	RIAD4340	72245	20260430	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CUBI	20260331	co_ytd	20260331	2354985	RIAD4635	17072	20260430	Total (sum of items 1 through 8)	RIBI	9
+CUBI	20260331	rec_ytd	20260331	2354985	RIAD4605	3817	20260430	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+CUBI	20260331	loan_prov_ytd	20260331	2354985	RIAD4230	18561	20260430	Provisions for credit losses	RIBII	5
+CUBI	20260331	other_bor	20260331	2354985	RCON3190	1561655	20260430	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+CUBI	20260331	fedfunds	20260331	2354985	RCONB993	70000	20260430	Federal funds purchased	RC	14a
+CUBI	20260331	repos	20260331	2354985	RCONB995	0	20260430	Securities sold under agreements to repurchase	RC	14b
+CUBI	20260331	cet1ratio	20260331	2354985	RCOAP793	13.7840%	20260430	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+CUBI	20260331	cet1	20260331	2354985	RCOAP859	2341612	20260430	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+CUBI	20260331	mi3	20260331	2354985	RCON2746	459139	20260430	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+CUBI	20260331	ndfi	20260331	2354985	RCONJ454	6023028	20260430	Loans to nondepository financial institutions	RCCI	9a
+CUBI	20260630	asset	20260630	2354985	RCON2170	26503549	20260730	Total balance sheet assets	RCRII	11
+CUBI	20260630	equity	20260630	2354985	RCON3210	2324111	20260730	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+CUBI	20260630	aoci	20260630	2354985	RCONB530	-58358	20260730	Accumulated other comprehensive income	RC	26b
+CUBI	20260630	afs_cost	20260630	2354985	RCON1772	2666709	20260730	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260630	afs_fv	20260630	2354985	RCON1773	2595966	20260730	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260630	htm_cost	20260630	2354985	RCON1754	631594	20260730	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260630	htm_fv	20260630	2354985	RCON1771	575546	20260730	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260630	dom_dep	20260630	2354985	RCON2200	21876344	20260730	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+CUBI	20260630	nib_dom	20260630	2354985	RCON6631	7051360	20260730	Noninterest-bearing	RC	13a1
+CUBI	20260630	brokered	20260630	2354985	RCON2365	4616030	20260730	Total brokered deposits	RCE	M1b
+CUBI	20260630	uninsured_dom	20260630	2354985	RCON5597	9686935	20260730	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+CUBI	20260630	loans	20260630	2354985	RCON2122	18015300	20260730	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+CUBI	20260630	allowance	20260630	2354985	RCON3123	164106	20260730	LESS: Allowance for credit losses on loans and leases	RCRII	6
+CUBI	20260630	nal	20260630	2354985	RCON1403	56022	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260630	past90	20260630	2354985	RCON1407	3773	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260630	past30	20260630	2354985	RCON1406	29629	20260730	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260630	ni_ytd	20260630	2354985	RIAD4340	147417	20260730	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CUBI	20260630	co_ytd	20260630	2354985	RIAD4635	34399	20260730	Total (sum of items 1 through 8)	RIBI	9
+CUBI	20260630	rec_ytd	20260630	2354985	RIAD4605	6565	20260730	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+CUBI	20260630	loan_prov_ytd	20260630	2354985	RIAD4230	36284	20260730	Provisions for credit losses	RIBII	5
+CUBI	20260630	other_bor	20260630	2354985	RCON3190	2059163	20260730	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+CUBI	20260630	fedfunds	20260630	2354985	RCONB993	0	20260730	Federal funds purchased	RC	14a
+CUBI	20260630	repos	20260630	2354985	RCONB995	0	20260730	Securities sold under agreements to repurchase	RC	14b
+CUBI	20260630	cet1ratio	20260630	2354985	RCOAP793	13.5524%	20260730	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+CUBI	20260630	cet1	20260630	2354985	RCOAP859	2376363	20260730	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+CUBI	20260630	mi3	20260630	2354985	RCON2746	568808	20260730	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+CUBI	20260630	ndfi	20260630	2354985	RCONJ454	6143029	20260730	Loans to nondepository financial institutions	RCCI	9a
+OZK	20260930	asset	20260930	107244	RCON2170	43189350	20261030	Total balance sheet assets	RCRII	11
+OZK	20260930	equity	20260930	107244	RCON3210	6148397	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+OZK	20260930	aoci	20260930	107244	RCONB530	-241394	20261030	Accumulated other comprehensive income	RC	26b
+OZK	20260930	afs_cost	20260930	107244	RCON1772	4672246	20261030	Total (sum of items 1 through 7)	RCB	8
+OZK	20260930	afs_fv	20260930	107244	RCON1773	4355290	20261030	Total (sum of items 1 through 7)	RCB	8
+OZK	20260930	htm_cost	20260930	107244	RCON1754	0	20261030	Total (sum of items 1 through 7)	RCB	8
+OZK	20260930	htm_fv	20260930	107244	RCON1771	0	20261030	Total (sum of items 1 through 7)	RCB	8
+OZK	20260930	dom_dep	20260930	107244	RCON2200	34827940	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+OZK	20260930	nib_dom	20260930	107244	RCON6631	3943886	20261030	Noninterest-bearing	RC	13a1
+OZK	20260930	brokered	20260930	107244	RCON2365	3017646	20261030	Total brokered deposits	RCE	M1b
+OZK	20260930	uninsured_dom	20260930	107244	RCON5597	11252750	20261030	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+OZK	20260930	loans	20260930	107244	RCON2122	34134667	20261030	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+OZK	20260930	allowance	20260930	107244	RCON3123	469859	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+OZK	20260930	nal	20260930	107244	RCON1403	89117	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260930	past90	20260930	107244	RCON1407	0	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260930	past30	20260930	107244	RCON1406	24269	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+OZK	20260930	ni_ytd	20260930	107244	RIAD4340	499096	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+OZK	20260930	co_ytd	20260930	107244	RIAD4635	149358	20261030	Total (sum of items 1 through 8)	RIBI	9
+OZK	20260930	rec_ytd	20260930	107244	RIAD4605	3313	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+OZK	20260930	loan_prov_ytd	20260930	107244	RIAD4230	140183	20261030	Provisions for credit losses	RIBII	5
+OZK	20260930	other_bor	20260930	107244	RCON3190	600000	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+OZK	20260930	fedfunds	20260930	107244	RCONB993	150000	20261030	Federal funds purchased	RC	14a
+OZK	20260930	repos	20260930	107244	RCONB995	0	20261030	Securities sold under agreements to repurchase	RC	14b
+OZK	20260930	cet1ratio	20260930	107244	RCOAP793	11.4537%	20261030	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+OZK	20260930	cet1	20260930	107244	RCOAP859	5345297	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+OZK	20260930	mi3	20260930	107244	RCON2746	441743	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+OZK	20260930	ndfi	20260930	107244	RCONJ454	3568848	20261030	Loans to nondepository financial institutions	RCCI	9a
+WAL	20260930	asset	20260930	3138146	RCON2170	97898530	20261030	Total balance sheet assets	RCRII	11
+WAL	20260930	equity	20260930	3138146	RCON3210	7700407	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+WAL	20260930	aoci	20260930	3138146	RCONB530	-785758	20261030	Accumulated other comprehensive income	RC	26b
+WAL	20260930	afs_cost	20260930	3138146	RCON1772	19628049	20261030	Total (sum of items 1 through 7)	RCB	8
+WAL	20260930	afs_fv	20260930	3138146	RCON1773	18410467	20261030	Total (sum of items 1 through 7)	RCB	8
+WAL	20260930	htm_cost	20260930	3138146	RCON1754	1730308	20261030	Total (sum of items 1 through 7)	RCB	8
+WAL	20260930	htm_fv	20260930	3138146	RCON1771	1471612	20261030	Total (sum of items 1 through 7)	RCB	8
+WAL	20260930	dom_dep	20260930	3138146	RCON2200	82194988	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+WAL	20260930	nib_dom	20260930	3138146	RCON6631	25752147	20261030	Noninterest-bearing	RC	13a1
+WAL	20260930	brokered	20260930	3138146	RCON2365	5642001	20261030	Total brokered deposits	RCE	M1b
+WAL	20260930	uninsured_dom	20260930	3138146	RCON5597	32652647	20261030	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+WAL	20260930	loans	20260930	3138146	RCON2122	65934493	20261030	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+WAL	20260930	allowance	20260930	3138146	RCON3123	512787	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+WAL	20260930	nal	20260930	3138146	RCON1403	487951	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260930	past90	20260930	3138146	RCON1407	1385227	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260930	past30	20260930	3138146	RCON1406	290069	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+WAL	20260930	ni_ytd	20260930	3138146	RIAD4340	860689	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+WAL	20260930	co_ytd	20260930	3138146	RIAD4635	314824	20261030	Total (sum of items 1 through 8)	RIBI	9
+WAL	20260930	rec_ytd	20260930	3138146	RIAD4605	5421	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+WAL	20260930	loan_prov_ytd	20260930	3138146	RIAD4230	361500	20261030	Provisions for credit losses	RIBII	5
+WAL	20260930	other_bor	20260930	3138146	RCON3190	6048337	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+WAL	20260930	fedfunds	20260930	3138146	RCONB993	0	20261030	Federal funds purchased	RC	14a
+WAL	20260930	repos	20260930	3138146	RCONB995	0	20261030	Securities sold under agreements to repurchase	RC	14b
+WAL	20260930	cet1ratio	20260930	3138146	RCOAP793	11.4458%	20261030	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+WAL	20260930	cet1	20260930	3138146	RCOAP859	7731785	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+WAL	20260930	mi3	20260930	3138146	RCON2746	2458442	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+WAL	20260930	ndfi	20260930	3138146	RCONJ454	15832394	20261030	Loans to nondepository financial institutions	RCCI	9a
+EGBN	20260930	asset	20260930	2652092	RCON2170	9424196	20261029	Total balance sheet assets	RCRII	11
+EGBN	20260930	equity	20260930	2652092	RCON3210	1181960	20261029	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+EGBN	20260930	aoci	20260930	2652092	RCONB530	-112545	20261029	Accumulated other comprehensive income	RC	26b
+EGBN	20260930	afs_cost	20260930	2652092	RCON1772	991993	20261029	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260930	afs_fv	20260930	2652092	RCON1773	892030	20261029	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260930	htm_cost	20260930	2652092	RCON1754	766698	20261029	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260930	htm_fv	20260930	2652092	RCON1771	654702	20261029	Total (sum of items 1 through 7)	RCB	8
+EGBN	20260930	dom_dep	20260930	2652092	RCON2200	8047650	20261029	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+EGBN	20260930	nib_dom	20260930	2652092	RCON6631	1565546	20261029	Noninterest-bearing	RC	13a1
+EGBN	20260930	brokered	20260930	2652092	RCON2365	807845	20261029	Total brokered deposits	RCE	M1b
+EGBN	20260930	uninsured_dom	20260930	2652092	RCON5597	2141935	20261029	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+EGBN	20260930	loans	20260930	2652092	RCON2122	6576888	20261029	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+EGBN	20260930	allowance	20260930	2652092	RCON3123	120781	20261029	LESS: Allowance for credit losses on loans and leases	RCRII	6
+EGBN	20260930	nal	20260930	2652092	RCON1403	179722	20261029	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260930	past90	20260930	2652092	RCON1407	0	20261029	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260930	past30	20260930	2652092	RCON1406	357	20261029	Total loans and leases (sum of items 1 through 8)	RCN	9
+EGBN	20260930	ni_ytd	20260930	2652092	RIAD4340	52192	20261029	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+EGBN	20260930	co_ytd	20260930	2652092	RIAD4635	81565	20261029	Total (sum of items 1 through 8)	RIBI	9
+EGBN	20260930	rec_ytd	20260930	2652092	RIAD4605	3539	20261029	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+EGBN	20260930	loan_prov_ytd	20260930	2652092	RIAD4230	38260	20261029	Provisions for credit losses	RIBII	5
+EGBN	20260930	other_bor	20260930	2652092	RCON3190	0	20261029	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+EGBN	20260930	fedfunds	20260930	2652092	RCONB993	0	20261029	Federal funds purchased	RC	14a
+EGBN	20260930	repos	20260930	2652092	RCONB995	0	20261029	Securities sold under agreements to repurchase	RC	14b
+EGBN	20260930	cet1ratio	20260930	2652092	RCOAP793	15.3829%	20261029	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+EGBN	20260930	cet1	20260930	2652092	RCOAP859	1237735	20261029	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+EGBN	20260930	mi3	20260930	2652092	RCON2746	174445	20261029	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+EGBN	20260930	ndfi	20260930	2652092	RCONJ454	135752	20261029	Loans to nondepository financial institutions	RCCI	9a
+ZION	20260930	asset	20260930	276579	RCON2170	90920537	20261030	Total balance sheet assets	RCRII	11
+ZION	20260930	equity	20260930	276579	RCON3210	7684586	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+ZION	20260930	aoci	20260930	276579	RCONB530	-1988768	20261030	Accumulated other comprehensive income	RC	26b
+ZION	20260930	afs_cost	20260930	276579	RCON1772	10256694	20261030	Total (sum of items 1 through 7)	RCB	8
+ZION	20260930	afs_fv	20260930	276579	RCON1773	8785762	20261030	Total (sum of items 1 through 7)	RCB	8
+ZION	20260930	htm_cost	20260930	276579	RCON1754	8267960	20261030	Total (sum of items 1 through 7)	RCB	8
+ZION	20260930	htm_fv	20260930	276579	RCON1771	7856157	20261030	Total (sum of items 1 through 7)	RCB	8
+ZION	20260930	dom_dep	20260930	276579	RCON2200	77947756	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+ZION	20260930	nib_dom	20260930	276579	RCON6631	26370433	20261030	Noninterest-bearing	RC	13a1
+ZION	20260930	brokered	20260930	276579	RCON2365	3487033	20261030	Total brokered deposits	RCE	M1b
+ZION	20260930	uninsured_dom	20260930	276579	RCON5597	36697600	20261030	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+ZION	20260930	loans	20260930	276579	RCON2122	62521079	20261030	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+ZION	20260930	allowance	20260930	276579	RCON3123	645948	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+ZION	20260930	nal	20260930	276579	RCON1403	311226	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260930	past90	20260930	276579	RCON1407	4981	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260930	past30	20260930	276579	RCON1406	90817	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+ZION	20260930	ni_ytd	20260930	276579	RIAD4340	948567	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+ZION	20260930	co_ytd	20260930	276579	RIAD4635	33391	20261030	Total (sum of items 1 through 8)	RIBI	9
+ZION	20260930	rec_ytd	20260930	276579	RIAD4605	18163	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+ZION	20260930	loan_prov_ytd	20260930	276579	RIAD4230	-16875	20261030	Provisions for credit losses	RIBII	5
+ZION	20260930	other_bor	20260930	276579	RCON3190	1756647	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+ZION	20260930	fedfunds	20260930	276579	RCONB993	435604	20261030	Federal funds purchased	RC	14a
+ZION	20260930	repos	20260930	276579	RCONB995	390021	20261030	Securities sold under agreements to repurchase	RC	14b
+ZION	20260930	cet1ratio	20260930	276579	RCOAP793	11.7691%	20261030	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+ZION	20260930	cet1	20260930	276579	RCOAP859	8268214	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+ZION	20260930	mi3	20260930	276579	RCON2746	348549	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+ZION	20260930	ndfi	20260930	276579	RCONJ454	2210173	20261030	Loans to nondepository financial institutions	RCCI	9a
+SSB	20260930	asset	20260930	1929247	RCON2170	70316517	20261029	Total balance sheet assets	RCRII	11
+SSB	20260930	equity	20260930	1929247	RCON3210	9581187	20261029	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+SSB	20260930	aoci	20260930	1929247	RCONB530	-539610	20261029	Accumulated other comprehensive income	RC	26b
+SSB	20260930	afs_cost	20260930	1929247	RCON1772	7111847	20261029	Total (sum of items 1 through 7)	RCB	8
+SSB	20260930	afs_fv	20260930	1929247	RCON1773	6393309	20261029	Total (sum of items 1 through 7)	RCB	8
+SSB	20260930	htm_cost	20260930	1929247	RCON1754	1905299	20261029	Total (sum of items 1 through 7)	RCB	8
+SSB	20260930	htm_fv	20260930	1929247	RCON1771	1519276	20261029	Total (sum of items 1 through 7)	RCB	8
+SSB	20260930	dom_dep	20260930	1929247	RCON2200	57693648	20261029	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+SSB	20260930	nib_dom	20260930	1929247	RCON6631	13501082	20261029	Noninterest-bearing	RC	13a1
+SSB	20260930	brokered	20260930	1929247	RCON2365	5344011	20261029	Total brokered deposits	RCE	M1b
+SSB	20260930	uninsured_dom	20260930	1929247	RCON5597	21863708	20261029	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+SSB	20260930	loans	20260930	1929247	RCON2122	52349928	20261029	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+SSB	20260930	allowance	20260930	1929247	RCON3123	588918	20261029	LESS: Allowance for credit losses on loans and leases	RCRII	6
+SSB	20260930	nal	20260930	1929247	RCON1403	284335	20261029	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260930	past90	20260930	1929247	RCON1407	10629	20261029	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260930	past30	20260930	1929247	RCON1406	117493	20261029	Total loans and leases (sum of items 1 through 8)	RCN	9
+SSB	20260930	ni_ytd	20260930	1929247	RIAD4340	717497	20261029	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SSB	20260930	co_ytd	20260930	1929247	RIAD4635	43901	20261029	Total (sum of items 1 through 8)	RIBI	9
+SSB	20260930	rec_ytd	20260930	1929247	RIAD4605	13230	20261029	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+SSB	20260930	loan_prov_ytd	20260930	1929247	RIAD4230	34392	20261029	Provisions for credit losses	RIBII	5
+SSB	20260930	other_bor	20260930	1929247	RCON3190	300820	20261029	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+SSB	20260930	fedfunds	20260930	1929247	RCONB993	280933	20261029	Federal funds purchased	RC	14a
+SSB	20260930	repos	20260930	1929247	RCONB995	217240	20261029	Securities sold under agreements to repurchase	RC	14b
+SSB	20260930	cet1ratio	20260930	1929247	RCOAP793	12.1057%	20261029	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+SSB	20260930	cet1	20260930	1929247	RCOAP859	6791930	20261029	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+SSB	20260930	mi3	20260930	1929247	RCON2746	69191	20261029	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SSB	20260930	ndfi	20260930	1929247	RCONJ454	807540	20261029	Loans to nondepository financial institutions	RCCI	9a
+CFG	20260930	asset	20260930	3303298	RCFD2170	233587718	20261029	Total balance sheet assets	RCRII	11
+CFG	20260930	equity	20260930	3303298	RCFD3210	25343176	20261029	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+CFG	20260930	aoci	20260930	3303298	RCFDB530	-3662981	20261029	Accumulated other comprehensive income	RC	26b
+CFG	20260930	afs_cost	20260930	3303298	RCFD1772	38798390	20261029	Total (sum of items 1 through 7)	RCB	8
+CFG	20260930	afs_fv	20260930	3303298	RCFD1773	36030452	20261029	Total (sum of items 1 through 7)	RCB	8
+CFG	20260930	htm_cost	20260930	3303298	RCFD1754	8298093	20261029	Total (sum of items 1 through 7)	RCB	8
+CFG	20260930	htm_fv	20260930	3303298	RCFD1771	7051486	20261029	Total (sum of items 1 through 7)	RCB	8
+CFG	20260930	dom_dep	20260930	3303298	RCON2200	188137747	20261029	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+CFG	20260930	foreign_dep	20260930	3303298	RCFN2200	0	20261029	Total	RCEII	6
+CFG	20260930	nib_dom	20260930	3303298	RCON6631	43123326	20261029	Noninterest-bearing	RC	13a1
+CFG	20260930	brokered	20260930	3303298	RCON2365	1326659	20261029	Total brokered deposits	RCEI	M1b
+CFG	20260930	uninsured_dom	20260930	3303298	RCON5597	90004770	20261029	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+CFG	20260930	loans	20260930	3303298	RCFD2122	149412065	20261029	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+CFG	20260930	allowance	20260930	3303298	RCFD3123	1904784	20261029	LESS: Allowance for credit losses on loans and leases	RCRII	6
+CFG	20260930	nal	20260930	3303298	RCFD1403	1471597	20261029	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260930	past90	20260930	3303298	RCFD1407	561325	20261029	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260930	past30	20260930	3303298	RCFD1406	619831	20261029	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+CFG	20260930	ni_ytd	20260930	3303298	RIAD4340	1768896	20261029	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CFG	20260930	co_ytd	20260930	3303298	RIAD4635	512994	20261029	Total (sum of items 1 through 8)	RIBI	9
+CFG	20260930	rec_ytd	20260930	3303298	RIAD4605	102278	20261029	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+CFG	20260930	loan_prov_ytd	20260930	3303298	RIAD4230	372926	20261029	Provisions for credit losses	RIBII	5
+CFG	20260930	other_bor	20260930	3303298	RCFD3190	13873421	20261029	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+CFG	20260930	fedfunds	20260930	3303298	RCONB993	0	20261029	Federal funds purchased in domestic offices	RC	14a
+CFG	20260930	repos	20260930	3303298	RCFDB995	0	20261029	Securities sold under agreements to repurchase	RC	14b
+CFG	20260930	cet1ratio	20260930	3303298	RCFAP793	12.0201%	20261029	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+CFG	20260930	cet1	20260930	3303298	RCFAP859	21150050	20261029	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+CFG	20260930	mi3	20260930	3303298	RCFD2746	2146089	20261029	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+CFG	20260930	ndfi	20260930	3303298	RCFDJ454	23003913	20261029	Loans to nondepository financial institutions	RCCI	9a
+BKU	20260930	asset	20260930	3938186	RCON2170	34568111	20261030	Total balance sheet assets	RCRII	11
+BKU	20260930	equity	20260930	3938186	RCON3210	3033736	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+BKU	20260930	aoci	20260930	3938186	RCONB530	-354712	20261030	Accumulated other comprehensive income	RC	26b
+BKU	20260930	afs_cost	20260930	3938186	RCON1772	9352760	20261030	Total (sum of items 1 through 7)	RCB	8
+BKU	20260930	afs_fv	20260930	3938186	RCON1773	8899659	20261030	Total (sum of items 1 through 7)	RCB	8
+BKU	20260930	htm_cost	20260930	3938186	RCON1754	0	20261030	Total (sum of items 1 through 7)	RCB	8
+BKU	20260930	htm_fv	20260930	3938186	RCON1771	0	20261030	Total (sum of items 1 through 7)	RCB	8
+BKU	20260930	dom_dep	20260930	3938186	RCON2200	28526373	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+BKU	20260930	nib_dom	20260930	3938186	RCON6631	9328980	20261030	Noninterest-bearing	RC	13a1
+BKU	20260930	brokered	20260930	3938186	RCON2365	4145795	20261030	Total brokered deposits	RCE	M1b
+BKU	20260930	uninsured_dom	20260930	3938186	RCON5597	15364563	20261030	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+BKU	20260930	loans	20260930	3938186	RCON2122	23815356	20261030	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+BKU	20260930	allowance	20260930	3938186	RCON3123	221476	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+BKU	20260930	nal	20260930	3938186	RCON1403	234912	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260930	past90	20260930	3938186	RCON1407	200039	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260930	past30	20260930	3938186	RCON1406	181344	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+BKU	20260930	ni_ytd	20260930	3938186	RIAD4340	234903	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+BKU	20260930	co_ytd	20260930	3938186	RIAD4635	54265	20261030	Total (sum of items 1 through 8)	RIBI	9
+BKU	20260930	rec_ytd	20260930	3938186	RIAD4605	5437	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+BKU	20260930	loan_prov_ytd	20260930	3938186	RIAD4230	50479	20261030	Provisions for credit losses	RIBII	5
+BKU	20260930	other_bor	20260930	3938186	RCON3190	1946194	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+BKU	20260930	fedfunds	20260930	3938186	RCONB993	229993	20261030	Federal funds purchased	RC	14a
+BKU	20260930	repos	20260930	3938186	RCONB995	0	20261030	Securities sold under agreements to repurchase	RC	14b
+BKU	20260930	cet1ratio	20260930	3938186	RCOAP793	12.9415%	20261030	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+BKU	20260930	cet1	20260930	3938186	RCOAP859	3311120	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+BKU	20260930	mi3	20260930	3938186	RCON2746	240415	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+BKU	20260930	ndfi	20260930	3938186	RCONJ454	2215066	20261030	Loans to nondepository financial institutions	RCCI	9a
+SBCF	20260930	asset	20260930	34537	RCON2170	21164482	20261030	Total balance sheet assets	RCRII	11
+SBCF	20260930	equity	20260930	34537	RCON3210	2817297	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+SBCF	20260930	aoci	20260930	34537	RCONB530	-260167	20261030	Accumulated other comprehensive income	RC	26b
+SBCF	20260930	afs_cost	20260930	34537	RCON1772	4983037	20261030	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260930	afs_fv	20260930	34537	RCON1773	4634356	20261030	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260930	htm_cost	20260930	34537	RCON1754	552982	20261030	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260930	htm_fv	20260930	34537	RCON1771	435311	20261030	Total (sum of items 1 through 7)	RCB	8
+SBCF	20260930	dom_dep	20260930	34537	RCON2200	16589282	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+SBCF	20260930	nib_dom	20260930	34537	RCON6631	4201228	20261030	Noninterest-bearing	RC	13a1
+SBCF	20260930	brokered	20260930	34537	RCON2365	452610	20261030	Total brokered deposits	RCE	M1b
+SBCF	20260930	uninsured_dom	20260930	34537	RCON5597	5940771	20261030	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+SBCF	20260930	loans	20260930	34537	RCON2122	13588674	20261030	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+SBCF	20260930	allowance	20260930	34537	RCON3123	191355	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+SBCF	20260930	nal	20260930	34537	RCON1403	73281	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260930	past90	20260930	34537	RCON1407	0	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260930	past30	20260930	34537	RCON1406	3836	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+SBCF	20260930	ni_ytd	20260930	34537	RIAD4340	152970	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+SBCF	20260930	co_ytd	20260930	34537	RIAD4635	14822	20261030	Total (sum of items 1 through 8)	RIBI	9
+SBCF	20260930	rec_ytd	20260930	34537	RIAD4605	2919	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+SBCF	20260930	loan_prov_ytd	20260930	34537	RIAD4230	16055	20261030	Provisions for credit losses	RIBII	5
+SBCF	20260930	other_bor	20260930	34537	RCON3190	945000	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+SBCF	20260930	fedfunds	20260930	34537	RCONB993	40000	20261030	Federal funds purchased	RC	14a
+SBCF	20260930	repos	20260930	34537	RCONB995	500415	20261030	Securities sold under agreements to repurchase	RC	14b
+SBCF	20260930	cet1ratio	20260930	34537	RCOAP793	12.8167%	20261030	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+SBCF	20260930	cet1	20260930	34537	RCOAP859	1930484	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+SBCF	20260930	mi3	20260930	34537	RCON2746	0	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+SBCF	20260930	ndfi	20260930	34537	RCONJ454	55198	20261030	Loans to nondepository financial institutions	RCCI	9a
+AMTB	20260930	asset	20260930	83638	RCFD2170	10190147	20261030	Total balance sheet assets	RCRII	11
+AMTB	20260930	equity	20260930	83638	RCFD3210	899167	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+AMTB	20260930	aoci	20260930	83638	RCFDB530	-120779	20261030	Accumulated other comprehensive income	RC	26b
+AMTB	20260930	afs_cost	20260930	83638	RCFD1772	2323216	20261030	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260930	afs_fv	20260930	83638	RCFD1773	2164562	20261030	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260930	htm_cost	20260930	83638	RCFD1754	0	20261030	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260930	htm_fv	20260930	83638	RCFD1771	0	20261030	Total (sum of items 1 through 7)	RCB	8
+AMTB	20260930	dom_dep	20260930	83638	RCON2200	8311393	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+AMTB	20260930	foreign_dep	20260930	83638	RCFN2200	0	20261030	Total	RCEII	6
+AMTB	20260930	nib_dom	20260930	83638	RCON6631	2084364	20261030	Noninterest-bearing	RC	13a1
+AMTB	20260930	brokered	20260930	83638	RCON2365	497387	20261030	Total brokered deposits	RCEI	M1b
+AMTB	20260930	uninsured_dom	20260930	83638	RCON5597	3662424	20261030	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+AMTB	20260930	loans	20260930	83638	RCFD2122	7073445	20261030	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+AMTB	20260930	allowance	20260930	83638	RCFD3123	94845	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+AMTB	20260930	nal	20260930	83638	RCFD1403	148083	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260930	past90	20260930	83638	RCFD1407	1399	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260930	past30	20260930	83638	RCFD1406	34051	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+AMTB	20260930	ni_ytd	20260930	83638	RIAD4340	72651	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+AMTB	20260930	co_ytd	20260930	83638	RIAD4635	18567	20261030	Total (sum of items 1 through 8)	RIBI	9
+AMTB	20260930	rec_ytd	20260930	83638	RIAD4605	7895	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+AMTB	20260930	loan_prov_ytd	20260930	83638	RIAD4230	21400	20261030	Provisions for credit losses	RIBII	5
+AMTB	20260930	other_bor	20260930	83638	RCFD3190	715000	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+AMTB	20260930	fedfunds	20260930	83638	RCONB993	0	20261030	Federal funds purchased in domestic offices	RC	14a
+AMTB	20260930	repos	20260930	83638	RCFDB995	0	20261030	Securities sold under agreements to repurchase	RC	14b
+AMTB	20260930	cet1ratio	20260930	83638	RCFAP793	12.8752%	20261030	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+AMTB	20260930	cet1	20260930	83638	RCFAP859	1005208	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+AMTB	20260930	mi3	20260930	83638	RCFD2746	0	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+AMTB	20260930	ndfi	20260930	83638	RCFDJ454	49502	20261030	Loans to nondepository financial institutions	RCCI	9a
+FLG	20260930	asset	20260930	694904	RCFD2170	87412410	20261030	Total balance sheet assets	RCRII	11
+FLG	20260930	equity	20260930	694904	RCFD3210	7644626	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+FLG	20260930	aoci	20260930	694904	RCFDB530	-838904	20261030	Accumulated other comprehensive income	RC	26b
+FLG	20260930	afs_cost	20260930	694904	RCFD1772	17565566	20261030	Total (sum of items 1 through 7)	RCB	8
+FLG	20260930	afs_fv	20260930	694904	RCFD1773	16395152	20261030	Total (sum of items 1 through 7)	RCB	8
+FLG	20260930	htm_cost	20260930	694904	RCFD1754	0	20261030	Total (sum of items 1 through 7)	RCB	8
+FLG	20260930	htm_fv	20260930	694904	RCFD1771	0	20261030	Total (sum of items 1 through 7)	RCB	8
+FLG	20260930	dom_dep	20260930	694904	RCON2200	67819572	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+FLG	20260930	nib_dom	20260930	694904	RCON6631	12390115	20261030	Noninterest-bearing	RC	13a1
+FLG	20260930	brokered	20260930	694904	RCON2365	2632888	20261030	Total brokered deposits	RCEI	M1b
+FLG	20260930	uninsured_dom	20260930	694904	RCON5597	19717325	20261030	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+FLG	20260930	loans	20260930	694904	RCFD2122	62110348	20261030	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+FLG	20260930	allowance	20260930	694904	RCFD3123	868998	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+FLG	20260930	nal	20260930	694904	RCFD1403	2989320	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260930	past90	20260930	694904	RCFD1407	106723	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260930	past30	20260930	694904	RCFD1406	534263	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+FLG	20260930	ni_ytd	20260930	694904	RIAD4340	67443	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+FLG	20260930	co_ytd	20260930	694904	RIAD4635	316154	20261030	Total (sum of items 1 through 8)	RIBI	9
+FLG	20260930	rec_ytd	20260930	694904	RIAD4605	65116	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+FLG	20260930	loan_prov_ytd	20260930	694904	RIAD4230	90037	20261030	Provisions for credit losses	RIBII	5
+FLG	20260930	other_bor	20260930	694904	RCFD3190	10488125	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+FLG	20260930	fedfunds	20260930	694904	RCONB993	0	20261030	Federal funds purchased in domestic offices	RC	14a
+FLG	20260930	repos	20260930	694904	RCFDB995	0	20261030	Securities sold under agreements to repurchase	RC	14b
+FLG	20260930	cet1ratio	20260930	694904	RCFAP793	12.3821%	20261030	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+FLG	20260930	cet1	20260930	694904	RCFAP859	7713039	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+FLG	20260930	mi3	20260930	694904	RCFD2746	679072	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+FLG	20260930	ndfi	20260930	694904	RCFDJ454	4511574	20261030	Loans to nondepository financial institutions	RCCI	9a
+MTB	20260930	asset	20260930	501105	RCFD2170	219988000	20261030	Total balance sheet assets	RCRII	11
+MTB	20260930	equity	20260930	501105	RCFD3210	27681000	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+MTB	20260930	aoci	20260930	501105	RCFDB530	-674000	20261030	Accumulated other comprehensive income	RC	26b
+MTB	20260930	afs_cost	20260930	501105	RCFD1772	17233000	20261030	Total (sum of items 1 through 7)	RCB	8
+MTB	20260930	afs_fv	20260930	501105	RCFD1773	16488000	20261030	Total (sum of items 1 through 7)	RCB	8
+MTB	20260930	htm_cost	20260930	501105	RCFD1754	20197000	20261030	Total (sum of items 1 through 7)	RCB	8
+MTB	20260930	htm_fv	20260930	501105	RCFD1771	18672000	20261030	Total (sum of items 1 through 7)	RCB	8
+MTB	20260930	dom_dep	20260930	501105	RCON2200	171364000	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+MTB	20260930	foreign_dep	20260930	501105	RCFN2200	22000	20261030	Total	RCEII	6
+MTB	20260930	nib_dom	20260930	501105	RCON6631	45959000	20261030	Noninterest-bearing	RC	13a1
+MTB	20260930	brokered	20260930	501105	RCON2365	7974000	20261030	Total brokered deposits	RCEI	M1b
+MTB	20260930	uninsured_dom	20260930	501105	RCON5597	83365000	20261030	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+MTB	20260930	loans	20260930	501105	RCFD2122	145562000	20261030	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+MTB	20260930	allowance	20260930	501105	RCFD3123	2178000	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+MTB	20260930	nal	20260930	501105	RCFD1403	1297000	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260930	past90	20260930	501105	RCFD1407	703000	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260930	past30	20260930	501105	RCFD1406	1239000	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+MTB	20260930	ni_ytd	20260930	501105	RIAD4340	2296000	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+MTB	20260930	co_ytd	20260930	501105	RIAD4635	456000	20261030	Total (sum of items 1 through 8)	RIBI	9
+MTB	20260930	rec_ytd	20260930	501105	RIAD4605	144000	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+MTB	20260930	loan_prov_ytd	20260930	501105	RIAD4230	375000	20261030	Provisions for credit losses	RIBII	5
+MTB	20260930	other_bor	20260930	501105	RCFD3190	14499000	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+MTB	20260930	fedfunds	20260930	501105	RCONB993	0	20261030	Federal funds purchased in domestic offices	RC	14a
+MTB	20260930	repos	20260930	501105	RCFDB995	73000	20261030	Securities sold under agreements to repurchase	RC	14b
+MTB	20260930	cet1ratio	20260930	501105	RCFAP793	11.6828%	20261030	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+MTB	20260930	cet1	20260930	501105	RCFAP859	19865000	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+MTB	20260930	mi3	20260930	501105	RCFD2746	5413000	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+MTB	20260930	ndfi	20260930	501105	RCFDJ454	13734000	20261030	Loans to nondepository financial institutions	RCCI	9a
+HBAN	20260930	asset	20260930	12311	RCFD2170	287081435	20261030	Total balance sheet assets	RCRII	11
+HBAN	20260930	equity	20260930	12311	RCFD3210	32864869	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+HBAN	20260930	aoci	20260930	12311	RCFDB530	-2955459	20261030	Accumulated other comprehensive income	RC	26b
+HBAN	20260930	afs_cost	20260930	12311	RCFD1772	37654079	20261030	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260930	afs_fv	20260930	12311	RCFD1773	34622531	20261030	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260930	htm_cost	20260930	12311	RCFD1754	14732776	20261030	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260930	htm_fv	20260930	12311	RCFD1771	12465934	20261030	Total (sum of items 1 through 7)	RCB	8
+HBAN	20260930	dom_dep	20260930	12311	RCON2200	229260912	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+HBAN	20260930	foreign_dep	20260930	12311	RCFN2200	0	20261030	Total	RCEII	6
+HBAN	20260930	nib_dom	20260930	12311	RCON6631	45675425	20261030	Noninterest-bearing	RC	13a1
+HBAN	20260930	brokered	20260930	12311	RCON2365	5070595	20261030	Total brokered deposits	RCEI	M1b
+HBAN	20260930	uninsured_dom	20260930	12311	RCON5597	75885613	20261030	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+HBAN	20260930	loans	20260930	12311	RCFD2122	192912244	20261030	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+HBAN	20260930	allowance	20260930	12311	RCFD3123	3222272	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+HBAN	20260930	nal	20260930	12311	RCFD1403	1696676	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260930	past90	20260930	12311	RCFD1407	471956	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260930	past30	20260930	12311	RCFD1406	1225144	20261030	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+HBAN	20260930	ni_ytd	20260930	12311	RIAD4340	2226214	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+HBAN	20260930	co_ytd	20260930	12311	RIAD4635	564144	20261030	Total (sum of items 1 through 8)	RIBI	9
+HBAN	20260930	rec_ytd	20260930	12311	RIAD4605	188112	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+HBAN	20260930	loan_prov_ytd	20260930	12311	RIAD4230	482837	20261030	Provisions for credit losses	RIBII	5
+HBAN	20260930	other_bor	20260930	12311	RCFD3190	16942119	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+HBAN	20260930	fedfunds	20260930	12311	RCONB993	0	20261030	Federal funds purchased in domestic offices	RC	14a
+HBAN	20260930	repos	20260930	12311	RCFDB995	0	20261030	Securities sold under agreements to repurchase	RC	14b
+HBAN	20260930	cet1ratio	20260930	12311	RCFAP793	11.9498%	20261030	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+HBAN	20260930	cet1	20260930	12311	RCFAP859	25522803	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+HBAN	20260930	mi3	20260930	12311	RCFD2746	2836768	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+HBAN	20260930	ndfi	20260930	12311	RCFDJ454	19938764	20261030	Loans to nondepository financial institutions	RCCI	9a
+VLY	20260930	asset	20260930	229801	RCFD2170	67371088	20261027	Total balance sheet assets	RCRII	11
+VLY	20260930	equity	20260930	229801	RCFD3210	8409461	20261027	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+VLY	20260930	aoci	20260930	229801	RCFDB530	-231759	20261027	Accumulated other comprehensive income	RC	26b
+VLY	20260930	afs_cost	20260930	229801	RCFD1772	4536279	20261027	Total (sum of items 1 through 7)	RCB	8
+VLY	20260930	afs_fv	20260930	229801	RCFD1773	4229810	20261027	Total (sum of items 1 through 7)	RCB	8
+VLY	20260930	htm_cost	20260930	229801	RCFD1754	3727422	20261027	Total (sum of items 1 through 7)	RCB	8
+VLY	20260930	htm_fv	20260930	229801	RCFD1771	3133009	20261027	Total (sum of items 1 through 7)	RCB	8
+VLY	20260930	dom_dep	20260930	229801	RCON2200	55401433	20261027	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)	RC	13a
+VLY	20260930	foreign_dep	20260930	229801	RCFN2200	0	20261027	Total	RCEII	6
+VLY	20260930	nib_dom	20260930	229801	RCON6631	12619399	20261027	Noninterest-bearing	RC	13a1
+VLY	20260930	brokered	20260930	229801	RCON2365	5298956	20261027	Total brokered deposits	RCEI	M1b
+VLY	20260930	uninsured_dom	20260930	229801	RCON5597	22158970	20261027	Estimated amount of uninsured deposits in domestic offices of the bank and in insured branches in Puerto Rico and U.S. territories and possessions, including related interest accrued and unpaid (see instructions)	RCO	M2
+VLY	20260930	loans	20260930	229801	RCFD2122	53199745	20261027	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+VLY	20260930	allowance	20260930	229801	RCFD3123	580272	20261027	LESS: Allowance for credit losses on loans and leases	RCRII	6
+VLY	20260930	nal	20260930	229801	RCFD1403	511390	20261027	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260930	past90	20260930	229801	RCFD1407	17332	20261027	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260930	past30	20260930	229801	RCFD1406	137180	20261027	Total loans and leases (sum of items 1 through 8.b)	RCN	9
+VLY	20260930	ni_ytd	20260930	229801	RIAD4340	557102	20261027	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+VLY	20260930	co_ytd	20260930	229801	RIAD4635	87485	20261027	Total (sum of items 1 through 8)	RIBI	9
+VLY	20260930	rec_ytd	20260930	229801	RIAD4605	10817	20261027	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+VLY	20260930	loan_prov_ytd	20260930	229801	RIAD4230	73540	20261027	Provisions for credit losses	RIBII	5
+VLY	20260930	other_bor	20260930	229801	RCFD3190	1964297	20261027	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+VLY	20260930	fedfunds	20260930	229801	RCONB993	0	20261027	Federal funds purchased in domestic offices	RC	14a
+VLY	20260930	repos	20260930	229801	RCFDB995	50256	20261027	Securities sold under agreements to repurchase	RC	14b
+VLY	20260930	cet1ratio	20260930	229801	RCFAP793	12.3336%	20261027	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced approaches institutions that exit parallel run only: Column B: item 19, column B, divided by item 48.b)	RCRI	49
+VLY	20260930	cet1	20260930	229801	RCFAP859	6687562	20261027	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+VLY	20260930	mi3	20260930	229801	RCFD2746	521871	20261027	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column A	RCCI	M3
+VLY	20260930	ndfi	20260930	229801	RCFDJ454	2062490	20261027	Loans to nondepository financial institutions	RCCI	9a
+CUBI	20260930	asset	20260930	2354985	RCON2170	27396116	20261030	Total balance sheet assets	RCRII	11
+CUBI	20260930	equity	20260930	2354985	RCON3210	2331469	20261030	Total bank equity capital (sum of items 23 through 26.c)	RC	27a
+CUBI	20260930	aoci	20260930	2354985	RCONB530	-118024	20261030	Accumulated other comprehensive income	RC	26b
+CUBI	20260930	afs_cost	20260930	2354985	RCON1772	3687044	20261030	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260930	afs_fv	20260930	2354985	RCON1773	3541549	20261030	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260930	htm_cost	20260930	2354985	RCON1754	601300	20261030	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260930	htm_fv	20260930	2354985	RCON1771	529994	20261030	Total (sum of items 1 through 7)	RCB	8
+CUBI	20260930	dom_dep	20260930	2354985	RCON2200	22698902	20261030	In domestic offices (sum of totals of columns A and C from Schedule RC-E)	RC	13a
+CUBI	20260930	nib_dom	20260930	2354985	RCON6631	7325716	20261030	Noninterest-bearing	RC	13a1
+CUBI	20260930	brokered	20260930	2354985	RCON2365	4247624	20261030	Total brokered deposits	RCE	M1b
+CUBI	20260930	uninsured_dom	20260930	2354985	RCON5597	9781261	20261030	Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)	RCO	M2
+CUBI	20260930	loans	20260930	2354985	RCON2122	18511337	20261030	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)	RCCI	12
+CUBI	20260930	allowance	20260930	2354985	RCON3123	172125	20261030	LESS: Allowance for credit losses on loans and leases	RCRII	6
+CUBI	20260930	nal	20260930	2354985	RCON1403	53438	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260930	past90	20260930	2354985	RCON1407	3952	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260930	past30	20260930	2354985	RCON1406	80006	20261030	Total loans and leases (sum of items 1 through 8)	RCN	9
+CUBI	20260930	ni_ytd	20260930	2354985	RIAD4340	229370	20261030	Net income (loss) attributable to bank (must equal Schedule RI, item 14)	RIA	4
+CUBI	20260930	co_ytd	20260930	2354985	RIAD4635	49966	20261030	Total (sum of items 1 through 8)	RIBI	9
+CUBI	20260930	rec_ytd	20260930	2354985	RIAD4605	9466	20261030	Recoveries (column A must equal Part I, item 9, column B, above)	RIBII	2
+CUBI	20260930	loan_prov_ytd	20260930	2354985	RIAD4230	56969	20261030	Provisions for credit losses	RIBII	5
+CUBI	20260930	other_bor	20260930	2354985	RCON3190	2137182	20261030	Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)	RCM	5c
+CUBI	20260930	fedfunds	20260930	2354985	RCONB993	0	20261030	Federal funds purchased	RC	14a
+CUBI	20260930	repos	20260930	2354985	RCONB995	0	20261030	Securities sold under agreements to repurchase	RC	14b
+CUBI	20260930	cet1ratio	20260930	2354985	RCOAP793	13.4034%	20261030	Common equity tier 1 capital ratio (item 19 divided by item 48)	RCRI	49
+CUBI	20260930	cet1	20260930	2354985	RCOAP859	2443440	20261030	Common equity tier 1 capital (item 12 minus item 18)	RCRI	19
+CUBI	20260930	mi3	20260930	2354985	RCON2746	447932	20261030	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B	RCCI	M3
+CUBI	20260930	ndfi	20260930	2354985	RCONJ454	6206273	20261030	Loans to nondepository financial institutions	RCCI	9a
