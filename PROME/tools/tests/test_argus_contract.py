@@ -580,7 +580,13 @@ class PerimeterPinTests(ContractFixture):
         self.freeze(); a = self.commit('PROME/result')
         self.desk_commit('AGENTS/BROCK/new.md', 'v1\n'); self.write('AGENTS/BROCK/new.md', 'v2 pending\n')
         self.write('PROME/result', 'tampered after review')
+        # WQ-583 AC2 (2026-10-31): the working-tree verify now checks delivered bytes AT the immutable candidate and
+        # lists the post-freeze edit as advisory; the tampered bytes still cannot ship — a commit carrying them blocks.
         rc, lines = sc.verify_review()
+        self.assertEqual(rc, 0, lines)
+        self.assertTrue(any(l.startswith('POST-FREEZE EDIT') and l.endswith('PROME/result') for l in lines), lines)
+        b = self.commit('PROME/result')
+        rc, lines = sc.verify_review(ref=b, paths=['PROME/result'])
         self.assertEqual(rc, 1, lines)
         self.assertIn('CHANGED-SINCE-REVIEW: delivered PROME/result', lines)
 

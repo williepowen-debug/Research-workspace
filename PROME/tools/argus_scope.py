@@ -687,6 +687,17 @@ def reads_for(entry):
     return r
 
 
+def _current_candidate_review(base_sha):
+    """The schema-2 manifest frozen against THIS baseline with a WQ-583 candidate, else None (never a failure)."""
+    try:
+        d = json.loads((ROOT / REVIEW_FILE).read_text(encoding="utf-8"))
+        if d.get("schema") == 2 and d.get("candidate") and git("rev-parse", base_sha).strip() == d["contract"]["baseline"]:
+            return d
+    except (OSError, ValueError, KeyError, TypeError, subprocess.CalledProcessError):
+        pass
+    return None
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", action="store_true")
@@ -713,6 +724,12 @@ def main(argv=None):
                          "into PROME/inbox/processed/ (repeatable). WQ-289 (b): the only path an EXCLUDED "
                          "rename pair can pass --verify-review --paths, and only after ARGUS confirms it "
                          "(manifest REVIEWED); the tool re-checks the bytes against origin/master itself")
+    ap.add_argument("--deliver-candidate", action="store_true",
+                    help="WQ-583: put the REVIEWED candidate's bytes on master as one commit (needs -F); "
+                         "never pushes — run --verify-review --ref <printed sha> --paths <printed paths>, then safe-push")
+    ap.add_argument("-F", "--message-file", type=Path, help="with --deliver-candidate: the commit message file")
+    ap.add_argument("--carry", nargs="+", default=(), metavar="PATH",
+                    help="with --deliver-candidate: post-freeze edits deliberately left for the bookkeeping commit")
     ap.add_argument("--mark-reviewed", metavar="NOTE", nargs="?", const="",
                     help="promote FROZEN -> REVIEWED after the audit actually ran; refuses if the frozen "
                          "candidate changed")
@@ -723,18 +740,32 @@ def main(argv=None):
         ap.error("--snapshot requires --verify-review --ref")
     if args.observe_at and not args.observe:
         ap.error("--observe-at requires --observe")
-    if args.observe or args.contract:
+    if args.deliver_candidate and not args.message_file:
+        ap.error("--deliver-candidate requires -F <message file>")
+    if args.observe or args.contract or args.deliver_candidate:
         import argus_contract
         try:
             sc = sys.modules[__name__]
+            if args.deliver_candidate:
+                sha, paths = argus_contract.deliver(sc, args.message_file, args.carry)
+                print(f"DELIVERED {sha} ({len(paths)} path(s)) — not pushed. Next, from the repo root:")
+                print(f"  python3 PROME/tools/argus_scope.py --verify-review --ref {sha} --paths " + " ".join(paths))
+                return 0
             if args.observe:
                 argus_contract.observe(sc, json.loads(args.observe.read_text()), args.observe_at)
                 print("ARGUS inventory classifications appended; review contract unchanged")
             else:
                 d = argus_contract.freeze(sc, json.loads(args.contract.read_text()))
-                print(f"ARGUS contract FROZEN: {d['contract_sha256']}; {len(d['paths'])} delivered paths")
+                c = d['contract']
+                print(f"ARGUS contract FROZEN: {d['contract_sha256']}; {len(d['paths'])} delivered paths; "
+                      f"candidate {d['candidate']['sha'][:9]} ({argus_contract.CANDIDATE_REF}, on no branch); "
+                      f"{len(c['mechanical_moves'])} mechanical move(s); {len(c['reused'])} reused review(s); "
+                      f"changed portion {len(d['paths']) - len(c['reused'])}")
+                for path, rec in sorted(d['foreign_at_freeze'].items()):   # WQ-583: a PROME file in a shared folder
+                    print(f"  FOREIGN at freeze (NOT delivered — name it in `delivered` if it is PROME's, e.g. the "
+                          f"daily memory file): {path} [{rec['lane']}]")
             return 0
-        except (ValueError, KeyError, TypeError, OSError, subprocess.CalledProcessError) as exc:
+        except (ValueError, KeyError, TypeError, OSError, RuntimeError, subprocess.CalledProcessError) as exc:
             print(f"CANNOT-EVALUATE: {exc}")
             return 2
     if args.consumed_move and not args.record_review:
@@ -769,6 +800,19 @@ def main(argv=None):
         return 2
     rules = load_perimeter()
     lanes, excluded = build_scope(base["sha"], rules, include_pending=not args.no_pending)
+    rev = _current_candidate_review(base["sha"])   # WQ-583: the frozen candidate, if this baseline has one
+    cand9 = moves = reused = None
+    if rev:
+        c = rev["contract"]
+        cand9, moves, reused = rev["candidate"]["sha"][:9], c.get("mechanical_moves", {}), c.get("reused", {})
+        legs = set(moves) | {r["origin"] for r in moves.values()}
+        for lane in lanes:
+            lanes[lane] = [e for e in lanes[lane] if e["path"] not in legs]
+            for e in lanes[lane]:
+                if e["path"] in c["delivered"]:
+                    e["candidate_read"] = f"git diff {base['sha'][:9]}..{cand9} -- <path>   (the reviewed candidate)"
+                if e["path"] in reused:
+                    e["reused"] = reused[e["path"]]
 
     audited = lanes["OWNED"] + lanes["SHARED"] + lanes["UNATTRIBUTED"]
     total = len(audited)
@@ -794,6 +838,7 @@ def main(argv=None):
             "baseline_source": BASELINE_FILE, "perimeter_source": PERIMETER_FILE,
             "owned": lanes["OWNED"], "shared": lanes["SHARED"], "unattributed": lanes["UNATTRIBUTED"],
             "excluded_count": len(excluded), "path_count": total, "verdict": verdict,
+            "candidate": cand9, "mechanical_moves": moves or {}, "reused": sorted(reused or {}),
             "shared_prome_evidenced": sum(1 for e in lanes["SHARED"] if e.get("evidence")),
             "lane_meaning": {
                 "owned": "PROME's output — audit it",
@@ -803,6 +848,13 @@ def main(argv=None):
     else:
         print(f"ARGUS-SCOPE · baseline {base['sha'][:9]} — {base.get('subject','')[:80]}")
         print(f"  recorded baseline: {BASELINE_FILE} · perimeter: {PERIMETER_FILE}")
+        if cand9:
+            print(f"  CANDIDATE {cand9} (WQ-583) — the reviewed bytes, on no branch: read every path marked 'candidate' "
+                  f"from it, never the working tree (post-freeze bookkeeping lives there) · mechanical moves "
+                  f"{len(moves)} (byte-identical pairs the tool verified — not audited) · reused {len(reused)} "
+                  f"(this exact version already reviewed — audit only claims ABOUT it in other files)")
+            for dest, r in sorted(moves.items()):
+                print(f"    = MECHANICAL MOVE {r['origin']} -> {dest}")
         n_ev = sum(1 for e in lanes["SHARED"] if e.get("evidence"))
         print(f"  OWNED {len(lanes['OWNED'])} · SHARED {len(lanes['SHARED'])} (PROME-evidenced {n_ev} · unevidenced {len(lanes['SHARED']) - n_ev}) · "
               f"UNATTRIBUTED {len(lanes['UNATTRIBUTED'])} · excluded {len(excluded)} entries "
@@ -813,7 +865,12 @@ def main(argv=None):
                          else "committed" if e["committed"] else "PENDING")
                 label = e.get("sublane", lane)
                 print(f"    - [{label} · {state}] {e['path']}")
-                if label == "SHARED/UNEVIDENCED":
+                if e.get("reused"):
+                    src = e["reused"].get("receipt") or f"contract {e['reused'].get('contract', '')[:12]}"
+                    print(f"        REUSED review (exact version; {e['reused']['source']}: {src}) — do not re-audit its content")
+                elif e.get("candidate_read"):
+                    print(f"        read: {e['candidate_read']}")
+                elif label == "SHARED/UNEVIDENCED":
                     print("        list only — open it ONLY if an OWNED hunk references it or a declared consumed move names it (WQ-417 P3)")
                 else:
                     for r in reads_for(e):

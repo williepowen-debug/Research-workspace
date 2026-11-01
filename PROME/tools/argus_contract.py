@@ -6,6 +6,7 @@ heuristic. This module never stages files, fetches, pushes or advances a baselin
 import datetime as dt
 import hashlib
 import json
+import os
 import re
 import subprocess
 from pathlib import Path, PurePosixPath
@@ -221,12 +222,25 @@ def pinned_rules(manifest):
 def freeze(sc, plan):
     base, why = sc.load_baseline()
     require(base is not None, f'baseline unusable: {why}')
-    require(isinstance(plan, dict) and isinstance(plan.get('delivered'), dict)
-            and bool(plan['delivered']), 'nonempty delivered mapping required')
+    require(isinstance(plan, dict), 'plan must be an object')
+    explicit = plan.get('delivered', {})
+    auto_d = plan.get('auto_delivered') is True
+    require(isinstance(explicit, dict) and (bool(explicit) or auto_d),
+            'nonempty delivered mapping (or "auto_delivered": true) required')
     baseline, head = resolve(sc, base['sha']), resolve(sc, 'HEAD')
     seen = inventory(sc, baseline, head)
+    pin = pin_perimeter(sc)
+    pin_rules = pinned_rules({'perimeter': pin})
+    moves = mechanical_moves(sc, baseline, seen, set(explicit), pin_rules)   # WQ-583 AC4
+    legs = move_legs(moves)
+    plan_delivered = dict(explicit)
+    exclude = plan.get('exclude', [])
+    require(isinstance(exclude, list) and not (set(exclude) & set(explicit)), 'exclude must be a list disjoint from delivered')
+    if auto_d:                                                     # WQ-583 AC6
+        plan_delivered = {**derive_delivered(sc, baseline, seen, pin_rules, legs | set(explicit) | set(exclude)), **explicit}
+    require(plan_delivered, 'nothing to deliver')
     delivered = {}
-    for path, provenance in plan['delivered'].items():
+    for path, provenance in plan_delivered.items():
         path_ok(path)
         require(path not in sc.RECEIPT_PATHS and text_ok(provenance), f'{path}: provenance required')
         require(path in seen, f'{path}: not a change since baseline')
@@ -240,8 +254,6 @@ def freeze(sc, plan):
         require(isinstance(claims, dict) and claims and set(claims) <= set(delivered)
                 and all(text_ok(c) for c in claims.values()), 'evidence must name delivered claims')
         deps.append({**dep, 'mode': item['mode'], 'claims': claims})
-    pin = pin_perimeter(sc)
-    pin_rules = pinned_rules({'perimeter': pin})
     guarded = sorted(p for p in seen if never_advisory(sc, p, pin_rules) and p not in delivered)
     require(not guarded, 'changed since the baseline and never attributed by commit or observed-only — deliver it '
             '(the perimeter becomes the pin; an ignore file changes what the gate can see): ' + ', '.join(guarded))
@@ -257,7 +269,7 @@ def freeze(sc, plan):
                  d['path'] in seen and seen[d['path']]['working_sha256'] == d['sha256'] and
                  seen[d['path']]['commit_sha256'] == d['sha256']}
     auto = attributed_by_commit(sc, baseline, seen, set(delivered), pin_rules)
-    required |= set(auto)
+    required |= set(auto) | legs
     # Will 2026-10-29 14:05 ET ("we need to fix this freeze thing. This seems costly"; acceptance
     # ACCEPTANCE_freeze_foreign_pending_2026-10-29.md): the freeze applies the SAME foreign test the verify applies. A
     # pending path outside PROME's OWNED lane under the pin, not delivered, not a never-advisory or ignore-named file,
@@ -282,7 +294,9 @@ def freeze(sc, plan):
             foreign[p] = {'lane': lane, 'snapshot': s}
         required |= set(foreign)
     require(set(seen) <= required, 'unclassified inventory (PENDING, OWNED, PROME-evidenced or differing from its commit): ' + ', '.join(sorted(set(seen) - required)))
-    contract = {'baseline': baseline, 'anchor': head, 'delivered': delivered, 'evidence': deps}
+    reused = reuse_entries(sc, baseline, delivered, plan.get('reviewed', {}))   # WQ-583 AC5
+    contract = {'baseline': baseline, 'anchor': head, 'delivered': delivered, 'evidence': deps,
+                'mechanical_moves': moves, 'reused': reused}
     manifest = {'schema': 2, 'verdict': sc.FROZEN, 'baseline': base['sha'], 'head': head,
                 'recorded_at': dt.datetime.now(dt.timezone.utc).isoformat(), 'contract': contract,
                 'contract_sha256': digest(contract), 'observed': observed, 'inventory': seen,
@@ -290,6 +304,13 @@ def freeze(sc, plan):
                 'paths': {p: d['sha256'] for p, d in delivered.items()}}
     rc, lines = verify(sc, manifest)
     require(rc == 0, '; '.join(lines))
+    # WQ-583 AC1: the reviewed bytes as an immutable commit off every branch; PROME's own pending moves ride it.
+    cand = {p: d['sha256'] for p, d in delivered.items()}
+    for dest, rec in own_pending_moves(sc, moves, seen, pin_rules).items():
+        cand[dest], cand[rec['origin']] = rec['sha256'], None
+    manifest['candidate'] = {'sha': build_candidate(sc, head, cand, manifest['contract_sha256'][:12]),
+                             'ref': CANDIDATE_REF, 'paths': cand}
+    candidate_check(sc, manifest, contract)   # the full verify above already ran; this proves the candidate legs
     (sc.ROOT / sc.REVIEW_FILE).write_text(json.dumps(manifest, indent=2) + '\n')
     return manifest
 
@@ -326,6 +347,15 @@ def validate(sc, manifest):
         require(pin['rules'] is None or (isinstance(pin['rules'], list) and pin['rules'] and all(
             isinstance(r, list) and len(r) == 3 and all(isinstance(x, str) for x in r) and r[1] in sc.CLASSES
             for r in pin['rules'])), 'malformed perimeter pin rules')
+    moves = c.get('mechanical_moves', {})
+    require(isinstance(moves, dict) and isinstance(c.get('reused', {}), dict), 'malformed moves/reuse')
+    for dest, rec in moves.items():
+        path_ok(dest); path_ok(rec['origin'])
+        require(sha_ok(rec['sha256']) and dest not in c['delivered'] and rec['origin'] not in c['delivered']
+                and not _move_excluded(sc, dest) and not _move_excluded(sc, rec['origin']), f'{dest}: malformed move')
+    for path, r in c.get('reused', {}).items():
+        require(path in c['delivered'] and r.get('sha256') == c['delivered'][path]['sha256'], f'{path}: malformed reuse')
+    candidate_check(sc, manifest, c)
     require(isinstance(manifest['observed'], dict), 'observed classifications must be a mapping')
     for path, records in manifest['observed'].items():
         require(not never_advisory(sc, path, pinned_rules(manifest)), f'{path}: never observed-only (reader 10/24 ❌B)')
@@ -353,10 +383,22 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
         delivered = set(c['delivered'])
         current_deps = {d['path'] for d in c['evidence'] if d['mode'] == 'current'}
         historical_deps = {(d['path'], d['sha256']) for d in c['evidence'] if d['mode'] == 'historical'}
-        errors = []
+        errors, post_freeze = [], []
+        cand = manifest.get('candidate')   # validate() proved its bytes equal the contract (WQ-583 AC2)
+        moves = c.get('mechanical_moves', {})
+        held_working = move_legs(moves, sc)
+        held_target = move_legs(moves, sc, target) if target else held_working
+        own_moves = {d: r for d, r in moves.items()
+                     if _own(sc, d, pinned_rules(manifest)) and _own(sc, r['origin'], pinned_rules(manifest))}
+        held_delivery = move_legs(own_moves, sc, delivery if delivery else None)   # read #3 ⚠️1 (WQ-584): a desk's move never rides a PROME commit
         for path, entry in c['delivered'].items():
             content = sc._committed_content_id(path, target) if target else sc._content_id(path)
-            if content != entry['sha256']:
+            if content == entry['sha256']:
+                continue
+            if target is None and cand:
+                post_freeze.append(f'POST-FREEZE EDIT (not in the reviewed candidate {cand["sha"][:9]}; re-freeze to ship '
+                                   f'it with this delivery, or --carry it to the bookkeeping commit): {path}')
+            else:
                 errors.append(f'CHANGED-SINCE-REVIEW: delivered {path}')
         for dep in c['evidence']:
             if dep['mode'] == 'current':
@@ -396,6 +438,8 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                                                    and (path, state['commit_sha256']) in historical_deps):
                 continue
             if path in auto:  # WQ-485 A: committed-only, outside OWNED — attributed by its commits
+                continue
+            if path in held_working:  # WQ-583 AC4: byte-identical move, still holding
                 continue
             records = manifest['observed'].get(path, [])
             matched = False
@@ -442,16 +486,16 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                 else:
                     errors.append(f'UNCLASSIFIED: {path} (new or changed observed version)')
         if paths is not None:
-            for path in set(paths) - delivered - sc.RECEIPT_PATHS:
+            for path in set(paths) - delivered - sc.RECEIPT_PATHS - held_delivery:
                 errors.append(f'UNREVIEWED DELIVERY PATH: {path}')
         if delivery:
             actual = set(git(sc, 'diff-tree', '--root', '-m', '--no-commit-id', '--name-only',
                              '--no-renames', '-r', '-z', delivery).split('\0')) - {''} - sc.RECEIPT_PATHS
-            for path in actual - delivered:
+            for path in actual - delivered - held_delivery:
                 errors.append(f'UNREVIEWED ACTUAL COMMIT PATH: {path}')
             # Verify any history not in the captured local inventory (e.g. a fetched snapshot).
             for path, shas in changes(sc, c['baseline'], target).items():
-                if path in sc.RECEIPT_PATHS | delivered | current_deps:
+                if path in sc.RECEIPT_PATHS | delivered | current_deps | held_target:
                     continue
                 content = sc._committed_content_id(path, target)
                 if (path, content) in historical_deps:
@@ -466,9 +510,12 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                 records = manifest['observed'].get(path, [])
                 if not any(r['snapshot']['commit_sha256'] == content for r in records):
                     errors.append(f'UNCLASSIFIED SNAPSHOT PATH: {path}')
+        advisories = post_freeze + advisories
         if errors:
             return 1, errors + advisories
         return 0, advisories + [f'contract {digest(c)} unchanged; verdict {manifest.get("verdict")}; '
+                   f'candidate {cand["sha"][:9] if cand else "none"}; {len(moves)} mechanical move(s); '
+                   f'{len(c.get("reused", {}))} reused review(s); '
                    f'delivery {delivery or "working tree"}; snapshot {target or "working tree"}; '
                    f'{len(seen)} inventory paths retained, unrelated content not certified']
     except (ValueError, KeyError, TypeError, AttributeError, OSError, subprocess.CalledProcessError) as exc:
@@ -493,3 +540,308 @@ def observe(sc, additions, ref=None):
     manifest['inventory'] = seen
     file.write_text(json.dumps(manifest, indent=2) + '\n')
     return manifest
+
+
+# ---------------------------------------------------------------- WQ-583 code half (Will 2026-10-31 20:26 ET,
+# verbatim "can you do this part now"; DOCKET L912; acceptance tests/ACCEPTANCE_wq583_candidate_moves_reuse_2026-10-31.md;
+# bounds from CATO 0629fd459): a review candidate held OFF the shared branch, byte-identical moves skipped pair by pair,
+# exact-version review reuse, and a delivery list derived from the inventory instead of typed by hand.
+
+CANDIDATE_REF = 'refs/prome/argus-candidate'
+NULL_SHA = '0' * 40
+
+
+def _run(sc, *args, env=None, data=None):
+    full = {**os.environ, 'GIT_NO_REPLACE_OBJECTS': '1', **(env or {})}
+    return subprocess.run(['git', *args], cwd=sc.ROOT, env=full, input=data,
+                          capture_output=True, check=True).stdout.decode('utf-8')
+
+
+def tree_entry(sc, ref, path):
+    """(mode, blob) of `path` in `ref`, or None when absent."""
+    out = _run(sc, 'ls-tree', '-z', ref, '--', path)
+    for rec in out.split('\0'):
+        if rec and '\t' in rec:
+            meta, name = rec.split('\t', 1)
+            mode, kind, blob = meta.split()
+            if name == path and kind == 'blob':
+                return mode, blob
+    return None
+
+
+def _move_excluded(sc, path):
+    return (path == sc.PERIMETER_FILE or path in sc.RECEIPT_PATHS
+            or PurePosixPath(path).name in IGNORE_FILES)
+
+
+def _own(sc, path, rules):
+    """PROME's side of the tree for move purposes: its own directory or an OWNED lane under the pinned rules."""
+    return path.startswith('PROME/') or (rules is not None and sc.classify(path, rules)[0] == 'OWNED')
+
+
+def mechanical_moves(sc, baseline, seen, explicit, rules=None):
+    """AC4: {dest: {'origin', 'sha256'}} for byte-identical moves since the baseline — origin absent from the working
+    tree and PRESENT AT THE BASELINE, destination absent at the baseline, same basename, destination bytes (working,
+    and committed if committed) equal to the origin's BASELINE bytes, exactly one pairing per (basename, bytes), both
+    legs on the same side of PROME's tree (_own). Reader 2026-10-31 ❌1: a version the origin gained INSIDE the window
+    is new content, never a move. Never: the perimeter, an ignore/attributes file, a receipt path, an explicit delivery."""
+    if rules is None:
+        return {}   # no pinned lanes ⇒ no move can be judged same-lane ⇒ strict
+    try:
+        filemode = _run(sc, 'config', '--bool', 'core.fileMode').strip() != 'false'
+    except subprocess.CalledProcessError:
+        filemode = True
+    origins, dests = {}, {}
+    for p, s in seen.items():
+        if p in explicit or _move_excluded(sc, p):
+            continue
+        if s['working_sha256'] is None:
+            was = sc._committed_content_id(p, baseline)
+            if was is not None and s['commit_sha256'] in (None, was):
+                origins.setdefault((PurePosixPath(p).name, was, tree_entry(sc, baseline, p)[0]), []).append(p)
+        elif sc._committed_content_id(p, baseline) is None and s['commit_sha256'] in (None, s['working_sha256']):
+            f = sc.ROOT / p
+            if f.is_symlink() or not f.is_file():
+                continue
+            committed = tree_entry(sc, 'HEAD', p)
+            mode = ('100755' if f.stat().st_mode & 0o111 else '100644') if filemode or not committed else committed[0]
+            if committed and committed[0] != mode:
+                continue   # committed and working modes disagree: not one version
+            dests.setdefault((PurePosixPath(p).name, s['working_sha256'], mode), []).append(p)
+    out = {}
+    for key, ds in dests.items():
+        os_ = origins.get(key, [])   # the key carries bytes AND mode (reader #2 ⚠️9: no exec bit rides a move)
+        dl = sc.classify(ds[0], rules)[0] if ds else None
+        if (len(ds) == 1 and len(os_) == 1 and _own(sc, ds[0], rules) == _own(sc, os_[0], rules)
+                and (dl == sc.classify(os_[0], rules)[0] or (dl == 'EXCLUDED' and sc.classify(os_[0], rules)[0] == 'SHARED'))):
+            # reader #2 ❌2 + read #3 ⚠️2 (WQ-584): same pinned lane, or SHARED → EXCLUDED (a consumption) — bytes never move from
+            # a less-audited lane into a more-audited one (EXCLUDED desk mail → an OWNED live path is new content)
+            out[ds[0]] = {'origin': os_[0], 'sha256': key[1]}
+    return out
+
+
+def move_holds(sc, dest, rec, target=None):
+    """A recorded move still holds: destination bytes unchanged and origin still absent (working tree, or `target`)."""
+    if target:
+        return (sc._committed_content_id(dest, target) == rec['sha256']
+                and sc._committed_content_id(rec['origin'], target) is None)
+    return sc._content_id(dest) == rec['sha256'] and sc._content_id(rec['origin']) is None
+
+
+def move_legs(moves, sc=None, target=None):
+    """Both legs of every recorded move; with `sc`, only moves that still hold (at `target`, else the working tree)."""
+    legs = set()
+    for dest, rec in moves.items():
+        if sc is None or move_holds(sc, dest, rec, target):
+            legs |= {dest, rec['origin']}
+    return legs
+
+
+def own_pending_moves(sc, moves, seen, rules=None):
+    """PROME's own moves not yet committed (both legs on PROME's side — its directory or an OWNED lane, e.g. FORGE →
+    FORGE/_archive; at least one leg pending): they ride the candidate and ship with the delivery. A desk's move of a
+    from-PROME packet is mechanical but never PROME's to commit."""
+    return {d: r for d, r in moves.items()
+            if _own(sc, d, rules) and _own(sc, r['origin'], rules)
+            and (seen.get(d, {}).get('pending') or seen.get(r['origin'], {}).get('pending'))}
+
+
+def derive_delivered(sc, baseline, seen, rules, skip):
+    """AC6: OWNED under the pinned rules · touched by a PROME-subject window commit · PENDING in the SHARED lane with
+    PROME filename evidence. Provenance is written from the commit subjects."""
+    subjects = sc.commit_subjects(baseline)
+    out = {}
+    for p, s in sorted(seen.items()):
+        if p in skip or p in sc.RECEIPT_PATHS:
+            continue
+        lane = sc.classify(p, rules)[0] if rules is not None else None
+        mine = [c[:9] for c in dict.fromkeys(s['commits']) if sc.PROME_SUBJECT_RE.match(subjects.get(c[:9], ''))]
+        name = PurePosixPath(p).name
+        sender = bool(re.search(r'from-prome(?![a-z0-9])', name, re.I)
+                      or re.match(r'^AGENTS/[^/]+/inbox/MSG-PROME-[^/]+\.md$', p))   # never via-PROME (reader ⚠️8)
+        if lane != 'OWNED':
+            # Reader 2026-10-31 ❌3: outside PROME's lane a PENDING edit may be another desk's — never claim it
+            # automatically; PROME names it in `delivered` or classifies it. A PENDING sender-named packet in a SHARED
+            # inbox is PROME's own new packet; a committed-only path PROME's commit or name evidences ships unchanged.
+            new_packet = (sender and lane == 'SHARED' and not s['commits'] and s['working_sha256'] is not None
+                          and s['commit_sha256'] is None and sc._committed_content_id(p, baseline) is None)
+            if s['pending'] and not new_packet:   # reader #2 ❌1: an OLD packet's pending change is the desk's
+                continue
+            if not mine and not sender:
+                continue
+        bits = [f'{c} {subjects[c][:70]}' for c in mine[:4]] + ([f'+{len(mine) - 4} more PROME commits'] if len(mine) > 4 else [])
+        others = len(set(c[:9] for c in s['commits'])) - len(mine)
+        if others:
+            bits.append(f'{others} non-PROME commit(s)')
+        if s['pending']:
+            bits.append('pending at freeze')
+        reason = 'OWNED lane' if lane == 'OWNED' else 'PROME commit subject' if mine else 'from-PROME filename'
+        out[p] = f'auto (WQ-583 AC6, {reason}): ' + '; '.join(bits or ['no commit'])
+    return out
+
+
+def reuse_entries(sc, baseline, delivered, plan_reviewed):
+    """AC5: exact-version reuse from the previous REVIEWED manifest on the same baseline, plus plan-declared reviews
+    (a commit or sha256 and a receipt), each accepted only for identical bytes. A changed path is never reused."""
+    reused = {}
+    f = sc.ROOT / sc.REVIEW_FILE
+    try:
+        prev = json.loads(f.read_text()) if f.exists() else {}
+    except (OSError, ValueError):
+        prev = {}
+    pc = prev.get('contract') if isinstance(prev, dict) else None
+    if (isinstance(pc, dict) and prev.get('schema') == 2 and prev.get('verdict') == sc.REVIEWED
+            and prev.get('reviewed_contract_sha256') == digest(pc) == prev.get('contract_sha256')
+            and pc.get('baseline') == baseline):
+        for p, d in delivered.items():
+            old = pc.get('delivered', {}).get(p)
+            if isinstance(old, dict) and old.get('sha256') == d['sha256']:
+                reused[p] = {'source': 'previous-review', 'contract': prev['contract_sha256'], 'sha256': d['sha256']}
+    require(isinstance(plan_reviewed, dict), 'reviewed must be a mapping')
+    require(not plan_reviewed, 'declared reviews are switched off (read #3 ⚠️3, WQ-584): only an exact-version '
+            'reuse from the previous REVIEWED freeze counts')
+    for p, item in plan_reviewed.items():
+        require(p in delivered, f'{p}: a declared review must name a delivered path')
+        require(isinstance(item, dict) and text_ok(item.get('receipt')), f'{p}: declared review needs a receipt')
+        rpath = item['receipt'].split('#', 1)[0].strip()
+        require(rpath and sc._committed_content_id(rpath, 'HEAD') is not None,
+                f'{p}: the declared review receipt must be a committed file (path#anchor): {item["receipt"]!r}')
+        require(p in git(sc, 'show', f'HEAD:{rpath}'), f'{p}: the declared review receipt does not name this path')
+        require(text_ok(item.get('commit')), f'{p}: a declared review names the reviewed commit (no bare digest)')
+        commit = resolve(sc, item['commit'])
+        want = sc._committed_content_id(p, commit)
+        require(sha_ok(want) and want == delivered[p]['sha256'],
+                f'{p}: the declared review is of a different version — not reused (AC5)')
+        reused[p] = {'source': 'declared', 'receipt': item['receipt'], 'commit': commit, 'sha256': want}
+    return reused
+
+
+def build_candidate(sc, head, entries, label):
+    """AC1: an immutable commit (parent `head`) holding `entries` {path: sha256|None} at their working bytes, built in
+    a PRIVATE index — the shared index and every branch are untouched; referenced only by CANDIDATE_REF."""
+    import tempfile
+    try:
+        filemode = _run(sc, 'config', '--bool', 'core.fileMode').strip() != 'false'
+    except subprocess.CalledProcessError:
+        filemode = True
+    lines = []
+    for p, want in sorted(entries.items()):
+        f = sc.ROOT / p
+        if want is None:
+            require(not f.exists() and not f.is_symlink(), f'{p}: expected absent at freeze')
+            lines.append(f'0 {NULL_SHA}\t{p}')
+            continue
+        require(f.is_file() and not f.is_symlink(), f'{p}: candidate holds regular files only')
+        blob = _run(sc, 'hash-object', '-w', '--path', p, '--', str(f)).strip()
+        if filemode:
+            mode = '100755' if f.stat().st_mode & 0o111 else '100644'
+        else:   # core.fileMode=false: git keeps the recorded mode (reader ⚠️9)
+            mode = (tree_entry(sc, head, p) or ('100644',))[0]
+        lines.append(f'{mode} {blob}\t{p}')
+    with tempfile.TemporaryDirectory() as td:
+        env = {'GIT_INDEX_FILE': str(Path(td) / 'index')}
+        _run(sc, 'read-tree', head, env=env)
+        _run(sc, 'update-index', '--index-info', env=env, data=('\n'.join(lines) + '\n').encode())
+        tree = _run(sc, 'write-tree', env=env).strip()
+    sha = _run(sc, 'commit-tree', tree, '-p', head, '-m',
+               f'PROME ARGUS review candidate (never on a branch) — {label}').strip()
+    for p, want in entries.items():
+        require(sc._committed_content_id(p, sha) == want,
+                f'{p}: candidate bytes differ from the frozen digest (changed during the freeze, or a git filter) — re-run')
+    _run(sc, 'update-ref', '-m', 'argus candidate', CANDIDATE_REF, sha)
+    return sha
+
+
+def candidate_check(sc, manifest, c):
+    """validate() leg: the recorded candidate still holds the contract's bytes on the contract's anchor."""
+    cand = manifest.get('candidate')
+    if cand is None:
+        return None
+    require(isinstance(cand, dict) and isinstance(cand.get('paths'), dict), 'malformed candidate')
+    sha = resolve(sc, cand['sha'])
+    require(git(sc, 'rev-parse', sha + '^').strip() == c['anchor'], 'candidate parent is not the frozen anchor')
+    expected = {p: d['sha256'] for p, d in c['delivered'].items()}
+    for dest, rec in c.get('mechanical_moves', {}).items():
+        if dest in cand['paths'] or rec['origin'] in cand['paths']:
+            expected[dest], expected[rec['origin']] = rec['sha256'], None
+    require(cand['paths'] == expected, 'candidate path set differs from the contract')
+    for p, want in expected.items():
+        require(sc._committed_content_id(p, sha) == want, f'{p}: candidate bytes differ from the contract')
+    return sha
+
+
+def run_commit_hooks(sc, env, msg_file, workdir):
+    """Run the configured pre-commit and commit-msg hooks exactly as `git commit` would for this delivery: the
+    private index in GIT_INDEX_FILE, HEAD = current master, a scratch copy of the message. Any refusal refuses."""
+    hooks_dir = sc.ROOT / _run(sc, 'rev-parse', '--git-path', 'hooks').strip()   # git's own resolution (reader #2 ⚠️3)
+    msg_copy = Path(workdir) / 'COMMIT_EDITMSG'
+    msg_copy.write_bytes(Path(msg_file).read_bytes())
+    for name, args in (('pre-commit', []), ('commit-msg', [str(msg_copy)])):
+        hook = hooks_dir / name
+        if not (hook.is_file() and os.access(hook, os.X_OK)):
+            continue
+        r = subprocess.run([str(hook), *args], cwd=sc.ROOT, env={**os.environ, **env}, capture_output=True)
+        require(r.returncode == 0, f'{name} hook refused the delivery (rc {r.returncode}): '
+                + (r.stderr or r.stdout).decode('utf-8', 'replace').strip()[:400])
+    require(Path(msg_copy).read_bytes() == Path(msg_file).read_bytes(),
+            'commit-msg hook rewrote the message — commit it the ordinary way')
+
+
+def deliver(sc, msg_file, carry=()):
+    """AC3: put the REVIEWED candidate's bytes on master as ONE commit on top of current HEAD (other desks' commits
+    kept), compare-and-swap, then sync the shared index for exactly those paths. Returns (sha, paths)."""
+    manifest = json.loads((sc.ROOT / sc.REVIEW_FILE).read_text())
+    c = validate(sc, manifest)
+    require(manifest.get('verdict') == sc.REVIEWED and manifest.get('reviewed_contract_sha256') == digest(c),
+            'the candidate is not REVIEWED for this contract — an end-of-day closeout marks it only after the ARGUS '
+            'audit; an intra-day light closeout (audit deferred) commits with commit_check.py instead')
+    cand_sha = candidate_check(sc, manifest, c)
+    require(cand_sha is not None, 'no review candidate in this manifest (frozen before WQ-583) — use the commit_check path')
+    paths = manifest['candidate']['paths']
+    require(_run(sc, 'symbolic-ref', '-q', 'HEAD').strip() == 'refs/heads/master', 'HEAD is not on master')
+    head = resolve(sc, 'HEAD')
+    require(ancestor(sc, c['anchor'], head), 'the frozen anchor is not an ancestor of HEAD')
+    moved = [p for p in paths if tree_entry(sc, head, p) != tree_entry(sc, c['anchor'], p)]
+    require(not moved, 'changed on master since the freeze — re-freeze: ' + ', '.join(sorted(moved)))
+    drift = sorted(p for p, want in paths.items() if sc._content_id(p) != want)
+    carry = set(carry)
+    require(not (set(drift) - carry), 'post-freeze edits are NOT in the reviewed candidate — re-freeze to ship them '
+            'tonight, or name each with --carry to leave it for the bookkeeping commit: ' + ', '.join(sorted(set(drift) - carry)))
+    require(not (carry - set(drift)), '--carry names a path with no post-freeze edit: ' + ', '.join(sorted(carry - set(drift))))
+    require(not (sc.ROOT / _run(sc, 'rev-parse', '--git-path', 'index.lock').strip()).exists(),
+            'the shared index is locked by another git process — retry')   # read #3 ⚠️5
+    staged = []
+    for p in paths:
+        rows = [r for r in _run(sc, 'ls-files', '-s', '-z', '--', p).split('\0') if r]
+        mine = [tuple(r.split('\t', 1)[0].split()) for r in rows if r.split('\t', 1)[1] == p]
+        ok = {None if tree_entry(sc, head, p) is None else tree_entry(sc, head, p) + ('0',),
+              None if tree_entry(sc, cand_sha, p) is None else tree_entry(sc, cand_sha, p) + ('0',)}
+        if (mine[0] if len(mine) == 1 else None if not mine else 'conflict') not in ok:
+            staged.append(p)
+    require(not staged, 'the shared index holds another version of: ' + ', '.join(staged) + ' — stop; never reset it')
+    text = Path(msg_file).read_text(encoding='utf-8')
+    subject = next((ln for ln in text.split('\n') if ln.strip()), '')
+    require(subject and len(subject) <= 100, f'commit subject empty or {len(subject)} > 100 chars (root Git Protocol 4d)')
+    import tempfile
+    lines = []
+    for p in sorted(paths):
+        e = tree_entry(sc, cand_sha, p)
+        lines.append(f'{e[0]} {e[1]}\t{p}' if e else f'0 {NULL_SHA}\t{p}')
+    data = ('\n'.join(lines) + '\n').encode()
+    with tempfile.TemporaryDirectory() as td:
+        env = {'GIT_INDEX_FILE': str(Path(td) / 'index')}
+        _run(sc, 'read-tree', head, env=env)
+        _run(sc, 'update-index', '--index-info', env=env, data=data)
+        tree = _run(sc, 'write-tree', env=env).strip()
+        require(tree != _run(sc, 'rev-parse', head + '^{tree}').strip(), 'nothing to deliver — HEAD already holds the candidate')
+        run_commit_hooks(sc, env, msg_file, td)   # reader 2026-10-31 ❌2: the repo's own hooks, on THIS commit's index
+        require(_run(sc, 'write-tree', env=env).strip() == tree,
+                'a pre-commit hook changed the index — commit it the ordinary way')   # reader #2 ⚠️4
+    new = _run(sc, 'commit-tree', tree, '-p', head, '-F', str(Path(msg_file).resolve())).strip()
+    _run(sc, 'update-ref', '-m', 'argus deliver-candidate (WQ-583)', 'refs/heads/master', new, head)
+    try:
+        _run(sc, 'update-index', '--index-info', data=data)
+    except subprocess.CalledProcessError as exc:
+        raise RuntimeError(f'DELIVERED {new} but the shared index was not synced ({exc.stderr.decode()[:200]}); '
+                           f'retry: git update-index --index-info with the {len(lines)} candidate entries') from exc
+    return new, sorted(paths)

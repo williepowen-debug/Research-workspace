@@ -273,7 +273,8 @@ class Repro5_GenerationBeforeFreeze(unittest.TestCase):
     def test_the_order_is_commit_then_verify_then_push_then_publish(self):
         """Anchor on COMMANDS, which are stable, not on headings, which get reworded.
         Three of this session's test failures were headings pinned as assertions."""
-        i_commit = self.m.index("commit_check.py commit --stage -F")
+        # WQ-583 (2026-10-31): the step-10 commit command is --deliver-candidate; commit_check is the no-candidate fallback
+        i_commit = self.m.index("argus_scope.py --deliver-candidate -F")
         # The verify step pins the immutable delivery commit, never HEAD (CLOSEOUT step 10, c5286bf6d: HEAD moves in this
         # shared clone and can be another desk's commit). Expectation updated 2026-10-31 (L737); the order is the safeguard.
         i_verify = self.m.index("--verify-review --ref <DELIVERY_SHA> --paths")
