@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-10-31T23:43:24Z — Codex/OpenAI design-backlog reconciliation; FULL closeout. Duties and publication evidence: LAST_COMPLETION.md.
+**Updated:** 2026-11-01T00:52:52Z — Codex/OpenAI approved verdict F1/F2 amendment; FULL closeout. Duties and publication evidence: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Older design backlog reconciled against current implementations and owner decisions. CYPHER watch-phrase adoption and CRUISE filing/watch components are complete; VULCAN has a live useful-life gate. Remaining proposals have named owners and next actions; optional ideas are distinguished from assigned work. Verdict F1/F2 amendment drafted for review, with current operating rules unchanged. Review: research/2026-10-31_design-backlog/REVIEW.md.
+Will-approved verdict F1/F2 amendment implemented in CHECKLIST v0.57. Mixed evidence limitations now remain attached to their sources; unresolved material primary conflicts are INDETERMINATE. Exact-claim FALSE still kills after reconciliation; ordinary gates decide unresolved-claim routing. Dependent references and current backlog updated. Review: research/2026-10-31_verdict-amendment/REVIEW.md.
 
-Boot remains PARTIAL on preserved source, owner-evidence and full-fleet visibility limits. Daily totals remain 22 cards across 9 clusters, 45 kill-log rows and 14 bounded helpers across sittings; this archive pass adds no dispatch/helper/market scan. BALANCED posture, zero cluster_mediating flags. Current obligations and publication evidence: LAST_COMPLETION.md.
+Boot remains PARTIAL on preserved source, owner-evidence and full-fleet visibility limits. Daily totals remain 22 cards across 9 clusters, 45 kill-log rows and 14 bounded helpers across sittings; this amendment adds no dispatch or market scan; one bounded prose reviewer is separate from the source-verification helper total. BALANCED posture, zero cluster_mediating flags. Current obligations and publication evidence: LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -64,7 +64,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-All 44 STATUS-backed registry rows rechecked at 2026-10-31T23:43:24Z: 42 other-owner leads match the prior reviewed capture; PROME’s October 31 closeout header re-read and its mirror verified, then WALTER refreshed before this summary. All 49 mirror names remain represented; five rows without STATUS retain prior evidence. REGISTRY is a routing mirror, not a liveness census.
+All 44 STATUS-backed registry rows rechecked at 2026-11-01T00:52:52Z: 42 other-owner leads match the prior reviewed capture; PROME’s October 31 closeout header re-read and its mirror verified, then WALTER refreshed before this summary. All 49 mirror names remain represented; five rows without STATUS retain prior evidence. REGISTRY is a routing mirror, not a liveness census.
 
 SAM has graded the BOJ decision; no observed Japan unwind established. HENRY's October 31 breadth study retains Friday's technology weakness and negative gamma; VULCAN's October 30 sell-off fired no registered letter. GIBBS completed its October 31 cyber-consequence/inbox pass. ISHM retains selective equipment strength and its November final frame. NEXUS's October 31 matrix reports vulnerabilities without three-root convergence. MIDAS's October 30 liquidation candidate does not prove forced margin selling. Owner-header review is not fresh market verification or proof of consuming today's cards. Local runtime observations: Codex endpoint shows WALTER active and CATO idle at 19:50:18Z; Claude inventory shows PROME interactive idle at 19:53:32Z. Six Codex helpers are separate from owner sessions. Other-desk absence and full-fleet lifecycle readiness remain UNKNOWN; no dark-owner verdict.
 

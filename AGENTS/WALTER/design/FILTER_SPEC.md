@@ -1,4 +1,6 @@
-# WALTER Filter Specification v0.10
+# WALTER Filter Specification v0.11
+
+**v0.11 — October 31, 2026:** Reference synchronized with CHECKLIST v0.57 verdict F1/F2 amendment; ordinary gates retain INDETERMINATE disposition.
 
 **v0.10 — October 31, 2026:** Will-approved retirement of the legacy burst-window override and roll-ups. Normal per-signal FLASH, pre-gate bypass and filter operators remain in force. v0.9 reconciled transport only; Telegram retired October 27.
 
@@ -104,7 +106,7 @@ These are the sub-classes the kill log clusters into empirically. They do NOT ch
 
 ## Verify-Research Trigger (Phase 1.5 — reference)
 
-Between Gate 1 pass and the Credibility check, a **framing audit** runs. If the raw source exhibits any of 4 language patterns known to misframe the underlying event, WALTER spawns an autonomous verify-research sub-agent before scoring credibility. The verdict (CONFIRMED / CORRECTED-framing / FALSE / INDETERMINATE) either rescues the signal with corrected wording, kills it as misframed, lowers confidence, or clears it to proceed.
+Between Gate 1 pass and the Credibility check, a **framing audit** runs. If the raw source exhibits any of 4 language patterns known to misframe the underlying event, WALTER spawns an autonomous verify-research sub-agent before scoring credibility. Apply the four verdicts under the canonical CHECKLIST Phase 1.5 table, including its source-limitations and primary-reconciliation rules. Ordinary gates decide INDETERMINATE disposition.
 
 This is operational process, not filter logic — the 4 patterns, spawn-prompt discipline, and verdict handling live in `SIGNAL_PROCESSING_CHECKLIST.md` Phase 1.5 (canonical). FILTER_SPEC notes the insertion point only.
 

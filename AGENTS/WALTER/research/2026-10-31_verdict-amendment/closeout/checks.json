@@ -1,0 +1,258 @@
+{
+  "as_of": "2026-11-01T00:54:18Z",
+  "tier": "full",
+  "selected_check_state": "REVIEW",
+  "procedure_completion": "UNVERIFIED \u2014 owner must account for manual duties",
+  "checks": [
+    {
+      "check": "receipt",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/closeout_check.py"
+      ],
+      "output_text": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"as_of\": \"2026-11-01T00:53:57Z\",\n  \"origin_ref\": \"f07735f67e2da3fd0bb84057d1197b3763af62a0\",\n  \"delivery_scope\": \"20261031\",\n  \"delivered\": 74,\n  \"total\": 74,\n  \"next_review\": \"2026-11-02\",\n  \"limits\": \"Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.\"\n}\n"
+    },
+    {
+      "check": "read-cap",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "WALTER"
+      ],
+      "output_text": "READ-CAP [WALTER] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 ALL % BELOW ARE OF BUDGET (the number every verdict grades; \u2265100% = over) \u00b7 perimeter: DECLARED in PROME/registry/READS.tsv \u2014 24 cap-bearing (whole/programmatic) measured, 33 declared-not-counted (scoped/grep/summary), 90 manifest row(s) for this desk; 2 of the measured are MEMBERS of 3 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself\n  \ud83d\udfe1 PROME/state/ORCH_INFLIGHT.md         31,635 B    97% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 WALTER:9b)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 8,851 MORE B to finish rotating. The owner rotates by moving dated history VERBATIM to archive/ with a one-line pointer left behind, or by splitting the file hot/cold. \u26d4 Never meet the budget by deleting the spaces between words and numbers (root CLAUDE.md \u00a7 Output Canon). \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n  \ud83d\udfe1 AGENTS/WALTER/LAST_COMPLETION.md     26,248 B    81% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 WALTER:3)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 3,464 MORE B to finish rotating. The owner rotates by moving dated history VERBATIM to archive/ with a one-line pointer left behind, or by splitting the file hot/cold. \u26d4 Never meet the budget by deleting the spaces between words and numbers (root CLAUDE.md \u00a7 Output Canon). \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n  \ud83d\udfe1 CLAUDE.md                            24,820 B    76% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 WALTER:runtime)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 2,036 MORE B to finish rotating. The owner rotates by moving dated history VERBATIM to archive/ with a one-line pointer left behind, or by splitting the file hot/cold. \u26d4 Never meet the budget by deleting the spaces between words and numbers (root CLAUDE.md \u00a7 Output Canon). \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n  \ud83d\udfe1 AGENTS/WALTER/CLAUDE.md              24,542 B    75% of budget  rotate-tier (\u226575% of budget)  (whole \u00b7 WALTER:runtime)\n      \u21b3 rule 5 STOP is <70% of budget (22,785 B): REMOVE 1,758 MORE B to finish rotating. The owner rotates by moving dated history VERBATIM to archive/ with a one-line pointer left behind, or by splitting the file hot/cold. \u26d4 Never meet the budget by deleting the spaces between words and numbers (root CLAUDE.md \u00a7 Output Canon). \u26d4 Stopping at the 75% TRIGGER is not finishing \u2014 that band re-breaches on the next append (PAT-055 regrowth), which is why rule 5 has two thresholds.\n  \u2705 AGENTS/WALTER/MEMORY.md              23,796 B    73% of budget    (whole \u00b7 WALTER:2)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 1,012 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 616 B.\n  \u2705 AGENTS/WALTER/STATUS.md              23,402 B    72% of budget    (whole \u00b7 WALTER:1 \u00b7 ALSO read whole by NEXUS:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 618 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 1,010 B.\n  \u2705 AGENTS/WALTER/design/ROUTING_TABLE.md   23,048 B    71% of budget    (whole \u00b7 WALTER:6)\n      \u21b3 70\u201375% BAND \u2014 rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished and owes 264 B more (rule 5 stops at <70% = 22,785 B); if it has never breached 75%, NOTHING is owed. Only the owner knows. \u26a0\ufe0f Headroom to the trigger: 1,364 B.\n  \u2705 AGENTS/WALTER/design/ROUTING_OVERLAYS.md   22,524 B    69% of budget    (whole \u00b7 WALTER:6)\n  \u2705 AGENTS/WALTER/reading/SIG-W-20260619-008.md   21,889 B    67% of budget    (whole \u00b7 WALTER:7 \u00b7 ALSO read whole by REGINALD:CLAUDE.md-Boot-9b-selected)\n  \u2705 AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv   20,621 B    63% of budget    (whole \u00b7 WALTER:6b)\n  \u2705 AGENTS/WALTER/REGISTRY.tsv           19,961 B    61% of budget    (whole \u00b7 WALTER:4)\n  \u2705 AGENTS/WALTER/anchors/IRAN_WAR.md    19,924 B    61% of budget    (whole \u00b7 WALTER:1)\n  \u2705 AGENTS/HANS/registry/THRESHOLDS.tsv   19,632 B    60% of budget    (whole \u00b7 WALTER:6b)\n  \u2705 AGENTS/WALTER/design/THRESHOLD_SCAN.md   16,788 B    52% of budget    (whole \u00b7 WALTER:6c)\n  \u2705 AGENTS/CREED/registry/THRESHOLDS.tsv   16,222 B    50% of budget    (whole \u00b7 WALTER:6b)\n  \u2705 AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv   15,260 B    47% of budget    (whole \u00b7 WALTER:6b)\n  \u2705 AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv   11,488 B    35% of budget    (whole \u00b7 WALTER:6b)\n  \u2705 USER.md                               9,609 B    30% of budget    (whole \u00b7 WALTER:runtime)\n  \u2705 AGENTS.md                             5,756 B    18% of budget    (whole \u00b7 WALTER:runtime)\n  \u2705 AGENTS/REGINALD/registry/THRESHOLDS.tsv    3,542 B    11% of budget    (whole \u00b7 WALTER:6b)\n  \u2705 AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv    2,933 B     9% of budget    (whole \u00b7 WALTER:6b)\n  \u2705 AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv    2,531 B     8% of budget    (whole \u00b7 WALTER:6b)\n  \u25a3 AGENTS/WALTER/inbox/DEWEY/*                  declared `whole` \u00b7 CLASS row \u2014 cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 1 member(s) measured, 0 over budget, 0 over the CAP, largest 1,558 B (5% of budget)  (WALTER:7d)\n      1 member(s) all under 70% of budget (<22,785 B)\n  \u25a3 AGENTS/WALTER/outbox/REQ-*.md                declared `whole` \u00b7 CLASS row \u2014 cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 1 member(s) measured, 0 over budget, 0 over the CAP, largest 4,936 B (15% of budget)  (WALTER:9)\n      1 member(s) all under 70% of budget (<22,785 B)\n  \u25a3 AGENTS/WALTER/inbox/*.md                  \u2014  declared `whole` \u00b7 CLASS row matched 0 files today (503 files matched historically) \u2014 correctly quiet, not counted  (WALTER:7g)\n  \u25e6 AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv121,774 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:6b)\n  \u25e6 BOARD/INDEX.md                    989,238 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 AGENTS/*/STATUS.md                        \u2014  declared `scoped \u00b7 CLASS row, not a single file` \u2014 not cap-bearing, not counted  (WALTER:8)\n  \u25e6 PROME/STATUS.md                    20,891 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:8)\n  \u25e6 AGENTS/*/handoff_WALTER/LIAISON.md        \u2014  declared `scoped \u00b7 CLASS row, not a single file` \u2014 not cap-bearing, not counted  (WALTER:9)\n  \u25e6 AGENTS/WALTER/tools/walter_doctor.py154,417 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:0.5)\n  \u25e6 AGENTS/WALTER/tools/intake_scan.py 20,058 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:7e)\n  \u25e6 scripts/corrections_boot_check.py  55,113 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:9a)\n  \u25e6 PROME/tools/reads_check.py         45,998 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:1)\n  \u25e6 scripts/read_cap_check.py         146,385 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:1)\n  \u25e6 FORGE/tools/market-data/dashboard.py 30,773 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:6c)\n  \u25e6 FORGE/tools/market-data/fetch.py   98,813 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:6c)\n  \u25e6 AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv 81,726 B  declared `grep` \u2014 not cap-bearing, not counted  (WALTER:7d)\n  \u25e6 AGENTS/WALTER/inbox/WILL/*                \u2014  declared `scoped \u00b7 CLASS row, not a single file` \u2014 not cap-bearing, not counted  (WALTER:7f)\n  \u25e6 AGENTS/WALTER/registry/corrections_receipts.tsv    368 B  declared `grep` \u2014 not cap-bearing, not counted  (WALTER:9a)\n  \u25e6 AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md142,840 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:6c)\n  \u25e6 AGENTS/WALTER/design/FILTER_SPEC.md 26,737 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 FORGE/STATUS.md                    32,703 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 AGENTS/RED/CALENDAR.md             10,390 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 AGENTS/WALTER/filtered/kill_log.tsv624,717 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 AGENTS/WALTER/routed/route_log.tsv1,300,194 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 BOARD/SIG-W-*.md                          \u2014  declared `scoped \u00b7 CLASS row, not a single file` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 AGENTS/WALTER/tools/dropzone_scan.py    649 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:7f)\n  \u25e6 AGENTS/WALTER/tools/boot_basis_check.py  1,864 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:0.5)\n  \u25e6 AGENTS/RED/docket/CATALYSTS.tsv    72,149 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 AGENTS/WALTER/tools/signal_read_check.py  4,000 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:7)\n  \u25e6 RESEARCH-INTAKE/data/*/news.json          \u2014  declared `scoped \u00b7 EXTERNAL repo, declared for visibility, not byte-graded` \u2014 not cap-bearing, not counted  (WALTER:7e)\n  \u25e6 PROME/COMPLETION_SPEC.md           18,615 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:runtime)\n  \u25e6 PROME/ORCHESTRATION_PLAYBOOK.md    50,389 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:runtime)\n  \u25e6 AGENTS/WALTER/tools/x_bookmarks_scan.py 31,737 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:7h)\n  \u25e6 AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md 39,739 B  declared `scoped` \u2014 not cap-bearing, not counted  (WALTER:7h)\n  \u25e6 AGENTS/WALTER/registry/x_bookmarks_seen.json 38,702 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:7h)\n  \u25e6 AGENTS/WALTER/registry/x_bookmarks_pending.json    422 B  declared `summary` \u2014 not cap-bearing, not counted  (WALTER:7h)\n  \u2139\ufe0f ADVISORY: CLASS row `AGENTS/WALTER/inbox/*.md` (WALTER:7g) declared `whole` matched 0 files today (503 files matched historically) \u2014 correctly quiet, not counted\n\u2705 READ-CAP 0 [WALTER]: every CAP-BEARING read in this desk's ATTESTED manifest is under budget (24 measured, 33 declared-not-counted). Perimeter = the desk's own declaration, not a scan.\n  \u2139\ufe0f  charter AGENTS/WALTER/CLAUDE.md = 24,542 B \u2014 OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here\n   \u26a0\ufe0f  PROME/state/ORCH_INFLIGHT.md ANNOUNCES ITSELF AS GENERATED \u2014 every remedy this check names for it, in the\n      table row above (`rotate-tier`) and in any over-budget paragraph, does NOT apply.\n      banner: # ORCH_INFLIGHT \u2014 GENERATED in-flight view of `PROME/state/ORCH_LOG.tsv` (DOCKET L262 (a), PROME-ruled 2026-09-04). DO NOT EDIT \u2014 regenerated by `scri\n      Rotation is MEANINGLESS (the next generator run restores every byte; a projection\n      has no history to move) and rewording is IMPOSSIBLE (the generator copies its\n      source verbatim). A generated file's SIZE IS NOT A PROPERTY OF ITSELF \u2014 it is a\n      function of writing habits on its SOURCE surface. \u21d2 This flag is really a flag on\n      the SOURCE and routes to the SOURCE's owner. The only remedies are upstream:\n      narrow the projected column set, or TYPE the source column so narrative cannot\n      enter it. (RED 2026-09-12, on its own FALSIFICATION_TRIGGERS_SCAN.tsv.)\n      \u279c ROUTE TO: PROME   SOURCE(S) the banner names: PROME/state/ORCH_LOG.tsv, scripts/orch_log.py\n        \u26a0\ufe0f  DERIVED from this file's own banner, not adjudicated \u2014 confirm before sending. The reader's desk is NOT the owner of these bytes.\n  \u2139\ufe0f  OWNER-DIRECTED NOTICE [WALTER] (READ_CAP rule 15): no file under AGENTS/WALTER/ is loaded whole by another desk OUTSIDE this desk's own perimeter (manifest scanned, CLASS rows expanded); 2 file(s) this desk also reads are annotated `ALSO read whole by` in the table above \u2014 nothing further to report.\n\u2139\ufe0f  READ-CAP ADVISORY [WALTER]: 1 reading(s) this check will NOT adjudicate (above). \u26d4 These do NOT affect rc \u2014 the declaration is the reader's, and a refusal to adjudicate cannot be a blocking verdict (severity split 2026-09-14, L354).\nREAD-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=WALTER reads=24 over_budget=0 over_cap=0 manifest_defects=0 advisories=1 generated_flagged=1 rotation_due=4 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=24542\n"
+    },
+    {
+      "check": "archives",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/archive_pair_check.py"
+      ],
+      "output_text": "ARCHIVE CHECK: 0 staged WALTER deletion(s), 0 need review\n"
+    },
+    {
+      "check": "orphans",
+      "state": "ADVISORY",
+      "rc": 0,
+      "command": [
+        "bash",
+        "scripts/orphan_check.sh",
+        "WALTER"
+      ],
+      "output_text": "\u26a0\ufe0f  uncommitted files outside AGENTS/WALTER/:\n     [likely YOURS] PROME/inbox/2026-10-31_from-WALTER_verdict-amendment-basis-review.md\n     [not yours]    PROME/tools/argus_contract.py\n     [not yours]    PROME/tools/argus_scope.py\n     [not yours]    PROME/tools/tests/ACCEPTANCE_wq583_candidate_moves_reuse_2026-10-31.md\n\n\ud83d\udd34 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.\n   If you do not commit them they never reach the recipient, and the recipient\n   is never told anything was sent. Committing files you authored into another\n   agent's inbox is the ONE sanctioned exception to the pathspec rule.\n\n   git add <paths> && git commit <paths> -m \"WALTER -> <recipient>: <what>\"\n\n\u2139\ufe0f  The [not yours] entries are someone else's work \u2014 do NOT commit them.\n   Flag to PROME (or Will) rather than sweeping them into your commit.\n"
+    },
+    {
+      "check": "weekdays",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/WALTER/STATUS.md"
+      ],
+      "output_text": "CLAIM-CHECK \u2713 4 file(s) clean [weekday]\n"
+    },
+    {
+      "check": "ledger-nudge",
+      "state": "REVIEW",
+      "rc": 1,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "scripts/ledger_staleness.py",
+        "--nudge",
+        "WALTER"
+      ],
+      "output_text": "\u26a0\ufe0f  nudge: [WALTER] STATUS moving without ledgers \u2014 3 ledger(s) behind: kill_log.tsv (8 STATUS-writes behind), route_log.tsv (5 STATUS-writes behind), delivery_log.tsv (4 STATUS-writes behind) \u2014 freeze-or-refresh EACH, or say why not in the commit\n\u2139\ufe0f  nudge: [WALTER] event-driven: corrections_receipts.tsv (52 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: REG_THRESHOLDS_FIRED_LOG.tsv (49 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-25) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: FALSIFICATION_FIRED_LOG.tsv (49 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-25) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: DEEP_RESEARCH_FLAGGED_LOG.tsv (24 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-15) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: DOORBELL_LOG.tsv (8 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: BATCH_MANIFEST.tsv (7 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: CORRECTIONS.tsv (5 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-29) \u2014 confirm the re-pull clock moved\n"
+    },
+    {
+      "check": "basis",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/boot_basis_check.py"
+      ],
+      "output_text": "BOOT BASIS MATCH: 28 declared paths; execution not certified\n"
+    },
+    {
+      "check": "reads",
+      "state": "PASS",
+      "rc": 0,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "PROME/tools/reads_check.py",
+        "--agent",
+        "WALTER"
+      ],
+      "output_text": "READS [WALTER] \u2014 budget 32,550 B \u00b7 cap 54,250 B \u00b7 perimeter: 25 cap-bearing + 33 declared-not-bearing = 58 live read(s) (+3 RETIRED, not measured) \u00b7 basis 28 surface(s) \u00b7 manifest ATTESTED 2026-10-31 by WALTER itself\n  \u26a0\ufe0f  MODE IS A SELF-ASSERTED CLAIM \u2014 16 over-budget read(s) are excluded from the verdict BY DECLARATION, not by measurement. Verify each against its boot step before quoting rc:\n       \u00b7 AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv (121,774 B) declared `scoped` at WALTER:6b by WALTER\n       \u00b7 BOARD/INDEX.md (989,238 B) declared `scoped` at WALTER:7 by WALTER\n       \u00b7 AGENTS/WALTER/tools/walter_doctor.py (154,417 B) declared `summary` at WALTER:0.5 by WALTER\n       \u00b7 scripts/corrections_boot_check.py (55,113 B) declared `summary` at WALTER:9a by WALTER\n       \u00b7 PROME/tools/reads_check.py (45,998 B) declared `summary` at WALTER:1 by WALTER\n       \u00b7 scripts/read_cap_check.py (146,385 B) declared `summary` at WALTER:1 by WALTER\n       \u00b7 FORGE/tools/market-data/fetch.py (98,813 B) declared `summary` at WALTER:6c by WALTER\n       \u00b7 AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv (81,726 B) declared `grep` at WALTER:7d by WALTER\n       \u00b7 AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md (142,840 B) declared `scoped` at WALTER:6c by WALTER\n       \u00b7 FORGE/STATUS.md (32,703 B) declared `scoped` at WALTER:7 by WALTER\n       \u00b7 AGENTS/WALTER/filtered/kill_log.tsv (624,717 B) declared `scoped` at WALTER:7 by WALTER\n       \u00b7 AGENTS/WALTER/routed/route_log.tsv (1,300,194 B) declared `scoped` at WALTER:7 by WALTER\n       \u00b7 AGENTS/RED/docket/CATALYSTS.tsv (72,149 B) declared `scoped` at WALTER:7 by WALTER\n       \u00b7 PROME/ORCHESTRATION_PLAYBOOK.md (50,389 B) declared `scoped` at WALTER:runtime by WALTER\n       \u00b7 AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md (39,739 B) declared `scoped` at WALTER:7h by WALTER\n       \u00b7 AGENTS/WALTER/registry/x_bookmarks_seen.json (38,702 B) declared `summary` at WALTER:7h by WALTER\n  \ud83d\udfe0 PROME/state/ORCH_INFLIGHT.md                            31,635 B    97% of budget   (whole, WALTER:9b)  ROTATE-TIER (\u226575% of budget, READ_CAP.md rule 5)\n  \ud83d\udfe0 AGENTS/WALTER/LAST_COMPLETION.md                        26,248 B    81% of budget   (whole, WALTER:3)  ROTATE-TIER (\u226575% of budget, READ_CAP.md rule 5)\n  \ud83d\udfe0 CLAUDE.md                                               24,820 B    76% of budget   (whole, WALTER:runtime)  ROTATE-TIER (\u226575% of budget, READ_CAP.md rule 5)\n  \ud83d\udfe0 AGENTS/WALTER/CLAUDE.md                                 24,542 B    75% of budget   (whole, WALTER:runtime)  ROTATE-TIER (\u226575% of budget, READ_CAP.md rule 5)\n  \u2705 AGENTS/WALTER/MEMORY.md                                 23,796 B    73% of budget   (whole, WALTER:2)\n  \u2705 AGENTS/WALTER/STATUS.md                                 23,402 B    72% of budget   (whole, WALTER:1)\n  \u2705 AGENTS/WALTER/design/ROUTING_TABLE.md                   23,048 B    71% of budget   (whole, WALTER:6)\n  \u2705 AGENTS/WALTER/design/ROUTING_OVERLAYS.md                22,524 B    69% of budget   (whole, WALTER:6)\n  \u2705 AGENTS/WALTER/reading/SIG-W-20260619-008.md             21,889 B    67% of budget   (whole, WALTER:7)\n  \u2705 AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv     20,621 B    63% of budget   (whole, WALTER:6b)\n  \u2705 AGENTS/WALTER/REGISTRY.tsv                              19,961 B    61% of budget   (whole, WALTER:4)\n  \u2705 AGENTS/WALTER/anchors/IRAN_WAR.md                       19,924 B    61% of budget   (whole, WALTER:1)\n  \u2705 AGENTS/HANS/registry/THRESHOLDS.tsv                     19,632 B    60% of budget   (whole, WALTER:6b)\n  \u2705 AGENTS/WALTER/design/THRESHOLD_SCAN.md                  16,788 B    52% of budget   (whole, WALTER:6c)\n  \u2705 AGENTS/CREED/registry/THRESHOLDS.tsv                    16,222 B    50% of budget   (whole, WALTER:6b)\n  \u2705 AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv               15,260 B    47% of budget   (whole, WALTER:6b)\n  \u2705 AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv             11,488 B    35% of budget   (whole, WALTER:6b)\n  \u2705 USER.md                                                  9,609 B    30% of budget   (whole, WALTER:runtime)\n  \u2705 AGENTS.md                                                5,756 B    18% of budget   (whole, WALTER:runtime)\n  \u2705 AGENTS/REGINALD/registry/THRESHOLDS.tsv                  3,542 B    11% of budget   (whole, WALTER:6b)\n  \u2705 AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv       2,933 B     9% of budget   (whole, WALTER:6b)\n  \u2705 AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv      2,531 B     8% of budget   (whole, WALTER:6b)\n  \u2705 AGENTS/WALTER/inbox/DEWEY/*                             1 files  largest 1,558 B (5%) = AGENTS/WALTER/inbox/DEWEY/README.md  total 1,558 B  (whole, WALTER:7d)\n  \u2705 AGENTS/WALTER/outbox/REQ-*.md                           1 files  largest 4,936 B (15%) = AGENTS/WALTER/outbox/REQ-PROME-20261016-vulcan-intake-design.md  total 4,936 B  (whole, WALTER:9)\n  \u21e2  AGENTS/WALTER/inbox/*.md                               0 files     conditional class row \u2014 no match today under existing dir AGENTS/WALTER/inbox/; the read fires only when a file lands, so it measures nothing until then (whole, WALTER:7g)\n  \u00b7  AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv         121,774 B   scoped       (WALTER:6b)  \u2753 374% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7  BOARD/INDEX.md                                         989,238 B   scoped       (WALTER:7)  \u2753 3039% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7 AGENTS/*/STATUS.md                                     43 files  largest 31,790 B (98%) = AGENTS/LIQUID/STATUS.md  total 846,659 B  (scoped, WALTER:8)\n  \u00b7  PROME/STATUS.md                                         20,891 B   scoped       (WALTER:8)\n  \u00b7 AGENTS/*/handoff_WALTER/LIAISON.md                      2 files  largest 67,806 B (208%) = AGENTS/RED/handoff_WALTER/LIAISON.md  total 113,875 B  (scoped, WALTER:9)\n       \u2139\ufe0f  2 match(es) over budget, excluded by the declared `scoped` mode \u2014 largest is AGENTS/RED/handoff_WALTER/LIAISON.md\n  \u00b7  AGENTS/WALTER/tools/walter_doctor.py                   154,417 B   summary      (WALTER:0.5)  \u2139\ufe0f  474% of budget \u2014 cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). \u26a0\ufe0f Protocol accuracy is a SEPARATE axis this tool cannot grade \u2014 read the row's notes before concluding nothing is owed.\n  \u00b7  AGENTS/WALTER/tools/intake_scan.py                      20,058 B   summary      (WALTER:7e)\n  \u00b7  scripts/corrections_boot_check.py                       55,113 B   summary      (WALTER:9a)  \u2139\ufe0f  169% of budget \u2014 cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). \u26a0\ufe0f Protocol accuracy is a SEPARATE axis this tool cannot grade \u2014 read the row's notes before concluding nothing is owed.\n  \u00b7  PROME/tools/reads_check.py                              45,998 B   summary      (WALTER:1)  \u2139\ufe0f  141% of budget \u2014 cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). \u26a0\ufe0f Protocol accuracy is a SEPARATE axis this tool cannot grade \u2014 read the row's notes before concluding nothing is owed.\n  \u00b7  scripts/read_cap_check.py                              146,385 B   summary      (WALTER:1)  \u2139\ufe0f  450% of budget \u2014 cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). \u26a0\ufe0f Protocol accuracy is a SEPARATE axis this tool cannot grade \u2014 read the row's notes before concluding nothing is owed.\n  \u00b7  FORGE/tools/market-data/dashboard.py                    30,773 B   summary      (WALTER:6c)\n  \u00b7  FORGE/tools/market-data/fetch.py                        98,813 B   summary      (WALTER:6c)  \u2139\ufe0f  304% of budget \u2014 cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). \u26a0\ufe0f Protocol accuracy is a SEPARATE axis this tool cannot grade \u2014 read the row's notes before concluding nothing is owed.\n  \u00b7  AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv    81,726 B   grep         (WALTER:7d)  \u2139\ufe0f  251% of budget \u2014 cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). \u26a0\ufe0f Protocol accuracy is a SEPARATE axis this tool cannot grade \u2014 read the row's notes before concluding nothing is owed.\n  \u00b7 AGENTS/WALTER/inbox/WILL/*                              1 files  largest 1,326 B (4%) = AGENTS/WALTER/inbox/WILL/README.md  total 1,326 B  (scoped, WALTER:7f)\n  \u00b7  AGENTS/WALTER/registry/corrections_receipts.tsv            368 B   grep         (WALTER:9a)\n  \u00b7  AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md         142,840 B   scoped       (WALTER:6c)  \u2753 439% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7  AGENTS/WALTER/design/FILTER_SPEC.md                     26,737 B   scoped       (WALTER:7)\n  \u00b7  FORGE/STATUS.md                                         32,703 B   scoped       (WALTER:7)  \u2753 100% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7  AGENTS/RED/CALENDAR.md                                  10,390 B   scoped       (WALTER:7)\n  \u00b7  AGENTS/WALTER/filtered/kill_log.tsv                    624,717 B   scoped       (WALTER:7)  \u2753 1919% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7  AGENTS/WALTER/routed/route_log.tsv                   1,300,194 B   scoped       (WALTER:7)  \u2753 3994% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7 BOARD/SIG-W-*.md                                     1885 files  largest 39,509 B (121%) = BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md  total 9,137,399 B  (scoped, WALTER:7)\n       \u2139\ufe0f  1 match(es) over budget, excluded by the declared `scoped` mode \u2014 largest is BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md\n  \u00b7  AGENTS/WALTER/tools/dropzone_scan.py                       649 B   summary      (WALTER:7f)\n  \u00b7  AGENTS/WALTER/tools/boot_basis_check.py                  1,864 B   summary      (WALTER:0.5)\n  \u00b7  AGENTS/RED/docket/CATALYSTS.tsv                         72,149 B   scoped       (WALTER:7)  \u2753 222% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7  AGENTS/WALTER/tools/signal_read_check.py                 4,000 B   summary      (WALTER:7)\n  \u21e2  RESEARCH-INTAKE/data/*/news.json                      EXTERNAL     another repo \u2014 declared for visibility, not byte-graded here (scoped, WALTER:7e)\n  \u00b7  PROME/COMPLETION_SPEC.md                                18,615 B   scoped       (WALTER:runtime)\n  \u00b7  PROME/ORCHESTRATION_PLAYBOOK.md                         50,389 B   scoped       (WALTER:runtime)  \u2753 155% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7  AGENTS/WALTER/tools/x_bookmarks_scan.py                 31,737 B   summary      (WALTER:7h)\n  \u00b7  AGENTS/WALTER/design/X_BOOKMARKS_ACCEPTANCE.md          39,739 B   scoped       (WALTER:7h)  \u2753 122% of budget \u2014 not a breach (scoped). RULE-8 QUESTION FOR THE OWNER: if this step was downgraded from a whole read, a split or dated re-trigger is still owed; if the surface is a cold index by design, nothing is owed.\n  \u00b7  AGENTS/WALTER/registry/x_bookmarks_seen.json            38,702 B   summary      (WALTER:7h)  \u2139\ufe0f  119% of budget \u2014 cold/on-demand class, NOT a cap breach and nothing owed ON CAP GROUNDS (READ_CAP.md 'what binds'). \u26a0\ufe0f Protocol accuracy is a SEPARATE axis this tool cannot grade \u2014 read the row's notes before concluding nothing is owed.\n  \u00b7  AGENTS/WALTER/registry/x_bookmarks_pending.json            422 B   summary      (WALTER:7h)\n\u2705 READS-CAP 0 [WALTER]: all 25 cap-bearing read(s) under budget, in a manifest WALTER itself attested complete on 2026-10-31. This grades the DECLARATION, not the desk \u2014 a wrong declaration yields a wrong verdict.\n"
+    },
+    {
+      "check": "doctor",
+      "state": "REVIEW",
+      "rc": 1,
+      "command": [
+        "/home/willi/Research-workspace/.venv/bin/python3",
+        "AGENTS/WALTER/tools/walter_doctor.py",
+        "--spec-changed"
+      ],
+      "output_text": "WALTER doctor \u2014 2026-10-31\n========================================================================\n\n[future_timestamps]\n  \u2713 INFO 414 field(s) use WALTER's approximate-minute convention (e.g. 2026-08-15T02:3xZ) \u2014 a KNOWN convention, NOT a defect and NOT silently passed. \u26a0\ufe0f The DATE part is still fully validated: the `x` is a claim about PRECISION, not a waiver. Tolerable because the age basis slices [:10] and reads that date; a defect the day any consumer needs the minute.\n\n[restated_set_drift]\n  \u2713 INFO restated sets match canon (pull-complete = {CARL, PROME, RED, TERRY}; clusters = 13)\n\n[board_reconcile]\n  \u2713 INFO BOARD reconciles: 1885 signals (ToC = sections = files = TOTAL)\n\n[log_reconcile]\n  \u2713 INFO route_log reconciles with BOARD (1885 signals)\n  \u2713 INFO delivery_log: all 1571 delivered SIG-ids have a BOARD file (post-6/17 coverage)\n  \u2713 INFO delivery_log: 22 non-dispatch NOTE row(s), all classified in registry/NOTE_ROWS_REVIEWED.tsv; preserved as history, NOT BOARD-reconciled\n\n[intake_liveness]\n  \u2713 INFO lane live (last_run 2026-10-31T18:57:46Z, 0d / 0 missed weekday run(s), 6 feeds ok); gate via boot-7e intake_scan.py\n\n[outbox_age]\n  \u00b7 LOW  REQ-PROME-20261016-vulcan-intake-design.md: 15d since mtime \u2014 read whole and check owner disposition; age alone does not establish unresolved work or justify escalation\n  \u2713 INFO 61 other outbox artifacts retained; 35 older than 30d by mtime (oldest VERIFY-20260831-iran-weekend-claims.md, 60d). Inventory only, not pending/completed status; current duties live in LAST_COMPLETION.\n\n[registry_staleness]\n  \u00b7 LOW  Tier-1 registry-date >14d (1): YEYOU (72d) \u2014 see registry_lag to tell dormant from lagging\n\n[registry_lag]\n  \u2713 INFO dormant \u2014 registry accurate, not lagging (2): ATHENA (231d), YEYOU (72d)\n  \u2713 INFO no STATUS.md \u2014 dir-fallback unreliable (may be cross-agent commits), NOT flagged: RAV (dir +90d vs 2026-08-02), DARWIN (dir +71d vs 2026-02-18), DEWEY (dir +8d vs 2026-10-22)\n  \u2713 INFO incidental STATUS touch, not a real lag (1): SENTRY (commit 2026-09-24 but STATUS hdr 2026-05-09 \u2264 reg 2026-05-09)\n  \u2713 INFO no registry rows lagging the agents' actual STATUS commits\n\n[registry_self_lag]\n  \u00b7 LOW  WALTER: REGISTRY row 2026-10-31 < STATUS header 2026-11-01 (+1d) \u2192 refresh WALTER self row at closeout\n\n[liaison_enum]\n  \u2713 INFO LIAISON files (2): CARL 167d \u00b7 RED 146d\n\n[delivered_but_unconsumed]\n  \u26a0 MED  1 unconsumed >2d across 1 agents (of 105 in flight \u2014 the rest are within the grace period, NOT evidence they are consumed) \u2014 1 ACTION / 0 INFO, oldest ACTION 12d: CATO 1(1A/0I) [age from delivery_log.timestamp_routed] \u2014 review recipient consumption evidence and its boot procedure; a procedure installation alone does not establish consumption\n\n[board_log_path_divergence]\n  \u2713 INFO REGINALD: consumption record read from `board/BOARD_LOG.tsv`, NOT the canonical `board_log.tsv` \u2014 resolved by fallback and reported so the divergence is visible; the desk is free to keep its own layout\n\n[written_but_undelivered]\n  \u2713 INFO all WALTER handoffs delivered (on origin)\n\n[delivery_claim_vs_git]\n  \u2713 INFO 5726 row(s) point at a path that no longer exists but WAS in git (consumed-by-delete, or a retired inbox dir) \u2014 delivery confirmed, path stale; log hygiene, not a gap\n\n[deep_research_pending_overdue]\n  \u2713 INFO no overdue deep-research flags (3 open)\n\n[dewey_handoff_liveness]\n  \u2713 INFO inbox/DEWEY/ clear \u2014 no unprocessed DEWEY handoffs\n\n[staleness_sweep_overdue]\n  \u2713 INFO staleness sweep 2d ago (last 2026-10-29, \u226414d)\n\n[dropzone_pending]\n  \u2713 INFO inbox/WILL/ drop-zone empty\n\n[status_spine_overflow]\n  \u2713 INFO STATUS.md spine at 1 lead(s) (\u22645)\n\n[full_closeout_owed]\n  \u2713 INFO 0 stacked `full deferred` breadcrumb(s) since the last full closeout ('FULL CLOSEOUT \u2014 2026-11-01T00:52:52Z \u2014 approved verdict F1/F2 amendment') \u2014 under the >=3 trigger\n\n[status_bottom_line]\n  \u2713 INFO STATUS.md `## BOTTOM LINE` present (line 4) with a nonempty section\n\n[cluster_review_overdue]\n  \u2713 INFO AI_INFRA_CAPEX (205) reviewed 21d ago (AI_CAPEX_AXIS_CHECK_2026-10-10.md) \u2014 within the 30d window\n  \u2713 INFO large clusters never coherence-reviewed (12, >=25 signals): BANK_COLLATERAL 297 \u00b7 IRAN_HORMUZ 280 \u00b7 CONSUMER_STAGFLATION 247 \u00b7 POSITIONING_VALUATION 177 \u00b7 HYDROCARBON_INFRA 157 \u00b7 FED_FRAMEWORK 128 \u00b7 PC_STRESS 111 \u00b7 ASIA_CHINA 86 \u00b7 MISC 79 \u00b7 INFLATION_TRANSMISSION 54 \u00b7 CLIMATE_MACRO 35 \u00b7 CYBER 29 \u2014 informational, not a backlog; review is cheap and on-demand\n\n[registered_but_unrouted]\n  \u00b7 LOW  Tier-2 registered but unrouted (7): ATHENA, BARON, DARWIN, HERMES, ORACLE, RAV, SENTRY \u2014 expected if spawn-on-demand; confirm it is intentional.\n\n[correction_target_declared]\n  \u2713 INFO all 153 correction signal(s) declare a resolvable target (SIG-ID / SELF / EXTERNAL)\n\n[correction_kill_strings]\n  \u2713 INFO kill_strings since 2026-09-24: 25 correction(s) carry it; 53 pre-enforcement miss(es) counted, not backfilled (enforcement from 2026-10-29T16:00:00Z)\n\n[batch_manifest_open]\n  \u2713 INFO no OPEN batch manifests \u2014 NOTE: cannot see an UNDECLARED batch; green here is not evidence that no input was dropped\n\n[dispatch_frontmatter]\n  \u2713 INFO dispatch header presence/shape checked in 390 recent signals; not delivery or action completeness\n\n[action_line_rule]\n  \u2713 INFO no \u00a73.5.4 candidates in 390 signal(s) over 14d -- NOTE: detects ask-LANGUAGE, not asks; an ask phrased outside the registered constructions is invisible here\n\n[filed_vs_consumed]\n  \u2713 INFO processed/ moves in 90d: 191 declared-consumed, 0 pre-grammar (upper bound only, not graded), 0 undeclared since 2026-08-20\n\n[entities_at_dispatch]\n  \u2713 INFO all 1139 signal(s) since 2026-08-19 declare `entities:` except 11 reviewed historical miss(es) in ENTITIES_MISSES_ACKNOWLEDGED.tsv\n\n[index_generated_fresh]\n  \u2713 INFO generated INDEX fresh (rowset e9f97a0d3bed, 1885 signals; 1885 live rows hashed and matched \u2014 banner AND content)\n\n[version_drift]\n  \u2713 INFO active specs match STATE \u00a71; companions in lockstep\n\n[claude_md_version_drift]\n  \u2713 INFO Registered table/inline CANONICAL version claims match spec headers (3 claim(s) checked across 2 file(s))\n\n[boot_protocol_xref]\n  \u2713 INFO boot-protocol xref clean (18 pointers \u2194 18 sections)\n\n[auto_load_budget]\n  \u2713 INFO required instruction files: WALTER CLAUDE.md 24,542 B; root CLAUDE.md (PROME-owned) 24,820 B. No cap grade or total context claim; runtime injection and additional memory must be verified at boot.\n\n========================================================================\n\u2717 1 item(s) need attention (HIGH/MED). See punch-list above.\n"
+    },
+    {
+      "check": "local-memory-lines",
+      "state": "PASS",
+      "lines": 99,
+      "limit": 100
+    }
+  ],
+  "manual_duties": [
+    {
+      "step": "11",
+      "state": "UNVERIFIED",
+      "duty": "Account for authored signals, handoffs and batches; preserve delivery/consumption limits."
+    },
+    {
+      "step": "Tier1",
+      "state": "UNVERIFIED",
+      "duty": "Refresh affected/stale live state or record unavailable evidence; preserve dated observations."
+    },
+    {
+      "step": "15",
+      "state": "UNVERIFIED",
+      "duty": "Review carried duties and owner evidence; retain unresolved work in LAST_COMPLETION."
+    },
+    {
+      "step": "root.retirement",
+      "state": "UNVERIFIED",
+      "duty": "Assess research/source retirement under root Data Hygiene; record scope and disposition."
+    },
+    {
+      "step": "16",
+      "state": "UNVERIFIED",
+      "duty": "Exact-path commit and authorized publication or explicit deferral; reconcile after publication."
+    },
+    {
+      "step": "13",
+      "state": "UNVERIFIED",
+      "duty": "Refresh REGISTRY before regenerating NETWORK AWARENESS."
+    },
+    {
+      "step": "12(a,b)",
+      "state": "UNVERIFIED",
+      "duty": "Refresh STATUS facts and derived network summary from canonical sources."
+    },
+    {
+      "step": "12(c)",
+      "state": "UNVERIFIED",
+      "duty": "Review FILTER POSTURE and standing flags; change only when warranted."
+    },
+    {
+      "step": "12(d,e)",
+      "state": "UNVERIFIED",
+      "duty": "Write session entry and current BOTTOM LINE; account for earlier full-deferred breadcrumbs."
+    },
+    {
+      "step": "14",
+      "state": "UNVERIFIED",
+      "duty": "Refresh/prune MEMORY and assess promotion without losing unresolved duties."
+    }
+  ],
+  "conditional_selection": {
+    "status_changed": true,
+    "spec_changed": true,
+    "memory_slugs": [],
+    "superseded": []
+  },
+  "limits": "No fetch or source writes. Local origin can be stale. Advisory findings and manual judgments require review. Conditional flags must match actual work; unselected checks are not passes.",
+  "receipt_observation": {
+    "as_of": "2026-11-01T00:53:57Z",
+    "origin_ref": "f07735f67e2da3fd0bb84057d1197b3763af62a0",
+    "delivery_scope": "20261031",
+    "delivered": 74,
+    "total": 74,
+    "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.",
+    "note": "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
+  },
+  "affected_input_rechecks": [
+    {
+      "check": "registry_staleness",
+      "method": "existing walter_doctor.check_registry_staleness()",
+      "findings": [
+        [
+          "LOW",
+          "Tier-1 registry-date >14d (1): YEYOU (72d) \u2014 see registry_lag to tell dormant from lagging"
+        ]
+      ],
+      "reason": "WALTER Updated date now matches the UTC STATUS header; same October 31 Eastern sitting."
+    },
+    {
+      "check": "registry_lag",
+      "method": "existing walter_doctor.check_registry_lag()",
+      "findings": [
+        [
+          "INFO",
+          "dormant \u2014 registry accurate, not lagging (2): ATHENA (231d), YEYOU (72d)"
+        ],
+        [
+          "INFO",
+          "no STATUS.md \u2014 dir-fallback unreliable (may be cross-agent commits), NOT flagged: RAV (dir +90d vs 2026-08-02), DARWIN (dir +71d vs 2026-02-18), DEWEY (dir +8d vs 2026-10-22)"
+        ],
+        [
+          "INFO",
+          "incidental STATUS touch, not a real lag (1): SENTRY (commit 2026-09-24 but STATUS hdr 2026-05-09 \u2264 reg 2026-05-09)"
+        ],
+        [
+          "INFO",
+          "no registry rows lagging the agents' actual STATUS commits"
+        ]
+      ],
+      "reason": "WALTER Updated date now matches the UTC STATUS header; same October 31 Eastern sitting."
+    },
+    {
+      "check": "registry_self_lag",
+      "method": "existing walter_doctor.check_registry_self_lag()",
+      "findings": [
+        [
+          "INFO",
+          "WALTER self REGISTRY row is current vs STATUS.md header"
+        ]
+      ],
+      "reason": "WALTER Updated date now matches the UTC STATUS header; same October 31 Eastern sitting."
+    },
+    {
+      "check": "registered_but_unrouted",
+      "method": "existing walter_doctor.check_registered_but_unrouted()",
+      "findings": [
+        [
+          "LOW",
+          "Tier-2 registered but unrouted (7): ATHENA, BARON, DARWIN, HERMES, ORACLE, RAV, SENTRY \u2014 expected if spawn-on-demand; confirm it is intentional."
+        ]
+      ],
+      "reason": "WALTER Updated date now matches the UTC STATUS header; same October 31 Eastern sitting."
+    }
+  ],
+  "manual_dispositions": {
+    "ledger-nudge": "No event data changed in prose maintenance; no invented ledger update under root WQ-578.",
+    "doctor": "No HIGH; inherited CATO exact-consumption MED retained. UTC self-row date LOW corrected and targeted registry checks rerun.",
+    "orphans": "Commit only self-authored registrar packet; foreign PROME argus files and test acceptance record left untouched.",
+    "read-cap": "Local PASS; shared owner rotation/generated-view advisory remains PROME-owned, not erased."
+  },
+  "receipt_after_final_review": {
+    "command": [
+      ".venv/bin/python3",
+      "AGENTS/WALTER/tools/closeout_check.py"
+    ],
+    "rc": 0,
+    "output_text": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"as_of\": \"2026-11-01T00:54:56Z\",\n  \"origin_ref\": \"f07735f67e2da3fd0bb84057d1197b3763af62a0\",\n  \"delivery_scope\": \"20261031\",\n  \"delivered\": 74,\n  \"total\": 74,\n  \"next_review\": \"2026-11-02\",\n  \"limits\": \"Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.\"\n}\n"
+  }
+}
