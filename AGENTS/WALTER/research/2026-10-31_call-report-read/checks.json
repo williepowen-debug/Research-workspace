@@ -182,5 +182,16 @@
     "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.",
     "note": "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
   },
-  "manual_advisory_disposition": "Reviewed: no HIGH. CATO exact-consumption gap retained; prior nine and new seven packets await coordinated publication. All other selected checks pass. Only authored BOARD/inbox carve-outs committed; foreign PROME files excluded."
+  "manual_advisory_disposition": "Reviewed: no HIGH. CATO exact-consumption gap retained; prior nine and new seven packets await coordinated publication. All other selected checks pass. Only authored BOARD/inbox carve-outs committed; foreign PROME files excluded.",
+  "receipt_recheck_after_payload": {
+    "status": "PASS",
+    "findings": [],
+    "as_of": "2026-11-01T02:32:42Z",
+    "origin_ref": "f07735f67e2da3fd0bb84057d1197b3763af62a0",
+    "delivery_scope": "20261031",
+    "delivered": 74,
+    "total": 90,
+    "next_review": "2026-11-02",
+    "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+  }
 }

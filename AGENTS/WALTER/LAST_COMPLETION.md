@@ -105,7 +105,7 @@ FULL analysis continuity. Existing 74 October 31 handoffs origin-proven; 16 new 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-01T02:31:35Z",
+  "as_of": "2026-11-01T02:32:42Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -192,6 +192,11 @@ FULL analysis continuity. Existing 74 October 31 handoffs origin-proven; 16 new 
       "commit": "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
       "state": "pending",
       "note": "Night boot, three cards and nine handoffs, source evidence and continuity;40 exact authored paths. Fresh origin f07735f67e2da3fd0bb84057d1197b3763af62a0. Coordinated publication deferred for concurrent foreign PROME work."
+    },
+    {
+      "commit": "34806ae91dca9a461dc7880067e084477a77c2eb",
+      "state": "pending",
+      "note": "Requested 14-bank primary comparison, card 026, seven owner packets and continuity; 28 exact authored paths. Fresh origin f07735f67e2da3fd0bb84057d1197b3763af62a0 excludes payload."
     }
   ],
   "delivery": {
@@ -224,7 +229,7 @@ FULL analysis continuity. Existing 74 October 31 handoffs origin-proven; 16 new 
     "12-14": "REGISTRY self refreshed before NETWORK; 43 other-owner leads unchanged; prior CHANGED preserved verbatim; MEMORY note; BALANCED, zero full deferrals.",
     "root.retirement": "No deletion or source retirement; all carried approvals retained.",
     "15": "Current hash-bound report and independent verification manually reviewed; prior source gaps retained.",
-    "16": "Exact-path payload commit pending. Fresh origin remains f07735f67e2da3fd0bb84057d1197b3763af62a0; foreign PROME work excludes self-push. No owner consumption claimed.",
+    "16": "Payload 34806ae91dca9a461dc7880067e084477a77c2eb committed with 28 exact authored paths. Publication pending coordinated sync; foreign PROME work untouched. Seven new packets not yet origin-proven; no recipient consumption claimed.",
     "checks": "Receipt/read-cap/archive/weekday/basis/READS/MEMORY checks pass. Doctor has no HIGH: retained CATO consumption MED plus nine prior pending-publication MED, with seven new written packets. Coordinated publication deferred under the existing rule; foreign PROME work untouched. Orphan labels are path-based: only self-authored BOARD and seven packets included. Source arithmetic and all 14 equity bridges verified."
   }
 }
