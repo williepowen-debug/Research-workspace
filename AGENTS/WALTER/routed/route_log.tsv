@@ -1895,3 +1895,6 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-10-31T19:53:22Z	SIG-W-20261031-020	CME Daily Bulletin 210, PG61, October 30, 2026 PRELIMINARY; recovered during BM-20261031-06	Official CME preliminary October 30 settlements recovered; final bulletin still owed	PRIORITY	BRENT,TERRY	HAWK,RED	0.97
 2026-10-31T19:53:22Z	SIG-W-20261031-021	ICE Endex Dutch TTF expiry table; recovered during BM-20261031-06	ICE Endex primary calendar resolves December/January TTF expiry-date gap	PRIORITY	HANS,BRENT	HAWK,RED	0.97
 2026-10-31T21:35:50Z	SIG-W-20261031-022	May joint routing proposal; BRENT FLOW-BRT-30, SCHEDULED_RUNS, TRACKER and BRT-26 note; Will October 31 authorization	CORRECTION — stale oil-rig routing boundary retired	PRIORITY	BRENT	CARL,HENRY,RED,PROME	0.97
+2026-11-01T01:08:38Z	SIG-W-20261031-023	Will-launch X bookmarks	Bloomberg reports prospective CLO loan purchases by Carlyle, KKR and Oaktree	PRIORITY	BROCK	LIQUID,REGINALD,RED	0.8
+2026-11-01T01:08:38Z	SIG-W-20261031-024	Will-launch X bookmarks	Florida mortgage announcement reportedly targets next year; implementation unverified	PRIORITY	CORAL	REGINALD,HOMER,CARL,RED	0.45
+2026-11-01T01:08:38Z	SIG-W-20261031-025	Will-launch X bookmarks	Rio Vista broker reports asking-price cuts and temporary withdrawals during king tides	PRIORITY	CORAL	REGINALD,CARL,AEOLUS,RED	0.78

@@ -1,13 +1,66 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-10-31T19:17:11Z",
-  "items": 0,
+  "kind": "marked",
+  "checked_at": "2026-11-01T01:08:56Z",
+  "items": 10,
   "scan": {
-    "checked_at": "2026-10-31T19:17:11Z",
-    "head_checked_at": "2026-10-31T19:17:11Z",
+    "checked_at": "2026-11-01T01:02:48Z",
+    "head_checked_at": "2026-11-01T01:02:48Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 1
+    "attempts": 3
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "fully_read": 7,
+    "partly_read": 3
+  },
+  "dispositions": {
+    "DUP": 1,
+    "NOTE": 3,
+    "KILL": 3,
+    "DISPATCH": 3
+  },
+  "follow_ups": [
+    {
+      "id": "2116671149509861810",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-CREDIT-OIL.md"
+    },
+    {
+      "id": "2116522516915028254",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-SYSTEMS.md"
+    },
+    {
+      "id": "2116610657856393527",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-CREDIT-OIL.md"
+    },
+    {
+      "id": "2116513031077384391",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-SYSTEMS.md"
+    },
+    {
+      "id": "2116607207135428990",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-CREDIT-OIL.md"
+    },
+    {
+      "id": "2116336205910708648",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md"
+    },
+    {
+      "id": "2115871889549865429",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-SYSTEMS.md"
+    },
+    {
+      "id": "2116521212947890340",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md"
+    },
+    {
+      "id": "2116333272900804643",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md"
+    },
+    {
+      "id": "2116578521267290428",
+      "ref": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md"
+    }
+  ],
+  "requests": []
 }

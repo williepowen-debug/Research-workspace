@@ -1,0 +1,77 @@
+{
+  "schema": 2,
+  "staged_at": 1793494968.6367378,
+  "items": [
+    {
+      "id": "2116671149509861810",
+      "disposition": "DUP",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-CREDIT-OIL.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116522516915028254",
+      "disposition": "NOTE",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-SYSTEMS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116610657856393527",
+      "disposition": "KILL",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-CREDIT-OIL.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116513031077384391",
+      "disposition": "NOTE",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-SYSTEMS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116607207135428990",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-CREDIT-OIL.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116336205910708648",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md",
+      "ask_user": null
+    },
+    {
+      "id": "2115871889549865429",
+      "disposition": "NOTE",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-SYSTEMS.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116521212947890340",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116333272900804643",
+      "disposition": "KILL",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md",
+      "ask_user": null
+    },
+    {
+      "id": "2116578521267290428",
+      "disposition": "KILL",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "43081e88a5e44ddb96fe1b11b781f0d0"
+}
