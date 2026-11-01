@@ -107,12 +107,12 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-FULL approved verdict F1/F2 amendment. New operative wording and dependent references implemented; six historical case descriptions plus five synthetic controls and a separate non-implementing review found no blocking semantic defect. Prior backlog payload/receipt and burst central transcription verified complete. Amendment payload commit/publication pending. Existing daily cohort remains 74/74 delivered, consumption separate. Hash-bound manual evidence below.
+FULL approved verdict F1/F2 amendment. New operative wording and dependent references implemented; six historical case descriptions plus five synthetic controls and a separate non-implementing review found no blocking semantic defect. Prior backlog payload/receipt and burst central transcription verified complete. Amendment payload c7881c991 committed; publication pending against freshly fetched origin f07735f67. Existing daily cohort remains 74/74 delivered, consumption separate. Hash-bound manual evidence below.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-01T00:54:56Z",
+  "as_of": "2026-11-01T00:55:23Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -189,6 +189,11 @@ FULL approved verdict F1/F2 amendment. New operative wording and dependent refer
       "commit": "e9f80744d3114c99b8a62ee9a7aaf9a5e2b34514",
       "state": "published",
       "note": "Older design-backlog payload and separate receipt 0ce5ddca4 proven against fresh origin f07735f67e2da3fd0bb84057d1197b3763af62a0 during verdict amendment."
+    },
+    {
+      "commit": "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
+      "state": "pending",
+      "note": "Approved F1/F2 amendment, dependent references, manual case/reviewer evidence, continuity and self-authored PROME basis packet. Fresh origin ancestry checked against f07735f67e2da3fd0bb84057d1197b3763af62a0."
     }
   ],
   "delivery": {
@@ -217,7 +222,7 @@ FULL approved verdict F1/F2 amendment. New operative wording and dependent refer
     "12-14": "42 other-owner lead hashes unchanged; PROME current header read and mirror verified; self REGISTRY before NETWORK. BALANCED and dated market observations retained. SESSION_LOG and MEMORY99 updated, no full deferral or new promotion.",
     "root.retirement": "Dated original draft and HAWK evidence preserved. Replaced obsolete operative F1/F2 wording at its owner; current backlog closes only implemented/verified work. No historical card regrade, deletion by age or new ledger.",
     "15": "F1/F2 approved and implemented; five-category acceptance plus six historical cases/five synthetic controls and non-implementing review documented. No blocking semantic defect found; inherited review context disclosed. All other approvals, source limits and scheduled duties preserved.",
-    "16": "Exact-path payload commit pending. Coordinated publication only; no self-push or foreign edits. Self-authored PROME registrar packet names three reviewed basis files, unchanged footprint and current publication pointer.",
+    "16": "Payload c7881c991368a61fe9ab7a95831fe73cd203ce0a committed with 14 exact paths, including self-authored PROME registrar packet. Publication pending against freshly fetched origin f07735f67e2da3fd0bb84057d1197b3763af62a0. Coordinated-publication rule and concurrent foreign PROME changes preclude self-push. Foreign work untouched; no recipient consumption claimed.",
     "checks": "Receipt/read-cap/archive/weekday/basis28/READS/MEMORY99 PASS; static version/companion/pointer checks pass. Doctor has no HIGH, inherited CATO exact-consumption MED retained. Self-registry UTC date LOW fixed; affected registry checks rerun. Event-ledger maintenance nudge dispositioned under WQ-578; foreign PROME files untouched."
   }
 }
