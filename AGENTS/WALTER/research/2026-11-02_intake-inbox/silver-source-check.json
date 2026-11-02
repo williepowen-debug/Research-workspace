@@ -1,0 +1,35 @@
+{
+  "retrieved_at": "2026-11-02T16:01:41.450633+00:00",
+  "url": "https://www.cmegroup.com/delivery_reports/Silver_stocks.xls",
+  "raw_sha256": "009c35ccba9c87f72e9d5c1b15c41f5b7d53331472e67b99d15b652ca4737e2a",
+  "report_date": "2026-10-30",
+  "activity_date": "2026-10-29",
+  "unit": "troy ounces",
+  "totals": {
+    "TOTAL REGISTERED": {
+      "prior": 104639510.31699997,
+      "received": 0.0,
+      "withdrawn": 0.0,
+      "net_physical_change": 0.0,
+      "adjustment": -353044.623,
+      "current": 104286465.69399998
+    },
+    "TOTAL ELIGIBLE": {
+      "prior": 231232288.52940005,
+      "received": 599381.6429999999,
+      "withdrawn": 710169.0700000001,
+      "net_physical_change": -110787.42700000008,
+      "adjustment": 353055.623,
+      "current": 231474556.7254
+    },
+    "COMBINED TOTAL": {
+      "prior": 335871798.8464,
+      "received": 599381.6429999999,
+      "withdrawn": 710169.0700000001,
+      "net_physical_change": -110787.42700000008,
+      "adjustment": 11.0,
+      "current": 335761022.4194
+    }
+  },
+  "checks": "Registered current=sum prior+netphysical+adjustment; category sum=combined. Latest file is not October30 activity. No history/forward curve/delivery-default or buyer-trust measure."
+}

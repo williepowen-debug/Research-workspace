@@ -1,0 +1,5 @@
+{
+  "url": "https://www.azjobconnection.gov/search/warn_lookups?q%5Bnotice_eq%5D=true&commit=Search",
+  "status": 200,
+  "scope": "GET public WARN database, notice search; no account, form submission or direct contact."
+}

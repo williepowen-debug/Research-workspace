@@ -1,0 +1,38 @@
+{
+  "CLF27.NYM": {
+    "price": 95.57,
+    "prev": 102.21,
+    "change_pct": -6.5,
+    "name": "CLF27.NYM",
+    "volume": 83611,
+    "asof": "2026-11-02",
+    "prev_asof": "2026-10-30",
+    "contract_month": "Jan 2027",
+    "contract_basis": "vendor-shortName",
+    "instrument_type": "FUTURE",
+    "is_future": true,
+    "contract_symbol": "CLF27",
+    "session": "day",
+    "trade_date": "2026-11-02",
+    "session_basis": "day session; last trade 2026-11-02 10:47:54 [America/New_York] vs bar 2026-11-02; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+    "change_basis": "regularMarketPreviousClose (prior bar 2026-10-30)"
+  },
+  "BZF27.NYM": {
+    "price": 105.91,
+    "prev": 113.43,
+    "change_pct": -6.63,
+    "name": "BZF27.NYM",
+    "volume": 29885,
+    "asof": "2026-11-02",
+    "prev_asof": "2026-10-30",
+    "contract_month": null,
+    "contract_basis": "name-cut-inferred-from-width-at-31:'Brent Crude Oil Last Day Financ'",
+    "instrument_type": "FUTURE",
+    "is_future": true,
+    "contract_symbol": null,
+    "session": "day",
+    "trade_date": "2026-11-02",
+    "session_basis": "day session; last trade 2026-11-02 10:47:56 [America/New_York] vs bar 2026-11-02; day-session close 17:00 ET assumed (CME Globex energy/metals)",
+    "change_basis": "regularMarketPreviousClose (prior bar 2026-10-30)"
+  }
+}

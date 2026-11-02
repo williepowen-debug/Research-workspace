@@ -1,0 +1,47 @@
+[
+  {
+    "employer": "Chronicle Heritage",
+    "search_url": "https://www.azjobconnection.gov/search/warn_lookups?q%5Bnotice_eq%5D=true&q%5Bemployer_name_cont%5D=Chronicle+Heritage&commit=Search",
+    "status": 200,
+    "rows": [
+      {
+        "url": "https://www.azjobconnection.gov/search/warn_lookups/1008",
+        "search_row": "Chronicle Heritage Phoenix 85004 5 - ARIZONA@WORK - City of Phoenix Oct 05, 2026 WARN",
+        "status": 429,
+        "text": "Retry later"
+      }
+    ]
+  },
+  {
+    "employer": "Grunt Style",
+    "search_url": "https://www.azjobconnection.gov/search/warn_lookups?q%5Bnotice_eq%5D=true&q%5Bemployer_name_cont%5D=Grunt+Style&commit=Search",
+    "status": 200,
+    "rows": [
+      {
+        "url": "https://www.azjobconnection.gov/search/warn_lookups/1006",
+        "search_row": "Grunt Style Chandler 85226 7 - ARIZONA@WORK - Maricopa County Oct 02, 2026 WARN",
+        "status": 429,
+        "text": "Retry later"
+      }
+    ]
+  },
+  {
+    "employer": "James River",
+    "search_url": "https://www.azjobconnection.gov/search/warn_lookups?q%5Bnotice_eq%5D=true&q%5Bemployer_name_cont%5D=James+River&commit=Search",
+    "status": 200,
+    "rows": [
+      {
+        "url": "https://www.azjobconnection.gov/search/warn_lookups/494",
+        "search_row": "James River Insurance Company 7 - ARIZONA@WORK - Maricopa County May 15, 2020 WARN",
+        "status": 429,
+        "text": "Retry later"
+      },
+      {
+        "url": "https://www.azjobconnection.gov/search/warn_lookups/1007",
+        "search_row": "James River Richmond 23230 7 - ARIZONA@WORK - Maricopa County Oct 02, 2026 WARN",
+        "status": 429,
+        "text": "Retry later"
+      }
+    ]
+  }
+]

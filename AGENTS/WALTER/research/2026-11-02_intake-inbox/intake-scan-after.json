@@ -1,0 +1,416 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-11-01T19:19:07Z (1 missed weekday runs, 0 calendar days)"
+    ],
+    [
+      "OK",
+      "news search items saved: 110 (trailing median 194 over 10 batches)"
+    ]
+  ],
+  "new": [],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:UMCSENT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "UMCSENT UMich sentiment=48.1 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=7.24 [red]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS bps=326.0 [red]",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:BAMLH0A0HYM2:red",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "LIQUID",
+        "PROME"
+      ],
+      "info_cc": [
+        "HENRY"
+      ],
+      "precedence": "IMMEDIATE",
+      "raw": "BAMLH0A0HYM2 HY OAS=326bps [red] >=280 X1-trigger breach (LIQUID half of X1; sustain-check owner LIQUID; BROCK wrapper-half must also fire)",
+      "label": "X1-trigger breach (credit-bear arm)",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:MSFT_2026_10_28_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "MSFT 2026-10-28 ['2.02', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:GOOGL_2026_10_28_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "GOOGL 2026-10-28 ['2.02', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:AMZN_2026_10_29_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "AMZN 2026-10-29 ['2.02', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:META_2026_10_29_1_01_3_03_5_03_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [
+        "VULCAN",
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "META 2026-10-29 ['1.01', '3.03', '5.03', '9.01']",
+      "label": "critical 8-K [hyperscaler_ai]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:RCL_2026_10_27_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "RCL 2026-10-27 ['2.02', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:NCLC_2026_10_30_1_01_2_03_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "NCLC 2026-10-30 ['1.01', '2.03', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:NCLC_2026_10_29_5_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "NCLC 2026-10-29 ['5.02', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": false
+    },
+    {
+      "feed": "edgar_8k",
+      "key": "edgar:NCLC_2026_10_29_2_02_9_01_",
+      "band": "red",
+      "gate": "ACTION",
+      "owners": [],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "NCLC 2026-10-29 ['2.02', '9.01']",
+      "label": "critical 8-K [other \u2014 no route_to: consumer judgment]",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_ALERT:data/2026-11-01/news.json",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "1 NEW_ALERT item(s) \u2014 read data/2026-11-01/news.json",
+      "label": "1 NEW_ALERT",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-11-01/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "4 NEW_WATCH item(s) \u2014 read data/2026-11-01/news.json",
+      "label": "4 NEW_WATCH",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:81295ef6a1d3",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Extends Diesel Export Ban to 2027 With Trump Carve-Out - Kyiv Post",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export'; OSPREY:'Russia extends diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:32557a47a877",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia extends diesel export ban until January - AzerNews",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia extends diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:881f08683ace",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia says its diesel exports may exceed volumes announced by Trump - Reuters",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; BRENT:'Trump diesel export']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:80ee236c9149",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia Extends Diesel Export Curbs Through January, Plans Limited Exemptions - Briefs Finance",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia extends diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:992207b48af2",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Iran offers 48-hour Hormuz reopening plan as Trump signals progress in talks - Investing.com",
+      "label": "WATCH_HIT [HENRY:'Hormuz reopening']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:d16808979cd1",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HENRY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia says 'massive' drone attack targeted 'industrial enterprise' amid reports oil refinery hit - Euronews.com",
+      "label": "WATCH_HIT [HENRY:'refinery attack']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:fc41eebb1808",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "MIDAS"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "COMEX Silver Vaults Are Draining and Buyers No Longer Trust Delivery - Startup Fortune",
+      "label": "WATCH_HIT [MIDAS:'COMEX silver delivery']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:730dc0883881",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "HAWK",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia's Black Sea's Sheskharis terminal halts loadings after drone attack, sources say - Reuters",
+      "label": "WATCH_HIT [HAWK:'Sheskharis oil terminal'; OSPREY:'Sheskharis']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f74478620a14",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia extends diesel export ban until end of January, government says - marketscreener.com",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia extends diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:c0b5d1fc7e1f",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia extends ban on diesel, marine fuel exports through January 2027 - Fana News -",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia extends diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:ad18a5ad2b20",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "BRENT",
+        "OSPREY"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Russia extends ban on diesel exports till January 31 - New Age BD",
+      "label": "WATCH_HIT [BRENT:'Russia diesel export'; OSPREY:'Russia extends diesel export ban']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f63f3cb3347b",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CYPHER"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Jack Henry reports limited cyber breach in non-production systems - Retail Banker International",
+      "label": "WATCH_HIT [CYPHER:'Jack Henry breach']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:f488e9a9715d",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CYPHER"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "ConnectWise breach: Cloud services disruption continues three days after initial intrusion detected | ChannelPro - IT Pro",
+      "label": "WATCH_HIT [CYPHER:'ConnectWise breach']",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:WATCH_HIT:6652366dba54",
+      "band": null,
+      "gate": "ACTION",
+      "owners": [
+        "CYPHER"
+      ],
+      "info_cc": [],
+      "precedence": "PRIORITY",
+      "raw": "Chinese-linked hackers used AI in ConnectWise breach: Microsoft - Anadolu Ajans\u0131",
+      "label": "WATCH_HIT [CYPHER:'ConnectWise breach']",
+      "onset": false
+    }
+  ]
+}

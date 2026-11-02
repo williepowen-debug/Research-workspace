@@ -1,0 +1,32 @@
+---
+signal_id: "SIG-W-20261102-011"
+timestamp: "2026-11-02T16:03:47Z"
+dispatched: "2026-11-02T16:03:47Z"
+source: "RESEARCH-INTAKE"
+origin: "held news item5 / Investing.com November 1; Iran Press November 1 relay independently read"
+action: ["FALCON", "BRENT"]
+info: ["HAWK", "HENRY", "PROME", "RED"]
+precedence: "PRIORITY"
+signal_type: "context"
+confidence: 0.85
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+cluster: "IRAN_HORMUZ"
+domain: "GEOPOL_ENERGY"
+entities: ["Hormuz", "Araghchi", "Qatar", "BRT-30"]
+word_count: 200
+dispatch_note: "Will-authorized held intake. New source/observation vintage; no prior WALTER figure corrected, no new gate, trade or study."
+anchor_unverified_as_of: "2026-10-29"
+verify_verdict: "INDETERMINATE"
+confidence_note: "Attributable current state-media relay of continuing talks; direct interview/instrument/US acceptance not established."
+---
+# Hormuz two-day proposal remains conditional; no agreed reopening deadline
+
+Iranian state outlet Iran Press reports Araghchi told parliament's ICANA on November 1 that Qatar-mediated discussion of a **two-day proposal** continues without a definitive outcome. Investing.com and other secondaries describe a shortened sequence: US measures first, reopening second. **This is conditional sequencing, not a calendar deadline or US acceptance.** The original Al Jazeera interview, a signed instrument and an on-record US acceptance were not reached; source component remains INDETERMINATE (inaccessible/unsupported at that perimeter), not a finding that talks are false.
+
+**ACTION FALCON/BRENT:** incorporate this material diplomacy update in existing ladder 5/BRT-30 evidence; retain source and execution tests. HAWK/HENRY/PROME/RED receive context. No new review project, gate fire or trade. Will's framing stays: repeated prior de-escalation rounds failed; decisive changes require a dated framework/US accept-reject and observed transit recovery. No current transit census supplied, and mediation is not bilateral negotiation.
+
+Vendor **January WTI CLF27.NYM 95.57, −6.50%**, last trade November 2 10:47:54 EST versus October 30, is an intraday observation, not settlement or proof this article caused the move. Requested Brent identity remained UNKNOWN on truncated metadata; no Brent percentage adopted.
+
+[Investing.com](https://www.investing.com/news/economy-news/iran-offers-48hour-hormuz-reopening-plan-as-trump-signals-progress-in-talks-4989413); [Iran Press relay](https://iranpress.ir/content/321155/araghchi-iran-ready-for-both-defense-and-diplomacy). Guard inventory/addressed diplomacy/date/transit blocks and owner STATUS reviewed. `anchor_unverified_as_of:2026-10-29` for remaining theater inventory; bounded diplomacy check only, next full sweep November 5 unchanged.

@@ -1,0 +1,497 @@
+{
+  "as_of": "2026-11-02T16:05:57Z",
+  "onsets": 16,
+  "classified_content_items": 19,
+  "extra_followup_items": 2,
+  "decisions": [
+    {
+      "item": 1,
+      "title": "Russia Extends Diesel Export Ban to 2027 With Trump Carve-Out - Kyiv Post",
+      "source": "Kyiv Post",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5GZlVIemc5TFQ1X3ZMYUhSNWJZeTNEM2ZQYWpzaG12LVZfVjdNc1hnYjctX09QbG96SEdPWWl4ZHlnaHk0OWRFTVVvdw?oc=5",
+      "date": "Sun, 01 Nov 2026 10:14:53 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "BRENT",
+          "Russia diesel export"
+        ],
+        [
+          "BRENT",
+          "Trump diesel export"
+        ],
+        [
+          "OSPREY",
+          "Russia extends diesel export ban"
+        ]
+      ],
+      "agents": [
+        "BRENT",
+        "TERRY",
+        "HENRY"
+      ],
+      "label": "diesel-export-policy",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261031-001",
+      "reason": "Producer-ban extension and limited-permission caveats already primary-read; YURI/OSPREY current state agrees."
+    },
+    {
+      "item": 2,
+      "title": "Russia extends diesel export ban until January - AzerNews",
+      "source": "AzerNews",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TWFJURkc0UDlWTW4wNVh4cm8xYm5HdzZ2ckVCeE5VMC12bGpaV3JybUtmWmdyLUZ3WF9GR2hET3NEaFI3N29MSDNqdFhWeGZUZjJ5Vw?oc=5",
+      "date": "Sun, 01 Nov 2026 04:00:00 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "BRENT",
+          "Russia diesel export"
+        ],
+        [
+          "OSPREY",
+          "Russia extends diesel export ban"
+        ]
+      ],
+      "agents": [
+        "BRENT",
+        "TERRY",
+        "HENRY"
+      ],
+      "label": "diesel-export-policy",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261031-001",
+      "reason": "Same signed1436 extension, no new flow observation."
+    },
+    {
+      "item": 3,
+      "title": "Russia says its diesel exports may exceed volumes announced by Trump - Reuters",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLXBaMl96X25takpKUC15RzZpMEhXT3FwMkM0a0xiZUxuV1FINXU4eXF4emoxdWl5TGZjYkNoeGhOeWdESE8yZXUyRXU2NlpoZ3hENzRoTlRaVTBUMWFTOWpQRlVYel9PbEZhdTVla2U2MS1QU3RDcXR0aEZ2cjFXMXV3ek45YWEwakhFVVBPQ1hRYjRZZk9SVXcxaFAwQ2hxOHBxTmdqTHZNWGVITUgzUWUwd0t1V3phQVBzaHR3?oc=5",
+      "date": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "BRENT",
+          "Russia diesel export"
+        ],
+        [
+          "BRENT",
+          "Trump diesel export"
+        ]
+      ],
+      "agents": [
+        "BRENT",
+        "TERRY",
+        "HENRY"
+      ],
+      "label": "diesel-export-policy",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261014-024",
+      "reason": "October13 volume statement already routed, not new November export flow."
+    },
+    {
+      "item": 4,
+      "title": "Russia Extends Diesel Export Curbs Through January, Plans Limited Exemptions - Briefs Finance",
+      "source": "Briefs Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUxqYkRPOHlQT2YzX2xFYXFmYThzT1p1Y1hRQVdIT3RKZzN1LWc2ZlRUWk4zYkE3NlZmc1ZFVzg2TWk4Rm5XcEtxaV9CcTlqaHdSZjJpaV9FT2duc3pacE45bjRNQ29OTE1JSWRXVmhUNG4tU3B5LW04cVpkN0R6UmszdVJ5QWo2eExETnRwRzFKdw?oc=5",
+      "date": "Sat, 31 Oct 2026 16:05:00 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "BRENT",
+          "Russia diesel export"
+        ],
+        [
+          "OSPREY",
+          "Russia extends diesel export ban"
+        ]
+      ],
+      "agents": [
+        "BRENT",
+        "TERRY",
+        "HENRY"
+      ],
+      "label": "diesel-export-policy",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261031-001",
+      "reason": "Same legal extension; aggregation is not independent corroboration."
+    },
+    {
+      "item": 5,
+      "title": "Iran offers 48-hour Hormuz reopening plan as Trump signals progress in talks - Investing.com",
+      "source": "Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQN3I1R2hXM0RTTFpIc2ZYR3pkV01HT3VfYkZPT2p5bFdrVWxuWDNNbDJQazYwZTlwVHNRdjRvV2RjVmRVTVVJUkdpVTNCSy04cFJmbVYxM0psNHRlb2M0VG9tV0wyUnhacDR3UGNQX0NpRGFORUVaN25Ec2VzWHdheVRPLVZYLVJRUFZwV3NRRHVIaXdLaEl6WWRTSUo1ZmJYeHZrcVFtNVRmS0NkYThiTE1KUGM3NWVadHN1X2Z2TlBDd0d3cXc?oc=5",
+      "date": "Sun, 01 Nov 2026 12:57:33 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": "Hormuz",
+      "watch_hits": [
+        [
+          "HENRY",
+          "Hormuz reopening"
+        ]
+      ],
+      "agents": [
+        "HENRY",
+        "BRENT",
+        "SAM"
+      ],
+      "label": "oil-energy",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261102-011",
+      "reason": "Conditional two-day proposal; state-media relay, no final outcome/US acceptance or absolute deadline."
+    },
+    {
+      "item": 6,
+      "title": "Russia says 'massive' drone attack targeted 'industrial enterprise' amid reports oil refinery hit - Euronews.com",
+      "source": "Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcHMzMXk4dHkwMkpoWXI3NUg4ek44akMwX3BHcDRTOXpKcTNJN0htcnp3al9VV1VVLThKdlFya0NnMlNIdnpoMGtMVEVvMzA5RlBiTFNubjVZRmpUMlJNdDhETTBsOS0waEQwNkljYjFrV0Fiam84QkJIZG9XT3VQYVBjTnNnS2JIVng5OWhud1VUODdNREk0X01xeTZBWmZ2WmNJeDFKR0JiRkZJSG1CcExTSEFNTVY2UG5XWGsyNzkzc2xi?oc=5",
+      "date": "Sun, 01 Nov 2026 07:13:00 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "HENRY",
+          "refinery attack"
+        ]
+      ],
+      "agents": [
+        "HENRY",
+        "BRENT"
+      ],
+      "label": "gas-supply",
+      "disposition": "DUP",
+      "ref": "AGENTS/OSPREY/workbook/KB.tsv#KB-OSPREY-248",
+      "reason": "November1 Kstovo strike reporting already owner-consumed in November2 L814; damage/capacity limits retained."
+    },
+    {
+      "item": 7,
+      "title": "These Arizona employers announced mass layoffs in October - Sacramento Bee",
+      "source": "Sacramento Bee",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BcnR0ZXdhbjlKY1dmaXBYc3lfbUxEdnVOakhTZm42WWpyTlR4WTFMV0c3X2prQW1nZHpWY2pLZzdmZ2x0ZjJVUXlHWTJwUjh2V3B3QlJKRVZlTl9UNXRKRGIya0c1SS1XaEhIeS1NYTBEcVZFbTBncnVjTQ?oc=5",
+      "date": "Sun, 01 Nov 2026 11:03:00 GMT",
+      "classification": "NEW_WATCH",
+      "level": "watch",
+      "keyword": "mass layoff",
+      "entity": null,
+      "watch_hits": [],
+      "agents": [
+        "LABOR"
+      ],
+      "label": "labor-layoffs",
+      "disposition": "KILL",
+      "ref": "Relevance",
+      "reason": "Three local-employer roundup, no independently established macro/systemic delta. Official index corroborates October2/5 notice dates; detail pages Retry later. Headcounts, effective separations and conditional Symphony outcome unverified; not graded false."
+    },
+    {
+      "item": 8,
+      "title": "Georgia lender's demise marks second bank failure this year - American Banker",
+      "source": "American Banker",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc21nZlNqbUxTMk11cWFmSTUzel9OWU9CanFtWFdCNnFXQlh0dTJNTWt2bFhYYkV0THpydU1jQmJXRkt0VVdPd1Z2TDNXdjhUYzBicVpjcC1odFVqTHoyMEtZR3d3NURILWRkaEJ0bUd0R255RjViNHZPMEZEd01MUy00Y2I2cXluczFVTmpDYnpJc29GNjVj?oc=5",
+      "date": "Fri, 01 May 2026 07:00:00 GMT",
+      "classification": "NEW_ALERT",
+      "level": "alert",
+      "keyword": "bank failure",
+      "entity": null,
+      "watch_hits": [],
+      "agents": [
+        "REGINALD",
+        "LIQUID"
+      ],
+      "label": "bank-stress",
+      "disposition": "KILL",
+      "ref": "Novelty",
+      "reason": "May1 bank-failure headline recirculates as NEW_ALERT on November1; no fresh failure event."
+    },
+    {
+      "item": 9,
+      "title": "Drummond reaches settlement with Subprime Auto Lender Credit Acceptance Corporation - oklahoma.gov",
+      "source": "oklahoma.gov",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUnk0YWtMYTdSRUNyWmpKZnZvb0h6VEotbVBaUkY5Z0lQZjg0TFZURkR6TGVhaXZCOWdLWUc4cWdSMTVCVk5aRXRGLTNRaURQVzhxRkNmV0loRE4zbEo4emtISG1YSktzMm85TGlFcXNRMmZQNENfMVN4WG55aE8xLUplNHZHV29ZbTVaUjM5TlJWdXU4cjNoaG9mTHEtQlZ4bGg1NnJ2NmtqQlY4d1lqOXZaT3pleEd5anFKck5WeDBEN2dwSGdEX2p5WHJCVzY1LUo5aWZZZDdCQQ?oc=5",
+      "date": "Thu, 17 Sep 2026 07:00:00 GMT",
+      "classification": "NEW_WATCH",
+      "level": "watch",
+      "keyword": "subprime",
+      "entity": null,
+      "watch_hits": [],
+      "agents": [
+        "CARL"
+      ],
+      "label": "consumer-stress",
+      "disposition": "DUP",
+      "ref": "SIG-W-20260924-005 + SIG-W-20260924-013",
+      "reason": "September17 AG release includes November2 effective date already on prior cards; CARL and OTTO acted, cash/debt-relief and corrected cohort restrictions retained. Not a new694M cash loss."
+    },
+    {
+      "item": 10,
+      "title": "COMEX Silver Vaults Are Draining and Buyers No Longer Trust Delivery - Startup Fortune",
+      "source": "Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSzEtTU91RTkwajdUMGE1d0F2ck5PVTFqR0hfbFVXS21WUzJYLU81Y3hzOWlzdXhyNUwzbjNGYV9UeG0yR3V3dmt0U0U5ZGlxODdxQUxma2RsdVZIcExTQ1Z2S3A3QkFNSE1GZHRJNHhxdHAwTjJtS1diMHEtZVljSUFGaGVvc2NtUGQyUGZ5NDhFVVE2SnVjektRXzM?oc=5",
+      "date": "Sun, 01 Nov 2026 14:58:37 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "MIDAS",
+          "COMEX silver delivery"
+        ]
+      ],
+      "agents": [
+        "MIDAS"
+      ],
+      "label": "metals",
+      "disposition": "DISPATCH",
+      "ref": "SIG-W-20261102-014",
+      "reason": "CME current point checked; registered-adjustment versus physical withdrawal distinguished. Article historical/motive/curve claims remain unverified."
+    },
+    {
+      "item": 11,
+      "title": "Russia's Black Sea's Sheskharis terminal halts loadings after drone attack, sources say - Reuters",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHZsRGtvX2VwWnpvanZCc3dkWnNqTnlQaVVWZ3Vta2JLdm9aWlYyYkxDSmI3RXhLNlM5OXZxODFIRW9UdUlkWE1YbEt3WmthNGdfbENKdUpzam05NnJCYzROMFotUlhQTDFpNFZpZ3pXdzNnZW1TVzBBc1kwVnMwalZGY2NvNUlDRG1LVTRBTlhHS2d5ZXN2ZGV1MHpVcDd2dUtvRm9WMjBpN1MwOTAxY0M5OGxhUS1IMEZOU3ZmUzU3WUpETXRGXzBSSVA?oc=5",
+      "date": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "HAWK",
+          "Sheskharis oil terminal"
+        ],
+        [
+          "OSPREY",
+          "Sheskharis"
+        ]
+      ],
+      "agents": [
+        "OSPREY",
+        "BRENT"
+      ],
+      "label": "russia-ukraine-energy",
+      "disposition": "KILL",
+      "ref": "Novelty",
+      "reason": "Reuters Sheskharis loading halt is August14, not a current November terminal halt."
+    },
+    {
+      "item": 12,
+      "title": "Sidi Kerir Petrochemicals Co. (EGS380S1C017.CA) Seasonal returns chart - Yahoo Finance UK",
+      "source": "Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zX1NLOHRZY0RGMGVIdnZnTFhKLVBBSlVHaTRfajVYLXVrZzI4b0ppQUlTZUZ5ODYzTy1FS1lvWGxKQ1FMcjVqYklkVlZ5a1NOZHlYdnpDbGxoN0t4c1NNem5sSVVQMDlRUUpCR3kwMjA?oc=5",
+      "date": "Thu, 29 Oct 2026 11:29:59 GMT",
+      "classification": "NEW_WATCH",
+      "level": "watch",
+      "keyword": "Sidi Kerir",
+      "entity": null,
+      "watch_hits": [],
+      "agents": [
+        "FALCON",
+        "BRENT"
+      ],
+      "label": "saudi-redsea",
+      "disposition": "KILL",
+      "ref": "Relevance",
+      "reason": "Ticker seasonal-return chart, not an operating incident at Sidi Kerir/SUMED."
+    },
+    {
+      "item": 13,
+      "title": "Saudi Oil Loaded from Port at Yanbu after Pipeline Attack - Industrial Info Resources",
+      "source": "Industrial Info Resources",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaTVUSFBrQkQ3YUtqM1hlendocHBpM2k5WC12U3lzd0Z5TGhYc2MzQ2xQREhaYU83ZDNVdDJmRWxRb3lpRjl1MWNRV0lZTDROWjdYdEZ2c0NhOXV0WHhxU2xNUmJMeVdtMnNkLXlvWXVnbGJCNjFjZHFOdzdjcWxFTlpzYXlrZlpBdElvX3c0YUpQckVIRGlUZjdwdUZYRnlZaDE5U1pmb0dSTlNDX2c?oc=5",
+      "date": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "classification": "NEW_WATCH",
+      "level": "watch",
+      "keyword": "pipeline attack",
+      "entity": null,
+      "watch_hits": [],
+      "agents": [
+        "FALCON",
+        "BRENT"
+      ],
+      "label": "saudi-redsea",
+      "disposition": "KILL",
+      "ref": "Novelty",
+      "reason": "September24 Yanbu-after-pipeline item is dated old operational coverage; no new restart declaration or current gate evidence."
+    },
+    {
+      "item": 14,
+      "title": "Russia extends diesel export ban until end of January, government says - marketscreener.com",
+      "source": "marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRTJXa2gxZmgwNWZXNU5fY2h3Rm1EUlNZckpyZVkwQXcxbE9QV0pxRDJCRVd3SV9USE1JOUxicExfa1dhek9wanhRbkhUczV1YUFjdnQwZHM1RFNwZzhmZTgtc3JtV3Rsc0pVbGRnQnRGRHVWb2I0YzlYVHl5VU1WTUxIcy1xekdwaWdxUE03czV4dF9yelVpNFZwVmt3d1hjdW41V1VHellIa1o3dHlObm5UVmwxVXk2OFFrSjQ1aw?oc=5",
+      "date": "Sat, 31 Oct 2026 11:07:17 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "BRENT",
+          "Russia diesel export"
+        ],
+        [
+          "OSPREY",
+          "Russia extends diesel export ban"
+        ]
+      ],
+      "agents": [
+        "HENRY",
+        "OSPREY",
+        "BRENT"
+      ],
+      "label": "russia-fuel-export-ban",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261031-001",
+      "reason": "Reuters/MarketScreener signed-extension reporting covered by stronger saved primary decree."
+    },
+    {
+      "item": 15,
+      "title": "Russia extends ban on diesel, marine fuel exports through January 2027 - Fana News -",
+      "source": "Fana News -",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSXdldDdaM0FFT2Jvakl3TnJpVTZVTkNsTFNKNE8zQUU3ZnV0WGMxS2ozeF94WHY3OTdLYnhDZG1jTDJkRWZITnc2dmJpRm1maDJGOFd1aXhCYW9OUEx2VFozZG1WU0w3QXM3bktDUV9oSTdWTDFnQmRuRGZOUjBianRUV3BScm1zamxtdHhwdnZCX3lCRmVRVTJCeWNxQXJyTzlfRkVvX3d6eUk?oc=5",
+      "date": "Sat, 31 Oct 2026 20:08:14 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "BRENT",
+          "Russia diesel export"
+        ],
+        [
+          "OSPREY",
+          "Russia extends diesel export ban"
+        ]
+      ],
+      "agents": [
+        "HENRY",
+        "OSPREY",
+        "BRENT"
+      ],
+      "label": "russia-fuel-export-ban",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261031-001",
+      "reason": "Same extension throughJanuary2027, no independent delivered-volume fact."
+    },
+    {
+      "item": 16,
+      "title": "Russia extends ban on diesel exports till January 31 - New Age BD",
+      "source": "New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcHlEUl9XdEo0VGJTcFVlc0RwMDE5WTAwOGF2QldnM1hTTEtHLWNNYmJWNWppUGFDZmg1R2VGdHBvS2ZvR1U2d1l4WFVXQlhKZ05BUks0X3FsRlVGU053SDRtb25pVGl1RVdTT0xWR2JiR25IN1BfRzlHYTBtV1VFMHhqcWFsQ0k4emNFSHJXbnd0MERZTmJGZmRUYmhrUDc5MXRfQQ?oc=5",
+      "date": "Sat, 31 Oct 2026 18:27:00 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "BRENT",
+          "Russia diesel export"
+        ],
+        [
+          "OSPREY",
+          "Russia extends diesel export ban"
+        ]
+      ],
+      "agents": [
+        "HENRY",
+        "OSPREY",
+        "BRENT"
+      ],
+      "label": "russia-fuel-export-ban",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261031-001",
+      "reason": "Same throughJanuary31 extension, not new policy."
+    },
+    {
+      "item": 17,
+      "title": "Jack Henry reports limited cyber breach in non-production systems - Retail Banker International",
+      "source": "Retail Banker International",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaVJWU002M19zQ2JCeDNGY1RoU1M3STdrMVBKMkxWTEkxQXlDZm5FS0NMenBTbDRyeUh3SEVDblZWX2M5a2hpaFd2TEREWTVyQXdCdEgxX3JyM2FUOUtNRTI5V0lGMjZSTDJ3OHJ6UUlobUhnRGxaSUJVd3JWOE1qTjVQTVNuUQ?oc=5",
+      "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "CYPHER",
+          "Jack Henry breach"
+        ]
+      ],
+      "agents": [
+        "CYPHER"
+      ],
+      "label": "bank-vendor-incidents-core",
+      "disposition": "DUP",
+      "ref": "SIG-W-20261022-017",
+      "reason": "September2 Jack Henry article concerns August31 limited non-production incident, previously routed/covered; no new named-bank harm."
+    },
+    {
+      "item": 18,
+      "title": "ConnectWise breach: Cloud services disruption continues three days after initial intrusion detected | ChannelPro - IT Pro",
+      "source": "IT Pro",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeEw4SkRsSHlrdDlvYVRQWWdnRUN3ZjJtMm5mbVZlLTVreWduLW1sSTcxdTcwYUYyaG4tNzY5YVpTcTJhZk42NGZtMlZxQjFVVU0xOFFmbG9CUzFsUW4yX016Rlk1ZzBoTXpTelRCODJFdldoUEI5cE4yUjlnT1NNNHNzVkZlb1JfM0NWa21YMTc2bEc5dVJ2NkFid0prZG9zRjBNZTR5cUx6SHBWNEZpWWVnVTVwN29rVkloakVwN0lrSkR6ejh0eQ?oc=5",
+      "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "CYPHER",
+          "ConnectWise breach"
+        ]
+      ],
+      "agents": [
+        "CYPHER"
+      ],
+      "label": "bank-vendor-incidents-msp",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261102-013",
+      "reason": "October20 initial disruption is covered; current primary October30 recovery delta is the new finding."
+    },
+    {
+      "item": 19,
+      "title": "Chinese-linked hackers used AI in ConnectWise breach: Microsoft - Anadolu Ajansı",
+      "source": "Anadolu Ajansı",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSGFXRjdUS1RKdGZ2M0l3TWdITEU3RmJqcm1ZbVFXa0k3dDgxSXFacS1kVjRjcEdDUzVSVDdhOWdFbmFibUZuTkJlY1Jsa0lpS1M3bUliYlJPZi1Md0EyRnl3TDdDNkRWX09SR2doWHNKQkc1NWZsY0RFWDQ0VF9DU0M5cFNUVVY0alRPWVMxRlhYN0JsRUFZeTdPWTB6ZGgxa0YwdDlXb1NzM2xPd0RvNFN4SkU?oc=5",
+      "date": "Thu, 22 Oct 2026 12:33:57 GMT",
+      "classification": "NEW_WATCH_HIT",
+      "level": "normal",
+      "keyword": null,
+      "entity": null,
+      "watch_hits": [
+        [
+          "CYPHER",
+          "ConnectWise breach"
+        ]
+      ],
+      "agents": [
+        "CYPHER"
+      ],
+      "label": "bank-vendor-incidents-msp",
+      "disposition": "FOLD",
+      "ref": "SIG-W-20261102-013",
+      "reason": "October22 AI/ConnectWise attribution covered in owner incident; current recovery delta kept separate from attribution/harm."
+    }
+  ],
+  "scope": "All currently NEW keys matched the approved held batch. No NEW/all-news131-item clearance, no suppressed-condition re-push."
+}

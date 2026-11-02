@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-02T16:07:11Z",
+  "direct_browse": [
+    {
+      "source": "ConnectWise",
+      "url": "https://www.connectwise.com/company/trust/advisories",
+      "scope": "October30 21:00 UTC advisory; both complete and incomplete service phases read."
+    },
+    {
+      "source": "IranPress",
+      "url": "https://iranpress.ir/content/321155/araghchi-iran-ready-for-both-defense-and-diplomacy",
+      "scope": "November1 state-media relay of ICANA; primary interview/instrument not available."
+    },
+    {
+      "source": "AlJazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz",
+      "scope": "Tool returned inaccessible. Search-result EdgeOne host not accepted as official domain."
+    },
+    {
+      "source": "QNA",
+      "url": "https://qna.org.qa/en/news/news-details?date=1%2F11%2F2026&id=qatar-gas-transport-company-announces-one-of-its-vessels-attacked-in-arabian-gulf",
+      "scope": "Full load-bearing company-disclosure relay read; direct QSE filing not reached."
+    },
+    {
+      "source": "OklahomaAG",
+      "url": "https://oklahoma.gov/oag/news/newsroom/2026/september/drummond-reaches-settlement-with-subprime-auto-lender-credit-acceptance-corporation.html",
+      "scope": "Primary September17 statement read; matched already-consumed September24 cards/correction. No fresh legal advice."
+    }
+  ],
+  "additional_source_evidence": [
+    "silver-source-check.json",
+    "az-warn-detail.json",
+    "selected-news.json",
+    "oil-named-quotes.json",
+    "iran-guard-scope.json"
+  ],
+  "limits": "Claim-specific sources and dates only. Search-not-found does not establish absence, source-copy counts are not independent corroboration."
+}
