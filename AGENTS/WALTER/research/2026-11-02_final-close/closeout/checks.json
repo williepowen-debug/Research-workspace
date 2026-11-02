@@ -12,7 +12,7 @@
         "/usr/bin/python3",
         "AGENTS/WALTER/tools/closeout_check.py"
       ],
-      "output_text": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"as_of\": \"2026-11-02T16:26:16Z\",\n  \"origin_ref\": \"4d0bec2660a2de72d5bdb43a32350f741376a820\",\n  \"delivery_scope\": \"20261102\",\n  \"delivered\": 39,\n  \"total\": 39,\n  \"next_review\": \"2026-11-03\",\n  \"limits\": \"Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.\"\n}\n"
+      "output_text": "{\n  \"status\": \"PASS\",\n  \"findings\": [],\n  \"as_of\": \"2026-11-02T16:30:29Z\",\n  \"origin_ref\": \"ed448d37e8b2f4f16102f4da7f5073842b14da79\",\n  \"delivery_scope\": \"20261102\",\n  \"delivered\": 39,\n  \"total\": 39,\n  \"next_review\": \"2026-11-03\",\n  \"limits\": \"Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.\"\n}\n"
     },
     {
       "check": "read-cap",
@@ -73,7 +73,7 @@
         "--nudge",
         "WALTER"
       ],
-      "output_text": "\u26a0\ufe0f  nudge: [WALTER] STATUS moving without ledgers \u2014 3 ledger(s) behind: REGISTRY.tsv (1 STATUS-write behind), kill_log.tsv (1 STATUS-write behind), route_log.tsv (1 STATUS-write behind) \u2014 refresh or freeze ledgers whose data changed; no explanation needed when nothing substantive changed\n\u2139\ufe0f  nudge: [WALTER] event-driven: corrections_receipts.tsv (62 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: REG_THRESHOLDS_FIRED_LOG.tsv (59 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-25) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: FALSIFICATION_FIRED_LOG.tsv (59 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-25) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: DEEP_RESEARCH_FLAGGED_LOG.tsv (34 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-15) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: DOORBELL_LOG.tsv (18 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: CORRECTIONS.tsv (3 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-29) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: BATCH_MANIFEST.tsv (1 STATUS-write behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n"
+      "output_text": "\u26a0\ufe0f  nudge: [WALTER] STATUS moving without ledgers \u2014 3 ledger(s) behind: kill_log.tsv (2 STATUS-writes behind), route_log.tsv (2 STATUS-writes behind), delivery_log.tsv (1 STATUS-write behind) \u2014 refresh or freeze ledgers whose data changed; no explanation needed when nothing substantive changed\n\u2139\ufe0f  nudge: [WALTER] event-driven: corrections_receipts.tsv (63 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: REG_THRESHOLDS_FIRED_LOG.tsv (60 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-25) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: FALSIFICATION_FIRED_LOG.tsv (60 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-25) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: DEEP_RESEARCH_FLAGGED_LOG.tsv (35 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-15) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: DOORBELL_LOG.tsv (19 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: CORRECTIONS.tsv (4 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-29) \u2014 confirm the re-pull clock moved\n\u2139\ufe0f  nudge: [WALTER] event-driven: BATCH_MANIFEST.tsv (2 STATUS-writes behind \u2014 absence expected by declaration; re-pull attempted 2026-10-23) \u2014 confirm the re-pull clock moved\n"
     },
     {
       "check": "basis",
@@ -181,5 +181,6 @@
     "total": 39,
     "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review.",
     "note": "Existing receipt observation; this runner did not fetch. Not consumption or fresh publication proof."
-  }
+  },
+  "final_publication_check_at": "2026-11-02T16:30:29Z"
 }
