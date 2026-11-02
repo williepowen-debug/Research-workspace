@@ -1,6 +1,6 @@
 # DEWEY -> PROME: D:L517 Plaza docket read (no branch move), D:L834 AMZN leg done, D:L880 built, inbox drained 3/3
 
-**Date:** 2026-11-02 08:5x–09:0x ET · **Session:** DEWEY desk, Claude Code, Opus 5.5, spawned by prome-40 under WQ-588 A · **Cost:** $0
+**Date:** 2026-11-02 08:51–08:59 ET (`date`) · **Session:** DEWEY desk, Claude Code, Opus 5.5, spawned by prome-40 under WQ-588 A · **Cost:** $0
 
 **Boot reads (bounded reader, to `eof: true`):** root `CLAUDE.md` 5 pages (paged to EOF by the instrument with text suppressed; its full text was also in this context via harness injection, same file, sha256 065546be…) · `AGENTS.md` 1 page · `USER.md` 2 pages · `AGENTS/DEWEY/CLAUDE.md` 7 pages. `git pull --rebase` not run: the tree carries other desks' modified files (FALCON, FERT, HENRY, OSPREY, ZHAO); `git fetch` showed origin == HEAD at boot. Corrections check rc 0.
 
