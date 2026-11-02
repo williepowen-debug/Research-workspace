@@ -78,5 +78,5 @@
 
 - **WORK:** Startup recovery complete; 7 inbox packets read; no implementation, sweeps, launches or grades changed. Stopped after reporting.
 - **CHECKS:** Boot/closeout rc 2: HENRY/OSPREY profile clocks UNKNOWN; 4 sweeps DUE; own map row/directory stale; root charter rotation and ledger nudge DUE; existing quoted-date advisory. Foreign dirty work blocked pull; fetch showed 0/0.
-- **DELIVERY:** Recovery record and dated PROME memo prepared; Git publication is verified separately after closeout. Recipient consumption UNVERIFIED.
+- **DELIVERY:** Recovery and PROME memo published at 9ffca5d0e; safe-push fresh-fetch receipt received; legacy verify rc 0 for those 5 paths. Recipient consumption UNVERIFIED. Publication grants no maintenance clearance.
 - **OPEN:** Suggested next task L911 view-size fix (11/09); WQ-578 message fix; Production Review 11/04; L263/L490 11/06; MIDAS 11/07; L854 grade 11/28. Inbox replies retained pending verification. No immediate Will decision.
