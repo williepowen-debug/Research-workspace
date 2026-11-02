@@ -9,3 +9,9 @@ Complete-check after the named commit returned 0: 16 reader-companion pairs, no 
 At publication notification, native direct read found exact PROME thread 01a19ccd-ae78-7e31-8264-3265e21e7f7a idle at PROME cwd, not DARK. Named-revision/result-packet doorbell accepted; exact recipient consumption remains pending unless a later owner artifact says otherwise. HOMER other-runtime discovery UNKNOWN; committed packet and PROME copy preserve delivery, no owner launch inferred. PROME's reciprocal d501d47fb review was already consumed, with #3 exposure and fixed-seed asmade limitation retained.
 
 All helpers explicitly closed after persistence receipts; no running child work. Final local inbox empty after assigned packet filed; no unrelated work begun. Will's owner window remains open. This file records delivery facts about the frozen revision only; no new review/implementation scope, no future self hash, no implied shutdown. Whole Harness/profile clocks and existing repair/owner debt remain open at STATUS/HANDOFF.
+
+## Final consumption and closeout
+
+Consumed PROME receipt 09d2bb433 at its actual committed artifact. L889 tool-only and L911 production receipt are closed; nine REGINALD rotation advisories, all historical open touch debt and other owner legs remain. Full accepted test path corrected in the synthesis, editorial only, with four accepted hashes rechecked unchanged. Earlier publication-window-open statements above describe that earlier receipt; Will now explicitly requested closeout, and the owner stops after final continuity publication. No unassigned follow-up begun.
+
+Final operator closeout battery 20261102T164127Z returned rc 0: CLEAN 5, DUE 4, DECLARED 1, NOT-APPLICABLE 1; zero BLOCKING/UNKNOWN, receipt sha 26517876. Debt retained; no code/tests changed or rerun.

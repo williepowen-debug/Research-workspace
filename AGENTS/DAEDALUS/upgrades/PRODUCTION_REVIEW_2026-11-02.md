@@ -37,7 +37,7 @@ Production before/after saved under `runs/2026-11-02_PRODUCTION_REVIEW_CHECKS/`:
 
 Accepted SHA256: source `ac3f9e65a53a1120772ca04f11497e6af1301f69e72656f26d4dfcd3cfa90371`; tests `695983d0b8a43541cafaa821ffd36309e9af50f9f20d8a618dcb545f6229bbee`. No later code change. Output machine schema/rc contract unchanged. Cross-reader owner notices still conservatively attribute raw classes; this repair does not claim to replace that separate path or establish universal current-source truth. Existing validator's November 5 review deadline remains operative.
 
-REVIEW: required — declared-read file boundary; scope scripts/read_cap_check.py helper/class aggregation/display and scripts/test_read_cap_companions.py; reader independent /root/homer_proposals (explicit gpt-6.1-sol); disposition ACCEPT at named hashes, RESIDUE conservative owner notices. Wording-only ledger/validate_all changes and register re-cuts do not change fires/scores: NONE-OWED under review rule 4. Current HOMER grade/evidence interpretation independently PASS in reader C's appended per-leg table and source hashes. No post-review code change is folded into acceptance.
+REVIEW: required — declared-read file boundary; scope scripts/read_cap_check.py helper/class aggregation/display and AGENTS/DAEDALUS/scripts/test_read_cap_companions.py; reader independent /root/homer_proposals (explicit gpt-6.1-sol); disposition ACCEPT at named hashes, RESIDUE conservative owner notices. Wording-only ledger/validate_all changes and register re-cuts do not change fires/scores: NONE-OWED under review rule 4. Current HOMER grade/evidence interpretation independently PASS in reader C's appended per-leg table and source hashes. No post-review code change is folded into acceptance.
 
 ## Fourteen self-inclusion proposals — dispositions, not blanket approval
 
@@ -93,3 +93,11 @@ Publication and recipient consumption are recorded separately after actual Git r
 Closeout 20261102T162955Z returned rc 0: CLEAN 5, DUE 4, NOT-APPLICABLE 1, DECLARED 1; zero BLOCKING/UNKNOWN. DUE retains Harness/profile clocks, root charter rotation, authorship packets awaiting the named commit, and ledger nudge. CHECKS/FLEET_MAP substantive data refreshed in this diff; PATTERNS/SURFACES unchanged and no ritual redate. No auto-memory or canonical market figure superseded; HOMER maturity change explicitly delivered. Existing playbook discovery wording applied to own local script candidates; no new scope rule enacted. Complete-check pairing/conservation and weekday checks pass. Git diff --check clean.
 
 Final inbox enumeration found only the assigned PROME packet; filed to processed after disposition. No unrelated arrival started. Exact accepted repair hashes still match; validator/declaration dependency identities saved in CHECKS/accepted_hashes.json (this does not freeze an expiry or authorize future changed bytes). This legacy delivery records named checks and DUE states, not candidate-commit or universal completion acceptance. Publication/consumption follow actual receipts.
+
+## November 2 consumption and operator closeout
+
+PROME consumption verified at 09d2bb433, `PROME/reports/2026-11-02_daedalus-pr9-consumption.md`: all four accepted dependency hashes match delivered/live files; actual REGINALD --require-manifest rc 0 with nine rotation advisories retained. L889 tool item 3 closed only, other owner legs open. L911 production receipt closed: current 19,386 B view, 179 OPEN touches (40 recent plus 139 older grouped); no touch debt closed by age. This is consumer confirmation, not a new independent code review.
+
+POST-REVIEW editorial correction: the review-scope sentence now uses the full accepted test path AGENTS/DAEDALUS/scripts/test_read_cap_companions.py. Accepted code/test hashes unchanged. This annotation does not retroactively change the delivered 5e7ae28bb bytes or broaden acceptance.
+
+Will then instructed, verbatim, “Okay DAEDALUS lets close out here”. Owner work stops after continuity/receipt publication; no next repair, review or owner launch started. Existing November 4/6/20/28 follow-ups and whole clocks remain recorded, not cleared by stopping.
