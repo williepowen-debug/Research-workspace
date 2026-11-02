@@ -1,0 +1,9 @@
+# Full final manual closeout — 2026-11-02T16:26:16Z
+
+User close request received here; session CLOSED after exact-path persistence. Current reviewed scopes and all numbered duties/retirement/capability/source limits are in ../REVIEW.md and LAST_COMPLETION. No source/market research or unassigned task begun. Full owner-header comparison precedes NETWORK; existing colours/classes and duties retained, working snapshots labelled. FILTER posture retained. MEMORY100lines, no auto-memory edits. Full narration clears previous LIGHT deferral without certifying market boot completion.
+
+Source payloads/day39 delivery proof already established; current owner evidence confirms only the named committed integration/consume records. No backlog-only owner neglect verdict, no DARK/new writer. Existing source conditions and current dirty diagnostic basis retained. Hashes are evidence, not acceptance of another desk's ongoing code; do not change saved basis to silence the check. Foreign dirty work/staged NEXUS moves untouched. Exact owned paths and dated completion packet only.
+
+Selected full check results follow in checks.json; semantic/source reviews remain manual. A selected PASS never means all research/boot/owner activity complete. Recent referenced source evidence retained; old archive exclusions remain supported/uncertain rather than destructively retired.
+
+Full selected results reviewed: receipt/R1, read-cap, archive, weekday, READS and local-memory-lines PASS after the STATUS volatile-claim fix. Basis REVIEW is the deliberately retained foreign shared-script delta, not an adopted hash. Doctor retains one older MED consumption-backlog category (21 over2d,6 ACTION,oldest14d), no HIGH. Ledger-nudge sees the pending REGISTRY commit plus unchanged kill/route ledgers; no new source or kill occurred at finalization, so no synthetic row. REGISTRY is included and gets its commit-sensitive recheck. No unknown process dependency hidden by a PASS.

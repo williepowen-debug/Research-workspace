@@ -1,0 +1,100 @@
+{
+  "at": "2026-11-02T16:26:16Z",
+  "rows": 49,
+  "available_owner_headers": 44,
+  "unrepresented_status_directories": [],
+  "changed": [
+    {
+      "agent": "REGINALD",
+      "before": {
+        "Status": "ORANGE",
+        "Updated": "2026-11-02",
+        "Focus": "November 2 09:17 owner boot: settled October 30 bank tape; FRED frontier October29; November7 reserve-release breadth retained. No score/threshold change."
+      },
+      "after": {
+        "Status": "ORANGE",
+        "Updated": "2026-11-02",
+        "Focus": "November2 11:18 owner header: Friday HY344/CCC1327 integrated, T04 remains NOT FIRED; 3 WALTER packets filed. Committed acb69b53e; no score/threshold change."
+      }
+    },
+    {
+      "agent": "WAL",
+      "before": {
+        "Status": "ORANGE",
+        "Updated": "2026-10-30",
+        "Focus": "**Last Updated: 2026-10-30 17:4x ET \u2014 Q3 10-Q GRADED (D:L171) + v2.5 re-score applied verbatim (PROME `prome-c5` relay of Will's request).** Prior: 16:56 ET core-file fold (WQ-553 ruled, 10-Q frame dry run, $99M appraisal prior)."
+      },
+      "after": {
+        "Status": "ORANGE",
+        "Updated": "2026-11-02",
+        "Focus": "November2 11:11 working-tree header: bounded boot cleanup complete; Q3 Call Report retrieval UNCHECKED after FFIEC HTTP500. Owner work not accepted as completed research."
+      }
+    },
+    {
+      "agent": "NEXUS",
+      "before": {
+        "Status": "YELLOW",
+        "Updated": "2026-11-02",
+        "Focus": "November 2 focused transmission delta; price stress established, broader financing unresolved. Not a full matrix re-sweep; L13 early-copy qualifier retains governing mirror."
+      },
+      "after": {
+        "Status": "YELLOW",
+        "Updated": "2026-11-02",
+        "Focus": "Working-tree header: focused Friday-credit follow-through, not full matrix re-sweep; final owner report/move uncommitted at closeout read. No integration/closeout inferred."
+      }
+    },
+    {
+      "agent": "WALTER",
+      "before": {
+        "Status": "YELLOW",
+        "Updated": "2026-11-02",
+        "Focus": "November 2 bounded credit availability route: HY344[Oct30] near 350, no new fire; bookmark and requested UNG tasks complete. Boot PARTIAL; LAST_COMPLETION."
+      },
+      "after": {
+        "Status": "YELLOW",
+        "Updated": "2026-11-02",
+        "Focus": "November2 CLOSED on Will request;14 day cards/39 handoffs delivered; no active research, trade or helper. Full continuity/source/approval carries at LAST_COMPLETION."
+      }
+    },
+    {
+      "agent": "OZK",
+      "before": {
+        "Status": "YELLOW",
+        "Updated": "2026-10-28",
+        "Focus": "**Updated:** 2026-10-28 22:5x ET \u2014 catch-up session (Will-directed): inbox drained, SI 10/15, **P-OZK-9 prices re-based (EV $48.56)**, GEOGRAPHY + LIFE_SCI rebuilt on Q3, severity comps refreshed (KB-268/269) \u2192 MEMORY \u00a7LAST SESSION. Prior 10/22:\u2026"
+      },
+      "after": {
+        "Status": "YELLOW",
+        "Updated": "2026-11-02",
+        "Focus": "November2 working-tree header: sub-note opening call-notice check swept/empty and intraday sync. No new WALTER grade or settled-price clearance."
+      }
+    },
+    {
+      "agent": "DAEDALUS",
+      "before": {
+        "Status": "GREEN",
+        "Updated": "2026-11-02",
+        "Focus": "November 2 09:42 startup recovery only; existing assignments recovered; no implementation or re-grading at this header."
+      },
+      "after": {
+        "Status": "GREEN",
+        "Updated": "2026-11-02",
+        "Focus": "November2 10:37 owner header: authorized maintenance, detection/whole-profile work reported; held clocks/owner defects remain. Subsequent tool/profile edits currently in progress."
+      }
+    },
+    {
+      "agent": "GIBBS",
+      "before": {
+        "Status": "\u2014",
+        "Updated": "2026-10-31",
+        "Focus": "**Last Updated: 2026-10-31 13:53 EDT \u2014 L0 inbox drain + CYPHER consequence grades (DOCKET L900, woken on Will's word 13:38 ET via PROME prome-34), Claude Code / Claude Opus 5.5 (claude-opus-5-5), spawned session.**"
+      },
+      "after": {
+        "Status": "\u2014",
+        "Updated": "2026-11-02",
+        "Focus": "November2 11:16 owner header: Kimi Code CLI, modelUNKNOWN, boot plus two-item drain. Committed82963b052 consume:GIBBS includes ConnectWise013 INFO; no bank-loss consequence."
+      }
+    }
+  ],
+  "limits": "Mirror only; uncommitted working-tree headers explicitly labelled, no owner grades/liveness inferred. Legacy/special missing STATUS rows retained; no classes/colours changed."
+}

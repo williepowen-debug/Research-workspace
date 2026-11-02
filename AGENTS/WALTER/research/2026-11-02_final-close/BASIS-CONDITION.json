@@ -1,0 +1,9 @@
+{
+  "at": "2026-11-02T16:26:16Z",
+  "path": "scripts/read_cap_check.py",
+  "saved_sha256": "cd834a833696802cde745ffb09a9b3c17a52f0b51876d6b79a03ec9afc669ea2",
+  "working_sha256": "ac3f9e65a53a1120772ca04f11497e6af1301f69e72656f26d4dfcd3cfa90371",
+  "git_state": "foreign-dirty, active DAEDALUS work",
+  "action": "Do not edit/restamp in-progress owner code. At next boot review committed owner diff and apply existing basis/declaration procedure.",
+  "effect": "Current-byte basis mismatch remains explicit; central same-day attestation alone does not clear it."
+}
