@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Current state: CLOSEOUT 2026-11-02 08:1x ET (session 4f5e775d, LAPTOP; Standard with ARGUS) before the switch to the DESKTOP. Next = a FULL boot on the desktop ("please boot up") → [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) carries Monday's due work.** Last actual closeout before this: 2026-11-01 21:3x ET (session 90c33147).
+**Current state: RESTART CHECKPOINT 2026-11-02 09:1x ET (session prome-40, DESKTOP; booted 08:39 ET) — resume with "pick up PROME" → [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) carries the checkpoint (live sessions, allowances used, next actions).** Last actual closeout: 2026-11-02 08:1x ET (session 4f5e775d, laptop).
 
 **Resume:** (1) [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) and the [October 31 account](../memory/2026-10-31.md); (2) DOCKET/GATES/WILL_QUEUE for obligations and `PROME/tools/inbox_census.py PROME` before any launch; (3) [research-first briefing instruction](proposals/2026-10-25_research-first-briefing-RULED.md), installed at BOOT step 8; (4) [delivery contract](tools/ARGUS_CONTRACT.md). The 10/25 three-desk sweep, its four file corrections and its evening inbox disposition are history at [its report](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will) and [that closeout](reports/2026-10-25_evening-closeout.md). Dated sections below are historical continuity.
 
