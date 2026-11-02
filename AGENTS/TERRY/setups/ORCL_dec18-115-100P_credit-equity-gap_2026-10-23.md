@@ -5,6 +5,8 @@
 
 > **WQ-518 RULED A — Will in the TERRY window 2026-10-29 11:42 ET, verbatim "518 A":** the Oracle-verified fiscal-Q2 date condition stays; no estimated-date entry.
 
+> **TRIGGER STATE 2026-11-02 (TERRY, written 09:15 EST from `date`): NOT FIRED · NOT VOIDED. Void line graded on the named basis.** PROME (ELLISON owner) named the basis (`inbox/processed/2026-11-02_from-PROME_L904-ORCL-CDS-basis-named.md`): ELLISON's 314 [10/22] is the **DTCC disseminated-spread field**, so the card's "ELLISON theme reading, DTCC basis" = the disseminated 5Y spread. On that basis the series is **314 [10/22] → 293 [10/30] (×2, LIQUID)**; no disseminated print for 10/29 is on file. **Void (≤ 280): 293 is 13 bp above → NOT VOIDED. T1 (≥ 350): 57 bp short → NOT FIRED.** LIQUID's 270–276 [10/29] and 280–294 [10/30] are flat-hazard conversions of upfront + coupon — not this card's basis; they neither fire nor void it. The void and kill lines now name the basis. FQ2 date still not re-checked (moot while T1 is 57 bp away). No order.
+
 > **TRIGGER STATE 2026-10-31 (TERRY, written 14:04 EDT from `date`): NOT FIRED; the credit–equity gap this card was built on has narrowed from both sides.** T1 (5Y CDS ≥ 350 bp): LIQUID's DTCC read (`PROME/inbox/processed/2026-10-30_from-LIQUID_dtcc-1030-orcl-crwv.md`) = **280–294 bp [10/30], disseminated 293 bp** ×2, vs 270–276 [10/29]: **57 bp short of 350** on the disseminated figure; the ELLISON reading the card was written against was 314 [10/22]. T2 (ORCL ≥ $120): met, close **$130.67 [10/30] (−6.37%)**, down 9.6% from $144.54 [10/28]. ⚠️ **Void line (CDS ≤ 280 bp): basis UNRESOLVED, not graded.** LIQUID's 10/29 range (270–276) sits at or below 280, but it is a MODEL-DERIVED par spread (flat-hazard, not ISDA; LIQUID's own caveat: tens of bp of error), while the card's named reading (ELLISON, "DTCC public tape", 314 [10/22]) does not state its conversion. The two are not like-for-like, so the void is neither fired nor cleared on this record; PROME (ELLISON's owner) names the basis if it matters. Equity void (close ≥ $145) not hit. FQ2 date not re-checked (moot while T1 is 57 bp away). Read: credit has not led — LIQUID calls 10/30 "credit following equity, not leading it" — and the stock has partly caught down, so T1 is further away than at approval. No order.
 
 > **TRIGGER STATE 2026-10-29 (TERRY, written ~11:3x ET from `date`): NOT FIRED; entry still BLOCKED by the date condition.** T1 ORCL 5Y CDS: no reading newer than 314 bp [10/22] found in the repo — UNKNOWN since. T2 (ORCL ≥ $120): met, close $144.54 [10/28] (+10.7% that day; cause not established here), $140.34 intraday 10/29. Void line (close ≥ $145.00): not hit, 10/28 close $0.46 short. FQ2 date: Oracle has not announced it (web search 10/29: calendar sites project 12/10, not issuer-verified) — condition unmet; WQ-518 open with Will. No order.
@@ -28,7 +30,7 @@ If Oracle's credit keeps widening while the stock holds, buy a defined-risk Dec-
 | **T1 — credit leads** | ORCL 5Y CDS **≥ 350 bp** (ELLISON theme reading, DTCC basis) | 314 bp [10/22] | **NOT FIRED** (36 bp away) |
 | **T2 — equity has not followed** | ORCL **≥ $120.00** at the T1 reading | $126.16 | MET today; re-read at T1 |
 | Entry window | first **green ORCL session** after T1 (root rule #6), through Fri 2026-11-20 | — | waits on T1 |
-| **Void before entry** | CDS ≤ 280 bp, or ORCL closes ≥ $145.00, or no green day by 11/20 | — | — |
+| **Void before entry** | CDS ≤ 280 bp (DTCC disseminated 5Y spread — basis named 11/02, PROME L904), or ORCL closes ≥ $145.00, or no green day by 11/20 | — | — |
 
 **Why a credit trigger, not a price line:** the thesis is the gap between credit (junk-like 314 bp on a BBB− name) and the equity. A price-break trigger (e.g. a close under $120) would fire after the equity has already moved and would raise the debit past the chase line; a credit trigger fires while the gap is widening. **Construction rule #15 check:** this gate opens on the thesis variable worsening, not on decay, so a fire is information about the thesis, not against it.
 
@@ -66,7 +68,7 @@ If Oracle's credit keeps widening while the stock holds, buy a defined-risk Dec-
 
 ## 6. Management (written before any fill)
 - **Harvest (durable finding 9):** sell when the spread marks **≥ $10.00** on the broker bid (≈ 2.3× the debit, 67% of width).
-- **Kill:** ORCL closes ≥ $145.00 on two consecutive sessions, or CDS ≤ 280 bp → sell at the bid.
+- **Kill:** ORCL closes ≥ $145.00 on two consecutive sessions, or CDS ≤ 280 bp (DTCC disseminated 5Y spread) → sell at the bid.
 - **Time stop:** sell by the close **Fri 2026-12-04** if neither has fired (ahead of the unverified FQ2 window; holding through it is a separate Will choice once the date is verified). No roll pre-registered (Non-Negotiable #6).
 - Forward max loss after a fill is the remaining mark (construction rule #20(d)).
 
