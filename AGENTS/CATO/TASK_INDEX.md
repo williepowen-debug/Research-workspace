@@ -2,6 +2,10 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## November 2 WAL Kimi boot self-review
+
+[Owner self-review assessment](runs/2026-11-02_1100_wal-boot-self-review.md): stale live charter and unconditional filing-action alert confirmed; inbox lanes need small wording clarification. Drift history classification already exists: disposition 11 new identities before proposing checker code changes. Read-heavy boot/cwd mistake are execution habits. CATO review complete; owner corrections proposed only, no sends/owner edits or remaining CATO implementation assigned. Return to already-approved Call Report work after bounded cleanup.
+
 ## November 2 morning change review
 
 [Targeted review](runs/2026-11-02_1018_morning-change-review.md), initial 87-commit/435-path inventory through `f28fc8021`: M1 CLOSED by Will’s follow-up accepting Fable availability for other desks (no restriction repair); M2 CLOSED after Will-approved launcher reader/preview repair: preserved real producer regression restores old-only HANS warnings, validates coverage totals and displays grouped counts/date ranges. Author checks: 43 Python tests + native Windows smoke pass. Reopen Launcher; no implementation remains assigned. Earlier evidence (178 → 39 visible) remains in the report. Launcher work is author follow-up. Financial evidence and full morning research were not exhaustively verified; no owner implementation changed.
