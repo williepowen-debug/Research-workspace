@@ -199,7 +199,7 @@ FULL session closeout. Research and all 90 October 31 handoffs origin-proven; tw
       "note": "Verified on origin at November 2 boot (merge-base ancestor check, fetch 14:12Z)."
     },
     {
-      "commit": "THIS-CLOSEOUT",
+      "commit": "7244d64ec870d1e6679483fa7f7f96bb857fca98",
       "state": "pending",
       "note": "November 2 boot/closeout commit (subject: WALTER: November 2 boot PARTIAL and model-switch closeout); push deferred, foreign dirty FALCON files."
     }
