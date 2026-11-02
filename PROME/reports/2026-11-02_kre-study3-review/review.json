@@ -1,0 +1,101 @@
+{
+  "source": "/mnt/c/Users/willi/Downloads/REPORT.md",
+  "sha256": "db1ddae6b186dccc5a94daacccf11170fa0d709558a86753d8a47a77086494f7",
+  "scope": "Whole report read; internal-method review, limited primary-source checks and current-beta sanity check. Not a full reproduction.",
+  "missing_adjacent_artifacts": [
+    "PREREGISTERED_SPEC.md",
+    "build_data.py",
+    "regime.py",
+    "ratebeta.py",
+    "current.py",
+    "data/master.csv",
+    "out/W20_h60_phase_robustness.csv",
+    "xs/xs_results.csv"
+  ],
+  "findings": [
+    {
+      "priority": "high",
+      "finding": "Credit proxies contradict available HY observations in 4/6 recent analogs",
+      "evidence": "Table 3b: Dec 2023 -41bp; May 2024 -6bp; Jan 2025 -13bp; Sep 2025 -4bp HY OAS, despite proxy-widening classification. Feb 2026 +21bp and Jun 2026 +3bp agree.",
+      "implication": "Proxy-defined analogs are not six independently confirmed credit-stress rebounds. Current reported HY widening is distinct."
+    },
+    {
+      "priority": "high",
+      "finding": "Strongest relative-return result lacks displayed phase robustness",
+      "evidence": "Table 1f shows absolute KRE returns only. The headline claim is KRE minus KBWB.",
+      "implication": "Require relative-return means, medians, counts and uncertainty across all phases; do not infer robustness from absolute-return tests. Phase variants are dependent."
+    },
+    {
+      "priority": "high",
+      "finding": "Real-yield decomposition does not identify term premium or cause",
+      "evidence": "Section 3 moves from unchanged breakevens to a claim of real-yield and term-premium decline and a flight-to-quality mechanism. No term-premium estimates presented.",
+      "implication": "Retain observed real-yield decomposition; label growth fear and safe-haven causes as hypotheses. Stable ten-year inflation compensation does not rule out near-term disinflation."
+    },
+    {
+      "priority": "medium",
+      "finding": "AOCI mechanism asserted more strongly than cross-section permits",
+      "evidence": "Section 3 says same mechanism and because yields fall; section 4 finds HTM losses are not a differential falling-yield exposure.",
+      "implication": "AOCI relief remains possible but unproven; cross-sectional null neither establishes nor excludes a shared sector effect."
+    },
+    {
+      "priority": "medium",
+      "finding": "Statistical precision and causal language require narrowing",
+      "evidence": "394 primary tests; nested cells; 8 falling-yield days; HC3 does not address arbitrary cross-bank dependence. Mapping mistakes need not be unbiased.",
+      "implication": "Effect sizes are exploratory. Clarify whether models aggregate by stock or pool observations; use suitable dependence-aware uncertainty and leave-event-out sensitivity."
+    },
+    {
+      "priority": "medium",
+      "finding": "Predictive timing needs audit",
+      "evidence": "June fundamentals used for returns beginning July 1, April-October sensitivity; June filings not necessarily public at start.",
+      "implication": "Label descriptive associations or use publication-lagged data for predictive claims. Current holdings introduce additional selection concerns."
+    },
+    {
+      "priority": "medium",
+      "finding": "CATO single-factor R2 discrepancy remains open",
+      "evidence": "Section 0 re-estimates a two-factor model and speculates about alignment; it does not reconcile the earlier single-factor KBWB/IWM/SPY mismatch.",
+      "implication": "Obtain exact dates, return and yield definitions, missing-value policy, intercept and implementation."
+    },
+    {
+      "priority": "correction",
+      "finding": "Dissenter names are directly available in the Fed statement",
+      "evidence": "Official October 28 statement names Lisa D. Cook and Beth M. Hammack and their preference for a quarter-point increase.",
+      "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "priority": "clarification",
+      "finding": "Table 4 fall-minus-rise column is ambiguous",
+      "evidence": "Size coefficients +9.6 and -5.2 imply a 14.8bp difference, but cell shows +3.9, apparently t only.",
+      "implication": "Print coefficient and t separately; do not assume arithmetic error."
+    },
+    {
+      "priority": "clarification",
+      "finding": "GFC rate-beta explanation mixes conditional and unconditional behavior",
+      "evidence": "Negative SPY-controlled beta is explained with simultaneous falling yields and bank stress; these are different statistical relationships.",
+      "implication": "Distinguish conditional rate sensitivity from raw co-movement."
+    }
+  ],
+  "local_sanity_check": {
+    "source": "AGENTS/REGINALD/research/KRE/reports/2026-11-02_kre-etf-relationships/",
+    "method": "Last 63 saved ETF daily returns; intercept + SPY return + FRED DGS10 daily change in percentage points. FRED snapshot, not report Treasury par dataset.",
+    "no_fill": {
+      "n": 59,
+      "KRE_rate_beta": -0.06799261712219695,
+      "KRE_R2": 0.15887637682932154,
+      "KBWB_rate_beta": -0.03629018402932571
+    },
+    "forward_fill_yield_holidays": {
+      "n": 62,
+      "KRE_rate_beta": -0.06661753621184768,
+      "KRE_R2": 0.1535563305163632,
+      "KBWB_rate_beta": -0.03354032651533201
+    },
+    "limit": "Supports sign and approximate magnitude only. Not independent vendor validation or exact replication. Missing source rows prevent identical sample."
+  },
+  "primary_references": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "https://fred.stlouisfed.org/series/BAA10Y",
+    "https://www.federalreserve.gov/data/tips-yield-curve-and-inflation-compensation.htm",
+    "https://www.newyorkfed.org/research/data_indicators/term-premia-tabs"
+  ],
+  "assessment": "Useful descriptive extension. Shared negative bank rate sensitivity is supported by a limited local check. Historical relative underperformance remains an unreplicated hypothesis; no reliable absolute-direction forecast or causal mechanism established. No trade, owner grade or standing monitoring changed."
+}
