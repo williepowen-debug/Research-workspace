@@ -1,6 +1,6 @@
 # GIBBS STATUS
 
-**Last Updated: 2026-11-02 11:16 EDT — boot + 2-item inbox drain, Kimi Code CLI / model UNKNOWN, full session.**
+**Last Updated: 2026-11-02 11:26 EDT — Will-approved stale-data hygiene, Kimi Code CLI / model UNKNOWN, full session.**
 
 > FIRST-LIVE-SESSION banner struck 2026-10-21. `docket/CATALYSTS.tsv` is in PROME's SUMMONS_LEDGERS (confirmed 10/23). Cadence declared to PROME 10/31: EVENT-DRIVEN (ROSTER row is PROME's to write).
 
@@ -20,7 +20,7 @@ No thresholds, predictions, grades or book (WQ-426).
 | Perimeter | 16/16 CIKs; Q2 and Q3 assets 16/16. SEC submissions 10/31 name each intended issuer (BK files as ticker BNY; desk key BK unchanged). Re-cut 11/14. |
 | NDFI one figure | BROCK confirmed JPM/WFC/C 10/21 (KB-GIB-012). BROCK 10/25 CFG vintage correction consumed: KB-GIB-011 SUPERSEDED by KB-GIB-028 (CFG is not a GIBBS name). |
 | Seams | CYPHER: first fired-row packets graded; CYB-INC-053 (Citizens) mis-names GIBBS as consumer — told CYPHER, Citizens is REGINALD's. ISHM: boundary answered, no print-ledger field needed (KB-GIB-032). |
-| Charter | DAEDALUS WQ-508 lines C06/C09/C20 verified at d3488e641, not contested. C17 (spawned no-push lines vs root auto-push) open as a PROME/owner call; this session pushed on root canon + PROME's spawn prompt. |
+| Charter | DAEDALUS WQ-508 lines C06/C09/C20 verified at d3488e641, not contested. C17 (spawned no-push lines vs root auto-push) open as a PROME/owner call; the 2026-10-31 spawned session pushed on root canon + PROME's spawn prompt. |
 | Falsification | EXIT_PROTOCOL re-derived 2026-10-21; R0 review 2026-11-15 unchanged. |
 
 ## Decisive observations (Q3 vs Q2 2026, SEC 8-K exhibits; rows in workbook/READS.tsv)
@@ -39,6 +39,8 @@ No thresholds, predictions, grades or book (WQ-426).
 Synthesis `research/2026-10-21_five-things-regional-question.md`; AXP 10/23 exhibit hashes in the 10/23 PROME memo. 10/31 SEC reads: submissions JSON for all 16 plus seven 8-K documents, sequential, with the User-Agent declared in `FORGE/tools/filing-watch/poll_edgar.py` (WQ-565 A); the tool itself was not run because it writes FORGE output files even in `--dry-run`. Fed press feed read 10/31 17:47Z: no capital-regime item since 10/23 (KB-GIB-002 note). Quartr transcripts need a paid plan (KB-GIB-014) — call-only guidance stays UNAVAILABLE; public transcript pages are the free fallback. Releases are provisional to the 10-Qs. FFIEC NIC CAPTCHA wall unchanged; no session spent. Market structure (KRE) is HENRY's; no live prices adopted here.
 
 ## Inbox / delivery
+
+Will-approved stale-data hygiene 11/02: seven edits across CLAUDE, EXIT_PROTOCOL, KB and STATUS; no analytical figures changed. KB-GIB-010 marked STALE after its 10/23 review date. PROME's ROSTER GIBBS row still says BUILDING and first-live-session pending; correction packet `PROME/inbox/2026-11-02_from-GIBBS_roster-building-row-stale.md`.
 
 Drained 11/02: 1 top-level PROME packet + 1 WALTER signal = 2 items; board_log rows added and both files moved to processed/. PROME token packet INTEGRATED into CLAUDE DATA ROUTES; SIG-W-20261102-013 LOGGED as KB-GIB-033, ConnectWise partial recovery with no bank/CU victim or bank-specific loss established and no change to the large-bank consequence grade. No outbound packets.
 

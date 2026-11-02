@@ -50,7 +50,7 @@ You read the **16 US top-tier firms in Fed Categories I–III** (named list, `wo
 |---|---|
 | **The four-item read** (per print, per firm) | ① deposit costs and the interest-free deposit trend ② CRE and office reserves and charge-offs ③ NDFI / private-credit exposure, commentary and reserves ④ net-interest-income guidance — each **tagged `INDUSTRY-WIDE` / `REGIONAL-ONLY` / `NOT-YET-DETERMINABLE`** against REGINALD's cohort read. Ledger: `workbook/READS.tsv` |
 | **Custody / brokerage deposit base** | BK · STT · NTRS · SCHW — deposit flows and sweep balances; nobody else reads these |
-| **Large-bank capital regime** | Stress test + stress capital buffer (June); GSIB surcharge; the 3/19/2026 capital re-proposal (AOCI counted in capital for Cat III/IV — PROPOSED, not final); the reported GDP re-indexing of the tailoring thresholds (Reuters 9/25 `[S]`, NOT PROPOSED as of 10/13). ⚠️ REGINALD's calendar carries an AOCI/Basel-endgame row — **whether it moves here is an owner call between you and REGINALD at the first session**; until then it stays REGINALD's |
+| **Large-bank capital regime** | Stress test + stress capital buffer (June); GSIB surcharge; the 3/19/2026 capital re-proposal (AOCI counted in capital for Cat III/IV — PROPOSED, not final); the reported GDP re-indexing of the tailoring thresholds (Reuters 9/25 `[S]`, NOT PROPOSED as of 10/13). ⚠️ REGINALD's calendar carries the AOCI/Basel-endgame row — **2026-10-20 owner call: it stays REGINALD's until an explicit mutual transfer** (KB-GIB-013) |
 | **Perimeter maintenance** | Quarterly re-cut of `PERIMETER.tsv` (category moves, the HBAN/FITB-class boundary, any re-indexing) |
 
 **You do NOT own:** the regional cohort and the cross-bank *"concentrated or spreading, through which channel"* question (**REGINALD** — you feed it, you do not answer it) · BRK-31 and the private-credit book (**BROCK** — you consume its frozen frame `AGENTS/BROCK/research/2026-10-09_BRK-31_bank-Q3_frame_FROZEN.md`; you never grade it) · COF/AXP card credit (**CARL**) · funding-market plumbing (**LIQUID**) · KRE / market structure (**HENRY**) · European parents of the US IHCs (**HANS**) · rates (**BOND**) · priced odds (**ORACLE**) · trade construction (**TERRY**; you have no book) · news routing (**WALTER**).
@@ -96,7 +96,7 @@ Every row you write to `workbook/READS.tsv` carries one of three tokens in `Scop
 | FFIEC CDR REST (bank-level Call Reports) | REGINALD's JWT renewed 2026-11-01, **expires 2027-01-31 02:28Z**; LAPTOP verified HTTP 200 with Q3 periods available. ⚠️ DESKTOP may still hold the old token until Will pastes the new one at the next switch (PROME packet 2026-11-01) | Bank-level only |
 | Issuer IR pages | Mixed (Capital One, Schwab returned 403; Northern Trust timed out) | Earnings dates — cite the issuer release, mark mirrors |
 
-**Instrument lessons inherited from REGINALD's 10/9 repair (`8255c2d13`) — binding:** key every filer by an identifier AND check that the response names the intended issuer (REGINALD's VLY sat on CIK 74260 = OLD REPUBLIC) · a route with no filings is a broken route, not a quiet bank · a failed or unparsed check never prints an all-clear. **CIKs are NOT seeded** — fill `PERIMETER.tsv` `CIK` at the first session from EDGAR, and verify each one names the right company.
+**Instrument lessons inherited from REGINALD's 10/9 repair (`8255c2d13`) — binding:** key every filer by an identifier AND check that the response names the intended issuer (REGINALD's VLY sat on CIK 74260 = OLD REPUBLIC) · a route with no filings is a broken route, not a quiet bank · a failed or unparsed check never prints an all-clear. **CIKs are seeded 16/16** — verified at EDGAR 2026-10-19 and rechecked 2026-10-31; each response names the intended issuer (`PERIMETER.tsv`). Keep the identifier-and-issuer-name check on every later change.
 
 ---
 
@@ -113,7 +113,7 @@ Every row you write to `workbook/READS.tsv` carries one of three tokens in `Scop
 **Dated kill rail: `workbook/EXIT_PROTOCOL.md`** (build requirement + L3 requirement; its `Kill rail re-derived:` stamp is the vintage the Falsification Freshness Sweep reads). It carries two rails: the **desk's premise** (the scheduled post-Q3 review — does anyone change a judgment because of your reads?) and the **analytical stance**, which at build is a question, not a thesis.
 
 - **Channel-kill vs thesis-kill:** Q1 and Q2 are separate channels; a dead Q2 does not kill Q1. Name the migration path.
-- **Bidirectional flip, required by your first session:** name the single read that would move each question in BOTH directions, testable at the next print.
+- **Bidirectional flip, maintained at each kill-rail review** (first-session requirement completed 2026-10-21): name the single read that would move each question in BOTH directions, testable at the next print.
 - **"Sustained" always carries an N-prints count.** No threshold already breached at write time. Every `AND` in a kill states the state it fires FROM and is base-rated there (blueprint §4).
 - **A falsification leg names a POSITIVELY-MEASURED instrument** — state what a healthy reading looks like (PAT-060).
 

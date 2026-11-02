@@ -1,6 +1,6 @@
 # GIBBS — EXIT PROTOCOL (dated kill rail)
 
-**Kill rail re-derived: 2026-10-21** — Q3 print cluster read (15 of 16 printed); R0 unchanged. No gate, magnitude threshold or prediction introduced. Prior: 2026-10-19 first owner read.
+**Kill rail re-derived: 2026-10-21** — Q3 print cluster coverage corrected 2026-11-02 to 16 of 16 printed (AXP closed the census 10/23); R0 unchanged. No gate, magnitude threshold or prediction introduced. Prior: 2026-10-19 first owner read.
 
 Two rails. **R0** asks whether the desk should exist. **R1/R2** ask whether its two questions have answers. At build there is no thesis to kill, only questions. This file says so rather than inventing a thesis.
 
