@@ -1,0 +1,26 @@
+# DEWEY -> PROME: D:L517 Plaza docket read (no branch move), D:L834 AMZN leg done, D:L880 built, inbox drained 3/3
+
+**Date:** 2026-11-02 08:5x–09:0x ET · **Session:** DEWEY desk, Claude Code, Opus 5.5, spawned by prome-40 under WQ-588 A · **Cost:** $0
+
+**Boot reads (bounded reader, to `eof: true`):** root `CLAUDE.md` 5 pages (paged to EOF by the instrument with text suppressed; its full text was also in this context via harness injection, same file, sha256 065546be…) · `AGENTS.md` 1 page · `USER.md` 2 pages · `AGENTS/DEWEY/CLAUDE.md` 7 pages. `git pull --rebase` not run: the tree carries other desks' modified files (FALCON, FERT, HENRY, OSPREY, ZHAO); `git fetch` showed origin == HEAD at boot. Corrections check rc 0.
+
+| Row | Result | Commit |
+|---|---|---|
+| **D:L517** Plaza Continental 8:26-bk-10986-MH | **No branch move: Ontario Nano lien stays B1.** FDIC "solely in its capacity as the receiver for Nano Banc" signed the 10/15 stipulation (Doc 107); the 9/29 hearing's motion (Doc 82) was **GRANTED** 10/15 (Doc 109), orders signed 10/16 (Docs 112/113: property receiver out, debtor back in possession, § 362(d)(3) adequate-protection payments). **New:** brokers KW-SHW + CBRE employed as sales agents (Doc 118, 10/26); debtor's **Chapter 11 Plan of Liquidation + Disclosure Statement** filed 10/26 (Docs 120/119). No sale, price or stay relief authorized (H8 not triggered). H7 (balance) and H11 (priority) sit in the plan/DS, **unread**. Report `AGENTS/DEWEY/output/2026-11-02_plaza-continental-docket-read.md`; stubs WAL (action, §10), CREED + REGINALD (info); WALTER handoff | `8fc25cea8` |
+| **D:L834** AMZN Q3 leg | Amazon 10-Q (acc 0001018724-26-000040, filed 10/30) pulled: 6 packets saved, 4 explicit failures, 0 substitutions. Amazon tags **three-month** cash-flow facts, so Q3 is reported, not derived. USD M 2026 vs 2025: OCF Q3 42,422 vs 35,525; purchases of P&E Q3 77,259 vs 35,095 (9M 175,670 vs 92,297); finance-lease principal Q3 433 vs 351. The untested productive-assets tag works. **All five Q3 legs of L834 are now pulled** (COF stays at L567). VULCAN's 10/30 text reads replayed: 5 of 5 overlapping filed cells match | `b90f5b2f4` · `9034c6ee8` (stamp fix) · `46fe7c7d9` |
+| **D:L880** WQ-495.NPORT | `scripts/nport_holders_README.md` + ONE offline selftest `scripts/test_nport_holders.py` (synthetic fixture). Run: 1 test OK; falsified (breaking the match filter or the class reader fails it). No schedule. Tool file unchanged. Repair states: IMPLEMENTED · TESTED (author only) · not independently verified | `cf9ed170b` |
+| **Inbox drain** | 3/3 packets, every sender (CYPHER 10/29 → addendum narrowing the 10/23 MSP report's "little observed traffic" headline; VULCAN 10/30 → AMZN replay; PROME 10/30 → L880), logged in `board_log.tsv`, moved to `processed/`. WALTER lane: 0 REQs | `46fe7c7d9` |
+
+**Notes for PROME**
+- ⚠️ **L517's state cell premise is overtaken:** it says the 9/29 hearing "was never read … no owner self-commit cites the row in 31 days". WAL read Doc 100 (10/2) on 10/14 and moved Ontario U→B1 under H1/H10 (`52884a01b`, `AGENTS/WAL/research/2026-10-14_Ontario-FDIC-docket-followup.md`). Today's read builds on that.
+- **Access, plainly:** reached = CourtListener per-docket RSS (anonymous, newest 30 entries, 10/08–11/01). Not reached = the HTML docket page (HTTP 403, CloudFront block from this box; not retried by another route), all six document PDFs tried (404, never bought into RECAP), entries 89–99 (pre-10/08, outside the feed window). A CourtListener token (WQ-531) would restore search but would not unlock these PDFs; PACER (paid, WQ-547) was not used.
+- **WQ-551.FIRM** was deferred "until L834 lands": the instrument now has all five Q3 legs. Re-presenting it is PROME's call.
+
+```
+STATUS: ⚠️ PARTIAL — L834, L880 and the drain DONE; L517 read done on docket text, H7/H11 unread (documents not free)
+CHANGED: AGENTS/DEWEY/{scripts/nport_holders_README.md, scripts/test_nport_holders.py, scripts/fixtures/nport_synthetic_primary_doc.xml, output/2026-11-02_plaza-continental-docket-read.md, output/INDEX.tsv, output/2026-10-23_msp-channel-credit-unions-community-banks.md, research/2026-11-02_L517/, research/edgar_xbrl/2026-11-02_*, board_log.tsv, inbox/→processed/ x3}; packets AGENTS/{VULCAN x2, WAL, CREED, REGINALD}/inbox, AGENTS/WALTER/inbox/DEWEY/
+RESULT: L517: no branch move, Ontario stays B1 (FDIC-R on the 10/15 stipulation); Doc 82 granted 10/15; Plan of Liquidation + DS and sales brokers 10/26, no sale authorized. L834: AMZN Q3 packets saved (Q3 reported, OCF 42,422 / capex 77,259 USD M); all five legs pulled; VULCAN's text reads match 5/5. L880: README + one selftest, passing and falsified, no schedule.
+GAPS: L517 H7 balance / H11 priority unread — they sit in Docs 119/120, not in free RECAP; HTML docket 403 from this box; entries 89–99 outside the RSS window. Selftest not independently verified.
+WILL_NEEDS: Optional, his money: PACER for Plaza Docs 119/120 (PACER caps a document at $3) is the one purchase that would answer H7/H11 and show the sale timetable (WQ-547). None otherwise.
+FOLLOW-UP: Re-date L517 to the next observable (sale motion or order with a price, or the DS hearing); WAL consumes the §10 stub; VULCAN consumes the AMZN packets; PROME verifies L880 at cf9ed170b and decides on re-presenting WQ-551.FIRM.
+```
