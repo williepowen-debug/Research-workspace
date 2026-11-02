@@ -1,10 +1,17 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY tightened to 314bp [10/28] without REG-T-04 ever firing (peak 340); the widening was BANK-ABSENT and has partly reversed. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
+**Status:** Concentrated bank risk. HY re-widened to 326bp [10/29] from 314 [10/28] (REG-T-03 already FIRED; REG-T-04 never fired, peak 340); the October widening was BANK-ABSENT. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-10-31 09:38 ET, PROME-spawned L857 (FFIEC Q3 borrowing short list) | STATUS commit: a7d9d76ea
+**As of:** 2026-11-02 09:19 ET, Will-launched boot write-back | STATUS commit: 9d53749cb
 
 ## CROSS-DOMAIN
+
+**November1–2** (`reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/REPORT.md`; `reports/2026-11-02_boot/`):
+- **VLY Q3 (Call Report, bank level):** nonaccrual $462.6M → $511.4M = construction +$30.1M (one loan) + an $18.5M loan to a nondepository financial institution (BROCK lane, INFO packet sent 11/01); allowance −$9.8M, coverage 127.6% → 113.5%. The Q2 multifamily 30–89 cohort went mainly to modification, not cash (INFERRED). REG-30 (VLY nonaccrual ≥ $511.4M at Q4, 60%) OPEN.
+- **EGBN Q3:** multifamily nonaccrual +$46.6M (fits Prince George's $56.0M), allowance flat, coverage 88.5% → 67.2%. **HBAN:** MI3 +28.6% with loans +0.9% = STEP-CANDIDATE, read at 11/07.
+- **Broad or name-specific? (PROME 11/02, for TERRY's KRE-put question):** the 11/07 run counts banks with nonaccrual up AND allowance down 6/30 → 9/30, with the 3/31 → 6/30 count beside it. Not yet answered.
+- **Tape [settled 10/30]:** WAL $76.29 (REG-T-02 FIRED, exit 0-of-3), KRE $72.01 ($12 above $60). FLG ladder RED, $10.51. Claims 194K [w/e 10/24]. FHLB Q3 preliminary $798.4B; REG-T-06 grades 11/13 from the CFR.
+- **No score, threshold or probability change.**
 
 **October31 L857** (`reports/2026-10-31_L857/REPORT.md`):
 - **Who borrowed in Q3 (FFIEC Call Reports, 134 of the 139 banks holding 75% of Q2 small-bank borrowings):** the frozen small universe, excluding probable acquirers, **cut borrowing −$5.70B net while deposits rose +$39.20B**. Among these banks more borrowing was repaid than added (51 of 127 increased); the frozen concentration verdict is still ungraded. Santander absorbed Webster on 8/20, so its +$10.70B is mostly inherited (pro forma +$6.72B, deposits up).
