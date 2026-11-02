@@ -11,6 +11,10 @@
 > ⚠️ **This file has no length cap and needs none — it is cold. But it must never acquire an instruction.** If you find yourself writing "always do X" here, X belongs in `CLAUDE.md` or `TRADE.md`.
 
 
+## R-2026-11-01-WQ-543 — preamble text fixes (a)(b)(c) APPROVED, (d) DEFERRED (Will 2026-10-29 14:34 ET, PROME window, verbatim "approve")
+
+Received 2026-11-01 by packet (`inbox/processed/2026-10-29_from-PROME_WQ543-RULED-APPROVE-install-with-DST-reset.md`); record `PROME/proposals/2026-10-29_wq543-preamble-text-RULED.md`. WHY: the independent reader (`PROME/reports/2026-10-29_L526-AC-reader.md`) found four text gaps in the WQ-510 preamble, and WQ-510 had approved that text "as drafted", so any wording change needed Will's word. (a) step 2 tests "not on master" so a session branch cannot be fast-forwarded and committed off master with a healthy receipt; (b) an explicit STOP on a failed fetch, plus `head=<sha7>` on the receipt; (c) "the preamble never forces, resets or rebases" so the protocol's push-time rebase is not read as forbidden; (d) stale-venv pip re-run deferred (moot while containers arrive without a venv). The binding text lives in the four saved prompt images, `audits/2026-11-01_WQ543-preamble-install/after_*.txt`. Install state is recorded in `SCHEDULED_RUNS.md` § November 1 state (prepared, not live on 11/1: no RemoteTrigger tool in that session).
+
 ## R-2026-10-29-WQ-533 — four install side items (Will 13:33 ET 10/29, in this BRENT session, verbatim "ok then I approve your recs")
 
 Will's own word in a BRENT session, approving the recommendations BRENT gave him at 13:31 ET (PROME's WILL_QUEUE row 533 recommendations plus BRENT's two caveats). Record for PROME: `PROME/inbox/2026-10-29_from-BRENT_WQ533-ruled.md`.

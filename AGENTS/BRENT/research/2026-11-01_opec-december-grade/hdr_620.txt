@@ -1,0 +1,13 @@
+HTTP/2 200 
+date: Mon, 02 Nov 2026 02:14:49 GMT
+content-type: text/html; charset=UTF-8
+server: cloudflare
+x-frame-options: SAMEORIGIN
+vary: Content-Type,Accept-Encoding
+last-modified: Sun, 01 Nov 2026 12:03:18 GMT
+cf-cache-status: DYNAMIC
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+cf-ray: a53fa0be5f9196df-MIA
+alt-svc: h3=":443"; ma=86400
+

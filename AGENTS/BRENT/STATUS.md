@@ -1,5 +1,7 @@
 # BRENT STATUS
 
+**November 1 session (21:11–21:2x EST, PROME spawn), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; no level re-verified except below. **OPEC+ seven: OUTCOME (1) DECEMBER HELD** (third consecutive hold; Secretariat statement 11/1, table identical, 31,010 kb/d; EIA OPEC spare 0.02 mb/d through December at the 10/6 vintage) → [grade](research/2026-11-01_opec-december-grade/NOTE.md). **Russia diesel ban EXTENDED to 31.01.2027** (№1436, YURI primary); Novak's November plan 2.15 Mt is a plan, not loadings. Held-VLO December crack **$92.28 on October 30** [CME PRELIMINARY via WALTER; final owed] — above $90.16, below $95; TERRY grades. ⛔ **Routine crons NOT re-set for EST and WQ-543 text NOT installed** (no RemoteTrigger in this session) → [SCHEDULED_RUNS](SCHEDULED_RUNS.md).
+
 **October 29 session (13:27–13:5x ET), SCOPED-PARTIAL:** v5.13 / WAIT unchanged. **WQ-533 ruled by Will 13:33 ET** (resolver abandoned; sources 2/3 accepted with a near-line exception; `xlrd` pinned; connectors his hands) → [RULINGS](RULINGS.md). 🟠 **Held-VLO December crack traded below $90.16 intraday** (vendor 1-min low 88.6034 at 11:09 ET; 91.1424 at 13:34 ET) — NOT an observation; the 14:28–14:30 window reading is owed to TERRY. Vendor intraday [EST] about 13:44 ET: BZZ26 114.94, BZF27 110.83, BZZ27 88.16 (10/28 bar), CLZ26 102.18. Khasab fire = dhow MSV QUBA (FALCON), not a tanker; IRGC mine claim CLAIM-ONLY. NOT-FIRED trade ideas → [TRADE](TRADE.md). Fixes: GASREGW EIA fallback, EIA gasoline-label parse, five INCIDENTS rows re-verified (notes only).
 
 **Current judgment — October 28 closeout (23:42 ET onward), SCOPED-PARTIAL:** v5.13 / WAIT unchanged. Product tightness persists while refiners report no demand destruction (Valero Q3 margin $39.24/bbl; Phillips 66 $38.00/bbl, 98% utilization, US diesel demand about −1.5%) [CONF 8-K]. BRT-31 week three −0.6762%, NON-QUALIFYING, OPEN at 40%. No confirmed Saudi production or export loss: the October 27 Ras Tanura hit is a Houthi claim with no Saudi/Aramco statement. [Catch-up report](research/2026-10-28_catchup/REPORT.md).
@@ -89,11 +91,11 @@
 | **~Thu Oct 29** ⌁*modeled* | TOTALENERGIES Q3 2026 RESULTS — written SATORP restart confirmation | 🟡 |
 | **Fri Oct 30** | BZZ26 LAST TRADING DAY — boundary #8 (Brent 3:2:1) month switch: Dec legs BZZ26/RBZ26/HOZ26 → Jan BZF27/RBF27/HOF27 from the FIRST SESSION AFTER (Mon 11/2) | 🟡 |
 | **Fri Oct 30** | CFTC COT #12 — as-of October 27, release ~15:30 ET (COT-FUEL-35B) | 🟠 |
-| **Sat Oct 31** | RUSSIA PRODUCER DIESEL EXPORT BAN — extended expiry (successor to the 9/30 row) | 🟠 |
+| **Sat Oct 31** | ✅ RUSSIA PRODUCER DIESEL EXPORT BAN — GRADED 2026-11-01: EXTENDED to 31.01.2027 (producer exemption deleted) | 🟠 |
 | **Sun Nov 1** | IRAN PGSA 'LEGAL ACTION' VS ALL SINOKOR VESSELS — effective date | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Nov 1** | ROUTINE CRONS — DST RE-SET (EST begins): move all four BRENT routines +1h UTC | 🟠 |
-| **Sun Nov 1** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the December 2026 production decision (successor to the 10/4 row) | 🟠 |
+| **Sun Nov 1** | ✅ OPEC+ SEVEN-COUNTRY MONTHLY MEETING — GRADED 2026-11-01: OUTCOME (1) DECEMBER HELD (third consecutive hold) | 🟠 |
 | **Mon Nov 2** | YUR-005 — Russia Resolution 1252 producer restriction: extended, lapsed or replaced? | 🟠 |
 | **Tue Nov 3** | MPC Q3 2026 RESULTS — L689 conditional refiner candidate | 🟠 |
 | **~Tue Nov 3** ⌁*modeled* | ARAMCO Q3 2026 RESULTS and US MIDTERM ELECTION | 🟠 |
@@ -102,12 +104,13 @@
 | **Thu Nov 19** | WQ-386 HELD VLO — last authorized December leg-A observation | 🟠 |
 | **~Fri Nov 20** ⌁*modeled* | CHINA GAC OCTOBER PRODUCT EXPORTS — physical sizing of the October quota (successor to the 10/08 halt row) | 🟡 |
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
+| **Sun Nov 29** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the January 2027 production decision (successor to the 11/1 row) | 🟠 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 39 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 40 rows are modeled.*
 
-*39 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*40 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.

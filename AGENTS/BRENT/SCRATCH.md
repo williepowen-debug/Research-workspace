@@ -1,35 +1,35 @@
-# BRENT SCRATCH — October 29 closeout (session 2026-10-29 13:27–13:5x ET)
+# BRENT SCRATCH — November 1 closeout (PROME-spawned session 2026-11-01 21:11–21:2x EST)
 
 ## CHANGES SINCE LAST SESSION
-- Khasab fire (10/29 ~03:00Z) was a dhow, MSV QUBA, sunk, crew safe (FALCON, NAVAREA IX 417/26); IRGC "three tankers hit mines" claim remains CLAIM-ONLY. NAVCENT/JMIC 10/28 advisory: non-essential vessels stay clear of Hormuz (legal/military status, not throughput). Cape Dao resolved SUNK (FALCON census 6).
-- TTF November traded above €100 intraday 10/28 (settle unconfirmed; HANS owns T-07). AEOLUS: all ECMWF members forecast a polar-vortex reversal by 11/09; NOT observed.
-- December diesel crack (HOZ26×42−CLZ26, vendor one-minute) traded **88.6034 at 11:09 ET**, below $90.16; 91.1424 at 13:34 ET. Intraday is NOT an observation.
-- Brent curve [EST vendor 13:44 ET]: BZZ26 114.94, BZF27 110.83, BZH27 103.62, BZZ27 88.16 (10/28). BZ=F already points at BZF27.
+- OPEC+ seven met virtually 11/1: December required production held at September levels (third hold); next meeting 11/29 (statement id 620 at opec.org).
+- Russia №1436 (31.10): producer diesel exemption deleted, ban to 31.01.2027; intergovernmental/EAEU volumes continue. Novak's November diesel-export plan 2.15 Mt (TASS 10/30) vs 0.51 Mt October.
+- December diesel crack $92.28 on October 30 from CME PRELIMINARY settles (HOZ26 4.6761, CLZ26 104.12; WALTER relay). Novokuibyshevsk refinery fire 10/30 corroborated, output loss unknown.
+- Vendor Brent futures 111.03 (−2.12%) at 02:05Z Sunday-evening session [vendor quote, BZ=F = BZF27].
+- Boot rc=2: standing findings only (KILL-LEG2-JWC 11d stamp, TANKER-LIVENESS stale, 6 INCIDENTS rows past 60d, USO observations +9d, LESSONS_INDEX +20d).
 
 ## WHAT I DID THIS SESSION
-- Boot rc=2 (ledger staleness only: LESSONS_INDEX +20d expected; USO observations +9d). Mail: 12 items logged and filed (commit `a6a3fc7af`); moved = rows = 12.
-- **WQ-533 RULED by Will 13:33 ET ("ok then I approve your recs"):** (a) resolver ABANDONED; (b) sources 2/3 accepted, NOT MEASURABLE / ask Will for CME settle within about $1–2 of $90.16; (c) `xlrd==2.0.1` pinned; (d) connectors Will's hands. RULINGS R-2026-10-29-WQ-533; packet `PROME/inbox/2026-10-29_from-BRENT_WQ533-ruled.md`.
-- Fixes (Will-requested): `thresholds.py` GASREGW keyless EIA-workbook fallback (falsified: forced FRED failure → 4.269 graded, labelled; wrong column raises); `eia_weekly.py` gasoline label (eia_2026-10-28 now 209.18 / +3.87; without fix None); INCIDENTS RF-013/014/022/033/044 notes only ([report](research/2026-10-29_incidents-reverify/REPORT.md)); RF-013 Ufa downgrade candidate on Reuters 4/03, capacity re-key owed.
-- Trade ideas (Will asked): three NOT-FIRED ideas in TRADE § TRADE IDEAS and packet to TERRY.
+- **L609 GRADED: OUTCOME (1) DECEMBER HELD** on the Secretariat statement; fresh EIA COPS_OPEC 0.02 mb/d through December (10/6 vintage); second agency SEARCH-NOT-FOUND. Root/press-release pages are 403 Cloudflare; found the release by sequential id probe. [NOTE](research/2026-11-01_opec-december-grade/NOTE.md). Successor CATALYSTS row 2026-11-29.
+- **L526 / WQ-543: text PREPARED, NOT INSTALLED.** No RemoteTrigger tool in this spawn, so no live prompt update, no DST cron re-set and no validation run. Images + crons + steps: [REPORT](audits/2026-11-01_WQ543-preamble-install/REPORT.md). RULINGS R-2026-11-01-WQ-543.
+- CATALYSTS 10/31 Russia diesel row GRADED EXTENDED (YURI primary) with consequence read; DST row annotated NOT DONE.
+- Inbox drained: 9 top-level + 15 WALTER = 24 rows = 24 moved. TERRY packet: October 30 crack (CME preliminary).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **ASAP, before Wednesday November 4 (one-minute bars roll off about 7 days):** compute the **October 29** held-VLO leg-A observation: source (3) 14:28–14:30 ET one-minute VWAP HOZ26×42−CLZ26, and source (2) the finalized October 29 daily row (reject evening-session rows). Within ±$0.15 of $90.16 on (3) alone ⇒ UNKNOWN; per WQ-533 (b), ask Will for the CME settle. Publish to TERRY. Do the same for October 30.
-2. **Thursday October 29 18:15Z run:** read `demand_destruction/data/thursday_2026-10-29.md` (scheduled fire) for the `PREAMBLE:` line (AC4 quiet line or why not). PROME's independent reader follows.
-3. **TotalEnergies Q3 (~10/29):** SATORP written restart confirmation (RF-018); CATALYSTS row ungraded.
-4. **Friday October 30 after ~15:30 ET:** COT #12 `cot_grade.py --expect 2026-10-27`, then raw f_disagg.txt. BZZ26 last trade; resolve vendor expireDate 11/02 vs ICE 10/30.
-5. **Sunday November 1:** DST cron re-set all four routines (+1h UTC: `45 14 * * 1`, `0 16 * * 3`, `15 19 * * 4`, `15 21 * * 5`); Sinokor PGSA date; OPEC+ seven; Russia diesel ban (10/31).
-6. **Nov 2–6:** TD3C/TD34 freight after Sinokor; Aramco Q3 / midterms 11/3; MPC Q3 11/3; BRT-31 week four 11/4.
-7. **Housekeeping:** STATUS at 78% of read budget (rotate-tier) — rotate October 26–28 dated material next session; USO/observations.tsv +9d freeze-or-refresh; wire `routine prompts` to note the GASREGW EIA fallback only if a routine still reports env_doctor FAIL as a GASREGW gap.
+1. **BEFORE Monday 2026-11-02 13:45Z (08:45 EST) if possible, else first BRENT session with RemoteTrigger:** install the four WQ-543 images + EST crons (`45 14 * * 1`, `0 16 * * 3`, `15 19 * * 4`, `15 21 * * 5`), one validation run, save the receipt + run-log excerpt to the audit directory; packet PROME.
+2. **Before Wednesday 2026-11-04 (one-minute bars roll off):** October 29 held-VLO leg-A observation (source 3 window proxy / source 2 daily row); October 30 CME FINAL settle to replace the preliminary $92.28.
+3. **Nov 2–6:** TD3C/TD34 freight after the 11/1 Sinokor PGSA date (row ungraded); Aramco Q3 / midterms 11/3; MPC Q3 11/3; BRT-31 week four 11/4; COT #12 (as-of 10/27) grade if not done.
+4. **Tue 2026-11-10:** November STEO — COPS_OPEC re-pull for the 11/29 OPEC+ letter.
+5. Housekeeping: STATUS at ~81% of read budget — rotate October 26–28 dated material; USO/observations.tsv freeze-or-refresh; RF-013 Ufa capacity re-key.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Held-VLO December crack at the sell line: intraday breach 10/29; settlement observations 10/29 onward decide. TERRY grades; Will executes.
-- 🟠 No Saudi-relief grader registered (WQ-533 a); BG-02 R1/R4 intact; Aramco Q3 ~11/3.
-- 🟠 Current comparable Gulf volume UNRESOLVED; Sinokor 11/1.
-- 🟡 RF-013 Ufa capacity re-key (hub 500000 → Novoil) owed; FINRA USO short interest unretrieved.
+- 🔴 Routine crons fire one hour early in local time until re-set (Mon 08:45, Wed 10:00, Thu 13:15, Fri 15:15 EST).
+- 🔴 Held-VLO December crack near the sell line: $92.28 (10/30 prelim) vs $90.16; TERRY grades; Will executes.
+- 🟠 Russian diesel: legally shut for producers to 31.01.2027, but the November plan (2.15 Mt) runs via exempt channels; delivered volume = OSPREY flows.
+- 🟠 No Saudi-relief grader registered (WQ-533 a); Sinokor/TD3C 11/2–6.
+- 🟡 DAEDALUS receipt-placement tightening (plain text, line 1) = candidate wording, needs Will's word if wanted.
 
 ## POSITION DECISIONS PENDING
-- None from BRENT. Any SELL on the original VLO share is TERRY's recommendation on an accepted settlement observation, Will's execution. Trade ideas are NOT-FIRED, TERRY constructs; Will decides each. Expiries are Will's (USER.md); no reminders.
+- None from BRENT. Held-VLO sell recommendation is TERRY's on an accepted settlement observation; the order is Will's. No expiry reminders (USER.md).
 
 ## MAIL STATE
-- Inbox: 12 consumed, 12 ledger rows, 12 moved. **Two HANS packets arrived at closeout (TTF HANS-T-07 L3 fired 10/28 on vendor 100.72; addendum: official settle >100 NOT established) — logged DEFERRED, not moved (HANS had not committed them). Process first next session: BRENT is an action recipient on the gas leg.**
-- Outbound this session: PROME (WQ-533 ruled), TERRY (trade ideas). Outbox folder unchanged.
+- Inbox: clear (24 consumed, 24 ledger rows, 24 moved).
+- Outbound: TERRY (October 30 crack), PROME (11/1 delivery memo). Outbox folder unchanged.
