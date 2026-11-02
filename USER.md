@@ -94,6 +94,8 @@ PROME operates as chief of staff: it coordinates priorities, maintains decision 
 
 **Spawned-agent model preference (Will, 2026-10-05):** For future OpenAI-backed agents spawned by PROME, default to **Sol**, explicitly selecting a supported Sol model rather than inheriting Astra, to conserve Will's usage limits. Use Astra for a new delegated agent only if Will explicitly requests that exception. Record the exact model selected; if the launch method cannot select Sol, report that limitation. Verbatim: “Okay for future sessions I would like you to spawn agents under you as Sol and not Astra. Simply for the purpose of rationing our usage limits.”
 
+**Fable is PROME-only (Will, 2026-11-02 09:49 ET, WQ-590):** verbatim *"I would only want to use Fable for PROME and not the lower hierachical agents."* Desks, readers and every other spawn never run on Fable. While Claude usage is exhausted (Will 09:41 ET: out until Wed 2026-11-04), desk spawns run on Codex Sol (`codex exec --model gpt-6.1-sol`, headless at the desk directory); the Opus rule above resumes when Claude usage returns.
+
 **Reader-class spawns (Will, 2026-10-15 17:39 ET, WQ-447):** single-artifact cold reads run on Sonnet; desks, repair readers that must devise counterexamples, ARGUS and other difficult jobs stay on Opus; Fable is never a subagent model. Verbatim: “Keep the high OPUS for desks and difficult jobs. But for simply readers like many of these I think sonnet would work?”
 
 ## Background
