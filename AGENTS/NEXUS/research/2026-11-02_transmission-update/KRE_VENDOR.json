@@ -1,0 +1,67 @@
+{
+  "KRE": {
+    "name": "Regional Banks ETF",
+    "days": 10,
+    "history": [
+      {
+        "date": "2026-10-20",
+        "close": 70.62,
+        "volume": 17367500
+      },
+      {
+        "date": "2026-10-21",
+        "close": 70.62,
+        "volume": 15446400
+      },
+      {
+        "date": "2026-10-22",
+        "close": 72.41,
+        "volume": 18516300
+      },
+      {
+        "date": "2026-10-23",
+        "close": 72.46,
+        "volume": 16066000
+      },
+      {
+        "date": "2026-10-26",
+        "close": 72.73,
+        "volume": 13662200
+      },
+      {
+        "date": "2026-10-27",
+        "close": 72.58,
+        "volume": 12754000
+      },
+      {
+        "date": "2026-10-28",
+        "close": 72.11,
+        "volume": 12333500
+      },
+      {
+        "date": "2026-10-29",
+        "close": 72.86,
+        "volume": 9292900
+      },
+      {
+        "date": "2026-10-30",
+        "close": 72.01,
+        "volume": 17706700
+      },
+      {
+        "date": "2026-11-02",
+        "close": 72.92,
+        "volume": 1943036
+      }
+    ],
+    "high": 72.92,
+    "low": 70.62,
+    "start": 70.62,
+    "end": 72.92,
+    "null_bars": [],
+    "missing_sessions": [],
+    "holiday_gaps": [],
+    "complete": true,
+    "period_change_pct": 3.26
+  }
+}

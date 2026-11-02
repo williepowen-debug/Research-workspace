@@ -1,0 +1,253 @@
+{
+  "read_at": "2026-11-02T10:00:13-05:00",
+  "L16": {
+    "cells": [
+      {
+        "n": 1,
+        "date": "2026-10-20",
+        "HY": 333,
+        "CCC": 1327,
+        "up_run": 0,
+        "down_run": 0
+      },
+      {
+        "n": 2,
+        "date": "2026-10-21",
+        "HY": 327,
+        "CCC": 1307,
+        "up_run": 0,
+        "down_run": 0
+      },
+      {
+        "n": 3,
+        "date": "2026-10-22",
+        "HY": 340,
+        "CCC": 1340,
+        "up_run": 1,
+        "down_run": 0
+      },
+      {
+        "n": 4,
+        "date": "2026-10-23",
+        "HY": 338,
+        "CCC": 1356,
+        "up_run": 0,
+        "down_run": 0
+      },
+      {
+        "n": 5,
+        "date": "2026-10-26",
+        "HY": 330,
+        "CCC": 1345,
+        "up_run": 0,
+        "down_run": 0
+      },
+      {
+        "n": 6,
+        "date": "2026-10-27",
+        "HY": 318,
+        "CCC": 1321,
+        "up_run": 0,
+        "down_run": 1
+      },
+      {
+        "n": 7,
+        "date": "2026-10-28",
+        "HY": 314,
+        "CCC": 1307,
+        "up_run": 0,
+        "down_run": 2
+      },
+      {
+        "n": 8,
+        "date": "2026-10-29",
+        "HY": 326,
+        "CCC": 1325,
+        "up_run": 0,
+        "down_run": 0
+      }
+    ],
+    "n": 8,
+    "fire": null,
+    "UP_run": 0,
+    "DOWN_run": 0,
+    "latest_date": "2026-10-29",
+    "missing_postFriday": "10/30 and 10/31 unpublished in returned current data"
+  },
+  "L13": {
+    "cells": [
+      {
+        "n": 1,
+        "date": "2026-10-19",
+        "value": "2.8",
+        "up_run": 0,
+        "down_run": 0,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 2,
+        "date": "2026-10-20",
+        "value": "2.77",
+        "up_run": 0,
+        "down_run": 0,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 3,
+        "date": "2026-10-21",
+        "value": "2.76",
+        "up_run": 0,
+        "down_run": 0,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 4,
+        "date": "2026-10-22",
+        "value": "2.64",
+        "up_run": 0,
+        "down_run": 1,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 5,
+        "date": "2026-10-23",
+        "value": "2.66",
+        "up_run": 0,
+        "down_run": 0,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 6,
+        "date": "2026-10-26",
+        "value": "2.66",
+        "up_run": 0,
+        "down_run": 0,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 7,
+        "date": "2026-10-27",
+        "value": "2.64",
+        "up_run": 0,
+        "down_run": 1,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 8,
+        "date": "2026-10-28",
+        "value": "2.67",
+        "up_run": 0,
+        "down_run": 0,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 9,
+        "date": "2026-10-29",
+        "value": "2.63",
+        "up_run": 0,
+        "down_run": 1,
+        "basis": "FRED first-published"
+      },
+      {
+        "n": 10,
+        "date": "2026-10-30",
+        "value": "2.60",
+        "up_run": 0,
+        "down_run": 2,
+        "basis": "Treasury early copy"
+      }
+    ],
+    "n": 10,
+    "fire": null,
+    "UP_run": 0,
+    "DOWN_run": 2,
+    "Treasury_early_copy": {
+      "2026-10-30": "2.60"
+    },
+    "FRED_governs_on_difference": true
+  },
+  "M01": {
+    "HY_bp": 326,
+    "latest_ICSA": [
+      {
+        "week": "2026-10-24",
+        "first_print": "194000"
+      },
+      {
+        "week": "2026-10-17",
+        "first_print": "194000"
+      }
+    ],
+    "fire": null,
+    "window_end": "2026-11-05"
+  },
+  "M05": {
+    "last_two_settled_closes": [
+      {
+        "date": "2026-10-29",
+        "close": 72.86,
+        "volume": 9292900
+      },
+      {
+        "date": "2026-10-30",
+        "close": 72.01,
+        "volume": 17706700
+      }
+    ],
+    "ignored_current_session_bar": {
+      "date": "2026-11-02",
+      "close": 72.92,
+      "volume": 1943036
+    },
+    "fire": null,
+    "window_end": "2026-11-05"
+  },
+  "M07": {
+    "IG_bp": 89,
+    "fire": null,
+    "window_end": "2026-11-05"
+  },
+  "M04b": {
+    "last_cell": {
+      "date": "2026-10-30",
+      "value": "19.42",
+      "first_published": "2026-10-30"
+    },
+    "edges": [
+      16.45,
+      22.45
+    ],
+    "fire": null,
+    "window_end": "2026-11-20"
+  },
+  "M08b": {
+    "B": 332,
+    "CCC": 1325,
+    "fire": null,
+    "window_end": "2026-11-20"
+  },
+  "funding_context_not_owner_gate_grade": {
+    "NYFed": {
+      "effectiveDate": "2026-10-30",
+      "type": "SOFR",
+      "percentRate": 3.95,
+      "percentPercentile1": 3.88,
+      "percentPercentile25": 3.93,
+      "percentPercentile75": 4.01,
+      "percentPercentile99": 4.03,
+      "volumeInBillions": 3175,
+      "revisionIndicator": ""
+    },
+    "IORB": "3.9",
+    "SOFR_minus_IORB_bp": "5.00",
+    "SOFR99_minus_IORB_bp": "13.00",
+    "calendar_excluded_through": "2026-11-03",
+    "unmeasured": "private/offshore funding, haircuts/collateral calls"
+  },
+  "FP_vs_latest_revised_differences": {
+    "BAMLH0A0HYM2": [],
+    "BAMLH0A3HYC": [],
+    "DFII10": []
+  },
+  "split": "20/47/33 unchanged; historical judgments, not calibrated probabilities"
+}

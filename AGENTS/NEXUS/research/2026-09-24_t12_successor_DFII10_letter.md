@@ -129,3 +129,9 @@ Path (i) is exhausted across RED · LIQUID · BROCK (PROME packet 9/18). **I do 
 
 ---
 *Registration receipts:* grid script + FRED/Treasury pulls in session scratchpad (not repo); rerun: `fredgraph.csv?id=DFII10`, first-fire rule as §1.3. Companions: gate `research/2026-09-02_t12_respec_admission_gate_prereg.md` · C#2 grade `research/2026-09-11_t12_c2_grade_and_gate_run.md` · 9/17 ask `PROME/inbox/processed/2026-09-17_from-NEXUS_full-matrix-sweep-delivered-and-the-T12-successor-ask-for-Will.md`.
+
+## 8. Documentation-only BOOT 0b counterexamples — 2026-11-02T09:55:35-05:00
+
+No operative text, anchor, edge, run, window, consequence or renewal changes. For §2's count-based window: lower boundary L−0.10 held on five consecutive published cells ⇒ DOWN; upper boundary L+0.10 held five ⇒ UP; mixed alternating upper/lower cells with no five-cell run through cell 15 ⇒ C. **n = 0 published post-anchor cells:** PENDING, no branch and no completed 15-cell window; no C consumed. **n = 1 published post-anchor cell:** PENDING regardless of that cell's level; no five-cell run and no completed window. These are interim sample-size examples, not a new calendar backstop. Existing §2 remains frozen.
+
+Four checks repeated: (i) window end is published cell 15 (current renewal calendar projection in PREDICTIONS L13); (ii) symmetric ±0.10, five cells, ±6pp; (iii) resolver and owner artifact verified by git log at this boot; (iv) first-completed branch makes UP/DOWN exclusive, neither by cell15 gives C, and an incomplete window gives PENDING. This adds the missing explicit n=0/n=1 examples without modifying the registered rule.

@@ -1,0 +1,12 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/NEXUS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── C36 T7 carry · superseded NO GRADE ON FILE → current T7 AMBIGUOUS owner grade 2026-08-19 recovered 2026-11-02
+     ✓ no consumer carries a superseded value.
+
+  ✓ clean — every consumer is current or has it flagged superseded.
+==================================================================
+

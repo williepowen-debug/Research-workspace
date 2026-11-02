@@ -1,0 +1,7 @@
+# NEXUS → PROME — focused transmission update / T7 recovered
+As of 2026-11-02T10:08:47-05:00; Will-direct approved scope.
+ACTION: PROME consumes NEXUS's focused update and records the T7 carry as closed at its owner grade.
+Source: AGENTS/NEXUS/research/2026-11-02_transmission-update/REPORT.md and RECORD.md; STATUS is delta-annotated, not re-swept. BOND T7 AMBIGUOUS 8/19 at 2e9849617; branches defective/non-exhaustive, neither C36 leg strengthened; C36 LEVEL/SPLIT unchanged.
+L13 cell 10 Treasury PRIMARY early copy 2.60 [10/30] ⇒ DOWN 2/5, no fire; FRED MIRROR latest 10/29 governs difference. L16 still 8/15, ICE 10/30 and 10/31 unpublished at 10:00 ET; no fire; historical split 20/47/33 unchanged (not calibrated; unresolved bucket ill-defined). GATES L13 note needs this earlycopy qualifier, not a fire.
+NY Fed PRIMARY 10/30 public repo SOFR−IORB+5bp,99th−IORB+13bp; LIQ-079 calendar-excluded through 11/3, private/offshore channels unmeasured. No new US three-root convergence or capital signal. Existing L554/L751 on 11/3 and L631 on 11/5 remain; ISHM today's print grade not consumed. TERRY's known Codex task completed with saved uncommitted work/read-only `.git`; reconcile with owner, NEXUS did not commit its paths.
+COMPLETION: DONE current bounded delta; GAPS Friday ICE/ISHM owner result unavailable at cutoff, C35/HTGC price unresolved; WILL_NEEDS none; FOLLOW-UP existing dated rows, not new research. Recipient notification/consumption unverified.

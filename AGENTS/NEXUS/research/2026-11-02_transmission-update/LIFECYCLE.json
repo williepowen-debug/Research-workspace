@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-11-02T10:16:28-05:00",
+  "digest_helpers": [
+    {
+      "task": "/root/credit_digest",
+      "model_selected": "gpt-6.1-sol",
+      "closed_receipt": "explicit CLOSED in final task output",
+      "native_session_id": "UNKNOWN"
+    },
+    {
+      "task": "/root/energy_digest",
+      "model_selected": "gpt-6.1-sol",
+      "closed_receipt": "explicit CLOSED in final task output",
+      "native_session_id": "UNKNOWN"
+    },
+    {
+      "task": "/root/markets_digest",
+      "model_selected": "gpt-6.1-sol",
+      "closed_receipt": "explicit CLOSED in final task output",
+      "native_session_id": "UNKNOWN"
+    }
+  ],
+  "review_helper": {
+    "task": "/root/coldreader",
+    "model_selected": "gpt-6.1-sol",
+    "closed_receipt": "explicit CLOSED in final task output",
+    "artifact": "COLDREAD.md",
+    "native_session_id": "UNKNOWN"
+  },
+  "parent_task_id": "01a19cb3-5eab-7cf3-b8ac-b7aa99f59f98",
+  "scope": "read-only helpers, no domain owner launched",
+  "PROME_registration": "PROME owns ORCH_LOG; local helper inventory supplied in durable delivery record; not edited by NEXUS"
+}

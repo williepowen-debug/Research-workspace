@@ -1,0 +1,11 @@
+READ-CAP [NEXUS] — cap 54,250 B · budget 32,550 B (60%) · ALL % BELOW ARE OF BUDGET (the number every verdict grades; ≥100% = over) · perimeter: DECLARED in PROME/registry/READS.tsv — 80 cap-bearing (whole/programmatic) measured, 17 declared-not-counted (scoped/grep/summary), 37 manifest row(s) for this desk; 74 of the measured are MEMBERS of 5 cap-bearing CLASS row(s), each measured per member (rule 16); ATTESTED by the desk itself
+  ✅ AGENTS/NEXUS/STATUS.md               22,380 B    69% of budget    (whole · NEXUS:15a)
+  ✅ AGENTS/NEXUS/LAST_COMPLETION.md      22,079 B    68% of budget    (whole · NEXUS:15a)
+  ✅ AGENTS/NEXUS/PREDICTIONS_MONITOR.md   22,071 B    68% of budget    (whole · NEXUS:15a)
+  ✅ AGENTS/NEXUS/brief_fallback_log.tsv   21,205 B    65% of budget    (whole · NEXUS:9a)
+  ✅ AGENTS/NEXUS/BRIEFS_MAP.md           20,030 B    62% of budget    (whole · NEXUS:15a)
+  ✅ AGENTS/NEXUS/CONFIRMED.md            12,542 B    39% of budget    (whole · NEXUS:15a)
+  ▣ AGENTS/NEXUS/analysis/*.md                   declared `whole` · CLASS row — cap-bearing PER MEMBER (rule 16 ruling 2026-09-24): 1 member(s) measured, 0 over budget, 0 over the CAP, largest 21,537 B (66% of budget)  (NEXUS:15a)
+  ◦ AGENTS/NEXUS/board_log.tsv         86,501 B  declared `grep` — not cap-bearing, not counted  (NEXUS:7)
+  ℹ️  charter AGENTS/NEXUS/CLAUDE.md = 32,408 B — OUT OF PERIMETER by rule 20 unless declared; injection UNCONFIRMED; explicit-read runtime coverage NOT assessed; composite-injection context cost not graded here
+READ-CAP-RESULT v1 mode=agent rc=0 assessed=1 desk=NEXUS reads=80 over_budget=0 over_cap=0 manifest_defects=0 advisories=2 generated_flagged=0 rotation_due=10 active_decisions_over_budget=0 charter_mode=unspecified charter_reads=0 owner_notices=0 owner_notices_over_budget=0 charter_bytes=32408

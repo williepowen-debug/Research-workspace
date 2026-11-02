@@ -1,0 +1,50 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 247 files under AGENTS/NEXUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── L13 current renewal run · superseded DOWN run 1 of 5 → current DOWN run 2 of 5; Treasury early copy
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (19)
+        AGENTS/NEXUS/LAST_COMPLETION.md:17  [DOWN run 1 of 5]
+           **Result:** M-03 premium mechanism **TRUE-in-spirit** at the NY Fed ACM primary (TP −24.6bp vs DGS10 −22bp, 10/8→10/23; number stays withdra
+        AGENTS/NEXUS/LAST_COMPLETION.md:40  [DOWN run 1 of 5]
+           **Result:** L16 cells 5–6 HY 330/**318** ⇒ DOWN run 1 of 3 (CCC 1321 vs guard 1310); L13 cells 6–7 2.66/**2.64** ⇒ DOWN run 1 of 5; M-01/04b
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:372  [DOWN run 1 of 5]
+           | **L13** | 🔒 **T-12 successor — `DFII10` banded letter (WQ-261, Will 9/24).** Anchor **L = 2.85 [9/24, FRED]** ⇒ **UP ≥2.95 ×5 consecutive 
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:390  [DOWN run 1 of 5]
+           **Late Tuesday wake 2026-10-28T21:03:27-04:00 (FRED pull; DOCKET L554/L751/L555 owed 10/27, run 10/28 with the FOMC live-event read):** L16 
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:393  [DOWN run 1 of 5]
+           **Historical full resolution pass: 2026-10-23T21:37:01-04:00 FULL pass** (Will-direct boot; 3 Opus digest readers, 28 briefs; FRED pulled 21
+        AGENTS/NEXUS/PREDICTIONS_MONITOR.md:4  [DOWN run 1 of 5]
+           **Owed-work pass 2026-10-31T12:11:53-04:00 (Will-direct; FRED first-published pull 12:08 ET):** **M-03 premium mechanism TRUE-in-spirit** (N
+        AGENTS/NEXUS/STATUS_COLD.md:1765  [DOWN run 1 of 5]
+           > **L13 (`DFII10`, window 2, L₂ = 2.74 [10/16]; UP ≥2.84 ×5 ⇒ Break +6pp · DOWN ≤2.64 ×5 ⇒ Break −6pp):** cells 1–4 = 2.80 · 2.77 · 2.76 · *
+        AGENTS/NEXUS/STATUS_COLD.md:1940  [DOWN run 1 of 5]
+           **Owed-work pass — 2026-10-31T12:10:40-04:00 (Will-direct; HEAVY: rule-5 rotation first; delta-annotated, not re-swept).** M-03 premium mech
+        AGENTS/NEXUS/STATUS_COLD.md:1947  [DOWN run 1 of 5]
+           > **L13:** DFII10 renewal anchor 2.74 [10/16]; UP ≥2.84 ×5 / DOWN ≤2.64 ×5, ±6pp. Cells 1–9 = 2.80/2.77/2.76/2.64/2.66/2.66/2.64/2.67/**2.63
+        AGENTS/NEXUS/research/2026-10-23_full_pass/COLDREAD_STATUS.md:9  [DOWN run 1 of 5]
+           3. L6 L13 "DOWN run 1 of 5 (inclusive edge)", "cells 1–4 = 2.80 · 2.77 · 2.76 · 2.64 [10/19–22, FRED first-published]", "Earliest DOWN fire 
+        AGENTS/NEXUS/research/2026-10-23_full_pass/RECORD.md:27  [DOWN run 1 of 5]
+           | **L13** `GATE-NEXUS-T12S-DFII10` window 2 (L₂ 2.74; UP ≥2.84 ×5 / DOWN ≤2.64 ×5) | cell 4 = 2.64 [10/22] | **DOWN run 1 of 5** (inclusive 
+        AGENTS/NEXUS/research/2026-10-26_boot/RESIDUE_CHECK.tsv:2  [DOWN run 1 of 5]
+           AGENTS/NEXUS/STATUS_COLD.md	1765	RETAINED-HISTORY	> **L13 (`DFII10`, window 2, L₂ = 2.74 [10/16]; UP ≥2.84 ×5 ⇒ Break +6pp · DOWN ≤2.64 ×5 ⇒
+        AGENTS/NEXUS/research/2026-10-26_boot/RESIDUE_CHECK.tsv:10  [DOWN run 1 of 5]
+           AGENTS/NEXUS/PREDICTIONS_MONITOR.md	5	RETAINED-HISTORY	**Historical full resolution pass: 2026-10-23T21:37:01-04:00 FULL pass** (Will-direct
+        AGENTS/NEXUS/research/2026-10-26_boot/RESIDUE_CHECK.tsv:11  [DOWN run 1 of 5]
+           AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-10-24.md	101	RETAINED-HISTORY	- **Letters (FRED pulled 21:20 ET; 10/23 cells unpublished):** 
+        AGENTS/NEXUS/research/2026-10-26_boot/RESIDUE_CHECK.tsv:16  [DOWN run 1 of 5]
+           AGENTS/NEXUS/research/2026-10-23_full_pass/RECORD.md	27	RETAINED-HISTORY	| **L13** `GATE-NEXUS-T12S-DFII10` window 2 (L₂ 2.74; UP ≥2.84 ×5 /
+        AGENTS/NEXUS/research/2026-10-26_boot/RESIDUE_CHECK.tsv:18  [DOWN run 1 of 5]
+           AGENTS/NEXUS/research/2026-10-23_full_pass/COLDREAD_STATUS.md	9	RETAINED-HISTORY	"3. L6 L13 ""DOWN run 1 of 5 (inclusive edge)"", ""cells 1–
+        AGENTS/NEXUS/research/2026-10-28_wake/RECORD.md:33  [DOWN run 1 of 5]
+           | **L13** DFII10 (L₂ 2.74) | cell 6 = 2.66; **cell 7 = 2.64** (inclusive DOWN edge) | DOWN run 1 of 5, UP 0. | Earliest fire cell 11 (obs 11
+        AGENTS/NEXUS/research/2026-10-31_full_pass/RECORD.md:23  [DOWN run 1 of 5]
+           M-01 / M-05 / M-07 neither (to 11/5) · M-04b neither (VIX close 19.42 is not a FRED cell yet; UP edge 22.45) · M-08b neither · L13 DOWN run 
+        AGENTS/NEXUS/research/2026-10-31_owed/RECORD.md:40  [DOWN run 1 of 5]
+           FRED first-published pull 2026-10-31T12:08:43-04:00 (`fred/`): latest cells obs 10/29 (ICE, VIXCLS), 10/29 (DFII10/DGS10, published 10/30). 
+
+  🔴 19 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

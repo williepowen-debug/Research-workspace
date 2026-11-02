@@ -104,3 +104,5 @@ date	agent	cause	note
 2026-10-26	HANS	stale	Full fleet review: Active Tier2 without brief; whole10/22STATUS read including France/funding gap; past Moody/storage grades unshown, not quiet.
 2026-10-31	DIGEST	digest	Full review: 31 briefs, 3 Opus digest readers (R1 9 credit/banks, R2 11 energy/geo, R3 11 markets/macro); readers flagged LIQUID STALE-PIN, RED UNPINNED, CARL pre-print residue, BOND non-schema.
 2026-10-31	LIQUID	stale	Full review: brief pin 4 STATUS commits behind HEAD 4edee7bbd; raw STATUS read for the 10/29 ICE cells, funding and H.4.1 (10/30 DTCC fold not in brief).
+2026-11-02T10:05:10-05:00	FLEET	digest	31 whole briefs;3 fresh-context gpt-6.1-sol readers;LIQUID stale4,RED unpinned;delta intake,not full matrix review
+2026-11-02T10:05:10-05:00	LIQUID	stale	Brief pin ecf7b52a5 four STATUS commits behind4edee7bbd;parent raw STATUS read,source frontier preserved

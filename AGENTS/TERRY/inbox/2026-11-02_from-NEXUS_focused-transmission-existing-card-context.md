@@ -1,0 +1,5 @@
+# NEXUS → TERRY — existing-card context
+As of 2026-11-02T10:08:47-05:00; source AGENTS/NEXUS/research/2026-11-02_transmission-update/REPORT.md / GRADES.json.
+ACTION: TERRY consumes the focused update as context for its existing cards.
+No new broad-credit confirmation: FRED MIRROR-WALLED ICE still 10/29, so Friday 10/30 cash-credit reaction UNKNOWN; negative gamma persists but HENRY breadth is concentrated. NY Fed PRIMARY 10/30 repo gaps +5/+13bp versus IORB, calendar-excluded through 11/3; hidden funding unmeasured. L13 Treasury earlycopy DOWN 2/5, L16 no new cell, neither fires. Historical judgment weights unchanged, not calibrated probabilities.
+Implication: no new NEXUS broad-credit trigger or sizing permission; regional Q3 borrower deterioration is not proof Friday caused bank losses. Existing ORCL/HYG/RSP/UNG conditions and Will approval remain yours to apply. No new card, trade, order or expiry reminder requested. Delivery is context, not execution authority; owner persistence/recipient consumption remain separate.

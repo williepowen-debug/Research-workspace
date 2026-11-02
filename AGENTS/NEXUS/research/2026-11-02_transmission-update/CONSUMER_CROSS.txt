@@ -1,0 +1,23 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/NEXUS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── L13 current renewal run · superseded DOWN run 1 of 5 → current DOWN run 2 of 5; Treasury early copy
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (4)
+        AGENTS/WALTER/research/2026-10-26_startup-recovery/owner-context-4.txt:8  [DOWN run 1 of 5]
+           > **L13 (`DFII10` window 2; L₂ 2.74 [10/16]; UP ≥2.84 ×5 ⇒ Break +6pp · DOWN ≤2.64 ×5 ⇒ Break −6pp):** cells 1–4 = 2.80 · 2.77 · 2.76 · **2.
+        AGENTS/WALTER/research/2026-10-26_boot/owner-context-3.txt:8  [DOWN run 1 of 5]
+           > **L13 (`DFII10` window 2; L₂ 2.74 [10/16]; UP ≥2.84 ×5 ⇒ Break +6pp · DOWN ≤2.64 ×5 ⇒ Break −6pp):** cells 1–4 = 2.80 · 2.77 · 2.76 · **2.
+        AGENTS/WALTER/research/2026-10-25_boot/owner-headers.txt:997  [DOWN run 1 of 5]
+           > **L13 (`DFII10` window 2; L₂ 2.74 [10/16]; UP ≥2.84 ×5 ⇒ Break +6pp · DOWN ≤2.64 ×5 ⇒ Break −6pp):** cells 1–4 = 2.80 · 2.77 · 2.76 · **2.
+        PROME/GATES.tsv:19  [DOWN run 1 of 5]
+           GATE-NEXUS-T12S-DFII10	2026-09-24 (WQ-261 RULED, Will 14:59 ET verbatim "Approve WQ-282, 254, 261, 260 and 276 with your recs" — rec ①, enco
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        PROME/DOCKET.tsv:554  [DOWN run 1 of 5]  (dated TSV row (2026-11-03) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-11-03	NEXUS WEEKLY WAKE (TUESDAY) — WQ-343 RULED APPROVE (Will 2026-09-29 17:16 ET, verbatim "Approve WQ-343"): a dated weekly Tuesday 
+
+  🔴 4 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

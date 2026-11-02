@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-11-02T10:16:28-05:00",
+  "tools": "Codex native list_threads, read_thread, send_message_to_thread discovered and schemas read",
+  "list_result": "40 rows, truncated=true, cross-runtime completeness UNKNOWN",
+  "known_TERRY_direct_read": {
+    "id": "01a19cb9-4449-7d41-8353-91a863167cec",
+    "status": "notLoaded/completed",
+    "scope": "TERRY",
+    "later_artifact": "bb7f86b9b and memo amendment resolve original Git blocker"
+  },
+  "known_WALTER_direct_read": {
+    "id": "01a19cb3-5888-7f53-81d5-e6d97faa17b9",
+    "status": "idle",
+    "cwd": "/home/willi/Research-workspace/AGENTS/WALTER",
+    "identity": "explicit WALTER startup task and matching owner cwd; live existing owner, no duplicate"
+  },
+  "PROME": "UNKNOWN; no verified live identity/channel; generic idle01a19c84 resolved to CATO",
+  "BRENT": "UNKNOWN; historical notLoaded task does not prove absence",
+  "rule6": "durable packets; only verified WALTER pair can receive native doorbell after commit",
+  "rule6b": "not taken; absence not established"
+}

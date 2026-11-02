@@ -1,0 +1,30 @@
+# Independent cold read — 2026-11-02
+
+Reviewer: coldreader; selected model gpt-6.1-sol, OpenAI/Codex thread-local helper. Repository /home/willi/Research-workspace; launch cwd AGENTS/NEXUS. Explicitly read root CLAUDE.md, local CLAUDE.md, COMPLETION_SPEC and relevant Runtime mechanics. Minimal blind-review exemption applies. Exposed tools support local read/calculation, artifact write and parent notification. No network, source fetch, owner edits or Git mutation performed. Only this artifact written.
+
+## Verdict
+
+No material semantic, arithmetic, premature-grade or capital-authority defect found in the focused delta. One concrete presentation defect should be repaired before publication. This is a bounded cold read, not a source-freshness certificate or endorsement of the underlying forecast design.
+
+## Finding
+
+**F1 — Low severity; new prose still glues words and numbers.** Root Output Canon explicitly requires normal spaced words and numbers. REPORT.md's public-funding bullet contains `and99th`, `of5` and `13basis points`. New RECORD.md contains examples such as `October30`, `NYFed`, `first-published25-cell`; SELF_LETTER_AUDIT.md has `same-direction30day`, `Treasury10YR earlycopy`, `finalbackstop2027-02-28`; NOV5_PREP.md has `and10/24`, `evolving11/2`, `net0`, `pulled11/2`. The newly appended WQ342 log note also contains `ICE10/30and10/31` and `no new first-read cell,count or run`. These are newly authored text, not protected quoted source text. Repair spacing across this pass's prose; preserve series IDs, machine tokens and exact quotes. This does not change the economic conclusion or any branch result.
+
+## Checks and conclusions
+
+- Reviewed current NEXUS tracked diff, STATUS.md, PREDICTIONS_MONITOR.md, CONFIRMED.md C-36, REPORT.md, RECORD.md, GRADES.json, NOV5_PREP.md, SELF_LETTER_AUDIT.md, frozen-section receipt, operative L13 §2/§8, and L16 frozen rule. Also read the original Disc-J common construction and November 5 letters. Foreign dirty paths were excluded from review and untouched.
+- Independently matched all nine L13 FRED window values in GRADES.json to saved first-published rows. Saved Treasury real.csv explicitly labels the 10 YR column and contains 2.60 for October 30. Thus cell 10 is a permitted early copy, lower edge 2.64 is inclusive, and DOWN run 2/5 is correct after cell 8 reset it. No fire. Earliest possible completion remains cell 13; neither publication forecasts nor future cells are treated as actual observations.
+- Independently extracted L13 §2 from HEAD and worktree. Bytes match and SHA-256 is ea1e5044694f97dbb084d412914d53788538995232f515f48c3b2ac355d387ec, matching L13_FROZEN_SECTION_CHECK.json. Added §8 correctly describes n=0/n=1 as interim pending states, not a consumed C or new deadline. Existing FRED-governs-on-difference and grade timing survive.
+- Independently matched all eight L16 HY/CCC cells to saved raw rows. Checked all five saved ICE series against each previous date: every reported post-anchor date qualifies as a noncarry. HY 340 produces one UP cell; HY 318/314 produces two DOWN cells; HY 326 breaks that run. Final runs 0, n=8, no fire. No Friday or month-end cell invented. The conditional month-end calendar is a projection, not a certified count. Backstop and CCC guard are retained; same-direction L13/L16 count-once rule survives.
+- November 5 index retains M-01's claims condition and alternate weekly-claims branch, M-05's inverted stress direction and exact cents, and M-07's inverted counterevidence direction. Cutoffs apply to observation/print dates; final publication is required before closure. No-data treatment remains unverified, not earned neither. No premature renewal or numerical re-mark appears.
+- BOND's actual August 19 T7 artifact §① explicitly grades AMBIGUOUS, explains failure of CONFIRM and DENY and the non-exhaustive branch set, and says neither C-36 leg strengthens. The correction imports that narrow result correctly; no inference that it resolves attribution or moves LEVEL/SPLIT. The old August/October history in C-36 remains chronological history, not a fresh present-day judgment. The later SPLIT ruling governs.
+- Saved NY Fed figures and reported subtraction support +5/+13 bp. The statement is limited to measured public funding; private/offshore funding and collateral calls stay unmeasured. REGINALD's L857 report supports the selected 127-bank panel's −$5.70B borrowing / +$39.20B deposits and its acquirer/coverage exclusions. Quarterly panel evidence is explicitly denied Friday-shock causality and full-system scope. HENRY's breadth method notes disclose current-member survivorship and approximate cap-weight contributions; the NEXUS synthesis attributes the result to its owner rather than claiming independent flow measurement.
+- PRED-38 and PRED-45 remain incomplete searches, not exhaustive absence claims. Unpriced HTGC sale remains unqualified. No future grade, new trade proposal, sizing permission or execution authority appears. Historical weights retain their calibration and unresolved-bucket caveats.
+
+## Historical/current distinction and limits
+
+STATUS retains dated October 31 matrix/proximity observations, including L13 run 1 in the older proximity row; the new header explicitly identifies unrefreshed rows as October 31 synthesis vintage, while both current split line and delta carry 2/5. I do not treat those labeled snapshots as a new incorrect current grade. Frozen L16's original NOT ARMED/anchor-pending registration snapshot similarly does not supersede the live ledger and monitor.
+
+The review did not re-fetch primary sources, redo the bank census, validate every owner calculation, or independently certify the helper read counts/lifecycle claims, routing consumption or future publication dates. Missing post-Friday cash credit, C35 control disposition, HTGC price and manufacturing-owner result remain genuine stated limits. No charter/schema redesign proposed.
+
+**CLOSED.** Review complete; owner applies/disposes F1 and persists this artifact. No commit or push performed by reviewer.
