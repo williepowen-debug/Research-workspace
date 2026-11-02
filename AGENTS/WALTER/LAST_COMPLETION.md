@@ -1,20 +1,22 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-02T13:14:07Z. Session CLOSED on Will request; Codex/OpenAI. FULL continuity closeout.
+Updated 2026-11-02T14:22:06Z. Boot PARTIAL, then CLOSED on Will request (model switch); Claude Code, claude-opus-5-5. FULL closeout, no routing.
 
 ## STATUS
 
-CLOSED on Will request. Research saved and published; next launch reads the carries below. Boot remains PARTIAL on preserved source, owner-evidence and global-visibility limits. Prior cleanup/outbox publication and earlier registrar follow-through are verified complete. Burst-window retirement and central READ-row transcription are complete. Prior design-backlog payload and receipt are origin-proven. Approved verdict F1/F2 amendment implemented; its publication has its own receipt below. The implemented WALTER cleanup is validated; no blanket market clearance or new threshold fire/exit.
+CLOSED on Will request for a model switch after a status-only boot. Boot PARTIAL: read phase and checks complete; no dispatch, kill, intake mark, inbox move or push. Prior closeout b6696042f now origin-proven. Earlier carries below retained unchanged unless named.
 
 ## CHANGED
 
-Verified prior publication, delivery and FLG/REGINALD owner consumption. Recorded completed first reviews and the remaining 10-Q/November 7 work. Corrected a $1K VLY prose typo against unchanged primary arithmetic. Prior CHANGED/RESULT and MEMORY session narrative preserved verbatim in SESSION_LOG.
+November 2 boot: threshold pull (research/2026-11-02_boot/observations.json, BOOT-RECEIPT.md); eight REGISTRY rows refreshed from owner headers; STATUS/LAST_COMPLETION/MEMORY updated. Prior CHANGED/RESULT preserved verbatim in SESSION_LOG.
 
 ## RESULT
 
-Research payload 34806ae91 and receipt 98e1e5a0e are origin-proven; all 90 October 31 handoffs delivered. FLG and REGINALD consumed card 026 and returned owner reports. This closeout adds no signals or market observations. Prior boot remains PARTIAL. Evidence: research/2026-11-02_session-closeout/REVIEW.md.
+No new fire or exit in completed scope. Oil fell ~5.8% on matched January contracts by 09:04 ET (vendor intraday). 16 NEW Research-Intake onsets and one HENRY packet remain undispositioned by Will's scope. DEWEY Plaza Continental stubs verified delivered (8fc25cea8); handoff file not yet moved. Evidence: research/2026-11-02_boot/BOOT-RECEIPT.md.
 
 ## GAPS
+
+- November 2 boot gaps: git pull deferred (foreign dirty FALCON watch-state files); FRED HY October 30 unpublished at pull; HANS daily rate pages and CREED census not re-pulled; X bookmark token refresh failed (needs Will's --authorize); intake NEW onsets not routed or marked.
 
 - This boot source/context limits: HANS rate pages not repulled, CREED qualitative/cohort census not rebuilt, byte-identical owner leads reused; original mortgage recording/Lunar video/Vegas clip incompletely read. Scoped findings and reopen conditions in research/2026-10-31_night-boot/REVIEW.md. Local charter rotation warning retained; no instruction semantics changed.
 
@@ -32,6 +34,8 @@ Research payload 34806ae91 and receipt 98e1e5a0e are origin-proven; all 90 Octob
 
 ## WILL_NEEDS
 
+Routing of the November 2 intake batch awaits Will's go (operator scope, not a WQ decision). Will's framing for the Iran item, November 2 09:18 ET: oil drop looks like rumors/statements of de-escalation, which has happened and failed before. If routed: unconfirmed de-escalation report, prior rounds failed, real-change tests = dated official framework or US accept/reject (ladder 5) and transit recovery (ladder 6). X bookmarks need `x_bookmarks_scan.py --authorize` in Will's browser.
+
 No new decision needed for this requested analysis or prior boot. Systems bookmarks are evidence/options only; no automatic build approval inferred.
 
 F1/F2 decision approved and implemented. No further approval needed for this amendment. Remaining proposals, dependencies and optional ideas are listed under OPEN DESIGN DECISIONS; no new blanket build approval requested.
@@ -42,6 +46,7 @@ No new decision required for the completed oil-rig reconciliation. Registrar tra
 
 ## FOLLOW-UP
 
+0. Next launch FIRST: (a) intake 16 NEW onsets (data/2026-11-01/news.json) — Iran 48-hour Hormuz plan (BRENT/FALCON/HENRY, Iran pre-dispatch guard, Will's framing above); Russia diesel export ban to January (BRENT/OSPREY); ConnectWise and Jack Henry breaches (CYPHER); Russia refinery drone item (HENRY/OSPREY); COMEX silver (MIDAS); date-check kills: Georgia bank failure ALERT dated May 1, Sheskharis halt dated August 14; then `intake_scan.py --mark`. (b) inbox HENRY 2026-11-02 pre-open gamma packet (route PROME; info TERRY, VIOLET; predecessor pattern SIG-W-20261031-002). (c) git mv inbox/DEWEY/2026-11-02_from-DEWEY_plaza-continental-docket-read_handoff.md to processed (stubs verified). (d) re-check oil and Iran state before routing; the observations above will be stale.
 Current research: FLG/REGINALD first reviews COMPLETE and consumed. FLG retains M3 category allocation for T-02 at the 10-Q; REGINALD retains VLY/EGBN filing questions and HBAN cause uncertainty. November 7 existing pass includes Friedberg measures and PROME’s added reserve/modification breadth comparison. CORAL consumption not established here. No duplicate commission, new monitor or trade.
 
 1. Prior attestation/L845 and publication repair CLOSED. Cleanup registrar packet: PROME/inbox/2026-10-31_from-WALTER_process-cleanup-owner-followthrough.md; phone BASIS removal/transcription verified; local basis now 28. Legacy VPS gap closed by Will’s confirmation at owner commit 61b16595a. Prior cleanup and archive pass published; burst-retirement payload is now origin-proven; central READ retirement and five-file basis transcription verified complete. Backlog-reconciliation payload e9f80744d and receipt 0ce5ddca4 are origin-proven. Verdict-amendment payload and registrar transcription are now complete. PROME owns bridge repair L907; retain current positive-only runtime visibility until the adapter is repaired and verified.
@@ -95,8 +100,8 @@ FULL session closeout. Research and all 90 October 31 handoffs origin-proven; tw
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-02T13:16:35Z",
-  "next_review": "2026-11-02",
+  "as_of": "2026-11-02T14:22:06Z",
+  "next_review": "2026-11-03",
   "publication": [
     {
       "commit": "eee287123",
@@ -190,38 +195,43 @@ FULL session closeout. Research and all 90 October 31 handoffs origin-proven; tw
     },
     {
       "commit": "b6696042fc6010666c1a30cfedf6ffea3acd59cf",
+      "state": "published",
+      "note": "Verified on origin at November 2 boot (merge-base ancestor check, fetch 14:12Z)."
+    },
+    {
+      "commit": "THIS-CLOSEOUT",
       "state": "pending",
-      "note": "Session closeout, source typo correction and 16 delivery labels reconciled. Fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e."
+      "note": "November 2 boot/closeout commit (subject: WALTER: November 2 boot PARTIAL and model-switch closeout); push deferred, foreign dirty FALCON files."
     }
   ],
   "delivery": {
-    "signal_date": "20261031",
-    "total": 90,
-    "delivered": 90,
-    "note": "All 90 October 31 handoffs origin-proven; FLG/REGINALD card 026 consumption separately verified."
+    "signal_date": "20261102",
+    "total": 0,
+    "delivered": 0,
+    "note": "No dispatch this session; prior 90 October 31 handoffs remain delivered."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-11-02_session-closeout/REVIEW.md",
-        "sha256": "8221db323e263f42c0e9281d40b261074a575976209513c308ce3e0b1b19449c"
+        "path": "AGENTS/WALTER/research/2026-11-02_boot/BOOT-RECEIPT.md",
+        "sha256": "9a6e7b4ad3af2ee3ea6b129c0d6f1436518aa38e9627f363d0b726e0e68700fd"
       }
     ]
   },
   "procedure": {
     "tier": "full",
-    "boot": "PARTIAL: source execution, carried owner context and full-fleet visibility gaps recorded.",
-    "session": "Will-requested end-of-session closeout; no new boot or market scan."
+    "boot": "PARTIAL: status-only scope; intake and inbox carries undispositioned; HANS/CREED re-pull and X auth gaps.",
+    "session": "Will-requested close for model switch; no routing."
   },
   "manual_duties": {
-    "0-9b": "Prior boot PARTIAL carried; closeout only. No fresh market or full-fleet visibility claim.",
-    "11": "No new card, route or batch. Existing 90 handoffs delivered; two owner consumption receipts verified.",
-    "12-14": "Registry before NETWORK; completed narratives rotated verbatim; MEMORY shortened; no deferrals or new flags.",
-    "root.retirement": "No deletion/source retirement; recent evidence remains live referenced.",
-    "15": "Current closeout evidence manually reviewed; existing approvals and source gaps retained.",
-    "16": "Closeout payload b6696042fc6010666c1a30cfedf6ffea3acd59cf committed with nine exact owned paths; pending coordinated publication under BOARD_CONSUMPTION_SPEC section 7. Prior research delivered. No self-push or external send.",
-    "checks": "Read-cap/archive/weekday/basis/READS/MEMORY pass. Doctor no HIGH; MED: 27 older unconsumed packets (9 ACTION/18 INFO, 15 desks), no DARK/wake inferred. Receipt identified 16 legacy written states; origin-proven rows manually reconciled. STATUS volatile duplicate removed. No kill/threshold event, ledger advisory only. Targeted receipt recheck follows."
+    "0-9b": "Executed read phase and checks; pull deferred (foreign dirty). No doorbell or DARK claim.",
+    "11": "No card, route or batch.",
+    "12-14": "Registry (8 rows) before NETWORK; STATUS row added; MEMORY session note and #34 n+1.",
+    "root.retirement": "No retirement this session.",
+    "15": "Carries listed in FOLLOW-UP item 0; approvals unchanged.",
+    "16": "Exact-path local commit; push deferred under BOARD_CONSUMPTION_SPEC section 7 (foreign dirty work).",
+    "checks": "See research/2026-11-02_boot/closeout/checks.json."
   }
 }
 END_CLOSEOUT_RECEIPT -->

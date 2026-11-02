@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-02T13:14:07Z — CLOSED on Will request; FULL session continuity. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-02T14:22:06Z — boot PARTIAL, then CLOSED on Will request (model switch); FULL closeout, no routing. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-Session closed on Will request. Call Report research and seven bank packets published; FLG/REGINALD first owner reviews complete. Remaining filing questions and November 7 breadth work are recorded at the owners. Exact delivery and consumption receipts: LAST_COMPLETION.md. No new market scan, grade or trade; prior boot PARTIAL limits remain.
+November 2 boot PARTIAL, then closed on Will request for a model switch. No dispatch, kill, intake mark or trade. Carries for next launch: 16 NEW Research-Intake onsets unrouted (lead: Iran '48-hour Hormuz reopening plan' report, Investing.com November 1, secondary/unverified; Will reads it as rumor-driven de-escalation, a pattern that has failed before; routing awaits his go), HENRY pre-open gamma packet undispositioned, X bookmark re-authorization needed. Exact list: LAST_COMPLETION.md.
 
 October 31 aggregate: 26 cards across 9 clusters, 49 kill-log rows, 18 bounded source helpers; earlier prose reviewer separate. November 2 closeout adds zero. BALANCED, zero cluster_mediating flags. Evidence and duties: LAST_COMPLETION.md; research/2026-11-02_session-closeout/REVIEW.md.
 
@@ -11,6 +11,7 @@ October 31 aggregate: 26 cards across 9 clusters, 49 kill-log rows, 18 bounded s
 
 | Object | Observation and limit |
 |---|---|
+| November 2 boot (pull 14:14Z; observation dates retained) | FRED HY 326 / CCC 1,325 / VIXCLS 17.20 [Oct 29; Oct 30 HY not yet published at pull]; SOFR−IORB +5 bp [Oct 30]; SKEW 149.76, T5YIFR 2.22 [Oct 30]; ICSA 194,000 [w/e Oct 24]; Cushing 26.970M [w/e Oct 23]. KRE 72.01 / WAL 76.29 [Oct 30 closes]; existing FT-02/REG-T-03/FT-10/REG-T-02 fired states, exits not started. Matched January oil, vendor 09:04 ET intraday, not settles: CLF27 96.30 vs 102.21 (−5.78%), BZF27 106.94 vs 113.43 (−5.72%); ^VIX 19.04. No new fire/exit. Boundary 8 January count restarts November 2. Evidence research/2026-11-02_boot/. |
 | Q3 Call Reports (September 30 versus June 30; retrieved October 31 ET) | 42 same-bank facsimiles, 14 exact equity bridges. Equity OZK −2.07%, WAL −2.92%, FLG −6.10%, AMTB −8.83%, SBCF −7.25%. FLG M3 +54.12% versus loans +1.50%; classification versus growth unresolved. Not a national sample, capital grade or trade finding. Evidence: research/2026-10-31_call-report-read/REPORT.md. |
 | Night boot (November 1 01:02–01:04Z; observation dates retained) | HY 326/CCC 1325/VIXCLS 17.20/SOFR-IORB+4bp [Oct29]; T5YIFR 2.22/SKEW 149.76/KRE 72.01/WAL 76.29/AGSI 74.68% [Oct30]; Cushing 26.970M [w/eOct23]. No new fire/exit in completed scope. THRESHOLD-SCAN.md records source and persistence limits. |
 | October 31 source repair | October 30 CME PRELIMINARY December CL 104.12, RB 3.1565, HO 4.6761; calculated HO×42−CL 92.2762 $/bbl. Final bulletin and direct ICE leg remain missing. ICE Endex Dec26 LTD November 27 / FSD November 30; Jan27 LTD December 30 / FSD December 31. FT08 governing Table A calculation verified at 3.247216% → 3.2%; earlier index-only gap was incorrect. Evidence and remaining limits: research/2026-10-31_boot-repair/REPAIR-RECEIPT.md. |
@@ -66,7 +67,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Registry refreshed before this mirror at 2026-11-02T13:14:07Z. BRENT, FLG, REGINALD and PROME lead changes reviewed; 39 other-owner captures unchanged at comparison. WALTER marked session closed. All 49 names retained; five without STATUS preserve prior evidence. Routing state is not liveness. FLG/REGINALD card 026 consumption has owner receipts; other consumption is not inferred.
+Registry refreshed before this mirror at 2026-11-02T14:22:06Z: FERT, ZHAO, OSPREY, CYPHER, BROCK, HENRY, YURI and MIDAS Updated/Focus mirrored from November 2 owner headers. Other rows unchanged from the 13:14Z comparison. All names retained. Routing state is not liveness. Doctor MED: 22 unconsumed >2d across 12 desks (6 ACTION, oldest 14d); no DARK verdict, no doorbell.
 
 No helper or domain launch this closeout. Full-fleet lifecycle visibility remains UNKNOWN. Prior runtime observations remain dated. Source/context gaps persist; no fresh market clearance.
 
