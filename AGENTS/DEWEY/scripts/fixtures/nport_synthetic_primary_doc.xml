@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SYNTHETIC fixture for test_nport_holders.py (DEWEY, 2026-11-02). Shape follows the
+     EDGAR N-PORT primary_doc.xml namespace and element names the scanner reads; every
+     value is invented. Not a real filing. -->
+<edgarSubmission xmlns="http://www.sec.gov/edgar/nport">
+  <formData>
+    <genInfo>
+      <regName>Synthetic Income Trust</regName>
+      <seriesName>Synthetic Short Duration Fund</seriesName>
+      <repPdDate>2026-08-31</repPdDate>
+    </genInfo>
+    <fundInfo>
+      <netAssets>1000000000.00</netAssets>
+    </fundInfo>
+    <invstOrSecs>
+      <invstOrSec>
+        <name>Vantage Data Centers Issuer LLC</name>
+        <title>VANTAGE DATA CENTERS ISSUER 2024-1A CLASS A2</title>
+        <cusip>92212KAA1</cusip>
+        <balance>5000000.00</balance>
+        <valUSD>4900000.00</valUSD>
+        <pctVal>0.49</pctVal>
+        <assetCat>ABS-O</assetCat>
+        <isRestrictedSec>Y</isRestrictedSec>
+      </invstOrSec>
+      <invstOrSec>
+        <name>SWCH Commercial Mortgage Trust</name>
+        <title>SWCH 2025-DATA E</title>
+        <cusip>78486AAE9</cusip>
+        <balance>2000000.00</balance>
+        <valUSD>1950000.00</valUSD>
+        <pctVal>0.195</pctVal>
+        <assetCat>ABS-CBDO</assetCat>
+        <isRestrictedSec>Y</isRestrictedSec>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Unrelated Corp</name>
+        <title>UNRELATED CORP 5.0% 2030</title>
+        <cusip>000000AA0</cusip>
+        <balance>1000000.00</balance>
+        <valUSD>990000.00</valUSD>
+        <pctVal>0.099</pctVal>
+        <assetCat>DBT</assetCat>
+        <isRestrictedSec>N</isRestrictedSec>
+      </invstOrSec>
+    </invstOrSecs>
+  </formData>
+</edgarSubmission>
