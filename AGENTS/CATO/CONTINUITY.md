@@ -13,7 +13,7 @@ No CATO implementation or review is currently owed. The completed system review 
 
 ## Delivered tools and machine handoff
 
-Calendar, Decisions and Agent Launcher matched current source at the November 2 desktop check; source checks passed and direct desktop shortcuts are present. Will confirmed the new launcher controls are visible; actual Kimi authentication/desk startup remains untested. Calendar's current layout stays; Research is delivered, with ordinary usefulness unmeasured. Reopen an older app window to load changes. Decisions recovery uses the committed portable package. [Delivery, usage evidence and limits](TASK_INDEX.md#november-2-launcher-and-desktop-apps).
+Calendar, Decisions and Agent Launcher matched current source at the November 2 desktop check; source checks passed and direct desktop shortcuts are present. Will confirmed the new launcher controls are visible; Kimi has made a live model request and run WAL tools; completed desk startup remains unverified. New/resumed launcher sessions now use automatic routine-command permissions and the existing GitHub login; connector authentication was verified. Calendar's current layout stays; Research is delivered, with ordinary usefulness unmeasured. Reopen an older app window to load changes. Decisions recovery uses the committed portable package. [Delivery, usage evidence and limits](TASK_INDEX.md#november-2-launcher-and-desktop-apps).
 
 ## Retained approvals and owner work
 

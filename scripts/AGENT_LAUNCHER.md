@@ -285,7 +285,14 @@ new model choices and history format. Agent terminal sessions can remain open.
   launch-specific profile and the exact prepared instructions. **Type Start in
   the Kimi window** to begin. Resume uses Kimi's session picker and restores that
   session's bound profile. The launcher retains those local profiles for resume,
-  adds no approval-bypass flags, and does not change Kimi account configuration.
+  uses `--yolo` for new and resumed sessions (routine commands and edits run
+  automatically; risky actions can still ask), and does not change Kimi account
+  configuration. If `GITHUB_PERSONAL_ACCESS_TOKEN` is missing, the launch helper
+  reuses the existing `gh auth token --hostname github.com` login in Kimi's child
+  environment only. It never prints or saves the token; an explicitly supplied
+  token takes precedence. Without an available login, Kimi reports the connector
+  warning as before. Close and resume an existing Kimi window through the launcher
+  to apply these changes.
   Saved groups, batch review and launch history retain the Kimi selection.
   This uses the installed 2.3.3 CLI's documented
   [interactive agent-file and session options](https://moonshotai.github.io/kimi-code/en/reference/kimi-command).

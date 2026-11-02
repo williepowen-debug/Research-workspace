@@ -193,12 +193,13 @@ def build_plan(entry: dict, runtime: str | None, action: str,
             argv += ['--', prompt]
     elif runtime == 'kimi':
         executable = kimi_executable()
+        helper = Path(__file__).with_name('kimi_launcher.py')
+        required.append(helper)
+        argv = [sys.executable, str(helper), '--name', name]
         if action == 'resume':
-            argv = [executable, '--model', KIMI_MODEL, '--session']
+            argv += ['--resume']
         else:
-            helper = Path(__file__).with_name('kimi_launcher.py')
-            required.append(helper)
-            argv = [sys.executable, str(helper), '--name', name, '--', prompt]
+            argv += ['--', prompt]
     else:
         argv = ['codex'] + (['resume'] if action == 'resume' else [])
         argv += ['--model', 'gpt-6.1-sol' if runtime == 'sol' else 'gpt-6-astra',

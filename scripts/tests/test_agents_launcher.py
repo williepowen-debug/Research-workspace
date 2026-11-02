@@ -29,6 +29,7 @@ agents = module('personal_agents_test', 'agents.py')
 installer = module('personal_agents_installer_test', 'install_agents.py')
 sys.modules['agents'] = agents
 gui = module('personal_agents_gui_test', 'agents_gui.py')
+kimi = module('personal_kimi_test', 'kimi_launcher.py')
 
 
 class LauncherTests(unittest.TestCase):
@@ -284,6 +285,7 @@ class LauncherTests(unittest.TestCase):
         args = capture['args']
         self.assertEqual(args[:2], ['--model', 'kimi-code/k3.1-pro'])
         self.assertNotIn('--prompt', args)
+        self.assertIn('--yolo', args)
         self.assertNotIn('--auto', args)
         profile = Path(args[args.index('--agent-file') + 1])
         self.assertIn('${base_prompt}', profile.read_text())
@@ -299,9 +301,26 @@ class LauncherTests(unittest.TestCase):
         result = self.cli('fixture', '--kimi', '--resume')
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertEqual(json.loads(self.capture.read_text())['args'],
-                         ['--model', 'kimi-code/k3.1-pro', '--session'])
+                         ['--model', 'kimi-code/k3.1-pro', '--yolo', '--session'])
         result = self.cli('fixture', '--kimi', '--resume', '--task', 'Must not disappear')
         self.assertNotEqual(result.returncode, 0)
+
+    def test_kimi_credentials_stay_in_child_environment(self):
+        with patch.dict(os.environ, {'GITHUB_PERSONAL_ACCESS_TOKEN': 'existing'}, clear=True), \
+             patch.object(kimi.subprocess, 'run') as run:
+            self.assertEqual(kimi.github_environment()['GITHUB_PERSONAL_ACCESS_TOKEN'], 'existing')
+            run.assert_not_called()
+        with patch.dict(os.environ, {}, clear=True), \
+             patch.object(kimi.subprocess, 'run', return_value=subprocess.CompletedProcess([], 0, 'fixture-token\n', '')):
+            self.assertEqual(kimi.github_environment()['GITHUB_PERSONAL_ACCESS_TOKEN'], 'fixture-token')
+            self.assertNotIn('GITHUB_PERSONAL_ACCESS_TOKEN', os.environ)
+        for failure in (FileNotFoundError(), subprocess.TimeoutExpired('gh', 5)):
+            with patch.dict(os.environ, {}, clear=True), \
+                 patch.object(kimi.subprocess, 'run', side_effect=failure):
+                self.assertNotIn('GITHUB_PERSONAL_ACCESS_TOKEN', kimi.github_environment())
+        with patch.dict(os.environ, {}, clear=True), \
+             patch.object(kimi.subprocess, 'run', return_value=subprocess.CompletedProcess([], 1, '', 'login failed')):
+            self.assertNotIn('GITHUB_PERSONAL_ACCESS_TOKEN', kimi.github_environment())
 
     def test_kimi_installer_location_and_missing_binary(self):
         with patch.object(agents.shutil, 'which', return_value=None), \
