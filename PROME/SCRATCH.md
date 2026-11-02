@@ -1,8 +1,13 @@
 # SCRATCH.md — Ephemeral Session State
 
-**Updated:** 2026-11-02 09:1x ET — RESTART CHECKPOINT (session prome-40, DESKTOP), not a closeout. Prior ★ NEXT entries in git: `git log -p -- PROME/SCRATCH.md`.
+**Updated:** 2026-11-02 — Codex WAL-thread RESTART CHECKPOINT, not a closeout. Prior ★ NEXT entries in git: `git log -p -- PROME/SCRATCH.md`.
 
 ## ★ NEXT SESSION — START HERE
+**Latest checkpoint — November 2, Codex continuation:** Will wants to resume the WAL/regional-bank rally thread. Read [research checkpoint](reports/2026-11-02_wal-rally-checkpoint.md) first: findings, source clocks, six follow-up questions, carried inbox and owner boundaries.
+**Next action:** refresh WAL/KRE relative performance and consume relevant owner evidence; test whether credit quality, funding and earnings justify the rally. No trade approval or new commission was given.
+**Continuity:** original working-session limits and PARTIAL boot remain carried. The report supersedes older live-owner/delivery descriptions below; independent desks retain ownership, no parent-bound helpers remain.
+**Lifecycle:** this is Bounce preservation, not actual closeout or an ARGUS baseline advance. Original boot/recovery directories and peer receipt pointers are in the report; verify writers before replacement.
+
 **Codex recovery November 2, 10:14 EST:** [recovery receipt](reports/2026-11-02_codex-recovery-status.md) supersedes the checkpoint's live-session and unanswered-approval descriptions. It records WQ-590/591, native-confirmed interrupted ISHM/TERRY tasks, the newly published Friday credit observation, and the PARTIAL boot residue. Original session obligations and allowances remain carried; this status return is not actual closeout.
 
 **RESTART CHECKPOINT Mon 2026-11-02 09:1x ET (session prome-40 = harness bfcc66f1, DESKTOP DESKTOP-BC6EF81; Claude Code, Opus 5.5; booted 08:39 ET; boot run dir `/tmp/prome-boot-bfcc66f1`, gate rc 0, charter-mode explicit). Will: "lets checkpoint here" 09:13 ET. NOT a closeout — resume with "pick up PROME" (BOOT_MODULES § Resume after a restart) using `--refresh` on the SAME run dir. Boot headline was PARTIAL (one skip: root/PROME charters, AGENTS.md, USER.md read from origin by `git show`/diff before the pull, not through boot_read.py) — carry it.**
