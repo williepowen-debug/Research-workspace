@@ -1,0 +1,35 @@
+{
+  "source": "/mnt/c/Users/willi/Downloads/PREREGISTERED_SPEC.md",
+  "sha256": "3fc31bd303f82aa4191de58967906a7cf312a2d66cb48cdda45db7069d715ff2",
+  "scope": "Specification read in full; addendum to review.json. No code execution or raw study-data replication.",
+  "resolved": [
+    "Specification is now supplied; remove it from the missing-artifact list in the earlier review. Code and data remain unavailable at the inspected paths.",
+    "Treasury par yields, prior-yield carry on stock-trading/bond-holiday dates, decimal stock returns, percentage-point yield changes and regression intercept are explicitly specified.",
+    "Window anchoring and every-third-window rule for W20/F60 are specified; baseline is the same grid and significance test compares a cell with its complement.",
+    "Credit proxies and descriptive labels are explicitly defined in advance according to the author. Labels were not assumed to predict returns."
+  ],
+  "qualification": "The document states it was written before regime.py ran; this standalone file does not independently establish execution chronology or implementation compliance.",
+  "exploratory_additions_declared": [
+    "ex-GFC exclusion",
+    "HYG phase-robustness extension",
+    "COVID/SVB forward-window exclusion",
+    "12-session current-pattern analog scan",
+    "nearest-neighbor analogs",
+    "rate-beta-sign interaction",
+    "real-yield/breakeven decomposition"
+  ],
+  "remaining": [
+    "KRE-minus-KBWB phase-robustness outputs still needed; the report only displays absolute-return phase results.",
+    "Four of six recent analogs still have narrowing actual HY OAS despite proxy-widening classification.",
+    "Original single-factor R2 mismatch still unreconciled; this specification defines the later two-factor model.",
+    "Nonoverlapping return windows do not prove statistical independence; persistent regimes and correlated specifications remain.",
+    "Reported significance remains exploratory amid multiple comparisons; post-result exclusions are sensitivity checks, not independent validation.",
+    "Causal rate-relief and term-premium claims still exceed the displayed evidence."
+  ],
+  "new_cross_section_issue": {
+    "finding": "CRE denominator fallback mixes measures",
+    "evidence": "Change log says Tier 1 substituted when total risk-based capital is unavailable for CBLR filers.",
+    "implication": "Economic comparability is not established by fixing missing values. Require bank-level denominator flags and common-denominator or exclusion sensitivity before accepting the CRE coefficient. No assertion that the reported coefficient is thereby disproven."
+  },
+  "revised_assessment": "Method disclosure is clearer and more credible than report-only review could establish. Predictive and causal conclusions are not upgraded. No owner grade or trade authority changed."
+}

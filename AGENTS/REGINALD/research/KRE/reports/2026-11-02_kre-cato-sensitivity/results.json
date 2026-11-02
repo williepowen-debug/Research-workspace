@@ -1,0 +1,82 @@
+{
+  "source": "AGENTS/REGINALD/research/KRE/reports/2026-11-02_kre-etf-relationships/aligned_adjusted_closes.csv",
+  "sha256": "f1208d7b8a19c1320a1ffd810f5e8dd37eb54e0db31825053bdf8d2edf172f9c",
+  "window_start": "2026-08-04",
+  "window_end": "2026-10-30",
+  "regressions": {
+    "KBWB": {
+      "n": 63,
+      "correlation": 0.7193380186146292,
+      "ols_with_intercept_R2": 0.51744718502442,
+      "external_report_R2": 0.525
+    },
+    "IWM": {
+      "n": 63,
+      "correlation": 0.5009574732100296,
+      "ols_with_intercept_R2": 0.25095838996497744,
+      "external_report_R2": 0.282
+    },
+    "SPY": {
+      "n": 63,
+      "correlation": 0.2192926065200782,
+      "ols_with_intercept_R2": 0.04808924727437003,
+      "external_report_R2": 0.067
+    }
+  },
+  "sensitivity": {
+    "all": {
+      "n": 63,
+      "KRE_KBWB": 0.7193380186146292,
+      "KRE_SPY": 0.2192926065200782
+    },
+    "without_sep14": {
+      "n": 62,
+      "KRE_KBWB": 0.7487735192018901,
+      "KRE_SPY": 0.22470365980445473
+    },
+    "without_oct22": {
+      "n": 62,
+      "KRE_KBWB": 0.7528110430853137,
+      "KRE_SPY": 0.3258395912183318
+    },
+    "without_both": {
+      "n": 61,
+      "KRE_KBWB": 0.7854032447649743,
+      "KRE_SPY": 0.33329339163467936
+    },
+    "without_top5": {
+      "n": 58,
+      "KRE_KBWB": 0.8212710463941926,
+      "KRE_SPY": 0.3722117856528391
+    }
+  },
+  "top5_dates": [
+    "2026-10-22",
+    "2026-09-14",
+    "2026-08-20",
+    "2026-10-28",
+    "2026-09-21"
+  ],
+  "top5_squared_gap_share": 0.43763743186672804,
+  "untrimmed_history": {
+    "overlapping_windows": 3666,
+    "median": 0.9409896579322328,
+    "latest": 0.7193380186146292,
+    "percentile_strictly_below": 1.5275504637206765
+  },
+  "symmetrically_trimmed_history": {
+    "overlapping_windows": 3666,
+    "median": 0.9534423431396821,
+    "latest": 0.8212710463941926,
+    "percentile_strictly_below": 1.336606655755592
+  },
+  "limits": [
+    "Frozen same-vendor data; no independent vendor validation.",
+    "Delete return observations, not price rows; no bridging or backfill of omitted days.",
+    "Exceptional dates selected retrospectively; diagnostic only.",
+    "Historical windows overlap and percentile is not a p-value or independent episode count.",
+    "External regression implementation unavailable; discrepancy remains unreconciled.",
+    "No KBE series in this saved dataset; KBE claim not independently tested.",
+    "No causal identification, forecast, trade recommendation or owner-grade change."
+  ]
+}

@@ -11,6 +11,18 @@ Saved 2026-11-02 by PROME at Will's explicit request to keep the discussion's da
 - [Earlier October 23 transition study](reports/2026-10-23_kre-qqq-transition-signature/REPORT.md): historical context, preserved at its original vintage; not newly revalidated.
 - [Copy manifest](COPY_MANIFEST.json): original locations, byte counts and SHA-256 hashes for every copied artifact, including screenshots.
 
+## November 2 follow-up: rate study and CATO checks
+
+- [Study 3: falling yields and regional banks](reports/2026-11-02_kre-study3-review/input_report.md), supplied by Will; [specification and change log](reports/2026-11-02_kre-study3-review/PREREGISTERED_SPEC.md).
+- [PROME review](reports/2026-11-02_kre-study3-review/review.json) and [specification addendum](reports/2026-11-02_kre-study3-review/spec_addendum.json). Read together: the addendum supersedes the earlier statement that the specification was missing.
+- [CATO-prompted correlation and regression checks](reports/2026-11-02_kre-cato-sensitivity/results.json), with [reproduction script](reports/2026-11-02_kre-cato-sensitivity/check.py). The script uses the frozen ETF data already in this collection; only repository-root discovery was adapted for this location.
+
+**Verified on saved data through October 30:** KRE–KBWB correlation rises from 0.719 to 0.821 after removing the five largest divergence days, but remains near the 1.3rd percentile when historical windows receive the same removal. Identical-sample single-factor R² values are 0.517 (KBWB), 0.251 (IWM) and 0.048 (SPY). Historical windows overlap; these are descriptive diagnostics, not independent probability estimates or trade signals.
+
+**Study 3 remains partially reviewed, not fully reproduced.** Its raw data, analysis code and referenced charts were not supplied. Preserve the report's broken relative chart links as evidence of that missing package, not as existing collection assets. Outstanding: relative-return results across sampling phases; four of six recent proxy-widening analogs had narrowing actual HY spreads; mixed CRE-capital denominators; causal claims beyond the displayed evidence; and the original report's unexplained R² mismatch. The specification clarifies method and explicitly labels post-result explorations; its claimed pre-run timing is not independently verified. Our original source files and reviews remain preserved at PROME.
+
+Reproduce the sensitivity checks from repository root with `.venv/bin/python3 AGENTS/REGINALD/research/KRE/reports/2026-11-02_kre-cato-sensitivity/check.py`. It overwrites only its own results file; requires numpy and pandas. No REGINALD canonical state or grade changes are implied by this archive.
+
 ## Data and visuals
 
 The November 2 ETF folder contains 13 ETF daily histories, aligned dividend-adjusted closes, performance/correlation tables, FRED yield and credit-spread series, source manifests, sensitivity checks, exploratory models, scripts and two charts. Completed-session analysis ends October 30; November 2 observations are intraday and must not be presented as closing values.

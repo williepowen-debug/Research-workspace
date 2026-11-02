@@ -1,0 +1,534 @@
+---
+title: "KRE Study 3 — When do falling Treasury yields help or hurt regional banks? (with the rate-beta flip)"
+subtitle: "Data through the 10/30/2026 close · prepared 11/02/2026"
+---
+
+# Bottom line
+
+1. **Falling yields have not been a reliable buy signal for KRE.** Since June 2006, falling-yield windows were followed by *slightly below-baseline* 60-session KRE returns (−0.2% to +0.7% vs a +2.0% baseline; not significant). The one result that holds across window lengths, thresholds, and the removal of the COVID and SVB periods is relative: **after the 2-year yield falls, KRE has tended to lag KBWB over the next 60 sessions** (−1.9% to −2.2% vs a −0.5% baseline; Welch t ≈ −2.3 to −3.0; 25 windows in each grid, 14–15 separate episodes, 2012–2026 only). It is weaker for the 10-year.
+2. **The credit split I set up in advance does not reliably separate a "constructive" rally from a "stress rebound".** Rallies where credit narrowed did no better afterwards than rallies where it widened (at W=63, the "constructive" cell even had a worse next 20 sessions for the 10-year). The one consistent sign: stress rebounds (KRE up, spreads wider) were followed by KRE lagging IWM over 60 sessions in most variants. But n is 5–10 per cell, the effect shrinks to about −2% outside the GFC, and the alternative thresholds leave 1–3 cases. **The data cannot say which kind of rally this is with any confidence.** That is the honest answer to the central question.
+3. **The rate-beta flip is real, but it is neither new nor specific to KRE.** KRE's 63-session sensitivity to the 10-year (controlling for SPY) is −0.062 per 1pp. That is the 4th percentile since 2012 and the 4th percentile since 2006. A negative beta was normal in 2006–2011, absent in 2013–2021, and has been the *majority* state since August 2023 (57% of days; record low −0.157 in May 2024). **KBWB's rate beta is negative too (−0.031, 4th percentile), and the two rolling betas correlate at 0.98.** So this is a bank-sector regime, not a KRE-only one. What *is* unusual is a negative beta during a Fed hiking phase: in 2015–18 it was never negative, and in 2022–23 it was negative on only 19% of days.
+4. **Where 10/2026 sits:** the trailing 20-session window (10/2–10/30) falls in the pre-defined **"stress rebound"** cell. The 2-year fell 27bp and the 10-year 34bp (a bull flattener). KRE rose 1.7% and beat KBWB, while the Baa spread, HYG-vs-IEF and HY OAS all widened. The 10/14–10/29 fall in the 10-year was **entirely real yield; 10-year breakevens were unchanged** (FRED DFII10/T10YIE). That fits growth fear or safe-haven buying, not disinflation. A 10/22-type day (10-year −17bp, SPY −1.2%, KRE +2.5%) has **one precedent since 2006: 1/22/2008**. The closest mechanical analogs are the post-2023 "AOCI-relief" rallies (Dec 2023, May 2024, Jan 2025, Sep 2025, Feb 2026, Jun 2026). Five of those six had negative forward 60-session returns. Across all 10 post-2012 analogs, 7 were negative and the mean was −4.3%, against a +2.0% base. This is descriptive only, and the cases overlap with known shocks (tariffs in 2025).
+5. **Cross-section (167 KRE names, June-2026 call reports):** within KRE, sensitivity to the 10-year runs through **size, CRE concentration, loan/deposit ratio and deposit costs**. It does *not* run through securities losses. Banks with bigger HTM losses relative to Tier 1 did better on *both* falling- and rising-yield days. So the earlier "bigger HTM losses → bigger rally" result is general outperformance, not specific rate relief. Thin sample: only 8 falling and 14 rising days of ≥5bp since 7/1.
+
+**Net read.** The current rally looks more like a flight-to-quality rebound inside a hiking cycle than a constructive easing rally. History gives a mild lean toward KRE giving back relative performance (against KBWB, and probably against IWM) over the next ~60 sessions. It gives **no reliable edge on KRE's absolute direction.** I would not call it "constructive" or "temporary" on this evidence.
+
+---
+
+# 0. Baseline re-verification (prior report not attached; re-derived from raw data)
+
+The earlier PDF was **not attached** to this session (the uploads folder was empty), so every number below was rebuilt from primary data and compared with the figures in the brief.
+
+| Brief's number | Re-derived | Status |
+|---|---|---|
+| KRE–KBWB 63-session corr 0.719 on 10/30, 1.5th pct of 3,708 windows since Feb 2012 | 0.7193; 1.54th pct; 3,708 windows from 2012-02-02 | ✓ |
+| Low 0.632 on 9/15/2026 | 0.6324 on 2026-09-15 | ✓ |
+| 8/3→10/30: KRE −6.0%, KBWB −8.4% | −6.02%, −8.43% (IWM −5.46%, SPY −0.01%) | ✓ |
+| 8/3→10/14: KRE −10.6%, KBWB −11.5% | −10.55%, −11.47% | ✓ |
+| 10/14→10/30: KRE +5.1%, KBWB +3.4%, IWM +2.9% | +5.06%, +3.43%, +2.93% | ✓ |
+| Rate coefficient −0.061 per 1pp, 4th pct, median +0.070 | **−0.062**; 4.2th pct since Feb 2012 (median **+0.071**); 3.7th pct since 2006 (median +0.042) | ✓ (the brief's median is a since-2012 figure) |
+| SPY beta 0.21 (1.6th pct) | **0.24** (1.3th pct, full history) | ≈ (small difference, probably yield source/window alignment; I use Treasury par yields) |
+| R² 0.17; rates explain ~+1.6pp of the +5.0pp rally | R² **0.15**; −0.062 × (−25bp) = **+1.55pp** | ≈ |
+| 10y 4.70 → 5.19 → 4.94; 2y 4.25 → 4.82 → 4.56 | identical (Treasury par curve) | ✓ |
+| HY OAS 2.78 → 3.25 → 3.44 | identical (FRED BAMLH0A0HYM2) | ✓ |
+| 10/22: 10y −17bp, 2y −16bp; KRE +2.5% with 96% of stocks up; SPY −1.2%; IWM flat; HY wider | 10y −17bp, 2y −16bp; KRE +2.53%; 96.4% of the 167 up; SPY −1.18%; IWM +0.07%; HY OAS 3.27 → 3.40 | ✓ |
+| Fed: +25bp in Sept to 3.75–4.00%; 10/28 hold 10–2, two hike dissents | Confirmed in Fed press releases (9/16/2026 statement; 10/28/2026 statement "by a 10 – 2 vote"). Dissenter names (Cook, Hammack) are from press coverage (CNBC, J.P. Morgan AM). | ✓ |
+| "Futures price a December hike" | Secondary only (CNBC 10/28: "strong possibility" of a December hike); not checked against CME data | secondary |
+| HTM-loss/T1 → bigger rally (t ≈ −2.1 to −2.6) | Not re-run in the same form. §4 re-tests it on falling- vs rising-yield days, and the reading changes. | see §4 |
+
+**Data limitations that bind this study**
+
+* **HY OAS history is truncated.** The free FRED CSV for BAMLH0A0HYM2 now starts on **2023-11-03**. The FRED series page says that "starting in April 2026, this series will only include 3 years of observations" (ICE licence). ALFRED vintages returned HTTP 503 from this environment on 11/02. **HY OAS is therefore used only for the current episode.** Long-history classification uses two proxies, fixed in advance:
+  * (i) **Moody's Baa − 10y (FRED BAA10Y)**, from 1986. This is the primary measure.
+  * (ii) **HYG − IEF total-return difference**, from April 2007, as a cross-check.
+  * In the 2023-11 → 2026-10 overlap, 20-day changes in HY OAS correlate +0.65 with ΔBAA10Y and −0.76 with HYG−IEF. But the *direction* agrees only 70% and 73% of the time. These are rough stand-ins, and they are the largest single weakness of sub-question 1.
+* **KBWB starts on 2011-10-20.** Every "vs KBWB" statistic covers 2012–2026 only (59 of 80 W=63 windows; 188 of 255 W=20 windows).
+* **KRE starts on 2006-06-22.** So the sample has one full hiking cycle (2015–18), one fast one (2022–23), and the start of the 2026 phase.
+* FDIC call reports for 9/30/2026 are **not loaded** (the API returned 0 records for REPDTE=20260930 on 11/02). The cross-section uses 6/30/2026.
+
+---
+
+# 1. Historical regimes: falling yields on non-overlapping windows
+
+**Method (fixed before any forward return was computed; full text in `PREREGISTERED_SPEC.md`).**
+
+* **Windows:** non-overlapping blocks of 20 and 63 sessions, anchored so the last block ends on 10/30/2026.
+* **Falling yields:** Δ2y < 0 or Δ10y < 0 over the window, with the two tenors reported separately.
+* **Classifications:**
+  * (a) KRE return > 0;
+  * (b) Δ(Baa−10y) > 0 = credit widening (HYG−IEF < 0 as a cross-check);
+  * (c) Δ(10y−2y) > 0 = steepening;
+  * (d) KRE − KBWB > 0.
+* **Forward returns:** the next 20 and 60 sessions from the window's end close.
+* **Overlap control:** for W=20 with a 60-session horizon, only every third window is used, so forward periods never overlap. The other two phases are shown in Table 1f.
+* **Statistics:** the bracket shows the difference from the **unconditional baseline**, meaning all windows on the same grid. `**` means |Welch t| ≥ 2 for the cell against its complement (computed only when n ≥ 10). `†` means n < 10: too thin to support a conclusion.
+* **Pre-defined labels:** CONSTRUCTIVE = falling yields + KRE up + credit narrowing. STRESS REBOUND = falling yields + KRE up + credit widening.
+
+How to read the tables: "n (ep.) 20d" gives windows with a forward-20 return, the number of separate episodes (runs of consecutive windows) in brackets, and then the count with KBWB data. Returns are in %. A bracket is the difference from baseline in pp.
+
+### Table 1a — W = 63 sessions, 2-year yield
+| Cell | n (ep.) 20d | n 60d | KRE F20 | vs KBWB F20 | vs IWM F20 | KRE F60 | vs KBWB F60 | vs IWM F60 |
+|---|---|---|---|---|---|---|---|---|
+| **Baseline: all windows** | 80 / 59 | 80 / 59 | +1.2 (55%↑) | +0.0 (53%↑) | +0.4 (51%↑) | +2.0 (59%↑) | -0.5 (46%↑) | -0.5 (46%↑) |
+| **Yields falling** | 37 (20) / 25 | 37 / 25 | +0.7 [-0.5] | +0.0 [-0.0] | -0.5 [-0.9] | +0.6 [-1.4] | **-2.2 [-1.7]** | -2.4 [-1.9] |
+| Yields not falling | 43 (20) / 34 | 43 / 34 | +1.6 [+0.4] | +0.0 [+0.0] | +1.2 [+0.8] | +3.2 [+1.2] | **+0.8 [+1.2]** | +1.1 [+1.6] |
+| ↳ KRE up | 22 (15) / 17 | 22 / 17 | +0.8 [-0.4] | -0.0 [-0.1] | -0.6 [-1.1] | +0.4 [-1.6] | **-2.4 [-1.9]** | -2.2 [-1.7] |
+| ↳ KRE down | 15 (12) / 8 | 15 / 8 | +0.6 [-0.6] | +0.1 [+0.1]† | -0.3 [-0.8] | +0.8 [-1.2] | -1.8 [-1.3]† | -2.7 [-2.2] |
+| ↳ Baa spread widening | 22 (17) / 11 | 22 / 11 | +0.3 [-0.9] | +0.4 [+0.4] | -0.9 [-1.3] | +0.7 [-1.3] | -1.6 [-1.1] | -3.1 [-2.6] |
+| ↳ Baa spread narrowing | 15 (13) / 14 | 15 / 14 | +1.4 [+0.1] | -0.2 [-0.3] | +0.1 [-0.4] | +0.3 [-1.7] | **-2.6 [-2.2]** | -1.3 [-0.9] |
+| ↳ HYG<IEF (widening) | 19 (14) / 12 | 19 / 12 | +0.5 [-0.7] | +0.7 [+0.7] | -0.2 [-0.6] | +0.7 [-1.3] | -1.8 [-1.4] | -2.5 [-2.0] |
+| ↳ HYG>IEF (narrowing) | 16 (14) / 13 | 16 / 13 | +1.1 [-0.1] | -0.6 [-0.6] | -0.8 [-1.2] | +0.7 [-1.3] | **-2.5 [-2.0]** | -1.9 [-1.4] |
+| ↳ 2s10s steepening | 20 (13) / 13 | 20 / 13 | +0.8 [-0.4] | +0.6 [+0.5] | -0.2 [-0.7] | -0.0 [-2.0] | -1.6 [-1.1] | -2.3 [-1.8] |
+| ↳ 2s10s flattening | 17 (13) / 12 | 17 / 12 | +0.7 [-0.6] | -0.5 [-0.6] | -0.8 [-1.2] | +1.2 [-0.8] | **-2.8 [-2.3]** | -2.5 [-2.0] |
+| ↳ KRE beat KBWB | 12 (11) / 12 | 12 / 12 | +1.4 [+0.1] | -0.5 [-0.5] | -0.2 [-0.6] | +0.8 [-1.2] | -2.4 [-1.9] | -1.1 [-0.6] |
+| ↳ KRE lagged KBWB | 12 (8) / 12 | 12 / 12 | +2.6 [+1.4] | +0.5 [+0.5] | -0.5 [-1.0] | +1.9 [-0.1] | -1.7 [-1.2] | -2.9 [-2.4] |
+| ↳ CONSTRUCTIVE (KRE up, Baa narrowing) | 12 (11) / 11 | 12 / 11 | +1.6 [+0.4] | -0.4 [-0.4] | -0.0 [-0.5] | +2.6 [+0.6] | -2.6 [-2.1] | +0.1 [+0.6] |
+| ↳ STRESS REBOUND (KRE up, Baa widening) | 10 (10) / 6 | 10 / 6 | -0.2 [-1.4] | +0.6 [+0.6]† | **-1.3 [-1.8]** | -2.1 [-4.2] | -2.0 [-1.5]† | **-4.9 [-4.4]** |
+| ↳ STRESS (KRE down, Baa widening) | 12 (10) / 5 | 12 / 5 | +0.7 [-0.5] | +0.1 [+0.1]† | -0.5 [-0.9] | +3.1 [+1.1] | -1.2 [-0.7]† | -1.5 [-1.0] |
+| ↳ BENIGN/OTHER (KRE down, Baa narrowing) | 3 (3) / 3 | 3 / 3 | +0.2 [-1.0]† | +0.1 [+0.1]† | +0.4 [-0.0]† | -8.6 [-10.6]† | -2.9 [-2.4]† | -7.2 [-6.7]† |
+| ↳ CONSTRUCTIVE, HYG proxy | 14 (13) / 11 | 14 / 11 | +1.4 [+0.1] | -0.4 [-0.4] | -0.9 [-1.3] | +0.6 [-1.4] | -2.5 [-2.0] | -2.3 [-1.8] |
+| ↳ STRESS REBOUND, HYG proxy | 7 (6) / 6 | 7 / 6 | -0.3 [-1.5]† | +0.7 [+0.6]† | +0.2 [-0.3]† | +0.1 [-1.9]† | -2.1 [-1.6]† | -1.8 [-1.3]† |
+
+### Table 1b — W = 63 sessions, 10-year yield
+| Cell | n (ep.) 20d | n 60d | KRE F20 | vs KBWB F20 | vs IWM F20 | KRE F60 | vs KBWB F60 | vs IWM F60 |
+|---|---|---|---|---|---|---|---|---|
+| **Baseline: all windows** | 80 / 59 | 80 / 59 | +1.2 (55%↑) | +0.0 (53%↑) | +0.4 (51%↑) | +2.0 (59%↑) | -0.5 (46%↑) | -0.5 (46%↑) |
+| **Yields falling** | 39 (20) / 28 | 39 / 28 | -0.2 [-1.4] | -0.2 [-0.2] | **-0.7 [-1.1]** | +0.7 [-1.4] | **-1.7 [-1.3]** | -1.8 [-1.3] |
+| Yields not falling | 41 (20) / 31 | 41 / 31 | +2.6 [+1.4] | +0.2 [+0.2] | **+1.5 [+1.0]** | +3.3 [+1.3] | **+0.7 [+1.1]** | +0.8 [+1.3] |
+| ↳ KRE up | 22 (15) / 18 | 22 / 18 | **-0.9 [-2.2]** | -0.4 [-0.4] | **-1.1 [-1.6]** | +0.2 [-1.8] | -1.9 [-1.4] | -2.0 [-1.5] |
+| ↳ KRE down | 17 (12) / 10 | 17 / 10 | +0.7 [-0.5] | +0.2 [+0.1] | -0.1 [-0.5] | +1.2 [-0.8] | -1.4 [-0.9] | -1.6 [-1.1] |
+| ↳ Baa spread widening | 23 (17) / 13 | 23 / 13 | +0.5 [-0.7] | +0.0 [-0.0] | -0.5 [-1.0] | +1.4 [-0.6] | -1.7 [-1.2] | -2.1 [-1.6] |
+| ↳ Baa spread narrowing | 16 (13) / 15 | 16 / 15 | -1.2 [-2.4] | -0.4 [-0.4] | -0.8 [-1.3] | -0.4 [-2.4] | -1.8 [-1.3] | -1.4 [-0.9] |
+| ↳ HYG<IEF (widening) | 22 (15) / 15 | 22 / 15 | +0.8 [-0.4] | +0.7 [+0.6] | +0.1 [-0.4] | +1.4 [-0.6] | -1.3 [-0.8] | -1.5 [-1.0] |
+| ↳ HYG>IEF (narrowing) | 15 (12) / 13 | 15 / 13 | **-1.7 [-2.9]** | -1.1 [-1.1] | **-1.7 [-2.1]** | -0.1 [-2.1] | -2.3 [-1.8] | -1.9 [-1.4] |
+| ↳ 2s10s steepening | 14 (10) / 9 | 14 / 9 | -1.0 [-2.2] | +0.1 [+0.0]† | -1.1 [-1.6] | -1.4 [-3.4] | -1.6 [-1.1]† | -3.0 [-2.5] |
+| ↳ 2s10s flattening | 25 (15) / 19 | 25 / 19 | +0.2 [-1.0] | -0.3 [-0.3] | -0.4 [-0.8] | +1.8 [-0.2] | -1.8 [-1.3] | -1.2 [-0.7] |
+| ↳ KRE beat KBWB | 10 (8) / 10 | 10 / 10 | +0.7 [-0.6] | -0.9 [-0.9] | -0.9 [-1.3] | -0.2 [-2.2] | -2.5 [-2.0] | -2.0 [-1.5] |
+| ↳ KRE lagged KBWB | 17 (11) / 17 | 17 / 17 | +0.4 [-0.8] | +0.3 [+0.2] | -0.7 [-1.1] | +1.0 [-1.0] | -1.1 [-0.6] | -2.2 [-1.7] |
+| ↳ CONSTRUCTIVE (KRE up, Baa narrowing) | 12 (10) / 11 | 12 / 11 | **-2.0 [-3.2]** | -0.5 [-0.6] | -1.6 [-2.0] | +0.4 [-1.6] | -1.6 [-1.1] | -1.0 [-0.5] |
+| ↳ STRESS REBOUND (KRE up, Baa widening) | 10 (10) / 7 | 10 / 7 | +0.3 [-0.9] | -0.1 [-0.1]† | -0.5 [-1.0] | -0.1 [-2.1] | -2.4 [-1.9]† | -3.2 [-2.7] |
+| ↳ STRESS (KRE down, Baa widening) | 13 (10) / 6 | 13 / 6 | +0.6 [-0.6] | +0.2 [+0.1]† | -0.5 [-0.9] | +2.5 [+0.5] | -0.8 [-0.3]† | -1.3 [-0.8] |
+| ↳ BENIGN/OTHER (KRE down, Baa narrowing) | 4 (4) / 4 | 4 / 4 | +1.2 [-0.0]† | +0.2 [+0.1]† | +1.4 [+1.0]† | -3.0 [-5.0]† | -2.3 [-1.8]† | -2.7 [-2.2]† |
+| ↳ CONSTRUCTIVE, HYG proxy | 13 (11) / 11 | 13 / 11 | **-1.8 [-3.1]** | -1.0 [-1.1] | **-1.9 [-2.4]** | -0.3 [-2.3] | -2.3 [-1.8] | -2.3 [-1.8] |
+| ↳ STRESS REBOUND, HYG proxy | 8 (7) / 7 | 8 / 7 | +0.3 [-0.9]† | +0.7 [+0.6]† | +0.3 [-0.1]† | +1.1 [-0.9]† | -1.4 [-0.9]† | -1.3 [-0.8]† |
+
+### Table 1c — W = 20 sessions, 2-year yield (F60 uses every third window)
+| Cell | n (ep.) 20d | n 60d | KRE F20 | vs KBWB F20 | vs IWM F20 | KRE F60 | vs KBWB F60 | vs IWM F60 |
+|---|---|---|---|---|---|---|---|---|
+| **Baseline: all windows** | 255 / 188 | 85 / 62 | +0.7 (53%↑) | -0.2 (45%↑) | -0.2 (46%↑) | +2.0 (56%↑) | -0.5 (40%↑) | -0.5 (47%↑) |
+| **Yields falling** | 119 (60) / 77 | 39 / 25 | +1.1 [+0.4] | -0.3 [-0.1] | -0.3 [-0.1] | +0.3 [-1.7] | **-1.9 [-1.5]** | **-2.7 [-2.2]** |
+| Yields not falling | 136 (60) / 111 | 46 / 37 | +0.3 [-0.4] | -0.1 [+0.1] | -0.1 [+0.1] | +3.5 [+1.5] | **+0.5 [+1.0]** | **+1.4 [+1.9]** |
+| ↳ KRE up | 57 (41) / 37 | 18 / 11 | +1.2 [+0.5] | -0.1 [+0.1] | -0.2 [+0.0] | -0.3 [-2.3] | **-3.2 [-2.8]** | -2.1 [-1.6] |
+| ↳ KRE down | 62 (43) / 40 | 21 / 14 | +1.0 [+0.4] | -0.4 [-0.3] | -0.4 [-0.3] | +0.8 [-1.2] | -0.9 [-0.4] | -3.2 [-2.7] |
+| ↳ Baa spread widening | 68 (44) / 41 | 22 / 14 | +1.8 [+1.1] | -0.1 [+0.0] | -0.1 [+0.1] | -0.5 [-2.5] | -1.1 [-0.6] | -3.4 [-2.9] |
+| ↳ Baa spread narrowing | 51 (42) / 36 | 17 / 11 | +0.2 [-0.5] | -0.4 [-0.3] | -0.6 [-0.5] | +1.3 [-0.7] | **-3.0 [-2.5]** | -1.8 [-1.3] |
+| ↳ HYG<IEF (widening) | 67 (47) / 43 | 25 / 15 | +1.2 [+0.5] | -0.2 [+0.0] | -0.0 [+0.2] | -2.1 [-4.1] | -1.4 [-0.9] | **-4.3 [-3.8]** |
+| ↳ HYG>IEF (narrowing) | 46 (38) / 34 | 13 / 10 | +1.1 [+0.4] | -0.4 [-0.2] | -0.5 [-0.3] | +4.6 [+2.6] | **-2.7 [-2.2]** | +0.8 [+1.3] |
+| ↳ 2s10s steepening | 51 (35) / 30 | 14 / 7 | +1.1 [+0.4] | -0.6 [-0.4] | +0.2 [+0.3] | +3.6 [+1.5] | -2.2 [-1.7]† | +1.1 [+1.6] |
+| ↳ 2s10s flattening | 68 (51) / 47 | 25 / 18 | +1.1 [+0.5] | -0.0 [+0.1] | -0.7 [-0.5] | -1.5 [-3.6] | -1.8 [-1.4] | **-4.9 [-4.3]** |
+| ↳ KRE beat KBWB | 34 (27) / 34 | 12 / 12 | **+3.5 [+2.8]** | +0.0 [+0.2] | **+1.5 [+1.7]** | +3.1 [+1.1] | -2.6 [-2.2] | -0.9 [-0.4] |
+| ↳ KRE lagged KBWB | 42 (32) / 42 | 13 / 13 | +0.6 [-0.1] | -0.5 [-0.4] | -1.1 [-0.9] | +1.5 [-0.5] | -1.3 [-0.8] | -1.0 [-0.4] |
+| ↳ CONSTRUCTIVE (KRE up, Baa narrowing) | 34 (32) / 25 | 13 / 9 | +0.6 [-0.1] | -0.3 [-0.1] | -0.7 [-0.5] | +1.8 [-0.3] | -3.2 [-2.7]† | -1.8 [-1.3] |
+| ↳ STRESS REBOUND (KRE up, Baa widening) | 23 (18) / 12 | 5 / 2 | +2.1 [+1.4] | +0.4 [+0.6] | +0.6 [+0.8] | -5.5 [-7.5]† | -3.6 [-3.1]† | -2.8 [-2.3]† |
+| ↳ STRESS (KRE down, Baa widening) | 45 (34) / 29 | 17 / 12 | +1.7 [+1.0] | -0.4 [-0.2] | -0.4 [-0.2] | +1.0 [-1.1] | -0.7 [-0.2] | -3.6 [-3.1] |
+| ↳ BENIGN/OTHER (KRE down, Baa narrowing) | 17 (16) / 11 | 4 / 2 | -0.7 [-1.3] | -0.7 [-0.6] | -0.5 [-0.4] | -0.1 [-2.1]† | -2.0 [-1.5]† | -1.7 [-1.2]† |
+| ↳ CONSTRUCTIVE, HYG proxy | 30 (27) / 23 | 10 / 8 | +1.7 [+1.0] | -0.4 [-0.2] | -0.4 [-0.2] | +6.0 [+4.0] | -2.9 [-2.4]† | +1.9 [+2.4] |
+| ↳ STRESS REBOUND, HYG proxy | 22 (19) / 14 | 7 / 3 | +0.6 [-0.0] | +0.4 [+0.6] | +0.5 [+0.6] | -9.8 [-11.8]† | -4.3 [-3.8]† | -7.1 [-6.6]† |
+
+### Table 1d — W = 20 sessions, 10-year yield
+| Cell | n (ep.) 20d | n 60d | KRE F20 | vs KBWB F20 | vs IWM F20 | KRE F60 | vs KBWB F60 | vs IWM F60 |
+|---|---|---|---|---|---|---|---|---|
+| **Baseline: all windows** | 255 / 188 | 85 / 62 | +0.7 (53%↑) | -0.2 (45%↑) | -0.2 (46%↑) | +2.0 (56%↑) | -0.5 (40%↑) | -0.5 (47%↑) |
+| **Yields falling** | 128 (67) / 91 | 43 / 32 | +0.9 [+0.2] | +0.0 [+0.2] | -0.3 [-0.1] | -0.2 [-2.2] | -0.9 [-0.4] | -2.4 [-1.9] |
+| Yields not falling | 127 (67) / 97 | 42 / 30 | +0.5 [-0.2] | -0.3 [-0.2] | -0.0 [+0.1] | +4.3 [+2.3] | -0.1 [+0.4] | +1.4 [+2.0] |
+| ↳ KRE up | 59 (47) / 42 | 18 / 12 | +0.3 [-0.4] | +0.1 [+0.2] | -0.3 [-0.1] | **-3.2 [-5.2]** | **-3.5 [-3.0]** | -3.1 [-2.6] |
+| ↳ KRE down | 69 (49) / 49 | 25 / 20 | +1.4 [+0.7] | -0.0 [+0.1] | -0.3 [-0.1] | +1.9 [-0.1] | +0.7 [+1.2] | -1.9 [-1.4] |
+| ↳ Baa spread widening | 70 (48) / 48 | 25 / 18 | +1.7 [+1.1] | +0.2 [+0.4] | +0.0 [+0.2] | -0.9 [-2.9] | -0.7 [-0.2] | -3.6 [-3.1] |
+| ↳ Baa spread narrowing | 58 (49) / 43 | 18 / 14 | -0.1 [-0.8] | -0.2 [-0.1] | -0.7 [-0.5] | +0.8 [-1.3] | -1.1 [-0.6] | -0.7 [-0.2] |
+| ↳ HYG<IEF (widening) | 80 (57) / 58 | 29 / 20 | +0.9 [+0.2] | -0.0 [+0.1] | -0.1 [+0.1] | -1.0 [-3.0] | -0.4 [+0.1] | **-3.7 [-3.2]** |
+| ↳ HYG>IEF (narrowing) | 43 (39) / 33 | 13 / 12 | +0.9 [+0.2] | +0.1 [+0.3] | -0.4 [-0.2] | +1.3 [-0.7] | -1.7 [-1.2] | +0.7 [+1.3] |
+| ↳ 2s10s steepening | 30 (21) / 17 | 8 / 4 | +0.9 [+0.2] | -0.3 [-0.1] | -0.4 [-0.2] | -1.7 [-3.8]† | -3.0 [-2.5]† | -0.4 [+0.2]† |
+| ↳ 2s10s flattening | 98 (64) / 74 | 35 / 28 | +0.9 [+0.2] | +0.1 [+0.2] | -0.3 [-0.1] | +0.1 [-1.9] | -0.6 [-0.1] | **-2.9 [-2.4]** |
+| ↳ KRE beat KBWB | 37 (29) / 37 | 13 / 13 | +2.2 [+1.6] | -0.0 [+0.2] | +0.7 [+0.9] | +0.5 [-1.6] | -2.6 [-2.1] | -2.3 [-1.7] |
+| ↳ KRE lagged KBWB | 53 (36) / 53 | 19 / 19 | +0.2 [-0.5] | -0.0 [+0.1] | -0.5 [-0.3] | +2.8 [+0.8] | +0.3 [+0.8] | +0.6 [+1.2] |
+| ↳ CONSTRUCTIVE (KRE up, Baa narrowing) | 37 (35) / 28 | 13 / 9 | -0.3 [-1.0] | -0.1 [+0.0] | -0.8 [-0.7] | -0.6 [-2.6] | -3.3 [-2.8]† | -2.3 [-1.8] |
+| ↳ STRESS REBOUND (KRE up, Baa widening) | 22 (17) / 14 | 5 / 3 | +1.3 [+0.6] | +0.5 [+0.7] | +0.6 [+0.8] | -9.9 [-11.9]† | -4.0 [-3.6]† | -5.3 [-4.8]† |
+| ↳ STRESS (KRE down, Baa widening) | 48 (38) / 34 | 20 / 15 | +1.9 [+1.2] | +0.1 [+0.3] | -0.2 [-0.1] | +1.4 [-0.7] | -0.0 [+0.5] | -3.2 [-2.7] |
+| ↳ BENIGN/OTHER (KRE down, Baa narrowing) | 21 (19) / 15 | 5 / 5 | +0.2 [-0.5] | -0.3 [-0.2] | -0.5 [-0.4] | +4.2 [+2.2]† | +2.8 [+3.3]† | +3.3 [+3.8]† |
+| ↳ CONSTRUCTIVE, HYG proxy | 28 (27) / 23 | 9 / 8 | +1.0 [+0.3] | +0.1 [+0.3] | -0.2 [-0.0] | +1.9 [-0.1]† | -3.0 [-2.5]† | +1.0 [+1.5]† |
+| ↳ STRESS REBOUND, HYG proxy | 27 (24) / 19 | 8 / 4 | -0.5 [-1.1] | +0.0 [+0.2] | -0.2 [-0.0] | -9.7 [-11.7]† | -4.5 [-4.0]† | -7.3 [-6.8]† |
+
+### Table 1e — Robustness of the key cells: alternative thresholds, ex-GFC (60-session horizon)
+Alternative thresholds: falling yields means Δy ≤ −10bp (W=20) or ≤ −20bp (W=63), plus dead-bands on every dimension. Ex-GFC drops windows that touch 2007-07 → 2009-06.
+
+| W | Tenor | Cell | F60 KRE: primary | alt thresholds | ex-GFC | F60 vs KBWB: primary | alt |
+|---|---|---|---|---|---|---|---|
+| 20 | 2y | Yields falling | +0.3 (n=39) | -4.2 (n=21) | +2.2 (n=32) | -1.9 (n=25) | -2.3 (n=12) |
+| 20 | 2y | KRE up | -0.3 (n=18) | -3.7 (n=6) | +3.5 (n=15) | -3.2 (n=11) | -7.0 (n=2) |
+| 20 | 2y | CONSTRUCTIVE | +1.8 (n=13) | +3.4 (n=3) | +3.2 (n=12) | -3.2 (n=9) | -7.0 (n=2) |
+| 20 | 2y | STRESS REBOUND | -5.5 (n=5) | -20.3 (n=1) | +5.0 (n=3) | -3.6 (n=2) | — |
+| 20 | 2y | STRESS REBOUND (HYG) | -9.8 (n=7) | -10.7 (n=3) | -5.2 (n=5) | -4.3 (n=3) | -12.6 (n=1) |
+| 20 | 10y | Yields falling | -0.2 (n=43) | -0.7 (n=28) | +1.6 (n=38) | -0.9 (n=32) | -0.9 (n=18) |
+| 20 | 10y | KRE up | -3.2 (n=18) | -1.5 (n=7) | +0.1 (n=15) | -3.5 (n=12) | -4.9 (n=4) |
+| 20 | 10y | CONSTRUCTIVE | -0.6 (n=13) | +3.4 (n=3) | +0.7 (n=12) | -3.3 (n=9) | -7.0 (n=2) |
+| 20 | 10y | STRESS REBOUND | -9.9 (n=5) | -20.3 (n=1) | -2.3 (n=3) | -4.0 (n=3) | — |
+| 20 | 10y | STRESS REBOUND (HYG) | -9.7 (n=8) | -10.7 (n=3) | -5.8 (n=6) | -4.5 (n=4) | -12.6 (n=1) |
+| 63 | 2y | Yields falling | +0.6 (n=37) | +0.6 (n=21) | +2.2 (n=32) | -2.2 (n=25) | -2.9 (n=12) |
+| 63 | 2y | KRE up | +0.4 (n=22) | -4.0 (n=5) | +3.0 (n=20) | -2.4 (n=17) | -7.1 (n=3) |
+| 63 | 2y | CONSTRUCTIVE | +2.6 (n=12) | -4.2 (n=2) | +2.6 (n=12) | -2.6 (n=11) | -8.0 (n=2) |
+| 63 | 2y | STRESS REBOUND | -2.1 (n=10) | -3.8 (n=3) | +3.5 (n=8) | -2.0 (n=6) | -5.2 (n=1) |
+| 63 | 2y | STRESS REBOUND (HYG) | +0.1 (n=7) | -11.8 (n=2) | +4.3 (n=6) | -2.1 (n=6) | -5.2 (n=1) |
+| 63 | 10y | Yields falling | +0.7 (n=39) | +2.1 (n=24) | +1.5 (n=35) | -1.7 (n=28) | -2.2 (n=16) |
+| 63 | 10y | KRE up | +0.2 (n=22) | +2.7 (n=3) | +1.4 (n=21) | -1.9 (n=18) | -9.4 (n=2) |
+| 63 | 10y | CONSTRUCTIVE | +0.4 (n=12) | -5.8 (n=1) | +0.4 (n=12) | -1.6 (n=11) | -13.6 (n=1) |
+| 63 | 10y | STRESS REBOUND | -0.1 (n=10) | +7.0 (n=2) | +2.7 (n=9) | -2.4 (n=7) | -5.2 (n=1) |
+| 63 | 10y | STRESS REBOUND (HYG) | +1.1 (n=8) | +1.8 (n=1) | +4.9 (n=7) | -1.4 (n=7) | -5.2 (n=1) |
+
+### Table 1f — W = 20, 60-session horizon: sensitivity to the grid phase
+| Tenor | Cell | phase 0 (primary) | phase 1 | phase 2 |
+|---|---|---|---|---|
+| y2 | ALL | +2.0 (n=85, 56%↑) | +1.8 (n=84, 58%↑) | +2.0 (n=84, 63%↑) |
+| y2 | falling | +0.3 (n=39, 51%↑) | +0.9 (n=43, 56%↑) | +2.2 (n=37, 62%↑) |
+| y2 | falling&KRE up&Baa widening | -5.5 (n=5, 40%↑) | +0.9 (n=11, 55%↑) | +3.8 (n=7, 71%↑) |
+| y2 | falling&KRE up&Baa narrowing | +1.8 (n=13, 46%↑) | +0.6 (n=11, 45%↑) | +3.3 (n=10, 60%↑) |
+| y2 | falling&KRE up&HYG<IEF | -9.8 (n=7, 0%↑) | +1.1 (n=9, 44%↑) | +10.5 (n=6, 100%↑) |
+| y2 | falling&KRE up&HYG>IEF | +6.0 (n=10, 70%↑) | +0.9 (n=11, 55%↑) | -0.9 (n=9, 33%↑) |
+| y10 | ALL | +2.0 (n=85, 56%↑) | +1.8 (n=84, 58%↑) | +2.0 (n=84, 63%↑) |
+| y10 | falling | -0.2 (n=43, 51%↑) | +1.4 (n=45, 58%↑) | +3.0 (n=40, 62%↑) |
+| y10 | falling&KRE up&Baa widening | -9.9 (n=5, 20%↑) | +1.1 (n=9, 44%↑) | +5.0 (n=8, 88%↑) |
+| y10 | falling&KRE up&Baa narrowing | -0.6 (n=13, 46%↑) | +0.4 (n=11, 45%↑) | +1.9 (n=13, 54%↑) |
+| y10 | falling&KRE up&HYG<IEF | -9.7 (n=8, 0%↑) | +0.1 (n=10, 40%↑) | +7.6 (n=9, 100%↑) |
+| y10 | falling&KRE up&HYG>IEF | +1.9 (n=9, 67%↑) | +1.1 (n=9, 44%↑) | -0.8 (n=10, 30%↑) |
+
+### Table 1g — Alternative-threshold version of Table 1a (shows how thin the cells get)
+| Cell | n (ep.) 20d | n 60d | KRE F20 | vs KBWB F20 | vs IWM F20 | KRE F60 | vs KBWB F60 | vs IWM F60 |
+|---|---|---|---|---|---|---|---|---|
+| **Baseline: all windows** | 80 / 59 | 80 / 59 | +1.2 (55%↑) | +0.0 (53%↑) | +0.4 (51%↑) | +2.0 (59%↑) | -0.5 (46%↑) | -0.5 (46%↑) |
+| **Yields falling** | 21 (13) / 12 | 21 / 12 | -0.6 [-1.8] | +0.3 [+0.2] | -1.0 [-1.5] | +0.6 [-1.4] | **-2.9 [-2.4]** | **-3.3 [-2.8]** |
+| Yields not falling | 59 (13) / 47 | 59 / 47 | +1.8 [+0.6] | -0.0 [-0.1] | +1.0 [+0.5] | +2.5 [+0.5] | **+0.1 [+0.6]** | **+0.5 [+1.0]** |
+| ↳ KRE up | 5 (5) / 3 | 5 / 3 | -5.4 [-6.6]† | -3.0 [-3.1]† | -2.6 [-3.1]† | -4.0 [-6.0]† | -7.1 [-6.6]† | -4.6 [-4.1]† |
+| ↳ KRE down | 7 (6) / 3 | 7 / 3 | +0.4 [-0.9]† | -0.4 [-0.4]† | -2.2 [-2.6]† | +6.9 [+4.9]† | -1.5 [-1.0]† | -2.6 [-2.1]† |
+| ↳ Baa spread widening | 12 (10) / 5 | 12 / 5 | -0.8 [-2.0] | +0.6 [+0.5]† | -0.9 [-1.3] | +1.0 [-1.0] | -2.1 [-1.6]† | -3.5 [-3.0] |
+| ↳ Baa spread narrowing | 4 (4) / 4 | 4 / 4 | +1.3 [+0.1]† | -0.4 [-0.4]† | -0.7 [-1.1]† | -6.6 [-8.6]† | -6.1 [-5.6]† | -6.5 [-6.0]† |
+| ↳ HYG<IEF (widening) | 15 (11) / 9 | 15 / 9 | -0.9 [-2.1] | +0.9 [+0.9]† | -0.8 [-1.3] | +0.1 [-1.8] | -1.6 [-1.1]† | -3.6 [-3.1] |
+| ↳ HYG>IEF (narrowing) | 4 (4) / 3 | 4 / 3 | +0.4 [-0.8]† | -1.7 [-1.8]† | -1.7 [-2.2]† | +3.5 [+1.5]† | -6.9 [-6.4]† | -1.6 [-1.1]† |
+| ↳ 2s10s steepening | 8 (7) / 4 | 8 / 4 | +2.1 [+0.9]† | +0.5 [+0.4]† | +0.4 [-0.0]† | +1.9 [-0.1]† | -2.3 [-1.8]† | -2.7 [-2.2]† |
+| ↳ 2s10s flattening | 6 (5) / 2 | 6 / 2 | -2.4 [-3.6]† | +4.3 [+4.2]† | -1.8 [-2.2]† | -2.5 [-4.5]† | -2.2 [-1.7]† | -6.9 [-6.4]† |
+| ↳ KRE beat KBWB | 1 (1) / 1 | 1 / 1 | -1.2 [-2.4]† | -1.0 [-1.0]† | -0.6 [-1.0]† | +1.8 [-0.2]† | -5.2 [-4.7]† | +1.7 [+2.2]† |
+| ↳ KRE lagged KBWB | 7 (5) / 7 | 7 / 7 | +2.7 [+1.5]† | +1.5 [+1.5]† | -0.4 [-0.9]† | +4.2 [+2.1]† | -0.6 [-0.1]† | -3.1 [-2.6]† |
+| ↳ CONSTRUCTIVE (KRE up, Baa narrowing) | 2 (2) / 2 | 2 / 2 | -7.2 [-8.4]† | -4.1 [-4.1]† | -6.1 [-6.6]† | -4.2 [-6.2]† | -8.0 [-7.5]† | -4.2 [-3.7]† |
+| ↳ STRESS REBOUND (KRE up, Baa widening) | 3 (3) / 1 | 3 / 1 | -4.2 [-5.4]† | -1.0 [-1.0]† | -0.3 [-0.8]† | -3.8 [-5.8]† | -5.2 [-4.7]† | -4.8 [-4.3]† |
+| ↳ STRESS (KRE down, Baa widening) | 6 (5) / 3 | 6 / 3 | +1.9 [+0.7]† | -0.4 [-0.4]† | -1.4 [-1.8]† | +6.7 [+4.7]† | -1.5 [-1.0]† | -2.9 [-2.4]† |
+| ↳ BENIGN/OTHER (KRE down, Baa narrowing) | 0 (0) / 0 | 0 / 0 | — [—]† | — [—]† | — [—]† | — [—]† | — [—]† | — [—]† |
+| ↳ CONSTRUCTIVE, HYG proxy | 3 (3) / 2 | 3 / 2 | -5.1 [-6.3]† | -4.1 [-4.1]† | -5.0 [-5.4]† | +1.2 [-0.8]† | -8.0 [-7.5]† | -3.9 [-3.4]† |
+| ↳ STRESS REBOUND, HYG proxy | 2 (2) / 1 | 2 / 1 | -5.8 [-7.0]† | -1.0 [-1.0]† | +0.8 [+0.4]† | -11.8 [-13.8]† | -5.2 [-4.7]† | -5.5 [-5.1]† |
+
+![Regime map](out/regime_map.png)
+
+**What sub-question 1 shows**
+
+* **Unconditional base rates.** KRE's next-60-session return averaged **+2.0%** (positive 56–59% of the time) on both grids. KRE − KBWB averaged **−0.5%** (positive 40–46%), reflecting KRE's long-run lag. Every cell has to be compared with these numbers, not with zero.
+* **Falling yields alone barely change the absolute outlook.** Forward-60 KRE after falling-yield windows was −0.2% to +0.7%, against the +2.0% base. That is 1.4–2.2pp worse, but no grid or tenor reaches |t| = 2.
+* **Relative to KBWB, the effect is consistent.**
+
+  | Window, tenor | KRE − KBWB, next 60 sessions | Welch t |
+  |---|---|---|
+  | W63, 2y | −2.2% | −3.0 |
+  | W63, 10y | −1.7% | −2.4 |
+  | W20, 2y | −1.9% | −2.3 |
+  | W20, 10y | −0.9% | −0.7 |
+
+  * The alternative thresholds give the same sign (−2.3% to −2.9% for the 2-year).
+  * Dropping windows whose forward period overlaps COVID (Feb–Apr 2020) or SVB (Mar–May 2023) *strengthens* it (W63, 2y: −2.5% vs +0.8% for the other windows, t −3.1).
+  * The median is also negative (−1.7%).
+  * The biggest contributors are the windows ending Jan 2024 (−13.6pp) and Apr 2025 (−8.9pp). Both are rallies driven by falling yields that later reversed.
+* **KRE rallies during falling-yield windows are the cases that later lag KBWB.** "Falling & KRE up" gave forward-60 KRE − KBWB of −2.4% (W63, 2y, t −2.3), −3.2% (W20, 2y, t −2.6) and −3.5% (W20, 10y, t −2.9). The alternative thresholds give the same sign with 2–4 cases.
+* **The credit split is weak.**
+  * At W=63, "constructive" and "stress rebound" have similar forward-60 KRE returns (2y: +2.6% vs −2.1%; 10y: +0.4% vs −0.1%; n = 10–12 each).
+  * The 10-year "constructive" cell had a *worse* next 20 sessions (−2.0%, t −2.2).
+  * At W=20, stress rebounds look bad over 60 sessions (−5.5% to −9.9%), but only for grid phase 0. Phases 1 and 2 give +0.9% to +10.5% (Table 1f). This is not robust.
+  * The one consistent sign is that stress rebounds were followed by KRE lagging IWM. That holds in 13 of the 16 primary and ex-GFC variants (Baa and HYG proxies × W × tenor), with W63/2y at −4.9% (t −2.2, n=10). Outside the GFC the effect ranges from about 0 to −7%, with n = 3–9.
+* **Curve.** Bull flattening during falling yields was followed by KRE lagging IWM over 60 sessions (W20: −4.9% for the 2y and −2.9% for the 10y, both |t| > 2). Steepening cells are small (n = 8–14). This is suggestive at best.
+* **Multiple testing.** 394 primary cell-vs-complement tests produced 34 with |t| ≥ 2, against about 18 expected by chance. The tests are correlated (nested cells), so treat any single starred cell with caution. The KRE-vs-KBWB pattern is the only *cluster* of results that hangs together across specifications.
+
+---
+
+# 2. The rate-beta flip
+
+The model is a rolling 63-session OLS of r_KRE on r_SPY and the daily change in the 10-year Treasury par yield (in pp), back to 2006, with a 2-year variant. Hiking-cycle dates come from FRED DFEDTAR/DFEDTARU (effective dates):
+
+* 2015-12-16 → 2018-12-20;
+* 2022-03-17 → 2023-07-27;
+* the hike announced on 2026-09-16 (effective 9/17).
+
+Bank-stress periods are marked as GFC (2007-08 → 2009-03) and SVB/FRC (2023-03 → 2023-05).
+
+![Rolling rate beta](out/rate_beta_chart.png)
+
+### Table 2a — KRE rate beta by year (with KBWB for comparison)
+| Year | KRE rate beta: median | min | share of days <0 | KBWB rate beta median | KRE SPY beta median | Fed / stress context |
+|---|---|---|---|---|---|---|
+| 2006 | +0.003 | -0.030 | 46% | — | 1.23 | end of 2004–06 hikes (Jun) |
+| 2007 | -0.005 | -0.052 | 66% | — | 1.14 | cuts from Sep; GFC begins |
+| 2008 | -0.003 | -0.083 | 53% | — | 1.56 | GFC; ZIRP Dec |
+| 2009 | -0.016 | -0.070 | 73% | — | 1.63 | ZIRP |
+| 2010 | -0.011 | -0.040 | 71% | — | 1.32 |  |
+| 2011 | -0.004 | -0.088 | 55% | — | 1.35 |  |
+| 2012 | +0.037 | -0.053 | 14% | +0.027 | 1.16 |  |
+| 2013 | +0.039 | +0.007 | 0% | +0.034 | 1.00 |  |
+| 2014 | +0.058 | +0.017 | 0% | +0.050 | 1.01 |  |
+| 2015 | +0.077 | +0.038 | 0% | +0.066 | 0.78 | first hike Dec 16 |
+| 2016 | +0.122 | +0.021 | 0% | +0.121 | 1.17 | hiking (1) |
+| 2017 | +0.156 | +0.058 | 0% | +0.142 | 1.13 | hiking (3) |
+| 2018 | +0.119 | +0.025 | 0% | +0.119 | 0.65 | hiking (4) |
+| 2019 | +0.122 | +0.057 | 0% | +0.110 | 0.80 | 3 cuts |
+| 2020 | +0.162 | +0.043 | 0% | +0.147 | 0.97 | COVID, ZIRP |
+| 2021 | +0.182 | +0.103 | 0% | +0.164 | 1.20 |  |
+| 2022 | +0.020 | -0.028 | 25% | +0.017 | 0.89 | hiking from Mar 16 |
+| 2023 | +0.019 | -0.069 | 37% | +0.013 | 1.39 | hiking to Jul 26; SVB/FRC Mar–May |
+| 2024 | -0.027 | -0.157 | 58% | -0.005 | 0.94 | cuts from Sep |
+| 2025 | +0.012 | -0.094 | 40% | +0.015 | 1.13 | cuts Sep–Dec |
+| 2026 | -0.035 | -0.148 | 63% | -0.002 | 0.65 | HIKE Sep 16; hold Oct 28 |
+
+### Table 2b — Episodes of negative rate beta (b < 0; runs separated by fewer than 63 sessions are merged)
+| Negative-beta episode (b<0; gaps <63 sessions merged) | Sessions <0 | Min beta (date) | Overlaps hiking cycle | Overlaps bank stress | KRE over span | KRE − SPY | Δ10y | Δ2y |
+|---|---|---|---|---|---|---|---|---|
+| 2006-09-21 → 2010-07-13 | 640 of 958 | -0.083 (2008-10-09) | — | GFC | -41.9% | -31.9pp | -150bp | -404bp |
+| 2010-10-13 → 2012-03-05 | 224 of 351 | -0.088 (2011-12-19) | — | — | +14.7% | -4.3pp | -46bp | -6bp |
+| 2012-07-24 → 2012-08-02 | 5 of 8 | -0.003 (2012-07-25) | — | — | -0.5% | -2.5pp | +7bp | +2bp |
+| 2022-09-22 → 2023-01-17 | 65 of 80 | -0.028 (2022-11-09) | 2022–23 cycle | — | -1.0% | -7.7pp | -17bp | +7bp |
+| 2023-08-15 → 2024-07-31 | 237 of 242 | -0.157 (2024-05-31) | — | — | +33.0% | +6.9pp | -12bp | -63bp |
+| 2025-02-10 → 2026-02-26 | 130 of 263 | -0.094 (2025-02-12) | — | — | +13.1% | -2.2pp | -49bp | -86bp |
+| 2026-05-29 → 2026-10-30 | 101 of 108 | -0.148 (2026-07-09) | 2026 hike | — | +4.7% | +4.2pp | +49bp | +58bp |
+
+### Table 2c — Does a negative rate beta precede weakness? (non-overlapping 63-session grid; condition measured at the grid date)
+| Condition at grid date | Outcome | n | Mean | Hit rate | Baseline mean (n) | Baseline hit | Diff | t vs rest |
+|---|---|---|---|---|---|---|---|---|
+| b<0 | f20_kre | 20 | -0.4% | 40% | +1.2% (80) | 55% | -1.7pp | -1.33 |
+| b<0 | f60_kre | 20 | -0.9% | 45% | +2.0% (80) | 59% | -2.9pp | -1.07 |
+| b<0 | f20_vs_kbwb | 7 | -1.8% | 14% | +0.0% (59) | 53% | -1.9pp | — † |
+| b<0 | f60_vs_kbwb | 7 | -3.0% | 43% | -0.5% (59) | 46% | -2.5pp | — † |
+| b<0 | f20_vs_iwm | 20 | -1.4% | 30% | +0.4% (80) | 51% | -1.9pp | -2.15 |
+| b<0 | f60_vs_iwm | 20 | -3.6% | 30% | -0.5% (80) | 46% | -3.1pp | -1.91 |
+| b<0 | f60_maxdd | 20 | -14.3% | 0% | -13.2% (80) | 0% | -1.1pp | -0.66 |
+| b<-0.03 | f20_kre | 8 | -4.3% | 12% | +1.2% (80) | 55% | -5.5pp | — † |
+| b<-0.03 | f60_kre | 8 | -8.6% | 25% | +2.0% (80) | 59% | -10.6pp | — † |
+| b<-0.03 | f20_vs_kbwb | 4 | -2.2% | 25% | +0.0% (59) | 53% | -2.2pp | — † |
+| b<-0.03 | f60_vs_kbwb | 4 | -0.3% | 75% | -0.5% (59) | 46% | +0.2pp | — † |
+| b<-0.03 | f20_vs_iwm | 8 | -3.9% | 25% | +0.4% (80) | 51% | -4.3pp | — † |
+| b<-0.03 | f60_vs_iwm | 8 | -7.6% | 12% | -0.5% (80) | 46% | -7.1pp | — † |
+| b<-0.03 | f60_maxdd | 8 | -20.3% | 0% | -13.2% (80) | 0% | -7.1pp | — † |
+
+**Onsets of negative-beta regimes** (first day with b < 0 after ≥63 sessions with b ≥ 0). Descriptive only. KRE − KBWB over the next 60 sessions:
+
+| Onset | Result |
+|---|---|
+| 2012-07 | −8.6% |
+| 2022-09 | −4.6% |
+| 2023-08 | −1.8% |
+| 2024-11 (1-day blip) | −4.5% |
+| 2025-02 | −1.1% |
+| 2026-05 | −3.9% |
+| 2010-10 | no KBWB data yet |
+
+That is negative in 6 of 6 cases with data, against a 46% base rate of positive outcomes. This is suggestive, but the n is tiny and the 60-session periods overlap the "falling 2y" episodes above (`out/rate_beta_onsets.csv`).
+
+**What sub-question 2 shows**
+
+* **The current value is extreme on two measures.** KRE's rate beta is −0.062: the 3.7th percentile since 2006 and the 4.2th since 2012. Standardized (beta × σΔy / σr), it is −0.33, the **1.5th percentile**. The KRE SPY beta in the same model is 0.24, the 1.3th percentile.
+* **The sign is not new.**
+  * A negative beta was common in 2006–2011 (46–73% of days per year), but small in size. In the GFC/ZIRP era, falling yields came with bank stress.
+  * It was **never negative in 2013–2021**. That decade produced the "+0.07 median" in the brief.
+  * It returned in late 2022 and has been the majority state since **August 2023** (57% of days; 58% of 2024; 63% of 2026 so far).
+  * The record low (−0.157) came in **May 2024**, after SVB. In that regime, higher yields meant bigger unrealized securities losses and funding pressure, so regionals traded like long-duration assets.
+* **It is a bank-wide regime.** KBWB's rate beta is also negative (−0.031, 4.4th percentile), and the two rolling series correlate at **0.98**. KRE is somewhat more negative: the KRE − KBWB beta gap is −0.031, the 8th percentile. That is consistent with the decoupling from study 1, but it is a difference of degree.
+* **Hiking cycles.**
+  * 2015–18: the beta was **always positive** (median +0.12). Higher rates meant NIM expansion.
+  * 2022–23: median +0.02, negative on 19% of days. It turned negative from Sept 2022, as AOCI losses grew.
+  * **SVB itself (Mar–May 2023): the beta was positive (+0.13).** KRE crashed while yields fell, which is the opposite of today. A negative rate beta is therefore *not* a crisis signature. In the acute 2023 bank run, KRE fell on falling yields.
+  * Overall, P(beta < 0 | hiking) = 8% vs 33% outside hiking. **A strongly negative beta during a hiking phase, as in 2026, has almost no precedent in this sample.** The closest is late 2022 (−0.03 at worst).
+* **Does a negative beta precede drawdowns?** On the non-overlapping 63-session grid, b < 0 (n=20, 14 of them from 2006–2012) was followed by:
+  * forward-60 KRE of −0.9%, against a +2.0% base (t −1.1);
+  * KRE − IWM of −3.6% (t −1.9);
+  * a forward max drawdown of −14.3%, against a −13.2% base: no difference.
+
+  With b < −0.03 (n = 8, mostly GFC), forward-60 is −8.6% and the drawdown −20%, but that sample is too thin and too GFC-heavy to use. **Verdict: a weak tendency toward relative underperformance, and no evidence of a larger drawdown.**
+
+---
+
+# 3. Where 10/14–10/30/2026 sits
+
+### Table 3a — Current windows under the same rules
+| Window | Sessions | Δ2y | Δ10y | Δ2s10s | KRE | KBWB | IWM | SPY | KRE−KBWB | ΔBaa−10y | HYG−IEF | ΔHY OAS | KRE rate beta at start |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-02 → 2026-10-30 | 20 | -27bp | -34bp | -7bp | +1.7% | +1.0% | -0.8% | -1.8% | +0.8pp | +2bp | -2.4pp | +34bp | +0.003 |
+| 2026-08-03 → 2026-10-30 | 63 | +31bp | +24bp | -7bp | -6.0% | -8.4% | -5.5% | -0.0% | +2.4pp | -12bp | -0.9pp | +66bp | -0.124 |
+| 2026-10-14 → 2026-10-30 | 12 | -26bp | -25bp | +1bp | +5.1% | +3.4% | +2.9% | -1.8% | +1.6pp | +5bp | -1.5pp | +19bp | -0.008 |
+| 2026-08-03 → 2026-10-14 | 51 | +57bp | +49bp | -8bp | -10.5% | -11.5% | -8.2% | +1.8% | +0.9pp | -17bp | +0.5pp | +47bp | -0.124 |
+
+**Real vs breakeven split (FRED DFII10, T10YIE).**
+
+| Period | 10y nominal | Real 10y | 10y breakeven |
+|---|---|---|---|
+| 8/3 → 10/14 | +49bp | +41bp | +8bp |
+| 10/14 → 10/29 | −21bp | **−21bp** | **0bp** |
+| 10/22 | −17bp | −12bp | −5bp |
+
+The rally in Treasuries was a fall in real yields and term premium, not lower expected inflation. A "constructive" easing story, where inflation cools and the Fed can stop, would normally show falling breakevens and a falling front end on Fed repricing. Here the 2-year did fall 26bp, but breakevens did not move.
+
+### Table 3b — Pattern scan: 12-session windows like 10/14→10/30
+Criteria: 10y ≤ −15bp, KRE ≥ +3%, and *both* credit proxies widening. Clusters separated by more than 63 sessions; first date shown. The rule was written to match the current episode before its forward returns were printed. **This is exploratory.**
+
+| 12-session window | Δ2y | Δ10y | KRE | KRE−KBWB | KRE−IWM | SPY | ΔBaa | HYG−IEF | ΔHY OAS | KRE rate beta | KRE F20 | KRE F60 | F60 vs KBWB | F60 vs IWM |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2007-08-08 → 2007-08-24 | -34 | -21 | +3.7 | — | +3.5 | -1.0 | +14 | -0.8 | — | +0.001 | -2.1 | -16.9 | — | -10.8 |
+| 2008-01-04 → 2008-01-23 | -65 | -37 | +5.1 | — | +9.4 | -5.3 | +36 | -4.4 | — | +0.012 | -0.2 | -1.5 | — | -5.5 |
+| 2008-07-22 → 2008-08-07 | -31 | -22 | +4.8 | — | +5.1 | -0.4 | +12 | -3.0 | — | +0.018 | +7.5 | +5.3 | — | +29.7 |
+| 2008-11-18 → 2008-12-05 | -22 | -86 | +3.1 | — | +0.7 | +1.0 | +36 | -9.4 | — | +0.008 | -0.6 | -46.6 | — | -23.2 |
+| 2009-03-13 → 2009-03-31 | -17 | -18 | +7.2 | — | +0.0 | +5.3 | +18 | -0.7 | — | -0.060 | +12.1 | -2.8 | — | -24.2 |
+| 2009-06-24 → 2009-07-13 | -27 | -34 | +3.2 | — | +3.6 | -0.0 | +18 | -3.2 | — | -0.007 | +26.3 | +14.6 | — | -7.7 |
+| 2009-11-04 → 2009-11-20 | -16 | -21 | +6.5 | — | +2.3 | +4.3 | +4 | -0.6 | — | -0.036 | +6.4 | +15.5 | — | +7.5 |
+| 2010-09-17 → 2010-10-05 | -7 | -25 | +4.1 | — | -1.8 | +3.2 | +8 | -1.3 | — | +0.015 | -4.2 | +15.2 | — | +0.3 |
+| 2014-02-12 → 2014-03-03 | -3 | -20 | +3.0 | +3.1 | -0.9 | +1.6 | +1 | -0.1 | — | +0.020 | +4.8 | -2.9 | -3.8 | +0.2 |
+| 2015-03-04 → 2015-03-20 | -6 | -19 | +3.7 | +1.5 | +0.7 | +0.5 | +5 | -2.3 | — | +0.083 | -0.2 | +8.7 | +1.4 | +8.1 |
+| 2015-11-12 → 2015-12-01 | +2 | -17 | +3.1 | +0.2 | -1.3 | +2.9 | +2 | -1.0 | — | +0.165 | -6.9 | -22.9 | -2.0 | -9.0 |
+| 2022-06-16 → 2022-07-06 | -17 | -35 | +4.1 | +2.1 | -0.6 | +5.0 | +26 | -2.5 | — | +0.010 | +8.4 | +1.1 | +5.1 | +3.7 |
+| 2023-12-08 → 2023-12-27 | -51 | -44 | +9.3 | +0.4 | -0.7 | +4.0 | +3 | -0.3 | -41 | -0.065 | -1.9 | -7.9 | -13.9 | -8.5 |
+| 2024-04-23 → 2024-05-09 | -6 | -16 | +3.5 | +0.7 | -0.2 | +2.9 | +2 | -0.4 | -6 | -0.150 | -6.3 | +5.0 | +5.3 | +5.4 |
+| 2025-01-10 → 2025-01-29 | -19 | -22 | +9.1 | -0.7 | +4.8 | +3.7 | +3 | -0.3 | -13 | +0.054 | -3.7 | -14.6 | +0.1 | -0.6 |
+| 2025-08-18 → 2025-09-04 | -18 | -17 | +6.8 | +1.6 | +3.0 | +0.9 | +10 | -0.5 | -4 | -0.023 | -4.4 | -4.2 | -6.6 | -9.6 |
+| 2026-01-27 → 2026-02-12 | -6 | -15 | +3.6 | +3.8 | +5.5 | -2.0 | +7 | -1.2 | +21 | -0.042 | -10.7 | -2.5 | -1.8 | -12.6 |
+| 2026-06-08 → 2026-06-25 | -6 | -16 | +6.9 | +0.5 | +1.4 | -0.4 | +2 | -0.9 | +3 | -0.112 | +1.3 | -3.2 | -1.2 | +1.0 |
+| 2026-10-07 → 2026-10-23 | -8 | -28 | +5.2 | +4.1 | +5.9 | -2.2 | +1 | -2.4 | +29 | -0.066 | — | — | — | — |
+| **All 18 with F60** | | | | | | | | | | | +1.4 (39%↑) | -3.4 (39%↑) | -1.7 (n=10) | -3.1 (44%↑) |
+| **Post-2012 (10)** | | | | | | | | | | | -2.0 (30%↑) | -4.3 (30%↑) | -1.7 (40%↑) | -2.2 (50%↑) |
+
+(Reference: the mean 60-session KRE return over all start dates is +2.0%, positive 58% of the time.)
+
+**Placement.**
+
+* **Classification.**
+  * *20-session window (10/2 → 10/30):* falling 2y (−27bp) and 10y (−34bp), KRE up (+1.7%), KRE beat KBWB (+0.8pp), Baa wider (+2bp), HYG < IEF (−2.4pp), HY OAS +34bp, 2s10s −7bp. That is **STRESS REBOUND, with bull flattening and KRE outperforming KBWB.**
+  * *63-session window (8/3 → 10/30):* **not** a falling-yield window. Both yields rose (2y +31bp, 10y +24bp). The rally is a partial retracement inside a rising-yield quarter.
+* **10/22 is close to unique.** Only one other day since 2006 had the 10-year down ≥10bp, SPY down ≥1% and KRE up ≥1.5%: **1/22/2008**, the day of the Fed's emergency 75bp cut, whose effective date in FRED DFEDTAR is 2008-01-22. More broadly, on days when the 10-year fell ≥10bp, KRE rose on **0% of such days in most years from 2012 to 2021**, against 47–100% since 2022. Regionals rallying on a bond rally is a post-2022 behaviour.
+* **Which episodes it resembles most, and why:**
+  1. **Post-2023 "AOCI-relief" rallies: Dec 2023, May 2024, Jan 2025, Sep 2025, Feb 2026, Jun 2026.** The mechanism is the same: KRE rallies *because* yields fall. The rate beta was already negative in five of the six; Jan 2025 is the exception.
+   * Forward-60 KRE returns: −7.9%, **+5.0%**, −14.6%, −4.2%, −2.5% and −3.2%. That is 5 of 6 negative, mean −4.6%.
+   * Four of the six lagged KBWB, Dec 2023 by −13.9pp. May 2024, the most negative-beta case (b −0.150), is the counter-example: +5.0% absolute and +5.3pp against KBWB.
+   * Jan 2025 ran into the tariff shock, so it is not a clean read.
+  2. **Late-2007 / Jan-2008 flight-to-quality rebounds.** These had the same *market* signature: falling yields, wider credit, KRE up while SPY fell, and in Jan 2008 the 10/22-type day itself. Forward-60 returns were −16.9% and −1.5%. The difference is important: then, bank credit was the source of the stress. Now the stress comes from outside banking (AI capex, France, the Middle East). Note that HY OAS at 3.44 is *near the top* of its FRED-available 2023–26 range (2.59–4.61); it was wider than on 88% of days since Nov 2023. Pre-2023 levels cannot be checked from FRED's free series, so I cannot say whether 3.44 is high or low in long-run terms.
+  3. **Not like SVB (Mar 2023).** Then, yields fell *and* KRE crashed, and the rate beta was positive.
+  4. **Not like 2015–18 hiking.** Then, regionals rose *with* yields.
+* **The current episode also differs from every analog in one way.** The Fed is *hiking*: +25bp on 9/16/2026, a hold with two hike dissents on 10/28, and a December hike reportedly in play. In earlier falling-yield rallies the Fed was cutting or on hold. A hiking Fed caps how far the front end can fall, so the rate-relief channel is more fragile.
+
+---
+
+# 4. Cross-section: which traits matter on falling- vs rising-yield days (optional study)
+
+* **Universe and data.** The 167 KRE holdings (SSGA file dated 30-Oct-2026) were mapped to 6/30/2026 FDIC call reports. Charters were summed by holding company (Wintrust = 17 charters in the 6/30 data; PNFP includes the former Synovus charter).
+* **Mapping corrections.** 14 tickers needed manual mapping because the automatic match picked a different bank with the same holding-company name: FNB, CFG, LOB, THFF, CCNE, PEBO, IBCP, HTH, TFSL, CLBK, AMAL, MCHB, FLG, TOWN (`xs/overrides.csv`).
+* **Returns.** Excess return = stock minus the equal-weighted 167, from 7/1 to 10/30/2026.
+* **Days.** Falling days are Δ10y ≤ −5bp (8 days, including 10/22); rising days are Δ10y ≥ +5bp (14 days).
+* **Model.** OLS with HC3 errors; each trait is z-scored and size-controlled.
+
+### Table 4 — Coefficients per 1 SD of each trait (bp of daily excess return), HC3 t in brackets
+| Trait (1 SD; size-controlled) | Falling days: coef bp (t) | Rising days: coef bp (t) | Fall − rise (t) | Relative rate beta: ×1e4 (t) | Rate-beta t, robustness: drop 10/22 · ±3bp · Apr–Oct |
+|---|---|---|---|---|---|
+| Unrealized securities gain(+)/loss(−) ÷ T1 | -2.3 (-0.9) | -3.6 (-2.2) | +0.4 | -39 (-2.0) | -2.4 · -2.0 · -2.3 |
+| HTM unrealized gain/loss ÷ T1 | -5.8 (-2.2) | -2.6 (-1.6) | -1.0 | +1 (+0.1) | -1.3 · +0.1 · +0.1 |
+| HTM share of securities | +5.4 (+1.7) | -0.3 (-0.2) | +1.2 | -49 (-1.4) | — · — · — |
+| Securities ÷ assets | +2.9 (+0.8) | +3.7 (+1.6) | -0.2 | +36 (+1.6) | — · — · — |
+| Deposit cost (H1 annualized) | +0.8 (+0.2) | -4.2 (-2.1) | +1.0 | -45 (-1.5) | -1.0 · -1.5 · -2.2 |
+| Uninsured ÷ deposits | +1.1 (+0.3) | +3.4 (+1.7) | -0.6 | +14 (+0.5) | — · — · — |
+| Loans ÷ deposits | -0.2 (-0.1) | -5.5 (-2.7) | +1.0 | -46 (-1.6) | -1.5 · -1.6 · -2.0 |
+| CRE concentration (÷ capital) | +2.6 (+0.8) | -5.2 (-2.3) | +1.8 | -69 (-2.7) | -1.9 · -2.7 · -2.9 |
+| log assets | +9.6 (+3.2) | -5.2 (-3.1) | +3.9 | -56 (-2.8) | -4.0 · -2.8 · -2.5 |
+
+**What sub-question 4 shows**
+
+* **Size is the rate exposure inside KRE.** Larger KRE banks gained more on falling-yield days (+9.6bp per SD, t 3.2) and lost more on rising-yield days (−5.2bp, t −3.1). Their relative rate beta is more negative (t −2.5 to −4.0 across the robustness variants). This matches study 1's "size = beta" finding and points to the same channel that makes KBWB's beta negative.
+* **CRE concentration, loan/deposit ratio and deposit cost predict *rising-yield-day* losses.** The t-values are −2.1 to −2.7, and the rate-beta t for CRE is −1.9 to −2.9 across variants. The within-KRE rate channel looks like **credit and funding** ("higher for longer hurts CRE borrowers and deposit costs"), not securities marks.
+* **Securities losses work the "wrong" way for an AOCI story.** Larger unrealized losses relative to T1 come with a *less* negative relative rate beta (t ≈ −2.0 to −2.4, where a negative coefficient means bigger losses give a higher beta).
+* **HTM loss / T1** was associated with better returns on falling days (t −2.2, same sign convention) *and* on rising days (t −1.6). The fall-minus-rise difference is insignificant (t −1.0). **The prior "bigger HTM losses → bigger rally" result is better read as general outperformance of those names than as rate relief.**
+* **Caveats.** 8–22 event days; 9 traits × 4 outcomes; earnings-season days fall inside the window. The robustness variants were dropping 10/22, using a ±3bp threshold, and using an Apr–Oct window. Across them, size (|t| 2.5–4.0), securities loss (|t| 2.0–2.4) and CRE (|t| 1.9–2.9) keep their sign and size for the relative rate beta, while deposit cost and loan/deposit weaken. Re-run on 9/30 call reports when FDIC loads them.
+
+---
+
+# 5. Confidence & gaps
+
+**Where I'm fairly confident**
+
+* The re-verified market and macro facts (§0). The Fed actions are confirmed in Fed press releases.
+* The rate beta is at an extreme (1.5th–4th percentile). It is shared with KBWB, so it is not KRE-specific. A negative sign has been the norm since Aug 2023, but it is rare during a hiking phase.
+* Falling yields, and KRE rallies within them, have been followed by KRE *lagging KBWB* over ~60 sessions. This holds on both grids for the 2-year, survives the alternative thresholds and the COVID/SVB exclusion, and the median agrees.
+
+**Where I'm not confident**
+
+* **Whether today's rally is "constructive" or a "temporary rebound."** The pre-defined credit split does not separate outcomes robustly. Cells are 5–12 windows; results flip with the grid phase (Table 1f); the alternative thresholds leave 1–3 cases; and 2008 dominates the stress-rebound cells.
+* **The credit measure itself.** HY OAS history is unavailable from FRED's free series, and the two proxies agree with HY OAS on direction only about 70% of the time. A licensed full ICE BofA HY OAS history, or ALFRED once it is reachable, could re-classify a quarter of the windows. **This is the single change most likely to alter sub-question 1's credit results.**
+* **The analog scan (Table 3b)** is exploratory. The rule was chosen to resemble the current episode, the forward periods include exogenous shocks, and 7 of 18 cases are from 2007–09.
+* **The cross-section** rests on 8 falling days, and the FDIC mapping relies on name matching with 14 manual fixes. A mis-mapped bank would add noise rather than bias.
+
+**Where sources or data disagreed**
+
+* The brief's SPY beta (0.21) and R² (0.17) differ from mine (0.24, 0.15). The rate coefficient matches (−0.061 vs −0.062). The likely cause is the yield source or window alignment; it does not change any conclusion.
+* The brief's "historical median +0.070" is a since-2012 median. The full-history (2006) median is +0.042.
+* The press gives slightly different 10-year closes for 10/22 (CNBC 4.972%; Treasury par 4.96%). I use Treasury's par curve throughout.
+
+**Claims resting only on secondary sources**
+
+* That futures price a December hike (CNBC).
+* The names of the 10/28 dissenters (CNBC, J.P. Morgan AM; the Fed statement in hand shows only the 10–2 vote).
+* The narrative causes of 10/22: the AI selloff, French fiscal stress and Mideast tensions (CNBC, Bloomberg).
+* The market data for 10/22 *is* primary (Treasury, Yahoo prices).
+
+**What would change the conclusion**
+
+* (1) Full HY OAS history re-classifying the credit cells.
+* (2) Breakevens and the front end starting to fall *together*, with HY OAS tightening, which would move the episode toward the CONSTRUCTIVE cell.
+* (3) The rate beta turning positive again (yields rising while KRE rises), which would mark a return to the NIM regime.
+* (4) 9/30 call reports showing deposit-cost or CRE deterioration among the names that led the rally.
+* (5) For study 4: this study suggests that low correlation plus a negative rate beta overlaps heavily with "KRE rallies on falling yields". Any low-correlation predictive test should control for that regime.
+
+**Thin cells (explicit list).**
+
+* All W=20 stress-rebound and benign cells at the 60-session horizon (n = 2–8).
+* All alternative-threshold sub-cells (n = 0–7).
+* Every rate-beta condition with b < −0.03 (n = 4–8).
+* All "vs KBWB" cells before 2012 (no data).
+
+---
+
+# Appendix A — Files (all in this folder)
+
+| File | What it is |
+|---|---|
+| `REPORT.md` / `REPORT.pdf` | this report |
+| `PREREGISTERED_SPEC.md` | classification rules fixed before forward returns, with a change log |
+| `build_data.py` | downloads → `data/master.csv` (KRE, KBWB, IWM, SPY, HYG, IEF adj. closes; Treasury 2y/10y/3m; HY OAS; BAA10Y) |
+| `regime.py` | sub-question 1 → `out/windows_W20.csv`, `out/windows_W63.csv`, `out/regime_table.csv` (all cells × thresholds × horizons × outcomes, with n, episodes, mean, median, hit, baseline, diff, t), `out/W20_h60_phase_robustness.csv` |
+| `ratebeta.py` | sub-question 2 → `out/rolling_rate_beta.csv`, `out/rate_beta_episodes.csv`, `out/rate_beta_forward*.csv`, `out/rate_beta_onsets.csv`, `out/rate_beta_chart.png` |
+| `current.py` | sub-question 3 → `out/current_classification.csv`, `out/analogs_12d.csv`, `out/analogs_nn_*.csv`, `out/days_like_1022.csv`, `out/real_vs_breakeven.csv` |
+| `explore_ratebeta_interaction.py` | exploratory: rate-beta sign × falling yields → `out/exploratory_ratebeta_interaction.csv` (all cells n ≤ 10; inconclusive) |
+| `regime_map.py` | `out/regime_map.png` |
+| `xs/match.py`, `xs/overrides.csv`, `xs/mapping.csv` | KRE ticker → FDIC holding-company mapping |
+| `xs/crosssection.py` | sub-question 4 → `xs/traits.csv`, `xs/traits_and_outcomes.csv`, `xs/xs_results.csv`, `xs/xs_robustness.csv` |
+| `make_tables.py` | builds this report's tables from the CSVs |
+
+To reproduce: re-download the raw files with the URLs below into `data/` (Yahoo JSON per ticker into `data/` and `data/px/`), then run `build_data.py → regime.py → ratebeta.py → current.py → xs/match.py → xs/crosssection.py → make_tables.py`.
+
+# Appendix B — Sources
+
+* **US Treasury, daily par yield curve CSVs, 2005–2026:** `https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/{YEAR}/all?type=daily_treasury_yield_curve&field_tdr_date_value={YEAR}&page&_format=csv`
+* **FRED series:** BAMLH0A0HYM2 (truncation note on the FRED series page), BAA10Y, DFEDTAR, DFEDTARU, DFII10, T10YIE, NFCI (downloaded, not used). Pattern: `https://fred.stlouisfed.org/graph/fredgraph.csv?id=…`
+* **Federal Reserve press releases:**
+  * FOMC statement, Sept 16, 2026: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm
+  * FOMC statement, Oct 28, 2026: https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
+  * Minutes, Sept 15–16, 2026: https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm
+* **FDIC BankFind financials API** (REPDTE 20260630): https://api.fdic.gov/banks/financials
+* **SSGA KRE daily holdings** (as of 30-Oct-2026): https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-kre.xlsx
+* **Yahoo Finance chart API v8** (adjclose; explicit period1/period2) for ETF and stock prices. This is a secondary data vendor for prices; there is no free primary source for adjusted ETF prices.
+* **Secondary (named where used):**
+  * CNBC, Oct 28 2026 Fed coverage (dissenters; December pricing);
+  * CNBC / Bloomberg, Oct 22 2026 market coverage (drivers of the Treasury rally);
+  * J.P. Morgan AM, FOMC Oct 2026 note (dissenters).

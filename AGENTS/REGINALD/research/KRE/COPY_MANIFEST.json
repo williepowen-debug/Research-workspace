@@ -271,6 +271,44 @@
       "copy": "screenshots/KRE YTD.JPG",
       "bytes": 168708,
       "sha256": "bda89e402bd8f4e7aafd8be313bb8e4ca360df53fc64a0af38bd30bacf6674b6"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-study3-review/input_report.md",
+      "copy": "reports/2026-11-02_kre-study3-review/input_report.md",
+      "bytes": 55942,
+      "sha256": "db1ddae6b186dccc5a94daacccf11170fa0d709558a86753d8a47a77086494f7"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-study3-review/PREREGISTERED_SPEC.md",
+      "copy": "reports/2026-11-02_kre-study3-review/PREREGISTERED_SPEC.md",
+      "bytes": 4604,
+      "sha256": "3fc31bd303f82aa4191de58967906a7cf312a2d66cb48cdda45db7069d715ff2"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-study3-review/review.json",
+      "copy": "reports/2026-11-02_kre-study3-review/review.json",
+      "bytes": 6146,
+      "sha256": "212eeab9f56afa36fd5681211b3c5d038feddf859c5660fd53afffbd29aa09ce"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-study3-review/spec_addendum.json",
+      "copy": "reports/2026-11-02_kre-study3-review/spec_addendum.json",
+      "bytes": 2859,
+      "sha256": "4a1771dff8949964efd3ed84754a99bf7a3837b6fd0572154df4ea00bc21b379"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-cato-sensitivity/check.py",
+      "copy": "reports/2026-11-02_kre-cato-sensitivity/check.py",
+      "bytes": 2729,
+      "sha256": "efed714b82a0cc0551af240dde34d0938322e8783288f10f43d133cbcc4229ca",
+      "source_sha256": "2702741ed168feaff6845a4961abdbcf9f9c6bdfa6dca63653b4cf443e8c0db7",
+      "adaptation": "Repository-root discovery adapted to deeper collection path; calculation unchanged."
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-cato-sensitivity/results.json",
+      "copy": "reports/2026-11-02_kre-cato-sensitivity/results.json",
+      "bytes": 2507,
+      "sha256": "c2de40e00a6be8d3b21df3d93d0c98610f6450ce505c6ce1139ace61c090b00b"
     }
   ]
 }
