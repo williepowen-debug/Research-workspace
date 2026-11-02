@@ -1,34 +1,24 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-01T02:31:35Z. Will-requested Call Report analysis, Codex/OpenAI; exact serving model unknown. FULL continuity closeout.
+Updated 2026-11-02T13:14:07Z. Session CLOSED on Will request; Codex/OpenAI. FULL continuity closeout.
 
 ## STATUS
 
-ACTIVE and routing-ready. Boot remains PARTIAL on preserved source, owner-evidence and global-visibility limits. Prior cleanup/outbox publication and earlier registrar follow-through are verified complete. Burst-window retirement and central READ-row transcription are complete. Prior design-backlog payload and receipt are origin-proven. Approved verdict F1/F2 amendment implemented; its publication has its own receipt below. The implemented WALTER cleanup is validated; no blanket market clearance or new threshold fire/exit.
+CLOSED on Will request. Research saved and published; next launch reads the carries below. Boot remains PARTIAL on preserved source, owner-evidence and global-visibility limits. Prior cleanup/outbox publication and earlier registrar follow-through are verified complete. Burst-window retirement and central READ-row transcription are complete. Prior design-backlog payload and receipt are origin-proven. Approved verdict F1/F2 amendment implemented; its publication has its own receipt below. The implemented WALTER cleanup is validated; no blanket market clearance or new threshold fire/exit.
 
 ## CHANGED
 
-Completed requested comparison of 14 banks across March/June/September primary FFIEC reports. All 14 equity bridges reconcile; independent helper checked five focused names and material basis traps. Book-equity pressure, mixed credit and FLG/HBAN composition flags recorded in card 026 with seven handoffs. Evidence: research/2026-10-31_call-report-read/REPORT.md. Previous CHANGED preserved verbatim in SESSION_LOG.
+Verified prior publication, delivery and FLG/REGINALD owner consumption. Recorded completed first reviews and the remaining 10-Q/November 7 work. Corrected a $1K VLY prose typo against unchanged primary arithmetic. Prior CHANGED/RESULT and MEMORY session narrative preserved verbatim in SESSION_LOG.
 
 ## RESULT
 
-Current analysis: 14/14 bank items folded into card 026; 42 dated/RSSD-validated facsimiles, one helper complete. No 20% equity decline in this selected sample; not a test of the national 95-bank claim. FLG/HBAN M3 steps need owner reconciliation, not automatic risk grades. Seven new handoffs written; publication pending. Prior boot results below retain their earlier scope.
-
-This boot: three new cards (023–025), nine written handoffs; batch 10/10 closed and marked, seven full/three partial source packages. Doctor has no HIGH; retained exact-consumption MED and source coverage gaps. Current local Codex visibility is positive-only; previous runtime observations below are dated history.
-
-FT08 is verified on the governing published Table A basis: July 0.2%, August 0.3%, September 0.3% compound to 3.247216% → 3.2%, reproducing the existing October 14 owner fire. The earlier rounded-MoM-only limitation was wrong; no new grade or weight change.
-
-CME preliminary December CL/RB/HO = 104.12 / 3.1565 / 4.6761; HO×42−CL = 92.2762 $/bbl, above the $90.16 held-share line but below the existing $95 notice line. Final certification is still owed, and TERRY owns the grade. ICE Endex calendar: Dec26 LTD November 27 / FSD November 30; Jan27 LTD December 30 / FSD December 31. Calendar evidence does not resolve T07 settlement disagreement.
-
-Local Codex inventory succeeded at 19:50:18Z: WALTER active, CATO idle, six helpers. Claude inventory at 19:53:32Z identifies PROME interactive idle. Other desks are UNKNOWN, not DARK. Eight threads are not eight domain desks; idle is not closed. No owner launch, cross-session message or doorbell.
-
-Forty-two other-owner STATUS lead blocks remain unchanged from the prior review; PROME’s October31 closeout header was reviewed and mirrored. WALTER mirror refreshed before NETWORK AWARENESS. Current FULL review clears the prior LIGHT deferral. Fresh origin proves 7bf36fa9a/a88c01e3e and PROME transcription 91e310264. All 74 October 31 handoffs now origin-proven, including card022; recipient consumption remains separate.
+Research payload 34806ae91 and receipt 98e1e5a0e are origin-proven; all 90 October 31 handoffs delivered. FLG and REGINALD consumed card 026 and returned owner reports. This closeout adds no signals or market observations. Prior boot remains PARTIAL. Evidence: research/2026-11-02_session-closeout/REVIEW.md.
 
 ## GAPS
 
 - This boot source/context limits: HANS rate pages not repulled, CREED qualitative/cohort census not rebuilt, byte-identical owner leads reused; original mortgage recording/Lunar video/Vegas clip incompletely read. Scoped findings and reopen conditions in research/2026-10-31_night-boot/REVIEW.md. Local charter rotation warning retained; no instruction semantics changed.
 
-- Current verdict amendment: three-file unchanged-footprint basis declaration awaits PROME registrar transcription; packet PROME/inbox/2026-10-31_from-WALTER_verdict-amendment-basis-review.md. No renewed burst-retirement ask.
+- Verdict F1/F2 publication and registrar transcription CLOSED: November 1 ATTESTATION note at PROME/registry/READS.tsv; processed packet verified. No renewed ask.
 - Burst-window retirement: WALTER implementation complete. PROME central READ row WALTER:7b is RETIRED-2026-10-31 and the five-file basis review transcribed at PROME/registry/READS.tsv (19:51 ET owner note). No event-window BASIS row exists. Publication and recipient consumption remain separate.
 
 - Attestation gap CLOSED: central READS is attested October 31, L845 resolved. Subsequent WQ-578 root delta and ten cleanup-owned basis deltas reviewed and hashes updated; cleanup transcription/phone-BASIS retirement verified complete, local hash removed. Root/shared rotation warnings remain PROME-owned; source coverage is separate from these checks.
@@ -52,11 +42,11 @@ No new decision required for the completed oil-rig reconciliation. Registrar tra
 
 ## FOLLOW-UP
 
-Current research: REGINALD/FLG/CORAL have create-only packets for existing owner review. Reconcile FLG/HBAN M3 growth versus classification and AMTB/SBCF equity components; full-universe work remains REGINALD’s existing November 7 pass. No new monitor or owner launch.
+Current research: FLG/REGINALD first reviews COMPLETE and consumed. FLG retains M3 category allocation for T-02 at the 10-Q; REGINALD retains VLY/EGBN filing questions and HBAN cause uncertainty. November 7 existing pass includes Friedberg measures and PROME’s added reserve/modification breadth comparison. CORAL consumption not established here. No duplicate commission, new monitor or trade.
 
-1. Prior attestation/L845 and publication repair CLOSED. Cleanup registrar packet: PROME/inbox/2026-10-31_from-WALTER_process-cleanup-owner-followthrough.md; phone BASIS removal/transcription verified; local basis now 28. Legacy VPS gap closed by Will’s confirmation at owner commit 61b16595a. Prior cleanup and archive pass published; burst-retirement payload is now origin-proven; central READ retirement and five-file basis transcription verified complete. Backlog-reconciliation payload e9f80744d and receipt 0ce5ddca4 are origin-proven. Publish the verdict-amendment payload in the next coordinated window; its unchanged-footprint basis review is recorded for registrar transcription. PROME owns bridge repair L907; retain current positive-only runtime visibility until the adapter is repaired and verified.
-2. Earlier 74 daily handoffs are delivered, including 020–022; 16 new copies for 023–026 await coordinated publication, making 90 total. No recipient consumption claimed. Boundary 7 repair and its publication are complete. BRENT/HANS/TERRY integration of source repairs is not yet evidenced; use normal owner receipts, not duplicate dispatches or artificial acknowledgment requests.
-3. Monday November 2: FRED HY/VIXCLS October 30 release check, final dated CME bulletin, boundary 8 January switch/new count with missing ICE leg explicit. November 1 OPEC+ and Sinokor legal-action date, existing Iran answer/Qatar draft, DEWEY 005R and LIQUID October issuance carries unchanged.
+1. Prior attestation/L845 and publication repair CLOSED. Cleanup registrar packet: PROME/inbox/2026-10-31_from-WALTER_process-cleanup-owner-followthrough.md; phone BASIS removal/transcription verified; local basis now 28. Legacy VPS gap closed by Will’s confirmation at owner commit 61b16595a. Prior cleanup and archive pass published; burst-retirement payload is now origin-proven; central READ retirement and five-file basis transcription verified complete. Backlog-reconciliation payload e9f80744d and receipt 0ce5ddca4 are origin-proven. Verdict-amendment payload and registrar transcription are now complete. PROME owns bridge repair L907; retain current positive-only runtime visibility until the adapter is repaired and verified.
+2. All 90 October 31 handoffs are delivered, including 023–026; FLG/REGINALD card 026 consumption verified. Other consumption not inferred. Boundary 7 repair and its publication are complete. BRENT/HANS/TERRY integration of source repairs is not yet evidenced; use normal owner receipts, not duplicate dispatches or artificial acknowledgment requests.
+3. Monday November 2: FRED HY/VIXCLS October 30 release check, final dated CME bulletin, boundary 8 January switch/new count with missing ICE leg explicit. November 1 OPEC+ outcome already graded by BRENT; Sinokor legal-action, Iran answer/Qatar draft, DEWEY 005R and LIQUID October issuance carries require next-boot status checks.
 4. November 3: midterms and NEXUS weekly; central attestation checkpoint L845 is resolved. November 4: Cushing, GATE-FALCON-001 review, CF Q3. November 5: Iran full sweep, MEMORY calendar check and NREF Q3 (secondary date). November 6: L334 predictive leg, WQ-556 C check and STWD/ACRE cohort releases. November 11: Veterans Day HY non-session bridge. Around November 12: staleness sweep. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit unchanged.
 5. EO 14421 follow-ups (WATT before December 24; CYPHER context) and REGINALD coverage-basis conflict (DEWEY 003R) retain their existing scopes. Design/tuning dependencies and optional ideas are specified once in OPEN DESIGN DECISIONS below. No new assignment inferred.
 
@@ -100,12 +90,12 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-FULL analysis continuity. Existing 74 October 31 handoffs origin-proven; 16 new copies awaiting coordinated publication. Prior boot remains PARTIAL. Source limits and exact publication scope below.
+FULL session closeout. Research and all 90 October 31 handoffs origin-proven; two owner receipts verified. Prior boot remains PARTIAL. Only the new closeout checkpoint awaits coordinated publication.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-01T02:32:42Z",
+  "as_of": "2026-11-02T13:14:07Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -185,52 +175,48 @@ FULL analysis continuity. Existing 74 October 31 handoffs origin-proven; 16 new 
     },
     {
       "commit": "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-      "state": "pending",
-      "note": "Approved F1/F2 amendment, dependent references, manual case/reviewer evidence, continuity and self-authored PROME basis packet. Fresh origin ancestry checked against f07735f67e2da3fd0bb84057d1197b3763af62a0."
+      "state": "published",
+      "note": "Verified on fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e at November 2 closeout; earlier pending state superseded."
     },
     {
       "commit": "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "state": "pending",
-      "note": "Night boot, three cards and nine handoffs, source evidence and continuity;40 exact authored paths. Fresh origin f07735f67e2da3fd0bb84057d1197b3763af62a0. Coordinated publication deferred for concurrent foreign PROME work."
+      "state": "published",
+      "note": "Verified on fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e at November 2 closeout; earlier pending state superseded."
     },
     {
       "commit": "34806ae91dca9a461dc7880067e084477a77c2eb",
-      "state": "pending",
-      "note": "Requested 14-bank primary comparison, card 026, seven owner packets and continuity; 28 exact authored paths. Fresh origin f07735f67e2da3fd0bb84057d1197b3763af62a0 excludes payload."
+      "state": "published",
+      "note": "Verified on fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e at November 2 closeout; earlier pending state superseded."
     }
   ],
   "delivery": {
     "signal_date": "20261031",
     "total": 90,
-    "delivered": 74,
-    "note": "16 handoffs for 023\u2013026 written; coordinated publication pending. Existing 74 origin-proven; consumption separate."
+    "delivered": 90,
+    "note": "All 90 October 31 handoffs origin-proven; FLG/REGINALD card 026 consumption separately verified."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-10-31_call-report-read/REPORT.md",
-        "sha256": "526f8b429067c088375c477c0034c61cc02c9f9a92e210e1c44c68a45b6ec2d0"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-10-31_call-report-read/VERIFY-BASIS.md",
-        "sha256": "d0c5541999db9bbfc67fa2253749495e6b8aee7bc55a68cd9ad505831b89b3d7"
+        "path": "AGENTS/WALTER/research/2026-11-02_session-closeout/REVIEW.md",
+        "sha256": "8221db323e263f42c0e9281d40b261074a575976209513c308ce3e0b1b19449c"
       }
     ]
   },
   "procedure": {
     "tier": "full",
     "boot": "PARTIAL: source execution, carried owner context and full-fleet visibility gaps recorded.",
-    "session": "Will-requested bounded Q3 Call Report analysis; prior boot coverage limits carried."
+    "session": "Will-requested end-of-session closeout; no new boot or market scan."
   },
   "manual_duties": {
-    "0-9b": "Root/local runtime verified; operations and source/context gaps in hash-bound REVIEW. No DARK or all-clear inferred.",
-    "11": "Card 026, seven handoffs; BM-20261101-02 CLOSED 14/14. No new kills or threshold fires.",
-    "12-14": "REGISTRY self refreshed before NETWORK; 43 other-owner leads unchanged; prior CHANGED preserved verbatim; MEMORY note; BALANCED, zero full deferrals.",
-    "root.retirement": "No deletion or source retirement; all carried approvals retained.",
-    "15": "Current hash-bound report and independent verification manually reviewed; prior source gaps retained.",
-    "16": "Payload 34806ae91dca9a461dc7880067e084477a77c2eb committed with 28 exact authored paths. Publication pending coordinated sync; foreign PROME work untouched. Seven new packets not yet origin-proven; no recipient consumption claimed.",
-    "checks": "Receipt/read-cap/archive/weekday/basis/READS/MEMORY checks pass. Doctor has no HIGH: retained CATO consumption MED plus nine prior pending-publication MED, with seven new written packets. Coordinated publication deferred under the existing rule; foreign PROME work untouched. Orphan labels are path-based: only self-authored BOARD and seven packets included. Source arithmetic and all 14 equity bridges verified."
+    "0-9b": "Prior boot PARTIAL carried; closeout only. No fresh market or full-fleet visibility claim.",
+    "11": "No new card, route or batch. Existing 90 handoffs delivered; two owner consumption receipts verified.",
+    "12-14": "Registry before NETWORK; completed narratives rotated verbatim; MEMORY shortened; no deferrals or new flags.",
+    "root.retirement": "No deletion/source retirement; recent evidence remains live referenced.",
+    "15": "Current closeout evidence manually reviewed; existing approvals and source gaps retained.",
+    "16": "Prior research and receipts published. New continuity commit pending; routine coordinated publication applies.",
+    "checks": "Read-cap/archive/weekday/basis/READS/MEMORY pass. Doctor no HIGH; MED: 27 older unconsumed packets (9 ACTION/18 INFO, 15 desks), no DARK/wake inferred. Receipt identified 16 legacy written states; origin-proven rows manually reconciled. STATUS volatile duplicate removed. No kill/threshold event, ledger advisory only. Targeted receipt recheck follows."
   }
 }
 END_CLOSEOUT_RECEIPT -->

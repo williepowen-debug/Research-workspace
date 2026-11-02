@@ -1,3 +1,29 @@
+# FULL CLOSEOUT — 2026-11-02T13:14:07Z — Will requested session end
+
+Saved research and all 90 October 31 handoffs origin-proven. FLG and REGINALD owner reviews consumed; remaining work at their 10-Q checkpoints and November 7 broad comparison. No new scan, dispatch, helper or trade. Closing record: research/2026-11-02_session-closeout/REVIEW.md. Prior boot PARTIAL preserved.
+
+## Prior CHANGED — verbatim
+
+Completed requested comparison of 14 banks across March/June/September primary FFIEC reports. All 14 equity bridges reconcile; independent helper checked five focused names and material basis traps. Book-equity pressure, mixed credit and FLG/HBAN composition flags recorded in card 026 with seven handoffs. Evidence: research/2026-10-31_call-report-read/REPORT.md. Previous CHANGED preserved verbatim in SESSION_LOG.
+
+## Prior RESULT — verbatim
+
+Current analysis: 14/14 bank items folded into card 026; 42 dated/RSSD-validated facsimiles, one helper complete. No 20% equity decline in this selected sample; not a test of the national 95-bank claim. FLG/HBAN M3 steps need owner reconciliation, not automatic risk grades. Seven new handoffs written; publication pending. Prior boot results below retain their earlier scope.
+
+This boot: three new cards (023–025), nine written handoffs; batch 10/10 closed and marked, seven full/three partial source packages. Doctor has no HIGH; retained exact-consumption MED and source coverage gaps. Current local Codex visibility is positive-only; previous runtime observations below are dated history.
+
+FT08 is verified on the governing published Table A basis: July 0.2%, August 0.3%, September 0.3% compound to 3.247216% → 3.2%, reproducing the existing October 14 owner fire. The earlier rounded-MoM-only limitation was wrong; no new grade or weight change.
+
+CME preliminary December CL/RB/HO = 104.12 / 3.1565 / 4.6761; HO×42−CL = 92.2762 $/bbl, above the $90.16 held-share line but below the existing $95 notice line. Final certification is still owed, and TERRY owns the grade. ICE Endex calendar: Dec26 LTD November 27 / FSD November 30; Jan27 LTD December 30 / FSD December 31. Calendar evidence does not resolve T07 settlement disagreement.
+
+Local Codex inventory succeeded at 19:50:18Z: WALTER active, CATO idle, six helpers. Claude inventory at 19:53:32Z identifies PROME interactive idle. Other desks are UNKNOWN, not DARK. Eight threads are not eight domain desks; idle is not closed. No owner launch, cross-session message or doorbell.
+
+Forty-two other-owner STATUS lead blocks remain unchanged from the prior review; PROME’s October31 closeout header was reviewed and mirrored. WALTER mirror refreshed before NETWORK AWARENESS. Current FULL review clears the prior LIGHT deferral. Fresh origin proves 7bf36fa9a/a88c01e3e and PROME transcription 91e310264. All 74 October 31 handoffs now origin-proven, including card022; recipient consumption remains separate.
+
+## Prior MEMORY session note — verbatim
+
+**October 31 (Codex/OpenAI):** Option C and earlier delivery/X approvals remain active. Boot repair reviewed seven changed bases; 29 hashes matched after subsequent WQ-578 review; central PROME transcription completed and L845 resolved. Corrected FT08's false index-only gap; recovered CME preliminary settlements, TTF expiry dates and local runtime inventory. Exact source limits, transport method and pending owner work: research/2026-10-31_boot-repair/REPAIR-RECEIPT.md. Oil-rig mismatch reconciled: routing v0.50 retires boundary 7; historical 458 formula and closed BRT-26 457 line remain distinct. Evidence: research/2026-10-31_rig-reconciliation/REVIEW.md. Authorized process cleanup implemented; review at research/2026-10-31_process-cleanup/REVIEW.md. Static checks run on edits; legacy burst-window retirement approved and implemented October 31; normal FLASH retained (research/2026-10-31_burst-window-retirement/REVIEW.md). Outbox pass archived 12 exact records; referenced/uncertain files retained (research/2026-10-31_outbox-cleanup/REVIEW.md). Phone BASIS retirement transcribed, local set now 28; Will’s shutdown confirmation closes the old VPS gap. Older design backlog reconciled at current artifacts (research/2026-10-31_design-backlog/REVIEW.md): CYPHER watch terms and CRUISE filing/watch fixes complete; VULCAN useful-life gate exists; semantic proposals and owner dependencies remain explicit. F1/F2 subsequently approved and implemented in CHECKLIST v0.57 (research/2026-10-31_verdict-amendment/REVIEW.md); ordinary gates retained. Burst central READ retirement and prior backlog publication verified complete. Current duties and approvals: LAST_COMPLETION.md. No new checker, feed, grade or domain launch. Night boot:10 bookmarks closed/marked,023–025 plus 9 handoffs; no new fire/exit in fresh covered sources. Three source helpers complete; boot PARTIAL on named source/context limits. Evidence research/2026-10-31_night-boot/REVIEW.md; current duties LAST_COMPLETION.md. Q3 Call Report analysis: 14-bank selected comparison and basis traps preserved at research/2026-10-31_call-report-read/REPORT.md; FLG/HBAN composition flags need owner reconciliation. Card 026; national 95-bank claim untested.
+
 # FULL analysis closeout — 2026-11-01T02:31:35Z
 
 Requested 14-bank Q3 comparison completed; card 026, seven written handoffs, batch 14/14 CLOSED. All 14 equity bridges exact; one verification helper finished. Evidence research/2026-10-31_call-report-read/REPORT.md. Prior boot remains PARTIAL; no grade, trade or new monitor. Daily totals 26 cards, 90 handoffs (74 origin-proven, 16 pending). No new decision.
