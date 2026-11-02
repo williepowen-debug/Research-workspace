@@ -1,6 +1,8 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-02T14:22:06Z. Boot PARTIAL, then CLOSED on Will request (model switch); Claude Code, claude-opus-5-5. FULL closeout, no routing.
+Authorization-only update 2026-11-02T14:45:06Z, OpenAI Codex (exact model UNKNOWN): Will requested bookmark-reader reauthorization; browser callback, token exchange and authenticated users/me succeeded; command exited 0. Credentials saved only in ignored .env. Seen and pending ledgers are byte-identical before/after; no scan or mark. Earlier boot remains PARTIAL.
+
+Prior full closeout: Updated 2026-11-02T14:22:06Z. Boot PARTIAL, then CLOSED on Will request (model switch); Claude Code, claude-opus-5-5. FULL closeout, no routing.
 
 ## STATUS
 
@@ -16,7 +18,7 @@ No new fire or exit in completed scope. Oil fell ~5.8% on matched January contra
 
 ## GAPS
 
-- November 2 boot gaps: git pull deferred (foreign dirty FALCON watch-state files); FRED HY October 30 unpublished at pull; HANS daily rate pages and CREED census not re-pulled; X bookmark token refresh failed (needs Will's --authorize); intake NEW onsets not routed or marked.
+- November 2 boot gaps: git pull deferred (foreign dirty FALCON watch-state files); FRED HY October 30 unpublished at pull; HANS daily rate pages and CREED census not re-pulled; X bookmark token failure resolved by browser reauthorization this sitting (no scan); intake NEW onsets not routed or marked.
 
 - This boot source/context limits: HANS rate pages not repulled, CREED qualitative/cohort census not rebuilt, byte-identical owner leads reused; original mortgage recording/Lunar video/Vegas clip incompletely read. Scoped findings and reopen conditions in research/2026-10-31_night-boot/REVIEW.md. Local charter rotation warning retained; no instruction semantics changed.
 
@@ -34,7 +36,7 @@ No new fire or exit in completed scope. Oil fell ~5.8% on matched January contra
 
 ## WILL_NEEDS
 
-Routing of the November 2 intake batch awaits Will's go (operator scope, not a WQ decision). Will's framing for the Iran item, November 2 09:18 ET: oil drop looks like rumors/statements of de-escalation, which has happened and failed before. If routed: unconfirmed de-escalation report, prior rounds failed, real-change tests = dated official framework or US accept/reject (ladder 5) and transit recovery (ladder 6). X bookmarks need `x_bookmarks_scan.py --authorize` in Will's browser.
+Routing of the November 2 intake batch awaits Will's go (operator scope, not a WQ decision). Will's framing for the Iran item, November 2 09:18 ET: oil drop looks like rumors/statements of de-escalation, which has happened and failed before. If routed: unconfirmed de-escalation report, prior rounds failed, real-change tests = dated official framework or US accept/reject (ladder 5) and transit recovery (ladder 6). X bookmark reauthorization is complete; nothing requires Will for authentication.
 
 No new decision needed for this requested analysis or prior boot. Systems bookmarks are evidence/options only; no automatic build approval inferred.
 
