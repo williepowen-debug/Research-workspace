@@ -182,7 +182,9 @@ def form4_codes(xml_text):
 def classify(form, items):
     """('carrier'|'attention'|'insider'|'info', label) for one issuer filing."""
     if form in ("10-Q", "10-K", "10-Q/A", "10-K/A"):
-        return "carrier", "periodic report — run the frozen 10-Q frame verbatim"
+        if form.endswith("/A"):
+            return "carrier", "periodic amendment detected — review it against the existing grade; never repeat a completed grade"
+        return "carrier", "periodic report detected — check STATUS and the dated grade before any grading; never repeat a completed grade"
     if form in ("8-K", "8-K/A"):
         hot = [f"{i} {HOT_8K_ITEMS[i]}" for i in items if i in HOT_8K_ITEMS]
         return "attention", "8-K items " + (", ".join(items) or "none listed") + (f" — 🔴 {'; '.join(hot)}" if hot else "")
@@ -280,8 +282,9 @@ def filings_section(rep, today, since, args):
             for i in range(len(r["form"]))]
     periodic = [x for x in rows if x["form"] in (form, form + "/A") and x["reportDate"] == qend.isoformat()]
     if periodic:
-        x = periodic[-1]
-        rep.attend(f"{form} for {qend} FILED {x['filingDate']} ({x['accessionNumber']}) — run the frozen frame, then the re-score rule")
+        for x in sorted(periodic, key=lambda x: (x["filingDate"], x["accessionNumber"])):
+            _, label = classify(x["form"], [])
+            rep.attend(f"{x['form']} for {qend} DETECTED {x['filingDate']} ({x['accessionNumber']}) — {label}")
     else:
         late = " — PAST the statutory date: look for an NT filing" if today > due else ""
         print(f"  {form} for {qend}: NOT FILED (statutory {fmt(due)}, {(due - today).days}d){late}")

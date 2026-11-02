@@ -1,10 +1,12 @@
 """Offline regression cases for boot.py; run with unittest from scripts/. Live owner files are read, never hard-coded values."""
 from datetime import date
 from pathlib import Path
-import base64,json,re,unittest
-from boot import (latest_quarter_end,periodic_report,call_report_due,jwt_expiry,form4_codes,classify,
+from types import SimpleNamespace
+from unittest import mock
+import base64,contextlib,io,json,re,unittest
+from boot import (Report,latest_quarter_end,periodic_report,call_report_due,jwt_expiry,form4_codes,classify,
                   thesis_ev,exit_level,exit_log_last,mi3_last_quarter,kb_latest_finra_settlement,status_last_updated,
-                  tracker_last)
+                  tracker_last,filings_section)
 
 DESK=Path(__file__).resolve().parents[1];ROOT=DESK.parents[1]
 
@@ -34,18 +36,42 @@ class Parsers(unittest.TestCase):
         self.assertEqual(form4_codes(form4('M',table='derivative')),([],['M']))
     def test_classification(self):
         self.assertEqual(classify('10-Q',[])[0],'carrier')
+        self.assertIn('detected',classify('10-Q',[])[1])
+        self.assertNotIn('run the frozen',classify('10-Q',[])[1])
+        self.assertIn('amendment detected',classify('10-Q/A',[])[1])
         self.assertEqual(classify('144',[])[0],'attention')
         self.assertEqual(classify('SCHEDULE 13G/A',[])[0],'attention')
         self.assertIn('🔴',classify('8-K',['2.06','9.01'])[1])
         self.assertNotIn('🔴',classify('8-K',['2.02','9.01'])[1])
         self.assertEqual(classify('DEF 14A',[])[0],'info')
 
+class FilingAlerts(unittest.TestCase):
+    def test_report_and_amendment_are_detected_without_repeat_grading_instruction(self):
+        rows=[{'form':'10-Q','filingDate':'2026-10-30','reportDate':'2026-09-30','accessionNumber':'0001628280-26-068599','items':'','primaryDocument':'wal-20260930.htm'},
+              {'form':'10-Q/A','filingDate':'2026-11-02','reportDate':'2026-09-30','accessionNumber':'0001628280-26-000000','items':'','primaryDocument':'wal-20260930a.htm'}]
+        recent={k:[r[k] for r in rows] for k in rows[0]}
+        payload=json.dumps({'filings':{'recent':recent}})
+        rep=Report();out=io.StringIO()
+        with mock.patch('boot.http',return_value=payload),contextlib.redirect_stdout(out):
+            filings_section(rep,date(2026,11,2),date(2026,10,30),SimpleNamespace(offline=False))
+        text=out.getvalue()
+        self.assertEqual(len(rep.attention),2)
+        self.assertIn('10-Q/A',text);self.assertIn('amendment detected',text)
+        self.assertIn('0001628280-26-068599',text);self.assertIn('0001628280-26-000000',text)
+        self.assertNotIn('run the frozen frame',text)
+    def test_offline_sec_source_remains_visible(self):
+        rep=Report();out=io.StringIO()
+        with contextlib.redirect_stdout(out):
+            filings_section(rep,date(2026,11,2),date(2026,10,30),SimpleNamespace(offline=True))
+        self.assertEqual(rep.unchecked,['SEC EDGAR (offline)'])
+        self.assertIn('UNCHECKED: SEC EDGAR (offline)',out.getvalue())
+
 class OwnerFiles(unittest.TestCase):
     """Each reader must find its value in the live owner file; a reader returning None would print a silent blank."""
     def test_ev_is_read_from_thesis_and_agrees_with_status_mirror(self):
         ev=thesis_ev((DESK/'THESIS.md').read_text())
         self.assertIsNotNone(ev)
-        self.assertIn(f'EV **${ev:.2f}**',(DESK/'STATUS.md').read_text())
+        self.assertIsNotNone(re.search(rf'EV \${ev:.2f}\b',(DESK/'STATUS.md').read_text()))
     def test_exit_level_and_log_are_read_from_reginald(self):
         lvl=exit_level((ROOT/'AGENTS/REGINALD/registry/THRESHOLDS.tsv').read_text())
         self.assertIsNotNone(lvl)

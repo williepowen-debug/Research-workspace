@@ -1,6 +1,6 @@
 {
-  "reviewed_at": "2026-10-14",
-  "review_by": "2026-11-09",
+  "reviewed_at": "2026-11-02",
+  "review_by": "2026-12-02",
   "provenance": "sources/followup_2026-10-13/drift_full_hit_context_2026-10-14.json and housekeeping repair, no baseline inferred from new counts",
   "scope": "selected legacy patterns, source/type/token/line anchor identities with multiplicity; named current-field checks separately",
   "reviewed_findings": [
@@ -785,6 +785,96 @@
       "token": "100% deficiency rate on allowance",
       "anchor": "KB-WAL-072\t2026-03-27\tFRAUD_AUDITOR\tRSM_ACL_Deficiency\tRSM had 100% deficiency rate on allowance-for-credit-loss reviews (2 of 2 audits reviewed in PCAOB 2024 inspection). Failed to: independently tes",
       "disposition": "KB-WAL-072's own Fact cell: the row was SUPERSEDED 2026-10-28 for exactly this misread (Notes carry the correction). History in a superseded row, not a live claim. A NEW assertion of the 100% ACL figure anywhere else is still a finding."
+    },
+    {
+      "identity": "d0eccb8e34edd516207a147f8907a08bd37d3147ca33a10aae707dd8a455474a",
+      "kind": "value",
+      "path": "THESIS.md",
+      "line_at_review": 43,
+      "token": "75.96",
+      "anchor": "**Judgment (dated 10/22):** Q3 evidence runs against the credit bear and slightly against the bull's NII engine. What remains of the bear (Bear-medium 16%, Tail 7%) now rests mainly on **the $99M appr",
+      "disposition": "Valid history reviewed 2026-11-02: the explicitly dated 10/22 judgment records the then-current v2.4 EV and pre-10-Q state. The separately dated v2.5 section governs current state; no historical text changed."
+    },
+    {
+      "identity": "6a101146ad80ecc5e0637869c2840b8ba549bd9935f67215f40809b8ae751726",
+      "kind": "value",
+      "path": "NEXUS_BRIEF.md",
+      "line_at_review": 5,
+      "token": "v2.4",
+      "anchor": "**Thesis:** **v2.5 (dated 2026-10-30)**; Bear-fast 2% / **Bear-medium 12%** / **Base 49%** / Bull 30% / Tail 7%; **EV $76.60 / PT $52–77** (v2.4: 2/16/45/30/7, EV $75.96) — output of the pre-registere",
+      "disposition": "Valid history reviewed 2026-11-02: v2.4 is the parenthetical prior-version comparison beside the explicit current v2.5 assertion, not a competing current claim."
+    },
+    {
+      "identity": "8979a9aae6dcc2f78eac4ea92065d1562a7a3ee073472f399ba68291e4d7e3bc",
+      "kind": "value",
+      "path": "NEXUS_BRIEF.md",
+      "line_at_review": 5,
+      "token": "75.96",
+      "anchor": "**Thesis:** **v2.5 (dated 2026-10-30)**; Bear-fast 2% / **Bear-medium 12%** / **Base 49%** / Bull 30% / Tail 7%; **EV $76.60 / PT $52–77** (v2.4: 2/16/45/30/7, EV $75.96) — output of the pre-registere",
+      "disposition": "Valid history reviewed 2026-11-02: $75.96 is the prior v2.4 EV in the same comparison; the line's current EV is $76.60. No suppression or text change."
+    },
+    {
+      "identity": "2d50c4285f0d7fc9593668a866df79ac722aa9d35b537820c641bbe941a422e1",
+      "kind": "value",
+      "path": "STATUS_ARCHIVE.md",
+      "line_at_review": 263,
+      "token": "v2.4",
+      "anchor": "## CONVERGENCE MATRIX (universal 5-pt triage overlay — routes to **THESIS v2.4**, the canonical probability surface)",
+      "disposition": "Valid history reviewed 2026-11-02: this is the archived STATUS matrix that was current at v2.4. It is not a live navigation surface; the archive remains verbatim."
+    },
+    {
+      "identity": "1d1086c80fe99ef98e87545c0b845110a564c34a3178290bdcc370990df88441",
+      "kind": "value",
+      "path": "MEMORY_ARCHIVE.md",
+      "line_at_review": 55,
+      "token": "v2.4",
+      "anchor": "- **★ A peer mirroring MY version number breaks silently on every bump I make.** REGINALD's `CLAUDE.md` hardcoded *\"thesis v2.3\"*; he de-versioned it rather than bumping to v2.4 so it cannot rot again",
+      "disposition": "Valid history reviewed 2026-11-02: the archived lesson records the historical v2.3-to-v2.4 de-versioning decision. It does not assert WAL's current version."
+    },
+    {
+      "identity": "67eb756bed22386b157de0ac5263b382db1b90a02a9d8c039a59b6c290385ae2",
+      "kind": "value",
+      "path": "research/2026-10-22_desk-sweep.md",
+      "line_at_review": 17,
+      "token": "v2.4",
+      "anchor": "| S1 | **THESIS.md header** | \"Last Updated 2026-08-20\"; spot-vs-EV restated at the 9/28 close ($76.55, +0.78%) — a live figure the charter says THESIS must not carry. No Q3 evidence fold in THESIS (C",
+      "disposition": "Valid history reviewed 2026-11-02: the dated 10/22 findings table quotes the v2.4-era defect it reported. Later remediation does not rewrite that evidence record."
+    },
+    {
+      "identity": "14aba149f2e608ad3cc0a068ec4935ef3e2d010f84fc6b8e848b752f310e7c8c",
+      "kind": "value",
+      "path": "research/audit_2026-09-28/A_dashboard.md",
+      "line_at_review": 18,
+      "token": "v2.4",
+      "anchor": "| 4 | CLAUDE.md:13 | \"★ **Margin of safety GONE: 18.8% → 12.4% → 5.4% (v2.4) → spot BELOW EV** (first time 9/23 …)\" | The boot card presents \"spot BELOW EV\" as the end of the series, which is the curr",
+      "disposition": "Valid history reviewed 2026-11-02, occurrence 1 of 2: the 9/28 audit quotes the then-live v2.4 charter defect. The charter's current-state duplication was removed in the 2026-11-02 cleanup; the audit evidence remains unchanged."
+    },
+    {
+      "identity": "14aba149f2e608ad3cc0a068ec4935ef3e2d010f84fc6b8e848b752f310e7c8c",
+      "kind": "value",
+      "path": "research/audit_2026-09-28/A_dashboard.md",
+      "line_at_review": 18,
+      "token": "v2.4",
+      "anchor": "| 4 | CLAUDE.md:13 | \"★ **Margin of safety GONE: 18.8% → 12.4% → 5.4% (v2.4) → spot BELOW EV** (first time 9/23 …)\" | The boot card presents \"spot BELOW EV\" as the end of the series, which is the curr",
+      "disposition": "Valid history reviewed 2026-11-02, occurrence 2 of 2: same audit line and disposition; multiplicity preserved so removing one reviewed occurrence cannot hide a new one."
+    },
+    {
+      "identity": "242535876b8e6e47b5302272deae5e711207cef9385ca815855554e3bcc6d4aa",
+      "kind": "retired",
+      "path": "workbook/PREDICTIONS.tsv",
+      "line_at_review": 7,
+      "token": "Schedule O",
+      "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tRESOLVED-INVALIDATED\t2026-10-30\tFINAL INVALIDATED 2026-10-30: Q3 10-Q acc 0001628280-26-068599 (a",
+      "disposition": "Valid history reviewed 2026-11-02, occurrence 1 of 2: the final WAL-01 row still preserves the dated void-and-strike record for the nonexistent 10-Q Schedule O cite. This is the prior reviewed identity re-keyed by the 10/30 final grade, not a revived claim; no graded cell changed."
+    },
+    {
+      "identity": "242535876b8e6e47b5302272deae5e711207cef9385ca815855554e3bcc6d4aa",
+      "kind": "retired",
+      "path": "workbook/PREDICTIONS.tsv",
+      "line_at_review": 7,
+      "token": "Schedule O",
+      "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tRESOLVED-INVALIDATED\t2026-10-30\tFINAL INVALIDATED 2026-10-30: Q3 10-Q acc 0001628280-26-068599 (a",
+      "disposition": "Valid history reviewed 2026-11-02, occurrence 2 of 2: same WAL-01 historical note and disposition; multiplicity preserved. A new Schedule O assertion elsewhere remains a finding."
     }
   ],
   "dated_reviews": [
@@ -802,6 +892,11 @@
       "date": "2026-10-28",
       "identity": "KB-WAL-072 retired-pattern hit",
       "reason": "1 entry added: RETIRED_CLAIMS gained the ACL-100%, Nevada 18-22% and NDFI $1.54T patterns the same day; KB-041/069 hits are excused by their SUPERSEDED marker, AUDITOR_NEXUS by its inline CORRECTED marker, KB-072's long Fact cell is not, so it is baselined. review_by unchanged (2026-11-09)."
+    },
+    {
+      "date": "2026-11-02",
+      "identity": "11 boot-drift occurrences / 9 unique identities",
+      "reason": "Ten occurrences across eight identities were individually verified as valid history and added with multiplicity. c3aa36e938db6c4b960e5d8326b2d76c32a540f624f03d96bdb5b2d165c71576 was a live provenance error: NEXUS_BRIEF attributed 276 KB rows to 4e713d7c1, whose tree contains 270; corrected to a marked historical 270-row count. No unresolved identities, frozen-record edits or broader suppression. review_by moved to 2026-12-02."
     }
   ]
 }
