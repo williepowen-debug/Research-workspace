@@ -99,3 +99,5 @@
 **November 2 boot/close (model switch):** status-only boot, PARTIAL; no routing. Carries: LAST_COMPLETION FOLLOW-UP item 0. Will's read of the Iran de-escalation oil drop: rumor-driven, a pattern that has failed before; route only with that framing and the ladder 5/6 tests.
 
 **November 2 bookmark sitting:** Will authorized scan/process after reauthorization. All 9 staged IDs reviewed/marked; no new autonomy or build approval. Current source/delivery duties remain solely in LAST_COMPLETION and its source-review pointer.
+
+**November 2 UNG sitting:** Will selected trigger check and card refresh; TERRY completed it. No order/waiver or unrelated intake assignment. Current source/owner conditions remain solely in LAST_COMPLETION.

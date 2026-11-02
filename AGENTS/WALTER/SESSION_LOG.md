@@ -1,3 +1,26 @@
+# LIGHT CLOSEOUT — 2026-11-02T15:27:48Z — requested UNG check/card refresh; full deferred
+
+Fresh GFS analysis +5.53155 m/s; owner TERRY independently accepted the positive sample and committed the requested card refresh 2c47adde3. NOT-FIRED; green UNG at dated pull, screening debit .47, approved cap/conditions unchanged. AEOLUS current canonical logging remains pending; PROME GATES mirror later verified complete. No order. Evidence research/2026-11-02_UNG-refresh/OUTCOME.md. Fresh origin proves bookmark/source payloads; 16 handoffs reconciled delivered, not blanket consumption. Second light breadcrumb since latest FULL; unrelated intake remains unassigned. Earlier operational boot PARTIAL; full lead/network review deferred.
+
+## Prior bookmark completion lead — verbatim
+
+# WALTER — LAST COMPLETION
+
+Updated 2026-11-02T15:05:44Z, OpenAI Codex (exact model UNKNOWN). Will-authorized bookmark processing complete; LIGHT closeout, full deferred. Earlier operational boot remains PARTIAL.
+
+## STATUS
+
+All 9 IDs from the 14:52:37Z head check reviewed and marked at 15:04:01Z. Six new PRIORITY cards (001–006), 14 create-only handoffs, two kill rows; no fresh threshold-family scan, new gate, helper/domain launch, inbox move or trade. Payload 1ef600ebd35f5341ba6c64759e098d8057aa4d3a is committed locally; coordinated publication remains pending, with no delivery or recipient-consumption claim.
+
+## CHANGED
+
+BOARD 001–006 and generated INDEX; October 2 006 Symes backward pointer; route/delivery/kill logs; CORRECTIONS (COR-20261102-04); both batch manifests; bookmark seen/pending/receipt and exact-ID review; STATUS, MEMORY and SESSION_LOG. Evidence: research/2026-11-02_bookmarks/REVIEW.md and MARK-RECEIPT.txt.
+
+## RESULT
+
+Nine bookmarks / 17 content items accounted for, including nine Denver property claims. Seven posts feed six cards; Qatar extension duplicate and Treasury-cash novelty kill. Reading: 3 fully, 6 partly, 0 unread at stated source perimeters. Material deltas: Arini reported margin-call sales; gas gross/net positioning distinction; reported franchisee bankruptcy; dated/corrected CRE cases; two explicitly unverified equity-flow leads; qualified April-September oil-profit estimate. Source limitations and evidence-triggered owner follow-ups remain in REVIEW; no further user material requested.
+
+
 # Demoted historical publication receipt — November 2 bookmark light closeout
 
 Resolved publication history preserved verbatim from LAST_COMPLETION when its 75% rotation trigger fired. Current obligations and approvals remain live there.

@@ -1,11 +1,13 @@
 # WALTER STATUS
-**Updated:** 2026-11-02T15:05:44Z — authorized bookmark batch complete; LIGHT closeout, full deferred. Operational boot remains PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-02T15:28:31Z — requested UNG check/card refresh complete; LIGHT closeout, full deferred. Operational boot remains PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
+Requested UNG check: November 2 06Z GFS mean +5.53155 m/s; TERRY independently accepted the sample and refreshed the conditional Jan15 10/12C card. NOT-FIRED; canonical AEOLUS logging pending. Dated UNG pull green, screening debit .47; original .50 cap and both $10.40 guards retained. No order. Evidence: research/2026-11-02_UNG-refresh/OUTCOME.md.
+
 November 2 bookmarks: all 9 reviewed/marked (3 full, 6 partial source coverage); six cards and two novelty kills. Arini margin-call reporting, gas gross/net shorts, reported Outback franchisee filing, Denver case/date corrections and qualified equity/oil evidence are in research/2026-11-02_bookmarks/REVIEW.md. No new fire, exit or trade; no fresh market scan. Prior intake and inbox carries remain in LAST_COMPLETION.md.
 
-October 31 totals remain 26 cards, 49 kill-log rows, 18 bounded source helpers. November 2 adds six cards, two kill-log rows, zero helpers. BOARD 1895. BALANCED, zero new cluster_mediating flags. Source gaps survive in the review; operator boot remains PARTIAL.
+October 31 totals remain 26 cards, 49 kill-log rows, 18 bounded source helpers. November 2 adds seven cards, two kill-log rows, zero helpers. BOARD 1896. BALANCED, zero new cluster_mediating flags. Source gaps survive in the review; operator boot remains PARTIAL.
 
 ## DATED MARKET OBSERVATIONS
 

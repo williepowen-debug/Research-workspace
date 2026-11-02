@@ -1,22 +1,23 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-02T15:05:44Z, OpenAI Codex (exact model UNKNOWN). Will-authorized bookmark processing complete; LIGHT closeout, full deferred. Earlier operational boot remains PARTIAL.
+Updated 2026-11-02T15:28:31Z, OpenAI Codex (exact model UNKNOWN). Requested UNG check/TERRY card refresh complete; LIGHT routing closeout, second full deferral. Earlier operational boot remains PARTIAL.
 
 ## STATUS
 
-All 9 IDs from the 14:52:37Z head check reviewed and marked at 15:04:01Z. Six new PRIORITY cards (001–006), 14 create-only handoffs, two kill rows; no fresh threshold-family scan, new gate, helper/domain launch, inbox move or trade. Payload 1ef600ebd35f5341ba6c64759e098d8057aa4d3a is committed locally; coordinated publication remains pending, with no delivery or recipient-consumption claim.
+TERRY refresh committed 2c47adde3e083a29e7ca853fd26306ddf3f32879; PROME consumed it and mirrored both guards. NOT-FIRED; GFS sample +5.53155 m/s does not meet <0, canonical AEOLUS current logging pending. No order. Fresh origin proves earlier bookmark and current source packets; 16 November 2 handoffs delivered. TERRY 002/007 consumption verified; other consumption not inferred.
 
 ## CHANGED
 
-BOARD 001–006 and generated INDEX; October 2 006 Symes backward pointer; route/delivery/kill logs; CORRECTIONS (COR-20261102-04); both batch manifests; bookmark seen/pending/receipt and exact-ID review; STATUS, MEMORY and SESSION_LOG. Evidence: research/2026-11-02_bookmarks/REVIEW.md and MARK-RECEIPT.txt.
+Source check/raw fields in research/2026-11-02_UNG-refresh; BOARD 007, INDEX, route/delivery logs, two INFO handoffs and dated PROME packets (d7218258c/f28fc8021). Closeout updates delivery reconciliation, affected STATUS, MEMORY session note, SESSION_LOG and this sole duty list. TERRY authored its own card/report; no other desk files edited by WALTER.
 
 ## RESULT
 
-Nine bookmarks / 17 content items accounted for, including nine Denver property claims. Seven posts feed six cards; Qatar extension duplicate and Treasury-cash novelty kill. Reading: 3 fully, 6 partly, 0 unread at stated source perimeters. Material deltas: Arini reported margin-call sales; gas gross/net positioning distinction; reported franchisee bankruptcy; dated/corrected CRE cases; two explicitly unverified equity-flow leads; qualified April-September oil-profit estimate. Source limitations and evidence-triggered owner follow-ups remain in REVIEW; no further user material requested.
+Requested check and card refresh delivered. Latest sampled NOAA analysis remains positive; ECMWF/coupling refresh and continuous absence unproved. TERRY 10:20–10:21 EST UNG pull green (+1.49%); 10:22 local Jan15 10/12C x5 screening debit .47 / loss $241.50 with assumed fees, broker quote missing. Approved cap .50 / $256.50 and both $10.40 guards bind. No repeat approval or waiver. Owner readback: research/2026-11-02_UNG-refresh/OUTCOME.md. Earlier bookmarks remain fully accounted for: 9 IDs / 17 items, 3 full/6 partial source coverage.
 
 ## GAPS
 
-- Current publication: initial git fetch failed github.com DNS; retry succeeded before the 15:07:54Z receipt against origin 774cb28df0a0a0341535f659f98f886cb89be402. Foreign tracked work remains dirty; no self-push under section 7. Fourteen new handoffs remain written_not_delivered_pending_push, not orphans to delete. Latest source limits: six partial-source items, original court/WSJ/NYT or underlying flow/transaction data not fully reached; exact scope and triggers in research/2026-11-02_bookmarks/REVIEW.md.
+- Current publication: fresh fetch succeeded, origin 082847e1c9250a16c370f84bdbaef9838fcf91c2; bookmark payload 1ef600ebd, assignment f28fc8021 and source d7218258c are origin-proven. All 16 November 2 handoffs reconciled delivered. Foreign dirty work persists; WALTER continuity/reconciliation commit awaits coordinated publication. Six bookmark source perimeters remain partial; originals/underlying data and reopen triggers remain in research/2026-11-02_bookmarks/REVIEW.md.
+- UNG conditions: TERRY independently accepted +5.53155 m/s as a nonqualifying GFS sample and refreshed the card. AEOLUS canonical current log pending; unsampled intervals unknown. PROME consumed both packets and mirrored the current state plus both $10.40 guards in GATES; mirror task complete. Original fallback versus AEOLUS-logged T1 wording remains for owner reconciliation; no alternate fire authority. Broker quote/actual fees missing; intermittent vendor DNS failures retained. No order.
 
 - November 2 boot gaps: git pull deferred (foreign dirty FALCON watch-state files); FRED HY October 30 unpublished at pull; HANS daily rate pages and CREED census not re-pulled; X bookmark access restored and the authorized 9-item batch reviewed/marked (source gaps separate); intake NEW onsets not routed or marked.
 
@@ -29,7 +30,7 @@ Nine bookmarks / 17 content items accounted for, including nine Denver property 
 - Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
 - Energy-OAS BAMLH0A0E2Y is an invalid series, confirmed with authenticated positive control; no verified energy feed, not a transient fetch fault. Historical ICE H0EN is a lead only. Worldscale boundary 5 is an uninstrumented/retired lane requiring new registration; HANS T12 is registered non-live, with swapline proxy shelved by WQ-534. CME XEURBI public-history lead still needs retrieval and basis adjudication. No silent broad-HY, ETF or futures proxy.
 - Boundary 7 reconciliation CLOSED: the exact historical contract is retired at BRENT; WALTER row 7 is now a retired tombstone, not a 457 substitute. New rig alerts require new registration. CREED owner evidence is 5/11 reporters/cut-or-liquidating names as of October 30, not registry's older 4/11. Qualitative CMBS redefault, performing-collateral forced-sale conjunction, tenant demand and realized cohort erosion remain owner-limited; next releases are future. No CREED launch. HANS T14/T15 event searches remain bounded.
-- Local runtime read works, but complete cross-runtime absence/lifecycle visibility remains UNKNOWN. PROME's bridge uses newline JSON whereas this Codex Unix endpoint requires WebSocket Upgrade; PROME registered the existing-adapter repair as L907. WALTER has not altered owner code or granted messaging authority.
+- Native Codex reads/messages verified for existing PROME/TERRY tasks; complete cross-runtime absence/lifecycle visibility remains UNKNOWN. PROME's bridge uses newline JSON whereas this Codex Unix endpoint requires WebSocket Upgrade; PROME registered the existing-adapter repair as L907. WALTER has not altered owner code or granted messaging authority.
 - Earlier intake limits retained: Al-Araby original interview/official diplomacy acceptance unavailable; AP/MediaLine to/by-two-days discrepancy; NCLC direct body unavailable; AFN/Arivo denominators unverified; Comcast planned hiring/transfers are not realized employment. Earlier Kioxia ASP, Blue Owl release, selected paywalled originals, Chicago PMI primary, cards 005/009/010 and FT 006 limits persist. Refinery reporting corroborated, not physically inspected.
 - X authentication/staging is closed: 13/13 reviewed and marked, nine full/four partial originals. Embassy alert and MOF transcript remain inaccessible; NYT/Bloomberg originals partial. Existing triggers: research/2026-10-31_x-review/REVIEW.md. No user-upload request needed.
 - VULCAN design completed, deployment explicitly deferred by PROME October 16; no deployment inferred. Historic CATO ACTION has substantive evidence without exact receipt; no routine wake. October 27 CARL false action-header warning is fixed; the published signal is unchanged. REGINALD's old scripts/market.py pointer remains missing; settled_bars.py plus Nasdaq supplied the prior bank-close check. Two retirement candidates retained for substantive live references. Iran November 5 full-sweep date unchanged, no guard reset.
@@ -38,7 +39,7 @@ Nine bookmarks / 17 content items accounted for, including nine Denver property 
 
 Routing of the November 2 intake batch awaits Will's go (operator scope, not a WQ decision). Will's framing for the Iran item, November 2 09:18 ET: oil drop looks like rumors/statements of de-escalation, which has happened and failed before. If routed: unconfirmed de-escalation report, prior rounds failed, real-change tests = dated official framework or US accept/reject (ladder 5) and transit recovery (ladder 6). X bookmark reauthorization is complete; nothing requires Will for authentication.
 
-No new decision needed for the completed bookmark batch or prior boot. Systems bookmarks are evidence/options only; no automatic build approval inferred.
+No new decision needed for the completed UNG refresh, bookmark batch or prior boot. Existing WQ-573 conditional approval and entry conditions remain binding. Systems bookmarks are evidence/options only; no automatic build approval inferred.
 
 F1/F2 decision approved and implemented. No further approval needed for this amendment. Remaining proposals, dependencies and optional ideas are listed under OPEN DESIGN DECISIONS; no new blanket build approval requested.
 
@@ -48,7 +49,7 @@ No new decision required for the completed oil-rig reconciliation. Registrar tra
 
 ## FOLLOW-UP
 
-Bookmark batch 001–006: coordinated publication of the exact local payload, then origin-proof reconciliation of 14 handoffs. Source reopens stay with the existing owners and triggers in research/2026-11-02_bookmarks/REVIEW.md, not new studies. Earlier market/intake/inbox carries below are unchanged; this bookmark authorization does not supply the separate intake-routing go.
+UNG: TERRY refresh and PROME GATES mirror complete. Canonical AEOLUS observation/logging stays with PROME/owners; no duplicate research or order. All 16 November 2 handoffs origin-proven/reconciled; coordinate publication of this continuity commit. Source reopens remain at existing UNG OUTCOME/bookmark REVIEW. New NEXUS L13 early-copy packet awaits next authorized inbox intake. Earlier market/intake/inbox carries below retain their scope; bookmark/UNG authorization does not grant separate intake-routing go.
 
 0. Next launch FIRST: (a) intake 16 NEW onsets (data/2026-11-01/news.json) — Iran 48-hour Hormuz plan (BRENT/FALCON/HENRY, Iran pre-dispatch guard, Will's framing above); Russia diesel export ban to January (BRENT/OSPREY); ConnectWise and Jack Henry breaches (CYPHER); Russia refinery drone item (HENRY/OSPREY); COMEX silver (MIDAS); date-check kills: Georgia bank failure ALERT dated May 1, Sheskharis halt dated August 14; then `intake_scan.py --mark`. (b) inbox HENRY 2026-11-02 pre-open gamma packet (route PROME; info TERRY, VIOLET; predecessor pattern SIG-W-20261031-002). (c) git mv inbox/DEWEY/2026-11-02_from-DEWEY_plaza-continental-docket-read_handoff.md to processed (stubs verified). (d) re-check oil and Iran state before routing; the observations above will be stale.
 Current research: FLG/REGINALD first reviews COMPLETE and consumed. FLG retains M3 category allocation for T-02 at the 10-Q; REGINALD retains VLY/EGBN filing questions and HBAN cause uncertainty. November 7 existing pass includes Friedberg measures and PROME’s added reserve/modification breadth comparison. CORAL consumption not established here. No duplicate commission, new monitor or trade.
@@ -99,30 +100,40 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-LIGHT bookmark closeout; full deferred. All 9 staged IDs reviewed/marked, six cards and 14 handoffs saved; publication deferred. Earlier boot remains PARTIAL and earlier owner-consumption proofs retain their scope.
+LIGHT requested-UNG routing closeout; full deferred. Source/owner card refreshed, no order. Continuity commit follows.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-02T15:07:54Z",
+  "as_of": "2026-11-02T15:28:31Z",
   "next_review": "2026-11-03",
   "publication": [
     {
       "commit": "7244d64ec870d1e6679483fa7f7f96bb857fca98",
       "state": "published",
-      "note": "Origin ancestry verified at Codex recovery fetch; current bookmark-session fetch failed DNS. Earlier pending-publication label superseded."
+      "note": "Prior continuity origin-proven."
     },
     {
       "commit": "1ef600ebd35f5341ba6c64759e098d8057aa4d3a",
-      "state": "pending",
-      "note": "Six bookmark signals,14 handoffs, exact-ID consumption and source follow-ups. No recipient consumption claimed."
+      "state": "published",
+      "note": "Six bookmark cards/14 handoffs origin-proven."
+    },
+    {
+      "commit": "f28fc802172900067c88568e8cc199561c8faa1c",
+      "state": "published",
+      "note": "Bounded UNG assignment origin-proven."
+    },
+    {
+      "commit": "d7218258ce2bb28747181c937b16308507fffe1a",
+      "state": "published",
+      "note": "Fresh source/card007/two INFO handoffs origin-proven."
     }
   ],
   "delivery": {
     "signal_date": "20261102",
-    "total": 14,
-    "delivered": 0,
-    "note": "Six PRIORITY cards,14 written-not-delivered handoffs. Fresh fetch succeeded at the 15:07:54Z receipt; payload not on origin. No recipient consumption claim."
+    "total": 16,
+    "delivered": 16,
+    "note": "Fresh origin/reconciler proof. TERRY 002/007 consumption evidenced separately; others not inferred."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -132,25 +143,33 @@ LIGHT bookmark closeout; full deferred. All 9 staged IDs reviewed/marked, six ca
         "sha256": "0cec74a223e2ac7078a6e9eeb674baf22e20a663a8ef363aa0920f394ba81e82"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-02_bookmarks/bookmark-review.json",
-        "sha256": "e4510056377805c14e56311a96252415c7ec54094e52ca2125b7a7ae0cd4fed3"
+        "path": "AGENTS/WALTER/research/2026-11-02_UNG-refresh/OUTCOME.md",
+        "sha256": "3b80a45dc7bef53d303c80d49bd0843af77d80b96f48baf876d040d533709c59"
+      },
+      {
+        "path": "AGENTS/TERRY/research/2026-11-02_UNG-refresh/source_acceptance.json",
+        "sha256": "0ec3f9ca80165c35fa5bc2f65f9350afb33aefb078c1d08c17808384b3ab74d3"
+      },
+      {
+        "path": "PROME/inbox/processed/2026-11-02_from-TERRY_UNG-requested-refresh.md",
+        "sha256": "9e4faef1bebc9aafb1333f89fb88cd4eaaff445a70720262e55919a5fd9a308c"
       }
     ]
   },
   "procedure": {
     "tier": "light",
-    "boot": "PARTIAL; bookmark scope does not clear threshold/intake/inbox duties.",
-    "session": "Will authorized scan and all unconsumed-item processing; 9 marked, no trade."
+    "boot": "PARTIAL; unrelated threshold/intake/inbox duties remain.",
+    "session": "User-selected bounded check/card refresh complete, no order. Second full-deferred routing breadcrumb."
   },
   "manual_duties": {
-    "11": "Six cards,14 handoffs,2 kill rows; R1 and backward pointer; BM01 9/9 and BM02 8/8 CLOSED.",
-    "Tier1": "STATUS counts/source limits refreshed; existing duties retained.",
-    "12(d)": "Light-closeout full-deferred SESSION_LOG breadcrumb.",
-    "14": "Session MEMORY note updated; no durable rule/spec or auto-memory edit.",
-    "root.retirement": "No research/source retirement in this routing-only sitting; active recent source artifacts retained.",
-    "15": "Approvals/conditions preserved; partial-source owner triggers in REVIEW.",
-    "16": "Payload 1ef600ebd committed exact paths. Initial DNS failure recovered on retry; foreign-dirty coordinated-publication deferral remains.",
-    "checks": "Selected receipt/R1,read-cap,archives and weekday checks pass; ledger nudge reviewed: changed event ledgers are in payload, REGISTRY refresh explicitly deferred. Doctor retains two pre-existing MED categories. Dated checks plus manual review in research/2026-11-02_bookmarks/closeout/."
+    "11": "Seven day cards,16 handoffs delivered; TERRY 002/007 consumed; earlier batches CLOSED.",
+    "Tier1": "Affected STATUS/source limits refreshed; full REGISTRY/network deferred.",
+    "12(d)": "Second LIGHT full-deferred SESSION_LOG breadcrumb.",
+    "14": "MEMORY session note updated; no auto-memory or rule edit.",
+    "root.retirement": "Recent owner/BOARD-referenced source/raw retained, no retirement.",
+    "15": "Existing approvals and unknowns retained; unrelated intake remains unassigned.",
+    "16": "Source payloads origin-proven. Exact-path continuity commit follows; foreign-dirty self-push deferral.",
+    "checks": "Receipt/R1, read-cap, archive, weekday PASS; unchanged REGISTRY nudge REVIEW deferred. Recipient processed moves are not WALTER orphans. Evidence/manual review: research/2026-11-02_UNG-refresh/closeout/. Prior MED retained; no full-market clearance."
   }
 }
 END_CLOSEOUT_RECEIPT -->

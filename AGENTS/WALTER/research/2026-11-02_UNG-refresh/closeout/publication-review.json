@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-11-02T15:28:31Z",
+  "origin": "082847e1c9250a16c370f84bdbaef9838fcf91c2",
+  "source_payloads_proven": [
+    "7244d64ec870d1e6679483fa7f7f96bb857fca98",
+    "1ef600ebd35f5341ba6c64759e098d8057aa4d3a",
+    "f28fc802172900067c88568e8cc199561c8faa1c",
+    "d7218258ce2bb28747181c937b16308507fffe1a"
+  ],
+  "delivery": {
+    "signal_date": "20261102",
+    "total": 16,
+    "delivered": 16,
+    "note": "Fresh origin/reconciler proof. TERRY 002/007 consumption evidenced separately; others not inferred."
+  },
+  "limits": "Fetch/reconciliation proof, not blanket consumption. Continuity commit follows; no self-push."
+}
