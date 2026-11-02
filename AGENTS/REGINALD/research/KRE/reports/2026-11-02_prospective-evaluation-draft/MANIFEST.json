@@ -1,0 +1,13 @@
+{
+  "archived": "2026-11-02",
+  "status": "UNAPPROVED_DRAFT_ARCHIVE_ONLY",
+  "source": {
+    "source": "/mnt/c/Users/willi/Downloads/PREREGISTRATION.md",
+    "saved_as": "reports/2026-11-02_prospective-evaluation-draft/PREREGISTRATION.md",
+    "bytes": 8806,
+    "sha256": "65d8f6e1b7e7989a8f0aed9147946d0b4cdd37cd6994180e9467e47e88a31158"
+  },
+  "resolver_supplied": false,
+  "claimed_resolver_sha256": "b98e22f29d3f49a7bd9add75021ba4621d139e49d4d1ba707861eaf45dc9fae3",
+  "resolver_hash_verified": false
+}

@@ -27,6 +27,8 @@ KRE's daily movements became unusually less synchronized with broader bank stock
 | [market_snapshot_2026-11-02_1415ET.csv](market_snapshot_2026-11-02_1415ET.csv) | Transcribed intraday tool observations; not synchronized closing data |
 | [COPY_MANIFEST.json](COPY_MANIFEST.json) | Original copied-artifact hashes; later package manifests are linked in the evidence guide |
 
+Latest addition: [prospective evaluation draft and review](reports/2026-11-02_prospective-evaluation-draft/REVIEW.md), preserved as **unapproved**. The accompanying PDF is the existing Study 3 presentation, now saved with its embedded charts.
+
 ## Scope for future agents
 
 Preserve Will's purpose: **complete context, not repeated thesis reversals**. Distinguish return performance, daily co-movement, fundamentals and forecasts. Mark results as reproduced, reported-only or interpretive. Independent calculations on the same Yahoo data are not independent-vendor validation. Preserve source snapshots and observation dates; perform refreshes in a new dated folder. Do not infer bank-credit resolution from ETF strength or generalized distress from one troubled borrower.

@@ -1,0 +1,16 @@
+{
+  "archived": "2026-11-02",
+  "source": {
+    "source": "/mnt/c/Users/willi/Downloads/REPORT.pdf",
+    "saved_as": "reports/2026-11-02_kre-study3-review/REPORT.pdf",
+    "bytes": 632617,
+    "sha256": "db9c0d2b6e73591937d6716d0835f24e925ec9bc8a0170435833f2474e922841"
+  },
+  "relationship": "PDF presentation of existing Study 3; includes embedded charts on pages 5 and 6. Not a new prospective study.",
+  "derived_text": {
+    "file": "REPORT_pdf_text.txt",
+    "method": "pdftotext -layout",
+    "sha256": "34ed7cbeb4a33faa15b2d7037f2621c492adcc2fdd52b3a6919e8f41d019a300"
+  },
+  "limits": "No original study code, result CSVs or standalone chart assets supplied."
+}

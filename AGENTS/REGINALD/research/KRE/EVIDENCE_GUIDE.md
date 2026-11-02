@@ -80,7 +80,7 @@ Original uploads: `REPORT.md` and `PREREGISTERED_SPEC.md`. The addendum supersed
 
 **Concrete source correction:** the October 28 Fed statement directly names Cook and Hammack and their preference for a quarter-point hike. The report's secondary-only designation for their names was unnecessary. [Recorded source](https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm).
 
-The original study code, master data, result CSVs and charts were not supplied. References to its `out/` and `scripts/` assets inside the raw report are not evidence those assets are present here.
+The later [PDF upload](reports/2026-11-02_kre-study3-review/REPORT.pdf) preserves the Study 3 presentation, including embedded regime-map and rolling-rate-beta charts on pages 5–6. [Searchable text](reports/2026-11-02_kre-study3-review/REPORT_pdf_text.txt) · [PDF provenance](reports/2026-11-02_kre-study3-review/PDF_MANIFEST.json). It adds visual access, not a new empirical study. The original study code, master data, result CSVs and standalone chart assets were not supplied. References to its `out/` and `scripts/` assets inside the raw report are not evidence those assets are present here.
 
 ## 6. Decoupling stress test — persistence and factor controls
 
@@ -107,6 +107,14 @@ Original upload: `REPORT (5).md`.
 **Reported only:** reconstructed ex-capital-markets portfolio, N-PORT weights, traditional-bank basket, HY regressions and most company-level claims. Their underlying source package is not here.
 
 **Must fix:** Lens 1's named pieces total 1.45 points, not 1.81. The endpoint group-removal comparison may still be right, but the additive bridge is not. A nonsignificant current HY coefficient does not establish no credit exposure or a statistically significant regime change. Capital-markets weakness is not proven temporary. AI-specific spread widening is unmeasured. Selected weak fundamental associations do not prove investors ignore quality.
+
+## 8. Prospective evaluation — unapproved draft
+
+[Original PREREGISTRATION.md](reports/2026-11-02_prospective-evaluation-draft/PREREGISTRATION.md) · **[Readable review](reports/2026-11-02_prospective-evaluation-draft/REVIEW.md)** · [Manifest](reports/2026-11-02_prospective-evaluation-draft/MANIFEST.json)
+
+Proposes three tests over November 2–February 2: correlation persistence, market-beta recovery and rate-response persistence. Useful as a framework for distinguishing outcomes; its probabilities and historical base rates are unreplicated. This is a separate document from Study 3's `PREREGISTERED_SPEC.md`.
+
+**Not approved or activated.** The author and approver have seen first-session information; preserve late-registration status if adopted. The resolver is missing, the C1 benchmark sums to 0.99, and dropped-session rules conflict with exactly 63 daily returns. A KRE-only rate test cannot establish a bank-wide regime. The review explains the repairs; no schedule or forecast ledger entry was created.
 
 ## Earlier conversation and pictures
 

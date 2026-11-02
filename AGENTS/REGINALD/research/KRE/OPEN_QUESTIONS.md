@@ -45,6 +45,12 @@ Before extending the fundamentals claims:
 - Recheck KEY/FITB company-level GICS classification before treating the proposed index-exclusion explanation as verified.
 - Preserve the Preferred Bank, Texas Capital and Truist source-specific caveats from the [primary-source review](reports/2026-11-02_kre-external-report-review/REVIEW.md). No exhaustive Q3 audit was completed.
 
+## Prospective draft: before any adoption
+
+The [draft review](reports/2026-11-02_prospective-evaluation-draft/REVIEW.md) records a separate, unapproved proposal. It requires the exact missing resolver and data; full-precision C1 scoring probabilities (printed values sum to 0.99); a consistent daily-return/missing-data rule; and explicit late-registration disclosure because November 2 prices were already seen. Historical endpoint and episode rules, the BKX splice, and KRE-only versus bank-wide interpretation also need clarification. Archiving is not registration, and these repairs are not an instruction to launch or schedule work.
+
+The newly supplied Study 3 PDF contains embedded charts. Original executable code, result CSVs and standalone chart sources remain absent.
+
 ## Interpretation guardrails
 
 These are warnings about claims in this collection, not new fleet controls:
