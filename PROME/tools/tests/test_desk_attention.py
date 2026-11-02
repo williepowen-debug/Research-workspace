@@ -37,6 +37,25 @@ class AttentionTests(unittest.TestCase):
         self.assertFalse(any(r['expiry'] == '2026-08-31' for r in rows))
         self.assertEqual(da.instrument_name('$20C/$25C call debit spread'), '$20C/$25C')
 
+    def test_signed_short_qty_parses_and_keeps_its_sign(self):
+        # DOCKET L870 (ANVIL-1029 D-91): a short leg is a signed Qty; zero of either sign is closed; junk still errors.
+        src = (FIX / 'FORGE/STATUS.md').read_text()
+        row = '| QQQ $715P | Sep-10-2026 | 1 | $2.55 |'
+        self.assertIn(row, src)
+        for qty, sign_kept, skipped, err in (('−2', '−2', False, False), ('-2', '-2', False, False),
+                                             ('−0', None, True, False), ('?', None, False, True)):
+            with tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                (root / 'FORGE').mkdir()
+                (root / 'FORGE/STATUS.md').write_text(src.replace(row, row.replace('| 1 |', f'| {qty} |')))
+                rows, errors = da.holdings(root=root)
+                hit = [r for r in rows if r['ticker'] == 'QQQ' and r['instrument'] == '$715P']
+                self.assertEqual(bool(errors), err, (qty, errors))
+                if skipped:
+                    self.assertFalse(hit, qty)
+                elif sign_kept:
+                    self.assertEqual(hit[0]['qty'], sign_kept)
+
     def test_expiry_uses_book_year_never_rolls_expired_option_to_next_year(self):
         self.assertEqual(da.expiry_date('Jan-15', 2026), '2026-01-15')
         self.assertEqual(da.expiry_date('1/15/2027', 2026), '2027-01-15')

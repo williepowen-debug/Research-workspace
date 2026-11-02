@@ -138,7 +138,7 @@ def holdings(root=ROOT):
             if any('~~' in raw[cols[n]] for n in ('Ticker', 'Strike', 'Type', 'Position', 'Qty') if n in cols):
                 continue
             state = ' '.join(get(n) for n in ('P&L', 'Outcome', 'State'))
-            if re.fullmatch(r'0(?:\.0+)?', get('Qty')) or any(re.match(r'^(?:✅\s*)?(CLOSED|EXPIRED|ASSIGNED|EXERCISED|REALIZED)\b', get(n), re.I) for n in ('P&L', 'Outcome', 'State')):
+            if re.fullmatch(r'[-−]?0(?:\.0+)?', get('Qty')) or any(re.match(r'^(?:✅\s*)?(CLOSED|EXPIRED|ASSIGNED|EXERCISED|REALIZED)\b', get(n), re.I) for n in ('P&L', 'Outcome', 'State')):
                 continue
             identity = get('Ticker') or get('Position') or ticker
             m = re.match(r'([A-Z]{1,6})\b', identity)
@@ -157,7 +157,8 @@ def holdings(root=ROOT):
             if 'screenshot received September 9' in note:
                 observation = 'Screenshot received September 9, 2026; capture timestamp and account header absent; Fidelity attribution inferred from context'
             qty = get('Qty')
-            if not re.match(r'^\d+(?:\.\d+)?(?:\s|$)', qty):
+            # A short leg is a signed Qty (`−2`, ANVIL-1029 D-91); the sign is kept, never stripped (PAT-069 phantom long).
+            if not re.match(r'^[-−]?\d+(?:\.\d+)?(?:\s|$)', qty):
                 errors.append(f'FORGE line {line_no}: quantity unknown')
             pl = re.search(r'[+\-−]\s?\$?[\d,]+(?:\.\d+)?%?(?:\s*/\s*[+\-−][\d.]+%)?', get('P&L'))
             rows.append(dict(account=account, ticker=tick, instrument=pos, expiry=exp,
