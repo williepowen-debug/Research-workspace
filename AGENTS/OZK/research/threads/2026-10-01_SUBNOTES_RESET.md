@@ -65,3 +65,12 @@ Source of the Term SOFR prints: global-rates.com "3-month CME Term SOFR" page, r
 **Record: the reset HAPPENED — contractual and uncontradicted, not filing-confirmed.** The notes float from 10/1 unless called; a 10/1 call needed holder notice by 9/21; no notice appears at FLNG or in the press, and OZK's own two releases since then are silent on the notes. ⚠️ A quiet FLNG list proves nothing by itself — a notice goes to holders via DTC and need not be filed — **and 10/2 demonstrated the gap directly: OZK's 9/30 and 10/1 press releases are both absent from FLNG.** The rate (≈6.19%, ≈+$12.3M/yr pre-tax, §3) becomes VERIFIED at the Q3 10-Q (~early Nov). Nothing about the notes changes a grade, threshold, weight or conviction.
 
 **Correction to 10/1:** CALENDAR and STATUS said the Q3 date was "not announced as of 10/1 12:15 ET — FLNG quiet." It had been announced on 9/30; FLNG does not carry press releases. Fixed in both files 10/2.
+
+## 6. Jan-1-2027 call-notice window — opening check DONE 2026-11-02
+
+| Check | Result | Basis |
+|---|---|---|
+| FDIC FLNG cert 110 (`scripts/flng_watch.py` via `boot.py`) | **rc 0 QUIET** — **184 filings returned**, schema + coverage OK, none after id **12022**; no newer filing returned | run 2026-11-02 11:10 ET |
+| Targeted press check — Bank OZK subordinated-notes redemption / call / refinancing | **Nothing on these notes**; results were OZK Q3 earnings materials, transcripts and unrelated issuers' note redemptions | two search queries, 2026-11-02 |
+
+**Record: SWEPT AND EMPTY as of 2026-11-02.** No redemption or refinancing notice was found at the opening of the 11/2–12/22 holder-notice window. This is a dated negative, not proof that no notice will arrive: notice goes through the agent/DTC and need not appear at FDIC FLNG. No threshold fired; no grade, weight or conviction moved. `flng_watch.py` remains in every boot; next scheduled press check is mid-December.

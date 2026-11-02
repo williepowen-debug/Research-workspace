@@ -63,16 +63,14 @@
 
 **CHANGES SINCE:**
 
-### LAST SESSION (2026-10-28 22:34–22:59 ET — OZK/Claude Code, Opus 5.5; direct Will session, "getting caught up on all owed or incomplete items")
-- **Mechanical batch (04d437a65, eabd1f3e2):** inbox drained (7: DEWEY ×3, DAEDALUS WQ-508, WALTER 015/041/052) → KB-264 (345 N Morgan reported DekaBank refi), KB-265 (Culver City $132.7M construction commitment), KB-266 (SI 10/15 18.89M, 12-month high); price tokens synced $50.51; CALL_REPORT_SERIES `Cadence: SCHEDULED next_due=2026-11-10`; DEWEY answered from the FDIC FY2025 10-K (FLNG 11868, saved to `raw/`): core vendor not named, past cyber incidents not material.
-- **Charter hot/cold split (8e3d7ce23, DOCKET L810):** CLAUDE.md 30,775 → 22,747 B (69.9%); verbatim moves → `CHARTER_REFERENCE.md`; WQ-508 B10 safe partial applied, C17 left to PROME (L817). READS attestation + BASIS rows sent; PROME transcribed them (read_cap_check rc 0). PROME memos f9b5e0c38, d14a6da3f; L762 closed by PROME.
-- **Will approved items 1–3 (22:44 ET):** (1) **P-OZK-9 approved 22:52 ET** — SCENARIOS prices re-based on Q3, EV $44.41 → **$48.56** (20a239b55; thread `research/threads/2026-10-28_SCENARIOS_PRICE_REBASE.md`; Base-multiple sensitivity $51.12 shown, not adopted). (3) GEOGRAPHY + LIFE_SCI STATUS rebuilt on Q3 (cb546d8d9): problem metros' share 23.6% → 25.4% (KB-267); life-sci OREO $228.0M of $420M. (2) Severity refresh: Opus subagent web sweep + desk synthesis → KB-268/269 supersede KB-177; OZK lender-basis loss ≈20–25% at transfer, OREO exit unobserved.
-- REGINALD_CHANNEL top entry written (directed edge).
+### LAST SESSION (2026-11-02 — OZK/Kimi Code CLI; model/provider/session ID not exposed; direct Will boot + assigned sub-notes check)
+- Boot read root/desk rules, STATUS, LESSONS, CALENDAR, MEMORY and TODO; ran boot kit, corrections and inbox/staleness checks. OZK **$51.78 (+2.23%) at 11:10 ET**, KRE +2.5%, no band breach. Two inbox items (WAL, WALTER) left unprocessed. Git pull was blocked by other desks' dirty files; left untouched, and `git fetch` showed no OZK local or incoming changes.
+- **Sub-notes opening call-notice check DONE:** FDIC FLNG rc 0, 184 filings returned and none after 12022; targeted press found no redemption/refinancing notice. Recorded **SWEPT AND EMPTY as of 11/2**, not a window-long negative → `research/threads/2026-10-01_SUBNOTES_RESET.md` §6. No signal, grade, weight or conviction moved.
 
 ### NEXT SESSION — existing obligations
 1. **~Thu 11/5 Q3 10-Q** (D:L763): grade THESIS invalidation 6 (SM exit) — check-by **Mon 11/16**; RaDD reserve/readvance, Sullivan, OREO roll-forward (any sale price → invalidation 7 and the severity exit leg), debt-on-debt balance. Re-pull EFR cert 110 the same day (then refresh INSIDERS/STATUS, R2); advance `flng_watch.py` BASELINE_ID after reading the 10-Q.
 2. Q3 Call Report ~Nov 1–10: grade **OZK-10** + invalidation 8 (`RIAD5409`) by **11/16**; **FFIEC JWT renewal by 11/5 is Will's action** (PROME DOCKET L219, 11/1 sitting).
-3. Sub-notes call-notice window 11/2→12/22: flng_watch + one press search near 11/2.
+3. Sub-notes call-notice window 11/2→12/22: opening 11/2 check DONE; `flng_watch.py` at every boot + next press check mid-Dec.
 4. Short interest 10/30 settlement ~11/10 — first post-print read (CALENDAR row).
 5. Owed, not urgent: PRIVATE_CREDIT/STATUS refresh after the 10-Q (R2) · OZK-02/04 inputs + roster freshness before the Q4 print (R6) · reserve-build re-derivation (R1, inputs now on file) · G4 PREDICTIONS_ARCHIVE seed.
 
