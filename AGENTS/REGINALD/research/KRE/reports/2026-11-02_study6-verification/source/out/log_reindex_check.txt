@@ -1,0 +1,4 @@
+2026-05-29 uncapped u/TSO ratio rel. to median: {'NTRS': 1.0002, 'MTB': 1.0002, 'HBAN': 0.9879, 'CFG': 1.0001, 'RF': 1.0001, 'KEY': 0.9997, 'EWBC': 1.0, 'PNFP': 1.0001, 'FHN': 0.9992, 'ZION': 0.9999, 'WAL': 0.9986}
+ rule vs actual weights max abs diff (pp): 0.002 {}
+2026-08-31 uncapped u/TSO ratio rel. to median: {'NTRS': 1.0003, 'MTB': 1.0, 'HBAN': 1.0002, 'CFG': 1.0, 'RF': 1.0001, 'KEY': 0.9998, 'EWBC': 0.9998, 'PNFP': 1.0, 'FHN': 0.9998, 'ZION': 0.9999, 'WAL': 0.9997}
+ rule vs actual weights max abs diff (pp): 0.004 {}

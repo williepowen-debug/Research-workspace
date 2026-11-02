@@ -1,0 +1,6 @@
+proxy vs holdings X corr in window 0.9999688125534388
+KBWB {'current': np.float64(0.719), 'pct_all_since2015': np.float64(1.9), 'pct_pre2025': np.float64(0.0), 'median_pre2025': np.float64(0.949), 'p10_pre2025': np.float64(0.893), 'rank_nonoverlap': '1/47'}
+exCM5_fixed {'current': np.float64(0.824), 'pct_all_since2015': np.float64(0.3), 'pct_pre2025': np.float64(0.0), 'median_pre2025': np.float64(0.958), 'p10_pre2025': np.float64(0.923), 'rank_nonoverlap': '1/47'}
+exCM5_EW {'current': np.float64(0.859), 'pct_all_since2015': np.float64(0.2), 'pct_pre2025': np.float64(0.0), 'median_pre2025': np.float64(0.971), 'p10_pre2025': np.float64(0.946), 'rank_nonoverlap': '1/47'}
+CM5_fixed {'current': np.float64(0.45), 'pct_all_since2015': np.float64(2.3), 'pct_pre2025': np.float64(0.0), 'median_pre2025': np.float64(0.862), 'p10_pre2025': np.float64(0.725), 'rank_nonoverlap': '2/47'}
+SPY {'current': np.float64(0.219), 'pct_all_since2015': np.float64(2.1), 'pct_pre2025': np.float64(0.6), 'median_pre2025': np.float64(0.634), 'p10_pre2025': np.float64(0.413), 'rank_nonoverlap': '2/47'}

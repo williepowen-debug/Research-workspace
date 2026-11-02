@@ -106,9 +106,9 @@ Original upload: `REPORT (5).md`. The later [supplied four-panel chart and readi
 
 **Reproduced locally:** 2.414-point compounded gap; 2.565-point sum of daily gaps; September 14's 2.174-point gap; approximately 0.40 volatility-unit scale; residual-correlation percentile of 10.37% since 2012 versus 2.82% since 2015. The latter is an important qualification to the prior roughly-11th-percentile narrative.
 
-**Reported only:** reconstructed ex-capital-markets portfolio, N-PORT weights, traditional-bank basket, HY regressions and most company-level claims. Their underlying source package is not here.
+**Verification bundle supplied later:** [integration review](reports/2026-11-02_study6-verification/REVIEW.md) · [corrected linked attribution](reports/2026-11-02_study6-verification/source/out/corrected_attribution_linked.csv) · [manifest](reports/2026-11-02_study6-verification/MANIFEST.json). The N-PORT, Invesco holdings, prices and reconstruction code are now present. Offline `run_all.sh` regenerated 16 of 17 outputs byte-for-byte; only the rendered figure differed. Ex-five −6.619%, the +5.001% rebound and the 1.772-point like-for-like effect reproduce. The original 1.81 includes 0.044 tracking; its components were non-additive separate removals. Correct linked groups: BAC +1.038, GS+MS +0.899, JPM+C −0.166. The 73% share is specific to 8/3–10/30 and ranges 37–98% across nearby dates.
 
-**Must fix:** Lens 1's named pieces total 1.45 points, not 1.81. The endpoint group-removal comparison may still be right, but the additive bridge is not. A nonsignificant current HY coefficient does not establish no credit exposure or a statistically significant regime change. Capital-markets weakness is not proven temporary. AI-specific spread widening is unmeasured. Selected weak fundamental associations do not prove investors ignore quality.
+**Still reported only / open:** traditional-bank basket, long HY regressions and most company-level claims. A nonsignificant current HY coefficient does not establish no credit exposure or a statistically significant regime change. Capital-markets weakness is not proven temporary. AI-specific spread widening is unmeasured. Selected weak fundamental associations do not prove investors ignore quality.
 
 ## 8. Prospective evaluation — unapproved draft
 

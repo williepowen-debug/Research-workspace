@@ -1,0 +1,46 @@
+=== 1. Holdings files vs market prices ===
+N-PORT 8/31 units x Yahoo close vs reported valUSD, max abs rel err: 0.00030
+Invesco 10/30 units x Yahoo close vs marketValueBase, max abs rel err: 4.20e-08
+Equity share of net assets: 8/31 0.9980, 10/30 0.9969
+
+=== 2. Unit sets are KBW index-share sets (weights at rebalance reference dates) ===
+N-PORT 8/31 units priced at 2026-05-29: top5 [8.001, 8.001, 8.001, 8.001, 8.0]  next8 [4.001, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0]
+Invesco 10/30 units priced at 2026-08-31: top5 [8.004, 8.0, 8.0, 8.0, 7.999]  next8 [4.001, 4.001, 4.0, 4.0, 4.0, 4.0, 4.0, 3.999]
+
+=== 3. Replication vs actual ETF (63 sessions, base close 8/3) ===
+sessions 63
+KBWB ETF TR -8.435 | price-only -8.892 | reconstructed gross -8.391 | net of 0.35% -8.471
+KRE TR -6.021 | price-only -6.553
+daily corr 0.99938, TE 3.85 bp/day, mean diff -0.09 bp/day, max |diff| 11.0 bp
+Month to 2026-07-31: reconstructed gross 3.328, net 3.297, N-PORT NAV TR 3.302, ETF mkt TR 3.323
+Month to 2026-08-31: reconstructed gross -0.707, net -0.736, N-PORT NAV TR -0.731, ETF mkt TR -0.718
+Switch-date test (units change after close of date):
+  2026-08-31: TE 3.78 bp/d, cum -8.365
+  2026-09-11: TE 3.87 bp/d, cum -8.412
+  2026-09-17: TE 3.84 bp/d, cum -8.377
+  2026-09-18: TE 3.85 bp/d, cum -8.391
+  2026-09-21: TE 3.92 bp/d, cum -8.413
+  2026-09-25: TE 3.97 bp/d, cum -8.387
+  2026-10-30: TE 4.03 bp/d, cum -8.446
+
+=== 4. Study-6 separate removals (each group removed alone, remaining units kept) ===
+  remove BAC   : ex-return -7.410  effect vs ETF 1.025  vs reconstructed 0.981
+  remove GS+MS : ex-return -7.661  effect vs ETF 0.774  vs reconstructed 0.730
+  remove JPM+C : ex-return -8.816  effect vs ETF -0.381  vs reconstructed -0.425
+  remove ALL5 : ex-return -6.619  effect vs ETF 1.816  vs reconstructed 1.772
+  sum of separate effects: vs ETF 1.418, vs reconstructed 1.286
+  Study 6 reported: 1.04 + 0.78 - 0.37 = 1.45 vs joint 1.81
+
+Sequential (order-dependent) removal, vs reconstructed:
+   ('BAC', 'GS+MS', 'JPM+C') [np.float64(0.981), np.float64(1.003), np.float64(-0.212)] 1.772
+   ('BAC', 'JPM+C', 'GS+MS') [np.float64(0.981), np.float64(-0.328), np.float64(1.118)] 1.771
+   ('GS+MS', 'BAC', 'JPM+C') [np.float64(0.73), np.float64(1.254), np.float64(-0.212)] 1.772
+   ('GS+MS', 'JPM+C', 'BAC') [np.float64(0.73), np.float64(-0.387), np.float64(1.429)] 1.772
+   ('JPM+C', 'BAC', 'GS+MS') [np.float64(-0.425), np.float64(1.079), np.float64(1.118)] 1.772
+   ('JPM+C', 'GS+MS', 'BAC') [np.float64(-0.425), np.float64(0.767), np.float64(1.429)] 1.771
+Shapley (vs reconstructed): {'BAC': np.float64(1.192), 'GS+MS': np.float64(0.911), 'JPM+C': np.float64(-0.332)} sum 1.772
+Bridge: sum E_G(1-w_G)/(1-W) = 1.783 (avg weights {'BAC': np.float64(8.13), 'GS+MS': np.float64(14.93), 'JPM+C': np.float64(12.42)}, W=35.470) vs exact joint 1.772
+
+=== 5. KRE NAV total return (SSGA NAV history) ===
+KRE NAV TR 8/3->10/30 -5.946 (sessions 63); 10/14->10/30 5.005
+NAV-basis gap estimate: KRE NAV TR minus reconstructed-net KBWB = 2.525

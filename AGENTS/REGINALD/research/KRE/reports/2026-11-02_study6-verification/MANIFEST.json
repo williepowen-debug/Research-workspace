@@ -1,0 +1,24 @@
+{
+  "received": "2026-11-02",
+  "source": "/mnt/c/Users/willi/Downloads/KRE_Study6_Verification.zip",
+  "copy": "KRE_Study6_Verification.zip",
+  "bytes": 3727891,
+  "sha256": "b12af52cc4899b4e71a3ef9101f3740453982f7ea3035670ffda2be236303c8d",
+  "archive_entries": 99,
+  "archive_files": 93,
+  "uncompressed_bytes": 12249080,
+  "extracted_copy": "source/",
+  "observation_cutoff": "2026-10-30",
+  "verification": {
+    "method": "Offline scripts/run_all.sh on supplied raw inputs in a temporary copy",
+    "completed": true,
+    "output_files": 17,
+    "byte_identical_output_files": 16,
+    "different_output_files": ["fig_verification.png"],
+    "figure_note": "Different PNG bytes/pixels under local renderer; same dimensions and displayed relationships",
+    "corrected_attribution_residual": 0.0,
+    "fresh_fetch_required": false,
+    "project_dependencies_changed": false
+  },
+  "review": "REVIEW.md"
+}

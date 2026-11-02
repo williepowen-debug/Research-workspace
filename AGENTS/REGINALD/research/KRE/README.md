@@ -12,7 +12,7 @@ For a quick briefing, read the synthesis only. Before using a claim in research,
 
 ## What this collection establishes
 
-KRE's daily movements became unusually less synchronized with broader bank stocks, beginning before the September and October headline events. Removing extreme days does not eliminate the rarity. That is separate from KRE's modest cumulative outperformance, which a later report attributes largely to capital-markets holdings inside KBWB. The latter reconstruction is not independently reproduced and contains an attribution-table inconsistency. Rates, market exposure, profitability and credit explain different parts of the picture; no dependable directional forecast follows.
+KRE's daily movements became unusually less synchronized with broader bank stocks, beginning before the September and October headline events. Removing extreme days does not eliminate the rarity. That is separate from KRE's modest cumulative outperformance, which a later report attributes largely to capital-markets holdings inside KBWB. A supplied verification bundle now reproduces that reconstruction and corrects its additive bridge; the effect remains window-sensitive and does not explain daily co-movement. Rates, market exposure, profitability and credit explain different parts of the picture; no dependable directional forecast follows.
 
 ## Folder map
 
@@ -32,6 +32,8 @@ Latest addition: [prospective evaluation draft and review](reports/2026-11-02_pr
 Latest full research bundle: [Study 4 market leadership review](reports/2026-11-02_study4-market-leadership/REVIEW.md), including 66 preserved source files and selected offline replication. It strengthens the broader-market/style explanation; its proposed future test remains unapproved.
 
 Latest rebuild: [decoupling stress-test reconstruction](reports/2026-11-02_kre-stress-test-rebuilt/REVIEW.md), preserving the supplied ZIP, unified scripts, 54-row reconciliation and outputs. A temporary retrieval-list repair reproduced all 54 rebuilt values as text; the as-shipped fetch script omits eight required bank tickers. This improves reproducibility without changing the synthesis or adopting a forecast.
+
+Latest verification: [Study 6 holdings verification](reports/2026-11-02_study6-verification/REVIEW.md) supplies the N-PORT, Invesco holdings, prices and reconstruction code. The offline run regenerated 16 of 17 outputs byte-for-byte. It verifies the ex-five portfolio, corrects the like-for-like effect to 1.77 points (73% of the stated-window gap), and reconciles the original non-additive component table. The result remains window-sensitive and non-causal.
 
 ## Scope for future agents
 

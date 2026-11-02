@@ -1,0 +1,22 @@
+cum tracking ETF-rep (pp): end -0.044  max 0.063 2026-09-08  min -0.101 2026-09-17
+cum tracking ETF-rep_net (pp): end 0.036  max 0.098  min -0.062
+ segment 2026-08-03->2026-08-31: ETF -1.721 rep -1.712 rep_net -1.739
+ segment 2026-08-31->2026-09-18: ETF -3.449 rep -3.371 rep_net -3.388
+ segment 2026-09-18->2026-10-30: ETF -3.503 rep -3.544 rep_net -3.585
+period                  63d 8/3-10/30  selloff 8/3-10/14  rally 10/14-10/30
+KBWB_rep                       -8.391            -11.406              3.404
+KBWB_exCM5                     -6.619            -11.066              5.001
+BAC                             1.038              0.509              0.568
+GS                              0.451              0.223              0.244
+MS                              0.448              0.246              0.215
+JPM                            -0.239             -0.545              0.376
+C                               0.074             -0.094              0.194
+GS_MS                           0.899              0.469              0.459
+JPM_C                          -0.166             -0.639              0.570
+CM5_total                       1.772              0.340              1.597
+KRE                            -6.021            -10.550              5.063
+KBWB_ETF                       -8.435            -11.469              3.427
+KRE_minus_exCM5                 0.598              0.517              0.062
+tracking_rep_minus_ETF          0.044              0.063             -0.024
+gap_KRE_minus_ETF               2.414              0.919              1.635
+check                           0.000              0.000              0.000

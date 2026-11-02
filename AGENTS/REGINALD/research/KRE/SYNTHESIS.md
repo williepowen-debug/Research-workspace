@@ -74,7 +74,7 @@ The supplied package is reproducible: selected scripts regenerated 17 outputs ex
 
 ## 4. Holdings composition may explain much of the finishing gap
 
-Study 6 removes JPMorgan, Bank of America, Goldman Sachs, Morgan Stanley and Citi from KBWB and renormalizes the remaining holdings. It reports:
+Study 6 removes JPMorgan, Bank of America, Goldman Sachs, Morgan Stanley and Citi from KBWB and renormalizes the remaining holdings. The supplied verification bundle reproduces:
 
 | August 3–October 30 | Return |
 |---|---:|
@@ -82,13 +82,13 @@ Study 6 removes JPMorgan, Bank of America, Goldman Sachs, Morgan Stanley and Cit
 | KBWB | −8.43% |
 | Reconstructed KBWB excluding those five | −6.62% |
 
-If verified, the return advantage shrinks from 2.41 points to 0.60. Its reconstructed October rebound is 5.00%, almost identical to KRE's 5.06%. This would explain much of relative performance through businesses absent from KRE, rather than exceptional regional-bank strength.
+The return advantage shrinks from 2.41 points to 0.60. The reconstructed October rebound is 5.00%, almost identical to KRE's 5.06%. On a like-for-like reconstruction basis, the five-bank effect is **1.77 points, or 73% of the gap**; Study 6's 1.81 includes 0.04 points of ETF tracking difference.
 
-**This is reported-only attribution.** We have not audited the holdings reconstruction. Its component table also fails to add: 1.04 + 0.78 − 0.37 = 1.45 points, not its stated 1.81. Removing the whole group may still explain 1.81 points, but the parts require reconciliation. Accounting for which securities dragged on returns does not prove why they fell or that the weakness is temporary.
+**The original component presentation was non-additive, and the verification reconciles it.** Separate one-at-a-time removals are not parts of the joint counterfactual. The corrected linked split is BAC +1.04, GS+MS +0.90 and JPM+C −0.17, plus 0.04 tracking. BAC/GS/MS drive the result; JPM offsets it. The five-bank share ranges from 37% to 98% across nearby date choices, so 73% belongs only to the stated window. Accounting for which securities dragged on returns does not prove why they fell, that weakness is temporary, or what explains daily co-movement.
 
 The same report finds unusually weak KRE co-movement even against traditional commercial banks. That separate result remains unreplicated, but would further distinguish the endpoint explanation from the daily-path question.
 
-Sources: [Study 6](reports/2026-11-02_study6-drivers/input_report.md), [review](reports/2026-11-02_study6-drivers/review.json).
+Sources: [Study 6](reports/2026-11-02_study6-drivers/input_report.md), [original review](reports/2026-11-02_study6-drivers/review.json), [verification review](reports/2026-11-02_study6-verification/REVIEW.md).
 
 ## 5. Falling yields can help banks while credit conditions worsen
 
