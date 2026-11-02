@@ -4,7 +4,7 @@
 
 ## Resume point
 
-No CATO implementation or review is currently owed. The [morning change review](runs/2026-11-02_1018_morning-change-review.md) found a Fable model-policy gap and a grouped-session-view/launcher mismatch; corrections are recommended, not assigned. The completed system review (WQ-583) stays closed; ordinary use or a concrete failure should drive the next assignment. [Disposition and owner limits](TASK_INDEX.md#october-29-system-review-and-launcher-approvals). The [file-cleanup report](runs/2026-11-02_0953_cato-file-review.md) records the approved corrections; the charter and authority are unchanged.
+No CATO implementation or review is currently owed. The [morning change review](runs/2026-11-02_1018_morning-change-review.md) identified a grouped-session-view/launcher mismatch; a small launcher-reader correction is recommended, not assigned. Will accepted Fable availability for other desks, closing that finding without repair. The completed system review (WQ-583) stays closed; ordinary use or a concrete failure should drive the next assignment. [Disposition and owner limits](TASK_INDEX.md#october-29-system-review-and-launcher-approvals). The [file-cleanup report](runs/2026-11-02_0953_cato-file-review.md) records the approved corrections; the charter and authority are unchanged.
 
 ## Surviving CATO work
 

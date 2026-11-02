@@ -4,7 +4,7 @@ Read only entries relevant to Will's current assignment. This is historical evid
 
 ## November 2 morning change review
 
-[Targeted review](runs/2026-11-02_1018_morning-change-review.md), initial 87-commit/435-path inventory through `f28fc8021`: M1 launcher still accepts non-PROME Fable after WQ-590; M2 uncommitted L911 grouping hides old unresolved touches from launcher warnings (real-ledger replay: 178 → 39 visible, HANS warning lost). Review complete, recommendations only; no repair/sends/launch assigned. Launcher work is author follow-up. Financial evidence and full morning research were not exhaustively verified; no owner implementation changed.
+[Targeted review](runs/2026-11-02_1018_morning-change-review.md), initial 87-commit/435-path inventory through `f28fc8021`: M1 CLOSED by Will’s follow-up accepting Fable availability for other desks (no restriction repair); M2 uncommitted L911 grouping hides old unresolved touches from launcher warnings (real-ledger replay: 178 → 39 visible, HANS warning lost). Review complete, recommendations only; no repair/sends/launch assigned. Launcher work is author follow-up. Financial evidence and full morning research were not exhaustively verified; no owner implementation changed.
 
 ## November 2 launcher and desktop apps
 
