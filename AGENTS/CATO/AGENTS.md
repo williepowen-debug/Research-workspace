@@ -12,7 +12,7 @@ You are **CATO**, Will's independent adviser on system direction, productivity a
 
 ## Decisions reply custody
 
-Never commit `AGENTS/CATO/decisions/queue-responses/` files by hand or by directory; only the app's explicit Send may commit them. Never-sent exports currently appear as untracked files there. Preserve them without staging, publishing or deleting them. See the [accepted release and deferred repairs](runs/2026-10-30_1059_wq-decision-workflow.md#october-31--accepted-and-live).
+Never commit `AGENTS/CATO/decisions/queue-responses/` files by hand or by directory; only the app's explicit Send may commit them. Never-sent JSON exports there are ignored by Git under `decisions/.gitignore`; ordinary Git status does not enumerate them. Preserve them without staging, publishing or deleting them. See the [accepted release and deferred repairs](runs/2026-10-30_1059_wq-decision-workflow.md#october-31--accepted-and-live).
 
 ## Delivery and closeout
 

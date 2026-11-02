@@ -2,7 +2,23 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## November 2 launcher and desktop apps
+
+**Latest recorded outcome:** Calendar, Decisions and Agent Launcher matched the freshly fetched source on the desktop at the [November 2 update check](runs/2026-10-26_2115_agent-launcher.md#november-2--desktop-update-check-for-all-three-apps). Calendar and Decisions source checks passed; the missing desktop shortcuts were installed and verified. Existing launcher wrappers already matched. This supersedes the earlier laptop-only shortcut evidence, not the limits of those earlier tests. Decisions recovery uses the committed portable package, not the temporary clone.
+
+**Kimi and categories:** [November 2 delivery](runs/2026-10-26_2115_agent-launcher.md#november-2--kimi-model-choice-and-category-feedback) adds Kimi K3.1 Pro, with type-Start instructions and session-picker resume. Separate projects and Legacy reference were already absent from the current configuration. Will confirmed the changes are visible. Real Kimi authentication/completed desk startup remains untested; CATO keeps its existing Codex-only choices. The October 31 model-default change was delivered, so continuity's former blanket “model-default changes stay deferred” statement is superseded. Shared launch receipts remain deferred. This is implementation history, not a claim about later owner model rulings.
+
+**Central calendar: working in ordinary use; keep the current layout.** [Use feedback](runs/2026-10-30_2221_central-calendar-plan.md#october-31--empty-view-resolved-with-navigation) · [usage](prototypes/calendar/live/README.md). Will’s “looks empty” concern was resolved by navigating beyond today; he confirmed “ah that fixed it thank you”. No seven-day-default redesign commissioned or applied. Read-only agenda, Week Grid and desktop shortcut remain delivered. No implementation/review owed; orient and await Will. Broader productivity and independent acceptance remain unmeasured.
+
+**Research tab implemented and author-tested. Orient and await Will.** [Delivery](runs/2026-10-27_1440_program-opportunities.md#october-29--research-tab-delivery): Will approved the build October 29; CARL/BROCK/LIQUID source reading and literal search use a separate bounded worker. File-service, native Windows/WSL and concurrent fake-launch checks pass. Reopen launcher and use Research; ordinary usefulness and independent acceptance remain unmeasured. No implementation remains, no new study or automatic follow-up.
+
 ## October 30 WQ decision workflow
+
+**Current recorded outcome — November 2:** the [accepted release](runs/2026-10-30_1059_wq-decision-workflow.md#october-31--accepted-and-live), subsequent [WQ-579 waiver and installation](runs/2026-10-30_1059_wq-decision-workflow.md#october-31--operator-waiver-and-installation), and installed SR5 below supersede the pending activation/review wording in the earlier history. The November 2 desktop check reported no source errors or acceptance restriction. Matching PROME-chat confirmation remains required for every answer; a current device check does not establish live-answer use.
+
+**Decisions: SR5 installed with PROME independent acceptance; observe ordinary use.** [Updated review](runs/2026-10-29_0942_recent-system-review.md#october-31--wq-582-retirement-advice-and-changed-review-disposition) · [owner packet](inbox/2026-10-31_from-PROME_SR5-installed.md). Will commissioned SR5 via PROME (WQ-581); `241085569` installs the prepared guard, with review `da0963a39`. CATO verified installed guard and all 22 pins. Reopen the app once; live-answer use unverified. Existing WQ-579 waiver remains historical and build-specific; matching chat confirmation and prior W-S/legacy-pilot limits survive. No further SR5 adoption owed. PROME reports one pre-existing revision-delivery test failure on both original/patched code; CATO should investigate at the next authorized Decisions touch, not launch a new task automatically.
+
+### Earlier workflow history
 
 - **Investigation and authorized mockup delivered:** [Report](runs/2026-10-30_1059_wq-decision-workflow.md) answers twenty questions; [snapshot evidence](runs/2026-10-30_1059_wq-decision-workflow-evidence.json) pins research checks to `d53b51d91`. WQ-F1: OPEN/type/unit interpretation is not a reliable unanswered-decision count. WQ-F2: terminal ledger text is shortened; full ruling records remain necessary. Will then approved proceeding with a mockup and workflow: [interactive preview](prototypes/decisions/index.html), [proposed contract and build sequence](prototypes/decisions/README.md), [delivery](runs/2026-10-30_1059_wq-decision-workflow.md#october-30--interactive-mockup-and-workflow). Author checks pass; fictional/in-memory responses only. Will subsequently said it looks good; [next step proposed](runs/2026-10-30_1059_wq-decision-workflow.md#october-30--design-feedback-and-next-step) is a read-only real-WQ view. No new implementation assigned by the next-step question. No production intake, owner edits, hosted-store access, Deck restart, sending or cleanup approved. Number allocation, source contract, delivery/authenticity/storage and device scope remain unresolved for a live build; no automatic follow-up audit.
 - **Readiness follow-up refines that next step:** [Assessment at `2071ae4e8`](runs/2026-10-30_1059_wq-decision-workflow.md#october-30--source-readiness-before-connection) retains WQ-F1/F2 and confirms current 495/551 counterexamples. Propose the small authored source standard and sample mappings before the real-data reader, with full terms and separate unit/response/work states. Keep existing history; no broad migration or database prerequisite. No source changes or build assigned by the question.
@@ -22,9 +38,57 @@ Read only entries relevant to Will's current assignment. This is historical evid
 
 ## October 29 system review and launcher approvals
 
+**Latest review disposition — November 2:**
+
+**Review work complete; stop reopening WQ-583.** [Current disposition and closeout](runs/2026-10-29_0942_recent-system-review.md#november-2--review-discussion-and-session-closeout). Adoption commit `853bde643` exists in current history; live use and push were PROME-reported, not independently tested by CATO. Will is tired of endless reviewing. CATO recommends ordinary use, no further review/evaluation assignment, and a specific repair only if an actual failure occurs. Reported remaining L835/L910 repairs stay with PROME; current closure unassessed. No CATO implementation or audit owed. Earlier SR5/L737 closures and WQ-582/L863 retirement limits remain in the report; the deferred Decisions discrepancy remains above. [Other approvals](TASK_INDEX.md#october-29-system-review-and-launcher-approvals) remain inactive until their scope is resumed.
+
+**Launcher follow-through:** ORACLE preset implementation is complete; the recorded PROME L848 verification/docket closure remains unverified by CATO, not a new implementation assignment. Windows wake L853 remains scope-only, with no build/install approval. Current launcher delivery and desktop evidence are [above](#november-2-launcher-and-desktop-apps); older follow-through entries below retain their dated limits.
+
+### Earlier review and approval history
+
 - [Recent-system review and October 30 handoff](runs/2026-10-29_0942_recent-system-review.md#october-30--desktop-handoff): evening independent scope remains 8f9049d6c; PROME subsequently records L368 repaired/independently reviewed at 55f6f727f, not rerun by CATO. Prior start-L368 recommendation superseded; L863 remains owner work. SR2 baseline/method and SR3 record corrections retain their limits; SR4 coverage caveat survives. Experiment A stopped. No remaining CATO implementation; desktop resume = orient and await Will.
 - **L848 due November 2: CATO implementation/test complete October 29; PROME verification pending.** [Delivery](runs/2026-10-26_2115_agent-launcher.md#october-29--oracle-daily-read-preset-delivered-l848): exact ORACLE daily-read text added to existing native preset menu; 39 Python tests and native interaction checks pass. Choosing/applying starts nothing. [Assignment](inbox/2026-10-28_from-PROME_WQ527-B-launcher-preset.md), [supplied text](inbox/2026-10-28_from-ORACLE_WQ527-B-preset-text.md). PROME owns commit acceptance/docket closure; no need for another CATO implementation pass absent changed evidence.
 - **L853 due November 9, scope only:** Windows wake/catch-up belongs in launcher; scope then bring installation to Will. Source: PROME/DOCKET.tsv L853 and PROME/inbox/processed/2026-10-28_from-ORACLE_windows-wake-trigger-to-launcher.md. Build explicitly not approved; WSL-up limitation remains. No implementation during review.
+
+## November 2 retained research and owner follow-through
+
+Moved from continuity during Will's approved cleanup. These are the prior recorded dispositions, not new verification of owner closures. Dates remain their original observation/due dates. Approvals, conditions and unresolved limits survive; consult the named owner when an assigned task depends on current state.
+
+### Prior direction
+
+**Prior direction remains delivered.** [Evening direction](runs/2026-10-26_1738_workflow-review-and-restart.md#october-26-evening--research-first-output-and-adopted-next-direction): Will adopted the PROME prompt to continue approved research and keep WQ-526 closed. Brazil correction CLOSED in inspected PROME report/SCRATCH at b8e4fcb0c: accepted buybacks established, paid settlement unverified; evaluation scopes preserved. No new financial-source audit. One substantive research-first synthesis observed, consistent quality unproved. No automatic CATO follow-up or equivalent restart review. [October 26 topic pointers](TASK_INDEX.md#october-26-direction-and-retained-advice) preserve restart verification limits, LIQUID organization advice, VULCAN proposed repair and prior three-desk/Miami limits.
+
+### External-system follow-up
+
+**External-system follow-up:** [Twelve-idea reassessment](runs/2026-10-24_1653_external-systems-borrowing.md#october-24-evening--reassessing-the-twelve-idea-summary) complete. CATO prototype advanced to Will-authorized DEWEY L834 integration (`0c0ab27ab` / `5fb7539d3`) for VULCAN L800; author-tested packets exist, consumer comparability/coverage and PROME verification remain owner work. CATO is an ancestor author, not independent acceptance. DAEDALUS's concurrent restart investigation supplies concrete mode-order and delivery-scope findings; CATO checked the DEWEY/OTTO instruction clauses, not its full fixtures. Recommend DEWEY clarify mode-before-context at an authorized touch; finish existing integration/trial/closeout work. No new timing study, index, lock layer, owner edit or send. Expiration and dead-end indexing both remain deferred; selective retrieval and scoped updates remain useful techniques. Await Will; no automatic CATO follow-up.
+
+### Trial dispositions
+
+**Trial dispositions:** Experiment A/L833 completed and stopped October 29; [assessment and limits](runs/2026-10-29_0942_recent-system-review.md#october-29-evening--commit-review-follow-up). WQ-515: existing prospective information-fidelity batch unchanged; the October 24 PRD case stays retrospective and outside its rate. Judge preservation of consequential information first; improved investment returns are not a required result of this narrower test. WQ-516: approved I1/I2 lines survive; CARL's existing I3 answer includes what decision it informs, without an automatic backtest/new-study requirement. These are owner work, not triggers to launch or collect from CATO.
+
+### NEXUS
+
+**NEXUS:** [Brief-census suggestions](runs/2026-10-24_1558_nexus-structure-plan-review.md#october-24-1904-et--brief-census-review-and-suggestions) delivered: git counts reproduce; prioritize BROCK/LIQUID substantive folds before next consumption, retain fallback if unavailable, use L555 for remainder. NS5 separates commit recency, checker class and header coverage (WATT has a noncanonical actual hash); NS6 preserves COMPACT; NS7 says FLG's versioned thesis requires FULL; Will subsequently approved the concise FULL brief under WQ-520, with L838 due October 27. CATO made no sends or owner edits. Stage 2 and WQ-519(i)/(ii) remain accepted in the previously inspected scope; NS1 size addressed, NS2 M-10 and NS3 instruction omission closed. Monday October 26 L832 remains the observation. WQ-519(iii) ruled October 29 (7946cf76d); NEXUS encoding at the November 3 wake and PROME commit verification remain owed. Threshold lines remain the encoded rule, independent-class count displayed beside them; PROME disclosed its interpretation of the brief approval. [Ruling and limits](../../PROME/proposals/2026-10-29_wq519iii-504-RULED.md). L40 NEXUS count delivered, DAEDALUS grade owed. Other residue/limits remain in the continuing report; no automatic audit.
+
+### PROME decisions and corrections
+
+**PROME decisions/corrections:** [Ruling delivery review](runs/2026-10-24_1523_prome-decision-review.md#october-24--ruling-delivery-follow-up) supersedes the earlier recommendations: owner records encode Will's WQ-505/486/517/493/488 rulings. PRD5 is closed by the corrected CAP disposition: no increase or repeated continuation. WQ-517 has recorded independent counterexample acceptance, not a CATO rerun; first live closeout verification remains the next observation and nested-ignore residue stays L835. TERRY template/ledger encoding is owed by October 30 (L837); DEWEY's SEC-only record remains owner work. WQ-520 now authorizes FLG's concise FULL brief, October 27 L838; LIQUID fold/repair is October 26 L836. No new CATO assignment or send. PRD1–4 retain their previous limits: NEXUS copies corrected, TERRY/MIDAS origin corrections unverified; WQ-518 verified-date condition survives, and future safe preflight remains unproven.
+
+### Forecast pilot
+
+**CATO forecast pilot:** October 29 pass at `935b30ab`: **enrollment CLOSED, 20/20 originals**, eleven later versions, nineteen nonnumeric records; one scored outcome, nineteen unscored. FP1–FP10 grading/coverage limits retained; no replacements. Next existing observations: RED-25 October 31 re-review if new evidence, FAL-06 November 5 window/coverage checkpoint. Resume due-case review only when Will directs; no automatic job, sends or desk obligations. December 31 process assessment survives; 2027 endpoints remain unresolved. Effort **44/120 minutes**, 76 remaining. [Scope, evidence and checks](runs/2026-10-01_1105_forecast-pilot/README.md#october-29--enrollment-complete-and-first-binary-resolution).
+
+### Work selection
+
+**Work selection:** [October 23–24 carry](runs/2026-10-23_2131_next-work-selection.md). CARL's October 26 L786 and BROCK's scheduled filing reads remain recommended owner work; October 28 L818 observation remains. LIQUID's bounded conclusion is owner-reported, not a CATO calculation audit. WQ-512 and WQ-513–516 approvals survive; NOT-FIRED/date conditions and five-change ceiling survive. No new CATO assignment.
+
+### Next census
+
+**Next census:** use corrected REG-08/REG-10 outcomes (L824); preserve old CATO evidence, no immediate census/backfill. [Scope and limits](runs/2026-10-23_1950_system-catchup.md#reconciliation-and-next-actions). The earlier 59-overdue/22-open counts are dated snapshots, not current totals.
+
+### Other retained cases
+
+**Other retained cases:** [October 24 topic map](TASK_INDEX.md#october-24-topic-map-and-retained-dispositions) routes prior WALTER, OTTO, Nisaba, calendar, delivery, runtime and bookmark findings. Their unresolved conditions and approvals are preserved in the archive/continuing reports; none auto-triggers at startup or closeout. L628 remains CLOSED. WQ-505/493/488/486/517 now have owner-recorded rulings; consult the delivery follow-up and current owner records if resumed.
 
 ## October 27 program opportunities
 

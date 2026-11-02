@@ -26,6 +26,14 @@ bash AGENTS/CATO/launch.sh --check
 
 Model availability still depends on the installed client/account. Verification evidence and limitations: [foundation record](../../PROME/plans/2026-09-15_CATO-foundation.md).
 
+## Apps
+
+- [Calendar usage](prototypes/calendar/live/README.md) — desktop shortcut or Agent Launcher → Calendar.
+- [Decisions usage](prototypes/decisions/mvp/README.md) — desktop shortcut or Agent Launcher → Decisions; matching chat confirmation remains required.
+- [Agent Launcher usage](../../scripts/AGENT_LAUNCHER.md) — models, tasks, saved groups and Research.
+
+[Latest desktop and launcher evidence](TASK_INDEX.md#november-2-launcher-and-desktop-apps) distinguishes installed/tested behavior from ordinary-use observations. These links are navigation, not additional startup reads.
+
 ## Files
 
 | File | Job |

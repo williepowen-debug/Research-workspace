@@ -1,14 +1,14 @@
 # CATO file review — November 2, 2026
 
-## Current recommendation
+## Current assessment
 
-Make one bounded documentation cleanup: shorten current continuity, correct superseded wording, and add current-disposition pointers to the relevant task-index entries. Keep the charter's purpose and authority unchanged. These are recommendations, not an approved rewrite or new research assignment.
+**Implemented under Will's subsequent “Okay approved go ahead.” CF1–CF3 are closed in this documentation scope.** Continuity is shorter, superseded wording is corrected, and the task index leads with current recorded app/review outcomes. README usage links are also added. The charter, authority, surviving approvals and owner verification limits are unchanged. No further CATO work is assigned by this cleanup; orient and await Will.
 
 ## Scope and evidence
 
 Will asked what CATO files should be updated after confirming the launcher changes are visible. Reviewed the current AGENTS.md, CHARTER.md, CONTINUITY.md and README, relevant Decisions/launcher entries and the historical-state preamble in TASK_INDEX, the Decisions ignore rules, and the continuing launcher report. Revision `5a86ab4fb`; concurrent owner work is preserved. No whole-index/archive audit, owner-status reconciliation, external-source verification or new app testing. The first status command used an incorrect cwd-relative path and was not evidence of cleanliness; the corrected repository-root status showed no prior CATO changes.
 
-## Recommended changes
+## Initial recommendations
 
 1. **CF1 — shorten the current resume point.** CONTINUITY is 1,206 words and carries substantial completed-case detail, dated owner obligations and repeated instructions to await Will. Keep the actual resume point, forecast-pilot approval/budget, deferred Decisions discrepancy and compact pointers to surviving grants. Move historical detail to its existing report or relevant task-index entry, preserving approval conditions and verification limits. Completion: a fresh session can identify its next action without reading completed-case narratives; no surviving authority disappears.
 2. **CF2 — reconcile specific current claims.** The continuity paragraph for ORACLE still says model-default changes are deferred, while the launcher report's October 31 default-change entry records implementation. Its machine handoff points to October 29 laptop evidence rather than the November 2 desktop checks and Kimi delivery. Update these references and retain the distinction between Will seeing the new controls and an untested real Kimi conversation. In AGENTS.md, replace the claim that never-sent exports currently appear as untracked with the actual ignored-file behavior: decisions/.gitignore ignores queue-responses/*.json, confirmed with git check-ignore. Preserve the explicit-Send-only custody rule. Completion: startup wording agrees with current implementation evidence without changing permissions.
@@ -16,8 +16,21 @@ Will asked what CATO files should be updated after confirming the launcher chang
 
 Optional: add a small README navigation section linking Calendar, Decisions and Agent Launcher usage. Its existing role/startup guide is sound; this is convenience, not a blocking correction. Do not expand startup reads or add checkers, recurring reviews, new files per case, or a directory reorganization.
 
-## Disposition and limits
+## Initial review disposition and limits
 
-Review complete; the three recommendations remain unimplemented pending Will's direction. No app repair or new evaluation is implied. Other owners' outstanding work is not newly verified, closed or reassigned. No continuity rewrite is required merely to record this discussion; its orient-and-await instruction still applies.
+At initial review, the three recommendations were unimplemented pending Will's direction. The subsequent approval and implementation below supersede that pending disposition. No app repair or new evaluation is implied. Other owners' outstanding work is not newly verified, closed or reassigned.
 
 Delivery checks: verified readability and passed weekday checks for PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, this report and the launcher report. Scoped whitespace check passed; orphan advisory showed foreign FALCON, NEXUS, TERRY, WALTER and root KIMI_BOOT.md work, preserved. TERRY has a foreign staged processed packet; commit only the two named CATO reports. Startup files, ledgers, memory and shared figures were not changed; their conditional checks do not apply. Publication receipt follows in-session.
+
+## November 2 — Approved cleanup implemented
+
+**Authority and scope:** Will approved the proposed cleanup, including the small README navigation addition. Baseline `48efc7422`; only CATO AGENTS.md, CONTINUITY.md, TASK_INDEX.md, README.md and this continuing report are changed. Other owners have concurrent modifications and a staged TERRY inbox move; no shared/root files, owner dispositions, application code or reply exports were edited.
+
+- **CF1 closed:** CONTINUITY fell from 1,206 to 345 whitespace-delimited words (about 71% shorter). It leads with orient-and-await, the closed WQ-583 review, surviving CATO work, current machine handoff and compact approval pointers. Thirteen detailed disposition/approval records moved verbatim into the existing on-demand TASK_INDEX; all previous index lines remain in their original order. Forecast budget, no-replacement condition, dates, 2027 endpoints, Decisions maintenance trigger and historical caveats remain available. No new archive file or mandatory read was added.
+- **CF2 closed:** startup custody wording now states that never-sent JSON exports are ignored, while retaining explicit-Send-only custody. The old model-default deferral is explicitly superseded by its dated implementation evidence; shared receipts and Windows wake limits survive. Machine handoff points to November 2 desktop checks/Kimi delivery and Will's visible-controls confirmation, with actual Kimi authentication/desk startup still untested. No later owner model ruling was implemented or independently verified here.
+- **CF3 closed:** Decisions and system-review sections now start with their latest recorded disposition before labelled historical entries. The current launcher section points to delivery and usage evidence. Dated owner obligations moved out of startup are explicitly last-checked observations, not freshly verified current totals or automatic tasks.
+- **Optional navigation delivered:** README links Calendar, Decisions and Agent Launcher usage and the current desktop evidence. These are navigation links, not extra startup reads.
+
+**Author verification:** 30 added local links/anchors resolve; an ordered comparison confirms every prior task-index line survives, and all 13 transferred records match exactly. The charter has no diff. This demonstrates document preservation and navigation, not improved research productivity or independent acceptance. No application tests were rerun for these text-only changes. Final root-required check results follow.
+
+Final checks: all 12 distinct planned inputs existed and were readable. Weekday check passed the eight inputs PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO AGENTS.md, CONTINUITY.md, TASK_INDEX.md, README.md and this report. Read-cap checked CATO AGENTS.md/CHARTER.md/CONTINUITY.md and root CLAUDE.md/USER.md/AGENTS.md; all are below the cap, with the unchanged root CLAUDE.md 76% rotation advisory. CONTINUITY is 3,105 bytes. Scoped whitespace check passed. Orphan advisory and staged-path inspection identify only foreign work outside these five CATO documents, including the staged TERRY move; preserved for its owners. No memory, ledger or consumer-figure checks are triggered. Exact-path commit and fresh-fetch publication receipt follow in-session.
