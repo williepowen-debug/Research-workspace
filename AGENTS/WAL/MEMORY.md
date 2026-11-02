@@ -1,4 +1,18 @@
-## Session Notes — current handoff, October 30 2026 evening (PROME relay)
+## Session Notes — current handoff, November 2 2026 (Kimi Code)
+
+**⚠️ Open question:** where the $99M life-science loan went. The Q3 10-Q graded NO-VERDICT; ask management directly at the Q4 call. Q3 Call Report MI3 is separately still ungraded because WAL's direct FFIEC retrieval is unavailable.
+
+**THIS SESSION:**
+- Bounded boot cleanup committed `fdfaee04b`: charter current state now points to THESIS/STATUS; loose inbox and WALTER lanes are distinct; all 11 drift occurrences classified (10 valid history, one KB-provenance error fixed); filing alerts distinguish DETECTED from grading. 25 regression tests pass; drift check has zero new claim identities. The queued DEWEY loose packet remains intentionally untouched.
+- Q3 Call Report: WALTER's 11/01 primary pull establishes availability, but WAL's 11/02 direct facsimile request and boot filer-list request both return HTTP 500, including a retry after Will added usage. The alternate curl header transport also returns 500; WALTER's raw `/tmp` cache is gone; the public bulk form returns no periods after product selection; FDIC financials has zero 9/30 rows for CERT 57512. No MI3 denominator, ratio, NDFI integration or series row was invented. Source remains UNCHECKED; latest receipt `sources/ffiec_2026-11-02/retrieval_20261102T161526805643Z.json`; MI3 data clock unchanged.
+- Thesis weights, frozen grades, predictions and historical evidence unchanged.
+
+**NEXT SESSION:**
+1. Retry WAL's own Q3 FFIEC facsimile retrieval; only then append RCON2746/RCON1766 and RCONJ454 plus the approved commitment/modification/mortgage/capital fields. Do not substitute WALTER's synthesis for the desk extraction.
+2. Re-judge V1b-magnitude, V3, V4 and composite by evidence; register forward Q4 predictions by 11/15; complete the hotel franchise finance read. These prior approved/carried items were not advanced by this bounded cleanup.
+3. The 33 expired KB rows and queued DEWEY loose packet are outside this cleanup and remain visible.
+
+## Prior session notes — October 30 2026 evening (PROME relay)
 
 **⚠️ Open question:** where the $99M life-science loan went. The Q3 10-Q (acc 0001628280-26-068599, 16:38 ET) does not mention it at all, so it graded **NO-VERDICT** (never C). Put it to management directly at the Q4 call: status at 9/30, appraisal received, value vs carrying.
 
