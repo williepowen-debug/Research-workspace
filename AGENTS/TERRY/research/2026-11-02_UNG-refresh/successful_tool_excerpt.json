@@ -1,0 +1,35 @@
+{
+  "provenance": "Transcribed selected fields from successful chain_fetch tool response in this session; full stdout was displayed, not saved by that call. Subsequent saved retries failed DNS.",
+  "fetch_ts": "2026-11-02T10:22:02.415778",
+  "spot_asof": "2026-11-02 10:22",
+  "spot": 9.1850004196167,
+  "expiry": "2027-01-15",
+  "legs_checked": [
+    10,
+    12
+  ],
+  "legs_missing": [],
+  "legs_defective": [],
+  "rows": [
+    {
+      "strike": 10,
+      "bid": 0.89,
+      "ask": 0.95,
+      "open_interest": 31912,
+      "volume": 268,
+      "iv": 74.61,
+      "spread_pct": 6.52,
+      "last_trade": "2026-11-02 09:49"
+    },
+    {
+      "strike": 12,
+      "bid": 0.48,
+      "ask": 0.62,
+      "open_interest": 33987,
+      "volume": 1,
+      "iv": 83.11,
+      "spread_pct": 25.45,
+      "last_trade": "2026-11-02 09:34"
+    }
+  ]
+}

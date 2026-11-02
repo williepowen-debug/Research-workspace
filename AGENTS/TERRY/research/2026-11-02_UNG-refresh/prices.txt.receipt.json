@@ -1,0 +1,11 @@
+{
+  "requested_at": "2026-11-02T10:21:31-05:00",
+  "command": [
+    "python3",
+    "FORGE/tools/market-data/fetch.py",
+    "price",
+    "UNG"
+  ],
+  "returncode": 3,
+  "stderr": "Failed to get ticker 'UNG' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.\nfetch.py: exit 3 \u2014 price: 1 fetch failure(s) (UNG)\n"
+}

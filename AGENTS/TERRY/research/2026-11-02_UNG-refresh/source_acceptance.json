@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-02T10:24:32-05:00",
+  "raw_sha256": "6ee4182f9bd333c1c5e47e6f3eee54a458f15ff2df0cdea8560b87c1329965ec",
+  "n": 1440,
+  "mean": 5.531545627170138,
+  "reference": -1175.153076171875,
+  "binary_scale": 0,
+  "decimal_scale": 2,
+  "bits": 12,
+  "scope": "Independent TERRY decode of saved WALTER NOAA field; positive sampled analysis accepted as nonqualifying evidence; no AEOLUS canonical log or continuous absence inferred."
+}

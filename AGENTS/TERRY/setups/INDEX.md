@@ -1,7 +1,9 @@
 # TERRY CARD INDEX — the master registry of every trade card
 **🗄️ Idea shelf (2026-10-29):** retired-but-browsable ideas live on `IDEA_SHELF.md` — not checked daily, revived only by Will's word.
 
-**Latest management update:** 2026-11-02T09:54:21-05:00 — RSP revived / repriced under D:L905 / WQ-574, CONDITIONAL NOT-FIRED; UNG remains APPROVED NOT-FIRED; no order.
+**Latest bounded refresh:** 2026-11-02T10:23:00-05:00 — UNG APPROVED NOT-FIRED on record; canonical weather grade pending; fresh GFS Nov 2 06Z +5.53155 m/s, positive sampled analysis; chain outer .47, x5 screen loss $241.50; cap $256.50 unchanged, both $10.40 guards bind. No order.
+
+**Prior management update:** 2026-11-02T09:54:21-05:00 — RSP revived / repriced under D:L905 / WQ-574, CONDITIONAL NOT-FIRED; UNG remains APPROVED NOT-FIRED; no order.
 
 **Prior management update:** 2026-10-19T17:31:02-04:00 — eight C5 cards, original-card follow-through below; no order.
 
