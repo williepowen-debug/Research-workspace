@@ -1,0 +1,276 @@
+{
+  "created": "2026-11-02",
+  "purpose": "Will-directed KRE study collection; originals preserved; no owner grades changed",
+  "files": [
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/FRED_BAMLH0A0HYM2.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/FRED_BAMLH0A0HYM2.csv",
+      "bytes": 1070,
+      "sha256": "60dc4956476435aa5f6b726734d3abf64e5eb4c9877d3ece93cd2efb7cdd45e5"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/FRED_DGS10.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/FRED_DGS10.csv",
+      "bytes": 1039,
+      "sha256": "5c8fa783cad576bddc1b08788c53b35d125f3cdb544301fa4d6e6f643ed0d309"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/FRED_DGS2.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/FRED_DGS2.csv",
+      "bytes": 1038,
+      "sha256": "95b4b0c4c428654588f5ad45c0482f56bdfcb6282b5d9f4245ad1709e286efbc"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/HYG_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/HYG_daily.csv",
+      "bytes": 498847,
+      "sha256": "6abd243872c9e9a842c0c765f3499e2fc785eeadd5d3173e11e333185e0c670f"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/IEF_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/IEF_daily.csv",
+      "bytes": 506520,
+      "sha256": "9fc0ca45850dd7f95b29b578b2d170f80ee61639a81823e87ea0e1fe5f7c4033"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/IWM_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/IWM_daily.csv",
+      "bytes": 513455,
+      "sha256": "3e364f2380f2ef32c1337e70927bb095895c70b3eb14a0ba0d14616e930b28a6"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/KBWB_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/KBWB_daily.csv",
+      "bytes": 500486,
+      "sha256": "257c74fa927f4b58038eef2347637876d4a39ade4ea0ac64abc55e5aba96763a"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/KRE_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/KRE_daily.csv",
+      "bytes": 505435,
+      "sha256": "a619008828e586d1ebe4eba9fef0d67bb857acd7e91a1892d168971e041807c0"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/LQD_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/LQD_daily.csv",
+      "bytes": 512864,
+      "sha256": "4b0cec55d4006cbcbb4238695203b0f7df359d0a5fa05b5c75998122c2e10315"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/QQQ_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/QQQ_daily.csv",
+      "bytes": 507771,
+      "sha256": "bdbf603c4731d025fb85fda07d30701b589487d4ef17252dfb6d7b0696c8b786"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/REPORT.md",
+      "copy": "reports/2026-11-02_kre-etf-relationships/REPORT.md",
+      "bytes": 14662,
+      "sha256": "d11c1d3efe8764fa6234c99bdbffc9d65f349336479a9502a8e20b962ab307c0"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/RSP_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/RSP_daily.csv",
+      "bytes": 504244,
+      "sha256": "14a2dae4fadff1a791e118283c9019ad3c860d78e72772ad5fac94b65766632d"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/SHY_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/SHY_daily.csv",
+      "bytes": 495272,
+      "sha256": "cbcfd5f154669a56f4298f053c2dfbfc079a45974b757562a96d9402aa6a7b14"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/SPY_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/SPY_daily.csv",
+      "bytes": 509340,
+      "sha256": "ea5a0f63032155a01b2e10af816984045a831dc4fcc673b451d4b5a30a2c74c3"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/TLT_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/TLT_daily.csv",
+      "bytes": 510256,
+      "sha256": "92c1ff1be5d7a43620783da07f644645537dc8171346b7da4b814e18a6c2094a"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/VNQ_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/VNQ_daily.csv",
+      "bytes": 497631,
+      "sha256": "62d4df732608c735168fb95ce1929d27807b647b2d932a49e0892d88a8ab9531"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/XLF_daily.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/XLF_daily.csv",
+      "bytes": 515358,
+      "sha256": "d81ef31d6695774e04baadc050175139a490c08966affd52933c8430fb734060"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/aligned_adjusted_closes.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/aligned_adjusted_closes.csv",
+      "bytes": 915318,
+      "sha256": "f1208d7b8a19c1320a1ffd810f5e8dd37eb54e0db31825053bdf8d2edf172f9c"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/analyze.py",
+      "copy": "reports/2026-11-02_kre-etf-relationships/analyze.py",
+      "bytes": 9512,
+      "sha256": "23325f72336abd0e224c931ae15bd6840ac31ecb646f3506c2b111dd0bfc3199"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/checks_and_baseline.json",
+      "copy": "reports/2026-11-02_kre-etf-relationships/checks_and_baseline.json",
+      "bytes": 2372,
+      "sha256": "b3aee5485ee9b2955c3ff4992680514a65f84b08ecb004fca50b003acda0dc07"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/conditional_models.json",
+      "copy": "reports/2026-11-02_kre-etf-relationships/conditional_models.json",
+      "bytes": 1446,
+      "sha256": "01f2deafefb902d76b5fe3d9d1c23b9c074f7274e0851b632107370298700472"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/current_analog_features_pct.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/current_analog_features_pct.csv",
+      "bytes": 196,
+      "sha256": "01736efe7d66a01f16defbc78311c1b11d8772de78dc620c6522e26308508c8a"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/daily_return_correlations.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/daily_return_correlations.csv",
+      "bytes": 1032,
+      "sha256": "50b93300236eecb3b004d9b18b79a88c9ad38a29e68c35b6b38145a9152f2b67"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/exploratory_analogs.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/exploratory_analogs.csv",
+      "bytes": 2296,
+      "sha256": "f8b4c394ed738d8490d1e6973fe1a063fa335bceb54b5658192c219aba3d9208"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/fetch_data.py",
+      "copy": "reports/2026-11-02_kre-etf-relationships/fetch_data.py",
+      "bytes": 1615,
+      "sha256": "b1a08706a2c6351a0be4676441381534afbc568cef748f8d7d39e4cbd73d1183"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/fred_source_manifest.json",
+      "copy": "reports/2026-11-02_kre-etf-relationships/fred_source_manifest.json",
+      "bytes": 654,
+      "sha256": "5d149bfb68dfda3d4a07379a0dd89bce4c19aba3d99928081cdd028c5b6ad185"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/historical_comparisons.png",
+      "copy": "reports/2026-11-02_kre-etf-relationships/historical_comparisons.png",
+      "bytes": 188294,
+      "sha256": "0d7d9bbe47e1dd409b97d24641e985c2bb6de72c57eff5c6c2bb9ab4f3897fae"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/historical_windows.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/historical_windows.csv",
+      "bytes": 1861,
+      "sha256": "5838ae666a680fd01a01ec18785a3ce324f3aadb3d8349d86f30a60521ca202d"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/hyg_distribution_verification.json",
+      "copy": "reports/2026-11-02_kre-etf-relationships/hyg_distribution_verification.json",
+      "bytes": 542,
+      "sha256": "7a98e6b7b234aeed9608fb9f5be2f1186819a4b8afd6f9eb810cbe14171e26c2"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/intraday_snapshot.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/intraday_snapshot.csv",
+      "bytes": 570,
+      "sha256": "cdfd6d6445ae31a29d01015984278993ebb4ba8fd218d4102cfcc524e74d6ca9"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/kre_relationships.png",
+      "copy": "reports/2026-11-02_kre-etf-relationships/kre_relationships.png",
+      "bytes": 787204,
+      "sha256": "bda3f4f577ca07b7c4c0c66f313cd2cece14ef903d7b0b75e922eb24c5e6bb97"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/lead_lag_exploratory.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/lead_lag_exploratory.csv",
+      "bytes": 788,
+      "sha256": "34785400415b8c219fcd4a6ecccf153c73d53d6e2e17e640fc6b8e70d8ebf063"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/performance.csv",
+      "copy": "reports/2026-11-02_kre-etf-relationships/performance.csv",
+      "bytes": 2629,
+      "sha256": "6cdecb414e3f1a48fb15f5d1c17e959412511fefbaf223dd0e8e348a4e3ef409"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/source_manifest.json",
+      "copy": "reports/2026-11-02_kre-etf-relationships/source_manifest.json",
+      "bytes": 2770,
+      "sha256": "1ee46106ffb2ab6097bd2ee77fb205c1892b6d6632706cfa0288099645e607ad"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-etf-relationships/validation_and_sensitivity.json",
+      "copy": "reports/2026-11-02_kre-etf-relationships/validation_and_sensitivity.json",
+      "bytes": 1796,
+      "sha256": "000be68011ab68006aecedd93c90bc9863408c6895bac49537b7f5c4e9fbdf96"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-external-report-review/REVIEW.md",
+      "copy": "reports/2026-11-02_kre-external-report-review/REVIEW.md",
+      "bytes": 9356,
+      "sha256": "31e8297e96b410de3e315a7f1da893fe68cee5c5ffd9177571442c7a7097f2f4"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-external-report-review/input_report.md",
+      "copy": "reports/2026-11-02_kre-external-report-review/input_report.md",
+      "bytes": 115790,
+      "sha256": "f4b69d7c31d6b0056d35c00d4652e4914a5a8d3239ed7c6e45ecd4209be51fea"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-external-report-review/verification.json",
+      "copy": "reports/2026-11-02_kre-external-report-review/verification.json",
+      "bytes": 1044,
+      "sha256": "9e03465b52b0b6720d0669f0412944a09630983a9593ec020046a71e83d4d93e"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-11-02_kre-external-report-review/verify.py",
+      "copy": "reports/2026-11-02_kre-external-report-review/verify.py",
+      "bytes": 2589,
+      "sha256": "459d25f7019874abd9615877e96f1716dca91f5b52ca9518c8b35a7278b818cc"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-10-23_kre-qqq-transition-signature/REPORT.md",
+      "copy": "reports/2026-10-23_kre-qqq-transition-signature/REPORT.md",
+      "bytes": 24487,
+      "sha256": "9e022e9b8ad2d6cc7063fba2acfc308a817d5581b2458fbb26fa272afff04fdb"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-10-23_kre-qqq-transition-signature/build.py",
+      "copy": "reports/2026-10-23_kre-qqq-transition-signature/build.py",
+      "bytes": 21136,
+      "sha256": "4d93c6bd5f631960c092bb9c23527e0b34dd8c2c55ca831c4162769d971622f4"
+    },
+    {
+      "source": "/home/willi/Research-workspace/PROME/reports/2026-10-23_kre-qqq-transition-signature/episodes.csv",
+      "copy": "reports/2026-10-23_kre-qqq-transition-signature/episodes.csv",
+      "bytes": 6906,
+      "sha256": "9f413c7ba5fcc2529597f5b6bd2c2e40ddb5a0b2a6460630b0326e0968b05d80"
+    },
+    {
+      "source": "/mnt/c/Users/willi/OneDrive/Desktop/Capture.JPG",
+      "copy": "screenshots/Capture.JPG",
+      "bytes": 134963,
+      "sha256": "45b36966b2e9e9de5a3e29dbb659a72a722568aa5b3cbfc183102a6633634216"
+    },
+    {
+      "source": "/mnt/c/Users/willi/OneDrive/Desktop/Capture2.JPG",
+      "copy": "screenshots/Capture2.JPG",
+      "bytes": 78440,
+      "sha256": "e0ce4e4cbbe6bfccf803cf818eb4ba070cc8fd74f9dacaf398f0ff46a06e81b9"
+    },
+    {
+      "source": "/mnt/c/Users/willi/OneDrive/Desktop/KRE YTD.JPG",
+      "copy": "screenshots/KRE YTD.JPG",
+      "bytes": 168708,
+      "sha256": "bda89e402bd8f4e7aafd8be313bb8e4ca360df53fc64a0af38bd30bacf6674b6"
+    }
+  ]
+}
