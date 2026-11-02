@@ -1,0 +1,29 @@
+Source: Ethereum JSON-RPC fallback list ['https://ethereum-rpc.publicnode.com', 'https://eth.llamarpc.com', 'https://cloudflare-eth.com', 'https://rpc.ankr.com/eth'] (public, read-only); CYPHER 2026-11-02T13:50Z; latest block 26327504 via https://ethereum-rpc.publicnode.com
+--- balances now at the 22 addresses blacklisted in the leg-1 window (10/29 20:10Z .. 10/30 14:54Z); leg-1 balance in brackets
+USDC 0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c 823,000,000.00 [823,000,000.00]
+USDC 0xc39e690bea48448cc47e7acddfe30e6453e09824 1,563,812.78 [1,563,812.78]
+USDC 0x28c6c06298d514db089934071355e5743bf21d60 52,363.12 [52,363.12]
+USDC 0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055 2,956,093.65 [2,956,093.65]
+USDC 0xb3ddec0ccc5c3ba733fcdf5a15f98c95ec5a5fdb 33,005.12 [33,005.12]
+USDC 0xd02a15a8a98ae7e5ababb8a1c96eb0473df400c5 22,695.02 [22,695.02]
+USDC 0x4201b231c210be0df0422b6812d1bd589f93368a 205,709.82 [205,709.82]
+USDC 0xa97bf7836f8a08f9ed91d41453d371493fae8d10 123,175.53 [123,175.53]
+USDC 0x8c1c499b1796d7f3c2521ac37186b52de024e58c 914,131.70 [914,131.70]
+USDC 0x62b16e7eb76be5adbe544659cf246ff870ffc82e 0.00 [0.00]
+USDC 0x294828705974ad04d86a24a2ff6efe762505a0ed 0.00 [0.00]
+USDT 0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c 1,175,464,712.88 [1,175,464,712.88]
+USDT 0x9749292d74fd460982d0912ea9515ea24736c762 0.00 [0.00]
+USDT 0x0ddf0480016e6bcb2c1f5d190d221fba1320697e 0.00 [0.00]
+USDT 0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a 0.00 [0.00]
+USDT 0x7aa4d3029e4c6a8e916300014ad95b6d6c03bfd1 0.00 [0.00]
+USDT 0xaa246bf639586a6ba46762d378ce50ca4fc654a0 174,999,872.33 [174,999,872.33]
+USDT 0xccbef95633adb5cd2b5038db5a38d77e726ca263 0.00 [0.00]
+USDT 0xb171ca86f82070282138352ff7111b494060c8c3 30,000,000.00 [30,000,000.00]
+USDT 0x28c6c06298d514db089934071355e5743bf21d60 1,352,017.94 [1,352,017.94]
+USDT 0xed17ca397ac96f55ea8f2f626a5ff1af0086bd7a 206,065.61 [0.00]  CHANGED
+USDT 0x47b4b212de6612d9c4f8ff48133fc9a90697f15f 1.70 [1.70]
+USDC TOTAL now at those addresses: 828,870,986.74
+USDT TOTAL now at those addresses: 1,382,022,670.45
+--- USDC Blacklisted: getLogs FAILED on every RPC (('https://rpc.ankr.com/eth', {'code': -32000, 'message': 'Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free.'})) -> UNKNOWN, not zero
+--- USDT AddedBlackList: getLogs FAILED on every RPC (('https://rpc.ankr.com/eth', {'code': -32000, 'message': 'Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free.'})) -> UNKNOWN, not zero
+--- USDT DestroyedBlackFunds: getLogs FAILED on every RPC (('https://rpc.ankr.com/eth', {'code': -32000, 'message': 'Unauthorized: You must authenticate your request with an API key. Create an account on https://www.ankr.com/rpc/ and generate your personal API key for free.'})) -> UNKNOWN, not zero

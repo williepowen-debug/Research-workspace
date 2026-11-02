@@ -1,0 +1,37 @@
+Source: https://www.binance.com/bapi/capital/v1/public/capital/getNetworkCoinAll (Binance public endpoint), CYPHER curl 2026-11-02T1348Z
+coins 991 | coin-network pairs 1448 | withdrawEnable true 29 false 1419 | depositEnable true 1036 false 412
+BTC [('BSC', 'wd', False, 'dep', True), ('BTC', 'wd', True, 'dep', True), ('SEGWITBTC', 'wd', False, 'dep', True), ('ETH', 'wd', False, 'dep', True), ('LIGHTNING', 'wd', False, 'dep', False)]
+ETH [('BSC', 'wd', False, 'dep', True), ('ETH', 'wd', True, 'dep', True), ('ARBITRUM', 'wd', True, 'dep', True), ('BASE', 'wd', True, 'dep', True), ('MANTA', 'wd', False, 'dep', True), ('OPTIMISM', 'wd', True, 'dep', True), ('SCROLL', 'wd', False, 'dep', True), ('STARKNET', 'wd', False, 'dep', True), ('ZKSYNCERA', 'wd', False, 'dep', True)]
+USDT [('BSC', 'wd', True, 'dep', True), ('NEAR', 'wd', False, 'dep', True), ('AVAXC', 'wd', False, 'dep', True), ('APT', 'wd', False, 'dep', False), ('ARBITRUM', 'wd', True, 'dep', True), ('STATEMINT', 'wd', False, 'dep', False), ('CELO', 'wd', False, 'dep', True), ('ETH', 'wd', True, 'dep', True), ('KAVAEVM', 'wd', False, 'dep', True), ('KAIA', 'wd', False, 'dep', True), ('OPTIMISM', 'wd', True, 'dep', True), ('PLASMA', 'wd', False, 'dep', True), ('MATIC', 'wd', False, 'dep', True), ('SCROLL', 'wd', False, 'dep', True), ('SOL', 'wd', True, 'dep', True), ('XTZ', 'wd', False, 'dep', True), ('TON', 'wd', True, 'dep', True), ('TRX', 'wd', False, 'dep', True), ('OPBNB', 'wd', False, 'dep', True)]
+USDC [('BSC', 'wd', True, 'dep', True), ('ARC', 'wd', False, 'dep', True), ('AVAXC', 'wd', True, 'dep', True), ('ALGO', 'wd', False, 'dep', True), ('APT', 'wd', False, 'dep', False), ('ARBITRUM', 'wd', True, 'dep', True), ('STATEMINT', 'wd', False, 'dep', False), ('BASE', 'wd', True, 'dep', True), ('CELO', 'wd', False, 'dep', True), ('ETH', 'wd', True, 'dep', True), ('HBAR', 'wd', False, 'dep', True), ('NEAR', 'wd', False, 'dep', True), ('OPTIMISM', 'wd', True, 'dep', True), ('MATIC', 'wd', True, 'dep', True), ('RON', 'wd', False, 'dep', True), ('SEIEVM', 'wd', False, 'dep', True), ('SOL', 'wd', True, 'dep', True), ('SONIC', 'wd', False, 'dep', False), ('STARKNET', 'wd', False, 'dep', True), ('XLM', 'wd', False, 'dep', True), ('SUI', 'wd', False, 'dep', True), ('WLD', 'wd', False, 'dep', True), ('ZKSYNCERA', 'wd', False, 'dep', True)]
+BNB [('BSC', 'wd', True, 'dep', True), ('ETH', 'wd', False, 'dep', True), ('OPBNB', 'wd', False, 'dep', True)]
+--- withdrawEnable=true pairs: 29
+('SOL', 'SOL', '', '0.01', '689208')
+('BNB', 'BSC', '', '0.0005', '150000')
+('SUI', 'SUI', '', '1', '10000000')
+('BTC', 'BTC', '', '0.0001', '1286')
+('GRAM', 'TON', '', '0.06', '2600000')
+('ZEC', 'ZEC', '', '0.003', '6200')
+('DOGE', 'DOGE', '', '8', '155000000')
+('USDT', 'BSC', '', '5', '25000000')
+('USDT', 'ARBITRUM', '', '3', '20000000')
+('USDT', 'ETH', '', '5', '40000000')
+('USDT', 'OPTIMISM', '', '3', '20000000')
+('USDT', 'SOL', '', '5', '50000000')
+('USDT', 'TON', '', '3', '85000000')
+('USDC', 'BSC', '', '5', '101000000')
+('USDC', 'AVAXC', '', '5', '20000000')
+('USDC', 'ARBITRUM', '', '3', '20000000')
+('USDC', 'BASE', '', '5', '20000000')
+('USDC', 'ETH', '', '5', '20000000')
+('USDC', 'OPTIMISM', '', '3', '9999999')
+('USDC', 'MATIC', '', '3', '20002000')
+('USDC', 'SOL', '', '3', '20000000')
+('XRP', 'XRP', '', '2', '5000000')
+('ETH', 'ETH', '', '0.002', '45068')
+('ETH', 'ARBITRUM', '', '0.0003', '5375')
+('ETH', 'BASE', '', '0.002', '5375')
+('ETH', 'OPTIMISM', '', '0.00003', '5375')
+('TRX', 'TRX', '', '20', '15400000')
+('ARB', 'ARBITRUM', '', '3.34', '12333498')
+('AVAX', 'AVAXC', '', '0.008', '673366')
