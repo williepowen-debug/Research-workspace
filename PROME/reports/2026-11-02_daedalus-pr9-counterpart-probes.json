@@ -1,0 +1,40 @@
+{
+  "revision": "f9af63fd43230b52397dce5dc47429ef16501459",
+  "observed_at": "2026-11-02T11:21:46.609380-05:00",
+  "source_sha256": {
+    "scripts/read_cap_check.py": "cd834a833696802cde745ffb09a9b3c17a52f0b51876d6b79a03ec9afc669ea2",
+    "scripts/validate_all.py": "d36cf1458a2fe06880fc902aebeecf84eadbb34f2e55bc4e26a8acaa8f6fadd4",
+    "AGENTS/DAEDALUS/scripts/profile_clock_check.py": "e6f1003671d8a38b39b0843fa5f32dbbd0ff1e67c83d2be1816eea59e8285beb",
+    "scripts/asmade_audit.py": "3f23e395df70e757d4e4bd47004aa96696962b20901372c0ea132349426ee429",
+    "scripts/lane_coverage_check.py": "63f50811be991b26ab35129e233fd4684c2f96551b35d53df612ecbd6c793d6e"
+  },
+  "fleet_desks": {
+    "count": 41,
+    "DAEDALUS_in": false,
+    "method": "Pinned pure discovery function on current generated directory; no writes"
+  },
+  "profile_missing_member_counterexample": {
+    "fixture": "Only TEST.md exists, fresh >21d declared clock; no DAEDALUS.md and no roster join",
+    "rc": 0,
+    "stdout": "PROFILE-CLOCK perimeter as-of 2026-11-02: 1 profile(s) attempted (includes retired); 1 dated clocks evaluated; 0 NO-DATED-CLOCK; 0 CANNOT-EVALUATE\nExcluded non-profile filenames: none\nNOT certified: content/event triggers, unsupported/ambiguous owner-relative predicates, or truth of declared refresh work. Supported owner STATUS-relative clocks use named header dates; no git-date or wall-clock fallback.\n  OK TEST: body 2026-11-02, age 0d [Profile vintage: 2026-11-02]; inside declared window (days=21, floor=None)\nPROFILE-CLOCK 0: 1 evaluated dated clocks inside window; content/undated profiles NOT certified\n",
+    "stderr": "",
+    "interpretation": "A clean existing-profile clock is possible with missing DAEDALUS; not proof that all required profiles exist."
+  },
+  "asmade_seed_scope": {
+    "SEEDED": [
+      "CARL",
+      "HANS",
+      "HAWK",
+      "HENRY",
+      "LABOR",
+      "LIQUID",
+      "MARCO",
+      "OTTO",
+      "REGINALD",
+      "SAM",
+      "ZHAO"
+    ],
+    "DAEDALUS_in": false,
+    "interpretation": "--all-seeded selects fixed population, so adding a DAEDALUS ledger alone cannot include it."
+  }
+}
