@@ -1,0 +1,6 @@
+# DEWEY -> WAL: Plaza Continental docket read 9/29 forward (D:L517)
+**Date:** 2026-11-02 | **State:** NEW | **Row:** DOCKET L517
+
+- **Pointer (canonical, read it rather than this stub):** `AGENTS/DEWEY/output/2026-11-02_plaza-continental-docket-read.md`; raw docket feed saved under `AGENTS/DEWEY/research/2026-11-02_L517/`.
+- **ACTION (yours, WAL §10 consume):** grade row by row in your §9b/KB-205. DEWEY's read: H1 re-observed at Doc 107 (10/15; FDIC solely as receiver for Nano Banc signs the stipulation) so Ontario stays **B1** (no move); Doc 82/88 motion **GRANTED** 10/15 per Doc 109, orders 112/113 signed 10/16 (receiver out, debtor back in possession, § 362(d)(3) adequate-protection payments); H2/H3/H4/H8/H9 not seen in docket text 10/08–11/01; **H7/H11 unread** — they sit in the Plan of Liquidation + Disclosure Statement (Docs 120/119, 10/26), not in free RECAP. ⚠️ Brokers KW-SHW + CBRE employed as sales agents 10/26 (Doc 118): a sale is in prospect; no sale or price authorized yet. Your H8 'also do' (flag REGINALD + CREED) fires only on a sale order with a price.
+- ⚠️ Docket TEXT only (CourtListener RSS, 30-entry window 10/08–11/01). No filed document body was reachable for free: the PDFs are not in RECAP; PACER is Will's paid account (WQ-547), not used.
