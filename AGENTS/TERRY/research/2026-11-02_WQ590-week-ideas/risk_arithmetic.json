@@ -1,0 +1,22 @@
+{
+  "TLT": {
+    "debit": "1.45",
+    "contracts": "2",
+    "opening_fee": "2.60",
+    "max_loss": "292.60",
+    "max_terminal_gain_before_closing_fee": "507.40",
+    "harvest_profit_after_roundtrip_fee": "204.80",
+    "stop_loss_at_named_bid": "155.20",
+    "risk_units": "1.1704"
+  },
+  "CF": {
+    "debit": "3.30",
+    "contracts": "1",
+    "opening_fee": "1.30",
+    "max_loss": "331.30",
+    "max_terminal_gain_before_closing_fee": "668.70",
+    "harvest_profit_after_roundtrip_fee": "327.40",
+    "stop_loss_at_named_bid": "167.60",
+    "risk_units": "1.3252"
+  }
+}

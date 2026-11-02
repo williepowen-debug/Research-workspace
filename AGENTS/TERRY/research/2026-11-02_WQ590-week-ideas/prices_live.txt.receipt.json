@@ -1,0 +1,8 @@
+{
+  "retrieval_bracket_start": "2026-11-02T10:26:10-05:00",
+  "chunk_id": "0cbd93",
+  "wall_time_seconds": 0.000010756,
+  "exit_code": 0,
+  "original_token_count": 113,
+  "output": "\n Ticker     Name                        Price     Change              As-of        Volume\n ---------------------------------------------------------------------------------------\n CF         CF                        $120.42     -2.34%         2026-11-02       239,955\n TLT        20Y+ Treasury ETF          $81.86     +0.02%         2026-11-02     9,871,743\n SPY        SPY                       $763.27     +1.00%         2026-11-02     7,923,947\n"
+}

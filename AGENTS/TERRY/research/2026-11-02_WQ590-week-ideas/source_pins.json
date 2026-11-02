@@ -1,0 +1,74 @@
+{
+  "pinned_at": "2026-11-02T10:31:08-05:00",
+  "runtime": "Codex; gpt-6.1-sol per assignment; shell/files; no helpers",
+  "inputs": [
+    {
+      "path": "CLAUDE.md",
+      "sha256": "065546bee3e07acfabe13e82dc243c79b26a79968b7b38db1964e204e6a17644"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "70ec98ebc0c046d5db796b208f15ef7fd4552f6ef8634e550cfcf8f117a1c5b0"
+    },
+    {
+      "path": "USER.md",
+      "sha256": "d8198b7e4f5021c651e0e1f98535a4ed4d0240f1add56ccd6d14244632a5676b"
+    },
+    {
+      "path": "AGENTS/TERRY/CLAUDE.md",
+      "sha256": "a010837675c4425b2ca238825ca972b4d681f0d60ae7f9088050193b19cb2e1e"
+    },
+    {
+      "path": "PROME/COMPLETION_SPEC.md",
+      "sha256": "7598fd0955e19179bb4dfd4fef1c41eef97219a77bac17b6b6cbecca82124d3e"
+    },
+    {
+      "path": "PROME/inbox/processed/2026-10-31_from-TERRY_trade-ideas.md",
+      "sha256": "332eff4c12525ad72014d23b778ddbac3ccbef15c125fd6599d0ef88d3f3a6b1"
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-29_from-BRENT_trade-ideas-nov1-3-cluster.md",
+      "sha256": "fba4646946b7079d0819106b58204ad085823edc1378da8563ef124e8bddc59c"
+    },
+    {
+      "path": "AGENTS/TERRY/inbox/processed/2026-10-31_from-NEXUS_term-premium-and-refunding.md",
+      "sha256": "69327b5011b75beeb2a55558347fb9c87ea632d677e8f77b12dea874c75ba809"
+    },
+    {
+      "path": "AGENTS/HENRY/research/2026-11-02_L888/README.md",
+      "sha256": "0e5422f87f97771b476704beecfad77074b4243b61950ed0249edd559fd051ec"
+    },
+    {
+      "path": "AGENTS/LIQUID/STATUS.md",
+      "sha256": "7186aaa11bc9f819b907a282b6d608a97e900e215faa4ec77f4fbbcfbecdb845"
+    },
+    {
+      "path": "AGENTS/MIDAS/STATUS.md",
+      "sha256": "c411255892dff80767e244b5dab63c5c1ae6c689550ce1323d6afe3d5d49f7ce"
+    },
+    {
+      "path": "AGENTS/BOND/STATUS.md",
+      "sha256": "b78c31efb748039dafdece13cefb8421bcd9b42b7d14ef0883a98f7e58ad567f"
+    },
+    {
+      "path": "AGENTS/FERT/workbook/GRADING_CARD_2026-11-03_MOS-CF-Q3.md",
+      "sha256": "c9a353903a4b90ad7c9b426f710dd126798f65fcd7a2d4a0f8b1646f766d351e"
+    },
+    {
+      "path": "AGENTS/FERT/companies/CF/README.md",
+      "sha256": "4acf802f0fc07322f77d4c2ba20d7557b31cddc383686a8a6074e3e336682b1e"
+    },
+    {
+      "path": "AGENTS/FERT/companies/CF/Q3_PREP.md",
+      "sha256": "fa20f65af2f09c72dde45b79d9575ae6dc4d15cd8720b5db92619d8b88a98d87"
+    },
+    {
+      "path": "AGENTS/FERT/STATUS.md",
+      "sha256": "1f204ff840c55fea8328e1f28e2ab9bec22b824c940deda9c8b31e367ea61b5b"
+    },
+    {
+      "path": "HEARTBEAT.md",
+      "sha256": "3d915d21a5c11d908cc04f51a0c19dfa5095884fa7e228d23c076106c5b063ca"
+    }
+  ]
+}

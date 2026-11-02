@@ -1,5 +1,7 @@
 # TERRY STATUS
 
+> **WQ-590 delivery — 2026-11-02T10:31:08-05:00:** Two fresh CONDITIONAL NOT-FIRED cards, not approved: TLT January 82/78P ×2 ≤ $1.45, max loss $292.60 (QRA supply surprise plus fresh BOND posture); CF December 125/135C ×1 ≤ $3.30, max loss $331.30 (post-Q3 FERT read and tape). Both show $500 default / X1 CLOSED; no deployment. Live prices/chains November 2 10:26 EST; CF outer $4.10 is above its cap, TLT outer $1.41 does not fire its future event. CAL-0004/0005 subjective trigger forecasts 0.15/0.25, no profit odds. Read research/2026-11-02_WQ590-week-ideas/REPORT.md and PROME/inbox/2026-11-02_from-TERRY_WQ590-week-ideas.md. UNG refresh durable 2c47adde3; no further UNG work required absent material evidence.
+
 > **Current pickup 2026-11-02T10:23:00-05:00:** Prior L905 saved work persisted in bb7f86b9b / 04d5c5c70; read-only Git blocker below is historical. Same-task PROME resume prioritizes UNG refresh (f28fc8021): APPROVED NOT-FIRED on record, canonical weather grade pending; fresh GFS Nov 2 06Z +5.53155 m/s, positive sampled analysis; last AEOLUS +14.1 m/s [10/29]. Successful 10:22 chain outer .47, x5 screening loss $241.50; cap .50 / $256.50 unchanged. Green day blocks. Both $10.40 guards bind. WQ-590 remains in progress; no order.
 
 > ## ★ CURRENT STATE — 2026-11-02T09:55:52-05:00 · TERRY, OpenAI Codex; model gpt-6.1-sol per spawn brief, session `01a19cb9-4449-7d41-8353-91a863167cec`, parent PROME prome-6f. **$0 MOVED · NO ORDER.**
