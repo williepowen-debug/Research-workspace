@@ -77,5 +77,5 @@
 
 - **WORK:** Bounded Production Review #9 complete: twelve targeted deltas, fourteen dispositions, accepted L889 repair and independent current HOMER L4/H; other grades retained. Owner session remains open. Whole maintenance clearance not claimed.
 - **CHECKS:** Nine regression tests + 131 selftests pass; independent repair/grade reviews and PROME counterpart consumed with limits. Whole Harness/profile clocks, root rotation and existing tool/owner debt remain DUE. Closeout 20261102T162955Z rc 0: zero BLOCKING/UNKNOWN, DUE retained; no all-clear.
-- **DELIVERY:** Durable synthesis, raw reader companion, map/profile/card tails and dated PROME/HOMER packets prepared. Publication and recipient consumption require their actual receipts; no future hash or acceptance inferred.
+- **DELIVERY:** Revision 5e7ae28bb3405d21cfb7e94b36ba1b22d06c5b62 published with fresh-fetch confirmation. Legacy verify 20261102T163512Z rc 0: 87 paths byte-identical. Initial DNS failure/NOT-ON-ORIGIN receipt retained. PROME committed-pointer notification accepted; consumption pending exact-owner evidence.
 - **OPEN:** November 4 post-cutoff observations, GIBBS floor read and unimplemented tool/owner repair acceptance; L263/L490/scorecard November 6, Wiring/Prose November 20, YUR-F02 November 28. No new immediate Will decision.

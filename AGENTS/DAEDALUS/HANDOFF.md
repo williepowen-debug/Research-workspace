@@ -8,4 +8,4 @@ Earlier maintenance delivered at 19f86d2a8: three repairs, Gate Basis #3, PROME 
 
 BROCK/CREED owner repairs, WAL amendment/grade, SAM resolution, CORAL frozen log, CARL mtime repair and OSPREY/ISHM closures are now current-map facts, with review limits. Do not reroute obsolete gaps. UNG mirror/NEXUS latency question CLOSED. Source/authenticated settlement and no-reprobe/no-paid-feed limits survive.
 
-L263 draft/L490/scorecard November 6; Wiring/Prose November 20; YUR-F02 November 28. Publication and recipient-consumption receipts remain separate. All three helpers explicitly closed; Will's independent owner session remains open. No new immediate Will decision.
+L263 draft/L490/scorecard November 6; Wiring/Prose November 20; YUR-F02 November 28. Published revision 5e7ae28bb3405d21cfb7e94b36ba1b22d06c5b62; fresh-fetch confirmation plus legacy verify rc 0/87 paths. PROME native notification accepted, exact consumption remains separate. All three helpers explicitly closed; Will's independent owner session remains open. No new immediate Will decision.
