@@ -31,6 +31,10 @@ Sources: [Study 6 review](reports/2026-11-02_study6-drivers/review.json), [R² c
 
 Sources: [rate-study review](reports/2026-11-02_kre-study3-review/review.json), [stress-test review](reports/2026-11-02_decoupling-stress-test/review.json), [Study 6 review](reports/2026-11-02_study6-drivers/review.json).
 
+## Study 4: remaining interpretation and reproducibility repairs
+
+[Review](reports/2026-11-02_study4-market-leadership/REVIEW.md) records the complete new bundle and 17 byte-identical regenerated outputs. The main outstanding issues are a same-date factor-splice sensitivity, clear separation of pooled and rolling reference statistics, correction of q3b's secondary mixed-ddof R², and labeling its frozen-loading exercise as conditional on future realized factors rather than an entirely advance forecast. Exact market-structure causal shares and an AI-specific cause remain unestablished. The Study 3-derived master is now supplied within Study 4, but its original yield/credit source downloads and provenance still need separate verification. No follow-up is commissioned by this list.
+
 ## Accounting and bank-level comparisons
 
 Before extending the fundamentals claims:

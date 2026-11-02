@@ -18,7 +18,7 @@ KRE's daily movements became unusually less synchronized with broader bank stock
 
 | Location | Purpose |
 |---|---|
-| [SYNTHESIS.md](SYNTHESIS.md) | Integrated interpretation through Study 6; start here |
+| [SYNTHESIS.md](SYNTHESIS.md) | Integrated interpretation including Studies 3, 4 and 6; start here |
 | [EVIDENCE_GUIDE.md](EVIDENCE_GUIDE.md) | Study catalog, readable review summaries, reproduction and provenance |
 | [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | Corrections and evidence gaps; not new assignments |
 | [DISCUSSION.md](DISCUSSION.md) | Earlier conversation context and November 2 intraday snapshot; historical, not the latest synthesis |
@@ -28,6 +28,8 @@ KRE's daily movements became unusually less synchronized with broader bank stock
 | [COPY_MANIFEST.json](COPY_MANIFEST.json) | Original copied-artifact hashes; later package manifests are linked in the evidence guide |
 
 Latest addition: [prospective evaluation draft and review](reports/2026-11-02_prospective-evaluation-draft/REVIEW.md), preserved as **unapproved**. Its [combined package and code review](reports/2026-11-02_prospective-evaluation-draft/COMBINED_PACKAGE_REVIEW.md) add printed code, partial historical data and two reproduced resolver defects. The [latest data addendum](reports/2026-11-02_prospective-evaluation-draft/STATE_SERIES_REVIEW.md) preserves the full derived table and chat code, reproduces reference probabilities and explains the earlier rounding discrepancy. The earlier accompanying PDF is the existing Study 3 presentation, now saved with its embedded charts.
+
+Latest full research bundle: [Study 4 market leadership review](reports/2026-11-02_study4-market-leadership/REVIEW.md), including 66 preserved source files and selected offline replication. It strengthens the broader-market/style explanation; its proposed future test remains unapproved.
 
 ## Scope for future agents
 

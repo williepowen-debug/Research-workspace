@@ -1,0 +1,65 @@
+{
+  "scope": "Independent calculations on supplied panel; not independent vendor verification",
+  "n": 63,
+  "corr_KRE_KBWB": 0.7193382839053111,
+  "KRE_beta_SPY": 0.32752767106391323,
+  "corr_SPY_RSP": 0.6408271832653072,
+  "M3_loadings": {
+    "MKT": 1.0939490064280093,
+    "SMB": 0.6630226200330982,
+    "HML": 0.9781144070355581,
+    "MOM": 0.12264117129909284,
+    "dy10": 0.0244774704606896
+  },
+  "M3_R2_correct": 0.6234560982507129,
+  "q3b_mixed_ddof_R2": 0.6294329855800666,
+  "residual_corr": 0.5372449104374212,
+  "ten_comparators": {
+    "XLU": {
+      "beta": 0.05059097388220481,
+      "pct_pre2025": 0.07107692307692308
+    },
+    "IYR": {
+      "beta": 0.2680679951832641,
+      "pct_pre2025": 0.01723076923076923
+    },
+    "ITB": {
+      "beta": 0.5782226991504541,
+      "pct_pre2025": 0.033846153846153845
+    },
+    "XLI": {
+      "beta": 0.8220128203760584,
+      "pct_pre2025": 0.09353846153846154
+    },
+    "XLB": {
+      "beta": 0.43368221691576275,
+      "pct_pre2025": 0.0
+    },
+    "IYT": {
+      "beta": 0.5619463642041483,
+      "pct_pre2025": 0.0003076923076923077
+    },
+    "KIE": {
+      "beta": -0.012107342385389679,
+      "pct_pre2025": 0.0
+    },
+    "IWN": {
+      "beta": 0.6183739809049803,
+      "pct_pre2025": 0.0
+    },
+    "XLF": {
+      "beta": 0.46875876980631326,
+      "pct_pre2025": 0.003384615384615385
+    },
+    "KBWB": {
+      "beta": 0.8249832106381926,
+      "pct_pre2025": 0.09387503847337643
+    }
+  },
+  "q5_saved_output_calibration": {
+    "n": 49,
+    "frozen_sd": 0.2734463433108368,
+    "naive_sd": 0.5512839683411808
+  },
+  "q5_limitation": "Frozen asset loadings are multiplied by realized NEXT-window factor betas; conditional attribution, not an unconditional ex-ante forecast."
+}

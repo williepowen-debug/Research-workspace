@@ -62,6 +62,16 @@ The report's statement that low volatility explains roughly half the anomaly is 
 
 Sources: [stress-test checks](reports/2026-11-02_decoupling-stress-test/checks.json), [baseline comparison](reports/2026-11-02_study6-drivers/review.json).
 
+### Study 4 adds stronger evidence for a market-wide explanation
+
+The later-supplied Study 4 asks whether SPY itself has become a less useful yardstick for value and smaller stocks. Its saved data show SPY's correlation with equal-weight RSP at about 0.64, and unusually low SPY sensitivity across all ten comparison ETFs, including several nonbank sectors.
+
+Controlling for market, size, value, momentum and yields raises KRE's fitted R² to about 0.62. Its market-factor loading is about 1.09, even though its simple SPY beta is 0.33. These are different quantities: the first separates overlapping influences; the second combines them. When value moves against SPY, a fund exposed to both can have low overall SPY sensitivity without losing its usual conditional market exposure.
+
+The remaining KRE–KBWB residual correlation is about 0.54, near the model's historical 14th percentile (about 24th after volatility matching). This supports a broader market/style explanation and a modest unresolved bank-specific remainder. It does not establish that banks' credit risk improved. These controls differ from the SPY-only baseline comparisons above.
+
+The supplied package is reproducible: selected scripts regenerated 17 outputs exactly. But October uses ETF proxies for unavailable French factors, and decompositions depend on the chosen model. Its “frozen-loading forecast” uses future realized factor relationships, so it is a conditional diagnostic, not proof that the beta collapse could have been forecast in advance. [Study 4 review and checks](reports/2026-11-02_study4-market-leadership/REVIEW.md).
+
 ## 4. Holdings composition may explain much of the finishing gap
 
 Study 6 removes JPMorgan, Bank of America, Goldman Sachs, Morgan Stanley and Citi from KBWB and renormalizes the remaining holdings. It reports:
@@ -117,4 +127,4 @@ Sources: [fundamentals review](reports/2026-11-02_kre-external-report-review/REV
 | Basis point / percentage point | 0.01 percentage point / arithmetic difference between percentage rates or returns |
 | Historical percentile | Rank within a specified sample, not probability of a future event |
 
-The working conclusion is persistent reduced co-movement with incomplete causal explanation. The strongest newly proposed explanation for cumulative outperformance is holdings composition. Neither establishes improving credit or an inevitable reversal. These are research findings, not owner-grade changes or trading instructions.
+The working conclusion is persistent reduced co-movement with stronger evidence for a broad market/style explanation, while causality remains incomplete. Holdings composition is a separate proposed explanation for cumulative outperformance. Neither establishes improving credit or an inevitable reversal. These are research findings, not owner-grade changes or trading instructions.

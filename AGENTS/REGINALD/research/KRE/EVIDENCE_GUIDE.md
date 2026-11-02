@@ -118,6 +118,16 @@ Proposes three tests over November 2–February 2: correlation persistence, mark
 
 **Latest intake:** [full state-series and chat-code review](reports/2026-11-02_prospective-evaluation-draft/STATE_SERIES_REVIEW.md) supplies all 5,059 derived rows and reproduces the three conditional reference forecasts. The C1 0.99 total is explained by rounding; exact counts are 300/142/383 out of 825. Raw prices/yields and original code byte identity remain unverified; resolver defects remain. This supersedes the earlier missing-full-table status. A subsequent run of the chat-supplied `prereg_base2.py` also reproduces the listed episode counts and episode-weighted comparisons; its preserved output and interpretation are linked in the same addendum.
 
+## 9. Study 4 — market leadership and style factors (received after Study 6)
+
+[Readable review](reports/2026-11-02_study4-market-leadership/REVIEW.md) · [Report](reports/2026-11-02_study4-market-leadership/source/REPORT.md) · [Specification](reports/2026-11-02_study4-market-leadership/source/SPEC.md) · [Full inventory](reports/2026-11-02_study4-market-leadership/MANIFEST.json)
+
+Distinct new study with a complete supplied ZIP containing 66 files. Selected offline reruns regenerate 17 outputs byte-for-byte, including the processed panel, sector comparisons, factor models and decompositions. Independent calculations confirm KRE's 0.328 SPY beta, 1.094 controlled market loading, 0.623 five-factor R² and 0.537 KRE–KBWB residual correlation. All ten comparators have low SPY betas relative to their pre-2025 histories. This strengthens a broad-market/style explanation without establishing cause or improved bank credit.
+
+**Carry these caveats:** October ETF-factor splice; model-dependent decompositions; pooled versus rolling reference statistics; small recent out-of-sample groups; author-attested chronology with post-result diagnostics. The “frozen-loading forecast” uses future realized factor relationships and is a conditional attribution test. A ddof mismatch in q3b's secondary R² output gives 0.6294 instead of 0.6235; the main model table is correct. No proposed future test is activated.
+
+The package preserves its own `out/fig_timeline.png`. Do not confuse this with Study 6's four-panel chart or assume it is byte-identical to other timeline uploads.
+
 ## Earlier conversation and pictures
 
 [DISCUSSION.md](DISCUSSION.md) preserves Will's intent and the earlier ETF comparisons. The [14:15 ET snapshot](market_snapshot_2026-11-02_1415ET.csv) is transcribed from retrieved tool output; exact exchange timestamps were not captured and prices may be delayed. It is not part of the October 30 closing sample.
