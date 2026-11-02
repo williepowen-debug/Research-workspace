@@ -98,7 +98,7 @@ Original upload: `REPORT (2).md`. Later upload `REPORT (6).md` is byte-for-byte 
 
 [Original report](reports/2026-11-02_study6-drivers/input_report.md) · [review and numerical receipts](reports/2026-11-02_study6-drivers/review.json)
 
-Original upload: `REPORT (5).md`.
+Original upload: `REPORT (5).md`. The later [supplied four-panel chart and reading guide](reports/2026-11-02_study6-drivers/CHART_NOTE.md) now preserve its visual comparisons. The image is separate from `fig_timeline.png`; original asset filename identity remains unverified.
 
 **New contribution:** a holdings-based explanation for much of the cumulative gap; comparison with traditional banks; and a hypothesis that banks' credit-spread sensitivity changed. It distinguishes securities accounting attribution from daily correlation more clearly than the earlier studies.
 

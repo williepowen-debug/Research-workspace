@@ -3,5 +3,12 @@
   "copy": "input_report.md",
   "bytes": 22800,
   "sha256": "e050e8698f6d7d0ceca5e037047050e6e0c0f628849555cd8e096206097e5954",
-  "review_sha256": "936c1e41fd17f57dcc86d2eb5998e05b326615adf5a570d3ba2012191b580387"
+  "review_sha256": "936c1e41fd17f57dcc86d2eb5998e05b326615adf5a570d3ba2012191b580387",
+  "supplied_chart": {
+    "source": "/mnt/c/Users/willi/OneDrive/Desktop/fb45d05e-a9cd-4a8f-bfcd-ae66d8b38290.png",
+    "copy": "study6_four_panel_supplied.png",
+    "sha256": "1fc908d9157f038bda64325d284892d0f0252a8a50492d3ac96ce8c2fb90f2ef",
+    "received": "2026-11-02",
+    "relationship": "Four-panel chart visually consistent with Study 6; report names fig_study6.png but original filename identity is not established"
+  }
 }
