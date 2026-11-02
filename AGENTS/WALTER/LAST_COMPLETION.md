@@ -95,7 +95,7 @@ FULL session closeout. Research and all 90 October 31 handoffs origin-proven; tw
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-02T13:14:07Z",
+  "as_of": "2026-11-02T13:16:35Z",
   "next_review": "2026-11-02",
   "publication": [
     {
@@ -187,6 +187,11 @@ FULL session closeout. Research and all 90 October 31 handoffs origin-proven; tw
       "commit": "34806ae91dca9a461dc7880067e084477a77c2eb",
       "state": "published",
       "note": "Verified on fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e at November 2 closeout; earlier pending state superseded."
+    },
+    {
+      "commit": "b6696042fc6010666c1a30cfedf6ffea3acd59cf",
+      "state": "pending",
+      "note": "Session closeout, source typo correction and 16 delivery labels reconciled. Fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e."
     }
   ],
   "delivery": {
@@ -215,7 +220,7 @@ FULL session closeout. Research and all 90 October 31 handoffs origin-proven; tw
     "12-14": "Registry before NETWORK; completed narratives rotated verbatim; MEMORY shortened; no deferrals or new flags.",
     "root.retirement": "No deletion/source retirement; recent evidence remains live referenced.",
     "15": "Current closeout evidence manually reviewed; existing approvals and source gaps retained.",
-    "16": "Prior research and receipts published. New continuity commit pending; routine coordinated publication applies.",
+    "16": "Closeout payload b6696042fc6010666c1a30cfedf6ffea3acd59cf committed with nine exact owned paths; pending coordinated publication under BOARD_CONSUMPTION_SPEC section 7. Prior research delivered. No self-push or external send.",
     "checks": "Read-cap/archive/weekday/basis/READS/MEMORY pass. Doctor no HIGH; MED: 27 older unconsumed packets (9 ACTION/18 INFO, 15 desks), no DARK/wake inferred. Receipt identified 16 legacy written states; origin-proven rows manually reconciled. STATUS volatile duplicate removed. No kill/threshold event, ledger advisory only. Targeted receipt recheck follows."
   }
 }

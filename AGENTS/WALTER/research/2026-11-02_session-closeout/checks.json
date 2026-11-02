@@ -193,5 +193,16 @@
     "next_review": "2026-11-02",
     "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
   },
-  "manual_advisory_disposition": "Doctor no HIGH; older unconsumed MED retained for next boot. No new kill/threshold events; ledger nudge does not require fabricated changes. Authored-only paths; foreign PROME work excluded."
+  "manual_advisory_disposition": "Doctor no HIGH; older unconsumed MED retained for next boot. No new kill/threshold events; ledger nudge does not require fabricated changes. Authored-only paths; foreign PROME work excluded.",
+  "final_receipt_recheck": {
+    "status": "PASS",
+    "findings": [],
+    "as_of": "2026-11-02T13:16:35Z",
+    "origin_ref": "dce795aaf1c52a13497b1cdbb21df917d6c1512e",
+    "delivery_scope": "20261031",
+    "delivered": 90,
+    "total": 90,
+    "next_review": "2026-11-02",
+    "limits": "Local origin ref only; fetch separately. Owner semantics and unstructured prose require human review."
+  }
 }
