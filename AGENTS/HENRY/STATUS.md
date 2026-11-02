@@ -1,8 +1,10 @@
 # HENRY STATUS
 
-**Last owner update:** 2026-10-31 12:58–13:21 ET, PROME-spawned C9 research commission (prome-34, DOCKET L616 market breadth; Claude Code, Opus 5.5, `claude-opus-5-5`): breadth study on Friday 10/30 closes (S&P 1500 members + ETF proxies), WALTER-lane intake (3 cards), two correction receipts. Changed: header, VIEW (breadth line), § MARKET BREADTH (new), catalyst stack (Russian diesel line, COR-20261031-01), inbox and runtime lines. Gamma, vol, credit and rate sections are NOT re-pulled: they are the 10/30 post-close reads. Pre-session copy: `research/2026-10-31_L616_breadth/STATUS-before.md`. Previous owner updates (10/30 16:40–16:50 ET, DOCKET L885, and earlier): `git log -p -- AGENTS/HENRY/STATUS.md`.
+**Last owner update:** 2026-11-02 from 08:47 ET, PROME-spawned Tier-1 WQ-184 due-row wake (prome-40, DOCKET L888 Monday pre-open gamma re-pull; Claude Code, Opus 5.5, `claude-opus-5-5`): SPX/QQQ/NDX `--both --publish` on the Monday Cboe chains (OI = 10/30-trade vintage), whole-inbox drain. Changed: header, VIEW (new 11/02 pre-open paragraph), § MONDAY 11/02 PRE-OPEN GAMMA (new; the 10/30 gamma sections below are now record). Vol, credit and rate sections are NOT re-pulled. Pre-session copy: `research/2026-11-02_L888/STATUS-before.md`. Previous owner updates (10/31 L616 breadth, 10/30 L885, earlier): `git log -p -- AGENTS/HENRY/STATUS.md`.
 
 ## VIEW
+
+**11/02 pre-open (D:L888; supersedes the 10/30 gamma state below): dealer gamma is still NEGATIVE at both horizons on SPX, QQQ and NDX after Friday's trading reached open interest.** Re-pull 08:48 ET on Cboe chains whose OI is 10/30-trade vintage (OCC Monday post; verified at the chain). Flips moved DOWN, closer to price: SPX ~7,706–7,711 (was 7,732–7,736), QQQ ~718–721 (was 725–727), NDX ~28,779–28,913 (was 28,937–29,047). The 7,700 SPX put wall did not re-form; the put band 7,500–7,600 stays WITHHELD (14d 7,550 near-tie vs 35d 7,500). QQQ put wall 680 holds (PUBLISHED) and a QQQ call wall 700 now publishes clean. Friday's Nov-20 QQQ put volume landed as added OI at 680/670 and closed OI at 700/710. Pre-market (vendor 08:48 ET): ES +0.55% (SPX ~7,622 implied, 1.1–1.2% under the flip), NQ +0.92% (NDX ~28,646, 0.5–0.9% under), QQQ 694.63, VIX 19.45. § MONDAY 11/02 PRE-OPEN GAMMA. No probability, threshold, prediction or trade changed.
 
 **10/30 close (supersedes the 10/29 gamma state below): the 7,700 put wall BROKE on the close and dealer gamma is NEGATIVE at both horizons on all three chains (SPX, QQQ, NDX) into Monday 11/02.** SPX closed **7,580.07 (−1.82%)**, 120 points under the wall and 152–156 under the flip band 7,732–7,736; low 7,527.56 at 14:53 ET. QQQ closed **690.49 (−3.47%)**, $0.49 above the 690 trough of the 10/29 map after a 683.45 low (14:52 ET). The move was concentrated: SOXX −8.24% (INTC −28.58% on results), NVDA −4.22%, while RSP −0.79%, KRE −1.17%, HYG −0.19% and Treasuries rallied (2Y par 4.56%, −5bp, back to ORANGE). **Read: index-mechanics amplification of a sector repricing, not yet a credit move** (credit's only lead is HY +12bp to 326 [FRED 10/29], before the break). The last hour was a squeeze off the low (+61 SPX points) that ended on the heavy 0DTE strikes. VIX closed 19.42 after an intraday 23.93. No probability, threshold, prediction or trade changed.
 
@@ -46,6 +48,16 @@
 | S&P 500 A/D line (cumulative from 2025-01-02) | 7,393 | peak 8,160 (8/14) · 5,946 (9/30) |
 
 **Read:** concentrated at the 10/6 record, broadening since; Friday narrow at the index level and broad only inside tech (80% of S&P 500 IT members down; QQEW/QQQ an ordinary-breadth Nasdaq day); three-month small/mid damage only partly repaired. Constituent counts are computed from members' own closes (not the exchange A/D series, which was not reached); survivorship: today's members applied backwards. Not a threshold, monitor or prediction. Files `research/2026-10-31_L616_breadth/`; memo `PROME/inbox/2026-10-31_from-HENRY_L616-market-breadth.md`.
+
+## MONDAY 11/02 PRE-OPEN GAMMA (D:L888; `gamma_flip.py --both --publish` 08:48 ET; OI = 10/30-trade vintage; spot = 10/30 close)
+
+| Chain | Flip 14d / 35d | Net GEX per 1% 14d / 35d | Put wall | Call wall |
+|---|---:|---:|---|---|
+| SPX (3,269 / 7,601 contracts) | ~7,706 / ~7,711 | **−$39.4B / −$59.8B** | WITHHELD: 14d 7,550 (near-tie band 7,550–7,600) vs 35d 7,500 clean → band 7,500–7,600 | WITHHELD: 14d 7,650 vs 35d 7,700 |
+| QQQ (spot 690.49; feed 694.63) | ~718.2 / ~721.3 | −$2.5B / −$4.6B | **680 PUBLISHED** (clean both) | **700 PUBLISHED** (clean both; 10/30 withheld) |
+| NDX (spot 28,384.85) | ~28,779 / ~28,913 | −$0.6B / −$1.3B | WITHHELD (28,500 band 28,000–28,500 vs 27,500) | WITHHELD (28,700 vs 29,675) |
+
+**OI vintage:** Cboe payloads 08:37 / 08:48 ET; volume field still Friday's while OI moved, so OI includes 10/30 trading. **Put OI changes (10/29-trade → 10/30-trade):** QQQ Nov-20 680 82,664 → 89,505 · 670 40,772 → 52,149 · 700 50,278 → 41,161 · 690 37,143 → 39,216; QQQ Nov-06 680 25,801 → 34,980; SPX Nov-06 7,550 2,885 → 7,330 · 7,400 4,896 → 8,009. Friday's 347,333 QQQ 690P volume was the 10/30-expiry contract and is out of every map. Full table and method: `research/2026-11-02_L888/`. Ledger rows dated 11/02 in `workbook/PUBLISHED.tsv`. Free-tier proxy: sign and flip robust; $B assumption-dependent. QQQ is American-style and only part of Nasdaq-100 gamma.
 
 ## GEX / GAMMA REGIME — NEGATIVE BOTH, OCTOBER 30 CLOSE (gamma `--both --publish` 16:46 ET 10/30)
 
