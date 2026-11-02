@@ -1,7 +1,7 @@
 # ZHAO STATUS
 
-**Updated:** 2026-10-29 14:36 ET (by `date`), CLOSED OUT — ⚠️ earlier ~14:45–15:20 stamps today ran ahead of the clock; the session ran 13:27–14:36 ET (see commit time). **Session zhao-02: Will-directed boot + desk sweep, steps 1–5 + open-items pass** (`reports/2026-10-29_DESK_SWEEP.md`). Earlier 10/29 sessions: prome-92 (00:10 ET, L482 re-check) and prome-90 (09:00 ET, Plenum graded).
-📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **11/10: two export-control clocks restart, still no instrument** (US BIS Affiliates Rule · China 公告70); USTR's s.301 ship-fee proposal to 1/9 is the only paper and re-dates neither (KB-210); **ZHA-19 65% / ZHA-20 70%** that both get paper in time. ② **NPCSC 11/2–6** is the only near venue for a fiscal number; the Plenum (10/26–29) gave none (KB-214); **ZHA-21 12%**. ③ **HK peg at its 7.85 weak edge**, HIBOR-SOFR YELLOW, no HKMA intervention yet (KB-216). ④ **The PBOC is holding the yuan BACK** (fix weaker than market every month since Dec-2025; V6 3·A, KB-219). ⑤ Sep data: exports +36.3%, PPI +5.0%, gold +23 t, CGB 1.63% (KB-217).
+**Updated:** 2026-11-02 08:52 ET (by `date`) — **Session prome-40 L482 spawn: instrument re-check + L0 drain 3/3** (KB-221..223). Prior: 2026-10-29 14:36 ET closeout, session zhao-02 desk sweep (`reports/2026-10-29_DESK_SWEEP.md`).
+📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **11/10: two export-control clocks restart, still no instrument** (US BIS Affiliates Rule · China 公告70); USTR's s.301 ship-fee proposal to 1/9 is the only paper and re-dates neither (KB-210); **ZHA-19 65% / ZHA-20 70%** that both get paper in time. ② **NPCSC 11/2–6** is the only near venue for a fiscal number; the Plenum (10/26–29) gave none (KB-214); **ZHA-21 12%**. Opened 11/2 with the Financial Law 2nd reading; full opening agenda not located 08:51 ET; the 10/22 proposed agenda has no budget item (KB-222). ③ **HK peg at its 7.85 weak edge**, HIBOR-SOFR YELLOW, no HKMA intervention yet (KB-216). ④ **The PBOC is holding the yuan BACK** (fix weaker than market every month since Dec-2025; V6 3·A, KB-219). ⑤ Sep data: exports +36.3%, PPI +5.0%, gold +23 t, CGB 1.63% (KB-217).
 🧊 **Header lines + bottom lines through 10/29 ~14:45 moved VERBATIM → `archive/STATUS_COLD_20261029.md` §ⓐ–ⓑ, §ⓓ** (earlier rotations → `…_20261022.md` §ⓐ–ⓓ).
 **Overall Status:** 🟠 ELEVATED — **28/60** (unchanged since 10/9; two-sided shadow 31, KB-219). **August TIC: China $590.7B; LT −$4.8B, a third month of selling at half the prior pace; 6-month net −$71.5B.** Thesis kill re-specified 10/29 (Belgium leg retired → China flow leg F). Proxy falsified (rho +0.067, n=43); rotation refuted three times.
 
@@ -13,13 +13,13 @@
 
 | Clock | Instrument | Reads today | Status |
 |---|---|---|---|
-| US perimeter | BIS Affiliates Rule (FR 2025-19846) — reimposed **effective 11/10** | 11/10 — no stay extension in FR (published or public inspection) through **10/29 00:09 ET** | 🔴 LIVE (KB-177, 192, 202, 210) |
-| China perimeter | MOFCOM/GAC 公告2025年第70号 — suspends 55-58, 61 一(一)(二), 62 「至2026年11月10日」 | 11/10 — no re-suspension 公告 through **10/29 (list to No.52; 45/47 not located)**; MOFCOM 9/28 statement names 1/10 (not an instrument) | 🔴 LIVE (KB-172..180, 189, 192, 202, 210) |
-| 🆕 US s.301 ships (separate) | USTR s.301 maritime action, suspended to **11/9 23:59 ET**; FR 2026-21755 **PROPOSES** extension to **2027-01-09** | proposal only; comments close 10/30; final notice not yet published | 🟠 first instrument carrying the 1/9–1/10 date (KB-210) |
+| US perimeter | BIS Affiliates Rule (FR 2025-19846) — reimposed **effective 11/10** | 11/10 — no stay extension in FR (published or public inspection) through **11/02 08:49 ET** | 🔴 LIVE (KB-177, 192, 202, 210, 221) |
+| China perimeter | MOFCOM/GAC 公告2025年第70号 — suspends 55-58, 61 一(一)(二), 62 「至2026年11月10日」 | 11/10 — no re-suspension 公告 through **11/02 08:50 ET (list still to No.52; 46 located, 45/47 not)**; MOFCOM 9/28 statement names 1/10 (not an instrument) | 🔴 LIVE (KB-172..180, 189, 192, 202, 210, 221) |
+| 🆕 US s.301 ships (separate) | USTR s.301 maritime action, suspended to **11/9 23:59 ET**; FR 2026-21755 **PROPOSES** extension to **2027-01-09** | proposal only; comments closed 10/30; final notice **not yet published at 11/02 08:49 ET** | 🟠 first instrument carrying the 1/9–1/10 date (KB-210) |
 | ~~US tariff~~ | ~~EO 14358 §2 (heading 9903.01.63)~~ | — | ⛔ **VOID since 2026-02-24** (EO 14389, KB-183) |
 | 🆕 China (separate) | MOFCOM 公告2024年第46号 **clause 2** suspended to **2026-11-27** | 11/27 | 🟠 B2, content UNVERIFIED (KB-185) |
 
-**If the 1/10 extension (Bessent verbal 9/23; MOFCOM written 9/28) becomes instruments, the two live clocks re-date to 2027-01-10; until an instrument publishes, they stand.** ✅ 10/09, 10/20 and **10/29** re-checks: **none published for either clock** (KB-192, 202, 210) — the only paper is USTR's s.301 ships proposal, a separate instrument. Next looks **11/2 · 11/9 (MUST-RUN)**; blind spots = MOFCOM 公告 39/43/45/47 (not located); Tariff Commission now reachable. ⛔ DO-NOT-MERGE still binds. The 8/22 Canada precedent (announced, never instrumented, tariff went live) is why a verbal extension is not graded as done.
+**If the 1/10 extension (Bessent verbal 9/23; MOFCOM written 9/28) becomes instruments, the two live clocks re-date to 2027-01-10; until an instrument publishes, they stand.** ✅ 10/09, 10/20, 10/29 and **11/02** re-checks: **none published for either clock** (KB-192, 202, 210, 221) — the only paper is USTR's s.301 ships proposal, a separate instrument. Next look **11/9 (MUST-RUN)**, then 11/10 Beijing for ZHA-20; blind spots = MOFCOM 公告 39/43/45/47 (not located); Tariff Commission now reachable. ⛔ DO-NOT-MERGE still binds. The 8/22 Canada precedent (announced, never instrumented, tariff went live) is why a verbal extension is not graded as done.
 
 ---
 
@@ -76,7 +76,7 @@
 | # | Vector | Score | As-Of |
 |---|---|---|---|
 | 1 | Four-Anchor UST Selling | 🔴 5 | TIC **Aug'26**, pull 10/16 — ⚠️ held, not re-scored: China decelerating, Korea buying (rescore question owed) |
-| 2 | Korea Crisis | 🟢 1 | won **10/29**; TIC Aug'26 |
+| 2 | Korea Crisis | 🟢 1 | won **10/29**; TIC Aug'26 · WALTER's Jan–Aug −$23.8B is LT-only; all-Treasury Feb–Aug −$3.6B, bills bought (KB-223) |
 | 3 | Custodial Arb. | 🟡 2 | Belgium Aug'26 |
 | 4 | LGFV/Banks | 🟡 2 | **rural-bank NPL 2.83% Q2-26, rising** (`VX-6.15`, new 10/29); Guizhou/Zhengzhou canaries 🧊; swap Jun'26 |
 | 5 | Property Zombification | 🟠 **4 ↓** | **Sep 30** (tripwire, KB-193) |
