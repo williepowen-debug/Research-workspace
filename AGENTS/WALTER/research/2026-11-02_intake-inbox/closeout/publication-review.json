@@ -20,5 +20,12 @@
     "note": "Fresh fetch and reconciler prove18 newly delivered/zero real orphans. Other owners consumption not inferred."
   },
   "coordinator": "PROME native publication receipt independently checked by fresh fetch/ancestry",
-  "limits": "Delivery not consumption; current continuity commit follows; no WALTER self-push."
+  "limits": "Delivery not consumption; current continuity commit follows; no WALTER self-push.",
+  "postcommit": {
+    "as_of": "2026-11-02T16:12:30Z",
+    "origin": "3b336483d82ba3bed1141debbdc975bb759b20fb",
+    "continuity_commit": "23ce433d3566d3b939eb156db6cf2830ae6ea721",
+    "state": "pending",
+    "self_push": "none; foreign dirty work"
+  }
 }
