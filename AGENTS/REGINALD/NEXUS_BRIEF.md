@@ -2,9 +2,14 @@
 
 **Status:** Concentrated bank risk. HY re-widened to 344bp [10/30] from 326 [10/29] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 6bp below the strict >350 line, run 0-of-3); Friday's widening was HY-led and does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-02 17:29 ET, Will-launched evening boot | STATUS commit: `b2c498838`
+**As of:** 2026-11-02 18:38 ET, KRE integrations and closeout | STATUS commit: `b2c498838`
 
 ## CROSS-DOMAIN
+
+**November2 KRE verification** (`research/KRE/reports/2026-11-02_study6-verification/REVIEW.md`; `research/KRE/reports/2026-11-02_kre-stress-test-rebuilt/REVIEW.md`):
+- **Market read:** reduced KRE co-movement is real and survives matched trimming, but Study 4 supports a broader market/style explanation rather than a regional-credit all-clear. No directional forecast follows.
+- **Holdings read now verified:** the ex-five KBWB reconstruction reproduces. Like-for-like five-bank effect = 1.772pp (73% of the 8/3–10/30 gap), not 1.81 including tracking. Corrected linked components reconcile; BAC/GS/MS drive it, JPM offsets. Highly window-sensitive and not a cause or co-movement explanation.
+- **Evidence state:** rebuilt stress test matched all 54 rebuilt comparison values after a documented temporary fetch repair; Study 6 regenerated 16/17 outputs byte-for-byte. No bank grade, threshold, prediction or trade change.
 
 **November2 evening boot** (`reports/2026-11-02_evening-boot/REPORT.md`):
 - **Tape at 17:29 ET, vendor quotes rather than settled grades:** WAL $78.67 (+3.12%), KRE $73.73, FLG $10.75. REG-T-02 stays FIRED with settled exit run 0-of-3; FLG stays RED. No threshold or score change.

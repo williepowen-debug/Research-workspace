@@ -24,7 +24,13 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 ⚠️ **Open question at close:** does the 8/20 ranking predict anything? The frozen 11/07 test against simple baselines answers it, as a retrospective check, not a blind one.
 
-### LAST SESSION — 2026-11-02 17:24 → 17:29 ET checks, Will-launched evening boot
+### LAST SESSION — 2026-11-02 17:55 → 18:38 ET (`date`), Will-directed KRE review, integration and closeout
+- **Read:** reviewed the KRE collection with Sloane's summary; core conclusion remains broad market/style change plus a modest bank-specific remainder, not a credit all-clear or direction forecast.
+- **Rebuilt stress test integrated:** `research/KRE/reports/2026-11-02_kre-stress-test-rebuilt/`, commit `47ed2e062`. After documenting and temporarily repairing an eight-ticker fetch omission, the rerun matched all 54 rebuilt comparison values as text. Original-source differences and statistical caveats retained.
+- **Study 6 verification integrated:** `research/KRE/reports/2026-11-02_study6-verification/`, commit `5cfb60176`. Offline run regenerated 16/17 outputs byte-for-byte. Like-for-like five-bank effect 1.772pp (73% of stated-window gap); corrected linked components reconcile fully. Effect is window-sensitive, non-causal and does not explain co-movement.
+- **State:** KRE guides/synthesis updated; open holdings/additive questions closed. No bank grade, threshold, prediction, position or trade change. Inbox lanes empty; no stale consumer packet after source inspection.
+
+### EARLIER — 2026-11-02 17:24 → 17:29 ET checks, Will-launched evening boot
 - **Tape at 17:29 ET, vendor not settled:** WAL $78.67 (+3.12%), KRE $73.73, FLG $10.75; VIX 21.15 (+8.91%). REG-T-02 stays FIRED, exit 0-of-3 through 10/30; FLG RED; no 11/02 settled grade.
 - **New CUBI Form 4 verified at SEC:** CEO Jay Sidhu sold 50,000 shares at $87.4039 [11/02, acc 0001222371-26-000011]. Insider observation only; no credit, score, threshold, prediction or trade change.
 - **Intake:** general/WALTER 0; WAL/OZK unACKed 0; predictions none due; corrections 0; staleness clean. BOARD -010 BACKFILL (direct DEWEY packet already integrated). boot.py rc 1: known FLG/CFG/WAL alerts plus CUBI sale.
