@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-11-02T15:41:47Z",
+  "registry_rows": 49,
+  "status_owners_reviewed": 44,
+  "missing_expected_special_or_legacy": [
+    "RAV",
+    "DARWIN",
+    "BARON",
+    "HERMES",
+    "DEWEY"
+  ],
+  "status_directories_absent_from_registry": [],
+  "changes": [
+    {
+      "agent": "REGINALD",
+      "previous_updated": "2026-11-01",
+      "previous_focus": "November 1 C9: VLY/EGBN/HBAN report complete; card 026 integrated; November 7 universe plan remains.",
+      "new_updated": "2026-11-02",
+      "new_focus": "November 2 09:17 owner boot: settled October 30 bank tape; FRED frontier October29; November7 reserve-release breadth retained. No score/threshold change."
+    },
+    {
+      "agent": "BRENT",
+      "previous_updated": "2026-11-01",
+      "previous_focus": "November 1 owner session: December OPEC+ hold graded; source limits retained. See owner STATUS.",
+      "new_updated": "2026-11-02",
+      "new_focus": "November 2 SCOPED-PARTIAL boot: WAIT v5.13; vendor oil drop context, no primary level recertification. Owed source/owner limits remain."
+    },
+    {
+      "agent": "NEXUS",
+      "previous_updated": "2026-10-31",
+      "previous_focus": "October 31 full matrix of 31 briefs: vulnerabilities present; increasing transmission uncertain; no three-root convergence.",
+      "new_updated": "2026-11-02",
+      "new_focus": "November 2 focused transmission delta; price stress established, broader financing unresolved. Not a full matrix re-sweep; L13 early-copy qualifier retains governing mirror."
+    },
+    {
+      "agent": "WALTER",
+      "previous_updated": "2026-11-02",
+      "previous_focus": "2026-11-02T13:14:07Z \u2014 Session closed on Will request; research published, 90 October 31 handoffs delivered; owner follow-ups recorded. LAST_COMPLETION.",
+      "new_updated": "2026-11-02",
+      "new_focus": "November 2 bounded credit availability route: HY344[Oct30] near 350, no new fire; bookmark and requested UNG tasks complete. Boot PARTIAL; LAST_COMPLETION."
+    },
+    {
+      "agent": "BOND",
+      "previous_updated": "2026-10-29",
+      "previous_focus": "**Agent:** BOND \u00b7 **Domain:** US bond-market structure. **Last session update:** 2026-10-29 addendum 08:30 ET \u2014 WQ-536 RULED A encoded (THESIS v1.2.12); earlier the same day the Will-directed catch-up (Claude Code `claude-opus-5-5`). **Last real\u2026",
+      "new_updated": "2026-11-02",
+      "new_focus": "November 2 owner update: Treasury/NYFed through October 30, credit through October29; refunding bars frozen, funding firm not stressed. Owner grades unchanged here."
+    },
+    {
+      "agent": "TERRY",
+      "previous_updated": "2026-10-31",
+      "previous_focus": "October 31 current state, 14:11 ET: UNG idea NOT FIRED, unapproved; no money moved.",
+      "new_updated": "2026-11-02",
+      "new_focus": "November 2 WQ590 delivered two unapproved conditional cards; UNG approved conditional remains NOT-FIRED, refreshed2c47adde3. No order/deployment."
+    },
+    {
+      "agent": "DAEDALUS",
+      "previous_updated": "2026-10-31",
+      "previous_focus": "**Last Updated: 2026-10-31 09:30 EDT (PROME prome-34 Tier-1 due-row wake, DOCKET L526: Friday 10/30 routine receipt read at 4f3936da7 \u2014 `detached=y ff=846 venv=rebuilt`, finding #11 holds on a third run and a second routine; AC4 RESTATED in the spec\u2026",
+      "new_updated": "2026-11-02",
+      "new_focus": "November 2 09:42 startup recovery only; existing assignments recovered; no implementation or re-grading at this header."
+    }
+  ],
+  "scope": "Current owner lead headers; existing colours/classes preserved. Header observations are not current liveness or market clearance."
+}

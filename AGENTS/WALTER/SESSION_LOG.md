@@ -1,3 +1,62 @@
+# FULL CLOSEOUT — 2026-11-02T15:41:47Z — bounded Friday-credit/status follow-through
+
+PROME relayed Will's status check plus existing-scope Friday-data availability lead. Routed008 from verified FRED HY344[Oct30]+18/CCC1327+2, near350 watch not fire. No new study/order/intake assignment. Source252963ff6 and reader-review c9456d852 committed. USER WQ590 reviewed; registrar transcription pending. Seven owner-header mirror changes before network summary; BALANCED retained. Full closeout clears two LIGHT narrative deferrals; market/source/inbox boot remains PARTIAL. Root Data Hygiene: referenced recent sources retained, no speculative retirement/new checker. Current approvals/duties solely LAST_COMPLETION.
+
+## Demoted published-receipt JSON fragment — verbatim
+
+```json
+    {
+      "commit": "7244d64ec870d1e6679483fa7f7f96bb857fca98",
+      "state": "published",
+      "note": "Prior continuity origin-proven."
+    },
+    {
+      "commit": "1ef600ebd35f5341ba6c64759e098d8057aa4d3a",
+      "state": "published",
+      "note": "Six bookmark cards/14 handoffs origin-proven."
+    },
+```
+
+## Demoted completed receipt blocks — verbatim
+
+F1/F2 decision approved and implemented. No further approval needed for this amendment. Remaining proposals, dependencies and optional ideas are listed under OPEN DESIGN DECISIONS; no new blanket build approval requested.
+
+Authorized cleanup implemented. Will approved the legacy burst-window retirement; it is implemented and no further retirement decision is owed. No new checker or replacement monitoring system. Conservative outbox archival pass is complete: 12 moved, 61 retained with recorded reasons. Referenced history and unresolved/uncertain matters remain preserved; they are not bulk-deletion candidates.
+
+
+- Verdict F1/F2 publication and registrar transcription CLOSED: November 1 ATTESTATION note at PROME/registry/READS.tsv; processed packet verified. No renewed ask.
+- Burst-window retirement: WALTER implementation complete. PROME central READ row WALTER:7b is RETIRED-2026-10-31 and the five-file basis review transcribed at PROME/registry/READS.tsv (19:51 ET owner note). No event-window BASIS row exists. Publication and recipient consumption remain separate.
+
+- Attestation gap CLOSED: central READS is attested October 31, L845 resolved. Subsequent WQ-578 root delta and ten cleanup-owned basis deltas reviewed and hashes updated; cleanup transcription/phone-BASIS retirement verified complete, local hash removed. Root/shared rotation warnings remain PROME-owned; source coverage is separate from these checks.
+
+## MEMORY session notes conserved verbatim
+
+
+**November 2 boot/close (model switch):** status-only boot, PARTIAL; no routing. Carries: LAST_COMPLETION FOLLOW-UP item 0. Will's read of the Iran de-escalation oil drop: rumor-driven, a pattern that has failed before; route only with that framing and the ladder 5/6 tests.
+
+**November 2 bookmark sitting:** Will authorized scan/process after reauthorization. All 9 staged IDs reviewed/marked; no new autonomy or build approval. Current source/delivery duties remain solely in LAST_COMPLETION and its source-review pointer.
+
+**November 2 UNG sitting:** Will selected trigger check and card refresh; TERRY completed it. No order/waiver or unrelated intake assignment. Current source/owner conditions remain solely in LAST_COMPLETION.
+
+## Prior UNG completion lead — verbatim
+
+# WALTER — LAST COMPLETION
+
+Updated 2026-11-02T15:28:31Z, OpenAI Codex (exact model UNKNOWN). Requested UNG check/TERRY card refresh complete; LIGHT routing closeout, second full deferral. Earlier operational boot remains PARTIAL.
+
+## STATUS
+
+TERRY refresh committed 2c47adde3e083a29e7ca853fd26306ddf3f32879; PROME consumed it and mirrored both guards. NOT-FIRED; GFS sample +5.53155 m/s does not meet <0, canonical AEOLUS current logging pending. No order. Fresh origin proves earlier bookmark and current source packets; 16 November 2 handoffs delivered. TERRY 002/007 consumption verified; other consumption not inferred.
+
+## CHANGED
+
+Source check/raw fields in research/2026-11-02_UNG-refresh; BOARD 007, INDEX, route/delivery logs, two INFO handoffs and dated PROME packets (d7218258c/f28fc8021). Closeout updates delivery reconciliation, affected STATUS, MEMORY session note, SESSION_LOG and this sole duty list. TERRY authored its own card/report; no other desk files edited by WALTER.
+
+## RESULT
+
+Requested check and card refresh delivered. Latest sampled NOAA analysis remains positive; ECMWF/coupling refresh and continuous absence unproved. TERRY 10:20–10:21 EST UNG pull green (+1.49%); 10:22 local Jan15 10/12C x5 screening debit .47 / loss $241.50 with assumed fees, broker quote missing. Approved cap .50 / $256.50 and both $10.40 guards bind. No repeat approval or waiver. Owner readback: research/2026-11-02_UNG-refresh/OUTCOME.md. Earlier bookmarks remain fully accounted for: 9 IDs / 17 items, 3 full/6 partial source coverage.
+
+
 # LIGHT CLOSEOUT — 2026-11-02T15:27:48Z — requested UNG check/card refresh; full deferred
 
 Fresh GFS analysis +5.53155 m/s; owner TERRY independently accepted the positive sample and committed the requested card refresh 2c47adde3. NOT-FIRED; green UNG at dated pull, screening debit .47, approved cap/conditions unchanged. AEOLUS current canonical logging remains pending; PROME GATES mirror later verified complete. No order. Evidence research/2026-11-02_UNG-refresh/OUTCOME.md. Fresh origin proves bookmark/source payloads; 16 handoffs reconciled delivered, not blanket consumption. Second light breadcrumb since latest FULL; unrelated intake remains unassigned. Earlier operational boot PARTIAL; full lead/network review deferred.

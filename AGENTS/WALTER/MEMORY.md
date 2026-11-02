@@ -94,10 +94,7 @@
 - **LIAISON path convention:** `AGENTS/{TARGET}/handoff_WALTER/LIAISON.md`; manifest in STATUS.md "Active LIAISON channels"; playbook `design/LIAISON_PLAYBOOK.md`. Outbox at `AGENTS/WALTER/outbox/REQ-{TARGET}-{YYYYMMDD}-{slug}.md`.
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 - **Bright Data Web Unlocker (WQ-383 pilot, LIVE 2026-10-04):** `bdata scrape <url>` for a 403'd no-screenshot bookmark link; free tier 5k/mo HARD STOP, Web-Unlocker-only, key in gitignored `.env` (per-machine). Full method+limits+ledger: `design/X_BOOKMARKS_ACCEPTANCE.md` §9a.
+
 ## Session Notes
 
-**November 2 boot/close (model switch):** status-only boot, PARTIAL; no routing. Carries: LAST_COMPLETION FOLLOW-UP item 0. Will's read of the Iran de-escalation oil drop: rumor-driven, a pattern that has failed before; route only with that framing and the ladder 5/6 tests.
-
-**November 2 bookmark sitting:** Will authorized scan/process after reauthorization. All 9 staged IDs reviewed/marked; no new autonomy or build approval. Current source/delivery duties remain solely in LAST_COMPLETION and its source-review pointer.
-
-**November 2 UNG sitting:** Will selected trigger check and card refresh; TERRY completed it. No order/waiver or unrelated intake assignment. Current source/owner conditions remain solely in LAST_COMPLETION.
+November 2 FULL closeout: assigned bookmark/UNG work complete; bounded Friday-credit availability update routed on PROME relay. Current approvals, source gaps and held intake remain solely in LAST_COMPLETION.

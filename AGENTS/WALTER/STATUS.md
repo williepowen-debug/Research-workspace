@@ -1,18 +1,21 @@
 # WALTER STATUS
-**Updated:** 2026-11-02T15:28:31Z — requested UNG check/card refresh complete; LIGHT closeout, full deferred. Operational boot remains PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-02T15:41:47Z — bounded Friday-credit/status follow-through; FULL narrative closeout. Operational boot PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
+
+Friday credit is now published: HY 344bp (+18), CCC 1327 (+2), October 30 observations releasedNovember 2. REG-T-04 near-trigger watch6bp below >350 x3; no new fire or general funding-squeeze finding. Existing owners have bounded source route 008; unrelated intake remains held. Source/vintage limits:research/2026-11-02_credit-availability/REPORT.md.
 
 Requested UNG check: November 2 06Z GFS mean +5.53155 m/s; TERRY independently accepted the sample and refreshed the conditional Jan15 10/12C card. NOT-FIRED; canonical AEOLUS logging pending. Dated UNG pull green, screening debit .47; original .50 cap and both $10.40 guards retained. No order. Evidence: research/2026-11-02_UNG-refresh/OUTCOME.md.
 
 November 2 bookmarks: all 9 reviewed/marked (3 full, 6 partial source coverage); six cards and two novelty kills. Arini margin-call reporting, gas gross/net shorts, reported Outback franchisee filing, Denver case/date corrections and qualified equity/oil evidence are in research/2026-11-02_bookmarks/REVIEW.md. No new fire, exit or trade; no fresh market scan. Prior intake and inbox carries remain in LAST_COMPLETION.md.
 
-October 31 totals remain 26 cards, 49 kill-log rows, 18 bounded source helpers. November 2 adds seven cards, two kill-log rows, zero helpers. BOARD 1896. BALANCED, zero new cluster_mediating flags. Source gaps survive in the review; operator boot remains PARTIAL.
+October 31 totals remain 26 cards, 49 kill-log rows, 18 bounded source helpers. November 2 adds eight cards, two kill-log rows, zero helpers. BOARD 1897. BALANCED, zero new cluster_mediating flags. Source gaps survive in the review; operator boot remains PARTIAL.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| November 2 credit follow-through | HY344 / CCC 1327 [October 30], FRED pages updated15:06/15:09Z November 2; first-published tool deciding values agree. HY+18bp; REG-T-04 strict>350x3 remains0/3,6bp watch. Prior fired states continue, no re-fire. No general funding-squeeze grade. Evidence research/2026-11-02_credit-availability/. |
 | November 2 boot (pull 14:14Z; observation dates retained) | FRED HY 326 / CCC 1,325 / VIXCLS 17.20 [Oct 29; Oct 30 HY not yet published at pull]; SOFR−IORB +5 bp [Oct 30]; SKEW 149.76, T5YIFR 2.22 [Oct 30]; ICSA 194,000 [w/e Oct 24]; Cushing 26.970M [w/e Oct 23]. KRE 72.01 / WAL 76.29 [Oct 30 closes]; existing FT-02/REG-T-03/FT-10/REG-T-02 fired states, exits not started. Matched January oil, vendor 09:04 ET intraday, not settles: CLF27 96.30 vs 102.21 (−5.78%), BZF27 106.94 vs 113.43 (−5.72%); ^VIX 19.04. No new fire/exit. Boundary 8 January count restarts November 2. Evidence research/2026-11-02_boot/. |
 | Q3 Call Reports (September 30 versus June 30; retrieved October 31 ET) | 42 same-bank facsimiles, 14 exact equity bridges. Equity OZK −2.07%, WAL −2.92%, FLG −6.10%, AMTB −8.83%, SBCF −7.25%. FLG M3 +54.12% versus loans +1.50%; classification versus growth unresolved. Not a national sample, capital grade or trade finding. Evidence: research/2026-10-31_call-report-read/REPORT.md. |
 | Night boot (November 1 01:02–01:04Z; observation dates retained) | HY 326/CCC 1325/VIXCLS 17.20/SOFR-IORB+4bp [Oct29]; T5YIFR 2.22/SKEW 149.76/KRE 72.01/WAL 76.29/AGSI 74.68% [Oct30]; Cushing 26.970M [w/eOct23]. No new fire/exit in completed scope. THRESHOLD-SCAN.md records source and persistence limits. |
@@ -61,7 +64,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 - ISHM final/flash source qualification and five exact recipient dispositions: `research/2026-10-26_ishm-intake-receipt/REVIEW.md`; current comparison unchanged, hardware vintage limits retained.
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
-- Current closeout evidence: `research/2026-10-27_session-close/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
+- Current closeout evidence: `research/2026-11-02_credit-availability/closeout/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
 - Bookmark authentication/read/mark evidence: `MARK-RECEIPT.txt`, `bookmark-review.json` and `REVIEW.md` in the bookmark evidence directory. Credentials remain ignored/machine-local.
 - VULCAN intake recommendation: `outbox/REQ-PROME-20261016-vulcan-intake-design.md`; no collector deployment inferred.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
@@ -69,9 +72,9 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-Registry refreshed before this mirror at 2026-11-02T14:22:06Z: FERT, ZHAO, OSPREY, CYPHER, BROCK, HENRY, YURI and MIDAS Updated/Focus mirrored from November 2 owner headers. Other rows unchanged from the 13:14Z comparison. All names retained. Routing state is not liveness. Doctor MED: 22 unconsumed >2d across 12 desks (6 ACTION, oldest 14d); no DARK verdict, no doorbell.
+REGISTRY refreshed first at 2026-11-02T15:41:47Z: all 49 mirrors compared against 44 available owner STATUS lead blocks; REGINALD, BRENT, BOND, NEXUS, TERRY, DAEDALUS and WALTER updated. All 43 agent STATUS directories are represented; PROME retained. Five expected special/legacy missing STATUS paths retained, no class or colour inferred. Scope: owner-header-review.json and registry-review.json in research/2026-11-02_credit-availability/.
 
-No helper or domain launch this closeout. Full-fleet lifecycle visibility remains UNKNOWN. Prior runtime observations remain dated. Source/context gaps persist; no fresh market clearance.
+No desk/helper launch. Native existing PROME/TERRY tasks verified; complete cross-runtime lifecycle visibility UNKNOWN. No DARK verdict/doorbell or new source census. Routing state is not liveness; consumption/source limits remain distinct. Full narratives refreshed; operational boot still PARTIAL.
 
 ## Active LIAISON channels
 
