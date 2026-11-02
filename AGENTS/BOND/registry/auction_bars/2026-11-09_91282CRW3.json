@@ -1,0 +1,14 @@
+{
+  "cusip": "91282CRW3",
+  "auction_date": "2026-11-09",
+  "term": "3-Year",
+  "tips": false,
+  "frozen_on": "2026-11-02",
+  "source": "AGENTS/BOND/analysis/2026-11-02_update/grade_91282CRW3.txt (pre-print run 2026-11-02, .venv python); docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 56.5,
+  "dlr_max": 19.5,
+  "btc_min": 2.54,
+  "p15": 57.44,
+  "p15_reopen": null
+}

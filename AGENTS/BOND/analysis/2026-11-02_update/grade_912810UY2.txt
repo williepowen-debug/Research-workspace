@@ -1,0 +1,24 @@
+run 2026-11-02 09:22:22 EST (.venv python)
+[grade] corpus: 45 FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)
+[grade] ⚠️ TA_WS returned 250 rows = AT CAP. Its date filter is inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.
+[grade] corpus: 360 rows through 2026-09-24 | +8 newer print(s) overlaid from TA_WS
+==============================================================================
+PRE-PRINT — no results published yet. Reporting the BARS.
+  30-Year  912810UY2  size TBA  tips=No  reopening=No  auction 2026-11-12
+
+  ROLLING BENCHMARK AUDIT — 30-Year (displayed 2dp)
+    method : trailing-12 SAME-TENOR SAME-TIPS auctions, strictly prior,
+             % of COMPETITIVE ACCEPTED (PD+direct+indirect)
+    window : 2025-11-13 -> 2026-10-08   n=12
+    RAW ROLLING AUDIT: {'ind_min': 59.95012259646112, 'dlr_max': 14.743679974032128, 'btc_min': 2.29, 'p15': 63.887349185185585, 'p15_reopen': 61.302927416991864}
+    BTC        median    2.41 | mean    2.43 | min    2.29 | max    2.66
+    indirect%  median   66.81 | mean   68.63 | min   59.95 | max   79.48
+    dealer%    median   11.34 | mean   10.12 | min    2.21 | max   14.74
+
+    ⇒ COMPOSITION-FAILURE test : indirect < 59.95%  AND  dealer > 14.74%
+    ⇒ COVER-MARKER test        : BTC < 2.29 with composition intact
+    ⇒ I' (MATRIX_V2, 8/27)     : indirect < 63.89%  [P15 linear over the same window, STRICT]  (reopening-only alt 61.30, n=12; POOLED governs)
+
+  ⇒ Freeze these published 2dp bars NOW, before the print; retain source and identity.
+==============================================================================
+RC=0

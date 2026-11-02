@@ -59,11 +59,13 @@
 | Basis trade leverage | CFTC/SEC/Fed reports / market research | Monthly/event | Hidden duration/funding fragility |
 | SOFR/repo pressure | LIQUID | Daily | Funding consequence, not BOND-owned |
 
-## Current Read — 2026-10-29
+## Current Read — 2026-11-02
 
-PRIMARY NY Fed, series break SBN2024, latest common as-of 2026-10-14: long-end total $151.396B (+$16.312B w/w); 7–11Y $40.697B (+2.205), 11–21Y $59.746B (+1.904), >21Y $50.953B (+12.203); 3–6Y $49.388B (−5.545); 2–3Y $24.228B; 6–7Y $23.750B. Evidence `../analysis/2026-10-29_catchup/raw/fr2004.json`, KB-BND-509.
+PRIMARY NY Fed, series break SBN2024, latest common as-of 2026-10-21: long-end total $150.816B (−$0.580B w/w); 7–11Y $38.222B (−2.475), 11–21Y $62.699B (+2.953, highest since as-of 9/23), >21Y $49.895B (−1.058); 3–6Y $47.986B (−1.402). **Build streak broken, inventory off the 10/14 high: VX-BND-04 3→2 on the THESIS letter**, with the disagreement recorded (a 0.4% dip; the 11–21Y rose). Evidence `../analysis/2026-11-02_update/raw/fr2004.json`, KB-BND-523.
 
-**Two consecutive builds on the named instrument (long-end TOTAL): +$2.022B (10/7) then +$16.312B (10/14). Trigger MET, VX-BND-04 score 2→3.** The >21Y +$12.203B is the largest one-week rise in the 120-week series (2024-07-03 onward); the level is only 41st of 120, and the total is below the $175.739B record (2026-02-25), so the red trigger (fresh record + composition failure) is NOT met. Robust to the 11–21Y+>21Y-only definition (+2.129, +14.107). Net stock cannot separate auction warehousing, hedges, or buyback-related positioning; the 3–6Y fell in the same week. ⚠️ This trigger has un-fired on the next print twice before; as-of 10/21 lands 10/29 ~16:15 ET. Same-window context: SOFR−IORB 0→+5bp (10/22–10/27, LIQUID owns) and the 10/26 2Y record bid substitution (audit-only, KB-BND-505).
+*Prior read (2026-10-29), dated history:* PRIMARY NY Fed, series break SBN2024, as-of 2026-10-14: long-end total $151.396B (+$16.312B w/w); 7–11Y $40.697B (+2.205), 11–21Y $59.746B (+1.904), >21Y $50.953B (+12.203); 3–6Y $49.388B (−5.545); 2–3Y $24.228B; 6–7Y $23.750B. Evidence `../analysis/2026-10-29_catchup/raw/fr2004.json`, KB-BND-509.
+
+**Two consecutive builds on the named instrument (long-end TOTAL): +$2.022B (10/7) then +$16.312B (10/14). Trigger MET, VX-BND-04 score 2→3.** The >21Y +$12.203B is the largest one-week rise in the 120-week series (2024-07-03 onward); the level is only 41st of 120, and the total is below the $175.739B record (2026-02-25), so the red trigger (fresh record + composition failure) is NOT met. Robust to the 11–21Y+>21Y-only definition (+2.129, +14.107). Net stock cannot separate auction warehousing, hedges, or buyback-related positioning; the 3–6Y fell in the same week. ⚠️ This trigger had un-fired on the next print twice before, and did so again at as-of 10/21 (above). Same-window context: SOFR−IORB 0→+5bp (10/22–10/27, LIQUID owns) and the 10/26 2Y record bid substitution (audit-only, KB-BND-505).
 
 ## Rolling Table
 

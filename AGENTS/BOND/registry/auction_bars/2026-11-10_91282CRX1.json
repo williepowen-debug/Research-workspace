@@ -1,0 +1,14 @@
+{
+  "cusip": "91282CRX1",
+  "auction_date": "2026-11-10",
+  "term": "10-Year",
+  "tips": false,
+  "frozen_on": "2026-11-02",
+  "source": "AGENTS/BOND/analysis/2026-11-02_update/grade_91282CRX1.txt (pre-print run 2026-11-02, .venv python); docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 63.95,
+  "dlr_max": 13.38,
+  "btc_min": 2.39,
+  "p15": 65.05,
+  "p15_reopen": 66.32
+}

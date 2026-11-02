@@ -1,17 +1,17 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-10-29 catch-up — evidence refreshed after a nine-day gap; no new card, threshold or trade proposal.
+**Last Updated:** 2026-11-02 — position write-back (TBT ×10 sold 10/30, FLAT), 7Y 10/29 audit grade, refunding bars frozen 11/2; no new card, threshold or trade proposal.
 **Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.12** (WQ-536 RULED A 10/29: audit-only fires never reset the clean-auction counter) (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
-<!-- bond-state: thesis=v1.2.12; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=APPROVED@WQ-357 -->
+<!-- bond-state: thesis=v1.2.12; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
 
-**Approval reconciliation October20:** WQ357 SELL remainingTBT5 was RULED APPROVE October15 12:23ET (committed PROME/WILL_QUEUE record), superseding October3 LATER. FORGE reconcile October 22 11:01 ET still shows TBT 5 held, no sell order. Approval is not execution. TLT82P closedOctober12. WQ280 NO-ADD stands. WQ339 authorized drafting only; WQ360 old put card LAPSED UNAPPROVED October14. USER October20 permits NOT-FIRED ideas through TERRY/Will, not automatic entries; no expiry reminders.
+**Position reconciliation November 2:** WQ-357 RESOLVED (Will 10/29); FORGE 10/30 reconcile shows **TBT ×10 SOLD 10/30** (Will had rebought 5→10 first), no live TBT line. TLT82P closed 10/12. **BOND's duration-short sleeve is FLAT.** WQ280 NO-ADD stands. WQ339 authorized drafting only; WQ360 old put card LAPSED UNAPPROVED October14. USER October20 permits NOT-FIRED ideas through TERRY/Will, not automatic entries; no expiry reminders.
 **Registered predictions:** OPEN 0. BND-32 RESOLVED FALSE 10/29 (2s30s steepened +10bp on the 10/28 FOMC vs a 65% non-steepening call); ledger thesis/PREDICTIONS.tsv.
 
 ---
 
 ## The view (October 29; dated evidence home `analysis/2026-10-29_catchup/`)
 
-**Operational letter:** WQ291 kill recommendation remains MET; unusual net inventory is not auction-warehousing proof, funding window UNGRADED, no predictive claim. WQ357 approval is already recorded, with no fill inferred. Existing NO-ADD stands.
+**Operational letter:** WQ291 kill recommendation remains MET; unusual net inventory is not auction-warehousing proof, funding window UNGRADED, no predictive claim. WQ357 is resolved and the sleeve is flat (TBT sold 10/30, FORGE). Existing NO-ADD stands; a new expression would be a new TERRY card on Will's word.
 
 **Rates:** Rally to 10/22 (10Y 4.96, 30Y 5.29), then the 10/28 hawkish-dissent hold bear-steepened the curve (2Y −3, 30Y +7). ACM 10/16–10/27 premium −15.0bp vs expected +3.5bp; neither decomposition identifies buyback causation.
 
@@ -19,7 +19,7 @@
 
 **Credit:** HY 340 [10/22] then 318 [10/27]; CCC 1356 3-year-window high [10/23]. Lead-band letter met one session 10/22 and reverted. Pulled-deal census missing. X1 CLOSED/DONT-SIZE stays with its owners.
 
-**Holdings:** FORGE reconcile 10/22 11:01 ET shows TBT 5 held, no sell order (WQ357 approved 10/15). TLT82P closed 10/12. BOND executes nothing.
+**Holdings:** none on this thesis. FORGE 10/30 reconcile: TBT ×10 sold 10/30, no live TBT line; TLT82P closed 10/12. BOND executes nothing.
 
 ---
 
@@ -44,7 +44,7 @@
 
 | # | Trade | Posture | Conviction | Hold / Add / Kill |
 |---|---|---|---|---|
-| 1 | **Duration-short sleeve** (Sep-30 77P — **GONE, sold 9/30**; Oct-16 82P also CLOSED10/12; current duration-short holding TBT5 perFORGE10/14) | **TBT surviving; no add. TLT closed** | 2.5/5 | **NO-ADD under WQ-280 and Will’s standing ruling.** Fired analytical gates do not authorize an add. **Kill: 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding** — the THESIS §2 letter, now the ONE spec *(STATUS carried a different exit, "DFII10 <2.00 sustained 5 sessions", introduced by the 9/1 read-cap compression and never in THESIS — corrected to the THESIS letter 9/9)*. The82Pcardisclosedonbrokerdisposal;TERRYownsmanagementofsurvivingTBT5. |
+| 1 | **Duration-short sleeve** (Sep-30 77P — **GONE, sold 9/30**; Oct-16 82P also CLOSED10/12; TBT ×10 SOLD 10/30 per FORGE) | **FLAT — no live line; no add** | 2.5/5 | **NO-ADD under WQ-280 and Will’s standing ruling.** Fired analytical gates do not authorize an add. **Kill: 10Y <4.15 AND 30Y <5.0 for 3 sessions AND a clean refunding** — the THESIS §2 letter, now the ONE spec *(STATUS carried a different exit, "DFII10 <2.00 sustained 5 sessions", introduced by the 9/1 read-cap compression and never in THESIS — corrected to the THESIS letter 9/9)*. The 82P card closed on broker disposal; TBT sold 10/30; nothing left for TERRY to manage on this sleeve. |
 | 2 | Credit-equity lead | Inactive watch | 1/5 | Reactivate on HY OAS +75–100bp from the 263 trough (≈338–363) while VIX <20; strongest if the fast layer leads cash. Distance → STATUS. |
 | 3 | Short AI-credit basket | NOT proposed — structure note | 1/5 | GS/JPM 18-name neocloud baskets (7/23), TRS-executable: a crowding-formation mechanism, not a signal. VULCAN owns the thesis. |
 
@@ -85,7 +85,7 @@
 
 ## Next Review — existing obligations only
 
-- 10/29 7Y `91282CRV5` grades AUDIT ONLY (pre-print bars captured, not registrable): `python3 monitors/grade_auction.py --cusip 91282CRV5`.
-- 🔴 11/4–11/8: freeze refunding bars for 3Y 11/9 · 10Y 11/10 · 30Y 11/12 as `registry/auction_bars/<date>_<cusip>.json`, then grade with `--frozen-bars` (Git-root-relative). Without a session in that window the refunding grades AUDIT ONLY.
+- 10/29 7Y `91282CRV5` graded 11/2 AUDIT ONLY: clean (indirect 57.77 vs I′ 57.43, +0.34pp; dealer 9.41; BTC 2.46).
+- ✅ Refunding bars FROZEN 11/2 (`registry/auction_bars/2026-11-09_91282CRW3.json`, `2026-11-10_91282CRX1.json`, `2026-11-12_912810UY2.json`). Grade each print with `--frozen-bars` (Git-root-relative) and the repo `.venv` python (system python lacks numpy, so I′ is not computed there).
 - 11/4 QRA F1/F3 and F2 op; 11/12–11/17 freeze the 11/18 20Y and 11/19 10Y TIPS bars.
 - Live holdings/approvals remain FORGE/TERRY/PROME records. No expiry-reminder duty under USER October20.

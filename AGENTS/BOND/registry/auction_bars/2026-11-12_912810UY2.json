@@ -1,0 +1,14 @@
+{
+  "cusip": "912810UY2",
+  "auction_date": "2026-11-12",
+  "term": "30-Year",
+  "tips": false,
+  "frozen_on": "2026-11-02",
+  "source": "AGENTS/BOND/analysis/2026-11-02_update/grade_912810UY2.txt (pre-print run 2026-11-02, .venv python); docket/CATALYSTS.tsv",
+  "n": 12,
+  "ind_min": 59.95,
+  "dlr_max": 14.74,
+  "btc_min": 2.29,
+  "p15": 63.89,
+  "p15_reopen": 61.3
+}
