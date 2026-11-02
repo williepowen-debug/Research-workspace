@@ -1,12 +1,12 @@
 # SCRATCH.md — Ephemeral Session State
 
-**Updated:** 2026-11-02 — Codex WAL-thread RESTART CHECKPOINT, not a closeout. Prior ★ NEXT entries in git: `git log -p -- PROME/SCRATCH.md`.
+**Updated:** 2026-11-02 — Codex KRE-study RESTART CHECKPOINT, not a closeout. Prior ★ NEXT entries in git: `git log -p -- PROME/SCRATCH.md`.
 
 ## ★ NEXT SESSION — START HERE
-**Latest checkpoint — November 2, Codex continuation:** Will wants to resume the WAL/regional-bank rally thread. Read [research checkpoint](reports/2026-11-02_wal-rally-checkpoint.md) first: findings, source clocks, six follow-up questions, carried inbox and owner boundaries.
-**Next action:** refresh WAL/KRE relative performance and consume relevant owner evidence; test whether credit quality, funding and earnings justify the rally. No trade approval or new commission was given.
-**Continuity:** original working-session limits and PARTIAL boot remain carried. The report supersedes older live-owner/delivery descriptions below; independent desks retain ownership, no parent-bound helpers remain.
-**Lifecycle:** this is Bounce preservation, not actual closeout or an ARGUS baseline advance. Original boot/recovery directories and peer receipt pointers are in the report; verify writers before replacement.
+**Latest checkpoint — November 2, Codex KRE continuation:** Will requested “lets checkpoint here” after saving the complete study under [REGINALD/research/KRE](../AGENTS/REGINALD/research/KRE/README.md). Start there, then [discussion context](../AGENTS/REGINALD/research/KRE/DISCUSSION.md): 49 committed files including ETF/FRED data, historical comparisons, external report + review, screenshots and later intraday snapshot. Originals preserved; copied artifacts hash-verified.
+**User intent / next action:** Will wants complete context, not repeated thesis reversals. Resume discussion from observed broad KRE strength, technology weakness and uneven bank fundamentals; distinguish observations from rate-relief/rotation hypotheses. KRE's relative price strength is real but not proof of credit improvement. No fresh research commission or trade approval; wait for direction and refresh dated prices before citing them as current.
+**Continuity:** original working-session limits and PARTIAL boot residue carry via [recovery receipt](reports/2026-11-02_codex-recovery-status.md) and [earlier WAL checkpoint](reports/2026-11-02_wal-rally-checkpoint.md). No agents spawned in this KRE segment; native list at checkpoint shows only root. Will's separate WAL/Kimi session is independently owned; its current liveness is UNKNOWN, not inferred from files.
+**Pending / lifecycle:** inbox census has 15 top-level arrivals, unconsumed at this checkpoint; re-census/read at resume. REGINALD and other desks have foreign dirty files; untouched, do not sweep. Bounce preservation only, not full closeout or ARGUS-baseline advancement; original boot/review/process allowances do not reset. KRE collection and review are locally committed; checkpoint delivery uses verified safe-push, whose receipt determines remote durability.
 
 **Codex recovery November 2, 10:14 EST:** [recovery receipt](reports/2026-11-02_codex-recovery-status.md) supersedes the checkpoint's live-session and unanswered-approval descriptions. It records WQ-590/591, native-confirmed interrupted ISHM/TERRY tasks, the newly published Friday credit observation, and the PARTIAL boot residue. Original session obligations and allowances remain carried; this status return is not actual closeout.
 

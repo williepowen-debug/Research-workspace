@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Current state: RESTART CHECKPOINT 2026-11-02, Codex continuation — resume with “pick up PROME” → [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). The latest entry preserves the WAL rally thread and current owner/delivery boundaries; original allowances and PARTIAL state carry forward.** Last actual closeout remains the prior laptop session recorded below.
+**Current state: RESTART CHECKPOINT 2026-11-02, Codex continuation — resume with “pick up PROME” → [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). The latest entry preserves the KRE study collection under REGINALD, discussion context and current owner/delivery boundaries; original allowances and PARTIAL state carry forward.** Last actual closeout remains the prior laptop session recorded below.
 
 **Resume:** (1) [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) and the [October 31 account](../memory/2026-10-31.md); (2) DOCKET/GATES/WILL_QUEUE for obligations and `PROME/tools/inbox_census.py PROME` before any launch; (3) [research-first briefing instruction](proposals/2026-10-25_research-first-briefing-RULED.md), installed at BOOT step 8; (4) [delivery contract](tools/ARGUS_CONTRACT.md). The 10/25 three-desk sweep, its four file corrections and its evening inbox disposition are history at [its report](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will) and [that closeout](reports/2026-10-25_evening-closeout.md). Dated sections below are historical continuity.
 
