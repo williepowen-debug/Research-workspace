@@ -3,7 +3,7 @@
 **Status:** 🟡 Large banks: deposit-cost repricing industry-wide, stress only at PNC CRE; cyber wave has no large-bank consequence
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
 **Recent thesis pivot:** cyber consequence ungraded → NOT OBSERVED at the 16 (2026-10-31) — CYPHER's first fired row (PHP2Shell KEV, 10/26) graded against SEC filings and CYPHER's 10/29 re-check; the Q1/Q2 read is unchanged since 10/21
-**As of:** 2026-10-31 13:56 ET | STATUS commit: `ef17418b5`
+**As of:** 2026-11-02 11:16 ET | STATUS commit: `82963b052`
 
 ---
 
