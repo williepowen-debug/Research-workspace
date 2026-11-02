@@ -1,14 +1,14 @@
 # FLG — NEXUS Brief
 
-**Status:** 🔴 v1.0.3 — FLG's $2.8B non-accrual book carries a 5.8% specific reserve and exits only through an outside refinance market
+**Status:** 🔴 v1.0.4 — FLG's $2.8B non-accrual book carries a 5.8% specific reserve and exits only through an outside refinance market
 
 **Domain:** Flagstar Bank, N.A. (one entity since 10/2025) — NYC rent-regulated multi-family → CRE concentration → non-accrual formation → reserve adequacy → capital. Single name; cohort view = REGINALD.
 
-**Thesis version:** v1.0.3 (`THESIS.md`)
+**Thesis version:** v1.0.4 (`THESIS.md`)
 
-**Recent thesis pivot:** v1.0 → v1.0.3 (10/22) — corrections only. Most recent material view shift: concentration read as deterioration → **level-high, trajectory de-risking** (8/20). The live signal is the reserve and the exit channel, not the 327.5% ratio.
+**Recent change:** v1.0.4 (11/02) — freshness corrections only, direction unchanged. Most recent material view shift: concentration read as deterioration → **level-high, trajectory de-risking** (8/20). The live signal is the reserve and the exit channel, not the 322.11% ratio.
 
-**As of:** 2026-11-01 23:3x ET | STATUS commit: `33500007c` — event-driven desk; this brief stands until the next print or owner session.
+**As of:** 2026-11-02 11:26 ET | STATUS commit: `09f581d7c` — event-driven desk; this brief stands until the next print or owner session.
 
 ---
 
@@ -67,5 +67,4 @@
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
 | 🔴 ~Nov 6–9 | Q3 10-Q (see NEXT DECISION) | FLG-02, FLG-03; roll-forward formation vs outflow; FDM subsequent defaults (T-13, deadline Nov 13) |
-| 🟠 ~Nov 14 | Q3 Call Report | SR 07-1 vs 300%; ≥10pp coverage move or 300% cross → REGINALD + PROME 🔴 |
 | 🟡 by Dec 31 | Rent-freeze merits ruling (T-12) | Vacatur = mechanism input reverses |
