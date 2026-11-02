@@ -1,0 +1,16 @@
+[
+  {
+    "path": "AGENTS/DAEDALUS/runs/2026-11-02_L911_VIEW_BEFORE.md",
+    "bytes": 29494,
+    "lines": 267,
+    "crc32": 3631878821,
+    "crc32_no_final_nl": 2018709380
+  },
+  {
+    "path": "AGENTS/DAEDALUS/runs/2026-11-02_L911_VIEW_AFTER.md",
+    "bytes": 19176,
+    "lines": 177,
+    "crc32": 1149788215,
+    "crc32_no_final_nl": 2200384576
+  }
+]

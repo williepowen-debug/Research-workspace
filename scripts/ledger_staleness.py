@@ -1062,7 +1062,7 @@ def nudge(agent_dir, name):
             return f"{os.path.basename(l)} ({'; '.join(bits)})"
         items = ", ".join(_item(wb, l, note) for wb, l, note in behind)
         print(f"⚠️  nudge: [{name}] STATUS moving without ledgers — {len(behind)} ledger(s) behind: "
-              f"{items} — freeze-or-refresh EACH, or say why not in the commit")
+              f"{items} — refresh or freeze ledgers whose data changed; no explanation needed when nothing substantive changed")
         rc = 1
     for wb, l, nd in sorted(sched_quiet, key=lambda t: t[0], reverse=True):
         print(f"ℹ️  nudge: [{name}] scheduled: {os.path.basename(l)} ({wb} STATUS-write"

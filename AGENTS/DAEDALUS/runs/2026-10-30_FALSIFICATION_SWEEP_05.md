@@ -33,3 +33,5 @@
 
 ## Dispositions
 Packet-only, one consolidated packet per desk, both legs' asks in one file: WATT · HANS · LIQUID · CORAL · SHADE · MIDAS · YURI · CRUISE · BROCK · CARL · VULCAN · FALCON · FERT · AEOLUS · VIOLET · REGINALD (`AGENTS/<X>/inbox/2026-10-30_from-DAEDALUS_falsification-5.md`). No falsification surface edited. Scope complete (scanner + flags + buckets + negative-resolution + self-inclusion), so the registry clock advances.
+
+> **FOLLOW-THROUGH 2026-11-02:** November 2 owner follow-through: AEOLUS C4 CANNOT-FIRE label, YURI F01 MISS/F02 registration and FERT plateau-note correction VERIFIED at named owner artifacts. REGINALD rename/registry work remains deferred to November 7. Source/kill-rail policy unchanged; original run counts are historical. Detail runs/2026-11-02_INBOX_DISPOSITIONS.md.

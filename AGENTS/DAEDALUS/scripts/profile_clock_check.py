@@ -19,6 +19,7 @@ import re
 from pathlib import Path
 
 PROFILES = Path(__file__).resolve().parent.parent / 'profiles'
+OWNERS = PROFILES.parent.parent
 DATE = r'20\d\d-\d\d-\d\d'
 AUTHOR = re.compile(r'^(?:Built(?: by)?|Body(?: date| vintage)?|Profile vintage|Date)\s*:', re.I)
 VINTAGE = re.compile(
@@ -104,7 +105,45 @@ def clock_of(text: str) -> tuple[int | None, dt.date | None, bool]:
         raise ValueError('unparseable floor declaration')
     if re.search(r'\b(?:day|refresh) clock\b', hay, re.I) and not days and not floors:
         raise ValueError('unparseable day clock declaration')
-    return min(days) if days else None, min(floors) if floors else None, bool(RELATIVE.search(hay))
+    relative = bool(RELATIVE.search(hay))
+    if relative and len(days) != 1:
+        raise ValueError('ambiguous STATUS-relative day predicates; exactly one supported day clause is required')
+    return min(days) if days else None, min(floors) if floors else None, relative
+
+
+def owner_stamp(path: Path, vintage: dt.date, as_of: dt.date) -> dt.date:
+    """Read named date declarations in the owner's header, never body/history."""
+    dates = []
+    lines = path.read_text(encoding='utf-8').splitlines()
+    seen_nonblank = False
+    for i, raw in enumerate(lines):
+        if not raw.strip():
+            continue
+        heading = re.match(r'^\s*(#{1,6})\s', raw)
+        if heading:
+            if not seen_nonblank and len(heading[1]) == 1:
+                seen_nonblank = True  # one initial document title is not content
+                continue
+            break
+        if re.match(r'^\s*(?:`{3,}|~{3,})', raw):
+            break  # examples/fenced history are never owner metadata
+        if i + 1 < len(lines) and re.fullmatch(r'\s*(?:=+|-+)\s*', lines[i + 1]):
+            break  # conservative Setext/horizontal-rule content boundary
+        seen_nonblank = True
+        line = re.sub(r'[*`]', '', raw).strip()
+        field = re.match(r'^(?:Last owner update|Last Updated|As[ -]of)\s*:\s*(.*)$', line, re.I)
+        if not field:
+            continue
+        match = re.match(rf'({DATE})\b', field[1])
+        if not match:
+            raise ValueError(f'{path}: malformed named owner stamp')
+        dates.append(dt.date.fromisoformat(match[1]))
+    if len(set(dates)) != 1:
+        raise ValueError(f'{path}: owner header requires one distinct named stamp (found {len(set(dates))})')
+    stamp = dates[0]
+    if stamp > as_of or stamp < vintage:
+        raise ValueError(f'{path}: owner stamp {stamp} outside body {vintage}..as-of {as_of}')
+    return stamp
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -112,6 +151,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument('--quiet', action='store_true')
     parser.add_argument('--as-of', type=dt.date.fromisoformat, default=dt.date.today())
     parser.add_argument('--profiles', type=Path, default=PROFILES)
+    parser.add_argument('--owners-root', type=Path, default=OWNERS,
+                        help='desk directories containing named STATUS.md headers (default repository AGENTS)')
     args = parser.parse_args(argv)
     if not args.profiles.is_dir():
         print(f'PROFILE-CLOCK 2 CANNOT-EVALUATE: {args.profiles} missing'); return 2
@@ -132,12 +173,19 @@ def main(argv: list[str] | None = None) -> int:
             if age < 0:
                 raise ValueError(f'declared body vintage {vintage} is after as-of {args.as_of}')
             info = f'{path.stem}: body {vintage}, age {age}d [{basis}]'
+            day_age = age
             if relative:
-                raise ValueError(f'{info}; STATUS-stamp-relative >{days}d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger')
+                try:
+                    source = args.owners_root / path.stem / 'STATUS.md'
+                    stamp = owner_stamp(source, vintage, args.as_of)
+                except (OSError, UnicodeError, ValueError) as exc:
+                    raise ValueError(f'{info}; STATUS-stamp-relative >{days}d cannot evaluate: {exc}') from exc
+                day_age = (stamp - vintage).days
+                info = f'{path.stem}: body {vintage}, owner stamp {stamp}, lead {day_age}d [{source}; {basis}]'
             if days is None and floor is None:
                 undated.append(info); continue
             hit = []
-            if days is not None and age > days: hit.append(f'{age}d > {days}d')
+            if days is not None and day_age > days: hit.append(f'{day_age}d > {days}d')
             if floor is not None and args.as_of > floor: hit.append(f'floor {floor} passed')
             (fired if hit else ok).append(info + '; ' + (', '.join(hit) if hit else f'inside declared window (days={days}, floor={floor})'))
         except (OSError, UnicodeError, ValueError) as exc:
@@ -147,7 +195,7 @@ def main(argv: list[str] | None = None) -> int:
     print(f'PROFILE-CLOCK perimeter as-of {args.as_of}: {len(paths)} profile(s) attempted (includes retired); '
           f'{len(fired)+len(ok)} dated clocks evaluated; {len(undated)} NO-DATED-CLOCK; {len(cannot)} CANNOT-EVALUATE')
     print('Excluded non-profile filenames: ' + (', '.join(p.name for p in excluded) or 'none'))
-    print('NOT certified: content/event triggers, owner STATUS-relative clocks, or truth of declared refresh work. No git-date fallback.')
+    print('NOT certified: content/event triggers, unsupported/ambiguous owner-relative predicates, or truth of declared refresh work. Supported owner STATUS-relative clocks use named header dates; no git-date or wall-clock fallback.')
     for line in undated: print('NO-DATED-CLOCK (agent-judged): ' + line)
     if fired:
         print(f'PROFILE-CLOCK 1: {len(fired)} PAST own day clock — DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0')

@@ -1,0 +1,37 @@
+PROFILE-CLOCK perimeter as-of 2026-11-02: 38 profile(s) attempted (includes retired); 31 dated clocks evaluated; 5 NO-DATED-CLOCK; 2 CANNOT-EVALUATE
+Excluded non-profile filenames: NEXUS_REFRESH_2026-09-03_READER_REPORT.md, PROME_REFRESH_2026-09-03_READER_REPORT.md, RED_REFRESH_2026-09-03_READER_REPORT.md, REFRESH_2026-09-17_READER_P1_BOND_BROCK.md, REFRESH_2026-09-17_READER_P2_CARL_LIQUID.md, REFRESH_2026-09-17_READER_P3_SAM_SHADE.md, REFRESH_2026-09-17_VERIFY_P1_BOND_BROCK.md, REFRESH_2026-09-17_VERIFY_P2_CARL_LIQUID.md, REFRESH_2026-09-17_VERIFY_P3_SAM_SHADE.md, VIOLET_REFRESH_2026-09-04_READER_A.md, VIOLET_REFRESH_2026-09-04_READER_B.md, VIOLET_REFRESH_2026-09-04_READER_C.md, VIOLET_REFRESH_2026-09-04_READER_D.md, VULCAN_REFRESH_2026-10-08_READER_V1.md, VULCAN_REFRESH_2026-10-08_READER_V2.md, VULCAN_REFRESH_2026-10-08_READER_V3.md, _TEMPLATE.md
+NOT certified: content/event triggers, owner STATUS-relative clocks, or truth of declared refresh work. No git-date fallback.
+NO-DATED-CLOCK (agent-judged): DEWEY: body 2026-08-07, age 87d [Built: 2026-08-07]
+NO-DATED-CLOCK (agent-judged): HAWK: body 2026-10-22, age 11d [Profile vintage: 2026-10-22]
+NO-DATED-CLOCK (agent-judged): HOMER: body 2026-10-28, age 5d [Profile vintage: 2026-10-28]
+NO-DATED-CLOCK (agent-judged): WAL: body 2026-10-30, age 3d [Profile vintage: 2026-10-30]
+NO-DATED-CLOCK (agent-judged): WALTER: body 2026-08-26, age 68d [Date: 2026-08-26]
+PROFILE-CLOCK 1: 25 PAST own day clock — DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0
+  ALERT BOND: body 2026-09-17, age 46d [Profile vintage: 2026-09-17]; 46d > 45d
+  ALERT BRENT: body 2026-09-07, age 56d [FULL REFRESH: 2026-09-07]; 56d > 45d
+  ALERT CARL: body 2026-09-17, age 46d [Profile vintage: 2026-09-17]; 46d > 45d
+  ALERT CORAL: body 2026-09-05, age 58d [Body refreshed 2026-09-05]; 58d > 30d
+  ALERT CRUISE: body 2026-09-05, age 58d [Date: 2026-09-05]; 58d > 21d
+  ALERT FERT: body 2026-09-05, age 58d [Date: 2026-09-05]; 58d > 21d
+  ALERT FLG: body 2026-09-05, age 58d [Date: 2026-09-05]; 58d > 21d
+  ALERT HANS: body 2026-09-05, age 58d [Body date: 2026-09-05]; 58d > 45d
+  ALERT LABOR: body 2026-09-07, age 56d [REFRESHED (parity assessment, 3-reader fan-out + artifact re-verification): 2026-09-07]; 56d > 30d
+  ALERT LIQUID: body 2026-09-17, age 46d [Profile vintage: 2026-09-17]; 46d > 30d
+  ALERT MARCO: body 2026-09-05, age 58d [Body refreshed 2026-09-05]; 58d > 45d
+  ALERT MIDAS: body 2026-09-05, age 58d [Date: 2026-09-05]; 58d > 21d
+  ALERT NEXUS: body 2026-09-03, age 60d [Body vintage: 2026-09-03]; 60d > 21d
+  ALERT ORACLE: body 2026-09-05, age 58d [Body date: 2026-09-05]; 58d > 45d
+  ALERT OTTO: body 2026-09-05, age 58d [Profile vintage: 2026-09-05]; 58d > 45d
+  ALERT OZK: body 2026-09-05, age 58d [Body refreshed 2026-09-05]; 58d > 21d
+  ALERT PROME: body 2026-09-03, age 60d [Body vintage: 2026-09-03]; 60d > 21d
+  ALERT RED: body 2026-09-03, age 60d [Body vintage: 2026-09-03]; 60d > 21d
+  ALERT SAM: body 2026-09-17, age 46d [Profile vintage: 2026-09-17]; 46d > 45d, floor 2026-11-01 passed
+  ALERT SHADE: body 2026-09-17, age 46d [Profile vintage: 2026-09-17]; 46d > 45d, floor 2026-11-01 passed
+  ALERT TERRY: body 2026-09-05, age 58d [Body refreshed 2026-09-05]; 58d > 21d
+  ALERT VIOLET: body 2026-09-04, age 59d [Body vintage: 2026-09-04]; 59d > 21d
+  ALERT VULCAN: body 2026-10-08, age 25d [Body vintage: 2026-10-08]; 25d > 21d
+  ALERT WATT: body 2026-09-05, age 58d [Body refreshed 2026-09-05]; 58d > 21d
+  ALERT YEYOU: body 2026-09-05, age 58d [Body date: 2026-09-05]; 58d > 45d
+PROFILE-CLOCK 2 CANNOT-EVALUATE — DAEDALUS: verify metadata or compare named owner stamp before certifying
+  HENRY: HENRY: body 2026-08-07, age 87d [FULLY REWRITTEN: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger
+  OSPREY: OSPREY: body 2026-08-07, age 87d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger

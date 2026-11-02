@@ -17,7 +17,7 @@ USAGE
       # rc 0 appended · 2 refused (nothing written). Omit a typed flag to record EMPTY (= UNKNOWN).
       # L733 (2026-10-20): REFUSES when the ledger holds rows the current view does not count (rows entered without this
       # writer) unless --acknowledge-unobserved K names exactly that delta (echoed into notes); refuses a view ahead of the ledger.
-  python3 scripts/orch_log.py view [--window-days 30]   # regenerate PROME/state/ORCH_INFLIGHT.md (L262 (a)); `append` does this as its LAST step
+  python3 scripts/orch_log.py view [--window-days 30] [--inflight-days 7]  # cadence window and independent open-row detail horizon
   python3 scripts/orch_log.py rotate --through YYYY-MM  # L262 (c): move rows dated <= YYYY-MM (not IN-FLIGHT) to PROME/archive/ORCH_LOG_<run-month>.tsv
       # under the writer lock; REFUSES (rc 2, nothing written) on: any IN-FLIGHT candidate · a hot or archive file that
       # fails `check` before or after · broken row conservation · a --through month not strictly before the run month.
@@ -31,7 +31,10 @@ projection — `date · desk · tier · touch · drained · delivered[:40] · in
 on the same date without an intervening numbering restart;
 asks and time corrections never close work; the view reports the omitted count), and (ii) each desk's LAST `drained>0` touch inside `--window-days` (the rule-6b/leg-3b window is a
 DECLARED soak parameter, not a canon constant, so the header prints the window used and names the desks with no such touch
-inside it — nothing is hidden by the default). One writer, one lock ⇒ the view cannot drift from the ledger (PAT-113).
+inside it). Unresolved touches older than --inflight-days (default 7) remain OPEN in counts by base desk,
+with exact-identity count and oldest/newest dates. This is presentation only: the ledger retains every row,
+closure pairing remains exact-identity based, and age proves neither closure nor liveness (L911).
+One writer, one lock ⇒ the view cannot drift from the ledger (PAT-113).
 (c) ROTATION writes the archive FIRST, then the hot file; if the second replace fails the archive holds an extra copy, which the
 scorecard consumer half de-duplicates on (date, desk, touch) and REPORTS — never a silent loss, never a silent double count.
 """
@@ -46,6 +49,7 @@ VIEW = os.path.join(ROOT, "PROME", "state", "ORCH_INFLIGHT.md")
 ARCHIVE_DIR = os.path.join(ROOT, "PROME", "archive")
 VIEW_COLS = ["date", "desk", "tier", "touch", "drained", "delivered", "inbox_before", "inbox_after"]
 DEFAULT_WINDOW_DAYS = 30
+DEFAULT_INFLIGHT_DAYS = 7
 COLS = ["date", "desk", "tier", "touch", "trigger", "drained", "delivered", "zero_capital", "notes",
         "brief_defects", "inbox_before", "inbox_after", "brief_defect_count"]
 TYPED = {"drained", "inbox_before", "inbox_after", "brief_defect_count"}
@@ -176,7 +180,8 @@ def _view_count(view_path, path):
     return "ok", int(m.group(2))
 
 
-def append(args, path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, _after_open=None):
+def append(args, path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, _after_open=None,
+           inflight_days=DEFAULT_INFLIGHT_DAYS):
     """Validate the new row and the existing ledger, then ONE O_APPEND write under an exclusive lock.
     (First cut used a fixed .tmp + os.replace: atomic in visibility, not safe against two concurrent
     appenders — Codex 9/3. A single small O_APPEND write is atomic per POSIX; the flock makes the
@@ -228,7 +233,7 @@ def append(args, path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, _
             if len(rows_after) != len(rows) + 1:
                 print(f"ORCH-LOG ✗ rc 2 — row written but `check` now counts {len(rows_after)} rows, not {len(rows) + 1}: the row is not visible to the instruments; view NOT regenerated"); return 2
             # L262 (a): the view is regenerated HERE, under the same lock, as the last step — one writer, no drift.
-            vrc = write_view(path, view_path, window_days, quiet=True)
+            vrc = write_view(path, view_path, window_days, quiet=True, inflight_days=inflight_days)
         finally:
             fcntl.flock(fh, fcntl.LOCK_UN)
     print(f"ORCH-LOG ✓ appended 1 row ({fields[0]} {fields[1]} touch {fields[3]}, {event_type(fields)}) — ledger validates after the write"
@@ -357,14 +362,21 @@ def _closed_inflight(rows):
     return set(_inflight_closure_pairs(rows))
 
 
-def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER):
+def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER,
+                inflight_days=DEFAULT_INFLIGHT_DAYS):
     """Typed-only projection (L262 (a)). `rows` = validated 13-field rows."""
     today = today or datetime.date.today()
     cutoff = (today - datetime.timedelta(days=window_days)).isoformat()
+    detail_cutoff = (today - datetime.timedelta(days=inflight_days)).isoformat()
     closed = _inflight_closure_pairs(rows)
     explicit = sum(method == "explicit" for method, _ in closed.values())
     legacy = len(closed) - explicit
     inflight = [r for i, r in enumerate(rows) if event_type(r) == "TOUCH" and _is_inflight(r) and i not in closed]
+    recent = [r for r in inflight if r[0] >= detail_cutoff]
+    older = collections.defaultdict(list)
+    for r in inflight:
+        if r[0] < detail_cutoff:
+            older[r[1].split(" (", 1)[0].strip() or r[1]].append(r)
     last = {}
     for r in rows:
         if event_type(r) != "TOUCH":
@@ -379,12 +391,19 @@ def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER
         v = (r[i] or "").replace("|", "¦").strip()
         return v[:40] if i == 6 else v
     out = ["# ORCH_INFLIGHT — GENERATED in-flight view of `PROME/state/ORCH_LOG.tsv` (DOCKET L262 (a), PROME-ruled 2026-09-04). DO NOT EDIT — regenerated by `scripts/orch_log.py append` (last step, under the writer lock) or `scripts/orch_log.py view`.",
-           f"# generated {today.isoformat()} · source {os.path.relpath(source, ROOT)} ({len(rows)} data rows) · window {window_days}d (cutoff {cutoff}; a DECLARED soak parameter — pass --window-days to change; nothing below is hidden by it, see the last line) · typed columns only; `delivered` truncated to 40 chars.",
+           f"# generated {today.isoformat()} · source {os.path.relpath(source, ROOT)} ({len(rows)} data rows) · window {window_days}d (cadence cutoff {cutoff}; --window-days) · IN-FLIGHT detail {inflight_days}d (cutoff {detail_cutoff}; --inflight-days); older open rows grouped below, never closed by age · typed columns only; `delivered` truncated to 40 chars.",
            "",
            f"## IN-FLIGHT rows ({len(inflight)}) — an open PROME touch: neither live nor dark; never doorbell one (WALTER 9b). Corroborate with ListAgents + write recency; IN-FLIGHT lags a death indefinitely.",
+           "", f"Detailed {len(recent)} recent row(s); grouped {len(inflight) - len(recent)} older OPEN row(s) under {len(older)} base desk name(s). Full exact identities and touches remain in the source ledger. Grouping is presentation only, not a receipt or liveness finding.",
            "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
-    for r in sorted(inflight, key=lambda r: (r[0], r[1])):
+    for r in sorted(recent, key=lambda r: (r[0], r[1])):
         out.append("| " + " | ".join(cell(r, COLS.index(c)) for c in VIEW_COLS) + " |")
+    out += ["", "### Older OPEN touches — unresolved; age proves neither closure nor liveness",
+            "", "| Base desk | Open touches | Exact identities | Oldest | Newest |",
+            "|---|---|---|---|---|"]
+    for base, group in sorted(older.items()):
+        dates = [r[0] for r in group]
+        out.append(f"| {base.replace('|', '¦')} | {len(group)} | {len({r[1] for r in group})} | {min(dates)} | {max(dates)} |")
     out += ["", f"Omitted {len(closed)} IN-FLIGHT row(s) ({explicit} explicit resolves links · {legacy} legacy: highest lower-numbered same-desk IN-FLIGHT touch, unique among same-desk same-date touches at that number, no numbering restart between them); closers end in -RECEIPT or equal CLOSE; asks, time corrections and pending receipts never close work."]
     out += ["", f"## Last `drained>0` touch per desk inside the window ({len(last)} desks) — the leg-3b cadence input (a zero-drain touch never resets a desk's clock)",
             "", "| " + " | ".join(VIEW_COLS) + " |", "|" + "---|" * len(VIEW_COLS)]
@@ -402,12 +421,13 @@ def render_view(rows, window_days=DEFAULT_WINDOW_DAYS, today=None, source=LEDGER
     return "\n".join(out)
 
 
-def write_view(path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, today=None, quiet=False):
+def write_view(path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, today=None, quiet=False,
+               inflight_days=DEFAULT_INFLIGHT_DAYS):
     """Regenerate the view from a ledger that validates. rc 0 · 2 (ledger invalid or write failed; view untouched)."""
     rc, rows = check(path, quiet=True)
     if rc:
         print(f"ORCH-LOG ✗ rc 2 — VIEW NOT REGENERATED: {os.path.relpath(path, ROOT)} does not validate"); return 2
-    text = render_view(rows, window_days, today, path)
+    text = render_view(rows, window_days, today, path, inflight_days)
     try:
         tmp = view_path + ".tmp"
         with open(tmp, "w", encoding="utf-8") as fh:
@@ -421,7 +441,8 @@ def write_view(path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, tod
     return 0
 
 
-def guarded_view(path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, acknowledge_unobserved=None):
+def guarded_view(path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, acknowledge_unobserved=None,
+                 inflight_days=DEFAULT_INFLIGHT_DAYS):
     """L736: public view cannot erase an unexplained count change. Internal writers use write_view."""
     if acknowledge_unobserved not in (None, 0):
         print("ORCH-LOG rc 2 — view REFUSED: acknowledgment belongs to append, not view; nothing written")
@@ -449,12 +470,13 @@ def guarded_view(path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, a
                 return 2
             if state == "missing":
                 print("ORCH-LOG first use: no view baseline exists; rendering does not establish writer provenance")
-            return write_view(path, view_path, window_days)
+            return write_view(path, view_path, window_days, inflight_days=inflight_days)
         finally:
             fcntl.flock(fh, fcntl.LOCK_UN)
 
 
-def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, _drop_one_for_test=False):
+def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS, _drop_one_for_test=False,
+           inflight_days=DEFAULT_INFLIGHT_DAYS):
     """L262 (c). Move data rows dated <= `through` (YYYY-MM) that are NOT IN-FLIGHT to
     <archive_dir>/ORCH_LOG_<run-month>.tsv, byte-exact, under the writer lock. Every refusal is rc 2 with NOTHING written."""
     today = today or datetime.date.today()
@@ -540,7 +562,7 @@ def rotate(through, path=LEDGER, archive_dir=ARCHIVE_DIR, today=None, view_path=
             print(f"ORCH-LOG ✓ rotated {len(move)} row(s) dated <= {through} → {os.path.relpath(arc, ROOT)} (crc32 {crc}); hot {len(rows_before)} → {len(hot_rows_after)} rows; conservation {len(rows_before)} == {len(hot_rows_after)} + {len(move)} ✓")
             # L733 CE3: regenerate the view BEFORE releasing the locks (old inode and new), so no appender sees the new ledger with the old view.
             try:
-                return write_view(path, view_path, window_days, today)
+                return write_view(path, view_path, window_days, today, inflight_days=inflight_days)
             finally:
                 fcntl.flock(newfh, fcntl.LOCK_UN); newfh.close()
         finally:
@@ -590,16 +612,16 @@ def selftest():
                              + r("2026-09-28", "MIDAS", "1", "0", "OK") + "\n" + r("2026-09-29", "BOND", "2", "4", "OK") + "\n"
                              + "\t".join(["2026-09-30", "PROME", "session", "CLOSE", "t", "0", "d", "OK", "n", "", "", "", ""]) + "\n")
         rc = write_view(hot, vp, 30, T, quiet=True); v = open(vp).read()
-        drill("view: IN-FLIGHT row listed; drained>0 row inside 30d listed as cadence row", rc == 0 and "| 2026-09-20 | HOMER |" in v and "| 2026-09-29 | BOND |" in v)
+        drill("view: older IN-FLIGHT row remains OPEN in grouped counts; cadence row stays detailed", rc == 0 and "| HOMER | 1 | 1 | 2026-09-20 | 2026-09-20 |" in v and "| 2026-09-29 | BOND |" in v)
         drill("view: zero-drain touch is NOT a cadence row; desk named in the no-touch line; CLOSE row never listed",
               "| 2026-09-28 | MIDAS |" not in v and "MIDAS" in v.split("NO `drained>0` touch")[1] and "| 2026-09-30 | PROME |" not in v)
         drill("view: drained>0 touch OLDER than the window is not a cadence row (SAM 8/23 vs 30d)", "| 2026-08-23 | SAM |" not in v and "SAM" in v.split("NO `drained>0` touch")[1])
         cur = open(hot).read(); open(hot, "w").write(cur.replace("IN-FLIGHT", "consumed 9/21"))   # read FIRST: open(...,"w") truncates before an inline read runs
         write_view(hot, vp, 30, T, quiet=True); v2 = open(vp).read()
-        drill("view: consuming the IN-FLIGHT row (cell edited) removes it at the next regeneration", "| 2026-09-20 | HOMER |" not in v2)
+        drill("view: consuming the IN-FLIGHT row (fixture cell edited) removes its grouped OPEN count", "| HOMER | 1 |" not in v2 and "## IN-FLIGHT rows (0)" in v2)
         ns2 = argparse.Namespace(**{c: "" for c in COLS}); ns2.date = "2026-10-01"; ns2.desk = "ZHAO"; ns2.tier = "subagent"; ns2.touch = "1"; ns2.delivered = "IN-FLIGHT"
         before = open(vp).read(); rc = append(ns2, hot, view_path=vp)
-        drill("append regenerates the view as its last step (new IN-FLIGHT row visible without a separate `view` call)", rc == 0 and open(vp).read() != before and "| 2026-10-01 | ZHAO |" in open(vp).read())
+        drill("append regenerates the view as its last step (new IN-FLIGHT debt visible, detailed or grouped)", rc == 0 and open(vp).read() != before and "## IN-FLIGHT rows (1)" in open(vp).read() and "ZHAO" in open(vp).read().split("Omitted", 1)[0])
         # rotate — refusal paths first, each proving NOTHING was written
         snap = open(hot).read()
         open(hot, "w").write(snap.replace("consumed 9/21", "IN-FLIGHT")); snap_if = open(hot).read()
@@ -668,6 +690,8 @@ def main():
     ap.add_argument("--ledger", default=LEDGER)
     ap.add_argument("--view-path", default=VIEW)
     ap.add_argument("--window-days", type=int, default=DEFAULT_WINDOW_DAYS)
+    ap.add_argument("--inflight-days", type=int, default=DEFAULT_INFLIGHT_DAYS,
+                    help="detail horizon for unresolved touches; older touches stay OPEN in grouped counts (default 7)")
     ap.add_argument("--through", default="", help="rotate: YYYY-MM (rows dated <= this month move); must be before the run month")
     ap.add_argument("--archive-dir", default=ARCHIVE_DIR)
     for c in COLS:
@@ -675,16 +699,18 @@ def main():
     ap.add_argument("--acknowledge-unobserved", type=int, default=None, dest="acknowledge_unobserved",
                     help="append: K rows were entered without this writer since the last view; K must equal the delta (echoed into notes)")
     a = ap.parse_args()
+    if a.inflight_days < 0 or a.window_days < 0:
+        ap.error("--inflight-days and --window-days must be non-negative")
     if a.selftest:
         return selftest()
     if a.mode == "check":
         return check(a.ledger)[0]
     if a.mode == "append":
-        return append(a, a.ledger, a.view_path, a.window_days)
+        return append(a, a.ledger, a.view_path, a.window_days, inflight_days=a.inflight_days)
     if a.mode == "view":
-        return guarded_view(a.ledger, a.view_path, a.window_days, a.acknowledge_unobserved)
+        return guarded_view(a.ledger, a.view_path, a.window_days, a.acknowledge_unobserved, a.inflight_days)
     if a.mode == "rotate":
-        return rotate(a.through, a.ledger, a.archive_dir, None, a.view_path, a.window_days)
+        return rotate(a.through, a.ledger, a.archive_dir, None, a.view_path, a.window_days, inflight_days=a.inflight_days)
     ap.print_help(); return 2
 
 

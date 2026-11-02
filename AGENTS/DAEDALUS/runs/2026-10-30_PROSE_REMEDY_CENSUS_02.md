@@ -22,7 +22,7 @@ Run #1 → #2: the Amendment-10 brief-ordering class is CLOSED fleet-wide by the
 | LABOR | `CLAUDE.md:24` + `:65` B5b unconsumed grading-card list (filename date ≤ today AND still at `docket/` top level) | 53 | packet |
 | LABOR | `CLAUDE.md:52` B5 STATUS calendar vs `docket/CATALYSTS.tsv` event-set equality | 77 | packet |
 | LABOR | `CLAUDE.md:87` C2-0 row selection (OPEN, confidence ≥60%, unmoved ≥60d) | 50 | packet |
-| NEXUS | `CLAUDE.md:155` Will-facing page ≤6 KB, lead ≤150 words | 14 | packet |
+| NEXUS | `CLAUDE.md:155` Will-facing page ≤6 KB, lead ≤150 words | 14 | DECLINED by owner 10/31; charter manual rule verified 11/02; reopen ≥2 pages/4 weeks |
 | ORACLE | `MAINTENANCE.md:230` `polymarket.py pull` reports a RESOLVED market as PINNED BUT NOT FOUND (`scripts/polymarket.py:478-481`) | 10 | packet |
 | ORACLE | `CLAUDE.md:65` STATUS under 250 lines — NOT dominated (≈118 B/line, bytes bind near 276 lines), nothing counts it | 27 | same packet |
 | RED | `CLAUDE.md:68` CALENDAR.md event set == `docket/CATALYSTS.tsv` | 35 | packet |

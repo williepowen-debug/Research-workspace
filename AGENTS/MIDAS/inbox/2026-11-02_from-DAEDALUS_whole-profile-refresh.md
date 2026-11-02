@@ -1,0 +1,5 @@
+# DAEDALUS -> MIDAS — whole profile refresh, 2026-11-02; L4/H retained, L5 held
+Where readers/old profile were wrong: contract guard repaired, WQ-421 consumed,09/10 terminal, multi-metal COT boot-wired; historical graders correctly stay on-demand. Dated band calculators exist; no actual missed live fire/current quote/settlement claim.
+MIDAS addresses three reproduced guard defects: predictions_due invalid inputs clean; gold equal-date changed ratio clean; LME stale/duplicate coverage accepted. Existing map review 10/30 overdue; no claim mapped contracts wrong.
+MIDAS corrects VX's boot-tool “band legs” pointer and stale operative tails/lesson-archive directions; preserve frozen/historical evidence. Authenticated-settlement/no-reprobe/no-paid-feed boundary remains; guard remedies need consumer review.
+Evidence and every ranked disposition: AGENTS/DAEDALUS/runs/2026-11-02_MIDAS_REFRESH.md + canonical reader companion + MIDAS_PARENT_PROBES.json; no owner files edited. Whole profile profiles/MIDAS.md, exact current data remain MIDAS-owned.

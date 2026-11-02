@@ -267,3 +267,5 @@ The NO-METRIC-SURFACE drop (56% → 42%) is mostly draw and pool: the treatment 
 10. **Size:** this record is over the 32,550 B read cap that binds boot-read surfaces; it is a run record, not boot-read. §0 is first so a truncating reader keeps the headline.
 11. **Stamps:** every section stamp is `date` output from the same command that appended the section. The SAMPLE file has no stamp column; its write time is the `date` printed by the draw command (12:29:00).
 
+
+> **FOLLOW-THROUGH 2026-11-02:** November 2 owner follow-through: AEOLUS C3 header pointer VERIFIED corrected; REGINALD 15.04 STALE VERIFIED among 14 named STALE rows. REGINALD second-ladder/frozen-feed items remain deferred to November 14. No census re-run or whole clock reset. Detail runs/2026-11-02_INBOX_DISPOSITIONS.md.

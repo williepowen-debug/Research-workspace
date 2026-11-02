@@ -20,7 +20,8 @@ def row(desk='OZK', touch='1-SPAWN', delivered='IN-FLIGHT', date='2026-10-21', d
 
 class ClosedRows(unittest.TestCase):
     def render(self, rows):
-        return orch.render_view(rows, today=DAY)
+        # These tests exercise exact closure visibility, independently of aging.
+        return orch.render_view(rows, today=DAY, inflight_days=10000)
 
     def inflight(self, text):
         return text.split('## Last `drained>0`', 1)[0]

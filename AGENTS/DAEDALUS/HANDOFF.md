@@ -1,21 +1,9 @@
 # DAEDALUS continuation — November 2, 2026
 
-Startup recovery only: see `runs/2026-11-02_STARTUP_RECOVERY.md` and current STATUS. Suggested next task is the existing L911 session-view repair, due 11/09; WQ-578 message repair also pending. Seven inbox packets remain for implementation/artifact-verification write-back. No sweeps or profile reviews executed at this boot. Prior continuation follows as dated context.
+Current result and limits: STATUS.md; consolidated evidence runs/2026-11-02_MAINTENANCE.md. Will authorized overdue/gap work after startup. Owned code fixes (L911/WQ-578/profile-clock), Gate Basis #3, PROME Spine #4, MIDAS accepted ninth whole profile and eight packet dispositions completed at stated depths. Publication/consumption receipts are recorded separately; no whole-fleet clearance.
 
-# DAEDALUS continuation — October 30, 2026 (evening)
+Next continuation: existing Production Review 11/04 (separate 12 delta profile cohort, §10 fourteen-fix proposals, owned tool residue/L889, HOMER independent read). Harness July 7 and profile-queue September 17 whole clocks stay held; remaining owner work at L817 and TERRY B44/D17 November 6, plus exact A-B01 counterpart read when delivered. No need to repeat completed MIDAS/gate/spine research. L263 draft review and L490 residuals November 6; YUR-F02 resolver November 28.
 
-**Current continuation:** FALCON (17:50) and REGINALD (16:55) whole profiles DONE 2026-10-30 (session 3; `runs/2026-10-30_FALCON_REFRESH.md`, `runs/2026-10-30_REGINALD_REFRESH.md`); `STATUS.md` owns the queue. Start the next session at STATUS § Current work: (1) MIDAS whole-profile refresh by 11/07 (template `runs/2026-10-30_FALCON_REFRESH.md`; prior to `profiles/_prior/`); (2) Gate Basis sweep (1d DUE at 10/30 boot); (3) owner replies to the 10/30 packets (REGINALD ×4, FALCON) and PROME's answers (FALCON READS, WQ-559, DOCKET convention); re-adjudicate BROCK and CREED L5 at their next check (both fixed their blockers 10/30); (4) L263 draft review; (5) Production Review 2026-11-04: §10 batch + BROCK/CREED/REGINALD/FALCON tool items (STATUS item 5), incl. the read_cap companion-shadowing change PROME's row remedy could not do; (6) any PROME packet on L526 AC4 after the Fri 20:15Z BRENT run.
+Routed current findings: LIQUID inclusive−15% pure-function failure; ORACLE historical December replay/calendar; CORAL/UNG GATES mirror; four PROME spine contradictions; MIDAS three guard defects/instrument pointers/map/tails. No canonical owner grades or thresholds changed. NEXUS8/15 question closed at existing disclosure; VLO precision suspicion refuted by WQ-420.
 
-**Recovery pointers:** this session's records are `runs/2026-10-30_*` (inbox dispositions, scorecard delivery, Prose-Remedy #2 + its reader files). L875 fix is in `scripts/corrections_boot_check.py` (TITLE_MARK_RE, selftest block "L875"). The 10/28 HANDOFF is in git at `46d830a92:AGENTS/DAEDALUS/HANDOFF.md`.
-
-## Carried, not lost
-
-- Wiring ⑰ #5 by 2026-11-20 under rulings (v) denominator, (vi) panel + HANS/HOMER stratum, (vii) stale-cell re-check (`sweeps/WIRING_SWEEP.md` § ⑰ RUN #4).
-- §10 fix batch (14 proposals, `runs/2026-10-30_CHECK_STANDARD_10_RETROACTIVE.md` §2) → Will at PR 11/04.
-- Falsification #5 done 10/30 (scanner STATUS-rail fix shipped). Owed: scanner label-set proposal (one blueprint label, never prose matching) → PR 11/04; replies from 16 desks.
-
-- Prose-Remedy run #3 (2026-11-20): make step-1 tokens case-insensitive and scope form 2 to step lines, each with a fleet before/after diff.
-- Owner replies owed to DAEDALUS: LABOR, NEXUS, ORACLE, RED (census #2 packets 10/30).
-- WQ-480, L757, surfaces candidate rows, HOMER profile independent read → Production Review 11/04.
-- `corrections_boot_check.py` clean acceptance case (HAWK) re-pick; two docstrings citing held history docs; STATE_VOCABULARY Class 14; CATO launcher files (L852 ⑦).
-- ⚠️ CORRECTED 10/30 13:0x: the gate's C7 "CLAUDE.md 76%" is the ROOT `CLAUDE.md` (24,634 B, boot-read by this desk), not DAEDALUS's charter (20,194 B = 62%). Root canon is PROME's and Will-gated: flagged to PROME, never rotated here. Earlier 10/30 STATUS/commit text called it "own charter" — wrong.
+Retained future scope and named owner dependencies stay on STATUS; reports/reader companions preserve not-read limits. No independent final MIDAS synthesis reader or universal current-source grade. Source/authenticated-settlement and no-reprobe/no-paid-feed limits survive.

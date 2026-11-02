@@ -1,0 +1,31 @@
+.........FF....F.
+======================================================================
+FAIL: test_owner_header_is_not_history_or_a_receipt (clocktests.ProfileClockTests.test_owner_header_is_not_history_or_a_receipt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/tests/test_profile_clock_check.py", line 116, in test_owner_header_is_not_history_or_a_receipt
+    self.assertEqual(rc,0); self.assertIn('owner stamp 2026-08-28',out)
+    ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0
+
+======================================================================
+FAIL: test_owner_relative_boundary_is_not_wall_age (clocktests.ProfileClockTests.test_owner_relative_boundary_is_not_wall_age)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/tests/test_profile_clock_check.py", line 108, in test_owner_relative_boundary_is_not_wall_age
+    self.assertEqual(rc,0); self.assertIn('lead 21d',out)
+    ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0
+
+======================================================================
+FAIL: test_relative_day_and_absolute_floor_are_independent (clocktests.ProfileClockTests.test_relative_day_and_absolute_floor_are_independent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/tests/test_profile_clock_check.py", line 128, in test_relative_day_and_absolute_floor_are_independent
+    self.assertNotIn('87d > 21d',out)
+AssertionError: '87d > 21d' unexpectedly found in 'PROFILE-CLOCK perimeter as-of 2026-11-02: 1 profile(s) attempted (includes retired); 1 dated clocks evaluated; 0 NO-DATED-CLOCK; 0 CANNOT-EVALUATE\nExcluded non-profile filenames: none\nNOT certified: content/event triggers, unsupported/ambiguous owner-relative predicates, or truth of declared refresh work. Supported owner STATUS-relative clocks use named header dates; no git-date or wall-clock fallback.\nPROFILE-CLOCK 1: 1 PAST own day clock — DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0\n  ALERT TEST: body 2026-08-07, owner stamp 2026-08-28, lead 87d [/tmp/tmp8piy43sv/owners/TEST/STATUS.md; Built: 2026-08-07]; 87d > 21d, floor 2026-10-31 passed\n'
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.040s
+
+FAILED (failures=3)

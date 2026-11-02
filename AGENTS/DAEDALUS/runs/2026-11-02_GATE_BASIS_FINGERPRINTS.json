@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-11-02T10:16:22.617305-05:00",
+  "files": {
+    "PROME/GATES.tsv": "b071cfd75a80e6548939cf7a0cfd39e313b88a97b422eb0e1dd9ad3c5b188023",
+    "AGENTS/LIQUID/scripts/gate069_legs.py": "921a5180b699dd59423abf4787adbacc1594da2dd1d884655069467824792eb6",
+    "AGENTS/CORAL/STATUS.md": "018732f6bcdbe5c15ba1c109b77d9b131c7325feeb5a4508fe6ade0cce638692",
+    "AGENTS/ORACLE/workbook/ODDS_LOG.tsv": "1fff2cb613f07bd977fa037ba66f5a6811bef8c944b47044adf6a804340fb161",
+    "AGENTS/ORACLE/analysis/2026-10-09_wq314b-v5-observation-and-reset-rules.md": "638d7a15455ef57cc2e2335f60c06873a2eea751729e0bea51f9125456f47c7b",
+    "AGENTS/TERRY/setups/UNG_jan15-10-12C_polar-vortex-break_2026-10-31.md": "9d3eb1aef35adb5883f534563caad04891e1192a0a18ed8ec12d10c22597221c",
+    "PROME/proposals/2026-10-11_wq418-420-RULED.md": "8d4c9d8b6951b5f6f026c40cfc45999dda79a929a0c45e5cf3d6faa5431b262a"
+  }
+}

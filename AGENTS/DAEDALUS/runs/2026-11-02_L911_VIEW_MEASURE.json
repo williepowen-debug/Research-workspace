@@ -1,0 +1,11 @@
+{
+  "source": "PROME/state/ORCH_LOG.tsv",
+  "source_sha256": "098b8bb5433db565548c062ecde902075107dbd549aed1eef974b2ddaaba1ebb",
+  "rows": 2035,
+  "as_of": "2026-11-02",
+  "before_bytes": 29494,
+  "after_bytes": 19176,
+  "closure_pairs": 138,
+  "cadence_suffix_identical": true,
+  "production_owner_files_written": false
+}
