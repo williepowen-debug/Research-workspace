@@ -1,0 +1,111 @@
+{
+  "source_sha256": "f1208d7b8a19c1320a1ffd810f5e8dd37eb54e0db31825053bdf8d2edf172f9c",
+  "basis": "Saved Yahoo adjusted prices; not independent vendor validation; 3666 rather than report 3708 rolling 63-session windows.",
+  "market_beta": {
+    "KRE": 0.32752894456397685,
+    "KBWB": 0.8249833160027388
+  },
+  "annualized_vol": {
+    "KRE": 0.15613483543138043,
+    "KBWB": 0.16424450499217613
+  },
+  "annualized_gap_vol": 0.12025190446791705,
+  "horizons": {
+    "21": {
+      "correlation": 0.6724739233025008,
+      "windows": 3708,
+      "percentile": 1.2135922330097086
+    },
+    "42": {
+      "correlation": 0.7078088845046446,
+      "windows": 3687,
+      "percentile": 1.2476267968538106
+    },
+    "63": {
+      "correlation": 0.7193380186146392,
+      "windows": 3666,
+      "percentile": 1.5275504637206765
+    },
+    "126": {
+      "correlation": 0.73046637156972,
+      "windows": 3603,
+      "percentile": 0.05550929780738274
+    }
+  },
+  "blocks": [
+    {
+      "start": "2026-02-02",
+      "end": "2026-03-03",
+      "correlation": 0.9331033872053521
+    },
+    {
+      "start": "2026-03-04",
+      "end": "2026-04-01",
+      "correlation": 0.9019382196637654
+    },
+    {
+      "start": "2026-04-02",
+      "end": "2026-05-01",
+      "correlation": 0.8715394753247602
+    },
+    {
+      "start": "2026-05-04",
+      "end": "2026-06-02",
+      "correlation": 0.8904538835774113
+    },
+    {
+      "start": "2026-06-03",
+      "end": "2026-07-02",
+      "correlation": 0.6772886376207573
+    },
+    {
+      "start": "2026-07-06",
+      "end": "2026-08-03",
+      "correlation": 0.6399802015786307
+    },
+    {
+      "start": "2026-08-04",
+      "end": "2026-09-01",
+      "correlation": 0.79349335874087
+    },
+    {
+      "start": "2026-09-02",
+      "end": "2026-10-01",
+      "correlation": 0.741909823576376
+    },
+    {
+      "start": "2026-10-02",
+      "end": "2026-10-30",
+      "correlation": 0.6724739233024983
+    }
+  ],
+  "SPY_partial": {
+    "current": 0.7276470457219395,
+    "median": 0.8749191936657654,
+    "percentile": 10.365521003818875,
+    "overlapping_windows": 3666
+  },
+  "trim10": {
+    "current": 0.8534993749753266,
+    "median": 0.9620773114501884,
+    "percentile": 1.1456628477905073,
+    "overlapping_windows": 3666
+  },
+  "persistence_check": {
+    "threshold": 0.863,
+    "conditioning_windows": 175,
+    "next_window_below": 1,
+    "fraction": 0.005714285714285714,
+    "median_next": 0.9085966411911202,
+    "warning": "Conditioning dates overlap heavily; 175 windows are not 175 independent episodes, and historical fraction is not a forecast probability."
+  },
+  "unverified": [
+    "Issuer NAV replication",
+    "KBE/QABA/IAT histories and constituent baskets",
+    "Bootstrap interval",
+    "Full 3708-window baseline",
+    "Original R2 error provenance",
+    "Exact contribution attributed to volatility",
+    "Proposed forward test; no monitoring instruction adopted"
+  ]
+}

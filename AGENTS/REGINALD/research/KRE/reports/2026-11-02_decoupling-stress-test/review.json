@@ -1,0 +1,53 @@
+{
+  "source": "/mnt/c/Users/willi/Downloads/REPORT (2).md",
+  "source_sha256": "0af57fe77f21b64fb8a4249780e7805484ba08642ab2106d14dc4fc6db40a99a",
+  "assessment": "Directly addresses CATO sensitivity request. Main numerical observations reproduced on the saved sample; narrative claims of cause, permanence and precise volatility attribution remain stronger than evidence.",
+  "verified": "See checks.json and check.py: top10 trim; 21/42/63/126 correlations; nine 21-session blocks; SPY betas; SPY partial correlation; annualized return/gap volatility; overlapping-window persistence check. Earlier identical-sample R2 correction remains confirmed.",
+  "limits": "Saved same-vendor data; historical coverage differs (3666 vs 3708 63-session windows). No report scripts, issuer NAV series or extended ETF/constituent panels supplied.",
+  "findings": [
+    {
+      "claim": "Low correlation precedes the September/October events",
+      "verdict": "SUPPORTED",
+      "detail": "June block 0.677 and July 0.640 reproduced. Persistence observed to October 30 does not establish future permanence."
+    },
+    {
+      "claim": "SPY control makes bank-pair relationship less unusual",
+      "verdict": "SUPPORTED_WITH_LIMITS",
+      "detail": "Current partial correlation 0.72765; matched historical median 0.87492 and percentile 10.37 on our shorter history, versus reported 11.1. Raw correlation only rises from 0.719 to 0.728; rarity changes because historical benchmark changes too. Not a causal allocation or proof that bank-specific differences vanish."
+    },
+    {
+      "claim": "Half the correlation decline is the Forbes-Rigobon effect",
+      "verdict": "NOT_ESTABLISHED",
+      "detail": "The variance identity is correct, but plugging in marginal medians is not a unique decomposition. Uniform scaling of returns leaves correlation unchanged. Volatility-dependent correlation requires assumptions about common versus idiosyncratic shocks. The cited paper explicitly requires assumptions for adjustment.",
+      "source": "https://doi.org/10.1111/0022-1082.00494"
+    },
+    {
+      "claim": "Mixed original calculations are proven",
+      "verdict": "OVERSTATED",
+      "detail": "R2 values are wrong for the stated single-factor sample. Candidate fits such as degrees-of-freedom mismatch do not establish the actual coding history or prove multiple methods were used."
+    },
+    {
+      "claim": "99.5% historical reversion implies expected reversion now",
+      "verdict": "NOT_A_FORECAST",
+      "detail": "Approximately reproduced as 1/175 qualifying overlapping windows remaining below 0.863 after 63 sessions. These are dependent conditioning windows, not 175 separate episodes; selection and retrospective threshold remain."
+    },
+    {
+      "claim": "Lower-frequency and NAV checks rule out artifacts",
+      "verdict": "NARROW_WORDING",
+      "detail": "Reported checks weaken simple stale-close or ETF-pricing explanations, but do not eliminate every microstructure effect. Lower-frequency checks also extend the lookback to 126 sessions. NAV and extended panels not independently replicated."
+    },
+    {
+      "claim": "Constituent comparisons identify a size mechanism",
+      "verdict": "DESCRIPTIVE_ONLY",
+      "detail": "Current-member survivorship bias disclosed. Common factors, holdings overlap and compositional choices prevent causal attribution to size alone."
+    },
+    {
+      "claim": "KRE benchmark change in 2011",
+      "verdict": "PRIMARY_CONFIRMED",
+      "detail": "September 2026 issuer factsheet states linked KBW Regional Banking Index to October 24, 2011 and S&P Regional Banks Select Industry Index thereafter.",
+      "source": "https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-kre.pdf"
+    }
+  ],
+  "interpretation": "Reduced co-movement has persisted for months and survives aggressive trimming. Broad equity-market exposure is an important descriptive dimension; simple rate-beta differences are insufficient as a complete explanation. No direction-of-return forecast follows.",
+  "scope": "Archived at Will-established KRE destination. No canonical owner grade, trade approval or recurring monitoring rule changed."
+}

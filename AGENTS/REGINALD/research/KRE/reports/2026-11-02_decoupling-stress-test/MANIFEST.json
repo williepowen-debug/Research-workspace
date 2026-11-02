@@ -1,0 +1,20 @@
+{
+  "source": "/mnt/c/Users/willi/Downloads/REPORT (2).md",
+  "copy": "input_report.md",
+  "bytes": 22948,
+  "sha256": "0af57fe77f21b64fb8a4249780e7805484ba08642ab2106d14dc4fc6db40a99a",
+  "generated_artifacts": {
+    "check.py": {
+      "bytes": 2673,
+      "sha256": "6b378e1f75108b5697bc32ea5bc60bfa3fac8f39958f68645e5a98486c0d076d"
+    },
+    "checks.json": {
+      "bytes": 2935,
+      "sha256": "1a51c9fe48edae8b58944241db967ec2fbddfe812c601ba407aa2b8937c929c3"
+    },
+    "review.json": {
+      "bytes": 4205,
+      "sha256": "083c509f6b193aaa3db5db95e4c26b6da6e5a89d9251084874769945fca8b646"
+    }
+  }
+}

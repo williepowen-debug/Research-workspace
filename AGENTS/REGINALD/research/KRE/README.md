@@ -23,6 +23,12 @@ Saved 2026-11-02 by PROME at Will's explicit request to keep the discussion's da
 
 Reproduce the sensitivity checks from repository root with `.venv/bin/python3 AGENTS/REGINALD/research/KRE/reports/2026-11-02_kre-cato-sensitivity/check.py`. It overwrites only its own results file; requires numpy and pandas. No REGINALD canonical state or grade changes are implied by this archive.
 
+## Decoupling stress test — additional November 2 report
+
+[Supplied report](reports/2026-11-02_decoupling-stress-test/input_report.md) · [PROME review](reports/2026-11-02_decoupling-stress-test/review.json) · [reproduced results](reports/2026-11-02_decoupling-stress-test/checks.json) · [script](reports/2026-11-02_decoupling-stress-test/check.py) · [copy and artifact manifest](reports/2026-11-02_decoupling-stress-test/MANIFEST.json).
+
+This follow-up directly tests CATO's unusual-day challenge. Our saved-data checks reproduce the June–July decline, top-ten trimmed correlation of 0.8535, KRE SPY beta of 0.328, and SPY-controlled KRE–KBWB correlation of 0.728. Partial correlation is around the 10th percentile on our shorter history, versus the report's 11th. Persistent reduced co-movement is supported; a permanent regime, a precise causal split and a forecast of KRE returns are not established. The reported NAV, extra ETFs, constituent baskets and bootstrap remain unreproduced here. Original R² values are corrected, but their coding provenance is still unknown. This package's manifest supplements COPY_MANIFEST.json.
+
 ## Data and visuals
 
 The November 2 ETF folder contains 13 ETF daily histories, aligned dividend-adjusted closes, performance/correlation tables, FRED yield and credit-spread series, source manifests, sensitivity checks, exploratory models, scripts and two charts. Completed-session analysis ends October 30; November 2 observations are intraday and must not be presented as closing values.
