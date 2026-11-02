@@ -1,6 +1,6 @@
 # GIBBS STATUS
 
-**Last Updated: 2026-10-31 13:53 EDT — L0 inbox drain + CYPHER consequence grades (DOCKET L900, woken on Will's word 13:38 ET via PROME prome-34), Claude Code / Claude Opus 5.5 (claude-opus-5-5), spawned session.**
+**Last Updated: 2026-11-02 11:16 EDT — boot + 2-item inbox drain, Kimi Code CLI / model UNKNOWN, full session.**
 
 > FIRST-LIVE-SESSION banner struck 2026-10-21. `docket/CATALYSTS.tsv` is in PROME's SUMMONS_LEDGERS (confirmed 10/23). Cadence declared to PROME 10/31: EVENT-DRIVEN (ROSTER row is PROME's to write).
 
@@ -34,11 +34,15 @@ No thresholds, predictions, grades or book (WQ-426).
 
 ## Source / continuity limits
 
+11/02 boot: wall clock 2026-11-02 11:16 Monday; ledger, predictions, prints and perimeter checks all quiet; 0 unreceipted NAMED corrections. Runtime Kimi Code CLI, model and session ID UNKNOWN; file, shell and web tools exposed, native cross-agent messaging not exposed. `git pull --rebase` stopped on other desks' dirty files and was not worked around; origin fetch succeeded and `HEAD..origin/master` has no GIBBS or corrections-receipt diff. FFIEC CDR token expires 2027-01-31 02:28Z; LAPTOP verified HTTP 200 with Q3 periods available, while DESKTOP may still hold the old token until Will pastes the new one at the next switch (PROME 11/01).
+
 Synthesis `research/2026-10-21_five-things-regional-question.md`; AXP 10/23 exhibit hashes in the 10/23 PROME memo. 10/31 SEC reads: submissions JSON for all 16 plus seven 8-K documents, sequential, with the User-Agent declared in `FORGE/tools/filing-watch/poll_edgar.py` (WQ-565 A); the tool itself was not run because it writes FORGE output files even in `--dry-run`. Fed press feed read 10/31 17:47Z: no capital-regime item since 10/23 (KB-GIB-002 note). Quartr transcripts need a paid plan (KB-GIB-014) — call-only guidance stays UNAVAILABLE; public transcript pages are the free fallback. Releases are provisional to the 10-Qs. FFIEC NIC CAPTCHA wall unchanged; no session spent. Market structure (KRE) is HENRY's; no live prices adopted here.
 
 ## Inbox / delivery
 
-Drained 10/31 (L0, whole inbox, every sender): 11 top-level packets + 15 WALTER signals = 26 items (PROME's census said 27: `inbox_census.py` counts the standing `PROTOCOL.md`). board_log 26 rows; corrections COR-20261029-07 and COR-20261029-43 receipted NO-OP; files moved to processed/ declared `consume:GIBBS`. Packets out 10/31: CYPHER (grades + Citizens consumer cell) · ISHM (boundary). PROME memo `PROME/inbox/2026-10-31_from-GIBBS_inbox-drain-and-actions.md`. Prior drain 10/23 (16 items): its filing commit c23b0d925 carried no `consume:GIBBS` token, so those moves read as FILED under BOARD_CONSUMPTION_SPEC §5.1 (board_log rows exist); not retro-reconciled.
+Drained 11/02: 1 top-level PROME packet + 1 WALTER signal = 2 items; board_log rows added and both files moved to processed/. PROME token packet INTEGRATED into CLAUDE DATA ROUTES; SIG-W-20261102-013 LOGGED as KB-GIB-033, ConnectWise partial recovery with no bank/CU victim or bank-specific loss established and no change to the large-bank consequence grade. No outbound packets.
+
+Prior drain 10/31 (L0, whole inbox, every sender): 11 top-level packets + 15 WALTER signals = 26 items (PROME's census said 27: `inbox_census.py` counts the standing `PROTOCOL.md`). board_log 26 rows; corrections COR-20261029-07 and COR-20261029-43 receipted NO-OP; files moved to processed/ declared `consume:GIBBS`. Packets out 10/31: CYPHER (grades + Citizens consumer cell) · ISHM (boundary). PROME memo `PROME/inbox/2026-10-31_from-GIBBS_inbox-drain-and-actions.md`. Prior drain 10/23 (16 items): its filing commit c23b0d925 carried no `consume:GIBBS` token, so those moves read as FILED under BOARD_CONSUMPTION_SPEC §5.1 (board_log rows exist); not retro-reconciled.
 
 ## BOTTOM LINE
 

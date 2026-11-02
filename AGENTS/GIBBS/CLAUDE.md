@@ -93,7 +93,7 @@ Every row you write to `workbook/READS.tsv` carries one of three tokens in `Scop
 | Fed stress-test results PDF (Table 3: category per firm) | REACHABLE | Category assignments |
 | eCFR Versioner API (12 CFR 252 / 238 / 217) | REACHABLE (needs a compression header) | Rule text |
 | **FFIEC NIC (FR Y-9C holding-company data)** | ⛔ **BLOCKED — CAPTCHA (HTTP 403) on every endpoint** | Unusable by automation. **Data an LLM cannot reach — tell Will before spending a session on it; he may download by hand** |
-| FFIEC CDR REST (bank-level Call Reports) | REGINALD's JWT, **expires 2026-11-05** (Will regenerates) | Bank-level only |
+| FFIEC CDR REST (bank-level Call Reports) | REGINALD's JWT renewed 2026-11-01, **expires 2027-01-31 02:28Z**; LAPTOP verified HTTP 200 with Q3 periods available. ⚠️ DESKTOP may still hold the old token until Will pastes the new one at the next switch (PROME packet 2026-11-01) | Bank-level only |
 | Issuer IR pages | Mixed (Capital One, Schwab returned 403; Northern Trust timed out) | Earnings dates — cite the issuer release, mark mirrors |
 
 **Instrument lessons inherited from REGINALD's 10/9 repair (`8255c2d13`) — binding:** key every filer by an identifier AND check that the response names the intended issuer (REGINALD's VLY sat on CIK 74260 = OLD REPUBLIC) · a route with no filings is a broken route, not a quiet bank · a failed or unparsed check never prints an all-clear. **CIKs are NOT seeded** — fill `PERIMETER.tsv` `CIK` at the first session from EDGAR, and verify each one names the right company.
