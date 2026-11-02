@@ -1,0 +1,1 @@
+firetime_check: no artifacts to check (window=None: no docket rows in range cite artifacts).

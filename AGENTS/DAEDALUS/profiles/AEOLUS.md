@@ -1,3 +1,5 @@
+> **Δ 2026-11-02 — bounded Production Review through fdfaee04b.** Read this body with the current AEOLUS row in `runs/2026-11-02_PRODUCTION_REVIEW_READER_B.md` § Additional registered perimeter / Compact per-desk findings and `upgrades/PRODUCTION_REVIEW_2026-11-02.md`. Named current facts there supersede prior delta claims; coverage limits and fired-trigger dispositions travel with them. Whole-profile vintage and body below are unchanged. Further structural work requires the existing firming touch; November 4 remains the post-cutoff review checkpoint.
+
 # Agent Profile — AEOLUS
 
 **Built by:** DAEDALUS · **Profile vintage: 2026-10-21** · Whole comprehension refresh; all carried sections re-verified or explicitly qualified below.

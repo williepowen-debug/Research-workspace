@@ -1,0 +1,50 @@
+{
+  "brock_history": {
+    "path": "AGENTS/BROCK/workbook/VX_HISTORY.tsv",
+    "header": [
+      "# FROZEN 2026-10-30 \u2014 not maintained; STATUS is canonical, do not cite rows as current. VX field-change history = git log -p -- AGENTS/BROCK/workbook/VX.tsv",
+      "# Last real data refresh: 2026-08-07",
+      "# Was a LIVE append-log of VX field changes (Date/VX_ID/Field/Old/New/Reason) until 2026-08-07; frozen 2026-10-30 (DAEDALUS profile refresh item 3). 14 VX.tsv commits 8/08-10/30 were never logged here, incl. VX-BRK-020 RED->ORANGE 9/21 and back to RED 9/25."
+    ],
+    "is_exempt": true,
+    "is_frozen": true
+  },
+  "creed_thresholds": {
+    "path": "AGENTS/CREED/registry/THRESHOLDS.tsv",
+    "header": [
+      "# CREED THRESHOLD REGISTRY -- machine-readable transcription of the FIRE conditions in thesis/THESIS.md.",
+      "# Status: LIVE",
+      "# Last real data refresh: 2026-10-28 -- T-06 / T-06b / T-08b state cells re-stated from the 10/28 re-census (fund gates still 1 = SREIT; forced-sale comps not a primary-read cluster; mREIT Q3 census 4 of 11). PRIOR: 2026-10-22 key-file currency pass. Header-only edit 2026-10-30 (no data change)."
+    ],
+    "is_exempt": false,
+    "is_frozen": false
+  },
+  "falcon_event": {
+    "path": "AGENTS/FALCON/workbook/WARRISK.tsv",
+    "quiet": [
+      "EVENT-DRIVEN",
+      "re-pull 2026-10-26"
+    ],
+    "asof": "2026-11-02"
+  },
+  "event_old_synthetic": {
+    "quiet": [
+      "EVENT-DRIVEN",
+      "re-pull 2020-01-01"
+    ],
+    "repull": "2020-01-01"
+  },
+  "frozen_terms_synthetic": {
+    "is_frozen": true
+  },
+  "claim_plain_wrong": [
+    [
+      "fixture",
+      1,
+      "weekday",
+      "\u201c2026-11-02 (Tue\u201d \u2014 2026-11-02 is a Monday, not Tue"
+    ]
+  ],
+  "claim_bold_wrong": [],
+  "claim_correct": []
+}

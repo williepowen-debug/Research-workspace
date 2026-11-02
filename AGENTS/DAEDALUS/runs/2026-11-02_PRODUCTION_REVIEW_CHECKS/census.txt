@@ -1,0 +1,12 @@
+memory_citation_census v2 — window 30d, 5652 commits · primary = commit-message grep (calibrated vs PROME 5c66ea63b baseline) · second source = artifact writes (added diff lines, self-refs excluded)
+COLD SET: 2 member(s) read as one index — INDEX_COLD.md, INDEX_COLD_EMBEDDED.md
+COUNTS: hot 81 rows (24 msg-cited, 57 msg-uncited, of those 56 artifact-rescued) · cold 477 rows (10 msg-cited) · 51 msg-citations across 34 slugs · both-tier overlap 0
+
+DEMOTION QUEUE (advisory — hot, uncited on BOTH sources 30d, no HELD-HOT marker): 1 rows
+  DEMOTE-CANDIDATE finding_instrument_defect_enacts_what_its_owner_is_fenced_from
+  (artifact-rescued, NOT queued — msg-uncited but written into artifacts in-window: 56 rows: feedback_bound_follow_up_reviews_to_the_diff, feedback_doorbell_live_desks_directly_never_paste_blocks, feedback_explicit_approval_authorizes_no_relay_gate, feedback_prediction_market_data_is_oracles_domain, feedback_quartr_no_subscription_do_not_call, feedback_reviewer_findings_go_to_owner_not_via_will, feedback_skipped_control_is_reported_as_skipped, finding_a_charitable_reading_of_your_work_is_the_one_to_check, finding_a_daily_bar_read_after_the_evening_open_belongs_to_the_next_session, finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect…)
+FALSE-COLD RATE proxy: 0/1 = 0% of the would-be queue is held by declared decision (day-one floor 7%; a CLIMBING number means the citation proxy is degrading — census-v2 input ②)
+
+PROMOTION QUEUE: empty — no cold row cited >=2x in 30d
+
+Advisory only: PROME flow-pass judgment unchanged; a hot row surviving this queue says HELD-HOT: <why> on its row. This census cannot see the agent who never knew the slug existed.

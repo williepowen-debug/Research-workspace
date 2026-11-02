@@ -1,0 +1,15 @@
+# Falsification Freshness Sweep — detection layer · run 2026-11-02 · in-content stamps only
+
+**Searched:** 0 falsification surfaces across 0 agents (of 46 in FLEET_DIRECTORY) · threshold 21d behind live STATUS/thesis ref
+
+| Verdict | N |
+|---|---:|
+
+| Agent | Surface | Class | Verdict | Stamp | Ref | Age | Cited/Live | Why |
+|---|---|---|---|---|---|---:|---|---|
+
+**⚠ HAS A THESIS, NO SEPARATE FALSIFICATION SURFACE (0):** none. **These are candidate findings, not clean rows.** The agent carries a live thesis but no kill tree / exit protocol / validation doc this pattern set can find — so its falsification rail is either embedded in STATUS/TRADE prose (unenforceable by any surface-level check) or absent. Judgment read required per agent.
+
+🔴 **MARKET AGENT, NO THESIS-CLASS FILE AND NO SURFACE THIS SCAN CAN SEE (1) — THESE ARE FINDINGS, NOT A CLEAN BILL:** BROCK. Market is the ONE class whose L3 ladder leg REQUIRES a dated falsification surface, so 'not applicable' is never the right reading here. Their rails typically live INSIDE `STATUS.md` (## EXIT RULES / Thesis Kill / tripwires), which this pattern set cannot find. **Hand-verify each: a real rail = extract-and-stamp; no rail = a real L3 gap.** Measured 2026-08-23 across the 7 then in this bucket: 4 real rails, 3 real gaps, 0 not-applicable.
+
+**No thesis-class file, non-Market — falsification not applicable (0):** none. Expected for utility/meta agents. ⚠️ This bucket is scoped by CLASS as of 2026-08-23 — it previously swallowed Market agents and printed this same reassuring sentence over them (PAT-078 n+1).

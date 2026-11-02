@@ -1,3 +1,5 @@
+> **Δ 2026-11-02 — bounded Production Review through 3b336483d.** Read this body with the current OSPREY row in `runs/2026-11-02_PRODUCTION_REVIEW_READER_A.md` § Additional registered perimeter / Compact per-desk findings and `upgrades/PRODUCTION_REVIEW_2026-11-02.md`. Named current facts there supersede prior delta claims; coverage limits and fired-trigger dispositions travel with them. Whole-profile vintage and body below are unchanged. Further structural work requires the existing firming touch; November 4 remains the post-cutoff review checkpoint.
+
 # OSPREY — DAEDALUS Comprehension Profile
 
 > **Owner-relative comparison verified 2026-11-02:** named owner STATUS header 2026-11-02 leads the 2026-08-07 whole-body vintage by 87 days (>21): trigger FIRED. Existing checker now evaluates this declared predicate; no whole-profile refresh or body-date reset. Evidence `runs/2026-11-02_PROFILE_CLOCK_AFTER.txt`.

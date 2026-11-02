@@ -1,0 +1,357 @@
+✅ FORUM/2026-08-07_system-review/08_dissent/05_TERRY_capitals-case.md
+✅ AGENTS/BRENT/SCHEDULED_RUNS.md
+    ·  predates cited `PROME/DOCKET.tsv` by 0d — re-read if load-bearing
+⚠️  AGENTS/REGINALD/CALENDAR.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-05 ('2027-01-05') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+28 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2026-12-29 ('12/29') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+51 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2026-12-30 ('12/30') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+48 more rows in ±45d). VERIFY + full logic re-read.
+⚠️  AGENTS/REGINALD/registry/NOTES.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-05 ('2027-01-05') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+28 more rows in ±45d). VERIFY + full logic re-read.
+    ◦  allowlisted (expires 2027-01-20): DATE DRIFT: artifact says 2027-01-09 ('01/9') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31) (+24 more rows in ±45d). VERIFY + full logic re-read.
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/WAL/inbox/2026-09-01_from-REGINALD_REG-T-02-FIRED-WAL-77.26-V1V3-ACCELERATE-single-name-leg.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-09-01_from-REGINALD_REG-T-02-FIRED-WAL-77.26-V1V3-ACCELERATE-will-leg-Sep-18-pair.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-10-23_from-REGINALD_REG-T-04-single-issuer-rider.md`
+    ·  predates cited `AGENTS/WALTER/design/CROSS_REFS/REGINALD.md` by 0d — re-read if load-bearing
+    ·  predates cited `AGENTS/WALTER/design/NEWS_SWEEP_TARGETS.md` by 0d — re-read if load-bearing
+    ·  predates cited `AGENTS/WALTER/routed/route_log.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/GATES.tsv` by 2d — re-read if load-bearing
+✅ AGENTS/BOND/analysis/2026-08-23_MIDAS-8-19-gold-rates-rederivation.md
+    ·  predates cited `AGENTS/MIDAS/reports/2026-08-23_gld-rates-attribution.md` by 0d — re-read if load-bearing
+⚠️  AGENTS/CORAL/STATUS.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-04 ('2027-01-04') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+33 more rows in ±45d). VERIFY + full logic re-read.
+    ·  predates cited `PROME/GATES.tsv` by 4d — re-read if load-bearing
+    ·  predates cited `PROME/WILL_QUEUE.md` by 4d — re-read if load-bearing
+✅ AGENTS/CORAL/MEMORY.md
+✅ PROME/proposals/2026-09-03_codex-workspace-audit-RECORD.md
+⚠️  PROME/WILL_QUEUE.md
+    ⚠️  DEAD POINTER: `workbook/VX.tsv` does not exist
+    ⚠️  DATE DRIFT: artifact says 2027-01-02 ('2027-01-02') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+39 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-15 ('Jan-15') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+15 more rows in ±45d). VERIFY + full logic re-read.
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/BRENT/inbox/2026-10-12_from-PROME_APPROVED-energy-opportunities-for-TERRY.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/BRENT/inbox/2026-10-28_from-PROME_WQ510-RULED-A-install-routine-preamble.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/BROCK/inbox/2026-10-23_from-PROME_WQ511-RULED-bdc-software-exposure.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/CARL/inbox/2026-10-29_from-PROME_WQ537-A-RULED-buffer-drawdown-letter.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/CYPHER/inbox/2026-10-30_from-PROME_WQ550-RULED-binance-transmission-commission.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/DEWEY/inbox/2026-10-24_from-PROME_WQ488-RULED-EMAIL-A-CAP-closed-overtaken.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/LIQUID/inbox/2026-10-29_from-PROME_WQ534-B-WQ535-A-RULED.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/NEXUS/inbox/2026-10-29_from-PROME_WQ519-iii-RULED-encode-three-sentences.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/ORACLE/inbox/2026-10-20_from-PROME_wq453-ruled.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/OZK/inbox/2026-10-12_from-PROME_APPROVED-post-extension-review-Q3-card.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/REGINALD/inbox/2026-10-12_from-PROME_Will-approved-morning-regional-bank-tape.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/SHADE/inbox/2026-10-22_from-PROME_pension-info-route-added.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/TERRY/inbox/2026-10-12_from-PROME_new-trades-priority-Will-direct.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/TERRY/inbox/2026-10-20_from-PROME_wq442-crwv-card.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/TERRY/inbox/2026-10-23_from-PROME_WQ499-WQ509-RULED-two-NOT-FIRED-cards.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/TERRY/inbox/2026-10-23_from-PROME_WQ513-514-RULED-A-cards-approved-not-fired.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/TERRY/inbox/2026-10-24_from-PROME_WQ493-RULED-A-prospective-trigger-probability.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/TERRY/inbox/2026-10-30_from-PROME_D-93-QQQ-690P-naked-after-short-leg-close.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-10-12_from-SHADE_consequential-gap-results.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-10-30_from-MIDAS_gld-july-low-close-break-liquidation-test.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-10-31_from-HENRY_L616-market-breadth.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-10-31_from-WALTER_x-authorization-restored.md`
+    ·  predates cited `AGENTS/TERRY/setups/UNG_jan15-10-12C_polar-vortex-break_2026-10-31.md` by 0d — re-read if load-bearing
+    ·  predates cited `AGENTS/WALTER/LAST_COMPLETION.md` by 0d — re-read if load-bearing
+    ·  predates cited `PROME/GATES.tsv` by 0d — re-read if load-bearing
+    ·  predates cited `PROME/inbox/2026-11-02_from-TERRY_L905-rsp-reprice.md` by 0d — re-read if load-bearing
+    ·  predates cited `scripts/orch_log.py` by 0d — re-read if load-bearing
+✅ AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md
+    ·  predates cited `AGENTS/BRENT/board_log.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `AGENTS/TERRY/setups/INDEX.md` by 2d — re-read if load-bearing
+    ·  predates cited `AGENTS/WALTER/inbox/processed/.consumed.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `AGENTS/WALTER/routed/delivery_log.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `BOARD/INDEX.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/BOOT.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/WILL_QUEUE.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/state/ORCH_LOG.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/state/board_cursor.txt` by 2d — re-read if load-bearing
+✅ AGENTS/BOND/analysis/2026-09-17_PREPRINT_TIPS-R_91282CRE3_SEP-grade_F2-carrier.md
+    ·  predates cited `PROME/DOCKET.tsv` by 46d — re-read if load-bearing
+✅ PROME/inbox/processed/2026-09-25_from-DAEDALUS_L290-render-4-inbox-drain-wq295-doorbell-close.md
+    ◦  allowlisted (expires 2027-01-20): DEAD POINTER: `Research-Intake/scripts/newsweep_config.py` does not exist
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-09-25_from-DAEDALUS_cadence-and-watch-terms.md`
+✅ AGENTS/DAEDALUS/runs/2026-09-25_INBOX_DISPOSITIONS.md
+    ◦  allowlisted (expires 2027-01-20): DATE DRIFT: artifact says 2027-01-02 ('1/2') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+39 more rows in ±45d). VERIFY + full logic re-read.
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-09-25_from-DAEDALUS_cadence-and-watch-terms.md`
+    ·  predates cited `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` by 36d — re-read if load-bearing
+    ·  predates cited `AGENTS/WALTER/registry/DOORBELL_LOG.tsv` by 36d — re-read if load-bearing
+⚠️  AGENTS/REGINALD/reports/2026-09-27_nano-banc-failure-forensics.md
+    ⚠️  DATE DRIFT: artifact says 2026-12-24 ('12/24') — matches no docket row but is near: CARL — CRL-32 HOUSEHOLD BUFFER DRAWDOWN, FINAL GRADE (WQ-537 A): BEA November Personal Income and Outlays 08:30 ET. FIRES if saving rate ≤3.8% for November (and October was ≤3.8% at 11/25) AND real DPI (DSPIC96) Nov ÷ Sep − 1 ≤ 0.00% inside this vintage; NOT-FIRED-INCOME-LED if both saving prints ≤3.8% but real DPI Nov/Sep > 0; UNGRADEABLE if unpublished by 2027-01-29 or a rebase breaks the single-vintage comparison. Cost label from HENRY L775 (Oct CPI-U SA m/m), labels only, does not enter the grade. (2026-12-23); OZK SUB-NOTES CALL-NOTICE WINDOW — the window in which a notice for a 2027-01-01 call of the $350M sub-notes would be given (OZK's reading of the indenture; verify the notice mechanics at the indenture before relying on the dates). A call notice need not be filed, so the read is flng_watch PLUS a press search. (2026-11-02) (+77 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2026-12-25 ('12/25') — matches no docket row but is near: CARL — CRL-32 HOUSEHOLD BUFFER DRAWDOWN, FINAL GRADE (WQ-537 A): BEA November Personal Income and Outlays 08:30 ET. FIRES if saving rate ≤3.8% for November (and October was ≤3.8% at 11/25) AND real DPI (DSPIC96) Nov ÷ Sep − 1 ≤ 0.00% inside this vintage; NOT-FIRED-INCOME-LED if both saving prints ≤3.8% but real DPI Nov/Sep > 0; UNGRADEABLE if unpublished by 2027-01-29 or a rebase breaks the single-vintage comparison. Cost label from HENRY L775 (Oct CPI-U SA m/m), labels only, does not enter the grade. (2026-12-23); OZK SUB-NOTES CALL-NOTICE WINDOW — the window in which a notice for a 2027-01-01 call of the $350M sub-notes would be given (OZK's reading of the indenture; verify the notice mechanics at the indenture before relying on the dates). A call notice need not be filed, so the read is flng_watch PLUS a press search. (2026-11-02) (+67 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-30 ('1/30') — matches no docket row but is near: CREED numeric-band BASE-RATING at n=12 observations (successor to row 33 ask ③, Will-ruled 8/27 "Approve all three asks - go ahead" — the DATE-keyed month-N revisit is RETIRED as a scheduled null result; each band base-rates when ITS series reaches n=12 monthly obs). Est arrivals at current cadence: VX-1.01 ~2027-01, VX-2.01 + VX-3.04 ~2027-04 — dates are ESTIMATES, the trigger is the OBSERVATION COUNT (CREED boot-scan owns the count; this row is the coordination-layer read-path so the obligation is never untracked again). ⚠️ Name the ARTIFACT owed: a base-rating memo per band in AGENTS/CREED/registry/, not a spawn occasion (2027-01-31); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+8 more rows in ±45d). VERIFY + full logic re-read.
+    ·  cited packet now in processed/ — designed disposition, not rot: `inbox/2026-09-27_from-PROME_nano-banc-failure-forensics-and-cohort-read.md`
+    ·  predates cited `AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md` by 20d — re-read if load-bearing
+✅ AGENTS/CREED/analysis/2026-09-27_nano-banc-collateral-read.md
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/CREED/inbox/2026-09-27_from-PROME_nano-banc-collateral-read-and-forced-sale-comp.md`
+    ·  predates cited `PROME/DOCKET.tsv` by 3d — re-read if load-bearing
+⚠️  AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-18 ('1/18') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+13 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-30 ('1/30') — matches no docket row but is near: CREED numeric-band BASE-RATING at n=12 observations (successor to row 33 ask ③, Will-ruled 8/27 "Approve all three asks - go ahead" — the DATE-keyed month-N revisit is RETIRED as a scheduled null result; each band base-rates when ITS series reaches n=12 monthly obs). Est arrivals at current cadence: VX-1.01 ~2027-01, VX-2.01 + VX-3.04 ~2027-04 — dates are ESTIMATES, the trigger is the OBSERVATION COUNT (CREED boot-scan owns the count; this row is the coordination-layer read-path so the obligation is never untracked again). ⚠️ Name the ARTIFACT owed: a base-rating memo per band in AGENTS/CREED/registry/, not a spawn occasion (2027-01-31); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+8 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-01 ('01/01') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+40 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-13 ('1/13') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31) (+19 more rows in ±45d). VERIFY + full logic re-read.
+    ·  cited packet now in processed/ — designed disposition, not rot: `inbox/2026-09-27_from-PROME_nano-banc-primary-documents-pull.md`
+⚠️  AGENTS/REGINALD/reports/2026-09-27_VLY_CRE_transmission.md
+    ⚠️  DATE DRIFT: artifact says 2026-12-25 ('12/25') — matches no docket row but is near: CARL — CRL-32 HOUSEHOLD BUFFER DRAWDOWN, FINAL GRADE (WQ-537 A): BEA November Personal Income and Outlays 08:30 ET. FIRES if saving rate ≤3.8% for November (and October was ≤3.8% at 11/25) AND real DPI (DSPIC96) Nov ÷ Sep − 1 ≤ 0.00% inside this vintage; NOT-FIRED-INCOME-LED if both saving prints ≤3.8% but real DPI Nov/Sep > 0; UNGRADEABLE if unpublished by 2027-01-29 or a rebase breaks the single-vintage comparison. Cost label from HENRY L775 (Oct CPI-U SA m/m), labels only, does not enter the grade. (2026-12-23); OZK SUB-NOTES CALL-NOTICE WINDOW — the window in which a notice for a 2027-01-01 call of the $350M sub-notes would be given (OZK's reading of the indenture; verify the notice mechanics at the indenture before relying on the dates). A call notice need not be filed, so the read is flng_watch PLUS a press search. (2026-11-02) (+67 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-06 ('1/6') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+28 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2026-12-24 ('12/24') — matches no docket row but is near: CARL — CRL-32 HOUSEHOLD BUFFER DRAWDOWN, FINAL GRADE (WQ-537 A): BEA November Personal Income and Outlays 08:30 ET. FIRES if saving rate ≤3.8% for November (and October was ≤3.8% at 11/25) AND real DPI (DSPIC96) Nov ÷ Sep − 1 ≤ 0.00% inside this vintage; NOT-FIRED-INCOME-LED if both saving prints ≤3.8% but real DPI Nov/Sep > 0; UNGRADEABLE if unpublished by 2027-01-29 or a rebase breaks the single-vintage comparison. Cost label from HENRY L775 (Oct CPI-U SA m/m), labels only, does not enter the grade. (2026-12-23); OZK SUB-NOTES CALL-NOTICE WINDOW — the window in which a notice for a 2027-01-01 call of the $350M sub-notes would be given (OZK's reading of the indenture; verify the notice mechanics at the indenture before relying on the dates). A call notice need not be filed, so the read is flng_watch PLUS a press search. (2026-11-02) (+77 more rows in ±45d). VERIFY + full logic re-read.
+⚠️  AGENTS/CREED/analysis/2026-09-27_VLY_property_comparable_challenge.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-16 ('1/16') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+15 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-06 ('1/6') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+28 more rows in ±45d). VERIFY + full logic re-read.
+    ·  predates cited `AGENTS/FLG/STATUS.md` by 35d — re-read if load-bearing
+    ·  predates cited `AGENTS/REGINALD/reports/2026-09-27_VLY_CRE_transmission.md` by 0d — re-read if load-bearing
+⚠️  AGENTS/FLG/reports/2026-09-27_WQ312_Q2_workout_rows.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-19 ('1/19') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+11 more rows in ±45d). VERIFY + full logic re-read.
+✅ AGENTS/NEXUS/proposals/2026-09-29_session-debrief-fixes.md
+    ·  predates cited `AGENTS/NEXUS/CLAUDE.md` by 32d — re-read if load-bearing
+⚠️  PROME/ROSTER.md
+    ⚠️  DEAD POINTER: `docket/CATALYSTS.tsv` does not exist
+    ◦  allowlisted (expires 2026-12-17): DEAD POINTER: `scripts/tools` does not exist
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-09-25_from-HAWK_cadence-and-watch-terms.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-09-26_from-DEWEY_cadence-and-watch-terms.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-09-28_from-OTTO_L469-wake-otto10-gate-late-instrument-impeached-9-30-staged.md`
+    ·  predates cited `AGENTS/DAEDALUS/FLEET_MAP.tsv` by 0d — re-read if load-bearing
+    ·  predates cited `AGENTS/DAEDALUS/sweeps/REGISTRY.tsv` by 0d — re-read if load-bearing
+    ·  predates cited `AGENTS/WALTER/REGISTRY.tsv` by 0d — re-read if load-bearing
+    ·  predates cited `PROME/WILL_QUEUE.md` by 0d — re-read if load-bearing
+⚠️  AGENTS/CATO/runs/2026-09-29_1942_l462-independent-review.md
+    ⚠️  DEAD POINTER: `memory/consumer` does not exist
+    ·  predates cited `memory/auto/finding_a_daily_bar_read_after_the_evening_open_belongs_to_the_next_session.md` by 23d — re-read if load-bearing
+✅ PROME/tools/tests/ACCEPTANCE_fetch_evening_bar_L462_2026-09-29.md
+    ·  predates cited `AGENTS/CATO/runs/2026-09-29_1942_l462-independent-review.md` by 0d — re-read if load-bearing
+    ·  predates cited `FORGE/tools/market-data/dashboard.py` by 9d — re-read if load-bearing
+    ·  predates cited `FORGE/tools/market-data/fetch.py` by 24d — re-read if load-bearing
+    ·  predates cited `PROME/CLAUDE.md` by 32d — re-read if load-bearing
+✅ PROME/inbox/processed/2026-10-01_from-WALTER_R3-results-all-sets.md
+⚠️  AGENTS/WALTER/research/2026-10-01_R3/group{A,B,C,D}.md
+    ⚠️  UNREADABLE: [Errno 2] No such file or directory: '/home/willi/Research-workspace/AGENTS/WALTER/research/2026-10-01_R3/group{A,B,C,D}.md'
+✅ PROME/inbox/processed/2026-10-01_from-NEXUS_charter-fix-ef23c5351-and-L572-redate.md
+    ·  predates cited `AGENTS/NEXUS/LAST_COMPLETION.md` by 32d — re-read if load-bearing
+    ·  predates cited `AGENTS/NEXUS/PREDICTIONS_MONITOR.md` by 32d — re-read if load-bearing
+✅ AGENTS/NEXUS/PREDICTIONS_MONITOR.md
+✅ PROME/inbox/processed/2026-10-01_from-FERT_wake-coverage-ask-ride-alongs-plus-CF-Q3-row.md
+✅ AGENTS/BROCK/research/2026-10-02_L494-X1-sitting_CRMT-bridge5_BDC-tape.md
+    ·  predates cited `AGENTS/REGINALD/workbook/VX.tsv` by 29d — re-read if load-bearing
+⚠️  AGENTS/OZK/research/threads/2026-10-01_SUBNOTES_RESET.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-01 ('2027-01-01') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+40 more rows in ±45d). VERIFY + full logic re-read.
+✅ PROME/inbox/processed/2026-10-04_from-WALTER_intake-edgar-entity-class-mistag-MU-megacap.md
+    ·  predates cited `AGENTS/VULCAN/STATUS.md` by 26d — re-read if load-bearing
+✅ AGENTS/VULCAN/workbook/GPU_INSTRUMENT_SPEC.md
+✅ PROME/inbox/processed/2026-10-08_from-VULCAN_L250-graded-compute-futures-not-trading.md
+    ·  predates cited `AGENTS/VULCAN/CLAUDE.md` by 19d — re-read if load-bearing
+    ·  predates cited `AGENTS/VULCAN/board_log.tsv` by 22d — re-read if load-bearing
+    ·  predates cited `AGENTS/VULCAN/docket/CATALYSTS.tsv` by 22d — re-read if load-bearing
+✅ AGENTS/NEXUS/research/2026-10-08_disc-J_letters.md
+⚠️  AGENTS/NEXUS/STATUS.md
+    ⚠️  DEAD POINTER: `analysis/2026-08-19_catchup_T7-20Y-WAM-sb0607-C36.md` does not exist
+    ⚠️  DATE DRIFT: artifact says 2027-01-03 ('1/3') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+35 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-02 ('1/2') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+39 more rows in ±45d). VERIFY + full logic re-read.
+✅ AGENTS/CRUISE/WATCHLIST_NCLH_Q3.md
+✅ AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md
+⚠️  AGENTS/OZK/reports/2026-10-21_self-sweep.md
+    ⚠️  DEAD POINTER: `reports/2026-09-26_CRE_top3_dossiers/q2_OZK.md` does not exist
+    ⚠️  DEAD POINTER: `reports/2026-09-26_CRE_top3_loss_bridge.md` does not exist
+    ⚠️  DATE DRIFT: artifact says 2027-01-16 ('Jan 16') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+15 more rows in ±45d). VERIFY + full logic re-read.
+    ·  predates cited `AGENTS/OZK/scripts/boot.py` by 1d — re-read if load-bearing
+✅ AGENTS/OZK/CALENDAR.md
+✅ AGENTS/LABOR/docket/GRADING_CARD_20261103_JOLTS.md
+⚠️  AGENTS/LABOR/docket/GRADING_CARD_20261106_NFP.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-03 ('1/3') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+35 more rows in ±45d). VERIFY + full logic re-read.
+✅ AGENTS/LABOR/docket/GRADING_CARD_20261105_Challenger.md
+✅ AGENTS/GIBBS/research/2026-10-21_five-things-regional-question.md
+    ◦  allowlisted (expires 2027-01-20): DEAD POINTER: `reports/2026-10-20_reported-bank-earnings-catchup.md` does not exist
+✅ PROME/inbox/processed/2026-10-21_from-MARCO_catchup-wave3.md
+✅ PROME/themes/ellison/theses/2026-10-22_ellison-collateral-loop.md
+✅ PROME/proposals/2026-10-23_l499-wq298-cannot-fire-canon-RULED.md
+    ·  predates cited `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` by 5d — re-read if load-bearing
+    ·  predates cited `PROME/CLAUDE.md` by 8d — re-read if load-bearing
+    ·  predates cited `PROME/DOCKET.tsv` by 10d — re-read if load-bearing
+    ·  predates cited `PROME/SCRATCH.md` by 10d — re-read if load-bearing
+    ·  predates cited `PROME/registry/UNREACHABLE_MEASUREMENTS.tsv` by 3d — re-read if load-bearing
+✅ AGENTS/DAEDALUS/runs/2026-10-23_HARNESS_AUDIT_3.md
+    ·  predates cited `AGENTS/WALTER/design/BOOT_PROTOCOL.md` by 8d — re-read if load-bearing
+    ·  predates cited `PROME/ORCHESTRATION_PLAYBOOK.md` by 8d — re-read if load-bearing
+    ·  predates cited `docs/GIT_WORKTREE_PROCEDURES.md` by 7d — re-read if load-bearing
+    ·  predates cited `scripts/read_cap_check.py` by 7d — re-read if load-bearing
+✅ PROME/proposals/2026-10-23_wq508-prome-charter-encodes-RULED.md
+    ·  predates cited `PROME/AUTONOMY.md` by 8d — re-read if load-bearing
+    ·  predates cited `PROME/BOOT.md` by 10d — re-read if load-bearing
+    ·  predates cited `PROME/CLAUDE.md` by 8d — re-read if load-bearing
+    ·  predates cited `PROME/CLOSEOUT.md` by 9d — re-read if load-bearing
+    ·  predates cited `PROME/state/ORCH_LOG.tsv` by 10d — re-read if load-bearing
+✅ AGENTS/MIDAS/gold/research/2026-10-23_WQ451-decomposition-letter.md
+    ◦  allowlisted (expires 2027-01-21): DATE DRIFT: artifact says 2027-01-20 ('2027-01-20') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+11 more rows in ±45d). VERIFY + full logic re-read.
+⚠️  PROME/proposals/2026-10-23_wq513-516-RULED.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-15 ('Jan-15') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+15 more rows in ±45d). VERIFY + full logic re-read.
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/BROCK/inbox/2026-10-23_from-PROME_WQ516-I2-bdc-software-marks-standing-line.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/CARL/inbox/2026-10-23_from-PROME_WQ516-I3-debt-buyer-recoveries-question.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/DEWEY/inbox/2026-10-23_from-PROME_WQ515-516-RULED-A.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/LIQUID/inbox/2026-10-23_from-PROME_WQ516-I1-xccc-composition-standing-line.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/TERRY/inbox/2026-10-23_from-PROME_WQ513-514-RULED-A-cards-approved-not-fired.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/WALTER/inbox/2026-10-23_from-PROME_WQ515-RULED-A-fidelity-test-name-ten-transfers.md`
+    ·  predates cited `AGENTS/TERRY/setups/CREDIT_hyg-jan15-77-74P_or_htgc-16P_REG-T-04_2026-10-23.md` by 8d — re-read if load-bearing
+    ·  predates cited `AGENTS/TERRY/setups/ORCL_dec18-115-100P_credit-equity-gap_2026-10-23.md` by 10d — re-read if load-bearing
+✅ AGENTS/DEWEY/output/2026-10-23_dewey-research-history-meta-review.md
+    ·  cited packet now in processed/ — designed disposition, not rot: `inbox/2026-10-28_from-REGINALD_FHA-kill-pointer-and-Nano-records-route.md`
+    ·  predates cited `AGENTS/DEWEY/output/INDEX.tsv` by 4d — re-read if load-bearing
+    ·  predates cited `AGENTS/GIBBS/workbook/KB.tsv` by 2d — re-read if load-bearing
+⚠️  PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md
+    ⚠️  DEAD POINTER: `AGENTS/BROCK/new.md` does not exist
+    ⚠️  DEAD POINTER: `AGENTS/ZED` does not exist
+    ⚠️  DEAD POINTER: `FORGE/x.md` does not exist
+    ⚠️  DEAD POINTER: `PROME/old` does not exist
+    ⚠️  DEAD POINTER: `PROME/state/HANDOFF_X.md` does not exist
+    ⚠️  DEAD POINTER: `memory/auto/x.md` does not exist
+    ·  predates cited `PROME/CLOSEOUT.md` by 8d — re-read if load-bearing
+    ·  predates cited `PROME/state/AUDIT_PERIMETER.tsv` by 4d — re-read if load-bearing
+    ·  predates cited `PROME/tools/ARGUS_CONTRACT.md` by 8d — re-read if load-bearing
+    ·  predates cited `PROME/tools/argus_contract.py` by 8d — re-read if load-bearing
+⚠️  PROME/reports/2026-10-24_L796-pin-counterexample-read3.md
+    ⚠️  DEAD POINTER: `AGENTS/.gitignore` does not exist
+    ⚠️  DEAD POINTER: `AGENTS/BRENT/inbox/2026-10-24_from-PROME_task.md` does not exist
+    ⚠️  DEAD POINTER: `AGENTS/BRENT/x.md` does not exist
+    ⚠️  DEAD POINTER: `AGENTS/BROCK/new.md` does not exist
+    ⚠️  DEAD POINTER: `FORGE/.gitignore` does not exist
+    ⚠️  DEAD POINTER: `PROME/.gitignore` does not exist
+    ⚠️  DEAD POINTER: `PROME/state/HANDOFF_X.md` does not exist
+    ⚠️  DEAD POINTER: `PROME/tracked.md` does not exist
+    ⚠️  DEAD POINTER: `agents/newdef.md` does not exist
+    ⚠️  DEAD POINTER: `l796-pin-read3/ce3.py` does not exist
+    ⚠️  DEAD POINTER: `l796-pin-read3/run3.txt` does not exist
+    ⚠️  DEAD POINTER: `memory/auto/f.md` does not exist
+    ⚠️  DEAD POINTER: `scripts/.gitignore` does not exist
+    ·  predates cited `PROME/state/AUDIT_PERIMETER.tsv` by 4d — re-read if load-bearing
+✅ AGENTS/CARL/research/2026-10-26_L786/RESULT.md
+    ◦  allowlisted (expires 2027-01-20): DEAD POINTER: `memory/threshold` does not exist
+✅ PROME/proposals/2026-10-28_wq527-528-RULED.md
+    ·  predates cited `PROME/GATES.tsv` by 5d — re-read if load-bearing
+✅ scripts/AGENT_LAUNCHER.md
+⚠️  HEARTBEAT.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-02 ('1/2') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+39 more rows in ±45d). VERIFY + full logic re-read.
+    ·  predates cited `AGENTS/BOND/STATUS.md` by 2d — re-read if load-bearing
+    ·  predates cited `AGENTS/BRENT/STATUS.md` by 2d — re-read if load-bearing
+    ·  predates cited `AGENTS/BROCK/STATUS.md` by 2d — re-read if load-bearing
+    ·  predates cited `AGENTS/HENRY/STATUS.md` by 2d — re-read if load-bearing
+    ·  predates cited `AGENTS/MIDAS/STATUS.md` by 2d — re-read if load-bearing
+    ·  predates cited `FORGE/STATUS.md` by 0d — re-read if load-bearing
+    ·  predates cited `PROME/DOCKET.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/GATES.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/SCRATCH.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/WILL_QUEUE.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/state/CALENDAR.md` by 2d — re-read if load-bearing
+⚠️  memory/auto/INDEX_COLD.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-04 ('1/4') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+33 more rows in ±45d). VERIFY + full logic re-read.
+    ·  predates cited `FORGE/PREDICTION_DISCIPLINE.md` by 8d — re-read if load-bearing
+    ·  predates cited `memory/auto/INDEX_COLD_EMBEDDED.md` by 15d — re-read if load-bearing
+✅ AGENTS.md
+    ·  predates cited `AGENTS/FERT/CLAUDE.md` by 6d — re-read if load-bearing
+    ·  predates cited `AGENTS/_INDEX.md` by 0d — re-read if load-bearing
+    ·  predates cited `AGENTS/_NETWORK.md` by 6d — re-read if load-bearing
+    ·  predates cited `PROME/AUTONOMY.md` by 8d — re-read if load-bearing
+    ·  predates cited `PROME/BOOT.md` by 10d — re-read if load-bearing
+    ·  predates cited `PROME/CLOSEOUT.md` by 9d — re-read if load-bearing
+    ·  predates cited `PROME/COMPLETION_SPEC.md` by 7d — re-read if load-bearing
+    ·  predates cited `PROME/HANDOFF.md` by 10d — re-read if load-bearing
+    ·  predates cited `PROME/ORCHESTRATION_PLAYBOOK.md` by 8d — re-read if load-bearing
+    ·  predates cited `PROME/ROSTER.md` by 10d — re-read if load-bearing
+    ·  predates cited `PROME/WILL_QUEUE.md` by 10d — re-read if load-bearing
+✅ AGENTS/_NETWORK.md
+    ·  predates cited `PROME/ROSTER.md` by 4d — re-read if load-bearing
+    ·  predates cited `PROME/SYSTEM.md` by 2d — re-read if load-bearing
+✅ AGENTS/ORACLE/SCHEDULED_RUNS.md
+    ·  predates cited `AGENTS/BRENT/SCHEDULED_RUNS.md` by 5d — re-read if load-bearing
+⚠️  PROME/MACHINE_LOCAL.md
+    ⚠️  DEAD POINTER: `tools/routine_check.py` does not exist
+    ·  predates cited `AGENTS/ORACLE/workbook/ROUTINE_RUNS.tsv` by 0d — re-read if load-bearing
+    ·  predates cited `PROME/ROSTER.md` by 0d — re-read if load-bearing
+    ·  predates cited `scripts/AGENT_LAUNCHER.md` by 0d — re-read if load-bearing
+⚠️  AGENTS/BOND/STATUS.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-25 ('1/25') — matches no docket row but is near: EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28); CREED numeric-band BASE-RATING at n=12 observations (successor to row 33 ask ③, Will-ruled 8/27 "Approve all three asks - go ahead" — the DATE-keyed month-N revisit is RETIRED as a scheduled null result; each band base-rates when ITS series reaches n=12 monthly obs). Est arrivals at current cadence: VX-1.01 ~2027-01, VX-2.01 + VX-3.04 ~2027-04 — dates are ESTIMATES, the trigger is the OBSERVATION COUNT (CREED boot-scan owns the count; this row is the coordination-layer read-path so the obligation is never untracked again). ⚠️ Name the ARTIFACT owed: a base-rating memo per band in AGENTS/CREED/registry/, not a spawn occasion (2027-01-31) (+9 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-27 ('1/27') — matches no docket row but is near: EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28); CREED numeric-band BASE-RATING at n=12 observations (successor to row 33 ask ③, Will-ruled 8/27 "Approve all three asks - go ahead" — the DATE-keyed month-N revisit is RETIRED as a scheduled null result; each band base-rates when ITS series reaches n=12 monthly obs). Est arrivals at current cadence: VX-1.01 ~2027-01, VX-2.01 + VX-3.04 ~2027-04 — dates are ESTIMATES, the trigger is the OBSERVATION COUNT (CREED boot-scan owns the count; this row is the coordination-layer read-path so the obligation is never untracked again). ⚠️ Name the ARTIFACT owed: a base-rating memo per band in AGENTS/CREED/registry/, not a spawn occasion (2027-01-31) (+9 more rows in ±45d). VERIFY + full logic re-read.
+✅ AGENTS/WATT/reports/2026-10-29_WATT_SWEEP.md
+✅ PROME/inbox/processed/2026-10-30_from-DAEDALUS_wiring4-wal-check10.md
+    ·  predates cited `AGENTS/DAEDALUS/runs/2026-10-30_WIRING_SWEEP_17_RUN4.md` by 3d — re-read if load-bearing
+✅ AGENTS/DAEDALUS/runs/2026-10-30_WIRING_SWEEP_17_RUN4.md
+    ◦  allowlisted (expires 2027-01-20): DEAD POINTER: `scripts/cot_grade.py` does not exist
+    ◦  allowlisted (expires 2027-01-20): DEAD POINTER: `scripts/hormuz_transit_watch.py` does not exist
+    ◦  allowlisted (expires 2027-01-20): DEAD POINTER: `water/SOURCES.md` does not exist
+    ◦  allowlisted (expires 2027-01-20): DATE DRIFT: artifact says 2027-01-01 ('01/1') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+40 more rows in ±45d). VERIFY + full logic re-read.
+✅ PROME/inbox/processed/2026-10-30_from-DAEDALUS_creed-profile-refresh.md
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/CREED/inbox/2026-10-30_from-DAEDALUS_profile-refresh.md`
+✅ AGENTS/DAEDALUS/runs/2026-10-30_CREED_REFRESH.md
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/BROCK/inbox/2026-10-30_from-DAEDALUS_selfcheck-lineage-note.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/CREED/inbox/2026-10-30_from-DAEDALUS_profile-refresh.md`
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-10-30_from-DAEDALUS_creed-profile-refresh.md`
+⚠️  AGENTS/DAEDALUS/profiles/CREED.md
+    ⚠️  DEAD POINTER: `cases/CASES.tsv` does not exist
+    ⚠️  DEAD POINTER: `cases/CASE_NOTES.md` does not exist
+    ⚠️  DEAD POINTER: `catchups/INDEX.md` does not exist
+    ⚠️  DEAD POINTER: `notes/VX_NOTES.md` does not exist
+    ⚠️  DEAD POINTER: `registry/CREED_T_FIRED_LOG.tsv` does not exist
+    ⚠️  DEAD POINTER: `registry/PREREG_2026-11_TREPP_PRINT.md` does not exist
+    ⚠️  DEAD POINTER: `registry/THRESHOLDS.tsv` does not exist
+    ⚠️  DEAD POINTER: `scripts/creed_selfcheck.py` does not exist
+    ⚠️  DEAD POINTER: `thesis/CHANGELOG.md` does not exist
+    ⚠️  DEAD POINTER: `thesis/THESIS.md` does not exist
+    ⚠️  DEAD POINTER: `workbook/KB.tsv` does not exist
+    ⚠️  DEAD POINTER: `workbook/PREDICTIONS.tsv` does not exist
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/CREED/inbox/2026-10-30_from-DAEDALUS_profile-refresh.md`
+    ·  predates cited `PROME/DOCKET.tsv` by 3d — re-read if load-bearing
+✅ PROME/inbox/processed/2026-10-30_from-DAEDALUS_falcon-profile-refresh.md
+✅ AGENTS/DAEDALUS/runs/2026-10-30_FALCON_REFRESH.md
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-10-30_from-DAEDALUS_falcon-profile-refresh.md`
+    ·  predates cited `AGENTS/FALCON/inbox/2026-10-30_from-DAEDALUS_profile-refresh.md` by 0d — re-read if load-bearing
+⚠️  AGENTS/DAEDALUS/profiles/FALCON.md
+    ⚠️  DEAD POINTER: `thesis/PREDICTIONS.tsv` does not exist
+    ⚠️  DEAD POINTER: `workbook/EXIT_PROTOCOL.md` does not exist
+✅ PROME/proposals/2026-10-30_wq560-RULED.md
+    ·  predates cited `PROME/ACTIVE_DECISIONS.md` by 0d — re-read if load-bearing
+    ·  predates cited `PROME/DOCKET.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/GATES.tsv` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/HANDOFF.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/ROSTER.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/SCRATCH.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/STATUS.md` by 2d — re-read if load-bearing
+    ·  predates cited `PROME/WILL_QUEUE.md` by 2d — re-read if load-bearing
+✅ PROME/tools/tests/ACCEPTANCE_claim_check_glued_2026-10-30.md
+    ·  predates cited `PROME/proposals/2026-10-30_wq560-RULED.md` by 1d — re-read if load-bearing
+✅ PROME/inbox/processed/2026-10-31_from-REGINALD_L857-shortlist-rerun.md
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/DAEDALUS/inbox/2026-10-31_from-REGINALD_profile-refresh-dispositions.md`
+✅ AGENTS/REGINALD/reports/2026-10-31_L857/REPORT.md
+    ·  cited packet now in processed/ — designed disposition, not rot: `AGENTS/DAEDALUS/inbox/2026-10-31_from-REGINALD_profile-refresh-dispositions.md`
+⚠️  AGENTS/ISHM/RELEASE_PREP_2026-10-27.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-02 ('1/2') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+39 more rows in ±45d). VERIFY + full logic re-read.
+⚠️  PROME/inbox/processed/2026-10-31_from-TERRY_trade-ideas.md
+    ⚠️  DEAD POINTER: `WILL/README.md` does not exist
+    ⚠️  DATE DRIFT: artifact says 2027-01-15 ('Jan-15') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+15 more rows in ±45d). VERIFY + full logic re-read.
+    ·  predates cited `AGENTS/TERRY/setups/UNG_jan15-10-12C_polar-vortex-break_2026-10-31.md` by 2d — re-read if load-bearing
+⚠️  AGENTS/TERRY/setups/UNG_jan15-10-12C_polar-vortex-break_2026-10-31.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-15 ('Jan-15') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); EGBN Q4-2026 PRINT — CHG-RED-027 Q4 RE-REVIEW (successor of L35, RED packet 10/22): re-grade the bank tree at the primary on the Q4 8-K (date ESTIMATE ~late Jan 2027, RED re-dates at announcement); carries the Q4 maturity wall (~$525M of identified loans, ALL types = $146.9M criticized + $378.6M pass top-25, matures 10/27–12/30; multifamily $265.7M, the figure L791 carries — REGINALD 5f59d0720; the $56.0M Prince George's loan due 12/21 = L791) and the composition caveat from the Q3 grade (one loan carried the DETERIORATION verdict). RED owns; REGINALD cohort; PROME consumes into HEARTBEAT. (2027-01-28) (+15 more rows in ±45d). VERIFY + full logic re-read.
+    ⚠️  DATE DRIFT: artifact says 2027-01-08 ('2027-01-08') — matches no docket row but is near: UNITED STATES v. MAKHIJANI (C.D. Cal. 8:26-cr-00087-DOC, Judge Carter) — TRIAL DATE per dkt 52 (HARD; continued from 8/11/2026): federal bank-fraud complaint, "Bank #1" = Western Alliance (~$100M; scheme 9/2024–4/2025). READ: verdict / plea / restitution order; a conviction supports WAL's fraud-policy and title claims (restitution rarely makes a lender whole); FDIC-OIG / Fed OIG interest may broaden now that a failed Fed member bank sits in the same web. WAL had NO row on this case until 9/27 (KB-WAL-203). (2027-01-12); 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31) (+28 more rows in ±45d). VERIFY + full logic re-read.
+    ·  cited packet now in processed/ — designed disposition, not rot: `PROME/inbox/2026-11-02_from-WALTER_UNG-trigger-check-and-TERRY-refresh.md`
+    ·  predates cited `PROME/GATES.tsv` by 0d — re-read if load-bearing
+✅ PROME/CLOSEOUT.md
+    ◦  allowlisted (expires 2026-12-17): DEAD POINTER: `memory/YYYY-MM-DD.md` does not exist
+    ·  predates cited `PROME/BOOT.md` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/DOCKET.tsv` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/GATES.tsv` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/HANDOFF.md` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/SCRATCH.md` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/STATUS.md` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/WILL_QUEUE.md` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/registry/WQ_LEDGER.tsv` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/state/CALENDAR.md` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/state/ORCH_LOG.tsv` by 1d — re-read if load-bearing
+⚠️  PROME/CLOSEOUT_PROCEDURES.md
+    ⚠️  DEAD POINTER: `memory/YYYY-MM-DD.md` does not exist
+    ·  predates cited `PROME/CLOSEOUT.md` by 1d — re-read if load-bearing
+    ·  predates cited `PROME/HANDOFF.md` by 2d — re-read if load-bearing
+⚠️  PROME/state/ORCH_INFLIGHT.md
+    ⚠️  DEAD POINTER: `PROME/in` does not exist
+✅ PROME/inbox/processed/2026-11-02_from-BROCK_L794-crmt-ninth-bridge-drain7.md
+⚠️  PROME/proposals/2026-11-02_wq589-RULED.md
+    ⚠️  DEAD POINTER: `workbook/VX.tsv` does not exist
+⚠️  PROME/proposals/2026-11-02_wq559-RULED.md
+    ⚠️  DATE DRIFT: artifact says 2027-01-02 ('2027-01-02') — matches no docket row but is near: 2007 Colorado River Interim Guidelines EXPIRE (HARD backstop) (2026-12-31); ALL SAVE exit notices issued — COMPRESSED ~3 months (was Mar 2027) (2026-12-31) (+39 more rows in ±45d). VERIFY + full logic re-read.
+
+◦ 12 known-benign flag(s) suppressed by scripts/firetime_allowlist.tsv (expiry-dated; expired rows re-flag).
+
+→ 80 flag(s). Rule: a DATE flag means FULL LOGIC RE-READ of the artifact (a date fix can break gate sequencing), never a find-replace.

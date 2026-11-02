@@ -1,0 +1,67 @@
+{
+  "readcap_after": {
+    "rc": 0,
+    "bytes": 15755,
+    "command": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "REGINALD"
+    ]
+  },
+  "checklist": {
+    "rc": 0,
+    "bytes": 1650,
+    "command": [
+      "python3",
+      "scripts/validate_all.py",
+      "--list"
+    ]
+  },
+  "readcap_selftest": {
+    "rc": 0,
+    "bytes": 139,
+    "command": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--selftest"
+    ]
+  },
+  "companions_test": {
+    "rc": 0,
+    "bytes": 107,
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "AGENTS/DAEDALUS/scripts/test_read_cap_companions.py"
+    ]
+  },
+  "firetime": {
+    "rc": 0,
+    "bytes": 93,
+    "command": [
+      "python3",
+      "scripts/firetime_check.py"
+    ]
+  },
+  "falsification": {
+    "rc": 0,
+    "bytes": 1586,
+    "command": [
+      "python3",
+      "AGENTS/DAEDALUS/scripts/falsification_scan.py",
+      "--agent",
+      "BROCK"
+    ]
+  },
+  "falsification_help": {
+    "rc": 1,
+    "bytes": 4471,
+    "command": [
+      "python3",
+      "AGENTS/DAEDALUS/scripts/falsification_scan.py",
+      "--help"
+    ]
+  }
+}

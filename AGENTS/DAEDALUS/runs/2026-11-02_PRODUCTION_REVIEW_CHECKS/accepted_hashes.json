@@ -1,0 +1,6 @@
+{
+  "scripts/read_cap_check.py": "ac3f9e65a53a1120772ca04f11497e6af1301f69e72656f26d4dfcd3cfa90371",
+  "AGENTS/DAEDALUS/scripts/test_read_cap_companions.py": "695983d0b8a43541cafaa821ffd36309e9af50f9f20d8a618dcb545f6229bbee",
+  "AGENTS/WALTER/tools/signal_read_check.py": "91717b708d94b2e8e452fa108a9c7781515d84131ea6388efbacc33df85b7039",
+  "AGENTS/WALTER/registry/signal_read_companions.json": "81afa239362a3e2cbda4bb4bd3b3a41711e6a279ca6206a014660dd098a43462"
+}

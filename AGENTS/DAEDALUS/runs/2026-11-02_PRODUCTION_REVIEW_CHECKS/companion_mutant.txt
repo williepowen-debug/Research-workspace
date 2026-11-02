@@ -1,0 +1,37 @@
+F...F..FF
+======================================================================
+FAIL: test_bad_registry_keeps_original_and_reports_defect (companion_mutant_tests.CompanionTests.test_bad_registry_keeps_original_and_reports_defect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/test_read_cap_companions.py", line 104, in test_bad_registry_keeps_original_and_reports_defect
+    self.assertTrue(r[2])
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_missing_validator_keeps_original (companion_mutant_tests.CompanionTests.test_missing_validator_keeps_original)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/test_read_cap_companions.py", line 110, in test_missing_validator_keeps_original
+    self.assertTrue(r[2])
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_valid_substitute_both_row_orders (companion_mutant_tests.CompanionTests.test_valid_substitute_both_row_orders)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/test_read_cap_companions.py", line 58, in test_valid_substitute_both_row_orders
+    self.assertNotIn(str(self.root / self.source), cb)
+AssertionError: '/tmp/tmpem8a_krk/BOARD/SIG-W-20260619-008-long-title.md' unexpectedly found in {'/tmp/tmpem8a_krk/BOARD/SIG-W-20260619-008-long-title.md': ('whole', 'selected', 'BOARD/SIG-W-*.md'), '/tmp/tmpem8a_krk/AGENTS/WALTER/reading/SIG-W-20260619-008.md': ('whole', 'selected', None)}
+
+======================================================================
+FAIL: test_wrong_step_or_nonwhole_copy_keeps_original (companion_mutant_tests.CompanionTests.test_wrong_step_or_nonwhole_copy_keeps_original)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/AGENTS/DAEDALUS/scripts/test_read_cap_companions.py", line 77, in test_wrong_step_or_nonwhole_copy_keeps_original
+    self.assertTrue(any(sev == cap.P_DEFECT for sev, msg in r[2]))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.025s
+
+FAILED (failures=4)

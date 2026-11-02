@@ -1,0 +1,1 @@
+✅ READ-CAP SELFTEST 131/131 leg(s) pass (R7-stage-2 manifest consumer: C1–C12 + N1–N8 owner notice + rc contract, frozen tempdir fixtures)

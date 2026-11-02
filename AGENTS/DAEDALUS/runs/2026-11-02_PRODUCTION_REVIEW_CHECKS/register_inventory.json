@@ -1,0 +1,33 @@
+{
+  "rows": 56,
+  "unwired_rows": [
+    {
+      "Check": "scripts/wiring_census.py",
+      "State": "UNWIRED",
+      "Invoked_by": "None yet \u2014 fleet run 2026-09-07 filed as runs/2026-09-07_H1_WIRING_CENSUS_fleet.md; target = validate_all v1 (9/10)"
+    },
+    {
+      "Check": "scripts/validate_all.py",
+      "State": "BUILT-UNWIRED",
+      "Invoked_by": "UNWIRED at delivery by design - wiring it into a boot/closeout step is PROME's/Will's call (ASK in the 2026-09-10 delivery memo). Run on demand at any tooling sitting; the intended standing reader is PROME at closeout when a decision ledger was touched"
+    }
+  ],
+  "new_unregistered_candidates": [
+    "scripts/AGENT_LAUNCHER.md",
+    "scripts/agents.json",
+    "scripts/agents.py",
+    "scripts/agents_gui.ps1",
+    "scripts/agents_gui.py",
+    "scripts/assets/agent-launcher.ico",
+    "scripts/assets/agent-launcher.png",
+    "scripts/assets/agent-launcher.svg",
+    "scripts/calendar_launcher.ps1",
+    "scripts/decisions_launcher.ps1",
+    "scripts/install_agents.py",
+    "scripts/kimi_launcher.py",
+    "scripts/research_reader.ps1",
+    "scripts/research_reader.py",
+    "scripts/research_sources.json"
+  ],
+  "all_have_invoker_and_null": true
+}

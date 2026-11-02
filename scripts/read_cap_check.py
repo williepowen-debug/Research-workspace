@@ -60,7 +60,9 @@ Usage (cwd-proof):
     python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" FILE [FILE ...]
 """
 import glob
+import importlib.util
 import os
+from pathlib import Path
 import re
 import sys
 
@@ -428,6 +430,53 @@ def load_reads(path=None):
     return rows, None
 
 
+def signal_companion_members(row, mine, members, base_root):
+    """L889: apply an explicit, validated MEMBER EXCEPTION to one CLASS row.
+
+    Notes alone never authorize substitution. The existing WALTER validator owns
+    identity, approval, dates and budget. Independent whole-source declarations
+    and other CLASS rows remain cap-bearing. Invalid exceptions retain originals.
+    Production acceptance: REGINALD's selected BOARD class + declared SIG-W-20260619-008
+    companion; removing the exception or changing any bound bytes restores the source.
+    """
+    notes = row.get("notes") or ""
+    if "MEMBER EXCEPTION" not in notes:
+        return members, [], []
+    visible, problems = [], []
+    try:
+        spec = importlib.util.spec_from_file_location(
+            "signal_companion_validation", os.path.join(
+                ROOT, "AGENTS/WALTER/tools/signal_read_check.py"))
+        validator = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(validator)
+        ids = set(re.findall(r"\bSIG-W-\d{8}-\d{3}\b", notes))
+        accepted = set()
+        for signal_id in sorted(ids):
+            record, _body = validator.validate(
+                signal_id, repo=Path(base_root), byte_budget=BUDGET_BYTES)
+            companion = record["companion"]
+            if companion not in notes or not any(
+                    r.get("row_kind") == "READ" and r.get("path") == companion
+                    and r.get("mode") == "whole"
+                    and r.get("source_boot_step") == row.get("source_boot_step")
+                    for r in mine):
+                raise ValueError(f"{signal_id}: exact whole companion declaration at the same step missing")
+            source = os.path.normpath(os.path.join(base_root, record["source"]))
+            if source not in members:
+                raise ValueError(f"{signal_id}: registered source is not a member of this CLASS row")
+            accepted.add(source)
+            visible.append((record["source"],
+                            f"whole via validated reading copy `{companion}`; source not loaded by this CLASS row",
+                            row.get("source_boot_step") or "READS.tsv"))
+        if not accepted:
+            raise ValueError("MEMBER EXCEPTION has no exact registered signal ID")
+        return [m for m in members if m not in accepted], visible, []
+    except (OSError, ValueError, KeyError, TypeError, AttributeError, ImportError) as exc:
+        problems.append((P_DEFECT, f"CLASS row `{row.get('path')}` MEMBER EXCEPTION invalid: {exc}; "
+                         "original members retained; owner re-validates the reading copy"))
+        return members, [], problems
+
+
 def declared_reads(name, path=None, root=None):
     """(cap_bearing, visible, problems, attested, note) from the manifest.
     THREE return states, and a caller MUST distinguish them (cold read F1, 2026-09-12 — this
@@ -523,7 +572,11 @@ def declared_reads(name, path=None, root=None):
                             f"is UNAVAILABLE — cannot prove it drained; cannot certify this row"))
                     class_rows.append((pth, mode, src, [], hist))
                     continue
-                for f in members:
+                effective, replacements, defects = (signal_companion_members(r, mine, members, base_root)
+                                                     if attested else (members, [], []))
+                visible.extend(replacements)
+                problems.extend(defects)
+                for f in effective:
                     cap_bearing.setdefault(f, (mode, src, pth))   # a single-file row for the same
                 class_rows.append((pth, mode, src, members, None))  # path wins (it overwrites below)
                 continue
@@ -1004,7 +1057,7 @@ def check_agent(name, quiet=False, require_manifest=False, charter_mode="unspeci
                   f"(rule 16 ruling 2026-09-24): {len(mrows)} member(s) measured, {nb_c} over budget, "
                   f"{nc_c} over the CAP"
                   + (f", largest {big[2]:,} B ({big[3]:.0%} of budget)" if big else "")
-                  + (f"; {shadowed} member(s) also matched by another manifest row, graded there" if shadowed else "")
+                  + (f"; {shadowed} member(s) graded through another row or validated reading copy; see declarations" if shadowed else "")
                   + f"  ({csrc})")
             hot = sorted((r for r in mrows if r[2] >= STOP_B), key=lambda r: -r[2])
             for r in hot:

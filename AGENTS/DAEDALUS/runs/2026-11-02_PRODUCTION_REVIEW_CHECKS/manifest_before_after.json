@@ -1,0 +1,25 @@
+{
+  "readers_compared": 20,
+  "changed": [
+    {
+      "reader": "REGINALD",
+      "removed": [
+        "BOARD/SIG-W-20260619-008-south-florida-distress-deep-research-bank-transmission-assessment.md"
+      ],
+      "added": [],
+      "old_defects": [
+        [
+          "ADVISORY",
+          "CLASS row `AGENTS/REGINALD/inbox/*.md` (REGINALD:MAIL) declared `whole` matched 0 files today (307 files matched historically) \u2014 correctly quiet, not counted"
+        ]
+      ],
+      "new_defects": [
+        [
+          "ADVISORY",
+          "CLASS row `AGENTS/REGINALD/inbox/*.md` (REGINALD:MAIL) declared `whole` matched 0 files today (307 files matched historically) \u2014 correctly quiet, not counted"
+        ]
+      ]
+    }
+  ],
+  "source_sha256": "ac3f9e65a53a1120772ca04f11497e6af1301f69e72656f26d4dfcd3cfa90371"
+}

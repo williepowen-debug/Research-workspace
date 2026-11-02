@@ -2,13 +2,13 @@
 """validate_all.py — the fleet's ONE mechanical-suite runner (v1, 2026-09-10, DAEDALUS).
 
 WHAT IT IS
-  A SUITE RUNNER over already-registered checks plus a small set of in-house
-  LEDGER-TYPING legs.  It runs each registered check in its own self-verifying
+  A SUITE RUNNER over selected already-registered checks plus a small set of in-house
+  LEDGER-TYPING legs.  It runs each listed check in its own self-verifying
   mode, types the three PROME decision ledgers, and returns ONE aggregate
   verdict under the CHECK_STANDARD §9 rc contract.
 
-  Its perimeter is `AGENTS/DAEDALUS/CHECKS.tsv` — i.e. it is bounded by checks
-  that already exist.
+  Its eligible checks come from `AGENTS/DAEDALUS/CHECKS.tsv`; the implemented
+  legs listed by --list define its actual perimeter, not the whole register.
 
 WHAT IT IS NOT  ⚠️  (scope RULED 2026-09-05 BEFORE the build; record
   `AGENTS/DAEDALUS/design/2026-09-05_VALIDATE_ALL_IS_NOT_THE_YEYOU_REPLACEMENT.md`)
@@ -728,6 +728,7 @@ def build_legs():
 
 # Legs deliberately NOT in v1 — named so the perimeter line can be honest.
 NOT_CHECKED_V1 = [
+    "agent-local registered checks without an explicitly listed suite leg",
     "ledger completeness vs the trading calendar (needs a calendar source; v2)",
     "wiring_census / asmade_audit forward legs (agent-judged output; v2)",
     "mail-loop, watermark and contradiction-against-own-rules classes — "
@@ -1366,7 +1367,7 @@ def main(argv=None):
     root = Path(args.root) if args.root else repo_root()
 
     if args.list:
-        print(f"{TOOL} {VERSION} legs — perimeter AGENTS/DAEDALUS/CHECKS.tsv")
+        print(f"{TOOL} {VERSION} legs — selected checks from AGENTS/DAEDALUS/CHECKS.tsv")
         for leg in build_legs():
             print(f"  {leg.id}  [{'structural ' if leg.flips else 'delta-keyed'}]  {leg.label:<38} {leg.perimeter}")
         print("  NOT in v1:")

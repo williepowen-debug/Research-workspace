@@ -42,8 +42,10 @@ all three ADDITIVE, default output byte-identical without the flags):
           re-pull ATTEMPTED: YYYY-MM-DD") instead of counting it behind — for that surface
           class writes-behind measures how busy the desk is, not how stale the ledger is,
           and a structurally always-red check trains skipping on every surface. The
-          declaration affects --nudge ONLY: the --days/--writes/--abs-floor scans still
-          grade the file (OSPREY's own disposition: "leave it flagging"). A declaration
+          declaration also participates in scan-mode declared-quiet classification
+          (WQ-147, September 1). A valid re-pull clock has no age expiry in that
+          classification: quiet is not proof of recent attention or fresh data.
+          Per-row expiry is outside this file-level check. A declaration
           with NO parseable re-pull clock line is MISCONFIGURED (rc 2): absence-expected
           certifies nothing unless somebody provably looked.
   python3 scripts/ledger_staleness.py --all --writes      # (a) activity-denominated backstop:

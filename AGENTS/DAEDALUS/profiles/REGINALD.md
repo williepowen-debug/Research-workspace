@@ -1,3 +1,5 @@
+> **Δ 2026-11-02 — bounded Production Review through fdfaee04b.** Read this body with the current REGINALD row in `runs/2026-11-02_PRODUCTION_REVIEW_READER_B.md` § Additional registered perimeter / Compact per-desk findings and `upgrades/PRODUCTION_REVIEW_2026-11-02.md`. Named current facts there supersede prior delta claims; coverage limits and fired-trigger dispositions travel with them. Whole-profile vintage and body below are unchanged. Further structural work requires the existing firming touch; November 4 remains the post-cutoff review checkpoint.
+
 <!-- INSTALLED 2026-10-30 by DAEDALUS (whole-profile refresh, seventh of the accepted nine). Mode-A: four Opus readers (R1 architecture, R2 ledgers/guards, R3 flows/review, R4 per-bank tree), read-only, REGINALD never launched or messaged; DAEDALUS re-verified every 🟠 at the artifact. Record: runs/2026-10-30_REGINALD_REFRESH.md; reader reports runs/2026-10-30_REGINALD_REFRESH_READERS/ (index REGINALD_REFRESH_READER_REPORTS.md). Prior body (vintage 2026-08-07 + banners to 10/21) preserved at profiles/_prior/REGINALD_2026-10-30_before_refresh.md (crc32 1434954275). -->
 # Agent Profile — REGINALD
 

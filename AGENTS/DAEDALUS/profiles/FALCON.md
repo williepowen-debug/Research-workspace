@@ -1,3 +1,5 @@
+> **Δ 2026-11-02 — bounded Production Review through 3b336483d.** Read this body with the current FALCON row in `runs/2026-11-02_PRODUCTION_REVIEW_READER_A.md` § Additional registered perimeter / Compact per-desk findings and `upgrades/PRODUCTION_REVIEW_2026-11-02.md`. Named current facts there supersede prior delta claims; coverage limits and fired-trigger dispositions travel with them. Whole-profile vintage and body below are unchanged. Further structural work requires the existing firming touch; November 4 remains the post-cutoff review checkpoint.
+
 <!-- INSTALLED 2026-10-30 by DAEDALUS (whole-profile refresh, eighth of the accepted nine). Mode-A: three Opus readers (R1 architecture, R2 ledgers/guards, R3 flows/ladder), read-only, FALCON never launched or messaged; DAEDALUS re-verified every 🟠 at the artifact. Record: runs/2026-10-30_FALCON_REFRESH.md; reader reports runs/2026-10-30_FALCON_REFRESH_READERS/ (index FALCON_REFRESH_READER_REPORTS.md). Prior body (8/07 + 8/15 Δ + banners to 10/21) preserved at profiles/_prior/FALCON_2026-10-30_before_refresh.md (crc32 3140782960). -->
 # Agent Profile — FALCON
 

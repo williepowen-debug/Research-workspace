@@ -1,0 +1,49 @@
+# Fleet maturity scan (objective layer) — 40 agents · HEAD-relative staleness
+
+| Agent | Class | Floor | →L3-5? | 30d | Conformance gaps |
+|---|---|---|---|---:|---|
+| REGINALD | Market | L2 | L4? ⚠needs-read | 441 | 5 bare boot invocation(s) not cwd-proof (PAT-031) |
+| BRENT | Market | L2 | L4? ⚠needs-read | 354 | no BOTTOM LINE |
+| LIQUID | Market | L2 | L2 | 341 | no BOTTOM LINE; no conv-matrix |
+| VULCAN | Market | L2 | L4? ⚠needs-read | 242 | — |
+| HENRY | Market | L2 | L2 | 236 | no BOTTOM LINE; no conv-matrix |
+| CARL | Market | L2 | L4? ⚠needs-read | 201 | no BOTTOM LINE |
+| BROCK | Market | L2 | L4? ⚠needs-read | 191 | — |
+| FALCON | Market | L2 | L3? ⚠needs-read | 155 | — |
+| HAWK | Market | L2 | L4? ⚠needs-read | 153 | 4 bare boot invocation(s) not cwd-proof (PAT-031) |
+| CYPHER | Market | L2 | L2 | 135 | no conv-matrix |
+| WAL | Market | L2 | L3? ⚠needs-read | 131 | exit-rules lack session counts |
+| WATT | Market | L2 | L4? ⚠needs-read | 119 | exit-rules lack session counts |
+| OSPREY | Market | L2 | L2 | 116 | no conv-matrix |
+| SAM | Market | L2 | L2 | 113 | no BOTTOM LINE; no conv-matrix |
+| VIOLET | Market | L2 | L4? ⚠needs-read | 107 | — |
+| HANS | Market | L2 | L2 | 103 | no BOTTOM LINE; no conv-matrix |
+| MIDAS | Market | L2 | L2 | 102 | no conv-matrix |
+| OTTO | Market | L2 | L4? ⚠needs-read | 102 | — |
+| SHADE | Market | L2 | L2 | 99 | no conv-matrix |
+| BOND | Market | L2 | L4? ⚠needs-read | 95 | — |
+| OZK | Market | L2 | L2 | 90 | no conv-matrix |
+| LABOR | Market | L2 | L4? ⚠needs-read | 86 | — |
+| CREED | Market | L2 | L3? ⚠needs-read | 73 | — |
+| GIBBS | Market | L2 | L2 | 71 | no conv-matrix; exit-rules lack session counts |
+| YURI | Market | L2 | L2 | 71 | no conv-matrix; exit-rules lack session counts |
+| AEOLUS | Market | L2 | L4? ⚠needs-read | 69 | — |
+| HOMER | Market | L2 | L3? ⚠needs-read | 66 | — |
+| CORAL | Market | L2 | L2 | 65 | no conv-matrix |
+| MARCO | Market | L2 | L2 | 60 | no conv-matrix |
+| ZHAO | Market | L2 | L4? ⚠needs-read | 59 | — |
+| FERT | Market | L2 | L2 | 52 | no conv-matrix |
+| ISHM | Market | L2 | L2 | 45 | no conv-matrix; no exit-rules |
+| FLG | Market | L2 | L2 | 44 | no conv-matrix |
+| DAEDALUS | Meta | L2 | L4? ⚠needs-read | 261 | — |
+| WALTER | Utility | L2 | L4? ⚠needs-read | 850 | 15 bare boot invocation(s) not cwd-proof (PAT-031) |
+| TERRY | Utility | L2 | L2 | 249 | no BOTTOM LINE |
+| NEXUS | Utility | L2 | L2 | 159 | no BOTTOM LINE |
+| RED | Utility | L2 | L4? ⚠needs-read | 103 | — |
+| ORACLE | Utility | L2 | L4? ⚠needs-read | 37 | — |
+| YEYOU | Utility | L1 | L1 | 0 | — |
+| DEWEY | — | **NOT GRADED** | judgment-only | — | STATELESS BY DESIGN — ROSTER.md:124 'stateless (INDEX.tsv only)'; profiles/DEWEY.md:36 'never add STATUS/SCRATCH/predictions… changing it needs Will'. The floor's STATUS/BOTTOM-LINE legs cannot apply, so a scanned 'L0' is a false gap (PR#7 R1, 2026-10-01). |
+| RAV | — | **NOT GRADED** | judgment-only | — | Codex/Will-driven — no repo CLAUDE.md or STATUS.md BY DESIGN (handed its context, does not boot from the tree). Spec = DAEDALUS/builds/RAV_CHARTER.md; floor L0-L2 is undefined for it, so a scanned 'L0' would be a false gap, not a finding. |
+| CATO | — | **NOT GRADED** | by ruling | — | SPECIAL by Will's ruling (WQ-255, 2026-09-26): manual adviser/independent reviewer — no launch, no routing, no maturity-ladder row. Not graded by any instrument, by ruling. |
+
+_Floor = objective structural presence (L0 skeleton · L1 live STATUS · L2 +structured record). →L3-5? = mechanical hint; **every L3+ is PROVISIONAL (⚠needs-read) until DAEDALUS reads the agent** (PAT-009/PAT-020). Artifact detection is recursive (live subtrees only). Gaps = conformance debt, independent of level._

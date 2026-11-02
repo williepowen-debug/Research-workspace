@@ -1,3 +1,5 @@
+> **Δ 2026-11-02 — bounded Production Review through 3b336483d.** Read this body with the current WAL row in `runs/2026-11-02_PRODUCTION_REVIEW_READER_A.md` § Additional registered perimeter / Compact per-desk findings and `upgrades/PRODUCTION_REVIEW_2026-11-02.md`. Named current facts there supersede prior delta claims; coverage limits and fired-trigger dispositions travel with them. Whole-profile vintage and body below are unchanged. Further structural work requires the existing firming touch; November 4 remains the post-cutoff review checkpoint.
+
 # Agent Profile — WAL (Western Alliance Bancorp single-name bank desk)
 
 **Profile vintage:** 2026-10-30 (whole-profile refresh; replaces the 2026-08-07 body, preserved verbatim at `profiles/_prior/WAL_2026-10-30_before_refresh.md`, crc32 3865287047).

@@ -1,3 +1,5 @@
+> **Δ 2026-11-02 — current L4/H independently verified.** The owner charter now explicitly declares no book, and CARL STATUS V3 actually consumes HOMER October 28 evidence; reading A3 passes. L0–L3 retained on the independent per-leg read; L5 NOT-ADJUDICATED. Old missing-no-book/dark-since-October-19 claims are historical. November 20 formal rail cadence and October 28 whole-profile vintage remain unchanged. Exact sources, hashes, refuter and limits: `runs/2026-11-02_PRODUCTION_REVIEW_READER_C.md`; synthesis `upgrades/PRODUCTION_REVIEW_2026-11-02.md`.
+
 # Agent Profile — HOMER (housing: asset market + housing credit structure)
 
 **Profile vintage:** 2026-10-28 (whole-profile refresh; replaces the 2026-08-07 body, preserved verbatim at `profiles/_prior/HOMER_2026-10-28_before_refresh.md`, crc32 1345916504).

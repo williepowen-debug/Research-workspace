@@ -1,0 +1,152 @@
+[
+  {
+    "path": "profiles/AEOLUS.md",
+    "old_sha256": "58893f9727e9497a77b6d91cf3734695fa97d82782e23d678db96a853190a4f7",
+    "new_sha256": "ae260ae71f035a27a8fc7eb3bba737c519a76ee3509b36f0f21feb1ff4b1f80f",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/REGINALD.md",
+    "old_sha256": "4cc63b5f1d87d05c267e5c00b57786cceea40648cf8c9c9b6ffc7d02464b76d9",
+    "new_sha256": "4ce94cc3e3ad09154e92fe5ff6b9a43dc2d054f3e21a848cd3c561c778d4bc99",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/CARL.md",
+    "old_sha256": "7cdd32d50042e853bc80dc5c69c9de4e0ff4cd427ee0c270b1dc7484ea487802",
+    "new_sha256": "02fe80a32fc0c927a232c8687b5ca190f7b1d2f4ecc17da6a077a2ef60ea3a70",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/BROCK.md",
+    "old_sha256": "f35896e56b1c14bc060a9f0e711dead4e4424e6a38626f21048e9e5449b0c193",
+    "new_sha256": "0ddfd75dd7e9d20144269c1e2ebe7873c37e74cc74a623d9fb27890f7954f92c",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/LABOR.md",
+    "old_sha256": "7043061127421782dd4586b5fe980ab5071311e77fac1b00ff929f41adc2d2db",
+    "new_sha256": "165867ebe4dba827f32c7bad8f8435b09b3834fa16031a7fdd0d23fc98cbfae4",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/BOND.md",
+    "old_sha256": "23c1f7dc35a433f8ad0b1039e013d3dafa73cf68704c979ebe422d4862963177",
+    "new_sha256": "9b2ec84521e4eae2f4a037ed45a27cbc58a733b07c087b5d21b584d0c0999fa4",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/VIOLET.md",
+    "old_sha256": "64d9d0d8799d9a669da5af060552d58365d1eb39c1056e0a10278107a22c5848",
+    "new_sha256": "705474098f033f1600dff594cfd89b77006eee69d12cf5359a0d7e84773eaddd",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/HAWK.md",
+    "old_sha256": "225354f20b6818dd5505f747ace3f62fcd804ae61bcd0fdf8ed9bdc39271b94e",
+    "new_sha256": "0ba317be5ccff320edaea9713577229ad3c037b18427ee80219ea0937fbb777e",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/BRENT.md",
+    "old_sha256": "9cd99c480e7c4c58c7641ff50821f56d34306288a6f208800c0438707e8c8d48",
+    "new_sha256": "62bf8688ce0509ebec5d7daaa592eaef30c81971243857bec993c662b95e8f76",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/CORAL.md",
+    "old_sha256": "f4b6b74edc17109500616a08afc0ca9154242dc0f6763fcda1fd20c4824c0cff",
+    "new_sha256": "089e6c409a1fc54889d7ef3edc60d47b8869a63e18dc7ebfb1dbc715fbbe8af0",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/MARCO.md",
+    "old_sha256": "b6ad7e333ec58bad8e360fd62c6c9d2dcdd6b6a042c3909236d22516c8e494fa",
+    "new_sha256": "e42897a45d3a17c371796c111e54d36bad235fcd90783e8d9b374d831ed306f2",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/OTTO.md",
+    "old_sha256": "9cb28693218df1a783fbb5d9dc52cf5316301e57e5f5048dd4a650180cfcfa02",
+    "new_sha256": "05cc4b9be3db972846f7a69f4ebecf5d7abcf769fde288229e3d7a42eac9ce31",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/CREED.md",
+    "old_sha256": "ee23e4e67beec9f3f9f9195773382f93731c354669418212f668097978fd083f",
+    "new_sha256": "3735c396f3d4edea4af9162ddbfb9363b7548966a37b7c968e2b1ea066677d1f",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/ORACLE.md",
+    "old_sha256": "1dabc90d631f12a592e60a42f0e57090d6b9432d3695cf5846d091740bcfd857",
+    "new_sha256": "48ad6e69867d3a2ccafe6c8ae51a489b26ed21e560be8df87e1af732cc54affb",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/ZHAO.md",
+    "old_sha256": "3a3eca1c8c64456952a8a3409dc143e56a33c68f04156d9be84bcd5d16c6e07b",
+    "new_sha256": "697b9685bcf26349484e08fadc695d84077880f91ea9b540520d8f71f7501060",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/DEWEY.md",
+    "old_sha256": "3aeb1c255934e30d067d5ad0ac9b2c088b5dc9503d555165b388bbd578e6978d",
+    "new_sha256": "d61de4e6598ab310e1d5f4dc1c1c05a22dd2fbf815615e0367366b6c165e843d",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/VULCAN.md",
+    "old_sha256": "05161f535cd533ee8ee1967dc3fc753a115618305ea1cc05b7bf27835e0f897e",
+    "new_sha256": "699fa6bd7999556da72b1cada5356a97321241c567a21db2068a2c5e015e7495",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/MIDAS.md",
+    "old_sha256": "bbb3bbc3097a19c940240ca938e5194e531f37fa92f956f8de2d064e7e43d7ae",
+    "new_sha256": "f5efd0cf4d7812c2ec3bc545c9537ef1d0bb4811cafc237b246d46dd2857e90f",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/OSPREY.md",
+    "old_sha256": "a0cc88bce456073448edf16076c5e4e7ecfcdb75f7ac84bda08289f453787e78",
+    "new_sha256": "78764f0f523ff9024f0e2167a6535f0bd57cbba1add755f76b4551f6b0824859",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/FALCON.md",
+    "old_sha256": "7a810341613e0149b2767593ff1635ec2093cd3c5b5d30c649148345781d39c7",
+    "new_sha256": "e0f24a3e9bf42eff47e5338b9a12bc5372ce9b1611936deb72d457160b9db5e2",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/WAL.md",
+    "old_sha256": "30aab56d2621e430a9ea1f5404f85693c543ac3c358e067bea7ca8ad8ee03db7",
+    "new_sha256": "494814785801844ef627ff9a35ae5ce8f20fadb4f139bd18d147ff28e99c3a1b",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/FERT.md",
+    "old_sha256": "dd98d5e972f3eb7756b3f1de85ad5f7d9df499647bd0dc491752648c1bc14d8f",
+    "new_sha256": "61280d66ed2c5b6ab687ed327b467e0efae219c98b3988e64210490df9077f8e",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/CRUISE.md",
+    "old_sha256": "c35be16c8ef68f9805c521757af0e036409b30de1f1c60407dd4937a5e8d3382",
+    "new_sha256": "1b6a142d19392dadb0b08d539bff7b929cffa7c3b0738e44479ec1b8a3b8d94b",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/FLG.md",
+    "old_sha256": "9fbae429366da85738e0aba433517f4fbd09b0b99da4cb33deda879d049b7675",
+    "new_sha256": "15632c3357479d3a1e6ab5ea798e92e36a0fbc0147db2e91e2c97bc4ee72c81f",
+    "prior_bytes_preserved_as_suffix": true
+  },
+  {
+    "path": "profiles/HOMER.md",
+    "old_sha256": "dfac632f37d0ba329dd3b31c79bbe88e4934d5300e0b40c9c3f9e084714360f1",
+    "new_sha256": "f9d001a6ab46957c0a9d5ef7db171f15a528577851063420a72c9b6d06b851b9",
+    "prior_bytes_preserved_as_suffix": true
+  }
+]

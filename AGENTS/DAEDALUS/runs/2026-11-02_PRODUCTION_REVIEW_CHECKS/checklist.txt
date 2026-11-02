@@ -1,0 +1,20 @@
+VALIDATE-ALL v1 legs — perimeter AGENTS/DAEDALUS/CHECKS.tsv
+  A1  [structural ]  corrections_boot_check.py --selftest   scripts/corrections_boot_check.py
+  A2  [structural ]  docket_view.py --selftest              scripts/docket_view.py
+  A3  [structural ]  orch_log.py --selftest                 scripts/orch_log.py
+  A4  [structural ]  claim_check.py --selftest              scripts/claim_check.py
+  A5  [structural ]  memory_index_check.py --selftest       scripts/memory_index_check.py
+  A6  [structural ]  consumer_check.py --selftest           scripts/consumer_check.py
+  A7  [structural ]  ledger_staleness.py --selftest         scripts/ledger_staleness.py
+  A8  [structural ]  memory_citation_census.py --selftest   scripts/memory_citation_census.py
+  A9  [structural ]  read_cap_check.py --selftest           scripts/read_cap_check.py
+  B1  [structural ]  DOCKET.tsv typing                      PROME/DOCKET.tsv
+  B2  [structural ]  GATES.tsv typing                       PROME/GATES.tsv
+  B3  [structural ]  WILL_QUEUE.md typing                   PROME/WILL_QUEUE.md
+  C1  [delta-keyed]  commit subject <=100 chars             git log -n<N> --format=%s
+  C2  [delta-keyed]  KB Stale_By expiry                     AGENTS/*/workbook/KB.tsv
+  D1  [delta-keyed]  read-cap fleet budget                  scripts/read_cap_check.py --fleet
+  NOT in v1:
+     · ledger completeness vs the trading calendar (needs a calendar source; v2)
+     · wiring_census / asmade_audit forward legs (agent-judged output; v2)
+     · mail-loop, watermark and contradiction-against-own-rules classes — structurally outside a state-based runner (the 9/5 scope ruling)
