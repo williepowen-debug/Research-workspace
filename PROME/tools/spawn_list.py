@@ -5,7 +5,7 @@ STATUS: LIVE under WQ-184 — Will 2026-09-05 21:42 ET, verbatim "approve WQ-184
 (record PROME/proposals/2026-09-05_spawn-driver-RULED.md). Wired into `prome_gate.py boot` (horizon 0)
 and `closeout` (horizon 1 weekday / 3 Fri-Sat). The RULE it serves (L0, PROME/CLAUDE.md spawn block):
 a registered dated row with a dark owner is a Tier-1 spawn at the first PROME boot on/after its date —
-no nod; cap 4 per boot; ACTIVE owner ⇒ consumer read at the owner's artifact first; Will-owned ⇒ queue.
+no nod; cap 4 per boot (8 under C6 when every desk woken is on a due catalyst/review row; any aged-ACTION or aged-waits wake keeps the boot at 4); ACTIVE owner ⇒ consumer read at the owner's artifact first; Will-owned ⇒ queue.
 Review sitting 2026-09-19 (DOCKET).
 
 QUESTION IT ANSWERS: which registered dated rows have arrived (or arrive before the next boot) whose
