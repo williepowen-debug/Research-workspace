@@ -1,6 +1,6 @@
 # Study 4 — market leadership review
 
-Received November 2, 2026; observations through October 30. [Report](source/REPORT.md) · [PDF](KRE_Study4_Market_Leadership_Report.pdf) · [Specification](source/SPEC.md) · [Source inventory](MANIFEST.json) · [Checks](key_checks.json) · [Rerun receipt](rerun_receipt.json)
+Received November 2, 2026; observations through October 30. [Report](source/REPORT.md) · [PDF](KRE_Study4_Market_Leadership_Report.pdf) · [Self-contained HTML](KRE_Study4_Market_Leadership_Report.html) · [Specification](source/SPEC.md) · [Source inventory](MANIFEST.json) · [Checks](key_checks.json) · [Rerun receipt](rerun_receipt.json)
 
 ## What it adds
 
@@ -51,3 +51,7 @@ The proposed November–February frozen-loading test is distinct from the earlie
 - `check_key_claims.py`: narrow local verification, writes `key_checks.json` only.
 
 The supplied `fig_timeline.png` should not be confused with Study 6's four-panel chart; this package has its own figure and provenance.
+
+## Additional HTML upload
+
+The self-contained HTML has the same title, cutoff and main conclusions as the saved report. Its embedded timeline has identical decoded pixels to `source/out/fig_timeline.png`, although the PNG bytes differ. This adds a browser-readable format, not another study or fresh validation. Existing review caveats remain.

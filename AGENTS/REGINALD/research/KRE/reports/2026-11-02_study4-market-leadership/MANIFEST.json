@@ -347,5 +347,15 @@
     }
   ],
   "pdf_matches_bundled_pdf": true,
-  "scope": "Frozen source bundle; executable scripts not run in archive; no proposed monitoring activated"
+  "scope": "Frozen source bundle; executable scripts not run in archive; no proposed monitoring activated",
+  "additional_html": {
+    "source": "/mnt/c/Users/willi/Downloads/KRE_Study4_Market_Leadership_Report.html",
+    "copy": "KRE_Study4_Market_Leadership_Report.html",
+    "bytes": 576465,
+    "sha256": "837d5d199c763d6c5c5a781ddca50364ba26080ff45b591b93c0f548ef8e359e",
+    "embedded_image_matches_saved_timeline": false,
+    "content_review": "Title, cutoff and main conclusions match saved Study 4; additional presentation format, not treated as a new study.",
+    "embedded_image_pixels_identical": true,
+    "image_comparison_note": "PNG bytes differ, but decoded dimensions, mode and every pixel match the saved timeline."
+  }
 }
