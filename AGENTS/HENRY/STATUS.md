@@ -59,7 +59,9 @@
 
 **OI vintage:** Cboe payloads 08:37 / 08:48 ET; volume field still Friday's while OI moved, so OI includes 10/30 trading. **Put OI changes (10/29-trade → 10/30-trade):** QQQ Nov-20 680 82,664 → 89,505 · 670 40,772 → 52,149 · 700 50,278 → 41,161 · 690 37,143 → 39,216; QQQ Nov-06 680 25,801 → 34,980; SPX Nov-06 7,550 2,885 → 7,330 · 7,400 4,896 → 8,009. Friday's 347,333 QQQ 690P volume was the 10/30-expiry contract and is out of every map. Full table and method: `research/2026-11-02_L888/`. Ledger rows dated 11/02 in `workbook/PUBLISHED.tsv`. Free-tier proxy: sign and flip robust; $B assumption-dependent. QQQ is American-style and only part of Nasdaq-100 gamma.
 
-## GEX / GAMMA REGIME — NEGATIVE BOTH, OCTOBER 30 CLOSE (gamma `--both --publish` 16:46 ET 10/30)
+**QQQ short interest (SIG-W-20261031-014; Nasdaq primary re-read 08:51 ET 11/02):** 82,001,618 shares at the **10/15 settlement** (9/30 70,458,005, +16.4%; 9/15 65,733,364), days to cover 2.41. ⚠️ Settlement-dated: it predates the 10/30 sell-off and measures none of Friday's flow; raw short shares include ETF creation/redemption and hedges, so they identify no motive, net bearish exposure or squeeze trigger. Context for index mechanics only; SPY figures (~93M 10/15) are WALTER's secondary ChartExchange read, not re-checked.
+
+## GEX / GAMMA REGIME — NEGATIVE BOTH, OCTOBER 30 CLOSE (gamma `--both --publish` 16:46 ET 10/30) — RECORD, superseded by § MONDAY 11/02 PRE-OPEN GAMMA
 
 | Horizon / Cboe chain | Spot input (vendor close) | Flip | Net GEX per 1% | Put wall | Call wall |
 |---|---:|---:|---:|---:|---:|
@@ -70,7 +72,7 @@
 
 *(Superseded 10/29-close read, kept as record: NEGATIVE both, flips ~7,739/~7,741, −$19.4B/−$25.7B, put wall 7,700 clean at both (PUBLISHED, broken 10/30), call wall withheld; `research/2026-10-29_catchup/gamma_both_1029close.txt`.)* **Earlier break:** the 7,650 wall published 10/22 broke on the 10/23 close (7,623.68); gamma that day UNKNOWN.
 
-## QQQ / NDX GAMMA — OCTOBER 30 CLOSE (`gamma_flip.py --both --underlying QQQ|NDX --spot <close> --publish`, 16:46 ET)
+## QQQ / NDX GAMMA — OCTOBER 30 CLOSE (`gamma_flip.py --both --underlying QQQ|NDX --spot <close> --publish`, 16:46 ET) — RECORD, superseded by § MONDAY 11/02 PRE-OPEN GAMMA
 
 | Chain (Cboe delayed, after the close) | Spot used | Flip | Net GEX per 1% | Walls |
 |---|---:|---:|---:|---|
@@ -118,7 +120,7 @@ Term structure **inverted intraday** (VIX9D high 25.06 over VIX3M high 23.08; WA
 | PPI FD m/m | +1.3% [BLS Sep, 10/15] | >0.4 / >0.5 / >0.6 | RED observation |
 | Core PCE m/m | +0.3% [BEA Sep, 10/29] (unrounded +0.32%) | >0.3 hot | NOT FIRED (L774 graded) |
 | VIX | **19.42 [vendor 10/30 final, pulled 16:43 ET]**; intraday high 23.93 (14:35 ET) | >23 / >28 / >30 sustained | **NOT FIRED on the close** (3.58 below 23); ⚠️ the intraday high traded 0.93 over 23 |
-| SPX | **7,580.07 [vendor 10/30]** | <7,200 / <7,100 / <6,494 | NOT FIRED (380 above 7,200); gamma **NEGATIVE both** (flip 7,732–7,736); **10/29 put wall 7,700 BROKEN on the 10/30 close**; new put wall withheld (band 7,500–7,600) |
+| SPX | **7,580.07 [vendor 10/30]** | <7,200 / <7,100 / <6,494 | NOT FIRED (380 above 7,200); gamma **NEGATIVE both** (flip 7,706–7,711 [11/02 pre-open, 10/30-trade OI]); **10/29 put wall 7,700 BROKEN on the 10/30 close, not re-formed 11/02**; put wall withheld (band 7,500–7,600) |
 | KRE | $72.01 [vendor 10/30] | <$65 / <$62 / <$60 | NOT FIRED |
 | 10Y | **4.94% [Treasury par 10/30]** | >4.5 / >4.8 / >5.0 | ORANGE (6bp under red) |
 | 2Y / 30Y | **4.56% / 5.31% [Treasury par 10/30]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | **2Y ORANGE (4bp under red; was RED 4.61 on 10/29)**; 30Y ORANGE (19bp under red) |

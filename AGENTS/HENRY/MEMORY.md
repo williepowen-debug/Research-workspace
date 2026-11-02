@@ -54,17 +54,16 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-10-31 12:58–13:22 ET, PROME C9 research commission (prome-34, DOCKET L616 market breadth; Claude Code, Opus 5.5)
+### CHANGES SINCE — 2026-11-02 from 08:47 ET, PROME Tier-1 WQ-184 due-row wake (prome-40, DOCKET L888 Monday pre-open gamma; Claude Code, Opus 5.5)
 
-- **L616 breadth study delivered:** `research/2026-10-31_L616_breadth/`, memo `PROME/inbox/2026-10-31_from-HENRY_L616-market-breadth.md`, KB ML-HEN-194, STATUS § MARKET BREADTH. Concentrated at the 10/6 record (29.5% of S&P 500 members above the 50-day), broadening since (October RSP/SPY +5.91pp; median member +7.20% vs SPY −0.91%). Friday narrow at the index level (55.1% of members down; Mag-7 + 18 chip makers = 79% of −1.82%; 42 highs / 5 lows), broad only inside tech. Small/mid three-month damage only partly repaired.
-- **Reusable instrument (free):** S&P 1500 member breadth from SSGA holdings (SPY / MDY / SPSM + 11 Select Sector SPDRs; SLY 404s, iShares serves a web page, Invesco QQQ returns 406) plus yfinance bars (~75 s for 1,506 names; ~19 connection timeouts recovered by a per-ticker retry). It is a study, NOT an authorized monitor.
-- **Own catch:** I was about to write "narrowest record close on every measure"; `verify_claims.py` showed 10/6 was lowest on % above 50/200-day but 2nd on the RSP/SPY ratio and 12th of 28 on highs minus lows. The superlative lesson covers "narrowest" too.
-- WALTER cards 001/002/006 consumed; COR-20261031-01 APPLIED (diesel ban through 1/31/2027), COR-20261031-02 NO-OP.
+- **L888 done before the open (pushed 08:50 ET, `2fd9af938`):** SPX/QQQ/NDX `--both --publish` on Monday Cboe chains, OI = 10/30-trade vintage. NEGATIVE both on all three (unchanged); flips lower: SPX 7,706–7,711 (was 7,732–7,736), QQQ 718–721 (725–727), NDX 28,779–28,913 (28,937–29,047). SPX put wall WITHHELD, band 7,500–7,600 (7,700 did not re-form); QQQ 680 put and 700 call PUBLISHED. Research `research/2026-11-02_L888/`; WALTER packet sent.
+- **OI-vintage test (reusable, `research/2026-11-02_L888/oi_vintage_check.py`):** before the open, Cboe's `volume` field still shows the prior session while `open_interest` has moved on contracts that traded — that pair proves the OI includes the prior day. Payload timestamp alone does not.
+- **Inbox:** 6 WALTER cards (10/31) logged and moved; SIG-014 QQQ short interest 82.0M at 10/15 settlement re-verified at the Nasdaq API and folded with the settlement-lag caveat.
 
 ### NEXT SESSION
 
-1. **Monday 11/02 pre-open (DOCKET L888):** re-pull SPX/QQQ/NDX `--both` once OCC open interest includes 10/30 trading; compare flips (7,732–7,736 SPX, 725–727 QQQ) and the 7,500–7,600 put band. ISM manufacturing 11/2 (ISHM); AAPL 11/02 after the close (vendor date).
+1. Grade the 11/02 session against the pre-open map: SPX vs the 7,706–7,711 flip and the 7,500–7,600 put band; QQQ vs 680 / 700 and the 718–721 flip. ISM manufacturing 11/2 (ISHM owns); AAPL after the close 11/02 (vendor date).
 2. Row 9 on 11/18: PANW + bank-stock legs from a live pull; the collapse magnitude must be settled with CYPHER/PROME BEFORE 11/18.
 3. Operating Dashboard not refreshed since 10/22 (version 4). ISM services date (11/4) still unverified.
-4. Catalysts: Russian diesel/gasoil producer ban now through 1/31/2027 (decree №1436; BRENT/OSPREY), ISM services 11/4, NFP 11/6 (HEN-59), CPI 11/10 (HEN-57; L435/L437), PPI 11/13 (HEN-58), NVDA 11/19 (L322).
-5. Breadth: no recurring pull is authorized; if PROME or Will asks for a repeat, re-run the research-folder scripts (about three minutes).
+4. Catalysts: ISM services 11/4, NFP 11/6 (HEN-59), CPI 11/10 (HEN-57; L775), PPI 11/13 (HEN-58; L776), NVDA 11/19 (L322). Russian diesel/gasoil producer ban through 1/31/2027 (BRENT/OSPREY).
+5. QQQ short interest: next settlement 10/31; publication date not checked.
