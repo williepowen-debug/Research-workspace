@@ -1,0 +1,121 @@
+Dated consolidation validation 2026-11-02T10:38:11-05:00; saved inputs only
+PASS TEST_READINGS_2026-11-02.tsv rectangular TSV
+PASS TEST_READINGS_2026-11-02.tsv row count 9
+PASS CONDITIONS_2026-11-02.tsv rectangular TSV
+PASS CONDITIONS_2026-11-02.tsv row count 8
+PASS EVIDENCE_2026-11-02.tsv rectangular TSV
+PASS EVIDENCE_2026-11-02.tsv row count 20
+PASS EVIDENCE_2026-11-02.tsv rectangular TSV
+PASS E01 exact first-published date/value/units
+PASS E02 exact first-published date/value/units
+PASS E03 exact first-published date/value/units
+PASS E04 exact first-published date/value/units
+PASS E05 exact first-published date/value/units
+PASS E07 exact first-published date/value/units
+PASS E11 exact first-published date/value/units
+PASS E14 exact first-published date/value/units
+PASS E16 exact first-published date/value/units
+PASS Friday/month-end absent from saved credit feed
+PASS E09 NYFed mapping
+PASS E10 NYFed mapping
+PASS E12 funding-gap arithmetic
+PASS E13 funding-gap arithmetic
+PASS E08 Treasury 10YR early-copy date/value
+PASS E15 KRE settled close, evolving bar excluded
+PASS unknown quantities blank, not zero
+PASS TEST_READINGS_2026-11-02.tsv rectangular TSV
+PASS L13 exact count/runs/no fire
+PASS L16 exact count/runs/no fire
+PASS PRED38 qualifying count distinct from coverage
+PASS TEST_READINGS_2026-11-02.tsv rectangular TSV
+PASS TEST_READINGS_2026-11-02.tsv L13 letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv L13 reading_source exists
+PASS TEST_READINGS_2026-11-02.tsv L16 letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv L16 reading_source exists
+PASS TEST_READINGS_2026-11-02.tsv M-01 letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv M-01 reading_source exists
+PASS TEST_READINGS_2026-11-02.tsv M-05 letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv M-05 reading_source exists
+PASS TEST_READINGS_2026-11-02.tsv M-07 letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv M-07 reading_source exists
+PASS TEST_READINGS_2026-11-02.tsv M-04b letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv M-04b reading_source exists
+PASS TEST_READINGS_2026-11-02.tsv M-08b letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv M-08b reading_source exists
+PASS TEST_READINGS_2026-11-02.tsv PRED-38 letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv PRED-38 reading_source exists
+PASS TEST_READINGS_2026-11-02.tsv PRED-45 / M-11 letter_home exists
+PASS TEST_READINGS_2026-11-02.tsv PRED-45 / M-11 reading_source exists
+PASS CONDITIONS_2026-11-02.tsv rectangular TSV
+PASS CONDITIONS_2026-11-02.tsv O01 source exists
+PASS CONDITIONS_2026-11-02.tsv O01 home exists
+PASS CONDITIONS_2026-11-02.tsv O02 source exists
+PASS CONDITIONS_2026-11-02.tsv O02 home exists
+PASS CONDITIONS_2026-11-02.tsv O03 source exists
+PASS CONDITIONS_2026-11-02.tsv O03 home exists
+PASS CONDITIONS_2026-11-02.tsv O04 source exists
+PASS CONDITIONS_2026-11-02.tsv O04 home exists
+PASS CONDITIONS_2026-11-02.tsv O05 source exists
+PASS CONDITIONS_2026-11-02.tsv O05 home exists
+PASS CONDITIONS_2026-11-02.tsv O06 source exists
+PASS CONDITIONS_2026-11-02.tsv O06 home exists
+PASS CONDITIONS_2026-11-02.tsv O07 source exists
+PASS CONDITIONS_2026-11-02.tsv O07 home exists
+PASS CONDITIONS_2026-11-02.tsv C01 source exists
+PASS CONDITIONS_2026-11-02.tsv C01 home exists
+PASS EVIDENCE_2026-11-02.tsv rectangular TSV
+PASS EVIDENCE_2026-11-02.tsv E01 source exists
+PASS EVIDENCE_2026-11-02.tsv E02 source exists
+PASS EVIDENCE_2026-11-02.tsv E03 source exists
+PASS EVIDENCE_2026-11-02.tsv E04 source exists
+PASS EVIDENCE_2026-11-02.tsv E05 source exists
+PASS EVIDENCE_2026-11-02.tsv E06 source exists
+PASS EVIDENCE_2026-11-02.tsv E07 source exists
+PASS EVIDENCE_2026-11-02.tsv E08 source exists
+PASS EVIDENCE_2026-11-02.tsv E09 source exists
+PASS EVIDENCE_2026-11-02.tsv E10 source exists
+PASS EVIDENCE_2026-11-02.tsv E11 source exists
+PASS EVIDENCE_2026-11-02.tsv E12 source exists
+PASS EVIDENCE_2026-11-02.tsv E13 source exists
+PASS EVIDENCE_2026-11-02.tsv E14 source exists
+PASS EVIDENCE_2026-11-02.tsv E15 source exists
+PASS EVIDENCE_2026-11-02.tsv E16 source exists
+PASS EVIDENCE_2026-11-02.tsv E17 source exists
+PASS EVIDENCE_2026-11-02.tsv E18 source exists
+PASS EVIDENCE_2026-11-02.tsv E19 source exists
+PASS EVIDENCE_2026-11-02.tsv E20 source exists
+PASS PREDICTIONS_MONITOR.md rows byte-identical
+PASS CONFIRMED.md rows byte-identical
+PASS matrix ID/evidence/Conf/delta unchanged; last-update dates intentionally advance
+PASS STATUS under 200 lines
+PASS STATUS.md below 75% trigger
+PASS PREDICTIONS_MONITOR.md below 75% trigger
+PASS CONFIRMED.md below 75% trigger
+PASS LAST_COMPLETION.md below 75% trigger
+PASS rotated handoff below 70%
+PASS preimage SHA256 exact
+PASS archive verbatim payload length/CRC exact
+PASS current completion block under 6KB
+PASS README.md link STATUS.md
+PASS README.md link LAST_COMPLETION.md
+PASS README.md link PREDICTIONS_MONITOR.md
+PASS README.md link CONFIRMED.md
+PASS README.md link BRIEFS_MAP.md
+PASS README.md link workbook/README.md
+PASS README.md link research/2026-11-02_transmission-update/REPORT.md
+PASS README.md link research/2026-11-02_transmission-update/RECORD.md
+PASS README.md link research/2026-11-02_file-consolidation/RECORD.md
+PASS workbook/README.md link EVIDENCE_2026-11-02.tsv
+PASS workbook/README.md link TEST_READINGS_2026-11-02.tsv
+PASS workbook/README.md link CONDITIONS_2026-11-02.tsv
+PASS workbook/README.md link ../STATUS.md
+PASS workbook/README.md link ../PREDICTIONS_MONITOR.md
+PASS workbook/README.md link ../CONFIRMED.md
+PASS workbook/README.md link ../research/2026-11-02_transmission-update/REPORT.md
+PASS workbook/README.md link ../analysis/WQ342_grading_log.tsv
+PASS research/2026-11-02_file-consolidation/RECORD.md link OBLIGATIONS.md
+PASS STATUS.md link workbook/README.md
+PASS STATUS.md link README.md
+PASS PREDICTIONS_MONITOR.md link workbook/TEST_READINGS_2026-11-02.tsv
+PASS PREDICTIONS_MONITOR.md link workbook/CONDITIONS_2026-11-02.tsv
+PASS CONFIRMED.md link workbook/CONDITIONS_2026-11-02.tsv

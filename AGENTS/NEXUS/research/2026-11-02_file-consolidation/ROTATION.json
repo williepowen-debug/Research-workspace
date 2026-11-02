@@ -1,0 +1,12 @@
+{
+  "written_at": "2026-11-02T10:28:57-05:00",
+  "source": "LAST_COMPLETION.md",
+  "source_before_bytes": 22542,
+  "source_before_sha256": "776fc0a30772304b53ec5188c5ff28a4adeb89ab47df1a9ed27883af98bbf218",
+  "archive": "AGENTS/NEXUS/archive/LAST_COMPLETION_COLD_2026-11-02.md",
+  "payload_bytes": 18438,
+  "payload_crc32": "8667f5de",
+  "hot_after_bytes": 4335,
+  "preserved_current": "November2 focused-update block + startup and late receipt",
+  "audit": "OBLIGATIONS.md"
+}

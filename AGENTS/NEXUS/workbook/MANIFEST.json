@@ -1,0 +1,17 @@
+{
+  "materialized_at": "2026-11-02T10:30:28-05:00",
+  "report_data_read_at": "2026-11-02T10:00:13-05:00",
+  "mode": "FROZEN report snapshots",
+  "source_report": "AGENTS/NEXUS/research/2026-11-02_transmission-update/REPORT.md",
+  "canonical_current_files": [
+    "STATUS.md",
+    "PREDICTIONS_MONITOR.md",
+    "CONFIRMED.md"
+  ],
+  "tables": {
+    "TEST_READINGS_2026-11-02.tsv": 9,
+    "CONDITIONS_2026-11-02.tsv": 8,
+    "EVIDENCE_2026-11-02.tsv": 20
+  },
+  "no_new_forecast_or_rule": true
+}

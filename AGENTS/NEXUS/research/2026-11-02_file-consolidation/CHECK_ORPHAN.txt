@@ -1,0 +1,99 @@
+⚠️  uncommitted files outside AGENTS/NEXUS/:
+     [likely YOURS] PROME/inbox/2026-11-02_from-NEXUS_report-file-workbook-consolidation.md
+     [not yours]    AGENTS/DAEDALUS/CHECKS.tsv
+     [not yours]    AGENTS/DAEDALUS/CHECKS_HISTORY.tsv
+     [not yours]    AGENTS/DAEDALUS/FLEET_DIRECTORY.md
+     [not yours]    AGENTS/DAEDALUS/FLEET_MAP.tsv
+     [not yours]    AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv
+     [not yours]    AGENTS/DAEDALUS/HANDOFF.md
+     [not yours]    AGENTS/DAEDALUS/STATUS.md
+     [not yours]    AGENTS/DAEDALUS/SURFACES.tsv
+     [not yours]    AGENTS/DAEDALUS/SURFACES_HISTORY.tsv
+     [not yours]    AGENTS/DAEDALUS/design/2026-11-02_L911_VIEW_SIZE_ACCEPTANCE.md
+     [not yours]    AGENTS/DAEDALUS/design/2026-11-02_OWNER_RELATIVE_CLOCK_ACCEPTANCE.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HENRY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/MIDAS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/OSPREY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/_prior/MIDAS_2026-09-05.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_FALSIFICATION_SWEEP_05.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_PROSE_REMEDY_CENSUS_02.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_REGINALD_REFRESH.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_WIRING_SWEEP_17_RUN4.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_GATE_BASIS_FINGERPRINTS.json
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_GATE_BASIS_SWEEP_03.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_GATE_BASIS_SWEEP_03_BLIND_RAW.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_GATE_BASIS_SWEEP_03_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_GATE_BASIS_SWEEP_03_VINTAGE_RAW.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_HARNESS_FOLLOWTHROUGH.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_INBOX_DISPOSITIONS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_L911_CANONICAL_MEASURE.json
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_L911_VIEW_AFTER.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_L911_VIEW_BEFORE.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_L911_VIEW_MEASURE.json
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_MAINTENANCE.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_MIDAS_ARCHITECTURE_CLOSEOUT.txt
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_MIDAS_EVIDENCE_CLOSEOUT.txt
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_MIDAS_PARENT_PROBES.json
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_MIDAS_REFRESH.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_MIDAS_REFRESH_ARCHITECTURE_RAW.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_MIDAS_REFRESH_EVIDENCE_RAW.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_MIDAS_REFRESH_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_OWNER_RELATIVE_CLOCK_REMEDY_REVIEW.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_OWNER_RELATIVE_CLOCK_RESULT_REVIEW.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PROFILE_CLOCK_AFTER.txt
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PROFILE_CLOCK_BEFORE.txt
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PROFILE_CLOCK_MUTANT.txt
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PROME_SWEEP_04.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PROME_SWEEP_04_RAW.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PROME_SWEEP_04_READER_REPORTS.md
+     [not yours]    AGENTS/DAEDALUS/scripts/profile_clock_check.py
+     [not yours]    AGENTS/DAEDALUS/scripts/tests/test_profile_clock_check.py
+     [not yours]    AGENTS/DAEDALUS/sweeps/GATE_BASIS_SWEEP.md
+     [not yours]    AGENTS/DAEDALUS/sweeps/PROME_SWEEP.md
+     [not yours]    AGENTS/DAEDALUS/sweeps/REGISTRY.tsv
+     [not yours]    AGENTS/DAEDALUS/upgrades/REGINALD_CARD.md
+     [not yours]    AGENTS/FALCON/scripts/baghdad_watch_state.json
+     [not yours]    AGENTS/FALCON/scripts/hormuz_transit_watch_state.json
+     [not yours]    AGENTS/ISHM/board_log.tsv
+     [not yours]    AGENTS/ISHM/research/2026-11-02_L899/
+     [not yours]    AGENTS/ISHM/workbook/KB.tsv
+     [not yours]    AGENTS/LIQUID/inbox/2026-11-02_from-DAEDALUS_gate-basis-3-exact-boundary.md
+     [not yours]    AGENTS/MIDAS/inbox/2026-11-02_from-DAEDALUS_whole-profile-refresh.md
+     [not yours]    AGENTS/ORACLE/inbox/2026-11-02_from-DAEDALUS_gate-basis-3-december-replay.md
+     [not yours]    AGENTS/TERRY/inbox/2026-11-02_from-DAEDALUS_gate-basis-3-ung-guards.md
+     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-21_boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-21_boot/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-26_unwind-search/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-30_L334/results.json
+     [not yours]    AGENTS/WALTER/research/2026-10-30_boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-11-02_boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-11-02_boot/SKEW_History.csv
+     [not yours]    AGENTS/WALTER/research/2026-11-02_boot/audit.txt
+     [not yours]    AGENTS/WALTER/research/2026-11-02_credit-availability/owner-header-review.json
+     [not yours]    KIMI_BOOT.md
+     [not yours]    PROME/inbox/2026-11-02_from-DAEDALUS_gate-basis-3.md
+     [not yours]    PROME/inbox/2026-11-02_from-DAEDALUS_harness-root-owner-remainder.md
+     [not yours]    PROME/inbox/2026-11-02_from-DAEDALUS_midas-whole-profile.md
+     [not yours]    PROME/inbox/2026-11-02_from-DAEDALUS_prome-spine-4.md
+     [not yours]    scripts/ledger_staleness.py
+     [not yours]    scripts/orch_log.py
+     [not yours]    scripts/tests/test_orch_log_closed_rows.py
+     [not yours]    scripts/tests/test_orch_log_grouped_inflight.py
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "NEXUS -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
