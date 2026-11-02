@@ -24,13 +24,18 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 ⚠️ **Open question at close:** does the 8/20 ranking predict anything? The frozen 11/07 test against simple baselines answers it, as a retrospective check, not a blind one.
 
-### LAST SESSION — 2026-11-01 23:16 → ~23:45 ET (`date`), PROME-spawned C9 commission (WQ-587) + whole-inbox drain
+### LAST SESSION — 2026-11-02 09:12 → ~09:18 ET (`date`), Will-launched: boot + status, then "update Reginald files and close out"
+- **Boot only, no new research** (Will: no unassigned work). Tape to settled Fri 10/30 (two routes agree): WAL $76.29, KRE $72.01; FLG $10.51 (ladder RED, 17 closes). FRED to 10/29: **HY 326** (back above 320; REG-T-03 already FIRED, exit run 0), CCC/HY 4.06× (HY-led, ratio fell, no escalation), claims 194K [w/e 10/24], 10Y 4.98. Evidence → `reports/2026-11-02_boot/`.
+- **Write-back:** REG-T-02 log +1 row (10/30, run 0-of-3); STATUS tape rows; inbox 2 filed: PROME 11/07 reserve-release breadth count → CALENDAR 11/07 row (d)–(f); DEWEY 10/15 Ontario-lien docket → CALENDAR Nano row (`a1283fb9b`). boot.py rc 1: every ALERT already known (WAL<78, FLG ladder, FLG director buy, CFG 4.01 auditor, WAL 8.01 dividend).
+- **Skipped:** CCB Q3, H.4.1 10/29, H.8 10/30 still unread (Will chose close-out). Pull not needed (behind 0); FALCON dirty files and a TERRY file staged in the shared index belong to other sessions, untouched.
+
+### PRIOR SESSION — 2026-11-01 23:16 → ~23:45 ET (`date`), PROME-spawned C9 commission (WQ-587) + whole-inbox drain
 - **Q3 Call Report read (own FFIEC pull, renewed token)** → `reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/REPORT.md`, KB ML-REG-263. WALTER's VLY/EGBN/HBAN figures VERIFIED (VLY Q2 NCO $22.046M, not 22.045). VLY: construction +$30.1M and an $18.5M NDFI loan (release calls it C&I) drove nonaccrual; allowance −$9.8M; MF cohort went to modification. EGBN: MF nonaccrual +$46.6M, allowance flat. HBAN: STEP-CANDIDATE. Friedberg primary SEARCH-NOT-FOUND; 11/07 test written.
 - **My instrument defect found:** `mi3_cohort_screen.py` rounds QoQ to 1 decimal before the >25 test, so EGBN 6/30 (−25.02%) was never flagged. Not fixed (11/07 roll).
 - **Inbox:** 9 WALTER + 1 PROME (token) drained, BOARD_LOG rows written; consume:REGINALD commit. INFO packet to BROCK on VLY NDFI nonaccrual.
 - **Skipped (outside this spawn's task):** prices/vx_ladder/boot.py, channel ACKs, CCB Q3, H.4.1/H.8, FHLB beyond the WALTER card.
 
-### PRIOR SESSION — 2026-10-31 09:27 → ~09:37 ET (`date`), PROME-spawned (WQ-184 Tier 1, DOCKET L857) + whole-inbox drain
+### EARLIER — 2026-10-31 09:27 → ~09:37 ET (`date`), PROME-spawned (WQ-184 Tier 1, DOCKET L857) + whole-inbox drain
 - **FFIEC short list re-run** (rc 0, route check passed, token fine): 134 of 139 filed. Frozen universe ex acquirers: borrowings −$5.70B net, deposits +$39.20B. Santander absorbed Webster 8/20 (FDIC history): raw +$10.70B is mostly inherited. 6 flags read at the issuer (Regions, Renasant, Simmons, The Bancorp, Bank of Hawaii, Israel Discount NY): all funding-mix shifts; no TERRY route (no verdict yet) → `reports/2026-10-31_L857/REPORT.md`, KB ML-REG-262.
 - **Inbox:** 4 DAEDALUS packets drained; fixes: VX 14 rows STALE, OZK 37.6% note + KB ML-REG-261, POSITIONS 68P pointer, TRADE:7 vintage struck; rest DEFERRED with dates → `AGENTS/DAEDALUS/inbox/2026-10-31_from-REGINALD_profile-refresh-dispositions.md`.
 - **REG-06 scan (PROME follow-up, 09:39 ET):** window 10/9–10/31 = NONE at WAL and EGBN; row OPEN 10% unchanged → `registry/NOTES.md` §REG-06.
@@ -43,27 +48,20 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 - **My error:** first selftest fixture (KRE exactly $60 → 0) was wrong: KRE $60 is still under the script's KRE <$65 context line. The test caught my fixture, not the code; boundary re-tested on WAL $78.
 - **Skipped:** CCB Q3, H.4.1 10/29, H.8 10/30, FHLB Q3 Highlights all unread. DAEDALUS items 2–14 + A1–A3 + falsification #5 + wiring ⑰ undispositioned. No PROME completion memo (Will-launched, not spawned). Consumer check not run: no registered figure superseded. ARGUS n/a (desk).
 
-### EARLIER — 2026-10-30, started 09:05 ET (`date`), PROME-spawned (WQ-184 Tier 1, DOCKET L801) + whole-inbox drain
-- **L801 decided** → `reports/2026-10-30_L801/REPORT.md`, KB ML-REG-260: problem-loan leg KEPT (7 of 10 up [10/23]; 2007–10 ρ +0.46); coverage-decline leg DROPPED as a predictor (2 of 10 episodes vs 25% unconditional; ρ −0.06; adds R² 0.088→0.094). Coverage stays a question about no-reserve collateral claims (FLG $1,571M; FLG cure 59.5%→1.6%, payoff/disposition 87.5%). Matrix coverage POINT untouched until the 11/07 S1-vs-S2 test. No score/threshold/probability change.
-- **Q3 Call Reports:** FDIC BankFind 0 rows at 10/30 09:09 ET. Not waited for.
-- **Inbox:** 13 drained (3 CYPHER + 10 WALTER) + 1 BOARD backfill; CYPHER boundary CONFIRMED with a CU→P3 amendment; COR-20261029-43 NO-OP. HY 314 [10/28], CCC/HY 4.16×; WAL $77.80 / KRE $72.86 [10/29]; REG-T-02 log +2 rows.
-- **My error:** typed semicolons into a corrections `--scope` again (lesson from 10/28 repeated; the writer refused, re-sent clean).
-- **Skipped:** CCB Q3 (10/29) and H.4.1 (10/29) unread — outside this spawn's task.
-
-*10/28 PRIOR SESSION entry → `archive/MEMORY_rotation_2026-10-30.md` BLOCK M13, crc32 `5d7d98d1`.*
+*10/30 09:05 ET session entry → `archive/MEMORY_rotation_2026-11-02.md` BLOCK M14, crc32 `6de3a7d5`.* *10/28 PRIOR SESSION entry → `archive/MEMORY_rotation_2026-10-30.md` BLOCK M13, crc32 `5d7d98d1`.*
 
 ### CHANGES SINCE LAST SESSION
 
 ### NEXT SESSION
 0. **FFIEC short list DONE 10/31** (134 of 139). Optional: one re-run by Wed 11/04 for the 4 unfiled (East West, HSBC USA, First Hawaiian, Beacon); write to a NEW dated file (the script overwrites `borrowing_shortlist_Q3.md`), then re-apply `apply_frozen_2026-10-31.py`. REG-06 EDGAR scan DONE 10/31 (none; next 11/30).
-1. **Printed, unread (read first):** CCB Q3 (10/29; Bluevine deposit detail, partner concentration, provisions; reconcile with CARL's consumer leg to one figure per metric) · H.4.1 10/29 · H.8 10/30 (descriptive only; 'deposits down' tell RETRACTED, deep dive §10) · FHLB Q3 Highlights (REG-T-06 descriptive; grades 11/13 from the CFR). Per-bank borrowing screen FROZEN (`reports/2026-10-28_borrowing-screen_FROZEN_rule.md`, sha256 `90e0a4a2…948a`); run once FDIC posts Q3 (~mid/late Nov).
+1. **Printed, unread (read first; carried since 10/30):** CCB Q3 (10/29; Bluevine deposit detail, partner concentration, provisions; reconcile with CARL's consumer leg to one figure per metric) · H.4.1 10/29 (and 11/05) · H.8 10/30 (and 11/06) (descriptive only; 'deposits down' tell RETRACTED, deep dive §10) · FHLB Q3 Highlights (REG-T-06 descriptive; grades 11/13 from the CFR). Per-bank borrowing screen FROZEN (`reports/2026-10-28_borrowing-screen_FROZEN_rule.md`, sha256 `90e0a4a2…948a`); run once FDIC posts Q3 (~mid/late Nov).
 2. **DAEDALUS 10/30 packets: DRAINED 10/31** (reply sent; deferred items carry dates 11/07 · 11/14 · 11/20 in the reply). Prior text: item 1 DONE 10/30 eve (reply with it). Items 2–4 decide L5: VX.tsv 14 stale LIVE rows (3 contradict STATUS) · OZK 37.6% dead-figure notes (bank-side HY report :122 + one more) · POSITIONS.md lacks Nov 66P/67P/68P/70P legs (collapse stacked headers). Then disposition 5–14 + A1–A3 (DONE / DEFERRED with date / DECLINED with reason) in one reply to `AGENTS/DAEDALUS/inbox/`. Charter trim (item 5) is MINE, no Will word (PROME, DOCKET L889). `V1V3-ACCELERATE` rename: coordinate with WALTER per `registry/NOTES.md` or re-date. read_cap rc 1 is NOT mine to clear (DAEDALUS tool, 11/04).
 3. **REG-06:** 10/31 scan DONE (none). Next scan Mon 11/30 (424B, S-1/S-3/S-4, 8-K 3.02).
-4. **HY:** grade each FRED print for the REG-T-03 exit run (≤300 ×5). CCC/HY escalates only on a CCC-led re-cross. REG-T-02 log: grade 10/30 settled close (vendor $76.29).
+4. **HY:** grade each FRED print for the REG-T-03 exit run (≤300 ×5; 326 [10/29]). CCC/HY escalates only on a CCC-led re-cross. REG-T-02 log: graded through 10/30; next row = 11/02 settled close.
 5. **Pathward (CASH) September-quarter release 10/21:** partner-credit and deposit lines (BaaS row). GDOT Q3 date still unannounced. WAL 10-Q cohort items logged for me (hotel franchise criticized $75M → $185M, OREO 22 → 27 properties) → read at the 11/07 run.
-6. **JWT renewed 11/01 (expiry 2027-01-31, laptop; desktop pending Will).** 11/07: also run the Friedberg like-for-like plan (report 2026-11-01 §4; needs the 9/30 universe file), fix the step detector's round-before-compare (EGBN 6/30 miss) with a boundary fixture, read HBAN Q3 10-Q for the M3 step. 11/07: verify sha256 `06e37edad2d583074a20f0ca70d0f84079a3eed95fba891204060662bcd00672` of the frozen ranking protocol, decide the cohort-selection question, then run.
+6. **JWT renewed 11/01 (expiry 2027-01-31, laptop; desktop pending Will).** 11/07: also run the Friedberg like-for-like plan (report 2026-11-01 §4; needs the 9/30 universe file), fix the step detector's round-before-compare (EGBN 6/30 miss) with a boundary fixture, read HBAN Q3 10-Q for the M3 step. **+PROME 11/02: reserve-release breadth count (nonaccrual up AND allowance down, 6/30→9/30, with 3/31→6/30 beside; mods-up/30–89-down where clean) → CALENDAR 11/07 row (d)–(f).** 11/07: verify sha256 `06e37edad2d583074a20f0ca70d0f84079a3eed95fba891204060662bcd00672` of the frozen ranking protocol, decide the cohort-selection question, then run.
 7. **10-Qs, early Nov:** SBCF primary cells (CRE+constr 30-89, nonaccrual, resi) and the $8.4M VBI loan · SSB/BKU cells → FL aggregate final ~11/14 · FLG MF special mention and modifications · EGBN MF criticized table and REG-28 maturities · **VLY 10-Q (~11/6–11/9): the six asks in report 2026-11-01 §1d** (mod payment-defaults, NOO 30–89 $61.4M identity, $30.1M construction collateral, ACL roll-forward, $18.5M NDFI borrower type, criticized by class).
-8. **Nano:** weekly P&A re-check from Tue 11/3; DEWEY's passive-route answer.
+8. **Nano:** weekly P&A re-check from Tue 11/3. DEWEY 11/02 (L517): FDIC-R still on the Ontario lien 10/15; nothing on Sunwest pools.
 9. **Carried:** CUBI N at 11/07.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
