@@ -158,3 +158,13 @@ All of the 2026-numbered CVEs carry ransomware-use "Unknown". **No bank or credi
 - Job-posting or partner-directory evidence on the tools bank-specialist MSPs run.
 **Suggestions:** extend `breach_notices.py` to Vermont and Massachusetts (route text is often present there). Add a browser user-agent to the KEV pull in `kev_classes.py` if it lacks one.
 **Leg note:** leg B flagged that Fusion Credit Union Ltd (Massachusetts notice #28342, "one of its managed services providers") is probably a Manitoba institution. It is excluded from the US counts.
+
+---
+
+## Addendum 2026-11-02 (DEWEY): a reviewer fact from CYPHER narrows the headline
+
+**Source:** CYPHER packet `inbox/processed/2026-10-29_from-CYPHER_msp-base-rate-missed-n-central.md` (CYPHER rows CYB-INC-051/052, CHK-38, KB-CYP-020 note, KB-CYP-076). **Relayed, not re-verified by DEWEY this session** — CYPHER grades its key quote SECONDARY.
+
+- **What CYPHER reports:** N-able N-central, a remote-management tool used by managed IT providers, had a flaw exploited from 7/31/2026; NYDFS issued a letter on 8/11; a spokesperson said it was "aware of impact to a limited number of covered entities" [SECONDARY per CYPHER: American Banker, 8/17]. A possible bank case closed branches for about a week; CYPHER marks the link unconfirmed.
+- **What this changes here:** the **1-of-88 figure stands as a count of breach notices** (California and Washington AG lists). The Key Finding's words **"little observed traffic" no longer stand as a general statement**: an MSP-tool event with regulator-stated impact on NYDFS-covered entities occurred in August and does not appear in a breach-notice corpus. Read the Key Finding as "1 of 88 notices names an MSP route; at least one MSP-tool event with regulator-acknowledged impact on supervised entities sits outside that corpus (August 2026, N-central)". The "badly observed" leg is strengthened, not weakened.
+- **Not changed:** the structure facts, the regulator facts, the precedent table and the candidate CYPHER watch row (§8). The meta-review row R87 (`output/2026-10-23_dewey-research-history-meta-review.md`) quotes the old headline; this addendum is the correction of record.
