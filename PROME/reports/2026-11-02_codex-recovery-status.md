@@ -41,3 +41,17 @@ Next 24 hours from canonical calendar: finish today's ISM/S&P review and Friday 
 Book $46,241.82 · cash 28.95% · broker export received 2026-10-30 · marks as-of 2026-10-30 intraday · 3d since receipt — not live, re-check before any fill
 
 Recovery order: ISHM interrupted release work; TERRY approved widened ideas; LIQUID published-credit grade and midday synthesis; administrative residue above. No new approval is needed merely to recover the two existing assignments. WQ-591 remains the separate trade decision.
+
+## Continuation — Will's UNG request relayed by WALTER
+
+After the recovery report, WALTER delivered Will's explicit selection “Check trigger and refresh the card” in committed packet f28fc8021. PROME resumed the SAME interrupted TERRY task through native Codex messaging; native read confirmed its new active turn. No replacement writer or AEOLUS launch occurred. The limited host inventory does not certify cross-runtime absence, so a new AEOLUS writing launch was withheld. Original WQ-590 broader ideas remain authorized.
+
+WALTER supplied eligible NOAA GFS f000 data in d7218258c; TERRY independently decoded the saved field and delivered the bounded refresh at 2c47adde3. PROME inspected the exact card, source-acceptance record, quote excerpt and memo. **UNG remains NOT-FIRED; deployment 0.** November 2 06Z analyzed zonal-mean wind is +5.53155 m/s, above the strict below-zero trigger. Positive daily samples cannot exclude an intraday reversal; current canonical AEOLUS acceptance/logging remains pending. This preserves, rather than resolves by assumption, the card's differing TERRY-method and AEOLUS-log wording.
+
+TERRY's 10:22 EST vendor option screen gives a $0.47 outer debit, or $241.50 risk for five spreads including assumed opening fees. Approved cap remains $0.50 / $256.50. The short wing is wide, individual bid/ask times and executable broker complex quote unavailable; saved retries failed DNS, while the successful response survives as a labelled transcript excerpt. The last successful underlying pull was green. These are screening observations, not an order or current executable price.
+
+Done without asking: **C1**, mirror TERRY's existing joint $10.40 guards in GATES: a completed close at/above $10.40 before entry voids the card even after a later lower quote; separately the entry quote must be below $10.40. Verified against TERRY's original §2 and §4 plus its 2c47adde3 clarification; no level, operator, instrument or consequence changed. NOT-FIRED retained, observation limits carried. No new process control or permission created.
+
+The three consumed request/source/refresh packets are filed under `PROME/inbox/processed/`, retaining their filenames. WALTER independently acknowledged TERRY's result and closed its bounded routing scope. PROME's explicit closeout-state request received **ASKED → still working**: TERRY confirms UNG durable in 2c47adde3, with boot paper marks and WQ-590 research still uncommitted. No completed desk closeout or termination claimed. ORCH_LOG holds the resume, delivery and response events.
+
+Startup remains PARTIAL for the earlier declared skips; three other inbox items remain carried (DAEDALUS, NEXUS, original RSP). ISHM recovery and the midday credit synthesis remain owed. This continuation fulfills the bounded UNG refresh; it does not close the wider research session.
