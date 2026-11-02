@@ -1,5 +1,7 @@
 # Discussion synthesis and later context — November 2, 2026
 
+> Historical conversation snapshot, preserved at its original vintage. Later studies and corrections are integrated in [SYNTHESIS.md](SYNTHESIS.md); navigate the full collection through [README.md](README.md).
+
 This is a summary of the conversation, not a verbatim transcript or newly conducted research. Numerical receipts and methodological detail live in the linked reports. The user's aim is complete context, not repeatedly reversing a thesis.
 
 ## User intent and interpretive correction
