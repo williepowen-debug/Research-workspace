@@ -1906,3 +1906,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-02T15:03:29Z	SIG-W-20261102-005	x-bookmark; AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md	Two equity-flow bookmarks remain leads: hedge-fund record-selling claim and leveraged Nasdaq dip buying	PRIORITY	HENRY	LIQUID,VIOLET	0.4
 2026-11-02T15:03:29Z	SIG-W-20261102-006	x-bookmark; AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md	NYT oil-profit estimate covers April-September results plus estimates; not $130B of incremental war profit	PRIORITY	BRENT	CARL,TERRY	0.79
 2026-11-02T15:22:36Z	SIG-W-20261102-007	Will-requested UNG check; NOAA GFS f000	Fresh exact 10hPa/60N GFS mean positive; owner card refresh pending	PRIORITY	TERRY	AEOLUS,BRENT	.85
+2026-11-02T15:37:35Z	SIG-W-20261102-008	FRED / PROME recovery lead	Friday HY344 +18; near350 watch, no new fire; CCC1327 +2	PRIORITY	LIQUID,REGINALD	RED,HENRY,VIOLET,NEXUS,PROME	0.95

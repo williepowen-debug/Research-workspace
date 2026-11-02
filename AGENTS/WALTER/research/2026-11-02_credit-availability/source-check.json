@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-11-02T15:37:35Z",
+  "hy_bps": 344,
+  "hy_prior": 326,
+  "hy_change": 18,
+  "ccc_bps": 1327,
+  "ccc_prior": 1325,
+  "ccc_change": 2,
+  "observation_date": "2026-10-30",
+  "fred_page_publication_utc": "2026-11-02T15:06:00Z",
+  "ccc_page_publication_utc": "2026-11-02T15:09:00Z",
+  "oct30_is_non_session": false,
+  "reg_t04_distance_bps": 6,
+  "distance_pct_of_threshold": 1.7142857142857142,
+  "reg_t04_run": 0,
+  "safety_net_HY_strictly_gt_25": false,
+  "series_url": [
+    "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "https://fred.stlouisfed.org/series/BAMLH0A3HYC"
+  ],
+  "vintage_note": "fetch.py --first-published output_type4 values match current FRED pages on relevant cells. Tool row first_published dates equal observation dates; do not interpret them as actual Monday publication clock. Page updated labels supply publication clock. No full historical real-time release reconstruction."
+}
