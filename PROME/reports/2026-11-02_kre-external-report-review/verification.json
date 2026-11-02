@@ -1,0 +1,23 @@
+{
+  "input_sha256": "f4b69d7c31d6b0056d35c00d4652e4914a5a8d3239ed7c6e45ecd4209be51fea",
+  "constituents": 167,
+  "unique_tickers": 167,
+  "weights_sum_pct": 99.91999999999999,
+  "positive_63d_count": 31,
+  "positive_rebound_count": 149,
+  "median_rebound_pct": 4.5,
+  "top10_share_of_rounded_rebound_contributions_pct": 26.057630852496022,
+  "zero_CET1_tickers_needing_source_check": [
+    "CFFN",
+    "CTBI"
+  ],
+  "last_date": "2026-10-30",
+  "KRE_KBWB_63d_correlation": 0.7193380186146392,
+  "rolling_window_count_our_baseline": 3666,
+  "correlation_percentile_our_baseline": 1.5275504637206765,
+  "minimum_2026_correlation_date": "2026-09-15",
+  "minimum_2026_correlation": 0.6324076947143547,
+  "top5_squared_daily_gap_share_pct": 43.763743186672805,
+  "top10_squared_daily_gap_share_pct": 62.171706308771434,
+  "limits": "Appendix checks use published rounded figures, not independent stock histories. ETF calculations reuse our saved Yahoo data; independent calculation, same vendor. Historical baseline differs from supplied report."
+}
