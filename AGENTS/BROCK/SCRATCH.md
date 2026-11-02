@@ -1,16 +1,15 @@
-# BROCK SCRATCH — 2026-10-31 handoff (PROME R2-review wake)
+# BROCK SCRATCH — 2026-11-02 handoff (PROME WQ-588 due-row wake)
 
-Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-10-31.md`; record `research/2026-10-31_R2-review/REVIEW.md`.
+Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-02.md`.
 
-**Done 10/31:** GATE-BRK-R2 review HELD (NH Q3 FINAL 43.7%, (b) NOT FIRED, filed 10/26 — found late) · P13 post-fire rule PROPOSED (not in force) · P14 PIF A→PIF merger · P15 review → 11/16 proposed · DAEDALUS 10/8 ①②③ done (NAV 39-name 28.68%; BRK-11/18/25 NOT FOUND; BRK-26 SQN candidate → RED packet).
+**Done 11/02:** D:L794 GRADED — CRMT NINTH BRIDGE (8-K 0001171843-26-007015, accepted 08:00:53 ET, STD → Wed 11/04, +3d; KB-BRK-415) · P13 latch RULED in force (WQ-563 A) and propagated · inbox drain 7/7 (KB-BRK-416/417/418) · no rescore (58/70).
 
 **Next-boot first moves:**
-1. **Mon 11/02 AM:** CRMT read 2 of 2 (L794) — whole feed from 10/22, every form type, INDEX acceptance time (submissions JSON CIK0000799850 + browse-edgar Atom).
-2. **Thu 11/05:** CABO Q3 10-Q AMC · FSK Q3 BMO. North Haven Q4 offer (~mid-Nov) — read the FEED, not a modelled date.
-3. **Mon 11/16:** BRK-11 re-run (EDGAR FTS `"asset coverage" "less than 150%"`, 10/01→) · R2 review if PROME moved review_by · RED reply on BRK-26/SQN (else ask PROME) · Monroe/ADS Q3 10-Q tender tables.
-4. PROME's answer on P13 (C1 or Will) → flip P13 PROPOSED→IN FORCE in the register only on that answer.
+1. **Wed 11/04 after ~16:30 ET or Thu 11/05 AM:** CRMT ninth-bridge STD read — whole feed from 11/02 08:53 ET, every form type, INDEX acceptance time (submissions JSON CIK0000799850 + browse-edgar Atom). Same session: backstop #6 (any OTHER agreement dated ≤11/01) closes Thu 11/05. Successor DOCKET rows = PROME's to register.
+2. **Thu 11/05:** CABO Q3 10-Q AMC (L876) · FSK Q3 BMO, call 09:00 ET.
+3. **Mon 11/16:** BRK-11 re-run · R2 review (if PROME moved it) · RED reply on BRK-26/SQN · Monroe/ADS Q3 tender tables. Apply the P13 latch at NH/OCIC Q4 figures and the BCRED Q4 letter (~12/03).
 
 **Thread notes:**
-- EDGAR: `data.sec.gov` submissions + `efts` work with a plain UA; `/files/...pdf` 403'd once then served after a pause. SEC complaint PDF comp26671 fonts do not extract (pdfminer) — OCR not attempted.
-- SEC enforcement feeds: `/enforcement-litigation/litigation-releases/rss` and `/administrative-proceedings/rss` return ~25 items (~1 month); list pages with `?year=2026` ignore `search=`.
-- Radiant court-source gap: carried, not worked (not in this wake's task list).
+- EDGAR: `data.sec.gov` submissions + browse-edgar Atom + `/Archives/.../index.json` all served with a plain UA 11/02. JSON acceptanceDateTime matched the index page at UTC-5 on 11/02 (EST from 11/01).
+- VLY NDFI is REGINALD's figure (KB-BRK-416); VLY Q3 10-Q ~11/6–11/9 is REGINALD's read.
+- Radiant court-source gap: carried, not worked.
