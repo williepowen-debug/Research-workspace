@@ -1,0 +1,59 @@
+{
+  "entity": "AMAZON.COM, INC.",
+  "cik": "1018724",
+  "concept": "NetCashProvidedByUsedInOperatingActivities",
+  "unit": "USD",
+  "source_url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0001018724/us-gaap/NetCashProvidedByUsedInOperatingActivities.json",
+  "retrieved_at": "2026-11-02T13:54:18.349478+00:00",
+  "response_sha256": "a74da612eb1d5e375905a6b4728207c54050df91a059407b73844c4a27835853",
+  "filing_cutoff": "2026-11-02",
+  "selection": "Exact periods/unit; latest filed on or before cutoff; conflicting latest records rejected",
+  "prior": {
+    "start": "2025-07-01",
+    "end": "2025-09-30",
+    "val": 35525000000,
+    "accn": "0001018724-26-000040",
+    "form": "10-Q",
+    "filed": "2026-10-30",
+    "fy": 2026,
+    "fp": "Q3",
+    "frame": "CY2025Q3",
+    "unit": "USD",
+    "kind": "reported",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/0001018724-26-000040-index.html"
+  },
+  "current": {
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "val": 42422000000,
+    "accn": "0001018724-26-000040",
+    "form": "10-Q",
+    "filed": "2026-10-30",
+    "fy": 2026,
+    "fp": "Q3",
+    "frame": "CY2026Q3",
+    "unit": "USD",
+    "kind": "reported",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/0001018724-26-000040-index.html"
+  },
+  "calculation": {
+    "kind": "derived",
+    "difference": 6897000000,
+    "unit": "USD",
+    "formula": "current.val - prior.val",
+    "percent_change": 19.414496833216045,
+    "percent_formula": "(current.val - prior.val) / prior.val * 100; omitted when prior <= 0"
+  },
+  "limits": [
+    "Filing cutoff is not a historical API snapshot.",
+    "Same concept/unit and similar duration do not establish accounting comparability.",
+    "Standard entity-level US-GAAP facts only; custom tags and segment facts need document work.",
+    "Filing links identify sources; the source statements have not been independently reconciled.",
+    "A fact appears in the SEC API only after the XBRL filing is processed; a press-release number is not in it."
+  ],
+  "retrieval_basis": "live-fetch",
+  "notes": [
+    "Retrieved live by edgar_doc.py compare; retrieved_at is the tool clock (UTC) when the response arrived.",
+    "Instant (balance-sheet) metrics, custom tags, segment facts and accounting changes need further source work; this record covers one duration fact."
+  ]
+}
