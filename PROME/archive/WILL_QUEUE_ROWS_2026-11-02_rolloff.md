@@ -1,0 +1,8 @@
+# WILL_QUEUE RECENTLY-DONE roll-off — 2026-11-02 (session 4f5e775d closeout, laptop, 08:1x ET)
+**Rolled off per W5** — the 1 row the 11/2 closeout gate flagged ROLL-OFF (done >7 days by the gate's own date rule in `PROME/tools/prome_gate.py` check_will_queue). Verbatim row below; crc32 is over the row's UTF-8 bytes, no trailing newline.
+
+**Index (row · crc32):** **471** · 4016687260
+
+| Item | Done | Record |
+|---|---|---|
+| **471 — WALTER X bookmark access (both machines)** | Done 2026-10-29 23:56 ET — RECEIPT of Will's hands (laptop X browser authorization completed; WALTER packet `PROME/inbox/processed/2026-10-29_from-WALTER_intake-and-X-access-restored.md`: read-only token replaced, bookmark API probe 50 rows; evidence `AGENTS/WALTER/research/2026-10-29_intake-access-recovery/x-access-check.json`); desktop half was done 10/25 (7aaba2b72) | RESOLVED on both machines; access validated, not bookmark coverage — marking stays WALTER's routine work. No credential transfer. Prior row text:  ¦  471  ¦  **WALTER X bookmark access — PARTIALLY RESOLVED October 25: supported OAuth and authenticated user lookup succeeded on the current machine (7aaba2b72). No auth action owed here.** Original cross-machine history below remains unverified for the other machine. The previously reviewed94-bookmark batch is not marked by this authorization-only operation (0 scans/marks). Historical request: **WALTER X (Twitter) BOOKMARK MARK — your hands: the laptop's X token is DEAD (refresh HTTP 400, verified by WALTER 10/21 21:4x ET).** The 94-bookmark stage review is complete (DISPATCH 37 / DUP 27 / N … |

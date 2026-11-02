@@ -1,14 +1,15 @@
 # SCRATCH.md — Ephemeral Session State
 
-**Updated:** 2026-11-01 21:3x ET — END-OF-DAY Standard closeout with ARGUS (session 90c33147, LAPTOP WilliePOwen). Prior ★ NEXT entries in git: `git log -p -- PROME/SCRATCH.md`.
+**Updated:** 2026-11-02 08:1x ET — Standard closeout with ARGUS before the LAPTOP → DESKTOP switch (session 4f5e775d, LAPTOP WilliePOwen). Prior ★ NEXT entries in git: `git log -p -- PROME/SCRATCH.md`.
 
 ## ★ NEXT SESSION — START HERE
-**END-OF-DAY CLOSEOUT Sun 2026-11-01 (session 90c33147, LAPTOP WilliePOwen; Claude Code, Opus 5.5; Standard with ARGUS on the adopted WQ-583 process). Next = a FULL boot ("please boot up"), a new harness session. Account: `memory/2026-11-01.md`. Process ceiling SUSPENDED (WQ-566).**
-⓪ **Inbox:** 3 arrivals this session — WALTER verdict amendment (→ READS 0a689cf5c) and BRENT L609/L526 (→ DOCKET) filed; BRENT's validation-run flag b62dc307c (the expected off-schedule Thursday fire) reached origin during the freeze and is filed in the closeout's bookkeeping commit. Re-check before every report.
-① **In flight from PROME: NOTHING** once ARGUS returns. Will-launched Codex CATO and WALTER are out of scope.
-② **Monday 11/2 (calendar):** ~12 desk wakes (ISHM L899 ISM 10:00 · TERRY L905 · HENRY L888 pre-open gamma · YURI L896 · CYPHER L878 Binance · ZHAO L802 NPC · BROCK L794 · FERT L759 · OSPREY L814 · DEWEY L834/L880 · LIQUID FRED Oct-30 cells) + PROME L557/L570/L583/L640/L870/L911. BRENT's Monday routine now fires 09:45 EST on the WQ-543 text (installed tonight) — read its line-1 `PREAMBLE: … head=` receipt. BRENT still owes the Oct-29 crack observation before ~11/4.
-③ **With Will:** ⚖️ none due (WQ-559 parked to 12/10). **WQ-31:** FFIEC token RENEWED on the laptop 11/1 (account `williepow`, live-tested, expires 2027-01-31) — the DESKTOP still needs the same token pasted at the next switch; GitHub tokens still owed (desktop 11/12, laptop 11/15). His Gmail draft to the FFIEC help desk is now unnecessary (he can delete it). Hands-items parked: 8, oldest WQ-463 (10/9).
-④ **Carried residue (named, not owed):** WQ-583 residue → DOCKET L835 (its Opus reader); CLOSEOUT.md over the read cap → L910 (11/04); ORCH_INFLIGHT.md near the cap → L911 (11/02); FORGE/STATUS.md 153 B over the cap (split before the next reconcile); ~79 GB scratch clones from an earlier session (`/tmp/claude-1000/…/9df9d657…/scratchpad/desk-batch`).
+**CLOSEOUT Mon 2026-11-02 08:1x ET (session 4f5e775d, LAPTOP WilliePOwen; Claude Code, Opus 5.5; booted Sun 11/1 22:33 ET; Standard with ARGUS) — Will is switching to the DESKTOP and starting a new day. Next = a FULL boot on the DESKTOP ("please boot up"), a new harness session. Account: `memory/2026-11-01.md` § Late session 4f5e775d. Process ceiling SUSPENDED (WQ-566).**
+⓪ **Desktop first:** the desktop still carries the OLD FFIEC token (expired/expiring 11/5) — Will pastes the 11/1 `williepow` token into the desktop `FORGE/tools/market-data/.env` (WQ-31; ⏰ 11/11). Until then any desktop FFIEC pull (OZK/REGINALD/FLG) fails.
+① **In flight from PROME: NOTHING.** FLG (WQ-586) and REGINALD (WQ-587) delivered and closed out on the ask (ORCH_LOG 2-RECEIPT rows); inbox 0 at this closeout. Will-launched Codex CATO and WALTER are out of scope.
+② **Monday 11/2 is DUE at that boot (calendar):** ~12 desk wakes (ISHM L899 ISM 10:00 · HENRY L888 pre-open gamma · LIQUID FRED Oct-30 cells (HY run 2 of 3) · CYPHER L878 Binance · TERRY L905 · YURI L896 · ZHAO L802 · BROCK L794 · FERT L759 · OSPREY L814 · DEWEY L834/L880) + PROME L557/L570/L583/L640/L911 (L870 RESOLVED 11/1). C6 cap 8 — position-facing first. Will was promised ONE midday synthesis on whether Friday's equity break carried into credit — not a stream.
+③ **With Will:** ⚖️ none due (WQ-559 parked to 12/10). Optional ask open in chat: the original link for Friedberg's "95 of 4,295 banks" claim (REGINALD could not find a primary; DOCKET L180). Hands-items parked: 8, oldest WQ-463 (10/9).
+④ **Bank thread (no action owed now):** next decision points are the filings — OZK 10-Q L763 (~11/5) · WAL L881 (11/6) · VLY/FLG 10-Qs L521/L522 (~11/6–11/9) · REGINALD 11/07 run L180 (Friedberg + breadth count) · FHLB 11/13. L52's scope-checkpoint GRADE (PROME/Will) is owed by 11/14 on FLG's inputs.
+⑤ **Carried residue (named, not owed):** WQ-583 residue → L835; CLOSEOUT.md over the read cap → L910 (11/04); ORCH_INFLIGHT.md 29,370 B (90% of cap, measure.py 11/1) → L911 — size is driven by 174 never-closed IN-FLIGHT rows, not the window; FORGE/STATUS.md over the cap (split before the next reconcile); ~79 GB scratch clones (`/tmp/claude-1000/…/9df9d657…/scratchpad/desk-batch`).
 
 **Rotated 2026-10-28 23:0x ET (byte-flow, prome-92 second boot, Light closeout):** the three October 26 'consumed' header paragraphs and the whole October 26 'Earlier working-session notes' block moved verbatim to `archive/SCRATCH_ROTATED_2026-10-28_prome-92b.md` (crc32 840151463 over the moved text incl. its final newline). Superseded; rows govern. *(Paragraph restored 2026-10-30 19:1x ET — dropped by the 17:1x writeback's offset defect; text from the 16:3x boot read of this file.)*
 
@@ -30,7 +31,7 @@
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-01 · 9 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-495 (11/5) · WQ-547 (11/17) · WQ-559 (12/15)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-02 · 9 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-495 (11/5) · WQ-547 (11/17) · WQ-559 (12/15)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
