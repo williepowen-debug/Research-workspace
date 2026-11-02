@@ -1,2565 +1,1270 @@
 {
   "schema": 2,
   "verdict": "REVIEWED",
-  "baseline": "afe86cf74918fb82d10fe8281e1ead29e2d3a340",
-  "head": "8379e8a5d7c85b00324cf70945ffe1079b4122e5",
-  "recorded_at": "2026-11-02T02:46:20.487948+00:00",
+  "baseline": "0e74e43b08f4d090837766e1fd595a8df5df1b91",
+  "head": "a83d30f71f49a1d64d72dbe31e5c5e5895e58da4",
+  "recorded_at": "2026-11-02T13:19:47.254059+00:00",
   "contract": {
-    "baseline": "afe86cf74918fb82d10fe8281e1ead29e2d3a340",
-    "anchor": "8379e8a5d7c85b00324cf70945ffe1079b4122e5",
+    "baseline": "0e74e43b08f4d090837766e1fd595a8df5df1b91",
+    "anchor": "a83d30f71f49a1d64d72dbe31e5c5e5895e58da4",
     "delivered": {
-      ".claude/agents/argus.md": {
-        "sha256": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
+      "AGENTS/BRENT/inbox/2026-11-01_from-PROME_WQ543-installed-offschedule-fire-was-validation.md": {
+        "sha256": "8659113d17b8452144d20e6b3a48d4195f84271e47ac2b5a96a5c090f333b8e3",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): f54e602b4 PROME: closeout bookkeeping \u2014 ARGUS baseline 0e74e43b0, carried log ro",
         "versions": {
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "a40a5539124612a3766d04e9d5e21c6550663f25be0b191ea4581c45dd337b80",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d"
+          "f54e602b42c135a78c20088622f157414df09232": "8659113d17b8452144d20e6b3a48d4195f84271e47ac2b5a96a5c090f333b8e3"
         }
       },
-      ".claude/skills/closeout/SKILL.md": {
-        "sha256": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
+      "AGENTS/REGINALD/inbox/2026-11-02_from-PROME_11-07-run-reserve-release-breadth-question.md": {
+        "sha256": "849738094254655a9d8356eac5073c64d1b9500f5d6fbad27fcc1bd47aa86710",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): 41ee8e938 PROME -> REGINALD: 11/07 run adds a breadth count for Valley's Q3 rese",
         "versions": {
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "195d429b109621ca009c7f22ed78268704f5f3b8133b51ce53eb0c1346551f33",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077"
-        }
-      },
-      "AGENTS/FLG/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-        "sha256": "02b506065ed5c2dffd6bdb7d9939224e1de890cc7c2277a487b38de1ad2d0236",
-        "provenance": "auto (WQ-583 AC6, from-PROME filename): pending at freeze",
-        "versions": {}
-      },
-      "AGENTS/GIBBS/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-        "sha256": "d47ec3677dbb8ae4f39608ce7772c312518cfe1f18856097a7fc14f3dacc72c6",
-        "provenance": "auto (WQ-583 AC6, from-PROME filename): pending at freeze",
-        "versions": {}
-      },
-      "AGENTS/REGINALD/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-        "sha256": "7b202f64aea821a54a26334222a167c158ce97212c476829384af313792e6dd5",
-        "provenance": "auto (WQ-583 AC6, from-PROME filename): pending at freeze",
-        "versions": {}
-      },
-      "PROME/.claude/agents/argus.md": {
-        "sha256": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
-        "versions": {
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "a40a5539124612a3766d04e9d5e21c6550663f25be0b191ea4581c45dd337b80",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d"
-        }
-      },
-      "PROME/.claude/skills/closeout/SKILL.md": {
-        "sha256": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
-        "versions": {
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "195d429b109621ca009c7f22ed78268704f5f3b8133b51ce53eb0c1346551f33",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077"
-        }
-      },
-      "PROME/CLOSEOUT.md": {
-        "sha256": "b1052478b42e6a743a81341433faf3d039464c0774406d3614946a0509d1a9f2",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
-        "versions": {
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "ccd4c3e521a535cc679a36af1824291dda7f2549f05b8f39c4a00ecc302893c8",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "b1052478b42e6a743a81341433faf3d039464c0774406d3614946a0509d1a9f2"
-        }
-      },
-      "PROME/CLOSEOUT_PROCEDURES.md": {
-        "sha256": "1e7bedc3c935d533ebd950ec7d41e2479efaa85aa718f281717c24bbdde1e4d3",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half",
-        "versions": {
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "1e7bedc3c935d533ebd950ec7d41e2479efaa85aa718f281717c24bbdde1e4d3"
+          "41ee8e938130c79e0b4cd85f22c27db0663859ad": "849738094254655a9d8356eac5073c64d1b9500f5d6fbad27fcc1bd47aa86710"
         }
       },
       "PROME/DOCKET.tsv": {
-        "sha256": "08b37330cf074d904cf54db479c878e27eab49916118eaa7b7c56ecfbe15584a",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m; pending at freeze",
+        "sha256": "9c594ce825dae68cceb1c06f79920beb886b317e92f8700ff97c4e2c7cc2ecbb",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): 90c28f06f PROME: L870 \u2014 desk_attention reads a signed short-leg Qty without stri; pending at freeze",
         "versions": {
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "abb9fa61e3dfdbfda878291b36168479fcdb4989726845b96032dd25fc7b43ec",
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "864edc408e35587397458ed86f8d08de9ad1da69b922be69c3c3cfe0dc60c7cc",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "182852d9dec6efe31ae028c3978b181b0d6e369e9fb9d0d138da108d2c72d2a4"
+          "90c28f06f4815a81be96bbf064cbcadb7178df5c": "9fad9bb7b676a4291ac7e4a46fca18a8e99a36f19c7fba8718b6b6a42fb518de"
         }
       },
-      "PROME/GIT_COORDINATION.md": {
-        "sha256": "227c4ab978cb385a9fe3ae7fc5b01729ca3eec1caa4054ad7ad0b4abacd8367e",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): pending at freeze",
-        "versions": {}
-      },
       "PROME/HANDOFF.md": {
-        "sha256": "73c7b15ce5ca17bf183b5389664f35df1c42735d2888bd762495a58c1c19376a",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): pending at freeze",
-        "versions": {}
-      },
-      "PROME/MACHINE_LOCAL.md": {
-        "sha256": "c9f8ac371d8d3715226203a6bae4953c176cf85995254817d5828453ac8ada53",
+        "sha256": "1944246c52ecf8331468170c93c25b08b8778d7e710f6d9489837e0cbeae0573",
         "provenance": "auto (WQ-583 AC6, OWNED lane): pending at freeze",
         "versions": {}
       },
       "PROME/SCRATCH.md": {
-        "sha256": "448f581a1d40968dcc442eee4b872e1819f83f37641f32b82a109f3201dce850",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): d0c04bd4f PROME: register WQ-583 \u2014 simplify ARGUS machinery, keep the daily audi; 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m; +1 more PROME commits; pending at freeze",
-        "versions": {
-          "d0c04bd4ff88366c28e8f88947b73f1a11946e93": "90e7baf4c899637d323cd4205d0df4fd379b03a129fbf2bef6fa956832c23b36",
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "3a066131969b2a1c961f0cb45e7934a4769a8c63f38a820a89062a596f8e600b",
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "0e7a836104b6530ea31a2bdfef83465d999f1f4168f51568110c58a3d7e9dd9a",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "1dc678944a1e85bcf118f227e0a8bf6af02a9c43bd99dfddf2d6d3b6cd5a2a26",
-          "1a05fc28eb1c68b543cd027270b14732404d926d": "1666286c5c03f77b4b3f80820402fd9d64040b1e45c4c187f0c942b21a2b2e15"
-        }
+        "sha256": "c95fab95272f0c5105107186aa089b19737136c8a3b0344e5fdde042bb4514c9",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): pending at freeze",
+        "versions": {}
       },
       "PROME/STATUS.md": {
-        "sha256": "b88324620e6a57f2f7c8197da4549eb6b9ddb4cf3caba687a67e72d8e42ebe48",
+        "sha256": "c160ed2cbce5b357e5305713c714a2fa54a118c04f0b93bae0df1e0aa4b401bc",
         "provenance": "auto (WQ-583 AC6, OWNED lane): pending at freeze",
         "versions": {}
       },
       "PROME/WILL_QUEUE.md": {
-        "sha256": "76ced3a071700f67588f6530311c2d771f2ed43071bbbc3b776327308f54914c",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): d0c04bd4f PROME: register WQ-583 \u2014 simplify ARGUS machinery, keep the daily audi; 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m; pending at freeze",
+        "sha256": "46131e2c1b960c45c6269ea4ee7b728f17a577e4ddd780a1e508eb0e2c50bd93",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): b6b827c44 PROME: boot 11/1 22:33 ET \u2014 WQ-520 rolled off, BOARD cursor advanced; 5db96fa33 PROME: C9 commissions FLG + REGINALD on WALTER's Q3 Call Report read (; pending at freeze",
         "versions": {
-          "d0c04bd4ff88366c28e8f88947b73f1a11946e93": "b0f9c1e4eec1aa6acec5212d4cab988c82aca0f58da2b0fcb56359dd42922eea",
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "df868a77bdf1a18e7abec4f0933b55debf6f05998643039553cd2d7abcd1836b",
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "15c36b66b05fc43cc96e5f8bfbd9f3d8a9dd77c742d07c1d52450d163a4bef16",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "5bca0ec4b1f2b11f65c9492560b67b3845072024fce75a817fde1257a80ac469"
+          "b6b827c44234ff32ad36c894eb9b27c3446cc009": "bed3395a277df1eeac2cf5682bd4e4099f8c5dceb7a7b90d1637281fdcd6dbe4",
+          "5db96fa3337d17e2b7528919d693cc1fc2468312": "00e3b8e14bd938ba7cde8cccd1d1865369b678146d4ae24bdcf5587c2b7b05c0"
         }
       },
-      "PROME/archive/HANDOFF_ROTATED_2026-11-01_90c33147.md": {
-        "sha256": "41cd76c69d58e2fdf095b6465e10b17ebbb332fffe0e099dc983ac6fc02995ba",
+      "PROME/archive/HANDOFF_ROTATED_2026-11-02_4f5e775d.md": {
+        "sha256": "c30af57c6db0cdffbed2584a03436aa234406cb63be260c1f8baf1bdc3e35c71",
         "provenance": "auto (WQ-583 AC6, OWNED lane): pending at freeze",
         "versions": {}
       },
-      "PROME/inbox/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": {
+      "PROME/archive/WILL_QUEUE_ROWS_2026-11-01_rolloff.md": {
+        "sha256": "7b14a28d0b56b3832b487c709c7a808f8495d8f66265c3bcc0c8db974c55faf1",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): b6b827c44 PROME: boot 11/1 22:33 ET \u2014 WQ-520 rolled off, BOARD cursor advanced",
+        "versions": {
+          "b6b827c44234ff32ad36c894eb9b27c3446cc009": "7b14a28d0b56b3832b487c709c7a808f8495d8f66265c3bcc0c8db974c55faf1"
+        }
+      },
+      "PROME/archive/WILL_QUEUE_ROWS_2026-11-02_rolloff.md": {
+        "sha256": "ed27313721cbe464dd62c9df1cfa87bc6aa542675bab80d2c3b1cc36de33b388",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): pending at freeze",
+        "versions": {}
+      },
+      "PROME/inbox/2026-11-01_from-FLG_q3-call-report-T01.md": {
         "sha256": null,
-        "provenance": "auto (WQ-583 AC6, PROME commit subject): 0a689cf5c PROME: transcribe WALTER verdict-amendment attestation (READS) and fil; 1 non-PROME commit(s)",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): ca1aa00c5 PROME: FLG C9 receipt consumed (WQ-586) \u2014 memo filed, ORCH_LOG 2-RECEI; 1 non-PROME commit(s)",
         "versions": {
-          "c7881c991368a61fe9ab7a95831fe73cd203ce0a": "7d397424398abfe543e558aa764d8071859cc49d6f1d43ebe785e0f9af0140a6",
-          "0a689cf5cb9755431473d2a47a19bf1c76518771": null
+          "2b9e85324ce2f71f2961176e0210ebbb39484b62": "9da3abc830bf786bff6d8610f67d2d32fd373ab5085d12c7f506559f696a2af4",
+          "ca1aa00c557c0cd67cdebe0c614f3bb151df1b51": null
         }
       },
-      "PROME/inbox/processed/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": {
-        "sha256": "7d397424398abfe543e558aa764d8071859cc49d6f1d43ebe785e0f9af0140a6",
-        "provenance": "auto (WQ-583 AC6, PROME commit subject): 0a689cf5c PROME: transcribe WALTER verdict-amendment attestation (READS) and fil",
-        "versions": {
-          "0a689cf5cb9755431473d2a47a19bf1c76518771": "7d397424398abfe543e558aa764d8071859cc49d6f1d43ebe785e0f9af0140a6"
-        }
-      },
-      "PROME/plans/2026-10-31_wq583-candidate-WITHHELD.patch": {
+      "PROME/inbox/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": {
         "sha256": null,
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): d8fd813c6 PROME: REGINALD C9 receipt consumed (WQ-587) \u2014 memo filed, ORCH_LOG 2-; 1 non-PROME commit(s)",
         "versions": {
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "a1fc9c0d1b5c4daf3df9e5696d9ab05e46436fdb1c557a7ac9c742356415d624",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": null
+          "7b911912aa649373b20f22dfb5e3b6f8680a2922": "d5de91b9a73355f952b411065833ab917110309f055a6d9f50580f4eb2341e41",
+          "d8fd813c6a1e18dc319ea9a0f2ba63c0233e73b7": null
         }
       },
-      "PROME/registry/READS.tsv": {
-        "sha256": "b0e86210a35d5b1ea05a57884dcc6ab7bb8c2e8c47b0e2eb850e37509887f2ac",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 0a689cf5c PROME: transcribe WALTER verdict-amendment attestation (READS) and fil",
+      "PROME/inbox/processed/2026-11-01_from-FLG_q3-call-report-T01.md": {
+        "sha256": "9da3abc830bf786bff6d8610f67d2d32fd373ab5085d12c7f506559f696a2af4",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): ca1aa00c5 PROME: FLG C9 receipt consumed (WQ-586) \u2014 memo filed, ORCH_LOG 2-RECEI",
         "versions": {
-          "0a689cf5cb9755431473d2a47a19bf1c76518771": "b0e86210a35d5b1ea05a57884dcc6ab7bb8c2e8c47b0e2eb850e37509887f2ac"
+          "ca1aa00c557c0cd67cdebe0c614f3bb151df1b51": "9da3abc830bf786bff6d8610f67d2d32fd373ab5085d12c7f506559f696a2af4"
+        }
+      },
+      "PROME/inbox/processed/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": {
+        "sha256": "d5de91b9a73355f952b411065833ab917110309f055a6d9f50580f4eb2341e41",
+        "provenance": "auto (WQ-583 AC6, PROME commit subject): d8fd813c6 PROME: REGINALD C9 receipt consumed (WQ-587) \u2014 memo filed, ORCH_LOG 2-",
+        "versions": {
+          "d8fd813c6a1e18dc319ea9a0f2ba63c0233e73b7": "d5de91b9a73355f952b411065833ab917110309f055a6d9f50580f4eb2341e41"
         }
       },
       "PROME/registry/WQ_LEDGER.crc": {
-        "sha256": "5987a04c7553dfb167a0a38db6787f1749fb0b543802b0f74458c09bbbc12740",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): d0c04bd4f PROME: register WQ-583 \u2014 simplify ARGUS machinery, keep the daily audi; 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m; pending at freeze",
+        "sha256": "4cc320f8b8fdb09f298208125850898800bb7ed2a7c0db0b17f0b9b1d037aead",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): b6b827c44 PROME: boot 11/1 22:33 ET \u2014 WQ-520 rolled off, BOARD cursor advanced; 5db96fa33 PROME: C9 commissions FLG + REGINALD on WALTER's Q3 Call Report read (; pending at freeze",
         "versions": {
-          "d0c04bd4ff88366c28e8f88947b73f1a11946e93": "6bee95b62afbfacaef6c966bdb29b4f4d61ef6aeb7fd7d65b40bbddd5f2935b4",
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "472bb3c80c15fcab18233e587222d2c7e2d3df358b0c6f8dd3933dc0bc987ebf",
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "179e22d0d48be5c3d623f9acd8eed265b55110aa775198544bd5512e921eae67",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "21ce5e7db81e832cb1e117927749adb182e893c7bae1dca7c1857898af258c47"
+          "b6b827c44234ff32ad36c894eb9b27c3446cc009": "c4b7b152af0293333a8edf4ca2e3275fd9a2e77be4e5bc60df3b887b55783676",
+          "5db96fa3337d17e2b7528919d693cc1fc2468312": "243d17139dc5c2077e2392d69b186c3e73109f80c1734bfcd200b52ce101c4cb"
         }
       },
       "PROME/registry/WQ_LEDGER.tsv": {
-        "sha256": "dc81d2db2aa5f3043f58bfe3451c8f41fc02036384a1634ba3e61f0a109ca7a2",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): d0c04bd4f PROME: register WQ-583 \u2014 simplify ARGUS machinery, keep the daily audi; 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m; pending at freeze",
+        "sha256": "446a689fa3b06259debf32d852112a1648907ee959f754a0d02e62ff1f505906",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): b6b827c44 PROME: boot 11/1 22:33 ET \u2014 WQ-520 rolled off, BOARD cursor advanced; 5db96fa33 PROME: C9 commissions FLG + REGINALD on WALTER's Q3 Call Report read (; pending at freeze",
         "versions": {
-          "d0c04bd4ff88366c28e8f88947b73f1a11946e93": "847002c79b328d25d1248e83843aa1dbd6c9266a1c1ad0ca8a9dbcc716ae7e69",
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "961d4b84411ea177d71c2a401b42eaa32ccc0819356c604d7871b1ebfa858913",
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "f5e94b2db28ab9679d891673d173fd8f8a52433b416705d43edc76162088ec28",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "454c8551372cf88ba3070b8a49d18dbc40a64e30ae83fe3df9cea52fde4a3be8"
+          "b6b827c44234ff32ad36c894eb9b27c3446cc009": "ab5680361abc0138f3b99fa41c88c371aaabb4d4c04cff2ef450304d6b0a8a9b",
+          "5db96fa3337d17e2b7528919d693cc1fc2468312": "22ec60ca58a7f3de49b69ef7d8f5606ac2ad8cf193f2362afbbfbd48bcffeca8"
         }
-      },
-      "PROME/registry/corrections_receipts.tsv": {
-        "sha256": "8ec4d943ee6ea6df87293eb1060a0fb62ffb9612213046bb402a9cd2ee1fda4d",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 8d749dda9 PROME: boot Sat 10/31 20:41 ET \u2014 BOARD cursor advance + COR-20261031-2",
-        "versions": {
-          "8d749dda9007130cab27afe6a53c03c9871502af": "8ec4d943ee6ea6df87293eb1060a0fb62ffb9612213046bb402a9cd2ee1fda4d"
-        }
-      },
-      "PROME/reports/2026-11-01_wq543-routine-install-receipt.md": {
-        "sha256": "2ac64c868d2a2ae0336265e106e18091501a6140fe0af621b483dc4eddeaceeb",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): pending at freeze",
-        "versions": {}
       },
       "PROME/state/CALENDAR.md": {
-        "sha256": "7410c50fe68be514dc2f4f26252b772761ad4dd41b769a86335459f4838a20ad",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 3dafdd617 PROME: WQ-583 RULED YES \u2014 closeout rule half encoded; freeze code half; 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m; pending at freeze",
+        "sha256": "c5f3402736f16d1e8fd385b4264be7ce986aeed8b148ed5822f8e1cd5521f570",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): 90c28f06f PROME: L870 \u2014 desk_attention reads a signed short-leg Qty without stri; pending at freeze",
         "versions": {
-          "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1": "575a48d003eb57d4090f12292da902491bae7329df07f2d4e58d18f1a4acee5d",
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "a6aaaebddb272d6460a3e8ec0915a18ab8deb5bbdddb6966a60c92c3a2e7cfc1",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "08ce740ddb91f338795bf7fc5b6bc61d04dc535fc722bc869d749f23f72511f0"
+          "90c28f06f4815a81be96bbf064cbcadb7178df5c": "4e342925672bb3cb5a0ab081462bbdf6bc08b0382ee35a059f3291c715c68f2e"
         }
       },
       "PROME/state/ORCH_INFLIGHT.md": {
-        "sha256": "0a23a10be6b19d53781d0d9ffe59ed71a46b31fc41e1ecb5910684c231e5e095",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m; pending at freeze",
+        "sha256": "1991499007a03119542b7c65c9f45f04816940b8936e95cd4ca75e4e4b194aa4",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): f54e602b4 PROME: closeout bookkeeping \u2014 ARGUS baseline 0e74e43b0, carried log ro; 5db96fa33 PROME: C9 commissions FLG + REGINALD on WALTER's Q3 Call Report read (; ca1aa00c5 PROME: FLG C9 receipt consumed (WQ-586) \u2014 memo filed, ORCH_LOG 2-RECEI; d8fd813c6 PROME: REGINALD C9 receipt consumed (WQ-587) \u2014 memo filed, ORCH_LOG 2-; pending at freeze",
         "versions": {
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "d5cfef27c8af33c1693b1dadd6228227f145332d00d879df666994d614d7c59b",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "61f7f3358a52db8fd3f1ae4a5f66ba2fda65857edbcba219ff21bc4806ef58e3"
+          "f54e602b42c135a78c20088622f157414df09232": "5fb92eba550b8a8dbf4b96b27c6d26a1046f3fafd4651051d158241f2e97d6c5",
+          "5db96fa3337d17e2b7528919d693cc1fc2468312": "c66d6e44fd802e2743d924eb6c1c81500b3fc345916be9402e80cc46bd019cfd",
+          "ca1aa00c557c0cd67cdebe0c614f3bb151df1b51": "ab83ce28d1d3c5bd38f76a9f967081f7e0e52a77f3890a340885bd51c06a3931",
+          "d8fd813c6a1e18dc319ea9a0f2ba63c0233e73b7": "6447d9dba2052f386042ce6d7c8d820f0528359cb6df83eac1e6900ef534e05e"
         }
       },
       "PROME/state/ORCH_LOG.tsv": {
-        "sha256": "c5221a190526bd2954813e88d5e627a4582ba958fca42a9c48b65a069a410835",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m; pending at freeze",
+        "sha256": "f016471453f24fbce02b4093a59aa4635c085789f96ffc2b475d82af42c82ba7",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): f54e602b4 PROME: closeout bookkeeping \u2014 ARGUS baseline 0e74e43b0, carried log ro; 5db96fa33 PROME: C9 commissions FLG + REGINALD on WALTER's Q3 Call Report read (; ca1aa00c5 PROME: FLG C9 receipt consumed (WQ-586) \u2014 memo filed, ORCH_LOG 2-RECEI; d8fd813c6 PROME: REGINALD C9 receipt consumed (WQ-587) \u2014 memo filed, ORCH_LOG 2-; pending at freeze",
         "versions": {
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "53052474fca71daa02628911f318216f91a797b2cb3dfea928f794c4cce95aa0",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "3de600d634dcdaaf6db5f1b8f4cd8e570166b9ae87b1a7254b89202eeaf50a62"
+          "f54e602b42c135a78c20088622f157414df09232": "226e0558c7c424800f7ae197bfd4b4c7290fdd39f9664d7ce46767042134a207",
+          "5db96fa3337d17e2b7528919d693cc1fc2468312": "168a54c4854f4c5614b8f2a7bbbacd59e4adefffb212148a896f5e3a9795a522",
+          "ca1aa00c557c0cd67cdebe0c614f3bb151df1b51": "5e1545eaf8a0f8619d0665060c89a427a02c3a75e99d9814edd1b783c1b9411f",
+          "d8fd813c6a1e18dc319ea9a0f2ba63c0233e73b7": "51dbbf7efac33478a16b05f9fa7177340388d16c0975b62343c3f4916c945d45"
         }
       },
       "PROME/state/board_consumed.tsv": {
-        "sha256": "5d536f7a1404cc0769ac64dd2a9c2cd610881846c929067ac4a0d7f91e91a197",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 8d749dda9 PROME: boot Sat 10/31 20:41 ET \u2014 BOARD cursor advance + COR-20261031-2",
+        "sha256": "71f78dfd560ed0c849c7b1b02d453a2c66f03abba5e755d2e236b37a7fd0cc7e",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): b6b827c44 PROME: boot 11/1 22:33 ET \u2014 WQ-520 rolled off, BOARD cursor advanced",
         "versions": {
-          "8d749dda9007130cab27afe6a53c03c9871502af": "5d536f7a1404cc0769ac64dd2a9c2cd610881846c929067ac4a0d7f91e91a197"
+          "b6b827c44234ff32ad36c894eb9b27c3446cc009": "71f78dfd560ed0c849c7b1b02d453a2c66f03abba5e755d2e236b37a7fd0cc7e"
         }
       },
       "PROME/state/board_cursor.txt": {
-        "sha256": "f6e15e119c256887909b7adecc0e5f2b507beafe8a6357f5326578e2848da9c8",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 8d749dda9 PROME: boot Sat 10/31 20:41 ET \u2014 BOARD cursor advance + COR-20261031-2",
+        "sha256": "803cccb56659a13dbf72548bca8e83e6ede990f5b056c528a9da821915932da5",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): b6b827c44 PROME: boot 11/1 22:33 ET \u2014 WQ-520 rolled off, BOARD cursor advanced",
         "versions": {
-          "8d749dda9007130cab27afe6a53c03c9871502af": "f6e15e119c256887909b7adecc0e5f2b507beafe8a6357f5326578e2848da9c8"
+          "b6b827c44234ff32ad36c894eb9b27c3446cc009": "803cccb56659a13dbf72548bca8e83e6ede990f5b056c528a9da821915932da5"
         }
       },
-      "PROME/tools/ARGUS_CONTRACT.md": {
-        "sha256": "f51eb4f13eab85689f689501febf4387504e78892a678ba42a53a22ad923ea0a",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
+      "PROME/tools/desk_attention.py": {
+        "sha256": "36e3dd39ba03585eb72b9ad294d9cedd1cbbdad2599af205b792f2c87474a489",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): 90c28f06f PROME: L870 \u2014 desk_attention reads a signed short-leg Qty without stri",
         "versions": {
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "f51eb4f13eab85689f689501febf4387504e78892a678ba42a53a22ad923ea0a"
+          "90c28f06f4815a81be96bbf064cbcadb7178df5c": "36e3dd39ba03585eb72b9ad294d9cedd1cbbdad2599af205b792f2c87474a489"
         }
       },
-      "PROME/tools/argus_contract.py": {
-        "sha256": "65ec4dbd3c357e96b9500ff3b21c97b212afa9f27659865a2e704afe50cb4458",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
+      "PROME/tools/tests/test_desk_attention.py": {
+        "sha256": "ad78ed12bd978334b6ef098a8104022756fa42e40d8028fad17606d316d8e556",
+        "provenance": "auto (WQ-583 AC6, OWNED lane): 90c28f06f PROME: L870 \u2014 desk_attention reads a signed short-leg Qty without stri",
         "versions": {
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "65ec4dbd3c357e96b9500ff3b21c97b212afa9f27659865a2e704afe50cb4458"
-        }
-      },
-      "PROME/tools/argus_scope.py": {
-        "sha256": "eef25a05944458bba6f7a44e3be746cef160bd4d414994a718b6518916489323",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
-        "versions": {
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "eef25a05944458bba6f7a44e3be746cef160bd4d414994a718b6518916489323"
-        }
-      },
-      "PROME/tools/tests/ACCEPTANCE_wq583_candidate_moves_reuse_2026-10-31.md": {
-        "sha256": "2a023ece2eacb31fe3b5cd67adbcb095a3653a4b19f8728dd447e4f138800657",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 8beb4c184 PROME: WQ-583 code half built, 3 reads, WITHHELD as a patch; WQ-584 re; 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
-        "versions": {
-          "8beb4c18434e5efd08968c5b221c282f17506c7c": "c1c5ba9eba851f744be669b90c9121cf95cb037218c27603b52ec78ee8c41e0c",
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "2a023ece2eacb31fe3b5cd67adbcb095a3653a4b19f8728dd447e4f138800657"
-        }
-      },
-      "PROME/tools/tests/test_argus_contract.py": {
-        "sha256": "ca796736883d99bb912f3b5336c0b23b91b8f0a401ebf47fdda50a82f6d231b5",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
-        "versions": {
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "ca796736883d99bb912f3b5336c0b23b91b8f0a401ebf47fdda50a82f6d231b5"
-        }
-      },
-      "PROME/tools/tests/test_argus_wq583.py": {
-        "sha256": "03f582b0d2a67387eff32ab4864d684970fdc654efc052be2129420f4dce8e4b",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
-        "versions": {
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "03f582b0d2a67387eff32ab4864d684970fdc654efc052be2129420f4dce8e4b"
-        }
-      },
-      "PROME/tools/tests/test_review_mechanism_WQ240b.py": {
-        "sha256": "5e8d6715b87b3a04b23c8740e9b375a5c0e308ab158b55e9dad39ff54d45b23c",
-        "provenance": "auto (WQ-583 AC6, OWNED lane): 853bde643 PROME: adopt WQ-583 code half \u2014 review candidate, deliver-candidate, m",
-        "versions": {
-          "853bde64365fe5a9981ea8db9d0e47a9f61e59b8": "5e8d6715b87b3a04b23c8740e9b375a5c0e308ab158b55e9dad39ff54d45b23c"
-        }
-      },
-      "memory/auto/MEMORY.md": {
-        "sha256": "fd7783787944e5c06619597b7ca6c9f22177e1ccf5011fae48f8a17305ed3e6e",
-        "provenance": "auto (WQ-583 AC6, PROME commit subject): d666c14e2 PROME: memory \u2014 bound follow-up reviews to the fix diff (Will 11/1, WQ; 80f8a43c8 PROME: memory index \u2014 trim the new hook to the 80-char canon",
-        "versions": {
-          "d666c14e2042b0dddfb48cab9952f786f6788661": "9f17c2050743f2da67bdf129f51a5d4821458b9c0956a5850f62ab8bced3f71b",
-          "80f8a43c8c2da33d2eca1ff1f57ce484482e794f": "fd7783787944e5c06619597b7ca6c9f22177e1ccf5011fae48f8a17305ed3e6e"
-        }
-      },
-      "memory/auto/feedback_bound_follow_up_reviews_to_the_diff.md": {
-        "sha256": "6303b452b98f0f869f41027788ff9dada9e7a345ad0f3dcbbb262331c44ab284",
-        "provenance": "auto (WQ-583 AC6, PROME commit subject): d666c14e2 PROME: memory \u2014 bound follow-up reviews to the fix diff (Will 11/1, WQ",
-        "versions": {
-          "d666c14e2042b0dddfb48cab9952f786f6788661": "6303b452b98f0f869f41027788ff9dada9e7a345ad0f3dcbbb262331c44ab284"
+          "90c28f06f4815a81be96bbf064cbcadb7178df5c": "ad78ed12bd978334b6ef098a8104022756fa42e40d8028fad17606d316d8e556"
         }
       },
       "memory/2026-11-01.md": {
-        "sha256": "aa5399506afa8312a677ff5d11eb542ff1be08cc928e49be65fa1b4ad058c41b",
-        "provenance": "PROME session 90c33147 daily account (Sat 10/31 evening + Sun 11/1), written at the closeout",
-        "versions": {}
-      },
-      "PROME/inbox/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": {
-        "sha256": null,
-        "provenance": "BRENT's 11/1 delivery packet, consumed by PROME 21:2x ET (L609 resolved, L913 registered) and filed \u2014 origin leg of the git mv",
-        "versions": {
-          "8379e8a5d7c85b00324cf70945ffe1079b4122e5": "e53383910ce6064b620c2e775eb79cb90e376326633828cbd6a43273dfde8d07"
-        }
-      },
-      "PROME/inbox/processed/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": {
-        "sha256": "e53383910ce6064b620c2e775eb79cb90e376326633828cbd6a43273dfde8d07",
-        "provenance": "the same packet filed to processed/ by PROME (byte-identical git mv; arrived in-window, so not a baseline move)",
+        "sha256": "f89878cfa5cd176258065c538742a889d97c957c6da0143363b6eece8973a7e8",
+        "provenance": "PROME daily account \u2014 \u00a7 Late session 4f5e775d appended at this closeout (Sun 11/1 22:33 boot \u2192 Mon 11/2 closeout)",
         "versions": {}
       }
     },
     "evidence": [],
     "mechanical_moves": {
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-040.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-040.md",
-        "sha256": "470d45363a6de37d161984485b921db6bdff51dd527d10264db0b3b1c433b59f"
+      "AGENTS/FLG/inbox/processed/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
+        "origin": "AGENTS/FLG/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md",
+        "sha256": "02b506065ed5c2dffd6bdb7d9939224e1de890cc7c2277a487b38de1ad2d0236"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-046.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-046.md",
-        "sha256": "cc3854593a56884ee9969c0fdee9716e3c325ecba6072a928738ae32e92b6046"
+      "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-007.md": {
+        "origin": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-007.md",
+        "sha256": "d146082c578b7609536a5c7d06a8719bb158d46258f220bc8f1375f4cc9ee175"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-052.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-052.md",
-        "sha256": "5bbe297567c2c3cec4a34207412212bd85d772f1618118dc3a0320ea8e98f60a"
+      "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-009.md": {
+        "origin": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-009.md",
+        "sha256": "da0d6ffae347a5cd85a7739ed6f55d46b1ee93eb3fcddabe5b56ec28ec795a19"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-005.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-005.md",
-        "sha256": "ce60af9c5fb2c90065b3bd1e391bb3c18943f165d5fba731ace564427cf25c70"
+      "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-010.md": {
+        "origin": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-010.md",
+        "sha256": "6721430877d813462f8e147456ceb4f494f285c38dd3ae178cb9b54106c2fe47"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-008.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-008.md",
-        "sha256": "3be2fbe4fb4f83320dbf4ae6db5a3c9de56edc71ce4a29fe64e104b9b2f6f1b4"
+      "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-011.md": {
+        "origin": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-011.md",
+        "sha256": "b31361bf1f1f68b8d8f09e76c7e6a479e39d784223ae0b18243d948d0067d3f9"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-011.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-011.md",
-        "sha256": "0ef4bc969b7e264d1181e8b2899cb055f1603fa537655c3a53b086746543f56d"
+      "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-018.md": {
+        "origin": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-018.md",
+        "sha256": "133f684e350bf9c31a654fc59ab3d4387f2ea72e915d1595fd43c4a776a6de15"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-001.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-001.md",
-        "sha256": "1454e6400add53141dbc701cd6fef547a6a1b45a3cf6eaa9c31898a18b65d8ee"
+      "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-023.md": {
+        "origin": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-023.md",
+        "sha256": "a6dfbb1f35f46a219cf437f0b92fd3194b40bfd386bb9d463ac871fba058ede2"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-003.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-003.md",
-        "sha256": "728d826bfa2997d8fd7a86b3872173c644d9a5c2a23d9eda02a38e5f0d5769aa"
+      "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-024.md": {
+        "origin": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-024.md",
+        "sha256": "c9806695758efbc2f571efea311019b17f530f8d33161ad2afdb574cf5a141d6"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-004.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-004.md",
-        "sha256": "7ac73000c0fe42861b36cf8b9b26fa86c9845324e336b485742538fdefd1d39c"
+      "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-025.md": {
+        "origin": "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-025.md",
+        "sha256": "dd08a0fd74dc8c9e400af9426b98d1194fdcd3949311d3d4c5b10ee35207bc77"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-008.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-008.md",
-        "sha256": "cab0a4c1dd9ae795cd766d24499f77dbd341f993335c9410a823b0b466fe1818"
+      "AGENTS/REGINALD/inbox/processed/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
+        "origin": "AGENTS/REGINALD/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md",
+        "sha256": "7b202f64aea821a54a26334222a167c158ce97212c476829384af313792e6dd5"
       },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-015.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-015.md",
-        "sha256": "00aa116d24a4c07470e18bfbe1dfc391d7da51219aea2e65722df83691cc64f0"
-      },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-016.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-016.md",
-        "sha256": "b771f975d077ae628d34a78b4563285af93ee8a54ac73f6dd3f4331c2fbe91e0"
-      },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-020.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-020.md",
-        "sha256": "5271485d099feb4eaf02274b08b92df7a7aed785fc0704f66d7ae2f26344ad9c"
-      },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-021.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-021.md",
-        "sha256": "07f6188d7bc8fea14b9298b6891fbe078c4ad67dba6eda3f9a6fd0155ce8131d"
-      },
-      "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-022.md": {
-        "origin": "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-022.md",
-        "sha256": "7f5e5a42f995bafe543ce9f0bee75aaccb6def8ba2b4f396de340289ba55c4e3"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md",
-        "sha256": "e4092640d7ae2f5a1a19e2c1118ba5fe1bda1c609b128b4efd6a959c48b0a4e6"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md",
-        "sha256": "1aab84a8fbc8ef3a195f92590fa0cff2d9f46ef8684e1fd3036913bcc687f559"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md",
-        "sha256": "08600ec5f5c203042056d3f4e72ffc027b2de4d3e2893574a14b384468701d77"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-29_from-PROME_L526-reader-verdict-four-text-gaps-WQ543.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-29_from-PROME_L526-reader-verdict-four-text-gaps-WQ543.md",
-        "sha256": "ad0c95a3b8d68ebf779c2b7f3645542df93b49957d56c73fc1c7e8fdc0199eee"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-29_from-PROME_WQ543-RULED-APPROVE-install-with-DST-reset.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-29_from-PROME_WQ543-RULED-APPROVE-install-with-DST-reset.md",
-        "sha256": "29bc6583bf75f730bb48602320cad490f30c6cb9909c397debab846bbd332514"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-29_from-ZHAO_no-extension-instrument-and-two-new-trade-levers.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-29_from-ZHAO_no-extension-instrument-and-two-new-trade-levers.md",
-        "sha256": "21e387c8992b63c8d04499b85dda7e9ca57a06e03681bb20362c33dedef00aff"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-31_from-DAEDALUS_L526-friday-receipt-placement.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-31_from-DAEDALUS_L526-friday-receipt-placement.md",
-        "sha256": "8aceb1da32e6faac5ec17e26f4da18a18654810814267b704f752be1fcdb0248"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-31_from-WALTER_burst-window-retired.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-31_from-WALTER_burst-window-retired.md",
-        "sha256": "f3b3785088ef3a550ef4ee5aade55283e7ecb914c73dab7e6d97ce7521cdd6c4"
-      },
-      "AGENTS/BRENT/inbox/processed/2026-10-31_from-YURI_diesel-1436-producer-exemption-deleted.md": {
-        "origin": "AGENTS/BRENT/inbox/2026-10-31_from-YURI_diesel-1436-producer-exemption-deleted.md",
-        "sha256": "84ba6b14ea9107543766dd24d84fa0f1aa41d7c92f298a06df9faca46284aa86"
+      "PROME/inbox/processed/2026-11-01_from-BRENT_thursday-fallback-offschedule-no-new-observation.md": {
+        "origin": "PROME/inbox/2026-11-01_from-BRENT_thursday-fallback-offschedule-no-new-observation.md",
+        "sha256": "2d825a91f65ca7ffda9a6595a0b3c80102125fbc9f96c595f03c1017afd7e9d7"
       }
     },
     "reused": {
-      ".claude/agents/argus.md": {
+      "AGENTS/BRENT/inbox/2026-11-01_from-PROME_WQ543-installed-offschedule-fire-was-validation.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "8659113d17b8452144d20e6b3a48d4195f84271e47ac2b5a96a5c090f333b8e3"
       },
-      ".claude/skills/closeout/SKILL.md": {
+      "AGENTS/REGINALD/inbox/2026-11-02_from-PROME_11-07-run-reserve-release-breadth-question.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077"
-      },
-      "AGENTS/FLG/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "02b506065ed5c2dffd6bdb7d9939224e1de890cc7c2277a487b38de1ad2d0236"
-      },
-      "AGENTS/GIBBS/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "d47ec3677dbb8ae4f39608ce7772c312518cfe1f18856097a7fc14f3dacc72c6"
-      },
-      "AGENTS/REGINALD/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "7b202f64aea821a54a26334222a167c158ce97212c476829384af313792e6dd5"
-      },
-      "PROME/.claude/agents/argus.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d"
-      },
-      "PROME/.claude/skills/closeout/SKILL.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077"
-      },
-      "PROME/CLOSEOUT.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "b1052478b42e6a743a81341433faf3d039464c0774406d3614946a0509d1a9f2"
-      },
-      "PROME/CLOSEOUT_PROCEDURES.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "1e7bedc3c935d533ebd950ec7d41e2479efaa85aa718f281717c24bbdde1e4d3"
-      },
-      "PROME/GIT_COORDINATION.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "227c4ab978cb385a9fe3ae7fc5b01729ca3eec1caa4054ad7ad0b4abacd8367e"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "849738094254655a9d8356eac5073c64d1b9500f5d6fbad27fcc1bd47aa86710"
       },
       "PROME/HANDOFF.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "73c7b15ce5ca17bf183b5389664f35df1c42735d2888bd762495a58c1c19376a"
-      },
-      "PROME/MACHINE_LOCAL.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "c9f8ac371d8d3715226203a6bae4953c176cf85995254817d5828453ac8ada53"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "1944246c52ecf8331468170c93c25b08b8778d7e710f6d9489837e0cbeae0573"
       },
       "PROME/SCRATCH.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "448f581a1d40968dcc442eee4b872e1819f83f37641f32b82a109f3201dce850"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "c95fab95272f0c5105107186aa089b19737136c8a3b0344e5fdde042bb4514c9"
       },
       "PROME/STATUS.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "b88324620e6a57f2f7c8197da4549eb6b9ddb4cf3caba687a67e72d8e42ebe48"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "c160ed2cbce5b357e5305713c714a2fa54a118c04f0b93bae0df1e0aa4b401bc"
       },
-      "PROME/WILL_QUEUE.md": {
+      "PROME/archive/HANDOFF_ROTATED_2026-11-02_4f5e775d.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "76ced3a071700f67588f6530311c2d771f2ed43071bbbc3b776327308f54914c"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "c30af57c6db0cdffbed2584a03436aa234406cb63be260c1f8baf1bdc3e35c71"
       },
-      "PROME/archive/HANDOFF_ROTATED_2026-11-01_90c33147.md": {
+      "PROME/archive/WILL_QUEUE_ROWS_2026-11-01_rolloff.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "41cd76c69d58e2fdf095b6465e10b17ebbb332fffe0e099dc983ac6fc02995ba"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "7b14a28d0b56b3832b487c709c7a808f8495d8f66265c3bcc0c8db974c55faf1"
       },
-      "PROME/inbox/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": {
+      "PROME/inbox/2026-11-01_from-FLG_q3-call-report-T01.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
         "sha256": null
       },
-      "PROME/inbox/processed/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": {
+      "PROME/inbox/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "7d397424398abfe543e558aa764d8071859cc49d6f1d43ebe785e0f9af0140a6"
-      },
-      "PROME/plans/2026-10-31_wq583-candidate-WITHHELD.patch": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
         "sha256": null
       },
-      "PROME/registry/READS.tsv": {
+      "PROME/inbox/processed/2026-11-01_from-FLG_q3-call-report-T01.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "b0e86210a35d5b1ea05a57884dcc6ab7bb8c2e8c47b0e2eb850e37509887f2ac"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "9da3abc830bf786bff6d8610f67d2d32fd373ab5085d12c7f506559f696a2af4"
       },
-      "PROME/registry/WQ_LEDGER.crc": {
+      "PROME/inbox/processed/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "5987a04c7553dfb167a0a38db6787f1749fb0b543802b0f74458c09bbbc12740"
-      },
-      "PROME/registry/WQ_LEDGER.tsv": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "dc81d2db2aa5f3043f58bfe3451c8f41fc02036384a1634ba3e61f0a109ca7a2"
-      },
-      "PROME/registry/corrections_receipts.tsv": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "8ec4d943ee6ea6df87293eb1060a0fb62ffb9612213046bb402a9cd2ee1fda4d"
-      },
-      "PROME/reports/2026-11-01_wq543-routine-install-receipt.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "2ac64c868d2a2ae0336265e106e18091501a6140fe0af621b483dc4eddeaceeb"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "d5de91b9a73355f952b411065833ab917110309f055a6d9f50580f4eb2341e41"
       },
       "PROME/state/ORCH_INFLIGHT.md": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "0a23a10be6b19d53781d0d9ffe59ed71a46b31fc41e1ecb5910684c231e5e095"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "1991499007a03119542b7c65c9f45f04816940b8936e95cd4ca75e4e4b194aa4"
       },
       "PROME/state/ORCH_LOG.tsv": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "c5221a190526bd2954813e88d5e627a4582ba958fca42a9c48b65a069a410835"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "f016471453f24fbce02b4093a59aa4635c085789f96ffc2b475d82af42c82ba7"
       },
       "PROME/state/board_consumed.tsv": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "5d536f7a1404cc0769ac64dd2a9c2cd610881846c929067ac4a0d7f91e91a197"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "71f78dfd560ed0c849c7b1b02d453a2c66f03abba5e755d2e236b37a7fd0cc7e"
       },
       "PROME/state/board_cursor.txt": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "f6e15e119c256887909b7adecc0e5f2b507beafe8a6357f5326578e2848da9c8"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "803cccb56659a13dbf72548bca8e83e6ede990f5b056c528a9da821915932da5"
       },
-      "PROME/tools/ARGUS_CONTRACT.md": {
+      "PROME/tools/desk_attention.py": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "f51eb4f13eab85689f689501febf4387504e78892a678ba42a53a22ad923ea0a"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "36e3dd39ba03585eb72b9ad294d9cedd1cbbdad2599af205b792f2c87474a489"
       },
-      "PROME/tools/argus_contract.py": {
+      "PROME/tools/tests/test_desk_attention.py": {
         "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "65ec4dbd3c357e96b9500ff3b21c97b212afa9f27659865a2e704afe50cb4458"
-      },
-      "PROME/tools/argus_scope.py": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "eef25a05944458bba6f7a44e3be746cef160bd4d414994a718b6518916489323"
-      },
-      "PROME/tools/tests/ACCEPTANCE_wq583_candidate_moves_reuse_2026-10-31.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "2a023ece2eacb31fe3b5cd67adbcb095a3653a4b19f8728dd447e4f138800657"
-      },
-      "PROME/tools/tests/test_argus_contract.py": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "ca796736883d99bb912f3b5336c0b23b91b8f0a401ebf47fdda50a82f6d231b5"
-      },
-      "PROME/tools/tests/test_argus_wq583.py": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "03f582b0d2a67387eff32ab4864d684970fdc654efc052be2129420f4dce8e4b"
-      },
-      "PROME/tools/tests/test_review_mechanism_WQ240b.py": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "5e8d6715b87b3a04b23c8740e9b375a5c0e308ab158b55e9dad39ff54d45b23c"
-      },
-      "memory/auto/MEMORY.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "fd7783787944e5c06619597b7ca6c9f22177e1ccf5011fae48f8a17305ed3e6e"
-      },
-      "memory/auto/feedback_bound_follow_up_reviews_to_the_diff.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "6303b452b98f0f869f41027788ff9dada9e7a345ad0f3dcbbb262331c44ab284"
-      },
-      "PROME/inbox/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": null
-      },
-      "PROME/inbox/processed/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": {
-        "source": "previous-review",
-        "contract": "a40bc653f7541d6bdd628a3abafe1f05aae1fe138c41f0a24fe99b852e115a8e",
-        "sha256": "e53383910ce6064b620c2e775eb79cb90e376326633828cbd6a43273dfde8d07"
+        "contract": "36befd96858ab1efd1a5266c8f560b27f803938d8849ed121272fc10079b2a9f",
+        "sha256": "ad78ed12bd978334b6ef098a8104022756fa42e40d8028fad17606d316d8e556"
       }
     }
   },
-  "contract_sha256": "7fc5c1a9dd2cd5a66ebbca2a90cae073ff056f52bfe4e2a6bb76f80e9ef1a64b",
+  "contract_sha256": "a450eb717da10ca78238bb68ccd09f563b749a07721aedeb91914ded3f4fbc70",
   "observed": {},
   "inventory": {
-    ".claude/agents/argus.md": {
+    "AGENTS/BRENT/inbox/2026-11-01_from-PROME_WQ543-installed-offschedule-fire-was-validation.md": {
       "commits": [
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "f54e602b42c135a78c20088622f157414df09232"
       ],
       "pending": [],
-      "working_sha256": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d",
-      "commit_sha256": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d"
+      "working_sha256": "8659113d17b8452144d20e6b3a48d4195f84271e47ac2b5a96a5c090f333b8e3",
+      "commit_sha256": "8659113d17b8452144d20e6b3a48d4195f84271e47ac2b5a96a5c090f333b8e3"
     },
-    ".claude/skills/closeout/SKILL.md": {
+    "AGENTS/BROCK/inbox/2026-11-01_to-BROCK_vly-q3-ndfi-nonaccrual-under-issuer-c-and-i-label.md": {
       "commits": [
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "bfe405e109ab806166eb7e7b4f52fbd88e3fb0a8"
       ],
       "pending": [],
-      "working_sha256": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077",
-      "commit_sha256": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077"
-    },
-    "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261031-025.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "dd08a0fd74dc8c9e400af9426b98d1194fdcd3949311d3d4c5b10ee35207bc77",
-      "commit_sha256": "dd08a0fd74dc8c9e400af9426b98d1194fdcd3949311d3d4c5b10ee35207bc77"
-    },
-    "AGENTS/BRENT/NEXUS_BRIEF.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "dbfc9c432385770cdba8033050d13a6a9c09aa7c1c6e421b326758afe82cb70f",
-      "commit_sha256": "dbfc9c432385770cdba8033050d13a6a9c09aa7c1c6e421b326758afe82cb70f"
-    },
-    "AGENTS/BRENT/RULINGS.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "117a56a341b246fa4a20439f790125159dbcc2c1cd3375f28ef333357e2ca74c",
-      "commit_sha256": "117a56a341b246fa4a20439f790125159dbcc2c1cd3375f28ef333357e2ca74c"
-    },
-    "AGENTS/BRENT/SCHEDULED_RUNS.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "cd94a4057ce037f338bcf1e3415a8896749a566cc99a73a505feb8faec4b247e",
-      "commit_sha256": "cd94a4057ce037f338bcf1e3415a8896749a566cc99a73a505feb8faec4b247e"
-    },
-    "AGENTS/BRENT/SCRATCH.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "4107a0541c7a77b2f3b00c929bf9e32cb176165615d6cf22629eeb091fd5ccea",
-      "commit_sha256": "4107a0541c7a77b2f3b00c929bf9e32cb176165615d6cf22629eeb091fd5ccea"
-    },
-    "AGENTS/BRENT/STATUS.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "dd65704dcf26855902a22fe399b07e8c399dae39f5b69bbe0010823918aedecd",
-      "commit_sha256": "dd65704dcf26855902a22fe399b07e8c399dae39f5b69bbe0010823918aedecd"
-    },
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/REPORT.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "bce25143bba4317d48e710d374b4a283d36e5be53d283a669fd4e64265cbf13a",
-      "commit_sha256": "bce25143bba4317d48e710d374b4a283d36e5be53d283a669fd4e64265cbf13a"
-    },
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/SHA256SUMS": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "a406a645676b4466124085f93bdc94f3b427c714fac711de5787b9a07bf0b56d",
-      "commit_sha256": "a406a645676b4466124085f93bdc94f3b427c714fac711de5787b9a07bf0b56d"
-    },
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/after_friday.txt": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "f40b854266a7e62ef300c2d4451b1e9b7f80fc5f2aa92a66a43b3986fcb2b27a",
-      "commit_sha256": "f40b854266a7e62ef300c2d4451b1e9b7f80fc5f2aa92a66a43b3986fcb2b27a"
-    },
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/after_monday.txt": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "c89e8317d6761bb2979e455852442929309953f9a6e2e41634a18edc5066c40a",
-      "commit_sha256": "c89e8317d6761bb2979e455852442929309953f9a6e2e41634a18edc5066c40a"
-    },
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/after_thursday.txt": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "86c2be7cf2be3b710c745e3b35159330b4c3892ebca22ca10dddbaba20d35e2f",
-      "commit_sha256": "86c2be7cf2be3b710c745e3b35159330b4c3892ebca22ca10dddbaba20d35e2f"
-    },
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/after_wednesday.txt": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "b73673bf7ef49b4a95ab87ca9f88bfe701f51d8f723d2a58f4b77cfe38866ca1",
-      "commit_sha256": "b73673bf7ef49b4a95ab87ca9f88bfe701f51d8f723d2a58f4b77cfe38866ca1"
-    },
-    "AGENTS/BRENT/board_log.tsv": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "f264f5b793bcdbf7d3687fb8592f57855cedc805ae4e4cb9b6a0044debd75e7a",
-      "commit_sha256": "f264f5b793bcdbf7d3687fb8592f57855cedc805ae4e4cb9b6a0044debd75e7a"
-    },
-    "AGENTS/BRENT/demand_destruction/TRACKER.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "ee6e9a06ac7fc2ef77bee956c250e346235a1da955171a975268a267288c909d",
-      "commit_sha256": "ee6e9a06ac7fc2ef77bee956c250e346235a1da955171a975268a267288c909d"
-    },
-    "AGENTS/BRENT/docket/CATALYSTS.tsv": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "96d7e152f0a2dcdac85b9f1f16fe329b1b61577c1917e27b989a89165af5daec",
-      "commit_sha256": "96d7e152f0a2dcdac85b9f1f16fe329b1b61577c1917e27b989a89165af5daec"
-    },
-    "AGENTS/BRENT/inbox/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/2026-10-29_from-PROME_L526-reader-verdict-four-text-gaps-WQ543.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/2026-10-29_from-PROME_WQ543-RULED-APPROVE-install-with-DST-reset.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/2026-10-29_from-ZHAO_no-extension-instrument-and-two-new-trade-levers.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/2026-10-31_from-DAEDALUS_L526-friday-receipt-placement.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/2026-10-31_from-WALTER_burst-window-retired.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/2026-10-31_from-YURI_diesel-1436-producer-exemption-deleted.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-040.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-046.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-052.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-005.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-008.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-011.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-001.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-003.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-004.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-008.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-015.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-016.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-020.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-021.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-022.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-040.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "470d45363a6de37d161984485b921db6bdff51dd527d10264db0b3b1c433b59f",
-      "commit_sha256": "470d45363a6de37d161984485b921db6bdff51dd527d10264db0b3b1c433b59f"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-046.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "cc3854593a56884ee9969c0fdee9716e3c325ecba6072a928738ae32e92b6046",
-      "commit_sha256": "cc3854593a56884ee9969c0fdee9716e3c325ecba6072a928738ae32e92b6046"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-052.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "5bbe297567c2c3cec4a34207412212bd85d772f1618118dc3a0320ea8e98f60a",
-      "commit_sha256": "5bbe297567c2c3cec4a34207412212bd85d772f1618118dc3a0320ea8e98f60a"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-005.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "ce60af9c5fb2c90065b3bd1e391bb3c18943f165d5fba731ace564427cf25c70",
-      "commit_sha256": "ce60af9c5fb2c90065b3bd1e391bb3c18943f165d5fba731ace564427cf25c70"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-008.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "3be2fbe4fb4f83320dbf4ae6db5a3c9de56edc71ce4a29fe64e104b9b2f6f1b4",
-      "commit_sha256": "3be2fbe4fb4f83320dbf4ae6db5a3c9de56edc71ce4a29fe64e104b9b2f6f1b4"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-011.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "0ef4bc969b7e264d1181e8b2899cb055f1603fa537655c3a53b086746543f56d",
-      "commit_sha256": "0ef4bc969b7e264d1181e8b2899cb055f1603fa537655c3a53b086746543f56d"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-001.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "1454e6400add53141dbc701cd6fef547a6a1b45a3cf6eaa9c31898a18b65d8ee",
-      "commit_sha256": "1454e6400add53141dbc701cd6fef547a6a1b45a3cf6eaa9c31898a18b65d8ee"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-003.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "728d826bfa2997d8fd7a86b3872173c644d9a5c2a23d9eda02a38e5f0d5769aa",
-      "commit_sha256": "728d826bfa2997d8fd7a86b3872173c644d9a5c2a23d9eda02a38e5f0d5769aa"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-004.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "7ac73000c0fe42861b36cf8b9b26fa86c9845324e336b485742538fdefd1d39c",
-      "commit_sha256": "7ac73000c0fe42861b36cf8b9b26fa86c9845324e336b485742538fdefd1d39c"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-008.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "cab0a4c1dd9ae795cd766d24499f77dbd341f993335c9410a823b0b466fe1818",
-      "commit_sha256": "cab0a4c1dd9ae795cd766d24499f77dbd341f993335c9410a823b0b466fe1818"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-015.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "00aa116d24a4c07470e18bfbe1dfc391d7da51219aea2e65722df83691cc64f0",
-      "commit_sha256": "00aa116d24a4c07470e18bfbe1dfc391d7da51219aea2e65722df83691cc64f0"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-016.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "b771f975d077ae628d34a78b4563285af93ee8a54ac73f6dd3f4331c2fbe91e0",
-      "commit_sha256": "b771f975d077ae628d34a78b4563285af93ee8a54ac73f6dd3f4331c2fbe91e0"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-020.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "5271485d099feb4eaf02274b08b92df7a7aed785fc0704f66d7ae2f26344ad9c",
-      "commit_sha256": "5271485d099feb4eaf02274b08b92df7a7aed785fc0704f66d7ae2f26344ad9c"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-021.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "07f6188d7bc8fea14b9298b6891fbe078c4ad67dba6eda3f9a6fd0155ce8131d",
-      "commit_sha256": "07f6188d7bc8fea14b9298b6891fbe078c4ad67dba6eda3f9a6fd0155ce8131d"
-    },
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-022.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "7f5e5a42f995bafe543ce9f0bee75aaccb6def8ba2b4f396de340289ba55c4e3",
-      "commit_sha256": "7f5e5a42f995bafe543ce9f0bee75aaccb6def8ba2b4f396de340289ba55c4e3"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "e4092640d7ae2f5a1a19e2c1118ba5fe1bda1c609b128b4efd6a959c48b0a4e6",
-      "commit_sha256": "e4092640d7ae2f5a1a19e2c1118ba5fe1bda1c609b128b4efd6a959c48b0a4e6"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "1aab84a8fbc8ef3a195f92590fa0cff2d9f46ef8684e1fd3036913bcc687f559",
-      "commit_sha256": "1aab84a8fbc8ef3a195f92590fa0cff2d9f46ef8684e1fd3036913bcc687f559"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "08600ec5f5c203042056d3f4e72ffc027b2de4d3e2893574a14b384468701d77",
-      "commit_sha256": "08600ec5f5c203042056d3f4e72ffc027b2de4d3e2893574a14b384468701d77"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-PROME_L526-reader-verdict-four-text-gaps-WQ543.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "ad0c95a3b8d68ebf779c2b7f3645542df93b49957d56c73fc1c7e8fdc0199eee",
-      "commit_sha256": "ad0c95a3b8d68ebf779c2b7f3645542df93b49957d56c73fc1c7e8fdc0199eee"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-PROME_WQ543-RULED-APPROVE-install-with-DST-reset.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "29bc6583bf75f730bb48602320cad490f30c6cb9909c397debab846bbd332514",
-      "commit_sha256": "29bc6583bf75f730bb48602320cad490f30c6cb9909c397debab846bbd332514"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-ZHAO_no-extension-instrument-and-two-new-trade-levers.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "21e387c8992b63c8d04499b85dda7e9ca57a06e03681bb20362c33dedef00aff",
-      "commit_sha256": "21e387c8992b63c8d04499b85dda7e9ca57a06e03681bb20362c33dedef00aff"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-31_from-DAEDALUS_L526-friday-receipt-placement.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "8aceb1da32e6faac5ec17e26f4da18a18654810814267b704f752be1fcdb0248",
-      "commit_sha256": "8aceb1da32e6faac5ec17e26f4da18a18654810814267b704f752be1fcdb0248"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-31_from-WALTER_burst-window-retired.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "f3b3785088ef3a550ef4ee5aade55283e7ecb914c73dab7e6d97ce7521cdd6c4",
-      "commit_sha256": "f3b3785088ef3a550ef4ee5aade55283e7ecb914c73dab7e6d97ce7521cdd6c4"
-    },
-    "AGENTS/BRENT/inbox/processed/2026-10-31_from-YURI_diesel-1436-producer-exemption-deleted.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "84ba6b14ea9107543766dd24d84fa0f1aa41d7c92f298a06df9faca46284aa86",
-      "commit_sha256": "84ba6b14ea9107543766dd24d84fa0f1aa41d7c92f298a06df9faca46284aa86"
-    },
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/620-1-november-2026.html": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "26c4acdeae1c0e7dc56767133fc97836858d5eb38d426fe006d07be9f79077fd",
-      "commit_sha256": "26c4acdeae1c0e7dc56767133fc97836858d5eb38d426fe006d07be9f79077fd"
-    },
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/NOTE.md": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "cb3a5c3e40fed31d61f73a7d45ea72139f4348911ce061c80fe54b41bea7e645",
-      "commit_sha256": "cb3a5c3e40fed31d61f73a7d45ea72139f4348911ce061c80fe54b41bea7e645"
-    },
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/eia_api_COPS_OPEC.json": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "a8bbaf482edeb52bcc02f4b92843c2089b72d198478e94e3ebc7c3a82a324fad",
-      "commit_sha256": "a8bbaf482edeb52bcc02f4b92843c2089b72d198478e94e3ebc7c3a82a324fad"
-    },
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/eia_api_COPS_R05.json": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "263edcc85ec65e6f83f4d7d19969f1d9c76999022c752673aced1596a0f6d9ca",
-      "commit_sha256": "263edcc85ec65e6f83f4d7d19969f1d9c76999022c752673aced1596a0f6d9ca"
-    },
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/hdr_620.txt": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "baf0070bd579831a3daeb44b8f157dfd017839dfcf5e395f1a45442561b208c5",
-      "commit_sha256": "baf0070bd579831a3daeb44b8f157dfd017839dfcf5e395f1a45442561b208c5"
-    },
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/oct_table_1791111910.png": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "a21f60f573c2149a0ae11db7b22d23a45d6f154f1490d09dd31f42c234e69271",
-      "commit_sha256": "a21f60f573c2149a0ae11db7b22d23a45d6f154f1490d09dd31f42c234e69271"
-    },
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/steo_overview.html": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "0ee63a94f18d32693e16bf0c71558f7355af82624b8f9ba5a0439a8211fa16ee",
-      "commit_sha256": "0ee63a94f18d32693e16bf0c71558f7355af82624b8f9ba5a0439a8211fa16ee"
-    },
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/table_1793534438.png": {
-      "commits": [
-        "ee53164e99c06a9b7d328b755df6c9075db5623e"
-      ],
-      "pending": [],
-      "working_sha256": "84d3f4d0b7fd8f80ff91c690ff104813ed20d36db549f7baca71636268975dae",
-      "commit_sha256": "84d3f4d0b7fd8f80ff91c690ff104813ed20d36db549f7baca71636268975dae"
-    },
-    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261031-023.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "5f8acff1374b0bb4691b56f52fe951745632ab71e9143844927c5a6747662b3b",
-      "commit_sha256": "5f8acff1374b0bb4691b56f52fe951745632ab71e9143844927c5a6747662b3b"
-    },
-    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261031-026.md": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "68b0e2e77aa66f6ae59b7ad27470f24db9d86309781dc6d018bcd5c08070db11",
-      "commit_sha256": "68b0e2e77aa66f6ae59b7ad27470f24db9d86309781dc6d018bcd5c08070db11"
+      "working_sha256": "62ef8a19c6543fa91ec36b9e10b0597a30a615cd549550d165301da7431c75d5",
+      "commit_sha256": "62ef8a19c6543fa91ec36b9e10b0597a30a615cd549550d165301da7431c75d5"
     },
     "AGENTS/CATO/CONTINUITY.md": {
       "commits": [
-        "f07735f67e2da3fd0bb84057d1197b3763af62a0"
+        "dce795aaf1c52a13497b1cdbb21df917d6c1512e"
       ],
       "pending": [],
-      "working_sha256": "ea04b6775296156f17e478afde60711cb5b837f1c69e5a37a2b0edff5005895c",
-      "commit_sha256": "ea04b6775296156f17e478afde60711cb5b837f1c69e5a37a2b0edff5005895c"
+      "working_sha256": "b998ffccbd98953dbb7066121e540c0b6db63d861c8fe7b4dfb6c15a98b1b7cb",
+      "commit_sha256": "b998ffccbd98953dbb7066121e540c0b6db63d861c8fe7b4dfb6c15a98b1b7cb"
     },
     "AGENTS/CATO/runs/2026-10-29_0942_recent-system-review.md": {
       "commits": [
-        "f07735f67e2da3fd0bb84057d1197b3763af62a0"
+        "dce795aaf1c52a13497b1cdbb21df917d6c1512e"
       ],
       "pending": [],
-      "working_sha256": "be1d7ace36fc8af7a8cee68956f208e707f1c1b4cf71bdd1335df849a2e2db44",
-      "commit_sha256": "be1d7ace36fc8af7a8cee68956f208e707f1c1b4cf71bdd1335df849a2e2db44"
+      "working_sha256": "65cc89e02519527b9395a69d48b42a707d63b5d2e94a2d082ce02fad89bc365a",
+      "commit_sha256": "65cc89e02519527b9395a69d48b42a707d63b5d2e94a2d082ce02fad89bc365a"
     },
-    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261031-024.md": {
+    "AGENTS/FLG/CALENDAR.md": {
       "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
       ],
       "pending": [],
-      "working_sha256": "66b5856059cb7a97fa392024ed63329b6bd416a97924c02fbf91975d8b522adf",
-      "commit_sha256": "66b5856059cb7a97fa392024ed63329b6bd416a97924c02fbf91975d8b522adf"
+      "working_sha256": "f08f42b8c744a17f45c7d9606918c963bb09e0439aca7280f96d59343aac86c2",
+      "commit_sha256": "f08f42b8c744a17f45c7d9606918c963bb09e0439aca7280f96d59343aac86c2"
     },
-    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261031-025.md": {
+    "AGENTS/FLG/NEXUS_BRIEF.md": {
       "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+        "873ac851da85685cffb164ad7ab176afebb241a5"
       ],
       "pending": [],
-      "working_sha256": "43d2f222b1e74d365ca965c092b5daf191c19197971e042310920d9861f7961e",
-      "commit_sha256": "43d2f222b1e74d365ca965c092b5daf191c19197971e042310920d9861f7961e"
+      "working_sha256": "e6af2852183d43404c21085941e02a18c47f12d89bd4bd22033b6a50354c3b73",
+      "commit_sha256": "e6af2852183d43404c21085941e02a18c47f12d89bd4bd22033b6a50354c3b73"
     },
-    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261031-026.md": {
+    "AGENTS/FLG/STATUS.md": {
       "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
       ],
       "pending": [],
-      "working_sha256": "f01ac230e405ed239e8392df2bad208d6fe91d505d96b6d6255b739ed9a47eea",
-      "commit_sha256": "f01ac230e405ed239e8392df2bad208d6fe91d505d96b6d6255b739ed9a47eea"
+      "working_sha256": "af917a0642b21f9c65b62f76968866b912eefbdc49ac54226dbd331545b29383",
+      "commit_sha256": "af917a0642b21f9c65b62f76968866b912eefbdc49ac54226dbd331545b29383"
+    },
+    "AGENTS/FLG/TRADE.md": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "bfbb2a45feaaf4365b4e1cb305eb116c6bfcef1848a3cbb93cd5434624647b45",
+      "commit_sha256": "bfbb2a45feaaf4365b4e1cb305eb116c6bfcef1848a3cbb93cd5434624647b45"
+    },
+    "AGENTS/FLG/archive/STATUS_ARCHIVE_2026-11-01.md": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "d97a2819ee990b133e7a1c14fcdb431a148b6598103404fd4460ee12c6b0cd1e",
+      "commit_sha256": "d97a2819ee990b133e7a1c14fcdb431a148b6598103404fd4460ee12c6b0cd1e"
+    },
+    "AGENTS/FLG/archive/TRIGGERS_NOTES_ARCHIVE_2026-11-01.md": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "07b6743f953564cb392833798b9d4a08e16f04f1775e793d61da21e0dc07180a",
+      "commit_sha256": "07b6743f953564cb392833798b9d4a08e16f04f1775e793d61da21e0dc07180a"
+    },
+    "AGENTS/FLG/board_log.tsv": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "418350abaf7eb3d468202643d11d2b05b16044d214672bde56809bd6a85be34c",
+      "commit_sha256": "418350abaf7eb3d468202643d11d2b05b16044d214672bde56809bd6a85be34c"
     },
     "AGENTS/FLG/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-      "commits": [],
-      "pending": [
-        "??"
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
       ],
-      "working_sha256": "02b506065ed5c2dffd6bdb7d9939224e1de890cc7c2277a487b38de1ad2d0236",
+      "pending": [],
+      "working_sha256": null,
       "commit_sha256": null
     },
     "AGENTS/FLG/inbox/WALTER/SIG-W-20261031-026.md": {
       "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/FLG/inbox/WALTER/processed/SIG-W-20261031-026.md": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
       ],
       "pending": [],
       "working_sha256": "f01ac230e405ed239e8392df2bad208d6fe91d505d96b6d6255b739ed9a47eea",
       "commit_sha256": "f01ac230e405ed239e8392df2bad208d6fe91d505d96b6d6255b739ed9a47eea"
     },
-    "AGENTS/GIBBS/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-      "commits": [],
-      "pending": [
-        "??"
+    "AGENTS/FLG/inbox/processed/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
       ],
-      "working_sha256": "d47ec3677dbb8ae4f39608ce7772c312518cfe1f18856097a7fc14f3dacc72c6",
+      "pending": [],
+      "working_sha256": "02b506065ed5c2dffd6bdb7d9939224e1de890cc7c2277a487b38de1ad2d0236",
+      "commit_sha256": "02b506065ed5c2dffd6bdb7d9939224e1de890cc7c2277a487b38de1ad2d0236"
+    },
+    "AGENTS/FLG/scripts/ffiec_pull.py": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "fcfe34ce586499825116ba6dc18aaf5b8943b896affc2fe4d9d653939dae4521",
+      "commit_sha256": "fcfe34ce586499825116ba6dc18aaf5b8943b896affc2fe4d9d653939dae4521"
+    },
+    "AGENTS/FLG/sources/ffiec_2026-11-01/694904_09-30-2026_call.sdf": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "8cf81ff12e2bad75b58273e4d8702a29d0823a94d393bf5b0ab61d9cc0c82e12",
+      "commit_sha256": "8cf81ff12e2bad75b58273e4d8702a29d0823a94d393bf5b0ab61d9cc0c82e12"
+    },
+    "AGENTS/FLG/sources/ffiec_2026-11-01/retrieval_20261102T041812Z.json": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "6cdfe1758d18687f254cdd7a8d43ff1acaf111c67a01adf58130cc3547f83d68",
+      "commit_sha256": "6cdfe1758d18687f254cdd7a8d43ff1acaf111c67a01adf58130cc3547f83d68"
+    },
+    "AGENTS/FLG/workbook/KB.tsv": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "c4e732edaf6e3e8ca3127c6af3320ef5801b522a545a1ab81d22eecc4ecedcf6",
+      "commit_sha256": "c4e732edaf6e3e8ca3127c6af3320ef5801b522a545a1ab81d22eecc4ecedcf6"
+    },
+    "AGENTS/FLG/workbook/MI3_FLG.tsv": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "23bd596792627f2cd8fae075e94bb69d93ed9b614a107ccfec3f74065889f21a",
+      "commit_sha256": "23bd596792627f2cd8fae075e94bb69d93ed9b614a107ccfec3f74065889f21a"
+    },
+    "AGENTS/FLG/workbook/TRIGGERS.tsv": {
+      "commits": [
+        "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+      ],
+      "pending": [],
+      "working_sha256": "0927ba1b6899b805a8c69a815de9cc438a93661ebcb6bef3fafee7260f25ddbb",
+      "commit_sha256": "0927ba1b6899b805a8c69a815de9cc438a93661ebcb6bef3fafee7260f25ddbb"
+    },
+    "AGENTS/RED/inbox/2026-11-01_from-FLG_counter-thesis-routing-total-loans-two-quarters.md": {
+      "commits": [
+        "0367b4b208ca513a8c3c6c243c8973975accca15"
+      ],
+      "pending": [],
+      "working_sha256": "539d5664c64646bee4307ab5d5b09a0c59c88225b66b64c53376d0c4c7ceedaf",
+      "commit_sha256": "539d5664c64646bee4307ab5d5b09a0c59c88225b66b64c53376d0c4c7ceedaf"
+    },
+    "AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md": {
+      "commits": [
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+      ],
+      "pending": [],
+      "working_sha256": "460e2046f21596530b22404cd5029699e8cc3e8baee7c6d2658ee688df291053",
+      "commit_sha256": "460e2046f21596530b22404cd5029699e8cc3e8baee7c6d2658ee688df291053"
+    },
+    "AGENTS/REGINALD/CALENDAR.md": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11",
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+      ],
+      "pending": [],
+      "working_sha256": "35e0ae05f0ef96f3a36dc050b27c6ec668a66ad8c2648f0892c1d080d1c77d2e",
+      "commit_sha256": "35e0ae05f0ef96f3a36dc050b27c6ec668a66ad8c2648f0892c1d080d1c77d2e"
+    },
+    "AGENTS/REGINALD/CLAUDE.md": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+      ],
+      "pending": [],
+      "working_sha256": "41e22907657ded104a0b27d848181d4dfb4a2c231249e7bfba9cd8ea7dcda1b3",
+      "commit_sha256": "41e22907657ded104a0b27d848181d4dfb4a2c231249e7bfba9cd8ea7dcda1b3"
+    },
+    "AGENTS/REGINALD/LESSONS.md": {
+      "commits": [
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+      ],
+      "pending": [],
+      "working_sha256": "8f9bade87125baef67d180991aff93f914c3fe8207d14db33e287a83c9b74e9e",
+      "commit_sha256": "8f9bade87125baef67d180991aff93f914c3fe8207d14db33e287a83c9b74e9e"
+    },
+    "AGENTS/REGINALD/MEMORY.md": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+      ],
+      "pending": [],
+      "working_sha256": "85e4fc1f0b17901653c2f0b9df5e8c97d880a28d27c96c79b1b30ac0a3ebddd7",
+      "commit_sha256": "85e4fc1f0b17901653c2f0b9df5e8c97d880a28d27c96c79b1b30ac0a3ebddd7"
+    },
+    "AGENTS/REGINALD/ROADMAP.md": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+      ],
+      "pending": [],
+      "working_sha256": "d55a95cd185ff0057a16390b3781a35fe69f38aa3ab0d6f2e121c8e71b1d0a2a",
+      "commit_sha256": "d55a95cd185ff0057a16390b3781a35fe69f38aa3ab0d6f2e121c8e71b1d0a2a"
+    },
+    "AGENTS/REGINALD/STATUS.md": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11",
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+      ],
+      "pending": [],
+      "working_sha256": "cec27af26dce9b637b5548ee10fec09ed26a1043127f91df845e4670bc9c9db1",
+      "commit_sha256": "cec27af26dce9b637b5548ee10fec09ed26a1043127f91df845e4670bc9c9db1"
+    },
+    "AGENTS/REGINALD/board/BOARD_LOG.tsv": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb",
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+      ],
+      "pending": [],
+      "working_sha256": "7bf84eee2c65985a6eb28ea5409ef16e498bf2cad18e147efc44901d148c3226",
+      "commit_sha256": "7bf84eee2c65985a6eb28ea5409ef16e498bf2cad18e147efc44901d148c3226"
+    },
+    "AGENTS/REGINALD/inbox/2026-11-01_from-FLG_q3-call-report-m3-ndfi-and-loans-routing.md": {
+      "commits": [
+        "e9f1703140429df67a7c913032af9d603606c1cc",
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+      ],
+      "pending": [],
+      "working_sha256": null,
       "commit_sha256": null
     },
-    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261031-024.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "c9806695758efbc2f571efea311019b17f530f8d33161ad2afdb574cf5a141d6",
-      "commit_sha256": "c9806695758efbc2f571efea311019b17f530f8d33161ad2afdb574cf5a141d6"
-    },
-    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-023.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "a6dfbb1f35f46a219cf437f0b92fd3194b40bfd386bb9d463ac871fba058ede2",
-      "commit_sha256": "a6dfbb1f35f46a219cf437f0b92fd3194b40bfd386bb9d463ac871fba058ede2"
-    },
-    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-026.md": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "68b0e2e77aa66f6ae59b7ad27470f24db9d86309781dc6d018bcd5c08070db11",
-      "commit_sha256": "68b0e2e77aa66f6ae59b7ad27470f24db9d86309781dc6d018bcd5c08070db11"
-    },
-    "AGENTS/OZK/inbox/WALTER/SIG-W-20261031-026.md": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "68b0e2e77aa66f6ae59b7ad27470f24db9d86309781dc6d018bcd5c08070db11",
-      "commit_sha256": "68b0e2e77aa66f6ae59b7ad27470f24db9d86309781dc6d018bcd5c08070db11"
-    },
     "AGENTS/REGINALD/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
-      "commits": [],
-      "pending": [
-        "??"
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
       ],
-      "working_sha256": "7b202f64aea821a54a26334222a167c158ce97212c476829384af313792e6dd5",
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/2026-11-02_from-PROME_11-07-run-reserve-release-breadth-question.md": {
+      "commits": [
+        "41ee8e938130c79e0b4cd85f22c27db0663859ad"
+      ],
+      "pending": [],
+      "working_sha256": "849738094254655a9d8356eac5073c64d1b9500f5d6fbad27fcc1bd47aa86710",
+      "commit_sha256": "849738094254655a9d8356eac5073c64d1b9500f5d6fbad27fcc1bd47aa86710"
+    },
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-007.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-009.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-010.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-011.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-018.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
       "commit_sha256": null
     },
     "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-023.md": {
       "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-024.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-025.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-026.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-007.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": "d146082c578b7609536a5c7d06a8719bb158d46258f220bc8f1375f4cc9ee175",
+      "commit_sha256": "d146082c578b7609536a5c7d06a8719bb158d46258f220bc8f1375f4cc9ee175"
+    },
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-009.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": "da0d6ffae347a5cd85a7739ed6f55d46b1ee93eb3fcddabe5b56ec28ec795a19",
+      "commit_sha256": "da0d6ffae347a5cd85a7739ed6f55d46b1ee93eb3fcddabe5b56ec28ec795a19"
+    },
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-010.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": "6721430877d813462f8e147456ceb4f494f285c38dd3ae178cb9b54106c2fe47",
+      "commit_sha256": "6721430877d813462f8e147456ceb4f494f285c38dd3ae178cb9b54106c2fe47"
+    },
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-011.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": "b31361bf1f1f68b8d8f09e76c7e6a479e39d784223ae0b18243d948d0067d3f9",
+      "commit_sha256": "b31361bf1f1f68b8d8f09e76c7e6a479e39d784223ae0b18243d948d0067d3f9"
+    },
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-018.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
+      ],
+      "pending": [],
+      "working_sha256": "133f684e350bf9c31a654fc59ab3d4387f2ea72e915d1595fd43c4a776a6de15",
+      "commit_sha256": "133f684e350bf9c31a654fc59ab3d4387f2ea72e915d1595fd43c4a776a6de15"
+    },
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-023.md": {
+      "commits": [
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
       ],
       "pending": [],
       "working_sha256": "a6dfbb1f35f46a219cf437f0b92fd3194b40bfd386bb9d463ac871fba058ede2",
       "commit_sha256": "a6dfbb1f35f46a219cf437f0b92fd3194b40bfd386bb9d463ac871fba058ede2"
     },
-    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-024.md": {
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-024.md": {
       "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
       ],
       "pending": [],
       "working_sha256": "c9806695758efbc2f571efea311019b17f530f8d33161ad2afdb574cf5a141d6",
       "commit_sha256": "c9806695758efbc2f571efea311019b17f530f8d33161ad2afdb574cf5a141d6"
     },
-    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-025.md": {
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-025.md": {
       "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
       ],
       "pending": [],
       "working_sha256": "dd08a0fd74dc8c9e400af9426b98d1194fdcd3949311d3d4c5b10ee35207bc77",
       "commit_sha256": "dd08a0fd74dc8c9e400af9426b98d1194fdcd3949311d3d4c5b10ee35207bc77"
     },
-    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-026.md": {
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-026.md": {
       "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
       ],
       "pending": [],
       "working_sha256": "f01ac230e405ed239e8392df2bad208d6fe91d505d96b6d6255b739ed9a47eea",
       "commit_sha256": "f01ac230e405ed239e8392df2bad208d6fe91d505d96b6d6255b739ed9a47eea"
     },
-    "AGENTS/TERRY/inbox/2026-11-01_from-BRENT_vlo-leg-a-october30-cme-preliminary.md": {
+    "AGENTS/REGINALD/inbox/processed/2026-11-01_from-FLG_q3-call-report-m3-ndfi-and-loans-routing.md": {
       "commits": [
-        "232364d040409203317b09919ea8f8fe362e9357"
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
       ],
       "pending": [],
-      "working_sha256": "3db5018e37a9b5f1bf679156981220ca3dc4f9302d2a4acd103503ee0e01364b",
-      "commit_sha256": "3db5018e37a9b5f1bf679156981220ca3dc4f9302d2a4acd103503ee0e01364b"
+      "working_sha256": "e332018ae0926c2c513bf5afd229bb91c11a4dd400a327b3092c2bb9b6767f08",
+      "commit_sha256": "e332018ae0926c2c513bf5afd229bb91c11a4dd400a327b3092c2bb9b6767f08"
     },
-    "AGENTS/WAL/inbox/WALTER/SIG-W-20261031-026.md": {
+    "AGENTS/REGINALD/inbox/processed/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": {
       "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "66e78914c43f6647f2761f347147d9f1aaca75bb"
       ],
       "pending": [],
-      "working_sha256": "68b0e2e77aa66f6ae59b7ad27470f24db9d86309781dc6d018bcd5c08070db11",
-      "commit_sha256": "68b0e2e77aa66f6ae59b7ad27470f24db9d86309781dc6d018bcd5c08070db11"
+      "working_sha256": "7b202f64aea821a54a26334222a167c158ce97212c476829384af313792e6dd5",
+      "commit_sha256": "7b202f64aea821a54a26334222a167c158ce97212c476829384af313792e6dd5"
+    },
+    "AGENTS/REGINALD/reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/REPORT.md": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11",
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+      ],
+      "pending": [],
+      "working_sha256": "d1661373632c5addce7b0da43f8977a7f69814f8210c809b50f4c82863ae5937",
+      "commit_sha256": "d1661373632c5addce7b0da43f8977a7f69814f8210c809b50f4c82863ae5937"
+    },
+    "AGENTS/REGINALD/reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/primary-rows.tsv": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+      ],
+      "pending": [],
+      "working_sha256": "3cad5c4a09893d8e4f558035d1f8192394a85d41a873105f1ccfff28eb6d1648",
+      "commit_sha256": "3cad5c4a09893d8e4f558035d1f8192394a85d41a873105f1ccfff28eb6d1648"
+    },
+    "AGENTS/REGINALD/reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/retrieval.tsv": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+      ],
+      "pending": [],
+      "working_sha256": "bc4b4d0a23d06e375a70296ac7eddc9d5bb2ac366685954c60e4d6edf9afd821",
+      "commit_sha256": "bc4b4d0a23d06e375a70296ac7eddc9d5bb2ac366685954c60e4d6edf9afd821"
+    },
+    "AGENTS/REGINALD/research/FHLB/README.md": {
+      "commits": [
+        "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+      ],
+      "pending": [],
+      "working_sha256": "d4616c9a8c06f6ac5c748703e7a756c0b6207db0f80e4f6f1a7584f6dda97416",
+      "commit_sha256": "d4616c9a8c06f6ac5c748703e7a756c0b6207db0f80e4f6f1a7584f6dda97416"
+    },
+    "AGENTS/REGINALD/workbook/KB.tsv": {
+      "commits": [
+        "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+      ],
+      "pending": [],
+      "working_sha256": "cce92f8eb2a2e0e91bf4528f83b2e956f5821c0bee3693cf943a07e417b8e49f",
+      "commit_sha256": "cce92f8eb2a2e0e91bf4528f83b2e956f5821c0bee3693cf943a07e417b8e49f"
     },
     "AGENTS/WALTER/LAST_COMPLETION.md": {
       "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-        "a62c32a927ed3baefbd46088c322658cd82b3bc5",
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "c1b8b3ab8ab0e3e2df17c87be3d972b400e762b8",
-        "34806ae91dca9a461dc7880067e084477a77c2eb",
-        "98e1e5a0e837452332ff7d210e88ae0627f98857"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf",
+        "a83d30f71f49a1d64d72dbe31e5c5e5895e58da4"
       ],
       "pending": [],
-      "working_sha256": "831b174acad5ca0803fb453a3b5a819336b784cfdf54f72d0c7d34aba622af2b",
-      "commit_sha256": "831b174acad5ca0803fb453a3b5a819336b784cfdf54f72d0c7d34aba622af2b"
+      "working_sha256": "ba7e7714f7991888a935eec15e7c3830029563d0bcc6d25cd3113c1f03e12c9b",
+      "commit_sha256": "ba7e7714f7991888a935eec15e7c3830029563d0bcc6d25cd3113c1f03e12c9b"
     },
     "AGENTS/WALTER/MEMORY.md": {
       "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
       ],
       "pending": [],
-      "working_sha256": "e2c5a13cf66cf002169001ae272aa95af64c2d59047b3ccc28f002a807c2f2d0",
-      "commit_sha256": "e2c5a13cf66cf002169001ae272aa95af64c2d59047b3ccc28f002a807c2f2d0"
+      "working_sha256": "9fdd8795a9d1c8dfcec40b78109bc0230c8730aca77068729ba33085739bf2e9",
+      "commit_sha256": "9fdd8795a9d1c8dfcec40b78109bc0230c8730aca77068729ba33085739bf2e9"
     },
     "AGENTS/WALTER/REGISTRY.tsv": {
       "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
       ],
       "pending": [],
-      "working_sha256": "f6412612c8ac86385a595e80786ef7d9780e914bc8a5e0aafd1c8b97cfa00d63",
-      "commit_sha256": "f6412612c8ac86385a595e80786ef7d9780e914bc8a5e0aafd1c8b97cfa00d63"
+      "working_sha256": "f75def8a7d306c953966bdd406c03d3ed45ed8a94f44587297a330e1526c1630",
+      "commit_sha256": "f75def8a7d306c953966bdd406c03d3ed45ed8a94f44587297a330e1526c1630"
     },
     "AGENTS/WALTER/SESSION_LOG.md": {
       "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
       ],
       "pending": [],
-      "working_sha256": "30a19800efc4e3cc2358e1d02d94cc3618425aef50cce44a20e21327da6e6bde",
-      "commit_sha256": "30a19800efc4e3cc2358e1d02d94cc3618425aef50cce44a20e21327da6e6bde"
+      "working_sha256": "7b0bb7b84ae4b48c6fa3e4b2142102df0f8b76c739aa48b0214e5d46ce933f80",
+      "commit_sha256": "7b0bb7b84ae4b48c6fa3e4b2142102df0f8b76c739aa48b0214e5d46ce933f80"
     },
     "AGENTS/WALTER/STATUS.md": {
       "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
       ],
       "pending": [],
-      "working_sha256": "03da896c57c024d43789a76b3d70d77ad9eb0fcd5a9822b0a8fd78357d5370c2",
-      "commit_sha256": "03da896c57c024d43789a76b3d70d77ad9eb0fcd5a9822b0a8fd78357d5370c2"
-    },
-    "AGENTS/WALTER/design/FILTER_SPEC.md": {
-      "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-      ],
-      "pending": [],
-      "working_sha256": "843253c2698fed48709813ad41e65be9e7b23ee885f4d26ef44cd9d110246244",
-      "commit_sha256": "843253c2698fed48709813ad41e65be9e7b23ee885f4d26ef44cd9d110246244"
-    },
-    "AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md": {
-      "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-      ],
-      "pending": [],
-      "working_sha256": "c664cc7518c625a969fe8d1687468240f858f2a90b4602969f92c3eda55fb37a",
-      "commit_sha256": "c664cc7518c625a969fe8d1687468240f858f2a90b4602969f92c3eda55fb37a"
-    },
-    "AGENTS/WALTER/design/STATE.md": {
-      "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-      ],
-      "pending": [],
-      "working_sha256": "e745f01281b94131cd0772f82d54309c87a719aba5dab2d83e5f797331aa6a20",
-      "commit_sha256": "e745f01281b94131cd0772f82d54309c87a719aba5dab2d83e5f797331aa6a20"
-    },
-    "AGENTS/WALTER/design/THRESHOLD_SCAN.md": {
-      "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-      ],
-      "pending": [],
-      "working_sha256": "4e783fccdc190c75f609e633250ddd1f731bc4d97b079656386e28ec5959a4e9",
-      "commit_sha256": "4e783fccdc190c75f609e633250ddd1f731bc4d97b079656386e28ec5959a4e9"
-    },
-    "AGENTS/WALTER/filtered/kill_log.tsv": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "49da68cfd35346d4ed4f746c8689d4c699e1c8c8775c0f13a0061e3e117c828d",
-      "commit_sha256": "49da68cfd35346d4ed4f746c8689d4c699e1c8c8775c0f13a0061e3e117c828d"
-    },
-    "AGENTS/WALTER/outbox/README.md": {
-      "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-      ],
-      "pending": [],
-      "working_sha256": "68aeaa981c010213d492d98adf4135b08078c3a742b28b687960a0c40743189a",
-      "commit_sha256": "68aeaa981c010213d492d98adf4135b08078c3a742b28b687960a0c40743189a"
-    },
-    "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "a1f366cbfc9568f6d3595d871ec446c05a3ed78f01c934fde887a4156baf52d0",
-      "commit_sha256": "a1f366cbfc9568f6d3595d871ec446c05a3ed78f01c934fde887a4156baf52d0"
-    },
-    "AGENTS/WALTER/registry/boot_basis_hashes.json": {
-      "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-      ],
-      "pending": [],
-      "working_sha256": "a6c1b6d20b333a4aa917f6dd27e86ad796e40907918e646335ec915e19fb74b2",
-      "commit_sha256": "a6c1b6d20b333a4aa917f6dd27e86ad796e40907918e646335ec915e19fb74b2"
-    },
-    "AGENTS/WALTER/registry/intake_seen.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "00e7f151a63fa7f85494ba151045d7ed932f6416b0245fe11d487f071e9ccde2",
-      "commit_sha256": "00e7f151a63fa7f85494ba151045d7ed932f6416b0245fe11d487f071e9ccde2"
-    },
-    "AGENTS/WALTER/registry/x_bookmarks_pending.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "38b655cdee8cc4ca8e5845c1b1c4d5864a10b8f93f7f04b71673a463768a7843",
-      "commit_sha256": "38b655cdee8cc4ca8e5845c1b1c4d5864a10b8f93f7f04b71673a463768a7843"
-    },
-    "AGENTS/WALTER/registry/x_bookmarks_receipt.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "3b3928cbbbf41a1ba02d804b77a5fe321459306d808f2e5e8629a6a31f1d9e33",
-      "commit_sha256": "3b3928cbbbf41a1ba02d804b77a5fe321459306d808f2e5e8629a6a31f1d9e33"
-    },
-    "AGENTS/WALTER/registry/x_bookmarks_seen.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "2638f4434aefc021b1a917d143482ccb1eaae3b126e9e0c05412ccd9ea4e843e",
-      "commit_sha256": "2638f4434aefc021b1a917d143482ccb1eaae3b126e9e0c05412ccd9ea4e843e"
+      "working_sha256": "f1ecb13857e19ac73b0de4c3d27adbdacd925754d3e4055be47d99d592c3a7d8",
+      "commit_sha256": "f1ecb13857e19ac73b0de4c3d27adbdacd925754d3e4055be47d99d592c3a7d8"
     },
     "AGENTS/WALTER/research/2026-10-31_call-report-read/REPORT.md": {
       "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
       ],
       "pending": [],
-      "working_sha256": "526f8b429067c088375c477c0034c61cc02c9f9a92e210e1c44c68a45b6ec2d0",
-      "commit_sha256": "526f8b429067c088375c477c0034c61cc02c9f9a92e210e1c44c68a45b6ec2d0"
+      "working_sha256": "1c1db732c0cce1637baff22bb022de72780565729f9d26766d1808737b9614d6",
+      "commit_sha256": "1c1db732c0cce1637baff22bb022de72780565729f9d26766d1808737b9614d6"
     },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/VERIFY-BASIS.md": {
+    "AGENTS/WALTER/research/2026-11-02_session-closeout/REVIEW.md": {
       "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
       ],
       "pending": [],
-      "working_sha256": "d0c5541999db9bbfc67fa2253749495e6b8aee7bc55a68cd9ad505831b89b3d7",
-      "commit_sha256": "d0c5541999db9bbfc67fa2253749495e6b8aee7bc55a68cd9ad505831b89b3d7"
+      "working_sha256": "8221db323e263f42c0e9281d40b261074a575976209513c308ce3e0b1b19449c",
+      "commit_sha256": "8221db323e263f42c0e9281d40b261074a575976209513c308ce3e0b1b19449c"
     },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/bridge-primary-rows.tsv": {
+    "AGENTS/WALTER/research/2026-11-02_session-closeout/checks.json": {
       "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf",
+        "a83d30f71f49a1d64d72dbe31e5c5e5895e58da4"
       ],
       "pending": [],
-      "working_sha256": "31d8866dd6b821f67184d1cf5e79a39d6db9817a7f1b12b1afd3f35bd3720d2c",
-      "commit_sha256": "31d8866dd6b821f67184d1cf5e79a39d6db9817a7f1b12b1afd3f35bd3720d2c"
-    },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/checks.json": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb",
-        "98e1e5a0e837452332ff7d210e88ae0627f98857"
-      ],
-      "pending": [],
-      "working_sha256": "b06de9151ba27bb6b86abeda195a9455b2998cf8dbf2650eee1438c5f6fe9267",
-      "commit_sha256": "b06de9151ba27bb6b86abeda195a9455b2998cf8dbf2650eee1438c5f6fe9267"
-    },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/compare.py": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "27d6eb0f22e0f5bf9cfacc89ad9c2c0b6d4fadda549b4962da9cdfcc37c20742",
-      "commit_sha256": "27d6eb0f22e0f5bf9cfacc89ad9c2c0b6d4fadda549b4962da9cdfcc37c20742"
-    },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/comparison.json": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "9cef254c7d6f06e2d7d4b1b4b18a0ef0488ff78d2de7c00785e705e6591faa0c",
-      "commit_sha256": "9cef254c7d6f06e2d7d4b1b4b18a0ef0488ff78d2de7c00785e705e6591faa0c"
-    },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/equity-bridges.json": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "353f0d9a87e7d9ba3413cdbd1aabd3d7988cea6efdc00ba82495104f3cd97a0d",
-      "commit_sha256": "353f0d9a87e7d9ba3413cdbd1aabd3d7988cea6efdc00ba82495104f3cd97a0d"
-    },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/inspect_bridges.py": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "db4ee8e9cd301a5bbe640533148ea41d0bab2094cce5a53fc691dd547c5da7e5",
-      "commit_sha256": "db4ee8e9cd301a5bbe640533148ea41d0bab2094cce5a53fc691dd547c5da7e5"
-    },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/owner-header-review.json": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "14fdffa36fcdb11635bfda422b4279431d6a188b0f857ff2dbebae899b873917",
-      "commit_sha256": "14fdffa36fcdb11635bfda422b4279431d6a188b0f857ff2dbebae899b873917"
-    },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/retrieval.json": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "6b5dbbabdb7f2f9ef577e634c12b885c30190be86a532b9044b645ce48591abb",
-      "commit_sha256": "6b5dbbabdb7f2f9ef577e634c12b885c30190be86a532b9044b645ce48591abb"
-    },
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/selected-primary-rows.tsv": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "3f9f37ce2cd3c1c532705b9a9ca1f1ba0098c0092aabd74379308cf40b4ea977",
-      "commit_sha256": "3f9f37ce2cd3c1c532705b9a9ca1f1ba0098c0092aabd74379308cf40b4ea977"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/REVIEW.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "e33394cff78ff324f02a57e87913c77c34cae0c9da3bdb9ecac48d5c0f9f3537",
-      "commit_sha256": "e33394cff78ff324f02a57e87913c77c34cae0c9da3bdb9ecac48d5c0f9f3537"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/SKEW_History.csv": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "c3e487bb4731cb56b434a2762b79db11b1771128f49849a8333299242c49e7de",
-      "commit_sha256": "c3e487bb4731cb56b434a2762b79db11b1771128f49849a8333299242c49e7de"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/THRESHOLD-SCAN.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "038baa333283f0852981bd5312327bcbd9d8e74e63ef134a5549a2770157e941",
-      "commit_sha256": "038baa333283f0852981bd5312327bcbd9d8e74e63ef134a5549a2770157e941"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-CREDIT-OIL.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "6cf2fd27c74a21c08f102a31fc32e1955d819268d8f28aa38f6662ea1259f7df",
-      "commit_sha256": "6cf2fd27c74a21c08f102a31fc32e1955d819268d8f28aa38f6662ea1259f7df"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "c87216d72862f7b19d75b2d35aa5966296dda267847669a823584ad42b880f0b",
-      "commit_sha256": "c87216d72862f7b19d75b2d35aa5966296dda267847669a823584ad42b880f0b"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-SYSTEMS.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "41fc30815c9e6437acfce83d62c9728cbb9d0950b0f6278651b47cdf3e6ccb48",
-      "commit_sha256": "41fc30815c9e6437acfce83d62c9728cbb9d0950b0f6278651b47cdf3e6ccb48"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/audit.txt": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "5ee4019e611e6efd514ad68628c5a123a738a6d953cf57761eea2a7c8ca24869",
-      "commit_sha256": "5ee4019e611e6efd514ad68628c5a123a738a6d953cf57761eea2a7c8ca24869"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/authored-paths.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "501821c6dc4cc0b8278f0f0dadae4312076ae83d04e1d826960fdda4093c9d4f",
-      "commit_sha256": "501821c6dc4cc0b8278f0f0dadae4312076ae83d04e1d826960fdda4093c9d4f"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/bookmark-review.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "08b1e2e2f6101384049812c24169d0f702d324b0a2306401936b9b570d3c0a02",
-      "commit_sha256": "08b1e2e2f6101384049812c24169d0f702d324b0a2306401936b9b570d3c0a02"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/checks.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "c1b8b3ab8ab0e3e2df17c87be3d972b400e762b8"
-      ],
-      "pending": [],
-      "working_sha256": "f3c02c02ac3ec51d7b954184085a86a6ef8d53e0d8696ce886d754f47726f190",
-      "commit_sha256": "f3c02c02ac3ec51d7b954184085a86a6ef8d53e0d8696ce886d754f47726f190"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/extra-observations.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "2e90082ca01425376f355ecbbe69aa4e897cc1b471ca5b0e7414807250f99cae",
-      "commit_sha256": "2e90082ca01425376f355ecbbe69aa4e897cc1b471ca5b0e7414807250f99cae"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/observations.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "ee828ef4ac4a631d6d80eb848f587b9c4dcf464ac0a16905f4909dc38387c24b",
-      "commit_sha256": "ee828ef4ac4a631d6d80eb848f587b9c4dcf464ac0a16905f4909dc38387c24b"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/owner-header-review.json": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "a48082af4679c8fddb37643ed4d4e485a4b4cc2bf904824d32d9e20936bad909",
-      "commit_sha256": "a48082af4679c8fddb37643ed4d4e485a4b4cc2bf904824d32d9e20936bad909"
-    },
-    "AGENTS/WALTER/research/2026-10-31_night-boot/pull.py": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "6e55787892e3e142cb9869bf2675f15662cd25b1730b0f216097fe1403daaaa5",
-      "commit_sha256": "6e55787892e3e142cb9869bf2675f15662cd25b1730b0f216097fe1403daaaa5"
-    },
-    "AGENTS/WALTER/research/2026-10-31_verdict-amendment/REVIEW.md": {
-      "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-      ],
-      "pending": [],
-      "working_sha256": "69976c76c7faffbc16a8004c32618a909f433f029ce2c7798c1dfdf3c18d0baa",
-      "commit_sha256": "69976c76c7faffbc16a8004c32618a909f433f029ce2c7798c1dfdf3c18d0baa"
-    },
-    "AGENTS/WALTER/research/2026-10-31_verdict-amendment/closeout/checks.json": {
-      "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-        "a62c32a927ed3baefbd46088c322658cd82b3bc5"
-      ],
-      "pending": [],
-      "working_sha256": "84921f5129862fa77e429e54d262518cd01f825ec4b2c344127b39f594b1d0fd",
-      "commit_sha256": "84921f5129862fa77e429e54d262518cd01f825ec4b2c344127b39f594b1d0fd"
+      "working_sha256": "6cef2882bb4721ff65df13624998e3cd02313379106f36e73a6de6f3a65a8834",
+      "commit_sha256": "6cef2882bb4721ff65df13624998e3cd02313379106f36e73a6de6f3a65a8834"
     },
     "AGENTS/WALTER/routed/delivery_log.tsv": {
       "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
+        "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
       ],
       "pending": [],
-      "working_sha256": "1f33139af2416fe338ad8d0c6c72c2e71201fcc064aa5d573500a8a3d5a7aa29",
-      "commit_sha256": "1f33139af2416fe338ad8d0c6c72c2e71201fcc064aa5d573500a8a3d5a7aa29"
-    },
-    "AGENTS/WALTER/routed/route_log.tsv": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "b4c3e94b5eac7d99671c4c2eee105163da1a79c954ba6c0a1953380f9553160e",
-      "commit_sha256": "b4c3e94b5eac7d99671c4c2eee105163da1a79c954ba6c0a1953380f9553160e"
-    },
-    "BOARD/INDEX.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "9bde7014d849852307a742446650ae55e556dd6c98a615ea281c01692c649601",
-      "commit_sha256": "9bde7014d849852307a742446650ae55e556dd6c98a615ea281c01692c649601"
-    },
-    "BOARD/SIG-W-20261031-023-reported-clo-bargain-loan-plans.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "ea24d4732f422863679ca7facae03e2d88d8e9bdb5944302e8caa14a2e2f6c5d",
-      "commit_sha256": "ea24d4732f422863679ca7facae03e2d88d8e9bdb5944302e8caa14a2e2f6c5d"
-    },
-    "BOARD/SIG-W-20261031-024-florida-mortgage-announcement-next-year.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "baa13c8d0a0c8831facfc8e1e8928a55a3b3d72a9a676b0122fc86d7ecd395c8",
-      "commit_sha256": "baa13c8d0a0c8831facfc8e1e8928a55a3b3d72a9a676b0122fc86d7ecd395c8"
-    },
-    "BOARD/SIG-W-20261031-025-rio-vista-tides-listing-friction.md": {
-      "commits": [
-        "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-      ],
-      "pending": [],
-      "working_sha256": "0e1e8aed04e7e73460627bf2a2a02654cee8325c3d5b26289f36ad8711e4f2c1",
-      "commit_sha256": "0e1e8aed04e7e73460627bf2a2a02654cee8325c3d5b26289f36ad8711e4f2c1"
-    },
-    "BOARD/SIG-W-20261031-026-q3-call-reports-book-equity-pressure-and-flg-hban-composition-flags.md": {
-      "commits": [
-        "34806ae91dca9a461dc7880067e084477a77c2eb"
-      ],
-      "pending": [],
-      "working_sha256": "4ce7fce3d2b5edd9127133b4cc64540b55262a387d2ab6730c6b7f9813d7ec95",
-      "commit_sha256": "4ce7fce3d2b5edd9127133b4cc64540b55262a387d2ab6730c6b7f9813d7ec95"
-    },
-    "PROME/.claude/agents/argus.md": {
-      "commits": [
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
-      ],
-      "pending": [],
-      "working_sha256": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d",
-      "commit_sha256": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d"
-    },
-    "PROME/.claude/skills/closeout/SKILL.md": {
-      "commits": [
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
-      ],
-      "pending": [],
-      "working_sha256": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077",
-      "commit_sha256": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077"
-    },
-    "PROME/CLOSEOUT.md": {
-      "commits": [
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
-      ],
-      "pending": [],
-      "working_sha256": "b1052478b42e6a743a81341433faf3d039464c0774406d3614946a0509d1a9f2",
-      "commit_sha256": "b1052478b42e6a743a81341433faf3d039464c0774406d3614946a0509d1a9f2"
-    },
-    "PROME/CLOSEOUT_PROCEDURES.md": {
-      "commits": [
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1"
-      ],
-      "pending": [],
-      "working_sha256": "1e7bedc3c935d533ebd950ec7d41e2479efaa85aa718f281717c24bbdde1e4d3",
-      "commit_sha256": "1e7bedc3c935d533ebd950ec7d41e2479efaa85aa718f281717c24bbdde1e4d3"
+      "working_sha256": "3226da03131f4259db33088c17714f141c34f1d47e2d0e41f79f85b172e2339e",
+      "commit_sha256": "3226da03131f4259db33088c17714f141c34f1d47e2d0e41f79f85b172e2339e"
     },
     "PROME/DOCKET.tsv": {
       "commits": [
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "90c28f06f4815a81be96bbf064cbcadb7178df5c"
       ],
       "pending": [
         " M"
       ],
-      "working_sha256": "08b37330cf074d904cf54db479c878e27eab49916118eaa7b7c56ecfbe15584a",
-      "commit_sha256": "182852d9dec6efe31ae028c3978b181b0d6e369e9fb9d0d138da108d2c72d2a4"
-    },
-    "PROME/GIT_COORDINATION.md": {
-      "commits": [],
-      "pending": [
-        " M"
-      ],
-      "working_sha256": "227c4ab978cb385a9fe3ae7fc5b01729ca3eec1caa4054ad7ad0b4abacd8367e",
-      "commit_sha256": "3e3ce49f17e6fc75327f8d9eb2a560de91a8703ffa56a1d5c53a9b5b2e6bd264"
+      "working_sha256": "9c594ce825dae68cceb1c06f79920beb886b317e92f8700ff97c4e2c7cc2ecbb",
+      "commit_sha256": "9fad9bb7b676a4291ac7e4a46fca18a8e99a36f19c7fba8718b6b6a42fb518de"
     },
     "PROME/HANDOFF.md": {
       "commits": [],
       "pending": [
         " M"
       ],
-      "working_sha256": "73c7b15ce5ca17bf183b5389664f35df1c42735d2888bd762495a58c1c19376a",
-      "commit_sha256": "28040d27ed99ef783db5e75aa241911e9945e7c528abce295d92e93abc3af959"
+      "working_sha256": "1944246c52ecf8331468170c93c25b08b8778d7e710f6d9489837e0cbeae0573",
+      "commit_sha256": "73c7b15ce5ca17bf183b5389664f35df1c42735d2888bd762495a58c1c19376a"
     },
-    "PROME/MACHINE_LOCAL.md": {
+    "PROME/SCRATCH.md": {
       "commits": [],
       "pending": [
         " M"
       ],
-      "working_sha256": "c9f8ac371d8d3715226203a6bae4953c176cf85995254817d5828453ac8ada53",
-      "commit_sha256": "96a600735fd4c5286a9473c33d2b77b76fd6a4e7bc14118573f487d7bf4ecc9a"
-    },
-    "PROME/SCRATCH.md": {
-      "commits": [
-        "d0c04bd4ff88366c28e8f88947b73f1a11946e93",
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8",
-        "1a05fc28eb1c68b543cd027270b14732404d926d"
-      ],
-      "pending": [
-        " M"
-      ],
-      "working_sha256": "448f581a1d40968dcc442eee4b872e1819f83f37641f32b82a109f3201dce850",
-      "commit_sha256": "1666286c5c03f77b4b3f80820402fd9d64040b1e45c4c187f0c942b21a2b2e15"
+      "working_sha256": "c95fab95272f0c5105107186aa089b19737136c8a3b0344e5fdde042bb4514c9",
+      "commit_sha256": "448f581a1d40968dcc442eee4b872e1819f83f37641f32b82a109f3201dce850"
     },
     "PROME/STATUS.md": {
       "commits": [],
       "pending": [
         " M"
       ],
-      "working_sha256": "b88324620e6a57f2f7c8197da4549eb6b9ddb4cf3caba687a67e72d8e42ebe48",
-      "commit_sha256": "048e74ed44eda09cd9d338cc5f5a6afa4b03d9fe983902476331fc82ca86aec2"
+      "working_sha256": "c160ed2cbce5b357e5305713c714a2fa54a118c04f0b93bae0df1e0aa4b401bc",
+      "commit_sha256": "b88324620e6a57f2f7c8197da4549eb6b9ddb4cf3caba687a67e72d8e42ebe48"
     },
     "PROME/WILL_QUEUE.md": {
       "commits": [
-        "d0c04bd4ff88366c28e8f88947b73f1a11946e93",
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "b6b827c44234ff32ad36c894eb9b27c3446cc009",
+        "5db96fa3337d17e2b7528919d693cc1fc2468312"
       ],
       "pending": [
         " M"
       ],
-      "working_sha256": "76ced3a071700f67588f6530311c2d771f2ed43071bbbc3b776327308f54914c",
-      "commit_sha256": "5bca0ec4b1f2b11f65c9492560b67b3845072024fce75a817fde1257a80ac469"
+      "working_sha256": "46131e2c1b960c45c6269ea4ee7b728f17a577e4ddd780a1e508eb0e2c50bd93",
+      "commit_sha256": "00e3b8e14bd938ba7cde8cccd1d1865369b678146d4ae24bdcf5587c2b7b05c0"
     },
-    "PROME/archive/HANDOFF_ROTATED_2026-11-01_90c33147.md": {
+    "PROME/archive/HANDOFF_ROTATED_2026-11-02_4f5e775d.md": {
       "commits": [],
       "pending": [
         "??"
       ],
-      "working_sha256": "41cd76c69d58e2fdf095b6465e10b17ebbb332fffe0e099dc983ac6fc02995ba",
+      "working_sha256": "c30af57c6db0cdffbed2584a03436aa234406cb63be260c1f8baf1bdc3e35c71",
       "commit_sha256": null
     },
-    "PROME/inbox/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": {
+    "PROME/archive/WILL_QUEUE_ROWS_2026-11-01_rolloff.md": {
       "commits": [
-        "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-        "0a689cf5cb9755431473d2a47a19bf1c76518771"
+        "b6b827c44234ff32ad36c894eb9b27c3446cc009"
       ],
       "pending": [],
-      "working_sha256": null,
-      "commit_sha256": null
+      "working_sha256": "7b14a28d0b56b3832b487c709c7a808f8495d8f66265c3bcc0c8db974c55faf1",
+      "commit_sha256": "7b14a28d0b56b3832b487c709c7a808f8495d8f66265c3bcc0c8db974c55faf1"
     },
-    "PROME/inbox/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": {
-      "commits": [
-        "8379e8a5d7c85b00324cf70945ffe1079b4122e5"
-      ],
-      "pending": [
-        " D"
-      ],
-      "working_sha256": null,
-      "commit_sha256": "e53383910ce6064b620c2e775eb79cb90e376326633828cbd6a43273dfde8d07"
-    },
-    "PROME/inbox/processed/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": {
-      "commits": [
-        "0a689cf5cb9755431473d2a47a19bf1c76518771"
-      ],
-      "pending": [],
-      "working_sha256": "7d397424398abfe543e558aa764d8071859cc49d6f1d43ebe785e0f9af0140a6",
-      "commit_sha256": "7d397424398abfe543e558aa764d8071859cc49d6f1d43ebe785e0f9af0140a6"
-    },
-    "PROME/inbox/processed/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": {
+    "PROME/archive/WILL_QUEUE_ROWS_2026-11-02_rolloff.md": {
       "commits": [],
       "pending": [
-        "R "
+        "??"
       ],
-      "working_sha256": "e53383910ce6064b620c2e775eb79cb90e376326633828cbd6a43273dfde8d07",
+      "working_sha256": "ed27313721cbe464dd62c9df1cfa87bc6aa542675bab80d2c3b1cc36de33b388",
       "commit_sha256": null
     },
-    "PROME/plans/2026-10-31_wq583-candidate-WITHHELD.patch": {
+    "PROME/inbox/2026-11-01_from-BRENT_thursday-fallback-offschedule-no-new-observation.md": {
       "commits": [
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "f54e602b42c135a78c20088622f157414df09232"
       ],
       "pending": [],
       "working_sha256": null,
       "commit_sha256": null
     },
-    "PROME/registry/READS.tsv": {
+    "PROME/inbox/2026-11-01_from-FLG_q3-call-report-T01.md": {
       "commits": [
-        "0a689cf5cb9755431473d2a47a19bf1c76518771"
+        "2b9e85324ce2f71f2961176e0210ebbb39484b62",
+        "ca1aa00c557c0cd67cdebe0c614f3bb151df1b51"
       ],
       "pending": [],
-      "working_sha256": "b0e86210a35d5b1ea05a57884dcc6ab7bb8c2e8c47b0e2eb850e37509887f2ac",
-      "commit_sha256": "b0e86210a35d5b1ea05a57884dcc6ab7bb8c2e8c47b0e2eb850e37509887f2ac"
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "PROME/inbox/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": {
+      "commits": [
+        "7b911912aa649373b20f22dfb5e3b6f8680a2922",
+        "d8fd813c6a1e18dc319ea9a0f2ba63c0233e73b7"
+      ],
+      "pending": [],
+      "working_sha256": null,
+      "commit_sha256": null
+    },
+    "PROME/inbox/processed/2026-11-01_from-BRENT_thursday-fallback-offschedule-no-new-observation.md": {
+      "commits": [
+        "f54e602b42c135a78c20088622f157414df09232"
+      ],
+      "pending": [],
+      "working_sha256": "2d825a91f65ca7ffda9a6595a0b3c80102125fbc9f96c595f03c1017afd7e9d7",
+      "commit_sha256": "2d825a91f65ca7ffda9a6595a0b3c80102125fbc9f96c595f03c1017afd7e9d7"
+    },
+    "PROME/inbox/processed/2026-11-01_from-FLG_q3-call-report-T01.md": {
+      "commits": [
+        "ca1aa00c557c0cd67cdebe0c614f3bb151df1b51"
+      ],
+      "pending": [],
+      "working_sha256": "9da3abc830bf786bff6d8610f67d2d32fd373ab5085d12c7f506559f696a2af4",
+      "commit_sha256": "9da3abc830bf786bff6d8610f67d2d32fd373ab5085d12c7f506559f696a2af4"
+    },
+    "PROME/inbox/processed/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": {
+      "commits": [
+        "d8fd813c6a1e18dc319ea9a0f2ba63c0233e73b7"
+      ],
+      "pending": [],
+      "working_sha256": "d5de91b9a73355f952b411065833ab917110309f055a6d9f50580f4eb2341e41",
+      "commit_sha256": "d5de91b9a73355f952b411065833ab917110309f055a6d9f50580f4eb2341e41"
     },
     "PROME/registry/WQ_LEDGER.crc": {
       "commits": [
-        "d0c04bd4ff88366c28e8f88947b73f1a11946e93",
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "b6b827c44234ff32ad36c894eb9b27c3446cc009",
+        "5db96fa3337d17e2b7528919d693cc1fc2468312"
       ],
       "pending": [
         " M"
       ],
-      "working_sha256": "5987a04c7553dfb167a0a38db6787f1749fb0b543802b0f74458c09bbbc12740",
-      "commit_sha256": "21ce5e7db81e832cb1e117927749adb182e893c7bae1dca7c1857898af258c47"
+      "working_sha256": "4cc320f8b8fdb09f298208125850898800bb7ed2a7c0db0b17f0b9b1d037aead",
+      "commit_sha256": "243d17139dc5c2077e2392d69b186c3e73109f80c1734bfcd200b52ce101c4cb"
     },
     "PROME/registry/WQ_LEDGER.tsv": {
       "commits": [
-        "d0c04bd4ff88366c28e8f88947b73f1a11946e93",
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "b6b827c44234ff32ad36c894eb9b27c3446cc009",
+        "5db96fa3337d17e2b7528919d693cc1fc2468312"
       ],
       "pending": [
         " M"
       ],
-      "working_sha256": "dc81d2db2aa5f3043f58bfe3451c8f41fc02036384a1634ba3e61f0a109ca7a2",
-      "commit_sha256": "454c8551372cf88ba3070b8a49d18dbc40a64e30ae83fe3df9cea52fde4a3be8"
-    },
-    "PROME/registry/corrections_receipts.tsv": {
-      "commits": [
-        "8d749dda9007130cab27afe6a53c03c9871502af"
-      ],
-      "pending": [],
-      "working_sha256": "8ec4d943ee6ea6df87293eb1060a0fb62ffb9612213046bb402a9cd2ee1fda4d",
-      "commit_sha256": "8ec4d943ee6ea6df87293eb1060a0fb62ffb9612213046bb402a9cd2ee1fda4d"
-    },
-    "PROME/reports/2026-11-01_wq543-routine-install-receipt.md": {
-      "commits": [],
-      "pending": [
-        "??"
-      ],
-      "working_sha256": "2ac64c868d2a2ae0336265e106e18091501a6140fe0af621b483dc4eddeaceeb",
-      "commit_sha256": null
+      "working_sha256": "446a689fa3b06259debf32d852112a1648907ee959f754a0d02e62ff1f505906",
+      "commit_sha256": "22ec60ca58a7f3de49b69ef7d8f5606ac2ad8cf193f2362afbbfbd48bcffeca8"
     },
     "PROME/state/CALENDAR.md": {
       "commits": [
-        "3dafdd617a4f19f5bc7f18b0c14de40f8d53a5f1",
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "90c28f06f4815a81be96bbf064cbcadb7178df5c"
       ],
       "pending": [
         " M"
       ],
-      "working_sha256": "7410c50fe68be514dc2f4f26252b772761ad4dd41b769a86335459f4838a20ad",
-      "commit_sha256": "08ce740ddb91f338795bf7fc5b6bc61d04dc535fc722bc869d749f23f72511f0"
+      "working_sha256": "c5f3402736f16d1e8fd385b4264be7ce986aeed8b148ed5822f8e1cd5521f570",
+      "commit_sha256": "4e342925672bb3cb5a0ab081462bbdf6bc08b0382ee35a059f3291c715c68f2e"
     },
     "PROME/state/ORCH_INFLIGHT.md": {
       "commits": [
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "f54e602b42c135a78c20088622f157414df09232",
+        "5db96fa3337d17e2b7528919d693cc1fc2468312",
+        "ca1aa00c557c0cd67cdebe0c614f3bb151df1b51",
+        "d8fd813c6a1e18dc319ea9a0f2ba63c0233e73b7"
       ],
       "pending": [
         " M"
       ],
-      "working_sha256": "0a23a10be6b19d53781d0d9ffe59ed71a46b31fc41e1ecb5910684c231e5e095",
-      "commit_sha256": "61f7f3358a52db8fd3f1ae4a5f66ba2fda65857edbcba219ff21bc4806ef58e3"
+      "working_sha256": "1991499007a03119542b7c65c9f45f04816940b8936e95cd4ca75e4e4b194aa4",
+      "commit_sha256": "6447d9dba2052f386042ce6d7c8d820f0528359cb6df83eac1e6900ef534e05e"
     },
     "PROME/state/ORCH_LOG.tsv": {
       "commits": [
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "f54e602b42c135a78c20088622f157414df09232",
+        "5db96fa3337d17e2b7528919d693cc1fc2468312",
+        "ca1aa00c557c0cd67cdebe0c614f3bb151df1b51",
+        "d8fd813c6a1e18dc319ea9a0f2ba63c0233e73b7"
       ],
       "pending": [
         " M"
       ],
-      "working_sha256": "c5221a190526bd2954813e88d5e627a4582ba958fca42a9c48b65a069a410835",
-      "commit_sha256": "3de600d634dcdaaf6db5f1b8f4cd8e570166b9ae87b1a7254b89202eeaf50a62"
+      "working_sha256": "f016471453f24fbce02b4093a59aa4635c085789f96ffc2b475d82af42c82ba7",
+      "commit_sha256": "51dbbf7efac33478a16b05f9fa7177340388d16c0975b62343c3f4916c945d45"
     },
     "PROME/state/board_consumed.tsv": {
       "commits": [
-        "8d749dda9007130cab27afe6a53c03c9871502af"
+        "b6b827c44234ff32ad36c894eb9b27c3446cc009"
       ],
       "pending": [],
-      "working_sha256": "5d536f7a1404cc0769ac64dd2a9c2cd610881846c929067ac4a0d7f91e91a197",
-      "commit_sha256": "5d536f7a1404cc0769ac64dd2a9c2cd610881846c929067ac4a0d7f91e91a197"
+      "working_sha256": "71f78dfd560ed0c849c7b1b02d453a2c66f03abba5e755d2e236b37a7fd0cc7e",
+      "commit_sha256": "71f78dfd560ed0c849c7b1b02d453a2c66f03abba5e755d2e236b37a7fd0cc7e"
     },
     "PROME/state/board_cursor.txt": {
       "commits": [
-        "8d749dda9007130cab27afe6a53c03c9871502af"
+        "b6b827c44234ff32ad36c894eb9b27c3446cc009"
       ],
       "pending": [],
-      "working_sha256": "f6e15e119c256887909b7adecc0e5f2b507beafe8a6357f5326578e2848da9c8",
-      "commit_sha256": "f6e15e119c256887909b7adecc0e5f2b507beafe8a6357f5326578e2848da9c8"
+      "working_sha256": "803cccb56659a13dbf72548bca8e83e6ede990f5b056c528a9da821915932da5",
+      "commit_sha256": "803cccb56659a13dbf72548bca8e83e6ede990f5b056c528a9da821915932da5"
     },
-    "PROME/tools/ARGUS_CONTRACT.md": {
+    "PROME/tools/desk_attention.py": {
       "commits": [
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "90c28f06f4815a81be96bbf064cbcadb7178df5c"
       ],
       "pending": [],
-      "working_sha256": "f51eb4f13eab85689f689501febf4387504e78892a678ba42a53a22ad923ea0a",
-      "commit_sha256": "f51eb4f13eab85689f689501febf4387504e78892a678ba42a53a22ad923ea0a"
+      "working_sha256": "36e3dd39ba03585eb72b9ad294d9cedd1cbbdad2599af205b792f2c87474a489",
+      "commit_sha256": "36e3dd39ba03585eb72b9ad294d9cedd1cbbdad2599af205b792f2c87474a489"
     },
-    "PROME/tools/argus_contract.py": {
+    "PROME/tools/tests/test_desk_attention.py": {
       "commits": [
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
+        "90c28f06f4815a81be96bbf064cbcadb7178df5c"
       ],
       "pending": [],
-      "working_sha256": "65ec4dbd3c357e96b9500ff3b21c97b212afa9f27659865a2e704afe50cb4458",
-      "commit_sha256": "65ec4dbd3c357e96b9500ff3b21c97b212afa9f27659865a2e704afe50cb4458"
-    },
-    "PROME/tools/argus_scope.py": {
-      "commits": [
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
-      ],
-      "pending": [],
-      "working_sha256": "eef25a05944458bba6f7a44e3be746cef160bd4d414994a718b6518916489323",
-      "commit_sha256": "eef25a05944458bba6f7a44e3be746cef160bd4d414994a718b6518916489323"
-    },
-    "PROME/tools/tests/ACCEPTANCE_wq583_candidate_moves_reuse_2026-10-31.md": {
-      "commits": [
-        "8beb4c18434e5efd08968c5b221c282f17506c7c",
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
-      ],
-      "pending": [],
-      "working_sha256": "2a023ece2eacb31fe3b5cd67adbcb095a3653a4b19f8728dd447e4f138800657",
-      "commit_sha256": "2a023ece2eacb31fe3b5cd67adbcb095a3653a4b19f8728dd447e4f138800657"
-    },
-    "PROME/tools/tests/test_argus_contract.py": {
-      "commits": [
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
-      ],
-      "pending": [],
-      "working_sha256": "ca796736883d99bb912f3b5336c0b23b91b8f0a401ebf47fdda50a82f6d231b5",
-      "commit_sha256": "ca796736883d99bb912f3b5336c0b23b91b8f0a401ebf47fdda50a82f6d231b5"
-    },
-    "PROME/tools/tests/test_argus_wq583.py": {
-      "commits": [
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
-      ],
-      "pending": [],
-      "working_sha256": "03f582b0d2a67387eff32ab4864d684970fdc654efc052be2129420f4dce8e4b",
-      "commit_sha256": "03f582b0d2a67387eff32ab4864d684970fdc654efc052be2129420f4dce8e4b"
-    },
-    "PROME/tools/tests/test_review_mechanism_WQ240b.py": {
-      "commits": [
-        "853bde64365fe5a9981ea8db9d0e47a9f61e59b8"
-      ],
-      "pending": [],
-      "working_sha256": "5e8d6715b87b3a04b23c8740e9b375a5c0e308ab158b55e9dad39ff54d45b23c",
-      "commit_sha256": "5e8d6715b87b3a04b23c8740e9b375a5c0e308ab158b55e9dad39ff54d45b23c"
+      "working_sha256": "ad78ed12bd978334b6ef098a8104022756fa42e40d8028fad17606d316d8e556",
+      "commit_sha256": "ad78ed12bd978334b6ef098a8104022756fa42e40d8028fad17606d316d8e556"
     },
     "memory/2026-11-01.md": {
       "commits": [],
       "pending": [
-        "??"
+        " M"
       ],
-      "working_sha256": "aa5399506afa8312a677ff5d11eb542ff1be08cc928e49be65fa1b4ad058c41b",
-      "commit_sha256": null
-    },
-    "memory/auto/MEMORY.md": {
-      "commits": [
-        "d666c14e2042b0dddfb48cab9952f786f6788661",
-        "80f8a43c8c2da33d2eca1ff1f57ce484482e794f"
-      ],
-      "pending": [],
-      "working_sha256": "fd7783787944e5c06619597b7ca6c9f22177e1ccf5011fae48f8a17305ed3e6e",
-      "commit_sha256": "fd7783787944e5c06619597b7ca6c9f22177e1ccf5011fae48f8a17305ed3e6e"
-    },
-    "memory/auto/feedback_bound_follow_up_reviews_to_the_diff.md": {
-      "commits": [
-        "d666c14e2042b0dddfb48cab9952f786f6788661"
-      ],
-      "pending": [],
-      "working_sha256": "6303b452b98f0f869f41027788ff9dada9e7a345ad0f3dcbbb262331c44ab284",
-      "commit_sha256": "6303b452b98f0f869f41027788ff9dada9e7a345ad0f3dcbbb262331c44ab284"
+      "working_sha256": "f89878cfa5cd176258065c538742a889d97c957c6da0143363b6eece8973a7e8",
+      "commit_sha256": "aa5399506afa8312a677ff5d11eb542ff1be08cc928e49be65fa1b4ad058c41b"
     }
   },
   "attributed_by_commit": {
-    "AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261031-025.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/BRENT/NEXUS_BRIEF.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/RULINGS.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/SCHEDULED_RUNS.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/SCRATCH.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/STATUS.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/REPORT.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/SHA256SUMS": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/after_friday.txt": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/after_monday.txt": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/after_thursday.txt": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/audits/2026-11-01_WQ543-preamble-install/after_wednesday.txt": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/board_log.tsv": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/demand_destruction/TRACKER.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/docket/CATALYSTS.tsv": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/2026-10-29_from-ZHAO_no-extension-instrument-and-two-new-trade-levers.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/2026-10-31_from-DAEDALUS_L526-friday-receipt-placement.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/2026-10-31_from-WALTER_burst-window-retired.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/2026-10-31_from-YURI_diesel-1436-producer-exemption-deleted.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-040.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-046.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261029-052.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-005.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-008.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261030-011.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-001.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-003.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-004.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-008.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-015.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-016.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-020.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-021.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261031-022.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-040.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-046.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261029-052.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-005.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-008.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261030-011.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-001.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-003.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-004.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-008.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-015.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-016.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-020.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-021.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/WALTER/processed/SIG-W-20261031-022.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/processed/2026-10-29_from-ZHAO_no-extension-instrument-and-two-new-trade-levers.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/processed/2026-10-31_from-DAEDALUS_L526-friday-receipt-placement.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/processed/2026-10-31_from-WALTER_burst-window-retired.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/inbox/processed/2026-10-31_from-YURI_diesel-1436-producer-exemption-deleted.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/620-1-november-2026.html": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/NOTE.md": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/eia_api_COPS_OPEC.json": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/eia_api_COPS_R05.json": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/hdr_620.txt": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/oct_table_1791111910.png": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/steo_overview.html": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BRENT/research/2026-11-01_opec-december-grade/table_1793534438.png": [
-      "ee53164e99c06a9b7d328b755df6c9075db5623e"
-    ],
-    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261031-023.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261031-026.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+    "AGENTS/BROCK/inbox/2026-11-01_to-BROCK_vly-q3-ndfi-nonaccrual-under-issuer-c-and-i-label.md": [
+      "bfe405e109ab806166eb7e7b4f52fbd88e3fb0a8"
     ],
     "AGENTS/CATO/CONTINUITY.md": [
-      "f07735f67e2da3fd0bb84057d1197b3763af62a0"
+      "dce795aaf1c52a13497b1cdbb21df917d6c1512e"
     ],
     "AGENTS/CATO/runs/2026-10-29_0942_recent-system-review.md": [
-      "f07735f67e2da3fd0bb84057d1197b3763af62a0"
+      "dce795aaf1c52a13497b1cdbb21df917d6c1512e"
     ],
-    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261031-024.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+    "AGENTS/FLG/CALENDAR.md": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
     ],
-    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261031-025.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+    "AGENTS/FLG/NEXUS_BRIEF.md": [
+      "873ac851da85685cffb164ad7ab176afebb241a5"
     ],
-    "AGENTS/CORAL/inbox/WALTER/SIG-W-20261031-026.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+    "AGENTS/FLG/STATUS.md": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+    ],
+    "AGENTS/FLG/TRADE.md": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+    ],
+    "AGENTS/FLG/archive/STATUS_ARCHIVE_2026-11-01.md": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+    ],
+    "AGENTS/FLG/archive/TRIGGERS_NOTES_ARCHIVE_2026-11-01.md": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+    ],
+    "AGENTS/FLG/board_log.tsv": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
     ],
     "AGENTS/FLG/inbox/WALTER/SIG-W-20261031-026.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
     ],
-    "AGENTS/HOMER/inbox/WALTER/SIG-W-20261031-024.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+    "AGENTS/FLG/inbox/WALTER/processed/SIG-W-20261031-026.md": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
     ],
-    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-023.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+    "AGENTS/FLG/scripts/ffiec_pull.py": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
     ],
-    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261031-026.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+    "AGENTS/FLG/sources/ffiec_2026-11-01/694904_09-30-2026_call.sdf": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
     ],
-    "AGENTS/OZK/inbox/WALTER/SIG-W-20261031-026.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+    "AGENTS/FLG/sources/ffiec_2026-11-01/retrieval_20261102T041812Z.json": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+    ],
+    "AGENTS/FLG/workbook/KB.tsv": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+    ],
+    "AGENTS/FLG/workbook/MI3_FLG.tsv": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+    ],
+    "AGENTS/FLG/workbook/TRIGGERS.tsv": [
+      "33500007c30cf0d3370534e0c9bc389f3e1a1fec"
+    ],
+    "AGENTS/RED/inbox/2026-11-01_from-FLG_counter-thesis-routing-total-loans-two-quarters.md": [
+      "0367b4b208ca513a8c3c6c243c8973975accca15"
+    ],
+    "AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md": [
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/CALENDAR.md": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11",
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/CLAUDE.md": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+    ],
+    "AGENTS/REGINALD/LESSONS.md": [
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/MEMORY.md": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+    ],
+    "AGENTS/REGINALD/ROADMAP.md": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+    ],
+    "AGENTS/REGINALD/STATUS.md": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11",
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/board/BOARD_LOG.tsv": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb",
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/inbox/2026-11-01_from-FLG_q3-call-report-m3-ndfi-and-loans-routing.md": [
+      "e9f1703140429df67a7c913032af9d603606c1cc",
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-007.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-009.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-010.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-011.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-018.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
     ],
     "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-023.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
     ],
     "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-024.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
     ],
     "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-025.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
     ],
     "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261031-026.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
     ],
-    "AGENTS/TERRY/inbox/2026-11-01_from-BRENT_vlo-leg-a-october30-cme-preliminary.md": [
-      "232364d040409203317b09919ea8f8fe362e9357"
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-007.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
     ],
-    "AGENTS/WAL/inbox/WALTER/SIG-W-20261031-026.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-009.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-010.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-011.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-018.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-023.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-024.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-025.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20261031-026.md": [
+      "66e78914c43f6647f2761f347147d9f1aaca75bb"
+    ],
+    "AGENTS/REGINALD/inbox/processed/2026-11-01_from-FLG_q3-call-report-m3-ndfi-and-loans-routing.md": [
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/REPORT.md": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11",
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/primary-rows.tsv": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+    ],
+    "AGENTS/REGINALD/reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/retrieval.tsv": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
+    ],
+    "AGENTS/REGINALD/research/FHLB/README.md": [
+      "faf1f073c88648afc68d664b2e9866ac5d6e729a"
+    ],
+    "AGENTS/REGINALD/workbook/KB.tsv": [
+      "dcafb8d4da6bd0b31a9fabdfd057bdae6d3a9a11"
     ],
     "AGENTS/WALTER/LAST_COMPLETION.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-      "a62c32a927ed3baefbd46088c322658cd82b3bc5",
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "c1b8b3ab8ab0e3e2df17c87be3d972b400e762b8",
-      "34806ae91dca9a461dc7880067e084477a77c2eb",
-      "98e1e5a0e837452332ff7d210e88ae0627f98857"
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf",
+      "a83d30f71f49a1d64d72dbe31e5c5e5895e58da4"
     ],
     "AGENTS/WALTER/MEMORY.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
     ],
     "AGENTS/WALTER/REGISTRY.tsv": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
     ],
     "AGENTS/WALTER/SESSION_LOG.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
     ],
     "AGENTS/WALTER/STATUS.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/design/FILTER_SPEC.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-    ],
-    "AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-    ],
-    "AGENTS/WALTER/design/STATE.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-    ],
-    "AGENTS/WALTER/design/THRESHOLD_SCAN.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-    ],
-    "AGENTS/WALTER/filtered/kill_log.tsv": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/outbox/README.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-    ],
-    "AGENTS/WALTER/registry/BATCH_MANIFEST.tsv": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/registry/boot_basis_hashes.json": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-    ],
-    "AGENTS/WALTER/registry/intake_seen.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/registry/x_bookmarks_pending.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/registry/x_bookmarks_receipt.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/registry/x_bookmarks_seen.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
     ],
     "AGENTS/WALTER/research/2026-10-31_call-report-read/REPORT.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
     ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/VERIFY-BASIS.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+    "AGENTS/WALTER/research/2026-11-02_session-closeout/REVIEW.md": [
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
     ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/bridge-primary-rows.tsv": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/checks.json": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb",
-      "98e1e5a0e837452332ff7d210e88ae0627f98857"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/compare.py": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/comparison.json": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/equity-bridges.json": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/inspect_bridges.py": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/owner-header-review.json": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/retrieval.json": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_call-report-read/selected-primary-rows.tsv": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/REVIEW.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/SKEW_History.csv": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/THRESHOLD-SCAN.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-CREDIT-OIL.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-FLORIDA.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/VERIFY-SYSTEMS.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/audit.txt": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/authored-paths.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/bookmark-review.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/checks.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "c1b8b3ab8ab0e3e2df17c87be3d972b400e762b8"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/extra-observations.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/observations.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/owner-header-review.json": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_night-boot/pull.py": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_verdict-amendment/REVIEW.md": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a"
-    ],
-    "AGENTS/WALTER/research/2026-10-31_verdict-amendment/closeout/checks.json": [
-      "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
-      "a62c32a927ed3baefbd46088c322658cd82b3bc5"
+    "AGENTS/WALTER/research/2026-11-02_session-closeout/checks.json": [
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf",
+      "a83d30f71f49a1d64d72dbe31e5c5e5895e58da4"
     ],
     "AGENTS/WALTER/routed/delivery_log.tsv": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "AGENTS/WALTER/routed/route_log.tsv": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "BOARD/INDEX.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
-    ],
-    "BOARD/SIG-W-20261031-023-reported-clo-bargain-loan-plans.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "BOARD/SIG-W-20261031-024-florida-mortgage-announcement-next-year.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "BOARD/SIG-W-20261031-025-rio-vista-tides-listing-friction.md": [
-      "3ae4a8ded42a196481bfa578b1b19b1a15a18892"
-    ],
-    "BOARD/SIG-W-20261031-026-q3-call-reports-book-equity-pressure-and-flg-hban-composition-flags.md": [
-      "34806ae91dca9a461dc7880067e084477a77c2eb"
+      "b6696042fc6010666c1a30cfedf6ffea3acd59cf"
     ]
   },
   "perimeter": {
@@ -2729,98 +1434,62 @@
   },
   "foreign_at_freeze": {},
   "paths": {
-    ".claude/agents/argus.md": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d",
-    ".claude/skills/closeout/SKILL.md": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077",
-    "AGENTS/FLG/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": "02b506065ed5c2dffd6bdb7d9939224e1de890cc7c2277a487b38de1ad2d0236",
-    "AGENTS/GIBBS/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": "d47ec3677dbb8ae4f39608ce7772c312518cfe1f18856097a7fc14f3dacc72c6",
-    "AGENTS/REGINALD/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": "7b202f64aea821a54a26334222a167c158ce97212c476829384af313792e6dd5",
-    "PROME/.claude/agents/argus.md": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d",
-    "PROME/.claude/skills/closeout/SKILL.md": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077",
-    "PROME/CLOSEOUT.md": "b1052478b42e6a743a81341433faf3d039464c0774406d3614946a0509d1a9f2",
-    "PROME/CLOSEOUT_PROCEDURES.md": "1e7bedc3c935d533ebd950ec7d41e2479efaa85aa718f281717c24bbdde1e4d3",
-    "PROME/DOCKET.tsv": "08b37330cf074d904cf54db479c878e27eab49916118eaa7b7c56ecfbe15584a",
-    "PROME/GIT_COORDINATION.md": "227c4ab978cb385a9fe3ae7fc5b01729ca3eec1caa4054ad7ad0b4abacd8367e",
-    "PROME/HANDOFF.md": "73c7b15ce5ca17bf183b5389664f35df1c42735d2888bd762495a58c1c19376a",
-    "PROME/MACHINE_LOCAL.md": "c9f8ac371d8d3715226203a6bae4953c176cf85995254817d5828453ac8ada53",
-    "PROME/SCRATCH.md": "448f581a1d40968dcc442eee4b872e1819f83f37641f32b82a109f3201dce850",
-    "PROME/STATUS.md": "b88324620e6a57f2f7c8197da4549eb6b9ddb4cf3caba687a67e72d8e42ebe48",
-    "PROME/WILL_QUEUE.md": "76ced3a071700f67588f6530311c2d771f2ed43071bbbc3b776327308f54914c",
-    "PROME/archive/HANDOFF_ROTATED_2026-11-01_90c33147.md": "41cd76c69d58e2fdf095b6465e10b17ebbb332fffe0e099dc983ac6fc02995ba",
-    "PROME/inbox/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": null,
-    "PROME/inbox/processed/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": "7d397424398abfe543e558aa764d8071859cc49d6f1d43ebe785e0f9af0140a6",
-    "PROME/plans/2026-10-31_wq583-candidate-WITHHELD.patch": null,
-    "PROME/registry/READS.tsv": "b0e86210a35d5b1ea05a57884dcc6ab7bb8c2e8c47b0e2eb850e37509887f2ac",
-    "PROME/registry/WQ_LEDGER.crc": "5987a04c7553dfb167a0a38db6787f1749fb0b543802b0f74458c09bbbc12740",
-    "PROME/registry/WQ_LEDGER.tsv": "dc81d2db2aa5f3043f58bfe3451c8f41fc02036384a1634ba3e61f0a109ca7a2",
-    "PROME/registry/corrections_receipts.tsv": "8ec4d943ee6ea6df87293eb1060a0fb62ffb9612213046bb402a9cd2ee1fda4d",
-    "PROME/reports/2026-11-01_wq543-routine-install-receipt.md": "2ac64c868d2a2ae0336265e106e18091501a6140fe0af621b483dc4eddeaceeb",
-    "PROME/state/CALENDAR.md": "7410c50fe68be514dc2f4f26252b772761ad4dd41b769a86335459f4838a20ad",
-    "PROME/state/ORCH_INFLIGHT.md": "0a23a10be6b19d53781d0d9ffe59ed71a46b31fc41e1ecb5910684c231e5e095",
-    "PROME/state/ORCH_LOG.tsv": "c5221a190526bd2954813e88d5e627a4582ba958fca42a9c48b65a069a410835",
-    "PROME/state/board_consumed.tsv": "5d536f7a1404cc0769ac64dd2a9c2cd610881846c929067ac4a0d7f91e91a197",
-    "PROME/state/board_cursor.txt": "f6e15e119c256887909b7adecc0e5f2b507beafe8a6357f5326578e2848da9c8",
-    "PROME/tools/ARGUS_CONTRACT.md": "f51eb4f13eab85689f689501febf4387504e78892a678ba42a53a22ad923ea0a",
-    "PROME/tools/argus_contract.py": "65ec4dbd3c357e96b9500ff3b21c97b212afa9f27659865a2e704afe50cb4458",
-    "PROME/tools/argus_scope.py": "eef25a05944458bba6f7a44e3be746cef160bd4d414994a718b6518916489323",
-    "PROME/tools/tests/ACCEPTANCE_wq583_candidate_moves_reuse_2026-10-31.md": "2a023ece2eacb31fe3b5cd67adbcb095a3653a4b19f8728dd447e4f138800657",
-    "PROME/tools/tests/test_argus_contract.py": "ca796736883d99bb912f3b5336c0b23b91b8f0a401ebf47fdda50a82f6d231b5",
-    "PROME/tools/tests/test_argus_wq583.py": "03f582b0d2a67387eff32ab4864d684970fdc654efc052be2129420f4dce8e4b",
-    "PROME/tools/tests/test_review_mechanism_WQ240b.py": "5e8d6715b87b3a04b23c8740e9b375a5c0e308ab158b55e9dad39ff54d45b23c",
-    "memory/auto/MEMORY.md": "fd7783787944e5c06619597b7ca6c9f22177e1ccf5011fae48f8a17305ed3e6e",
-    "memory/auto/feedback_bound_follow_up_reviews_to_the_diff.md": "6303b452b98f0f869f41027788ff9dada9e7a345ad0f3dcbbb262331c44ab284",
-    "memory/2026-11-01.md": "aa5399506afa8312a677ff5d11eb542ff1be08cc928e49be65fa1b4ad058c41b",
-    "PROME/inbox/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": null,
-    "PROME/inbox/processed/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": "e53383910ce6064b620c2e775eb79cb90e376326633828cbd6a43273dfde8d07"
+    "AGENTS/BRENT/inbox/2026-11-01_from-PROME_WQ543-installed-offschedule-fire-was-validation.md": "8659113d17b8452144d20e6b3a48d4195f84271e47ac2b5a96a5c090f333b8e3",
+    "AGENTS/REGINALD/inbox/2026-11-02_from-PROME_11-07-run-reserve-release-breadth-question.md": "849738094254655a9d8356eac5073c64d1b9500f5d6fbad27fcc1bd47aa86710",
+    "PROME/DOCKET.tsv": "9c594ce825dae68cceb1c06f79920beb886b317e92f8700ff97c4e2c7cc2ecbb",
+    "PROME/HANDOFF.md": "1944246c52ecf8331468170c93c25b08b8778d7e710f6d9489837e0cbeae0573",
+    "PROME/SCRATCH.md": "c95fab95272f0c5105107186aa089b19737136c8a3b0344e5fdde042bb4514c9",
+    "PROME/STATUS.md": "c160ed2cbce5b357e5305713c714a2fa54a118c04f0b93bae0df1e0aa4b401bc",
+    "PROME/WILL_QUEUE.md": "46131e2c1b960c45c6269ea4ee7b728f17a577e4ddd780a1e508eb0e2c50bd93",
+    "PROME/archive/HANDOFF_ROTATED_2026-11-02_4f5e775d.md": "c30af57c6db0cdffbed2584a03436aa234406cb63be260c1f8baf1bdc3e35c71",
+    "PROME/archive/WILL_QUEUE_ROWS_2026-11-01_rolloff.md": "7b14a28d0b56b3832b487c709c7a808f8495d8f66265c3bcc0c8db974c55faf1",
+    "PROME/archive/WILL_QUEUE_ROWS_2026-11-02_rolloff.md": "ed27313721cbe464dd62c9df1cfa87bc6aa542675bab80d2c3b1cc36de33b388",
+    "PROME/inbox/2026-11-01_from-FLG_q3-call-report-T01.md": null,
+    "PROME/inbox/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": null,
+    "PROME/inbox/processed/2026-11-01_from-FLG_q3-call-report-T01.md": "9da3abc830bf786bff6d8610f67d2d32fd373ab5085d12c7f506559f696a2af4",
+    "PROME/inbox/processed/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": "d5de91b9a73355f952b411065833ab917110309f055a6d9f50580f4eb2341e41",
+    "PROME/registry/WQ_LEDGER.crc": "4cc320f8b8fdb09f298208125850898800bb7ed2a7c0db0b17f0b9b1d037aead",
+    "PROME/registry/WQ_LEDGER.tsv": "446a689fa3b06259debf32d852112a1648907ee959f754a0d02e62ff1f505906",
+    "PROME/state/CALENDAR.md": "c5f3402736f16d1e8fd385b4264be7ce986aeed8b148ed5822f8e1cd5521f570",
+    "PROME/state/ORCH_INFLIGHT.md": "1991499007a03119542b7c65c9f45f04816940b8936e95cd4ca75e4e4b194aa4",
+    "PROME/state/ORCH_LOG.tsv": "f016471453f24fbce02b4093a59aa4635c085789f96ffc2b475d82af42c82ba7",
+    "PROME/state/board_consumed.tsv": "71f78dfd560ed0c849c7b1b02d453a2c66f03abba5e755d2e236b37a7fd0cc7e",
+    "PROME/state/board_cursor.txt": "803cccb56659a13dbf72548bca8e83e6ede990f5b056c528a9da821915932da5",
+    "PROME/tools/desk_attention.py": "36e3dd39ba03585eb72b9ad294d9cedd1cbbdad2599af205b792f2c87474a489",
+    "PROME/tools/tests/test_desk_attention.py": "ad78ed12bd978334b6ef098a8104022756fa42e40d8028fad17606d316d8e556",
+    "memory/2026-11-01.md": "f89878cfa5cd176258065c538742a889d97c957c6da0143363b6eece8973a7e8"
   },
   "candidate": {
-    "sha": "0ea408b6f91575e107e3e55c7a262889037c6613",
+    "sha": "858a71fca2f7134f52ab5892a1448620514ad8b2",
     "ref": "refs/prome/argus-candidate",
     "paths": {
-      ".claude/agents/argus.md": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d",
-      ".claude/skills/closeout/SKILL.md": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077",
-      "AGENTS/FLG/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": "02b506065ed5c2dffd6bdb7d9939224e1de890cc7c2277a487b38de1ad2d0236",
-      "AGENTS/GIBBS/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": "d47ec3677dbb8ae4f39608ce7772c312518cfe1f18856097a7fc14f3dacc72c6",
-      "AGENTS/REGINALD/inbox/2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31.md": "7b202f64aea821a54a26334222a167c158ce97212c476829384af313792e6dd5",
-      "PROME/.claude/agents/argus.md": "3cb17a5d1f9f1ee9c1eaabde5f6d603b75551c4e4828b47e07182f8a36fc2b9d",
-      "PROME/.claude/skills/closeout/SKILL.md": "7a1648f709861c857b59b1ed87c5f3fc71e5cbe5b4e3e9f05ac74aa7601cd077",
-      "PROME/CLOSEOUT.md": "b1052478b42e6a743a81341433faf3d039464c0774406d3614946a0509d1a9f2",
-      "PROME/CLOSEOUT_PROCEDURES.md": "1e7bedc3c935d533ebd950ec7d41e2479efaa85aa718f281717c24bbdde1e4d3",
-      "PROME/DOCKET.tsv": "08b37330cf074d904cf54db479c878e27eab49916118eaa7b7c56ecfbe15584a",
-      "PROME/GIT_COORDINATION.md": "227c4ab978cb385a9fe3ae7fc5b01729ca3eec1caa4054ad7ad0b4abacd8367e",
-      "PROME/HANDOFF.md": "73c7b15ce5ca17bf183b5389664f35df1c42735d2888bd762495a58c1c19376a",
-      "PROME/MACHINE_LOCAL.md": "c9f8ac371d8d3715226203a6bae4953c176cf85995254817d5828453ac8ada53",
-      "PROME/SCRATCH.md": "448f581a1d40968dcc442eee4b872e1819f83f37641f32b82a109f3201dce850",
-      "PROME/STATUS.md": "b88324620e6a57f2f7c8197da4549eb6b9ddb4cf3caba687a67e72d8e42ebe48",
-      "PROME/WILL_QUEUE.md": "76ced3a071700f67588f6530311c2d771f2ed43071bbbc3b776327308f54914c",
-      "PROME/archive/HANDOFF_ROTATED_2026-11-01_90c33147.md": "41cd76c69d58e2fdf095b6465e10b17ebbb332fffe0e099dc983ac6fc02995ba",
-      "PROME/inbox/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": null,
-      "PROME/inbox/processed/2026-10-31_from-WALTER_verdict-amendment-basis-review.md": "7d397424398abfe543e558aa764d8071859cc49d6f1d43ebe785e0f9af0140a6",
-      "PROME/plans/2026-10-31_wq583-candidate-WITHHELD.patch": null,
-      "PROME/registry/READS.tsv": "b0e86210a35d5b1ea05a57884dcc6ab7bb8c2e8c47b0e2eb850e37509887f2ac",
-      "PROME/registry/WQ_LEDGER.crc": "5987a04c7553dfb167a0a38db6787f1749fb0b543802b0f74458c09bbbc12740",
-      "PROME/registry/WQ_LEDGER.tsv": "dc81d2db2aa5f3043f58bfe3451c8f41fc02036384a1634ba3e61f0a109ca7a2",
-      "PROME/registry/corrections_receipts.tsv": "8ec4d943ee6ea6df87293eb1060a0fb62ffb9612213046bb402a9cd2ee1fda4d",
-      "PROME/reports/2026-11-01_wq543-routine-install-receipt.md": "2ac64c868d2a2ae0336265e106e18091501a6140fe0af621b483dc4eddeaceeb",
-      "PROME/state/CALENDAR.md": "7410c50fe68be514dc2f4f26252b772761ad4dd41b769a86335459f4838a20ad",
-      "PROME/state/ORCH_INFLIGHT.md": "0a23a10be6b19d53781d0d9ffe59ed71a46b31fc41e1ecb5910684c231e5e095",
-      "PROME/state/ORCH_LOG.tsv": "c5221a190526bd2954813e88d5e627a4582ba958fca42a9c48b65a069a410835",
-      "PROME/state/board_consumed.tsv": "5d536f7a1404cc0769ac64dd2a9c2cd610881846c929067ac4a0d7f91e91a197",
-      "PROME/state/board_cursor.txt": "f6e15e119c256887909b7adecc0e5f2b507beafe8a6357f5326578e2848da9c8",
-      "PROME/tools/ARGUS_CONTRACT.md": "f51eb4f13eab85689f689501febf4387504e78892a678ba42a53a22ad923ea0a",
-      "PROME/tools/argus_contract.py": "65ec4dbd3c357e96b9500ff3b21c97b212afa9f27659865a2e704afe50cb4458",
-      "PROME/tools/argus_scope.py": "eef25a05944458bba6f7a44e3be746cef160bd4d414994a718b6518916489323",
-      "PROME/tools/tests/ACCEPTANCE_wq583_candidate_moves_reuse_2026-10-31.md": "2a023ece2eacb31fe3b5cd67adbcb095a3653a4b19f8728dd447e4f138800657",
-      "PROME/tools/tests/test_argus_contract.py": "ca796736883d99bb912f3b5336c0b23b91b8f0a401ebf47fdda50a82f6d231b5",
-      "PROME/tools/tests/test_argus_wq583.py": "03f582b0d2a67387eff32ab4864d684970fdc654efc052be2129420f4dce8e4b",
-      "PROME/tools/tests/test_review_mechanism_WQ240b.py": "5e8d6715b87b3a04b23c8740e9b375a5c0e308ab158b55e9dad39ff54d45b23c",
-      "memory/auto/MEMORY.md": "fd7783787944e5c06619597b7ca6c9f22177e1ccf5011fae48f8a17305ed3e6e",
-      "memory/auto/feedback_bound_follow_up_reviews_to_the_diff.md": "6303b452b98f0f869f41027788ff9dada9e7a345ad0f3dcbbb262331c44ab284",
-      "memory/2026-11-01.md": "aa5399506afa8312a677ff5d11eb542ff1be08cc928e49be65fa1b4ad058c41b",
-      "PROME/inbox/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": null,
-      "PROME/inbox/processed/2026-11-01_from-BRENT_L609-opec-december-held-L526-not-installed.md": "e53383910ce6064b620c2e775eb79cb90e376326633828cbd6a43273dfde8d07"
+      "AGENTS/BRENT/inbox/2026-11-01_from-PROME_WQ543-installed-offschedule-fire-was-validation.md": "8659113d17b8452144d20e6b3a48d4195f84271e47ac2b5a96a5c090f333b8e3",
+      "AGENTS/REGINALD/inbox/2026-11-02_from-PROME_11-07-run-reserve-release-breadth-question.md": "849738094254655a9d8356eac5073c64d1b9500f5d6fbad27fcc1bd47aa86710",
+      "PROME/DOCKET.tsv": "9c594ce825dae68cceb1c06f79920beb886b317e92f8700ff97c4e2c7cc2ecbb",
+      "PROME/HANDOFF.md": "1944246c52ecf8331468170c93c25b08b8778d7e710f6d9489837e0cbeae0573",
+      "PROME/SCRATCH.md": "c95fab95272f0c5105107186aa089b19737136c8a3b0344e5fdde042bb4514c9",
+      "PROME/STATUS.md": "c160ed2cbce5b357e5305713c714a2fa54a118c04f0b93bae0df1e0aa4b401bc",
+      "PROME/WILL_QUEUE.md": "46131e2c1b960c45c6269ea4ee7b728f17a577e4ddd780a1e508eb0e2c50bd93",
+      "PROME/archive/HANDOFF_ROTATED_2026-11-02_4f5e775d.md": "c30af57c6db0cdffbed2584a03436aa234406cb63be260c1f8baf1bdc3e35c71",
+      "PROME/archive/WILL_QUEUE_ROWS_2026-11-01_rolloff.md": "7b14a28d0b56b3832b487c709c7a808f8495d8f66265c3bcc0c8db974c55faf1",
+      "PROME/archive/WILL_QUEUE_ROWS_2026-11-02_rolloff.md": "ed27313721cbe464dd62c9df1cfa87bc6aa542675bab80d2c3b1cc36de33b388",
+      "PROME/inbox/2026-11-01_from-FLG_q3-call-report-T01.md": null,
+      "PROME/inbox/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": null,
+      "PROME/inbox/processed/2026-11-01_from-FLG_q3-call-report-T01.md": "9da3abc830bf786bff6d8610f67d2d32fd373ab5085d12c7f506559f696a2af4",
+      "PROME/inbox/processed/2026-11-01_from-REGINALD_q3-call-report-vly-egbn-hban.md": "d5de91b9a73355f952b411065833ab917110309f055a6d9f50580f4eb2341e41",
+      "PROME/registry/WQ_LEDGER.crc": "4cc320f8b8fdb09f298208125850898800bb7ed2a7c0db0b17f0b9b1d037aead",
+      "PROME/registry/WQ_LEDGER.tsv": "446a689fa3b06259debf32d852112a1648907ee959f754a0d02e62ff1f505906",
+      "PROME/state/CALENDAR.md": "c5f3402736f16d1e8fd385b4264be7ce986aeed8b148ed5822f8e1cd5521f570",
+      "PROME/state/ORCH_INFLIGHT.md": "1991499007a03119542b7c65c9f45f04816940b8936e95cd4ca75e4e4b194aa4",
+      "PROME/state/ORCH_LOG.tsv": "f016471453f24fbce02b4093a59aa4635c085789f96ffc2b475d82af42c82ba7",
+      "PROME/state/board_consumed.tsv": "71f78dfd560ed0c849c7b1b02d453a2c66f03abba5e755d2e236b37a7fd0cc7e",
+      "PROME/state/board_cursor.txt": "803cccb56659a13dbf72548bca8e83e6ede990f5b056c528a9da821915932da5",
+      "PROME/tools/desk_attention.py": "36e3dd39ba03585eb72b9ad294d9cedd1cbbdad2599af205b792f2c87474a489",
+      "PROME/tools/tests/test_desk_attention.py": "ad78ed12bd978334b6ef098a8104022756fa42e40d8028fad17606d316d8e556",
+      "memory/2026-11-01.md": "f89878cfa5cd176258065c538742a889d97c957c6da0143363b6eece8973a7e8"
     }
   },
-  "reviewed_note": "gate-loop: DOCKET L219\u219211/12 and L835\u219211/04 + CALENDAR regen + memory note \u2014 unreviewed, routine; 39 reused",
-  "reviewed_at": "2026-11-02T02:46:28+00:00",
-  "reviewed_contract_sha256": "7fc5c1a9dd2cd5a66ebbca2a90cae073ff056f52bfe4e2a6bb76f80e9ef1a64b"
+  "reviewed_note": "ARGUS 2026-11-02 ledger stands (\u274c1 fixed, \u26a0\ufe0f4 residue); post-audit gate bookkeeping (18 COVERED annotations on today's DOCKET rows, WQ-471 roll-off) UNREVIEWED, disclosed in memory",
+  "reviewed_at": "2026-11-02T13:19:50+00:00",
+  "reviewed_contract_sha256": "a450eb717da10ca78238bb68ccd09f563b749a07721aedeb91914ded3f4fbc70"
 }
