@@ -546,7 +546,7 @@ function Refresh-SelectionTray {
         $card.Enabled=-not $script:busy
         if ($card -is [Windows.Forms.Panel]) {
             $setting=$script:settings[[string]$card.Tag]
-            $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$setting.runtime]
+            $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable';kimi='Kimi K3.1 Pro'}[$setting.runtime]
             $text='Default startup instructions'
             if (-not [string]::IsNullOrWhiteSpace($setting.task)) {$text=($setting.task -replace '\s+',' ')}
             if ($text.Length -gt 110) {$text=$text.Substring(0,107)+'...'}
@@ -583,7 +583,7 @@ function Read-Groups {
             if ($g.members -isnot [Array] -or $g.members.Count -eq 0) {throw 'Saved group has no valid member list. The file was not changed.'}
             $members=@{}
             foreach ($m in $g.members) {
-                if ($m.name -isnot [string] -or $m.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $m.runtime -notin @('sol','claude','astra','opus','fable') -or $members.ContainsKey($m.name)) {throw 'Saved group has an invalid or duplicate agent. The file was not changed.'}
+                if ($m.name -isnot [string] -or $m.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $m.runtime -notin @('sol','claude','astra','opus','fable','kimi') -or $members.ContainsKey($m.name)) {throw 'Saved group has an invalid or duplicate agent. The file was not changed.'}
                 $members[$m.name]=$true
             }
             $found+=$g
@@ -638,7 +638,7 @@ function Apply-Group($g) {
     foreach ($member in $g.members) {
         $entry=@($data.agents | Where-Object {$_.name -eq $member.name})
         if ($entry.Count -ne 1) {throw ('This group includes '+$member.name+', which is no longer configured. Your current selection was kept.')}
-        $allowed=@('sol','astra','opus','fable','claude')
+        $allowed=@('sol','astra','opus','fable','claude','kimi')
         if ($entry[0].kind -eq 'cato') {$allowed=@('astra','sol')}
         if ($member.runtime -notin $allowed) {throw ('Unsupported saved runtime for '+$member.name+'. Your current selection was kept.')}
     }
@@ -749,7 +749,7 @@ function Validate-LocalRecords($document,$kind) {
             $seen[$item.name]=$true
         } else {
             $timestamp=[DateTimeOffset]::MinValue
-            if ($item.name -isnot [string] -or $item.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $item.runtime -notin @('sol','claude','astra','opus','fable') -or $item.action -notin @('new','resume') -or $item.outcome -notin @('Opened','Not confirmed','Cancelled') -or $item.message -isnot [string] -or $item.task -isnot [string] -or -not [DateTimeOffset]::TryParse([string]$item.time,[ref]$timestamp)) {throw 'Invalid launch history. The original file was kept.'}
+            if ($item.name -isnot [string] -or $item.name -notmatch '^[A-Z][A-Z0-9_-]*$' -or $item.runtime -notin @('sol','claude','astra','opus','fable','kimi') -or $item.action -notin @('new','resume') -or $item.outcome -notin @('Opened','Not confirmed','Cancelled') -or $item.message -isnot [string] -or $item.task -isnot [string] -or -not [DateTimeOffset]::TryParse([string]$item.time,[ref]$timestamp)) {throw 'Invalid launch history. The original file was kept.'}
         }
     }
 }
@@ -877,7 +877,7 @@ function Select-History {
     $historyOpen.Enabled=($null -ne $historyList.SelectedItem -and -not $script:busy)
     if ($null -eq $historyList.SelectedItem) {$historyDetail.Text='Launches will appear here after you start a conversation.'; return}
     $record=$historyList.SelectedItem.Record
-    $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$record.runtime]
+    $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable';kimi='Kimi K3.1 Pro'}[$record.runtime]
     $text=$record.task; if (-not $text) {$text='Follow the agent startup instructions'}
     $historyDetail.Text=$record.name+' | '+$label+' | '+$record.action+"`r`n"+$record.time+"`r`n`r`n"+$record.outcome+': '+$record.message+"`r`n`r`nInstructions:`r`n"+$text+"`r`n`r`nThis is a launch record, not a live work-status report."
 }
@@ -930,7 +930,7 @@ function Show-RecentDetails {
     $launchText='No launch recorded here'
     if (-not $script:historyHealthy) {$launchText='History unavailable (see Activity)'}
     elseif ($launch) {
-        $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$launch.runtime]
+        $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable';kimi='Kimi K3.1 Pro'}[$launch.runtime]
         $launchText=([DateTimeOffset]::Parse($launch.time)).LocalDateTime.ToString('MMM d, yyyy HH:mm')+' | '+$label+' | '+$launch.action
         if ((Activity-Age $launch.time).label -eq 'Clock ahead') {$launchText+=' (clock ahead)'}
     }
@@ -1140,8 +1140,8 @@ function Sync-Editors {
         $runtime.Items.Clear(); $instructionRuntime.Items.Clear()
         $task.Clear()
         if ($names.Count -eq 0) {return}
-        $labels=@{sol='Codex Sol';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}
-        $choices=@('sol','opus','astra','fable')
+        $labels=@{sol='Codex Sol';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable';kimi='Kimi K3.1 Pro'}
+        $choices=@('sol','opus','astra','fable','kimi')
         $cato=@($data.agents | Where-Object {$_.name -in $names -and $_.kind -eq 'cato'}).Count -gt 0
         if ($cato) {$choices=@('astra','sol')}
         foreach ($value in $choices) {
@@ -1163,6 +1163,10 @@ function Sync-Editors {
         if (Editing-All) {$instructionHint.Text='Editing '+$scope+'. Choose an agent above for individual edits; use Review & launch below.'}
         if ($cato -and (Editing-All)) {$instructionHint.Text='Editing '+$scope+'. CATO supports Codex only. Choose an agent above for individual edits.'}
         if (Editing-All) {$hint.Text='Use Review & launch for the selection. Uncheck Apply edits for individual controls.'}
+        if (@($models | Where-Object {$_ -eq 'kimi'}).Count -gt 0) {
+            $instructionHint.Text+=' Kimi: type Start in its new window to run your prepared instructions.'
+            $hint.Text+=' Kimi: type Start in its new window.'
+        }
         $tooltip.SetToolTip($runtime,$instructionHint.Text)
         $tooltip.SetToolTip($usePreset,'Apply this preset to '+$scope+', then edit the instructions as needed.')
     } finally {$script:loading=$false; Update-Buttons}
@@ -1182,11 +1186,12 @@ function Save-Settings($field) {
     if ($runtime.Text -eq 'Claude Opus') {$value='opus'}
     if ($runtime.Text -eq 'Claude Fable') {$value='fable'}
     if ($runtime.Text -eq 'Codex Astra') {$value='astra'}
+    if ($runtime.Text -eq 'Kimi K3.1 Pro') {$value='kimi'}
     foreach ($key in $names) {$script:settings[$key].runtime=$value}
     $script:loading=$true
     try {$instructionRuntime.SelectedIndex=$runtime.SelectedIndex} finally {$script:loading=$false}
     $runtimeLabel.Text='Model'; $instructionRuntimeLabel.Text='Model'
-    Update-Buttons
+    Sync-Editors
 }
 function Select-Agent {
     if ($script:filtering) {return}
@@ -1294,7 +1299,7 @@ function Selected-Requests {
 function Preview-Text($items) {
     $lines=New-Object Collections.Generic.List[string]
     foreach ($item in $items) {
-        $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable'}[$item.runtime]
+        $label=@{sol='Codex Sol';claude='Claude (model unrecorded)';astra='Codex Astra';opus='Claude Opus';fable='Claude Fable';kimi='Kimi K3.1 Pro'}[$item.runtime]
         $lines.Add($item.name+'  |  '+$label)
         $entry=@($data.agents | Where-Object {$_.name -eq $item.name})[0]
         if ($entry.prome_touch.state -ne 'available') {$lines.Add('PROME touch evidence unavailable; current activity unknown.')}
@@ -1522,6 +1527,7 @@ if ($SmokeTest) {
             $initialSettings=$script:settings | ConvertTo-Json -Depth 8 -Compress
             Select-Category ''; $search.Clear()
             if ($categories.Items[0].Name -ne '__favorites__') {throw 'Favorites is not at the top'}
+            if (@($categories.Items | Where-Object {$_.Name -in @('Separate projects','Legacy reference')}).Count) {throw 'Retired categories returned'}
             if (@($list.Items | Where-Object {$_.Entry.parent}).Count -ne 0 -or $list.SectionRows.Count -ne 1) {throw 'Specialists were not collapsed by default'}
             foreach ($entry in $data.agents) {
                 $search.Text=$entry.name
@@ -1833,12 +1839,21 @@ if ($SmokeTest) {
             Test-Step 'Model choices and activity ages'
             Focus-Agent 'PROME' 'Agents'
             if ($runtime.Text -ne 'Claude Opus') {throw 'PROME default is not Opus'}
-            foreach ($choice in @('Claude Opus','Claude Fable','Codex Astra','Codex Sol')) {
+            foreach ($choice in @('Claude Opus','Claude Fable','Codex Astra','Codex Sol','Kimi K3.1 Pro')) {
                 $runtime.SelectedItem=$choice
                 if ($instructionRuntime.Text -ne $choice) {throw 'Model controls did not synchronize'}
             }
+            if ($script:settings['PROME'].runtime -ne 'kimi') {throw 'Kimi selection did not persist'}
             Focus-Agent 'CATO' 'Instructions'; $instructionRuntime.SelectedItem='Codex Sol'
             if ($runtime.Text -ne 'Codex Sol' -or $script:settings['CATO'].runtime -ne 'sol') {throw 'CATO Sol choice failed'}
+            if ($runtime.Items.Contains('Kimi K3.1 Pro')) {throw 'Kimi bypassed CATO runtime policy'}
+            $kimiGroup=@{name='Kimi';members=@(@{name='PROME';runtime='kimi'},@{name='CARL';runtime='kimi'})}
+            Apply-Group $kimiGroup
+            if ($script:settings['CARL'].runtime -ne 'kimi' -or $runtime.Text -ne 'Kimi K3.1 Pro') {throw 'Kimi group restore failed'}
+            $kimiRecord=@{time=[DateTimeOffset]::Now.ToString('o');name='CARL';runtime='kimi';action='new';task='';outcome='Opened';message='Kimi fixture'}
+            [void](Write-LocalRecords $script:historyPath 'history' @($kimiRecord) '' $true)
+            $kimiSaved=Read-LocalRecords $script:historyPath 'history'
+            if (@($kimiSaved.records | Where-Object {$_.runtime -eq 'kimi' -and $_.message -eq 'Kimi fixture'}).Count -ne 1) {throw 'Kimi history did not round-trip'}
             $legacyGroup=@{name='Legacy';members=@(@{name='PROME';runtime='claude'},@{name='CARL';runtime='claude'})}
             Apply-Group $legacyGroup
             if ($script:settings['PROME'].runtime -ne 'fable' -or $script:settings['CARL'].runtime -ne 'opus') {throw 'Legacy Claude group defaults failed'}
@@ -1993,7 +2008,7 @@ if ($SmokeTest) {
                 $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))
                 $bitmap.Save((Join-Path $data.directory ($page.Name+'.png'))); $bitmap.Dispose()
             }
-            @{ok=$true;checks='Favorites persistence/removal/stale-window/corrupt/unknown-name handling, all-agent search, short descriptions, specialist expand/collapse/header safety/hidden selection, Explicit Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, Research real worker/search/source/limits/stale responses/queue independence, task presets including exact ORACLE daily-read text/edit/cancel/no-launch, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
+            @{ok=$true;checks='Favorites persistence/removal/stale-window/corrupt/unknown-name handling, all-agent search, short descriptions, specialist expand/collapse/header safety/hidden selection, Explicit Kimi/Opus/Fable/Astra/Sol selection and legacy group migration, age thresholds/unknown/future timestamps, retained last launch beyond 100 attempts, failed-launch exclusion, invalid summary refusal, Categories, retained selection, per-agent runtime/task, hidden preview, CATO, resume, empty search, clear, stop remaining, saved groups, atomic persistence, concurrent/corrupt-file refusal, Research real worker/search/source/limits/stale responses/queue independence, task presets including exact ORACLE daily-read text/edit/cancel/no-launch, group rename/collision, global search/category restore, selected-name navigation and separate removal, tab state/busy queue preservation, custom preset persistence/corruption/concurrency/confirmation, bounded history merging/corruption, Activity errors, page bounds and resize'} | ConvertTo-Json | Set-Content -Encoding UTF8 (Join-Path $data.directory 'smoke.json')
         } catch {
             $bitmap=New-Object Drawing.Bitmap($form.Width,$form.Height)
             $form.DrawToBitmap($bitmap,(New-Object Drawing.Rectangle(0,0,$form.Width,$form.Height)))

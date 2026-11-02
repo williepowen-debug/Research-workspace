@@ -30,7 +30,19 @@ import uuid
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = Path(__file__).with_name('agents.json')
 RUNTIME_LABELS = {'sol': 'Codex Sol', 'astra': 'Codex Astra',
-                  'opus': 'Claude Opus', 'fable': 'Claude Fable', 'claude': 'Claude'}
+                  'opus': 'Claude Opus', 'fable': 'Claude Fable', 'claude': 'Claude',
+                  'kimi': 'Kimi K3.1 Pro'}
+KIMI_MODEL = 'kimi-code/k3.1-pro'
+
+
+def kimi_executable() -> str:
+    found = shutil.which('kimi')
+    if found:
+        return found
+    installed = Path.home() / '.kimi-code/bin/kimi'
+    if installed.is_file() and os.access(installed, os.X_OK):
+        return str(installed)
+    raise LaunchError('Kimi Code is not installed. Install or enable kimi before launching this agent.')
 
 
 def resolve_runtime(entry: dict, runtime: str | None) -> str:
@@ -133,7 +145,7 @@ def build_plan(entry: dict, runtime: str | None, action: str,
         raise LaunchError('Task text contains a null character.')
     cwd = resolve_folder(entry['path'], root, home)
     name, kind = entry['name'], entry['kind']
-    if runtime not in ('sol', 'astra', 'opus', 'fable'):
+    if runtime not in ('sol', 'astra', 'opus', 'fable', 'kimi'):
         raise LaunchError(f'Unknown runtime: {runtime}')
     if kind == 'cato' and runtime not in ('astra', 'sol'):
         raise LaunchError('CATO uses Codex Astra or Sol with its existing workspace policy.')
@@ -179,6 +191,14 @@ def build_plan(entry: dict, runtime: str | None, action: str,
         argv += ['--model', runtime]
         if action == 'new':
             argv += ['--', prompt]
+    elif runtime == 'kimi':
+        executable = kimi_executable()
+        if action == 'resume':
+            argv = [executable, '--model', KIMI_MODEL, '--session']
+        else:
+            helper = Path(__file__).with_name('kimi_launcher.py')
+            required.append(helper)
+            argv = [sys.executable, str(helper), '--name', name, '--', prompt]
     else:
         argv = ['codex'] + (['resume'] if action == 'resume' else [])
         argv += ['--model', 'gpt-6.1-sol' if runtime == 'sol' else 'gpt-6-astra',
@@ -197,7 +217,8 @@ def validate_plan(plan: Plan) -> None:
                 stream.read(1)
         except OSError as exc:
             raise LaunchError(f'{plan.name}: required startup file is unreadable: {path}: {exc}') from exc
-    executable = 'codex' if plan.runtime in ('sol', 'astra') else 'claude'
+    executable = (kimi_executable() if plan.runtime == 'kimi' else
+                  'codex' if plan.runtime in ('sol', 'astra') else 'claude')
     if shutil.which(executable) is None:
         raise LaunchError(f'{executable} is not on PATH. Install or enable it before launching {plan.name}.')
     if shutil.which(plan.argv[0]) is None:
@@ -475,6 +496,7 @@ def choose_runtime(entry: dict) -> str:
     if entry['kind'] != 'cato':
         menu_choice('O', 'Claude Opus', 'Default' if default == 'opus' else '')
         menu_choice('F', 'Claude Fable', 'Default' if default == 'fable' else '')
+        menu_choice('K', 'Kimi K3.1 Pro', 'Type Start after the interactive window opens.')
     print()
     menu_text(f'Enter  Use {runtime_label(default)}    Q  Quit', 'muted')
     while True:
@@ -484,6 +506,7 @@ def choose_runtime(entry: dict) -> str:
             if value in ('c', 'claude'): return resolve_runtime(entry, 'claude')
             if value in ('o', 'opus'): return 'opus'
             if value in ('f', 'fable'): return 'fable'
+            if value in ('k', 'kimi'): return 'kimi'
         if value in ('a', 'astra'): return 'astra'
         if value in ('s', 'sol'): return 'sol'
         menu_text('Choose a listed model, or Enter.', 'warning')
@@ -513,6 +536,7 @@ def main(argv: list[str] | None = None) -> int:
     runtimes.add_argument('--astra', action='store_const', const='astra', dest='runtime')
     runtimes.add_argument('--opus', action='store_const', const='opus', dest='runtime')
     runtimes.add_argument('--fable', action='store_const', const='fable', dest='runtime')
+    runtimes.add_argument('--kimi', action='store_const', const='kimi', dest='runtime')
     runtimes.add_argument('--claude', action='store_const', const='claude', dest='runtime')
     actions = parser.add_mutually_exclusive_group()
     actions.add_argument('--new', action='store_const', const='new', dest='action')

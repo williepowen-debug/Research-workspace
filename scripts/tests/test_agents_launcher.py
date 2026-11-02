@@ -57,7 +57,7 @@ class LauncherTests(unittest.TestCase):
                 ' end=time.monotonic()+10\n'
                 ' while not Path(os.environ["WAIT_FOR_RELEASE"]).exists() and time.monotonic()<end: time.sleep(.02)\n'
                 'sys.exit(int(os.environ.get("FAKE_EXIT","0")))\n')
-        for name in ('codex', 'claude'):
+        for name in ('codex', 'claude', 'kimi'):
             f = self.bin / name
             f.write_text(fake)
             f.chmod(0o755)
@@ -244,7 +244,7 @@ class LauncherTests(unittest.TestCase):
         resume = agents.build_plan(cato, None, 'resume')
         self.assertIn('gpt-6-astra', resume.argv)
         self.assertIn('on-request', resume.argv)
-        for runtime in ('opus', 'fable', 'claude'):
+        for runtime in ('opus', 'fable', 'claude', 'kimi'):
             with self.assertRaises(agents.LaunchError): agents.build_plan(cato, runtime, 'new')
 
     def test_explicit_models_new_resume_and_legacy_defaults(self):
@@ -274,6 +274,45 @@ class LauncherTests(unittest.TestCase):
             self.assertIn('workspace-write', args)
             self.assertIn('on-request', args)
             self.assertNotIn('--dangerously-bypass-approvals-and-sandbox', args)
+
+    def test_kimi_interactive_start_preserves_instructions_and_resume_picker(self):
+        task = '--literal task\nKeep ${base_prompt}, "quotes", and $(commands) verbatim.'
+        result = self.cli('fixture', '--kimi', '--new', '--task', task)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        capture = json.loads(self.capture.read_text())
+        self.assertEqual(capture['cwd'], str(self.project))
+        args = capture['args']
+        self.assertEqual(args[:2], ['--model', 'kimi-code/k3.1-pro'])
+        self.assertNotIn('--prompt', args)
+        self.assertNotIn('--auto', args)
+        profile = Path(args[args.index('--agent-file') + 1])
+        self.assertIn('${base_prompt}', profile.read_text())
+        self.assertIn('launcher-fixture', profile.read_text())
+        self.assertEqual((profile.parent / 'instructions.txt').read_text(),
+                         "Read HANDOFF.md.\n\nWill's task: " + task)
+        first = profile
+        result = self.cli('fixture', '--kimi', '--new')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        args = json.loads(self.capture.read_text())['args']
+        self.assertNotEqual(Path(args[-1]), first)
+        self.assertTrue(first.is_file(), 'Keep profiles available for resumed sessions')
+        result = self.cli('fixture', '--kimi', '--resume')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(json.loads(self.capture.read_text())['args'],
+                         ['--model', 'kimi-code/k3.1-pro', '--session'])
+        result = self.cli('fixture', '--kimi', '--resume', '--task', 'Must not disappear')
+        self.assertNotEqual(result.returncode, 0)
+
+    def test_kimi_installer_location_and_missing_binary(self):
+        with patch.object(agents.shutil, 'which', return_value=None), \
+             patch.object(agents.Path, 'home', return_value=self.base):
+            with self.assertRaisesRegex(agents.LaunchError, 'Kimi Code is not installed'):
+                agents.build_plan(self.entry, 'kimi', 'new')
+            binary = self.base / '.kimi-code/bin/kimi'
+            binary.parent.mkdir(parents=True)
+            binary.write_text('#!/bin/sh\nexit 0\n')
+            binary.chmod(0o755)
+            self.assertEqual(agents.kimi_executable(), str(binary))
 
     def test_menu_uses_selected_runtime_and_resume(self):
         with patch.object(agents.sys.stdin, 'isatty', return_value=True), \

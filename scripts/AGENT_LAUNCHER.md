@@ -277,8 +277,21 @@ new model choices and history format. Agent terminal sessions can remain open.
   Legacy `--claude` and saved-group Claude entries resolve to Fable for PROME
   and Opus for other agents. Existing saved groups with explicit Sol keep Sol.
 - Codex choices explicitly request `gpt-6.1-sol` or `gpt-6-astra`.
+- **Kimi K3.1 Pro** is available for fleet desks in both model selectors and the
+  terminal menu (`agents CARL --kimi --new`). It explicitly requests
+  `kimi-code/k3.1-pro` from the installed Kimi Code CLI. The launcher checks PATH
+  and the standard `~/.kimi-code/bin/kimi` installation location.
+  New sessions open interactively in the selected desk folder with a private,
+  launch-specific profile and the exact prepared instructions. **Type Start in
+  the Kimi window** to begin. Resume uses Kimi's session picker and restores that
+  session's bound profile. The launcher retains those local profiles for resume,
+  adds no approval-bypass flags, and does not change Kimi account configuration.
+  Saved groups, batch review and launch history retain the Kimi selection.
+  This uses the installed 2.3.3 CLI's documented
+  [interactive agent-file and session options](https://moonshotai.github.io/kimi-code/en/reference/kimi-command).
 - CATO offers Astra and Sol with **workspace-write / on-request** for both.
-  Claude remains unavailable for CATO; selecting Sol does not broaden permissions.
+  Claude and Kimi remain unavailable for CATO under its existing runtime policy;
+  selecting Sol does not broaden permissions.
 - WALTER's Telegram connection was retired by Will on October 27, 2026.
   New and resumed sessions launch without Telegram channel flags.
 - CARL's specialists use their nested folders. Project folders and startup files
@@ -286,6 +299,7 @@ new model choices and history format. Agent terminal sessions can remain open.
 - The configuration contains 49 launch targets, including GIBBS (Banks & credit),
   ISHM (Industry & technology), and CYPHER (Geopolitics & cyber). ARCHITECT, CAREER, ZION, and VIRGIL
   have been removed from the menu; their folders and saved sessions are untouched.
+  Separate projects and Legacy reference are absent from the current categories.
   Reopen the app after configuration changes to load the updated list.
   It is a personal menu, not a new fleet roster, schedule,
   or grant of launch authority. Existing restrictions, including CREED's manual
@@ -311,6 +325,8 @@ restart occurs. A failed command is reported with its exit code, never retried.
 - `scripts/agents.py`: menu, command construction, and local terminal supervision.
 - `scripts/agents_gui.py` and `scripts/agents_gui.ps1`: desktop interface and
   single-use launch requests, using the same validated plans and window backend.
+- `scripts/kimi_launcher.py`: interactive Kimi profile/instruction handoff;
+  local files live under `~/.cache/research-agent-launcher/kimi/`.
 - `scripts/agents.json`: editable launch targets/settings; read on each invocation.
 - `scripts/install_agents.py`: creates the local shortcuts; starts no agents.
 - `~/.local/bin/agents`: machine-local shortcut, outside Git.
