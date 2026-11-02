@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "period": "2026-09-30",
+      "rssd": 694904,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-11-02T04:18:09.661109+00:00",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/FLG/sources/ffiec_2026-11-01/694904_09-30-2026_call.sdf",
+      "rows": 1934,
+      "bytes": 195001,
+      "sha256": "8cf81ff12e2bad75b58273e4d8702a29d0823a94d393bf5b0ab61d9cc0c82e12",
+      "last_update_min": "20261030",
+      "last_update_max": "20261030"
+    },
+    {
+      "period": "2026-06-30",
+      "rssd": 694904,
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "attempted_at_UTC": "2026-11-02T04:18:10.923775+00:00",
+      "http_status": 200,
+      "status": "VERIFIED",
+      "path": "AGENTS/FLG/sources/ffiec_2026-11-01/694904_06-30-2026_call.sdf",
+      "rows": 1953,
+      "bytes": 197011,
+      "sha256": "466db13809ffa5762a701a6b49cf032409de3b965381970ab1c8344e9b15b239",
+      "last_update_min": "20260730",
+      "last_update_max": "20260730"
+    }
+  ]
+}

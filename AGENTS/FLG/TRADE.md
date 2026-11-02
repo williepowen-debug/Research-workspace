@@ -1,11 +1,11 @@
 # FLG — TRADE SURFACE
 
-> **LIVE — state as of 2026-10-28 (re-read against the mirror + TERRY's booking surface by FLG, owner session). Position state: NO POSITION in the mirror · re-arm readings A and B FIRED 10/23 (below).**
+> **LIVE — state as of 2026-11-01 (re-read against `FORGE/STATUS.md` by FLG, PROME C9 spawn). Position state: FLG Mar-19-2027 $10 put ×1 IN THE MIRROR (Fidelity capture 2026-10-30 intraday) · re-arm readings A and B FIRED 10/23 (below).**
 > This is a live surface, not a frozen one: it carries a current-state claim and must be re-stated whenever the position state changes or a session reads it against the mirror. Position truth is **off-repo** (Will / broker direct); `FORGE/STATUS.md` is the fleet's structured mirror. **Never cite a price from this file** (root rule #4); pull live via `FORGE/tools/market-data/fetch.py price FLG`.
 
 ## Current position
 
-**NONE in the mirror.** Re-checked 2026-10-28: `FORGE/STATUS.md` carries no FLG row; TERRY's STATUS (read 10/28) books a **Will-direct OPEN order, Mar-19-2027 $10 puts ×4 at $0.52 limit — not filled/booked**. Fill state UNKNOWN until Will's next capture; FLG does not infer it (PROME packet 10/23, filed). Prior check 2026-10-22 against `FORGE/STATUS.md` (ANVIL reconcile of Will's 10/22 11:01 ET Fidelity capture, Fidelity Traditional IRA only): no FLG row. ⚠️ The Robinhood block was NOT provided on 10/22; its last vintage is 9/29, so absence there is unverified for 23 days. *(Prior: verified 2026-08-20 against the 8/14 reconcile, both accounts — no FLG row.)*
+**FLG Mar-19-2027 $10P ×1 in the mirror** — re-checked 2026-11-01: `FORGE/STATUS.md` row (ANVIL reconcile of Will's 2026-10-30 ~13:2x ET Fidelity capture) books 1 contract, cost basis $70.66; the buy itself is unseen in the ledger (mirror defect D-90) and card/owner UNKNOWN (D-74). FLG reads the THESIS only; marks live in the mirror, never here (root rule #4); the order and any later disposition are Will's. *Superseded state below kept for the record.* Re-checked 2026-10-28: `FORGE/STATUS.md` carries no FLG row; TERRY's STATUS (read 10/28) books a **Will-direct OPEN order, Mar-19-2027 $10 puts ×4 at $0.52 limit — not filled/booked**. Fill state UNKNOWN until Will's next capture; FLG does not infer it (PROME packet 10/23, filed). Prior check 2026-10-22 against `FORGE/STATUS.md` (ANVIL reconcile of Will's 10/22 11:01 ET Fidelity capture, Fidelity Traditional IRA only): no FLG row. ⚠️ The Robinhood block was NOT provided on 10/22; its last vintage is 9/29, so absence there is unverified for 23 days. *(Prior: verified 2026-08-20 against the 8/14 reconcile, both accounts — no FLG row.)*
 
 ## Re-arm condition — when FLG hands TERRY a construction input
 

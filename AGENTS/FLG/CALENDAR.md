@@ -16,7 +16,8 @@
 | ~~2026-10-24~~ ✅ PASSED — outcome UNKNOWN (no news through 10/28, KB-FLG-096; NYSCEF 403 here — Will's browser via PROME) | RULE *(30 days from the 9/24 order, doc 239)* | Rent-freeze litigation: City's complete discovery response due (NY County Index 453580/2026). Petitioners reserved emergency relief after reviewing it | T-12 · watch via the WALTER intake term (KB-FLG-073) |
 | ~2026-11-06 → **check 2026-11-09** | RULE | Q3-2026 10-Q — **the L522 10-Q leg**: NAL roll-forward, FDM tables, the $29M/$286M MF subsequently-defaulted question, buyback in the equity statement, K-1 legs | T-02 (+ T-04/T-05/T-07/T-08/T-12 ride the same wake). Lag = quarter-end +37d, observed twice (2026-05-07, 2026-08-06). **Grades FLG-02 and FLG-03** |
 | **CHECK-BY 2026-11-13** | RULE | Q3 FDM + payoff read, WQ-313 ① (PROME DOCKET L522) | T-13. Will's $29M/$286M question; if insufficient, record as reported, "unreconciled / not cohort-identifiable" |
-| ~2026-11-14 | RULE | Q3-2026 Call Report (FFIEC, RSSD 694904) | T-01. Quarter-end +45d |
+| ~~2026-11-14~~ | RULE | Q3-2026 Call Report (FFIEC, RSSD 694904) | T-01. ✅ Filed early (CDR 10/30), CONSUMED 2026-11-01 (KB-FLG-099) |
+| ~2027-02-14 | RULE | Q4-2026 Call Report (FFIEC, RSSD 694904) | T-01. Quarter-end +45d. ⚠️ FFIEC token expires 2027-01-31 — renew first or FDIC fallback |
 | ~2027-01-29 | EVENT *[EST]* | Q4-2026 earnings release + call (Q4-2025 release was 2026-01-30) | T-03. Confirm at the issuer PR, then HARD |
 | ~2027-03-01 | RULE | FY2026 10-K | **Grades FLG-01.** FY2025 10-K filed 2026-02-27. `Resolve_By` carries a 2027-03-15 buffer — a slip is STUCK, never MISS |
 | **2027-05-xx** | EVENT | NYC RGB 2027 preliminary vote | T-06. **Last occurrence VERIFIED: June 2026 (rent freeze approved, effective Oct 2026).** Re-verify occurrence before treating this row as pending |
