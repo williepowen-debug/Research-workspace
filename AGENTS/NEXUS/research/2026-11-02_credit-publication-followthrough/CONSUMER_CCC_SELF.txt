@@ -1,0 +1,134 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 287 files under AGENTS/NEXUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── CCC OAS observation update · superseded 1325 → current 1327
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (52)
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:16  [1325]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:31  [1325]
+           | **D:L751** | **L16** guarded HY (L 329, C₀ 1,310; frozen letter `research/2026-10-19_WQ459_guarded_HY_letter.md`) | cell 7 = obs 10/28 HY
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:35  [1325]
+           | Context, not owed today | M-01 · M-07 · M-04b · M-08b | HY 314/326 · IG 86/89 · VIX 16.91/17.20 · B 318/332 with CCC 1,307/1,325 | All nei
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:42  [1325]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R3.md:103  [1325]
+           - **MOVED:** **7,700 put wall BROKEN** (low 7,527.56). SPX flips ~7,732/~7,736, net −$38.6B/−$60.7B per 1%. The trough is at 7,400–7,450, wi
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R3.md:120  [1325]
+           1. **HY OAS:** RED and BOND give 318 [10/27]. VIOLET gives 314 [10/28]. HENRY gives **326 [10/29] (+12, YELLOW)**. These agree as a series:
+        AGENTS/NEXUS/research/2026-10-31_full_pass/RECORD.md:16  [1325]
+           1. **AI/semis repricing, one class:** GOOGL −12.6% [10/29]; INTC −28.58%, SOXX −8.24%, QQQ −3.47%, SPY −1.77%, RSP −0.79% [10/30 vendor clos
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_CROSS.txt:16  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_CROSS.txt:20  [1325]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_CROSS.txt:78  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_CROSS.txt:82  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:28  [1325]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:32  [1325]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:36  [1325]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:40  [1325]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:44  [1325]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:48  [1325]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:22  [1325]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:32  [1325]
+           | **CCC/HY ratio** | >3.6× (3 consec) | **4.06×** [CCC 1,325 / HY 326, FRED 10/29]; 4.16× [10/28]; 4.15× [10/27] | HARD-FIRE continues. 10/2
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:36  [1325]
+           | Night boot (November 1 01:02–01:04Z; observation dates retained) | HY 326/CCC 1325/VIXCLS 17.20/SOFR-IORB+4bp [Oct29]; T5YIFR 2.22/SKEW 14
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:38  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:44  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:52  [1325]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:68  [1325]
+           - **Credit → KB-BND-525:** HY 326 [10/29], 24bp under 350; CCC 1325. Credit-equity band not touched since the one-session 10/22 letter.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:72  [1325]
+           **Credit: the index is drifting back toward 350.** HY 314 [10/28] → 326 [10/29], 24bp under 350; CCC 1325, near its 3-year-window high (1356
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:74  [1325]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:78  [1325]
+           | 4 | HY function VX-BND-02 / VX-BND-11 | 3 | 🟠 | HY 326 [10/29]; CCC 1325 | HY >350 or verified pulled-deal cluster |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:146  [1325]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:148  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:152  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:156  [1325]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:158  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:182  [1325]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:184  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:208  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:216  [1325]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:226  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:234  [1325]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:312  [1325]
+           **3. Credit —** HY 326 / CCC 1,325 bp [October 29, first-published]: back above 320 after 318 and 314 (run 1 of 3; October 30 cells Monday).
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:314  [1325]
+           | HY / CCC OAS | 326 / 1,325 bp [Oct 29] | First-published; Oct 30 cells publish Mon Nov 2 |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:332  [1325]
+           Checked OK: before.md == HEARTBEAT.md (cmp, repo root); dashboard cells (HY 326, CCC 1325, Brent 117.70, VIX 19.42, MOVE 100.20 +6.66, KRE/A
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:342  [1325]
+           TIER 1: HY OAS 326bps (+12.00) [10/29] · CCC OAS 1325bps (+18.00) [10/29] · Brent (BZZ26 Dec) $117.70 (+2.82) [10/30] · Gas (wkly) 4.27 (-0.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:348  [1325]
+           **Credit (FRED, first-published):** HY OAS **326 bp [10/29]**, +12 bp from 314 [10/28]; CCC 1,325 bp [10/29]. HY is back above RED-FT-02's 3
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:32  [1325]
+           | Context, not owed today | M-01 · M-07 · M-04b · M-08b | HY 314/326 · IG 86/89 · VIX 16.91/17.20 · B 318/332 with CCC 1,307/1,325 | All nei
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:34  [1325]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:74  [1325]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:28  [1325]
+           | Context, not owed today | M-01 · M-07 · M-04b · M-08b | HY 314/326 · IG 86/89 · VIX 16.91/17.20 · B 318/332 with CCC 1,307/1,325 | All nei
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:30  [1325]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:48  [1325]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:33  [1325]
+           | M-08 | Credit K-split, broadening unproved | candidate R3; one repricing class; LIQUID/BROCK/RED/REGINALD | 83% | — | 10-31 | M-08b anchor
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/DIGEST_MARKETS.md:28  [1325]
+           MOVED SINCE baseline: Nov 2 owner update: matrix 19→18; dealer 3→2 on its letter, disagreement recorded. FR2004 as-of 10/21 long end $150.81
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/RECORD.md:11  [1325]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (9)
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:15  [1325]  (no unit/series context on line)
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:22  [1325]  (no unit/series context on line)
+           | 10/29 | 326 | 1325 | 194 | 332 | 89 | unpublished | unpublished | 17.20 | 2.35 |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:61  [1325]  (no unit/series context on line)
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:63  [1325]  (no unit/series context on line)
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:37  [1325]  (no unit/series context on line)
+           AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/production_commits.txt:1325  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:26  [1325]  (no unit/series context on line)
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:28  [1325]  (no unit/series context on line)
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:65  [1325]  (no unit/series context on line)
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        … +1 more 🟠 hit(s) on [1325] across 6 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (7)  [--show-handled to audit]
+
+  🔴 52 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================

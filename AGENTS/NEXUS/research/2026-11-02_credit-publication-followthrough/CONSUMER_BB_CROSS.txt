@@ -1,0 +1,145 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/NEXUS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── BB OAS observation update · superseded 194 → current 209
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (57)
+        AGENTS/LIQUID/STATUS.md:12  [194]
+           **Credit [FRED ICE first-published (`fred_fetch_vintage`), October 29 observation; pulled October30 10:53 ET, bp]:** HY 326 (+12 d/d), IG 89
+        AGENTS/LIQUID/STATUS.md:53  [194]
+           | **GATE-LIQ-069** (AI-HY re-arm, ANY 1 of 5) | 🟠 **2-of-2 FIRED unchanged [re-graded 10/29 14:57 ET, `gate069_legs.py`]** (L2 [9/26] + L5 S
+        AGENTS/LIQUID/board_log.tsv:404  [194]
+           2026-10-09T14:08:34Z	SIG-W-20261008-024	info-only	INBOX_WALTER	AI-infra financing (Broadcom/OpenAI, Oracle-Apollo/GS SPV, SpaceX $40B). VULC
+        AGENTS/HENRY/NEXUS_BRIEF.md:16  [194]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/STATUS.md:97  [194]
+           | BB OAS | 210bp | 206bp | 198bp | 187bp | 184bp | 194bp |
+        AGENTS/BOND/STATUS.md:35  [194]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/DAEDALUS/runs/2026-11-02_GATE_BASIS_SWEEP_03_BLIND_RAW.md:19  [194]
+           | GATE-LIQ-069 | Quantitative L1/L2/L4 gradeable; L3 explicitly NO_INSTRUMENT and L5 secondary-source rule declared. Saved L1 BB 194 [10/29]
+        AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CREDIT_READER.md:22  [194]
+           | `AGENTS/NEXUS/CLAUDE.md` | 69924 | 363 | `573cf81c5af677ac29aad894fbb0d8126efe68a8d2e194b6e332fbafa1c42097` | 1–69; 70–111; 112–231; 232–3
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:1580  [194]
+           ae61b0dbae420e194c0d4a1bb85e91d262350fe8 2026-09-14T19:12:51-04:00 REGINALD -> PROME: WQ-251 is MODERATED — concentrating, not migrating
+        AGENTS/DAEDALUS/runs/harness_audit_2026-10-23/READER_C.md:15  [194]
+           | AGENTS/GIBBS/CLAUDE.md | 20,423 | 194 | WHOLE (1–194; created 2026-10-14, after BASE) |
+        AGENTS/DAEDALUS/runs/harness_audit_2026-10-23/READER_C.md:157  [194]
+           ### GIBBS/CLAUDE.md — WHOLE (1–194, created 2026-10-14 after BASE)
+        AGENTS/OSPREY/workbook/KB.tsv:213  [194]
+           KB-OSPREY-207	2026-10-20	TERMINALS	Petersburg Oil Terminal (PNT), St Petersburg	Ukrainian drones struck the Petersburg Oil Terminal overnigh
+        AGENTS/VIOLET/research/2026-10-19_official-followthrough/sources/owner-RED-FALSIFICATION_TRIGGERS.tsv:3  [194]
+           RED-FT-02	HY-OAS	>	320	3	PATH-B-CONFIRM	FRED BAMLH0A0HYM2 (ICE BofA US High Yield Index OAS). Daily, percent -> bps x100. Published ~T+1; TH
+        AGENTS/CRUISE/research/2026-10-19_cushion/sources/rcl-q2.txt:1  [194]
+           rcl-20260630 0000884887 false --12-31 2026 Q2 P3D P1Y P1Y http://fasb.org/us-gaap/2026#DerivativeAssetsCurrent http://fasb.org/us-gaap/2026#
+        AGENTS/LIQUID/workbook/KB.tsv:138  [194]
+           KB-LIQ-137	2026-09-29	METHOD	HY_OAS_Vintage_Path_Is_Available_And_No_Revision_Observed_But_ALFRED_Backdates_Its_Realtime_Clock_For_ICE	ALFRE
+        AGENTS/LIQUID/analysis/2026-10-01_9-30-cell-grades-LIQ-07-trigger.md:24  [194]
+           | BB | 189 | **194** | +5 | 89.4 | **+36** | 96.8 |
+        AGENTS/LIQUID/analysis/2026-10-01_9-30-cell-grades-LIQ-07-trigger.md:44  [194]
+           | GATE-LIQ-069 L1 / L4 (side check) | BB >220 with CCC flat · HY ≥ +5 with a −15% cohort name | NOT FIRED (BB 194; HY +4). |
+        AGENTS/LIQUID/research/2026-10-14_coverage-priorities/transmission-recheck.txt:11  [194]
+           last 6 obs: 2026-10-06: 83/102/185/302/1214/303, 2026-10-07: 82/102/189/308/1229/309, 2026-10-08: 82/102/194/315/1252/315, 2026-10-09: 83/10
+        AGENTS/LIQUID/research/2026-10-30_cftc-W1/REPORT.md:42  [194]
+           Read: equity −2.4% to −3.9% against HY ETFs −0.2% to −0.25% and IG ETF flat. **Credit is lagging the equity move intraday** — the configurat
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/gate069_legs.txt:8  [194]
+           BB 194bps [obs 2026-10-29] -> BB>220? NO   (+26bp to the line)
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/REPORT.md:18  [194]
+           | BB | 184 | **194** | +10 | 96.9% |
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/REPORT.md:26  [194]
+           **TRANSMISSION by the letter** (HY ≥324 ✓ 326; BB ≥189 ✓ 194; VIX up ✓ +0.29). The coincidence branch (HY ≤314) is excluded.
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/REPORT.md:32  [194]
+           - 069: L1 NOT FIRED (BB 194, 26 under 220); L4 NOT FIRED (HY +12 but worst name IREN −8.98%). 072 QUIET (IG 89, basis 237).
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/transmission_check.txt:6  [194]
+           BB       194   +10    96.9%    29    +0    58.4%   345  784/770
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/transmission_check.txt:12  [194]
+           last 6 obs: 2026-10-22: 89/111/210/346/1340/340, 2026-10-23: 91/113/206/343/1356/338, 2026-10-26: 90/112/198/336/1345/330, 2026-10-27: 88/10
+        AGENTS/LIQUID/research/2026-10-14_credit-funding-refresh/transmission.txt:11  [194]
+           last 6 obs: 2026-10-06: 83/102/185/302/1214/303, 2026-10-07: 82/102/189/308/1229/309, 2026-10-08: 82/102/194/315/1252/315, 2026-10-09: 83/10
+        AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [194]
+           egbn-20251231 0001050441 false 2025 FY http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/CFG_Q2.txt:1  [194]
+           cfg-20260630 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-Q ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/CUBI_Q2.txt:1  [194]
+           cubi-20260630 Table of Content s UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-Q ☒ Quarterly report pursua
+        AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [194]
+           egbn-20251231 0001050441 false 2025 FY http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-
+        AGENTS/WALTER/research/2026-10-12_boot/credit-verify.md:5  [194]
+           CLAIM CHECKED: CNBC Oct 9 reportedly separates CCC-and-lower credit into 2,818bp non-performing and 461bp performing buckets, with BB 194bp
+        AGENTS/WALTER/research/2026-10-12_boot/credit-verify.md:13  [194]
+           SUPPORTING OBSERVATION / ALREADY-OURS: LIQUID current STATUS lines 8–10 already carries BB 194, CCC 1,252, HY 315 through Oct 8 and discusse
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-3.md:76  [194]
+           **Credit ladder [FRED ICE BofA OAS, obs 10/8, LATEST-REVISED via `transmission_check.py` 10/9 ~10:0x ET; first-published NOT re-checked this
+        AGENTS/WALTER/research/2026-10-12_resume-2057/headers-3.md:196  [194]
+           | **M-09** | AI → capex-correction, CREDIT + POWER faces | R4+R7 — SCORE-ONCE | **69%** | **—** | 09-29 | HELD. VULCAN composite **15/25**,
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/NEXUS_BRIEF-before.md:15  [194]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:65  [194]
+           | BB OAS | 210bp | 206bp | 198bp | 187bp | 184bp | 194bp |
+        AGENTS/HENRY/research/2026-11-02_L888/NEXUS_BRIEF-before.md:16  [194]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:83  [194]
+           | BB OAS | 210bp | 206bp | 198bp | 187bp | 184bp | 194bp |
+        AGENTS/HENRY/research/2026-10-22_L769/src/aal-q2-ex99.txt:1  [194]
+           EX-99.1 2 a8kerexhibit991q2-26.htm EX-99.1 Document Exhibit 99.1 Corporate Communications mediarelations@aa.com Investor Relations investor.
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/exhibit-17-mos-sulfur.txt:2  [194]
+           “This study not only highlights the progress we’ve made but also informs future strategies to further enhance the genetic health of transloc
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/ADM-2026-08-04-0000007084-26-000042.txt:1  [194]
+           adm-20260630 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D. C. 20549 FORM 10-Q ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR
+        AGENTS/BROCK/workbook/KB.tsv:183  [194]
+           KB-BRK-194	2026-07-27	AI_CREDIT	Goldman Sachs / JPMorgan AI-credit baskets	Goldman and JPMorgan each launched tradeable and SHORTABLE AI-cre
+        AGENTS/BROCK/research/2026-10-14_wave/fsk_q1.txt:1  [194]
+           fsk-20260331 Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 _____________________________________
+        AGENTS/BROCK/research/2026-10-14_wave/fsk_amendment_current.txt:1  [194]
+           EX-10.1 2 exhibit101fskkr-amendmentn.htm EX-10.1 Exhibit 10.1 FSKKR - Amendment No. 1 to Third AR Credit Agreement Execution Version AMENDME
+        AGENTS/BROCK/research/2026-10-14_wave/fsk_amendment.txt:1  [194]
+           EX-10.1 2 exhibit101fskkr-amendmentn.htm EX-10.1 Exhibit 10.1 FSKKR - Amendment No. 1 to Third AR Credit Agreement Execution Version AMENDME
+        AGENTS/RED/workbook/ML.tsv:279  [194]
+           ML-RED-278	2026-10-09	S51	RED-FT-02 (HY>320 s=3)	OBSERVATION	FT-02 graded 0 of 3 at the 10/8 obs, NOT FIRED; max run 1 (324 on 10/1), reset
+        AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv:3  [194]
+           RED-FT-02	HY-OAS	>	320	3	PATH-B-CONFIRM	FRED BAMLH0A0HYM2 (ICE BofA US High Yield Index OAS). Daily, percent -> bps x100. Published ~T+1; TH
+        AGENTS/RED/reports/2026-10-09_S51_weight_rederivation.md:16  [194]
+           | BB / B / CCC | 194 / 316 / 1,179 | **194 / 315 / 1,252** [10/8] | 0 / −1 / **+73** | the widening since 9/30 is **CCC only**; BB and B fla
+        AGENTS/FALCON/research/2026-10-26_evening-sweep/jmic-lead.txt:1  [194]
+           JMIC Update 108 keeps Hormuz severe and logs the Limah hit as an LPG tanker – REGULAS SHIPPING BLOGS Skip to content Today: Monday, October
+        AGENTS/BOND/workbook/KB.tsv:526  [194]
+           KB-BND-525	2026-11-02	RATES	US curve / credit / funding refresh 10/29–10/30	Treasury par 10/30: 2Y 4.56, 5Y 4.71, 10Y 4.94, 20Y 5.34, 30Y 5.
+        AGENTS/VULCAN/reports/2026-10-26_financing/sources/anthropic-s1.txt:1  [194]
+           S-1 1 anthropicpbc-sx1.htm S-1 Anthropic, PBC - S-1 (Q2) As filed with the Securities and Exchange Commission on October 26, 2026. Registrat
+        PROME/GATES.tsv:4  [194]
+           GATE-LIQ-069	2026-07-06	LIQUID	AI-HY cohort re-arm, ANY ONE of 5 legs: BB>220-while-CCC-flat [RULED 9/1 WQ-114, prospective: flat = |5-sessi
+        PROME/HEARTBEAT_COLD.md:841  [194]
+           - **ICE BofA cells:** 9/29 — HY 308 · BB 189 · B 316 · CCC 1,157 · IG 84 · BBB 102 · HY yield 8.08. 9/30 (first-published, FRED cache-busted
+        PROME/HEARTBEAT_COLD.md:1042  [194]
+           - **ICE [10/8 cells]: HY 315 · CCC 1,252 (window high) · IG 82 · BB 194 · B 315.** Both owners' >320 counts **0 of 3** at the 10/8 cell — th
+        PROME/state/board_consumed.tsv:1815  [194]
+           SIG-W-20261029-015-q3-gdp-3point4-september-pce-3point6-core-3point1-yoy-claims-194k-late-card	O	5c72fd4964a9eebb7f870cd1f47b19a2ca723c33
+        BOARD/SIG-W-20261012-002-ccc-performing-nonperforming-split-relay-basis-unresolved.md:29  [194]
+           **New input:** this composition may help interpret the concentrated bottom-tier stress already in LIQUID’s record. It does not establish con
+        BOARD/SIG-W-20261001-005-liquid-LIQ-07-stress-spreading-trigger-FIRED-9-30-single-B-plus-36bp-ccc-plus-115-over-15-sessions-HALF-RESOLVED-funding-loop-vs-ordinary-repricing-open-to-10-15.md:37  [194]
+           **Ladder, 9/30:** IG 84 · BBB 103 · **BB 194 (15-session +36, 96.8th pct)** · B 316 · CCC 1,179 · **HY 312**. IG and BBB have NOT broadened
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (940)
+        AGENTS/CORAL/STATUS_DETAIL.md:1397  [194]  (no unit/series context on line)
+           `citizensfla.com/-/20260930-policies-in-force` ("Current Policy Count as of September 30, 2026 — Policies in Force: 254,836; Total Exposure
+        AGENTS/LABOR/NEXUS_BRIEF.md:44  [194]  (no unit/series context on line)
+           - **The freeze holds; the realization channel is quiet.** Claims 194K (band B; MA 196,750, lowest since Oct 1969 on FRED's current vintage —
+        AGENTS/LABOR/CLAUDE.md:88  [194]  (no unit/series context on line)
+           C2. **Resolve predictions + sync catalysts.** Resolve every prediction flagged at B4 — resolve (✅/❌), re-arm-with-reason, or push-date-with-
+        AGENTS/LABOR/STATUS.md:3  [194]  (no unit/series context on line)
+           **Status:** 🟠 **LOW-FIRE / LOW-HIRE — the flow side turned (JOLTS NET >0 two months).** Claims 194K / MA 196,750 · CC 1,701K (v13 1, v7 2; r
+        AGENTS/OSPREY/STATUS.md:35  [194]  (no unit/series context on line)
+           L544 NOT MET (KB-196) · L666 open (KB-194) · OSP-06 CONFIRMED (KB-197) · energy pause 10/11–14 (KB-195) · diesel partial permission (KB-198)
+        AGENTS/OSPREY/board_log.tsv:122  [194]  (no unit/series context on line)
+           2026-10-15T12:17Z	2026-10-14_from-PROME_L544-L666-OSP06-wake-brief.md	acted	INBOX_PROME	Executed 10/15 via the crash-recovery spawn: L544 NO
+        AGENTS/VIOLET/board_log.tsv:173  [194]  (no unit/series context on line)
+           2026-09-28T21:57:33-04:00	2026-09-28_from-PROME_WQ-333-RULED-pointer-form	acted	INBOX_ROOT	Will's WQ-333 word verified at 72bc48beb + WILL_Q
+        AGENTS/WAL/THESIS.md:382  [194]  (no unit/series context on line)
+           > 🧊 **Q1 (Slide 17) record, bannered 2026-09-28.** Live guide = the Q2 revision (KB-117: NII +12-14% incl. the Sept hike — delivered 9/16; f
+        … +932 more 🟠 hit(s) on [194] across 361 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (2: TERRY)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (113)  [--show-handled to audit]
+
+  🔴 57 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================

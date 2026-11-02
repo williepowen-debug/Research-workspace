@@ -1,0 +1,18 @@
+[
+  {
+    "series": "BAMLH0A0HYM2",
+    "read_started_at": "2026-11-02T11:02:04-05:00",
+    "read_completed_at": "2026-11-02T11:02:05-05:00",
+    "basis": "MIRROR-WALLED / latest-revised comparison",
+    "differences": [],
+    "rows": 25
+  },
+  {
+    "series": "BAMLH0A3HYC",
+    "read_started_at": "2026-11-02T11:02:04-05:00",
+    "read_completed_at": "2026-11-02T11:02:05-05:00",
+    "basis": "MIRROR-WALLED / latest-revised comparison",
+    "differences": [],
+    "rows": 25
+  }
+]

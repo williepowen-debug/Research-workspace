@@ -1,0 +1,7 @@
+# FROZEN 2026-11-02 — dated credit follow-through; STATUS/PREDICTIONS are current authority.
+test	before	after	result	next_existing_condition
+L16	8 cells; UP 0/3; DOWN 0	9 cells; UP 1/3; DOWN 0	NOT-FIRED	Two more HY>=339 cells; DOWN three future HY<=319, completing CCC<=1310
+M-01	HY 326; UP 0; DOWN 0	HY 344; UP 0; DOWN 0	NOT-FIRED	HY>=350 twice plus latest first-print claims<=215000
+M-07	IG 89; DOWN 0/2	IG 94; DOWN 1/2	NOT-FIRED	Another qualifying IG>=93 would reduce79->75
+M-08b	B 332 CCC 1325; runs 0	B 360 CCC 1327; full runs 0	NOT-FIRED	Same two cells B>=358 AND CCC>=1416
+L13	Carried DFII10 count 10 DOWN 2/5; HY 326 context	No yield refresh; HY 344 context >331	NOT-FIRED	Actual fire-date HY governs any later mechanism grade

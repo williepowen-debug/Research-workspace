@@ -1,0 +1,373 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/NEXUS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── HY OAS observation update · superseded 326 → current 344
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (171)
+        AGENTS/VIOLET/SCRATCH.md:34  [326]
+           - LIQUID owns HY (326bp 10/29 per WALTER); HENRY owns gamma (NEGATIVE, 10/29 close) and equity; VULCAN single-name substance; SAM owns BOJ.
+        AGENTS/VIOLET/board_log.tsv:259  [326]
+           2026-10-30T20:45:35+00:00	SIG-W-20261030-002	noted	INBOX_WALTER	INFO card (14:21 ET tape: SPX 7,548.35 -2.23%, QQQ 685.83, VIX 22.03 intrada
+        AGENTS/LIQUID/STATUS.md:12  [326]
+           **Credit [FRED ICE first-published (`fred_fetch_vintage`), October 29 observation; pulled October30 10:53 ET, bp]:** HY 326 (+12 d/d), IG 89
+        AGENTS/LIQUID/STATUS.md:16  [326]
+           **Credit persistence:** first-published >320 run **ENDED: 9 cells** 325/323/331/329/333/327/340/338/330 [October 14–26], then **318 [October
+        AGENTS/LIQUID/STATUS.md:50  [326]
+           | **GATE-HY-REKILL** (<260bp strictly, ×2 consecutive published closes, as-first-published; **TERMINAL on fire**) | **NOT FIRED 0-of-2 [grad
+        AGENTS/LIQUID/board_log.tsv:688  [326]
+           2026-10-30T15:40:44-04:00	SIG-W-20261030-002	noted	INBOX_WALTER	LIQUID prome-c5 CFTC-W1 wake 10/30. Tech sell-off tape (S&P -2.2%, QQQ -4.1%
+        AGENTS/REGINALD/NEXUS_BRIEF.md:3  [326]
+           **Status:** Concentrated bank risk. HY re-widened to 326bp [10/29] from 314 [10/28] (REG-T-03 already FIRED; REG-T-04 never fired, peak 340)
+        AGENTS/REGINALD/MEMORY.md:28  [326]
+           - **Boot only, no new research** (Will: no unassigned work). Tape to settled Fri 10/30 (two routes agree): WAL $76.29, KRE $72.01; FLG $10.5
+        AGENTS/REGINALD/MEMORY.md:60  [326]
+           4. **HY:** grade each FRED print for the REG-T-03 exit run (≤300 ×5; 326 [10/29]). CCC/HY escalates only on a CCC-led re-cross. REG-T-02 log
+        AGENTS/REGINALD/ROADMAP.md:82  [326]
+           **11/02 boot (Will-launched, close-out only):** tape to settled 10/30 (WAL $76.29, KRE $72.01), FRED to 10/29 (HY 326, back above 320, no st
+        AGENTS/REGINALD/STATUS.md:109  [326]
+           | HY OAS | >320 (`REG-T-03`) · >350 (`REG-T-04`) | **326bp** [FRED 10/29, retrieved 11/02 09:16 ET]; 314 [10/28]; 318 [10/27]; 330 [10/26];
+        AGENTS/REGINALD/STATUS.md:110  [326]
+           | **CCC/HY ratio** | >3.6× (3 consec) | **4.06×** [CCC 1,325 / HY 326, FRED 10/29]; 4.16× [10/28]; 4.15× [10/27] | HARD-FIRE continues. 10/2
+        AGENTS/WALTER/SESSION_LOG.md:544  [326]
+           Will-launched boot 14:08 ET (PARTIAL: owner-header registry refresh for 11 desks; HANS/CREED event legs not graded). Threshold scan 10/30: H
+        AGENTS/WALTER/STATUS.md:23  [326]
+           | Night boot (November 1 01:02–01:04Z; observation dates retained) | HY 326/CCC 1325/VIXCLS 17.20/SOFR-IORB+4bp [Oct29]; T5YIFR 2.22/SKEW 14
+        AGENTS/WALTER/STATUS.md:25  [326]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/STATUS.md:26  [326]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/HENRY/NEXUS_BRIEF.md:7  [326]
+           - **Breadth — L616 study (dated 10/31, on Friday 10/30 closes):** Friday was narrow at the index level: 55.1% of S&P 500 members fell (media
+        AGENTS/HENRY/NEXUS_BRIEF.md:16  [326]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/STATUS.md:34  [326]
+           **Answer to WALTER's question (index mechanics vs something credit/rates do not show):** index mechanics on a concentrated repricing. QQQ −3
+        AGENTS/HENRY/STATUS.md:96  [326]
+           | HY OAS | **340bp** | 338bp | 330bp | 318bp | 314bp | **326bp** |
+        AGENTS/HENRY/STATUS.md:101  [326]
+           **10/29 add:** HY +12bp to 326 ⇒ back over the 320 yellow line, on the day equities fell only −0.30%: credit moved a session before the equi
+        AGENTS/HENRY/STATUS.md:109  [326]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/HENRY/STATUS.md:111  [326]
+           **Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 326 [10/29]
+        AGENTS/HENRY/STATUS.md:127  [326]
+           | HY OAS | **326bp [FRED 10/29]** | >320 / >400 / >500 | **YELLOW** (6bp over; was 314 NOT FIRED on 10/28) |
+        AGENTS/HENRY/STATUS.md:132  [326]
+           | HY kill observable | 326bp [FRED 10/29] | <290 / <270 / <260 ×5 | NOT FIRED |
+        AGENTS/BROCK/STATUS.md:17  [326]
+           | Mon 10/5 → | HY >320 ×3 (RED-FT-02 / REG-T-03) — **LIQUID rung MET: 325/323/331, 331 [10/16] (WALTER SIG-W-20261019-003); RED/REGINALD own
+        AGENTS/BROCK/STATUS.md:91  [326]
+           - ~~HY OAS <260bps for 10+ sessions~~ **RETIRED AS A KILL 9/2 (WQ-106).** The registry 2-close **GATE-HY-REKILL** is the kill (LIQUID owns s
+        AGENTS/TERRY/STATUS.md:16  [326]
+           > - **Card states 10/31:** QQQ now a NAKED LONG 690P ×2 (670P short bought back 10/30 @ $8.00, +$141.30; PROME D-93): spread harvest lapsed;
+        AGENTS/TERRY/board_log.tsv:114  [326]
+           2026-10-31T14:08:52-04:00	SIG-W-20261030-002	superseded	BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-755
+        AGENTS/BOND/NEXUS_BRIEF.md:8  [326]
+           - **Credit → KB-BND-525:** HY 326 [10/29], 24bp under 350; CCC 1325. Credit-equity band not touched since the one-session 10/22 letter.
+        AGENTS/BOND/SCRATCH.md:3  [326]
+           > STATE AT WRITING: Composite **18/35** (5+4+2+3+1+1+2; was 19). Clean-nominal counter 3 (WQ-536 A); downgrade graded after the 11/4 QRA, au
+        AGENTS/BOND/STATUS.md:17  [326]
+           **Credit: the index is drifting back toward 350.** HY 314 [10/28] → 326 [10/29], 24bp under 350; CCC 1325, near its 3-year-window high (1356
+        AGENTS/BOND/STATUS.md:35  [326]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/BOND/STATUS.md:63  [326]
+           | HY marker / lead | HY 326 [10/29] >300; 24bp below 350; lead band 338–363 touched one session 10/22 |
+        AGENTS/BOND/STATUS.md:76  [326]
+           | 4 | HY function VX-BND-02 / VX-BND-11 | 3 | 🟠 | HY 326 [10/29]; CCC 1325 | HY >350 or verified pulled-deal cluster |
+        AGENTS/VULCAN/LESSONS.md:79  [326]
+           | L-85 | 2026-10-29 | Pre-stated tests written at two dates can disagree at grading. The 10/15 CATALYSTS wording (order cuts on memory cost)
+        AGENTS/VULCAN/THESIS.md:38  [326]
+           *2026-10-29 (no stage state changed) [KB-326/327]:* the registered hynix/Samsung test graded AMBIGUOUS (consumer-only). No server order cuts
+        AGENTS/VULCAN/SCRATCH.md:41  [326]
+           - Memory test graded on the 10/23 refinement. Near miss on the 10/15 wording recorded (KB-326, L-85). Transcripts are T2; hynix figures at t
+        AGENTS/VULCAN/STATUS.md:29  [326]
+           | **S2** | Memory cycle | **2 🟡** | 🆕 **10/29: pre-stated hynix/Samsung test GRADED — AMBIGUOUS (consumer-only), S2 stays 2 [KB-326].** No s
+        AGENTS/VULCAN/board_log.tsv:209  [326]
+           2026-10-29T13:34:29-04:00	SIG-W-20261029-025	acted	INBOX_WALTER	Meta upsize and financing composition checked vs KB-319/322 (consistent); SK
+        AGENTS/DAEDALUS/runs/2026-11-02_GATE_BASIS_SWEEP_03_BLIND_RAW.md:18  [326]
+           | GATE-HY-REKILL | Defined, reproducible two-observation test. Saved 10/29 326 bp resets to 0; no 10/30 first-publication cell read here, so
+        AGENTS/DAEDALUS/runs/2026-10-30_FALSIFICATION_SWEEP_05/R1_FLAGS_BUCKETS.md:12  [326]
+           | **LIQUID** `KILL_MEMO_HY_OAS_260.md` | **REAL-STALE (1 cell)** · gate definition surface | `:63` hold band "CURRENT band — no rung active"
+        AGENTS/DAEDALUS/runs/2026-10-30_FALSIFICATION_SWEEP_05/R1_FLAGS_BUCKETS.md:41  [326]
+           - **REAL-STALE cell:** `:63` "HY OAS 270–280 (hold band) | 🟢 cushion | **CURRENT band — no rung active** (live bps → boot.py)". Live: HY **3
+        AGENTS/DAEDALUS/runs/2026-10-30_FALSIFICATION_SWEEP_05/R1_FLAGS_BUCKETS.md:127  [326]
+           | **LIQUID** | Run-#4 ask still open: the hold-band row still says "CURRENT band — no rung active" while HY is 326 [10/29] on the >320 row.
+        AGENTS/OTTO/research/2026-10-19_L708/sources/OMF-latest-10Q.txt:1  [326]
+           omf-20260630 0001584207 0000025598 FALSE FALSE 12/31 12/31 2026 2026 Q2 Q2 P3Y P3Y P2Y 1 xbrli:shares iso4217:USD iso4217:USD xbrli:shares x
+        AGENTS/OTTO/research/2026-10-19_L708/sources/WRLD-latest-10Q.txt:1  [326]
+           wrld-20260630 0000108385 3/31 2027 Q1 False xbrli:shares iso4217:USD iso4217:USD xbrli:shares xbrli:pure wrld:state wrld:segment wrld:portfo
+        AGENTS/VIOLET/workbook/KB.tsv:364  [326]
+           KB-VIO-363	2026-10-30	VOL	VIX	OFFICIAL 10/30 close grade of the KB-VIO-362 intraday move and WALTER FLASH SIG-W-20261030-004: the close UN-F
+        AGENTS/CRUISE/research/2026-10-19_cushion/sources/rcl-q2.txt:1  [326]
+           rcl-20260630 0000884887 false --12-31 2026 Q2 P3D P1Y P1Y http://fasb.org/us-gaap/2026#DerivativeAssetsCurrent http://fasb.org/us-gaap/2026#
+        AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md:227  [326]
+           | **2026-10-30 10:5x ET (grade); 10/29 obs** | **None fired — new >320 run 1-of-3 (WQ-444)** | HY **326bp [10/29] first-published** (FRED vi
+        AGENTS/LIQUID/research/2026-10-19_morning/transmission.txt:11  [326]
+           last 6 obs: 2026-10-09: 83/102/188/310/1253/311, 2026-10-12: 83/102/188/310/1253/311, 2026-10-13: 83/103/191/317/1267/316, 2026-10-14: 84/10
+        AGENTS/LIQUID/research/2026-10-30_cftc-W1/REPORT.md:42  [326]
+           Read: equity −2.4% to −3.9% against HY ETFs −0.2% to −0.25% and IG ETF flat. **Credit is lagging the equity move intraday** — the configurat
+        AGENTS/LIQUID/research/2026-10-30_cftc-W1/REPORT.md:50  [326]
+           | SIG-W-20261030-002 tech sell-off | noted | Tape context for §3; HY 326 [10/29] unchanged; no LIQUID leg moved. |
+        AGENTS/LIQUID/research/2026-10-30_cftc-W1/boot_1538.txt:8  [326]
+           🔴 HY OAS       326bps               HY >320 — CONFIRMATION rung 1-of-3 (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-pub
+        AGENTS/LIQUID/research/2026-10-30_cftc-W1/boot_1538.txt:43  [326]
+           🔴 HY OAS last red 326bps (obs 2026-10-29, checked 2026-10-30 13:00 )  ⚠️ ELEVATED — check alerts/HY_OAS_ALERTS.log
+        AGENTS/LIQUID/research/2026-10-30_cftc-W1/boot_1538.txt:47  [326]
+           Headline: HY OAS 326bps — HY >320 — CONFIRMATION rung 1-of-3 (WQ-444: 3 consecutive >320.0; witness on FRED rows, STATUS first-published cou
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/REPORT.md:17  [326]
+           | HY | 314 | **326** | +12 | 97.2% |
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/REPORT.md:26  [326]
+           **TRANSMISSION by the letter** (HY ≥324 ✓ 326; BB ≥189 ✓ 194; VIX up ✓ +0.29). The coincidence branch (HY ≤314) is excluded.
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/REPORT.md:31  [326]
+           - HY >320 run: 326 ⇒ new run **1-of-3**; earliest MET = the 11/2 cell. Rekill 0-of-2. REG-T-04 own witness 0 of 3.
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/transmission_check.txt:9  [326]
+           HY       326   +12    97.2%    27   +11    77.1%   186  784/770
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/transmission_check.txt:12  [326]
+           last 6 obs: 2026-10-22: 89/111/210/346/1340/340, 2026-10-23: 91/113/206/343/1356/338, 2026-10-26: 90/112/198/336/1345/330, 2026-10-27: 88/10
+        AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [326]
+           egbn-20251231 0001050441 false 2025 FY http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-
+        AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_deck.txt:1  [326]
+           EX-99.2 3 final-2q2026egbnearnings.htm EX-99.2 final-2q2026egbnearnings 2nd Quarter 2026 Earnings Presentation EagleBankCorp.com July 22, 20
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/HBAN_Q2.txt:1  [326]
+           hban-20260630 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-Q ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/BKU_Q2.txt:1  [326]
+           bku-20260630 UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-Q ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR
+        AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [326]
+           egbn-20251231 0001050441 false 2025 FY http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-
+        AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/Q2_2026_deck.txt:1  [326]
+           EX-99.2 3 final-2q2026egbnearnings.htm EX-99.2 final-2q2026egbnearnings 2nd Quarter 2026 Earnings Presentation EagleBankCorp.com July 22, 20
+        AGENTS/WALTER/routed/route_log.tsv:1468  [326]
+           2026-10-16T14:42:02Z	SIG-W-20261016-001	WALTER direct FRED fredgraph CSV pulls 2026-10-16 ~13:10Z (absent) + ~14:40Z (10/15 cell present, fi
+        AGENTS/WALTER/routed/route_log.tsv:1866  [326]
+           2026-10-30T18:22:22Z	SIG-W-20261030-002	WALTER tape pull (FORGE vendor + FRED) + Investing.com 10/30	Tech sell-off intraday 10/30: S&P 7,548
+        AGENTS/WALTER/research/2026-10-31_x-review/prior-LAST_COMPLETION.md:17  [326]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/WALTER/research/2026-10-31_x-review/prior-STATUS.md:14  [326]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/research/2026-10-31_x-review/prior-STATUS.md:15  [326]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_boot-repair/prior-STATUS.md:14  [326]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/research/2026-10-31_boot-repair/prior-STATUS.md:15  [326]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_evening-boot/prior-LAST_COMPLETION.md:21  [326]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/WALTER/research/2026-10-31_evening-boot/prior-STATUS.md:14  [326]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/research/2026-10-31_evening-boot/prior-STATUS.md:15  [326]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_evening-boot/THRESHOLD-SCAN.md:13  [326]
+           | FT01 | HY326bp [10/29]; <280 run0/3; no fire. |
+        AGENTS/WALTER/research/2026-10-31_evening-boot/THRESHOLD-SCAN.md:24  [326]
+           | FT12 | HY326bp [10/29]; <260 run0/3. |
+        AGENTS/WALTER/research/2026-10-31_evening-boot/THRESHOLD-SCAN.md:34  [326]
+           | T03 | HY326 [10/29], reentry1/3, existing fire remains, exit <=300 run0/5. |
+        AGENTS/WALTER/research/2026-10-31_evening-boot/THRESHOLD-SCAN.md:35  [326]
+           | T04 | HY326 is24bp/6.86% below350; no fire/near-watch. |
+        AGENTS/WALTER/research/2026-10-30_boot/THRESHOLD-SCAN.md:7  [326]
+           | HY OAS, FRED BAMLH0A0HYM2 | **326 bp [October 29]**, first-published 10/29; prior 314 [10/28] = +12 bp (safety net >25 bp single session N
+        AGENTS/WALTER/research/2026-10-31_queue/prior-LAST_COMPLETION.md:19  [326]
+           **Tape 10/30 and owner grades:** vendor VIX touched 22.33 at 14:28 ET (+5.13, FLASH 004), closed ~20.8; HENRY L885 graded the SPX 7,700 put
+        AGENTS/WALTER/research/2026-10-30_session-close/prior-LAST_COMPLETION.md:15  [326]
+           **Tape 10/30:** tech sell-off on Intel (−28.6%), Amazon and AI-capex worries; vendor VIX touched 22.33 at 18:28:53Z (+5.13 vs 17.20, FLASH 0
+        AGENTS/WALTER/research/2026-10-31_night-boot/THRESHOLD-SCAN.md:9  [326]
+           | RED FT01/02/12; REG T03/04 | HY 326 bp October 29, after 314/318/330/338. Existing FT02/T03 fire holds; exits 0/3 and 0/5. T04 has no new
+        AGENTS/WALTER/research/2026-10-16_finish/route_log-context.txt:84  [326]
+           2026-10-16T14:42:02Z	SIG-W-20261016-001	WALTER direct FRED fredgraph CSV pulls 2026-10-16 ~13:10Z (absent) + ~14:40Z (10/15 cell present, fi
+        AGENTS/WALTER/research/2026-10-16_finish/prior-STATUS.md:16  [326]
+           | Credit | **FRED HY 323 bp [10/15, first-published, pulled ~14:40Z 10/16]** after 325 [10/14], 316 [10/13] — **RED-FT-02 2-of-3 · REG-T-03
+        AGENTS/WALTER/research/2026-10-31_full-closeout/prior-LAST_COMPLETION.md:19  [326]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/WALTER/research/2026-10-31_full-closeout/prior-STATUS.md:14  [326]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/research/2026-10-31_full-closeout/prior-STATUS.md:15  [326]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_followthrough/VERIFY-RED.md:19  [326]
+           | RED-FT-01 | HY 326 bp, obs 10/29; fire <280 for 3 sessions; current run 0/3 | ARMED, no new fire. Prior round trip already closed by owner
+        AGENTS/WALTER/research/2026-10-31_followthrough/VERIFY-RED.md:30  [326]
+           | RED-FT-12 | HY 326 bp [10/29]; <260 for 3 sessions run 0/3 | ARMED, no new fire. |
+        AGENTS/WALTER/research/2026-10-31_followthrough/intake-scan.txt:14  [326]
+           fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=326.0 [red])
+        AGENTS/WALTER/research/2026-10-31_followthrough/intake-scan.txt:15  [326]
+           fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=326bps [red] >=280 X1-trigger breach (LIQUID half )
+        AGENTS/WALTER/research/2026-10-31_followthrough/prior-STATUS.md:14  [326]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_followthrough/VERIFY-CREDIT.md:15  [326]
+           | REG-T-03 | HY > 320 bp ×3 sessions; exit ≤ 300 ×5 | October 29 HY 326 bp, preceded by 314 [Oct28] / 318 [Oct27]. New >320 run is only 1/3,
+        AGENTS/WALTER/research/2026-10-31_followthrough/VERIFY-CREDIT.md:16  [326]
+           | REG-T-04 | HY > 350 bp ×3; exit ≤330 ×5 | October29 326 bp, run0/3; 24 bp / 6.86% below entry, outside5% near-watch. Existing never-fired
+        AGENTS/WALTER/research/2026-11-02_boot/BOOT-RECEIPT.md:13  [326]
+           | 6c | `observations.json` 14:14Z. FRED HY 326 bp [Oct 29] — October 30 not yet published; FT-02/REG-T-03 fired state holds, exits 0/3 and 0
+        AGENTS/ZHAO/workbook/KB.tsv:172  [326]
+           KB-ZHAO-171	2026-09-18	UST_FOREIGN	China	🔴 **THE CHINA-US 10Y YIELD GAP SET A RECORD ON 2026-09-10 AND HAS WIDENED SINCE — AND ZHAO HAS NO I
+        AGENTS/HENRY/workbook/KB.tsv:166  [326]
+           ML-HEN-193	2026-10-30	L885-postclose-1030	SPX/QQQ/NDX	GAMMA	10/30 close graded against the 10/29 negative-gamma state: SPX put wall 7,700 BR
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/NEXUS_BRIEF-before.md:15  [326]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:30  [326]
+           **Answer to WALTER's question (index mechanics vs something credit/rates do not show):** index mechanics on a concentrated repricing. QQQ −3
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:64  [326]
+           | HY OAS | **340bp** | 338bp | 330bp | 318bp | 314bp | **326bp** |
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:69  [326]
+           **10/29 add:** HY +12bp to 326 ⇒ back over the 320 yellow line, on the day equities fell only −0.30%: credit moved a session before the equi
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:77  [326]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:79  [326]
+           **Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 326 [10/29]
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:95  [326]
+           | HY OAS | **326bp [FRED 10/29]** | >320 / >400 / >500 | **YELLOW** (6bp over; was 314 NOT FIRED on 10/28) |
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:100  [326]
+           | HY kill observable | 326bp [FRED 10/29] | <290 / <270 / <260 ×5 | NOT FIRED |
+        AGENTS/HENRY/research/2026-11-02_L888/NEXUS_BRIEF-before.md:7  [326]
+           - **Breadth — L616 study (dated 10/31, on Friday 10/30 closes):** Friday was narrow at the index level: 55.1% of S&P 500 members fell (media
+        AGENTS/HENRY/research/2026-11-02_L888/NEXUS_BRIEF-before.md:16  [326]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:32  [326]
+           **Answer to WALTER's question (index mechanics vs something credit/rates do not show):** index mechanics on a concentrated repricing. QQQ −3
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:82  [326]
+           | HY OAS | **340bp** | 338bp | 330bp | 318bp | 314bp | **326bp** |
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:87  [326]
+           **10/29 add:** HY +12bp to 326 ⇒ back over the 320 yellow line, on the day equities fell only −0.30%: credit moved a session before the equi
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:95  [326]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:97  [326]
+           **Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 326 [10/29]
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:113  [326]
+           | HY OAS | **326bp [FRED 10/29]** | >320 / >400 / >500 | **YELLOW** (6bp over; was 314 NOT FIRED on 10/28) |
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:118  [326]
+           | HY kill observable | 326bp [FRED 10/29] | <290 / <270 / <260 ×5 | NOT FIRED |
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/exhibit-11-CPRT.txt:1  [326]
+           EX-99.1 2 cprt-ex99_1.htm EX-99.1 EX-99.1 Exhibit 99.1 Copart, Inc. For Immediate Release Copart Reports Fourth Quarter Fiscal 2026 Financia
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/ADM-issuer-q2.txt:1  [326]
+           ADM-Reports-Second-Quarter-2026-Results | ADM Jump To Header Jump To Main Content Jump To Footer Contact Us Customer Login Procurement Inves
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/ADM-2026-08-04-0000007084-26-000042.txt:1  [326]
+           adm-20260630 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D. C. 20549 FORM 10-Q ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/exhibit-05-ADM.txt:1  [326]
+           EX-99.1 2 adm-ex991_20260630xq2.htm EX-99.1 Document Exhibit 99.1 ADM Reports Second Quarter 2026 Results Reports second quarter 2026 EPS 2
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/CPRT-2026-09-29-0001193125-26-405731.txt:1  [326]
+           10-K Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K (Mark One) ☒ ANNUAL REPORT PURSUANT
+        AGENTS/OZK/workbook/KB.tsv:275  [326]
+           KB-OZK-267	2026-10-28	GEOGRAPHY	Problem_Metros_Share_Rising_Q3_26	RESG commitments Q1-25 -> Q3-26: book -22.3% ($32.7B -> $25.4B) but the si
+        AGENTS/BROCK/catchups/2026-10-31.md:5  [326]
+           Runtime: Claude Code, model Opus 5.5 (`claude-opus-5-5`), spawned by PROME (prome-34, laptop) as an Agent-tool desk; own session ID not expo
+        AGENTS/BROCK/trade/TRIGGER_LADDER.md:12  [326]
+           | 2 | ~~HY OAS <260 for 10+ sessions~~ | **Observable only, not a kill** (WQ-106, 9/2). The kill is LIQUID's 2-close `GATE-HY-REKILL`. HY 32
+        AGENTS/BROCK/trade/TRIGGER_LADDER.md:30  [326]
+           - **Last run 2026-08-28: 0 of 3 reversed** (① first-ever 5% gate, Q3 cap held, NA 2.4→2.2% but distribution cut 10% and NAV −2.23% · ② FSK N
+        AGENTS/BROCK/research/2026-10-14_wave/fsk_q1.txt:1  [326]
+           fsk-20260331 Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 _____________________________________
+        AGENTS/BROCK/research/2026-10-14_wave/fsk_10q.txt:1  [326]
+           fsk-20260630 Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 _____________________________________
+        AGENTS/CARL/workbook/KB.tsv:323  [326]
+           KB-CARL-326	2026-07-12	CONSUMER_CREDIT	NY_Fed_Q1_HHDC_Credit_Supply	Credit supply still EXPANDING in Q1-2026: aggregate CC limits +$60B (+1.
+        AGENTS/FALCON/research/2026-10-26_evening-sweep/navarea-list.txt:1  [326]
+           NAVAREA IX WARNINGS – National Hydrographic Office Pakistan Have any questions? +92 -21 – 99201623 [email protected] HOME MESSAGE OF HoP MIS
+        AGENTS/TERRY/setups/CREDIT_hyg-jan15-77-74P_or_htgc-16P_REG-T-04_2026-10-23.md:6  [326]
+           > **TRIGGER STATE 2026-10-31 (TERRY, written 14:04 EDT from `date`): NOT FIRED; VOID line 4 of 5.** HY OAS (FRED BAMLH0A0HYM2 via `fetch.py
+        AGENTS/TERRY/research/2026-10-31_trade-ideas/REPORT.md:71  [326]
+           - **HYG (`IDEA-CREDIT-HYG-BDC-OCT23`):** NOT FIRED; void 4 of 5 (330/318/314/326); the 10/30 FRED cell decides Monday; leg (b) HTGC withdraw
+        AGENTS/TERRY/research/2026-11-02_WQ590-week-ideas/REPORT.md:21  [326]
+           | LIQUID October 30 STATUS / DTCC read | Reject a generic new-credit-crash card | HY 326 bp [October 29] is new >320 run 1 of 3, REG-T-04 0
+        AGENTS/BOND/workbook/KB.tsv:526  [326]
+           KB-BND-525	2026-11-02	RATES	US curve / credit / funding refresh 10/29–10/30	Treasury par 10/30: 2Y 4.56, 5Y 4.71, 10Y 4.94, 20Y 5.34, 30Y 5.
+        AGENTS/BOND/workbook/VX.tsv:8  [326]
+           VX-BND-07	Credit-Equity Lead Timing	HY 326 [10/29] = +63bp over the 263 trough, below the 338–363 red band, after the one-session red letter
+        AGENTS/HAWK/workbook/FLOW.tsv:9  [326]
+           FLOW-HAWK-20	Gulf Chokepoint → Taiwan Energy BUFFER STACK → power/chip endpoints (successor to the falsified FLOW-13 + FLOW-15; buffer-trigg
+        AGENTS/VULCAN/MEMORY_CYCLE/README.md:31  [326]
+           **GRADED 2026-10-29 [KB-326]: Ambiguous (consumer-only), S2 stays 2.** No server order cuts; 4Q DRAM bits guided up at both (hynix +mid-20%,
+        AGENTS/VULCAN/MEMORY_CYCLE/S2_FACTS.tsv:88  [326]
+           KB-VULCAN-326	2026-10-29	S2	Pre-stated hynix/Samsung memory test (MEMORY_CYCLE/README.md, 10/23, first public: none) GRADED: AMBIGUOUS (cons
+        AGENTS/VULCAN/workbook/KB_GENERAL.tsv:306  [326]
+           KB-VULCAN-326	2026-10-29	S2	Pre-stated hynix/Samsung memory test (MEMORY_CYCLE/README.md, 10/23, first public: none) GRADED: AMBIGUOUS (cons
+        AGENTS/VULCAN/workbook/KB.tsv:327  [326]
+           KB-VULCAN-326	2026-10-29	S2	Pre-stated hynix/Samsung memory test (MEMORY_CYCLE/README.md, 10/23, first public: none) GRADED: AMBIGUOUS (cons
+        AGENTS/VULCAN/workbook/VX.tsv:3  [326]
+           VX-VULCAN-S2	S2	memory cycle (DRAM/NAND/HBM price + capex)	"2026-10-29 [KB-326/327]: S2 2 HELD. Pre-stated hynix/Samsung test GRADED AMBIGUO
+        AGENTS/VULCAN/workbook/EXIT_PROTOCOL.md:160  [326]
+           - **Leg 3 — memory stays healthy: 1 of 4 quarters.** hynix/Samsung 10/28–29 guide 4Q DRAM bits up and give no price-down guide [KB-326]; no
+        AGENTS/VULCAN/reports/2026-10-30_L800_amzn/REPORT.md:107  [326]
+           | S2 (hynix/Samsung leg) | **Stays 2: AMBIGUOUS, as graded 10/29 [KB-326].** Samsung's full Q3 report and call were on 10/29 KST per KB-326'
+        AGENTS/VULCAN/reports/2026-10-26_news-sweep/sources/pge-slides.txt:1  [326]
+           EX-99.2 3 q326earningspresentation.htm EX-99.2 q326earningspresentation bazadebezolkohpepadr="614392313" 2026 THIRD QUARTER EARNINGS October
+        AGENTS/VULCAN/reports/2026-10-26_news-sweep/sources/pge-0001004980-26-000055.txt:1  [326]
+           pcg-20260930 false 2026 Q3 PG&E CORP 0001004980 --12-31 PACIFIC GAS & ELECTRIC CO false 0000075488 http://fasb.org/us-gaap/2026#UtilitiesOpe
+        AGENTS/VULCAN/reports/2026-10-26_news-sweep/sources/bloom-0001628280-26-066931.txt:1  [326]
+           be-20260930 false 2026 Q3 12/31 0001664703 0 http://fasb.org/us-gaap/2026#PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumu
+        AGENTS/VULCAN/reports/2026-10-26_financing/sources/anthropic-s1.txt:1  [326]
+           S-1 1 anthropicpbc-sx1.htm S-1 Anthropic, PBC - S-1 (Q2) As filed with the Securities and Exchange Commission on October 26, 2026. Registrat
+        PROME/GATES.tsv:3  [326]
+           GATE-HY-REKILL	2026-06-26	LIQUID	HY OAS (FRED BAMLH0A0HYM2; bp = published percent × 100; each observation taken AS FIRST PUBLISHED — later
+        PROME/GATES.tsv:23  [326]
+           GATE-NEXUS-WQ459-HY	2026-10-19	NEXUS	Guarded HY: 15 qualified observations AFTER ruling-date anchor; UP HY>=L+10bp for3; DOWN HY<=L-10bp for
+        PROME/SCRATCH.md:10  [326]
+           ① **Next actions on resume, in order:** (a) **TERRY is LIVE (terry-3d)** — L905 RSP re-price + ORCL void (L904 packet) + UNG check were SENT
+        PROME/plans/2026-10-31_heartbeat-37th-rebase-PLAN.md:12  [326]
+           | Credit followed equity, not led | LIQUID DTCC memo; dashboard | first-published 10/29 cells; DTCC 10/30 | HY 326 run 1 of 3; ORCL +10–18 b
+        PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:6  [326]
+           **Central judgment — PROME synthesis:** Friday's break was an equity event; credit moved a session earlier and then barely followed. The S&P
+        PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:12  [326]
+           **3. Credit —** HY 326 / CCC 1,325 bp [October 29, first-published]: back above 320 after 318 and 314 (run 1 of 3; October 30 cells Monday).
+        PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:29  [326]
+           | HY / CCC OAS | 326 / 1,325 bp [Oct 29] | First-published; Oct 30 cells publish Mon Nov 2 |
+        PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:47  [326]
+           | Equity break → credit | Credit led by a session (HY 326 Oct 29), then followed modestly (ORCL +10–18 bp) | FRED Oct 30 cells (HY run 2 of
+        PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:77  [326]
+           Do not assert: "Russia postponed the diesel exemption again" (№1436 deleted it); "the ban runs through year-end" (January 31, 2027); "small
+        PROME/reports/2026-10-31_heartbeat-rebase/result-read.md:7  [326]
+           2 Credit timing: L10 "credit moved a session earlier and then barely followed". HENRY STATUS L30 "HY OAS +12bp to 326 on 10/29 [FRED], a ses
+        PROME/reports/2026-10-31_heartbeat-rebase/result-read.md:8  [326]
+           3 HY wording: "back above 320 after 318 and 314 (run 1 of 3)". NEXUS STATUS L11 cells 333/327/340/338/330/318/314/326; LIQUID L73 ">320 run
+        PROME/reports/2026-10-31_heartbeat-rebase/result-read.md:14  [326]
+           Traced clean: S&P 7,580.07 / 120 pts through 7,700 / flips 7,732-7,736, QQQ 725-727, NDX, OI 10/29 vintage, L888 (HENRY L7, L16, L26-28); QQ
+        PROME/reports/2026-10-31_heartbeat-rebase/result-read.md:18  [326]
+           claim:    HEARTBEAT.md Kill-on-sight: "HY 326 is the first print above 320" (333-338 earlier in October)"
+        PROME/reports/2026-10-31_heartbeat-rebase/result-read.md:19  [326]
+           artifact: AGENTS/NEXUS/STATUS.md line 11: "Eight qualified cells HY 333/327/340/338/330/318/314/**326**, CCC ... [10/20-29]"
+        PROME/reports/2026-10-31_heartbeat-rebase/before.md:12  [326]
+           **Amendment 3 — October 30 after the close, PROME prome-c5 (five post-close desk returns 16:49–16:55 ET + BRENT's routine; superseded here:
+        PROME/reports/2026-10-31_heartbeat-rebase/plan-read.md:3  [326]
+           Checked OK: before.md == HEARTBEAT.md (cmp, repo root); dashboard cells (HY 326, CCC 1325, Brent 117.70, VIX 19.42, MOVE 100.20 +6.66, KRE/A
+        PROME/reports/2026-10-31_heartbeat-rebase/plan-read.md:15  [326]
+           claim:    cand L6 "Friday's break was an equity event that credit followed rather than led ... Credit widened modestly and late: HY 326 bp [
+        PROME/reports/2026-10-31_heartbeat-rebase/plan-read.md:16  [326]
+           artifact: (a) before.md L12 (amendment 3): "**Credit led by one session, then slept:** HY 326 bp [October 29]..."; (b) AGENTS/HENRY/STATUS.m
+        PROME/reports/2026-10-31_heartbeat-rebase/plan-read.md:22  [326]
+           claim:    cand L6 "HY 326 bp [October 29] is the first print at or above 320 (run 1 of 3)"; L12, L47, L59, L77 ("HY is still tightening" (32
+        PROME/reports/2026-10-31_heartbeat-rebase/plan-read.md:23  [326]
+           artifact: AGENTS/NEXUS/STATUS.md L11: "Eight qualified cells HY 333/327/340/338/330/318/314/**326** ... [10/20-29]"; before.md L18 "tighter
+        PROME/reports/2026-10-31_heartbeat-rebase/dashboard.txt:2  [326]
+           TIER 1: HY OAS 326bps (+12.00) [10/29] · CCC OAS 1325bps (+18.00) [10/29] · Brent (BZZ26 Dec) $117.70 (+2.82) [10/30] · Gas (wkly) 4.27 (-0.
+        BOARD/SIG-W-20261030-004-FLASH-vix-plus-5-intraday-safety-net-22-33-vs-17-20-close-vix9d-over-vix3m-VIOLET.md:46  [326]
+           VIX9D 22.22 (+40.0%) · VIX3M 22.06 (+13.9%) ⇒ **9-day above 3-month: front-end inversion intraday.** S&P 500 7,542.50 (−2.30%) · QQQ 685.61
+        BOARD/SIG-W-20261016-001-hy-oas-323-on-10-15-second-consecutive-cell-over-320-RED-FT-02-and-REG-T-03-at-2-of-3-third-bar-is-10-16-publishes-mon-10-19.md:49  [326]
+           | B (`BAMLH0A2HYB`) | 329 | 326 | −3 |
+        BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md:49  [326]
+           **Credit (FRED, first-published):** HY OAS **326 bp [10/29]**, +12 bp from 314 [10/28]; CCC 1,325 bp [10/29]. HY is back above RED-FT-02's 3
+        BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md:61  [326]
+           **INFO VIOLET:** VIX ~22 intraday from 17.20; vol-regime and term-structure read is yours (RED-FT-06 exit ≥18 ×5 restarts only on closes). *
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (445)
+        AGENTS/LABOR/STATUS_DETAIL.md:1024  [326]  (no unit/series context on line)
+           | 55+ (`LNS11024230`) | 39,005 | 39,095 (+90) | 38,927 (−168) | 39,253 (**+326**) | 37.1 → 37.2 | +354 |
+        AGENTS/VIOLET/board_log.tsv:125  [326]  (no unit/series context on line)
+           2026-09-11T01:10:00-04:00	PROME-20260911-VECTOR-2-cheap-vol-into-FOMC	acted	INBOX_ROOT	DELIVERED: PROME/inbox/2026-09-11_from-VIOLET_VECTOR-
+        AGENTS/OZK/THESIS.md:27  [326]  (no unit/series context on line)
+           OZK executed 590 RESG modifications over 14 quarters on ~300 loans — the average loan has been modified roughly twice [KB-OZK-101]. **Counte
+        AGENTS/BROCK/STATUS.md:109  [326]  (no unit/series context on line)
+           - **BRK-26 (12/31, 55%):** OPEN. 🆕 **CANDIDATE 10/31: SEC v. SQN Capital (settled 10/8, fund NAV inflation, KB-BRK-413) — is asset-based len
+        AGENTS/RED/CHARTER_PROVENANCE.md:366  [326]  (no unit/series context on line)
+           326│ - Depleted buffers that amplify fragility vs. buffer depletion that signals the system is absorbing stress
+        AGENTS/SAM/METSUKE_MEMORY_ARCHIVE.md:646  [326]  (no unit/series context on line)
+           - **F2 🟡:** `TRADE.md:326`. The LIQUID line borrows HENRY's deletion cause. Repoint to `AGENTS/LIQUID/archive/legacy/TRADE_20260214.md` (arc
+        AGENTS/SAM/METSUKE_MEMORY_ARCHIVE.md:663  [326]  (no unit/series context on line)
+           - **F5 🟡:** `TRADE.md:326-327` — `LIQUID/TRADE.md` / `HENRY/TRADE.md` do not exist. Repoint or drop the filenames.
+        AGENTS/SAM/METSUKE_MEMORY_ARCHIVE.md:762  [326]  (no unit/series context on line)
+           - **F2 🟡:** `TRADE.md:326-327`. Correct the HENRY cause: "archived at `86e22c293` (2026-04-17), then deleted at `1cb18fbc3` (2026-06-30, PRO
+        … +437 more 🟠 hit(s) on [326] across 257 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (2: ZHAO, inbox)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (96)  [--show-handled to audit]
+
+  🔴 171 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================

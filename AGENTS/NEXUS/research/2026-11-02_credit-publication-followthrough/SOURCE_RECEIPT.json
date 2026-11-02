@@ -1,0 +1,67 @@
+[
+  {
+    "series": "BAMLH0A0HYM2",
+    "read_started_at": "2026-11-02T11:00:12-05:00",
+    "read_completed_at": "2026-11-02T11:00:38-05:00",
+    "basis": "MIRROR-WALLED / FRED first-published values",
+    "rc": 0,
+    "rows": 25,
+    "latest": {
+      "date": "2026-10-30",
+      "value": "3.44",
+      "first_published": "2026-10-30"
+    }
+  },
+  {
+    "series": "BAMLH0A1HYBB",
+    "read_started_at": "2026-11-02T11:00:12-05:00",
+    "read_completed_at": "2026-11-02T11:00:30-05:00",
+    "basis": "MIRROR-WALLED / FRED first-published values",
+    "rc": 0,
+    "rows": 25,
+    "latest": {
+      "date": "2026-10-30",
+      "value": "2.09",
+      "first_published": "2026-10-30"
+    }
+  },
+  {
+    "series": "BAMLH0A2HYB",
+    "read_started_at": "2026-11-02T11:00:12-05:00",
+    "read_completed_at": "2026-11-02T11:00:27-05:00",
+    "basis": "MIRROR-WALLED / FRED first-published values",
+    "rc": 0,
+    "rows": 25,
+    "latest": {
+      "date": "2026-10-30",
+      "value": "3.6",
+      "first_published": "2026-10-30"
+    }
+  },
+  {
+    "series": "BAMLH0A3HYC",
+    "read_started_at": "2026-11-02T11:00:12-05:00",
+    "read_completed_at": "2026-11-02T11:00:26-05:00",
+    "basis": "MIRROR-WALLED / FRED first-published values",
+    "rc": 0,
+    "rows": 25,
+    "latest": {
+      "date": "2026-10-30",
+      "value": "13.27",
+      "first_published": "2026-10-30"
+    }
+  },
+  {
+    "series": "BAMLC0A0CM",
+    "read_started_at": "2026-11-02T11:00:12-05:00",
+    "read_completed_at": "2026-11-02T11:00:28-05:00",
+    "basis": "MIRROR-WALLED / FRED first-published values",
+    "rc": 0,
+    "rows": 25,
+    "latest": {
+      "date": "2026-10-30",
+      "value": "0.94",
+      "first_published": "2026-10-30"
+    }
+  }
+]

@@ -1,0 +1,574 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 287 files under AGENTS/NEXUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── B OAS observation update · superseded 332 → current 360
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (272)
+        AGENTS/NEXUS/STATUS_COLD.md:522  [332]
+           **[READ-CAP cure-record line (9/07 text)]** *(crc32 2717540577, 332 B)*
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:8  [332]
+           2026-10-23T01:03:44-04:00	CELL	1	2026-10-19	2026-10-21	327	1307	198	332	88	QUALIFIED	2	NEITHER	0	20/47/33	research/2026-10-23_L751_wake/FRED
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:10  [332]
+           2026-10-23T21:25:16-04:00	CELL	1	2026-10-19	2026-10-22	340	1340	210	346	89	QUALIFIED	3	UP_EDGE	0	20/47/33	research/2026-10-23_full_pass/raw_
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:15  [332]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:16  [332]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-10-24_structure_pass/SWEEP_A_charter.md:35  [332]
+           | F-13 | ⚠️ | BOOT 4 · "**Scan `inbox/`** — directory of dated routed-signal files" | "Scan" is the verb this charter retired in BOOT 3 for
+        AGENTS/NEXUS/research/2026-10-26_boot/RESIDUE_CHECK.tsv:14  [332]
+           AGENTS/NEXUS/analysis/WQ342_grading_log.tsv	10	REVIEWED-DATED-HISTORY	"2026-10-23T21:25:16-04:00	CELL	1	2026-10-19	2026-10-22	340	1340	210	3
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:22  [332]
+           | 10/29 | 326 | 1325 | 194 | 332 | 89 | unpublished | unpublished | 17.20 | 2.35 |
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:35  [332]
+           | Context, not owed today | M-01 · M-07 · M-04b · M-08b | HY 314/326 · IG 86/89 · VIX 16.91/17.20 · B 318/332 with CCC 1,307/1,325 | All nei
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:42  [332]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-10-31_full_pass/RECORD.md:16  [332]
+           1. **AI/semis repricing, one class:** GOOGL −12.6% [10/29]; INTC −28.58%, SOXX −8.24%, QQQ −3.47%, SPY −1.77%, RSP −0.79% [10/30 vendor clos
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_CROSS.txt:20  [332]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_CROSS.txt:24  [332]
+           | `AGENTS/NEXUS/CLAUDE.md` | 69924 | 363 | `573cf81c5af677ac29aad894fbb0d8126efe68a8d2e194b6e332fbafa1c42097` | 1–69; 70–111; 112–231; 232–3
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:28  [332]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:32  [332]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:36  [332]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:40  [332]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:44  [332]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:48  [332]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:63  [332]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:12  [332]
+           2. EPS 2.45 vs 2.36; PPNR 419.1 vs 412.4; pretax 339.1 vs 332.0; tax 61.9 vs 63.2. Vendor consensus basis and dates unmatched: no certified
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:17  [332]
+           AGENTS/HENRY/board_log.tsv:49  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:20  [332]
+           332│ Maintain at least 4 alternative scenarios with probabilities in STATUS.md. No scenario below 2%, no scenario above 60%. Update probabil
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:21  [332]
+           AGENTS/BOND/STATUS.md:35  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:22  [332]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:27  [332]
+           AGENTS/DAEDALUS/design/2026-08-21_CHECK_STANDARD_BATCH_B_DRAFT.md:5  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:30  [332]
+           20261009T185900Z	closeout	332d877ca	0	CLEAN 5 · DECLARED 1 · DUE 4 · NOT-APPLICABLE 1	dfb56b92
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:32  [332]
+           - DOCKET L332 · 2026-09-17 · MARCO (remaining co-owner contribution; reserved to Will) / CORAL (delivered MSI grade and enrollment evidence)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:36  [332]
+           | `AGENTS/NEXUS/CLAUDE.md` | 69924 | 363 | `573cf81c5af677ac29aad894fbb0d8126efe68a8d2e194b6e332fbafa1c42097` | 1–69; 70–111; 112–231; 232–3
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:38  [332]
+           5b332ddfe WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel and insurer evidence
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:40  [332]
+           332d877ca BRENT: 10/9 settle-window crack EST Nov $107.16 / Dec $101.69 (L659 item 3)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:42  [332]
+           332a0690a WALTER: BOARD archive record SIG-W-20261004-009 Micron Q4 FY26 (owner VULCAN has it); intake baseline reconcile
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:45  [332]
+           AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/rebase_commits.txt:56  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:46  [332]
+           e00fa90ece5c140cbfe332e52bcf6301c602db6a 2026-09-30T11:22:18-04:00 PROME: reconcile six hashes rewritten by the 11:2x non-ff rebase (GATES/D
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:50  [332]
+           e00fa90ece5c140cbfe332e52bcf6301c602db6a 2026-09-30T11:22:18-04:00 PROME: reconcile six hashes rewritten by the 11:2x non-ff rebase (GATES/D
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:52  [332]
+           c45664a8b82c31683281dcf0e419cfac36df79b2 2026-09-28T19:30:50-04:00 PROME: post-closeout addendum — WQ-332 registered (BOND pulled-deal clust
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:54  [332]
+           332a8687beb88fb51bf16a8a5130a2303e2f049a 2026-09-28T11:34:36-04:00 LIQUID -> PROME: L492 grade + L510 bounded completion (WQ-301 b)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:56  [332]
+           f1cef97fc2ce5846693f1eb1a9045d385c5eb6d2 2026-09-17T08:48:55-04:00 PROME: L332 RESOLVED on MARCO's ONE FL figure (OCPS 193,656, −3.97%); MAR
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:58  [332]
+           d3c1fd1d8f777af5d2b65cb174d4d4d0ef11b285 2026-09-17T08:47:23-04:00 MARCO -> CORAL, PROME: L332 FL enrollment reconciled to ONE figure (193,6
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:60  [332]
+           f2fb7aaf9a7989d4588eca71c4f6af83828ce52f 2026-09-13T20:22:04-04:00 PROME: WQ-243 registered (MARCO's half of L332 is Will's spawn and Sunday
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:62  [332]
+           ebabd4ac21983a51deded917e06c9e1c8e74ca83 2026-09-11T16:36:22-04:00 PROME: WQ-227 RULED (rider) · L332 MARCO leg = Will spawns · CRUISE term
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:65  [332]
+           AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/handbook.html.txt:237  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:70  [332]
+           100644 blob 8f332dc5a00be1afd3fc8b10b05d55bb30f8e96c	AGENTS/DAEDALUS/inbox/processed/2026-09-12_from-PROME_L294-handoff-plus-two-new-instanc
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:72  [332]
+           100644 blob d13a90d6145681bf92c75f575f332d6aa78a0164	AGENTS/DAEDALUS/runs/2026-08-28_WIRING_SWEEP/leg20_boot_stdout.txt
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:74  [332]
+           100644 blob fc8235565f06c850eb62a8b332ae7875d482d9a0	FORGE/timing/research/FLOW_OF_FUNDS_RESPONSE_2.md
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:76  [332]
+           100644 blob 7ec56d56a0a2560477c17630f70d281e75d1e74e	PROME/inbox/processed/2026-09-17_from-MARCO_L332-the-one-FL-enrollment-figure-193656-mi
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:78  [332]
+           53	0	PROME/inbox/processed/2026-09-17_from-MARCO_L332-the-one-FL-enrollment-figure-193656-minus-3-97pct-plus-whole-inbox-drain.md
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:79  [332]
+           AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/BRENT_commits.txt:73  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:80  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:81  [332]
+           AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/BRENT_commits.txt:144  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:82  [332]
+           332d877caf0c525647c17d66b8e84482e42c98d5 | 2026-10-09T14:45:22-04:00 | BRENT: 10/9 settle-window crack EST Nov $107.16 / Dec $101.69 (L659 i
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:84  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:86  [332]
+           332a0690a20d87ddd4b425fb7de686c45f702c9c | 2026-10-04T16:12:24-04:00 | WALTER: BOARD archive record SIG-W-20261004-009 Micron Q4 FY26 (owner
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:88  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:90  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:92  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:94  [332]
+           332a0690a20d87ddd4b425fb7de686c45f702c9c | 2026-10-04T16:12:24-04:00 | WALTER: BOARD archive record SIG-W-20261004-009 Micron Q4 FY26 (owner
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:96  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:97  [332]
+           AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/BROCK_commits.txt:51  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:98  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:99  [332]
+           AGENTS/BARON/domains/cross-domain/edges.tsv:164  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:100  [332]
+           E-332	N-184	N-083	REGULATOR	Ferguson's FTC reviews $55B EA acquisition; largest LBO ever	CONFIRMED	Bloomberg	2026-01-07
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:103  [332]
+           AGENTS/OTTO/workbook/ML.tsv:296  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:105  [332]
+           AGENTS/OTTO/workbook/ML.tsv:333  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:107  [332]
+           AGENTS/OTTO/research/2026-10-19_forecast-repair/ledger-before.tsv:20  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:112  [332]
+           AGENTS/OTTO/scripts/__pycache__/boot.cpython-312.pyc	generated output / retained source artifact	11925	a82bfb4e332a3870b0b24782b1f2b9460cd4d
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:113  [332]
+           AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_exhibit_1.txt:36  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:115  [332]
+           AGENTS/OTTO/research/2026-10-19_readiness/sources/hindenburg_jan02.txt:51  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:117  [332]
+           AGENTS/OTTO/research/2026-10-19_readiness/sources/hindenburg_jan02.txt:781  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:118  [332]
+           Carvana Engaged In “Sham” Deals With DriveTime, Along With Numerous Other Improprieties, Per A 2024, 332-Page Amended Class Action Lawsuit B
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:119  [332]
+           AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast3_prospectus.txt:2053  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:121  [332]
+           AGENTS/VIOLET/workbook/KB.tsv:341  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:124  [332]
+           **Validation:** all10blocking desk contracts pass; guard.txt. Schema332rows clean,6weekday-check files clean,5boot reads under cap. MEMORY23
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:128  [332]
+           Pretax_income_M	Release/10-Q	332.0	NOT_YET_DISCLOSED	PENDING	WAL earnings bridge
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:130  [332]
+           Pretax_income_M	Release/10-Q	332.0	339.1	EX99.1 five-quarter income	WAL earnings bridge
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:136  [332]
+           | B (BAMLH0A2HYB) | 335 | 336 | 338 | 332 | **346** | +14 |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:137  [332]
+           AGENTS/LIQUID/research/2026-10-26_boot/transmission.txt:11  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:140  [332]
+           | B | 318 | 332 | +14 | 97.4% |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:142  [332]
+           B        332   +14    97.4%    27   +17    81.4%   156  784/770
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:157  [332]
+           AGENTS/REGINALD/domain/sources/2026-10-20_backlog-followthrough/wal_primary_deck.txt:10  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:159  [332]
+           AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:161  [332]
+           AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_2025_10Q.txt:1  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:163  [332]
+           AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/HBAN_Q2.txt:1  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:165  [332]
+           AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/SSB_Q2.txt:1  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:167  [332]
+           AGENTS/REGINALD/domain/sources/2026-10-28_boot/borrowing_screen_dryrun/borrowing_screen_20260331_20260630.tsv:3454  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:168  [332]
+           26760	GREEN BELT BANK&TRUST	IOWA	NM	803649	True	False	771964.0	758705.0	6901.0	6569.0	-332.0	-332.0	-14100.0	690713.0	-250.0
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:169  [332]
+           AGENTS/REGINALD/domain/sources/2026-10-28_boot/borrowing_screen_dryrun/borrowing_screen_20260331_20260630.tsv:3744  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:170  [332]
+           9935	RIVERS EDGE BANK	SOUTH DAKOTA	NM	474450	True	False	346325.0	357097.0	29619.0	26992.0	-2627.0	-3026.0	11831.0	284042.0	332.0
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:171  [332]
+           AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:173  [332]
+           AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_2025_10Q.txt:1  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:175  [332]
+           AGENTS/REGINALD/reports/2026-10-23_boot/REPORT.md:14  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:176  [332]
+           | B OAS | **346 [10/22]** | 332 [10/21] | Above the 330 ORANGE line for a third print; watch only |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:180  [332]
+           | — | Trepp conduit **5-year median spread, office: 287bp (2026)**, 281 (2025), 294 (2024), 332 (2023). All-property 270bp (2026) | — | ⚠️ S
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:183  [332]
+           AGENTS/WALTER/debug/realestate-library-2026-10-27/dispositions.tsv:277  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:184  [332]
+           276	19f17f930b332cce	CONSOLIDATED_THEN_TRASHED	catalog.json#19f17f930b332cce
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:185  [332]
+           AGENTS/WALTER/debug/realestate-library-2026-10-27/dispositions.tsv:333  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:186  [332]
+           332	19e8d4123b60ced5	KEPT_IN_GMAIL	catalog.json#19e8d4123b60ced5
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:187  [332]
+           AGENTS/WALTER/debug/realestate-2026-10-27/dispositions.tsv:285  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:188  [332]
+           284	19f17f930b332cce	RETAIN	Unique research source or unresolved relevance; preserve
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:189  [332]
+           AGENTS/WALTER/debug/realestate-review-2026-10-27/queue-full/16.txt:57  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:190  [332]
+           View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9b4f0284-332f
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:191  [332]
+           AGENTS/WALTER/research/2026-10-19_evening-combined/owner-10.md:42  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:194  [332]
+           | **Calendar coverage** | Built/reviewed; PROME triaged as-ofOctober21:5 MATCHED,74 UNMATCHED,332 UNASSESSED. Mostly internal calendar check
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:195  [332]
+           AGENTS/WALTER/research/2026-09-15_follow-through/route-baseline.tsv:414  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:197  [332]
+           AGENTS/WALTER/research/2026-10-31_outbox-cleanup/DISPOSITIONS.tsv:6  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:199  [332]
+           AGENTS/WALTER/research/2026-10-31_outbox-cleanup/DISPOSITIONS.tsv:57  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:201  [332]
+           AGENTS/WALTER/research/2026-10-21_boot/owner-heads-1.txt:56  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:202  [332]
+           | **Calendar coverage** | Built/reviewed; PROME triaged as-ofOctober21:5 MATCHED,74 UNMATCHED,332 UNASSESSED. Mostly internal calendar check
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:205  [332]
+           AGENTS/WALTER/research/2026-10-05_boot/prior-LAST_COMPLETION.md:54  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:206  [332]
+           - **Commits (on origin except `907e29ccc`):** `10f9375b9` (version), `332a0690a` (MU `-009`), `ace4541a2` (light-closeout), `f78d1f2c5` (PRO
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:207  [332]
+           AGENTS/WALTER/research/2026-10-14_morning-news/before-LAST_COMPLETION.md:88  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:208  [332]
+           "commit": "5b332ddfea64b0e921561702f8a0b94bdce5ecf3",
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:209  [332]
+           AGENTS/WALTER/research/2026-10-25_boot/owner-headers.txt:448  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:210  [332]
+           | **Calendar coverage** | Built/reviewed; PROME triaged as-ofOctober21:5 MATCHED,74 UNMATCHED,332 UNASSESSED. Mostly internal calendar check
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:213  [332]
+           AGENTS/MIDAS/sources/2026-10-20_news/bls_ppi.txt:737  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:226  [332]
+           In 2026, platinum medical demand is projected to rise by 4% year-on-year (+12 koz) to 332 koz. Medical devices, the largest source
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:229  [332]
+           AGENTS/MIDAS/shared/sources/2026-10-26_recycling-refining/sibanye_h1.txt:362  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:231  [332]
+           AGENTS/MIDAS/shared/sources/2026-10-26_recycling-refining/sibanye_h1.txt:436  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:233  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-25_bottom-check/cftc_legacy.txt:102  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:235  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-25_bottom-check/cftc_legacy.txt:240  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:237  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_disagg_f_disagg.txt:47  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:239  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_disagg_f_disagg.txt:120  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:241  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_disagg_f_disagg.txt:247  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:243  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_disagg_f_disagg.txt:261  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:245  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_legacy_deafut.txt:48  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:247  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_legacy_deafut.txt:127  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:249  [332]
+           AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_legacy_deafut.txt:299  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:251  [332]
+           AGENTS/MARCO/workbook/KB.tsv:112  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:253  [332]
+           AGENTS/MARCO/workbook/MIGRATION_PROXIES.tsv:24  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:256  [332]
+           3.00,3.00,486.00,332.00,1262.00,B6,20409,JetBlue Airways,06673,D,3,3,FLL,"Fort Lauderdale, FL",FL,MHT,"Manchester, NH",NH,694,1,2026,5,F
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:258  [332]
+           2025,6,SY,Sun Country Airlines d/b/a MN Airlines,61752.0,55281.0,332.0,332.0
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:259  [332]
+           AGENTS/ZHAO/workbook/KB.tsv:172  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:261  [332]
+           AGENTS/HENRY/research/2026-10-22_L769/STATUS-before.md:33  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:262  [332]
+           | HY OAS (secondary) | 332bp | 10/20, OCBC via PROME HEARTBEAT amendment #2 — secondary, not FRED |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:267  [332]
+           AGENTS/BROCK/workbook/KB.tsv:321  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:268  [332]
+           KB-BRK-332	2026-10-14	PRIVATE_CREDIT	Kellermeyer / FSK borrowing-base contract	Q2 pledged-v flags include both loans/equity. Contract5.13 pe
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:269  [332]
+           AGENTS/BROCK/workbook/FLOW.tsv:28  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:271  [332]
+           AGENTS/BROCK/research/2026-10-14_wave/citi_8k.txt:511  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:273  [332]
+           AGENTS/BROCK/research/2026-10-25_three-followups/positions.csv:242  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:274  [332]
+           ARCC,c-332,Transit Technologies LLC. | First lien senior secured loan,transit technologies,Software and Services,True,funded_debt,USD,121000
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:275  [332]
+           AGENTS/BROCK/research/2026-10-25_three-followups/positions.csv:1701  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:276  [332]
+           BXSL,c-332,Foundation Risk Partners Corp. 2 | Non-Affiliated Issuer,foundation risk partners,Insurance,False,funded_debt,USD,4711000.0,46770
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:277  [332]
+           AGENTS/BROCK/research/2026-10-25_three-followups/positions.csv:2385  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:278  [332]
+           FSK,c-332,Medallia Inc | Software & Services,medallia,Software & Services,True,funded_debt,USD,234100000.0,233000000.0,117400000.0,0.5014950
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:279  [332]
+           AGENTS/BROCK/research/2026-10-25_three-followups/positions.csv:3012  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:280  [332]
+           GBDC,c-332,"Apex Service Partners, LLC | One stop 1 | Non-Affiliated Issuer",apex service partners,Diversified Consumer Services,False,funde
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:281  [332]
+           AGENTS/CARL/workbook/KB.tsv:329  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:282  [332]
+           KB-CARL-332	2026-07-16	MACRO_ENERGY	Diesel_Freight_CostPush_Q3channel	Russia diesel-ban supply-shock DEEPER than first logged: Ukrainian str
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:283  [332]
+           AGENTS/CARL/board/BOARD_LOG.tsv:418  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:289  [332]
+           AGENTS/FALCON/workbook/KB.tsv:334  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:290  [332]
+           KB-FALCON-332	2026-10-26	HORMUZ	Iran	Own October 26 search recovered August 25 Omani joint statement on temporary corridor; no new permanent
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:297  [332]
+           AGENTS/BRENT/audits/2026-10-14_operational-followups/public-eia-retail.txt:1864  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:298  [332]
+           <image width="373" height="332" transform="translate(176.25 11.28) scale(0.24)" xlink:href="/global/images/energy-kids/energy-ant.png" />
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:299  [332]
+           AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:75  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:300  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","316","306","332","328","317","332"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:301  [332]
+           AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:81  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:302  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","316","306","332","328","317","332"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:303  [332]
+           AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:95  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:304  [332]
+           "Refiner and Blender Net Production ","Rocky Mountain (PADD 4)","340","345","270","252","332","262"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:305  [332]
+           AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:129  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:306  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","317","363","332","320","349","318"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:307  [332]
+           AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/archive-sep23-table9.csv:95  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:308  [332]
+           "Refiner and Blender Net Production ","Rocky Mountain (PADD 4)","323","340","294","253","332","271"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:309  [332]
+           AGENTS/BRENT/research/2026-10-26_evening-sweep/cme-pages1-2.txt:143  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:311  [332]
+           AGENTS/BRENT/research/2026-09-10_wpsr/wpsr-table9.csv:450  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:312  [332]
+           "Imports ","All Other Blending Components","171","109","358","332","183","354"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:313  [332]
+           AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table9.csv:56  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:314  [332]
+           "Refiner and Blender Net Inputs ","Gulf Coast (PADD 3)","-355","-445","-413","-332","-415","-421"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:315  [332]
+           AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table9.csv:75  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:316  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","324","323","348","332","319","347"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:317  [332]
+           AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table9.csv:81  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:318  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","324","323","348","332","319","347"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:319  [332]
+           AGENTS/BRENT/research/2026-10-10_diesel-deal-restart-freight/NOTE.md:26  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:321  [332]
+           AGENTS/BRENT/research/2026-10-10_diesel-deal-restart-freight/NOTE.md:70  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:323  [332]
+           AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md:14  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:325  [332]
+           AGENTS/BRENT/research/2026-10-26_energy-review/cme-energy-pages1-2.txt:143  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:327  [332]
+           AGENTS/BOND/workbook/KB.tsv:307  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:329  [332]
+           AGENTS/BOND/workbook/KB.tsv:308  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:331  [332]
+           AGENTS/BOND/workbook/KB.tsv:333  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:332  [332]
+           KB-BND-332	2026-09-25	RATES	FR2004 settlement timing RESOLVED at the primary + WQ-157 join window defect (Wednesday auctions)	RESOLVED: FR 2
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:333  [332]
+           AGENTS/BOND/workbook/KB.tsv:526  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:335  [332]
+           AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:16  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:337  [332]
+           AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:28  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:339  [332]
+           AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:60  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:341  [332]
+           AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:87  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:343  [332]
+           AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:113  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:345  [332]
+           AGENTS/BOND/domain/sources/2026-09-28b_STATUS_full-snapshot_pre-rotation.md:19  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:347  [332]
+           AGENTS/BOND/domain/sources/2026-09-28b_STATUS_full-snapshot_pre-rotation.md:76  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:349  [332]
+           AGENTS/BOND/domain/sources/2026-09-28b_STATUS_full-snapshot_pre-rotation.md:102  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:354  [332]
+           | 332 | Keep manual grading and a written reason per confirmed event; do not invent numeric bars from anecdotes. Logged events alone give a
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:356  [332]
+           Sources: `AGENTS/SAM/scripts/closeout_check.py:332–344,425,566–572`; probe/results linked below.
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:362  [332]
+           **Remote receipt:** read-only `git ls-remote origin refs/heads/master` returned exactly `80622311e02bebf4bcc13531ce5fc332c64e8275`; local `g
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:364  [332]
+           FERT	FERT-01	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	HIT	bina
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:366  [332]
+           FERT	FERT-02	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	VOID (un
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:368  [332]
+           FERT	FERT-03	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	HIT (par
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:370  [332]
+           FERT	FERT-04	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	MISS	bin
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:372  [332]
+           FERT	FERT-05	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	MISS (so
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:374  [332]
+           FERT	FERT-06	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	VOID (br
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:376  [332]
+           FERT	FERT-07	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	HIT (dir
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:378  [332]
+           FERT	FERT-08	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	MISS	bin
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:380  [332]
+           FERT	FERT-09	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	MISS	bin
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:382  [332]
+           FERT	FERT-10	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	HIT	bina
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:384  [332]
+           FERT	FERT-11	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	OPEN	ope
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:386  [332]
+           FERT	FERT-12	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	OPEN	ope
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:387  [332]
+           AGENTS/CATO/runs/2026-09-30_2355_cohort-feasibility/critic_cohort_received.tsv:128  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:388  [332]
+           HAWK	HAW-18	2026-07-25	(undated)	binary_numeric_current	UNKNOWN	0.55	UNKNOWN	0.6	UNKNOWN	0	none	e01ebc332f74
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:389  [332]
+           AGENTS/CATO/runs/2026-09-30_2355_cohort-feasibility/critic_frame_145.tsv:128  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:390  [332]
+           e01ebc332f74812779d275be6f2ecd6f53c5b1bf8c940047ae11168f194610dc	HAWK	HAW-18	2026-07-25	UNKNOWN	1	UNKNOWN	AGENTS/HAWK/thesis/PREDICTIONS.tsv
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:391  [332]
+           AGENTS/CATO/runs/2026-09-30_2355_cohort-feasibility/candidate_frame_152.tsv:135  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:392  [332]
+           e01ebc332f74812779d275be6f2ecd6f53c5b1bf8c940047ae11168f194610dc	HAWK	HAW-18	2026-07-25	UNKNOWN	1	UNKNOWN	AGENTS/HAWK/thesis/PREDICTIONS.tsv
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:393  [332]
+           AGENTS/HAWK/workbook/KB.tsv:336  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:394  [332]
+           KB-HAWK-332	2026-09-08	GEOPOLITICS	US polysilicon imports	August6 signed Section232 proclamation schedules covered polysilicon measures for
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:395  [332]
+           AGENTS/VULCAN/workbook/KB_GENERAL.tsv:312  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:396  [332]
+           KB-VULCAN-332	2026-10-29	S1	§4b cluster state with three of four names in (pre-stated before AMZN, reports/2026-10-29_cluster-4b_prestatemen
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:397  [332]
+           AGENTS/VULCAN/workbook/KB_GENERAL.tsv:315  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:399  [332]
+           AGENTS/VULCAN/workbook/KB.tsv:333  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:400  [332]
+           KB-VULCAN-332	2026-10-29	S1	§4b cluster state with three of four names in (pre-stated before AMZN, reports/2026-10-29_cluster-4b_prestatemen
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:401  [332]
+           AGENTS/VULCAN/workbook/KB.tsv:336  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:403  [332]
+           AGENTS/VULCAN/workbook/VX.tsv:2  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:404  [332]
+           VX-VULCAN-S1	S1	AI-capex concentration (capex trajectory + Mag-7 weight)	2026-10-29 [KB-332]: S1 3 HELD NOT FIRED. Cluster 3 of 4 in: META r
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:405  [332]
+           AGENTS/VULCAN/workbook/EXIT_PROTOCOL.md:36  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:409  [332]
+           PROME/HEARTBEAT_COLD.md:724  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:411  [332]
+           PROME/HEARTBEAT_COLD.md:758  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:413  [332]
+           PROME/HEARTBEAT_COLD.md:793  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:415  [332]
+           PROME/HEARTBEAT_COLD.md:1028  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:416  [332]
+           ## §29.1 Energy (owner memos: BRENT closeout + PM note `AGENTS/BRENT/research/2026-10-09_pm-prints/NOTE.md` 332d877ca · 6c0db64fe; packet `P
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:419  [332]
+           PROME/plans/2026-10-09_heartbeat-29th-rebase-PLAN.md:10  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:421  [332]
+           PROME/plans/2026-09-29_heartbeat-24th-rebase-PLAN.md:22  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:423  [332]
+           PROME/plans/2026-09-28_heartbeat-23rd-rebase-PLAN.md:12  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:424  [332]
+           - Owner artifacts consumed today: LIQUID L492/L510 (332a8687b; ISDA benchmark memo) · BOND live-event assessment (e64d22669) + WQ-291/246 en
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:425  [332]
+           PROME/plans/2026-09-28_heartbeat-23rd-rebase-PLAN.md:13  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:427  [332]
+           PROME/plans/2026-09-28_heartbeat-23rd-rebase-PLAN.md:21  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:430  [332]
+           332	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-30	BOND "PULLED-DEAL CLUSTER" — a standing trigger, or keep hand-grading
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:432  [332]
+           ### GATE-HY-REKILL · `last_checked`: 1060 B → 332 B (1052 → 322 chars)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:439  [332]
+           PROME/state/board_consumed.tsv:556  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:440  [332]
+           SIG-W-20260723-012-fed-hike-repricing-sept-80pct-10y-4707-30y-longest-above-5-since-2007	O	332f49ee884f36a931af52b1438e45a3fa677c6d
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:444  [332]
+           332	Make BOND's "pulled-deal cluster" a standing trigger, or keep grading it by hand?	BOND's high-yield market-function row has a second tri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:460  [332]
+           332	REGISTERED	2026-09-28	BOND "PULLED-DEAL CLUSTER"	RULE	2026-10-14	9/28	OPEN	—		Rec (BOND's, PROME concurs): KEEP HAND-GRADING with a writ
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:462  [332]
+           332	CLOSED	2026-09-30	BOND "PULLED-DEAL CLUSTER" — a standing trigger, or keep hand-grading — RULED: KEEP HAND-GRADING (BOND's rec, PROME co
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:466  [332]
+           332	UPDATED	2026-10-08	BOND "PULLED-DEAL CLUSTER" — a standing trigger, or keep hand-grading — RULED: KEEP HAND-GRADING (BOND's rec, PROME c
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:468  [332]
+           | **L332 — September 13, CORAL/MARCO** | CORAL delivered the MSI grade September 13. One reconciled Florida enrollment figure remains missin
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:472  [332]
+           | WQ-332 | 2026-09-30 | BOND keeps hand-grading pulled-deal cluster | BOND rec | **NO** | DELEGATED | `PROME/WILL_QUEUE.md:89` |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:473  [332]
+           PROME/reports/2026-10-10_hb30_plan_read_1.md:53  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:474  [332]
+           F1 Brent Dec $104.32 (+0.04%) [10/9 16:08] = 29th H52 · F2 WTI $91.59 = 29th · F3 crack Nov $107.16 / Dec $101.69 = 332d877ca · F4 −$6.42 /
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:476  [332]
+           - **MARCO's half of the FL joint touch never ran** → **WQ-243**. CORAL delivered 9/13 and packeted MARCO; L332's deliverable is **one reconc
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:477  [332]
+           PROME/reports/2026-10-15_inbox-triage-ledger.md:106  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:478  [332]
+           | 94 | 2026-10-13_from-WALTER_priority-routing-completion.md | WALTER | RESULT | — | — | SEARCH-NOT-FOUND by name; 5b332ddfe is on origin |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:479  [332]
+           PROME/reports/2026-10-15_inbox-triage-ledger.md:107  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:480  [332]
+           | 95 | 2026-10-13_from-WALTER_priority-routing-persistence.md | WALTER | RECEIPT-ONLY | — | — | 5b332ddfe is on origin (VERIFIED) | FILE |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:482  [332]
+           Consumed YURI's reconciliation `ecec898d72500e332f5df4810ea55f3eb0cf5c36`: its report §7.4 and reconciliation proof now agree with the alrea
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:488  [332]
+           **VERIFIED:** exact comparison against the baseline changes only L140/L198/L247/L292/L303/L332/L335/L392 and appends L394. All existing date
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:491  [332]
+           PROME/reports/2026-09-17_heartbeat-18th-rebase.md:24  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:495  [332]
+           PROME/reports/2026-10-26_nexus-consumption/before-DOCKET.tsv:542  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:501  [332]
+           BOARD/SIG-W-20261023-019-dewey-req002-hy-widening-mixed-mostly-broad-65pct-came-in-september-ai-leg-about-10-to-15pct-of-october-coreweave-p
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:503  [332]
+           BOARD/SIG-W-20260628-008-kobeissi-tech-fund-flows-whipsaw-record-15b-outflow.md:24  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:512  [332]
+           AGENTS/LABOR/domain/sources/2026-10-28_layoffalert_monthly_by_state.tsv:18  [332]  (no unit/series context on line)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:514  [332]
+           AGENTS/WATT/sources/2026-10-20-news/rbp-order.txt:4054  [332]  (no unit/series context on line)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:516  [332]
+           AGENTS/WATT/sources/2026-10-20-news/rbp-order.txt:4078  [332]  (no unit/series context on line)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:518  [332]
+           AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_exhibit_2.txt:88  [332]  (no unit/series context on line)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:520  [332]
+           AGENTS/OTTO/research/2026-10-19_readiness/sources/hindenburg_jan02.txt:790  [332]  (no unit/series context on line)
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:522  [332]
+           … +215 more 🟠 hit(s) on [332] across 96 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_CROSS.txt:74  [332]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:28  [332]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:32  [332]
+           | Context, not owed today | M-01 · M-07 · M-04b · M-08b | HY 314/326 · IG 86/89 · VIX 16.91/17.20 · B 318/332 with CCC 1,307/1,325 | All nei
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:34  [332]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:74  [332]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:28  [332]
+           | Context, not owed today | M-01 · M-07 · M-04b · M-08b | HY 314/326 · IG 86/89 · VIX 16.91/17.20 · B 318/332 with CCC 1,307/1,325 | All nei
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:30  [332]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:48  [332]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:67  [332]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:33  [332]
+           | M-08 | Credit K-split, broadening unproved | candidate R3; one repricing class; LIQUID/BROCK/RED/REGINALD | 83% | — | 10-31 | M-08b anchor
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/RECORD.md:11  [332]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (141)
+        AGENTS/NEXUS/research/2026-10-23_L751_wake/RECORD.md:14  [332]  (no unit/series context on line)
+           | 10/21 | 327 | 1,307 | 198 | 332 | 88 | cell 2 | yes |
+        AGENTS/NEXUS/research/2026-10-23_full_pass/RECORD.md:17  [332]  (no unit/series context on line)
+           | 10/21 | 327 | 1,307 | 198 | 332 | 88 | 16.68 | 2.76 | 5.13 | 2.37 |
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:61  [332]  (no unit/series context on line)
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:11  [332]  (no unit/series context on line)
+           AGENTS/WAL/STATUS.md:73  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:13  [332]  (no unit/series context on line)
+           AGENTS/LIQUID/MEMORY.md:96  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:15  [332]  (no unit/series context on line)
+           AGENTS/LIQUID/STATUS.md:12  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:19  [332]  (no unit/series context on line)
+           AGENTS/RED/CHARTER_PROVENANCE.md:372  [332]
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_CROSS.txt:23  [332]  (no unit/series context on line)
+           AGENTS/CATO/TASK_INDEX.md:368  [332]
+        … +133 more 🟠 hit(s) on [332] across 6 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (11)  [--show-handled to audit]
+
+  🔴 272 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================

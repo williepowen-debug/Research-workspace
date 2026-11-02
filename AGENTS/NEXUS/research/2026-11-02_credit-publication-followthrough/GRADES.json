@@ -1,0 +1,419 @@
+{
+  "source_read_completed_at": "2026-11-02T11:00:38-05:00",
+  "written_at": "2026-11-02T11:03:40-05:00",
+  "observation_date": "2026-10-30",
+  "latest_bp": {
+    "HY": 344,
+    "CCC": 1327,
+    "BB": 209,
+    "B": 360,
+    "IG": 94
+  },
+  "prior_10_29_bp": {
+    "HY": 326,
+    "CCC": 1325,
+    "BB": 194,
+    "B": 332,
+    "IG": 89
+  },
+  "daily_change_bp": {
+    "HY": 18,
+    "CCC": 2,
+    "BB": 15,
+    "B": 28,
+    "IG": 5
+  },
+  "basis": "FRED MIRROR-WALLED first-published values; series metadata first_published date is not Monday publication clock",
+  "new_postanchor_qualified_cells": 1,
+  "L16": {
+    "anchor": {
+      "date": "2026-10-19",
+      "HY": 329,
+      "CCC": 1310,
+      "IG": 87,
+      "B": 336
+    },
+    "before": {
+      "n": 8,
+      "UP_run": 0,
+      "DOWN_run": 0
+    },
+    "after": {
+      "n": 9,
+      "UP_run": 1,
+      "DOWN_run": 0,
+      "fire": null,
+      "remaining_window_cells": 6
+    },
+    "cells": [
+      {
+        "n": 1,
+        "date": "2026-10-20",
+        "HY": 333,
+        "CCC": 1327,
+        "BB": 202,
+        "B": 338,
+        "IG": 87,
+        "UP_run": 0,
+        "DOWN_run": 0,
+        "all_five_carry": false,
+        "fire": null
+      },
+      {
+        "n": 2,
+        "date": "2026-10-21",
+        "HY": 327,
+        "CCC": 1307,
+        "BB": 198,
+        "B": 332,
+        "IG": 88,
+        "UP_run": 0,
+        "DOWN_run": 0,
+        "all_five_carry": false,
+        "fire": null
+      },
+      {
+        "n": 3,
+        "date": "2026-10-22",
+        "HY": 340,
+        "CCC": 1340,
+        "BB": 210,
+        "B": 346,
+        "IG": 89,
+        "UP_run": 1,
+        "DOWN_run": 0,
+        "all_five_carry": false,
+        "fire": null
+      },
+      {
+        "n": 4,
+        "date": "2026-10-23",
+        "HY": 338,
+        "CCC": 1356,
+        "BB": 206,
+        "B": 343,
+        "IG": 91,
+        "UP_run": 0,
+        "DOWN_run": 0,
+        "all_five_carry": false,
+        "fire": null
+      },
+      {
+        "n": 5,
+        "date": "2026-10-26",
+        "HY": 330,
+        "CCC": 1345,
+        "BB": 198,
+        "B": 336,
+        "IG": 90,
+        "UP_run": 0,
+        "DOWN_run": 0,
+        "all_five_carry": false,
+        "fire": null
+      },
+      {
+        "n": 6,
+        "date": "2026-10-27",
+        "HY": 318,
+        "CCC": 1321,
+        "BB": 187,
+        "B": 322,
+        "IG": 88,
+        "UP_run": 0,
+        "DOWN_run": 1,
+        "all_five_carry": false,
+        "fire": null
+      },
+      {
+        "n": 7,
+        "date": "2026-10-28",
+        "HY": 314,
+        "CCC": 1307,
+        "BB": 184,
+        "B": 318,
+        "IG": 86,
+        "UP_run": 0,
+        "DOWN_run": 2,
+        "all_five_carry": false,
+        "fire": null
+      },
+      {
+        "n": 8,
+        "date": "2026-10-29",
+        "HY": 326,
+        "CCC": 1325,
+        "BB": 194,
+        "B": 332,
+        "IG": 89,
+        "UP_run": 0,
+        "DOWN_run": 0,
+        "all_five_carry": false,
+        "fire": null
+      },
+      {
+        "n": 9,
+        "date": "2026-10-30",
+        "HY": 344,
+        "CCC": 1327,
+        "BB": 209,
+        "B": 360,
+        "IG": 94,
+        "UP_run": 1,
+        "DOWN_run": 0,
+        "all_five_carry": false,
+        "fire": null
+      }
+    ],
+    "earliest_UP_cell": 11,
+    "earliest_DOWN_cell": 12
+  },
+  "M01": {
+    "UP_run": 0,
+    "DOWN_run": 0,
+    "fire": null,
+    "cells": [
+      {
+        "date": "2026-10-09",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-12",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-13",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-14",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-15",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-16",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-19",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-20",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-21",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-22",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-23",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-26",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-27",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-28",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-29",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-30",
+        "UP_run": 0,
+        "DOWN_run": 0
+      }
+    ],
+    "latest_claims_first_print": 194000,
+    "claims_week": "2026-10-24",
+    "claims_source": "research/2026-11-02_transmission-update/fred/fp_ICSA.json; re-used dated first print",
+    "claims_UP_companion_met": true,
+    "claims_DOWN_weekly_run": 0,
+    "HY_UP_distance_bp": 6
+  },
+  "M07": {
+    "UP_run": 0,
+    "DOWN_run": 1,
+    "fire": null,
+    "cells": [
+      {
+        "date": "2026-10-09",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-12",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-13",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-14",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-15",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-16",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-19",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-20",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-21",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-22",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-23",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-26",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-27",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-28",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-29",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-30",
+        "UP_run": 0,
+        "DOWN_run": 1
+      }
+    ],
+    "before_DOWN_run": 0,
+    "DOWN_edge": 93,
+    "next_qualifying_IG_ge93_completes": true,
+    "if_fire_Conf": "79 -> 75; conditional, not applied"
+  },
+  "M08b": {
+    "UP_run": 0,
+    "DOWN_run": 0,
+    "fire": null,
+    "cells": [
+      {
+        "date": "2026-10-26",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-27",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-28",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-29",
+        "UP_run": 0,
+        "DOWN_run": 0
+      },
+      {
+        "date": "2026-10-30",
+        "UP_run": 0,
+        "DOWN_run": 0
+      }
+    ],
+    "B_ge358": true,
+    "CCC_ge1416": false,
+    "CCC_UP_distance_bp": 89,
+    "BB_mechanism_edge": 216,
+    "BB_latest": 209,
+    "mechanism_not_graded_without_fire": true
+  },
+  "L13": {
+    "DFII10_not_refreshed": true,
+    "same_carried_cell_count": 10,
+    "same_carried_DOWN_run": 2,
+    "fire": null,
+    "HY_context": 344,
+    "anchor_date_HY": 331,
+    "wider_than_anchor_bp": 13,
+    "meaning": "If a future DOWN fire had this HY reading, relief mechanism would fail; actual fire-date HY governs; no L13 grade now"
+  },
+  "other_tests": "M05/M04b need KRE/VIX, not new OAS cells; PRED38/45/M11 need realized bank losses/loan transfer evidence, not OAS",
+  "split": "20/47/33 unchanged; historical judgment weights, not calibrated probabilities",
+  "same_root": "one market-repricing class; no new independent US-break root",
+  "owner_consumption": {
+    "at": "2026-11-02T11:22:51-05:00",
+    "REGINALD": {
+      "commit": "acb69b53e",
+      "observation": "2026-10-30",
+      "REG_T04": "NOT-FIRED",
+      "REG_T04_run": 0,
+      "bank_or_funding_transmission": "not established by owner"
+    },
+    "LIQUID": {
+      "latest_STATUS_commit": "4edee7bbd",
+      "Friday_grade": "missing"
+    }
+  }
+}

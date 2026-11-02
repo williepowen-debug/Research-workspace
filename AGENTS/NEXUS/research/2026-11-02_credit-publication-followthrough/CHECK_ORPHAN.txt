@@ -1,0 +1,100 @@
+⚠️  uncommitted files outside AGENTS/NEXUS/:
+     [likely YOURS] PROME/inbox/2026-11-02_from-NEXUS_credit-publication-test-consequences.md
+     [not yours]    AGENTS/DAEDALUS/CHECKS.tsv
+     [not yours]    AGENTS/DAEDALUS/CHECKS_HISTORY.tsv
+     [not yours]    AGENTS/DAEDALUS/FLEET_MAP.tsv
+     [not yours]    AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv
+     [not yours]    AGENTS/DAEDALUS/profiles/AEOLUS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/BOND.md
+     [not yours]    AGENTS/DAEDALUS/profiles/BRENT.md
+     [not yours]    AGENTS/DAEDALUS/profiles/BROCK.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CARL.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CORAL.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CREED.md
+     [not yours]    AGENTS/DAEDALUS/profiles/CRUISE.md
+     [not yours]    AGENTS/DAEDALUS/profiles/DEWEY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/FALCON.md
+     [not yours]    AGENTS/DAEDALUS/profiles/FERT.md
+     [not yours]    AGENTS/DAEDALUS/profiles/FLG.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HANS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HAWK.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HENRY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/HOMER.md
+     [not yours]    AGENTS/DAEDALUS/profiles/LABOR.md
+     [not yours]    AGENTS/DAEDALUS/profiles/LIQUID.md
+     [not yours]    AGENTS/DAEDALUS/profiles/MARCO.md
+     [not yours]    AGENTS/DAEDALUS/profiles/MIDAS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/NEXUS.md
+     [not yours]    AGENTS/DAEDALUS/profiles/ORACLE.md
+     [not yours]    AGENTS/DAEDALUS/profiles/OSPREY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/OTTO.md
+     [not yours]    AGENTS/DAEDALUS/profiles/OZK.md
+     [not yours]    AGENTS/DAEDALUS/profiles/PROME.md
+     [not yours]    AGENTS/DAEDALUS/profiles/RED.md
+     [not yours]    AGENTS/DAEDALUS/profiles/REGINALD.md
+     [not yours]    AGENTS/DAEDALUS/profiles/SAM.md
+     [not yours]    AGENTS/DAEDALUS/profiles/SHADE.md
+     [not yours]    AGENTS/DAEDALUS/profiles/TERRY.md
+     [not yours]    AGENTS/DAEDALUS/profiles/VIOLET.md
+     [not yours]    AGENTS/DAEDALUS/profiles/VULCAN.md
+     [not yours]    AGENTS/DAEDALUS/profiles/WAL.md
+     [not yours]    AGENTS/DAEDALUS/profiles/WALTER.md
+     [not yours]    AGENTS/DAEDALUS/profiles/WATT.md
+     [not yours]    AGENTS/DAEDALUS/profiles/ZHAO.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-28_HOMER_REFRESH.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_BROCK_REFRESH.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_CREED_REFRESH.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-10-30_WAL_REFRESH.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PRODUCTION_REVIEW_CHECKS/
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PRODUCTION_REVIEW_READER_A.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PRODUCTION_REVIEW_READER_B.md
+     [not yours]    AGENTS/DAEDALUS/runs/2026-11-02_PRODUCTION_REVIEW_READER_C.md
+     [not yours]    AGENTS/DAEDALUS/runs/GATE_LOG.tsv
+     [not yours]    AGENTS/DAEDALUS/scripts/test_read_cap_companions.py
+     [not yours]    AGENTS/DAEDALUS/sweeps/PRODUCTION_REVIEW.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/BROCK_CARD.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/CREED_CARD.md
+     [not yours]    AGENTS/DAEDALUS/upgrades/HOMER_CARD.md
+     [not yours]    AGENTS/FALCON/scripts/baghdad_watch_state.json
+     [not yours]    AGENTS/FALCON/scripts/hormuz_transit_watch_state.json
+     [not yours]    AGENTS/FLG/THESIS.md
+     [not yours]    AGENTS/FLG/workbook/EXIT_PROTOCOL.md
+     [not yours]    AGENTS/ISHM/board_log.tsv
+     [not yours]    AGENTS/ISHM/research/2026-11-02_L899/
+     [not yours]    AGENTS/ISHM/workbook/KB.tsv
+     [not yours]    AGENTS/WAL/MEMORY.md
+     [not yours]    AGENTS/WAL/STATUS.md
+     [not yours]    AGENTS/WAL/sources/ffiec_2026-11-02/
+     [not yours]    AGENTS/WAL/workbook/MI3_SERIES.tsv
+     [not yours]    AGENTS/WALTER/research/2026-10-12_reboot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_codex-boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/credit-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-16_finish/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_afternoon/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-19_resume/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-21_boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-21_boot/hans-cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-26_unwind-search/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-10-30_L334/results.json
+     [not yours]    AGENTS/WALTER/research/2026-10-30_boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-11-02_boot/.cache/
+     [not yours]    AGENTS/WALTER/research/2026-11-02_boot/SKEW_History.csv
+     [not yours]    AGENTS/WALTER/research/2026-11-02_boot/audit.txt
+     [not yours]    AGENTS/WALTER/research/2026-11-02_final-close/
+     [not yours]    KIMI_BOOT.md
+     [not yours]    PROME/reports/2026-11-02_daedalus-pr9-counterpart-probes.json
+     [not yours]    scripts/ledger_staleness.py
+     [not yours]    scripts/read_cap_check.py
+     [not yours]    scripts/validate_all.py
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "NEXUS -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

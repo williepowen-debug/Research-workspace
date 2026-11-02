@@ -1,0 +1,130 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/NEXUS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── CCC OAS observation update · superseded 1325 → current 1327
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (50)
+        AGENTS/LIQUID/STATUS.md:12  [1325]
+           **Credit [FRED ICE first-published (`fred_fetch_vintage`), October 29 observation; pulled October30 10:53 ET, bp]:** HY 326 (+12 d/d), IG 89
+        AGENTS/REGINALD/STATUS.md:110  [1325]
+           | **CCC/HY ratio** | >3.6× (3 consec) | **4.06×** [CCC 1,325 / HY 326, FRED 10/29]; 4.16× [10/28]; 4.15× [10/27] | HARD-FIRE continues. 10/2
+        AGENTS/WALTER/STATUS.md:23  [1325]
+           | Night boot (November 1 01:02–01:04Z; observation dates retained) | HY 326/CCC 1325/VIXCLS 17.20/SOFR-IORB+4bp [Oct29]; T5YIFR 2.22/SKEW 14
+        AGENTS/WALTER/STATUS.md:25  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/STATUS.md:26  [1325]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/HENRY/NEXUS_BRIEF.md:16  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/STATUS.md:98  [1325]
+           | CCC OAS | 1,340bp | **1,356bp** | 1,345bp | 1,321bp | 1,307bp | 1,325bp |
+        AGENTS/HENRY/STATUS.md:109  [1325]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/BOND/NEXUS_BRIEF.md:8  [1325]
+           - **Credit → KB-BND-525:** HY 326 [10/29], 24bp under 350; CCC 1325. Credit-equity band not touched since the one-session 10/22 letter.
+        AGENTS/BOND/SCRATCH.md:3  [1325]
+           > STATE AT WRITING: Composite **18/35** (5+4+2+3+1+1+2; was 19). Clean-nominal counter 3 (WQ-536 A); downgrade graded after the 11/4 QRA, au
+        AGENTS/BOND/STATUS.md:17  [1325]
+           **Credit: the index is drifting back toward 350.** HY 314 [10/28] → 326 [10/29], 24bp under 350; CCC 1325, near its 3-year-window high (1356
+        AGENTS/BOND/STATUS.md:35  [1325]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/BOND/STATUS.md:64  [1325]
+           | CCC escalation | 1325 [10/29] >1100; score 4 held |
+        AGENTS/BOND/STATUS.md:76  [1325]
+           | 4 | HY function VX-BND-02 / VX-BND-11 | 3 | 🟠 | HY 326 [10/29]; CCC 1325 | HY >350 or verified pulled-deal cluster |
+        AGENTS/LIQUID/research/2026-10-30_cftc-W1/REPORT.md:42  [1325]
+           Read: equity −2.4% to −3.9% against HY ETFs −0.2% to −0.25% and IG ETF flat. **Credit is lagging the equity move intraday** — the configurat
+        AGENTS/LIQUID/research/2026-10-30_cftc-W1/boot_1538.txt:9  [1325]
+           🔴 CCC OAS      1325bps              CCC tail >1000 trip  (obs 2026-10-29)
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/gate069_legs.txt:9  [1325]
+           CCC 1325bps, 5-sess change -15bp (vs 2026-10-22, CCC's own obs) -> flat? YES
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/REPORT.md:20  [1325]
+           | CCC | 1,307 | 1,325 | +18 | 95.3% |
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/transmission_check.txt:8  [1325]
+           CCC     1325   +18    95.3%    40   +73    91.3%    69  784/770
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/transmission_check.txt:12  [1325]
+           last 6 obs: 2026-10-22: 89/111/210/346/1340/340, 2026-10-23: 91/113/206/343/1356/338, 2026-10-26: 90/112/198/336/1345/330, 2026-10-27: 88/10
+        AGENTS/WALTER/research/2026-10-31_x-review/prior-LAST_COMPLETION.md:17  [1325]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/WALTER/research/2026-10-31_x-review/prior-STATUS.md:14  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/research/2026-10-31_x-review/prior-STATUS.md:15  [1325]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_boot-repair/prior-STATUS.md:14  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/research/2026-10-31_boot-repair/prior-STATUS.md:15  [1325]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_evening-boot/prior-LAST_COMPLETION.md:21  [1325]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/WALTER/research/2026-10-31_evening-boot/prior-STATUS.md:14  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/research/2026-10-31_evening-boot/prior-STATUS.md:15  [1325]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_evening-boot/THRESHOLD-SCAN.md:19  [1325]
+           | FT07 | CCC1325bp [10/29]; banked fire, exit <930 run0/3. |
+        AGENTS/WALTER/research/2026-10-30_boot/THRESHOLD-SCAN.md:8  [1325]
+           | CCC OAS | 1,325 bp [October 29] (1,307 [10/28]); FT-07 fired/banked, no exit <930 ×3. |
+        AGENTS/WALTER/research/2026-10-31_night-boot/THRESHOLD-SCAN.md:13  [1325]
+           | RED FT07 | CCC 1,325 bp October 29; banked state, <930 exit 0/3. |
+        AGENTS/WALTER/research/2026-10-31_full-closeout/prior-LAST_COMPLETION.md:19  [1325]
+           - Fresh scan: HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIFR 2.22%, SKEW 149.76, KRE 72.01 and WAL 76.29 [Oc
+        AGENTS/WALTER/research/2026-10-31_full-closeout/prior-STATUS.md:14  [1325]
+           | October 31 verification (observation dates preserved) | FRED HY 326 bp, CCC 1,325 bp, VIXCLS 17.20 and SOFR−IORB +4 bp [October 29]; T5YIF
+        AGENTS/WALTER/research/2026-10-31_full-closeout/prior-STATUS.md:15  [1325]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-10-31_followthrough/VERIFY-RED.md:25  [1325]
+           | RED-FT-07 | FRED CCC OAS 1,325 bp [10/29], 1,307 [10/28]; already fired; exit <930 for 3 sessions is 0/3 | FIRING-BANKED continues, no re-
+        AGENTS/WALTER/research/2026-10-31_followthrough/prior-STATUS.md:14  [1325]
+           | October 30 session (FRED pull 18:10Z; vendor intraday 18:10–18:29Z; vendor 16:20 ET post-close, not official settles) | FRED HY 326 [10/29
+        AGENTS/WALTER/research/2026-11-02_boot/BOOT-RECEIPT.md:13  [1325]
+           | 6c | `observations.json` 14:14Z. FRED HY 326 bp [Oct 29] — October 30 not yet published; FT-02/REG-T-03 fired state holds, exits 0/3 and 0
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/NEXUS_BRIEF-before.md:15  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:66  [1325]
+           | CCC OAS | 1,340bp | **1,356bp** | 1,345bp | 1,321bp | 1,307bp | 1,325bp |
+        AGENTS/HENRY/research/2026-10-31_L616_breadth/STATUS-before.md:77  [1325]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/HENRY/research/2026-11-02_L888/NEXUS_BRIEF-before.md:16  [1325]
+           - **Credit (FRED obs 10/29):** HY **326bp ⇒ YELLOW** (+12) · BB 194 · CCC 1,325 · CCC−BB 1,131.
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:84  [1325]
+           | CCC OAS | 1,340bp | **1,356bp** | 1,345bp | 1,321bp | 1,307bp | 1,325bp |
+        AGENTS/HENRY/research/2026-11-02_L888/STATUS-before.md:95  [1325]
+           | Structural credit | Tail stress persists (CCC 1,325bp RED, CCC−BB 1,131bp [FRED 10/29]); broad HY **326bp, back over 320** a session befor
+        AGENTS/BOND/workbook/KB.tsv:526  [1325]
+           KB-BND-525	2026-11-02	RATES	US curve / credit / funding refresh 10/29–10/30	Treasury par 10/30: 2Y 4.56, 5Y 4.71, 10Y 4.94, 20Y 5.34, 30Y 5.
+        PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:12  [1325]
+           **3. Credit —** HY 326 / CCC 1,325 bp [October 29, first-published]: back above 320 after 318 and 314 (run 1 of 3; October 30 cells Monday).
+        PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:29  [1325]
+           | HY / CCC OAS | 326 / 1,325 bp [Oct 29] | First-published; Oct 30 cells publish Mon Nov 2 |
+        PROME/reports/2026-10-31_heartbeat-rebase/result-read.md:14  [1325]
+           Traced clean: S&P 7,580.07 / 120 pts through 7,700 / flips 7,732-7,736, QQQ 725-727, NDX, OI 10/29 vintage, L888 (HENRY L7, L16, L26-28); QQ
+        PROME/reports/2026-10-31_heartbeat-rebase/plan-read.md:3  [1325]
+           Checked OK: before.md == HEARTBEAT.md (cmp, repo root); dashboard cells (HY 326, CCC 1325, Brent 117.70, VIX 19.42, MOVE 100.20 +6.66, KRE/A
+        PROME/reports/2026-10-31_heartbeat-rebase/dashboard.txt:2  [1325]
+           TIER 1: HY OAS 326bps (+12.00) [10/29] · CCC OAS 1325bps (+18.00) [10/29] · Brent (BZZ26 Dec) $117.70 (+2.82) [10/30] · Gas (wkly) 4.27 (-0.
+        BOARD/SIG-W-20261030-002-tech-selloff-ndx-minus-3-qqq-under-690-gamma-trough-spx-7550-below-7700-put-wall-vix-22-intc-minus-31-HENRY.md:49  [1325]
+           **Credit (FRED, first-published):** HY OAS **326 bp [10/29]**, +12 bp from 314 [10/28]; CCC 1,325 bp [10/29]. HY is back above RED-FT-02's 3
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (83)
+        AGENTS/WALTER/SESSION_LOG.md:3331  [1325]  (no unit/series context on line)
+           | 2026-04-20 (Mon late-evening — 4-batch intake session) | **Post-Seg-C signal routing: 3 dispatches, 40 kills across 4 batches (1 image bat
+        AGENTS/WALTER/SESSION_LOG.md:3406  [1325]  (no unit/series context on line)
+           *v0.20 — April 20, 2026 (Mon late-evening — 3-batch intake session post-Seg-C) — 3 dispatches (SIG-006 purchase-lock + ARM stretch → REGINAL
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:712  [1325]  (no unit/series context on line)
+           2026-09-03,Monthly,2020-10-01,2020-10-31,Metro,"Jacksonville, FL metro area",Condo/Co-op,Seller's Market,1476,43.73,1325,-12.59,1.11,43.66,-
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:1476  [1325]  (no unit/series context on line)
+           2026-09-03,Monthly,2021-02-01,2021-02-28,Metro,"Miami, FL metro area",Townhouse,Seller's Market,1325,3.35,1108,-27.02,1.2,35.16,-16.4,-34.8
+        AGENTS/CORAL/sources/redfin/redfin_buyers_sellers_FL_metros_thru_2026-08.csv:2023  [1325]  (no unit/series context on line)
+           2026-09-03,Monthly,2018-03-01,2018-03-31,Metro,"Orlando, FL metro area",Townhouse,Seller's Market,1975,19.22,1325,0.51,1.49,23.4,-32.93,-12.
+        AGENTS/DAEDALUS/design/2026-10-09_BOOT_RELIABILITY_PASS.md:22  [1325]  (no unit/series context on line)
+           Content reads are bounded at command and outer exec budgets. Three subsequent navigation searches were themselves truncated (charter/archive
+        AGENTS/DAEDALUS/runs/2026-11-02_PRODUCTION_REVIEW_CHECKS/readcap_before.txt:51  [1325]  (no unit/series context on line)
+           ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished an
+        AGENTS/DAEDALUS/runs/2026-11-02_PRODUCTION_REVIEW_CHECKS/readcap_after.txt:49  [1325]  (no unit/series context on line)
+           ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished an
+        … +75 more 🟠 hit(s) on [1325] across 58 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (13)  [--show-handled to audit]
+
+  🔴 50 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================

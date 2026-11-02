@@ -1,0 +1,96 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 281 files under AGENTS/NEXUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── HY OAS observation update · superseded 326 → current 344
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (33)
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:389  [326]
+           **Due-row wake 2026-10-30T10:51:33-04:00 (FRED first-published pull; DOCKET L630/L573/L751):** L16 cells 7–8 = HY **314** · **326** ⇒ DOWN r
+        AGENTS/NEXUS/STATUS_COLD.md:1947  [326]
+           > **L13:** DFII10 renewal anchor 2.74 [10/16]; UP ≥2.84 ×5 / DOWN ≤2.64 ×5, ±6pp. Cells 1–9 = 2.80/2.77/2.76/2.64/2.66/2.66/2.64/2.67/**2.63
+        AGENTS/NEXUS/STATUS_COLD.md:1948  [326]
+           > **L16:** anchor HY 329/CCC 1310 [10/19]; UP HY ≥339 ×3 / DOWN ≤319 ×3 with completing CCC ≤1310; ±6pp. Eight qualified cells HY 333/327/34
+        AGENTS/NEXUS/STATUS_COLD.md:1978  [326]
+           | R3 fundamental credit | HY 314/326 [10/28–29]: LIQUID confirms (31478bb9d) its >320 run ended at 9 on 10/27; new run 1-of-3 at 326. HY −20
+        AGENTS/NEXUS/STATUS_COLD.md:2021  [326]
+           | BREACHED / prior owner fires | LABOR CC <1.750M ×4 relief MET 10/8, run six record-only [10/22]; HY>320 run reached 9, broke 10/27 at 318
+        AGENTS/NEXUS/STATUS_COLD.md:2022  [326]
+           | PROXIMATE — market rows [10/29 cells] | L16 HY 326 vs DOWN 319 / UP 339 and L13 2.63 [10/29] vs 2.64 — DOWN run 1; M07 IG 89 vs93; M01 HY
+        AGENTS/NEXUS/STATUS_COLD.md:2024  [326]
+           | NOT CONFIRMING / unavailable | HY<260 guard not fired (326 [10/29], 66bp away);079 NOT ARMED; LIQ07 S2 reserve-channel only; M06 defective
+        AGENTS/NEXUS/STATUS_COLD.md:2038  [326]
+           **Market-verdict counter-signal (Disc-D):** credit has not followed the equity mechanics — HY 314/326 [10/28–29] vs 338 [10/23], IG 86/89, K
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:15  [326]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:16  [326]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:31  [326]
+           | **D:L751** | **L16** guarded HY (L 329, C₀ 1,310; frozen letter `research/2026-10-19_WQ459_guarded_HY_letter.md`) | cell 7 = obs 10/28 HY
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:35  [326]
+           | Context, not owed today | M-01 · M-07 · M-04b · M-08b | HY 314/326 · IG 86/89 · VIX 16.91/17.20 · B 318/332 with CCC 1,307/1,325 | All nei
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:42  [326]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:64  [326]
+           **MOVED but missing from the brief [STATUS]:** "**BRK-10 ❌ RESOLVED-FALSE 10/29**" (HTGC NAV $11.90 → $12.15 → $12.26). Software-marks row:
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:187  [326]
+           1. **Credit spreads:** LIQUID [STATUS] HY 326 (+12), BB 194 (+10), IG 89 (+3) [10/29 first-published]. That is "TRANSMISSION by the letter"
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R3.md:103  [326]
+           - **MOVED:** **7,700 put wall BROKEN** (low 7,527.56). SPX flips ~7,732/~7,736, net −$38.6B/−$60.7B per 1%. The trough is at 7,400–7,450, wi
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R3.md:120  [326]
+           1. **HY OAS:** RED and BOND give 318 [10/27]. VIOLET gives 314 [10/28]. HENRY gives **326 [10/29] (+12, YELLOW)**. These agree as a series:
+        AGENTS/NEXUS/research/2026-10-31_full_pass/RECORD.md:16  [326]
+           1. **AI/semis repricing, one class:** GOOGL −12.6% [10/29]; INTC −28.58%, SOXX −8.24%, QQQ −3.47%, SPY −1.77%, RSP −0.79% [10/30 vendor clos
+        AGENTS/NEXUS/research/2026-10-31_owed/RECORD.md:44  [326]
+           **15a cold read** (Sonnet `coldreader`, ledger `COLDREAD.md`): ❌1 applied — M-04 row still said HENRY gamma STALE 10/22 against the new narr
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/LAST_COMPLETION_before.md:39  [326]
+           **Result:** FRED first-published pull 10:51:33 ET (vintage = latest-revised on every cell since 9/29). **L751:** L16 cell 7 HY 314 (DOWN run
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:5  [326]
+           **Δ1 — price stress is established; broader financing transmission remains unresolved.** HENRY 11/2: negative gamma persists after Friday's
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:17  [326]
+           > **L16:** anchor HY 329/CCC 1310 [10/19]; UP HY ≥339 ×3 / DOWN ≤319 ×3 with completing CCC ≤1310; ±6pp. Cells 1–8 HY 333/327/340/338/330/31
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:27  [326]
+           | M-01 | Substance/tape divergence | R1/candidate R3; market + labor/consumer; LABOR/CARL/LIQUID/RED | 60% | — | 10-31 | HY 326 [10/29] vs c
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:47  [326]
+           | R3 fundamental credit | HY 314/326 [10/28–29]; LIQUID >320 run reset, new run 1-of-3 at obs 10/29 (earliest MET = obs 11/2, per LIQUID); L
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:91  [326]
+           | PROXIMATE — market rows [10/29 FRED, 10/30 vendor] | L16 HY 326 vs DOWN 319 / UP 339 (runs 0); L13 2.60 vs 2.64 (DOWN run 2; 10/30 Treasur
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:93  [326]
+           | NOT CONFIRMING | HY <260 guard (326, 66bp away); 079 NOT ARMED; T-SHADE-01 NOT MET; X1 NOT MET; REG-T-04 NOT FIRED; JGB disorder unconfirm
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/COLDREAD.md:18  [326]
+           - Independently matched all eight L16 HY/CCC cells to saved raw rows. Checked all five saved ICE series against each previous date: every re
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/DIGEST_CREDIT.md:56  [326]
+           MOVED: no current delta can be certified from stale brief. Its 10/28 HY314/IG86 and reset0-of-3 precede NEXUS 10/31 baseline HY326/IG89 [10/
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/DIGEST_MARKETS.md:9  [326]
+           3. HENRY, BOND and VIOLET repeat HY 326bp [10/29], not a post-Friday spread observation. None of these ten briefs supplies a fresh 10/30 ICE
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/DIGEST_MARKETS.md:28  [326]
+           MOVED SINCE baseline: Nov 2 owner update: matrix 19→18; dealer 3→2 on its letter, disagreement recorded. FR2004 as-of 10/21 long end $150.81
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/DIGEST_MARKETS.md:37  [326]
+           CROSS-DOMAIN/CALIBRATION: HYG −0.19%, HY 326bp [10/29], no new credit observation. Free-tier sign/flip robust; magnitude proxy. Comparator h
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/NOV5_PREP.md:7  [326]
+           | M-01, 60% | FRED MIRROR-WALLED HY BAMLH0A0HYM2 ≥350bp ×2 AND latest first-print ICSA ≤215,000 | HY ≤280bp ×2 OR DOL first-print claims ≥23
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/RECORD.md:11  [326]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (14)
+        AGENTS/NEXUS/recon/2026-10-01_coldread3_CHARTER.md:33  [326]  (no unit/series context on line)
+           ⚠️ 65 L326 (new) "`—` … = HELD this pass … never carried forward in Δ" vs L324 "signed change … since the last material change … `—` (flat o
+        AGENTS/NEXUS/recon/2026-10-14_coldread2_status_and_memo_ledger.md:70  [326]  (no unit/series context on line)
+           | 11 | A9 | PRED-50 CLOSED, §C6 | ✅ | §C6 L326 "all 27 logged cells unchanged" |
+        AGENTS/NEXUS/research/2026-10-14_WQ342_successor_credit-leg_DRAFT.md:126  [326]  (no unit/series context on line)
+           | Upper boundary, inclusive | 326 ×3 | UP at cell 3 |
+        AGENTS/NEXUS/research/2026-10-14_WQ342_successor_credit-leg_DRAFT.md:127  [326]  (no unit/series context on line)
+           | Mixed: UP run of 2 broken, then a DOWN run | 326, 330, 316, 306, 305, 304 (CCC ≤ C₀) | DOWN at cell 6 |
+        AGENTS/NEXUS/research/2026-10-14_WQ342_successor_credit-leg_DRAFT.md:135  [326]  (no unit/series context on line)
+           | Blocked DOWN run, then an UP run | (305, 1,300) ×3, then (326, 1,300) ×3 | UP at cell 6 (the blocked DOWN never completed) |
+        AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md:44  [326]  (no unit/series context on line)
+           | Upper boundary, inclusive | 326 ×3 | UP at cell 3 |
+        AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md:45  [326]  (no unit/series context on line)
+           | Mixed: UP run of 2 broken, then a DOWN run | 326, 330, 316, 306, 305, 304 (CCC ≤ C₀) | DOWN at cell 6 |
+        AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md:53  [326]  (no unit/series context on line)
+           | Blocked DOWN run, then an UP run | (305, 1,300) ×3, then (326, 1,300) ×3 | UP at cell 6 (the blocked DOWN never completed) |
+        … +6 more 🟠 hit(s) on [326] across 9 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (14)  [--show-handled to audit]
+
+  🔴 33 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================

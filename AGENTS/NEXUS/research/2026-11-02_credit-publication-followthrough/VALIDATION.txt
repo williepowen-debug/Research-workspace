@@ -1,0 +1,48 @@
+Bounded source/ledger preservation validation 2026-11-02T11:20:28-05:00
+PASS AGENTS/NEXUS/workbook/MANIFEST.json unchanged
+PASS AGENTS/NEXUS/workbook/TEST_READINGS_2026-11-02.tsv unchanged
+PASS AGENTS/NEXUS/workbook/CONDITIONS_2026-11-02.tsv unchanged
+PASS AGENTS/NEXUS/workbook/README.md unchanged
+PASS AGENTS/NEXUS/workbook/EVIDENCE_2026-11-02.tsv unchanged
+PASS AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md unchanged
+PASS AGENTS/NEXUS/research/2026-09-24_t12_successor_DFII10_letter.md unchanged
+PASS AGENTS/NEXUS/research/2026-10-08_disc-J_letters.md unchanged
+PASS AGENTS/NEXUS/research/2026-10-23_full_pass/DISC_J_POSTFIRE_LETTERS.md unchanged
+PASS AGENTS/NEXUS/CONFIRMED.md unchanged
+PASS all five integer-bp source observations
+PASS daily changes
+PASS L16 qualified count/runs/no fire
+PASS distinct earliest completing cells
+PASS M01 no run, six bp below edge
+PASS M07 weakening one of two
+PASS M08b both full conjunction runs zero
+PASS inclusive NEXUS edge vs strict LIQUID edge
+PASS L13 conditional mechanism context only
+PASS Friday cell appended once
+PASS logged tuple agrees with deciding source
+PASS ledger interim state/split
+PASS prior source readings byte-preserved
+PASS all matrix Conf unchanged
+PASS split/caveats preserved
+PASS STATUS below 200 lines
+PASS STATUS.md below rotation trigger
+PASS PREDICTIONS_MONITOR.md below rotation trigger
+PASS LAST_COMPLETION.md below rotation trigger
+PASS current handoff block below 6KB
+PASS prediction current run text agrees
+PASS processed inbox/2026-11-02_from-PROME_credit-publication-followthrough.md
+PASS processed inbox/WALTER/SIG-W-20261102-008.md
+PASS L13 no fire
+PASS L16 no fire
+PASS M01 no fire
+PASS M07 no fire
+PASS M08b no fire
+PASS L16 cell 1 not carry
+PASS L16 cell 2 not carry
+PASS L16 cell 3 not carry
+PASS L16 cell 4 not carry
+PASS L16 cell 5 not carry
+PASS L16 cell 6 not carry
+PASS L16 cell 7 not carry
+PASS L16 cell 8 not carry
+PASS L16 cell 9 not carry

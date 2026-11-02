@@ -1,0 +1,72 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 281 files under AGENTS/NEXUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── IG OAS observation update · superseded 89 → current 94
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (21)
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:356  [89]
+           | ✅ **L15** | **DISCHARGED 2026-10-08 — eight Disc-J letters REGISTERED** for M-01 · M-03 · M-04 · M-05 · M-06 · M-07 · M-10 · M-11 (instrum
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:380  [89]
+           | **L16** | **WQ459A guardedHY REGISTERED10/19; anchor = obs 10/19, QUALIFIED at first read 10/23: L = 329 · C₀ = 1,310 ⇒ UP HY ≥339 ×3 · DO
+        AGENTS/NEXUS/STATUS_COLD.md:1844  [89]
+           | T-01 | R | HY 340 / CCC 1,340 / VIX 19 / put wall broken vs IG 89, orderly funding, claims 194K, card NCOs improving, GIBBS no large-bank
+        AGENTS/NEXUS/STATUS_COLD.md:2022  [89]
+           | PROXIMATE — market rows [10/29 cells] | L16 HY 326 vs DOWN 319 / UP 339 and L13 2.63 [10/29] vs 2.64 — DOWN run 1; M07 IG 89 vs93; M01 HY
+        AGENTS/NEXUS/STATUS_COLD.md:2038  [89]
+           **Market-verdict counter-signal (Disc-D):** credit has not followed the equity mechanics — HY 314/326 [10/28–29] vs 338 [10/23], IG 86/89, K
+        AGENTS/NEXUS/board_log.tsv:97  [89]
+           2026-09-17T21:5x-04:00	DAEDALUS-20260917-PR6	acted	INBOX_TOPLEVEL	PR#6 consumed; C-36 verify-carry closure at CONFIRMED.md:18 acknowledged.
+        AGENTS/NEXUS/recon/2026-10-08_coldread_status_PM_ledger.md:92  [89]
+           | 85 | 24–106 | ⚠️ | Figures with no date or basis | HY "303" (L24); LABOR "26/75" (L24); "7Y+ −$3.828B" (L25, no week or series); "MOVE 100
+        AGENTS/NEXUS/research/2026-10-23_full_pass/RECORD.md:32  [89]
+           | M-07 | IG 89 | neither (DOWN 93 is 4bp away) | 11/5 |
+        AGENTS/NEXUS/research/2026-10-26_five_desk_return/CLOSEOUT.md:3  [89]
+           **Closed out 2026-10-26T23:06:29-04:00. Tier LIGHT (receipt/handoff only).** Explicit ask: PROME thread 01a17abd-8e89-73e3-b9db-ed26d0b2f3c0
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:35  [89]
+           | Context, not owed today | M-01 · M-07 · M-04b · M-08b | HY 314/326 · IG 86/89 · VIX 16.91/17.20 · B 318/332 with CCC 1,307/1,325 | All nei
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:42  [89]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:187  [89]
+           1. **Credit spreads:** LIQUID [STATUS] HY 326 (+12), BB 194 (+10), IG 89 (+3) [10/29 first-published]. That is "TRANSMISSION by the letter"
+        AGENTS/NEXUS/research/2026-10-31_full_pass/RECORD.md:16  [89]
+           1. **AI/semis repricing, one class:** GOOGL −12.6% [10/29]; INTC −28.58%, SOXX −8.24%, QQQ −3.47%, SPY −1.77%, RSP −0.79% [10/30 vendor clos
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/COLDREAD.md:14  [89]
+           | Rotation integrity | Preimage 22,542 bytes, SHA256 776fc0a30772304b53ec5188c5ff28a4adeb89ab47df1a9ed27883af98bbf218. Extracted October 26–
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:5  [89]
+           **Δ1 — price stress is established; broader financing transmission remains unresolved.** HENRY 11/2: negative gamma persists after Friday's
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:32  [89]
+           | M-07 | Counterevidence to generalized funding break | R1/candidate R3; market + filings; LIQUID/REGINALD/GIBBS | 79% | — | 11-02 | IG 89 [
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/STATUS_before.md:91  [89]
+           | PROXIMATE — market rows [10/29 FRED, 10/30 vendor] | L16 HY 326 vs DOWN 319 / UP 339 (runs 0); L13 2.60 vs 2.64 (DOWN run 2; 10/30 Treasur
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/DIGEST_CREDIT.md:56  [89]
+           MOVED: no current delta can be certified from stale brief. Its 10/28 HY314/IG86 and reset0-of-3 precede NEXUS 10/31 baseline HY326/IG89 [10/
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/NOV5_PREP.md:9  [89]
+           | M-07, 79% | FRED MIRROR-WALLED IG BAMLC0A0CM ≤71bp ×2 | IG≥93bp ×2 | IG 89 bp [10/29]; neither |
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/RECORD.md:11  [89]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/REPORT.md:7  [89]
+           - **Credit is the missing verdict.** Latest returned ICE/FRED observation is October 29: high-yield spread 326 bp, investment-grade 89 bp. T
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (51)
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:12  [89]  (no unit/series context on line)
+           `crc32 89d58827` · 9,307 B · source lines 3
+        AGENTS/NEXUS/STATUS_COLD.md:489  [89]  (no unit/series context on line)
+           | 🔴 **2026-09-08 → 09-10** | 🔒 **THE EXACT CHECK TOMORROW'S READER RUNS — pre-registered before the cells exist.** ① **PJM / M-09:** §202(c)
+        AGENTS/NEXUS/STATUS_COLD.md:498  [89]  (no unit/series context on line)
+           🔒 **C#2 is not a CPI event.** The window pinned 9/03 ends **9/10**; the CPI print moves the **9/11** cell, which is outside it. **A sustaine
+        AGENTS/NEXUS/STATUS_COLD.md:929  [89]  (no unit/series context on line)
+           | **M-05** | WAL/CRE — first bank-tier LEVEL fire | Medium | **48%** | **—** | 09-02 | **HELD, reviewed not re-marked.** 🆕 **Nano Banc FAILE
+        AGENTS/NEXUS/STATUS_COLD.md:1094  [89]  (no unit/series context on line)
+           | **M-05** | WAL/CRE — first bank-tier LEVEL fire | Medium | **48%** | **—** | 09-02 | **HELD.** Nano Banc FAILED 9/25 ($690.9M; REGINALD's
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:10  [89]  (no unit/series context on line)
+           2026-10-23T21:25:16-04:00	CELL	1	2026-10-19	2026-10-22	340	1340	210	346	89	QUALIFIED	3	UP_EDGE	0	20/47/33	research/2026-10-23_full_pass/raw_
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:15  [89]  (no unit/series context on line)
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:16  [89]  (no unit/series context on line)
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        … +43 more 🟠 hit(s) on [89] across 30 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (10)  [--show-handled to audit]
+
+  🔴 21 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================

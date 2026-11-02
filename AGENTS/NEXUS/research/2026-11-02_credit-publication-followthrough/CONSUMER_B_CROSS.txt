@@ -1,0 +1,527 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/NEXUS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── B OAS observation update · superseded 332 → current 360
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (248)
+        AGENTS/SIGNALS.md:50  [332]
+           | 2026-10-21 | LIQUID | ALL (via WALTER; packet processed by WALTER, BOARD SIG-W-20261019-003 carries the same sequence) | 🔴 | **HY OAS >320
+        AGENTS/WAL/STATUS.md:73  [332]
+           2. EPS 2.45 vs 2.36; PPNR 419.1 vs 412.4; pretax 339.1 vs 332.0; tax 61.9 vs 63.2. Vendor consensus basis and dates unmatched: no certified
+        AGENTS/LIQUID/MEMORY.md:96  [332]
+           - **>320 run count dated 10/21:** VERIFIED 3 consecutive first-published 325/323/331 [10/14–10/16] (graded 10/19, 50b710323); 329 [10/19] pe
+        AGENTS/LIQUID/STATUS.md:12  [332]
+           **Credit [FRED ICE first-published (`fred_fetch_vintage`), October 29 observation; pulled October30 10:53 ET, bp]:** HY 326 (+12 d/d), IG 89
+        AGENTS/HENRY/board_log.tsv:49  [332]
+           2026-07-01T23:05-04:00	SIG-W-20260628-008	acted	INBOX_WALTER	Record -$15B weekly tech-fund outflow immediately after record +$19B; US equity
+        AGENTS/RED/CHARTER_PROVENANCE.md:372  [332]
+           332│ Maintain at least 4 alternative scenarios with probabilities in STATUS.md. No scenario below 2%, no scenario above 60%. Update probabil
+        AGENTS/BOND/STATUS.md:35  [332]
+           | HY/CCC/B/BB/BBB/IG OAS | 326 / 1325 / 332 / 194 / 110 / 89bp [10/29] | [CONF MIRROR-WALLED ICE via FRED] |
+        AGENTS/CATO/TASK_INDEX.md:368  [332]
+           - **Earlier approvals/holds:** WQ-291/246/293 and 301(a/c) approved; permanent 301(b) rebase last known awaiting Will, 295 R2 held, 302 awai
+        AGENTS/VULCAN/SCRATCH.md:35  [332]
+           RECONCILE 841ed39e96fa49341b04881bef5a5aeb7044d5c5e3bc73618a16bd79643fc9fb STATUS UPDATED: memory test graded AMBIGUOUS (S2 2) [KB-326]; clu
+        AGENTS/DAEDALUS/design/2026-08-21_CHECK_STANDARD_BATCH_B_DRAFT.md:5  [332]
+           **Provenance discipline:** every ⑤b item below was verified at ZHAO's artifact before drafting (precondition from my own register): counts-k
+        AGENTS/DAEDALUS/runs/GATE_LOG.tsv:87  [332]
+           20261009T185900Z	closeout	332d877ca	0	CLEAN 5 · DECLARED 1 · DUE 4 · NOT-APPLICABLE 1	dfb56b92
+        AGENTS/DAEDALUS/scorecards/2026-09-18.md:40  [332]
+           - DOCKET L332 · 2026-09-17 · MARCO (remaining co-owner contribution; reserved to Will) / CORAL (delivered MSI grade and enrollment evidence)
+        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R5_florida_housing.md:90  [332]
+           **What shipped:** `381028da8` — read the Section 338 line list the fleet could not open since 8/22; energy (Ch.27) and potash (Ch.31) **CONF
+        AGENTS/DAEDALUS/runs/harness_audit_2026-10-04/TRANCHE3_CREDIT_READER.md:22  [332]
+           | `AGENTS/NEXUS/CLAUDE.md` | 69924 | 363 | `573cf81c5af677ac29aad894fbb0d8126efe68a8d2e194b6e332fbafa1c42097` | 1–69; 70–111; 112–231; 232–3
+        AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/production_commits.txt:1325  [332]
+           5b332ddfe WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel and insurer evidence
+        AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/production_commits.txt:2020  [332]
+           332d877ca BRENT: 10/9 settle-window crack EST Nov $107.16 / Dec $101.69 (L659 item 3)
+        AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/production_commits.txt:2643  [332]
+           332a0690a WALTER: BOARD archive record SIG-W-20261004-009 Micron Q4 FY26 (owner VULCAN has it); intake baseline reconcile
+        AGENTS/DAEDALUS/runs/2026-10-21_STALENESS_EVIDENCE/prome_class10_sample.txt:51  [332]
+           368	2026-09-19	🔴 **`spawn_list.py` SUPPRESSED ALL THREE DOCKET ROWS DUE TODAY — third instance of one class.** 2026-09-13: L248 (CRUISE) · L
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/rebase_commits.txt:56  [332]
+           e00fa90ece5c140cbfe332e52bcf6301c602db6a 2026-09-30T11:22:18-04:00 PROME: reconcile six hashes rewritten by the 11:2x non-ff rebase (GATES/D
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:376  [332]
+           be8b72644c8c25958e0bc0e5eb598433c6e6a51b 2026-09-30T19:36:44-04:00 PROME: eight WQ rows RULED under Will's 19:32 ET blanket word (305 306 33
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:413  [332]
+           e00fa90ece5c140cbfe332e52bcf6301c602db6a 2026-09-30T11:22:18-04:00 PROME: reconcile six hashes rewritten by the 11:2x non-ff rebase (GATES/D
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:571  [332]
+           c45664a8b82c31683281dcf0e419cfac36df79b2 2026-09-28T19:30:50-04:00 PROME: post-closeout addendum — WQ-332 registered (BOND pulled-deal clust
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:677  [332]
+           332a8687beb88fb51bf16a8a5130a2303e2f049a 2026-09-28T11:34:36-04:00 LIQUID -> PROME: L492 grade + L510 bounded completion (WQ-301 b)
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:1497  [332]
+           f1cef97fc2ce5846693f1eb1a9045d385c5eb6d2 2026-09-17T08:48:55-04:00 PROME: L332 RESOLVED on MARCO's ONE FL figure (OCPS 193,656, −3.97%); MAR
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:1498  [332]
+           d3c1fd1d8f777af5d2b65cb174d4d4d0ef11b285 2026-09-17T08:47:23-04:00 MARCO -> CORAL, PROME: L332 FL enrollment reconciled to ONE figure (193,6
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:1687  [332]
+           f2fb7aaf9a7989d4588eca71c4f6af83828ce52f 2026-09-13T20:22:04-04:00 PROME: WQ-243 registered (MARCO's half of L332 is Will's spawn and Sunday
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:1834  [332]
+           ebabd4ac21983a51deded917e06c9e1c8e74ca83 2026-09-11T16:36:22-04:00 PROME: WQ-227 RULED (rider) · L332 MARCO leg = Will spawns · CRUISE term
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_commits.txt:1852  [332]
+           b6309cc91bf16f15d563b5473f64de2c690c1037 2026-09-11T13:57:05-04:00 PROME: WALTER doorbell triaged — OSPREY spawned (Tier 1), DAEDALUS 9/4 in
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/handbook.html.txt:237  [332]
+           Ruled Wednesday: the mirror-commit approval is retired (PROME verifies, commits, and reports); your standing practice, sell or roll before e
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/docket.html.txt:72  [332]
+           🔴 **`spawn_list.py` SUPPRESSED ALL THREE DOCKET ROWS DUE TODAY — third instance of one class.** 2026-09-13: L248 (CRUISE) · L295 (PROME) · L
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:386  [332]
+           100644 blob 8f332dc5a00be1afd3fc8b10b05d55bb30f8e96c	AGENTS/DAEDALUS/inbox/processed/2026-09-12_from-PROME_L294-handoff-plus-two-new-instanc
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:575  [332]
+           100644 blob d13a90d6145681bf92c75f575f332d6aa78a0164	AGENTS/DAEDALUS/runs/2026-08-28_WIRING_SWEEP/leg20_boot_stdout.txt
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:997  [332]
+           100644 blob fc8235565f06c850eb62a8b332ae7875d482d9a0	FORGE/timing/research/FLOW_OF_FUNDS_RESPONSE_2.md
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/source_tree.tsv:2355  [332]
+           100644 blob 7ec56d56a0a2560477c17630f70d281e75d1e74e	PROME/inbox/processed/2026-09-17_from-MARCO_L332-the-one-FL-enrollment-figure-193656-mi
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/window_numstat.tsv:326  [332]
+           53	0	PROME/inbox/processed/2026-09-17_from-MARCO_L332-the-one-FL-enrollment-figure-193656-minus-3-97pct-plus-whole-inbox-drain.md
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/BRENT_commits.txt:73  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/BRENT_commits.txt:144  [332]
+           332d877caf0c525647c17d66b8e84482e42c98d5 | 2026-10-09T14:45:22-04:00 | BRENT: 10/9 settle-window crack EST Nov $107.16 / Dec $101.69 (L659 i
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/VIOLET_commits.txt:48  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/VIOLET_commits.txt:69  [332]
+           332a0690a20d87ddd4b425fb7de686c45f702c9c | 2026-10-04T16:12:24-04:00 | WALTER: BOARD archive record SIG-W-20261004-009 Micron Q4 FY26 (owner
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/SHADE_commits.txt:11  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/LIQUID_commits.txt:106  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/HENRY_commits.txt:64  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/HENRY_commits.txt:112  [332]
+           332a0690a20d87ddd4b425fb7de686c45f702c9c | 2026-10-04T16:12:24-04:00 | WALTER: BOARD archive record SIG-W-20261004-009 Micron Q4 FY26 (owner
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/REGINALD_commits.txt:126  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/DAEDALUS/upgrades/evidence/PRODUCTION_REVIEW_2026-10-21_MARKET/BROCK_commits.txt:51  [332]
+           5b332ddfea64b0e921561702f8a0b94bdce5ecf3 | 2026-10-13T20:05:07-04:00 | WALTER -> BROCK/SHADE/BRENT/REGINALD: route October13 bank, diesel an
+        AGENTS/BARON/domains/cross-domain/edges.tsv:164  [332]
+           E-332	N-184	N-083	REGULATOR	Ferguson's FTC reviews $55B EA acquisition; largest LBO ever	CONFIRMED	Bloomberg	2026-01-07
+        AGENTS/OTTO/thesis/PREDICTIONS.tsv:20  [332]
+           OTTO-34	Deep-subprime 2022-vintage terminal loss keeps grinding: EART 2022-3 cumulative net loss ratio reaches >=29.0% on the 10-D filed in
+        AGENTS/OTTO/workbook/ML.tsv:296  [332]
+           ML-OTTO-295	2026-10-14	029	OTTO calibration / as-made scoreboard	Calibration	Resolved rows re-scored at AS-MADE, each figure taken from the
+        AGENTS/OTTO/workbook/ML.tsv:333  [332]
+           ML-OTTO-332	2026-10-25	037	Ally Q3 call	Secondary source pass	Issuer IR replay HTTP200 JavaScript shell, no primary audio reviewed. Secondar
+        AGENTS/OTTO/research/2026-10-19_forecast-repair/ledger-before.tsv:20  [332]
+           OTTO-34	Deep-subprime 2022-vintage terminal loss keeps grinding: EART 2022-3 cumulative net loss ratio reaches >=29.0% on the 10-D filed in
+        AGENTS/OTTO/research/2026-10-25_stale-file-sweep/INVENTORY.tsv:384  [332]
+           AGENTS/OTTO/research/2026-10-25_catchup/tricolor-bk-search.tsv	dated research / history / packet	1541	b650a2fee3dc6546ffe0d5ff80092530ee0688
+        AGENTS/OTTO/research/2026-10-25_stale-file-sweep/INVENTORY.tsv:475  [332]
+           AGENTS/OTTO/scripts/__pycache__/boot.cpython-312.pyc	generated output / retained source artifact	11925	a82bfb4e332a3870b0b24782b1f2b9460cd4d
+        AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_exhibit_1.txt:36  [332]
+           TBVPS) $ 4 1.00 $ 42.12 $ 40.93 $ 40.38 $ 3 9.19 Efficiency ratio 53.0% 57.7% 58.8% 58.9% 57.2% (1)(2) Adjusted efficiency ratio 45.7% 48.7%
+        AGENTS/OTTO/research/2026-10-19_readiness/sources/hindenburg_jan02.txt:51  [332]
+           Carvana engaged in “sham” deals with DriveTime, along with numerous other improprieties, per allegations in a 2024, 332-page amended class a
+        AGENTS/OTTO/research/2026-10-19_readiness/sources/hindenburg_jan02.txt:781  [332]
+           Carvana Engaged In “Sham” Deals With DriveTime, Along With Numerous Other Improprieties, Per A 2024, 332-Page Amended Class Action Lawsuit B
+        AGENTS/OTTO/research/2026-10-25_financing-terms/sources/blast3_prospectus.txt:2053  [332]
+           subject to underwriting exceptions at the time of origination: Category of Exception Number of Receivables Aggregate Outstanding Principal B
+        AGENTS/VIOLET/workbook/KB.tsv:341  [332]
+           KB-VIO-340	2026-10-19	VOL	VIX	Recovered CFTC VIX October13 report from2026annual ZIP: leveraged money net+1105,p91.0 versusOctober6+5494,p96
+        AGENTS/VIOLET/research/2026-10-14_data-refresh/CLOSEOUT.md:7  [332]
+           **Validation:** all10blocking desk contracts pass; guard.txt. Schema332rows clean,6weekday-check files clean,5boot reads under cap. MEMORY23
+        AGENTS/WAL/research/2026-10-19_Q3_STAGE1_GRADE.md:42  [332]
+           2. **Profit growth is positive but its recurring composition is mixed.** GAAP EPS2.45 versus2.36; PPNR419.1 versus412.4; pretax339.1 versus3
+        AGENTS/WAL/research/2026-10-14_Q3-evidence-worksheet.tsv:2  [332]
+           Pretax_income_M	Release/10-Q	332.0	NOT_YET_DISCLOSED	PENDING	WAL earnings bridge
+        AGENTS/WAL/research/2026-10-19_Q3-evidence-worksheet.tsv:2  [332]
+           Pretax_income_M	Release/10-Q	332.0	339.1	EX99.1 five-quarter income	WAL earnings bridge
+        AGENTS/WAL/sources/2026-10-19_Q3/walq32026earningspresent.htm.txt:10  [332]
+           5 Q3-26 Q2-26 Q3-25 Interest Income1 $ 1,257.3 $ 1,231.9 $ 1,225.5  Interest Expense  (449.7)  (435.0)  (475.1)  Net Interest Income $ 807.6
+        AGENTS/WAL/sources/followup_2026-10-13/Q2_earnings_primary_extract.md:10  [332]
+           Three Months Ended June 30, Six Months Ended June 30, 2026 2025 2026 2025 (in millions, except per share amounts) Interest income: Loans, in
+        AGENTS/LIQUID/research/2026-10-23_evening/REPORT.md:11  [332]
+           | B (BAMLH0A2HYB) | 335 | 336 | 338 | 332 | **346** | +14 |
+        AGENTS/LIQUID/research/2026-10-26_boot/transmission.txt:11  [332]
+           last 6 obs: 2026-10-16: 85/106/203/335/1297/331, 2026-10-19: 87/108/200/336/1310/329, 2026-10-20: 87/108/202/338/1327/333, 2026-10-21: 88/10
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/REPORT.md:19  [332]
+           | B | 318 | 332 | +14 | 97.4% |
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/transmission_check.txt:7  [332]
+           B        332   +14    97.4%    27   +17    81.4%   156  784/770
+        AGENTS/LIQUID/research/2026-10-30_wq545-grade/transmission_check.txt:12  [332]
+           last 6 obs: 2026-10-22: 89/111/210/346/1340/340, 2026-10-23: 91/113/206/343/1356/338, 2026-10-26: 90/112/198/336/1345/330, 2026-10-27: 88/10
+        AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/CFG-supplement.txt:1  [332]
+           EX-99.3 4 q326financialsupplement.htm EX-99.3 Document Financial Supplement Third Quarter 2026 1 Table of Contents Page Consolidated Financi
+        AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/RF-release.txt:1  [332]
+           EX-99.1 2 rf-2026930xexhibit991.htm EX-99.1 Document Exhibit 99.1 Regions Reports Earnings of $611 Million and EPS of $0.71 in 3Q 2026 BIRMI
+        AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/ZION-release.txt:1  [332]
+           EX-99.1 2 exh991earningsrelease20260.htm EX-99.1 Document Zions Bancorporation, N.A. One South Main Salt Lake City, UT 84133 October 19, 202
+        AGENTS/REGINALD/domain/sources/2026-10-20_earnings-catchup/WAL-release.txt:1  [332]
+           EX-99.1 2 pressrelease-9302026.htm EX-99.1 Document Western Alliance Bancorporation One East Washington Street Phoenix, AZ 85004 www.western
+        AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q2_release-text.txt:1  [332]
+           EX-99.1 2 pressrelease-6302026.htm EX-99.1 Document Western Alliance Bancorporation One East Washington Street Phoenix, AZ 85004 www.western
+        AGENTS/REGINALD/domain/sources/2026-10-14_WAL_11EPS_test/Q2_deck-text.txt:1  [332]
+           EX-99.2 3 walq22026earningspresent.htm EX-99.2 walq22026earningspresent EARNINGS CALL 2nd Quarter 2026  July 22, 2026 2 This presentation co
+        AGENTS/REGINALD/domain/sources/2026-10-20_backlog-followthrough/wal_primary_deck.txt:10  [332]
+           5 Q3-26 Q2-26 Q3-25 Interest Income1 $ 1,257.3 $ 1,231.9 $ 1,225.5  Interest Expense  (449.7)  (435.0)  (475.1)  Net Interest Income $ 807.6
+        AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [332]
+           egbn-20251231 0001050441 false 2025 FY http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-
+        AGENTS/REGINALD/domain/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_2025_10Q.txt:1  [332]
+           egbn-20250930 0001050441 false --12-31 2025 Q3 http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets P5Y xbrli:s
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/HBAN_Q2.txt:1  [332]
+           hban-20260630 UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 FORM 10-Q ☒ QUARTERLY REPORT PURSUANT TO SECTION 13 OR
+        AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/SSB_Q2.txt:1  [332]
+           SOUTHSTATE BANK CORP_June 30, 2026 Table of Contents ​ ​ UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549 ​ FORM 10-Q
+        AGENTS/REGINALD/domain/sources/2026-10-28_boot/borrowing_screen_dryrun/borrowing_screen_20260331_20260630.tsv:3454  [332]
+           26760	GREEN BELT BANK&TRUST	IOWA	NM	803649	True	False	771964.0	758705.0	6901.0	6569.0	-332.0	-332.0	-14100.0	690713.0	-250.0
+        AGENTS/REGINALD/domain/sources/2026-10-28_boot/borrowing_screen_dryrun/borrowing_screen_20260331_20260630.tsv:3744  [332]
+           9935	RIVERS EDGE BANK	SOUTH DAKOTA	NM	474450	True	False	346325.0	357097.0	29619.0	26992.0	-2627.0	-3026.0	11831.0	284042.0	332.0
+        AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/FY2025_10K.txt:1  [332]
+           egbn-20251231 0001050441 false 2025 FY http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-
+        AGENTS/REGINALD/research/EGBN/sources/2026-10-12_EGBN_cleanup_verification/raw/Q3_2025_10Q.txt:1  [332]
+           egbn-20250930 0001050441 false --12-31 2025 Q3 http://fasb.org/us-gaap/2025#OtherAssets http://fasb.org/us-gaap/2025#OtherAssets P5Y xbrli:s
+        AGENTS/REGINALD/reports/2026-10-23_boot/REPORT.md:14  [332]
+           | B OAS | **346 [10/22]** | 332 [10/21] | Above the 330 ORANGE line for a third print; watch only |
+        AGENTS/CREED/research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md:53  [332]
+           | BRSP | Change in CECL ≈ +$7M (general reserve $100M → $107M); no specific reserve. RE impairment −$0.15/sh (undepreciated basis) | $106.3M
+        AGENTS/CREED/research/2026-10-01_refi_agents/dir5_6_opex_and_coupon_gap.md:73  [332]
+           | — | Trepp conduit **5-year median spread, office: 287bp (2026)**, 281 (2025), 294 (2024), 332 (2023). All-property 270bp (2026) | — | ⚠️ S
+        AGENTS/WALTER/routed/route_log.tsv:414  [332]
+           2026-06-28T22:45:00Z	SIG-W-20260628-008	Will-Telegram image batch #2 6/28 (@KobeissiLetter)	US tech-sector fund-flow whipsaw: record -$15B w
+        AGENTS/WALTER/debug/realestate-library-2026-10-27/dispositions.tsv:277  [332]
+           276	19f17f930b332cce	CONSOLIDATED_THEN_TRASHED	catalog.json#19f17f930b332cce
+        AGENTS/WALTER/debug/realestate-library-2026-10-27/dispositions.tsv:333  [332]
+           332	19e8d4123b60ced5	KEPT_IN_GMAIL	catalog.json#19e8d4123b60ced5
+        AGENTS/WALTER/debug/realestate-2026-10-27/dispositions.tsv:285  [332]
+           284	19f17f930b332cce	RETAIN	Unique research source or unresolved relevance; preserve
+        AGENTS/WALTER/debug/realestate-review-2026-10-27/queue-full/16.txt:57  [332]
+           View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/9b4f0284-332f
+        AGENTS/WALTER/research/2026-10-19_evening-combined/owner-10.md:42  [332]
+           2. **Profit growth is positive but its recurring composition is mixed.** GAAP EPS2.45 versus2.36; PPNR419.1 versus412.4; pretax339.1 versus3
+        AGENTS/WALTER/research/2026-10-27_startup/owner-context-3.txt:175  [332]
+           | **Calendar coverage** | Built/reviewed; PROME triaged as-ofOctober21:5 MATCHED,74 UNMATCHED,332 UNASSESSED. Mostly internal calendar check
+        AGENTS/WALTER/research/2026-09-15_follow-through/route-baseline.tsv:414  [332]
+           2026-06-28T22:45:00Z	SIG-W-20260628-008	Will-Telegram image batch #2 6/28 (@KobeissiLetter)	US tech-sector fund-flow whipsaw: record -$15B w
+        AGENTS/WALTER/research/2026-10-31_outbox-cleanup/DISPOSITIONS.tsv:6  [332]
+           AGENTS/WALTER/outbox/2026-09-08_codex-owner-progress.md	RETAIN_REFERENCE	AGENTS/WALTER/outbox/2026-09-08_codex-owner-progress.md	9a48983c1bd
+        AGENTS/WALTER/research/2026-10-31_outbox-cleanup/DISPOSITIONS.tsv:57  [332]
+           AGENTS/WALTER/outbox/2026-10-13_to-PROME_priority-routing-completion.md	ARCHIVED	AGENTS/WALTER/archive/outbox/2026-10-31/2026-10-13_to-PROME
+        AGENTS/WALTER/research/2026-10-21_boot/owner-heads-1.txt:56  [332]
+           | **Calendar coverage** | Built/reviewed; PROME triaged as-ofOctober21:5 MATCHED,74 UNMATCHED,332 UNASSESSED. Mostly internal calendar check
+        AGENTS/WALTER/research/2026-10-27_realestate-mail/RESULT.md:17  [332]
+           Gmail mutation receipts report success. Independent paginated `in:trash` search under the exact label returns precisely the 183 selected IDs
+        AGENTS/WALTER/research/2026-10-05_boot/prior-LAST_COMPLETION.md:54  [332]
+           - **Commits (on origin except `907e29ccc`):** `10f9375b9` (version), `332a0690a` (MU `-009`), `ace4541a2` (light-closeout), `f78d1f2c5` (PRO
+        AGENTS/WALTER/research/2026-10-14_morning-news/before-LAST_COMPLETION.md:88  [332]
+           "commit": "5b332ddfea64b0e921561702f8a0b94bdce5ecf3",
+        AGENTS/WALTER/research/2026-10-25_boot/owner-headers.txt:448  [332]
+           | **Calendar coverage** | Built/reviewed; PROME triaged as-ofOctober21:5 MATCHED,74 UNMATCHED,332 UNASSESSED. Mostly internal calendar check
+        AGENTS/WALTER/research/2026-10-12_resume-2057/checks/read-cap.txt:9  [332]
+           ↳ 70–75% BAND — rc 0 and unflagged, and this check CANNOT tell which case you are in: if this surface was JUST ROTATED it is NOT finished an
+        AGENTS/MIDAS/sources/2026-10-20_news/bls_ppi.txt:737  [332]
+           have a speech disability, please dial 7-1-1 to access telecommunications relay services. Table 1. Producer price index percentage changes an
+        AGENTS/MIDAS/sources/2026-10-12_review/deafut.txt:6  [332]
+           "SOYBEANS - CHICAGO BOARD OF TRADE",261006,2026-10-06,005602,CBT ,00,005 , 1121298,  360967,   87071,  222233,  487194,  737191, 1070394, 10
+        AGENTS/MIDAS/sources/2026-10-12_review/deafut.txt:246  [332]
+           "ARGUS PROPANE FAR EAST INDEX - NEW YORK MERCANTILE EXCHANGE",261006,2026-10-06,06665B,NYME,01,066 ,    4213,     933,       0,      78,
+        AGENTS/MIDAS/sources/2026-10-12_review/deafut.txt:315  [332]
+           "LITECOIN PERP STYLE - COINBASE DERIVATIVES, LLC",261006,2026-10-06,167LM1,FREX,00,180 ,    5499,    4535,    4867,       0,       0,
+        AGENTS/MIDAS/sources/2026-10-12_m1-draft/anchors.csv:195  [332]
+           312,2025-04-04,332,2025-05-05,-0.039607,-0.002957,False,B
+        AGENTS/MIDAS/sources/2026-10-12_m1-draft/anchors.csv:215  [332]
+           332,2025-05-05,352,2025-06-03,-0.002957,-0.003689,False,B
+        AGENTS/MIDAS/sources/2026-10-12_thesis-test/wpic_q2_2026.txt:772  [332]
+           In 2026, platinum medical demand is projected to rise by 4% year-on-year (+12 koz) to 332 koz. Medical devices, the largest source
+        AGENTS/MIDAS/sources/2026-10-12_m1-expanded/anchors.csv:215  [332]
+           332,2011-05-03,2011-06-01,-0.037115,-0.010894,False,B
+        AGENTS/MIDAS/shared/sources/2026-10-26_recycling-refining/sibanye_h1.txt:362  [332]
+           Based on the closing share price of R50.28 on 28 August 2026. The 6.6% trailing 12-month dividend yield is calculated using combined dividen
+        AGENTS/MIDAS/shared/sources/2026-10-26_recycling-refining/sibanye_h1.txt:436  [332]
+           *Based on closing share prices on 28 August 2026. The 8.0% yield relates to the annualised H1 2026 interim dividend of 201 SA cents per shar
+        AGENTS/MIDAS/gold/sources/2026-10-25_bottom-check/cftc_legacy.txt:102  [332]
+           "NAT GAS NYME - NEW YORK MERCANTILE EXCHANGE",261020,2026-10-20,023651,NYME,01,023 , 1710685,  264475,  505747,  767402,  619833,  396864, 1
+        AGENTS/MIDAS/gold/sources/2026-10-25_bottom-check/cftc_legacy.txt:240  [332]
+           "BUTANE OPIS MT BELV NONTET FP - ICE FUTURES ENERGY DIV",261020,2026-10-20,06641D,IFED,01,066 ,   63936,   10529,    8440,    5472,   47602,
+        AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_disagg_f_disagg.txt:47  [332]
+           "USGC HSFO-PLATTS/BRENT 1ST LN  - ICE FUTURES ENERGY DIV",261027,2026-10-27,02141R,IFED,01,021 ,   13261,   10610,    5672,     302,    1210
+        AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_disagg_f_disagg.txt:120  [332]
+           "DRY WHEY - CHICAGO MERCANTILE EXCHANGE",261027,2026-10-27,052645,CME ,00,063 ,    4112,    2249,     845,    1203,     671,       0,
+        AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_disagg_f_disagg.txt:247  [332]
+           "ARGUS PROPANE FAR EAST INDEX - NEW YORK MERCANTILE EXCHANGE",261027,2026-10-27,06665B,NYME,01,066 ,    4572,    1972,    3353,     319,
+        AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_disagg_f_disagg.txt:261  [332]
+           "WTI FINANCIAL CRUDE OIL - NEW YORK MERCANTILE EXCHANGE",261027,2026-10-27,06765A,NYME,01,067 ,  214869,   31531,   60879,   53751,   54239,
+        AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_legacy_deafut.txt:48  [332]
+           "USGC HSFO-PLATTS/BRENT 1ST LN - ICE FUTURES ENERGY DIV",261027,2026-10-27,02141R,IFED,01,021 ,   13261,    1201,    5157,    1098,   10912,
+        AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_legacy_deafut.txt:127  [332]
+           "DRY WHEY - CHICAGO MERCANTILE EXCHANGE",261027,2026-10-27,052645,CME ,00,063 ,    4112,       0,    2143,     121,    3452,    1516,    357
+        AGENTS/MIDAS/gold/sources/2026-10-30_july-low-break/cftc_legacy_deafut.txt:299  [332]
+           "BITCOIN - CHICAGO MERCANTILE EXCHANGE",261027,2026-10-27,133741,CME ,00,133 ,   20791,   16980,   14260,    2678,     131,    3011,   19789
+        AGENTS/MARCO/workbook/KB.tsv:112  [332]
+           KB-MARCO-FLM-36	2026-09-17	FLORIDA	THE ONE reconciled FL enrollment figure (CORAL↔MARCO): OCPS district headcount 193,656 at 2026-09-15 = −7
+        AGENTS/MARCO/workbook/MIGRATION_PROXIES.tsv:24  [332]
+           2026-09	OCPS_HEADCOUNT	Orange County (OCPS district total, all school types)	193656	-3.97	confounded — NOT a migration direction read; −7,99
+        AGENTS/MARCO/research/2026-10-25_capacity/GEE_2026_segments.csv:3673  [332]
+           3.00,3.00,486.00,332.00,1262.00,B6,20409,JetBlue Airways,06673,D,3,3,FLL,"Fort Lauderdale, FL",FL,MHT,"Manchester, NH",NH,694,1,2026,5,F
+        AGENTS/MARCO/research/2026-10-25_capacity/GEE_2025_geography_carrier_month.csv:164  [332]
+           2025,6,SY,Sun Country Airlines d/b/a MN Airlines,61752.0,55281.0,332.0,332.0
+        AGENTS/ZHAO/workbook/KB.tsv:172  [332]
+           KB-ZHAO-171	2026-09-18	UST_FOREIGN	China	🔴 **THE CHINA-US 10Y YIELD GAP SET A RECORD ON 2026-09-10 AND HAS WIDENED SINCE — AND ZHAO HAS NO I
+        AGENTS/HENRY/research/2026-10-22_L769/STATUS-before.md:33  [332]
+           | HY OAS (secondary) | 332bp | 10/20, OCBC via PROME HEARTBEAT amendment #2 — secondary, not FRED |
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/final-ICL-003801.txt:37  [332]
+           through, our website is not intended to be part of this Form 6-K. 2 ICL Group Limited Q2 2026 Results Financial Figures and non-GAAP Financi
+        AGENTS/HENRY/research/2026-10-19_event-audit/raw/final-ICL-003801.txt:203  [332]
+           the events occurring subsequent to the date of the statement of financial position, as filed with the US SEC. 29 ICL Group Limited Q2 2026 R
+        AGENTS/BROCK/workbook/KB.tsv:321  [332]
+           KB-BRK-332	2026-10-14	PRIVATE_CREDIT	Kellermeyer / FSK borrowing-base contract	Q2 pledged-v flags include both loans/equity. Contract5.13 pe
+        AGENTS/BROCK/workbook/FLOW.tsv:28  [332]
+           FLOW-BRK-026	Accruing PIK versus cash-pay facility collateral	quarters	borrower->BDC->bank	ACTIVE	Cash interest converts to PIK or mark/nona
+        AGENTS/BROCK/research/2026-10-14_wave/citi_8k.txt:511  [332]
+           Allowance for credit losses on loans(ACLL)Services $ 264 $ 24 $ 53 $ (4)$ (18) $ 55 $ 8 $ 327 $ 97 $ 46 $ (23)$ 120$ 2 $ 449Markets 1,030 48
+        AGENTS/BROCK/research/2026-10-25_three-followups/positions.csv:242  [332]
+           ARCC,c-332,Transit Technologies LLC. | First lien senior secured loan,transit technologies,Software and Services,True,funded_debt,USD,121000
+        AGENTS/BROCK/research/2026-10-25_three-followups/positions.csv:1701  [332]
+           BXSL,c-332,Foundation Risk Partners Corp. 2 | Non-Affiliated Issuer,foundation risk partners,Insurance,False,funded_debt,USD,4711000.0,46770
+        AGENTS/BROCK/research/2026-10-25_three-followups/positions.csv:2385  [332]
+           FSK,c-332,Medallia Inc | Software & Services,medallia,Software & Services,True,funded_debt,USD,234100000.0,233000000.0,117400000.0,0.5014950
+        AGENTS/BROCK/research/2026-10-25_three-followups/positions.csv:3012  [332]
+           GBDC,c-332,"Apex Service Partners, LLC | One stop 1 | Non-Affiliated Issuer",apex service partners,Diversified Consumer Services,False,funde
+        AGENTS/CARL/workbook/KB.tsv:329  [332]
+           KB-CARL-332	2026-07-16	MACRO_ENERGY	Diesel_Freight_CostPush_Q3channel	Russia diesel-ban supply-shock DEEPER than first logged: Ukrainian str
+        AGENTS/CARL/board/BOARD_LOG.tsv:418  [332]
+           SIG-W-20260628-008	008--	EQUITY_VOL	STANDARD	REFERRED		2026-07-02	->HENRY: US tech-fund flows whipsaw -$15B weekly after record +$19B; YTD +
+        AGENTS/FLG/sources/2026-10-22_8K_sweep/000091007325000173_a3q25earningspresentatio.htm.txt:22  [332]
+           163rd Quarter 2025 Commercial Real Estate | Payoffs and CRE Concentration Trends 3Q’25 Payoffs Total Substandard (%) YTD’25 Payoffs Total Su
+        AGENTS/RED/reports/2026-10-15_S53_cold_audit_ledger.md:136  [332]
+           | 5.16 | ⚠️ | thesis/TIMELINE.md | The file says "v3 … Last Updated: 2026-06-22", with Path A 44 / B 50 / War 6, a framework the current six
+        AGENTS/FALCON/workbook/KB.tsv:334  [332]
+           KB-FALCON-332	2026-10-26	HORMUZ	Iran	Own October 26 search recovered August 25 Omani joint statement on temporary corridor; no new permanent
+        AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-legacy.txt:321  [332]
+           "NANO ETHER PERP STYLE - COINBASE DERIVATIVES, LLC",260901,2026-09-01,146LM3,FREX,00,146 ,  342619,  328624,  269726,      10,    4511,   58
+        AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-legacy.txt:355  [332]
+           "BLOOMBERG HY CREDIT FUTURES - CHICAGO BOARD OF TRADE",260901,2026-09-01,221605,CBT ,00,221 ,    4982,    3981,     978,      41,     931,
+        AGENTS/SAM/research/outputs/2026-09-09_followthrough/raw/cftc-tff.txt:53  [332]
+           "BLOOMBERG HY CREDIT FUTURES - CHICAGO BOARD OF TRADE",260901,2026-09-01,221605,CBT ,00,221 ,    4982,    1051,       0,       0,    2846,
+        AGENTS/BRENT/audits/2026-10-14_operational-followups/public-eia-retail.txt:1864  [332]
+           <image width="373" height="332" transform="translate(176.25 11.28) scale(0.24)" xlink:href="/global/images/energy-kids/energy-ant.png" />
+        AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:75  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","316","306","332","328","317","332"
+        AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:81  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","316","306","332","328","317","332"
+        AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:95  [332]
+           "Refiner and Blender Net Production ","Rocky Mountain (PADD 4)","340","345","270","252","332","262"
+        AGENTS/BRENT/research/2026-09-16_cross-war-oil/table9.csv:129  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","317","363","332","320","349","318"
+        AGENTS/BRENT/research/2026-10-20_eia-oct15-evaluation/archive-sep23-table9.csv:95  [332]
+           "Refiner and Blender Net Production ","Rocky Mountain (PADD 4)","323","340","294","253","332","271"
+        AGENTS/BRENT/research/2026-10-26_evening-sweep/cme-pages1-2.txt:143  [332]
+           JAN27                        3.0081              3.0827B/3.0060            3.0606    +   0.0425               29902            538
+        AGENTS/BRENT/research/2026-09-10_wpsr/wpsr-table9.csv:450  [332]
+           "Imports ","All Other Blending Components","171","109","358","332","183","354"
+        AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table9.csv:56  [332]
+           "Refiner and Blender Net Inputs ","Gulf Coast (PADD 3)","-355","-445","-413","-332","-415","-421"
+        AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table9.csv:75  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","324","323","348","332","319","347"
+        AGENTS/BRENT/research/2026-09-09_squeeze-review/wpsr-table9.csv:81  [332]
+           "Refiner and Blender Net Production ","Midwest (PADD 2)","324","323","348","332","319","347"
+        AGENTS/BRENT/research/2026-10-10_diesel-deal-restart-freight/NOTE.md:26  [332]
+           | ③ settle-window VWAP 14:28–14:30 ET | **$107.15941** | **$101.68866** | [EST single vendor, typical-price VWAP, 3/3 bars per leg; reproduc
+        AGENTS/BRENT/research/2026-10-10_diesel-deal-restart-freight/NOTE.md:70  [332]
+           - **L659 handback: CLOSED on 10/9.** ① COT #9 graded JOINT NOT-SPENT (`f50d59625`); ② MMA 10/9 71.51% (`6c0db64fe`); ③ settle-window crack $
+        AGENTS/BRENT/research/2026-10-26_energy-review/REPORT.md:14  [332]
+           Sources: [Reuters republication](https://www.timeslive.co.za/news/world/2026-10-26-houthis-say-they-attacked-east-west-oil-pumping-stations/
+        AGENTS/BRENT/research/2026-10-26_energy-review/cme-energy-pages1-2.txt:143  [332]
+           JAN27                        3.0081              3.0827B/3.0060            3.0606    +   0.0425               29902            538
+        AGENTS/BOND/workbook/KB.tsv:307  [332]
+           KB-BND-306	2026-09-17	RATES	WQ-157 leg ② FR2004 × auction join — the pairing does not filter, it INVERTS	THE PAIRED KILL IS ANTI-PREDICTIVE
+        AGENTS/BOND/workbook/KB.tsv:308  [332]
+           KB-BND-307	2026-09-17	RATES	The 9/15 I-prime fire is NOT pairable on 9/18 — the desk's own date was wrong	'THE KILL LEG BECOMES EVALUABLE 9/
+        AGENTS/BOND/workbook/KB.tsv:333  [332]
+           KB-BND-332	2026-09-25	RATES	FR2004 settlement timing RESOLVED at the primary + WQ-157 join window defect (Wednesday auctions)	RESOLVED: FR 2
+        AGENTS/BOND/workbook/KB.tsv:526  [332]
+           KB-BND-525	2026-11-02	RATES	US curve / credit / funding refresh 10/29–10/30	Treasury par 10/30: 2Y 4.56, 5Y 4.71, 10Y 4.94, 20Y 5.34, 30Y 5.
+        AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:16  [332]
+           00. ✅ **[9/25 ~01:0x ET, PROME item 2 / Will] FR2004 SETTLEMENT TIMING RESOLVED — the award is IN the print.** FR 2004A = trade-date; allotm
+        AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:28  [332]
+           7. 🟡 **FR2004 as-of 9/16 (published 9/24 16:16 ET): long-end $144.4B, −$1.8B w/w — TOTAL fell, 11–21Y built +$1.7B, >21Y −$2.6B.** Graded ag
+        AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:60  [332]
+           | **FR2004 long-end** | **$144.4B** [as-of 9/16] | 🟡 | [NY Fed via `fr2004_fetch.py`, published 9/24 16:16 ET] — **−$1.8B w/w** after +$1.5B
+        AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:87  [332]
+           | 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | FR2004 9/16 long-end $144.4B (−$1.8B; 11–21Y +1.7, >21Y −2.6) — **ADMISS
+        AGENTS/BOND/domain/sources/2026-09-28_STATUS_full-snapshot_pre-9-28-rewrite.md:113  [332]
+           **1 · THESIS KILL (exit all duration shorts).** WQ-157 leg ① (Will 9/4): **`I'` + a NON-AUCTION mechanism confirmation (FR2004 dealer stock
+        AGENTS/BOND/domain/sources/2026-09-28b_STATUS_full-snapshot_pre-rotation.md:19  [332]
+           4. **Carried (full text in the 9/28 snapshot):** 9/23 5Y OLD-conjunctive composition failure (ind 54.31 / dlr 15.77 / BTC 2.21) → ADD re-arm
+        AGENTS/BOND/domain/sources/2026-09-28b_STATUS_full-snapshot_pre-rotation.md:76  [332]
+           | 3 | Dealer absorption | **2** = | 🟡 | `VX-BND-04` · `VX-BND-16` | FR2004 9/16 long-end $144.4B (−$1.8B; 11–21Y +1.7, >21Y −2.6) — **ADMISS
+        AGENTS/BOND/domain/sources/2026-09-28b_STATUS_full-snapshot_pre-rotation.md:102  [332]
+           **1 · THESIS KILL (exit all duration shorts).** WQ-157 leg ① (Will 9/4): **`I'` + a NON-AUCTION mechanism confirmation (FR2004 dealer stock
+        AGENTS/CATO/runs/2026-10-29_0942_recent-system-review.md:81  [332]
+           - **SR2 CLOSED for the replay/method-reconciliation question.** DEWEY `6165b08b0` preserves the original wording and adds an explicit correc
+        AGENTS/CATO/runs/2026-09-30_1950_prome-wq-delegation-review.md:19  [332]
+           | 332 | Keep manual grading and a written reason per confirmed event; do not invent numeric bars from anecdotes. Logged events alone give a
+        AGENTS/CATO/runs/2026-09-19_2137_sam-ruling-review.md:40  [332]
+           Sources: `AGENTS/SAM/scripts/closeout_check.py:332–344,425,566–572`; probe/results linked below.
+        AGENTS/CATO/runs/2026-09-28_1009_morning-desk-review.md:67  [332]
+           Will supplied both summaries during the same review turn. Entry HEAD `7be9d9dfb`, tree/index clean. Read LIQUID's entire second delivery (`3
+        AGENTS/CATO/runs/2026-10-02_1057_walter-prome-relationship.md:404  [332]
+           **Scope:** Will asked CATO to read recent WALTER work/commits and report. Reviewed commit history and relevant diffs for ten WALTER commits
+        AGENTS/CATO/runs/2026-09-20_1230_cruise-correction-receipt-review_d41b8a.md:7  [332]
+           **Remote receipt:** read-only `git ls-remote origin refs/heads/master` returned exactly `80622311e02bebf4bcc13531ce5fc332c64e8275`; local `g
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:203  [332]
+           FERT	FERT-01	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	HIT	bina
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:204  [332]
+           FERT	FERT-02	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	VOID (un
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:205  [332]
+           FERT	FERT-03	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	HIT (par
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:206  [332]
+           FERT	FERT-04	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	MISS	bin
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:207  [332]
+           FERT	FERT-05	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	MISS (so
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:208  [332]
+           FERT	FERT-06	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	VOID (br
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:209  [332]
+           FERT	FERT-07	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	HIT (dir
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:210  [332]
+           FERT	FERT-08	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	MISS	bin
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:211  [332]
+           FERT	FERT-09	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	MISS	bin
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:212  [332]
+           FERT	FERT-10	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	HIT	bina
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:213  [332]
+           FERT	FERT-11	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	OPEN	ope
+        AGENTS/CATO/runs/2026-09-30_2251_census-v4/rows_v4.tsv:214  [332]
+           FERT	FERT-12	e70f558f4ad685cec394a9cdc2ef6ee622d6b6e0	AGENTS/FERT/workbook/PREDICTIONS.tsv	48c7ded7826a46d6ad372c3cc332c37d285a5d6b	OPEN	ope
+        AGENTS/CATO/runs/2026-09-30_2355_cohort-feasibility/critic_cohort_received.tsv:128  [332]
+           HAWK	HAW-18	2026-07-25	(undated)	binary_numeric_current	UNKNOWN	0.55	UNKNOWN	0.6	UNKNOWN	0	none	e01ebc332f74
+        AGENTS/CATO/runs/2026-09-30_2355_cohort-feasibility/critic_frame_145.tsv:128  [332]
+           e01ebc332f74812779d275be6f2ecd6f53c5b1bf8c940047ae11168f194610dc	HAWK	HAW-18	2026-07-25	UNKNOWN	1	UNKNOWN	AGENTS/HAWK/thesis/PREDICTIONS.tsv
+        AGENTS/CATO/runs/2026-09-30_2355_cohort-feasibility/candidate_frame_152.tsv:135  [332]
+           e01ebc332f74812779d275be6f2ecd6f53c5b1bf8c940047ae11168f194610dc	HAWK	HAW-18	2026-07-25	UNKNOWN	1	UNKNOWN	AGENTS/HAWK/thesis/PREDICTIONS.tsv
+        AGENTS/HAWK/workbook/KB.tsv:336  [332]
+           KB-HAWK-332	2026-09-08	GEOPOLITICS	US polysilicon imports	August6 signed Section232 proclamation schedules covered polysilicon measures for
+        AGENTS/VULCAN/workbook/KB_GENERAL.tsv:312  [332]
+           KB-VULCAN-332	2026-10-29	S1	§4b cluster state with three of four names in (pre-stated before AMZN, reports/2026-10-29_cluster-4b_prestatemen
+        AGENTS/VULCAN/workbook/KB_GENERAL.tsv:315  [332]
+           KB-VULCAN-335	2026-10-30	S1	EXIT_PROTOCOL 4b hyperscaler cluster RESOLVED NO-VERDICT on the letter pre-stated 79045befb: confirm legs 0 (fal
+        AGENTS/VULCAN/workbook/KB.tsv:333  [332]
+           KB-VULCAN-332	2026-10-29	S1	§4b cluster state with three of four names in (pre-stated before AMZN, reports/2026-10-29_cluster-4b_prestatemen
+        AGENTS/VULCAN/workbook/KB.tsv:336  [332]
+           KB-VULCAN-335	2026-10-30	S1	EXIT_PROTOCOL 4b hyperscaler cluster RESOLVED NO-VERDICT on the letter pre-stated 79045befb: confirm legs 0 (fal
+        AGENTS/VULCAN/workbook/VX.tsv:2  [332]
+           VX-VULCAN-S1	S1	AI-capex concentration (capex trajectory + Mag-7 weight)	2026-10-29 [KB-332]: S1 3 HELD NOT FIRED. Cluster 3 of 4 in: META r
+        AGENTS/VULCAN/workbook/EXIT_PROTOCOL.md:36  [332]
+           | **S1** | Two consecutive quarterly stacks (≥2 of 4 names each) guide capex **flat-or-down YoY** with **no** index-level repricing — the bu
+        AGENTS/VULCAN/reports/2026-10-26_financing/sources/anthropic-s1.txt:1  [332]
+           S-1 1 anthropicpbc-sx1.htm S-1 Anthropic, PBC - S-1 (Q2) As filed with the Securities and Exchange Commission on October 26, 2026. Registrat
+        PROME/HEARTBEAT_COLD.md:724  [332]
+           **Credit (§3).** FRED BAMLH0A0HYM2 **293 · BAMLH0A3HYC 1,128 [9/25]** — published Mon 9/28 MORNING (live by ~10:08 ET), not ~16:15; PROME re
+        PROME/HEARTBEAT_COLD.md:758  [332]
+           **Also:** `GATE-BRK-R2` leg (a) FIRED 9/25 on ONE vehicle (North Haven 43.8% Q3, third sub-100% quarter, found 7d late) — consequence EXECUT
+        PROME/HEARTBEAT_COLD.md:793  [332]
+           - **`GATE-LIQ-076`:** conjunction MET 9/25 (W1 SOFR-3M lev cover +329,162 [as-of 9/22] + W3 MOVE>85/VIX<20 [9/23–9/28]); W2 MEASURED NOT MET
+        PROME/HEARTBEAT_COLD.md:1028  [332]
+           ## §29.1 Energy (owner memos: BRENT closeout + PM note `AGENTS/BRENT/research/2026-10-09_pm-prints/NOTE.md` 332d877ca · 6c0db64fe; packet `P
+        PROME/DOCKET.tsv:542  [332]
+           next-PROME-session	HEARTBEAT 23rd base §3 — a WITHHELD claim (Review budget): the base's sentence "±25bp HOLDS at 9/23–24 and 7/06 … LIQUID
+        PROME/plans/2026-10-09_heartbeat-29th-rebase-PLAN.md:10  [332]
+           - **Owner memos 10/9 (all in `PROME/inbox/processed/2026-10-09_*`, consumed by the morning and afternoon sittings; cited by name in the cold
+        PROME/plans/2026-09-29_heartbeat-24th-rebase-PLAN.md:22  [332]
+           6. §3: 9/28 cells with the three owner counts + REGINALD's B-tier and FLG ladder; LIQ-069 letter governs / WQ-301 (b) conditional; the UNOWN
+        PROME/plans/2026-09-28_heartbeat-23rd-rebase-PLAN.md:12  [332]
+           - Owner artifacts consumed today: LIQUID L492/L510 (332a8687b; ISDA benchmark memo) · BOND live-event assessment (e64d22669) + WQ-291/246 en
+        PROME/plans/2026-09-28_heartbeat-23rd-rebase-PLAN.md:13  [332]
+           - Rulings today (all encoded, WQ rows verbatim): 241 · 303 · 304 · 315 · 317 · 318 · 319 · 320 · 321 · 322 · 323 · 324 · 325 · 326 · 327 · 3
+        PROME/plans/2026-09-28_heartbeat-23rd-rebase-PLAN.md:21  [332]
+           6. §3: 9/25 cells with the two owners' counts (RED 2 of 3 · X1 CLOSED); BOND's tier facts; the Bloomberg-vs-ICE kill; LIQ-069 anchor state =
+        PROME/proposals/2026-10-01_wq348-approval-inventory-CLASSMAP.tsv:203  [332]
+           332	K6/C1 desk rule text (gates, bands, prediction letters)	2026-09-30	BOND "PULLED-DEAL CLUSTER" — a standing trigger, or keep hand-grading
+        PROME/proposals/2026-10-03_gates-step3-pass-PLAN.md:14  [332]
+           ### GATE-HY-REKILL · `last_checked`: 1060 B → 332 B (1052 → 322 chars)
+        PROME/proposals/2026-10-03_gates-step3-pass-PLAN.md:16  [332]
+           > 2026-10-01 14:25 ET PROME consumer read of LIQUID's 9/30-cell owner grade (memo PROME/inbox/processed/2026-10-01_from-LIQUID_9-30-cell-LIQ
+        PROME/proposals/2026-10-03_gates-step3-pass-PLAN.md:39  [332]
+           > 2026-10-02 10:27 ET PROME consumer read of LIQUID's WQ-301 (b) encode (9fe811cb3), VERIFIED at AGENTS/LIQUID/workbook/KB.tsv KB-LIQ-069: b
+        PROME/proposals/2026-10-01_wq348-approval-inventory-RULED.md:41  [332]
+           | C3 | A question where the owner desk AND PROME both recommend NO CHANGE (decline, not now, keep as is) and no money is involved | 3 rows f
+        PROME/state/board_consumed.tsv:556  [332]
+           SIG-W-20260723-012-fed-hike-repricing-sept-80pct-10y-4707-30y-longest-above-5-since-2007	O	332f49ee884f36a931af52b1438e45a3fa677c6d
+        PROME/registry/WQ_EXPLAINERS.tsv:48  [332]
+           243	MARCO's half of the Florida reconcile never ran	CORAL delivered its half of the FL joint touch on 9/13 and packeted MARCO with the super
+        PROME/registry/WQ_EXPLAINERS.tsv:102  [332]
+           332	Make BOND's "pulled-deal cluster" a standing trigger, or keep grading it by hand?	BOND's high-yield market-function row has a second tri
+        PROME/registry/WQ_LEDGER.tsv:277  [332]
+           243	RULED	2026-09-17	MARCO half of the FL joint touch (L332) — release the leg to PROME?				RULED	APPROVE			RULED 2026-09-15 13:08 ET — Will
+        PROME/registry/WQ_LEDGER.tsv:409  [332]
+           157	UPDATED	2026-09-25	LEG ② IS NOW YOURS	RULE (leg ②)	2026-09-19	Rec: PARK — rule (a) the letter stays a…	OPEN	—		Rec: PARK any change to t
+        PROME/registry/WQ_LEDGER.tsv:411  [332]
+           157	UPDATED	2026-09-25	LEG ② IS NOW YOURS	RULE (leg ②)	2026-09-19	Rec: PARK — rule (a) the letter stays a…	OPEN	—		Rec: PARK any change to t
+        PROME/registry/WQ_LEDGER.tsv:413  [332]
+           157	UPDATED	2026-09-25	LEG ②	RULE (leg ②)	2026-09-19	Rec: PARK — rule (a) the letter stays a…	OPEN	—		Rec: PARK any change to the kill — rul
+        PROME/registry/WQ_LEDGER.tsv:540  [332]
+           243	UPDATED	2026-09-26	MARCO half of the FL joint touch (L332) — release the leg to PROME?				RULED	APPROVE			RULED 2026-09-15 13:08 ET — Wi
+        PROME/registry/WQ_LEDGER.tsv:574  [332]
+           301	UPDATED	2026-09-28	GATE-LIQ-069 LEG 2	RULE	2026-10-02	9/26	OPEN	—		Will 10:51 ET 9/28, verbatim: *"Proceed with the bounded LIQUID follo
+        PROME/registry/WQ_LEDGER.tsv:579  [332]
+           301	UPDATED	2026-09-28	GATE-LIQ-069 LEG 2	RULE	2026-10-02	9/26	OPEN	—		Will 10:51 ET 9/28, verbatim: *"Proceed with the bounded LIQUID follo
+        PROME/registry/WQ_LEDGER.tsv:616  [332]
+           332	REGISTERED	2026-09-28	BOND "PULLED-DEAL CLUSTER"	RULE	2026-10-14	9/28	OPEN	—		Rec (BOND's, PROME concurs): KEEP HAND-GRADING with a writ
+        PROME/registry/WQ_LEDGER.tsv:650  [332]
+           332	CLOSED	2026-09-30	BOND "PULLED-DEAL CLUSTER" — a standing trigger, or keep hand-grading — RULED: KEEP HAND-GRADING (BOND's rec, PROME co
+        PROME/registry/WQ_LEDGER.tsv:666  [332]
+           301	UPDATED	2026-10-01	GATE-LIQ-069 LEG 2	RULE	2026-10-02	9/26	OPEN	—		Will 10:51 ET 9/28, verbatim: *"Proceed with the bounded LIQUID follo
+        PROME/registry/WQ_LEDGER.tsv:865  [332]
+           332	UPDATED	2026-10-08	BOND "PULLED-DEAL CLUSTER" — a standing trigger, or keep hand-grading — RULED: KEEP HAND-GRADING (BOND's rec, PROME c
+        PROME/reports/2026-09-14_owed-work-review.md:42  [332]
+           | **L332 — September 13, CORAL/MARCO** | CORAL delivered the MSI grade September 13. One reconciled Florida enrollment figure remains missin
+        PROME/reports/2026-10-24_wq517-counterexample-read2.md:27  [332]
+           - **Artifact:** `argus_contract.py:117` (`attributed_by_commit` skips only `never_advisory` paths) together with `:153-168` (`never_advisory
+        PROME/reports/2026-10-07_nexus-seat-01-candidate-list.md:97  [332]
+           | WQ-332 | 2026-09-30 | BOND keeps hand-grading pulled-deal cluster | BOND rec | **NO** | DELEGATED | `PROME/WILL_QUEUE.md:89` |
+        PROME/reports/2026-10-10_hb30_plan_read_1.md:53  [332]
+           F1 Brent Dec $104.32 (+0.04%) [10/9 16:08] = 29th H52 · F2 WTI $91.59 = 29th · F3 crack Nov $107.16 / Dec $101.69 = 332d877ca · F4 −$6.42 /
+        PROME/reports/2026-09-13_monday-readiness.md:67  [332]
+           - **MARCO's half of the FL joint touch never ran** → **WQ-243**. CORAL delivered 9/13 and packeted MARCO; L332's deliverable is **one reconc
+        PROME/reports/2026-10-15_inbox-triage-ledger.md:106  [332]
+           | 94 | 2026-10-13_from-WALTER_priority-routing-completion.md | WALTER | RESULT | — | — | SEARCH-NOT-FOUND by name; 5b332ddfe is on origin |
+        PROME/reports/2026-10-15_inbox-triage-ledger.md:107  [332]
+           | 95 | 2026-10-13_from-WALTER_priority-routing-persistence.md | WALTER | RECEIPT-ONLY | — | — | 5b332ddfe is on origin (VERIFIED) | FILE |
+        PROME/reports/2026-10-12_YURI-freshness-check.md:60  [332]
+           Consumed YURI's reconciliation `ecec898d72500e332f5df4810ea55f3eb0cf5c36`: its report §7.4 and reconciliation proof now agree with the alrea
+        PROME/reports/2026-09-14_docket-reconciliation.md:34  [332]
+           | **VERIFIED as recorded completion/reservation:** CORAL's grade is delivered; joint task remains open and MARCO is reserved. | Baseline L33
+        PROME/reports/2026-09-14_docket-reconciliation.md:39  [332]
+           **Plan read:** independent `docket_plan_read` returned three blocking findings: removing COVERED made L198 a new DARK spawn candidate; L303
+        PROME/reports/2026-09-14_docket-reconciliation.md:41  [332]
+           **VERIFIED:** exact comparison against the baseline changes only L140/L198/L247/L292/L303/L332/L335/L392 and appends L394. All existing date
+        PROME/reports/2026-09-14_docket-reconciliation.md:43  [332]
+           **VERIFIED:** the independent counterexample is now an executed check using `spawn_list.collect`, September 14, a seven-day horizon and a fr
+        PROME/reports/2026-09-17_heartbeat-18th-rebase.md:24  [332]
+           **From the RESULT read:** ⚠️8 VIX9D −21.7% shows no from-level in the one-liner (17.40 [9/16c] is in cold §18.5) · ⚠️14 "−0.48% below" is th
+        PROME/reports/2026-10-24_L796-pin-counterexample-read2.md:126  [332]
+           - with assume-unchanged, `git commit -- path` DOES commit the edit, and step 10 would then catch it as `UNREVIEWED ACTUAL COMMIT PATH` (diff
+        PROME/reports/2026-10-26_nexus-consumption/before-DOCKET.tsv:542  [332]
+           next-PROME-session	HEARTBEAT 23rd base §3 — a WITHHELD claim (Review budget): the base's sentence "±25bp HOLDS at 9/23–24 and 7/06 … LIQUID
+        PROME/reports/2026-10-15_wq404-swapline-independent-read/READ1.md:19  [332]
+           ✅ 1 WITHHELD=True, rc 4 (ran `--help`: refusal, rc 4) · 4 9004d5450 = script basis, then 23977aec5 · 5 conditions committed alone at 4bbbb05
+        FORGE/research/iran-war/pending/MUNITIONS_GROK.md:40  [332]
+           **US ramp-up:**  The Pentagon has activated multiyear contracts to expand capacity.  In Jan 2026 the US signed a 7-year framework with Lockh
+        BOARD/SIG-W-20261023-019-dewey-req002-hy-widening-mixed-mostly-broad-65pct-came-in-september-ai-leg-about-10-to-15pct-of-october-coreweave-plus-230-ccc-composition-unknown-LIQUID-REGINALD-VULCAN.md:22  [332]
+           dispatch_note: "Research-output per CHECKLIST 2.8b; DEWEY delivered create-only copies to all 6 REQ recipients (verified, 0 backstops). WALT
+        BOARD/SIG-W-20260628-008-kobeissi-tech-fund-flows-whipsaw-record-15b-outflow.md:24  [332]
+           **@KobeissiLetter:** US tech-sector funds posted **−$15B in outflows this week** — the largest weekly withdrawal in ≥2.5 years, exceeding th
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (223)
+        AGENTS/DAEDALUS/runs/2026-10-09_CHARTER_SPLIT_READER_REPORTS.md:96  [332]  (no unit/series context on line)
+           GATE closeout — DAEDALUS · 20261009T185900Z · HEAD 332d877ca
+        AGENTS/DAEDALUS/scorecards/2026-10-02.md:221  [332]  (no unit/series context on line)
+           - WQ row 332 · RULED 2026-09-30 (WILL_QUEUE.md:80)
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/docket.html.txt:75  [332]  (no unit/series context on line)
+           Evidence required: PROME/tools/spawn_list.py:62 · :65 · :159 · PROME/DOCKET.tsv rows 248 · 332 · PROME/tools/tests/Docket record
+        AGENTS/LABOR/domain/sources/2026-10-28_layoffalert_monthly_by_state.tsv:18  [332]  (no unit/series context on line)
+           Jan '26	0	90	6732	332	0	76	0	1055	1853	0	108	0	422	524	72	172	0	653	668	122	1652	406	464	0	78	661	0	294	192	1709	0	146	1840	3323	0	0	0	222	0
+        AGENTS/WATT/sources/2026-10-20-news/rbp-order.txt:4054  [332]  (no unit/series context on line)
+           procedures.332
+        AGENTS/WATT/sources/2026-10-20-news/rbp-order.txt:4078  [332]  (no unit/series context on line)
+           332 Constellation states that it supports PJM’s proposal to resolve the credit and
+        AGENTS/OTTO/research/2026-10-25_catchup/sources/ally_exhibit_2.txt:88  [332]  (no unit/series context on line)
+           ($ in millions) QUARTERLY TRENDS CHANGE VS. Income Statement 3Q 26 2Q 26 1Q 26 4Q 25 3Q 25 2Q 26 3Q 25 Net financing revenue Consumer $ 2,07
+        AGENTS/OTTO/research/2026-10-19_readiness/sources/hindenburg_jan02.txt:790  [332]  (no unit/series context on line)
+           The 332-page complaint covers a series of allegations (including some issues mentioned in this report) and contains information from 12 conf
+        … +215 more 🟠 hit(s) on [332] across 96 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (3: CARL, ZHAO)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (82)  [--show-handled to audit]
+
+  🔴 248 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================

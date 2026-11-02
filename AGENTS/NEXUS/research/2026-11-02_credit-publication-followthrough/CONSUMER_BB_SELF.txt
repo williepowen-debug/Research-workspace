@@ -1,0 +1,71 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 283 files under AGENTS/NEXUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── BB OAS observation update · superseded 194 → current 209
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (20)
+        AGENTS/NEXUS/PREDICTIONS_MONITOR.md:19  [194]
+           | **L15** | **Eight Disc-J letters REGISTERED 10/8 (the registration is discharged; four original windows are LIVE)** (M-01 · M-03 · M-04 ·
+        AGENTS/NEXUS/STATUS_COLD.md:1257  [194]
+           | **M-08** | R3 credit K-split — **BROADENING** | 1 root, multi-instr. | **79%** | **↑3pp** | 10-01 | 🔴 **Registered 9/29 condition MET: 3rd
+        AGENTS/NEXUS/STATUS_COLD.md:1258  [194]
+           | **M-09** | AI → capex-correction, CREDIT + POWER faces | R4+R7 — SCORE-ONCE | **69%** | **—** | 09-29 | **HELD — capex face NOT correcting
+        AGENTS/NEXUS/STATUS_COLD.md:1271  [194]
+           | **R3 Credit fundamental** | **BROADENING:** HY 312 · B 316 · CCC 1,179 · BB 194 · IG 84 · BBB 103 [9/30]. LIQ-07 FIRED (S1 funding-loop vs
+        AGENTS/NEXUS/STATUS_COLD.md:1339  [194]
+           | **BB ≥220 (M-09 UP)** | 194 | 26bp | Cohort. |
+        AGENTS/NEXUS/STATUS_COLD.md:1573  [194]
+           | **M-09** | AI → capex-correction, CREDIT + POWER faces | R4+R7 — SCORE-ONCE | **69%** | **—** | 09-29 | HELD. VULCAN composite **15/25**,
+        AGENTS/NEXUS/STATUS_COLD.md:1844  [194]
+           | T-01 | R | HY 340 / CCC 1,340 / VIX 19 / put wall broken vs IG 89, orderly funding, claims 194K, card NCOs improving, GIBBS no large-bank
+        AGENTS/NEXUS/STATUS_COLD.md:1930  [194]
+           | M-09 | AI finance and power pressure | R4/R7; filing + operator + market; VULCAN/LIQUID/WATT/SHADE | **judgment, no number** (69 historica
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:32  [194]
+           | **D:L573** | **M-09** (registered 10/1: UP +4 if BB ≥220 on 2 consecutive FRED cells by 10/30 · DOWN −4 if LIQUID's 10/15 `GATE-LIQ-069` r
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:42  [194]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-10-31_full_pass/DIGEST_R1.md:187  [194]
+           1. **Credit spreads:** LIQUID [STATUS] HY 326 (+12), BB 194 (+10), IG 89 (+3) [10/29 first-published]. That is "TRANSMISSION by the letter"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:34  [194]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:38  [194]
+           1. **Credit spreads:** LIQUID [STATUS] HY 326 (+12), BB 194 (+10), IG 89 (+3) [10/29 first-published]. That is "TRANSMISSION by the letter"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:74  [194]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:14  [194]
+           | T-01 | R | HY 340 / CCC 1,340 / VIX 19 / put wall broken vs IG 89, orderly funding, claims 194K, card NCOs improving, GIBBS no large-bank
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:30  [194]
+           - **HY 326 (+12), IG 89 (+3), BB 194 (+10), B 332 (+14), CCC 1,325 (+18) [10/29 first-published, pulled 10/30 10:53 ET].** "Every tier wider
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:32  [194]
+           1. **Credit spreads:** LIQUID [STATUS] HY 326 (+12), BB 194 (+10), IG 89 (+3) [10/29 first-published]. That is "TRANSMISSION by the letter"
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:48  [194]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/LAST_COMPLETION_before.md:39  [194]
+           **Result:** FRED first-published pull 10:51:33 ET (vintage = latest-revised on every cell since 9/29). **L751:** L16 cell 7 HY 314 (DOWN run
+        AGENTS/NEXUS/research/2026-11-02_transmission-update/RECORD.md:11  [194]
+           | Cash credit after Friday | UNKNOWN. Every fresh returned ICE/FRED series ends October 29; HY 326,IG 89,BB 194,B 332,CCC 1325bp precede Fri
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (22)
+        AGENTS/NEXUS/STATUS.md:27  [194]  (no unit/series context on line)
+           | M-01 | Substance/tape divergence | R1/candidate R3; market + labor/consumer; LABOR/CARL/LIQUID/RED | 60% | — | 11-02 | HY **344 [10/30]**,
+        AGENTS/NEXUS/STATUS.md:63  [194]  (no unit/series context on line)
+           | LABOR → CARL | Claims 194K, MA 196,750, CC 1.701M [DOL 10/29]; ECI Q3 3.4% flat; JOLTS layoffs 1.0% [Aug]. CARL concentrated strain, new C
+        AGENTS/NEXUS/STATUS_COLD.md:1803  [194]  (no unit/series context on line)
+           | M-01 | Substance/tape divergence | R1 / candidate R3; 2 classes (market, labor); LABOR, CARL, LIQUID, RED | 60% | — | 10-23 | **Divergence
+        AGENTS/NEXUS/STATUS_COLD.md:1834  [194]  (no unit/series context on line)
+           | LABOR → CARL | **SOFTENING, NOT BROKEN; labor firmed.** Claims 194K [w/e 10/17], 4-wk MA lowest since Oct 2022; CARL card NCOs down YoY; Q
+        AGENTS/NEXUS/STATUS_COLD.md:1995  [194]  (no unit/series context on line)
+           | LABOR → CARL | Claims194K first print,197.75K four-week MA [10/22]; no broad layoff break. CARL PNC nominal spending+6.1% YoY and Velera c
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:15  [194]  (no unit/series context on line)
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:16  [194]  (no unit/series context on line)
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/recon/2026-10-01_coldread3_CHARTER.md:36  [194]  (no unit/series context on line)
+           ✅ (46): 1 L18 read-1 pointer resolves · 4 L24 PRODUCES/outbox retired · 5 L26 commits be999e16/a9e813b6a/b62218340 exist · 6 L33 cwd-proof r
+        … +14 more 🟠 hit(s) on [194] across 15 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (1: NEXUS)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (10)  [--show-handled to audit]
+
+  🔴 20 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
