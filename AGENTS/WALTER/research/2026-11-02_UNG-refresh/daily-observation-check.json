@@ -1,0 +1,47 @@
+[
+  {
+    "reference_time": "2026-10-29T00:00:00Z",
+    "zonal_mean_u_m_s": 14.326738077799481,
+    "nvalues": 1440,
+    "url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261029%2F00%2Fatmos&file=gfs.t00z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60",
+    "raw_sha256": "765544efd5292d49ece26720d9ebe059f023a9cd2d72d73dd0d0fa532a0e7b75",
+    "raw_path": "AGENTS/WALTER/research/2026-11-02_UNG-refresh/gfs-20261029-00z-f000-u10-60n.grib2",
+    "method": "same template 5.0 decoder; exact 60N 10 hPa f000 analysis"
+  },
+  {
+    "reference_time": "2026-10-30T00:00:00Z",
+    "zonal_mean_u_m_s": 13.24474142795139,
+    "nvalues": 1440,
+    "url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261030%2F00%2Fatmos&file=gfs.t00z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60",
+    "raw_sha256": "8d39b3be96738b43fc4d3eb5d0799522dfb3ccaf65762201385362b550fa195e",
+    "raw_path": "AGENTS/WALTER/research/2026-11-02_UNG-refresh/gfs-20261030-00z-f000-u10-60n.grib2",
+    "method": "same template 5.0 decoder; exact 60N 10 hPa f000 analysis"
+  },
+  {
+    "reference_time": "2026-10-31T00:00:00Z",
+    "zonal_mean_u_m_s": 12.284259331597223,
+    "nvalues": 1440,
+    "url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261031%2F00%2Fatmos&file=gfs.t00z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60",
+    "raw_sha256": "30df68b049ccdebfc9529074d7586ab32377ee054fe61c8bf1c07e8d1761232e",
+    "raw_path": "AGENTS/WALTER/research/2026-11-02_UNG-refresh/gfs-20261031-00z-f000-u10-60n.grib2",
+    "method": "same template 5.0 decoder; exact 60N 10 hPa f000 analysis"
+  },
+  {
+    "reference_time": "2026-11-01T00:00:00Z",
+    "zonal_mean_u_m_s": 10.468449367947049,
+    "nvalues": 1440,
+    "url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261101%2F00%2Fatmos&file=gfs.t00z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60",
+    "raw_sha256": "a2e44fb7e12b05f291393958eb0d654d0390652f0fca20a2c120273e5db3f0cf",
+    "raw_path": "AGENTS/WALTER/research/2026-11-02_UNG-refresh/gfs-20261101-00z-f000-u10-60n.grib2",
+    "method": "same template 5.0 decoder; exact 60N 10 hPa f000 analysis"
+  },
+  {
+    "reference_time": "2026-11-02T00:00:00Z",
+    "zonal_mean_u_m_s": 6.305083007812501,
+    "nvalues": 1440,
+    "url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261102%2F00%2Fatmos&file=gfs.t00z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60",
+    "raw_sha256": "4c41690c70bb1b3621648a5cd36674eeacc1d68c82012d23f47525e6ad5865c7",
+    "raw_path": "AGENTS/WALTER/research/2026-11-02_UNG-refresh/gfs-20261102-00z-f000-u10-60n.grib2",
+    "method": "same template 5.0 decoder; exact 60N 10 hPa f000 analysis"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "retrieved_at": "2026-11-02T15:18:42.057692+00:00",
+  "source_url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261102%2F06%2Fatmos&file=gfs.t06z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60",
+  "status": 200,
+  "content_type": "application/octet-stream",
+  "length": 2339,
+  "starts_grib": true
+}
