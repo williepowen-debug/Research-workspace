@@ -9,5 +9,16 @@
   },
   "resolver_supplied": false,
   "claimed_resolver_sha256": "b98e22f29d3f49a7bd9add75021ba4621d139e49d4d1ba707861eaf45dc9fae3",
-  "resolver_hash_verified": false
+  "resolver_hash_verified": false,
+  "combined_package": {
+    "source": "/mnt/c/Users/willi/Downloads/KRE_prereg_combined.pdf",
+    "copy": "KRE_prereg_combined.pdf",
+    "bytes": 176416,
+    "sha256": "9f36a6cdf6399f3f63ed572febc78db639fcc6447ae25be0825b69ecb5cb0e3d",
+    "pages": 15,
+    "code_status": "Resolver and two base-rate scripts visible in PDF; exact standalone bytes/hash not verified",
+    "data_status": "Selected rounded rows only; full 5059-row file absent",
+    "text_extraction": "combined_pdf_text.txt"
+  },
+  "resolver_supplied_note": "Standalone file absent; code now available for inspection in combined PDF."
 }

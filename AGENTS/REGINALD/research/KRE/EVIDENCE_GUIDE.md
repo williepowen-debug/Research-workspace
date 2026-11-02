@@ -114,7 +114,7 @@ Original upload: `REPORT (5).md`.
 
 Proposes three tests over November 2–February 2: correlation persistence, market-beta recovery and rate-response persistence. Useful as a framework for distinguishing outcomes; its probabilities and historical base rates are unreplicated. This is a separate document from Study 3's `PREREGISTERED_SPEC.md`.
 
-**Not approved or activated.** The author and approver have seen first-session information; preserve late-registration status if adopted. The resolver is missing, the C1 benchmark sums to 0.99, and dropped-session rules conflict with exactly 63 daily returns. A KRE-only rate test cannot establish a bank-wide regime. The review explains the repairs; no schedule or forecast ledger entry was created.
+**Not approved or activated.** The author and approver have seen first-session information; preserve late-registration status if adopted. The later [combined-package review](reports/2026-11-02_prospective-evaluation-draft/COMBINED_PACKAGE_REVIEW.md) adds printed resolver/base-rate code and selected historical rows. Exact standalone code and full inputs remain absent. Synthetic checks reproduce incomplete-window resolution and incorrect counting of missing sessions. The C1 benchmark sums to 0.99, and dropped-session rules conflict with exactly 63 daily returns. A KRE-only rate test cannot establish a bank-wide regime. The review explains the repairs; no schedule or forecast ledger entry was created.
 
 ## Earlier conversation and pictures
 

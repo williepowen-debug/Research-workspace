@@ -1,0 +1,23 @@
+{
+  "method": "Synthetic data; PDF-extracted stats only, not original resolver replication",
+  "short_window": {
+    "n_returns_used": 62,
+    "status": "RESOLVED"
+  },
+  "four_distinct_missing_sessions": {
+    "n_returns_used": 59,
+    "status": "RESOLVED",
+    "missing": {
+      "KRE": [
+        "2026-01-19",
+        "2026-02-02"
+      ],
+      "KBWB": [
+        "2026-02-16",
+        "2026-03-02"
+      ],
+      "SPY": [],
+      "IWM": []
+    }
+  }
+}
