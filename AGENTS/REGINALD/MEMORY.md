@@ -24,7 +24,13 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 ⚠️ **Open question at close:** does the 8/20 ranking predict anything? The frozen 11/07 test against simple baselines answers it, as a retrospective check, not a blind one.
 
-### LAST SESSION — 2026-11-02 11:28 → ~11:42 ET (`date`), Will-approved: four carried-release reads only
+### LAST SESSION — 2026-11-02 17:24 → 17:29 ET checks, Will-launched evening boot
+- **Tape at 17:29 ET, vendor not settled:** WAL $78.67 (+3.12%), KRE $73.73, FLG $10.75; VIX 21.15 (+8.91%). REG-T-02 stays FIRED, exit 0-of-3 through 10/30; FLG RED; no 11/02 settled grade.
+- **New CUBI Form 4 verified at SEC:** CEO Jay Sidhu sold 50,000 shares at $87.4039 [11/02, acc 0001222371-26-000011]. Insider observation only; no credit, score, threshold, prediction or trade change.
+- **Intake:** general/WALTER 0; WAL/OZK unACKed 0; predictions none due; corrections 0; staleness clean. BOARD -010 BACKFILL (direct DEWEY packet already integrated). boot.py rc 1: known FLG/CFG/WAL alerts plus CUBI sale.
+- **Receipt:** `reports/2026-11-02_evening-boot/REPORT.md`. Pull withheld on other desks' dirty tracked files; fetch showed 0/0. No unassigned research or external route.
+
+### EARLIER — 2026-11-02 11:28 → ~11:42 ET (`date`), Will-approved: four carried-release reads only
 - **CCB Q3 (SEC 8-K EX-99.1 primary):** Bluevine $452.4M [9/30] = 9.67% of same-date deposits; $1.85B more swept off balance sheet. Latest expected Valley close Q2 2027. Unnamed partner's $22.8M specific allowance unchanged and valuation allowance $45.6M; $3.1M additional provision not offset by enhancement income. CARL Q2 consumer categories reconcile; Q3 card $552.078M / other consumer-other $1,091.049M are shaped by loan sales/mix. Release-only PARTIAL; 10-Q/call unread.
 - **H.4.1 / H.8 (Fed primary):** primary credit $9.538B Wed [10/28], $9.501B weekly average. Small-bank borrowings $305.3B SA [10/21], −$7.9B (−2.5%) w/w from revised $313.2B; deposits $5,686.4B (−$1.9B), C&I flat, NDFI −$1.7B. The 10/14 borrowing print was revised from $316.4B to $313.2B; frozen six-week study not recomputed. No run or small-bank credit draw shown.
 - **FHLB Q3 Highlights (Office of Finance primary):** advances $798.4B [9/30], ~−$12.3B / −1.5% q/q on the carrying-value basis. REG-T-06 remains official run 2-of-3 / REVIEW; 11/13 CFR governs level and breadth.
