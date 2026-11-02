@@ -13,5 +13,12 @@
     "delivered": 16,
     "note": "Fresh origin/reconciler proof. TERRY 002/007 consumption evidenced separately; others not inferred."
   },
-  "limits": "Fetch/reconciliation proof, not blanket consumption. Continuity commit follows; no self-push."
+  "limits": "Fetch/reconciliation proof, not blanket consumption. Continuity commit follows; no self-push.",
+  "latest_check": {
+    "as_of": "2026-11-02T15:29:26Z",
+    "origin": "082847e1c9250a16c370f84bdbaef9838fcf91c2",
+    "continuity_commit": "edd793cef36a35114b1b23df0a9b669a86f86297",
+    "state": "pending",
+    "self_push": "deferred, foreign dirty work"
+  }
 }

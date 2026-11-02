@@ -16,7 +16,7 @@ Requested check and card refresh delivered. Latest sampled NOAA analysis remains
 
 ## GAPS
 
-- Current publication: fresh fetch succeeded, origin 082847e1c9250a16c370f84bdbaef9838fcf91c2; bookmark payload 1ef600ebd, assignment f28fc8021 and source d7218258c are origin-proven. All 16 November 2 handoffs reconciled delivered. Foreign dirty work persists; WALTER continuity/reconciliation commit awaits coordinated publication. Six bookmark source perimeters remain partial; originals/underlying data and reopen triggers remain in research/2026-11-02_bookmarks/REVIEW.md.
+- Current publication: fresh fetch succeeded, origin 082847e1c9250a16c370f84bdbaef9838fcf91c2; bookmark payload 1ef600ebd, assignment f28fc8021 and source d7218258c are origin-proven. All 16 November 2 handoffs reconciled delivered. Foreign dirty work persists; WALTER continuity/reconciliation commit edd793cef is pending; coordinated publication rule retained. Six bookmark source perimeters remain partial; originals/underlying data and reopen triggers remain in research/2026-11-02_bookmarks/REVIEW.md.
 - UNG conditions: TERRY independently accepted +5.53155 m/s as a nonqualifying GFS sample and refreshed the card. AEOLUS canonical current log pending; unsampled intervals unknown. PROME consumed both packets and mirrored the current state plus both $10.40 guards in GATES; mirror task complete. Original fallback versus AEOLUS-logged T1 wording remains for owner reconciliation; no alternate fire authority. Broker quote/actual fees missing; intermittent vendor DNS failures retained. No order.
 
 - November 2 boot gaps: git pull deferred (foreign dirty FALCON watch-state files); FRED HY October 30 unpublished at pull; HANS daily rate pages and CREED census not re-pulled; X bookmark access restored and the authorized 9-item batch reviewed/marked (source gaps separate); intake NEW onsets not routed or marked.
@@ -100,12 +100,12 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-LIGHT requested-UNG routing closeout; full deferred. Source/owner card refreshed, no order. Continuity commit follows.
+LIGHT requested-UNG routing closeout; full deferred. Source/owner card refreshed, no order. Continuity edd793cef pending.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-02T15:28:31Z",
+  "as_of": "2026-11-02T15:29:26Z",
   "next_review": "2026-11-03",
   "publication": [
     {
@@ -127,6 +127,11 @@ LIGHT requested-UNG routing closeout; full deferred. Source/owner card refreshed
       "commit": "d7218258ce2bb28747181c937b16308507fffe1a",
       "state": "published",
       "note": "Fresh source/card007/two INFO handoffs origin-proven."
+    },
+    {
+      "commit": "edd793cef36a35114b1b23df0a9b669a86f86297",
+      "state": "pending",
+      "note": "Requested UNG result/continuity, 16-handoff delivery reconciliation. No WALTER self-push; foreign dirty work remains."
     }
   ],
   "delivery": {
@@ -168,7 +173,7 @@ LIGHT requested-UNG routing closeout; full deferred. Source/owner card refreshed
     "14": "MEMORY session note updated; no auto-memory or rule edit.",
     "root.retirement": "Recent owner/BOARD-referenced source/raw retained, no retirement.",
     "15": "Existing approvals and unknowns retained; unrelated intake remains unassigned.",
-    "16": "Source payloads origin-proven. Exact-path continuity commit follows; foreign-dirty self-push deferral.",
+    "16": "Source payloads origin-proven; continuity edd793cef committed. Foreign-dirty self-push deferral; exact receipt commit follows.",
     "checks": "Receipt/R1, read-cap, archive, weekday PASS; unchanged REGISTRY nudge REVIEW deferred. Recipient processed moves are not WALTER orphans. Evidence/manual review: research/2026-11-02_UNG-refresh/closeout/. Prior MED retained; no full-market clearance."
   }
 }
