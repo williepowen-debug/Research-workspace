@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-11-02T15:08:43Z",
+  "payload": "1ef600ebd35f5341ba6c64759e098d8057aa4d3a",
+  "fetch": "succeeded after initial DNS failure",
+  "origin": "774cb28df0a0a0341535f659f98f886cb89be402",
+  "publication": "pending; foreign-dirty coordinated sync",
+  "ledger_nudge": "changed event ledgers current; unchanged REGISTRY refresh deferred",
+  "delivery": {
+    "total": 14,
+    "delivered": 0
+  },
+  "limits": "No source revalidation or full boot; earlier check bundle retained."
+}

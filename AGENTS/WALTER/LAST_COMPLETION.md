@@ -4,7 +4,7 @@ Updated 2026-11-02T15:05:44Z, OpenAI Codex (exact model UNKNOWN). Will-authorize
 
 ## STATUS
 
-All 9 IDs from the 14:52:37Z head check reviewed and marked at 15:04:01Z. Six new PRIORITY cards (001–006), 14 create-only handoffs, two kill rows; no fresh threshold-family scan, new gate, helper/domain launch, inbox move or trade. Written locally is not publication, delivery or recipient consumption.
+All 9 IDs from the 14:52:37Z head check reviewed and marked at 15:04:01Z. Six new PRIORITY cards (001–006), 14 create-only handoffs, two kill rows; no fresh threshold-family scan, new gate, helper/domain launch, inbox move or trade. Payload 1ef600ebd35f5341ba6c64759e098d8057aa4d3a is committed locally; coordinated publication remains pending, with no delivery or recipient-consumption claim.
 
 ## CHANGED
 
@@ -16,7 +16,7 @@ Nine bookmarks / 17 content items accounted for, including nine Denver property 
 
 ## GAPS
 
-- Current publication: latest git fetch failed DNS resolution for github.com. Foreign tracked work also remains dirty; no self-push under section 7. Fourteen new handoffs remain written_not_delivered_pending_push, not orphans to delete. Existing origin refs supply only dated proof. Latest source limits: six partial-source items, original court/WSJ/NYT or underlying flow/transaction data not fully reached; exact scope and triggers in research/2026-11-02_bookmarks/REVIEW.md.
+- Current publication: initial git fetch failed github.com DNS; retry succeeded before the 15:07:54Z receipt against origin 774cb28df0a0a0341535f659f98f886cb89be402. Foreign tracked work remains dirty; no self-push under section 7. Fourteen new handoffs remain written_not_delivered_pending_push, not orphans to delete. Latest source limits: six partial-source items, original court/WSJ/NYT or underlying flow/transaction data not fully reached; exact scope and triggers in research/2026-11-02_bookmarks/REVIEW.md.
 
 - November 2 boot gaps: git pull deferred (foreign dirty FALCON watch-state files); FRED HY October 30 unpublished at pull; HANS daily rate pages and CREED census not re-pulled; X bookmark access restored and the authorized 9-item batch reviewed/marked (source gaps separate); intake NEW onsets not routed or marked.
 
@@ -104,20 +104,25 @@ LIGHT bookmark closeout; full deferred. All 9 staged IDs reviewed/marked, six ca
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-02T15:05:44Z",
+  "as_of": "2026-11-02T15:07:54Z",
   "next_review": "2026-11-03",
   "publication": [
     {
       "commit": "7244d64ec870d1e6679483fa7f7f96bb857fca98",
       "state": "published",
       "note": "Origin ancestry verified at Codex recovery fetch; current bookmark-session fetch failed DNS. Earlier pending-publication label superseded."
+    },
+    {
+      "commit": "1ef600ebd35f5341ba6c64759e098d8057aa4d3a",
+      "state": "pending",
+      "note": "Six bookmark signals,14 handoffs, exact-ID consumption and source follow-ups. No recipient consumption claimed."
     }
   ],
   "delivery": {
     "signal_date": "20261102",
     "total": 14,
     "delivered": 0,
-    "note": "Six PRIORITY cards, 14 written-not-delivered handoffs. No publication or consumption claim; latest fetch failed github.com DNS."
+    "note": "Six PRIORITY cards,14 written-not-delivered handoffs. Fresh fetch succeeded at the 15:07:54Z receipt; payload not on origin. No recipient consumption claim."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -144,8 +149,8 @@ LIGHT bookmark closeout; full deferred. All 9 staged IDs reviewed/marked, six ca
     "14": "Session MEMORY note updated; no durable rule/spec or auto-memory edit.",
     "root.retirement": "No research/source retirement in this routing-only sitting; active recent source artifacts retained.",
     "15": "Approvals/conditions preserved; partial-source owner triggers in REVIEW.",
-    "16": "Exact-path commit; foreign-dirty and DNS failures defer publication.",
-    "checks": "research/2026-11-02_bookmarks/closeout/checks.json; selected checks do not certify source completeness."
+    "16": "Payload 1ef600ebd committed exact paths. Initial DNS failure recovered on retry; foreign-dirty coordinated-publication deferral remains.",
+    "checks": "Selected receipt/R1,read-cap,archives and weekday checks pass; ledger nudge reviewed: changed event ledgers are in payload, REGISTRY refresh explicitly deferred. Doctor retains two pre-existing MED categories. Dated checks plus manual review in research/2026-11-02_bookmarks/closeout/."
   }
 }
 END_CLOSEOUT_RECEIPT -->
