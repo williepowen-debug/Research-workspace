@@ -35,7 +35,7 @@
 
 - [2026-10-28] **MC chart values are extractable without rendering.** pdftoppm is not installed (Read `pages` fails on PDFs), but pdfminer `extract_pages` with per-line coordinates recovers the chart DATA LABELS (Q3 MC Fig 16: all 50 MSA commitments, summing to the $25.4B total). Rotated axis labels come out as single characters — filter them. Script pattern: walk LTTextLine, sort by (−y, x).
 - [2026-10-08] **San Diego County Recorder (`arcc-acclaim.sdcounty.ca.gov`) returns 403 to curl and WebFetch** — the RaDD instrument (a "Fifth Modification", filed 10/2) is browser-only. Citi read it before any FDIC filing or OZK release existed. **A sell-side read of a RECORDED instrument can be the first disclosure**: quiet FLNG + EFR + EDGAR + releases did not mean no news on 10/6.
-- [2026-10-08] **`scripts/boot.py` INBOX lists `inbox/*.md` only — blind to `inbox/WALTER/`** (an ACTION signal sat there on 10/8 while boot said "1 unprocessed"). Always run `python3 PROME/tools/inbox_census.py OZK` too; note it counts `.gitkeep` as a top-level file. Fix owed (TODO T1).
+- [2026-10-08 · fixed 10/22] **`scripts/boot.py` INBOX now scans the top level and every sender lane**, excluding `processed/` and dotfiles; TODO T1 tested both ways. `PROME/tools/inbox_census.py` still counts `.gitkeep` as a top-level file.
 
 **Domain facts**
 - [2026-04-22] **IQHQ exposure is ONE credit** — "one credit with IQHQ… the senior secured loan on their San Diego RaDD project" (Rossow, OZK CCO, Bisnow 3/19/26). Boynton Yards is **not** IQHQ (Leggat McCall/DLJ/Deutsche Finance). Other IQHQ lenders: Fenway→JPM $165M · Elco Yards→KREF $581M · **Spur Ph I→Apollo $275M (deed-in-lieu to Apollo 9/17/26, single-source TRD)** · 155 N. Beacon→Citizens $486.5M.
@@ -63,15 +63,17 @@
 
 **CHANGES SINCE:**
 
-### LAST SESSION (2026-11-02 — OZK/Kimi Code CLI; model/provider/session ID not exposed; direct Will boot + assigned sub-notes check)
+### LAST SESSION (2026-11-02 — OZK/Kimi Code CLI; model/provider/session ID not exposed; direct Will boot + assigned sub-notes check + audit)
 - Boot read root/desk rules, STATUS, LESSONS, CALENDAR, MEMORY and TODO; ran boot kit, corrections and inbox/staleness checks. OZK **$51.78 (+2.23%) at 11:10 ET**, KRE +2.5%, no band breach. Two inbox items (WAL, WALTER) left unprocessed. Git pull was blocked by other desks' dirty files; left untouched, and `git fetch` showed no OZK local or incoming changes.
 - **Sub-notes opening call-notice check DONE:** FDIC FLNG rc 0, 184 filings returned and none after 12022; targeted press found no redemption/refinancing notice. Recorded **SWEPT AND EMPTY as of 11/2**, not a window-long negative → `research/threads/2026-10-01_SUBNOTES_RESET.md` §6. No signal, grade, weight or conviction moved.
+- **Data-staleness sweep DONE, audit only:** `reports/2026-11-02_data_staleness_sweep.md`. Main findings: Q3 Call Report evidence not integrated; current-state contradictions in Q3 card/POSITIONS/SCENARIOS; SF geography comparison needs correction; INSIDERS/PRIVATE_CREDIT stale; KB_INDEX drift; 160 ACTIVE KB rows past review date (review queue, not 160 false facts). TSV structure and inline-link checks passed. No remediation or inbox processing performed.
 
 ### NEXT SESSION — existing obligations
-1. **~Thu 11/5 Q3 10-Q** (D:L763): grade THESIS invalidation 6 (SM exit) — check-by **Mon 11/16**; RaDD reserve/readvance, Sullivan, OREO roll-forward (any sale price → invalidation 7 and the severity exit leg), debt-on-debt balance. Re-pull EFR cert 110 the same day (then refresh INSIDERS/STATUS, R2); advance `flng_watch.py` BASELINE_ID after reading the 10-Q.
-2. Q3 Call Report ~Nov 1–10: grade **OZK-10** + invalidation 8 (`RIAD5409`) by **11/16**; **FFIEC JWT renewal by 11/5 is Will's action** (PROME DOCKET L219, 11/1 sitting).
-3. Sub-notes call-notice window 11/2→12/22: opening 11/2 check DONE; `flng_watch.py` at every boot + next press check mid-Dec.
-4. Short interest 10/30 settlement ~11/10 — first post-print read (CALENDAR row).
-5. Owed, not urgent: PRIVATE_CREDIT/STATUS refresh after the 10-Q (R2) · OZK-02/04 inputs + roster freshness before the Q4 print (R6) · reserve-build re-derivation (R1, inputs now on file) · G4 PREDICTIONS_ARCHIVE seed.
+1. **Optional sweep-remediation starting point:** `reports/2026-11-02_data_staleness_sweep.md` §Recommended remediation order. Will chose closeout before any fixes began.
+2. **~Thu 11/5 Q3 10-Q** (D:L763): grade THESIS invalidation 6 (SM exit) — check-by **Mon 11/16**; RaDD reserve/readvance, Sullivan, OREO roll-forward (any sale price → invalidation 7 and the severity exit leg), debt-on-debt balance. Re-pull EFR cert 110 the same day (then refresh INSIDERS/STATUS, R2); advance `flng_watch.py` BASELINE_ID after reading the 10-Q.
+3. Q3 Call Report ~Nov 1–10: grade **OZK-10** + invalidation 8 (`RIAD5409`) by **11/16**; **FFIEC JWT renewal by 11/5 is Will's action** (PROME DOCKET L219, 11/1 sitting).
+4. Sub-notes call-notice window 11/2→12/22: opening 11/2 check DONE; `flng_watch.py` at every boot + next press check mid-Dec.
+5. Short interest 10/30 settlement ~11/10 — first post-print read (CALENDAR row).
+6. Owed, not urgent: PRIVATE_CREDIT/STATUS refresh after the 10-Q (R2) · OZK-02/04 inputs + roster freshness before the Q4 print (R6) · reserve-build re-derivation (R1, inputs now on file) · G4 PREDICTIONS_ARCHIVE seed.
 
 ⛔ D1/OZK-salvage remains RULED-CLOSED. TERRY builds any existing authorized card; Will owns orders. No expiry nagging (Will 10/20). Prediction OPEN is not holding/rolling advice.
