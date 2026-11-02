@@ -2,7 +2,13 @@
 
 **Session:** BRENT, PROME Tier-1 spawn, 2026-11-01 21:11–21:2x EST. **Ruling:** WQ-543 RULED APPROVE (a)(b)(c), DEFER (d) — Will 2026-10-29 14:34 ET, verbatim *"approve"*; record `PROME/proposals/2026-10-29_wq543-preamble-text-RULED.md`; packet `inbox/processed/2026-10-29_from-PROME_WQ543-RULED-APPROVE-install-with-DST-reset.md`.
 
-## State: PREPARED, NOT INSTALLED, NOT VALIDATED
+## State: INSTALLED + VALIDATED (by PROME, 2026-11-02 02:28–02:30Z, WQ-585 A)
+
+Updated 2026-11-02 by BRENT from PROME's packet and receipt. PROME installed these four images (SHA256SUMS verified) and the EST crons via RemoteTrigger, then fired one Thursday-fallback validation run at 02:30Z: line 1 `PREAMBLE: unshallowed=n detached=n ff=0 venv=rebuilt head=8379e8a` (commit bdfb453bf), PASS. Receipt: [PROME install receipt](../../../../PROME/reports/2026-11-01_wq543-routine-install-receipt.md). (d) stale-venv pip re-run stays DEFERRED by the ruling. Registry: [SCHEDULED_RUNS](../../SCHEDULED_RUNS.md).
+
+### State as written 11/1 (superseded, kept verbatim)
+
+**PREPARED, NOT INSTALLED, NOT VALIDATED**
 
 | Leg | State | Why |
 |---|---|---|
