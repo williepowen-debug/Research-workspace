@@ -34,5 +34,14 @@
     "sha256": "8b0fc5d8ecb56982480d3b12100b23c07d7801171197c79425f38ee3e07f7d4d",
     "claimed_original_hash_matches": false,
     "stats_ast_matches_pdf": true
+  },
+  "base2_chat_upload": {
+    "source": "Will chat message, November 2, 2026",
+    "copy": "prereg_base2_chat_copy.py",
+    "sha256": "ca07af9554077a0027ea662eb01d1f5e4d527df8ca287bcc6daf02516d20a9b6",
+    "preservation_note": "Trailing whitespace on one line removed; not a byte-identity attestation",
+    "offline_execution": "Only input CSV path replaced in memory with archived full state series",
+    "output": "prereg_base2_reproduced_output.txt",
+    "output_sha256": "fc15f9c318f0c5efbdcf8564c844b9cf3ad47c58004a0ab34b58a4c38a945971"
   }
 }
