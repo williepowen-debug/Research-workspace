@@ -2,6 +2,10 @@
 
 Read only entries relevant to Will's current assignment. This is historical evidence and retained authority, not an automatic task queue. Moved from CONTINUITY.md on October 1, 2026; pre-move record at `c8a8fb86a969688c4b8e9ee25b130770d40be0c2`. Current resume point: [CONTINUITY.md](CONTINUITY.md). Dates and owner states below are last-checked observations, not fresh verification. Moving a record neither closes a finding nor revokes its approval.
 
+## November 2 morning change review
+
+[Targeted review](runs/2026-11-02_1018_morning-change-review.md), initial 87-commit/435-path inventory through `f28fc8021`: M1 launcher still accepts non-PROME Fable after WQ-590; M2 uncommitted L911 grouping hides old unresolved touches from launcher warnings (real-ledger replay: 178 → 39 visible, HANS warning lost). Review complete, recommendations only; no repair/sends/launch assigned. Launcher work is author follow-up. Financial evidence and full morning research were not exhaustively verified; no owner implementation changed.
+
 ## November 2 launcher and desktop apps
 
 **Latest recorded outcome:** Calendar, Decisions and Agent Launcher matched the freshly fetched source on the desktop at the [November 2 update check](runs/2026-10-26_2115_agent-launcher.md#november-2--desktop-update-check-for-all-three-apps). Calendar and Decisions source checks passed; the missing desktop shortcuts were installed and verified. Existing launcher wrappers already matched. This supersedes the earlier laptop-only shortcut evidence, not the limits of those earlier tests. Decisions recovery uses the committed portable package, not the temporary clone.
