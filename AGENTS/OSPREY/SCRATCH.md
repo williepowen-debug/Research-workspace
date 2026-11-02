@@ -2,6 +2,14 @@
 
 *Rewritten in full (template). The 10/23 SCRATCH is in git history.*
 
+## ➕ SESSION 2026-11-02 (Mon) ~08:48–09:00 ET · osprey-1102 · PROME prome-40 Tier-1 WQ-184 wake (DOCKET L814) + L0 drain — READ THIS FIRST
+- **Boot:** root CLAUDE/AGENTS/USER + this desk's CLAUDE.md read to EOF with `boot_read.py` (5/1/2/9 pages). No `git pull` (other desks' tracked files dirty; Git refuses a rebase pull) — fetched, continued on the checkout.
+- **Refinery strikes RESUMED:** Novokuibyshevsk 10/30 (B2, Novak confirmed 3 refineries + 1 gas-chem), Ufa Novoil 10/31 (C3), Kstovo NORSI 11/1 (C2) + Samara LPDS 11/2 (midstream). Rowed; KB-244…248.
+- **L814 graded NOT MET** (`domain/energy-strikes/L814_GRADE_2026-11-02.md`): leg A 1/14 from Kstovo 11/1 (earliest 11/15); leg B UNREACHABLE at day 60 (flagged to PROME). C1 stays 5.
+- Diesel ban → 2027-01-31 (№1436): 11/1 item closed. Inbox 6/6 consumed (board_log +6, filed to processed/). strike_feed 11/2: 43 rows; NONE rows not individually dispositioned in the git-ignored feed file (skipped; the refinery-relevant ones are rowed or named in KB-246).
+- **Mark stays 10/25** (Palaemon 26 Oct–1 Nov not on the index yet). Not done: Palaemon read, C2/C3 maritime sweep beyond news, +5d re-reads.
+- **NEXT:** ~11/6 +5d re-reads (Novokuibyshevsk CDUs, Ufa identity, Kstovo identity/halt) · Palaemon 26 Oct–1 Nov · 11/8 §5 re-read · 11/15 leg A · 11/17 C2 · 11/18 OSP-07 (10/30 event is in-window; grade ≥11/18) + GATE-001.
+
 ## CURRENT MARKS (one line)
 - Refineries/products **5** · crude-export terminals **5** (re-armed 10/18) · shadow-fleet tankers **3** · band ~30% [EST] · Brent → BRENT.
 
