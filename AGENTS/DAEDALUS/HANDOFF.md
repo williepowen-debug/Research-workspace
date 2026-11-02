@@ -1,3 +1,7 @@
+# DAEDALUS continuation — November 2, 2026
+
+Startup recovery only: see `runs/2026-11-02_STARTUP_RECOVERY.md` and current STATUS. Suggested next task is the existing L911 session-view repair, due 11/09; WQ-578 message repair also pending. Seven inbox packets remain for implementation/artifact-verification write-back. No sweeps or profile reviews executed at this boot. Prior continuation follows as dated context.
+
 # DAEDALUS continuation — October 30, 2026 (evening)
 
 **Current continuation:** FALCON (17:50) and REGINALD (16:55) whole profiles DONE 2026-10-30 (session 3; `runs/2026-10-30_FALCON_REFRESH.md`, `runs/2026-10-30_REGINALD_REFRESH.md`); `STATUS.md` owns the queue. Start the next session at STATUS § Current work: (1) MIDAS whole-profile refresh by 11/07 (template `runs/2026-10-30_FALCON_REFRESH.md`; prior to `profiles/_prior/`); (2) Gate Basis sweep (1d DUE at 10/30 boot); (3) owner replies to the 10/30 packets (REGINALD ×4, FALCON) and PROME's answers (FALCON READS, WQ-559, DOCKET convention); re-adjudicate BROCK and CREED L5 at their next check (both fixed their blockers 10/30); (4) L263 draft review; (5) Production Review 2026-11-04: §10 batch + BROCK/CREED/REGINALD/FALCON tool items (STATUS item 5), incl. the read_cap companion-shadowing change PROME's row remedy could not do; (6) any PROME packet on L526 AC4 after the Fri 20:15Z BRENT run.
