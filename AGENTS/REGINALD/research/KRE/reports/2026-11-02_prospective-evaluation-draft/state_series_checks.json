@@ -1,0 +1,48 @@
+{
+  "scope": "Reproduced from supplied derived state CSV, not from raw prices/yields",
+  "rows": 5059,
+  "start": "2006-09-21",
+  "end": "2026-10-30",
+  "last_row": {
+    "corr": 0.7193380186145882,
+    "vol": 0.1561348354313891,
+    "beta": 0.3275289445639803,
+    "brate": -0.0620011421352553
+  },
+  "forward_pairs": 4996,
+  "last_conditioning_date": "2026-08-03",
+  "C1": {
+    "n": 825,
+    "counts": {
+      "persist": 300,
+      "calm_norm": 142,
+      "stress_norm": 383
+    },
+    "probabilities": {
+      "persist": 0.36363636363636365,
+      "calm_norm": 0.17212121212121212,
+      "stress_norm": 0.46424242424242423
+    }
+  },
+  "C2": {
+    "n": 53,
+    "successes": 17,
+    "probability": 0.32075471698113206
+  },
+  "C3": {
+    "n": 487,
+    "counts": {
+      "neg": 123,
+      "zero": 230,
+      "pos": 134
+    },
+    "probabilities": {
+      "neg": 0.25256673511293637,
+      "zero": 0.4722792607802875,
+      "pos": 0.2751540041067762
+    }
+  },
+  "stats_ast_matches_pdf": true,
+  "chat_copy_sha256": "8b0fc5d8ecb56982480d3b12100b23c07d7801171197c79425f38ee3e07f7d4d",
+  "matches_claimed_resolver_hash": false
+}

@@ -27,7 +27,7 @@ KRE's daily movements became unusually less synchronized with broader bank stock
 | [market_snapshot_2026-11-02_1415ET.csv](market_snapshot_2026-11-02_1415ET.csv) | Transcribed intraday tool observations; not synchronized closing data |
 | [COPY_MANIFEST.json](COPY_MANIFEST.json) | Original copied-artifact hashes; later package manifests are linked in the evidence guide |
 
-Latest addition: [prospective evaluation draft and review](reports/2026-11-02_prospective-evaluation-draft/REVIEW.md), preserved as **unapproved**. Its [combined package and code review](reports/2026-11-02_prospective-evaluation-draft/COMBINED_PACKAGE_REVIEW.md) add printed code, partial historical data and two reproduced resolver defects. The earlier accompanying PDF is the existing Study 3 presentation, now saved with its embedded charts.
+Latest addition: [prospective evaluation draft and review](reports/2026-11-02_prospective-evaluation-draft/REVIEW.md), preserved as **unapproved**. Its [combined package and code review](reports/2026-11-02_prospective-evaluation-draft/COMBINED_PACKAGE_REVIEW.md) add printed code, partial historical data and two reproduced resolver defects. The [latest data addendum](reports/2026-11-02_prospective-evaluation-draft/STATE_SERIES_REVIEW.md) preserves the full derived table and chat code, reproduces reference probabilities and explains the earlier rounding discrepancy. The earlier accompanying PDF is the existing Study 3 presentation, now saved with its embedded charts.
 
 ## Scope for future agents
 

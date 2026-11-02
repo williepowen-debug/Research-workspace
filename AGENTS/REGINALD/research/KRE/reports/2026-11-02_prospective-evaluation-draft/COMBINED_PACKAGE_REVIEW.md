@@ -1,5 +1,7 @@
 # Combined preregistration package — review addendum
 
+**Latest evidence:** [full state-series and chat-code addendum](STATE_SERIES_REVIEW.md) supplies the complete derived table, reproduces the conditional reference frequencies and explains the C1 rounding total. Missing-file statements below describe the earlier intake.
+
 November 2, 2026. **Draft only; no approval, registration or schedule.** [PDF](KRE_prereg_combined.pdf) · [Searchable extraction](combined_pdf_text.txt) · [Earlier review](REVIEW.md) · [Manifest](MANIFEST.json)
 
 ## What is new and useful

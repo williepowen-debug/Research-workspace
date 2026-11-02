@@ -20,5 +20,19 @@
     "data_status": "Selected rounded rows only; full 5059-row file absent",
     "text_extraction": "combined_pdf_text.txt"
   },
-  "resolver_supplied_note": "Standalone file absent; code now available for inspection in combined PDF."
+  "resolver_supplied_note": "Complete code now supplied in chat and archived; original byte identity remains unverified.",
+  "state_series_upload": {
+    "source": "/mnt/c/Users/willi/Downloads/base_rate_state_series_thru_20261030.csv",
+    "copy": "base_rate_state_series_thru_20261030.csv",
+    "bytes": 448680,
+    "sha256": "f66f171c75db421be60dd1358c35db610c483a0eb17f7fe2d6830d3d8d8f3f7a",
+    "rows": 5059
+  },
+  "chat_resolver": {
+    "source": "Will chat message, November 2, 2026",
+    "copy": "resolver_chat_copy.py",
+    "sha256": "8b0fc5d8ecb56982480d3b12100b23c07d7801171197c79425f38ee3e07f7d4d",
+    "claimed_original_hash_matches": false,
+    "stats_ast_matches_pdf": true
+  }
 }

@@ -116,6 +116,8 @@ Proposes three tests over November 2–February 2: correlation persistence, mark
 
 **Not approved or activated.** The author and approver have seen first-session information; preserve late-registration status if adopted. The later [combined-package review](reports/2026-11-02_prospective-evaluation-draft/COMBINED_PACKAGE_REVIEW.md) adds printed resolver/base-rate code and selected historical rows. Exact standalone code and full inputs remain absent. Synthetic checks reproduce incomplete-window resolution and incorrect counting of missing sessions. The C1 benchmark sums to 0.99, and dropped-session rules conflict with exactly 63 daily returns. A KRE-only rate test cannot establish a bank-wide regime. The review explains the repairs; no schedule or forecast ledger entry was created.
 
+**Latest intake:** [full state-series and chat-code review](reports/2026-11-02_prospective-evaluation-draft/STATE_SERIES_REVIEW.md) supplies all 5,059 derived rows and reproduces the three conditional reference forecasts. The C1 0.99 total is explained by rounding; exact counts are 300/142/383 out of 825. Raw prices/yields and original code byte identity remain unverified; resolver defects remain. This supersedes the earlier missing-full-table status.
+
 ## Earlier conversation and pictures
 
 [DISCUSSION.md](DISCUSSION.md) preserves Will's intent and the earlier ETF comparisons. The [14:15 ET snapshot](market_snapshot_2026-11-02_1415ET.csv) is transcribed from retrieved tool output; exact exchange timestamps were not captured and prices may be delayed. It is not part of the October 30 closing sample.

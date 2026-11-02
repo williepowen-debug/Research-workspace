@@ -49,6 +49,8 @@ Before extending the fundamentals claims:
 
 The [draft review](reports/2026-11-02_prospective-evaluation-draft/REVIEW.md) records a separate, unapproved proposal. The [combined-package addendum](reports/2026-11-02_prospective-evaluation-draft/COMBINED_PACKAGE_REVIEW.md) now provides printed code and partial tables, and reproduces two resolver defects on synthetic data. It still requires exact standalone code and full data; full-precision C1 scoring probabilities (printed values sum to 0.99); a consistent daily-return/missing-data rule; and explicit late-registration disclosure because November 2 prices were already seen. Historical endpoint and episode rules, the BKX splice, and KRE-only versus bank-wide interpretation also need clarification. Archiving is not registration, and these repairs are not an instruction to launch or schedule work.
 
+**Subsequent closure:** the [full-state addendum](reports/2026-11-02_prospective-evaluation-draft/STATE_SERIES_REVIEW.md) now supplies all 5,059 derived rows and reproduces day-weighted reference forecasts. C1 sums to one before rounding. Exact scoring adoption, original raw price/yield inputs, original code byte identity and resolver defects remain open.
+
 The newly supplied Study 3 PDF contains embedded charts. Original executable code, result CSVs and standalone chart sources remain absent.
 
 ## Interpretation guardrails

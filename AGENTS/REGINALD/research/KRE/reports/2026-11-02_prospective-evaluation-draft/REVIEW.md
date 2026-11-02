@@ -1,5 +1,7 @@
 # Prospective evaluation draft — PROME review
 
+**Latest evidence:** [full state-series and chat-code addendum](STATE_SERIES_REVIEW.md) supplies the complete derived table, reproduces the conditional reference frequencies and explains the C1 rounding total. Missing-file statements below describe the earlier intake.
+
 Reviewed November 2, 2026. **Archived proposal only: not approved, registered, scheduled or activated.** [Original draft](PREREGISTRATION.md) · [Provenance](MANIFEST.json) · [Collection guide](../../EVIDENCE_GUIDE.md)
 
 **Later same-day addendum:** the [combined PDF review](COMBINED_PACKAGE_REVIEW.md) now inspects printed code and selected historical rows. References below to missing code describe the initial upload; exact standalone files and full data remain absent. Two resolver defects were reproduced on synthetic inputs.
