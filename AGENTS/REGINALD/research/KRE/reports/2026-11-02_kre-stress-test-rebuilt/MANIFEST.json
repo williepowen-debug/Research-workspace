@@ -1,0 +1,25 @@
+{
+  "received": "2026-11-02",
+  "source": "/mnt/c/Users/willi/Downloads/KRE_Stress_Test_Rebuilt_lite.zip",
+  "copy": "KRE_Stress_Test_Rebuilt_lite.zip",
+  "bytes": 1246586,
+  "sha256": "e4055221e2c1ce580187485abbfc1036693d325c61651161e98a4b9269851ea7",
+  "archive_entries": 42,
+  "archive_files": 37,
+  "uncompressed_bytes": 2045803,
+  "extracted_copy": "source/",
+  "observation_cutoff": "2026-10-30",
+  "comparison_rows": 54,
+  "verification": {
+    "fresh_fetch_completed": true,
+    "unmodified_source_rerun": "FAILED: fetch.sh omits eight bank tickers required by stress_test.py",
+    "temporary_fetch_repair": "Added USB COF PNC BNY NTRS STT KEY FITB in a temporary copy only",
+    "diagnostic_rerun_completed": true,
+    "rebuilt_values_matching_supplied_as_text": 54,
+    "byte_identical_output_files": 9,
+    "output_files": 13,
+    "current_headline_change": false,
+    "project_files_used_for_rerun": false
+  },
+  "review": "REVIEW.md"
+}

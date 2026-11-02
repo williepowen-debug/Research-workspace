@@ -43,7 +43,7 @@ Removing extreme days raises correlation. But applying the same removal to histo
 
 Independent 21-session blocks show correlations of 0.677 in June 3–July 2 and 0.640 in July 6–August 3. The change therefore existed before September 14 and October 22. Persistence is observed through October 30, not proven into the future.
 
-Sources: [five-day tests](reports/2026-11-02_kre-cato-sensitivity/results.json), [ten-day and block checks](reports/2026-11-02_decoupling-stress-test/checks.json). These reproduce calculations on the same saved vendor data. Overlapping historical windows are not independent episodes; percentiles are not reversal probabilities.
+Sources: [five-day tests](reports/2026-11-02_kre-cato-sensitivity/results.json), [ten-day and block checks](reports/2026-11-02_decoupling-stress-test/checks.json), [rebuilt stress-test review](reports/2026-11-02_kre-stress-test-rebuilt/REVIEW.md). These reproduce calculations on the same saved vendor data. Overlapping historical windows are not independent episodes; percentiles are not reversal probabilities.
 
 ## 3. Broad-market exposure matters, but the historical comparison matters too
 

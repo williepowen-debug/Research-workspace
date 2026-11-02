@@ -31,6 +31,8 @@ Latest addition: [prospective evaluation draft and review](reports/2026-11-02_pr
 
 Latest full research bundle: [Study 4 market leadership review](reports/2026-11-02_study4-market-leadership/REVIEW.md), including 66 preserved source files and selected offline replication. It strengthens the broader-market/style explanation; its proposed future test remains unapproved.
 
+Latest rebuild: [decoupling stress-test reconstruction](reports/2026-11-02_kre-stress-test-rebuilt/REVIEW.md), preserving the supplied ZIP, unified scripts, 54-row reconciliation and outputs. A temporary retrieval-list repair reproduced all 54 rebuilt values as text; the as-shipped fetch script omits eight required bank tickers. This improves reproducibility without changing the synthesis or adopting a forecast.
+
 ## Scope for future agents
 
 Preserve Will's purpose: **complete context, not repeated thesis reversals**. Distinguish return performance, daily co-movement, fundamentals and forecasts. Mark results as reproduced, reported-only or interpretive. Independent calculations on the same Yahoo data are not independent-vendor validation. Preserve source snapshots and observation dates; perform refreshes in a new dated folder. Do not infer bank-credit resolution from ETF strength or generalized distress from one troubled borrower.

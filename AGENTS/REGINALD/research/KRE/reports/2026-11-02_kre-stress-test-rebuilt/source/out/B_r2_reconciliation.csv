@@ -1,0 +1,9 @@
+spec,r2,r2_ddof_mismatch
+KRE ~ KBWB (63 returns),0.5174,0.5251
+KRE ~ IWM (63 returns),0.2510,0.2628
+KRE ~ SPY (63 returns),0.0481,0.0632
+KRE ~ IWM + Δ10y (63 returns),0.2824,
+KRE ~ SPY + Δ10y (63 returns),0.1532,
+"KRE ~ KBWB (64 returns, base 7/31)",0.5267,
+"KRE ~ IWM (64 returns, base 7/31)",0.2724,
+"KRE ~ SPY (64 returns, base 7/31)",0.0650,

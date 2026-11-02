@@ -94,6 +94,8 @@ Original upload: `REPORT (2).md`. Later upload `REPORT (6).md` is byte-for-byte 
 
 **Readable judgment:** the report directly answers the unusual-day challenge and strengthens observed persistence. “Stopped moving with the market,” “half explained by low volatility,” and “artifacts ruled out” need narrower wording. A rank among overlapping windows and the historical reversion percentage are not forecast probabilities. Study 6's baseline comparison below qualifies the earlier residual-correlation framing.
 
+**Rebuilt package supplied later:** [integration review](reports/2026-11-02_kre-stress-test-rebuilt/REVIEW.md) · [54-row reconciliation](reports/2026-11-02_kre-stress-test-rebuilt/source/out/comparison_with_original.csv) · [manifest](reports/2026-11-02_kre-stress-test-rebuilt/MANIFEST.json). The lite ZIP preserves the report, unified scripts, outputs, processed ETF panel, holdings/NAV and Treasury files; per-ticker Yahoo JSON requires retrieval. As shipped, the fetch list omits eight required banks. A temporary diagnostic repair allowed a full rerun, with all 54 rebuilt values matching the supplied table as text. Four named original/rebuilt differences and the existing causal/dependence caveats remain; the malformed Markdown comparison table should not be reused.
+
 ## 7. Study 6 — different drivers of returns and co-movement
 
 [Original report](reports/2026-11-02_study6-drivers/input_report.md) · [review and numerical receipts](reports/2026-11-02_study6-drivers/review.json)
