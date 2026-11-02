@@ -1,0 +1,94 @@
+{
+  "checks": {
+    "KRE": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 15.49327033820649
+    },
+    "KBWB": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 15.908516772825065
+    },
+    "XLF": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 13.709322593834761
+    },
+    "IWM": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 13.266929549649053
+    },
+    "SPY": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 10.942377857763974
+    },
+    "RSP": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 12.041544292190576
+    },
+    "QQQ": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 12.003077382611615
+    },
+    "HYG": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 6.545970815440061
+    },
+    "LQD": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 7.391833193277697
+    },
+    "IEF": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 2.6416559742789225
+    },
+    "TLT": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 7.51950080361814
+    },
+    "VNQ": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 17.727748333931014
+    },
+    "SHY": {
+      "missing_adjusted": 0,
+      "first": "2012-01-03",
+      "last": "2026-11-02",
+      "max_abs_daily_return_pct": 0.9973966257565081
+    }
+  },
+  "rows_completed": 3729,
+  "return_observations": 3728,
+  "baseline_overlapping_all_days": {
+    "21": {
+      "mean_pct": 1.0787762185905667,
+      "median_pct": 1.289768794270707
+    },
+    "63": {
+      "mean_pct": 3.1828835682175725,
+      "median_pct": 2.737983115646281
+    }
+  }
+}

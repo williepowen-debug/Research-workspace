@@ -1,0 +1,11 @@
+{
+  "source": "https://www.ishares.com/us/products/239565/ishares-iboxx-high-yield-corporate-bond-etf",
+  "retrieval_date": "2026-11-02",
+  "ex_date": "2026-11-02",
+  "payable_date": "2026-11-05",
+  "distribution_per_share_usd": 0.401391,
+  "prior_close_2026_10_30": 77.43,
+  "intraday_price_approximately_1247_EST": 77.065002,
+  "vendor_dividend_field": 0.0,
+  "interpretation": "Vendor missing current ex-dividend adjustment; do not infer credit decline from raw price return. Simple distribution-inclusive return approximately +0.047%."
+}

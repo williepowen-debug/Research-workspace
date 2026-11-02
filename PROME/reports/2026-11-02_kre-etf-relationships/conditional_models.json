@@ -1,0 +1,47 @@
+{
+  "market": {
+    "training_start": "2025-10-02",
+    "training_end": "2026-10-02",
+    "evaluation_start": "2026-10-05",
+    "evaluation_end": "2026-10-30",
+    "intercept": 0.00019399385592855026,
+    "betas": {
+      "SPY": 0.7244692601220813
+    },
+    "train_R2": 0.18147138727008405,
+    "actual_compound_pct": 1.7377838063672435,
+    "predicted_compound_pct": -0.9194649295047541,
+    "residual_daily_sum_pp": 2.7382471467208327
+  },
+  "size_and_market": {
+    "training_start": "2025-10-02",
+    "training_end": "2026-10-02",
+    "evaluation_start": "2026-10-05",
+    "evaluation_end": "2026-10-30",
+    "intercept": 0.00024351084154452686,
+    "betas": {
+      "SPY": -0.44885797225148505,
+      "IWM": 0.9926137751112215
+    },
+    "train_R2": 0.4084011312165934,
+    "actual_compound_pct": 1.7377838063672435,
+    "predicted_compound_pct": 0.5427377419525925,
+    "residual_daily_sum_pp": 1.2340612049308095
+  },
+  "banks_size_rates": {
+    "training_start": "2025-10-02",
+    "training_end": "2026-10-02",
+    "evaluation_start": "2026-10-05",
+    "evaluation_end": "2026-10-30",
+    "intercept": 1.6095997501565845e-05,
+    "betas": {
+      "KBWB": 0.8011772347408428,
+      "IWM": 0.1320574026470842,
+      "IEF": -0.026052537019289196
+    },
+    "train_R2": 0.6844586213268913,
+    "actual_compound_pct": 1.7377838063672435,
+    "predicted_compound_pct": 0.6291906177187334,
+    "residual_daily_sum_pp": 1.1366241420154137
+  }
+}
