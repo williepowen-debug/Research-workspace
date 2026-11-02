@@ -2,7 +2,7 @@
 
 **Written BEFORE any edit** (WQ-229). **Author:** PROME `prome-40`, 2026-11-02 (clock: the commit time of this file). **Owner:** PROME (RESEARCH-INTAKE is PROME-built). **Consumer:** WALTER (reads `data/<date>/news.json`). **Origin:** read 3 of the L569 episode (`ACCEPTANCE_newsweep_leg_counters_L569.md` § Disposition). Own episode, materially different defect from L569.
 
-reads: 0
+reads: 1
 
 ## The defect, in its own terms
 
@@ -31,3 +31,16 @@ In: the write path and `_load_seen` in `fetch_newsweep.py`. Out: classification,
 ## Tests
 
 `Research-Intake/scripts/test_newsweep_write_order.py` — fixtures only, no network (requests and config monkeypatched). One test per W1–W5.
+
+## Disposition (2026-11-02, PROME prome-40)
+
+**Read 1** — RESULT read, `L570-reader` (Opus, general-purpose, fresh context; 13 counterexamples of its own run against the pre-edit and edited files on fixtures, one end to end through `collect.run_fetchers()`): 16 rows · 11 ✅ / 5 ⚠️ / 0 ❌ · verdict **ACCEPT-WITH-RESIDUE**. The end-to-end retry reproduces the defect on the pre-edit file (`ok`, new 0, skipped 4, empty `news.json`) and recovers on the edit (new 4, skipped 0); a rich degraded run and a second same-day run are byte-identical to the pre-edit file. Ledger: session scratchpad `l570_read1.md` (not retained in the repo).
+
+**States:** IMPLEMENTED (Research-Intake d3f603f) · TESTED (28/28 + 33/33) · INDEPENDENTLY VERIFIED (read 1, 0 ❌) · STILL UNRESOLVED: the residue below. Early stop at ❌ = 0; no further read owed.
+
+**Declared residue (⚠️, not fixed — none is wrong in operation):**
+1. A temp write that fails halfway leaves `data/<day>/news.json.tmp`; the Actions job's `git add -A` would commit it. WALTER reads only `news.json`.
+2. A seen file that is a dict whose VALUES are not dates is still pruned to empty silently (every headline re-reported). Pre-existing; W5's wording does not cover it.
+3. The atomic replace needs a writable directory, turns a symlinked seen file into a regular file and resets mode to 644. No effect on the live setup.
+4. A corrupt seen file now stops the news job on every run until fixed. **Recovery:** inspect `news_seen.json`; if unrecoverable, `git mv` it aside (never delete) and let the next run start a fresh one — that run re-reports up to 14 days of headlines once.
+5. W1's test covers serialization failure only; write-failure cases are covered by read 1's fixtures, not by the committed suite.
