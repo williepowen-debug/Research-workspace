@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-11-02T15:45:10Z",
+  "origin": "a710c80854266787524108cc5683a122842669c1",
+  "latest_own_fetch": "failed github.com DNS; concurrent shared-origin updates separately proven by ancestry",
+  "publication": [
+    {
+      "commit": "d7218258ce2bb28747181c937b16308507fffe1a",
+      "state": "published",
+      "note": "Fresh source/card007/two INFO handoffs origin-proven."
+    },
+    {
+      "commit": "edd793cef36a35114b1b23df0a9b669a86f86297",
+      "state": "published",
+      "note": "Fresh fetch origin-proves prior continuity."
+    },
+    {
+      "commit": "06f364fb9bcbc7dbc3a83f25fb501347632bd973",
+      "state": "published",
+      "note": "Prior UNG receipt"
+    },
+    {
+      "commit": "252963ff695f5eff4ddd8dc6530451c0ff2c3798",
+      "state": "published",
+      "note": "Friday credit source/card008 and five handoffs"
+    },
+    {
+      "commit": "c9456d852357ee327f8b60affc4d8c13d0c29643",
+      "state": "published",
+      "note": "Reviewed USER delta/reader declaration"
+    },
+    {
+      "commit": "c1da1bf9267de5b7404922c78d707dcd3641d2c8",
+      "state": "pending",
+      "note": "Full continuity/header review and delivery reconciliation. Foreign-dirty self-push deferred."
+    }
+  ],
+  "delivery": {
+    "signal_date": "20261102",
+    "total": 21,
+    "delivered": 21,
+    "note": "Current shared origin proves all21; reconciler changed5, zero real orphans. Latest own fetch DNS failed; concurrent origin update retained. Not blanket consumption."
+  },
+  "limits": "All21 handoff paths have origin proof; publication not blanket consumption. Full continuity may remain local. No WALTER self-push."
+}

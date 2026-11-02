@@ -99,14 +99,9 @@ FULL narrative closeout; operational boot PARTIAL. Exact source/reader commits a
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-02T15:43:21Z",
+  "as_of": "2026-11-02T15:45:10Z",
   "next_review": "2026-11-03",
   "publication": [
-    {
-      "commit": "f28fc802172900067c88568e8cc199561c8faa1c",
-      "state": "published",
-      "note": "Bounded UNG assignment origin-proven."
-    },
     {
       "commit": "d7218258ce2bb28747181c937b16308507fffe1a",
       "state": "published",
@@ -131,6 +126,11 @@ FULL narrative closeout; operational boot PARTIAL. Exact source/reader commits a
       "commit": "c9456d852357ee327f8b60affc4d8c13d0c29643",
       "state": "published",
       "note": "Reviewed USER delta/reader declaration"
+    },
+    {
+      "commit": "c1da1bf9267de5b7404922c78d707dcd3641d2c8",
+      "state": "pending",
+      "note": "Full continuity/header review and delivery reconciliation. Foreign-dirty self-push deferred."
     }
   ],
   "delivery": {
@@ -179,7 +179,7 @@ FULL narrative closeout; operational boot PARTIAL. Exact source/reader commits a
     "14": "MEMORY notes conserved, current trigger index retained; no auto-memory/new rule.",
     "root.retirement": "Recent owner-referenced sources retained; no research retirement, preexisting untracked caches not swept.",
     "15": "Existing approvals/unknowns and held intake scope retained; central attestation transcribed fb933f120 and verified.",
-    "16": "Exact source252963ff6/reader c9456d852 and older continuity origin-proven. All21 day handoffs reconciled. Foreign dirty tree, no self-push; full continuity follows.",
+    "16": "Source/reader payloads origin-proven; all21 handoffs delivered. Full continuity c1da1bf92 committed; foreign-dirty self-push deferred. Exact receipt commit follows.",
     "checks": "Full receipt/R1, read-cap, archives, weekdays, basis, READS pass after rechecks. Doctor MED:21 old unconsumed/6 ACTION, oldest14d; no HIGH. Ledger-nudge reviewed; unchanged kill/event ledgers not fabricated, REGISTRY in this commit."
   }
 }

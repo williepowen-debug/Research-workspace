@@ -2,6 +2,16 @@
 
 PROME relayed Will's status check plus existing-scope Friday-data availability lead. Routed008 from verified FRED HY344[Oct30]+18/CCC1327+2, near350 watch not fire. No new study/order/intake assignment. Source252963ff6 and reader-review c9456d852 committed. USER WQ590 reviewed; registrar transcription pending. Seven owner-header mirror changes before network summary; BALANCED retained. Full closeout clears two LIGHT narrative deferrals; market/source/inbox boot remains PARTIAL. Root Data Hygiene: referenced recent sources retained, no speculative retirement/new checker. Current approvals/duties solely LAST_COMPLETION.
 
+## Demoted closed assignment receipt — verbatim
+
+```json
+    {
+      "commit": "f28fc802172900067c88568e8cc199561c8faa1c",
+      "state": "published",
+      "note": "Bounded UNG assignment origin-proven."
+    },
+```
+
 ## Demoted published-receipt JSON fragment — verbatim
 
 ```json
