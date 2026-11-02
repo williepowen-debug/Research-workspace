@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-11-02T16:10:23Z",
+  "origin": "3b336483d82ba3bed1141debbdc975bb759b20fb",
+  "publication": [
+    {
+      "commit": "8d6291648fb2e265956cf6a9ce84a6177426bec4",
+      "state": "published",
+      "note": "Three named packets consumed; two cards/two new handoffs; DEWEY route-as stubs retained."
+    },
+    {
+      "commit": "3b336483d82ba3bed1141debbdc975bb759b20fb",
+      "state": "published",
+      "note": "Authorized intake source/card/mark payload; four cards/16 handoffs; origin-proven."
+    }
+  ],
+  "delivery": {
+    "signal_date": "20261102",
+    "total": 39,
+    "delivered": 39,
+    "note": "Fresh fetch and reconciler prove18 newly delivered/zero real orphans. Other owners consumption not inferred."
+  },
+  "coordinator": "PROME native publication receipt independently checked by fresh fetch/ancestry",
+  "limits": "Delivery not consumption; current continuity commit follows; no WALTER self-push."
+}
