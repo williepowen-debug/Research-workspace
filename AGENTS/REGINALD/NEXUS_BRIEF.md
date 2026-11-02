@@ -2,7 +2,7 @@
 
 **Status:** Concentrated bank risk. HY re-widened to 344bp [10/30] from 326 [10/29] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 6bp below the strict >350 line, run 0-of-3); Friday's widening was HY-led and does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-02 11:42 ET, Will-approved carried-release reads | STATUS commit: pending carried-read write-back
+**As of:** 2026-11-02 11:42 ET, Will-approved carried-release reads | STATUS commit: `d8f1e3ad2`
 
 ## CROSS-DOMAIN
 
