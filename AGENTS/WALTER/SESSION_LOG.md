@@ -1,3 +1,177 @@
+# Demoted historical publication receipt — November 2 bookmark light closeout
+
+Resolved publication history preserved verbatim from LAST_COMPLETION when its 75% rotation trigger fired. Current obligations and approvals remain live there.
+
+<!-- CLOSEOUT_RECEIPT_JSON
+{
+  "schema": 1,
+  "as_of": "2026-11-02T15:05:44Z",
+  "next_review": "2026-11-03",
+  "publication": [
+    {
+      "commit": "eee287123",
+      "state": "published",
+      "note": "Prior eight cards and 31 handoffs; fresh origin ancestry verified."
+    },
+    {
+      "commit": "a30956e0d",
+      "state": "published",
+      "note": "Prior queue checkpoint also on origin."
+    },
+    {
+      "commit": "9c1ff7fae",
+      "state": "published",
+      "note": "Approved delivery/monitoring follow-through, two new cards and five handoffs, source/authentication limits retained."
+    },
+    {
+      "commit": "d03508467",
+      "state": "published",
+      "note": "Four X cards and 18 required handoffs verified on freshly fetched origin/master 86168b63c1d1c923878a7e5b375a11abc7f1ed1a"
+    },
+    {
+      "commit": "70046806f",
+      "state": "published",
+      "note": "Earlier full refresh now verified on freshly fetched origin/master."
+    },
+    {
+      "commit": "3851270da",
+      "state": "published",
+      "note": "Five cards 015\u2013019 and 13 handoffs proven on fresh origin; delivery reconciled."
+    },
+    {
+      "commit": "7bf36fa9a07435db9d28fc6cc0239b3ac577463f",
+      "state": "published",
+      "note": "Two cards, five handoffs and PROME attestation packet verified on freshly fetched origin; five delivery states reconciled."
+    },
+    {
+      "commit": "a88c01e3e",
+      "state": "published",
+      "note": "Repair closeout receipt verified on fresh origin."
+    },
+    {
+      "commit": "4c6971ffab3ba0f26634a43df529934582f7a7c9",
+      "state": "published",
+      "note": "Fresh origin ancestry checked during rig reconciliation; cleanup transport only."
+    },
+    {
+      "commit": "9faae49a1ecae05b28bf889a16cf8c6b16980548",
+      "state": "published",
+      "note": "Rig correction origin-proven during process audit; two handoffs reconciled. Consumption remains separate."
+    },
+    {
+      "commit": "89e7629c31bdb864d6ab828ea3b8d0236fe8933e",
+      "state": "published",
+      "note": "Completed audit; implementation now authorized and recorded separately."
+    },
+    {
+      "commit": "55cc65e06701dbf6a5e2b70c17eaf3376fbc2399",
+      "state": "published",
+      "note": "Prior process cleanup and owner packet now verified on fresh origin; registrar follow-through completed."
+    },
+    {
+      "commit": "0e5cfdb479396382047a2fd40b8ee17550fbcce6",
+      "state": "published",
+      "note": "Prior outbox archival pass verified on freshly fetched origin during burst-window retirement."
+    },
+    {
+      "commit": "e5ae4142647db3590a7340ad59dd8c8421a843a9",
+      "state": "published",
+      "note": "Burst-window payload published; central READ retirement and five-file basis review transcription verified complete October 31 at the owner record."
+    },
+    {
+      "commit": "e9f80744d3114c99b8a62ee9a7aaf9a5e2b34514",
+      "state": "published",
+      "note": "Older design-backlog payload and separate receipt 0ce5ddca4 proven against fresh origin f07735f67e2da3fd0bb84057d1197b3763af62a0 during verdict amendment."
+    },
+    {
+      "commit": "c7881c991368a61fe9ab7a95831fe73cd203ce0a",
+      "state": "published",
+      "note": "Verified on fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e at November 2 closeout; earlier pending state superseded."
+    },
+    {
+      "commit": "3ae4a8ded42a196481bfa578b1b19b1a15a18892",
+      "state": "published",
+      "note": "Verified on fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e at November 2 closeout; earlier pending state superseded."
+    },
+    {
+      "commit": "34806ae91dca9a461dc7880067e084477a77c2eb",
+      "state": "published",
+      "note": "Verified on fresh origin dce795aaf1c52a13497b1cdbb21df917d6c1512e at November 2 closeout; earlier pending state superseded."
+    },
+    {
+      "commit": "b6696042fc6010666c1a30cfedf6ffea3acd59cf",
+      "state": "published",
+      "note": "Verified on origin at November 2 boot (merge-base ancestor check, fetch 14:12Z)."
+    },
+    {
+      "commit": "7244d64ec870d1e6679483fa7f7f96bb857fca98",
+      "state": "published",
+      "note": "Origin ancestry verified at Codex recovery fetch; current bookmark-session fetch failed DNS. Earlier pending-publication label superseded."
+    }
+  ],
+  "delivery": {
+    "signal_date": "20261102",
+    "total": 14,
+    "delivered": 0,
+    "note": "Six PRIORITY cards, 14 written-not-delivered handoffs. No publication or consumption claim; latest fetch failed github.com DNS."
+  },
+  "owner_review": {
+    "scope": "manual evidence review; no automatic completion",
+    "evidence": [
+      {
+        "path": "AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md",
+        "sha256": "0cec74a223e2ac7078a6e9eeb674baf22e20a663a8ef363aa0920f394ba81e82"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-02_bookmarks/bookmark-review.json",
+        "sha256": "e4510056377805c14e56311a96252415c7ec54094e52ca2125b7a7ae0cd4fed3"
+      }
+    ]
+  },
+  "procedure": {
+    "tier": "light",
+    "boot": "PARTIAL; bookmark scope does not clear threshold/intake/inbox duties.",
+    "session": "Will authorized scan and all unconsumed-item processing; 9 marked, no trade."
+  },
+  "manual_duties": {
+    "11": "Six cards,14 handoffs,2 kill rows; R1 and backward pointer; BM01 9/9 and BM02 8/8 CLOSED.",
+    "Tier1": "STATUS counts/source limits refreshed; existing duties retained.",
+    "12(d)": "Light-closeout full-deferred SESSION_LOG breadcrumb.",
+    "14": "Session MEMORY note updated; no durable rule/spec or auto-memory edit.",
+    "root.retirement": "No research/source retirement in this routing-only sitting; active recent source artifacts retained.",
+    "15": "Approvals/conditions preserved; partial-source owner triggers in REVIEW.",
+    "16": "Exact-path commit; foreign-dirty and DNS failures defer publication.",
+    "checks": "research/2026-11-02_bookmarks/closeout/checks.json; selected checks do not certify source completeness."
+  }
+}
+END_CLOSEOUT_RECEIPT -->
+
+# LIGHT CLOSEOUT — 2026-11-02T15:05:44Z — bookmarks; full deferred
+
+Will-authorized scan/process complete: 9 posts / 17 content items, six PRIORITY cards 001–006, 14 create-only handoffs, two kill rows, no helpers. Read/mark receipt 3 full/6 partial/0 unread. Sources: research/2026-11-02_bookmarks/REVIEW.md. No full market boot, current price clearance, domain launch or trade. Existing duties/approvals retained in LAST_COMPLETION. Publication deferred: foreign dirty work and latest GitHub DNS failure. No recipient consumption inferred. Inline bounded verification used available shell/web/image tools; no native helper execution claim.
+
+## Prior completion lead — verbatim
+
+# WALTER — LAST COMPLETION
+
+Authorization-only update 2026-11-02T14:45:06Z, OpenAI Codex (exact model UNKNOWN): Will requested bookmark-reader reauthorization; browser callback, token exchange and authenticated users/me succeeded; command exited 0. Credentials saved only in ignored .env. Seen and pending ledgers are byte-identical before/after; no scan or mark. Earlier boot remains PARTIAL.
+
+Prior full closeout: Updated 2026-11-02T14:22:06Z. Boot PARTIAL, then CLOSED on Will request (model switch); Claude Code, claude-opus-5-5. FULL closeout, no routing.
+
+## STATUS
+
+CLOSED on Will request for a model switch after a status-only boot. Boot PARTIAL: read phase and checks complete; no dispatch, kill, intake mark, inbox move or push. Prior closeout b6696042f now origin-proven. Earlier carries below retained unchanged unless named.
+
+## CHANGED
+
+November 2 boot: threshold pull (research/2026-11-02_boot/observations.json, BOOT-RECEIPT.md); eight REGISTRY rows refreshed from owner headers; STATUS/LAST_COMPLETION/MEMORY updated. Prior CHANGED/RESULT preserved verbatim in SESSION_LOG.
+
+## RESULT
+
+No new fire or exit in completed scope. Oil fell ~5.8% on matched January contracts by 09:04 ET (vendor intraday). 16 NEW Research-Intake onsets and one HENRY packet remain undispositioned by Will's scope. DEWEY Plaza Continental stubs verified delivered (8fc25cea8); handoff file not yet moved. Evidence: research/2026-11-02_boot/BOOT-RECEIPT.md.
+
+
+
 # FULL CLOSEOUT — 2026-11-02T14:22:06Z — November 2 boot PARTIAL, closed for model switch
 
 Status-only boot on Will request; no dispatch/kill/mark/push. Carries in LAST_COMPLETION FOLLOW-UP item 0. Evidence research/2026-11-02_boot/.

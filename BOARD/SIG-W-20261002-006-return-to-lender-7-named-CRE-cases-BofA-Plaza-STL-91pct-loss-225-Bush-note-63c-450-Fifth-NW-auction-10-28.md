@@ -19,7 +19,11 @@ precedence: PRIORITY
 action: ["CREED"]
 info: ["REGINALD"]
 dispatch_note: "Named-case feed (ROUTING_CARVEOUTS 'Named-case feed - CREED', FORMAT_SPEC v0.23 case:). National CRE -> CREED action; REGINALD info for bank collateral. Baltimore rowhouses are small mixed MF/office; HOMER not added (no MF loan figures)."
+status: "PARTIALLY-SUPERSEDED"
+status_ref: "SIG-W-20261102-004 — Symes purchase reported October 23; earlier expected-November close overtaken, other cases unchanged"
 ---
+
+> **November 2 update — SIG-W-20261102-004:** BusinessDen October 23 reports the $2.7M Symes purchase completed that week. The expected-November closing below is a dated plan superseded by later reporting; other six cases remain unchanged.
 
 # Seven named CRE distress cases: Bank of America Plaza (St. Louis) liquidated at ~91% loss; 225 Bush note sold at ~63¢; 450 Fifth St NW auction 10/28
 

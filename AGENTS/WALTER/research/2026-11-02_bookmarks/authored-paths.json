@@ -1,0 +1,30 @@
+{
+  "new_cards": [
+    "BOARD/SIG-W-20261102-001-arini-reported-margin-call-debt-sales.md",
+    "BOARD/SIG-W-20261102-002-gas-gross-short-record-net-below-record.md",
+    "BOARD/SIG-W-20261102-003-cerca-trova-outback-franchisee-bankruptcy-reported.md",
+    "BOARD/SIG-W-20261102-004-denver-office-sales-dates-cases-and-benchmark-correction.md",
+    "BOARD/SIG-W-20261102-005-equity-flow-bookmarks-unverified-record-selling-and-leveraged-etf-inflow.md",
+    "BOARD/SIG-W-20261102-006-oil-profit-aggregate-april-september-estimates-not-war-windfall.md"
+  ],
+  "updated_prior_card": "BOARD/SIG-W-20261002-006-return-to-lender-7-named-CRE-cases-BofA-Plaza-STL-91pct-loss-225-Bush-note-63c-450-Fifth-NW-auction-10-28.md",
+  "handoffs": [
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261102-001.md",
+    "AGENTS/HANS/inbox/WALTER/SIG-W-20261102-001.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261102-001.md",
+    "AGENTS/BOND/inbox/WALTER/SIG-W-20261102-001.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261102-002.md",
+    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261102-002.md",
+    "AGENTS/CARL/inbox/WALTER/SIG-W-20261102-003.md",
+    "AGENTS/REGINALD/inbox/WALTER/SIG-W-20261102-004.md",
+    "AGENTS/CREED/inbox/WALTER/SIG-W-20261102-004.md",
+    "AGENTS/BROCK/inbox/WALTER/SIG-W-20261102-004.md",
+    "AGENTS/VIOLET/inbox/WALTER/SIG-W-20261102-005.md",
+    "AGENTS/LIQUID/inbox/WALTER/SIG-W-20261102-005.md",
+    "AGENTS/HENRY/inbox/WALTER/SIG-W-20261102-005.md",
+    "AGENTS/BRENT/inbox/WALTER/SIG-W-20261102-006.md"
+  ],
+  "stamp": "2026-11-02T15:04:01Z",
+  "signal_count": 6,
+  "handoff_count": 14
+}
