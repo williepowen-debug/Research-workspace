@@ -1,0 +1,5 @@
+http://mil.ru/ 000 exit=28
+https://mil.ru/ 000 exit=28
+http://www.mil.ru/ 000 exit=28
+http://function.mil.ru/ 000 exit=6
+http://structure.mil.ru/ 000 exit=28

@@ -1,0 +1,10 @@
+timestamp_utc	url	http	bytes	note
+2026-11-02T13:48:41Z	http://publication.pravo.gov.ru/documents/block/president?index=1&pageSize=30	200	104113	saved yur004/pravo-president-p1.html; 30 entries, publication dates 22.10 → 02.11; no publication dated 31.10 or 01.11; 15 entries published 02.11, all acts dated 02.11
+2026-11-02T13:48Z	http://publication.pravo.gov.ru/documents/block/president?index=2&pageSize=30	200	102046	saved yur004/pravo-president-p2.html; publication dates 15.10 → 22.10, overlap with prior reads
+2026-11-02T13:48Z	http://kremlin.ru/events/president/news/page/1	200	62637	UA browser; saved; newest story 81144 dated 02.11; next 81131 dated 30.10
+2026-11-02T13:48Z	http://kremlin.ru/events/president/news/page/2	200	62263	UA browser; saved; 28.10 → 22.10, overlap with prior reads
+2026-11-02T13:48Z	http://kremlin.ru/acts/news	200	47767	UA browser; saved; newest 81132 dated 30.10 (read 10/31); no act story after 30.10
+2026-11-02T13:49Z	http://kremlin.ru/events/president/news/81131..81150	200 for 81131 and 81144; 404 for 81132–81143, 81145–81150	-	81131 = 30.10 (read 10/31); 81144 = 02.11 Dagestan meeting (out of window); bodies saved yur004/bodies/
+2026-11-02T13:49Z	http://kremlin.ru/acts/news/81132..81143	200 for 81132; 404 for 81133–81143	-	81132 = 30.10 Russia–Africa documents (read 10/31)
+2026-11-02T13:49Z	http://kremlin.ru/events/president/news/81079	200	38834	23.10 Aleshki story; page shows "last update 02.11.2026 16:41" (Moscow); body re-scanned, 0 term hits
+2026-11-02T13:50:30Z	http://mil.ru/ · https://mil.ru/ · http://www.mil.ru/ · http://structure.mil.ru/ · http://function.mil.ru/	000	-	curl exit 28 (20 s timeout) ×4; function.mil.ru exit 6 (DNS); saved yur004/mil-ru-probe.txt

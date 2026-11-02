@@ -1,10 +1,10 @@
 # YURI — NEXUS Brief
 
-**Status:** 🟡 Score 2/5 unchanged (2026-10-31). **31.10: Government Resolution №1436 deleted the №954 ¶2(г) producer diesel exemption; producer diesel exports stay banned to 31.01.2027 (YUR-005 HIT, Brier 0.16); the ¶2(в) intergovernmental/EAEU exemption now also runs to 31.01.2027.** YUR-004 final read 10/31: no mobilisation declaration at pravo or the Kremlin feed for any date 02.10→30.10; the MISS write is owed at an 11/02 re-read (31.10 plus late publications). YUR-006 open to 11/15. YUR-F01 MISS; Will kept the desk; YUR-F02 re-test to 11/28.
+**Status:** 🟡 Score 2/5 unchanged (2026-10-31). **31.10: Government Resolution №1436 deleted the №954 ¶2(г) producer diesel exemption; producer diesel exports stay banned to 31.01.2027 (YUR-005 HIT, Brier 0.16); the ¶2(в) intergovernmental/EAEU exemption now also runs to 31.01.2027.** **YUR-004 MISS 2026-11-02:** no public mobilisation declaration at pravo or the Kremlin feed for any date 02.10→31.10 (no publications 31.10/01.11; the 02.11 acts are dated 02.11). Not evidence that no decision occurred; implementation leg untested. YUR-006 open to 11/15. YUR-F01 MISS; Will kept the desk; YUR-F02 re-test to 11/28.
 **Operational-effects follow-up:** bounded pass completed, underlying evidence PARTIAL. No authenticated extra diesel or series interruption established; №686 producer/group transaction scope is narrower than an automatic exchange-wide blackout. METRO mechanism/date are qualified without a cash-loss estimate; Aptar's announced Q3 release is 29 October. PROME consumed the operational result and YURI receipt reconciliation (`71accb333` owner report); WALTER's three-packet source consumption/№1272 adoption is verified at `635bbb010`, report §7.4. OSPREY consumption remains separately UNKNOWN. No new F01 credit.
 **12 October research delta:** METRO issuer confirms operating-control loss despite retained title; two FNS ownership-field checks corroborate foreign registered stakes (extracts dated 13 October Moscow). Aptar's Russian unit was below 0.6% of 2025 group sales/operating income. Minenergo public search is now readable; signed links remain missing. №1272 source attribution corrected to space licensing.
 **Domain:** Russian STATE ACTION and INTENT, whatever the target: decrees, seizures, mobilisation and force posture, the Kremlin political calendar. Feeder desk; never trades.
-**As of:** 2026-10-31 ET (primary fetches 2026-10-31T13:27–13:30Z: pravo government and presidential blocks, government.ru) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
+**As of:** 2026-11-02 ET (primary fetches 2026-11-02T13:48–13:50Z: pravo presidential block, Kremlin feed; prior 2026-10-31T13:27–13:30Z: pravo government block, government.ru) | STATUS commit: this brief and STATUS are committed together; verify with `python3 scripts/brief_pin_check.py YURI`.
 
 ---
 
@@ -13,6 +13,7 @@
 **SENDING:**
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| HAWK / PROME | YUR-004 MISS 11/02: no public mobilisation declaration dated 02.10→31.10 at pravo or the Kremlin feed; §9 unread paths named (mil.ru, restricted numbers incl. №789–791, №397–408-рп; implementation leg). HAWK named consumer. By-catch 02.11: Указ №792 RU–BY military-technical cooperation regulation; 345-ФЗ RU–KG protocol. | 🟡 | No declaration input for Leningrad MD refill; not an armed-conflict risk score. PROME closes DOCKET L432. |
 | BRENT / DEWEY / OSPREY / HANS / PROME | Resolution №1436 (31.10, in force 31.10; pravo 0001202610310001, body read): №954 ¶2(г) n=0 producer diesel exemption DELETED, ban to 31.01.2027; ¶5 voided so ¶2(в) intergovernmental/EAEU diesel stays permitted to 31.01.2027. US-quota channel still no public act. | 🟠 | Producer diesel exports stay illegal outside intergovernmental volumes and non-public permissions; delivered supply is BRENT's read. Press "year-end" frame wrong. |
 | BRENT / DEWEY / OSPREY / HAWK / FERT | Long searches, complete public government perimeter 28.09→21.10: no public 500 kt diesel act, no №686 code list (overdue about 08.10), no signed ship-registration decree. By-catches: 2818-р military-service law bill (Arts 49/53), 2783-р Verkhnekamsk potash auction. | 🟡 | The diesel permission runs outside the public legal record; №686 implementation is either restricted or late. Bill content unverified. |
 | PROME / HANS / HAWK | Ontex VERIFIED at issuer (16.10 Inside Information: about 5% revenue, 7–8% adj. EBITDA under an interim administrator); Sonoco no divestiture; №750 precise; FM Logistic custody not yet registered. | 🟡 | Second listed exposure, material for Ontex; European single names unowned, so PROME routes. Not priced. |
@@ -33,7 +34,6 @@
 |------|-------|-------------|----------------|------------------------|
 | Russian Government (pravo government block) | Amendment to №954 ¶4/¶2(г), or none | Signed ≤31.10, published ≤02.11 | Decides whether n=0 producer diesel exports open on 01.11 | YUR-005 HIT (postponed/replaced with prohibition) or MISS (lapse); consequences go to BRENT/DEWEY/OSPREY |
 | President (pravo presidential block) | Further Decree-302 list amendment after №738 | Published ≤15.11 | Tests whether custody keeps widening during the US talks track | YUR-006 HIT/MISS; any disposal clause is logged for the L434 successor |
-| Declaration sources | Eligible mobilisation declaration, title or operative text | Reads 10/23, 10/30; final 10/31 (backfills to 11/02) | YUR-004 | A qualifying declaration HITs; a NOT-DECIDED read on the final perimeter MISSes |
 | DAEDALUS | YUR-F01 grade | 10/24 | Desk premise test, 0/3 | The zero-call branch ⇒ retire/re-merge proposal, Will rules |
 
 ---
@@ -63,9 +63,9 @@
 
 ## NEXT DECISION POINT
 
-- **What:** YUR-004 weekly read (Fri 10/23), then the YUR-F01 grade (Sat 10/24, DAEDALUS).
-- **When:** 2026-10-23 / 2026-10-24; Government diesel decision by 2026-10-31.
-- **What would change my view:** a date-eligible declaration; a №954 amendment; a №302 list act carrying disposal or a buyer.
+- **What:** YUR-006 grade (further Decree-302 list amendment after №738, published ≤15.11; DOCKET L772); YUR-F02 dated cross-channel calls (DAEDALUS grades 11/28).
+- **When:** 2026-11-15 / 2026-11-28.
+- **What would change my view:** a №302 list act carrying disposal or a buyer; a public act for the US diesel channel; a dated mobilisation instrument (no row open on it since YUR-004 closed MISS 11/02).
 
 ---
 
@@ -73,12 +73,8 @@
 
 | Date | Event | Threshold / Signal |
 |------|-------|---------------------|
-| 2026-10-23 / 30 | YUR-004 registered weekly reads | Eligible public declaration in title or operative text |
-| 2026-10-24 | YUR-F01 desk self-falsifier | 0 of 3; DAEDALUS grades, Will rules any retirement |
-| 2026-10-29 | Aptar Q3 results (issuer schedule) | First issuer read after №689 custody; no loss estimate yet |
-| 2026-10-31 | YUR-004 final grade · №954 ¶2(в) EAEU exemption ends | Full eligible coverage; backfills to 11/02 |
-| 2026-11-02 | YUR-005 grade | №954 ¶2(г) postponed/replaced vs lapsed |
 | mid-Nov | RU–US–UA talks (Ushakov 21.10, "in principle") | HAWK reaction leg; calendar only |
 | 2026-11-15 | YUR-006 grade | Further Decree-302 list amendment published |
+| 2026-11-28 | YUR-F02 desk self-falsifier re-test (DAEDALUS) | ≥3 dated cross-channel marginal actor calls |
 
 Evidence: `research/2026-10-21_L432-read-and-actor-update.md` (current), `research/2026-10-12_*` (prior vintage).
