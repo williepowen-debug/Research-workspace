@@ -1,0 +1,21 @@
+TERRY: consume:TERRY reprice revived RSP (L905), confirm UNG not fired
+
+WQ-574 authorized revival and reprice only. RSP stays CONDITIONAL,
+NOT-FIRED: live equity green +0.79% at 09:48 EST; both option-tool
+pulls fail selected-leg checks (0/0 DEAD). Cboe delayed fallback implies
+$771.30 risk at outer markets, so default size is zero. Candidate x1
+at broker debit <= $4.90 risks $491.30; $500 default and X1 CLOSED
+remain explicit. No order, trade approval or larger size implied.
+
+GATE-TERRY-UNG-01 unchanged: AEOLUS C3 still +14.1 m/s [10/29],
+no observed reversal. Earlier UNG/ORCL changes and L904 move were
+already saved by predecessor fed7211ab; retained, current L904
+integration review receipted. Commit the predecessor-staged WQ packet
+move after reading/integration. WALTER and WILL lanes empty; BOARD
+ID-diff zero new, no fabricated log row. Paper boot marks only.
+
+Ledger sweep, read-cap heuristic, weekday and R1 checks pass. Risk
+arithmetic independently recomputed from Cboe payload. No helper,
+held-line prompt, external send, pull, stash or foreign staging.
+Runtime: OpenAI Codex; gpt-6.1-sol per spawn brief; session
+01a19cb9-4449-7d41-8353-91a863167cec (PROME prome-6f assignment).

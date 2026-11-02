@@ -1,0 +1,59 @@
+{
+  "observed_at": "2026-11-02T09:55:52-05:00",
+  "runtime": "OpenAI Codex",
+  "model": "gpt-6.1-sol (spawn brief; exact internal model not independently exposed)",
+  "session_id": "01a19cb9-4449-7d41-8353-91a863167cec",
+  "parent": "PROME prome-6f (user brief)",
+  "repository_root": "/home/willi/Research-workspace",
+  "launch_cwd": "/home/willi/Research-workspace/AGENTS/TERRY",
+  "root_and_local_instructions": "Explicit bounded reads through EOF; no local AGENTS.md exists",
+  "tools": "Shell, files, bounded reader; no verified transport to PROME prome-6f; no Claude hooks assumed; no helpers launched",
+  "approvals": "WQ-574 revival/reprice only; WQ-573 conditional UNG card; no trade executed",
+  "boot_read_sha256": {
+    "CLAUDE.md": "065546bee3e07acfabe13e82dc243c79b26a79968b7b38db1964e204e6a17644",
+    "AGENTS.md": "70ec98ebc0c046d5db796b208f15ef7fd4552f6ef8634e550cfcf8f117a1c5b0",
+    "USER.md": "d8198b7e4f5021c651e0e1f98535a4ed4d0240f1add56ccd6d14244632a5676b",
+    "AGENTS/TERRY/CLAUDE.md": "a010837675c4425b2ca238825ca972b4d681f0d60ae7f9088050193b19cb2e1e",
+    "PROME/COMPLETION_SPEC.md": "7598fd0955e19179bb4dfd4fef1c41eef97219a77bac17b6b6cbecca82124d3e",
+    "AGENTS/TERRY/RISK_RULES.md": "132753ea3f08e2355c3368c8f5197727efd85d964819804a9d9c4816304f8843",
+    "AGENTS/TERRY/RISK_SCORING.md": "65b75c9e8c97567a1979b09863b2d732edc7df6db272695394e84f03b65ea39e",
+    "AGENTS/TERRY/CHART_OPTIONS_WORKFLOW.md": "22e8f6901e1d2fc94bc22fe8d6dd6024c65b8723b79b48bdc2b0c38ec726c54b",
+    "AGENTS/TERRY/TRADE_CARD_TEMPLATE.md": "3c3cc83b13a46a8001182f914e4b2098b731dfb7d2637a28d20682bc365e587d",
+    "AGENTS/TERRY/RISK_RULES_CONSTRUCTION.md": "74f706670b0bbfe52f152c738da234cb9ad66821d7c36bb49e86dbcf31bf9933",
+    "AGENTS/TERRY/CLOSEOUT.md": "511bd3e8f674ad5958a4d8310b26d7a1a82e980455dfcbe35f49159a570a13a4",
+    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "31b519e21600ef145130be11d08634026cce9b82ba7e4775b01821f42c70e06c"
+  },
+  "runtime_mechanics": "PROME/ORCHESTRATION_PLAYBOOK.md section Runtime mechanics explicitly read; shell/file method selected",
+  "henry_head_commit": "8f7152b7a1f2c6a1dbcb29582990f5bea8548f72",
+  "henry_breadth_excerpt": "## MARKET BREADTH — L616 STUDY (Friday 10/30 closes; members from SSGA holdings as of 10/29; yfinance bars pulled 10/31 13:07–13:10 ET)\n\n| Measure | 10/30 | Reference points |\n|---|---|---|\n| S&P 500 members above 50-day / 200-day | **60.2% / 59.2%** | 9/30 20.9% / 40.4% (2026 low for the 200-day) · 10/6 record close 29.5% / 46.6% (lowest of 2026's 28 record closes on both) · 8/13 record 68.7% / 73.6% |\n| S&P 400 / S&P 600 members above 200-day | 49.8% / 51.8% | 8/13 72.2% / 74.7% |\n| RSP/SPY relative (total return, ratio basis) | 1 day +1.00pp · 1 week +1.38 · October **+5.91** (99.5 pctile of 22-session windows since 2003) · 3 months +0.50 · YTD +3.26 | VULCAN 63-session leg on its own method: −0.50pp 10/29 → +0.94pp 10/30 (reproduced) |\n| QQEW/QQQ relative | 1 day +0.22 · October −0.38 · YTD −5.59 | equal weight lags inside the Nasdaq-100 this year |\n| Small / mid vs SPY, 3 months | IWM −5.17pp · IJR −4.56 · MDY −3.67 | October +1.44 / +4.07 / +2.78 |\n| Friday: S&P 500 members down | **55.1%** (median member −0.32%) | SPY ≤ −1.3% days since 1/2025 (32): median 75.8%; Friday 4th narrowest of 33 |\n| Friday: index arithmetic | Mag-7 −0.68pp + 18 other chip makers −0.76pp = **79%** of −1.82% | other 476 members −0.38pp (median −0.16%) |\n| Friday: new 52-week highs / lows (intraday) | S&P 500 **42 / 5** · S&P 1500 87 / 19 | S&P 1500 weekly name-days: w/e 10/2 72 / 410 → w/e 10/30 282 / 112 |\n| S&P 500 A/D line (cumulative from 2025-01-02) | 7,393 | peak 8,160 (8/14) · 5,946 (9/30) |\n\n**Read:** concentrated at the 10/6 record, broadening since; Friday narrow at the index level and broad only inside tech (80% of S&P 500 IT members down; QQEW/QQQ an ordinary-breadth Nasdaq day); three-month small/mid damage only partly repaired. Constituent counts are computed from members' own closes (not the exchange A/D series, which was not reached); survivorship: today's members applied backwards. Not a threshold, monitor or prediction. Files `research/2026-10-31_L616_breadth/`; memo `PROME/inbox/2026-10-31_from-HENRY_L616-market-breadth.md`.\n\n## MONDAY 11/02 PRE-OPEN GAMMA (D:L888; `gamma_flip.py --both --publish` 08:48 ET; OI = 10/30-trade vintage; spot = 10/30 close)\n\n| Chain | Flip 14d / 35d | Net GEX per 1% 14d / 35d | Put wall | Call wall |",
+  "aeolus_log_since_2026_10_31": "3ae4a8ded42a196481bfa578b1b19b1a15a18892 WALTER -> BROCK/CORAL: boot, verify ten bookmarks and route three scoped signals\n383ca59ec184b89b52ac618f690aa1086be2c550 PROME: WQ-573 APPROVED (UNG card, conditional) + WQ-574 (RSP revived) — gate, rows, packets\neee28712345ead89916259df9c2b6958c2ac3893 WALTER -> recipient desks: consume:WALTER four packets and clear the carried intake queue\n",
+  "aeolus_C3": [
+    "| C3 | Energy demand | **2 🟡** | WINTER heating; shoulder season | El Niño root (w/ C1/C6) | **CPC 10/15 DJF leans WARM** (MidAtl 40% above, ENC 40–50%) · 🟠 **vortex reversal FORECAST by every ECMWF product from ~11/05 (all 50 ENS members <0 on 11/09); GEFS dissents; NOT observed (+14.1 m/s 10/29)** (KB-229) · NGZ26 $3.03 (evening session 10/29, NOT a settle) | **→3:** a DJF 30-day MidAtl/ENC HDD window ≥0% vs 1991-2020 (Will-ruled 10/10) OR EEA2+ with a weather cause |",
+    "| C3 | Winter outlook · vortex · PJM | **CPC 10/15 DJF: MidAtl above-normal 40% (33% on 9/17), ENC 40–50% (Chicago 40→50)** — warmer · **10 hPa 60N U +14.1 m/s [10/29 00z ECMWF analysis], falling ~3 m/s/day from +23.2 (10/24); no reversal observed. FORECAST: ECMWF ENS mean <0 11/05–11/12, all 50 members <0 on 11/09 (mean −3.8); deterministic deepening run-to-run (4 runs); GEFS dissents (~+1). AO turns negative 11/02 (GEFS 31/31)** — an SSW reaches C3 only via persistence + downward coupling + regional surface cold, lag 1–4 wks (KB-229; supersedes KB-225's GEFS-only forecast clause) · CPC pop-weighted HDD 30 d to 10/8 MidAtl −10.5%, ENC −33.6% (shoulder, not graded) · PJM 7/2 'record' = preliminary unrestricted only; metered 162,186 MW unverified (KB-214) | 10/15 · 10/29 | 🟡 | CPC (primary) · NOMADS GFS/GEFS (scout-computed) · WATT (KB-225) |",
+    "| C3 | **WINTER (Will-ruled 10/10):** MidAtl AND ENC trailing-30-d HDD <0% vs 1991-2020 for 4+ sessions (windows ending Dec 30–Feb 28) | out of window until 12/30 · CPC DJF leans warm | NOT FIRED (window opens 12/30) |"
+  ],
+  "aeolus_head_commit": "a3b12fbe6e6786349e677bf3864b5d021e5eac88",
+  "ung_state": "No observed reversal logged; +14.1 m/s 10/29 analysis is latest; NOT-FIRED, card trigger-state note unchanged",
+  "prior_work": "fed7211ab73325daf13c75e313023ba6c9260fff contains all five earlier edited surfaces plus L904 move; verified and retained",
+  "cboe_source": "https://cdn.cboe.com/api/global/delayed_quotes/options/RSP.json",
+  "cboe_retrieved_at": "2026-11-02T09:48:59-05:00",
+  "cboe_payload_time": "2026-11-02 14:48:04 (timezone not labelled in payload)",
+  "chain_exit_codes": {
+    "09:48:20": 2,
+    "09:51:02": 2
+  },
+  "inbox": {
+    "WQ573_574": "read/integrated; predecessor-staged git mv retained",
+    "L904": "reviewed now; prior move retained; retrospective owner receipt added",
+    "WALTER": 0,
+    "WILL_raw_new": 0,
+    "other_packets": 0
+  },
+  "board_scan": {
+    "addressed": 33,
+    "logged_ids": 56,
+    "new_since_SIG_W_20261031_020": 0,
+    "logged_this_session": 0,
+    "unparseable": 0
+  }
+}

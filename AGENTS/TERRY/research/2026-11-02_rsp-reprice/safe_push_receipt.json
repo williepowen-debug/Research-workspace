@@ -1,0 +1,8 @@
+{
+  "started_at": "2026-11-02T10:01:00-05:00",
+  "finished_at": "2026-11-02T10:01:00-05:00",
+  "command": "bash scripts/safe-push.sh",
+  "returncode": 255,
+  "output": "error: cannot open '.git/FETCH_HEAD': Read-only file system\n",
+  "publication": "UNVERIFIED"
+}

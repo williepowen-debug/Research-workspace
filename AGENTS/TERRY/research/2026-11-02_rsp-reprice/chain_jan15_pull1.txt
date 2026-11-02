@@ -1,0 +1,53 @@
+TERRY live option-chain fetch
+=============================
+Data only — no broker access, no execution recommendation.
+
+Underlying: RSP  Spot: 219.52 (as-of 2026-11-02 09:41)
+Expiry: 2027-01-15  Type: call  Rows: 7
+Greeks (Delta/Theta): N/A — yfinance does not provide them.
+
+Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade
+-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------
+ 205.00    -6.6  C   0.00   0.00   0.00     N/A    0.00     14   1579  DEAD,DIRINC  2026-10-29 10:26
+ 210.00    -4.3  C   0.00   0.00   0.00     N/A    0.00     25    609  DEAD,DIRINC  2026-10-30 13:37
+ 215.00    -2.1  C   0.00   0.00   0.00     N/A    0.00    143   1052  DEAD,DIRINC  2026-10-30 14:13
+ 220.00     0.2  C   0.00   0.00   0.00     N/A    0.20    100   4042  DEAD,DIRINC  2026-10-30 15:52
+ 225.00     2.5  C   0.00   0.00   0.00     N/A    1.56     13   7763  DEAD,DIRINC  2026-10-30 15:50
+ 230.00     4.8  C   0.00   0.00   0.00     N/A    3.13     58   1441  DEAD,DIRINC  2026-10-30 15:07
+ 235.00     7.1  C   0.00   0.00   0.00     N/A    3.13     10   2013  DEAD,DIRINC  2026-10-30 14:50
+
+TERRY liquidity flags
+- Wide spread rows >15% of mark: 0
+- Thin OI rows <100 OI: 0
+
+TERRY quote sanity
+  🔴 DEAD       7 row(s)
+  🔴 7 row(s) carry a HARD defect and MUST NOT be used to compute a net debit:
+        205.00 C  bid 0.00 / ask 0.00  [DEAD,DIRINC]
+        210.00 C  bid 0.00 / ask 0.00  [DEAD,DIRINC]
+        215.00 C  bid 0.00 / ask 0.00  [DEAD,DIRINC]
+        220.00 C  bid 0.00 / ask 0.00  [DEAD,DIRINC]
+        225.00 C  bid 0.00 / ask 0.00  [DEAD,DIRINC]
+        230.00 C  bid 0.00 / ask 0.00  [DEAD,DIRINC]
+        235.00 C  bid 0.00 / ask 0.00  [DEAD,DIRINC]
+
+⚠️  FRESHNESS: freshest trade in set = 2026-10-30 15:52 (NOT today 2026-11-02). Marks may be stale (after-hours/weekend). Re-confirm live broker marks before any fill.
+
+⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.
+   The spot above is Yahoo-declared real-time. The option bid/ask carries NO
+   timestamp and no delay flag, and is NOT proven contemporaneous with it.
+   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you
+      actually transact on from the BROKER chain. (2026-09-11: this tool read
+      ~10% high on the bid vs the broker, on the side being sold.)
+
+🔴 DIRINC — 24 row(s) moved OPPOSITE the printed spot since the last --no-cache pull:
+        100.0 C  spot +3.890 but mark -116.300  [prev pull 11:54:44]
+        150.0 C  spot +3.890 but mark -66.800  [prev pull 11:54:44]
+        160.0 C  spot +3.890 but mark -56.950  [prev pull 11:54:44]
+        173.0 C  spot +3.890 but mark -32.650  [prev pull 11:54:44]
+        185.0 C  spot +3.890 but mark -32.800  [prev pull 11:54:44]
+        188.0 C  spot +3.890 but mark -30.000  [prev pull 11:54:44]
+     Delta has a sign; this is the shape of a quote reflecting an OLDER market state.
+     ⚠️  ADVISORY, never fatal — an IV move can do this legitimately. It is evidence,
+        not proof, and a flag cannot recover the true bid. Go to the broker.
+Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.
