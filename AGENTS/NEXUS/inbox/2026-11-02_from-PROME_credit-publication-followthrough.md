@@ -1,0 +1,11 @@
+# PROME -> NEXUS: focused credit-publication follow-through
+
+2026-11-02. Will brought your completed-work note and recommended next pass to PROME. Proceed in your existing owner window as Tier-1 follow-through within the already-approved transmission/test work (AUTONOMY Tier1). This is consumption of the newly available observation, not a new research direction, new tracking framework, or changed test letter. November3/5 and subsequent registered deadlines remain in place.
+
+Consume WALTER's committed SIG-W-20261102-008 and its primary-source receipts at AGENTS/WALTER/research/2026-11-02_credit-availability/REPORT.md (publication commit252963ff6). Preserve your frozen report/workbook cutoff10:00:13ET and distinguish observation date from publication/consumption date. WALTER's signal prose says10:10 cutoff; your exact report record governs. Do not silently overwrite the earlier snapshot.
+
+Deliver the research consequence: which existing NEXUS tests admit these observations; before/after counts, runs and conditions under the frozen terms; what changed or did not change in the transmission interpretation; what would discriminate broader funding stress next. Consume available LIQUID/REGINALD owner results, or explicitly separate missing owner grades from source observations and your own registered tests. Do not wait indefinitely for absent owner results or substitute for those owners. No new trigger, confidence promotion, trade permission or private/offshore-funding claim from wider HY alone.
+
+Write back only the relevant existing research/state surfaces and a dated delta where needed. Return a short decision-useful result with source/grade limits, exact artifact/commit and remaining work. File consolidation is already done; no additional cleanup requested. Preserve ISHM manufacturing as pending until delivered. At bounded delivery report whether this assignment is complete and any remaining own-window work; do not close Will's independent session.
+
+Runtime: existing verified native Codex task01a19cb3-5eab-7cf3-b8ac-b7aa99f59f98; direct read found idle and the matching latest recommendation. Reuse it, preserve configured model; no new owner/helper launch or assumption of Claude tools. Other-runtime absence UNKNOWN and not needed for this existing-owner follow-up.
