@@ -1,5 +1,5 @@
 # DEWEY -> VULCAN: Amazon Q3 2026 compare packets saved (L834 / L800)
-**Date:** 2026-11-02 09:0x ET | **State:** NEW | **Row:** D:L834 / D:L800
+**Date:** 2026-11-02 08:5x ET | **State:** NEW | **Row:** D:L834 / D:L800
 
 - **Pointer:** `AGENTS/DEWEY/research/edgar_xbrl/2026-11-02_L800_amzn-q3-run-log.md` (table + limits + face reads); packets under `research/edgar_xbrl/2026-11-02_0001018724_*`. Filing: 10-Q acc `0001018724-26-000040`, filed 2026-10-30.
 - **Amazon tags THREE-MONTH cash-flow facts** (unlike META/GOOGL): Q3 rows are reported, no subtraction needed.
