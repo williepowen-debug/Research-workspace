@@ -1304,6 +1304,13 @@ function Preview-Text($items) {
         $entry=@($data.agents | Where-Object {$_.name -eq $item.name})[0]
         if ($entry.prome_touch.state -ne 'available') {$lines.Add('PROME touch evidence unavailable; current activity unknown.')}
         elseif (@($entry.prome_touch.dates).Count -gt 0) {$lines.Add('PROME has an unresolved touch recorded for this desk, dated '+($entry.prome_touch.dates -join ', ')+'. This does not establish whether it is still running.')}
+        if ($entry.prome_touch.state -eq 'available' -and $entry.prome_touch.PSObject.Properties['older']) {
+            foreach ($group in @($entry.prome_touch.older)) {
+                $range=$group.oldest
+                if ($group.newest -ne $group.oldest) {$range+=' to '+$group.newest}
+                $lines.Add('PROME has '+$group.count+' older unresolved work record(s) for this desk, dated '+$range+'. This does not establish whether it is still running.')
+            }
+        }
         if ($item.task) {$lines.Add('Task: '+$item.task)} else {$lines.Add('Task: follow the agent startup instructions')}
         $lines.Add('')
     }
@@ -1908,6 +1915,12 @@ if ($SmokeTest) {
             if ($recentDetails.Text -notmatch 'COVERED: consumer read' -or $recentDetails.Text -notmatch 'Preserve this note' -or $list.Items[0].Display -notmatch 'OVERDUE 1 / DUE 1') {throw 'Due badge or coverage details missing'}
             $previewText=Preview-Text @(Request-For $script:selected 'new')
             if ($previewText -notmatch 'unresolved touch.*2026-10-28' -or $previewText -notmatch 'does not establish') {throw 'Earlier-date touch advisory missing'}
+            $touchEntry=$script:selected
+            $touchEntry.prome_touch | Add-Member -NotePropertyName older -NotePropertyValue @([pscustomobject]@{count=3;oldest='2026-10-01';newest='2026-10-21'}) -Force
+            $groupPreview=Preview-Text @(Request-For $script:selected 'new')
+            if ($groupPreview -notmatch '3 older unresolved work record.*2026-10-01 to 2026-10-21' -or $groupPreview -notmatch 'unresolved touch.*2026-10-28') {throw 'Mixed grouped and detailed touch advisories missing'}
+            $touchEntry.prome_touch.dates=@()
+            if ((Preview-Text @(Request-For $script:selected 'new')) -notmatch 'older unresolved work record') {throw 'Grouped-only warning missing'}
             $ageSource.SelectedIndex=1
             if ($ageLegend.Text -notmatch 'since last saved work') {throw 'Saved-work age label missing'}
             $ageSource.SelectedIndex=0

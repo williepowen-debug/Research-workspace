@@ -628,6 +628,40 @@ class WorkEvidenceTests(unittest.TestCase):
             source.write_text('broken')
             self.assertEqual(gui.unresolved_touches(root)['state'], 'unavailable')
 
+    def test_grouped_touch_real_producer_and_bad_coverage(self):
+        # Preserved production renderer output, not a consumer-invented table.
+        text = (SCRIPTS / 'tests/fixtures/orch_inflight_grouped_2026-11-02.md').read_text()
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            source = root / 'PROME/state/ORCH_INFLIGHT.md'
+            source.parent.mkdir(parents=True)
+            source.write_text(text)
+            snap = gui.unresolved_touches(root)
+            self.assertEqual(snap['state'], 'available')
+            hans = gui.touch_for('HANS', snap)
+            self.assertEqual(hans['dates'], [])
+            self.assertTrue(hans['older'])
+            self.assertEqual(hans['older'][0]['oldest'], '2026-10-21')
+            self.assertEqual(gui.touch_for('HAN', snap)['older'], [])
+            # Every real exact row and every grouped desk still reaches its consumer.
+            for row in snap['rows']:
+                base = row['desk'].split(' (', 1)[0]
+                self.assertIn(row['date'], gui.touch_for(base, snap)['dates'])
+            for group in snap['groups']:
+                self.assertIn(group, gui.touch_for(group['desk'], snap)['older'])
+            for broken in (text.replace('## IN-FLIGHT rows (', '## UNKNOWN rows (', 1),
+                           text.replace('| HANS |', '|  |', 1),
+                           text.replace('2026-10-21 | 2026-10-21', '2026-10-22 | 2026-10-21', 1),
+                           text.replace('### Older OPEN touches', '### Unknown grouping', 1),
+                           text.replace('## IN-FLIGHT rows (', '## IN-FLIGHT rows (9', 1)):
+                self.assertNotEqual(broken, text)
+                source.write_text(broken)
+                self.assertEqual(gui.unresolved_touches(root)['state'], 'unavailable')
+            source.write_text('## IN-FLIGHT rows (0)\n')
+            snap = gui.unresolved_touches(root)
+            self.assertEqual(gui.touch_for('HANS', snap),
+                             {'state': 'available', 'dates': [], 'older': []})
+
     def test_refresh_returns_only_evidence_and_never_launches(self):
         with tempfile.TemporaryDirectory() as folder:
             request = Path(folder) / 'refresh.json'

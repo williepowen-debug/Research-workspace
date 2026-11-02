@@ -97,7 +97,9 @@ GATES is not included**. Owed is not the same as should launch. Missing or faile
 evidence says **Due unavailable**, never zero owed.
 
 The existing batch preview also shows dated unresolved PROME touches when found,
-including earlier dates. This is a snapshot of `ORCH_INFLIGHT.md`, not proof that
+including earlier dates. Grouped older work shows its record count and date
+range; it remains unresolved. Missing/malformed rows or a mismatch with the
+view’s unresolved total show evidence unavailable. This is a snapshot of `ORCH_INFLIGHT.md`, not proof that
 a desk is still running; no listed touch does not establish that it is idle.
 The line is advisory and adds no confirmation dialog or live-session inventory.
 

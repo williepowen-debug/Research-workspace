@@ -82,28 +82,54 @@ def unresolved_touches(root: Path = agents.ROOT) -> dict:
     source = root / 'PROME/state/ORCH_INFLIGHT.md'
     try:
         text = source.read_text(encoding='utf-8')
-        section = text.split('## IN-FLIGHT rows (', 1)[1].split('\n## ', 1)[0]
-        rows = []
+        match = re.search(r'^## IN-FLIGHT rows \((\d+)\)', text, re.M)
+        if not match:
+            raise ValueError('Missing unresolved total')
+        section = text[match.end():].split('\n## ', 1)[0]
+        rows, groups = [], []
+        grouped = False
         for line in section.splitlines():
-            if not line.startswith('| 20'):
+            if line.startswith('### '):
+                if not line.startswith('### Older OPEN touches —') or grouped:
+                    raise ValueError('Unknown unresolved section')
+                grouped = True
+                continue
+            if not line.startswith('|'):
                 continue
             cells = [c.strip() for c in line.strip('|').split('|')]
-            if len(cells) != 8:
-                raise ValueError('Malformed touch row')
-            date.fromisoformat(cells[0])
-            if not cells[5].startswith('IN-FLIGHT'):
-                raise ValueError('Unexpected touch state')
-            rows.append({'date': cells[0], 'desk': cells[1]})
-        return {'state': 'available', 'rows': rows}
+            if all(re.fullmatch(r':?-+:?', c) for c in cells):
+                continue
+            if cells == (['Base desk', 'Open touches', 'Exact identities', 'Oldest', 'Newest']
+                         if grouped else ['date', 'desk', 'tier', 'touch', 'drained', 'delivered', 'inbox_before', 'inbox_after']):
+                continue
+            if grouped:
+                if (len(cells) != 5 or not cells[0]
+                        or not cells[1].isdigit() or not cells[2].isdigit()):
+                    raise ValueError('Malformed grouped touch')
+                count, identities = int(cells[1]), int(cells[2])
+                if not 0 < identities <= count or date.fromisoformat(cells[3]) > date.fromisoformat(cells[4]):
+                    raise ValueError('Invalid grouped count or range')
+                if any(g['desk'] == cells[0] for g in groups):
+                    raise ValueError('Duplicate grouped desk')
+                groups.append(dict(desk=cells[0], count=count, oldest=cells[3], newest=cells[4]))
+            else:
+                if len(cells) != 8 or not cells[1] or not cells[5].startswith('IN-FLIGHT'):
+                    raise ValueError('Malformed touch row')
+                date.fromisoformat(cells[0])
+                rows.append({'date': cells[0], 'desk': cells[1]})
+        if len(rows) + sum(g['count'] for g in groups) != int(match[1]):
+            raise ValueError('Unresolved total does not match detail and groups')
+        return {'state': 'available', 'rows': rows, 'groups': groups}
     except (OSError, ValueError, IndexError):
-        return {'state': 'unavailable', 'rows': []}
+        return {'state': 'unavailable', 'rows': [], 'groups': []}
 
 
 def touch_for(name: str, snapshot: dict) -> dict:
     # Exact desk token, optionally followed by an explicit parenthesized label.
     dates = sorted({r['date'] for r in snapshot['rows']
                     if re.fullmatch(re.escape(name) + r'(?:\s+\([^\n]*\))?', r['desk'])})
-    return {'state': snapshot['state'], 'dates': dates}
+    return {'state': snapshot['state'], 'dates': dates,
+            'older': [g for g in snapshot.get('groups', []) if g['desk'] == name]}
 
 
 def windows_path(path: Path) -> str:
