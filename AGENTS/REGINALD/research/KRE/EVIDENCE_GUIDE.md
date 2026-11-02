@@ -86,7 +86,7 @@ The later [PDF upload](reports/2026-11-02_kre-study3-review/REPORT.pdf) preserve
 
 [Original report](reports/2026-11-02_decoupling-stress-test/input_report.md) · [review](reports/2026-11-02_decoupling-stress-test/review.json) · [reproduced checks](reports/2026-11-02_decoupling-stress-test/checks.json) · [script](reports/2026-11-02_decoupling-stress-test/check.py)
 
-Original upload: `REPORT (2).md`.
+Original upload: `REPORT (2).md`. Later upload `REPORT (6).md` is byte-for-byte identical (SHA-256 verified November 2); it is the same study, not additional evidence. The alternate source path is recorded in the [package manifest](reports/2026-11-02_decoupling-stress-test/MANIFEST.json).
 
 **Reproduced:** top-ten trimmed correlation 0.8535; multiple window-length correlations; June/July step down; KRE/KBWB SPY betas; residual correlation; annualized return-gap volatility. The reported persistence statistic is approximately reproduced, but its many conditioning windows overlap heavily.
 

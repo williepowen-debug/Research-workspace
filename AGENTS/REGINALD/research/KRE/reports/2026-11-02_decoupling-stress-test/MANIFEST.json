@@ -16,5 +16,14 @@
       "bytes": 4205,
       "sha256": "083c509f6b193aaa3db5db95e4c26b6da6e5a89d9251084874769945fca8b646"
     }
-  }
+  },
+  "duplicate_uploads": [
+    {
+      "source": "/mnt/c/Users/willi/Downloads/REPORT (6).md",
+      "verified_on": "2026-11-02",
+      "bytes": 22948,
+      "sha256": "0af57fe77f21b64fb8a4249780e7805484ba08642ab2106d14dc4fc6db40a99a",
+      "comparison": "byte-identical to input_report.md; no additional copy or empirical study"
+    }
+  ]
 }
