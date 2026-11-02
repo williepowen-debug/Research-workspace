@@ -29,6 +29,12 @@ Reproduce the sensitivity checks from repository root with `.venv/bin/python3 AG
 
 This follow-up directly tests CATO's unusual-day challenge. Our saved-data checks reproduce the June–July decline, top-ten trimmed correlation of 0.8535, KRE SPY beta of 0.328, and SPY-controlled KRE–KBWB correlation of 0.728. Partial correlation is around the 10th percentile on our shorter history, versus the report's 11th. Persistent reduced co-movement is supported; a permanent regime, a precise causal split and a forecast of KRE returns are not established. The reported NAV, extra ETFs, constituent baskets and bootstrap remain unreproduced here. Original R² values are corrected, but their coding provenance is still unknown. This package's manifest supplements COPY_MANIFEST.json.
 
+## Study 6 — separating return attribution from co-movement
+
+[Supplied report](reports/2026-11-02_study6-drivers/input_report.md) · [PROME review and numerical checks](reports/2026-11-02_study6-drivers/review.json) · [copy manifest](reports/2026-11-02_study6-drivers/MANIFEST.json).
+
+Useful new hypothesis: capital-markets holdings explain much of KBWB's cumulative underperformance, while the daily co-movement anomaly persists against traditional banks. Holdings reconstruction and HY regressions remain unreplicated. **Must fix:** the report's Lens 1 components sum to 1.45pp rather than the stated 1.81pp; removing the whole group may still explain 1.81pp, but the named pieces need reconciliation. **Baseline qualification:** our SPY-controlled correlation percentile is 10.37% since 2012 but 2.82% since 2015; the earlier roughly-11th-percentile framing is not robust to the historical start. Nonsignificant HY coefficients do not prove credit indifference, and temporary shocks are not established by contribution accounting. Underlying study code/holdings/mirror series are not included. This manifest supplements the collection manifest.
+
 ## Data and visuals
 
 The November 2 ETF folder contains 13 ETF daily histories, aligned dividend-adjusted closes, performance/correlation tables, FRED yield and credit-spread series, source manifests, sensitivity checks, exploratory models, scripts and two charts. Completed-session analysis ends October 30; November 2 observations are intraday and must not be presented as closing values.

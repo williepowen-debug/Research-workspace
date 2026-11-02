@@ -1,0 +1,74 @@
+{
+  "source": "/mnt/c/Users/willi/Downloads/REPORT (5).md",
+  "source_sha256": "e050e8698f6d7d0ceca5e037047050e6e0c0f628849555cd8e096206097e5954",
+  "scope": "Whole report read; same-vendor saved ETF calculations and internal arithmetic verified. N-PORT, holdings reconstructions, company evidence, traditional-bank basket and HY regressions not independently reproduced.",
+  "new_information": [
+    "Separates cumulative outperformance from daily co-movement. The 2.414pp return gap is modest relative to observed tracking volatility; unusual correlation need not imply unusually large outperformance.",
+    "Reported holdings counterfactual removes CM5 (JPM/BAC/GS/MS/C), leaving KBWB -6.62% versus KRE -6.02%; reported October rebound becomes 5.00% versus 5.06%. Useful composition hypothesis, subject to reconstruction audit.",
+    "Reported traditional-bank comparison maintains unusually low correlation while yield sensitivity matches KRE, narrowing rate sensitivity as an explanation of the separation.",
+    "Reported HY coefficients no longer significantly negative; new hypothesis about changed credit sensitivity, not proof of indifference or AI-specific credit widening."
+  ],
+  "verified_local_checks": {
+    "price_source": "AGENTS/REGINALD/research/KRE/reports/2026-11-02_kre-etf-relationships/aligned_adjusted_closes.csv",
+    "source_sha256": "f1208d7b8a19c1320a1ffd810f5e8dd37eb54e0db31825053bdf8d2edf172f9c",
+    "basis": "Simple adjusted daily returns; 63 returns Aug 4 to Oct 30, base close Aug 3; intercept/SPY regressions for residual correlation; each historical window fitted separately.",
+    "compound_KRE_minus_KBWB_pp": 2.413849709994831,
+    "summed_daily_gap_pp": 2.56479912836447,
+    "sep14_gap_pp": 2.1736803325601795,
+    "sep14_share_of_summed_gap": 0.8475050964113121,
+    "gap_annualized_vol_pct": 12.025190446791704,
+    "gap_divided_by_63day_vol": 0.4014655269994233,
+    "partial_correlation_baselines": {
+      "since_saved_2012_history": {
+        "windows": 3666,
+        "median": 0.8749191936657654,
+        "percentile": 10.365521003818875
+      },
+      "since_2015": {
+        "windows": 2975,
+        "median": 0.8914882797085365,
+        "percentile": 2.823529411764706
+      }
+    },
+    "baseline_limit": "Report 11.1% earlier versus 2.6% now; our saved history gives 10.37% versus 2.82%. Historical start materially affects rarity; both are descriptive, overlapping-window ranks."
+  },
+  "issues": [
+    {
+      "priority": "must_fix",
+      "finding": "Lens 1 components do not sum to the stated group",
+      "detail": "1.04 + 0.78 - 0.37 = 1.45pp, not 1.81pp; 43% + 32% - 15% = 60%, not 75%. Including 0.60 residual yields 2.05pp, not 2.41pp. The ex-CM endpoint subtraction supports 1.81pp arithmetically, but individual contributions need correction or an explicit nonadditive method."
+    },
+    {
+      "priority": "interpretation",
+      "finding": "Temporary is not identified",
+      "detail": "Holdings accounting identifies which securities contributed, not why prices changed or how long changes last. Report itself acknowledges durable repricing may explain GS/MS weakness."
+    },
+    {
+      "priority": "interpretation",
+      "finding": "Insignificant current HY coefficient is not proof of no exposure",
+      "detail": "t=0.9 and 1.3 permit substantial uncertainty. Need confidence intervals and direct tests of coefficient differences. Prior significance versus current nonsignificance does not establish a structural change. R2 KRE remains 0.16."
+    },
+    {
+      "priority": "source",
+      "finding": "HY mirror and holdings provenance missing from supplied package",
+      "detail": "Earlier report lacked long HY history; this one uses an unnamed mirror. Require exact URL, vintage, raw series and validation. Endpoint N-PORT/holdings backdrift requires checks for membership/share-count changes; near-perfect ETF replication is helpful but not sufficient to certify all counterfactuals."
+    },
+    {
+      "priority": "interpretation",
+      "finding": "No quality sorting and funding mechanism claims are too categorical",
+      "detail": "Failure of selected Q2 metrics to explain current returns is not proof investors ignore fundamentals. Loan/deposit association loses significance when four banks excluded; descriptive channel only."
+    },
+    {
+      "priority": "carry",
+      "finding": "Old causal qualifications remain",
+      "detail": "Rate-volatility half-attribution is not an identified causal decomposition; no measured term-premium decomposition supplied; Q3 deposit-cost changes cannot be assigned to a late-quarter September hike from chronology alone."
+    },
+    {
+      "priority": "method",
+      "finding": "Event dummy attribution and significance need limits",
+      "detail": "Dummies isolate date-specific residuals, not identified causal effects. 0.40 volatility units is descriptive, not a formal significance test. Multiple hypotheses, windows and selected traits remain exploratory."
+    }
+  ],
+  "synthesis": "Useful new composition evidence for the endpoint gap, plus a separate persistent co-movement question. Market-adjusted rarity is more baseline-sensitive than prior synthesis conveyed. No conclusion that regional-bank fundamentals improved, that credit risk vanished, or that the relative move must reverse.",
+  "next_bounded_evidence": "Reconcile additive holdings attribution; supply weights/N-PORT and mirror time series; report comparable-bank and HY coefficients with uncertainty and fixed historical baselines. No new monitoring routine commissioned."
+}
