@@ -1,0 +1,1145 @@
+bank	rssd	period	sha256_sdf	MDRM	value_k	schedule	line	short_definition
+VLY	229801	03-31-2026	16c56626921fb232	RCFA7204	10.2323%	RCRI	31	Leverage ratio (item 26 divided by 30)
+VLY	229801	03-31-2026	16c56626921fb232	RCFAA223	51307150	RCRI	48a	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+VLY	229801	03-31-2026	16c56626921fb232	RCFAP793	12.4158%	RCRI	49	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced app
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1251	3115	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1252	3635	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1253	138487	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1403	432646	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1406	117231	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1407	10702	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1460	8588462	RCCI	1d	Secured by multifamily (5 or more) residential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1545	26574	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1763	8021968	RCCI	4a	To U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD1764	137809	RCCI	4b	To non-U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD2122	50835050	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+VLY	229801	03-31-2026	16c56626921fb232	RCFD2746	521194	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+VLY	229801	03-31-2026	16c56626921fb232	RCFD3210	8231825	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+VLY	229801	03-31-2026	16c56626921fb232	RCFD5461	2650	RCN	7	All other loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDF158	333261	RCCI	1a1	1-4 family residential construction loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDF159	2160876	RCCI	1a2	Other construction loans and all land development and other land loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDF160	7123282	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCFDF161	11503874	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCFDF169	3532	RCN	8b	All other leases
+VLY	229801	03-31-2026	16c56626921fb232	RCFDF171	4667	RCN	8b	All other leases
+VLY	229801	03-31-2026	16c56626921fb232	RCFDHK25	182359	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty* that are in compliance with their modified term
+VLY	229801	03-31-2026	16c56626921fb232	RCFDHK26	6602	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+VLY	229801	03-31-2026	16c56626921fb232	RCFDHK28	96646	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJ451	1119078	RCCI	9b2	All other loans (exclude consumer loans)
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJ454	1343752	RCCI	9a	Loans to nondepository financial institutions
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ04	2485387	RIC	1a	Construction loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ05	27224590	RIC	1b	Commercial real estate loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ06	6570206	RIC	1c	Residential real estate loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ07	11391346	RIC	2	Commercial loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ09	3152294	RIC	4	Other consumer loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ11	50823823	RIC	6	Total (sum of items 1.a. through 5)
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ12	54946	RIC	1a	Construction loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ13	269847	RIC	1b	Commercial real estate loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ14	51700	RIC	1c	Residential real estate loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ15	187802	RIC	2	Commercial loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ17	19926	RIC	4	Other consumer loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ19	584221	RIC	6	Total (sum of items 1.a. through 5)
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ20	173	RIC	7	Securities issued by states and political subdivisions in the U.S
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ24	573	RIC	10	Other debt securities
+VLY	229801	03-31-2026	16c56626921fb232	RCFDJJ25	746	RIC	11	Total (sum of items 7 through 10)
+VLY	229801	03-31-2026	16c56626921fb232	RCFDK122	95273	RCN	M1e1	To U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RCFDK213	10779	RCN	5b	Automobile loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDK214	781	RCN	5b	Automobile loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDK215	238	RCN	5b	Automobile loans
+VLY	229801	03-31-2026	16c56626921fb232	RCFDK216	3780	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	03-31-2026	16c56626921fb232	RCFDK217	392	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	03-31-2026	16c56626921fb232	RCFDK218	19	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	03-31-2026	16c56626921fb232	RCFDPV05	234073	RCCI	M10a	Loans to mortgage credit intermediaries
+VLY	229801	03-31-2026	16c56626921fb232	RCFDPV06	527477	RCCI	M10b	Loans to business credit intermediaries
+VLY	229801	03-31-2026	16c56626921fb232	RCFDPV07	582202	RCCI	M10c	Loans to private equity funds
+VLY	229801	03-31-2026	16c56626921fb232	RCON1460	8588462	RCCI	1d	Secured by multifamily (5 or more) residential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCON1545	26574	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+VLY	229801	03-31-2026	16c56626921fb232	RCON1763	8021968	RCCI	4a	To U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RCON1764	137809	RCCI	4b	To non-U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RCON2122	50835050	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+VLY	229801	03-31-2026	16c56626921fb232	RCON2200	52955541	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)
+VLY	229801	03-31-2026	16c56626921fb232	RCON3499	9362	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	03-31-2026	16c56626921fb232	RCON3501	62574	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	03-31-2026	16c56626921fb232	RCON5398	1543	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+VLY	229801	03-31-2026	16c56626921fb232	RCON5400	6127	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+VLY	229801	03-31-2026	16c56626921fb232	RCONC229	45307	RCN	1c2a	Secured by first liens
+VLY	229801	03-31-2026	16c56626921fb232	RCONC230	586	RCN	1c2b	Secured by junior liens
+VLY	229801	03-31-2026	16c56626921fb232	RCONC236	24819	RCN	1c2a	Secured by first liens
+VLY	229801	03-31-2026	16c56626921fb232	RCONC237	5894	RCN	1c2a	Secured by first liens
+VLY	229801	03-31-2026	16c56626921fb232	RCONC238	169	RCN	1c2b	Secured by junior liens
+VLY	229801	03-31-2026	16c56626921fb232	RCONF158	333261	RCCI	1a1	1-4 family residential construction loans
+VLY	229801	03-31-2026	16c56626921fb232	RCONF159	2160876	RCCI	1a2	Other construction loans and all land development and other land loans
+VLY	229801	03-31-2026	16c56626921fb232	RCONF160	7123282	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCONF161	11503874	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCONF176	398	RCN	1a1	1-4 family residential construction loans
+VLY	229801	03-31-2026	16c56626921fb232	RCONF177	8750	RCN	1a2	Other construction loans and all land development and other land loans
+VLY	229801	03-31-2026	16c56626921fb232	RCONF178	19283	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCONF179	40849	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCONF182	13823	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCONF183	149020	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RCONF661	1148	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+VLY	229801	03-31-2026	16c56626921fb232	RCONF663	1373	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+VLY	229801	03-31-2026	16c56626921fb232	RCONJ451	1119078	RCCI	9b2	All other loans (exclude consumer loans)
+VLY	229801	03-31-2026	16c56626921fb232	RCONJ454	1343752	RCCI	9a	Loans to nondepository financial institutions
+VLY	229801	03-31-2026	16c56626921fb232	RCONK111	5454	RCN	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	03-31-2026	16c56626921fb232	RCONK160	27148	RCCI	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	03-31-2026	16c56626921fb232	RCONPV05	234073	RCCI	M10a	Loans to mortgage credit intermediaries
+VLY	229801	03-31-2026	16c56626921fb232	RCONPV06	527477	RCCI	M10b	Loans to business credit intermediaries
+VLY	229801	03-31-2026	16c56626921fb232	RCONPV07	582202	RCCI	M10c	Loans to private equity funds
+VLY	229801	03-31-2026	16c56626921fb232	RIAD3123	584221	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+VLY	229801	03-31-2026	16c56626921fb232	RIAD3588	4386	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	03-31-2026	16c56626921fb232	RIAD3589	51	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	03-31-2026	16c56626921fb232	RIAD4230	18365	RIBII	5	Provisions for credit losses
+VLY	229801	03-31-2026	16c56626921fb232	RIAD4605	2257	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+VLY	229801	03-31-2026	16c56626921fb232	RIAD4617	1118	RIBI	4a	To U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RIAD4635	19801	RIBI	9	Total (sum of items 1 through 8)
+VLY	229801	03-31-2026	16c56626921fb232	RIAD4645	3814	RIBI	4a	To U.S. addressees (domicile)
+VLY	229801	03-31-2026	16c56626921fb232	RIADB522	583400	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+VLY	229801	03-31-2026	16c56626921fb232	RIADC079	19801	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+VLY	229801	03-31-2026	16c56626921fb232	RIADC217	83	RIBI	1c2a	Secured by first liens
+VLY	229801	03-31-2026	16c56626921fb232	RIADC880	796	RIBI	8b	All other leases
+VLY	229801	03-31-2026	16c56626921fb232	RIADC895	216	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RIADC896	17	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RIADC897	9154	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RIADC898	279	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	03-31-2026	16c56626921fb232	RIADF188	326	RIBI	8b	All other leases
+VLY	229801	03-31-2026	16c56626921fb232	RIADJH88	734	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+VLY	229801	03-31-2026	16c56626921fb232	RIADJH90	12	RIBII	5	Provisions for credit losses
+VLY	229801	03-31-2026	16c56626921fb232	RIADJH93	746	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+VLY	229801	03-31-2026	16c56626921fb232	RIADK129	1328	RIBI	5b	Automobile loans
+VLY	229801	03-31-2026	16c56626921fb232	RIADK133	360	RIBI	5b	Automobile loans
+VLY	229801	03-31-2026	16c56626921fb232	RIADK205	107	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	03-31-2026	16c56626921fb232	RIADK206	23	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	03-31-2026	16c56626921fb232	RIADMG93	2638	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures
+VLY	229801	03-31-2026	16c56626921fb232	RIADMG94	11577	RIBII	M8	Estimated amount of expected recoveries of amounts previously written off included within the allowance for credit losse
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFA7204	10.2512%	RCRI	31	Leverage ratio (item 26 divided by 30)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFAA223	53158677	RCRI	48a	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFAP793	12.2786%	RCRI	49	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced app
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1251	5651	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1252	3638	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1253	138511	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1403	462629	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1406	164144	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1407	16066	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1460	9034186	RCCI	1d	Secured by multifamily (5 or more) residential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1545	37345	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1763	8302914	RCCI	4a	To U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD1764	133363	RCCI	4b	To non-U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD2122	52476084	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD2746	539365	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD3210	8384348	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFD5461	3286	RCN	7	All other loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDC410	94258	RCN	M7	Additions to nonaccrual assets during the previous six months
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDF158	347895	RCCI	1a1	1-4 family residential construction loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDF159	2135964	RCCI	1a2	Other construction loans and all land development and other land loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDF160	7688067	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDF161	11146663	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDF169	2488	RCN	8b	All other leases
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDF171	5934	RCN	8b	All other leases
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDHK25	186374	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty* that are in compliance with their modified term
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDHK26	272	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDHK27	5454	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDHK28	86778	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJ451	1258263	RCCI	9b2	All other loans (exclude consumer loans)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJ454	1765627	RCCI	9a	Loans to nondepository financial institutions
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ04	2475109	RIC	1a	Construction loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ05	27873726	RIC	1b	Commercial real estate loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ06	6711564	RIC	1c	Residential real estate loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ07	12241931	RIC	2	Commercial loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ09	3160064	RIC	4	Other consumer loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ11	52462394	RIC	6	Total (sum of items 1.a. through 5)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ12	50623	RIC	1a	Construction loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ13	268445	RIC	1b	Commercial real estate loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ14	48905	RIC	1c	Residential real estate loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ15	200648	RIC	2	Commercial loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ17	21451	RIC	4	Other consumer loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ19	590072	RIC	6	Total (sum of items 1.a. through 5)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ20	202	RIC	7	Securities issued by states and political subdivisions in the U.S
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ24	542	RIC	10	Other debt securities
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDJJ25	744	RIC	11	Total (sum of items 7 through 10)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDK122	85392	RCN	M1e1	To U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDK213	11933	RCN	5b	Automobile loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDK214	1007	RCN	5b	Automobile loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDK215	210	RCN	5b	Automobile loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDK216	6161	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDK217	744	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDK218	16	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDPV05	309319	RCCI	M10a	Loans to mortgage credit intermediaries
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDPV06	619397	RCCI	M10b	Loans to business credit intermediaries
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDPV07	814314	RCCI	M10c	Loans to private equity funds
+VLY	229801	06-30-2026	19c15228bc487fd9	RCFDPV09	22597	RCCI	M10e	Other loans to nondepository financial institutions
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON1460	9034186	RCCI	1d	Secured by multifamily (5 or more) residential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON1545	37345	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON1763	8302914	RCCI	4a	To U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON1764	133363	RCCI	4b	To non-U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON2122	52476084	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON2200	54339086	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON3499	101497	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON3500	5454	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON3501	61550	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON5398	1384	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+VLY	229801	06-30-2026	19c15228bc487fd9	RCON5400	6399	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONC229	42311	RCN	1c2a	Secured by first liens
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONC230	742	RCN	1c2b	Secured by junior liens
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONC236	28649	RCN	1c2a	Secured by first liens
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONC237	5223	RCN	1c2a	Secured by first liens
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONC238	92	RCN	1c2b	Secured by junior liens
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF158	347895	RCCI	1a1	1-4 family residential construction loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF159	2135964	RCCI	1a2	Other construction loans and all land development and other land loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF160	7688067	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF161	11146663	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF173	1752	RCN	1a2	Other construction loans and all land development and other land loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF176	389	RCN	1a1	1-4 family residential construction loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF177	8750	RCN	1a2	Other construction loans and all land development and other land loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF178	4537	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF182	24683	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF183	169848	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF661	272	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONF663	1187	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONJ451	1258263	RCCI	9b2	All other loans (exclude consumer loans)
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONJ454	1765627	RCCI	9a	Loans to nondepository financial institutions
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONK112	5454	RCN	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONK116	199	RCN	M1d1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONK160	23348	RCCI	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONPV05	309319	RCCI	M10a	Loans to mortgage credit intermediaries
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONPV06	619397	RCCI	M10b	Loans to business credit intermediaries
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONPV07	814314	RCCI	M10c	Loans to private equity funds
+VLY	229801	06-30-2026	19c15228bc487fd9	RCONPV09	22597	RCCI	M10e	Other loans to nondepository financial institutions
+VLY	229801	06-30-2026	19c15228bc487fd9	RIAD3123	590072	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+VLY	229801	06-30-2026	19c15228bc487fd9	RIAD3588	9538	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RIAD3589	141	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	06-30-2026	19c15228bc487fd9	RIAD4230	46262	RIBII	5	Provisions for credit losses
+VLY	229801	06-30-2026	19c15228bc487fd9	RIAD4605	7837	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+VLY	229801	06-30-2026	19c15228bc487fd9	RIAD4617	2563	RIBI	4a	To U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RIAD4635	47427	RIBI	9	Total (sum of items 1 through 8)
+VLY	229801	06-30-2026	19c15228bc487fd9	RIAD4645	14046	RIBI	4a	To U.S. addressees (domicile)
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADB522	583400	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADC079	47427	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADC217	124	RIBI	1c2a	Secured by first liens
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADC880	1800	RIBI	8b	All other leases
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADC895	1509	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADC896	20	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADC897	17143	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADC898	2976	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADF188	680	RIBI	8b	All other leases
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADJH88	734	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADJH90	10	RIBII	5	Provisions for credit losses
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADJH93	744	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADK129	3090	RIBI	5b	Automobile loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADK133	1301	RIBI	5b	Automobile loans
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADK205	301	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADK206	32	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADMG93	3658	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures
+VLY	229801	06-30-2026	19c15228bc487fd9	RIADMG94	11370	RIBII	M8	Estimated amount of expected recoveries of amounts previously written off included within the allowance for credit losse
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFA7204	10.3536%	RCRI	31	Leverage ratio (item 26 divided by 30)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFAA223	54222451	RCRI	48a	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFAP793	12.3336%	RCRI	49	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced app
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1251	6976	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1252	2732	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1253	139114	RCN	4a	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1403	511390	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1406	137180	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1407	17332	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1460	9024673	RCCI	1d	Secured by multifamily (5 or more) residential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1545	118439	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1763	8347984	RCCI	4a	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD1764	141482	RCCI	4b	To non-U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD2122	53199745	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD2746	521871	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD3210	8409461	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFD5461	22803	RCN	7	All other loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDC226	8750	RCN	M5	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDF158	346194	RCCI	1a1	1-4 family residential construction loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDF159	2320758	RCCI	1a2	Other construction loans and all land development and other land loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDF160	8004195	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDF161	11001011	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDF169	1647	RCN	8b	All other leases
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDF171	6163	RCN	8b	All other leases
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDHK25	242875	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty* that are in compliance with their modified term
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDHK26	4511	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDHK27	4866	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDHK28	91215	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJ451	1186304	RCCI	9b2	All other loans (exclude consumer loans)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJ454	2062490	RCCI	9a	Loans to nondepository financial institutions
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ04	2658202	RIC	1a	Construction loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ05	28034157	RIC	1b	Commercial real estate loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ06	6833367	RIC	1c	Residential real estate loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ07	12599564	RIC	2	Commercial loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ09	3058253	RIC	4	Other consumer loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ11	53183543	RIC	6	Total (sum of items 1.a. through 5)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ12	46490	RIC	1a	Construction loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ13	252903	RIC	1b	Commercial real estate loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ14	47376	RIC	1c	Residential real estate loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ15	213427	RIC	2	Commercial loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ17	20076	RIC	4	Other consumer loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ19	580272	RIC	6	Total (sum of items 1.a. through 5)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ20	230	RIC	7	Securities issued by states and political subdivisions in the U.S
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ24	497	RIC	10	Other debt securities
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDJJ25	727	RIC	11	Total (sum of items 7 through 10)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDK120	4205	RCN	M1e1	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDK122	86437	RCN	M1e1	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDK213	10401	RCN	5b	Automobile loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDK214	1173	RCN	5b	Automobile loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDK215	143	RCN	5b	Automobile loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDK216	7346	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDK217	608	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDK218	30	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDPV05	262066	RCCI	M10a	Loans to mortgage credit intermediaries
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDPV06	605610	RCCI	M10b	Loans to business credit intermediaries
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDPV07	1153981	RCCI	M10c	Loans to private equity funds
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDPV08	22542	RCCI	M10d	Loans to consumer credit intermediaries
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDPV09	18291	RCCI	M10e	Other loans to nondepository financial institutions
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCFDPV25	18522	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON1460	9024673	RCCI	1d	Secured by multifamily (5 or more) residential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON1545	118439	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON1763	8347984	RCCI	4a	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON1764	141482	RCCI	4b	To non-U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON2122	53199745	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON2200	55401433	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON3499	21719	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON3500	10294	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON3501	65383	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON5398	1047	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCON5400	5786	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONC229	44177	RCN	1c2a	Secured by first liens
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONC230	829	RCN	1c2b	Secured by junior liens
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONC236	26149	RCN	1c2a	Secured by first liens
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONC237	2524	RCN	1c2a	Secured by first liens
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONC238	177	RCN	1c2b	Secured by junior liens
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF158	346194	RCCI	1a1	1-4 family residential construction loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF159	2320758	RCCI	1a2	Other construction loans and all land development and other land loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF160	8004195	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF161	11001011	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF176	380	RCN	1a1	1-4 family residential construction loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF177	38877	RCN	1a2	Other construction loans and all land development and other land loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF178	320	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF179	61398	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF180	1	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF182	24830	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF183	162875	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF661	306	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF662	412	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONF663	1514	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONJ451	1186304	RCCI	9b2	All other loans (exclude consumer loans)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONJ454	2062490	RCCI	9a	Loans to nondepository financial institutions
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONK112	4454	RCN	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONK113	3138	RCN	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONK116	126	RCN	M1d1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONK160	96892	RCCI	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONPV05	262066	RCCI	M10a	Loans to mortgage credit intermediaries
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONPV06	605610	RCCI	M10b	Loans to business credit intermediaries
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONPV07	1153981	RCCI	M10c	Loans to private equity funds
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONPV08	22542	RCCI	M10d	Loans to consumer credit intermediaries
+VLY	229801	09-30-2026	37b15f97a6dd668c	RCONPV09	18291	RCCI	M10e	Other loans to nondepository financial institutions
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIAD3123	580272	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIAD3588	25977	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIAD3589	421	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIAD4230	73540	RIBII	5	Provisions for credit losses
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIAD4605	10817	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIAD4617	3655	RIBI	4a	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIAD4635	87485	RIBI	9	Total (sum of items 1 through 8)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIAD4645	31021	RIBI	4a	To U.S. addressees (domicile)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADB522	583400	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC079	87485	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC217	150	RIBI	1c2a	Secured by first liens
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC218	16	RIBI	1c2b	Secured by junior liens
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC235	14	RIBI	1c2b	Secured by junior liens
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC880	2814	RIBI	8b	All other leases
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC895	2119	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC896	60	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC897	19169	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADC898	3356	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADF188	910	RIBI	8b	All other leases
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADJH88	734	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADJH90	-7	RIBII	5	Provisions for credit losses
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADJH93	727	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADK129	5736	RIBI	5b	Automobile loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADK133	2199	RIBI	5b	Automobile loans
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADK205	635	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADK206	50	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADMG93	7038	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures
+VLY	229801	09-30-2026	37b15f97a6dd668c	RIADMG94	10025	RIBII	M8	Estimated amount of expected recoveries of amounts previously written off included within the allowance for credit losse
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCOA7204	10.8747%	RCRI	31	Leverage ratio (item 26 divided by 30)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCOAA223	8496659	RCRI	48	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCOAP793	14.1321%	RCRI	49	Common equity tier 1 capital ratio (item 19 divided by item 48)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON1403	184259	RCN	9	Total loans and leases (sum of items 1 through 8)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON1406	18014	RCN	9	Total loans and leases (sum of items 1 through 8)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON1460	858557	RCCI	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON1606	580	RCN	4	Commercial and industrial loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON1608	16115	RCN	4	Commercial and industrial loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON1763	1072610	RCCI	4a	To U.S. addressees (domicile)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON1766	1072610	RCCI	4	Commercial and industrial loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON2122	6994262	RCCI	12	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Sched
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON2200	8596517	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON2746	203695	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON3210	1165171	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON3499	4996	RCN	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON3501	34211	RCN	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON5398	126	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON5400	450	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCON5461	6001	RCN	7	All other loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONC229	4987	RCN	1c2a	Secured by first liens
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONC230	96	RCN	1c2b	Secured by junior liens
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONC236	4457	RCN	1c2a	Secured by first liens
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONC238	496	RCN	1c2b	Secured by junior liens
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF158	68660	RCCI	1a1	1-4 family residential construction loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF159	934992	RCCI	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF160	1339887	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF161	1848613	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF176	7230	RCN	1a1	1-4 family residential construction loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF177	16631	RCN	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF179	7359	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF182	5180	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONF183	93358	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONHK25	199363	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty that are in compliance with their modified terms
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONHK26	7159	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, ab
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONHK28	18769	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, ab
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJ451	110955	RCCI	9b2	All other loans (exclude consumer loans)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJ454	135330	RCCI	9a	Loans to nondepository financial institutions
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJ464	110955	RCCI	9b	Other loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ04	1001448	RIC	1a	Construction loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ05	3988843	RIC	1b	Commercial real estate loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ06	230767	RIC	1c	Residential real estate loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ07	1716419	RIC	2	Commercial loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ09	1083	RIC	4	Other consumer loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ11	6938560	RIC	6	Total (sum of items 1.a. through 5)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ12	15634	RIC	1a	Construction loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ13	101789	RIC	1b	Commercial real estate loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ14	2343	RIC	1c	Residential real estate loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ15	27364	RIC	2	Commercial loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ17	33	RIC	4	Other consumer loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ19	147163	RIC	6	Total (sum of items 1.a. through 5)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ20	11	RIC	7	Securities issued by states and political subdivisions in the U.S.
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ24	200	RIC	10	Other debt securities
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONJJ25	211	RIC	11	Total (sum of items 7 through 10)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK038	50	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK041	50	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK107	7230	RCN	M1a1	1-4 family residential construction loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK110	1530	RCN	M1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK113	7423	RCN	M1c	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK117	7159	RCN	M1d2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK122	2586	RCN	M1e1	To U.S. addressees (domicile)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK160	123571	RCCI	M1c	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONK259	2586	RCN	M1e	Commercial and industrial loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RCONPV05	135330	RCCI	M10a	Loans to mortgage credit intermediaries
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIAD3123	147163	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIAD3588	9189	RIBI	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIAD4230	13506	RIBII	5	Provisions for credit losses
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIAD4605	148	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIAD4608	87	RIBI	4	Commercial and industrial loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIAD4635	26096	RIBI	9	Total (sum of items 1 through 8)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIAD4638	11533	RIBI	4	Commercial and industrial loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADB522	159605	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADC079	26096	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADC234	80	RIBI	1c2a	Secured by first liens
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADC893	2368	RIBI	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADC895	2926	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADC896	24	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADC898	37	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADJH88	224	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADJH90	-15	RIBII	5	Provisions for credit losses
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADJH93	209	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+EGBN	2652092	03-31-2026	18c1d131681efc7c	RIADMG93	-1779	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCOA7204	11.4898%	RCRI	31	Leverage ratio (item 26 divided by 30)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCOAA223	8098308	RCRI	48	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCOAP793	14.9484%	RCRI	49	Common equity tier 1 capital ratio (item 19 divided by item 48)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON1403	136915	RCN	9	Total loans and leases (sum of items 1 through 8)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON1406	44087	RCN	9	Total loans and leases (sum of items 1 through 8)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON1460	806432	RCCI	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON1606	908	RCN	4	Commercial and industrial loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON1608	15719	RCN	4	Commercial and industrial loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON1763	1227932	RCCI	4a	To U.S. addressees (domicile)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON1766	1227932	RCCI	4	Commercial and industrial loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON2122	6672098	RCCI	12	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Sched
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON2200	8201597	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON2746	152732	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON3210	1172467	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON3501	35891	RCN	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON5400	573	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCON5461	13242	RCN	7	All other loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONC229	4976	RCN	1c2a	Secured by first liens
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONC230	92	RCN	1c2b	Secured by junior liens
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONC236	299	RCN	1c2a	Secured by first liens
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONC410	97665	RCN	M7	Additions to nonaccrual assets during the previous six months
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONC411	93854	RCN	M8	Nonaccrual assets sold during the previous six months
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF158	55639	RCCI	1a1	1-4 family residential construction loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF159	868394	RCCI	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF160	1271053	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF161	1657635	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF176	690	RCN	1a1	1-4 family residential construction loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF177	18224	RCN	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF178	176	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF179	42704	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF182	5372	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONF183	42136	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONHK25	116115	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty that are in compliance with their modified terms
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONHK26	3510	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, ab
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONHK28	33949	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, ab
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJ451	98302	RCCI	9b2	All other loans (exclude consumer loans)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJ454	91664	RCCI	9a	Loans to nondepository financial institutions
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJ464	98302	RCCI	9b	Other loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ04	857177	RIC	1a	Construction loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ05	3772689	RIC	1b	Commercial real estate loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ06	191673	RIC	1c	Residential real estate loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ07	1800087	RIC	2	Commercial loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ09	809	RIC	4	Other consumer loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ11	6622435	RIC	6	Total (sum of items 1.a. through 5)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ12	9682	RIC	1a	Construction loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ13	79289	RIC	1b	Commercial real estate loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ14	2136	RIC	1c	Residential real estate loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ15	30005	RIC	2	Commercial loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ17	29	RIC	4	Other consumer loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ19	121141	RIC	6	Total (sum of items 1.a. through 5)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ20	11	RIC	7	Securities issued by states and political subdivisions in the U.S.
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ24	190	RIC	10	Other debt securities
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONJJ25	201	RIC	11	Total (sum of items 7 through 10)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK038	48	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK041	48	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK107	690	RCN	M1a1	1-4 family residential construction loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK110	4657	RCN	M1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK113	16301	RCN	M1c	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK117	3510	RCN	M1d2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK122	12301	RCN	M1e1	To U.S. addressees (domicile)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK160	70436	RCCI	M1c	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONK259	12301	RCN	M1e	Commercial and industrial loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RCONPV05	91664	RCCI	M10a	Loans to mortgage credit intermediaries
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIAD3123	121141	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIAD3588	20282	RIBI	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIAD4230	35406	RIBII	5	Provisions for credit losses
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIAD4605	1287	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIAD4608	122	RIBI	4	Commercial and industrial loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIAD4635	75157	RIBI	9	Total (sum of items 1 through 8)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIAD4638	11719	RIBI	4	Commercial and industrial loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADB522	159605	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC079	75157	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC234	80	RIBI	1c2a	Secured by first liens
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC891	3071	RIBI	1a1	1-4 family residential construction loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC892	6	RIBI	1a1	1-4 family residential construction loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC893	11696	RIBI	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC895	2926	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC896	37	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC897	25383	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADC898	1122	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADJH88	224	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADJH90	-23	RIBII	5	Provisions for credit losses
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADJH93	201	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+EGBN	2652092	06-30-2026	2b4a941f68e290b7	RIADMG93	-1771	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCOA7204	12.3755%	RCRI	31	Leverage ratio (item 26 divided by 30)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCOAA223	8046192	RCRI	48	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCOAP793	15.3829%	RCRI	49	Common equity tier 1 capital ratio (item 19 divided by item 48)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON1403	179722	RCN	9	Total loans and leases (sum of items 1 through 8)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON1406	357	RCN	9	Total loans and leases (sum of items 1 through 8)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON1460	691659	RCCI	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON1606	60	RCN	4	Commercial and industrial loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON1608	13807	RCN	4	Commercial and industrial loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON1763	1320090	RCCI	4a	To U.S. addressees (domicile)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON1766	1320090	RCCI	4	Commercial and industrial loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON2122	6576888	RCCI	12	Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Sched
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON2200	8047650	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON2746	174445	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON3210	1181960	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON3501	82506	RCN	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON5400	572	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCON5461	9541	RCN	7	All other loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONC229	4264	RCN	1c2a	Secured by first liens
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONC230	71	RCN	1c2b	Secured by junior liens
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONC236	297	RCN	1c2a	Secured by first liens
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF158	34873	RCCI	1a1	1-4 family residential construction loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF159	796386	RCCI	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF160	1287716	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF161	1589844	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF176	683	RCN	1a1	1-4 family residential construction loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF177	17800	RCN	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF182	3501	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF183	46977	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONF663	2252	RCN	M1b	Loans secured by 1-4 family residential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONHK25	93368	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty that are in compliance with their modified terms
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONHK28	94993	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty included in Schedule RC-N, items 1 through 7, ab
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJ451	25559	RCCI	9b2	All other loans (exclude consumer loans)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJ454	135752	RCCI	9a	Loans to nondepository financial institutions
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJ464	25559	RCCI	9b	Other loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ04	829130	RIC	1a	Construction loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ05	3553398	RIC	1b	Commercial real estate loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ06	304751	RIC	1c	Residential real estate loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ07	1875224	RIC	2	Commercial loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ09	851	RIC	4	Other consumer loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ11	6563354	RIC	6	Total (sum of items 1.a. through 5)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ12	10539	RIC	1a	Construction loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ13	78750	RIC	1b	Commercial real estate loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ14	3554	RIC	1c	Residential real estate loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ15	27909	RIC	2	Commercial loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ17	29	RIC	4	Other consumer loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ19	120781	RIC	6	Total (sum of items 1.a. through 5)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ20	11	RIC	7	Securities issued by states and political subdivisions in the U.S.
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ24	179	RIC	10	Other debt securities
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONJJ25	190	RIC	11	Total (sum of items 7 through 10)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONK038	46	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONK041	46	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONK110	6850	RCN	M1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONK113	67506	RCN	M1c	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONK119	8937	RCN	M1d2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONK122	9448	RCN	M1e1	To U.S. addressees (domicile)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONK160	63159	RCCI	M1c	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONK259	9448	RCN	M1e	Commercial and industrial loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONPV05	135752	RCCI	M10a	Loans to mortgage credit intermediaries
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RCONPV25	9541	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIAD3123	120781	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIAD3588	20282	RIBI	1d	Secured by multifamily (5 or more) residential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIAD4230	38260	RIBII	5	Provisions for credit losses
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIAD4605	3539	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIAD4608	923	RIBI	4	Commercial and industrial loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIAD4635	81565	RIBI	9	Total (sum of items 1 through 8)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIAD4638	11719	RIBI	4	Commercial and industrial loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIAD4644	3471	RIBI	7	All other loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADB522	159605	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC079	81565	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC217	9	RIBI	1c2a	Secured by first liens
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC233	942	RIBII	6	Adjustments (see instructions for this schedule)
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC234	80	RIBI	1c2a	Secured by first liens
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC891	3071	RIBI	1a1	1-4 family residential construction loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC892	6	RIBI	1a1	1-4 family residential construction loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC893	11696	RIBI	1a2	Other construction loans and all land development and other land loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC895	2926	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC896	1478	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC897	28320	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADC898	1122	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADJH88	224	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADJH90	-34	RIBII	5	Provisions for credit losses
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADJH93	190	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADK133	1	RIBI	5b	Automobile loans
+EGBN	2652092	09-30-2026	a4b07063cc10f7ba	RIADMG93	-1761	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFA7204	10.2357%	RCRI	31	Leverage ratio (item 26 divided by 30)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFAA223	206904227	RCRI	48a	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFAP793	12.0433%	RCRI	49	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced app
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1248	164	RCN	M3	Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-N, item 1, above)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1250	166	RCN	M3	Loans secured by real estate to non-U.S. addressees (domicile) (included in Schedule RC-N, item 1, above)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1251	161980	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1252	1000	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1253	625062	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1254	12	RCN	4b	To non-U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1256	12115	RCN	4b	To non-U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1403	1334869	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1406	1044656	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1407	423117	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1460	5311294	RCCI	1d	Secured by multifamily (5 or more) residential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1545	152354	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1583	6178	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1594	1650	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1597	340	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1763	51427050	RCCI	4a	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD1764	1833067	RCCI	4b	To non-U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD2122	189769953	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD2746	2262570	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD3210	33143721	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD3505	117	RCN	10	Debt securities and other assets (exclude other real estate owned and other repossessed assets)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD3506	54	RCN	10	Debt securities and other assets (exclude other real estate owned and other repossessed assets)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD3507	9	RCN	10	Debt securities and other assets (exclude other real estate owned and other repossessed assets)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD5459	13542	RCN	7	All other loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD5460	329	RCN	7	All other loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD5461	18129	RCN	7	All other loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD6558	750	RCN	M2	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFD6560	20146	RCN	M2	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDB575	10329	RCN	5a	Credit cards
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDB576	4392	RCN	5a	Credit cards
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDB577	127	RCN	5a	Credit cards
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDC226	3068	RCN	M5	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDC240	2102	RCN	M5	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDF158	1521366	RCCI	1a1	1-4 family residential construction loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDF159	3404803	RCCI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDF160	13338162	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDF161	15012817	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDF169	43740	RCN	8b	All other leases
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDF170	4270	RCN	8b	All other leases
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDF171	9954	RCN	8b	All other leases
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDHK25	363715	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty* that are in compliance with their modified term
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDHK26	30657	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDHK27	14245	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDHK28	159608	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJ451	896381	RCCI	9b2	All other loans (exclude consumer loans)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJ454	16368218	RCCI	9a	Loans to nondepository financial institutions
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ04	4926169	RIC	1a	Construction loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ05	34205304	RIC	1b	Commercial real estate loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ06	46037272	RIC	1c	Residential real estate loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ07	78834209	RIC	2	Commercial loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ08	982162	RIC	3	Credit cards
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ09	23546015	RIC	4	Other consumer loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ11	188531131	RIC	6	Total (sum of items 1.a. through 5)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ12	137881	RIC	1a	Construction loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ13	819009	RIC	1b	Commercial real estate loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ14	463396	RIC	1c	Residential real estate loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ15	1341996	RIC	2	Commercial loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ16	90104	RIC	3	Credit cards
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ17	390491	RIC	4	Other consumer loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDJJ19	3242877	RIC	6	Total (sum of items 1.a. through 5)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK036	143743	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK037	324369	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK038	531151	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK039	33343	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK040	3458	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK041	385080	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK042	99774	RCN	11b	Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK043	320865	RCN	11b	Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK044	12576	RCN	11b	Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK120	7903	RCN	M1e1	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK121	25	RCN	M1e1	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK122	93940	RCN	M1e1	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK126	1117	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK127	18	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK128	1988	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK213	165953	RCN	5b	Automobile loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK214	13132	RCN	5b	Automobile loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK215	7358	RCN	5b	Automobile loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK216	49273	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK217	5322	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDK218	1142	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDPV05	2684445	RCCI	M10a	Loans to mortgage credit intermediaries
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDPV06	2721319	RCCI	M10b	Loans to business credit intermediaries
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDPV07	4092128	RCCI	M10c	Loans to private equity funds
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDPV08	666057	RCCI	M10d	Loans to consumer credit intermediaries
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDPV09	6204269	RCCI	M10e	Other loans to nondepository financial institutions
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDPV23	10045	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDPV24	329	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCFDPV25	17677	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON1460	5311294	RCCI	1d	Secured by multifamily (5 or more) residential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON1545	152354	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON1763	51155678	RCCI	4a	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON1764	1084219	RCCI	4b	To non-U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON2122	188749733	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON2200	227513232	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON3493	1108	RCN	1b	Secured by farmland in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON3495	3062	RCN	1b	Secured by farmland in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON3499	16488	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON3501	4222	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON5398	86896	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON5399	18478	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCON5400	107689	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONC229	213131	RCN	1c2a	Secured by first liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONC230	10171	RCN	1c2b	Secured by junior liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONC236	392952	RCN	1c2a	Secured by first liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONC237	371266	RCN	1c2a	Secured by first liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONC238	6848	RCN	1c2b	Secured by junior liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONC239	875	RCN	1c2b	Secured by junior liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF158	1521366	RCCI	1a1	1-4 family residential construction loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF159	3404803	RCCI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF160	13338162	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF161	15012817	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF172	12848	RCN	1a1	1-4 family residential construction loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF173	22048	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF175	3713	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF176	1798	RCN	1a1	1-4 family residential construction loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF177	5840	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF178	43891	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF179	15098	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF182	132271	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF183	176620	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF661	13416	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF662	14202	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONF663	25340	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONJ451	896381	RCCI	9b2	All other loans (exclude consumer loans)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONJ454	16368218	RCCI	9a	Loans to nondepository financial institutions
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONK108	3667	RCN	M1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONK110	292	RCN	M1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONK114	800	RCN	M1d1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONK116	6331	RCN	M1d1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONK117	3754	RCN	M1d2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONK119	31717	RCN	M1d2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONK160	38697	RCCI	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONPV05	2684445	RCCI	M10a	Loans to mortgage credit intermediaries
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONPV06	2721319	RCCI	M10b	Loans to business credit intermediaries
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONPV07	4092128	RCCI	M10c	Loans to private equity funds
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONPV08	666057	RCCI	M10d	Loans to consumer credit intermediaries
+HBAN	12311	03-31-2026	1f74e80df201aed6	RCONPV09	6204269	RCCI	M10e	Other loans to nondepository financial institutions
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD3123	3242877	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD3584	17	RIBI	1b	Secured by farmland in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD3588	1451	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4230	238669	RIBII	5	Provisions for credit losses
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4605	61740	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4617	33595	RIBI	4a	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4628	2062	RIBI	7	All other loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4635	172997	RIBI	9	Total (sum of items 1 through 8)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4644	5782	RIBI	7	All other loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4645	83333	RIBI	4a	To U.S. addressees (domicile)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4655	57	RIBI	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD4665	56	RIBI	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD5409	1661	RIBI	M1	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD5410	31	RIBI	M1	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD5411	2127	RIBI	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIAD5412	1394	RIBI	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADB514	13365	RIBI	5a	Credit cards
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADB515	2484	RIBI	5a	Credit cards
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADB522	2537122	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC079	172997	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC217	499	RIBI	1c2a	Secured by first liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC218	149	RIBI	1c2b	Secured by junior liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC233	578343	RIBII	6	Adjustments* (see instructions for this schedule)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC234	1711	RIBI	1c2a	Secured by first liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC235	180	RIBI	1c2b	Secured by junior liens
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC390	7547	RIBII	M3	Amount of allowance for credit losses on loans and leases attributable to retail credit card fees and finance charges
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC880	1203	RIBI	8b	All other leases
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC892	11	RIBI	1a1	1-4 family residential construction loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC893	7	RIBI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC894	2822	RIBI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC895	1143	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC896	1098	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC897	4336	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADC898	650	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADF188	1568	RIBI	8b	All other leases
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADK129	25714	RIBI	5b	Automobile loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADK133	9702	RIBI	5b	Automobile loans
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADK205	32571	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADK206	5650	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	03-31-2026	1f74e80df201aed6	RIADMG93	-80813	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFA7204	9.2956%	RCRI	31	Leverage ratio (item 26 divided by 30)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFAA223	213210756	RCRI	48a	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFAP793	11.8181%	RCRI	49	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced app
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1251	111312	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1252	1289	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1253	801368	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1254	186	RCN	4b	To non-U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1256	1282	RCN	4b	To non-U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1403	1588963	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1406	1284421	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1407	437635	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1460	4884216	RCCI	1d	Secured by multifamily (5 or more) residential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1545	154343	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1583	6084	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1594	2688	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1597	464	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1763	52745828	RCCI	4a	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD1764	1639031	RCCI	4b	To non-U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD2122	191186569	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD2746	2206543	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD3210	33284616	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD3505	84	RCN	10	Debt securities and other assets (exclude other real estate owned and other repossessed assets)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD3506	28	RCN	10	Debt securities and other assets (exclude other real estate owned and other repossessed assets)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD5459	4183	RCN	7	All other loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD5461	27672	RCN	7	All other loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD6558	4030	RCN	M2	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFD6560	21189	RCN	M2	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDB575	11052	RCN	5a	Credit cards
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDB576	4008	RCN	5a	Credit cards
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDC240	16984	RCN	M5	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDC241	474	RCN	M5	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDC410	1139955	RCN	M7	Additions to nonaccrual assets during the previous six months
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDC411	23016	RCN	M8	Nonaccrual assets sold during the previous six months
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDF158	1637102	RCCI	1a1	1-4 family residential construction loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDF159	3684657	RCCI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDF160	13330647	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDF161	14395325	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDF169	38463	RCN	8b	All other leases
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDF170	5788	RCN	8b	All other leases
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDF171	8251	RCN	8b	All other leases
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDHK25	643208	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty* that are in compliance with their modified term
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDHK26	49938	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDHK27	5520	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDHK28	195814	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJ451	975831	RCCI	9b2	All other loans (exclude consumer loans)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJ454	17511739	RCCI	9a	Loans to nondepository financial institutions
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ04	5321759	RIC	1a	Construction loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ05	33033383	RIC	1b	Commercial real estate loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ06	45474692	RIC	1c	Residential real estate loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ07	81040576	RIC	2	Commercial loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ08	1018331	RIC	3	Credit cards
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ09	23248081	RIC	4	Other consumer loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ11	189136822	RIC	6	Total (sum of items 1.a. through 5)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ12	127377	RIC	1a	Construction loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ13	837550	RIC	1b	Commercial real estate loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ14	431188	RIC	1c	Residential real estate loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ15	1372146	RIC	2	Commercial loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ16	91646	RIC	3	Credit cards
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ17	388676	RIC	4	Other consumer loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDJJ19	3248583	RIC	6	Total (sum of items 1.a. through 5)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK036	187445	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK037	325894	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK038	489976	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK039	66469	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK040	19606	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK041	363362	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK042	105703	RCN	11b	Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK043	306288	RCN	11b	Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK120	27590	RCN	M1e1	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK122	104566	RCN	M1e1	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK126	2232	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK127	210	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK128	3750	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK213	166372	RCN	5b	Automobile loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK214	13207	RCN	5b	Automobile loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK215	8361	RCN	5b	Automobile loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK216	46468	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK217	4317	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDK218	2015	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDPV05	3239200	RCCI	M10a	Loans to mortgage credit intermediaries
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDPV06	3104636	RCCI	M10b	Loans to business credit intermediaries
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDPV07	4130324	RCCI	M10c	Loans to private equity funds
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDPV08	590572	RCCI	M10d	Loans to consumer credit intermediaries
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDPV09	6447007	RCCI	M10e	Other loans to nondepository financial institutions
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDPV23	2440	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+HBAN	12311	06-30-2026	dcc520913f27d018	RCFDPV25	21625	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON1460	4884216	RCCI	1d	Secured by multifamily (5 or more) residential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON1545	154343	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON1763	52469465	RCCI	4a	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON1764	913643	RCCI	4b	To non-U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON2122	190184818	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON2200	227123103	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON3493	8144	RCN	1b	Secured by farmland in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON3495	3214	RCN	1b	Secured by farmland in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON3499	32034	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON3501	21697	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON5398	103563	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON5399	21530	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	06-30-2026	dcc520913f27d018	RCON5400	112432	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONC229	244503	RCN	1c2a	Secured by first liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONC230	10193	RCN	1c2b	Secured by junior liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONC236	570040	RCN	1c2a	Secured by first liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONC237	383420	RCN	1c2a	Secured by first liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONC238	11172	RCN	1c2b	Secured by junior liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONC239	309	RCN	1c2b	Secured by junior liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF158	1637102	RCCI	1a1	1-4 family residential construction loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF159	3684657	RCCI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF160	13330647	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF161	14395325	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF172	38279	RCN	1a1	1-4 family residential construction loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF173	43654	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF174	3013	RCN	1a1	1-4 family residential construction loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF175	290	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF176	3090	RCN	1a1	1-4 family residential construction loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF177	24585	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF178	64298	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF179	32513	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF182	133059	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF183	181157	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF661	9773	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF662	5310	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONF663	20266	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONJ451	975831	RCCI	9b2	All other loans (exclude consumer loans)
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONJ454	17511739	RCCI	9a	Loans to nondepository financial institutions
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONK110	4841	RCN	M1a2	Other construction loans and all land development and other land loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONK111	3511	RCN	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONK114	3204	RCN	M1d1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONK116	7356	RCN	M1d1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONK117	3628	RCN	M1d2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONK119	55035	RCN	M1d2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONK160	111308	RCCI	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONPV05	3239200	RCCI	M10a	Loans to mortgage credit intermediaries
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONPV06	3104636	RCCI	M10b	Loans to business credit intermediaries
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONPV07	4130324	RCCI	M10c	Loans to private equity funds
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONPV08	590572	RCCI	M10d	Loans to consumer credit intermediaries
+HBAN	12311	06-30-2026	dcc520913f27d018	RCONPV09	6447007	RCCI	M10e	Other loans to nondepository financial institutions
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD3123	3248583	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD3584	17	RIBI	1b	Secured by farmland in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD3585	200	RIBI	1b	Secured by farmland in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD3588	1904	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD3589	1	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4230	363525	RIBII	5	Provisions for credit losses
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4605	133535	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4617	74461	RIBI	4a	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4628	4613	RIBI	7	All other loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4635	363942	RIBI	9	Total (sum of items 1 through 8)
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4644	12183	RIBI	7	All other loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4645	182316	RIBI	4a	To U.S. addressees (domicile)
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4655	204	RIBI	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD4665	72	RIBI	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD5409	1708	RIBI	M1	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD5410	58	RIBI	M1	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD5411	3881	RIBI	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	06-30-2026	dcc520913f27d018	RIAD5412	2574	RIBI	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADB514	25686	RIBI	5a	Credit cards
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADB515	5169	RIBI	5a	Credit cards
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADB522	2537122	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC079	363942	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC217	1767	RIBI	1c2a	Secured by first liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC218	1139	RIBI	1c2b	Secured by junior liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC233	578343	RIBII	6	Adjustments* (see instructions for this schedule)
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC234	5126	RIBI	1c2a	Secured by first liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC235	842	RIBI	1c2b	Secured by junior liens
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC390	7676	RIBII	M3	Amount of allowance for credit losses on loans and leases attributable to retail credit card fees and finance charges
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC880	2136	RIBI	8b	All other leases
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC892	18	RIBI	1a1	1-4 family residential construction loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC893	1025	RIBI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC894	3037	RIBI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC895	6423	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC896	1470	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC897	6589	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADC898	2108	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADF188	4425	RIBI	8b	All other leases
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADK129	49026	RIBI	5b	Automobile loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADK133	20555	RIBI	5b	Automobile loans
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADK205	66584	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADK206	11926	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	06-30-2026	dcc520913f27d018	RIADMG93	-73977	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFA7204	9.4724%	RCRI	31	Leverage ratio (item 26 divided by 30)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFAA223	213583754	RCRI	48a	Total risk-weighted assets (from Schedule RC-R, Part II, item 31)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFAP793	11.9498%	RCRI	49	Common equity tier 1 capital ratio (Column A: item 19, column A or B, as applicable, divided by item 48.a) (Advanced app
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1251	132543	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1252	2036	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1253	821338	RCN	4a	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1254	101	RCN	4b	To non-U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1256	1207	RCN	4b	To non-U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1403	1696676	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1406	1225144	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1407	471956	RCN	9	Total loans and leases (sum of items 1 through 8.b)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1460	6063279	RCCI	1d	Secured by multifamily (5 or more) residential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1545	112350	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1583	3796	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1594	5594	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1597	38	RCN	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1763	53838362	RCCI	4a	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD1764	1796609	RCCI	4b	To non-U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD2122	192912244	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD2746	2836768	RCCI	M3	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD3210	32864869	RC	27a	Total bank equity capital (sum of items 23 through 26.c)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD3505	59	RCN	10	Debt securities and other assets (exclude other real estate owned and other repossessed assets)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD5459	20357	RCN	7	All other loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD5460	5	RCN	7	All other loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD5461	27175	RCN	7	All other loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD6558	8972	RCN	M2	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFD6560	40237	RCN	M2	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDB575	14340	RCN	5a	Credit cards
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDB576	5124	RCN	5a	Credit cards
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDC240	13989	RCN	M5	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDC241	687	RCN	M5	Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDF158	1677337	RCCI	1a1	1-4 family residential construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDF159	4150947	RCCI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDF160	11263644	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDF161	12561422	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDF169	41379	RCN	8b	All other leases
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDF170	1062	RCN	8b	All other leases
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDF171	7327	RCN	8b	All other leases
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDHK25	869365	RCCI	M1g	Total loan modifications to borrowers experiencing financial difficulty* that are in compliance with their modified term
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDHK26	28402	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDHK27	6320	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDHK28	173478	RCN	M1g	Total loan modifications to borrowers experiencing financial difficulty* included in Schedule RC-N, items 1 through 7, a
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJ451	1008818	RCCI	9b2	All other loans (exclude consumer loans)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJ454	19938764	RCCI	9a	Loans to nondepository financial institutions
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ04	5828284	RIC	1a	Construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ05	30152651	RIC	1b	Commercial real estate loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ06	45515074	RIC	1c	Residential real estate loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ07	85307969	RIC	2	Commercial loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ08	1021297	RIC	3	Credit cards
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ09	23353695	RIC	4	Other consumer loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ11	191178970	RIC	6	Total (sum of items 1.a. through 5)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ12	133676	RIC	1a	Construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ13	753776	RIC	1b	Commercial real estate loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ14	466597	RIC	1c	Residential real estate loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ15	1416572	RIC	2	Commercial loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ16	93867	RIC	3	Credit cards
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ17	357784	RIC	4	Other consumer loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDJJ19	3222272	RIC	6	Total (sum of items 1.a. through 5)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK036	203484	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK037	341385	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK038	519861	RCN	11	Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, exc
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK039	69316	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK040	21266	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK041	385874	RCN	11a	Guaranteed portion of loans and leases included in item 11 above, excluding rebooked "GNMA loans"
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK042	116404	RCN	11b	Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK043	319983	RCN	11b	Rebooked "GNMA loans" that have been repurchased or are eligible for repurchase included in item 11 above
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK120	5115	RCN	M1e1	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK122	75663	RCN	M1e1	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK126	2262	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK127	96	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK128	5128	RCN	M1f	All other loans (include loans to individuals for household, family, and other personal expenditures)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK213	160763	RCN	5b	Automobile loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK214	16798	RCN	5b	Automobile loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK215	9099	RCN	5b	Automobile loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK216	53909	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK217	6717	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDK218	1379	RCN	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDPV05	3557497	RCCI	M10a	Loans to mortgage credit intermediaries
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDPV06	3544041	RCCI	M10b	Loans to business credit intermediaries
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDPV07	4873733	RCCI	M10c	Loans to private equity funds
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDPV08	676753	RCCI	M10d	Loans to consumer credit intermediaries
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDPV09	7286740	RCCI	M10e	Other loans to nondepository financial institutions
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDPV23	15463	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCFDPV25	15701	RCN	M9	Loans to nondepository financial institutions included in Schedule RC-N, item 7
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON1460	6063279	RCCI	1d	Secured by multifamily (5 or more) residential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON1545	112350	RCCI	9b1	Loans for purchasing or carrying securities, including margin loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON1763	53574203	RCCI	4a	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON1764	997583	RCCI	4b	To non-U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON2122	191849059	RCCI	12	Total loans and leases held for investment and held for sale (item 12, column A must equal Schedule RC, sum of items 4.a
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON2200	229260912	RC	13a	In domestic offices (sum of totals of columns A and C from Schedule RC-E, part I)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON3493	3501	RCN	1b	Secured by farmland in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON3495	9379	RCN	1b	Secured by farmland in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON3499	5776	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON3501	15212	RCN	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON5398	95290	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON5399	23366	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCON5400	121005	RCN	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONC229	290910	RCN	1c2a	Secured by first liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONC230	11817	RCN	1c2b	Secured by junior liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONC236	532168	RCN	1c2a	Secured by first liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONC237	413997	RCN	1c2a	Secured by first liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONC238	8068	RCN	1c2b	Secured by junior liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONC239	609	RCN	1c2b	Secured by junior liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF158	1677337	RCCI	1a1	1-4 family residential construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF159	4150947	RCCI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF160	11263644	RCCI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF161	12561422	RCCI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF172	37988	RCN	1a1	1-4 family residential construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF173	34312	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF174	1753	RCN	1a1	1-4 family residential construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF175	451	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF176	17274	RCN	1a1	1-4 family residential construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF177	56687	RCN	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF178	43988	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF179	35067	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF182	141398	RCN	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF183	161673	RCN	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF661	16714	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF662	6224	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONF663	24631	RCN	M1b	Loans secured by 1-4 family residential properties in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONJ451	1008818	RCCI	9b2	All other loans (exclude consumer loans)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONJ454	19938764	RCCI	9a	Loans to nondepository financial institutions
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONK107	370	RCN	M1a1	1-4 family residential construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONK110	4393	RCN	M1a2	Other construction loans and all land development and other land loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONK114	4311	RCN	M1d1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONK116	7735	RCN	M1d1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONK119	55558	RCN	M1d2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONK160	117503	RCCI	M1c	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONPV05	3557497	RCCI	M10a	Loans to mortgage credit intermediaries
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONPV06	3544041	RCCI	M10b	Loans to business credit intermediaries
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONPV07	4873733	RCCI	M10c	Loans to private equity funds
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONPV08	676753	RCCI	M10d	Loans to consumer credit intermediaries
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RCONPV09	7286740	RCCI	M10e	Other loans to nondepository financial institutions
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD3123	3222272	RIBII	7	Balance end of current period (sum of items 1, 2, 5, and 6, less items 3 and 4) (column A must equal Schedule RC, item 4
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD3584	17	RIBI	1b	Secured by farmland in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD3585	223	RIBI	1b	Secured by farmland in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD3588	1904	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD3589	3	RIBI	1d	Secured by multifamily (5 or more) residential properties in domestic offices
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4230	482837	RIBII	5	Provisions for credit losses
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4605	188112	RIBII	2	Recoveries (column A must equal Part I, item 9, column B, above)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4617	99695	RIBI	4a	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4628	6745	RIBI	7	All other loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4635	564144	RIBI	9	Total (sum of items 1 through 8)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4644	19296	RIBI	7	All other loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4645	273909	RIBI	4a	To U.S. addressees (domicile)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4655	529	RIBI	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD4665	571	RIBI	3	Loans to finance agricultural production and other loans to farmers
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD5409	1978	RIBI	M1	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD5410	77	RIBI	M1	Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) incl
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD5411	5361	RIBI	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIAD5412	3623	RIBI	1c1	Revolving, open-end loans secured by 1-4 family residential properties and extended under lines of credit
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADB514	38402	RIBI	5a	Credit cards
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADB515	8141	RIBI	5a	Credit cards
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADB522	2537122	RIBII	1	Balance most recently reported for the December 31, 2025, Reports of Condition and Income (i.e., after adjustments from 
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC079	564144	RIBII	3	LESS:  Charge-offs (column A must equal Part I, item 9, column A, above less Schedule RI-B, Part II, item 4, column A)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC217	2520	RIBI	1c2a	Secured by first liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC218	1496	RIBI	1c2b	Secured by junior liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC233	578345	RIBII	6	Adjustments* (see instructions for this schedule)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC234	8353	RIBI	1c2a	Secured by first liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC235	1380	RIBI	1c2b	Secured by junior liens
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC390	7862	RIBII	M3	Amount of allowance for credit losses on loans and leases attributable to retail credit card fees and finance charges
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC880	4076	RIBI	8b	All other leases
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC891	90	RIBI	1a1	1-4 family residential construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC892	22	RIBI	1a1	1-4 family residential construction loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC893	1025	RIBI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC894	3055	RIBI	1a2	Other construction loans and all land development and other land loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC895	8047	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC896	2772	RIBI	1e1	Loans secured by owner-occupied nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC897	17813	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADC898	4350	RIBI	1e2	Loans secured by other nonfarm nonresidential properties
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADF188	6305	RIBI	8b	All other leases
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADK129	75459	RIBI	5b	Automobile loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADK133	30836	RIBI	5b	Automobile loans
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADK205	108483	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADK206	17755	RIBI	5c	Other (includes revolving credit plans other than credit cards and other consumer loans)
+HBAN	12311	09-30-2026	3037002bcb6cbb2a	RIADMG93	-70228	RIBII	M7	Provisions for credit losses on off-balance-sheet credit exposures

@@ -127,7 +127,7 @@ Banks hide CRE exposure in C&I via FFIEC Schedule RC-C Memo Item 3 (RCON2746). *
 2. **`37.6%` (OZK) is KILL-ON-SIGHT** — no reproducible provenance at any quarter. But 4 of the 5 legacy cells reproduce to 2 decimals at the 12/31/2025 vintage, so it is a **single-cell data defect**, *not* a screen-level one. The screen-level defect is item 1's denominator.
 3. **"Item 4" and "item 9" are CONCEPTS, not MDRMs.** FFIEC 031 filers (foreign offices — CFG/MTB/HBAN/FLG/VLY/AMTB here) report **RCFD** series and do **not** print the item-4 or item-9b totals; a naive `RCON1766` screen returns `None` for them, which reads as "no hidden CRE." The script resolves by fallback chain and records the MDRM chain used per row. **Zero ≠ unknown ≠ not-applicable** — a reported `RCON2746 = 0` (SBCF, AMTB) is data; a missing part is never coerced to 0.
 4. ⚠️ **Scope fence, V1a ≠ V1:** MI3 = CRE *not secured* by RE. Secured books (WAL office + the $99M life-science credit, OZK RESG) are a different object and untouched by any of it.
-5. **Instrument:** FFIEC CDR **REST + JWT** (header is literally `Authentication:`; a 403 is a WAF/UA block — use `curl`, don't debug the token). Creds `FORGE/tools/market-data/.env`, **JWT expires 2026-11-05**.
+5. **Instrument:** FFIEC CDR **REST + JWT** (header is literally `Authentication:`; a 403 is a WAF/UA block — use `curl`, don't debug the token). Creds `FORGE/tools/market-data/.env`, **JWT expires 2027-01-31** (renewed 2026-11-01; was 2026-11-05).
 
 Masking taxonomy (extend-and-pretend, mark-to-model, classification) and bucket-migration mechanism stand; old per-bank ratios do not. Metropolitan example/numbers→charter archive HIDDEN CRE. Re-run above governs.
 

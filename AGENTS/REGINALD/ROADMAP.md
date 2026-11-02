@@ -1,5 +1,5 @@
 # REGINALD ROADMAP — "Where are we"
-**Updated:** **2026-10-30 19:07 ET — evening session appended to Recently Resolved.** Prior 2026-10-30T09:14:16-04:00 — L801 decision appended to Recently Resolved. Prior 2026-10-28T22:40:09-04:00 — 10/28 boot catch-up appended to Recently Resolved; BaaS row answered (Coastal ~$447M Bluevine deposits); REG-T-02 row count refreshed. Prior stamp chain → `archive/ROADMAP_rotation_2026-10-28.md` BLOCK R11, crc32 `0939062b`. Other rows retain their stated observation dates.
+**Updated:** **2026-11-01 23:29 ET — WQ-587 Q3 Call Report read appended to Recently Resolved; VLY thread touched.** Prior **2026-10-30 19:07 ET — evening session appended to Recently Resolved.** Prior 2026-10-30T09:14:16-04:00 — L801 decision appended to Recently Resolved. Prior 2026-10-28T22:40:09-04:00 — 10/28 boot catch-up appended to Recently Resolved; BaaS row answered (Coastal ~$447M Bluevine deposits); REG-T-02 row count refreshed. Prior stamp chain → `archive/ROADMAP_rotation_2026-10-28.md` BLOCK R11, crc32 `0939062b`. Other rows retain their stated observation dates.
 *Stamps 10/10 AM (BLOCK R5, crc32 `3693ce98`) and 10/9 PM · 10/7 · 9/29 (BLOCK R3, crc32 `adb2708f`) rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-10.md`.*
 *Stamps 9/27 PM, 9/27 and 9/26 rotated VERBATIM → `archive/ROADMAP_rotation_2026-10-07.md` BLOCK R1, crc32 `ebe14531`.*
 *Stamps 9/14 and 9/02 rotated VERBATIM → `archive/STATUS_rotation_2026-09-27.md` BLOCK R1, crc32 `cb6c187f`.*
@@ -78,6 +78,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 
 ## RECENTLY RESOLVED — October20
+
+**11/01 WQ-587 (PROME C9 commission):** Q3 Call Report read, bank-level → `reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/REPORT.md`. VLY L521 checkpoint: MF 30–59 cohort mostly MODIFIED, not paid; construction + NDFI drove nonaccrual; allowance released (127.6% → 113.5%); 10-Q asks listed §1d. EGBN MF nonaccrual +$46.6M, coverage 67.2%. HBAN M3 STEP-CANDIDATE (look at 11/07). Step detector rounding defect found (EGBN 6/30). Friedberg like-for-like plan for 11/07. Inbox drained (10). Last touched 2026-11-01.
 
 **10/31 DOCKET L857 (PROME-spawned):** FFIEC Q3 short list re-run, 134 of 139 filed; frozen universe ex acquirers −$5.70B borrowings, +$39.20B deposits; 6 flags all funding-mix at the issuer; Santander–Webster merger handled → `reports/2026-10-31_L857/REPORT.md`. Blind-spot thread, borrowing leg: the per-bank concentration verdict stays ungraded until the FDIC posting (the list's own top-10 share is 64% of gross increases, a list figure, not the frozen measure). 4 DAEDALUS packets drained. Last touched 2026-10-31.
 

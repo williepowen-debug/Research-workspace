@@ -24,13 +24,19 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 ⚠️ **Open question at close:** does the 8/20 ranking predict anything? The frozen 11/07 test against simple baselines answers it, as a retrospective check, not a blind one.
 
-### LAST SESSION — 2026-10-31 09:27 → ~09:37 ET (`date`), PROME-spawned (WQ-184 Tier 1, DOCKET L857) + whole-inbox drain
+### LAST SESSION — 2026-11-01 23:16 → ~23:45 ET (`date`), PROME-spawned C9 commission (WQ-587) + whole-inbox drain
+- **Q3 Call Report read (own FFIEC pull, renewed token)** → `reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/REPORT.md`, KB ML-REG-263. WALTER's VLY/EGBN/HBAN figures VERIFIED (VLY Q2 NCO $22.046M, not 22.045). VLY: construction +$30.1M and an $18.5M NDFI loan (release calls it C&I) drove nonaccrual; allowance −$9.8M; MF cohort went to modification. EGBN: MF nonaccrual +$46.6M, allowance flat. HBAN: STEP-CANDIDATE. Friedberg primary SEARCH-NOT-FOUND; 11/07 test written.
+- **My instrument defect found:** `mi3_cohort_screen.py` rounds QoQ to 1 decimal before the >25 test, so EGBN 6/30 (−25.02%) was never flagged. Not fixed (11/07 roll).
+- **Inbox:** 9 WALTER + 1 PROME (token) drained, BOARD_LOG rows written; consume:REGINALD commit. INFO packet to BROCK on VLY NDFI nonaccrual.
+- **Skipped (outside this spawn's task):** prices/vx_ladder/boot.py, channel ACKs, CCB Q3, H.4.1/H.8, FHLB beyond the WALTER card.
+
+### PRIOR SESSION — 2026-10-31 09:27 → ~09:37 ET (`date`), PROME-spawned (WQ-184 Tier 1, DOCKET L857) + whole-inbox drain
 - **FFIEC short list re-run** (rc 0, route check passed, token fine): 134 of 139 filed. Frozen universe ex acquirers: borrowings −$5.70B net, deposits +$39.20B. Santander absorbed Webster 8/20 (FDIC history): raw +$10.70B is mostly inherited. 6 flags read at the issuer (Regions, Renasant, Simmons, The Bancorp, Bank of Hawaii, Israel Discount NY): all funding-mix shifts; no TERRY route (no verdict yet) → `reports/2026-10-31_L857/REPORT.md`, KB ML-REG-262.
 - **Inbox:** 4 DAEDALUS packets drained; fixes: VX 14 rows STALE, OZK 37.6% note + KB ML-REG-261, POSITIONS 68P pointer, TRADE:7 vintage struck; rest DEFERRED with dates → `AGENTS/DAEDALUS/inbox/2026-10-31_from-REGINALD_profile-refresh-dispositions.md`.
 - **REG-06 scan (PROME follow-up, 09:39 ET):** window 10/9–10/31 = NONE at WAL and EGBN; row OPEN 10% unchanged → `registry/NOTES.md` §REG-06.
 - **Skipped (outside this spawn's task):** prices/vx_ladder/boot.py, CCB Q3, H.4.1 10/29, H.8 10/30, FHLB Q3 Highlights, WAL/OZK channel ACKs.
 
-### PRIOR SESSION — 2026-10-30 17:25 → 19:07 ET (`date`), Will-launched: boot, status report, then DAEDALUS-review follow-ups and thresholds.py fix
+### EARLIER — 2026-10-30 17:25 → 19:07 ET (`date`), Will-launched: boot, status report, then DAEDALUS-review follow-ups and thresholds.py fix
 - **Boot/status only** (Will: no unassigned work). Tape 10/30 vendor quotes, not settled: WAL $76.29, KRE $72.01, FLG $10.51, VIX 19.42 (+12.9%). New 8-Ks 10/30: CFG 4.01 auditor Deloitte → PwC after FY2026, no disagreements (acc 0001193125-26-441754); WAL 8.01 dividend $0.46 (acc 0001628280-26-068622; prior rate NOT compared).
 - **Intake:** WALTER 2 INFO_ONLY (SLRK claim closed, outside cohort; RC-B read offered to Will, not started) `56aa57c85`; WAL channel ACK no-change `63ec034ac`. WAL 🔴 Q3 10-Q packet verified at WAL's grade file → STATUS exit-rail WAL row NOT FIRED, FINAL for Q3 (NCO 0.30%, no fraud) `82030c0e7`. KRE $68P Nov-27 ×10 on TRADE §2 (held per PROME; card/owner UNKNOWN).
 - **DAEDALUS item 1 DONE (Will "fix it now"):** `scripts/thresholds.py` exits 0 clean / 1 any BREACHED line / 2 no prices or any threshold ticker NO DATA (2 outranks 1, fail closed); yfinance missing → 2. `--selftest` 7/7 cases, and a mutant `verdict` scores 2/7 (rc 2), so the test can fail. Added to boot.py TRI_STATE. ⚠️ **Thresholds now reads ALERT every boot while WAL < $78** (REG-T-02 standing breach, and the KRE<65/WAL<70/65 context lines also count) — same permanent-ALERT shape as DAEDALUS item 9 (FLG ladder); decide with item 9.
@@ -55,8 +61,8 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 3. **REG-06:** 10/31 scan DONE (none). Next scan Mon 11/30 (424B, S-1/S-3/S-4, 8-K 3.02).
 4. **HY:** grade each FRED print for the REG-T-03 exit run (≤300 ×5). CCC/HY escalates only on a CCC-led re-cross. REG-T-02 log: grade 10/30 settled close (vendor $76.29).
 5. **Pathward (CASH) September-quarter release 10/21:** partner-credit and deposit lines (BaaS row). GDOT Q3 date still unannounced. WAL 10-Q cohort items logged for me (hotel franchise criticized $75M → $185M, OREO 22 → 27 properties) → read at the 11/07 run.
-6. **JWT renewal before 11/05 (Will).** 11/07: verify sha256 `06e37edad2d583074a20f0ca70d0f84079a3eed95fba891204060662bcd00672` of the frozen ranking protocol, decide the cohort-selection question, then run.
-7. **10-Qs, early Nov:** SBCF primary cells (CRE+constr 30-89, nonaccrual, resi) and the $8.4M VBI loan · SSB/BKU cells → FL aggregate final ~11/14 · FLG MF special mention and modifications · EGBN MF criticized table and REG-28 maturities · VLY ~11/10.
+6. **JWT renewed 11/01 (expiry 2027-01-31, laptop; desktop pending Will).** 11/07: also run the Friedberg like-for-like plan (report 2026-11-01 §4; needs the 9/30 universe file), fix the step detector's round-before-compare (EGBN 6/30 miss) with a boundary fixture, read HBAN Q3 10-Q for the M3 step. 11/07: verify sha256 `06e37edad2d583074a20f0ca70d0f84079a3eed95fba891204060662bcd00672` of the frozen ranking protocol, decide the cohort-selection question, then run.
+7. **10-Qs, early Nov:** SBCF primary cells (CRE+constr 30-89, nonaccrual, resi) and the $8.4M VBI loan · SSB/BKU cells → FL aggregate final ~11/14 · FLG MF special mention and modifications · EGBN MF criticized table and REG-28 maturities · **VLY 10-Q (~11/6–11/9): the six asks in report 2026-11-01 §1d** (mod payment-defaults, NOO 30–89 $61.4M identity, $30.1M construction collateral, ACL roll-forward, $18.5M NDFI borrower type, criticized by class).
 8. **Nano:** weekly P&A re-check from Tue 11/3; DEWEY's passive-route answer.
 9. **Carried:** CUBI N at 11/07.
 
