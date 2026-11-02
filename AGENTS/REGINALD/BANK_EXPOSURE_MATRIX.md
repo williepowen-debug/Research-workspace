@@ -18,7 +18,7 @@
 > ⚠️ **SCOPE (clarified 2026-09-26, wording only, no score moved):** the credit-quality channel (§1 channel 2) is **BANK-WIDE**: nonaccrual on ALL loans ÷ total loans, and ACL ÷ all nonaccrual. It is **not a CRE-specific measure** and excludes foreclosed property (OREO). A high credit score can therefore come from non-CRE loans (AMTB, 9/26). For CRE vulnerability, read `reports/2026-09-26_CRE_top3_loss_bridge.md`.
 
 **Owner:** REGINALD · **Vintage:** all figures **FFIEC Call Report 2026-06-30**, pulled at the primary 2026-08-20 · **Cohort:** the 14 named MI3-cohort filers (bank-level RSSDs)
-**Reproduce:** `AGENTS/REGINALD/scripts/mi3_cohort_screen.py` machinery (FFIEC CDR REST/JWT, `RetrieveFacsimile`/SDF). ⚠️ **JWT expires 2026-11-05.**
+**Reproduce:** `AGENTS/REGINALD/scripts/mi3_cohort_screen.py` machinery (FFIEC CDR REST/JWT, `RetrieveFacsimile`/SDF). ⚠️ **JWT expires 2027-01-31** (renewed 2026-11-01; was 2026-11-05).
 
 ---
 
@@ -237,7 +237,7 @@ v1 scored these without instruments. They are real channels; they are **not mine
 
 ## 8. REFRESH
 
-**Cadence: QUARTERLY, alongside the MI3 cohort screen — next due 2026-11-07 (2026Q3).** Same credential, same RSSDs, same JWT (⚠️ expires **2026-11-05**, two days prior). This is a scheduled pull, not event-driven: the clock advances when the Call Report publishes.
+**Cadence: QUARTERLY, alongside the MI3 cohort screen — next due 2026-11-07 (2026Q3).** Same credential, same RSSDs, same JWT (expires **2027-01-31**, renewed 2026-11-01; was 2026-11-05). This is a scheduled pull, not event-driven: the clock advances when the Call Report publishes.
 **If this file reads stale after ~2026-11-10 that is neglect, not design.**
 
 *Supersedes v1 (2026-02-23). Rebuild authorised by Will in-session 2026-08-20 ("okay lets rewrite the matrix"). Score changes propagated to `STATUS.md` §Convergence Matrix and `CLAUDE.md` §Bank Watchlist the same session.*

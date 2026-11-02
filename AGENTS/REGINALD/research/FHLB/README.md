@@ -57,7 +57,7 @@
 | **Sun 10/11 ruling; accepted/closed** | **WQ-414 REVIEW accepted at `1b937462e`; owner closed/pushed `2daea8d59`.** Peer consumption remains unverified; original 10/24 decision deadline superseded. |
 | ~Thu 10/29 (estimate) | Office of Finance Q3 combined advances; grade against the ≈ $770B nowcast (a miss >$40B ⇒ check FHLBank liquidity drawdown) |
 | early–mid Nov | FHLBank Q3 10-Qs (top-borrower tables); Athene Q3 10-Q; OF monthly debt file for October |
-| 2026-11-05 · 11-07 | FFIEC token expiry (Will) · Q3 Call Report run (per-bank FHLB advances) |
+| ~~2026-11-05~~ (token renewed 11/01, now expires 2027-01-31) · 11-07 | Q3 Call Report run (per-bank FHLB advances) |
 
 ## Known bad figures in older material (do not cite)
 
