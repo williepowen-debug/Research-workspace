@@ -8,7 +8,7 @@
 
 **Recent thesis pivot:** v1.0 → v1.0.3 (10/22) — corrections only. Most recent material view shift: concentration read as deterioration → **level-high, trajectory de-risking** (8/20). The live signal is the reserve and the exit channel, not the 327.5% ratio.
 
-**As of:** 2026-10-28 23:08 ET | STATUS commit: `d61051aed` — event-driven desk; this brief stands until the next print or owner session.
+**As of:** 2026-11-01 23:3x ET | STATUS commit: `33500007c` — event-driven desk; this brief stands until the next print or owner session.
 
 ---
 
@@ -18,7 +18,7 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
 | REGINALD | Non-accrual roll-forward (13 filings): cure share 59.5% (2023H1) → 1.6% (2026H1); payoff/disposition 87.5%. Roll-forward is an FR Y-14Q item, non-public; the cohort base rate cannot be built | 🟠 | FLG's exit-channel dependence cannot be ranked against peers; matrix credit leg reads levels, not flows |
-| REGINALD | SR 07-1 at 327.5% (2026Q2, total RBC basis) carries ~11pp of merger basis at 2025Q4; Q3 buyback pushes the ratio ~+7pp (ESTIMATE; Call Report ~11/14 grades) | 🟡 | The path below 300% slows. The −143pp headline is not all de-risking |
+| REGINALD | SR 07-1 **322.11% at 9/30** (327.52% at 6/30; Call Report, total RBC basis, FLG pull 11/01): buyback lifted it ~+6.6pp, CRE run-off −3.61% more than offset. M3 +54% funded = +12% with unused lines; NDFI step = PE-fund + lender-finance lending (packet `e9f170314`) | 🟡 | The path below 300% continues, slower. M3 step is composition, not hidden loss; which line holds it waits on the 10-Q |
 | NEXUS | M-05 / R10 inputs: FLG RED [10/23]. Coverage 30.85% (Q3 release, derived) is a series low; specific reserve 5.8% of non-accrual | 🔴 | Named-regional CRE level fire stays lit; recognition row = reserve, not provision |
 | CREED | NYC rent-regulated multi-family is the issuer-named credit-cost driver; 2027 MF reset $8.4B incl. $2.9B ≥50% rent-regulated (call, 10/23, B2) | 🟡 | Volume of rent-regulated refinancings meeting the frozen-rent DSCR in 2027 |
 
@@ -26,7 +26,7 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |------|-------|-------------|----------------|------------------------|
 | EDGAR (issuer) | Q3-2026 10-Q | Mon Nov 9 (observed +37d lag; [EST]) | Grades FLG-02 and FLG-03; carries non-accrual roll-forward, FDM tables, maturity table | Formation > outflow or cure share < 2% again → stance holds; new specific reserve build → coverage leg softens |
-| FFIEC CDR | Q3-2026 Call Report, RSSD 694904 | Sat Nov 14 (+45d rule) | SR 07-1 recompute (Q2 327.52% verified at CDR 10/28, KB-098) | Ratio vs 300% line; buyback effect measured, not estimated |
+| EDGAR (issuer) | Q3 10-Q C&I-by-vertical / loans to REITs or real-estate funds | Mon Nov 9 (with the 10-Q) | Names the line holding the +$238M M3 step (KB-101) | Silent → recorded not disclosed; no interpretive round |
 | NY Supreme Court (Will's browser via PROME) | Kenilworth v. RGB merits ruling | Open — judge said "before the end of the year" | Freeze vacated = mechanism input reverses | Vacatur → lowers the 2027–28 DSCR stress; upheld → the 2028-Q2 fuse (T-11) stands |
 | REGINALD | Cohort read on Q3 problem-loan / coverage pattern | Open — its 11/07 re-score | Whether FLG is an outlier or the cohort's leading edge | Cohort-wide → the stance is a sector call, not single-name |
 
@@ -38,7 +38,8 @@
 - **The book churns, it does not drain.** H1-2026 gross formation $780M replaced 81.7% of outflow; 87.5% of outflow left by payoff/disposition, 1.6% by cure (n=13 filings). The call says exits clear at 1–5% of the mark (B2) — loss vs carrying value, not vs par.
 - **Capital went out while the reserve stayed flat.** ~$216M buyback in Q3 (derived), CET1 13.16% → 12.38%. Buybacks paused in Q4, resume in 2027 (call), which is the wall year.
 - **The wall is 2027.** MF $8,503M (31.6% of the book) reprices or matures in 2027 into the freeze effective 10/2026; the first borrower financials carrying most of a freeze year review at Q2-2028 (T-11).
-- **Counterevidence:** concentration and the non-accrual LEVEL are improving (SR 07-1 down 11 straight quarters; NAL rate 4.90% → 4.55%). The bank is shrinking MF and growing C&I (+$2.0B in Q3).
+- **Counterevidence:** concentration and the non-accrual LEVEL are improving (SR 07-1 down 12 straight quarters to 322.11% at 9/30; NAL rate 4.90% → 4.55%). The bank is shrinking MF (−3.56% in Q3) and growing C&I (+$2.0B in Q3); total loans up two quarters is mix shift.
+- **Pipeline (Q3 Call Report):** MF 30–89 days past due $233M → $392M (+68%; Q1 $676M, n=3 — watch, not trend); bank net income $34.5M → $12.1M.
 
 ---
 
