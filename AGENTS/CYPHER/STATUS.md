@@ -1,6 +1,6 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-11-02 09:0x EST — spawned session (PROME prome-40, WQ-184 due-row wake, DOCKET L878 leg 2; commission on Will's word 10/30 10:46 ET).**
+**Last Updated: 2026-11-02 08:5x EST — spawned session (PROME prome-40, WQ-184 due-row wake, DOCKET L878 leg 2; commission on Will's word 10/30 10:46 ET).**
 - **WQ-550 DELIVERED** (leg 2: `research/2026-11-02_wq550-leg2/RECORD.md`). Binance reopened, customers pulled money, nothing outside crypto moved:
   - **Reopening:** phase one Sun 11/01 06:00–09:00Z; **29 of 1,448** pairs on at 13:48Z today (major coins and stablecoins). Net outflows $3.64B → $4.72B (Binance figures, ~2–3% of $171B assets). Binance says ~95% of the loss is replaced from its own funds; no insolvency language.
   - **FBI attributed the theft to North Korea (TraderTraitor), 10/31** (SECONDARY: fbi.gov 403 here). CYB-INC-055 re-classed STATE-CAMPAIGN; still OFF-WAVE. VX-CYP-08 NOT re-scored (commission fence), flagged to PROME; graded 11/04 unless PROME rules first.

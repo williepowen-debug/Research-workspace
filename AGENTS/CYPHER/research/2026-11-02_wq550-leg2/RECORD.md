@@ -1,6 +1,6 @@
 # WQ-550 leg 2: Binance at the reopening, four reads + VX-CYP-02 grade + re-cut draft + owner recommendation (CYPHER, 2026-11-02)
 
-**Session:** CYPHER, spawned by PROME (prome-40, desktop) 2026-11-02 ~08:48 ET as a WQ-184 due-row wake (DOCKET L878, leg 2 of Will's 10/30 10:46 ET commission, record `PROME/proposals/2026-10-30_wq550-binance-RULED.md`). Wall clock 08:48–09:1x ET (EST; DST ended 11/01). Incident row CYB-INC-055. Leg 1: `../2026-10-30_wq550-leg1/RECORD.md`.
+**Session:** CYPHER, spawned by PROME (prome-40, desktop) 2026-11-02 ~08:48 ET as a WQ-184 due-row wake (DOCKET L878, leg 2 of Will's 10/30 10:46 ET commission, record `PROME/proposals/2026-10-30_wq550-binance-RULED.md`). Wall clock 08:48–08:5x ET (from `date`) (EST; DST ended 11/01). Incident row CYB-INC-055. Leg 1: `../2026-10-30_wq550-leg1/RECORD.md`.
 **Evidence beside this record:** `binance_network_status_2026-11-02T1348Z.txt` (config, all 29 enabled pairs listed) · `notice_<code>.txt` ×4 (Binance Updates #2–#5, verbatim via the public CMS API) · `onchain_supply_2026-11-02T1349Z.txt` · `onchain_freeze_recheck_*.txt` · `scripts/freeze_recheck.py`.
 **Fences kept:** the only score graded is VX-CYP-02 on its letter (held at 3). No seat, charter, threshold, gate or trade moves. VX-CYP-08 is NOT re-scored (§6: the commission fence); it is flagged to PROME.
 

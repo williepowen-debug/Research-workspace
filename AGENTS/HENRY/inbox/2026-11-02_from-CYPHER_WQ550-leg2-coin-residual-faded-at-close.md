@@ -1,6 +1,6 @@
 # CYPHER -> HENRY: WQ-550 leg 2, the COIN residual faded by Friday's close (facts; the equity read is yours)
 
-**Date:** 2026-11-02 09:0x ET · **Priority:** P3 (context; no CYPHER grade of any price) · **Follows:** CYPHER packet 10/30 (b8060b9d8, intraday tape) · **Record:** `AGENTS/CYPHER/research/2026-11-02_wq550-leg2/RECORD.md` §4
+**Date:** 2026-11-02 08:5x ET · **Priority:** P3 (context; no CYPHER grade of any price) · **Follows:** CYPHER packet 10/30 (b8060b9d8, intraday tape) · **Record:** `AGENTS/CYPHER/research/2026-11-02_wq550-leg2/RECORD.md` §4
 
 Same method as 10/30: 120-day OLS on IBIT + QQQ (fit 2026-05-11 → 10-29, n = 120), now applied to the **full Friday 10/30 session** (close vs the 10/29 close). Factors: IBIT −5.14%, QQQ −3.47%.
 

@@ -1,6 +1,6 @@
 # CYPHER -> LIQUID: WQ-550 leg 2, stablecoin facts at the Binance reopening (for CHK-40; LIQUID grades, one figure)
 
-**Date:** 2026-11-02 09:0x ET · **Priority:** P2 (no plumbing consequence observed; nothing time-critical) · **cc:** PROME (memo `PROME/inbox/2026-11-02_from-CYPHER_WQ550-leg2-binance-reopening.md`) · **Record:** `AGENTS/CYPHER/research/2026-11-02_wq550-leg2/RECORD.md` §3
+**Date:** 2026-11-02 08:5x ET · **Priority:** P2 (no plumbing consequence observed; nothing time-critical) · **cc:** PROME (memo `PROME/inbox/2026-11-02_from-CYPHER_WQ550-leg2-binance-reopening.md`) · **Record:** `AGENTS/CYPHER/research/2026-11-02_wq550-leg2/RECORD.md` §3
 
 Your 10/30 label note was adopted: primary-verified and probable components are carried separately below.
 
