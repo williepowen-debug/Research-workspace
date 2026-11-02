@@ -6023,3 +6023,5 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-11-02T15:37:35Z	SIG-W-20261102-008	HENRY	INFO	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261102-008.md	delivered	New Friday-data publication, existing owner grade; not a new study or consumption claim.
 2026-11-02T15:37:35Z	SIG-W-20261102-008	VIOLET	INFO	CC	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261102-008.md	delivered	New Friday-data publication, existing owner grade; not a new study or consumption claim.
 2026-11-02T15:37:35Z	SIG-W-20261102-008	NEXUS	INFO	CC	PRIORITY	AGENTS/NEXUS/inbox/WALTER/SIG-W-20261102-008.md	delivered	New Friday-data publication, existing owner grade; not a new study or consumption claim.
+2026-11-02T15:52:56Z	SIG-W-20261102-009	HENRY	ACTION	CC	PRIORITY	AGENTS/HENRY/inbox/WALTER/SIG-W-20261102-009.md	written_not_delivered_pending_push	Dated owner map; not current underlying quote or recipient consumption.
+2026-11-02T15:52:56Z	SIG-W-20261102-009	VIOLET	ACTION	CC	PRIORITY	AGENTS/VIOLET/inbox/WALTER/SIG-W-20261102-009.md	written_not_delivered_pending_push	Dated owner map; not current underlying quote or recipient consumption.
