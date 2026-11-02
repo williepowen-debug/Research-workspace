@@ -2,9 +2,15 @@
 
 **Status:** Concentrated bank risk. HY re-widened to 344bp [10/30] from 326 [10/29] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 6bp below the strict >350 line, run 0-of-3); Friday's widening was HY-led and does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-02 11:26 ET, Will-launched boot + required intake | STATUS commit: `acb69b53e`
+**As of:** 2026-11-02 11:42 ET, Will-approved carried-release reads | STATUS commit: pending carried-read write-back
 
 ## CROSS-DOMAIN
+
+**November2 carried releases** (`reports/2026-11-02_carried-release-reads/REPORT.md`):
+- **CCB Q3:** Bluevine on-balance-sheet deposits **$452.4M [9/30] = 9.67%** of same-date deposits, with another $1.85B swept off balance sheet; latest expected Valley close Q2 2027. The unnamed partner's $22.8M specific allowance is unchanged and the $45.6M valuation allowance is near Q2, but $3.1M of additional provision was not offset by enhancement income. Stable, not resolved; funding exit remains prospective. Release-only PARTIAL.
+- **Weekly funding:** H.4.1 primary credit **$9.538B [Wed 10/28]**. H.8 small-bank borrowings **$305.3B [10/21]**, down $7.9B (−2.5%) from the revised 10/14 comparator, with deposits nearly flat and NDFI loans down $1.7B. The prior 10/14 borrowing figure was revised $316.4B → $313.2B; the frozen six-week study was not recomputed. No deposit run or small-bank credit draw shown.
+- **FHLB:** preliminary advances **$798.4B [9/30]**, ~−1.5% q/q on the carrying-value basis. REG-T-06 remains official run 2-of-3 / REVIEW; the 11/13 CFR governs level and both breadth checks.
+- **No score, threshold, prediction, protocol or trade change.** Cohort selection, L180 breadth and PROME's reserve-release count remain for the approved 11/07 run.
 
 **November1–2** (`reports/2026-11-01_Q3-call-report_VLY-EGBN-HBAN/REPORT.md`; `reports/2026-11-02_boot/`):
 - **VLY Q3 (Call Report, bank level):** nonaccrual $462.6M → $511.4M = construction +$30.1M (one loan) + an $18.5M loan to a nondepository financial institution (BROCK lane, INFO packet sent 11/01); allowance −$9.8M, coverage 127.6% → 113.5%. The Q2 multifamily 30–89 cohort went mainly to modification, not cash (INFERRED). REG-30 (VLY nonaccrual ≥ $511.4M at Q4, 60%) OPEN.
@@ -101,10 +107,10 @@
 |---|---|---|---|
 | WAL / OZK / FLG owners and existing issuer disclosures | Q3 outcomes, exact funding inputs and loan recovery/recognition | Existing CALENDAR windows | REGINALD owns cross-bank comparison; specialist judgments remain theirs. OZK primary Q3 consumed here; call/filing remain pending. WAL call SECONDARY consumed; exact F3/N pending. |
 | EGBN existing disclosures | Cash, concessions, new funding, retained exposure and incremental recognition for four cases | Existing Q3 read | A disappearing category or extension is not demonstrated repayment; no independent property match yet. |
-| Existing Fed releases / REGINALD | Does small-bank borrowing persist after the October14 high? | H.4.1 October29 / H.8 October30 | Prior releases read; latest small-bank borrowing partly reverses with deposits up. No new registered monitor |
+| Existing Fed releases / REGINALD | Does small-bank borrowing persist after the October14 high? | 10/29 and 10/30 releases READ 11/02; next H.4.1 11/05 / H.8 11/06 | Latest borrowing fell to $305.3B [10/21] from revised $313.2B, with deposits nearly flat. The early-October surge did not extend in the latest week. No new registered monitor |
 | FDIC | Nano P&A; absent at October28 22:28 ET (page Last Updated 10/19) | Weekly re-check from November3 (L516) | Re-run forensics on actual schedules; January20,2027 bar date; no external send without Will. |
 | PROME / Will | REG-27 shared registration / existing WQ-454.REGT06 ruling | SSB print /before October30 respectively | REG-27 encoded under approved A; PROME shared GATES record pending consumption. REG-07 VOID. REG-T-06 publication basis alone remains Will-owned; as-written CFR governs. |
-| Will / existing FFIEC run | JWT renewal; cohort-selection/completeness | November5 renewal /November7 planned retrieval | Missing bank capable of flipping breadth → UNKNOWN; no silent cohort expansion. |
+| Will / existing FFIEC run | Laptop JWT renewed to 2027-01-31; desktop renewal pending if used; cohort-selection/completeness | November7 planned retrieval | Missing bank capable of flipping breadth → UNKNOWN; decide cohort selection first, no silent expansion. |
 | Will / PROME / TERRY | Existing contract ownership/card evidence at FORGE D-74/D-77; structural source→POSITIONS | Existing records only | Broker holdings are not research/trade approval; disposition remains unknown without broker evidence. No expiry reminder. |
 
 ## VIEW
