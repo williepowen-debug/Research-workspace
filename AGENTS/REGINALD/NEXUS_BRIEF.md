@@ -2,9 +2,14 @@
 
 **Status:** Concentrated bank risk. HY re-widened to 344bp [10/30] from 326 [10/29] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 6bp below the strict >350 line, run 0-of-3); Friday's widening was HY-led and does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-02 11:42 ET, Will-approved carried-release reads | STATUS commit: `d8f1e3ad2`
+**As of:** 2026-11-02 17:29 ET, Will-launched evening boot | STATUS commit: `b2c498838`
 
 ## CROSS-DOMAIN
+
+**November2 evening boot** (`reports/2026-11-02_evening-boot/REPORT.md`):
+- **Tape at 17:29 ET, vendor quotes rather than settled grades:** WAL $78.67 (+3.12%), KRE $73.73, FLG $10.75. REG-T-02 stays FIRED with settled exit run 0-of-3; FLG stays RED. No threshold or score change.
+- **CUBI:** CEO Jay Sidhu sold 50,000 shares at $87.4039 [11/02, SEC Form 4 acc 0001222371-26-000011]. Insider-selling observation only, not bank-credit transmission.
+- **Intake:** BOARD -010 BACKFILL; inboxes, WAL/OZK channels, corrections, prediction due dates and staleness checks clear. No new route or trade candidate.
 
 **November2 carried releases** (`reports/2026-11-02_carried-release-reads/REPORT.md`):
 - **CCB Q3:** Bluevine on-balance-sheet deposits **$452.4M [9/30] = 9.67%** of same-date deposits, with another $1.85B swept off balance sheet; latest expected Valley close Q2 2027. The unnamed partner's $22.8M specific allowance is unchanged and the $45.6M valuation allowance is near Q2, but $3.1M of additional provision was not offset by enhancement income. Stable, not resolved; funding exit remains prospective. Release-only PARTIAL.
