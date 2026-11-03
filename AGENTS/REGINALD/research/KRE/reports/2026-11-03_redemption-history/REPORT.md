@@ -27,6 +27,27 @@ Shares outstanding were 57,752,585 on 2026-07-31, 53,752,585 on 2026-09-02, 50,9
 
 The three-month high was 61,952,585 on 2026-08-17 and the low was 47,452,585 on 2026-10-08. These are large swings around a smaller net decline, so a single daily redemption is a weak trend indicator.
 
+## Calendar-month detail — 2026
+
+Month-end values use the last completed observation in each month. Net change is measured from the prior month-end; gross creations and redemptions are the sums of positive and negative daily share changes. November is month-to-date through 2026-11-02.
+
+| Month | End shares (M) | Net shares (M) | Net % | Created (M) | Redeemed (M) |
+|---|---:|---:|---:|---:|---:|
+| January | 62.50 | +2.85 | +4.78% | 18.00 | 15.15 |
+| February | 58.70 | −3.80 | −6.08% | 19.65 | 23.45 |
+| March | 57.00 | −1.70 | −2.90% | 30.65 | 32.35 |
+| April | 59.60 | +2.60 | +4.56% | 20.45 | 17.85 |
+| May | 54.60 | −5.00 | −8.39% | 12.70 | 17.70 |
+| June | 63.35 | +8.75 | +16.02% | 20.95 | 12.20 |
+| July | 57.75 | −5.60 | −8.84% | 14.85 | 20.45 |
+| August | 54.50 | −3.25 | −5.63% | 11.70 | 14.95 |
+| September | 53.70 | −0.80 | −1.47% | 19.60 | 20.40 |
+| October | 55.60 | +1.90 | +3.54% | 22.70 | 20.80 |
+| November through 11/02 | 53.45 | −2.15 | −3.87% | 0.00 | 2.15 |
+| **2026 YTD** | **53.45** | **−6.20** | **−10.39%** | **191.25** | **197.45** |
+
+The 2025-12-31 baseline was 59,652,585 shares. Four months were net positive and seven were negative. The year-to-date high was 63,352,585 on 2026-06-30 and the low was 47,452,585 on 2026-10-08. Each month's net change reconciles exactly to gross creations minus gross redemptions.
+
 ## Latest completed day and base rate
 
 State Street's 2026-11-02 observation shows shares outstanding falling **2.15M (−3.87%)** from 2026-10-30. At that day's $73.687961 NAV, the redeemed shares represented approximately **$158M**.
@@ -54,6 +75,7 @@ Share-count changes do not identify the authorized participant, its clients, or 
 - State Street Global Advisors, official KRE NAV history: `https://www.ssga.com/library-content/products/fund-data/etfs/us/navhist-us-en-kre.xlsx`
 - Retrieved 2026-11-03; latest completed observation 2026-11-02; 5,129 valid dated rows in the full file.
 - Download: `data/kre_navhist.xlsx`; SHA-256 `d9113ec7823fff4dd35625e0e2ad22031a2c6d22ae9cfd11f58e23e4baf2fefe`.
+- Monthly 2026 table: `data/kre_monthly_2026_through_2026-11-02.csv` (11 rows, including exact shares and creation/redemption-day counts).
 - Three-month extract: `data/kre_shares_2026-07-31_to_2026-11-02.csv` (66 rows: baseline plus 65 daily changes).
 - Two-month extract: `data/kre_shares_2026-09-02_to_2026-11-02.csv` (43 rows: baseline plus 42 daily changes).
 - Daily percentage = current shares outstanding / prior completed observation − 1. Gross creation/redemption figures are the sums of positive/negative daily share changes, not issuer-reported dollar flows.
