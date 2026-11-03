@@ -875,6 +875,15 @@
       "token": "Schedule O",
       "anchor": "WAL-01\t2026-04-24\tWAL Office classified loans exceed $500M by end of Q3 2026\t25%\tQ2-Q3 2026\t2026-11-15\tRESOLVED-INVALIDATED\t2026-10-30\tFINAL INVALIDATED 2026-10-30: Q3 10-Q acc 0001628280-26-068599 (a",
       "disposition": "Valid history reviewed 2026-11-02, occurrence 2 of 2: same WAL-01 historical note and disposition; multiplicity preserved. A new Schedule O assertion elsewhere remains a finding."
+    },
+    {
+      "identity": "404c44f13131d97885993440d02a7d028964c0eff386dc8b7615b808d38e4fea",
+      "kind": "value",
+      "path": "STATUS.md",
+      "line_at_review": 29,
+      "token": "792 (actual 281)",
+      "anchor": "| Q3 Call Report (FFIEC) | **UNCHECKED 11/02:** WALTER's receipt identifies a 1,792-row Q3 SDF retrieved 11/01 (SHA-256 `2e04cc7b…c60a4`), but its complete raw document survives neither at the recorde",
+      "disposition": "Valid current source metadata reviewed 2026-11-03: 1,792 is WALTER's reported SDF row count, not an EV/PT or stale thesis value. The complete document remains absent and Q3 MI3 UNCHECKED; only this exact identity is baselined."
     }
   ],
   "dated_reviews": [
@@ -897,6 +906,11 @@
       "date": "2026-11-02",
       "identity": "11 boot-drift occurrences / 9 unique identities",
       "reason": "Ten occurrences across eight identities were individually verified as valid history and added with multiplicity. c3aa36e938db6c4b960e5d8326b2d76c32a540f624f03d96bdb5b2d165c71576 was a live provenance error: NEXUS_BRIEF attributed 276 KB rows to 4e713d7c1, whose tree contains 270; corrected to a marked historical 270-row count. No unresolved identities, frozen-record edits or broader suppression. review_by moved to 2026-12-02."
+    },
+    {
+      "date": "2026-11-03",
+      "identity": "404c44f13131d97885993440d02a7d028964c0eff386dc8b7615b808d38e4fea",
+      "reason": "One new identity individually reviewed: the check-1 numeric parser split the current 1,792-row FFIEC receipt count into token 792. This is source metadata, not a thesis-version/EV/PT assertion; the source remains unavailable and UNCHECKED. Added one exact baseline entry, with no text or checker change and review_by unchanged."
     }
   ]
 }
