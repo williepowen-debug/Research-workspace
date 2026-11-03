@@ -2,9 +2,13 @@
 
 **Status:** Concentrated bank risk. HY OAS 343bp [11/02] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 7bp below the strict >350 line, run 0-of-3); wide HY alone does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-03 12:11 ET, boot and closeout | STATUS commit: `7ef90e8e5`
+**As of:** 2026-11-03 12:52 ET, KRE official-flow review | STATUS commit: `32e234f69`
 
 ## CROSS-DOMAIN
+
+**November3 KRE redemption base rate** (`research/KRE/reports/2026-11-03_redemption-history/REPORT.md`):
+- State Street's completed series through 11/02 shows two-month net shares **−0.56%** and one-month **+5.01%**: large two-way creation/redemption swings, not a sustained redemption wave.
+- The 11/02 decline was **2.15M shares (−3.87%)**, sixth-largest among 42 daily changes. The separate 11/03 vendor-derived monitor change is unconfirmed and not treated as an official daily redemption. No bank-credit inference or grade change.
 
 **November3 boot** (`reports/2026-11-03_boot/REPORT.md`):
 - **Settled tape:** WAL $78.67 [11/02, Yahoo/Nasdaq agree], REG-T-02 FIRED with exit 0-of-3 through 44 rows; KRE $73.73. Intraday 11/03 quotes do not grade either state. FLG stays RED at $10.75 settled, 18 closes below the band.
