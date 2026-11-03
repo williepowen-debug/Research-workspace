@@ -3,7 +3,6 @@
   "sha256": "db1ddae6b186dccc5a94daacccf11170fa0d709558a86753d8a47a77086494f7",
   "scope": "Whole report read; internal-method review, limited primary-source checks and current-beta sanity check. Not a full reproduction.",
   "missing_adjacent_artifacts": [
-    "PREREGISTERED_SPEC.md",
     "build_data.py",
     "regime.py",
     "ratebeta.py",
