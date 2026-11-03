@@ -2,3 +2,4 @@ run_ts_utc	et_date	host	status	pm_rc	pm_rows	kalshi_rc	kalshi_rows	spread_rc	not
 2026-10-30T02:15Z	2026-10-29	WilliePOwen	OK	0	58	0	11	0	spread +36.0pp
 2026-10-31T02:15Z	2026-10-30	WilliePOwen	OK	0	58	0	11	0	spread +25.5pp
 2026-11-02T15:15Z	2026-11-02	DESKTOP-BC6EF81	OK	0	56	0	11	0	spread +52.0pp
+2026-11-03T18:17Z	2026-11-03	DESKTOP-BC6EF81	OK	0	54	0	11	0	spread +58.0pp
