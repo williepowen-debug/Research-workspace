@@ -39,3 +39,7 @@ Own FRED fetch 11/03: HY OAS 343bp and CCC OAS 1,319bp [11/02]. REG-T-03 stays F
 The single open question remains whether the 8/20 ranking predicts anything; the frozen 11/07 retrospective test answers it. Next existing checkpoints: optional FFIEC short-list rerun by 11/04 · H.4.1 11/05 · H.8 11/06 · 11/07 Call Report/ranking run (cohort selection, L180, reserve-release breadth, Friedberg test and detector repair) · REG-T-06 CFR grade 11/13. Nano's weekly P&A recheck is due 11/03 but was not run in this tape-only boot. Early-November 10-Q reads remain pending.
 
 No score, prediction, probability, position or trade change. POSITIONS unchanged without broker evidence. CALENDAR catalyst dates unchanged; only the REG-T-02 catch-up count was refreshed. Convergence scores and DECK_EVIDENCE consciously unchanged: no score, thesis, gate or settled-trigger change.
+
+## Close checks
+
+Read-cap rc 0; existing rotation-tier warnings remain on STATUS, ROADMAP, NEXUS_BRIEF, MEMORY, CALENDAR and CLAUDE. Weekday check clean on CALENDAR/STATUS. Orphan check named only other desks' pre-existing untracked/modified files outside REGINALD; none swept. Ledger nudge flagged WORKOUT_OUTCOME_BRIDGE, PREDICTIONS, VX and KB behind STATUS; no substantive data in those ledgers changed in this boot. No consumer check: routine dated tape/credit refreshes, no registered figure superseded. No PROME completion memo: Will-launched, not a spawned commission.

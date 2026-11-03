@@ -1,10 +1,15 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY re-widened to 344bp [10/30] from 326 [10/29] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 6bp below the strict >350 line, run 0-of-3); Friday's widening was HY-led and does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
+**Status:** Concentrated bank risk. HY OAS 343bp [11/02] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 7bp below the strict >350 line, run 0-of-3); wide HY alone does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-02 18:38 ET, KRE integrations and closeout | STATUS commit: `b2c498838`
+**As of:** 2026-11-03 12:11 ET, boot and closeout | STATUS commit: `7ef90e8e5`
 
 ## CROSS-DOMAIN
+
+**November3 boot** (`reports/2026-11-03_boot/REPORT.md`):
+- **Settled tape:** WAL $78.67 [11/02, Yahoo/Nasdaq agree], REG-T-02 FIRED with exit 0-of-3 through 44 rows; KRE $73.73. Intraday 11/03 quotes do not grade either state. FLG stays RED at $10.75 settled, 18 closes below the band.
+- **Credit and fund flow:** HY 343bp / CCC 1,319bp [FRED 11/02], CCC/HY 3.85× with no CCC-led escalation. KRE shares outstanding fell 1.16M (−2.2%) to 50.58M: moderate redemptions, not a registered bank-credit trigger.
+- **Intake:** no open inbox or peer-channel items, due predictions, corrections or stale ledgers; no unread BOARD signal met the selection rule. Alerts were previously known. No score, prediction, probability, position or trade change.
 
 **November2 KRE verification** (`research/KRE/reports/2026-11-02_study6-verification/REVIEW.md`; `research/KRE/reports/2026-11-02_kre-stress-test-rebuilt/REVIEW.md`):
 - **Market read:** reduced KRE co-movement is real and survives matched trimming, but Study 4 supports a broader market/style explanation rather than a regional-credit all-clear. No directional forecast follows.
