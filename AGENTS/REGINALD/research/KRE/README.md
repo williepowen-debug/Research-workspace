@@ -1,6 +1,8 @@
 # KRE research — start here
 
-Organized by PROME at Will's request, November 2, 2026. Completed-session analysis ends **October 30, 2026**. The November 2 snapshot is intraday, potentially delayed, and separate. This is a frozen research collection; it does not change REGINALD's canonical thesis, grades, trading authority or monitoring duties.
+Organized by PROME at Will's request, November 2, 2026. The main price/co-movement analysis ends **October 30, 2026**; the November 3 redemption study uses official State Street observations through **November 2**. The November 2 snapshot is intraday, potentially delayed, and separate. This is a frozen research collection; it does not change REGINALD's canonical thesis, grades, trading authority or monitoring duties.
+
+**November 3 addition:** [KRE creations and redemptions](REDEMPTIONS.md) consolidates the mechanics, 2025–2026 monthly evidence, rolling windows, source data and interpretation. KRE's wrapper has contracted while NAV rose; redemption alone is not a directional price or bank-credit signal.
 
 ## Read in this order
 

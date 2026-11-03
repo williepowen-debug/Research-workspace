@@ -1,6 +1,6 @@
 # What is happening with regional-bank stocks?
 
-**Synthesis prepared November 2, 2026; completed-session evidence through October 30.** [Study map](EVIDENCE_GUIDE.md) · [Unresolved questions](OPEN_QUESTIONS.md)
+**Synthesis prepared November 2, 2026; main price/co-movement evidence through October 30. November 3 redemption addendum uses official observations through November 2.** [Study map](EVIDENCE_GUIDE.md) · [Unresolved questions](OPEN_QUESTIONS.md)
 
 ## The central picture
 
@@ -111,6 +111,14 @@ Those examples are evidence against collapsing earnings, funding and credit into
 Historical falling-yield studies suggest possible later KRE underperformance versus KBWB, but sampling choices, thin groups and credit-proxy failures limit confidence. Relative underperformance could occur while both funds rise. There is no dependable forecast here of an outright KRE decline or a timing signal for options.
 
 Sources: [fundamentals review](reports/2026-11-02_kre-external-report-review/REVIEW.md), [rate study](reports/2026-11-02_kre-study3-review/input_report.md), [open questions](OPEN_QUESTIONS.md).
+
+## 7. KRE's ETF wrapper has shrunk while regional-bank values have risen
+
+Official State Street observations show KRE shares outstanding falling 29.45% in 2025 while NAV rose 7.41%. In 2026 through November 2, shares fell 10.39% while NAV rose 13.66%. The same divergence therefore appears in both years: a smaller ETF wrapper does not imply falling regional-bank prices.
+
+Recent flows are two-way rather than an accelerating exit. The two-month share count is nearly flat (−0.56%) and the one-month count is up 5.01%. The latest completed official daily decline, 2.15M shares (−3.87%) on November 2, was meaningful but within the recent range.
+
+An ordinary investor's KRE sale transfers shares to another market participant; an authorized-participant redemption removes ETF shares and transfers the underlying assets. It does not remove bank deposits or capital, cancel the banks' shares, or identify the redeemer's motive. Rolling share count is secondary positioning evidence, not a bank-credit or directional-price signal by itself. See [KRE creations and redemptions](REDEMPTIONS.md) for mechanics, monthly tables, rolling windows, caveats and preserved data.
 
 ## Terms in plain language
 

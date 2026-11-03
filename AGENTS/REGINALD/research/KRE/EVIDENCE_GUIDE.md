@@ -1,6 +1,6 @@
 # Evidence guide and study catalog
 
-Updated November 2, 2026. [Start here](README.md) · [Synthesis](SYNTHESIS.md) · [Open questions](OPEN_QUESTIONS.md)
+Updated November 3, 2026, with the redemption study. [Start here](README.md) · [Synthesis](SYNTHESIS.md) · [Open questions](OPEN_QUESTIONS.md)
 
 ## How to read evidence status
 
@@ -129,6 +129,18 @@ Distinct new study with a complete supplied ZIP containing 66 files. A later [se
 **Carry these caveats:** October ETF-factor splice; model-dependent decompositions; pooled versus rolling reference statistics; small recent out-of-sample groups; author-attested chronology with post-result diagnostics. The “frozen-loading forecast” uses future realized factor relationships and is a conditional attribution test. A ddof mismatch in q3b's secondary R² output gives 0.6294 instead of 0.6235; the main model table is correct. No proposed future test is activated.
 
 The package preserves its own `out/fig_timeline.png`. Do not confuse this with Study 6's four-panel chart or assume it is byte-identical to other timeline uploads.
+
+## 10. November 3 creation/redemption study — official fund history
+
+**[Readable synthesis](REDEMPTIONS.md)** · [Rolling and 2026 monthly report](reports/2026-11-03_redemption-history/REPORT.md) · [2025 monthly comparison](reports/2026-11-03_redemption-history/2025_MONTHLY.md)
+
+**Question:** Do KRE redemptions show an unusual or sustained exit from regional banks?
+
+**Contribution:** uses State Street's official daily shares, NAV and assets to calculate monthly and rolling creations/redemptions; distinguishes ordinary exchange sales from AP redemptions; compares share-count changes with price and asset changes. Full-year 2025 shares fell 29.45% while NAV rose 7.41%; 2026 through November 2 shares fell 10.39% while NAV rose 13.66%. Recent two-way swings do not show an accelerating exit.
+
+**Evidence status:** official issuer source downloaded 2026-11-03; completed observations through 2026-11-02; monthly net changes reconcile exactly to gross daily creations minus redemptions. The workbook and exact daily/monthly CSVs are preserved in the dated folder.
+
+**Limits:** share changes do not identify APs, clients or motives; gross share changes are not issuer-reported dollar flows; the separate 2026-11-03 Yahoo-derived monitor observation is unconfirmed and not treated as an official daily redemption. No directional-price or bank-credit conclusion follows from redemptions alone.
 
 ## Earlier conversation and pictures
 
