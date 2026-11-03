@@ -2,12 +2,12 @@
 
 **Status:** Concentrated bank risk. HY OAS 343bp [11/02] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 7bp below the strict >350 line, run 0-of-3); wide HY alone does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-03 13:44 ET, KRE 2026 monthly-flow table | STATUS commit: `8dadf9da2`
+**As of:** 2026-11-03 14:03 ET, KRE 2025–2026 comparison | STATUS commit: `3573c5a29`
 
 ## CROSS-DOMAIN
 
-**November3 KRE redemption base rate** (`research/KRE/reports/2026-11-03_redemption-history/REPORT.md`):
-- State Street's completed series through 11/02 shows YTD shares **−10.39%**, three-month **−7.45%**, two-month **−0.56%** and one-month **+5.01%**. Four positive months and seven negative: contraction with large two-way swings, not a steady exodus.
+**November3 KRE redemption base rate** (`research/KRE/reports/2026-11-03_redemption-history/REPORT.md`; `2025_MONTHLY.md`):
+- 2025 NAV **+7.41%** with shares **−29.45%**; 2026 through 11/02 NAV **+13.66%** with shares **−10.39%**. The price/share-count divergence is not new, so contraction alone is not a directional price or bank-credit signal.
 - The 11/02 decline was **2.15M shares (−3.87%)**, ninth-largest among 65 three-month daily changes. The separate 11/03 vendor-derived monitor change is unconfirmed and not treated as an official daily redemption. No bank-credit inference or grade change.
 
 **November3 boot** (`reports/2026-11-03_boot/REPORT.md`):
