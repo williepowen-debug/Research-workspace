@@ -4,7 +4,7 @@ Updated 2026-11-04T21:16:18Z, OpenAI Codex, exact model unknown. Booted; LIGHT r
 
 ## STATUS
 
-Booted on Will request. Seven new cards069–075/14 handoffs authored, pending coordinated publication;24 intake units CLOSED. Two verification helpers finished. No trade/domain launch. Full narrative refresh deferred once. WAL accepted recovery remains NOT RECOVERED; do not expand or restart. Current review: research/2026-11-04_reboot/REVIEW.md.
+Booted on Will request. Seven new cards069–075/14 handoffs now origin-proven and reconciled;24 intake units CLOSED. Two verification helpers finished. No trade/domain launch. Full narrative refresh deferred once. WAL accepted recovery remains NOT RECOVERED; do not expand or restart. Current review: research/2026-11-04_reboot/REVIEW.md.
 
 Latest bounded task: WAL Q3 original-source recovery CLOSED — NOT RECOVERED. Original temporary path absent; no matching retained/historical source. Exact scope, provenance and selected-evidence locations: `research/2026-11-04_WAL-source-recovery/REPORT.md`. WAL administrative notice written; no reconstruction, cohort rerun or owner grade. Final FULL closeout retains prior catch-up/approvals below.
 
@@ -120,15 +120,15 @@ LIGHT closeout with subsequent ISHM owner-result reconciliation. Operational cov
     },
     {
       "commit": "9f9212401c037ebf826b5363ce65c8f14ead9510",
-      "state": "pending",
-      "note": "Reboot seven cards and14 handoffs; pending coordinated publication, no push attempted."
+      "state": "published",
+      "note": "Local origin b2d267558 proves payload published; no WALTER push. All14 handoffs reconciled."
     }
   ],
   "delivery": {
     "signal_date": "20261104",
     "total": 201,
-    "delivered": 187,
-    "note": "Prior187 origin-proven; reboot14 pending coordinated publication. No consumption inferred."
+    "delivered": 201,
+    "note": "All201 handoffs origin-proven;14 reboot copies reconciled on ISHM completion follow-up. Consumption unverified."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -202,7 +202,7 @@ LIGHT closeout with subsequent ISHM owner-result reconciliation. Operational cov
     "14": "Full MEMORY narrative deferred under light tier; LAST_COMPLETION is current duty source.",
     "root.retirement": "Retained live source/owner references and uncertain retirement candidates; no deletion sweep.",
     "15": "ISHM user-relayed L899 result checked against owner REPORT, NEXUS_BRIEF, STATUS lead and CLOSEOUT. Broad overdue-survey carry narrowed to exact S&P composition exception (Nov6 check); J1/M3/import/Emerson/rail carries retained. No duplicate dispatch or owner edit. Other prior duties/approvals retained.",
-    "16": "Reboot payload9f9212401 committed exact paths; publication deferred. Prior cohorts unchanged.",
+    "16": "Reboot payload9f9212401 now origin-proven; all201 day handoffs reconciled. ISHM carry reconciliation committed locally; no WALTER push.",
     "checks": "Light suite read-cap/archives/weekdays PASS; receipt mismatch corrected and receipt recheck PASS187/201. Ledger nudge reviewed: route/delivery and batch ledgers changed this session; zero kill/fire/correction changes warranted. Central READS UNKNOWN stale attestation; charter rotation warnings carried. checks.json retains original review result; later receipt recheck supersedes mismatch only. Doctor found stale generated BOARD index after7 new cards; regenerated before final check. Final doctor0HIGH/18MED before correcting one taxonomy error:17 retained MED comprise14 pending-publication copies,59 older unconsumed copies and two DEWEY flags. Invalid METALS cluster corrected to existing POSITIONING_VALUATION; index regenerated. Fresh collector healthy; boot basis MATCH28.",
     "Tier1": "Re-pulled core observations unchanged; fresh HANS storage basis in REVIEW; full ID/source gaps inherited explicitly. STATUS refreshed."
   }
