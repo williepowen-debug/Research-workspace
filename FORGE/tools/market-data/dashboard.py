@@ -197,7 +197,9 @@ def fetch_all(series_list):
                 if sess == "evening-next-session":
                     entry["date_label"] = f"[{_md(entry['date'])} eve→{_md(pd.get('trade_date'))}]"
                     entry["change"] = None
-                    entry["flags"] = [f for f in entry["flags"] if f != "⚠stale"]
+                    if entry["date"] == today or (
+                            entry["date"] == pd.get("trade_date") and str(entry["date"]) > today):
+                        entry["flags"] = [f for f in entry["flags"] if f != "⚠stale"]
                     entry["flags"].append("⚠evening bar, Δ withheld")
                 elif sess == "non-session-date":
                     entry["date_label"] = f"[{_md(entry['date'])} non-session]"
@@ -210,7 +212,7 @@ def fetch_all(series_list):
                 elif sess == "day" and pd.get("change_pct") is None \
                         and str(pd.get("change_basis", "")).startswith("withheld"):
                     entry["change"] = None
-                    entry["flags"].append("⚠prior bar missing, Δ withheld")
+                    entry["flags"].append("⚠prior-bar gap, Δ withheld")
                 elif sess is None and pd.get("is_future"):
                     entry["flags"].append("⚠pre-L462 cache, re-pull --no-cache")
                 if sess is not None:

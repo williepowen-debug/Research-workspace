@@ -173,6 +173,59 @@ class EveningBar(unittest.TestCase):
         r = self.fetch_one(self.future(last_trade=et(2026, 9, 23, 20, 47), tz="Not/AZone", drop=("gmtoffset",)))
         self.assertEqual(r["session"], "unverified")
 
+    # --- L557: stale/invalid timestamps, quote/chart join and ET normalization --------------
+    def test_preceding_evening_must_be_adjacent_and_after_cutoff(self):
+        r = self.fetch_one(self.future(last_trade=et(2026, 9, 23, 20, 47),
+                                       bars=((2026, 9, 22), (2026, 9, 24))))
+        self.assertEqual(r["session"], "evening-next-session")
+        self.assertEqual(r["trade_date"], "2026-09-24")
+        daytime = self.fetch_one(self.future(sym="CLX26.NYM", last_trade=et(2026, 9, 23, 12, 0),
+                                             bars=((2026, 9, 22), (2026, 9, 24))))
+        self.assertEqual(daytime["session"], "unverified")
+        self.assertIsNone(daytime["change_pct"])
+        too_old = self.fetch_one(self.future(sym="HOX26.NYM", last_trade=et(2026, 9, 23, 20, 47),
+                                             bars=((2026, 9, 24), (2026, 9, 25))))
+        self.assertEqual(too_old["session"], "unverified")
+        self.assertIsNone(too_old["change_pct"])
+
+    def test_zero_and_boolean_epochs_are_unverified(self):
+        for value in (0, True):
+            with self.subTest(value=value):
+                r = self.fetch_one(self.future(last_trade=value))
+                self.assertEqual(r["session"], "unverified")
+                self.assertEqual(r["price"], 102.38)
+                self.assertIsNone(r["change_pct"])
+
+    def test_quote_chart_price_mismatch_or_missing_is_unverified(self):
+        mismatch = self.fetch_one(self.future(md_extra={"regularMarketPrice": 102.67}))
+        self.assertEqual(mismatch["session"], "unverified")
+        self.assertIn("price mismatch", mismatch["session_basis"])
+        self.assertIsNone(mismatch["change_pct"])
+        missing = self.fetch_one(self.future(sym="CLX26.NYM", drop=("regularMarketPrice",)))
+        self.assertEqual(missing["session"], "unverified")
+        self.assertIsNone(missing["change_pct"])
+
+    def test_vendor_timezone_does_not_move_et_cutoff(self):
+        r = self.fetch_one(self.future(last_trade=et(2026, 9, 23, 18, 30), tz="America/Los_Angeles"))
+        self.assertEqual(r["session"], "evening-next-session")
+        self.assertIn("America/New_York", r["session_basis"])
+        self.assertIsNone(r["change_pct"])
+
+    def test_non_session_reason_is_not_evening_span_reason(self):
+        r = self.fetch_one(self.future(last_trade=et(2026, 9, 27, 19, 0),
+                                       bars=((2026, 9, 25), (2026, 9, 27))))
+        self.assertEqual(r["session"], "non-session-date")
+        self.assertIn("non-session", r["change_basis"])
+        self.assertNotIn("evening bar spans", r["change_basis"])
+
+    def test_extra_prior_bar_reason_does_not_claim_missing(self):
+        r = self.fetch_one(self.future(last_trade=et(2026, 9, 28, 12, 0),
+                                       bars=((2026, 9, 25), (2026, 9, 27), (2026, 9, 28))))
+        self.assertEqual(r["session"], "day")
+        self.assertIn("newer than expected", r["change_basis"])
+        self.assertNotIn("missing", r["change_basis"])
+        self.assertIsNone(r["change_pct"])
+
     # --- renderer: A on the CLI, E on a pre-fix cache entry ---------------------------------
     def render(self, results):
         buf = io.StringIO()
@@ -206,6 +259,22 @@ class EveningBar(unittest.TestCase):
         self.assertIn("not a usable epoch", r["session_basis"])
         self.assertEqual(r["asof"], "2026-09-23")             # history was NOT lost
         self.assertIsNone(r["change_pct"])
+
+    def test_stale_day_and_evening_rows_keep_cli_stale_mark(self):
+        day = self.fetch_one(self.future(last_trade=et(2026, 9, 21, 12, 0),
+                                         bars=((2026, 9, 18), (2026, 9, 21))))
+        self.assertEqual(day["session"], "day")
+        self.assertIn("⚠stale", self.render({"BZX26.NYM": day}))
+        evening = self.fetch_one(self.future(last_trade=et(2026, 9, 21, 18, 0),
+                                             bars=((2026, 9, 18), (2026, 9, 21))))
+        self.assertEqual(evening["session"], "evening-next-session")
+        self.assertIn("⚠stale", self.render({"BZX26.NYM": evening}))
+
+    def test_invalid_timestamp_is_visible_in_cli(self):
+        r = self.fetch_one(self.future(last_trade=0))
+        out = self.render({"BZX26.NYM": r})
+        self.assertIn("⚠unverif", out)
+        self.assertIn("unverified", out)
 
 
 # --- dashboard.py side (conditions A/B/E on the Will-facing surface) ------------------------
@@ -268,6 +337,23 @@ class DashboardEveningBar(unittest.TestCase):
         self.assertNotIn("⚠stale", e["flags"])
         self.assertIn("[9/24 eve→9/24]", self.d._date_stamp(e))
 
+    def test_stale_evening_and_stale_day_keep_dashboard_stale_mark(self):
+        evening = self.entry("BZX26.NYM", price=102.38, prev=99.25, change_pct=None, asof="2026-09-21",
+                             is_future=True, session="evening-next-session", trade_date="2026-09-22",
+                             change_basis="withheld: x")
+        self.assertIn("⚠stale", evening["flags"])
+        day = self.entry("BZX26.NYM", price=103.39, prev=105.28, change_pct=-1.8, asof="2026-09-21",
+                         is_future=True, session="day", trade_date="2026-09-21", change_basis="x")
+        self.assertIn("⚠stale", day["flags"])
+
+    def test_unverified_row_is_visible_and_change_withheld(self):
+        e = self.entry("BZX26.NYM", price=102.38, prev=99.25, change_pct=3.15, asof=TODAY,
+                       is_future=True, session="unverified", trade_date=None,
+                       change_basis="withheld: session unverified")
+        self.assertIsNone(e["change"])
+        self.assertIn("⚠session unverified, Δ withheld", e["flags"])
+        self.assertIn("unverified", self.d._date_stamp(e))
+
     def test_day_bar_unchanged(self):
         e = self.entry("BZX26.NYM", price=103.39, prev=105.28, change_pct=-1.8, asof=TODAY, is_future=True,
                        session="day", trade_date=TODAY, change_basis="regularMarketPreviousClose (prior bar 2026-09-22)")
@@ -279,7 +365,7 @@ class DashboardEveningBar(unittest.TestCase):
         e = self.entry("BZX26.NYM", price=103.39, prev=105.28, change_pct=None, asof=TODAY, is_future=True,
                        session="day", trade_date=TODAY, change_basis="withheld: prior bar is '2026-09-21', expected 2026-09-22")
         self.assertIsNone(e["change"])
-        self.assertIn("⚠prior bar missing, Δ withheld", e["flags"])
+        self.assertIn("⚠prior-bar gap, Δ withheld", e["flags"])
 
     def test_prefix_cache_futures_row_is_marked_not_verified(self):
         e = self.entry("BZX26.NYM", price=102.38, prev=99.25, change_pct=3.15, asof=TODAY, is_future=True)

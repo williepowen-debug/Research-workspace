@@ -1032,7 +1032,7 @@ def price_fetch(tickers, delta_threshold=0.0):
                 # L462 (2026-09-29): futures only. Equities/indices/FX get no session
                 # key and keep their change_pct exactly as before.
                 if results[t]["is_future"]:
-                    sess = futures_bar_session(md, results[t]["asof"], results[t]["prev_asof"])
+                    sess = futures_bar_session(md, results[t]["asof"], results[t]["prev_asof"], curr)
                     results[t]["session"] = sess["session"]
                     results[t]["trade_date"] = sess["trade_date"]
                     results[t]["session_basis"] = sess["session_basis"]
@@ -1441,8 +1441,8 @@ def contract_probe(root, horizon=5, exchange="NYM"):
 # read `day`; none is on the dashboard today.
 #
 # ⚠️ TWO ENDPOINTS: the price is fast_info (quote), the time is history_metadata
-# (chart). Nothing asserts they describe the same trade; the classification is
-# of the BAR and the quote's timestamp, and says so in `session_basis`.
+# (chart). L557 joins them by requiring regularMarketPrice to equal the quote;
+# a missing or mismatched chart price is unverified and the change is withheld.
 #
 # Fail-safe direction (same as L409): the PRICE is never nulled; only the
 # CHANGE is withheld, because the change IS the defect. Missing or unparseable
@@ -1467,8 +1467,8 @@ def _prev_session_date(d):
     return n
 
 
-def futures_bar_session(md, asof, prev_asof):
-    """Classify the last daily bar of a FUTURES result.
+def futures_bar_session(md, asof, prev_asof, quote_price=None):
+    """Classify a futures bar only when its quote and chart observations cohere.
 
     Returns a dict: session ∈ {day, evening-next-session, non-session-date,
     unverified} · trade_date (ISO or None) · session_basis (the rule and the
@@ -1478,6 +1478,7 @@ def futures_bar_session(md, asof, prev_asof):
     PRIOR bar is not the expected prior session still withholds the change
     (overnight window: the T-1 settle bar may not be restored yet)."""
     from datetime import datetime as _dt, timezone as _tz
+    from zoneinfo import ZoneInfo
     md = md or {}
 
     def _unverified(reason):
@@ -1492,10 +1493,28 @@ def futures_bar_session(md, asof, prev_asof):
     except (TypeError, ValueError):
         return _unverified(f"bar date {asof!r} unparseable")
     rmt = md.get("regularMarketTime")
+    if isinstance(rmt, bool):
+        return _unverified("regularMarketTime is boolean, not an epoch")
     try:
         rmt_i = int(rmt)
     except (TypeError, ValueError):
         return _unverified("regularMarketTime missing or invalid in history_metadata")
+    if rmt_i <= 0:
+        return _unverified(f"regularMarketTime {rmt_i} is not a positive epoch")
+    chart_price = md.get("regularMarketPrice")
+    if isinstance(chart_price, bool) or quote_price is None:
+        return _unverified("quote/chart price join unavailable (boolean chart price or missing quote price)")
+    try:
+        quote_price_f = float(quote_price)
+        chart_price_f = float(chart_price)
+    except (TypeError, ValueError):
+        return _unverified("quote/chart price join unavailable (nonnumeric price)")
+    if not math.isfinite(quote_price_f) or not math.isfinite(chart_price_f):
+        return _unverified("quote/chart price join unavailable (nonfinite price)")
+    if not math.isclose(quote_price_f, chart_price_f, rel_tol=1e-9, abs_tol=1e-9):
+        return _unverified(
+            f"quote/chart price mismatch: fast_info {quote_price_f} vs history_metadata {chart_price_f}"
+        )
     tzname = md.get("exchangeTimezoneName")
     tzinfo, tz_basis = None, None
     if tzname:
@@ -1511,26 +1530,31 @@ def futures_bar_session(md, asof, prev_asof):
         except (TypeError, ValueError):
             return _unverified(f"timezone unresolvable (exchangeTimezoneName {tzname!r}, gmtoffset {gmt!r})")
     try:
-        local = _dt.fromtimestamp(rmt_i, tzinfo)
+        local = _dt.fromtimestamp(rmt_i, tzinfo).astimezone(ZoneInfo("America/New_York"))
     except (OverflowError, OSError, ValueError) as te:
         # e.g. a millisecond epoch: 'year 58699 is out of range' must NOT escape into
         # price_fetch's history-failure branch, whose stated cause would be false.
         return _unverified(f"regularMarketTime {rmt_i} not a usable epoch ({type(te).__name__})")
     lt_date = local.date()
-    basis = (f"last trade {local.strftime('%Y-%m-%d %H:%M:%S')} [{tz_basis}] vs bar {asof}; "
-             f"day-session close {_DAY_SESSION_CLOSE_ET[0]:02d}:{_DAY_SESSION_CLOSE_ET[1]:02d} ET assumed (CME Globex energy/metals)")
+    basis = (f"last trade {local.strftime('%Y-%m-%d %H:%M:%S')} [America/New_York; source {tz_basis}] vs bar {asof}; "
+             f"quote/chart price joined at {quote_price_f}; day-session close "
+             f"{_DAY_SESSION_CLOSE_ET[0]:02d}:{_DAY_SESSION_CLOSE_ET[1]:02d} ET assumed (CME Globex energy/metals)")
     withheld_eve = ("withheld: evening bar spans two sessions — regularMarketPreviousClose is the settle "
                     "BEFORE the overwritten session")
     if asof_d.weekday() >= 5 or asof_d.isoformat() in US_MARKET_HOLIDAYS:
         return {"session": "non-session-date", "trade_date": _next_session_date(asof_d).isoformat(),
                 "session_basis": f"bar dated a non-session day; {basis}",
-                "withhold": True, "change_basis": withheld_eve}
+                "withhold": True, "change_basis": "withheld: bar is dated a non-session day"}
     if lt_date < asof_d:
-        # The vendor already re-labelled the evening bar with the next trade date
-        # (or a Sunday-evening trade sits under Monday's date).
-        return {"session": "evening-next-session", "trade_date": asof_d.isoformat(),
-                "session_basis": f"last trade precedes the bar date — the bar is the next session's evening trade; {basis}",
-                "withhold": True, "change_basis": withheld_eve}
+        if (local.hour, local.minute, local.second) >= _DAY_SESSION_CLOSE_ET \
+                and _next_session_date(lt_date) == asof_d:
+            return {"session": "evening-next-session", "trade_date": asof_d.isoformat(),
+                    "session_basis": f"last trade is the immediately preceding evening for the bar date; {basis}",
+                    "withhold": True, "change_basis": withheld_eve}
+        return _unverified(
+            f"last trade {local.isoformat()} is stale or mismatched for bar {asof}: "
+            "not the immediately preceding evening session"
+        )
     if lt_date == asof_d and (local.hour, local.minute, local.second) >= _DAY_SESSION_CLOSE_ET:
         return {"session": "evening-next-session", "trade_date": _next_session_date(asof_d).isoformat(),
                 "session_basis": f"last trade at/after the day-session close on the bar date; {basis}",
@@ -1540,11 +1564,15 @@ def futures_bar_session(md, asof, prev_asof):
     # day session — check the PRIOR bar is the expected prior session (overnight overwrite window)
     expected_prev = _prev_session_date(asof_d).isoformat()
     if prev_asof != expected_prev:
+        if prev_asof is None:
+            relation = "absent"
+        else:
+            relation = "newer than expected" if str(prev_asof) > expected_prev else "older than expected"
         return {"session": "day", "trade_date": asof_d.isoformat(),
                 "session_basis": f"day session; {basis}",
                 "withhold": True,
-                "change_basis": (f"withheld: prior bar is {prev_asof!r}, expected {expected_prev} — the prior "
-                                 f"session's settle bar is missing from the daily series (NYSE holiday table basis)")}
+                "change_basis": (f"withheld: prior bar {prev_asof!r} is {relation}; expected {expected_prev} "
+                                 "(NYSE holiday table basis)")}
     return {"session": "day", "trade_date": asof_d.isoformat(),
             "session_basis": f"day session; {basis}",
             "withhold": False, "change_basis": f"regularMarketPreviousClose (prior bar {prev_asof})"}
@@ -1560,7 +1588,11 @@ def _session_stamp(d, asof, today, ticker=None):
         # never rendered as a verified day bar (price cache TTL is 120 s).
         return f"{asof or 'date?'}⚠pre-fix"
     if sess == "evening-next-session":
-        return f"{str(asof)[5:]}⚠eve→{str(d.get('trade_date'))[5:]}"
+        stamp = f"{str(asof)[5:]}⚠eve→{str(d.get('trade_date'))[5:]}"
+        if str(asof) != today and not (
+                str(asof) == str(d.get("trade_date")) and str(asof) > today):
+            stamp += " ⚠stale"
+        return stamp
     if sess == "non-session-date":
         return f"{str(asof)[5:]}⚠non-session"
     if sess == "unverified":
