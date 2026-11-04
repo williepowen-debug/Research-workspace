@@ -114,6 +114,11 @@ FULL approved-maintenance closeout; light narrative debt cleared. Operational co
       "commit": "9f9212401c037ebf826b5363ce65c8f14ead9510",
       "state": "published",
       "note": "Reboot payload published; 14 handoffs reconciled."
+    },
+    {
+      "commit": "88c33321c97b2b064371755b82d687e2ed85389a",
+      "state": "pending",
+      "note": "Approved maintenance; no WALTER push."
     }
   ],
   "delivery": {
@@ -182,7 +187,7 @@ FULL approved-maintenance closeout; light narrative debt cleared. Operational co
     "14": "MEMORY session note current; no auto-memory promotion; November 5 calendar review remains due.",
     "root.retirement": "Retained live source/review references; no safe unused-source retirement identified, no deletion sweep.",
     "15": "All completed ISHM/LIQUID work reconciled. DEWEY005R resolved,003R exact residual retained. Existing approvals, WAL no-restart and source-search stopping rules preserved.",
-    "16": "Exact-path maintenance commit and publication reconciliation pending; foreign work preserved, no self-push authority inferred.",
+    "16": "Maintenance 88c33321c committed exact paths; publication pending coordinated push; foreign dirty work preserved.",
     "checks": "Receipt, caps, archives, weekdays and memory PASS; local basis MATCH after reviewed root deltas. READS UNKNOWN (central attestation stale). Doctor 0 HIGH/2 MED: older consumption and 003R residual. Registry/DEWEY changed; no kill/fire event. Final targeted outputs retained.",
     "Tier1": "No new market data or event grade; stale continuity corrected using committed owner evidence."
   }
