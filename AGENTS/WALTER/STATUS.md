@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-04T22:32:56Z — approved maintenance complete; FULL closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-04T22:55:33Z — CLOSED on Will request; FULL closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-November 4: 76 source-qualified cards and 209 origin-proven handoffs; recipient consumption is separate. Intake batches closed. ISHM survey and equipment/rail backlog results consumed; LIQUID renewed HY persistence routed with X1 CLOSED / DON'T-SIZE. Maintenance complete: DEWEY 005R resolved via existing work, 003R partial with exact residual; missed-day, CRUISE and supplier-query recommendations ready, not deployed.
+CLOSED on Will request. November 4: 76 source-qualified cards and 209 origin-proven handoffs; recipient consumption is separate. Intake batches closed. ISHM survey and equipment/rail backlog results consumed; LIQUID renewed HY persistence routed with X1 CLOSED / DON'T-SIZE. Maintenance complete: DEWEY 005R resolved via existing work, 003R partial with exact residual; missed-day, CRUISE and supplier-query recommendations ready, not deployed.
 
 BALANCED baseline retained; labor intake LOOSE for November 6 payrolls. No new market pull in this maintenance pass. Full narrative debt cleared; dated source and owner gaps remain in LAST_COMPLETION.md.
 
@@ -64,9 +64,9 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed first at 2026-11-04T22:32:56Z: 49 rows; 43 available owner lead excerpts manually reviewed. Seven mirrors refreshed: PROME, WAL, LIQUID, ISHM, DAEDALUS, NEXUS and WALTER. Colors/classes unchanged. Snapshot and scope: research/2026-11-04_maintenance/registry-review.json.
+REGISTRY refreshed before NETWORK at 2026-11-04T22:55:33Z. All 43 available owner lead excerpts compared with maintenance snapshot; LIQUID and WAL changed, self closed. WAL now records completed source/extraction, not UNCHECKED; LIQUID synthesis adds no market grade. Colors/classes unchanged. Evidence: research/2026-11-04_final-close/owner-headers.json and REVIEW.md.
 
-Complete cross-runtime lifecycle visibility remains UNKNOWN. Three bounded maintenance verification helpers finished; no ongoing WALTER study. Lead dates do not certify full domain freshness. Current duties and publication proof remain in LAST_COMPLETION.md.
+Complete cross-runtime lifecycle visibility remains UNKNOWN. No active WALTER helper, study or unattended task. Dates/headers do not certify full domain freshness. Current duties and publication proof remain in LAST_COMPLETION.md.
 
 ## Active LIAISON channels
 

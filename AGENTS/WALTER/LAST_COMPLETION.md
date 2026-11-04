@@ -1,10 +1,10 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-04T22:32:56Z, OpenAI Codex, exact model unknown. Approved maintenance complete; FULL closeout, coverage PARTIAL.
+Updated 2026-11-04T22:55:33Z, OpenAI Codex, exact model unknown. CLOSED on Will request; FULL closeout, coverage PARTIAL.
 
 ## STATUS
 
-Approved maintenance complete: continuity refreshed; DEWEY queue reconciled; missed-day, CRUISE capital-event and supplier-query reviews finished. Three bounded helpers completed. No active WALTER study, trade or unattended task. Full narrative deferrals cleared. Evidence: research/2026-11-04_maintenance/REVIEW.md.
+Session CLOSED on Will request. Approved maintenance complete: continuity refreshed; DEWEY queue reconciled; missed-day, CRUISE capital-event and supplier-query reviews finished. Three bounded helpers completed. No active WALTER study, trade or unattended task. Full narrative deferrals cleared. Evidence: research/2026-11-04_maintenance/REVIEW.md.
 
 November 4 total: 76 BOARD cards, 209 origin-proven handoffs, zero kill rows. Original catch-up batches 464 intake records and 57 bookmark content units closed; 49 bookmark IDs marked. Reboot batch 24 incremental items closed. Later LIQUID and ISHM packets consumed. Delivery is not recipient use.
 
@@ -22,9 +22,8 @@ Trepp office 12.16% then 12.33% meets the registered two-print condition; formal
 
 ## GAPS
 
-- Latest recovery packet d6e13e5d7 is published; recovery report and WAL notice byte-matched on origin/master 655886c69. Consumption remains unproved. Will accepted the search limits, prohibited expansion, and explicitly authorized safe-push; ten preexisting dirty files were preserved. Bounded recovery result is NOT RECOVERED, not a finding that no copy exists on other machines. No further recovery is assigned.
-
-- Publication: payload `c2fcc0377fe9fd60971d0b5ba4a2d9a4a21a7492` is published: fresh fetch proves ancestry under origin/master `019881e2b2588b0dfffe9ace926f2e402bcfc5e8`. The original 187 catch-up handoffs, plus 22 subsequent copies (209 total), are origin-proven delivered and reconciled; no recipient consumption inferred. WALTER did not push. For this publication Will explicitly authorized safe-push despite foreign dirty files; the workflow succeeded without touching them. Commit, publication, delivery and consumption remain distinct. November 2's 39 handoffs remain previously origin-proven; historical closeout is preserved in git.
+- Historical WALTER recovery report/notice published; Will accepted NOT RECOVERED and prohibited search expansion. Separately, WAL now verified complete freshly retrieved Q3 source bytes and independent extraction (November 4 report; MI3 19.81%, no weight/score change). Source/access is no longer its blocker. This does not rewrite WALTER's earlier failed recovery or resolve attribution/parent-bank gaps. No WALTER search restarted.
+- Publication: all 209 November 4 handoffs are origin-proven and reconciled; no consumption inferred. Earlier specifically authorized safe-push windows were bounded completed actions, not blanket WALTER authority. Current maintenance/final-close publication is tracked in the receipt below; foreign work preserved.
 - Intake coverage: November4 21:01Z collector healthy;24 incremental flagged news/filing units dispositioned at reboot. Prior catch-up: All 464 titles were screened, not every original article. Cards 057–068 explicitly retain source-body/owner-overlap gaps. Bookmarks: five fully read, 44 partly read; videos not watched. Exact gaps/reopen conditions are in REVIEW.md and the verification reports. No unattended monitoring or comprehensive all-news claim.
 - Source-complete threshold checks are separate from all 48 registered IDs. Trepp's two-print observation is complete; CREED qualitative/cohort events remain owner-limited. Official oil/TTF settles, France/Italy compound legs, complete monthly PMIs and qualitative censuses remain missing. Futures returns were refused on rounded quote/chart mismatch (87.48999786376953 versus 87.49); no return bypass/proxy. Existing broad-HY fires are not new fires; REG-T-04 >350 x3 remains not met, 10 bp watch at November 3 HY 340. VIX exit observations are 3/5, not owner closure.
 - UNG WQ-573: sampled NOAA GFS f000 10 hPa/60N means +3.903807 m/s [November 3 00Z], +1.791158 [November 4 00Z], +1.092857 [12Z]. Positive analyses do not meet <0; unsampled intervals unknown. AEOLUS acceptance/canonical logging remains owed. UNG November 2/3 closes $9.00/$9.13 are below the $10.40 prior-close void. Approved five January 15, 2027 10/12 call spreads retain debit ≤$0.50, maximum loss $256.50, observed reversal by November 12, red day by November 20, entry <$10.40 and every owner guard. Broker quote/fees and current option chain not obtained; no order. Original fallback versus AEOLUS-logged wording still requires owner reconciliation; no alternate fire authority.
@@ -87,7 +86,7 @@ FULL approved-maintenance closeout; light narrative debt cleared. Operational co
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-04T22:32:56Z",
+  "as_of": "2026-11-04T22:55:33Z",
   "next_review": "2026-11-05",
   "publication": [
     {
@@ -117,7 +116,7 @@ FULL approved-maintenance closeout; light narrative debt cleared. Operational co
     },
     {
       "commit": "88c33321c97b2b064371755b82d687e2ed85389a",
-      "state": "pending",
+      "state": "published",
       "note": "Approved maintenance; no WALTER push."
     }
   ],
@@ -169,26 +168,34 @@ FULL approved-maintenance closeout; light narrative debt cleared. Operational co
       {
         "path": "AGENTS/LIQUID/research/2026-11-04_credit-followthrough/REPORT.md",
         "sha256": "a475284e949db987cb72b157ea0575da63d5cf60839165b626160016e6dee68e"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-04_final-close/REVIEW.md",
+        "sha256": "59763e767ab104cb5b7b229046798f45f1e2ac44455640bd429fea31f410a2a5"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-04_final-close/owner-headers.json",
+        "sha256": "378f5a0f343bc67d876fc9293a54ec66accc79f1e58ad29747ed081594d3ab08"
       }
     ]
   },
   "procedure": {
     "tier": "full",
     "boot": "PARTIAL: source/settlement/owner coverage and central READS attestation gaps retained.",
-    "session": "Approved maintenance complete; three helpers finished, full narrative debt cleared, no production deployment or unattended work."
+    "session": "CLOSED on Will request; FULL continuity, no active helper/study or unattended work."
   },
   "manual_duties": {
     "11": "No new BOARD cards in maintenance; 76 daily cards/209 origin-proven handoffs. Prior batches closed. Administrative reconciliation/recommendation packets authored.",
-    "13": "43 owner lead excerpts reviewed; seven REGISTRY mirrors refreshed before NETWORK, colors/classes retained.",
+    "13": "43 owner lead excerpts compared; changed WAL/LIQUID plus self refreshed before NETWORK.",
     "12(a,b)": "Current counts and NETWORK refreshed; market rows retain prior observation dates, no fresh scan claimed.",
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; standing flags unchanged.",
     "12(d,e)": "FULL session entry and current bottom line; light narrative debt cleared.",
     "12(f)": "Continuity source-search ruling rotated verbatim to dated SOURCE-SEARCH-RULING.md; live pointer preserves exact reopen conditions. Final cap check passed.",
-    "14": "MEMORY session note current; no auto-memory promotion; November 5 calendar review remains due.",
+    "14": "MEMORY closed-session note refreshed; no promotion, November 5 calendar review retained.",
     "root.retirement": "Retained live source/review references; no safe unused-source retirement identified, no deletion sweep.",
-    "15": "All completed ISHM/LIQUID work reconciled. DEWEY005R resolved,003R exact residual retained. Existing approvals, WAL no-restart and source-search stopping rules preserved.",
-    "16": "Maintenance 88c33321c committed exact paths; publication pending coordinated push; foreign dirty work preserved.",
-    "checks": "Receipt, caps, archives, weekdays and memory PASS; local basis MATCH after reviewed root deltas. READS UNKNOWN (central attestation stale). Doctor 0 HIGH/2 MED: older consumption and 003R residual. Registry/DEWEY changed; no kill/fire event. Final targeted outputs retained.",
+    "15": "Duties/approvals retained. WAL complete-source owner result supersedes its access blocker, not historical WALTER failed recovery. No new grade or restarted search.",
+    "16": "Maintenance publication reconciled against fresh origin; final-close exact-path commit pending. No WALTER push; foreign dirty files preserved.",
+    "checks": "Final receipt/caps/archives/weekdays/basis/memory PASS. READS UNKNOWN: central attestation stale. Doctor0 HIGH/2 MED: older consumption backlog and003R residual. Ledger nudge reviewed: REGISTRY updated; no new route/kill/fire events. Local consumption declarations already committed; remote visibility separate.",
     "Tier1": "No new market data or event grade; stale continuity corrected using committed owner evidence."
   }
 }
