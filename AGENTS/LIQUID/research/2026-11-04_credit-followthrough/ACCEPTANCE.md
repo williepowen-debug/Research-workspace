@@ -13,3 +13,5 @@ Acceptance conditions, written before code edit:
 5. Keep dependent L4 operational use withheld until consequential-repair independent verification. Unaffected L1/072/HY/funding work proceeds. No frozen row edits.
 
 Neighbour categories: ordinary = reproduction plus immediately lower/higher close and HY+4/+5. Overlap = exactly-equity boundary coincides with exactly-credit boundary and a different qualifying cohort name. Wrong owner = do not add new cohort names or substitute adjusted closes. Missing information = existing missing-bar/HY tests must still fail closed. Concurrent activity = N/A to pure arithmetic comparison (no persistent writes or shared input mutation in function).
+
+Before the operational-withholding edit: the normal CLI must refuse with a nonzero status while independent release is pending. Offline selftests and pure-function author evaluation remain available. This is temporary withdrawal under WQ-229, not a changed gate rule. Removal of the release hold requires the independent result receipt for this exact candidate.

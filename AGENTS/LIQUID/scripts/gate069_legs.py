@@ -219,6 +219,11 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--selftest", action="store_true"); a = ap.parse_args()
     if a.selftest:
         return selftest()
+    # November4 exact-boundary repair: author-tested candidate, independent result
+    # release pending. Pure functions remain available for review; no operational grade.
+    print("WITHHELD: November4 L4 decimal-boundary candidate awaits independent result release; "
+          "see research/2026-11-04_credit-followthrough/ACCEPTANCE.md. No operational grade.")
+    return 4
     sys.path.insert(0, "FORGE/tools/market-data")
     print("=" * 96)
     print("  GATE-LIQ-069 — L1 / L4 graded here · L2 → scripts/crwv_cds_grade.py · L3 NO_INSTRUMENT · L5 secondary-sourced")
