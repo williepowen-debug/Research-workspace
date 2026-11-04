@@ -1,5 +1,7 @@
 # NEXUS workbook
 
+**Latest snapshot: November 4 catch-up**, materialized 2026-11-04T15:35:05-05:00. [Evidence](EVIDENCE_2026-11-04.tsv), [test readings](TEST_READINGS_2026-11-04.tsv), [conditions](CONDITIONS_2026-11-04.tsv), [manifest](MANIFEST_2026-11-04.json). L16 UP and M07 DOWN grades are recorded; L13 and future windows remain open. Source and observation cutoffs differ by row; carried filing-dependent evidence retains its old cutoff. [Current report](../research/2026-11-04_catchup/REPORT.md). These are frozen snapshots; STATUS/PREDICTIONS remain authority. The November2 files below are preserved history.
+
 Dated working tables for the November 2 transmission report. **These are frozen report snapshots, not live market readings or separate forecast ledgers.** The source report read data at 2026-11-02T10:00:13-05:00. Each row retains its observation date, basis and source; unknown values remain distinct from measured zero. No new threshold, probability or duty is introduced.
 
 | Table | Contents |

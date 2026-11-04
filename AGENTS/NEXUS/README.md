@@ -1,5 +1,7 @@
 # NEXUS
 
+**Latest catch-up:** [November4 report](research/2026-11-04_catchup/REPORT.md) and [source/grade record](research/2026-11-04_catchup/RECORD.md); [dated workbook](workbook/README.md). L16 UP graded; M07 DOWN graded; L13 and remaining future resolvers retain their conditions. November2 report below is historical.
+
 Cross-domain synthesis: convergence, contradictions, transmission and falsifiers. Domain desks retain ownership of their evidence and grades.
 
 | Start here | Purpose |

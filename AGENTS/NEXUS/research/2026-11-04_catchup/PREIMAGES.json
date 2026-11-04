@@ -1,0 +1,30 @@
+{
+  "status": "RETAINED-HISTORY: all *_BEFORE.md files are exact pre-pass snapshots; not current state",
+  "files": {
+    "STATUS.md": {
+      "bytes": 23559,
+      "crc32": "2432ebc8",
+      "sha256": "c5a01253523b6d541e6139afb0bb1ace16f267252dc645e9c0d3ba6ed3fadd2e"
+    },
+    "PREDICTIONS_MONITOR.md": {
+      "bytes": 21768,
+      "crc32": "f45a93d7",
+      "sha256": "8409c22674891d55e2c967f6c8509da43097616c3827aa8a56b133d2fffaa170"
+    },
+    "CONFIRMED.md": {
+      "bytes": 12744,
+      "crc32": "937a9435",
+      "sha256": "33188ff6f15ec619ceb82f78d33d660538814899edeb4c301c403c6845a2e308"
+    },
+    "BRIEFS_MAP.md": {
+      "bytes": 20030,
+      "crc32": "19ac6947",
+      "sha256": "241c52560825e9042d846e34bc9acc3db079891319378dcc4fd35d54ba5272fb"
+    },
+    "LAST_COMPLETION.md": {
+      "bytes": 18512,
+      "crc32": "cdebe7cc",
+      "sha256": "4de392f270f86fcde7c9dbf1d94f16c7d20196775b42a0167e90f417256bba55"
+    }
+  }
+}

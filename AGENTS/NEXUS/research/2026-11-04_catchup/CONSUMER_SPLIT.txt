@@ -1,0 +1,155 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/NEXUS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 20/47/33 → current 26/41/33
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (62)
+        AGENTS/DAEDALUS/profiles/NEXUS.md:15  [20/47/33]
+           Cross-agent signal synthesis — convergence detection, contradiction flagging, narrative formation. **Class: Utility** (`BLUEPRINTS/utility-a
+        AGENTS/DAEDALUS/profiles/NEXUS_REFRESH_2026-09-03_READER_REPORT.md:31  [20/47/33]
+           | `STATUS.md` | **32,508** | 170 | `1c54b76e1` 9/3 | Hot board: header (Updated 9/3, Last full matrix review 9/2, READ-CAP CURED line, SLATE
+        AGENTS/DAEDALUS/scorecards/2026-09-11.md:363  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/scorecards/2026-09-04.md:358  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/scorecards/2026-09-18.md:437  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/scorecards/2026-10-23.md:993  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/scorecards/2026-10-16.md:946  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/scorecards/2026-10-02.md:750  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/scorecards/2026-10-30.md:989  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/scorecards/2026-09-25.md:471  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/scorecards/2026-10-09.md:854  [20/47/33]
+           - `OK — $0, NO THRESHOLD MOVED; PJM 202(C) = A NEW EVIDENCE TYPE (EXECUTED REGULATORY-OPERATIONAL ACTION) ARMED NOT COUNTED, 0PP, SPLIT UNCH
+        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R1_meta_utility.md:400  [20/47/33]
+           | L3 | role rubric applied consistently | **MET** | matrix M-01…M-11, R1–R11, T-01…T-24, 20/47/33 split; `templates/NEXUS_BRIEF_SCHEMA.md` §
+        AGENTS/DAEDALUS/builds/2026-09-03_DOCKET_VIEW_SCRATCH_RENDER_SAMPLE.md:14  [20/47/33]
+           **3. TAPE (9/2 closes, yfinance — DEAD by the 9/3 open; re-pull before citing):** WAL $79.12 (+2.41%; REG-T-02 exit ≥81.90 ×3 = $2.78 above,
+        AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/production_commits.txt:2399  [20/47/33]
+           eac4e605a NEXUS: L554 wake 10/8 - split held 20/47/33, eight Disc-J letters, PRED-50 armed, drain 5/5
+        AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/docket.html.txt:307  [20/47/33]
+           Recorded state: PENDING · +2026-10-01 19:5x ET (PROME prome-2f): THIS 10/6 fire ALSO carries, by NEXUS's own 10/1 sweep (afdde2aab, on origi
+        AGENTS/WALTER/research/2026-10-16_finish/prior-REGISTRY.tsv:14  [20/47/33]
+           NEXUS	1	CC	COP synthesis, convergence scoring	CONVERGENCE	SYNTHESIS	ALL	WILL,PROME	YELLOW	2026-10-15	Header-only 2026-10-16T16:48:07Z; Owner
+        AGENTS/CATO/runs/2026-10-19_1150_morning-research-review.md:56  [20/47/33]
+           Current VIX/B/CCC pairs support one-of-two, not a fire. [FRED DFII10](https://fred.stlouisfed.org/series/DFII10) still serves October 15 = 2
+        PROME/BRIEF.md:19  [20/47/33]
+           NEXUS completed its full matrix and desk-brief synthesis, including OTTO’s final attribution result. The shared high-yield spread warning ha
+        PROME/GATES.tsv:19  [20/47/33]
+           GATE-NEXUS-T12S-DFII10	2026-09-24 (WQ-261 RULED, Will 14:59 ET verbatim "Approve WQ-282, 254, 261, 260 and 276 with your recs" — rec ①, enco
+        PROME/GATES.tsv:23  [20/47/33]
+           GATE-NEXUS-WQ459-HY	2026-10-19	NEXUS	Guarded HY (FRED BAMLH0A0HYM2; CCC guard FRED BAMLH0A3HYC): 15 qualified observations AFTER ruling-date
+        PROME/HEARTBEAT_COLD.md:140  [20/47/33]
+           **① 🔴 POWER — a channel this memo did not carry: PJM is in a LIVE capacity emergency** (WATT `b325bc906`): NERC EEA-1 on 9/1 · 9/2 · 9/3, Pr
+        PROME/HEARTBEAT_COLD.md:162  [20/47/33]
+           > **AMENDMENT #3 — Thu 9/3 ~07:4x ET (PROME; waves 3–4, 13 desks, 9/2 22:0x → 9/3 07:33; figures verified at the owner's commit on origin; →
+        PROME/HEARTBEAT_COLD.md:301  [20/47/33]
+           - **Hormuz (NEXUS M-06, R2+R9, 43%, 9/7):** the Kharg strike video was AI-GENERATED (FAL-01 FIRM-NEGATIVE); the blockade STATE lapsed, loadi
+        PROME/HEARTBEAT_COLD.md:313  [20/47/33]
+           > **AMENDMENT #1 — 2026-09-11 12:1x ET Fri** (closeout write-back on the fourteenth base; the morning's nine desk touches + Will's hand; evi
+        PROME/HEARTBEAT_COLD.md:317  [20/47/33]
+           > **AMENDMENT #1 — 2026-09-11 12:1x ET Fri** (closeout write-back on the fourteenth base — nine desk touches + Will's hand; long-form → cold
+        PROME/HEARTBEAT_COLD.md:329  [20/47/33]
+           **§3.3 Credit.** **CRMT chronology:** waiver ~10 weeks → 8-K 9/4 extends 9/7 → 9/11 → **8-K `0001171843-26-005989`, accepted 2026-09-11 07:0
+        PROME/HEARTBEAT_COLD.md:946  [20/47/33]
+           > **AMENDMENT #1 — Sun 2026-10-04 13:46 ET (PROME prome-ed; owner statement restored — no level, gate, count or market data changed; nothing
+        PROME/HEARTBEAT_COLD.md:999  [20/47/33]
+           - **NEXUS (memo `…from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md`, 08:42 ET):** split re-dated 10/8 and HELD 20/47/33 on the L13 lett
+        PROME/HEARTBEAT_COLD.md:1022  [20/47/33]
+           > **AMENDMENT #2 — Thu 2026-10-08 11:43 ET (PROME prome-fc; intraday owner-grade mirror).** ICE [10/7, FRED 11:03 ET]: HY OAS 309 · IG 82 · 
+        PROME/HEARTBEAT_COLD.md:1043  [20/47/33]
+           - **PRED-50 [NEXUS]:** quiet-session widening ✅ OBSERVED (n=4 W2 T0 F2, thin margin; re-pull 10/13); attribution: LIQUID (ladder-wide by qua
+        PROME/plans/2026-10-09_heartbeat-29th-rebase-PLAN.md:64  [20/47/33]
+           33. PRED-50: ✅ OBSERVED is a BEHAVIOR (n=4 W=2 T=0 F=2, thin margin); the attribution reads found no mechanism; Root B stays a CANDIDATE; no
+        PROME/proposals/2026-09-11_heartbeat-am2-projection-DRAFT.md:27  [20/47/33]
+           - **`split` — OMITTED.** NEXUS 20/47/33 unchanged by Amendment #2.
+        PROME/proposals/2026-11-04_wq594-597-RULED.md:58  [20/47/33]
+           GATE-NEXUS-T12S-DFII10	2026-09-24 (WQ-261 RULED, Will 14:59 ET verbatim "Approve WQ-282, 254, 261, 260 and 276 with your recs" — rec ①, enco
+        PROME/registry/WQ_LEDGER.tsv:251  [20/47/33]
+           224	UPDATED	2026-09-14	T-12 successor path	RULE	2026-09-19	9/11	OPEN	—		Rec (i) if it costs nothing — a feed some desk already holds; else (
+        PROME/registry/WQ_LEDGER.tsv:290  [20/47/33]
+           224	UPDATED	2026-09-17	T-12 successor path	RULE	2026-09-19	9/11	OPEN	—		Rec (i) if it costs nothing — a feed some desk already holds; else (
+        PROME/registry/WQ_LEDGER.tsv:302  [20/47/33]
+           224	UPDATED	2026-09-17	T-12 successor path	RULE	2026-09-19	9/11	OPEN	—		Rec (i) if it costs nothing — a feed some desk already holds; else (
+        PROME/registry/WQ_LEDGER.tsv:311  [20/47/33]
+           224	UPDATED	2026-09-17	NEXUS 9/17 (PROME/inbox/processed/2026-09-17_from-NEXUS_full-matrix-sweep-delivered-and-the-T12-successor-ask-for-Wil
+        PROME/registry/WQ_LEDGER.tsv:316  [20/47/33]
+           224	UPDATED	2026-09-17	🔴 RULED 2026-09-17 18:3x ET	LIQUID	2026-09-17	RULE	OPEN	—		2026-09-19 (before the spawn-driver review L291; no market
+        PROME/registry/WQ_LEDGER.tsv:317  [20/47/33]
+           261	REGISTERED	2026-09-17	T-12 SUCCESSOR	RULE	2026-09-19	9/17	OPEN	—		🟢 Rec: ① — bless the real-rate leg by YOUR word (a ruling amends the f
+        PROME/registry/WQ_LEDGER.tsv:318  [20/47/33]
+           224	UPDATED	2026-09-17	ANSWER 1 of 3	LIQUID	2026-09-17	RULE	OPEN	—		2026-09-19 (before the spawn-driver review L291; no market clock)	{"by_r
+        PROME/registry/WQ_LEDGER.tsv:322  [20/47/33]
+           224	UPDATED	2026-09-18	ANSWER 2 of 3	LIQUID	2026-09-17	RULE	OPEN	—		2026-09-19 (before the spawn-driver review L291; no market clock)	{"by_r
+        PROME/reports/2026-10-07_nexus-seat-01-candidate-list.md:39  [20/47/33]
+           | WQ-224 | 2026-09-18 | NEXUS matrix line: seek flow feed, else carry unfalsifiable | NEXUS 9/11 memo: T-12 C#2 graded NO-VERDICT, split 20/
+        PROME/reports/2026-09-12_heartbeat-15th-rebase.md:55  [20/47/33]
+           7. **Un-glossed identifiers and scores used as if known:** 20/47/33 · 29/75 · "composite 14/20" · "BAND B, 0 of 5 axes" · 1A/1B/2A · "HEN-44
+        PROME/reports/2026-10-19_morning-boot.md:57  [20/47/33]
+           Will launched independent NEXUS `01a1548b-7607-75c3-8730-86a7a2aba119` and explicitly authorized direct orchestration. Consumed `PROME/inbox
+        PROME/reports/2026-10-26_nexus-full-review-consumption.md:5  [20/47/33]
+           Literal proximity alert received: at least seven NEXUS lines within 20%, one market-repricing class. Existing literal line rule applies; pre
+        PROME/reports/2026-09-11_heartbeat-14th-rebase.md:42  [20/47/33]
+           | F24 | War | Hormuz: **~59 transits/day = 1.7× THROUGH the >35/day kill bar** (NEXUS M-06; PortWatch control FAILED at both desks ⇒ positiv
+        PROME/reports/2026-10-14_evening-inbox-consumption.md:34  [20/47/33]
+           **Addendum 21:0x ET — NEXUS** `…from-NEXUS_catch-up-reanchor-S1-C1-committed-M06-letter-DEFECTIVE-PRED50-closed.md` (3d7442c03, Will-launche
+        PROME/reports/2026-10-04_boot-assessment-reconciliation.md:29  [20/47/33]
+           - **Second, latent mismatch:** NEXUS writes "Grind-lasts 47%"; the worded regex expects "Grind <n>". A verbatim copy into HEARTBEAT would st
+        PROME/reports/2026-10-04_boot-assessment-reconciliation.md:52  [20/47/33]
+           3. **NEXUS panel:** content, not code — at the next HEARTBEAT re-base (size re-check due 10/05), carry NEXUS's split in the compact form the
+        PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:6  [20/47/33]
+           **Central judgment — PROME synthesis:** Friday's break was an equity event; credit moved a session earlier and then barely followed. The S&P
+        PROME/reports/2026-10-31_heartbeat-rebase/result-read.md:14  [20/47/33]
+           Traced clean: S&P 7,580.07 / 120 pts through 7,700 / flips 7,732-7,736, QQQ 725-727, NDX, OI 10/29 vintage, L888 (HENRY L7, L16, L26-28); QQ
+        PROME/reports/2026-10-31_heartbeat-rebase/before.md:6  [20/47/33]
+           **Central judgment — PROME synthesis:** The week's stress moved from Brazil and credit into equities: an AI-capex repricing across the compl
+        PROME/reports/2026-10-31_heartbeat-rebase/before.md:70  [20/47/33]
+           - **Equity / AI:** QQQ-card T1 FIRED October 23, Will-filled; HENRY's gamma read is current to October 29; HENRY's frozen November letters: 
+        PROME/reports/2026-10-26_nexus-consumption/result-read.md:12  [20/47/33]
+           ✅ #9 Split20/47/33 agrees with GRADE and owner header.
+        PROME/reports/2026-10-26_nexus-consumption/before-GATES.tsv:19  [20/47/33]
+           GATE-NEXUS-T12S-DFII10	2026-09-24 (WQ-261 RULED, Will 14:59 ET verbatim "Approve WQ-282, 254, 261, 260 and 276 with your recs" — rec ①, enco
+        PROME/reports/2026-10-26_nexus-consumption/before-GATES.tsv:23  [20/47/33]
+           GATE-NEXUS-WQ459-HY	2026-10-19	NEXUS	Guarded HY: 15 qualified observations AFTER ruling-date anchor; UP HY>=L+10bp for3; DOWN HY<=L-10bp for
+        PROME/reports/2026-10-26_nexus-consumption/RECORD.md:3  [20/47/33]
+           Owner commit8a66a0c57 verified as an ancestor of fetched origin/master. Read complete owner packet and research/2026-10-26_boot/RECORD.md; c
+        PROME/reports/2026-10-26_nexus-consumption/prior-gate-state.txt:1  [20/47/33]
+           LIVE — anchor 10/19 QUALIFIED: L 329 · C₀ 1,310 (UP ≥339 ×3 · DOWN ≤319 ×3 + CCC ≤1,310); 2 of 15 cells (333 [10/20] · 327 [10/21]), no run;
+        PROME/reports/2026-10-29_heartbeat-rebase/candidate.md:6  [20/47/33]
+           **Central judgment — PROME synthesis:** The week's stress moved from Brazil and credit into equities: an AI-capex repricing across the compl
+        PROME/reports/2026-10-29_heartbeat-rebase/candidate.md:64  [20/47/33]
+           - **Equity / AI:** QQQ-card T1 FIRED October 23, Will-filled; HENRY's gamma read is current to October 29; HENRY's frozen November letters: 
+        PROME/reports/2026-10-29_heartbeat-rebase/before.md:10  [20/47/33]
+           **Amendment 2 — October28 night closeout, PROME prome-92:** The FOMC HELD 3.75–4.00% on October 28, 10–2, Cook and Hammack dissenting FOR a 
+        PROME/reports/2026-10-29_heartbeat-rebase/before.md:11  [20/47/33]
+           **Amendment 3 — October29 morning closeout, PROME prome-92 (owner grades from the overnight wakes; nothing fired):** HENRY graded the FOMC d
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (13)
+        PROME/DOCKET.tsv:289  [20/47/33]  (dated TSV row (2026-09-11) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-11	NEXUS second-C read at the August CPI print — C #1 of 2 fired 8/28 (NON-RENEWABLE clause ARMED); a second C at the 9/11 CPI is TH
+        PROME/DOCKET.tsv:554  [20/47/33]  (dated TSV row (2026-11-03) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-11-03	NEXUS WEEKLY WAKE (TUESDAY) — WQ-343 RULED APPROVE (Will 2026-09-29 17:16 ET, verbatim "Approve WQ-343"): a dated weekly Tuesday 
+        PROME/DOCKET.tsv:573  [20/47/33]  (dated TSV row (2026-10-30) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-30	NEXUS M-08 / M-09 WINDOW CLOSE on the 10/30 FRED cells — M-08: B ≥330 AND CCC ≥1,200 on two cells ⇒ +4 · B ≤290 on two cells ⇒ −4
+        PROME/DOCKET.tsv:832  [20/47/33]  (dated TSV row (2026-10-26) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-10-26	NEXUS — MONDAY READ (NEXUS ask 2, registered so the read has a wake that is not the desk's memory): after the H.15 / FRED publica
+        PROME/state/ORCH_LOG.tsv:16  [20/47/33]  (dated TSV row (2026-09-02) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-02	NEXUS	subagent	1	Systems-review commission leg ① (DOCKET L206, Will 8/17) unrun since 8/29; 23 inbox (8 root + held-note + 14 WAL
+        PROME/state/ORCH_LOG.tsv:38  [20/47/33]  (dated TSV row (2026-09-03) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-03	NEXUS	subagent	1	WALTER doorbell 19:4x on SIG-W-20260903-003 (LIVE PJM emergency; DOE 202(c) order lapses 23:59 9/8 = inside NEXU
+        PROME/state/ORCH_LOG.tsv:58  [20/47/33]  (dated TSV row (2026-09-07) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-07	NEXUS	subagent	1	PROME Tier-1 DUE-ROW spawn 12:1x under WQ-184 L0: DOCKET L39 Forum falsifiers grade day 1 (ABN re-run + copy-kil
+        PROME/state/ORCH_LOG.tsv:107  [20/47/33]  (dated TSV row (2026-09-11) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-11	NEXUS	subagent	1	DOCKET L289 due 9/11 (T-12 C#2 grade on the pinned window) + count-once weigh of the Petroline-night evidence ty
+        … +5 more 🟠 hit(s) on [20/47/33] across 3 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (11)  [--show-handled to audit]
+
+  🔴 62 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

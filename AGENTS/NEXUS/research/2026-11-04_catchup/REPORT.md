@@ -1,0 +1,22 @@
+# NEXUS catch-up — 2026-11-04T15:37:19-05:00
+
+Credit-price stress persisted long enough to fire our existing test. The required adjustment moves historical judgment weights from **Break 20 / Grind 47 / Unresolved 33 to 26 / 41 / 33**. These are not calibrated probabilities; Unresolved is not adequately defined as a mutually exclusive economic outcome. Investment-grade spreads also completed the test that weakens the calm-credit counterargument. Neither result establishes broad financing restrictions, forced selling or a current bank-loss cascade. Fresh public repo and WAL/REGINALD bank evidence remain counter-signals.
+
+| Existing test | Verified outcome | Consequence |
+|---|---|---|
+| L16 guarded HY | HY 344 /343 /340 bp, observations 10/30,11/2,11/3; all ≥ 339, qualifying cells 9–11 | UP HIT at 11/3. Break+6 pp from Grind. Window CLOSED, no C/renewal. |
+| L16 mechanism / revisions | IG 93 [11/3]−87 [10/19 anchor]=+6 bp. HY/CCC anchor/window values agree with saved first reads and latest-revised pull | TRUE-in-spirit under the registered IG test. This is not issuer breadth or AI attribution. |
+| M-07 IG counterargument | IG 94 /94 bp [10/30,11/2]≥ 93 twice | DOWN HIT 11/2;79→75 historical. No successor; current row is judgment without a standing number. |
+| L13 real yield | FRED 2.62% [11/2], cell 11/DOWN 3; Treasury early copy 2.65% [11/3], cell 12 resets DOWN 0 | No fire. FRED governs differences. Await actual cell 15, projected 11/6 observation/read~11/9; no early exhaustion grade. |
+| M-01/M-05 | HY 340 below 350; claims 194K first print [w/e10/24]; KRE 72.88 [11/3 settled close] inside 64.02–75.16 | OPEN through 11/5 observation cutoff; final publication required. |
+| M-04b/M-08b | VIX 20.83 [11/3] below 22.45; B362/CCC 1316 [11/3] fail joint 358/1416 requirement | No fire; existing 11/20 windows remain. |
+
+**Funding limits matter.** At the M-07 fire, SOFR−IORB was+5 bp and the 99th-percentile gap+13 bp [11/2]; latest+7/+15 bp [11/3]. Those observations do not demonstrate a generalized funding break. The M-07 letter supplies no numeric SOFR mechanism cutoff; its threshold consequence is applied while broader mechanism confirmation remains unestablished. Private/offshore financing terms, actual cash calls and forced sales remain unmeasured. L16 and M-07 are one credit-price family, not two independent roots; no three-root convergence or new sizing permission.
+
+**Owner results integrated:** REGINALD's November 3 work rejects treating KRE redemptions alone as bank-credit stress; its November 2 H.8 read shows borrowing falling against a revised comparator. WAL's Q3 review weakens the near-term credit bear; hotel/OREO/capital risks survive, while the $99M loan and full Call Report source remain missing evidence. FLG/GIBBS hygiene and OZK audit were reviewed. LIQUID's current committed owner grade still ends at October 29 credit; ISHM's November 2/3 result is not delivered at committed STATUS. No ownership transfer or fabricated grade.
+
+**Election and publication limits:** WALTER reports projected Democratic control of both chambers; direct AP/Reuters reads returned 403, so this remains explicitly owner-relayed reporting here. No certification, enacted policy, election-caused market move or realized Hartnett downside scenario inferred. HENRY's latest gamma uses October 30-trade OI; BOND's November 4 QRA grade is unavailable. NY Fed's actual HHDC iframe still shows Q2; November 6 remains an unverified Q3 placeholder.
+
+**Files:** STATUS, PREDICTIONS, CONFIRMED, first-read log, brief map/intake log, handoff and navigation updated. New frozen November 4 workbook:20 evidence rows,9 test rows,8 condition rows. November 2 snapshot bytes retained. Existing due work: final M-01/M-05 after 11/5 publication; L13 actual cell 15; PRED38 filing/borrower-attribution resolution 11/10; PRED45/M-11 transfer-price resolution 11/20. No new study, rule, successor letter or trade.
+
+Sources and reproducibility: [GRADES.json](GRADES.json), [grade.py](grade.py), [source receipts](SOURCE_RECEIPTS.json), [record](RECORD.md). Primary URLs: [HY](https://fred.stlouisfed.org/series/BAMLH0A0HYM2), [IG](https://fred.stlouisfed.org/series/BAMLC0A0CM), [DFII10](https://fred.stlouisfed.org/series/DFII10), [NY Fed rates](https://markets.newyorkfed.org/api/rates/all/latest.json). Each raw file preserves its own vintage; market prices are dated, not live quotes.

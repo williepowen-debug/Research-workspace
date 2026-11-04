@@ -1,0 +1,30 @@
+[
+  {
+    "file": "nyfed_sofr_history.json",
+    "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2026-10-08&endDate=2026-11-03",
+    "status": 200,
+    "at": "2026-11-04T15:29:16-05:00",
+    "bytes": 4302
+  },
+  {
+    "file": "election_reuters.html",
+    "url": "https://www.investing.com/news/politics-news/democrats-seize-congress-in-sweeping-midterm-repudiation-of-trump-4997528",
+    "status": 403,
+    "at": "2026-11-04T15:29:16-05:00",
+    "bytes": 3
+  },
+  {
+    "file": "election_ap.html",
+    "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0",
+    "status": 403,
+    "at": "2026-11-04T15:29:17-05:00",
+    "bytes": 5552
+  },
+  {
+    "file": "hhdc.html",
+    "url": "https://www.newyorkfed.org/microeconomics/hhdc",
+    "status": 200,
+    "at": "2026-11-04T15:29:17-05:00",
+    "bytes": 104732
+  }
+]

@@ -7,6 +7,10 @@
 **Rule:** Once STATUS.md marks ✅ CONFIRMED/TRIGGERED/FACT → move here with timestamp.
 **C-ID index — HISTORICAL SNAPSHOT, not a live index:** `recon/2026-06-06_c_id_index.md` maps the ID universe as it stood on 2026-06-06 (the merge table's C-34 / C-10 / C-07 live there). ⚠️ Its C-35 and C-36 rows carry the PRE-JUNE names ("Fertilizer Supply Collapse", "Hotel California Employment Trap"); the C-35 and C-36 tabled below were assigned 6/08 and 7/31 and are the live meaning. *(Pointer added 2026-07-17; re-labelled 2026-10-24 sweep ❌1 — the clash had read as a live index.)*
 
+## Registered test results — 2026-11-04T15:33:32-05:00
+
+**L16 UP HIT, observation 11/3 (cell 11), graded 11/4:** HY 344/343/340 ≥ 339×3; IG 93 vs 87 anchor ⇒ TRUE-in-spirit. Split 20/47/33→26/41/33. **M-07 DOWN HIT 11/2:** IG 94/94 ≥ 93;79→75 historical, current number withdrawn without successor. Funding-break mechanism unestablished (repo+5/+13 bp at fire). These are two letters on **one credit-price family**, not two independent roots or a new convergence C-ID. Both windows closed; L13 remains open. Record `research/2026-11-04_catchup/GRADES.json`.
+
 ---
 
 | ID | Name | Confirmed | Signal That Fired | Conf % |

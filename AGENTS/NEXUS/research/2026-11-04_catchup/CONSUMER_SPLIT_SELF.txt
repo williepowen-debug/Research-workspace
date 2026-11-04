@@ -1,0 +1,368 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 316 files under AGENTS/NEXUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 20/47/33 → current 26/41/33
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (177)
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:380  [20/47/33]
+           | **L16** | **WQ459A guardedHY REGISTERED10/19; anchor = obs 10/19, QUALIFIED at first read 10/23: L = 329 · C₀ = 1,310 ⇒ UP HY ≥339 ×3 · DO
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:389  [20/47/33]
+           **Due-row wake 2026-10-30T10:51:33-04:00 (FRED first-published pull; DOCKET L630/L573/L751):** L16 cells 7–8 = HY **314** · **326** ⇒ DOWN r
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:390  [20/47/33]
+           **Late Tuesday wake 2026-10-28T21:03:27-04:00 (FRED pull; DOCKET L554/L751/L555 owed 10/27, run 10/28 with the FOMC live-event read):** L16 
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:392  [20/47/33]
+           **Historical bounded resolution 2026-10-26T21:10:27-04:00:** M-03 DOWN HIT 78→74, premium mechanism RESOLUTION-UNVERIFIED, no successor. L13
+        AGENTS/NEXUS/PREDICTIONS_COLD.md:393  [20/47/33]
+           **Historical full resolution pass: 2026-10-23T21:37:01-04:00 FULL pass** (Will-direct boot; 3 Opus digest readers, 28 briefs; FRED pulled 21
+        AGENTS/NEXUS/PREDICTIONS_MONITOR.md:2  [20/47/33]
+           **Catch-up grade 2026-11-04T15:33:32-05:00:** L16 UP HIT 11/3 at cell 11: HY 344/343/340 ≥ 339, IG 93 vs 87 anchor ⇒ TRUE-in-spirit. Split 2
+        AGENTS/NEXUS/PREDICTIONS_MONITOR.md:3  [20/47/33]
+           **RETAINED-HISTORY — Full review 2026-10-31T13:02:04-04:00 (31 briefs, 3 Opus readers; `research/2026-10-31_full_pass/RECORD.md`):** no lett
+        AGENTS/NEXUS/PREDICTIONS_MONITOR.md:4  [20/47/33]
+           **RETAINED-HISTORY — Owed-work pass 2026-10-31T12:11:53-04:00 (Will-direct; FRED first-published pull 12:08 ET):** **M-03 premium mechanism 
+        AGENTS/NEXUS/STATUS_COLD.md:304  [20/47/33]
+           **9/02 SYSTEMS-REVIEW session (5-day gap; DOCKET L206).** Slate delivered (11 items; §DIFF the headline). Read-cap **CURED in two cuts**. Ma
+        AGENTS/NEXUS/STATUS_COLD.md:497  [20/47/33]
+           **Split UNCHANGED at 20/47/33 — and the reason is a discipline, not an absence of news.** The 9/05 US–Iran exchange is a **genuinely new evi
+        AGENTS/NEXUS/STATUS_COLD.md:542  [20/47/33]
+           **Updated:** 2026-09-11 Fri ~10:5x ET (**PROME Tier-1 due-row spawn, DOCKET L289** · markets OPEN — every level below is a FRED cell dated i
+        AGENTS/NEXUS/STATUS_COLD.md:688  [20/47/33]
+           **Split UNCHANGED at 20/47/33 — and for the first time it carries the words "currently un-falsifiable."** T-12's falsifier returned its seco
+        AGENTS/NEXUS/STATUS_COLD.md:860  [20/47/33]
+           **And the thing I did not do: move the split.** It sits at 20/47/33 for a fourth pass, openly un-falsifiable, because T-12's double-C exhaus
+        AGENTS/NEXUS/STATUS_COLD.md:890  [20/47/33]
+           **And the thing I did not do: move the split.** 20/47/33 for a fourth pass, openly un-falsifiable. **Holding a number through a week like th
+        AGENTS/NEXUS/STATUS_COLD.md:1394  [20/47/33]
+           **A week of give-back on credit and no split-moving line crossed** (owner lines did fire: FLG RED, OZK under $45). HY printed 324 once (10/1
+        AGENTS/NEXUS/STATUS_COLD.md:1411  [20/47/33]
+           **Evening delta: the 10/7 credit cell re-widened HY/B 6bp on a rates-quiet day — the PRED-50 behavior printed a second time (W=2 > T=0), so 
+        AGENTS/NEXUS/STATUS_COLD.md:1425  [20/47/33]
+           **Evening delta: the 10/7 cell re-widened HY/B 6bp on a rates-quiet day — the PRED-50 behavior printed a second time (W=2 > T=0), so on the 
+        AGENTS/NEXUS/STATUS_COLD.md:1497  [20/47/33]
+           **Evening delta: the 10/7 cell re-widened HY/B 6bp on a rates-quiet day — the PRED-50 behavior printed a second time (W=2 > T=0): on the log
+        AGENTS/NEXUS/STATUS_COLD.md:1513  [20/47/33]
+           [STATUS line 141] **Evening delta: the 10/7 cell re-widened HY/B 6bp on a rates-quiet day — the PRED-50 behavior printed a second time (W=2 
+        AGENTS/NEXUS/STATUS_COLD.md:1531  [20/47/33]
+           [STATUS line 142] **10/9: PRED-50 graded ✅ OBSERVED — B-rated spreads widened ≥5bp on two of four rates-quiet sessions (9/29 +7, 10/7 +6), n
+        AGENTS/NEXUS/STATUS_COLD.md:1686  [20/47/33]
+           **10/9: PRED-50 graded ✅ OBSERVED — B-rated spreads widened ≥5bp on two of four rates-quiet sessions (9/29 +7, 10/7 +6), none tightened ≥5; 
+        AGENTS/NEXUS/STATUS_COLD.md:1900  [20/47/33]
+           - **Gap size and direction (assigned scope):** local Brazil stress plus continuing AI funding access; broad US financing restriction remains
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:2  [20/47/33]
+           2026-10-19T11:43:36-04:00	CONTEXT_REREAD	1	2026-10-19	2026-10-16	331	1297	203	335	85	EXCLUDED_PRE_RULING		NOT_GRADED	0	20/47/33	research/202
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:3  [20/47/33]
+           2026-10-19T11:43:36-04:00	REGISTRATION	1	2026-10-19							PENDING_PUBLICATION_AND_QUALIFICATION	0	PENDING	0	20/47/33	research/2026-10-19_WQ4
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:4  [20/47/33]
+           2026-10-19T13:19:05-04:00	PUBLICATION_CHECK	1	2026-10-19							PENDING_PUBLICATION_AND_QUALIFICATION	0	PENDING	0	20/47/33	research/2026-10-1
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:5  [20/47/33]
+           2026-10-20T09:20:24-04:00	PUBLICATION_CHECK	1	2026-10-19							PENDING_PUBLICATION_AND_QUALIFICATION	0	PENDING	0	20/47/33	research/2026-10-2
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:6  [20/47/33]
+           2026-10-23T01:03:44-04:00	ANCHOR_FIRST_READ	1	2026-10-19	2026-10-19	329	1310	200	336	87	QUALIFIED_ANCHOR	0	PENDING	0	20/47/33	research/2026-
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:7  [20/47/33]
+           2026-10-23T01:03:44-04:00	CELL	1	2026-10-19	2026-10-20	333	1327	202	338	87	QUALIFIED	1	NEITHER	0	20/47/33	research/2026-10-23_L751_wake/FRED
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:8  [20/47/33]
+           2026-10-23T01:03:44-04:00	CELL	1	2026-10-19	2026-10-21	327	1307	198	332	88	QUALIFIED	2	NEITHER	0	20/47/33	research/2026-10-23_L751_wake/FRED
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:9  [20/47/33]
+           2026-10-23T01:03:44-04:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-22						UNPUBLISHED		PENDING	0	20/47/33	research/2026-10-23_L751_wake/FRED_
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:10  [20/47/33]
+           2026-10-23T21:25:16-04:00	CELL	1	2026-10-19	2026-10-22	340	1340	210	346	89	QUALIFIED	3	UP_EDGE	0	20/47/33	research/2026-10-23_full_pass/raw_
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:11  [20/47/33]
+           2026-10-26T21:08:06-04:00	CELL	1	2026-10-19	2026-10-23	338	1356	206	343	91	QUALIFIED	4	NEITHER	0	20/47/33	research/2026-10-26_boot/SOURCE_RE
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:12  [20/47/33]
+           2026-10-28T21:06:08-04:00	CELL	1	2026-10-19	2026-10-26	330	1345	198	336	90	QUALIFIED	5	NEITHER	0	20/47/33	research/2026-10-28_wake/raw_BAMLH
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:13  [20/47/33]
+           2026-10-28T21:06:08-04:00	CELL	1	2026-10-19	2026-10-27	318	1321	187	322	88	QUALIFIED	6	DOWN_EDGE	0	20/47/33	research/2026-10-28_wake/raw_BAM
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:14  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-28	314	1307	184	318	86	QUALIFIED	7	DOWN_EDGE	0	20/47/33	research/2026-10-30_L573_L751_L6
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:15  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:16  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:17  [20/47/33]
+           2026-11-02T11:00:38-05:00	CELL	1	2026-10-19	2026-10-30	344	1327	209	360	94	QUALIFIED	9	UP_EDGE	0	20/47/33	research/2026-11-02_credit-publica
+        AGENTS/NEXUS/analysis/WQ342_grading_log.tsv:18  [20/47/33]
+           2026-11-04T15:28:29-05:00	CELL	1	2026-10-19	2026-11-02	343	1319	206	363	94	QUALIFIED	10	NEITHER	0	20/47/33	research/2026-11-04_catchup/SOURC
+        AGENTS/NEXUS/recon/2026-10-01_coldread_STATUS.md:39  [20/47/33]
+           1 Header stamp 2026-10-01 Thu (weekday correct) · 2 §H13 rotation pointer resolves (L1070) · 5 one re-mark = only M-08 bears 10-01 · 6 last 
+        AGENTS/NEXUS/recon/2026-10-08_coldread_status_PM2_ledger.md:73  [20/47/33]
+           | 58 | 141 | ✅ | Rest of the bottom line (5.618% stop, RaDD 10/9, Isaias 62.89%, split 20/47/33 HELD) | Matches M-03, M-05, M-06 and L6. | —
+        AGENTS/NEXUS/recon/2026-10-08_coldread_status_PM3_ledger.md:39  [20/47/33]
+           | 25 | L126 NG agent-data | ❌ | L126: "**Agent-data:** = the BOTTOM LINE below, stated once (one established root + one candidate credit cau
+        AGENTS/NEXUS/recon/2026-10-08_coldread_status_PM_ledger.md:17  [20/47/33]
+           | 10 | 6 | ✅ | Split 20/47/33, all (—), HELD, re-dated 10/8 | Sums to 100, and L143 repeats it. Matches the matrix: no Conf % moved (spawner
+        AGENTS/NEXUS/recon/2026-10-08_coldread_status_PM_ledger.md:90  [20/47/33]
+           | 83 | 143 | ✅ | "Split 20/47/33 HELD — L13 cells 1–9 neither. No Conf % moved." | Agrees with L6, L7 and the matrix. | — |
+        AGENTS/NEXUS/recon/2026-10-14_coldread2_status_and_memo_ledger.md:65  [20/47/33]
+           | 6 | A6 | 20/47/33, re-dated 10/08, HELD | ✅ | |
+        AGENTS/NEXUS/recon/2026-10-14_coldread_status_ledger.md:68  [20/47/33]
+           | 8 | L6 | Split 20/47/33, re-dated 10/08, HELD 10/14 | ✅ | = §H20 L1550. | — |
+        AGENTS/NEXUS/research/2026-09-11_t12_c2_grade_and_gate_run.md:69  [20/47/33]
+           - **Does NOT touch:** any threshold, any convergence Conf %, the split's numbers (20/47/33 — the letter says a C *scores NOTHING*), the froz
+        AGENTS/NEXUS/research/2026-10-01_pass_record.md:16  [20/47/33]
+           3. **Re-mark:** **M-08 ↑3 → 79%** on the 9/29-registered condition (B 316 / CCC 1,157 [9/29]); re-registered ±4 to 10/30 with five-case coun
+        AGENTS/NEXUS/research/2026-10-19_WQ459_guarded_HY_letter.md:5  [20/47/33]
+           **Current state:** PROME accepted registration1131bd9bd; `GATE-NEXUS-WQ459-HY` **NOT ARMED**. L55410/20 and conditionalL751–754(10/23,11/9,1
+        AGENTS/NEXUS/research/2026-10-19_continuation_record.md:12  [20/47/33]
+           | M-04 | [FRED VIXCLS](https://fred.stlouisfed.org/series/VIXCLS) | **16.46 [10/15] →19.99 [10/16]**. Upper edge18.41, two consecutive cells
+        AGENTS/NEXUS/research/2026-10-19_full_synthesis/RECORD.md:11  [20/47/33]
+           | L13/split | DFII10 cell13=2.84[10/14],14=2.78[10/15]; cell15[10/16] absent | FormalC#1/L2 PENDING. Admission rests on≈5regimeepisodes;in-r
+        AGENTS/NEXUS/research/2026-10-19_full_synthesis/SELF_LETTER_AUDIT.md:46  [20/47/33]
+           - `AGENTS/NEXUS/research/2026-10-08_disc-J_letters.md`: eac4e605a|2026-10-08T08:42:59-04:00|NEXUS: L554 wake 10/8 - split held 20/47/33, eig
+        AGENTS/NEXUS/research/2026-10-19_housekeeping/PRIOR_SESSION_BLOCK.md:7  [20/47/33]
+           1 ExistingletterscheckedatFRED:DFII10latest10/15,VIX/ICE10/16;targetcellsnotreturned. L13formalC1/reanchorPENDING;L16REGISTEREDNOTARMED,actu
+        AGENTS/NEXUS/research/2026-10-19_housekeeping/RECORD.md:35  [20/47/33]
+           Available four-step work is already committed09265ad69. Split20/47/33 and all matrix confidence values, prediction criteria/statuses/dates, 
+        AGENTS/NEXUS/research/2026-10-19_resolution_pass/PRIOR_SESSION_BLOCK.md:7  [20/47/33]
+           WQ459Aregistered1131bd9bd; PROMEaccepted/locallypersisted26f69a9da. GATE-NEXUS-WQ459-HY NOT ARMED; L16actualanchor/levelsPENDING10/19or next
+        AGENTS/NEXUS/research/2026-10-20_L554_wake/RECORD.md:35  [20/47/33]
+           - **Split 20/47/33 HELD by the letter.**
+        AGENTS/NEXUS/research/2026-10-23_L751_wake/RECORD.md:24  [20/47/33]
+           - **Split 20/47/33 HELD.** Logged: `analysis/WQ342_grading_log.tsv` (ANCHOR_FIRST_READ, CELL ×2, PUBLICATION_CHECK) · calendar carrier `rese
+        AGENTS/NEXUS/research/2026-10-23_full_pass/RECORD.md:23  [20/47/33]
+           ## 2. Letters graded (nothing fired; split 20/47/33 HELD)
+        AGENTS/NEXUS/research/2026-10-24_structure_pass/COLDREAD_PREDICTIONS_MONITOR.md:3  [20/47/33]
+           Recomputed OK (no finding): 80 bp above 260 (340-260) · 10 bp under 350 · DFII10 UP edge 20 bp away (2.84-2.64) · HY DOWN edge 21 bp away (3
+        AGENTS/NEXUS/research/2026-10-24_structure_pass/COLDREAD_PREDICTIONS_MONITOR.md:14  [20/47/33]
+           | 8 | ⚠️ | 14 | "20 / 47 / 33" (L4 header) and "Break 20 -> 14, Grind 47 -> 53" | The page never says which number is Break, Grind or the th
+        AGENTS/NEXUS/research/2026-10-26_L832_assigned_followthrough.md:5  [20/47/33]
+           The rate test reduced M-03 confidence by 4pp; neither split letter fired. Brazil supplies a severe local shock, but a named cash-demand chai
+        AGENTS/NEXUS/research/2026-10-26_boot/RESIDUE_CHECK.tsv:14  [20/47/33]
+           AGENTS/NEXUS/analysis/WQ342_grading_log.tsv	10	REVIEWED-DATED-HISTORY	"2026-10-23T21:25:16-04:00	CELL	1	2026-10-19	2026-10-22	340	1340	210	3
+        AGENTS/NEXUS/research/2026-10-26_five_desk_return/REPORT.md:37  [20/47/33]
+           M-03’s earlier 78→74 applies once; L13/L16 runs remain 0 and split 20/47/33 holds. No owner score, letter, threshold or forecast is regraded
+        AGENTS/NEXUS/research/2026-10-26_full_pass/RECORD.md:30  [20/47/33]
+           2. **Threshold-vs-mechanism:** M03 numeric DOWN already fired 78→74 Monday; owner ACM run decomposition missing. The letter is closed; withd
+        AGENTS/NEXUS/research/2026-10-26_full_pass/RECORD.md:75  [20/47/33]
+           PROME actually consumed77b131be7 in b1a9d0227 (`PROME/reports/2026-10-26_nexus-full-review-consumption.md`), carrying20/47/33 without this q
+        AGENTS/NEXUS/research/2026-10-26_full_pass/SELF_LETTER_AUDIT.md:71  [20/47/33]
+           GATE-NEXUS-WQ459-HY	2026-10-19	NEXUS	Guarded HY: 15 qualified observations AFTER ruling-date anchor; UP HY>=L+10bp for 3; DOWN HY<=L-10bp fo
+        AGENTS/NEXUS/research/2026-10-28_wake/RECORD.md:41  [20/47/33]
+           Count-once: L16 DOWN and L13 DOWN are the same direction; if both fire within 30 days they count once. **Split 20/47/33 HELD; no Conf % move
+        AGENTS/NEXUS/research/2026-10-30_L573_L751_L630/RECORD.md:31  [20/47/33]
+           | **D:L751** | **L16** guarded HY (L 329, C₀ 1,310; frozen letter `research/2026-10-19_WQ459_guarded_HY_letter.md`) | cell 7 = obs 10/28 HY 
+        AGENTS/NEXUS/research/2026-10-31_full_pass/RECORD.md:23  [20/47/33]
+           M-01 / M-05 / M-07 neither (to 11/5) · M-04b neither (VIX close 19.42 is not a FRED cell yet; UP edge 22.45) · M-08b neither · L13 DOWN run 
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:61  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_BB_SELF.txt:63  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_SELF.txt:12  [20/47/33]
+           2026-10-23T01:03:44-04:00	CELL	1	2026-10-19	2026-10-21	327	1307	198	332	88	QUALIFIED	2	NEITHER	0	20/47/33	research/2026-10-23_L751_wake/FRED
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_SELF.txt:14  [20/47/33]
+           2026-10-23T21:25:16-04:00	CELL	1	2026-10-19	2026-10-22	340	1340	210	346	89	QUALIFIED	3	UP_EDGE	0	20/47/33	research/2026-10-23_full_pass/raw_
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_SELF.txt:16  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_SELF.txt:18  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_SELF.txt:48  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_SELF.txt:534  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_SELF.txt:548  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_B_SELF.txt:559  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_CCC_SELF.txt:10  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_CCC_SELF.txt:115  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_CCC_SELF.txt:119  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_CCC_SELF.txt:121  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_CCC_SELF.txt:125  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_CCC_SELF.txt:127  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_CCC_SELF.txt:129  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:26  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_HY_SELF.txt:28  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:63  [20/47/33]
+           2026-10-23T21:25:16-04:00	CELL	1	2026-10-19	2026-10-22	340	1340	210	346	89	QUALIFIED	3	UP_EDGE	0	20/47/33	research/2026-10-23_full_pass/raw_
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:65  [20/47/33]
+           2026-10-30T10:55:05-04:00	CELL	1	2026-10-19	2026-10-29	326	1325	194	332	89	QUALIFIED	8	NEITHER	0	20/47/33	research/2026-10-30_L573_L751_L630
+        AGENTS/NEXUS/research/2026-11-02_credit-publication-followthrough/CONSUMER_IG_SELF.txt:67  [20/47/33]
+           2026-11-02T10:05:10-05:00	PUBLICATION_CHECK	1	2026-10-19	2026-10-29	326	1325	194	332	89	NO_NEW_PUBLISHED_CELL	8	NO_FIRE	0	20/47/33	research/
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/LAST_COMPLETION_before.md:17  [20/47/33]
+           **Result:** 31 briefs read whole by 3 Opus digest readers; NEXUS read LIQUID STATUS and the FALCON/BRENT/ZHAO/VIOLET/MIDAS/HENRY owner figur
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/LAST_COMPLETION_before.md:39  [20/47/33]
+           **Result:** FRED first-published pull 10:51:33 ET (vintage = latest-revised on every cell since 9/29). **L751:** L16 cell 7 HY 314 (DOWN run
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/LAST_COMPLETION_before.md:49  [20/47/33]
+           **Result:** L16 cells 5–6 HY 330/**318** ⇒ DOWN run 1 of 3 (CCC 1321 vs guard 1310); L13 cells 6–7 2.66/**2.64** ⇒ DOWN run 1 of 5; M-01/04b
+        AGENTS/NEXUS/research/2026-11-02_file-consolidation/LAST_COMPLETION_before.md:64  [20/47/33]
+           **State:** split 20/47/33 unchanged; no new letter/grade/cell. M03 Monday DOWN78→74 preserved once; ongoing numeric forecast withdrawn (clos
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:9  [20/47/33]
+           AGENTS/DAEDALUS/profiles/NEXUS.md:15  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:13  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-09-11.md:363  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:15  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-09-04.md:358  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:17  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-09-18.md:437  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:19  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-10-23.md:993  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:21  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-10-16.md:946  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:23  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-10-02.md:750  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:25  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-10-30.md:989  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:27  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-09-25.md:471  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:29  [20/47/33]
+           AGENTS/DAEDALUS/scorecards/2026-10-09.md:854  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:31  [20/47/33]
+           AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-17_READER_R1_meta_utility.md:400  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:32  [20/47/33]
+           | L3 | role rubric applied consistently | **MET** | matrix M-01…M-11, R1–R11, T-01…T-24, 20/47/33 split; `templates/NEXUS_BRIEF_SCHEMA.md` §
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:33  [20/47/33]
+           AGENTS/DAEDALUS/builds/2026-09-03_DOCKET_VIEW_SCRATCH_RENDER_SAMPLE.md:14  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:35  [20/47/33]
+           AGENTS/DAEDALUS/runs/2026-10-21_PR8_EVIDENCE/production_commits.txt:2399  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:36  [20/47/33]
+           eac4e605a NEXUS: L554 wake 10/8 - split held 20/47/33, eight Disc-J letters, PRED-50 armed, drain 5/5
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:37  [20/47/33]
+           AGENTS/DAEDALUS/runs/prome_sweep_2026-10-03/docket.html.txt:307  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:39  [20/47/33]
+           AGENTS/WALTER/research/2026-10-16_finish/prior-REGISTRY.tsv:14  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:41  [20/47/33]
+           AGENTS/CATO/runs/2026-10-19_1150_morning-research-review.md:56  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:43  [20/47/33]
+           PROME/BRIEF.md:19  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:45  [20/47/33]
+           PROME/GATES.tsv:19  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:47  [20/47/33]
+           PROME/GATES.tsv:23  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:49  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:140  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:51  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:162  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:53  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:301  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:55  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:313  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:57  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:317  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:59  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:329  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:61  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:946  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:63  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:999  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:64  [20/47/33]
+           - **NEXUS (memo `…from-NEXUS_L554-wake-seat-01-contest-pred-50-armed.md`, 08:42 ET):** split re-dated 10/8 and HELD 20/47/33 on the L13 lett
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:65  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:1022  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:67  [20/47/33]
+           PROME/HEARTBEAT_COLD.md:1043  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:69  [20/47/33]
+           PROME/plans/2026-10-09_heartbeat-29th-rebase-PLAN.md:64  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:71  [20/47/33]
+           PROME/proposals/2026-09-11_heartbeat-am2-projection-DRAFT.md:27  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:72  [20/47/33]
+           - **`split` — OMITTED.** NEXUS 20/47/33 unchanged by Amendment #2.
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:73  [20/47/33]
+           PROME/proposals/2026-11-04_wq594-597-RULED.md:58  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:75  [20/47/33]
+           PROME/registry/WQ_LEDGER.tsv:251  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:77  [20/47/33]
+           PROME/registry/WQ_LEDGER.tsv:290  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:79  [20/47/33]
+           PROME/registry/WQ_LEDGER.tsv:302  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:81  [20/47/33]
+           PROME/registry/WQ_LEDGER.tsv:311  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:83  [20/47/33]
+           PROME/registry/WQ_LEDGER.tsv:316  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:85  [20/47/33]
+           PROME/registry/WQ_LEDGER.tsv:317  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:87  [20/47/33]
+           PROME/registry/WQ_LEDGER.tsv:318  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:89  [20/47/33]
+           PROME/registry/WQ_LEDGER.tsv:322  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:91  [20/47/33]
+           PROME/reports/2026-10-07_nexus-seat-01-candidate-list.md:39  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:93  [20/47/33]
+           PROME/reports/2026-09-12_heartbeat-15th-rebase.md:55  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:94  [20/47/33]
+           7. **Un-glossed identifiers and scores used as if known:** 20/47/33 · 29/75 · "composite 14/20" · "BAND B, 0 of 5 axes" · 1A/1B/2A · "HEN-44
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:95  [20/47/33]
+           PROME/reports/2026-10-19_morning-boot.md:57  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:97  [20/47/33]
+           PROME/reports/2026-10-26_nexus-full-review-consumption.md:5  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:99  [20/47/33]
+           PROME/reports/2026-09-11_heartbeat-14th-rebase.md:42  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:101  [20/47/33]
+           PROME/reports/2026-10-14_evening-inbox-consumption.md:34  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:103  [20/47/33]
+           PROME/reports/2026-10-04_boot-assessment-reconciliation.md:29  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:105  [20/47/33]
+           PROME/reports/2026-10-04_boot-assessment-reconciliation.md:52  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:107  [20/47/33]
+           PROME/reports/2026-10-31_heartbeat-rebase/candidate.md:6  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:109  [20/47/33]
+           PROME/reports/2026-10-31_heartbeat-rebase/result-read.md:14  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:111  [20/47/33]
+           PROME/reports/2026-10-31_heartbeat-rebase/before.md:6  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:113  [20/47/33]
+           PROME/reports/2026-10-31_heartbeat-rebase/before.md:70  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:115  [20/47/33]
+           PROME/reports/2026-10-26_nexus-consumption/result-read.md:12  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:116  [20/47/33]
+           ✅ #9 Split20/47/33 agrees with GRADE and owner header.
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:117  [20/47/33]
+           PROME/reports/2026-10-26_nexus-consumption/before-GATES.tsv:19  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:119  [20/47/33]
+           PROME/reports/2026-10-26_nexus-consumption/before-GATES.tsv:23  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:121  [20/47/33]
+           PROME/reports/2026-10-26_nexus-consumption/RECORD.md:3  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:123  [20/47/33]
+           PROME/reports/2026-10-26_nexus-consumption/prior-gate-state.txt:1  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:125  [20/47/33]
+           PROME/reports/2026-10-29_heartbeat-rebase/candidate.md:6  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:127  [20/47/33]
+           PROME/reports/2026-10-29_heartbeat-rebase/candidate.md:64  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:129  [20/47/33]
+           PROME/reports/2026-10-29_heartbeat-rebase/before.md:10  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:131  [20/47/33]
+           PROME/reports/2026-10-29_heartbeat-rebase/before.md:11  [20/47/33]
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:134  [20/47/33]
+           PROME/DOCKET.tsv:289  [20/47/33]  (dated TSV row (2026-09-11) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date;
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:136  [20/47/33]
+           PROME/DOCKET.tsv:554  [20/47/33]  (dated TSV row (2026-11-03) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date;
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:138  [20/47/33]
+           PROME/DOCKET.tsv:573  [20/47/33]  (dated TSV row (2026-10-30) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date;
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:140  [20/47/33]
+           PROME/DOCKET.tsv:832  [20/47/33]  (dated TSV row (2026-10-26) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date;
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:142  [20/47/33]
+           PROME/state/ORCH_LOG.tsv:16  [20/47/33]  (dated TSV row (2026-09-02) — HISTORY-ROW candidate: a time-series capture holds the value AS OF it
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:144  [20/47/33]
+           PROME/state/ORCH_LOG.tsv:38  [20/47/33]  (dated TSV row (2026-09-03) — HISTORY-ROW candidate: a time-series capture holds the value AS OF it
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:146  [20/47/33]
+           PROME/state/ORCH_LOG.tsv:58  [20/47/33]  (dated TSV row (2026-09-07) — HISTORY-ROW candidate: a time-series capture holds the value AS OF it
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:148  [20/47/33]
+           PROME/state/ORCH_LOG.tsv:107  [20/47/33]  (dated TSV row (2026-09-11) — HISTORY-ROW candidate: a time-series capture holds the value AS OF i
+        AGENTS/NEXUS/research/2026-11-04_catchup/CONSUMER_SPLIT.txt:150  [20/47/33]
+           … +5 more 🟠 hit(s) on [20/47/33] across 3 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothi
+        AGENTS/NEXUS/research/2026-11-04_catchup/PREDICTIONS_MONITOR_BEFORE.md:3  [20/47/33]
+           **Full review 2026-10-31T13:02:04-04:00 (31 briefs, 3 Opus readers; `research/2026-10-31_full_pass/RECORD.md`):** no letter fired, no grade,
+        AGENTS/NEXUS/research/2026-11-04_catchup/PREDICTIONS_MONITOR_BEFORE.md:4  [20/47/33]
+           **Owed-work pass 2026-10-31T12:11:53-04:00 (Will-direct; FRED first-published pull 12:08 ET):** **M-03 premium mechanism TRUE-in-spirit** (N
+        AGENTS/NEXUS/research/2026-11-04_catchup/PREDICTIONS_MONITOR_BEFORE.md:9  [20/47/33]
+           **Legend (for a reader who has not seen STATUS):** the **split** = registered historical judgment weights for the 2–6-week reference **Break
+        AGENTS/NEXUS/research/2026-11-04_catchup/PREDICTIONS_MONITOR_BEFORE.md:20  [20/47/33]
+           | **L16** | 🔒 **`GATE-NEXUS-WQ459-HY` — guarded HY letter (WQ-459 A, Will 10/19; FROZEN at its home).** Anchor obs 10/19 qualified at first 
+        AGENTS/NEXUS/research/2026-11-04_catchup/RECORD.md:7  [20/47/33]
+           **Grades:** grade.py reproduces L16 anchor and 11 eligible cells; saved NEXUS first-read ledger comparison exact, current HY/CCC anchor/wind
+        AGENTS/NEXUS/research/2026-11-04_catchup/STATUS_BEFORE.md:9  [20/47/33]
+           **Δ2 — runs advance, nothing fires.** L16 **8→9 qualified cells**, UP **0→1/3**, DOWN 0. M-07 IG counterevidence test: DOWN **0→1/2** at 94≥
+     🟡 in MAIL, point-in-time — usually no action (3: NEXUS)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (21)  [--show-handled to audit]
+
+  🔴 177 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

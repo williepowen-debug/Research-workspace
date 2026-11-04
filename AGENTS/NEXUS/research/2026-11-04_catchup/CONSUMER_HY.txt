@@ -1,0 +1,56 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/NEXUS/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 344 → current 340
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (12)
+        AGENTS/REGINALD/MEMORY.md:55  [344]
+           - **New Friday credit, own FRED fetch:** HY 344bp and CCC 1,327bp [10/30]. REG-T-04 NOT FIRED (6bp below strict >350, run 0-of-3); REG-T-03 
+        AGENTS/REGINALD/ROADMAP.md:90  [344]
+           **11/02 late-morning boot (Will-launched, no unassigned work):** own FRED fetch integrated HY 344bp / CCC 1,327bp [10/30]; REG-T-04 NOT FIRE
+        AGENTS/REGINALD/STATUS.md:3  [344]
+           **Last Updated:** 2026-11-03T17:49:36-05:00; Will-asked KRE redemption research consolidated → `research/KRE/REDEMPTIONS.md`: 2025 NAV +7.41
+        AGENTS/REGINALD/board/BOARD_LOG.tsv:596  [344]
+           SIG-W-20261102-008	2026-11-02	BANK_COLLATERAL	PRIMARY-NUMERIC	INTEGRATED	0.95	REG-T-04 NOT FIRED, run 0-of-3; REG-T-03 stays FIRED, exit run
+        AGENTS/REGINALD/reports/2026-11-02_evening-boot/REPORT.md:25  [344]
+           KRE float 51.74M shares, flat vs the prior 11/02 reading; price/NAV +2.35%. Latest credit remains HY OAS 344bp and CCC 1,327bp [FRED 10/30]:
+        AGENTS/WALTER/research/2026-11-02_credit-availability/REPORT.md:5  [344]
+           Independent FRED page reads confirm ICE BofA US HY OAS **344 bp [October 30] versus 326 [October 29], +18 bp**; CCC **1,327 versus 1,325, +2
+        PROME/GATES.tsv:23  [344]
+           GATE-NEXUS-WQ459-HY	2026-10-19	NEXUS	Guarded HY (FRED BAMLH0A0HYM2; CCC guard FRED BAMLH0A3HYC): 15 qualified observations AFTER ruling-date
+        PROME/reports/2026-11-02_codex-recovery-status.md:27  [344]
+           Dashboard pulled 2026-11-02 15:11:46 UTC. ICE BofA US HY OAS through FRED MIRROR is **344 bp for October 30**, versus **326 bp October 29**,
+        PROME/reports/2026-11-02_wal-rally-checkpoint.md:15  [344]
+           - Friday October 30 HY 344 bp / CCC 1,327 bp were published Monday; never label them Monday's credit market prices. NEXUS's actual consequen
+        BOARD/INDEX.md:340  [344]
+           | SIG-W-20261102-008 | 2026-11-02 | FUNDING_LIQUIDITY | PRIORITY | WALTER → LIQUID, REGINALD · info: RED, HENRY, VIOLET, NEXUS, PROME | **Fr
+        BOARD/SIG-W-20261102-008-Friday-HY-credit-published-344-near-350-watch-no-new-fire.md:21  [344]
+           # Friday credit is now published: HY 344 (+18 bp), 6 bp below the strict issuance-freeze line
+        BOARD/SIG-W-20261102-008-Friday-HY-credit-published-344-near-350-watch-no-new-fire.md:23  [344]
+           FRED now reports **HY OAS 344 bp [October 30] versus 326 [October 29]**, and **CCC 1,327 versus 1,325**. HY updated November 2 09:06 CST; CC
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (557)
+        AGENTS/CORAL/STATUS_DETAIL.md:34  [344]  (no unit/series context on line)
+           | Citizens policies in force (CANONICAL, scope-resolved 7/21; **REFRESHED 8/23**) | ⭐ **MONTH-END SERIES: 278,196 as of Jul 31 2026** (citiz
+        AGENTS/LABOR/STATUS_DETAIL.md:129  [344]  (no unit/series context on line)
+           | **LT unemployed July** | **1.8M / 25.5% share** — *"edged down over the month… but **changed little over the year**"*. Jobless <5 wks 2.0M
+        AGENTS/LABOR/TRADE.md:158  [344]  (no unit/series context on line)
+           | Mon 7/27 AMC | KFRC Q2 (canary triple completes) | Guide-down → T-12 re-opens; recovery-guide → Vector 14 drop-to-1. Bar: rev $344-352M / 
+        AGENTS/OTTO/LAST_COMPLETION.md:3  [344]  (no unit/series context on line)
+           CHANGED: Carvana Q3 primary read (SEC investigation closed, no enforcement rec; clean filing) + WALTER drop; WINTERKORN docket sync (court r
+        AGENTS/OTTO/STATUS.md:5  [344]  (no unit/series context on line)
+           > **s040 (10/28):** Carvana Q3 read at the primary filings: the 10-Q says the SEC closed its short-report investigation (Sep-2026) with no e
+        AGENTS/OTTO/STATUS.md:6  [344]  (no unit/series context on line)
+           > **Next:** Exeter September 10-Ds ~10/29 (OTTO-34, extensions, recovery); THESIS v1.6 + cold read 10/30; CRMT 11/01 is BROCK's; NY Fed ~11/
+        AGENTS/REGINALD/STATUS.md:109  [344]  (no unit/series context on line)
+           | HY OAS | >320 (`REG-T-03`) · >350 (`REG-T-04`) | **343bp** [FRED 11/02, own fetch 11/03]; 344 [10/30]; 326 [10/29]; 314 [10/28]; 318 [10/2
+        AGENTS/WALTER/SESSION_LOG.md:36  [344]  (no unit/series context on line)
+           Assigned bookmark/UNG work complete. Additional existing-scope credit update008 committed 252963ff6: HY344 [+18] and CCC1327 [+2], October 3
+        … +549 more 🟠 hit(s) on [344] across 252 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (7: HENRY, LIQUID, SHADE, VIOLET)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (39)  [--show-handled to audit]
+
+  🔴 12 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

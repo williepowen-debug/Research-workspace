@@ -1,0 +1,17 @@
+{
+  "materialized_at": "2026-11-04T15:35:05-05:00",
+  "mode": "FROZEN dated catch-up snapshots",
+  "source_report": "AGENTS/NEXUS/research/2026-11-04_catchup/REPORT.md",
+  "canonical_current_files": [
+    "STATUS.md",
+    "PREDICTIONS_MONITOR.md",
+    "CONFIRMED.md"
+  ],
+  "tables": {
+    "EVIDENCE_2026-11-04.tsv": 20,
+    "TEST_READINGS_2026-11-04.tsv": 9,
+    "CONDITIONS_2026-11-04.tsv": 8
+  },
+  "prior_manifest": "MANIFEST_2026-11-02.json",
+  "no_new_forecast_or_rule": true
+}

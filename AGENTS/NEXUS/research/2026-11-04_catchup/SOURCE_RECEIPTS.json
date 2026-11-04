@@ -1,0 +1,113 @@
+[
+  {
+    "series": "BAMLH0A0HYM2",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:27-05:00",
+    "end": "2026-11-04T15:28:29-05:00",
+    "rc": 0
+  },
+  {
+    "series": "BAMLH0A1HYBB",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:27-05:00",
+    "end": "2026-11-04T15:28:29-05:00",
+    "rc": 0
+  },
+  {
+    "series": "BAMLH0A2HYB",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:27-05:00",
+    "end": "2026-11-04T15:28:29-05:00",
+    "rc": 0
+  },
+  {
+    "series": "BAMLH0A3HYC",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:27-05:00",
+    "end": "2026-11-04T15:28:29-05:00",
+    "rc": 0
+  },
+  {
+    "series": "BAMLC0A0CM",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:27-05:00",
+    "end": "2026-11-04T15:28:29-05:00",
+    "rc": 0
+  },
+  {
+    "series": "DFII10",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:29-05:00",
+    "end": "2026-11-04T15:28:31-05:00",
+    "rc": 0
+  },
+  {
+    "series": "DGS10",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:29-05:00",
+    "end": "2026-11-04T15:28:31-05:00",
+    "rc": 0
+  },
+  {
+    "series": "VIXCLS",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:29-05:00",
+    "end": "2026-11-04T15:28:32-05:00",
+    "rc": 0
+  },
+  {
+    "series": "ICSA",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:29-05:00",
+    "end": "2026-11-04T15:28:31-05:00",
+    "rc": 0
+  },
+  {
+    "series": "IORB",
+    "basis": "fp",
+    "start": "2026-11-04T15:28:29-05:00",
+    "end": "2026-11-04T15:28:31-05:00",
+    "rc": 0
+  },
+  {
+    "series": "BAMLH0A0HYM2",
+    "basis": "latest",
+    "start": "2026-11-04T15:28:31-05:00",
+    "end": "2026-11-04T15:28:31-05:00",
+    "rc": 0
+  },
+  {
+    "series": "BAMLH0A3HYC",
+    "basis": "latest",
+    "start": "2026-11-04T15:28:31-05:00",
+    "end": "2026-11-04T15:28:31-05:00",
+    "rc": 0
+  },
+  {
+    "series": "DFII10",
+    "basis": "latest",
+    "start": "2026-11-04T15:28:31-05:00",
+    "end": "2026-11-04T15:28:31-05:00",
+    "rc": 0
+  },
+  {
+    "file": "real.csv",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&_format=csv",
+    "status": 200,
+    "at": "2026-11-04T15:28:54-05:00"
+  },
+  {
+    "file": "nyfed_rates.json",
+    "url": "https://markets.newyorkfed.org/api/rates/all/latest.json",
+    "status": 200,
+    "at": "2026-11-04T15:28:54-05:00"
+  },
+  {
+    "file": "KRE_VENDOR.json",
+    "start": "2026-11-04T15:38:23-05:00",
+    "end": "2026-11-04T15:38:23-05:00",
+    "at": "2026-11-04T15:38:23-05:00",
+    "rc": 0,
+    "basis": "vendor history; November4 evolving bar excluded; refresh to capture exact retrieval interval; prior settled cells identical"
+  }
+]
