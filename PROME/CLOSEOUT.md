@@ -8,7 +8,7 @@
 **Commit-pipeline approval/review:** `PROME/plans/2026-09-09_boot-hardening.md` (on-demand).
 **Purpose:** Repeatable session-end procedure. Run before `/clear`, `/new`, or session handoff.
 
-> Companion to `PROME/BOOT.md` (session start) + `PROME/CLAUDE.md` (bootstrap). **Git protocol canon = root `CLAUDE.md` (auto-injected; not restated here).**
+> Companion to `PROME/BOOT.md` (session start) + `PROME/CLAUDE.md` (bootstrap). **Git protocol canon = root `CLAUDE.md` § Git Protocol; explicitly read its continuation at `docs/GIT_WORKTREE_PROCEDURES.md` before the named Git action.**
 
 ---
 
@@ -40,7 +40,7 @@ Before `/clear` or `/new` · before stepping away from a long session · after a
 | Tier | When | Touches | Commit? |
 |---|---|---|---|
 | **Bounce** | Mid-day restart; back within the hour | SCRATCH addendum (3-5 lines) | Optional 1-line checkpoint |
-| **Light** | Short session paused for hours; 1-2 artifacts | SCRATCH **targeted update** (WQ-232 — never a mandated full rewrite) + STATUS surgical | Optional |
+| **Light** | Short session paused for hours; 1-2 artifacts | SCRATCH **targeted update** (WQ-232 — never a mandated full rewrite) + STATUS surgical | At actual session end, root Git Protocol commit/push applies; restart checkpoints follow § Restart checkpoint. |
 | **Standard** *(default)* | End-of-thread / end-of-day | § The routine, steps 1–12 (+ auto-memory if earned) + auto-push. **ARGUS only at the day's LAST Standard/Heavy closeout (WQ-485 A); an intra-day Standard freezes and defers the audit, gate `--tier light`** | Yes |
 | **Heavy** | Pattern-discovery session | Standard + design docs + the FULL residual-trigger sweep (`CLOSEOUT_PROCEDURES.md` § Chunk 3) | Yes |
 
@@ -49,7 +49,7 @@ End-of-day runs at least Standard. **Decision Deck Owed and Reference are PAUSED
 
 ---
 
-> **⚡ The gate is step 9 of § The routine, and the routine owns its placement, its `--tier` argument and the regenerate-then-re-run rule.** ⛔ This block previously restated the sequence here — ordering the render *after* the gate and quoting a `--tier`-less command — which is the duplicated-rule problem this file was simplified to remove, recurring inside its own repair. **One home: the numbered sequence below.**
+> **⚡ The gate is step 9 of § The routine, and the routine owns its placement, its `--tier` argument and the regenerate-then-re-run rule.**
 
 ## Boot↔Closeout symmetry — ONE HOME PER FACT
 
@@ -126,7 +126,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 | **PUSHED** | the verbatim receipt above |
 | **PUBLISHED** | an active artifact republished at its own URL; when no active publication is owed, report NOT REQUIRED; report Deck separately as PAUSED BY WILL (WQ-460) and Helm as RETIRED (WQ-461) |
 
-**Publication prerequisites are checked at Pre-closeout, not at the render** (item 5), only for a separately requested active deliverable. Helm retirement and the Deck pause require no dashboard explainer, page read, file listing or hosted receipt. **If an active prerequisite cannot be met, say so at Pre-closeout and decide then**; discovering it only at step 11 remains a process defect.
+Publication prerequisites and active-deliverable restrictions: see Pre-closeout item 5. Discovering an unmet prerequisite only at step 11 remains a process defect.
 
 **Session summary to Will:** apply `PROME/BOOT.md` step 8 **Research-first briefing**. **Required operational accounting:** what landed (commit hashes belong HERE, never in state files — they decay) · the three delivery states · **"Done without asking": each C1–C9 act of the session with its commit, or the word none (WQ-348 guard, `PROME/CLAUDE.md` § Ask First)** · **RETIRED: Helm under WQ-461; PAUSED BY WILL: Deck under WQ-460 (neither is a skipped control)** · **SKIPPED: any active routine step not run, or run by reasoning instead of by the instrument, with its reason — and then the headline is PARTIAL whatever the three delivery states say (`PROME/CLAUDE.md` § Skipped-control reporting)** · what is owed at next boot · open `PROME/WILL_QUEUE.md` rows by number.
 

@@ -2,6 +2,12 @@
 
 **Prepared:** 2026-08-27 (~16:00Z) · **Companion to:** `GATE_C_C7_ACTIVATION_PACKET_v2.md` · **State:** PILOT `LIVE-2026-0001` COMPLETE; C8 RULED **CONTINUE** (`GATE_C_C8_RULING_2026-08-27.md`). **Amended 2026-08-27 post-C8 (RED, Will-worded):** conditions 1–4 of the C8 review applied — step 0 clean-tree criterion (D1), step 2 canonical-form example (D2), step 6 re-worded (D3 + N1), push-train reality replaces hold-local in steps 1/7/9 (D5), affirmative close + stop-condition discipline + durable transcript (N1/N2/N3/N6). A successor sitting re-pins the frozen-inputs table below; the steps as amended govern it.
 
+## Custody Git procedure
+
+Relocated verbatim from root `CLAUDE.md` under WQ-508/WQ-577 on 2026-11-04. Root Git Protocol retains custody authority, path grants, additions-only integrity and substitute limits. This procedure grants no activation or custody.
+
+Views are generated replaceable projections, not authority, changed only through the registered deterministic renderer. Every stage and commit uses exact file pathspecs — never a submission, result, month directory, `KERNEL/`, `AGENTS/<NAME>/`, or `.rw/` as a directory; never `git add .`, `git add -A`, a computed path list, or `git commit -a`. Kernel tools never commit or push automatically. Before a Kernel commit: prove one active writer, inspect the exact staged paths, run the registered additions-only and durable-result checks, and stop on unrelated staged changes, an unapproved path, `EXCEPTION`, or `UNKNOWN`.
+
 ## Frozen inputs (all pinned as of this document; re-verify hashes at step 0)
 
 | Input | Value |

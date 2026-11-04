@@ -28,9 +28,9 @@ Do not recreate roster membership or responsibility classes here; when another s
 
 | Chain | Route |
 |---|---|
-| Credit | LABOR → CARL → REGINALD → repricing; CREED supplies national CRE/CMBS, CORAL geographic convergence, HENRY velocity, LIQUID amplification. Single-name bank depth: OZK, WAL, FLG → REGINALD; FLG also → {LIQUID, TERRY} Large-bank comparison group: GIBBS → {REGINALD, BROCK} (industry-wide vs regional; NDFI one figure with BROCK). |
+| Credit | Credit transmission and bank routes: see `AGENTS/_NETWORK.md` (canonical map and route summary). |
 | Private credit | BROCK → SHADE (insurance wrapper) → LIQUID / REGINALD |
-| Energy shock / war | YURI (Russian state decision) → {OSPREY, HAWK} → {OSPREY, FALCON} → HAWK (cross-war synthesis, no double-count) → BRENT → {HENRY, LIQUID, CARL}; acute theater signals go to BRENT direct, HAWK cc'd. BRENT fuel cost → CRUISE (event-driven) |
+| Energy shock / war | Energy-shock and war transmission routes: see `AGENTS/_NETWORK.md` (canonical map and route summary). |
 | Japan / carry | SAM → {LIQUID, HENRY} — independent trigger via carry unwind |
 | Credit → volatility | {BOND, BROCK, REGINALD} → VIOLET → {HENRY, LIQUID, RED} — VIOLET watches the lag: credit spreads widen and VIX hasn't caught up |
 | Climate and power | AEOLUS → {BRENT, CORAL, MARCO}; AEOLUS → WATT → {HENRY, CARL}; BRENT (gas → power) → WATT |

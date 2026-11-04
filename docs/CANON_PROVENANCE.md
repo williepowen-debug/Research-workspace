@@ -8,11 +8,11 @@
 
 ## How The System Works
 
-- `key: system-platform` · `root-anchor: serial multi-machine, desktop ⇄ laptop, ONE at a time`
+- `key: system-platform` · `root-anchor: serial multi-machine operation`
   **Platform:** the OpenClaw/VPS platform was cut 2026-06-26 — `AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md`. Historically PROME also ran an always-on OpenClaw surface; there is now one PROME on one machine at a time.
 - `key: system-prome-address` · `root-anchor: Write to `PROME/inbox/``
   **Coordination address (root line 18):** Will-ruled WQ-118, 2026-08-29, on spine audit #11 blocking #1. Root had said "Write to `AGENTS/<NAME>/outbox/` to request Prome action" and never named `PROME/inbox/`; canon (Will 2026-07-24; `PROME/BOOT.md` step 6; `MESSAGING/DIRECT_MESSAGING_V1_SPEC.md` §6) had made `PROME/inbox/` the sole delivery surface since 7/24. The missing positive address is the suspected feeder for the `AGENTS/PROME/inbox` regrowth (removed 7/24 → re-grew 8/27 → 8/28 REGINALD). Memory: `finding_prome_inbox_is_repo_root_not_under_agents`.
-- `key: system-deliver-before-idle` · `root-anchor: final action before going idle`
+- `key: system-deliver-before-idle` · `root-anchor: deliver before idling under`
   **Teams-mode deliver-before-idle:** agents idling "holding" without delivering forced the coordinator to chase them — rule added at the 2026-06 orchestration hardening.
 - `key: system-roster` · `root-anchor: `PROME/ROSTER.md` is the single source of truth`
   **Roster count history:** 31→32 at the 2026-08-20 FLG build (Flagstar Financial single-name, the fleet's first greenfield per-bank build); 32→33 at the 2026-08-21 CRUISE re-class (ARCHIVE/personal-interest → EVENT-DRIVEN, Will-ruled queue row 55); both mirrors reconciled 2026-08-21 under in-session words. Tier 2 (spawned as needed): CREED, DEWEY, HANS, OTTO. Special: YEYOU (repo-wide reviewer, manual/branch model), DAEDALUS (fleet architect meta-agent, on-demand), RAV (interim QC reviewer, Will-ratified 2026-08-02). Spinout/promotion provenance (OZK, CORAL, AEOLUS, HOMER, OSPREY/FALCON, WAL [promoted 2026-07-25 — that queue's named successor is UNASSIGNED; nominations = DAEDALUS maturity review, Will-gated]) → `PROME/ROSTER.md`. ROSTER's five responsibility classes are descriptive.

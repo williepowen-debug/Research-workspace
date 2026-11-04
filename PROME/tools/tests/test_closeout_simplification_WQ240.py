@@ -182,7 +182,11 @@ class Case4_PublicationFails(unittest.TestCase):
 
     def test_prerequisites_are_checked_before_the_render(self):
         m = (ROOT / "PROME/CLOSEOUT.md").read_text(encoding="utf-8")
-        self.assertIn("Publication prerequisites are checked at Pre-closeout, not at the render", m)
+        pre_closeout = m.split("## Pre-closeout", 1)[1].split("\n---", 1)[0]
+        self.assertIn("Publication prerequisites", pre_closeout)
+        self.assertIn("checked HERE, never at the render", pre_closeout)
+        delivery = m.split("## Delivery —", 1)[1].split("\n---", 1)[0]
+        self.assertIn("see Pre-closeout item 5", delivery)
         runner = (ROOT / ".claude/skills/closeout/SKILL.md").read_text(encoding="utf-8")
         self.assertLess(runner.index("Publication prerequisites"),
                         re.search(r"Publish the verified artifacts|Render \+ publish", runner).start())
