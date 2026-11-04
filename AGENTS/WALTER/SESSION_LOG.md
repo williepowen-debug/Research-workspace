@@ -1,3 +1,19 @@
+# FULL CLOSEOUT — 2026-11-04T20:42:17Z — authorized November 4 catch-up
+
+68 BOARD cards, 187 required handoffs, zero kill-log rows; three bounded verification helpers completed nine passes. Intake 464/464 and bookmark content 57/57 CLOSED; exact 49 bookmark IDs marked. Source leads are explicitly unverified. Threshold registry accounts for 48 IDs; no whole-registry all-clear. Owed DEWEY requests overlap completed owner work and remain for reconciliation. No domain launch, trade or new study. Registry refreshed before NETWORK; MEMORY session note and current duty/approval list refreshed. Full closeout has no LIGHT narrative debt. Publication and source limitations remain solely in LAST_COMPLETION.md. Review: research/2026-11-04_catchup/REVIEW.md.
+
+## Verbatim STATUS rotation — 2026-11-04T20:42:17Z
+
+Oldest contiguous 5 observation rows; moved without rewriting.
+
+| Object | Observation and limit |
+|---|---|
+| Credit (10/22 observation, FRED first-published, pulled 10/23 14:27Z) | HY 340 (+13), CCC 1,340 (+33), BB 210, B 346, IG 89 [10/22]; HY effective yield 8.14%. REG-T-04 (>350 x3) 10bp away (2.9%): near-trigger watch (015). RED-FT-02 / REG-T-03 fired state held. VIXCLS 19.03 [10/22] = RED-FT-06 exit 1 of 5 (RED owns). SOFR 3.90 minus IORB 3.90 = 0bp [10/22]. Long-run context and analogs: `research/2026-10-23_morning/HY_SPREAD_DEEP_DIVE.md`. |
+| Banks and tape (10/23 intraday, vendor 14:27Z, not closes) | FLG $10.35 (-9.57%) after Q3 (005); FCNCA +7.13% and FHB -4.17% after Q3 (012); WAL $75.28 (-1.81%, REG-T-02 fired state, re-entry, exit 0 of 3); ZION $65.65 (-1.11%); KRE $71.80 (-0.84%); SPY -0.68%; ^VIX 20.07 (+5.47%, about +1 point, no safety net); HYG $76.89. ZION premarket bars were unavailable at boot (FLASH leg UNKNOWN then). |
+| Data (10/23, primaries) | S&P Global flash PMI October: manufacturing 56.0 (55.9), services 57.9 (58.8), composite 57.6 (58.4); selling prices fastest since August 2022 (010). Michigan final October 48.0 (prelim 46.3); 1-year 4.7%, long-run 3.5% (014). France flash composite 48.4 (51.1), manufacturing 49.3 (011, French release); Germany flash not read. AmEx Q3 reserve release, NWO 1.8% (009). |
+| Oil (10/23 intraday 12:3xZ, not settles) | BZ=F rolled December to January on 10/23 (BZ=F = BZF27 110.28); BZZ26 114.98 (+1.2%), CLZ26 101.26 (+1.3%) (006). Boundary #8 stays on December legs until 11/02. |
+| Chips and Asia (10/22 close; 10/23 Asia intraday 04:39Z) | Vendor closes 10/22: SOX 10,731.98 (−6.72%), SMH $523.35, AMD $507.93 (−8.10%), MU $856.49 (−6.26%), NVDA $212.21 (−4.40%), QQQ $704.47 (−2.86%), NDX 28,958.69, SPY $763.96 (−1.18%), CRWV $55.60 (−10.1%, low $54.85 15:45 ET), AMZN $250.38 (−4.56%). Asia 10/23 intraday: Nikkei 62,238 (−1.06%), Kospi 5,486 (−0.86%, −21% from 10/06), SK Hynix +2.21%; USD/JPY 156.89 (158.13 prior). Japan Sept core CPI 2.1% (CNBC/Xinhua; primary not read). T5YIFR 2.19 [10/22]. Boundary #8 est. ≈$39.75 Dec legs overnight, not a settle. FRED HY/CCC/VIXCLS/DGS10 for 10/22 unpublished at 11:27Z. |
+
 # FULL CLOSEOUT — 2026-11-02T16:26:16Z — CLOSED on Will request
 
 All authorized work persisted;14 day cards,39 delivered handoffs,7 kills,0 helpers/orders. Full header/network/MEMORY narratives refreshed, one prior LIGHT deferral cleared. Operational boot remains PARTIAL; official settlement/owner/event sources and dirty shared diagnostic basis retained. No new research, intake scan or wake. GIBBS013 formal consume and REGINALD008/013 semantic integration verified; NEXUS uncommitted follow-through not called complete. Current approvals/duties remain solely LAST_COMPLETION. Detailed manual procedure/retirement/capability review: research/2026-11-02_final-close/REVIEW.md.

@@ -1,0 +1,21 @@
+{
+  "record_type": "manual transcription of earlier session tool output",
+  "basis": "unadjusted completed daily closes; Yahoo and Nasdaq agreed",
+  "dates": [
+    "2026-11-02",
+    "2026-11-03"
+  ],
+  "WAL": [
+    78.67,
+    76.77
+  ],
+  "KRE": [
+    73.73,
+    72.88
+  ],
+  "UNG": [
+    9.0,
+    9.13
+  ],
+  "limits": "November 4 intraday excluded; no option quotes or owner gate grade"
+}

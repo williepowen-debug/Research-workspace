@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-11-04T20:42:17Z",
+  "rows": 49,
+  "available_status_headers": 44,
+  "updated": {
+    "REGINALD": [
+      "2026-11-03",
+      "November 3 owner KRE redemption review: price/share-count divergence is historical, not a standalone bank-credit signal. Existing grades unchanged."
+    ],
+    "NEXUS": [
+      "2026-11-04",
+      "November 4 working owner catch-up header: L16 UP and M-07 DOWN graded; delta-annotated, not a full matrix re-sweep. No independent WALTER acceptance of the full review."
+    ],
+    "DAEDALUS": [
+      "2026-11-04",
+      "November 4 header records startup/recovery only; maintenance not established by the header. Other dirty authored files do not prove a completed review."
+    ],
+    "WALTER": [
+      "2026-11-04",
+      "Authorized bounded catch-up: 68 source-qualified cards; 464 intake records and 49 bookmarks dispositioned. Current duties, approvals and publication limits: LAST_COMPLETION.md."
+    ]
+  },
+  "counts": {
+    "GREEN": 4,
+    "RED": 10,
+    "ORANGE": 14,
+    "YELLOW": 13,
+    "RETIRED": 1,
+    "ELEVATED": 1,
+    "RED2": 1,
+    "\u2014": 5
+  },
+  "scope": "Owner lead-header comparison only. No automatic lifecycle, research completion, classification or grade inference."
+}

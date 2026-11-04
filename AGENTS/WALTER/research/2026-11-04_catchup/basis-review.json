@@ -1,0 +1,9 @@
+{
+  "reviewed": [
+    "FORGE/tools/market-data/dashboard.py",
+    "FORGE/tools/market-data/fetch.py",
+    "PROME/COMPLETION_SPEC.md",
+    "scripts/read_cap_check.py"
+  ],
+  "scope": "Committed deltas manually reviewed; current bytes hashed. Central READS renewal remains with PROME."
+}
