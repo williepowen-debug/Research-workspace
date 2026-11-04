@@ -118,6 +118,11 @@ FULL approved-maintenance closeout; light narrative debt cleared. Operational co
       "commit": "88c33321c97b2b064371755b82d687e2ed85389a",
       "state": "published",
       "note": "Approved maintenance; no WALTER push."
+    },
+    {
+      "commit": "171f02e5b89842e2628c61a46b4ea91a8f4d6de4",
+      "state": "pending",
+      "note": "FULL CLOSED; coordinated push pending."
     }
   ],
   "delivery": {
@@ -194,7 +199,7 @@ FULL approved-maintenance closeout; light narrative debt cleared. Operational co
     "14": "MEMORY closed-session note refreshed; no promotion, November 5 calendar review retained.",
     "root.retirement": "Retained live source/review references; no safe unused-source retirement identified, no deletion sweep.",
     "15": "Duties/approvals retained. WAL complete-source owner result supersedes its access blocker, not historical WALTER failed recovery. No new grade or restarted search.",
-    "16": "Maintenance publication reconciled against fresh origin; final-close exact-path commit pending. No WALTER push; foreign dirty files preserved.",
+    "16": "Final FULL closeout171f02e5b committed; publication pending coordinated push. Foreign dirty files preserved.",
     "checks": "Final receipt/caps/archives/weekdays/basis/memory PASS. READS UNKNOWN: central attestation stale. Doctor0 HIGH/2 MED: older consumption backlog and003R residual. Ledger nudge reviewed: REGISTRY updated; no new route/kill/fire events. Local consumption declarations already committed; remote visibility separate.",
     "Tier1": "No new market data or event grade; stale continuity corrected using committed owner evidence."
   }
