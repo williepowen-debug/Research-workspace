@@ -1,0 +1,17 @@
+[
+  {
+    "name": "oracle_pricing",
+    "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Pricing-of-20-Billion-of-Common-Stock-and-Senior-Notes/default.aspx",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ueno_circular",
+    "url": "https://www.bcp.gov.py/documents/20117/0/2026-11-03_CIRCULAR_SVSG-020_Funcionamiento_Mercado_UENO.pdf/7e37805e-b631-d38f-b816-9b331da586cf?t=1793754807022.pdf",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ueno_valuation",
+    "url": "https://www.bcp.gov.py/documents/20117/2780455/2026-11-03_RESOLUCI%C3%93N_SVSG_0016_CRITERIOS_VALORIZACI%C3%93N%2B%282%29.pdf/acde17a9-c011-ac00-718c-25bb1e3697b4?t=1793754846413.pdf",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+]

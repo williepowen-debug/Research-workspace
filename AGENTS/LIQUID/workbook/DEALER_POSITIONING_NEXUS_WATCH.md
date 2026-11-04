@@ -1,7 +1,9 @@
 # Dealer-Positioning Nexus Watch — registered 2026-07-11 (Sat ~18:00 ET)
-**Owner:** LIQUID. **Reconciled 2026-10-26T19:16:42-04:00 to saved October22–26 evidence.** Current authoritative grade/readings/reset: STATUS§2. Next reviewOctober30, set by PROME. Registered operators/count/reset unchanged.
+**Owner:** LIQUID. **Available-observation follow-through November 4, 2026.** Current authoritative grade/readings/reset: STATUS§2. November 5 review remains pending its final published observations, set by PROME. Registered operators/count/reset unchanged.
 
 ## Latest evidence — observation dates retained
+
+**November 4 checkpoint:** current available-observation conjunction and pending November 5 inputs are in STATUS§2 and `research/2026-11-04_credit-followthrough/REPORT.md` §3. Old W2 aged out of the window; that is not evidence of improved capacity. No reset/new write-up. Actionable-life denominator remains CANNOT-CERTIFY, not a new firing prohibition. The October reads below retain their dates.
 
 October19's one-week mid-curve reading is superseded by the saved October22 publication/as-ofOctober14: W2 MET. Current076 conjunction remains MET in its existing episode; no10-business-day reset, new re-arm or second write-up. CFTC W1 as-ofOctober20 NOT MET; original raw archive/Last-Modified receipt now saved in October26 boot evidence. Near-boundary W3 closes still require VIOLET; no new Monday witness certified here.
 

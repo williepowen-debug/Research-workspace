@@ -2,14 +2,13 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-11-04T16:05:39-05:00 (Will startup recovery only, OpenAI/Codex, exact model UNKNOWN)
+### CURRENT SESSION — 2026-11-04T16:25:58-05:00 (Will substantive credit follow-through after startup, OpenAI/Codex)
 
-- Boot receipt: `research/2026-11-04_boot/REPORT.md`. Explicit root/local loading verified. No local AGENTS.md. Pull refused on foreign dirt, fetch succeeded (4 ahead/0 behind at boot), foreign work preserved.
-- Sweep 30 series / 0 errors, selftest PASS. Latest-revised HY340/CCC1316 [11/03], SOFR−IORB+7bp [11/03]. No first-published count or formal gate regrade.
-- WQ534 B shelved/withheld and WQ535 A encoded recovered. X1 CLOSED/DON'T-SIZE. November5 gate reviews next. Exact-boundary L4 defect remains uncorrected, actual market miss unestablished.
-- Startup WALTER intake21, directed follow-through deferred. COR-20261031-02 NO-OP receipt. General inbox2 read for recovery only, not processed. No new research/repair/trade or fleet notification.
-- Resume STATUS §3 and November5 reviews. Older NEXT SESSION dates below are historical and superseded by STATUS/central dated rows.
-
+- First-published reconciliation through November 3: >320 renewed run MET on November 2, four observations by November 3; existing tier ladder BROADENS. No generalized dollar-funding restriction proved. Canonical verdict/evidence: `research/2026-11-04_credit-followthrough/REPORT.md`.
+- Five gates updated for available observations only. 076 current window 1 of 3 because old W2 aged out, no episode reset; 079 NOT ARMED through excluded November 3. November 5 reviews remain OPEN for missing final observations. X1 CLOSED / DON'T-SIZE, swap-line SHELVED—WITHHELD, frozen predictions/FLOW/VX unchanged.
+- Boundary candidate implemented and author-tested: exact 2.40→2.04 meets with HY +5, neighbours pass; 43 retrieved sessions change zero actual results. CLI WITHHELD exit 4 pending independent DAEDALUS result RELEASE; verified Codex send accepted, recipient result not yet evidenced. Acceptance before code; source-based manual unaffected grades kept separate.
+- Arini reported margin-call selling, Ueno local bank→fund restrictions, Oracle priced access and CYPHER dated reopening facts integrated with sourcing/cash/exposure limits. October HY subtotal still missing (SIFMA aggregate is not it). General named packets consumed where tracked; sender-untracked arrivals left in place.
+- Next entry: STATUS §3, independent result receipt plus November 5 publications. Older NEXT SESSION dates below are historical; no completed case or frozen prediction reopened.
 
 ### PRIOR SESSION — 2026-10-29T14:51–16:55-04:00 (PROME prome-5c catch-up + WQ-545 + Will-approved follow-ups, Will 14:52 ET; Claude Code / Opus 5.5)
 

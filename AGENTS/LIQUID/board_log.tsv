@@ -710,3 +710,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T21:05:49+00:00	SIG-W-20261104-040	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
 2026-11-04T21:05:49+00:00	SIG-W-20261104-042	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
 2026-11-04T21:05:49+00:00	SIG-W-20261104-061	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:25:57+00:00	SIG-W-20261031-012	acted	INBOX_WALTER	Prior deferred -> acted on Will substantive follow-through. Source limits retained. research/2026-11-04_credit-followthrough/REPORT.md
+2026-11-04T21:25:57+00:00	SIG-W-20261102-001	acted	INBOX_WALTER	Prior deferred -> acted on Will substantive follow-through. Source limits retained. research/2026-11-04_credit-followthrough/REPORT.md
+2026-11-04T21:25:57+00:00	SIG-W-20261102-008	acted	INBOX_WALTER	Prior deferred -> acted on Will substantive follow-through. Source limits retained. research/2026-11-04_credit-followthrough/REPORT.md
+2026-11-04T21:25:57+00:00	SIG-W-20261104-021	acted	INBOX_WALTER	Prior deferred -> acted on Will substantive follow-through. Source limits retained. research/2026-11-04_credit-followthrough/REPORT.md
+2026-11-04T21:25:57+00:00	SIG-W-20261104-069	acted	INBOX_WALTER	Integrated existing credit lane with source limits. research/2026-11-04_credit-followthrough/REPORT.md
+2026-11-04T21:25:57+00:00	SIG-W-20261104-071	info-only	INBOX_WALTER	Context only, no LIQUID grade. research/2026-11-04_credit-followthrough/REPORT.md
+2026-11-04T21:25:57+00:00	SIG-W-20261104-074	info-only	INBOX_WALTER	Context only, no LIQUID grade. research/2026-11-04_credit-followthrough/REPORT.md

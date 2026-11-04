@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-10-30",
+    "previous": "2026-10-29",
+    "15session_base": "2026-10-09",
+    "daily": {
+      "HY": 18,
+      "IG": 5,
+      "BBB": 6,
+      "BB": 15,
+      "B": 28,
+      "CCC": 2
+    },
+    "15session": {
+      "HY": 33,
+      "IG": 11,
+      "BBB": 14,
+      "BB": 21,
+      "B": 50,
+      "CCC": 74
+    },
+    "existing_2026_09_25_rule": "BROADENS"
+  },
+  {
+    "date": "2026-11-02",
+    "previous": "2026-10-30",
+    "15session_base": "2026-10-12",
+    "daily": {
+      "HY": -1,
+      "IG": 0,
+      "BBB": 1,
+      "BB": -3,
+      "B": 3,
+      "CCC": -8
+    },
+    "15session": {
+      "HY": 32,
+      "IG": 11,
+      "BBB": 15,
+      "BB": 18,
+      "B": 53,
+      "CCC": 66
+    },
+    "existing_2026_09_25_rule": "BROADENS"
+  },
+  {
+    "date": "2026-11-03",
+    "previous": "2026-11-02",
+    "15session_base": "2026-10-13",
+    "daily": {
+      "HY": -3,
+      "IG": -1,
+      "BBB": -1,
+      "BB": -3,
+      "B": -1,
+      "CCC": -3
+    },
+    "15session": {
+      "HY": 24,
+      "IG": 10,
+      "BBB": 13,
+      "BB": 12,
+      "B": 45,
+      "CCC": 49
+    },
+    "existing_2026_09_25_rule": "BROADENS"
+  }
+]

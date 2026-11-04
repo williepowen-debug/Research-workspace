@@ -1,0 +1,9 @@
+BAMLH0A2HYB 46 None
+BAMLH0A1HYBB 46 None
+BAMLC0A0CM 46 None
+BAMLH0A3HYC 46 None
+PDPOSCSBND-G10 [{'asofdate': '2026-09-30', 'keyid': 'PDPOSCSBND-G10', 'value': '-9570'}, {'asofdate': '2026-10-07', 'keyid': 'PDPOSCSBND-G10', 'value': '-10665'}, {'asofdate': '2026-10-14', 'keyid': 'PDPOSCSBND-G10', 'value': '-10307'}, {'asofdate': '2026-10-21', 'keyid': 'PDPOSCSBND-G10', 'value': '-10277'}]
+BAMLH0A0HYM2 46 None
+PDPOSCSBND-G5L10 [{'asofdate': '2026-09-30', 'keyid': 'PDPOSCSBND-G5L10', 'value': '847'}, {'asofdate': '2026-10-07', 'keyid': 'PDPOSCSBND-G5L10', 'value': '-1462'}, {'asofdate': '2026-10-14', 'keyid': 'PDPOSCSBND-G5L10', 'value': '-1717'}, {'asofdate': '2026-10-21', 'keyid': 'PDPOSCSBND-G5L10', 'value': '-1861'}]
+DTCC 2026-11-03 1442 20
+DTCC 2026-11-02 19250 42
