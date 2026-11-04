@@ -1,3 +1,7 @@
+# LIGHT CLOSEOUT — 2026-11-04T21:01:22.576061+00:00 — WAL original-source recovery
+
+One bounded recovery attempt CLOSED, NOT RECOVERED. 40 file candidates and 11 historical versions checked; no exact original. Selected evidence explicitly distinguished from the missing 1,792-row SDF; no reconstruction or cohort rerun. WAL administrative notice authored. Review: research/2026-11-04_WAL-source-recovery/REPORT.md. Full deferred; current duty/approval list remains LAST_COMPLETION.md.
+
 # FULL CLOSEOUT — 2026-11-04T20:42:17Z — authorized November 4 catch-up
 
 68 BOARD cards, 187 required handoffs, zero kill-log rows; three bounded verification helpers completed nine passes. Intake 464/464 and bookmark content 57/57 CLOSED; exact 49 bookmark IDs marked. Source leads are explicitly unverified. Threshold registry accounts for 48 IDs; no whole-registry all-clear. Owed DEWEY requests overlap completed owner work and remain for reconciliation. No domain launch, trade or new study. Registry refreshed before NETWORK; MEMORY session note and current duty/approval list refreshed. Full closeout has no LIGHT narrative debt. Publication and source limitations remain solely in LAST_COMPLETION.md. Review: research/2026-11-04_catchup/REVIEW.md.

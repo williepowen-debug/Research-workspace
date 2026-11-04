@@ -1,0 +1,988 @@
+{
+  "as_of": "2026-11-04T21:01:22.576061+00:00",
+  "result": "NOT RECOVERED",
+  "original_receipt": {
+    "bank": "WAL",
+    "rssd": 3138146,
+    "report_date": "20260930",
+    "sha256": "2e04cc7bf1a78e525a68059c358215c8ce9e3c24c3639d84ea74ccb8d69c60a4",
+    "raw_path": "/tmp/walter-call-report-availability-6guvqyx_/WAL_20260930.sdf",
+    "rows": 1792,
+    "source": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+    "retrieved_utc": "2026-11-01T02:18:33.515051+00:00"
+  },
+  "exact_original_path_exists": false,
+  "scans": [
+    {
+      "root": "/home/willi/Research-workspace",
+      "rg_rc": 0,
+      "listed_files": 61198,
+      "candidate_files": 40,
+      "errors": ""
+    },
+    {
+      "root": "/home/willi/Research-Intake",
+      "rg_rc": 0,
+      "listed_files": 2259,
+      "candidate_files": 0,
+      "errors": ""
+    },
+    {
+      "root": "/tmp",
+      "rg_rc": 2,
+      "listed_files": 2216,
+      "candidate_files": 0,
+      "errors": "rg: /tmp/snap-private-tmp: Permission denied (os error 13)\nrg: /tmp/systemd-private-44dab40071f3427a9689632410429fe1-systemd-resolved.service-LFCCL8: Permission denied (os error 13)\nrg: /tmp/systemd-private-44dab40071f3427a9689632410429fe1-wsl-pro.service-eADYHD: Permission denied (os error 13)\nrg: /tmp/systemd-private-44dab40071f3427a9689632410429fe1-systemd-logind.service-PnoFGh: Permission denied (os error 13)\nrg: /tmp/systemd-private-44dab40071f3427a9689632410429fe1-polkit.service-s15PrJ: Permission denied (os error 13)\nrg: /tmp/systemd-private-44dab40071f3427a9689632410429fe1-systemd-timesyncd.service-tmfBat: Permission denied (os error 13)"
+    },
+    {
+      "root": "/var/tmp",
+      "rg_rc": 2,
+      "listed_files": 0,
+      "candidate_files": 0,
+      "errors": "rg: /var/tmp/systemd-private-44dab40071f3427a9689632410429fe1-systemd-resolved.service-d60XyR: Permission denied (os error 13)\nrg: /var/tmp/systemd-private-44dab40071f3427a9689632410429fe1-systemd-logind.service-1D4Dmu: Permission denied (os error 13)\nrg: /var/tmp/systemd-private-44dab40071f3427a9689632410429fe1-systemd-timesyncd.service-JKYpzp: Permission denied (os error 13)\nrg: /var/tmp/systemd-private-44dab40071f3427a9689632410429fe1-wsl-pro.service-6cIdJx: Permission denied (os error 13)\nrg: /var/tmp/systemd-private-44dab40071f3427a9689632410429fe1-polkit.service-WaGHPD: Permission denied (os error 13)"
+    },
+    {
+      "root": "/home/willi/Downloads",
+      "state": "absent"
+    },
+    {
+      "root": "/home/willi/.cache",
+      "rg_rc": 0,
+      "listed_files": 9914,
+      "candidate_files": 0,
+      "errors": ""
+    }
+  ],
+  "candidates": [
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/housekeeping_2026-10-14/FINRA_WAL_20260930.json",
+      "bytes": 469,
+      "sha256": "b65e6f89fb917c8516e51cecc66ac3c29d8b8c9af0d0333bf0f3133134c65974",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2024-09-30.sdf",
+      "bytes": 175870,
+      "sha256": "6a695e6f1c0402cf1e87ca332d1970a08d2fec44662841f723a068b374cbb5a1",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-03-31.sdf",
+      "bytes": 177691,
+      "sha256": "b6a6587be4503b6d6a7926cd43024ab7c6c4c7a81f759e1d1a4fd9eecc9ee44a",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2026-06-30.sdf",
+      "bytes": 184829,
+      "sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2026-03-31.sdf",
+      "bytes": 183131,
+      "sha256": "8f051cbe7742e91fbb14a1ffd157c8163c68c7183e2c1e456dcfdcdaaf64c359",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-09-30.sdf",
+      "bytes": 184457,
+      "sha256": "822f32c2120cf33c50dc5eccd3ecaf54d2b04c237139868662604ee6db63c4c6",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-12-31.sdf",
+      "bytes": 187606,
+      "sha256": "7cc35e3b7402dbcc499bfb1f937b878aa5f87dd6b550199e1131a22066755339",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2024-12-31.sdf",
+      "bytes": 181480,
+      "sha256": "10b92d555526274394f0172e7e325f843a96c51cf414a22b6fd21b01416769e4",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-06-30.sdf",
+      "bytes": 186494,
+      "sha256": "b6913e2ef3d7e4bf9deb07196098534d3d850fa5b95fb2cf2f875789b187346b",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/OZK_6-30-2026.sdf",
+      "bytes": 181026,
+      "sha256": "66ac3ac388cd7b6334d2a9edd7c47c0436a697118989727a8462efad412fdf1f",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/BKU_3-31-2026.sdf",
+      "bytes": 174183,
+      "sha256": "f79eb6a20b27628bcb40519560e9ba94fe2c90f84085590238a28fb801f10c8f",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/BKU_6-30-2026.sdf",
+      "bytes": 175831,
+      "sha256": "1efb4d22f362a1670a57125639d3367d46b02f43a4a16aaf0412c3a62e0e143e",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/FLG_6-30-2026.sdf",
+      "bytes": 197011,
+      "sha256": "466db13809ffa5762a701a6b49cf032409de3b965381970ab1c8344e9b15b239",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/HBAN_6-30-2026.sdf",
+      "bytes": 212232,
+      "sha256": "dcc520913f27d0187c5c4ec7d4616dcbeee5e6587859286fbdb7370c76215a18",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/MTB_6-30-2026.sdf",
+      "bytes": 213609,
+      "sha256": "74c9d31e2a1212bbae4e49e79ebb215184873f4aeb114e2b888f217e7dca35fa",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/VLY_6-30-2026.sdf",
+      "bytes": 204738,
+      "sha256": "19c15228bc487fd9a97ac1a158d2d46aeaf6b130bf86450b07c375a86ac4646e",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/SBCF_3-31-2026.sdf",
+      "bytes": 177694,
+      "sha256": "d0de0f46a73ff9c54391104f43f0a06978efd452b60d121cd23cd13738f3611b",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/CUBI_3-31-2026.sdf",
+      "bytes": 176422,
+      "sha256": "ab1e4e72364afff99ced3cdafbd217db61db02b3f208b26cc33f7658877f410f",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/ZION_6-30-2026.sdf",
+      "bytes": 183632,
+      "sha256": "5418792a7b827b8a3b2ef5f6589701cbce492db7abe39758c7c283aaad1050d6",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/EGBN_6-30-2026.sdf",
+      "bytes": 175857,
+      "sha256": "2b4a941f68e290b750e98c5f543c6a8412917acdeec8a1f07bae3a40ad102a7a",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/CFG_3-31-2026.sdf",
+      "bytes": 200900,
+      "sha256": "37f165f0607b44e1c03530a3c8f9af71bb78f6f82e05f2c1320fbbf501ec60a5",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/HBAN_3-31-2026.sdf",
+      "bytes": 210306,
+      "sha256": "1f74e80df201aed6edc4fa854ff460c643e25145a57b717e3918ff9399f43abf",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/WAL_3-31-2026.sdf",
+      "bytes": 183131,
+      "sha256": "8f051cbe7742e91fbb14a1ffd157c8163c68c7183e2c1e456dcfdcdaaf64c359",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/MTB_3-31-2026.sdf",
+      "bytes": 211675,
+      "sha256": "c71583ab0a2f7da1bae97f235cf1ec4603bbcf56bc228e1d697ff4d2460d6225",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/SSB_6-30-2026.sdf",
+      "bytes": 183715,
+      "sha256": "4c97d979ee3de8cbe35dafbffdf57a1243bcd9524aa98c7c147f3c7498e09ba9",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/AMTB_6-30-2026.sdf",
+      "bytes": 182500,
+      "sha256": "8574ba8f1ba16b72cb54f75bddefe95eb5b19d6f634479ef1586970bebda06d8",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/SBCF_6-30-2026.sdf",
+      "bytes": 179820,
+      "sha256": "82b3895db3d1e872185973bae44d901a19ded04ec310c88bc81bb033e072da66",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/EGBN_3-31-2026.sdf",
+      "bytes": 174208,
+      "sha256": "18c1d131681efc7c80efaeee1c4872d2b5474e3c2e407c724aa667af4e0b87c0",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/OZK_3-31-2026.sdf",
+      "bytes": 179170,
+      "sha256": "e556fd08c75aef6aab7f05d6e5abf63e737c76d1a55ae0c3cb19479ad1bbf3f2",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/FLG_3-31-2026.sdf",
+      "bytes": 195245,
+      "sha256": "d956f180fc45143872769eec60b19db87b1804d50c4dbb71953536b5b54287af",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/VLY_3-31-2026.sdf",
+      "bytes": 202791,
+      "sha256": "16c56626921fb232316821aeffe8314ee1597e1565482dcccb7807acd94868b3",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/WAL_6-30-2026.sdf",
+      "bytes": 184829,
+      "sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/AMTB_3-31-2026.sdf",
+      "bytes": 180691,
+      "sha256": "7b32e4407521c9ab157404616676e04c2542d8fc89317a62bd560132b1c3581a",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/CUBI_6-30-2026.sdf",
+      "bytes": 178213,
+      "sha256": "8e049f35ccfc84b79ca337c9e508c5481d0615a1139a3b7ff6dc5869185de50f",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/SSB_3-31-2026.sdf",
+      "bytes": 181917,
+      "sha256": "1bf62a5414d82845a19f43f3cbef33086a0aa756723c97f2931951b49b97de92",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/ZION_3-31-2026.sdf",
+      "bytes": 181871,
+      "sha256": "9680d3cb3447d4d8ef41d5a6653deeff41a12405b3c759a032e4acfa1414afa8",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen/raw/CFG_6-30-2026.sdf",
+      "bytes": 202990,
+      "sha256": "bde384b2e990326cc069a216fc24e0b143ddca64353fb8d877a1091b8068d817",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/FLG/sources/ffiec_2026-11-01/694904_09-30-2026_call.sdf",
+      "bytes": 195001,
+      "sha256": "8cf81ff12e2bad75b58273e4d8702a29d0823a94d393bf5b0ab61d9cc0c82e12",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/FLG/sources/ffiec_2026-10-28/694904_03-31-2026_call.sdf",
+      "bytes": 195245,
+      "sha256": "d956f180fc45143872769eec60b19db87b1804d50c4dbb71953536b5b54287af",
+      "exact_match": false
+    },
+    {
+      "path": "/home/willi/Research-workspace/AGENTS/FLG/sources/ffiec_2026-10-28/694904_06-30-2026_call.sdf",
+      "bytes": 197011,
+      "sha256": "466db13809ffa5762a701a6b49cf032409de3b965381970ab1c8344e9b15b239",
+      "exact_match": false
+    }
+  ],
+  "git_history_candidates": [
+    {
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2024-09-30.sdf",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "bytes": 175870,
+      "sha256": "6a695e6f1c0402cf1e87ca332d1970a08d2fec44662841f723a068b374cbb5a1",
+      "exact_match": false
+    },
+    {
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2024-12-31.sdf",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "bytes": 181480,
+      "sha256": "10b92d555526274394f0172e7e325f843a96c51cf414a22b6fd21b01416769e4",
+      "exact_match": false
+    },
+    {
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-03-31.sdf",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "bytes": 177691,
+      "sha256": "b6a6587be4503b6d6a7926cd43024ab7c6c4c7a81f759e1d1a4fd9eecc9ee44a",
+      "exact_match": false
+    },
+    {
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-06-30.sdf",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "bytes": 186494,
+      "sha256": "b6913e2ef3d7e4bf9deb07196098534d3d850fa5b95fb2cf2f875789b187346b",
+      "exact_match": false
+    },
+    {
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-09-30.sdf",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "bytes": 184457,
+      "sha256": "822f32c2120cf33c50dc5eccd3ecaf54d2b04c237139868662604ee6db63c4c6",
+      "exact_match": false
+    },
+    {
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2025-12-31.sdf",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "bytes": 187606,
+      "sha256": "7cc35e3b7402dbcc499bfb1f937b878aa5f87dd6b550199e1131a22066755339",
+      "exact_match": false
+    },
+    {
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2026-03-31.sdf",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "bytes": 183131,
+      "sha256": "8f051cbe7742e91fbb14a1ffd157c8163c68c7183e2c1e456dcfdcdaaf64c359",
+      "exact_match": false
+    },
+    {
+      "path": "AGENTS/WAL/sources/ffiec_2026-10-14/WAL_2026-06-30.sdf",
+      "commit": "96ac1be9a31b301a59d55556881cc02cafdea5ce",
+      "bytes": 184829,
+      "sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb",
+      "exact_match": false
+    },
+    {
+      "path": "AGENTS/WAL/sources/housekeeping_2026-10-14/FINRA_WAL_20260930.json",
+      "commit": "e2e2986f48831a89f0d0ccd682f47c19efff5514",
+      "bytes": 469,
+      "sha256": "b65e6f89fb917c8516e51cecc66ac3c29d8b8c9af0d0333bf0f3133134c65974",
+      "exact_match": false
+    },
+    {
+      "path": "PROME/inbox/2026-09-30_from-WALTER_BM-20260930-01-finished-post-crash-commits-aefafc80a-ad66e0ad3.md",
+      "commit": "edd94b621dc9684fb7525b72cf57c9a8622bf575",
+      "bytes": 1611,
+      "sha256": "6012521a350e69ad01c2286e46ac438036ec843b60af71db6728ca80e60e86ee",
+      "exact_match": false
+    },
+    {
+      "path": "PROME/inbox/processed/2026-09-30_from-WALTER_BM-20260930-01-finished-post-crash-commits-aefafc80a-ad66e0ad3.md",
+      "commit": "d9908c998e4244b8d2ea5a09e917b23c90b97e9d",
+      "bytes": 1611,
+      "sha256": "6012521a350e69ad01c2286e46ac438036ec843b60af71db6728ca80e60e86ee",
+      "exact_match": false
+    }
+  ],
+  "matches": [],
+  "remaining_selected_evidence": {
+    "selected-primary-rows.tsv": [
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "asset",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON2170",
+        "Value": "97898530",
+        "Last Update": "20261030",
+        "Short Definition": "Total balance sheet assets",
+        "Schedule": "RCRII",
+        "Line": "11"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "equity",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON3210",
+        "Value": "7700407",
+        "Last Update": "20261030",
+        "Short Definition": "Total bank equity capital (sum of items 23 through 26.c)",
+        "Schedule": "RC",
+        "Line": "27a"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "aoci",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONB530",
+        "Value": "-785758",
+        "Last Update": "20261030",
+        "Short Definition": "Accumulated other comprehensive income",
+        "Schedule": "RC",
+        "Line": "26b"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "afs_cost",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON1772",
+        "Value": "19628049",
+        "Last Update": "20261030",
+        "Short Definition": "Total (sum of items 1 through 7)",
+        "Schedule": "RCB",
+        "Line": "8"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "afs_fv",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON1773",
+        "Value": "18410467",
+        "Last Update": "20261030",
+        "Short Definition": "Total (sum of items 1 through 7)",
+        "Schedule": "RCB",
+        "Line": "8"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "htm_cost",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON1754",
+        "Value": "1730308",
+        "Last Update": "20261030",
+        "Short Definition": "Total (sum of items 1 through 7)",
+        "Schedule": "RCB",
+        "Line": "8"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "htm_fv",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON1771",
+        "Value": "1471612",
+        "Last Update": "20261030",
+        "Short Definition": "Total (sum of items 1 through 7)",
+        "Schedule": "RCB",
+        "Line": "8"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "dom_dep",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON2200",
+        "Value": "82194988",
+        "Last Update": "20261030",
+        "Short Definition": "In domestic offices (sum of totals of columns A and C from Schedule RC-E)",
+        "Schedule": "RC",
+        "Line": "13a"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "nib_dom",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON6631",
+        "Value": "25752147",
+        "Last Update": "20261030",
+        "Short Definition": "Noninterest-bearing",
+        "Schedule": "RC",
+        "Line": "13a1"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "brokered",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON2365",
+        "Value": "5642001",
+        "Last Update": "20261030",
+        "Short Definition": "Total brokered deposits",
+        "Schedule": "RCE",
+        "Line": "M1b"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "uninsured_dom",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON5597",
+        "Value": "32652647",
+        "Last Update": "20261030",
+        "Short Definition": "Estimated amount of uninsured deposits, including related interest accrued and unpaid (see instructions)",
+        "Schedule": "RCO",
+        "Line": "M2"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "loans",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON2122",
+        "Value": "65934493",
+        "Last Update": "20261030",
+        "Short Definition": "Total loans and leases held for investment and held for sale (sum of items 1 through 10 minus item 11) (must equal Schedule RC, sum of items 4.a and 4.b)",
+        "Schedule": "RCCI",
+        "Line": "12"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "allowance",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON3123",
+        "Value": "512787",
+        "Last Update": "20261030",
+        "Short Definition": "LESS: Allowance for credit losses on loans and leases",
+        "Schedule": "RCRII",
+        "Line": "6"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "nal",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON1403",
+        "Value": "487951",
+        "Last Update": "20261030",
+        "Short Definition": "Total loans and leases (sum of items 1 through 8)",
+        "Schedule": "RCN",
+        "Line": "9"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "past90",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON1407",
+        "Value": "1385227",
+        "Last Update": "20261030",
+        "Short Definition": "Total loans and leases (sum of items 1 through 8)",
+        "Schedule": "RCN",
+        "Line": "9"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "past30",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON1406",
+        "Value": "290069",
+        "Last Update": "20261030",
+        "Short Definition": "Total loans and leases (sum of items 1 through 8)",
+        "Schedule": "RCN",
+        "Line": "9"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "ni_ytd",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4340",
+        "Value": "860689",
+        "Last Update": "20261030",
+        "Short Definition": "Net income (loss) attributable to bank (must equal Schedule RI, item 14)",
+        "Schedule": "RIA",
+        "Line": "4"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "co_ytd",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4635",
+        "Value": "314824",
+        "Last Update": "20261030",
+        "Short Definition": "Total (sum of items 1 through 8)",
+        "Schedule": "RIBI",
+        "Line": "9"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "rec_ytd",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4605",
+        "Value": "5421",
+        "Last Update": "20261030",
+        "Short Definition": "Recoveries (column A must equal Part I, item 9, column B, above)",
+        "Schedule": "RIBII",
+        "Line": "2"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "loan_prov_ytd",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4230",
+        "Value": "361500",
+        "Last Update": "20261030",
+        "Short Definition": "Provisions for credit losses",
+        "Schedule": "RIBII",
+        "Line": "5"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "other_bor",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON3190",
+        "Value": "6048337",
+        "Last Update": "20261030",
+        "Short Definition": "Total (sum of items 5.a.(1)(a)-(d) and items 5.b.(1)(a)-(d)) (must equal Schedule RC, item 16)",
+        "Schedule": "RCM",
+        "Line": "5c"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "fedfunds",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONB993",
+        "Value": "0",
+        "Last Update": "20261030",
+        "Short Definition": "Federal funds purchased",
+        "Schedule": "RC",
+        "Line": "14a"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "repos",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONB995",
+        "Value": "0",
+        "Last Update": "20261030",
+        "Short Definition": "Securities sold under agreements to repurchase",
+        "Schedule": "RC",
+        "Line": "14b"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "cet1ratio",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCOAP793",
+        "Value": "11.4458%",
+        "Last Update": "20261030",
+        "Short Definition": "Common equity tier 1 capital ratio (item 19 divided by item 48)",
+        "Schedule": "RCRI",
+        "Line": "49"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "cet1",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCOAP859",
+        "Value": "7731785",
+        "Last Update": "20261030",
+        "Short Definition": "Common equity tier 1 capital (item 12 minus item 18)",
+        "Schedule": "RCRI",
+        "Line": "19"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "mi3",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON2746",
+        "Value": "2458442",
+        "Last Update": "20261030",
+        "Short Definition": "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B",
+        "Schedule": "RCCI",
+        "Line": "M3"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "field": "ndfi",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONJ454",
+        "Value": "15832394",
+        "Last Update": "20261030",
+        "Short Definition": "Loans to nondepository financial institutions",
+        "Schedule": "RCCI",
+        "Line": "9a"
+      }
+    ],
+    "bridge-primary-rows.tsv": [
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4340",
+        "Value": "860689",
+        "Last Update": "20261030",
+        "Short Definition": "Net income (loss) attributable to bank (must equal Schedule RI, item 14)",
+        "Schedule": "RIA",
+        "Line": "4"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4356",
+        "Value": "0",
+        "Last Update": "20261030",
+        "Short Definition": "Changes incident to business combinations, net",
+        "Schedule": "RIA",
+        "Line": "7"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4415",
+        "Value": "0",
+        "Last Update": "20261030",
+        "Short Definition": "Other transactions with stockholders (including a parent holding company) (not included in items 5, 6, 8, or 9 above)",
+        "Schedule": "RIA",
+        "Line": "11"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4460",
+        "Value": "550000",
+        "Last Update": "20261030",
+        "Short Definition": "LESS: Cash dividends declared on common stock",
+        "Schedule": "RIA",
+        "Line": "9"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD4470",
+        "Value": "0",
+        "Last Update": "20261030",
+        "Short Definition": "LESS: Cash dividends declared on preferred stock",
+        "Schedule": "RIA",
+        "Line": "8"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIADB509",
+        "Value": "18978",
+        "Last Update": "20261030",
+        "Short Definition": "Sale, conversion, acquisition, or retirement of capital stock, net (excluding treasury stock transactions)",
+        "Schedule": "RIA",
+        "Line": "5"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIADB510",
+        "Value": "0",
+        "Last Update": "20261030",
+        "Short Definition": "Treasury stock transactions, net",
+        "Schedule": "RIA",
+        "Line": "6"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIADB511",
+        "Value": "-445056",
+        "Last Update": "20261030",
+        "Short Definition": "Other comprehensive income",
+        "Schedule": "RIA",
+        "Line": "10"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RIAD3210",
+        "Value": "7700407",
+        "Last Update": "20261030",
+        "Short Definition": "Total bank equity capital end of current period (sum of items 3 through 11) (must equal Schedule RC, item 27.a)",
+        "Schedule": "RIA",
+        "Line": "12"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCON2746",
+        "Value": "2458442",
+        "Last Update": "20261030",
+        "Short Definition": "Loans to finance commercial real estate, construction, and land development activities (not secured by real estate) included in Schedule RC-C, part I, items 4 and 9, column B",
+        "Schedule": "RCCI",
+        "Line": "M3"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONC226",
+        "Value": "5398",
+        "Last Update": "20261030",
+        "Short Definition": "Loans and leases held for sale (included in Schedule RC-N, items 1 through 8, above)",
+        "Schedule": "RCN",
+        "Line": "M5"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONJ454",
+        "Value": "15832394",
+        "Last Update": "20261030",
+        "Short Definition": "Loans to nondepository financial institutions",
+        "Schedule": "RCCI",
+        "Line": "9a"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK036",
+        "Value": "148671",
+        "Last Update": "20261030",
+        "Short Definition": "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+        "Schedule": "RCN",
+        "Line": "11"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK037",
+        "Value": "1321125",
+        "Last Update": "20261030",
+        "Short Definition": "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+        "Schedule": "RCN",
+        "Line": "11"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK038",
+        "Value": "1624",
+        "Last Update": "20261030",
+        "Short Definition": "Loans and leases reported in items 1 through 8 above that are wholly or partially guaranteed by the U.S. Government, excluding loans and leases covered by loss-sharing agreements with the FDIC:",
+        "Schedule": "RCN",
+        "Line": "11"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK039",
+        "Value": "752",
+        "Last Update": "20261030",
+        "Short Definition": "Guaranteed portion of loans and leases included in item 11 above, excluding rebooked \"GNMA loans\"",
+        "Schedule": "RCN",
+        "Line": "11a"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK040",
+        "Value": "2100",
+        "Last Update": "20261030",
+        "Short Definition": "Guaranteed portion of loans and leases included in item 11 above, excluding rebooked \"GNMA loans\"",
+        "Schedule": "RCN",
+        "Line": "11a"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK041",
+        "Value": "1355",
+        "Last Update": "20261030",
+        "Short Definition": "Guaranteed portion of loans and leases included in item 11 above, excluding rebooked \"GNMA loans\"",
+        "Schedule": "RCN",
+        "Line": "11a"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK042",
+        "Value": "147919",
+        "Last Update": "20261030",
+        "Short Definition": "Rebooked \"GNMA loans\" that have been repurchased or are eligible for repurchase included in item 11 above",
+        "Schedule": "RCN",
+        "Line": "11b"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK043",
+        "Value": "1319025",
+        "Last Update": "20261030",
+        "Short Definition": "Rebooked \"GNMA loans\" that have been repurchased or are eligible for repurchase included in item 11 above",
+        "Schedule": "RCN",
+        "Line": "11b"
+      },
+      {
+        "bank": "WAL",
+        "period": "20260930",
+        "Call Date": "20260930",
+        "Bank RSSD": "3138146",
+        "MDRM": "RCONK044",
+        "Value": "0",
+        "Last Update": "20261030",
+        "Short Definition": "Rebooked \"GNMA loans\" that have been repurchased or are eligible for repurchase included in item 11 above",
+        "Schedule": "RCN",
+        "Line": "11b"
+      }
+    ]
+  },
+  "limits": "Local listed roots and reachable local Git refs only. No remote machine, deleted-file forensics, authenticated fresh retrieval or reconstructed original."
+}

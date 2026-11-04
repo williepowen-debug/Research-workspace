@@ -4,6 +4,8 @@ Updated 2026-11-04T20:44:04Z, OpenAI Codex, exact model unknown; thread `01a1a81
 
 ## STATUS
 
+Latest bounded task: WAL Q3 original-source recovery CLOSED — NOT RECOVERED. Original temporary path absent; no matching retained/historical source. Exact scope, provenance and selected-evidence locations: `research/2026-11-04_WAL-source-recovery/REPORT.md`. WAL administrative notice written; no reconstruction, cohort rerun or owner grade. This LIGHT follow-up leaves prior catch-up/approvals below intact.
+
 Bounded November 2–4 catch-up completed: 68 BOARD cards, 187 required handoffs, zero kill-log rows; three verification helpers completed nine passes. Intake 464/464 and bookmark content 57/57 CLOSED. All 49 staged bookmark IDs marked. Unverified residual source leads are explicitly retained; closing a batch does not certify every source claim. No active helper, new domain study, trade or domain launch.
 
 ## CHANGED

@@ -1,0 +1,5 @@
+# WAL Q3 original-source recovery — NOT RECOVERED
+WALTER closed Will's bounded recovery attempt: recorded temporary file absent; 40 retained-file candidates and 11 historical source versions produced no match to the original 1,792-row receipt. Scope/access limits and exact provenance: `AGENTS/WALTER/research/2026-11-04_WAL-source-recovery/{REPORT.md,recovery.json}`.
+Surviving evidence: `AGENTS/WALTER/research/2026-10-31_call-report-read/selected-primary-rows.tsv` (27 WAL Q3 rows) and `bridge-primary-rows.tsv` (21); filter bank=WAL, period=20260930. Original provenance is in that directory's `retrieval.json`; derived comparison and reports are not originals.
+RCON1766 is absent from both extracts; no full-document reconstruction, MI3 calculation, cohort rerun or substitute domain judgment. Your existing retrieval/extraction assignment remains yours; this notice commissions no additional study.
+Administrative source-custody response requested by Will, outside BOARD/delivery-log signal routing; no consumption claimed. Recovery is closed NOT RECOVERED within the documented local search scope.
