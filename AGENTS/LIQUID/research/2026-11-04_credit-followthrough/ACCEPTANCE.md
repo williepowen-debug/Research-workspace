@@ -1,0 +1,15 @@
+# Bounded repair: gate069 L4 exact-decimal boundary
+
+Authority: Will's November4 substantive follow-through explicitly includes investigating and correcting this reported defect under existing bounded-repair authority. No threshold, operator, instrument, session calendar, missing-input rule or consequence changes. Existing inclusive equity return <= -15% AND first-published HY change >=5bp remain binding.
+
+reads: 0
+Independent result review remains required before operational release or claiming fixed. Author tests establish IMPLEMENTED / TESTED only. No independent reader has been commissioned in this session.
+
+Acceptance conditions, written before code edit:
+1. Interpret supplied raw closes as their decimal representations, with exact comparison of price ratio to the existing inclusive -15% line. The displayed floating return cannot control the grade.
+2. 2.40→2.04 with HY+5 must meet; 2.40→2.03 meets and 2.40→2.05 does not. 2.40→2.04 with HY+4 does not. Values infinitesimally above the boundary must not meet (no tolerance widening).
+3. ANY ONE of the four existing names can meet. Existing missing HY/equity, date matching, holidays, first-published basis and all L1 behavior remain unchanged.
+4. Reconcile old and corrected arithmetic on retrieved raw closes from the letter's September1 adoption through the latest published credit observation. Report changed actual-session results separately from synthetic failures. Later vendor history is not a complete immutable census of previously seen quotes.
+5. Keep dependent L4 operational use withheld until consequential-repair independent verification. Unaffected L1/072/HY/funding work proceeds. No frozen row edits.
+
+Neighbour categories: ordinary = reproduction plus immediately lower/higher close and HY+4/+5. Overlap = exactly-equity boundary coincides with exactly-credit boundary and a different qualifying cohort name. Wrong owner = do not add new cohort names or substitute adjusted closes. Missing information = existing missing-bar/HY tests must still fail closed. Concurrent activity = N/A to pure arithmetic comparison (no persistent writes or shared input mutation in function).
