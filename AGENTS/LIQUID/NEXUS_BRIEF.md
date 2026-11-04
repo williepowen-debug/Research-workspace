@@ -1,6 +1,6 @@
 # LIQUID — NEXUS Brief
 
-**As of:** 2026-11-04T16:29:57-05:00 | STATUS commit: `8f165de8e6ae9ce4f557d02573ae103f696c0c36`
+**As of:** 2026-11-04T17:24:57-05:00 | STATUS commit: `8f165de8e6ae9ce4f557d02573ae103f696c0c36`
 **Scope:** Will-directed substantive credit follow-through after startup. Source/grade frontier: first-published FRED credit and overnight rates through November 3; SRF November 4; dealer as-of October 21; CFTC as-of October 27; DTCC November 2/3 files. Evidence → `research/2026-11-04_credit-followthrough/REPORT.md`. November 5 final reviews remain open.
 
 ## Current judgment
