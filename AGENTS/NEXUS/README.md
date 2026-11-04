@@ -1,6 +1,6 @@
 # NEXUS
 
-**Session closed November 4:** [handoff and unresolved work](research/2026-11-04_session-closeout.md). Docket consumption is recorded; remaining observation and owner-delivery conditions stay open.
+**Session closed November 4:** [latest owner integration and handoff](research/2026-11-04_credit-equipment-consumer.md). LIQUID/ISHM/WAL deliveries consumed; final November 5 observations, LIQUID069 release and other existing resolvers remain open. [Earlier registrar closeout](research/2026-11-04_session-closeout.md).
 
 **Latest catch-up:** [November4 report](research/2026-11-04_catchup/REPORT.md) and [source/grade record](research/2026-11-04_catchup/RECORD.md); [dated workbook](workbook/README.md). L16 UP graded; M07 DOWN graded; L13 and remaining future resolvers retain their conditions. November2 report below is historical.
 

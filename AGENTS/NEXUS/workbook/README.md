@@ -1,6 +1,6 @@
 # NEXUS workbook
 
-**November 4 session closed:** [closeout and registrar receipt](../research/2026-11-04_session-closeout.md). The frozen evidence/test/condition tables retain their original cutoffs; subsequent administrative reconciliation does not refresh market data.
+**November 4 session closed:** [latest owner integration and handoff](../research/2026-11-04_credit-equipment-consumer.md), following the [registrar receipt](../research/2026-11-04_session-closeout.md). LIQUID/ISHM/WAL deliveries are consumed in STATUS. These frozen evidence/test/condition tables retain their original cutoffs; current open conditions live in STATUS/PREDICTIONS.
 
 **Latest snapshot: November 4 catch-up**, materialized 2026-11-04T15:35:05-05:00. [Evidence](EVIDENCE_2026-11-04.tsv), [test readings](TEST_READINGS_2026-11-04.tsv), [conditions](CONDITIONS_2026-11-04.tsv), [manifest](MANIFEST_2026-11-04.json). L16 UP and M07 DOWN grades are recorded; L13 and future windows remain open. Source and observation cutoffs differ by row; carried filing-dependent evidence retains its old cutoff. [Current report](../research/2026-11-04_catchup/REPORT.md). These are frozen snapshots; STATUS/PREDICTIONS remain authority. The November2 files below are preserved history.
 
