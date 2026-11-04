@@ -1,0 +1,26 @@
+...................................................usage: python3 -m unittest [-h] [--json] [--no-pending]
+                           [--record-baseline SHA] [--record-review]
+                           [--contract CONTRACT] [--observe OBSERVE]
+                           [--observe-at OBSERVE_AT] [--snapshot SNAPSHOT]
+                           [--verify-review] [--paths PATH [PATH ...]]
+                           [--ref REF] [--consumed-move ORIGIN DEST]
+                           [--deliver-candidate] [-F MESSAGE_FILE]
+                           [--carry PATH [PATH ...]] [--mark-reviewed [NOTE]]
+python3 -m unittest: error: --consumed-move is only meaningful with --record-review (it DECLARES a move at freeze time)
+.usage: python3 -m unittest [-h] [--json] [--no-pending]
+                           [--record-baseline SHA] [--record-review]
+                           [--contract CONTRACT] [--observe OBSERVE]
+                           [--observe-at OBSERVE_AT] [--snapshot SNAPSHOT]
+                           [--verify-review] [--paths PATH [PATH ...]]
+                           [--ref REF] [--consumed-move ORIGIN DEST]
+                           [--deliver-candidate] [-F MESSAGE_FILE]
+                           [--carry PATH [PATH ...]] [--mark-reviewed [NOTE]]
+python3 -m unittest: error: the same DEST is declared more than once — one declaration per destination
+...................
+----------------------------------------------------------------------
+Ran 71 tests in 4.040s
+
+OK
+  ↳ declared consumed move: PROME/inbox/2026-09-24_from-VIOLET_walkback.md → PROME/inbox/processed/2026-09-24_from-VIOLET_walkback.md (ARGUS confirms at the artifact)
+ARGUS-SCOPE · review candidate frozen: 1 path(s) → PROME/state/argus_review.json
+  ↳ after the audit: `--verify-review` must read UNCHANGED before the commit; any ❌ fix re-freezes it.

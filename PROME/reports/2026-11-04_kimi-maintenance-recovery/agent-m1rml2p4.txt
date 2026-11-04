@@ -1,0 +1,28 @@
+# NOT ACCEPTED
+
+The **22,537 B measurement is confirmed**, but `/tmp/CLOSEOUT_L910_projected.md` is not a valid complete projection of the revised plan. It omits required hot-file commands and would fail existing tests.
+
+## ❌ Projection contradicts plan line 24
+
+Plan `PROME/plans/2026-11-04_L910-closeout-rotation-PLAN.md:24` explicitly requires these in the hot file, but the projection does not contain them:
+
+- `python3 PROME/tools/inbox_census.py PROME`
+- Full `argus_scope.py --record-review --contract /tmp/prome-delivery-plan.json`
+- Full `argus_scope.py --mark-reviewed "<one line>"`
+- `--observe /tmp/prome-observed.json`
+
+Projected lines 95-99 and 110-112 provide pointers or abbreviated flags instead. Projected line 137 also omits **Audit contract details** from the conditional-procedures inventory, despite plan line 24 requiring it.
+
+## ❌ Projected replacements break existing closeout tests
+
+The following required hot-file anchors disappear:
+
+- `LAST step that may (edit|write)` — required by `test_closeout_simplification_WQ240.py:91-99`; absent from projected step 7.
+- `ALL generation` — required before freeze by `test_review_mechanism_WQ240b.py:270-271`; projected line 93 substitutes “Generate active outputs.”
+- `Renders are NOT read-only` — required by `test_review_mechanism_WQ240b.py:299-300`; removed with the step-7 paragraph.
+- `Publish the verified artifacts` — used as the publication-order anchor by `test_review_mechanism_WQ240b.py:273-286`; projected line 114 substitutes “Publish only….”
+- `Unmet owed publication for a separately requested active deliverable is reported, never waived` — required by `test_closeout_simplification_WQ240.py:244-249`; removed with step 11.
+
+Thus the projection cannot satisfy the plan’s own test-pass acceptance criteria at lines 37-38.
+
+**Required before editing:** revise the exact hot replacement text to retain those commands, pointers, and test-anchored duties; update the projection and inventory; then remeasure below **22,785 B**. The current projection leaves only 247 B of strict-target headroom, so compliance must be demonstrated by a new measurement rather than assumed.

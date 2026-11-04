@@ -1,0 +1,45 @@
+# NOT ACCEPTED
+
+## ❌ Blocking defect: the named moves cannot meet either size threshold
+
+`PROME/plans/2026-11-04_L910-closeout-rotation-PLAN.md:11-22` names six paragraphs from `PROME/CLOSEOUT.md:95-98,110,112`.
+
+Measured with `PROME/tools/measure.py`:
+
+- Current CLOSEOUT: **35,246 B**
+- Six complete lines/paragraphs, including newlines: **9,654 B**
+- Best-case size after bare removal: **25,592 B**
+
+That is still:
+
+- **1,180 B over** the test’s 24,412 B assertion, requiring at least **1,181 B** more reduction for a strict pass.
+- **2,807 B over** the completed-rotation target, requiring at least **2,808 B** more reduction to reach the maximum acceptable **22,784 B**.
+
+Those are lower bounds: the required hot-file commands, six pointers, replacement text, and updated stamp will add bytes.
+
+Plan line 25 permits an unspecified additional move after editing. That does not repair the defect: the exact reviewed moves are demonstrably insufficient, and selecting another live block afterward would escape the required pre-edit plan review. **Before editing, name the additional verbatim block(s) and show the projected final size including all replacement text.**
+
+## Duty/order assessment
+
+The moves themselves need not lose content if `CLOSEOUT.md:95-98,110,112` are copied verbatim and plan line 23 is enforced. However, the implementation must explicitly preserve these hot-file dependencies:
+
+- Moving the whole WQ-583 paragraph at `CLOSEOUT.md:112` removes the only hot copy of  
+  `commit_check.py commit --stage -F <msgfile> -- <exact paths>`.  
+  `test_closeout_simplification_WQ240.py:198-202` requires that exact string in CLOSEOUT. Plan line 23 says exact command forms remain hot, so the replacement text must retain it rather than merely point cold.
+- Likewise, retain the required execution anchors from the moved audit blocks: inbox census immediately before freeze, `--record-review --contract`, ARGUS then `--mark-reviewed`, consumed-move flags where applicable, and strict-arrival `--observe` handling. The existing commit → verify → push block at `CLOSEOUT.md:103-109`, wrapper prohibition at line 111, and receipt at line 113 already remain.
+- Each moved block needs a reachable hot pointer. A green existing pointer test is insufficient: `test_closeout_simplification_WQ240.py:251-258` hardcodes only the five older cold sections and does not test the new **Audit contract details** section.
+
+## ⚠️ Residue to clean up or check
+
+- Add **Audit contract details** to the cold-file inventory at `CLOSEOUT.md:137`; otherwise that inventory is incomplete.
+- After removing `@unittest.expectedFailure` at test line 264, update the stale comment at lines 260-263, which would still claim the test is marked expected-failure.
+- Preserve the cold-header trigger distinction at `CLOSEOUT_PROCEDURES.md:2`: the new section is routine-triggered for Standard/Heavy, not optional or dead text.
+- Preserve L835 as unresolved and L488’s live verification condition exactly; moving their paragraphs is not acceptance or verification.
+
+## Concrete result-review recovery questions
+
+1. **Rotated-content recovery:** Starting only from revised CLOSEOUT step 8, follow its pointer for an intra-day Standard closeout. Does ARGUS run, what gate tier is used, and what exact report line is required?  
+   **Expected:** steps 1–7 and freeze still run; ARGUS is deferred; gate uses `--tier light`; report says `audit DEFERRED to the end-of-day closeout (WQ-485)`; the manifest is not marked REVIEWED without an audit.
+
+2. **Execution-order counterexample:** ARGUS returns a ❌ that changes a DOCKET obligation date. Starting from the revised hot routine, recover the complete path to delivery.  
+   **Expected order:** fix → regenerate affected active outputs under step 7 → changed-portion re-review → re-freeze with `--record-review --contract` → re-mark with `--mark-reviewed` → full tiered gate to rc=0 → `--deliver-candidate` without `--push` → `--verify-review --ref <DELIVERY_SHA> --paths …` to rc=0 → `safe-push.sh` → `--record-baseline <DELIVERY_SHA>` only after successful verified delivery.

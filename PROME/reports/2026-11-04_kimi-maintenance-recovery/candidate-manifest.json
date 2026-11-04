@@ -1,0 +1,51 @@
+{
+  "state": "DRAFT \u2014 NOT INSTALLED OR INDEPENDENTLY ACCEPTED",
+  "source_head": "0b4b3dcb7",
+  "source_hot_sha256": "dfb9c17d737e80f9e2d6905d0782bfcd3a83c264a8800f2727c03655e389c067",
+  "moves": [
+    {
+      "prefix": "**ARGUS cadence",
+      "sha256": "0432155b9deca94dfe4396a9032ec5300d25a69b2bc13b3af8e9ae8309e44ec7"
+    },
+    {
+      "prefix": "Concurrent closeouts first follow",
+      "sha256": "507808bb1e4abddb653e1acd1e204dc77cebe5a92ce5a7935fcb8612be42fd65"
+    },
+    {
+      "prefix": "Legacy (schema-1) manifests",
+      "sha256": "7b2c1a002029edd73cba078f4b8f1c87a6a41f4cf307033c54d39d670ae7c9eb"
+    },
+    {
+      "prefix": "**Live-fleet rule",
+      "sha256": "a193e0dbbe57f34f4d1442403bea364307daa1a35eeba5451853b8d6cf71b402"
+    },
+    {
+      "prefix": "\u26a0\ufe0f **Post-freeze foreign arrivals",
+      "sha256": "485e3fa96ca233f1759b5c600a05f76450d77e572e3e2e26e9cb099069411a6b"
+    },
+    {
+      "prefix": "**WQ-583",
+      "sha256": "c5cf988d16e04b7ca0fe2fda1ada58d748442fd6bbdf1c6b7ec8c4d2570f1021"
+    },
+    {
+      "prefix": "3. **Orchestrated-desk release",
+      "sha256": "931650558c7a937d62424951b6f6ba33f134170552fcc955dea55fa138c3a58e"
+    },
+    {
+      "prefix": "6. **Root session-end steps 1b\u20131e**",
+      "sha256": "75fcd4a1648fd07e489604db31b20aa8051681acbe99a3441ffe78fe14d4398d"
+    },
+    {
+      "prefix": "7. **ALL generation for active surfaces.",
+      "sha256": "c10e87677ff40a84c4a1a8b8086d65d04e9cf315088f1b478a732fd8389d9000"
+    },
+    {
+      "prefix": "At **standard/heavy**",
+      "sha256": "4b6d6d9ad0633ca828a16b7633ad6ad8be9b8cee460d620fc61c98871ed9e7ba"
+    },
+    {
+      "prefix": "11. **Publish the verified artifacts**",
+      "sha256": "6c85299004da8e6b7519ebf9278ed18836e41ac128bb927b0d38a120592faff7"
+    }
+  ]
+}

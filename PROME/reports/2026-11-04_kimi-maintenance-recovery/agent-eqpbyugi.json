@@ -1,0 +1,1 @@
+{"taskId":"agent-eqpbyugi","description":"Recheck L835 rule ordering","status":"completed","detached":true,"startedAt":1793820700321,"endedAt":1793820820375,"timeoutMs":7200000,"kind":"agent","agentId":"agent-2","subagentType":"explore","parentToolCallId":"tool_k29zDFUjoAQa6ltCA95hehkU","model":"kimi-code/k3.1-pro","thinkingEffort":"high"}

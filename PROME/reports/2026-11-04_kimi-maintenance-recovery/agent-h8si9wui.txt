@@ -1,0 +1,70 @@
+# NOT ACCEPTED
+
+**One blocking defect:** first-match exclusions can capture the sole generated witness and make a nested ignore file advisory even though another reachable path in its subtree is OWNED.
+
+## Counterexample
+
+`never_advisory()` generates only one witness per non-EXCLUDED rule, then discards the rule if that witness is EXCLUDED (`PROME/tools/argus_contract.py:245-250`). It never searches for another matching path.
+
+I ran this independent fixture with the repo venv:
+
+```python
+rules = [
+    ('root/.gitignore', 'EXCLUDED', 'ignore control is foreign'),
+    ('root/x',          'EXCLUDED', 'one excluded exact child'),
+    ('root/*',          'OWNED',    'other direct children owned'),
+    ('PROME/**',        'OWNED',    'delivery lane'),
+]
+```
+
+Direct results:
+
+```text
+classify('root/y')                    = OWNED
+_ignore_witness('root/*', 'root')     = root/x
+classify('root/x')                    = EXCLUDED
+never_advisory('root/.gitignore')     = False   # wrong
+```
+
+Thus `root/.gitignore` can hide the OWNED `root/y`, but is considered advisory. This violates acceptance conditions 2 and 5.
+
+I then reproduced it in a disposable Git repository using `root/.gitignore` containing `y`:
+
+```text
+CONTROL, no ignore file:
+  working tree rc 1
+  UNCLASSIFIED: root/y
+
+PENDING ignore file:
+  git status --ignored: !! root/y
+  working tree rc 0
+  FOREIGN-PENDING (advisory ... EXCLUDED lane ...): root/.gitignore
+
+Ignore file committed under "BROCK: fixture ignore" AFTER the delivery:
+  committed/working-tree       rc 0, no finding
+  committed/--ref              rc 0, no finding
+  committed/--snapshot         rc 0, no finding  # same pre-ignore target
+```
+
+The new author tests at `PROME/tools/tests/test_argus_contract.py:706-733` do not cover this selective-exclusion/alternative-witness case.
+
+## Other checks
+
+Independently verified successfully:
+
+- Root `.gitignore` and `.gitattributes` remain guarded despite an unrelated `.* EXCLUDED` row.
+- Missing rules keep nested ignore files strict.
+- Real-perimeter named covers are guarded: `.claude/`, `AGENTS/`, `AGENTS/BROCK/`, and `scripts/`.
+- `AGENTS/BROCK/research/.gitignore` and `PROME/inbox/.gitignore` remain advisory.
+- Simple reachable `*`, `?`, and `**` patterns produced witnesses and guarded correctly.
+- An earlier EXCLUDED rule covering the entire subtree correctly defeated a later broad OWNED rule.
+
+Regression suites passed:
+
+```text
+137 tests in 10.628s — OK
+```
+
+Covering `test_argus_contract.py`, `test_argus_scope.py`, `test_argus_scope_evidence.py`, and `test_argus_r100_consumed_move_WQ289.py`.
+
+**Required repair:** reachability must account for first-match exclusions across alternative matching paths, not classify just one generated witness. Add this fixture as a regression test before re-review.

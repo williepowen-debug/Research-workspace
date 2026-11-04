@@ -1,0 +1,47 @@
+[
+  {
+    "time": 1793805420447,
+    "content": [
+      {
+        "type": "text",
+        "text": "Hi PROME please boot up.  Today is Weds 11/4 10:16 AM.  Please do not spawn any additional agents and lets focus on getting Prome caught up to speed."
+      }
+    ]
+  },
+  {
+    "time": 1793810915875,
+    "content": [
+      {
+        "type": "text",
+        "text": "Lets look at Prome files for stale data or superseeded?  Do a sweep for anything owed, incomplete, broken, unfinsihed, missing, stale, etc and report back to me"
+      }
+    ]
+  },
+  {
+    "time": 1793812600243,
+    "content": [
+      {
+        "type": "text",
+        "text": "Okay I would like to start working on fixing these. What do you think about this? \"PROME \u2014 Thank you for the sweep. I want to proceed with a bounded repair of the confirmed issues.\n\nThe objective is to restore accurate current-state records and reliable test coverage, not to start another system-improvement project.\n\nPlease work in the following priority order.\n\n### Pass 1 \u2014 Correct state and position documentation\n\n**A. WALTER roster Phase-2 confirmation**\n\n- Locate the August 7 WALTER packet and verify its three reported changes against the actual destination artifacts.\n- If verified, record the completion and consumption evidence in ACTIVE_DECISIONS.\n- Make the obsolete pending state terminal according to the existing rules.\n- Preserve the separate Will approval requirement for Phases 3\u20134. Closing Phase 2 does not authorize later phases.\n\n**B. USO quantity in ACTIVE_DECISIONS**\n\n- Remove the misleading embedded 35-share quantity from the standing guard.\n- The October 30 FORGE snapshot reports 30 shares, but that is a dated observation, not necessarily today's holdings.\n- Preserve the underlying concentration and live-position verification guards.\n- Use a pointer to the authoritative broker-reconciliation record rather than maintaining another live quantity.\n\n**C. FORGE position-management state**\n\n- Examine D-70 and identify which mappings are affected by changes to the underlying source.\n- Keep mappings withheld until their source evidence and associated position/card state have been verified.\n- Do not silently reactivate mappings merely to make the dashboard complete.\n- Preserve the October 22\u201329 transaction gaps under WQ-548.\n- Do not infer missing fills, option outcomes, cash movements, realized gains, or current quantities.\n- If fresh broker evidence from me is required, identify exactly what is missing and leave that portion BLOCKED.\n\nPlease distinguish corrections achievable from existing evidence from work that genuinely requires a new broker capture.\n\n### Pass 2 \u2014 Restore test-suite integrity and discharge due work\n\n**A. Test discovery**\n\nInvestigate the aggregate run reporting 1,144 tests, one failure, one error, four skips, and one expected failure.\n\nFocus on:\n\n- `test_spawn_list_fail_closed.py`\n- `test_spawn_list_open_export.py`\n- The file-handle warning in `test_docket_open_query_L368.py`\n\nPreserve the substantive acceptance conditions.\n\nIn particular, do not simply suppress the import-time `sys.exit()` if that would cause the aggregate runner to discover zero meaningful checks. The original fifteen fail-closed checks must remain exercised.\n\nFor the order-sensitive export tests, identify the actual interaction before changing production behavior.\n\nRun the individual tests and aggregate suite after repairs. Report whether all expected checks execute, not merely whether the aggregate exit code becomes zero.\n\nIf fixing the tests requires a change to production spawning behavior or a shared operational contract, stop and present that change for review.\n\n**B. Existing DOCKET obligations**\n\nReview today's L835, L882, L887, L891, and L910.\n\nPrioritize by operational consequence and actual deadline. Do not treat every overdue row as equally urgent.\n\nKeep L557 pending until its independent reader and counterexample requirement are satisfied. Author-tested does not mean independently accepted.\n\nKeep NEXUS's overdue HY gate review with its owner. Do not mark it complete based on the age or correctness of a mirrored observation.\n\nDo not close obligations merely because they have coverage annotations.\n\n### Pass 3 \u2014 Documentation cleanup\n\nAfter the higher-priority work:\n\n- Correct AUTONOMY's outdated C1\u2013C7 index to reflect the already-approved C9 arrangement. Do not create or modify an autonomy grant.\n- Correct the obsolete quarterly-review wording while preserving the actual review obligation if still outstanding.\n- Update Claude Code-only descriptions to reflect the existing mixed-runtime policy, without changing that policy.\n- Correct SYSTEM's outdated calendar-generator reference.\n- Reconcile the CORAL reading-number mismatch against its canonical source.\n- Use existing CLOSEOUT rotation work for L910.\n- Check whether PROME's charter approaching its read limit requires a bounded rotation entry; do not start an unsolicited restructuring.\n- Leave root charter maintenance with its existing registered work and approval requirements.\n\n### Scope and safeguards\n\n- No new agents or research commissions for this cleanup.\n- No new monitoring systems, checkers, protocols, or queue frameworks.\n- No trades, broker actions, or inferred fills.\n- No changes to other agents' core files or root rules without my approval.\n- Work only within the PROME-owned files and existing FORGE grant applicable to these repairs.\n- Preserve historical evidence and correction trails.\n- Respect existing Git coordination and scoped-commit rules.\n\nOne additional item: please assess whether our public repository exposes portfolio or account information that should be private. **Report the scope and options only.** Do not change repository visibility, delete records, or rewrite Git history without my separate approval.\n\n### Closeout\n\nGive me a concise report with:\n\n1. What was actually corrected, with file paths and commit references.\n2. What was verified independently versus accepted from existing records.\n3. Which tests now pass and what coverage remains.\n4. What remains blocked by missing evidence or another owner.\n5. Any decisions genuinely requiring my approval.\n\nPlease lead with substantive repairs and unresolved risks rather than operational counts.\n\nIf time or context is limited, complete Pass 1 and checkpoint the remaining work. Do not rush through all three passes simply to declare the sweep closed.\""
+      }
+    ]
+  },
+  {
+    "time": 1793815163022,
+    "content": [
+      {
+        "type": "text",
+        "text": "Can you commit and push?"
+      }
+    ]
+  },
+  {
+    "time": 1793818757616,
+    "content": [
+      {
+        "type": "text",
+        "text": "PROME, I approve a bounded catch-up pass on the existing obligations L557, L835, L882, L887, L891, and L910, along with independent verification of the repaired test suite.\n\nProceed according to your existing recommendations, with these conditions:\n\n1. **Routine maintenance:** You may complete documentation corrections, file rotations, and other already-authorized administrative work.\n\n2. **Independent acceptance:** Arrange the required independent reviews when an appropriate reviewer is available. Do not mark work accepted based solely on your own tests or judgment. Preserve counterexamples and any failed results.\n\n3. **Owner work:** Deliver or maintain the existing assignments for their owners to consume at their next authorized sessions. Do not spawn additional agents without my direction.\n\n4. **Decisions requiring my authority:** Do not invent missing instrument commands, change thresholds, alter root-level routing or agent authority, or make consequential strategy or trading decisions under this blanket approval. Bring those back to me with your recommended option and a concise explanation.\n\n5. **Scope:** No new monitoring systems, checker layers, research threads, or duplicate docket entries. Work within existing commitments.\n\nWhen finished, provide a compact report showing which items are completed, independently accepted, awaiting an owner, or awaiting my decision. Include the evidence supporting each completion.\n\nYou do not need to ask me again for routine execution already covered by this approval."
+      }
+    ]
+  }
+]

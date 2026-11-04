@@ -1,0 +1,57 @@
+# NOT ACCEPTED
+
+Both previously identified defects are **CLOSED**, but a new partial-exclusion counterexample remains. Therefore, **not all identified defects are closed**.
+
+## Prior counterexamples closed
+
+Both the original `root/x` case and the seven-excluded-witness case now produce:
+
+```text
+_wholly_excluded: False
+never_advisory: True
+working tree  rc 1 — UNCLASSIFIED: root/.gitignore
+--ref         rc 1 — UNCLASSIFIED: root/.gitignore
+--snapshot    rc 1 — UNCLASSIFIED: root/.gitignore
+```
+
+The finite-salt/first-match defect and the original selective-exclusion defect are repaired.
+
+## New blocking defect: deeper UNATTRIBUTED descendants
+
+Fixture:
+
+```python
+rules = [
+    ('root/*',   'EXCLUDED', 'direct children only'),
+    ('PROME/**', 'OWNED',    'unrelated delivery lane'),
+]
+```
+
+Observed:
+
+```text
+classify(root/.ignore-probe): EXCLUDED
+classify(root/a/b):           UNATTRIBUTED
+_wholly_excluded(root):       False
+never_advisory(root/.gitignore): False   # wrong
+```
+
+`root/*` excludes only direct children. The deeper descendant `root/a/b` is UNATTRIBUTED, hence non-EXCLUDED and intended to fail strict. The direct-child probe is EXCLUDED, no non-EXCLUDED rule exists to enter the witness loop, and the unconditional `return False` at `PROME/tools/argus_contract.py:275` makes the ignore file advisory without requiring whole-subtree exclusion.
+
+This contradicts acceptance condition 2 and the function’s “unknown folders stay strict” behavior. The final advisory decision needs to require actual whole-subtree exclusion even when no non-EXCLUDED rule was walked.
+
+A brute-force descendant-oracle sweep found:
+
+```text
+2306 cases with a non-EXCLUDED descendant
+0 false-advisory cases with a registered OWNED/SHARED descendant
+74 false-advisory cases with only deeper UNATTRIBUTED descendants
+```
+
+## Regression suites
+
+```text
+139 tests in 11.180s — OK
+```
+
+This includes the 68 contract tests and all three other required suites.

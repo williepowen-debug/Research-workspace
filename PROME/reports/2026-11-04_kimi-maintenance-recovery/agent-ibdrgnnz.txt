@@ -1,0 +1,7 @@
+[partial output] The subagent did not finish this run. Below is the text it wrote before it ended; it is incomplete and unverified.
+
+I’ll re-run all three prior fixtures, then test the remaining safety condition directly: whenever `_wholly_excluded` returns true, brute-force descendants should find no OWNED, SHARED, or UNATTRIBUTED path.
+
+The fallback now makes advisory status depend on a whole-subtree proof. I’m checking that proof with wildcard ancestors, exact-parent rules, nested `**` patterns, and randomized first-match rule orderings in addition to the three regressions.
+
+The safety sweep found no false-advisory or false whole-exclusion proofs across 60,300 rule sets. Its separate witness-oracle assertion reported impossible-looking mismatches, so I’m checking the harness itself before treating those as code findings.

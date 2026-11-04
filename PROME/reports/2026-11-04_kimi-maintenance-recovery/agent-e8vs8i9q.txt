@@ -1,0 +1,4 @@
+# NOT ACCEPTED
+
+- `/tmp/CLOSEOUT_L910_projected.md:137` **replaces rather than adds to** the cold-section inventory. It omits `Chunk 3`, `Skip rules`, `Cross-session behavioral rules`, and `Closeout-class fleet memories`. This violates the explicit-pointer invariant and fails `test_closeout_simplification_WQ240.py:251-258`. Restore all original entries plus `Audit contract details`, then remeasure.
+- Projected lines **92, 93, and 114** each end with a stray unmatched `**`; remove those malformed Markdown markers.

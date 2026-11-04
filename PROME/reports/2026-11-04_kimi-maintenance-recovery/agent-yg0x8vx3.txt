@@ -1,0 +1,75 @@
+# NOT ACCEPTED
+
+The earlier `root/x` versus `root/*` defect is **CLOSED**, but a new finite-salt/first-match counterexample still bypasses the guard.
+
+## Earlier defect closed
+
+Re-running the original fixture now gives:
+
+```text
+root/y classification: OWNED
+witness x: root/x EXCLUDED
+witness y: root/y OWNED
+never_advisory(root/.gitignore): True
+```
+
+The integrated desk-committed ignore case now blocks correctly:
+
+```text
+working tree  rc 1 — UNCLASSIFIED: root/.gitignore
+--ref         rc 1 — UNCLASSIFIED: root/.gitignore
+--snapshot    rc 1 — UNCLASSIFIED: root/.gitignore
+```
+
+## New blocking defect
+
+Use these ordered rules, with seven individual rows for the salt exclusions:
+
+```text
+root/.gitignore  EXCLUDED
+root/x           EXCLUDED
+root/y           EXCLUDED
+root/z           EXCLUDED
+root/other       EXCLUDED
+root/0           EXCLUDED
+root/1           EXCLUDED
+root/_           EXCLUDED
+root/*           OWNED
+root/**          EXCLUDED
+PROME/**         OWNED
+```
+
+`root/q` is OWNED through the earlier `root/*` rule. The later `root/**` cannot override that first-match classification. Nevertheless:
+
+```text
+classify(root/q): OWNED
+all seven generated witnesses: EXCLUDED
+never_advisory(root/.gitignore): False   # wrong
+```
+
+The cause is the interaction at `PROME/tools/argus_contract.py:225-235` and `:262-270`:
+
+1. The seven salts exhaust every generated witness.
+2. `_wholly_excluded()` sees the later `root/** EXCLUDED` row without accounting for the earlier OWNED rule.
+3. That suppresses the intended “uncertain coverage fails guarded” fallback.
+
+The disposable-repository integration confirmed that `root/.gitignore` containing `q` hides the OWNED `root/q`:
+
+```text
+git status --ignored: !! root/q
+committed/working-tree  rc 0, no finding
+committed/--ref         rc 0, no finding
+committed/--snapshot    rc 0, no finding
+```
+
+Thus the subtree is not wholly EXCLUDED, yet its ignore file remains advisory, contrary to acceptance conditions 2 and 5.
+
+## Regression suites
+
+```text
+138 tests in 10.957s — OK
+```
+
+This includes the 67-test contract suite and the three other required suites.
+
+**Disposition:** retain NOT ACCEPTED. A terminal-`/**` EXCLUDED row must establish whole-subtree exclusion under first-match ordering; its mere presence is insufficient, and exhausting the finite salt list must not make an actually reachable OWNED path advisory.
