@@ -1,0 +1,6 @@
+{
+  "PROME/tools/argus_policy.py": true,
+  "PROME/tools/argus_scope.py": true,
+  "PROME/tools/argus_contract.py": true,
+  "PROME/tools/prome_gate.py": true
+}

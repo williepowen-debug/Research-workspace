@@ -1,0 +1,68 @@
+test_01_declared_confirmed_r100_move_passes_with_a_receipt (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_01_declared_confirmed_r100_move_passes_with_a_receipt) ... ok
+test_02_undeclared_identical_move_still_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_02_undeclared_identical_move_still_blocks) ... ok
+test_03_declared_under_a_FROZEN_manifest_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_03_declared_under_a_FROZEN_manifest_blocks) ... ok
+test_04_move_then_edit_is_not_R100_and_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_04_move_then_edit_is_not_R100_and_blocks) ... ok
+test_05_local_only_packet_blocks_with_the_reason (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_05_local_only_packet_blocks_with_the_reason) ... ok
+test_06_without_origin_master_the_exemption_is_withheld_not_granted (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_06_without_origin_master_the_exemption_is_withheld_not_granted) ... ok
+test_07_origin_still_present_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_07_origin_still_present_blocks) ... ok
+test_08_the_exemption_refuses_another_desks_inbox_pair (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_08_the_exemption_refuses_another_desks_inbox_pair) ... ok
+test_09_the_exemption_refuses_a_move_out_of_inbox_into_a_prome_surface (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_09_the_exemption_refuses_a_move_out_of_inbox_into_a_prome_surface) ... ok
+test_09b_the_exemption_refuses_a_basename_change (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_09b_the_exemption_refuses_a_basename_change) ... ok
+test_10_an_exempt_move_does_not_launder_a_neighbouring_excluded_addition (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_10_an_exempt_move_does_not_launder_a_neighbouring_excluded_addition) ... ok
+test_11_ref_form_passes_the_committed_move_and_blocks_a_changed_one (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_11_ref_form_passes_the_committed_move_and_blocks_a_changed_one) ... ok
+test_12_manifest_only_form_is_unchanged_by_a_declaration (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_12_manifest_only_form_is_unchanged_by_a_declaration) ... ok
+test_13_origin_advanced_so_the_packet_is_gone_from_origin_master_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_13_origin_advanced_so_the_packet_is_gone_from_origin_master_blocks) ... ok
+test_14_the_receipt_never_prints_on_a_refused_pair (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_14_the_receipt_never_prints_on_a_refused_pair) ... ok
+test_15_cli_declares_the_move_into_the_manifest (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.MoveRepo.test_15_cli_declares_the_move_into_the_manifest) ... ok
+test_ce10b_a_dotted_dest_is_refused (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce10b_a_dotted_dest_is_refused) ... ok
+test_ce11_flag_without_record_review_is_an_error (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce11_flag_without_record_review_is_an_error) ... usage: python3 -m unittest [-h] [--json] [--no-pending]
+                           [--record-baseline SHA] [--record-review]
+                           [--contract CONTRACT] [--observe OBSERVE]
+                           [--observe-at OBSERVE_AT] [--snapshot SNAPSHOT]
+                           [--verify-review] [--paths PATH [PATH ...]]
+                           [--ref REF] [--consumed-move ORIGIN DEST]
+                           [--deliver-candidate] [-F MESSAGE_FILE]
+                           [--carry PATH [PATH ...]] [--mark-reviewed [NOTE]]
+python3 -m unittest: error: --consumed-move is only meaningful with --record-review (it DECLARES a move at freeze time)
+ok
+test_ce11b_duplicate_dest_is_an_error (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce11b_duplicate_dest_is_an_error) ... usage: python3 -m unittest [-h] [--json] [--no-pending]
+                           [--record-baseline SHA] [--record-review]
+                           [--contract CONTRACT] [--observe OBSERVE]
+                           [--observe-at OBSERVE_AT] [--snapshot SNAPSHOT]
+                           [--verify-review] [--paths PATH [PATH ...]]
+                           [--ref REF] [--consumed-move ORIGIN DEST]
+                           [--deliver-candidate] [-F MESSAGE_FILE]
+                           [--carry PATH [PATH ...]] [--mark-reviewed [NOTE]]
+python3 -m unittest: error: the same DEST is declared more than once — one declaration per destination
+ok
+test_ce1_a_plain_addition_matching_an_origin_blob_is_not_a_move (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce1_a_plain_addition_matching_an_origin_blob_is_not_a_move) ... ok
+test_ce2_one_origin_two_dests_blocks_both (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce2_one_origin_two_dests_blocks_both) ... ok
+test_ce3_rename_plus_edit_matching_a_newer_origin_blob_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce3_rename_plus_edit_matching_a_newer_origin_blob_blocks) ... ok
+test_ce3b_verify_fetches_so_a_stale_tracking_ref_cannot_certify (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce3b_verify_fetches_so_a_stale_tracking_ref_cannot_certify) ... ok
+test_ce4_a_dangling_symlink_recreated_at_origin_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce4_a_dangling_symlink_recreated_at_origin_blocks) ... ok
+test_ce5_a_symlink_at_dest_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce5_a_symlink_at_dest_blocks) ... ok
+test_ce7_a_non_string_declaration_is_cannot_evaluate (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce7_a_non_string_declaration_is_cannot_evaluate) ... ok
+test_ce8_a_half_listed_pair_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_ce8_a_half_listed_pair_blocks) ... ok
+test_unstaged_mv_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderCounterexamples.test_unstaged_mv_blocks) ... ok
+test_r2_1_assume_unchanged_worktree_edit_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_r2_1_assume_unchanged_worktree_edit_blocks) ... ok
+test_r2_6_a_local_branch_named_origin_master_cannot_certify_an_unpushed_packet (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_r2_6_a_local_branch_named_origin_master_cannot_certify_an_unpushed_packet) ... ok
+test_r2_7_without_a_fetch_refspec_a_peers_newer_edit_still_blocks (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_r2_7_without_a_fetch_refspec_a_peers_newer_edit_still_blocks) ... ok
+test_r3_1_git_replace_cannot_make_an_unpushed_edit_read_as_on_origin (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_r3_1_git_replace_cannot_make_an_unpushed_edit_read_as_on_origin)
+❌1 P3: `git replace <origin blob> <local blob>` is honoured by every git object read. ... ok
+test_r3_2_manifest_only_form_never_fetches_and_prints_the_same_lines (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_r3_2_manifest_only_form_never_fetches_and_prints_the_same_lines)
+❌2 P7: paths=None (`--mark-reviewed`, prome_gate) must not run the declared block. ... ok
+test_r3_3_without_a_remote_named_origin_a_nested_clone_at_dot_origin_cannot_certify (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_r3_3_without_a_remote_named_origin_a_nested_clone_at_dot_origin_cannot_certify)
+❌3 P6: `git fetch origin` falls back to a PATH when no such remote exists. ... ok
+test_r4_1_a_pushurl_pointing_elsewhere_refuses_the_exemption (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_r4_1_a_pushurl_pointing_elsewhere_refuses_the_exemption)
+❌1: fetch from a mirror that holds an unpushed packet, push to the real origin that lacks it. ... ok
+test_r4_2_a_symref_tracking_ref_is_refused_and_head_does_not_move (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_r4_2_a_symref_tracking_ref_is_refused_and_head_does_not_move)
+⚠️2: refs/remotes/origin/master as a SYMREF onto the checked-out branch must never be fetched through. ... ok
+test_receipt_names_the_fetched_origin_commit (PROME.tools.tests.test_argus_r100_consumed_move_WQ289.ReaderRound2.test_receipt_names_the_fetched_origin_commit) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 2.729s
+
+OK
+  ↳ declared consumed move: PROME/inbox/2026-09-24_from-VIOLET_walkback.md → PROME/inbox/processed/2026-09-24_from-VIOLET_walkback.md (ARGUS confirms at the artifact)
+ARGUS-SCOPE · review candidate frozen: 1 path(s) → PROME/state/argus_review.json
+  ↳ after the audit: `--verify-review` must read UNCHANGED before the commit; any ❌ fix re-freezes it.

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/willi/Research-workspace/PROME/reports/2026-11-04_L835-acceptance/independent_integration.py", line 4, in <module>
+    from test_argus_contract import ContractFixture,sc,ac
+  File "/tmp/l835-acceptance-4tvnoxnu/PROME/tools/tests/test_argus_contract.py", line 240, in <module>
+    PERIMETER = (sc.ROOT / sc.PERIMETER_FILE).read_text()  # the REAL perimeter, read at import before ROOT is patched
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/l835-acceptance-4tvnoxnu/PROME/state/AUDIT_PERIMETER.tsv'

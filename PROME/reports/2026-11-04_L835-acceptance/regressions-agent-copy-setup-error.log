@@ -1,0 +1,120 @@
+test_confirmed_salts_and_unmatched_depth (test_argus_policy.PolicyTests.test_confirmed_salts_and_unmatched_depth) ... ok
+test_differential_old_matcher_on_supported_ordinary_paths (test_argus_policy.PolicyTests.test_differential_old_matcher_on_supported_ordinary_paths) ... ok
+test_exhaustive_small_policies_and_seeded_larger (test_argus_policy.PolicyTests.test_exhaustive_small_policies_and_seeded_larger) ... ok
+test_existing_perimeter_and_common_subtrees (test_argus_policy.PolicyTests.test_existing_perimeter_and_common_subtrees) ... ok
+test_limits_are_unknown_not_true_or_false (test_argus_policy.PolicyTests.test_limits_are_unknown_not_true_or_false) ... ok
+test_overlap_shadowing_and_embedded_originals (test_argus_policy.PolicyTests.test_overlap_shadowing_and_embedded_originals) ... ok
+test_partition_vectors_exhaustive_independent_domain (test_argus_policy.PolicyTests.test_partition_vectors_exhaustive_independent_domain) ... ok
+test_reject_entire_policy (test_argus_policy.PolicyTests.test_reject_entire_policy) ... ok
+test_unicode_newline_and_unusual_segments (test_argus_policy.PolicyTests.test_unicode_newline_and_unusual_segments) ... ok
+test_actual_commit_path_cannot_be_laundered_as_observed (test_argus_contract.ContractTests.test_actual_commit_path_cannot_be_laundered_as_observed) ... ok
+test_committed_and_pending_versions_and_deletion (test_argus_contract.ContractTests.test_committed_and_pending_versions_and_deletion) ... ok
+test_delivery_and_evidence_both_enforced (test_argus_contract.ContractTests.test_delivery_and_evidence_both_enforced) ... ok
+test_empty_missing_malformed_and_role_tampering_fail_closed (test_argus_contract.ContractTests.test_empty_missing_malformed_and_role_tampering_fail_closed) ... ok
+test_evidence_must_be_persisted_and_name_delivered_claim (test_argus_contract.ContractTests.test_evidence_must_be_persisted_and_name_delivered_claim) ... ok
+test_historical_evidence_survives_live_edit_but_current_does_not (test_argus_contract.ContractTests.test_historical_evidence_survives_live_edit_but_current_does_not) ... ok
+test_legacy_manifest_requires_explicit_refreeze (test_argus_contract.ContractTests.test_legacy_manifest_requires_explicit_refreeze) ... ok
+test_named_delivery_and_later_snapshot_are_distinct (test_argus_contract.ContractTests.test_named_delivery_and_later_snapshot_are_distinct) ... ok
+test_named_ref_resolves_once (test_argus_contract.ContractTests.test_named_ref_resolves_once) ... ok
+test_new_nested_delivery_not_hidden_and_explicit_paths_do_not_hide_it (test_argus_contract.ContractTests.test_new_nested_delivery_not_hidden_and_explicit_paths_do_not_hide_it) ... ok
+test_observed_cannot_replace_delivery_or_used_evidence (test_argus_contract.ContractTests.test_observed_cannot_replace_delivery_or_used_evidence) ... ok
+test_reader_ce1_historical_dependency_never_exempts_an_unclassified_version (test_argus_contract.ContractTests.test_reader_ce1_historical_dependency_never_exempts_an_unclassified_version) ... ok
+test_reader_ce2_remote_only_observation_cannot_skip_schema_and_attribution (test_argus_contract.ContractTests.test_reader_ce2_remote_only_observation_cannot_skip_schema_and_attribution) ... ok
+test_unrelated_churn_is_explicit_and_preserves_review_contract (test_argus_contract.ContractTests.test_unrelated_churn_is_explicit_and_preserves_review_contract) ... ok
+test_unrelated_pending_does_not_block_named_delivery_or_promotion (test_argus_contract.ContractTests.test_unrelated_pending_does_not_block_named_delivery_or_promotion) ... ok
+test_ac1_freeze_pins_the_loaded_perimeter_outside_the_contract (test_argus_contract.PerimeterPinTests.test_ac1_freeze_pins_the_loaded_perimeter_outside_the_contract) ... ok
+test_ac2_ce8b_self_exempting_perimeter_edit_blocks_both_paths (test_argus_contract.PerimeterPinTests.test_ac2_ce8b_self_exempting_perimeter_edit_blocks_both_paths) ... ok
+test_ac3_ce8_perimeter_edit_blocks_and_pinned_rules_still_classify (test_argus_contract.PerimeterPinTests.test_ac3_ce8_perimeter_edit_blocks_and_pinned_rules_still_classify) ... ok
+test_ac4_committed_side_is_attributed_by_the_pinned_rules_not_the_live_file (test_argus_contract.PerimeterPinTests.test_ac4_committed_side_is_attributed_by_the_pinned_rules_not_the_live_file) ... ok
+test_ac5a_manifest_without_a_pin_runs_strict (test_argus_contract.PerimeterPinTests.test_ac5a_manifest_without_a_pin_runs_strict) ... ok
+test_ac5b_tampered_pin_cannot_evaluate (test_argus_contract.PerimeterPinTests.test_ac5b_tampered_pin_cannot_evaluate) ... ok
+test_ac6_foreign_pending_arrival_stays_advisory_and_names_its_lane (test_argus_contract.PerimeterPinTests.test_ac6_foreign_pending_arrival_stays_advisory_and_names_its_lane) ... ok
+test_ac6b_ce7_corrupted_live_perimeter_blocks_on_the_perimeter_file_itself (test_argus_contract.PerimeterPinTests.test_ac6b_ce7_corrupted_live_perimeter_blocks_on_the_perimeter_file_itself) ... ok
+test_ac7_ce5_rename_out_of_the_owned_lane_blocks (test_argus_contract.PerimeterPinTests.test_ac7_ce5_rename_out_of_the_owned_lane_blocks) ... ok
+test_ac8_ce2_prome_writes_in_other_lanes_are_advisory_and_labelled_by_lane (test_argus_contract.PerimeterPinTests.test_ac8_ce2_prome_writes_in_other_lanes_are_advisory_and_labelled_by_lane) ... ok
+test_f1_pending_foreign_file_freezes_without_an_observed_entry_and_is_recorded (test_argus_contract.PerimeterPinTests.test_f1_pending_foreign_file_freezes_without_an_observed_entry_and_is_recorded) ... ok
+test_f2_committed_and_pending_foreign_overlap_freezes_and_is_recorded (test_argus_contract.PerimeterPinTests.test_f2_committed_and_pending_foreign_overlap_freezes_and_is_recorded) ... ok
+test_f3_owned_pending_file_still_refuses_the_freeze (test_argus_contract.PerimeterPinTests.test_f3_owned_pending_file_still_refuses_the_freeze) ... ok
+test_f4_prome_evidenced_pending_file_still_refuses_the_freeze (test_argus_contract.PerimeterPinTests.test_f4_prome_evidenced_pending_file_still_refuses_the_freeze) ... ok
+test_f5_desk_ignore_file_pending_still_refuses_the_freeze (test_argus_contract.PerimeterPinTests.test_f5_desk_ignore_file_pending_still_refuses_the_freeze) ... ok
+test_f6_explicit_observed_entry_still_accepted_and_wins (test_argus_contract.PerimeterPinTests.test_f6_explicit_observed_entry_still_accepted_and_wins) ... ok
+test_x1_ce_c1_perimeter_changed_before_the_freeze_must_be_delivered_never_attributed (test_argus_contract.PerimeterPinTests.test_x1_ce_c1_perimeter_changed_before_the_freeze_must_be_delivered_never_attributed) ... ok
+test_x1b_ce_o_perimeter_cannot_be_observed_only (test_argus_contract.PerimeterPinTests.test_x1b_ce_o_perimeter_cannot_be_observed_only) ... ok
+test_x2_ce_g1_gitignore_edit_after_the_freeze_blocks (test_argus_contract.PerimeterPinTests.test_x2_ce_g1_gitignore_edit_after_the_freeze_blocks) ... ok
+test_x3_ce_s10_step_10_committed_side_uses_the_pin (test_argus_contract.PerimeterPinTests.test_x3_ce_s10_step_10_committed_side_uses_the_pin) ... ok
+test_y1_committed_root_gitignore_under_a_desk_subject_is_never_attributed (test_argus_contract.PerimeterPinTests.test_y1_committed_root_gitignore_under_a_desk_subject_is_never_attributed) ... ok
+test_y1b_pre_freeze_committed_root_gitignore_must_be_delivered (test_argus_contract.PerimeterPinTests.test_y1b_pre_freeze_committed_root_gitignore_must_be_delivered) ... ok
+test_y2_observe_refuses_the_perimeter_after_the_freeze (test_argus_contract.PerimeterPinTests.test_y2_observe_refuses_the_perimeter_after_the_freeze) ... ok
+test_y3_nested_ignore_file_in_an_excluded_lane_stays_advisory (test_argus_contract.PerimeterPinTests.test_y3_nested_ignore_file_in_an_excluded_lane_stays_advisory) ... ok
+test_y4_pin_digest_covers_the_bytes_the_rules_were_parsed_from (test_argus_contract.PerimeterPinTests.test_y4_pin_digest_covers_the_bytes_the_rules_were_parsed_from) ... ok
+test_z1_ac1_pending_only_foreign_arrival_is_advisory_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z1_ac1_pending_only_foreign_arrival_is_advisory_at_the_ref_form) ... ok
+test_z2_ac2_committed_and_pending_foreign_path_is_advisory_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z2_ac2_committed_and_pending_foreign_path_is_advisory_at_the_ref_form)
+SUPERSEDED expectation (WQ-517 AC2 said strict). Will 2026-10-29 13:45 ET, WQ-448 re-scoped: a path the ... ok
+test_z2b_overlap_path_with_a_prome_subject_among_its_commits_stays_strict (test_argus_contract.PerimeterPinTests.test_z2b_overlap_path_with_a_prome_subject_among_its_commits_stays_strict)
+AC3 wrong-owner: PROME evidence on ANY window commit keeps the overlap path UNCLASSIFIED. ... ok
+test_z2c_overlap_path_in_the_owned_lane_stays_strict (test_argus_contract.PerimeterPinTests.test_z2c_overlap_path_in_the_owned_lane_stays_strict)
+AC3: an OWNED-lane path committed under a desk subject and still pending is never advisory. ... ok
+test_z2d_working_tree_form_labels_the_overlap_as_plain_foreign_pending_as_before (test_argus_contract.PerimeterPinTests.test_z2d_working_tree_form_labels_the_overlap_as_plain_foreign_pending_as_before)
+AC4: the working-tree form already treated the overlap as advisory; its label is unchanged. ... ok
+test_z3_ac3_delivery_commit_paths_unchanged_either_way (test_argus_contract.PerimeterPinTests.test_z3_ac3_delivery_commit_paths_unchanged_either_way) ... ok
+test_z3b_ac3_pending_edit_of_a_delivered_path_after_the_commit_verifies_committed_bytes (test_argus_contract.PerimeterPinTests.test_z3b_ac3_pending_edit_of_a_delivered_path_after_the_commit_verifies_committed_bytes) ... ok
+test_z4_ac4_owned_lane_arrival_stays_strict_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z4_ac4_owned_lane_arrival_stays_strict_at_the_ref_form) ... ok
+test_z5_ac5_prome_evidenced_arrival_stays_strict_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z5_ac5_prome_evidenced_arrival_stays_strict_at_the_ref_form) ... ok
+test_z6_ac6_root_gitignore_edit_after_the_commit_stays_strict_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z6_ac6_root_gitignore_edit_after_the_commit_stays_strict_at_the_ref_form) ... ok
+test_z7_ac7_manifest_without_a_pin_runs_strict_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z7_ac7_manifest_without_a_pin_runs_strict_at_the_ref_form) ... ok
+test_z8_ac8_snapshot_history_attributes_the_overlap_path_by_its_own_commits (test_argus_contract.PerimeterPinTests.test_z8_ac8_snapshot_history_attributes_the_overlap_path_by_its_own_commits)
+SUPERSEDED expectation (WQ-517 AC8 said strict). WQ-448 re-scoped 2026-10-29 AC2: the committed side of an ... ok
+test_z8b_snapshot_history_with_a_prome_commit_on_the_overlap_path_stays_strict (test_argus_contract.PerimeterPinTests.test_z8b_snapshot_history_with_a_prome_commit_on_the_overlap_path_stays_strict) ... ok
+test_z8c_ce01_prome_commit_beyond_head_on_the_overlap_path_stays_strict_at_the_snapshot (test_argus_contract.PerimeterPinTests.test_z8c_ce01_prome_commit_beyond_head_on_the_overlap_path_stays_strict_at_the_snapshot)
+Reader CE01 ❌ (2026-10-29): judged over baseline..target, a PROME commit in HEAD..target is seen. ... ok
+test_z8d_overlap_path_with_from_prome_filename_stays_strict (test_argus_contract.PerimeterPinTests.test_z8d_overlap_path_with_from_prome_filename_stays_strict) ... ok
+test_z8e_delivered_bytes_changed_beside_an_overlap_path_still_blocks (test_argus_contract.PerimeterPinTests.test_z8e_delivered_bytes_changed_beside_an_overlap_path_still_blocks) ... ok
+test_z8f_desk_ignore_file_committed_and_pending_stays_strict (test_argus_contract.PerimeterPinTests.test_z8f_desk_ignore_file_committed_and_pending_stays_strict) ... ok
+test_z8g_desk_subject_commit_inside_the_delivery_commit_paths_still_blocks (test_argus_contract.PerimeterPinTests.test_z8g_desk_subject_commit_inside_the_delivery_commit_paths_still_blocks) ... ok
+test_z8h_ce18_desk_ignore_file_committed_beyond_head_stays_strict_at_the_snapshot (test_argus_contract.PerimeterPinTests.test_z8h_ce18_desk_ignore_file_committed_beyond_head_stays_strict_at_the_snapshot) ... ok
+test_z8i_ce17_desk_commit_beyond_head_on_an_unseen_file_is_skipped_with_a_trace_line (test_argus_contract.PerimeterPinTests.test_z8i_ce17_desk_commit_beyond_head_on_an_unseen_file_is_skipped_with_a_trace_line) ... ok
+test_z9_ce_f_nested_ignore_file_above_an_owned_arrival_stays_strict_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z9_ce_f_nested_ignore_file_above_an_owned_arrival_stays_strict_at_the_ref_form) ... ok
+test_z9b_ce_f2_shared_lane_ignore_file_hiding_a_prome_packet_stays_strict_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z9b_ce_f2_shared_lane_ignore_file_hiding_a_prome_packet_stays_strict_at_the_ref_form) ... ok
+test_z9c_ce_f3_desk_root_ignore_file_over_its_inbox_stays_strict_at_the_ref_form (test_argus_contract.PerimeterPinTests.test_z9c_ce_f3_desk_root_ignore_file_over_its_inbox_stays_strict_at_the_ref_form) ... ok
+test_missing_or_corrupt_baseline_fails_loud_never_guesses (test_argus_scope.A1_BaselineIsRecordedNeverMatched.test_missing_or_corrupt_baseline_fails_loud_never_guesses) ... ok
+test_no_subject_however_written_can_become_the_baseline (test_argus_scope.A1_BaselineIsRecordedNeverMatched.test_no_subject_however_written_can_become_the_baseline) ... ok
+test_the_module_reads_no_commit_subject_at_all (test_argus_scope.A1_BaselineIsRecordedNeverMatched.test_the_module_reads_no_commit_subject_at_all)
+Structural: the redesign's guarantee is that subjects are never parsed for classification. ... ok
+test_a_surface_is_added_by_a_manifest_ROW_not_a_code_edit (test_argus_scope.A2_PerimeterIsDeclaredNotCoded.test_a_surface_is_added_by_a_manifest_ROW_not_a_code_edit) ... ok
+test_first_match_wins_and_star_does_not_cross_a_separator (test_argus_scope.A2_PerimeterIsDeclaredNotCoded.test_first_match_wins_and_star_does_not_cross_a_separator) ... ok
+test_malformed_manifest_fails_loud_never_defaults (test_argus_scope.A2_PerimeterIsDeclaredNotCoded.test_malformed_manifest_fails_loud_never_defaults) ... ok
+test_a_recipient_consuming_a_packet_is_out_of_scope_by_PATH_not_by_subject (test_argus_scope.A3_AttributionByRecordedOwnership.test_a_recipient_consuming_a_packet_is_out_of_scope_by_PATH_not_by_subject) ... ok
+test_lane_is_invariant_under_the_commit_subject (test_argus_scope.A3_AttributionByRecordedOwnership.test_lane_is_invariant_under_the_commit_subject) ... ok
+test_a_PROME_artifact_in_another_desks_inbox_appears_under_ANY_filename (test_argus_scope.A4_NoSilentDropEver.test_a_PROME_artifact_in_another_desks_inbox_appears_under_ANY_filename)
+BLOCKER F-4: the MSG-* route can never contain 'from-PROME'. ... ok
+test_an_undeclared_surface_is_UNATTRIBUTED_not_dropped_and_not_claimed (test_argus_scope.A4_NoSilentDropEver.test_an_undeclared_surface_is_UNATTRIBUTED_not_dropped_and_not_claimed) ... ok
+test_every_changed_path_is_accounted_for_under_many_shapes (test_argus_scope.A4_NoSilentDropEver.test_every_changed_path_is_accounted_for_under_many_shapes) ... ok
+test_shared_surfaces_are_never_OWNED_under_any_actor (test_argus_scope.A5_NoSharedSurfaceClaimedByPattern.test_shared_surfaces_are_never_OWNED_under_any_actor) ... ok
+test_the_daily_note_is_shared_not_owned_by_date_pattern (test_argus_scope.A5_NoSharedSurfaceClaimedByPattern.test_the_daily_note_is_shared_not_owned_by_date_pattern)
+BLOCKER F-5. ... ok
+test_a_rename_shows_the_origins_disappearance (test_argus_scope.A6_OverlapPreserved.test_a_rename_shows_the_origins_disappearance) ... ok
+test_committed_then_edited_carries_both_states_and_both_reads (test_argus_scope.A6_OverlapPreserved.test_committed_then_edited_carries_both_states_and_both_reads) ... ok
+test_new_directory_listed_as_files_and_threshold_counts_unique (test_argus_scope.A6_OverlapPreserved.test_new_directory_listed_as_files_and_threshold_counts_unique) ... ok
+test_non_ascii_path_does_not_split_into_two_entries (test_argus_scope.A6_OverlapPreserved.test_non_ascii_path_does_not_split_into_two_entries)
+F-3: `git show --name-only` C-quotes, `status -z` does not; the two sides must speak one encoding. ... ok
+test_both_agent_definitions_are_byte_identical (test_argus_scope.A7_AgentCopiesAgree.test_both_agent_definitions_are_byte_identical) ... ERROR
+
+======================================================================
+ERROR: test_both_agent_definitions_are_byte_identical (test_argus_scope.A7_AgentCopiesAgree.test_both_agent_definitions_are_byte_identical)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/l835-acceptance-4tvnoxnu/PROME/tools/tests/test_argus_scope.py", line 228, in test_both_agent_definitions_are_byte_identical
+    self.assertEqual(root.read_bytes(), prome.read_bytes())
+                     ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1021, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/l835-acceptance-4tvnoxnu/.claude/agents/argus.md'
+
+----------------------------------------------------------------------
+Ran 90 tests in 12.704s
+
+FAILED (errors=1)

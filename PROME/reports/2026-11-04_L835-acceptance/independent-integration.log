@@ -1,0 +1,9 @@
+test_actual_schema2_rollback_does_not_certify_new_delivery (__main__.Independent.test_actual_schema2_rollback_does_not_certify_new_delivery) ... ok
+test_malformed_entire_policy_and_legacy_consumers (__main__.Independent.test_malformed_entire_policy_and_legacy_consumers) ... ok
+test_new_suffix_partition_and_shadow_consumer (__main__.Independent.test_new_suffix_partition_and_shadow_consumer) ... ok
+test_old_approval_cannot_certify_changed_work_after_rollback (__main__.Independent.test_old_approval_cannot_certify_changed_work_after_rollback) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.066s
+
+OK
