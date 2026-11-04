@@ -1,0 +1,15 @@
+{
+  "old_Q2_MI3_pct": 21.2,
+  "new_Q3_MI3_pct": 19.81,
+  "commands_run": [
+    "consumer_check.py --agent WAL --old 21.20 --new 19.81",
+    "consumer_check.py --agent WAL --self --old 21.20 --new 19.81",
+    "same cross/self scans with --unit % --series MI3"
+  ],
+  "review": "Numeric/unit scan has cross-series collisions (consumer/auto/bankruptcy percentages). Unit and series context are alternatives in this existing tool, so % does not certify a MI3 identity. No packet was sent on unrelated percentages. Same-series RED OUTBOX/S32, RED MI3 grade/tree/docket, REGINALD prior cohort reports/retired predictions, DAEDALUS dated profile/reader reports, and WAL first-run/frozen predictions/calibration/old Q2 series rows retain their original point-in-time Q2 basis; new Q3 does not falsify Q2. Those dated/frozen records were preserved. Current WAL state/MI3/INDEX updated; NEXUS is repinned last. REGINALD receives complete new owner source/metrics via the existing route.",
+  "packets": [
+    "AGENTS/REGINALD/inbox/2026-11-04_from-WAL_Q3-independent-extraction-complete.md",
+    "PROME/inbox/2026-11-04_from-WAL_Q3-independent-extraction-complete.md"
+  ],
+  "scope": "Manual series/date review, not a certification of every unrelated number in the repository."
+}

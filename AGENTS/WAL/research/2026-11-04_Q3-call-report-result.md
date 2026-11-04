@@ -1,5 +1,7 @@
 # WAL Q3 Call Report — current result and source conditions
 
+**Later result, November 4 2026:** source supplied by CATO and independently verified/extracted; see `2026-11-04_Q3-independent-extraction.md`. The UNCHECKED result below is the preserved earlier attempt, superseded for current extraction status.
+
 **2026-11-04, WAL / OpenAI Codex. Result: UNCHECKED; retrieval attempted, independent extraction remains source-blocked.** Narrow current-summary corrections are complete against the existing October 30 grade. No 10-Q re-grading, score/weight change, broader rotation or new research program.
 
 ## Existing-source check first

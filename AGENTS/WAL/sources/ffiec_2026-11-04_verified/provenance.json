@@ -1,0 +1,37 @@
+{
+  "desk": "WAL",
+  "retrieving_desk": "CATO",
+  "source_receipt": "AGENTS/CATO/runs/2026-11-04_ffiec-access/receipt.json",
+  "source_receipt_sha256": "8dc9d2ba70720192a50d36f3ac58725120418d9116797db64f05d9fa39ec7973",
+  "source_format": "SDF",
+  "source_entity": "Western Alliance Bank RSSD 3138146",
+  "preserved_at_utc": "2026-11-04T22:34:36.611204+00:00",
+  "records": [
+    {
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "period": "6/30/2026",
+      "retrieved_at_utc": "2026-11-04T22:30:27.190295+00:00",
+      "http_status": 200,
+      "status": "VERIFIED_SOURCE",
+      "path": "AGENTS/WAL/sources/ffiec_2026-11-04_verified/WAL_20260630.sdf",
+      "rows": 1812,
+      "bytes": 184829,
+      "sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb",
+      "denominator_present": true,
+      "upstream_path": "AGENTS/CATO/runs/2026-11-04_ffiec-access/WAL_20260630.sdf"
+    },
+    {
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "period": "9/30/2026",
+      "retrieved_at_utc": "2026-11-04T22:30:28.446801+00:00",
+      "http_status": 200,
+      "status": "VERIFIED_SOURCE",
+      "path": "AGENTS/WAL/sources/ffiec_2026-11-04_verified/WAL_20260930.sdf",
+      "rows": 1792,
+      "bytes": 182754,
+      "sha256": "2e04cc7bf1a78e525a68059c358215c8ce9e3c24c3639d84ea74ccb8d69c60a4",
+      "denominator_present": true,
+      "upstream_path": "AGENTS/CATO/runs/2026-11-04_ffiec-access/WAL_20260930.sdf"
+    }
+  ]
+}

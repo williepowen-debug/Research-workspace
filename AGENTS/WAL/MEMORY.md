@@ -1,4 +1,15 @@
-## Session Notes — current handoff, November 4 2026 (bounded Call Report assignment)
+## Session Notes — current handoff, November 4 2026 (Q3 extraction completed)
+
+**⚠️ Open question:** the $99M secured-office appraisal/disposition remains NO-VERDICT, carried to Q4; NDFI borrower/loss and parent mortgage/hedge bridges remain unknown. **Q3 Call Report source/extraction is COMPLETE**, not blocked.
+
+**LAST SESSION:** Will supplied CATO's full Q3 SDF/receipt and directed completion. WAL independently verified full Q2/Q3 source bytes/hash/row count/RSSD/period/unique MDRMs; Q3 matches WALTER's original hash, Q2 matches accepted WAL source. Exact copies/provenance at `sources/ffiec_2026-11-04_verified/`. Extraction reproducer `scripts/ffiec_wal_extract_20261104.py`: 70 approved fields + assets per quarter, 68 Q3 reported + 2 expected semiannual omissions, 2,159 supporting schedule rows, 12 validations. All Q2 fields reproduce accepted extraction. Q3 MI3 **19.8072%** (Q2 21.2042%), below existing 25% threshold; prior kill remains, no new firing. NDFI nonaccrual **$122.497M** nearly flat, unused **$5.900B** (+20.8%); capacity not observed stress. Modifications improve on balance; mortgage bank income up despite sales down; bank CET1 ratio 11.4458% vs 11.5823%. Report `research/2026-11-04_Q3-independent-extraction.md`; KB282–287, MI3 Q3 row, current summaries and evidence-only THESIS/CHANGELOG folded. v2.5 weights/EV/PT/scores, completed grades, positions and resolved predictions unchanged. Earlier failures retained as dated history. Source success does not certify cross-machine token installation or close all WQ-31 tasks.
+
+**NEXT SESSION:**
+1. No remaining Q3 source/extraction work; use the preserved complete originals and extraction. No repeated 10-Q grading or prior prediction reopening. Next quarterly MI3 pull remains the standing assignment.
+2. Other carried work is unchanged: evidence-based vector/composite review, hotel franchise finance read and forward Q4 predictions by 11/15. No broader rotation/research program launched.
+3. NDFI borrower/loss attribution, unused capacity draw evidence, modification cure bridge, parent mortgage/hedge/capital reconciliation and the $99M loan remain separate unknowns. REGINALD owns funding/peers/severity; TERRY owns trade construction, Will approval required.
+
+## Prior session notes — November 4 2026 (earlier source-blocked Call Report attempt)
 
 **⚠️ Open question:** complete Q3 FFIEC source remains unavailable; MI3 and bank-level extraction UNCHECKED. The $99M loan separately remains NO-VERDICT after the completed 10/30 10-Q grade.
 
@@ -8,7 +19,7 @@
 1. Source-blocked remainder: complete durable SDF, period 20260930 / RSSD 3138146, with endpoint/format, timestamp, row count and SHA-256. Restore verified retrieval access or accept another desk's full verified source, then independently extract. WQ-31 already owns the desktop credential condition; no duplicate ask.
 2. Other previously carried work remains separate: vector/composite assessment, hotel read and forward Q4 predictions by 11/15. No broader rotation or research program started.
 
-## Session Notes — current handoff, November 4 2026 (OpenAI Codex)
+## Prior session notes — November 4 2026 (startup recovery)
 
 **⚠️ Open question:** the $99M life-science loan remains NO-VERDICT; Q3 Call Report extraction remains UNCHECKED. Latest boot filer-list request: HTTP 500; FFIEC JWT expires 11/05. No ratio inferred.
 

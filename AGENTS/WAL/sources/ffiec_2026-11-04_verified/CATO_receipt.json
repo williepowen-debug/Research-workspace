@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveReportingPeriods",
+      "period": null,
+      "retrieved_at_utc": "2026-11-04T22:30:26.228410+00:00",
+      "http_status": 200,
+      "status": "SUCCESS",
+      "response_type": "list",
+      "count": 103
+    },
+    {
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "period": "6/30/2026",
+      "retrieved_at_utc": "2026-11-04T22:30:27.190295+00:00",
+      "http_status": 200,
+      "status": "VERIFIED_SOURCE",
+      "path": "AGENTS/CATO/runs/2026-11-04_ffiec-access/WAL_20260630.sdf",
+      "rows": 1812,
+      "bytes": 184829,
+      "sha256": "7c40bbb5154eb84e362492f408f95316ef1b44b82ef2dcc9ca82f1b61bccbcdb",
+      "denominator_present": true
+    },
+    {
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "period": "9/30/2026",
+      "retrieved_at_utc": "2026-11-04T22:30:28.446801+00:00",
+      "http_status": 200,
+      "status": "VERIFIED_SOURCE",
+      "path": "AGENTS/CATO/runs/2026-11-04_ffiec-access/WAL_20260930.sdf",
+      "rows": 1792,
+      "bytes": 182754,
+      "sha256": "2e04cc7bf1a78e525a68059c358215c8ce9e3c24c3639d84ea74ccb8d69c60a4",
+      "denominator_present": true
+    }
+  ]
+}

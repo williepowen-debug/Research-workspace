@@ -1,8 +1,12 @@
 # WAL STATUS
 
-**Last Updated: 2026-11-04 — bounded Q3 Call Report retry failed (curl HTTP 500; urllib 403); extraction remains UNCHECKED. Current summary labels reconciled to the completed 10/30 grade; no re-grading.** Bounded boot cleanup `fdfaee04b`; prior 10/30 Q3 10-Q graded (D:L171) + v2.5 re-score applied verbatim.
+**Last Updated: 2026-11-04 — Q3 Call Report complete source verified and approved fields independently extracted; MI3 19.81%, below the existing 25% threshold. No weight/score or completed-grade change.** Source/report: `research/2026-11-04_Q3-independent-extraction.md`; full originals and provenance: `sources/ffiec_2026-11-04_verified/`.
 
 *The 10/22 version of this file is preserved verbatim at `archive/STATUS_before-10-28_2026-10-28.md` (sha256 59f568d3…daca9); earlier history at `archive/STATUS_before-cleanup_2026-10-22.md` and `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
+
+## CURRENT — Q3 Call Report, November 4
+
+The source/access blocker is resolved for this assignment. CATO's complete Q3 SDF verifies against its receipt and WALTER's historical hash (1,792 rows); WAL independently extracted the approved fields. **MI3 21.20% → 19.81%** on the existing item4 basis, below 25%; the 8/7 bear-fast kill remains fired, no new firing. **NDFI nonaccrual $122.456M → $122.497M**, nearly flat; unused commitments **$4.884B → $5.900B (+20.8%)**, contractual capacity rather than funded stress. Modified populations improve on balance; bank mortgage income rebounds while sales fall; bank CET1 **11.5823% → 11.4458%**. These bank measures do not identify the $99M office loan or replace parent earnings/capital. **v2.5 / EV $76.60 / weights, scores and completed grades unchanged.** Details, borrower/hedge/population limits → the new report and KB282–287. Earlier failures and missing-source reports remain dated history.
 
 ## BOTTOM LINE (2026-10-30 eve) ★
 
@@ -26,7 +30,7 @@ Nothing has graded since 10/22. Q3 went against the credit bear: no new office p
 | **Core files folded (10/30)** | THESIS dated October 30 evidence addition (no re-mark) + CHANGELOG entry; WEAKNESSES $99M-cure row updated (440 Bedford, coin-flip appraisal, WQ-553); INDEX file map; REGINALD channel pointer entry (first since 10/19); KB-276 short interest 5.82% of shares (258 SUPERSEDED, series → MARKET_TRACKER). Unchanged with reason: SCENARIOS (no weight change), POSITIONS (no broker data), PREDICTIONS (nothing graded until the 10-Q) | CHANGELOG 2026-10-30 |
 | Q3 10-Q | **FILED 10/30 16:38 ET** (acc 0001628280-26-068599) and graded — see the ★ row above. The earlier "not on EDGAR at 13:16 ET" check stands as a dated record | EDGAR submissions JSON 17:30 ET |
 | L171 10-Q frame | **GRADED 10/30** verbatim; frame now a graded record (§8 filing-clock pin added, no cell edited). Expected values held exactly: classified loans **$926M**, OREO **$165M**, NCO 30bps, coverage 118.4% | `Q3_10Q_GRADING_FRAME_2026-09-24.md` §8; grade file |
-| Q3 Call Report (FFIEC) | **UNCHECKED 11/04:** WALTER closed retained-source recovery **NOT RECOVERED**; no full Q3 WAL facsimile found in existing AGENTS/FORGE sources. Direct Q3 curl and header-stdin requests HTTP 500; urllib 403; Q2 control and reporting-period requests also 500. Complete SDF for RSSD 3138146, period 20260930 missing; selected rows lack RCON1766 and 54 of the 70 previously approved input codes. No Q3 MI3 ratio, NDFI integration or data row inferred. | `research/2026-11-04_Q3-call-report-result.md`; `sources/ffiec_2026-11-04/missing-inputs.json` |
+| Q3 Call Report (FFIEC) | **COMPLETE 11/04:** verified CATO complete SDF (RSSD 3138146, period 20260930, 1,792 rows, SHA-256 matches WALTER historical receipt); own full source/provenance preserved. 70 approved fields + ledger assets per period, Q3 68 reported + 2 expected semiannual omissions, 12 validation checks. MI3 **19.8072%**, NDFI nonaccrual **$122.497M**; Q3 series row appended. | `research/2026-11-04_Q3-independent-extraction.md`; `sources/ffiec_2026-11-04_verified/provenance.json` |
 | NDFI (V3) | **First Eagle Private Credit Fund SPV**, 4th amendment dated 10/1 (8-K 10/5): Western Alliance Bank joins as a lender with a **$100M commitment**. The second private-credit SPV joinder in two weeks after Crestline 9/18 (KB-195), the first with WAL's own amount disclosed. A commitment, not a funded balance; exposure direction, not stress; no score change (the 10-Q NDFI table decides) | KB-260 |
 | Insider / ownership | 9/24 → 10/28: no Form 144 (newest 6/15), no 13D/G, no open-market buy or sell; the 10/19 Form 4s are routine RSU settlements (KB-252). V4 unchanged | KB-259 |
 | Short interest | FINRA 10/15 settlement **6.35M shares (+2.15%)**, the third straight rise (+12.45% since 8/29); days-to-cover 4.68 on higher volume. Dated observation; no squeeze or score read | KB-258 |
@@ -80,7 +84,7 @@ N diagnostics: NIM 3.57%, no N1 breach. Total deposit cost (N2) not printed; the
 ## OPERATOR DEPENDENCIES
 
 - **Moreno Valley recorder:** deed-of-trust instrument/APN missing. His 10/13 response: no results unless REGINALD pulled them; a prior targeted owner search found none. Not re-asked. Ontario B1 does not resolve Moreno Valley. DEWEY 10/28 tested all four lien counties: every route is human-only (San Bernardino reCAPTCHA; Riverside public but scripted submissions fail; Los Angeles/Bellflower has no online index); exact searches in `../DEWEY/output/2026-10-28_nano-loans-passive-records-route.md` §2.
-- **FFIEC:** 11/04 Q3 direct curl/header-stdin HTTP 500; urllib 403; Q2 and reporting-period controls also HTTP 500. Configured desktop token metadata expires **11/05 19:02:19 UTC (14:02 ET)**, not yet expired at testing. PROME's 11/01 receipt records a renewed **laptop** token expiring 2027-01-31 and says desktop installation remained owed; this machine still has the old expiry. A server/access error is not proof of expiration or filing absence. WQ-31 already owns the credential dependency; no duplicate ask.
+- **FFIEC — source dependency resolved for this assignment:** 11/04 CATO authenticated Q2/Q3 HTTP 200 sources were verified and copied durably by WAL; independent extraction complete. Earlier local HTTP 500/403 attempts and desktop-token observations remain dated history. This result does not certify renewed-token installation on both machines or close PROME's other WQ-31 credential tasks; no credential request is needed to finish this extraction.
 - **NYSCEF index numbers** (WAL v. Jefferies; Point Bonita v. WAL): Will-side browser search offered 10/22, unanswered.
 - **Quartr is a subscription gate, not a re-authentication:** on 10/28 the connector was signed in as Will but refused with "Quartr Pro subscription required" (plan: none). Quartr is a paid source Will already DECLINED (WQ-220, preserved in the WQ-298 paid-data ruling), so this item is closed, not owed: the two B2 call transcripts stay B2, and no grade depends on them.
 - **CourtListener:** anonymous API and search now refused (401/403, 10/28). The Makhijani dates need a token, DEWEY's PACER route, or a browser check; not urgent before the 11/30 status conference.
@@ -90,11 +94,11 @@ N diagnostics: NIM 3.57%, no N1 breach. Total deposit cost (N2) not printed; the
 
 | Vector | Score | Current evidence / next carrier |
 |---|---|---|
-| V1a MI3 | 1/5 | DISCONFIRMED 8/7; CRE not secured by RE, not the Office book. Q3 retrieval UNCHECKED 11/02 (FFIEC HTTP 500); no new grade |
+| V1a MI3 | 1/5 | Q3 retest **19.8072%** vs Q2 21.2042%, existing item4 basis, below 25%; prior 8/7 disconfirmation/kill remains. CRE not secured by RE, not the Office/$99M book. Source verified/extracted 11/04; no score change |
 | V1b broadening | 2/5 | Q2 DISCONFIRMED; Q3 DP2 DISCONFIRM final 10/21 (counter 2 of 3). A data point does not by itself trigger a re-score |
 | V1b magnitude | 4/5 | Held as prior judgment, not a fresh confirmation. Q3 NCO guide held; $99M appraisal unresolved; favorable coverage vs OREO/SM rise |
 | V2 fraud | 5/5 historical | EXCLUDED from composite. Auditor-nexus support weakened 10/28 (KB-071/072/076 superseded; RSM 2025 inspection clean on ACL, KB-268). Cantor Q3 disclosure NARROWED in the completed 10/30 grade; residual/allowance unresolved, no implied recovery. Court path 10/22: remand + stay relief granted 8/24, §523 hearing 12/9 |
-| V3 NDFI | 3/5 | Q2 exposure/history remain KB-146/168/230. The Q3 deck slide 23 (preliminary, rounded, HFI + HFS + eligible-loan basis) does not grade the 10-Q 25.9%-of-HFI test. New 10/28: First Eagle SPV $100M lender joinder 10/1 (KB-260) adds to the exposure-up evidence beside Crestline (KB-195). Borrower attribution and current stress unknown |
+| V3 NDFI | 3/5 | Q3 bank nonaccrual **$122.497M** vs $122.456M (rate ~0.774%); unused commitments **$5.900B**, +20.8%, not funded draws. Share 25.723% HFI vs 25.943% Q2, dollars slightly up, consistent with completed 10-Q MIXED. Borrower/loss attribution remains unknown; no score change. KB283–284 |
 | V4 leadership | 3/5 | Held. 10/19 Form 4s routine (KB-252); Form 144 / 13D/G / open-market sweep clean 9/24 → 10/28 (KB-259). LEADERSHIP.md refreshed 10/28 (KB-261–264): Curley's stated reason is a CEO role elsewhere, RSM re-ratified, board 15 → 13; the March "repositioning" reading has weakened, residual is the June Gibbons/Mucha sales. Score re-judged at the re-score |
 
 Composite 13/25; current scenario weights → THESIS. No Call Report-driven change; no independent funding/peer/severity baseline built.
@@ -106,7 +110,7 @@ Composite 13/25; current scenario weights → THESIS. No Call Report-driven chan
 | Rule | Condition / carrier | State |
 |---|---|---|
 | Bear-medium KILL | 0 new Office migrations AND benign $99M appraisal; deck/call/10-Q | **NOT FIRED**: leg (a) 0 migrations met at Q3; leg (b) appraisal NO-VERDICT after the 10-Q, carried to the Q4 call |
-| Bear-fast KILL | MI3 < 25%, FFIEC | **FIRED 8/7**, reflected in v2.4; Q3 untested |
+| Bear-fast KILL | MI3 < 25%, FFIEC | **FIRED 8/7**, reflected in v2.4; Q3 retest **19.8072% < 25%** on 11/04, same existing rail; no new firing |
 | Bear CONFIRM | WAL-01 Office > 500 or WAL-02 NCO > 40 | **NOT FIRED** on the completed 10/30 grade; WAL-01 and WAL-02 INVALIDATED FINAL. Forward Q4 predictions remain due 11/15 |
 | Thesis RETIRE | Broadening disconfirmed 3 times AND coverage > 100% AND benign appraisal | **NOT FIRED**: counter **2 of 3**; coverage leg met 118%; appraisal NO-VERDICT after the 10-Q, carried to the Q4 call |
 | GATE-REG-T02 (PROME gate) | Close < 78 | **TERMINAL** since 9/1; never re-fire on a sub-78 quote. REGINALD's registry trigger REG-T-02 (same letters, separate object) is carried FIRED by REGINALD |
@@ -117,7 +121,7 @@ Composite 13/25; current scenario weights → THESIS. No Call Report-driven chan
 | When | Required work |
 |---|---|
 | $99M appraisal / Q4 call (date not set) | Ask status at 9/30, whether the appraisal was received, and value vs carrying. The Q3 10-Q is already graded NO-VERDICT; never repeat that grade. Separately register forward Q4 predictions by 11/15 |
-| Q3 Call Report (source-blocked; latest retry 11/04; REGINALD cohort screen D:L180) | Obtain a complete durable FFIEC SDF for period 20260930 / RSSD 3138146 with endpoint, retrieval timestamp, row count and SHA-256; then independently extract RCON2746/RCON1766, RCONJ454 and approved fields. Current 45-code selected evidence is incomplete (RCON1766 absent); missing is never zero. Desktop token differs from the renewed laptop credential; access restoration or a verified full cross-desk source is needed. June/December semiannual rows are not expected at Q3. |
+| Q3 Call Report | **DONE 11/04:** complete primary source verified and independently extracted; no retrieval/extraction remainder. Next MI3 data is the existing standing quarterly Q4 Call Report pull; June/December semiannual fields retain their frequency. Borrower attribution, parent bridges and other carried work are separate conditions, not missing Q3 extraction. |
 | ~Thu 11/5 | OZK Q3 10-Q (per OZK STATUS): re-read the owner pointer behind KB-228 (sponsor-support peer); no OZK figure mirrored |
 | ~Tue 11/10 | FINRA 10/30 settlement short interest (KB-258 successor; verify the FINRA calendar first) |
 | **Wed 12/9/2026 11:00 AM** | WAL v. Stupin §523 (8:26-ap-01096): motion-to-dismiss hearing + status conference |

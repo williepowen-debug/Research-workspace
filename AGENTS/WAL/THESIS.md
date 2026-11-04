@@ -1,6 +1,14 @@
 # WAL — Compounder with Concentrated CRE Tail Risk
 
-**Last Updated:** **2026-10-30 eve** (v2.5: post-Q3-10-Q re-score, applied verbatim from the pre-registered rule) | **Version:** **v2.5** (dated 2026-10-30) | **EV $76.60 · PT $52-77** · spot vs EV → `STATUS.md` only | **Prior:** v2.4 (Aug 20; EV $75.96, PT $52-76) | v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-11-04** (Q3 Call Report evidence-only fold; v2.5 re-score remains dated 10/30) | **Version:** **v2.5** (dated 2026-10-30) | **EV $76.60 · PT $52-77** · spot vs EV → `STATUS.md` only | **Prior:** v2.4 (Aug 20; EV $75.96, PT $52-76) | v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+
+---
+
+## Evidence update — November 4 2026 (no numerical re-mark)
+
+The complete Q3 FFIEC source is now verified and independently parsed by WAL: `research/2026-11-04_Q3-independent-extraction.md`, KB282–287; complete originals/provenance in `sources/ffiec_2026-11-04_verified/`. **MI3 19.8072% versus Q2 21.2042%**, on the unchanged RCON2746/RCON1766 basis, below the existing 25% threshold; the 8/7 bear-fast kill remains fired, no new firing. This measures CRE not secured by real estate and does not resolve the $99M office loan. NDFI nonaccrual **$122.456M → $122.497M**, rate ~0.774% unchanged; unused commitments **$4.884B → $5.900B** (contractual capacity, not realized draw/loss). Modifications generally improve; bank mortgage income rebounds despite lower sales, with parent/hedge bridge unresolved; bank CET1 ratio falls **11.5823% → 11.4458%** as RWA outgrows capital. No borrower loss attribution or new stress calibration inferred.
+
+**Unchanged:** v2.5, weights **2/12/49/30/7**, EV **$76.60**, PT **$52–77**, vector scores and composite **13/25**; prior prediction grades, frozen calibration and 10-Q re-score remain their original records. V1a stays 1/5, V3 stays 3/5; no retired implication column executed. Separate vector/hotel/Q4-prediction work remains carried, not advanced by this extraction. The dated 10/30 and earlier evidence below retains its own vintage.
 
 ---
 

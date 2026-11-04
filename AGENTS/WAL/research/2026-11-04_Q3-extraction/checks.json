@@ -1,0 +1,23 @@
+{
+  "status": "VERIFIED",
+  "checks": [
+    "2026-06-30: source bytes/hash/row count/RSSD/period/unique MDRMs verified",
+    "June source byte-identical to WAL accepted October 14 source",
+    "2026-06-30: NDFI funded subtype residual 0K; existing <=1K tolerance",
+    "2026-06-30: NDFI unused subtype residual -1K; existing <=1K tolerance",
+    "2026-06-30: bank CET1 numerator/RWA ties reported ratio at existing tolerance",
+    "2026-09-30: source bytes/hash/row count/RSSD/period/unique MDRMs verified",
+    "2026-09-30: NDFI funded subtype residual 0K; existing <=1K tolerance",
+    "2026-09-30: NDFI unused subtype residual 0K; existing <=1K tolerance",
+    "2026-09-30: bank CET1 numerator/RWA ties reported ratio at existing tolerance",
+    "All 70 Q2 named fields reproduce accepted October 14 extraction",
+    "Q3 bank NCO 45.797M reproduces accepted issuer 45.8M at printed precision",
+    "Q3 complete bytes also match WALTER original historical receipt"
+  ],
+  "approved_named_fields": 70,
+  "ledger_auxiliary_fields": 1,
+  "quarters": 2,
+  "Q3_reported_named_fields": 68,
+  "Q3_not_expected_semiannual": 2,
+  "supporting_schedule_rows": 2159
+}

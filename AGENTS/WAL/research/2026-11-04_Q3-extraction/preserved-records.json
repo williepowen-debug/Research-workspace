@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "path": "AGENTS/WAL/SCENARIOS.md",
+      "sha256": "9ee1c6d54df6000114515c0e7d03ca6e7597e2f931fbfc22d1bfbe1ed5b6a115",
+      "status": "UNCHANGED"
+    },
+    {
+      "path": "AGENTS/WAL/POSITIONS.md",
+      "sha256": "62bcdd6c5f19575579e3997500013cbae6ada4cc9320d18c01012dbc8c4fd089",
+      "status": "UNCHANGED"
+    },
+    {
+      "path": "AGENTS/WAL/Q3_PRINT_GRADING_FRAME_2026-09-24.md",
+      "sha256": "96ab46636a0ae0878b0b82338294706538c96e14ba787cd2ea60c0cf6facc03e",
+      "status": "UNCHANGED"
+    },
+    {
+      "path": "AGENTS/WAL/Q3_10Q_GRADING_FRAME_2026-09-24.md",
+      "sha256": "633ad104b62e231e32b98706985aae932611104314e11596727e49db1a74fa2f",
+      "status": "UNCHANGED"
+    },
+    {
+      "path": "AGENTS/WAL/Q3_10Q_RESCORE_RULE_2026-10-22.md",
+      "sha256": "36bed1510330c51db2b7cdd82d26430ce64dfbfdf13fa2182720ea0f1058f9d2",
+      "status": "UNCHANGED"
+    },
+    {
+      "path": "AGENTS/WAL/workbook/PREDICTIONS.tsv",
+      "sha256": "aca280449d6386726b5d566f1562c6402061b64c3556b8a18b97f16171de0508",
+      "status": "UNCHANGED"
+    },
+    {
+      "path": "AGENTS/WAL/research/2026-10-30_Q3_10Q_GRADE.md",
+      "sha256": "3d1a02d1371f2eea15fd9f9add8a856efccb8ff24c720cb189bf03d3039591ca",
+      "status": "UNCHANGED"
+    }
+  ],
+  "limits": "THESIS/CHANGELOG receive dated evidence-only additions; frozen grades, prediction resolutions, positions and scenario table are byte-unchanged."
+}
