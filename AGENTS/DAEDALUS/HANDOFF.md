@@ -6,7 +6,7 @@ Will resumed the existing audit. Remaining-items reconciliation is complete at `
 
 PROME is active; remaining instructions not edited. Its durable packet carries the reconciliation for L817. B01 needs DAEDALUS counterexample read of exact owner plan before insertion. TERRY B44/D17 remain November 6; WALTER prior 5/5 stands. A09 and historical approximately 25 skipped lines require final disposition/verification before whole closure. No audit-clock reset or fresh fleet/runtime retest. Native discovery is a recent Codex-task subset, not proof of other owner absence. Current two inbox arrivals already dispositioned in prior catch-up; no unrelated work restarted.
 
-Publication/check receipt will be appended after path-scoped persistence. Prior session history follows.
+Publication: 3be4bb07a pushed, fresh-fetch confirmed; legacy verify 20261104T211611Z rc 0, eight paths match origin. Closeout 20261104T211540Z rc 0 with maintenance DUE, no BLOCKING/UNKNOWN. PROME consumption remains unverified; no live message sent. Prior session history follows.
 
 ## Previous closeout — historical restart basis
 
