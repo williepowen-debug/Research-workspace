@@ -35,7 +35,7 @@
 ---
 
 ## ACTIVE (34) — split by responsibility class *(30→31 at the 2026-08-16 FERT registration; 31→32 at the 2026-08-20 FLG build; 32→33 at the 2026-08-21 CRUISE re-class; **33→34 at the 2026-09-19 YURI seat, Will-ruled in terminal, WQ-267** — ARCHIVE/personal-interest → EVENT-DRIVEN, Will-ruled row 55 off the DAEDALUS 8/16 label-flagged-false finding)*
-*Phase 1 taxonomy pass, 2026-08-05. Previously one flat bucket headed "persistent domain owners (30)", which mixed domain owners, organizing/service agents, a review lane, event-driven specialists and newborns under a header claiming all thirty were persistent domain owners.* Verified by recent commit cadence; each runs as its own Claude Code session.
+*Phase 1 taxonomy pass, 2026-08-05. Previously one flat bucket headed "persistent domain owners (30)", which mixed domain owners, organizing/service agents, a review lane, event-driven specialists and newborns under a header claiming all thirty were persistent domain owners.* Verified by recent commit cadence; each runs as its own owner session under the actual supported runtime, with the same desk identity and obligations across runtimes.
 
 > **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*
 

@@ -1,12 +1,12 @@
 # Git Coordination
 
 **Owner:** Prome  
-**Status:** Live coordination rail; push policy updated to auto-push 2026-06-26 · **Updated:** 2026-10-02 (spine audit #15 — Hard-Rules bullet 5 YEYOU pointer; body edits are dated in place through 2026-09-12, `git log -p -- PROME/GIT_COORDINATION.md`)  
+**Status:** Live coordination rail; push policy updated to auto-push 2026-06-26 · **Updated:** 2026-11-04 (mixed-runtime wording corrected under existing policy; no Git or authority change) · prior: 2026-10-02 (spine audit #15 — Hard-Rules bullet 5 YEYOU pointer; body edits are dated in place through 2026-09-12, `git log -p -- PROME/GIT_COORDINATION.md`)
 **Scope:** every agent operating in this shared repo/worktree (fleet size → `PROME/ROSTER.md`, the countless pointer [audit #10 — the hand-carried count had drifted 30→33]; PROME + YEYOU were the founding two).
 
 ## Purpose
 
-Keep multiple concurrent Claude Code agents from clobbering one another through shared-index git operations, stale Prome paths, or unsafe pushes. *(All agents are Claude Code sessions under **serial multi-machine** operation — Will runs one box at a time, desktop ⇄ laptop, close-out-push before switching; OpenClaw/VPS was cut 2026-06-26. Machine-local inventory → `PROME/MACHINE_LOCAL.md`.)*
+Keep concurrent agent runtimes from clobbering one another through shared-index git operations, stale Prome paths, or unsafe pushes. *(Agents may run under different supported runtimes; identity, ownership and Git rules are unchanged. Operation is **serial multi-machine** — Will runs one box at a time, desktop ⇄ laptop, close-out-push before switching; OpenClaw/VPS was cut 2026-06-26. Machine-local inventory → `PROME/MACHINE_LOCAL.md`.)*
 
 This doc is the live coordination surface (vs the archived `AGENTS/PROME/` tree); **root `CLAUDE.md` Git Protocol is canon** — this doc mirrors it and adds the PROME cookbook (per `SYSTEM.md` Canonical→Mirrors). The old `AGENTS/PROME/` tree is archived at `PROME/archive/AGENTS_PROME_LEGACY_2026-06-24/` and is not live intake, boot, or git protocol.
 
