@@ -117,6 +117,11 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
       "commit": "d183e7f7a240e70ea9958b8f7bd94b23b5e950de",
       "state": "published",
       "note": "Final FULL CLOSED continuity. Push subcommand met concurrent-ref race; safe-push fresh-fetch proved HEAD on origin, rc0. No rebase needed."
+    },
+    {
+      "commit": "9f9212401c037ebf826b5363ce65c8f14ead9510",
+      "state": "pending",
+      "note": "Reboot seven cards and14 handoffs; pending coordinated publication, no push attempted."
     }
   ],
   "delivery": {
@@ -185,8 +190,8 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
     "14": "Full MEMORY narrative deferred under light tier; LAST_COMPLETION is current duty source.",
     "root.retirement": "Retained live source/owner references and uncertain retirement candidates; no deletion sweep.",
     "15": "Prior duties and approvals preserved; accepted WAL recovery must not restart. Final closeout review hash-bound.",
-    "16": "Current reboot artifacts local; publication deferred to coordinated workflow. Prior published cohorts unchanged.",
-    "checks": "Light suite read-cap/archives/weekdays PASS; receipt mismatch corrected and receipt recheck PASS187/201. Ledger nudge reviewed: route/delivery and batch ledgers changed this session; zero kill/fire/correction changes warranted. Central READS UNKNOWN stale attestation; charter rotation warnings carried. checks.json retains original review result; later receipt recheck supersedes mismatch only.",
+    "16": "Reboot payload9f9212401 committed exact paths; publication deferred. Prior cohorts unchanged.",
+    "checks": "Light suite read-cap/archives/weekdays PASS; receipt mismatch corrected and receipt recheck PASS187/201. Ledger nudge reviewed: route/delivery and batch ledgers changed this session; zero kill/fire/correction changes warranted. Central READS UNKNOWN stale attestation; charter rotation warnings carried. checks.json retains original review result; later receipt recheck supersedes mismatch only. Doctor found stale generated BOARD index after7 new cards; regenerated before final check. Final doctor0HIGH/18MED before correcting one taxonomy error:17 retained MED comprise14 pending-publication copies,59 older unconsumed copies and two DEWEY flags. Invalid METALS cluster corrected to existing POSITIONING_VALUATION; index regenerated. Fresh collector healthy; boot basis MATCH28.",
     "Tier1": "Re-pulled core observations unchanged; fresh HANS storage basis in REVIEW; full ID/source gaps inherited explicitly. STATUS refreshed."
   }
 }

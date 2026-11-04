@@ -12,8 +12,8 @@ confidence: 0.94
 confidence_language: "confirmed"
 resources: 1
 safety_net: "clear"
-cluster: "METALS"
-domain: "METALS"
+cluster: "POSITIONING_VALUATION"
+domain: "UST_FOREIGN"
 entities: ["WGC", "gold"]
 word_count: 157
 dispatch_note: "Bounded reboot intake; written pending coordinated publication. Owner grades, delivery and consumption remain separate."
