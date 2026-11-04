@@ -77,5 +77,5 @@
 
 - **WORK:** Startup and approval recovery complete; no unassigned maintenance begun. November 2 bounded review completion retained. L882 notice acknowledged as reported, without independent repair clearance.
 - **CHECKS:** Boot 20261104T195227Z and closeout 20261104T195333Z rc 0; zero check BLOCKING/UNKNOWN, maintenance DUE retained. Harness/profile queues, stale directory and root charter rotation DUE. Full-fleet session discovery and live PROME transport UNKNOWN in this runtime.
-- **DELIVERY:** Recovery saved locally in `runs/2026-11-04_STARTUP_RECOVERY.md`; publication pending closeout. Prior November 2 publication and PROME consumption remain as recorded in HANDOFF. This recovery is reported directly to Will; PROME consumption not claimed.
+- **DELIVERY:** Recovery revision d72667e78 published with fresh-fetch confirmation; legacy verify 20261104T195401Z rc 0, all 3 paths byte-identical. Prior November 2 publication and PROME consumption remain as recorded in HANDOFF. This recovery is reported directly to Will; PROME consumption not claimed.
 - **OPEN:** Recommended next assignment: bounded November 4 post-cutoff/owner-repair verification, then November 6 L263/L490/scorecard. L817 removal/simplification only; L872 retired. No new immediate Will decision. No unrelated arrivals beyond the acknowledged L882 notice.

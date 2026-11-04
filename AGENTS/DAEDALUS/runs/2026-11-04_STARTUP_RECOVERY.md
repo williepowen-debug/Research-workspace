@@ -53,3 +53,5 @@ RESULT: Startup recovered the November 2 result, approval limits and 1 current i
 GAPS: Pull refused due to foreign changes; fetch succeeded with no incoming commits at boot. Live fleet discovery/messaging unverified; maintenance remains DUE.
 WILL_NEEDS: None.
 FOLLOW-UP: Will/PROME may assign the bounded November 4 continuation; existing November 6 work remains registered.
+
+Publication: recovery revision d72667e78 confirmed on origin/master by safe-push; legacy verify 20261104T195401Z rc 0, all 3 paths byte-identical. This delivery-only follow-up records that frozen revision; it does not extend review or certify PROME consumption.
