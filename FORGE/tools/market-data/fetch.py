@@ -1497,7 +1497,7 @@ def futures_bar_session(md, asof, prev_asof, quote_price=None):
         return _unverified("regularMarketTime is boolean, not an epoch")
     try:
         rmt_i = int(rmt)
-    except (TypeError, ValueError):
+    except (TypeError, ValueError, OverflowError):
         return _unverified("regularMarketTime missing or invalid in history_metadata")
     if rmt_i <= 0:
         return _unverified(f"regularMarketTime {rmt_i} is not a positive epoch")
@@ -1598,7 +1598,7 @@ def _session_stamp(d, asof, today, ticker=None):
     if sess == "unverified":
         return f"{asof or 'date?'}⚠unverif"
     if sess == "day" and d.get("change_pct") is None and str(d.get("change_basis", "")).startswith("withheld"):
-        return f"{asof}⚠gap"
+        return f"{asof}⚠gap" + (" ⚠stale" if str(asof) != today else "")
     return "date?" if asof is None else (asof if asof == today else f"{asof} ⚠stale")
 
 

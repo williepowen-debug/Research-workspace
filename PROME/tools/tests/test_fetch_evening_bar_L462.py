@@ -196,6 +196,14 @@ class EveningBar(unittest.TestCase):
                 self.assertEqual(r["price"], 102.38)
                 self.assertIsNone(r["change_pct"])
 
+    def test_infinite_epoch_is_unverified_without_losing_history(self):
+        r = self.fetch_one(self.future(last_trade=float("inf")))
+        self.assertEqual(r["session"], "unverified")
+        self.assertEqual(r["asof"], "2026-09-23")
+        self.assertEqual(r["price"], 102.38)
+        self.assertIsNone(r["change_pct"])
+        self.assertNotIn("history/metadata unavailable", r["session_basis"])
+
     def test_quote_chart_price_mismatch_or_missing_is_unverified(self):
         mismatch = self.fetch_one(self.future(md_extra={"regularMarketPrice": 102.67}))
         self.assertEqual(mismatch["session"], "unverified")
@@ -269,6 +277,15 @@ class EveningBar(unittest.TestCase):
                                              bars=((2026, 9, 18), (2026, 9, 21))))
         self.assertEqual(evening["session"], "evening-next-session")
         self.assertIn("⚠stale", self.render({"BZX26.NYM": evening}))
+
+    def test_stale_day_with_prior_gap_keeps_cli_stale_mark(self):
+        r = self.fetch_one(self.future(last_trade=et(2026, 9, 21, 12, 0),
+                                       bars=((2026, 9, 17), (2026, 9, 21))))
+        self.assertEqual(r["session"], "day")
+        self.assertIsNone(r["change_pct"])
+        out = self.render({"BZX26.NYM": r})
+        self.assertIn("⚠gap", out)
+        self.assertIn("⚠stale", out)
 
     def test_invalid_timestamp_is_visible_in_cli(self):
         r = self.fetch_one(self.future(last_trade=0))

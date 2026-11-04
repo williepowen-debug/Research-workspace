@@ -2,7 +2,7 @@
 
 **Written before code edits:** 2026-11-04 10:30 ET, PROME on Kimi Code CLI. **Owner:** PROME / FORGE market-data tools. **Source:** DOCKET L557 and CATO's 2026-09-29 independent review EB1–EB3. **Class:** consequential repair to a shared market-data instrument and Will-facing dashboard.
 
-**Review boundary:** Will directed no additional agents in this session. No independent plan or result reader is launched. Author tests can establish IMPLEMENTED and TESTED only; the repair remains NOT INDEPENDENTLY VERIFIED and L557 remains open until the required independent reader devises its own counterexample.
+**Review boundary:** the initial implementation ran under Will's no-agent instruction. His later bounded catch-up approval expressly directed independent reviews; a read-only reviewer completed the initial review and re-review, with no owner agents or research threads.
 
 ## Conditions
 
@@ -28,6 +28,8 @@
 
 ## Completion note
 
-**IMPLEMENTED · TESTED (author) · NOT INDEPENDENTLY VERIFIED · L557 STILL UNRESOLVED.** The quote/chart join, ET normalization, adjacent-session bound, stale marks and reason-text repairs are in `fetch.py` / `dashboard.py`. The project virtual environment passes 29 L462 evening-bar tests, 10 L409 dashboard-mark tests, 22 contract-repair tests and 6 contract-probe acceptance cases (67 checks total).
+**IMPLEMENTED · TESTED · INDEPENDENTLY VERIFIED · L557 RESOLVED.** The quote/chart join, ET normalization, adjacent-session bound, stale marks and reason-text repairs are in `fetch.py` / `dashboard.py`. Initial author runs passed 67 checks; the final independent re-review passed 69 checks (31 L462 · 10 L409 · 22 contract-repair · 6 contract-probe).
 
-A real dashboard pull completed at 2026-11-04 10:39 ET. December Brent printed `$117.70 [10/30] ⚠stale ⚠prior-bar gap, Δ withheld`, preserving the stale price while withholding the unsupported change. No live evening session was occurring; new evening and failure behavior is fixture-tested. The required independent reader and its own counterexample remain owed under Will's no-additional-agents instruction.
+A real dashboard pull completed at 2026-11-04 10:39 ET. December Brent printed `$117.70 [10/30] ⚠stale ⚠prior-bar gap, Δ withheld`, preserving the stale price while withholding the unsupported change. No live evening session was occurring; new evening and failure behavior is fixture-tested.
+
+The first independent review returned NOT ACCEPTED on a stale day-gap CLI mark and an infinite-epoch exception. PROME fixed both and added regressions; the same reviewer reran its counterexamples and returned ACCEPT, with no remaining scoped defect. Full evidence and failed results: `PROME/reports/2026-11-04_L557-independent-review.md`.
