@@ -1,0 +1,52 @@
+{
+  "2024-12-31 to 2025-12-31": {
+    "NAV_pct": 7.413389743783783,
+    "shares_pct": -29.449129201667812,
+    "assets_pct": -24.218917780088457,
+    "net_shares": -24900000.0,
+    "creation_days": 121,
+    "redemption_days": 126,
+    "gross_created": 176700000.0,
+    "gross_redeemed": 201600000.0
+  },
+  "2025-12-31 to 2026-11-02": {
+    "NAV_pct": 13.65780797610534,
+    "shares_pct": -10.393514379971968,
+    "assets_pct": 1.8447680019006318,
+    "net_shares": -6200000.0,
+    "creation_days": 101,
+    "redemption_days": 106,
+    "gross_created": 191250000.0,
+    "gross_redeemed": 197450000.0
+  },
+  "2026-07-31 to 2026-11-02": {
+    "NAV_pct": -3.1718693264737086,
+    "shares_pct": -7.445554168700852,
+    "assets_pct": -10.381260164174666,
+    "net_shares": -4300000.0,
+    "creation_days": 30,
+    "redemption_days": 35,
+    "gross_created": 54000000.0,
+    "gross_redeemed": 58300000.0
+  },
+  "2026-09-02 to 2026-11-02": {
+    "NAV_pct": -0.6660827430346128,
+    "shares_pct": -0.5581126935569669,
+    "assets_pct": -1.2204771116359314,
+    "net_shares": -300000.0,
+    "creation_days": 18,
+    "redemption_days": 24,
+    "gross_created": 40800000.0,
+    "gross_redeemed": 41100000.0
+  },
+  "2026-10-02 to 2026-11-02": {
+    "NAV_pct": 4.12619188858685,
+    "shares_pct": 5.009568767480088,
+    "assets_pct": 9.342465920089316,
+    "net_shares": 2550000.0,
+    "creation_days": 9,
+    "redemption_days": 12,
+    "gross_created": 22700000.0,
+    "gross_redeemed": 20150000.0
+  }
+}

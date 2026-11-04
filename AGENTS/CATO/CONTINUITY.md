@@ -1,10 +1,10 @@
 # CATO — current continuity
 
-**Updated November 2, 2026. Approved file cleanup complete; orient and await Will.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry when a task resumes; saved approvals do not trigger unrelated work.
+**Updated November 4, 2026. Agent-work review delivered; orient and await Will.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry when a task resumes; saved approvals do not trigger unrelated work.
 
 ## Resume point
 
-No CATO implementation or review is currently owed. [WAL self-review advice](runs/2026-11-02_1100_wal-boot-self-review.md) is delivered: small owner cleanup proposed, no CATO repair assigned. The [morning change review](runs/2026-11-02_1018_morning-change-review.md) identified a grouped-session-view/launcher mismatch; the approved launcher correction is implemented and author-tested (43 Python tests and native Windows smoke pass). Reopen Launcher to load it. Will accepted Fable availability for other desks, closing that finding without repair. The completed system review (WQ-583) stays closed; ordinary use or a concrete failure should drive the next assignment. [Disposition and owner limits](TASK_INDEX.md#october-29-system-review-and-launcher-approvals). The [file-cleanup report](runs/2026-11-02_0953_cato-file-review.md) records the approved corrections; the charter and authority are unchanged.
+No CATO implementation or review is currently owed. [Four-day agent-work review](runs/2026-11-04_1531_agent-work-review.md) is delivered: useful bank counterevidence and reproducible KRE calculations; priority is existing ISHM/LIQUID delivery and NEXUS integration/November 5 grading. WAL full Call Report preservation and brief-label correction remain owner work. PROME L835 is a tested candidate, not accepted/installed; other named maintenance accepted. No owner edits, sends or launches commissioned. Previous launcher repair and WQ-583 stay closed; [prior delivery and limits](TASK_INDEX.md#november-2-morning-change-review). Charter and authority unchanged.
 
 ## Surviving CATO work
 
