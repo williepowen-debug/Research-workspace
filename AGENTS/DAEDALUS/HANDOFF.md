@@ -2,6 +2,8 @@
 
 ## Current continuation — harness reconciliation, November 4
 
+Update: PROME submitted exact retained cleanup. Plan ACCEPTED in `runs/2026-11-04_L817_PLAN_REVIEW.md` (nine target hashes, two Gate C counterexamples). Scope is entire proposed change set plus supporting context, not blind rediscovery/unchanged-file re-audit. PROME applies and returns evidence; DAEDALUS result verification next. Root rotation still owes below-70% stopping target. LIQUID repair-review request remains pending separately; do not claim it was reviewed.
+
 Will resumed the existing audit. Remaining-items reconciliation is complete at `runs/2026-11-04_HARNESS_RECONCILIATION.md` with input hashes in its INPUTS.json companion. Original 27 PROME IDs: 7 applied, 1 superseded, 1 no-op, 2 excluded; 16 retained IDs represent 15 edits (D12/P07 overlap). This denominator excludes separately absorbed L419/L645 wording work and C17 owner interpretation. WQ-577 drops additions; P13 reorder-only exclusion is our narrow scope interpretation. Current C1–C9 reporting and suspended process cap must survive cleanup.
 
 PROME is active; remaining instructions not edited. Its durable packet carries the reconciliation for L817. B01 needs DAEDALUS counterexample read of exact owner plan before insertion. TERRY B44/D17 remain November 6; WALTER prior 5/5 stands. A09 and historical approximately 25 skipped lines require final disposition/verification before whole closure. No audit-clock reset or fresh fleet/runtime retest. Native discovery is a recent Codex-task subset, not proof of other owner absence. Current two inbox arrivals already dispositioned in prior catch-up; no unrelated work restarted.
