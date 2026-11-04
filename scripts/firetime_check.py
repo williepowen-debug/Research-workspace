@@ -10,7 +10,10 @@ artifact, with the window two weeks out. This is the mechanism that catches
 that class BEFORE a catalyst window opens.
 
 Checks per artifact (read-only; flags, never fixes):
-  1. POINTERS  — backtick-quoted repo paths resolve on the filesystem.
+  1. POINTERS  — repo paths resolve on the filesystem; hexadecimal commit:path
+                 targets read a Git blob and resolve pointers in that tree.
+                 Pinned blobs retain date-drift/current-canon checks: an
+                 immutable address alone does not make a claim historical.
   2. DATES     — dates in the artifact that match NO row of PROME/DOCKET.tsv
                  but fall within ±45d of a docket date → drift flag (the
                  Jul-30-vs-Jul-16 class). Dates on lines marked as historical
@@ -30,6 +33,17 @@ Usage:
   python3 scripts/firetime_check.py PROME/proposals/foo.md [more paths...]
   python3 scripts/firetime_check.py --window 7      # artifacts cited by docket rows <=7d out
   python3 scripts/firetime_check.py --window 7 --quiet   # boot wiring: prints only on flags
+
+Production acceptance (L757, 2026-11-04): both historical blobs
+  778ef6a38:PROME/inbox/2026-10-12_from-MIDAS_news-sweep.md and
+  55ee66731:AGENTS/MIDAS/analysis/2026-10-12_MIDAS-news-sweep.md resolve cleanly.
+  AGENTS/DEWEY/output/2026-09-27_nano-banc-primary-documents.md keeps explicit
+  historical slash years, while its real forward 11/30/2026 and 1/12/2027
+  claims stay drift candidates at the 2026-10-21 reproduction cutoff.
+  tests: AGENTS/DAEDALUS/scripts/test_firetime_l757.py (controls include dead
+  pointers and historical-tree vs working-tree disagreement).
+Known residue: ambiguous MM/YY/Mon-YY and bare extensionless prose paths
+remain eligible for flags; a flag is a review candidate, not a proved error.
 
 Exit codes: 0 = clean · 1 = flags raised · 2 = usage/docket error (fail loud).
 Run from anywhere (repo root resolved internally, cwd-proof).
@@ -82,7 +96,8 @@ DATE_PATTERNS = [
     (re.compile(r"\b(20\d{2})-(\d{1,2})-(\d{1,2})\b"), "ymd"),
     (re.compile(r"\b([A-Z][a-z]{2})[- ](\d{1,2})-(\d{2})\b"), "mon_d_yy"),
     (re.compile(r"\b([A-Z][a-z]{2})[- ](\d{1,2})\b(?!-)"), "mon_d"),
-    (re.compile(r"\b(\d{1,2})/(\d{1,2})\b(?!\d)"), "m_d"),
+    (re.compile(r"(?<![\d/])(\d{1,2})/(\d{1,2})/((?:20)?\d{2})(?![\d/])"), "m_d_y"),
+    (re.compile(r"(?<![\d/])\b(\d{1,2})/(\d{1,2})\b(?![\d/])"), "m_d"),
 ]
 
 
@@ -96,6 +111,9 @@ def parse_date_token(kind, groups, default_year):
         if kind == "mon_d":
             mon = MONTHS.get(groups[0].lower())
             return dt.date(default_year, mon, int(groups[1])) if mon else None
+        if kind == "m_d_y":
+            year = int(groups[2])
+            return dt.date(year + 2000 if year < 100 else year, int(groups[0]), int(groups[1]))
         if kind == "m_d":
             m, d = int(groups[0]), int(groups[1])
             if 1 <= m <= 12 and 1 <= d <= 31:
@@ -103,6 +121,31 @@ def parse_date_token(kind, groups, default_year):
     except (ValueError, TypeError):
         return None
     return None
+
+
+GIT_ARTIFACT_RE = re.compile(r"^([0-9a-fA-F]{7,40}):(.+)$")
+TEMPLATE_PATH_RE = re.compile(r"(?<![A-Za-z])YYYY-MM-DD(?![A-Za-z])")
+
+
+def _quantity_token(line, match):
+    """Recognize explicit fraction/score grammar, not nearby finance vocabulary.
+
+    Keep bare M/D, MM/YY and Mon-YY ambiguous: flagging is safer than deciding
+    that every bracket or number-adjacent date is a historical period. Each cue
+    must touch this token; it cannot excuse another date elsewhere on the line.
+    """
+    before = re.sub(r"[*`]", "", line[:match.start()])
+    after = re.sub(r"[*`]", "", line[match.end():])
+    return bool(
+        re.match(r"\s+(?:of\b|the size\b)", after, re.I)
+        or re.search(r"\b(?:rate|ratio|score)\s*[:=]\s*$", before, re.I)
+    )
+
+
+def _nonasserted_path(line, start, path):
+    """Literal date placeholder or directly negated path, never a line-wide skip."""
+    return bool(TEMPLATE_PATH_RE.search(path) or
+                re.search(r"\b(?:NOT|never)\s+`?$", line[:start], re.I))
 
 
 # An `artifacts_citing` cell is a LIST, not a filename. Fleet practice joins paths
@@ -235,9 +278,12 @@ def apply_allowlist(rel, flags, allow_rows, today):
     return kept, suppressed
 
 
-def git_time(path):
+def git_time(path, revision=None):
     try:
-        out = subprocess.run(["git", "-C", REPO, "log", "-1", "--format=%ct", "--", path],
+        args = ["git", "-C", REPO, "log", "-1", "--format=%ct"]
+        if revision:
+            args.append(revision)
+        out = subprocess.run(args + ["--", path],
                              capture_output=True, text=True, timeout=10).stdout.strip()
         return int(out) if out else None
     except Exception:
@@ -261,19 +307,23 @@ HOST_RE = re.compile(r"^[\w-]+(?:\.[\w-]+)*\.[A-Za-z]{2,6}$")
 URL_LINE_RE = re.compile(r"https?://|www\.|\b[\w-]+\.(?:gov|com|org|net|edu|io)\b")
 
 
-def extract_repo_paths(text):
-    """Backtick-quoted repo-relative paths with a file extension."""
-    out = set()
-    for tok in re.findall(r"`([^`\n]{4,120})`", text):
-        tok = tok.strip().rstrip(".,;:")
+def _repo_path_occurrences(text):
+    """Backtick-quoted paths plus their offsets; repeated claims stay distinct."""
+    for match in re.finditer(r"`([^`\n]{4,120})`", text):
+        raw = match.group(1)
+        tok = raw.strip().rstrip(".,;:")
         if re.match(r"^[A-Za-z0-9_][\w./-]*\.(md|tsv|py|sh|json|txt|csv)$", tok) and "/" in tok:
             if tok.startswith(("http", "~", "$")):
                 continue
             first = tok.split("/", 1)[0]
             if HOST_RE.match(first) and not os.path.exists(os.path.join(REPO, first)):
                 continue  # external URL written without a scheme
-            out.add(tok)
-    return sorted(out)
+            yield tok, match.start(1) + len(raw) - len(raw.lstrip())
+
+
+def extract_repo_paths(text):
+    """Unique backtick-quoted repo-relative paths with a file extension."""
+    return sorted({path for path, _ in _repo_path_occurrences(text)})
 
 
 def _gitignored(p):
@@ -287,15 +337,29 @@ def _gitignored(p):
 
 
 def check_artifact(path, docket_rows, covered_dates, today):
-    rel = os.path.relpath(path, REPO) if os.path.isabs(path) else path
-    full = path if os.path.isabs(path) else os.path.join(REPO, path)
+    git_ref = GIT_ARTIFACT_RE.fullmatch(path)
+    revision = git_ref.group(1) if git_ref else None
+    artifact_path = git_ref.group(2) if git_ref else path
+    rel = os.path.relpath(artifact_path, REPO) if os.path.isabs(artifact_path) else artifact_path
+    full = artifact_path if os.path.isabs(artifact_path) else os.path.join(REPO, artifact_path)
     flags, infos = [], []
+    if revision:
+        try:
+            result = subprocess.run(["git", "-C", REPO, "cat-file", "blob", path],
+                                    capture_output=True, text=True, timeout=10)
+        except (OSError, subprocess.SubprocessError) as e:
+            return [f"UNREADABLE: Git blob {path}: {e}"], []
+        if result.returncode:
+            return [f"UNREADABLE: Git blob {path}: {result.stderr.strip()}"], []
+        text = result.stdout
+        infos.append("pinned Git blob checked; pointers resolve at the named revision; "
+                     "date drift and current-canon ordering still checked")
     # Target-level lifecycle retry (same class as the cited-pointer fix below,
     # one level up): a DOCKET row cites an artifact; the owner git-mv's it to
     # processed/ (inbox) or delivered/ (outbox) when actioned. Check the moved
     # file rather than flagging UNREADABLE — a missing artifact in NEITHER
     # lifecycle home still fails loud.
-    if not os.path.exists(full):
+    if not revision and not os.path.exists(full):
         head, base = os.path.split(full)
         for sub in ("processed", "delivered"):
             twin = os.path.join(head, sub, base)
@@ -305,10 +369,12 @@ def check_artifact(path, docket_rows, covered_dates, today):
                 full = twin
                 rel = os.path.relpath(twin, REPO)
                 break
-    try:
-        text = open(full, encoding="utf-8", errors="replace").read()
-    except OSError as e:
-        return [f"UNREADABLE: {e}"], []
+    if not revision:
+        try:
+            with open(full, encoding="utf-8", errors="replace") as stream:
+                text = stream.read()
+        except OSError as e:
+            return [f"UNREADABLE: {e}"], []
 
     # 1. Pointer resolution — backticked paths + bare repo-dir-prefixed tokens,
     #    line-by-line so lines that declare a path dead don't flag.
@@ -333,11 +399,26 @@ def check_artifact(path, docket_rows, covered_dates, today):
     _m_sender = re.search(r"from-([A-Z]+)", os.path.basename(full))
     if _m_sender:
         _sender_home = os.path.join(REPO, "AGENTS", _m_sender.group(1))
-        if os.path.isdir(_sender_home) and _sender_home not in bases:
+        if (revision or os.path.isdir(_sender_home)) and _sender_home not in bases:
             bases.append(_sender_home)
 
     def _resolves(p):
-        return any(os.path.exists(os.path.join(b, p)) for b in bases)
+        for b in bases:
+            candidate = os.path.normpath(os.path.join(b, p))
+            if not revision:
+                if os.path.exists(candidate):
+                    return True
+            elif os.path.commonpath([candidate, REPO]) == REPO:
+                target = revision + ":" + os.path.relpath(candidate, REPO)
+                try:
+                    result = subprocess.run(["git", "-C", REPO, "cat-file", "-e", target],
+                                            capture_output=True, timeout=10)
+                except (OSError, subprocess.SubprocessError) as e:
+                    flags.append(f"UNREADABLE: Git pointer {target}: {e}")
+                    return False
+                if result.returncode == 0:
+                    return True
+        return False
 
     # inbox→processed/ / outbox→delivered/ lifecycle (PROME 8/8, class 2, n≥5;
     # delivered/ leg added 8/16 for symmetry with the target-level retry above —
@@ -360,7 +441,9 @@ def check_artifact(path, docket_rows, covered_dates, today):
     for line in text.splitlines():
         if DEAD_OK_RE.search(line):
             continue
-        for p in extract_repo_paths(line):
+        for p, start in _repo_path_occurrences(line):
+            if _nonasserted_path(line, start, p):
+                continue
             if not _resolves(p):
                 if URL_LINE_RE.search(line):
                     continue  # external-host fragment quoted beside its domain (class B)
@@ -371,6 +454,8 @@ def check_artifact(path, docket_rows, covered_dates, today):
                     dead.add(p)
         for m in BARE_PATH_RE.finditer(line):
             tok = m.group(0).rstrip(".,;:/")
+            if _nonasserted_path(line, m.start(), tok):
+                continue
             if any(c in tok for c in "<>{}*$") or tok in dead or tok in moved:
                 continue
             segs = tok.split("/")
@@ -395,7 +480,7 @@ def check_artifact(path, docket_rows, covered_dates, today):
     for p in sorted(dead):
         # A gitignored path (`AGENTS/WALTER/.env`, `WILL/private/`) is local-only by
         # design: absent on a fresh clone or a cloud box, present on Will's. Not rot.
-        if _gitignored(p):
+        if not revision and _gitignored(p):
             infos.append(f"gitignored (local-only, does not travel): `{p}` — not checked here")
             continue
         flags.append(f"DEAD POINTER: `{p}` does not exist")
@@ -414,6 +499,8 @@ def check_artifact(path, docket_rows, covered_dates, today):
                 # immediately before the token is an ID list, not a date claim.
                 # Lowercase prefixes stay live ("pre-7/23" is a real date).
                 if kind == "m_d" and re.search(r"[A-Z]{2,}-$", line[: m.start()]):
+                    continue
+                if kind == "m_d" and _quantity_token(line, m):
                     continue
                 d = parse_date_token(kind, m.groups(), default_year)
                 # Year-boundary roll for bare tokens (no year written): a date
@@ -454,7 +541,7 @@ def check_artifact(path, docket_rows, covered_dates, today):
                                  f"docket row but is near: {names}. VERIFY + full logic re-read.")
 
     # 3. Canon-ordering: artifact older than a canon doc it cites
-    art_t = git_time(rel)
+    art_t = git_time(rel, revision)
     if art_t:
         for p in extract_repo_paths(text):
             if not os.path.exists(os.path.join(REPO, p)):

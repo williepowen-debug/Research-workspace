@@ -1,3 +1,5 @@
+> **November 4 bounded acceptance:** `CREED` marker repair independently discriminates clean/negative fixtures; full clean-current/L5 remains open; current CREED check finds 11 expired ACTIVE KB rows. Evidence and limits: `runs/2026-11-04_CATCHUP_OWNER_READER.md`. This supersedes only the prior marker-test-not-run clause; whole-profile vintage unchanged.
+
 > **2026-11-02 Production Review:** November 2 bounded write-back: owner October 30 rotations, header/selfcheck/intake/calendar and charter repairs supersede corresponding original findings. Independent guard/clean-closeout acceptance still owed; no L5 award. Current map/PR9 govern.
 
 # CREED whole-profile refresh — 2026-10-30

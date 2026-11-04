@@ -22,7 +22,13 @@ cwd-proof (PAT-031). Usage:
     python3 falsification_scan.py                # table, flags first
     python3 falsification_scan.py --tsv          # machine-readable
     python3 falsification_scan.py --agent BRENT  # single agent
+
+Exit codes: 0 no detected findings; 1 candidate findings; 2 invalid invocation.
+Production acceptance: --agent BROCK (Market/no visible rail, rc 1),
+--agent DAEDALUS (Meta/no thesis, rc 0), and --help (usage only, rc 0).
+These cases certify detection/output, not owner rail adequacy or market truth.
 """
+import argparse
 import os, re, sys
 from datetime import date, datetime
 from pathlib import Path
@@ -448,15 +454,15 @@ ORDER = {"STALE-FLAGGED": 0, "UNSTAMPED": 1, "CURRENT": 2, "FROZEN-OK": 3,
          "EVENT-LOG": 4, "DORMANT-SKIP": 5}
 
 
-def main():
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__,
+                                     formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--agent", type=str.upper, help="scan one named directory agent")
+    parser.add_argument("--tsv", action="store_true", help="emit rows and perimeter comments")
+    args = parser.parse_args(argv)
     g = groups()
-    only = None
-    if "--agent" in sys.argv:
-        try:
-            only = sys.argv[sys.argv.index("--agent") + 1].upper()
-        except IndexError:
-            print("🔴 falsification_scan CANNOT-CERTIFY: --agent given with no name (usage: --agent NAME)")
-            return 2
+    only = args.agent
+    if only is not None:
         if only not in g:
             print(f"🔴 falsification_scan CANNOT-CERTIFY: agent {only!r} not in FLEET_DIRECTORY — "
                   f"0 surfaces scanned (a typo here previously produced a clean-looking zero report)")
@@ -498,7 +504,7 @@ def main():
         rows.extend(r)
     rows.sort(key=lambda r: (ORDER.get(r["verdict"], 9), r["agent"], r["surface"]))
 
-    if "--tsv" in sys.argv:
+    if args.tsv:
         print("Agent\tGroup\tSurface\tClass\tVerdict\tStamp\tLiveRef\tAgeDays\tCitedVer\tLiveVer\tWhy")
         for r in rows:
             print(f"{r['agent']}\t{r['group']}\t{r['surface']}\t{r['cls']}\t{r['verdict']}"
@@ -507,6 +513,7 @@ def main():
         # NOT-looked-at layer in BOTH modes (PAT-074; self-audit F15 — this mode previously
         # dropped it, contradicting the docstring). '#'-prefixed = comment rows, parsers skip.
         print(f"# NO-RAIL ({len(no_rail)}): {', '.join(no_rail) or 'none'} — thesis w/o separate rail, candidate findings")
+        print(f"# MARKET-NO-THESIS ({len(market_no_thesis)}): {', '.join(market_no_thesis) or 'none'} — no visible rail, candidate findings; owner judgment required")
         print(f"# NO-THESIS ({len(no_thesis)}): {', '.join(no_thesis) or 'none'} — falsification n/a (utility/meta)")
         print(f"# BANNERED-THESIS ({len(bannered_thesis)}): {', '.join(bannered_thesis) or 'none'} — graded on STATUS clock")
         print(f"# NO-CLOCK ({len(no_clock)}): {', '.join(no_clock) or 'none'} — age comparisons unavailable")
@@ -559,9 +566,10 @@ def main():
                   "or thesis header, so age comparisons are unavailable for them.")
 
     # §9 rc contract (adopted 2026-08-17 self-audit C3 — previously always None/0; exited 0
-    # with 3 STALE-FLAGGED live). Findings = stale/unstamped rows or thesis-without-rail.
+    # with 3 STALE-FLAGGED live). Include both no-visible-rail candidate buckets;
+    # a finding requests judgment and does not establish an absent owner rail.
     flagged = [r for r in rows if r["verdict"] in ("STALE-FLAGGED", "UNSTAMPED")]
-    return 1 if (flagged or no_rail) else 0
+    return 1 if (flagged or no_rail or market_no_thesis) else 0
 
 
 if __name__ == "__main__":

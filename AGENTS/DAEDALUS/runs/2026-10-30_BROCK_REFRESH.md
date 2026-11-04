@@ -1,3 +1,5 @@
+> **November 4 bounded acceptance:** `BROCK` marker repair independently discriminates clean/negative fixtures; full clean-current/L5 remains open. Evidence and limits: `runs/2026-11-04_CATCHUP_OWNER_READER.md`. This supersedes only the prior marker-test-not-run clause; whole-profile vintage unchanged.
+
 > **2026-11-02 Production Review:** November 2 bounded write-back: owner October 30 live ladder/full scoreboard/FROZEN history/EXPECTED_SIGNALS repairs verified at named artifacts. Original corresponding blockers superseded; guard and clean-closeout acceptance still not independently re-run. No L5 promotion. Current map and PR9 record govern.
 
 # BROCK whole-profile refresh — 2026-10-30

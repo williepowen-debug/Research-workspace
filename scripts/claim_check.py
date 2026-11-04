@@ -107,8 +107,9 @@ def _verb_sat(line, m):
 
 
 RE_WEEKDAY_AFTER = re.compile(
-    r"(?<![\w/])(?P<date>" + _NUM_DATE[1:-1] + r")(?P<rng>[-–—]\d{1,2}(?:/\d{1,2})?)?"
-    r"(?:[\s,.\-–—]+\(?|\s*\()" + _DAY_CI + r"\)?(?![A-Za-z])")
+    r"(?<![\w/])(?P<date>(?P<iso>\d{4}-\d{2}-\d{2})|\d{1,2}/\d{1,2}(?:/\d{2,4})?)"
+    r"(?P<rng>[-–—]\d{1,2}(?:/\d{1,2})?)?"
+    r"(?:[\s,.\-–—]+\(?|\s*\()(?(iso)(?(rng)|\s*))" + _DAY_CI + r"\)?(?![A-Za-z])")
 RE_WEEKDAY_MONTH_AFTER = re.compile(
     r"\b" + _MON + _MON_DAY + r"(?:[\s,.\-–—]+\(?|\s*\()" + _DAY_CI + r"\)?(?![A-Za-z])")
 RE_WEEKDAY_MONTH_BEFORE = re.compile(
@@ -238,8 +239,48 @@ def line_years(line):
             if not any(s <= mm.start(1) < e for s, e in iso_year_spans)]
 
 
+# Normalize emphasis only inside isolated ISO-date/weekday pairs. Keep character
+# positions: deleting markup could change YEAR_PROXIMITY for another bare date.
+_ISO_ONLY = r"\d{4}-\d{2}-\d{2}"
+
+
+def _emphasized(token):
+    return rf"(?:\*\*{token}\*\*|__{token}__|\*{token}\*|_{token}_|{token})"
+
+
+_MD_ISO, _MD_DAY = _emphasized(_ISO_ONLY), _emphasized(_DAY_ALT)
+_MD_ISO_PAIRS = (
+    re.compile(rf"(?<![\w/])(?P<date>{_MD_ISO})(?:[\s,.–—-]+\(?|\s*\()"
+               rf"(?P<day>{_MD_DAY})(?![A-Za-z])", re.I),
+    re.compile(rf"(?<![\w/])(?P<day>{_MD_DAY})[\s,.–—-]+"
+               rf"(?P<date>{_MD_ISO})(?![\w/])", re.I),
+)
+
+
+def normalize_iso_emphasis(line):
+    """Mask balanced emphasis around an ISO date or its adjacent weekday only."""
+    chars = list(line)
+    for rx in _MD_ISO_PAIRS:
+        for m in rx.finditer(line):
+            # Range handling remains the existing parser's job, unchanged here.
+            if (re.search(_DAY_ALT + r"[-–—]$", line[:m.start()], re.I)
+                    or re.match(r"[-–—](?:\d|" + _DAY_ALT + r")", line[m.end():], re.I)):
+                continue
+            for name in ("date", "day"):
+                start, end = m.span(name)
+                token = m.group(name)
+                for marker in ("**", "__", "*", "_"):
+                    if token.startswith(marker) and token.endswith(marker):
+                        size = len(marker)
+                        chars[start:start + size] = " " * size
+                        chars[end - size:end] = " " * size
+                        break
+    return "".join(chars)
+
+
 def weekday_flags(rel, n, line, year):
     """All four weekday forms for ONE line. Returns [(rel, n, 'weekday', msg)]."""
+    line = normalize_iso_emphasis(line)
     flags = []
     # A bare "8/6" inherits the year from the NEAREST 4-digit year named on
     # the same line, not from today. Caught on the first live run: DOCKET's

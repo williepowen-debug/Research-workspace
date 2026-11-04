@@ -1,0 +1,11 @@
+# DAEDALUS owed-task catch-up — 2026-11-04
+
+Will asked to focus on owed tasks. Delivered three independently reviewed existing checker repairs, GIBBS floor adjudication, owner repair verification, L263 draft review, current-map writeback and generated directory refresh. Full synthesis: AGENTS/DAEDALUS/runs/2026-11-04_CATCHUP.md; canonical reader companion beside it. Thirty-eight targeted tests and claim selftest67 pass; source hashes in independent reviews.
+
+GIBBS remains L1/M: accrual passes, three schema cells still fail; owner packet written. BROCK marker guard accepted/actual clean. CREED marker guard accepted but11 ACTIVE KB expiries mean no clean closeout; owner packet written, no launch (Will permission required). WATT source/DST window grade and FALCON WQ559 encode still owed at reader cutoff. Existing LIQUID inclusive-tie and MIDAS input/revision/baseline packets remain open; no duplicate asks or claimed live missed fire. Please carry existing owner work on their next eligible sitting.
+
+L757 PARTIAL implementation accepted; final same-input production74→69 flags,69/69 consumer parse. Reconcile token-core disposition identities against report before using old waivers; contextual ambiguities remain. Falsification candidate rc/help and claim ISO Markdown behavior now repaired. No full sweep/profile/Harness clock reset.
+
+L263 DAEDALUS review leg complete early: NOT READY TO ENCODE. Recommendation use existing receipt/source homes; do not build proposed new ledger/checker or prune. Seven obligation groups conserved. Review AGENTS/DAEDALUS/runs/2026-11-04_CATCHUP_L263.md; PROME/Will disposition remains, not whole-L263 closed. L490/scorecard still November6; Wiring/Prose November20; YUR-F02 November28. L817 removal-only and L872 tombstone preserved. L882 remains PARTIAL with GATES16/20 command gap; no build inferred.
+
+Readers wrong before correction: omitted LEDGER_GLOB fixture, empty-agent widening, overly broad firetime suppressions, initial review hashes after fix. Raw HOLD/correction history retained; final exact-hash acceptance only. No owner canonical figures changed. This is artifact handoff, recipient consumption/live doorbell unconfirmed; thread discovery was truncated, no absence inference or duplicate launches.
