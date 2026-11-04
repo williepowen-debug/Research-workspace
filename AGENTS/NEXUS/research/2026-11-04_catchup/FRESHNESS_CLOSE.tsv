@@ -74,3 +74,6 @@ AGENTS/WATT/NEXUS_BRIEF.md	a4b0287af4a6f30db0f81ba964ad4067143fc661	2026-10-29 1
 AGENTS/YURI/NEXUS_BRIEF.md	850427799b3d0bfbd5da3b6b9f9342961477a8d6	2026-11-02 08:55:10 -0500	prior dated owner vintage; see DIGESTS and direct-read record
 AGENTS/ZHAO/NEXUS_BRIEF.md	5e61f3b577e61707db50ba24e4285d7246e9a627	2026-11-02 08:53:43 -0500	prior dated owner vintage; see DIGESTS and direct-read record
 PROME/STATUS.md	a71cf8fb02e79a1702827fe8a13fbc143c6d23c6	2026-11-03 18:37:31 -0500	prior dated owner vintage; see DIGESTS and direct-read record
+# LIGHT publication-tail rescan: all 75 paths checked; newer changes below explicitly deferred unless NEXUS own publication.
+# AGENTS/DAEDALUS/STATUS.md	019881e2b2588b0dfffe9ace926f2e402bcfc5e8	2026-11-04 15:44:23 -0500	NEXUS own publication; other desks deferred, no grade inherited
+# AGENTS/NEXUS/STATUS.md	6a488db98969befc2c43480a251b32c3e4324db9	2026-11-04 15:44:17 -0500	NEXUS own publication; other desks deferred, no grade inherited
