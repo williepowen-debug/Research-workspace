@@ -28,7 +28,7 @@ Trepp office 12.16% then 12.33% meets the registered two-print condition; formal
 - UNG WQ-573: sampled NOAA GFS f000 10 hPa/60N means +3.903807 m/s [November 3 00Z], +1.791158 [November 4 00Z], +1.092857 [12Z]. Positive analyses do not meet <0; unsampled intervals unknown. AEOLUS acceptance/canonical logging remains owed. UNG November 2/3 closes $9.00/$9.13 are below the $10.40 prior-close void. Approved five January 15, 2027 10/12 call spreads retain debit ≤$0.50, maximum loss $256.50, observed reversal by November 12, red day by November 20, entry <$10.40 and every owner guard. Broker quote/fees and current option chain not obtained; no order. Original fallback versus AEOLUS-logged wording still requires owner reconciliation; no alternate fire authority.
 - Reader basis: four changed boot-defining files manually reviewed and current local hashes renewed (basis-review.json). Central READS is STALE at November 2 because dashboard changed November 4; PROME reattestation remains owed. No additional dependency found in reviewed deltas. Root/local CLAUDE rotation warnings remain; no instruction rewrite authorized by catch-up. `python` alias absent; python3/venv available. Complete fleet lifecycle visibility UNKNOWN; no DARK inference or external message.
 - Owed DEWEY 003R/005R queue flags are not blank research gaps. REGINALD L801 and November 1 FFIEC work cover much of 003R: coverage-decline predictor dropped, cohort 7/10, separate November 7 coverage-level test survives. VULCAN L800 and DEWEY November 2 final AMZN XBRL replay overlap 005R; Amazon's $63.753B acquisition/investment/other omission, missing payout tags and mixed accounting remain explicit. Exact numbered-request provenance/residual scope unresolved; neither queue flag auto-closed, dropped or relaunched. WQ-551 FIRM remains deferred.
-- Existing owner grading/reconciliation: LABOR JOLTS/NFP LEG-C/October WARN; ISHM final PMI/ISM/R1, monthly AAR, Emerson and J1; FALCON WQ-559/UKMTO 188/November 4 gate; CREED T-01a/Kernel; FERT DTN table and CF Q3 (November 4 after-close release and November 5 conference not claimed read). NEXUS concurrently records L16 UP/M-07 DOWN in its working STATUS; WALTER's header read is not independent acceptance of the full grade. Route packets do not prove owner completion.
+- Existing owner grading/reconciliation: LABOR JOLTS/NFP LEG-C/October WARN; ISHM L899 survey grade completed November4 with named source exception: ISM55.5, strict<47 NOT-FIRED; S&P final54.9 supersedes flash56.0, rollover NOT-MET, broader-real-demand CANNOT-FIRE. Selective expansion and scores unchanged. Original October final composition access check November6; monthly AAR, Emerson and J1/M3/import pairing remain owed; FALCON WQ-559/UKMTO 188/November 4 gate; CREED T-01a/Kernel; FERT DTN table and CF Q3 (November 4 after-close release and November 5 conference not claimed read). NEXUS concurrently records L16 UP/M-07 DOWN in its working STATUS; WALTER's header read is not independent acceptance of the full grade. Route packets do not prove owner completion.
 - November 2 source gaps survive where not replaced: direct Al Jazeera/QSE originals and neutral Al Mayeda position/damage evidence; CME historical/motive/curve claims; original mortgage recording/Lunar/Vegas videos and selected paywalled primary bodies. ConnectWise's partial recovery was updated in November 4 card 011, not declared complete. New Qeshm/UKMTO evidence is routed, not a whole-theater census. Full Iran sweep still due November 5; bounded anchor update did not reset its clock.
 
 - Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
@@ -44,7 +44,7 @@ None for the completed bounded catch-up. No new approval request. Will's current
 
 ## FOLLOW-UP
 
-1. PROME: catch-up payload publication is proven and all 187 handoffs reconciled; FULL continuity c3fcdcbe2 is published. Owner review priorities are FALCON's existing WQ-559/November 4 gate and CREED's T-01a at its next explicitly authorized session, followed by LABOR/ISHM released-data grades. Reconcile the two DEWEY flags against existing reports; do not duplicate studies. Stale central READS renewal and shared futures diagnostic are in the administrative packet. L907 remains the existing bridge repair.
+1. PROME: catch-up payload publication is proven and all 187 handoffs reconciled; FULL continuity c3fcdcbe2 is published. Owner review priorities are FALCON's existing WQ-559/November 4 gate and CREED's T-01a at its next explicitly authorized session, followed by LABOR released-data grades. ISHM L899 survey completion verified in owner REPORT/NEXUS_BRIEF; retain only its named source exception and separate hard-data/freight carries. Reconcile the two DEWEY flags against existing reports; do not duplicate studies. Stale central READS renewal and shared futures diagnostic are in the administrative packet. L907 remains the existing bridge repair.
 2. November 5: mandatory Iran full sweep and MEMORY/calendar review; claims, Challenger, BoE and NREF under existing owner calendars. November 6: payrolls, L334 predictive leg and WQ-556 C check, STWD/ACRE cohort releases. November 7: Friedberg/coverage-level and reserve/modification breadth pass. Supply dated prediction IDs/sources at the relevant owner's next authorized session per COMPLETION_SPEC; no historical registration sweep.
 3. November 11: Veterans Day HY non-session bridge. Around November 12: staleness sweep; UNG reversal deadline remains November 12. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit and WATT EO 14421 before December 24 remain unchanged.
 4. FLG/REGINALD first reviews are complete; FLG M3 allocation waits for T-02/10-Q, REGINALD filing/cause questions and November 7 detector fix survive. CORAL/other semantic consumption is unproved. Sinokor legal-action, dated Iran answer/Qatar draft and LIQUID October issuance retain normal owner review; no unresolved headline becomes a new commissioned study.
@@ -90,12 +90,12 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publication is not consumption.
+LIGHT closeout with subsequent ISHM owner-result reconciliation. Operational coverage PARTIAL. Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-04T21:16:18Z",
+  "as_of": "2026-11-04T21:25:35Z",
   "next_review": "2026-11-04",
   "publication": [
     {
@@ -172,6 +172,18 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
       {
         "path": "AGENTS/WALTER/research/2026-11-04_reboot/VERIFY-LEADS.md",
         "sha256": "b7f382da09642f7cb1d2d09ffc27de717afb373251193a4e6cbcbf26c5b63185"
+      },
+      {
+        "path": "AGENTS/ISHM/research/2026-11-02_L899/REPORT.md",
+        "sha256": "194a52fc4b625e84d78d572ada1eb1d973e1bd4479fe36d99e3ee19b2c040f97"
+      },
+      {
+        "path": "AGENTS/ISHM/NEXUS_BRIEF.md",
+        "sha256": "6d97f179413fadb78c573fc38fe3b4bf2b79ee4584becfffe3ede80178c6d7c3"
+      },
+      {
+        "path": "AGENTS/ISHM/research/2026-11-02_L899/CLOSEOUT.md",
+        "sha256": "4c37c809775f4b43551b0c71312fd94ce367f2371a749b9ac2367ecd00af9c85"
       }
     ]
   },
@@ -189,7 +201,7 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
     "12(f)": "Five oldest contiguous STATUS rows rotated verbatim; budgets measured by closeout checks.",
     "14": "Full MEMORY narrative deferred under light tier; LAST_COMPLETION is current duty source.",
     "root.retirement": "Retained live source/owner references and uncertain retirement candidates; no deletion sweep.",
-    "15": "Prior duties and approvals preserved; accepted WAL recovery must not restart. Final closeout review hash-bound.",
+    "15": "ISHM user-relayed L899 result checked against owner REPORT, NEXUS_BRIEF, STATUS lead and CLOSEOUT. Broad overdue-survey carry narrowed to exact S&P composition exception (Nov6 check); J1/M3/import/Emerson/rail carries retained. No duplicate dispatch or owner edit. Other prior duties/approvals retained.",
     "16": "Reboot payload9f9212401 committed exact paths; publication deferred. Prior cohorts unchanged.",
     "checks": "Light suite read-cap/archives/weekdays PASS; receipt mismatch corrected and receipt recheck PASS187/201. Ledger nudge reviewed: route/delivery and batch ledgers changed this session; zero kill/fire/correction changes warranted. Central READS UNKNOWN stale attestation; charter rotation warnings carried. checks.json retains original review result; later receipt recheck supersedes mismatch only. Doctor found stale generated BOARD index after7 new cards; regenerated before final check. Final doctor0HIGH/18MED before correcting one taxonomy error:17 retained MED comprise14 pending-publication copies,59 older unconsumed copies and two DEWEY flags. Invalid METALS cluster corrected to existing POSITIONING_VALUATION; index regenerated. Fresh collector healthy; boot basis MATCH28.",
     "Tier1": "Re-pulled core observations unchanged; fresh HANS storage basis in REVIEW; full ID/source gaps inherited explicitly. STATUS refreshed."
