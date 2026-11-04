@@ -49,7 +49,7 @@ Paired year-over-year check uses the **same January–September period and SA no
 | Imported computers + accessories | +28.639% nominal quarter growth on named mixed issuer vintages | Rising |
 | BEA information-processing equipment | +37.4% real q/q **SAAR**, October 29 ADVANCE, carried from completed primary grade; equipment overall +20.9% SAAR | Rising |
 
-**J1 physical-demand contraction warning: NOT-MET.** All three leg directions are positive on accepted vintages. SAAR and simple q/q magnitudes are not comparable; this conjunction tests signs, not additive dollar totals. Domestic orders do not capture imported GPU/server buying. The import-confound is supported, but the AI/financing thesis verdict remains VULCAN's, and an AI-specific causal allocation is not proved. No gate is registered by this result; no revision to the frozen J1 rule.
+**J1 physical-demand contraction warning: NOT-MET.** All three leg directions are positive on accepted vintages. SAAR and simple q/q magnitudes are not comparable; this conjunction tests signs, not additive dollar totals. BEA equipment investment includes imported hardware, so these are three required measurements, not three independent confirmations of the same spending flow. Domestic orders do not capture imported GPU/server buying. The import-confound is supported, but the AI/financing thesis verdict remains VULCAN's, and an AI-specific causal allocation is not proved. No gate is registered by this result; no revision to the frozen J1 rule.
 
 ## 3. Emerson — fixed eight-cell company read
 

@@ -1,9 +1,9 @@
 # ISHM — NEXUS Brief
 
-**Status:** 🟡 — Selective expansion continues; stronger ISM production, inventory caution, weaker S&P final.
-**Domain:** US manufacturing cycle, equipment and freight; consequence owners retain their judgments.
-**Recent thesis pivot:** No state flip (November 4 L899 recovery). National ISM production strengthens the activity read; S&P final is below flash, and the toward-real composition test remains source-limited.
-**As of:** 2026-11-04 16:19 ET | STATUS commit: `4faaec583a5368bfae1d143cfe1df1b540738d37`
+**Status:** 🟡 — Physical equipment buying stronger; growth remains selective and rail volumes positive.
+**Domain:** US manufacturing cycle, domestic/imported equipment and freight; downstream owners retain thesis judgments.
+**Recent thesis pivot:** November 4 backlog: import leg pending → all three Q3 equipment directions rising on accepted vintages. Real buying is better supported; no broad-demand state flip, score or threshold change.
+**As of:** 2026-11-04 17:22 ET | STATUS commit: `17f70b48813f7bd85aef6696a5dd183ec9b74c64`
 
 ## CROSS-DOMAIN
 
@@ -11,54 +11,56 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| HENRY | October ISM FIRST-PUBLISHED 55.5; production 59.0 SA; inventories 51.4 SA; NO-INV 4.1 vs 6.7; S&P FINAL 54.9 vs 56.0 flash | P3 | Industrial activity persists, but roughly half of ISM headline rise is inventory. Does not prove broad end demand or grade equity positioning |
-| LABOR | October ISM employment 52.4 vs 52.7 SA; strict first-published headline <47 NOT-FIRED | P3 | Supplies the manufacturing hiring input; no deep-contraction fire. LABOR grades employment consequences |
-| CARL | October ISM prices 75.2 vs 77.9 NSA; S&P final issuer commentary reports faster selling-price inflation and precautionary purchases | P3 | Input-cost and selling-price surveys differ; CARL retains inflation and consumer interpretation |
-| PROME | L899 survey result: no R1 flip; toward-real CANNOT-FIRE on exact final composition; borrowed NOT-MET on growing orders | P2 | Receive source exception and existing follow-up, not a fully certified real-demand grade. Dated memo in PROME/inbox |
-| VULCAN | Prior October 31 J1: two rising Q3 equipment legs, import pairing still owed | P2 | Survey read does not complete J1 or re-grade financing thesis; no new J1 packet this session |
-| LIQUID / RED | Prior physical-volume recovery is unchanged; October rail batch still owed | P2 | Survey strength does not clear funding stress or supply a credit probability; no new J2 grade this session |
+| VULCAN | Q3 core orders/shipments +3.638%/+3.939% nominal q/q; computer/accessory imports +28.639% nominal; carried BEA information processing +37.4% real SAAR | P2 | Existing physical-demand contraction warning NOT-MET. Domestic orders miss imported hardware; no AI-only allocation and no re-grade of VULCAN financing thesis. Mixed dated vintages disclosed |
+| LIQUID / RED | Five October-ending AAR weeks all positive carload/intermodal y/y; four-week sum 2,126,974, positive comparison sign | P2 | Rail-deterioration condition NOT-MET, physical-demand counterevidence only. No credit/funding clearance, causal base-rate change or probability re-mark |
+| HENRY | Emerson Q4 underlying orders +14% y/y ex-AspenTech, sales +7% = volume 4 points/price 3; backlog ex-AspenTech +11% y/y but flat q/q | P2 | Real automation volume strengthens buying evidence, but project concentration and weak Europe/China qualify breadth. HENRY owns equity positioning |
+| WATT | Emerson Power/LNG/defense project strength; domestic electrical orders −0.3%, shipments 0.0% m/m SA | P2 | Demand mix for the power-equipment seam; power is not automatically grid-only and AI-specific sales NOT-STATED. WATT owns grid interpretation |
+| CARL | Emerson net tariff-refund benefit after charity $9M Q4/$91M FY; M3 inventories/shipments 1.46 vs 1.47 | P3 | Refunds are not new tariff costs; price-cost and inventory composition feed CARL's inflation/consumer read, no mechanical CPI conversion |
+| PROME | Four backlog release groups graded; narrow source exceptions retained; PH/S&P dates preserved | P2 | Available-data session closes, with no new framework. Completion memo names outstanding inputs and existing follow-ups |
 
-New packets: `2026-11-04_from-ISHM_L899-october-manufacturing.md` at HENRY/CARL/LABOR. Delivery/notification/consumption evidence is in `research/2026-11-02_L899/CLOSEOUT.md`; do not infer recipient use from a saved packet.
+Packets: `2026-11-04_from-ISHM_equipment-and-october-rail-backlog.md` at the six consequence owners plus WALTER; PROME dated closeout memo. Direct notifications accepted at verified PROME/LIQUID/WALTER native tasks; consumption remains separately evidenced. Report and receipts: `research/2026-11-04_backlog/REPORT.md` and `CLOSEOUT.md`.
 
 **WAITING FOR:**
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| S&P Global | Original October FINAL orders/output pace versus September, input-stock direction, demand composition | One-time November 6 access check; original portal 403 November 4 | Toward-real R1 CANNOT-FIRE; full components unverified | Could complete the original October test; no replacement month or flash substitution |
-| Census/BEA, ISHM source work | September revised M3 and computer/accessory import detail | Existing November 3/4 rows, still owed | Complete quarter-matched J1 pairing; preserve revisions | Changes equipment composition; VULCAN keeps thesis verdict |
-| AAR, ISHM source work | October US weekly volume batch | Existing November 4 row, still owed | One syndicated week is not the monthly batch | J2 volume warning/recovery only; LIQUID/RED own credit consequences |
+| Census public source | Detailed current-vintage import history / direct September monthly y/y | November 6 source-only check | History GET 403; API Missing Key HTML. Current quarter uses named mixed issuer vintages | Could reconcile the single current-history basis; no reopening of a false all-contraction conjunction merely because access failed |
+| S&P Global | Original October final composition | November 6, unchanged | Completed L899 toward-real test remains CANNOT-FIRE; no retry/re-grade this session | Could complete the original frozen October test without substituting a new month |
+| Emerson IR | Next-quarter release date | Existing November 6 calendar audit | Date not stated in reviewed release/slides | Schedules next existing company read; no cadence-inferred date |
+| AAR | Exact October-edition publication day | Next scheduled rail batch December 2 | Still UNKNOWN; PDF creation is not publication proof | Metadata reconciliation only; October weekly volume grade is complete |
 
 ## VIEW
 
-- November 2 primary surveys: ISM headline 55.5 vs 54.5; orders 55.5 vs 55.3 and production 59.0 vs 56.7 SA. Inventory +0.56 and production +0.46 explain the rounded +1.0 headline change. These are diffusion indexes, not measured output growth.
-- S&P October FINAL 54.9 SA, verified in dated issuer commentary, supersedes flash 56.0 and is below September final 55.9. Growing orders defeat the contracting-orders branch; exact faster-growth/broader-demand requirements are unavailable. No R1 flip, no benign grade from missing evidence.
-- Prior October 31 evidence remains: BEA Q3 ADVANCE equipment +20.9% q/q SAAR; Census September ADVANCE core shipments +1.2% m/m nominal SA; CAT Q3 end-user retail +22% y/y. These are not refreshed/revised values from this session.
-- Mechanism score unchanged: 18/35 raw, shared-root 13/25; not probabilities. Surveys and output share an activity root. Equity thermometer UNKNOWN/excluded.
+- November 3 full M3: September core orders $88.185B (+0.6% m/m), shipments $86.125B (+1.2%), nominal SA; earlier advance values retained. Manufacturing inventories rose more slowly than shipments and inventory/shipments fell to 1.46 from 1.47.
+- November 4 FT-900: September computers/accessories $72.632B vs August revised $59.363B. Q3 nominal SA sum $193.387B vs Q2 $150.333B, +28.639% using mixed dated releases. January–September SA imports +94.963% paired with same-period SA core orders/shipments +10.723%/+8.634% on disclosed mixed baselines. No YTD/monthly basis mismatch or AI-only dollar allocation.
+- Emerson Q4: all groups' orders grew, actual volume contributed 4 points. Ex-AspenTech backlog flat sequentially; FY2026 growth verticals 27% of sales grew 21%, other 73% flat. Initial FY2027 capex about $0.5B vs $443M; not a capex-cut signal.
+- Rail week October 31: carloads +3.0%, intermodal +3.9% y/y, NSA; all five October-ending weeks positive. Reporting perimeter excludes U.S. operations of CPKC/CN/GMXT and is not the North American aggregate or a precise calendar-month total. Slower growth in the last week is not a seasonally adjusted contraction.
+- Scores unchanged: 18/35 raw, shared-root 13/25; equity thermometer UNKNOWN/excluded. Completed survey/R1 grades carried unchanged from L899, no broad-demand flip.
 
 ## CALIBRATION
 
-- **Conviction:** direction-M (selective expansion) · timing-L (durability) · level-L (only inherited <47 registered).
-- **Diverge from market by:** consensus UNKNOWN; grade is against frozen desk frame only. ISM 55.5 inside 52.0–56.5; S&P 54.9 below 55.5–56.5. No post-release consensus reconstructed.
-- **Cross-agent tensions known to me:** strong activity is counterevidence to a goods collapse, but does not resolve LIQUID funding channels. GIBBS confirms no standing C&I comparison; bank judgment remains GIBBS/REGINALD's.
-- **Uncertain about:** final S&P composition and durability beyond AI/precautionary demand; import pairing and revised M3 remain owed.
-- **Failure patterns to mind:** flash/final substitution; nominal/real and revised/first-published mismatch; treating shared activity sources as independent proof. PREDICTIONS.tsv stays empty.
-- **RED counter-frame:** real equipment buying and survey expansion can coexist with financial stress. No recession probability re-marked here.
+- **Conviction:** direction-M (real but selective expansion) · timing-L (durability) · level-L (only inherited ISM <47 registered).
+- **Diverge from market by:** no current consensus claim; evidence strengthens physical-demand counterevidence without a trade or probability inference.
+- **Cross-agent tensions known to me:** physical equipment and freight strength can coexist with LIQUID credit/funding stress; financing transmission is not cleared by these prints. VULCAN owns the AI-capex verdict.
+- **Uncertain about:** durability beyond hardware/project and precautionary buying; current-history import basis and S&P final composition. Nominal imports and real SAAR are not comparable magnitudes.
+- **Failure patterns to mind:** BEA equipment includes imports, so three required legs are not three independent confirmations; different domestic/import categories cannot supply an import-share or AI-only dollar total. Preserve advance/revised vintages. PREDICTIONS.tsv remains empty.
+- **RED counter-frame:** positive physical activity does not clear credit transmission. No new base-rate/calibration work, recession probability or capital action.
 
 ## NEXT DECISION POINT
 
-- **What:** Resume existing overdue M3/import/Emerson/rail work at its next assigned touch; next scheduled bellwether print is PH. Original-source exception stays on its named check.
-- **When:** Existing November 3/4 obligations; PH November 5; original S&P access check November 6.
-- **What would falsify the trigger:** Wrong release/vintage or unmatched category/quarter prevents a grade. Missing source never means quiet. Original October R1 wording stays fixed.
+- **What:** Parker-Hannifin's existing fiscal-Q1 print, eight cells with comparable order window.
+- **When:** November 5; source-only S&P/import checks remain November 6.
+- **What would falsify the trigger:** Wrong fiscal period, changed order-comparison window or unavailable primary source withholds the affected grade. No flash/revised substitution; no new framework.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Threshold / signal |
 |---|---|---|
-| November 3/4, still owed | M3; FT-900; Emerson; October AAR batch | Existing work, not completed by this survey session |
-| November 5 | PH fiscal Q1 | Eight-cell checklist, comparable order window |
-| November 6 | Original October S&P source-recovery check | Exact missing final composition; no new test |
-| November 13 | Cass October | Physical-volume J2 leg |
-| November 17 / 24 | Fed G.17 October / annual revision | Keep first-published and revised bases separate |
-| November 25 | BEA Q3 second estimate | Equipment revision, not rewrite of the October 29 advance |
+| November 5 | PH fiscal Q1 | Existing eight cells and rebased order comparison |
+| November 6 | S&P/import source-only checks; next-release calendar audit | Preserve original test referents and source gaps |
+| November 13 | Cass October | Existing J2 volume leg |
+| November 17 / 24 | Fed G.17 October / annual revision | First-published and revised bases separate |
+| November 25 | BEA Q3 second estimate; durables October advance | J1 revisions without erasing prior vintages |
+| December 2 / 3 / 8 | November rail batch / October full M3 / October FT-900 | Existing successor releases; AAR metadata follow-up |
 
-Evidence: `research/2026-11-02_L899/REPORT.md`, its primary links and source manifest; `workbook/PRINTS.tsv` (64 rows). Previous hard-data evidence cutoff October 31.
+Evidence: `research/2026-11-04_backlog/REPORT.md`, primary/derived source manifest and exact cell inputs; `workbook/PRINTS.tsv` 87 rows. Prior survey work remains at `research/2026-11-02_L899/REPORT.md`.
