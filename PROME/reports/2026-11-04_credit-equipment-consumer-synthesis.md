@@ -4,7 +4,7 @@
 
 ## What changed, and what did not
 
-NEXUS STATUS inspected at this pass still carries its November 4 15:33 analytical cutoff: LIQUID owner grade dated October 30 and ISHM November 2 delivery described as unavailable. Its separately obtained November 3 HY/IG observations were already current; this is an owner-mechanism/counterevidence update, not a claim that all its prices were stale. No later incorporation artifact was identified by the initial targeted read; an existing-owner read-only probe is pending.
+NEXUS STATUS inspected at this pass still carries its November 4 15:33 analytical cutoff: LIQUID owner grade dated October 30 and ISHM November 2 delivery described as unavailable. Its separately obtained November 3 HY/IG observations were already current; this is an owner-mechanism/counterevidence update, not a claim that all its prices were stale. The existing owner confirmed no later incorporation, then completed the bounded reconciliation described below.
 
 | New incorporation | Judgment consequence | Limit retained |
 |---|---|---|
@@ -21,7 +21,7 @@ NEXUS's registered L16/M-07 results, historical 26/41/33 judgment weights and ex
 
 | Existing case | Event versus usable evidence | Assessment from the saved record |
 |---|---|---|
-| Car-Mart | September 9 filing disclosed already constrained originations; October 15 agreement was publicly disclosed October 21; October 21 relief disclosure named a future November 1 expiry. | Good evidence of existing restriction and a forward contractual watch point. Not proof of warning before the financing agreement, actual cash receipt, default on expiry, or an earlier tradable move. |
+| Car-Mart | September 9 filing disclosed already constrained originations; October 15 agreement was publicly disclosed October 21; October 21 relief disclosure named a future November 1 expiry. | The September disclosure was available before the later October agreements and could support a forward borrower-risk watch. The October 25 case read does not establish that the desk used it before those actions or beat the market. Later agreement disclosures explain completed actions; expiry remains a watch point, not proof of cash receipt/default. |
 | First Brands/WAL | February 27 payment failure/March 2 loss decision disclosed March 6; later documents clarified recourse and Q1 accounting. | Mechanism and absorption established retrospectively. No incremental pre-loss public warning established; October reread cannot backdate knowledge. |
 | Arini/Ueno | October 30 report describes sales in recent weeks; November 3 bank announcement follows November 2 resolution. | Confirmation of reported/actual actions, not demonstrated advance warning. Conditional November 5 reopening remains prospective and fund-specific. |
 | Oracle | November 2 pricing precedes expected November 4 settlement. | Access established at pricing; future settlement is not verified cash or a proved leading signal. |
@@ -38,6 +38,6 @@ LIQUID 069 repair remains WITHHELD pending its existing DAEDALUS independent rel
 - LIQUID STATUS/cross-report synthesis at `b2215590e919c4d79ab8b59eaa2b05565c0338e0`; `AGENTS/LIQUID/research/2026-11-04_credit-followthrough/REPORT.md`; October 25 WQ523 Car-Mart and WQ524 First Brands REPORTs; October 30 WQ545 grade; November 4 workbook-sweep packet. These are owner-source reads, not fresh primary retrievals.
 - ISHM `AGENTS/ISHM/research/2026-11-04_backlog/REPORT.md` and final delivery/brief at `921701b561838efe2e4aa43ac85b2dfd723955e7`.
 - WAL `AGENTS/WAL/research/2026-11-04_Q3-independent-extraction.md`, delivery `c557a8770b85394e73c1e99f541646fa32750f64`: complete originals independently checked/extracted by WAL; not repeated here.
-- NEXUS current STATUS read directly, plus existing session closeout. Its owner must incorporate its own current overview; this PROME report does not silently edit that desk or assert recipient consumption.
+- NEXUS current STATUS and `AGENTS/NEXUS/research/2026-11-04_credit-equipment-consumer.md` read directly after owner incorporation. The owner updated its current overview, relevant matrix/chain cells and pending-delivery language; numerical grades and weights remain unchanged.
 
-PROME incorporation is complete at this report. NEXUS owner reconciliation/receipt remains pending until verified at its artifact. No new research, catalog, monitoring cadence, threshold, forecast or trade action.
+PROME incorporation is complete at this report. NEXUS explicitly records its bounded consumer work unit complete at `AGENTS/NEXUS/research/2026-11-04_credit-equipment-consumer.md`; report and current overview were consumed and agree on selective tightening, counterevidence, next observations and source limits. NEXUS publication `1728d40af` verified as an ancestor of `origin/master`; explicit native completion and `PROME/inbox/processed/2026-11-04_from-NEXUS_liquid-ishm-consumed.md` consumed. This closes only the assigned incorporation. No new research, catalog, monitoring cadence, threshold, forecast or trade action.
