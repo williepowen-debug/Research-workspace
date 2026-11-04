@@ -1,3 +1,13 @@
+## Session Notes — current handoff, November 4 2026 (bounded Call Report assignment)
+
+**⚠️ Open question:** complete Q3 FFIEC source remains unavailable; MI3 and bank-level extraction UNCHECKED. The $99M loan separately remains NO-VERDICT after the completed 10/30 10-Q grade.
+
+**LAST SESSION:** Will requested the existing retrieval/extraction and narrow current-summary repairs, then closeout. WALTER's 11/04 retained-source recovery NOT RECOVERED was read and integrated; no full Q3 WAL source found in existing AGENTS/FORGE inventory. Q3 curl/config and header-stdin returned 500; urllib 403. Q2 and reporting-period controls also 500: no inference of Q3 filing absence. Safe receipts and a 70-field missing-input catalog preserved under `sources/ffiec_2026-11-04/`; 45 distinct selected MDRMs survive, but RCON1766 and 54 of 70 named codes are absent even from those extracts (2 are semiannual, not expected at Q3). No Q3 source/ratio/data row fabricated; MI3 data clock unchanged. Configured desktop token expires 11/05 19:02:19 UTC; PROME's 11/01 renewal receipt applies to the laptop (2027-01-31), desktop installation not established. Current NEXUS labels reconciled against the existing 10/30 grade; historical snapshot identified, frozen records and weights unchanged. Result: `research/2026-11-04_Q3-call-report-result.md`.
+
+**NEXT SESSION:**
+1. Source-blocked remainder: complete durable SDF, period 20260930 / RSSD 3138146, with endpoint/format, timestamp, row count and SHA-256. Restore verified retrieval access or accept another desk's full verified source, then independently extract. WQ-31 already owns the desktop credential condition; no duplicate ask.
+2. Other previously carried work remains separate: vector/composite assessment, hotel read and forward Q4 predictions by 11/15. No broader rotation or research program started.
+
 ## Session Notes — current handoff, November 4 2026 (OpenAI Codex)
 
 **⚠️ Open question:** the $99M life-science loan remains NO-VERDICT; Q3 Call Report extraction remains UNCHECKED. Latest boot filer-list request: HTTP 500; FFIEC JWT expires 11/05. No ratio inferred.

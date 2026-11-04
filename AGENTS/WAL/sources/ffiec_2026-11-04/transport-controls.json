@@ -1,0 +1,30 @@
+{
+  "observed_at_utc": "2026-11-04T21:14:39.714654+00:00",
+  "desk": "WAL",
+  "records": [
+    {
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveReportingPeriods",
+      "transport": "curl header-stdin",
+      "attempted_at_utc": "2026-11-04T21:14:39.954925+00:00",
+      "http_status": "500",
+      "curl_rc": 0,
+      "response_bytes": 61,
+      "response_sha256": "7c2747827ff7e6804772f03f984854ce98c7a0d338118b4033478f63fbc23cab",
+      "status": "HTTP_ERROR"
+    },
+    {
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "transport": "curl header-stdin",
+      "attempted_at_utc": "2026-11-04T21:14:40.279122+00:00",
+      "http_status": "500",
+      "curl_rc": 0,
+      "response_bytes": 57,
+      "response_sha256": "855a0091b29400456010f4ff6a39987480e1c6e4a34a1a2c7c75219e15fd9f7f",
+      "period": "2026-09-30",
+      "rssd": 3138146,
+      "format": "SDF",
+      "status": "HTTP_ERROR"
+    }
+  ],
+  "configured_token_expiry_utc": "2026-11-05T19:02:19+00:00"
+}

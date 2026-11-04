@@ -1,0 +1,595 @@
+{
+  "as_of_utc": "2026-11-04T21:15:08.882662+00:00",
+  "status": "UNCHECKED",
+  "entity": "Western Alliance Bank",
+  "rssd": 3138146,
+  "period": "2026-09-30",
+  "complete_source_preserved": false,
+  "WALTER_original_receipt": {
+    "rows": 1792,
+    "sha256": "2e04cc7bf1a78e525a68059c358215c8ce9e3c24c3639d84ea74ccb8d69c60a4",
+    "path": "AGENTS/WALTER/research/2026-10-31_call-report-read/retrieval.json"
+  },
+  "surviving_selected_sources": [
+    {
+      "path": "AGENTS/WALTER/research/2026-10-31_call-report-read/selected-primary-rows.tsv",
+      "sha256": "3f9f37ce2cd3c1c532705b9a9ca1f1ba0098c0092aabd74379308cf40b4ea977",
+      "WAL_Q3_selected_rows": 27
+    },
+    {
+      "path": "AGENTS/WALTER/research/2026-10-31_call-report-read/bridge-primary-rows.tsv",
+      "sha256": "31d8866dd6b821f67184d1cf5e79a39d6db9817a7f1b12b1afd3f35bd3720d2c",
+      "WAL_Q3_selected_rows": 21
+    }
+  ],
+  "distinct_selected_MDRMs": 45,
+  "MI3_denominator_RCON1766_present": false,
+  "required_input_catalog": [
+    {
+      "field": "ndfi_funded_K",
+      "MDRM": "RCONJ454",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_mortgage_K",
+      "MDRM": "RCONPV05",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_business_K",
+      "MDRM": "RCONPV06",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_PE_K",
+      "MDRM": "RCONPV07",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_consumer_K",
+      "MDRM": "RCONPV08",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_other_K",
+      "MDRM": "RCONPV09",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_unused_K",
+      "MDRM": "RCONPV11",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_unused_mortgage_K",
+      "MDRM": "RCONPV12",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_unused_business_K",
+      "MDRM": "RCONPV13",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_unused_PE_K",
+      "MDRM": "RCONPV14",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_unused_consumer_K",
+      "MDRM": "RCONPV15",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_unused_other_K",
+      "MDRM": "RCONPV16",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_PD30_K",
+      "MDRM": "RCONPV23",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_PD90_K",
+      "MDRM": "RCONPV24",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ndfi_nonaccrual_K",
+      "MDRM": "RCONPV25",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "MI3_K",
+      "MDRM": "RCON2746",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "CI_K",
+      "MDRM": "RCON1766",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "loans_total_K",
+      "MDRM": "RCON2122",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "HFI_K",
+      "MDRM": "RCONB528",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "modified_performing_K",
+      "MDRM": "RCONHK25",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "modified_PD30_K",
+      "MDRM": "RCONHK26",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "modified_PD90_K",
+      "MDRM": "RCONHK27",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "modified_nonaccrual_K",
+      "MDRM": "RCONHK28",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "CRE_NOO_modified_performing_K",
+      "MDRM": "RCONK162",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "CRE_NOO_modified_nonaccrual_K",
+      "MDRM": "RCONK119",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "nonaccrual_total_K",
+      "MDRM": "RCON1403",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "PD30_total_K",
+      "MDRM": "RCON1406",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "PD90_total_K",
+      "MDRM": "RCON1407",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "GNMA_PD30_K",
+      "MDRM": "RCONK042",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "GNMA_PD90_K",
+      "MDRM": "RCONK043",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "GNMA_nonaccrual_K",
+      "MDRM": "RCONK044",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "HFS_nonaccrual_K",
+      "MDRM": "RCONC226",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "HFS_PD30_K",
+      "MDRM": "RCONC240",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "HFS_PD90_K",
+      "MDRM": "RCONC241",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "government_nonaccrual_K",
+      "MDRM": "RCONK038",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "nonaccrual_additions_6mo_K",
+      "MDRM": "RCONC410",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "JUNE_DECEMBER_SEMIANNUAL_NOT_EXPECTED_Q3"
+    },
+    {
+      "field": "nonaccrual_sales_6mo_balance_K",
+      "MDRM": "RCONC411",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "JUNE_DECEMBER_SEMIANNUAL_NOT_EXPECTED_Q3"
+    },
+    {
+      "field": "C_and_LD_nonaccrual_K",
+      "MDRM": "RCONF173",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "CRE_NOO_nonaccrual_K",
+      "MDRM": "RCONF183",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ACL_HFI_K",
+      "MDRM": "RIAD3123",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "ACL_offbalance_K",
+      "MDRM": "RCONB557",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "gross_CO_YTD_K",
+      "MDRM": "RIAD4635",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "recoveries_YTD_K",
+      "MDRM": "RIAD4605",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "provision_HFI_YTD_K",
+      "MDRM": "RIAD4230",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "transfers_writedown_YTD_K",
+      "MDRM": "RIAD5523",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "MI3_CO_YTD_K",
+      "MDRM": "RIAD5409",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "MI3_recovery_YTD_K",
+      "MDRM": "RIAD5410",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "mortgage_sales_quarter_K",
+      "MDRM": "RCONFT04",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "mortgage_HFS_trading_K",
+      "MDRM": "RCONFT05",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "mortgage_retail_originations_quarter_K",
+      "MDRM": "RCONHT81",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "mortgage_wholesale_originations_purchases_quarter_K",
+      "MDRM": "RCONHT82",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "mortgage_income_quarter_K",
+      "MDRM": "RIADHT85",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "mortgage_repurchases_quarter_principal_K",
+      "MDRM": "RCONHT86",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "mortgage_warranty_reserves_K",
+      "MDRM": "RCONM288",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "MSA_carrying_K",
+      "MDRM": "RCON3164",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "MSA_FV_K",
+      "MDRM": "RCONA590",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "servicing_no_recourse_UPB_K",
+      "MDRM": "RCONB805",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "servicing_foreclosure_UPB_K",
+      "MDRM": "RCONF699",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "asset_sales_recourse_UPB_K",
+      "MDRM": "RCONB790",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "asset_sales_recourse_max_exposure_K",
+      "MDRM": "RCONB797",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "bank_CET1_K",
+      "MDRM": "RCOAP859",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "bank_RWA_K",
+      "MDRM": "RCOAA223",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "bank_CET1_reported_pct",
+      "MDRM": "RCOAP793",
+      "in_surviving_selected_extracts": true,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "MSA_threshold_deduction_K",
+      "MDRM": "RCOALB59",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "bank_AOCI_K",
+      "MDRM": "RCOAB530",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "AOCI_optout",
+      "MDRM": "RCOAP838",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "SSFA_other_onbalance_exposure_K",
+      "MDRM": "RCONS490",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "SSFA_other_onbalance_RWA_K",
+      "MDRM": "RCONS493",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "SSFA_offbalance_exposure_K",
+      "MDRM": "RCONS495",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    },
+    {
+      "field": "SSFA_offbalance_RWA_K",
+      "MDRM": "RCONS498",
+      "in_surviving_selected_extracts": false,
+      "extraction_status": "UNCHECKED_FULL_DOCUMENT_UNAVAILABLE",
+      "value": null,
+      "applicability": "VERIFY_IN_COMPLETE_Q3_SOURCE"
+    }
+  ],
+  "limits": [
+    "Catalog of missing full-document extraction inputs; not an extraction or reconstruction.",
+    "Selected values are deliberately not promoted to independently extracted results.",
+    "All nulls mean unchecked, not zero.",
+    "RCONC410/RCONC411 are semiannual and not expected at Q3."
+  ]
+}
