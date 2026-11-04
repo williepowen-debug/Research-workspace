@@ -1,0 +1,72 @@
+{
+  "archive": "AGENTS/LIQUID/archive/status_snapshots/STATUS_before-2026-11-04-boot-rotation.md",
+  "archive_crc32": "944dad4c",
+  "moved_blocks": [
+    {
+      "prefix": "**Rated-CCC composition [WQ-516 A, standing line; refresh when the CCC cell is graded]:** ",
+      "bytes": 1097,
+      "crc32": "128bfebb"
+    },
+    {
+      "prefix": "**Flows/deposits [10/19\u201310/23 carried reads]:** ICI week 10/14 MMF assets \u2212$40.46B, govern",
+      "bytes": 388,
+      "crc32": "b9d2f360"
+    },
+    {
+      "prefix": "**Duration/foreign/auctions:** H.15 first-published 10Y 4.99% / 30Y 5.30% [10/27] (10/28 n",
+      "bytes": 674,
+      "crc32": "d792c909"
+    },
+    {
+      "prefix": "**Stablecoin reserves / Binance \u2014 CHK-40 graded by LIQUID 10/30 10:5x ET (CYPHER reads fac",
+      "bytes": 1307,
+      "crc32": "002673ed"
+    },
+    {
+      "prefix": "**Europe [10/29 inbox]:** HANS-F-007: TTF Nov traded >\u20ac100 on 10/28; an official settle ab",
+      "bytes": 332,
+      "crc32": "9d1392d6"
+    },
+    {
+      "prefix": "**Brazil [October26]:**17:35 vendor closes EWZ\u221219.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%,EMB\u22120.",
+      "bytes": 698,
+      "crc32": "0b24e6be"
+    },
+    {
+      "prefix": "**Named financing \u2014 Car-Mart [WQ523,10/25]:** $305,608,825.77 principal at10/14; $5M incre",
+      "bytes": 417,
+      "crc32": "15466317"
+    },
+    {
+      "prefix": "**Historical bank transmission [WQ524, 10/25; study complete, recovery/recourse unresolved",
+      "bytes": 594,
+      "crc32": "b9b4e489"
+    },
+    {
+      "prefix": "**AI/energy [October26 owner review]:** VULCAN primary stages folded: Meta preliminary/una",
+      "bytes": 2599,
+      "crc32": "77b3b991"
+    },
+    {
+      "prefix": "**L818 judgment [10/23; inference corrected10/25]:** mainly repricing; restriction general",
+      "bytes": 401,
+      "crc32": "651c0d70"
+    },
+    {
+      "prefix": "**Rotation 10/25 WQ523:** preimage \u2192 `archive/status_snapshots/STATUS_before-2026-10-25-WQ",
+      "bytes": 217,
+      "crc32": "e0909c72"
+    },
+    {
+      "prefix": "**Credit [FRED ICE first-published (`fred_fetch_vintage`), October 29 observation; pulled ",
+      "bytes": 1537,
+      "crc32": "de9ad0e2"
+    },
+    {
+      "prefix": "**Dealer/settlement [graded 10/29 16:50 ET]:** 076 current window 10/16\u219210/29 reads **MET ",
+      "bytes": 1095,
+      "crc32": "d8aed195"
+    }
+  ],
+  "status_bytes": 22374
+}

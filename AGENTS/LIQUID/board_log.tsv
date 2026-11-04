@@ -689,3 +689,24 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-30T15:40:44-04:00	SIG-W-20261030-004	noted	INBOX_WALTER	LIQUID prome-c5 CFTC-W1 wake 10/30. VIX +5 touch 22.33 (14:28 ET): feeds 076 W3 witness — W3 not met 10/30 intraday (VIX >=20); window grade unchanged MET 2-of-3.
 2026-10-30T15:40:44-04:00	SIG-W-20261030-006	noted	INBOX_WALTER	LIQUID prome-c5 CFTC-W1 wake 10/30. Anthropic post-IPO 'high junk' (FT via Blackstone, body unread): bears on HY-vs-IG buyer base for any Anthropic debt; no spread/issuance figure; VULCAN/BROCK own fundamentals.
 2026-10-30T15:40:44-04:00	SIG-W-20261030-009	info-only	INBOX_WALTER	LIQUID prome-c5 CFTC-W1 wake 10/30. Oyu Tolgoi / China copper claim-only: outside LIQUID plumbing lane (MIDAS).
+2026-11-04T21:05:49+00:00	SIG-W-20261031-002	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261031-007	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261031-009	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261031-011	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261031-012	deferred	INBOX_WALTER	Startup recovery only. Existing-lane substantive follow-through deferred to next authorized touch. STATUS section3 and research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261031-013	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261031-014	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261031-023	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261031-026	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261102-001	deferred	INBOX_WALTER	Startup recovery only. Existing-lane substantive follow-through deferred to next authorized touch. STATUS section3 and research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261102-005	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261102-008	deferred	INBOX_WALTER	Startup recovery only. Existing-lane substantive follow-through deferred to next authorized touch. STATUS section3 and research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261102-013	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261102-014	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261104-001	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261104-021	deferred	INBOX_WALTER	Startup recovery only. Existing-lane substantive follow-through deferred to next authorized touch. STATUS section3 and research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261104-022	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261104-023	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261104-040	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261104-042	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.
+2026-11-04T21:05:49+00:00	SIG-W-20261104-061	noted	INBOX_WALTER	Startup context read. Original source limits retained. No new grade or task. See research/2026-11-04_boot/REPORT.md.

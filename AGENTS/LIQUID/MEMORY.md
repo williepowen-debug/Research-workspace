@@ -2,7 +2,16 @@
 
 ## Session Notes
 
-### CURRENT SESSION — 2026-10-29T14:51–16:55-04:00 (PROME prome-5c catch-up + WQ-545 + Will-approved follow-ups, Will 14:52 ET; Claude Code / Opus 5.5)
+### CURRENT SESSION — 2026-11-04T16:05:39-05:00 (Will startup recovery only, OpenAI/Codex, exact model UNKNOWN)
+
+- Boot receipt: `research/2026-11-04_boot/REPORT.md`. Explicit root/local loading verified. No local AGENTS.md. Pull refused on foreign dirt, fetch succeeded (4 ahead/0 behind at boot), foreign work preserved.
+- Sweep 30 series / 0 errors, selftest PASS. Latest-revised HY340/CCC1316 [11/03], SOFR−IORB+7bp [11/03]. No first-published count or formal gate regrade.
+- WQ534 B shelved/withheld and WQ535 A encoded recovered. X1 CLOSED/DON'T-SIZE. November5 gate reviews next. Exact-boundary L4 defect remains uncorrected, actual market miss unestablished.
+- Startup WALTER intake21, directed follow-through deferred. COR-20261031-02 NO-OP receipt. General inbox2 read for recovery only, not processed. No new research/repair/trade or fleet notification.
+- Resume STATUS §3 and November5 reviews. Older NEXT SESSION dates below are historical and superseded by STATUS/central dated rows.
+
+
+### PRIOR SESSION — 2026-10-29T14:51–16:55-04:00 (PROME prome-5c catch-up + WQ-545 + Will-approved follow-ups, Will 14:52 ET; Claude Code / Opus 5.5)
 
 - **WQ-535 A encoded:** ruled FIRE legs 3/4 letter transcribed byte-identical (scripted compare vs the PROME ruling record) into `workbook/FUNDING_SEIZURE_GATE_SCOPED.md`; old leg 3/4 text and the "FIRE UNGRADEABLE" instructions replaced, not annotated (KB-LIQ-079, REFERENCE_TABLES, CATALYSTS/CALENDAR). L261 closes on the commit.
 - **WQ-534 B:** swap-line script + letter bannered SHELVED — WITHHELD; no code change (selftest rc 0); re-open only on a live European dollar-funding event. L568 RESOLVED.
