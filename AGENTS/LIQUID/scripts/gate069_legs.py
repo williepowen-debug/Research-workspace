@@ -25,6 +25,7 @@ still stretched when HY and all four names omitted the same day.)
 Run `--selftest` (offline) before trusting a change here.
 """
 import sys, argparse
+from decimal import Decimal
 
 CCC_FLAT_BP = 15      # WQ-114 letter: |CCC 5-session change| <= 15bp == "flat"
 CRED_UNDER_BP = 5     # WQ-114 letter: HY OAS widened >= 5bp on the session == "credit underperforming"
@@ -96,7 +97,7 @@ def grade_l4(hy, eq):
     if hprev not in hy:
         return {**base, "faults": [f"HY obs missing for the required previous session {hprev}"]}
     hy_chg = hy[last] - hy[hprev]
-    faults, rows, worst = [], [], None
+    faults, rows, worst, equity_hit = [], [], None, False
     for t in TICK:
         c = eq.get(t)
         if not c:
@@ -106,16 +107,21 @@ def grade_l4(hy, eq):
             faults.append(f"{t} bar missing for {', '.join(miss)}"); continue
         ep = hprev
         chg = (c[last] / c[ep] - 1) * 100
+        # Raw closes are published in cents. Compare their decimal price ratio by
+        # cross multiplication: binary division misses e.g. 2.40 -> 2.04 exactly -15%.
+        equity_hit |= (Decimal(str(c[last])) * 100 <=
+                       Decimal(str(c[ep])) * (100 + Decimal(str(EQ_LINE))))
         rows.append((t, c[last], chg, ep))
         if worst is None or chg < worst[1]:
             worst = (t, chg)
     newer = sorted({d for c in eq.values() if c for d in c if d > last})
     out = {"last": last, "hprev": hprev, "hy_chg": hy_chg, "rows": rows, "faults": faults,
-           "worst": worst, "newer": newer, "cr": hy_chg >= CRED_UNDER_BP}
+           "worst": worst, "newer": newer, "cr": hy_chg >= CRED_UNDER_BP,
+           "eq_hit": equity_hit}
     if faults:
         out["state"] = "INSTRUMENT-FAULT"
     else:
-        out["state"] = "FIRED" if (worst[1] <= EQ_LINE and out["cr"]) else "NOT FIRED"
+        out["state"] = "FIRED" if (equity_hit and out["cr"]) else "NOT FIRED"
     return out
 
 
@@ -162,6 +168,15 @@ def selftest():
     check("one name -16% with HY +5bp same session → FIRED", grade_l4(hy_fire, eq_fire)["state"], "FIRED")
     check("HY +4bp (under the ≥5 line) → NOT FIRED", grade_l4({**hy_fire, "2026-09-25": 277.0}, eq_fire)["state"], "NOT FIRED")
     check("exactly -15.00% is <= -15 → FIRED", grade_l4(hy_fire, {**eq_fire, "CRWV": {**px, "2026-09-25": 90.0 * 0.85}})["state"], "FIRED")
+    # November4 bounded repair: exact equity and credit boundaries together.
+    for close, expected in ((2.03, "FIRED"), (2.04, "FIRED"), (2.05, "NOT FIRED"),
+                            (2.040000000001, "NOT FIRED")):
+        boundary_eq = {t: {D[-2]: 2.40, D[-1]: close if t == "NBIS" else 2.40} for t in TICK}
+        check(f"decimal boundary NBIS 2.40 -> {close}, HY +5", grade_l4(
+            {D[-2]: 273, D[-1]: 278}, boundary_eq)["state"], expected)
+    boundary_eq["NBIS"][D[-1]] = 2.04
+    check("decimal equity boundary with HY +4 is NOT FIRED", grade_l4(
+        {D[-2]: 273, D[-1]: 277}, boundary_eq)["state"], "NOT FIRED")
     # L1
     bb = {d: 230.0 for d in D}; ccc = {d: 800.0 for d in D}
     check("L1: BB 230 + CCC flat → FIRED", grade_l1(bb, ccc)["state"], "FIRED")
@@ -233,7 +248,8 @@ def main():
         if extra: fetch_faults.append(f"UNREQUESTED tickers returned {extra} — identity mismatch")
         for t in TICK:
             if t in px.columns:
-                eq[t] = {d: float(v) for d, v in px[t].dropna().items()}
+                # Restore the letter's as-published 2dp raw closes from vendor float storage.
+                eq[t] = {d: round(float(v), 2) for d, v in px[t].dropna().items()}
     except Exception as e:
         fetch_faults.append(f"fetch failed: {type(e).__name__}")
     g4 = grade_l4(hy, eq)
@@ -251,7 +267,7 @@ def main():
         print(f"         NOT graded. An unmeasured leg is UNMEASURED, never NOT FIRED.")
     else:
         w = g4["worst"]
-        print(f"      worst name: {w[0]} {w[1]:+.2f}%  -> <=-15%? {'YES' if w[1] <= EQ_LINE else 'NO'}")
+        print(f"      worst name: {w[0]} {w[1]:+.2f}%  -> <=-15%? {'YES' if g4['eq_hit'] else 'NO'}")
         print(f"      => L4 {'🔴 FIRED' if g4['state'] == 'FIRED' else '🟢 NOT FIRED'}   (conjunctive)")
     print(f"\n  ↪ L2 CoreWeave 5Y CDS  — graded by scripts/crwv_cds_grade.py (DTCC PPD converted quotes; FIRED 9/26)")
     print(f"  ⛔ L3 AI-infra new-issue concessions — NO_INSTRUMENT (dealer/terminal primary)")

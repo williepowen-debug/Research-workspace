@@ -1,0 +1,480 @@
+{
+  "historical_comparison_from": "2026-09-04",
+  "last": "2026-11-03",
+  "sessions": 43,
+  "changed_actual_results": [],
+  "synthetic_misses_of_2991": 814,
+  "limit": "Retrieved vendor raw historical closes normalized to published cents. Not immutable original seen-price census. Any pre-adoption or missing coverage excluded.",
+  "rows": [
+    {
+      "date": "2026-09-04",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 3,
+      "worst": [
+        "APLD",
+        1.7753763025858849
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-07",
+      "old": "INSTRUMENT-FAULT",
+      "new": "INSTRUMENT-FAULT",
+      "faults": [
+        "2026-09-07 is not a covered NYSE session (calendar 2025-01-02..2027-12-31)"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -1,
+      "worst": [
+        "IREN",
+        5.035810205908686
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-09",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 4,
+      "worst": [
+        "CRWV",
+        -4.898327156165482
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-10",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -1,
+      "worst": [
+        "CRWV",
+        -6.1301874868337825
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-11",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -5,
+      "worst": [
+        "NBIS",
+        -1.560650563324717
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-14",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 6,
+      "worst": [
+        "APLD",
+        -6.964420893262691
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-15",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 5,
+      "worst": [
+        "APLD",
+        -4.7192839707078775
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-16",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -6,
+      "worst": [
+        "NBIS",
+        0.9644596614746481
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-17",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 0,
+      "worst": [
+        "CRWV",
+        -4.163167366526698
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-18",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -2,
+      "worst": [
+        "CRWV",
+        1.852779168753127
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-21",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -2,
+      "worst": [
+        "APLD",
+        0.24893314366998265
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-22",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 2,
+      "worst": [
+        "APLD",
+        1.2415750266051795
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-23",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 5,
+      "worst": [
+        "APLD",
+        -4.590049053959355
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-24",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 7,
+      "worst": [
+        "IREN",
+        -1.9128586609989395
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-25",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 13,
+      "worst": [
+        "IREN",
+        -4.3986998916576425
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-28",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 9,
+      "worst": [
+        "APLD",
+        -6.552380952380943
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-29",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 6,
+      "worst": [
+        "IREN",
+        -0.8149568552253017
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-09-30",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 4,
+      "worst": [
+        "APLD",
+        -4.092876820149549
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-01",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 12,
+      "worst": [
+        "NBIS",
+        -1.5261997625911405
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-02",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -14,
+      "worst": [
+        "CRWV",
+        1.1855029919837445
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-05",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 2,
+      "worst": [
+        "NBIS",
+        -4.217289238499244
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-06",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -9,
+      "worst": [
+        "IREN",
+        1.976284584980248
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-07",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 6,
+      "worst": [
+        "IREN",
+        -6.2742248062015555
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-08",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 6,
+      "worst": [
+        "CRWV",
+        -7.767100056529119
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-09",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -4,
+      "worst": [
+        "IREN",
+        -1.4561747409689296
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-12",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 0,
+      "worst": [
+        "NBIS",
+        -4.980322974623419
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-13",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 5,
+      "worst": [
+        "APLD",
+        -3.483870967741931
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-14",
+      "old": "FIRED",
+      "new": "FIRED",
+      "hy_change": 9,
+      "worst": [
+        "CRWV",
+        -15.460737694383752
+      ],
+      "equity_hit": true
+    },
+    {
+      "date": "2026-10-15",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -2,
+      "worst": [
+        "IREN",
+        -0.5562827225130795
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-16",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 8,
+      "worst": [
+        "NBIS",
+        -12.175574544875534
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-19",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -2,
+      "worst": [
+        "CRWV",
+        -0.43981104414400063
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-20",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 4,
+      "worst": [
+        "IREN",
+        -4.002884962134868
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-21",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -6,
+      "worst": [
+        "CRWV",
+        -0.49895380653468546
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-22",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 13,
+      "worst": [
+        "CRWV",
+        -10.061468780329985
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-23",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -2,
+      "worst": [
+        "APLD",
+        -4.400209533787325
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-26",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -8,
+      "worst": [
+        "NBIS",
+        -3.4458863550459906
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-27",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -12,
+      "worst": [
+        "IREN",
+        7.9040503342509005
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-28",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -4,
+      "worst": [
+        "APLD",
+        4.510507432086097
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-29",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 12,
+      "worst": [
+        "IREN",
+        -8.98058252427184
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-10-30",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": 18,
+      "worst": [
+        "NBIS",
+        -10.378510378510386
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-11-02",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -1,
+      "worst": [
+        "APLD",
+        -8.978675645342316
+      ],
+      "equity_hit": false
+    },
+    {
+      "date": "2026-11-03",
+      "old": "NOT FIRED",
+      "new": "NOT FIRED",
+      "hy_change": -3,
+      "worst": [
+        "CRWV",
+        7.158524426719848
+      ],
+      "equity_hit": false
+    }
+  ]
+}

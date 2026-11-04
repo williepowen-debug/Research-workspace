@@ -1,0 +1,28 @@
+  ✓ complete data: -10%/+3bp → NOT FIRED: got ('NOT FIRED', -10.0, 3.0), want ('NOT FIRED', -10.0, 3.0)
+  ✓ CATO: CCC missing 9/24 cannot stretch the L4 session: got ('NOT FIRED', '2026-09-24'), want ('NOT FIRED', '2026-09-24')
+  ✓ HY obs missing on the required prev session → INSTRUMENT-FAULT (never a stretched grade): got ('INSTRUMENT-FAULT', True), want ('INSTRUMENT-FAULT', True)
+  ✓ CATO rd 2: HY + all equities omit 9/24 → INSTRUMENT-FAULT, not a -19%/+6bp fire: got 'INSTRUMENT-FAULT', want 'INSTRUMENT-FAULT'
+  ✓ weekend: prev session of Mon 2026-09-28 is Fri 2026-09-25: got '2026-09-25', want '2026-09-25'
+  ✓ holiday: prev session of Tue 2026-09-08 is Fri 2026-09-04 (Labor Day 9/7): got '2026-09-04', want '2026-09-04'
+  ✓ Good Friday: prev session of Mon 2026-04-06 is Thu 2026-04-02: got '2026-04-02', want '2026-04-02'
+  ✓ weekend pair graded normally (Fri→Mon, -10%/+6bp → NOT FIRED): got ('NOT FIRED', '2026-09-25'), want ('NOT FIRED', '2026-09-25')
+  ✓ outside the covered calendar → INSTRUMENT-FAULT: got 'INSTRUMENT-FAULT', want 'INSTRUMENT-FAULT'
+  ✓ equity bar missing on the session → INSTRUMENT-FAULT: got 'INSTRUMENT-FAULT', want 'INSTRUMENT-FAULT'
+  ✓ one name -16% with HY +5bp same session → FIRED: got 'FIRED', want 'FIRED'
+  ✓ HY +4bp (under the ≥5 line) → NOT FIRED: got 'NOT FIRED', want 'NOT FIRED'
+  ✓ exactly -15.00% is <= -15 → FIRED: got 'FIRED', want 'FIRED'
+  ✓ decimal boundary NBIS 2.40 -> 2.03, HY +5: got 'FIRED', want 'FIRED'
+  ✓ decimal boundary NBIS 2.40 -> 2.04, HY +5: got 'FIRED', want 'FIRED'
+  ✓ decimal boundary NBIS 2.40 -> 2.05, HY +5: got 'NOT FIRED', want 'NOT FIRED'
+  ✓ decimal boundary NBIS 2.40 -> 2.040000000001, HY +5: got 'NOT FIRED', want 'NOT FIRED'
+  ✓ decimal equity boundary with HY +4 is NOT FIRED: got 'NOT FIRED', want 'NOT FIRED'
+  ✓ L1: BB 230 + CCC flat → FIRED: got 'FIRED', want 'FIRED'
+  ✓ L1: CCC +16 over 5 sessions → NOT FIRED: got 'NOT FIRED', want 'NOT FIRED'
+  ✓ L1: CCC latest date missing → FAULT, not a stale-date grade: got 'INSTRUMENT-FAULT', want 'INSTRUMENT-FAULT'
+  ✓ L1: CCC gap mid-window uses CCC's own 6th-latest obs: got '2026-09-17', want '2026-09-17'
+  ✓ tie: BB published 2.20 (=220bp) does NOT meet strict >220: got 'NOT FIRED', want 'NOT FIRED'
+  ✓ tie: BB published 2.21 meets >220: got 'FIRED', want 'FIRED'
+  ✓ tie: CCC 5-session change of exactly 15bp IS flat (<=): got True, want True
+  ✓ tie: HY 2.50 → 2.55 (+5bp exactly) IS credit underperforming (>=): got True, want True
+
+  SELFTEST: PASS
