@@ -2,6 +2,8 @@
 
 > **Review 2026-10-19, Will-directed sweep:** ES04 refreshed on NY Fed latest-returned data through10/7:$121.178Bdeliver fails,currentYconditionNOT MET/run0. September two-weekY-shaped sequence is a retrospective latest-revised witness,not certified first-publication fire evidence;see log. ES01/02/03/05not newly graded. Old July/August standing reads below are history,not current absence evidence. Sponsored volume/MMF WAM/offshore basis remain unmeasured;no band/operator changed.
 
+> **November 4 workbook audit — definition/source limits, not fresh grades:** ES-LIQ-01's “advance rate >75% / >85%” has no recoverable denominator in this row or its legacy source. Do not substitute aggregate advance growth, outstanding dollars or a collateral advance rate by assumption. ES-LIQ-05's literal `>−60 / >−75 / >−100` inequalities require clarification against the intended negative-basis stress direction; no source is measured and no operator is changed here. Neither row supports a current fire/non-fire from these incomplete definitions. ES02 remains SOURCE-UNVERIFIED, ES03 unchecked, and the last saved ES04 read is October 19/as-of October 7. Unmeasured is not absent. Existing unresolved-definition intake → STATUS§3 / November 4 workbook audit.
+
 **Born:** 2026-07-11 (DAEDALUS Batch-1 ask-8, Will-approved; PROME first-class-slot packet 7/10 — executed 7/11) · **Owner:** LIQUID
 **Purpose:** Re-homes the 5 signal-types orphaned when `archive/legacy/EXPECTED_SIGNALS.md` was stranded (`4894d8cc`; sibling-drift vs LABOR/SAM, DAEDALUS 7/4). These are signals that **SHOULD appear if the stress thesis is transmitting** — their **absence is information** (transmission blocked, timing wrong, or thesis leg weak). The other 7 of the legacy file's 12 types are covered by live STATUS Triggers; do not duplicate them here.
 
@@ -51,6 +53,8 @@
 ---
 
 ## Response protocol (any band fires)
+
+**Routing clarification:** every market/signal alert in this protocol goes through WALTER under root routing canon. Recipient names below are WALTER destinations; this is not authority for LIQUID to route signals around WALTER. Source-unverified or definition-incomplete rows require their existing validation before a fire can be claimed.
 
 1. **Y:** log here + STATUS Open Monitors row; no routing.
 2. **O:** route — ES-01 → REGINALD; ES-02/03/04 → check the basis-trade unwind cluster together (they are one cascade: MMF pulls → sponsored repo shrinks → FTDs spike), alert PROME + HENRY; ES-05 → SAM.

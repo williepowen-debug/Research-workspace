@@ -2,6 +2,8 @@
 
 > **Current-state navigation 2026-10-14T14:38:55.053387-04:00:** ARM state lives in STATUS§2; July readings below are historical. October14 compared first-published SOFR99/IORB with latest-revised on the returnedAugust20–October13 window, with no differences; this does not complete a full-history revision census. FIRE legs 3/4 banded under WQ-535 A (2026-10-29; letter in § scoped fire spec); FIRE gradeable on ARMED non-calendar days. No registered condition changes.
 
+> **November 4 workbook navigation:** the July 20 “FP backtest still owed” paragraph and DEWEY ~20% table below are historical stages, superseded by this file's July 23 independent backtest. Do not reopen that completed backtest or cite the superseded percentage. Current operative FIRE bands are the WQ-535 A text in § scoped fire spec; n=1 remains a limitation, not validation. STATUS§§2–3 own current state, pending published observations and remaining duties. No calibration, threshold, calendar exclusion or consequence changed.
+
 **Registered:** 2026-07-17 (LIQUID) · **KB:** KB-LIQ-079 (supersedes KB-LIQ-074 CANDIDATE) · **Status:** ✅ **SIGNED OFF WITH RIDERS — BROCK 2026-07-20** (`inbox/processed/2026-07-20_from-BROCK_gate-liq-079-x1-signoff.md`). X1-semantics interface CLOSED; riders R1–R4 folded into §Interface below and binding on this spec. Also retires the KB-LIQ-074 sign-off chase. **Not armed** at sign-off (SOFR99−IORB +5bp [7/16], 25bp under the +30 line) — definitional, not live.
 **Input:** DEWEY 07b calibration `AGENTS/DEWEY/output/2026-07-16_funding-gate-calibration.md` (closes the 7/09 parent's two declared gaps: episode generalization + false-positive rate) + parent `2026-07-09_funding-seizure-x1-gate.md`.
 

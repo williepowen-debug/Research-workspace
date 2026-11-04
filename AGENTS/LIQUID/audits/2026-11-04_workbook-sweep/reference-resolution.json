@@ -1,0 +1,491 @@
+[
+  {
+    "file": "DEALER_POSITIONING_NEXUS_WATCH.md",
+    "line": 22,
+    "reference": "CPI_20260714_CREDIT_PREREG.md",
+    "basename_matches": [
+      "AGENTS/LIQUID/archive/CPI_20260714_CREDIT_PREREG.md"
+    ]
+  },
+  {
+    "file": "DEALER_POSITIONING_NEXUS_WATCH.md",
+    "line": 56,
+    "reference": "boot.py",
+    "basename_matches": [
+      "AGENTS/YEYOU/scripts/boot.py",
+      "AGENTS/VULCAN/boot.py",
+      "AGENTS/LABOR/scripts/boot.py",
+      "AGENTS/CORAL/scripts/boot.py",
+      "AGENTS/HAWK/scripts/boot.py",
+      "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "AGENTS/VIOLET/scripts/boot.py",
+      "AGENTS/LIQUID/scripts/boot.py",
+      "AGENTS/REGINALD/scripts/boot.py",
+      "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "AGENTS/HENRY/scripts/boot.py",
+      "AGENTS/CARL/scripts/boot.py",
+      "AGENTS/GIBBS/boot.py",
+      "AGENTS/YURI/scripts/boot.py",
+      "AGENTS/CYPHER/boot.py",
+      "AGENTS/ZHAO/scripts/boot.py",
+      "AGENTS/TERRY/scripts/boot.py",
+      "AGENTS/WAL/scripts/boot.py",
+      "AGENTS/OTTO/scripts/boot.py",
+      "AGENTS/HANS/scripts/boot.py",
+      "AGENTS/WATT/boot.py",
+      "AGENTS/MARCO/scripts/boot.py",
+      "AGENTS/FERT/boot.py",
+      "AGENTS/ISHM/boot.py",
+      "AGENTS/OZK/scripts/boot.py",
+      "AGENTS/MIDAS/boot.py",
+      "AGENTS/RED/scripts/boot.py",
+      "AGENTS/BRENT/archive/2026-09-08_cleanup/scripts/boot.py",
+      "AGENTS/BRENT/scripts/boot.py",
+      "AGENTS/FLG/boot.py",
+      "AGENTS/CREED/scripts/boot.py",
+      "AGENTS/SAM/scripts/boot.py"
+    ]
+  },
+  {
+    "file": "DEALER_POSITIONING_NEXUS_WATCH.md",
+    "line": 156,
+    "reference": "cftc_tff_rates.py",
+    "basename_matches": [
+      "AGENTS/LIQUID/scripts/cftc_tff_rates.py"
+    ]
+  },
+  {
+    "file": "DEALER_POSITIONING_NEXUS_WATCH.md",
+    "line": 200,
+    "reference": "fr2004_fetch.py",
+    "basename_matches": [
+      "AGENTS/BOND/monitors/fr2004_fetch.py"
+    ]
+  },
+  {
+    "file": "DECOUPLING_TESTS_VIX_HY_2026-08-10.md",
+    "line": 9,
+    "reference": "03_LIQUID_falsifiers.md",
+    "basename_matches": [
+      "FORUM/2026-08-10_financial-conditions/03_falsifiers/03_LIQUID_falsifiers.md"
+    ]
+  },
+  {
+    "file": "DECOUPLING_TESTS_VIX_HY_2026-08-10.md",
+    "line": 9,
+    "reference": "01_HENRY_falsifiers.md",
+    "basename_matches": [
+      "FORUM/2026-08-10_financial-conditions/03_falsifiers/01_HENRY_falsifiers.md"
+    ]
+  },
+  {
+    "file": "DECOUPLING_TESTS_VIX_HY_2026-08-10.md",
+    "line": 9,
+    "reference": "01_HENRY_falsifiers.md",
+    "basename_matches": [
+      "FORUM/2026-08-10_financial-conditions/03_falsifiers/01_HENRY_falsifiers.md"
+    ]
+  },
+  {
+    "file": "DECOUPLING_TESTS_VIX_HY_2026-08-10.md",
+    "line": 9,
+    "reference": "04_synthesis/03_LIQUID_concur-dissent.md",
+    "basename_matches": [
+      "FORUM/2026-08-10_financial-conditions/04_synthesis/03_LIQUID_concur-dissent.md"
+    ]
+  },
+  {
+    "file": "EXPECTED_SIGNALS_TRACKER.md",
+    "line": 45,
+    "reference": "fr2004_fetch.py",
+    "basename_matches": [
+      "AGENTS/BOND/monitors/fr2004_fetch.py"
+    ]
+  },
+  {
+    "file": "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "line": 6,
+    "reference": "2026-07-09_funding-seizure-x1-gate.md",
+    "basename_matches": [
+      "AGENTS/DEWEY/output/2026-07-09_funding-seizure-x1-gate.md"
+    ]
+  },
+  {
+    "file": "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "line": 42,
+    "reference": "boot.py",
+    "basename_matches": [
+      "AGENTS/YEYOU/scripts/boot.py",
+      "AGENTS/VULCAN/boot.py",
+      "AGENTS/LABOR/scripts/boot.py",
+      "AGENTS/CORAL/scripts/boot.py",
+      "AGENTS/HAWK/scripts/boot.py",
+      "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "AGENTS/VIOLET/scripts/boot.py",
+      "AGENTS/LIQUID/scripts/boot.py",
+      "AGENTS/REGINALD/scripts/boot.py",
+      "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "AGENTS/HENRY/scripts/boot.py",
+      "AGENTS/CARL/scripts/boot.py",
+      "AGENTS/GIBBS/boot.py",
+      "AGENTS/YURI/scripts/boot.py",
+      "AGENTS/CYPHER/boot.py",
+      "AGENTS/ZHAO/scripts/boot.py",
+      "AGENTS/TERRY/scripts/boot.py",
+      "AGENTS/WAL/scripts/boot.py",
+      "AGENTS/OTTO/scripts/boot.py",
+      "AGENTS/HANS/scripts/boot.py",
+      "AGENTS/WATT/boot.py",
+      "AGENTS/MARCO/scripts/boot.py",
+      "AGENTS/FERT/boot.py",
+      "AGENTS/ISHM/boot.py",
+      "AGENTS/OZK/scripts/boot.py",
+      "AGENTS/MIDAS/boot.py",
+      "AGENTS/RED/scripts/boot.py",
+      "AGENTS/BRENT/archive/2026-09-08_cleanup/scripts/boot.py",
+      "AGENTS/BRENT/scripts/boot.py",
+      "AGENTS/FLG/boot.py",
+      "AGENTS/CREED/scripts/boot.py",
+      "AGENTS/SAM/scripts/boot.py"
+    ]
+  },
+  {
+    "file": "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "line": 46,
+    "reference": "boot.py",
+    "basename_matches": [
+      "AGENTS/YEYOU/scripts/boot.py",
+      "AGENTS/VULCAN/boot.py",
+      "AGENTS/LABOR/scripts/boot.py",
+      "AGENTS/CORAL/scripts/boot.py",
+      "AGENTS/HAWK/scripts/boot.py",
+      "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "AGENTS/VIOLET/scripts/boot.py",
+      "AGENTS/LIQUID/scripts/boot.py",
+      "AGENTS/REGINALD/scripts/boot.py",
+      "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "AGENTS/HENRY/scripts/boot.py",
+      "AGENTS/CARL/scripts/boot.py",
+      "AGENTS/GIBBS/boot.py",
+      "AGENTS/YURI/scripts/boot.py",
+      "AGENTS/CYPHER/boot.py",
+      "AGENTS/ZHAO/scripts/boot.py",
+      "AGENTS/TERRY/scripts/boot.py",
+      "AGENTS/WAL/scripts/boot.py",
+      "AGENTS/OTTO/scripts/boot.py",
+      "AGENTS/HANS/scripts/boot.py",
+      "AGENTS/WATT/boot.py",
+      "AGENTS/MARCO/scripts/boot.py",
+      "AGENTS/FERT/boot.py",
+      "AGENTS/ISHM/boot.py",
+      "AGENTS/OZK/scripts/boot.py",
+      "AGENTS/MIDAS/boot.py",
+      "AGENTS/RED/scripts/boot.py",
+      "AGENTS/BRENT/archive/2026-09-08_cleanup/scripts/boot.py",
+      "AGENTS/BRENT/scripts/boot.py",
+      "AGENTS/FLG/boot.py",
+      "AGENTS/CREED/scripts/boot.py",
+      "AGENTS/SAM/scripts/boot.py"
+    ]
+  },
+  {
+    "file": "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "line": 46,
+    "reference": "transmission_check.py",
+    "basename_matches": [
+      "AGENTS/LIQUID/scripts/transmission_check.py"
+    ]
+  },
+  {
+    "file": "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "line": 46,
+    "reference": "fp_backtest_079.py",
+    "basename_matches": [
+      "AGENTS/LIQUID/scripts/fp_backtest_079.py"
+    ]
+  },
+  {
+    "file": "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "line": 47,
+    "reference": "gate069_legs.py",
+    "basename_matches": [
+      "AGENTS/LIQUID/scripts/gate069_legs.py"
+    ]
+  },
+  {
+    "file": "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "line": 154,
+    "reference": "ofr_stfm.py",
+    "basename_matches": [
+      "AGENTS/DEWEY/scripts/ofr_stfm.py"
+    ]
+  },
+  {
+    "file": "FUNDING_SEIZURE_GATE_SCOPED.md",
+    "line": 157,
+    "reference": "ofr_stfm.py",
+    "basename_matches": [
+      "AGENTS/DEWEY/scripts/ofr_stfm.py"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 18,
+    "reference": "03_LIQUID_desk-state.md",
+    "basename_matches": [
+      "FORUM/2026-08-10_financial-conditions/01_desk-state/03_LIQUID_desk-state.md"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 18,
+    "reference": "04_synthesis/01_HENRY_joint-synthesis.md",
+    "basename_matches": [
+      "FORUM/2026-08-10_financial-conditions/04_synthesis/01_HENRY_joint-synthesis.md"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 31,
+    "reference": "04_synthesis/01_HENRY_joint-synthesis.md",
+    "basename_matches": [
+      "FORUM/2026-08-10_financial-conditions/04_synthesis/01_HENRY_joint-synthesis.md"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 50,
+    "reference": "boot.py",
+    "basename_matches": [
+      "AGENTS/YEYOU/scripts/boot.py",
+      "AGENTS/VULCAN/boot.py",
+      "AGENTS/LABOR/scripts/boot.py",
+      "AGENTS/CORAL/scripts/boot.py",
+      "AGENTS/HAWK/scripts/boot.py",
+      "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "AGENTS/VIOLET/scripts/boot.py",
+      "AGENTS/LIQUID/scripts/boot.py",
+      "AGENTS/REGINALD/scripts/boot.py",
+      "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "AGENTS/HENRY/scripts/boot.py",
+      "AGENTS/CARL/scripts/boot.py",
+      "AGENTS/GIBBS/boot.py",
+      "AGENTS/YURI/scripts/boot.py",
+      "AGENTS/CYPHER/boot.py",
+      "AGENTS/ZHAO/scripts/boot.py",
+      "AGENTS/TERRY/scripts/boot.py",
+      "AGENTS/WAL/scripts/boot.py",
+      "AGENTS/OTTO/scripts/boot.py",
+      "AGENTS/HANS/scripts/boot.py",
+      "AGENTS/WATT/boot.py",
+      "AGENTS/MARCO/scripts/boot.py",
+      "AGENTS/FERT/boot.py",
+      "AGENTS/ISHM/boot.py",
+      "AGENTS/OZK/scripts/boot.py",
+      "AGENTS/MIDAS/boot.py",
+      "AGENTS/RED/scripts/boot.py",
+      "AGENTS/BRENT/archive/2026-09-08_cleanup/scripts/boot.py",
+      "AGENTS/BRENT/scripts/boot.py",
+      "AGENTS/FLG/boot.py",
+      "AGENTS/CREED/scripts/boot.py",
+      "AGENTS/SAM/scripts/boot.py"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 63,
+    "reference": "boot.py",
+    "basename_matches": [
+      "AGENTS/YEYOU/scripts/boot.py",
+      "AGENTS/VULCAN/boot.py",
+      "AGENTS/LABOR/scripts/boot.py",
+      "AGENTS/CORAL/scripts/boot.py",
+      "AGENTS/HAWK/scripts/boot.py",
+      "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "AGENTS/VIOLET/scripts/boot.py",
+      "AGENTS/LIQUID/scripts/boot.py",
+      "AGENTS/REGINALD/scripts/boot.py",
+      "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "AGENTS/HENRY/scripts/boot.py",
+      "AGENTS/CARL/scripts/boot.py",
+      "AGENTS/GIBBS/boot.py",
+      "AGENTS/YURI/scripts/boot.py",
+      "AGENTS/CYPHER/boot.py",
+      "AGENTS/ZHAO/scripts/boot.py",
+      "AGENTS/TERRY/scripts/boot.py",
+      "AGENTS/WAL/scripts/boot.py",
+      "AGENTS/OTTO/scripts/boot.py",
+      "AGENTS/HANS/scripts/boot.py",
+      "AGENTS/WATT/boot.py",
+      "AGENTS/MARCO/scripts/boot.py",
+      "AGENTS/FERT/boot.py",
+      "AGENTS/ISHM/boot.py",
+      "AGENTS/OZK/scripts/boot.py",
+      "AGENTS/MIDAS/boot.py",
+      "AGENTS/RED/scripts/boot.py",
+      "AGENTS/BRENT/archive/2026-09-08_cleanup/scripts/boot.py",
+      "AGENTS/BRENT/scripts/boot.py",
+      "AGENTS/FLG/boot.py",
+      "AGENTS/CREED/scripts/boot.py",
+      "AGENTS/SAM/scripts/boot.py"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 72,
+    "reference": "boot.py",
+    "basename_matches": [
+      "AGENTS/YEYOU/scripts/boot.py",
+      "AGENTS/VULCAN/boot.py",
+      "AGENTS/LABOR/scripts/boot.py",
+      "AGENTS/CORAL/scripts/boot.py",
+      "AGENTS/HAWK/scripts/boot.py",
+      "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "AGENTS/VIOLET/scripts/boot.py",
+      "AGENTS/LIQUID/scripts/boot.py",
+      "AGENTS/REGINALD/scripts/boot.py",
+      "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "AGENTS/HENRY/scripts/boot.py",
+      "AGENTS/CARL/scripts/boot.py",
+      "AGENTS/GIBBS/boot.py",
+      "AGENTS/YURI/scripts/boot.py",
+      "AGENTS/CYPHER/boot.py",
+      "AGENTS/ZHAO/scripts/boot.py",
+      "AGENTS/TERRY/scripts/boot.py",
+      "AGENTS/WAL/scripts/boot.py",
+      "AGENTS/OTTO/scripts/boot.py",
+      "AGENTS/HANS/scripts/boot.py",
+      "AGENTS/WATT/boot.py",
+      "AGENTS/MARCO/scripts/boot.py",
+      "AGENTS/FERT/boot.py",
+      "AGENTS/ISHM/boot.py",
+      "AGENTS/OZK/scripts/boot.py",
+      "AGENTS/MIDAS/boot.py",
+      "AGENTS/RED/scripts/boot.py",
+      "AGENTS/BRENT/archive/2026-09-08_cleanup/scripts/boot.py",
+      "AGENTS/BRENT/scripts/boot.py",
+      "AGENTS/FLG/boot.py",
+      "AGENTS/CREED/scripts/boot.py",
+      "AGENTS/SAM/scripts/boot.py"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 72,
+    "reference": "boot.py",
+    "basename_matches": [
+      "AGENTS/YEYOU/scripts/boot.py",
+      "AGENTS/VULCAN/boot.py",
+      "AGENTS/LABOR/scripts/boot.py",
+      "AGENTS/CORAL/scripts/boot.py",
+      "AGENTS/HAWK/scripts/boot.py",
+      "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "AGENTS/VIOLET/scripts/boot.py",
+      "AGENTS/LIQUID/scripts/boot.py",
+      "AGENTS/REGINALD/scripts/boot.py",
+      "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "AGENTS/HENRY/scripts/boot.py",
+      "AGENTS/CARL/scripts/boot.py",
+      "AGENTS/GIBBS/boot.py",
+      "AGENTS/YURI/scripts/boot.py",
+      "AGENTS/CYPHER/boot.py",
+      "AGENTS/ZHAO/scripts/boot.py",
+      "AGENTS/TERRY/scripts/boot.py",
+      "AGENTS/WAL/scripts/boot.py",
+      "AGENTS/OTTO/scripts/boot.py",
+      "AGENTS/HANS/scripts/boot.py",
+      "AGENTS/WATT/boot.py",
+      "AGENTS/MARCO/scripts/boot.py",
+      "AGENTS/FERT/boot.py",
+      "AGENTS/ISHM/boot.py",
+      "AGENTS/OZK/scripts/boot.py",
+      "AGENTS/MIDAS/boot.py",
+      "AGENTS/RED/scripts/boot.py",
+      "AGENTS/BRENT/archive/2026-09-08_cleanup/scripts/boot.py",
+      "AGENTS/BRENT/scripts/boot.py",
+      "AGENTS/FLG/boot.py",
+      "AGENTS/CREED/scripts/boot.py",
+      "AGENTS/SAM/scripts/boot.py"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 82,
+    "reference": "GATES.tsv",
+    "basename_matches": [
+      "PROME/tools/tests/fixtures/desk_attention/PROME/GATES.tsv",
+      "PROME/GATES.tsv"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 183,
+    "reference": "feedback_verify_counts_before_propagating.md",
+    "basename_matches": [
+      "memory/auto/feedback_verify_counts_before_propagating.md"
+    ]
+  },
+  {
+    "file": "KILL_MEMO_HY_OAS_260.md",
+    "line": 233,
+    "reference": "boot.py",
+    "basename_matches": [
+      "AGENTS/YEYOU/scripts/boot.py",
+      "AGENTS/VULCAN/boot.py",
+      "AGENTS/LABOR/scripts/boot.py",
+      "AGENTS/CORAL/scripts/boot.py",
+      "AGENTS/HAWK/scripts/boot.py",
+      "AGENTS/LIQUID/research/2026-10-14_alert-SRF-repair/archive/scripts/boot.py",
+      "AGENTS/VIOLET/scripts/boot.py",
+      "AGENTS/LIQUID/scripts/boot.py",
+      "AGENTS/REGINALD/scripts/boot.py",
+      "AGENTS/LIQUID/archive/2026-10-14_staleness-sweep/scripts/boot.py",
+      "AGENTS/HENRY/scripts/boot.py",
+      "AGENTS/CARL/scripts/boot.py",
+      "AGENTS/GIBBS/boot.py",
+      "AGENTS/YURI/scripts/boot.py",
+      "AGENTS/CYPHER/boot.py",
+      "AGENTS/ZHAO/scripts/boot.py",
+      "AGENTS/TERRY/scripts/boot.py",
+      "AGENTS/WAL/scripts/boot.py",
+      "AGENTS/OTTO/scripts/boot.py",
+      "AGENTS/HANS/scripts/boot.py",
+      "AGENTS/WATT/boot.py",
+      "AGENTS/MARCO/scripts/boot.py",
+      "AGENTS/FERT/boot.py",
+      "AGENTS/ISHM/boot.py",
+      "AGENTS/OZK/scripts/boot.py",
+      "AGENTS/MIDAS/boot.py",
+      "AGENTS/RED/scripts/boot.py",
+      "AGENTS/BRENT/archive/2026-09-08_cleanup/scripts/boot.py",
+      "AGENTS/BRENT/scripts/boot.py",
+      "AGENTS/FLG/boot.py",
+      "AGENTS/CREED/scripts/boot.py",
+      "AGENTS/SAM/scripts/boot.py"
+    ]
+  },
+  {
+    "file": "PRE_STAGED_RESHAPE_WAKEUP_BRIEF_2026-07-29.md",
+    "line": 71,
+    "reference": "inbox/2026-07-27_from-BROCK_x1-retest-verdict-hy-279.md",
+    "basename_matches": [
+      "AGENTS/LIQUID/inbox/processed/2026-07-27_from-BROCK_x1-retest-verdict-hy-279.md"
+    ],
+    "moved_to": "AGENTS/LIQUID/inbox/processed/2026-07-27_from-BROCK_x1-retest-verdict-hy-279.md"
+  },
+  {
+    "file": "T3v2_READ_2026-09-23.md",
+    "line": 48,
+    "reference": "t3_fchecks.py",
+    "basename_matches": []
+  },
+  {
+    "file": "T3v2_READ_2026-09-23.md",
+    "line": 70,
+    "reference": "AGENTS/HENRY/inbox/2026-09-23_from-PROME_L238-T3v2-step2-VOID-concur-or-contest.md",
+    "basename_matches": [
+      "AGENTS/HENRY/inbox/processed/2026-09-23_from-PROME_L238-T3v2-step2-VOID-concur-or-contest.md"
+    ],
+    "moved_to": "AGENTS/HENRY/inbox/processed/2026-09-23_from-PROME_L238-T3v2-step2-VOID-concur-or-contest.md"
+  }
+]

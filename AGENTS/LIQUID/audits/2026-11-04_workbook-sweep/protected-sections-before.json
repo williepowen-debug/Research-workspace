@@ -1,0 +1,23 @@
+{
+  "BDC_MARK_CONVERGENCE_MONITOR.md": {
+    "start": "## \u2605 PRE-REGISTERED GRADING CARD",
+    "end": null,
+    "sha256": "406db53fe8257d4fb2c93694774eb742020adcc7d49fd8307a3df3aadb743523"
+  },
+  "DECOUPLING_TESTS_VIX_HY_2026-08-10.md": {
+    "start": "**Registered:**",
+    "end": null,
+    "sha256": "af623606e2be5874ad17704f15473e464740fd6b9a88a129cd85ff75dc0a1922"
+  },
+  "FUNDING_SEIZURE_GATE_SCOPED.md": {
+    "start": "## The scoped fire spec",
+    "end": "## \u2605 Interface with X1",
+    "sha256": "420ea391abf83f4c49dfad88310a9629e4a2fbf36bd3357e05a26f725be63f69"
+  },
+  "ORCL_FALLEN_ANGEL_MAP.md": {
+    "table_lines_sha256": "b1063e893e313d044757ffcb2bcd857d4998462214b6e13cfa28ea48df174c41"
+  },
+  "EXPECTED_SIGNALS_TRACKER.md": {
+    "table_lines_sha256": "39be4c6b53824c5c58ccf7db2716a071ff712efcc603f75af0a4d6a165446b21"
+  }
+}

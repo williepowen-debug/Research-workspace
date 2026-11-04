@@ -3,6 +3,8 @@
 > **Current-state navigation 2026-10-14T14:38:55.053387-04:00:** the August “ARMED1of2/no forced sell” annotation is a dated historical reading, not current gate state. GATE069 is2of2 fired in STATUS; the ORCL leg remains secondary-sourced and current agency-primary re-verification is NO_INSTRUMENT. The July rating table below is baseline evidence only. No fresh ORCL rating or forced-sale grade is inferred by this sweep.
 
 
+> **Operative navigation, November 4 reconciliation:** the registered L5 condition is **a second agency to the IG floor OR any agency to HY**, as in KB-LIQ-069 and PROME/GATES.tsv. An S&P outlook-only reassignment is **not** an additional operative trigger. The July 18 proposed table's outlook alternative and “fresh second leg” wording below are historical, not authority: the gate is already 2-of-2 FIRED and counts each leg once per registration. No new rating, forced-selling finding or gate re-arm is declared. Agency-primary re-verification remains inaccessible. Current state/approved consequence lives in STATUS§2 and the canonical KB-LIQ-069 letter.
+
 > ⚠️ **CHECKED 2026-08-24 (PAT-060 queue, 36d stale) — NO CHANGE. GATE-LIQ-069 stays ARMED 1-of-2.**
 >
 > **R1 (the 2nd-agency leg) has NOT fired: Moody's still rates ORCL `Baa2`, outlook NEGATIVE — affirmed, not cut.** S&P remains **BBB−** (the 7/9 cut, R0, already logged); Fitch **BBB**. **Middle rating stays BBB = solidly IG**, and a fallen angel needs **2 of 3 agencies at HY** under the index middle/average rule. **No forced-sell event is live.**
@@ -48,7 +50,7 @@ Major IG indices assign an issue's index rating by **combining the three agencie
 
 **Why the size matters:** HY index market cap is ~$1.3T; a $130B+ fallen angel is ~10% of the index dumped onto HY holders in a single rebalance — a mechanical spread-widening / forced-buyer-absent event (the KB-066 BB-floor stress) independent of any change in Oracle's fundamentals. This is the concrete forced-selling tail the spread tape (IG OAS 79 [7/15], benign) has NOT priced.
 
-## 4. Precise GATE-LIQ-069 escalation ladder (sharpens leg-5)
+## 4. Historical July 18 proposed ladder — use the canonical L5 condition above
 
 | Rung | Event | State | What it means | Action |
 |------|-------|-------|---------------|--------|
@@ -59,7 +61,7 @@ Major IG indices assign an issue's index rating by **combining the three agencie
 
 **Fastest path:** Moody's (negative outlook, 2 notches) is likelier to move next than S&P re-cutting from a stable BBB−. The realistic near-term escalation to watch = **Moody's Baa2→Baa3** (R1) — that is the single most informative next print, and it is the event that should trip GATE-069's second leg.
 
-## 5. Route-out — proposed GATE-LIQ-069 wording refinement (PROME maintains GATES.tsv)
+## 5. Historical July 18 route-out proposal (current letter is KB-LIQ-069)
 
 The current leg-5 reads: *"ORCL cut to Baa3/BBB- (either agency; shorthand fixed 7/17 per owner)."* Proposed sharpening (distinguishes the fired pipeline-tell from the second-leg escalation), suggested replacement for the leg-5 clause:
 

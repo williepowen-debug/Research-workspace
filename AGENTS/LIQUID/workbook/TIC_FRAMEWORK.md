@@ -1,6 +1,8 @@
 # TIC Data Analysis Framework
 
 > **Latest evidence reconciliation October19.** The June figures and “live/next” language below belong to the August23 methodological baseline. Latest saved August TIC (releasedOctober16): Treasury transactions official−$24.1B, private+$85.3B; total of record+$61.1B from ZHAO Table3 (rounded aggregate release sums+$61.2B). Belgium holdings$490.5B remains a level; no China-proxy inference. Fed Treasury custody WednesdayOctober14 $2,550.889B (−$14.588B weekly) is a separate level series, not sovereign sales. Country detail/limits: STATUS§1 and `research/2026-10-19_sweep/REPORT.md`; ZHAO/SAM retain country adjudication. Original June thresholds and falsifications below are preserved; no new rule or country grade.
+> **November 4 saved-evidence navigation:** WALTER's October 31 Treasury-flow packet supplies a January–August **resident private-plus-official, long-term bond/note** comparison: Japan net +$389M versus +$64.976B in the same 2025 period; Korea −$23.760B while buying +$42.217B U.S. equities. Bills excluded. This is an attributed saved primary-table read, not a fresh monthly TIC release, official-only sale or custody inference. The same packet's $839B Treasury auctions are **gross refinancing-inclusive supply**, not net new debt or failed demand. Receipt: `inbox/WALTER/processed/SIG-W-20261031-012.md`; current owner assessment → `research/2026-11-04_credit-followthrough/REPORT.md` §4. Country adjudication stays with ZHAO/SAM. Historical June rules and observations below remain unchanged.
+
 *Reusable reference for monthly TIC releases*
 
 **Rewritten 2026-08-23** (LIQUID boot) on ZHAO's 8/21 June-TIC packets — two of them, both Will-ruled: the **Belgium-proxy falsification** and the **China-rotation WITHDRAWAL**. Prior version (2026-03-20 vintage, extracted from a Mar-19 STATUS analysis) is superseded. Records: KB-ZHAO-119..124 · KB-ZHAO-127 · VX-ZHAO-1.09/1.10.
@@ -82,4 +84,4 @@ Below fiscal breakeven (~$80/bbl) even before war premium. Selling in *calm base
 - Strong TIC flows **+** weak auction = event-specific disruption (more recoverable).
 
 ---
-*Prior version source: STATUS.md Mar 19 analysis, extracted 2026-03-20. Rewritten 2026-08-23 — see header. Next scheduled arbiter for continued China duration selling: **July TIC, ~2026-09-16**.*
+*Prior version source: STATUS.md Mar 19 analysis, extracted 2026-03-20. Rewritten 2026-08-23 — see header. Historical August 23 next-arbiter note: **July TIC, ~2026-09-16**; not a current deadline. Current duties live in STATUS§3.*

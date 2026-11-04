@@ -1,9 +1,11 @@
 # LIQUID STATUS
-**Last Updated:** 2026-11-04T16:28:51-05:00 — Will-directed substantive credit follow-through; first-published price/funding reconciliation and bounded 069 repair. Last real data refresh: 2026-11-04. Evidence → `research/2026-11-04_credit-followthrough/REPORT.md`.
+**Last Updated:** 2026-11-04T17:35:28-05:00 — Will-directed workbook reconciliation; market observations/grades unchanged. Last real data refresh: 2026-11-04 (earlier substantive session). Workbook audit → `audits/2026-11-04_workbook-sweep/REPORT.md`; market evidence → `research/2026-11-04_credit-followthrough/REPORT.md`.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
 ## 1. NOW
+
+**Workbook reconciliation [November 4]:** 23 files inventoried, 9 updated from existing evidence; 14 unchanged. Historical ORCL outlook-only proposal is not the canonical L5 trigger; KB111 no longer falsely awaits Will (WQ-106 already ruled). Protected forecasts/letters unchanged, no new market grade. Definitions/closure gaps live in §3; full audit → `audits/2026-11-04_workbook-sweep/REPORT.md`.
 
 **Credit [first-published through November 3; graded November 4]:** HY 340, IG 93, BBB 116, BB 203, B 362, CCC 1,316 bp; HY−IG 247, CCC−BB 1,113, CCC−B 954. October 30 broadened across tiers; November 2/3 daily retracements do not erase the existing 15-session BROADENS classification (IG +10 / BBB +13 / BB +12 / B +45 / CCC +49 bp since October 13). Tiers are not issuer-count breadth. Initial-release API rows saved; ICE realtime labels are backdated, not availability timestamps. November 4 credit is UNGRADEABLE-PENDING-PUBLICATION. → `research/2026-11-04_credit-followthrough/REPORT.md` §§1–2.
 
@@ -45,6 +47,7 @@ Dates are existing duties, not unattended execution. Evidence gaps imply no sche
 
 | When | What | Owner / status |
 |---|---|---|
+| **workbook audit — unresolved existing definitions/closures** | ES01 FHLB percentage lacks a recoverable denominator; ES05 negative-basis sign interpretation unresolved, no operator changed. Final LIQUID Test B/T4 closure not located in scoped sources; Test C central row overdue. Recover existing results/definition authority before any re-grade or new proposal. ES02/03/04 source/read gaps retained. → `audits/2026-11-04_workbook-sweep/REPORT.md`. | LIQUID; PROME coordination, no new study/monitor |
 | **November 5 — OPEN** | 069: November 4 HY/paired equity and DTCC file; 076: as-of October 28 dealer release and governing edge closes; 079: November 4 SOFR99/IORB, first non-calendar day. Partial available grades completed November 4; no early final review. | LIQUID; PROME owns review dates |
 | **independent result receipt — pending** | 069 exact-boundary candidate implemented/tested, operational CLI withdrawn pending DAEDALUS RELEASE with own counterexample. Exact 2.40→2.04 verified by author; 43 retrieved sessions change 0 actual grades. Packet and acceptance → current REPORT §2. No frozen rows touched. | DAEDALUS result requested; LIQUID release withheld |
 | **10/26 source follow-up** | WALTER 10/25-016 JetBlue bond-identity check and -018 AI-CDS turnover incrementality: DEFERRED pending TRACE bond identity and a defined basket/gross-net method. 10/29: JetBlue Q3 primary (SIG-W-20261027-040) adds issuer liquidity $2.2B including a $600M undrawn facility and $250M aircraft financing EXPECTED in Q4 (not received); adviser identity and bond marks still missing; no current credit grade. No new standing study. | LIQUID existing credit lane; WALTER source recovery |

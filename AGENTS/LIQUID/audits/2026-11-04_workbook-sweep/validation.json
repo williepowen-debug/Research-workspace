@@ -1,0 +1,11 @@
+{
+  "five_protected_files": "BYTE_IDENTICAL",
+  "frozen_definition_sections_and_tables": "BYTE_IDENTICAL",
+  "kb_changes": [
+    "KB-LIQ-082 notes only",
+    "KB-LIQ-111 status+notes only"
+  ],
+  "other_kb_rows": "148 BYTE_IDENTICAL",
+  "calendar_parity": "57 ordered date/event pairs EXACT",
+  "kernel_pinned_liq04": "PREDICTIONS.tsv and native companion untouched"
+}
