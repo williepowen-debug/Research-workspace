@@ -1,6 +1,6 @@
 # WAL STATUS
 
-**Last Updated: 2026-11-02 — Q3 source-preservation and bear review complete; no durable Q3 FFIEC SDF survives, so Call Report extraction remains UNCHECKED.** Bounded boot cleanup `fdfaee04b`; prior 10/30 Q3 10-Q graded (D:L171) + v2.5 re-score applied verbatim.
+**Last Updated: 2026-11-04 — startup recovery only; Q3 Call Report remains UNCHECKED (boot filer-list HTTP 500). No new research or re-grading.** Bounded boot cleanup `fdfaee04b`; prior 10/30 Q3 10-Q graded (D:L171) + v2.5 re-score applied verbatim.
 
 *The 10/22 version of this file is preserved verbatim at `archive/STATUS_before-10-28_2026-10-28.md` (sha256 59f568d3…daca9); earlier history at `archive/STATUS_before-cleanup_2026-10-22.md` and `archive/STATUS_before-Q3-stage1_2026-10-19.md`.*
 
@@ -39,7 +39,7 @@ Nothing has graded since 10/22. Q3 went against the credit bear: no new office p
 | Boot kit | **`scripts/boot.py` built 10/28 (Will: "yes build the boot script")** and wired as charter step 5: price vs EV and the exit level, SEC filings (periodic report, 8-K items, Form 144, 13D/G, Form 4 transaction codes), FFIEC filer list + JWT expiry, FINRA vs the KB's last reading. rc 0 quiet · 1 ATTENTION · 2 UNCHECKED. First run reproduced the manual 10/28 pulls; 9 offline tests (`scripts/test_boot.py`) | `scripts/boot.py` |
 | Housekeeping | KB expiry: all 9 expired rows judged one by one (223–226 superseded post-print; 193/229 superseded by 259/258; 228/246/247 extended with reasons). Inbox: DEWEY ×2 (info) and DAEDALUS WQ-508 (already applied to the charter 10/23 by `d3488e641`; reviewed, not contested) filed to processed. Corrections check rc 0. Outbox: 26 of 27 sent packets filed to `delivered/` after delivery was traced; one 8/23 PROME packet unverified, held. 3/25 chart set archived; TRADE_LOG and the Point Bonita docx held (live references) | KB.tsv header; `archive/RETIREMENT_SWEEP_2026-10-28.md` |
 
-**Price (11/02 live vendor quote, boot.py 11:03 ET): $79.07 (+3.64%)** — SPOT vs EV **+3.22% vs v2.5 EV $76.60**; buffer to 81.90 **+3.58%** (delta/spot). KRE $73.81 (+2.49%), so WAL +1.15pp vs KRE on the session quote. REGINALD's exit log last row 10/30 close 76.29, run 0 of 3, FIRED (REGINALD grades).
+**Price (11/04 vendor quote, boot.py 16:03 ET): $79.26 (+3.24%)** — SPOT vs EV **+3.47% vs v2.5 EV $76.60**; buffer to 81.90 **+3.33%** (delta/spot). KRE $74.13 (+1.72%). Quote snapshot only: news was not checked in this startup-only assignment; no cause or official-close grade inferred. REGINALD's exit log last row 11/02 close 78.67, run 0 of 3, FIRED (REGINALD grades).
 
 ## JUDGMENT
 

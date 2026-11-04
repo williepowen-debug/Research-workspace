@@ -1,3 +1,14 @@
+## Session Notes — current handoff, November 4 2026 (OpenAI Codex)
+
+**⚠️ Open question:** the $99M life-science loan remains NO-VERDICT; Q3 Call Report extraction remains UNCHECKED. Latest boot filer-list request: HTTP 500; FFIEC JWT expires 11/05. No ratio inferred.
+
+**LAST SESSION:** Will requested startup, recovery of work/approvals, and a short status only; no unassigned work. Root/local instructions explicitly read. Runtime OpenAI Codex; exact model/session ID UNKNOWN. Shell, Git and Python verified; no verified cross-runtime peer transport/presence. Git pull refused foreign dirty work; fetch succeeded, HEAD 4 ahead / 0 behind at observation; pull/push deferred. Boot checks: 39 expired ACTIVE KB rows, 21 separately awaiting scheduled carriers; MI3 ledger held stale; predictions check silent; corrections rc 0; 0 new drift identities; 2 loose packets queued, no unrowed WALTER-lane signals. No new REGINALD request at channel top. Detail: `reports/2026-11-04_startup-recovery.md`.
+
+**NEXT SESSION:**
+1. Suggested first action: existing Q3 Call Report retrieval, independently parsing a complete durable source with provenance/hash. This startup did not execute the retrieval assignment beyond the required boot availability check.
+2. Existing carried work remains: vector/composite reassessment by evidence, hotel franchise finance read, forward Q4 predictions by 11/15. Current v2.5 weights/EV, frozen records and positions unchanged.
+3. Loose inbox processing, evidence-row review and proposed archive rotations were not started. Operator dependencies remain in STATUS; WQ-31 already registers credential renewal, WQ-553 is closed. No new decision requested.
+
 ## Session Notes — current handoff, November 2 2026 (Kimi Code)
 
 **⚠️ Open question:** where the $99M life-science loan went. The Q3 10-Q graded NO-VERDICT; ask management directly at the Q4 call. Q3 Call Report MI3 is separately still ungraded because WAL's direct FFIEC retrieval is unavailable.
