@@ -2,6 +2,12 @@
 
 **2026-11-04. Western Alliance Bank, RSSD 3138146; June 30 → September 30 2026.** WAL / OpenAI Codex. This completes the existing approved source/extraction assignment. The earlier same-day UNCHECKED result is superseded for this extraction, not rewritten as a successful earlier request. No completed 10-Q grade, prior prediction resolution, frozen calibration, scenario weight, vector score, target or trade rule is changed.
 
+## Interpretation qualifications — November 4 follow-up
+
+**Interpretation limits (clarified November 4):** These are **June 30 to September 30** comparisons, not a reading of November conditions. MI3 is CRE-purpose lending **not secured by real estate**, divided by C&I item 4; **25% is WAL's registered thesis threshold, not a regulatory limit**. The fast-bear scenario retains **2%**, rather than being eliminated. Independent extraction verifies the bank's disclosures; overlapping Call Report/10-Q observations are **not two separate credit improvements**. Unchanged weights and scores reflect the bounded extraction scope, **not a fresh full-thesis reaffirmation**; the separate evidence-based assessment remains owed.
+
+This review **reinforces the evidence against rapid credit deterioration through September**, while identifying growing unused capacity and unresolved borrower-specific risks. It is better evidence against parts of the bearish case, not an all-clear. No subsequent-quarter observation or new thesis review is implied.
+
 ## Five findings
 
 1. **MI3 fell to 19.81% from 21.20%** on WAL's existing RCON2746 / RCON1766 basis, down 1.397 percentage points. The numerator fell 3.76% while C&I grew 3.02%. The reading remains below the existing 25% bear-fast threshold and within the existing <24 band; the 8/7 kill remains fired, not a new firing or a new scenario re-mark. This measures CRE lending **not secured by real estate**, not the secured-office book or the $99M loan.
