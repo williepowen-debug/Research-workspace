@@ -1,0 +1,1066 @@
+[
+  {
+    "label": "bank-vendor-incidents-core",
+    "variant": "current",
+    "query": "(\"Jack Henry\" OR Fiserv OR Finastra OR Sharetec OR Corelation OR Alkami OR \"Q2 Holdings\" OR Candescent) (breach OR outage OR ransomware OR cyberattack)",
+    "url": "https://news.google.com/rss/search?q=%28%22Jack%20Henry%22%20OR%20Fiserv%20OR%20Finastra%20OR%20Sharetec%20OR%20Corelation%20OR%20Alkami%20OR%20%22Q2%20Holdings%22%20OR%20Candescent%29%20%28breach%20OR%20outage%20OR%20ransomware%20OR%20cyberattack%29&hl=en-US&gl=US&ceid=US:en",
+    "captured_at": "2026-11-04T22:29:30.911764+00:00",
+    "parse_error": null,
+    "items": [
+      {
+        "title": "Sharetec Outage Knocks Credit Unions Offline Across Multiple States - CU Today",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWFdJVUplSmlYNkxPNTZzZlhRN01ENVVSY3hlY2JLZVM5bkk3ZzRJa2VSSjlOM25OZHFjNUxBbGhiUE1NaGVoYWw4alg4UnN1OUpVeWpJX2xYelhUbkVhRk9XbUhvZW9oUjZNT0NUbU5nVzBlZmFBbjBLMUZ0S3pfa0dOYjVWSV93cWVoWll4UjZtclF4NE5Db1pSMU83VktaYWtrRlVadw?oc=5",
+        "date": "Thu, 17 Sep 2026 07:00:00 GMT",
+        "source": "CU Today",
+        "rank": 1,
+        "age_days": 48.645496663935184,
+        "cypher_matches": [
+          "Sharetec outage"
+        ]
+      },
+      {
+        "title": "Fiserv Ransomware Hit Ends the \"It Won't Be Us\" Era - FinanceX Magazine",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRFVac3VfWXNkNHNKaHd4cGx2cnNfRXY3VFhCclAxcW5rWlU4V3E2RmZDRFNSaG0wZXdiOHlpM3hrWmM3NENZeGNMQy1jZ1U5Y2g0ZThWOTZ6VmoxMUdlYl9CdGFNcHhpZmRSLUJBN25sMndJSUxuWURhaVJMdXhwajloN1V1N25sVUpwd3N4U0dtcGszcktrQjB1R2Y4ZWd2WTktbW5GY3lfMl9PSWhNYUJBRQ?oc=5",
+        "date": "Fri, 14 Aug 2026 07:00:00 GMT",
+        "source": "FinanceX Magazine",
+        "rank": 2,
+        "age_days": 82.64549666393518,
+        "cypher_matches": [
+          "Fiserv ransomware"
+        ]
+      },
+      {
+        "title": "Hacking group claims mass data theft from Shell, Philips, GE, Fiserv and dozens of others - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVi0xQk5kSzllUS10ZHJtTTNWT1ExNlY5cXlueE1iYzNocmg1em8yWmVyVlROTWVMX1FIdlo2cWZJODROMWlLdFFpM01kbnpOWU95dnlBSlpGTTl3a2l5T3Nob2hEbEprNDM5MWd3U0hoemR4b01ObW5Ya0RxNW1wVV9vTHR6N0R6MktmczlpaS1ERFZsdVNZ?oc=5",
+        "date": "Thu, 13 Aug 2026 07:00:00 GMT",
+        "source": "Reuters",
+        "rank": 3,
+        "age_days": 83.64549666393518,
+        "cypher_matches": []
+      },
+      {
+        "title": "Jack Henry Cyberattack Compromises Client Data - Banking Exchange",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQemZqVmtsQjR2a1ZEeE5xMDlhSW9YdEpraVp2Q0V6V2V1YjlMcVpFUU1wM1F3VWdKVU01R2RtNE9VcUhSUGlJSUVXcEdmMmhQUHZyZDMwdm5INmVUbDR0LVZWZVNtM0k4YXJOOTFJYWQ0NVdrTnMxTWNwcjFHamZjMDVqeU1DNnR4WUtidHBTdThyb20wTk4ycmlKUmRTclBP?oc=5",
+        "date": "Tue, 01 Sep 2026 07:00:00 GMT",
+        "source": "Banking Exchange",
+        "rank": 4,
+        "age_days": 64.64549666393518,
+        "cypher_matches": [
+          "Jack Henry cyberattack"
+        ]
+      },
+      {
+        "title": "Overheated data center knocked 23 credit unions offline - American Banker",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUEs0M2x1ajJ0SE90Y0dfSG1Zd3ZjeUtnMEwxY0lMcDRGc29LZDhKb2FscHVtM283cU81ZXRNaVpkVnNXYjdQRU5vdExtdllidl9NMkQwaWZtNlB1QVU2WTg3b2pQZFRCNE1vdDZoZ3hsdDZCRWotUzVJYVFJME5WMEF1eGlJOHozSTNjRnBfM1Z5dXYwamc?oc=5",
+        "date": "Mon, 21 Sep 2026 07:00:00 GMT",
+        "source": "American Banker",
+        "rank": 5,
+        "age_days": 44.645496663935184,
+        "cypher_matches": []
+      },
+      {
+        "title": "$3.1M data breach settlement could mean payouts for Mass. residents. Are you eligible? - MassLive",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRWkyQ2J3RDVDY3dKWE5pM2lOaUU1OVFleUp4alRrSTIwV01NRGFGVU1BSGNNRmdWSEFXT2F1T0RMaWxxM0tXcDZRbGxEbWhyb0IzT2ZCUDZoVVhhSldSRFhTcklNZl8ySjRtZnhLdTljVEdZaHFNaWlSTTdKdDF1NUpidzhlTDdwc3NZdGlpd1p5aXlrOWk0bk5RbTdfaTAxZ1IwazBUSmdoN000XzRjRGQ0QkZkWV8yWkh3cjdaeEVPUdIB1gFBVV95cUxQbWRFMENUdklvMUg3X1NWZHdVQ1UzaGZkeWZJMmtjd1U3REJrZDBjOUdvQkFqcnRZLWxhMVFvYk5haGVyUDNwdDQ3bG9vRDBLVldQZWxtMkhnVDh2YkdUbThlTzNaaE90NEczWFpESFd5YzVsczlmbjdaZWkwcGhDbmd0Q3dCaXhpTHMxSnpNRERVbjBkOEhrY241dHV0Mjh1bDlmNEVUTFVzdVhNdlJSamxqQVVZUVlvb1pONWpRaEhDMzBLd2o4Wndscl82U3ZvSGM1YmZR?oc=5",
+        "date": "Mon, 28 Sep 2026 07:00:00 GMT",
+        "source": "MassLive",
+        "rank": 6,
+        "age_days": 37.645496663935184,
+        "cypher_matches": []
+      },
+      {
+        "title": "Auburn credit union affected by nationwide outage, leaving customers with limited account access - Auburn Citizen",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaEJ0UzVZRTBOZF81V3ltOVUtS3VvQV9FYW1TRV9tbmE2Q09mdWtnaFltR1RLRGNNUzBJUC1PT051TnQyd3ZqZXJmNWhhWldqREJlTDlOSWNTQzVxZkljZzBZdnU5NWhJbnFrSXhYcC1PRUVlYVMtdU8wcWE5ZWxUUzlJQVZLYlB6T3ZOOURIZnU5Z25xbWc?oc=5",
+        "date": "Fri, 18 Sep 2026 17:18:23 GMT",
+        "source": "Auburn Citizen",
+        "rank": 7,
+        "age_days": 47.216063793564814,
+        "cypher_matches": []
+      },
+      {
+        "title": "Outage forces credit union to close - WAFB",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9JVGJmSHBaWVhfalk2UGtKVDJ6eExJeXUyd1ZBR2ZTZGREVThGNDBub25TTDFTSUIzWVlxVlMwVnVFVmR4SkhKbWlsZnQ5aVR3NU5nbEZlb19QZVBVSDQxTktRY2o1SWJrWWI1enVXLUVxUkXSAYcBQVVfeXFMT0JFcE1wQ3BTbGJPb2s1QjQxYXJwUTlsZ2otYXo0NmFBYjkzajZzb01CS1VLQklfTHR1Z05Gcno4LXpzeUZPaXdBNTlIM2tsV0szUE1qbElFMUVaREwwSkZQSDNlbjFLWTh3QkdZWDdvVkJCYU5sRTVqMlF5WGlxZUZPcngydHJZ?oc=5",
+        "date": "Fri, 18 Sep 2026 07:00:00 GMT",
+        "source": "WAFB",
+        "rank": 8,
+        "age_days": 47.645496663935184,
+        "cypher_matches": []
+      },
+      {
+        "title": "Sharetec Systems Coming Back Online, But Cleanup Continues - CU Today",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbEt3cUljRXk2QW9PamR1UWo5bldtQWZJZkpVN2hUU0huY08yNXBPSk5iSUZlT0JUM0FIWnA0WVZuTHB3b0hoWXNjTVVQbG9PZ2ZTRkJVeFBTc2EyMHZwTUFKTlNPbGU4UkFxdDVqclQyNlNoNzdfNWFxZnpfb2RHTWxUdlRCc3NZdm1teHhWVWNLRjZnQ05HSVVB?oc=5",
+        "date": "Mon, 21 Sep 2026 07:00:00 GMT",
+        "source": "CU Today",
+        "rank": 9,
+        "age_days": 44.645496663935184,
+        "cypher_matches": []
+      },
+      {
+        "title": "Data breach victims could get $2.5K from settlement - AL.com",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONl8xUVBMajdIdnJmTlJuVTVUbVoyUUkyaUdXQmpheVNMaGZNZldVcGJueTBXUXpPS1pUWFNjb3I5eEtodGtYeFRMbEhMX2owbkExYWRLTkJqOThNSFoteVQyZEpQSnNNVUNCNm4tVFg5WkJNQTl5bW9wRE10RzJrZlp1TURmSk8zODMwSFlud9IBowFBVV95cUxNT2NvS1c0TmxTWGpRbFVfOWFscjRfXzhDN2Zjc2FFNG9PcWZ0aGJKMGNUNFg2RENUY3cwY1ZoR1lKYkhLY0duaXlkZUV6S0lrY3hQbC03YWMybmRNSU9PQVBCUWd2b2NIQWVEY2FfbXJsU21tS1NnTlpzaXNNdERpVmo5VjdwWkhYcGxHR0gzejgzWS1udm02NldYLTJrbG5EUWNV?oc=5",
+        "date": "Mon, 28 Sep 2026 07:00:00 GMT",
+        "source": "AL.com",
+        "rank": 10,
+        "age_days": 37.645496663935184,
+        "cypher_matches": []
+      },
+      {
+        "title": "Jack Henry falls victim to ransomware attack - Finextra Research",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWFY0eUtUR1c4UVROaVBZdDZZTFVRd1hnQ0hlUTBuU1VvS3VWMjFheG4wTV9xQ2Q5eFgyVksyRERtR05FelBPdDJUNC0yYUEtRHpIMTlneUJERUJZTl8wRlpWVWtDbDZMblBseXRNT2xpNWpNczVId3lNU1JCbGdMN2h4TU5KUGNmNnZzN2lUMWo?oc=5",
+        "date": "Wed, 02 Sep 2026 07:00:00 GMT",
+        "source": "Finextra Research",
+        "rank": 11,
+        "age_days": 63.645496663935184,
+        "cypher_matches": [
+          "Jack Henry ransomware"
+        ]
+      },
+      {
+        "title": "Genesee Co-op Federal Credit Union in Rochester hit by nationwide outage - WHEC.com",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOU9leGR2RnNOVGVMWkU5Y25QLUJIb25teU82cW00QUdydjFVSFp0U0VWOG16Q0xQM2pFM0M5NUFfT3c4V2tZLTJ5Wm12YTZzVGhQOTEyV2pZTVVKbGpLUFpKR0l4SWdWWXlnMWN1OEtjbGZKajJRd0lzOTlPMldOVHFWaDBaTnhXUTJ0TXRNNHhNSExmWjg1VXhHYWdLQmxOVkhPV0Fn?oc=5",
+        "date": "Thu, 17 Sep 2026 07:00:00 GMT",
+        "source": "WHEC.com",
+        "rank": 12,
+        "age_days": 48.645496663935184,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra Issues \u2018Data Breach\u2019 Notice Following Hacker Attack - Bitdefender",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPemxpaGNqNnNEMTlwVlFTdkkzaGlRVWJEQUpVNEptZ3RPaUZLSEpJMjd6dFV2eTh0NWRlWW1Xd3RfYWwxOHpoRGRldnJMbkJ0WnZGZUg1MW9idXNlbndGUlRDeW9ra2U4bjFHTFVzZ01WUzJMVkZ3cTR0UGNxTEotZkF5Vzg2aEVtTWhRNTdiTFJfY0toRVZ0NWdmUGlPdw?oc=5",
+        "date": "Fri, 21 Feb 2025 08:00:00 GMT",
+        "source": "Bitdefender",
+        "rank": 13,
+        "age_days": 621.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Fintech Giant Finastra Investigating Data Breach - Krebs on Security",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU1pwUDBpa1lhVWJ4ek96QWl3NmlsOWdabWRNMTM4aTZPck16M09wdWxuaGJSYjMxLWRjOTJycVFLSVQzeHNfclZQNU9PdmljM3VFVlRPclZtNnh6T2hKRnlCd1hZeHBmU0hCRlJNRUlZYTV3Si1uVkNVcXpuZEExMWJtRENzWjFuYlFoQkFR?oc=5",
+        "date": "Tue, 19 Nov 2024 08:00:00 GMT",
+        "source": "Krebs on Security",
+        "rank": 14,
+        "age_days": 715.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Sharetec Outage Stretches Into Fourth Day; Users Conference Postponed - CU Today",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQamxQbXdoSkY2RjFFdjJUOVdXYmhuU0xwUHZnSk9MdEFlQ1d4NGRBbC04QTNXVTIyaEd2T1hNRy1wZEk0cEhJc2RWcDF2S3JJOGNQSHp2VGVOX3hDMm5jemVSUU40UDFoVWQ3aXQ4NFFWUlpXd2JBX3l3VmY5RUZud3dHQXJ0TjM2SEVfeC1Qa1FUQmI2VWpadnp1a0ZTU3VNU3RrX0UwUFE?oc=5",
+        "date": "Sun, 20 Sep 2026 07:00:00 GMT",
+        "source": "CU Today",
+        "rank": 15,
+        "age_days": 45.645496663935184,
+        "cypher_matches": [
+          "Sharetec outage"
+        ]
+      },
+      {
+        "title": "Finastra Starts Notifying People Impacted by Recent Data Breach - SecurityWeek",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc1p2NFU3WWV2YjhsMy10YTVYbjluZVMwNWwzQk1mOXFZOW9kbjNRMDBFb01sdUtoOGJmOVZnVHZhOHRQU3ZtOFgtNmkxX2JRUTI3SE1YcnZSelVqdV8xdHRRVTctMlhnc2dmR2tQYW9DUUxEOWVNOXpnNlozQTFxLXNnMmZTRDJnNXUxSmdHMm5fNXhPRFlDStIBngFBVV95cUxQVldVaDRGTXdvbUsyVGs3OFZIZThTemxMOExueGRzNHpNRTlNeUpuQ2dYS2kzXzRQdmNhWUdkcjZSTTNlZV90QjQ3QkNwSDRzcVp6MTFKRlBvU0RPSko4Y3R6ZjlBYnR2NDlaVlhaNG9vYzdsMGZXaHNiTlRiV3c2N1dGTUJfUGo4Z1NWZHdDUjRKRkg3eXQ1RG9ScW9LUQ?oc=5",
+        "date": "Tue, 18 Feb 2025 08:00:00 GMT",
+        "source": "SecurityWeek",
+        "rank": 16,
+        "age_days": 624.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra Announces Data Breach Following Discovery of November 2024 Cyberattack - JD Supra",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TbGJzN2Zfbndac0o1UHFnZkVpYkRPWnhBMW9VM3ItbDhTZ3l0VDFocGVRZTdKRWNrVlBjbUpEUWhSVlpiYUFPX1NERVZ6c1dpYlBLODNQclUtdDFrQ2xmalBxR1V6Q1R3Qjl4Zk9HcEExOVBzZWNDM05kRVhtZw?oc=5",
+        "date": "Mon, 17 Feb 2025 08:00:00 GMT",
+        "source": "JD Supra",
+        "rank": 17,
+        "age_days": 625.6038299972686,
+        "cypher_matches": [
+          "Finastra cyberattack"
+        ]
+      },
+      {
+        "title": "Fiserv outage underscores the importance of bank contingency planning - American Banker",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLTZodGhiYUJMQ2hSYUxOckJvRTlzWDdfT3BqaTVibjl5QW1LUVFFRTdSWEk4WTZLVVY0UU1sMXZYbkZuZzNxNWh4TXlCbGwwS1k0SlE3VVF5UjdCQVNrSVBpZVhVU2ZOWU9TUjVva3doQzdJdkMxVk9CQjJ4OVdxVjAwdEQxTFRGQ3pkYQ?oc=5",
+        "date": "Mon, 05 May 2025 07:00:00 GMT",
+        "source": "American Banker",
+        "rank": 18,
+        "age_days": 548.6454966639352,
+        "cypher_matches": [
+          "Fiserv outage"
+        ]
+      },
+      {
+        "title": "Self-Help Credit Union Sues Fiserv, Alleging Misrepresentations About Data Security - CU Today",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVGhVT194NWJVUGx4SFVkam5HakxMRHZ2VVVmX1J2Vmh1YzItQ0J5R05XSnptZ082VVBadGx3RjExX0NlcmJDNVN1LWx6OWE0bjVSOTZ6UkF5bm5QdmhEazFvM1dNV2xkZkc5UlgyTVZ3T1hHaExvT1htR25CM1VheGp2bENqRkFOcVFUa05hc1dkOHFIWUVqNHBtenNqY1dGNE14MTNXdGdZYmxFMkwyNWE5M2wxcVJJVlNj?oc=5",
+        "date": "Fri, 05 Dec 2025 08:00:00 GMT",
+        "source": "CU Today",
+        "rank": 19,
+        "age_days": 334.6038299972685,
+        "cypher_matches": []
+      },
+      {
+        "title": "Third-Party Vendor Risk Management: Lessons from the 2024 Finastra Breach - CliftonLarsonAllen (CLA)",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdE84MHpzdGZnTkZzb1p0MFRQOVp1MmlnRXpqX1BHMFJybC13Umg4cDJ1d1VIQjYxZTFhemNEckI2RVg1bGsyOUN2andvR3I4b3BxY2JPRWRieVQ1c0ZpMXdiaEF2a0NMRWZpS2xsZTFaQ2IzNzFvdTliZXNibzh4ZlV5UHE3WktPdFNobHU0bUlvR2FqQjNyTWVQdVVhdUxJcTJUejhBeWFZMXZ3YXZWM2FfYkZPTXQ1ZTdSa1QtMUd5Rkw4RnhTZFVfZ0FIWmt6V3lr?oc=5",
+        "date": "Mon, 25 Nov 2024 08:00:00 GMT",
+        "source": "CliftonLarsonAllen (CLA)",
+        "rank": 20,
+        "age_days": 709.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra Breach: Findings and Summary - Cyberint",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMVpUbk91SkFKR2xsVk82OUI2WjlNSlFBMDVDVEhEYXVpWVM1Y2JENzltU01qVmJ5YVJ1VnhSd0hnYjg4SVQ4MzlrVVZrWTlkYllwdGFjUFFUbWQxSU9DZTVFSHUwVzdtZ3Q0MzZDWE9BTlZ6R0xWdzZxT1VEbVNrcEV3Rk12RVNfYVk4?oc=5",
+        "date": "Wed, 20 Nov 2024 08:00:00 GMT",
+        "source": "Cyberint",
+        "rank": 21,
+        "age_days": 714.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra investigates data breach, security leaders discuss - Security Magazine",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQXzZ3TDQ0eEZIbXpmc0VDODRJMzMwcHNMX2tsMkZDMEJZb2pEVlJmaldMdDJKSC1wa2NSSnZ1M2tidGF4R05oNmg1Tkh4YWVTUmR5X3dnS1pxUFlTdXRkSm5GZXlVQmF6aHJmWE05MGxSZ0U3dnlIVTVybF9GRjRKY3hXdGtDbW1oZk5IQVJGTVltU0NYWXlWZTREYURRT3I5N19hV3dWSnpNTzg?oc=5",
+        "date": "Mon, 25 Nov 2024 08:00:00 GMT",
+        "source": "Security Magazine",
+        "rank": 22,
+        "age_days": 709.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Fiserv among MOVEit cyberattack victims - Payments Dive",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcURtc2lJeHpsVFhpRC1zTzZhc0FWLUs4UjNpWEZYdHZPU3R5d2lzZjgxRDBxbmFkWDdwaEJNX0Y1QjZJalVZR3JYVGM4SzRHMjZocEhET3NDYzF1c29OeXp1ZzNRaFJGRTBrZGk2UmpvSUhHdFBUX3FaNGlPalVzNnRaWjNvUlVBa1hZTlowNGh4SFhEM0w5MERWOWtOaEFz?oc=5",
+        "date": "Tue, 10 Oct 2023 07:00:00 GMT",
+        "source": "Payments Dive",
+        "rank": 23,
+        "age_days": 1121.645496663935,
+        "cypher_matches": [
+          "Fiserv cyberattack"
+        ]
+      },
+      {
+        "title": "Flagstar Bank, N.A. Announces Third-Party Data Breach at Fiserv, Compromising as Many as 837k Social Security Numbers - JD Supra",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOTJZcW02cnNEY0l3amxycXpZbl9IMm5hbUs0VlhfTzhGU0N6Y2NEaXhVZm00Zm9ialNPdExucHlzNzNrenBNbFF3UEN2Yk02cmZjb1c2SGxYQ1pFSTJzLUpTeUwzRGpPcW52VjhmRlVwR1Uxb05JWjNkTE52X05nM1M1UGRDTzJUVXc?oc=5",
+        "date": "Fri, 06 Oct 2023 07:00:00 GMT",
+        "source": "JD Supra",
+        "rank": 24,
+        "age_days": 1125.645496663935,
+        "cypher_matches": [
+          "Fiserv breach"
+        ]
+      },
+      {
+        "title": "Finastra Technology Data Breach Lawsuit Investigation - ClassAction.org",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeWN0YjRYQUU1QVlrckVVWGZ1Nm1DcVh3OXBIMHRpM0hMUTZTVTgzeUxYWVVTa0hsUWRlVDhJNlB5UC1KUEZ5azhGUktXeTBZS1BNVjJNRW1SRjFCU1ZTekpOOEZVNFhZLTQtNTFvWnZaWmVnbHVWS05BODhuU2NCb19CVWZGTGFUX3c?oc=5",
+        "date": "Wed, 19 Feb 2025 21:26:17 GMT",
+        "source": "ClassAction.org",
+        "rank": 25,
+        "age_days": 623.0439110157871,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra Data Breach Affects Over 800K Americans: SSNs Exposed - Claim Depot",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11RnJDaHdnMTdLbUlQZTViODVtbUllNzBkb0Qxc3oyMEthdUEzc29PdnQ3SldkdmRZUUR6UmhRaHBrR0xDVmQ4bWJrRVpVdXdtSnlqc1RILXcwdjQ?oc=5",
+        "date": "Mon, 14 Jul 2025 07:00:00 GMT",
+        "source": "Claim Depot",
+        "rank": 26,
+        "age_days": 478.6454966639352,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra Technology Data Breach - Almeida Law Group",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQU1NsMjc3cDUxamI2Yld1QkhSdE9PQTdLd0xxM1ZRclk5bjF4WFlIbU9iVlZWQ0gwSFpTWEZEX3diMVFBRWt5M1JhdDRlUll0MG84UHlfclJmZDBGc3Y3dTZ1N1BULVFESHpIMFZNLWhoUmdmbzdfVDVCT2VmcnBUUUhDcUhhcUs3?oc=5",
+        "date": "Fri, 11 Jul 2025 07:00:00 GMT",
+        "source": "Almeida Law Group",
+        "rank": 27,
+        "age_days": 481.6454966639352,
+        "cypher_matches": []
+      },
+      {
+        "title": "Zelle service glitch tied to Fiserv resolved - Payments Dive",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOVVKNWw3RkRXeGdjVTRIM3dORHZubUlyaWVaN2JSMkc3cEh0aC1SYnJmVF9oS0hGUXQzZU9LWXNpTThTZ3Bva0NTZ19BaGFEbnBpZ2g3allpb3RfZTRJQVczM01vX3I3M3JmT3ZNRjE4VXN5b3VWRE1GUzdoNVk3QlZ2MnZWdVVGaVN2bFRKLXN3UTYwNTBmcENkeU1FV01FWGNB?oc=5",
+        "date": "Fri, 02 May 2025 07:00:00 GMT",
+        "source": "Payments Dive",
+        "rank": 28,
+        "age_days": 551.6454966639352,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra Hit by Ransomware Attack, Shuts Down Servers - CISO Mag",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YVmJlOFlVRjNzS0FHVWMzZmdtaVQwRVA4OXNOUXAtejktLXJEa0Z3b1d3Mk9jM1JBNW1pQV9LZmZBYkl1cW5fTEJYc1ZtU3VUVjlGd05hN1QtbkNrcFBjVGQyWk1BcUtJbWNYMkU3SW5nekl6aTNPYTdNQU9GZ9IBfkFVX3lxTE1YVmJlOFlVRjNzS0FHVWMzZmdtaVQwRVA4OXNOUXAtejktLXJEa0Z3b1d3Mk9jM1JBNW1pQV9LZmZBYkl1cW5fTEJYc1ZtU3VUVjlGd05hN1QtbkNrcFBjVGQyWk1BcUtJbWNYMkU3SW5nekl6aTNPYTdNQU9GZw?oc=5",
+        "date": "Fri, 08 Jul 2022 02:19:35 GMT",
+        "source": "CISO Mag",
+        "rank": 29,
+        "age_days": 1580.8402304602314,
+        "cypher_matches": [
+          "Finastra ransomware"
+        ]
+      },
+      {
+        "title": "Finastra client files stolen in data breach - American Banker",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVExtVXQyQXhsanp3eEo0UE0xTUFVX25LRXlDVDllU2JvbUQ5MjJ5am9RM2xnSnFmS0V2eDY5SlZmVl9TRXhmREYzWkNBWXkxUmU4NENPOEhWdW9mRndHTEdGbnFGRUo3M0RPc0FCZ0RMaHl3bU1VdFdJcHB5ZUF5dWdOaFExTkNf?oc=5",
+        "date": "Thu, 21 Nov 2024 08:00:00 GMT",
+        "source": "American Banker",
+        "rank": 30,
+        "age_days": 713.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra investigates breach potentially affecting top global banks - CSO Online",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGwxZjcwWTVYd01Bb19xbnBFVC1DZk1nZm1Kckk2VjBpRENXeGFSTDdyWElicHh1Uml4QmVDd05obm9MeFlKc3BXdHVodlVucUg4aVNldlo1bjVVaFlvTmROSERleXU5NUgtYmV1ckNYOTlVTDVtUDVqU1B4Z3V3RE55SWNYdHc4RGt5VTNxTGNEQUNaTnN5bWQ2a29JcURLUzBnb1k5YzVfa01sMmFJdVdjdnQ?oc=5",
+        "date": "Thu, 21 Nov 2024 08:00:00 GMT",
+        "source": "CSO Online",
+        "rank": 31,
+        "age_days": 713.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Fintech giant Finastra confirms it's investigating a data breach - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNVo2YW1EOE15LUVmZDZmcUFNb3E0ZGtscEh0NXlzUk9WMW1OY1BmSDJPd21nU2pseGcwS2d5OW82ODk0ZjhMbXMtbi1XbFJmWGJFWHBRRDJ5RWtKRlRlUlJmWWZfRzZxSmNVem03WTVwR3dJdFNSR3FwNmRfcXptYTZ1emlFZjRlNFhBNHAzZjhFbGxVdmc?oc=5",
+        "date": "Wed, 20 Nov 2024 08:00:00 GMT",
+        "source": "Yahoo Finance",
+        "rank": 32,
+        "age_days": 714.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Finastra breach exposed personal data, company tells victims - American Banker",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUFUzbjlHVzUzT0NvcnMwR1h5M3FKaHY0RU02U0xWSUFRT25QdHJhR3l1RWhOM1M2UVZLVjNhdHFldG8tVVFHM2kzS3FVWUhsMDI4dWNzczFfSElSdk9TU0I2dnVoSlpsUXZBNUFPU19JS3NXMGpxNlRZSjhEOFZ6eC1FRnkwdDBCcHZGS1BMOGJ2U3VRNFBVR3BFQQ?oc=5",
+        "date": "Wed, 19 Feb 2025 08:00:00 GMT",
+        "source": "American Banker",
+        "rank": 33,
+        "age_days": 623.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Fiserv flaw exposed customers\u2019 banking data - FinTech Futures",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX3VHeXExZnZsYXl6XzJhNzJUaGdLaHcxM3ZfVlpWc1JSWENPb0hmcm1GUjAzLXdNX2VTUWhTM1NScm8tNFlLQ3UxclRUNGs3REFhVkx1cFBEeGJnajFoaG5XMTZzWWJGT3RnYTVSQUNjenRHMnlkQTdZRWxaV0dXZkpOWnEtVC00S3BKeG1MT2xDanM2Sm5uOUJCcw?oc=5",
+        "date": "Wed, 26 Mar 2025 20:12:57 GMT",
+        "source": "FinTech Futures",
+        "rank": 34,
+        "age_days": 588.094836941713,
+        "cypher_matches": []
+      },
+      {
+        "title": "Fintech Company Survived Ransomware Attack Without Paying Ransom - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYVEwTGxpNWJ4Q2VOU2hsZVN4VzdxTnpPUVVrVE8tWmVKWTJuUkk3b3Fjb3Q5UTZ2LWpVMzJYNmlxakxBUXI0OVBEQk9WQmcxbFV1UWV3cndoRlBHeHBJcG5KQlFJWW9OQWdySmJCNVZ4M2VRVGlQT2xteXhHZ3R2ekFMRGdJc1FuODh4dngzY0NpQ21YV25fdTJ4X3hLVnVPOXFrMG5uQzdnZV96QVJXNEFEb2o?oc=5",
+        "date": "Tue, 07 Apr 2020 07:00:00 GMT",
+        "source": "Bloomberg.com",
+        "rank": 35,
+        "age_days": 2402.6454966639353,
+        "cypher_matches": []
+      },
+      {
+        "title": "Threat Actors Claim Breach of Finastra Database - Cyber Press",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MVE5fT3BQb2VTX3JYbWpSZUtETTFZR1hIbkp1X1czSVBPSmFfMzNaTzBqR3I3Y2FYRDNjMUx3bVgtTFFkVHBvdGF3OFM5TTNfdDc1ODZ3WS05ajNscWlkZdIBYEFVX3lxTE5MVE5fT3BQb2VTX3JYbWpSZUtETTFZR1hIbkp1X1czSVBPSmFfMzNaTzBqR3I3Y2FYRDNjMUx3bVgtTFFkVHBvdGF3OFM5TTNfdDc1ODZ3WS05ajNscWlkZQ?oc=5",
+        "date": "Fri, 08 Nov 2024 08:00:00 GMT",
+        "source": "Cyber Press",
+        "rank": 36,
+        "age_days": 726.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Fintech giant Finastra notifies victims of October data breach - BleepingComputer",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb0VMZWx3Ri0yeTQ1MFpjUFRpSFhDNnhBRThrRS1pSXR2U05HYkI2cTNyTWZEdTFDa0NpU0VMOXF4TUQzLUtLdk9aeVh1cUE5NThHVWVCVVpheFI4T1JYb2dWUzJkcFdEZUJlbG9xMGo3Ri11YkE2bndHZ21GMzBmbGR0WE9IVFBOUnVOVUdzWFdWeV9HWGVyNXF5VFFOLXVTZTRzaFdwT25uNW1mdURn0gG0AUFVX3lxTE5TdlI0RFU5eTJCSkU5ZExGWmRZeXBZWUNFcUVHMEs3MktQRzllLVJVRW1uMFgyWUU1TzFVeFJvNGp6ZHQ4LU4yaE5BQ2ZtRFFIV0JMQUhsVUFnckRCaTJ1bFo5X2F4SklNbnRzM3NsaXZ2d1ZZQWd0UDFpaE9veHgyY0VjRGJGYUtRSlZPSFR2WHcyWV9ZNWxnRVlybEowcWZpZ3B2b3JvaDFYYjZYVlZWZk50QQ?oc=5",
+        "date": "Mon, 17 Feb 2025 08:00:00 GMT",
+        "source": "BleepingComputer",
+        "rank": 37,
+        "age_days": 625.6038299972686,
+        "cypher_matches": []
+      },
+      {
+        "title": "Ransomware Attacks FinTech Giant Finastra: Recovery Update - - MSSP Alert",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KVzZBM05aN2xxYnI0ZzlaYVdQM0N2NlRaSWxQYjAwejduYmR4SUI3UUJiQVdZclBOWmM2N2ZXcS1Wdk1FVTZaa0hKZFFONFBUUmNlQXNySWo1alpVT1Q2TW9BdkxaYkFkUjZvYTZZdjdqYlFacmVEQQ?oc=5",
+        "date": "Mon, 23 Mar 2020 07:00:00 GMT",
+        "source": "MSSP Alert",
+        "rank": 38,
+        "age_days": 2417.6454966639353,
+        "cypher_matches": [
+          "Finastra ransomware"
+        ]
+      },
+      {
+        "title": "Customers are reporting credit-card payment crashes at restaurants and stores across the US, including Chick-fil-A and Ikea - Business Insider",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2M2by1DMXpXSU1mNGo3SHR1TzJHQ2ZTTk1Ob1NXLTZxek00SExodk9JMWV0WC1FOVZoSDZtclZnT28yRG1CNUhXZWo5MkZMUTh3NV80a1hjU0NCOEJCZlZhdUx6a0NfNUktS3I4QmlSM3c0cnRKOU11MWNsMTNTQnV4Mm1SQnV4cDRoakFBVU5QaThCOTk0OUtGbkhMejhmQWVOcEU2QQ?oc=5",
+        "date": "Fri, 26 Feb 2021 08:00:00 GMT",
+        "source": "Business Insider",
+        "rank": 39,
+        "age_days": 2077.6038299972683,
+        "cypher_matches": []
+      },
+      {
+        "title": "Fiserv Introduces Innovation in Early Breach Detection with Rippleshot Partnership - Fiserv",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeGthLVVMS3RHQWp0cHZ3dXp0dkVMeUN0eVh1bHFXOEh2RXdpOUlaMzZ0MlVqNnFvOUNqUWNNUGY5ZjNaNWItYkxBWkdXZTUxWUNmZXluSFM0X2lCb2JON05MNzdYdUlQZ0NGTXpYQllRcE5BUmRUTWVNRU8wcFcycnF2a3FyUzBKNEt2LVhYQzdGUm13dkpvRmF1YTZpYU1MZ09nNWZiQW5kcEo1MHZEMVg0TTBianpoS2MtMXdBNE93UXRaODN3?oc=5",
+        "date": "Mon, 07 May 2018 07:00:00 GMT",
+        "source": "Fiserv",
+        "rank": 40,
+        "age_days": 3103.6454966639353,
+        "cypher_matches": [
+          "Fiserv breach"
+        ]
+      },
+      {
+        "title": "Finastra Data Breach Settlement Payout: Claim by Nov. 27 - openclassactions.com",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVkRQT0ZKUi1MZ3FBMUhoVlZlVEJORzU1RFJ2ZzBiVGp4WXVRQS00ckk3NThsWFB3cVZKWlNUeENoYzh3dUFTNnJiWDFYSkVVQzRUaENCcXQyVndSem40R0tXd3NDZ24yRDhjNHltaU4tWGhRaUdDeDU3dHZMUzRkajBOVV9xaUUyZEcxZ3Faa29oNDM0?oc=5",
+        "date": "Sun, 27 Sep 2026 07:00:00 GMT",
+        "source": "openclassactions.com",
+        "rank": 41,
+        "age_days": 38.645496663935184,
+        "cypher_matches": []
+      }
+    ],
+    "total": 41,
+    "cap": 15
+  },
+  {
+    "label": "bank-vendor-incidents-core",
+    "variant": "leading7d",
+    "query": "when:7d (\"Jack Henry\" OR Fiserv OR Finastra OR Sharetec OR Corelation OR Alkami OR \"Q2 Holdings\" OR Candescent) (breach OR outage OR ransomware OR cyberattack)",
+    "url": "https://news.google.com/rss/search?q=when%3A7d%20%28%22Jack%20Henry%22%20OR%20Fiserv%20OR%20Finastra%20OR%20Sharetec%20OR%20Corelation%20OR%20Alkami%20OR%20%22Q2%20Holdings%22%20OR%20Candescent%29%20%28breach%20OR%20outage%20OR%20ransomware%20OR%20cyberattack%29&hl=en-US&gl=US&ceid=US:en",
+    "captured_at": "2026-11-04T22:29:30.911764+00:00",
+    "parse_error": null,
+    "items": [
+      {
+        "title": "Fiserv (FISV) Q1 2026 Earnings Call Transcript - Fortune",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uYTZTYy1RcDZKeHNiM2I3V0huY2pZTjk5OHVhcWlpSHhadS1vWDJHSi1PRnlSbVpZWjRmOHY5TkJqM1dKdFR3TDZtamV4Vi1acGxZOHpwclV6VnZtTTlJYUF3?oc=5",
+        "date": "Thu, 29 Oct 2026 13:24:45 GMT",
+        "source": "Fortune",
+        "rank": 1,
+        "age_days": 6.378309163935184,
+        "cypher_matches": []
+      },
+      {
+        "title": "Alkami Technology downgraded by Citizens as firm awaits clarity on 2027 - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOTVJYmJwSHBUR3NqZ3k2Yl84R294WnBZR05OaW16R2llbXdudDcteFl3VjRUWWlKbnlyZUd3ZDBaQ2Q5UjZVNnBCa2FqbHYybk44bXNmSzZMa1dZMjZnUUlueG1XUzZSb0FVb1Q0cWV1U20tdEcwRVJGcklBdTNUZUxDbWY3bWVFbmtpTkVGQ0czS3ZXc05fMHlwMzYzamJXbG1kNVFFbEpNemEwd1JxZS1ncE1EaFdybE9TRWdxcUwzRnhacXdsSlFqV3ZBUVE?oc=5",
+        "date": "Thu, 29 Oct 2026 15:04:31 GMT",
+        "source": "TradingView",
+        "rank": 2,
+        "age_days": 6.309026756527778,
+        "cypher_matches": []
+      },
+      {
+        "title": "Candescent adds Memcyco to its banking marketplace - CFOtech Asia",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaVNTR2JzR0xNNXdzS3F2RzY0TzJUbUxJZjFPOWh2bXRlQk4yMUZFanhiQ0EtaldGdTBSQUV3RUxGWUxjUVllX0IzZzJScGU1cFJMRGhCcVFsMnJnMUJnOGFtWHZvdFFaQ3JJdUNHQWRLLV9XYmpGVmcwUlR6SnZ3Y3BTWQ?oc=5",
+        "date": "Tue, 03 Nov 2026 20:37:00 GMT",
+        "source": "CFOtech Asia",
+        "rank": 3,
+        "age_days": 1.0781355528240741,
+        "cypher_matches": []
+      },
+      {
+        "title": "10 class action settlements you can claim in November 2026 - Top Class Actions",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNjliYWtsY05RTTZiQkNsdUxsRmxySUswYVJhc2VKbEZoNnM4V2xTdTRIVTFDQmhUUTQxX05VbXZLcTRRZFdDWVBBWFZhX1pDclZDVkM4TUJCakFGWTJhZDROMHNXTURPRF9zWjFLVDBVVjJvTkpRRHk2Z1VoUkpMWXBxRi1pa2k5Q2FGTFVGbV9yLUZ0TmtNbzhINzUyY3JWSmg3NHM2UFN3SXl1dEdDYk5hN2VDTWRnSVBlOQ?oc=5",
+        "date": "Mon, 02 Nov 2026 08:00:00 GMT",
+        "source": "Top Class Actions",
+        "rank": 4,
+        "age_days": 2.6038299972685186,
+        "cypher_matches": []
+      },
+      {
+        "title": "Fiserv CEO\u2019s \u2018give a damn\u2019 pitch meets Burry\u2019s buyout math - www.thestreet.com",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUMzdno2Z21UNmViN0RoaENZT1lnbXB2ajVNaG04REd6eWdCMzJFb2V6RnJPVVVBd09CeDN5R1RBdlFVMHQ0MGZsZlB3NzUwd1RHRmpybW9Kc1BTUnd4VDdMMFdNMlBMWmZWT2k5LVJhUzRzUG5FcVpmbjc0UmRrS2ZJal9OUnc?oc=5",
+        "date": "Wed, 04 Nov 2026 20:07:00 GMT",
+        "source": "www.thestreet.com",
+        "rank": 5,
+        "age_days": 0.09896888615740741,
+        "cypher_matches": []
+      },
+      {
+        "title": "Jack Henry says cyber incident not financially material - scanx.trade",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWGhJZEZ1dHZUVTdxMFJTTS1WY2VIZFM5TFpoWEl3ZWpNWU9talY1RjVGblRPZjlwMERNMkNHS2Q2dkhpdm1jeEctcWY3dWxsOFdGbEdTdjNrMVBWNURmUU9vd0x6UVk4WnRyZnpITTZYejg5T2hzM01OMFVnTzVPWHlWTm5DZ2R6OS1sVE1kWlBsUHRHRnBIWDFzb3NQNG9BT1ZCTU52UGFONElBQUlQdHlR?oc=5",
+        "date": "Tue, 03 Nov 2026 22:39:24 GMT",
+        "source": "scanx.trade",
+        "rank": 6,
+        "age_days": 0.9931355528240742,
+        "cypher_matches": []
+      }
+    ],
+    "total": 6,
+    "cap": 15
+  },
+  {
+    "label": "bank-vendor-incidents-msp",
+    "variant": "current",
+    "query": "(ConnectWise OR \"N-able\" OR TruStage OR Fedwire) (breach OR outage OR ransomware OR cyberattack)",
+    "url": "https://news.google.com/rss/search?q=%28ConnectWise%20OR%20%22N-able%22%20OR%20TruStage%20OR%20Fedwire%29%20%28breach%20OR%20outage%20OR%20ransomware%20OR%20cyberattack%29&hl=en-US&gl=US&ceid=US:en",
+    "captured_at": "2026-11-04T22:29:30.911764+00:00",
+    "parse_error": null,
+    "items": [
+      {
+        "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks - Huntress",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNODVUeElUcmw1OHY0NUF3ZkRpTVBTbEwzSDlNa3YyOGxjTnNBTUFIVTRJUVJYcVRFbXZZejdSNk1nVFBlN0xSaHFmQTlvQU1RdzFxeFpKbFNxNTE5MVItbk5yaERlNFBZSXpfV2JVaGN2ZnhLU1R5TWVyaXpDVExnZg?oc=5",
+        "date": "Fri, 16 Oct 2026 07:00:00 GMT",
+        "source": "Huntress",
+        "rank": 1,
+        "age_days": 19.645496663935187,
+        "cypher_matches": []
+      },
+      {
+        "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack - SecurityWeek",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNGJjaHE4dkx2YlR5UlEwcVZMcGlCNE1ubTRvZkFPTVUtejhxS2hBcWV4SmNBbFpHQm1ZWHQxSWpTN1RCNGdfb3NfWXZnZFBuUi10UkgyY0hpYkJDcGEyOVlCSEwxRHkzNTkybFFUS0IwckNPQXpicXl4aVNlWTZNSE4tUFluQV85VTMwNk1jOGg2OWlMOHhv0gGcAUFVX3lxTE5xMk95elFLT2NQdFlCclc5cWtVa2Y4ZmViNDBIdjhDVE40aENDTzl1NzZEZDVlSExZYWVGTGJhM1hQM0hqbk4tRk9JUlV3WHlkd1N2V1B0SXNqUjI1bDdFZVlFaFRhMXZvN05JcmRvT0hidWVDcHA5WWV1a1JZUUR4OFVGY01tOVFaeXUxa3ZPTHY1WUFEZlhnREVHdw?oc=5",
+        "date": "Mon, 19 Oct 2026 13:16:20 GMT",
+        "source": "SecurityWeek",
+        "rank": 2,
+        "age_days": 16.384154071342593,
+        "cypher_matches": [
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise - Microsoft",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa3J3OXpucXRXM28xZy1CakJNcjh6X0ZWSU1pOHo3cjMwQVpDMkhqUlQyOGQ4b2dDSENEWllIOTNBT2V6RWlnM1M3OUVyRGNXd3pIOFdlaGlFNTJ5a1pWX3pUWnVLNFRsOHdZNzl3WHV3Y1F4aW8wWGthREhGNDlOVHBBOU45NXdjNkcxOFRtOXFlVzFkN1JwSVBlYTZFc1ZBN2NXN0VjREs0YzRaUW5Pek9PMC1xMlIyZWtma0x2TEhSbWpx?oc=5",
+        "date": "Wed, 21 Oct 2026 07:00:00 GMT",
+        "source": "Microsoft",
+        "rank": 3,
+        "age_days": 14.645496663935186,
+        "cypher_matches": []
+      },
+      {
+        "title": "Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants - The Register",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeGtiNElQei0tZjF2TjJuM0V0eVZLbzhObng5bVJGc2x0Um5UbUVpVW9MVGlBMEFscHFmc1VWVTFrc3ZONVBwVUNLU1k1cGh2Vmh2ekZpTExjRkJpa19IT09YY2dfX1VJOFFyZjV5OGIwSldNelE3ZXRsQ0RCVGIzRUNuaHZ2V1RheHNhRTM5LTMwRjU3VkQwLVVRbUNfRmozTHUwRnlIUzA4T1ZITVVsUWExM0J6b1FtakZBdnBlckljVnFLMTJlVU90MmRXNXpy?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "The Register",
+        "rank": 4,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise - TechCrunch",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbEhXMGVnYldDOTRDM0FqaGRFT0pYelRtR3QzbFBaQzNNMnJUdW5mVzU2YTcyY0NiWHJSc25zSEVtOGFBMEtZYWo3OGdjTXg1Q2J1X1lPLTZQb2JxY3lHemJ0WVU1dE5JdzUyV293ekc0YnZ6WVpfWUREVnRCX0Q3NksyMlJiMUxHZ3ZnNng5WG5DUTRGdnlMbzJmZTByVzJPOGF2QldzQUtIWDhzWmk0VVVnZUFtRm9yMTVR?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "TechCrunch",
+        "rank": 5,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "CU vendor TruStage faces 14 suits over monthslong outage - American Banker",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLV91ZFZyckljd2VaUWV0QkdyNWg0NmpNaHdHZlVvUnVNU3RyU3dnWGxUb0pUQUh3aHAtaGJIOVd3UWtBZUVhejdhTFFsZXNFY0ZPTHlKbllGVlF2NE1jUmJ5RkY2VXU0dU4tVV9GYlphUm4ycHcxVUhwWmRuRnBlNEZYOERVSGUxZ3I3VWtYOTJ3WXRYOVBV?oc=5",
+        "date": "Wed, 12 Aug 2026 07:00:00 GMT",
+        "source": "American Banker",
+        "rank": 6,
+        "age_days": 84.64549666393518,
+        "cypher_matches": [
+          "TruStage outage"
+        ]
+      },
+      {
+        "title": "100 Days After TruStage Cyberattack, Claims Delays & Trust Concerns Persist - CUTimes",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV1pvSTNyVzIyZXA5V1F3TDRWZWlKQTN1Ulc5OUROdlY1ZmZ6SWFaQW0yWGlhMzBER2YxckhwUnhYRG9qNUFFbEQxMkxMeERGSUtCYXYtN0w4LTk5VkpQRFVPUFhpcjVraTNDSm9DSWExOFFIY0IyRGIxOFZ4S3FBQ01sUGRNaW9pY3FSMUYwUVFHRWhKLUNHcEowQnJqTHBYQnVBTnpTYjdWZ2I1?oc=5",
+        "date": "Mon, 19 Oct 2026 07:00:00 GMT",
+        "source": "CUTimes",
+        "rank": 7,
+        "age_days": 16.645496663935187,
+        "cypher_matches": [
+          "TruStage cyberattack"
+        ]
+      },
+      {
+        "title": "Insurer pays out claim after cyberattack outage delays | Investigates - WBAL-TV",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdnF0OW5tTmN1SGNmV3N5RzBmVWJ2UVVVOFo3ZHhyclEwU3ZEekpjWXNWaEIzNk5PbTZ6aEdhbnQ5akZOLXhKd3Q3X0ItTVZQV2N2aVJEMXZkSmRXdnc1MGFma0FwSVJkSnZkNzQ1VXZvT28wMUR2Y3ZyRUlYejBnT2VpQzFIMEhobWR4VThqQjYzdHV2WkotVGRtSldOQzJ1?oc=5",
+        "date": "Tue, 29 Sep 2026 21:44:02 GMT",
+        "source": "WBAL-TV",
+        "rank": 8,
+        "age_days": 36.03158462689815,
+        "cypher_matches": []
+      },
+      {
+        "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack - BleepingComputer",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNclltSEJ0UTh3UzMya2ZUNlJnMVRkeTBsX2d5bEdxeDJKUlhOZ1lBVi1vX21WYWkzdmZ0VVhRSVY0THlYOXcwR2ZfY1NvSzJoNENTS2ljWEpFRXVCYnpDR3NjTXd5ZE5QMFprV1Y4R3kxV2JrdGhpRFh0QzZXcE56UE82M3VJSDJIVGJrNGlRdmpBM2duYXRzOTlub0R4WVY5WmdSWjZQWURHLTJhSXRnTUt5Q3N2dTlObm9yTNIBwgFBVV95cUxQb010TkNjTHNkazM5ZXkyT1ZIZXVTNVF5VUQwNkowTEVLWVNBbWxXcjM2TXRvUUFlR2VqLVZsM3lXdHJiZTkwT2dJZjIzaWUySWl4NHRpNXdLczlnckIwX0NPamhQUzV2QkhmdHNnWXpaZ1hfVTFzY3ctUC1xbmt4QXV0bzZTV3lsSTFDaWxsN1VaQnlYSDFSNUxiTzk3aWdoekVLeDhxcVotRGF4STZWVTFUMk8xWjJzSEZVZnp3eng3Zw?oc=5",
+        "date": "Sat, 17 Oct 2026 07:00:00 GMT",
+        "source": "BleepingComputer",
+        "rank": 9,
+        "age_days": 18.645496663935187,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "China-Linked Cyberattack Forces Tampa\u2019s ConnectWise to Shut Down Services - TBBW",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsTGJNVEIyNEg4VXZsdTJkaXZOSGFob3NEWXkwVGk1cHlIOFFITVc3U2VWZUdfclhUallENnlTYnlvb19adnBER2lZM3pHTjdCRDRXbUlvd0NkOC10dWNVS0c5QzFpdw?oc=5",
+        "date": "Wed, 28 Oct 2026 17:58:34 GMT",
+        "source": "TBBW",
+        "rank": 10,
+        "age_days": 7.188158700972222,
+        "cypher_matches": [
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "ConnectWise CTO On Cloud Backup Cyberattack, M365 Update And Helping Thousands Of Partners - CRN",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYmxuS3Z4Wkc2UlJ5ZEs0TWRJbm55M2lpVEpfODgwbVAzZkdWYkQzN1ZhRmhxN2dLN3NKNEpGQ1RmNmJaNGJwcm9fS1UzSm5vZURhVENra0J1M21HamdHVzlWN1pXT3FrZEJ6UndfY2JxUmFNeDBoeThELUpweUhhUEFqS0llZnRiSlBuVmdiRW5aQlA3YUFwSHkyOUt5TDhSdlZxdTZOTWgyb3Rxd21LLVB3cEZoaGFNNGI5MlNWQ0dsaU0?oc=5",
+        "date": "Mon, 19 Oct 2026 07:00:00 GMT",
+        "source": "CRN",
+        "rank": 11,
+        "age_days": 16.645496663935187,
+        "cypher_matches": [
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants - The Hacker News",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LLVo4bDAtYTNoMmpoeFIwdFpheVNIQVJMaXZqOUtaZXZ4TjE4M2E3T0Z4SlA0aVJtNGh3N2dBSXg2SWZiQ0EtcVRKNnhrU1E3RVN5ejJ1V0h4Y2U1SG5nMmtGV2xWckV6NkJWaVJ2VEZDWGVVVTdRLUI1YzgxUUU?oc=5",
+        "date": "Sat, 17 Oct 2026 07:00:00 GMT",
+        "source": "The Hacker News",
+        "rank": 12,
+        "age_days": 18.645496663935187,
+        "cypher_matches": []
+      },
+      {
+        "title": "China-Linked Hackers Use N-able Flaw in Ransomware Attacks - BankInfoSecurity",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQzlhT0I2T19HVUJHS0NwRjYzR1BsTE9xUV9EekU2VnlWM3R5aW1ZUk1EUGVRd1R5anQtRkFhQ0xKUFRDVURVQnFVdlB0eF95N1BiSHNzWlU0R0hLdnpJT0pLSnJKOWlyNnRIMGtMOUo5SkRCNE53YlhtV0tadGkxS21JQ0NMMThDT2xtcUFPVHk0NnE1d1FrQXpGYk1kcTN6OUI2bWxn?oc=5",
+        "date": "Mon, 10 Aug 2026 20:25:05 GMT",
+        "source": "BankInfoSecurity",
+        "rank": 13,
+        "age_days": 86.08641101578704,
+        "cypher_matches": [
+          "N-able ransomware"
+        ]
+      },
+      {
+        "title": "Chinese-linked hackers used AI in ConnectWise breach: Microsoft - Anadolu Ajans\u0131",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSGFXRjdUS1RKdGZ2M0l3TWdITEU3RmJqcm1ZbVFXa0k3dDgxSXFacS1kVjRjcEdDUzVSVDdhOWdFbmFibUZuTkJlY1Jsa0lpS1M3bUliYlJPZi1Md0EyRnl3TDdDNkRWX09SR2doWHNKQkc1NWZsY0RFWDQ0VF9DU0M5cFNUVVY0alRPWVMxRlhYN0JsRUFZeTdPWTB6ZGgxa0YwdDlXb1NzM2xPd0RvNFN4SkU?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "Anadolu Ajans\u0131",
+        "rank": 14,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "ConnectWise breach: Cloud services disruption continues three days after initial intrusion detected | ChannelPro - IT Pro",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeEw4SkRsSHlrdDlvYVRQWWdnRUN3ZjJtMm5mbVZlLTVreWduLW1sSTcxdTcwYUYyaG4tNzY5YVpTcTJhZk42NGZtMlZxQjFVVU0xOFFmbG9CUzFsUW4yX016Rlk1ZzBoTXpTelRCODJFdldoUEI5cE4yUjlnT1NNNHNzVkZlb1JfM0NWa21YMTc2bEc5dVJ2NkFid0prZG9zRjBNZTR5cUx6SHBWNEZpWWVnVTVwN29rVkloakVwN0lrSkR6ejh0eQ?oc=5",
+        "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+        "source": "IT Pro",
+        "rank": 15,
+        "age_days": 15.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "ConnectWise breach puts more than 300 companies\u2019 secrets at risk - Cybernews",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdWNzNC1fUVNCWXEzX25oWEp6dlNta09iZUZza3JsOFJNRl9Fcl8td2hqOU1FQk1hX25qYU55QUpELTBnUE9fWEZCcVdlOUlqSEVmblc1VU9mVFkyQjRoS2p2UFVuVTB0Vm96SzVjU01xRVJmS1JXdXBoTHJmSTZ5LXphTQ?oc=5",
+        "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+        "source": "Cybernews",
+        "rank": 16,
+        "age_days": 15.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "Some families have faced funeral delays after cyberattack on TruStage insurance - KMOV",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUnR6TW12TVRXRnRweW5peDN5cWFBcmJxZ0NZNDAzalVYNjNackQ4SUNKbnRGZnoyYWt5SWFyWmJDbmowNnRyUUZsMVJoREY5dExXQjZkRkd2N2VOZWZwNWdXLVcwdHFxSmlrMk82WVNnNlpXQjd5a1E4STJjNmdSaEVSb1BzbHJ4QkV2dlhOallOdzJFZmQ1ZGFQbFZqakVGTlZSTDlobDQwamdXMW04ZTQ1ZjFSZk3SAcsBQVVfeXFMTTlLdzFmR18xT1QzRkZEMHBMU2xYckVTYkNwUjhaVVB5cW9Eb1pNbmRhUG5qbktFU0NlZUdYZFRVWkFFckpFOXZjM3FWaENDb08ycnVYbmlRZXlTTnJFUkdxRkxmZjRUbjl0bnQ1NHptNXhLUThCdHQtVmlldDVrWGtqYTJ1OUhSWWVyMlEyQ1ByaUw0U29RUXE2aVBxVTNOUDhiRUZodU9FMWRUUm1MNVBpT09qWFZxSUpzdFdXZ05IdWJFQzJCMkNJMzg?oc=5",
+        "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+        "source": "KMOV",
+        "rank": 17,
+        "age_days": 70.64549666393518,
+        "cypher_matches": [
+          "TruStage cyberattack"
+        ]
+      },
+      {
+        "title": "TruStage Identifies Likely Cause Of Cyberattack, Begins System Recovery - CU Today",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdmN1ajN3OGZGV1BhbHFmRUtuekFnUS11eklLaEFSM1NLLXF2NUpfMTRMc0NUVFhSVkpSVmZvWGhFV1lqOUxXYzBlZnprc0FrUmRlbkxuTTJDS19wSkV1bFRNRXBhWm5BajhyWndKX3VLVFRDZTZhNWRXQkV5d0dYREtrQVk2YnpjREhNM2Q1R3hEejVJNnBlTEhMcE8wcEpERmh5dzRUOWlhVFVUOURyNUt3?oc=5",
+        "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+        "source": "CU Today",
+        "rank": 18,
+        "age_days": 106.64549666393518,
+        "cypher_matches": [
+          "TruStage cyberattack"
+        ]
+      },
+      {
+        "title": "Rapid Response: Critical N-able N-central Vulnerability and Active Exploitation - Huntress",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8ya2Nabjk2bzB1RVdPcXhEeUExTXlGNlladEQ2cW9JME9wdVdsNl9uR3h0NnVmdHJ1TWtUTzNQQnB3a3Vvb19Na0Q1SGNpYjRWQ3pmenV6VTEtWkE2aUc3cktSaFo0aHZldDRfUWtuRmM?oc=5",
+        "date": "Sun, 06 Sep 2026 07:00:00 GMT",
+        "source": "Huntress",
+        "rank": 19,
+        "age_days": 59.645496663935184,
+        "cypher_matches": []
+      },
+      {
+        "title": "China State-Aligned Group Storm-0940 Used Agentic AI At Rate Of 2,900 Sign-In Attempts Per Minute In ConnectWise Breach - CRN",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbzhuMlZENXpBWEZrZnRZSXI1RHB2RkxsRno4dTEycXBHQnkwdGRoTUc2ZGRFaWE2a2cyVVlaQUp4amRwSC1sSjJZdzgzUldOaFhFdWF5eGxSeUtuQVl5ZFlISmFvLWZVMnZBakpSYzR0TVlyd25pWER1Tk5NSHFGeGZueHVKSm56bzJmcWYwWVY2WUl3dlQ2UHdTbk55XzA2WTNrcTc3bzNrYzY3VktXYzg3NFFHR1g4aTB6WG1WcVJJMzFPMTROMHRKVldEMExIME5uenhZZk5PcElkTnRIOGwzeEVUZzdyeS1YX3BjVQ?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "CRN",
+        "rank": 20,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "Chicago man's life insurance payout stalled for months after cyberattack - CBS News",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTkp4OVF1dFh4MTRheE8xWlZDTmJ1Qy1uU2l3Ty1aRkRYdTNUS3Nkd2huVjRiTHFvMEhRbk1uSWk3N0JkNFkwQjhqVjU2S0U0bDZkWU5aZ3RYWC1rc1RoNGpSZ2I0ZUxuUmVHbkpoVFdzQVRxSy1KTXR1eVNORTA1elp5MnNUZ094cUFyY3duT3RUb19IcjVYaU9ubDBnWllkc0JXdUxzYnF5eklBZU9vWWR3?oc=5",
+        "date": "Thu, 15 Oct 2026 07:00:00 GMT",
+        "source": "CBS News",
+        "rank": 21,
+        "age_days": 20.645496663935187,
+        "cypher_matches": []
+      },
+      {
+        "title": "Microsoft Links ConnectWise Breach to China-Linked Group Using AI Pentesting Tool ARTEX - Security Affairs",
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeHd4RTF1SHRoWmpRbHhERXZOUnZlV0Q2VzZBQWkyTmxucVBrS0xkMEVVdVo0WGpHdGFFZEZYZlpCNEktRkNlb0RkdGNwMHdxMTdVbzM3bGtqd0xYM1Nnbm1vc2VkZVZuV0JkbV9fQmVVc3FFM21hT1k1LVk1T3BMckFvMlNla0xyMXRQMXE5Z0dEcTVFX2hDRmFQWmN1RFI0a0pPVThXZEVkMFNFb0puSUMyVnlrSG0zYW5GUUp3UzNwNXpSODFGS2xQd9IB0AFBVV95cUxQWUZ0dmU5a3BCUjgyeGFXbDFMaEpINVZ5VzE3eVVVU0Nvd2VXUlQwejBfZjA4QlBHTWpvRFRsYlpUWmlBa0xlUzlyaU9qdy0teFNodzBQV2ZJRDZFY2xLdVJYUG03T205V3gySFB4M2VqQ1l3c1BPRFJjVGg1ajhUX211R2JPWEk0X1NJZmxkM2l5X0tsYkFxaHJpQXVCNXJGa2MtOTd2SEN3MmhLNlJYZi1tbEd2M1FxSFpCZjNpUW1RWjhGdkxoNFMtWDhVdG5X?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "Security Affairs",
+        "rank": 22,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "TruStage Plans Grants For Members Hurt By Cyberattack As CEO Says Company \u2018Fell Down\u2019 - CU Today",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRUZqemxDMUZJamhpcHd5Y1VmWnJFbVo2X0FjRGxzNjAxcTlpUHJ4MWN6MFBKS0RUaks5dVZqbkh0R0VOVE9rT0lZTGN3ZkU4ZlpZdXFJdWZ6UUwwMzgycUpCaHhBUEFYdXdXVlBSaDhGLXI2QkVxc0lNWFZoWmlORXI2cGhpLWVZVnlhUERsVTQybVhRRzdyQ1ZhWk1Kb2VRWFBacGxmZzNIb1YzX1JkUjhrd0xCY2lWMVVqUw?oc=5",
+        "date": "Sun, 13 Sep 2026 07:00:00 GMT",
+        "source": "CU Today",
+        "rank": 23,
+        "age_days": 52.645496663935184,
+        "cypher_matches": [
+          "TruStage cyberattack"
+        ]
+      },
+      {
+        "title": "ConnectWise breach puts cyber aggregation clauses to the test - Insurance Business",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUlQ4cjh2QTlUSy1PTy1kWmF5d3hfamJuVVlScGxxMDJfaDA4b29WQURqRFh5WEVjTWlEYVZuSEdpS25HSzFyUnRYMUM5bnp0Y1FkWTZnc3pTY0x6UC1ObEVmNlh6Y2c0WHpwLXdHQ2Znc2lwZW56bEVMZl9GV1ZPX0VpeFFkaFVBY0ZFc0lYU2NUbldRQXNQbmZ3S010dk41UWZWZElUbEVGZndQQ29yN1ZMS1dtM2s0MWxHamJqUlZzUQ?oc=5",
+        "date": "Fri, 23 Oct 2026 15:24:28 GMT",
+        "source": "Insurance Business",
+        "rank": 24,
+        "age_days": 12.295172589861112,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "ConnectWise rebuilds trust and invests in technology after cyberattack - MSSP Alert",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMVljWEhBRVlKb0VFQVRwOWFaT0p1b1poSEhrZnpTUl83ZjB3cFJMVnlIVmtqS2I0Ym5HWnRhTVhNbWdhSXdRM2c5eXl2YkhVbVR3QzdMLUo4WEZDODF5YjV4cU1XRmN6MWlOLVNRM3hUU1JLUVN6M2F3ZVRSV3ppYTd2bE0zZ0h0d1J3ajl4cjlwZ0w1dW9VWFlkbTloOGJkUjNhWA?oc=5",
+        "date": "Fri, 04 Sep 2026 07:00:00 GMT",
+        "source": "MSSP Alert",
+        "rank": 25,
+        "age_days": 61.645496663935184,
+        "cypher_matches": [
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "14 TruStage Cyberattack Lawsuits Consolidated as Recovery Continues - CUTimes",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdzZvVmlveERYLTdtTVFXNXpBTFlIWENJZDhXOFprdHExTllTU3JkUm5FMDNjNVJFZy1YNEtoZGNobGNxcGdwMFh3blNSWmhnb3F1dDZ2NWRyeHA4bTBoNk5xa2hxQWFEWElhSlNTZ2NFMXpfWWdYUlhwc05PRC1VRm5iaF9ESnpMWUtuWE9HQnJwWE1jSVRmUDZsaXF3NVR1Y3ZqMzdB?oc=5",
+        "date": "Mon, 28 Sep 2026 07:00:00 GMT",
+        "source": "CUTimes",
+        "rank": 26,
+        "age_days": 37.645496663935184,
+        "cypher_matches": [
+          "TruStage cyberattack"
+        ]
+      },
+      {
+        "title": "China-linked hackers used agentic AI in attack on 2,250 Microsoft 365 tenants - CSO Online",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeHhMWnJLV1BnRGV1OVNEeTc3amVCWEJYa0VZM0tMNHZuS0lUQm5kLUYxMUhDZllIc2liRWNQZVpKNTRWbHRoRU9oNUNSZTU5REc1YnhtQlY3RTJaMkM0MEdOYVNLaVI3bWVsb19PZ3loSmF5OFZib29TZXpwajZhcXBiaEtITThiNHU2VV9pV2NJc0x3Q3J4NWdaTDV4bzhuX0NEQngxNVYzXy1NMnZpdnRQdUREeTdMVUdmZF9pTXY?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "CSO Online",
+        "rank": 27,
+        "age_days": 13.645496663935186,
+        "cypher_matches": []
+      },
+      {
+        "title": "Microsoft names the hackers who slipped in through a backup app - TheStreet",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZzNmTzJnVktYa1VlY05TdVo4VG82WVlVeTQ3c25UdTNoNGJMLWJiRDZCMUNWZWZCcGtZM1E3QXRPWXpkaHRScTNtdXJoWllHS1V2R3VuWk5kekZWdzRDeHlaZF9UY2tzZlZuTzRCNGtzVXNNVGxxbTlocTVmbUROV1pyS1Zhc3lnM2F2RTB3ZXFfN0VoUkZQZW9NQnNDWndxalE?oc=5",
+        "date": "Wed, 28 Oct 2026 13:03:00 GMT",
+        "source": "TheStreet",
+        "rank": 28,
+        "age_days": 7.3934133306018515,
+        "cypher_matches": []
+      },
+      {
+        "title": "TruStage Cancels Discovery 2026 As Cyberattack Recovery Continues - CU Today",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWDlEVTVtbGFyNFpXamhEczhpWmY0anBGdVFVbmpreWR2NEd5QU82MEcxRGxKZmR2TENFZFJxeDE5ZHAwMWRGN19TY056NERTOUNWaDFJSE5rMkFFd2ZHX0FtcjZFaFIzSXRJWTdFRlpJNndhWnBqb3ZyUHNZbWhlUXlsWkZST1RKb2RULVNIZ3N5SkdFNklQZVpHVXk2SGI1OW1jQg?oc=5",
+        "date": "Fri, 21 Aug 2026 07:00:00 GMT",
+        "source": "CU Today",
+        "rank": 29,
+        "age_days": 75.64549666393518,
+        "cypher_matches": [
+          "TruStage cyberattack"
+        ]
+      },
+      {
+        "title": "Microsoft Says Chinese Hackers Used AI Tool To Breach ConnectWise, Target Hundreds Of Organisations - NDTV Profit",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVEg0NWp0dDgyam1sRnAyb2t5OVNQQXdCWTh1QmhiR3dlUXBmX1NLOWJTcEVEWjUyR1U2N3RHR2xtbWg2bVBGU1lyeFNHNHJIaDUwSk9yazg3dHRxSnR0a1RSSjZwSFY2QWtZWUlnS0FIbDhNX2hnem9aZjRQZlRqMXZMeTNoeWRsYTBRa3g1RlMtdXdzbUc4OXpXTWotbDlnbW52NXpiemN2Umt4c19rcFF3cFI1ZWsxM0h6bU9XZmhSejNfTzI3QkdHb3cwV2tjV3ZYa2hCZThZSlpDOVHSAeYBQVVfeXFMTm0wa2NsRUNSWEtjdWdlbjdHSXRHRGRjOG9TOXBaMnhsb2MxUG44M3hGYkVGTXpUbUNiT01oTGtMazYtUnQ0aDVPT2Jtc0o3QnN6a2VMX2QwRFMyYnlHYnlCN2xSaExhTGtic0dWdVkxdHZ5TndsSy1XV0xINzQwRnN6dG4yVnJYVTdvRC1hNXZwbWNuejRpd1pFY2FTLWctY0UxU1ZMN2tRSDg5Q2htSFpuczVtOXVlQmx1WDFtVndsb21tbWlZWklKSkpYb2F6ZXF0Z3lRa2ppS3RqS01HZXBsRXV4TEE?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "NDTV Profit",
+        "rank": 30,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "Chinese-linked hackers breach ConnectWise, target hundreds of organisations worldwide: Microsoft - Telegraph India",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONWpMMUIyclBSUlFxTkN1UnlCVVllZUt0R1Y0YlpHVWI2cGhZWFA3aE9rZjd5dGZuTHhKUC15R0VxT2ZoM2RRcEtoZDE0ZC1mc2FxeG9aTVluOTNaaWlkZ3RwajRjdkNLdFNHSDBQZjZudGVIQlNDekM4M1hxRS1aMGgwa242a1lzOXJ6XzVJY2lZZTNMUlhTQ0ZJVGFuakZHWHh0VU1uSkhDY0tTbkJrV1dFRlU4WHhMMVJaWEhkNGh5UWxRLVFHOVBsOHlvWEFCSDJtc1prUWRHV053UnZENGFhUmVkd9IB6wFBVV95cUxOT0pOMG9TbkwzQl9KbFhvbDZ6TnhCQVhXQ1VsVXdoYWlDV3JaaXZPOFhwNkNUalhqLVQxYTZoZTFQdVFoZFNPeE9RRndHUE5GdWd4QnJNU2p3WjYyM19PaGhiZzBNUDVfUDJYTzBBZC13SmdxeTBlelpMZDF2M28xQzloaWpsQ0ZXOEhINnRFT2I1ZWNfSXM2UEdYeGdSb0otQndfMk5EUzc3QnVKbnNNQU41c05SR18tT1ZYRGpYRjJBNzEwU0lQWlRWYmJvQkxabVhGZ1pUWmoxTktIbW1uaFNfUEtaUVlVbUc4?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "Telegraph India",
+        "rank": 31,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "ConnectWise Cloud Backup Breach: What Microsoft 365 Admins Should Check Now - eSecurity Planet",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR1ZXbklSdEtxYWt5M1ZLX3hCNWZDOG9wemd1TGlnZlVHdkhVWFMzVHZJaDFGS1QwUjZJU2hnODZoc2lKYVZBcmxrNEJxMktSMVVBLS10VUNlelNveG5SZlNkVzhYTjlabUg5OTlva1huaEdpdktmcXgxMEtwOVNsWm85MTk4cXNJV1ZwamE1Tk5nQi1kNzhpZWR4MnVUWG8?oc=5",
+        "date": "Mon, 19 Oct 2026 07:00:00 GMT",
+        "source": "eSecurity Planet",
+        "rank": 32,
+        "age_days": 16.645496663935187,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "TruStage Cancels Discovery 2026 as Cyberattack Recovery Continues - CUTimes",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFphT0xtN3VjYVA5RUs2S0E0RGZvR2tIYkRmbnJTT2YzY19BT3dpb2pwdGlVNTBiYk5wZ2lINS03NmNwOUk4bDJhN1MyMjQ5d09RTm5VMW5WcVc1d0YxQXBZMVViZWZDMFhPY3hINkt3SWZTYjRaUjZzTm1CdFh4eW0ydFR3UzdwU3A5N1NhSExrc1Z1UzF1Vzl6SDhNQVR1V3JF?oc=5",
+        "date": "Thu, 20 Aug 2026 07:00:00 GMT",
+        "source": "CUTimes",
+        "rank": 33,
+        "age_days": 76.64549666393518,
+        "cypher_matches": [
+          "TruStage cyberattack"
+        ]
+      },
+      {
+        "title": "TruStage Restores Claims Center as Cyberattack Recovery Continues - CUTimes",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTDlFVEVBb3J1QUpnT3FFaU9GUUVvRHB2UUZ0aWRQMFp2eDQ5R08wS0Z4TEszZ093UnN6azVseGFhSUUyaFFlUGl3WVFXbTl4MTZRSzY5cjEyaVRGVTFyQUt0ejdlVnRJMllPSFFTemN0RDBfd3hMS2Z2bjUyNkgtOFBJMFhsbTFPdWY3LWFjeW1BaTVLS3ZUZVBKZ1Z4bGhmRmJZ?oc=5",
+        "date": "Tue, 01 Sep 2026 07:00:00 GMT",
+        "source": "CUTimes",
+        "rank": 34,
+        "age_days": 64.64549666393518,
+        "cypher_matches": [
+          "TruStage cyberattack"
+        ]
+      },
+      {
+        "title": "Baltimore Woman Gets Life Insurance After TruStage Outage - Hoodline",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUU9MN3Qtb3dvcDRnd1lJeEVXdXlnWnpMUTV1RXJWa2pRZG1NUG05OXVtdUhFZTNCaENMTHJtUUx5N3RrbUIwcVpfUzh2VUpXQVJTV0wxamhyNDkyNU03N1NoanhJU1VUNV9LdUI3ZE5VTXpKSENPLV9zbm4zYkpjSVNUZ0d1WEtJR05pSkRCOEdfc3ZGR185ZXRjenVxLVlmZWxOZ09BcUtUdHpzWjNHYVBscDA5QQ?oc=5",
+        "date": "Thu, 01 Oct 2026 07:00:00 GMT",
+        "source": "Hoodline",
+        "rank": 35,
+        "age_days": 34.645496663935184,
+        "cypher_matches": [
+          "TruStage outage"
+        ]
+      },
+      {
+        "title": "AI-Powered hackers, 2,900 attempts a minute: Microsoft blames China-linked group for AI-assisted ConnectWise cyberattack - Business Today",
+        "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQWDY3OVptZ2xBTjAxNXBtcmdkbTdFaXVwbERic2pfUjdHR0hCMXNtNHpzUWVKZC11MTRZUHBDZXJjV1YxTnctUjhSaEliZER1YVljaW5TRk9jaUhoaWQyTzd4cnZBNHdPT3k5VUg0WjdkSEF0MlpVS2VyOVZLY3RZM21xNWloMFVWS3ViMTNZVVE1czlURjFMMmZ6cXlNQUswenRtVm9HWm13aUZUQzBWaHFJWW9KMHAxcjAxSUcwZFNkZDQ2Y1gwdkpscDFYcFBRVkVMOFZEUGRZNmItdW9jdmFKR1loaVRUQXlLZmxGdU9Nd2xQQzhGWnpQYWZ5X2dkOTFSZG5rMFB1UzdlcTVrQmhKX0HSAZoCQVVfeXFMTWw5ZmZyR1hXMnNzbUxGenFfSEJDeXlOcnZCNlBWdktnWlM2ZFVLaTQ2Tk0tYTBkbENwdEVCN3lVQk8zc0FnMk95QVNfekRUUFNORG9MQXNPSURxcW1nWVFKZmxUQzF3Q1JiQlV0QkpNWGpLYnJBRUNwZl9wYTY4SmxBZ1lDMUpDX21wcGNXTVVJTmNBc3hTWnplcVZIcWM2Mi1kY3JZWlNiandYR0lvcU5NUVUwaGc0cHIwWDluaEVfNDZpaEVWZWZnZWRDZU9KdUlLeTVrT2VhR1M1XzlTTEp4dzB1Q0E3dV9SanZ6VTRxbWxEU25kQXZUcFhjMmYzTUsyRE95WWZxM2c1VV9sWlhvb2U0bzl0Y2dB?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "Business Today",
+        "rank": 36,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "Chinese-Linked Hackers Used AI Tool in ConnectWise Breach, Microsoft Says - Arab Times Kuwait News",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNFJKQ0J0M1Vpbko0eDdmX1B5N1QtRUNkNk1zTENSMUlWR29JWWx5NkNaenpxSExPTVFOSUF4V0RqTjJUUUJDOThNTDI2QXlCMjBEM3U4Y1JvWXg3UU9vWTBPRHBYbTIzQUI1OWhiYmhCLVdkaEs0cUFsN1M1Yk92YjN6Rm16bnl4VEI0TUQ4cVIzWjJHVTY0ek5HRUlGLXdPSHdmY3lhdTQ0Q29fYmZz?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "Arab Times Kuwait News",
+        "rank": 37,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "ConnectWise Breach Attributed to Nation-State Threat Actor - Arctic Wolf",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFRJMW1uOFJGWkFUdmx2eUVid2I1R201OUMyVFlUS0xwNWdaUm9ETDhQbmNWSlFoQUs1QUxFejg4TUo1NzJqMi1VeTMxVUxpTVNCWkhsLVhNZHhsTTRJbnZfZkxJT2xOejFnZXZ1UnI4V3oxamhEMXN2dzBJU0RkZWVqTG0zZjBEVzl0ckhHanNBREJXOTZKWTNvTU56QQ?oc=5",
+        "date": "Wed, 28 May 2025 07:00:00 GMT",
+        "source": "Arctic Wolf",
+        "rank": 38,
+        "age_days": 525.6454966639352,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "ConnectWise Hit by Cyberattack; Nation-State Actor Suspected in Targeted Breach - The Hacker News",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm1veS0ycVJDWkJmcmFhTllWcVBpVHdxOWtpYzBtUTIwVGNqLXJiLVk2OUl1MHRBS2NXMnZleWpwM2trZXFINmFCZTFiUkFpTHRTVFJUTjNqeEZTOHhEQ2dnNU5hRXgwS1pFaDhSZTN6T2tYNzViYVF6WTZOTG9Tc0VR?oc=5",
+        "date": "Fri, 30 May 2025 07:00:00 GMT",
+        "source": "The Hacker News",
+        "rank": 39,
+        "age_days": 523.6454966639352,
+        "cypher_matches": [
+          "ConnectWise breach",
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "ConnectWise Confirms ScreenConnect Cyberattack, Says Systems Now Secure: Exclusive - crn.com",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbzZXcmZrMTBWa0RiMXFUNmQ5amVCMWZra1g2M3Q5YU9VeGlqUlFadzBBWkd2ZGI3UklpaHBtRThBejNhVEpqeDNqeFZ1N3YtV3dteUFHdHpKNVdINTBsQjhBQUt5c2RQRURmQ25Hem9ZRlZRbFp1QjhfWjZIc2lrRENYN3BQZEt3Y1FVWFNDT1p3VEk5MGhxZGZqMTNCUmJXTC10SlluaFFxMTljbzB6R2xhN05NVkZCTlE0aHRacW8?oc=5",
+        "date": "Wed, 28 May 2025 07:00:00 GMT",
+        "source": "crn.com",
+        "rank": 40,
+        "age_days": 525.6454966639352,
+        "cypher_matches": [
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "ConnectWise breached in cyberattack linked to nation-state hackers - BleepingComputer",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNGo2OEF6MmdVelhmUGNZdmJjOEZLTGk0eE5SbHR0S1BpcndZdktJa09zODVVdmJ0cGxrdWd2STVIVXRBdXFvbl9Xa0NQcXFSVUF6S1p5bVZJQkpnYlUtX3Y1SFVOcWR6T1RES0NVb1k2b1I0MFZwUUFKenYwbms5VHp0cUNTWklVZkhWYUowcjlXLUJxcm9Ic1RPZ01kSHBkbDlUeUtCZEkyWWtXQVNjOEdOb1XSAboBQVVfeXFMUEJMdmV6RjhLclVsUDNHMDBiWndCblNvTF9kNHI0Y0xtTDh2VkFzN2haS05rajl0Z0JUd25PMlh5Q2dDTW9hZlpONjg4TDhmNjFrYUlCeWpuWGNhVGYweWRDbTZkQnlERkRGN09FNzRrWDdTR1lzR1A5NUVZaG1LNFo4bVh2clFDbDZNLW4tU0dibnFVcmUxQVVIdExRTzNBRkxWTTZqS012c2pLM014RFVFV2pCZGFfVWx3?oc=5",
+        "date": "Thu, 29 May 2025 07:00:00 GMT",
+        "source": "BleepingComputer",
+        "rank": 41,
+        "age_days": 524.6454966639352,
+        "cypher_matches": [
+          "ConnectWise breach",
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "Black Basta and Bl00dy ransomware gangs exploiting ConnectWise vulns - Computer Weekly",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdktRLVVJcnlFNV9uRFZpa1IxbjhWWmNZSXl4blMwbS15QVdpYm0xNG5Dd0FRb1F5Rm5OM0lQLWwyUzVoSFNJS3NLNUhISE1Mel9wd01YZ3I0MWM3bjFOT2NQMUxIM0NzcDBEbi1CRmZTbHE3bS1jNW9rUlh1SjRLd2J4WENmUUM3R0RRMEY2M2dWRWdnVTdSRy1pcF84UVEwUC1mQW1kN2ZVSlRQUWlF?oc=5",
+        "date": "Tue, 27 Feb 2024 08:00:00 GMT",
+        "source": "Computer Weekly",
+        "rank": 42,
+        "age_days": 981.6038299972685,
+        "cypher_matches": [
+          "ConnectWise ransomware"
+        ]
+      },
+      {
+        "title": "The Fed's system that allows banks to send money back and forth went down for several hours - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTGNZMml3YjZKY1BuZkl2Vl9nZmFodHdldzBESkJwdmtEYmtleWNTR3R3ZVk2cVlQWjdneTVtd1VDVEhpU2FJZHpJaWE2Nl9udGVLMHY2UVl3OXFZQW9NbndCc2NfX0RLbGU1cGNIRjA5LXZGdG1XX1J5dVNWZzZZNVZydUtrbUM5NEZHODFNVm1GYlE1eXVNeFMwR0oyN3FBZk5CTEVRV2F4WDjSAbABQVVfeXFMTldPWnJPZXEwVS1nOEYxZ3VQUUxSVVltS1ZoOW9Tb2RNbUZjXzdTekJGeHJvNDRid2xIY01QVVRwRGptVmNjZDJ1d1lLLTBLc2VGb0J3Z1NlT0REald5UHBZQ2VnMGwyUzZWaUUtY1k5dUlBR29pT0xpVEZ0ckVkVGd4M3BDdlVfNzI2QzJjbXJBTGxRVVVpVEJJbnVFOGFsS2VqTGFXdzRPVEEyeVRHcEw?oc=5",
+        "date": "Wed, 24 Feb 2021 08:00:00 GMT",
+        "source": "CNBC",
+        "rank": 43,
+        "age_days": 2079.6038299972683,
+        "cypher_matches": []
+      },
+      {
+        "title": "ConnectWise ransomware attacks affecting Automate customers - TechTarget",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUHJnaW5tMnUtbXlaYVp5TFhEVlUybDJWcms5S2VxLWdqWG16Y3B6NDVmYzlJWjEwZ1owVE5NYTdCSW1aeF9nWVJ3c1FJZURBN3U3UFcwYm5QLW5HdUhVY1ItTTZMQWVsZThpZWZUS21icGkwa3d1N2VEVjFUcTkxWnN6ZjkwSElaal9KbHYxMEhXN19fSklXTmRxUC1lN1F4?oc=5",
+        "date": "Fri, 08 Nov 2019 08:00:00 GMT",
+        "source": "TechTarget",
+        "rank": 44,
+        "age_days": 2553.6038299972683,
+        "cypher_matches": [
+          "ConnectWise ransomware"
+        ]
+      },
+      {
+        "title": "ConnectWise plugin flaw exploited in ransomware attacks on MSPs - TechTarget",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWRES1VCXzlmVEI3TFBZaUVoVHRkRmw4eFVubXZFT2V1VFk3Y2I4dHo1ZnZ0ZjU1ekVHZkhaZ2lFVm1nSHh1Zl9vZjd6UDdoc3ZxOVFIVFdCbS1MQU14UXNxbXlCdVJsanpfQVpKbVlLRDlvQXZSNENIUXE1cEJpR0oyTGxhS1AtUFRFdkFGZlZWa0pPdmhUR3ZYeVBFTGtDMzFOSHpB?oc=5",
+        "date": "Wed, 20 Feb 2019 08:00:00 GMT",
+        "source": "TechTarget",
+        "rank": 45,
+        "age_days": 2814.6038299972683,
+        "cypher_matches": [
+          "ConnectWise ransomware"
+        ]
+      },
+      {
+        "title": "ConnectWise breach exposes thousands of companies to China-linked cyber espionage - Traders Union",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZE1aNW5idjVMZF9hdmUzVlVseGJvbmdzVkFOSzIzZGJwdXVodzdxX0p2LVoyeEJ3S3hjYVczeVJnU0pWR3dqT1gyTzkwaC1uYmVzQlFvRW1EU0pZaS1BYlpiRlFWM3Q0SmoxdncwYlZvYm16Q0o5M3FRSzNVSi1XU3NXbWJIZTltV3VqSGNJRHdRV0VTX3BWS3Rn?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "Traders Union",
+        "rank": 46,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "Microsoft Says Chinese Hackers Used AI to Breach ConnectWise - Windows Report",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdW9GR0lseXhucW90VkI5cnVUcmo3NEFrb25FeGdDX3lXVG1uZmtaTGFUdzRpOEg1SXFLWlpjeUhFanY4RUtlWG5IaFB6QjFydE4zT3cyQzhCWnlSMTM0a1RpVEdIN3NOYWRwdEh5NThUNjhtNm9IeE0yekpvRUZkZVI3b0FiZFc4bm1rNFBkMmY?oc=5",
+        "date": "Thu, 22 Oct 2026 07:00:00 GMT",
+        "source": "Windows Report",
+        "rank": 47,
+        "age_days": 13.645496663935186,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      }
+    ],
+    "total": 47,
+    "cap": 15
+  },
+  {
+    "label": "bank-vendor-incidents-msp",
+    "variant": "leading7d",
+    "query": "when:7d (ConnectWise OR \"N-able\" OR TruStage OR Fedwire) (breach OR outage OR ransomware OR cyberattack)",
+    "url": "https://news.google.com/rss/search?q=when%3A7d%20%28ConnectWise%20OR%20%22N-able%22%20OR%20TruStage%20OR%20Fedwire%29%20%28breach%20OR%20outage%20OR%20ransomware%20OR%20cyberattack%29&hl=en-US&gl=US&ceid=US:en",
+    "captured_at": "2026-11-04T22:29:30.911764+00:00",
+    "parse_error": null,
+    "items": [
+      {
+        "title": "ConnectWise Breach: MSP Security Risks and Next Steps - Channel Insider",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM29LN3BZVDNHVTV1emNoT1haX3V4alVmSjVfMmEydjUyMDVUQ2pjdnEwOWhUQVJMcjFlRS1YaGs1NVktQU1SU2tvelNqa0gxNmFZekh4dUowYWl4NEVfNHhGR2xOQTFVVVoxWGpBSl91djA1SlZEaXlJR1lKcmRlakJOSE1aTGlGeDlTOWpFS0xuUlB5STQtSUU2Nkt5NVlOSGhGeXNZYklpaHJ2ZmJZ?oc=5",
+        "date": "Tue, 03 Nov 2026 11:59:13 GMT",
+        "source": "Channel Insider",
+        "rank": 1,
+        "age_days": 1.4377073120833335,
+        "cypher_matches": [
+          "ConnectWise breach"
+        ]
+      },
+      {
+        "title": "N-able unveils AI-powered vulnerability and patch management tools - MSSP Alert",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVXRQU05SY283YmJPLTlZMVhjby1BenF6b1ZURGU4SXNGZ05PeVhGUWx4VTV6Nkt0SXBtWU5ZOXgtUWhDQTNaU2NMbl96WDh3MnZiTm5oa2J3MU9HMjZvenpSTWxmb3BGc1B3Mm5iVHRoQWRHUFVZcXdXdjVmSjZBS1A5LUE0MjliOVVHTi1yVFRyNWNJNkFtMzlKRHZFNU9rMHd1WlNR?oc=5",
+        "date": "Thu, 29 Oct 2026 13:26:43 GMT",
+        "source": "MSSP Alert",
+        "rank": 2,
+        "age_days": 6.376943423194444,
+        "cypher_matches": []
+      },
+      {
+        "title": "Cyberattacks October 2026: Binance, ConnectWise, Warp AI, Sony So-net hit by security breaches; millions of credentials exposed? | Explained - ET Now",
+        "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOEVMWHF5a3F6MnhHTmEzTFQ5VzRTWDZsVEhvU3U1RURHbV9XV0JQcFpwMndiSzNfbFF2VnFfUk10aWg1OTlFUFgxZkR4YTliamh2MVFrTnMzSVgzU0tscVlkX29iUG0zeHc3ZnQ3TmJMQ05TcElVX1dLSld2cDRONmhXcFFocUpuWmhhOERFQVZSZGMwdXRrU3NKb1k4RURJSllfQVRxaXMxUmRieERrLUpUbFlacGRsWlpaN2ltdGJOZ0Z5ak9yZlhwVHVsT21mSjM1blgxb0VFbXdvVGFkaXBHc3ItTGs2Q2FINi0za3pwbl84ajlKRDBtUzVRRWVjcld4TFp0SFRMSXZNaTlXWkNCNEJXd9IBmwJBVV95cUxPS1ZkcDNOSmtKUFd4VDBJT2tOd3V4M3NRXzNFaThHX0ZYV3RhTFh3a1NmYjZxbUlmOUlPQ0RrTzQzc1hrMm1uQ1JGTUp5dFlKOVhNQTlRNENuc3JWb3R1SldIQVM3SWtSUW05SU1QT3N5V2hRU0RuVXlPejM3aHlfVTBkLU0xd2UxSXRoMEY3TkE4bEZvNml4cC1uRkJXc19Bc3ZmRWMtenE1VlltMFhFVHhjVDJxV0dpWmJISXE4aHZwNFI1bUxQWEdUOF9xZkRiUEpkVnA5Y0cxY0VJZDBkRmxkMVhJZGUtS0lyUjV2YmZOVTBjMGRESXlWTFJ6WjBaY0NwZkJnek1FWExUNzBRdzIwS2tHWHRTWC1V?oc=5",
+        "date": "Fri, 30 Oct 2026 05:50:31 GMT",
+        "source": "ET Now",
+        "rank": 3,
+        "age_days": 5.69374897875,
+        "cypher_matches": [
+          "ConnectWise breach",
+          "ConnectWise cyberattack"
+        ]
+      },
+      {
+        "title": "Another major AI attack hits the internet \u2014 this time targeting the backbone of American capitalism - Blaze Media",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53bHFtY2dKM1h3dmE0SUsyYzcwLUd5M2V5cGpXNWktSXlYMjBRZnRkS295c0RPS09EVEtmc19oUEVvSGJYUkFzc1BGSW5yQVZzWTdVbTh3SzV0UW9oc3E2MjcwbmUwdHM?oc=5",
+        "date": "Thu, 29 Oct 2026 14:47:55 GMT",
+        "source": "Blaze Media",
+        "rank": 4,
+        "age_days": 6.320554534305555,
+        "cypher_matches": []
+      },
+      {
+        "title": "China\u2019s cyber espionage becomes harder to contain due to AI-enabled scale, speed - IANS LIVE",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOEJ5cmtzeklEd2pLU1F5UVB0WjVfMllCcjI0b3RUYkRJQkExaW9FY2MwSHRYeGJBYkpLQkVWd0ZVeGo1RVEza3NEQk1GNWt1ampWeTJGdDU4VjBGZDgzUU5aZFhVWjZDdVRJdmZOVDR5dFJ0dmhLZnYyQTlfZDk3VGh4TTlHQktVckZhNjlCYzNXdkVvZEo2Vy01NXR2TWV5S21WdVUtLWpYT1FCellPeW5pN0g?oc=5",
+        "date": "Sat, 31 Oct 2026 10:20:00 GMT",
+        "source": "IANS LIVE",
+        "rank": 5,
+        "age_days": 4.506607775046296,
+        "cypher_matches": []
+      },
+      {
+        "title": "Binance founder CZ says banks may be more vulnerable to cyberattacks than crypto exchanges - Business Upturn",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGdzSFV3c2t6V2RtaGE4cTByUFlqQ2JjSWRnXy13QTd3aHZQcXA5Wm1sZVBYQUxrUTdRYkRGeGZXNmJiRFNRY3FNcXNsVGkwcUxaQjNST3JVYTdnQzMwWk9sRTFlb2w5Zk5wc2lqSm5lWmhfT3A1RVNhZzRCNFFSVmJyQ09fVTltNXRWc19XV2ZEYTRMOHVqM1ptYkZieGc?oc=5",
+        "date": "Tue, 03 Nov 2026 13:00:00 GMT",
+        "source": "Business Upturn",
+        "rank": 6,
+        "age_days": 1.3954966639351851,
+        "cypher_matches": []
+      },
+      {
+        "title": "China\u2019s cyber espionage becomes harder to contain due to AI-enabled scale, speed New Delhi, Oct 31 (IANS) China-linked cyber operations, particularly by state-aligned hacking groups, are becoming harder to contain as artificial intelligence (AI) and automa - The Rahnuma Daily",
+        "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQb19mTU80cW9sVGdYNlJiTEFtSW5xN0ZRbHQ1S1gxOHFTeUoweWlzaDBUV2J5RlM2OGhjQ0M2ZDNHVnRRV09HWDd3Ti1PZ1dOZ0Vaem5SV0RRVWtweDZuVjJuQm03WXNscEpGa05qdVZhSHZnd0pUWFRVNTdaMEl1cjQ3T0xjOEwwQmRua095bll6RGQ2RTVNc1VXbVNZRmtMV1hZYnBpUEx3YU5KMXJid1pvSlZ3a3RXRU81WlhraTJnVUdYcC0wVnlHUTRSYUNmN3BFYmplYVVMTkxaRUEzckY1alVQbk1IcTR0NWhtZ0JzM05Fd1Jlb29qSkpUYnpISWE4dklhbWw0THYwbFYyOEItNTd6Ym1yQzNoaDUyUVB4MkxDZU1vR19DcVJFNGotZ1E?oc=5",
+        "date": "Sat, 31 Oct 2026 18:40:20 GMT",
+        "source": "The Rahnuma Daily",
+        "rank": 7,
+        "age_days": 4.159154071342593,
+        "cypher_matches": []
+      }
+    ],
+    "total": 7,
+    "cap": 15
+  }
+]

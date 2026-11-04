@@ -1,0 +1,138 @@
+{
+  "rule": "\\b(?:notes? offering|bond offering|commercial paper|credit facilit(?:y|ies)|revolver|refinanc\\w*|debt financ\\w*|loan|stake|joint venture|acquisition|tender offer|debt exchange)\\b",
+  "counts": [
+    {
+      "day": "2026-10-01",
+      "cruise_rows": 22,
+      "known_rows": 15,
+      "candidate_indices": [
+        11
+      ]
+    },
+    {
+      "day": "2026-10-05",
+      "cruise_rows": 16,
+      "known_rows": 13,
+      "candidate_indices": [
+        7
+      ]
+    },
+    {
+      "day": "2026-10-06",
+      "cruise_rows": 18,
+      "known_rows": 15,
+      "candidate_indices": [
+        8
+      ]
+    },
+    {
+      "day": "2026-10-07",
+      "cruise_rows": 17,
+      "known_rows": 11,
+      "candidate_indices": [
+        2,
+        5
+      ]
+    },
+    {
+      "day": "2026-11-02",
+      "cruise_rows": 15,
+      "known_rows": 15,
+      "candidate_indices": []
+    },
+    {
+      "day": "2026-11-03",
+      "cruise_rows": 16,
+      "known_rows": 16,
+      "candidate_indices": [
+        7
+      ]
+    },
+    {
+      "day": "2026-11-04",
+      "cruise_rows": 15,
+      "known_rows": 15,
+      "candidate_indices": []
+    }
+  ],
+  "candidates": [
+    {
+      "day": "2026-10-01",
+      "index": 11,
+      "title": "NCLH prices upsized $950m private notes offering - Seatrade Cruise News",
+      "source_date": "Thu, 01 Oct 2026 12:29:06 GMT",
+      "entity": "Norwegian Cruise",
+      "classification": "KNOWN"
+    },
+    {
+      "day": "2026-10-05",
+      "index": 7,
+      "title": "Royal Caribbean acquires stake in major resort operator - AOL.com",
+      "source_date": "Mon, 05 Oct 2026 18:03:00 GMT",
+      "entity": "Royal Caribbean",
+      "classification": "KNOWN"
+    },
+    {
+      "day": "2026-10-06",
+      "index": 8,
+      "title": "Royal Caribbean snags 50% stake in Sandals Resorts for $3B - The Business Journals",
+      "source_date": "Tue, 06 Oct 2026 12:50:00 GMT",
+      "entity": "Royal Caribbean",
+      "classification": "KNOWN"
+    },
+    {
+      "day": "2026-10-07",
+      "index": 2,
+      "title": "Morgan Stanley Selling Pieces of $3 Billion Royal Caribbean Loan - Bloomberg.com",
+      "source_date": "Wed, 07 Oct 2026 16:41:23 GMT",
+      "entity": "Royal Caribbean",
+      "classification": "KNOWN"
+    },
+    {
+      "day": "2026-10-07",
+      "index": 5,
+      "title": "Morgan Stanley selling pieces of $3 billion Royal Caribbean loan - Bloomberg News - TradingView",
+      "source_date": "Wed, 07 Oct 2026 17:06:25 GMT",
+      "entity": "Royal Caribbean",
+      "classification": "KNOWN"
+    },
+    {
+      "day": "2026-11-03",
+      "index": 7,
+      "title": "Royal Caribbean and Sandals announce $3bn joint venture - micebook.",
+      "source_date": "Tue, 03 Nov 2026 11:47:30 GMT",
+      "entity": "Royal Caribbean",
+      "classification": "KNOWN"
+    }
+  ],
+  "sources": [
+    {
+      "path": "/home/willi/Research-Intake/data/2026-10-01/news.json",
+      "sha256": "8afdad12a9074b2c785af7500214b8e51be94d67f8e85e62a0c7f3539029e850"
+    },
+    {
+      "path": "/home/willi/Research-Intake/data/2026-10-05/news.json",
+      "sha256": "0b59b2c5a76c37ee94e84795d4fb5ff511776501153019f4a24a8d938675c5cc"
+    },
+    {
+      "path": "/home/willi/Research-Intake/data/2026-10-06/news.json",
+      "sha256": "ac2f4f3d77a44fdb1c2b8a4f021e8e2fc1c68b36ddb2b4ebf44bf39124ea9036"
+    },
+    {
+      "path": "/home/willi/Research-Intake/data/2026-10-07/news.json",
+      "sha256": "522a73b7cff53d113ef375afa3265fb8d6a0d0b7938d0c5a5ea9d3653b98a500"
+    },
+    {
+      "path": "/home/willi/Research-Intake/data/2026-11-02/news.json",
+      "sha256": "edfab058d31c795126b00dfbb549a55bb8070e7d33d4fb77341403eceb62f7c4"
+    },
+    {
+      "path": "/home/willi/Research-Intake/data/2026-11-03/news.json",
+      "sha256": "f555b644213e076dfb72e3445816589c53248c67602f99b24b8ebca76556b317"
+    },
+    {
+      "path": "/home/willi/Research-Intake/data/2026-11-04/news.json",
+      "sha256": "5c83fa5cda13b1c10444953f3b7fbef345bd452deb2b7aad0c5cc90093a189d5"
+    }
+  ]
+}

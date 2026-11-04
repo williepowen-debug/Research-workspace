@@ -1,0 +1,107 @@
+WALTER doctor — 2026-11-04
+========================================================================
+
+[future_timestamps]
+  ✓ INFO 414 field(s) use WALTER's approximate-minute convention (e.g. 2026-08-15T02:3xZ) — a KNOWN convention, NOT a defect and NOT silently passed. ⚠️ The DATE part is still fully validated: the `x` is a claim about PRECISION, not a waiver. Tolerable because the age basis slices [:10] and reads that date; a defect the day any consumer needs the minute.
+
+[restated_set_drift]
+  ✓ INFO restated sets match canon (pull-complete = {CARL, PROME, RED, TERRY}; clusters = 13)
+
+[board_reconcile]
+  ✓ INFO BOARD reconciles: 1979 signals (ToC = sections = files = TOTAL)
+
+[log_reconcile]
+  ✓ INFO route_log reconciles with BOARD (1979 signals)
+  ✓ INFO delivery_log: all 1664 delivered SIG-ids have a BOARD file (post-6/17 coverage)
+  ✓ INFO delivery_log: 22 non-dispatch NOTE row(s), all classified in registry/NOTE_ROWS_REVIEWED.tsv; preserved as history, NOT BOARD-reconciled
+
+[intake_liveness]
+  ✓ INFO lane live (last_run 2026-11-04T21:01:17Z, 0d / 0 missed weekday run(s), 6 feeds ok); gate via boot-7e intake_scan.py
+
+[outbox_age]
+  · LOW  REQ-PROME-20261016-vulcan-intake-design.md: 19d since mtime — read whole and check owner disposition; age alone does not establish unresolved work or justify escalation
+  ✓ INFO 61 other outbox artifacts retained; 35 older than 30d by mtime (oldest VERIFY-20260831-iran-weekend-claims.md, 65d). Inventory only, not pending/completed status; current duties live in LAST_COMPLETION.
+
+[registry_staleness]
+  · LOW  Tier-1 registry-date >14d (1): YEYOU (76d) — see registry_lag to tell dormant from lagging
+
+[registry_lag]
+  ✓ INFO dormant — registry accurate, not lagging (2): ATHENA (235d), YEYOU (76d)
+  ✓ INFO no STATUS.md — dir-fallback unreliable (may be cross-agent commits), NOT flagged: RAV (dir +90d vs 2026-08-02), DARWIN (dir +71d vs 2026-02-18), DEWEY (dir +11d vs 2026-10-22)
+  ✓ INFO incidental STATUS touch, not a real lag (2): PROME (commit 2026-11-04 but STATUS hdr 2026-11-03 ≤ reg 2026-11-03), SENTRY (commit 2026-09-24 but STATUS hdr 2026-05-09 ≤ reg 2026-05-09)
+  ✓ INFO no registry rows lagging the agents' actual STATUS commits
+
+[registry_self_lag]
+  ✓ INFO WALTER self REGISTRY row is current vs STATUS.md header
+
+[liaison_enum]
+  ✓ INFO LIAISON files (2): CARL 183d · RED 151d
+
+[delivered_but_unconsumed]
+  · LOW  pull-complete agents (WALTER skips delivery per §3.5) have handoffs to ARCHIVE not consume: CARL 1 — owner filing review (one-time; if NEW, WALTER mis-delivered)
+  ⚠ MED  59 unconsumed >2d across 20 agents (of 282 in flight — the rest are within the grace period, NOT evidence they are consumed) — 21 ACTION / 38 INFO, oldest ACTION 16d · oldest INFO 6d: CARL 5(5A/0I); CORAL 4(3A/1I); HANS 5(2A/3I); HOMER 4(1A/3I); WATT 3(1A/2I); SHADE 3(1A/2I); LABOR 2(1A/1I); OTTO 2(1A/1I); VIOLET 2(1A/1I); CRUISE 2(1A/1I); VULCAN 2(1A/1I); CREED 1(1A/0I); FALCON 1(1A/0I); CATO 1(1A/0I); HAWK 15; SAM 2; AEOLUS 2; ORACLE 1; MARCO 1; OZK 1 [age from delivery_log.timestamp_routed] — review recipient consumption evidence and its boot procedure; a procedure installation alone does not establish consumption
+
+[board_log_path_divergence]
+  ✓ INFO REGINALD: consumption record read from `board/BOARD_LOG.tsv`, NOT the canonical `board_log.tsv` — resolved by fallback and reported so the divergence is visible; the desk is free to keep its own layout
+
+[written_but_undelivered]
+  · LOW  DEWEY: 2026-11-04_existing-003R-005R-reconciliation.md written, uncommitted (mid-session)
+
+[delivery_claim_vs_git]
+  ✓ INFO 5814 row(s) point at a path that no longer exists but WAS in git (consumed-by-delete, or a retired inbox dir) — delivery confirmed, path stale; log hygiene, not a gap
+
+[deep_research_pending_overdue]
+  ⚠ MED  REQ-DEWEY-20261022-003R: deep-research flag PARTIAL past deadline 2026-11-03 (1d overdue) — run it or drop it
+
+[dewey_handoff_liveness]
+  ✓ INFO inbox/DEWEY/ clear — no unprocessed DEWEY handoffs
+
+[staleness_sweep_overdue]
+  ✓ INFO staleness sweep 6d ago (last 2026-10-29, ≤14d)
+
+[dropzone_pending]
+  ✓ INFO inbox/WILL/ drop-zone empty
+
+[status_spine_overflow]
+  ✓ INFO STATUS.md spine at 1 lead(s) (≤5)
+
+[full_closeout_owed]
+  ✓ INFO 0 stacked `full deferred` breadcrumb(s) since the last full closeout ('FULL CLOSEOUT — 2026-11-01T00:52:52Z — approved verdict F1/F2 amendment') — under the >=3 trigger
+
+[status_bottom_line]
+  ✓ INFO STATUS.md `## BOTTOM LINE` present (line 4) with a nonempty section
+
+[cluster_review_overdue]
+  ✓ INFO AI_INFRA_CAPEX (218) reviewed 25d ago (AI_CAPEX_AXIS_CHECK_2026-10-10.md) — within the 30d window
+  ✓ INFO large clusters never coherence-reviewed (12, >=25 signals): BANK_COLLATERAL 312 · IRAN_HORMUZ 287 · CONSUMER_STAGFLATION 258 · POSITIONING_VALUATION 185 · HYDROCARBON_INFRA 164 · FED_FRAMEWORK 128 · PC_STRESS 123 · ASIA_CHINA 87 · MISC 85 · INFLATION_TRANSMISSION 59 · CLIMATE_MACRO 40 · CYBER 33 — informational, not a backlog; review is cheap and on-demand
+
+[registered_but_unrouted]
+  · LOW  Tier-2 registered but unrouted (7): ATHENA, BARON, DARWIN, HERMES, ORACLE, RAV, SENTRY — expected if spawn-on-demand; confirm it is intentional.
+
+[correction_target_declared]
+  ✓ INFO all 154 correction signal(s) declare a resolvable target (SIG-ID / SELF / EXTERNAL)
+
+[correction_kill_strings]
+  ✓ INFO kill_strings since 2026-09-24: 26 correction(s) carry it; 53 pre-enforcement miss(es) counted, not backfilled (enforcement from 2026-10-29T16:00:00Z)
+
+[batch_manifest_open]
+  ✓ INFO no OPEN batch manifests — NOTE: cannot see an UNDECLARED batch; green here is not evidence that no input was dropped
+
+[dispatch_frontmatter]
+  ✓ INFO dispatch header presence/shape checked in 421 recent signals; not delivery or action completeness
+
+[action_line_rule]
+  ✓ INFO no §3.5.4 candidates in 421 signal(s) over 14d -- NOTE: detects ask-LANGUAGE, not asks; an ask phrased outside the registered constructions is invisible here
+
+[filed_vs_consumed]
+  · LOW  FILED not CONSUMED: 2026-11-04_from-ISHM_equipment-and-october-rail-backlog.md moved into WALTER's processed/ (f3152bf6a) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+  · LOW  FILED not CONSUMED: 2026-11-04_from-LIQUID_ROUTE-renewed-HY320-persistence.md moved into WALTER's processed/ (baa25ef70) with no consume:WALTER declaration — if a live WALTER session really consumed it, append to processed/.consumed.tsv
+
+[entities_at_dispatch]
+  ✓ INFO all 1233 signal(s) since 2026-08-19 declare `entities:` except 11 reviewed historical miss(es) in ENTITIES_MISSES_ACKNOWLEDGED.tsv
+
+[index_generated_fresh]
+  ✓ INFO generated INDEX fresh (rowset 0429eadbf380, 1979 signals; 1979 live rows hashed and matched — banner AND content)
+
+========================================================================
+✗ 2 item(s) need attention (HIGH/MED). See punch-list above.

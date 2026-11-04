@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-11-04T22:32:56Z",
+  "scope": "Manual lead-excerpt review, not whole owner STATUS or lifecycle census",
+  "available_headers": 43,
+  "rows": 49,
+  "updated": {
+    "PROME": [
+      "2026-11-03",
+      "November 3 owner closeout; operating decisions in WILL_QUEUE and dated work in DOCKET. Header is not current fleet-lifecycle proof."
+    ],
+    "WAL": [
+      "2026-11-04",
+      "Bounded Q3 Call Report retry failed; extraction remains UNCHECKED. Summary labels reconciled to completed October 30 grade; no new grade."
+    ],
+    "LIQUID": [
+      "2026-11-04",
+      "Substantive first-published credit/funding reconciliation: renewed HY persistence MET, BROADENS; generalized funding seizure not established. Source/repair limits remain owner-held."
+    ],
+    "ISHM": [
+      "2026-11-04",
+      "L899 surveys and equipment/import/Emerson/five-week rail backlog completed with named source exceptions. Selective expansion; J1/J2 contraction warnings NOT-MET; no score change."
+    ],
+    "DAEDALUS": [
+      "2026-11-04",
+      "Harness remaining-items reconciliation complete at bounded scope; owner application and whole-audit closure PARTIAL. No whole-fleet clearance."
+    ],
+    "NEXUS": [
+      "2026-11-04",
+      "Session closed; November 3 occurrence completed, next weekly wake November 10. L631 retains M-01/M-05 source windows; analytical cutoff unchanged by administrative closeout."
+    ],
+    "WALTER": [
+      "2026-11-04",
+      "Full maintenance closeout: 76 day cards/209 published handoffs; DEWEY005R resolved/003R partial; three coverage recommendations complete, not deployed. Current duties LAST_COMPLETION.md."
+    ]
+  }
+}

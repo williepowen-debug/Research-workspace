@@ -1,0 +1,18 @@
+{
+  "commit": "c187390078c57b26d32510b1e73ca22575cee0cb",
+  "review": "Full changed hunks manually read. Topology pointers already loaded; prose/Kernel-custody pointer and mode-count cleanup introduce no new WALTER operation. Kernel custody inapplicable; no authority widened. Central READS reattestation remains owner-dependent.",
+  "changes": {
+    "AGENTS.md": {
+      "old": "70ec98ebc0c046d5db796b208f15ef7fd4552f6ef8634e550cfcf8f117a1c5b0",
+      "new": "4c545a430b75927f3ab83980ef01fab05d9b8bb80491ed9209f72bb482245ccc"
+    },
+    "CLAUDE.md": {
+      "old": "065546bee3e07acfabe13e82dc243c79b26a79968b7b38db1964e204e6a17644",
+      "new": "e4d650bdbb58a5136f797fb6f5f2325e41106e8ed51a7324526fc2307229e37b"
+    },
+    "PROME/ORCHESTRATION_PLAYBOOK.md": {
+      "old": "4b5f5010c420c9c28da6fa73907efd9bd4e310d7ee7c9111a823bd1ec5e0640d",
+      "new": "d5b9d0f9ae555f3be9612f989f72c876c0353be6564115f18a6b7c844ff4c2e9"
+    }
+  }
+}

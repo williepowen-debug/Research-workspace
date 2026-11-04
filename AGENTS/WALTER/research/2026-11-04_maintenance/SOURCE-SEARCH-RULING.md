@@ -1,0 +1,14 @@
+## SOURCE-SEARCH DISPOSITION — approved by Will2026-10-16
+
+Approval: “okay approving your recs for #4. You can do that when free/after our work on #1.” Applied after completing the instruction audit. **Repeated discretionary searches are closed; the uncertainties and owner decisions are not.** No unattended monitor is installed. Mandatory boot/anchor checks and new material evidence still apply; this is not permission to label a source gap clean.
+
+| Gap | Search disposition | Reopen when / owner |
+|---|---|---|
+| Iran vessel status and Saudi infrastructure | Stop repeating the same unsuccessful access/search attempts. Keep contradictory chronology, partial-perimeter limits and owner census explicit. | Fresh IMO/UKMTO/operator/official evidence, materially better dated reporting, or FALCON/BRENT owner review that needs the missing fact. FALCON owns loss/asset grades; no all-clear or guard reset. Evidence: verify-iran-full-followup.md. |
+| Volta exact final yield | Stop searching for precision absent from the recovered report. Reported sale terms remain usable with unnamed-source and non-closing-document qualifications. | Final issuer/transaction documents or materially better reporting; VULCAN/LIQUID still own S5/L3 judgments. Evidence: verify-credit.md; signal017. |
+| Korea exact primary close total | Close this pass. Secondary closing-buy direction is supported; exact amount and market perimeter remain uncertain. | Next normal SAM/source update if the exact amount affects the decision, or an accessible KRX record. Do not retry the same failing query without changed access/evidence. Evidence: verify-hans.md; signal022. |
+| Missing current-week Baltic freight body | Close repeated retrieval attempts; older report is dated context only. | New accessible Baltic report or next normal BRENT freight review where current rate matters. Evidence: verify-energy.md; signal024 and tanker-cost-watch records. |
+| Official oil/gas settlement basis | Stop general-web hunting for a value that proxies cannot certify. Preserve live/last-trade versus registered-settlement distinction. | Reliable exchange/settlement source or owner-supplied record with contract, session and basis; BRENT/HANS own grades. Mandatory scheduled checks remain. |
+| CREED property/event/cohort census | Stop treating additional broad searches as a substitute for owner-level census. Current qualitative/cohort limits remain UNKNOWN. | Relevant filings/events or owner record covering the required perimeter and both legs. CREED launch still requires explicit Will permission; none inferred here. Evidence: verify-credit.md. |
+
+Other gaps, including HANS T12's missing feed and owner-method decisions, remain as previously recorded. This approval supplies neither an instrument nor a grade and does not close unrelated obligations.

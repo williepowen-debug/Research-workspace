@@ -9,3 +9,5 @@ Source-use correction: M3 core cells Table5 PDFpage10, not Table6. Last percent 
 Remaining: single-current-vintage import history/direct monthly import y/y retryNovember6; October-edition AAR publication date unknown, revisitDecember2; Emerson customer destocking and quantified AI share NOT-STATED. Original S&P composition exception/retryNovember6 and PHNovember5 unchanged. Calibration/equity thermometer outside this assignment.
 
 NEXUS_BRIEF was still the earlier16:19ET survey brief at this read, with stale backlog carries. Owner is closing; no edit or inference that updated brief has been delivered. New owner REPORT/STATUS and board_log govern this consumption. No reply requested or sent. Normal publication separate from owner consumption.
+
+Follow-up verified during approved maintenance: final ISHM NEXUS_BRIEF now dated November4 17:22ET, pinned STATUS17f70b488; owner closeout921701b56 records completed backlog and exact exceptions. This supersedes the earlier pending-brief observation only.
