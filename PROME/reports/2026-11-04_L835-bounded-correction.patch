@@ -1,0 +1,195 @@
+--- a/PROME/tools/argus_contract.py
++++ b/PROME/tools/argus_contract.py
+@@ -193,12 +193,62 @@
+ IGNORE_FILES = ('.gitignore', '.gitattributes')
+ 
+ 
++def _ignore_witness(sc, pattern, parent, salt='x'):
++    """A path below parent that matches pattern, or None when none exists."""
++    parts = tuple(pattern.split('/'))
++    base = tuple(parent.split('/'))
++
++    def walk(i, j, extra):
++        if len(extra) > len(parts):
++            return None
++        if i == len(parts):
++            candidate = '/'.join(base + extra)
++            return candidate if extra and sc._match(pattern, candidate) else None
++        segment = parts[i]
++        if segment == '**':
++            found = walk(i + 1, j, extra)
++            if found is not None:
++                return found
++            if j < len(base):
++                return walk(i, j + 1, extra)
++            return walk(i, j, extra + (salt,))
++        if j < len(base):
++            if sc._match(segment, base[j]):
++                return walk(i + 1, j + 1, extra)
++            return None
++        candidate = re.sub(r'[*?]', salt, segment) or salt
++        return walk(i + 1, j, extra + (candidate,))
++
++    return walk(0, 0, ())
++
++
++def _wholly_excluded(sc, parent, rules):
++    """An EXCLUDED terminal /** covers the subtree only absent an earlier non-EXCLUDED match."""
++    ancestors = [str(parent)] + [str(p) for p in PurePosixPath(parent).parents if str(p) != '.']
++    for i, (pattern, cls, _) in enumerate(rules):
++        if cls != 'EXCLUDED':
++            continue
++        covers = pattern == '**' or (
++            pattern.endswith('/**') and any(sc._match(pattern[:-3], p) for p in ancestors))
++        # The segment witness walker cannot decide embedded ** (a**b): the
++        # classifier lets it cross separators. Treat that earlier rule as
++        # potentially overlapping, never use a missing witness as exclusion proof.
++        if covers and not any(
++                earlier_cls != 'EXCLUDED' and (
++                    any('**' in segment and segment != '**' for segment in earlier.split('/'))
++                    or _ignore_witness(sc, earlier, parent) is not None)
++                for earlier, earlier_cls, _ in rules[:i]):
++            return True
++    return False
++
++
+ def never_advisory(sc, path, rules):
+-    """Paths whose edit changes what the gate can SEE — the perimeter (the rules) and git ignore/attribute files (the
+-    porcelain inventory). Such a path is never advisory, never attributed by its commits and never observed-only:
+-    it is delivered (reviewed) or it blocks (readers 10/24: CE8b, CE-G1 ❌2, ❌A, ❌B). An ignore file is guarded only
+-    where it can hide a non-EXCLUDED path under the PINNED rules: the root and any directory the rules do not class
+-    EXCLUDED (reader ⚠️C: a desk's nested ignore file in its own EXCLUDED lane stays advisory). No rules ⇒ guarded."""
++    """Perimeter and visibility-controlling files require delivery, never attribution.
++
++    Root ignore/attribute files are always guarded. A nested one is guarded when
++    any alternative path below it is non-EXCLUDED under the pinned first-match
++    rules. Uncertain alternative coverage fails guarded; wholly excluded research
++    and inbound-only subtrees stay advisory."""
+     if path == sc.PERIMETER_FILE:
+         return True
+     pp = PurePosixPath(path)
+@@ -207,8 +257,27 @@
+     if rules is None:
+         return True
+     parent = str(pp.parent)
+-    probe = '.ignore-probe' if parent == '.' else f'{parent}/.ignore-probe'
+-    return sc.classify(probe, rules)[0] != 'EXCLUDED'
++    if parent == '.':
++        return True
++    probe = f'{parent}/.ignore-probe'
++    if sc.classify(probe, rules)[0] == 'UNATTRIBUTED':
++        return True
++    for pattern, cls, _ in rules:
++        if cls == 'EXCLUDED':
++            continue
++        matched = False
++        for salt in ('x', 'y', 'z', 'other', '0', '1', '_'):
++            witness = _ignore_witness(sc, pattern, parent, salt)
++            if witness is None:
++                continue
++            matched = True
++            if sc.classify(witness, rules)[0] != 'EXCLUDED':
++                return True
++        if matched and not _wholly_excluded(sc, parent, rules):
++            return True
++        if not matched and pattern.startswith(parent + '/'):
++            return True
++    return not _wholly_excluded(sc, parent, rules)
+ 
+ 
+ def pinned_rules(manifest):
+--- a/PROME/tools/tests/test_argus_contract.py
++++ b/PROME/tools/tests/test_argus_contract.py
+@@ -703,6 +703,82 @@
+         self.assertIn(UNC.format('AGENTS/BROCK/.gitignore'), lines)
+         self.assertEqual(self.foreign_lines(lines), [])
+ 
++    def test_l835_nested_scope_uses_the_whole_subtree(self):
++        rules = sc.load_perimeter()
++        for path in ('.claude/.gitignore', 'AGENTS/.gitignore', 'AGENTS/BROCK/.gitignore',
++                     'scripts/.gitignore', 'PROME/.gitignore', 'newtop/.gitignore'):
++            with self.subTest(path=path, guarded=True):
++                self.assertTrue(ac.never_advisory(sc, path, rules))
++        for path in ('AGENTS/BROCK/research/.gitignore', 'PROME/inbox/.gitignore'):
++            with self.subTest(path=path, guarded=False):
++                self.assertFalse(ac.never_advisory(sc, path, rules))
++        self.assertTrue(ac.never_advisory(sc, '.gitignore', rules + [('.*', 'EXCLUDED', 'dotfiles')]))
++        self.assertTrue(ac.never_advisory(sc, 'AGENTS/BROCK/research/.gitignore', None))
++
++    def test_l835_first_match_exclusion_does_not_hide_alternative_owned_witness(self):
++        rules = [('root/.gitignore', 'EXCLUDED', 'ignore control is foreign'),
++                 ('root/x', 'EXCLUDED', 'one excluded exact child'),
++                 ('root/*', 'OWNED', 'other direct children owned'),
++                 ('PROME/**', 'OWNED', 'delivery lane')]
++        self.assertEqual(sc.classify('root/y', rules)[0], 'OWNED')
++        self.assertEqual(ac._ignore_witness(sc, 'root/*', 'root'), 'root/x')
++        self.assertEqual(sc.classify('root/x', rules)[0], 'EXCLUDED')
++        self.assertTrue(ac.never_advisory(sc, 'root/.gitignore', rules))
++
++    def test_l835_later_broad_exclusion_does_not_override_earlier_owned_rule(self):
++        rules = [('root/.gitignore', 'EXCLUDED', 'ignore control is foreign')]
++        rules += [(f'root/{name}', 'EXCLUDED', 'excluded witness') for name in
++                  ('x', 'y', 'z', 'other', '0', '1', '_')]
++        rules += [('root/*', 'OWNED', 'other direct children owned'),
++                  ('root/**', 'EXCLUDED', 'later broad exclusion'),
++                  ('PROME/**', 'OWNED', 'delivery lane')]
++        self.assertEqual(sc.classify('root/q', rules)[0], 'OWNED')
++        for salt in ('x', 'y', 'z', 'other', '0', '1', '_'):
++            self.assertEqual(sc.classify(ac._ignore_witness(sc, 'root/*', 'root', salt), rules)[0], 'EXCLUDED')
++        self.assertTrue(ac.never_advisory(sc, 'root/.gitignore', rules))
++
++    def test_l835_deeper_unattributed_descendant_stays_guarded(self):
++        rules = [('root/*', 'EXCLUDED', 'direct children only'),
++                 ('PROME/**', 'OWNED', 'unrelated delivery lane')]
++        self.assertEqual(sc.classify('root/.ignore-probe', rules)[0], 'EXCLUDED')
++        self.assertEqual(sc.classify('root/a/b', rules)[0], 'UNATTRIBUTED')
++        self.assertFalse(ac._wholly_excluded(sc, 'root', rules))
++        self.assertTrue(ac.never_advisory(sc, 'root/.gitignore', rules))
++
++    def test_l835_embedded_double_star_cannot_prove_subtree_excluded(self):
++        for pattern in ('root/a**/target', 'root/**b/target', 'root/a**b/target'):
++            for cls in ('OWNED', 'SHARED'):
++                rules = [(pattern, cls, 'earlier cross-segment match'),
++                         ('root/**', 'EXCLUDED', 'fallback')]
++                with self.subTest(pattern=pattern, cls=cls):
++                    self.assertEqual(sc.classify('root/a/b/target', rules)[0], cls)
++                    self.assertFalse(ac._wholly_excluded(sc, 'root/a/b', rules))
++                    for name in ('.gitignore', '.gitattributes'):
++                        self.assertTrue(ac.never_advisory(sc, 'root/a/b/' + name, rules))
++
++    def test_l835_prior_full_exclusion_still_wins_over_embedded_double_star(self):
++        rules = [('root/**', 'EXCLUDED', 'earlier whole subtree'),
++                 ('root/a**/target', 'OWNED', 'later match cannot override')]
++        self.assertEqual(sc.classify('root/a/b/target', rules)[0], 'EXCLUDED')
++        self.assertFalse(ac.never_advisory(sc, 'root/a/b/.gitignore', rules))
++
++    def test_l835_claude_ignore_file_blocks_the_working_tree_gate(self):
++        self.freeze()
++        self.write('.claude/.gitignore', 'skills/newskill/\n')
++        rc, lines = sc.verify_review()
++        self.assertEqual(rc, 1, lines)
++        self.assertIn(UNC.format('.claude/.gitignore'), lines)
++        self.assertEqual(self.foreign_lines(lines), [])
++
++    def test_l835_ce_n2_committed_claude_ignore_file_stays_strict_at_ref(self):
++        self.freeze(); a = self.commit('PROME/result')
++        self.write('.claude/skills/newskill/SKILL.md', 'owned arrival\n')
++        self.desk_commit('.claude/.gitignore', 'skills/newskill/\n', 'BROCK: harness ignore')
++        rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
++        self.assertEqual(rc, 1, lines)
++        self.assertIn(UNC.format('.claude/.gitignore'), lines)
++        self.assertEqual(self.foreign_lines(lines), [])
++
+     def test_y4_pin_digest_covers_the_bytes_the_rules_were_parsed_from(self):
+         self.freeze(); d = self.manifest()
+         self.assertEqual(d['perimeter']['sha256'], hashlib.sha256((self.root / sc.PERIMETER_FILE).read_bytes()).hexdigest())
+--- a/PROME/tools/ARGUS_CONTRACT.md
++++ b/PROME/tools/ARGUS_CONTRACT.md
+@@ -1,6 +1,6 @@
+ # Explicit delivery contract (ARGUS schema 2)
+ 
+-Use this workflow for concurrent closeouts after the October19 repair acceptance. `argus_scope.py --record-review` without `--contract` retains the legacy strict behavior; it does not silently migrate or downgrade an existing review. Receipt exclusions and the legacy consumed-move workflow are unchanged. A new schema2 closeout classifies its PENDING observed inventory (any porcelain state, untracked included) and its own OWNED-lane paths; **committed-only paths outside PROME's OWNED lane are attributed by their own commits and need no `observed` entry (WQ-485 A, Will 2026-10-22 12:10 ET; recorded in the manifest as `attributed_by_commit`; acceptance `PROME/tools/tests/ACCEPTANCE_argus_contract_wq485_2026-10-22.md`). Before 10/22 every committed path since the baseline needed a classification (307 paths, four freeze iterations on 10/22);** outside that exemption, path ownership and commit subjects remain reading hints, never proof of delivery or non-reliance; inside it, a `PROME` commit subject or a from-PROME filename REMOVES the exemption (PROME must deliver or observe such a path), it never grants one. **The perimeter every schema-2 (contract) verify classifies with is PINNED in the manifest at the freeze (`perimeter`: the rules as loaded plus the file's byte digest; L796 ❌2 repair 2026-10-24, acceptance `PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md`): the live `PROME/state/AUDIT_PERIMETER.tsv` is never read at verify time, a post-freeze edit of it is an OWNED arrival that blocks until delivered in a re-freeze, and a manifest without a pin runs strict. A perimeter changed since the baseline must be DELIVERED at the freeze (never attributed by commit, never observed-only); `.gitignore`/`.gitattributes` edits at the root or in a folder the pinned rules do not class EXCLUDED are never advisory; a nested ignore file inside an EXCLUDED folder stays advisory and can hide a new uncommitted file below it from the working-tree gate (step 10 still refuses a force-added commit) — residual fix DOCKET L835. The legacy schema-1 path (`--record-review` without `--contract`) still reads the live perimeter and is outside this guarantee.** **Freeze rule 2026-10-29 (Will 14:05 ET; acceptance `PROME/tools/tests/ACCEPTANCE_freeze_foreign_pending_2026-10-29.md`): a pending path outside PROME's OWNED lane under the pinned perimeter, not delivered, not an ignore/perimeter file and carrying no PROME authorship evidence (the overlap included when its commits are all non-PROME) is RECORDED under the manifest's `foreign_at_freeze` and needs no `observed` entry; OWNED, PROME-evidenced and guarded pending paths still require one or block.**
++Use this workflow for concurrent closeouts after the October19 repair acceptance. `argus_scope.py --record-review` without `--contract` retains the legacy strict behavior; it does not silently migrate or downgrade an existing review. Receipt exclusions and the legacy consumed-move workflow are unchanged. A new schema2 closeout classifies its PENDING observed inventory (any porcelain state, untracked included) and its own OWNED-lane paths; **committed-only paths outside PROME's OWNED lane are attributed by their own commits and need no `observed` entry (WQ-485 A, Will 2026-10-22 12:10 ET; recorded in the manifest as `attributed_by_commit`; acceptance `PROME/tools/tests/ACCEPTANCE_argus_contract_wq485_2026-10-22.md`). Before 10/22 every committed path since the baseline needed a classification (307 paths, four freeze iterations on 10/22);** outside that exemption, path ownership and commit subjects remain reading hints, never proof of delivery or non-reliance; inside it, a `PROME` commit subject or a from-PROME filename REMOVES the exemption (PROME must deliver or observe such a path), it never grants one. **The perimeter every schema-2 (contract) verify classifies with is PINNED in the manifest at the freeze (`perimeter`: the rules as loaded plus the file's byte digest; L796 ❌2 repair 2026-10-24, acceptance `PROME/tools/tests/ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md`): the live `PROME/state/AUDIT_PERIMETER.tsv` is never read at verify time, a post-freeze edit of it is an OWNED arrival that blocks until delivered in a re-freeze, and a manifest without a pin runs strict. A perimeter changed since the baseline must be DELIVERED at the freeze (never attributed by commit, never observed-only); `.gitignore`/`.gitattributes` edits at the root or in a folder whose subtree can contain a non-EXCLUDED path under the pinned rules are never advisory; a nested ignore file whose whole subtree is EXCLUDED stays advisory and can hide a new uncommitted file below it from the working-tree gate (step 10 still refuses a force-added commit) — L835's subtree repair is under independent review. The legacy schema-1 path (`--record-review` without `--contract`) still reads the live perimeter and is outside this guarantee.** **Freeze rule 2026-10-29 (Will 14:05 ET; acceptance `PROME/tools/tests/ACCEPTANCE_freeze_foreign_pending_2026-10-29.md`): a pending path outside PROME's OWNED lane under the pinned perimeter, not delivered, not an ignore/perimeter file and carrying no PROME authorship evidence (the overlap included when its commits are all non-PROME) is RECORDED under the manifest's `foreign_at_freeze` and needs no `observed` entry; OWNED, PROME-evidenced and guarded pending paths still require one or block.**
+ 
+ Prepare a JSON plan outside the repository, or include that plan itself in delivery. Its shape is:
+ 

@@ -30,3 +30,11 @@ Codex reran the existing suites: 69 contract tests and 71 neighbouring tests pas
 ## WQ-597 further acceptance — 2026-11-04
 
 NOT ACCEPTED by independent Codex gpt-6.1-sol `/root/l835_acceptance`. Existing 140 tests pass, but embedded `**` in `root/a**/target` matches the OWNED descendant `root/a/b/target` while the witness walker falsely proves the parent wholly EXCLUDED. The nested ignore file becomes advisory. Repair STOPPED on this blocker; no further correction or review authorized by WQ-597. Saved dirty implementation remains uncommitted and WITHHELD; do not rely on its claimed scope. Prior history preserved. Full evidence and explicit reviewer closeout receipt: `PROME/reports/2026-11-04_approved-maintenance-reviews.md`.
+
+## One bounded correction authorized — 2026-11-04
+
+Will, verbatim: "accept the four completed repairs, leave L835 explicitly open, and authorize one carefully bounded correction—not another general maintenance sweep." WQ-594–596 and L910 accepted by Will; L835 remains OPEN. This authorizes one correction of the embedded-double-star exclusion proof, not another review round or broad sweep.
+
+Acceptance before correction: the reported OWNED descendant and prefix/suffix embedded-double-star variants must keep the parent ignore/attributes file guarded. An earlier complete EXCLUDED subtree remains advisory under first-match rules. Existing common research/inbox exclusions and all recovered counterexamples must retain their tests. Conservative guard on an unsupported earlier non-EXCLUDED pattern is permitted as uncertainty, never claimed exact reachability. No matcher API, perimeter, policy, manual or owner changes. Test in a disposable overlay; preserve live dirty patch; save candidate as non-operational evidence until independently accepted. Ordinary/overlap/wrong-owner/missing/concurrent categories remain covered by existing suites; the new tests target matcher-language uncertainty and rule ordering.
+
+Verification result: 71 contract + 34 scope + 37 consumed-move tests = 142 PASS in disposable overlay. Original failure reproduced before correction (6 failing subtests). IMPLEMENTED IN CANDIDATE / TESTED; NOT INDEPENDENTLY VERIFIED; L835 OPEN and operational patch WITHHELD. Live dirty implementation/tests/contract left unchanged. No further review round.
