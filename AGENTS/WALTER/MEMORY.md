@@ -97,4 +97,4 @@
 
 ## Session Notes
 
-November 4 authorized catch-up completed at the stated source scopes; FULL continuity refreshed. Current duties, conditional approvals, unresolved sources and publication limits are solely in LAST_COMPLETION. Three verification helpers finished; no ongoing WALTER study or order. November 5 calendar/MEMORY review remains due.
+November 4 session CLOSED on Will request for fresh-context reboot. FULL continuity refreshed; no continuing helper, study or order. LAST_COMPLETION owns current duties and approvals. WAL recovery accepted NOT RECOVERED with stated limits; Will explicitly prohibited search expansion. Recovery report and WAL notice reached origin via authorized safe-push; foreign uncommitted files preserved. Next boot follows normal startup without reopening that recovery.

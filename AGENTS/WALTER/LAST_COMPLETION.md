@@ -1,10 +1,12 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-04T20:44:04Z, OpenAI Codex, exact model unknown; thread `01a1a81d-ea9f-7203-b829-ff095867c19d`. FULL closeout of Will's authorized catch-up. Operational/source coverage remains PARTIAL.
+Updated 2026-11-04T21:07:21Z, OpenAI Codex, exact model unknown. CLOSED on Will request for fresh-context reboot. FULL closeout; coverage remains PARTIAL.
 
 ## STATUS
 
-Latest bounded task: WAL Q3 original-source recovery CLOSED — NOT RECOVERED. Original temporary path absent; no matching retained/historical source. Exact scope, provenance and selected-evidence locations: `research/2026-11-04_WAL-source-recovery/REPORT.md`. WAL administrative notice written; no reconstruction, cohort rerun or owner grade. This LIGHT follow-up leaves prior catch-up/approvals below intact.
+Session CLOSED on Will request. No continuing helper, study or order. Reboot from this duty list under normal startup. WAL recovery was accepted with its search limits; **do not expand or restart the search**. Full closeout clears the recovery LIGHT narrative deferral.
+
+Latest bounded task: WAL Q3 original-source recovery CLOSED — NOT RECOVERED. Original temporary path absent; no matching retained/historical source. Exact scope, provenance and selected-evidence locations: `research/2026-11-04_WAL-source-recovery/REPORT.md`. WAL administrative notice written; no reconstruction, cohort rerun or owner grade. Final FULL closeout retains prior catch-up/approvals below.
 
 Bounded November 2–4 catch-up completed: 68 BOARD cards, 187 required handoffs, zero kill-log rows; three verification helpers completed nine passes. Intake 464/464 and bookmark content 57/57 CLOSED. All 49 staged bookmark IDs marked. Unverified residual source leads are explicitly retained; closing a batch does not certify every source claim. No active helper, new domain study, trade or domain launch.
 
@@ -93,8 +95,8 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-04T21:05:07Z",
-  "next_review": "2026-11-05",
+  "as_of": "2026-11-04T21:07:21Z",
+  "next_review": "2026-11-04",
   "publication": [
     {
       "commit": "c2fcc0377fe9fd60971d0b5ba4a2d9a4a21a7492",
@@ -140,28 +142,35 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
       {
         "path": "AGENTS/WALTER/research/2026-11-04_WAL-source-recovery/REPORT.md",
         "sha256": "0c62a10ed7779d3c3dbf30ef745493f921a358a835eae1d4c0c71a9ba6d0d379"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-04_session-close/REVIEW.md",
+        "sha256": "0194cfbb521b0ea0bc39b2a59c3dfb09ef3d17305786017ca19ff8f0f547cdc0"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-04_session-close/owner-headers.json",
+        "sha256": "5a23798d88190add793e38d40dae932e06a667a2f8ad3778b90c766f6c1637a3"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
+    "tier": "full",
     "boot": "PARTIAL: source/owner/settlement coverage and central READS reattestation remain unresolved.",
-    "session": "WAL original recovery CLOSED NOT RECOVERED. LIGHT follow-up after full catch-up; full narrative refresh deferred. Prior full-duty outcomes remain historical."
+    "session": "CLOSED on Will request for fresh-context reboot. Full continuity refreshed; no active helper/study; prior LIGHT deferral cleared."
   },
   "manual_duties": {
     "11": "68 cards/187 handoffs, zero kills; two declared batches CLOSED; staged bookmarks marked.",
-    "13": "49 registry rows/44 available headers compared; four mirrors updated.",
+    "13": "44 available owner leads checked, 49 registry rows; six mirrors refreshed before NETWORK.",
     "12(a,b)": "STATUS current observations and NETWORK regenerated after REGISTRY.",
     "12(c)": "BALANCED baseline; labor LOOSE for November 6 payroll window; standing flags retained.",
-    "12(d,e)": "FULL SESSION_LOG/current bottom line; no deferred narrative debt.",
+    "12(d,e)": "FULL CLOSED session entry and current bottom line; LIGHT narrative deferral cleared.",
     "12(f)": "Five oldest contiguous STATUS rows rotated verbatim; budgets measured by closeout checks.",
-    "14": "MEMORY session note refreshed; no spec or auto-memory promotion.",
+    "14": "MEMORY closed-session note refreshed; no auto-memory promotion.",
     "root.retirement": "Retained live source/owner references and uncertain retirement candidates; no deletion sweep.",
-    "15": "Recovery report hash-bound; prior approvals and duties preserved. No further recovery commissioned.",
+    "15": "Prior duties and approvals preserved; accepted WAL recovery must not restart. Final closeout review hash-bound.",
     "16": "Will explicitly authorized existing safe-push despite foreign uncommitted work. Workflow rc0 confirmed HEAD 655886c69 on fresh origin. Recovery report and WAL notice match origin bytes; ten preexisting dirty files unchanged. No owner consumption inferred.",
-    "checks": "Recovery light checks PASS: receipt, read-cap, archives and weekdays; orphan check advisory. Receipt rechecked after this update. Prior full-check source/central READS/doctor limitations remain unresolved.",
-    "Tier1": "Current WAL source gap explicitly recorded; no market refresh warranted for retained-file recovery.",
-    "Tier1.breadcrumb": "LIGHT SESSION_LOG entry, one full-deferred follow-up."
+    "checks": "Final receipt/R1, read-cap, archives, weekdays, local basis and memory PASS. READS UNKNOWN: central November 2 attestation stale. Doctor 0 HIGH/4 MED: degraded newsweep, 59 older unconsumed copies (21 ACTION/38 INFO), two DEWEY flags. Ledger nudge reviewed: no new route/kill/event content at final closeout, ledgers unchanged. Evidence research/2026-11-04_session-close/closeout/checks.json.",
+    "Tier1": "Current WAL source gap explicitly recorded; no market refresh warranted for retained-file recovery."
   }
 }
 END_CLOSEOUT_RECEIPT -->
