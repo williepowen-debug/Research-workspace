@@ -1,0 +1,29 @@
+# Bounded event verification — November 4 reboot
+
+As of 2026-11-04T21:12:58Z. OpenAI Codex helper `/root/verify_new_intake`; exact model not exposed. Read-only verification except this report. No owner grades, dispatches, commits, or external messages. Root/local instructions and user preferences consulted. Case-insensitive searches across BOARD and LABOR/REGINALD/LIQUID/BROCK/CRUISE found no matching Canva or Ueno event; commercial-paper hits were unrelated historical material. This is a scoped duplicate search, not whole-fleet absence proof.
+
+## Canva — CORRECTED-FRAMING, primary read
+
+Canva's note, dated November 3 by its newsroom index, says **1,271 people (22%) are affected**, including changed roles, relocations and departures. **It does not disclose 1,271 layoffs.** CEO Melanie Perkins says growth slowed for the first time in a decade. The reorganization combines Product/Growth/Platform, reduces layers, and moves more product work to Sydney. Its workforce spans 37 countries; processes and timing vary by location. No US job-loss count, realized exit total or causal AI attribution is established.
+
+Sources: [company note, full substantive body read](https://www.canva.com/newsroom/news/canva-team-update/); [newsroom index supplies November 3 date](https://www.canva.com/newsroom/news/). Routing relevance: LABOR's existing white-collar employment coverage, with the global/affected-versus-dismissed distinction intact.
+
+## Ueno — CONFIRMED bank resolution and bank-to-fund transmission
+
+[BCP November 3 announcement](https://www.bcp.gov.py/web/institucional/w/banco-central-inicia-el-procedimiento-de-resolucion-de-ueno-bank), substantive body read: its board's **November 2 decision** initiates Ueno Bank resolution after financial-statement adjustments brought its solvency index below **50% of the required minimum**. This is not a claim that the capital ratio itself was 50%. BCP calls this institution-specific; that statement is the regulator's assessment, not independently proven absence of contagion. Deposit guarantee is ₲228.3 million per depositor per institution, not per account. [Separate November 3 payment notice](https://www.bcp.gov.py/web/institucional/w/comunicado-sobre-el-pago-de-la-garant%C3%ADa-de-dep%C3%B3sitos-a-los-ahorristas-de-ueno-bank) announces an initial payment up to ₲10 million and later schedule; it does not establish payment completion.
+
+[BCP Circular 020/2026, November 3, full one-page text read](https://www.bcp.gov.py/documents/20117/0/2026-11-03_CIRCULAR_SVSG-020_Funcionamiento_Mercado_UENO.pdf/7e37805e-b631-d38f-b816-9b331da586cf?t=1793754807022.pdf): redemptions are temporarily suspended only in funds identified by Resolution 0015. Other funds, including ones with the same managers, are excluded. Funds remain separate estates; suspension is not liquidation. **From November 5, reopening is conditional and fund-by-fund**, after valuation criteria and, where necessary, operational problems are addressed. No blanket completed reopening.
+
+[BCP Resolution 0016, operative valuation provisions read](https://www.bcp.gov.py/documents/20117/2780455/2026-11-03_RESOLUCI%C3%93N_SVSG_0016_CRITERIOS_VALORIZACI%C3%93N%2B%282%29.pdf/acde17a9-c011-ac00-718c-25bb1e3697b4?t=1793754846413.pdf): effective November 2, Ueno financial/subordinated bonds are valued at zero with interest accrual stopped; deposits are recognized up to applicable guarantee, excess at zero pending the resolution mechanism. This is a prescribed valuation under recovery uncertainty, **not proof of final zero recovery**. Repo treatment distinguishes Ueno's repurchase obligation from performing third-party counterparties holding Ueno collateral. Related-group debt uses a separate valuation method.
+
+Limits: Resolution 0015's named-fund annex not read; no affected-AUM total, US exposure, regional contagion or asset-loss total established. The AP photo stories are wrappers, not three independent bank failures. PRIMARY PDF text became available through web retrieval with the `.pdf` query variant; original URL/direct download returned access errors. No PDF table or image-derived value used. Relevance: LIQUID/REGINALD and BROCK for documented bank→fund redemption/valuation transmission, subject to WALTER's final routing decision.
+
+## Carnival — CONFIRMED via reproduced filing text; direct SEC gap
+
+Accession **0000950142-26-002936**, filed November 4; event date November 3. Reproduced Item 1.01 says Carnival established capacity for **up to $2.0 billion** in unsecured commercial paper, guaranteed by Carnival UK Ltd., maturity up to **180 days**, with its revolving facility planned as liquidity backstop. Proceeds are for general corporate purposes. **Program capacity is not $2 billion already issued, a drawn revolver, or proof of distress.**
+
+[StockTitan reproduced filing](https://www.stocktitan.net/sec-filings/CCL/8-k-carnival-corp-ltd-reports-material-event-d751e1da92a2.html) supplied Item 1.01/2.03/9.01 and signatures in search retrieval; [Goslee reproduced filing text](https://gosleesignals.com/filing/2258124) independently displayed the same body (syndicated SEC text, not independent event sourcing). [Canonical SEC index](https://www.sec.gov/Archives/edgar/data/815097/000095014226002936/0000950142-26-002936-index.htm) was inaccessible. Exhibit 10.1 not fully reviewed. Route as filing-text verified through mirrors, not direct SEC-primary-read. CRUISE owns capital-event interpretation; LIQUID may take funding-access context.
+
+## Completion
+
+Three bounded events checked; two direct-primary confirmations and one reproduced-filing confirmation with direct-host gap. No duplicate matching event card found in the scoped search. No additional research commissioned; parent retains routing, persistence and closeout.

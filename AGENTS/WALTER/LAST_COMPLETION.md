@@ -1,10 +1,10 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-04T21:07:21Z, OpenAI Codex, exact model unknown. CLOSED on Will request for fresh-context reboot. FULL closeout; coverage remains PARTIAL.
+Updated 2026-11-04T21:16:18Z, OpenAI Codex, exact model unknown. Booted; LIGHT routing closeout, coverage PARTIAL.
 
 ## STATUS
 
-Session CLOSED on Will request. No continuing helper, study or order. Reboot from this duty list under normal startup. WAL recovery was accepted with its search limits; **do not expand or restart the search**. Full closeout clears the recovery LIGHT narrative deferral.
+Booted on Will request. Seven new cards069–075/14 handoffs authored, pending coordinated publication;24 intake units CLOSED. Two verification helpers finished. No trade/domain launch. Full narrative refresh deferred once. WAL accepted recovery remains NOT RECOVERED; do not expand or restart. Current review: research/2026-11-04_reboot/REVIEW.md.
 
 Latest bounded task: WAL Q3 original-source recovery CLOSED — NOT RECOVERED. Original temporary path absent; no matching retained/historical source. Exact scope, provenance and selected-evidence locations: `research/2026-11-04_WAL-source-recovery/REPORT.md`. WAL administrative notice written; no reconstruction, cohort rerun or owner grade. Final FULL closeout retains prior catch-up/approvals below.
 
@@ -23,7 +23,7 @@ Trepp office 12.16% then 12.33% meets the registered two-print condition; formal
 - Latest recovery packet d6e13e5d7 is published; recovery report and WAL notice byte-matched on origin/master 655886c69. Consumption remains unproved. Will accepted the search limits, prohibited expansion, and explicitly authorized safe-push; ten preexisting dirty files were preserved. Bounded recovery result is NOT RECOVERED, not a finding that no copy exists on other machines. No further recovery is assigned.
 
 - Publication: payload `c2fcc0377fe9fd60971d0b5ba4a2d9a4a21a7492` is published: fresh fetch proves ancestry under origin/master `019881e2b2588b0dfffe9ace926f2e402bcfc5e8`. All 187 day handoffs are origin-proven delivered and reconciled; no recipient consumption inferred. WALTER did not push. For this publication Will explicitly authorized safe-push despite foreign dirty files; the workflow succeeded without touching them. Commit, publication, delivery and consumption remain distinct. November 2's 39 handoffs remain previously origin-proven; historical closeout is preserved in git.
-- Intake coverage: latest completed collector run November 3; newsweep degraded. All 464 titles were screened, not every original article. Cards 057–068 explicitly retain source-body/owner-overlap gaps. Bookmarks: five fully read, 44 partly read; videos not watched. Exact gaps/reopen conditions are in REVIEW.md and the verification reports. No unattended monitoring or comprehensive all-news claim.
+- Intake coverage: November4 21:01Z collector healthy;24 incremental flagged news/filing units dispositioned at reboot. Prior catch-up: All 464 titles were screened, not every original article. Cards 057–068 explicitly retain source-body/owner-overlap gaps. Bookmarks: five fully read, 44 partly read; videos not watched. Exact gaps/reopen conditions are in REVIEW.md and the verification reports. No unattended monitoring or comprehensive all-news claim.
 - Source-complete threshold checks are separate from all 48 registered IDs. Trepp's two-print observation is complete; CREED qualitative/cohort events remain owner-limited. Official oil/TTF settles, France/Italy compound legs, complete monthly PMIs and qualitative censuses remain missing. Futures returns were refused on rounded quote/chart mismatch (87.48999786376953 versus 87.49); no return bypass/proxy. Existing broad-HY fires are not new fires; REG-T-04 >350 x3 remains not met, 10 bp watch at November 3 HY 340. VIX exit observations are 3/5, not owner closure.
 - UNG WQ-573: sampled NOAA GFS f000 10 hPa/60N means +3.903807 m/s [November 3 00Z], +1.791158 [November 4 00Z], +1.092857 [12Z]. Positive analyses do not meet <0; unsampled intervals unknown. AEOLUS acceptance/canonical logging remains owed. UNG November 2/3 closes $9.00/$9.13 are below the $10.40 prior-close void. Approved five January 15, 2027 10/12 call spreads retain debit ≤$0.50, maximum loss $256.50, observed reversal by November 12, red day by November 20, entry <$10.40 and every owner guard. Broker quote/fees and current option chain not obtained; no order. Original fallback versus AEOLUS-logged wording still requires owner reconciliation; no alternate fire authority.
 - Reader basis: four changed boot-defining files manually reviewed and current local hashes renewed (basis-review.json). Central READS is STALE at November 2 because dashboard changed November 4; PROME reattestation remains owed. No additional dependency found in reviewed deltas. Root/local CLAUDE rotation warnings remain; no instruction rewrite authorized by catch-up. `python` alias absent; python3/venv available. Complete fleet lifecycle visibility UNKNOWN; no DARK inference or external message.
@@ -95,7 +95,7 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-04T21:08:21Z",
+  "as_of": "2026-11-04T21:16:18Z",
   "next_review": "2026-11-04",
   "publication": [
     {
@@ -121,9 +121,9 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
   ],
   "delivery": {
     "signal_date": "20261104",
-    "total": 187,
+    "total": 201,
     "delivered": 187,
-    "note": "187 newly reconciled from origin tree/history, zero real orphans; no recipient consumption inferred."
+    "note": "Prior187 origin-proven; reboot14 pending coordinated publication. No consumption inferred."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -155,27 +155,39 @@ FULL closeout. Bounded catch-up complete; operational coverage PARTIAL. Publicat
       {
         "path": "AGENTS/WALTER/research/2026-11-04_session-close/owner-headers.json",
         "sha256": "5a23798d88190add793e38d40dae932e06a667a2f8ad3778b90c766f6c1637a3"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-04_reboot/REVIEW.md",
+        "sha256": "ffbf975804297fd4bd3b508889281828fdb8e00ddd65415bc99521606eba4f24"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-04_reboot/VERIFY-EVENTS.md",
+        "sha256": "ee2dd5690482edb4c6f0818364bf7625cbd698a1b326e8199e23c90a4e6e24b0"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-04_reboot/VERIFY-LEADS.md",
+        "sha256": "b7f382da09642f7cb1d2d09ffc27de717afb373251193a4e6cbcbf26c5b63185"
       }
     ]
   },
   "procedure": {
-    "tier": "full",
-    "boot": "PARTIAL: source/owner/settlement coverage and central READS reattestation remain unresolved.",
-    "session": "CLOSED on Will request for fresh-context reboot. Full continuity refreshed; no active helper/study; prior LIGHT deferral cleared."
+    "tier": "light",
+    "boot": "PARTIAL: official settles, compound/event coverage, owner grades and central READS attestation remain unresolved.",
+    "session": "Booted; seven cards and14 handoffs authored; two helpers complete; full narratives deferred once."
   },
   "manual_duties": {
-    "11": "68 cards/187 handoffs, zero kills; two declared batches CLOSED; staged bookmarks marked.",
-    "13": "44 available owner leads checked, 49 registry rows; six mirrors refreshed before NETWORK.",
+    "11": "Seven cards069\u2013075 and14 pending handoffs. BM-20261104-03 CLOSED24/24; zero new bookmarks.",
+    "13": "Owner-header snapshot read at bounded lead scope; no assignment change; full registry narrative deferred under light tier.",
     "12(a,b)": "STATUS current observations and NETWORK regenerated after REGISTRY.",
     "12(c)": "BALANCED baseline; labor LOOSE for November 6 payroll window; standing flags retained.",
-    "12(d,e)": "FULL CLOSED session entry and current bottom line; LIGHT narrative deferral cleared.",
+    "12(d,e)": "Light breadcrumb and current STATUS; full narratives deferred once.",
     "12(f)": "Five oldest contiguous STATUS rows rotated verbatim; budgets measured by closeout checks.",
-    "14": "MEMORY closed-session note refreshed; no auto-memory promotion.",
+    "14": "Full MEMORY narrative deferred under light tier; LAST_COMPLETION is current duty source.",
     "root.retirement": "Retained live source/owner references and uncertain retirement candidates; no deletion sweep.",
     "15": "Prior duties and approvals preserved; accepted WAL recovery must not restart. Final closeout review hash-bound.",
-    "16": "Final FULL closeout d183e7f7a published and origin-confirmed by safe-push. Recovery report/notice already published. Foreign working files untouched. Closing receipt committed separately.",
-    "checks": "Final receipt/R1, read-cap, archives, weekdays, local basis and memory PASS. READS UNKNOWN: central November 2 attestation stale. Doctor 0 HIGH/4 MED: degraded newsweep, 59 older unconsumed copies (21 ACTION/38 INFO), two DEWEY flags. Ledger nudge reviewed: no new route/kill/event content at final closeout, ledgers unchanged. Evidence research/2026-11-04_session-close/closeout/checks.json.",
-    "Tier1": "Current WAL source gap explicitly recorded; no market refresh warranted for retained-file recovery."
+    "16": "Current reboot artifacts local; publication deferred to coordinated workflow. Prior published cohorts unchanged.",
+    "checks": "Light suite read-cap/archives/weekdays PASS; receipt mismatch corrected and receipt recheck PASS187/201. Ledger nudge reviewed: route/delivery and batch ledgers changed this session; zero kill/fire/correction changes warranted. Central READS UNKNOWN stale attestation; charter rotation warnings carried. checks.json retains original review result; later receipt recheck supersedes mismatch only.",
+    "Tier1": "Re-pulled core observations unchanged; fresh HANS storage basis in REVIEW; full ID/source gaps inherited explicitly. STATUS refreshed."
   }
 }
 END_CLOSEOUT_RECEIPT -->

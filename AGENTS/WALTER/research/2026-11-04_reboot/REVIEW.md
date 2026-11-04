@@ -1,0 +1,9 @@
+# November 4 WALTER reboot review
+
+OpenAI Codex; exact model unavailable. Root AGENTS.md/CLAUDE.md and local charter explicitly read. Shell, web, Python and Rule9 verification helpers available; no complete fleet lifecycle census. Foreign dirty files preserved; fetch succeeded, pull deferred. No domain launch, trade or external message.
+
+Seven cards 069–075 and 14 handoffs authored, pending coordinated publication. Batch BM-20261104-03 closed:20 flagged news records and4 EDGAR records. Exact dispositions in BATCH_MANIFEST.tsv; source qualifications in VERIFY-EVENTS.md and VERIFY-LEADS.md. Two helpers complete. Inbox/DEWEY/dropzone empty; zero new bookmarks. Accepted WAL recovery remains closed NOT RECOVERED; no renewed search. New collector November4 21:01Z healthy, replacing stale degraded-newsweep status.
+
+48-ID threshold roster reviewed against today's catch-up THRESHOLD-SCAN.md (12 RED,8 REGINALD,11 CREED,17 HANS); inherited owner/qualitative/source gaps remain, not freshly certified. Re-pull21:11Z: HY340bp, CCC1316bp, VIX20.83, SOFR-IORB7bp [Nov3]; SKEW150.01 [Nov3]; ICSA194k [Oct24]; Cushing27.250M [Oct30]. REG-T-04 >350x3 not met;10bp watch. No new source-qualified fire/exit. ECB AAA10 3.3466052064 [Nov3] is not Bund benchmark; BoE10par5.1677 [Nov2]. AGSI Nov3fill74.07%, native mean89.842%, gap−15.772pp; existing fire, no exit, composition caveat. Official futures settlements, compound legs, complete event/cohort censuses remain unavailable. Current observations are not full market clearance. Evidence observations.json/hans-observations.json; prior detailed ID matrix retained at ../2026-11-04_catchup/THRESHOLD-SCAN.md.
+
+LIGHT routing closeout: full narratives deferred once since prior FULL. Registry/header snapshot retained; no new owner assignment. Existing November5 Iran sweep, Nov6 NFP and Nov7 tests remain due. Root/local charter rotation and central stale READS attestation retained. No new Will decision.

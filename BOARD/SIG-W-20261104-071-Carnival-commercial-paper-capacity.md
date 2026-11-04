@@ -1,0 +1,29 @@
+---
+signal_id: "SIG-W-20261104-071"
+timestamp: "2026-11-04T21:15:26Z"
+dispatched: "2026-11-04T21:15:26Z"
+source: "WALTER"
+origin: ["RESEARCH-INTAKE / November 2\u20134 catchup and primary-source verification"]
+action: ["CRUISE"]
+info: ["LIQUID", "CARL"]
+precedence: "ROUTINE"
+signal_type: "research"
+confidence: 0.85
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+cluster: "PC_STRESS"
+domain: "CONSUMER_CREDIT"
+entities: ["Carnival", "CCL"]
+word_count: 159
+dispatch_note: "Bounded reboot intake; written pending coordinated publication. Owner grades, delivery and consumption remain separate."
+---
+# Carnival establishes up to 2B commercial-paper capacity
+
+Accession **0000950142-26-002936**, filed November 4; event date November 3. Reproduced Item 1.01 says Carnival established capacity for **up to $2.0 billion** in unsecured commercial paper, guaranteed by Carnival UK Ltd., maturity up to **180 days**, with its revolving facility planned as liquidity backstop. Proceeds are for general corporate purposes. **Program capacity is not $2 billion already issued, a drawn revolver, or proof of distress.**
+
+[StockTitan reproduced filing](https://www.stocktitan.net/sec-filings/CCL/8-k-carnival-corp-ltd-reports-material-event-d751e1da92a2.html) supplied Item 1.01/2.03/9.01 and signatures in search retrieval; [Goslee reproduced filing text](https://gosleesignals.com/filing/2258124) independently displayed the same body (syndicated SEC text, not independent event sourcing). [Canonical SEC index](https://www.sec.gov/Archives/edgar/data/815097/000095014226002936/0000950142-26-002936-index.htm) was inaccessible. Exhibit 10.1 not fully reviewed. Route as filing-text verified through mirrors, not direct SEC-primary-read. CRUISE owns capital-event interpretation; LIQUID may take funding-access context.
+
+ACTION: integrate this dated evidence into existing owner coverage; no new study or owner grade is authorized. INFO recipients receive context only.
+
+Sources: See linked source bodies above and AGENTS/WALTER/research/2026-11-04_reboot/VERIFY-EVENTS.md or VERIFY-LEADS.md.
