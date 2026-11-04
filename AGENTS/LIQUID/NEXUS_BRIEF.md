@@ -1,6 +1,6 @@
 # LIQUID — NEXUS Brief
 
-**As of:** 2026-11-04T17:24:57-05:00 | STATUS commit: `8f165de8e6ae9ce4f557d02573ae103f696c0c36`
+**As of:** 2026-11-04T17:37:05-05:00 | STATUS commit: `5030d24cb9c04c2e1290b7cd5e3d60c6e7642079`
 **Scope:** Will-directed substantive credit follow-through after startup. Source/grade frontier: first-published FRED credit and overnight rates through November 3; SRF November 4; dealer as-of October 21; CFTC as-of October 27; DTCC November 2/3 files. Evidence → `research/2026-11-04_credit-followthrough/REPORT.md`. November 5 final reviews remain open.
 
 ## Current judgment
@@ -34,6 +34,8 @@ XCCC last holdings/sectors October 29: AI builders 0%, Technology 7.71% (softwar
 CHK-40 source packet dated November 2: no reserve sale/redemption surge demonstrated in one reopening-day print; venue outflows are not issuer redemptions. Frozen primary $2,173.46M + $30M probable remains reserve-backed, not burned. RPC blacklist scan failed, chain coverage incomplete, only 29/1,448 pairs reopened, 18-hour/daily-supply limits retained. No fresh November 4 issuer/reserve census; not a current all-clear. Named commitments/pricing/unsigned guarantees do not prove cash draws or burn.
 
 ## Existing next tests and ownership
+
+**Workbook reconciliation, November 4 (no fresh observations):** 23 files inventoried, 9 updated; historical ORCL outlook-only proposal is not the canonical L5 trigger, and KB111’s false Pending-Will flag is resolved against the existing WQ-106 ruling. The two existing expected-signal definitions remain incomplete (FHLB percentage denominator, negative-basis sign interpretation), so neither supplies a valid current grade by inference. Final LIQUID Test B/T4 closure was not located at scoped sources and Test C central row remains overdue; recover existing evidence before rework, no new test. Frozen forecast files/definition sections and 148 other KB rows unchanged; 57 calendar event pairs match. Audit: `audits/2026-11-04_workbook-sweep/REPORT.md`. Market verdict, approval limits and independent 069 release dependency unchanged.
 
 STATUS §3 is the sole owed list. November 5 069/076/079 final observations and independent repair result remain pending. October HY source subtotal unresolved. Prior Brazil settlement, HENRY financing bridges, November 13 estimated BDC card/Q2 residue and November 30 joint GENIUS Act read stay owed, with older deferred repairs and unscheduled fund-to-dealer gap. No completed case reopened or new standing collection.
 
