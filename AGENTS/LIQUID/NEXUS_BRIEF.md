@@ -1,6 +1,6 @@
 # LIQUID — NEXUS Brief
 
-**As of:** 2026-11-04T17:37:05-05:00 | STATUS commit: `5030d24cb9c04c2e1290b7cd5e3d60c6e7642079`
+**As of:** 2026-11-04T17:46:18-05:00 | STATUS commit: `b2215590e919c4d79ab8b59eaa2b05565c0338e0`
 **Scope:** Will-directed substantive credit follow-through after startup. Source/grade frontier: first-published FRED credit and overnight rates through November 3; SRF November 4; dealer as-of October 21; CFTC as-of October 27; DTCC November 2/3 files. Evidence → `research/2026-11-04_credit-followthrough/REPORT.md`. November 5 final reviews remain open.
 
 ## Current judgment
@@ -32,6 +32,8 @@ LIQ-07 resolved S2 October 16: no reserve-channel loop observed, not no loop; n=
 XCCC last holdings/sectors October 29: AI builders 0%, Technology 7.71% (software inseparable), Communications 17.02%, other 75.27%; issuer taxonomy, not DEWEY's hand buckets or widening contributions. Car-Mart current eligible cash/bank-risk bridge missing, commitments/released receivables are not cash. Completed First Brands case establishes historical lender loss/response, not a new cash payout or current squeeze; recovery/recourse/earlier-warning gaps persist. HENRY matched financing work remains PARTIAL with access counterevidence, four unmatched primary controls, incomplete cash/redemption bridges/certificates/credit panel. Brazil accepted buybacks are not verified settlement/USD cash; LFT result and private calls unmeasured. ETF prices do not decompose duration/OAS; BRL/JPY identifies no yen-funded seller. Custody/holdings are not transactions and Belgium-as-China proxy remains FALSIFIED.
 
 CHK-40 source packet dated November 2: no reserve sale/redemption surge demonstrated in one reopening-day print; venue outflows are not issuer redemptions. Frozen primary $2,173.46M + $30M probable remains reserve-backed, not burned. RPC blacklist scan failed, chain coverage incomplete, only 29/1,448 pairs reopened, 18-hour/daily-supply limits retained. No fresh November 4 issuer/reserve census; not a current all-clear. Named commitments/pricing/unsigned guarantees do not prove cash draws or burn.
+
+**Cross-report interpretation [November 4, saved evidence only]:** access and tighter borrower constraints coexist; historical bank loss can be absorbed, and reported margin sales need not become a verified bank loss. Car-Mart/First Brands and Arini/Ueno describe distinct channels, not independent confirmations of one systemic event. Contract disclosure confirms mechanisms more strongly than advance-warning value. Tier broadening strengthens the price verdict without proving a shared energy/Brazil cause. No new observation, grade or obligation. STATUS §1 records this synthesis.
 
 ## Existing next tests and ownership
 
