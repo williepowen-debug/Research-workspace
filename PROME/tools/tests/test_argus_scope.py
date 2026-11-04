@@ -92,7 +92,7 @@ class A2_PerimeterIsDeclaredNotCoded(Repo):
         for bad in ("pattern\tclass\treason\nX/**\tTYPO\twrong class\n", "pattern\tclass\treason\nX/**\n",
                     "pattern\tclass\treason\n"):
             f = Path(self.repo) / "bad.tsv"; f.write_text(bad, encoding="utf-8")
-            with self.assertRaises(SystemExit): A.load_perimeter(f)
+            with self.assertRaises(ValueError): A.load_perimeter(f)
 
     def test_first_match_wins_and_star_does_not_cross_a_separator(self):
         self.assertTrue(A._match("AGENTS/*/inbox/*", "AGENTS/RED/inbox/a.md"))
@@ -371,8 +371,8 @@ class LivePerimeterSanity(unittest.TestCase):
     def test_live_manifest_parses_and_declares_every_class(self):
         rules = A.load_perimeter(LIVE_PERIMETER)
         self.assertTrue(rules)
-        self.assertEqual({c for _, c, _ in rules}, set(A.CLASSES))
-        for _, _, reason in rules:
+        self.assertEqual({c for _, c, _ in rules.rows}, set(A.CLASSES))
+        for _, _, reason in rules.rows:
             self.assertTrue(reason.strip(), "every rule states WHY — a declared exclusion, not a silent drop")
 
 

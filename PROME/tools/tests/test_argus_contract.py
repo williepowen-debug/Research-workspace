@@ -15,8 +15,8 @@ import argus_contract as ac
 
 
 class ContractFixture(unittest.TestCase):
-    """Disposable repo + helpers; no tests of its own. The baseline carries NO perimeter file, so every
-    ContractTests case runs the strict path (reader 2026-10-24 ⚠️6)."""
+    """Disposable repo; schema 3 pins explicit OWNED rules for the strict fixture.
+    Missing policies now fail evaluation, tested separately by Phase 2 tests."""
     def setUp(self):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
@@ -28,8 +28,8 @@ class ContractFixture(unittest.TestCase):
         self.git('config', 'user.name', 'fixture')
         self.write('OWNER.md', 'OTTO owns the unrelated analysis and no PROME claim relies on it.\n')
         self.write('PROME/old', 'baseline')
-        self.base = self.commit('OWNER.md', 'PROME/old')
-        (self.root / 'PROME/state').mkdir()
+        self.write(sc.PERIMETER_FILE, 'pattern\tclass\treason\n*\tOWNED\tstrict fixture\n*/**\tOWNED\tstrict fixture\n')
+        self.base = self.commit('OWNER.md', 'PROME/old', sc.PERIMETER_FILE)
         sc.record_baseline(self.base)
         self.write('PROME/result', 'reviewed result')
         self.plan = {'delivered': {'PROME/result': 'PROME authored this bounded repair'},
@@ -199,11 +199,12 @@ class ContractTests(ContractFixture):
             self.assertEqual(sc.verify_review(ref='delivery')[0], 0)
         self.assertEqual(calls.count('delivery'), 1)
 
-    def test_legacy_manifest_stays_strict(self):
-        self.write('PROME/foreign', 'unrelated')
-        sc.record_review(['PROME/result', 'PROME/foreign'])
-        a = self.commit('PROME/result')
-        self.assertEqual(sc.verify_review(paths=['PROME/result'], ref=a)[0], 1)
+    def test_legacy_manifest_requires_explicit_refreeze(self):
+        with self.assertRaises(ValueError):
+            sc.record_review(['PROME/result'])
+        self.save({'verdict': sc.REVIEWED, 'baseline': self.base, 'paths': {}})
+        self.assertEqual(sc.verify_review()[0], 2)
+
 
     def test_reader_ce1_historical_dependency_never_exempts_an_unclassified_version(self):
         self.plan['evidence'] = [{'path': 'OWNER.md', 'commit': self.base, 'mode': 'historical',
@@ -266,7 +267,7 @@ class PerimeterPinTests(ContractFixture):
 
     def test_ac1_freeze_pins_the_loaded_perimeter_outside_the_contract(self):
         self.freeze(); d = self.manifest()
-        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], sc.load_perimeter())
+        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], list(sc.load_perimeter().rows))
         self.assertEqual(d['perimeter']['sha256'],
                          hashlib.sha256((self.root / sc.PERIMETER_FILE).read_bytes()).hexdigest())
         self.assertNotIn('perimeter', d['contract'])
@@ -306,8 +307,8 @@ class PerimeterPinTests(ContractFixture):
         self.freeze(); d = self.manifest(); del d['perimeter']; self.save(d)
         self.write('AGENTS/BROCK/new.md', 'x')
         rc, lines = sc.verify_review()
-        self.assertEqual(rc, 1, lines)
-        self.assertIn(UNC.format('AGENTS/BROCK/new.md'), lines)
+        self.assertEqual(rc, 2, lines)
+        self.assertIn('CANNOT-EVALUATE', lines[0])
         self.assertEqual(self.foreign_lines(lines), [])
 
     def test_ac5b_tampered_pin_cannot_evaluate(self):
@@ -362,7 +363,7 @@ class PerimeterPinTests(ContractFixture):
         self.assertIn('deliver it', str(cm.exception))
         self.plan['delivered'][sc.PERIMETER_FILE] = 'PROME perimeter row'
         self.freeze(); d = self.manifest()
-        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], sc.load_perimeter())
+        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], list(sc.load_perimeter().rows))
         self.assertNotIn(sc.PERIMETER_FILE, d['attributed_by_commit'])
 
     def test_x1b_ce_o_perimeter_cannot_be_observed_only(self):
@@ -537,8 +538,8 @@ class PerimeterPinTests(ContractFixture):
         a = self.commit('PROME/result')
         self.write('AGENTS/BROCK/new.md', 'x\n')
         rc, lines = sc.verify_review(ref=a, paths=['PROME/result'])
-        self.assertEqual(rc, 1, lines)
-        self.assertIn(UNC.format('AGENTS/BROCK/new.md'), lines)
+        self.assertEqual(rc, 2, lines)
+        self.assertIn('CANNOT-EVALUATE', lines[0])
         self.assertEqual(self.foreign_lines(lines), [])
 
     def test_z8_ac8_snapshot_history_attributes_the_overlap_path_by_its_own_commits(self):
@@ -706,7 +707,7 @@ class PerimeterPinTests(ContractFixture):
     def test_y4_pin_digest_covers_the_bytes_the_rules_were_parsed_from(self):
         self.freeze(); d = self.manifest()
         self.assertEqual(d['perimeter']['sha256'], hashlib.sha256((self.root / sc.PERIMETER_FILE).read_bytes()).hexdigest())
-        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], sc.load_perimeter())
+        self.assertEqual([tuple(r) for r in d['perimeter']['rules']], list(sc.load_perimeter().rows))
 
 
 if __name__ == '__main__':

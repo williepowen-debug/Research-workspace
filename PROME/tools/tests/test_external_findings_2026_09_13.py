@@ -32,48 +32,28 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 import fleet_dashboard as FD  # noqa: E402
 import gate_fixture  # noqa: E402
+from test_argus_contract import ContractFixture, sc, ac, PERIMETER
+from unittest.mock import patch
 
 
 # ------------------------------------------------------- F1 ROUND 3 (independent review)
 
-class ArgusScopeRoundThree(unittest.TestCase):
+class ArgusScopeRoundThree(ContractFixture):
     """Three rc-0 bypasses an independent adversarial reviewer found after I told Will the
     claim held. Each test below FAILS at 625cb7070 — that was checked, not assumed."""
 
     def setUp(self):
-        self.fix = gate_fixture.build()
-        shutil.copy2(ROOT / "PROME/tools/argus_scope.py",
-                     self.fix / "PROME/tools/argus_scope.py")
-        self.cwd0 = os.getcwd()
-        os.chdir(self.fix)
-        self.addCleanup(self._teardown)
-        # The overlaid argus_scope.py and its bytecode are REAL unreviewed additions as far
-        # as the tool is concerned, and it was right to say so — the first draft of this
-        # fixture asserted "clean run" over a tree holding both. Commit the overlay and
-        # suppress bytecode so "clean" actually means clean.
-        self._git("add", "PROME/tools/argus_scope.py")
-        self._git("commit", "-m", "overlay", "--", "PROME/tools/argus_scope.py")
-        _bc, sys.dont_write_bytecode = sys.dont_write_bytecode, True
-        self.addCleanup(setattr, sys, "dont_write_bytecode", _bc)
-        spec = importlib.util.spec_from_file_location(
-            "argus_r3", self.fix / "PROME/tools/argus_scope.py")
-        self.A = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(self.A)
-        self.A.ROOT = self.fix
-        shutil.rmtree(self.fix / "PROME/tools/__pycache__", ignore_errors=True)
-        sha = subprocess.run(["git", "rev-parse", "HEAD"], cwd=self.fix,
-                             capture_output=True, text=True).stdout.strip()
-        self.A.record_baseline(sha)
-        self.surface = self.fix / "PROME/zz_r3_surface.md"
-        self.surface.write_text("frozen\n")
-        self._git("add", "PROME/zz_r3_surface.md")
-        self._git("commit", "-m", "surface", "--", "PROME/zz_r3_surface.md")
-        self.A.record_review(["PROME/zz_r3_surface.md"])
-        self.A.mark_reviewed("fixture")
-
-    def _teardown(self):
-        os.chdir(self.cwd0)
-        gate_fixture.destroy(self.fix)
+        super().setUp()
+        self.fix, self.A = self.root, sc
+        self.cwd0=os.getcwd();self.addCleanup(os.chdir,self.cwd0)
+        self.write(sc.PERIMETER_FILE,PERIMETER)
+        for name in ('argus_scope.py','argus_contract.py','argus_policy.py'):
+            target=self.root/'PROME/tools'/name;target.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copyfile(ROOT/'PROME/tools'/name,target)
+        self.base=self.commit(sc.PERIMETER_FILE,*['PROME/tools/'+n for n in ('argus_scope.py','argus_contract.py','argus_policy.py')])
+        sc.record_baseline(self.base)
+        self.surface=self.root/'PROME/result'
+        self.freeze();sc.mark_reviewed('synthetic fixture')
 
     def _git(self, *a):
         return subprocess.run(["git", *a], cwd=self.fix, capture_output=True, text=True)
@@ -83,7 +63,7 @@ class ArgusScopeRoundThree(unittest.TestCase):
         (self.fix / "PROME/zz_r3_sneak.md").write_text("never reviewed\n")
         rc, out = self.A.verify_review(paths=[])
         self.assertEqual(rc, 2, f"an empty list must be CANNOT-EVALUATE, not a pass: {out}")
-        self.assertTrue(any("EMPTY" in l for l in out))
+        self.assertTrue(any("empty" in l for l in out))
 
     def test_passing_paths_empty_is_never_safer_than_omitting_it(self):
         """THE SHAPE OF THE DEFECT: supplying the flag empty returned 0 while omitting it
@@ -117,7 +97,7 @@ class ArgusScopeRoundThree(unittest.TestCase):
         finally:
             os.chdir(self.fix)
         self.assertEqual(rc, 1, f"discovery followed the CWD instead of ROOT: {out}")
-        self.assertTrue(any("UNREVIEWED" in l for l in out))
+        self.assertTrue(any("UNCLASSIFIED" in l for l in out))
 
     def test_promotion_from_a_foreign_cwd_does_not_launder_the_real_repo(self):
         (self.fix / "PROME/zz_r3_sneak.md").write_text("never reviewed\n")
@@ -156,59 +136,25 @@ class ArgusScopeRoundThree(unittest.TestCase):
             self.assertEqual(self.A.verify_review(paths=None)[0], 2, "round 2 regressed")
         finally:
             shutil.move(str(self.fix / ".git-hidden"), str(self.fix / ".git"))
-        self.assertEqual(self.A.verify_review(paths=["PROME/zz_r3_surface.md"])[0], 0,
+        self.assertEqual(self.A.verify_review(paths=["PROME/result"])[0], 0,
                          "the explicit-complete-list escape regressed")
 
 
 # ----------------------------------------------------------------- F1
 
-class ArgusScopeFailsClosed(unittest.TestCase):
+class ArgusScopeFailsClosed(ContractFixture):
     """The bypass, driven end to end in a throwaway repo."""
 
-    @classmethod
-    def setUpClass(cls):
-        cls.fix = gate_fixture.build()
-        # The fixture exports HEAD; overlay the working-tree file under repair so the
-        # suite tests the change and not the last commit.
-        shutil.copy2(ROOT / "PROME/tools/argus_scope.py",
-                     cls.fix / "PROME/tools/argus_scope.py")
-        cls.cwd0 = os.getcwd()
-        os.chdir(cls.fix)                      # argus_scope's git() has no cwd of its own
-        spec = importlib.util.spec_from_file_location(
-            "argus_scope_fixture", cls.fix / "PROME/tools/argus_scope.py")
-        cls.A = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(cls.A)
-        cls.A.ROOT = cls.fix
-        sha = subprocess.run(["git", "rev-parse", "HEAD"], cwd=cls.fix,
-                             capture_output=True, text=True).stdout.strip()
-        cls.A.record_baseline(sha)
-        lanes, _ = cls.A.build_scope(sha, cls.A.load_perimeter(), include_pending=True)
-        paths = [e["path"] for e in
-                 lanes["OWNED"] + lanes["SHARED"] + lanes["UNATTRIBUTED"]]
-        cls.A.record_review(paths)
-        cls.A.mark_reviewed("fixture")
-        cls.real_build_scope = cls.A.build_scope
-        cls.reviewed_paths = paths
-
-    @classmethod
-    def tearDownClass(cls):
-        os.chdir(cls.cwd0)
-        gate_fixture.destroy(cls.fix)
-
     def setUp(self):
-        self.A = type(self).A
-        self.A.build_scope = type(self).real_build_scope
-        self.addition = self.fix / "PROME/zz_unreviewed_addition.md"
-        self.reviewed_paths = type(self).reviewed_paths
-
-    def tearDown(self):
-        self.A.build_scope = type(self).real_build_scope
-        if self.addition.exists():
-            self.addition.unlink()
+        super().setUp()
+        self.fix,self.A=self.root,sc
+        self.freeze();sc.mark_reviewed('synthetic fixture')
+        self.addition=self.root/'PROME/zz_unreviewed_addition.md'
+        self.reviewed_paths=['PROME/result']
 
     def _break_scope(self):
-        self.A.build_scope = lambda *a, **k: (_ for _ in ()).throw(
-            RuntimeError("git unavailable"))
+        broken=patch.object(ac,'inventory',side_effect=RuntimeError('git unavailable'))
+        broken.start();self.addCleanup(broken.stop)
 
     # A6 — the guard must not make every run unevaluable
     def test_clean_run_still_returns_zero(self):
@@ -219,7 +165,7 @@ class ArgusScopeFailsClosed(unittest.TestCase):
         self.addition.write_text("never reviewed\n")
         rc, out = self.A.verify_review(paths=None)
         self.assertEqual(rc, 1)
-        self.assertTrue(any("UNREVIEWED" in l for l in out))
+        self.assertTrue(any("UNCLASSIFIED" in l for l in out))
 
     # A1b — THE DEFECT
     def test_scope_failure_returns_CANNOT_EVALUATE_not_a_pass(self):
@@ -245,12 +191,11 @@ class ArgusScopeFailsClosed(unittest.TestCase):
         self.assertIn("CANNOT-EVALUATE", msg)
 
     # A5 + overlap — an explicit list is still honoured while discovery is broken
-    def test_explicit_paths_still_work_while_discovery_is_broken(self):
-        self.addition.write_text("never reviewed\n")
-        self._break_scope()
-        rc, out = self.A.verify_review(paths=["PROME/zz_unreviewed_addition.md"])
-        self.assertEqual(rc, 1)
-        self.assertTrue(any("UNREVIEWED" in l for l in out))
+    def test_explicit_paths_do_not_bypass_broken_inventory(self):
+        self.addition.write_text('never reviewed\n');self._break_scope()
+        rc,out=self.A.verify_review(paths=['PROME/result'])
+        self.assertEqual(rc,2,out)
+        self.assertIn('CANNOT-EVALUATE',out[0])
 
     # ------------------------------------------------------------------
     # ROUND 2 (external, 2026-09-13): my first fix carved out "no baseline" as
@@ -292,17 +237,17 @@ class ArgusScopeFailsClosed(unittest.TestCase):
         self._hide_git()
         _, out = self.A.verify_review(paths=None)
         joined = " ".join(out)
-        self.assertIn("Completeness is UNKNOWN", joined)
-        self.assertIn("may NOT certify", joined)
+        self.assertIn("CANNOT-EVALUATE", joined)
+        self.assertIn("baseline unusable", joined)
         self.assertFalse(any("byte-identical" in l for l in out))
 
-    def test_an_explicit_complete_list_is_the_only_escape(self):
+    def test_explicit_complete_list_cannot_escape_unusable_baseline(self):
         """Content-only comparison stays available as a DIAGNOSTIC — but only when
         the caller supplies the complete candidate list itself."""
         self.assertTrue(self.reviewed_paths, "fixture must have frozen a non-empty candidate")
         self._hide_git()
         rc, out = self.A.verify_review(paths=list(self.reviewed_paths))
-        self.assertEqual(rc, 0, f"the documented escape must still work: {out}")
+        self.assertEqual(rc, 2, f"schema 3 requires an evaluable baseline: {out}")
 
     # A3 — the gate blocks at the tiers that require a review
     def test_the_closeout_gate_treats_rc2_as_blocking_at_standard(self):

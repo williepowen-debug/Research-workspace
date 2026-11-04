@@ -20,6 +20,7 @@ CANDIDATE = ["surface.md"]   # the complete candidate list for the content-only 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "PROME" / "tools"))
 import argus_scope  # noqa: E402
+import argus_contract  # noqa: E402
 import prome_gate   # noqa: E402
 
 PY = sys.executable
@@ -43,7 +44,21 @@ def _init_repo(root):
     run("config", "user.name", "fixture")
     (pathlib.Path(root) / ".gitkeep").write_text("", encoding="utf-8")
     run("add", "--", ".gitkeep")
+    state = pathlib.Path(root) / 'PROME/state'
+    state.mkdir(parents=True, exist_ok=True)
+    (state / 'AUDIT_PERIMETER.tsv').write_text('pattern\tclass\treason\n*\tSHARED\tfixture\n*/**\tOWNED\tfixture\n')
+    run('add','--','PROME/state/AUDIT_PERIMETER.tsv')
     run("commit", "-qm", "fixture root")
+    argus_scope.record_baseline(run('rev-parse','HEAD').stdout.strip())
+
+
+def _freeze_content(paths):
+    # This suite isolates contract content comparison. Immutable-candidate semantics
+    # are exercised by test_argus_wq583 and the real CLI suite.
+    d = argus_contract.freeze(argus_scope, {'delivered':{p:'fixture' for p in paths}})
+    d.pop('candidate')
+    (argus_scope.ROOT/argus_scope.REVIEW_FILE).write_text(json.dumps(d))
+    return d['paths']
 
 
 class Case1_GeneratedViewsNotRestated(unittest.TestCase):
@@ -124,30 +139,30 @@ class Case3_ContentChangedAfterReview(unittest.TestCase):
         argus_scope.ROOT = pathlib.Path(self.d.name)
         self.addCleanup(lambda: setattr(argus_scope, "ROOT", self.orig_root))
         _init_repo(argus_scope.ROOT)
-        (argus_scope.ROOT / "PROME" / "state").mkdir(parents=True)
+        (argus_scope.ROOT / "PROME" / "state").mkdir(parents=True, exist_ok=True)
         self.f = argus_scope.ROOT / "surface.md"   # the whole candidate; see CANDIDATE
         self.f.write_text("reviewed content\n", encoding="utf-8")
 
     def test_unchanged_candidate_verifies(self):
-        argus_scope.record_review(["surface.md"])
+        _freeze_content(["surface.md"])
         rc, lines = argus_scope.verify_review(paths=CANDIDATE)
         self.assertEqual(rc, 0, lines)
 
     def test_content_changed_after_review_fails_closed(self):
-        argus_scope.record_review(["surface.md"])
+        _freeze_content(["surface.md"])
         self.f.write_text("edited after the audit\n", encoding="utf-8")
         rc, lines = argus_scope.verify_review(paths=CANDIDATE)
         self.assertEqual(rc, 1)
         self.assertTrue(any("CHANGED-SINCE-REVIEW" in l for l in lines), lines)
 
     def test_a_path_added_after_review_is_flagged_unreviewed(self):
-        argus_scope.record_review(["surface.md"])
+        _freeze_content(["surface.md"])
         rc, lines = argus_scope.verify_review(paths=["surface.md", "late_addition.md"])
         self.assertEqual(rc, 1)
         self.assertTrue(any("UNREVIEWED" in l for l in lines), lines)
 
     def test_deleting_a_reviewed_path_is_a_change(self):
-        argus_scope.record_review(["surface.md"])
+        _freeze_content(["surface.md"])
         self.f.unlink()
         rc, _ = argus_scope.verify_review(paths=CANDIDATE)
         self.assertEqual(rc, 1)
@@ -159,10 +174,10 @@ class Case3_ContentChangedAfterReview(unittest.TestCase):
 
     def test_re_review_after_a_fix_restores_the_verdict(self):
         """The prescribed remedy must actually work: fix, re-freeze, verify."""
-        argus_scope.record_review(["surface.md"])
+        _freeze_content(["surface.md"])
         self.f.write_text("fixed after a finding\n", encoding="utf-8")
         self.assertEqual(argus_scope.verify_review(paths=CANDIDATE)[0], 1)
-        argus_scope.record_review(["surface.md"])
+        _freeze_content(["surface.md"])
         self.assertEqual(argus_scope.verify_review(paths=CANDIDATE)[0], 0)
 
     def test_the_gate_treats_a_changed_candidate_as_BLOCKING(self):
@@ -217,10 +232,10 @@ class Case5_ForeignDirtyFiles(unittest.TestCase):
             argus_scope.ROOT = pathlib.Path(d)
             try:
                 _init_repo(argus_scope.ROOT)
-                (argus_scope.ROOT / "PROME" / "state").mkdir(parents=True)
+                (argus_scope.ROOT / "PROME" / "state").mkdir(parents=True, exist_ok=True)
                 (argus_scope.ROOT / "mine.md").write_text("x", encoding="utf-8")
                 (argus_scope.ROOT / "theirs.md").write_text("y", encoding="utf-8")
-                entries = argus_scope.record_review(["mine.md"])
+                entries = _freeze_content(["mine.md"])
                 self.assertIn("mine.md", entries)
                 self.assertNotIn("theirs.md", entries)
                 (argus_scope.ROOT / "theirs.md").write_text("y changed by them", encoding="utf-8")

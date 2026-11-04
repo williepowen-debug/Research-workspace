@@ -1,0 +1,26 @@
+{
+  "baseline": "cf20665b2ecf9c19980e5030bc9e38293b44f25b",
+  "branch": "prome/l835-phase2-20261104",
+  "checkout": "/home/willi/l835-phase2",
+  "runtime": "Codex; tools: functions exec and native shell; no sub-agents/reviewers",
+  "current_tests": 259,
+  "historical_tests_against_baseline_only": 37,
+  "final_diagnostic_tier_tests": 8,
+  "source_sha256": {
+    "PROME/tools/argus_policy.py": "89bbbae14f027f506a7628009f235484f7675d19015dabc10f29ac57c7af03a2",
+    "PROME/tools/argus_scope.py": "89a23dbc1f8af4f5f6bf083477d29ae65217d26ba74a90435864b6cd0d2f2742",
+    "PROME/tools/argus_contract.py": "3c86b5cbee2be31f539f7548bab738ce231fc989d6631791392fba3a1b743a82",
+    "PROME/tools/prome_gate.py": "cac38b89e3521955931b2f7ac3764da89ecbffd4446efbd561fcfb9c4dc479ae"
+  },
+  "preserved_dirty_candidates": {
+    "PROME/tools/ARGUS_CONTRACT.md": "8c17013617076a133e3409a8e8536aac66c4a027da2daefb71a511704af1dd48",
+    "PROME/tools/argus_contract.py": "3f96b170d257388913cd9d8a48865b49d78d3a686defb12327a6cd862e6bb2bc",
+    "PROME/tools/tests/test_argus_contract.py": "55a84349d1c6f1026b40b8767fb213d31152160c019bdf7d587a358bab9e69b2"
+  },
+  "production_review_sha256": "fc2ca6087fe49cc3e8d4a412f30cdef44fda855a5ff5c173a7b532653b779e65",
+  "seed": 835,
+  "generated_policy_count": 308,
+  "production_cutover": false,
+  "independent_acceptance": false,
+  "L835": "OPEN"
+}
