@@ -30,7 +30,7 @@ Trepp office 12.16% then 12.33% meets the registered two-print condition; formal
 - UNG WQ-573: sampled NOAA GFS f000 10 hPa/60N means +3.903807 m/s [November 3 00Z], +1.791158 [November 4 00Z], +1.092857 [12Z]. Positive analyses do not meet <0; unsampled intervals unknown. AEOLUS acceptance/canonical logging remains owed. UNG November 2/3 closes $9.00/$9.13 are below the $10.40 prior-close void. Approved five January 15, 2027 10/12 call spreads retain debit ≤$0.50, maximum loss $256.50, observed reversal by November 12, red day by November 20, entry <$10.40 and every owner guard. Broker quote/fees and current option chain not obtained; no order. Original fallback versus AEOLUS-logged wording still requires owner reconciliation; no alternate fire authority.
 - Reader basis: four changed boot-defining files manually reviewed and current local hashes renewed (basis-review.json). Central READS is STALE at November 2 because dashboard changed November 4; PROME reattestation remains owed. No additional dependency found in reviewed deltas. Root/local CLAUDE rotation warnings remain; no instruction rewrite authorized by catch-up. `python` alias absent; python3/venv available. Complete fleet lifecycle visibility UNKNOWN; no DARK inference or external message.
 - Owed DEWEY 003R/005R queue flags are not blank research gaps. REGINALD L801 and November 1 FFIEC work cover much of 003R: coverage-decline predictor dropped, cohort 7/10, separate November 7 coverage-level test survives. VULCAN L800 and DEWEY November 2 final AMZN XBRL replay overlap 005R; Amazon's $63.753B acquisition/investment/other omission, missing payout tags and mixed accounting remain explicit. Exact numbered-request provenance/residual scope unresolved; neither queue flag auto-closed, dropped or relaunched. WQ-551 FIRM remains deferred.
-- Existing owner grading/reconciliation: LABOR JOLTS/NFP LEG-C/October WARN; ISHM L899 survey grade completed November4 with named source exception: ISM55.5, strict<47 NOT-FIRED; S&P final54.9 supersedes flash56.0, rollover NOT-MET, broader-real-demand CANNOT-FIRE. Selective expansion and scores unchanged. Original October final composition access check November6; monthly AAR, Emerson and J1/M3/import pairing remain owed; FALCON WQ-559/UKMTO 188/November 4 gate; CREED T-01a/Kernel; FERT DTN table and CF Q3 (November 4 after-close release and November 5 conference not claimed read). NEXUS concurrently records L16 UP/M-07 DOWN in its working STATUS; WALTER's header read is not independent acceptance of the full grade. Route packets do not prove owner completion.
+- Existing owner grading/reconciliation: LABOR JOLTS/NFP LEG-C/October WARN; ISHM L899 survey grade completed November4 with named source exception: ISM55.5, strict<47 NOT-FIRED; S&P final54.9 supersedes flash56.0, rollover NOT-MET, broader-real-demand CANNOT-FIRE. Selective expansion and scores unchanged. Original October final composition access check November6; 006/035 backlog now owner-completed: M3/import J1 pairing, Emerson eight cells and five October-ending AAR weeks graded. J1 contraction and J2 rail deterioration NOT-MET; scores unchanged. Current-history/direct monthly import y/y retry November6, AAR edition publication date UNKNOWN (December2 revisit); EMR destocking/AI share NOT-STATED. Evidence research/2026-11-04_ishm-backlog/REVIEW.md; FALCON WQ-559/UKMTO 188/November 4 gate; CREED T-01a/Kernel; FERT DTN table and CF Q3 (November 4 after-close release and November 5 conference not claimed read). NEXUS concurrently records L16 UP/M-07 DOWN in its working STATUS; WALTER's header read is not independent acceptance of the full grade. Route packets do not prove owner completion.
 - November 2 source gaps survive where not replaced: direct Al Jazeera/QSE originals and neutral Al Mayeda position/damage evidence; CME historical/motive/curve claims; original mortgage recording/Lunar/Vegas videos and selected paywalled primary bodies. ConnectWise's partial recovery was updated in November 4 card 011, not declared complete. New Qeshm/UKMTO evidence is routed, not a whole-theater census. Full Iran sweep still due November 5; bounded anchor update did not reset its clock.
 
 - Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
@@ -97,7 +97,7 @@ LIGHT closeout with subsequent ISHM owner-result reconciliation. Operational cov
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-04T21:31:04Z",
+  "as_of": "2026-11-04T22:26:48Z",
   "next_review": "2026-11-04",
   "publication": [
     {
@@ -129,8 +129,8 @@ LIGHT closeout with subsequent ISHM owner-result reconciliation. Operational cov
   "delivery": {
     "signal_date": "20261104",
     "total": 209,
-    "delivered": 201,
-    "note": "Prior201 origin-proven; new076 eight handoffs pending publication. No consumption inferred."
+    "delivered": 209,
+    "note": "All209 day handoffs origin-proven;076 eight copies reconciled at ISHM backlog consumption. Recipient use remains separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -194,6 +194,14 @@ LIGHT closeout with subsequent ISHM owner-result reconciliation. Operational cov
       {
         "path": "AGENTS/WALTER/research/2026-11-04_liquid-route/REVIEW.md",
         "sha256": "442c5378f995c5285e91b0b87cdc876d59437f40719eea965c286817dd778b0f"
+      },
+      {
+        "path": "AGENTS/ISHM/research/2026-11-04_backlog/REPORT.md",
+        "sha256": "a13fc5b6b69ef5b8e989414673783261c202c651feac3a9acca7beef793ed6f0"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-04_ishm-backlog/REVIEW.md",
+        "sha256": "e38e42c2d0cf95d17e0d5113ccfc3d61bb46bf54f6b89eb72e44a13c65af4d2e"
       }
     ]
   },
@@ -211,8 +219,8 @@ LIGHT closeout with subsequent ISHM owner-result reconciliation. Operational cov
     "12(f)": "Five oldest contiguous STATUS rows rotated verbatim; budgets measured by closeout checks.",
     "14": "Full MEMORY narrative deferred under light tier; LAST_COMPLETION is current duty source.",
     "root.retirement": "Retained live source/owner references and uncertain retirement candidates; no deletion sweep.",
-    "15": "ISHM user-relayed L899 result checked against owner REPORT, NEXUS_BRIEF, STATUS lead and CLOSEOUT. Broad overdue-survey carry narrowed to exact S&P composition exception (Nov6 check); J1/M3/import/Emerson/rail carries retained. No duplicate dispatch or owner edit. Other prior duties/approvals retained.",
-    "16": "076 local pending publication; IMMEDIATE clean-tree self-push unavailable because foreign dirty work remains. Alert provided in active session; no external message.",
+    "15": "ISHM006/035 appended acted rows and owner backlog REPORT verified. Removed completed M3/import/EMR/rail carries; exact source exceptions retained. Source-table/period correction recorded before reuse. No owner edit, duplicate dispatch or new study; owner NEXUS refresh not yet observed.",
+    "16": "Card076 committed baa25ef70 now origin-proven, eight handoffs reconciled; no WALTER push. ISHM backlog consumption committed locally.",
     "checks": "Light suite read-cap/archives/weekdays PASS; receipt mismatch corrected and receipt recheck PASS187/201. Ledger nudge reviewed: route/delivery and batch ledgers changed this session; zero kill/fire/correction changes warranted. Central READS UNKNOWN stale attestation; charter rotation warnings carried. checks.json retains original review result; later receipt recheck supersedes mismatch only. Doctor found stale generated BOARD index after7 new cards; regenerated before final check. Final doctor0HIGH/18MED before correcting one taxonomy error:17 retained MED comprise14 pending-publication copies,59 older unconsumed copies and two DEWEY flags. Invalid METALS cluster corrected to existing POSITIONING_VALUATION; index regenerated. Fresh collector healthy; boot basis MATCH28.",
     "Tier1": "Re-pulled core observations unchanged; fresh HANS storage basis in REVIEW; full ID/source gaps inherited explicitly. STATUS refreshed."
   }
