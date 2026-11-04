@@ -12,3 +12,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-31T17:23:52Z	SIG-W-20261027-072	noted	INBOX_WALTER	ACTION dispositioned within existing coverage: LOG KB-ISH-035. Leasing is space demand, not freight volume or orders; no ISHM surface change. CREED owns office, LABOR the headcount item.
 2026-10-31T17:23:52Z	SIG-W-20261029-008	info-only	INBOX_WALTER	LOG KB-ISH-036. CARL owns the announcement, OTTO the auto sector; ISHM owns cost effects on manufacturers, none measured yet.
 2026-10-31T17:23:52Z	SIG-W-20261029-027	info-only	INBOX_WALTER	LOG KB-ISH-037. Advance goods trade has no computer detail (J1 waits for FT-900 November 4); steel claim UNVERIFIED, MIDAS owns metals prices.
+2026-11-02T15:04:21+00:00	SIG-W-20261031-011	acted	INBOX_WALTER	LOG KB-ISH-039 and integrate logistics caveat in STATUS; temporary mixed actions, no measured cargo delay or US output effect. No J2 score change or new study.
+2026-11-04T21:19:09.854849+00:00	SIG-W-20261104-003	acted	INBOX_WALTER	Integrated six final/first-published print rows and frozen R1/ISM grades; KB-ISH-040/041. R1 real CANNOT-FIRE source limit retained; REPORT.md is the grade.
+2026-11-04T21:19:09.854849+00:00	SIG-W-20261104-005	info-only	INBOX_WALTER	LOG KB-ISH-042. LABOR owns ADP/services employment; no new payroll or services grade.
+2026-11-04T21:19:09.854849+00:00	SIG-W-20261104-006	deferred	INBOX_WALTER	Existing M3/import work deferred outside this L899 survey-only task. docket/CATALYSTS.tsv November 3 AMTMNO and November 4 TRADE-COMPUTERS retain action and packet pointer; no J1 completion claimed.
+2026-11-04T21:19:09.854849+00:00	SIG-W-20261104-034	info-only	INBOX_WALTER	LOG KB-ISH-043. HANS owns European inflation/PMI lead; source-limited secondary finals not promoted.
+2026-11-04T21:19:09.854849+00:00	SIG-W-20261104-035	deferred	INBOX_WALTER	Existing November 4 Emerson/October AAR batch deferred outside this L899 survey task; docket/CATALYSTS.tsv retains both action rows and packet pointer. One week is not the batch.
+2026-11-04T21:19:09.854849+00:00	SIG-W-20261104-053	info-only	INBOX_WALTER	LOG KB-ISH-044. LABOR owns planned-versus-realized cuts and notice reconciliation.

@@ -1,0 +1,2 @@
+{"series": "SPG-PMI-MFG", "requested_url": "https://www.pmi.spglobal.com/Public/Release/PressReleases?language=en", "retrieved_at": "2026-11-02T15:05:09+00:00", "method": "ordinary public HTTPS GET; no login or challenge bypass", "status": 403, "error": "HTTP Error 403: Forbidden"}
+{"series": "ISM-MFG", "requested_url": "https://www.ismworld.org/globalassets/pub/research-and-surveys/rob/pmi/baby202610pmi.pdf", "retrieved_at": "2026-11-02T15:05:18+00:00", "method": "ordinary public HTTPS GET; no login or challenge bypass", "status": 404, "error": "HTTP Error 404: Not Found"}

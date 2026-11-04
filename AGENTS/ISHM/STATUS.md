@@ -1,53 +1,44 @@
 # ISHM STATUS
 
-**Last updated: 2026-10-31 — backlog grade, L0 inbox drain and November 2 frame, Claude Code (claude-opus-5-5), PROME spawn under WQ-568 A (Will, "A", 13:08 ET).** Evidence cutoff October 31 ET; release clocks keep their own dates. Previous update October 26 (OpenAI Codex): `git log -p -- AGENTS/ISHM/STATUS.md`.
+**Last updated: 2026-11-04 — L899 recovered on Will's direct instruction; OpenAI Codex.** Survey evidence: November 2 first-published ISM / S&P final. Hard data and company/freight observations below retain their October 31 evidence cutoff and vintage; not re-pulled here. Source and grade: `research/2026-11-02_L899/REPORT.md`.
 
-> **FIRST-LIVE-SESSION BANNER — SPENT WITH NAMED CARRIES (2026-10-26).** FIRST_SESSION.md is history, not this session's list. Source and calibration gaps remain explicit; this is not a fully calibrated desk.
+> **FIRST-LIVE-SESSION BANNER — SPENT WITH NAMED CARRIES (2026-10-26).** FIRST_SESSION.md is history. Source and calibration gaps remain; this is not a fully calibrated desk.
 
 ## Current judgment
 
-**A selective factory upturn is real and is now visible in delivered equipment; broad end-demand durability is still unproved.** Q3 real equipment investment rose 20.9% annualized and core capital-goods shipments 3.9% over Q2, while CAT's end-user dealer sales rose 22%. But the strongest lines are AI hardware (computers +66.7%) and data-center power, October survey orders cooled in three of the four growing districts, and the S&P flash leans on stockbuilding and delivery delays. No R1 flip, no trigger. The registered R1 observations resolve at the November 2 S&P final.
+**Selective factory expansion continues; the national ISM output reading is stronger, but broad demand durability remains unproved.** October ISM production and orders improved while inventory accumulation supplied roughly half the headline increase. S&P's October final is below its flash and September final, while its issuer commentary still describes growing orders, AI demand and precautionary buying. No rollover signal and no R1 state flip. The toward-real R1 test is source-limited, not passed: the original final portal remains 403 and exact composition is missing.
 
-Canonical evidence: `workbook/PRINTS.tsv` (**58 rows**) and `research/2026-10-31_backlog/REPORT.md` (this week's grade). Earlier records: `research/2026-10-26_first-session/REPORT.md`, `research/2026-10-26_buildout/REPORT.md`, `research/2026-10-26_news-sweep/REPORT.md`. Company checklists: `companies/README.md`.
+Canonical evidence: `workbook/PRINTS.tsv` (**64 rows**, all prior vintages preserved); frozen frame `RELEASE_PREP_2026-11-02.md` unchanged. Detailed grading, source locators and exception: `research/2026-11-02_L899/REPORT.md`. Previous hard-data synthesis: `research/2026-10-31_backlog/REPORT.md`; company checklists: `companies/README.md`.
 
-| Gauge | Current observation and basis | Consequence |
+| Gauge | Observation / source and basis | Consequence |
 |---|---|---|
-| ISM Manufacturing, September, October 1 primary | Headline 54.5; orders 55.3; production 56.7; employment 52.7; supplier deliveries 59.0; inventories 48.6; prices 77.9 NSA | Orders minus inventories +6.7. October print November 2, 10:00 ET |
-| Registered ISM <47 trigger | **NOT-FIRED**, September 54.5; owner ISHM (WQ-507 A); strict, first-published, GRADE-AT-PUBLICATION | Fire routes LABOR and PROME, HENRY informed. HENRY's charter pointers now applied (commit 80824f14d, verified October 31) |
-| S&P US manufacturing, September final / October flash | 55.9 final (October 1 primary); October flash 56.0, output 55.8 vs 56.2 (October 23 primary) | Flash says orders and output growth slowed; final November 2, 09:45 ET (date PRIMARY October 31) |
-| Regional breadth, October complete | New orders: NY 23.2, Philadelphia 4.3, Richmond −8, KC 3, Dallas 9.3 (issuer SA) | 1 of 5 negative, as in September, but orders cooled sharply in Philadelphia, KC and Dallas. Richmond composite −2 flat |
-| Core equipment, September advance, October 27 primary | Orders $88.039B, +0.5% m/m; shipments $86.052B, +1.2%; nominal SA. Q3 vs Q2: orders +3.59%, shipments +3.88% | Domestic J1 leg rising. Full report November 3 |
-| Durable goods headline, September advance | $345.4B, +1.8%; excluding transportation +0.5%; nondefense aircraft orders +28.4% | Aircraft-driven headline, not broad demand |
-| BEA real equipment, Q3 advance, October 29 primary | Equipment +20.9% q/q SAAR; information processing +37.4%; computers +66.7%; industrial +24.7%; transportation −7.9% | J1 leg 3 strongly positive; includes imports, not AI-only. Second estimate November 25 |
-| J1 complete pairing | Two of three Q3 legs rising; import leg (FT-900 September) November 4 | The three-leg contraction warning cannot fire for Q3. Verdict is VULCAN's |
-| Hard output, September, Fed October 16 primary | Total IP +0.7% m/m, manufacturing +0.3%; Q3 manufacturing +0.7% SAAR | Slow real output growth. October IP November 17; annual revision November 24 (base year 2022) |
-| Caterpillar Q3, October 29 primary (SEC 8-K) | Sales $20.682B, +17%, volume-led; record backlog (dollars not stated); dealer retail +22%; Power Generation +30% on data-center engines | Supports real end-user buying, concentrated in data-center power and North American construction |
-| Freight (J2 instruments) | Cass September shipments +1.9% y/y; AAR week of October 17 carloads +3.5%, intermodal +12.6%; ACT September Class 8 net orders 19,172, −7% y/y | No broad freight collapse. October AAR batch November 4, Cass November 13 |
-| Air cargo, September, October 29 primary | IATA global +7.7% y/y; North American carriers +11.8% | Context only, not a J2 instrument |
-| J2 base rate | 26/30 freight-down months had ≤25 bp trailing HY widening; one overlapping episode | Cannot be lengthened: RED holds no joint set (October 28), LIQUID no free history beyond FRED's ~3-year window (October 29) |
-| Mechanism score | **18/35 raw**, shared-root **13/25**; no score changed October 31 | Equity thermometer VX-ISH-08 still UNKNOWN, display only |
-| Predictions / book | Zero prediction rows; TRADE.md FROZEN, no book | No forecast registration, sizing or execution |
+| ISM Manufacturing, October, November 2 10:00 ET | FIRST-PUBLISHED, PRIMARY-VERIFIED original ISM-authored dated release and issuer page: headline 55.5 (54.5); orders 55.5 (55.3), production 59.0 (56.7), inventories 51.4 (48.6), employment 52.4 (52.7), SA diffusion points; deliveries 59.1 (59.0), prices 75.2 (77.9), customers' inventories 41.6 unchanged, NSA | Stronger production; NO-INV 4.1 vs 6.7. Inventory +0.56 and production +0.46 headline points, before rounding; not two independent confirmations |
+| Registered ISM <47 trigger | **NOT-FIRED**, October first-published 55.5; strict <47, WQ-507 A | No deep-contraction alert. Next ISM December 1 10:00 ET (PRIMARY next-date notice in November 2 release). HENRY's pointers remain applied |
+| S&P US manufacturing, October final, November 2 | FINAL 54.9 SA diffusion points, PRIMARY-VERIFIED same-day issuer commentary PDF p.1; September final 55.9, October 23 flash 56.0 | Final supersedes flash; −1.1 vs flash, below frozen 55.5–56.5 range. Original press-release portal inaccessible; headline is verified, full final composition is not |
+| Frozen R1 toward real demand | **CANNOT-FIRE** | Exact final orders/output growth pace vs September and explicit broadening beyond precautionary stocks not recovered. No flash/ISM substitute. One-time source check November 6 retains the October referent |
+| Frozen R1 toward borrowed/rolling over | **NOT-MET** on necessary orders condition | Dated final issuer commentary describes growing orders, not contraction. Final input-stock direction still UNKNOWN; do not call every component graded |
+| Regional breadth, October complete (October 31 cutoff) | Issuer SA new orders: NY 23.2, Philadelphia 4.3, Richmond −8, KC 3, Dallas 9.3 | 1/5 negative, as September; three positive districts cooled. ISM national improvement does not erase regional divergence |
+| Core equipment, September ADVANCE, October 27 primary (October 31 cutoff) | Nominal SA orders $88.039B, +0.5% m/m; shipments $86.052B, +1.2%. Q3 sums vs Q2 +3.59% / +3.88%, mixed-vintage calculation disclosed in PRINTS | Historical advance, not the November 3 full vintage. M3 reconciliation remains owed; do not pass these off as latest-revised |
+| Durable headline, September ADVANCE (October 31 cutoff) | $345.4B, +1.8%; ex-transport +0.5%; nondefense aircraft +28.4%; October 27 primary | Aircraft-driven nominal headline. November 3 revision not graded in this task |
+| BEA Q3 ADVANCE, October 29 primary (October 31 cutoff) | Real equipment +20.9%, information processing +37.4%, computers +66.7%, industrial +24.7%, transportation −7.9%; q/q SAAR | Delivered equipment strength; imports included, not AI-only. Second estimate November 25 |
+| J1 paired test | Two rising Q3 legs on prior October 31 evidence; September FT-900 now due for matched detail, not graded here | No complete paired verdict; original all-three-contraction warning cannot fire on those two rising legs. VULCAN owns thesis judgment |
+| Fed output, September, October 16 primary (October 31 cutoff) | Total IP +0.7% m/m, manufacturing +0.3%; Q3 manufacturing +0.7% SAAR | Modest real-output gain; October survey strength is not a new measured IP result. October IP November 17; annual revision November 24 |
+| CAT Q3, October 29 SEC 8-K (October 31 cutoff) | Sales $20.682B, +17%, volume-led; dealer retail +22%; Power Generation +30% on data-center engines; NSA y/y | Real end-user evidence concentrated in power/construction; record backlog dollars not stated |
+| Freight/J2 (October 31 cutoff) | Cass September shipments +1.9% y/y; AAR week October 17 carloads +3.5%, intermodal +12.6%; ACT September final Class 8 19,172, −7% y/y; issuer sources in PRINTS | No broad collapse in prior read; October rail batch remains owed. WALTER's one-week lead does not complete it. Cass October November 13 |
+| J2 base rate | 26/30 freight-down months had ≤25 bp trailing HY widening; one overlapping episode (first-session base-rate file) | No independent-cycle credit probability; no wider joint history available from RED/LIQUID replies |
+| Mechanism scores | **18/35 raw**, shared-root **13/25**, unchanged November 4 | Descriptive, not probabilities. VX-ISH-08 equity thermometer UNKNOWN, excluded |
+| Predictions / book | Zero prediction rows; TRADE.md FROZEN | No new forecast, threshold, size or execution |
 
-## November 2 actions
+## L899 completion and carries
 
-**Read `RELEASE_PREP_2026-11-02.md` before the prints. It was frozen October 31.** S&P US manufacturing final at 09:45 ET (14:45 UTC; clocks fall back November 1); ISM at 10:00 ET. Desk expectation: ISM about 54 (range 52.0–56.5), below 47 at 1% or less; neither R1 branch expected to fire. PROME re-wakes ISHM at the ISM print (DOCKET L899).
+ISM strict trigger and the frozen range table are graded; S&P FINAL headline is recorded. R1 borrowed is NOT-MET; R1 real remains CANNOT-FIRE on the named source exception. Publication vintage was reconstructed on November 4, not read live on November 2. No later revision rewrote the frame. The two consumed survey wake rows are retired; December successors remain. Survey history/calibration is still owed, with no new band registered.
 
-## Carries and limits
+Other existing obligations remain on `docket/CATALYSTS.tsv`: November 3 factory orders; November 4 matched computer imports/J1, Emerson and October rail; November 5 PH; November 6 calendar audit and source recovery; equity thermometer still unmeasured. No new study/framework expansion. WALTER 006/035 are explicitly deferred with pointers on those existing rows, not research-completed by filing.
 
-| Owner | Named dependency | Date / next authorized touch |
-|---|---|---|
-| ISHM | November 2 prints: S&P final, R1 grade, ISM read and <47 grade | November 2, 09:45 and 10:00 ET |
-| ISHM | Long ISM/S&P component history and first-release validation (survey-band calibration) | November 2 row; carries if the print work runs long. No band registered |
-| ISHM / VULCAN | J1 import leg: FT-900 September computers and accessories | November 4, 08:30 ET |
-| ISHM | Equity thermometer VX-ISH-08 (CAT October 29 reaction not measured) | Owed; HENRY owns equity positioning |
-| ISHM | Bellwether next dates (GE, HON, MMM, UNP, CAT Q4) and Deere event body | November 6 audit; Deere November 12 |
-| ISHM | AAR monthly edition publication day (PRINTS row AAR-BREADTH keeps Release_Date UNKNOWN on purpose; boot leg 5 flags it each boot) | November 4 rail batch |
-| ISHM / LIQUID / RED | J2 sample: matured months only | November 13 |
+Recovered intake: GIBBS boundary reply verified at KB-GIB-032 (no standing large-bank C&I comparison; no reply owed). Interrupted KB-ISH-038/039 and BOARD row preserved. Port actions add temporary logistics context only: organizer counts are not measured cargo delays or US production losses, and no J2 score changes. WALTER 003 integrated; 005/034/053 LOG as source-limited context; 006/035 deferred. Consumption dispositions in `board_log.tsv`; originals filed under processed after integration.
 
-**Seams settled by the October 31 drain** (packets verified at artifacts where they claimed a change): CARL confirmed four seams (ISM/PMI, tariffs, freight, Deere). OTTO accepted the auto-production seam. HAWK confirmed the defense-capex seam. REGINALD accepted the C&I boundary and will ask for matched orders and inventories only if H.8 C&I accelerates. WATT accepted grid-equipment custody (scope line in `AGENTS/WATT/CLAUDE.md`, commit 94ac79d1b). HENRY applied the <47 pointers (commit 80824f14d). HANS: German October flash 54.2, no material change to the lead. RED and LIQUID: no wider J2 history exists.
-
-Intake October 31: nine desk packets INTEGRATED into this file, the catalyst ledger and the November 2 frame; five WALTER signals dispositioned in `board_log.tsv` (four LOG to KB-ISH-034..037, one DISCARD to CREED/VULCAN). All fourteen filed to `processed/`.
+P3 survey read goes to HENRY/CARL/LABOR; PROME receives the dated L899 result/source exception; NEXUS brief is pinned after final STATUS commit. Packet delivery, notification acceptance and recipient consumption remain distinct; exact evidence goes in `research/2026-11-02_L899/CLOSEOUT.md`.
 
 ## BOTTOM LINE
 
-The cycle reads as a real but selective upturn: Q3 equipment investment and CAT's end-user sales are strong, while October survey orders cooled outside New York (Richmond's October survey and the S&P flash). J1 has two of three Q3 legs rising, so its warning cannot fire; the import leg lands November 4. J2 shows recovering volumes with no credit verdict. The biggest unknown is how much demand outlasts AI hardware, data-center power and safety stockbuilding. ISHM next acts at the November 2 S&P final (09:45 ET) and ISM (10:00 ET).
+October's national survey read supports continued selective expansion, with stronger ISM production, rising inventories and a weaker S&P final headline than flash; broad demand durability is still unproved (November 2 primary sources). J1 and J2 retain their prior equipment-strength/recovering-volume reads, with the import pairing and October rail batch still owed. The biggest unknown is the final S&P composition needed to distinguish broader demand from precautionary buying, compounded by the unresolved durability of AI-led demand. The next scheduled print is Parker-Hannifin November 5; existing overdue M3/import/Emerson/rail work remains ahead of new research.

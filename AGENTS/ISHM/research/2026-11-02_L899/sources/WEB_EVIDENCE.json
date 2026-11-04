@@ -1,0 +1,71 @@
+{
+  "observed_at": "2026-11-04T21:17:51.198374+00:00",
+  "method": "Web tool read of issuer page and issuer-authored dated syndication; handwritten factual extraction, not a saved raw HTML response",
+  "ISM": {
+    "primary_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+    "first_release_url": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-55-5-october-2026-ism-manufacturing-pmi-report-302925617.html",
+    "publication": "2026-11-02 10:00 ET",
+    "ref_period": "2026-10",
+    "vintage": "FIRST-PUBLISHED",
+    "October": {
+      "headline": 55.5,
+      "new_orders": 55.5,
+      "production": 59.0,
+      "employment": 52.4,
+      "supplier_deliveries": 59.1,
+      "inventories": 51.4,
+      "customers_inventories": 41.6,
+      "prices": 75.2,
+      "backlog": 54.6,
+      "exports": 51.2,
+      "imports": 52.9
+    },
+    "September": {
+      "headline": 54.5,
+      "new_orders": 55.3,
+      "production": 56.7,
+      "employment": 52.7,
+      "supplier_deliveries": 59.0,
+      "inventories": 48.6,
+      "customers_inventories": 41.6,
+      "prices": 77.9,
+      "backlog": 56.4,
+      "exports": 50.9,
+      "imports": 51.0
+    },
+    "SA": [
+      "new_orders",
+      "production",
+      "employment",
+      "inventories"
+    ],
+    "NSA": [
+      "supplier_deliveries",
+      "customers_inventories",
+      "prices",
+      "backlog",
+      "exports",
+      "imports"
+    ],
+    "headline_basis": "composite of adjusted and unadjusted components",
+    "revision_note": "September comparator agrees with the saved October 1 vintage; no revised October value substituted"
+  },
+  "SPG": {
+    "primary_url": "https://spglobal.scene7.com/is/content/spglobalcom/6316351_6316316_0.1pdf",
+    "publication": "2026-11-02",
+    "ref_period": "2026-10",
+    "vintage": "FINAL",
+    "headline": 54.9,
+    "September_final": 55.9,
+    "October_flash": 56.0,
+    "source_type": "same-day issuer economics commentary, not original press release",
+    "orders_direction": "growing",
+    "exact_orders_vs_September_pace": "UNKNOWN",
+    "exact_output_vs_September_pace": "UNKNOWN",
+    "input_stock_direction_final": "UNKNOWN",
+    "broadening_beyond_precautionary_stocks": "NOT ESTABLISHED",
+    "original_release": "https://www.pmi.spglobal.com/Public/Home/PressRelease/2851b1ead435484bb938294bf3d8bcfd",
+    "original_access": "HTTP 403 via web tool; ordinary public GET also 403"
+  },
+  "frame_sha256": "e1f84449ddb265650b8cfe532344e884b264f7d70ff3a16c01ad08fa18aa07f5"
+}

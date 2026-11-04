@@ -1,0 +1,9 @@
+# L899 recovery receipt — 2026-11-04
+
+Authority: Will directly requested finishing L899, the frozen November 2 ISM/S&P grades, current state, NEXUS brief, delivery and persistence. No new study/framework.
+Runtime: OpenAI Codex, GPT-6 family; exact model version UNKNOWN. Current native task identity 01a1a85f-2e2c-7970-b45f-37e9b4682bb6 from native task list. Root /home/willi/Research-workspace. Root CLAUDE.md, AGENTS.md, USER.md and local CLAUDE.md explicitly read; no local AGENTS.md. Python, shell, Git, web and native Codex task list/read/message tools verified exposed; no Claude-specific tools assumed.
+Recovery: native read of original 01a19cc6-aa7a-72d2-92a2-0beae2348ac0 confirms interrupted/notLoaded. Preserved its two source attempts, KB-ISH-038/039 and BOARD row; no completed survey grade existed there. Rechecked GIBBS KB-GIB-032 at owner artifact, retained the source limits on port-action context. First-session build remains spent.
+Boot: rc 1 REVIEW (three missed print keys, four overdue catalysts, advance/flash successors, unknown AAR day and equity thermometer). Corrections rc 0, no NAMED correction owed. Copied clock: ⏰ WALL CLOCK: 2026-11-04 16:13 Wednesday — never hand-write a time; copy this line
+Git: pull --rebase refused dirty work. Fetch succeeded. No stash/reset/foreign commit. New source attempts extend sources/manifest.jsonl without overwriting interrupted SOURCE_ATTEMPTS.jsonl.
+Native discovery: current PROME task 01a1a863-9dfd-74d1-a248-563928cc56ec read and confirmed active at PROME cwd. List coverage truncated; neither full fleet absence nor cross-runtime completeness claimed. Recipient doorbells use verified native IDs only; no replacement launched.
+Frozen frame SHA-256: e1f84449ddb265650b8cfe532344e884b264f7d70ff3a16c01ad08fa18aa07f5; left unchanged. Original EXIT_PROTOCOL observations retained verbatim with a dated result appended.

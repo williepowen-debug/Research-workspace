@@ -1,0 +1,52 @@
+==========================================================================
+  ⏰ WALL CLOCK: 2026-11-04 16:13 Wednesday — never hand-write a time; copy this line
+  ISHM BOOT — staleness · predictions · catalysts · missed prints · print ledger · perimeter · matrix/map · FRED
+==========================================================================
+
+--- 1. ledger staleness (workbook + TRADE.md) ---
+perimeter [ISHM]: 5 ledger(s) scanned; 10 TSV(s) NOT scanned by this pass: PERIMETER.tsv, data/CALIBRATION.tsv, data/EQUIPMENT_QUARTERLY.tsv, data/HARD_DATA_MONTHLY.tsv (+6 more)
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+  ✓ quiet (alert-contract: this check prints only when stale or misconfigured)
+
+--- 2. predictions-due (OPEN rows past Resolve_By) ---
+  ✓ none due — 0 row(s), 0 OPEN scanned on Resolve_By
+
+--- 3. catalysts-due (today · ≤2d · past · forward horizon) ---
+  ⚠️ TODAY: 2026-11-04 [P3] [AAR-CARLOADS] AAR weekly rail traffic — read October's weekly r
+  ⚠️ TODAY: 2026-11-04 [P2] [EARNINGS] Emerson fiscal Q 4 and full year 2026 (before market 
+  ⚠️ TODAY: 2026-11-04 [P1] [TRADE-COMPUTERS] Census/BEA FT-900 US international trade, Sep 
+  ⚠️ in 1d: 2026-11-05 [P2] [EARNINGS] Parker-Hannifin fiscal 2027 Q 1 (before market open, 
+  ⚠️ in 2d: 2026-11-06 [P3] Bellwether next-release calendar audit
+  ⚠️ in 2d: 2026-11-06 [P3] ATA preliminary September tonnage successor availability check
+  ⚠️ 4 past-dated row(s) (oldest 2026-11-02) — consume, then re-date to the next release or retire: 2026-11-02 [P1] [ISM-MFG] ISM Manufacturing PMI, Oct 2026 (10:00 ET) · 2026-11-02 [P2] Survey-band calibration due (first-session carry) · 2026-11-02 [P2] [SPG-PMI-MFG] S&P Global US Manufacturing PMI FINAL, Oct 2026 (0 …
+  (39 row(s) scanned; window 2d; forward horizon 30d)
+
+--- 4. missed prints (past keyed catalysts vs PRINTS.tsv) ---
+  ⚠️ MISSED PRINT: [ISM-MFG] released 2026-11-02 — no PRINTS.tsv row with Release_Date >= 2026-11-02 (newest on file 2026-10-01)
+  ⚠️ MISSED PRINT: [SPG-PMI-MFG] released 2026-11-02 — no PRINTS.tsv row with Release_Date >= 2026-11-02 (newest on file 2026-10-23)
+  ⚠️ MISSED PRINT: [AMTMNO] released 2026-11-03 — no PRINTS.tsv row with Release_Date >= 2026-11-03 (newest on file 2026-10-02)
+  ℹ️ 1 past catalyst(s) carry no [SERIES-KEY] — not print-checkable (fine for non-print rows; say so in notes)
+  (3 past keyed catalyst(s) checked against 58 print row(s))
+
+--- 5. print ledger (enums · provisional rows past their successor date) ---
+  ⚠️ SUCCESSOR DUE: SPG-PMI-MFG 2026-10 FLASH — successor date 2026-11-02 passed, no later-vintage row
+  ⚠️ row 47 AAR-BREADTH 2026-09: unparsable Release_Date
+  ⚠️ SUCCESSOR DUE: DGORDER 2026-09 ADVANCE — successor date 2026-11-03 passed, no later-vintage row
+  ⚠️ SUCCESSOR DUE: NEWORDER 2026-09 ADVANCE — successor date 2026-11-03 passed, no later-vintage row
+  ⚠️ SUCCESSOR DUE: ANDENO-SHIP 2026-09 ADVANCE — successor date 2026-11-03 passed, no later-vintage row
+  (58 print row(s) scanned)
+
+--- 6. frozen perimeter (the eight ruled bellwethers) ---
+  ✓ FROZEN banner present; exactly the 8 ruled tickers: CAT DE EMR GE HON MMM PH UNP
+
+--- 7. convergence matrix + transmission map ---
+  ⚠️ UNSCORED: 1 of 8 vector(s) (VX-ISH-08) — scoring is the desk's judgment and is owed; the MECHANISM composite remains available; unscored THERMOMETER rows are excluded
+  (8 vector(s), 7 MECHANISM; 8 flow row(s); Total 18/35 (raw; report the shared-root-adjusted total beside it))
+
+--- 8. FRED hard data (positive control · new print not yet read) ---
+  ⚠️ NEW PRINT ON FRED: [AMTMNO] AMTMNO 2026-09 = 677247 — ledger newest 2026-08 (read the release, then write the PRINTS row with its vintage; FRED is latest-revised)
+  (FRED newest: INDPRO 2026-09 = 103.9506 · IPMAN 2026-09 = 99.4361 · TCU 2026-09 = 76.8504 · DGORDER 2026-09 = 345672 · NEWORDER 2026-09 = 88185 · ANXAVS 2026-09 = 86125 · AMTMNO 2026-09 = 677247)
+  (7 series checked; source LIVE fred.stlouisfed.org)
+
+==========================================================================
+  ISHM boot: REVIEW — work the flagged items before new research.
