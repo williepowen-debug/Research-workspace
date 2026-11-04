@@ -14,6 +14,8 @@
 
 **Will-requested workbook sweep — 2026-11-04T17:35:28-05:00:** audited23 files, reconciled9 workbook surfaces plus3 wording-only human-calendar rows. KB111's old Pending-Will resolved from WQ106; Oracle proposed outlook-only clause labelled nonoperative, canonical L5 unchanged. BDC metric/gap labels, saved frontiers, source/routing limits and 069 hold navigation corrected. Existing ES01 denominator/ES05 sign and historical TestB/C closure gaps recorded in STATUS§3. Protected files/frozen sections and148 other KB rows byte-identical;57 calendar pairs exact, selftest PASS. No fresh source/market grade, code repair, new study or monitor. Receipt: `audits/2026-11-04_workbook-sweep/REPORT.md`.
 
+**Will-requested cross-report synthesis — 2026-11-04T17:45:59-05:00:** compared saved Car-Mart, First Brands, Brazil, WQ545, current credit and workbook-audit evidence. Main inference: access plus tighter terms, named cash constraints and broader prices can coexist without generalized funding seizure. Mechanism confirmation is stronger than established advance-warning value; repeated summaries are not independent evidence. Findings saved in STATUS §1; no fresh observations, grades, assignments or approvals. Existing pending items unchanged.
+
 ### PRIOR SESSION — 2026-10-29T14:51–16:55-04:00 (PROME prome-5c catch-up + WQ-545 + Will-approved follow-ups, Will 14:52 ET; Claude Code / Opus 5.5)
 
 - **WQ-535 A encoded:** ruled FIRE legs 3/4 letter transcribed byte-identical (scripted compare vs the PROME ruling record) into `workbook/FUNDING_SEIZURE_GATE_SCOPED.md`; old leg 3/4 text and the "FIRE UNGRADEABLE" instructions replaced, not annotated (KB-LIQ-079, REFERENCE_TABLES, CATALYSTS/CALENDAR). L261 closes on the commit.

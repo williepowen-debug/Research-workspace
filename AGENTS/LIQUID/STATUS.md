@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-11-04T17:35:28-05:00 — Will-directed workbook reconciliation; market observations/grades unchanged. Last real data refresh: 2026-11-04 (earlier substantive session). Workbook audit → `audits/2026-11-04_workbook-sweep/REPORT.md`; market evidence → `research/2026-11-04_credit-followthrough/REPORT.md`.
+**Last Updated:** 2026-11-04T17:45:59-05:00 — Will-requested synthesis of saved reports; no fresh observations or market re-grade. Last real data refresh: 2026-11-04 (earlier substantive session).
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
@@ -10,6 +10,8 @@
 **Credit [first-published through November 3; graded November 4]:** HY 340, IG 93, BBB 116, BB 203, B 362, CCC 1,316 bp; HY−IG 247, CCC−BB 1,113, CCC−B 954. October 30 broadened across tiers; November 2/3 daily retracements do not erase the existing 15-session BROADENS classification (IG +10 / BBB +13 / BB +12 / B +45 / CCC +49 bp since October 13). Tiers are not issuer-count breadth. Initial-release API rows saved; ICE realtime labels are backdated, not availability timestamps. November 4 credit is UNGRADEABLE-PENDING-PUBLICATION. → `research/2026-11-04_credit-followthrough/REPORT.md` §§1–2.
 
 **Main research question:** Has price deterioration become an actual financing constraint? Broader credit-price repricing is demonstrated; generalized dollar-funding restriction and Brazil spillover remain unproved. Arini adds reported margin-call selling; Ueno adds documented local restrictions with no established U.S. exposure. §3 owns remaining duties.
+
+**Cross-report synthesis [November 4; inference from saved cases]:** financing access can coexist with borrower constraint (Car-Mart terms/origination limits; Oracle pricing is access, settlement unverified). First Brands demonstrates a bank loss with historical earnings/capital absorption; Arini reports margin-driven sales, not a verified bank loss. These are distinct paths, not independent confirmations of one systemic event. Public contract disclosures confirm mechanisms after events without established advance warning. Recent tier broadening strengthens the price conclusion, not the funding/causal conclusion. Sources: October 25 Car-Mart/First Brands, October 26 Brazil, October 30 WQ545 and November 4 credit REPORTs. No gate, forecast or duty changed.
 
 **Evidence boundary:** fourteen-family map incomplete; calm repo does not clear private/offshore channels. LIQ-07 S2 is reserve-channel only. Sources→`research/2026-10-26_brazil-feasibility-execution/REPORT.md`; coverage→`research/2026-10-25_transmission-pathways/REPORT.md`.
 
