@@ -1,10 +1,16 @@
 # CATO — current continuity
 
-**Updated November 4, 2026. Agent-work review delivered; orient and await Will.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry when a task resumes; saved approvals do not trigger unrelated work.
+**Updated November 4, 2026, session end. Review and owner prompts delivered; reboot, orient and await Will/owner replies.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry when a task resumes; saved approvals do not trigger unrelated work.
 
 ## Resume point
 
-No CATO implementation or review is currently owed. [Four-day agent-work review](runs/2026-11-04_1531_agent-work-review.md) is delivered: useful bank counterevidence and reproducible KRE calculations; priority is existing ISHM/LIQUID delivery and NEXUS integration/November 5 grading. WAL full Call Report preservation and brief-label correction remain owner work. PROME L835 is a tested candidate, not accepted/installed; other named maintenance accepted. No owner edits, sends or launches commissioned. Previous launcher repair and WQ-583 stay closed; [prior delivery and limits](TASK_INDEX.md#november-2-morning-change-review). Charter and authority unchanged.
+No CATO implementation or review is currently owed. Will is directing the other agents with CATO's paste-ready prompts and says they are still working. [Owner replies and exact reboot handoff](runs/2026-11-04_1531_agent-work-review.md#november-4--owner-replies-and-reboot-handoff) supersede the original review's pending NEXUS state. Do not relaunch owners or restart the four-day review.
+
+- **NEXUS:** relayed receipts report catch-up and named docket reconciliation published: L554 advanced to November 10, L751 resolved, M-07 closed. M-01/M-05 await final November 5 observations; ISHM/LIQUID deliveries and separate PROME gate/endpoint mirrors remain open. Weights 26/41/33 are uncalibrated historical judgments; both fires are one credit-price mechanism. CATO has not independently regraded the new package.
+- **WALTER/WAL:** recovery attempt closed NOT RECOVERED on relayed evidence; CATO supplied safe-push correction because foreign dirty files alone do not block pushing. Publication not independently confirmed. WAL's existing direct retrieval/MI3 extraction and current brief-label correction remain open; no repeated recovery search.
+- **LIQUID/ISHM:** LIQUID's relayed result was startup only. CATO supplied a substantive continuation prompt, including exact-boundary grader investigation under existing repair authority; final November 5 grades must await publication. No substantive LIQUID or ISHM completion received. Do not confuse new startup/repair activity with delivery.
+
+Next: orient, await Will's direction or owner replies, and assess changed evidence only if requested. L835 remains last-inspected candidate-only, not accepted/installed; accepted maintenance, launcher repair and WQ-583 stay closed. No new owner edits, tool sends or launches authorized for CATO.
 
 ## Surviving CATO work
 
