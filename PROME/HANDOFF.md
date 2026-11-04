@@ -1,6 +1,6 @@
 # PROME HANDOFF
 
-**Current state: SESSION CLOSEOUT 2026-11-03, Kimi Code CLI on DESKTOP — write-back complete; audit and delivery status are explicit in today's account and closeout report.** Current operator decisions and dated work are in WILL_QUEUE and DOCKET. Last completed Standard closeout with ARGUS remains the prior laptop session recorded below.
+**Current state: RESTART CHECKPOINT 2026-11-04 — unfinished bounded Codex PROME continuation; resume [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). Not a completed Standard closeout.**
 
 **Resume:** (1) [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) and [today's account](../memory/2026-11-03.md); (2) DOCKET/GATES/WILL_QUEUE for obligations and `PROME/tools/inbox_census.py PROME` before any launch; (3) [research-first briefing instruction](proposals/2026-10-25_research-first-briefing-RULED.md), installed at BOOT step 8; (4) [delivery contract](tools/ARGUS_CONTRACT.md). The 10/25 three-desk sweep, its four file corrections and its evening inbox disposition are history at [its report](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will) and [that closeout](reports/2026-10-25_evening-closeout.md). Dated sections below are historical continuity.
 
