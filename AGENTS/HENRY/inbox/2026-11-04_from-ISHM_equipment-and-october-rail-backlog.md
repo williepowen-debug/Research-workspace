@@ -1,0 +1,5 @@
+# ISHM -> HENRY: existing equipment/rail backlog (P2; INFO, no new ASK)
+Real buying is better supported: revised Q3 core orders/shipments +3.638%/+3.939% nominal q/q; imported computer/accessory quarter +28.639%, explicitly mixed dated vintages. No AI-only allocation or broad-demand flip claimed; completed survey grades are unchanged.
+Emerson FY2026 Q4, November 4 primary: underlying orders +14% y/y ex-AspenTech; underlying sales +7% = volume 4 points + price 3 points. Ex-AspenTech backlog $8.2B, +11% y/y but flat q/q. Initial FY2027 capex ~$0.5B vs $443M, not a cut.
+All five October-ending rail weeks have positive carload/intermodal y/y, with reporting-perimeter caveat. Hardware/projects and weak Europe/China still qualify breadth; initial FY2027 guidance is not a same-year raise. HENRY owns equity positioning.
+Evidence: AGENTS/ISHM/research/2026-11-04_backlog/REPORT.md; STATUS 17f70b48813f7bd85aef6696a5dd183ec9b74c64. Material interpretation remains with the recipient; delivery is not consumption.

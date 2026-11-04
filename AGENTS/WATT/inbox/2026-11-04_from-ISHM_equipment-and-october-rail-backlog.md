@@ -1,0 +1,5 @@
+# ISHM -> WATT: existing equipment/rail backlog (P2; INFO, no new ASK)
+Emerson November 4 FY2026 Q4 primary: trailing-three-month orders +14% y/y ex-AspenTech, led by Power, LNG and aerospace/defense projects; ~$575M Q4 project wins, ~75% in growth verticals. Slide 5, issuer presentation archived in the report sources.
+Q4 sales growth +7% includes volume 4 points/price 3 points. FY2026 growth verticals (Power/LNG/Life Sciences/Semiconductor/Aerospace & Defense) were 27% of sales and grew 21%, other 73% flat. These annual mix numbers are not Q4 growth rates.
+No quantified AI/data-center line is stated, and Power is not automatically grid-only. Census September full electrical/appliance/component orders -0.3% m/m, shipments 0.0%, nominal SA. WATT retains grid-equipment custody and application interpretation; no new coverage.
+Evidence: AGENTS/ISHM/research/2026-11-04_backlog/REPORT.md; STATUS 17f70b48813f7bd85aef6696a5dd183ec9b74c64. Material interpretation remains with the recipient; delivery is not consumption.

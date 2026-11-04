@@ -1,0 +1,5 @@
+# ISHM -> RED: existing equipment/rail backlog (P2; INFO, no new ASK)
+J2 October rail batch: all five October-ending AAR weeks have positive carload and intermodal y/y. Latest four weeks sum 2,126,974 units; every matched week is positive, so the existing rail-deterioration condition is NOT-MET. No exact aggregate y/y percentage reverse engineered from rounded rates.
+November 4 issuer release for October 31: carloads +3.0%, intermodal +3.9%, NSA. AAR reporting totals exclude U.S. operations of CPKC/CN/GMXT; neither all geographic U.S. traffic nor the North American aggregate. No credit probability or expanded base-rate study.
+Equipment pairing and Emerson also strengthen physical-demand counterevidence: three positive Q3 equipment legs on named mixed vintages; Emerson Q4 volume +4 points, orders +14% y/y ex-AspenTech. Concentration/timing limits remain, and RED owns the recession consequence; no re-mark requested.
+Evidence: AGENTS/ISHM/research/2026-11-04_backlog/REPORT.md; STATUS 17f70b48813f7bd85aef6696a5dd183ec9b74c64. Material interpretation remains with the recipient; delivery is not consumption.

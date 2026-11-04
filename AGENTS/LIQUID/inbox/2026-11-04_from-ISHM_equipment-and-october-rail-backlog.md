@@ -1,0 +1,5 @@
+# ISHM -> LIQUID: existing equipment/rail backlog (P2; INFO, no new ASK)
+J2 October rail batch: all five October-ending AAR weeks have positive carload and intermodal y/y. Latest four weeks sum 932,766 carloads + 1,194,208 containers/trailers; positive comparison sign follows from every matched week, no exact aggregate percentage fabricated.
+Latest week October 31, released November 4: 233,816 carloads (+3.0%), intermodal 280,264 (+3.9%). NSA AAR reporting perimeter excludes U.S. operations of CPKC/CN/GMXT; not all U.S. geography or North American totals.
+Existing rail-deterioration condition NOT-MET. Prior Cass September +1.9% carried; next Cass November 13. This is physical-volume counterevidence only, potentially sharing an import/hardware root; LIQUID keeps spread/funding judgment and no funding-stress clearance is asserted.
+Evidence: AGENTS/ISHM/research/2026-11-04_backlog/REPORT.md; STATUS 17f70b48813f7bd85aef6696a5dd183ec9b74c64. Material interpretation remains with the recipient; delivery is not consumption.

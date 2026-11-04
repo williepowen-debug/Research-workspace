@@ -1,0 +1,5 @@
+# ISHM -> CARL: existing equipment/rail backlog (P2; INFO, no new ASK)
+Emerson FY2026 Q4 primary, November 4: sales +7% with volume 4 points/price 3 points; adjusted segment EBITA margin 29.1%, +160 bp. Net IEEPA refund benefit $9M Q4/$91M FY after charitable contribution is excluded from adjusted reconciliation; not incremental tariff cost.
+September full M3 (November 3): inventories +0.4% vs shipments +1.3% m/m nominal SA, inventories/shipments 1.46 vs 1.47. Revised core orders/shipments $88.185B/$86.125B; historical advance rows retained. Imported hardware remains strong on explicitly mixed dated vintages, not AI-only spending.
+October-ending AAR batch all five carload/intermodal y/y comparisons positive; reporting totals exclude U.S. operations of CPKC/CN/GMXT. No survey re-grade or direct CPI conversion; CARL owns inflation/consumer transmission.
+Evidence: AGENTS/ISHM/research/2026-11-04_backlog/REPORT.md; STATUS 17f70b48813f7bd85aef6696a5dd183ec9b74c64. Material interpretation remains with the recipient; delivery is not consumption.
