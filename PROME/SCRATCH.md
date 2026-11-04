@@ -3,6 +3,7 @@
 **Updated:** 2026-11-03 — Kimi full boot and session closeout. Prior ★ NEXT entries in git: `git log -p -- PROME/SCRATCH.md`.
 
 ## ★ NEXT SESSION — START HERE
+**November 4 L835 acceptance assignment:** supersedes the older L835 design-only next-action text below. One authorized read-only helper `/root/l835_acceptance` is reviewing frozen candidate `5a2edeec2`; authority and result live at `reports/2026-11-04_L835-acceptance/`, status at DOCKET L835. No repair, installation, additional review or closure authorized. Carry this helper to explicit receipt; do not duplicate it.
 **RESTART CHECKPOINT 2026-11-04 16:05 ET — Codex PROME; not Standard closeout.** Resume the [L835 design investigation and exact boundaries](reports/2026-11-04_L835-saved-candidate-acceptance.md#read-only-design-investigation--restart-continuity-2026-11-04); this supersedes the older next-action narratives below.
 **Next action:** recover the read-only narrower-language design discussion for Will's decision. DOCKET L835 and WQ-597 own status/authority; no implementation, installation, further repair or review under the consumed grants. Completed maintenance stays accepted.
 **Lifecycle/limits:** all five helpers have explicit closeout receipts, no delegated work survives this checkpoint; identities and consumed reads are in the linked report and ORCH_LOG. Parent identity/old structured timestamp gaps remain UNKNOWN. Full boot and Standard audit remain uncompleted; no new boot run directory or reset of limits.
