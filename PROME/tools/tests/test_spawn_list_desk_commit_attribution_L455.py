@@ -62,6 +62,8 @@ class Fixture(unittest.TestCase):
         c["memory_only"] = _commit(cls.repo, "HAWK auto-memory: killed phrasing repaired", ["memory/auto/finding_x.md"])
         c["empty_marker"] = _commit(cls.repo, "OTTO s022: ledger nudge answered", [], empty=True)
         c["prome_forge"] = _commit(cls.repo, "PROME (FORGE): mirror the query", ["FORGE/tools/news-sweep/config.py"])
+        cls.spawn_root = S.ROOT
+        cls.addClassCleanup(setattr, S, "ROOT", cls.spawn_root)
         S.ROOT = cls.repo
 
     @classmethod

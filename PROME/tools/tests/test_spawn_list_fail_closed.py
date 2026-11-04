@@ -8,7 +8,7 @@ authorised spawning every owner.
 Acceptance conditions -> PROME/tools/tests/ACCEPTANCE_spawn_list_dark_on_git_failure.md
 Run: python3 PROME/tools/tests/test_spawn_list_fail_closed.py   (rc 0 pass / 1 fail)
 """
-import datetime as dt, pathlib, subprocess, sys, types
+import datetime as dt, pathlib, subprocess, sys, types, unittest
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "PROME" / "tools"))
@@ -38,60 +38,62 @@ def classify_with(rc, out="", err="", owner="BROCK"):
 
 
 GOOD = "2026-09-09\t6c01f41a1\tBROCK: CRMT Q2 grade\n"
-checks = []
 
-# 1 — git FAILURE must not be DARK (the reported defect)
-d, cls, basis = classify_with(128, "", "fatal: index.lock exists")
-checks.append(("git rc!=0 => UNKNOWN, never DARK", cls == "UNKNOWN"))
-checks.append(("  and the basis says liveness was NOT established", "not established" in basis.lower()))
-checks.append(("  and it says NOT a spawn candidate", "not a spawn" in basis.lower()))
 
-# 2 — a GENUINE empty result must STILL be DARK (the repair must not blunt the real signal)
-d, cls, basis = classify_with(0, "")
-checks.append(("rc=0 + empty => still DARK (real signal preserved)", cls == "DARK"))
-checks.append(("  with the original 'no self-commit' basis", "no self-commit" in basis))
+def fail_closed_checks():
+    checks = []
 
-# 3 — the two are distinguishable
-_, c_err, b_err = classify_with(128, "", "boom")
-_, c_ok, b_ok = classify_with(0, "")
-checks.append(("failure and absence are DISTINGUISHABLE", c_err != c_ok and b_err != b_ok))
+    d, cls, basis = classify_with(128, "", "fatal: index.lock exists")
+    checks.append(("git rc!=0 => UNKNOWN, never DARK", cls == "UNKNOWN"))
+    checks.append(("  and the basis says liveness was NOT established", "not established" in basis.lower()))
+    checks.append(("  and it says NOT a spawn candidate", "not a spawn" in basis.lower()))
 
-# 4 — ordinary path still works (regression)
-d, cls, basis = classify_with(0, GOOD)
-checks.append(("rc=0 with a commit before row start => DARK", cls == "DARK"))
-d, cls, basis = classify_with(0, "2026-09-11\tabc1234\tBROCK: later\n")
-checks.append(("rc=0 with a commit on/after row start => ACTIVE", cls == "ACTIVE"))
+    d, cls, basis = classify_with(0, "")
+    checks.append(("rc=0 + empty => still DARK (real signal preserved)", cls == "DARK"))
+    checks.append(("  with the original 'no self-commit' basis", "no self-commit" in basis))
 
-# 5 — OVERLAP neighbour: no commits AND a failing call => error dominates
-d, cls, _ = classify_with(1, "", "fatal: bad object")
-checks.append(("overlap (no commits AND failure) => UNKNOWN, error dominates", cls == "UNKNOWN"))
+    _, c_err, b_err = classify_with(128, "", "boom")
+    _, c_ok, b_ok = classify_with(0, "")
+    checks.append(("failure and absence are DISTINGUISHABLE", c_err != c_ok and b_err != b_ok))
 
-# 6 — WRONG-OWNER neighbour: an unparseable owner cell is a parse failure, not a dark desk
-d, cls, basis = classify_with(0, "", owner="?")
-checks.append(("unparseable owner '?' => UNKNOWN, not DARK", cls == "UNKNOWN"))
-checks.append(("  and says so", "unparseable" in basis.lower()))
+    d, cls, basis = classify_with(0, GOOD)
+    checks.append(("rc=0 with a commit before row start => DARK", cls == "DARK"))
+    d, cls, basis = classify_with(0, "2026-09-11\tabc1234\tBROCK: later\n")
+    checks.append(("rc=0 with a commit on/after row start => ACTIVE", cls == "ACTIVE"))
 
-# 7 — UNKNOWN must move the exit code and be visible (never a quiet all-clear)
-rows = [("D:L260", "2026-09-11", 1, "BROCK", "UNKNOWN", "git log FAILED, liveness not established (x) — NOT a spawn candidate", "cat")]
-import io, contextlib
-buf = io.StringIO()
-with contextlib.redirect_stdout(buf):
-    rc = S.render(rows, TODAY, 0, False)
-out = buf.getvalue()
-checks.append(("UNKNOWN => rc 2 (not 0, not DARK's 1)", rc == 2))
-checks.append(("UNKNOWN is flagged in the header line", "UNKNOWN 1" in out))
-checks.append(("output warns never to spawn on UNKNOWN", "NEVER spawn on UNKNOWN" in out))
+    d, cls, _ = classify_with(1, "", "fatal: bad object")
+    checks.append(("overlap (no commits AND failure) => UNKNOWN, error dominates", cls == "UNKNOWN"))
 
-# 8 — a clean DARK row still returns 1, not 2
-rows_d = [("D:L260", "2026-09-11", 1, "BROCK", "DARK", "no self-commit found in history", "cat")]
-buf = io.StringIO()
-with contextlib.redirect_stdout(buf):
-    rc_d = S.render(rows_d, TODAY, 0, False)
-checks.append(("a real DARK row still returns rc 1", rc_d == 1))
+    d, cls, basis = classify_with(0, "", owner="?")
+    checks.append(("unparseable owner '?' => UNKNOWN, not DARK", cls == "UNKNOWN"))
+    checks.append(("  and says so", "unparseable" in basis.lower()))
 
-ok = True
-for name, passed in checks:
-    print(("PASS " if passed else "FAIL ") + name)
-    ok &= passed
-print(f"\ntest_spawn_list_fail_closed: {'PASS' if ok else 'FAIL'} {sum(p for _, p in checks)}/{len(checks)}")
-sys.exit(0 if ok else 1)
+    rows = [("D:L260", "2026-09-11", 1, "BROCK", "UNKNOWN", "git log FAILED, liveness not established (x) — NOT a spawn candidate", "cat")]
+    import io, contextlib
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        rc = S.render(rows, TODAY, 0, False)
+    out = buf.getvalue()
+    checks.append(("UNKNOWN => rc 2 (not 0, not DARK's 1)", rc == 2))
+    checks.append(("UNKNOWN is flagged in the header line", "UNKNOWN 1" in out))
+    checks.append(("output warns never to spawn on UNKNOWN", "NEVER spawn on UNKNOWN" in out))
+
+    rows_d = [("D:L260", "2026-09-11", 1, "BROCK", "DARK", "no self-commit found in history", "cat")]
+    buf = io.StringIO()
+    with contextlib.redirect_stdout(buf):
+        rc_d = S.render(rows_d, TODAY, 0, False)
+    checks.append(("a real DARK row still returns rc 1", rc_d == 1))
+    return checks
+
+
+class FailClosed(unittest.TestCase):
+    def test_all_15_contract_checks(self):
+        checks = fail_closed_checks()
+        self.assertEqual(len(checks), 15)
+        for name, passed in checks:
+            with self.subTest(name=name):
+                self.assertTrue(passed, name)
+
+
+if __name__ == "__main__":
+    unittest.main(verbosity=2)

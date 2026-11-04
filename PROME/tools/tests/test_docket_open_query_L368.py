@@ -59,7 +59,8 @@ class TheSubstringTrap(unittest.TestCase):
         self.assertNotEqual(spawn_list.state_kind(TRAP), "PENDING")   # what is true
 
     def test_the_live_docket_still_contains_terminal_rows_carrying_the_word(self):
-        rows = list(csv.reader((ROOT / "PROME/DOCKET.tsv").open(encoding="utf-8"), delimiter="\t"))
+        with (ROOT / "PROME/DOCKET.tsv").open(encoding="utf-8") as f:
+            rows = list(csv.reader(f, delimiter="\t"))
         trapped = [r for r in rows if len(r) > 3 and not r[0].startswith("#")
                    and "PENDING" in r[3] and spawn_list.state_kind(r[3]) == "TERMINAL"]
         self.assertGreater(len(trapped), 10,
