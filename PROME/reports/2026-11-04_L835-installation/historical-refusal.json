@@ -1,0 +1,30 @@
+{
+  "verify_rc": 2,
+  "verify_output": "ARGUS-REVIEW \u2753 CANNOT-EVALUATE\n  CANNOT-EVALUATE: EvaluationError: historical/unsupported manifest; re-freeze schema 3 and obtain authorized review\n",
+  "consumers": {
+    "standard": {
+      "rc": 2,
+      "rows": [
+        [
+          "ERROR",
+          "ARGUS review manifest (content, not paths)",
+          false,
+          "REQUIRED at this tier and missing/unevaluable \u2014 CANNOT-EVALUATE: EvaluationError: historical/unsupported manifest; re-freeze schema 3 and obtain authorized review",
+          "run `argus_scope.py --record-review`, spawn argus, then `--mark-reviewed`"
+        ]
+      ]
+    },
+    "light": {
+      "rc": 2,
+      "rows": [
+        [
+          "ERROR",
+          "ARGUS review manifest (content, not paths)",
+          false,
+          "UNKNOWN \u2014 CANNOT-EVALUATE: EvaluationError: historical/unsupported manifest; re-freeze schema 3 and obtain authorized review",
+          "run `argus_scope.py --record-review`, spawn argus, then `--mark-reviewed`"
+        ]
+      ]
+    }
+  }
+}

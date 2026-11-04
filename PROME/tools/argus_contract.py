@@ -1,4 +1,4 @@
-"""Explicit delivery/evidence contract for argus_scope (schema 2).
+"""Explicit delivery/evidence contract for argus_scope (schema 3).
 
 Inventory attribution is a recorded reviewer/operator judgment, not a filename
 heuristic. This module never stages files, fetches, pushes or advances a baseline.
@@ -10,6 +10,7 @@ import os
 import re
 import subprocess
 from pathlib import Path, PurePosixPath
+import argus_policy as policy
 
 
 def digest(value):
@@ -23,6 +24,8 @@ def require(condition, message):
 
 
 def path_ok(path):
+    policy.segments(path)
+    require(not any(c in path for c in "\n\r\t"), "delivery path has unsupported control characters")
     require(isinstance(path, str) and path and not path.startswith('-')
             and str(PurePosixPath(path)) == path and not PurePosixPath(path).is_absolute()
             and '..' not in PurePosixPath(path).parts and '.git' not in PurePosixPath(path).parts,
@@ -55,6 +58,7 @@ def changes(sc, baseline, head):
         for path in git(sc, 'diff-tree', '--root', '-m', '--no-commit-id', '--name-only',
                         '--no-renames', '-r', '-z', sha).split('\0'):
             if path:
+                policy.segments(path)
                 result.setdefault(path, []).append(sha)
     return result
 
@@ -173,50 +177,32 @@ def history_attributable(sc, path, shas, delivered_paths, rules):
 
 
 def pin_perimeter(sc):
-    """The perimeter AS LOADED at the freeze, recorded in the manifest outside the contract (L796 ❌2 repair,
-    acceptance ACCEPTANCE_closeout_gate_perimeter_pin_2026-10-24.md). No readable perimeter ⇒ rules None ⇒ every
-    later verify runs strict. The file's byte digest rides with it so a reader can tell which version was pinned."""
-    import tempfile
-    try:
-        raw = (sc.ROOT / sc.PERIMETER_FILE).read_bytes()
-        with tempfile.NamedTemporaryFile('wb', suffix='.tsv', delete=False) as tmp:
-            tmp.write(raw)
-        try:
-            rules = sc.load_perimeter(tmp.name)   # parsed from the SAME bytes the digest covers (reader ⚠️D)
-        finally:
-            Path(tmp.name).unlink(missing_ok=True)
-    except (SystemExit, OSError):
-        return {'sha256': None, 'rules': None}
-    return {'sha256': hashlib.sha256(raw).hexdigest(), 'rules': [list(r) for r in rules]}
+    raw = (sc.ROOT / sc.PERIMETER_FILE).read_bytes()
+    compiled = policy.parse_tsv(raw)
+    return {'sha256': hashlib.sha256(raw).hexdigest(), 'rules': [list(r) for r in compiled.rows]}
 
 
 IGNORE_FILES = ('.gitignore', '.gitattributes')
 
 
 def never_advisory(sc, path, rules):
-    """Paths whose edit changes what the gate can SEE — the perimeter (the rules) and git ignore/attribute files (the
-    porcelain inventory). Such a path is never advisory, never attributed by its commits and never observed-only:
-    it is delivered (reviewed) or it blocks (readers 10/24: CE8b, CE-G1 ❌2, ❌A, ❌B). An ignore file is guarded only
-    where it can hide a non-EXCLUDED path under the PINNED rules: the root and any directory the rules do not class
-    EXCLUDED (reader ⚠️C: a desk's nested ignore file in its own EXCLUDED lane stays advisory). No rules ⇒ guarded."""
+    compiled = policy.compile_policy(rules)  # invalid policy is never permission
+    parts = policy.segments(path)
     if path == sc.PERIMETER_FILE:
         return True
-    pp = PurePosixPath(path)
-    if pp.name not in IGNORE_FILES:
+    if parts[-1] not in IGNORE_FILES:
         return False
-    if rules is None:
-        return True
-    parent = str(pp.parent)
-    probe = '.ignore-probe' if parent == '.' else f'{parent}/.ignore-probe'
-    return sc.classify(probe, rules)[0] != 'EXCLUDED'
+    return len(parts) == 1 or compiled.has_protected_descendant('/'.join(parts[:-1]))
 
 
 def pinned_rules(manifest):
-    """The pinned rules a verify classifies with — never the live file. Absent key / null rules ⇒ None (strict)."""
-    pin = manifest.get('perimeter')
-    if not isinstance(pin, dict) or pin.get('rules') is None:
-        return None
-    return [tuple(r) for r in pin['rules']]
+    binding = manifest['contract']['policy']
+    require(isinstance(binding, dict) and set(binding) == {'language', 'source_sha256', 'rules'}
+            and binding['language'] == policy.LANGUAGE and sha_ok(binding['source_sha256']),
+            'missing or unsupported policy binding; re-freeze schema 3')
+    require(manifest.get('perimeter') == {'sha256': binding['source_sha256'], 'rules': binding['rules']},
+            'perimeter mirror differs from hashed policy')
+    return policy.compile_policy(binding['rules'])
 
 
 def freeze(sc, plan):
@@ -230,7 +216,8 @@ def freeze(sc, plan):
     baseline, head = resolve(sc, base['sha']), resolve(sc, 'HEAD')
     seen = inventory(sc, baseline, head)
     pin = pin_perimeter(sc)
-    pin_rules = pinned_rules({'perimeter': pin})
+    pin_rules = policy.compile_policy(pin['rules'])
+    binding = {'language': policy.LANGUAGE, 'source_sha256': pin['sha256'], 'rules': pin['rules']}
     moves = mechanical_moves(sc, baseline, seen, set(explicit), pin_rules)   # WQ-583 AC4
     legs = move_legs(moves)
     plan_delivered = dict(explicit)
@@ -294,10 +281,10 @@ def freeze(sc, plan):
             foreign[p] = {'lane': lane, 'snapshot': s}
         required |= set(foreign)
     require(set(seen) <= required, 'unclassified inventory (PENDING, OWNED, PROME-evidenced or differing from its commit): ' + ', '.join(sorted(set(seen) - required)))
-    reused = reuse_entries(sc, baseline, delivered, plan.get('reviewed', {}))   # WQ-583 AC5
-    contract = {'baseline': baseline, 'anchor': head, 'delivered': delivered, 'evidence': deps,
+    reused = reuse_entries(sc, baseline, delivered, plan.get('reviewed', {}), binding)   # WQ-583 AC5
+    contract = {'policy': binding, 'baseline': baseline, 'anchor': head, 'delivered': delivered, 'evidence': deps,
                 'mechanical_moves': moves, 'reused': reused}
-    manifest = {'schema': 2, 'verdict': sc.FROZEN, 'baseline': base['sha'], 'head': head,
+    manifest = {'schema': 3, 'verdict': sc.FROZEN, 'baseline': base['sha'], 'head': head,
                 'recorded_at': dt.datetime.now(dt.timezone.utc).isoformat(), 'contract': contract,
                 'contract_sha256': digest(contract), 'observed': observed, 'inventory': seen,
                 'attributed_by_commit': auto, 'perimeter': pin, 'foreign_at_freeze': foreign,
@@ -316,8 +303,9 @@ def freeze(sc, plan):
 
 
 def validate(sc, manifest):
-    require(manifest.get('schema') == 2, 'unsupported contract schema')
+    require(manifest.get('schema') == 3, 'unsupported contract schema')
     c = manifest['contract']
+    pinned_rules(manifest)
     require(digest(c) == manifest['contract_sha256'], 'contract changed: re-freeze and review changed portion')
     if manifest.get('verdict') == sc.REVIEWED:
         require(manifest.get('reviewed_contract_sha256') == digest(c), 'review verdict belongs to another contract')
@@ -340,13 +328,6 @@ def validate(sc, manifest):
         require(dep['mode'] in ('current', 'historical') and isinstance(dep['claims'], dict)
                 and dep['claims'] and set(dep['claims']) <= set(c['delivered'])
                 and all(text_ok(v) for v in dep['claims'].values()), 'invalid dependency claims')
-    pin = manifest.get('perimeter')
-    if pin is not None:
-        require(isinstance(pin, dict) and set(pin) == {'sha256', 'rules'} and sha_ok(pin['sha256'], absent=True),
-                'malformed perimeter pin')
-        require(pin['rules'] is None or (isinstance(pin['rules'], list) and pin['rules'] and all(
-            isinstance(r, list) and len(r) == 3 and all(isinstance(x, str) for x in r) and r[1] in sc.CLASSES
-            for r in pin['rules'])), 'malformed perimeter pin rules')
     moves = c.get('mechanical_moves', {})
     require(isinstance(moves, dict) and isinstance(c.get('reused', {}), dict), 'malformed moves/reuse')
     for dest, rec in moves.items():
@@ -518,7 +499,7 @@ def verify(sc, manifest, paths=None, ref=None, snapshot=None):
                    f'{len(c.get("reused", {}))} reused review(s); '
                    f'delivery {delivery or "working tree"}; snapshot {target or "working tree"}; '
                    f'{len(seen)} inventory paths retained, unrelated content not certified']
-    except (ValueError, KeyError, TypeError, AttributeError, OSError, subprocess.CalledProcessError) as exc:
+    except Exception as exc:
         return 2, [f'CANNOT-EVALUATE: {exc}']
 
 
@@ -680,7 +661,7 @@ def derive_delivered(sc, baseline, seen, rules, skip):
     return out
 
 
-def reuse_entries(sc, baseline, delivered, plan_reviewed):
+def reuse_entries(sc, baseline, delivered, plan_reviewed, binding):
     """AC5: exact-version reuse from the previous REVIEWED manifest on the same baseline, plus plan-declared reviews
     (a commit or sha256 and a receipt), each accepted only for identical bytes. A changed path is never reused."""
     reused = {}
@@ -690,9 +671,10 @@ def reuse_entries(sc, baseline, delivered, plan_reviewed):
     except (OSError, ValueError):
         prev = {}
     pc = prev.get('contract') if isinstance(prev, dict) else None
-    if (isinstance(pc, dict) and prev.get('schema') == 2 and prev.get('verdict') == sc.REVIEWED
+    if (isinstance(pc, dict) and prev.get('schema') == 3 and prev.get('verdict') == sc.REVIEWED
             and prev.get('reviewed_contract_sha256') == digest(pc) == prev.get('contract_sha256')
-            and pc.get('baseline') == baseline):
+            and pc.get('baseline') == baseline and pc.get('policy') == binding
+            and prev.get('perimeter') == {'sha256': binding['source_sha256'], 'rules': binding['rules']}):
         for p, d in delivered.items():
             old = pc.get('delivered', {}).get(p)
             if isinstance(old, dict) and old.get('sha256') == d['sha256']:

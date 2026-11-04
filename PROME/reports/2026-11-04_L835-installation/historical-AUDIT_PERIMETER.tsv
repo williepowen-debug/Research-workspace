@@ -1,0 +1,47 @@
+# PROME/state/AUDIT_PERIMETER.tsv — the RECORDED audit perimeter. OWNER: PROME.
+# L336 condition A2: the perimeter is DECLARED here, never reconstructed from commit subjects or filenames in
+# code. argus_scope.py contains no path regexes; it reads this file. Adding a surface = a row here, not an edit.
+#
+# FIRST MATCH WINS — order is significant, most specific first. Patterns are fnmatch over repo-relative paths;
+# `**` matches across directory separators, `*` does not.
+#
+# CLASSES
+#   EXCLUDED  not PROME's output. Never audited. The `reason` cell is why — a declared exclusion, not a silent drop.
+#   OWNED     PROME's own output. Audited.
+#   SHARED    PROME may or may not have written it; another desk may have. Reported and LABELLED as shared —
+#             never asserted as PROME's, never dropped. (A5: no shared surface is claimed by filename pattern.)
+# Anything matching NO row is reported UNATTRIBUTED (A4: no silent drop, ever).
+#
+pattern	class	reason
+PROME/inbox/**	EXCLUDED	inbound mail — other desks' output sitting in PROME's tree (finding_path_scoped_git_log_measures_inbound_traffic)
+AGENTS/*/inbox/processed/**	EXCLUDED	consumption is the RECIPIENT's act, not PROME authorship (audit F-2: LABOR's consume-moves were claimed as PROME's)
+AGENTS/*/inbox/**	SHARED	EVERY inbox path at EVERY depth (processed/ is EXCLUDED by the more specific row above). ARGUS trial run 1 found A4 STILL violated after two attempts to be clever about noise: 888924d2e committed AGENTS/FALCON/inbox/data/2026-09-11_FIRMS_VIIRS_…csv — PROME's own carve-out (1) packet body, in a lane, with no 'from-PROME' in the name — and it vanished into the anonymous excluded count. Include-on-hint was still a FILENAME key, the exact thing A4 forbids. No filename decides visibility now; the ~44 lane paths of routing traffic that come with this are the declared PRICE of the honest failure direction, reported in C4.
+CLAUDE.md	SHARED	root canon — Will-gated; PROME edits it ONLY under a named Will approval (first: WQ-237 / DOCKET L503, 2026-10-02) and those edits ARE PROME closeout output to audit — audited and LABELLED shared, never claimed; the EXCLUDED row below remains the default intent for any edit without a named approval (row added 2026-10-02 by prome-dc after --verify-review withheld the WQ-237 push — the instrument had no way to see a Will-authorized root edit as reviewed)
+README.md	SHARED	root nav doc — same terms as the CLAUDE.md row above (WQ-237 README:112 re-point; was UNATTRIBUTED before this row)
+AGENTS/_INDEX.md	SHARED	shared AGENTS nav mirror (ROSTER wins) — PROME edits only under a named Will approval (WQ-237); audited as shared, never claimed
+AGENTS/_SYNTHESIS_OPS.md	SHARED	same class as AGENTS/_INDEX.md (WQ-237)
+AGENTS/YEYOU/**	SHARED	RETIRED desk (2026-09-05, WQ-181); PROME placed its FROZEN banner under WQ-237 — audited as shared, never claimed as PROME's desk
+.claude/agents/argus.md	OWNED	ARGUS's own definition — PROME-internal
+.claude/skills/**	OWNED	PROME runner copies (boot/closeout) — CANON, not harness config; the repo-root copy and the PROME/ copy are ONE unit and the parity gate compares them. Added 2026-09-12 (WQ-240): ARGUS could only grade the root copy by going OUTSIDE its own scope list.
+.claude/agents/**	OWNED	PROME's own agent definitions (argus, coldreader, anvil) — the SAME argument as the skills row above; carving out only argus.md left the others EXCLUDED on identical grounds (finding_hand_fixing_named_rows_is_not_fixing_the_class, ARGUS 2026-09-12)
+PROME/.claude/agents/argus.md	OWNED	the PROME-launch copy of the same definition; both must stay byte-identical (A7)
+PROME/**	OWNED	PROME's own directory (root CLAUDE.md Git Protocol scope note)
+FORGE/**	OWNED	PROME-standard since 2026-07-30 (root CLAUDE.md scope note)
+HEARTBEAT.md	OWNED	PROME-standard since 2026-08-23 (root CLAUDE.md scope note)
+memory/auto/**	SHARED	fleet auto-memory — ANY desk commits here under carve-out (3)
+memory/*.md	SHARED	daily session notes — root CLAUDE.md Key Directories; desk-prefixed subjects (BOND:, BRENT:, CORAL:) touch these (BLOCKER F-5: claiming these by date pattern was the practice A5 forbids)
+AGENTS/**	EXCLUDED	another desk's own directory — its work, its closeout, its auditor; PROME audits its OWN output (this row sits AFTER the inbox rows above, which are more specific and win first)
+BOARD/**	EXCLUDED	WALTER's signal board — WALTER owns signal/news routing (root CLAUDE.md)
+KERNEL/**	EXCLUDED	Gate C custody has its own additions-only checks and its own runbook; never folded into a closeout audit
+MESSAGING/**	EXCLUDED	ratified messaging canon — shared/root doc, Will-gated, not PROME closeout output
+scripts/read_cap_check.py	SHARED	shared read-budget instrument; Will authorized PROME runtime-charter coverage maintenance 2026-10-04; label shared and review the authorized change, never infer future authorship
+scripts/docket_view.py	SHARED	shared generator of SCRATCH's docket view; Will authorized backlog #7 (far-row form) in his 2026-10-15 23:55 ET session exception and the 2026-10-16 00:44 ET close-out word (verbatim: PROME/plans/2026-10-15_simplification-wave2-PLAN.md § Will's word); label shared and review the authorized change (Sonnet read, ACCEPTANCE_docket_view_far_rows.md), never infer future authorship
+scripts/firetime_allowlist.tsv	SHARED	fire-time allowlist — its header grants PROME the rows (born 2026-07-11, Will-approved); PROME adds/renews/deletes rows at boot dispositions (ARGUS ⚠️ 2026-10-22: the scripts/** exclusion hid PROME's own row deletion 14954ff3e)
+FORUM/**	SHARED	standing-bucket forum posts (WQ-482 A, 2026-10-22) — one file per post, EACH DESK commits its own; a PROME post or the README/tools are PROME's (sub-lane evidence: the desk name in the file name `_<DESK>_`, or a commit subject starting PROME); never grade a desk's post as PROME's (ARGUS ⚠️ 2026-10-22: ten FORUM paths matched no rule)
+scripts/**	EXCLUDED	fleet-wide scripts — shared, not PROME's closeout output
+docs/**	EXCLUDED	shared root docs — Will-gated per root CLAUDE.md Ask-First
+reviews/**	EXCLUDED	external audit reports — written BY the auditor, read by PROME; auditing them would be auditing the auditor
+.claude/**	EXCLUDED	harness config other than the PROME rows above (argus.md, .claude/skills/**, .claude/agents/**), which are OWNED by those more specific rows
+CLAUDE.md	EXCLUDED	root canon — Will-gated; a change here is an operator decision, not PROME closeout output
+AGENTS.md	EXCLUDED	root roster/nav core — Will-gated
+USER.md	SHARED	root operator profile — Will edits freely and PROME holds standing permission to edit it (USER.md § Autonomy); PROME edits ARE closeout output to audit (first ARGUS miss: 0926321f6 changed it with no row, found 2026-09-30, DOCKET L591); row added 2026-10-28 22:4x ET under WQ-530 § D quick items

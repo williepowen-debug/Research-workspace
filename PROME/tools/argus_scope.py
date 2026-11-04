@@ -23,7 +23,6 @@ Usage (from the repo root):
 Exit: 0 = spawn ARGUS · 3 = under the floor (skip, say so) · 2 = no recorded baseline (do not guess).
 """
 import argparse
-import fnmatch
 import datetime as dt
 import hashlib
 import json
@@ -32,6 +31,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+import argus_policy as policy
 
 MIN_PATHS = 3
 ROOT = Path(__file__).resolve().parents[2]
@@ -50,62 +50,21 @@ def git(*args):
     # `cd "$(git rev-parse --show-toplevel)"` does NOT prevent it: inside a worktree that
     # idiom resolves to the WORKTREE root. (Independent review 2026-09-13, round 3.)
     return subprocess.run(["git", *args], cwd=ROOT,
-                          capture_output=True, text=True, check=True).stdout
+                          capture_output=True, check=True).stdout.decode("utf-8")
 
 
 # ---------------------------------------------------------------- A2: the recorded perimeter
 
 def load_perimeter(path=None):
-    """Ordered [(pattern, class, reason)]. First match wins. Malformed rows FAIL LOUD, never default."""
-    f = Path(path or (ROOT / PERIMETER_FILE))
-    if not f.exists():
-        raise SystemExit(f"ARGUS-SCOPE 2 — perimeter manifest missing: {f}")
-    rules, seen_header = [], False
-    for i, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
-        if not line.strip() or line.lstrip().startswith("#"):
-            continue
-        cells = line.split("\t")
-        if not seen_header and cells[0].strip() == "pattern":
-            seen_header = True
-            continue
-        if len(cells) < 3:
-            raise SystemExit(f"ARGUS-SCOPE 2 — {f}:{i}: need 3 tab-separated cells, got {len(cells)}")
-        pat, cls, reason = cells[0].strip(), cells[1].strip(), cells[2].strip()
-        if cls not in CLASSES:
-            raise SystemExit(f"ARGUS-SCOPE 2 — {f}:{i}: class '{cls}' not in {CLASSES}")
-        rules.append((pat, cls, reason))
-    if not rules:
-        raise SystemExit(f"ARGUS-SCOPE 2 — {f} declares no rules")
-    return rules
+    return policy.parse_tsv(Path(path or (ROOT / PERIMETER_FILE)).read_bytes())
 
 
 def _match(pattern, path):
-    """fnmatch, except `*` does NOT cross a separator and `**` does. Written out rather than trusting fnmatch,
-    whose `*` matches `/` and would make `AGENTS/*/inbox/*` swallow `inbox/processed/x`."""
-    rx = []
-    i = 0
-    while i < len(pattern):
-        if pattern.startswith("**", i):
-            rx.append(".*")
-            i += 2
-        elif pattern[i] == "*":
-            rx.append("[^/]*")
-            i += 1
-        elif pattern[i] == "?":
-            rx.append("[^/]")
-            i += 1
-        else:
-            rx.append(re.escape(pattern[i]))
-            i += 1
-    return re.fullmatch("".join(rx), path) is not None
+    return policy.compile_policy([(pattern, 'OWNED', 'internal match')]).classify(path)[0] == 'OWNED'
 
 
 def classify(path, rules):
-    """(class, reason). First match wins. No match => UNATTRIBUTED — never dropped (A4)."""
-    for pat, cls, reason in rules:
-        if _match(pat, path):
-            return cls, reason
-    return "UNATTRIBUTED", "matches no declared rule in " + PERIMETER_FILE
+    return policy.compile_policy(rules).classify(path)
 
 
 # ---------------------------------------------------------------- A1: the recorded baseline
@@ -165,42 +124,8 @@ def _content_id(path):
     return hashlib.sha256(f.read_bytes()).hexdigest()
 
 
-def _current_baseline_sha():
-    f = ROOT / BASELINE_FILE
-    if not f.exists():
-        return None
-    try:
-        return (json.loads(f.read_text(encoding="utf-8")).get("sha") or "").strip() or None
-    except json.JSONDecodeError:
-        return None
-
-
 def record_review(paths, verdict=FROZEN, consumed_moves=None):
-    """Freeze the identity of the candidate.
-
-    `consumed_moves` — {DEST: ORIGIN} pairs PROME DECLARES as byte-identical `git mv`
-    consumptions of its own inbound packets (WQ-289 (b), DOCKET L473). Declared here so
-    ARGUS can confirm each at the artifact; `verify_review()` re-establishes the bytes
-    itself and never trusts the declaration (P1/P3 in
-    tests/ACCEPTANCE_argus_r100_consumed_move_WQ289.md).
-
-    ⛔ The default verdict is FROZEN, never REVIEWED. Freezing is something PROME
-    does to its own work; being reviewed is something ARGUS does to it. An earlier
-    version wrote "REVIEWED" at freeze time, so the receipt asserted an audit that
-    had not happened — and did so on its own delivery."""
-    entries = {p: _content_id(p) for p in sorted(set(paths)) if p not in RECEIPT_PATHS}
-    f = ROOT / REVIEW_FILE
-    f.parent.mkdir(parents=True, exist_ok=True)
-    f.write_text(json.dumps({
-        "verdict": verdict,
-        "baseline": _current_baseline_sha(),
-        "head": git("rev-parse", "HEAD").strip(),
-        "recorded_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-        "recorded_by": os.environ.get("PROME_SESSION", "PROME"),
-        "paths": entries,
-        "consumed_moves": dict(consumed_moves or {}),
-    }, indent=2) + "\n", encoding="utf-8")
-    return entries
+    raise policy.EvaluationError('legacy freeze disabled; use --record-review --contract PLAN for schema 3; authorized review required')
 
 
 def mark_reviewed(note=""):
@@ -221,7 +146,7 @@ def mark_reviewed(note=""):
     d["verdict"] = REVIEWED
     d["reviewed_note"] = note
     d["reviewed_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-    if d.get("schema") == 2:
+    if d.get("schema") == 3:
         d["reviewed_contract_sha256"] = d["contract_sha256"]
     f.write_text(json.dumps(d, indent=2) + "\n", encoding="utf-8")
     return 0, f"verdict REVIEWED over {len(d['paths'])} path(s)"
@@ -258,308 +183,15 @@ def _xgit(*args, check=True, timeout=None):
                           capture_output=True, check=check, timeout=timeout)
 
 
-def _fetch_origin_sha():
-    """ONE fetch per verify, by EXPLICIT refspec into the FULL remote-tracking ref, then the
-    commit sha of that full ref. Returns (sha, None) or (None, why).
-
-    ⛔ Round-2 reader ❌A (2026-09-25): `git fetch origin master` + `cat-file origin/master:path`
-    read the SHORT name, which a local branch or tag called `origin/master` shadows (git warns
-    "refname is ambiguous" and picks the wrong one), and a repo with no matching fetch refspec
-    updates only FETCH_HEAD, leaving the tracking ref stale — both passed a packet that was
-    never on origin. The refspec pins what is fetched; the full ref pins what is read.
-    ⛔ Round-1 reader ❌6: the fetch itself is load-bearing — CLOSEOUT step 10 runs before
-    safe-push.sh, so the tracking ref can be stale. Failure ⇒ refusal, never a pass."""
-    try:
-        # ⛔ Round-3 reader ❌3: with NO remote named `origin`, `git fetch origin` treats the word as a
-        # PATH — a nested clone at ./origin certified an unpushed packet. The remote must EXIST as a
-        # configured remote (a URL, read-only) before anything is fetched from it.
-        step = f"git remote get-url {ORIGIN_REMOTE}"
-        url = _xgit("remote", "get-url", "--all", ORIGIN_REMOTE).stdout.decode("utf-8", "replace").split()
-        if not url:
-            return None, f"remote `{ORIGIN_REMOTE}` has no URL configured"
-        # ⛔ Round-4 reader ❌1: the FETCH URL is not the PUSH URL. A `pushurl`/`pushInsteadOf` can point
-        # safe-push.sh at a server that never held the packet while the fetch reads a mirror that did —
-        # "on origin" must mean the server the closeout PUSHES to. Fetch set == push set, or refuse.
-        push = _xgit("remote", "get-url", "--push", "--all", ORIGIN_REMOTE).stdout.decode("utf-8", "replace").split()
-        if sorted(url) != sorted(push):
-            return None, f"remote `{ORIGIN_REMOTE}` fetch URL(s) {url} differ from push URL(s) {push} — 'on origin' cannot mean one server for the read and another for the push"
-        # ⛔ Round-4 reader ⚠️2: if the tracking ref is a SYMREF onto the checked-out branch, the forced
-        # fetch below rewinds HEAD and strands the unpushed commit in the reflog. Refuse; never fetch.
-        step = f"git symbolic-ref {ORIGIN_FULLREF}"
-        if _xgit("symbolic-ref", "-q", ORIGIN_FULLREF, check=False).returncode == 0:
-            return None, f"`{ORIGIN_FULLREF}` is a SYMBOLIC ref — a fetch through it would move a local branch; repair the ref before verifying"
-        step = f"git fetch {ORIGIN_REMOTE} +refs/heads/{ORIGIN_BRANCH}:{ORIGIN_FULLREF}"
-        _xgit("fetch", "-q", ORIGIN_REMOTE, f"+refs/heads/{ORIGIN_BRANCH}:{ORIGIN_FULLREF}", timeout=60)
-        step = f"git rev-parse --verify {ORIGIN_FULLREF}"
-        sha = _xgit("rev-parse", "--verify", f"{ORIGIN_FULLREF}^{{commit}}").stdout.decode().strip()
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
-        err = getattr(e, "stderr", b"") or b""
-        if isinstance(err, bytes):
-            err = err.decode("utf-8", "replace")
-        return None, f"`{step}` failed ({err.strip()[:80] or type(e).__name__})"   # round-4 ⚠️3: name the step that failed
-    return sha, None
-
-
-def _origin_blob_id(path, origin_sha):
-    """sha256 of `<origin_sha>:path` — the blob at the FETCHED commit, addressed by sha, never by
-    a name. Returns (hexdigest, None) or (None, why)."""
-    try:
-        blob = _xgit("cat-file", "-p", f"{origin_sha}:{path}").stdout
-    except subprocess.CalledProcessError as e:
-        err = (e.stderr or b"").decode("utf-8", "replace").strip()
-        return None, f"`{ORIGIN_FULLREF}@{origin_sha[:9]}:{path}` is not readable ({err[:80] or 'no such object'})"
-    return hashlib.sha256(blob).hexdigest(), None
-
-
-def _index_content_id(path):
-    """sha256 of the INDEX blob `:path` — what a pathspec commit ships (round-2 reader ❌B: the
-    working-tree file can differ from the index under assume-unchanged / skip-worktree / line-
-    ending filters while `git diff --name-only` stays quiet). None if not in the index."""
-    try:
-        blob = _xgit("cat-file", "-p", f":{path}").stdout
-    except subprocess.CalledProcessError:
-        return None
-    return hashlib.sha256(blob).hexdigest()
-
-
-def _git_sees_r100(origin, dest, ref):
-    """Does GIT record ORIGIN→DEST as a 100%-similar rename? (reader ❌1/❌3/❌4: byte
-    equality with origin/master is not a rename — an addition, or a delete+add whose bytes
-    happen to match a NEWER origin blob, satisfies it; only git's own rename detection
-    proves the local tree HELD the origin and moved it unchanged.)
-    ref=None ⇒ the STAGED move (`git mv` stages it; an unstaged mv is refused);
-    ref given ⇒ the move must be inside that commit (`ref^..ref`)."""
-    if ref:
-        args = ["diff", "--name-status", "-M100%", "--diff-filter=R", f"{ref}^", ref, "--", origin, dest]
-    else:
-        args = ["diff", "--name-status", "-M100%", "--diff-filter=R", "--cached", "--", origin, dest]
-    try:
-        out = _xgit(*args).stdout.decode("utf-8", "replace")
-    except subprocess.CalledProcessError as e:
-        return False, f"git could not evaluate the rename ({(e.stderr or b'').decode('utf-8', 'replace').strip()[:80]})"
-    for line in out.splitlines():
-        cells = line.split("\t")
-        if len(cells) == 3 and cells[0] == "R100" and cells[1] == origin and cells[2] == dest:
-            return True, None
-    where = f"in {ref}^..{ref}" if ref else "in the index (is the move staged?)"
-    return False, f"git does not record ORIGIN→DEST as an R100 rename {where}"
-
-
-def _clean_relpath(p):
-    return (isinstance(p, str) and p and not p.startswith(("/", "./", "../")) and "/../" not in p
-            and not p.endswith("/..") and os.path.normpath(p) == p and "\\" not in p)
-
-
-def _consumed_move_exemption(dest, origin, ref, manifest, listed, origin_sha):
-    """WQ-289 (b), DOCKET L473 — the ONLY exemption from UNREVIEWED, and it is narrow:
-
-    a DECLARED (P1), ARGUS-confirmed (P2: manifest verdict REVIEWED) `git mv` that GIT ITSELF
-    records as R100 (P3/P4: rename source in the parent, identical bytes, staged or committed),
-    whose ORIGIN bytes are on a FRESHLY FETCHED origin/master (P3), of PROME's OWN inbound packet
-    into PROME's OWN processed/ (P5: by PATH, never by subject or filename), with BOTH halves in
-    the candidate list (P8). Anything else returns (False, why) and the caller keeps blocking.
-    Missing information (P6) is a refusal with the reason, never a pass.
-    Returns (True, receipt_line) or (False, why)."""
-    if manifest.get("verdict") != REVIEWED:
-        return False, "declared consumed move but the manifest is not REVIEWED — ARGUS has not confirmed it"
-    if not (_clean_relpath(origin) and _clean_relpath(dest)):
-        return False, "ORIGIN/DEST must be plain normalised repo-relative paths (no `..`, `./`, leading `/`)"
-    if not (_match("PROME/inbox/**", origin) and not _match("PROME/inbox/processed/**", origin)):
-        return False, f"ORIGIN {origin} is not an unconsumed packet in PROME's own inbox"
-    if not _match("PROME/inbox/processed/**", dest):
-        return False, f"DEST {dest} is not under PROME/inbox/processed/ — a move elsewhere is not consumption"
-    if Path(origin).name != Path(dest).name:
-        return False, f"basename changed ({Path(origin).name} → {Path(dest).name}) — not a pure consume-move"
-    if origin not in listed or dest not in listed:
-        return False, "both halves of the pair must be in the --paths candidate list (the origin's disappearance and the destination's appearance are one fact)"
-    if not ref:
-        if os.path.lexists(ROOT / origin):
-            return False, f"ORIGIN {origin} is still present in the working tree (file or link) — a copy, not a move"
-        if os.path.islink(ROOT / dest):
-            return False, f"DEST {dest} is a symlink — git would ship the link text, not the packet"
-        if git("diff", "--name-only", "--", dest).strip():
-            return False, f"DEST {dest} has unstaged changes — the shipped bytes are not the staged bytes"
-    ok, why = _git_sees_r100(origin, dest, ref)
-    if not ok:
-        return False, why
-    # the bytes that SHIP: the commit's blob in the --ref form, the INDEX blob otherwise (never the
-    # working-tree file — round-2 ❌B); and the working-tree file must still equal the index blob
-    now_dest = _committed_content_id(dest, ref) if ref else _index_content_id(dest)
-    if now_dest is None:
-        return False, f"DEST {dest} is absent {('in ' + ref) if ref else 'from the index'}"
-    if not ref and _content_id(dest) != now_dest:
-        return False, f"DEST {dest} on disk differs from its index blob — the shipped bytes are not the bytes on disk"
-    if origin_sha is None:
-        return False, "cannot establish that ORIGIN's bytes are on origin — the fetch/resolve of the remote-tracking ref failed (see the CANNOT-ESTABLISH line above)"
-    on_origin, why = _origin_blob_id(origin, origin_sha)
-    if on_origin is None:
-        return False, f"cannot establish that ORIGIN's bytes are on origin — {why}"
-    if on_origin != now_dest:
-        return False, (f"DEST bytes differ from `{ORIGIN_FULLREF}@{origin_sha[:9]}:{origin}` "
-                       f"({on_origin[:12]} vs {now_dest[:12]}) — not R100; a rename with any content change blocks")
-    return True, (f"R100-CONSUMED-MOVE: {origin} → {dest} — git records R100; byte-identical to `{origin}` at "
-                  f"{ORIGIN_FULLREF} = {origin_sha[:12]} (fetched this verify; blob {on_origin[:12]}); "
-                  f"declared at freeze, manifest REVIEWED (WQ-289 (b), L473)")
-
-
 def verify_review(paths=None, ref=None, snapshot=None):
-    """Compare the CURRENT working tree against the recorded review manifest.
-
-    Returns (rc, lines). rc 0 = every reviewed path is byte-identical · rc 1 =
-    at least one reviewed path CHANGED, or a path is shipping that was never
-    reviewed · rc 2 = CANNOT-EVALUATE (no manifest, unreadable manifest). ⛔ rc 2
-    is not a pass: with no manifest nothing was established.
-    `[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`"""
-    f = ROOT / REVIEW_FILE
-    explicit = paths is not None     # round-3 reader ❌2: the exemption belongs to the EXPLICIT-list form only
-    if not f.exists():
-        return 2, [f"CANNOT-EVALUATE: no review manifest at {REVIEW_FILE} — "
-                   f"record one with --record-review before the audit"]
     try:
-        d = json.loads(f.read_text(encoding="utf-8"))
-        reviewed = d["paths"]
-    except (json.JSONDecodeError, KeyError, TypeError) as e:
-        return 2, [f"CANNOT-EVALUATE: review manifest unreadable ({type(e).__name__}: {e})"]
-    if d.get("schema") == 2:
+        d = json.loads((ROOT / REVIEW_FILE).read_text(encoding='utf-8'))
+        if not isinstance(d, dict) or d.get('schema') != 3:
+            raise policy.EvaluationError('historical/unsupported manifest; re-freeze schema 3 and obtain authorized review')
         import argus_contract
-        return argus_contract.verify(sys.modules[__name__] if __name__ in sys.modules else
-                                     __import__(__name__), d, paths, ref, snapshot)
-    if d.get("schema") is not None or snapshot is not None:
-        return 2, ["CANNOT-EVALUATE: unsupported schema/snapshot; explicitly re-freeze a schema 2 contract"]
-    cur_base = _current_baseline_sha()
-    if d.get("baseline") != cur_base:
-        return 2, [f"CANNOT-EVALUATE: this manifest was frozen against baseline "
-                   f"{str(d.get('baseline'))[:9]} and the current baseline is {str(cur_base)[:9]} — "
-                   f"it belongs to a PRIOR closeout. Re-freeze; do not read it as a failure."]
-    out, bad = [], False
-    for path, was in sorted(reviewed.items()):
-        now = _committed_content_id(path, ref) if ref else _content_id(path)
-        if now == was:
-            continue
-        bad = True
-        if was is None:
-            out.append(f"CHANGED-SINCE-REVIEW: {path} did not exist at review and does now")
-        elif now is None:
-            out.append(f"CHANGED-SINCE-REVIEW: {path} was reviewed and is now absent")
-        else:
-            out.append(f"CHANGED-SINCE-REVIEW: {path} ({was[:12]} → {now[:12]})")
-    # An ADDITION nobody reviewed must be visible to EVERY caller, not only to the one that
-    # happens to pass a path list. `--mark-reviewed` and the closeout gate both called this
-    # with paths=None, so a file created after the freeze passed both and was caught only by
-    # the post-commit check. With no list supplied, fall back to the tool's OWN computed
-    # scope — the same set the freeze was taken from. (ARGUS, 2026-09-12.)
-    scope_failed = None
-    if paths is not None and not paths:
-        # ⛔ An EMPTY list is not an answer, and it was the WORST of the three: `--paths`
-        # OMITTED fell through to discovery and returned rc 1, while `--paths` supplied
-        # EMPTY skipped discovery and returned rc 0 over the same unreviewed addition.
-        # `nargs="*"` + an unset shell variable in the documented step-10 command is all it
-        # took. Passing the flag must never be more dangerous than not passing it.
-        scope_failed = ("an EMPTY candidate list was supplied, which establishes nothing. "
-                        "Omitting --paths is SAFER than passing it empty (the usual cause is "
-                        "an unset shell variable expanding to no arguments)")
-    elif paths is None:
-        try:
-            base, _why = load_baseline()
-            if base is None:
-                # ⛔ THIS WAS A CARVE-OUT AND THE CARVE-OUT WAS THE SAME BYPASS.
-                # I first treated "no baseline" as merely NOT APPLICABLE — content
-                # comparison still governing rc — so that four content-only fixtures
-                # would pass. But load_baseline() returns None for SEVERAL conditions,
-                # not just absence, including a recorded commit git cannot reach.
-                # Reproduced with REAL git breakage (.git moved aside), not a mock:
-                # the run printed "recorded baseline … is not a commit in this
-                # repository", then returned 0, promotion to REVIEWED succeeded, and
-                # the Standard review check passed — over an unreviewed addition.
-                # AN UNAVAILABLE BASELINE MAKES COMPLETENESS UNKNOWN; IT DOES NOT MAKE
-                # COMPLETENESS UNNECESSARY. Printing that additions were unchecked does
-                # not protect a caller that accepts rc 0.
-                # My own test docstring had written "hiding the second would re-open a
-                # quieter version of the same hole" — and then did it.
-                scope_failed = f"baseline unusable — {_why}"
-            else:
-                # ⚠️ `excluded` is DROPPED here and that is a KNOWN, REGISTERED narrowing
-                # (DOCKET L367), not an oversight. An independent review called it a bypass:
-                # an unreviewed addition at an EXCLUDED path (CLAUDE.md, scripts/**, docs/**)
-                # returns 0 from this caller while the explicit-list form returns 1 on the
-                # same tree. The DIAGNOSIS is correct. Its proposed fix — append `excluded` —
-                # was TESTED HERE AND IS WRONG: `AGENTS/**` is EXCLUDED, so one other desk's
-                # dirty STATUS.md then blocks every PROME closeout (reproduced 2026-09-13:
-                # "UNREVIEWED: AGENTS/BRENT/STATUS.md"). The real question — what "shipping"
-                # means for a path PROME does not own but may commit Will-gated — is a design
-                # decision, not a line edit, and is registered rather than guessed at inside a
-                # third correction pass on this file.
-                lanes, _ = build_scope(base["sha"], load_perimeter(), include_pending=True)
-                paths = [e["path"] for e in
-                         lanes["OWNED"] + lanes["SHARED"] + lanes["UNATTRIBUTED"]]
-        except Exception as e:
-            scope_failed = f"{type(e).__name__}: {str(e)[:120]}"
-    # ⛔ EXTERNAL FINDING 2026-09-13, and it is the SAME bypass I previously called closed.
-    # This block used to end `except Exception: paths = None  # ... stay silent`, so a run
-    # whose scope discovery FAILED skipped the unreviewed-additions test entirely and
-    # returned 0 — reproduced in a fixture: with git working an unreviewed addition gives
-    # rc 1; with scope discovery raising it gives rc 0 AND prints "byte-identical to the
-    # frozen candidate (verdict REVIEWED)". Promotion then succeeded and the Standard
-    # review check passed. STAYING SILENT IS THE FAIL-OPEN: a completeness claim we could
-    # not establish must read CANNOT-EVALUATE, never a pass.
-    # `[[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]`
-    if scope_failed is not None:
-        out.append("CANNOT-EVALUATE: additions could NOT be checked — "
-                   f"{scope_failed}. Completeness is UNKNOWN, which is not the same as "
-                   "unnecessary: this run may NOT certify, may NOT authorize REVIEWED, and "
-                   "does NOT satisfy a tier that requires a review. The only escape is an "
-                   "EXPLICIT, COMPLETE candidate path list via --paths; fix the input "
-                   "otherwise. (Content comparison above remains a diagnostic.)")
-        return 2, out
-    if paths is not None:
-        # ⛔ Round-3 reader ❌2: after discovery filled `paths`, this block ALSO ran for the manifest-only
-        # form (`--mark-reviewed`, prome_gate) — a network fetch on every declared move, and a
-        # contradictory CANNOT-ESTABLISH line beside rc 0 with the remote down. P7 says that form is
-        # untouched: the declared block runs ONLY when the caller supplied --paths.
-        declared = (d.get("consumed_moves") or {}) if explicit else {}
-        if not isinstance(declared, dict) or not all(isinstance(k, str) and isinstance(v, str)
-                                                     for k, v in declared.items()):
-            return 2, out + ["CANNOT-EVALUATE: manifest `consumed_moves` must be a mapping of DEST → ORIGIN strings"]
-        # a declared move exempts BOTH of its paths, and only as a pair: the origin's
-        # disappearance is half of the same fact as the destination's appearance
-        listed = set(paths)
-        origin_sha = None
-        if declared:
-            origin_sha, why = _fetch_origin_sha()
-            if origin_sha is None:
-                out.append(f"CANNOT-ESTABLISH origin state for the declared consumed move(s) — {why}; every declared pair is refused")
-        origins = list(declared.values())
-        dup_origins = {o for o in origins if origins.count(o) > 1}
-        exempt = {}
-        for dest, origin in declared.items():
-            if origin in dup_origins:
-                ok, msg = False, f"ORIGIN {origin} is declared against more than one DEST — the second is a copy"
-            else:
-                ok, msg = _consumed_move_exemption(dest, origin, ref, d, listed, origin_sha)
-            if ok:
-                exempt[dest] = msg
-                exempt[origin] = None   # receipt printed once, on the destination
-            else:
-                exempt[dest] = False, msg
-                exempt[origin] = False, msg
-        for path in sorted(set(paths) - set(reviewed) - RECEIPT_PATHS):
-            e = exempt.get(path, "undeclared")
-            if e is None:
-                continue                      # origin half of an exempt pair
-            if isinstance(e, str) and e != "undeclared":
-                out.append(e)                 # the R100 receipt (P8)
-                continue
-            bad = True
-            if isinstance(e, tuple):
-                out.append(f"UNREVIEWED: {path} is in the commit set and was never reviewed — "
-                           f"declared consumed move REFUSED: {e[1]}")
-            else:
-                out.append(f"UNREVIEWED: {path} is in the commit set and was never reviewed")
-    if not bad:
-        where = f"in {ref}" if ref else "in the working tree"
-        out.append(f"{len(reviewed)} path(s) {where} byte-identical to the frozen candidate "
-                   f"(verdict {d.get('verdict','?')}, recorded {d.get('recorded_at','?')})")
-    return (1 if bad else 0), out
+        return argus_contract.verify(sys.modules[__name__], d, paths, ref, snapshot)
+    except Exception as exc:
+        return 2, [f'CANNOT-EVALUATE: {type(exc).__name__}: {exc}']
 
 
 def record_baseline(sha):
@@ -584,11 +216,12 @@ def porcelain_entries():
     while i < len(toks):
         tok = toks[i]
         if len(tok) < 4:
-            i += 1
-            continue
+            raise policy.EvaluationError("malformed Git porcelain record")
         st, path = tok[:2], tok[3:]
+        policy.segments(path)
         if st[0] in "RC" and i + 1 < len(toks):
             origin = toks[i + 1]
+            policy.segments(origin)
             out.append((" D", origin))      # a rename's ORIGIN disappears; ARGUS must see that
             i += 1
         out.append((st, path))
@@ -609,7 +242,7 @@ def committed_changes(baseline_sha):
         # vanishes from the audit — and `git mv` to archive/ is routine PROME closeout work. The pending side
         # already synthesizes the origin; the two sides must agree. (Independent review 2026-09-11, CE-3.)
         for p in [x for x in git("show", "-z", "--no-renames", "--name-only", "--format=", sha).split("\0")
-                  if x.strip()]:
+                  if x]:
             paths.setdefault(p, []).append(sha[:9])
     return paths
 
@@ -688,25 +321,26 @@ def reads_for(entry):
 
 
 def _current_candidate_review(base_sha):
-    """The schema-2 manifest frozen against THIS baseline with a WQ-583 candidate, else None (never a failure)."""
-    try:
-        d = json.loads((ROOT / REVIEW_FILE).read_text(encoding="utf-8"))
-        if d.get("schema") == 2 and d.get("candidate") and git("rev-parse", base_sha).strip() == d["contract"]["baseline"]:
-            return d
-    except (OSError, ValueError, KeyError, TypeError, subprocess.CalledProcessError):
-        pass
-    return None
+    f = ROOT / REVIEW_FILE
+    if not f.exists():
+        return None
+    d = json.loads(f.read_text(encoding='utf-8'))
+    if not isinstance(d, dict) or d.get('schema') != 3:
+        raise policy.EvaluationError('historical/unsupported candidate manifest; explicitly re-freeze schema 3')
+    import argus_contract
+    argus_contract.validate(sys.modules[__name__], d)
+    return d if d.get('candidate') else None
 
 
-def main(argv=None):
+def _main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", action="store_true")
     ap.add_argument("--no-pending", action="store_true", help="committed only (diagnostic; NOT the closeout form)")
     ap.add_argument("--record-baseline", metavar="SHA", help="record SHA as the audit baseline (at the closeout commit)")
     ap.add_argument("--record-review", action="store_true",
-                    help="freeze the content identity of the current scope as the REVIEWED candidate "
+                    help="freeze the content identity of the current scope as a FROZEN candidate "
                          "(run immediately before the audit)")
-    ap.add_argument("--contract", type=Path, help="with --record-review: explicit schema 2 delivery/evidence/observed plan JSON")
+    ap.add_argument("--contract", type=Path, help="with --record-review: explicit schema 3 delivery/evidence/observed plan JSON")
     ap.add_argument("--observe", type=Path, help="append attributed unrelated-version classifications; never changes the contract")
     ap.add_argument("--observe-at", help="with --observe: classify inventory at this outgoing/fetched snapshot")
     ap.add_argument("--snapshot", help="with --verify-review --ref: compare relevant content at this outgoing/fetched commit")
@@ -734,8 +368,10 @@ def main(argv=None):
                     help="promote FROZEN -> REVIEWED after the audit actually ran; refuses if the frozen "
                          "candidate changed")
     args = ap.parse_args(argv)
+    if args.record_review and not args.contract:
+        raise policy.EvaluationError('legacy freeze disabled; use --record-review --contract PLAN for schema 3')
     if args.contract and (not args.record_review or args.consumed_move):
-        ap.error("--contract requires --record-review; consumed-move exemptions remain in the legacy workflow")
+        raise policy.EvaluationError("--contract requires --record-review; legacy consumed-move declarations are disabled")
     if args.snapshot and (not args.verify_review or not args.ref):
         ap.error("--snapshot requires --verify-review --ref")
     if args.observe_at and not args.observe:
@@ -768,12 +404,8 @@ def main(argv=None):
         except (ValueError, KeyError, TypeError, OSError, RuntimeError, subprocess.CalledProcessError) as exc:
             print(f"CANNOT-EVALUATE: {exc}")
             return 2
-    if args.consumed_move and not args.record_review:
-        ap.error("--consumed-move is only meaningful with --record-review (it DECLARES a move at freeze time)")
     if args.consumed_move:
-        dests = [d for _o, d in args.consumed_move]
-        if len(set(dests)) != len(dests):
-            ap.error("the same DEST is declared more than once — one declaration per destination")
+        raise policy.EvaluationError('legacy consumed-move declarations disabled; use explicit schema 3 contract')
 
     if args.record_baseline:
         sha, subj = record_baseline(args.record_baseline)
@@ -817,19 +449,6 @@ def main(argv=None):
     audited = lanes["OWNED"] + lanes["SHARED"] + lanes["UNATTRIBUTED"]
     total = len(audited)
 
-    if args.record_review:
-        moves = {dest: origin for origin, dest in (args.consumed_move or [])}
-        entries = record_review([e["path"] for e in audited], consumed_moves=moves)
-        for dest, origin in sorted(moves.items()):
-            print(f"  \u21b3 declared consumed move: {origin} \u2192 {dest} (ARGUS confirms at the artifact)")
-        missing = [p for p, h in entries.items() if h is None]
-        print(f"ARGUS-SCOPE \u00b7 review candidate frozen: {len(entries)} path(s) \u2192 {REVIEW_FILE}")
-        if missing:
-            print(f"  \u26a0\ufe0f {len(missing)} path(s) absent from the working tree at review time: "
-                  + ", ".join(missing[:5]))
-        print("  \u21b3 after the audit: `--verify-review` must read UNCHANGED before the commit; "
-              "any \u274c fix re-freezes it.")
-        return 0
     verdict = "SPAWN" if total >= MIN_PATHS else f"SKIP (<{MIN_PATHS} paths)"
 
     if args.json:
@@ -880,6 +499,14 @@ def main(argv=None):
                 if lane != "OWNED":
                     print(f"        ⚠️ {e['reason']}")
     return 0 if total >= MIN_PATHS else 3
+
+
+def main(argv=None):
+    try:
+        return _main(argv)
+    except Exception as exc:
+        print(f'CANNOT-EVALUATE: {type(exc).__name__}: {exc}')
+        return 2
 
 
 if __name__ == "__main__":

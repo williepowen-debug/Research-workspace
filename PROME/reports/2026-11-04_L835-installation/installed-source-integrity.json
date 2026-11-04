@@ -1,0 +1,14 @@
+{
+  "PROME/tools/argus_contract.py": true,
+  "PROME/tools/argus_policy.py": true,
+  "PROME/tools/argus_scope.py": true,
+  "PROME/tools/prome_gate.py": true,
+  "PROME/tools/tests/fixtures/schema12_history/test_argus_r100_consumed_move_WQ289.py": true,
+  "PROME/tools/tests/test_argus_contract.py": true,
+  "PROME/tools/tests/test_argus_policy.py": true,
+  "PROME/tools/tests/test_argus_scope.py": true,
+  "PROME/tools/tests/test_closeout_simplification_WQ240.py": true,
+  "PROME/tools/tests/test_external_findings_2026_09_13.py": true,
+  "PROME/tools/tests/test_l835_phase2.py": true,
+  "PROME/tools/tests/test_review_mechanism_WQ240b.py": true
+}

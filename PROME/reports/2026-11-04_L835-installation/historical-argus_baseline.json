@@ -1,0 +1,21 @@
+{
+  "_doc": "L336 condition A1 \u2014 the RECORDED audit baseline. Written by PROME at each closeout commit; read by argus_scope.py. No regex decides what a closeout is, so a commit whose SUBJECT is about closeout can never become the baseline (BLOCKER F-1: 00afa8b99 did exactly that and silently truncated the audit by 11 commits / 29 paths).",
+  "_written_by": "PROME/tools/argus_scope.py --record-baseline <sha>",
+  "sha": "a71cf8fb02e79a1702827fe8a13fbc143c6d23c6",
+  "subject": "PROME: Standard closeout 11/3 \u2014 Kimi boot, synthesis, ARGUS",
+  "recorded_at": "2026-11-03T18:37:31-05:00",
+  "recorded_by": "PROME",
+  "delivery_receipt": {
+    "delivery_sha": "cf1bf80764a20e25a581b76ca5b90beb550dae91",
+    "remote_sha": "cf1bf80764a20e25a581b76ca5b90beb550dae91",
+    "verified_at": "2026-10-25T22:16:36.108965+00:00",
+    "gate": "Standard rc0,16blocking pass; existing20advisories retained",
+    "review": "ARGUS read1 one stale gate-instruction class corrected; changed-portion RELEASE0blocking/0warnings; explicit helper closeout received",
+    "contract_sha256": "6eb08b60688ac23bfc639d64b1f4ae03d252c70d65e40161edd1244aa08e58d6",
+    "commit_verification": "Exact12path intent matched; --verify-review --ref and actual remote --snapshot both UNCHANGED rc0",
+    "push_receipt": "Pushed. CONFIRMED: HEAD cf1bf8076 is on origin/master (fresh fetch).",
+    "publication": "NOT REQUIRED; Helm RETIRED, Deck PAUSED BY WILL",
+    "remaining": "Existing byte-flow/lifecycle/queue advisories; active foreign MIDAS/DEWEY work preserved. Top-level PROME inbox0 at final census."
+  },
+  "previous_baseline_sha": "222923304e0731695e4ffb79c1ff0e9b3a75d712"
+}

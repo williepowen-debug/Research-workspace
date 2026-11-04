@@ -31,7 +31,8 @@ class RealRepo(unittest.TestCase):
         self.repo = pathlib.Path(self.d.name)
         for sub in ("PROME/tools", "PROME/state"):
             (self.repo / sub).mkdir(parents=True)
-        shutil.copy2(TOOL, self.repo / "PROME/tools/argus_scope.py")
+        for name in ('argus_scope.py', 'argus_contract.py', 'argus_policy.py'):
+            shutil.copy2(TOOL.parent / name, self.repo / 'PROME/tools' / name)
         shutil.copy2(ROOT / "PROME/state/AUDIT_PERIMETER.tsv", self.repo / "PROME/state/")
         self.git("init", "-q", "-b", "master")
         self.git("config", "user.email", "t@t"); self.git("config", "user.name", "t")
@@ -52,8 +53,18 @@ class RealRepo(unittest.TestCase):
         return rel
 
     def run_tool(self, *args):
+        if args == ('--record-review',):
+            # Migrate the fixture to the explicit contract API. Never reinstate production legacy freeze.
+            changed = self.git('status','--porcelain','-z','-uall').split('\0')
+            paths = [x[3:] for x in changed if x and x[3:] not in
+                     ('PROME/state/argus_baseline.json','PROME/state/argus_review.json')]
+            plan = pathlib.Path(self.d.name).parent / (self.repo.name + '-plan.json')
+            plan.write_text(json.dumps({'delivered': {p:'fixture explicit delivery' for p in paths}}))
+            self.addCleanup(plan.unlink, missing_ok=True)
+            args = ('--record-review','--contract',str(plan))
         return subprocess.run([PY, "PROME/tools/argus_scope.py", *args],
-                              cwd=self.repo, capture_output=True, text=True)
+                              cwd=self.repo, capture_output=True, text=True,
+                              env={**__import__('os').environ, 'PYTHONDONTWRITEBYTECODE':'1'})
 
 
 class Repro1_VerifyTheActualDelivery(RealRepo):
@@ -63,11 +74,11 @@ class Repro1_VerifyTheActualDelivery(RealRepo):
     def test_cli_detects_an_unreviewed_addition_when_given_the_paths(self):
         self.write("a.md", "one\n")
         self.run_tool("--record-review")
-        self.write("sneaked_in.md", "never reviewed\n")
-        r = self.run_tool("--verify-review", "--paths", "a.md", "sneaked_in.md")
+        self.write("PROME/sneaked_in.md", "never reviewed\n")
+        r = self.run_tool("--verify-review", "--paths", "a.md", "PROME/sneaked_in.md")
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn("UNREVIEWED", r.stdout)
-        self.assertIn("sneaked_in.md", r.stdout)
+        self.assertIn("PROME/sneaked_in.md", r.stdout)
 
     def test_an_addition_is_detected_even_WITHOUT_an_explicit_path_list(self):
         """⛔ This test asserted the OPPOSITE until 2026-09-12 21:5x, pinning the defect
@@ -77,16 +88,16 @@ class Repro1_VerifyTheActualDelivery(RealRepo):
         OWN computed scope, so every caller sees additions."""
         self.write("a.md", "one\n")
         self.run_tool("--record-review")
-        self.write("sneaked_in.md", "never reviewed\n")
+        self.write("PROME/sneaked_in.md", "never reviewed\n")
         r = self.run_tool("--verify-review")
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
-        self.assertIn("UNREVIEWED", r.stdout)
+        self.assertIn("UNCLASSIFIED", r.stdout)
 
     def test_mark_reviewed_refuses_when_an_unreviewed_addition_exists(self):
         """ARGUS's reproduction: promotion used to succeed with an addition present."""
         self.write("a.md", "one\n")
         self.run_tool("--record-review")
-        self.write("sneaked_in.md", "never reviewed\n")
+        self.write("PROME/sneaked_in.md", "never reviewed\n")
         r = self.run_tool("--mark-reviewed", "audit ran")
         self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
         self.assertIn("REFUSED", r.stdout)
@@ -139,7 +150,7 @@ class Repro2_RepeatedCloseouts(RealRepo):
         self.run_tool("--record-baseline", "HEAD")
         r = self.run_tool("--verify-review")
         self.assertEqual(r.returncode, 2, r.stdout)
-        self.assertIn("PRIOR closeout", r.stdout)
+        self.assertIn("different baseline", r.stdout)
         self.write("b.md", "second\n")
         self.run_tool("--record-review")
         self.assertEqual(self.run_tool("--verify-review").returncode, 0,
@@ -172,13 +183,16 @@ class Repro3_FreezeIsNotReview(RealRepo):
         self.assertEqual(json.loads((self.repo / "PROME/state/argus_review.json")
                                     .read_text())["verdict"], "REVIEWED")
 
-    def test_mark_reviewed_refuses_a_moved_candidate(self):
-        self.write("a.md", "x\n")
-        self.run_tool("--record-review")
-        self.write("a.md", "moved after the freeze\n")
-        r = self.run_tool("--mark-reviewed", "argus run 1")
-        self.assertEqual(r.returncode, 1)
-        self.assertIn("REFUSED", r.stdout)
+    def test_mark_reviewed_uses_immutable_candidate_not_post_freeze_work(self):
+        self.write('a.md', 'reviewed bytes\n')
+        self.run_tool('--record-review')
+        frozen=json.loads((self.repo/'PROME/state/argus_review.json').read_text())
+        self.write('a.md', 'post-freeze bytes not reviewed\n')
+        r=self.run_tool('--mark-reviewed','synthetic fixture')
+        self.assertEqual(r.returncode,0,r.stdout+r.stderr)
+        self.assertEqual(self.git('show',f"{frozen['candidate']['sha']}:a.md"),'reviewed bytes\n')
+        self.assertIn('POST-FREEZE EDIT',self.run_tool('--verify-review').stdout)
+
 
     def test_mark_reviewed_with_nothing_frozen_cannot_evaluate(self):
         self.assertEqual(self.run_tool("--mark-reviewed", "x").returncode, 2)
@@ -230,21 +244,21 @@ class Repro4_RequiredReviewByTier(unittest.TestCase):
 
     def test_standard_FAILS_when_review_cannot_be_evaluated(self):
         sev, ok, rc = self.outcome("standard", rc=2)
-        self.assertEqual((sev, ok, rc), (self.g.BLOCK, False, 1))
+        self.assertEqual((sev, ok, rc), (self.g.ERROR, False, 2))
 
-    def test_light_does_not_fail_on_the_same_condition(self):
+    def test_light_also_refuses_an_existing_unevaluable_receipt(self):
         sev, ok, rc = self.outcome("light", rc=2)
-        self.assertEqual((sev, ok, rc), (self.g.ADVISE, True, 0))
+        self.assertEqual((sev, ok, rc), (self.g.ERROR, False, 2))
 
     def test_standard_FAILS_when_the_verifier_CRASHES(self):
         """The reproduction: a malformed manifest made the probe raise, and severity
         was selected AFTER the handler ran, so the aggregate returned 0."""
         sev, ok, rc = self.outcome("standard", raises=ValueError("malformed manifest"))
-        self.assertEqual((sev, ok, rc), (self.g.BLOCK, False, 1))
+        self.assertEqual((sev, ok, rc), (self.g.ERROR, False, 2))
 
-    def test_light_still_tolerates_a_verifier_crash(self):
+    def test_light_also_refuses_a_verifier_crash(self):
         sev, ok, rc = self.outcome("light", raises=ValueError("malformed manifest"))
-        self.assertEqual((sev, ok, rc), (self.g.ADVISE, True, 0))
+        self.assertEqual((sev, ok, rc), (self.g.ERROR, False, 2))
 
     def test_standard_FAILS_on_a_merely_frozen_candidate(self):
         sev, ok, rc = self.outcome("standard", rc=0, verdict="FROZEN")

@@ -1213,8 +1213,8 @@ def check_review_manifest(tier=None):
         import argus_scope
         rc, lines = argus_scope.verify_review()
     except Exception as e:                      # tool missing/broken => UNKNOWN, never clean
-        record(sev, "ARGUS review manifest (content, not paths)", not required,
-               ("REQUIRED at this tier and the verifier FAILED — " if required else "UNKNOWN — ")
+        record(ERROR, "ARGUS review manifest (content, not paths)", False,
+               ("CANNOT-EVALUATE: required verifier failed — " if required else "CANNOT-EVALUATE: verifier failed — ")
                + f"{type(e).__name__}: {str(e)[:90]}", "PROME/tools/argus_scope.py")
         return
     detail = " · ".join(lines)[:300]
@@ -1226,7 +1226,10 @@ def check_review_manifest(tier=None):
     if rc == 2:
         # Standard/Heavy REQUIRE a review, so "cannot evaluate" is a stop, not a note.
         # Below that tier no audit runs, and UNKNOWN is the correct resting state.
-        record(sev, "ARGUS review manifest (content, not paths)", not required,
+        # A Light closeout may omit review, but an existing invalid policy/receipt
+        # or evaluation failure must not turn into permission (L835 Phase 2).
+        unevaluable = required or (ROOT / "PROME/state/argus_review.json").exists()
+        record(ERROR if unevaluable else sev, "ARGUS review manifest (content, not paths)", not unevaluable,
                ("REQUIRED at this tier and missing/unevaluable — " if required else "UNKNOWN" + untiered + " — ") + detail,
                "run `argus_scope.py --record-review`, spawn argus, then `--mark-reviewed`")
         return
