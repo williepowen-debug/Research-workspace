@@ -2,6 +2,8 @@
 
 ## Current continuation — harness reconciliation, November 4
 
+Latest: PROME application c18739007 independently ACCEPTED in `runs/2026-11-04_L817_RESULT_REVIEW.md`: nine hashes exact; test adaptation accepted; 44 tests PASS and two mutation controls FAIL as required. Bounded PROME review COMPLETE. Original 27 IDs now 23 applied / 1 superseded / 1 no-op / 2 excluded. Remaining audit: root rotation, C17, A09, TERRY November 6 and historical skipped-item reconciliation. Earlier plan/application-pending paragraphs below are history. LIQUID remains separately pending.
+
 Plan publication: 38c674a8c fresh-fetch confirmed; legacy verify 20261104T213100Z rc 0, five paths match origin. Pointer notification accepted by PROME thread; consumption/application not yet claimed. Closeout 20261104T213031Z rc 0 with maintenance DUE.
 
 Update: PROME submitted exact retained cleanup. Plan ACCEPTED in `runs/2026-11-04_L817_PLAN_REVIEW.md` (nine target hashes, two Gate C counterexamples). Scope is entire proposed change set plus supporting context, not blind rediscovery/unchanged-file re-audit. PROME applies and returns evidence; DAEDALUS result verification next. Root rotation still owes below-70% stopping target. LIQUID repair-review request remains pending separately; do not claim it was reviewed.
