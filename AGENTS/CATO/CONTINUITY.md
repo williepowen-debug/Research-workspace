@@ -1,14 +1,16 @@
 # CATO — current continuity
 
-**Updated November 4, 2026, WAL reply follow-up. Review and owner prompts delivered; await Will/owner replies.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry when a task resumes; saved approvals do not trigger unrelated work.
+**Updated November 4, 2026, WAL and ISHM reply follow-up. Review and owner prompts delivered; await Will/owner replies.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry when a task resumes; saved approvals do not trigger unrelated work.
 
 ## Resume point
 
 No CATO implementation or review is currently owed. Will is directing the other agents with CATO's paste-ready prompts and says they are still working. [Owner replies and exact reboot handoff](runs/2026-11-04_1531_agent-work-review.md#november-4--owner-replies-and-reboot-handoff) supersede the original review's pending NEXUS state. Do not relaunch owners or restart the four-day review.
 
-- **NEXUS:** relayed receipts report catch-up and named docket reconciliation published: L554 advanced to November 10, L751 resolved, M-07 closed. M-01/M-05 await final November 5 observations; ISHM/LIQUID deliveries and separate PROME gate/endpoint mirrors remain open. Weights 26/41/33 are uncalibrated historical judgments; both fires are one credit-price mechanism. CATO has not independently regraded the new package.
+- **NEXUS:** relayed receipts report catch-up and named docket reconciliation published: L554 advanced to November 10, L751 resolved, M-07 closed. M-01/M-05 await final November 5 observations; LIQUID delivery, NEXUS consumption of ISHM’s new delivery and separate PROME gate/endpoint mirrors remain unconfirmed. Weights 26/41/33 are uncalibrated historical judgments; both fires are one credit-price mechanism. CATO has not independently regraded the new package.
 - **WALTER/WAL:** recovery attempt stays closed NOT RECOVERED. WAL brief-label correction verified against the completed grade; R3 closed and WAL publication confirmed through `f96323f34`. Extraction remains UNCHECKED. Next is PROME’s existing desktop credential/access condition, then WAL extraction from a complete verified source. The older token was not expired during the failed controls; cause remains unresolved. [Bounded follow-up](runs/2026-11-04_1531_agent-work-review.md#november-4--wal-delivery-follow-up-after-reboot). No repeated recovery search.
-- **LIQUID/ISHM:** LIQUID's relayed result was startup only. CATO supplied a substantive continuation prompt, including exact-boundary grader investigation under existing repair authority; final November 5 grades must await publication. No substantive LIQUID or ISHM completion received. Do not confuse new startup/repair activity with delivery.
+- **LIQUID:** LIQUID's relayed result was startup only. CATO supplied a substantive continuation prompt, including exact-boundary grader investigation under existing repair authority; final November 5 grades must await publication. No substantive LIQUID completion received. Do not confuse new startup/repair activity with delivery.
+
+- **ISHM:** L899 substantive delivery received on owner-reported evidence; no longer awaiting its initial completion. Selective expansion unchanged; strict ISM <47 trigger did not fire. S&P rollover NOT-MET; broader-demand branch CANNOT-FIRE pending exact final components/composition. Narrow source recovery and recipient consumption remain open; no repeat grade or CATO regrading. [Receipt](runs/2026-11-04_1531_agent-work-review.md#november-4--ishm-delivery-receipt).
 
 Next: orient, await Will's direction or owner replies, and assess changed evidence only if requested. L835 remains last-inspected candidate-only, not accepted/installed; accepted maintenance, launcher repair and WQ-583 stay closed. No new owner edits, tool sends or launches authorized for CATO.
 

@@ -2,7 +2,7 @@
 
 ## Current assessment
 
-**Session-end disposition, November 4:** the review and direct-use owner prompts are delivered. Will relayed NEXUS's catch-up and named docket-reconciliation receipts: R1's NEXUS L554/L751 portion is closed on owner-reported evidence, not a fresh CATO grade. ISHM/LIQUID deliveries, final November 5 observations and separate registrar mirrors remain open. WALTER reports the R2 recovery attempt NOT RECOVERED and closed; WAL's retrieval/extraction remains open. Details and the exact restart boundary are in the final section below. No new CATO work is automatically triggered by reboot.
+**Session-end disposition, November 4:** the review and direct-use owner prompts are delivered. Will relayed NEXUS's catch-up and named docket-reconciliation receipts: R1's NEXUS L554/L751 portion is closed on owner-reported evidence, not a fresh CATO grade. ISHM delivery subsequently received with a named source exception (see final follow-up); LIQUID delivery, final November 5 observations and separate registrar mirrors remain open. WALTER reports the R2 recovery attempt NOT RECOVERED and closed; WAL's retrieval/extraction remains open. Details and the exact restart boundary are in the final section below. No new CATO work is automatically triggered by reboot.
 
 Will requested a review of roughly four days of agent work and practical feedback. The sample contains useful research, especially explicit counterevidence to the bank bear, correction of misleading ETF-flow interpretations, and reproducible source comparisons. The next useful step is to finish existing analytical delivery and integration: ISHM's November 2 grades, LIQUID's credit follow-through, and NEXUS's overdue wake and November 5 tests. Do not start another broad maintenance or evaluation program. Review delivered; no CATO implementation, owner send or launch assigned.
 
@@ -93,3 +93,13 @@ PROME's processed November 1 renewal notice and WQ-31 record successful laptop r
 Next boundary: verified working access or a complete provenance-backed source, then WAL extraction and delivery. No new program, changed weights, repeated 10-Q grade or duplicate WALTER recovery. Other handoff items remain unchanged.
 
 Follow-up delivery checks: verified all ten distinct inputs readable; weekday passed on PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO CONTINUITY and this report. Read-cap passed on the six explicit startup paths (root CLAUDE rotation advisory only). Scoped whitespace clean; orphan advisory has foreign entries and no likely-CATO packet. Only this report and CONTINUITY authored; foreign work preserved. Consumer/ledger/memory conditions do not apply. No source retrieval or financial regrading repeated.
+
+## November 4 — ISHM delivery receipt
+
+Will relayed substantive L899 completion and publication receipt `b2d267558`. This supersedes the reboot handoff’s “no substantive completion reply” disposition. R1’s ISHM initial delivery is closed on owner-reported evidence, with a specific source exception; it is not a fresh CATO verification of external releases, frozen tests or preservation checks. No new audit, owner send or launch.
+
+Owner reports selective expansion unchanged: October ISM 55.5, strict <47 trigger not fired; production stronger with inventory accumulation contributing roughly half the headline increase. S&P final 54.9 versus flash 56.0; rollover NOT-MET on growing-orders commentary, broader-real-demand branch CANNOT-FIRE because exact final orders/output comparisons and demand composition remain unavailable. No flash-component substitution, cycle-state flip or score change. Six print rows, current state, NEXUS brief and delivery packets reported completed, frozen frame preserved.
+
+Remaining: ISHM’s already-recorded narrow original-source recovery for the broader-demand test; recipient consumption/integration, including NEXUS, unverified. Do not send ISHM back through startup or repeat completed grading. LIQUID’s substantive result and other existing handoff conditions remain pending. No new Will decision indicated.
+
+Receipt persistence checks: all ten distinct inputs readable; weekday passed on PROME/DOCKET.tsv, PROME/GATES.tsv, PROME/WILL_QUEUE.md, CATO CONTINUITY and this report; read-cap passed on the six explicit startup paths. Whitespace clean; orphan advisory has no likely-CATO packet. Only these two CATO records authored; foreign staged inbox moves preserved. Consumer/ledger/memory conditions do not apply. External claims remain owner-reported; no analytical checks repeated.
