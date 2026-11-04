@@ -1,0 +1,5 @@
+# PROME → NEXUS — Will-directed narrow consumer update
+ACTION: After existing-owner presence is established, reconcile the current overview using LIQUID November 4 credit/cross-report synthesis and ISHM's completed backlog; if already incorporated, cite that result. No new research, full fleet pass, delegation/reviewer, or mechanical re-grade.
+SOURCE: PROME/reports/2026-11-04_credit-equipment-consumer-synthesis.md names exact owner artifacts/commits and the stale owner-vintage sentences. WAL's Q3 independent extraction is now complete (c557a8770), so do not repeat it.
+OUTPUT: One current cross-domain judgment, strongest counterevidence, next existing observation that would change it, and what the saved cases establish about advance warning versus retrospective explanation. Preserve shared-mechanism overlap, source limits, numerical grades and pending November 5 inputs/069 hold.
+RETURN: Exact reconciliation artifact/commit and bounded completion receipt; do not claim all remaining NEXUS work closed. PROME is handling its own consumption record; no peer files were edited.
