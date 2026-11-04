@@ -1,0 +1,117 @@
+{
+  "unit": "USD millions nominal SA, Census basis",
+  "vintage": "mixed dated issuer releases, not November 4 current-history reconstruction",
+  "observations": [
+    {
+      "month": "2026-04",
+      "computers": 34171,
+      "accessories": 18160,
+      "total": 52331,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/trade_may2026.xlsx",
+      "sheet": "8",
+      "cells": {
+        "Computer accessories": [
+          18160,
+          "C82"
+        ],
+        "Computers": [
+          34171,
+          "C113"
+        ]
+      }
+    },
+    {
+      "month": "2026-05",
+      "computers": 30739,
+      "accessories": 19410,
+      "total": 50149,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/trade_jun2026.xlsx",
+      "sheet": "8",
+      "cells": {
+        "Computers": [
+          30739,
+          "C82"
+        ],
+        "Computer accessories": [
+          19410,
+          "C112"
+        ]
+      }
+    },
+    {
+      "month": "2026-06",
+      "computers": 27707,
+      "accessories": 20146,
+      "total": 47853,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/trade_jun2026.xlsx",
+      "sheet": "8",
+      "cells": {
+        "Computers": [
+          27707,
+          "B82"
+        ],
+        "Computer accessories": [
+          20146,
+          "B112"
+        ]
+      }
+    },
+    {
+      "month": "2026-07",
+      "computers": 34600,
+      "accessories": 26792,
+      "total": 61392,
+      "source": "AGENTS/ISHM/research/2026-10-26_first-session/sources/trade_tables.xlsx",
+      "sheet": "8",
+      "cells": {
+        "Computers": [
+          34600,
+          "C112"
+        ],
+        "Computer accessories": [
+          26792,
+          "C113"
+        ]
+      }
+    },
+    {
+      "month": "2026-08",
+      "computers": 34166,
+      "accessories": 25197,
+      "total": 59363,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/trade_sep2026.xlsx",
+      "sheet": "8",
+      "cells": {
+        "Computers": [
+          34166,
+          "C82"
+        ],
+        "Computer accessories": [
+          25197,
+          "C83"
+        ]
+      }
+    },
+    {
+      "month": "2026-09",
+      "computers": 41721,
+      "accessories": 30911,
+      "total": 72632,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/trade_sep2026.xlsx",
+      "sheet": "8",
+      "cells": {
+        "Computers": [
+          41721,
+          "B82"
+        ],
+        "Computer accessories": [
+          30911,
+          "B83"
+        ]
+      }
+    }
+  ],
+  "Q2": 150333,
+  "Q3": 193387,
+  "qoq_percent": 28.639087891547433
+}

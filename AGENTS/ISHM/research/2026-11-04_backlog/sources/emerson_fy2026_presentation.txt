@@ -1,0 +1,2003 @@
+2026 Q4 and Full Year Earnings
+
+November 4, 2026
+
+E M E R S O N   |   1
+
+Safe Harbor Statement
+Statements in this presentation and our commentary and responses to questions that are not strictly historical may be “forward-looking” 
+statements, which represent management’s expectations, based on currently available information. Actual results, performance or 
+achievements could differ materially from those expressed in any forward-looking statement. Any forward-looking statements in this 
+presentation speak only as of the date of this presentation. Emerson undertakes no obligation to update any such statements to reflect new 
+information or later developments. Examples of risks and uncertainties that may cause our actual results or performance to be materially 
+different from those expressed or implied by forward-looking statements include the scope, duration and ultimate impacts of the Russia-
+Ukraine, Middle East and other global conflicts, as well as economic and currency conditions, market demand, pricing, protection of 
+intellectual property, cybersecurity, tariffs, competitive and technological factors, inflation, among others, as set forth in the Company's most 
+recent Annual Report on Form 10-K and subsequent reports filed with the SEC. The outlook contained herein represents the Company's 
+expectation for its consolidated results, other than as noted herein.
+
+Non-GAAP Measures
+In this presentation we will discuss certain non-GAAP measures in talking about our company’s performance, and the reconciliation of those 
+measures to the most comparable GAAP measures is contained within this presentation or available at our website, https://ir.emerson.com/. 
+While we believe these non-GAAP financial measures are useful in evaluating our company’s performance, this information should be 
+considered as supplemental in nature and not as a substitute for or superior to the related financial information prepared in accordance with 
+GAAP. Further, these non-GAAP financial measures may differ from similarly titled measures presented by other companies. The reasons 
+management believes that these non-GAAP financial measures provide useful information are set forth in the Company’s most recent Form 
+10-K filed with the Securities and Exchange Commission and in the press release furnished on Form 8-K on the date of this presentation.
+
+Continuing Operations
+All financial metrics in this presentation are on a continuing operations basis, unless otherwise noted. 
+
+E M E R S O N   |   2
+E M E R S O N   |   2
+
+Key 
+Messages
+
+End-Market Demand
+
+Q4 Performance Exceeded Expectations
+
+Q4 underlying orders growth of 14%
+
+Underlying sales growth of 7%
+
+Strength in all business groups, led by 
+Software & Systems +18% and Intelligent 
+Devices +13%
+
+Growth in all regions, led by North America 
++15% and Middle East +42%
+
+Adjusted segment EBITA margin of 29.1%
+
+Adjusted EPS of $1.86, up 15% yoy
+
+2026 Performance
+
+Full Year 2027 Guidance
+
+Underlying sales growth of 4%
+
+Sales growth of ~5%; ~5% underlying
+
+Adjusted EPS of $6.59, up 10% yoy
+
+Adjusted segment EBITA margin of ~29%
+
+Free cash flow of $3.5B, up 9% yoy
+
+Adjusted EPS of ~$7.25
+
+ACV1 of $1.7B, up 10.1% yoy
+
+Plan to return ~$3.8B to shareholders through 
+~$2.5B share repurchase and $0.16 dividend per 
+share increase, +7% yoy
+
+1 Annual contract value. See end notes for definition.
+
+E M E R S O N   |   3   
+
+Delivering 
+on Value 
+Creation 
+Framework
+
+November 
+Guidance
+
+August 
+Guidance
+
+2026
+Results
+
+Underlying Sales Growth
+
+~4%
+
+~3.5%
+
+4%
+
+Adjusted Segment EBITA Margin
+
+~28%
+
+~28%
+
+28.2%
+
+Adjusted EPS
+YoY Growth
+
+$6.35 – $6.55
+
+~$6.55
+
+Free Cash Flow
+Margin
+
+$3.5B – $3.6B
+>18%
+
+~$3.6B
+~19%
+
+$6.59
+10%
+
+$3.5B
+18.6%
+
+E M E R S O N   |   4   
+
+Demand Led by Growth Verticals
+
+Trailing Three-Month Underlying Orders1
+
+Q4 DRIVERS
+
+Growth in all business groups
+
+16%
+
+14%
+
+12%
+
+10%
+
+8%
+
+6%
+
+4%
+
+2%
+
+(0%)
+
+(2%)
+
+2
+2
+-
+p
+e
+S
+
+2
+2
+-
+c
+e
+D
+
+3
+2
+-
+r
+a
+M
+
+3
+2
+-
+n
+u
+J
+
+3
+2
+-
+p
+e
+S
+
+3
+2
+-
+c
+e
+D
+
+4
+2
+-
+r
+a
+M
+
+4
+2
+-
+n
+u
+J
+
+4
+2
+-
+p
+e
+S
+
+4
+2
+-
+c
+e
+D
+
+5
+2
+-
+r
+a
+M
+
+5
+2
+-
+n
+u
+J
+
+5
+2
+-
+p
+e
+S
+
+5
+2
+-
+c
+e
+D
+
+6
+2
+-
+r
+a
+M
+
+6
+2
+-
+n
+u
+J
+
+6
+2
+-
+p
+e
+S
+
+Note: Lines represent smoothed trailing three-month on quarter end points.
+1 Excludes AspenTech. Orders data includes Test & Measurement results on a pro forma basis for fiscal year 2023.
+
+Power, LNG and Aerospace & Defense led long-cycle 
+
+project activity
+
+14%
+
+Strength in North America, SE Asia and the Middle 
+
+East; China remains weak
+
+Q4 ENDING PROJECT FUNNEL
+
+$13.0B
++$0.6B QoQ
+
+~$8B Growth Verticals
++$0.5B QoQ
+
+~$575M Q4 project wins
+
+~75% from growth verticals
+
+E M E R S O N   |   5   
+E M E R S O N   |   5   
+
+2027 Growth Outlook
+
+Americas
+~50% of sales
+
+Europe
+~20% of sales
+
+Asia, Middle East & Africa
+~30% of sales
+
+2026
+
+7%
+
+2027E
+
+MSD
+
+2026
+
+(1%)
+
+2027E
+
+LSD
+
+2026
+
+3%
+
+2027E
+
+MSD
+
+% of Sales1
+
+Assumptions
+
+20262
+
+2027E
+
+Growth Verticals
+Power, LNG, Life Sciences, 
+Semiconductor, Aerospace & Defense
+
+27%
+
+Robust performance driven by secular trends of electrification, 
+energy security and nearshoring, especially in the U.S.
+
+Broad-based strength across greenfield, modernizations and 
+MRO
+
++21%
+
+LDD
+
+Other Automation 
+Markets
+
+Prolonged weakness in Europe and China
+
+Improving MRO activity from pent-up demand in Energy
+
+73%
+
+Resiliency projects beginning to materialize in MEA
+
+Flat
+
+LSD
+
+Favorable trends in U.S. industrial activity and electrical 
+equipment
+
+1 Based on 2026 sales. 2 GAAP sales growth in 2026.
+
+E M E R S O N   |   6   
+
+2026 Q4 Performance Summary
+
+Sales
+
+$4.9B
+
+$5.2B
+
+7%
+Underlying
+
+Underlying Sales Growth:
+
+Software & Systems
+
+14%
+
+Intelligent Devices
+
+Safety & Productivity
+
+4%
+
+2%
+
+Volume contributed 4 pts
+
+Price contributed 3 pts
+
+2025
+
+2026
+
+Backlog1: $8.2B; up 11% yoy
+
+Adjusted EPS
+
+$1.62
+
+$1.86
+
+15%
+
+Operational performance 
+contributed $0.25 yoy 
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+2
+
+1.8
+
+1.6
+
+1.4
+
+1.2
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+30.0%
+
+25.0%
+
+20.0%
+
+15.0%
+
+10.0%
+
+5.0%
+
+0.0%
+
+1000
+
+900
+
+800
+
+700
+
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+0
+
+Adjusted Segment EBITA
+
+27.5%
+
+29.1%
+
+160
+bps
+
+Exceeded expectations due to 
+better volume and segment mix
+
+Price-cost and cost reductions 
+outpaced inflation
+
+2025
+
+2026
+
+Free Cash Flow
+
+$843M
+
+$916M
+
+9%
+
+2026 FCF: $3.5B, +9% yoy, 
+18.6% margin
+
+2025
+
+2026
+
+1 Excludes AspenTech
+
+2025
+
+Margin
+
+17.4%
+
+2026
+
+Margin
+
+17.6%
+
+E M E R S O N   |   7   
+
+2026 Q4 Underlying Sales by Region
+
+$5.2B Net Sales
+
+-2.000
+
+Americas
+
+Americas
+
++9%
+U.S. +11%
+
+End
+Market
+
+Asia, Middle 
+East & Africa
+
+Asia, MEA
+
++7%
+Middle East & Africa +19%
+
+20%
+Greenfield
+
+Europe
+
+Europe
+
++1%
+
+17%
+Modernization 
+& Expansion
+
+Mix
+
+28%
+Growth 
+Verticals
+
+63%
+MRO
+
+E M E R S O N   |   8   
+E M E R S O N   |   8   
+
+2026 Q4 Group Results
+
+Sales ($M)
+
+Underlying 
+Growth
+
+Aug. Guide 
+Underlying 
+Growth
+
+Adjusted 
+EBITA 
+Margin
+
+Commentary
+
+Software & 
+Systems
+
+$1,712
+
+14%
+
+~10%
+
+32.3%
+
+Test & Measurement +15%
+
+Control Systems & Software +14%
+
+Power, LNG and Semiconductor verticals drove growth
+
+ACV +10.1% yoy
+
+Intelligent 
+Devices
+
+$2,916
+
+4%
+
+~3%
+
+28.4%
+
+Growth in North America and Middle East, partially offset by weakness in 
+Europe and China
+
+Growth led by Power, LNG and Gas (Upstream & Midstream)
+
+Safety & 
+Productivity
+
+$573
+
+2%
+
+~1%
+
+22.9%
+
+Strength in electrical products and U.S. industrial activity
+
+Continued weakness in Europe
+
+E M E R S O N   |   9   
+
+2027 Group Underlying Sales Guidance
+
+Q1
+
+Full Year
+
+Assumptions
+
+Software & 
+Systems
+
+8% – 9% 7% – 8%
+
+HSD growth in both Test & Measurement and Control Systems & Software (Q1 & full year)
+
+ACV expected to grow ~10% for the full year
+
+Broad-based strength in the United States and growth verticals
+
+Intelligent 
+Devices
+
+3% – 4%
+
+~4%
+
+Stable MRO
+
+Status quo in the Middle East
+
+Strength in U.S. and growth verticals
+
+Safety & 
+Productivity
+
+3% – 4% 3% – 4%
+
+Favorable North America industrial activity and electric utility strength
+
+Europe remains weak
+
+Emerson
+
+~5%
+
+~5%
+
+Growth driven by the United States, India and Middle East & Africa
+
+Sustained momentum in Power, LNG, Life Sciences, Semiconductor and Aerospace & Defense
+
+E M E R S O N   |   10   
+
+2027 Guidance
+
+GAAP Sales Growth
+
+Underlying Sales Growth
+
+Full Year
+
+Adjusted Segment EBITA
+
+Adjusted EPS
+
+GAAP Sales Growth
+
+Underlying Sales Growth
+
+Q1
+
+Adjusted Segment EBITA
+
+~5%
+
+~5%
+
+~29%
+
+~$7.25
+
+~5%
+
+~5%
+
+~28%
+
+Adjusted EPS
+
+$1.58 – $1.62
+
+OTHER GUIDANCE DETAILS
+
+Free Cash Flow: $3.8B – $3.9B
+
+~$3.8B returned to shareholders 
+through ~$2.5B share repurchase and 
+~$1.3B of dividends – $0.16 dividend 
+per share increase, +7% yoy
+
+Tax rate: ~21%
+
+Assumes impact of Middle East conflict 
+is contained within the region
+
+E M E R S O N   |   11   
+E M E R S O N   |   11   
+
+Well on Track For 2028 Targets
+
+1 Organic Growth
+
+Aligning with secular tailwinds and 
+delivering on industry-leading innovation
+
+Net Sales
+
+Framework1
+
+4 – 7%
+Organic Growth
+
+Adj. Segment 
+EBITA Margin
+
+40%
+Operating Leverage
+
+Adj. EPS
+
+10%
+Growth
+
+FCF2 Margin
+
+18 – 20%
+
+Cash to 
+Shareholders
+
+1 Value Creation Framework Through-the-Cycle
+
+2 Free Cash Flow
+
+2 Operational Excellence
+
+increasing cash generation (2025 – 2028T) 3 Capital Allocation
+
+Driving 2.4 pts margin expansion and 
+
+Increasing cash returns to shareholders 
+through $6B share repo and $4B dividends
+
+2026
+
+2027E
+
+2028 Targets
+
+$19B
+4% Underlying
+
+~$20B
+~5% Underlying
+
+$21B
+~5% ’26-’28 CAGR
+
+28.2%
+
+$6.59
++10%
+
+18.6%
+
+$2.2B
+
+~29%
+
+~$7.25
++10%
+
+>19.0%
+
+~$3.8B
+
+30%
+
+$8.00
+
+20%
+
+$10B
+2026 – 2028T
+
+E M E R S O N   |   12   
+
+ 
+Appendix
+
+E M E R S O N   |   13   
+E M E R S O N   |   13   
+
+Corporate and Other Items
+
+(in millions)
+
+2026 Q4 Results
+
+2026 Results
+
+2027 Q1 
+Expectations
+
+2027 Expectations
+
+Stock Compensation – GAAP
+
+Integration-Related Stock Compensation Expense
+
+Adjusted Stock Compensation – Non-GAAP
+
+Pension Income / (Expense)1
+
+Mark-to-Market Adjustment
+
+Adjusted Pension Income / (Expense)
+
+Corporate & Other – GAAP
+
+Restructuring and Related Costs
+
+Acquisition/Divestiture Fees and Related Costs
+
+IEEPA Tariff Refunds, Net of Charitable Trust 
+Contribution
+
+Adjusted Corporate & Other – Non-GAAP
+
+Interest Expense, Net
+
+Average Diluted Share Count
+
+($57)
+
+$4
+
+($53)
+
+$33
+
+($2)
+
+$31
+
+($110)
+
+$10
+
+$28
+
+($9)
+
+($81)
+
+($76)
+
+559.7
+
+($237)
+
+$15
+
+($222)
+
+$127
+
+($2)
+
+$125
+
+($211)
+
+$23
+
+$70
+
+($91)
+
+($209)
+
+($334)
+
+562.0
+
+~($60)
+
+-
+
+~($60)
+
+~$30
+
+-
+
+~$30
+
+~($40)
+
+-
+
+-
+
+-
+
+~($40)
+
+~($90)
+
+~552
+
+~($240)
+
+-
+
+~($240)
+
+~$125
+
+-
+
+~$125
+
+~($195)
+
+-
+
+-
+
+-
+
+~($195)
+
+~($360)
+
+~551
+
+1 Includes unallocated pension and postretirement costs and pension and OPEB mark-to-market adjustments
+
+E M E R S O N   |   14   
+
+Q4 Adjusted 
+Segment EBITA
+and EPS Bridges
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+
+$0.25
+
+($0.01)
+
+FX ($0.01)
+
+$1.86
+
+$1.62
+
+Software & Systems $0.19
+
+Intelligent Devices $0.05
+
+Safety & Productivity $0.01
+
+15%
+
+2025
+
+Operations
+
+Other /
+Non-Operating
+
+2026
+
+Adjusted Segment EBITA Margin
+
+27.5%
+
+1.6 pts
+
+n/a
+
+29.1%
+
+E M E R S O N   |   15   
+
+2026 Full Year Performance Summary
+
+Sales
+
+Adjusted Segment EBITA
+
+$18.0B
+
+$19.0B
+
+4%
+Underlying
+
+Underlying Sales Growth:
+
+Software & Systems
+
+Intelligent Devices
+
+Safety & Productivity
+
+7%
+
+3%
+
+2%
+
+Price contributed 3 pts
+
+Backlog1: $8.2B; up 11% yoy
+
+2025
+
+2026
+
+Adjusted EPS
+
+$6.01
+
+$6.59
+
+10%
+
+Operations contributed $0.47 yoy
+
+Software & Systems
+
+$0.26
+
+Intelligent Devices
+
+$0.19
+
+Safety & Productivity
+
+$0.02
+
+Below-the-line items added $0.11 
+yoy with $0.09 from FX and $0.04 
+from tax offsetting ($0.02) other
+
+20
+
+18
+
+16
+
+14
+
+12
+
+10
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+30.0%
+
+25.0%
+
+20.0%
+
+15.0%
+
+10.0%
+
+5.0%
+
+0.0%
+
+4
+
+3.5
+
+3
+
+2.5
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+
+2025
+
+2026
+
+1 Excludes AspenTech
+
+27.6%
+
+28.2%
+
+60
+bps
+
+Exceeded expectations due to 
+better volume and mix
+
+Price-cost and cost reductions 
+outpaced inflation
+
+2025
+
+2026
+
+Free Cash Flow
+
+$3.2B
+
+2025
+
+Margin
+
+18.0%
+
+$3.5B
+
+9%
+
+2026
+
+Margin
+
+18.6%
+
+Strong cash generation driven 
+by higher earnings
+
+Free cash flow margin 
+increased 0.6 pts to 18.6%
+
+E M E R S O N   |   16   
+
+2026 Adjusted 
+Segment EBITA
+and EPS Bridges
+
+9
+
+8
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+$6.01
+
+$0.47
+
+Software & Systems $0.26
+
+Intelligent Devices $0.19
+
+Safety & Productivity $0.02
+
+$0.11
+
+Tax $0.04
+
+FX $0.09
+
+Other ($0.02)
+
+$6.59
+
+10%
+
+2025
+
+Operations
+
+Other /
+Non-Operating
+
+2026
+
+Adjusted Segment EBITA Margin
+
+27.6%
+
+0.6 pts
+
+n/a
+
+28.2%
+
+E M E R S O N   |   17   
+
+Reconciliation of Non-GAAP Measures
+Underlying Sales Growth
+
+This information reconciles non-GAAP measures with the most directly comparable GAAP measure (dollars in millions, except per share amounts)
+
+Underlying Sales Growth
+Reported (GAAP)
+
+(Favorable) / Unfavorable FX
+
+(Acquisitions) / Divestitures
+
+Underlying (non-GAAP)
+
+2026 Q4 Underlying Sales Change
+
+Software & Systems
+
+Test & Measurement
+
+Control Systems & Software
+
+Intelligent Devices
+
+Safety & Productivity
+
+2026 Underlying Sales Change
+
+Software & Systems
+
+Intelligent Devices
+
+Safety & Productivity
+
+2026 Q4
+7%
+
+-
+
+-
+
+7%
+
+2026
+5%
+
+(1%)
+
+-
+
+4%
+
+2027 Q1 
+Guidance
+~5%
+
+2027 
+Guidance
+~5%
+
+-
+
+-
+
+~5%
+
+-
+
+-
+
+~5%
+
+Reported
+(GAAP)
+
+(Favorable) / 
+Unfavorable FX
+
+(Acquisitions) / 
+Divestitures
+
+Underlying
+(Non-GAAP)
+
+14%
+
+14%
+
+14%
+
+5%
+
+2%
+
+-
+
+1%
+
+-
+
+(1%)
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+14%
+
+15%
+
+14%
+
+4%
+
+2%
+
+Reported
+(GAAP)
+
+(Favorable) / 
+Unfavorable FX
+
+(Acquisitions) / 
+Divestitures
+
+Underlying
+(Non-GAAP)
+
+8%
+
+4%
+
+3%
+
+(1%)
+
+(1%)
+
+(1%)
+
+-
+
+-
+
+-
+
+7%
+
+3%
+
+2%
+
+References to underlying orders and underlying sales in this presentation exclude the impact of significant acquisitions, divestitures and currency translation.
+
+E M E R S O N   |   18   
+
+Reconciliation of Non-GAAP Measures
+Underlying Sales Growth
+
+This information reconciles non-GAAP measures with the most directly comparable GAAP measure (dollars in millions, except per share amounts)
+
+2027E Q1 Underlying Sales Change
+
+Reported
+(GAAP)
+
+(Favorable) / 
+Unfavorable FX
+
+(Acquisitions) / 
+Divestitures
+
+Underlying
+(Non-GAAP)
+
+Software & Systems
+
+Intelligent Devices
+
+Safety & Productivity
+
+2027E Underlying Sales Change
+
+Software & Systems
+
+Test & Measurement
+
+Control Systems & Software
+
+Intelligent Devices
+
+Safety & Productivity
+
+8% - 9%
+
+3% - 4%
+
+3% - 4%
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Reported
+(GAAP)
+
+(Favorable) / 
+Unfavorable FX
+
+(Acquisitions) / 
+Divestitures
+
+7% - 8%
+
+HSD
+
+HSD
+
+~4%
+
+3% - 4%
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+8% - 9%
+
+3% - 4%
+
+3% - 4%
+
+Underlying
+(Non-GAAP)
+
+7% - 8%
+
+HSD
+
+HSD
+
+~4%
+
+3% - 4%
+
+References to underlying orders and underlying sales in this presentation exclude the impact of significant acquisitions, divestitures and currency translation.
+
+E M E R S O N   |   19   
+
+Reconciliation of Non-GAAP Measures
+Adjusted Segment EBITA
+
+This information reconciles non-GAAP measures with the most directly comparable GAAP measure (dollars in millions, except per share amounts)
+
+Adjusted Segment EBITA
+Net sales
+
+Pretax earnings (GAAP)
+
+Pretax earnings margin (GAAP)
+
+Corporate items and interest expense, net
+
+Amortization of intangibles
+
+Restructuring and related costs
+
+Corporate items and interest expense, net / amortization of intangibles / restructuring and related costs
+
+Adjusted segment EBITA (non-GAAP)
+
+Adjusted segment EBITA margin (non-GAAP)
+
+2025 Q4
+$4,855
+
+2026 Q4
+$5,201
+
+$760
+
+15.6%
+255
+
+257
+
+61
+
+$1,333
+27.5%
+
+$997
+
+19.2%
+210
+
+251
+
+53
+
+$1,511
+29.1%
+
+2025
+$18,016
+
+$2,905
+
+16.1%
+875
+
+1,083
+
+112
+
+2026
+$18,982
+
+$3,489
+
+18.4%
+655
+
+1,013
+
+203
+
+$4,975
+27.6%
+
+$5,360
+28.2%
+
+2027 Q1 
+Guidance
+
+2027 
+Guidance
+
+~19%
+
+~20%
+
+~9%
+
+~9%
+
+~28%
+
+~29%
+
+2026 Q4 Adjusted Segment EBITA Margin
+
+Software & Systems
+
+Intelligent Devices
+
+Safety & Productivity
+
+EBIT margin (GAAP)
+
+Amortization of intangibles & restructuring and related costs
+
+Adjusted segment EBITA margin (non-GAAP)
+
+18.8%
+
+13.5%
+
+32.3%
+
+26.2%
+
+2.2%
+
+28.4%
+
+20.7%
+
+2.2%
+
+22.9%
+
+E M E R S O N   |   20   
+
+Reconciliation of Non-GAAP Measures
+Adjusted EPS
+
+This information reconciles non-GAAP measures with the most directly comparable GAAP measure (dollars in millions, except per share amounts)
+
+Earnings per share (GAAP)
+
+Amortization of intangibles
+
+Restructuring and related costs
+
+Acquisition/divestiture fees and related costs
+
+Discrete taxes
+
+Pension and OPEB mark-to-market adjustment
+
+IEEPA tariff refunds net of charitable trust contribution
+
+Adjusted earnings per share (non-GAAP)
+
+2025 Q4
+
+$1.07
+
+0.35
+
+0.11
+
+0.06
+
+(0.02)
+
+0.05
+
+-
+
+$1.62
+
+2026 Q4
+
+$1.33
+
+0.34
+
+0.14
+
+0.05
+
+0.02
+
+(0.01)
+
+(0.01)
+
+$1.86
+
+2025
+
+$3.99
+
+1.35
+
+0.23
+
+0.33
+
+0.06
+
+0.05
+
+-
+
+$6.01
+
+2026
+
+$4.79
+
+1.38
+
+0.36
+
+0.14
+
+0.05
+
+(0.01)
+
+(0.12)
+
+$6.59
+
+2027 Q1
+Guidance
+
+$1.19 - $1.23 
+
+~0.35
+
+~0.04
+
+2027 
+Guidance
+
+~$5.70
+
+~1.41
+
+~0.14
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+$1.58 - $1.62
+
+~$7.25
+
+E M E R S O N   |   21   
+
+Reconciliation of Non-GAAP Measures
+Free Cash Flow
+
+This information reconciles non-GAAP measures with the most directly comparable GAAP measure (dollars in millions, except per share amounts)
+
+Net Sales
+
+Operating cash flow (GAAP)
+
+Capital expenditures
+
+Free cash flow (non-GAAP)
+
+Free cash flow margin (non-GAAP)
+
+2025 Q4
+$4,855
+
+2026 Q4
+$5,201
+
+$1,011
+
+(168)
+
+$843
+
+17.4%
+
+$1,075
+
+(159)
+
+$916
+
+17.6%
+
+2025
+$18,016
+
+$3,676
+
+(431)
+
+$3,245
+
+18.0%
+
+$ in billions
+
+2027 
+Guidance
+~$19.9
+
+$4.3 - $4.4
+
+~(0.5)
+
+$3.8 - $3.9
+
+>19.0%
+
+2026
+$18,982
+
+$3,978
+
+(443)
+
+$3,535
+18.6%
+
+E M E R S O N   |   22   
+
+Reconciliation of Non-GAAP Measures
+Other
+
+This information reconciles non-GAAP measures with the most directly comparable GAAP measure (dollars in billions, except per share amounts)
+
+Backlog (GAAP)
+
+AspenTech
+
+Backlog excluding AspenTech (non-GAAP)
+
+$8.6
+
+(1.2)
+
+$7.4
+
+$9.6
+
+(1.4)
+
+$8.2
+
+$9.6
+
+(1.4)
+
+$8.2
+
+September 30, 2025
+
+June 30, 2026
+
+September 30, 2026
+
+E M E R S O N   |   23   
+
+Endnotes
+
+Annual Contract Value (ACV):
+
+ACV is an estimate of the annual value of our portfolio of term license and software maintenance and support (SMS) contracts, the 
+
+annual value of SMS agreements purchased with perpetual licenses and the annual value of standalone SMS agreements 
+
+purchased with certain legacy AspenTech term license agreements. Because software revenue recognition rules require upfront 
+
+recognition of a significant portion of agreements, comparisons of revenue across periods is primarily impacted by the timing of 
+
+term license renewals.  ACV approximates the estimated annual billings associated with our recurring term license and SMS 
+
+agreements at a point in time, and management finds this business metric useful in evaluating the growth and performance of our 
+
+industrial software business.
+
+For agreements denominated in other currencies, a fixed historical rate is used to calculate ACV in U.S. dollars in order to eliminate 
+
+the impact of currency fluctuations.
+
+E M E R S O N   |   24   
+E M E R S O N   |   24   
+
+

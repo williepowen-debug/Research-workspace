@@ -1,0 +1,45 @@
+==========================================================================
+  ⏰ WALL CLOCK: 2026-11-04 17:22 Wednesday — never hand-write a time; copy this line
+  ISHM BOOT — staleness · predictions · catalysts · missed prints · print ledger · perimeter · matrix/map · FRED
+==========================================================================
+
+--- 1. ledger staleness (workbook + TRADE.md) ---
+perimeter [ISHM]: 5 ledger(s) scanned; 10 TSV(s) NOT scanned by this pass: PERIMETER.tsv, data/CALIBRATION.tsv, data/EQUIPMENT_QUARTERLY.tsv, data/HARD_DATA_MONTHLY.tsv (+6 more)
+trade perimeter: 1 agent(s) with a matching trade surface graded; 0 agent(s) matched NO trade surface and are NOT certified by this pass
+  ✓ quiet (alert-contract: this check prints only when stale or misconfigured)
+
+--- 2. predictions-due (OPEN rows past Resolve_By) ---
+  ✓ none due — 0 row(s), 0 OPEN scanned on Resolve_By
+
+--- 3. catalysts-due (today · ≤2d · past · forward horizon) ---
+  ⚠️ in 1d: 2026-11-05 [P2] [EARNINGS] Parker-Hannifin fiscal 2027 Q 1 (before market open, 
+  ⚠️ in 2d: 2026-11-06 [P3] Bellwether next-release calendar audit
+  ⚠️ in 2d: 2026-11-06 [P3] ATA preliminary September tonnage successor availability check
+  ⚠️ in 2d: 2026-11-06 [P2] L899 October S&P final original-source recovery check
+  ⚠️ in 2d: 2026-11-06 [P2] Computer-import current-history / direct monthly y-y source foll
+  ⚠️ 1 past-dated row(s) (oldest 2026-11-02) — consume, then re-date to the next release or retire: 2026-11-02 [P2] Survey-band calibration due (first-session carry)
+  (36 row(s) scanned; window 2d; forward horizon 30d)
+
+--- 4. missed prints (past keyed catalysts vs PRINTS.tsv) ---
+  ✓ 0 past keyed catalysts — nothing to check yet (say so, never imply a check ran)
+  ℹ️ 1 past catalyst(s) carry no [SERIES-KEY] — not print-checkable (fine for non-print rows; say so in notes)
+  (0 past keyed catalyst(s) checked against 87 print row(s))
+
+--- 5. print ledger (enums · provisional rows past their successor date) ---
+  ⚠️ row 47 AAR-BREADTH 2026-09: unparsable Release_Date
+  (87 print row(s) scanned)
+
+--- 6. frozen perimeter (the eight ruled bellwethers) ---
+  ✓ FROZEN banner present; exactly the 8 ruled tickers: CAT DE EMR GE HON MMM PH UNP
+
+--- 7. convergence matrix + transmission map ---
+  ⚠️ UNSCORED: 1 of 8 vector(s) (VX-ISH-08) — scoring is the desk's judgment and is owed; the MECHANISM composite remains available; unscored THERMOMETER rows are excluded
+  (8 vector(s), 7 MECHANISM; 8 flow row(s); Total 18/35 (raw; report the shared-root-adjusted total beside it))
+
+--- 8. FRED hard data (positive control · new print not yet read) ---
+  ✓ ledger current with FRED on all 7 series
+  (FRED newest: INDPRO 2026-09 = 103.9506 · IPMAN 2026-09 = 99.4361 · TCU 2026-09 = 76.8504 · DGORDER 2026-09 = 345672 · NEWORDER 2026-09 = 88185 · ANXAVS 2026-09 = 86125 · AMTMNO 2026-09 = 677247)
+  (7 series checked; source LIVE fred.stlouisfed.org)
+
+==========================================================================
+  ISHM boot: REVIEW — work the flagged items before new research.

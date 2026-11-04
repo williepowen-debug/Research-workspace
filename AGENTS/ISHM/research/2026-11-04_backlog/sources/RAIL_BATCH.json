@@ -1,0 +1,79 @@
+{
+  "adjustment": "NSA",
+  "vintage": "FIRST-PUBLISHED per dated weekly release, no revision flagged",
+  "scope": "AAR U.S. reporting-railroad totals; excludes U.S. operations of CPKC, CN and GMXT per report page 1; not North American aggregate",
+  "weeks": [
+    {
+      "week_ending": "2026-10-03",
+      "release_date": "2026-10-07",
+      "carloads": 230711,
+      "intermodal": 299001,
+      "total": 529712,
+      "carloads_yoy_percent": 2.4,
+      "intermodal_yoy_percent": 7.4,
+      "total_yoy_percent": 5.1,
+      "positive_commodity_groups_of_10": 7,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/2026-10-07-railtraffic.pdf"
+    },
+    {
+      "week_ending": "2026-10-10",
+      "release_date": "2026-10-14",
+      "carloads": 232004,
+      "intermodal": 302252,
+      "total": 534256,
+      "carloads_yoy_percent": 3.4,
+      "intermodal_yoy_percent": 10.4,
+      "total_yoy_percent": 7.2,
+      "positive_commodity_groups_of_10": 8,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/2026-10-14-railtraffic.pdf"
+    },
+    {
+      "week_ending": "2026-10-17",
+      "release_date": "2026-10-21",
+      "carloads": 232120,
+      "intermodal": 308015,
+      "total": 540135,
+      "carloads_yoy_percent": 3.5,
+      "intermodal_yoy_percent": 12.6,
+      "total_yoy_percent": 8.5,
+      "positive_commodity_groups_of_10": 9,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/2026-10-21-railtraffic.pdf"
+    },
+    {
+      "week_ending": "2026-10-24",
+      "release_date": "2026-10-28",
+      "carloads": 234826,
+      "intermodal": 303677,
+      "total": 538503,
+      "carloads_yoy_percent": 3.6,
+      "intermodal_yoy_percent": 11.3,
+      "total_yoy_percent": 7.8,
+      "positive_commodity_groups_of_10": 8,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/2026-10-28-railtraffic.pdf"
+    },
+    {
+      "week_ending": "2026-10-31",
+      "release_date": "2026-11-04",
+      "carloads": 233816,
+      "intermodal": 280264,
+      "total": 514080,
+      "carloads_yoy_percent": 3.0,
+      "intermodal_yoy_percent": 3.9,
+      "total_yoy_percent": 3.5,
+      "positive_commodity_groups_of_10": 7,
+      "source": "AGENTS/ISHM/research/2026-11-04_backlog/sources/2026-11-04-railtraffic.pdf"
+    }
+  ],
+  "October_ending_5_week_sums": {
+    "carloads": 1163477,
+    "intermodal": 1493209,
+    "total": 2656686
+  },
+  "last_4_week_sums": {
+    "carloads": 932766,
+    "intermodal": 1194208,
+    "total": 2126974
+  },
+  "four_week_yoy_sign": "POSITIVE, follows from each matched weekly comparator being positive; aggregate exact percent not reconstructed from rounded growth rates",
+  "calendar_note": "Weeks ending October 3,10,17,24,31, not exact October 1-31 daily/calendar-month totals"
+}
