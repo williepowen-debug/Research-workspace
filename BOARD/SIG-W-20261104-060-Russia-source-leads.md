@@ -1,0 +1,36 @@
+---
+signal_id: "SIG-W-20261104-060"
+timestamp: "2026-11-04T20:33:38Z"
+dispatched: "2026-11-04T20:33:38Z"
+source: "WALTER"
+origin: ["RESEARCH-INTAKE / November 2\u20134 catchup and primary-source verification"]
+action: ["YURI", "OSPREY", "HAWK"]
+info: ["BRENT", "FALCON"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.4
+confidence_language: "assessed"
+resources: 1
+safety_net: "clear"
+cluster: "MISC"
+domain: "RU_STATE_ACTOR"
+entities: ["YURI", "OSPREY", "HAWK"]
+word_count: 338
+dispatch_note: "Bounded catchup; written pending coordinated publication. Owner grades, delivery and consumption remain separate."
+---
+# Remaining Russia and maritime headlines require event-date matching
+
+These source titles survived relevance screening in the November2–3 catchup. **Bodies/primary records were not recovered in this pass; none of their numbers, mechanisms or event dates is certified by this card.** Article date may differ from event date. Overlap with owner coverage remains unresolved for these exact articles. This is an explicit residual, not a completed research grade.
+
+ACTION YURI OSPREY HAWK: reconcile only the relevant existing domain work at the next authorized review; discard duplicates, retain limitations, and obtain decisive source evidence before changing a figure/gate. No new study, monitor, paid access, or desk launch is commissioned. INFO BRENT FALCON: context only. Named-property distress case tags await authenticated identity/event; no source title alone supplies one. Primary route ownership remains per the canonical carve-outs.
+
+- Intake 33, Mon, 02 Nov 2026 16:12:29 GMT: Rostelecom in talks with Norilsk Nickel for underground data centers amid drone attacks - Data Center Dynamics. [Locator](https://news.google.com/rss/articles/CBMiywFBVV95cUxQZlVlay1JaEplYjJRMVBxUXpTdDlIMkJ1Q1ppNmdnb0wwYWF6N3pGZm53c092N21wWnlRM0RHTmlpLWo1ek9INjRLWHJGTzA1Y2dPZlhlUnpUYVYxSFlLby1JX1c0SFhrSk1zakRlS0Z2b2p2dENJQ0dMNXo3TWUzU2dCUHFxcEhUd3FaVG9PbHBpZ2E0Mm9wQlJROTBuQ2NQZUVoOU5vY1hGTDNPcUc3SEhPZzBEMjZjVmxNdVFHTWhvWHo3d2pHREE2TQ?oc=5)
+- Intake 167, Fri, 30 Oct 2026 16:23:47 GMT: Arkas Line shifts Russia Express service to Baltic amid Black Sea risks - TradeWinds News. [Locator](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQVZZNnpNSHFBVHZ3RGhIS0Q4dzhKNDIta0g0U2UwVnZJM2tGSXctcnZGREZPTmZQdVpGbHdPMnZMcHdTQ2VnRlJPWmhTa0FmZXRtT3MzUF9wOG1PQzV0aFlKbkNNMUtGaVpvVlE5OF9CYkdSTUVOdXdsVGlkOVB4OVd3enZyaTVzN3JXSHJDcWdCVlNGM2QxRW80eTh3d0k3QWluenlPQmg2aWlrQnd1MXpzc216ZTlveXY3VkZBX3hxT0k?oc=5)
+- Intake 168, Sun, 01 Nov 2026 22:30:17 GMT: 'Give us Patriot missiles': Zelenskyy tells Trump, offers to halt Russia refinery strikes - NST Online. [Locator](https://news.google.com/rss/articles/CBMitwFBVV95cUxONnIxakFCS09nUi1jVnVVWHIxVmtFdW9oZ3NRUUdtN2ZTdVBsWlprZThVOFFtRGlEQlpXWV8zTUFNZVZjaDB0Q0VSZ254dzd3SjlpUGxQczJEYlhualBnMHhqX0VMYzBjRk5kRElLR053VFliVmZObnBjc29oV09BbVFESnd0TjY0U3FFcnNxZjNLYUlOZnhLSXp3bkVKXzV2NTFPOW04akJTUFlzU0pISlRNdTBxbEHSAbwBQVVfeXFMTXhRa2hSTEk3TW1tSGZDQnlVMDkxamxGLU9ZQnpnYkN2SWVRNHJ0NG00T2UzOTcxb09oZDRtVlVOODBhWjhyWUtKdzIxYXlNWXRqWTdKZUhzeWdRVk1tbkJ3eVdIcElmaEhLblNRRTF2cVdRSUlDME4xVG1qRkpFczJZekhqa1RkZ2ZnSHI4VjRqX3N3VEpfd1ZWY1JDaDJfYjlCdGl2UWc4TTkxOV9fZ1FjVnFGZmFKd2V1elQ?oc=5)
+- Intake 397, Wed, 12 Aug 2026 07:00:00 GMT: Zelenskyy: Ukrainian-made drones and missiles hit Russian naval base in Novorossiysk - Українська правда. [Locator](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XT0NvSVh2QmRuanRveGMzYlpfQUV1R0FjVVY4LXRhcUR4QXZ6RkhXLU9XSmk2ZE1EOWh2ajItQzU4cllZM1otX3pxdEhVeUNNYU5UN2tvWmtLaDg2Y3JFcjhLX0HSAXBBVV95cUxOMVRPNUNLaTZqcXlUcnFxb2Jxczl2Q3AyLUtXTGphMFdfSk55RTRSeTlSUHpFbWpYeHhkRHpFeTR5OGdoTjBjLXd2el9zc2VGcHFadjM2Z1dlUEJSOUFWWE12WUd5NXFKUGRkU0lPNG84?oc=5)
+- Intake 398, Wed, 21 Oct 2026 07:00:00 GMT: Shafaq News..Source: Iraq has yet to confirm reported tanker attack near Al-Faw - شفق نيوز. [Locator](https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUt6RDZabUkteFZwT0ZiOS1KTnU5ZGVJR19SZjRqSG5nRlBSRVZaRlJkd21CZVQxMXJsNllPRW45eXl3SEtHY2dGOWZVT2hIWHItdjVPRGZjUl9DYWs1QUp1R3RRLUFaeHNJTUc5N2M0d1RDYWgtRWZuc0ZkcU5XVnctdng5NEZ2SndLYjQ0RDJVVXM?oc=5)
+- Intake 404, Tue, 03 Nov 2026 17:26:25 GMT: Ukraine expands war risk insurance and compensation for businesses - Beinsure. [Locator](https://news.google.com/rss/articles/CBMimAFBVV95cUxOaWRodEJMNElLcGhFanBLVU40ZmpsWVdMa1JiLWtGY2gwcEpkUHZDSDBXNVBzR0ZJWjZIYmxRcGY4Ung0d3doTkxDdElMQndOZG4tOEh6VHBXSF9LZHEtTEU1eUdMbXVJeGJqTlc4Q3RmTm0tNFNRM05DalphSEdsM1RYMFhFX0k2R19IZjI4dVVHTWJZMXVyWQ?oc=5)
+- Intake 407, Tue, 03 Nov 2026 20:33:23 GMT: Ukraine Calls on Norway to Back War Risk Insurance Fund and Boost Business Investment - UNITED24 Media. [Locator](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbVRvOE1KWW1oMFBQeE5iR0VVN2ZaeThnR2RFLVBFMDhVOHlMSWxJNVBBeDBTa2ltY1F3N2J5UUphZ2JFZlNTOG5VaFFsajJKakNGbWF1TktEVmhoT1BQYWpSZ0xaMlJzejJfRlZqaVJGQ1hMdDVsR1Z2cFo5OXNRaW90bHdyRE1aMXRhT1NtY21pakFHVlRKZGlwX3ZPdjRHaVZ6V0U3RGFuckNROWloTzkzbm52VXZqZ1gycTRGOU8?oc=5)
+- Intake 462, Tue, 03 Nov 2026 00:07:05 GMT: Thousands of European troops to rehearse Ukraine deployment in event of peace. [Locator](https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss)
+
+Sources: RESEARCH-INTAKE snapshot intake-items.json; exact list positions above

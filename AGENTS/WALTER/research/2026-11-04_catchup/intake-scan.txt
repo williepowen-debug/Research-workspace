@@ -1,0 +1,53 @@
+RESEARCH-INTAKE scan — 2026-11-04 20:27Z
+================================================================
+
+[health]
+  OK   last_run 2026-11-03T20:45:08Z (1 missed weekday runs, 0 calendar days)
+  MED  feed newsweep status=degraded
+  OK   news search items saved: 207 (trailing median 202 over 10 batches)
+
+[NEW breaches to ROUTE — 14]  (onset; push per §3, tag source: RESEARCH-INTAKE)
+  PRIORITY  ACTION -> (per-item agents field)  [6 NEW_ALERT]
+      6 NEW_ALERT item(s) — read data/2026-11-03/news.json
+  ROUTINE   INFO   -> (per-item agents field)  [10 NEW_WATCH]
+      10 NEW_WATCH item(s) — read data/2026-11-03/news.json
+  PRIORITY  ACTION -> BRENT  [WATCH_HIT [BRENT:'Russia diesel export']]
+      Russia to extend diesel export curbs with exemptions for global markets - Business Standard
+  PRIORITY  ACTION -> SHADE  [WATCH_HIT [SHADE:'Group 1001 Insurance']]
+      Group 1001 Insurance Names George Haj as Chief Communications Officer - The Joplin Globe
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'refinery attack']]
+      Syria foils Hezbollah-linked plot to attack key oil refinery - The Times of Israel
+  ROUTINE   INFO   -> BROCK  [DEVELOPMENT [known entity Apollo + escalation qualifier]]
+      Apollo Global Management (NYSE:APO) Hits Record Origination but Misses Q3 Earnings Estimates - ChartMill
+  ROUTINE   INFO   -> BROCK  [DEVELOPMENT [known entity Apollo + escalation qualifier]]
+      Apollo Global Management (APO) Posts Record Q3 Fee-Related Earni - GuruFocus
+  ROUTINE   INFO   -> BROCK  [DEVELOPMENT [known entity Apollo + escalation qualifier]]
+      APO: Record origination and inflows powered strong adjusted earnings despite a rate-driven GAAP loss - TradingView
+  PRIORITY  ACTION -> HENRY  [WATCH_HIT [HENRY:'Hormuz reopening']]
+      Iran says two tankers hit mines in Hormuz as Tehran offers two-day reopening plan - investingLive
+  PRIORITY  ACTION -> HANS  [WATCH_HIT [HANS:'EU gas storage']]
+      Low EU gas storage to extend LNG squeeze into 2027, says IEA - Upstream Online
+  PRIORITY  ACTION -> HANS  [WATCH_HIT [HANS:'EU gas storage']]
+      IEA: Weak EU Gas Storage May Keep Global Market Tight Into 2027 - News and Statistics - IndexBox
+  PRIORITY  ACTION -> HANS  [WATCH_HIT [HANS:'EU gas storage']]
+      EU gas storage may fall below 10% by end March – IEA - Montel News
+  PRIORITY  ACTION -> CYPHER  [WATCH_HIT [CYPHER:'Sharetec outage']]
+      Sharetec Outage Stretches Into Fourth Day; Users Conference Postponed - CU Today
+  PRIORITY  ACTION -> CYPHER  [WATCH_HIT [CYPHER:'ConnectWise breach']]
+      ConnectWise Breach: MSP Security Risks and Next Steps - Channel Insider
+
+[suppressed — still-true, already seen — 12]  (do NOT re-push)
+  fred:UMCSENT:orange  (UMCSENT UMich sentiment=48.1 [orange])
+  fred:MORTGAGE30US:red  (MORTGAGE30US 30yr mortgage rate %=7.24 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS bps=343.0 [red])
+  fred:BAMLH0A0HYM2:red  (BAMLH0A0HYM2 HY OAS=343bps [red] >=280 X1-trigger breach (LIQUID half )
+  edgar:MSFT_2026_10_28_2_02_9_01_  (MSFT 2026-10-28 ['2.02', '9.01'])
+  edgar:GOOGL_2026_10_28_2_02_9_01_  (GOOGL 2026-10-28 ['2.02', '9.01'])
+  edgar:AMZN_2026_10_29_2_02_9_01_  (AMZN 2026-10-29 ['2.02', '9.01'])
+  edgar:META_2026_10_29_1_01_3_03_5_03_9_01_  (META 2026-10-29 ['1.01', '3.03', '5.03', '9.01'])
+  edgar:RCL_2026_10_27_2_02_9_01_  (RCL 2026-10-27 ['2.02', '9.01'])
+  edgar:NCLC_2026_10_30_1_01_2_03_9_01_  (NCLC 2026-10-30 ['1.01', '2.03', '9.01'])
+  edgar:NCLC_2026_10_29_5_02_9_01_  (NCLC 2026-10-29 ['5.02', '9.01'])
+  edgar:NCLC_2026_10_29_2_02_9_01_  (NCLC 2026-10-29 ['2.02', '9.01'])
+
+After routing the NEW breaches, run:  python3 tools/intake_scan.py --mark

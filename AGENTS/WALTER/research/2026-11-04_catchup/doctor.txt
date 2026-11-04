@@ -1,0 +1,220 @@
+WALTER doctor — 2026-11-04
+========================================================================
+
+[future_timestamps]
+  ✓ INFO 414 field(s) use WALTER's approximate-minute convention (e.g. 2026-08-15T02:3xZ) — a KNOWN convention, NOT a defect and NOT silently passed. ⚠️ The DATE part is still fully validated: the `x` is a claim about PRECISION, not a waiver. Tolerable because the age basis slices [:10] and reads that date; a defect the day any consumer needs the minute.
+
+[restated_set_drift]
+  ✓ INFO restated sets match canon (pull-complete = {CARL, PROME, RED, TERRY}; clusters = 13)
+
+[board_reconcile]
+  ✓ INFO BOARD reconciles: 1941 signals (ToC = sections = files = TOTAL)
+
+[log_reconcile]
+  ✓ INFO route_log reconciles with BOARD (1941 signals)
+  ✓ INFO delivery_log: all 1626 delivered SIG-ids have a BOARD file (post-6/17 coverage)
+  ✓ INFO delivery_log: 22 non-dispatch NOTE row(s), all classified in registry/NOTE_ROWS_REVIEWED.tsv; preserved as history, NOT BOARD-reconciled
+
+[intake_liveness]
+  ⚠ MED  feed(s) degraded: newsweep
+
+[outbox_age]
+  · LOW  REQ-PROME-20261016-vulcan-intake-design.md: 19d since mtime — read whole and check owner disposition; age alone does not establish unresolved work or justify escalation
+  ✓ INFO 61 other outbox artifacts retained; 35 older than 30d by mtime (oldest VERIFY-20260831-iran-weekend-claims.md, 65d). Inventory only, not pending/completed status; current duties live in LAST_COMPLETION.
+
+[registry_staleness]
+  · LOW  Tier-1 registry-date >14d (1): YEYOU (76d) — see registry_lag to tell dormant from lagging
+
+[registry_lag]
+  · LOW  NEXUS: registry 2026-11-02 < last commit 2026-11-04 (0d ago, +2d) → refresh row
+  · LOW  DAEDALUS: registry 2026-11-02 < last commit 2026-11-04 (0d ago, +2d) → refresh row
+  · LOW  PROME: registry 2026-11-02 < last commit 2026-11-03 (1d ago, +1d) → refresh row
+  · LOW  REGINALD: registry 2026-11-02 < last commit 2026-11-03 (1d ago, +1d) → refresh row
+  · LOW  FLG: registry 2026-11-01 < last commit 2026-11-02 (2d ago, +1d) → refresh row
+  ✓ INFO dormant — registry accurate, not lagging (2): ATHENA (235d), YEYOU (76d)
+  ✓ INFO no STATUS.md — dir-fallback unreliable (may be cross-agent commits), NOT flagged: RAV (dir +90d vs 2026-08-02), DARWIN (dir +71d vs 2026-02-18), DEWEY (dir +11d vs 2026-10-22)
+  ✓ INFO incidental STATUS touch, not a real lag (2): SENTRY (commit 2026-09-24 but STATUS hdr 2026-05-09 ≤ reg 2026-05-09), WAL (commit 2026-11-03 but STATUS hdr 2026-11-02 ≤ reg 2026-11-02)
+
+[registry_self_lag]
+  ✓ INFO WALTER self REGISTRY row is current vs STATUS.md header
+
+[liaison_enum]
+  ✓ INFO LIAISON files (2): CARL 183d · RED 151d
+
+[delivered_but_unconsumed]
+  · LOW  CONSUMED but never filed to processed/ — the recipient's OWN board_log records these, so they are filing hygiene, NOT a consume-gap: ISHM 1 — excluded from the unconsumed count below (they were being counted)
+  · LOW  pull-complete agents (WALTER skips delivery per §3.5) have handoffs to ARCHIVE not consume: CARL 1 — owner filing review (one-time; if NEW, WALTER mis-delivered)
+  ⚠ MED  68 unconsumed >2d across 21 agents (of 212 in flight — the rest are within the grace period, NOT evidence they are consumed) — 22 ACTION / 46 INFO, oldest ACTION 16d · oldest INFO 6d: CARL 5(5A/0I); CORAL 4(3A/1I); HANS 5(2A/3I); LIQUID 9(1A/8I); HOMER 4(1A/3I); WATT 3(1A/2I); SHADE 3(1A/2I); LABOR 2(1A/1I); OTTO 2(1A/1I); VIOLET 2(1A/1I); CRUISE 2(1A/1I); VULCAN 2(1A/1I); CREED 1(1A/0I); FALCON 1(1A/0I); CATO 1(1A/0I); HAWK 15; SAM 2; AEOLUS 2; ORACLE 1; MARCO 1; OZK 1 [age from delivery_log.timestamp_routed] — review recipient consumption evidence and its boot procedure; a procedure installation alone does not establish consumption
+
+[board_log_path_divergence]
+  ✓ INFO REGINALD: consumption record read from `board/BOARD_LOG.tsv`, NOT the canonical `board_log.tsv` — resolved by fallback and reported so the divergence is visible; the desk is free to keep its own layout
+
+[written_but_undelivered]
+  · LOW  AEOLUS: SIG-W-20261104-033.md written, uncommitted (mid-session)
+  · LOW  AEOLUS: SIG-W-20261104-013.md written, uncommitted (mid-session)
+  · LOW  AEOLUS: SIG-W-20261104-018.md written, uncommitted (mid-session)
+  · LOW  BOND: SIG-W-20261104-027.md written, uncommitted (mid-session)
+  · LOW  BOND: SIG-W-20261104-023.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-030.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-032.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-002.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-016.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-031.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-014.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-013.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-029.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-017.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-019.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-018.md written, uncommitted (mid-session)
+  · LOW  BRENT: SIG-W-20261104-015.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-012.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-027.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-026.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-008.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-028.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-007.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-037.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-024.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-023.md written, uncommitted (mid-session)
+  · LOW  BROCK: SIG-W-20261104-015.md written, uncommitted (mid-session)
+  · LOW  CARL: SIG-W-20261104-003.md written, uncommitted (mid-session)
+  · LOW  CARL: SIG-W-20261104-005.md written, uncommitted (mid-session)
+  · LOW  CARL: SIG-W-20261104-008.md written, uncommitted (mid-session)
+  · LOW  CARL: SIG-W-20261104-018.md written, uncommitted (mid-session)
+  · LOW  CORAL: SIG-W-20261104-025.md written, uncommitted (mid-session)
+  · LOW  CORAL: SIG-W-20261104-033.md written, uncommitted (mid-session)
+  · LOW  CREED: SIG-W-20261104-027.md written, uncommitted (mid-session)
+  · LOW  CREED: SIG-W-20261104-025.md written, uncommitted (mid-session)
+  · LOW  CREED: SIG-W-20261104-026.md written, uncommitted (mid-session)
+  · LOW  CREED: SIG-W-20261104-024.md written, uncommitted (mid-session)
+  · LOW  CREED: SIG-W-20261104-001.md written, uncommitted (mid-session)
+  · LOW  CYPHER: SIG-W-20261104-011.md written, uncommitted (mid-session)
+  · LOW  CYPHER: SIG-W-20261104-020.md written, uncommitted (mid-session)
+  · LOW  FALCON: SIG-W-20261104-002.md written, uncommitted (mid-session)
+  · LOW  FALCON: SIG-W-20261104-029.md written, uncommitted (mid-session)
+  · LOW  FALCON: SIG-W-20261104-017.md written, uncommitted (mid-session)
+  · LOW  FALCON: SIG-W-20261104-019.md written, uncommitted (mid-session)
+  · LOW  HANS: SIG-W-20261104-030.md written, uncommitted (mid-session)
+  · LOW  HANS: SIG-W-20261104-031.md written, uncommitted (mid-session)
+  · LOW  HANS: SIG-W-20261104-013.md written, uncommitted (mid-session)
+  · LOW  HANS: SIG-W-20261104-020.md written, uncommitted (mid-session)
+  · LOW  HANS: SIG-W-20261104-034.md written, uncommitted (mid-session)
+  · LOW  HAWK: SIG-W-20261104-030.md written, uncommitted (mid-session)
+  · LOW  HAWK: SIG-W-20261104-002.md written, uncommitted (mid-session)
+  · LOW  HAWK: SIG-W-20261104-016.md written, uncommitted (mid-session)
+  · LOW  HAWK: SIG-W-20261104-014.md written, uncommitted (mid-session)
+  · LOW  HAWK: SIG-W-20261104-029.md written, uncommitted (mid-session)
+  · LOW  HAWK: SIG-W-20261104-017.md written, uncommitted (mid-session)
+  · LOW  HAWK: SIG-W-20261104-019.md written, uncommitted (mid-session)
+  · LOW  HAWK: SIG-W-20261104-038.md written, uncommitted (mid-session)
+  · LOW  HENRY: SIG-W-20261104-003.md written, uncommitted (mid-session)
+  · LOW  HENRY: SIG-W-20261104-004.md written, uncommitted (mid-session)
+  · LOW  HENRY: SIG-W-20261104-005.md written, uncommitted (mid-session)
+  · LOW  HENRY: SIG-W-20261104-038.md written, uncommitted (mid-session)
+  · LOW  HENRY: SIG-W-20261104-018.md written, uncommitted (mid-session)
+  · LOW  HENRY: SIG-W-20261104-034.md written, uncommitted (mid-session)
+  · LOW  HENRY: SIG-W-20261104-035.md written, uncommitted (mid-session)
+  · LOW  HOMER: SIG-W-20261104-036.md written, uncommitted (mid-session)
+  · LOW  HOMER: SIG-W-20261104-024.md written, uncommitted (mid-session)
+  · LOW  ISHM: SIG-W-20261104-003.md written, uncommitted (mid-session)
+  · LOW  ISHM: SIG-W-20261104-006.md written, uncommitted (mid-session)
+  · LOW  ISHM: SIG-W-20261104-005.md written, uncommitted (mid-session)
+  · LOW  ISHM: SIG-W-20261104-034.md written, uncommitted (mid-session)
+  · LOW  ISHM: SIG-W-20261104-035.md written, uncommitted (mid-session)
+  · LOW  LABOR: SIG-W-20261104-027.md written, uncommitted (mid-session)
+  · LOW  LABOR: SIG-W-20261104-003.md written, uncommitted (mid-session)
+  · LOW  LABOR: SIG-W-20261104-004.md written, uncommitted (mid-session)
+  · LOW  LABOR: SIG-W-20261104-005.md written, uncommitted (mid-session)
+  · LOW  LABOR: SIG-W-20261104-035.md written, uncommitted (mid-session)
+  · LOW  LIQUID: SIG-W-20261104-021.md written, uncommitted (mid-session)
+  · LOW  LIQUID: SIG-W-20261104-022.md written, uncommitted (mid-session)
+  · LOW  LIQUID: SIG-W-20261104-001.md written, uncommitted (mid-session)
+  · LOW  LIQUID: SIG-W-20261104-023.md written, uncommitted (mid-session)
+  · LOW  NEXUS: SIG-W-20261104-038.md written, uncommitted (mid-session)
+  · LOW  ORACLE: SIG-W-20261104-038.md written, uncommitted (mid-session)
+  · LOW  OSPREY: SIG-W-20261104-014.md written, uncommitted (mid-session)
+  · LOW  OTTO: SIG-W-20261104-008.md written, uncommitted (mid-session)
+  · LOW  REGINALD: SIG-W-20261104-003.md written, uncommitted (mid-session)
+  · LOW  REGINALD: SIG-W-20261104-025.md written, uncommitted (mid-session)
+  · LOW  REGINALD: SIG-W-20261104-026.md written, uncommitted (mid-session)
+  · LOW  REGINALD: SIG-W-20261104-004.md written, uncommitted (mid-session)
+  · LOW  REGINALD: SIG-W-20261104-036.md written, uncommitted (mid-session)
+  · LOW  REGINALD: SIG-W-20261104-024.md written, uncommitted (mid-session)
+  · LOW  REGINALD: SIG-W-20261104-001.md written, uncommitted (mid-session)
+  · LOW  SHADE: SIG-W-20261104-012.md written, uncommitted (mid-session)
+  · LOW  SHADE: SIG-W-20261104-033.md written, uncommitted (mid-session)
+  · LOW  SHADE: SIG-W-20261104-028.md written, uncommitted (mid-session)
+  · LOW  SHADE: SIG-W-20261104-007.md written, uncommitted (mid-session)
+  · LOW  VULCAN: SIG-W-20261104-021.md written, uncommitted (mid-session)
+  · LOW  VULCAN: SIG-W-20261104-009.md written, uncommitted (mid-session)
+  · LOW  VULCAN: SIG-W-20261104-006.md written, uncommitted (mid-session)
+  · LOW  VULCAN: SIG-W-20261104-037.md written, uncommitted (mid-session)
+  · LOW  VULCAN: SIG-W-20261104-022.md written, uncommitted (mid-session)
+  · LOW  VULCAN: SIG-W-20261104-010.md written, uncommitted (mid-session)
+  · LOW  WATT: SIG-W-20261104-013.md written, uncommitted (mid-session)
+  · LOW  WATT: SIG-W-20261104-037.md written, uncommitted (mid-session)
+  · LOW  WATT: SIG-W-20261104-022.md written, uncommitted (mid-session)
+  · LOW  YURI: SIG-W-20261104-030.md written, uncommitted (mid-session)
+  · LOW  YURI: SIG-W-20261104-014.md written, uncommitted (mid-session)
+  · LOW  ZHAO: SIG-W-20261104-009.md written, uncommitted (mid-session)
+  · LOW  ZHAO: SIG-W-20261104-010.md written, uncommitted (mid-session)
+
+[delivery_claim_vs_git]
+  ✓ INFO 5782 row(s) point at a path that no longer exists but WAS in git (consumed-by-delete, or a retired inbox dir) — delivery confirmed, path stale; log hygiene, not a gap
+
+[deep_research_pending_overdue]
+  ⚠ MED  REQ-DEWEY-20261022-003R: deep-research flag QUEUED past deadline 2026-11-03 (1d overdue) — run it or drop it
+  ⚠ MED  REQ-DEWEY-20261022-005R: deep-research flag QUEUED past deadline 2026-11-02 (2d overdue) — run it or drop it
+
+[dewey_handoff_liveness]
+  ✓ INFO inbox/DEWEY/ clear — no unprocessed DEWEY handoffs
+
+[staleness_sweep_overdue]
+  ✓ INFO staleness sweep 6d ago (last 2026-10-29, ≤14d)
+
+[dropzone_pending]
+  ✓ INFO inbox/WILL/ drop-zone empty
+
+[status_spine_overflow]
+  ✓ INFO STATUS.md spine at 1 lead(s) (≤5)
+
+[full_closeout_owed]
+  ✓ INFO 0 stacked `full deferred` breadcrumb(s) since the last full closeout ('FULL CLOSEOUT — 2026-11-01T00:52:52Z — approved verdict F1/F2 amendment') — under the >=3 trigger
+
+[status_bottom_line]
+  ✓ INFO STATUS.md `## BOTTOM LINE` present (line 4) with a nonempty section
+
+[cluster_review_overdue]
+  ✓ INFO AI_INFRA_CAPEX (211) reviewed 25d ago (AI_CAPEX_AXIS_CHECK_2026-10-10.md) — within the 30d window
+  ✓ INFO large clusters never coherence-reviewed (12, >=25 signals): BANK_COLLATERAL 309 · IRAN_HORMUZ 286 · CONSUMER_STAGFLATION 253 · POSITIONING_VALUATION 182 · HYDROCARBON_INFRA 163 · FED_FRAMEWORK 128 · PC_STRESS 117 · ASIA_CHINA 86 · MISC 80 · INFLATION_TRANSMISSION 57 · CLIMATE_MACRO 37 · CYBER 32 — informational, not a backlog; review is cheap and on-demand
+
+[registered_but_unrouted]
+  · LOW  Tier-2 registered but unrouted (7): ATHENA, BARON, DARWIN, HERMES, ORACLE, RAV, SENTRY — expected if spawn-on-demand; confirm it is intentional.
+
+[correction_target_declared]
+  ✓ INFO all 154 correction signal(s) declare a resolvable target (SIG-ID / SELF / EXTERNAL)
+
+[correction_kill_strings]
+  ✓ INFO kill_strings since 2026-09-24: 26 correction(s) carry it; 53 pre-enforcement miss(es) counted, not backfilled (enforcement from 2026-10-29T16:00:00Z)
+
+[batch_manifest_open]
+  ⚠ MED  BM-20261104-01 OPEN with 464 of 464 un-dispositioned: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464] — Will-authorized November 4 catch-up: every headline record f, opened 0d ago. Every item needs a disposition INCLUDING NO-ACTION; run batch_manifest.py --close BM-20261104-01
+  ⚠ MED  BM-20261104-02 OPEN with 57 of 57 un-dispositioned: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57] — Nov4 X exact staged49 posts; posts22 and28 multi-country ref, opened 0d ago. Every item needs a disposition INCLUDING NO-ACTION; run batch_manifest.py --close BM-20261104-02
+
+[dispatch_frontmatter]
+  ✓ INFO dispatch header presence/shape checked in 383 recent signals; not delivery or action completeness
+
+[action_line_rule]
+  ✓ INFO no §3.5.4 candidates in 383 signal(s) over 14d -- NOTE: detects ask-LANGUAGE, not asks; an ask phrased outside the registered constructions is invisible here
+
+[filed_vs_consumed]
+  ✓ INFO processed/ moves in 90d: 192 declared-consumed, 0 pre-grammar (upper bound only, not graded), 0 undeclared since 2026-08-20
+
+[entities_at_dispatch]
+  ✓ INFO all 1195 signal(s) since 2026-08-19 declare `entities:` except 11 reviewed historical miss(es) in ENTITIES_MISSES_ACKNOWLEDGED.tsv
+
+[index_generated_fresh]
+  ✓ INFO generated INDEX fresh (rowset 10464966ea17, 1941 signals; 1941 live rows hashed and matched — banner AND content)
+
+========================================================================
+✗ 6 item(s) need attention (HIGH/MED). See punch-list above.

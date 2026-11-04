@@ -1913,3 +1913,71 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-02T16:03:47Z	SIG-W-20261102-012	RESEARCH-INTAKE / bounded follow-up to Iran item5 / QNA November1 reporting company disclosure	Nakilat via QNA: Al Mayeda hit October30, remains operational	IMMEDIATE	FALCON,BRENT	HAWK,HENRY,PROME,RED	0.9
 2026-11-02T16:03:47Z	SIG-W-20261102-013	RESEARCH-INTAKE / held news items18/19 state follow-through / primary ConnectWise October30 advisory	ConnectWise confirms partial Cloud Backup recovery; remaining functions pending	PRIORITY	CYPHER	REGINALD,GIBBS,LIQUID	0.95
 2026-11-02T16:03:47Z	SIG-W-20261102-014	RESEARCH-INTAKE / held news item10 / direct CME Silver_stocks.xls	CME silver point:104.286Moz registered; reclassification differs from physical withdrawal	PRIORITY	MIDAS	LIQUID,HENRY,BOND,RED	0.94
+2026-11-04T20:24:12Z	SIG-W-20261104-001	RESEARCH-INTAKE / catchup primary checks	October office delinquency meets the registered two-print threshold	IMMEDIATE	CREED,REGINALD	LIQUID,PROME,RED	0.96
+2026-11-04T20:24:12Z	SIG-W-20261104-002	RESEARCH-INTAKE / catchup primary checks	November 2 Qeshm strike reporting requires the approved confirmation test	IMMEDIATE	FALCON,BRENT	HAWK,PROME,RED	0.82
+2026-11-04T20:24:12Z	SIG-W-20261104-003	RESEARCH-INTAKE / catchup primary checks	October manufacturing expands; ISM and S&P require separate grades	PRIORITY	ISHM,LABOR,CARL	HENRY,REGINALD,RED	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-004	RESEARCH-INTAKE / catchup primary checks	September JOLTS and August revision keep both net-flow readings positive	PRIORITY	LABOR	CARL,HENRY,REGINALD,RED	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-005	RESEARCH-INTAKE / catchup primary checks	ADP adds 86K; October ISM employment pair remains above 50	PRIORITY	LABOR,CARL,HENRY	ISHM,RED	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-006	RESEARCH-INTAKE / catchup primary checks	September factory orders and trade add the owed inventory and import observations	PRIORITY	ISHM	VULCAN,CARL,RED	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-007	RESEARCH-INTAKE / catchup primary checks	Apollo Q3 combines record origination with a GAAP loss requiring reconciliation	PRIORITY	BROCK,SHADE	PROME,RED	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-008	RESEARCH-INTAKE / catchup primary checks	Credit Acceptance loss includes a forecast-methodology revision	PRIORITY	CARL,OTTO	BROCK,RED	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-009	RESEARCH-INTAKE / catchup primary checks	Marvell and Lumentum sign an all-stock agreement	PRIORITY	VULCAN	ZHAO,RED	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-010	RESEARCH-INTAKE / catchup primary checks	HBM server-package smuggling report remains an attributed lead	PRIORITY	ZHAO,VULCAN	PROME	0.6
+2026-11-04T20:24:12Z	SIG-W-20261104-011	RESEARCH-INTAKE / catchup primary checks	ConnectWise advances partial restoration; tenant uncertainty remains	PRIORITY	CYPHER	PROME	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-012	RESEARCH-INTAKE / catchup primary checks	Delaware Life sale exploration is reported; price and capital implications remain unverified	PRIORITY	SHADE	BROCK,PROME,RED	0.6
+2026-11-04T20:24:12Z	SIG-W-20261104-013	RESEARCH-INTAKE / catchup primary checks	IEA sub-10% March storage scenario requires both cold weather and continued disruption	PRIORITY	HANS,BRENT	AEOLUS,WATT,RED	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-014	RESEARCH-INTAKE / catchup primary checks	November 3 YANOS refinery damage is reported; lost output is unknown	PRIORITY	OSPREY,BRENT	HAWK,YURI	0.8
+2026-11-04T20:24:12Z	SIG-W-20261104-015	RESEARCH-INTAKE / catchup primary checks	CVR agrees to buy two Marathon refineries; capacity is transferred	PRIORITY	BRENT	BROCK	0.9
+2026-11-04T20:24:12Z	SIG-W-20261104-016	RESEARCH-INTAKE / catchup primary checks	Syria announces a foiled Homs plot; Hezbollah denies the attributed role	PRIORITY	HAWK	BRENT	0.75
+2026-11-04T20:24:12Z	SIG-W-20261104-017	RESEARCH-INTAKE / catchup primary checks	Iranian two-tanker mine allegation lacks hull identities or neutral confirmation	PRIORITY	FALCON	BRENT,HAWK	0.5
+2026-11-04T20:24:12Z	SIG-W-20261104-018	RESEARCH-INTAKE / catchup primary checks	SF Fed ENSO model links 2027 price effects to a conditional La Nina reversal	PRIORITY	AEOLUS,CARL	BRENT,HENRY,RED	0.9
+2026-11-04T20:27:24Z	SIG-W-20261104-019	RESEARCH-INTAKE / catchup primary checks	AFP reports public presidential acknowledgment of the November 2 strike	IMMEDIATE	FALCON,BRENT	HAWK,PROME,RED	0.87
+2026-11-04T20:27:24Z	SIG-W-20261104-020	RESEARCH-INTAKE / catchup primary checks	New European refrigeration disruptions are separate from the old US-base investigation	PRIORITY	CYPHER	HANS,CARL,PROME	0.85
+2026-11-04T20:27:24Z	SIG-W-20261104-021	RESEARCH-INTAKE / catchup primary checks	Oracle prices the previously announced equity and debt funding	PRIORITY	VULCAN,LIQUID	PROME,RED	0.88
+2026-11-04T20:27:24Z	SIG-W-20261104-022	RESEARCH-INTAKE / catchup primary checks	Anthropic filing adds Q3 operating loss and qualified purchase commitments	PRIORITY	VULCAN	LIQUID,WATT,PROME,RED	0.9
+2026-11-04T20:27:24Z	SIG-W-20261104-023	RESEARCH-INTAKE / catchup primary checks	CCC concentration and recent broadening coexist in the original analysis	PRIORITY	BOND,BROCK	LIQUID,RED	0.8
+2026-11-04T20:27:24Z	SIG-W-20261104-024	RESEARCH-INTAKE / catchup primary checks	Brookfield summer walkaway at Beaudry becomes public reporting	PRIORITY	CREED,HOMER	BROCK,REGINALD,RED	0.7
+2026-11-04T20:27:24Z	SIG-W-20261104-025	RESEARCH-INTAKE / catchup primary checks	St Petersburg FedEx property sale shows a markdown without an established principal loss	PRIORITY	CORAL	CREED,REGINALD,RED	0.8
+2026-11-04T20:27:24Z	SIG-W-20261104-026	RESEARCH-INTAKE / catchup primary checks	KBRA identifies conditional Weil lease exposure, not three billion dollars of defaults	PRIORITY	CREED	REGINALD,BROCK,RED	0.85
+2026-11-04T20:27:24Z	SIG-W-20261104-027	RESEARCH-INTAKE / catchup primary checks	Two November 1 bankruptcy filings are corroborated; financial narratives remain incomplete	PRIORITY	CREED,BOND	LABOR,BROCK	0.65
+2026-11-04T20:27:24Z	SIG-W-20261104-028	RESEARCH-INTAKE / catchup primary checks	Reported private-credit quarterly composition changes; 6.3 percent is already known	PRIORITY	BROCK	SHADE,RED	0.7
+2026-11-04T20:27:24Z	SIG-W-20261104-029	RESEARCH-INTAKE / catchup primary checks	Iran intelligence and diplomatic reports retain contested intent and conditionality	PRIORITY	FALCON,HAWK	BRENT,PROME	0.65
+2026-11-04T20:27:24Z	SIG-W-20261104-030	RESEARCH-INTAKE / catchup primary checks	Reported Russian-gas proposal does not establish a restart or sanction waiver	PRIORITY	YURI,HANS,BRENT	HAWK,RED	0.8
+2026-11-04T20:27:24Z	SIG-W-20261104-031	RESEARCH-INTAKE / catchup primary checks	Aramco tanker-capacity claim lacks a verified denominator	PRIORITY	BRENT	HANS	0.5
+2026-11-04T20:27:24Z	SIG-W-20261104-032	RESEARCH-INTAKE / catchup primary checks	HPCL reports a controlled tank fire with refinery units operating	PRIORITY	BRENT	RED	0.8
+2026-11-04T20:27:24Z	SIG-W-20261104-033	RESEARCH-INTAKE / catchup primary checks	Florida flooding is confirmed; radar estimate, recurrence and crash attribution differ	PRIORITY	CORAL,AEOLUS	SHADE,RED	0.85
+2026-11-04T20:27:24Z	SIG-W-20261104-034	RESEARCH-INTAKE / catchup primary checks	Euro-area October flash inflation rises; final PMI source gaps remain	PRIORITY	HANS	CARL,HENRY,ISHM,RED	0.85
+2026-11-04T20:27:24Z	SIG-W-20261104-035	RESEARCH-INTAKE / catchup primary checks	Emerson results and the latest AAR week support the owed industrial review	PRIORITY	ISHM	HENRY,LABOR,RED	0.9
+2026-11-04T20:27:24Z	SIG-W-20261104-036	RESEARCH-INTAKE / catchup primary checks	LGI Q3 closings rise with margins and guidance separately qualified	PRIORITY	HOMER	CARL,REGINALD,RED	0.9
+2026-11-04T20:27:24Z	SIG-W-20261104-037	RESEARCH-INTAKE / catchup primary checks	Talen monetizes future capacity cash flows and guides higher 2027 earnings	PRIORITY	WATT	VULCAN,BROCK,RED	0.9
+2026-11-04T20:27:24Z	SIG-W-20261104-038	RESEARCH-INTAKE / catchup primary checks	Reported Democratic control of both chambers resolves the election scenario	PRIORITY	HENRY,NEXUS	CARL,HAWK,ORACLE,PROME,RED	0.9
+2026-11-04T20:31:31Z	SIG-W-20261104-039	RESEARCH-INTAKE / catchup primary checks	GCRED requests remain below cap; new mark research has a narrow denominator	PRIORITY	BROCK	SHADE,RED	0.9
+2026-11-04T20:31:31Z	SIG-W-20261104-040	RESEARCH-INTAKE / catchup primary checks	Reported Nvidia construction-credit support remains unsigned	PRIORITY	VULCAN,BROCK	WATT,LIQUID,RED	0.65
+2026-11-04T20:31:31Z	SIG-W-20261104-041	RESEARCH-INTAKE / catchup primary checks	UK food talks remain a draft; FCA car-finance guidance is operative	PRIORITY	HANS	OTTO,CARL	0.85
+2026-11-04T20:31:31Z	SIG-W-20261104-042	RESEARCH-INTAKE / catchup primary checks	Credit remains elevated while the VIX exit streak is incomplete	PRIORITY	REGINALD,RED	BOND,LIQUID,VIOLET,PROME	0.9
+2026-11-04T20:31:31Z	SIG-W-20261104-043	RESEARCH-INTAKE / catchup primary checks	European daily checks retain gas-storage stress and distinguish gilt bases	PRIORITY	HANS	BRENT,RED	0.9
+2026-11-04T20:31:31Z	SIG-W-20261104-044	RESEARCH-INTAKE / catchup primary checks	Poland preventive deployment is reported; sabotage execution is not established	PRIORITY	HAWK	YURI	0.65
+2026-11-04T20:31:31Z	SIG-W-20261104-045	RESEARCH-INTAKE / catchup primary checks	La Palma and Foggy Bottom outages require restored-state qualification	PRIORITY	WATT	HANS	0.8
+2026-11-04T20:31:31Z	SIG-W-20261104-046	RESEARCH-INTAKE / catchup primary checks	Japan notice is general disaster preparedness, not an imminent-event prediction	PRIORITY	SAM	AEOLUS	0.95
+2026-11-04T20:32:59Z	SIG-W-20261104-047	RESEARCH-INTAKE / catchup primary checks	Florida Amendment 3 is reported passed on preliminary returns	IMMEDIATE	CORAL	HOMER,REGINALD,PROME,RED	0.85
+2026-11-04T20:32:59Z	SIG-W-20261104-048	RESEARCH-INTAKE / catchup primary checks	UKMTO188 establishes a late-ingested October30 projectile incident	IMMEDIATE	FALCON,BRENT	HAWK,PROME	0.94
+2026-11-04T20:32:59Z	SIG-W-20261104-049	RESEARCH-INTAKE / catchup primary checks	Power procurement and storage developments have different commitment states	PRIORITY	WATT	VULCAN,BROCK,RED	0.85
+2026-11-04T20:32:59Z	SIG-W-20261104-050	RESEARCH-INTAKE / catchup primary checks	WGC estimates Q3 central-bank purchases up42 percent year over year	PRIORITY	MIDAS	BOND,RED	0.9
+2026-11-04T20:32:59Z	SIG-W-20261104-051	RESEARCH-INTAKE / catchup primary checks	November Tampa ammonia sources conflict; current DTN table remains owed	PRIORITY	FERT	CARL,BRENT	0.6
+2026-11-04T20:32:59Z	SIG-W-20261104-052	RESEARCH-INTAKE / catchup primary checks	October China thermal-coal estimates show supplier changes within stable totals	PRIORITY	ZHAO,AEOLUS	BRENT,RED	0.8
+2026-11-04T20:32:59Z	SIG-W-20261104-053	RESEARCH-INTAKE / catchup primary checks	New layoff plans require date and perimeter reconciliation	PRIORITY	LABOR	CARL,GIBBS,ISHM,RED	0.75
+2026-11-04T20:32:59Z	SIG-W-20261104-054	RESEARCH-INTAKE / catchup primary checks	MSC Poesia cancellation follows an inspection hold, with defect unspecified	PRIORITY	CORAL	CRUISE	0.85
+2026-11-04T20:32:59Z	SIG-W-20261104-055	RESEARCH-INTAKE / catchup primary checks	Goldman reports contain separate breadth and coding-policy claims	PRIORITY	HENRY,GIBBS	VULCAN,RED	0.75
+2026-11-04T20:33:38Z	SIG-W-20261104-056	RESEARCH-INTAKE / catchup primary checks	Fresh GFS analyzed vortex winds remain positive; UNG conditions are not satisfied	PRIORITY	AEOLUS	TERRY,WATT,BRENT,PROME	0.95
+2026-11-04T20:33:38Z	SIG-W-20261104-057	RESEARCH-INTAKE / catchup primary checks	Remaining chip and memory headlines need source-qualified owner reconciliation	PRIORITY	VULCAN	ZHAO	0.4
+2026-11-04T20:33:38Z	SIG-W-20261104-058	RESEARCH-INTAKE / catchup primary checks	Remaining collateral headlines retain property and source gaps	PRIORITY	CREED,HOMER,CORAL	REGINALD	0.4
+2026-11-04T20:33:38Z	SIG-W-20261104-059	RESEARCH-INTAKE / catchup primary checks	Remaining energy headlines are leads, not measured outages or settlements	PRIORITY	BRENT	HANS	0.4
+2026-11-04T20:33:38Z	SIG-W-20261104-060	RESEARCH-INTAKE / catchup primary checks	Remaining Russia and maritime headlines require event-date matching	PRIORITY	YURI,OSPREY,HAWK	BRENT,FALCON	0.4
+2026-11-04T20:33:38Z	SIG-W-20261104-061	RESEARCH-INTAKE / catchup primary checks	Binance reporting and threat claims need incident-owner reconciliation	PRIORITY	CYPHER	LIQUID	0.4
+2026-11-04T20:33:38Z	SIG-W-20261104-062	RESEARCH-INTAKE / catchup primary checks	Remaining credit and macro headlines retain denominator and body gaps	PRIORITY	BROCK,HANS	GIBBS	0.4
+2026-11-04T20:33:38Z	SIG-W-20261104-063	RESEARCH-INTAKE / catchup primary checks	Remaining regional ENSO coverage is ungraded source context	PRIORITY	AEOLUS	CORAL,BRENT	0.4
+2026-11-04T20:33:38Z	SIG-W-20261104-064	RESEARCH-INTAKE / catchup primary checks	Remaining power-sector headlines are ungraded proposals and company leads	PRIORITY	WATT	VULCAN,HANS	0.4
+2026-11-04T20:40:22Z	SIG-W-20261104-065	RESEARCH-INTAKE / catchup primary checks	Apple earnings headline retains source and vintage gaps	PRIORITY	VULCAN	ZHAO	0.4
+2026-11-04T20:40:22Z	SIG-W-20261104-066	RESEARCH-INTAKE / catchup primary checks	UK company and consumer-policy headlines need dated source reconciliation	PRIORITY	HANS	CARL,LABOR	0.4
+2026-11-04T20:40:22Z	SIG-W-20261104-067	RESEARCH-INTAKE / catchup primary checks	Reported AGOA removal needs the dated legal instrument	PRIORITY	HAWK	MIDAS	0.4
+2026-11-04T20:40:22Z	SIG-W-20261104-068	RESEARCH-INTAKE / catchup primary checks	Reported Labadee suspension extension needs operator confirmation	PRIORITY	CRUISE		0.4

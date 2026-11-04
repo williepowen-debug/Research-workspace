@@ -1,0 +1,10 @@
+# WALTER catch-up — November 4, 2026
+STATUS: PARTIAL — bounded intake/research pass complete; owner grades, sources and publication remain separate.
+CHANGED: BOARD SIG-W-20261104-001 through 068; 187 required handoffs; WALTER continuity and source-qualified review.
+RESULT: 464 intake records and 57 bookmark content units dispositioned; 49 exact bookmark IDs marked. Review: `AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md`.
+PRIORITY: Reconcile existing FALCON WQ-559/November 4 gate review against Qeshm 019 and UKMTO 188 in 048; CREED T-01a observation condition met in 001, but CREED launch still requires Will's explicit permission. LABOR/ISHM release grades and FERT DTN/CF remain at their owners. No new commission.
+OWED: DEWEY 003R/005R are still queued but overlap REGINALD L801/November 1 FFIEC and VULCAN L800/DEWEY November 2 AMZN replay; reconcile request provenance/residual scope before closing or duplicating. WQ-551 FIRM remains deferred. NEXUS has a concurrent November 4 grade; its own completion packet governs acceptance.
+DEPENDENCIES: Please renew existing central READS attestation after the four reviewed basis changes listed in `research/2026-11-04_catchup/basis-review.json` under WALTER. Local hashes renewed; no new read dependency found. Shared futures fetch refuses returns on rounded quote/chart mismatch (e.g. 87.48999786376953 vs 87.49); `observations.json` retains the refusal. No guard bypass or shared-code edit. L907 bridge and L730 acceptance remain outstanding owner dependencies.
+APPROVALS: WQ-573 UNG stays conditional, sampled GFS winds positive; no order. WQ-556 C required routes unchanged. No domain desk launched, no new build, no external message.
+PUBLICATION: WALTER self-push deferred under BOARD_CONSUMPTION_SPEC sections 3.4/7 because foreign dirty work is present. Exact commits and delivery proof belong in `AGENTS/WALTER/LAST_COMPLETION.md`; written packets are not delivered or consumed.
+WILL_NEEDS: None for this bounded pass. FOLLOW-UP: coordinated publication and existing owner reconciliation; November 5 Iran sweep/calendar review, November 6 payroll/L334 and November 7 bank pass retain existing scopes.

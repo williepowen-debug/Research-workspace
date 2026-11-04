@@ -1,0 +1,41 @@
+---
+signal_id: "SIG-W-20261104-057"
+timestamp: "2026-11-04T20:33:38Z"
+dispatched: "2026-11-04T20:33:38Z"
+source: "WALTER"
+origin: ["RESEARCH-INTAKE / November 2\u20134 catchup and primary-source verification"]
+action: ["VULCAN"]
+info: ["ZHAO"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.4
+confidence_language: "assessed"
+resources: 1
+safety_net: "clear"
+cluster: "AI_INFRA_CAPEX"
+domain: "AI_CAPEX"
+entities: ["VULCAN"]
+word_count: 496
+dispatch_note: "Bounded catchup; written pending coordinated publication. Owner grades, delivery and consumption remain separate."
+---
+# Remaining chip and memory headlines need source-qualified owner reconciliation
+
+These source titles survived relevance screening in the November2–3 catchup. **Bodies/primary records were not recovered in this pass; none of their numbers, mechanisms or event dates is certified by this card.** Article date may differ from event date. Overlap with owner coverage remains unresolved for these exact articles. This is an explicit residual, not a completed research grade.
+
+ACTION VULCAN: reconcile only the relevant existing domain work at the next authorized review; discard duplicates, retain limitations, and obtain decisive source evidence before changing a figure/gate. No new study, monitor, paid access, or desk launch is commissioned. INFO ZHAO: context only. Named-property distress case tags await authenticated identity/event; no source title alone supplies one. Primary route ownership remains per the canonical carve-outs.
+
+- Intake 124, Mon, 02 Nov 2026 02:43:21 GMT: [News] Intel Cuts Intel 3, 18A Costs by ~15%, ~40% Since 1Q; Confirms Nova Lake to Use 18A-P - TrendForce. [Locator](https://news.google.com/rss/articles/CBMixgFBVV95cUxPUXNiNkdvbnM5aTA3MmZJTkZneVhiTzE2RFFUVy1qSTBHUDRfeGktcnBoM0pYOFl6Q1BRRVFPNUtYdFFLU1hPUUpDZHRBUVQzN01FSnJkbHdobld2ak1feFRtSEUycnl5QWQ3Q0w0YWhYb2ExUHk0ejV3MWQxMEFHQ1UxUmFoZlRzRjRKTXNUd0xoQkoyVDZ1cVRGakpxQVg1Z1VXWDFNa1BvT05SOVB1YWp4eUE4RnNuVXhmTDZINVkxYVJuVlE?oc=5)
+- Intake 125, Mon, 02 Nov 2026 04:37:39 GMT: NAND Prices Remain Robust as AI Demand Deepens Memory Shortage, but Long-Run Risks Look Exacerbated - Morningstar. [Locator](https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV2hXb2JyQmdZTVJUVzJoOExmTmllMDFOUm5rcDE5elBSY1EtcVdISzBXOXZmRy04MXlVcmhfN3FiS2RjU29kMHBjOW9FdHdXZEhyaC1QMFJsWXBMM3Zyd002YlAtemJZbEl0dFpOMTdNbm10QXVwTEhTVnRFZ3hhOUFRQVM0TV9wZDV3UDNtV1RuQU16LTlmdVZDUTNoWG9UMG94V19TNENEbFgzTWx4Q3d0NV9melFudzM1U19ELTRzUndyTE5pOU1NX1AxaE95YThFeDN2T2xjTkphTjVhazJWQjc?oc=5)
+- Intake 126, Mon, 02 Nov 2026 17:12:44 GMT: Qualcomm HBC Compared to HBM - ServeTheHome. [Locator](https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMFJ5aG9qRFBCLTI0LTZqMXUtQnRoMUtCMkZCd2J1S1dHbW5YTlVldFcwaGRBT2JCeC02VEh3bS1PVlRMUmVrUGJLU2Y1RGdJa1U1MmZtUnhobDdmemFvTHZyODg5ZENSc0ZVUUtGdGtSU1p4UWhQLTFDdm5yc0Vzb1FzSjBMN21Yd2c1aWlPaVZYR3VtUlZJNFZEakZqTXowcGVZclFqZEZyMmc2N0ZKak9RdlRWMm52SjRxbVZSM29BUTRWRFZXeTM3bC1NNjg4?oc=5)
+- Intake 127, Sun, 01 Nov 2026 23:21:00 GMT: SK Hynix Sees the Memory Shortage Lasting Through 2030. 2 Memory Stocks to Buy and Hold Until Then. - The Motley Fool. [Locator](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWlAtVjJ6ejZSTnZvdGNadFdXN2JhOEJNTV85X0N5MEd2ZS1TUEduczd3LUxHX28xSzA4RzkwMHRtZGtHdW4xaEFDYlZxdlpGN2ZpUkVTQjcySV90VDd3dkZMUTFWaTZhUlg5OWw0WlN4MENTVnFVcmZyRkoyQkZBYjRvdEZSVjcteXgzXzZWVGZDeGZ3S2ZEVk1PY1M3RlhnTkhtdjJ3RzlCNENDRkZDUTY1V2xNN3V4SF9zckxnVUxjaGJUOEJfZDFHWnJicEt1YWtOd1JyMA?oc=5)
+- Intake 128, Mon, 02 Nov 2026 09:26:00 GMT: Macronix's Miin Wu Sees Memory Shortage Lasting to 2030, Says Prices 'Won't Be Worse Than Now' - BigGo Finance. [Locator](https://news.google.com/rss/articles/CBMidkFVX3lxTE8yNFVEdVF0UWVhMFJ5R1hkVVVMYllRakxOT21JN1A2N1BLRGczc0VVaXpCOXJlQ2QtbWZYdFkwRnBMeDdWSWFoZzIzNEdMTjRyQk9SdWtFaUwzUlFla21iazNMUmlqMVJTRUNjX045bG55RzdqeUE?oc=5)
+- Intake 129, Mon, 02 Nov 2026 08:56:00 GMT: Memory Shortage Spreads to Graphics Cards: AMD to Raise GPU and GDDR6 Supply Prices Again After Just One Month - BigGo Finance. [Locator](https://news.google.com/rss/articles/CBMidkFVX3lxTE1VRUhEM0RDVVZXVVNXS2RPREp0a05sekc1OGFocG1oXzZ6SU1KRWR5d0RSZHhTcVhDd0FjRGlIZVlYaVNIUHlPd0lyaW1ObHdlcUZrTlhzbTZ2bjFScjd1OGE3RDdBUnhFejNRSnlRN1NEaWNCcVE?oc=5)
+- Intake 130, Mon, 02 Nov 2026 10:04:11 GMT: Weekly Radar 008: DRAM Tightness Splits by Capacity - TrendForce. [Locator](https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xeDNBRjhHcFY5QkRRWFFpTVZ2V2xNQ204NFdnbFd2MVIwM1A4WF9oUktlaWJPRlhuQmlTS1NZOXNESmNXYVZybFVqTDVMSm4xV1FfUV9LT1ZiRmZVcEhV?oc=5)
+- Intake 355, Tue, 03 Nov 2026 13:03:29 GMT: Samsung to make AMD and Nvidia HBM parts at second Texas fab, report says - The Next Web. [Locator](https://news.google.com/rss/articles/CBMidkFVX3lxTE56RXNfUmlYd1dMZjNmMTJRN0FYbXpMQmU5QW1jOFZfQmotdi14OEFnQ1VaM0NyX0ZneExPM2piUDh6UGFYR0UtcVZnZjZxUXNXUDhZMmkxYVc2Nm9Ja2NMcjFncEhKYlJkVVp1SHNxZmlwSXNSbmc?oc=5)
+- Intake 357, Tue, 03 Nov 2026 12:29:00 GMT: Samsung Reportedly Plans to Produce HBM Base Die at Second Plant in Taylor, Texas - marketscreener.com. [Locator](https://news.google.com/rss/articles/CBMizgFBVV95cUxOeHR1cmVnbGVFWHc5LV9VQkRPcTNHTkVzb3d0bE1OU2t2Z3JlTjRxQjVZLUZGdVJteGl0a0ZMaFNxemYzUXlmYm0tN3BRc1JEdDVwMVNiQ1ZGc3BxSTJfZVVhWWY1YnAxM1BteWkzd19ucW0zSFJHZVR4OEM4cWtyYUF0NkNLUWFkQzRuOFdubkZWLUR0WU5KYmVfRThaQ092WGFnbGZKaGs2VU54THVGaUdqV3VTY1VIRVRvNDBqeXlwekNTdjZLS0xHeWVmdw?oc=5)
+- Intake 358, Tue, 03 Nov 2026 12:38:15 GMT: Samsung 2nd Texas Fab Tapped for AMD, Nvidia HBM Supply - TradingPedia. [Locator](https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2VyZUdYeDZmMlV2SU4zd3FuUFhhY2dtRUFZRUxnU2plMTl6dUhkcXJUN05LMF9JQ2QzNWpJV2psRWVuNjBFYkd1WHVVQWFRazhsZzZYSUVSc3dlZkJpVGV3S0xyQk5zVE9DTS0xM0RTRTdmRU9uUURxVXh5Q2RyM0RSTzZvRS16QVNkU0U5MFJVeUFwdHZjLVFQWQ?oc=5)
+- Intake 361, Tue, 03 Nov 2026 13:39:22 GMT: Samsung Foundry Gets A Massive Boost As AMD Reportedly Commits To Sourcing Next-Generation HBM Base Dies From Its Upcoming Taylor 2 Facility - Wccftech. [Locator](https://news.google.com/rss/articles/CBMiigFBVV95cUxONUpoYThRNkowSUxERmhHYmEzeTYwLU5JYXVOc1MxbGZONUJ4aUtuTXYyWi1FV2xkOVVCcGNmZTVUaHBMMTMtRnlseTlPSTh4TXJzNXhIUDFIUjk1dUctOGdpUkhRcV92d3NaQkItaVFhcFE5NGJqS0RGSHJsN0gyWnYwTmdoeUlIZkHSAY8BQVVfeXFMUE5TekZLTDhwXzJmQ1ZBTjh5NFlvZXNsQWdydFZfTmt0RUlESmhZdnFJQVdoTnMxS0c1dzJQWjhOT3RCbUJBalJfeUpIQnE5ZVZBZ18tNWZoWDJsdTBhMmxJQmFfc0JvWE5KRGlxeXNXcHJFUUJaLUR1QmNxMDk1ZmJLNU9zUkt5RDl3NENMdU0?oc=5)
+- Intake 414, Tue, 03 Nov 2026 14:01:07 GMT: Apple CEO Calls Memory Pricing Unprecedented as iPhone, Mac and iPad Price Rises Help Offset Costs - inkl. [Locator](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV1E1XzAxaFVoVGVHdnFDcTcySnNTTE1DR1VmSVNqeGxYWnRKSG52dFc1ZWRIcVZiZUtCX2JVajlZRjh4d2o0NFdUdWdqWjZ0ZlF6RmpZYjQ5RWU5UUFEY1BYN25NbU5zN3JZWHloMU1naURSR1Q2Vkk2X0xWR1VFRFdwYmp4d3RNWU9nazF0UFZZY2JfYWszUTVadU5neVF1NXpnTWQ4Y3dKdjZMMXVZaVBkSk04U1pTU0tpNEZNbWI?oc=5)
+- Intake 416, Mon, 02 Nov 2026 08:33:38 GMT: AI Networking and Interconnect Market Projected to Reach US$279.8 Billion in 2027, with Scale-Up Share Rising to 24%, Says TrendForce - TrendForce. [Locator](https://news.google.com/rss/articles/CBMicEFVX3lxTE5DV2VTQkFVbU16SnV1RzVRVS1KSGdtSkVBcXVMTWNQQzgtaU9OdW9zaGZHWk5vRG5MMzF2Y2l6LVE2MldhR2g2ZElwOEdNWTkybVJfelliRklxVXVKVmJSQ0haVElvUmkyM1JSNUJDdG8?oc=5)
+
+Sources: RESEARCH-INTAKE snapshot intake-items.json; exact list positions above

@@ -1,0 +1,41 @@
+[
+  {
+    "reference_time": "2026-11-03T00:00:00+00:00",
+    "forecast_hours": 0,
+    "parameter": "UGRD",
+    "pressure_pa": 1000,
+    "latitude": 60,
+    "longitude_count": 1440,
+    "zonal_mean_u_m_s": 3.903806749131945,
+    "raw_sha256": "894072f1ddd47c7917c9696c9567c601dbb1eba40c13ec30544c3886401b2cb8",
+    "basis": "GFS analyzed field f000, not direct measurement or forecast; owner acceptance pending",
+    "decoder_crosscheck": "integer extraction and numpy unpackbits agree",
+    "source": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261103%2F00%2Fatmos&file=gfs.t00z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60"
+  },
+  {
+    "reference_time": "2026-11-04T00:00:00+00:00",
+    "forecast_hours": 0,
+    "parameter": "UGRD",
+    "pressure_pa": 1000,
+    "latitude": 60,
+    "longitude_count": 1440,
+    "zonal_mean_u_m_s": 1.7911575520833336,
+    "raw_sha256": "35719954507716e45d6475c289b80f838f9fa5e324c28f5ebeb29ce7e4b552c2",
+    "basis": "GFS analyzed field f000, not direct measurement or forecast; owner acceptance pending",
+    "decoder_crosscheck": "integer extraction and numpy unpackbits agree",
+    "source": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261104%2F00%2Fatmos&file=gfs.t00z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60"
+  },
+  {
+    "reference_time": "2026-11-04T12:00:00+00:00",
+    "forecast_hours": 0,
+    "parameter": "UGRD",
+    "pressure_pa": 1000,
+    "latitude": 60,
+    "longitude_count": 1440,
+    "zonal_mean_u_m_s": 1.0928568793402778,
+    "raw_sha256": "ecfd8b78be7913ef77b964444a3b11577d8adee94dca85edd37bacca7d0f0878",
+    "basis": "GFS analyzed field f000, not direct measurement or forecast; owner acceptance pending",
+    "decoder_crosscheck": "integer extraction and numpy unpackbits agree",
+    "source": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261104%2F12%2Fatmos&file=gfs.t12z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60"
+  }
+]

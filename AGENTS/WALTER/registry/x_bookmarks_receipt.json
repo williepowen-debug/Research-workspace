@@ -1,49 +1,220 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-02T15:04:01Z",
-  "items": 9,
+  "checked_at": "2026-11-04T20:36:55Z",
+  "items": 49,
   "scan": {
-    "checked_at": "2026-11-02T14:52:38Z",
-    "head_checked_at": "2026-11-02T14:52:37Z",
+    "checked_at": "2026-11-04T20:15:32Z",
+    "head_checked_at": "2026-11-04T20:15:32Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 3
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 6,
-    "fully_read": 3
+    "fully_read": 5,
+    "partly_read": 44
   },
   "dispositions": {
-    "DISPATCH": 6,
-    "FOLD": 1,
-    "DUP": 1,
-    "KILL": 1
+    "NO-ACTION": 6,
+    "FOLD": 42,
+    "DUP": 1
   },
   "follow_ups": [
     {
-      "id": "2117067688409170068",
-      "ref": "AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md"
+      "id": "2117991967879749788",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
     },
     {
-      "id": "2117135827301982585",
-      "ref": "AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md"
+      "id": "2117697821369352638",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
     },
     {
-      "id": "2116983621856936241",
-      "ref": "AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md"
+      "id": "2117672125494374771",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
     },
     {
-      "id": "2116847728961765545",
-      "ref": "AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md"
+      "id": "2117696120943939746",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
     },
     {
-      "id": "2116300222888616300",
-      "ref": "AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md"
+      "id": "2117688699731525825",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
     },
     {
-      "id": "2116630286985470060",
-      "ref": "AGENTS/WALTER/research/2026-11-02_bookmarks/REVIEW.md"
+      "id": "2117596420567888171",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117636685651390721",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117675911080448142",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117626491265851570",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117678266039321065",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117642677017514079",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117678619162276323",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117536244053778742",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117676615425798574",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117645173794505006",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117657823748161568",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117365616579666418",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117400241444102295",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117365291084890257",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117283989673140265",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117319485250207831",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117234693456142361",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117195295230693680",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117298030160568646",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117317173878120748",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117182827804418064",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117164877701595165",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117302583291248897",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117284923090588145",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117284850357194855",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117274096899863037",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117052958453969030",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117248917738012849",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2116930768136245591",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2116984147243573674",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117055435958374493",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117244742883041681",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117279565559038039",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2116903698613801399",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117269114490155454",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117059410551844901",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117256056774566284",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117264234811920846",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117257560570945592",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117121870311162246",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117264791643590729",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117263614164025722",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2116934653441450235",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
+    },
+    {
+      "id": "2117262178197655859",
+      "ref": "AGENTS/WALTER/research/2026-11-04_catchup/REVIEW.md#bookmark-source-limits"
     }
   ],
   "requests": []
