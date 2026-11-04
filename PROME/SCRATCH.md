@@ -3,7 +3,7 @@
 **Updated:** 2026-11-03 — Kimi full boot and session closeout. Prior ★ NEXT entries in git: `git log -p -- PROME/SCRATCH.md`.
 
 ## ★ NEXT SESSION — START HERE
-**November 4 Kimi maintenance recovery:** current continuation is [the recovery record](reports/2026-11-04_kimi-maintenance-recovery/README.md), which supersedes the November 3 next-action narrative below. Saved drafts and original failed reviews recovered; next authority decision is WQ-597. L557 is already resolved in DOCKET; do not restart it.
+**November 4 approved maintenance continuation:** current entry point is [the ruling and execution record](proposals/2026-11-04_wq594-597-RULED.md), with [independent verdicts and closeout receipts](reports/2026-11-04_approved-maintenance-reviews.md). DOCKET owns unfinished work; previous recovery and November 3 narratives below are history. Do not restart L557 or infer L835 acceptance.
 
 **Latest session:** November 3 full boot, research synthesis and closeout write-back; account [memory/2026-11-03.md](../memory/2026-11-03.md) § PROME. No agents were spawned. The Standard audit cannot be marked reviewed under Will's no-spawn instruction without a specific exception; do not infer audited delivery from saved records.
 **Resume through canonical records:** operator decisions are in `WILL_QUEUE.md`; dated work and owners are in DOCKET and the generated calendar; continuity is in HANDOFF. No trade, additional study, future test, monitor or forecast registration was approved by the research discussion.
@@ -39,7 +39,7 @@
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-04 · 15 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-597 (11/4) · WQ-592 (11/5) · WQ-548 (11/5) · WQ-495 (11/5) · WQ-593 (11/6) · WQ-591 (11/6) · WQ-596 (11/7) · WQ-595 (11/7) · WQ-594 (11/7) · WQ-547 (11/17)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-04 · 11 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-592 (11/5) · WQ-548 (11/5) · WQ-495 (11/5) · WQ-593 (11/6) · WQ-591 (11/6) · WQ-547 (11/17)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
