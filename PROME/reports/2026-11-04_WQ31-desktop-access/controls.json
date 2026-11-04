@@ -1,0 +1,44 @@
+{
+  "machine": "DESKTOP-BC6EF81",
+  "credential_locations_checked": [
+    "FORGE/tools/market-data/.env",
+    ".env",
+    "process environment"
+  ],
+  "canonical_expiry_utc": "2026-11-05T19:02:19+00:00",
+  "renewed_token_found": false,
+  "records": [
+    {
+      "observed_at_utc": "2026-11-04T22:08:10.153385+00:00",
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveReportingPeriods",
+      "parameters": {},
+      "curl_rc": 0,
+      "http_status": "500",
+      "response_bytes": 57,
+      "response_sha256": "855a0091b29400456010f4ff6a39987480e1c6e4a34a1a2c7c75219e15fd9f7f",
+      "recognized_error_codes": [
+        "5002"
+      ],
+      "access_denied": false
+    },
+    {
+      "observed_at_utc": "2026-11-04T22:08:10.434304+00:00",
+      "endpoint": "https://ffieccdr.azure-api.us/public/RetrieveFacsimile",
+      "parameters": {
+        "reportingPeriodEndDate": "6/30/2026",
+        "fiIDType": "ID_RSSD",
+        "fiID": "3138146",
+        "facsimileFormat": "SDF"
+      },
+      "curl_rc": 0,
+      "http_status": "500",
+      "response_bytes": 57,
+      "response_sha256": "855a0091b29400456010f4ff6a39987480e1c6e4a34a1a2c7c75219e15fd9f7f",
+      "recognized_error_codes": [
+        "5002"
+      ],
+      "access_denied": false
+    }
+  ],
+  "decision": "BLOCKED: renewed laptop credential not present in approved desktop homes; do not infer Q3 availability from failed controls."
+}
