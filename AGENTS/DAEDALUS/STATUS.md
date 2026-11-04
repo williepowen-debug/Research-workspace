@@ -77,5 +77,5 @@
 
 - **WORK:** PROME retained cleanup applied and independently verified; nine exact files and one test adaptation accepted. Bounded plan/result review complete; whole audit PARTIAL.
 - **CHECKS:** Result suite 44/44 passes; missing timing/pointer mutations fail. Closeout 20261104T213617Z rc 0, no BLOCKING/UNKNOWN. Whole Harness/profile clocks DUE; root remains above rotation stop target despite no longer firing the size trigger.
-- **DELIVERY:** Reconciliation/input records and PROME packet published at 3be4bb07a; fresh-fetch push confirmed. Legacy verify 20261104T211611Z rc 0, eight paths match origin. Consumption not claimed.
+- **DELIVERY:** Result review 25602aaaf published, fresh-fetch confirmed; PROME explicitly consumed and filed the byte-identical packet, verified on origin. Legacy V2 UNKNOWN on moved path explained by exact ancestry/processed-byte checks; receipt conserved. Bounded PROME review closed.
 - **OPEN:** Root rotation and C17 owner cleanup; TERRY B44/D17 November 6; DAEDALUS A09 and historical skipped-item closure. No additions reinstated, no owner instruction edits, no new Will decision. Unrelated obligations above unchanged.

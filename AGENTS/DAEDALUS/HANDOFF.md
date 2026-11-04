@@ -2,6 +2,8 @@
 
 ## Current continuation — harness reconciliation, November 4
 
+Result delivery: 25602aaaf fresh-fetch push confirmed after one transient DNS retry. PROME explicitly acknowledged consumption and bounded review completion; filed reply is byte-identical on origin. Legacy verify 20261104T213657Z: V1 CLEAN, V2 UNKNOWN because PROME had moved the inbox packet. Supplementary exact evidence proves 25602aaaf is an ancestor of origin/master and processed packet bytes equal the original committed packet. This explains the path-based UNKNOWN; it does not rewrite its receipt. No further PROME review requested.
+
 Latest: PROME application c18739007 independently ACCEPTED in `runs/2026-11-04_L817_RESULT_REVIEW.md`: nine hashes exact; test adaptation accepted; 44 tests PASS and two mutation controls FAIL as required. Bounded PROME review COMPLETE. Original 27 IDs now 23 applied / 1 superseded / 1 no-op / 2 excluded. Remaining audit: root rotation, C17, A09, TERRY November 6 and historical skipped-item reconciliation. Earlier plan/application-pending paragraphs below are history. LIQUID remains separately pending.
 
 Plan publication: 38c674a8c fresh-fetch confirmed; legacy verify 20261104T213100Z rc 0, five paths match origin. Pointer notification accepted by PROME thread; consumption/application not yet claimed. Closeout 20261104T213031Z rc 0 with maintenance DUE.
