@@ -1,8 +1,8 @@
 # WQ-508 and WQ-577 retained cleanup
 
-**Authority RULED; plan ACCEPTED and exact target bytes applied; result verification pending.** Will approved WQ-508 on October 23, verbatim “ok approved”; WQ-530 A on October 28, “530 A approve”, merged L419/L645 into L817; WQ-577 on October 31, “577 Yes.”, retained removals/simplifications and dropped additions. On November 4 Will directed PROME in this chat to help DAEDALUS complete this existing audit, supplying the owner split and confirming that retained cleanup is already approved. No new Gate C activation, trade, threshold, monitor or owner-directory edit is authorized.
+**Authority RULED; plan ACCEPTED and exact target bytes applied; result ACCEPTED.** Will approved WQ-508 on October 23, verbatim “ok approved”; WQ-530 A on October 28, “530 A approve”, merged L419/L645 into L817; WQ-577 on October 31, “577 Yes.”, retained removals/simplifications and dropped additions. On November 4 Will directed PROME in this chat to help DAEDALUS complete this existing audit, supplying the owner split and confirming that retained cleanup is already approved. No new Gate C activation, trade, threshold, monitor or owner-directory edit is authorized.
 
-DAEDALUS reconciliation: `AGENTS/DAEDALUS/runs/2026-11-04_HARNESS_RECONCILIATION.md`; receipt `PROME/inbox/2026-11-04_from-DAEDALUS_harness-reconciliation.md` (processed counterpart after consumption). Prior original packet: `PROME/inbox/processed/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`. Later current instructions control over old replacement hints.
+DAEDALUS reconciliation: `AGENTS/DAEDALUS/runs/2026-11-04_HARNESS_RECONCILIATION.md`; receipt `PROME/inbox/processed/2026-11-04_from-DAEDALUS_harness-reconciliation.md`. Prior original packet: `PROME/inbox/processed/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`. Later current instructions control over old replacement hints.
 
 ## Exact plan and invariants
 
@@ -39,12 +39,12 @@ PROME then updates L817's current summary to the reconciled count/status, adds t
 
 ## Current state
 
-PLAN ACCEPTED; exact target implementation APPLIED; result review PENDING. No new policy or audit completion claim.
+PLAN ACCEPTED; exact target implementation APPLIED; result review ACCEPTED. No new policy or audit completion claim.
 
 
 ## Application and test adaptation
 
-Plan read: DAEDALUS `AGENTS/DAEDALUS/runs/2026-11-04_L817_PLAN_REVIEW.md`, committed 38c674a8c, ACCEPTED with zero blockers and two independently devised Gate C counterexamples. Reads consumed for this retained batch: one plan; result still owed. All nine live files matched before hashes, were written once, and matched accepted after hashes. The independent reader was not blind to its own prior reconciliation; no blind rediscovery claim.
+Plan read: DAEDALUS `AGENTS/DAEDALUS/runs/2026-11-04_L817_PLAN_REVIEW.md`, committed 38c674a8c, ACCEPTED with zero blockers and two independently devised Gate C counterexamples. Reads consumed for this retained batch: one plan and one accepted result. All nine live files matched before hashes, were written once, and matched accepted after hashes. The independent reader was not blind to its own prior reconciliation; no blind rediscovery claim.
 
 Initial existing-suite run: 44 tests, one failure. `test_prerequisites_are_checked_before_the_render` asserted the duplicate Delivery sentence removed by C09; Pre-closeout item 5 retains the actual instruction. **Acceptance before the narrow test edit:** assert that canonical Pre-closeout section still contains Publication prerequisites and its explicit before-render requirement; assert Delivery points back to item 5; retain runner-order assertion unchanged. Removing the canonical instruction must fail even if the pointer remains. Additional affected file is only `PROME/tools/tests/test_closeout_simplification_WQ240.py`; no production checker or rule change. This ordinary test adaptation is disclosed for the existing result review, not another review round or authority grant.
 
@@ -54,3 +54,7 @@ Declared residue: root's accepted output is below the rotation trigger but above
 Validation after adaptation: all 44 existing closeout/charter/parity tests PASS. A temporary mocked-read mutation removed the canonical before-render requirement while leaving Delivery's pointer; the adapted test failed as required. No source fixture was changed by that mutation. Weekday checks pass, relevant target diffs are whitespace-clean, and explicit-charter read-cap check returns rc 0 with rotation debt preserved. Both root/PROME boot and closeout runner pairs are byte-identical and point to the amended manual steps. No L835 acceptance, Kernel execution or Standard audit was performed.
 
 All nine applied instruction/provenance files still equal the accepted after hashes. Test adaptation is the only extra implementation path, reviewed at result stage; its source hash is in the result-request packet. State writeback reconciles L817, adds the requested STATUS pointer, regenerates the calendar, and files only the consumed DAEDALUS reconciliation. Other new inbox arrivals remain outside this bounded audit application.
+
+## Accepted result
+
+DAEDALUS accepted implementation `c18739007` and the narrow test adaptation in `AGENTS/DAEDALUS/runs/2026-11-04_L817_RESULT_REVIEW.md`. Independent run: 44 tests PASS; removing either canonical timing or the Delivery pointer fails. Explicit bounded review completion received; no blocker, correction or further reader. Original 27 IDs now: 23 applied, C08 superseded, P06 no-op, B03/P13 excluded. L419/L645 retained changes also applied. C17/root rotation and the owner remainder above stay open; whole audit remains PARTIAL. L835 remains open, with rejected implementations uninstalled.
