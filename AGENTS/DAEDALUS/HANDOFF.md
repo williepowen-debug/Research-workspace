@@ -2,6 +2,8 @@
 
 ## Current continuation — harness reconciliation, November 4
 
+Plan publication: 38c674a8c fresh-fetch confirmed; legacy verify 20261104T213100Z rc 0, five paths match origin. Pointer notification accepted by PROME thread; consumption/application not yet claimed. Closeout 20261104T213031Z rc 0 with maintenance DUE.
+
 Update: PROME submitted exact retained cleanup. Plan ACCEPTED in `runs/2026-11-04_L817_PLAN_REVIEW.md` (nine target hashes, two Gate C counterexamples). Scope is entire proposed change set plus supporting context, not blind rediscovery/unchanged-file re-audit. PROME applies and returns evidence; DAEDALUS result verification next. Root rotation still owes below-70% stopping target. LIQUID repair-review request remains pending separately; do not claim it was reviewed.
 
 Will resumed the existing audit. Remaining-items reconciliation is complete at `runs/2026-11-04_HARNESS_RECONCILIATION.md` with input hashes in its INPUTS.json companion. Original 27 PROME IDs: 7 applied, 1 superseded, 1 no-op, 2 excluded; 16 retained IDs represent 15 edits (D12/P07 overlap). This denominator excludes separately absorbed L419/L645 wording work and C17 owner interpretation. WQ-577 drops additions; P13 reorder-only exclusion is our narrow scope interpretation. Current C1–C9 reporting and suspended process cap must survive cleanup.
