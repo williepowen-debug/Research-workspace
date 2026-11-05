@@ -1,0 +1,32 @@
+{
+  "basis": "first-published",
+  "series": "WTREGEN",
+  "rows": [
+    {
+      "date": "2026-10-28",
+      "value": "999727",
+      "first_published": "2026-10-29"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "952002",
+      "first_published": "2026-10-22"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "883373",
+      "first_published": "2026-10-15"
+    }
+  ],
+  "request": {
+    "series_id": "WTREGEN",
+    "output_type": 4,
+    "observation_start": "2026-10-13",
+    "realtime_start": "2026-09-29",
+    "realtime_end": "9999-12-31",
+    "limit": 25
+  },
+  "short": false,
+  "missing": [],
+  "under_limit": true
+}

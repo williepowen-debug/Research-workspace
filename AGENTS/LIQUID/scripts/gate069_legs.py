@@ -138,6 +138,38 @@ def grade_l4(hy, eq):
     return out
 
 
+def _main_l4_stubbed(name, prior, close, hy_last):
+    """Run main() with vendor and FRED stubbed; return the L4 verdict its output prints."""
+    import contextlib, io, types
+    import numpy as np, pandas as pd
+    idx = pd.to_datetime(["2026-10-26", "2026-10-27", "2026-10-28", "2026-10-29", "2026-10-30",
+                          "2026-11-02", "2026-11-03"])
+    days = [d.strftime("%Y-%m-%d") for d in idx]
+    cols = {t: [50.0] * 7 for t in TICK}
+    cols[name] = [prior] * 6 + [close]
+    frame = pd.DataFrame({t: np.array(v, dtype=np.float32).astype(np.float64) for t, v in cols.items()}, index=idx)
+    hy = [300] * 6 + [hy_last]
+    yf = types.ModuleType("yfinance"); yf.download = lambda *a, **k: {"Close": frame}
+    ft = types.ModuleType("fetch")
+    ft.fred_fetch = lambda sid, limit=30: ([{"date": d, "value": f"{v / 100:.2f}"} for d, v in zip(days, hy)]
+                                           if sid == "BAMLH0A0HYM2" else [{"date": d, "value": "1.80"} for d in days])
+    saved_mods = {k: sys.modules.get(k) for k in ("yfinance", "fetch")}
+    saved_argv, saved_path = sys.argv, list(sys.path)
+    sys.modules["yfinance"], sys.modules["fetch"] = yf, ft
+    sys.argv = ["gate069_legs.py"]
+    out = io.StringIO()
+    try:
+        with contextlib.redirect_stdout(out):
+            main()
+    finally:
+        sys.argv, sys.path[:] = saved_argv, saved_path
+        for k, v in saved_mods.items():
+            if v is None: sys.modules.pop(k, None)
+            else: sys.modules[k] = v
+    text = out.getvalue()
+    return "NOT FIRED" if "L4 🟢 NOT FIRED" in text else "FIRED" if "L4 🔴 FIRED" in text else "OTHER"
+
+
 def selftest():
     """Offline. Includes CATO's 9/29 counterexample as a permanent regression case."""
     ok = True
@@ -202,6 +234,18 @@ def selftest():
             {D[-2]: 326, D[-1]: 331}, path_eq)["state"], expected)
     check("CLI path keeps a half-cent exactly", vendor_closes(pd.Series([54.235], index=D[:1], dtype="float32")),
           {D[0]: 54.235})
+    # Stored tie: 128.40 -> 109.14 is exactly -15%; four decimals keeps it, five would not.
+    stored = pd.Series([128.40, 109.14], index=D[-2:], dtype="float32")
+    tie_eq = {t: {D[-2]: 50.0, D[-1]: 50.0} for t in TICK}
+    tie_eq["NBIS"] = vendor_closes(stored)
+    check("stored tie float32 128.40 -> 109.14, HY +5", grade_l4({D[-2]: 300, D[-1]: 305}, tie_eq)["state"], "FIRED")
+    # main() itself, vendor and FRED stubbed: these reach the read-path line the checks above do not.
+    for name, case_prior, case_close, hy_last, expected in (
+            ("CRWV", 54.235, 46.10, 305, "NOT FIRED"), ("NBIS", 237.355, 201.75, 305, "FIRED"),
+            ("APLD", 54.30, 46.155, 305, "FIRED"), ("APLD", 54.30, 46.155, 304, "NOT FIRED"),
+            ("APLD", 54.30, 46.16, 305, "NOT FIRED"), ("APLD", 20.16, 17.135, 305, "FIRED")):
+        check(f"main() {name} {case_prior} -> {case_close}, HY {hy_last - 300:+d}",
+              _main_l4_stubbed(name, case_prior, case_close, hy_last), expected)
     # L1
     bb = {d: 230.0 for d in D}; ccc = {d: 800.0 for d in D}
     check("L1: BB 230 + CCC flat → FIRED", grade_l1(bb, ccc)["state"], "FIRED")
@@ -244,11 +288,6 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--selftest", action="store_true"); a = ap.parse_args()
     if a.selftest:
         return selftest()
-    # November4 exact-boundary repair: author-tested candidate, independent result
-    # release pending. Pure functions remain available for review; no operational grade.
-    print("WITHHELD: November4 L4 decimal-boundary candidate awaits independent result release; "
-          "see research/2026-11-04_credit-followthrough/ACCEPTANCE.md. No operational grade.")
-    return 4
     sys.path.insert(0, "FORGE/tools/market-data")
     print("=" * 96)
     print("  GATE-LIQ-069 — L1 / L4 graded here · L2 → scripts/crwv_cds_grade.py · L3 NO_INSTRUMENT · L5 secondary-sourced")

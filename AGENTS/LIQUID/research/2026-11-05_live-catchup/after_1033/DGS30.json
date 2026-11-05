@@ -1,0 +1,97 @@
+{
+  "basis": "first-published",
+  "series": "DGS30",
+  "rows": [
+    {
+      "date": "2026-11-03",
+      "value": "5.32",
+      "first_published": "2026-11-04"
+    },
+    {
+      "date": "2026-11-02",
+      "value": "5.28",
+      "first_published": "2026-11-03"
+    },
+    {
+      "date": "2026-10-30",
+      "value": "5.31",
+      "first_published": "2026-11-02"
+    },
+    {
+      "date": "2026-10-29",
+      "value": "5.32",
+      "first_published": "2026-10-30"
+    },
+    {
+      "date": "2026-10-28",
+      "value": "5.37",
+      "first_published": "2026-10-29"
+    },
+    {
+      "date": "2026-10-27",
+      "value": "5.3",
+      "first_published": "2026-10-28"
+    },
+    {
+      "date": "2026-10-26",
+      "value": "5.31",
+      "first_published": "2026-10-27"
+    },
+    {
+      "date": "2026-10-23",
+      "value": "5.33",
+      "first_published": "2026-10-26"
+    },
+    {
+      "date": "2026-10-22",
+      "value": "5.29",
+      "first_published": "2026-10-23"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "5.42",
+      "first_published": "2026-10-22"
+    },
+    {
+      "date": "2026-10-20",
+      "value": "5.42",
+      "first_published": "2026-10-21"
+    },
+    {
+      "date": "2026-10-19",
+      "value": "5.48",
+      "first_published": "2026-10-20"
+    },
+    {
+      "date": "2026-10-16",
+      "value": "5.43",
+      "first_published": "2026-10-19"
+    },
+    {
+      "date": "2026-10-15",
+      "value": "5.43",
+      "first_published": "2026-10-16"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "5.52",
+      "first_published": "2026-10-15"
+    },
+    {
+      "date": "2026-10-13",
+      "value": "5.56",
+      "first_published": "2026-10-14"
+    }
+  ],
+  "request": {
+    "series_id": "DGS30",
+    "output_type": 4,
+    "observation_start": "2026-10-13",
+    "realtime_start": "2026-09-29",
+    "realtime_end": "9999-12-31",
+    "limit": 25
+  },
+  "short": false,
+  "missing": [],
+  "under_limit": true
+}
