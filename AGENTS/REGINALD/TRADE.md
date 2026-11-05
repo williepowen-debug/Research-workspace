@@ -29,7 +29,7 @@ Last real data refresh: 2026-11-05 — §2 checked against `PROME/data/2026-11-0
 | `ZION $62.5P Nov-20-2026 ×2` | Fidelity | FORGE (card/owner UNKNOWN, D-74) | ZION matrix rank 1; Q3 print clean (`reports/2026-10-22_catchup/REPORT.md` §5) |
 | `APO $95P Dec-18-2026 ×1` | Fidelity | FORGE · BROCK | Will ruled HOLD 8/13; vehicle-mismatch flag (BROCK) |
 | `VLY $12P Dec-18-2026 ×1` · `FLG $10P Mar-19-2027 ×1` | Fidelity | 11/5 capture; FORGE row not checked; card/owner UNKNOWN | No REGINALD card or trigger on either line |
-| `WAL $70P Dec-18-2026 ×1` · `KRE $25P Jan-15-2027 ×1` | Robinhood | FORGE 9/29 only — **UNVERIFIED since 9/29** | ROLL70 card DEAD, Will 10/29 ('all dead', tracking stopped, holding UNKNOWN); gate retirement recommended to PROME 11/05, row unchanged · KRE $25P lottery (D-54) |
+| `WAL $70P Dec-18-2026 ×1` · `KRE $25P Jan-15-2027 ×1` | Robinhood | FORGE 9/29 only — **UNVERIFIED since 9/29** | ROLL70 card DEAD, Will 10/29 ('all dead', tracking stopped, holding UNKNOWN); `GATE-TERRY-ROLL70-EXIT` RETIRED 11/05 (WQ-610 A, Will 11:03 ET): line may still exist, no exit guard, no card unless Will asks · KRE $25P lottery (D-54) |
 
 *Grouping is not approval or ownership (FORGE D-74). No fills, dispositions or card states are inferred here.*
 
@@ -52,7 +52,7 @@ At each print-cluster grade, this desk sends TERRY any candidate expression as a
 | Trigger | Letter | State (vintage in each cell; live levels → `STATUS.md` §THRESHOLD STATUS) | Consequence |
 |---|---|---|---|
 | `REG-T-01` | KRE < $60 | UN-FIRED, 17.1% away (KRE $72.41 [10/22 settled]) | 🔴 to ALL; the KRE puts' thesis level |
-| `REG-T-02` | WAL < $78 | **FIRED since 9/1 (cycle 2)**; exit ≥ $81.90 ×3, run 0-of-3 (37 rows through 10/22, $76.67) | Guards ROLL70; 2-of-3 → packet TERRY |
+| `REG-T-02` | WAL < $78 | **FIRED since 9/1 (cycle 2)**; exit ≥ $81.90 ×3, run 0-of-3 (46 rows through 11/04, $79.24) | ROLL70 gate retired 11/05; the Fidelity WAL legs read this row directly; 2-of-3 → packet TERRY |
 | `REG-T-03` / `-04` | HY OAS > 320 ×3 / > 350 | **REG-T-03 CREDIT-CANARY-FIRED (10/16 close)**; 7 consecutive >320 through 340 [10/22]; cross-check BANK-ABSENT ~0.7 (`reports/2026-10-23_boot/REPORT.md` §4); **REG-T-04 10bp away, run 0 of 3** | Credit transmission — **run the bank-credit cross-check first** (`reports/2026-07-30_bank-side-HY-attribution.md`) **Single-issuer disclosure rider (WQ-512 RULED APPROVE A, Will 2026-10-23 17:01 ET):** at a fire, the Will-facing consequence states named-issuer contribution (CSC/Optimum 0.47% of HYG [10/22]; +1,000bp on CSC ≈ +4.7bp) and the index level without those issuers; no level, operator, instrument or consequence moves; exit (≤330 ×5) read with the 10/31 index-rebalance caveat → `registry/NOTES.md`. |
 | `VX-REG-18.04` / `18.05` | CCC/HY > 3.6× ×3 · B-tier > 300 / 330 / 380 | HARD-FIRE continues (3.94× [10/22]; CCC 1,340; no new CCC-led re-cross) · B 346 [10/22] = ORANGE (>330) | Escalation SENT 9/26; watch, not re-escalate (Will 9/26) |
 | `VX-REG-6.03` | FLG ladder −10 / −15 / −20% vs $14.24 | **🔴 RED since the 10/7 close $11.30**; 11 settled closes below RED (10/7–10/21); 10/22 settled $11.44 sat just above $11.39 (state stays RED, state machine); $10.38 intraday 10/23 after the Q3 miss (not settled) | Packets PROME + FLG sent 10/7 (`018af9846`); no band beyond RED |

@@ -29,7 +29,7 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 - **L895 DONE:** all 4 filed; line diff 0 of 134 changed, 4 added. HSBC USA deposits −$7.69B, not a flag. Frozen universe −$6.54B / +$32.70B; 6 flags unchanged; verdict waits for FDIC.
 - ★ **L516:** FDIC posted the P&A today. My first URL 404'd; the right one sat in my 10/9 report. A 404 on a guessed URL is not absence. Schedules redacted, shared figure unchanged, weekly check closed.
 - **FL frame:** SBCF, SSB final HOLDS; NO TRANSMISSION line reached; PROVISIONAL until BKU. SBCF $8.4M = PCD measurement-period adjustment.
-- **Other:** VLY, OZK 10-Qs not filed; OZK `RIAD5409` flat, sent to OZK channel. CREED T-01a: no bank transmission. HY 332: REG-T-04 NOT FIRED. ROLL70: recommended RETIRE, row unchanged. Inbox 21 drained. → `reports/2026-11-05_boot/REPORT.md`.
+- **Other:** VLY, OZK 10-Qs not filed; OZK `RIAD5409` flat, sent to OZK channel. CREED T-01a: no bank transmission. HY 332: REG-T-04 NOT FIRED. ROLL70: recommended RETIRE; PROME retired it 11:03 ET (WQ-610 A). Inbox 21 drained. → `reports/2026-11-05_boot/REPORT.md`.
 - **Skipped:** NEXUS brief (closeout step); H.4.1 today and H.8 11/06 not yet out; L180 and ranking test stay 11/07.
 
 ### EARLIER — 2026-11-03 12:06 ET, Will-launched boot, intake and write-back
