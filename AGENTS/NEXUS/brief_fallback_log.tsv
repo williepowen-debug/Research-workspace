@@ -108,3 +108,4 @@ date	agent	cause	note
 2026-11-02T10:05:10-05:00	LIQUID	stale	Brief pin ecf7b52a5 four STATUS commits behind4edee7bbd;parent raw STATUS read,source frontier preserved
 2026-11-04T15:33:32-05:00	ALL	digest	31 briefs via 3 gpt-6.1-sol readers; LIQUID stale pin4; RED unpinned; dated content gaps retained in DIGESTS; no full matrix re-sweep.
 2026-11-04T15:33:32-05:00	LIQUID	stale	Parent raw STATUS4edee7bbd read; pin4 commits behind; owner credit grade ends10/29.
+2026-11-05T18:03:31-05:00	REGINALD	brief-gap	Startup recovery, no pass. Fresh brief 11/5 16:35 ET lacked the settled KRE 74.13 [11/4] that closes M-05 DOWN; read at STATUS row 108.

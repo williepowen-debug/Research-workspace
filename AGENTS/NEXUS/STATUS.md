@@ -1,5 +1,7 @@
 # NEXUS STATUS
 
+**Startup annotation 2026-11-05T18:03:31-05:00: readings below stop at 11/3-11/4 and predate the 11/5 selloff.** No re-mark, no grade; 11/5 WALTER cards deferred to the next pass. Record → `research/2026-11-05_startup-recovery.md`.
+
 **Bounded consumer update — 2026-11-04T18:05:59-05:00.** Will/PROME-directed incorporation of completed LIQUID, ISHM and WAL evidence; no full fleet pass, new sources, delegates or re-grade. Numerical NEXUS grades/weights and other owners’ vintages below unchanged. Record → `research/2026-11-04_credit-equipment-consumer.md`. Session closed at Will’s request; this bounded work unit is complete and future obligations remain open.
 
 **CATCH-UP GRADE — 2026-11-04T15:33:32-05:00, Will-direct.** Existing November 3 wake completed late; 31 whole briefs via three fresh-context gpt-6.1-sol readers, parent source/owner checks. **Delta-annotated, not a full matrix re-sweep** (last full October 31). Current source/grade record → `research/2026-11-04_catchup/RECORD.md`; reproducible calculations → `GRADES.json` and `grade.py` there. Older owner rows explicitly retain their dates; no current-data claim follows from a fresh read. Pre-pass text preserved exactly in `STATUS_BEFORE.md` there.
