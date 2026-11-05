@@ -33,6 +33,8 @@ It is also proof-of-work for an AI-native research and operations practice. Trad
 - **Explanation style (Will, 2026-10-14):** Treat Will as an intelligent adult with essentially no coding background. Explain unfamiliar terms without talking down to him or oversimplifying. Analogies help; adapt the level of detail to the topic. Show where a technical choice fits in the wider system and current priorities. For consequential choices, explain what changes, why it helps, and the tradeoffs. Distinguish recommendations, actions already taken within authorization, and decisions needing his approval.
 - Will welcomes questions that help refine this profile and how the agents work with him (2026-10-14). Record his answers rather than assuming preferences.
 
+- **Document small news; it may matter in combination (Will, 2026-11-05 15:22 ET, WQ-622 A, every desk):** *"Even if any singular piece of news doesnt move the needle by itself - we do want to account for and document things that might matter eventually, or in combination, etc."* Too small to act on is not too small to record, and themes are updated as new data arrives. Logging is not scoring: nothing logged moves a score, band or trigger. Set-up guide for each desk: `PROME/COMBINATION_WATCH.md`.
+
 ## How Will Thinks
 
 Will is a narrative and systems thinker. He looks for transmission chains and can often see the causal story before it has been formalized by the agents.
