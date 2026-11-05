@@ -71,6 +71,9 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | ✅ ~~2026-10-27~~ | ~~MWD board — LB Implementation Agreements item~~ | C6 | **READ 10/29 (KB-222): no approval item at the 10/27 meetings; closed session 8-1 weighed 'whether to initiate litigation' (outcome unposted). Agreement UNEXECUTED.** Next MWD board **11/10** |
 | **2026-11-05** | **PJM Operating Committee** — check for a DR-verified 7/2/2026 peak (L650; none at 10/21, KB-206) | C3 | WATT grades; AEOLUS did not read it 11/05 |
 | **THROUGH Thu 2026-11-12** | **Vortex owner reads (DOCKET L906, GATE-TERRY-UNG-01)** — 10 hPa 60N zonal mean below 0 m/s on an analysis | C3 | below 0 = TERRY + WATT + BRENT the SAME DAY; not below 0 by 11/12 voids the card (KB-245) |
+| **Next post** | **First Insights Global Rhine post covering 11/02 on** | C5 | first freight-side read of the fired window (KB-249) |
+| **2026-11-22** | Swiss diesel compulsory-stock release ends | C5 | mixed cause: pipeline delays + low water (KB-249) |
+| **~early Dec (worker estimate)** | **CBS 85817NED 2026-Q3** | C5 | first print of this event; no CBS date read |
 | **~2026-11-15** | **November 24-Month Study** (UC host `24Month_11_6.pdf`) — re-grade C6 leg 2 by scanning every month for the 12-month min | C6 | AEO-10 path; L-50 |
 | ✅ ~~2026-10-30~~ | ~~*Nevada v. Burgum* responses on Arizona's intervention~~ | C6 | ECF 49, 50 filed; intervention order 11/03, text unread (KB-238). A PI motion at any time = ORANGE |
 | ✅ ~~2026-11-01~~ | ~~Rhine re-entry watch~~ | C5 | **FIRED on the 40/180 key, complete days 11/02–04 (KB-237)** |

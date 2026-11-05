@@ -2,7 +2,7 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-11-05 10:38 ET (PROME-launched session, L906; later vortex cycles may land after this fold and are routed by packet.)**
+**Last writeback: 2026-11-05 12:37 ET (closeout on Will's word; LAST write before commit. ⚠️ ECMWF 11/5 12Z and GFS 18Z not read at close.)**
 **WAITING-FOR:**
 - **to Thu 11/12:** vortex reads for GATE-TERRY-UNG-01; next ECMWF 12Z and GFS 18Z today · **each session:** C5 exit test
 - **11/10:** WASDE (SA corn, Aus wheat) · CAP intervention responses · MWD board · **11/12:** CPC ENSO · **~11/15:** November 24-Month Study · **11/26:** SA CEC final · **11/30:** hurricane season end (AEO-01) · **12/02:** C6 Orange window

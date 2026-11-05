@@ -339,3 +339,9 @@ Resolves on a binding RESTRICTION, not a scheduled draft step-down: its own Advi
 
 ### ⚠️ ACP'S OWN ARITHMETIC DISAGREES WITH ITSELF IN THREE MONTHS
 Sep-2025 prints **95.34%** (computes 98.31%) · Aug-2025 96.18% (96.71%) · May-2025 973 vs 974. **Store `available`/`used`; report AS PRINTED.**
+
+### 🆕 NOTES FROM THE 2026-11-05 WORKER RUN
+- `bj.admin.ch` serves Swiss federal releases to WebFetch; `www.admin.ch` returns 403 to curl. Hapag-Lloyd's page returns 403 to both.
+- `rhine_freight_eur_t` still has no verified free source; BargeINSIGHTS is paid.
+- To probe next pass, not verified: ELWIS "rechnerisch verfügbare Fahrrinnentiefen" (closest free primary to loadable depth) and `parameter=Q` on the WSV bulk route.
+- ⚠️ `cjh.com.cn` timed out three times on 2026-11-05 from this box: a fact about this method on that day.
