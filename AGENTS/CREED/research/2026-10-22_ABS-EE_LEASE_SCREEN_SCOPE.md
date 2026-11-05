@@ -56,3 +56,13 @@ SEC Regulation AB II requires **registered** CMBS trusts to file a monthly asset
 ## 6. Decision for Will — ✅ DECIDED 2026-10-22 17:30 ET: build AFTER the October Trepp print (Will, *"okay go ahead now"*, on CREED's lean)
 
 Build it (≈3–5 h, free data, public-conduit perimeter only), or park it until after the October Trepp print. **CREED's lean: build it after the October print**, so the first run can be read against the fresh `T-01a` outcome, and only if Will wants a forward-looking office instrument rather than waiting on the monthly prints.
+
+---
+
+## 7. Built 2026-11-05 (Will: "yes")
+
+Run 1: `research/2026-11-05_ABS-EE_OFFICE_LEASE_SCREEN_RUN1.md`. Corrections to this page, kept above as written:
+- **§4 step 2 and §5, pari-passu "double-counting":** wrong for dollars. Each trust reports its own note, so dollars add and only loan counts merge. The real dollar double count was two misfiled October tapes (`KB-CREED-103`).
+- **§1 "size the next wave of conversions":** not supported. The flag does not separate distressed from healthy loans today (`KB-CREED-104`).
+- **§4 step 3:** `maturityDate` alone overstates runway; the screen uses the earliest of ARD and contractual or modified maturity.
+- **§5 trust count:** measured at 375, not "a few hundred" estimated.

@@ -221,3 +221,6 @@ Honarkar | Laguna Beach (Nano's ~$20M loan, B3) | CREED info + REGINALD (ZION li
 
 ## ADDENDUM 2026-11-05 (CREED) — DEWEY's Plaza Continental docket read (L517)
 Ontario DOT #2 stays B1 (FDIC as receiver retained it), re-observed on the 10/15 stipulation (Doc 107), docket text only, not recorded-instrument proof. The debtor filed a Plan of Liquidation 10/26 (Doc 120); KW Commercial-SHW and CBRE employed (Doc 118). No price, buyer or bid date. A court-approved price would be the first clearing mark on this collateral; grade it by lien position under §7. DEWEY stays first owner; Docs 119/120 sit behind PACER, Will's call (WQ-547). Canonical: `AGENTS/DEWEY/output/2026-11-02_plaza-continental-docket-read.md`.
+
+## ADDENDUM 2026-11-05 (CREED) — FDIC posted the Nano P&A (REGINALD 11/05)
+FDIC posted the purchase and assumption agreement 11/05. Pool schedule 3.1(n) and the excluded-asset schedules are redacted, and the other real estate schedule reads NONE. CREED's §1b/§2a composition inference is therefore neither confirmed nor refuted; the shared figure stays REGINALD's. No CREED letter moves. Source: `AGENTS/REGINALD/reports/2026-11-05_boot/REPORT.md` §6, SECONDARY to CREED (agreement not read here).

@@ -432,3 +432,10 @@ HENRY's `evals/README.md` draws a distinction no other agent states: **a princip
 **Will (pasted in CREED's session, 18:41 ET):** go ahead — fix the 11 wrong statements, cut duplicates, move history word for word, keep every rule / warning / step number, one example per trap, map every removed line; boot reads 6.5 and 6.7 → on demand, 6.4 → newest 3 entries; ARI example marked dated.
 **Result:** `CLAUDE.md` 40,535 → 25,448 B. Old file 176 non-blank lines = 93 kept verbatim + 83 moved to `archive/CHARTER_HISTORY_2026-10-30.md` (verbatim, crc32 per line, disposition + "rule now lives at" per line), 0 lost — checked by script in both directions. Pre-change file = `git show a475b7cb7:AGENTS/CREED/CLAUDE.md` (crc32 `28bbbcb9`). Review: `research/2026-10-30_CHARTER_REVIEW.md`. PROME sent the READS replacement rows (402/403/405) in the same commit.
 **Rule for future edits:** this file carries rules; a reason, incident or date-stamped "changed because" goes to MAINTENANCE or an archive, not into the rule. Section headings other files cite (§Mission, §Standing traps, §Source Archive, §Working Hypothesis, §Guardrails, §Current Rails) are kept even where the section is now a pointer.
+
+---
+
+## 2026-11-05 — ABS-EE office lease screen added (Will: "yes", on the 10/22 approval)
+
+**Added:** `scripts/absee_office_screen.py`, `scripts/test_absee_office_screen.py` (34 cases), `research/data/2026-10_absee_office_lease_loans.tsv` and `_summary.json`. Manual tool, not a boot step; no VX, no threshold, no route. Filing cache stays outside the repo. Scope page §7 records what the build corrected.
+**Rules for the next run:** classify by the filing's ABS ASSET CLASS header, never by name · dollars add across notes, only counts merge · a blank status is judged on paid-through and fails closed · run `find_duplicate_tapes()` every time · the Los Angeles MSA control means LA plus Orange counties · no tolerance was set for the aggregate control, so state one before the next comparison, not after.
