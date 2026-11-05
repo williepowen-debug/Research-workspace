@@ -173,7 +173,7 @@ Five spec changes were pre-committed on 2026-07-28 "for next session" and went *
 
 ⚠️ **TOKEN NOTE, 2026-08-21: `FAILED` below is RETIRED.** The ledger canonicalised on **`FALSE`** (the complement of `TRUE`) after carrying BOTH tokens for one state — which silently breaks every count of resolved outcomes, calibration included. **The `FAILED` labels are left in this prose as published; the ledger is canonical.** Enum: `OPEN · TRUE · FALSE · VOID`, enforced by `monitors/kb_lint.py`.
 
-**Current prediction ledger: OPEN1 checked October20; BND32 registered with5/6 event base rate for October28 decision-day non-steepening;65%, publication ceiling November3. BND30/31 closed. Historical scoreboard below is not live. The following scoreboard is retained historical prose, not the live ledger.**
+**Current prediction ledger: OPEN 5 at 2026-11-05: BND-33 refunding I′ 50%; BND-34 HY 352bp touch 50%; BND-35 10Y 12/31 contrarian 42%; BND-36 dealer long-end build 40%; BND-37 mortgage rate below 7 40%. Letters in `thesis/PREDICTIONS.tsv`. Historical scoreboard below is not live. The following scoreboard is retained historical prose, not the live ledger.**
 
 **★ OPEN (2) as of 2026-08-27** *(was 4; `BND-18` and `BND-19` resolved on the 8/26 5Y)*:
 - **`BND-15` (70%)** — DFII10 does not close ≥2.50 through 8/29. **Live 2.32 [8/25] = 18bp away, the widest since 8/13 but reached non-monotonically (a 10bp re-approach on 8/21); 3 gradeable sessions left. Confidence FROZEN at 70%** — it was frozen there when it looked like a likely miss and the rule binds in the flattering direction too.

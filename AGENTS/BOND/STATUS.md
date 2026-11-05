@@ -107,6 +107,8 @@ WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT s
 | 11/23, 11/24, 11/25 | 2Y $69B · 5Y $70B and FRN reopening $28B · 7Y $44B |
 | 12/1, 12/7, 12/9 | Sovereign CDS retest · December coupons begin · December FOMC + SEP |
 | 2027-1/25, 1/27, 2/3 | GPFG expert report · January FOMC · February QRA |
+| 12/17 | BND-36 resolves on FR2004 as-of 12/9 |
+| 12/31 | BND-34, 35, 37 resolve |
 | 2027-03 | 7Y converts to quarterly new issue |
 
 ## BOTTOM LINE

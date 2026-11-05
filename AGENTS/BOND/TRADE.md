@@ -5,7 +5,7 @@
 <!-- bond-state: thesis=v1.2.13; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
 
 **Position reconciliation November 2:** WQ-357 RESOLVED (Will 10/29); FORGE 10/30 reconcile shows **TBT ×10 SOLD 10/30** (Will had rebought 5→10 first), no live TBT line. TLT82P closed 10/12. **BOND's duration-short sleeve is FLAT.** WQ280 NO-ADD stands. WQ339 authorized drafting only; WQ360 old put card LAPSED UNAPPROVED October14. USER October20 permits NOT-FIRED ideas through TERRY/Will, not automatic entries; no expiry reminders.
-**Registered predictions:** OPEN 1: BND-33, at least one refunding auction fires I′, 50%, base rate 5 of 11. Earlier: BND-32 RESOLVED FALSE 10/29 (2s30s steepened +10bp on the 10/28 FOMC vs a 65% non-steepening call); ledger thesis/PREDICTIONS.tsv.
+**Registered predictions:** OPEN 5: BND-33, at least one refunding auction fires I′, 50%, base rate 5 of 11; BND-34 to BND-37, registered 11/5 under WQ-596, in the ledger. Earlier: BND-32 RESOLVED FALSE 10/29 (2s30s steepened +10bp on the 10/28 FOMC vs a 65% non-steepening call); ledger thesis/PREDICTIONS.tsv.
 
 ---
 

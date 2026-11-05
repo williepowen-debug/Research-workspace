@@ -10,5 +10,5 @@
 - **Credit → KB-BND-533, 534, 539:** HY 332 [11/4], 18bp under 350, back below the 338–363 band after three sessions; credit-equity upgrade not met. CCC widening broader than five names since September; B 15-session change +45bp to 11/3, +22bp to 11/4. LIQUID owns tier verdicts: REVERSES on 11/4, one print; LIQ-07 resolved S2 10/16. D6–D8 closed, KB-BND-542.
 - **Dealers / funding:** FR2004 as-of 10/21 $150.816B; 10/28 due today. PMMS 7.18 [11/5], 228bp vs Treasury 10Y 4.90 [11/4]; same-date needs the 11/5 close. SOFR−IORB +4 [11/4]; LIQUID owns the verdict.
 - **Primary → KB-BND-540:** October HY issuance ≈$15B, $3.5B a week over the final four; borrowers absent, no pulled deal found; EDGAR filers rebounded this week. Secondary source; pulled deals not observable.
-- **Matrix 17/35** (was 18): auction health 4→3. OPEN predictions 1 (BND-33).
+- **Matrix 17/35** (was 18): auction health 4→3. OPEN predictions 5 (BND-33 to 37; 34–37 resolve by 12/31).
 - **Capital → FORGE/TERRY/PROME / KB-BND-526:** sleeve FLAT per the 10/30 capture. NO-ADD WQ280; WQ-592 declined. No proposal.
