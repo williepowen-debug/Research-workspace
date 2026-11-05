@@ -3,7 +3,7 @@
 **Status:** The election-week scare released on 11/04: VIX 21.15 / 20.83 (RISING_VOL closes 11/02, 11/03), then 16.61, LOW_VOL. No hard line fired. ⚠️ Credit and tail pricing did not release: HY 340bp [11/03], SKEW 150.90 [11/04]. ⚠️ The regime-shift broadcast was missed while VIOLET was dark; this brief is the late record.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.5; no threshold, probability or permission change.
-**As of:** 2026-11-05 09:5x ET | **STATUS commit:** `8caeee87c`.
+**As of:** 2026-11-05 10:03 ET | **STATUS commit:** `3f562a42c`.
 Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED VIXCLS agrees. Canonical numbers: [STATUS](STATUS.md). **Convergence 32/50, re-scored on closes and unchanged** (KB-VIO-369).
 
 ## CROSS-DOMAIN
@@ -14,7 +14,7 @@ Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED 
 
 **HENRY / LIQUID / RED — size of the 11/04 release (KB-VIO-368):** VIX −20.26% (22nd largest one-day drop of 9,309 sessions), VIX9D −30.83% to 15.19, VVIX −15.82% to 90.41, COR1M −41.85% from 16.39 to 9.53 (largest one-day percentage drop of 5,243 sessions). ⚠️ Cause not established: the election result and Brent −8.7% shared the session.
 
-**LIQUID / REGINALD — vol released, credit did not:** HY 340bp [11/03], from 316bp [10/13], peak 344bp [10/30]; 11/04 unpublished. CCC 13.16%; BIN-B BLOCK ACTIVE. The October 13 → November 17 credit-vol WATCH stands at +24bp, under the central 100bp size condition. No VIOLET credit grade.
+**LIQUID / REGINALD — vol released, credit did not:** HY 340bp [11/03], from the 268bp [9/22] watch base, peak 344bp [10/30]; 11/04 unpublished. CCC 13.16%; BIN-B BLOCK ACTIVE. The October 13 → November 17 credit-vol WATCH stands at +72bp, peak +76bp, under the central 100bp size condition *(corrected 11/05: an earlier version of this brief said +24bp from 10/13, the wrong base)*. No VIOLET credit grade.
 
 **RED — bars sent by packet:** SKEW 149.76 / 152.78 / 150.01 / 150.90 and VIXCLS 19.42 / 21.15 / 20.83 / 16.61 [10/30–11/04]. FT-10 exit 0 of 4. FT-06 is yours to grade: 16.61 is under 18.
 
@@ -41,8 +41,8 @@ None active this cycle. (The PROME dashboard's MOVE 90.83 tagged 11/04 is a labe
 
 ## NEXT DECISION POINT
 
-Stamp 11/05 SETTLE after the close · HY 11/04 on publication · payrolls 11/06 (BLS date by search only) · CPI 11/10 (date unconfirmed) · November 17 lag endpoint · November 18 VIX expiry · December 16 L441.
+Stamp 11/05 SETTLE after the close · HY 11/04 on publication · payrolls 11/06 (BLS date by search only) · CPI 11/10 (date unconfirmed) · **November 17: credit-vol endpoint and NVIDIA results after the close** · November 18 VIX AM SOQ · December 16 L441.
 
 ## VIEW
 
-LOW_VOL on the 11/04 close, one session after two RISING_VOL closes. **The surface says the scare is over; credit and tail pricing have not agreed.** Index vol is back near its normal range and correlation collapsed, while HY stayed about 24bp wider than 10/13 and SKEW held at 150.90. The live test is whether VIX stays quiet as credit prints through November 17. Working model, not truth. Convergence 32/50.
+LOW_VOL on the 11/04 close, one session after two RISING_VOL closes. **The surface says the scare is over; credit and tail pricing have not agreed.** Index vol is back near its normal range and correlation collapsed, while HY stayed 72bp wider than its 268bp [9/22] base and SKEW held at 150.90. The live test is whether VIX stays quiet as credit prints through November 17. Working model, not truth. Convergence 32/50.
