@@ -70,5 +70,5 @@
 ## ④ Not in this capture
 
 - Activity before the October 30 USO row, including whatever closed the second QQQ Nov-20 690P and opened the QQQ Nov-02 680P and QQQ Nov-05 685P lines and the Nov-06 680P contracts sold November 2.
-- Share counts on the stock sales in the Activity rows. GLD 28→18 and AAPL 3→1→0 are implied by the positions, not displayed per row.
+- Share counts on the stock sales in the Activity rows. GLD 28→18 and AAPL 3→2→0 are implied by the positions, not displayed per row.
 - Robinhood.
