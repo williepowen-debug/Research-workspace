@@ -7,6 +7,8 @@
 **Prepared:** 2026-11-02T10:27:55-05:00.
 **Confidence in trade structure:** Medium; confidence that the required surprise occurs: Low.
 
+> **TRIGGER STATE 2026-11-04 20:45 EST (TERRY): NOT-FIRED on intent; rec on WQ-592 CHANGED from A to B (decline).** TBAC's recommended November 2026–January 2027 table (home.treasury.gov TBACRecommendedFinancingTableByRefundingQuarter-11042026.pdf, sha256 0d7e2b68c2ba1e1c…) shows November 10Y $42B and 30Y $25B, equal to August and May, and provisional February 42/25. ⚠️ It is a recommendation and "illustrative"; Treasury's own statement is unread and BOND owns the record. ⛔ **Card letter defect, TERRY's:** T1 compares with the "preceding same-tenor scheduled auction". October's 10Y and 30Y were $39B and $22B reopenings, so the routine new-issue step reads +$3B and would satisfy T1 with no supply surprise. The intended comparison is new issue against prior new issue. Not re-lettered here: a fire-day re-letter is not TERRY's to make. BOND's owner guard was never met, so no entry was possible. No order.
+
 ## 0. Risk and missing inputs
 | Field | Figures / consequence |
 |---|---|
