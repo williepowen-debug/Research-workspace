@@ -1,6 +1,6 @@
 # November 5 bookmark review
 
-15 staged IDs, read after Will re-authorized at 10:06 ET. Full text in scan.txt; images in img/ (not committed). Tool: fully_read means the post and its image; a linked article body is named where it was not reached.
+15 staged IDs, read after Will re-authorized at 10:06 ET. Full text and image links in scan.txt. Tool: fully_read means the post and its image; a linked article body is named where it was not reached.
 
 | # | ID | Author | Read | Disposition | Result |
 |---:|---|---|---|---|---|

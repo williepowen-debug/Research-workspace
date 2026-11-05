@@ -1,5 +1,15 @@
 # FULL CLOSEOUT — 2026-11-05T13:43:42Z — closed for desktop switch on Will request
 
+## 2026-11-05T15:44:27Z light-closeout — full deferred
+
+Housekeeping on Will's word: STATUS and Iran anchor rotated verbatim; kill log, registry and carries corrected. Charter left in place: READ_CAP rule 20 does not bind it. Session stays open.
+
+Rotated verbatim from STATUS DATED MARKET OBSERVATIONS (read-cap trigger, 76% of budget):
+| Bookmark source review (10/25 retrieval, underlying dates retained) | GMO fourth notice 10/24; Bun/Envoy advisories 10/23; White House order 10/22; Oracle$1B over4years10/23. Jubilee costs referApr–Jun2026, announced 9/14. KFF2026 family worker$7,471,+$621/~9%; total$28,303,+5%. JetBlue 10/22 excerpt:2031 loyalty-backed bonds~40c versus~80c beginningOct, secondary TRACE attribution. No fresh market quote or full Bloomberg-body clearance. |
+| Sunday verification (retrieved 10/25; observations remain dated) | FRED HY 340 / CCC 1340 bp / VIXCLS 19.03 / SOFR-IORB0 bp [10/22];T5YIFR2.20 [10/23]. Vendor 10/23 KRE 72.46,WAL 76.12,^VIX19.45. Cboe SKEW 151.80 [10/23];Cushing 27.594M [w/e10/16]. No new fire in completed checks; Brent identity/official settles and other coverage limits in THRESHOLD-SCAN.md. These are dated observations, not Sunday trading quotes. |
+| Close and evening (10/23; vendor 20:38Z, after the 16:00 close, not settles) | KRE 72.46 (+0.07%), WAL 76.12 (−0.72%, REG-T-02 fired state, re-entry, exit 0 of 3 at 81.90), ZION 66.20, ^VIX 19.45 (+2.21%, no safety net), HYG 77.05, SPY 759.97 (−0.52%); BZZ26 116.62 (+3.05%, contract name truncated by the probe; BRENT confirms BZZ26 is the reference to 10/30), CLZ26 103.17 (+3.72%): boundary #1 2.9% away, watch only. AAA 10/23: regular $4.2926 (month ago $4.4744), diesel $6.3172 ($6.5217) (042). Rated-CCC basket (XCCC 10/22): 0% AI, ~5.9% software, ~16.5% cable/telecom (040). FRED unchanged (HY 340 [10/22]). Evidence `research/2026-10-23_evening/`. |
+| Iran and oil (10/23 afternoon; vendor 18:35–18:39Z intraday, not settles) | BZZ26 116.71 (+3.13%, probe name truncated), CLZ26 103.26 (+3.81%); boundary #1 2.8% away = near-trigger WATCH. WH 10/22 written line: no attack before the midterms; Barrack 10/23 envoy tape; FALCON pre-11/3 ~12% [EST] (`PROME/inbox/processed/2026-10-23_from-FALCON_sig024-strike-timing-grade.md`). Rosatom ~135 staff at Bushehr [10/11]; evacuation CLAIM-ONLY. Tape: KRE 72.56 (+0.21%), WAL 76.49 (REG-T-02 fired state, re-entry), ^VIX 19.89 (+4.52%, no safety net), HYG 77.04, FLG 10.38 (−9.27%), GC=F 4,015 (−1.12%), ^TNX 4.99, XU100 −0.92%. FRED unchanged (HY 340 [10/22]). Evidence `research/2026-10-23_afternoon/`. |
+
 ## 2026-11-05T15:10:59Z light-closeout — full deferred
 
 Will re-authorized X 10:06 ET. Fifteen bookmarks read, marked, cards 009–014. Batches BM-20261105-01 and -02 closed. Session stays open at PROME's request.
