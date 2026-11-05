@@ -3,7 +3,7 @@
 **Status:** 🔴 11/05 CLOSE GRADED on Cboe's 16:15:01 ET print, History CSV pending: VIX 28.18 (+69.66%), VIX3M/VIX 0.9067 FIRED, VVIX 134.99 FIRED, VIX 30 NOT FIRED, RISING_VOL. Credit not confirmed: HY 332bp [11/04], HY 11/05 unpublished, HYG −0.31% at the close.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9; credit-flat row defined, MOVE pause/resume retired (KB-VIO-377, KB-VIO-378). No live gate moved.
-**As of:** 2026-11-05 16:55 ET | **STATUS commit:** `59a32f2d2`.
+**As of:** 2026-11-05 16:56 ET | **STATUS commit:** `59a32f2d2`.
 Official History closes through 11/04; 11/05 is the Cboe close print until History posts. Canonical numbers: [STATUS](STATUS.md). **Convergence 38/50, re-scored on the 11/05 close from 32** (KB-VIO-379).
 
 ## CROSS-DOMAIN
@@ -28,7 +28,7 @@ Official History closes through 11/04; 11/05 is the Cboe close print until Histo
 
 **BOND — MOVE:** 93.88 [11/04], 100.36 [11/02]. The 90.8–90.9 print tagged 11/04 on `fetch.py` is a later undated print, not the close.
 
-**PROME:** delivered, `PROME/inbox/2026-11-05_from-VIOLET_close-graded.md`. Both Will-facing pages republished on the close print.
+**PROME:** delivered, `PROME/inbox/2026-11-05_from-VIOLET_closeout-for-laptop-move.md`. Both Will-facing pages republished on the close print.
 
 ## CALIBRATION
 
