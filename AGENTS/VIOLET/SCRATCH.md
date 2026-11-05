@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 5, 2026 12:42 ET (from `date`). Live vol event open, close grade owed. Boot, then catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1). Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.7; convergence **32/50, re-scored and unchanged**. **Window held open: no closeout until PROME or Will asks.**
+**As of:** November 5, 2026 12:42 ET (from `date`). Closed out on Will's word before the bell; the 11/05 close is UNGRADED. Boot, then catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1). Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.8; convergence **32/50, re-scored and unchanged**. **Window held open: no closeout until PROME or Will asks.**
 
 ## CHANGES SINCE (10/30 16:50 ET → 11/05 09:39 ET)
 
@@ -21,14 +21,14 @@
 
 ## NEXT SESSION
 
-0. After the 11/05 close: `thresholds.py --supersede`, then `backfill.py --spot-only` when Cboe History posts; add the SKEW bar.
+0. **OWED FIRST: the 11/05 close is ungraded.** Run `thresholds.py --supersede` (the VX_DAILY 11/05 row still reads TICK 17.5 LOW_VOL and is wrong for the day), `backfill.py --spot-only` when Cboe History posts, add the SKEW bar. Grade VIX 30, VVIX 120, VIX3M/VIX 1.000, the regime and the 5-day row on official closes. Then refresh STATUS, brief, both pages, and test KB-VIO-375's read. **Promised to RED: official 11/05 Cboe bars.**
 1. **FIRST: grade the 11/05 close.** VIX, VIX3M/VIX, VVIX, regime, the 5-day row; refresh STATUS, brief, both pages. Live TICK record: KB-VIO-374, outbox SIG. FRED 11/05 HY when published closes the credit-flat leg; HY 332bp [11/04] is in, tighter. LIQUID owns the spread. LIQUID posts the 11/05 print by late morning 11/06 (KB-LIQ-151). Gap LIQUID found: the outbound row "credit spreads flat" has no number, and adding one is a line change for Will, so state the dated print and call it a judgment.
 2. FXY IV re-pull done mid-session: 12.1% [12:38 ET, 43 DTE, 5 strikes] against RV10 7.05%; carry canary CALM.
 3. Payrolls 11/06 and CPI 11/10 pre/post surface read. Verify both dates at bls.gov (403 on 11/05); CPI search unconfirmed.
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.
 5. **November 17: credit-vol endpoint and NVIDIA after the close; November 18 VIX AM SOQ.** L342 11/26 (not due), December 16 L441.
 6. implied_corr.py SETTLE-by-clock defect: not commissioned.
-7. **Path A CLOSED: WQ-611 A encoded (KB-VIO-372/373), thesis v4.1.7.** Measured figures in, WATCH with no gate, Lag Trade template withdrawn in both files. Waiting on Will: Regime Shift Trade 1.5% sizing (Path A tag, not covered by the ruling), the MOVE pause/resume line, desk CLAUDE.md conflicts.
+7. **Path A CLOSED: WQ-611 A encoded (KB-VIO-372/373), thesis v4.1.7.** Measured figures in, WATCH with no gate, Lag Trade template withdrawn in both files. Regime Shift size line withdrawn, WQ-614 A; entry, target, stop and HY OAS >4 left verbatim, not ruled. Waiting on Will: the MOVE pause/resume line, desk CLAUDE.md conflicts, and whether "credit flat" gets a number.
 8. Live 75bp episode: 2-6 week window about 11/05 to 12/07. Will did not take the prediction, so nothing is registered; read it as context only.
 
 ## CARRY-FORWARD
@@ -37,8 +37,9 @@
 - PREDICTIONS.tsv: all 6 rows terminal; the +36d staleness alert has no live row behind it.
 - CHANGELOG body text of the 10/14–10/19 entries still has glued words.
 - Raw ICE HY series live only in this session's scratchpad (ICE reproduction notice); re-fetch from the web archive to rerun `research/2026-11-05_path-a-f2/run_audit.py`.
-- Push not run: safe-push is the closeout step, and PROME holds closeout.
+- Outbox SIG 11/05 stays pending at top level: LIQUID replied; HENRY, RED and PROME reads unconfirmed. Move to delivered/ when confirmed.
+- Pages carry a labelled midday stamp (12:24 ET quotes) above 11/04 figures, not the final read.
 
 ## OPEN HYPOTHESES
 
-**Resolved:** the futures-front inversion did not persist past Election Day. Open: the one-day correlation collapse reads like a macro hedge being lifted, but no flow data was observed, so it is inference only. Credit-vs-vol lag: vol released while HY stayed wide; whether VIX follows credit by November 17 is the live test. Oil-vol leading equity-vol: not observed. RQ8 PARKED.
+**11/05 spike (KB-VIO-375, exploratory):** leading read is a concentration unwind (Path B), about 84% of the VIX rise was correlation; hedge-lift is inference with no flow data; Path A weakest until credit confirms. Tells: banks, 11/06 credit print, inversion persisting, VIX close above 30. **Resolved:** the futures-front inversion did not persist past Election Day. Open: the one-day correlation collapse reads like a macro hedge being lifted, but no flow data was observed, so it is inference only. Credit-vs-vol lag: vol released while HY stayed wide; whether VIX follows credit by November 17 is the live test. Oil-vol leading equity-vol: not observed. RQ8 PARKED.

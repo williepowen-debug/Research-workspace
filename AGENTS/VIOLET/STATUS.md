@@ -1,10 +1,10 @@
 # VIOLET STATUS
 
-**As of:** November 5, 2026 12:00 ET (from `date`). Catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1), Claude Code, Opus 5.5. Official closes through 11/04 from Cboe History CSVs and the VX settlement CSV; live values are 09:49 ET delayed quotes, basis TICK. **Last real data refresh: 2026-11-05.** Thesis **v4.1.5**; no line, gate or letter changed.
+**As of:** November 5, 2026 14:02 ET (from `date`). Catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1), Claude Code, Opus 5.5. Official closes through 11/04 from Cboe History CSVs and the VX settlement CSV; live values are about 13:45 ET delayed quotes, basis TICK. **Last real data refresh: 2026-11-05.** Thesis **v4.1.5**; no line, gate or letter changed.
 
 ## BOTTOM LINE
 
-**🔴 LIVE 11/05, TICK, NOT CLOSES: VIX 24.46 (+47% from 16.61) about 12:24 ET, high 28.09 about 10:53 ET. The curve is inverted and credit is not confirming.** VIX3M/VIX 0.9685 (low 0.8776), VVIX 119.21 (high 128.95), VIX9D 26.87 (high 32.54). SPY −3.64%, QQQ −5.47%, HYG −0.41% at 12:35 ET. HY 332bp [11/04], tighter and before today. **No registered line has fired:** VIX 30, VVIX 120 and VIX3M/VIX 1.000 all grade on the close. If VIX3M/VIX closes under 1.000 it is a peak-marker broadcast, never an onset call (KB-VIO-034). The shape reads closer to Path B than Path A (one session, cause not established). Signal sent to HENRY, LIQUID and RED: `outbox/2026-11-05_SIG-VIO-RED_to-HENRY-LIQUID-RED_vol-spike-curve-inverted-intraday.md`, KB-VIO-374.
+**🔴 LAST READ BEFORE CLOSEOUT 11/05, TICK, NOT CLOSES: VIX 26.60 (+60% from 16.61) about 13:45 ET, high 28.09 about 10:53 ET. The curve is inverted and credit is not confirming. THE 11/05 CLOSE IS UNGRADED: this session closed at 14:0x ET on Will's word, before the bell.** VIX3M/VIX 0.935 (low 0.8776), VVIX 123.87 (high 132.11), VIX9D 29.33 (high 32.54). SPY −4.02%, QQQ −5.79%, KRE −2.48%, HYG −0.46% at 14:00 ET. HY 332bp [11/04], tighter and before today. **No registered line has fired:** VIX 30, VVIX 120 and VIX3M/VIX 1.000 all grade on the close. If VIX3M/VIX closes under 1.000 it is a peak-marker broadcast, never an onset call (KB-VIO-034). The shape reads closer to Path B than Path A (one session, cause not established). Signal sent to HENRY, LIQUID and RED: `outbox/2026-11-05_SIG-VIO-RED_to-HENRY-LIQUID-RED_vol-spike-curve-inverted-intraday.md`, KB-VIO-374.
 
 **Through the 11/04 close:** the election-week scare released in one session, and volatility went back to LOW_VOL. Credit and tail pricing did not release with it. VIX closed **21.15 [11/02]** and **20.83 [11/03]**, both RISING_VOL, then **16.61 [11/04]** (−20.26%), LOW_VOL. No hard line fired: VVIX peaked 110.47 (line 120), 3M/VIX bottomed 1.0211 (line 1.00), the 5-day rise reached +25.1% (line +30%).
 
@@ -46,8 +46,8 @@
 |---|---|---|
 | RED-FT-10 | **RED-owned FIRING since 10/14** | Exit <140 ×4: 0 of 4 (11/04 150.90). VIOLET supplies Cboe bars only; packet sent 11/05. |
 | RED-FT-06 | **RED-owned** | Exit needs VIXCLS ≥18 ×5. RED recorded 3 of 5 through 11/03. VIXCLS 16.61 [11/04] is under 18. RED grades; packet sent 11/05. |
-| VVIX 120 daily | **NOT FIRED** through 11/04; **11/05 intraday touch 128.95 = WATCH**, grade at the close | Peak close 110.47 [11/02]. SETTLE basis. |
-| VIX3M/VIX cash inversion | **NOT FIRED** through 11/04; **under 1.000 on TICK 11/05**, grade at the close | Close low 1.0211 [11/03]; 11/05 intraday low 0.8776. SETTLE basis. Peak marker. |
+| VVIX 120 daily | **NOT FIRED** through 11/04; **11/05 intraday high 132.11 = WATCH**, close ungraded | Peak close 110.47 [11/02]. SETTLE basis. |
+| VIX3M/VIX cash inversion | **NOT FIRED** through 11/04; **under 1.000 on TICK 11/05**, close ungraded | Close low 1.0211 [11/03]; 11/05 intraday low 0.8776. SETTLE basis. Peak marker. |
 | Regime-shift outbound row | **MET 11/02, not broadcast; reversed 11/04; RISING_VOL on TICK 11/05** | Late record KB-VIO-367. Delivery is NEXUS_BRIEF. Today sent live, KB-VIO-374. |
 | Path-A VIX<20 filter | **FAILED 11/02–11/03, MET 11/04, FAILED on TICK 11/05** | Filter alone is not the full Path-A / LIQUID-076 conjunction. |
 | OVX/VIX canary | **FIRE 11/04** (context canary, not an action gate) | Route: NEXUS_BRIEF cross-domain + BRENT/HAWK reference. No outbox file: VIX fell. |
@@ -95,7 +95,7 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 4. **FXY IV mid-session re-pull** before any IV/RV read.
 5. **Open tool defect (KB-VIO-365, KB-VIO-370):** implied_corr.py stamps SETTLE by clock. Row repairs done; the tool fix is not commissioned.
 6. **November 17: credit-vol window endpoint and NVIDIA results after the close, then the November 18 VIX AM SOQ.** Both added to CATALYSTS 11/05. L342 11/26 holiday-bar defect (not due), December 16 L441 (VX_TERM_HISTORY refreshed through 11/04 on 11/05).
-7. **Path A F2 audit: CLOSED 11/05, WQ-611 A encoded (KB-VIO-372/373).** NOT RUNNABLE, NO GATE (post-2018 n=3). Open for Will: the Regime Shift Trade's 1.5% sizing carries a Path A tag and the ruling did not cover it.
+7. **Path A F2 audit: CLOSED 11/05, WQ-611 A encoded (KB-VIO-372/373).** NOT RUNNABLE, NO GATE (post-2018 n=3). Regime Shift Trade size line withdrawn under WQ-614 A, for consistency, not on a finding against the trade (KB-VIO-376).
 8. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
 **Persistence / coordination (11/05):** boot pull clean. 8 WALTER cards drained into board_log.tsv and processed/; COR-20261031-02 receipted NO-OP. Corrections check rc 0. Ledgers repaired 10/29–11/04. PREDICTIONS.tsv: all 6 rows terminal, so the staleness alert has no live row behind it. Closeout not run; PROME holds it.

@@ -6,6 +6,12 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## November 5, 2026 — v4.1.8: WQ-614 A encoded
+
+**Ruling:** Will in PROME's chat, 13:59 ET, verbatim "Okay approve with your recs all four". Record `PROME/proposals/2026-11-05_wq614-617-RULED.md`.
+**Old view → new view:** Regime Shift Trade "Sizing: 1.5% account", marked open → size line withdrawn, for consistency with Path A carrying no sizing. This is not a finding against the trade; the audit did not test this setup.
+**Not changed:** entry, target, stop and the HY OAS >4 condition stay verbatim because they were not ruled on. No live gate moved. KB-VIO-376.
+
 ## November 5, 2026 — v4.1.7: WQ-611 A encoded
 
 **Ruling:** Will in PROME's chat, 11:54 ET, verbatim "612 611 A both" (WQ-611 option A). Items 1 and 2 of the Path A recommendation approved; item 3 not taken, so no prediction is registered.

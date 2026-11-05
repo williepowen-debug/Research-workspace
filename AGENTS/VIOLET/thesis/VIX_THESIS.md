@@ -1,4 +1,4 @@
-# VIX THESIS (v4.1.7 — WQ-611 A encoded, 2026-11-05: Path A hit rates replaced by measured figures, Path A is a WATCH with no gate, Lag Trade template withdrawn)
+# VIX THESIS (v4.1.8 — WQ-611 A and WQ-614 A encoded, 2026-11-05: Path A hit rates replaced by measured figures, Path A is a WATCH with no gate, Lag Trade template and Regime Shift size line withdrawn)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -17,6 +17,8 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ---
 
 ## CHANGELOG
+
+**v4.1.8 (2026-11-05):** Will's ruling WQ-614 A (13:59 ET) encoded: Regime Shift Trade 1.5% size line withdrawn, for consistency and not on a finding against the trade. Full entry: `thesis/CHANGELOG.md`.
 
 **v4.1.7 (2026-11-05):** Will's ruling WQ-611 A (11:54 ET) encoded. The inherited Path A hit and false-positive rates are replaced by the measured figures in § CENTRAL CLAIM. Path A stays a mechanism and a WATCH with no gate and no sizing. Lag Trade entry, target, stop and sizing withdrawn. No live gate moved; no prediction registered. Full entry: `thesis/CHANGELOG.md`.
 
@@ -299,7 +301,7 @@ HENRY (Equity market impact)
 Portfolio P&L
 ```
 
-**Path A WATCH is active when:** four conditions hold (VIX<20 at onset, credit-originated shock, cross-sector widening, no curve inversion). Inherited lead: 2-6 weeks tactical / ~7 months cyclical. **Status (WQ-611 A, 2026-11-05): mechanism and WATCH, no gate; measured rates in § CENTRAL CLAIM. The "high-confidence path" label is withdrawn.** Expressions: **Lag Trade** (mid-flight tactical, template withdrawn) and **Regime Shift Trade** (slow-build strategic entry in persistent Low Vol regime, sizing not covered by the ruling) — both in Trade Implications below.
+**Path A WATCH is active when:** four conditions hold (VIX<20 at onset, credit-originated shock, cross-sector widening, no curve inversion). Inherited lead: 2-6 weeks tactical / ~7 months cyclical. **Status (WQ-611 A, 2026-11-05): mechanism and WATCH, no gate; measured rates in § CENTRAL CLAIM. The "high-confidence path" label is withdrawn.** Expressions: **Lag Trade** (mid-flight tactical, template withdrawn) and **Regime Shift Trade** (slow-build strategic entry in persistent Low Vol regime, size line withdrawn under WQ-614 A) — both in Trade Implications below.
 
 ### Path B — Concentration-unwind parallel (added v3.3, KB-VIO-070/071)
 
@@ -419,9 +421,7 @@ Portfolio P&L (no credit-side firing required)
 **Entry:** VIX calls 60-90 DTE
 **Target:** Regime shift to rising vol (VIX 25-30)
 **Stop:** VIX breaks below 15, credit stress resolves, or 7-day sustained contango re-steepening
-**Sizing:** 1.5% account
-
-⚠️ **Open, not ruled (2026-11-05):** this setup is tagged Path A, and Path A now carries no sizing, but WQ-611 A named the Lag Trade template only, so this line stands until Will rules. The setup also needs VVIX>120 with VIX<20, which the audit did not test.
+**Sizing:** WITHDRAWN (WQ-614 A, Will 2026-11-05 13:59 ET). This is for consistency with Path A carrying no sizing, not a finding against the trade: the audit did not test this setup. Entry, target, stop and the HY OAS >4 condition above stay as written because they were not ruled on; with no size line they open no trade. Any future trade is a new TERRY card under root rule #5.
 
 **Rare-trigger caveat (v3.4; ⚠️ CONDITIONING AMENDED v4.1):** VVIX>120 is historically uncommon (first sustained VVIX>100 of 2026 hit 6/5; 120 still not breached). Don't size the watchlist as if this fires monthly. ⚠️ **The clause "especially in the current GEX-suppression era" is WITHDRAWN as a live conditioner — and v4.1.1 withdraws it for a STRONGER reason than v4.1 gave.** v4.1 withdrew it because gamma was *negative*; the measured sequence is **+$20.4B [8/28] → −$16.7B [9/2] → +$36.8B [9/3]**, so **the conditioner cannot be evaluated at all at this cadence** — it would flip with the board twice a week. **The base rate is unchanged (19 years of history does not move with the gamma board); the MECHANISTIC conditioner is retired as unusable, not merely suspended.** ⛔ And in neither direction is it a forecast: a negative board removes a dampener, it does not supply a shock (fence 3 above).
 
