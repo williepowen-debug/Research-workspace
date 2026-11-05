@@ -24,6 +24,8 @@
 - DAEDALUS #8 (THESIS D2–D4, A2 upgrade rung) stays for 11/20. Formal grade **2026-11-20**; HOM-02 decider MBA Q3 NDS ~mid-Nov.
 - ATTOM path is `/news/market-trends/foreclosures/` (plural); singular 404s prove nothing.
 
+- ⚠️ **PUSH NOT DONE.** safe-push failed 3 times 2026-11-05: 1 unread abort, then 2 GitHub rejections, `fatal error in commit_refs_rules`, on a clean fast-forward. Commits are local: 3238c184b is not on origin at 18:4x ET. Flagged to PROME. No force. Packets are readable in this shared tree; re-run `scripts/safe-push.sh` next session.
+
 No Will decision required.
 
 ---
