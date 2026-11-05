@@ -6,7 +6,7 @@
 **Constraint honored:** no trade implied, no P&L, no position language. No level moved: grades follow the ruled letter (§10).
 
 > **★ THE ONE THING: THE CROWD PRICES ANOTHER US STRIKE AT 58.5% BY 11/30 AND $110 OIL AT 13.0%.**
-> PM "effective ceasefire" (created 2026-11-04T06:07Z; a US strike landing on Iran = NO; counts only from creation) 11/15 **56.5** · 11/30 **41.5** · 12/31 **30.0** (legs vol $36K–$77K). WTI $110 Nov **13.0** (Gamma d1 −20.5; vol $34.4K, liq $28.7K). US invade Iran 10.5 (d1 −9.0, $77.8M). Blockade-end 12/31 43.4 · 3/31/27 71.0 (d1 +8.0). The crowd separates limited strikes from a supply shock. No deal or reopening established (SIG-W-20261104-078). HAWK owns the reality.
+> PM "effective ceasefire" (created 2026-11-04T06:07Z; a US strike landing on Iran = NO; counts only from creation) 11/15 **56.5** · 11/30 **41.5** · 12/31 **30.0** (legs vol $36K–$77K). WTI $110 Nov **13.0** (Gamma d1 −20.5; vol $34.4K, liq $28.7K). US invade Iran 10.5 (d1 −9.0, $77.8M). Blockade-end 12/31 43.4 · 3/31/27 71.0 (d1 +8.0). ⚠️ "Limited strikes, not a supply shock" is a plausible reading, not a finding: separate contracts give no read on oil conditional on a strike. No deal or reopening established (SIG-W-20261104-078). HAWK owns the reality.
 >
 > **★ CEASEFIRE:** PM through 11/30 and 12/31 **resolved NO** (closed 2026-11-03T03:23Z, 03:07Z; vol $1.26M, $1.24M; 11/30 leg 36.0 → 0.6 in 3h). ⚠️ The word misleads: NO = a US air or missile strike landing on Iranian soil, no defensive exemption. Consistent with the reported Qeshm strikes (SIG-W-20261104-002, -019). The market names no trigger; not a FAL-07 grade. KB-ORC-111.
 >

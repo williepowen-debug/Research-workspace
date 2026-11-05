@@ -1,6 +1,6 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-11-04 (Wed) 20:14–21:xx ET (from `date`) · **Box:** LAPTOP `WilliePOwen`, Kalshi UNSIGNED (`status` rc=3, public market data). · Session: oracle-12, Claude Code, Opus 5.5; boot, then Will 20:40 ET "get caught up on any new data". Prior: 2026-10-28.
+**Last updated:** 2026-11-04 (Wed) 20:14–21:0x ET (from `date`) · **Box:** LAPTOP `WilliePOwen`, Kalshi UNSIGNED (`status` rc=3, public market data). · Session: oracle-12, Claude Code, Opus 5.5; boot, then Will 20:40 ET "get caught up on any new data". Prior: 2026-10-28.
 
 ## CHANGES SINCE 10/28 (ORACLE dark 10/29–11/04; the routine pulled, nothing graded)
 
@@ -32,6 +32,7 @@
 - **🟠 Rolls:** Hormuz on-date · Hormuz closure context rung · Kalshi Brent date ladder · `KXCPIYOY-26OCT` · Hormuz weekly → wk-of-11/9 · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
 - **🟠 Russian diesel nomination** (BRENT/OSPREY; coverage 11/04). Do not pin without the owner's read.
 - **🟠 Next coverage sweep due ≤11/11.**
+- **🟠 Daily grading owner:** PROME to establish who launches the daily ORACLE grade. CATO's preset shipped 10/29 (c7519854e3); L848 PENDING acceptance. Review 11/04: no more frequent collection and no new checker before that.
 - **🟠 KB rows still owed from 10/15:** Sept CPI calibration datum (print 3.7 vs mode 3.6) · Iran crude 1.957M.
 - **🟡 2026-12-15: Kalshi gap-fill quarterly re-check** (WQ-305).
 - **🟡 At the next DESKTOP boot: `kalshi.py status` must return rc=0.**
@@ -57,8 +58,8 @@
 
 ## OPEN HYPOTHESES
 
-- **The crowd separates limited strikes from a supply shock.** Another strike 58.5 by 11/30 vs $110 at 13.0. A strike that hits export capacity would break it. HAWK and BRENT own the reality.
-- **Deal hopes are doing the work in oil.** Rapidan says odds still favor escalation; CIBC says the drop may be overdone (SIG-W-20261104-078). Blockade-end 12/31 43.4 is the check.
+- **Possibly the crowd separates limited strikes from a supply shock (UNPROVEN).** Another strike 58.5 by 11/30 vs $110 at 13.0. Separate contracts with different rules, participants and liquidity give no read on oil conditional on a strike. HAWK and BRENT own the reality.
+- **Deal hopes may explain the oil drop (cause NOT established; SIG-W-20261104-078 reports drivers only).** Rapidan says odds still favor escalation; CIBC says the drop may be overdone (SIG-W-20261104-078). Blockade-end 12/31 43.4 is the check.
 - **Bank-failure crowd = the 2024-25 prior, not 2026 data.** Test in F-1 (Brier). All books thin ($2.0K liq tonight).
 - **Recession gap = PM's extra NBER leg** (structural).
 - **Complacency decoupling:** S&P best-asset 84.5; gold 2.7 — the registered tell has not fired. NEH left this hypothesis: it is a high-bar basket (KB-ORC-115).
