@@ -78,6 +78,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 ## RECENTLY RESOLVED — October20
 
+**11/05 Ueno read (Will-asked):** no US bank route found; $17.9M US fund face, 5.1% of the bond; LIQUID owns contagion → `reports/2026-11-05_Ueno-Paraguay.md`. Last touched 2026-11-05.
+
 **11/05 late-loan scan (Will-asked, one-time):** 139 banks; Preferred control passed; First Hawaiian weak, The Bancorp likely closed, NexBank unreadable (private), Flagstar and Citizens carried → `reports/2026-11-05_late-loan-scan.md`. Not an instrument. Last touched 2026-11-05.
 
 **11/05 catch-up (Will-authorized via PROME):** L895 FFIEC tail DONE (138 of 138, 6 flags unchanged, −$6.54B / +$32.70B). L516 Nano P&A posted and read, schedules redacted, shared figure unchanged. FL frame: SBCF and SSB final HOLDS, NO TRANSMISSION line reached, PROVISIONAL until BKU. CCB 10-Q read. CREED-T-01a bank review: no transmission established. HY 332: REG-T-04 NOT FIRED. ROLL70 gate: retirement recommended. Evidence limit closed: SBCF $8.4M is a PCD measurement-period adjustment. 21 inbox items drained → `reports/2026-11-05_boot/REPORT.md`. Last touched 2026-11-05.

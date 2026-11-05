@@ -1,0 +1,41 @@
+2026-03-01 2026-06-20 10 page 0 10
+2026-06-21 2026-07-31 23 page 0 23
+2026-08-01 2026-09-10 10 page 0 10
+2026-09-11 2026-09-30 38 page 0 38
+2026-10-01 2026-11-05 30 page 0 30
+filings 94
+rows 33 fail 0 []
+distinct cusips Counter({('903934AB3', '2031-03-06'): 33})
+series 17 face $M 17.94 value $M 17.17 share of $350M 5.1%
+latest report months [('2026-03', 1), ('2026-06', 5), ('2026-07', 8), ('2026-08', 3)]
+max pct of fund 1.223471429
+  6.60 WESTERN ASSET EMERGING MARKETS DEBT 
+  2.14 Brinker Capital Destinations Trust
+  1.50 Western Asset Diversified Income Fun
+  1.20 SEI INSTITUTIONAL INVESTMENTS TRUST
+  0.92 WESTERN ASSET HIGH INCOME FUND II IN
+  0.90 DELAWARE GROUP ADVISER FUNDS
+  0.80 RUSSELL INVESTMENT CO
+  0.69 Investment Managers Series Trust
+  0.63 SEI INSTITUTIONAL INTERNATIONAL TRUS
+  0.60 VanEck ETF Trust
+  0.51 OPTIMUM FUND TRUST
+  0.49 DELAWARE GROUP GOVERNMENT FUND
+  0.47 WESTERN ASSET GLOBAL HIGH INCOME FUN
+  0.26 LEGG MASON PARTNERS VARIABLE INCOME 
+  0.23 WESTERN ASSET GLOBAL CORPORATE OPPOR
+ 6.60 0.99% 2026-06-30 Western Asset Emerging Markets Debt Fund Inc. px 97.5
+ 2.14 0.28% 2026-08-31 Destinations Global Fixed Income Opportunities Fun px 94.8
+ 1.50 0.20% 2026-06-30 Western Asset Diversified Income Fund px 97.5
+ 1.20 0.06% 2026-08-31 SIIT EMERGING MARKETS DEBT FUND px 94.8
+ 0.92 0.23% 2026-07-31 Western Asset High Income Fund II Inc. px 91.9
+ 0.90 0.04% 2026-07-31 Nomura Diversified Income Fund px 91.9
+ 0.69 1.22% 2026-03-31 Gramercy Emerging Markets Debt Fund px 98.9
+ 0.63 0.06% 2026-06-30 SIT Emerging Markets Debt Fund px 97.1
+ 0.60 0.11% 2026-07-31 VanEck Emerging Markets High Yield Bond ETF px 91.9
+ 0.51 0.02% 2026-06-30 Optimum Fixed Income Fund px 97.5
+ 0.49 0.63% 2026-07-31 Nomura Emerging Markets Debt Corporate Fund px 91.9
+ 0.47 0.23% 2026-08-31 Western Asset Global High Income Fund Inc. px 95.2
+ 0.40 0.04% 2026-07-31 Opportunistic Credit Fund px 91.0
+ 0.26 0.16% 2026-06-30 Western Asset Variable Global High Yield Bond Port px 97.5
+price by month {'2026-03': 99.0, '2026-04': 98.4, '2026-05': 97.4, '2026-06': 97.4, '2026-07': 91.6, '2026-08': 94.9}
