@@ -4,7 +4,7 @@
 
 ## 1. Desk read
 
-**I adopt "real but contained" as the working read, with one amendment and one dropped red flag.** The odds are the researcher's judgment; they are not registered and I do not adopt them as numbers. The most important new finding stands: **the $143.1M is almost all new.**
+**I adopt "real but contained" as the working read, with one amendment and one dropped red flag.** The odds are the researcher's judgment; they are not registered and I do not adopt them as numbers. The most important new finding stands: **the $143.1M looks almost all new.** ⚠️ That ~$137M is INFERRED; the reported rise is +$80.3M ($62.8M → $143.1M), and the 9/30 figure rests on my FFIEC pull because FDIC has not posted Q3.
 
 ## 2. What held up
 
@@ -16,8 +16,8 @@
 | Relationship: 5 loans, $115.6M, appraisals 11/2024–2/2026 | 2/23/26 8-K | **VERIFIED** to the dollar; average LTV 52.7% |
 | Q4 25: $123.1M relationship, four loans in another institution's lawsuit, 65.7% LTV, 1.14x DCR | Q4 release | **VERIFIED** |
 | $37.1M OREO sold at $3.6M gain | Q4 release | **VERIFIED.** That it was Tesoro is INFERRED |
-| Own history: big jumps usually migrate | Own rebuild from FDIC data: 8 jumps of +50% and +$20M since 2015; 5 of 7 resolved migrated ≥50%; 2 did not; 9/30/26 open. Max two-quarter charge-offs after any jump $9.0M | **Direction VERIFIED.** Researcher's 7 of 11 uses a looser cut |
-| Peer base rate | Own rebuild, $5–15B banks since 2010, ≥$100M multifamily: >5% late, 55 bank-quarters at 26 banks, 15 of 49 converted ≥50%, 19 cured. >10%: 12 at 5 banks, 3 of 10 | **VERIFIED.** Thin; CFG Bank dominates |
+| Own history: big jumps usually migrate | Own rebuild from FDIC data, ALL loans: 8 jumps of +50% and +$20M since 2015; 5 of 7 resolved migrated ≥50%; 9/30/26 open. Max two-quarter charge-offs after any jump $9.0M | **Direction VERIFIED, but overstated: see §6.** Researcher's 7 of 11 uses a looser cut |
+| Peer base rate | Own rebuild, $5–15B banks since 2010, ≥$100M multifamily: >5% late, 55 bank-quarters at 26 banks, 15 of 49 converted ≥50%, 19 cured. >10%: 12 at 5 banks, 3 of 10 | **VERIFIED, but those cells include Preferred's own quarters: see §6.** Thin; CFG Bank dominates |
 | Peers clean | My Call Report pull: East West 0.01%, Cathay 0.00%, Hope 0.41%, Dime 0.73%, Banc of California 0.00% | **VERIFIED** on 5 of 11 |
 | Capital and loss arithmetic | Recomputed base, adverse, severe, tail, haircuts, $134M to 10% CET1, $417M to 10% total capital | **VERIFIED** as arithmetic |
 | Uninsured 51.1%, brokered $939M, CRE 344%, multifamily OREO $8.5M | Call Report | **VERIFIED** |
@@ -26,7 +26,7 @@
 
 ## 3. Where I differ
 
-1. **Base case is too light.** It assumes 15% of the late multifamily migrates. Its own base rates say most jumps at this bank migrate and about a third of peers convert. At 50% migrating and 20% loss, the base case is **~$20M, not ~$8M** (7.6 − 2.1 + 14.3). Still under half of one quarter's ~$49.5M pre-provision earnings. The conclusion holds; the point estimate should not travel.
+1. **Base case is too light.** It assumes 15% of the late multifamily migrates. Its own base rates point higher (§6 narrows them). At 50% migrating and 20% loss, an assumption, not a measured rate, the base case is **~$20M, not ~$8M** (7.6 − 2.1 + 14.3). Still under half of one quarter's ~$49.5M pre-provision earnings. The conclusion holds; the point estimate should not travel.
 2. **Plaza Continental red flag dropped.** The report sets petition assets of $10–50M against the $67.2M appraisal on relationship loan 5. DEWEY's docket read puts Preferred plus Nano senior liens at ~$28.3M (debtor's 9/8 figures), below loan 5's $29.9M balance. So loan 5 is probably not Plaza, and that gap is not established. Same weakness on "loan 1 may be Chino".
 3. **"Special mention" point not re-checked.** The ~$57.2M older-vintage line could not be read from the PDF text. Marked NOT VERIFIED. The 60–89 point above stands on its own.
 4. **Not checked:** the note buyer entity, the arbitration snippet, Piper's target, the 2031 sub notes, 6 of 11 peers, the lending limit and largest-relationship figures.
@@ -36,7 +36,7 @@
 - **For:** every resolved exit from this borrower group came near par or at a gain, peers are clean, and capital needs $134M of pre-tax loss to reach 10% CET1. One bank-specific borrower group fits better than a market cause.
 - **Against:** $137M went late in one quarter, unexplained, mostly unclassified, at a bank that kept a loan in 60–89 for quarters. No public source names the borrowers. Par sales are unverified for buyer financing. A bank's own record so far is not proof of loss completeness (Will 10/20).
 
-| Q3 10-Q, ~11/7–11/10 (ESTIMATE) | Reading |
+| Q3 10-Q, most likely Mon 11/9 (ESTIMATE, §6) | Reading |
 |---|---|
 | Most new late multifamily in 30–59, cured or renewed in October; special mention near $76M; $56.7M sale closed | Harmless |
 | Special mention up $80–150M; sale closed | Real but contained |
@@ -47,3 +47,18 @@
 ## 5. Consequences
 
 No score, gate or prediction. PFBC stays outside the 14; it goes on the proposed side list. **Trade: no candidate.** Listed options are untradeable, short interest is already 11.8% of shares, and the 10-Q is days away. CREED and HOMER via WALTER. Scripts: `domain/sources/2026-11-05_pfbc-verification/`.
+
+## 6. Corrections after PROME's challenge (13:30 ET)
+
+**Timing.** FLNG shows every Q3 10-Q since 2011 filed 11/8–11/12; 9/30 + 40 days is Mon 11/9. My "~11/7–11/10" included a Saturday. **Read: most likely Mon 11/9.**
+
+**"5 of 7" is weaker than I said.**
+- It counts jumps in ALL 30–89 loans, not multifamily.
+- Two pairs are the same episode (3/24 + 6/24; 9/25 + 12/25). By episode: 2018 yes, 2019 no, 2020 yes, 2024 mixed, 2025 yes. **About 3 of 5, one mixed.**
+- **Multifamily only (+50%, +$20M): 3 prior jumps.** 12/31/19 $23.0M cured with no nonaccrual. 6/30/24 $37.4M stayed late two quarters, then $40.8M nonaccrual at 3/31/25, then foreclosed, and a $37.1M property sold at a gain (Tesoro link inferred). 12/31/25 $70.9M is the inferred mixed-use loan, nonaccrual in Q3 2026. So 2 of 3 reached nonaccrual, both beyond or near the two-quarter window, and neither has shown a large loss so far.
+
+**The peer cells included Preferred.** Above 10% late: 12 bank-quarters at 5 banks included 3 of Preferred's own. **Excluding it: 9 at 4 banks; 2 of 8 graded converted, both CFG Bank, 4 cured.** Above 5% excluding it: 48 at 25 banks; 13 of 44 converted; 18 cured.
+
+**Preferred's own record:** late multifamily above 10% four times before (10.2%, 11.2%, 11.9%, 10.7%). **26.5% is more than twice its prior peak.** That cuts both ways: the bank has lived above 10% without large losses, and this is outside its own range.
+
+**Conclusion unchanged:** real but contained. The ~$20M base case stays an assumption-driven figure, and the claim "usually converts" is replaced by "more often than not, on thin evidence".
