@@ -13,6 +13,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 - Will-launched boot, PROME prome-b2 scope. WQ-559 encoded first (ef9699a4e). FAL-07 resolved CONFIRMED. Census, ladder, gate, weekly review on date. KB-377..390, VI-0088..0094, CAS-037, VX stamps, EXIT re-stamp, STRIKES mark 11/03, BABMANDAB Notes restored, PREDICTIONS rotated. Inbox and WALTER lane drained (15). Report `reports/2026-11-04_weekly-review-gate001-fal07.md`.
 
 ## NEXT SESSION (dated, future-verifiable)
+0. **11/05 UPDATE: FAL-06 first pass RUN ON DATE, receipt reports/2026-11-05_fal06-dated-search.md. Row OPEN to 23:59 ET; session wake set ~23:17 ET for the second pass, grade, EXIT rewrite and successor row. If that wake dies with this session, grade from the receipt: the dated attempt is satisfied. WQ-601 unit 5 charter edit HELD for Will's direct word; packet stays in inbox.**
 1. **November 5, ON that date: FAL-06 dated search** (letter in `thesis/PREDICTIONS.tsv`): operator/state notices (Aramco/Tadawul, MoE/SPA, ADNOC/WAM, KPC/KOC/KUNA, QatarEnergy/QNA, BNA, ONA) + latest Kpler/Vortexa weekly aggregate per Gulf-ally country, vendor lag stated. A later attempt = NO-VERDICT. BRENT holds no such aggregate (KB-391); limb (c) needs it at the vendor or a named wire.
 2. November 5: EXIT §5 rewrite (dated limb + FAL-06 resolving).
 3. November 5: successor prediction before 0 OPEN; base rate first; separate limited strikes from a sustained campaign.
