@@ -559,10 +559,10 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-05	OSPREY	SIG-W-20261105-037	NONE	UNKNOWN	NO	NA	3	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b, never DARK. Named in PROME wake recommendation packet where listed; no rule 13 doorbell.
 2026-11-05	OZK	SIG-W-20261105-037	NONE	UNKNOWN	NO	NA	2	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b, never DARK. Named in PROME wake recommendation packet where listed; no rule 13 doorbell.
 2026-11-05	CYPHER	SIG-W-20261105-037	NONE	UNKNOWN	NO	NA	6	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b, never DARK. Named in PROME wake recommendation packet where listed; no rule 13 doorbell.
-2026-11-05	CYPHER	SIG-W-20261105-046	NONE	UNKNOWN	NO	NA	8	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b. PROME wake packet stands.
-2026-11-05	LABOR	SIG-W-20261105-049	NONE	UNKNOWN	NO	NA	1	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b. PROME wake packet stands.
+2026-11-05	CYPHER	SIG-W-20261105-046	NONE	LIVE	NO	NA	8	NA		Live at dispatch: PROME-woken session in ListAgents; WALTER direct doorbell sent, not a rule 13 row. Earlier note wrong; ListAgents read after dispatch.
+2026-11-05	LABOR	SIG-W-20261105-049	NONE	LIVE	NO	NA	1	NA		Live at dispatch: PROME-woken session in ListAgents; WALTER direct doorbell sent, not a rule 13 row. Earlier note wrong; ListAgents read after dispatch.
 2026-11-05	HANS	SIG-W-20261105-050	NONE	UNKNOWN	NO	NA	24	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b. PROME wake packet stands.
 2026-11-05	SAM	SIG-W-20261105-050	NONE	UNKNOWN	NO	NA	9	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b. PROME wake packet stands.
 2026-11-05	OSPREY	SIG-W-20261105-050	NONE	UNKNOWN	NO	NA	4	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b. PROME wake packet stands.
-2026-11-05	CYPHER	SIG-W-20261105-050	NONE	UNKNOWN	NO	NA	8	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b. PROME wake packet stands.
+2026-11-05	CYPHER	SIG-W-20261105-050	NONE	LIVE	NO	NA	8	NA		Live at dispatch: PROME-woken session in ListAgents; WALTER direct doorbell sent, not a rule 13 row. Earlier note wrong; ListAgents read after dispatch.
 2026-11-05	ZHAO	SIG-W-20261105-050	NONE	UNKNOWN	NO	NA	8	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b. PROME wake packet stands.
