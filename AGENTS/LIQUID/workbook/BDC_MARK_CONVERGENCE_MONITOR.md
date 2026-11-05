@@ -57,9 +57,9 @@ Filing-primary XBRL and 10-Q text (`research/2026-11-05_live-catchup/sec_facts.t
 | OBDC | 14.26 → 14.32 | +0.42% | 0.9895 → 0.9910 | +0.14 | 0.8 → 0.8 | $0.31 → $0.31; supplemental $0.02 → $0.01 | 0.751 (0.792) |
 | ARCC | 19.35 → 19.31 | −0.21% | 0.9890 → 0.9910 | +0.20 | 1.4 → 1.4 | $0.48 → $0.48 | 1.008 (1.029) |
 | GSBD | not filed | | | | | | 0.741 on Q2 NAV (0.816) |
-| MAIN | not filed | | | | | | 1.699 on Q2 NAV (1.718) |
+| MAIN | 33.92 → **34.18–34.26, company preliminary estimate** (8-K 10/15, not a 10-Q) | +0.8% to +1.0%, after a $0.30 supplemental | not filed | | not filed | not read | 1.68–1.69 on the estimate (1.718) |
 
-**Against the lines.** Route 1 (≥2 names FV/Cost down AND NAV −>2%): 0 of 4, so it needs both GSBD and MAIN. Route 2 (≥3 names FV/Cost −>1pt): 0 of 4. Route 3 (fresh regular cut with deterioration): no regular cut among the four. **REFUTE is not met either:** BXSL's FV/Cost moved outside ±0.5pt (upward), and P/NAV fell on all six against the 8/23 column. **So what:** on four of six, marks did not catch down to prices that kept falling. The price-versus-mark gap stayed open rather than closing either way. Final at GSBD and MAIN.
+**Against the lines.** Route 1 (≥2 names FV/Cost down AND NAV −>2%): 0 of 4, and MAIN's estimate rules it out, since it needs both GSBD and MAIN. Route 2 (≥3 names FV/Cost −>1pt): 0 of 4, and two names remain, so it cannot be met. Route 3 (fresh regular cut with deterioration): no regular cut among the four. **So CONFIRM now survives only through route 3, a fresh regular cut at GSBD or MAIN, subject to MAIN's estimate holding in its 10-Q.** **REFUTE is not met either:** BXSL's FV/Cost moved outside ±0.5pt (upward), and P/NAV fell on all six against the 8/23 column. **So what:** on four of six, marks did not catch down to prices that kept falling. The price-versus-mark gap stayed open rather than closing either way. Final at GSBD and MAIN.
 
 ⚠️ **FV/Cost up is not marks healing.** The ratio is composition-sensitive: BXSL's cost base fell $606M and FSK's $182M in the quarter, and BXSL's NAV still fell 1.10%. BXSL's non-accruals rose. P/NAV compares 11/04 with 8/23 closes, not two quarter-ends.
 

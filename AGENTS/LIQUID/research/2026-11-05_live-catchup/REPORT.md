@@ -123,3 +123,22 @@ First-published [November 4]: HY 332 (−8), IG 91 (−2), BBB 113 (−3), BB 19
 
 **So what:** credit tightened across every tier on the day the AI cohort fell 7–11%. On that session cohort stress did not reach index credit, which supports a single-cohort read. It proves nothing about November 5, whose tape was weaker at the open.
 
+## 13. Addendum: Will's follow-on list, 10:39 ET
+
+**XCCC (DOCKET L829 I1): refreshed.** Correction: I told Will I had stopped trying. curl returned 403 at 09:47 and 10:33 ET; one ordinary WebFetch returned HTTP 200 at about 10:40 ET, so the refusal was client-specific, not a site outage. No proxy or unblocking service was used. Holdings as of November 4: 178 securities (177 bonds plus cash), 124 issuers. `after_1040/xccc_rows_2026-11-04.txt` is transcribed by the fetch agent. **Validated:** all ten rows of the page's Top 10 Issuers table reconcile to the cent; rows sum to 100.05%.
+
+| Bucket | Weight | Basis |
+|---|---:|---|
+| AI builders | **0%** | Same name screen as October 29 |
+| Cable, telecom, media | 18.71% | Desk name bucket, includes Connect Holding (Brightspeed, from my knowledge of the name, not read from the filing) and Viasat |
+| Software | 5.76% (3.75% without athenahealth) | Desk name bucket |
+| Other | 75.53% | Remainder |
+
+Issuer sector taxonomy was not in the fetched text, so Technology 7.71% and Communications 17.02% stay October 29; do not difference the buckets against them. "Download CSV" exposed no link target. **Cross-check:** XCCC N-PORT for July 31 (BondBloxx ETF Trust CIK 1879238, S000075710, filed September 25, accession 0001003715-26-003711): 182 positions, AI name hits none.
+
+**Main Street:** 8-K October 15 Ex. 99.1, company preliminary estimate: NAV $34.18–$34.26 at September 30, up $0.26–$0.34, or 0.8%–1.0%, after a $0.30 supplemental. An estimate, not the 10-Q. **Goldman:** reports after the close today, call November 6 09:00 ET (8-K October 5). With MAIN's estimate, CONFIRM routes 1 and 2 cannot be met; only a fresh regular cut at GSBD or MAIN remains.
+
+**Dealer positions and H.4.1:** as-of October 28 still absent at 10:40 ET. Watchers running; nothing can bring these forward.
+
+**C10:** done on Will's word ("work on these next", 10:39 ET). `CLAUDE.md` line 14 re-spaced, wording only.
+

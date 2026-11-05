@@ -1,0 +1,24 @@
+## MAIN 0001396440-26-000142
+  0001396440-26-000142-index-headers.html  (0 bytes in JSON index; 0 = size unavailable)
+  0001396440-26-000142-index.html  (0 bytes in JSON index; 0 = size unavailable)
+  R1.htm  (39617 bytes in JSON index; 0 = size unavailable)
+  main-20261103.htm  (40288 bytes in JSON index; 0 = size unavailable)
+  main-20261103_htm.xml  (2835 bytes in JSON index; 0 = size unavailable)
+## MAIN 0001396440-26-000140
+  0001396440-26-000140-index-headers.html  (0 bytes in JSON index; 0 = size unavailable)
+  0001396440-26-000140-index.html  (0 bytes in JSON index; 0 = size unavailable)
+  R1.htm  (37876 bytes in JSON index; 0 = size unavailable)
+  main-20261028.htm  (41823 bytes in JSON index; 0 = size unavailable)
+  main-20261028_htm.xml  (2736 bytes in JSON index; 0 = size unavailable)
+## MAIN 0001396440-26-000106
+  0001396440-26-000106-index-headers.html  (0 bytes in JSON index; 0 = size unavailable)
+  0001396440-26-000106-index.html  (0 bytes in JSON index; 0 = size unavailable)
+  R1.htm  (39616 bytes in JSON index; 0 = size unavailable)
+  main-20261015.htm  (44050 bytes in JSON index; 0 = size unavailable)
+  main-20261015_htm.xml  (2835 bytes in JSON index; 0 = size unavailable)
+## MAIN 0001396440-26-000104
+  0001396440-26-000104-index-headers.html  (0 bytes in JSON index; 0 = size unavailable)
+  0001396440-26-000104-index.html  (0 bytes in JSON index; 0 = size unavailable)
+  R1.htm  (39617 bytes in JSON index; 0 = size unavailable)
+  main-20261008.htm  (42385 bytes in JSON index; 0 = size unavailable)
+  main-20261008_htm.xml  (2835 bytes in JSON index; 0 = size unavailable)
