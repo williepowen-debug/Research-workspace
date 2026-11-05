@@ -4,7 +4,7 @@ Updated 2026-11-05T15:00:02Z, Claude Code Opus 5.5, session walter-07 on the des
 
 ## NOVEMBER 5 CATCH-UP — desktop state
 
-Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 014 (handoff count in delivery_log). Commits ee7cc2297, 725479117, 838cce505, 1d6de8f69; published by safe-push on a verified-clean tree under §3.4, HEAD 1d6de8f69 confirmed on origin. Publication is not consumption.
+Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 016 including FLASH 016, VIX +6 intraday (handoff count in delivery_log). Commits after 1d6de8f69 are local; 016 needs the next clean-tree push, PROME told. Commits ee7cc2297, 725479117, 838cce505, 1d6de8f69; published by safe-push on a verified-clean tree under §3.4, HEAD 1d6de8f69 confirmed on origin. Publication is not consumption.
 
 1. **X login:** Will re-authorized on the desktop 10:06 ET; scan rc=0.
 2. **Bright Data:** key name present in `AGENTS/WALTER/.env`; `bdata` not on PATH here. Only 403 bookmark links are affected.
@@ -51,7 +51,7 @@ December ULSD crack fell below the held-VLO line: TERRY accepted November 2 $89.
 
 ## WILL_NEEDS
 
-Held-VLO one-share sale: FIRED-UNEXECUTED, Will's hand, tell PROME the result. CREED launch permission for T-01a and T-08b reads. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
+Held-VLO one-share sale: FIRED-UNEXECUTED, Will's hand, tell PROME the result. CREED ran November 5 on Will's word: T-01a FIRED, T-08b at 7 of 11; its S1 3 to 4 proposal is with Will through PROME. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
 
 ## FOLLOW-UP
 

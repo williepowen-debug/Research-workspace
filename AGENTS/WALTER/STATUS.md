@@ -3,7 +3,7 @@
 
 ## BOTTOM LINE
 
-LIVE on the desktop. November 5 morning pass and bookmarks done: cards 001–014. Bank of England raised Bank Rate to 4%, 8–1 (001). AI names sold off through the open, QQQ under the 200-day level a November 4 chart showed (005, 014); CoreWeave bankruptcy claim killed at EDGAR (010). New UKMTO tanker strike north of Qatar; Iranian mine claims unconfirmed; no deal (007). No new WALTER fire in completed checks; VIX 20.12 at 15:08Z, +5 intraday line 21.61, watched.
+LIVE on the desktop. FLASH 016: VIX 22.71 at 15:29Z, +6.10 intraday over the safety line, vendor reads, not closes; banks not confirming. Morning pass and bookmarks done: cards 001–016. Bank of England raised Bank Rate to 4%, 8–1 (001). AI names sold off through the open, QQQ under the 200-day level a November 4 chart showed (005, 014); CoreWeave bankruptcy claim killed at EDGAR (010). New UKMTO tanker strike north of Qatar; Iranian mine claims unconfirmed; no deal (007). No registered WALTER threshold fire in completed checks beyond the safety net.
 
 BALANCED baseline; labor intake LOOSE for November 6 payrolls. `bdata` not installed here.
 
