@@ -1,10 +1,10 @@
 # OTTO — NEXUS Brief
 
-**Status:** 🔴🔴 fraud/recovery losses; both systemic-transmission legs DISCONFIRMED. Convergence 33/50, 21 points from one root.
+**Status:** 🔴🔴 fraud/recovery losses; both systemic-transmission legs DISCONFIRMED. Convergence 32/50, 21 points from one root.
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
-**Thesis version:** v1.5 plus October19 and October25 bounded addenda; final v1.6 remains prospective October30.
-**Recent thesis pivots:** s040 (10/28): Carvana Q3 10-Q discloses the SEC closed its short-report investigation (Sep-2026) with no enforcement recommendation; the registered Carvana −40% risk-row condition appears met and is applied at v1.6 10/30 (no score moved yet). s037/s039 financing and stale-file reconciliations stand. No systemic-leg, probability, colour or threshold change.
-**As of:** 2026-10-28 22:35 ET | STATUS commit: `e8d36c9f11f4cc32ebe94d71a4abde833092a455`
+**Thesis version:** v1.6 (2026-11-05), `4e765ec13`.
+**Recent thesis pivots:** s041 (11/05): THESIS v1.6: Carvana DORMANT (registered −40% applied, V5 2→1, composite 33→32); borrower exit relabelled an unverified hypothesis (CATO OT1); the SDT's noise floor withdrawn because the test compares two single months; vintage claim widened past 2022 on Credit Acceptance Q3. Prior: s040 (10/28) SEC closure at Carvana.
+**As of:** 2026-11-05 18:30 ET | STATUS commit: `208aa62874e36a06b10ec12262407de13b7145ac`
 
 ---
 
@@ -22,14 +22,14 @@
 | CARL · NEXUS | Bounded Ally Q3 transcript pass completed, secondary source | 🟠 | Management attributes newer-cohort early delinquency partly to mix and describes segment repricing/curtailment. Explanations are not causal measurements or executed Carvana/warehouse flows. Primary audio and repossession severity remain unverified; Trust V UNKNOWN. |
 | CARL · NEXUS · LIQUID | October25 catch-up readout: actual Ally Q3 and visually checked credit deck; primary KBRA and Edmunds source upgrades | 🟠 | Sequential auto weakening exceeds YoY change. Accruing versus all-in DQ differ; broad lender/index populations cannot replace fixed deep pools. High payments/long terms are affordability exposure, not default outcomes. |
 | CARL · WALTER | Edmunds October1 primary resolves the previously unmatched 69% statistic | 🟡 | At least72-month terms **among new buyers paying at least$1,000/month**. Not all buyers/Americans; no FICO split in the release. Readout/EDMUNDS_WEB_RECEIPT. |
-| CARL · NEXUS | September panel remains5/9; Exeter's latest filings still coverAugust, confirmed by October25 controlled probe | 🟠 | No new panel observation. Prior44/44 worseYoY are repeated deal-months, not independent credits. Bridgecrest extensions fellMoM while DQ rose; borrower/servicing attribution unresolved. |
+| CARL · RED · NEXUS | Exeter September collections loaded: recovery 19.14/15.70/21.04/26.51%, 4/4 below 28%, EART 2024-1 re-crossed; re-fired 11/05 (`SIG-OTTO-WALTER-20261105-exeter-*`) | 🟠 | One month on small dollars; six-month means flat; January low rebounded. Sep 9/9 worse YoY, 48/48 repeated deal-months. SDT is two-point: anyone citing "severity did not move" carries that limit. Not support for the Invisible Exit. |
 | LIQUID · REGINALD · RED | All8 shelves have2026 issuance in the controlled October25 probe; Cox mid-month adjusted prices rebound | 🟡 | Annual issuance existence cannot prove uninterrupted current access/no later halt. Mid-month Cox is provisional, not final monthly SDT input; adjusted rebound can coexist with unadjusted depreciation. |
-| BROCK · LIQUID · CARL · REGINALD | BROCK KB-BRK-356/357 and LIQUID/PROME WQ523 consumed: Car-Mart bridge8 throughNovember1 | 🔴 | Relief expiry, not maturity/automatic bankruptcy. Signed new loan and released receivables are not verified usable cash. Company origination-financing constraint is observed; lender-to-bank funded link is not. No duplicate investigation. |
+| BROCK · LIQUID · CARL · REGINALD | BROCK KB-BRK-419: Car-Mart tenth bridge through November 9, no new money | 🔴 | Relief expiry, not maturity or automatic bankruptcy. BROCK grades; OTTO re-colours only after. |
 | REGINALD · NEXUS · RED | LIQUID/PROME WQ524 historical First Brands → Point Bonita/SPV → WAL loss and lender response consumed | 🟠 | Precise case transmission is documented historically; not a newly disclosed bank or October funding spiral. Missed installment is not added to remaining charge-off. Recourse/ultimate recovery and advance warning remain unproved. |
 | CARL · LIQUID · REGINALD | OTTO-12 remains25% OPEN; actual Ally/VRM follow-up completed lateOctober25 | 🟡 | Subjective estimate, original55% scoring. Trust V outcome remainsUNKNOWN; no8-K/10-Q/10-K in current window is not a facility result. Ally whole-loan arrangement is separate from warehouse lending. |
 | REGINALD · RED | OTTO-31 remains8% OPEN after October19 M&T read | 🟡 | Broad corporate-trust franchise evidence does not measure narrow non-mortgage ABS custody. Modeled10-Q check~November5; no promised filing date. |
 | WALTER · WAL · CARL · TERRY · PROME | Carvana Q3 10-Q: SEC investigation (June 2025 subpoena, Jan-2025 report) concluded Sep-2026, no enforcement recommendation; filing clean | 🟠 | Company-reported; SEC communication not public; not exoneration; Gotham Jan-2026 report not mentioned. WAL `AUDITOR_NEXUS.md` L20/L90 now stale (WAL's to fix). Finance GPU $2,733 (+$67 QoQ, −$307 YoY); rate-vs-credit split unresolved. READOUT 2026-10-28_carvana-q3; WALTER drop committed. |
-| BROCK · REGINALD | Court sweep 10/28 (WINTERKORN, at dockets): Tricolor Dkt 1472 BlackRock Rule 2004 GRANTED on trustee criteria; FB §721 continued to 11/17; FB §341 held 10/27; FB DIP cash-sweep stipulation (Dkt 3952/3953) opposed (3988/3989) | 🟠 | Discovery authorized is not implication: no new party named (OTTO-33 60%). Onset's undisclosed-settlement claim is [ALLEG]. FB D&O order and Chu suppression ruling not found in CourtListener RSS (newest 30 entries only); search API now needs a token. |
+| BROCK · REGINALD · RED | Court sweep 11/05 (WINTERKORN read, OTTO did not re-read): trustee Rule 2004 campaign ~24 motions, Ares and AllianceBernstein on file as Tricolor lenders; US v. James moved to Judge Caproni, adjournment motion to 6/21/27 pending; FB §721 granted 11/02 (`SIG-OTTO-WALTER-20261105-tricolor-*`) | 🟠 | Rule 2004 is discovery, not accusation. Whether any Ares-managed public vehicle was a lender is not established. OTTO-33 OPEN 70%, as-made 60%. |
 | NEXUS · PROME | L708 remains NO_INSTRUMENT; earlier consumption settled | 🟡 | No verified corporate-bond/rating/index/date join; supplemental equities MIXED cannot establish consumer attribution of CCC widening or absence of credit transmission. |
 
 **WAITING FOR:**
@@ -42,13 +42,14 @@
 
 ## VIEW
 
-- Four established case tracks and severe recovery damage remain the core. Indictments establish charges, not adjudicated guilt. Carvana remains allegation-only; Car-Mart is not a fifth fraud case.
+- Four established case tracks and severe recovery damage remain the core. Indictments establish charges, not adjudicated guilt. Carvana is DORMANT, allegation-only; Car-Mart is not a fifth fraud case.
 - Deteriorating named collateral, continued conditional financing access, fraud losses and broad bank propagation remain separate propositions. October25 does not reopen either failed systemic leg.
-- General Invisible Exit conviction remains LOW; Tricolor mechanism conviction HIGH. Missing vehicles/manipulated data do not establish borrower motive. Original SDT consequence is August firstREFUTE plus nextTWO quarterlyREFUTEs, three total; November is the second observation.
-- Convergence33/50 is an index over correlated local colours, not probability or independent breadth. STATUS owns cells/arithmetic; THESIS owns conviction and rules.
+- General Invisible Exit conviction remains LOW. Charged lender conduct at Tricolor HIGH; borrower exit UNVERIFIED, because missing vehicles and manipulated data do not establish it. The SDT's August REFUTE stands as registered but is a two-endpoint reading; the ~11/15 run will be NO VERDICT, so the three-consecutive consequence will not complete, and that is not support.
+- Convergence 32/50 is an index over correlated local colours, not probability or independent breadth. STATUS owns cells/arithmetic; THESIS owns conviction and rules.
 
 ## CALIBRATION
 
+- **s041 (11/05, Claude Code):** two current estimates moved (OTTO-34 50→85, OTTO-33 60→70; as-made 60 scores both). OTTO-36 and OTTO-37 registered. Measure-design family now six. OTTO's boot brief overstated a "first" crossing; corrected. Cold read found 9 errors in v1.6 before repair; lower cautions remain listed in STALE_PUNCHLIST OT1.
 - **s040 (10/28, Claude Code):** Carvana read at primary filings; call only via secondary transcript (no analyst credit questions). Court rows verified by WINTERKORN at dockets/PDFs; OTTO checked its writes at the files. Live sweep found no new fraud case, lender failure, bank auto loss or ABS downgrade, but search coverage of the last week was thin, so this is not evidence of absence. Exeter September 10-Ds not yet filed. No probability, colour, threshold or score change.
 
 - **Closeout:** PROME accepted OTTO’s bounded correction at`965d875ae`; Will requested session closeout. Source/cadence/tool limits and existing future duties remain; no active work.
@@ -71,8 +72,8 @@
 
 ## NEXT DECISION POINT
 
-THESIS v1.6 (10/30): apply the registered Carvana −40% risk row (V5 re-scored from the moved conviction cell), write the V2 recovery rung, and fold in Exeter's September collections (~10/29) and the s037 financing evidence; independent cold read before commit. Contract access, loan-sale economics and pool performance stay separate reads.
+Manheim 11/06 resolves OTTO-37. The ~11/15 SDT is the second observation; decide then whether to propose a redesign, stated openly, with no calibration credit. EART October 10-Ds ~11/30 resolve OTTO-36 and test noise versus regime in recovery.
 
 ## FORWARD CATALYSTS
 
-Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: Exeter ~10/29; THESIS v1.6 10/30; CRMT relief expiry 11/01 (BROCK grades 10/30, 11/02); FB status conference 11/02; Chu ruling check 11/04; NY Fed window 11/04–11/12; M&T ~11/05; Manheim 11/06; Tricolor §341 11/11; SDT ~11/15; FB §721 11/17. Source gaps: Carvana primary call audio, FB D&O disposition, VRM/Trust V outcome, primary Ally audio, some bank bases and current rating outcomes.
+Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: Manheim 11/06; BROCK CRMT 11/09; NY Fed 11/10; Tricolor §341 11/11; EART 2026-5 window 11/12; Chu check ~11/13; SDT ~11/15; EART October ~11/30; Ares response 11/30.
