@@ -18,7 +18,12 @@ domain: "MARKET_VOL"
 entities: ["SPX", "NDX", "QQQ", "SMH", "VIX", "VVIX", "WAL", "KRE", "HYG", "MU", "AMD"]
 word_count: 157
 dispatch_note: "Closes read before certification on purpose, so owners have it tonight; certified follow-up on the November 6 morning pass. MIDAS info: S&P is below the 7,757.17 L819 level. Levered ETF read is arithmetic on vendor prints only."
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-05
+status_ref: "SIG-W-20261105-057 \u2014 VIX family finished higher: VIX about 28.17, VVIX 135.38"
 ---
+
+> **Correction, November 5 — SIG-W-20261105-057:** the 16:05 read predated the final prints. VIX about 28.17, VIX9D 32.69, VIX3M 25.51, VVIX 135.38. Original text preserved below.
 # Close read: S&P −4.4%, Nasdaq-100 −6.4%, worst into the bell; VVIX 131 over 120; credit ETFs still calm; WAL 75.89
 
 Answers FLASH 016 and 017. Vendor read 16:05 ET, NOT official closes; Cboe history and FRED not yet posted.

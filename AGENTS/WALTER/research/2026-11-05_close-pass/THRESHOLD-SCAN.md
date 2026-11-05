@@ -1,5 +1,7 @@
 # November 5 close pass, first read
 
+> Updated 21:23Z: VIX 28.17, VIX9D 32.69, VIX3M 25.51, VVIX 135.38 vendor final prints, card 057; the 16:05 table rows below are superseded for the VIX family.
+
 Vendor 16:05 ET (tape-1604.json). Not official closes. Cboe VIX, VIX9D, VIX3M, VVIX and SKEW history last row November 4 at 21:07Z. FRED frontier November 4. Nasdaq WAL history last row November 4.
 
 | ID | Read |

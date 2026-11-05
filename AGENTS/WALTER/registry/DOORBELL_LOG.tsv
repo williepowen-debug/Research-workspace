@@ -567,3 +567,6 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-05	CYPHER	SIG-W-20261105-050	NONE	LIVE	NO	NA	8	NA		Live at dispatch: PROME-woken session in ListAgents; WALTER direct doorbell sent, not a rule 13 row. Earlier note wrong; ListAgents read after dispatch.
 2026-11-05	ZHAO	SIG-W-20261105-050	NONE	UNKNOWN	NO	NA	8	NA		Absent from ListAgents; Codex daemon threads not visible, so UNKNOWN by 9b. PROME wake packet stands.
 2026-11-05	FALCON	SIG-W-20261105-056	NONE	UNKNOWN	NO	NA	3	NA		Absent from ListAgents at dispatch; FAL-06 second pass due tonight per its STATUS; UNKNOWN by 9b.
+2026-11-05	FALCON	SIG-W-20261105-058	NONE	UNKNOWN	NO	NA	4	NA		Absent from ListAgents at dispatch; PROME told by message; UNKNOWN by 9b.
+2026-11-05	BRENT	SIG-W-20261105-058	NONE	UNKNOWN	NO	NA	11	NA		Absent from ListAgents at dispatch; PROME told by message; UNKNOWN by 9b.
+2026-11-05	BRENT	SIG-W-20261105-060	NONE	UNKNOWN	NO	NA	11	NA		Absent from ListAgents at dispatch; PROME told by message; UNKNOWN by 9b.
