@@ -16,7 +16,7 @@ Boot 09:39 ET, status to Will. PROME packet `inbox/2026-11-05_from-PROME_catch-u
 
 - **L859 HOLD (10:06 ET):** independent read of the 10/29 TreasuryDirect repair found the same failure by other doors. Verified, acceptance conditions committed first, repaired, 24 of 24 mutants caught (KB-538). Read 2 ACCEPT-WITH-RESIDUE, no ❌, L859 closed by PROME; six residue items R1–R6 recorded in `analysis/2026-11-05_catchup/ta_ws_repair_ACCEPTANCE.md`, no code changed after 3036cea01. Grades 11/9–11/12 proceed with `--frozen-bars`. **Auction-day rule: a PRE-PRINT line after the print means NOT GRADED, whatever the rc.** Check on 11/9 whether a target stays in `upcoming` after results post (R4).
 
-- **Will's "go" (10:4x ET):** (1) HY primary count built into `monitors/CREDIT_PRIMARY_MARKET.md`, weekly row each Friday (KB-540); (2) BND-33 registered before the prints; (3) TERRY ask routed through PROME, with KB-541's thin evidence stated.
+- **Will's "go" (10:4x ET):** (1) HY primary count built into `monitors/CREDIT_PRIMARY_MARKET.md`, weekly row each Friday (KB-540); (2) BND-33 registered before the prints; (3) TERRY ask routed through PROME, with KB-541's thin evidence stated. TERRY answered: no card, WQ-592 stays declined; a real composition failure on 11/12 would be a fresh build that day, no standing watch (`AGENTS/TERRY/research/2026-11-05_catch-up/NOTE.md`, 680d8ef26).
 
 ## NEXT (dated)
 
