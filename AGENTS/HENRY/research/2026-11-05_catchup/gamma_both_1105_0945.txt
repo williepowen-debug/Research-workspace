@@ -1,0 +1,71 @@
+=== SPX
+===== SPX GAMMA FLIP  (asof 2026-11-05, <= 14d, 1,451 contracts, src=yfinance) =====
+  SPX spot        7,688.62
+  Net GEX @ spot  +4.3 $B/1%   -> POSITIVE (dealers dampen)
+  Zero-gamma FLIP ~7,641
+                  spot is +47 pts ABOVE (pos-gamma) the flip
+  Call wall       7,725  (clean #1, +49% over #2)
+  Put wall       7,550  (clean #1, +50% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== SPX GAMMA FLIP  (asof 2026-11-05, <= 35d, 2,920 contracts, src=yfinance) =====
+  SPX spot        7,688.62
+  Net GEX @ spot  +2.5 $B/1%   -> POSITIVE (dealers dampen)
+  Zero-gamma FLIP ~7,655
+                  spot is +34 pts ABOVE (pos-gamma) the flip
+  Call wall       7,725  (clean #1, +37% over #2)
+  Put wall       7,750  ⚠️ NEAR-TIE (5% over #2) — report the BAND 7,750-7,800, not this strike
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== CROSS-HORIZON CHECK (audit E2) =====
+  Flip band       7,641-7,655  (14d ~7,641 · 35d ~7,655)
+  Regime          14d POSITIVE · 35d POSITIVE
+  Call  wall      ✓ PUBLISH: 7,725 at both horizons (clean at both)
+  Put   wall      ⛔ WITHHOLD: 14d 7,550 vs 35d 7,750 — horizons disagree
+  PUBLISHED.tsv NOT written (pass --publish to record this read)
+=== QQQ
+  Net GEX @ spot  -0.1 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~673
+                  spot is -2 pts BELOW (neg-gamma) the flip
+  Call wall       700  ⚠️ NEAR-TIE (4% over #2) — report the BAND 685-700, not this strike
+  Put wall       665  (clean #1, +60% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== QQQ GAMMA FLIP  (asof 2026-11-05, <= 35d, 928 contracts, src=yfinance) =====
+  QQQ spot        671.10
+  Net GEX @ spot  +0.1 $B/1%   -> POSITIVE (dealers dampen)
+  Zero-gamma FLIP ~669
+                  spot is +2 pts ABOVE (pos-gamma) the flip
+  Call wall       700  (clean #1, +78% over #2)
+  Put wall       665  (clean #1, +59% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== CROSS-HORIZON CHECK (audit E2) =====
+  Flip band       669-673  (14d ~673 · 35d ~669)
+  Regime          14d NEGATIVE · 35d POSITIVE  ⚠️ SIGN DISAGREES — report both, call no regime
+  Call  wall      ✓ PUBLISH: 700 at both horizons (14d near-tie band 685-700)
+  Put   wall      ✓ PUBLISH: 665 at both horizons (clean at both)
+  PUBLISHED.tsv NOT written (pass --publish to record this read)
+=== NDX
+  Net GEX @ spot  +0.0 $B/1%   -> POSITIVE (dealers dampen)
+  Zero-gamma FLIP ~27,580
+                  spot is +6 pts ABOVE (pos-gamma) the flip
+  Call wall       28,750  (clean #1, +39% over #2)
+  Put wall       26,600  (clean #1, +42% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== NDX GAMMA FLIP  (asof 2026-11-05, <= 35d, 1,191 contracts, src=yfinance) =====
+  NDX spot        27,585.96
+  Net GEX @ spot  +0.0 $B/1%   -> POSITIVE (dealers dampen)
+  Zero-gamma FLIP ~27,370
+                  spot is +216 pts ABOVE (pos-gamma) the flip
+  Call wall       27,500  ⚠️ NEAR-TIE (4% over #2) — report the BAND 26,000-27,500, not this strike
+  Put wall       23,900  (clean #1, +65% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== CROSS-HORIZON CHECK (audit E2) =====
+  Flip band       27,370-27,580  (14d ~27,580 · 35d ~27,370)
+  Regime          14d POSITIVE · 35d POSITIVE
+  Call  wall      ⛔ WITHHOLD: 14d 28,750 vs 35d 27,500 — horizons disagree
+  Put   wall      ⛔ WITHHOLD: 14d 26,600 vs 35d 23,900 — horizons disagree
+  PUBLISHED.tsv NOT written (pass --publish to record this read)

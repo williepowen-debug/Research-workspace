@@ -1,0 +1,54 @@
+===== SPX GAMMA FLIP  (asof 2026-11-05, <= 14d, 3,315 contracts, src=cboe) =====
+  SPX spot        7,663.92
+  Net GEX @ spot  -11.1 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~7,694
+  Call wall       7,650  (clean #1, +35% over #2)
+  Put wall       7,650  (clean #1, +22% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+===== SPX GAMMA FLIP  (asof 2026-11-05, <= 35d, 7,577 contracts, src=cboe) =====
+  SPX spot        7,663.92
+  Net GEX @ spot  -18.3 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~7,696
+  Call wall       7,700  (clean #1, +20% over #2)
+  Put wall       7,600  ⚠️ NEAR-TIE (0% over #2) — report the BAND 7,600-7,700, not this strike
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+  Flip band       7,694-7,696  (14d ~7,694 · 35d ~7,696)
+  Regime          14d NEGATIVE · 35d NEGATIVE
+  Call  wall      ⛔ WITHHOLD: 14d 7,650 vs 35d 7,700 — horizons disagree
+  Put   wall      ⛔ WITHHOLD: put wall == call wall at 14d — put side UNRESOLVED
+===== QQQ GAMMA FLIP  (asof 2026-11-05, <= 14d, 1,603 contracts, src=cboe) =====
+  QQQ spot        679.90
+  Net GEX @ spot  -3.8 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~699
+  Call wall       700  (clean #1, +37% over #2)
+  Put wall       675  ⚠️ NEAR-TIE (8% over #2) — report the BAND 675-680, not this strike
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+===== QQQ GAMMA FLIP  (asof 2026-11-05, <= 35d, 2,522 contracts, src=cboe) =====
+  QQQ spot        679.90
+  Net GEX @ spot  -6.2 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~703
+  Call wall       700  (clean #1, +22% over #2)
+  Put wall       680  (clean #1, +23% over #2)  <- QQQ BELOW put wall (intensified downside feedback)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+  Flip band       699-703  (14d ~699 · 35d ~703)
+  Regime          14d NEGATIVE · 35d NEGATIVE
+  Call  wall      ✓ PUBLISH: 700 at both horizons (clean at both)
+  Put   wall      ⛔ WITHHOLD: 14d 675 vs 35d 680 — horizons disagree
+===== NDX GAMMA FLIP  (asof 2026-11-05, <= 14d, 1,827 contracts, src=cboe) =====
+  NDX spot        27,942.81
+  Net GEX @ spot  -0.7 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~28,474
+  Call wall       28,500  (clean #1, +60% over #2)
+  Put wall       28,000  (clean #1, +54% over #2)  <- NDX BELOW put wall (intensified downside feedback)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+===== NDX GAMMA FLIP  (asof 2026-11-05, <= 35d, 3,099 contracts, src=cboe) =====
+  NDX spot        27,942.81
+  Net GEX @ spot  -1.5 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~28,552
+  Call wall       29,675  (clean #1, +75% over #2)
+  Put wall       28,000  (clean #1, +45% over #2)  <- NDX BELOW put wall (intensified downside feedback)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+  Flip band       28,474-28,552  (14d ~28,474 · 35d ~28,552)
+  Regime          14d NEGATIVE · 35d NEGATIVE
+  Call  wall      ⛔ WITHHOLD: 14d 28,500 vs 35d 29,675 — horizons disagree
+  Put   wall      ✓ PUBLISH: 28,000 at both horizons (clean at both)

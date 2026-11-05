@@ -169,6 +169,8 @@ def compute_gamma_flip(asof=None, horizon=HORIZON_DAYS, band=0.25, source="auto"
     r = _finish(spot, opts, used, horizon, band, today, underlying)
     if "error" not in r:
         r["feed_spot"] = feed_spot
+        if used != "cboe":
+            r["fallback_reason"] = "; ".join(errs) or "cboe not selected"
     return r
 
 
@@ -339,6 +341,8 @@ def _print_read(r, horizon):
     u = r.get("underlying", "SPX")
     print(f"===== {u} GAMMA FLIP  (asof {r['asof']}, <= {horizon}d, "
           f"{r['n_contracts']:,} contracts, src={r.get('source','?')}) =====")
+    if r.get("fallback_reason"):
+        print(f"  ⛔ NOT THE CANONICAL CHAIN ({r['fallback_reason']}): sign, flip and walls here are unreliable, publish nothing.")
     fs = r.get("feed_spot")
     print(f"  {u} spot        {spot:,.2f}"
           + (f"   (--spot override; feed price {fs:,.2f})" if fs is not None and abs(fs - spot) > 1e-9 else ""))
@@ -394,6 +398,7 @@ def main():
             _print_read(r, h)
             if pub:
                 _publish(r, h, note)
+            pub = pub and r.get("source") == "cboe"
             reads[h] = r
             print()
         x = cross_horizon_check(reads[14], reads[35])
@@ -418,6 +423,7 @@ def main():
     _print_read(r, horizon)
     if pub:
         _publish(r, horizon, note)
+    pub = pub and r.get("source") == "cboe"
     print("  PUBLISHED.tsv " + ("UPDATED (--publish)" if pub else "NOT written (pass --publish to record this read)"))
     if horizon != 14 and horizon != 35:
         return 0
@@ -444,6 +450,9 @@ def _publish(r, horizon, note=""):
     Called only under --publish (2026-10-29)."""
     try:
         if not r or r.get("error") or not r.get("flip"):
+            return
+        if r.get("source") != "cboe":
+            print(f"  ⛔ PUBLISH REFUSED: src={r.get('source')}, only the Cboe chain is published ({r.get('fallback_reason','')}).")
             return
         today = str(r.get("asof") or date.today())
         pre = UNDERLYINGS[r.get("underlying", "SPX")]["prefix"]

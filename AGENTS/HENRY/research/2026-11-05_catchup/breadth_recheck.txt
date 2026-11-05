@@ -1,0 +1,41 @@
+$KVUE: possibly delisted; no price data found  (1d 2025-08-01 -> 2026-11-05)
+['KVUE']: possibly delisted; no price data found  (1d 2025-08-01 -> 2026-11-05)
+{
+ "2026-10-30": {
+  "n": 502,
+  "bear_close_pct": 31.9,
+  "bear_highbasis_pct": 33.9,
+  "bear10_close_pct": 59.0,
+  "above50": 60.0,
+  "above200": 58.8,
+  "median_dd_close": -12.9
+ },
+ "2026-11-02": {
+  "n": 502,
+  "bear_close_pct": 30.9,
+  "bear_highbasis_pct": 32.9,
+  "bear10_close_pct": 55.2,
+  "above50": 66.5,
+  "above200": 62.7,
+  "median_dd_close": -12.0
+ },
+ "2026-11-03": {
+  "n": 502,
+  "bear_close_pct": 31.3,
+  "bear_highbasis_pct": 33.3,
+  "bear10_close_pct": 56.4,
+  "above50": 65.3,
+  "above200": 61.0,
+  "median_dd_close": -12.3
+ },
+ "2026-11-04": {
+  "n": 502,
+  "bear_close_pct": 29.1,
+  "bear_highbasis_pct": 30.7,
+  "bear10_close_pct": 50.6,
+  "above50": 71.7,
+  "above200": 65.5,
+  "median_dd_close": -10.3
+ }
+}
+failed/missing 1 ['KVUE'] last bar 2026-11-04 00:00:00
