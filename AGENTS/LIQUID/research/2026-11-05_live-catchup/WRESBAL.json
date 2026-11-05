@@ -1,0 +1,62 @@
+{
+  "basis": "first-published",
+  "series": "WRESBAL",
+  "rows": [
+    {
+      "date": "2026-10-28",
+      "value": "2893770",
+      "first_published": "2026-10-29"
+    },
+    {
+      "date": "2026-10-21",
+      "value": "2962607",
+      "first_published": "2026-10-22"
+    },
+    {
+      "date": "2026-10-14",
+      "value": "3022140",
+      "first_published": "2026-10-15"
+    },
+    {
+      "date": "2026-10-07",
+      "value": "3029659",
+      "first_published": "2026-10-08"
+    },
+    {
+      "date": "2026-09-30",
+      "value": "2948090",
+      "first_published": "2026-10-01"
+    },
+    {
+      "date": "2026-09-23",
+      "value": "2930193",
+      "first_published": "2026-09-24"
+    },
+    {
+      "date": "2026-09-16",
+      "value": "3013794",
+      "first_published": "2026-09-17"
+    },
+    {
+      "date": "2026-09-09",
+      "value": "2991310",
+      "first_published": "2026-09-10"
+    },
+    {
+      "date": "2026-09-02",
+      "value": "2894531",
+      "first_published": "2026-09-03"
+    }
+  ],
+  "request": {
+    "series_id": "WRESBAL",
+    "output_type": 4,
+    "observation_start": "2026-09-01",
+    "realtime_start": "2026-08-18",
+    "realtime_end": "9999-12-31",
+    "limit": 40
+  },
+  "short": false,
+  "missing": [],
+  "under_limit": true
+}

@@ -1,0 +1,13 @@
+2026-11-03: 1442 SEC credit rows; 7 NEWT for 'META PLATFORMS'; 0 BATCH (excluded)
+  2026-11-03T14:30Z exp 2031-12-20  5,000,000+ | spread 120bp (disseminated) | Meta Platforms Inc
+  2026-11-03T14:30Z exp 2031-12-20  5,000,000+ | spread 120bp (disseminated) | Meta Platforms Inc
+  2026-11-03T14:31Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.80pts ~par 118bp (approx) | META PLATFORMS;INC.
+  2026-11-03T14:43Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.67pts ~par 115bp (approx) | META PLATFORMS;INC.
+  2026-11-03T14:45Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.72pts ~par 116bp (approx) | META PLATFORMS;INC.
+  2026-11-03T19:21Z exp 2030-12-20  5,000,000+ | spread 94bp (disseminated) | Meta Platforms Inc
+  2026-11-03T21:00Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.63pts ~par 114bp (approx) | META PLATFORMS;INC.
+2026-11-03: 1442 SEC credit rows; 4 NEWT for 'ORACLE'; 0 BATCH (excluded)
+  2026-11-03T00:14Z exp 2031-12-20  5,000,000+ | spread 2bp (disseminated) | Oracle Corporation
+  2026-11-03T13:31Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 8.09pts ~par 295bp (approx) | ORACLE CORPORATION
+  2026-11-03T14:29Z exp 2031-12-20  5,000,000+ | spread 300bp (disseminated) | Oracle Corporation
+  2026-11-03T15:40Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 8.01pts ~par 293bp (approx) | Oracle Cop

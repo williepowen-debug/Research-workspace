@@ -1,0 +1,22 @@
+2026-11-04: 1642 SEC credit rows; 7 NEWT for 'ORACLE'; 0 BATCH (excluded)
+  2026-11-04T12:41Z exp 2031-12-20   1,000,000 | cpn 100 upfront 7.50pts ~par 288bp (approx) | ORACLE CORPORATION
+  2026-11-04T12:57Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.66pts ~par 292bp (approx) | Oracle Cop
+  2026-11-04T13:08Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.85pts ~par 297bp (approx) | ORACLE CORPORATION
+  2026-11-04T13:12Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.85pts ~par 297bp (approx) | Oracle Cop
+  2026-11-04T13:46Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.81pts ~par 296bp (approx) | ORACLE CORPORATION
+  2026-11-04T17:52Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 7.69pts ~par 293bp (approx) | Oracle Corporation
+  2026-11-04T18:56Z exp 2031-12-20  5,000,000+ | spread 292bp (disseminated) | Oracle Corporation
+2026-11-04: 1642 SEC credit rows; 13 NEWT for 'META PLATFORMS'; 0 BATCH (excluded)
+  2026-11-04T12:29Z exp 2031-12-20  5,000,000+ | spread 110bp (disseminated) | Meta Platforms Inc
+  2026-11-04T13:36Z exp 2031-12-20   1,000,000 | cpn 100 upfront 0.27pts ~par 106bp (approx) | META PLATFORMS;INC.
+  2026-11-04T14:48Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.41pts ~par 109bp (approx) | META PLATFORMS INC
+  2026-11-04T15:35Z exp 2031-12-20   3,000,000 | cpn 100 upfront 0.27pts ~par 106bp (approx) | META PLATFORMS;INC.
+  2026-11-04T16:09Z exp 2031-12-20  5,000,000+ | cpn 100 upfront 0.41pts ~par 109bp (approx) | META PLATFORMS INC
+  2026-11-04T16:38Z exp 2031-12-20  5,000,000+ | spread 109bp (disseminated) | Meta Platforms Inc
+  2026-11-04T16:40Z exp 2031-12-20  5,000,000+ | spread 109bp (disseminated) | Meta Platforms Inc
+  2026-11-04T16:41Z exp 2031-12-20  5,000,000+ | spread 109bp (disseminated) | Meta Platforms Inc
+  2026-11-04T16:52Z exp 2029-12-20  5,000,000+ | spread 72bp (disseminated) | Meta Platforms Inc
+  2026-11-04T18:56Z exp 2030-06-20  5,000,000+ | cpn 100 upfront 0.54pts ~par 117bp (approx) | META PLATFORMS;INC.
+  2026-11-04T18:57Z exp 2030-06-20  5,000,000+ | cpn 100 upfront 0.54pts ~par 117bp (approx) | META PLATFORMS;INC.
+  2026-11-04T19:31Z exp 2031-12-20   1,000,000 | cpn 100 upfront 0.23pts ~par 105bp (approx) | META PLATFORMS;INC.
+  2026-11-04T20:17Z exp 2031-12-20   3,000,000 | cpn 100 upfront 0.34pts ~par 108bp (approx) | META PLATFORMS;INC.

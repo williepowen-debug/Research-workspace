@@ -717,3 +717,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T21:25:57+00:00	SIG-W-20261104-069	acted	INBOX_WALTER	Integrated existing credit lane with source limits. research/2026-11-04_credit-followthrough/REPORT.md
 2026-11-04T21:25:57+00:00	SIG-W-20261104-071	info-only	INBOX_WALTER	Context only, no LIQUID grade. research/2026-11-04_credit-followthrough/REPORT.md
 2026-11-04T21:25:57+00:00	SIG-W-20261104-074	info-only	INBOX_WALTER	Context only, no LIQUID grade. research/2026-11-04_credit-followthrough/REPORT.md
+2026-11-05T14:50:52+00:00	SIG-W-20261104-076	acted	INBOX_WALTER	Own signal echoed back; run count re-verified on first-published cells, still 4 observations through November 3. research/2026-11-05_live-catchup/REPORT.md
+2026-11-05T14:50:52+00:00	SIG-W-20261104-078	noted	INBOX_WALTER	Context only. Oil drop does not bear on a LIQUID gate; WQ-545 energy-to-credit stays unestablished. research/2026-11-05_live-catchup/REPORT.md

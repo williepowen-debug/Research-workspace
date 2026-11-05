@@ -23,7 +23,7 @@ TCW writing Red Lobster equity to 2¢ while keeping the 2029 loan at par (Apr 14
 
 **Registered 2026-11-05 09:48 ET** under the existing calendar duty (`workbook/CATALYSTS.tsv` row 2026-11-13, "Build the Q3 pre-registered card BEFORE filings"), on Will's 09:42 ET catch-up word relayed in `inbox/2026-11-05_from-PROME_catch-up-to-live-data.md`. **Committed before any Q3 print of these six names was read by this desk; the commit time is the receipt.** Six names, five metrics and three verdict lines are transcribed unchanged from the Q2 card below. No level, operator or consequence is new. Only the baseline moves, to the graded Q2 column.
 
-⚠️ **Not fully pre-print.** ARCC reported before this card existed (BROCK STATUS: ARCC cells 10/28), and FSK was scheduled before the open today, November 5 (BROCK calendar). I had not read either name's Q3 NAV or FV/Cost at registration, but this card does not pre-date those prints. BXSL, GSBD, OBDC and MAIN: dates unconfirmed, not load-bearing.
+⚠️ **Mostly not pre-print, corrected from EDGAR the same morning.** ARCC filed 10/27, BXSL and OBDC 11/04, and FSK 11/05, all before this card. I had read none of their Q3 NAV or FV/Cost at registration, but the card pre-dates the filings only for **GSBD and MAIN**. The lines are transcribed from Q2, so the late registration left no room to choose them.
 
 ⚠️ **Same limit as the Q2 card.** This absolute card has no manager comparator, so it cannot satisfy the relative wrapper half of X1 (BROCK adjudication August 28; file header above). It grades mark direction only. It grants no X1 half, no sizing and no fire.
 
@@ -46,7 +46,35 @@ TCW writing Red Lobster equity to 2¢ while keeping the 2029 loan at par (Apr 14
 | **🟢 REFUTE (wrapper-lead NOT confirmed)** | NAVs flat/up across ≥4 names, FV/Cost stable (±<0.5pt), non-accruals flat, **no new regular-div cuts**, P/NAV discounts stable/narrowing | marks HELD → divergence persists as mark-model fiction OR resolves benign → **no transmission this quarter**; wrapper-lead stays un-adjudicated |
 | **🟡 MIXED (bifurcated)** | workout-heavy books (FSK/GSBD) mark down while quality books (MAIN/ARCC) hold — a manager-quality split, not a sector reset | K-split WITHIN BDCs → route names to REGINALD/CARL; NOT a systemic wrapper-lead confirm; the CCC-vs-BB / PC-vs-public shape repeating one layer down |
 
-**Grade state 2026-11-05: NOT GRADED.** Grading needs filing-primary NAV and FV/Cost. SEC tools refuse on this desktop until `SEC_CONTACT` is set, so the filing read is blocked here. **Q2 M3/M4/M5 and ARCC M1 are blocked on the same input.**
+### PARTIAL GRADE 2026-11-05: four of six filed. PROVISIONAL, neither CONFIRM nor REFUTE
+
+Filing-primary XBRL and 10-Q text (`research/2026-11-05_live-catchup/sec_facts.txt`, `sec_nonaccrual.txt`, `sec_tables.txt`). P/NAV uses raw closes 11/04, context only, not a grading leg.
+
+| Name | NAV 6/30 → 9/30 | **M2** | **M1 FV/Cost** | Δpp | **M3** non-accrual % FV | **M4** regular dividend | M5 P/NAV (8/23 card) |
+|---|---:|---:|---|---:|---|---|---|
+| FSK | 18.30 → 18.28 | −0.11% | 0.9059 → 0.9101 | +0.43 | 3.8 → 3.4 | $0.44 → $0.44 | 0.627 (0.651) |
+| BXSL | 25.53 → 25.25 | −1.10% | 0.9645 → 0.9771 | +1.26 | 1.8 → 2.1 | $0.77 → $0.77 | 0.947 (0.970) |
+| OBDC | 14.26 → 14.32 | +0.42% | 0.9895 → 0.9910 | +0.14 | 0.8 → 0.8 | $0.31 → $0.31; supplemental $0.02 → $0.01 | 0.751 (0.792) |
+| ARCC | 19.35 → 19.31 | −0.21% | 0.9890 → 0.9910 | +0.20 | 1.4 → 1.4 | $0.48 → $0.48 | 1.008 (1.029) |
+| GSBD | not filed | | | | | | 0.741 on Q2 NAV (0.816) |
+| MAIN | not filed | | | | | | 1.699 on Q2 NAV (1.718) |
+
+**Against the lines.** Route 1 (≥2 names FV/Cost down AND NAV −>2%): 0 of 4, so it needs both GSBD and MAIN. Route 2 (≥3 names FV/Cost −>1pt): 0 of 4. Route 3 (fresh regular cut with deterioration): no regular cut among the four. **REFUTE is not met either:** BXSL's FV/Cost moved outside ±0.5pt (upward), and P/NAV fell on all six against the 8/23 column. **So what:** on four of six, marks did not catch down to prices that kept falling. The price-versus-mark gap stayed open rather than closing either way. Final at GSBD and MAIN.
+
+⚠️ **FV/Cost up is not marks healing.** The ratio is composition-sensitive: BXSL's cost base fell $606M and FSK's $182M in the quarter, and BXSL's NAV still fell 1.10%. BXSL's non-accruals rose. P/NAV compares 11/04 with 8/23 closes, not two quarter-ends.
+
+### Q2 owed fields, closed 2026-11-05 (verdict unchanged: CONFIRM, marginal)
+
+| Name | M3 non-accrual % FV, 3/31 → 6/30 | M1 note |
+|---|---|---|
+| FSK | 4.2 → 3.8 | |
+| BXSL | 3.1 → 1.8 | |
+| OBDC | 1.0 → 0.8 | |
+| ARCC | 1.2 → 1.4 | **ARCC M1 now measured: 0.9950 → 0.9890, −0.60pp.** NAV −1.23%, so the NAV leg stays short. |
+| MAIN | 1.2 → 1.1 | |
+| GSBD | not extractable from the text read; left UNREAD, not zero | |
+
+**M4:** the regular cuts in Q2's window are the May to June set already logged (OBDC, FSK; legacy table). **M5:** the graded table's P/NAV column. **Separate observation:** three Q2 names dropped more than 1pt on FV/Cost (FSK −1.12, BXSL −1.07, GSBD −1.20), so route 2 was also met in Q2, which makes the Q2 CONFIRM less marginal than "exactly at the line." The same card-level limit applies: absolute card, no X1 half.
 
 ---
 

@@ -1,0 +1,16 @@
+closes per name {'CRWV': 46, 'IREN': 46, 'APLD': 46, 'NBIS': 46} range 2026-09-01 2026-11-04
+closes total 184 non-cent 6
+  ('CRWV', '2026-10-23', 54.235)
+  ('IREN', '2026-09-25', 44.125)
+  ('IREN', '2026-10-23', 24.905)
+  ('APLD', '2026-10-14', 20.325)
+  ('APLD', '2026-10-30', 17.815)
+  ('NBIS', '2026-09-29', 237.355)
+NYSE sessions graded 44 first 2026-09-02 last 2026-11-03
+other rows [('2026-09-07', 'NOT-NYSE')]
+repair != oracle []
+repair != old-2dp []
+fires [('2026-10-14', 'FIRED', 'FIRED', 'FIRED', 9, 'CRWV', -15.461)]
+faults []
+closest to -15 [('2026-10-14', 'FIRED', 'FIRED', 'FIRED', 9, 'CRWV', -15.461), ('2026-10-16', 'NOT FIRED', 'NOT FIRED', 'NOT FIRED', 8, 'NBIS', -12.176), ('2026-10-30', 'NOT FIRED', 'NOT FIRED', 'NOT FIRED', 18, 'NBIS', -10.379)]
+last 4 [('2026-10-29', 'NOT FIRED', 'NOT FIRED', 'NOT FIRED', 12, 'IREN', -8.981), ('2026-10-30', 'NOT FIRED', 'NOT FIRED', 'NOT FIRED', 18, 'NBIS', -10.379), ('2026-11-02', 'NOT FIRED', 'NOT FIRED', 'NOT FIRED', -1, 'APLD', -8.953), ('2026
