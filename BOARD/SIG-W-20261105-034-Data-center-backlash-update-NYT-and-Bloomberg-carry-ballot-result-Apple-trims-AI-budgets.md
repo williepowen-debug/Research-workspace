@@ -18,7 +18,12 @@ domain: "AI_CAPEX"
 entities: ["Apple", "OpenAI", "CoreWeave", "Giga-Energy", "Bisnow", "Hinojosa"]
 word_count: 176
 dispatch_note: "Post-election search returned no Ballotpedia result count; the two newsletters are the only post-vote sources read."
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-05
+status_ref: "SIG-W-20261105-042 \u2014 $100B is a pre-vote figure; ballot counts may share one base"
 ---
+
+> **Correction, November 5 — SIG-W-20261105-042:** the $100B figure is dated November 2, before the vote. "Firms up" is too strong: the counts may share one Ballotpedia base. Original text preserved below.
 # Data-center votes: NYT says 40 of 41 measures rejected development, Bloomberg says one town; Apple trims engineers' AI budgets
 
 Update to card 005. Newsletter text, November 5 morning, before the US open; underlying articles unread.
