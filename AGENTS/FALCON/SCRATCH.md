@@ -25,7 +25,6 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 - Yanbu loadings: no reader. BRENT asked by packet; KB-168 proxy unbuilt.
 - VELOS SAPPHIRE missing vs killed; RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; ERA S and GRIT not on IMO table.
 - PMF discriminator NOT re-read 11/05 (CTP 403 here). STRIKES mark left at 11/03, not due.
-- WQ-601 unit 5: PROME's launch said held; commit a2cadd327 shows it applied 11/05 09:07 ET. Flagged to PROME, charter untouched. Push held pending PROME's word.
 - Fixes owed elsewhere: SCRATCH template and CHANGELOG still titled HAWK; TIMELINE stops at Day 244 (11/5 = Day 251).
 - Carried builds unchanged (KB-168 Yanbu proxy etc.).
 
@@ -36,4 +35,4 @@ FAL-06 grade owed after the close. No Will decision open.
 Inbox 0, WALTER lane 0. Packets sent: PROME, BRENT.
 
 ## PENDING PUSH / GIT
-Exact-path commits, local only. Not pushed: see WQ-601 unit 5 line above.
+WQ-601 unit 5 closed: prome-98 confirmed 11/05 16:36 ET, the launch-text hold was its stale carry. Pushed at closeout via safe-push on prome-98's word and the charter.
