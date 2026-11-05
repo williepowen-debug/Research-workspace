@@ -2,8 +2,8 @@
 
 **Status:** The election-week scare released on 11/04: VIX 21.15 / 20.83 (RISING_VOL closes 11/02, 11/03), then 16.61, LOW_VOL. No hard line fired. ⚠️ Credit and tail pricing did not release: HY 340bp [11/03], SKEW 150.90 [11/04]. ⚠️ The regime-shift broadcast was missed while VIOLET was dark; this brief is the late record.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
-**Thesis version:** v4.1.6; no threshold, probability or permission change.
-**As of:** 2026-11-05 10:45 ET | **STATUS commit:** `69259b5a6`.
+**Thesis version:** v4.1.7; Will's WQ-611 A encoded. No live gate moved.
+**As of:** 2026-11-05 12:01 ET | **STATUS commit:** `5fbbcc2fe`.
 Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED VIXCLS agrees. Canonical numbers: [STATUS](STATUS.md). **Convergence 32/50, re-scored on closes and unchanged** (KB-VIO-369).
 
 ## CROSS-DOMAIN
@@ -14,7 +14,7 @@ Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED 
 
 **HENRY / LIQUID / RED — size of the 11/04 release (KB-VIO-368):** VIX −20.26% (22nd largest one-day drop of 9,309 sessions), VIX9D −30.83% to 15.19, VVIX −15.82% to 90.41, COR1M −41.85% from 16.39 to 9.53 (largest one-day percentage drop of 5,243 sessions). ⚠️ Cause not established: the election result and Brent −8.7% shared the session.
 
-**LIQUID / REGINALD / RED / TERRY — Path A audit (KB-VIO-372):** the inherited ~70% credit-leads-VIX hit rate did not replicate. Spike over 10 points followed 6 of 19 signals (31.6%) against a 13.7% base; post-2018 n=3, so F2 is NOT RUNNABLE and it is NO GATE. Superset test: credit origin and cross-sector untested. The signal roughly doubles spike odds; it does not make a spike likely. Do not cite 70% or size from it; Will's ruling pending.
+**LIQUID / REGINALD / RED / TERRY — Path A ruling (WQ-611 A, KB-VIO-372/373):** the inherited credit-leads-VIX rates are withdrawn. Spike over 10 points followed 6 of 19 signals (31.6%) against a 13.7% base; post-2018 n=3, so F2 is NOT RUNNABLE and it is NO GATE. Superset test: credit origin and cross-sector untested. The signal roughly doubles spike odds; it does not make a spike likely. Path A is a WATCH with no gate, the Lag Trade template is withdrawn, and no prediction is registered.
 
 **LIQUID / REGINALD — vol released, credit did not:** HY 340bp [11/03], from the 268bp [9/22] watch base, peak 344bp [10/30]; 11/04 unpublished. CCC 13.16%; BIN-B BLOCK ACTIVE. The October 13 → November 17 credit-vol WATCH stands at +72bp, peak +76bp, under the central 100bp size condition *(corrected 11/05: an earlier version of this brief said +24bp from 10/13, the wrong base)*. No VIOLET credit grade.
 
@@ -35,7 +35,7 @@ Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED 
 - The hedge-lifting reading of the COR1M collapse is inference; no flow data was observed.
 - OVX/VIX 11/02–11/03 WATCH depends on the history window: p90 2.95 on the tool's 2007 window, 3.01 on Cboe's 2009 window, which reads CALM.
 - Backfilled rows use as-of-date windows; they are reconstruction, not first-publication vintages.
-- Inherited credit-lead hit rate tested 11/05 and did not replicate (KB-VIO-372); the inherited lag rates remain unreplicated.
+- Inherited credit-lead hit rate withdrawn 11/05 for measured figures (KB-VIO-372/373, WQ-611 A); the inherited lead times remain unreplicated.
 
 ## CROSS-AGENT TENSIONS
 
