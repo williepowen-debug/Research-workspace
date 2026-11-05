@@ -21,7 +21,7 @@ dispatch_note: "Owner packet, route-as-judged; figures are REGINALD's, not re-pu
 ---
 # REGINALD: Ueno audited 2025 accounts show soft assets about twice equity, explaining the failure; no Citi or BNY exposure established
 
-Update to cards 024 and 026. REGINALD checked outside research at primary. Ueno's audited 2025 notes show about G4.13tn of soft assets (merger trust, software, stakes in related firms, related prepayments) against equity of G2.12tn.
+Update to cards 024 and 026. REGINALD checked outside research at primary. Ueno's audited 2025 notes show about G4.13tn of soft assets (merger trust, software, stakes in related firms, related prepayments) against equity of G2.12tn. REGINALD verified the main lines; the G385.3bn prepayments line was not re-found.
 
 Fitch's 15.2% and 10.3% are the same year-end before and after deducting intangibles, not a fall in capital; read them that way against 026's reported figures.
 
