@@ -37,3 +37,4 @@ Inbox empty after processing (2 CORAL, 1 LABOR, 1 WALTER). Sent: CORAL (Amendmen
 
 ## PUSH
 ⚠️ NOT PUSHED as of 18:23 ET. Session commits fd6995b9f1, 535e3553c9, 7e4a487cd8 and this note are local only. `safe-push.sh` rejected by GitHub, `fatal error in commit_refs_rules`, on a clean fast-forward (7 ahead, 0 behind). HOMER hit the same. GitHub status green, no branch rules, dry run passes; cause not established. Flagged to PROME by message. No force, no partial push. Next session: re-run `scripts/safe-push.sh` and confirm the `Pushed. CONFIRMED` line.
+PROME (prome-96, by message 18:24 ET): delivery consumed, L785 RESOLVED, MAR-28..31 on DOCKET, charter step 3b verified class C4. Hold pushes; no force, rebase or bisect. PROME owns the retry at its closeout and any bisect, which goes to Will first. A retry at a later MARCO closeout is fine.
