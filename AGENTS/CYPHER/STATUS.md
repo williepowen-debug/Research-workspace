@@ -1,9 +1,9 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-11-05 14:3x EST — launched session (PROME prome-98, WQ-618 A, Will 13:56 ET "yes go ahead"; runtime Claude Code, Opus 5.5).**
+**Last Updated: 2026-11-05 14:24 EST — launched session (PROME prome-98, WQ-618 A, Will 13:56 ET "yes go ahead"; runtime Claude Code, Opus 5.5).**
 - **Crédit Mutuel Arkéa: CYB-INC-059 OPENED, OFF-WAVE, CONFIRMED** (`research/2026-11-05_arkea/RECORD.md`). The bank says attackers came through "la plateforme d'un de nos prestataires" (provider unnamed) and paid other banks from its own account, about EUR 100M on its provisional word (no figure in its written statements). Crypto conversion is "potentiellement". **Shared software, rail or vendor reach: not established either way.** No second bank, rail statement or supervisory alert found. Not systemic on this evidence. Next check 11/09.
-- **WQ-589 ENCODED:** charter row and VX-CYP-02 re-cut. PROME verifies the literal cells.
-- **L812 second pass:** rows 1, 3-9 NOT-FIRED, all stamped 11/05. **Evidence moved on row 1:** Palo Alto's Unit 42 verified Dream's compromises (CYB-INC-047 → CONFIRMED); still no organisation named. ⚠️ The row's Sign lists "incident-response case"; read with R1's "named organisation", flagged to PROME.
+- **WQ-589 ENCODED and VERIFIED:** PROME checked charter row and VX-CYP-02 cells at c082434f2; D:L917 RESOLVED.
+- **L812 second pass:** rows 1, 3-9 NOT-FIRED, all stamped 11/05. **Evidence moved on row 1:** Palo Alto's Unit 42 verified Dream's compromises (CYB-INC-047 → CONFIRMED); still no organisation named. PROME ruled 11/05: R1's naming requirement governs, NOT-FIRED holds, no letter change (class C3 on L812).
 - **Bank-vendor cluster watch: count limb MET** on Finzly (037 → CONFIRMED) and Abrigo (060, new). Not an escalation row; P1 sent to REGINALD, LIQUID, GIBBS and PROME. ⚠️ Abrigo is a CU-vendor on plain words, not a core.
 - **Scores:** VX-01 2→3 (correction on the letter), VX-08 3→4 (FBI attribution, on the letter, composition note). Composite 24/40 raw, 15/40 shared-root-adjusted.
 - **Inbox drained:** 1 PROME packet, 8 WALTER cards (030, 037, 046, 050, 013, 011, 020, 061). Binance post-mortem into 055. Friday rows date-checked; one retired.
@@ -51,7 +51,7 @@
 
 | Row | Sign | State | 11/05 reading |
 |---|---|---|---|
-| 1 | Named successful PHP2Shell compromise | NOT-FIRED | Palo Alto verified Dream's compromises, ~.02% of base impacted, no organisation named. NCSC unchanged since 10/23. ⚠️ letter flag to PROME |
+| 1 | Named successful PHP2Shell compromise | NOT-FIRED | Palo Alto verified Dream's compromises, ~.02% of base impacted, no organisation named. NCSC unchanged since 10/23. PROME ruled: naming required |
 | 2 | KEV listing of both CVEs | **FIRED 10/26** | KEV v2026.11.04 still lists both |
 | 3 | Named US bank / CU / core-vendor victim | NOT-FIRED | None tied to PHP2Shell. Finzly and Abrigo are off-wave on all evidence; a PHP2Shell root cause at either fires this |
 | 4 | Bank/vendor 8-K Item 1.05 | NOT-FIRED | None since 10/29, control 17 in 120d |
