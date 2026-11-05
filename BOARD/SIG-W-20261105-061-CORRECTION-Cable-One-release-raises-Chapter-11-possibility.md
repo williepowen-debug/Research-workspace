@@ -20,7 +20,7 @@ word_count: 147
 dispatch_note: "WALTER keyword read of the exhibit missed it; found on BROCK's closeout header."
 corrects: "SIG-W-20261105-059"
 corrects_direction: "STRENGTHENS financing risk \u2014 release raises Chapter 11 if financing fails"
-kill_strings: []
+kill_strings: ["NONE \u2014 an omission, no false literal to kill"]
 ---
 # CORRECTION to card 059: Cable One's release says it may need Chapter 11 if financing fails; card omitted it
 

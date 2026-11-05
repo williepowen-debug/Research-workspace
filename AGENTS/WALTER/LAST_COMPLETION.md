@@ -166,7 +166,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
   "delivery": {
     "signal_date": "20261105",
     "total": 236,
-    "delivered": 197,
+    "delivered": 234,
     "note": "All day handoffs reconcile by origin proof after push; recipient use separate."
   },
   "owner_review": {
@@ -238,7 +238,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; flags unchanged.",
     "12(d,e)": "FULL session entry and bottom line.",
     "12(f)": "STATUS rotated verbatim at the read-cap trigger.",
-    "14": "MEMORY Feedback plus #62 extended, #63, #64 added.",
+    "14": "MEMORY Feedback, #62 extended, #63, #64 added; rotated verbatim to MEMORY_PROMOTED at the read-cap trigger.",
     "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
     "15": "Resume list and calendar cutoff rewritten.",
     "16": "Will requested closeout; push on a verified-clean tree or deferred, see final report.",
