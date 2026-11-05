@@ -34,3 +34,6 @@
 
 ## MAIL
 Inbox empty after processing (2 CORAL, 1 LABOR, 1 WALTER). Sent: CORAL (Amendment 3 text), PROME (delivery memo). Other desks' dirty files left alone.
+
+## PUSH
+⚠️ NOT PUSHED as of 18:23 ET. Session commits fd6995b9f1, 535e3553c9, 7e4a487cd8 and this note are local only. `safe-push.sh` rejected by GitHub, `fatal error in commit_refs_rules`, on a clean fast-forward (7 ahead, 0 behind). HOMER hit the same. GitHub status green, no branch rules, dry run passes; cause not established. Flagged to PROME by message. No force, no partial push. Next session: re-run `scripts/safe-push.sh` and confirm the `Pushed. CONFIRMED` line.
