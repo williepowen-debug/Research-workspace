@@ -39,3 +39,11 @@
 
 ## GIT STATE
 See the closeout message. `git pull --rebase` was refused at 20:44 by ORACLE and WALTER dirty files; S58 ran on the fetched checkout per the root rule.
+
+---
+
+## ADDENDUM S58-b — 2026-11-04 20:58 ET (from `date`): CLOSEOUT on Will's word ("okay lets close out RED here")
+- Session ends with no weight, trigger or date change since commit 1e542dc5ee. State: **HOLD 72 · net-bear 68**; Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3.
+- **Next entry point:** RED recommended and Will closed on a wake Fri 11/6 after the 08:30 jobs report, covering S58 NEXT SESSION items 1–3 in one pass. Wake sooner on a signed Hormuz deal, a new US strike or a FAL-07 fire.
+- Doorbells sent to PROME and DAEDALUS at their committed packets. BROCK had no live session; its packet waits for its next boot.
+- Owed at next boot: nothing beyond the list.
