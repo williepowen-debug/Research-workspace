@@ -1,40 +1,43 @@
-# HENRY — 2026-11-02 pre-open: Monday dealer-hedging maps re-pulled on Friday's open interest (DOCKET L888) — DONE
+# HENRY — 2026-11-05: caught up to live data, desk sweep, midday sell-off read — CLOSED 14:0x ET, CLOSE GRADE NOT DONE
 
-**RESULT:** The options-dealer hedging picture going into Monday's open is the same in direction as Friday night: on the S&P 500, the Nasdaq-100 and the QQQ fund, dealers are positioned so that their hedging adds to moves rather than damping them. What changed is that the level above which that flips to damping moved down and closer to price: S&P 500 about 7,706–7,711 (Friday's map said 7,732–7,736), QQQ about 718–721 (was 725–727), Nasdaq-100 about 28,779–28,913. The S&P 7,700 support level that broke Friday did not re-form; the next support zone, 7,500–7,600, is still too ambiguous to publish as one level. QQQ now shows clean levels at 680 (support) and 700 (resistance). Pre-market at 08:48 ET, S&P futures were up 0.55% (about 1.1–1.2% under the flip level).
+**RESULT:** HENRY is current on everything that exists as of 14:00 ET, but the desk closed on Will's word before the 4:00 PM ET close, so today's grade is still owed. The S&P 500 was 7,381.99 (−3.99%) at 14:00 ET, VIX 26.39. Every support wall published this morning broke, and dealers are adding to moves on all three indexes. Credit is not confirmed either way: HYG −0.46%, last cash high yield 332bp on 11/4.
 
-**CHANGED:** `STATUS.md` (header, VIEW, new § MONDAY 11/02 PRE-OPEN GAMMA, threshold SPX row, 10/30 gamma sections marked record), `workbook/PUBLISHED.tsv` (11/02 rows), `board_log.tsv` (6 rows), 6 WALTER cards moved to `inbox/WALTER/processed/`, `MEMORY.md`, `NEXUS_BRIEF.md`, this file, `research/2026-11-02_L888/`; WALTER inbox packet.
+**CHANGED:** `STATUS.md`, `STATUS_COLD.md`, `MEMORY.md`, `NEXUS_BRIEF.md`, this file, `CLAUDE.md`, `MAINTENANCE.md`, `scripts/gamma_flip.py`, `workbook/PUBLISHED.tsv`, `workbook/KB.tsv`, `workbook/MARKET_DATA.tsv`, `board_log.tsv`, `domain/ECON_CALENDAR.md`, `domain/REFERENCE_TABLES.md`, `dashboard/build_dashboard.py`, `archive/`, `reports/2026-11-05_desk-sweep.md`, `research/2026-11-05_catchup/`, `research/2026-11-05_midday/`; packets to WALTER, TERRY, PROME.
 
 ## Session work
 
-| Question | Answer (08:48 ET 11/02) |
+| Item | Outcome |
 |---|---|
-| Did Friday's trading reach the open interest? | Yes. Cboe chains stamped 08:37–08:48 ET carry 10/30-trade OI: the volume field still shows Friday while OI moved (QQQ Nov-20 680 put 82,664 → 89,505) |
-| Regime | Amplifying (NEGATIVE) at both horizons on S&P 500, QQQ, Nasdaq-100; unchanged |
-| S&P 7,700 support re-formed? | No. 7,500–7,600 zone still withheld (short-horizon 7,550 near-tie vs longer-horizon 7,500) |
-| Friday's put buying | The 347,333-contract QQQ 690 put trade was Friday-expiry and is gone. November-20 puts were added at 680 and 670 and closed at 700: a roll-down shape |
-| Inbox | 6 WALTER cards; QQQ short interest 82.0M at the October 15 settlement verified and filed as pre-sell-off positioning |
+| Catch-up (Will 09:42 ET via PROME) | STATUS re-based to 11/4 closes; 11/2 map graded; 19 + 13 WALTER cards and 6 general packets dispositioned |
+| Gamma | 09:48 ET and 12:39 ET maps published on Cboe; 11/5 midday SPX flip ~7,675–7,678, walls withheld; QQQ 700 the only same-strike wall |
+| Defect | `gamma_flip.py` fell silently to the vendor chain in the first ~15 minutes of the session; now refuses to publish |
+| Sweep | Findings and disposition in `reports/2026-11-05_desk-sweep.md` |
+| SPX red line | WQ-609 A encoded: −10% from cycle peak, 7,037.04 |
+| SLOOS | Added to the calendar, ESTIMATED Mon 2027-02-01; the Fed has not published it |
 
 ## GAPS / still pending
 
-- Free-tier estimate built from assumed dealer positioning: direction and flip level are the reliable parts, dollar sizes are not.
-- Futures-implied index levels ignore the futures-to-cash basis.
-- The QQQ and Nasdaq-100 maps disagree on distance to the flip (QQQ +3.4–3.8% pre-market, Nasdaq-100 +0.5–0.9%); QQQ covers only part of Nasdaq-100 option hedging.
-- Vol, credit and rate sections were not re-pulled this session.
+- **Close grade not done:** walls, 200-day closes, VIX final. PROME's 16:20 ET doorbell will reach a closed session.
+- **Flash cards 016 and 017 were answered about 90 minutes late:** I held for the doorbell and did not read the inbox.
+- Two wrong statements on L565 were corrected with PROME and Will during the session.
+- Midday map uses OI of 11/4 trading (INFERRED); pre-open proof not run. Free-tier proxy: sign and flip robust, dollars not.
+- Today's Barkin and Hammack quotes read at headline only. No consensus source.
+- Operating Dashboard not refreshed. The five items offered to Will at 13:28 ET were not run.
 
 ## COMMITS
 
-`aaaef4ae2` gamma re-pull · `2fd9af938` WALTER packet (pushed 08:50 ET) · closeout commits: `git log --since=2026-11-02 -- AGENTS/HENRY`.
+`fb750678b` · `9085120e4` · `35d9b8425` · `b75284241` · `5be014f23` · `a324d824e` · `2b5d908a0` · `bd4deb56b` · `077b9757e` · `88d36ee73` · `524ad67c7` · `a2f85465d` · `ce63b80a4` · `453a0bb85`; closeout commit follows: `git log --since=2026-11-05 -- AGENTS/HENRY`.
 
 ## NEXT SESSION FOLLOW-UP
 
-Grade Monday's session against this map. ISM manufacturing 11/2, Apple after the close 11/02, ISM services 11/4, payrolls 11/6, CPI 11/10, PPI 11/13, Nvidia 11/19.
+Payrolls Fri 11/6 08:30 ET, with today's cash credit by late morning; CPI Tue 11/10; PPI Fri 11/13; Nvidia Tue 11/17 after the close.
 
 ## THESIS SNAPSHOT (frozen at close)
 
-Dealer gamma NEGATIVE on all three chains; SPX flip 7,706–7,711; put band 7,500–7,600 withheld; QQQ walls 680 / 700. No probability, threshold, prediction or trade changed.
+Dealer gamma NEGATIVE on all three chains; SPX flip 7,675–7,678 [11/5 12:39 ET intraday]; no clean SPX support published; SPX red 7,037.04 not reached. Credit-Primary Rule: no bottom call while HY has no 11/5 print. No probability, threshold, prediction or trade changed.
 
 ## WILL_NEEDS
 
-None.
+None. Say when you want the close graded; a fresh HENRY session can do it from `MEMORY.md`.
 
-*Honest scope: one pre-open re-pull on free Cboe delayed chains plus an inbox drain; nothing here is a trade view.*
+*Honest scope: free delayed Cboe chains, vendor quotes and first-published FRED data. Nothing here is a close, a settle or a trade view, and the day's most important read, the close, is not in this file.*

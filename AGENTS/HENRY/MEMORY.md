@@ -52,7 +52,7 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-05 from 09:39 ET, boot + Will's 09:42 ET catch-up via PROME (Claude Code, Opus 5.5). Session still open at this write; PROME asks before closeout.
+### CHANGES SINCE — 2026-11-05 from 09:39 ET, boot + Will's 09:42 ET catch-up via PROME (Claude Code, Opus 5.5). Closed 14:0x ET on Will's word, before the close; close grade NOT done.
 
 - **Gamma 11/5 09:48 ET published, Cboe, spot live:** NEGATIVE both on SPX, QQQ, NDX; flips SPX 7,693–7,696, QQQ 702–706, NDX 28,495–28,566. QQQ 680 put wall (11/2) held three sessions, broke at the 11/5 open. OI = 11/4-trade INFERRED, pre-open proof not run.
 - **Cboe payload carries IV = 0 for ~15 minutes after the open.** `gamma_flip.py` fell silently to the vendor chain and read POSITIVE at 09:44 ET. Fixed: prints the reason, refuses `--publish`. Read gamma pre-open or after ~09:47 ET; a read inside that window is not usable.
@@ -63,8 +63,8 @@
 
 ### NEXT SESSION
 
-1. Grade 11/5 at the close: SPX 7,600 / band 7,500–7,600, NDX 28,000, QQQ 675–680 and 700; re-pull `--both` next pre-open with the OI-vintage test.
-2. HEN-59 NFP 11/6 (L767, co-reader); HEN-57 CPI 11/10 (L775); HEN-58 PPI 11/13 (L776); NVDA 11/19 (L322).
-3. Operating Dashboard not refreshed since 10/22 (version 4); hardcoded figures in `dashboard/build_dashboard.py` and the template. Do it on closes, not an intraday tape.
-4. Row 9 on 11/18: PANW + bank-stock legs; collapse magnitude must be settled with CYPHER/PROME first.
-5. Consumer check for superseded flips and the 680 wall at closeout. QQQ short interest 10/30 settlement not yet posted.
+1. **Grade 11/5 on real closes first (not done; session closed 14:0x ET).** Morning walls, all broken intraday: SPX 7,600 and band 7,500–7,600, NDX 28,000, QQQ 675–680; QQQ 700 overhead. 200-day closes (own calc through 11/4): SPX ~7,320, QQQ ~679.4, NDX ~27,970; first close under since 4/7/2026 if it happened. VIX final, then Treasury par, then HY and CCC for 11/5 (FRED, late morning 11/6). Backfill MARKET_DATA.
+2. **Run the pre-open `--both` map with the OI-vintage test:** first chain holding 11/5 positioning. Also unrun from Will's list: options volume by strike, top-name point attribution, breadth rerun, three-way payroll reaction map, a consensus source.
+3. HEN-59 NFP 11/6 (L767, co-reader); HEN-57 CPI 11/10 (L775); HEN-58 PPI 11/13 (L776); NVDA 11/17 after close (L926).
+4. Operating Dashboard still 10/22 (version 4); hardcoded figures in `dashboard/build_dashboard.py` and the template. Do it on closes, same URL.
+5. Row 9 on 11/18: PANW + bank-stock legs; collapse magnitude must be settled with CYPHER/PROME first. ECON_CALENDAR rebuild before 11/20; SLOOS row is ESTIMATED 2027-02-01, confirm at the Fed. QQQ short interest 10/30 settlement not yet posted.
