@@ -543,3 +543,30 @@ Management-only lines (construction rule #20); C5 reminders paused by Will 10/20
 | Exit rails | Harvest $4.40 never reached; the REGINALD exit was last graded 0 of 3 through 10/9, so its record stops 27 days ago. |
 
 **Lesson:** nothing new. A write-off in chat is not a close; the card says DEAD while a quote still shows some value, and the paper row PB-0006 stays OPEN because no fill is known. **Tags:** provisional `GOOD_PROCESS_BAD_OUTCOME`, thesis ungraded.
+
+## 2026-11-05 — TRY-BRENT-REFINER / MGMT-VLO-SHARE VLO ×1 — **CLOSED by rule at $366.665. Realized −$45.33 (−11.0%).**
+
+**Record:** bought 9/18 at $412.00 by Will's hand under WQ-213. Sold 11/5 at market after HELD-01 leg A fired on the December crack $89.2472 [11/2] against $90.16. Proceeds $366.67. Basis $1,296.73 → $884.73 shows the $412.00 lot went; the 2 added shares stay Will's. Best close $459.78 on 10/14; 35 vendor bars 9/18–11/5.
+
+| Leg | Grade |
+|---|---|
+| Thesis | BRENT's and HENRY's, not graded here. HEN-46 ended no-verdict 10/22, so the $90.16 line had no live thesis at the fire. CME was never read; one feed lineage. |
+| Timing | Entry fine by its gate. The first eligible exit session closed $387.65 (11/3); the sale was $20.98 lower. |
+| Structure | Right. Common shares carried no decay through a 7-week hold, and the card said so. |
+| Exit rule | Worked as written. **The miss is the desk's:** the fire sat 2 days because TERRY had no touch from 11/2 10:34 to 11/4 20:23, and WALTER found it. |
+| Harvest | **Missing, and that is construction.** Neither card has a P/L-keyed harvest, though finding 9 and `NO_HARVEST_RULE` were in force when both were written. The share went from +$47.78 to −$45.33, a $93.11 round trip, with no rail that could fire in profit. |
+| Sizing | $412.00 inside the $500 cap. SCALE stood the other 2 down. |
+
+**Lesson:** nothing new; finding 9 already says it, and it was not applied to a share because the card thought in thesis exits. No new rule. **Tags:** `NO_HARVEST_RULE` · `GOOD_PROCESS_BAD_OUTCOME` for the exit itself.
+
+## 2026-11-05 — IDEA-QQQ-PUTWALL-OCT22 QQQ Nov-20 690/670P ×2 — **CLOSED, holding 0. Whole-line result UNKNOWN.**
+
+**Record:** opened 10/23 by Will's hand ahead of T1, ×2, net $936.70, against the ×1 gate. Short leg bought back 10/30 at $8.00, +$141.30. ×1 sold 11/5 at $28.83, net $2,882.28, +$1,542.62 on average basis $1,339.67. The other contract closed outside the visible Activity (FORGE D-94); price and date UNKNOWN, and the 10/30 $17.95 order is not shown filled. Known so far +$1,683.92, with $1,339.67 of basis unbooked.
+
+| Leg | Grade |
+|---|---|
+| Thesis | HENRY's and VULCAN's, not graded here. |
+| Card | The harvest lapsed with the short leg on 10/30 and no replacement was set; Will managed the long by hand. T1 never governed this entry. |
+| Will's execution | Not graded: this desk grades its own rules and construction. |
+
+**Lesson:** the card's rules did not produce this result, so it earns the desk no credit, and it stays outside GATE-OP-SCALE-01's N. **Tags:** none; recorded. Whole-line realized is booked here once if the row is supplied.

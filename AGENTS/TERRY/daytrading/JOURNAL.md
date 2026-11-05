@@ -4,6 +4,27 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ---
 
+## November 5 — partial broker intake, 10/30 to 11/5, not a full-day review
+
+Observed 2026-11-05 10:22 EST from Will's two Fidelity screenshots; transcription `PROME/data/2026-11-05_broker-capture-TRANSCRIPTION.md` (e22ca99c4), realized from ANVIL's reconcile, `FORGE/STATUS.md` D-96. No fill clocks. Row order within a day is not execution order; pairing and some quantities are INFERRED by ANVIL. **Reference only: FORGE books these once; never sum this copy as new P/L.**
+
+| Thread | Flows | Realized | R at entry |
+|---|---|---:|---:|
+| QQQ Nov-02 715P ×1 | $484.66 in, +$2,069.29 out | +$1,584.63 | 1.9R |
+| QQQ Nov-06 680P (×2 inferred) | −$1,141.33, +$1,105.31, +$882.32 | +$846.30 | 4.6R |
+| QQQ Nov-04 680P lot 1 (pairing inferred) | −$649.66, +$777.32 | +$127.66 | 2.6R |
+| QQQ Nov-04 680P lot 2 | −$464.66, expired 11/4 | −$464.66 | 1.9R |
+| AAPL Nov-04 345C ×1 | −$440.66, +$776.32 | +$335.66 | 1.8R |
+| QQQ Nov-02 680P, Nov-05 685P | sales +$52.34, +$1,202.31, opens unseen | UNKNOWN | UNKNOWN |
+
+**Visible result:** QQQ threads +$2,093.93 on known bases, plus AAPL +$335.66, plus $1,254.65 of sales whose cost is unseen. All QQQ threads were puts, which fits the desk card's prime line.
+
+**Two things to look at, as results, not proof of intent:** the Nov-06 680P entry was $1,141.33, 4.6R against the 2R cap, and it worked; size above cap on a winner is still size above cap. The second Nov-04 680P lot went to zero, −$464.66. Will has said a collapsed line may simply expire, so this is not scored as a rule break.
+
+**Unscored:** no clocks, no pre-entry decisions and no full window, so no daily result, frequency denominator or Session 6 metrics row. The Nov-20 690P is a card line, booked in POSTMORTEMS, not here.
+
+---
+
 ## October20 — partial broker intake, not a full-day review
 
 Observed 2026-10-20T10:48:04.905951-04:00; direct Will Capture1/2; exact clocks/fullhistory UNKNOWN. Source `../research/2026-10-20_broker-receipt/source.json`. QQQ720P closure DERIVED+474.66 is booked ONCE in POSTMORTEMS, not again here. NewQQQOctober22 715P1net432.66 and USOOctober30 165Cadd1net315.66 are openpurchases; netvisiblecash−83.00. Canceled2notfills. Accountdisplayday−2480.70/−6.15% is brokerdaychange, not closed-tradeperformance; all23positiondaydeltas tie it. TwoQQQexpiringtodayremain1each/value135combined; October22putvalue299. No pre-entry reason/clock or same-time market comparison: no behavioral/frequency/full-day score fabricated. Existing standalone daytradingreview remains subordinate to thesisbook.
