@@ -16,4 +16,7 @@ Task: PROME packet 7dac94dc1 under Will's 09:42 ET word. Runtime Claude Code, mo
 | Tape 11/5 | Selloff recorded, PMMS 7.18, December pricing corrected | KB-BND-543, 544 |
 | Inbox | WALTER 022 and RED FT-11 consumed; inbox empty | board_log.tsv; `inbox/processed/` |
 
-Not done: FR2004 as-of 10/28 and the 11/5 Treasury close unpublished at prep; ICE for 11/5 posts 11/6; L226 waits on the 11/13 report.
+| WQ-596 | BND-34 to 37 registered before the 11/5 credit print | `thesis/PREDICTIONS.tsv`; PROME packet |
+| Final pass | FR2004 as-of 10/28, VX-BND-04 held 2; Treasury close; VX-BND-17 1→2 | KB-BND-545, 546; `analysis/2026-11-05_catchup/raw/close/` |
+
+Not done: ICE for 11/5 posts 11/6; L226 waits on the 11/13 report.

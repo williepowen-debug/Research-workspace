@@ -13,7 +13,7 @@
 
 **Operational letter:** WQ291 kill recommendation remains MET; unusual net inventory is not auction-warehousing proof, funding window UNGRADED, no predictive claim. WQ357 is resolved and the sleeve is flat (TBT sold 10/30, FORGE). Existing NO-ADD stands; a new expression would be a new TERRY card on Will's word.
 
-**Rates:** The 10/28 hawkish-dissent hold bear-steepened the curve (2Y −3, 30Y +7), then 2s30s flattened to 70bp: 2Y 4.58, 10Y 4.90, 30Y 5.28 [11/4]. No decomposition identifies buyback causation.
+**Rates:** The 10/28 hawkish-dissent hold bear-steepened the curve (2Y −3, 30Y +7), then 2s30s flattened to 70bp [11/4] and steepened to 79bp on the 11/5 selloff: 2Y 4.46, 10Y 4.84, 30Y 5.25 [11/5]. No decomposition identifies buyback causation.
 
 **Official demand:** Seven of seven F2 buybacks OFF-THE-RUN (11/4 10–20Y: recent share 0.22%, cap filled). Registered 10/21 20Y-R and 10/22 TIPS clean; 10/26 2Y record bid substitution on audit-only grading. F1 and F3 NOT FIRED at the 11/4 QRA (KB-BND-528); WQ-592 RULED B, and Treasury's statement confirms no same-tenor increase (10Y $42B, 30Y $25B). Guidance dropped "at least"; TBAC expects coupon increases later in FY27 (KB-BND-529).
 

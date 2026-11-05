@@ -1,6 +1,6 @@
-# BOND SCRATCH — 2026-11-05 catch-up, closeout prepared, final run after FR2004
+# BOND SCRATCH — 2026-11-05 catch-up and closeout
 
-> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2; was 18). Clean-nominal counter 3 (WQ-536 A); auction health 3 since 11/5. **OPEN predictions 5 (BND-33 to 37).** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.58/4.90/5.28 [11/4]; real 10Y 2.64; HY/CCC/IG 332/1297/91 [11/4]; SOFR−IORB +4 [11/4]; FR2004 long-end $150.816B [as-of 10/21]; PMMS 7.18 [11/5]. Refunding bars FROZEN 11/2. THESIS v1.2.13. Intraday only, 14:01 ET: S&P −4.0%, 10Y about 4.83, December hike about 65%.
+> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2; was 18). Clean-nominal counter 3 (WQ-536 A); auction health 3 since 11/5. **OPEN predictions 5 (BND-33 to 37).** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.46/4.84/5.25 [11/5]; real 10Y 2.60; HY/CCC/IG 332/1297/91 [11/4]; SOFR−IORB +4 [11/4]; FR2004 long-end $146.946B [as-of 10/28]; PMMS 7.18 [11/5], 234bp same-date. VX-BND-17 2, VX-BND-04 2. Refunding bars FROZEN 11/2. THESIS v1.2.13. Vendor close 11/5: S&P −4.4%, December hike about 65% [16:25 evolving bar]; HY estimate near 342, not official.
 
 ## WHAT I DID
 
@@ -17,22 +17,23 @@ Boot 09:39 ET, status to Will. PROME packet `inbox/processed/2026-11-05_from-PRO
 - **Audit:** Will's "are we feeling good" found stale THESIS and TRADE credit lines; fixed.
 - **LIQUID correction 11:14 ET:** my "met, unflagged" on FL-16 was wrong; LIQ-07 resolved 10/16. D6–D8 closed (KB-542). Told Will.
 - **11/5 selloff:** KB-543, 544; PMMS 7.18; WALTER 022 and RED FT-11 consumed. ⚠️ My 12:45 line to Will that December "still priced" the hike was wrong: 82% at 09:40 to 65% at 14:01. KB-544 corrected; Will told at closeout prep.
+- **WQ-596:** BND-34 to 37 registered before the 11/5 credit print and the dealer data; packet `PROME/inbox/2026-11-05_from-BOND_wq596-predictions.md`.
+- **Final pass:** FR2004 as-of 10/28 −$3.870B, VX-BND-04 held 2 (KB-545). Treasury close 10Y 4.84, PMMS 234bp same-date, VX-BND-17 1→2 outside the composite, disagreement recorded (KB-546). BND-36 now needs +$9.854B in six weeks; left as registered. STATUS line 94 still said OPEN predictions 1; fixed. HY estimate cut from about 345 to about 342 on closes (HYG recovered to −0.31%).
 
 ## CLOSEOUT STEPS (heavy, tools changed)
 
-C1 STATUS done · C2 KB, VX done, FLOW no-op this pass · C3 no prediction DUE; BND-34 to 37 registered 11/5 under Will's word via PROME (brief f0ad9c2b0), WQ-596 packet sent · C4 THESIS no-op, no thesis-level change, token unchanged · C5 docket: BND-36 12/17 and BND-34, 35, 37 12/31 rows added · C6 TRADE no-op, no gate or position change · C7 this file · C8 RECEIPT, board_log done · C9 auto-memory extended (`finding_test_the_guard_not_just_the_guarded`, `finding_freshness_audit_vs_caught_up`), MEMORY.md one row · C10 charter already carries the tool changes, no-op · C11 NEXUS done. MEMORY.md rotated, three bullets to `archive/2026-11-05_MEMORY_pruned-bullets.md`. Fleet memory index at 75%, flagged to PROME; it blocks the runner until demoted.
+C1 STATUS done · C2 KB (545, 546), VX (04, 17) done, FLOW no-op this pass · C3 no prediction DUE; BND-34 to 37 registered 11/5 under Will's word via PROME (brief f0ad9c2b0), WQ-596 packet sent · C4 THESIS dealer evidence lines only, no thesis-level change, token unchanged · C5 docket: BND-36 12/17 and BND-34, 35, 37 12/31 rows added · C6 TRADE no-op, no gate or position change · C7 this file · C8 RECEIPT, board_log done · C9 auto-memory extended (`finding_test_the_guard_not_just_the_guarded`, `finding_freshness_audit_vs_caught_up`), MEMORY.md one row · C10 charter already carries the tool changes, no-op · C11 NEXUS done. MEMORY.md rotated, three bullets to `archive/2026-11-05_MEMORY_pruned-bullets.md`. Fleet memory index blocker cleared by PROME (68%).
 
 ## NEXT (dated)
 
-1. **11/5 after hours:** FR2004 as-of 10/28 ~16:15 ET: DEALER_CAPACITY, VX-04 re-score, VX-BND-17 on the Treasury close (about 235bp at 4.83 would move it 1→2 on the letter; survey lag, as 10/22). Closing tape into STATUS and KB-543. Then C12, `--superseded` for the composite, push. Addendum to PROME only if a score moves.
-2. **11/6:** ICE credit for 11/5, late morning, the first official read of the selloff; HY 350 line; LIQUID owns tier and Gate 069. October jobs 08:30. Friday primary count.
-3. **11/9 · 11/10 · 11/12:** grade 3Y `91282CRW3`, 10Y `91282CRX1`, 30Y `912810UY2` with `--frozen-bars AGENTS/BOND/registry/auction_bars/<date>_<cusip>.json` under `.venv` python. **A PRE-PRINT line after the print means NOT GRADED, whatever the rc.** One blank Yes/No on any coupon row refuses every grade in the run. Check whether a target stays in `upcoming` after results post (R4). BND-33 resolves at the 30Y.
-4. **BND-34 and BND-37 can resolve early TRUE: check at each HY and PMMS read.** 12/17 BND-36; 12/31 BND-34, 35, 37. 11/11 VX-20 review; 11/12–11/17 freeze 20Y and TIPS bars; 11/13 FHLB CFR, L226, FRBNY FX report; 11/17 F2 op; 11/19 freeze month-end bars.
-5. After 11/9: bring tool leftovers R1, R5 back to Will.
+1. **11/6:** ICE credit for 11/5, late morning, the first official read of the selloff; HY 350 line; LIQUID owns tier and Gate 069. October jobs 08:30. Friday primary count.
+2. **11/9 · 11/10 · 11/12:** grade 3Y `91282CRW3`, 10Y `91282CRX1`, 30Y `912810UY2` with `--frozen-bars AGENTS/BOND/registry/auction_bars/<date>_<cusip>.json` under `.venv` python. **A PRE-PRINT line after the print means NOT GRADED, whatever the rc.** One blank Yes/No on any coupon row refuses every grade in the run. Check whether a target stays in `upcoming` after results post (R4). BND-33 resolves at the 30Y.
+3. **BND-34 and BND-37 can resolve early TRUE: check at each HY and PMMS read.** BND-34 excludes the 11/5 print. **11/12:** PMMS re-scores VX-BND-17; FR2004 as-of 11/4 is the first read that could show dealers before the selloff week closes. 12/17 BND-36; 12/31 BND-34, 35, 37. 11/11 VX-20 review; 11/12–11/17 freeze 20Y and TIPS bars; 11/13 FHLB CFR, L226, FRBNY FX report; 11/17 F2 op; 11/19 freeze month-end bars.
+4. After 11/9: bring tool leftovers R1, R5 back to Will.
 
 ## OPEN THREADS
 
-L226 FHLB retune waits on the 11/13 report and sets no number without a base rate; re-date and owner asked of PROME. 7Y reopening handling owed before April 2027. True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED.
+L226 FHLB retune waits on the 11/13 report and sets no number without a base rate; re-date and owner asked of PROME. 7Y reopening handling owed before April 2027. Runner leftover: on a same-day re-run the consumer self-scan reads the runner's own transcript, whose old lines quote other desks' superseded composite, so it can never clear; today's earlier runs moved to `registry/closeout_runs/archive/`, record intact, runner unchanged. Bring to Will with R1, R5. True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED.
 
 ## POSITION
 
@@ -40,4 +41,4 @@ FLAT on this thesis. BOND executes nothing; no expiry reminders.
 
 ## MAIL / DELIVERY
 
-RED F2 packet sent, consumed. PROME delivery, disposition and go-item packets sent. PROME note on the R3 duplicate written with this prep. Inbox empty.
+RED F2 packet sent, consumed. PROME delivery, disposition and go-item packets sent. PROME note on the R3 duplicate written with this prep. WQ-596 packet and close addendum sent. Inbox empty.

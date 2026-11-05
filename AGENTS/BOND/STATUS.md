@@ -1,12 +1,12 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-05 14:02 ET — closeout prep under Will's word, after the catch-up under his 09:42 ET word (Claude Code `claude-opus-5-5`): November QRA graded, F2 carrier extended, auction-health downgrade graded, data refreshed, 11/5 selloff recorded. **Last real data refresh: 2026-11-05.**
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-05 16:28 ET — final closeout pass, after closeout prep under Will's word, after the catch-up under his 09:42 ET word (Claude Code `claude-opus-5-5`): November QRA graded, F2 carrier extended, auction-health downgrade graded, data refreshed, 11/5 selloff recorded. **Last real data refresh: 2026-11-05.**
 
-Frontiers: Treasury nominal/real **11/4** · ICE credit via FRED **11/4** · NY Fed repo **11/4** · FR2004 as-of **10/21** (10/28 due today) · ACM **11/3** · KW **10/30** · PMMS **11/5** · Bund **11/5** · TreasuryDirect auctions through **10/29**. Evidence: `analysis/2026-11-05_catchup/` (raw manifest, Treasury documents).
+Frontiers: Treasury nominal/real **11/5** · ICE credit via FRED **11/4** · NY Fed repo **11/4** · FR2004 as-of **10/28** · ACM **11/3** · KW **10/30** · PMMS **11/5** · Bund **11/5** · TreasuryDirect auctions through **10/29**. Evidence: `analysis/2026-11-05_catchup/` (raw manifest, Treasury documents).
 
 ## Current judgment
 
-**Live, 11/5 14:01 ET, vendor intraday, not closes: stocks are selling off hard, Treasuries are rallying, and credit has barely moved so far.** S&P −4.0%, QQQ −5.8%, VIX about 26.7 vs 16.61 [11/4], led by AI and chips, with GS −6.5% and MS −6.6%. 10Y about 4.83, 30Y about 5.25. HYG −0.46%, LQD +0.11%. December hike odds fell from about 82% at 09:40 to about 65%, and the strip peak from 4.50 to 4.32 (KB-BND-544). The official junk spread for today posts 11/6; my ETF-based estimate is near 345, with similar past days closer to 350 (KB-BND-543). ⚠️ Estimate only. Equities moved first, the reverse of 10/30. LIQUID at 13:58 ET: no financing constraint visible. No score moved.
+**Close, 11/5: stocks fell hard, Treasuries rallied from the front end, and credit ETFs barely moved. The official junk spread for today is still unknown.** S&P −4.4% to 7353.73, QQQ −6.5%, KRE −2.5%; VIX about 28 vs 16.61 [11/4] (vendor reads 26.9 to 28.2; VIOLET owns the close). Treasury 2Y −12bp to 4.46, 10Y −6 to 4.84, 30Y −3 to 5.25; 2s30s +9 to 79bp; real 10Y 2.60. HYG −0.31%, LQD +0.15%, Brent $98.51, WTI $90.65 [vendor closes]. December hike about 65%, from about 82% at 09:40; strip peak 4.28 from 4.50 [16:25 evolving vendor bars, may hold evening trade, not settlement; HENRY owns] (KB-BND-544, 546). ICE for 11/5 posts 11/6. My closing-price estimate is near 342 (+10bp, R² 0.54, residual sd 4.8bp); nine comparable days ran +7 to +37, median +14, which would be about 346. ⚠️ Estimate only, ETF prices can gap from NAV on days like this, so 350 is not ruled out (KB-BND-543). Equities moved first, the reverse of 10/30. LIQUID at 13:58 ET: no financing constraint visible. **Dealer data predates the selloff:** long-end stock −$3.870B to $146.946B [as-of 10/28], no build, VX-BND-04 stays 2 (KB-BND-545). **The mortgage spread is 234bp same-date [11/5], over the 230 line, so VX-BND-17 moves 1→2 on the letter, outside the composite.** I read it as survey lag: the 236bp reading two weeks ago had the same shape and reversed to 226bp a week later. Composite unchanged at 17.
 
 **The refunding brought no supply surprise now and a warning for later.** Treasury kept coupon sizes unchanged at every tenor for November–January (statement `sb0678`, 11/4). F3 NOT FIRED. But it dropped two words: August said sizes hold "for **at least** the next several quarters", November says "for the next several quarters". TBAC, its dealer advisory committee, says coupon increases will be warranted later in FY27, likely the second half, mostly in 2Y–10Y, with real debate over the 20Y and 30Y. On 11/4 the 10Y fell 5bp and the 30Y 4bp; no attribution computed.
 
@@ -18,7 +18,7 @@ Frontiers: Treasury nominal/real **11/4** · ICE credit via FRED **11/4** · NY 
 
 **Auctions: downgrade graded, refunding next.** Three clean registered nominals under WQ-536 A and no size change, so auction health moves 4→3. ⚠️ The downgrade follows the weakest 2Y in BOND's records (10/26, audit-only, recorded beside the count). The refunding prints grade REGISTERED on bars frozen 11/2, and a fire there resets the counter.
 
-**Rates:** curve flattened 5bp since 10/30: 2Y 4.58, 10Y 4.90, 30Y 5.28 [11/4]. Real 10Y 2.64%, run 39 sessions at or above 2.50. December hike about 65% [11/5 14:01 evolving vendor bar, not settlement; HENRY owns], about 82% at 09:40, about 76% [11/2].
+**Rates:** curve steepened 4bp since 10/30, all of it on 11/5 (2s30s 70 to 79bp): 2Y 4.46, 10Y 4.84, 30Y 5.25 [11/5]. Real 10Y 2.60%, run 40 sessions at or above 2.50. December hike about 65% [11/5 16:25 evolving vendor bar, not settlement; HENRY owns], about 82% at 09:40, about 76% [11/2].
 
 ## Regime and capital record
 <!-- bond-state: thesis=v1.2.13; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
@@ -28,23 +28,23 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 | Metric | Dated observation | Source / basis |
 |---|---|---|
-| Official 2Y/5Y/10Y/20Y/30Y | 4.58 / 4.69 / 4.90 / 5.30 / 5.28% [11/4]; daily −3/−5/−5/−5/−4bp | [CONF PRIMARY Treasury par CSV pulled 11/5] |
-| Official real 5Y/10Y/30Y | 2.39 / 2.64 / 3.08% [11/4]; daily +4/−1/−1 | [CONF PRIMARY Treasury real CSV] |
-| 10Y/30Y nominal−real | 2.26 / 2.20% [11/4] | [EST fitted-par subtraction; not pure breakevens] |
-| 2s10s / 5s30s / 2s30s | 32 / 59 / 70bp [11/4] | [EST PRIMARY subtraction] |
-| 20Y−30Y | +2bp [11/4]; 20Y still above 30Y | [EST PRIMARY] |
+| Official 2Y/5Y/10Y/20Y/30Y | 4.46 / 4.59 / 4.84 / 5.27 / 5.25% [11/5]; daily −12/−10/−6/−3/−3bp | [CONF PRIMARY Treasury par CSV pulled 11/5 close] |
+| Official real 5Y/10Y/30Y | 2.33 / 2.60 / 3.05% [11/5]; daily −6/−4/−3 | [CONF PRIMARY Treasury real CSV] |
+| 10Y/30Y nominal−real | 2.24 / 2.20% [11/5] | [EST fitted-par subtraction; not pure breakevens] |
+| 2s10s / 5s30s / 2s30s | 38 / 66 / 79bp [11/5] | [EST PRIMARY subtraction] |
+| 20Y−30Y | +2bp [11/5]; 20Y still above 30Y | [EST PRIMARY] |
 | 5Y5Y forward / 10Y breakeven | 2.22 / 2.26% [11/4] | [CONF MIRROR FRED T5YIFR/T10YIE]; 28bp below 2.50 |
 | ACM 10Y TP / KW 10Y TP | 0.6773% [11/3] / 0.9089% [10/30] | [EST PRIMARY NY Fed / MIRROR FRED]; different models |
-| Fed path | 12/9 meeting: +16.2bp priced ≈ 65% of a +25bp hike (in-month method, EFFR held 3.88); strip peak 4.320 Oct-2027 (+44.0bp); 09:40 was 82% and 4.500 | [EST CBOT vendor bars, 11/5 evolving bar 14:01 ET, not settlement; HENRY owns] |
+| Fed path | 12/9 meeting: +16.2bp priced ≈ 65% of a +25bp hike (in-month method, EFFR held 3.88); strip peak 4.280 Oct-2027 (+40.0bp); 09:40 was 82% and 4.500 | [EST CBOT vendor bars, 11/5 evolving bar 16:25 ET, not settlement; HENRY owns] |
 | HY/CCC/B/BB/BBB/IG OAS | 332 / 1297 / 351 / 199 / 113 / 91bp [11/4] | [CONF MIRROR-WALLED ICE via FRED] |
 | HY primary | October ≈$15B; $3.5B a week final four; EDGAR filers 18 so far week of 11/2 | [EST secondary, Bloomberg via CAM; EDGAR mixed IG/HY]; pulled deals not observable |
 | HY distance to 350 | 18bp [11/4]; 344 [10/30], 343 [11/2], 340 [11/3] | [EST] |
 | SOFR / EFFR / IORB | 3.94 / 3.88 / 3.90% [11/4]; volume $3,207B | [CONF PRIMARY NY Fed; IORB FRED] |
 | SOFR−IORB | +4bp [11/4]; +5/+7 on 11/2, 11/3 | [EST]; LIQUID owns the verdict |
-| FR2004 stock | Long-end $150.816B (−0.580); 11–21Y $62.699B (+2.953); >21Y $49.895B (−1.058); 3–6Y $47.986B (−1.402) [as-of 10/21] | [CONF PRIMARY NY Fed] |
-| PMMS spread | 7.18% [11/5] − Treasury 10Y 4.90% [11/4] = 228bp, mixed dates; same-date pending the 11/5 Treasury close, about 235bp at 4.83 | [CONF PRIMARY; EST]; 180–230 band, not MBS OAS |
+| FR2004 stock | Long-end $146.946B (−3.870); 11–21Y $67.734B (+5.035); >21Y $41.465B (−8.430); 3–6Y $44.974B (−3.012) [as-of 10/28] | [CONF PRIMARY NY Fed] |
+| PMMS spread | 7.18% [11/5] − Treasury 10Y 4.84% [11/5] = 234bp, same date, over 230; recompute prints 228 until FRED posts 11/5 | [CONF PRIMARY; EST]; 180–230 band, not MBS OAS |
 | Bund fitted 10Y | 3.33% [11/5], 3.38 [11/4] | [CONF PRIMARY Bundesbank] |
-| HYG/IEF proxy | 0.8389 intraday [11/5 12:40], 3-month low, z20 −1.67 | [EST vendor bars; true CDX unobserved] |
+| HYG/IEF proxy | 0.8403 [11/5 close], low of the 3-month range, z20 −1.52 | [EST vendor bars; true CDX unobserved] |
 | Borrowing / cash | $618B Oct–Dec, $800B Jan–Mar; TGA $850B end-Dec, peak up to $1.025T ± $50B | [CONF PRIMARY Treasury sb0675, sb0678]; LIQUID owns TGA |
 
 ## Auction grades since 10/20
@@ -63,14 +63,14 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 | Existing gate | Dated state |
 |---|---|
-| Real 10Y ≥2.50 sustain | MET; Treasury 2.64 [11/4], 14bp through; trailing run 39 sessions (2026 Treasury real file) |
+| Real 10Y ≥2.50 sustain | MET; Treasury 2.60 [11/5], 10bp through; trailing run 40 sessions (2026 Treasury real file) |
 | OLD auction add re-arm | MET 9/23; add DECLINED WQ280; not met at any October print |
 | WQ291 paired kill | MET-REC 10/1 (closed window); funding window UNGRADED; position now flat |
 | Inflation anchoring | T5YIFR 2.22 [11/4], 28bp below 2.50 |
 | HY marker / lead | HY 332 [11/4] >300; 18bp below 350; band 338–363 held 10/30, 11/2, 11/3, left 11/4 |
 | Credit-equity upgrade (band ≥2 sessions, VIX <20) | NOT MET: one band session under VIX 20 (10/30); HY 332 on 11/4 left the band as VIX fell to 16.61 |
 | CCC escalation | 1297 [11/4] >1100; score 4 held |
-| 30Y ≥5.00 | 101 of 212 2026 sessions, trailing run 85 [Treasury file through 11/4] |
+| 30Y ≥5.00 | 102 of 213 2026 sessions, trailing run 86 [Treasury file through 11/5] |
 | WQ400 Bund disorderly | NOT MET through 11/5; 0 of 20 prospective evaluations (five-session changes −2/+1/−6/−4/−5/−9bp) |
 | F2 buyback carrier | Seven of seven OFF-THE-RUN through 11/4; next op 11/17 20–30Y; carrier runs to 2/9/2027 |
 | F1 / F3 | NOT FIRED at the 11/4 QRA (KB-BND-528); next read 2/3/2027 |
@@ -79,25 +79,25 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 | # | Target /vector | Score | Status | Key evidence | Upgrade condition |
 |---|---|---:|---|---|---|
-| 1 | Long end / duration VX-BND-05 / VX-BND-12 / VX-BND-14 | 5 | 🔴🔴 | 30Y 5.28 [11/4], run 85; real 10Y 2.64 | Existing top score |
+| 1 | Long end / duration VX-BND-05 / VX-BND-12 / VX-BND-14 | 5 | 🔴🔴 | 30Y 5.25 [11/5], run 86; real 10Y 2.60 | Existing top score |
 | 2 | Treasury auction health VX-BND-01 / VX-BND-08 / VX-BND-13 | 3 | 🟠 | Downgraded 4→3 on 11/5: counter 3, QRA no size change | A registered composition fire resets the counter; second composition failure with a confirmed mechanism leg |
-| 3 | Dealer absorption VX-BND-04 / VX-BND-16 | 2 | 🟡 | As-of 10/21 −$0.580B, off the 10/14 high; 10/28 due today | Two consecutive builds again; red = fresh long-end record + composition failure |
+| 3 | Dealer absorption VX-BND-04 / VX-BND-16 | 2 | 🟡 | As-of 10/28 −$3.870B to $146.946B, no build; >21Y gave back most of the 10/14 jump | Two consecutive builds again; red = fresh long-end record + composition failure |
 | 4 | HY function VX-BND-02 / VX-BND-11 | 3 | 🟠 | HY 332 [11/4]; CCC 1297; B +22bp over 15 sessions [11/4] | HY >350 or verified pulled-deal cluster |
 | 5 | IG function VX-BND-03 / VX-BND-10 | 1 | ⚪ | IG 91 / BBB 113 | IG 120 / failed syndication |
 | 6 | CDX/cash VX-BND-06 | 1 | ⚪ | Proxy 5th percentile of 3 months; true CDX gap | Confirmed fast-layer lead |
 | 7 | Credit-equity VX-BND-07 | 2 | 🟡 | HY left the band 11/4 at 332; upgrade not met | Band held ≥2 sessions with VIX <20 at VIOLET's close |
 
-**Composite 17/35 = 5+3+2+3+1+1+2 (was 18):** one 5, two 3, two 2, two 1. Auction health 4→3 on its letter. **Clean-auction counter = 3 (WQ-536 RULED A, Will 10/29):** the 10/26 2Y audit-only I′ fire is recorded beside it. Rider: the downgrade follows the weakest 2Y in BOND's records. Outside composite: VX-BND-15=2, VX-BND-16=4, VX-BND-17=1, VX-BND-18=2, VX-BND-19=3, VX-BND-20=2.
+**Composite 17/35 = 5+3+2+3+1+1+2 (was 18):** one 5, two 3, two 2, two 1. Auction health 4→3 on its letter. **Clean-auction counter = 3 (WQ-536 RULED A, Will 10/29):** the 10/26 2Y audit-only I′ fire is recorded beside it. Rider: the downgrade follows the weakest 2Y in BOND's records. Outside composite: VX-BND-15=2, VX-BND-16=4, VX-BND-17=2 (1→2 on 11/5, 234bp), VX-BND-18=2, VX-BND-19=3, VX-BND-20=2.
 
 ## Exit / falsification
 
-WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT sold 10/30). Funding window UNGRADED. Thesis falsifier 10Y<4.15 AND 30Y<5.00 for 3 sessions plus a clean refunding: not met (4.90 / 5.28 [11/4]). Convergence downgrade: applied 11/5. Position construction is TERRY's. **OPEN predictions: 1.** BND-33: at least one refunding auction fires I′, 50%, base rate 5 of 11. VX-BND-09 auction tails remain retired.
+WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT sold 10/30). Funding window UNGRADED. Thesis falsifier 10Y<4.15 AND 30Y<5.00 for 3 sessions plus a clean refunding: not met (4.84 / 5.25 [11/5]). Convergence downgrade: applied 11/5. Position construction is TERRY's. **OPEN predictions: 5.** BND-33: at least one refunding auction fires I′, 50%, base rate 5 of 11. BND-34 to 37 registered 11/5, resolve by 12/31 (`thesis/PREDICTIONS.tsv`). VX-BND-09 auction tails remain retired.
 
 ## Immediate Catalysts (same event set as docket/CATALYSTS.tsv)
 
 | Date | Obligation |
 |---|---|
-| 11/5 | FR2004 as-of 10/28 · 11/5 Treasury close for VX-BND-17 |
+| 11/6 | ICE credit for 11/5, late morning: first official read of the selloff; BND-34 excludes this print |
 | 11/6 | October jobs · HY primary weekly count |
 | **11/9 · 11/10 · 11/12** | 🔴 **Refunding: 3Y `91282CRW3` · 10Y `91282CRX1` · 30Y `912810UY2` — registered grades on the 11/2 frozen bars** · CPI 11/10 |
 | 11/11, 11/12, 11/13 | VX-BND-20 review 11/11 · BND-33 resolves at the 30Y grade 11/12 · FHLB Combined Financial Report 11/13 (REGINALD calendar) · FRBNY FX report 11/13 |
@@ -113,4 +113,4 @@ WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT s
 
 ## BOTTOM LINE
 
-Treasury left auction sizes alone but dropped "at least" from its promise, and its advisers expect bigger auctions in the second half of FY27, so the supply story is delayed rather than gone. Buybacks did not ratchet again, though the larger size now runs past its original end date. The thing that moved is credit: junk spreads pulled back to 18bp from 350 on 11/4 after three sessions in the warning band, though the widening had spread beyond the weakest names, with no funding strain shown yet. New issuance slowed sharply in October and may be reopening this week. On November 5 stocks sold off hard on AI fears, Treasuries rallied and junk bond ETFs barely moved; the official spread for that day arrives November 6. BOND has no position on this thesis; the November 9–12 refunding is the next real test, on bars locked since November 2.
+Treasury left auction sizes alone but dropped "at least" from its promise, and its advisers expect bigger auctions in the second half of FY27, so the supply story is delayed rather than gone. Buybacks did not ratchet again, though the larger size now runs past its original end date. The thing that moved is credit: junk spreads pulled back to 18bp from 350 on 11/4 after three sessions in the warning band, though the widening had spread beyond the weakest names, with no funding strain shown yet. New issuance slowed sharply in October and may be reopening this week. On November 5 the S&P fell 4.4% on AI fears, Treasuries rallied led by the 2Y and junk bond ETFs barely moved; the official spread for that day arrives November 6, and my estimate near 342 is only an estimate. Dealers trimmed long bonds into October 28, before the selloff. BOND has no position on this thesis; the November 9–12 refunding is the next real test, on bars locked since November 2.
