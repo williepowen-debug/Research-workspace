@@ -134,7 +134,7 @@ def main():
             continue
         all_rows = rows(path)
         width = len(all_rows[skip])
-        bad_rows = [(i + 1, len(r)) for i, r in enumerate(all_rows) if i > skip and r != [""] and len(r) != width]
+        bad_rows = [(i + 1, len(r)) for i, r in enumerate(all_rows) if i > skip and r != [""] and not r[0].startswith("#") and len(r) != width]
         if bad_rows:
             shown = ", ".join(f"L{ln}={n}" for ln, n in bad_rows[:6]) + (" …" if len(bad_rows) > 6 else "")
             print(f"{name:<34}{'':>7}{'':>6}   FAIL: {len(bad_rows)} row(s) with cell count != {width} header cols ({shown})")
