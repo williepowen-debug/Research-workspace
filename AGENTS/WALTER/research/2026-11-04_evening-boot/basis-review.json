@@ -1,0 +1,8 @@
+{
+  "reviewed": [
+    "AGENTS/WALTER/CLAUDE.md",
+    "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+    "AGENTS/WALTER/tools/intake_scan.py"
+  ],
+  "scope": "WQ-598 A install: authored diffs reviewed line by line, 15 queue and 15 boot-repair tests pass; current bytes hashed. Central READS rows for step 7i inputs remain with PROME."
+}

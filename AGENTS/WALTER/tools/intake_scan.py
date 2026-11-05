@@ -23,11 +23,19 @@ each carries an item id, and news is already deduped lane-side (news_seen.json).
   $ python3 tools/intake_scan.py --mark     # record all currently-true gated keys as seen
                                             #   (seed once at wiring; re-run after routing)
   $ python3 tools/intake_scan.py --json     # machine-readable worklist
+  $ python3 tools/intake_scan.py --cruise-disposition KEY DISPOSITION REF
+                                            # close ONE CRUISE_CAPITAL_REVIEW candidate after review
 
-Stdlib only. Exit 0 always (informational). Lane read-only; never writes the lane.
+CRUISE_CAPITAL_REVIEW (WQ-598 A, Will 2026-11-04): a human-review queue of KNOWN cruise-issuer
+capital headlines, not an alert and not an automatic dispatch. It lives in its own namespace and
+state file, so --mark can neither consume nor reset it. Design and acceptance cases:
+research/2026-11-04_maintenance/CRUISE-COVERAGE.md.
+
+Stdlib only. Exit 0 except a refused --cruise-disposition. Lane read-only; never writes the lane.
 """
 import argparse
 import datetime as dt
+import hashlib
 import json
 import re
 import sys
@@ -61,6 +69,17 @@ FEED_OWNER = {                            # per-feed ACTION owner / INFO-cc
                                           # kept only as documentation of the old default
     "treasury_auctions": (["BOND"], ["LIQUID"]),
 }
+
+CRUISE_STATE = WALTER / "registry" / "cruise_capital_review.json"
+# First day read. Fixed at install so the archive is never replayed; November 3 keeps the one
+# open candidate the design named (the Sandals joint-venture relay) in view.
+CRUISE_BASELINE_DAY = "2026-11-03"
+CRUISE_TICKERS = {"Carnival Corp": ["CCL"], "Royal Caribbean": ["RCL"], "Norwegian Cruise": ["NCLH", "NCLC"]}
+CRUISE_CAPITAL_RE = re.compile(
+    r"\b(?:notes? offering|bond offering|commercial paper|credit facilit(?:y|ies)|revolver|refinanc\w*"
+    r"|debt financ\w*|loan|stake|joint venture|acquisition|tender offer|debt exchange)\b", re.I)
+# Same tokens as tools/batch_manifest.py, so a queue close reads like any other disposition.
+CRUISE_DISPOSITIONS = ("DISPATCH", "KILL", "NOTE", "FOLD", "DUP", "NO-ACTION")
 
 
 def _now_utc():
@@ -255,6 +274,109 @@ def collect_alerts(live):
     return recs
 
 
+def is_cruise_capital_candidate(item):
+    """All three legs of the design's rule. entity must be the lane's normalized issuer, so a
+    bare CCL text match (CCL Industries) can never bind."""
+    return (item.get("classification") == "KNOWN"
+            and item.get("entity") in CRUISE_TICKERS
+            and "CRUISE" in (item.get("agents") or [])
+            and bool(CRUISE_CAPITAL_RE.search(item.get("title") or "")))
+
+
+def _cruise_key(title):
+    norm = re.sub(r"\s+", " ", title).strip().casefold()
+    return "cruise:" + hashlib.sha1(norm.encode("utf-8")).hexdigest()[:12]
+
+
+def _load_cruise_state():
+    """(state, error). A missing file is the empty install state; an unreadable one is an error,
+    never read as empty, or every closed item would come back and a write could destroy the record."""
+    if not CRUISE_STATE.exists():
+        return {"baseline_day": CRUISE_BASELINE_DAY, "consumed": {}}, None
+    try:
+        state = json.loads(CRUISE_STATE.read_text(encoding="utf-8"))
+        if not isinstance(state.get("consumed"), dict):
+            raise ValueError("consumed is not a mapping")
+        return state, None
+    except (OSError, ValueError) as e:
+        return None, f"{CRUISE_STATE.name} unreadable ({type(e).__name__}); queue UNKNOWN, nothing consumed"
+
+
+def _edgar_overlap(day_dir, tickers):
+    p = day_dir / "edgar_8k.json"
+    if not p.exists():
+        return []
+    try:
+        filings = json.loads(p.read_text(encoding="utf-8")).get("filings", [])
+    except (OSError, ValueError):
+        return [f"{p.parent.name}/edgar_8k.json unreadable; overlap UNKNOWN"]
+    return [f"{f.get('ticker')} {f.get('date')} {f.get('items')}" for f in filings if f.get("ticker") in tickers]
+
+
+def cruise_capital_queue():
+    """(open candidates, errors) over every saved day from the baseline, so a missed session loses
+    nothing. Identical titles fold into one candidate with all their rows; a changed title is a new
+    candidate. Read-only."""
+    state, err = _load_cruise_state()
+    if err:
+        return [], [err]
+    errors, by_key = [], {}
+    try:
+        days = sorted(p for p in (LANE / "data").iterdir() if p.is_dir())
+    except OSError as e:
+        return [], [f"lane data/ unreadable ({type(e).__name__}); queue UNKNOWN"]
+    for d in days:
+        if d.name < state.get("baseline_day", CRUISE_BASELINE_DAY):
+            continue
+        p = d / "news.json"
+        try:
+            items = json.loads(p.read_text(encoding="utf-8")).get("items", [])
+        except (OSError, ValueError, AttributeError) as e:
+            errors.append(f"{d.name}/news.json unavailable ({type(e).__name__}); that day UNKNOWN, nothing consumed")
+            continue
+        for i, it in enumerate(items):
+            if not is_cruise_capital_candidate(it):
+                continue
+            key = _cruise_key(it["title"])
+            if key in state["consumed"]:
+                continue
+            c = by_key.setdefault(key, dict(
+                key=key, namespace="CRUISE_CAPITAL_REVIEW", precedence="ROUTINE", title=it["title"],
+                entity=it["entity"], owner="CRUISE", rows=[], edgar_overlap=[]))
+            c["rows"].append(dict(day=d.name, index=i, date=it.get("date"), link=it.get("link"), source=it.get("source")))
+            for f in _edgar_overlap(d, CRUISE_TICKERS[it["entity"]]):
+                if f not in c["edgar_overlap"]:
+                    c["edgar_overlap"].append(f)
+    return sorted(by_key.values(), key=lambda c: (c["rows"][0]["day"], c["rows"][0]["index"])), errors
+
+
+def cruise_disposition(key, disposition, ref):
+    """Close one candidate. Refuses a key not currently open, so an unseen item cannot be consumed."""
+    if disposition not in CRUISE_DISPOSITIONS:
+        print(f"REFUSED: disposition must be one of {', '.join(CRUISE_DISPOSITIONS)}")
+        return 2
+    if not ref.strip():
+        print("REFUSED: REF must name the card, kill row or reason")
+        return 2
+    state, err = _load_cruise_state()
+    if err:
+        print(f"REFUSED: {err}")
+        return 2
+    queue, _ = cruise_capital_queue()
+    match = [c for c in queue if c["key"] == key]
+    if not match:
+        print(f"REFUSED: {key} is not an open candidate")
+        return 2
+    c = match[0]
+    state.setdefault("baseline_day", CRUISE_BASELINE_DAY)
+    state["consumed"][key] = dict(title=c["title"], disposition=disposition, ref=ref.strip(),
+                                  days=sorted({r["day"] for r in c["rows"]}),
+                                  closed=_now_utc().strftime("%Y-%m-%dT%H:%M:%SZ"))
+    CRUISE_STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"closed {key} {disposition} -> {ref.strip()}")
+    return 0
+
+
 def health(live):
     out = []
     lr = _parse_iso_z(live.get("last_run_utc", ""))
@@ -341,7 +463,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mark", action="store_true", help="record all current gated keys as seen")
     ap.add_argument("--json", action="store_true", help="machine-readable output")
+    ap.add_argument("--cruise-disposition", nargs=3, metavar=("KEY", "DISPOSITION", "REF"),
+                    help="close one CRUISE_CAPITAL_REVIEW candidate after review")
     args = ap.parse_args()
+
+    if args.cruise_disposition:
+        return cruise_disposition(*args.cruise_disposition)
 
     live, err = load_liveness()
     if err:
@@ -374,8 +501,10 @@ def main():
               f"(+{len([r for r in recs if r['key'] not in prev])} new, -{len(dropped)} cleared)")
         return 0
 
+    cruise, cruise_errors = cruise_capital_queue()
     if args.json:
-        print(json.dumps({"health": hz, "new": new, "suppressed": suppressed}, indent=2))
+        print(json.dumps({"health": hz, "new": new, "suppressed": suppressed,
+                          "cruise_capital_review": cruise, "cruise_capital_errors": cruise_errors}, indent=2))
         return 0
 
     print(f"RESEARCH-INTAKE scan — {_now_utc().strftime('%Y-%m-%d %H:%M')}Z")
@@ -390,6 +519,19 @@ def main():
         cc = f" cc {','.join(r['info_cc'])}" if r["info_cc"] else ""
         lbl = f"  [{r['label']}]" if r["label"] else ""
         print(f"  {r['precedence']:<9} {r['gate']:<6} -> {','.join(r['owners'])}{cc}{lbl}\n      {r['raw']}")
+    print(f"\n[CRUISE_CAPITAL_REVIEW — {len(cruise)} open]  (ROUTINE human review, never auto-dispatch; "
+          "read the source, date the event, check BOARD/EDGAR/CRUISE overlap)")
+    for e in cruise_errors:
+        print(f"  ERROR {e}")
+    if not cruise and not cruise_errors:
+        print("  (none open)")
+    for c in cruise:
+        days = sorted({r["day"] for r in c["rows"]})
+        print(f"  {c['key']}  {c['entity']}  {len(c['rows'])} row(s), {days[0]}..{days[-1]}\n      {c['title'][:150]}"
+              f"\n      {c['rows'][0]['link']}")
+        if c["edgar_overlap"]:
+            print(f"      EDGAR same issuer in batch window: {'; '.join(c['edgar_overlap'])} "
+                  "(if this is the same event, the existing route stands: no second dispatch)")
     print(f"\n[suppressed — still-true, already seen — {len(suppressed)}]  (do NOT re-push)")
     for r in suppressed:
         print(f"  {r['key']}  ({r['raw'][:70]})")
