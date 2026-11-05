@@ -17,13 +17,13 @@ Eight rows sit in both reads. Stated probability matched on every row where the 
 
 ## Timing check, was the probability on record before the outcome could be known?
 
-Will's bounded check, 2026-11-05 15:48 ET. Method and row-level results: `PROME/reports/2026-11-05_forecast-timing/` (`timing_check.py`, `rows.json`). For each scored row, the first date Git shows that exact probability, on the ledger row or on a desk line naming the row, against the earliest outcome date found in the row (Outcome cell or resolved date, on or after Date_Made). VERIFIED means the probability is on record at least one calendar day earlier. No probability was reconstructed or backfilled.
+Will's bounded check, 2026-11-05 15:48 ET. Method and row-level results: `PROME/reports/2026-11-05_forecast-timing/` (`timing_check.py`, `rows.json`). For each scored row, the first date Git shows that exact probability, on the ledger row or on a desk line naming the row, against the earliest outcome date found in the row (Outcome cell or resolved date, on or after Date_Made). "Supported by recorded dates" means Git shows the probability at least one calendar day before that outcome date. It is not proof of timing against public release. No probability was reconstructed or backfilled.
 
 | Timing | Rows | Of which revised |
 |---|---:|---:|
-| VERIFIED before the outcome date, on the ledger row | 88 | |
-| VERIFIED before the outcome date, on a desk line naming the row (weaker: same ID and percentage on a line) | 67 | |
-| **VERIFIED total** | **155** | **22** |
+| Supported by recorded dates, on the ledger row | 88 | |
+| Supported by recorded dates, on supporting desk text naming the row (weaker: same ID and percentage on a line) | 67 | |
+| **Supported by recorded dates, total** | **155** | **22** |
 | Same day, order within the day not shown | 19 | 2 |
 | Probability first appears after the earliest outcome date found | 26 | 6 |
 | No outcome date readable in the row | 14 | 1 |
@@ -33,15 +33,15 @@ Will's bounded check, 2026-11-05 15:48 ET. Method and row-level results: `PROME/
 | Cut | Calls | Brier | Hit-rate baseline | Gain | Bootstrap 95% range |
 |---|---:|---:|---:|---:|---|
 | All scored | 220 | 0.228 | 0.250 | +0.022 | −0.005 to +0.044 |
-| VERIFIED timing only | 155 | 0.233 | 0.250 | +0.017 | −0.017 to +0.046 |
-| VERIFIED, ledger row only | 88 | 0.226 | 0.245 | +0.020 | −0.029 to +0.057 |
+| Supported by recorded dates | 155 | 0.233 | 0.250 | +0.017 | −0.017 to +0.046 |
+| Supported, ledger row only | 88 | 0.226 | 0.245 | +0.020 | −0.029 to +0.057 |
 | Timing uncertain only | 65 | 0.216 | 0.243 | +0.026 | −0.019 to +0.062 |
-| VERIFIED, without RED's owner-clarified rows | 140 | 0.235 | 0.250 | +0.015 | −0.021 to +0.046 |
+| Supported, without RED's owner-clarified rows | 140 | 0.235 | 0.250 | +0.015 | −0.021 to +0.046 |
 | All, without the one midpoint row (RED-24) | 219 | 0.228 | 0.250 | +0.022 | −0.005 to +0.045 |
 
-**Reading.** Excluding the uncertain rows does not change the fleet conclusion: a small positive gain whose range includes zero. It does change two probability groups on verified rows:
+**Reading.** Excluding the uncertain rows does not change the fleet conclusion: a small positive gain whose range includes zero. It does change two probability groups on the supported rows:
 
-| Stated, VERIFIED rows only | Calls | Mean stated | Came true |
+| Stated, supported rows only | Calls | Mean stated | Came true |
 |---|---:|---:|---:|
 | Under 30% | 17 | 17% | 12% |
 | 30–49% | 30 | 39% | 40% |
@@ -53,7 +53,9 @@ The 50–69% group loses its match, and 90%+ falls on 5 calls. The midpoint row 
 
 ⚠️ **Limits.** The outcome date is a proxy: the earliest date written in the row, not a verified public-release time, so an outcome could have been knowable earlier than any date in the cell. "After" is not proof of hindsight either: some dates are the registration date quoted back or a window start (OTTO-29, OTTO-30, REG-15), and MAR-10 and MAR-15 show a resolved date before their Date_Made, the March ledger rollout placeholder. A commit before the outcome does not exclude partial information already in the tape; a late revision inside a live window is allowed by the scoring rule. Example: OTTO-30 stood at 60%, was revised to 12% on 7/25, and missed on 8/14, so the score reads the 12%, not the 60%.
 
-**Correction owed:** report 2 leads with the VERIFIED rows and shows all rows beside them. No ledger is changed.
+**Correction owed:** report 2 leads with the rows supported by recorded dates and shows all rows beside them. No ledger is changed.
+
+**Closed:** Will 2026-11-05 15:59 ET stopped the historical reconstruction here; no further historical checks are requested. The labels above stand as recorded.
 
 ## Result, all scored rows
 
@@ -123,7 +125,7 @@ Scored on the latest pre-outcome probability (WQ-112), which measures the final 
 
 ## Report 2, December
 
-Mean stated beside observed rate in each group · ranges converted to midpoints, with and without them · owner clarifications kept apart from independently verified outcomes · blind reads described as record-interpretation checks · a few examples, where available, of a recorded lesson changing a later comparable forecast. First candidate: LABOR held threshold calls at or under 60% on 11/5, citing its 0-for-6 record at 60% and above.
+Mean stated beside observed rate in each group · ranges converted to midpoints, with and without them · owner clarifications kept apart from independently verified outcomes · blind reads described as record-interpretation checks · a few examples, where available, of a recorded lesson changing a later comparable forecast. Candidates, not a new investigation: the five calls at 90% or more supported by recorded dates: BRT-04 (BRENT, 95%, HIT); BRT-15 (BRENT, 90%, MISS); CRL-03 (CARL, 90%, MISS); HAW-03 (HAWK, 95%, MISS); MAR-27 (MARCO, 90%, HIT). LABOR held threshold calls at or under 60% on 11/5, citing its 0-for-6 record at 60% and above.
 
 ## Learning line, from report 2
 
