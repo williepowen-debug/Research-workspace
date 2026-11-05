@@ -18,7 +18,12 @@ domain: "BANK_CRE"
 entities: ["PFBC", "Preferred-Bank", "FLG", "Flagstar", "CFG", "Citizens", "NexBank"]
 word_count: 167
 dispatch_note: "Two owner packets folded into one card, route-as-judged with their do-not-relay lines kept. REGINALD is owner and source, so not on the info line. FLG cc under the multi-bank rule; no convergence fire, no prior FLG or PFBC card in the window. No named property, so no case field. GIBBS not added: Citizens is outside the 16."
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-05
+status_ref: "SIG-W-20261105-038 \u2014 Preferred Bank figures restated by REGINALD"
 ---
+
+> **Correction, November 5 — SIG-W-20261105-038:** Preferred 10-Q most likely November 9, not about November 7–10. Rest of the card stands. Original text preserved below.
 # REGINALD late-loan scan: Preferred Bank multifamily 30–89 days late doubled, Flagstar and Citizens rose; not a sector signal
 
 REGINALD, one-time scan, 139 banks, own FFIEC pull, June 30 to September 30. Loans 30–89 days late:

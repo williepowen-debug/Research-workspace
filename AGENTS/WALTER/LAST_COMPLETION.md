@@ -20,7 +20,7 @@ November 5 total: 29 BOARD cards, 99 handoffs. WAL Q3 source recovery remains CL
 
 ## CHANGED
 
-Cards 001–037 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+Cards 001–038 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
@@ -143,11 +143,16 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
       "commit": "beed13b7dbdef6ee7423c46a6db6cd9eeec9f68e",
       "state": "published",
       "note": "Cards 027-028; IMMEDIATE 027 safe-push on a verified-clean tree."
+    },
+    {
+      "commit": "ac599ac0d038ceed24853274f2679e631a0a915c",
+      "state": "pending",
+      "note": "Gmail cards 030-037."
     }
   ],
   "delivery": {
     "signal_date": "20261105",
-    "total": 132,
+    "total": 137,
     "delivered": 96,
     "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
   },
@@ -202,7 +207,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     "session": "OPEN after midday boot; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-037 including FLASH 016 and 017. Batches closed.",
+    "11": "Cards 001-038 including FLASH 016 and 017. Batches closed.",
     "13": "Owner leads compared; BRENT, HENRY, LIQUID, VIOLET, BOND, PROME, CREED, AEOLUS, RED, TERRY, VULCAN, REGINALD and self refreshed before NETWORK.",
     "12(a,b)": "Counts and NETWORK refreshed; last tape row is vendor intraday, no settled close claimed.",
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; standing flags unchanged.",

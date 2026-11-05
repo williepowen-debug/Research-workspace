@@ -18,7 +18,12 @@ domain: "BANK_CRE"
 entities: ["PFBC", "Preferred-Bank"]
 word_count: 115
 dispatch_note: "Owner packet, route-as-judged. Figures are REGINALD's, not re-pulled. Single-name, so FLG not added."
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-05
+status_ref: "SIG-W-20261105-038 \u2014 Preferred Bank figures restated by REGINALD"
 ---
+
+> **Correction, November 5 — SIG-W-20261105-038:** "About $137M newly late" is inferred (reported rise +$80.3M); "5 of 7" is about 3 of 5 episodes; "Peers 0–0.7%" is replaced; 10-Q most likely November 9. Conclusion unchanged. Original text preserved below.
 # REGINALD: about $137M of Preferred Bank late multifamily is newly late; working read real but contained
 
 Update to card 025. REGINALD checked outside research at primary. About $137M of the $143.1M late multifamily [September 30] is newly late; the older roughly $57M was one class at March 31, likely the $56.7M mixed-use loan (inferred).
