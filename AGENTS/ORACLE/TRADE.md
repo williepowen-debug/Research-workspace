@@ -1,99 +1,79 @@
 # ORACLE — TRADE (how prediction-market odds inform positions)
 
-**Refreshed:** 2026-08-27T18:38Z (live pull, both platforms) · **prior refreshes:** 8/12, 7/22
-**Structural change this refresh (Will-directed, 2026-08-27):** *"lets not simply delete though — lets track how the numbers have changed over time."* **Every routed figure now carries its own trajectory** instead of a single point-in-time value.
+**Refreshed:** 2026-11-04 (ET), latest column = pulls 2026-11-05T01:40Z and Kalshi 01:40Z (both platforms; laptop, Kalshi UNSIGNED public read) · **prior refreshes:** 8/27, 8/12, 7/22
+**Rule from Will, 2026-08-27:** *"lets not simply delete though — lets track how the numbers have changed over time."* Every routed figure carries its trajectory. Earlier vintages and their commentary stay in `git log -p -- AGENTS/ORACLE/TRADE.md`.
 
-> ### Why the trajectory, and not just a fresher number
-> This file is a **routing surface** — other desks key positions off its figures — and it has now rotted the same way twice. DAEDALUS caught it at **21 days** (7/22 figures live on 8/11); the Will-directed sweep caught it again at **15 days**, with Hormuz-normal **14.0pp** stale and best-asset-S&P **14.5pp** stale. **A refresh alone only resets the clock on the next rot.**
-> With the history in the row, **a stale row announces itself**: a reader seeing a trailing date knows the figure is old without checking a header. Rot that is visible is a different failure mode from rot that hides.
+> **Provenance:** every table cell comes from `workbook/TRADE_MARKS.tsv` (416 rows, 17 marks), which `tools/trade_marks.py --write` extracts from ORACLE's append-only logs. No vintage is hand-typed. Dated columns show the first row `TRADE_MARKS.tsv` holds for that ET date, and the tool keeps one row per mark per UTC date, so a cell can be a later pull than the official first-pull read. On 10/28 the WTI row shows November's entry (52.5), not October's last read (3.6). `V5_NOV110_READS.tsv` and `VX.tsv` hold the graded reads. **latest** shows the last pull. The `range` column uses all pulls since 9/17 and covers only the current contract where a series rolled.
 >
-> **Provenance:** every figure below is machine-extracted from ORACLE's own append-only logs (`workbook/ODDS_LOG.tsv`, `workbook/KALSHI_ODDS_LOG.tsv`) by `tools/trade_marks.py`, which writes `workbook/TRADE_MARKS.tsv` (190 rows, 14 marks). **No vintage is hand-typed** — regenerate with `python3 tools/trade_marks.py --write`, and every cell is reproducible from a log row by date + slug.
+> ⚠️ **Contract identity:** a ‖ marks a slug change. Never difference across it. WTI touch markets are month-stamped; bank-failure-by-Dec-31 has been delisted and relisted.
 >
-> ⚠️ **CONTRACT IDENTITY — read this before differencing anything.** A trajectory across two *different* contracts is not a trajectory. The tool **segments** a series whenever the slug changes and **refuses to difference across the break**, marked ‖ below. Two live cases on this board: **bank-failure-by-Dec-31 has had three slugs** (delist/relist), so its 69.5→55.5 "fade" **is not a move**; **WTI-$100 is month-stamped**, so Jun/Jul/Aug/Sep are four separate contracts and a fresh month is structurally higher on days-to-touch alone.
->
-> ⚠️ **THE COLUMNS ARE A SUBSET, AND THE `range` COLUMN EXISTS BECAUSE OF IT.** ORACLE pulled on **17 dates** since 6/19; these tables show **six**. A subset can hide an excursion and make a series look cleaner than it was — checked mechanically, and it does: the displayed Hormuz columns omit an **8/02 spike to 58.5**, above every value shown. **So every table carries a `range (7/22–8/27)` column taken from ALL pulls in the window, not just the displayed ones.** If a level sits outside the columns you can see, the range column is where it shows up. Full per-date series: `workbook/TRADE_MARKS.tsv`.
->
-> ⚠️ **Still a DATED SNAPSHOT, not a live feed. `STATUS.md` is the live home** — re-pull before citing.
+> ⚠️ **Still a dated snapshot. `STATUS.md` is the live home.** Re-pull before citing. This file routes evidence; position truth is off-repo, and no position is opened or sized from this file.
 
 ---
 
-## Live reads → position implications
+## Live reads → routed implications
 
-### 1. Fed path → KRE / OZK / WAL shorts
+### 1. Fed path → LIQUID / HENRY / BOND
 
-| Mark | 7/22 | 7/31 | 8/09 | 8/12 | 8/18 | **8/27** | range (7/22–8/27) | Read |
-|---|---|---|---|---|---|---|---|---|
-| Fed **no-cuts** 2026 | 84.8 | 89.3 | 85.8 | 85.6 | 85.2 | **87.9** | 84.7–89.3 | range-bound in a ~4.6pp band, net **+3.1** — the higher-for-longer leg is **intact**, never threatened |
-| Fed **hike-2026** (aggregate) | 64.5 | 66.5 | 54.5 | 54.5 | **48.5** | **57.5** | **48.5–71.5** | peak-to-trough **−23.0pp** (71.5 on 7/24 → 48.5 on 8/18), then **+9.0** back |
-| Fed hike **Sept-specific** (PM) | — | 56.5 | 35.5 | 33.5 | 28.5 | **30.5** | 28.5–56.5 | −28.0pp 7/31→8/18, now edging back up |
-| Fed hike **Sept** (Kalshi, T6 canonical) | — | — | — | — | 30.0 | **32.0** | 30.0–32.0 | 1.5pp from PM on **both logged pairs** — caveat below |
+| Mark | 9/17 | 9/28 | 10/16 | 10/28 | 10/30 | 11/02 | 11/04 | **latest** | range since 9/17 |
+|---|---|---|---|---|---|---|---|---|---|
+| Fed **no cuts** 2026 (PM) | 95.3 | 97.0 | 96.9 | 96.7 | 96.9 | 97.0 | 97.5 | **97.8** | 95.3–97.8 |
+| Fed **hike at December** meeting (PM) | 65.5 | 79.0 | 77.5 | 79.5 | 70.5 | 70.5 | 80.5 | **77.5** | 65.5–80.5 |
+| Fed **≥1 more hike by December** (Kalshi; corroborates only) | — | — | 82.0 | 83.0 | 72.0 | 72.0 | 79.0 | **81.0** | 72.0–87.0 |
 
-**Implication: STILL SUPPORTIVE, AND THE TROUGH IS IN — RE-KEY, DO NOT INVERT.** The mechanism that matters for CRE-refi/NIM is *higher-for-longer*, and no-cuts has not broken all month (84.8→87.9). What de-rated was **conviction in a hike**, and even that has turned: the aggregate bottomed at **48.5% on 8/18** and is back to 57.5%.
-⚠️ **Two corrections carried on the record, both found by re-reading this file rather than by any check:**
-- **The trough.** The 8/12 refresh called 54.5% the trough. It was not — the series fell on to **48.5% (8/18)**, my own last pull before a 9-day dark window. A point-in-time refresh would have re-published the wrong trough.
-- **The size of the de-rating.** This row first read *“fell 16pp”* — measured from the 7/22 column (64.5). But **7/22 was not the peak: the window’s high is 71.5 on 7/24**, a date these columns do not show. Peak-to-trough is **−23.0pp, not −16.0**. Measuring a move from a window edge instead of its extremum understates it — which is exactly why the `range` column now exists. *(That 71.5 is the same figure NEXUS and RED carried stale — KB-ORC-068.)*
-
-**A hike remains modal on both platforms.**
-⚠️ **Cross-platform caveat on the Kalshi row:** the 1.5pp PM↔Kalshi gap holds on **both logged pairs** (8/18 30.0 vs 28.5; 8/27 32.0 vs 30.5). A third pair at the same gap exists for **8/12 (35.0 vs 33.5)** but came from an **ad-hoc fetch before this contract was pinned**, so it is not in the logged series and shows as `—` above. Cite it as **two logged + one ad-hoc (KB-ORC-068)** — never as “three consecutive pins.”
+**Implication: the crowd prices one more hike in December.** The PM read fell to 69.5 on 10/29 and returned to 80.5 on 11/04. The lowest read since 10/28 is 69.5, and VX-ORC-12's de-alert needs two reads below 50.0. No cuts in 2026 is near certain; that row follows from a hiking Fed, so it adds little new information. Anchor predictions to surprise against this pricing.
 
 ### 2. Iran / Hormuz / oil → BRENT / HAWK / FALCON
 
-| Mark | 7/22 | 7/31 | 8/09 | 8/12 | 8/18 | **8/27** | range (7/22–8/27) | Read |
-|---|---|---|---|---|---|---|---|---|
-| **Hormuz normal** by Dec 31 | 51.5 | 50.5 | 49.5 | 46.5 | 36.5 | **32.5** | **32.5–58.5** | **−19.0pp end-to-end, one contract** — but ⚠️ **NOT monotonic**, see below |
-| **US invade Iran** before 2027 | 28.5 | 23.5 | 16.5 | 18.5 | 17.5 | **12.5** | 12.5–29.5 | −16.0pp — the *invasion* tail is being priced out |
-| **WTI $100** war premium | 15.7 *(Jul)* | 27.5 *(Aug)* | 10.5 | 12.5 | 9.5 | **22.5** *(Sep)* | ‖ *n/a across rolls* | ‖**TWO ROLLS** — do NOT read 9.5→22.5 as repricing |
+| Mark | 9/17 | 9/28 | 10/16 | 10/28 | 10/30 | 11/02 | 11/04 | **latest** | range since 9/17 |
+|---|---|---|---|---|---|---|---|---|---|
+| **WTI $110** touch (PM; month-stamped, rolls ‖) | — | 25.5 | 20.5 | ‖ 52.5 | 64.0 | 36.5 | 25.5 | **13.0** | 13.0–64.0 (this contract) |
+| **Hormuz normal** by Dec 31 (PM; PortWatch print) | 17.5 | 23.5 | 11.5 | 11.5 | 10.5 | 11.5 | 10.5 | **10.5** | 10.5–23.5 |
+| **US invade Iran** before 2027 (PM) | 17.5 | 15.5 | 15.5 | 18.5 | 17.5 | 17.5 | 12.5 | **10.5** | 10.5–18.5 |
 
-**Implication: PREMIUM, NOT SHORTAGE — and the reopening keeps being priced OUT.** Disruption−supply spread **+45.0pp** `[v4-sep-wti-supply-leg]`.
-⚠️ **Carry all of these — this block has the most ways to be misread:**
-- **The WTI row rolled twice** (Jul→Aug→Sep). The 8/18 9.5% was an August contract with 13 days left; the 8/27 22.5% is a September contract with a full month. **The 13pp step is calendar, not risk.** The spread's own regime was bumped v3→v4 for this reason — **never chart across it.**
-- **The new Sept supply leg is THIN at inception** ($1.2K vol vs the August leg's $706.5K) — single-print-unreliable, flagged not marked.
-- **Horizon disclosure:** the disruption leg reads off the *Dec-31* contract. The near-dated legs are far more severe — **normalization by Sep-15 is 1.4%**, by Aug-31 **0.4% on $16.6M**. This row understates near-term severity by construction.
-- ⛔ **CORRECTED IN REVIEW — this row first called the Hormuz decline “near-monotonic… the cleanest trend on the board.” It is not monotonic.** The displayed columns fall 51.5→32.5 without a single up-tick, but they **skip 8/02, which printed 58.5 — above every value shown and 7.0pp above the 7/22 starting level.** The real path is *up first, then down hard*; the clean staircase was an artifact of which six dates I chose to display. **The end-to-end −19.0pp is real; the shape word was not.** Every table now carries a range column so this class of over-claim is visible rather than inferable.
-- ⚠️ **A range cannot be quoted across the WTI rolls at all** — the `n/a` above is deliberate, not missing data. Per segment: Jul 1.6–23.8 · Aug 9.5–27.5 · Sep 22.5 (one print).
+**Implication: $110 odds fell hard while Hormuz odds barely moved.** The disruption-supply spread (November segment) read +36.0pp on 10/28, +64.0pp on 11/04 and +76.5pp in the evening pull; the supply leg moved, not the disruption leg.
+- **Alert:** VX-ORC-04 fired 10/30 and cleared 11/04. ⚠️ The 10/29 read came 7h42m after Polymarket's 18:33Z halt; excluded, no Alert fired.
+- **Strike odds:** PM's effective-ceasefire series implies another qualifying US strike at 43.5 by 11/15, 58.5 by 11/30 and 70.0 by 12/31 (KB-ORC-112). The series is one day old, and each leg has traded $36K–$77K.
+- ⚠️ **Do not read the strike and oil rows as one view.** They are separate contracts with different rules, participants and liquidity, so they do not show what traders expect oil to do if a strike happens. "Limited strikes, not a supply shock" is one plausible reading, not a finding. The cause of the oil drop is not established (SIG-W-20261104-078).
+- ⚠️ **The Hormuz row grades on the IMF PortWatch print**, not on throughput (KB-ORC-079). It is not a disruption probability.
+- **Definition:** PM "ceasefire" means no US air or missile strike landing on Iranian territory (KB-ORC-111). It does not test a formal truce.
+- **Calendar:** a fresh month's touch market is structurally higher than an expiring one. Read month rolls as calendar, not risk.
 
-### 3. Recession → whole bear book
+### 3. Recession → RED / HENRY / LABOR
 
-| Mark | 7/22 | 7/31 | 8/09 | 8/12 | 8/18 | **8/27** | range (7/22–8/27) |
-|---|---|---|---|---|---|---|---|
-| Recession 2026 (PM) | 12.0 | 12.5 | 7.5 | 8.5 | 7.5 | **8.5** | 7.5–12.5 |
-| Recession 2025-26 (Kalshi — **2Q neg GDP only, NO NBER leg**; ⚠️ different definition from the PM row, KB-ORC-099) | 13.0 | 7.0 | 6.0 | 10.0 | 6.0 | **7.0** | **6.0–14.0** |
+| Mark | 9/17 | 9/28 | 10/16 | 10/28 | 10/30 | 11/02 | 11/04 | **latest** | range since 9/17 |
+|---|---|---|---|---|---|---|---|---|---|
+| Recession 2026 (PM; GDP or NBER) | 8.5 | 8.5 | 6.5 | 5.5 | 6.5 | 5.5 | 5.5 | **4.5** | 4.5–11.5 |
+| Recession 2025-26 (Kalshi; 2Q negative GDP only, different definition, KB-ORC-099) | — | 6.0 | 4.0 | 3.0 | 3.0 | 3.0 | 4.0 | **2.0** | 2.0–6.0 |
 
-**Implication: crowd calm, and calmer than in July** — both platforms roughly halved off their 7/22 levels and have gone flat. If the crowd is right, equity-stress positions are early/oversized.
-⚠️ **A caveat the old single-point row hid:** TRADE.md has called these *"converged, ~1.5pp cross-platform."* The trajectory shows **Kalshi is the noisy leg** — 13.0 → 7.0 → 10.0 → 6.0 → 7.0, swinging 4pp between pulls on a contract with no resting book (depth = OI). **The convergence is real on average and unstable print-to-print.** Do not treat a single-day cross-platform gap as signal. **RED still owed a current fleet recession number — carried since 6/13.**
+**Implication: the crowd is calm, and both venues sit at their lows since 9/17.** The two rows differ in definition, so the gap is structural. Kalshi has no resting book; depth is open interest, and it swings point to point.
 
-### 4. Bank failure → REGINALD / WAL / OZK
+### 4. Bank failure → REGINALD
 
-| Mark | 7/22 | 7/31 | 8/09 | 8/12 | 8/18 | **8/27** | range (7/22–8/27) |
-|---|---|---|---|---|---|---|---|
-| **ANY** US bank failure by Dec 31 | 72.5 | 72.5 | 69.5 | 69.5 | 69.5 | ‖ **55.5** ⚠️thin | ‖ old slug 69.5–74.0 · new 55.5 |
-| **Named**-bank EOY (top leg) | 3.7 | 3.8 | 3.7 | 3.6 | 3.5 | **3.9** | **3.1–4.2** |
+| Mark | 9/17 | 9/28 | 10/16 | 10/28 | 10/30 | 11/02 | 11/04 | **latest** | range since 9/17 |
+|---|---|---|---|---|---|---|---|---|---|
+| **ANY** US bank failure by Dec 31 (PM; ⚠️ thin) | 55.5 | — | ‖ 84.5 | 72.5 | 71.0 | 70.0 | 70.5 | **70.5** | 42.0–84.5 (this contract) |
+| **Named** bank EOY, top leg (PM; ⚠️ thin) | 3.4 | 4.0 | 3.4 | 3.4 | 3.5 | 3.4 | 3.4 | **3.4** | 3.4–20.4 |
 
-**Implication: unchanged in substance — no name is priced.** The named-bank leg has sat in a **3.1–4.2% band for five weeks**, which is the number that would actually matter. **No trend — roughly ±0.5pp of noise around ~3.7.** Both band edges (4.2 on 7/24, 3.1 on 8/11) fall on dates these columns do not show, which is what the range column is for.
-⛔ **DO NOT read 69.5 → 55.5 as a 14pp fade.** That is a **delist/relist identity break** — the third for this contract family (7/2, 7/22, 8/24). Different contract instance, and the new one is **thinner** ($1.3K vs $3.1K). Not comparable, not charted, no divergence filed. The ANY-bank gauge is broad-scope anyway (small-bank failures are common), which is why it reads ~70% while the named leg reads ~4%: **different questions, not a contradiction.**
+**Implication: no named bank is priced, and the any-bank book is too thin to read.** ANY sits at 70.5 on $2.0K of liquidity. Not marked, not routed. ANY and Named ask different questions, so 70.5 and 3.4 do not contradict each other. VX-ORC-01 grades the ANY binary under the thin rule.
 
-### 5. Tail sentiment → VIOLET vol / tail hedges
+### 5. Tail sentiment → VIOLET / RED
 
-| Mark | 7/22 | 7/31 | 8/09 | 8/12 | 8/18 | **8/27** | range (7/22–8/27) |
-|---|---|---|---|---|---|---|---|
-| **Nothing Ever Happens** 2026 | 66.5 | 73.5 | 80.5 | 79.5 | 81.5 | **85.0** | 65.5–85.0 |
-| Best asset 2026 — **S&P leg** | 67.0 | 68.0 | 68.5 | 68.0 | 68.5 | **53.5** | 53.5–68.5 |
-| *(same event, other legs — 8/27 only)* | | | | | | **Gold 30.5** (Δ7d +7.0) · **BTC 17.5** (+1.5) | — |
+| Mark | 9/17 | 9/28 | 10/16 | 10/28 | 10/30 | 11/02 | 11/04 | **latest** | range since 9/17 |
+|---|---|---|---|---|---|---|---|---|---|
+| **Nothing Ever Happens** 2026 (PM) | 81.5 | 83.5 | 83.0 | 81.5 | 80.0 | 81.5 | 85.5 | **88.5** | 79.5–88.5 |
+| Best asset 2026, top leg (PM) | 54.5 | 57.5 | 69.0 | 74.5 | 80.5 | 82.0 | 85.0 | **84.5** | 53.5–85.0 |
 
-**Implication: 🔴 THESE TWO JUST DECOUPLED, AND THAT IS THE FINDING OF THIS REFRESH.** For five weeks they moved together as one complacency story. Then, in the **nine days since my last pull**, **NEH made a new series high (+3.5 — prior max 84.0 on 7/02, so a round-trip *through* its July peak, not a virgin breakout) while the S&P leg fell −15.0pp** — flat 66.5–68.5 for a *month*, then a break. *(Platform's own trailing Δ7d on the S&P leg is −8.5; the −15.0 is measured from ORACLE's 8/18 pin. Both are stated because they answer different questions.)*
-**I pulled the full 3-way ladder rather than reading the one leg, and it changes the read: this is a rotation INTO GOLD specifically** (+7.0 of the S&P's loss), not a broad flight — Bitcoin barely moved (+1.5).
-**Read: the crowd still believes nothing breaks, but has stopped believing equities lead.** That is complacency **narrowing and rotating**, not complacency ending — a more fragile state than either number shows alone.
-⚠️ **The registered contrarian tell has NOT fired.** VX-ORC-09 watches *"NEH <30% OR gold retakes the best-asset lead"* — **NEH went the opposite way (85.0), and gold at 30.5 has not overtaken the S&P at 53.5.** State raised 🟠→🔴 on **move size**, not on a trigger firing. Do not report this as a fired tell.
-**It happened entirely inside my 8/19–8/26 dark window and nothing flagged it** — it surfaced only because this refresh rebuilt the trajectory. → VIOLET, RED
-*(Historical note kept, not deleted: the 7/22 row read "complacency crack deepened" at NEH 66.5%. It did not crack — NEH round-tripped to a new high. Anyone who carried that 7/22 read had the sign backwards for three weeks, which is what motivated this file's rebuild.)*
+**Implication: equities have regained the best-asset lead, and gold has not taken it.** The S&P leg reads 84.5, BTC 10.5 and gold 2.7. The registered gold tell has not fired.
+⚠️ **NEH is not a complacency gauge.** It resolves NO only on one of 13 extreme events, such as China invading Taiwan or a US invasion of Iran (KB-ORC-115). A US strike does not trigger it. This corrects the complacency language in earlier refreshes of this file. The linked PDF of full rules is unread.
 
 ### 6. Blind-spot axis → BOND
 
-| Mark | 7/22 | 7/31 | 8/09 | 8/12 | 8/18 | **8/27** | range (7/22–8/27) |
-|---|---|---|---|---|---|---|---|
-| US credit-rating downgrade 2026 (Kalshi) | 4.0 | 6.0 | 14.0 | 14.0 | 13.0 | **12.0** | 4.0–14.0 |
+| Mark | 9/17 | 9/28 | 10/16 | 10/28 | 10/30 | 11/02 | 11/04 | **latest** | range since 9/17 |
+|---|---|---|---|---|---|---|---|---|---|
+| US credit-rating downgrade 2026 (Kalshi) | — | 12.0 | 7.9 | 5.9 | 8.0 | 6.5 | 1.3 | **1.2** | 1.2–12.0 |
 
-**Implication: ⚠️ this axis TRIPLED while the policy board de-rated, and has only partly eased.** ORACLE's instruments price the **policy path only** — they cannot see term premium or credibility. ⛔ **Never read this file as "rates calm per ORACLE."** **BOND owns the regime label.**
+**Implication: downgrade odds faded.** ⚠️ The latest last trade (1.2) sits on a wide 4¢ book, with a mid of 3.4. ORACLE's instruments price the policy path only and cannot see term premium or credibility. ⛔ Never read this file as "rates calm per ORACLE." BOND owns the regime label.
 
 ---
 
@@ -103,7 +83,8 @@ When ORACLE hands you a market probability:
 1. **Is your trigger outcome already priced?** If yes, re-key your prediction to *"more X than priced"* (anchor-to-surprise).
 2. **Is the market thin (⚠️)?** Treat any move as unconfirmed until a ≥3-day re-check **plus** an independent source agrees. Thin books discharge by **DEPTH, never by elapsed time** (N5 clause iv).
 3. **Divergence ≠ direction.** A gap vs thesis is a question for RED, not a position change.
-4. **★ Check the row's trajectory before you cite its level.** A number that has been flat for five weeks and a number that moved 15pp last week are not the same evidence, even at the same value.
+4. **★ Check the row's trajectory before you cite its level.** A number flat for five weeks and a number that moved 15pp last week are not the same evidence, even at the same value.
 5. **★ Never difference across a ‖ break.** Rolls and relists are identity changes, not moves.
+6. **★ Two contracts are two questions.** Separate markets do not give a conditional probability. Do not infer one from them.
 
 *No position is opened or sized from this file. Owners: FORGE / the named domain agent.*

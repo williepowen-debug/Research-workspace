@@ -136,6 +136,32 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-08-27	2026-08-27T22:06Z	fed_hike_2026	PM	fed-rate-hike-in-2026	Fed: HIKE in 2026	57.5	8007526.775359001	129595.7138	seg1	FIXED	KRE/OZK/WAL shorts
 2026-09-04	2026-09-04T12:33Z	fed_hike_2026	PM	fed-rate-hike-in-2026	Fed: HIKE in 2026	66.5	8682347.81897	65785.6668	seg1	FIXED	KRE/OZK/WAL shorts
 2026-09-07	2026-09-07T16:10Z	fed_hike_2026	PM	fed-rate-hike-in-2026	Fed: HIKE in 2026	70.5	8764552.407285003	125170.1688	seg1	FIXED	KRE/OZK/WAL shorts
+2026-09-18	2026-09-18T02:16Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	65.5	282618.30275000003	111099.3877	seg1	FIXED	LIQUID/HENRY/BOND
+2026-09-24	2026-09-24T19:07Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	71.5	362318.5479400001	143155.8239	seg1	FIXED	LIQUID/HENRY/BOND
+2026-09-25	2026-09-25T02:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	71.5	363210.33738200006	150282.6269	seg1	FIXED	LIQUID/HENRY/BOND
+2026-09-27	2026-09-27T16:20Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	67.5	366991.88214900007	168822.6934	seg1	FIXED	LIQUID/HENRY/BOND
+2026-09-28	2026-09-28T13:48Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	79.0	547226.595704	121161.7145	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-09	2026-10-09T14:26Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	74.5	762645.5533900004	141022.2312	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-15	2026-10-15T12:39Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	78.5	871071.8299570003	119425.4197	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-16	2026-10-16T17:36Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	77.5	886990.9548770003	123220.1079	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-22	2026-10-22T02:22Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	78.5	966582.7265329999	244195.7323	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-29	2026-10-29T00:58Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	79.5	1676516.595434	567702.0925	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-30	2026-10-30T02:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	69.5	2037384.7509179995	402080.3669	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-31	2026-10-31T02:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	70.5	2337109.545905	518840.5396	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-02	2026-11-02T15:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	70.5	2399775.9665429997	502857.0475	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-03	2026-11-03T18:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	73.5	2661872.090682	454643.5491	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-04	2026-11-04T15:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	80.5	3089130.0872869994	349275.9892	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-05	2026-11-05T01:40Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	77.5	3193660.448986999	587691.0848	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-15	2026-10-15T12:39Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	87.0	49722.04	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-16	2026-10-16T17:39Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	82.0	49798.42	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-22	2026-10-22T02:22Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	80.0	56400.96	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-29	2026-10-29T00:44Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	83.0	96761.31	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-30	2026-10-30T02:15Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	75.0	107342.44	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-10-31	2026-10-31T02:15Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	72.0	112719.96	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-02	2026-11-02T15:15Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	72.0	116304.05	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-03	2026-11-03T18:17Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	76.0	122380.25	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-04	2026-11-04T15:15Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	79.0	125898.96	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-05	2026-11-05T01:40Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	81.0	187092.46	None	seg1	FIXED	LIQUID/HENRY/BOND
 2026-07-31	2026-07-31T20:43Z	fed_hike_sept	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	56.5	2113426.3894879995	347700.081	seg1	FIXED	KRE/OZK/WAL shorts
 2026-08-02	2026-08-02T18:33Z	fed_hike_sept	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	56.5	2407578.474068001	887362.4117	seg1	FIXED	KRE/OZK/WAL shorts
 2026-08-09	2026-08-09T21:58Z	fed_hike_sept	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	35.5	4386380.994714002	505618.7339	seg1	FIXED	KRE/OZK/WAL shorts
@@ -374,3 +400,18 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-08-27	2026-08-27T22:06Z	wti_100	PM	will-wti-reach-100-in-september-2026	WTI hits $100 (Sep) — war premium	22.5	1162.235009	11790.1506	seg4	ROLL	BRENT/HAWK/FALCON
 2026-09-04	2026-09-04T12:33Z	wti_100	PM	will-wti-reach-100-in-september-2026	WTI hits $100 (Sep) — war premium	28.0	181057.96211899997	34423.9519	seg4	ROLL	BRENT/HAWK/FALCON
 2026-09-07	2026-09-07T16:10Z	wti_100	PM	will-wti-reach-100-in-september-2026	WTI hits $100 (Sep) — war premium	39.5	225098.66368100003	34450.4459	seg4	ROLL	BRENT/HAWK/FALCON
+2026-09-24	2026-09-24T19:07Z	wti_110	PM	will-wti-reach-110-in-september-2026	WTI $110 Sept war premium [v5 supply leg, VINTAGE BREAK from v4 $100]	3.9	837423.3422979997	29895.24747	seg1	ROLL	BRENT/HAWK/FALCON
+2026-09-25	2026-09-25T02:15Z	wti_110	PM	will-wti-reach-110-in-september-2026	WTI $110 Sept war premium [v5 supply leg, VINTAGE BREAK from v4 $100]	3.3	837857.1856199998	84728.73786	seg1	ROLL	BRENT/HAWK/FALCON
+2026-09-27	2026-09-27T16:20Z	wti_110	PM	will-wti-reach-110-in-september-2026	WTI $110 Sept war premium [v5 supply leg, VINTAGE BREAK from v4 $100]	1.4	973366.2501909998	66699.21363	seg1	ROLL	BRENT/HAWK/FALCON
+2026-09-28	2026-09-28T13:49Z	wti_110	PM	will-wti-reach-110-in-october-2026	WTI $110 Oct war premium [v5 OCT SEGMENT, ICE WTI (CLL)]	25.5	223.684014	3283.6525	seg2	ROLL	BRENT/HAWK/FALCON
+2026-10-09	2026-10-09T14:26Z	wti_110	PM	will-wti-reach-110-in-october-2026	WTI $110 Oct war premium [v5 OCT SEGMENT, ICE WTI (CLL)]	8.5	74815.57865000001	41006.7046	seg2	ROLL	BRENT/HAWK/FALCON
+2026-10-15	2026-10-15T12:39Z	wti_110	PM	will-wti-reach-110-in-october-2026	WTI $110 Oct war premium [v5 OCT SEGMENT, ICE WTI (CLL)]	9.0	102960.840611	39872.6933	seg2	ROLL	BRENT/HAWK/FALCON
+2026-10-16	2026-10-16T17:36Z	wti_110	PM	will-wti-reach-110-in-october-2026	WTI $110 Oct war premium [v5 OCT SEGMENT, ICE WTI (CLL)]	20.5	125599.97142500001	34832.3711	seg2	ROLL	BRENT/HAWK/FALCON
+2026-10-22	2026-10-22T02:22Z	wti_110	PM	will-wti-reach-110-in-october-2026	WTI $110 Oct war premium [v5 OCT SEGMENT, ICE WTI (CLL)]	13.5	199838.575758	32638.9724	seg2	ROLL	BRENT/HAWK/FALCON
+2026-10-29	2026-10-29T00:58Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	52.5	3385.6790120000005	29149.1358	seg3	ROLL	BRENT/HAWK/FALCON
+2026-10-30	2026-10-30T02:15Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	52.5	6323.889012	19161.342	seg3	ROLL	BRENT/HAWK/FALCON
+2026-10-31	2026-10-31T02:15Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	64.0	6936.135187999999	11945.0053	seg3	ROLL	BRENT/HAWK/FALCON
+2026-11-02	2026-11-02T15:15Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	36.5	18209.908441	25273.7488	seg3	ROLL	BRENT/HAWK/FALCON
+2026-11-03	2026-11-03T18:15Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	30.5	25789.3089	29804.0056	seg3	ROLL	BRENT/HAWK/FALCON
+2026-11-04	2026-11-04T15:15Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	25.5	28608.118409000002	5771.2213	seg3	ROLL	BRENT/HAWK/FALCON
+2026-11-05	2026-11-05T01:40Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	13.0	34372.010643	28680.8656	seg3	ROLL	BRENT/HAWK/FALCON

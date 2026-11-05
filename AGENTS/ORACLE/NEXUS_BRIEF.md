@@ -1,7 +1,7 @@
 # ORACLE — NEXUS Brief
 
 **As of:** **2026-11-05T01:40–01:45Z (Wed 11/04 20:40 ET, Will-launched catch-up; the 11/04 read is the routine's 10:15 ET pull)** | **STATUS commit:** see `git log -1 -- AGENTS/ORACLE/STATUS.md` (same commit as this brief) | **Box:** LAPTOP, Kalshi UNSIGNED (public read).
-**Status:** 🔴. PM ceasefire markets resolved NO on the 11/2 strike window; November $110 Alert fired 10/30 and cleared 11/04; December hike ~80%; midterms resolved as priced.
+**Status:** 🔴. PM ceasefire markets resolved NO on the 11/2 strike window; November $110 Alert fired 10/30 and cleared 11/04; December hike ~80%; midterms resolved as priced. `TRADE.md` rebuilt 11/04 with a new December-Fed and $110 trajectory; KB and VX swept.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi): crowd-implied probabilities and crowd-vs-thesis divergence. Inbound routed by WALTER.
 **Constraint honored:** no trade implied, no P&L, no position language. No level moved: grades follow the ruled letter (§10).
 

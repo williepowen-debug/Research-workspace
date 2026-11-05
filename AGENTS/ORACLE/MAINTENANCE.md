@@ -344,3 +344,13 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **Files:** `scripts/polymarket.py`, `watchlist.tsv`, `kalshi_watchlist.tsv`, `workbook/{VX,KB,V5_NOV110_READS,V5_OCT110_READS,HISTORY}.tsv`, letter §10, `SCHEDULED_RUNS.md`.
 - **Boot-impact:** none.
 
+## 2026-11-04 (later) — File sweep on Will's word: "update our files inside Oracle and workbook"
+
+- **`TRADE.md`:** rebuilt, tables generated from `TRADE_MARKS.tsv`; retired 8/27 commentary stays in git. Added standing rule 6 (two contracts are two questions). Corrected the old NEH complacency language.
+- **`tools/trade_marks.py`:** added `wti_110`, `fed_hike_dec`, `fed_hike_dec_k` (17 marks, 416 rows). Known limit: one row per mark per UTC date, so a table cell can differ from the graded first-pull read; `TRADE.md` says so.
+- **`VX.tsv`:** ORC-02, 03, 06, 09 refreshed (stale since September). ORC-02 re-graded 🟠 -> 🟡 on its own band.
+- **`KB.tsv`:** the 24 ACTIVE rows past Stale_By dispositioned: 21 STALE, KB-ORC-110 SUPERSEDED, KB-ORC-083 and 100 kept ACTIVE with Stale_By cleared. KB-ORC-116 and 117 added (owed since 10/15), both verified at the Kalshi market record.
+- **Retired to `archive/`:** `DIVERGENCE_2026-07-09.md`, `OPEN_THREADS_2026-07-09.md` (118 days old, not boot-read, referenced only by each other and by records).
+- **Not changed:** `CLAUDE.md` (Will-gated). Its 250-line STATUS rule and table text stand.
+- **Boot-impact:** none.
+

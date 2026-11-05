@@ -19,6 +19,7 @@
 - **KB-ORC-111 to 115.** ceasefire · effective series · Nov $110 · midterms · NEH.
 - **`polymarket.py`:** `closed_outcome()`; `✅ PIN RESOLVED` prints the outcome.
 - **Rolls:** full list in MAINTENANCE 2026-11-04.
+- **File sweep (Will 21:02 ET):** `TRADE.md` rebuilt · `trade_marks.py` 17 marks · VX-ORC-02, 03, 06, 09 refreshed · 24 overdue KB rows dispositioned · KB-ORC-116, 117 · two July files archived. Full list: MAINTENANCE 2026-11-04 (later).
 - **Inbox 5/5 filed.** DAEDALUS packets answered (Census BUILD + DECLINE, Wiring #9, Gate Basis #3). SIG-045 caveat carried in the ledger. SIG-038 context.
 - **Packets:** FALCON, BRENT, HAWK, PROME, DAEDALUS (all `2026-11-04_from-ORACLE_*`).
 - Commit hashes: `git log --since=2026-11-04 -- AGENTS/ORACLE/`.
@@ -32,16 +33,16 @@
 - **🟠 Rolls:** Hormuz on-date · Hormuz closure context rung · Kalshi Brent date ladder · `KXCPIYOY-26OCT` · Hormuz weekly → wk-of-11/9 · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
 - **🟠 Russian diesel nomination** (BRENT/OSPREY; coverage 11/04). Do not pin without the owner's read.
 - **🟠 Next coverage sweep due ≤11/11.**
-- **🟠 Daily grading owner:** PROME to establish who launches the daily ORACLE grade. CATO's preset shipped 10/29 (c7519854e3); L848 PENDING acceptance. Review 11/04: no more frequent collection and no new checker before that.
-- **🟠 KB rows still owed from 10/15:** Sept CPI calibration datum (print 3.7 vs mode 3.6) · Iran crude 1.957M.
+- **🟠 Daily grading owner:** with Will via PROME (21:02 ET): it assigns new standing work. Routine unchanged, no new checker meanwhile. Preset shipped 10/29 (c7519854e3); PROME left L848 as it stands.
 - **🟡 2026-12-15: Kalshi gap-fill quarterly re-check** (WQ-305).
 - **🟡 At the next DESKTOP boot: `kalshi.py status` must return rc=0.**
-- **🟡 Carried:** DAEDALUS F-1 Brier (bank-failure family) · NEH PDF unread · KB-ORC-086 sweep · TRADE.md prose refresh (last refreshed 8/27, committed 9/25; `TRADE_MARKS.tsv` rebuilt 11/04, 14 of 14 marks; declared marks still key on the retired wti_100 family) · WQ-295 WATCH_FOR check · archive `DIVERGENCE_2026-07-09.md` + `OPEN_THREADS_2026-07-09.md`.
+- **🟡 Carried:** DAEDALUS F-1 Brier (bank-failure family) · NEH PDF unread · KB-ORC-086 sweep · WQ-295 WATCH_FOR check.
 
 ## CARRY-FORWARD
 
 - **Push state (11/04 closeout):** all ORACLE work pushed through `scripts/safe-push.sh`; the session's commits are `git log --since=2026-11-04 --grep=ORACLE`. d8e2dae040 went out earlier in the same chain.
-- **Open asks:** PROME packet gap 2 (one read per weekday treated as the November cadence unless ruled otherwise). Will has not ruled on a halt rule; the letter has none, and I did not propose one (Will 10/31: fewer rules).
+- **Cadence settled:** PROME 11/04: one read per weekday stands, a no-change answer Will can overrule. The letter has no halt rule, and I did not propose one (Will 10/31: fewer rules).
+- **`TRADE.md` refresh:** rerun `tools/trade_marks.py --write`, then regenerate the tables; never hand-type a vintage.
 - **Standing framing (do not re-derive):**
   - Fed: hiked 25bp 9/16 to 3.75–4.00% (KB-ORC-083); HELD 10/28 (KB-ORC-109). Venue-vs-futures only in expected bp at a matched time (KB-ORC-100).
   - v4 is history; ⛔ never compute `82.5 − 100`. v5 at $110 since 9/24 (WQ-260). Never difference across segments. Current segment `v5-nov26-icewti110`.
