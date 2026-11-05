@@ -1,15 +1,15 @@
 # TRADE IDEA — HYG Jan-15 76/73 put spread — hedge if credit starts to follow
 **Date:** 2026-11-05 (written 13:36 EST from `date`)
 **Setup ID:** `IDEA-HYG-FOLLOW-NOV05`
-**Terry verdict:** CONDITIONAL — NOT-FIRED, not approved (WQ-615, registered by PROME 11/5, undecided). Proposed under Will's 10/20 loosened rule. Separate card; `IDEA-CREDIT-HYG-BDC-OCT23` (WQ-513 A) is unchanged.
+**Terry verdict:** CONDITIONAL — APPROVED NOT-FIRED (WQ-615 A, Will in PROME's chat 2026-11-05 13:59 ET, verbatim "Okay approve with your recs all four"; record `PROME/proposals/2026-11-05_wq614-617-RULED.md`; GATE-TERRY-HYG-FOLLOW-01). ×5 at or under $0.60, max loss $306.50. X1 passed by Will's choice on this card only. Nothing fills before T1 fires; at an eligible entry TERRY re-checks live (root rule #4) and presents the order, which is Will's hand on a live broker quote (root rule #5). *(was: not approved, 11/5 13:36 EST)* Separate card; `IDEA-CREDIT-HYG-BDC-OCT23` (WQ-513 A) is unchanged.
 **Thesis owner:** LIQUID and REGINALD own the credit read. TERRY owns only the construction. Credit is unconfirmed either way for 11/5; the cause of the selloff is not established (HENRY card SIG-W-20261105-027; VIOLET SIG-VIO 12:41 ET).
 **Confidence in structure:** Medium.
 **Data freshness:** chains and spot 13:33 EST, vendor intraday, screening marks (durable finding 5b). The order is priced on the broker chain. Position truth: FORGE capture 11/5 ~10:0x ET, later changes `[POSITION_STATE_UNKNOWN]`.
 
 ## 0. Hard caveats
-- This is a proposal only. HY 332 bp is the 11/4 cell; no cash spread for 11/5 exists yet.
-- $500 default: inside, $306.50 at the limit. **X1 CLOSED: any fill goes past X1 by Will's choice on this card, never pre-approved.**
-- **Same idea as the approved HYG card.** If this fills and the approved ×4 later fires, the two together risk up to $711.70 on one idea, past the $500 default. That second step needs Will's word at that moment.
+- HY 332 bp is the 11/4 cell; the 11/5 cell lands about 10:30 ET 11/6 (PROME routes LIQUID's grade).
+- $500 default: inside, $306.50 at the limit. **X1 CLOSED: Will made the choice to pass X1 on this card only (WQ-615 A). It extends to no other card and to no size above ×5 or debit above $0.60.**
+- **Same idea as the approved HYG card.** If this fills and the approved ×4 later fires, the two together risk up to $711.70 on one idea, past the $500 default. That second step needs Will's word at that moment (WQ-615 A).
 - "Hedge" here means positive convexity to credit following. No realised hedge ratio to the book is measured; do not size from one.
 
 ## 1. One-line setup
@@ -67,9 +67,9 @@ One complex order, never legged. Limit **≤ $0.60**. Do not chase above $0.60. 
 - If Will prefers to own it before credit moves: first green HYG session, ≤ $0.50, ×5, max loss $256.50. That passes the fired-trigger standing rule by his choice alone.
 
 ## 9. Decision
-- [ ] APPROVE as written: ×5, limit ≤ $0.60, max loss $306.50, on T1 then a green HYG day, past X1 by Will's choice
-- [ ] APPROVE the pre-trigger variant in § 8
+- [x] **APPROVED (WQ-615 A):** ×5, limit ≤ $0.60, max loss $306.50, on T1 then a green HYG day, past X1 by Will's choice
+- [ ] Pre-trigger variant in § 8: not chosen
 - [ ] REJECT
 - [ ] REWORK
 
-**APPROVAL REQUIRED — Will must approve/reject before execution.**
+**APPROVAL REQUIRED — Will must approve/reject before execution.** The approval above is for the conditional; the order at an eligible entry remains his hand.

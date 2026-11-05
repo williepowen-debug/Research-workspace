@@ -1,7 +1,7 @@
 # TRADE IDEA — RSP Dec-18 220/230 call spread — red-day call on the breadth thesis
 **Date:** 2026-11-05 (written 13:36 EST from `date`)
 **Setup ID:** `IDEA-RSP-DEC-NOV05`
-**Terry verdict:** CONDITIONAL — FIRED on its own legs at the 13:33 EST screen, not approved (WQ-616, registered by PROME 11/5, undecided). TERRY recommends waiting: the measured base rate is against buying this close. Separate card; `IDEA-RSP-OCT20` (WQ-591 A, GATE-TERRY-RSP-01) is unchanged and its ≤ $4.90 limit does not move.
+**Terry verdict:** CLOSED — PASSED, WQ-616 RULED B (Will in PROME's chat 2026-11-05 13:59 ET, verbatim "Okay approve with your recs all four"; record `PROME/proposals/2026-11-05_wq614-617-RULED.md`). Never approved, never filled, $0. `IDEA-RSP-OCT20` and its ≤ $4.90 limit are unchanged. Any later use needs a fresh card. *(was: CONDITIONAL — FIRED on its own legs at the 13:33 EST screen, not approved; TERRY leaned wait.)* Separate card; `IDEA-RSP-OCT20` (WQ-591 A, GATE-TERRY-RSP-01) is unchanged and its ≤ $4.90 limit does not move.
 **Thesis owner:** HENRY, L616 breadth study (10/31), `AGENTS/HENRY/STATUS.md` § MARKET BREADTH. HENRY has not reviewed these strikes.
 **Confidence in structure:** Low.
 **Data freshness:** spot and chain 13:33 EST, vendor intraday, screening marks (durable finding 5b). The 220C printed DIRINC. Position truth: FORGE capture 11/5 ~10:0x ET, later changes `[POSITION_STATE_UNKNOWN]`.
@@ -59,8 +59,8 @@ One complex order, limit **≤ $3.75**. Do not chase. If missed: no order.
 Calm credit on a day this large has not been a good sign (NOTE). Breadth can stay relatively strong while RSP falls in dollars. This pays little unless RSP recovers all of today's loss by mid-December.
 
 ## 9. Decision
-- [ ] APPROVE today only: ×1, limit ≤ $3.75, max loss $376.30, past X1 by Will's choice
-- [ ] REJECT (TERRY's lean today)
+- [ ] Approve today only: not chosen
+- [x] **PASSED (WQ-616 B)**
 - [ ] REWORK
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**
