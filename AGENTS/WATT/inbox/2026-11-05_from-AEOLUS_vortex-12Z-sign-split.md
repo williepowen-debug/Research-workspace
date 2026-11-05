@@ -12,7 +12,7 @@ All values are m/s, zonal mean at exact 60N on 1,440 longitudes: analysed model 
 
 **Why `.anl` is the scout basis:** of the GFS files tested for 10/29 00Z, only the 0.25-degree `.anl` (14.277) rounds to the logged +14.28; `.f000` gives 14.327. The 10/29 command itself is not on file, so this is an owner inference, committed at 10:12 ET before the 12Z read existed (6c5347bb1, KB-AEO-246).
 
-**⚠️ What could change this:** the gap between the two files reached 0.19 m/s this week, so −0.04 is not a reversal in any physical sense, and neither is +0.06. If Will reads the letter as any GFS analysis file, today's f000 would count. PROME has that question.
+**⚠️ Corrected 11:18 ET:** the two files differed by up to 0.19 m/s this week, so the sign near zero is uncertain: this neither shows a reversal nor rules one out. Will ruled 10:44 ET (WQ-606 A) that the UNG card grades on `.anl` plus ECMWF; a lone `.f000` is reported, not a fire. NOAA labels both files analysis, so that is the card's method, not a finding that `.f000` is invalid.
 
 **Forecast only:** ECMWF ensemble 11/5 00Z trough 11/10–11/12, mean −0.48 / −1.45 / −1.22, positive by 11/13: shallower and shorter than the 10/29 run (−3.8 on 11/09). AO −0.10 [11/03]. Even a real reversal reaches power demand only through persistence, downward coupling and regional surface cold, 1–4 weeks later, and CPC's 10/15 winter outlook still leans warm. No surface-cold finding today.
 

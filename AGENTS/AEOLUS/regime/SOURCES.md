@@ -112,7 +112,8 @@ Monthly + seasonal (temp / precip) probabilistic outlooks, issued **~the third T
 ## 🟠 VORTEX · 10 hPa 60°N ZONAL-MEAN ZONAL WIND — verified 2026-11-05, owner read for GATE-TERRY-UNG-01
 **Not a registered score instrument.** Log in `workbook/LOG.tsv`. No grade from a forecast.
 ```bash
-# GFS 0.25, scout basis = .anl (KB-AEO-246); swap for .f000 to read the second file. Posts ~3.3 h after the cycle.
+# GFS 0.25, scout basis = .anl (KB-AEO-246, WQ-606 A); swap for .f000 to read the second file. Posts ~3.3 h after the cycle.
+# NOAA inventories label both files anl; .f000 is excluded by the card method, not as invalid.
 curl -s -o g.grib2 "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.YYYYMMDD%2FHH%2Fatmos&file=gfs.tHHz.pgrb2.0p25.anl&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60"
 python3 ../sources/2026-11-05_vortex-owner-read/read_u10.py g.grib2
 ```
