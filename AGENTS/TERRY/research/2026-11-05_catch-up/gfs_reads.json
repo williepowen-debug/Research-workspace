@@ -1,0 +1,27 @@
+[
+ {
+  "ref": "20261104 12Z",
+  "n": 1440,
+  "zonal_mean_u_m_s": 1.0928568793402778,
+  "sha256": "ecfd8b78be7913ef77b964444a3b11577d8adee94dca85edd37bacca7d0f0878",
+  "url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261104%2F12%2Fatmos&file=gfs.t12z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60"
+ },
+ {
+  "ref": "20261105 00Z",
+  "n": 1440,
+  "zonal_mean_u_m_s": 0.30982139756944443,
+  "sha256": "463ca445231bcf367c2624538dc3ba27438b8bafec8bce55a252e235042ccc87",
+  "url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261105%2F00%2Fatmos&file=gfs.t00z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60"
+ },
+ {
+  "ref": "20261105 06Z",
+  "n": 1440,
+  "zonal_mean_u_m_s": 0.2457783203125,
+  "sha256": "32ee1b89d73dc2f421c210c9442cbb72123c88e6c600e34f8beb2743e6b8132a",
+  "url": "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.20261105%2F06%2Fatmos&file=gfs.t06z.pgrb2.0p25.f000&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60"
+ },
+ {
+  "ref": "20261105 12Z",
+  "error": "HTTP Error 404: Not Found"
+ }
+]

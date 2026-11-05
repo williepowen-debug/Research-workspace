@@ -1,0 +1,72 @@
+TERRY live option-chain fetch
+=============================
+Data only — no broker access, no execution recommendation.
+
+Underlying: RSP  Spot: 222.68 (as-of 2026-11-05 09:46)
+Expiry: 2027-01-15  Type: call  Rows: 22
+Greeks (Delta/Theta): N/A — yfinance does not provide them.
+
+Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade
+-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------
+ 190.00   -14.7  C   0.00  35.80  17.90  200.00   37.52      1   3605  NOBID,NONMONO  2026-11-03 14:38
+ 191.00   -14.2  C   0.00   0.00   0.00     N/A    0.00      1      4  DEAD      2026-10-19 14:42
+ 192.00   -13.8  C   0.00   0.00   0.00     N/A    0.00      1     22  DEAD      2026-10-15 14:04
+ 193.00   -13.3  C   0.00   0.00   0.00     N/A    0.00     10      0  DEAD      2026-08-20 14:07
+ 194.00   -12.9  C  22.60  27.20  24.90   18.47    0.00      2      8  NONMONO   2026-09-18 10:45
+ 195.00   -12.4  C  29.80  31.70  30.75    6.18   36.87     18    842  NONMONO   2026-11-03 15:02
+ 196.00   -12.0  C  21.00  25.40  23.20   18.97    0.00      2      2  -         2026-09-24 12:40
+ 197.00   -11.5  C  20.00  24.70  22.35   21.03    0.00      4     20  NONMONO   2026-09-18 11:02
+ 198.00   -11.1  C  25.60  29.80  27.70   15.16   38.10      1      8  NONMONO   2026-10-09 09:30
+ 199.00   -10.6  C   0.00   0.00   0.00     N/A    0.00      1     20  DEAD      2026-10-16 09:30
+ 200.00   -10.2  C   0.00   0.00   0.00     N/A    0.00      4    426  DEAD      2026-11-04 15:37
+ 205.00    -7.9  C  20.20  22.30  21.25    9.88   29.94      8   1579  -         2026-11-04 11:39
+ 210.00    -5.7  C  15.90  18.00  16.95   12.39   27.30     28    661  -         2026-11-04 16:08
+ 215.00    -3.4  C  11.30  13.80  12.55   19.92   24.43     37   1002  -         2026-11-04 14:47
+ 220.00    -1.2  C   0.00   8.80   4.40  200.00   18.82    334   3869  NOBID,NONMONO  2026-11-04 15:34
+ 225.00     1.0  C   4.70   5.40   5.05   13.86   16.37    812   8755  NONMONO   2026-11-04 15:55
+ 230.00     3.3  C   2.00   2.70   2.35   29.79   14.01      5   1492  -         2026-11-04 14:19
+ 235.00     5.5  C   0.95   0.00   0.47  -200.00    3.13    153   2099  XSD       2026-11-04 15:41
+ 240.00     7.8  C   0.35   0.00   0.17  -200.00    3.13      7    305  XSD,NONMONO  2026-11-04 15:47
+ 245.00    10.0  C   0.10   0.40   0.25  120.00   14.06      6    298  NONMONO   2026-11-04 13:57
+ 250.00    12.3  C   0.00   0.75   0.38  200.00   18.84      1    581  NOBID,NONMONO  2026-11-04 11:55
+ 255.00    14.5  C   0.00   0.00   0.00     N/A    6.25     15      0  DEAD      2026-09-02 15:19
+
+TERRY liquidity flags
+- Wide spread rows >15% of mark: 10
+- Thin OI rows <100 OI: 9
+
+TERRY quote sanity
+  🔴 XSD        2 row(s)
+  🔴 DEAD       6 row(s)
+  🔴 NOBID      3 row(s)
+  ⚠️  NONMONO   10 row(s)
+  🔴 11 row(s) carry a HARD defect and MUST NOT be used to compute a net debit:
+        190.00 C  bid 0.00 / ask 35.80  [NOBID,NONMONO]
+        191.00 C  bid 0.00 / ask 0.00  [DEAD]
+        192.00 C  bid 0.00 / ask 0.00  [DEAD]
+        193.00 C  bid 0.00 / ask 0.00  [DEAD]
+        199.00 C  bid 0.00 / ask 0.00  [DEAD]
+        200.00 C  bid 0.00 / ask 0.00  [DEAD]
+        220.00 C  bid 0.00 / ask 8.80  [NOBID,NONMONO]
+        235.00 C  bid 0.95 / ask 0.00  [XSD]
+        240.00 C  bid 0.35 / ask 0.00  [XSD,NONMONO]
+        250.00 C  bid 0.00 / ask 0.75  [NOBID,NONMONO]
+        255.00 C  bid 0.00 / ask 0.00  [DEAD]
+     NONMONO base rate: 10/22 rows = 45% of the displayed strip.
+     ⚠️  It flags BOTH sides of an inverted pair and does NOT say which one is wrong — usually the one with the OLDER lastTradeDate. Check that before blaming a strike.
+     🟠 CHAIN-QUALITY READ: at 45% the STRIP is broadly unreliable, not any one strike. Trust high-OI / round-number strikes and re-pull anything else before it carries a number.
+
+⚠️  FRESHNESS: freshest trade in set = 2026-11-04 16:08 (NOT today 2026-11-05). Marks may be stale (after-hours/weekend). Re-confirm live broker marks before any fill.
+
+⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.
+   The spot above is Yahoo-declared real-time. The option bid/ask carries NO
+   timestamp and no delay flag, and is NOT proven contemporaneous with it.
+   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you
+      actually transact on from the BROKER chain. (2026-09-11: this tool read
+      ~10% high on the bid vs the broker, on the side being sold.)
+Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.
+
+TERRY leg gate (--legs)
+  ✓ usable       215.00 C  bid 11.30 / ask 13.80  [-]
+  ✓ usable       225.00 C  bid 4.70 / ask 5.40  [NONMONO]
+  ⇒ all requested legs carry usable two-sided quotes.

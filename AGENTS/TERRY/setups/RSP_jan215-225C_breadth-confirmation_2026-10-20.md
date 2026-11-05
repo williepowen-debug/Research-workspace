@@ -6,7 +6,7 @@
 **Thesis owner:** HENRY, L616 breadth study dated 2026-10-31 on 10/30 closes, `AGENTS/HENRY/STATUS.md` § MARKET BREADTH.
 **Confidence in structure:** Low at the observed markets. Recommendation: wait; do not pay the displayed debit.
 
-> **TRIGGER STATE 2026-11-05 09:43 EST (TERRY): NOT-FIRED, no entry.** RSP $223.59 +0.12% GREEN at 09:40 EST, so not a red day. `chain_fetch.py` DEAD 0/0 on both legs, exit 2 (09:41 EST). Cboe delayed, payload stamp 03:41:05 and spot $223.33 (the 11/4 close, so stale): 215C $10.60/$12.70, 225C $4.30/$5.20; outer debit $8.40 (×1 $841.30), mid $6.90, against the $4.90 cap. ⚠️ Rough read, delayed screen: the spread moves about $0.20 per $1 of RSP, so a $4.90 fill needs RSP near or under this card's own $215 floor. The approved card may simply not fill; that is a valid outcome, and the limit does not move.
+> **TRIGGER STATE 2026-11-05 09:50 EST (TERRY): NOT-FIRED, no entry.** RSP $222.80 −0.24% at 09:45 EST, red so far today, not a completed close. The debit test blocks entry whatever the colour: `chain_fetch.py` 09:46 EST, usable legs, 215C $11.30/$13.80, 225C $4.70/$5.40 (225C flagged NONMONO; both last traded 11/4; six-row DIRINC warning), outer debit $9.10 (×1 $911.30), leg mid $7.50, against the $4.90 cap. Screening marks, no broker quote. ⚠️ Rough read: the spread moves about $0.20 per $1 of RSP, so a $4.90 fill needs RSP near $210, below this card's own $215 floor. The approved card may simply not fill; that is a valid outcome, and the limit does not move.
 
 ## 0. Authority, freshness and hard caveats
 | Item | Evidence and consequence |

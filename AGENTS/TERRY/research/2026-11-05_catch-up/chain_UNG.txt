@@ -1,0 +1,38 @@
+TERRY live option-chain fetch
+=============================
+Data only — no broker access, no execution recommendation.
+
+Underlying: UNG  Spot: 9.31 (as-of 2026-11-05 09:46)
+Expiry: 2027-01-15  Type: call  Rows: 3
+Greeks (Delta/Theta): N/A — yfinance does not provide them.
+
+Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade
+-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------
+   8.00   -14.1  C   1.60   2.20   1.90   31.58   73.63      1   3868  -         2026-11-05 09:30
+   9.00    -3.4  C   0.00   0.00   0.00     N/A    0.00    299   8926  DEAD      2026-11-04 15:39
+  10.00     7.4  C   0.50   2.00   1.25  120.00   92.38      2  33048  -         2026-11-05 09:30
+
+TERRY liquidity flags
+- Wide spread rows >15% of mark: 2
+- Thin OI rows <100 OI: 0
+
+TERRY quote sanity
+  🔴 DEAD       1 row(s)
+  🔴 1 row(s) carry a HARD defect and MUST NOT be used to compute a net debit:
+          9.00 C  bid 0.00 / ask 0.00  [DEAD]
+
+Freshness: freshest trade in set = 2026-11-05 09:30 (fetch 2026-11-05 09:46).
+
+⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.
+   The spot above is Yahoo-declared real-time. The option bid/ask carries NO
+   timestamp and no delay flag, and is NOT proven contemporaneous with it.
+   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you
+      actually transact on from the BROKER chain. (2026-09-11: this tool read
+      ~10% high on the bid vs the broker, on the side being sold.)
+Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.
+
+TERRY leg gate (--legs)
+  ✓ usable        10.00 C  bid 0.50 / ask 2.00  [-]
+  🔴 DEFECTIVE     12.00 C  bid 0.00 / ask 0.00  [DEAD]
+
+⛔ EXIT 2 — a requested leg is unusable. DO NOT compute a net debit off this pull. Re-pull; if it persists, the leg is untradeable and that is a NO TRADE, not a number to work around.
