@@ -13,6 +13,7 @@ curl -s "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt" | tail -6
 ```
 `SEAS YR TOTAL ANOM`, 3-month overlapping seasons, **ERSSTv6** (🔴 **BASIS CHANGED 2026-08-10 — was ERSSTv5**; CPC footnote, verbatim: *"8/10/26: NCEI is discontinuing ERSSTv5, so RONI values have switched to ERSSTv6. The weekly OISSTv2.1 data remains unaffected."* Verified independently: `oni.ascii.txt` matches the v6 HTML table exactly across all twelve 2025 seasons. **AEO-02 resolves on this series, so its basis changed mid-prediction — ruling and materiality at KB-AEO-125: resolve on v6, shift ~0.1 °C is an order below the +0.30 margin.**), 30-yr centred baseline.
 **Verified: `MJJ 2026 29.02 1.39`** (prior `AMJ 2026 28.74 0.95`).
+CPC's footnote names RONI only. ONI's v6 basis rests on the independent table match, not on the footnote.
 **This is the instrument my predictions resolve on** (AEO-02 = ONI ≥1.5 in an NDJ season).
 ⚠️ **ERSST revises — v6 no less than v5.** AMJ read **+0.98** on 8/3 and **+0.95** on 8/12; RONI MJJ read **+0.98** on 8/21 and **+0.97** on 9/18 — *revisions of the same series, not an error at any date.* **Use today's file and note the vintage.** CPC's own notice: *"values may change up to two months after the initial 'real time' value is posted. Therefore, the most recent RONI values should be considered an estimate."*
 
@@ -85,7 +86,7 @@ Monthly + seasonal (temp / precip) probabilistic outlooks, issued **~the third T
 
 | Trap | Guard |
 |---|---|
-| Mixing baselines in one sentence | **Four live numbers (+1.39 / +0.98 / +2.03 / +2.6) are all correct.** Name the instrument. |
+| Mixing baselines in one sentence | **Four live numbers are all correct: see DOSSIER §1 for the current four.** Name the instrument. |
 | "+3 °C!" | Almost always **Niño-1+2** (today +3.56), not 3.4. **Check region first.** |
 | `wksst` vs `sstoi` column order | 3.4 is **3rd** in wksst, **4th** in sstoi. Read the header. |
 | Assuming a search summary's ENSO figure | **Cost me a wrong number twice.** Pull the CPC file. |
@@ -108,3 +109,11 @@ Monthly + seasonal (temp / precip) probabilistic outlooks, issued **~the third T
 
 > **Why this table exists:** on 2026-09-18 a worker followed the scope rule correctly, refused to substitute a BoM figure, and reported the gap — **and the gap had been invisible until someone was asked to look.** A correctly-followed rule was doing its job and hiding a hole at the same time. **Nothing was mis-measured; something went unmeasured, and only this file knew.**
 
+## 🟠 VORTEX · 10 hPa 60°N ZONAL-MEAN ZONAL WIND — verified 2026-11-05, owner read for GATE-TERRY-UNG-01
+**Not a registered score instrument.** Log in `workbook/LOG.tsv`. No grade from a forecast.
+```bash
+# GFS 0.25, scout basis = .anl (KB-AEO-246); swap for .f000 to read the second file. Posts ~3.3 h after the cycle.
+curl -s -o g.grib2 "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl?dir=%2Fgfs.YYYYMMDD%2FHH%2Fatmos&file=gfs.tHHz.pgrb2.0p25.anl&var_UGRD=on&lev_10_mb=on&subregion=&leftlon=0&rightlon=359.75&toplat=60&bottomlat=60"
+python3 ../sources/2026-11-05_vortex-owner-read/read_u10.py g.grib2
+```
+ECMWF open data: `https://data.ecmwf.int/forecasts/<YYYYMMDD>/<00|12>z/ifs/0p25/oper/<YYYYMMDD><HH>0000-0h-oper-fc.index`, select `param u, levelist 10, levtype pl`, range-GET the `.grib2`, take the 60.0N row. CCSDS-packed, so it needs eccodes (`pip install --target <scratch> eccodes`; not in `.venv`). Retention ~4 days. GEOS-FP: `curl -gsS "https://opendap.nccs.nasa.gov/dods/GEOS-5/fp/0.25_deg/assim/inst3_3d_asm_Np.ascii?u[T0:T1][30][600][0:1151]"`, T = 8 × days since 2017-12-01 + hour/3, ≤16 times per request. AO/NAO: `https://ftp.cpc.ncep.noaa.gov/cwlinks/norm.daily.ao.cdas.z1000.19500101_current.csv`, `norm.daily.nao.cdas.z500.19500101_current.csv`.

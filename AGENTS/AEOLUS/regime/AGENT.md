@@ -25,7 +25,8 @@
 | `nino34_weekly` | degC | `CPC-wksst9120.for` | fastest trend, noisiest; **col 3** |
 | `nino12_weekly` / `nino3_weekly` / `nino4_weekly` | degC | `CPC-wksst9120.for` | cols 1 / 2 / 4 — **approved 2026-09-28** (already in use since 8/13; added to the vocabulary so the list matches the ledger) |
 | `nino12_monthly` | degC | `CPC-sstoi.indices` | the figure misquoted as "3.4" |
-| `verystrong_prob_ond` | pct | `CPC-ensodisc` | from the discussion prose |
+| `verystrong_prob_ond` | pct | `CPC-ensodisc` | ⛔ CLOSED 2026-11-05, last row 2026-09-10 (RULED KB-229) |
+| `p_roni_ge20_ond` | pct | `CPC-roni-strengths` | OND P(RONI ≥ 2.0) from the Strength Outlook table; no splice with the closed series |
 | `historic_prob_ond` | pct | `CPC-ensodisc` | ditto |
 | `oni_minus_roni` | degC | `derived-CPC` | **derived — recompute, never carry forward** |
 

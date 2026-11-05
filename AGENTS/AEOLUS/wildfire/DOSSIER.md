@@ -2,7 +2,10 @@
 
 **As-of: 2026-10-28.** Consolidated from KB-AEO-030/031/032/037/056 + the 2026-08-21, 2026-08-27, 2026-09-18, 2026-09-28, 2026-10-09 and 2026-10-29 worker runs. **The 9/28 refresh and the 9/18 body (§1–§6) were rotated to archive 10/10 — pointer below. The 10/29 block is the live peril + loss state; the 10/09 block still carries the October-outlook AEO-09 table (no newer outlook exists).**
 
-> **Last real data refresh: 2026-10-28**  ·  **Dossier written: 2026-10-29**
+> **Last real data refresh: 2026-11-05**  ·  **Dossier written: 2026-11-05**
+
+### 11/05 AEOLUS DIRECT PASS (no worker)
+**NIFC outlook issued 11/02:** November Southern Area NORMAL, largely on low confidence; above normal confined to PR/USVI; below normal builds over the FL peninsula Jan–Feb. **AEO-09 HIT, weaker on mechanism** (KB-239). PL 1 since 10/14.
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `wildfire/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C4

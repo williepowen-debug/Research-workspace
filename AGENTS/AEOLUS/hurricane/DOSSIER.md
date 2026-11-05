@@ -2,7 +2,10 @@
 
 **As-of: 2026-10-29 for §0000000 (worker run 10/29 00:2x ET, AEOLUS dark 10/21 → 10/29); 2026-10-21 for §000000 (worker run 10/21, AEOLUS dark 10/10 → 10/21); 2026-10-10 for §00000; 2026-10-09 for §0000; 2026-10-08 for §000; 2026-09-28 for §00; §0–§6 (9/18 vintage) ROTATED to archive 10/10.** **C1 score: 2 as set by AEOLUS 2026-10-08 (VX-AEO-39), HELD at the 10/9 landfall grade (VX-AEO-41) — a worker does not score; nothing below re-grades it.**
 
-> **Last real data refresh: 2026-10-29**  ·  **Dossier written: 2026-10-29**
+> **Last real data refresh: 2026-11-05**  ·  **Dossier written: 2026-11-05**
+
+### 11/05 AEOLUS DIRECT PASS (no worker)
+NHC TWO 7 AM EST 11/05: non-tropical low south of Bermuda, 30% 48h / 50% 7d, moving east; no active storms; newest b-deck bal10 (10/22). ACE stays 19.5325 [10/29 00Z basis]; to-date normal not recomputed. C1 re-arm not met.
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `hurricane/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1

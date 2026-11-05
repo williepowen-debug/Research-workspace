@@ -19,7 +19,7 @@
 
 | Instrument | Value | Baseline | Use it for |
 |---|---|---|---|
-| **ONI** | **+1.39** (MJJ) | 30-yr centred, ERSSTv5 | **LEVEL & official classification.** The instrument my predictions resolve on. |
+| **ONI** | **+1.39** (MJJ) | 30-yr centred, ERSSTv6 (ERSSTv5 until 2026-08-10) | **LEVEL & official classification.** The instrument my predictions resolve on. |
 | **RONI** | **+0.98** (MJJ) | ONI minus tropical-mean SST anomaly | **DYNAMICAL strength / teleconnection expectation** |
 | **OISST monthly** (`sstoi`) | **+2.03** (Jul) | 1991-2020 fixed | **TREND** month-to-month |
 | **Weekly** (`wksst`) | **+2.6** (05 Aug) | 1991-2020 fixed | **Fastest trend only.** Noisiest. |
