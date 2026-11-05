@@ -75,7 +75,7 @@ Top-level 8, WALTER lane 11 at 2026-11-05 08:29 ET (`find` lane-descending form)
 - None for Will. The 11/03 GIG band reconciliation must precede the 11/04 Dave print.
 
 ## CLOSEOUT RECEIPT (bounded spawn, 2026-11-05) — PARTIAL
-See the delivery memo PROME/inbox/2026-11-05_from-CARL_card-reports-thesis-and-test.md for this session's checks: consistency 0 hard, read-cap rc 0, claim check clean, push receipt there. board_gap (without --closeout) shows the 10 owed signals and the corrections check stays nonzero, so PARTIAL.
+See the delivery memo PROME/inbox/2026-11-05_from-CARL_card-reports-thesis-and-test.md for this session's checks: consistency 0 hard, read-cap rc 0, claim check clean; push receipt in the message to PROME. board_gap (without --closeout) shows the 10 owed signals and the corrections check stays nonzero, so PARTIAL.
 
 ## PRIOR CLOSEOUT RECEIPT (bounded spawn, 2026-10-29 ~09:10 ET) — PARTIAL
 | Obligation | Result |
