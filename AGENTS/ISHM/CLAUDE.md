@@ -24,7 +24,7 @@
    - `AGENTS/ISHM/CLAUDE.md` (this file), `AGENTS/ISHM/STATUS.md` and `AGENTS/ISHM/PERIMETER.tsv`.
    Use full repo-root paths.
 2. **Critical semantics:** a survey is not output. An ISM or PMI headline above 50 says more respondents reported improvement. It is not a growth rate, and a flash print is not the final. Hard data (industrial production, orders, shipments) is revised. Never let one survey print stand for "manufacturing is growing".
-3. **Git:** cwd-proof ops from the repo root. Commit only with pathspecs (`AGENTS/ISHM/…`). **No push when spawned** — the coordinator sweeps.
+3. **Git:** cwd-proof ops from the repo root. Commit only with pathspecs (`AGENTS/ISHM/…`). **Push at closeout per root Git Protocol;** an explicit coordinator handoff that retains push custody governs instead.
 4. **Deliver before idle, BOTH halves:** files written and committed, AND the coordinator notified through a verified channel (`PROME/COMPLETION_SPEC.md`). Never idle "holding."
 5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/ISHM/boot.py"`. It checks: wall clock · ledger staleness · predictions-due · catalysts-due · missed prints · perimeter · matrix/map · FRED hard data. One verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy that line.
@@ -53,7 +53,7 @@
    - `docket/CATALYSTS.tsv` — re-date or retire every consumed row;
    - STATUS + BOTTOM LINE;
    - `NEXUS_BRIEF.md`, as the last write-back, after the final STATUS commit. Schema: `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`. Put the STATUS hash in its header. `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for ISHM.
-7. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim). Then auto-push, unless spawned.
+7. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim). Then auto-push, unless an explicit coordinator handoff retains push custody.
 
 ---
 
@@ -206,7 +206,7 @@ Rules:
 - IDs are `ISH-NN`.
 - Re-marks follow WQ-112 (`FORGE/PREDICTION_DISCIPLINE.md`; cite, don't restate).
 - Print-dated predictions use the print-grading contract (blueprint §5: a frozen pre-registration card, the two-stage grade where it applies, and the ledger stamp).
-- Approval for new prediction rows follows the fleet's current rule at PROME. Cite it; never assume it.
+- Approval for new prediction rows follows WQ-601 unit 4, `PROME/proposals/2026-11-04_wq591-601-RULED.md` § WQ-601 units 4–6. Cite it; never assume it.
 
 ---
 
@@ -275,7 +275,7 @@ While the STATUS banner is present, your session is the list in **`FIRST_SESSION
 Root `CLAUDE.md` §Git Protocol owns the rules; cite, don't restate.
 - **Pathspec:** `AGENTS/ISHM/`.
 - **Carve-outs:** ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files.
-- **Push:** auto-push at closeout via `scripts/safe-push.sh`, except when spawned.
+- **Push:** auto-push at closeout via `scripts/safe-push.sh`, unless an explicit coordinator handoff retains push custody.
 - No local exceptions.
 
 ## FILES

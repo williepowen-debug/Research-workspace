@@ -12,7 +12,7 @@
 
 1. **Read:** `AGENTS/CYPHER/CLAUDE.md` (this file) · `AGENTS/CYPHER/STATUS.md` · `AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv` — full repo-root paths.
 2. **Critical semantics:** "no compromise confirmed" is **weak evidence**, not an all-clear. A low-footprint exploit (CrowdStrike lab finding on PHP2Shell) and pre-disclosure exploitation are the MOVEit/SolarWinds shape, where the victim list surfaced weeks later. `ATTEMPTS-ONLY` never becomes "no damage" in your text.
-3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/CYPHER/…`) · **no push when spawned** — coordinator sweeps.
+3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/CYPHER/…`) · **push at closeout per root Git Protocol;** an explicit coordinator handoff that retains push custody governs instead.
 4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified through the verified available channel (`PROME/COMPLETION_SPEC.md`). Never idle "holding."
 5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/CYPHER/boot.py"` — wall clock · ledger staleness · predictions-due · catalysts-due · escalation watch · incident re-checks · matrix/map · CISA KEV · SEC 8-K Item 1.05 · SEC 8-K Item 8.01 cyber terms (non-material disclosures), one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy that line.
@@ -27,7 +27,7 @@
 3. Process `inbox/` (and `inbox/WALTER/` if present) per `inbox/PROTOCOL.md`. WALTER intake follows `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1: search each signal_id with `grep -F` in `board_log.tsv`, read/disposition every unrecorded delivered signal, append timestamp_read/signal_id/disposition/source/notes, integrate and commit before `git mv` to `inbox/WALTER/processed/`.
 4. Read `STATUS.md`. **If its FIRST-LIVE-SESSION banner is present, `FIRST_SESSION.md` is your session — read it whole.**
 5. Execute the task. Write back: `workbook/INCIDENTS.tsv`, `workbook/ESCALATION_WATCH.tsv`, STATUS + BOTTOM LINE, `NEXUS_BRIEF.md` (last write-back, after the final STATUS commit; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`; STATUS hash in the header — `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for CYPHER).
-6. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim), then auto-push unless spawned.
+6. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim), then auto-push, unless an explicit coordinator handoff retains push custody.
 
 ---
 
@@ -149,7 +149,7 @@ Reachability per route (CISA KEV and SEC full-text search REACHABLE at build; PC
 
 ## PREDICTIONS
 
-`workbook/PREDICTIONS.tsv` — **empty at build by design** (a seeded prediction is the architect's forecast wearing the desk's name). Status enum in its header (`OPEN | HIT | MISS | VOID | STUCK`, Class 3). Every row: confidence %, `Resolve_By` hard date (boot.py keys on it), resolution on a **named instrument** (KEV listing date, an 8-K, a PCS designation), `If_Falsified_Action` (a stance consequence — you have no book). IDs `CYP-NN`. Re-marks follow WQ-112 (`FORGE/PREDICTION_DISCIPLINE.md`, cite don't restate). Approval for new prediction rows follows the fleet's current rule at PROME — cite it, never assume it. **The base rate gives you the prior:** five of five past waves stayed non-systemic for banks.
+`workbook/PREDICTIONS.tsv` — **empty at build by design** (a seeded prediction is the architect's forecast wearing the desk's name). Status enum in its header (`OPEN | HIT | MISS | VOID | STUCK`, Class 3). Every row: confidence %, `Resolve_By` hard date (boot.py keys on it), resolution on a **named instrument** (KEV listing date, an 8-K, a PCS designation), `If_Falsified_Action` (a stance consequence — you have no book). IDs `CYP-NN`. Re-marks follow WQ-112 (`FORGE/PREDICTION_DISCIPLINE.md`, cite don't restate). Approval for new prediction rows follows WQ-601 unit 4, `PROME/proposals/2026-11-04_wq591-601-RULED.md` § WQ-601 units 4–6 — cite it, never assume it. **The base rate gives you the prior:** five of five past waves stayed non-systemic for banks.
 
 ---
 
@@ -193,7 +193,7 @@ SPENT 2026-10-22 (STATUS banner struck). The section is kept verbatim in `CHARTE
 
 ## GIT
 
-Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/CYPHER/` (+ carve-outs ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files · ④ only under a LIVE Gate C activation). Auto-push at closeout via `scripts/safe-push.sh`, except when spawned (blueprint spawned-mode rule, `AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md`). No other local exceptions.
+Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/CYPHER/` (+ carve-outs ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files · ④ only under a LIVE Gate C activation). Auto-push at closeout via `scripts/safe-push.sh`, unless an explicit coordinator handoff retains push custody. No other local exceptions.
 
 ## FILES
 

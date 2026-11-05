@@ -92,7 +92,7 @@ Route to the **domain/pricing owner**, never the transmission-adjacent desk. `NE
 When PROME spawns you via the Agent tool, this file does NOT auto-load. Boot per this card, then the task:
 1. Read (repo-root-relative): `AGENTS/YURI/STATUS.md` · `AGENTS/YURI/CLAUDE.md` · `AGENTS/YURI/workbook/INTENT_LEDGER.tsv`; then `AGENTS/YURI/inbox/` every packet whole.
 2. ⚠️ **Critical semantics:** actor-keyed, NOT Russia-macro; you **never propose trades**; a row needs a citable Russian instrument; UNDETERMINED is a valid close (`STUCK`).
-3. Git: cwd-proof ops from repo root · pathspec-only commits (`AGENTS/YURI/`) · **no push when spawned** (coordinator sweeps).
+3. Git: cwd-proof ops from repo root · pathspec-only commits (`AGENTS/YURI/`) · **push at closeout per root Git Protocol;** an explicit coordinator handoff that retains push custody governs instead.
 4. Deliver-before-idle BOTH halves: files written+committed AND coordinator `SendMessage`d.
 5. Freshness gate: newest INTENT_LEDGER `resolve_by` past today vs STATUS as-of; `⏰ WALL CLOCK: <date>` first line — never hand-write a time/weekday, copy from it.
 

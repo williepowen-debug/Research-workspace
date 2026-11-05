@@ -12,7 +12,7 @@
 
 1. **Read:** `AGENTS/FERT/CLAUDE.md` (this file) · `AGENTS/FERT/STATUS.md` · `AGENTS/FERT/workbook/TRIGGERS.tsv` — full repo-root paths.
 2. **Critical semantics:** "urea" is NOT one price. DTN retail $/ton ≠ NOLA barge $/st ≠ India CFR $/mt ≠ Egypt FOB futures $/mt — levels differ by hundreds of dollars between benchmarks. Never write or read a fertilizer price without benchmark + unit + date. The March desk died on exactly this.
-3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/FERT/…`) · **no push when spawned** — coordinator sweeps.
+3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/FERT/…`) · **push at closeout per root Git Protocol;** an explicit coordinator handoff that retains push custody governs instead.
 4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
 5. **Freshness gate:** run `python3 "$(git rev-parse --show-toplevel)/AGENTS/FERT/boot.py"` — ledger staleness + predictions-due + triggers-due in one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy from that line.

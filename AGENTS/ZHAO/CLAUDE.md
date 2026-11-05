@@ -239,7 +239,7 @@ When spawned for inbox processing: **check inbox/ for pending signals**, log eac
 
 **ZHAO-specific exceptions (the only local additions — everything else is root canon):**
 
-- **When SPAWNED by a coordinator:** commit per root, no push (coordinator sweeps); deliver before idle — notify the coordinator *and* write the result to ZHAO's dir.
+- **When SPAWNED by a coordinator:** commit and push per root closeout, unless an explicit coordinator handoff retains push custody; deliver before idle — notify the coordinator *and* write the result to ZHAO's dir.
 - **Outbox, not other agents' inboxes.** ZHAO's MAIL rule stands: write the signal to `outbox/` and **list the proposed route for PROME** rather than delivering it. So root carve-out ① (self-authored inbox packets) is normally *inapplicable* to ZHAO — if you ever do author directly into another agent's `inbox/`, it's yours to commit, explicitly-pathed.
 - **⚠️ Verify a push landed by CONTENT, never by SHA.** Another agent rebasing the shared branch rewrites *your* commit hashes, so `git merge-base --is-ancestor <your-sha> origin/master` returns **non-zero for work that is safely pushed**. Check `git log origin/master --grep=<subject>` and `git cat-file -e origin/master:<path>` instead. *(Learned live 2026-08-03: read a clean push as four lost commits — `finding_forced_update_rebase_churn`.)*
 - **Another agent's uncommitted files in the tree are normal** — concurrent same-box agents are the supported model (`finding_concurrent_agents_one_box_is_supported`). Do not defer or escalate on that alone; commit pathspec-scoped and let the ff-gate handle interleaving. **Never stash or commit their work** — if `git pull --rebase` refuses because *their* files are dirty, defer rather than `--autostash`.
