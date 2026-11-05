@@ -1,0 +1,320 @@
+{
+ "issuer": "Capital One",
+ "cik": 927628,
+ "retrieved_utc": "2026-11-05T01:45:58Z",
+ "client": "generic User-Agent; filed tables parsed by full-document HTML table read",
+ "units": "USD millions",
+ "scope": "rolling-12-month FDM performance tables; domestic card and international card; personal loans excluded",
+ "sources": {
+  "20250630_10q": {
+   "accession": "0000927628-25-000247",
+   "filed": "2025-07-31",
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000247/cof-20250630.htm",
+   "bytes": 8706880,
+   "sha256": "26d83eb76ffe42dcb89581b48243293a1208bd314ce21b664f18a7a363d83982"
+  },
+  "20250930_10q": {
+   "accession": "0000927628-25-000276",
+   "filed": "2025-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762825000276/cof-20250930.htm",
+   "bytes": 8534390,
+   "sha256": "682d8069e66cff5f07ea77564808b65a14e934d050b3a60faefcdc7e1004218b"
+  },
+  "20251231_10k": {
+   "accession": "0000927628-26-000024",
+   "filed": "2026-02-19",
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+   "bytes": 9213755,
+   "sha256": "d1c13307b34e37612d301bc0345d6beae4d114210ac7767535eebb4a5abfa66f"
+  },
+  "20260331_10q": {
+   "accession": "0000927628-26-000048",
+   "filed": "2026-05-07",
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000048/cof-20260331.htm",
+   "bytes": 6553425,
+   "sha256": "e07370a4bda4fd41879d9de07c3634865d75aec3e575056832d585017a2f73a6"
+  },
+  "20260930_10q": {
+   "accession": "0000927628-26-000152",
+   "filed": "2026-11-03",
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm",
+   "bytes": 8264002,
+   "sha256": "b02d6b4cdbf02f6eea5129795dc86eac668fdfe8da2c2521671de964e0064e71"
+  },
+  "20260630_10q": {
+   "accession": "0000927628-26-000089",
+   "filed": "2026-07-28",
+   "url": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000089/cof-20260630.htm",
+   "note": "values read from retained research/2026-10-12_cards/COF-Q2-2026-tables.json"
+  }
+ },
+ "periods": {
+  "2025-06-30": {
+   "dom": [
+    3423,
+    200,
+    141,
+    297,
+    638,
+    4061
+   ],
+   "intl": [
+    77,
+    12,
+    10,
+    36,
+    58,
+    135
+   ],
+   "book": [
+    252481,
+    9080
+   ],
+   "src": "20250630_10q",
+   "t": "T229/T200",
+   "dom_delinquent_share_pct": 15.7,
+   "book_30plus_pct": 3.6,
+   "cohort_del_share_of_book_del_pct": 7.03
+  },
+  "2025-09-30": {
+   "dom": [
+    3343,
+    228,
+    160,
+    306,
+    694,
+    4037
+   ],
+   "intl": [
+    74,
+    12,
+    11,
+    35,
+    58,
+    132
+   ],
+   "book": [
+    253951,
+    9888
+   ],
+   "src": "20250930_10q",
+   "t": "T229/T200",
+   "dom_delinquent_share_pct": 17.2,
+   "book_30plus_pct": 3.89,
+   "cohort_del_share_of_book_del_pct": 7.02
+  },
+  "2025-12-31": {
+   "dom": [
+    3250,
+    221,
+    164,
+    328,
+    713,
+    3963
+   ],
+   "intl": [
+    77,
+    13,
+    13,
+    40,
+    66,
+    143
+   ],
+   "book": [
+    262403,
+    10471
+   ],
+   "src": "20251231_10k",
+   "t": "T323/T293",
+   "dom_delinquent_share_pct": 18.0,
+   "book_30plus_pct": 3.99,
+   "cohort_del_share_of_book_del_pct": 6.81
+  },
+  "2026-03-31": {
+   "dom": [
+    3140,
+    194,
+    149,
+    304,
+    647,
+    3787
+   ],
+   "intl": [
+    80,
+    14,
+    13,
+    43,
+    70,
+    150
+   ],
+   "book": [
+    254028,
+    9395
+   ],
+   "src": "20260331_10q",
+   "t": "T205/T178",
+   "dom_delinquent_share_pct": 17.1,
+   "book_30plus_pct": 3.7,
+   "cohort_del_share_of_book_del_pct": 6.89
+  },
+  "2026-06-30": {
+   "dom": [
+    3098,
+    210,
+    147,
+    288,
+    645,
+    3743
+   ],
+   "intl": [
+    84,
+    13,
+    11,
+    45,
+    69,
+    153
+   ],
+   "book": [
+    259005,
+    8770
+   ],
+   "src": "20260630_10q",
+   "t": "Q2 JSON 211/182",
+   "dom_delinquent_share_pct": 17.2,
+   "book_30plus_pct": 3.39,
+   "cohort_del_share_of_book_del_pct": 7.35
+  },
+  "2026-09-30": {
+   "dom": [
+    2955,
+    350,
+    225,
+    418,
+    993,
+    3948
+   ],
+   "intl": [
+    86,
+    13,
+    12,
+    45,
+    70,
+    156
+   ],
+   "book": [
+    260252,
+    9741
+   ],
+   "src": "20260930_10q",
+   "t": "T213/T183",
+   "dom_delinquent_share_pct": 25.2,
+   "book_30plus_pct": 3.74,
+   "cohort_del_share_of_book_del_pct": 10.19
+  }
+ },
+ "june_sept_card_ex_personal": {
+  "2026-06-30": {
+   "current": 3182,
+   "d30": 714,
+   "d90": 333,
+   "total": 3896,
+   "denominator": 266789,
+   "bp": 119.27
+  },
+  "2026-09-30": {
+   "current": 3041,
+   "d30": 1063,
+   "d90": 463,
+   "total": 4104,
+   "denominator": 268376,
+   "bp": 113.31
+  }
+ },
+ "flows_period_amounts_dom_intl_pctclass": {
+  "Q2-2025": [
+   1027,
+   58,
+   "0.41%"
+  ],
+  "Q3-2025": [
+   1164,
+   57,
+   "0.46%"
+  ],
+  "Q1-2026": [
+   1103,
+   72,
+   "0.43%"
+  ],
+  "Q2-2026": [
+   1008,
+   69,
+   "0.39%"
+  ],
+  "Q3-2026": [
+   1365,
+   70,
+   "0.52%"
+  ]
+ },
+ "ytd_dom_intl": {
+  "H1-2026": [
+   2001,
+   108
+  ],
+  "9M-2026": [
+   3143,
+   134
+  ],
+  "H1-2025": [
+   2192,
+   93
+  ],
+  "9M-2025": [
+   3148,
+   113
+  ]
+ },
+ "subsequent_default_dom_intl": {
+  "Q2-2025": [
+   191,
+   23
+  ],
+  "Q3-2025": [
+   165,
+   23
+  ],
+  "Q1-2026": [
+   163,
+   24
+  ],
+  "Q2-2026": [
+   152,
+   26
+  ],
+  "Q3-2026": [
+   230,
+   26
+  ]
+ },
+ "derived": {
+  "cohort_del_jun_sep_2026_pct": 54.0,
+  "book_del_jun_sep_2026_pct": 11.1,
+  "cohort_del_jun_sep_2025_pct": 8.8,
+  "book_del_jun_sep_2025_pct": 8.9,
+  "cohort_share_of_book_del_rise_2026_pct": 35.8,
+  "cohort_share_of_book_del_rise_2025_pct": 6.9,
+  "cohort_del_to_book_loans_bp_jun": 24.9,
+  "cohort_del_to_book_loans_bp_sep": 38.16,
+  "flow_q3_vs_q2_pct": 35.4,
+  "flow_q3_yoy_pct": 17.3,
+  "subdef_q3_vs_q2_pct": 51.3,
+  "subdef_q3_yoy_pct": 39.4,
+  "current_jun_sep_pct": -4.6,
+  "dom_90_jun_sep_pct": 45.1,
+  "dom_30_jun_sep_pct": 66.7,
+  "dom_60_jun_sep_pct": 53.1,
+  "ytd_minus_h1_2026": 1142,
+  "ytd_minus_h1_2025": 956
+ }
+}
