@@ -9,9 +9,23 @@ prediction-confidence moves of note, new transmission rows, case-status escalati
 NOT routine dashboard refreshes (those live in STATUS) and NOT structural doc/folder
 changes (those live in `MAINTENANCE.md`).
 
-**Versioning:** THESISv1.5 (August27) with bounded October19 factual addendum. Finalv1.6 remains dueOctober30 after earnings and independent cold read; not finalized by s034.
+**Versioning:** THESIS v1.6 (2026-11-05, s041), six days after its October 30 target. Independent cold read and one bounded diff read completed. CATO OT1 closure is CATO's to record.
 
 **Format:** reverse-chronological. Each entry: `### YYYY-MM-DD — headline`, then **Was → Is**, **Trigger**, **Touches**, and any calibration note. *(Un-fused from the first entry heading 2026-08-14 — the sentence had been concatenated onto an entry title since the v1.2 pass, so the newest entry always inherited the words "Format: reverse-chronological. Each entry:" as part of its heading.)*
+
+### 2026-11-05 — s041 THESIS v1.6: Carvana dormant, borrower exit relabelled a hypothesis, the SDT's noise floor withdrawn
+
+**Was → Is:**
+- **Carvana sub-thesis:** LOWER → **DORMANT.** The registered −40% is applied. V5 2 → 1, composite 33 → 32. Dormant, not refuted.
+- **Invisible Exit:** "no longer OTTO's inference" → **an unverified hypothesis.** What is charged is falsified delinquency data and double pledging. Missing vehicles and charges do not establish borrower exit (CATO OT1). The headline, mechanism and "industrial validation" sections are relabelled, and Tricolor is no longer called proof of it.
+- **Severity-Divergence Test:** a stated 2×SE of 1.23pp → **withdrawn.** The script compares two single months, so a two-endpoint difference has a 2-SD range of about 8 to 12pp. The preview moved from +0.06 (REFUTE, August) to +16.12 (NO VERDICT), mostly from endpoints. August grade and registered terms stand, and the second observation (~11/15) will be NO VERDICT.
+- **Vintage claim:** "2022 was the worst" stands; "only 2022" is unsupported. Credit Acceptance cut forecast collection rates for 2022 through 2026 assignments, with 2024 to 2026 cut most.
+- **Recovery:** EART 2024-1 re-crossed 28% at September collections and the trigger re-fired. The strengthening row is MET and not applied: level test, noisy, cause unidentified.
+- **New:** V2 recovery rung at 15¢ and 35¢, reusing existing lines. Positioning section reconciled to the surviving claims; the TLT expression is removed. The Secondary break sentence resting on a loss level is withdrawn.
+
+**Calibration:** OTTO-34 current estimate 50 → 85 (as-made 60 scores). OTTO-36 and OTTO-37 registered. OTTO-35 unchanged at 15%.
+
+**Trigger:** v1.6 overdue since 10/30; Exeter September 10-Ds; Credit Acceptance and CPS Q3. **Touches:** THESIS, STATUS, PREDICTIONS, ML-345 to 349, `research/2026-11-05_catchup/READOUT.md`, WALTER drop `SIG-OTTO-WALTER-20261105`. No trade proposal.
 
 ### 2026-10-28 — s040 Carvana carve-out: registered downgrade condition met, applied at v1.6
 
