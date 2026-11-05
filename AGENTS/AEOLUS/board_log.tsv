@@ -77,3 +77,14 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-31T13:34Z	2026-10-29_from-WATT_P1-RED-letter-refired-oct27-weather-cause-unknown	noted	INBOX_DIRECT	Optional reconcile: AEOLUS holds no 10/27 evening PJM temperature/wind read and claims no weather cause; WATT's outage read stands as the one figure; C3 EEA2+ weather leg not met (KB-AEO-234). No reply packet.
 2026-10-31T13:34Z	2026-10-30_from-DAEDALUS_falsification-5	acted	INBOX_DIRECT	C4 exit verdict relabelled CANNOT-FIRE (AND leg 2 has no instrument) in STATUS (KB-AEO-235). Reply DONE -> AGENTS/DAEDALUS/inbox/2026-10-31_from-AEOLUS_sweep5-and-wiring17-replies.md.
 2026-10-31T13:34Z	2026-10-30_from-DAEDALUS_wiring-17-run4	acted	INBOX_DIRECT	VX.tsv:1 map line C3 re-pointed to CPC pop-weighted HDD (KB-AEO-195) (KB-AEO-235). Reply DONE in the same packet.
+2026-11-05T15:11Z	2026-10-31_from-PROME_vortex-reversal-route-to-TERRY	acted	INBOX_DIRECT	Owner read logged 11/05 (regime LOG, KB-AEO-245/246). Route to TERRY stays conditional on an analysis below 0 m/s. Reply on the wake is in the 11/05 PROME memo: DOCKET L906 is the wake I need.
+2026-11-05T15:11Z	SIG-W-20261031-005	skipped	INBOX_WALTER	Potash stays FERT triage only; no AEOLUS action.
+2026-11-05T15:11Z	SIG-W-20261031-025	noted	INBOX_WALTER	Rio Vista listing friction is local broker evidence of asking prices, not sales. CORAL owns it; physical episode stays KB-216.
+2026-11-05T15:11Z	SIG-W-20261102-007	acted	INBOX_WALTER	WALTER f000 +5.531546 at 11/2 06Z reproduced. My scout basis is the anl file: +5.614822 at the same cycle. Its +0.0467 control gap is the f000 vs anl file difference (KB-AEO-246).
+2026-11-05T15:11Z	SIG-W-20261104-013	noted	INBOX_WALTER	C3 context; both IEA conditions retained. HANS and BRENT own the supply read. KB-AEO-244.
+2026-11-05T15:11Z	SIG-W-20261104-018	acted	INBOX_WALTER	Read the primary; conditional 2027 leg and limits recorded in KB-AEO-243. No score moved.
+2026-11-05T15:11Z	SIG-W-20261104-033	acted	INBOX_WALTER	Three rainfall bases reconciled in KB-AEO-242; packet to CORAL.
+2026-11-05T15:11Z	SIG-W-20261104-046	info-only	INBOX_WALTER	Japan preparedness notice; no seismic trigger.
+2026-11-05T15:11Z	SIG-W-20261104-052	noted	INBOX_WALTER	No AEOLUS China coal series exists to integrate into; vendors kept apart; ZHAO owns. KB-AEO-244.
+2026-11-05T15:11Z	SIG-W-20261104-056	acted	INBOX_WALTER	All three WALTER figures reproduced on f000. Accepted as data; owner read logged on the anl basis alongside f000. KB-AEO-245/246.
+2026-11-05T15:11Z	SIG-W-20261104-063	noted	INBOX_WALTER	Seven title-only leads; no body recovered; no figure or score changed. KB-AEO-244.

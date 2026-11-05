@@ -107,3 +107,12 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-09-23	nino3_weekly	4.0	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	REVISED from 3.9 (recorded 2026-09-28). OISSTv2.1 near-real-time revision
 2026-09-30	nino3_weekly	4.1	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	REVISED from 4.0 (recorded 2026-10-09). OISSTv2.1 near-real-time revision
 2026-09-30	nino4_weekly	1.3	degC	CPC-wksst9120.for	2026-10-29 00:27 ET	REVISED from 1.2 (recorded 2026-10-09). OISSTv2.1 near-real-time revision
+2026-10-28	nino34_weekly	3.4	degC	CPC-wksst9120.for	2026-11-05 10:08 ET	week centered 28OCT2026; SST 30.2; col3. LATEST WEEK at this pull. Flat vs 21OCT (3.4)
+2026-10-28	nino3_weekly	4.4	degC	CPC-wksst9120.for	2026-11-05 10:08 ET	week centered 28OCT2026; SST 29.5
+2026-10-28	nino4_weekly	1.4	degC	CPC-wksst9120.for	2026-11-05 10:08 ET	week centered 28OCT2026; SST 30.1; from 1.1 (21OCT)
+2026-10-28	nino12_weekly	5.4	degC	CPC-wksst9120.for	2026-11-05 10:08 ET	week centered 28OCT2026; SST 26.7
+2026-ASO	oni	2.46	degC	CPC-oni.ascii	2026-11-05 10:08 ET	NEW SEASON ASO 2026 (Nino-3.4 total 29.23). ERSSTv6. Traj JJA +1.80 -> JAS +2.16 -> ASO +2.46 (+0.30)
+2026-ASO	roni	1.97	degC	CPC-RONI.ascii	2026-11-05 10:08 ET	NEW SEASON ASO 2026. ERSSTv6. Traj JJA +1.36 -> JAS +1.69 -> ASO +1.97 (+0.28). Most recent values are an estimate per CPC. Margin vs +2.5 historic bar = -0.53 (below); vs 1982-83 record +2.40 = -0.43
+2026-11-05	oni_minus_roni	0.49	degC	derived-CPC	2026-11-05 10:08 ET	ASO 2026: ONI +2.46 - RONI +1.97. Recomputed, NOT carried forward
+2026-10-31	nino34_monthly	3.25	degC	CPC-sstoi.indices	2026-11-05 10:08 ET	NEW MONTH Oct 2026 (SST 30.01). OISST 1991-2020 fixed, TRADITIONAL (absolute). col 4 (sstoi order 1+2/3/4/3.4). From Sep +2.84 = +0.41 MoM
+2026-10-31	nino12_monthly	5.25	degC	CPC-sstoi.indices	2026-11-05 10:08 ET	Oct 2026 Nino-1+2 (SST 26.12), from Sep +4.69. THE FIGURE MISQUOTED AS 3.4 - check region

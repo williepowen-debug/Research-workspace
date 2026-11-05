@@ -975,3 +975,71 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-10-25	gatun_elev	86.45	ft	ACP-GATUN-CSV	2026-10-29 00:25 ET	ACP history CSV (1965-01-01 -> 2026-10-27)
 2026-10-26	gatun_elev	86.52	ft	ACP-GATUN-CSV	2026-10-29 00:25 ET	ACP history CSV (1965-01-01 -> 2026-10-27)
 2026-10-27	gatun_elev	86.56	ft	ACP-GATUN-CSV	2026-10-29 00:25 ET	ACP history CSV (1965-01-01 -> 2026-10-27); same-date 10-27: 2023 79.63 / 2024 87.47 / 2025 87.92; +0.36 ft vs 86.20 (10/20)
+2026-11-04	contargo_lws_kaub_20ft	1075	EUR_per_container	CONTARGO-KWZ	2026-11-05 10:08 ET	Kaub 23 cm (Contargo table, departure date) -> row 'ab 40 cm' (40': EUR 1,280); DE page table dated 05.11.2026
+2026-11-05	contargo_lws_kaub_20ft	1075	EUR_per_container	CONTARGO-KWZ	2026-11-05 10:08 ET	Kaub 18 cm -> row 'ab 40 cm' (40': EUR 1,280); DE page table dated 05.11.2026
+2026-11-04	contargo_lws_duisburg_20ft	335	EUR_per_container	CONTARGO-KWZ	2026-11-05 10:08 ET	Ruhrort 158 cm -> row 160-151 cm (40: EUR 440); DE page table dated 05.11.2026
+2026-11-05	contargo_lws_duisburg_20ft	335	EUR_per_container	CONTARGO-KWZ	2026-11-05 10:08 ET	Ruhrort 153 cm -> row 160-151 cm (40: EUR 440); DE page table dated 05.11.2026
+2026-10-29	kaub_stage	52.0	cm	WSV-PEGELONLINE-KAUB	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=94 of 96); UNROUNDED mean 52.362; day min 44 max 61; ABOVE live C5 key 40 by +12.362 (WQ-562 key since 10/31)
+2026-10-30	kaub_stage	41.0	cm	WSV-PEGELONLINE-KAUB	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 41.156; day min 36 max 46; ABOVE live C5 key 40 by +1.156 (WQ-562 key since 10/31)
+2026-10-31	kaub_stage	32.0	cm	WSV-PEGELONLINE-KAUB	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 32.240; day min 28 max 36; AT/BELOW live C5 key 40 by -7.760 (WQ-562 key since 10/31)
+2026-11-01	kaub_stage	23.0	cm	WSV-PEGELONLINE-KAUB	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 23.365; day min 19 max 27; AT/BELOW live C5 key 40 by -16.635 (WQ-562 key since 10/31)
+2026-11-02	kaub_stage	19.0	cm	WSV-PEGELONLINE-KAUB	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 19.104; day min 16 max 22; AT/BELOW live C5 key 40 by -20.896 (WQ-562 key since 10/31)
+2026-11-03	kaub_stage	18.0	cm	WSV-PEGELONLINE-KAUB	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 18.010; day min 16 max 20; AT/BELOW live C5 key 40 by -21.990 (WQ-562 key since 10/31)
+2026-11-04	kaub_stage	22.0	cm	WSV-PEGELONLINE-KAUB	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 22.260; day min 19 max 24; AT/BELOW live C5 key 40 by -17.740 (WQ-562 key since 10/31)
+2026-10-29	duisburg_ruhrort_stage	215.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 215.385; day min 208 max 223; ABOVE live C5 key 180 by +35.385 (WQ-562 key since 10/31)
+2026-10-30	duisburg_ruhrort_stage	205.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 204.792; day min 200 max 209; ABOVE live C5 key 180 by +24.792 (WQ-562 key since 10/31)
+2026-10-31	duisburg_ruhrort_stage	194.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 194.344; day min 187 max 201; ABOVE live C5 key 180 by +14.344 (WQ-562 key since 10/31)
+2026-11-01	duisburg_ruhrort_stage	182.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 181.688; day min 175 max 188; ABOVE live C5 key 180 by +1.688 (WQ-562 key since 10/31)
+2026-11-02	duisburg_ruhrort_stage	169.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 168.979; day min 164 max 174; AT/BELOW live C5 key 180 by -11.021 (WQ-562 key since 10/31)
+2026-11-03	duisburg_ruhrort_stage	161.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 161.427; day min 157 max 166; AT/BELOW live C5 key 180 by -18.573 (WQ-562 key since 10/31)
+2026-11-04	duisburg_ruhrort_stage	154.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-05 10:08 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 154.427; day min 150 max 158; AT/BELOW live C5 key 180 by -25.573 (WQ-562 key since 10/31)
+2026-10-28	powell_elev	3531.02	ft	USBR-919-49	2026-11-05 10:08 ET	+21.02 ft vs ROD 3,510
+2026-10-29	powell_elev	3531.42	ft	USBR-919-49	2026-11-05 10:08 ET	+21.42 ft vs ROD 3,510
+2026-10-30	powell_elev	3531.69	ft	USBR-919-49	2026-11-05 10:08 ET	+21.69 ft vs ROD 3,510
+2026-10-31	powell_elev	3531.9	ft	USBR-919-49	2026-11-05 10:08 ET	+21.90 ft vs ROD 3,510
+2026-11-01	powell_elev	3532.42	ft	USBR-919-49	2026-11-05 10:08 ET	+22.42 ft vs ROD 3,510
+2026-11-02	powell_elev	3533.46	ft	USBR-919-49	2026-11-05 10:08 ET	+23.46 ft vs ROD 3,510
+2026-11-03	powell_elev	3534.5	ft	USBR-919-49	2026-11-05 10:08 ET	+24.50 ft vs ROD 3,510
+2026-11-04	powell_elev	3535.89	ft	USBR-919-49	2026-11-05 10:08 ET	+25.89 ft vs ROD 3,510
+2026-10-28	mead_elev	1038.38	ft	USBR-921-49	2026-11-05 10:08 ET	+3.38 ft vs Hoover 1,035
+2026-10-29	mead_elev	1038.51	ft	USBR-921-49	2026-11-05 10:08 ET	+3.51 ft vs Hoover 1,035
+2026-10-30	mead_elev	1038.66	ft	USBR-921-49	2026-11-05 10:08 ET	+3.66 ft vs Hoover 1,035
+2026-10-31	mead_elev	1038.85	ft	USBR-921-49	2026-11-05 10:08 ET	+3.85 ft vs Hoover 1,035
+2026-11-01	mead_elev	1038.93	ft	USBR-921-49	2026-11-05 10:08 ET	+3.93 ft vs Hoover 1,035
+2026-11-02	mead_elev	1039.06	ft	USBR-921-49	2026-11-05 10:08 ET	+4.06 ft vs Hoover 1,035
+2026-11-03	mead_elev	1039.21	ft	USBR-921-49	2026-11-05 10:08 ET	+4.21 ft vs Hoover 1,035
+2026-11-04	mead_elev	1039.29	ft	USBR-921-49	2026-11-05 10:08 ET	+4.29 ft vs Hoover 1,035
+2026-10-28	gatun_elev	86.57	ft	ACP-GATUN-CSV	2026-11-05 10:08 ET	ACP history CSV
+2026-10-29	gatun_elev	86.56	ft	ACP-GATUN-CSV	2026-11-05 10:08 ET	ACP history CSV
+2026-10-30	gatun_elev	86.75	ft	ACP-GATUN-CSV	2026-11-05 10:08 ET	ACP history CSV
+2026-10-31	gatun_elev	86.97	ft	ACP-GATUN-CSV	2026-11-05 10:08 ET	ACP history CSV
+2026-11-01	gatun_elev	87.03	ft	ACP-GATUN-CSV	2026-11-05 10:08 ET	ACP history CSV
+2026-11-02	gatun_elev	87.05	ft	ACP-GATUN-CSV	2026-11-05 10:08 ET	ACP history CSV
+2026-11-03	gatun_elev	87.08	ft	ACP-GATUN-CSV	2026-11-05 10:08 ET	ACP history CSV
+2026-11-04	gatun_elev	87.08	ft	ACP-GATUN-CSV	2026-11-05 10:08 ET	ACP history CSV
+2026-10-29	memphis_stage	-2.052	ft	NOAA-NWPS-MEMT1	2026-11-05 10:08 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-10-30	memphis_stage	-3.017	ft	NOAA-NWPS-MEMT1	2026-11-05 10:08 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-10-31	memphis_stage	-3.965	ft	NOAA-NWPS-MEMT1	2026-11-05 10:08 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-01	memphis_stage	-4.239	ft	NOAA-NWPS-MEMT1	2026-11-05 10:08 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-02	memphis_stage	-4.124	ft	NOAA-NWPS-MEMT1	2026-11-05 10:08 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-03	memphis_stage	-4.421	ft	NOAA-NWPS-MEMT1	2026-11-05 10:08 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-04	memphis_stage	-4.179	ft	NOAA-NWPS-MEMT1	2026-11-05 10:08 ET	BASIS=DAILY_MEAN of hourly obs, UTC calendar day (n=24 of 24, complete>=22); observed level only, NO GRADE (rule 9/18)
+2026-11-03	usdm_conus_d1d4	43.98	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-11-03
+2026-11-03	usdm_conus_d0d4	69.06	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-11-03
+2026-11-03	usdm_conus_d2d4	22.96	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-11-03
+2026-11-03	usdm_conus_d3d4	8.20	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-11-03
+2026-11-03	usdm_conus_d4	1.60	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-11-03
+2026-11-03	usdm_conus_none	30.94	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-11-03
+2026-10-27	usdm_conus_d1d4	49.49	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-10-27
+2026-10-27	usdm_conus_d0d4	72.66	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-10-27
+2026-10-27	usdm_conus_d2d4	26.74	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-10-27
+2026-10-27	usdm_conus_d3d4	9.36	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-10-27
+2026-10-27	usdm_conus_d4	1.65	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-10-27
+2026-10-27	usdm_conus_none	27.34	pct	USDM-API-CONUS	2026-11-05 10:08 ET	CONUS (not Total); mapDate 2026-10-27
+2026-10-27	usda_barge_rate_pct	782	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Twin Cities; = $48.41/ton (benchmark 6.19)
+2026-10-27	usda_barge_rate_pct	782	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Mid-Mississippi; = $41.60/ton (benchmark 5.32)
+2026-10-27	usda_barge_rate_pct	731.25	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Lower Illinois; = $33.93/ton (benchmark 4.64)
+2026-10-27	usda_barge_rate_pct	564.0625	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	St. Louis; = $22.51/ton (benchmark 3.99)
+2026-10-27	usda_barge_rate_pct	706.25	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Cincinnati; = $33.12/ton (benchmark 4.69)
+2026-10-27	usda_barge_rate_pct	706.25	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Lower Ohio; = $31.50/ton (benchmark 4.46)
+2026-10-27	usda_barge_rate_pct	481.25	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Cairo-Memphis; = $15.11/ton (benchmark 3.14)
