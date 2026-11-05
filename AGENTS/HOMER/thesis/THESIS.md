@@ -121,6 +121,9 @@ The DAEDALUS card (`HOMER_CARD.md` §4) says "five elements per leg" without lis
 | D6 | 2026-09-29 | No REGINALD-side (bank-loss) confirm criterion. The upgrade to "transmission confirmed" is REGINALD's call, so this rail only kills | By design; revisit if REGINALD asks |
 | D7 | 2026-10-15 | **D1 CLOSED.** DAEDALUS confirmed 2026-10-01 that my five elements match `market-agent.md` §4 one for one (packet `inbox/processed/2026-10-01_from-DAEDALUS_D1-five-elements-confirmed.md`) | None |
 | D8 | 2026-10-15 | DAEDALUS Gate-Basis #2 (10/08): resolving vintage, UNGRADED-month handling, the provision comparison period and C1's count-vs-rate were unstated. Clarified in §7 without moving any level | GATES summary cell is PROME's: packeted 2026-10-15 |
+| D9 | 2026-11-05 | **D2 CLOSED at quarter-end grain.** Issuer 10-Qs and 10-Ks: both books below 0.50% at 12/23, 3/24, 6/24 (`MULTIFAMILY.tsv` 2026-11-05 history row). Fannie Dec-22 0.24% verified | Month-by-month joint run and Freddie before 6/23 remain unshown; not needed to show satisfiability |
+| D10 | 2026-11-05 | **D4 CLOSED.** NAHB Table 2: last run of three at or above 40 was Sep to Nov 2024; last reading 40 in April 2025 (`BUILDER.tsv` 2026-11-05 history row) | None |
+| D11 | 2026-11-05 | **§4 grade-date input defect.** §4 says the 11/20 grade comes after the ICE October First Look, but ICE publishes about 11/23–30 (September came 10/27). Found by HOMER, no level or criterion affected | Grade 11/20 on the newest print then held, say so, and update C1 mechanically at the October print. D3 stays open: MBA history is 403 to this box |
 
 ---
 

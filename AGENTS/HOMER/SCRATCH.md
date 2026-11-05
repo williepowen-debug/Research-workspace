@@ -18,10 +18,10 @@
 
 - **Fri 11/06:** loanDepot Q3 (no 8-K at 11/05) · Las Vegas Realtors (429 on 11/05).
 - **Tue 11/10:** NY Fed Q3 (issuer-stated). **Thu 11/12:** HOM-03 grade, PMMS. **~11/13:** Trepp Oct SS, ICE Monitor window.
-- **Still unobtained:** ATTOM Sept/Q3 · Fannie Sept monthly (403) · TX Nov list and Oct MF subtotal · GDP RFI line (retry 11/25) · MBA Q3 needs a secondary or Will's hands (mba.org 403).
+- **Still unobtained:** ATTOM Sept/Q3 · Fannie Sept monthly (403) · TX Nov list and Oct MF subtotal · GDP RFI −3.3% is secondary, confirm 11/25 · MBA Q3 needs a secondary or Will's hands (mba.org 403).
 - **PROME owes:** four DOCKET rows for HOM-03–06; READS.tsv HOMER row.
 - ⚠️ LESSONS.md near its rotation trigger: rotate before the next lesson. Candidate lesson held, not written: a batch `git mv` filed unread signal 063; list the inbox again immediately before any batch move.
-- DAEDALUS #8 (THESIS D2–D4, A2 upgrade rung) stays for 11/20. Formal grade **2026-11-20**; HOM-02 decider MBA Q3 NDS ~mid-Nov.
+- THESIS D2 and D4 CLOSED 11/05 from issuer history; D3 open (mba.org 403); D11 logged: ICE October lands after 11/20, grade on September and update mechanically. Grade worksheet in `reports/2026-11-05_catchup.md`. A2 upgrade rung stays for 11/20. Held lesson not written: Will wants fewer rules, and the membership grep already caught it. Formal grade **2026-11-20**; HOM-02 decider MBA Q3 NDS ~mid-Nov.
 - ATTOM path is `/news/market-trends/foreclosures/` (plural); singular 404s prove nothing.
 
 - ⚠️ **PUSH NOT DONE.** safe-push failed 3 times 2026-11-05: 1 unread abort, then 2 GitHub rejections, `fatal error in commit_refs_rules`, on a clean fast-forward. Commits are local: 3238c184b is not on origin at 18:4x ET. Flagged to PROME. No force. Packets are readable in this shared tree; re-run `scripts/safe-push.sh` next session.
