@@ -1,0 +1,118 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/NDMA_bousai/status/2117121870311162246",
+    "id": "2117121870311162246",
+    "text": "\u3010\u7dca\u6025\u8981\u8acb\u2460\u3011\uff5e\u56fd\u6c11\u306e\u307f\u306a\u3055\u307e\u3078\uff5e\u200b\n\n\u56fd\u96e3\u7d1a\u306e\u707d\u5bb3\u3067\u306f\u3001\u884c\u653f\u3060\u3051\u306b\u3088\u308b\u5bfe\u5fdc\u306b\u306f\u9650\u754c\u304c\u3042\u308a\u307e\u3059\u3002\u200b\n\n\u5bb6\u5177\u306e\u56fa\u5b9a\u3001\u6c34\u30fb\u98df\u6599\u30fb\u643a\u5e2f\u7528\u30c8\u30a4\u30ec\u306e\u5099\u84c4\u3001\u907f\u96e3\u7d4c\u8def\u306e\u78ba\u8a8d\u3001\u9632\u707d\u8a13\u7df4\u3078\u306e\u53c2\u52a0\u7b49\u3001\u4e00\u4eba\u3072\u3068\u308a\u304c\u300c\u81ea\u3089\u306e\u547d\u306f\u81ea\u3089\u5b88\u308b\u300d\u3053\u3068\u3092\u610f\u8b58\u3057\u306a\u304c\u3089\u707d\u5bb3\u3078\u306e\u5099\u3048\u3092\u5fc3\u304c\u3051\u307e\u3057\u3087\u3046\u3002https://www.bousai.go.jp/juyou/emergency_request.html",
+    "raw_text": {
+      "text": "\u3010\u7dca\u6025\u8981\u8acb\u2460\u3011\uff5e\u56fd\u6c11\u306e\u307f\u306a\u3055\u307e\u3078\uff5e\u200b\n\n\u56fd\u96e3\u7d1a\u306e\u707d\u5bb3\u3067\u306f\u3001\u884c\u653f\u3060\u3051\u306b\u3088\u308b\u5bfe\u5fdc\u306b\u306f\u9650\u754c\u304c\u3042\u308a\u307e\u3059\u3002\u200b\n\n\u5bb6\u5177\u306e\u56fa\u5b9a\u3001\u6c34\u30fb\u98df\u6599\u30fb\u643a\u5e2f\u7528\u30c8\u30a4\u30ec\u306e\u5099\u84c4\u3001\u907f\u96e3\u7d4c\u8def\u306e\u78ba\u8a8d\u3001\u9632\u707d\u8a13\u7df4\u3078\u306e\u53c2\u52a0\u7b49\u3001\u4e00\u4eba\u3072\u3068\u308a\u304c\u300c\u81ea\u3089\u306e\u547d\u306f\u81ea\u3089\u5b88\u308b\u300d\u3053\u3068\u3092\u610f\u8b58\u3057\u306a\u304c\u3089\u707d\u5bb3\u3078\u306e\u5099\u3048\u3092\u5fc3\u304c\u3051\u307e\u3057\u3087\u3046\u3002https://t.co/TiVltx4W07 https://t.co/M6joT6bjMz",
+      "display_text_range": [
+        0,
+        154
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            131,
+            154
+          ],
+          "original": "https://t.co/TiVltx4W07",
+          "replacement": "https://www.bousai.go.jp/juyou/emergency_request.html",
+          "display": "bousai.go.jp/juyou/emergenc\u2026"
+        },
+        {
+          "type": "media",
+          "indices": [
+            155,
+            178
+          ],
+          "id": "2117119214821728257",
+          "display": "pic.x.com/M6joT6bjMz",
+          "original": "https://t.co/M6joT6bjMz",
+          "replacement": "https://x.com/NDMA_bousai/status/2117121870311162246/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "NDMA_bousai",
+      "url": "https://x.com/NDMA_bousai",
+      "id": "1147231333",
+      "followers": 684519,
+      "following": 43,
+      "likes": 7,
+      "media_count": 446,
+      "name": "\u9632\u707d\u5e81",
+      "description": "\u9632\u707d\u5e81\u306e\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3059\u3002\u707d\u5bb3\u95a2\u9023\u60c5\u5831\u306e\u767a\u4fe1\u3092\u306f\u3058\u3081\u3001\u9632\u707d\u306b\u5f79\u7acb\u3064\u60c5\u5831\u3092\u63d0\u4f9b\u3057\u3066\u3044\u307e\u3059\u3002\u5f53\u30a2\u30ab\u30a6\u30f3\u30c8\u3078\u306e\u30b3\u30e1\u30f3\u30c8\u306b\u5bfe\u3057\u3066\u306f\u539f\u5247\u3068\u3057\u3066\u8fd4\u4fe1\u3044\u305f\u3057\u307e\u305b\u3093\u3002\u7dca\u6025\u901a\u5831\u306a\u3069\u306f\u6d88\u9632119\u3001\u8b66\u5bdf110\u306b\u9023\u7d61\u3059\u308b\u3088\u3046\u304a\u9858\u3044\u3057\u307e\u3059\u3002\n\u904b\u55b6\u65b9\u91ddhttps://www.bousai.go.jp/twitterpolicy.html",
+      "raw_description": {
+        "text": "\u9632\u707d\u5e81\u306e\u516c\u5f0f\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3059\u3002\u707d\u5bb3\u95a2\u9023\u60c5\u5831\u306e\u767a\u4fe1\u3092\u306f\u3058\u3081\u3001\u9632\u707d\u306b\u5f79\u7acb\u3064\u60c5\u5831\u3092\u63d0\u4f9b\u3057\u3066\u3044\u307e\u3059\u3002\u5f53\u30a2\u30ab\u30a6\u30f3\u30c8\u3078\u306e\u30b3\u30e1\u30f3\u30c8\u306b\u5bfe\u3057\u3066\u306f\u539f\u5247\u3068\u3057\u3066\u8fd4\u4fe1\u3044\u305f\u3057\u307e\u305b\u3093\u3002\u7dca\u6025\u901a\u5831\u306a\u3069\u306f\u6d88\u9632119\u3001\u8b66\u5bdf110\u306b\u9023\u7d61\u3059\u308b\u3088\u3046\u304a\u9858\u3044\u3057\u307e\u3059\u3002\n\u904b\u55b6\u65b9\u91ddhttps://t.co/nExQarCZnU",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              113,
+              136
+            ],
+            "original": "https://t.co/nExQarCZnU",
+            "replacement": "https://www.bousai.go.jp/twitterpolicy.html",
+            "display": "bousai.go.jp/twitterpolicy.\u2026"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1147231333/1793545640",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2116909957148966912/4eunAk11_200x200.jpg",
+      "joined": "Mon Feb 04 06:35:50 +0000 2013",
+      "protected": false,
+      "website": {
+        "url": "http://www.bousai.go.jp",
+        "display_url": "bousai.go.jp"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "government"
+      },
+      "avatar_color": null
+    },
+    "replies": 2215,
+    "retweets": 6234,
+    "likes": 20445,
+    "bookmarks": 5162,
+    "quotes": 2829,
+    "created_at": "Mon Nov 02 05:09:22 +0000 2026",
+    "created_timestamp": 1793596162,
+    "possibly_sensitive": false,
+    "views": 6423789,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "ja",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2117119214821728257",
+          "url": "https://pbs.twimg.com/media/HWGEtXqaYAEYio4.jpg?name=orig",
+          "width": 1397,
+          "height": 986
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2117119214821728257",
+          "url": "https://pbs.twimg.com/media/HWGEtXqaYAEYio4.jpg?name=orig",
+          "width": 1397,
+          "height": 986
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

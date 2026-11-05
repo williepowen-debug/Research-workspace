@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/zerohedge/status/2117317173878120748",
+    "id": "2117317173878120748",
+    "text": "State Department Goes Dark After Substation \"Event\" Cuts Power To DC's Foggy Bottom  https://www.zerohedge.com/political/washingtons-foggy-bottom-hit-unscheduled-power-loss",
+    "raw_text": {
+      "text": "State Department Goes Dark After Substation \"Event\" Cuts Power To DC's Foggy Bottom  https://t.co/ZMr0sVNmz3",
+      "display_text_range": [
+        0,
+        108
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            85,
+            108
+          ],
+          "original": "https://t.co/ZMr0sVNmz3",
+          "replacement": "https://www.zerohedge.com/political/washingtons-foggy-bottom-hit-unscheduled-power-loss",
+          "display": "zerohedge.com/political/wash\u2026"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "zerohedge",
+      "url": "https://x.com/zerohedge",
+      "id": "18856867",
+      "followers": 3431786,
+      "following": 986,
+      "likes": 62,
+      "media_count": 29024,
+      "name": "zerohedge",
+      "description": "",
+      "raw_description": {
+        "text": "",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/72647502/tyler_200x200.jpg",
+      "joined": "Sun Jan 11 04:08:58 +0000 2009",
+      "protected": false,
+      "website": {
+        "url": "https://zerohedge.com",
+        "display_url": "zerohedge.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 27,
+    "retweets": 131,
+    "likes": 513,
+    "bookmarks": 42,
+    "quotes": 14,
+    "created_at": "Mon Nov 02 18:05:26 +0000 2026",
+    "created_timestamp": 1793642726,
+    "possibly_sensitive": false,
+    "views": 93004,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "https://www.zerohedge.com/political/washingtons-foggy-bottom-hit-unscheduled-power-loss",
+      "title": "State Department Goes Dark After Substation \"Event\" Cuts Power To DC's Foggy Bottom",
+      "description": "Very suspicious.\u00a0",
+      "domain": "www.zerohedge.com",
+      "image": {
+        "width": 700,
+        "height": 367,
+        "url": "https://pbs.twimg.com/card_img/2117317175731978240/xjUqIgst?format=png&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

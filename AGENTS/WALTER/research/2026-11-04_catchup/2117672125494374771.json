@@ -1,0 +1,94 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/FCNightingale/status/2117672125494374771",
+    "id": "2117672125494374771",
+    "text": "Brookfield is giving up the $600M, 785-unit Beaudry tower in downtown Los Angeles, less than four years after it opened, rather than refinance a loan of about $360M.\n\nThe lender, Apollo-owned Bridge Investment Group, is working to sell the loan. \n\nThe tower is about 95% occupied at asking rents near $4,200.\n\nOffice vacancy rates remain roughly double what they were in 2019, while apartment rents are just now back to levels seen before the pandemic.\n\n\"Rising over 600 feet, it offers innovative design, exceptional amenities, and open homes with unparalleled city, mountain, and ocean vistas for an elevated urban lifestyle.\"\n\n\"The tower features an outdoor pool at level three, multiple amenity decks including a rooftop amenity deck, BBQ area, water features, community rooms, pet spa, game room, gym, ballet studio, and a golf simulator.\" - Webcor\n\n#commercialrealestate\nhttps://www.credaily.com/briefs/brookfield-abandons-600m-downtown-la-beaudry-tower/",
+    "raw_text": {
+      "text": "Brookfield is giving up the $600M, 785-unit Beaudry tower in downtown Los Angeles, less than four years after it opened, rather than refinance a loan of about $360M.\n\nThe lender, Apollo-owned Bridge Investment Group, is working to sell the loan. \n\nThe tower is about 95% occupied at asking rents near $4,200.\n\nOffice vacancy rates remain roughly double what they were in 2019, while apartment rents are just now back to levels seen before the pandemic.\n\n\"Rising over 600 feet, it offers innovative design, exceptional amenities, and open homes with unparalleled city, mountain, and ocean vistas for an elevated urban lifestyle.\"\n\n\"The tower features an outdoor pool at level three, multiple amenity decks including a rooftop amenity deck, BBQ area, water features, community rooms, pet spa, game room, gym, ballet studio, and a golf simulator.\" - Webcor\n\n#commercialrealestate\nhttps://t.co/IJee8BwpUJ",
+      "display_text_range": [
+        0,
+        900
+      ],
+      "facets": [
+        {
+          "type": "hashtag",
+          "indices": [
+            855,
+            876
+          ],
+          "original": "commercialrealestate"
+        },
+        {
+          "type": "url",
+          "indices": [
+            877,
+            900
+          ],
+          "original": "https://t.co/IJee8BwpUJ",
+          "replacement": "https://www.credaily.com/briefs/brookfield-abandons-600m-downtown-la-beaudry-tower/",
+          "display": "credaily.com/briefs/brookfi\u2026"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "FCNightingale",
+      "url": "https://x.com/FCNightingale",
+      "id": "3067387477",
+      "followers": 51141,
+      "following": 17731,
+      "likes": 95998,
+      "media_count": 4947,
+      "name": "Nightingale Associates",
+      "description": "Management consulting, training and speaking.\nFocus: leadership, management, strategy, motivation and achievement.\nCompleted projects in 40 countries.",
+      "raw_description": {
+        "text": "Management consulting, training and speaking.\nFocus: leadership, management, strategy, motivation and achievement.\nCompleted projects in 40 countries.",
+        "facets": []
+      },
+      "location": "Global",
+      "banner_url": "https://pbs.twimg.com/profile_banners/3067387477/1435271252",
+      "avatar_url": "https://pbs.twimg.com/profile_images/574386215694168064/O4sqREQG_200x200.jpeg",
+      "joined": "Sun Mar 08 01:46:39 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "http://www.nightingaleassociates.net/",
+        "display_url": "nightingaleassociates.net"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 12,
+    "retweets": 38,
+    "likes": 253,
+    "bookmarks": 47,
+    "quotes": 5,
+    "created_at": "Tue Nov 03 17:35:53 +0000 2026",
+    "created_timestamp": 1793727353,
+    "views": 23340,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "https://www.credaily.com/briefs/brookfield-abandons-600m-downtown-la-beaudry-tower/",
+      "title": "Brookfield Abandons $600M Downtown LA Beaudry Tower",
+      "description": "Brookfield is surrendering its $600 million Los Angeles apartment tower rather than refinancing its $360 million loan at higher rates.",
+      "domain": "www.credaily.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2117669325708431360/T2G4KsdI?format=jpg&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

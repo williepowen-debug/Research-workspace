@@ -1,0 +1,251 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/WeatherProf/status/2117248917738012849",
+    "id": "2117248917738012849",
+    "text": "17\u201d of rain in 6 hours in Palm Beach Gardens, almost 2X the criteria of a 1-1000 year rain event. Tragically it may have been the cause of the jet crash, as a meso low formed and concentrated 5\u201d per hour rain rates, and lightning, with possible icing in the cloud. To be clear, this is the 3rd 1000 year rain event in the US in 3 days, amplified by Super #ElNino. A 1000 year rain event is based on historical statistics, and doesn\u2019t mean it happens only once per 1000 years, it means there\u2019s a 1-1000 chance any year. And in today\u2019s warmer climate, with El Ni\u00f1o too, the atmospheric is now more likely to produce these rare events. #PalmBeach #Florida #Flood",
+    "raw_text": {
+      "text": "17\u201d of rain in 6 hours in Palm Beach Gardens, almost 2X the criteria of a 1-1000 year rain event. Tragically it may have been the cause of the jet crash, as a meso low formed and concentrated 5\u201d per hour rain rates, and lightning, with possible icing in the cloud. To be clear, this is the 3rd 1000 year rain event in the US in 3 days, amplified by Super #ElNino. A 1000 year rain event is based on historical statistics, and doesn\u2019t mean it happens only once per 1000 years, it means there\u2019s a 1-1000 chance any year. And in today\u2019s warmer climate, with El Ni\u00f1o too, the atmospheric is now more likely to produce these rare events. #PalmBeach #Florida #Flood",
+      "display_text_range": [
+        0,
+        659
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            278,
+            301
+          ],
+          "id": "2117248844702547970",
+          "display": "pic.x.com/4eqi8IPDBU",
+          "original": "https://t.co/4eqi8IPDBU",
+          "replacement": "https://x.com/WeatherProf/status/2117248917738012849/video/1"
+        },
+        {
+          "type": "hashtag",
+          "indices": [
+            355,
+            362
+          ],
+          "original": "ElNino"
+        },
+        {
+          "type": "hashtag",
+          "indices": [
+            633,
+            643
+          ],
+          "original": "PalmBeach"
+        },
+        {
+          "type": "hashtag",
+          "indices": [
+            644,
+            652
+          ],
+          "original": "Florida"
+        },
+        {
+          "type": "hashtag",
+          "indices": [
+            653,
+            659
+          ],
+          "original": "Flood"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "WeatherProf",
+      "url": "https://x.com/WeatherProf",
+      "id": "963157886",
+      "followers": 62152,
+      "following": 9575,
+      "likes": 83247,
+      "media_count": 10730,
+      "name": "Jeff Berardelli",
+      "description": "WFLA-TV (Tampa Bay) Chief Meteorologist and Climate Specialist. BS Atmospheric Sciences Cornell U. MA Climate Columbia U. Past CBS News NY and Miami, Tampa, WPB",
+      "raw_description": {
+        "text": "WFLA-TV (Tampa Bay) Chief Meteorologist and Climate Specialist. BS Atmospheric Sciences Cornell U. MA Climate Columbia U. Past CBS News NY and Miami, Tampa, WPB",
+        "facets": []
+      },
+      "location": "Tampa, FL",
+      "banner_url": "https://pbs.twimg.com/profile_banners/963157886/1642456045",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1677067612944052227/YfNrhlzd_200x200.jpg",
+      "joined": "Wed Nov 21 21:55:14 +0000 2012",
+      "protected": false,
+      "website": {
+        "url": "http://WFLA.com",
+        "display_url": "WFLA.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 21,
+    "retweets": 209,
+    "likes": 673,
+    "bookmarks": 139,
+    "quotes": 29,
+    "created_at": "Mon Nov 02 13:34:13 +0000 2026",
+    "created_timestamp": 1793626453,
+    "possibly_sensitive": false,
+    "views": 54754,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "id": "2117248844702547970",
+          "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/1080x1630/VVXXU-3JWEksQH5v.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/media/HWH6m10bsAArM9d.jpg",
+          "duration": 21.266,
+          "width": 1080,
+          "height": 1630,
+          "format": "video/mp4",
+          "type": "video",
+          "formats": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/pl/WhZFHdWm4fVQ6idY.m3u8?tag=29&v=cfc",
+              "container": "m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/320x482/LrxwW3iL2l09ucNN.mp4?tag=29",
+              "bitrate": 632000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/480x724/isMiTjd9_bcdBkNl.mp4?tag=29",
+              "bitrate": 950000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/720x1086/fhINTT6v94Jhnid3.mp4?tag=29",
+              "bitrate": 2176000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/1080x1630/VVXXU-3JWEksQH5v.mp4?tag=29",
+              "bitrate": 10368000,
+              "container": "mp4",
+              "codec": "h264"
+            }
+          ],
+          "publisher": null,
+          "variants": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/pl/WhZFHdWm4fVQ6idY.m3u8?tag=29&v=cfc",
+              "bitrate": 0,
+              "content_type": "application/x-mpegURL"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/320x482/LrxwW3iL2l09ucNN.mp4?tag=29",
+              "bitrate": 632000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/480x724/isMiTjd9_bcdBkNl.mp4?tag=29",
+              "bitrate": 950000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/720x1086/fhINTT6v94Jhnid3.mp4?tag=29",
+              "bitrate": 2176000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/1080x1630/VVXXU-3JWEksQH5v.mp4?tag=29",
+              "bitrate": 10368000,
+              "content_type": "video/mp4"
+            }
+          ]
+        }
+      ],
+      "videos": [
+        {
+          "id": "2117248844702547970",
+          "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/1080x1630/VVXXU-3JWEksQH5v.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/media/HWH6m10bsAArM9d.jpg",
+          "duration": 21.266,
+          "width": 1080,
+          "height": 1630,
+          "format": "video/mp4",
+          "type": "video",
+          "formats": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/pl/WhZFHdWm4fVQ6idY.m3u8?tag=29&v=cfc",
+              "container": "m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/320x482/LrxwW3iL2l09ucNN.mp4?tag=29",
+              "bitrate": 632000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/480x724/isMiTjd9_bcdBkNl.mp4?tag=29",
+              "bitrate": 950000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/720x1086/fhINTT6v94Jhnid3.mp4?tag=29",
+              "bitrate": 2176000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/1080x1630/VVXXU-3JWEksQH5v.mp4?tag=29",
+              "bitrate": 10368000,
+              "container": "mp4",
+              "codec": "h264"
+            }
+          ],
+          "publisher": null,
+          "variants": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/pl/WhZFHdWm4fVQ6idY.m3u8?tag=29&v=cfc",
+              "bitrate": 0,
+              "content_type": "application/x-mpegURL"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/320x482/LrxwW3iL2l09ucNN.mp4?tag=29",
+              "bitrate": 632000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/480x724/isMiTjd9_bcdBkNl.mp4?tag=29",
+              "bitrate": 950000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/720x1086/fhINTT6v94Jhnid3.mp4?tag=29",
+              "bitrate": 2176000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2117248844702547970/vid/avc1/1080x1630/VVXXU-3JWEksQH5v.mp4?tag=29",
+              "bitrate": 10368000,
+              "content_type": "video/mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "twitter_card": "player",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

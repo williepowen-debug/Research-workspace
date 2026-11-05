@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/negligible_cap/status/2117244742883041681",
+    "id": "2117244742883041681",
+    "text": "*ORACLE FILES TO OFFER $10B OF COMMON STOCK\n\nWell that was quick",
+    "raw_text": {
+      "text": "*ORACLE FILES TO OFFER $10B OF COMMON STOCK\n\nWell that was quick",
+      "display_text_range": [
+        0,
+        64
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "negligible_cap",
+      "url": "https://x.com/negligible_cap",
+      "id": "1521479200619876353",
+      "followers": 19546,
+      "following": 687,
+      "likes": 11923,
+      "media_count": 2381,
+      "name": "Negligible Capital",
+      "description": "Stocks mostly. Long and short\n\nNot advice",
+      "raw_description": {
+        "text": "Stocks mostly. Long and short\n\nNot advice",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1521479200619876353/1782355574",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1991356870720643073/emmGUHXq_200x200.jpg",
+      "joined": "Tue May 03 13:18:29 +0000 2022",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 7,
+    "retweets": 7,
+    "likes": 148,
+    "bookmarks": 5,
+    "quotes": 5,
+    "created_at": "Mon Nov 02 13:17:37 +0000 2026",
+    "created_timestamp": 1793625457,
+    "views": 49668,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

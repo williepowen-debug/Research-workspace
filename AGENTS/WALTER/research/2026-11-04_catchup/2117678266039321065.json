@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/DeItaone/status/2117678266039321065",
+    "id": "2117678266039321065",
+    "text": "ECB'S NAGEL: A RATE HIKE IN DECEMBER IS VERY LIKELY TO BE NECESSARY\n\nECB'S NAGEL: INFLATIONARY PRESSURES HIGHER THAN EXPECTED IN SEPTEMBER; APPROACHING ADVERSE SCENARIO\n\nECB'S NAGEL: WE CAN AND MUST PREVENT ENERGY PRICE SPIKE CAUSING BROAD-BASED INFLATION",
+    "raw_text": {
+      "text": "ECB'S NAGEL: A RATE HIKE IN DECEMBER IS VERY LIKELY TO BE NECESSARY\n\nECB'S NAGEL: INFLATIONARY PRESSURES HIGHER THAN EXPECTED IN SEPTEMBER; APPROACHING ADVERSE SCENARIO\n\nECB'S NAGEL: WE CAN AND MUST PREVENT ENERGY PRICE SPIKE CAUSING BROAD-BASED INFLATION",
+      "display_text_range": [
+        0,
+        255
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "DeItaone",
+      "url": "https://x.com/DeItaone",
+      "id": "2704294333",
+      "followers": 1969996,
+      "following": 40,
+      "likes": 8353,
+      "media_count": 6116,
+      "name": "*Walter Bloomberg",
+      "description": "",
+      "raw_description": {
+        "text": "",
+        "facets": []
+      },
+      "location": "Geneva, Switzerland",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2704294333/1771002964",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2088360110095478784/El9anzXH_200x200.jpg",
+      "joined": "Sun Aug 03 14:34:52 +0000 2014",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 26,
+    "retweets": 36,
+    "likes": 176,
+    "bookmarks": 17,
+    "quotes": 7,
+    "created_at": "Tue Nov 03 18:00:17 +0000 2026",
+    "created_timestamp": 1793728817,
+    "views": 147810,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

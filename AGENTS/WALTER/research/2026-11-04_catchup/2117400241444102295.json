@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/TheInsiderPaper/status/2117400241444102295",
+    "id": "2117400241444102295",
+    "text": "Earthquake Swarm Hits Northern California Near \u2018America\u2019s Most Dangerous\u2019 Fault Line https://insiderpaper.com/earthquake-swarm-hits-northern-california-near-americas-most-dangerous-fault-line/",
+    "raw_text": {
+      "text": "Earthquake Swarm Hits Northern California Near \u2018America\u2019s Most Dangerous\u2019 Fault Line https://t.co/MaHh7OgSty",
+      "display_text_range": [
+        0,
+        108
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            85,
+            108
+          ],
+          "original": "https://t.co/MaHh7OgSty",
+          "replacement": "https://insiderpaper.com/earthquake-swarm-hits-northern-california-near-americas-most-dangerous-fault-line/",
+          "display": "insiderpaper.com/earthquake-swa\u2026"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "TheInsiderPaper",
+      "url": "https://x.com/TheInsiderPaper",
+      "id": "1247223374717296647",
+      "followers": 493420,
+      "following": 1,
+      "likes": 2519,
+      "media_count": 26667,
+      "name": "Insider Paper",
+      "description": "Insider Paper is your source for Breaking News and Developing Stories.",
+      "raw_description": {
+        "text": "Insider Paper is your source for Breaking News and Developing Stories.",
+        "facets": []
+      },
+      "location": "Global",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1247223374717296647/1586196729",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1247224989348179968/pZ_n8xAa_200x200.jpg",
+      "joined": "Mon Apr 06 18:09:10 +0000 2020",
+      "protected": false,
+      "website": {
+        "url": "https://insiderpaper.com/",
+        "display_url": "insiderpaper.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 50,
+    "retweets": 416,
+    "likes": 1306,
+    "bookmarks": 114,
+    "quotes": 46,
+    "created_at": "Mon Nov 02 23:35:31 +0000 2026",
+    "created_timestamp": 1793662531,
+    "possibly_sensitive": false,
+    "views": 81855,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "https://insiderpaper.com/earthquake-swarm-hits-northern-california-near-americas-most-dangerous-fault-line/",
+      "title": "Earthquake Swarm Hits Northern California Near 'America\u2019s Most Dangerous' Fault Line",
+      "description": "The Daily Mail reports that a cluster of more than two dozen minor seismic events was detected in Northern California, specifically centered around The",
+      "domain": "insiderpaper.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2115276738179858432/GnwsT7Ol?format=jpg&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

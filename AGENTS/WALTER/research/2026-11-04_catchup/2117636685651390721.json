@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/HormuzLetter/status/2117636685651390721",
+    "id": "2117636685651390721",
+    "text": "BREAKING: Trump says he may have to kill lots of Iranian civilians after the midterms when he resumes the war.\n\n\"I'm not looking to, you know, kill lots of people, but if we have to, we'll have to,\" Trump said when asked what will happen after the elections on Iran.\n\n\"We could finish them off or be nice and let thousands of people live that would get killed in a war,\" he adds.",
+    "raw_text": {
+      "text": "BREAKING: Trump says he may have to kill lots of Iranian civilians after the midterms when he resumes the war.\n\n\"I'm not looking to, you know, kill lots of people, but if we have to, we'll have to,\" Trump said when asked what will happen after the elections on Iran.\n\n\"We could finish them off or be nice and let thousands of people live that would get killed in a war,\" he adds.",
+      "display_text_range": [
+        0,
+        379
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "HormuzLetter",
+      "url": "https://x.com/HormuzLetter",
+      "id": "2004722276659593216",
+      "followers": 233264,
+      "following": 102,
+      "likes": 36573,
+      "media_count": 490,
+      "name": "The Hormuz Letter",
+      "description": "Iranian. The Middle East through the lens of oil, markets, and money. This is the only account.",
+      "raw_description": {
+        "text": "Iranian. The Middle East through the lens of oil, markets, and money. This is the only account.",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2004722276659593216/1775130129",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2039669923442507776/QiE-cdek_200x200.jpg",
+      "joined": "Sat Dec 27 01:13:52 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 276,
+    "retweets": 932,
+    "likes": 5719,
+    "bookmarks": 1089,
+    "quotes": 261,
+    "created_at": "Tue Nov 03 15:15:04 +0000 2026",
+    "created_timestamp": 1793718904,
+    "views": 1322240,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

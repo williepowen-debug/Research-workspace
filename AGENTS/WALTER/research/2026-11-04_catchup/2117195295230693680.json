@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/TheInsiderPaper/status/2117195295230693680",
+    "id": "2117195295230693680",
+    "text": "BREAKING: Spain\u2019s La Palma island hit by a total blackout after a major power system failure, leaving the entire island without electricity. Authorities have declared an emergency alert.",
+    "raw_text": {
+      "text": "BREAKING: Spain\u2019s La Palma island hit by a total blackout after a major power system failure, leaving the entire island without electricity. Authorities have declared an emergency alert. https://t.co/RtTVdVwALf",
+      "display_text_range": [
+        0,
+        186
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            187,
+            210
+          ],
+          "id": "2117195288272314368",
+          "display": "pic.x.com/RtTVdVwALf",
+          "original": "https://t.co/RtTVdVwALf",
+          "replacement": "https://x.com/TheInsiderPaper/status/2117195295230693680/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "TheInsiderPaper",
+      "url": "https://x.com/TheInsiderPaper",
+      "id": "1247223374717296647",
+      "followers": 493420,
+      "following": 1,
+      "likes": 2519,
+      "media_count": 26667,
+      "name": "Insider Paper",
+      "description": "Insider Paper is your source for Breaking News and Developing Stories.",
+      "raw_description": {
+        "text": "Insider Paper is your source for Breaking News and Developing Stories.",
+        "facets": []
+      },
+      "location": "Global",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1247223374717296647/1586196729",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1247224989348179968/pZ_n8xAa_200x200.jpg",
+      "joined": "Mon Apr 06 18:09:10 +0000 2020",
+      "protected": false,
+      "website": {
+        "url": "https://insiderpaper.com/",
+        "display_url": "insiderpaper.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 126,
+    "retweets": 1874,
+    "likes": 5726,
+    "bookmarks": 967,
+    "quotes": 339,
+    "created_at": "Mon Nov 02 10:01:08 +0000 2026",
+    "created_timestamp": 1793613668,
+    "possibly_sensitive": false,
+    "views": 488080,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2117195288272314368",
+          "url": "https://pbs.twimg.com/media/HWHJ5bWaIAAJFgd.jpg?name=orig",
+          "width": 640,
+          "height": 427
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2117195288272314368",
+          "url": "https://pbs.twimg.com/media/HWHJ5bWaIAAJFgd.jpg?name=orig",
+          "width": 640,
+          "height": 427
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

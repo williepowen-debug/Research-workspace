@@ -1,0 +1,97 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/visegrad24/status/2117283989673140265",
+    "id": "2117283989673140265",
+    "text": "BREAKING:\n\n\ud83c\uddf5\ud83c\uddf1 Poland launches special operation on the border with Kaliningrad amid Russian sabotage threats\n\nPoland has deployed a high-readiness preventive security operation along its northeastern border following intelligence warnings of imminent Russian-backed sabotage.\n\nThe operation reinforces security across the Warmian-Masurian Voivodeship on the border with Kaliningrad and the Podlaskie Voivodeship on the border with Belarus.\n\nAnalysts warned that armed groups or operatives could attempt border incursions or orchestrate sabotage operations within Polish territory.",
+    "raw_text": {
+      "text": "BREAKING:\n\n\ud83c\uddf5\ud83c\uddf1 Poland launches special operation on the border with Kaliningrad amid Russian sabotage threats\n\nPoland has deployed a high-readiness preventive security operation along its northeastern border following intelligence warnings of imminent Russian-backed sabotage.\n\nThe operation reinforces security across the Warmian-Masurian Voivodeship on the border with Kaliningrad and the Podlaskie Voivodeship on the border with Belarus.\n\nAnalysts warned that armed groups or operatives could attempt border incursions or orchestrate sabotage operations within Polish territory.",
+      "display_text_range": [
+        0,
+        582
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            281,
+            304
+          ],
+          "id": "2117283902389653504",
+          "display": "pic.x.com/v148uBTjFr",
+          "original": "https://t.co/v148uBTjFr",
+          "replacement": "https://x.com/visegrad24/status/2117283989673140265/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "visegrad24",
+      "url": "https://x.com/visegrad24",
+      "id": "1222773302441148416",
+      "followers": 2123837,
+      "following": 2762,
+      "likes": 152466,
+      "media_count": 68959,
+      "name": "Visegr\u00e1d 24",
+      "description": "Curating news, politics and current affairs.",
+      "raw_description": {
+        "text": "Curating news, politics and current affairs.",
+        "facets": []
+      },
+      "location": "Visegrad",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1222773302441148416/1738927873",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1875625827674591232/OBzjRIZ4_200x200.jpg",
+      "joined": "Thu Jan 30 06:48:04 +0000 2020",
+      "protected": false,
+      "website": {
+        "url": "https://linktr.ee/Visegrad24",
+        "display_url": "linktr.ee/Visegrad24"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 217,
+    "retweets": 649,
+    "likes": 4554,
+    "bookmarks": 425,
+    "quotes": 106,
+    "created_at": "Mon Nov 02 15:53:35 +0000 2026",
+    "created_timestamp": 1793634815,
+    "possibly_sensitive": false,
+    "views": 376162,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2117283902389653504",
+          "url": "https://pbs.twimg.com/media/HWIafcqWkAA0k_i.jpg?name=orig",
+          "width": 1586,
+          "height": 1096
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2117283902389653504",
+          "url": "https://pbs.twimg.com/media/HWIafcqWkAA0k_i.jpg?name=orig",
+          "width": 1586,
+          "height": 1096
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

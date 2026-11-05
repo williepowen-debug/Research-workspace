@@ -1,0 +1,105 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/KobeissiLetter/status/2117264234811920846",
+    "id": "2117264234811920846",
+    "text": "BREAKING: Oracle stock, $ORCL, falls over -5% after announcing plans to raise $20 billion through equity and debt issuances to fund its AI buildout.\n\nThe stock is now down -54% from this year's high.",
+    "raw_text": {
+      "text": "BREAKING: Oracle stock, $ORCL, falls over -5% after announcing plans to raise $20 billion through equity and debt issuances to fund its AI buildout.\n\nThe stock is now down -54% from this year's high. https://t.co/oWJntBH8xS",
+      "display_text_range": [
+        0,
+        199
+      ],
+      "facets": [
+        {
+          "type": "symbol",
+          "indices": [
+            24,
+            29
+          ],
+          "original": "ORCL"
+        },
+        {
+          "type": "media",
+          "indices": [
+            200,
+            223
+          ],
+          "id": "2117264158966075393",
+          "display": "pic.x.com/oWJntBH8xS",
+          "original": "https://t.co/oWJntBH8xS",
+          "replacement": "https://x.com/KobeissiLetter/status/2117264234811920846/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "KobeissiLetter",
+      "url": "https://x.com/KobeissiLetter",
+      "id": "3316376038",
+      "followers": 2713865,
+      "following": 601,
+      "likes": 29282,
+      "media_count": 15511,
+      "name": "The Kobeissi Letter",
+      "description": "Official X account for The Kobeissi Letter, an industry leading commentary on the global capital markets. Email us: support@thekobeissiletter.com",
+      "raw_description": {
+        "text": "Official X account for The Kobeissi Letter, an industry leading commentary on the global capital markets. Email us: support@thekobeissiletter.com",
+        "facets": []
+      },
+      "location": "United States",
+      "banner_url": "https://pbs.twimg.com/profile_banners/3316376038/1547088797",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1975243710846640128/fwYCe67Y_200x200.jpg",
+      "joined": "Wed Jun 10 00:34:15 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "http://thekobeissiletter.com/subscribe",
+        "display_url": "thekobeissiletter.com/subscribe"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 227,
+    "retweets": 453,
+    "likes": 3857,
+    "bookmarks": 195,
+    "quotes": 80,
+    "created_at": "Mon Nov 02 14:35:05 +0000 2026",
+    "created_timestamp": 1793630105,
+    "possibly_sensitive": false,
+    "views": 350772,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2117264158966075393",
+          "url": "https://pbs.twimg.com/media/HWIIiOrW0AEOgBr.png?name=orig",
+          "width": 441,
+          "height": 583
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2117264158966075393",
+          "url": "https://pbs.twimg.com/media/HWIIiOrW0AEOgBr.png?name=orig",
+          "width": 441,
+          "height": 583
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

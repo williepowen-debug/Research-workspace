@@ -1,0 +1,115 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/FCNightingale/status/2117696120943939746",
+    "id": "2117696120943939746",
+    "text": "A FedEx distribution center in north St. Petersburg, Florida has sold for $58.2M \u219338% from the $94.5M sale in 2021.\n\n\"According to Cushman & Wakefield\u2019s third-quarter industrial market report, the region\u2019s industrial vacancy rate reached 8.2%, up from 7.6% a year earlier.\"\n\n236,976 Square Feet   63 Acres\n1950 102nd Avenue N. St. Petersburg, Florida\n\n#CommercialRealEstate \nhttps://stpetecatalyst.com/st-pete-fedex-warehouse-sells-at-a-36m-markdown/",
+    "raw_text": {
+      "text": "A FedEx distribution center in north St. Petersburg, Florida has sold for $58.2M \u219338% from the $94.5M sale in 2021.\n\n\"According to Cushman & Wakefield\u2019s third-quarter industrial market report, the region\u2019s industrial vacancy rate reached 8.2%, up from 7.6% a year earlier.\"\n\n236,976 Square Feet   63 Acres\n1950 102nd Avenue N. St. Petersburg, Florida\n\n#CommercialRealEstate \nhttps://t.co/4OZASuYKbX",
+      "display_text_range": [
+        0,
+        398
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            278,
+            301
+          ],
+          "id": "2117696117164941312",
+          "display": "pic.x.com/tavJeZOc3g",
+          "original": "https://t.co/tavJeZOc3g",
+          "replacement": "https://x.com/FCNightingale/status/2117696120943939746/photo/1"
+        },
+        {
+          "type": "hashtag",
+          "indices": [
+            352,
+            373
+          ],
+          "original": "CommercialRealEstate"
+        },
+        {
+          "type": "url",
+          "indices": [
+            375,
+            398
+          ],
+          "original": "https://t.co/4OZASuYKbX",
+          "replacement": "https://stpetecatalyst.com/st-pete-fedex-warehouse-sells-at-a-36m-markdown/",
+          "display": "stpetecatalyst.com/st-pete-fedex-\u2026"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "FCNightingale",
+      "url": "https://x.com/FCNightingale",
+      "id": "3067387477",
+      "followers": 51140,
+      "following": 17731,
+      "likes": 95998,
+      "media_count": 4947,
+      "name": "Nightingale Associates",
+      "description": "Management consulting, training and speaking.\nFocus: leadership, management, strategy, motivation and achievement.\nCompleted projects in 40 countries.",
+      "raw_description": {
+        "text": "Management consulting, training and speaking.\nFocus: leadership, management, strategy, motivation and achievement.\nCompleted projects in 40 countries.",
+        "facets": []
+      },
+      "location": "Global",
+      "banner_url": "https://pbs.twimg.com/profile_banners/3067387477/1435271252",
+      "avatar_url": "https://pbs.twimg.com/profile_images/574386215694168064/O4sqREQG_200x200.jpeg",
+      "joined": "Sun Mar 08 01:46:39 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "http://www.nightingaleassociates.net/",
+        "display_url": "nightingaleassociates.net"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 5,
+    "retweets": 15,
+    "likes": 96,
+    "bookmarks": 6,
+    "quotes": 1,
+    "created_at": "Tue Nov 03 19:11:14 +0000 2026",
+    "created_timestamp": 1793733074,
+    "possibly_sensitive": false,
+    "views": 5029,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2117696117164941312",
+          "url": "https://pbs.twimg.com/media/HWORZgXXIAAiTu9.jpg?name=orig",
+          "width": 1031,
+          "height": 332
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2117696117164941312",
+          "url": "https://pbs.twimg.com/media/HWORZgXXIAAiTu9.jpg?name=orig",
+          "width": 1031,
+          "height": 332
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

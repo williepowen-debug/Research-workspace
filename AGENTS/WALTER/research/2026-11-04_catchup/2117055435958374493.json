@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/cred_iq/status/2117055435958374493",
+    "id": "2117055435958374493",
+    "text": "A 300K SF office building in the Dallas suburbs.\n\n$22M loan balance.\nAppraised at $46M in 2016. Reappraised at $12M in June.\n\nDown 74%. The loan is 184% LTV.\n\nForeclosure sale is on the calendar.",
+    "raw_text": {
+      "text": "A 300K SF office building in the Dallas suburbs.\n\n$22M loan balance.\nAppraised at $46M in 2016. Reappraised at $12M in June.\n\nDown 74%. The loan is 184% LTV.\n\nForeclosure sale is on the calendar.",
+      "display_text_range": [
+        0,
+        195
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "cred_iq",
+      "url": "https://x.com/cred_iq",
+      "id": "1187391111268126720",
+      "followers": 5702,
+      "following": 956,
+      "likes": 4474,
+      "media_count": 721,
+      "name": "CRED iQ",
+      "description": "AI-native commercial real estate loan data. CRED iQ turns bank, servicer, and trustee reports into analysis-ready loan data via web, API, bulk feeds, and MCP.",
+      "raw_description": {
+        "text": "AI-native commercial real estate loan data. CRED iQ turns bank, servicer, and trustee reports into analysis-ready loan data via web, API, bulk feeds, and MCP.",
+        "facets": []
+      },
+      "location": "United States",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1187391111268126720/1633480782",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1268984618700754951/S8wA4AIR_200x200.jpg",
+      "joined": "Thu Oct 24 15:31:29 +0000 2019",
+      "protected": false,
+      "website": {
+        "url": "http://www.cred-iq.com",
+        "display_url": "cred-iq.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 4,
+    "retweets": 1,
+    "likes": 10,
+    "bookmarks": 1,
+    "quotes": 1,
+    "created_at": "Mon Nov 02 00:45:23 +0000 2026",
+    "created_timestamp": 1793580323,
+    "views": 1152,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

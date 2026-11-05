@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/zerohedge/status/2116934653441450235",
+    "id": "2116934653441450235",
+    "text": "Oh, By The Way, Private Credit Defaults Just Hit A Record... https://www.zerohedge.com/markets/oh-way-private-credit-defaults-just-hit-record",
+    "raw_text": {
+      "text": "Oh, By The Way, Private Credit Defaults Just Hit A Record... https://t.co/7kXbzarsnC",
+      "display_text_range": [
+        0,
+        84
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            61,
+            84
+          ],
+          "original": "https://t.co/7kXbzarsnC",
+          "replacement": "https://www.zerohedge.com/markets/oh-way-private-credit-defaults-just-hit-record",
+          "display": "zerohedge.com/markets/oh-way\u2026"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "zerohedge",
+      "url": "https://x.com/zerohedge",
+      "id": "18856867",
+      "followers": 3431786,
+      "following": 986,
+      "likes": 62,
+      "media_count": 29024,
+      "name": "zerohedge",
+      "description": "",
+      "raw_description": {
+        "text": "",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/72647502/tyler_200x200.jpg",
+      "joined": "Sun Jan 11 04:08:58 +0000 2009",
+      "protected": false,
+      "website": {
+        "url": "https://zerohedge.com",
+        "display_url": "zerohedge.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 77,
+    "retweets": 199,
+    "likes": 901,
+    "bookmarks": 122,
+    "quotes": 15,
+    "created_at": "Sun Nov 01 16:45:26 +0000 2026",
+    "created_timestamp": 1793551526,
+    "possibly_sensitive": false,
+    "views": 104323,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "https://www.zerohedge.com/markets/oh-way-private-credit-defaults-just-hit-record",
+      "title": "Oh, By The Way, Private Credit Defaults Just Hit A Record...",
+      "description": "Fitch says private credit defaults have reached an all-time high, with lenders increasingly relying on accounting gymnastics and debt extensions to keep troubled borrowers afloat.",
+      "domain": "www.zerohedge.com",
+      "image": {
+        "width": 700,
+        "height": 367,
+        "url": "https://pbs.twimg.com/card_img/2116934653873422336/dea6BoSe?format=jpg&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

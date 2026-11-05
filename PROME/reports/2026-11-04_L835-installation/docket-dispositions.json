@@ -1,0 +1,67 @@
+[
+  {
+    "line": 578,
+    "disposition": "OWNER ACTION REQUIRED",
+    "finding": "PENDING / PARTIAL — 2026-11-04 reconciliation: T2 October USDA read completed 10/26 and T13 re-test completed 11/02 (FERT/workbook/TRIGGERS.tsv). CF Q3 T7 result/call grade remains owed; frozen card is preparation, not execution. No current owner session or result receipt established. ACTION REQUIRED: authorize FERT wake to grade T7 and PROME consume; retain 11/05 11:00 ET call."
+  },
+  {
+    "line": 785,
+    "disposition": "OWNER ACTION REQUIRED",
+    "finding": "PENDING / PARTIAL — 2026-11-04 reconciliation: MIA leg fulfilled as recorded. LVCVA recheck/combined RevPAR grade remains owed; 10/28 non-publication is historical, not evidence of current absence. MARCO/docket/CATALYSTS.tsv still specifies 11/04 recheck. LABOR reply remains conditional; 12/04 CPS obligation preserved. ACTION REQUIRED: authorize MARCO session; no new grade inferred."
+  },
+  {
+    "line": 835,
+    "disposition": "PENDING WITH COVERAGE",
+    "finding": "PENDING / OPEN — COVERED:PROME retains operational cutover under current Will assignment. Accepted code installed; schema-3 candidate 99a9519076e3836c658f437469cfec8df6ef5b98 received completed operational audit, not delivered. Current reconciliation changes require subsequent review. Next action: clear genuine owner gaps, preflight, update freeze, review changed scope, Standard delivery. L835 closure requires Will explicitly. Evidence: installation/STANDARD-BLOCKED.md and DOCKET-DISPOSITION.md."
+  },
+  {
+    "line": 859,
+    "disposition": "FULFILLED",
+    "finding": "RESOLVED — 2026-11-04 reconciliation VERIFIED: BOND froze all three refunding bars on 11/02 before prints (ceea78c6a; AGENTS/BOND/registry/auction_bars/2026-11-09_91282CRW3.json, 2026-11-10_91282CRX1.json, 2026-11-12_912810UY2.json). WQ-536 A already encoded. This discharges the freeze wake only; BOND retains auction grading 11/09, 11/10, 11/12 and separate VX-BND-20 review 11/11; none claimed complete."
+  },
+  {
+    "line": 866,
+    "disposition": "OWNER ACTION REQUIRED",
+    "finding": "PENDING — 2026-11-04 reconciliation: WATT STATUS observation cutoff remains 10/29; no completed 10/28–11/03 P1 de-escalation grade established. ACTION REQUIRED: authorize WATT session to grade existing letter including DST handling; PROME consumes owner verdict. No grade or threshold change inferred."
+  },
+  {
+    "line": 882,
+    "disposition": "PENDING WITH COVERAGE",
+    "finding": "PENDING / PARTIAL — COVERED:PROME owns final DAEDALUS delivery. All retained edits already independently accepted in 2026-11-04_approved-maintenance-reviews.md; prior partial packet predates WQ-594 completion. Final packet prepared at AGENTS/DAEDALUS/inbox/2026-11-04_from-PROME_L882-final-disposition.md, LOCAL ONLY pending verified candidate delivery. Next action: include packet in authorized operational update/delivery after blockers clear; no recipient consumption claimed."
+  },
+  {
+    "line": 887,
+    "disposition": "OWNER ACTION REQUIRED",
+    "finding": "PENDING / PARTIAL — 2026-11-04 reconciliation: topology and explicit-read registry corrections accepted; historical 10/30 injection report preserved. Fresh owner re-declaration/consumption of corrected registry is not established. ACTION REQUIRED: CREED re-declares at a Will-authorized session, PROME verifies and accepts; no launch or L5 award inferred."
+  },
+  {
+    "line": 891,
+    "disposition": "OWNER ACTION REQUIRED",
+    "finding": "PENDING / PARTIAL — 2026-11-04 reconciliation: accepted prospective convention and previously routed citation corrections remain done. FALCON READS declaration, prediction registration and hard 11/04 gate review lack owner completion evidence; STATUS remains 10/30. ACTION REQUIRED: authorize FALCON session, then PROME registers/consumes actual returns. Recipient citation consumption remains unproven; queued requests are not execution."
+  },
+  {
+    "line": 895,
+    "disposition": "OWNER ACTION REQUIRED",
+    "finding": "PENDING / PARTIAL — 2026-11-04 reconciliation: original 11/05 expiry rationale is stale; REGINALD/CALENDAR.md records renewed laptop credential through 2027-01-31 and successful 11/01 pull. No secret recorded. Four-bank tail rerun remains unfulfilled; separate 11/07 universe run does not establish this tail was assigned there. ACTION REQUIRED: authorize REGINALD rerun with actual access check; retain original date and four names. Desktop access not inferred from laptop success."
+  },
+  {
+    "line": 915,
+    "disposition": "PENDING WITH COVERAGE",
+    "finding": "PENDING — COVERED:BROCK retains full-feed read in its already registered 11/04 PM OR 11/05 AM window (AGENTS/BROCK/STATUS.md row, docket/CATALYSTS.tsv; d152ff7f6). Next action: read every form including 1.03/3.01 at the 11/05 AM alternative; PROME consumes receipt. No completion, active session, new date or silence grade claimed. Existing alternative window remains open."
+  },
+  {
+    "line": 917,
+    "disposition": "OWNER ACTION REQUIRED",
+    "finding": "PENDING — 2026-11-04 reconciliation VERIFIED: CYPHER/CLAUDE.md still says NO OWNER for crypto exchange/stablecoin issuer hacks; workbook/VX.tsv still has old VX-CYP-02. Approved WQ-589 packet is queued, not encoded. ACTION REQUIRED: authorize CYPHER owner session to implement exact ruling; PROME verifies literal cells. No new ruling needed on substance."
+  },
+  {
+    "line": 918,
+    "disposition": "OWNER ACTION REQUIRED",
+    "finding": "PENDING — 2026-11-04 reconciliation VERIFIED: FALCON/thesis/PREDICTIONS.tsv FAL-07 still requires 2027-01-02 failure search; STATUS also retains old date. Approved WQ-559 packet remains queued. ACTION REQUIRED: same FALCON session as L891 encodes exact ruling; PROME verifies letter and STATUS. No new prediction terms or approval inferred."
+  },
+  {
+    "line": 919,
+    "disposition": "PENDING WITH COVERAGE",
+    "finding": "PENDING — COVERED:PROME retains separately scoped future charter rotation. This row is explicitly entry-only; registration is fulfilled, rotation is not. Trigger: separately authorized maintenance sitting with required plan/result reads, preserving all operative rules and below-70% target. No rotation/reviewer launch under this assignment; original date/history and separate root-charter L883 preserved."
+  }
+]

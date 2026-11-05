@@ -1,0 +1,73 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/staunovo/status/2117536244053778742",
+    "id": "2117536244053778742",
+    "text": "Tanker attacks eliminated 15% of effective capacity - Aramco CEO #OOTT",
+    "raw_text": {
+      "text": "Tanker attacks eliminated 15% of effective capacity - Aramco CEO #OOTT",
+      "display_text_range": [
+        0,
+        70
+      ],
+      "facets": [
+        {
+          "type": "hashtag",
+          "indices": [
+            65,
+            70
+          ],
+          "original": "OOTT"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "staunovo",
+      "url": "https://x.com/staunovo",
+      "id": "597517815",
+      "followers": 125705,
+      "following": 448,
+      "likes": 115348,
+      "media_count": 8690,
+      "name": "Giovanni Staunovo\ud83d\udee2",
+      "description": "Commodity Analyst. #OOTT\nViews are my own. Tweets/Posts intended for information only. Retweets/Reposts \u2260 endorsements.",
+      "raw_description": {
+        "text": "Commodity Analyst. #OOTT\nViews are my own. Tweets/Posts intended for information only. Retweets/Reposts \u2260 endorsements.",
+        "facets": []
+      },
+      "location": "Z\u00fcrich, Schweiz",
+      "banner_url": "https://pbs.twimg.com/profile_banners/597517815/1694269565",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1509890038343077890/nS2HsjEu_200x200.jpg",
+      "joined": "Sat Jun 02 14:01:05 +0000 2012",
+      "protected": false,
+      "website": {
+        "url": "https://www.instagram.com/giovannistaunovo/",
+        "display_url": "instagram.com/giovannistauno\u2026"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 9,
+    "retweets": 56,
+    "likes": 275,
+    "bookmarks": 26,
+    "quotes": 11,
+    "created_at": "Tue Nov 03 08:35:57 +0000 2026",
+    "created_timestamp": 1793694957,
+    "views": 28542,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

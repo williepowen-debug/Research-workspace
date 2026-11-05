@@ -1,0 +1,139 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/InsiderGeo/status/2117234693456142361",
+    "id": "2117234693456142361",
+    "text": "UPDATE: Since our last update, two more countries have reported disruptions to supermarket refrigeration systems, bringing the total to seven countries affected across Europe.\n\n\ud83c\uddf8\ud83c\uddea Sweden and \ud83c\udde7\ud83c\uddea Belgium appear to be among the hardest-hit countries, with multiple supermarket chains and stores experiencing significant disruptions and food losses.\n\n\ud83c\uddf1\ud83c\uddfa Luxembourg has also reported incidents affecting Delhaize stores.\n\n\ud83c\uddee\ud83c\uddea Ireland has seen refrigeration disruptions at 13 SuperValu stores, forcing chilled and frozen products to be removed.\n\n\ud83c\uddf3\ud83c\uddf1 The Netherlands has reported incidents at at least 17 businesses, primarily smaller retailers, butcher shops and food-storage facilities.\n\n\ud83c\uddea\ud83c\uddea Estonia reported a cyberattack targeting refrigeration controls, with freezer temperatures reportedly reaching +50\u00b0C. The incident was detected and addressed within approximately 10 minutes, preventing major damage.\n\n\ud83c\uddeb\ud83c\uddee Finland has reported only minor, limited-scale temperature irregularities in some K Group stores. The situation there appears significantly less severe than in other affected countries.",
+    "raw_text": {
+      "text": "UPDATE: Since our last update, two more countries have reported disruptions to supermarket refrigeration systems, bringing the total to seven countries affected across Europe.\n\n\ud83c\uddf8\ud83c\uddea Sweden and \ud83c\udde7\ud83c\uddea Belgium appear to be among the hardest-hit countries, with multiple supermarket chains and stores experiencing significant disruptions and food losses.\n\n\ud83c\uddf1\ud83c\uddfa Luxembourg has also reported incidents affecting Delhaize stores.\n\n\ud83c\uddee\ud83c\uddea Ireland has seen refrigeration disruptions at 13 SuperValu stores, forcing chilled and frozen products to be removed.\n\n\ud83c\uddf3\ud83c\uddf1 The Netherlands has reported incidents at at least 17 businesses, primarily smaller retailers, butcher shops and food-storage facilities.\n\n\ud83c\uddea\ud83c\uddea Estonia reported a cyberattack targeting refrigeration controls, with freezer temperatures reportedly reaching +50\u00b0C. The incident was detected and addressed within approximately 10 minutes, preventing major damage.\n\n\ud83c\uddeb\ud83c\uddee Finland has reported only minor, limited-scale temperature irregularities in some K Group stores. The situation there appears significantly less severe than in other affected countries.",
+      "display_text_range": [
+        0,
+        1103
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "InsiderGeo",
+      "url": "https://x.com/InsiderGeo",
+      "id": "1506407811999277062",
+      "followers": 85140,
+      "following": 606,
+      "likes": 12289,
+      "media_count": 7028,
+      "name": "GeoInsider",
+      "description": "Independent geopolitical & military analysis. Conflicts, strategy, and the forces shaping them. \n\nhttps://linktr.ee/InsiderGeo",
+      "raw_description": {
+        "text": "Independent geopolitical & military analysis. Conflicts, strategy, and the forces shaping them. \n\nhttps://t.co/AAJCKoiL4M",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              98,
+              121
+            ],
+            "original": "https://t.co/AAJCKoiL4M",
+            "replacement": "https://linktr.ee/InsiderGeo",
+            "display": "linktr.ee/InsiderGeo"
+          }
+        ]
+      },
+      "location": "USA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1506407811999277062/1723424880",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1823162794117582848/kDo1PqtB_200x200.jpg",
+      "joined": "Tue Mar 22 23:10:37 +0000 2022",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 44,
+    "retweets": 475,
+    "likes": 1828,
+    "bookmarks": 422,
+    "quotes": 104,
+    "created_at": "Mon Nov 02 12:37:41 +0000 2026",
+    "created_timestamp": 1793623061,
+    "views": 340426,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "quote": {
+      "url": "https://x.com/InsiderGeo/status/2117218991148003449",
+      "id": "2117218991148003449",
+      "text": "The situation this morning in Europe:\n\nA cyberattack is disrupting supermarket refrigeration systems across several European countries, including Sweden, Belgium, Luxembourg, Estonia and Ireland.\n\n\u2022 What is happening: A vulnerability in specific refrigeration control software is allowing attackers to remotely manipulate freezer systems, causing temperatures to rise as high as +50\u00b0C.\n\n\u2022 Supermarkets are facing massive food losses, with fresh, chilled and frozen products being discarded due to food safety risks. Some stores have experienced temporary closures and delayed openings.\n\nThe issue involves connected refrigeration systems whose software and security vulnerabilities are being exploited, allowing attackers to interfere with temperature controls remotely.\n\nRetailers are responding, working with cybersecurity specialists and taking affected products off sale to protect consumers.",
+      "raw_text": {
+        "text": "The situation this morning in Europe:\n\nA cyberattack is disrupting supermarket refrigeration systems across several European countries, including Sweden, Belgium, Luxembourg, Estonia and Ireland.\n\n\u2022 What is happening: A vulnerability in specific refrigeration control software is allowing attackers to remotely manipulate freezer systems, causing temperatures to rise as high as +50\u00b0C.\n\n\u2022 Supermarkets are facing massive food losses, with fresh, chilled and frozen products being discarded due to food safety risks. Some stores have experienced temporary closures and delayed openings.\n\nThe issue involves connected refrigeration systems whose software and security vulnerabilities are being exploited, allowing attackers to interfere with temperature controls remotely.\n\nRetailers are responding, working with cybersecurity specialists and taking affected products off sale to protect consumers.",
+        "display_text_range": [
+          0,
+          896
+        ],
+        "facets": []
+      },
+      "author": {
+        "screen_name": "InsiderGeo",
+        "url": "https://x.com/InsiderGeo",
+        "id": "1506407811999277062",
+        "followers": 85140,
+        "following": 606,
+        "likes": 12289,
+        "media_count": 7028,
+        "name": "GeoInsider",
+        "description": "Independent geopolitical & military analysis. Conflicts, strategy, and the forces shaping them. \n\nhttps://linktr.ee/InsiderGeo",
+        "raw_description": {
+          "text": "Independent geopolitical & military analysis. Conflicts, strategy, and the forces shaping them. \n\nhttps://t.co/AAJCKoiL4M",
+          "facets": [
+            {
+              "type": "url",
+              "indices": [
+                98,
+                121
+              ],
+              "original": "https://t.co/AAJCKoiL4M",
+              "replacement": "https://linktr.ee/InsiderGeo",
+              "display": "linktr.ee/InsiderGeo"
+            }
+          ]
+        },
+        "location": "USA",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1506407811999277062/1723424880",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1823162794117582848/kDo1PqtB_200x200.jpg",
+        "joined": "Tue Mar 22 23:10:37 +0000 2022",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 64,
+      "retweets": 377,
+      "likes": 1419,
+      "bookmarks": 297,
+      "quotes": 104,
+      "created_at": "Mon Nov 02 11:35:18 +0000 2026",
+      "created_timestamp": 1793619318,
+      "views": 379814,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

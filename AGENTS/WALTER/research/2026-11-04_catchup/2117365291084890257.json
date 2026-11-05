@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/zerohedge/status/2117365291084890257",
+    "id": "2117365291084890257",
+    "text": "*FIVE EXPLOSIONS HEARD ON IRAN'S QESHM ISLAND: IRNA",
+    "raw_text": {
+      "text": "*FIVE EXPLOSIONS HEARD ON IRAN'S QESHM ISLAND: IRNA",
+      "display_text_range": [
+        0,
+        51
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "zerohedge",
+      "url": "https://x.com/zerohedge",
+      "id": "18856867",
+      "followers": 3431786,
+      "following": 986,
+      "likes": 62,
+      "media_count": 29024,
+      "name": "zerohedge",
+      "description": "",
+      "raw_description": {
+        "text": "",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "",
+      "avatar_url": "https://pbs.twimg.com/profile_images/72647502/tyler_200x200.jpg",
+      "joined": "Sun Jan 11 04:08:58 +0000 2009",
+      "protected": false,
+      "website": {
+        "url": "https://zerohedge.com",
+        "display_url": "zerohedge.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 31,
+    "retweets": 100,
+    "likes": 1070,
+    "bookmarks": 33,
+    "quotes": 20,
+    "created_at": "Mon Nov 02 21:16:38 +0000 2026",
+    "created_timestamp": 1793654198,
+    "views": 167297,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

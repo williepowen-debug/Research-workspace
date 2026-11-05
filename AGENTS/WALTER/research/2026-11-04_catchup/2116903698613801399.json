@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/danjmcnamara/status/2116903698613801399",
+    "id": "2116903698613801399",
+    "text": "https://www.law360.com/real-estate-authority/articles/2544246/weil-leases-add-pressure-to-3b-in-cmbs-loans-kbra-says",
+    "raw_text": {
+      "text": "https://t.co/vHCBqII5U6",
+      "display_text_range": [
+        0,
+        23
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            0,
+            23
+          ],
+          "original": "https://t.co/vHCBqII5U6",
+          "replacement": "https://www.law360.com/real-estate-authority/articles/2544246/weil-leases-add-pressure-to-3b-in-cmbs-loans-kbra-says",
+          "display": "law360.com/real-estate-au\u2026"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "danjmcnamara",
+      "url": "https://x.com/danjmcnamara",
+      "id": "616535289",
+      "followers": 9073,
+      "following": 2619,
+      "likes": 32787,
+      "media_count": 286,
+      "name": "Daniel McNamara",
+      "description": "mcnamara@polpocapital.com CMBS",
+      "raw_description": {
+        "text": "mcnamara@polpocapital.com CMBS",
+        "facets": []
+      },
+      "location": "NYC",
+      "banner_url": "https://pbs.twimg.com/profile_banners/616535289/1684156755",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1741977881230626816/xOpeUrp1_200x200.jpg",
+      "joined": "Sat Jun 23 20:42:23 +0000 2012",
+      "protected": false,
+      "website": {
+        "url": "http://polpocapital.com",
+        "display_url": "polpocapital.com"
+      },
+      "verification": {
+        "verified": false,
+        "verified_at": null,
+        "type": null
+      },
+      "avatar_color": null
+    },
+    "replies": 0,
+    "retweets": 3,
+    "likes": 11,
+    "bookmarks": 1,
+    "quotes": 1,
+    "created_at": "Sun Nov 01 14:42:26 +0000 2026",
+    "created_timestamp": 1793544146,
+    "possibly_sensitive": false,
+    "views": 9357,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": null,
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "https://www.law360.com/real-estate-authority/articles/2544246/weil-leases-add-pressure-to-3b-in-cmbs-loans-kbra-says",
+      "title": "Weil Leases Add Pressure To $3B In CMBS Loans, KBRA Says - Law360 Real Estate Authority",
+      "description": "Weil Gotshal & Manges LLP's upcoming wind-down elevates credit risk for more than $3 billion worth of commercial mortgage-backed securities loans, because the firm is a tenant in several office...",
+      "domain": "www.law360.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2116903693127745536/NzmfeA73?format=jpg&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

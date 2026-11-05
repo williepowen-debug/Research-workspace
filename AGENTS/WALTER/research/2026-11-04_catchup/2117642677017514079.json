@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/Polymarket/status/2117642677017514079",
+    "id": "2117642677017514079",
+    "text": "BREAKING: U.S. job openings unexpectedly surge to 7.52 million, the highest level in four months.",
+    "raw_text": {
+      "text": "BREAKING: U.S. job openings unexpectedly surge to 7.52 million, the highest level in four months.",
+      "display_text_range": [
+        0,
+        97
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "Polymarket",
+      "url": "https://x.com/Polymarket",
+      "id": "1261335549215989760",
+      "followers": 2043920,
+      "following": 5640,
+      "likes": 93615,
+      "media_count": 6809,
+      "name": "Polymarket",
+      "description": "The World's Largest Prediction Market. Trade politics, news, crypto, sports, & more. Available in the US: https://polymarket.us - DM @PolymarketHelp for support",
+      "raw_description": {
+        "text": "The World's Largest Prediction Market. Trade politics, news, crypto, sports, & more. Available in the US: https://t.co/gZvEnIqUQy - DM @PolymarketHelp for support",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              106,
+              129
+            ],
+            "original": "https://t.co/gZvEnIqUQy",
+            "replacement": "https://polymarket.us",
+            "display": "polymarket.us"
+          }
+        ]
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1261335549215989760/1773844633",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_200x200.jpg",
+      "joined": "Fri May 15 16:40:13 +0000 2020",
+      "protected": false,
+      "website": {
+        "url": "https://polymarket.com",
+        "display_url": "polymarket.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 145,
+    "retweets": 319,
+    "likes": 3359,
+    "bookmarks": 141,
+    "quotes": 34,
+    "created_at": "Tue Nov 03 15:38:52 +0000 2026",
+    "created_timestamp": 1793720332,
+    "views": 143720,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/unusual_whales/status/2117697821369352638",
+    "id": "2117697821369352638",
+    "text": "BREAKING: The S&P 500 is within about 3% of its record high, yet 60% of its stocks are in a bear market, says Goldman Sachs\n\nA handful of giant stocks are holding the index up while most of the market has fallen 20% or more from its highs.",
+    "raw_text": {
+      "text": "BREAKING: The S&amp;P 500 is within about 3% of its record high, yet 60% of its stocks are in a bear market, says Goldman Sachs\n\nA handful of giant stocks are holding the index up while most of the market has fallen 20% or more from its highs.",
+      "display_text_range": [
+        0,
+        243
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "unusual_whales",
+      "url": "https://x.com/unusual_whales",
+      "id": "1200616796295847936",
+      "followers": 5387113,
+      "following": 2380,
+      "likes": 66695,
+      "media_count": 31495,
+      "name": "unusual_whales",
+      "description": "API Free trial: https://bit.ly/4vOqzKA\nDiscord: http://bit.ly/3Bf2pNJ\n\nMarket news, trading tools\nReal-time option flow, screeners, GEX\nCustom alerts & more\nNFA",
+      "raw_description": {
+        "text": "API Free trial: https://t.co/FMKNJWJquj\nDiscord: https://t.co/0xJ9e0ZYYG\n\nMarket news, trading tools\nReal-time option flow, screeners, GEX\nCustom alerts & more\nNFA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              16,
+              39
+            ],
+            "original": "https://t.co/FMKNJWJquj",
+            "replacement": "https://bit.ly/4vOqzKA",
+            "display": "bit.ly/4vOqzKA"
+          },
+          {
+            "type": "url",
+            "indices": [
+              49,
+              72
+            ],
+            "original": "https://t.co/0xJ9e0ZYYG",
+            "replacement": "http://bit.ly/3Bf2pNJ",
+            "display": "bit.ly/3Bf2pNJ"
+          }
+        ]
+      },
+      "location": "United States",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1200616796295847936/1793651219",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1714107328134516736/dLZGJPm7_200x200.png",
+      "joined": "Sat Nov 30 03:25:32 +0000 2019",
+      "protected": false,
+      "website": {
+        "url": "https://unusualwhales.com",
+        "display_url": "unusualwhales.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 219,
+    "retweets": 485,
+    "likes": 7244,
+    "bookmarks": 477,
+    "quotes": 44,
+    "created_at": "Tue Nov 03 19:18:00 +0000 2026",
+    "created_timestamp": 1793733480,
+    "views": 586388,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

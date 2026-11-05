@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/FirstSquawk/status/2117676615425798574",
+    "id": "2117676615425798574",
+    "text": "ISRAEL HAS TOLD THE U.S. THAT IRAN IS WEIGHING CHEMICAL WEAPONS USE, SHARING INTELLIGENCE ASSERTING IRAN IS CONSIDERING USING CHEMICAL WEAPONS AGAINST ITS ADVERSARIES, INFORMATION MET WITH ALARM BY SOME AMERICAN OFFICIALS AND DEEP SKEPTICISM BY OTHERS - NYT",
+    "raw_text": {
+      "text": "ISRAEL HAS TOLD THE U.S. THAT IRAN IS WEIGHING CHEMICAL WEAPONS USE, SHARING INTELLIGENCE ASSERTING IRAN IS CONSIDERING USING CHEMICAL WEAPONS AGAINST ITS ADVERSARIES, INFORMATION MET WITH ALARM BY SOME AMERICAN OFFICIALS AND DEEP SKEPTICISM BY OTHERS - NYT",
+      "display_text_range": [
+        0,
+        257
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "FirstSquawk",
+      "url": "https://x.com/FirstSquawk",
+      "id": "3295423333",
+      "followers": 576336,
+      "following": 252,
+      "likes": 833,
+      "media_count": 2136,
+      "name": "First Squawk",
+      "description": "Firstsquawk Is a Global Financial (News) Squawk Service Specialising In Financial Markets, Macro, Geopolitics,politics",
+      "raw_description": {
+        "text": "Firstsquawk Is a Global Financial (News) Squawk Service Specialising In Financial Markets, Macro, Geopolitics,politics",
+        "facets": []
+      },
+      "location": "London, Mumbai, Singapore",
+      "banner_url": "https://pbs.twimg.com/profile_banners/3295423333/1536736758",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1039778545738964992/6fl6RNN0_200x200.jpg",
+      "joined": "Sun Jul 26 14:40:19 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "https://firstsquawk.com",
+        "display_url": "firstsquawk.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 56,
+    "retweets": 20,
+    "likes": 198,
+    "bookmarks": 11,
+    "quotes": 21,
+    "created_at": "Tue Nov 03 17:53:44 +0000 2026",
+    "created_timestamp": 1793728424,
+    "views": 70449,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

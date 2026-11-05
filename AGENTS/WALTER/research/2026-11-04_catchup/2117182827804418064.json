@@ -1,0 +1,238 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/InsiderGeo/status/2117182827804418064",
+    "id": "2117182827804418064",
+    "text": "BREAKING: Belgium is now affected too by a major IT incident disrupting refrigeration systems across multiple supermarket chains.\n\nMore than 40 Delhaize stores, 15 Carrefour locations, and around five Spar outlets are reporting problems.\n\nRefrigerators and freezers are reportedly heating up to 15\u00b0C, putting food supplies at risk.",
+    "raw_text": {
+      "text": "BREAKING: Belgium is now affected too by a major IT incident disrupting refrigeration systems across multiple supermarket chains.\n\nMore than 40 Delhaize stores, 15 Carrefour locations, and around five Spar outlets are reporting problems.\n\nRefrigerators and freezers are reportedly heating up to 15\u00b0C, putting food supplies at risk.",
+      "display_text_range": [
+        0,
+        331
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            281,
+            304
+          ],
+          "id": "2117182765217009664",
+          "display": "pic.x.com/6PwR4jqYoJ",
+          "original": "https://t.co/6PwR4jqYoJ",
+          "replacement": "https://x.com/InsiderGeo/status/2117182827804418064/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "InsiderGeo",
+      "url": "https://x.com/InsiderGeo",
+      "id": "1506407811999277062",
+      "followers": 85140,
+      "following": 606,
+      "likes": 12289,
+      "media_count": 7028,
+      "name": "GeoInsider",
+      "description": "Independent geopolitical & military analysis. Conflicts, strategy, and the forces shaping them. \n\nhttps://linktr.ee/InsiderGeo",
+      "raw_description": {
+        "text": "Independent geopolitical & military analysis. Conflicts, strategy, and the forces shaping them. \n\nhttps://t.co/AAJCKoiL4M",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              98,
+              121
+            ],
+            "original": "https://t.co/AAJCKoiL4M",
+            "replacement": "https://linktr.ee/InsiderGeo",
+            "display": "linktr.ee/InsiderGeo"
+          }
+        ]
+      },
+      "location": "USA",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1506407811999277062/1723424880",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1823162794117582848/kDo1PqtB_200x200.jpg",
+      "joined": "Tue Mar 22 23:10:37 +0000 2022",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 64,
+    "retweets": 810,
+    "likes": 1843,
+    "bookmarks": 403,
+    "quotes": 160,
+    "created_at": "Mon Nov 02 09:11:36 +0000 2026",
+    "created_timestamp": 1793610696,
+    "possibly_sensitive": false,
+    "views": 224511,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2117182765217009664",
+          "url": "https://pbs.twimg.com/media/HWG-gfVW0AASTnd.jpg?name=orig",
+          "width": 817,
+          "height": 449
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2117182765217009664",
+          "url": "https://pbs.twimg.com/media/HWG-gfVW0AASTnd.jpg?name=orig",
+          "width": 817,
+          "height": 449
+        }
+      ]
+    },
+    "quote": {
+      "url": "https://x.com/InsiderGeo/status/2117164877701595165",
+      "id": "2117164877701595165",
+      "text": "BREAKING: \ud83c\uddf8\ud83c\uddea Swedish grocery giant ICA, one of Sweden's largest supermarket chains, says several of its stores have been hit by a cyberattack overnight, causing refrigerators and freezers to be remotely set to 50\u00b0C.\n\nThe incident has likely resulted in large quantities of food spoiling. Multiple stores, including ICA Kvantum in Sj\u00f6bo and Tomelilla, have reported being affected.\n\nICA says stores will remain closed during the morning and are expected to reopen at 9:00 a.m. Swedish time.\n\nThe company has apologized to customers and says it is working to restore normal operations.\n\nThe incident comes amid a wave of cyberattacks targeting businesses recent weeks, following similar incidents reported in France and the United States.",
+      "raw_text": {
+        "text": "BREAKING: \ud83c\uddf8\ud83c\uddea Swedish grocery giant ICA, one of Sweden's largest supermarket chains, says several of its stores have been hit by a cyberattack overnight, causing refrigerators and freezers to be remotely set to 50\u00b0C.\n\nThe incident has likely resulted in large quantities of food spoiling. Multiple stores, including ICA Kvantum in Sj\u00f6bo and Tomelilla, have reported being affected.\n\nICA says stores will remain closed during the morning and are expected to reopen at 9:00 a.m. Swedish time.\n\nThe company has apologized to customers and says it is working to restore normal operations.\n\nThe incident comes amid a wave of cyberattacks targeting businesses recent weeks, following similar incidents reported in France and the United States.",
+        "display_text_range": [
+          0,
+          738
+        ],
+        "facets": [
+          {
+            "type": "media",
+            "indices": [
+              278,
+              301
+            ],
+            "id": "2117164846718353408",
+            "display": "pic.x.com/wrcmGHw1qV",
+            "original": "https://t.co/wrcmGHw1qV",
+            "replacement": "https://x.com/InsiderGeo/status/2117164877701595165/photo/1"
+          },
+          {
+            "type": "media",
+            "indices": [
+              278,
+              301
+            ],
+            "id": "2117164846781181953",
+            "display": "pic.x.com/wrcmGHw1qV",
+            "original": "https://t.co/wrcmGHw1qV",
+            "replacement": "https://x.com/InsiderGeo/status/2117164877701595165/photo/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "InsiderGeo",
+        "url": "https://x.com/InsiderGeo",
+        "id": "1506407811999277062",
+        "followers": 85140,
+        "following": 606,
+        "likes": 12289,
+        "media_count": 7028,
+        "name": "GeoInsider",
+        "description": "Independent geopolitical & military analysis. Conflicts, strategy, and the forces shaping them. \n\nhttps://linktr.ee/InsiderGeo",
+        "raw_description": {
+          "text": "Independent geopolitical & military analysis. Conflicts, strategy, and the forces shaping them. \n\nhttps://t.co/AAJCKoiL4M",
+          "facets": [
+            {
+              "type": "url",
+              "indices": [
+                98,
+                121
+              ],
+              "original": "https://t.co/AAJCKoiL4M",
+              "replacement": "https://linktr.ee/InsiderGeo",
+              "display": "linktr.ee/InsiderGeo"
+            }
+          ]
+        },
+        "location": "USA",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1506407811999277062/1723424880",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1823162794117582848/kDo1PqtB_200x200.jpg",
+        "joined": "Tue Mar 22 23:10:37 +0000 2022",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 407,
+      "retweets": 2122,
+      "likes": 7219,
+      "bookmarks": 1615,
+      "quotes": 761,
+      "created_at": "Mon Nov 02 08:00:16 +0000 2026",
+      "created_timestamp": 1793606416,
+      "possibly_sensitive": false,
+      "views": 1098950,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "media": {
+        "all": [
+          {
+            "type": "photo",
+            "id": "2117164846718353408",
+            "url": "https://pbs.twimg.com/media/HWGuNfuXgAA2Som.jpg?name=orig",
+            "width": 1080,
+            "height": 1333
+          },
+          {
+            "type": "photo",
+            "id": "2117164846781181953",
+            "url": "https://pbs.twimg.com/media/HWGuNf9WMAEzRMg.jpg?name=orig",
+            "width": 1080,
+            "height": 1333
+          }
+        ],
+        "photos": [
+          {
+            "type": "photo",
+            "id": "2117164846718353408",
+            "url": "https://pbs.twimg.com/media/HWGuNfuXgAA2Som.jpg?name=orig",
+            "width": 1080,
+            "height": 1333
+          },
+          {
+            "type": "photo",
+            "id": "2117164846781181953",
+            "url": "https://pbs.twimg.com/media/HWGuNf9WMAEzRMg.jpg?name=orig",
+            "width": 1080,
+            "height": 1333
+          }
+        ],
+        "mosaic": {
+          "type": "mosaic_photo",
+          "formats": {
+            "jpeg": "https://mosaic.fxtwitter.com/jpeg/2117164877701595165/HWGuNfuXgAA2Som/HWGuNf9WMAEzRMg",
+            "webp": "https://mosaic.fxtwitter.com/webp/2117164877701595165/HWGuNfuXgAA2Som/HWGuNf9WMAEzRMg"
+          }
+        }
+      },
+      "twitter_card": "summary_large_image",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

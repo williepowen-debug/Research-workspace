@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/DeItaone/status/2117262178197655859",
+    "id": "2117262178197655859",
+    "text": "ANTHROPIC: OPERATING LOSS WAS $567 MILLION FOR THE THREE MONTHS ENDED SEPTEMBER 30, 2026",
+    "raw_text": {
+      "text": "ANTHROPIC: OPERATING LOSS WAS $567 MILLION FOR THE THREE MONTHS ENDED SEPTEMBER 30, 2026",
+      "display_text_range": [
+        0,
+        88
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "DeItaone",
+      "url": "https://x.com/DeItaone",
+      "id": "2704294333",
+      "followers": 1969969,
+      "following": 40,
+      "likes": 8353,
+      "media_count": 6116,
+      "name": "*Walter Bloomberg",
+      "description": "",
+      "raw_description": {
+        "text": "",
+        "facets": []
+      },
+      "location": "Geneva, Switzerland",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2704294333/1771002964",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2088360110095478784/El9anzXH_200x200.jpg",
+      "joined": "Sun Aug 03 14:34:52 +0000 2014",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 23,
+    "retweets": 38,
+    "likes": 419,
+    "bookmarks": 15,
+    "quotes": 15,
+    "created_at": "Mon Nov 02 14:26:54 +0000 2026",
+    "created_timestamp": 1793629614,
+    "views": 187326,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

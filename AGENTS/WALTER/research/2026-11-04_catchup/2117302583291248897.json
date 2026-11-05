@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/HormuzLetter/status/2117302583291248897",
+    "id": "2117302583291248897",
+    "text": "BREAKING: Europe is under a massive cyber attack, with supermarket fridges and freezers in Belgium, Sweden, Luxembourg, Ireland, the Netherlands, Finland and Estonia all hacked today by raising temperatures to up to 50\u00b0C, destroying huge quantities of food, per Reuters.\n\n\"Everything is destroyed,\" a sales manager in Sweden said, adding that \"there has been a cyberattack and all our freezers reached 50 degrees.\"\n\nMore than 40 supermarkets in Belgium and Luxembourg were affected. \"I only have two words for them: wake up, please, because there's something going on,\" a store manager in Belgium said.\n\nThis follows a similar cyberattack last month that hit hundreds of supermarkets in France, raising freezers as high as 80\u00b0C and causing major food losses.\n\nIt also comes after freezers at 6 US military bases mysteriously malfunctioned, spoiling large quantities of food, which the Pentagon is investigating as a suspected cyberattack.",
+    "raw_text": {
+      "text": "BREAKING: Europe is under a massive cyber attack, with supermarket fridges and freezers in Belgium, Sweden, Luxembourg, Ireland, the Netherlands, Finland and Estonia all hacked today by raising temperatures to up to 50\u00b0C, destroying huge quantities of food, per Reuters.\n\n\"Everything is destroyed,\" a sales manager in Sweden said, adding that \"there has been a cyberattack and all our freezers reached 50 degrees.\"\n\nMore than 40 supermarkets in Belgium and Luxembourg were affected. \"I only have two words for them: wake up, please, because there's something going on,\" a store manager in Belgium said.\n\nThis follows a similar cyberattack last month that hit hundreds of supermarkets in France, raising freezers as high as 80\u00b0C and causing major food losses.\n\nIt also comes after freezers at 6 US military bases mysteriously malfunctioned, spoiling large quantities of food, which the Pentagon is investigating as a suspected cyberattack.",
+      "display_text_range": [
+        0,
+        938
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "HormuzLetter",
+      "url": "https://x.com/HormuzLetter",
+      "id": "2004722276659593216",
+      "followers": 233261,
+      "following": 102,
+      "likes": 36573,
+      "media_count": 490,
+      "name": "The Hormuz Letter",
+      "description": "Iranian. The Middle East through the lens of oil, markets, and money. This is the only account.",
+      "raw_description": {
+        "text": "Iranian. The Middle East through the lens of oil, markets, and money. This is the only account.",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2004722276659593216/1775130129",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2039669923442507776/QiE-cdek_200x200.jpg",
+      "joined": "Sat Dec 27 01:13:52 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 832,
+    "retweets": 4111,
+    "likes": 24106,
+    "bookmarks": 4807,
+    "quotes": 1272,
+    "created_at": "Mon Nov 02 17:07:28 +0000 2026",
+    "created_timestamp": 1793639248,
+    "views": 3010333,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

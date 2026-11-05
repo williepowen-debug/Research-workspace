@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/Nostre_damus/status/2117274096899863037",
+    "id": "2117274096899863037",
+    "text": "Trump releases 400k barrels of oil from the SPR\n\nOperational limit has been hit, can\u2019t pump the sludge out",
+    "raw_text": {
+      "text": "Trump releases 400k barrels of oil from the SPR\n\nOperational limit has been hit, can\u2019t pump the sludge out",
+      "display_text_range": [
+        0,
+        106
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "Nostre_damus",
+      "url": "https://x.com/Nostre_damus",
+      "id": "1561842129415966721",
+      "followers": 108317,
+      "following": 516,
+      "likes": 387317,
+      "media_count": 7534,
+      "name": "Nostra, House of Gold",
+      "description": "Profit of Doom | Haunted by the future | Economist | Strategist |  #Macro #Geopolitics",
+      "raw_description": {
+        "text": "Profit of Doom | Haunted by the future | Economist | Strategist |  #Macro #Geopolitics",
+        "facets": []
+      },
+      "location": "Future",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1561842129415966721/1679723747",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1730731495898365952/Ju7-E1Y5_200x200.jpg",
+      "joined": "Mon Aug 22 22:26:18 +0000 2022",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 36,
+    "retweets": 131,
+    "likes": 1283,
+    "bookmarks": 23,
+    "quotes": 5,
+    "created_at": "Mon Nov 02 15:14:16 +0000 2026",
+    "created_timestamp": 1793632456,
+    "views": 25068,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

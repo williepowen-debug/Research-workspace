@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/HormuzLetter/status/2117645173794505006",
+    "id": "2117645173794505006",
+    "text": "BREAKING: Iran directly rejects reports it is close to a deal with US, saying zero progress has been made on reaching an agreement, and no concessions were made on the nuclear issue.\n\nOil prices crashed more than 5% today on false claims of a US-Iran deal, after dropping 8% yesterday on the same false claims.\n\nIran says the US response was \"not convincing,\" and the US \"must fully and explicitly address Iran's seven conditions and act upon them; only in this case will the Strait of Hormuz be reopened.\"",
+    "raw_text": {
+      "text": "BREAKING: Iran directly rejects reports it is close to a deal with US, saying zero progress has been made on reaching an agreement, and no concessions were made on the nuclear issue.\n\nOil prices crashed more than 5% today on false claims of a US-Iran deal, after dropping 8% yesterday on the same false claims.\n\nIran says the US response was \"not convincing,\" and the US \"must fully and explicitly address Iran's seven conditions and act upon them; only in this case will the Strait of Hormuz be reopened.\"",
+      "display_text_range": [
+        0,
+        506
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "HormuzLetter",
+      "url": "https://x.com/HormuzLetter",
+      "id": "2004722276659593216",
+      "followers": 233264,
+      "following": 102,
+      "likes": 36573,
+      "media_count": 490,
+      "name": "The Hormuz Letter",
+      "description": "Iranian. The Middle East through the lens of oil, markets, and money. This is the only account.",
+      "raw_description": {
+        "text": "Iranian. The Middle East through the lens of oil, markets, and money. This is the only account.",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/2004722276659593216/1775130129",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2039669923442507776/QiE-cdek_200x200.jpg",
+      "joined": "Sat Dec 27 01:13:52 +0000 2025",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 57,
+    "retweets": 350,
+    "likes": 2147,
+    "bookmarks": 136,
+    "quotes": 37,
+    "created_at": "Tue Nov 03 15:48:48 +0000 2026",
+    "created_timestamp": 1793720928,
+    "views": 143857,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/negligible_cap/status/2117257560570945592",
+    "id": "2117257560570945592",
+    "text": "GS banning traders and bankers from using AI over productivity and risk concerns\n\nMake Tokenmaxxing Great Again",
+    "raw_text": {
+      "text": "GS banning traders and bankers from using AI over productivity and risk concerns\n\nMake Tokenmaxxing Great Again https://t.co/Bx8fO1VBDN",
+      "display_text_range": [
+        0,
+        111
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            112,
+            135
+          ],
+          "id": "2117257225076969473",
+          "display": "pic.x.com/Bx8fO1VBDN",
+          "original": "https://t.co/Bx8fO1VBDN",
+          "replacement": "https://x.com/negligible_cap/status/2117257560570945592/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "negligible_cap",
+      "url": "https://x.com/negligible_cap",
+      "id": "1521479200619876353",
+      "followers": 19546,
+      "following": 687,
+      "likes": 11923,
+      "media_count": 2381,
+      "name": "Negligible Capital",
+      "description": "Stocks mostly. Long and short\n\nNot advice",
+      "raw_description": {
+        "text": "Stocks mostly. Long and short\n\nNot advice",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1521479200619876353/1782355574",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1991356870720643073/emmGUHXq_200x200.jpg",
+      "joined": "Tue May 03 13:18:29 +0000 2022",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 29,
+    "retweets": 80,
+    "likes": 1047,
+    "bookmarks": 230,
+    "quotes": 23,
+    "created_at": "Mon Nov 02 14:08:33 +0000 2026",
+    "created_timestamp": 1793628513,
+    "possibly_sensitive": false,
+    "views": 142809,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2117257225076969473",
+          "url": "https://pbs.twimg.com/media/HWICOn7XkAEyCnH.png?name=orig",
+          "width": 845,
+          "height": 492
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2117257225076969473",
+          "url": "https://pbs.twimg.com/media/HWICOn7XkAEyCnH.png?name=orig",
+          "width": 845,
+          "height": 492
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

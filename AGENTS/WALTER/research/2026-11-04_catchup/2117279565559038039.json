@@ -1,0 +1,85 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/unusual_whales/status/2117279565559038039",
+    "id": "2117279565559038039",
+    "text": "BREAKING: The U.S. backs resuming Russian gas sales to Europe through Ukraine, despite European opposition and years of efforts to end dependence on Moscow, per WSJ",
+    "raw_text": {
+      "text": "BREAKING: The U.S. backs resuming Russian gas sales to Europe through Ukraine, despite European opposition and years of efforts to end dependence on Moscow, per WSJ",
+      "display_text_range": [
+        0,
+        164
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "unusual_whales",
+      "url": "https://x.com/unusual_whales",
+      "id": "1200616796295847936",
+      "followers": 5387114,
+      "following": 2381,
+      "likes": 66695,
+      "media_count": 31495,
+      "name": "unusual_whales",
+      "description": "API Free trial: https://bit.ly/4vOqzKA\nDiscord: http://bit.ly/3Bf2pNJ\n\nMarket news, trading tools\nReal-time option flow, screeners, GEX\nCustom alerts & more\nNFA",
+      "raw_description": {
+        "text": "API Free trial: https://t.co/FMKNJWJquj\nDiscord: https://t.co/0xJ9e0ZYYG\n\nMarket news, trading tools\nReal-time option flow, screeners, GEX\nCustom alerts & more\nNFA",
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              16,
+              39
+            ],
+            "original": "https://t.co/FMKNJWJquj",
+            "replacement": "https://bit.ly/4vOqzKA",
+            "display": "bit.ly/4vOqzKA"
+          },
+          {
+            "type": "url",
+            "indices": [
+              49,
+              72
+            ],
+            "original": "https://t.co/0xJ9e0ZYYG",
+            "replacement": "http://bit.ly/3Bf2pNJ",
+            "display": "bit.ly/3Bf2pNJ"
+          }
+        ]
+      },
+      "location": "United States",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1200616796295847936/1793651219",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1714107328134516736/dLZGJPm7_200x200.png",
+      "joined": "Sat Nov 30 03:25:32 +0000 2019",
+      "protected": false,
+      "website": {
+        "url": "https://unusualwhales.com",
+        "display_url": "unusualwhales.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 63,
+    "retweets": 56,
+    "likes": 995,
+    "bookmarks": 39,
+    "quotes": 18,
+    "created_at": "Mon Nov 02 15:36:00 +0000 2026",
+    "created_timestamp": 1793633760,
+    "views": 179976,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

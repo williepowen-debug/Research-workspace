@@ -1,0 +1,64 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/TheInsiderPaper/status/2117298030160568646",
+    "id": "2117298030160568646",
+    "text": "NEW: Power outages hit downtown Washington, DC, affecting traffic lights and multiple US State Department facilities. Officials say they are investigating the outages with power utility Pepco, according to the Daily Wire.",
+    "raw_text": {
+      "text": "NEW: Power outages hit downtown Washington, DC, affecting traffic lights and multiple US State Department facilities. Officials say they are investigating the outages with power utility Pepco, according to the Daily Wire.",
+      "display_text_range": [
+        0,
+        221
+      ],
+      "facets": []
+    },
+    "author": {
+      "screen_name": "TheInsiderPaper",
+      "url": "https://x.com/TheInsiderPaper",
+      "id": "1247223374717296647",
+      "followers": 493418,
+      "following": 1,
+      "likes": 2519,
+      "media_count": 26667,
+      "name": "Insider Paper",
+      "description": "Insider Paper is your source for Breaking News and Developing Stories.",
+      "raw_description": {
+        "text": "Insider Paper is your source for Breaking News and Developing Stories.",
+        "facets": []
+      },
+      "location": "Global",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1247223374717296647/1586196729",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1247224989348179968/pZ_n8xAa_200x200.jpg",
+      "joined": "Mon Apr 06 18:09:10 +0000 2020",
+      "protected": false,
+      "website": {
+        "url": "https://insiderpaper.com/",
+        "display_url": "insiderpaper.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 61,
+    "retweets": 716,
+    "likes": 3091,
+    "bookmarks": 380,
+    "quotes": 123,
+    "created_at": "Mon Nov 02 16:49:22 +0000 2026",
+    "created_timestamp": 1793638162,
+    "views": 236784,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

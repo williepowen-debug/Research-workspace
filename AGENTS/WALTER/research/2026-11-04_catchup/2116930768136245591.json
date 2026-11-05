@@ -1,0 +1,113 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/KobeissiLetter/status/2116930768136245591",
+    "id": "2116930768136245591",
+    "text": "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June.\n\nThis also marks its 3rd-largest monthly outflow since February 2024.\n\nYear-to-date, $GLD has seen -$3.8 billion in withdrawals, putting it on track for its first annual outflow since 2023.\n\nBy comparison, the fund attracted +$23.0 billion in inflows in 2025, its largest annual intake on record.\n\nMeanwhile, investors withdrew -$1.5 billion from gold and other precious metal funds last week, marking their 2nd weekly outflow over the last 7 weeks.\n\nGold flows are highly volatile right now.",
+    "raw_text": {
+      "text": "BREAKING: The largest US physical-gold backed ETF, $GLD, recorded -$1.8 billion in outflows in October, its biggest monthly withdrawal since June.\n\nThis also marks its 3rd-largest monthly outflow since February 2024.\n\nYear-to-date, $GLD has seen -$3.8 billion in withdrawals, putting it on track for its first annual outflow since 2023.\n\nBy comparison, the fund attracted +$23.0 billion in inflows in 2025, its largest annual intake on record.\n\nMeanwhile, investors withdrew -$1.5 billion from gold and other precious metal funds last week, marking their 2nd weekly outflow over the last 7 weeks.\n\nGold flows are highly volatile right now.",
+      "display_text_range": [
+        0,
+        639
+      ],
+      "facets": [
+        {
+          "type": "symbol",
+          "indices": [
+            51,
+            55
+          ],
+          "original": "GLD"
+        },
+        {
+          "type": "symbol",
+          "indices": [
+            232,
+            236
+          ],
+          "original": "GLD"
+        },
+        {
+          "type": "media",
+          "indices": [
+            276,
+            299
+          ],
+          "id": "2116901435946176512",
+          "display": "pic.x.com/o2JZH8Vy2u",
+          "original": "https://t.co/o2JZH8Vy2u",
+          "replacement": "https://x.com/KobeissiLetter/status/2116930768136245591/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "KobeissiLetter",
+      "url": "https://x.com/KobeissiLetter",
+      "id": "3316376038",
+      "followers": 2713865,
+      "following": 601,
+      "likes": 29282,
+      "media_count": 15511,
+      "name": "The Kobeissi Letter",
+      "description": "Official X account for The Kobeissi Letter, an industry leading commentary on the global capital markets. Email us: support@thekobeissiletter.com",
+      "raw_description": {
+        "text": "Official X account for The Kobeissi Letter, an industry leading commentary on the global capital markets. Email us: support@thekobeissiletter.com",
+        "facets": []
+      },
+      "location": "United States",
+      "banner_url": "https://pbs.twimg.com/profile_banners/3316376038/1547088797",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1975243710846640128/fwYCe67Y_200x200.jpg",
+      "joined": "Wed Jun 10 00:34:15 +0000 2015",
+      "protected": false,
+      "website": {
+        "url": "http://thekobeissiletter.com/subscribe",
+        "display_url": "thekobeissiletter.com/subscribe"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 165,
+    "retweets": 180,
+    "likes": 1727,
+    "bookmarks": 200,
+    "quotes": 41,
+    "created_at": "Sun Nov 01 16:30:00 +0000 2026",
+    "created_timestamp": 1793550600,
+    "possibly_sensitive": false,
+    "views": 254577,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2116901435946176512",
+          "url": "https://pbs.twimg.com/media/HWC-o-IWEAAYTOp.jpg?name=orig",
+          "width": 1200,
+          "height": 801
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2116901435946176512",
+          "url": "https://pbs.twimg.com/media/HWC-o-IWEAAYTOp.jpg?name=orig",
+          "width": 1200,
+          "height": 801
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

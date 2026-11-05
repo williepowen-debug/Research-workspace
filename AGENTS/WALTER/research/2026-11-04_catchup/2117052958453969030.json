@@ -1,0 +1,86 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/junkbondinvest/status/2117052958453969030",
+    "id": "2117052958453969030",
+    "text": "I keep seeing people post charts showing CCC spreads above 1,000 bps...as if that\u2019s a sign that levered credit is finally cracking. \n\nI\u2019m not denying the widening. Technically, it\u2019s accurate. But I suspected a few capital structures (each with their own idiosyncratic issues) were behind a lot of the move. \n\nSo I went through the index bond by bond to see if that was true. What I found was that about half of this year\u2019s CCC widening came from just 5 capital structures.\n\nHere's my full write-up:\n\nhttps://www.junkbondinvestor.com/p/credit-weekly-the-ccc-myth",
+    "raw_text": {
+      "text": "I keep seeing people post charts showing CCC spreads above 1,000 bps...as if that\u2019s a sign that levered credit is finally cracking. \n\nI\u2019m not denying the widening. Technically, it\u2019s accurate. But I suspected a few capital structures (each with their own idiosyncratic issues) were behind a lot of the move. \n\nSo I went through the index bond by bond to see if that was true. What I found was that about half of this year\u2019s CCC widening came from just 5 capital structures.\n\nHere's my full write-up:\n\nhttps://t.co/0aCusQ7nKi",
+      "display_text_range": [
+        0,
+        523
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            500,
+            523
+          ],
+          "original": "https://t.co/0aCusQ7nKi",
+          "replacement": "https://www.junkbondinvestor.com/p/credit-weekly-the-ccc-myth",
+          "display": "junkbondinvestor.com/p/credit-weekl\u2026"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "junkbondinvest",
+      "url": "https://x.com/junkbondinvest",
+      "id": "1094621743191347201",
+      "followers": 55047,
+      "following": 1088,
+      "likes": 25955,
+      "media_count": 4822,
+      "name": "junkbondinvestor",
+      "description": "Credit analyst. Focus on high yield bonds, leveraged loans, distressed debt, special situations. \n\nLots of satire. DMs open.",
+      "raw_description": {
+        "text": "Credit analyst. Focus on high yield bonds, leveraged loans, distressed debt, special situations. \n\nLots of satire. DMs open.",
+        "facets": []
+      },
+      "location": "Join 25K+ subscribers \u2192",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1094621743191347201/1752097606",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2010804239304376320/2sNVdcG-_200x200.jpg",
+      "joined": "Sun Feb 10 15:38:55 +0000 2019",
+      "protected": false,
+      "website": {
+        "url": "https://www.junkbondinvestor.com/",
+        "display_url": "junkbondinvestor.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 13,
+    "retweets": 22,
+    "likes": 197,
+    "bookmarks": 89,
+    "quotes": 3,
+    "created_at": "Mon Nov 02 00:35:32 +0000 2026",
+    "created_timestamp": 1793579732,
+    "views": 18399,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "https://www.junkbondinvestor.com/p/credit-weekly-the-ccc-myth",
+      "title": "Credit Weekly: The CCC Myth?",
+      "description": "A mechanical look at what\u2019s driving CCC spreads wider",
+      "domain": "www.junkbondinvestor.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2117052954536480768/m7RDPvH5?format=jpg&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

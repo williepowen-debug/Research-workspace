@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/CBSNews/status/2117657823748161568",
+    "id": "2117657823748161568",
+    "text": "MSC Cruises canceled the voyage of its MSC Poesia cruise ship after it was detained by the Coast Guard at the Port of Miami, the cruise line confirmed to CBS News on Tuesday. https://cbsn.ws/4kwShcw",
+    "raw_text": {
+      "text": "MSC Cruises canceled the voyage of its MSC Poesia cruise ship after it was detained by the Coast Guard at the Port of Miami, the cruise line confirmed to CBS News on Tuesday. https://t.co/wljUxFhtPG",
+      "display_text_range": [
+        0,
+        198
+      ],
+      "facets": [
+        {
+          "type": "url",
+          "indices": [
+            175,
+            198
+          ],
+          "original": "https://t.co/wljUxFhtPG",
+          "replacement": "https://cbsn.ws/4kwShcw",
+          "display": "cbsn.ws/4kwShcw"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "CBSNews",
+      "url": "https://x.com/CBSNews",
+      "id": "15012486",
+      "followers": 9856578,
+      "following": 645,
+      "likes": 384,
+      "media_count": 207864,
+      "name": "CBS News",
+      "description": "Your source for original reporting and trusted news.\n\n\ud83d\udcfa CBS | Streaming on the CBS News app | @ParamountPlus",
+      "raw_description": {
+        "text": "Your source for original reporting and trusted news.\n\n\ud83d\udcfa CBS | Streaming on the CBS News app | @ParamountPlus",
+        "facets": []
+      },
+      "location": "New York, NY",
+      "banner_url": "https://pbs.twimg.com/profile_banners/15012486/1616515622",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1617634745348661249/6YmPYpNd_200x200.jpg",
+      "joined": "Thu Jun 05 00:54:31 +0000 2008",
+      "protected": false,
+      "website": {
+        "url": "http://CBSNews.com",
+        "display_url": "CBSNews.com"
+      },
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "organization"
+      },
+      "avatar_color": null
+    },
+    "replies": 4,
+    "retweets": 8,
+    "likes": 24,
+    "bookmarks": 4,
+    "quotes": 1,
+    "created_at": "Tue Nov 03 16:39:04 +0000 2026",
+    "created_timestamp": 1793723944,
+    "possibly_sensitive": false,
+    "views": 52742,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "card": {
+      "url": "https://cbsn.ws/4kwShcw",
+      "title": "Cruise canceled after Coast Guard detains ship in Miami, officials say",
+      "description": "MSC Cruises canceled the voyage for its MSC Poesia cruise ship after it was detained by the Coast Guard at the Port of Miami, the cruise line confirmed to CBS News.",
+      "domain": "www.cbsnews.com",
+      "image": {
+        "width": 800,
+        "height": 419,
+        "url": "https://pbs.twimg.com/card_img/2117466804738048000/Ea6aSJju?format=jpg&name=800x419"
+      }
+    },
+    "twitter_card": "tweet",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}

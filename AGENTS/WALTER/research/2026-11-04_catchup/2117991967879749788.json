@@ -1,0 +1,102 @@
+{
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+    "url": "https://x.com/BeardoTrader/status/2117991967879749788",
+    "id": "2117991967879749788",
+    "text": "Long term $QQQ model continues to track extremely well.",
+    "raw_text": {
+      "text": "Long term $QQQ model continues to track extremely well. https://t.co/Fclq6Xnngw",
+      "display_text_range": [
+        0,
+        55
+      ],
+      "facets": [
+        {
+          "type": "symbol",
+          "indices": [
+            10,
+            14
+          ],
+          "original": "QQQ"
+        },
+        {
+          "type": "media",
+          "indices": [
+            56,
+            79
+          ],
+          "id": "2117991886556180480",
+          "display": "pic.x.com/Fclq6Xnngw",
+          "original": "https://t.co/Fclq6Xnngw",
+          "replacement": "https://x.com/BeardoTrader/status/2117991967879749788/photo/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "BeardoTrader",
+      "url": "https://x.com/BeardoTrader",
+      "id": "891372044",
+      "followers": 54706,
+      "following": 1624,
+      "likes": 527336,
+      "media_count": 10905,
+      "name": "Beardo",
+      "description": "I stare at charts all day.",
+      "raw_description": {
+        "text": "I stare at charts all day.",
+        "facets": []
+      },
+      "location": "- NOT A FINANCIAL ADVISOR -",
+      "banner_url": "https://pbs.twimg.com/profile_banners/891372044/1751902179",
+      "avatar_url": "https://pbs.twimg.com/profile_images/1786809539515269120/G7FYAbI9_200x200.jpg",
+      "joined": "Fri Oct 19 16:52:58 +0000 2012",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 112,
+    "retweets": 64,
+    "likes": 1117,
+    "bookmarks": 252,
+    "quotes": 19,
+    "created_at": "Wed Nov 04 14:46:50 +0000 2026",
+    "created_timestamp": 1793803610,
+    "possibly_sensitive": false,
+    "views": 131383,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "type": "photo",
+          "id": "2117991886556180480",
+          "url": "https://pbs.twimg.com/media/HWSeZjNXMAAKOBi.jpg?name=orig",
+          "width": 1190,
+          "height": 947
+        }
+      ],
+      "photos": [
+        {
+          "type": "photo",
+          "id": "2117991886556180480",
+          "url": "https://pbs.twimg.com/media/HWSeZjNXMAAKOBi.jpg?name=orig",
+          "width": 1190,
+          "height": 947
+        }
+      ]
+    },
+    "twitter_card": "summary_large_image",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  }
+}
