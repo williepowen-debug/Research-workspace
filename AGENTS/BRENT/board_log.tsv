@@ -765,3 +765,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T21:06:30-05:00	SIG-W-20261104-078	acted	INBOX_WALTER	Marks reassessed in PROME memo 11/4: BZF27 94.62, CLZ26 88.12, M1-M3 +4.50 proxy, F-a not crossed.
 2026-11-04T21:06:30-05:00	SIG-W-20261104-079	acted	INBOX_WALTER	Flow basis stated in PROME memo 11/4: UNRESOLVED; near pre-war rejected. Hull census is FALCON.
 2026-11-04T21:06:30-05:00	2026-11-04_from-ORACLE_nov110-alert-fired-and-cleared	noted	INBOX	Corrected packet daa033da9b read; priced odds weighed in PROME memo 11/4, no reply owed.
+2026-11-04T21:11:32-05:00	2026-11-04_from-FALCON_weekly-grade-fal07-census-flow-basis	acted	INBOX	Fade <$78 NOT MET at BZF27 $94.62; flow basis UNRESOLVED; packet to FALCON 11/4. FAL-07 CONFIRMED, census 7, AL MAYEDA = 188-26, LARGO ATOM match: integrate at closeout.
