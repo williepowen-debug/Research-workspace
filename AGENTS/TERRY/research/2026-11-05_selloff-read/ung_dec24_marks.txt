@@ -1,0 +1,7 @@
+UNG Dec-24-2026 10.5C reference, read 2026-11-05 16:14-16:15 EST. Screening only; no broker quote.
+Yahoo feed via chain_fetch.py: expiry 2026-12-24 not listed (lists 12/18, then 1/15).
+Cboe delayed JSON, cdn-api.cboe.com/api/global/delayed_quotes/options/UNG.json, file timestamp 2026-11-05 14:51:12, last underlying trade 09:36:10, spot 9.305: a morning snapshot, not the close.
+UNG261224C00010500 bid 0.01 ask 2.69 OI 0 volume 0 last none delta 0.38 theta -0.0092 theo 0.5604
+UNG261218 strikes listed 10.00, 11.00, no 10.50: 10C 0.59/0.62, 11C 0.31/0.40 (Yahoo, close)
+UNG270115 10C 0.90/0.96, 11C 0.63/0.66 (Yahoo, close)
+Model check: spot 9.255, 49 days, r 3.5%: IV 68/72/76% gives 0.49/0.54/0.60; delta 0.36-0.38. Consistent with the derived broker value of about $54.
