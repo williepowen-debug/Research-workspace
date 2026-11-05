@@ -24,7 +24,7 @@
 - THESIS D2 and D4 CLOSED 11/05 from issuer history; D3 open (mba.org 403); D11 logged: ICE October lands after 11/20, grade on September and update mechanically. Grade worksheet in `reports/2026-11-05_catchup.md`. A2 upgrade rung stays for 11/20. Held lesson not written: Will wants fewer rules, and the membership grep already caught it. Formal grade **2026-11-20**; HOM-02 decider MBA Q3 NDS ~mid-Nov.
 - ATTOM path is `/news/market-trends/foreclosures/` (plural); singular 404s prove nothing.
 
-- ⚠️ **PUSH NOT DONE.** safe-push failed 3 times 2026-11-05: 1 unread abort, then 2 GitHub rejections, `fatal error in commit_refs_rules`, on a clean fast-forward. Commits are local: 3238c184b is not on origin at 18:4x ET. Flagged to PROME. No force. Packets are readable in this shared tree; re-run `scripts/safe-push.sh` next session.
+- **Push:** GitHub rejected pushes about 18:20–18:30 ET 2026-11-05 (`fatal error in commit_refs_rules`, cause unknown, MARCO hit it too). Cleared by 18:38 when BRENT's push landed; 3238c184b is on origin. The 11/20-prep commit and this note are local until PROME's closeout push or the next HOMER closeout.
 
 No Will decision required.
 
