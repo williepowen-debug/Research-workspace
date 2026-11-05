@@ -23,7 +23,7 @@
 4. **Owed:** Henry Hub level (#7, missed 11/01; a new level goes to Will through PROME) · Yangtze re-read (#10; cjh.com.cn timed out twice) · king-tide (b)(c)(d) · S-5 re-spec (Will) · coastal home (Will) · CPC 11/12.
 
 ### DONE 11/05
-Inbox 1 direct + 10 WALTER drained · KB-237…247 · VX-44 · AEO-09 HIT · AEO-10 50→80% · regime #12 applied · STATUS, CALENDAR, 4 dossiers, NEXUS_BRIEF current · packets CARL, HENRY (C5), CORAL (rain), TERRY, WATT, BRENT (vortex split). No workers spawned: all reads were direct, so domain logs carry them. **Skipped:** seismic gap scan (event-triggered, no signal) · CPC HDD (out of window) · ACE to-date normal not recomputed · Panama October transits · PJM OC 11/05 (WATT grades).
+Inbox 1 direct + 10 WALTER drained · KB-237…247 · VX-44 · AEO-09 HIT · AEO-10 50→80% · regime #12 applied · STATUS, CALENDAR, 4 dossiers, NEXUS_BRIEF current · packets CARL, HENRY (C5), CORAL (rain), TERRY, WATT, BRENT (vortex split). **Worker spawned: water, 11:53 ET on Will's "yes go" (Rhine freight evidence + Powell pulse); delivered 12:06, adjudicated KB-249/250.** Other domains quiet by choice: morning reads were direct, so domain logs carry them. **Skipped:** seismic gap scan (event-triggered, no signal) · CPC HDD (out of window) · ACE to-date normal not recomputed · Panama October transits · PJM OC 11/05 (WATT grades).
 ⚠️ eccodes lives in the session scratchpad, not `.venv`, so reinstall it per `regime/SOURCES.md`.
 
 ---

@@ -1043,3 +1043,95 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-10-27	usda_barge_rate_pct	706.25	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Cincinnati; = $33.12/ton (benchmark 4.69)
 2026-10-27	usda_barge_rate_pct	706.25	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Lower Ohio; = $31.50/ton (benchmark 4.46)
 2026-10-27	usda_barge_rate_pct	481.25	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 10:08 ET	Cairo-Memphis; = $15.11/ton (benchmark 3.14)
+2026-10-29	maxau_stage	313.8	cm	WSV-PEGELONLINE-MAXAU	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 313.792; not a trigger station
+2026-10-30	maxau_stage	298.6	cm	WSV-PEGELONLINE-MAXAU	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 298.573; not a trigger station
+2026-10-31	maxau_stage	304.2	cm	WSV-PEGELONLINE-MAXAU	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 304.229; not a trigger station
+2026-11-01	maxau_stage	307.7	cm	WSV-PEGELONLINE-MAXAU	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 307.698; not a trigger station
+2026-11-02	maxau_stage	308.5	cm	WSV-PEGELONLINE-MAXAU	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 308.531; not a trigger station
+2026-11-03	maxau_stage	311.2	cm	WSV-PEGELONLINE-MAXAU	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 311.240; not a trigger station
+2026-11-04	maxau_stage	314.0	cm	WSV-PEGELONLINE-MAXAU	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 313.969; not a trigger station
+2026-10-29	worms_stage	15.6	cm	WSV-PEGELONLINE-WORMS	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 15.604; not a trigger station
+2026-10-30	worms_stage	5.9	cm	WSV-PEGELONLINE-WORMS	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 5.938; not a trigger station
+2026-10-31	worms_stage	-4.1	cm	WSV-PEGELONLINE-WORMS	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean -4.135; not a trigger station
+2026-11-01	worms_stage	-5.4	cm	WSV-PEGELONLINE-WORMS	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean -5.354; not a trigger station
+2026-11-02	worms_stage	-4.5	cm	WSV-PEGELONLINE-WORMS	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean -4.479; not a trigger station
+2026-11-03	worms_stage	-2.7	cm	WSV-PEGELONLINE-WORMS	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=95); UNROUNDED mean -2.653; not a trigger station
+2026-11-04	worms_stage	-2.8	cm	WSV-PEGELONLINE-WORMS	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean -2.750; not a trigger station
+2026-10-29	mainz_stage	145.0	cm	WSV-PEGELONLINE-MAINZ	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 145.000; not a trigger station
+2026-10-30	mainz_stage	135.0	cm	WSV-PEGELONLINE-MAINZ	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 135.031; not a trigger station
+2026-10-31	mainz_stage	126.9	cm	WSV-PEGELONLINE-MAINZ	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 126.896; not a trigger station
+2026-11-01	mainz_stage	120.2	cm	WSV-PEGELONLINE-MAINZ	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 120.167; not a trigger station
+2026-11-02	mainz_stage	118.1	cm	WSV-PEGELONLINE-MAINZ	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 118.104; not a trigger station
+2026-11-03	mainz_stage	119.8	cm	WSV-PEGELONLINE-MAINZ	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 119.823; not a trigger station
+2026-11-04	mainz_stage	118.8	cm	WSV-PEGELONLINE-MAINZ	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 118.771; not a trigger station
+2026-10-29	emmerich_stage	69.8	cm	WSV-PEGELONLINE-EMMERICH	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 69.802; not a trigger station
+2026-10-30	emmerich_stage	55.6	cm	WSV-PEGELONLINE-EMMERICH	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 55.615; not a trigger station
+2026-10-31	emmerich_stage	46.0	cm	WSV-PEGELONLINE-EMMERICH	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 46.010; not a trigger station
+2026-11-01	emmerich_stage	35.1	cm	WSV-PEGELONLINE-EMMERICH	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 35.135; not a trigger station
+2026-11-02	emmerich_stage	24.6	cm	WSV-PEGELONLINE-EMMERICH	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 24.562; not a trigger station
+2026-11-03	emmerich_stage	14.6	cm	WSV-PEGELONLINE-EMMERICH	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 14.646; not a trigger station
+2026-11-04	emmerich_stage	6.9	cm	WSV-PEGELONLINE-EMMERICH	2026-11-05 11:54 ET	daily mean of 15-min obs, local calendar day (n=96); UNROUNDED mean 6.927; not a trigger station
+2026-10-29	kaub_q	661.1	m3_s	WSV-PEGELONLINE-KAUB-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 661.062; provisional raw series
+2026-10-30	kaub_q	611.8	m3_s	WSV-PEGELONLINE-KAUB-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 611.771; provisional raw series
+2026-10-31	kaub_q	573.5	m3_s	WSV-PEGELONLINE-KAUB-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 573.469; provisional raw series
+2026-11-01	kaub_q	535.7	m3_s	WSV-PEGELONLINE-KAUB-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 535.656; provisional raw series
+2026-11-02	kaub_q	517.8	m3_s	WSV-PEGELONLINE-KAUB-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 517.844; provisional raw series
+2026-11-03	kaub_q	513.1	m3_s	WSV-PEGELONLINE-KAUB-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 513.094; provisional raw series
+2026-11-04	kaub_q	531.0	m3_s	WSV-PEGELONLINE-KAUB-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 530.979; provisional raw series
+2026-10-29	duisburg_ruhrort_q	954.2	m3_s	WSV-PEGELONLINE-DUISBURG-RUHRORT-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 954.219; provisional raw series
+2026-10-30	duisburg_ruhrort_q	902.6	m3_s	WSV-PEGELONLINE-DUISBURG-RUHRORT-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 902.573; provisional raw series
+2026-10-31	duisburg_ruhrort_q	853.4	m3_s	WSV-PEGELONLINE-DUISBURG-RUHRORT-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 853.354; provisional raw series
+2026-11-01	duisburg_ruhrort_q	795.4	m3_s	WSV-PEGELONLINE-DUISBURG-RUHRORT-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 795.365; provisional raw series
+2026-11-02	duisburg_ruhrort_q	739.0	m3_s	WSV-PEGELONLINE-DUISBURG-RUHRORT-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 739.021; provisional raw series
+2026-11-03	duisburg_ruhrort_q	706.4	m3_s	WSV-PEGELONLINE-DUISBURG-RUHRORT-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 706.448; provisional raw series
+2026-11-04	duisburg_ruhrort_q	677.1	m3_s	WSV-PEGELONLINE-DUISBURG-RUHRORT-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 677.135; provisional raw series
+2026-10-29	emmerich_q	1016.1	m3_s	WSV-PEGELONLINE-EMMERICH-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 1016.094; provisional raw series
+2026-10-30	emmerich_q	945.1	m3_s	WSV-PEGELONLINE-EMMERICH-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 945.135; provisional raw series
+2026-10-31	emmerich_q	898.2	m3_s	WSV-PEGELONLINE-EMMERICH-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 898.250; provisional raw series
+2026-11-01	emmerich_q	835.9	m3_s	WSV-PEGELONLINE-EMMERICH-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 835.896; provisional raw series
+2026-11-02	emmerich_q	785.3	m3_s	WSV-PEGELONLINE-EMMERICH-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 785.312; provisional raw series
+2026-11-03	emmerich_q	739.4	m3_s	WSV-PEGELONLINE-EMMERICH-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 739.385; provisional raw series
+2026-11-04	emmerich_q	703.3	m3_s	WSV-PEGELONLINE-EMMERICH-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 703.344; provisional raw series
+2026-10-29	maxau_q	409.8	m3_s	WSV-PEGELONLINE-MAXAU-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 409.760; provisional raw series
+2026-10-30	maxau_q	372.2	m3_s	WSV-PEGELONLINE-MAXAU-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 372.188; provisional raw series
+2026-10-31	maxau_q	386.1	m3_s	WSV-PEGELONLINE-MAXAU-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 386.135; provisional raw series
+2026-11-01	maxau_q	394.7	m3_s	WSV-PEGELONLINE-MAXAU-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 394.740; provisional raw series
+2026-11-02	maxau_q	396.3	m3_s	WSV-PEGELONLINE-MAXAU-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 396.302; provisional raw series
+2026-11-03	maxau_q	404.5	m3_s	WSV-PEGELONLINE-MAXAU-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 404.531; provisional raw series
+2026-11-04	maxau_q	410.6	m3_s	WSV-PEGELONLINE-MAXAU-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 410.646; provisional raw series
+2026-10-29	worms_q	501.8	m3_s	WSV-PEGELONLINE-WORMS-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 501.792; provisional raw series
+2026-10-30	worms_q	471.8	m3_s	WSV-PEGELONLINE-WORMS-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 471.812; provisional raw series
+2026-10-31	worms_q	440.6	m3_s	WSV-PEGELONLINE-WORMS-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 440.615; provisional raw series
+2026-11-01	worms_q	436.9	m3_s	WSV-PEGELONLINE-WORMS-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 436.938; provisional raw series
+2026-11-02	worms_q	439.6	m3_s	WSV-PEGELONLINE-WORMS-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 439.562; provisional raw series
+2026-11-03	worms_q	445.1	m3_s	WSV-PEGELONLINE-WORMS-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 445.062; provisional raw series
+2026-11-04	worms_q	444.8	m3_s	WSV-PEGELONLINE-WORMS-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 444.781; provisional raw series
+2026-10-29	mainz_q	623.0	m3_s	WSV-PEGELONLINE-MAINZ-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 623.042; provisional raw series
+2026-10-30	mainz_q	574.1	m3_s	WSV-PEGELONLINE-MAINZ-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 574.115; provisional raw series
+2026-10-31	mainz_q	534.6	m3_s	WSV-PEGELONLINE-MAINZ-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 534.562; provisional raw series
+2026-11-01	mainz_q	501.9	m3_s	WSV-PEGELONLINE-MAINZ-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 501.875; provisional raw series
+2026-11-02	mainz_q	491.9	m3_s	WSV-PEGELONLINE-MAINZ-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 491.927; provisional raw series
+2026-11-03	mainz_q	500.3	m3_s	WSV-PEGELONLINE-MAINZ-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 500.260; provisional raw series
+2026-11-04	mainz_q	495.2	m3_s	WSV-PEGELONLINE-MAINZ-Q	2026-11-05 11:54 ET	daily mean of 15-min discharge, local calendar day (n=96 of 96); UNROUNDED 495.229; provisional raw series
+2026-10-29	lees_ferry_q	6460	cfs	USGS-09380000-00060	2026-11-05 11:55 ET	USGS provisional (P); NWIS dv return had no 10/27 or 10/28 value at pull
+2026-10-30	lees_ferry_q	6450	cfs	USGS-09380000-00060	2026-11-05 11:55 ET	USGS provisional (P); NWIS dv return had no 10/27 or 10/28 value at pull
+2026-10-31	lees_ferry_q	6440	cfs	USGS-09380000-00060	2026-11-05 11:55 ET	USGS provisional (P); NWIS dv return had no 10/27 or 10/28 value at pull
+2026-11-01	lees_ferry_q	6480	cfs	USGS-09380000-00060	2026-11-05 11:55 ET	USGS provisional (P); NWIS dv return had no 10/27 or 10/28 value at pull
+2026-11-02	lees_ferry_q	6430	cfs	USGS-09380000-00060	2026-11-05 11:55 ET	USGS provisional (P); NWIS dv return had no 10/27 or 10/28 value at pull
+2026-11-03	lees_ferry_q	6460	cfs	USGS-09380000-00060	2026-11-05 11:55 ET	USGS provisional (P); NWIS dv return had no 10/27 or 10/28 value at pull
+2026-11-04	lees_ferry_q	6520	cfs	USGS-09380000-00060	2026-11-05 11:55 ET	USGS provisional (P); NWIS dv return had no 10/27 or 10/28 value at pull
+2026-10-28	powell_storage	5897827	af	USBR-919-17	2026-11-05 11:55 ET	daily; rounded to whole af; 919/17
+2026-10-29	powell_storage	5921749	af	USBR-919-17	2026-11-05 11:55 ET	daily; rounded to whole af; 919/17
+2026-10-30	powell_storage	5937930	af	USBR-919-17	2026-11-05 11:55 ET	daily; rounded to whole af; 919/17
+2026-10-31	powell_storage	5950534	af	USBR-919-17	2026-11-05 11:55 ET	daily; rounded to whole af; 919/17
+2026-11-01	powell_storage	5981815	af	USBR-919-17	2026-11-05 11:55 ET	daily; rounded to whole af; 919/17
+2026-11-02	powell_storage	6044672	af	USBR-919-17	2026-11-05 11:55 ET	daily; rounded to whole af; 919/17
+2026-11-03	powell_storage	6107921	af	USBR-919-17	2026-11-05 11:55 ET	daily; rounded to whole af; 919/17
+2026-11-04	powell_storage	6193074	af	USBR-919-17	2026-11-05 11:55 ET	daily; rounded to whole af; 919/17
+2026-11-05	heating_oil_state_eur_100l	171.83	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Baden-Württemberg; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
+2026-11-05	heating_oil_state_eur_100l	175.11	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Hessen; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
+2026-11-05	heating_oil_state_eur_100l	174.90	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Rheinland-Pfalz; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
+2026-11-05	heating_oil_state_eur_100l	171.75	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Nordrhein-Westfalen; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
+2026-11-05	heating_oil_state_eur_100l	168.11	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Bayern; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
+2026-11-05	heating_oil_state_eur_100l	160.78	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Hamburg; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
+2026-11-05	heating_oil_state_eur_100l	173.44	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Sachsen-Anhalt; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
