@@ -37,6 +37,8 @@
 | Wed Nov 25 | 8:30 / 10:00 | Durable goods; new home sales | Oct | Census | — |
 | Thu Nov 26 | — | Thanksgiving, no releases | — | — | — |
 
+**Senior Loan Officer Survey (SLOOS), quarterly, 2:00 PM ET, added 2026-11-05 (WALTER 031: the October survey posted 11/2 and went unrouted because it was not listed here).** Next: January 2027 survey, **ESTIMATED Mon Feb 1, 2027**, the Monday after the Jan 26–27 FOMC. The Fed has not published this date; its 2027 monthly calendar pages returned 404 on 11/5. The pattern held on all four 2026 releases (Feb 2, May 4, Aug 3, Nov 2, read at the Fed's calendar, survey pages and FOMC page 11/5). Confirm at the Fed's February 2027 calendar when it posts. REGINALD and LIQUID hold the read; HENRY reads the equity consequence.
+
 **Beyond the window:** FOMC **Tue–Wed Dec 8–9 with SEP** (Fed calendar, read 10/21). November jobs **Fri Dec 4** 8:30, November CPI **Thu Dec 10** 8:30, November PPI **Tue Dec 15** 8:30 (BLS December 2026 schedule list, read 10/21 ~21:40 ET). GDP third estimate Q3 + November PCE **Wed Dec 23** 8:30 (BEA news schedule, read 10/21 ~21:40 ET).
 
 *Disposition 2026-10-21, PROME closeout flag on "Dec 23": the date is a real release date outside the 30-day window, now verified at the BEA page. It was first written from a search summary and labelled "(verified)" before the BEA page had been read for December; the label was premature, the date was right. The BLS December dates were the same case and are now read at the BLS page too.*
