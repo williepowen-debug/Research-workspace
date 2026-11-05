@@ -97,3 +97,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T07:43:09-04:00	SIG-W-20261029-001	acted	INBOX_WALTER	FOMC 10/28 hold 10-2 hawkish dissents confirmed at Fed primary by BOND independently (KB-BND-507).
 2026-11-02T09:25:53-05:00	SIG-W-20261029-016	noted	INBOX_WALTER	ECB held deposit 2.50% 10/29; Lagarde steps down 2027-02-07; HANS owns T-04 (KB-BND-521).
 2026-11-02T09:25:53-05:00	SIG-W-20261031-012	acted	INBOX_WALTER	$839B gross auction supply 10/26-10/30 and TIC Japan/Korea bases folded into the demand-composition read; no buyers strike (KB-BND-524).
+2026-11-05T09:43:17-05:00	SIG-W-20261102-001	noted	INBOX_WALTER	Arini reported bank margin calls and about $800M debt sales: anonymous WSJ relay, not fund or bank disclosure. BROCK/LIQUID lanes; no BOND measure changed.
+2026-11-05T09:43:17-05:00	SIG-W-20261102-014	noted	INBOX_WALTER	CME silver registered 104.29Moz (report 10/30); category reclassification, not physical drain. MIDAS owns; macro context only.
+2026-11-05T09:43:17-05:00	SIG-W-20261104-042	noted	INBOX_WALTER	HY 340, CCC 1316 [11/3] and VIX 19.42/21.15/20.83 reproduced at FRED this boot. STATUS still carries 326 [10/29]; refresh owed.
+2026-11-05T09:43:17-05:00	SIG-W-20261104-050	noted	INBOX_WALTER	WGC Q3 central-bank purchases 321.2t estimated (+42% YoY); only 120t reported. MIDAS owns; reserve-demand context only.
+2026-11-05T09:43:17-05:00	SIG-W-20261104-076	noted	INBOX_WALTER	LIQUID renewed HY >320 persistence; cells 326/344/343/340 [10/29-11/3] reproduced at FRED this boot. Funding not armed per LIQUID. VX-BND-07 band read owed at next refresh.
