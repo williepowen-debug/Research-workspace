@@ -130,3 +130,14 @@ Moved verbatim 2026-10-22 (read-cap rotation, crc32 `cf201721`, 4591 B).
 3. **A prediction that cannot resolve is `STUCK` — a Status change, never a confidence cut.** Ask *"what number goes from X% to Y%?"*; if there isn't one, it's a resolvability defect. *(Named `PRED-CREED-009` as the live candidate until 2026-09-29; 009 resolved TRUE on 8/20, and no open row is a STUCK candidate now.)*
 4. **Grade the premise, not just the outcome.** BROCK's `BRK-09` missed at 60% because the underlying framing was **factually inverted** — the fix was verifying the premise at *creation*, not lowering confidence. **A wrong-premise miss and a well-calibrated low-confidence miss are different species and must be labelled differently here.**
 5. **Never retro-fit a confidence.** See `PRED-CREED-002a` above.
+
+## Open, registered 2026-11-05 14:20 ET (Will via PROME, WQ-596)
+
+| ID | Call | Conf | Print | Bounds |
+|---|---|:--:|---|---|
+| `PRED-CREED-011` | RC book value down at least 6.0% | 55% | RC Q3, 11/05 after close | TRUE <= $6.42 · FALSE >= $6.56 |
+| `PRED-CREED-012` | ACRE GAAP book value down at least 3.0% | 55% | ACRE Q3, 11/06 before open | TRUE <= $8.55 · FALSE >= $8.65 |
+| `PRED-CREED-013` | **Contrarian:** October office SS falls | 40% | Trepp October SS, ~mid-Nov | TRUE < 16.75 · FALSE > 16.95 |
+| `PRED-CREED-014` | November office DQ a clear new high | 60% | Trepp November DQ, ~12/1 to 12/3 | TRUE > 12.40 · FALSE < 12.28 |
+
+Prints between the bounds are NO-VERDICT and leave Brier. n stays 7 until one grades.
