@@ -73,6 +73,10 @@
 | LAB-12 | U-3 ≥5.0% Q3–Q4 | **8%** *(scores as-made 60%)* | Q3–Q4 | Needs 0.9pp in ~4 prints; base `11/302 = 3.64%` |
 | LAB-18 | T-03 fires on ≥1 print Sep–Nov | **10%** *(scores as-made 15%)* | Sep–Nov | Draw 1 (Sep 59.2) NO-FIRE ⇒ card §3f value 10%. Left: Oct ≤58.6 · Nov ≤58.8. Defeat: EPOP ≥58.9 through Nov |
 | LAB-19 | LF MoM >0 in ≥2 of 3 remaining 2026 prints | **81%** *(scores as-made 60%)* | Sep–Nov | Draw 1 TRUE (Sep LF +485K) ⇒ card §3f value 81%. One more >0 of Oct/Nov resolves it ✅ — and then CORE TENSION gets rewritten |
+| LAB-20 | Challenger tech YTD growth <+20% in the Nov report | **55%** | Dec 3 | Registered 11/5 (Will via PROME). On printed levels needs Nov tech cuts `< 12,742` [illustration]; last four months all under. NO-VERDICT 0.199–0.201 |
+| LAB-21 | Sep JOLTS layoffs level revises up at the Dec 1 release (>1,641K) | **68%** | Dec 1 | Registered 11/5. ALFRED first → second `30/44 = 68.2%` up. NO-VERDICT within 5K |
+| LAB-22 | ≥1 of the next 8 advance claims prints ≤185,000 | **40%** | Dec 31 | Registered 11/5, the contrarian call; `6.2%` per draw; 8 prints frozen in the row; not Kill B |
+| LAB-23 | FL UR Oct first print below Sep in the same release | **58%** | Nov 20 | Registered 11/5. ALFRED first-print `7/11 = 63.6%` after two declines. Flat grades FALSE |
 
 ⛔ **LAB-11 VOIDED 2026-10-28 (Will):** no resolution rule was ever written ("breaks" undefined; a falling Challenger AI share reads either way), so it is unscored, not graded; old row → DETAIL § `status-rotated-20261028`. ✅ **LAB-03 RESOLVED ❌ 2026-10-01** (197,000 vs 251,000): as-made 65% ⇒ Brier 0.4225; book n=13, mean **0.348**; **0-for-6 at ≥60% on threshold calls** (SCOREBOARD §A). C2-0 sweep re-run 2026-10-01: zero rows trip (LAB-19 60%, registered 9/4 — under the 60-day leg). C2-0 sweep re-run 2026-09-29: zero rows trip (only LAB-19 is ≥60%, registered 9/4 — under the 60-day leg). No confidence moved. 10/2 card §3f pre-commits post-print values for LAB-18/19.
 
