@@ -17,5 +17,10 @@ for t,ns in tiers.items():
     f=sum(C.get(n,[0,0])[0]+K.get(n,[0,0])[0] for n in ns.split()); a=f+sum(C.get(n,[0,0])[1]+K.get(n,[0,0])[1] for n in ns.split())
     print(f'{t:16s} fresh+output {f:13,d} {f/F:6.1%}   all {a/A:6.1%}')
 tot={n:C.get(n,[0,0])[0]+K.get(n,[0,0])[0] for n in set(C)|set(K)}
+cur={'Standing 2':"PROME WALTER",'On-call 16':"TERRY RED HENRY LIQUID VIOLET SAM BOND ZHAO VULCAN BROCK REGINALD DEWEY BRENT AEOLUS NEXUS WAL",'On-call hold 4':"OZK FLG MIDAS FALCON",'Dormant 19':"CARL LABOR HAWK MARCO ORACLE CORAL SHADE WATT OSPREY HOMER YURI CRUISE FERT GIBBS CYPHER ISHM CREED HANS OTTO",'Outside the 41':"DAEDALUS CATO RAV"}
+print('-- tiers per draft v3 sec 6')
+for t_,ns in cur.items():
+    f=sum(C.get(n,[0,0])[0]+K.get(n,[0,0])[0] for n in ns.split()); a=f+sum(C.get(n,[0,0])[1]+K.get(n,[0,0])[1] for n in ns.split())
+    print(f'{t_:16s} fresh+output {f:13,d} {f/F:6.1%}   all {a/A:6.1%}')
 print('top:',' · '.join(f'{n} {v/F:.1%}' for n,v in sorted(tot.items(),key=lambda x:-x[1])[:14]))
 print('RED',f"{tot['RED']/F:.1%}",'residual ROOT/home',f"{(tot.get('ROOT',0)+tot.get('home/willi',0))/F:.2%}")

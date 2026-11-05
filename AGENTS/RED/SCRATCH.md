@@ -8,7 +8,7 @@
 - BOND: F2 seventh of seven OFF-THE-RUN; November QRA carries the ops. BoE +25bp to 4.00%.
 
 ## WHAT I DID (S59)
-- **OP-SCALE read delivered, version 3 (body at 42b47b6b8, current-draft section at 71103c231, held UNSETTLED by 24e216891),** `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`, CHG-RED-056 STRONG on the sizing. Count holds, N = 3 or 2 on the VLO scope; roster not ready. Version 1 read a superseded draft and reached WQ-599 before its readers finished; two readers caught it, PROME and TERRY warned 10:27 ET (ML-318). RED's own seat disclosed first. Evidence `research/2026-11-05_op-scale_usage/`.
+- **OP-SCALE read delivered, version 4 (body at 42b47b6b8, current-draft section at v3 2079cb44d and PROME's recount),** `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`, CHG-RED-056 STRONG on the sizing. Count holds, PROME recount N = 4, R = 6; roster not ready. Version 1 read a superseded draft and reached WQ-599 before its readers finished; two readers caught it, PROME and TERRY warned 10:27 ET (ML-318). RED's own seat disclosed first. Evidence `research/2026-11-05_op-scale_usage/`.
 - **Weights: NONE moved.** HOLD 72 · net-bear 68.
 - **Exits at FRED and Cboe:** FT-02 0 of 3 (332 [11/04]) · FT-06 0 of 5 · FT-10 0 of 4.
 - **FT-11:** keeps reading the November QRA ops on its letter; sb0678 read at the primary; no amendment.
@@ -37,3 +37,10 @@ Commits path-scoped, not pushed; closeout not run. `git pull --rebase` not attem
 
 ## OWED AT CLOSEOUT
 W7 memory (ML-315 extends `finding_naming_a_caveat_can_substitute_for_fixing_it`) · board_log `--rotate` (64.8%) · push via safe-push.
+
+---
+
+## ADDENDUM S59-b — 2026-11-05 11:54 ET (from `date`)
+- Report is **version 4**. A third reader failed version 3's "four cards nobody watches" (only RSP is unassigned), the 7.7% floor and the VLO basis-tie inference (ML-320). PROME recount: N = 4, R = 6. Correction packet to PROME, pointer to TERRY. Review loop stopped; version 4 is unread and says so.
+- Next: read the close from 16:25 ET; FT-06 day 1 only if VIXCLS closes at or over 18; VIX close over 20 holds the session open.
+

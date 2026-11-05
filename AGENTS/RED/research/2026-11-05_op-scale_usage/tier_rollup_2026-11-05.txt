@@ -4,5 +4,11 @@ On-call 13       fresh+output    83,220,038  27.8%   all  24.1%
 On-call hold 5   fresh+output    18,111,143   6.0%   all   5.6%
 Dormant 19       fresh+output    22,918,249   7.7%   all   8.3%
 Outside the 41   fresh+output    40,786,897  13.6%   all  14.2%
+-- tiers per draft v3 sec 6
+Standing 2       fresh+output   119,069,179  39.8%   all  42.8%
+On-call 16       fresh+output   105,036,861  35.1%   all  31.0%
+On-call hold 4   fresh+output    11,039,707   3.7%   all   3.5%
+Dormant 19       fresh+output    22,918,249   7.7%   all   8.3%
+Outside the 41   fresh+output    40,786,897  13.6%   all  14.2%
 top: PROME 23.1% · WALTER 16.7% · DAEDALUS 10.1% · DEWEY 6.7% · REGINALD 4.2% · TERRY 3.5% · CATO 3.5% · BRENT 3.4% · VULCAN 2.6% · LIQUID 2.4% · WAL 2.4% · NEXUS 1.8% · BROCK 1.5% · OZK 1.5%
 RED 1.4% residual ROOT/home 0.22%

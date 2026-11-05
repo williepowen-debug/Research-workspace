@@ -4,7 +4,7 @@
 - 🆕 **FT-06 exit run broke at 3:** VIXCLS 16.61 [11/04]. 0 of 5, a later run is a new clock. **FT-10 exit 0 of 4** (SKEW 150.90 [11/04]). **FT-02 exit 0 of 3** (HY 332 [11/04], tighter, pre-dates the 11/05 selling).
 - 🆕 **FT-11** keeps reading the November QRA ops on its own letter (retirement keys on the program ending; sb0678 carries it). F2 seven of seven OFF-THE-RUN. No window since 10/27, precedence still untested.
 - 🆕 **Ledger for the post-11/10 re-derivation:** FAL-07 CONFIRMED, marks 1/14/85 · UKMTO tanker strike north of Qatar [event 11/4 23:20Z] · claims 189K · Challenger October 43,994 · Q3 productivity +3.6%, unit labor costs −0.7% · AI selling 11/05, intraday, banks and credit not joining at 09:54 ET.
-- 🆕 **CHG-RED-056 (operation, not thesis):** OP-SCALE count holds, N = 3 or 2 on VLO scope, sizing not ready; TERRY's draft held UNSETTLED pending report version 3. Report `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`.
+- 🆕 **CHG-RED-056 (operation, not thesis):** OP-SCALE: PROME recount N = 4, R = 6; sizing not ready; report version 4. Report `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`.
 - **FT-10 outcome condition met** at obs 14; row UNRESOLVED to ~11/25 by rule; the trigger was tech and gamma, not the war or credit tail (ML-311).
 - **S57 10/28 still governs the weights:** discretionary re-derivation, report `reports/2026-10-28_S57_weight_rederivation.md`.
 - **Standing:** FT-02 FIRED 10/16 obs (Acute +3); FT-08 FIRED 10/14 (Stag +3); FT-10 FIRED 10/14 (Acute +2); S56 bank tree +1 (EGBN DETERIORATION on one legacy $56.0M loan + OZK W9).
