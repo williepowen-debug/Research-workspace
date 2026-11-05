@@ -1,6 +1,6 @@
 # FALCON — FAL-06 dated search, receipt (run ON 2026-11-05)
 
-**Run:** 2026-11-05 from 08:36 ET, last evidence ~08:39 ET · falcon-8e, Claude Code, Opus 5.5. **Row stays OPEN:** the letter runs to 23:59 ET, so this morning's run satisfies the dated attempt but does not close the window. A second pass is scheduled for ~23:17 ET in this session.
+**Run:** 2026-11-05 from 08:36 ET, last evidence ~08:39 ET · falcon-8e, Claude Code, Opus 5.5. **Row stays OPEN:** the letter runs to 23:59 ET, so this morning's run satisfies the dated attempt but does not close the window. A second pass is owed tonight on the desktop (DOCKET L922); the laptop wake was cancelled at closeout.
 
 ## Result by route
 
