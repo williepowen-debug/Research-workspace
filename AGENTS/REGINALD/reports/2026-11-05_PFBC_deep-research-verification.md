@@ -62,3 +62,19 @@ No score, gate or prediction. PFBC stays outside the 14; it goes on the proposed
 **Preferred's own record:** late multifamily above 10% four times before (10.2%, 11.2%, 11.9%, 10.7%). **26.5% is more than twice its prior peak.** That cuts both ways: the bank has lived above 10% without large losses, and this is outside its own range.
 
 **Conclusion unchanged:** real but contained. The ~$20M base case stays an assumption-driven figure, and the claim "usually converts" is replaced by "more often than not, on thin evidence".
+
+## 7. CATO's reconciliation spec for the 10-Q (received 13:45 ET; applied at the read)
+
+**Rule added: a fourth outcome, UNRESOLVED.** If the filing does not answer these, the read returns "unresolved", not harmless, contained or spreading. The §4 table is only used once these are answered. It replaces forcing a column, and adds no checker.
+
+| CATO question | Known today | 10-Q can answer? | Would settle it |
+|---|---|---|---|
+| Which loans newly became late | Class only: multifamily +$80.3M reported. ~$137M newly late INFERRED. Borrowers UNKNOWN | Partly: aging by class, 30–59 vs 60–89 | Loan tape, recorded deeds. Not public |
+| Which cured or migrated | 6/30 balance $62.8M: ~$56.9M INFERRED moved to nonaccrual and held for sale. Rest UNKNOWN | Partly: nonaccrual roll-forward, risk grades | Same |
+| Payment cures vs renewals or extensions | UNKNOWN. No filing uses that language for late loans | Possibly: modification tables, subsequent events | Bank disclosure or a direct question |
+| Did the held-for-sale sale close | UNKNOWN. Contract at par, closing "late October"; no 8-K | Likely, if subsequent events covers it | Recorded assignment of deed of trust |
+| Continuing exposure | UNKNOWN. No disclosure of seller financing, recourse or repurchase on any note sale | Possibly: sale terms, loans to note buyers | Recorded assignments, buyer identity |
+| Capital implications | Arithmetic only: base ~$20M (assumption), severe ~$77M, 10% CET1 at ~$134M pre-tax | Yes, if the above resolve | Re-run §3 on actual balances |
+
+**Standing answer until filed: UNRESOLVED.** My "real but contained" stays a working read, not a grade. Expect partial answers: loan-level identity may never be public, and then that line stays unresolved.
+
