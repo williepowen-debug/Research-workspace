@@ -138,12 +138,17 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
       "commit": "934f37240e58897a4557b03794ee488aae7243ac",
       "state": "published",
       "note": "Correction 026; IMMEDIATE 024 safe-push on a verified-clean tree carried 024-026."
+    },
+    {
+      "commit": "beed13b7dbdef6ee7423c46a6db6cd9eeec9f68e",
+      "state": "published",
+      "note": "Cards 027-028; IMMEDIATE 027 safe-push on a verified-clean tree."
     }
   ],
   "delivery": {
     "signal_date": "20261105",
     "total": 96,
-    "delivered": 88,
+    "delivered": 96,
     "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
   },
   "owner_review": {
