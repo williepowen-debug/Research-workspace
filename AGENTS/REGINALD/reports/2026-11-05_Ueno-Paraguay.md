@@ -16,7 +16,7 @@
 | 3/6/26 | $350M 6.70% senior notes due 2031, 144A/Reg S, BofA and JPMorgan bookrunners | Cleary Gottlieb, 3/5 |
 | 6/5/26 | Supervisors order related-company loans back under the 20% of capital limit | UPI |
 | June | OTP completes $47M into the parent, 9.99% stake | Ueno site |
-| 10/16 | Fitch keeps BB, outlook to negative; Fitch capital measure 10.3% at June; reported total capital 13.8% | Rio Times |
+| 10/16 | Fitch keeps BB, outlook to negative; Fitch capital measure 10.3% at YE25 and 2Q26 after deducting intangibles (corrected 11/05 13:1x ET: the 15.2% was the same year-end before the deduction, not a fall); reported total capital 13.8% | Fitch 10/16; Rio Times |
 | 10/18 | Paraguay's banks association asks the central bank to report on solvency of banks that got merger facilities | MercoPress |
 | 10/29 | $100M capital plan announced; a central bank director resigns, no reason given | Rio Times |
 | 11/2 | Central bank votes to start resolution: solvency index below 50% of the required minimum | BCP via AT, UPI, AP |

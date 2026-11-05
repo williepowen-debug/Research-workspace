@@ -1,0 +1,20 @@
+insured 849 public 869 (IPS dep 300, other 569) private uninsured 1112
+AFD 129 BNF 38 Zeta 26 Basa 24 Cont 4 foreign DFIs 54 notes 350 local sr bonds 49 sub 85
+
+low: assets recoverable 1967; avail after AFD 1838
+  tier1 (insured+uninsured private+IPS deposits) 2261 -> recovery 81%
+  other public deposits 569 -> 0%
+  senior unsecured pool (notes, local sr, interbank, DFIs) 546 -> 0%  (notes $ 0M)
+  FGD net loss after subrogation ~159; liabilities-minus-recoverable hole ~1773
+
+base: assets recoverable 2512; avail after AFD 2384
+  tier1 (insured+uninsured private+IPS deposits) 2261 -> recovery 100%
+  other public deposits 569 -> 22%
+  senior unsecured pool (notes, local sr, interbank, DFIs) 546 -> 0%  (notes $ 0M)
+  FGD net loss after subrogation ~0; liabilities-minus-recoverable hole ~1227
+
+high: assets recoverable 2984; avail after AFD 2855
+  tier1 (insured+uninsured private+IPS deposits) 2261 -> recovery 100%
+  other public deposits 569 -> 100%
+  senior unsecured pool (notes, local sr, interbank, DFIs) 546 -> 5%  (notes $ 16M)
+  FGD net loss after subrogation ~0; liabilities-minus-recoverable hole ~756
