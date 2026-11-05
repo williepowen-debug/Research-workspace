@@ -19,3 +19,4 @@ receipt_date	correction_id	action	note
 2026-10-22T17:35Z	COR-20261021-22	APPLIED	artifact=AGENTS/TERRY/setups/VLO-SHARE_management-proposal_2026-09-28.md#Leg-A assessment 2026-10-22; validation_ref=NONE; 
 2026-10-22T17:35Z	COR-20261022-04	APPLIED	artifact=AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md#2. Trigger state; validation_ref=NONE; 
 2026-10-31T18:08Z	COR-20261031-02	APPLIED	artifact=AGENTS/TERRY/setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md#CARD-STATE-2026-10-31; validation_ref=AGENTS/TERRY/research/2026-10-31_trade-ideas/prices_1030close.txt#QQQ; 
+2026-11-05T21:50Z	COR-20261105-57	APPLIED	artifact=AGENTS/TERRY/STATUS.md#close-11-5; validation_ref=BOARD/SIG-W-20261105-057-CORRECTION-VIX-finished-28.17-not-26.86-VVIX-135.md#final-prints; TERRY close read used VIX 27.17 before the final print; STATUS carries VIX 28.18, VIX3M 25.55, ratio about 0.91; WQ-617 stays not fired.

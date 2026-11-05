@@ -6,7 +6,7 @@
 **Confidence in structure:** Medium.
 **Data freshness:** chains and spot 13:33 EST, vendor intraday, screening marks (durable finding 5b). The order is priced on the broker chain. Position truth: FORGE capture 11/5 ~10:0x ET, later changes `[POSITION_STATE_UNKNOWN]`.
 
-> **TRIGGER STATE 2026-11-05 close (TERRY, stamped 16:12 EST): NOT FIRED.** T1(b): HYG regular close $77.305 −0.28% vs < $76.81, $0.495 above (vendor daily bar). T1(a): HY 332 [11/4]; 11/5 cell due about 10:30 ET 11/6. No order.
+> **TRIGGER STATE 2026-11-05 close (TERRY, stamped 16:12 EST): NOT FIRED.** T1(b): HYG regular close $77.28 −0.31% vs < $76.81, $0.47 above (final vendor daily bar read 16:49 EST; corrected from a $77.305 pre-print read). T1(a): HY 332 [11/4]; 11/5 cell due about 10:30 ET 11/6. No order.
 
 ## 0. Hard caveats
 - HY 332 bp is the 11/4 cell; the 11/5 cell lands about 10:30 ET 11/6 (PROME routes LIQUID's grade).
