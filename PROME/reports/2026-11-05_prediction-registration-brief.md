@@ -23,6 +23,10 @@ Canon: `FORGE/PREDICTION_DISCIPLINE.md` § Registration. Use your ledger's exist
 
 Send PROME one packet in `PROME/inbox/` naming each new ID, resolution date, owner and source (WQ-596). PROME registers the DOCKET rows. Reply by message when the packet is committed.
 
+## After resolution
+
+On a miss, add one line to the row: what surprised you, and what changes in your next comparable forecast (WQ-619 A). Grade whether the event as written happened, not whether your lean was right.
+
 ## Limits
 
 This changes no existing row, gate, band, level, card, thesis score or trade. No backfill of past calls, no historical sweep, no new research commission beyond what the prediction needs. Priced market odds are ORACLE's: cite ORACLE's dated read or ask it. Do not cross-register another desk's print; a shared event takes one owner, and your domain's angle on it is a separate letter.
