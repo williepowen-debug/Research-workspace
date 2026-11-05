@@ -10,6 +10,7 @@
 **WALTER closed 11:54 ET on Will's word (90a851f51):** 11/5 close pass and evening intake review not run; nothing of WALTER's is watching between sessions.
 **AEOLUS closed 12:35 ET on Will's word (7fb738bb2):** ECMWF 11/5 12Z and GFS 18Z unread, so no vortex route today. WAKE AEOLUS 11/06 on L906 (card voids 11/12; ECMWF open data keeps about 4 days); on a fire, launch TERRY. Unregistered, need Will, not urgent: Henry Hub level, seismic S-5 re-spec, coastal home.
 **Fri 11/6 wakes:** HENRY about 08:40 ET, pre-open chain ahead of payrolls (its ask 12:42 ET) · AEOLUS L906. VIOLET window open through the close, grade after 16:15 ET; VIX intraday high 28.09 about 10:53 ET.
+**HY timing correction:** the 11/5 HY cell lands about 10:30 ET 11/6, not tonight (LIQUID calendar; 11/4 landed by 10:33 ET 11/5). Route it to TERRY when LIQUID grades. WQ-615/616/617 from TERRY's selloff read.
 **PROME process carry:** land L565 R3 sets (BOND verdicts in its 11/5 packet; HENRY `WATCH_FOR` = empty) · WQ-513/514 X1 record and RSP loosened-log ruling (RED F8) · L909 hooks · fetch.py bare-root row 11/9, tell BRENT at launch · WQ-598 supplier queries · L334 and L828 dispositions from WALTER's packet · anvil.md known-state block · D-97 stale cell · HEARTBEAT re-base, badly stale after 11/5 · spine audit stale from 11/6 · hot memory index 75%: demote at closeout · VULCAN touch after Friday's close. VIOLET's MOVE pause line and CLAUDE.md conflicts unregistered. CARL BOARD gap routed 030f3dea4, not logged.
 **Allowances:** C6 0, C9 0 of 2. Reads: Gate 069 episode 2, ta_ws 2, L920 2; no third authorized. Done without asking: C2 ×4 (WQ-603, 604, 605, 606). ⚠️ Will's bare "A" at 11:03 was read as A on WQ-607–610 and stated back, unobjected. ⚠️ ORCH_LOG 11/5 rows were hand-appended, not by `orch_log.py append`; 21 repaired to 13 columns at this checkpoint, check rc 0.
 
@@ -64,7 +65,7 @@
 
 ## Pending Will
 <!-- WILLQ-VIEW BEGIN -->
-- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-05 · 10 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-548 (11/5) · WQ-495 (11/5) · WQ-599 (11/7) · WQ-547 (11/17) · WQ-614 (none dated)
+- **Pending Will (GENERATED from `PROME/WILL_QUEUE.md` § OPEN by `PROME/tools/willq_view.py` · as-of 2026-11-05 · 13 open, 0 blocked — dated first, blocked last; never hand-edit inside the markers):** WQ-463 (10/9) · WQ-422 (10/23) · WQ-477 (10/27) · WQ-531 (10/30) · WQ-31 (11/1) · WQ-616 (11/5) · WQ-548 (11/5) · WQ-495 (11/5) · WQ-599 (11/7) · WQ-547 (11/17) · WQ-617 (11/20) · WQ-615 (12/4) · WQ-614 (none dated)
 <!-- WILLQ-VIEW END -->
 
 ## Operator card
