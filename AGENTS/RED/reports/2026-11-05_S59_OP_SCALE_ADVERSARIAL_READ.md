@@ -1,16 +1,53 @@
 # RED adversarial read: TERRY's OP-SCALE draft and the frozen GATE-OP-SCALE-01 letter
 
-**Session S59, version 2, 2026-11-05 10:2x EST (`date`).** Authorized by Will in PROME's window 09:53 ET, WQ-599. Read targets: `AGENTS/TERRY/research/2026-11-07_op-scale/DRAFT_SHRINK_PROPOSAL.md` at commit **42b47b6b8** (10:06 EST), the live GATES row, the archived full letter and the frozen post.
+**Session S59, version 3, 2026-11-05 10:28 EST (from `date`).** Authorized by Will in PROME's window 09:53 ET, WQ-599. The findings below read `AGENTS/TERRY/research/2026-11-07_op-scale/DRAFT_SHRINK_PROPOSAL.md` at commit **42b47b6b8** (10:06 EST). § Where the draft stands now assesses TERRY's later **71103c231** (10:23 EST), held UNSETTLED by **24e216891** (10:28 EST) pending this report. Also read: the live GATES row, the archived full letter, the frozen post.
 
 **This is not a grade.** RED grades nothing on this gate, edited no TERRY file and changed no level, operator or consequence. The grade stays with TERRY, PROME and Will on 2026-11-07.
 
-**Correction to version 1 (0a10a2797).** Version 1 read 20115ddf1 and carried N = 2. TERRY committed 42b47b6b8 before version 1 was published and RED did not re-diff. An independent reader caught it. The same reader found overclaims, all listed and dispositioned in § Reader result. Version 1 should not be cited.
+**Corrections.** Version 1 (0a10a2797) read a superseded draft and carried N = 2, and RED committed it before its independent reader finished. TERRY built draft v2 on version 1 at 10:23 and PROME updated WQ-599 at 10:24, so withdrawn claims reached a decision row. Both were told at 10:27 ET, and TERRY marked the draft UNSETTLED at 10:28 (24e216891). Version 2 (0e9c1980d) fixed the count and the first reader's findings. This version adds the current draft and the second reader's fixes. **Cite only this version.**
 
 ## Bottom line
 
-**The count holds. The proposal is not ready to adopt as written.** N = 3 and −$241.46 tie to `PAPER_BOOK.tsv`, and no reading that respects the frozen perimeter reaches 10. But the 41 → 4 sort rests on a rule written after the result, on cards its author builds, and N = 3 cannot show that fleet size is the cause. **Cost can be measured after all:** the 19 desks going dormant used 7.7% of tokens over the last 30 days, the 18 going on-call 33.8%, and the 4 staying 44.7%, so the direct saving lies somewhere between 7.7% and 41.5%, depending on how much on-call launching actually falls.
+**The count holds. The proposal is not ready to adopt as written.** On TERRY's reading N = 3 and −$241.46; it is N = 2 if Will's two added VLO shares count as the same position. No reading that respects the frozen perimeter reaches 10. The letter sets no shape, so any sizing rule had to come after the result; this one, reach a card, sits downstream of its author's own cards, and N cannot show that fleet size is the cause.
 
-If Will wants a shrink, RED's reading points to option B with the changes in § Named changes, not A. Option C remains legal: the sister falsifier from the same night failed at count 1 and Will declined its dissolution on 10/14 (WQ-394).
+**Cost can be measured after all.** On the current 2 / 20 / 19 tiers, the 19 dormant desks used 7.7% of tokens over the last 30 days, the 20 on-call desks 38.8% and the 2 standing desks 39.8%. Direct saving lies between 7.7% and 46.4%, depending on how much on-call launching falls, and nothing here locates it.
+
+**TERRY's move to on-call rests partly on a claim RED has withdrawn.** It may still be the right call, but it is a call about who watches undated triggers, and it belongs to Will.
+
+If Will wants a shrink, RED's reading points to option B with named changes, not A. Option C remains legal: the sister falsifier from the same night failed at count 1 and Will declined its dissolution on 10/14 (WQ-394).
+
+## Where the draft stands now (71103c231)
+
+TERRY took up F1–F11 of version 1 within 15 minutes. Much of that is a real improvement, and § 9 is a falsifier the first draft lacked. Five items carry claims RED has since withdrawn; TERRY's 10:28 banner already names them and holds the draft for revision.
+
+| Draft section | Text | State |
+|---|---:|---|
+| § 1, recount | PROME recounts, TERRY contests, Will confirms | **Good.** Cures F2 and F7 |
+| § 2, N | 3 or 2 on the VLO scope | **Good, better than RED's versions.** FORGE evidence: the 11/5 basis removal ties to the original $412.00 share (D-78), which supports N = 3. PROME decides |
+| § 3, R table, loosened log | One basis, RSP's re-opened entry logged | **Good.** Cures F6, F8 |
+| § 3, "restraint has so far cost a little" | From version 1 | ❌ **Withdrawn by RED.** Range −$228 to +$257, sign unknown |
+| § 4, weights | 40 / 30 / 20 / 10 under RED's name | ❌ **Superseded.** 35 / 30 / 25 / 10 below; X1 did not cap N alone |
+| § 5, cost table | Old rollup on the old tiers, 7.6% | ⚠️ **Replace** with the table below |
+| § 5, 15 desks | Itemized | **Good.** Cures F5 |
+| § 6, TERRY "fits the on-call rule" | From version 1 | ❌ **Withdrawn by RED.** RSP and UNG triggers are undated, so that rule would not wake TERRY |
+| § 6, RED to on-call | "fails the same test" | **Right outcome, wrong reason.** RED's case is weaker than TERRY's |
+| § 6, "at least 66", "blind" | From version 1 | ❌ **Withdrawn by RED.** 10 rows name no live desk; 248 of 260 signals copy a live desk |
+| § 6, rows stay with owners | PROME launches the desk on the date | **Good.** Answers F9. It does make "dormant" a launch on demand, so a dormant desk with dated rows still spends |
+| § 7 item 6 | "On-call makes this harder" | **Honest, and now the main open question** |
+| § 8, QQQ gain | Quantified | **Good.** Cures F10 |
+| § 9, falsifier | 25% lower weekly tokens by 2/06, no missed dates | **Good.** ⚠️ The base window holds Will's forced catch-ups, so 25% is easier to hit than it looks. The shrink could pass by that alone |
+
+**Tiers as now drafted,** same data as F3:
+
+| Tier, 10/06–11/05 | Desks | Fresh + output tokens | Share |
+|---|---:|---:|---:|
+| Standing (PROME, WALTER) | 2 | 119,069,179 | 39.8% |
+| On-call | 16 | 105,036,861 | 35.1% |
+| On-call while line held | 4 | 11,039,707 | 3.7% |
+| Dormant | 19 | 22,918,249 | 7.7% |
+| Outside the 41 (DAEDALUS, CATO) | 2 | 40,786,897 | 13.6% |
+
+**The open question for Will is the watch.** With TERRY on-call, four approved cards sit on triggers nobody is assigned to watch between sessions. Two honest forms: TERRY stands with a named watch, or TERRY goes on-call and a named desk or tool watches those triggers. WQ-599 already carries this. The draft currently does neither.
 
 ## RED's own conflict, stated first
 
@@ -29,8 +66,8 @@ If Will wants a shrink, RED's reading points to option B with the changes in § 
 
 ## CHALLENGE: OP-SCALE draft § 5 sizing and the conflict around it
 **Target:** TERRY, `DRAFT_SHRINK_PROPOSAL.md`; the GATE-OP-SCALE-01 grading arrangement.
-**Strength:** STRONG on the sizing (§§ 4–5). WEAK on the count (§ 2). Formal challenge CHG-RED-056.
-**Risk if wrong:** Will retires 19 desks on a metric that does not measure what they do, and records it as the frozen test's verdict.
+**Strength:** STRONG on the sizing (draft §§ 4–5 at 42b47b6b8). WEAK on the count. Formal challenge CHG-RED-056.
+**Risk if wrong:** Will puts 19 desks to sleep on a metric that does not measure what they do, and records it as the frozen test's verdict. The draft keeps this reversible, with nothing deleted.
 **Action:** Update the proposal before Will sees it as a decision. No position action. Nothing here is a trade.
 
 ### Findings, ranked
@@ -55,13 +92,13 @@ If Will wants a shrink, RED's reading points to option B with the changes in § 
 - **The draft, § 5:** TERRY holds one of four standing seats. The only reason given is "Runs the operation or the challenge". The change from the post is not explained.
 - **The letter's rationale has aged.** Guard v2 records each change as hardening the bar, "proposed by the constrained party". Under this draft the fail branch keeps TERRY, so a harder bar costs TERRY nothing.
 - **TERRY's seat has a real case the draft does not make** (reader's counter, adopted). TERRY is on the capital path. Live triggers are undated (first red RSP day, UNG T1), so the draft's on-call line, "a dated catalyst on a live card or Will's word", would not wake it. The seat may be right.
-- **But standing as drafted names no watch.** The VLO exit fired 11/2 and was found 11/4, with no TERRY work between 11/2 10:36 and 11/4 20:23; the draft puts the sale $20.98 under the first eligible close. Cadence wakes were dropped for everyone on 10/31 (WQ-576). The lesson is to name the watch that seat owes, which § 6 item 5 leaves unsolved.
+- **But standing as drafted names no watch.** The VLO exit fired 11/2 and was found 11/4, with no TERRY commit between 11/2 10:36 and 11/4 20:23, a stretch when usage had run out (USER.md); the draft puts the sale $20.98 under the first eligible close. Cadence wakes were dropped for everyone on 10/31 (WQ-576). The lesson is to name the watch that seat owes, which § 6 item 5 leaves unsolved.
 - **The draft shrinks others and not its author.** `AGENTS/TERRY` is 18,745,548 B and 1,138 files (`du`, 11/5) against 2,548,400 B in the post. Tracked bytes rose 7.9× against 8.3× for all of `AGENTS/`, so TERRY did not outgrow the fleet, and STATUS fell 160,908 → 23,399 B, which is real credit. Still, § 5 touches no TERRY surface, and the post's day-desk proposal is not carried.
 - **§ 7's "Discount accordingly" names the conflict.** It does not change the seat.
 
 ### F2. The judgement calls are all the interested party's
 
-GATE-NEXUS-SEAT-01, registered the same night, has PROME build the list, NEXUS contest it and Will confirm, because *"the interested party NEVER counts alone"*. That clause binds that gate only, and it guarded a judgement count. OP-SCALE's N is a ledger count that ties, and PROME is a named owner. **The point survives on what is judgement:** the perimeter calls, R, the tier sort and the 14. WQ-599 says "PROME reads the draft". The same form adds no new rule: PROME recounts N and R from `PAPER_BOOK.tsv` and `setups/INDEX.md`, TERRY contests, Will confirms.
+GATE-NEXUS-SEAT-01, registered the same night, has PROME build the list, NEXUS contest it and Will confirm, because *"the interested party NEVER counts alone"*. That clause binds that gate only, and it guarded a judgement count. OP-SCALE's N is a ledger count that ties, and PROME is a named owner. **The point survives on what is judgement:** the perimeter calls, R, the tier sort and the 14. WQ-599 says "PROME reads the draft". Borrowing that form is new for this gate, but it is one step and no new checker: PROME recounts N and R from `PAPER_BOOK.tsv` and `setups/INDEX.md`, TERRY contests, Will confirms.
 
 ### F3. The cost is measurable
 
@@ -83,7 +120,7 @@ Largest lines: PROME 23.1% · WALTER 16.7% · **DAEDALUS 10.1%** · DEWEY 6.7% �
 ⚠️ **Limits:**
 - **Indirect load is not separated.** PROME's and WALTER's lines partly scale with desk count, which could add to the saving.
 - **Tokens are not value,** and a token is not a usage-limit unit; both views are shown.
-- **Scope:** this desktop only, the earliest Claude transcript here is dated 10/08, MARCO shows no session. Spawned desks were attributed by first prompt, moving about 24M tokens out of PROME's folder (raw-folder output saved beside the script). Without that step Standing rises. The reader computed that reversing Standing and Dormant needs 54.7M to move, more than PROME's whole Claude folder.
+- **Scope:** this desktop only, the earliest Claude transcript here is dated 10/08, MARCO shows no session. Spawned desks were attributed by first prompt, moving about 24M tokens out of PROME's folder (raw-folder output saved beside the script). Without that step Standing rises, so attribution error cannot help the Dormant side much: reversing the two needs about 55M tokens to move, more than PROME's attributed Claude line of 49.5M.
 
 ### F4. N = 3 cannot separate "fleet too big" from its rivals
 
@@ -98,13 +135,13 @@ Largest lines: PROME 23.1% · WALTER 16.7% · **DAEDALUS 10.1%** · DEWEY 6.7% �
 
 ### F5. The tier rule
 
-- **It is new.** Nothing in the letter or the post sets a magnitude. "Reached a card" was written on 11/4, after the result, by the desk that builds the cards.
+- **It is new, and that alone is no fault.** Nothing in the letter or the post sets a magnitude, so any rule had to come after the result, and Will asked for this draft. The problem is the choice of rule: "reached a card" is measured on the output of the desk that wrote it.
 - **The measure sits downstream of its author.** A desk reaches a card only if TERRY writes one. The draft concedes the cells "are hand-written and may under-credit", then sorts 41 desks on them.
 - **The test differs by tier.** WALTER and RED stand on function. NEXUS sits on-call as "synthesis", and its sister gate failed at count 1.
 - **One error, confirmed.** The hold tier reads "Never on an approved card" and lists WAL. `TRY-WAL-ROLL70` names the WAL desk as thesis owner, approved WQ-144, filled 9/2 at $2.20. Draft § 2 itself says "approved and filled". So WAL belongs in the 13.
-- **The "14" is unitemized,** and the two owner surfaces disagree: INDEX gives FIRE-004 to BOND and HENRY, the card header to BOND, LIQUID and SAM/ZHAO. INDEX alone gives 13 names; the union gives 15. By any mention, 23 desks appear in the nine card bodies. The draft never says which test it used.
+- **The "14" is unitemized,** and the two owner surfaces disagree: INDEX gives FIRE-004 to BOND and HENRY, the card header to BOND, LIQUID and SAM/ZHAO. INDEX alone gives 13 names. The table below draws on INDEX, SETUPS and the card headers and gives 15. Read literally it is 16, because the QQQ and HYG "Thesis owners" headers also name WALTER; RED excludes WALTER there as the source of routed signals, not an owner, and that is a judgement. By any mention, 23 desks appear in the nine card bodies. The draft never says which test it used.
 
-| Card | Owner names, INDEX and card header |
+| Card | Owner names, INDEX, SETUPS and card header |
 |---|---|
 | FIRE-004 | BOND · HENRY · LIQUID · SAM · ZHAO |
 | VIXCS | VIOLET |
@@ -125,7 +162,7 @@ The letter: *"R (refusals on met-or-near-met triggers; baseline PB-0004 + 007's 
 | Basis | N | R |
 |---|---:|---:|
 | Cumulative, the letter's baseline | 3 | **6** (2 baseline + 4) |
-| Window only, 8/8–11/7 | **+1** | 4 |
+| Window only, 8/8–11/7 | **+1** (+2 on a full-close basis: FIRE-004 was part-closed at 8/8) | 4 |
 | Draft (mixed) | 3 | 4 |
 
 There is no quota fingerprint on any basis: R is not near 0. The two figures should still share a basis. **Draft § 3 still says "N stayed 2"** against 3 in §§ 2 and 4, and its header still reads 09:50.
@@ -193,7 +230,7 @@ The post's closing standard: "a number, a date, and a branch". The draft offers 
 
 | Claim tested | Result |
 |---|---|
-| N = 3, −$241.46 | **Ties.** 004: +128.86 −154.65 −29.38 −29.36 = −84.53; VIXCS −111.60; VLO −45.33. 9 real rows, 6 in N, 2 QQQ excluded, 1 open |
+| N = 3, −$241.46 on TERRY's reading | **Ties.** 004: +128.86 −154.65 −29.38 −29.36 = −84.53; VIXCS −111.60; VLO −45.33. 9 real rows, 6 in N, 2 QQQ excluded, 1 open |
 | 41 names, 4 + 13 + 5 + 19 | **Ties** to the roster by set |
 | 8/8 30 + 4, now 34 + 7 | **Ties** |
 | Grade date is a Saturday | **True.** The last session that can close a position is Fri 11/6 |
@@ -216,25 +253,25 @@ No fleet hypothesis weight moves on this read: **HOLD 72 · net-bear 68 stand.**
 ## HYPOTHESIS: why the agent-proposed book closed 3
 | Explanation | Probability | Key signals | At risk if wrong |
 |---|:--:|---|---|
-| Will runs the capital himself; the card route is not where it goes | 35% | 24 closed MGMT rows vs 1 new in N | N measures the wrong route |
+| Will runs the capital himself; the card route is not where it goes | 35% | 24 closed MGMT ledger rows, not positions, one of them the VLO line itself, vs 1 new in N | N measures the wrong route |
 | Trigger discipline and card limits held entries back | 30% | Four approved cards unfired; 3 of 4 R rows are caps | Shrink solves nothing at N |
-| Fleet oversized or misallocated | 25% | 41.5% of tokens in reach, 33.8% of signals, no card | The draft's premise holds |
+| Fleet oversized or misallocated | 25% | The hold and dormant tiers, no card: 13.7% of tokens; 33.8% of signals on dormant-only desks | The draft's premise holds |
 | The horizon and sample bar made 10 hard to reach | 10% | Dec/Jan structures, post § 8 | The letter was mis-set in August |
 
 ## Narrative assessment
 
-The test failed fairly and should be recorded as failed. What it cannot do is size the response. The draft reaches from "not capital-productive at this scale" to a specific roster, on a metric written afterwards. We are filtering out two things. The cost case for shrinking is stronger than the 19 dormant desks suggest, because the real lever is how often the 18 on-call desks launch, and nobody has measured what that rule would change. And the largest lines are the coordination, architecture and routing work that no tier in this draft touches. If Will wants less fleet, the honest version of this proposal starts by measuring those two things.
+On the draft's count the test reads NOT MET, and it was a fair test; that grade is the owners'. What the test cannot do is size the response. The draft reaches from "not capital-productive at this scale" to a specific roster, on a metric written afterwards. We are filtering out two things. The cost case for shrinking is stronger than the 19 dormant desks suggest, because the real lever is how often the 18 on-call desks launch, and nobody has measured what that rule would change. And the largest lines are coordination, architecture and routing, which the tiers touch only indirectly and which the draft does not price. If Will wants less fleet, the honest version of this proposal starts by measuring those two things.
 
 ## Named changes, for Will through PROME
 
-RED changes nothing. Candidates for option B, no new checker among them.
+Written against 42b47b6b8; § Where the draft stands now shows which are done. RED changes nothing. Candidates for option B, no new checker among them.
 
 | # | Change | Finding |
 |---|---|---|
 | 1 | Grade in the NEXUS-SEAT form: PROME recounts, TERRY contests, Will confirms, from the archive letter | F2, F7 |
-| 2 | State why each standing seat stands. If TERRY stands, name the watch it owes on undated triggers. Show RED on-call or say why not | F1 |
+| 2 | Name who watches undated triggers, whichever tier TERRY sits in | F1 |
 | 3 | Correct WAL into the 13; itemize the owners; say which surface is the test | F5 |
-| 4 | Replace "UNMEASURED" with the F3 table, the 7.7%–41.5% range and its limits; name DAEDALUS | F3 |
+| 4 | Replace the cost table with the current tiers, the 7.7%–46.4% range and its limits | F3 |
 | 5 | State the rival causes of N = 3 beside the verdict | F4 |
 | 6 | Report N and R on one basis, fix "N stayed 2", show Will the R-drop choice | F6, F7 |
 | 7 | Name a transfer owner for the 10 sole-owned rows, the post-11/30 rows and the 6 gates; say what WALTER does with the 33.8% | F9 |
@@ -257,6 +294,8 @@ One independent Opus reader tested version 1 at the primaries: 16 PASS, 4 FAIL, 
 | "No home", "goes blind", "floors" | Withdrawn: 10 sole-owned rows, 248 of 260 copied |
 | Dedupe doubt | Tested: no effect on a sampled transcript; script now keeps the last line per message and output re-run |
 | 24M tokens moved | Now reproducible: raw-folder output saved |
+
+A second independent reader checked the version 2 diff: all four FAILs cured; one clause failed ("the union gives 15", fixed in F5); eight overclaims, all fixed here. They were a dropped FIRE-004 caveat, "no TERRY work" stronger than its evidence, a VLO double count, a misleading "no card" reach, a stale 54.7M with a false comparison, "no tier touches", "retires 19 desks", and "adds no new rule". The 10:02 quotes are now saved. Neither reader has read this version; the new section is RED's own, checked against the commit.
 
 ## Gaps
 

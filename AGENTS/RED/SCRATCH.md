@@ -8,7 +8,7 @@
 - BOND: F2 seventh of seven OFF-THE-RUN; November QRA carries the ops. BoE +25bp to 4.00%.
 
 ## WHAT I DID (S59)
-- **OP-SCALE read delivered, version 2 at draft 42b47b6b8,** `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`, CHG-RED-056 STRONG on the sizing. Count holds at N = 3, −$241.46; roster not ready. Version 1 read a superseded draft; the independent reader caught it (ML-318). RED's own seat disclosed first. Evidence `research/2026-11-05_op-scale_usage/`.
+- **OP-SCALE read delivered, version 3 (body at 42b47b6b8, current-draft section at 71103c231, held UNSETTLED by 24e216891),** `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`, CHG-RED-056 STRONG on the sizing. Count holds, N = 3 or 2 on the VLO scope; roster not ready. Version 1 read a superseded draft and reached WQ-599 before its readers finished; two readers caught it, PROME and TERRY warned 10:27 ET (ML-318). RED's own seat disclosed first. Evidence `research/2026-11-05_op-scale_usage/`.
 - **Weights: NONE moved.** HOLD 72 · net-bear 68.
 - **Exits at FRED and Cboe:** FT-02 0 of 3 (332 [11/04]) · FT-06 0 of 5 · FT-10 0 of 4.
 - **FT-11:** keeps reading the November QRA ops on its letter; sb0678 read at the primary; no amendment.
@@ -18,7 +18,7 @@
 
 ## NEXT SESSION (dated, ordered)
 1. 🟠 **Fri 11/6:** jobs → RED-23 resolves (recompute on the resolving vintage; if WRONG, re-litigate the S41 move in that session) · KB-092 re-derive · FT-02 11/05 cell.
-2. 🟠 **Sat 11/7:** GATE-OP-SCALE-01 grade is TERRY, PROME and Will's. RED answers contests only.
+2. 🟠 **Before Sat 11/7:** TERRY revises the draft against report version 3; re-read the diff only if TERRY or PROME asks. GATE-OP-SCALE-01 grade is TERRY, PROME and Will's. RED answers contests only.
 3. 🟡 **By 11/9:** CHG-054 re-review: OZK 10-Q (FDIC filer; read OZK's Chicago refi at the primary, SIG-W-20261027-041). KB-065/066 refresh then.
 4. 🔴 **Tue 11/10:** Oct CPI per the pre-written tree, then the discretionary re-derivation off the STATUS ledger, War included. Read War against price and flow separately; "no letter fired" is not D 85 re-earned.
 5. 🟡 **11/13:** KB-106, KB-108 Stale_By. **11/15** HHDC (CHG-045/049). **11/16** BROCK grades BRK-26. **~11/25** FT-10 outcome grade.

@@ -1,0 +1,5 @@
+Vendor screening quotes used in F6. chain_fetch.py --no-cache, 2026-11-05 10:02:55 to 10:02:58 ET. Not fills, not broker quotes.
+IEF 2027-01-15 90C bid 2.22 ask 2.29 | 92C bid 0.98 ask 1.03 | spot 91.76
+FXY 2027-01-15 58C bid 0.70 ask 1.25 | 60C bid 0.15 ask 0.40 | spot 57.92
+RSP 2027-01-15 215C bid 11.20 ask 12.80 | 225C bid 4.20 ask 5.10 | spot 222.20
+Entry mid and worst from card re-grades 10/23: IEF 0.975, 1.05 · FXY 0.925, 1.15 · RSP 5.38, 7.95.
