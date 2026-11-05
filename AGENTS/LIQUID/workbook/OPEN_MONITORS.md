@@ -9,7 +9,7 @@
 | Athene funding canary | SHADE owns legal-entity mechanism; LIQUID reads broader funding. Historical yellow label is not freshly graded. |
 | Japan repatriation | SAM owns mechanism; retired life-insurer Channel1 needs its existing direct-sales re-arm evidence. No fresh USD/JPY or MOF grade in this file. |
 | EndGame macro/liquidity pair | Old ≤2-of4 score is historical; both components require fresh canonical observations before a current grade. |
-| Basis/dealer amplification | W1 as-of October 27, dealer observations as-of October 21; current window and publication/aging distinctions live only in STATUS§2. November 5 dealer input pending. Net positions are not gross covering, refused financing or measured cash calls. |
+| Basis/dealer amplification | W1 as-of October 27, dealer observations as-of October 28; current window and publication/aging distinctions live only in STATUS§2. Net positions are not gross covering, refused financing or measured cash calls. |
 | AI financing | DTCC standard 5Y read through November 4; model-derived spreads are not executable quotes, Oracle ~2.1 bp rows quarantined. Priced/committed access is not settled/drawn cash. VULCAN/BROCK retain mechanism/structure ownership. Volta WQ-441 A/B unresolved. |
 | Private-credit tenders | BROCK’s sole redemption register; capped/pro-rated tenders are distinct from suspended facilities. Term repricing is distinct from denied access. |
 | Post-QT reserve regime | Saved secured-rate frontier November 4 (first non-calendar day after month-end); H.4.1 released October 29 / as-of Wednesday October 28. MMF cash origins/maturity and institution-specific access remain unmeasured; orderly overnight rates do not clear private/offshore funding. |
