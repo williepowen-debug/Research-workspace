@@ -21,7 +21,7 @@ TCW writing Red Lobster equity to 2¢ while keeping the 2029 loan at par (Apr 14
 
 ## ★ PRE-REGISTERED GRADING CARD — Q3 2026 (quarter ended 9/30/26)
 
-**Registered 2026-11-05 09:5x ET** under the existing calendar duty (`workbook/CATALYSTS.tsv` row 2026-11-13, "Build the Q3 pre-registered card BEFORE filings"), on Will's 09:42 ET catch-up word relayed in `inbox/2026-11-05_from-PROME_catch-up-to-live-data.md`. **Committed before any Q3 print of these six names was read by this desk; the commit time is the receipt.** Six names, five metrics and three verdict lines are transcribed unchanged from the Q2 card below. No level, operator or consequence is new. Only the baseline moves, to the graded Q2 column.
+**Registered 2026-11-05 09:48 ET** under the existing calendar duty (`workbook/CATALYSTS.tsv` row 2026-11-13, "Build the Q3 pre-registered card BEFORE filings"), on Will's 09:42 ET catch-up word relayed in `inbox/2026-11-05_from-PROME_catch-up-to-live-data.md`. **Committed before any Q3 print of these six names was read by this desk; the commit time is the receipt.** Six names, five metrics and three verdict lines are transcribed unchanged from the Q2 card below. No level, operator or consequence is new. Only the baseline moves, to the graded Q2 column.
 
 ⚠️ **Not fully pre-print.** ARCC reported before this card existed (BROCK STATUS: ARCC cells 10/28), and FSK was scheduled before the open today, November 5 (BROCK calendar). I had not read either name's Q3 NAV or FV/Cost at registration, but this card does not pre-date those prints. BXSL, GSBD, OBDC and MAIN: dates unconfirmed, not load-bearing.
 

@@ -81,6 +81,19 @@ def grade_l1(bb, ccc):
             "ccc": ccc[lc], "ccc_chg": chg, "ccc_from": cd[-6], "bb_hit": bb_hit, "flat": flat}
 
 
+def vendor_close(v):
+    """Vendor float storage -> the vendor's decimal close. Removes storage noise ONLY.
+    Four decimals, never two: half-cent closes are real (6 of 184 on 2026-11-04), and two
+    decimals moves them both ways by storage accident (DAEDALUS read, 2026-11-04). Float32
+    storage error is under 0.00005 below $1,024, so cents and half-cents survive exactly."""
+    return round(float(v), 4)
+
+
+def vendor_closes(series):
+    """The CLI's one read path from a vendor Close column to {date: close}."""
+    return {d: vendor_close(v) for d, v in series.dropna().items()}
+
+
 def grade_l4(hy, eq):
     """PURE. hy = {date: bp}; eq = {ticker: {date: raw close}}. L4 = ANY ONE cohort name <= -15% on
     the session AND HY OAS >= +5bp on the SAME session. The session is HY's latest published obs
@@ -107,8 +120,8 @@ def grade_l4(hy, eq):
             faults.append(f"{t} bar missing for {', '.join(miss)}"); continue
         ep = hprev
         chg = (c[last] / c[ep] - 1) * 100
-        # Raw closes are published in cents. Compare their decimal price ratio by
-        # cross multiplication: binary division misses e.g. 2.40 -> 2.04 exactly -15%.
+        # Compare the decimal price ratio by cross multiplication: binary division
+        # misses e.g. 2.40 -> 2.04 exactly -15%. Closes arrive via vendor_closes().
         equity_hit |= (Decimal(str(c[last])) * 100 <=
                        Decimal(str(c[ep])) * (100 + Decimal(str(EQ_LINE))))
         rows.append((t, c[last], chg, ep))
@@ -177,6 +190,18 @@ def selftest():
     boundary_eq["NBIS"][D[-1]] = 2.04
     check("decimal equity boundary with HY +4 is NOT FIRED", grade_l4(
         {D[-2]: 273, D[-1]: 277}, boundary_eq)["state"], "NOT FIRED")
+    # CLI input path: float32 vendor closes through vendor_closes(), then the grade.
+    # Both cases are real half-cent priors; 2dp rounding here flips each (DAEDALUS 2026-11-04).
+    import pandas as pd
+    for name, prior, close, expected in (("CRWV", 54.235, 46.10, "NOT FIRED"),
+                                         ("NBIS", 237.355, 201.75, "FIRED")):
+        col = pd.Series([prior, close], index=D[-2:], dtype="float32")
+        path_eq = {t: {D[-2]: 50.0, D[-1]: 50.0} for t in TICK}
+        path_eq[name] = vendor_closes(col)
+        check(f"CLI path float32 {name} {prior} -> {close}, HY +5", grade_l4(
+            {D[-2]: 326, D[-1]: 331}, path_eq)["state"], expected)
+    check("CLI path keeps a half-cent exactly", vendor_closes(pd.Series([54.235], index=D[:1], dtype="float32")),
+          {D[0]: 54.235})
     # L1
     bb = {d: 230.0 for d in D}; ccc = {d: 800.0 for d in D}
     check("L1: BB 230 + CCC flat → FIRED", grade_l1(bb, ccc)["state"], "FIRED")
@@ -253,8 +278,7 @@ def main():
         if extra: fetch_faults.append(f"UNREQUESTED tickers returned {extra} — identity mismatch")
         for t in TICK:
             if t in px.columns:
-                # Restore the letter's as-published 2dp raw closes from vendor float storage.
-                eq[t] = {d: round(float(v), 2) for d, v in px[t].dropna().items()}
+                eq[t] = vendor_closes(px[t])
     except Exception as e:
         fetch_faults.append(f"fetch failed: {type(e).__name__}")
     g4 = grade_l4(hy, eq)
