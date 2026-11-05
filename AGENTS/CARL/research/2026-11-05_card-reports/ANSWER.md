@@ -1,6 +1,6 @@
 # CARL answer: do DEWEY's two card reports change the consumer thesis or its test?
 
-**Assigned:** Will, 2026-11-04 21:12 ET, through PROME. **Written:** 2026-11-05 08:30 ET.
+**Assigned:** Will, 2026-11-04 21:12 ET, through PROME. **Written:** 2026-11-05 08:29 ET.
 **Read in full:** `AGENTS/DEWEY/output/2026-11-04_carl-dr1-cof-q3-fdm-three-issuer-final.md`, `AGENTS/DEWEY/output/2026-11-04_card-modified-cohort-peer-check.md`, both DEWEY packets, WALTER's SIG-W-20261104-080 (at `BOARD/`; no copy reached `inbox/WALTER/`). Figures rechecked at DEWEY's two evidence JSON files and its saved text of the Capital One 10-Q. No new data pulled.
 
 ## The short answer
