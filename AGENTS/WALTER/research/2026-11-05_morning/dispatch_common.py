@@ -19,7 +19,7 @@ def send(cards, origin):
         conf = d['confidence']
         h = dict(signal_id=sid, date='2026-11-05', timestamp=stamp, dispatched=stamp, source=d.get('source','WALTER'), origin=[origin],
                  action=d['action'], info=d['info'], precedence=d['precedence'], signal_type=d['signal_type'],
-                 confidence=conf, confidence_language=d.get('lang','reports'), resources=1, safety_net='clear',
+                 confidence=conf, confidence_language=d.get('lang','reports'), resources=1, safety_net=d.get('safety_net','clear'),
                  cluster=d['cluster'], domain=d['domain'], entities=d['entities'], word_count=wc,
                  dispatch_note=d['note'], **d.get('extra', {}))
         p.write_text('---\n' + ''.join(k + ': ' + json.dumps(v) + '\n' for k, v in h.items()) + '---\n' + body)
