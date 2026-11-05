@@ -1728,3 +1728,6 @@ Source per row is in `CASES.tsv` `sources` / `source_quality`; nothing here was 
 **175 Wilshire Courtyard, 176 Cove at Tiburon:** Trepp October PDF p.2, PRIMARY-READ. 175's link to September's unnamed cure is CREED inference (`KB-CREED-095`). 176 is HOMER's to score.
 **177 Beaudry:** WSJ partial, CRE Daily header text only (rest gated); WALTER SIG-W-20261104-024. Cost ≠ value ≠ loss.
 **178–182 Denver:** WALTER REVIEW.md rows 1d–1i; all SECONDARY; purchase-price discounts, not loan losses. They span 2024–2026, so no November wave and no T-06 cluster. City Center keeps its $395M vs $400M inconsistency.
+
+### CASE-CREED-183 (logged 2026-11-05)
+**The Colonnade, Addison TX:** sale from WALTER SIG-W-20261105-033, Trepp's email citing Dallas Business Journal, SECONDARY. Loan terms read at three October trust tapes: 4.568%, maturity 2024-02-06, SS transfer 2023-09-12, $218M appraisal 2026-04-16 against $347.59M at 2018-10-31. Those trusts hold $92M; a search of all cached Addison TX loans found no other piece, so about $131M of the reported $223M is unplaced, possibly outside registered conduits. The card's "matured two years ago" is 2 years 9 months. The relay's "$240 million financing" is not reconciled to $223M. The 59% occupancy is undated; the tape's 70% is dated 3/31/2023, so it is stale. Value mark is appraisal to appraisal, not a loss.

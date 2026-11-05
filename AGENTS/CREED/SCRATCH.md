@@ -26,7 +26,7 @@ S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), V
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 28/45; broad CRE-to-bank transmission is not confirmed.**
 - **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.85 [Sep] · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +0.84 [11/04] · `T-08b` not re-graded (7 of 11).
-- **Counts:** VX 34 · KB **105** · PRED 11 (2 open) · registry 11 · **cases 182** · evals v2 4/4.
+- **Counts:** VX 34 · KB **105** · PRED 11 (2 open) · registry 11 · **cases 183** · evals v2 4/4.
 - **Trepp PDFs moved:** earlier months are now also under `AGENTS/WALTER/archive/**`. October is at the public hubfs URL, not archived.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
