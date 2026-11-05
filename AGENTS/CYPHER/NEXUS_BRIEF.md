@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-05 14:24 EST (launched session, WQ-618 A, DOCKET L812 + L917) | STATUS commit: `fe6f3e92885cf19e5c8c41218bd41d431f3ab59b`
+**As of:** 2026-11-05 14:24 EST (launched session, WQ-618 A, DOCKET L812 + L917) | STATUS commit: `b1e31447bdd0634311934ebcece0dbb1b9b2e64c`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
