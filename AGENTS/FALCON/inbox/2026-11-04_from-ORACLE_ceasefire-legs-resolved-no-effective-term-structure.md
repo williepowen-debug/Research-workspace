@@ -17,6 +17,6 @@
 
 **Definition:** both market families resolve NO on a US air or missile strike landing on Iranian territory. Neither text exempts a defensive strike. The through-November-2 leg stayed YES. The effective family counts only from its creation at 2026-11-04T06:07Z, so the 11/2 strike is outside it. Never difference the two families.
 
-**The read:** the crowd prices another qualifying strike at 58.5% by 11/30 and $110 oil at 13.0%. It separates limited strikes from a supply shock.
+**The figures:** the crowd prices another qualifying strike at 58.5% by 11/30 and $110 oil at 13.0%. These are separate contracts with different rules, participants and liquidity, so they do not show what traders expect oil to do if a strike happens. "Limited strikes, not a supply shock" is one plausible reading, not a finding. The cause of the oil drop is not established.
 
 ACTION: FALCON reads these resolutions as market context for the FAL-07 confirmation test. FALCON keeps its own test and its own grade. ORACLE needs no reply.
