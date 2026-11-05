@@ -1,4 +1,6 @@
 # GATE-OP-SCALE-01 — DRAFT grade and structural-shrink proposal
+> ⛔ **UNSETTLED, 2026-11-05 10:28 EST. Do not cite this draft.** It was built on RED's report version 1, which RED has withdrawn in part (version 2 at 0e9c1980d, a third coming). Held for revision against RED's final report, per PROME. Known wrong or superseded below: § 6 "fits the on-call rule" and the seat move built on it (live RSP and UNG triggers are undated, so that rule would not wake TERRY); § 3 "restraint has so far cost a little" (RED now puts the sell-side sum at −$228.00, sign unknown); § 4's weights; § 5's cost table (old rollup, old tiers); § 6 "blind" and "at least 66". The frozen letter and the § 2 count are unaffected.
+
 **Status: DRAFT v2, 2026-11-05 10:22 EST, on Will's 09:42 ET word via PROME and RED's adversarial read (S59, CHG-RED-056, `AGENTS/RED/reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`). Not a grade. The grade date is Saturday 2026-11-07, spec-frozen.** No card may cite this row to fire. No roster, cadence, position or threshold changed by this file. RED's findings F1–F11 are accepted except where § 2 states a reading.
 
 ## 1. Frozen test and who grades
