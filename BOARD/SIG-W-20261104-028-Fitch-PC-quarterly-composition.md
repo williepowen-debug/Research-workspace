@@ -17,7 +17,12 @@ domain: "PRIVATE_CREDIT"
 entities: ["Fitch", "PCDR"]
 word_count: 124
 dispatch_note: "Bounded catchup; written pending coordinated publication. Owner grades, delivery and consumption remain separate."
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-05
+status_ref: "SIG-W-20261105-039 \u2014 27 events came from 20 new defaulters in one quarter; not a comparison"
 ---
+
+> **Correction, November 5 — SIG-W-20261105-039:** "27 quarterly events versus 20" is wrong: 27 events came from 20 new unique defaulters in the same quarter. Rest stands. Original text preserved below.
 # Reported private-credit quarterly composition changes; 6.3 percent is already known
 
 Forbes October 29 attributes to Fitch a Q3 private-credit default rate of 6.3% versus Q2 6.0%, 27 quarterly events versus 20, 91 unique trailing-year defaulters and roughly 88% restructuring events. Fitch's original body timed out. BROCK already records August 6.3% and 89 unique defaulters; the new information is quarterly period/count/composition, not a newly higher headline rate.
