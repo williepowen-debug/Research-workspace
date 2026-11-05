@@ -98,6 +98,12 @@ The Run Log's "~25 skipped" resolves to **24 ledger legs**, plus **7 legs the lo
 
 **WQ-601 unit 4 concern, raised to PROME:** this record asked PROME to name an existing rule. Unit 4 instead offers a new standing reading that ordinary prediction rows need no Will approval. Its SEARCH-NOT-FOUND list omits `AGENTS.md:53` ("Agent research/tracking proposals → Will"); `PROME/AUTONOMY.md` Tier 2 also lists new tracking frameworks and new ongoing work. Whether a single prediction row falls under either is unresolved, and it is Will's call.
 
+## WQ-601 units 1–3 applied (commit aaec72859)
+
+Will's word verified at `PROME/proposals/2026-11-04_wq591-601-RULED.md` and the WQ-601 row. Desks idle: absent from ListAgents and ps, no dirty paths, read 21:04 ET. OZK:35, FLG:15, GIBBS:15, :31, :174, CORAL:95, CRUISE:201. GIBBS:174 was not a cited line; it carried the same rule, so leaving it would have left GIBBS contradicting itself. Unit 4 held; CYPHER:152 and ISHM:209 not edited.
+
+**Left alone, outside the ruling's three desks:** the same spawned no-push clause at CYPHER:15, :30, FERT:15, ISHM:27, :56, YURI:95, ZHAO:242 and FALCON:32. CRUISE:201 still sends "position changes" to Will; the ruling named trade ideas.
+
 ## Whole-audit remainder
 
 After this pass: C17, A09 (DAEDALUS gate-spec consumer review), TERRY B44/D17 November 6, root rotation (PROME). July 7 whole-run clock unchanged: approved edits above are not applied, and no fresh fleet-wide re-test ran.

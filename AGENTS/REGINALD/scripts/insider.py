@@ -49,8 +49,11 @@ BULLISH_CODES = {"P"}  # Open market purchase — thesis challenge
 BEARISH_CODES = {"S"}  # Open market sale — confirms thesis
 NOISE_CODES = {"F", "M", "A", "D", "G", "J", "K", "U", "W", "Z"}
 
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
 HEADERS = {
-    "User-Agent": "REGINALD-Research williepowen@gmail.com",
+    "User-Agent": sec_ua("REGINALD-Research {}"),
     "Accept": "application/json",
 }
 

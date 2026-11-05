@@ -36,7 +36,10 @@ import argparse, gzip, json, sys, time, urllib.request, urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, date
 
-UA = "LABOR-research williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("LABOR-research {}")
 DATA_BASE = "https://data.sec.gov"
 WWW_BASE = "https://www.sec.gov"
 TICKERS_URL = "https://www.sec.gov/files/company_tickers.json"

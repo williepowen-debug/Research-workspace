@@ -118,7 +118,10 @@ NEWS_TERMS = '(cyberattack OR breach OR outage OR "cybersecurity incident" OR ra
 NEWS_CONTROL_DAYS = 30
 NEWS_TITLE_INCIDENT_RE = re.compile(r"cyber|breach|outage|ransomware|hack|incident|attack|offline|disrupt|extortion|compromis", re.I)
 NEWS_TITLE_VENDOR_RE = re.compile("|".join(re.escape(v.strip('"')) for v in BANK_VENDORS), re.I)
-USER_AGENT = "CYPHER-Research williepowen@gmail.com"   # SEC requires a contact; fleet form (REGINALD)
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+USER_AGENT = sec_ua("CYPHER-Research {}")   # SEC requires a contact; fleet form (REGINALD)
 TIMEOUT = 25
 
 WATCH_STATES = {"ARMED", "NOT-FIRED", "FIRED", "STOOD-DOWN", "UNOBSERVABLE", "CANNOT-FIRE"}

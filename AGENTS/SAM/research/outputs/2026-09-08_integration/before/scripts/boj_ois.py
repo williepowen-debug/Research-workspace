@@ -67,7 +67,7 @@ OIS_TSV = WORKBOOK / "BOJ_OIS.tsv"
 SOURCE_URL = "https://centralbank.watch/bank-of-japan/"
 SOURCE_NAME = "centralbank.watch"
 INSTRUMENT = "3m-TONA-futures"
-HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research; williepowen@gmail.com)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (SAM-Research; <SEC contact removed from snapshot, WQ-600>)"}
 
 COLUMNS = [
     "as_of_date", "meeting_date", "cum_hike_pct", "hold_pct", "cut_pct",

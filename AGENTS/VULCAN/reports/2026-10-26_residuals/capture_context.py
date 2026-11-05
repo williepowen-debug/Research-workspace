@@ -11,9 +11,12 @@ urls={
 'cpram-5.jpg':'https://amundicprprodcdn.azureedge.net/cmsmedia/data/shared/imageFolder/hyperscaler5-f3f8f50fcd5ce9a38389767d53f3fbfa69fac598.jpg',
 'cpram-6.jpg':'https://amundicprprodcdn.azureedge.net/cmsmedia/data/shared/imageFolder/hyperscaler6-6b3f4b6642ffe5c90d002c845d0efd1dc133d4f7.jpg'}
 manifest=[]
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
 for name,url in urls.items():
  try:
-  data=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'VULCAN research williepowen@gmail.com'}),timeout=35).read(); (S/name).write_bytes(data)
+  data=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':sec_ua('VULCAN research {}')}),timeout=35).read(); (S/name).write_bytes(data)
   if name.endswith('.html'):
    soup=BeautifulSoup(data,'html.parser'); (S/name.replace('.html','.txt')).write_text(soup.get_text(' ',strip=True))
    if name=='sifma.html': print('SIFMA downloads',[(x.get_text(' ',strip=True),x.get('href')) for x in soup.select('a[href]') if any(t in x.get('href','').lower() for t in ['.xls','.csv'])])

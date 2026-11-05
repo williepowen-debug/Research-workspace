@@ -111,7 +111,10 @@ VULCAN = TOOLS.parent
 LEDGER = VULCAN / "workbook" / "EDGAR_SEEN.tsv"
 
 # SEC requires a descriptive UA with contact. Declared, not spoofed.
-UA = "VULCAN-research (Research-workspace agent; contact williepowen@gmail.com)"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("VULCAN-research (Research-workspace agent; contact {})")
 SUB = "https://data.sec.gov/submissions/CIK{cik:010d}.json"
 
 # ─────────────────────────────────────────────────────────────────────────────

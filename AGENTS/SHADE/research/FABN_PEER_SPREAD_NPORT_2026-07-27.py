@@ -21,7 +21,10 @@ Systematic YTM-approximation error largely cancels in the PEER DIFFERENCE at mat
 """
 import json, re, time, sys, urllib.request, gzip, collections, datetime, statistics
 
-UA = "SHADE Research williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("SHADE Research {}")
 
 ISSUERS = {
     "ATHENE":     r"Athene Global Funding",

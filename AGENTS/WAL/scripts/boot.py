@@ -45,7 +45,10 @@ EXIT_LOG = REPO_ROOT / "AGENTS" / "REGINALD" / "registry" / "REG_T02_EXIT_LOG.ts
 
 CIK = "0001212545"                 # Western Alliance Bancorporation
 RSSD = 3138146                     # Western Alliance Bank (Call Report filer)
-SEC_UA = "WAL-Research williepowen@gmail.com"   # SEC requires a contact; fleet form (REGINALD/CYPHER)
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+SEC_UA = sec_ua("WAL-Research {}")   # SEC requires a contact; fleet form (REGINALD/CYPHER)
 FFIEC_URL = "https://ffieccdr.azure-api.us/public/"
 FINRA_URL = "https://api.finra.org/data/group/otcMarket/name/consolidatedShortInterest"
 BIG_MOVE = 3.0                     # charter step 5: "WAL can move 3-5% in a session"

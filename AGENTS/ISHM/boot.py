@@ -59,7 +59,10 @@ FORWARD_DAYS = 30            # charter § WAKE TRIGGERS: keep the calendar >= 30
 FRED_STALE_DAYS = 120        # monthly series: newest observation older than this = route or series broken
 MIN_OBS = 24
 TIMEOUT = 25
-USER_AGENT = "ISHM-Research williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+USER_AGENT = sec_ua("ISHM-Research {}")
 FRED_URL = "https://fred.stlouisfed.org/graph/fredgraph.csv?id={}"
 # ledger key -> FRED id (verified keyless at build 2026-10-23 09:4x ET: newest obs INDPRO/TCU/IPMAN 2026-09-01,
 # DGORDER/NEWORDER/ANXAVS/AMTMNO 2026-08-01; the old ISM id NAPM returns an HTML page, not data)

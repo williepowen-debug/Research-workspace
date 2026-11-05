@@ -29,7 +29,10 @@ WAL_DIR = Path(__file__).resolve().parents[1]
 TRACKER = WAL_DIR / "workbook" / "MARKET_TRACKER.tsv"
 COLS = ["Date", "Metric", "Value", "Unit", "Basis", "Source", "Recorded"]
 XBRL_URL = "https://data.sec.gov/api/xbrl/companyconcept/CIK0001212545/dei/EntityCommonStockSharesOutstanding.json"
-UA = "WAL research williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("WAL research {}")
 FINRA_START = "2025-01-01"
 SNAPSHOT_EVERY_DAYS = 7
 

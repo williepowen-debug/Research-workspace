@@ -11,10 +11,13 @@ for tick,cik in CIK.items():
   if r['form'].startswith('424B') or r['form'] in ('10-Q','10-K','8-K'):
    accession=r['accessionNumber']; url=f'https://www.sec.gov/Archives/edgar/data/{cik}/{accession.replace("-","")}/{r["primaryDocument"]}'
    jobs.append((tick,r,url))
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
 def run(job):
  tick,r,url=job; name=f'{tick}-{r["accessionNumber"]}'
  try:
-  with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'VULCAN-research contact williepowen@gmail.com'}),timeout=35) as response: body=response.read()
+  with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':sec_ua('VULCAN-research contact {}')}),timeout=35) as response: body=response.read()
   (S/(name+'.html')).write_bytes(body)
   soup=BeautifulSoup(body,'html.parser')
   for el in soup(['script','style','ix:header']): el.decompose()

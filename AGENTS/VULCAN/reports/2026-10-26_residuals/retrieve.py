@@ -2,7 +2,10 @@
 from pathlib import Path
 import urllib.request, json, hashlib, datetime, concurrent.futures
 HERE=Path(__file__).resolve().parent
-UA='VULCAN-research contact williepowen@gmail.com'
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA=sec_ua('VULCAN-research contact {}')
 ISSUERS={'GOOGL':1652044,'MSFT':789019,'META':1326801,'AMZN':1018724}
 def get(url,name):
  req=urllib.request.Request(url,headers={'User-Agent':UA})

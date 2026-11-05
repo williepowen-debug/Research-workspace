@@ -6,7 +6,10 @@ top-N registrant trusts (the 80/20), fetches each primary_doc.xml, regex-extract
 """
 import json, re, time, sys, urllib.request, collections
 
-UA = "SHADE Research williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("SHADE Research {}")
 # Full registered-fund floor: each fund's MOST RECENT public NPORT-P. Funds file public NPORT-P at
 # each fiscal-quarter-end (~3mo apart, filed within 60d), so a ~3-month FILING window captures each
 # fund's latest filing ~once; dedup by (cik, seriesId) keeping latest period_ending resolves any dup.

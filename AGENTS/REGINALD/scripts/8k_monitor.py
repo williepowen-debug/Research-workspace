@@ -83,7 +83,10 @@ ITEM_FLAGS = {
     "9.01": ("⚪", "Financial Statements/Exhibits"),
 }
 
-SEC_HEADERS = {"User-Agent": "REGINALD-Research williepowen@gmail.com"}
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+SEC_HEADERS = {"User-Agent": sec_ua("REGINALD-Research {}")}
 NO_VERDICT = ("FAILED", "PARSE", "STALE-ROUTE", "UNCOVERED")
 
 

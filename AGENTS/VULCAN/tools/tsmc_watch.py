@@ -72,7 +72,10 @@ CIK = 1046179
 SUB_URL = f"https://data.sec.gov/submissions/CIK{CIK:010d}.json"
 ARCH = f"https://www.sec.gov/Archives/edgar/data/{CIK}"
 # SEC requires a descriptive UA with contact. Declared, not spoofed.
-UA = "VULCAN-research (Research-workspace agent; contact williepowen@gmail.com)"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("VULCAN-research (Research-workspace agent; contact {})")
 REV_DOC = re.compile(r"^tsm-revenue(\d{8})\.htm$", re.I)
 TOL_PP = 0.1          # the filing rounds percentages to 0.1
 FLAT_BAND_PCT = 2.0   # |YoY| under this = "flat"

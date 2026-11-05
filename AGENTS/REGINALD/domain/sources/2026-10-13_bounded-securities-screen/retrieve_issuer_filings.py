@@ -3,8 +3,11 @@ import json,subprocess,concurrent.futures,hashlib,datetime,re
 from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[5]; out=ROOT/'AGENTS/REGINALD/domain/sources/2026-10-13_bounded-securities-screen'; raw=out/'raw'
 banks={'WAL':1212545,'EGBN':1050441,'ZION':109380,'SSB':764038,'CFG':759944,'BKU':1504008,'SBCF':730708,'AMTB':1734342,'FLG':910073,'MTB':36270,'HBAN':49196,'VLY':714310,'CUBI':1488813}
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_contact
 def get(url):
- r=subprocess.run(['curl','--max-time','35','-s','--fail-with-body','-A','REGINALD-Research williepowen@gmail.com',url],capture_output=True)
+ r=subprocess.run(['curl','--max-time','35','-s','--fail-with-body','-A',f'REGINALD-Research {sec_contact()}',url],capture_output=True)
  if r.returncode: raise ValueError(f'curl_rc_{r.returncode}')
  return r.stdout
 

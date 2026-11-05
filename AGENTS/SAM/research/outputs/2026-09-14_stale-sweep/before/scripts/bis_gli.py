@@ -48,7 +48,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 TSV = ROOT / "AGENTS" / "SAM" / "workbook" / "BIS_GLI.tsv"
 API = "https://stats.bis.org/api/v1/data/WS_GLI/all/all?lastNObservations=1&format=csv"
-UA = "Mozilla/5.0 (SAM research agent; williepowen@gmail.com)"
+UA = "Mozilla/5.0 (SAM research agent; <SEC contact removed from snapshot, WQ-600>)"
 
 COLUMNS = ["period", "series_id", "label", "value_jpy_tn", "value_usd_bn",
            "borrowers_cty", "instrument", "source", "basis", "pulled_at"]
