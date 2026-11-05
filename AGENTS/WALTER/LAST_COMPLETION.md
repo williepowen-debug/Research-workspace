@@ -4,7 +4,7 @@ Updated 2026-11-05T15:00:02Z, Claude Code Opus 5.5, session walter-07 on the des
 
 ## NOVEMBER 5 CATCH-UP — desktop state
 
-Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 017 including FLASH 016 and 017; published through a575b1449 by safe-push on a verified-clean tree. Step 7 run late: research/2026-11-05_morning/STEP7-REVIEW.md, STATUS reads PARTIAL, no card re-routed. Commits ee7cc2297, 725479117, 838cce505, 1d6de8f69; published by safe-push on a verified-clean tree under §3.4, HEAD 1d6de8f69 confirmed on origin. Publication is not consumption.
+Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 019 including FLASH 016 and 017; 001–017 published through a575b1449 by safe-push on a verified-clean tree, 018–019 PRIORITY and ROUTINE, local until the next coordinated push. Step 7 run late: research/2026-11-05_morning/STEP7-REVIEW.md, STATUS reads PARTIAL, no card re-routed. Commits ee7cc2297, 725479117, 838cce505, 1d6de8f69; published by safe-push on a verified-clean tree under §3.4, HEAD 1d6de8f69 confirmed on origin. Publication is not consumption.
 
 1. **X login:** Will re-authorized on the desktop 10:06 ET; scan rc=0.
 2. **Bright Data:** key name present in `AGENTS/WALTER/.env`; `bdata` not on PATH here. Only 403 bookmark links are affected.
@@ -13,6 +13,8 @@ Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 017 i
 5. **CRUISE queue:** `cruise:7126564b0db4` closed FOLD to SIG-W-20261014-028: September 23 deal, relay; micebook body unread.
 6. **L334 predictive leg delivered** `research/2026-11-05_L334/REPORT.md`: no relationship detected, no bar. L828: WALTER's list closed long ago, row status is PROME's.
 7. **HY and CCC November 4 read:** 332 / 1,297, card 009; batch BM-20261105-01 closed.
+8. **Discovery pass:** zero DEWEY commissions, research/2026-11-05_morning/DISCOVERY.md. CoreWeave 2027 was covered at VULCAN.
+9. **Close pass NOT run:** needs a launched prompt after 16:00 ET; no scheduler. VIX, WAL close, whether 017 held. CF's call unheard. Evening intake pending.
 
 Calendar coverage cutoff: 2026-11-05T15:00:02Z (step 7i run; rows in research/2026-11-05_morning/CALENDAR-RECONCILIATION.tsv; pending rows named there).
 

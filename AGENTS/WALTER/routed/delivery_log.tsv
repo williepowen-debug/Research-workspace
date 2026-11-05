@@ -6324,3 +6324,8 @@ timestamp_routed	signal_id	recipient	role	recipient_platform	precedence	handoff_
 2026-11-05T16:05:03Z	SIG-W-20261105-017	BROCK	INFO	CC	FLASH	AGENTS/BROCK/inbox/WALTER/SIG-W-20261105-017.md	delivered	Claude-authored; publication and owner consumption unverified.
 2026-11-05T16:05:03Z	SIG-W-20261105-017	VULCAN	INFO	CC	FLASH	AGENTS/VULCAN/inbox/WALTER/SIG-W-20261105-017.md	delivered	Claude-authored; publication and owner consumption unverified.
 2026-11-05T16:05:03Z	SIG-W-20261105-017	NEXUS	INFO	CC	FLASH	AGENTS/NEXUS/inbox/WALTER/SIG-W-20261105-017.md	delivered	Claude-authored; publication and owner consumption unverified.
+2026-11-05T16:08:46Z	SIG-W-20261105-018	FERT	ACTION	CC	PRIORITY	AGENTS/FERT/inbox/WALTER/SIG-W-20261105-018.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
+2026-11-05T16:08:46Z	SIG-W-20261105-018	BRENT	INFO	CC	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20261105-018.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
+2026-11-05T16:08:46Z	SIG-W-20261105-018	HANS	INFO	CC	PRIORITY	AGENTS/HANS/inbox/WALTER/SIG-W-20261105-018.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
+2026-11-05T16:08:46Z	SIG-W-20261105-019	BRENT	INFO	CC	ROUTINE	AGENTS/BRENT/inbox/WALTER/SIG-W-20261105-019.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.
+2026-11-05T16:08:46Z	SIG-W-20261105-019	AEOLUS	INFO	CC	ROUTINE	AGENTS/AEOLUS/inbox/WALTER/SIG-W-20261105-019.md	written_not_delivered_pending_push	Claude-authored; publication and owner consumption unverified.

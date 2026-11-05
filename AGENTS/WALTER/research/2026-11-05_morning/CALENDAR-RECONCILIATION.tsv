@@ -4,13 +4,13 @@ hy-oas-2026-11-04	RED registry T+1	LIQUID/RED	published, read 15:08Z	FRED BAMLH0
 ccc-oas-2026-11-04	RED registry T+1	LIQUID/RED	published, read 15:08Z	FRED BAMLH0A3HYC 1297	reviewed/routed SIG-W-20261105-009	no state change	BOARD/SIG-W-20261105-009-HY-332-CCC-1297-November-4-VIXCLS-resets-FT-06-exit-run.md	none
 vixcls-2026-11-04	RED registry T+1	RED	published	FRED VIXCLS 16.61	reviewed/routed SIG-W-20261105-009	RED owes the FT-06 grade	research/2026-11-05_morning/THRESHOLD-SCAN.md	RED next session
 skew-2026-11-04	RED registry	RED/VIOLET	published	Cboe CSV 150.90	reviewed/no route (fired state unchanged)	VIOLET official closes through 11/04	research/2026-11-05_morning/THRESHOLD-SCAN.md	none
-cf-q3-2026-11-04	PROME/DOCKET L578	FERT	published	8-K exhibit excerpt via search	reviewed/routed SIG-W-20261105-004	not graded; FERT wake owed	BOARD/SIG-W-20261105-004-CF-Q3-earnings-nitrogen-tight-owner-wake-due.md	PROME wake
+cf-q3-2026-11-04	PROME/DOCKET L578	FERT	published	8-K exhibit read whole 11/05	reviewed/routed SIG-W-20261105-004 and 018	not graded; FERT wake owed	BOARD/SIG-W-20261105-004-CF-Q3-earnings-nitrogen-tight-owner-wake-due.md	PROME wake
 challenger-october	PROME/DOCKET L766; LABOR card	LABOR	published	challengergray.com primary, 11/05	reviewed/routed SIG-W-20261105-002	not graded; frozen card pending	BOARD/SIG-W-20261105-002-October-job-cuts-three-year-low-claims-189K-productivity-3.6.md	LABOR wake
 claims-week-ending-oct-31	HENRY ECON_CALENDAR	LABOR	published	dol.gov advance 11/05	reviewed/routed SIG-W-20261105-002	not graded; frozen card pending	BOARD/SIG-W-20261105-002-October-job-cuts-three-year-low-claims-189K-productivity-3.6.md	LABOR wake
 productivity-q3-prelim	HENRY ECON_CALENDAR	HENRY/LABOR	published	FRED PRS85006092 and PRS85006112; BLS page 403	reviewed/routed SIG-W-20261105-002	unknown	BOARD/SIG-W-20261105-002-October-job-cuts-three-year-low-claims-189K-productivity-3.6.md	consensus not read
 boe-2026-11-05	HANS T-17 notes; STATUS	HANS	published	BoE primary statement and Bank Rate table	reviewed/routed SIG-W-20261105-001	not graded	BOARD/SIG-W-20261105-001-BoE-raises-Bank-Rate-to-4-percent-8-1-CPI-seen-near-5.md	HANS and BOND read; MPR unread
 nref-q3	LAST_COMPLETION; CREED T-08b	CREED	published	8-K exhibits read by helper at sec.gov	reviewed/routed SIG-W-20261105-003	not graded; launch needs Will	BOARD/SIG-W-20261105-003-NREF-Q3-book-value-falls-5.2-percent-dividend-held.md	census with STWD and ACRE Nov 6
 ny-fed-household-debt-q3	PROME/DOCKET L575	CARL/NEXUS	unpublished/source unavailable	hhdc page shell only; date unverified in the row	pending	none	research/2026-11-05_morning/src/hhdc.html	owner row
-eia-gas-storage-2026-11-05	weekly	BRENT	not yet at scan time	10:30 ET	pending	none		next pass
+eia-gas-storage-2026-11-05	weekly	BRENT	published	EIA wngsr.json 3,801 Bcf week ending Oct 30	reviewed/routed SIG-W-20261105-019	none	BOARD	none
 cf-call-2026-11-05	PROME/DOCKET L578	FERT	future at scan time	11:00 ET	pending	none		FERT
 cabo-q3	PROME/DOCKET L876	BROCK	future	after close	pending	none		next pass
