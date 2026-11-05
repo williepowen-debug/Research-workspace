@@ -19,6 +19,37 @@ TCW writing Red Lobster equity to 2¢ while keeping the 2029 loan at par (Apr 14
 
 ---
 
+## ★ PRE-REGISTERED GRADING CARD — Q3 2026 (quarter ended 9/30/26)
+
+**Registered 2026-11-05 09:5x ET** under the existing calendar duty (`workbook/CATALYSTS.tsv` row 2026-11-13, "Build the Q3 pre-registered card BEFORE filings"), on Will's 09:42 ET catch-up word relayed in `inbox/2026-11-05_from-PROME_catch-up-to-live-data.md`. **Committed before any Q3 print of these six names was read by this desk; the commit time is the receipt.** Six names, five metrics and three verdict lines are transcribed unchanged from the Q2 card below. No level, operator or consequence is new. Only the baseline moves, to the graded Q2 column.
+
+⚠️ **Not fully pre-print.** ARCC reported before this card existed (BROCK STATUS: ARCC cells 10/28), and FSK was scheduled before the open today, November 5 (BROCK calendar). I had not read either name's Q3 NAV or FV/Cost at registration, but this card does not pre-date those prints. BXSL, GSBD, OBDC and MAIN: dates unconfirmed, not load-bearing.
+
+⚠️ **Same limit as the Q2 card.** This absolute card has no manager comparator, so it cannot satisfy the relative wrapper half of X1 (BROCK adjudication August 28; file header above). It grades mark direction only. It grants no X1 half, no sizing and no fire.
+
+### Q3 baseline = graded Q2 (6/30/26), filing-primary, from the graded table below
+
+| Name | Baseline NAV/share (6/30) | Baseline FV/Cost (6/30) |
+|---|---:|---:|
+| FSK | 18.30 | 0.9059 |
+| BXSL | 25.53 | 0.9645 |
+| GSBD | 12.06 | 0.9368 |
+| OBDC | 14.26 | 0.9895 |
+| ARCC | 19.35 | ⚠️ not tagged, unmeasured (M1 needs a non-XBRL read or stays unmeasured) |
+| MAIN | 33.92 | 1.1551 |
+
+**Metrics:** M1 to M5 as defined in the Q2 card below, QoQ against the baseline above.
+
+| Verdict | Pre-registered line (verbatim from Q2) | Reads as |
+|---------|---------------------|----------|
+| **🔴 CONFIRM (wrapper-led transmission real)** | **≥2 of the 6 names** print **M1 FV/Cost down QoQ** AND **M2 NAV −>2% QoQ**, **OR** ≥3 names show FV/Cost dropping >1pt same quarter, **OR** a fresh **regular-div cut (M4)** lands **with** M1/M2 deterioration — **while** the equity/discount (M5) had **already** widened (equity led, marks followed). Escalates 🔴 if BIZD is also down >8% over 2 weeks into the prints. | marks catching DOWN to price → the divergence the monitor was built to catch is closing → **BROCK X1-half CONFIRMS** (pair with HY>280 for X1 fire) |
+| **🟢 REFUTE (wrapper-lead NOT confirmed)** | NAVs flat/up across ≥4 names, FV/Cost stable (±<0.5pt), non-accruals flat, **no new regular-div cuts**, P/NAV discounts stable/narrowing | marks HELD → divergence persists as mark-model fiction OR resolves benign → **no transmission this quarter**; wrapper-lead stays un-adjudicated |
+| **🟡 MIXED (bifurcated)** | workout-heavy books (FSK/GSBD) mark down while quality books (MAIN/ARCC) hold — a manager-quality split, not a sector reset | K-split WITHIN BDCs → route names to REGINALD/CARL; NOT a systemic wrapper-lead confirm; the CCC-vs-BB / PC-vs-public shape repeating one layer down |
+
+**Grade state 2026-11-05: NOT GRADED.** Grading needs filing-primary NAV and FV/Cost. SEC tools refuse on this desktop until `SEC_CONTACT` is set, so the filing read is blocked here. **Q2 M3/M4/M5 and ARCC M1 are blocked on the same input.**
+
+---
+
 ## ★★ GRADED — 2026-08-23 · **CONFIRM (marginal, exactly at the line)**
 
 ⚠️ **GRADED 3 WEEKS LATE. All six 10-Qs were filed 7/29–8/07 (period 2026-06-30); the window closed in early August and this card sat unopened for 36 days.** Surfaced by applying DAEDALUS's PAT-060 half — *a gap in an append-only falsifier preferentially swallows the RARE event, so ask what FIRED during the window rather than reporting the age* — to my own falsifier surfaces. **This card was the rare event: a pre-registered grading card whose window closed and whose verdict is CONFIRM.**
