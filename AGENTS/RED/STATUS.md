@@ -81,7 +81,7 @@
 | **CHG-RED-049** | CARL (inverse-configuration auto-DQ read, 8… | STRONG | ACTIVE | 11/15 | The inverse-configuration read is a legitimate HYPOTHESIS and an illegitimate INFERENCE. CARL reads the auto 90+ stock… |
 | **CHG-RED-054** | Will-direct bank-put book (OZK Nov-20 40P x… | MODERATE | ACTIVE | 11/9 | [Grade by leg: STRONG (OZK) / MODERATE (WAL, KRE Dec-60) / WEAK (KRE Nov-67) - lead token STRONG kept in the Grade cell… |
 | **CHG-RED-055** | Self - RED-FT-11 v1.1 classifier (FLOW bran… | MODERATE-STRONG | ACTIVE | 12/15 | The FLOW branch is a shape test that a haven bid reproduces; BOND measured the buyback bid at ~30pct of new long-bond D… |
-| **CHG-RED-056** | TERRY - OP-SCALE draft sec 5 sizing and the… | STRONG | ACTIVE | 11/7 | The count holds and the sizing is not ready. N=3 and -241.46 tie (draft 42b47b6b8, VLO closed 11/5); no perimeter-respe… |
+| **CHG-RED-056** | TERRY - OP-SCALE draft sec 5 sizing and the… | STRONG | ACTIVE | 11/7 | The count holds and the sizing is not ready. PROME recount N=4, R=6, -241.46 on three priced positions; no perimeter-re… |
 
 *Generated from canon 2026-11-05 by `scripts/status_mirrors.py`: 56 rows, 8 open, 48 RESOLVED*. Do not hand-edit between the markers; `boot.py` §④ lists the open set live.*
 <!-- /GEN:challenges -->
@@ -109,7 +109,7 @@
 ## PREDICTIONS SCORECARD — pointer only (canonical: `workbook/PREDICTIONS.tsv`)
 
 <!-- GEN:tally -->
-**TALLY 2026-11-05 (generated off canon TSV, 25 rows): 13 CORRECT / 10 WRONG / 2 ACTIVE (RED-23 2026-11-06; RED-25 2026-12-31).**
+**TALLY 2026-11-05 (generated off canon TSV, 28 rows): 13 CORRECT / 10 WRONG / 5 ACTIVE (RED-23 2026-11-06; RED-25 2026-12-31; RED-26 2026-12-31; RED-27 2026-12-31; RED-28 2026-12-10).**
 <!-- /GEN:tally -->
 The 10/01 tally line said 1 ACTIVE because RED-25 was registered the same session and left uncounted; CALENDAR and NEXUS now carry this same line. Last resolutions: RED-04 CORRECT 10/01 · RED-24 WRONG 9/18 (the FT-10 Wednesday conditional, P≈57–60%, killed by a 5.48-pt drop — n=1 is not a calibration verdict).
 

@@ -33,6 +33,7 @@
 | 🟡 Thu 11/26 | Cboe holiday-bar defect (L342) | bridge holiday observations in any sustain count | VIOLET owns the archive |
 | 🟡 **Fri 11/27** | VX-RED-006 Zweig thrust 12-month grade | SPY close > 683.39 = CORRECT (retire); ≤ = WRONG | tracking +12.6% [10/14]; breadth has narrowed since August |
 | 🟡 11/30 | BRK-32 (CHG-044) | E3b is unvalidated since BROCK retired the CCLFX exhibit (S50) | watch BROCK's L2 re-basing (BCRED $42.78B) |
+| 🟡 **Thu 12/10 08:30 (BLS-verified)** | Nov CPI: RED-28, last print for FT-08's exit | Oct + Nov core sum <= 0.3 at 1dp | an 11/10 exit resolves RED-28 first |
 | 🟡 by 12/15 | CHG-055 re-review, or the first FT-11 precondition window | self-challenge | FLOW cannot split haven from buyback |
 | 🟡 **12/21** | EGBN $56.0M Prince George's loan — extended maturity (DOCKET L791) | paid / extended a third time / charged off | borrower due date, not a filing date; an 8-K may land earlier |
 | 🟡 12/15 | FL assessment-default / snowbird window (CORAL+MARCO) | — | Florida = Will's top geography |
@@ -40,6 +41,7 @@
 | 🟠 **~Thu 1/28/2027 (EST.)** | EGBN Q4 — CHG-027 re-review after DETERIORATION | same branches; any single-name clause written BEFORE the print (ML-303) | December multifamily wall $265.7M is the test |
 | 🟡 12/30 | SAM-rail CH-012 final grade (MOF 30Y) | pre-written rule | CH-009 closed DISMISSED 10/1 on disorder; the level grind continues |
 | 🟢 12/31 (re-dated S58 from 10/31) | RED-25 re-review (test unrun at 10/31) | NO-VERDICT if still unrun that day, not re-dated again | CHG-051 was RESOLVED 10/14 (six rule changes applied), so no re-review sits here; the FT-08 selectivity note was discharged in that review (future fires +1) |
+| 🟡 12/31 | RED-26 S&P 500 record close, RED-27 HY OAS below 400bp | letters in `workbook/PREDICTIONS.tsv` | RED-26 can resolve TRUE early; one selloff read, not two calls |
 | ⏱ daily [restamped S59 11/05] | **FT-02 FIRED (10/16 obs; EXECUTED 10/21); exit <300 s=3 = 0 of 3** (332 [11/04], post-fire high 344 [10/30]) · **FT-10 FIRED 10/14; exit <140 s=4 = 0 of 4** (150.90 [11/04] Cboe; outcome condition met 11/02) · **FT-06 exit 0 of 5** (16.61 [11/04]; the run broke at 3) · CCC 1,297 [11/04] (FT-07 banked) · **FT-11: no precondition window since 10/27; BOND precedence in force; keeps reading the November QRA ops on its letter** · USD/JPY 158.11 vs 160 / 155 [vendor 11/05 09:54] · WL-11 Brent <95: 94.62 settle [11/04], vendor 97.53 [11/05 09:54, intraday] | fire on the letter; FT-11 moves nothing on any branch | rates, banks and part of HY share one antecedent: count it once. NEXUS L16 UP is the same credit family as HY, not a new root |
 
 **Standing guards (S50, replacing the 8/20 set):** (1) **FT-01's round trip is CLOSED** (exit +2 on 9/29); later FT-01 fires move nothing, and FT-02 is the registered confirm. (2) **Hot headline CPI on energy is the null**, never stagflation evidence (S25). (3) **Count the long-end sell-off once** across the rate, bank and HY rows. (4) **Dated Brent well above paper** (~$29 over at 10/14 per KB-RED-103; was $11–17 over on 10/01): do not read the front month as the oil price — re-pull the gap, never carry it. (5) **5y5y 2.34 [10/14], flat through two oil shocks and the FT-08 fire**: the 30Y move is real/term premium, not inflation fear. (6) Every inline level carries its date. A level quoted in prose stays "current" after its table is folded (ML-RED-275).
@@ -50,12 +52,15 @@
 
 **FALSIFICATION WATCH** (frozen 7/31, superseded by `registry/FALSIFICATION_TRIGGERS.tsv` + `docket/WATCHLINES.tsv`) and **POSITION EXIT-WINDOW BACKSTOPS** (frozen 7/31, ALL REALIZED/EXPIRED; live book = `FORGE/STATUS.md`) moved out VERBATIM, crc-stamped. **Both were already ⛔ FROZEN by their own banners — this removed their BYTE cost from a boot-read surface, it did not change their status.** Live falsification state → `registry/FALSIFICATION_TRIGGERS.tsv` (canonical) and STATUS § FALSIFICATION CRITERIA.
 
-## RED PREDICTION SCORING WINDOWS (canonical: `workbook/PREDICTIONS.tsv`; tally 10W / 13C / 2A at 10/01)
+## RED PREDICTION SCORING WINDOWS (canonical: `workbook/PREDICTIONS.tsv`; tally 10W / 13C / 5A at 11/05)
 
 | Pred | Resolves | Conf | State |
 |---|---|:-:|---|
 | **RED-23** S41 self-falsifier: 3-mo avg CES (Jun+Jul+Aug) ≥ +50K at the THIRD print of Aug | **Fri 11/6 08:30** (Oct jobs report; BLS-verified 10/28) | 60% | ACTIVE. The 10/2 print is the SECOND print, informative but not resolving. If WRONG, the S41 move is re-litigated, not auto-reversed |
 | **RED-25** DEWEY permutation p on PREM−MID > 0.30 in every cut | when run; re-review 12/31, NO-VERDICT if unrun | 70% | ACTIVE |
+| **RED-26** S&P 500 highest FRED close 11/05–12/29 >= 7,823.00; NO-VERDICT [7,815, 7,823) | 12/31 | 33% | ACTIVE |
+| **RED-27** HY OAS highest FRED observation 11/05–12/30 < 3.95; NO-VERDICT [3.95, 4.05) | 12/31 | 68% | ACTIVE |
+| **RED-28** FT-08 exit condition met at the 11/10 or 12/10 CPI print | 12/10 | 18% | ACTIVE |
 
 Resolved since the 7/31 table: RED-21 CORRECT (scored nothing, by design) · RED-04 CORRECT 10/1 (no rescue; the Fed hiked 9/16) · RED-22 WRONG 8/28 · RED-24 WRONG. Full history → canon.
 
