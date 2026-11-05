@@ -6,7 +6,7 @@ Keep this load-bearing: append a Durable Finding only when it survives the episo
 
 ## Current pickup — 2026-11-04 20:22 EST
 
-Claude Code, Opus 5.5, terry-86. Boot/status only, $0 moved. WQ-591/592/593 unruled; TLT T1 and CF results unread; HYG 0 of 3, void reset; UNG +1.09 m/s [11/4 12Z] with AEOLUS log owed. Read STATUS ★ first.
+Claude Code, Opus 5.5, terry-86. Owed-work session, $0 moved; VLO exit established and SELL rec written, WQ-592 rec changed to B. WQ-591/592/593 unruled; TLT T1 and CF results unread; HYG 0 of 3, void reset; UNG +1.09 m/s [11/4 12Z] with AEOLUS log owed. Read STATUS ★ first.
 
 ## Prior pickup — 2026-11-02T10:31:08-05:00
 
@@ -63,6 +63,7 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 ## Next Session — start here
 
 00. **VLO:** leg A exit ESTABLISHED on 11/2 ($89.2472); SELL rec written for 11/5, Will's hand. Check broker truth and CME settle before anything else; the 11/18 review follows the sale.
+0d. **Open with Will:** session-start crack grade while leg A is live; no answer at closeout, do not build it without his word. "Nothing fired" is a claim about each gate's last grade date, so read those dates before saying it.
 0c. **OP-SCALE:** grade 11/7 from research/2026-11-07_op-scale/DRAFT_SHRINK_PROPOSAL.md; recount N first, audit R row by row, have RED read it, PROME registers the WQ row.
 0. **November 4 pickup:** WQ-592 needs BOND's QRA read by the 11/5 close or the TLT card lapses 11/6; UNG window ends 11/12 and needs an AEOLUS log; HYG REG-T-04 is >350 ×3, not NEXUS 339 or LIQUID 320.
 0a. **November 2 pickup:** RSP reprice committed bb7f86b9b / 04d5c5c70; Git blocker resolved; next decision needs a red day, current broker complex quote <= $4.90, fresh Will card approval and explicit X1 choice. UNG approval/refresh recorded; fresh positive GFS sample available, AEOLUS canonical log pending; existing GATE-TERRY-UNG-01 / 11/12 deadline governs. ORCL basis resolved by L904; no unresolved basis ask remains. VST stays SHELVED. Other carried work is unchanged and was not performed in this bounded task: HYG 10/30 FRED cell / void 4 of 5; MIDAS GLD tonnes; HENRY L888 map read November 2, negative all three with lower flips; next broker capture for the QQQ order; OP-SCALE 11/7; KRE/QQQ map 404 unverified. Preserve the owner references and PROME scheduling without held-line expiry prompts.
