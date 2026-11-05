@@ -553,7 +553,7 @@ Management-only lines (construction rule #20); C5 reminders paused by Will 10/20
 | Thesis | BRENT's and HENRY's, not graded here. HEN-46 ended no-verdict 10/22, so the $90.16 line had no live thesis at the fire. CME was never read; one feed lineage. |
 | Timing | Entry fine by its gate. The first eligible exit session closed $387.65 (11/3); the sale was $20.98 lower. |
 | Structure | Right. Common shares carried no decay through a 7-week hold, and the card said so. |
-| Exit rule | Worked as written. **The miss is the desk's:** the fire sat 2 days because TERRY had no touch from 11/2 10:34 to 11/4 20:23, and WALTER found it. |
+| Exit rule | Worked as written. **The miss is the desk's line:** the fire sat 2 days, with no TERRY commit from 11/2 ~10:35 to 11/4 20:23, a stretch when Claude usage had run out, and WALTER's evening boot found it. A commit gap is not proof of what ran. |
 | Harvest | **Missing, and that is construction.** Neither card has a P/L-keyed harvest, though finding 9 and `NO_HARVEST_RULE` were in force when both were written. The share went from +$47.78 to −$45.33, a $93.11 round trip, with no rail that could fire in profit. |
 | Sizing | $412.00 inside the $500 cap. SCALE stood the other 2 down. |
 
