@@ -121,3 +121,27 @@ Web: https://finviz.com/news/400834/apollo-commercial-real-estate-finance-inc-de
 **Still to report:** RC after the close Thu 11/5, call 11/6 8:30 ET (company release via Finviz repost, SECONDARY) · STWD + ACRE Fri 11/6 · ARI never (last NYSE day 11/6).
 
 **Outside the cohort (`KB-CREED-097`, counted nowhere in T-08b):** ABR suspended its dividend 10/30; CMTG and ACR detail in that row.
+
+## Pre-grade note: how leg 2 could be read, written 2026-11-05 13:35 ET, before RC, STWD and ACRE
+
+**Proposal only, for Will. No term, band or state cell changed.** The frozen letter is "realized book erosion ACROSS the cohort"; no number or window is in it. Written after seeing 7 of the 10 names that will report, so it is not a clean advance definition.
+
+Write-offs as a percent of opening total equity, XBRL `StockholdersEquity` and allowance roll-forward lines (10-Qs and 10-Ks, PRIMARY-READ via SEC companyfacts, 2026-11-05); KREF 2026 quarters use its reported "Realized loss on loan write-offs" line (8-K EX-99.1, acc 0001628280-26-067907). DERIVED.
+
+| Name | Q2 2026 | Q3 2026 | Four quarters to 6/30/26 | Four quarters to 9/30/26 |
+|---|---|---|---|---|
+| KREF | 3.9 | 16.7 | 5.7 | 17.3 |
+| GPMT | 5.5 | 5.3 | 8.5 | 9.5 |
+| BXMT | 0.8 | 0.2 | 15.0 | 14.2 |
+| BRSP | 0.1 | 0.9 | 7.7 | 6.7 |
+| RC | 1.0 | not reported | 13.6 | 5.5 before Q3 |
+| TRTX | 0.0 | 1.2 | 0.0 | 1.2 |
+| LADR | 0.0 | 0.2 | 0.3 | 0.6 |
+
+NREF: no write-off disclosed, no tagged line. STWD, ACRE: no tagged 2026 line found; read their filings.
+
+**Bases.** Total equity includes preferred, so these run below the common-book figures in KB-096 (KREF 26.4, GPMT 9.2). On common book, KREF Q2 is about 5.7 ($0.68 on about $11.87, DERIVED), which makes Q2 two names, not one. RC's write-offs are not CRE only. KREF's allowance line shows Q3 $105.9M against the reported $155.9M, and the two are not reconciled, so the reported realized-loss line governs where a company gives one.
+
+**The window decides the outcome.** Same quarter: Q3 2 of 10 so far, Q2 2 names, consistent with the 9/26 NOT FIRED grade. Four quarters: 5 of 10 already over 5% at 9/30, and the same 5 at 6/30, so at a one-half line that window would have fired at the 9/26 grade.
+
+**CREED's proposal:** count a name when write-offs realized in the quarter reach 5% of opening common book, reported line first; reserves, unrealized and held-for-sale marks, return of capital and buybacks do not count; leg 2 is met at 5 of the 10 reporting names in the same quarter. Show BVPS erosion over 3% and the four-quarter count beside the grade, ungraded. Against: write-offs are lumpy, so this is a high bar that might miss a slow spread.
