@@ -33,4 +33,4 @@ This changes no existing row, gate, band, level, card, thesis score or trade. No
 
 ## Current record
 
-Fleet figures live in the monthly report, not here: [](2026-11-05_forecast-report-1.md). The hand count first printed in this brief is superseded.
+Fleet figures live in the monthly report, not here: [forecast report 1](2026-11-05_forecast-report-1.md). The hand count first printed in this brief is superseded.
