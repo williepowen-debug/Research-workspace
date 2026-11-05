@@ -1,9 +1,9 @@
 # VIOLET — NEXUS Brief
 
-**Status:** 🔴 LIVE 11/05, TICK, not closes: VIX 24.46 (+47% from 16.61 [11/04]), high 28.09; VIX3M/VIX 0.9685, inverted; VVIX 119.21, high 128.95. RISING_VOL on TICK. No registered line has fired: all grade on the close. ⚠️ Credit not confirming: HY 332bp [11/04] tighter and before today, HYG −0.41% at 12:35 ET.
+**Status:** 🔴 LAST READ 11/05, TICK, not closes: VIX 26.60 (+60% from 16.61 [11/04]), high 28.09; VIX3M/VIX 0.935, inverted; VVIX 123.87, high 132.11. RISING_VOL on TICK. ⚠️ VIOLET closed out at 14:0x ET on Will's word before the bell, so the 11/05 close is UNGRADED and no registered line has been graded. Credit not confirming: HY 332bp [11/04] tighter and before today, HYG −0.46% at 14:00 ET.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
-**Thesis version:** v4.1.7; Will's WQ-611 A encoded. No live gate moved.
-**As of:** 2026-11-05 12:42 ET | **STATUS commit:** `ebc5193c1`.
+**Thesis version:** v4.1.8; WQ-611 A and WQ-614 A encoded. No live gate moved.
+**As of:** 2026-11-05 14:02 ET | **STATUS commit:** `14ed6630f`.
 Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED VIXCLS agrees. Canonical numbers: [STATUS](STATUS.md). **Convergence 32/50, re-scored on closes and unchanged** (KB-VIO-369).
 
 ## CROSS-DOMAIN
