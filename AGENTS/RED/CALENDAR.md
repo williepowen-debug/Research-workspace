@@ -28,7 +28,7 @@
 | 🟡 by Mon 11/9 | CHG-054 re-review | OZK 10-Q (FDIC filer) and Chicago refi primary | WAL read: $99M absent, owner NO-VERDICT |
 | 🔴 **Tue 11/10 08:30 (BLS-verified)** | Oct CPI: **FT-08 exit test** + CHG-028 final | **Tree pre-written** → `research/2026-11-10_OCT_CPI_DECISION_TREE.md`. Exit only on Oct core ≤0.0 (P≈5%). **CHG-028 closes on any verdict**, no re-anchor | REALIZED already foreclosed; Wed 11/11 Veterans Day ICE bar is a non-session |
 | 🟠 **~11/15, DATE UNVERIFIED** (Sunday placeholder; NY Fed release may land any day) | Nov HHDC: CARL kill rule (CHG-045) · CHG-049 | grade as written, on the actual release | — |
-| 🟡 by Mon 11/16 | BRK-26: BROCK grades on RED's two primary facts | none unless BROCK contests | — |
+| ✅ **by Mon 11/16 — RESOLVED 11/05:** BRK-26, BROCK graded early: SQN does not resolve, row OPEN 55% to 12/31 (KB-BRK-429) | none | fund-level reading; RED's Test 2 falls away for future candidates |
 | 🟡 ~11/25 | RED-FT-10 outcome grade | grade at horizon | condition met at obs 14 on a tech and gamma trigger (ML-311) |
 | 🟡 Thu 11/26 | Cboe holiday-bar defect (L342) | bridge holiday observations in any sustain count | VIOLET owns the archive |
 | 🟡 **Fri 11/27** | VX-RED-006 Zweig thrust 12-month grade | SPY close > 683.39 = CORRECT (retire); ≤ = WRONG | tracking +12.6% [10/14]; breadth has narrowed since August |

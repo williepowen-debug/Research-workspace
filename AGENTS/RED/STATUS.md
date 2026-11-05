@@ -100,7 +100,7 @@
 ## TOP ADVERSARIAL PRIORITIES (live queue = `SCRATCH.md` § NEXT SESSION; dated headline only, 2026-11-04 20:47 ET)
 
 1. 🟠 **Thu 11/5 DONE:** FT-06 broke to 0 of 5 · HY 332 and CCC 1,297 [11/04] · claims 189K · SKEW 150.90 · FALCON grade logged · OP-SCALE read delivered.
-2. 🟡 **11/05–11/09:** OZK and WAL 10-Qs → CHG-054 re-review 11/09 (OZK Chicago refi primary unread, SIG-W-20261027-041). **Fri 11/6:** jobs → RED-23 resolves, KB-092 re-derive. **By 11/16:** BROCK grades BRK-26 on RED's two primary facts.
+2. 🟡 **11/05–11/09:** OZK and WAL 10-Qs → CHG-054 re-review 11/09 (OZK Chicago refi primary unread, SIG-W-20261027-041). **Fri 11/6:** jobs → RED-23 resolves, KB-092 re-derive. BRK-26 graded early by BROCK 11/05: SQN does not resolve, row OPEN 55% to 12/31 (KB-BRK-429).
 3. 🔴 **11/10 Oct CPI** per `research/2026-11-10_OCT_CPI_DECISION_TREE.md` (FT-08 exit, CHG-028 final), then the discretionary re-derivation · **11/15 HHDC** (CHG-045/049) · **~11/25** FT-10 outcome grade · **12/15** CHG-055 · **12/21** EGBN $56.0M loan (L791) · **12/31** RED-25 · ~1/28 EGBN Q4.
 4. 🟢 **Charter trim RULED A by Will 2026-10-28 21:43 ET ("ok go with A and record it"): leave CLAUDE.md at 27.9 KB (86% of budget).** Revisit at >29,295 B (90%) OR the next substantive charter edit. DAEDALUS Census #2 declined without spending that trigger. KB-081 stays on review_debt axis ② by design.
 

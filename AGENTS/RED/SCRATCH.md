@@ -21,7 +21,7 @@
 2. 🟠 **Before Sat 11/7:** TERRY revises the draft against report version 3; re-read the diff only if TERRY or PROME asks. GATE-OP-SCALE-01 grade is TERRY, PROME and Will's. RED answers contests only.
 3. 🟡 **By 11/9:** CHG-054 re-review: OZK 10-Q (FDIC filer; read OZK's Chicago refi at the primary, SIG-W-20261027-041). KB-065/066 refresh then.
 4. 🔴 **Tue 11/10:** Oct CPI per the pre-written tree, then the discretionary re-derivation off the STATUS ledger, War included. Read War against price and flow separately; "no letter fired" is not D 85 re-earned.
-5. 🟡 **11/6–11/13:** KB review cluster, 15 live Stale_By dates (first KB-091, -101), 25 by 11/30; SCRATCH previously listed two. **11/15** HHDC (CHG-045/049). **11/16** BROCK grades BRK-26. **~11/25** FT-10 outcome grade.
+5. 🟡 **11/6–11/13:** KB review cluster, 15 live Stale_By dates (first KB-091, -101), 25 by 11/30; SCRATCH previously listed two. **11/15** HHDC (CHG-045/049). BRK-26 done 11/05, see addendum S59-c. **~11/25** FT-10 outcome grade.
 
 ## OPEN THREADS
 - **LIVE 11/05:** selloff into banks intraday, credit ETFs calm at 11:48 ET. Read the close. If VIX closes over 20 the live-event override holds this session open; hourly STATUS commits while it runs.
@@ -44,3 +44,6 @@ W7 memory (ML-315 extends `finding_naming_a_caveat_can_substitute_for_fixing_it`
 - Report is **version 4**. A third reader failed version 3's "four cards nobody watches" (only RSP is unassigned), the 7.7% floor and the VLO basis-tie inference (ML-320). PROME recount: N = 4, R = 6. Correction packet to PROME, pointer to TERRY. Review loop stopped; version 4 is unread and says so.
 - Next: read the close from 16:25 ET; FT-06 day 1 only if VIXCLS closes at or over 18; VIX close over 20 holds the session open.
 
+## ADDENDUM S59-c — 2026-11-05 13:44 ET (from `date`)
+- BROCK graded BRK-26 inside the 11/16 line: SQN does not resolve, row OPEN 55%, search to 12/31 (KB-BRK-429, read at artifact). Ground is Test 1 on ¶40. BROCK reads "on PC valuation" at fund level, so RED's Test 2 falls away for the next candidate; no contest, outcome unchanged. Catalyst row resolved, packet processed.
+- VIOLET vol-spike notice logged 12:42 ET; grade FT-06 and FT-10 on official bars only. Close read still the next wake, 16:25 ET.
