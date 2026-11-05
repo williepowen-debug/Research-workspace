@@ -1,5 +1,7 @@
 # November 5 threshold scan
 
+> **Updated 15:10Z:** HY 332 and CCC 1,297 [Nov 4] published, read 15:08Z, card SIG-W-20261105-009. Rows below keep the 14:44Z pull; REG-T-04 is now 18 bp away, outside the watch band. VIX 20.12 at 15:08Z, +3.51; safety line +5 is 21.61.
+
 Runtime Claude Code, model Opus 5.5 (`claude-opus-5-5`), session walter-07, desktop DESKTOP-BC6EF81. Pull 2026-11-05 14:44Z, tape re-pulled 14:48Z and 14:54Z. 48 registered IDs read: RED 12, REGINALD 8, CREED 11, HANS 17. RED scan view hash matches canon (802f096b...). Scope is a bounded pass, not 48 fully graded instruments. Owner letters, operators, sustain calendars and exits govern. Vendor rows are not settlements or closes unless stated. Sources: observations.json, hans-observations.json, tape-1455Z.json, src/.
 
 | IDs | Observation / result |

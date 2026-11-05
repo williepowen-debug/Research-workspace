@@ -4,15 +4,15 @@ Updated 2026-11-05T15:00:02Z, Claude Code Opus 5.5, session walter-07 on the des
 
 ## NOVEMBER 5 CATCH-UP — desktop state
 
-Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 008, 27 handoffs (11 ACTION, 16 INFO; delivery_log count). Commits ee7cc2297, 725479117, 838cce505, 1d6de8f69; published by safe-push on a verified-clean tree under §3.4, HEAD 1d6de8f69 confirmed on origin. Publication is not consumption.
+Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 014 (handoff count in delivery_log). Commits ee7cc2297, 725479117, 838cce505, 1d6de8f69; published by safe-push on a verified-clean tree under §3.4, HEAD 1d6de8f69 confirmed on origin. Publication is not consumption.
 
-1. **X login:** token refresh failed on the desktop, rc=1, nothing marked. Will re-authorizes with `x_bookmarks_scan.py --authorize`. Seen-set and stage are safe.
+1. **X login:** Will re-authorized on the desktop 10:06 ET; scan rc=0.
 2. **Bright Data:** key name present in `AGENTS/WALTER/.env`; `bdata` not on PATH here. Only 403 bookmark links are affected.
-3. **FFIEC and SEC:** both restored on the desktop by PROME November 5 (MACHINE_LOCAL rows); FFIEC resume item dropped. SEC used for the DEWEY spot-check.
-4. **15 bookmarks:** still staged, unread beyond headlines, unmarked; no local copy of the text exists. Blocked on item 1. CoreWeave first.
+3. **FFIEC and SEC:** both restored on the desktop by PROME November 5 (MACHINE_LOCAL rows); FFIEC resume item dropped. SEC used for the DEWEY spot-check and the CoreWeave filing check.
+4. **15 bookmarks:** read, dispositioned and marked at research/2026-11-05_bookmarks/REVIEW.md: 8 DISPATCH, 3 FOLD, 3 NO-ACTION, 1 KILL. Bodies still unread: Bloomberg Ueno, Citrini paid section, Nawfal video, Greenville video. Batch BM-20261105-02 closed.
 5. **CRUISE queue:** `cruise:7126564b0db4` closed FOLD to SIG-W-20261014-028: September 23 deal, relay; micebook body unread.
 6. **L334 predictive leg delivered** `research/2026-11-05_L334/REPORT.md`: no relationship detected, no bar. L828: WALTER's list closed long ago, row status is PROME's.
-7. **HY and CCC November 4:** unpublished at last check; one short card to RED when published, carrying the VIXCLS exit-run reset. Batch BM-20261105-01 item 8 stays open for this.
+7. **HY and CCC November 4 read:** 332 / 1,297, card 009; batch BM-20261105-01 closed.
 
 Calendar coverage cutoff: 2026-11-05T15:00:02Z (step 7i run; rows in research/2026-11-05_morning/CALENDAR-RECONCILIATION.tsv; pending rows named there).
 
@@ -51,7 +51,7 @@ December ULSD crack fell below the held-VLO line: TERRY accepted November 2 $89.
 
 ## WILL_NEEDS
 
-Held-VLO one-share sale: FIRED-UNEXECUTED, Will's hand, tell PROME the result. CREED launch permission for T-01a and T-08b reads. X re-authorization on the desktop. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
+Held-VLO one-share sale: FIRED-UNEXECUTED, Will's hand, tell PROME the result. CREED launch permission for T-01a and T-08b reads. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
 
 ## FOLLOW-UP
 

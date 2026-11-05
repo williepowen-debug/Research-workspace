@@ -1,5 +1,9 @@
 # FULL CLOSEOUT — 2026-11-05T13:43:42Z — closed for desktop switch on Will request
 
+## 2026-11-05T15:10:59Z light-closeout — full deferred
+
+Will re-authorized X 10:06 ET. Fifteen bookmarks read, marked, cards 009–014. Batches BM-20261105-01 and -02 closed. Session stays open at PROME's request.
+
 ## 2026-11-05T15:00:02Z light-closeout — full deferred
 
 Claude Code Opus 5.5, session walter-07, desktop. Boot then Will's 09:42 ET catch-up via PROME packet 7dac94dc1. Cards 001–008, L334 predictive leg, CRUISE candidate folded, DEWEY peer check closed. Not a closeout; session stays open at PROME's request. Full deferred.

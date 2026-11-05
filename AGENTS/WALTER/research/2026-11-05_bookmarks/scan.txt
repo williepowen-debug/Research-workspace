@@ -1,0 +1,72 @@
+X-BOOKMARK scan — Will's new bookmarks
+================================================================
+
+Fetched 15 new bookmark ID(s) in this scan segment; see the review/coverage receipt below.
+
+[NEW bookmarks to ROUTE — 15]  source: x-bookmark  (Will-originated — do not kill on Novelty without reading the body)
+
+  1. 2118148507374874639  @BenKizemchuk  2026-11-05T01:08:52.000Z  [DIG: media]
+     │ Big short sale volume in SOXL aligning with prior low https://t.co/I8JxQgsZvQ
+     🖼  photo: https://pbs.twimg.com/media/HWUsn-iX0AAkkJ2.jpg
+
+  2. 2118016700767453361  @business  2026-11-04T16:25:06.000Z  [DIG: link]
+     │ Paraguay’s decision to shut down a digital bank used by nearly a third of its population has left people struggling to figure out how to pay for everything from rent and groceries to bus rides. https://t.co/CYcIWyXVX5
+     🔗 https://www.bloomberg.com/news/articles/2026-11-04/ueno-bank-accounts-vanish-just-before-dawn-in-shock-paraguay-shutdown?taid=6aeb5c628c7f590001b444c2&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter
+
+  3. 2117957799183528340  @BullTheoryio  2026-11-04T12:31:03.000Z  [DIG: media]
+     │ 🚨 ONE BANK FAILURE HAS NOW TURNED INTO A NATIONAL CRISIS IN PARAGUAY.  24 hours ago, the central bank shut down ueno bank, a bank used by 60% of the country's adults.   Now the damage is spreading.  • 13 mutual funds run by 5 different firms have frozen withdrawals because their money was invested in ueno  • Trading in all of ueno's bonds has been suspended  • $380M from the state pension fund is stuck, along with money from the state power company and the Itaipú dam  • 2 out of every 3 card payments at big stores ran through ueno, and Paraguay's main importers' association says retail is now "semi paralyzed"  Customers can only get back up to $1,700 for now, with no date given.  The political fallout is just as big.   The central bank chief, who used to run ueno, has resigned. President Peña cancelled a foreign trip to deal with the crisis, and authorities have ordered the arrest of 8 bank executives.  The anger has now reached the streets and Widespread protests are happening now.   The central bank says this is a one-off.   But in October, Paraguay's 14 private banks had already asked it to report on the solvency of other lenders.
+     🖼  photo: https://pbs.twimg.com/media/HWR_YMPasAAqsmg.jpg
+     🖼  photo: https://pbs.twimg.com/media/HWR_YMRawAAtMMd.jpg
+
+  4. 2118108238163886528  @MarioNawfal  2026-11-04T22:28:51.000Z  [DIG: media]
+     │ 🚨🇵🇾 CHAOS in Paraguay as largest digital bank Ueno COLLAPSES  Central Bank seizes it after solvency ratio crashes and around 3 million customers are LOCKED OUT of app, cards & transfers.  Central Bank President Carlos Carvallo resigned right after pulling the plug. He previously ran the firm that birthed Ueno.   Anti-Corruption forces have ordered the detention of 8 top execs including the founder.  Writer: Bri
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2118108181087834112/img/jkq5SUv5XEJDp_XE.jpg
+
+  5. 2118112949675999562  @carlquintanilla  2026-11-04T22:47:34.000Z  [DIG: link]
+     │ CITRINI:  “.. Given the enormous chasm between revenues and capex, the asymmetric risk is no longer to the upside, but to the downside.”  @citrini   https://t.co/DvhbGRkYV6
+     🔗 https://www.citriniresearch.com/p/state-of-the-themes-556
+
+  6. 2118079004863610885  @tradfi  2026-11-04T20:32:41.000Z
+     │ *CITRINI OVERHAULS THEMATIC MODEL BOOK, CALLS PEAK IN AI INFRASTRUCTURE CAPEX  *CITRINI SAYS AI INFRASTRUCTURE ASYMMETRIC RISK HAS SHIFTED TO DOWNSIDE  *CITRINI EXPECTS HIGHER COSTS FOR US DATACENTERS AFTER DEMOCRATIC MIDTERM WINS  *CITRINI WARNS MACRO REGIME SHIFTING TOWARD LATE-CYCLE STAGFLATION TILTS
+
+  7. 2118054171362677138  @rdd147  2026-11-04T18:54:00.000Z  [DIG: media]
+     │ Housing market about to crash. Makes sense with FHA delinquency pushing 12%  High was 15% at onset of COVID. https://t.co/Rg63osai7y https://t.co/J835scZDCE
+     🖼  photo: https://pbs.twimg.com/media/HWTXCrWb0AAZEXB.jpg
+
+  8. 2118033441392337395  @SuburbanDrone  2026-11-04T17:31:38.000Z  [DIG: media]
+     │ Right now, investment advisors are telling everyone that stocks always go up after the mid-terms. They forget that in Trump's first term, stocks crashed after the mid-terms and ended down -20% at the end of December 2018.  This will be far worse, far sooner. The Dow is trading inverse to the AI bubble, deja vu of the Y2K crash.
+     🖼  photo: https://pbs.twimg.com/media/HWTCc9vXcAACizz.png
+
+  9. 2118049301385670896  @Barchart  2026-11-04T18:34:39.000Z  [DIG: media]
+     │ Nasdaq 100 $QQQ survives the 200-day moving average test 📈🤑🥳 https://t.co/tBuYMbPNqi
+     🖼  photo: https://pbs.twimg.com/media/HWTSeNyW4AA00Ud.jpg
+
+  10. 2117878462803484792  @great_martis  2026-11-04T07:15:48.000Z  [DIG: media]
+     │ WTI OIL 🛢️   Every time the lower Stoch RSI converged and a bullish harmonic pattern appeared, a significant move in OIL occurred not long after.   The next few trading days will be telling.  cOILing or bOILing? https://t.co/YIbWne69xB https://t.co/sXS0bl8ljm
+     🖼  photo: https://pbs.twimg.com/media/HWQ2V7ia8AAKqBp.jpg
+
+  11. 2118025416174669925  @edzitron  2026-11-04T16:59:44.000Z  [DIG: media]
+     │ CoreWeave bonds mostly over 15%, with its Oct 2031 dated one trading at nearly 16% https://t.co/ilPCde3LUy
+     🖼  photo: https://pbs.twimg.com/media/HWS8LwYX0AAg6o5.jpg
+
+  12. 2107243654503162164  @great_martis  2026-10-05T22:56:52.000Z  [DIG: media]
+     │ Fannie Mae manages over $4.6 trillion in mortgage risk, but its financial safety cushion is thin.  With a total net worth of around $116 billion, its capital cushion represents just 2.5% of its total exposure.   If single-family serious delinquencies rise from the current 0.58% to just 1.5%, its quarterly profits completely vanish.  While structural backstops like private mortgage insurance (PMI) and credit risk transfers (CRTs) protect it from an immediate 2008-style collapse, the institution operates on a razor-thin margin.   A relatively minor macroeconomic shift is all it takes to trigger a major corporate income crisis.  If a rise in delinquencies to 1.5% is considered a nightmare scenario, you can only imagine what a 5% rate would look like.  The major breach of its Head and Shoulders neckline is highly concerning and likely a Dire warning.🚨  Freddie Mac is walking the exact same dire path..but that is a story for another day.
+     🖼  photo: https://pbs.twimg.com/media/HT5s2W7acAAHV0H.jpg
+
+  13. 2117999683067162677  @great_martis  2026-11-04T15:17:29.000Z  [DIG: media]
+     │ Anyone paying attention to this nightmare? https://t.co/wdTXiznjsn https://t.co/I8pGwE47YF
+     🖼  photo: https://pbs.twimg.com/media/HWSlfAobEAAHKVR.jpg
+
+  14. 2118054715619766712  @rdd147  2026-11-04T18:56:10.000Z
+     │ $CRWV no longer has access to bond markets or sufficient equity to meet 2027 obligations. Bankrupt.
+
+  15. 2118037565752443220  @heatedreports  2026-11-04T17:48:01.000Z  [DIG: media]
+     │ 🚨#BREAKING: A shelter in place orders has been issued following a chemical plant explosion    📌#Greenville | #Mississippi   At this time, a shelter-in-place order is in effect in Greenville, Mississippi, following a major fire and explosion at a chemical plant that sent thick, black smoke billowing into the air. Officials have confirmed that herbicide chemicals were stored inside the facility, raising concerns about potentially hazardous smoke and chemical exposure. The cause of the explosion remains unknown as emergency crews respond to the scene. Authorities are urging nearby residents to remain indoors, keep windows and doors closed, and avoid the affected area until further notice.
+     🖼  video: https://pbs.twimg.com/amplify_video_thumb/2118037474265948160/img/vyJwonzRFOD9sJ0r.jpg
+
+
+Bookmark receipt — 2026-11-05T15:07:08Z
+Fetched 15 item(s); review is not yet recorded.
+Returned traversal complete through its recorded head check; this is not owner consumption or a remote snapshot guarantee.
+Latest head check: 2026-11-05T15:07:08Z
+After routing: create --review-template <new-file.json>, fill read states/dispositions, then --mark --review <file.json>.

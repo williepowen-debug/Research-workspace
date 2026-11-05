@@ -1,8 +1,8 @@
 event_key	calendar_source	owner	publication_state	source_vintage	walter_disposition	owner_grade_state	evidence_path	next_action
 treasury-refunding-2026-11-04	PROME/DOCKET L859; LIQUID CATALYSTS	BOND	published	WSJ and TradingView headlines; Treasury statement unread by WALTER	owner reviewed/routing reconciliation owed; no BOARD card, owner graded	BOND d95da250f and STATUS 11/05	AGENTS/BOND/STATUS.md	none; manifest item NOTE
-hy-oas-2026-11-04	RED registry T+1	LIQUID/RED	unpublished at 14:54Z	FRED BAMLH0A0HYM2	pending	none	research/2026-11-05_morning/THRESHOLD-SCAN.md	re-pull; card only if a state changes
-ccc-oas-2026-11-04	RED registry T+1	LIQUID/RED	unpublished at 14:54Z	FRED BAMLH0A3HYC	pending	none	research/2026-11-05_morning/THRESHOLD-SCAN.md	re-pull
-vixcls-2026-11-04	RED registry T+1	RED	published	FRED VIXCLS 16.61	reviewed/routed pending card with HY	RED owes the FT-06 grade	research/2026-11-05_morning/THRESHOLD-SCAN.md	send with HY print
+hy-oas-2026-11-04	RED registry T+1	LIQUID/RED	published, read 15:08Z	FRED BAMLH0A0HYM2 332	reviewed/routed SIG-W-20261105-009	no state change	BOARD/SIG-W-20261105-009-HY-332-CCC-1297-November-4-VIXCLS-resets-FT-06-exit-run.md	none
+ccc-oas-2026-11-04	RED registry T+1	LIQUID/RED	published, read 15:08Z	FRED BAMLH0A3HYC 1297	reviewed/routed SIG-W-20261105-009	no state change	BOARD/SIG-W-20261105-009-HY-332-CCC-1297-November-4-VIXCLS-resets-FT-06-exit-run.md	none
+vixcls-2026-11-04	RED registry T+1	RED	published	FRED VIXCLS 16.61	reviewed/routed SIG-W-20261105-009	RED owes the FT-06 grade	research/2026-11-05_morning/THRESHOLD-SCAN.md	RED next session
 skew-2026-11-04	RED registry	RED/VIOLET	published	Cboe CSV 150.90	reviewed/no route (fired state unchanged)	VIOLET official closes through 11/04	research/2026-11-05_morning/THRESHOLD-SCAN.md	none
 cf-q3-2026-11-04	PROME/DOCKET L578	FERT	published	8-K exhibit excerpt via search	reviewed/routed SIG-W-20261105-004	not graded; FERT wake owed	BOARD/SIG-W-20261105-004-CF-Q3-earnings-nitrogen-tight-owner-wake-due.md	PROME wake
 challenger-october	PROME/DOCKET L766; LABOR card	LABOR	published	challengergray.com primary, 11/05	reviewed/routed SIG-W-20261105-002	not graded; frozen card pending	BOARD/SIG-W-20261105-002-October-job-cuts-three-year-low-claims-189K-productivity-3.6.md	LABOR wake
