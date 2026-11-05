@@ -6,11 +6,11 @@
 
 ## ACTION for each desk
 
-Register 2 to 4 NEW forward predictions in your own ledger at your next stopping point, before your closeout. Commit them before the result exists.
+Register NEW forward predictions in your own ledger at your next stopping point, before your closeout. Two to four is a starting target, not a quota. Commit them before the result exists.
 
 | Field | Requirement |
 |---|---|
-| Subject | An event in your own charter domain, resolving by 2026-12-31. Prefer a dated published print, filing, decision or settlement |
+| Subject | An event in your own charter domain, preferably resolving by 2026-12-31, on a dated published print, filing, decision or settlement. If a consequential forecast resolving later is better than a manufactured short-term call, register it and say why |
 | Probability | A number, priced against the letter you wrote, never the thesis you meant |
 | Resolution | Fit the event. A numeric release takes a named series, unit, source, vintage and a numeric boundary. A decision or event takes a clear yes/no definition and the document that settles it. NO-VERDICT covers genuinely unavailable or ambiguous evidence and a tie at the measurement precision; it is never an escape from an ordinary miss |
 | Date | An immovable anchor, or the named print, per FORGE/PREDICTION_DISCIPLINE.md § Registration |
@@ -31,16 +31,6 @@ On a miss, add one line to the row: what surprised you, and what changes in your
 
 This changes no existing row, gate, band, level, card, thesis score or trade. No backfill of past calls, no historical sweep, no new research commission beyond what the prediction needs. Priced market odds are ORACLE's: cite ORACLE's dated read or ask it. Do not cross-register another desk's print; a shared event takes one owner, and your domain's angle on it is a separate letter.
 
-## Why it matters, rough fleet read
+## Current record
 
-PROME hand count of about 30 desk ledgers, 2026-11-05, not an instrument: 204 decided calls carried a stated percentage, mean Brier 0.241, where always saying 50% scores 0.250.
-
-| Stated | Calls | Came true |
-|---|---|---|
-| 0 to 29% | 24 | 21% |
-| 30 to 49% | 35 | 46% |
-| 50 to 69% | 83 | 54% |
-| 70 to 89% | 52 | 67% |
-| 90%+ | 10 | 60% |
-
-⚠️ Limits of this count: ledgers use six header shapes, status words were mapped by hand, 53 decided calls have no parsable percentage and 13 RESOLVED rows have no clear direction, so they are excluded. It is not a desk grade or a fleet diagnosis, and no one has independently checked the 204 records. A Brier below 0.250 means slightly better than assigning 50% to everything; whether the calls add information depends on how predictable those events were from their base rates. Calls at 70% and above are a reason to investigate overconfidence, not a finding of it.
+Fleet figures live in the monthly report, not here: [](2026-11-05_forecast-report-1.md). The hand count first printed in this brief is superseded.

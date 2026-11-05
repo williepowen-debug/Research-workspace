@@ -188,12 +188,17 @@ def render(rows, defects):
             d.append(h * (1 - h) - sum((r["p"] - (r["bucket"] == "HIT")) ** 2 for r in bs) / len(bs))
         d.sort()
         P.append(f"**Gain over the hit-rate baseline:** {ref-br:+.3f}, bootstrap 95% range {d[50]:+.3f} to {d[1949]:+.3f}, treating calls as independent, which overstates certainty because many calls share one root.")
-        P.append("\n| Stated | Calls | Came true | 95% interval |\n|---|---:|---:|---|")
+        P.append("Scored on the latest pre-outcome probability (WQ-112), which measures the final forecast; it may differ from the original early judgment, which stays preserved in each row.")
+        mids = [r for r in sc if re.match(r"\s*\d{1,3}\s*-\s*\d{1,3}\s*(?:%|pct)", r["conf"])]
+        own = [r for r in sc if r["basis"] == "owner-convention"]
+        P.append(f"**Disclosures:** {len(mids)} probability range(s) converted to a midpoint ({', '.join(r['id'] for r in mids) or 'none'}); {len(own)} scored rows take the event outcome from a later owner clarification, not from an independently verified outcome.")
+        P.append("\n| Stated | Calls | Mean stated | Came true | 95% interval |\n|---|---:|---:|---:|---|")
         for lo, hi, lab in ((0, .3, "Under 30%"), (.3, .5, "30–49%"), (.5, .7, "50–69%"), (.7, .9, "70–89%"), (.9, 1.01, "90%+")):
             s = [r for r in sc if lo <= r["p"] < hi]
             y = sum(r["bucket"] == "HIT" for r in s)
             a, b = wilson(y, len(s))
-            P.append(f"| {lab} | {len(s)} | {(y/len(s) if s else 0):.0%} | {a:.0%} to {b:.0%} |")
+            ms = sum(r["p"] for r in s) / len(s) if s else 0
+            P.append(f"| {lab} | {len(s)} | {ms:.0%} | {(y/len(s) if s else 0):.0%} | {a:.0%} to {b:.0%} |")
     P.append("\n## Desk counts, alphabetical. Counts only, no desk score, no ranking\n")
     P.append("| Desk | Rows | Open | Decided | With a % | No-verdict | Annulled | Partial | Untyped or unmapped |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|")
     for d in sorted({r["desk"] for r in rows}):
