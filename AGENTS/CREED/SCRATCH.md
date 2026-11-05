@@ -1,6 +1,6 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-11-05 (Thu) 10:24 ET, mid-session (launched by Will through PROME 10:06 ET; **not closed out, wait for PROME or Will**). **Record: `catchups/2026-11-05.md`.** In one line: `T-01a` FIRED · S8a +0.84 · census 7 of 11 · inbox drained · KB 101 · cases 182. **Will ruled 10:32 ET ("Yes go with your recs"): S1 3 → 4, 28/45; `PRED-001` graded; S8a held at 4.**
+**Rewritten:** 2026-11-05 (Thu) 16:33 ET, at closeout on Will's word (16:32 ET). **Record: `catchups/2026-11-05.md`.** In one line: `T-01a` FIRED · S1 = 4, 28/45 · `T-08b` leg 2 term ruled, census 7 of 11, **grade owed** · `PRED-011..014` open · combination watch live · KB 108 · cases 184.
 *PRIOR (10/30): `catchups/2026-10-30.md`.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
@@ -12,7 +12,7 @@
 Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` (edited 11/05 under Will's ruling) · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/05). 001, 004, 007 are graded on this ledger; their Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
-1. **RC Q3 after the close today, STWD + ACRE 11/6 → full `T-08b` grade.** Add to `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md`; grade leg 2 on the term Will ruled 15:35 ET (WQ-620 A; `registry/THRESHOLDS.tsv` band_status): realized write-offs ≥5% of opening common book, reported line first, 5 of the 10 reporting names, same quarter; so far 2 of 7, needs all of RC, STWD, ACRE. Show BVPS >3% and the four-quarter count beside it, ungraded; put the four-quarter table on the opening-book basis or name the basis.
+1. **⛔ OWED, NOT DONE, session closed before the prints: RC Q3 (after the close 11/5; no Item 2.02 8-K seen at the last poll before 16:32 ET), STWD + ACRE 11/6 → full `T-08b` grade.** The EDGAR watcher was stopped at closeout and its script was in the session scratchpad: poll `data.sec.gov/submissions` for form 8-K, item 2.02, RC CIK 1527590, STWD 1465128, ACRE 1529377. On each print grade `PRED-011` (RC) and `PRED-012` (ACRE) in BOTH ledgers. Then add to census, KB, VX-10.04, THRESHOLDS state, THESIS, STATUS, COVERAGE. ARI never reports. Add to `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md`; grade leg 2 on the term Will ruled 15:35 ET (WQ-620 A; `registry/THRESHOLDS.tsv` band_status): realized write-offs ≥5% of opening common book, reported line first, 5 of the 10 reporting names, same quarter; so far 2 of 7, needs all of RC, STWD, ACRE. Show BVPS >3% and the four-quarter count beside it, ungraded; put the four-quarter table on the opening-book basis or name the basis.
 2. ✅ **Ruled 11/05 and encoded:** S1 = 4, `PRED-001` graded, S8a held. PROME registers the WQ rows.
 3. **Trepp October SS (~mid-Nov)** + payoff rate: `T-01b`, F2. Both needed for F2.
 4. Illinois Center sheriff sale 11/12 (CASE-153) · L723 deed ~11/27 · L183 11/30 (2b confirmed NOT reversed) · FDIC Q3 QBP ~11/25 (`T-03`, L514).
@@ -21,13 +21,13 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 7. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 7.02, 9.01, 10.02 · Moxy result · Plaza price · CREFC monthlies.
 
 ## ⚖️ AWAITING WILL
-S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), VX no (WQ-613). Nothing pending.
+S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), VX no (WQ-613). `T-08b` leg 2 term ruled (WQ-620 A); PROME encode check dated 11/6. WQ-622 (fleet-wide small-items rule) is PROME's row; CREED already adopted on Will's word. **Nothing pending from CREED.**
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."* ⚠️ **Relays:** a relayed "Approved" on a Will-gated surface still needs Will's own answer.
 
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 28/45; broad CRE-to-bank transmission is not confirmed.**
-- **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.85 [Sep] · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +0.84 [11/04] · `T-08b` not re-graded (7 of 11).
-- **Counts:** VX 34 · KB **105** · PRED 15 (6 open) · registry 11 · **cases 184** · evals v2 4/4.
+- **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.85 [Sep] · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +0.84 [11/04] · `T-08b` not re-graded (7 of 11; leg 2 2 of 7, a fire needs all of RC, STWD, ACRE).
+- **Counts:** VX 34 · KB **108** · PRED 15 (6 open) · registry 11 · **cases 184** · evals v2 4/4.
 - **Trepp PDFs moved:** earlier months are now also under `AGENTS/WALTER/archive/**`. October is at the public hubfs URL, not archived.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
@@ -87,7 +87,7 @@ S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), V
 *Closed 10/30: DAEDALUS profile-refresh items 1–7, 9–12 (record `catchups/2026-10-30.md` §③).* *Closed 10/28: #25, #27, #7 (see `catchups/2026-10-28.md`).*
 
 ## 📬 MAIL STATE (11/05; canonical record `board_log.tsv`)
-- **In:** 11/11 dispositioned and filed. Re-list before closeout (step 6b).
-- **Out (11/05):** REGINALD · LIQUID · HOMER · CORAL · DAEDALUS · PROME `PROME/inbox/2026-11-05_from-CREED_launch-delivery.md`, doorbell prome-98.
+- **In:** inbox empty at closeout, last card SIG-W-20261105-060 logged.
+- **Out (11/05):** REGINALD · LIQUID · HOMER · CORAL · DAEDALUS · PROME `PROME/inbox/2026-11-05_from-CREED_launch-delivery.md` and `..._prediction-registration.md`, doorbell prome-98. PROME has e6c4c9150 (WQ-620) to verify.
 
-## 🔵 OWED OUT — T-08b final grade after 11/6.
+## 🔵 OWED OUT — T-08b final grade after 11/6, then route per the Route Matrix only if it fires. A launch is needed; CREED does not self-start.
