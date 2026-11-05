@@ -9,7 +9,7 @@ Coverage limit: this is a screen of about 26 of roughly 190 results; other Novem
 | 030 Arkéa | Google Alert snippet | AFP via France 24 |
 | 031 SLOOS | CRE Daily | Fed page, summary only |
 | 032 BCRED | CRE Daily | SEC SC TO-I/A, SC TO-I, 8-K |
-| 033 SASB, Colonnade | Trepp email | Email only; trepp.com refused |
+| 033 SASB, Colonnade | Trepp email | Email only; WALTER's tool refuses trepp.com; first attempt used a mistyped URL, see card 041; CREED read the page |
 | 034 data centers, Apple | DealBook, Bloomberg | Newsletter text only |
 | 035 windfall tax | Bloomberg | One sentence only |
 | 036 Amendment 3 | Tropic Press | State estimate by search summary |

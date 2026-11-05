@@ -19,7 +19,12 @@ entities: ["Trepp", "SASB", "CXP-2022-CXP1", "Colonnade", "Lincoln-Property", "C
 word_count: 163
 dispatch_note: "Figures from Trepp's email, not its article. CREED is live but launch and session scope are Will's; delivered by inbox only."
 case: ["Colonnade office complex, Addison TX"]
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-05
+status_ref: "SIG-W-20261105-041 \u2014 Class A in 24 of 77 deals; five is the top six only; article URL corrected"
 ---
+
+> **Correction, November 5 — SIG-W-20261105-041:** Class A shortfalls: 24 of 77 deals; "five" is the top six only. The Sources URL below is wrong; correct page ends "-is-a-ghost". Original text preserved below.
 # Trepp: 77 SASB deals carry $1.11B of interest shortfalls, reaching Class A in five; Colonnade in Addison sold out of receivership
 
 Trepp CRE Rundown email, November 5, full email read; linked research page refused retrieval, so deal names beyond CXP are unread.
