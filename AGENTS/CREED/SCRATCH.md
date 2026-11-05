@@ -16,11 +16,11 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 2. ✅ **Ruled 11/05 and encoded:** S1 = 4, `PRED-001` graded, S8a held. PROME registers the WQ rows.
 3. **Trepp October SS (~mid-Nov)** + payoff rate: `T-01b`, F2. Both needed for F2.
 4. Illinois Center sheriff sale 11/12 (CASE-153) · L723 deed ~11/27 · L183 11/30 (2b confirmed NOT reversed) · FDIC Q3 QBP ~11/25 (`T-03`, L514).
-5. ✅ **ABS-EE office lease screen built 11/05 on Will's "yes"** (run 1 `research/2026-11-05_ABS-EE_OFFICE_LEASE_SCREEN_RUN1.md`, `KB-102..104`). Will's open choices: a VX vector (CREED recommends no) and a prospective cohort test (not registered). Next refresh with the 3/31 or 6/30 lease reviews, not monthly. Cache was in the session scratchpad; rebuild with `fetch`.
+5. ✅ **ABS-EE office lease screen built 11/05 on Will's "yes"** (run 1 `research/2026-11-05_ABS-EE_OFFICE_LEASE_SCREEN_RUN1.md`, `KB-102..104`). VX vector: no, WQ-613 (PROME, class C3, 11/05). Prospective cohort test: unregistered unless Will asks. Next refresh with the 3/31 or 6/30 lease reviews, not monthly. Cache was in the session scratchpad; rebuild with `fetch`.
 6. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 7.02, 9.01, 10.02 · Moxy result · Plaza price · CREFC monthlies.
 
 ## ⚖️ AWAITING WILL
-S1 + `PRED-001` ruled 11/05. ABS-EE started on Will's yes. Open: VX vector (no, for now) · prospective cohort test (Will's call).
+S1 + `PRED-001` ruled 11/05. ABS-EE built on Will's yes; VX stays no (WQ-613). Nothing pending.
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."* ⚠️ **Relays:** a relayed "Approved" on a Will-gated surface still needs Will's own answer.
 
 ## 🟡 STATE AT HANDOFF
