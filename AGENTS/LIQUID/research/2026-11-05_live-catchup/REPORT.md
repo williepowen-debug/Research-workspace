@@ -227,3 +227,7 @@ September 25 ordered rule, applied to a November 5 print. 15-session base is Oct
 | BROADENS, daily clause | B or CCC wider and IG +2, BBB +2 or BB +9 on the day |
 
 **⚠️ Unless REVERSES repeats, or IG and BBB both tighten at least 2 bp, the rule prints BROADENS on the 15-session clause, even on a flat day.** That clause does not require B or CCC wider. So a November 5 BROADENS alone carries little news. The information is in the day's changes: the daily clause separates new spreading up the quality ladder from arithmetic left over from October.
+
+### 14.6 Wider funding-stress sweep, 14:15 ET, one-off, no new monitor
+
+Bill auctions November 5 (TreasuryDirect, closed 11:30 ET): 4-week 2.46x, $115B offered, high rate 3.890%, against 3.10 / 2.82 / 2.56 / 2.40 prior four; 8-week 2.68x, against 2.63 / 2.57 / 2.26 / 2.77. Tape 14:14 ET, not closes, against November 4: ^TNX 4.829 from 4.894, ^FVX 4.601 from 4.689, ^IRX 3.987 from 4.025, gold 4,110.9 from 4,073.0, DXY 101.48 from 101.51, USD/JPY 157.79 from 158.47, MOVE 99.88 from 93.88, PFF −1.95%, PGX −1.15%, AT1.L −0.12% (London session, check close time). Fed dollar swap lines: latest row returned October 28, ECB $164M, BoE $5M, ordinary size; no November 4 row returned. Commercial paper on FRED stale here: nonfinancial 30-day 3.98% [November 3], financial last row October 20. OFR stress index through November 3, before today. Not a dash for cash: Treasuries and gold up, dollar flat. Not reachable: cross-currency basis, swap spreads, prime-brokerage margin, repo haircuts, Treasury bid-ask.
