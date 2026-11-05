@@ -198,7 +198,7 @@ When you discover something relevant to another agent's domain, write a single `
 
 **When to send:** Threshold breaches, state changes, new evidence that crosses domain boundaries. Don't send routine updates — only things that would change another agent's assessment.
 
-**Sending to WILL (the human):** Use `To: WILL` for items that need human decision-making — trade ideas, position changes, threshold breaches requiring action, or time-sensitive approvals. Don't send routine analysis; only things Will needs to see or act on.
+**Sending to WILL (the human):** Use `To: WILL` for items that need human decision-making — position changes, threshold breaches requiring action, or time-sensitive approvals. Trade ideas go to TERRY as a packet in its `inbox/`, never `To: WILL`; Will approves the card TERRY builds. Don't send routine analysis; only things Will needs to see or act on.
 
 ### Receiving Signals (Inbox)
 When spawned for inbox processing: **read `inbox/PROTOCOL.md` first and follow it exactly.** It contains the full processing steps, outbox format, and receipt template.

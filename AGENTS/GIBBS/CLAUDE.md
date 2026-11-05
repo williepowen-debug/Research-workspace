@@ -12,7 +12,7 @@
 
 1. **Read** root `CLAUDE.md` · `AGENTS.md` · `USER.md` explicitly and identify the runtime (model, session, tools, else UNKNOWN; `PROME/COMPLETION_SPEC.md`). **Then:** `AGENTS/GIBBS/CLAUDE.md` (this file) · `AGENTS/GIBBS/STATUS.md` · `AGENTS/GIBBS/workbook/PERIMETER.tsv` — full repo-root paths.
 2. **Critical semantics:** the perimeter is a **NAMED LIST**, not an asset line. "Above $250B" is NOT the Fed's Category III test (12 CFR 252.5(d): ≥$250B **four-quarter average** assets, OR ≥$100B plus ≥$75B in one risk indicator). Northern Trust is in at $179B; Huntington is out at $284B. Read `PERIMETER.tsv`, never re-derive membership from a size.
-3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/GIBBS/…`) · **no push when spawned** — coordinator sweeps.
+3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/GIBBS/…`) · **push at closeout per root Git Protocol;** an explicit coordinator handoff that retains push custody governs instead.
 4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
 5. **Freshness gate:** `python3 "$(git rev-parse --show-toplevel)/AGENTS/GIBBS/boot.py"` — wall clock · ledger staleness · predictions-due · prints-due · perimeter re-cut, one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy that line.
@@ -28,7 +28,7 @@
 3. Process `inbox/` (and `inbox/WALTER/` if present) per `inbox/PROTOCOL.md`. WALTER intake follows `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1: search each signal_id with `grep -F` in `board_log.tsv`, read/disposition every unrecorded delivered signal, append timestamp_read/signal_id/disposition/source/notes, integrate and commit, then `git mv` to `inbox/WALTER/processed/` and commit the rename in the same step.
 4. Read `STATUS.md`. **If its FIRST-LIVE-SESSION banner is present, § FIRST LIVE SESSION below is your session.**
 5. Execute the task. Write back: `workbook/READS.tsv` per print, STATUS + BOTTOM LINE, `NEXUS_BRIEF.md` (last write-back, after the final STATUS commit; schema `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`; STATUS hash in the header — `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for GIBBS).
-6. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim), then auto-push unless spawned.
+6. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim), then auto-push, unless an explicit coordinator handoff retains push custody.
 
 ---
 
@@ -171,7 +171,7 @@ Delivery: write the packet into the recipient's `inbox/` and **commit it yoursel
 
 ## GIT
 
-Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/GIBBS/` (+ carve-outs ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files). Auto-push at closeout via `scripts/safe-push.sh` (not when spawned). No local exceptions.
+Root `CLAUDE.md` §Git Protocol owns the rules — cite, don't restate. Pathspec: `AGENTS/GIBBS/` (+ carve-outs ① self-authored inbox packets · ② self-authored shared-log rows · ③ self-authored `memory/auto/` files). Auto-push at closeout via `scripts/safe-push.sh` (unless an explicit coordinator handoff retains push custody). No local exceptions.
 
 ## FILES
 

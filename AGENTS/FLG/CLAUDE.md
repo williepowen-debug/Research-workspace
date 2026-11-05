@@ -12,7 +12,7 @@
 
 1. **Read** root `CLAUDE.md` · `AGENTS.md` · `USER.md` explicitly (`PROME/COMPLETION_SPEC.md`; identify the runtime first — model/provider when exposed, session ID, worktree, UNKNOWN if not exposed, WQ-385 — and report unavailable tools). **Then read:** `AGENTS/FLG/CLAUDE.md` (this file) · `AGENTS/FLG/STATUS.md` · `AGENTS/FLG/workbook/TRIGGERS.tsv` — full repo-root paths.
 2. **Critical semantics:** a CRE-concentration ratio is meaningless without its denominator. "CRE 327.5%" is SR 07-1 numerator over **total risk-based capital** — not over assets, not over equity, not over Tier 1. The predecessor instrument carried EGBN at **497% AND 547% simultaneously, both ~2× wrong**, from exactly this ambiguity. Never write or read a concentration ratio without numerator definition + denominator definition + as-of quarter.
-3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/FLG/…`) · **no push when spawned** — coordinator sweeps.
+3. **Git:** cwd-proof ops from repo root · pathspec-only commits (`AGENTS/FLG/…`) · **push at closeout per root Git Protocol;** an explicit coordinator handoff that retains push custody governs instead.
 4. **Deliver before idle, BOTH halves:** files written + committed AND coordinator notified (SendMessage). Never idle "holding."
 5. **Freshness gate:** run `python3 "$(git rev-parse --show-toplevel)/AGENTS/FLG/boot.py"` — ledger staleness + predictions-due + triggers-due in one verdict.
 6. **⏰ WALL CLOCK:** boot.py prints it first. Never hand-write a time or weekday — copy from that line.

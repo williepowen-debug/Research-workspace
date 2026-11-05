@@ -92,7 +92,7 @@ All mail directories (HERMES is retired — there is no delivery layer):
 2. **Cross-reference workbook** — check `workbook/KB.tsv`, `VX_Vectors.md`, `FLOW_Pathways.md` for related vectors, prior research, or transmission mechanics.
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence).
-5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
+5. **Reply direct to the sender's `inbox/`, self-committed (root carve-out ①),** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
 6. **Mark processed** — move signal file to `inbox/processed/`.
 
 ### Outbox Protocol
