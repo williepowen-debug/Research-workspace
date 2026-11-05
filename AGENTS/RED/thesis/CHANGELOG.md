@@ -4,6 +4,16 @@
 
 ---
 
+## S58 — 2026-11-04 20:40 ET (from `date`; Will: "can you get caught up on any owed tasks"; RED dark 10/29–11/04) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. One registered-trigger exit COUNT moved (FT-06 0 of 5 → 3 of 5); no trigger fired or exited.**
+
+- **FT-06:** VIXCLS 19.42 · 21.15 · 20.83 [10/30–11/03] = 3 of 5. Old view: "VIX has not held 18." New view: "it has for three closes, and the vendor 16.61 on 11/04 would break the run if VIXCLS confirms it." No exit, no weight.
+- **FT-10 outcome condition met** at obs 14 (VIXCLS 21.15 [11/02]). Old view (steelman point 4): "the tail bid is insurance until VIX confirms." New view: "VIX confirmed for two closes on a tech and gamma sell-off, so the condition is met but the war and credit tail is not what fired it." Row stays UNRESOLVED to ~11/25. No weight (ML-311).
+- **FT-11:** BOND's precedence ruling encoded, prospective. CHG-055 precedence half closed; the FLOW half stands, re-review 12/15 or the first precondition window.
+- **FT-01 8/05 fire graded WRONG** (KRE −5.3%, 60 obs). Apparatus only.
+- **L739:** PAID stands on the letter; PROME's fleet read makes it uninformative as evidence (ML-310).
+- **RED-25** re-dated 10/31 → 12/31 (test unrun; NO-VERDICT if unrun then).
+- **Weights held deliberately.** The ledger for the next re-derivation is in STATUS: bear (HY 344 high, two VIX closes ≥20, SPX under its 50-DMA, Qeshm strike reports) against bull (vendor 11/04 rally, Brent −8.7% on deal hopes with no deal established, rail, 5y5y 2.22). Next re-derivation stays after the 11/10 CPI or a registered fire.
+
 ## S57-b — 2026-10-28 21:31 ET (from `date`; Will: "go ahead with the self-sweep hygiene items") — **NO WEIGHT MOVED. One counter-signal vector retired; RED's recession number re-stated unchanged.**
 
 - **VX-RED-009 (Auto Fraud Isolation, CARL, WEAK 30/70) → RESOLVED-RETIRED-UNMEASURED.** Old view: "auto fraud is three isolated cases (a weak bull point)." New view: "no one has measured it since 6/02 and the owner declined to at CRL-29; an unmeasured bull point is not a live counter-signal." Retired, NOT graded bear-confirmed. 14 live vectors.

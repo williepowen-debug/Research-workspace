@@ -4,6 +4,13 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S58 — 2026-11-04 20:40 ET (from `date`; Will: "can you get caught up on any owed tasks")
+
+- **Trigger:** owed-task catch-up after RED dark 10/29–11/04; BOND ruling; DAEDALUS Census #2.
+- **What changed:** (1) FT-11 letter gained the PRECEDENCE clause (BOND ruling 10/29) in `instrument_basis` and `instrument_basis_operative`; the v1.1 (D) "disjointness" word annotated in place. Scan view regenerated. No code change: `base_rate_review.py` never evaluates leg (iv). (2) DAEDALUS Census #2: three rows DECLINED, reasons in `CHARTER_PROVENANCE.md` § 3; charter not edited, so Will's 10/28 trim trigger stays unspent. (3) BASIS rehashed after reading all five diffs: `fetch.py` L557 futures-bar safeguards (quote and chart prices must now agree or the session is withheld, which is why BZ=F prints unverified), `corrections_boot_check.py` L875 title marker, `ledger_staleness.py` declared-quiet classification, WALTER spec v0.36 runtime wording, root `CLAUDE.md` WQ-578 and WQ-508 amendments. None changes a RED step. (4) `board_log.tsv` rotated (25 rows, `archive/board_log_pre-2026-10-14.tsv`).
+- **Files:** `registry/FALSIFICATION_TRIGGERS.tsv`, `registry/FALSIFICATION_TRIGGERS_SCAN.tsv`, `registry/basis-hashes.json`, `CHARTER_PROVENANCE.md`, `MAINTENANCE.md`, `board_log.tsv`, `archive/board_log_pre-2026-10-14.tsv`.
+- **Boot-impact:** BZ=F now carries an "unverified" tag at boot; FT-03/04 already treat it as provisional. No step changed.
+
 ## S57-b — 2026-10-28 21:31 ET (from `date`; Will: "go ahead with the self-sweep hygiene items")
 
 - **Trigger:** `reports/2026-10-21_self-sweep.md` items 10–25.

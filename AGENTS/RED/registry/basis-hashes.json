@@ -1,6 +1,6 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-10-28",
+  "declared_on": "2026-11-04",
   "desk": "RED",
   "hashes": {
     "AGENTS/RED/CLAUDE.md": "159047278d0a65fd52b04693a0e5429f14af9ae1348970585ff668b39be3c44b",
@@ -12,11 +12,11 @@
     "AGENTS/RED/scripts/review_debt.py": "577b84a9c9f3a1e775a9ddf1129b4ad02414a08c173d94968497744271c8b72f",
     "AGENTS/RED/scripts/schema_check.py": "1bd7da2a2eee7e7f6ede9bcdcfe86ca13743ded66902cdb4b39098f424bb6a71",
     "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
-    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "5939cc0949a0266de5325d542808afb9524ae7e23ddf6bb293690cf62c6d1c99",
-    "CLAUDE.md": "fd7db0825391fa5c6804e42d76e10deb81a94cc324e2cdc1680ed7feaeb5b778",
-    "FORGE/tools/market-data/fetch.py": "7d4298421a095eb78b190b34f2f89787d3090abc4a89307d6b048c17c9010b0b",
-    "scripts/corrections_boot_check.py": "457c956964742dfb3866fc37b39ce703498ba5fc48037265b392abfed96109c0",
-    "scripts/ledger_staleness.py": "97faf34c8a07c44287fdeaf76b7a7b16d2cab5e79e37804047337854e8410b76"
+    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "31b519e21600ef145130be11d08634026cce9b82ba7e4775b01821f42c70e06c",
+    "CLAUDE.md": "e4d650bdbb58a5136f797fb6f5f2325e41106e8ed51a7324526fc2307229e37b",
+    "FORGE/tools/market-data/fetch.py": "3a16daf3b7f598f4ec61167a25c2fdc9cf3b49e64fdb7021179163458656c1c4",
+    "scripts/corrections_boot_check.py": "0c01347df227938c66ac72b3b5b064a9787f14587f1858aa0fa2e5b83f31bc7f",
+    "scripts/ledger_staleness.py": "bfff9fd5f281e373791bcee230700398a0f4c18fe5cc273d4b12b8ac63f1931e"
   },
   "history": [
     {
@@ -87,6 +87,17 @@
       "note": "S57-b 2026-10-28: RED CLAUDE.md WHAT YOU OWN line repointed LAST_COMPLETION.md -> archive/LAST_COMPLETION_2026-08-17.md (self-sweep item 16, file git mv'd same session). Path only; no rule changes.",
       "moved": [
         "AGENTS/RED/CLAUDE.md"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "note": "S58 2026-11-04: read all five diffs (fetch.py L557 futures-bar safeguards, corrections_boot_check L875, ledger_staleness declared-quiet, WALTER spec v0.36 runtime wording, root CLAUDE.md WQ-578 and WQ-508); no RED step changed",
+      "moved": [
+        "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md",
+        "CLAUDE.md",
+        "FORGE/tools/market-data/fetch.py",
+        "scripts/corrections_boot_check.py",
+        "scripts/ledger_staleness.py"
       ]
     }
   ],

@@ -1,49 +1,41 @@
 # RED SCRATCH — canonical session handoff
-**S57 HANDOFF — written 2026-10-28 21:2x ET (from `date`). Session S57: Will-launched catch-up ("lets get you caught up on any owed tasks"), RED dark 10/23–10/27. First ending of 10/28 (W1–W10). The S56 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
+**S58 HANDOFF — written 2026-11-04 20:49 ET (from `date`). Session S58: boot, then Will 20:40 "can you get caught up on any owed tasks"; RED dark 10/29–11/04. First ending of 11/04 (W1–W10). The S57 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
 
-## CHANGES SINCE (S56 10/22 11:35 → S57 10/28 20:58)
-- HY OAS 340 [10/22, post-fire high] → 318 [10/27]; CCC 1,356 [10/23] → 1,321; DFII10 2.64 [10/27] (2.88 [10/13]); 5y5y 2.19 [10/22] → 2.27 [10/28]; VIXCLS 17.52 [10/27]. SKEW 149.22 [10/27] at Cboe.
-- FOMC 10/28: hold 3.75–4.00, 10–2, both dissents for a hike (SIG-W-20261029-001). ORACLE reads a December hike at ~80%.
-- Banks rallied through prints: EGBN +15.6% close 10/22; KRE 72.58 [10/27]; FLG −9.3% 10/23 on Q3.
-- War: record October attacks (28); Iran targets the Sinokor fleet from 11/1; WSJ reports a post-midterm campaign; WH line "no attack before the midterms" (10/22). FALCON ladder HELD.
-- DAEDALUS applied WQ-508 lines to RED's charter (4da79f1ee). Eight WALTER corrections addressed RED.
+## CHANGES SINCE (S57-c 10/28 21:5x → S58 11/04 20:14)
+- HY 314 [10/28] → 344 [10/30, post-fire high] → 340 [11/03]; CCC 1,316 [11/03]; VIXCLS 16.91 → 21.15 [11/02] → 20.83 [11/03]; SKEW 150.01 [11/03]; 5y5y 2.22 [11/04]; DFII10 2.65 [11/03].
+- 10/29–10/30 tech sell-off: INTC about −31%, SPX through the 7,700 put wall, gamma negative (HENRY). SPX closed under its 50-DMA 10/30–11/04.
+- 11/02 US strikes on Qeshm: Reuters and NBC anonymous officials; AFP reports Trump acknowledging them 11/03. FALCON ungraded (its STATUS is dated 10/30); FAL-07 not fired by WALTER.
+- 11/03 midterms: Democrats reported winning both chambers, not certified. 11/04: Brent settled 94.62 (−8.7%), WTI 88.12 (−8.3%) per CNBC on deal hopes, none established as cause; no deal, reopening or US acceptance (SIG-W-20261104-078). Vendor SPY +1.65%, ^VIX 16.61, KRE 74.13. Sweep: unrecorded November hull losses, Kpler Hormuz crude 7.3 mb/d week to 10/28 and falling (SIG-W-20261104-079). ORACLE: strike-defined ceasefire markets resolved NO 11/03; another US strike 58.5% by 11/30.
+- ECI Q3 soft and flat (LABOR 10/30). FLG, ISHM, NEXUS and BOND inputs in the STATUS input ledger. NEXUS L16 UP is the same credit family as HY.
+- DAEDALUS retained-cleanup changes to root rules; basis read and rehashed.
 
-## WHAT I DID (S57)
-- **Re-derivation (DISCRETIONARY, owed 10/23):** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3 → **HOLD 72 · net-bear 68** (was 69). Report `reports/2026-10-28_S57_weight_rederivation.md`; ML-305.
-- **CHG-055 re-reviewed:** FT-11 windows through 10/20 FLOW; latest FUNDAMENTAL; two windows COLLIDED with v1.1 FLOW-alt (no precedence rule) → ML-304, registry state cell, packet to BOND (answer by 11/13).
-- **Exit clocks:** FT-02 0/3 · FT-06 0/5 (3/5 broken 10/27) · FT-10 0/4, outcome not met. Registry cells restamped; scan view regenerated.
-- **L739 (DOCKET, due 10/29):** gate payoff PAID on the letter, weak evidence (ML-306); packet to PROME.
-- Intake: 8 corrections receipted NO-OP; basis rehashed (4 diffs read); 16/16 inbox packets read and moved to processed/; 38 board_log rows (2 rotations).
-- Packets: BOND (FT-11), TERRY (EGBN outside #18), ISHM (answer: no joint freight/HY set), PROME (L739 + weights).
+## WHAT I DID (S58)
+- **Weights: NONE moved.** HOLD 72 · net-bear 68. Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3.
+- **Exits reconciled to WALTER SIG-W-20261104-042 at FRED and Cboe:** FT-02 0 of 3 · FT-06 3 of 5 · FT-10 0 of 4.
+- **FT-10 outcome condition met at obs 14;** row UNRESOLVED to ~11/25 by rule (ML-311).
+- **FT-01 8/05 fire graded WRONG** (KRE −5.3%, ML-312).
+- **FT-11:** BOND's precedence ruling encoded, prospective (ML-309); CHG-055 precedence half closed, re-review 12/15 or first precondition window.
+- **L739 caveat accepted** (ML-310). **RED-25** re-dated 12/31; NO-VERDICT if unrun.
+- **Intake:** 10 of 10 read and filed, 24 board_log rows, one rotation; 7 corrections receipted NO-OP; basis rehashed after 5 diffs read.
+- **Review debt:** KB-065, -066, -079, -106, -108 refreshed; VX-007 and VX-025 flips graded NOT MET, weights held.
+- **Packets:** BROCK (BRK-26, keep OPEN, two primary facts owed) · DAEDALUS (three DECLINED) · PROME (S58 summary).
 
 ## NEXT SESSION (dated, ordered)
-1. 🟡 **Thu 10/29+:** 10/28 FRED cells (HY, VIXCLS) → FT-02 / FT-06 exit counts; claims 10/29 (FT-05); SKEW 10/28 bar (FT-10 exit).
-2. 🟢 **Sat 10/31:** RED-25 re-review: check whether DEWEY ran the permutation; re-date with reason if unrun.
-3. 🟡 **11/1–11/4:** Sinokor enforcement, midterms (War inputs only; FALCON owns).
-4. 🟡 **11/05–11/09:** 10-Qs → CHG-054 re-review 11/09 (read OZK's Chicago refi at the primary, SIG-W-20261027-041).
-5. 🔴 **11/10 Oct CPI** per the pre-written tree · **11/13** BOND on FT-11 · **11/15** HHDC (CHG-045/049).
-6. 🟡 Self-sweep hygiene items (STATUS priority 4), each on Will's direction.
+1. 🟠 **Thu 11/5:** VIXCLS 11/04 cell → FT-06 exit (3 of 5 or broken; only FRED completes or breaks it) · claims (FT-05) · HY and SKEW cells · FT-11 window check (BOND rule now live).
+2. 🟡 **11/05–11/09:** OZK and WAL 10-Qs → CHG-054 re-review 11/09 (read OZK's Chicago refi at the primary, SIG-W-20261027-041). KB-065/066 refresh then.
+3. 🟠 **Fri 11/6:** jobs → RED-23 resolves (recompute on the resolving vintage; if WRONG, re-litigate the S41 move in that session) · KB-092 re-derive.
+4. 🔴 **Tue 11/10:** Oct CPI per the pre-written tree, then the discretionary re-derivation off the STATUS input ledger. War needs FALCON's Qeshm grade. Do not re-mark on 11/04's vendor tape alone.
+5. 🟡 **11/13:** KB-106, KB-108 Stale_By. **11/15** HHDC (CHG-045/049). **~11/25** FT-10 outcome grade.
 
 ## OPEN THREADS
-- FT-11 collision: the two collided windows stay COLLISION-NO-PRECEDENCE. Whatever BOND rules applies only to the next non-fired window, never retroactively.
-- War +1 rests partly on a single WSJ report; if FALCON grades it unconfirmed, say so at the next re-derivation (do not silently reverse).
-- VX.tsv staleness alert is lit by design (header pinned to VX-009's 6/02 review); review_debt: KB 4 past Stale_By, 3 terminal rows cited live (carried to the hygiene list).
+- War +1 at S57 leaned on the 10/22 no-strike line against the WSJ report; the 11/02 strike reports bear on it. FALCON owns the grade.
+- WL-11 Brent <95 fires on the 94.62 settle; its Hormuz flow leg is BRENT's to grade. Display only.
+- Price and flow disagree: paper oil fell 8.7% while flows and hull reports worsened. Test at the next re-derivation, do not resolve it by inference.
+- BRK-26: BROCK grades after the two primary facts. RED could not reach sec.gov (403 rate block, 11/04), not retried.
+- FT-10 reading: the condition met on a tech and gamma trigger, so do not read the ~11/25 CORRECT as war or credit foresight.
 
 ## PENDING WILL-DECISIONS
-- None from RED. The self-sweep hygiene items wait on Will's direction (STATUS priority 4).
+- None from RED.
 
 ## GIT STATE
-Clean and level with origin at boot (20:59); no pull needed. Packets to BOND/TERRY/ISHM/PROME committed under carve-out ①. S57 commits: see the closeout message.
-
----
-
-## ADDENDUM S57-b — 2026-10-28 21:5x ET (from `date`): self-sweep hygiene pass (Will 21:31 "go ahead with the self-sweep hygiene items")
-- **Done:** KB-047 → DATED-HISTORICAL · KB-092 re-stated 4–12% on a re-pulled panel (Stale_By 11/09) · KB-102/103 refreshed in place (HY tape 10/27; Dated Brent 123.10 vs Dec 113.88 / Jan 109.41, premium ~$9–14) · VX-RED-009 RETIRED UNMEASURED (VX_HISTORY row) · VX-012 KB_Links emptied · KB-081 residual documented · RED-23 Timeframe → 2026-11-06 (BLS) · LAST_COMPLETION → archive/ (+README, charter line repointed, basis rehashed) · ML-308 closes the 9/06 SKEW-backfill promise MOOT · FT-10 near-miss in TRIGGER_OUTCOMES · MAINTENANCE stale PROME path repointed · PROV pointers 18/18 land · skew_integrity.py = VIOLET's (false alarm).
-- **Not done, with reason:** charter trim (item 15) is a decision for Will (reason-clauses ≈1.6 KB of the 5.1 KB needed). MEMORY offload (item 23): not owed at 69%. CET1 (item 17a): REGINALD holds it as an open obligation; not re-asked.
-- **Next entry point:** unchanged from the S57 NEXT SESSION list.
-- **21:43 ET:** Will ruled **A** on the charter trim ("ok go with A and record it"): CLAUDE.md stays at 86%. Revisit at >29,295 B (90%) or at the next substantive charter edit (bundle the reason-clause move into that edit's cold read). Recorded in STATUS priority 4 and MAINTENANCE S57-b.
-
-## ADDENDUM S57-c — 2026-10-28 21:5x ET (from `date`): CLOSEOUT on Will's word ("okay lets close out RED here")
-- Session ends with no weight, trigger or date change since S57-b's commit 12163ddef. State: **HOLD 72 · net-bear 68**; Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3.
-- **Next entry point:** S57 NEXT SESSION list above, item 1 (10/28 FRED cells → FT-02 / FT-06 exit counts; claims 10/29; SKEW 10/28 bar).
-- Owed at next boot: nothing beyond the list. Packets out and awaiting replies: BOND (FT-11 precedence, by 11/13), TERRY (EGBN #18 envelope).
+See the closeout message. `git pull --rebase` was refused at 20:44 by ORACLE and WALTER dirty files; S58 ran on the fetched checkout per the root rule.

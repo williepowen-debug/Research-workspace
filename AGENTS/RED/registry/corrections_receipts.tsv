@@ -66,3 +66,10 @@ receipt_date	correction_id	action	note
 2026-10-29T01:03Z	COR-20261027-01	NO-OP	scope=RED cites none of the corrected figures on any live surface (grep STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket 2026-10-28); 
 2026-10-29T01:03Z	COR-20261023-39	NO-OP	scope=RED never cited the 17pct-of-CCC figure - consumed as a re-derivation input S57 (CCC widening broad and cable-telecom led); 
 2026-10-29T01:03Z	COR-20261025-02	NO-OP	scope=RED never adopted the issuance-freeze inference - consumed as a re-derivation input S57 (freeze not established); 
+2026-11-05T01:44Z	COR-20261029-04	NO-OP	scope=RED never cited the MIA, CBO migration or Florida winter-dollar premises - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
+2026-11-05T01:44Z	COR-20261029-07	NO-OP	scope=RED never cited the Schwab-System, Unit42 PHP or Finzly claims - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
+2026-11-05T01:44Z	COR-20261029-43	NO-OP	scope=RED never quoted the NYDFS line - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
+2026-11-05T01:44Z	COR-20261031-01	NO-OP	scope=RED never carried the year-end diesel duration - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
+2026-11-05T01:44Z	COR-20261031-22	NO-OP	scope=RED held no rig line - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
+2026-11-05T01:44Z	COR-20261102-04	NO-OP	scope=RED never cited the Denver roundup figures - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
+2026-11-05T01:45Z	COR-20261031-02	NO-OP	scope=RED never carried the 16:20 vendor close and reads 10/30 VIX 19.42 at FRED and Cboe - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 

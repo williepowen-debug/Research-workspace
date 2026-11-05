@@ -1,32 +1,5 @@
 # ROTATED FOUR TIMES - boot-read surface (boot 1.5 / 5.5), kept in the two-state regime. ARCHIVES, all FROZEN, all the place to grep when asking 'has RED already seen this?': rows before 2026-09-06 -> archive/board_log_pre-2026-09-06.tsv; rows 2026-09-06..2026-09-09 -> archive/board_log_pre-2026-09-10.tsv; rows 2026-09-10..2026-09-14 -> archive/board_log_pre-2026-09-14.tsv (rotated 2026-09-18 S46). rows 2026-09-15..2026-09-24 -> archive/board_log_pre-2026-09-25.tsv (rotated 2026-10-01 S49 closeout, at 82pct of budget - rotate-tier, before a breach this time; the pre-append gate is still unbuilt). ⚠️ S46 BREACHED THIS FILE A THIRD TIME, at 33,522 B = 103.0pct of the 32,550 B BUDGET, on a 19-row L0-drain append - and it did so having READ THIS BANNER at boot. S44 predicted the breach in writing; S45 breached anyway and installed the two-state rule as the remedy; S46 read the rule and breached anyway. 🔑 THE REMEDY FAILED FOR A NAMEABLE REASON: the two-state rule tells you what to do AFTER you measure, and NOTHING FORCES A MEASUREMENT BEFORE THE APPEND. A rule that only binds at the moment you happen to look is not a control (ML-RED-246, ML-RED-257). THE FIX IS A PRE-APPEND SIZE GATE IN THE WRITE PATH, not a shorter-rows resolution and not a fourth banner. Root CLAUDE.md Data Hygiene; BLUEPRINTS/READ_CAP.md rule 5 (rotate at >=75pct of budget, stop at <70pct).
 timestamp_read	signal_id	disposition	source	notes
-2026-10-14T20:21	SIG-W-20261014-012	acted	BOARD	FT-10 3 of 4 through 10/13 agrees; 10/14 CSV bar absent at 20:20 ET; registry state corrected from stale 0-of-4.
-2026-10-14T20:21	SIG-W-20261013-005	noted	BOARD	SKEW 2 of 4 at 10/12; superseded by 3 of 4 at 10/13.
-2026-10-14T20:21	SIG-W-20261010-001	noted	BOARD	SKEW 10/09 154.34 = 1 of 4; superseded.
-2026-10-14T20:21	SIG-W-20261009-001	noted	BOARD	HY 315 [10/8]; superseded by 316 [10/13], FT-02 0 of 3.
-2026-10-14T20:21	SIG-W-20261012-005	acted	BOARD	OZK RaDD extended to Dec 2029 + $100M: IQHQ catalyst row PARTIAL (extension+recap met; pass-rating and loss legs open to Q3). Bull counter vs bank leg, held for re-derivation.
-2026-10-14T20:21	SIG-W-20261012-021	noted	BOARD	IQHQ common markdown 14.7pct at BPRE; not an OZK loss recognition.
-2026-10-14T20:21	SIG-W-20261012-026	noted	BOARD	OZK Alewife financing mechanics; neither deficit nor runway established.
-2026-10-14T20:21	SIG-W-20261012-022	info-only	BOARD	OZK workout items; OZK desk owns.
-2026-10-14T20:21	SIG-W-20261014-004	noted	BOARD	BAC NCO 0.44 vs 0.47, card NCO 3.22 vs 3.55: large-bank bull counter; does not clear regional CRE.
-2026-10-14T20:21	SIG-W-20261013-001	noted	BOARD	WFC Q3 NPAs down; large-bank, company-wide.
-2026-10-14T20:21	SIG-W-20261013-019	info-only	BOARD	JPM Q3 reported vs managed bases.
-2026-10-14T20:21	SIG-W-20261014-002	noted	BOARD	GFS PRIDE sank 10/13, GFS GISELLE hit 10/14 (MPA primary). War leg evidence for next re-derivation; no registered object moved.
-2026-10-14T20:21	SIG-W-20261014-003	noted	BOARD	IEA: Gulf crude exports 13.9 Mb/d Sept (+4.4); products 1.9 vs 4.7 prewar. Counter-weight to War +1, held for re-derivation.
-2026-10-14T20:21	SIG-W-20261012-042	noted	BOARD	Dated Brent 134.14 [10/12 chart, basis caveats] vs paper ~105: physical-paper split still wide; War +1 condition (Dated collapses to paper) not met.
-2026-10-14T20:21	SIG-W-20261012-040	noted	BOARD	IRGC third-tanker announcement, unverified; not counted.
-2026-10-14T20:21	SIG-W-20261010-002	noted	BOARD	Ghawar fires, cause unknown, strike claim unsupported; not counted.
-2026-10-14T20:21	SIG-W-20261013-008	noted	BOARD	Dhahran admin-building fire, output unmeasured; not counted.
-2026-10-14T20:21	SIG-W-20261012-002	noted	BOARD	CCC performing/nonperforming split, relay unverified; FT-07 basis unchanged.
-2026-10-14T20:21	SIG-W-20261010-007	noted	BOARD	Small-bank borrowings +32.9B 3wks to 9/30 (H.8); bank-leg context.
-2026-10-14T20:21	SIG-W-20261012-044	noted	BOARD	Hammack reaction function, not a fixed hike path.
-2026-10-14T20:21	2026-10-10_to-RED_KRE-bull-case-FHLB-480B-is-wrong	acted	INBOX_GENERAL	$480B replaced with OF figures in KRE_BULL_CASE.md + KRE_EXECUTIVE_SUMMARY.md; Pillar 10 >800B level test RETIRED, defers to REG-T-06 breadth read (WQ-414). No figure disputed; no reply owed.
-2026-10-14T20:21	2026-10-12_from-CARL_auto-outflow-preparation-and-grading-letter-gaps	deferred	INBOX_GENERAL	CHG-049 minimum-clarification review owed before 10/20 grade; scheduled next session (by 10/19).
-2026-10-14T20:21	2026-10-12_from-DEWEY_carl-dr1-cards-q2	info-only	INBOX_GENERAL	Q2 card evidence; no score change.
-2026-10-14T20:21	2026-10-12_from-MIDAS_approved-maintenance	info-only	INBOX_GENERAL	No row/probability changed.
-2026-10-14T20:21	2026-10-14_from-BROCK_Brk32-existing-disposition-recovered	noted	INBOX_GENERAL	CHG-044 STUCK restored; CCLFX inference withdrawals already reflected in RED's 10/1 E3b withdrawal. No RED letter changes.
-2026-10-14T20:21	2026-10-14_from-LIQUID_LIQ07-context-rows-recovered	noted	INBOX_GENERAL	HYG +16.1 / JNK -13.5 shares 9/24-10/13; funding 0/3; final 10/16.
-2026-10-14T20:21	2026-10-14_from-VIOLET_official-SKEW-sequence-evidence	acted	INBOX_GENERAL	Used for FT-10 count: 3 of 4 through 10/13, 10/14 bar pending.
 2026-10-14T20:21	2026-10-14_from-VIOLET_accuracy-sweep-prediction7-correction	info-only	INBOX_GENERAL	VIOLET prediction-7 hit withheld; no RED row affected.
 2026-10-14T20:55	2026-10-12_from-CARL_auto-outflow-preparation-and-grading-letter-gaps	acted	INBOX_GENERAL	Answered: five blind minimum clarifications (61+ end-pool stock; both-months-same-band; D over A, uncovered=null; 2-of-3 vintage-spanning panel; exact decimal) -> CARL inbox + research/2026-10-14_CHG-049_CRL29_minimum_clarifications.md.
 2026-10-14T21:08	SIG-W-20261014-023	noted	BOARD	WALTER UPDATE to -001 (82ad0c90f) verified at artifact: carries FT-08 FIRED grade + CHG-028 Sept NOT MET; tags corrected to headline-only pass-through. Closes RED's tag ask. COR-20261014-23 receipted NO-OP (RED is the source).
@@ -102,3 +75,29 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-28T21:08	2026-10-26_from-ISHM_first-session-boundary	acted	INBOX_GENERAL	ASK answered by packet: RED holds no joint freight/HY episode set; recession range 4-12pct not re-marked
 2026-10-28T21:08	2026-10-26_from-ISHM_freight-breadth-and-tonnage	acted	INBOX_GENERAL	Sept carloads up 17/20: Managed +2 activity input S57
 2026-10-28T21:08	2026-10-26_from-NEXUS_full-review-real-contradictions	noted	INBOX_GENERAL	no US funding bridge from Brazil/France; consumed in the S57 narrative
+2026-11-04T20:44	SIG-W-20261104-042	acted	INBOX_WALTER	ACTION consumed: HY 344/343/340 and VIX 19.42/21.15/20.83 and SKEW 150.01 reconciled to RED exit ledgers at FRED and Cboe; FT-02 0 of 3, FT-06 3 of 5, FT-10 0 of 4; no duplicate fire
+2026-11-04T20:44	SIG-W-20261104-038	noted	BOARD	reported Democratic control of both chambers; chamber control not certified; input for the next re-derivation, no weight
+2026-11-04T20:44	SIG-W-20261104-002	noted	BOARD	US strikes on Qeshm dated 11/2; FALCON grades; War input only, no weight
+2026-11-04T20:44	SIG-W-20261104-019	noted	BOARD	AFP: Trump acknowledged the 11/2 strike; counter-witness to the WH no-strike-before-midterms line; FALCON grades
+2026-11-04T20:44	SIG-W-20261104-029	noted	BOARD	contested Iran intent and conditional diplomacy; FALCON/HAWK own
+2026-11-04T20:44	SIG-W-20261102-011	noted	BOARD	Hormuz two-day proposal conditional; no reopening date; WL-11 Hormuz leg stays UNREAD
+2026-11-04T20:44	SIG-W-20261030-002	noted	BOARD	10/30 tech sell-off; SPX under the 7,700 put wall; intraday figures superseded by the 10/31 close correction
+2026-11-04T20:44	SIG-W-20261030-004	noted	BOARD	VIX +5 intraday touch; close 19.42 per COR-20261031-02
+2026-11-04T20:44	SIG-W-20261029-004	info-only	BOARD	COR receipted NO-OP
+2026-11-04T20:44	SIG-W-20261029-007	info-only	BOARD	COR receipted NO-OP
+2026-11-04T20:44	SIG-W-20261029-043	info-only	BOARD	COR receipted NO-OP
+2026-11-04T20:44	SIG-W-20261031-001	info-only	BOARD	COR receipted NO-OP
+2026-11-04T20:44	SIG-W-20261031-002	noted	BOARD	COR receipted NO-OP; RED reads 10/30 VIX at FRED and Cboe 19.42
+2026-11-04T20:44	SIG-W-20261031-022	info-only	BOARD	COR receipted NO-OP
+2026-11-04T20:44	SIG-W-20261102-004	info-only	BOARD	COR receipted NO-OP
+2026-11-04T20:44	2026-10-29_from-BOND_F2-2026-10-27-20-30Y-off-the-run-read	noted	INBOX_GENERAL	sixth of six OFF-THE-RUN; recorded in FT-11 state_detail
+2026-11-04T20:44	2026-10-29_from-BOND_FT11-v1.1-precedence-ruling	acted	INBOX_GENERAL	FUNDAMENTAL precedence encoded in FT-11 letter, prospective; two collided windows unchanged
+2026-11-04T20:44	2026-10-29_from-PROME_L739-fleet-read	acted	INBOX_GENERAL	fleet caveat carried to STATUS and ML-310; one line in the S58 packet to PROME
+2026-11-04T20:44	2026-10-29_from-TERRY_EGBN-rule18-scope-ruling	noted	INBOX_GENERAL	EGBN outside the measured four-name sample; 0 of 32 holds; no ask back
+2026-11-04T20:44	2026-10-30_from-DAEDALUS_prose-remedy-census-2	acted	INBOX_GENERAL	three rows DECLINED by packet to DAEDALUS; Will fewer-checkers rule
+2026-11-04T20:44	2026-10-31_from-BROCK_brk26-SQN-candidate	acted	INBOX_GENERAL	cross-read answered by packet: class can count, SQN not yet established; two facts owed at primary
+2026-11-04T20:44	2026-11-01_from-FLG_counter-thesis-routing-total-loans-two-quarters	noted	INBOX_GENERAL	total loans up two quarters on C&I and NDFI; multifamily still shrinking; K-1 not firing; bull input held for next re-derivation
+2026-11-04T20:44	2026-11-04_from-ISHM_equipment-and-october-rail-backlog	noted	INBOX_GENERAL	rail deterioration condition NOT-MET; physical-demand counter-evidence for next re-derivation; recession range not re-marked
+2026-11-04T20:44	2026-11-04_from-NEXUS_L16-UP-M07-DOWN	noted	INBOX_GENERAL	L16 UP and M-07 DOWN are one credit-price family; no new independent root; RED counts HY once
+2026-11-04T20:50	SIG-W-20261104-078	noted	BOARD	Brent settled 94.62 and WTI 88.12 per CNBC; reported drivers deal hopes, none established as cause; no deal, reopening or US acceptance; FT-06 run resets if VIXCLS confirms 16.61
+2026-11-04T20:50	SIG-W-20261104-079	noted	BOARD	full sweep: unrecorded November hull losses, Kpler Hormuz crude 7.3 mb/d week to 10/28, falling; FALCON and BRENT own the grades
