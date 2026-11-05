@@ -66,3 +66,4 @@ Run 1: `research/2026-11-05_ABS-EE_OFFICE_LEASE_SCREEN_RUN1.md`. Corrections to 
 - **§1 "size the next wave of conversions":** not supported. The flag does not separate distressed from healthy loans today (`KB-CREED-104`).
 - **§4 step 3:** `maturityDate` alone overstates runway; the screen uses the earliest of ARD and contractual or modified maturity.
 - **§5 trust count:** measured at 375, not "a few hundred" estimated.
+- **Use, Will 2026-11-05 13:08 ET:** descriptive lease-rollover screen, no recurring cadence, no predictive study. The two-year window stays apart in `research/2026-11-05_ABS-EE_TWO_YEAR_WINDOW_EXPLORATORY.md`.

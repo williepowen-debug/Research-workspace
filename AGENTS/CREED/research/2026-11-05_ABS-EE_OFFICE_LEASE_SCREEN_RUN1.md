@@ -2,6 +2,8 @@
 
 **Written:** 2026-11-05 (Thu), started 11:35 ET on Will's word ("yes"). **Scope:** `research/2026-10-22_ABS-EE_LEASE_SCREEN_SCOPE.md`. **Script:** `scripts/absee_office_screen.py` (34 fixture tests in `scripts/test_absee_office_screen.py`). **Data:** `research/data/2026-10_absee_office_lease_loans.tsv` (824 flagged loans) and `..._summary.json`.
 
+**Use (Will, 2026-11-05 13:08 ET):** *"Keep this as a descriptive lease-rollover screen, with no new recurring cadence or predictive study. Preserve the exploratory two-year result separately. Finish the existing lender earnings grades, and use the loan list when it bears on a specific exposure we already care about."* This is a descriptive record of one cycle. No re-run is scheduled. The two-year window now lives in `research/2026-11-05_ABS-EE_TWO_YEAR_WINDOW_EXPLORATORY.md`; this file carries the approved test only.
+
 **Perimeter, in every sentence that quotes this file:** registered CMBS trusts that file Form ABS-EE, roughly 2017+ vintages, single-property office loans, performing. It does **not** see 144A SASB, CRE CLOs, pre-2017 conduits or bank balance sheets. It is not "the office market" and must not be summed with Trepp's all-CMBS figures.
 
 ---
@@ -14,9 +16,8 @@
 | Largest tenant's lease ends before the loan matures | 222 loans, **$5.80B (18.2%)** |
 | ...and that tenant holds more than 30% of the building | 93 loans, **$2.36B** |
 | ...and the loan is already thin (DSCR < 1.25x or occupancy < 80%) | 19 loans, **$0.47B** |
-| Adding leases that end under 2 years after maturity (CREED's addition) | 32 loans, **$0.98B** |
 
-**Read:** in this slice, the anchored, already-thin refinancing exposure through 2029 is small: $0.47B to $0.98B of a $31.87B book (1.5% to 3.1%). The broader rollover exposure is not small: $13.50B (42.4%) has its largest lease ending before maturity or under two years after it.
+**Read:** in this slice, the anchored, already-thin refinancing exposure through 2029 is small: $0.47B of a $31.87B book (1.5%). The broader rollover exposure is larger: $5.80B (18.2%) has its largest lease ending before maturity.
 
 **The limit that governs all of this:** the flag does **not** separate distressed loans from healthy ones today (§4). It sizes lease rollover. Nothing here shows that it predicts default, so this run does not support the scope's "size the next wave of conversions" framing.
 
@@ -40,36 +41,21 @@ Book: performing, undefeased, single-property office loans, with each building's
 
 ⚠️ **The rising Share column is not a trend (trap #6).** A loan due in eight months has little time for a lease to end first, so the rate climbs with remaining term by construction. Do not read 7.0% → 49.8% as worsening.
 
-### CREED's addition: the refinance window (not in the approved scope)
+**A known gap in the scoped test:** a lease ending just after maturity passes it, yet a refinancing lender would still see almost no lease term. CREED's exploratory two-year window measures that gap and is kept apart in `research/2026-11-05_ABS-EE_TWO_YEAR_WINDOW_EXPLORATORY.md` (`KB-CREED-105`).
 
-The scoped test is weakest where it matters most. A lease ending six months after a 2027 maturity passes the scoped test, yet a refinancing lender would still see almost no lease term.
-
-| Maturity year | Ends under 2y after maturity | Of which >30% | Of which >30% and thin |
-|---|---|---|---|
-| 2026 | 4 / $0.18B | 2 / $0.08B | 0 / $0.00B |
-| 2027 | 36 / $1.33B | 19 / $0.93B | 4 / $0.08B |
-| 2028 | 72 / $2.65B | 32 / $1.30B | 3 / $0.10B |
-| 2029 | 72 / $3.54B | 29 / $1.47B | 6 / $0.32B |
-| **2026–29** | 184 / $7.70B | 82 / $3.79B | 13 / $0.50B |
-
-The 2-year window is CREED's judgement, not a tested threshold, and is kept separate from the scoped figures.
-
-### Largest names in the combined thin list (2026–29, tenant >30%)
+### Largest names in the thin list (2026–29, tenant >30%, lease ends first)
 
 These are candidates to read, not findings of distress. All are performing. "Thin" mixes two tests, so read the cell.
 
-| Balance | Loan | Maturity | Largest tenant (share) | Lease end | DSCR | Occupancy | Cut |
+| Balance | Loan | Maturity | Largest tenant (share) | Lease end | DSCR | Occupancy | Note |
 |---|---|---|---|---|---|---|---|
-| $261.6M | Parklawn Building, Rockville MD | 2029-11-01 | United States of America (72.9%) | 2030-07-31 | 2.81x | 73% | under 2y after; thin on occupancy only |
-| $150.0M | 805 Third Avenue, New York | 2029-12-06 (modified) | Meredith Corporation (35.7%) | 2026-12-31 | 0.99x | 58% | lease first |
-| $75.0M | 450-460 Park Avenue South, New York | 2029-05-11 | "460 PARK ave South Tenant LL" (37.7%) | 2028-12-31 | 1.32x | 77% | lease first |
-| $71.3M | Zenith Ridge, Canonsburg PA | 2028-08-06 | Ansys (38.3%) | 2029-12-31 | 1.11x | 79% | under 2y after |
-| $42.0M | 379 West Broadway, New York | 2027-11-06 | WW379 Broadway (87.6%) | 2029-04-30 | 1.20x | 100% | under 2y after |
-| $41.2M | SunTrust Center, Richmond VA | 2028-06-06 (ARD) | SunTrust Bank (60.8%) | 2028-03-31 | 1.81x | 73% | lease first |
-| $25.0M | 16027 Ventura Boulevard, Encino CA | 2027-09-06 | Life Alert (31.6%) | 2027-07-31 | 0.65x | 67% | lease first |
-| $24.9M | Tetra Technologies, Spring TX | 2028-02-06 | Tetra Tech (100%) | 2027-12-31 | 2.40x | 23% | lease first; occupancy conflicts with a 100% tenant, unresolved |
+| $150.0M | 805 Third Avenue, New York | 2029-12-06 (modified) | Meredith Corporation (35.7%) | 2026-12-31 | 0.99x | 58% | |
+| $75.0M | 450-460 Park Avenue South, New York | 2029-05-11 | "460 PARK ave South Tenant LL" (37.7%) | 2028-12-31 | 1.32x | 77% | |
+| $41.2M | SunTrust Center, Richmond VA | 2028-06-06 (ARD) | SunTrust Bank (60.8%) | 2028-03-31 | 1.81x | 73% | |
+| $25.0M | 16027 Ventura Boulevard, Encino CA | 2027-09-06 | Life Alert (31.6%) | 2027-07-31 | 0.65x | 67% | |
+| $24.9M | Tetra Technologies, Spring TX | 2028-02-06 | Tetra Tech (100%) | 2027-12-31 | 2.40x | 23% | occupancy conflicts with a 100% tenant, unresolved |
 
-None of the 32 name-matched a row in `cases/`. The name match is loose, so that is not proof of absence. None adopted: `cases/` is for distress, and these loans are performing.
+None of the 19 name-matched a row in `cases/`. The name match is loose, so that is not proof of absence. None adopted: `cases/` is for distress, and these loans are performing.
 
 ---
 
@@ -158,9 +144,9 @@ Not a clean backtest: today's tenant fields postdate the distress, and 25.0% of 
 
 1. **It answers part of the question.** The scoped number exists and is small. It is a floor for the anchored, already-thin case only, and only inside registered conduits.
 2. **The Wilshire Courtyard, EY Plaza and Second Century type of loan is invisible here.** That is where Trepp's Los Angeles distress actually sits.
-3. **Not a VX vector yet (CREED's recommendation).** A new instrument needs Will's approval, and this one has not shown it predicts anything. Lease data mostly refreshes at 3/31 and 6/30, so monthly runs add little; quarterly is enough.
-4. **A real test is available, not registered.** Freeze today's performing book by cohort, and in 6 to 12 months compare new delinquency for flagged against unflagged loans in the same maturity year. October 2026 filings stay on EDGAR, so the baseline can be rebuilt. Registering it is Will's call.
+3. **Not a VX vector (WQ-613, 11/05).** It has not shown it predicts anything.
+4. **Descriptive only (Will, 11/05).** No recurring cadence and no predictive study. Use the loan list when it bears on a specific exposure already under watch. See `README.md` for how to read it, including what absence from the list does not mean.
 
 ## 6. Not done
 
-Multi-tenant rollover · portfolio loans · mixed-use with office tenants · confirmation of Second Century's deal · any non-office type · loan-level reading of the 32 names · resolving the Tetra Technologies occupancy conflict · notifying the trustees or the filing agent of the two misfiled tapes.
+Multi-tenant rollover · portfolio loans · mixed-use with office tenants · confirmation of Second Century's deal · any non-office type · loan-level reading of the flagged names · resolving the Tetra Technologies occupancy conflict · notifying the trustees or the filing agent of the two misfiled tapes.
