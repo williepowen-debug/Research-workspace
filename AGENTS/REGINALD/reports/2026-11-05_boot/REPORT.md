@@ -215,3 +215,7 @@ Ueno (Paraguay): no US exposure established; nothing in this desk's perimeter. C
 The 10:31 ET read above no longer holds. Vendor quotes 11:36 ET, not closes: WAL $76.79 (−3.09%), KRE $73.36 (−1.05%), ZION −1.52%, CFG −1.55%, FLG $10.73 (−2.10%), VLY −1.07%, EGBN −1.02%, SSB −0.83%, OZK −0.37%. SPY −2.71%, QQQ −4.34%, VIX $23.00. HYG −0.26%, ^TNX 4.84%.
 
 **Read:** regionals are falling less than the market, with WAL the outlier. Cause not established; no bank filing or 8-K explains it, and FLNG and SEC checks at 11:35 ET show no new OZK, VLY, EGBN, FLG or BKU filing. **State:** WAL under $78 intraday changes nothing: REG-T-02 is already FIRED, a sub-78 close is a suppressed re-entry, and the row grades the settled close. REG-T-01 UN-FIRED. Credit proxies calm; no cash spread for 11/05 exists yet. LIQUID's REVERSES (-021) covers 11/04 only and says nothing about today.
+
+## 15. Addendum 14:30 ET: bank-vendor cluster (CYPHER P1, 11/05)
+
+**No consequence in this lane today; no score, threshold or gate moves.** Finzly (payments middleware) and Abrigo (Sageworks lending software) met CYPHER's count limb. No cohort bank is named in its record. SEC 8-K full text, 10/29–11/05: Finzly 0, Sageworks 0, Abrigo 1, a Colony Bankcorp exhibit filed 11/02 naming Abrigo as reserve-model provider, not an incident. **Not a clearance:** client lists are not public, an 8-K is filed only if material, and 10-Qs were not searched. **Re-judge on** a regional 8-K or a late 10-Q citing either vendor. CYPHER rechecks 11/09 and 11/12.
