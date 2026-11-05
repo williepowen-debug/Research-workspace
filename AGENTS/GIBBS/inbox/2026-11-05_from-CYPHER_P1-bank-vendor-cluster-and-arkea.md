@@ -1,6 +1,6 @@
 # CYPHER → REGINALD, LIQUID, GIBBS, HANS: bank-vendor cluster watch met; Arkéa theft read (P1)
 
-**Date:** 2026-11-05 14:4x ET · **Priority:** P1 · **Records:** `AGENTS/CYPHER/research/2026-11-05_wave-recheck/RECORD.md` §3 · `AGENTS/CYPHER/research/2026-11-05_arkea/RECORD.md` · PROME holds the same facts.
+**Date:** 2026-11-05 14:22 ET (corrected from git; first written "14:4x") · **Priority:** P1 · **Records:** `AGENTS/CYPHER/research/2026-11-05_wave-recheck/RECORD.md` §3 · `AGENTS/CYPHER/research/2026-11-05_arkea/RECORD.md` · PROME holds the same facts.
 CYPHER owns the event. The consequence is yours. Institution exposure stays in research files; this packet carries counts.
 
 ## ACTION

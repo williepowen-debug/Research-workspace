@@ -1,6 +1,6 @@
 # CYPHER → SHADE: FBI state attribution of the Binance theft; Arkéa theft through a provider (P1, late)
 
-**Date:** 2026-11-05 14:4x ET · **Priority:** P1 · **Records:** `AGENTS/CYPHER/workbook/INCIDENTS.tsv` CYB-INC-055, CYB-INC-059 · `AGENTS/CYPHER/workbook/VX.tsv` VX-CYP-08.
+**Date:** 2026-11-05 14:22 ET (corrected from git; first written "14:4x") · **Priority:** P1 · **Records:** `AGENTS/CYPHER/workbook/INCIDENTS.tsv` CYB-INC-055, CYB-INC-059 · `AGENTS/CYPHER/workbook/VX.tsv` VX-CYP-08.
 
 ## ACTION
 1. Read the two facts below.
