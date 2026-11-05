@@ -508,6 +508,8 @@ READ	REGINALD	AGENTS/REGINALD/registry/REG_T02_EXIT_LOG.tsv	scoped	REGINALD:clos
 READ	REGINALD	AGENTS/REGINALD/registry/THRESHOLDS.tsv	whole	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Conditional fire/grade; paired basis in NOTES required.
 READ	REGINALD	AGENTS/REGINALD/registry/NOTES.md	scoped	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	Addressable named REG-T section at existing grade; no silent letter change.
 READ	REGINALD	PROME/registry/READS.tsv	summary	REGINALD:closeout-or-existing-fire	REGINALD	2026-10-20	read_cap_check consumes declarations; bounded verdict only; registrar remains PROME.
+READ	REGINALD	AGENTS/WAL/REGINALD_CHANNEL.md	scoped	REGINALD:CLAUDE.md-Boot-9a	REGINALD	2026-11-05	Entries above REGINALD's latest ACK only.
+READ	REGINALD	AGENTS/OZK/REGINALD_CHANNEL.md	scoped	REGINALD:CLAUDE.md-Boot-9a	REGINALD	2026-11-05	Entries above REGINALD's latest ACK only.
 READ	AEOLUS	CLAUDE.md	whole	AEOLUS:spawn-boot (COMPLETION_SPEC explicit read)	AEOLUS	2026-10-21	Root charter, explicit Read in PROME-spawned sessions; harness-injected when launched from AGENTS/AEOLUS.
 READ	AEOLUS	AGENTS.md	whole	AEOLUS:spawn-boot (COMPLETION_SPEC explicit read)	AEOLUS	2026-10-21	
 READ	AEOLUS	USER.md	whole	AEOLUS:spawn-boot (COMPLETION_SPEC explicit read)	AEOLUS	2026-10-21	
