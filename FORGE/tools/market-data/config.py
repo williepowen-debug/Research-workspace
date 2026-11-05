@@ -64,7 +64,7 @@ SERIES = [
         "notes": "Forced selling regime",
     },
     {
-        "name": "Brent (BZZ26 Dec)",
+        "name": "Brent (BZF27 Jan)",
         "source": "price",
         # NAMED CONTRACT, not BZ=F (2026-08-31, PROME): the continuous ticker's
         # change_pct spans two contracts at every roll — on 8/31 it printed
@@ -75,7 +75,10 @@ SERIES = [
         # (~monthly, BRENT's roll re-pin flags it; pinned 8/31 to Nov; RE-PINNED
         # 9/30 to Dec per DOCKET L461 — BRENT's word 9/23: switch on BZX26's
         # expiry day, after its last graded settle 9/29; a calendar step, P1).
-        "id": "BZZ26.NYM",
+        # RE-PINNED 2026-11-04 to Jan per DOCKET row 920, BRENT's word (brent-0a memo 1e7e88478):
+        # BZZ26 expired 11/2 and BZF27 has governed since 10/30. Next switch BZG27 from 11/30;
+        # re-derive from the vendor expireDate.
+        "id": "BZF27.NYM",
         "agent": "HENRY",
         "tier": 1,
         "direction": "higher_worse",

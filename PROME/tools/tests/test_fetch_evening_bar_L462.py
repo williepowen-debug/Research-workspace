@@ -204,6 +204,24 @@ class EveningBar(unittest.TestCase):
         self.assertIsNone(r["change_pct"])
         self.assertNotIn("history/metadata unavailable", r["session_basis"])
 
+    def test_single_precision_quote_is_coherent_but_one_tick_is_not(self):
+        # Live 2026-11-04: fast_info 94.19999694824219 vs history_metadata 94.2 (DOCKET row 920).
+        import struct
+        as_float32 = lambda v: struct.unpack("f", struct.pack("f", v))[0]
+        for price, tick, prev in ((4.4216, 0.0001, 4.30), (94.2, 0.01, 90.0), (7000.3, 0.25, 6900.0)):
+            sym = self.future(price=price, prev=prev)
+            self.vendor[sym]["fast_info"]["lastPrice"] = as_float32(price)
+            self.assertNotEqual(as_float32(price), price)
+            coherent = self.fetch_one(sym)
+            self.assertEqual(coherent["session"], "day", price)
+            self.assertIsNotNone(coherent["change_pct"], price)
+            sym = self.future(price=price, prev=prev, md_extra={"regularMarketPrice": price + tick})
+            self.vendor[sym]["fast_info"]["lastPrice"] = as_float32(price)
+            refused = self.fetch_one(sym)
+            self.assertEqual(refused["session"], "unverified", price)
+            self.assertIn("price mismatch", refused["session_basis"])
+            self.assertIsNone(refused["change_pct"], price)
+
     def test_quote_chart_price_mismatch_or_missing_is_unverified(self):
         mismatch = self.fetch_one(self.future(md_extra={"regularMarketPrice": 102.67}))
         self.assertEqual(mismatch["session"], "unverified")

@@ -1511,7 +1511,9 @@ def futures_bar_session(md, asof, prev_asof, quote_price=None):
         return _unverified("quote/chart price join unavailable (nonnumeric price)")
     if not math.isfinite(quote_price_f) or not math.isfinite(chart_price_f):
         return _unverified("quote/chart price join unavailable (nonfinite price)")
-    if not math.isclose(quote_price_f, chart_price_f, rel_tol=1e-9, abs_tol=1e-9):
+    # 2e-7: the vendor serves fast_info through single precision (94.19999694824219 for 94.2),
+    # half-ulp <= 6e-8; far below any tick. 1e-9 refused every named future (DOCKET row 920).
+    if not math.isclose(quote_price_f, chart_price_f, rel_tol=2e-7, abs_tol=1e-9):
         return _unverified(
             f"quote/chart price mismatch: fast_info {quote_price_f} vs history_metadata {chart_price_f}"
         )
