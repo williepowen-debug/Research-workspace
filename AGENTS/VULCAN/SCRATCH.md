@@ -1,4 +1,14 @@
-> # ⛔ 2026-10-30T16:49:34-04:00 — READ THIS BLOCK FIRST. PROME-spawned post-close session (prome-c5, DOCKET L879): Mag7 slot 8 + GPU reading 8 + S2 row; WQ-551.HELD encoded (Claude Code, Opus 5.5).
+> # ⛔ 2026-11-05T10:43:17-05:00 — READ THIS BLOCK FIRST. Will-authorized session from PROME window (prome-98), November 5 selling read, drain, L622 (Claude Code, Opus 5.5). NOT closed out: stay open until PROME or Will asks.
+
+▶ START HERE: **Owner read delivered: `reports/2026-11-05_ai-chip-selling/REPORT.md`; KB-346..365. Every market figure is vendor intraday 10:32 ET; replace with closes before citing as closes.** ARMED, NOT RUN, need the 11/6 close: Mag7 slot 9 (`.venv/bin/python AGENTS/VULCAN/tools/mag7.py` from root), GPU reading 9 (hand-read AT the slot), S2 row (`semi_watch.py`); ⚠️ SOXX split: inspect soxx_1mo_pct before writing [KB-359]. Open for Will via PROME: VULCAN-13 payer-tier reading, before 11/15.
+
+- Boot: root CLAUDE, AGENTS, USER, desk CLAUDE read; no AGENTS.md at desk level. Runtime Claude Code, Opus 5.5 (claude-opus-5-5), session 718ddc9c. boot.py rc2 on the carried META 10-Q model FAIL and the 6d EDGAR staleness, cleared by the sweep (31 rows). Local master ahead of origin, 0 behind; other desks dirty, no pull needed, nothing touched.
+- Drain: 4 general, 19 WALTER, all to processed; board_log rows; COR-20261031-02 NO-OP. Cards 014 and 016 were not addressed to VULCAN; read at BOARD as instructed, no log row.
+- L622: CME review to 2027-01-08 [KB-356]. CATALYSTS re-dated; DOCKET L622 is PROME's. CoreWeave 11/10 and NVDA 11/17 issuer-confirmed.
+- VULCAN-13 perimeter d407abd38, not blind. Own recommendation: do not widen; grade on the developer form and record Oracle and Meta as a disagreement.
+- Not done because no closeout was asked: closeout_check, THESIS/EXIT reconcile lines, NEXUS_BRIEF, push.
+
+> # ⛔ 2026-10-30T16:49:34-04:00 — prior block. PROME-spawned post-close session (prome-c5, DOCKET L879): Mag7 slot 8 + GPU reading 8 + S2 row; WQ-551.HELD encoded (Claude Code, Opus 5.5).
 
 ▶ START HERE: **all three 10/30 post-close slots are WRITTEN** — Mag7 33.2351% [holdings 10/29], breadth −0.50pp, YELLOW NOT FIRED [KB-341]; S2 memory core 1mo −25.39%, DDR5 spot $61.50 [KB-342]; GPU reading 8 on-demand flat $4.64, OCPI $2.92 (−7.3% w/w), Vast.ai n=10 gradeable [KB-343]. **WQ-551.HELD is encoded at `workbook/EXIT_PROTOCOL.md` line 93 (§4c)**; WQ-551.FIRM DEFERRED (EXIT §7 ②). Next: 11/06 slot 9 (Mag7 + GPU 9 + S2); **11/08 VULCAN-13: name venue AND borrower set on the PREDICTIONS row before the sweep, then answer DAEDALUS DONE/DECLINED/CONTESTED** (CATALYSTS 11/08 notes).
 
