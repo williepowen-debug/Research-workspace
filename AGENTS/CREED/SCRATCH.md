@@ -1,6 +1,6 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-11-05 (Thu) 10:24 ET, mid-session (launched by Will through PROME 10:06 ET; **not closed out, wait for PROME or Will**). **Record: `catchups/2026-11-05.md`.** In one line: `T-01a` FIRED · S8a +0.84 · census 7 of 11 · inbox drained · KB 101 · cases 182. **No band, score or prediction row moved; 27/45.**
+**Rewritten:** 2026-11-05 (Thu) 10:24 ET, mid-session (launched by Will through PROME 10:06 ET; **not closed out, wait for PROME or Will**). **Record: `catchups/2026-11-05.md`.** In one line: `T-01a` FIRED · S8a +0.84 · census 7 of 11 · inbox drained · KB 101 · cases 182. **Will ruled 10:32 ET ("Yes go with your recs"): S1 3 → 4, 28/45; `PRED-001` graded; S8a held at 4.**
 *PRIOR (10/30): `catchups/2026-10-30.md`.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
@@ -9,24 +9,24 @@
 ---
 
 ## ⛔ STANDING HAZARD — Kernel row pins
-Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `1a63c2ff0d` · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/05; `PREDICTIONS.tsv` not edited). 001's condition is MET and packeted; the row stays OPEN until Will rules. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
+Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` (edited 11/05 under Will's ruling) · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/05). 001, 004, 007 are graded on this ledger; their Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
 1. **RC Q3 after the close today, STWD + ACRE 11/6 → full `T-08b` grade.** Add to `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md`; adjudicate "realized" deliberately; 3% and 5% are working lines, not terms.
-2. **PROME/Will:** S1 3 → 4 and `PRED-CREED-001`. Encode only on Will's own word, verified at the artifact.
+2. ✅ **Ruled 11/05 and encoded:** S1 = 4, `PRED-001` graded, S8a held. PROME registers the WQ rows.
 3. **Trepp October SS (~mid-Nov)** + payoff rate: `T-01b`, F2. Both needed for F2.
 4. Illinois Center sheriff sale 11/12 (CASE-153) · L723 deed ~11/27 · L183 11/30 (2b confirmed NOT reversed) · FDIC Q3 QBP ~11/25 (`T-03`, L514).
 5. **Approved and now unblocked: ABS-EE office lease screen** (Will 10/22, 3–5 h). Not started.
 6. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 7.02, 9.01, 10.02 · Moxy result · Plaza price · CREFC monthlies.
 
 ## ⚖️ AWAITING WILL
-Two asks in the 11/05 PROME packet: S1 score, `PRED-CREED-001`. Not WQ-registered by CREED; PROME registers.
+Nothing pending. S1 + `PRED-001` ruled 11/05. Open question, not a rec: whether to start the ABS-EE screen now.
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."* ⚠️ **Relays:** a relayed "Approved" on a Will-gated surface still needs Will's own answer.
 
 ## 🟡 STATE AT HANDOFF
-- **Base case HOLDS; 🟠 ELEVATED; convergence 27/45; broad CRE-to-bank transmission is not confirmed.**
+- **Base case HOLDS; 🟠 ELEVATED; convergence 28/45; broad CRE-to-bank transmission is not confirmed.**
 - **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.85 [Sep] · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +0.84 [11/04] · `T-08b` not re-graded (7 of 11).
-- **Counts:** VX 34 · KB **101** · PRED 11 (3 open) · registry 11 · **cases 182** · evals v2 4/4.
+- **Counts:** VX 34 · KB **101** · PRED 11 (2 open) · registry 11 · **cases 182** · evals v2 4/4.
 - **Trepp PDFs moved:** earlier months are now also under `AGENTS/WALTER/archive/**`. October is at the public hubfs URL, not archived.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number

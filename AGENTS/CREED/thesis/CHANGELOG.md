@@ -1,5 +1,13 @@
 # CREED Thesis Changelog
 
+## 2026-11-05 · **S1 3 → 4, WILL-RULED — composite 27/45 → 28/45 (62.2%); `PRED-001` graded**
+
+1. **Will ruled** (2026-11-05 10:32 ET, in CREED's window, verbatim *"Yes go with your recs"*) on CREED's three recommendations: S1 3 → 4 · `PRED-CREED-001` on the WQ-304 option B path · S8a held at 4.
+2. **⚠️ Caveats travel with the score:** a return, not a record (January 12.34); the +17bp is largely one loan (`KB-095`); office SS not confirming (16.85 [Sep]). Independent roots unchanged: S1 shares the maturity root.
+3. **`PRED-001` RESOLVED-TRUE on CREED's ledger:** 40%, wrong side, Brier 0.36; mean 0.279 → 0.291, n=7, 4/7. ⚠️ Kernel record stays OPEN until a Gate C sitting.
+
+**⚠️ What did NOT change:** no band, op, sustain or route; S3 still 2; broad CRE-to-bank transmission is not confirmed.
+
 ## 2026-11-05 · **`CREED-T-01a` FIRED on the October print — score PROPOSED, not moved, 27/45**
 
 1. **Fire:** Trepp office DQ 12.33 [Oct], 12.16 [Sep], both above 12; effective 11/2, adjudicated 11/05 at the public PDF on `registry/PREREG_2026-11_TREPP_PRINT.md` §6. S1 proposed 3 → 4 (composite would be 28/45); Will decides through PROME.

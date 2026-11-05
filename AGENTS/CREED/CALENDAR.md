@@ -26,6 +26,8 @@
 | **~mid/late Oct 2026** | Q3 bank earnings (FLG, EGBN, OZK, VLY) | ✅ **READ 10/28:** OZK (KB-073), FLG (SIG-W-20261023-005), **EGBN + VLY (KB-087)**: ≥ ~$29.3M of VLY's MF past-due cohort rolled to nonaccrual (~27% partial charge-off); ~$64–68M unplaced; location undisclosed. Next: Q3 Call Reports (~10/30) and VLY 10-Q (~11/6–11/10) settle WQ-311 |
 | **10/29 → ~11/7** | mREIT Q3 results / Q4 dividends — **7 of 11 in by 11/05** (KB-096); RC 11/5 after close, STWD + ACRE 11/6 | `CREED-T-08b` needs cohort-wide erosion; re-grade when the census completes |
 
+## ~~Awaiting Will~~ — RULED 2026-11-05 10:32 ET (Will, verbatim *"Yes go with your recs"*): S1 → 4, composite 28/45; `PRED-001` graded, Kernel OPEN; S8a held at 4.
+
 ## ~~Awaiting Will~~ — RULED 2026-09-28 (Will, verbatim *"Approve WQ-303 at 4 and WQ-304 option B"*)
 - ✅ **S8a score → 4** (composite 25 → 27/45). Encoded 9/28.
 - ✅ **PRED-CREED-004 HIT / 007 MISS graded on CREED's own ledger (option B).** Kernel records stay OPEN until a Gate C sitting.

@@ -83,4 +83,7 @@ No band, operator, sustain or confidence edit. **No S-score moved by CREED** (a 
 - **F2: UNTESTED** on both legs (payoff not fetched; October SS transfers ~mid-Nov). An untested falsifier is not a passed one.
 - **F3 (10y < ~4.75% AND S8a above −10 before the print): NOT MET, one leg of two.** At the 11/2 print S8a was −0.82 TR (above −10, leg met) but the 10y was 4.91% (leg failed, 16bp short). ⚠️ The tape leg has fully reversed since (`KB-CREED-098`), so F3's question is live even though its window closed unmet. It would not un-fire `T-08a`.
 
-**§5:** no band, operator, sustain, confidence or S-score moved; `PRED-CREED-001` row untouched. Convergence stays **27/45**. **L183 leg 2b (CALENDAR "confirm on the October print"): CONFIRMED NOT REVERSED** on the October DQ alone: office DQ rose, so the "declines in both" conjunct fails whatever October SS prints.
+**§5:** no band, operator, sustain, confidence or S-score moved by CREED at this grade; `PRED-CREED-001` row untouched at this grade. Convergence **27/45** at this grade (Will ruled S1 and the row later the same day: addendum below). **L183 leg 2b (CALENDAR "confirm on the October print"): CONFIRMED NOT REVERSED** on the October DQ alone: office DQ rose, so the "declines in both" conjunct fails whatever October SS prints.
+
+### RULING ADDENDUM — 2026-11-05 10:32 ET. Terms above unchanged.
+Will in CREED's window, verbatim *"Yes go with your recs"*: **S1 3 → 4, composite 28/45** · **`PRED-CREED-001` graded on CREED's ledger, WQ-304 option B path** (TRUE, MISS, Brier 0.36; Kernel record stays OPEN) · S8a held at 4.
