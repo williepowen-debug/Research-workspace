@@ -26,12 +26,12 @@
 | ES01, ES05, Test B/T4, Test C | No recoverable definition or result; recorded in STATUS §3 |
 | `AUCTION_FRAMEWORK.md` | Titled for 20Y and last touched October 14; usable, but no 3Y/10Y/30Y baselines. Decision below |
 
-## Needs a decision
+## Decisions, resolved 2026-11-05 11:08 ET (Will: "yes to all")
 
-1. **`CLAUDE.md` line 191** still says FRED ICE publishes ~16:15 ET. That is Will's word to change; `transmission_check.py` and the 9/25 report carry the same claim.
-2. **`boot.py` countdown** shows two ✅ RESOLVED LIQ-07 rows (Nov 6, Nov 10) as imminent. A small fix to skip ✅ rows would clear noise.
-3. **Refunding auction read:** the 3Y, 10Y and 30Y settle 25B on November 16, and `AUCTION_FRAMEWORK.md` has no baseline for them. Comparing each to its last six auctions is a bounded prep; not started.
+1. **`CLAUDE.md` line 191 corrected**, and the `transmission_check.py` docstring. The dated 9/25 report keeps its forecast as history.
+2. **`boot.py` countdown repaired** under `ACCEPTANCE_boot.md`, committed before the code. Finished rows hide with a visible count. Readers skip a leading `#` line. Selftest passes before and after; both negative controls fail. TSV stamping stays with DOCKET L869.
+3. **Auction prep withdrawn, my recommendation was wrong.** I said the framework had no baselines. BOND owns auction scoring and froze registered bars on November 2 (n=12): 3Y 56.50 / 19.50 / 2.54 / 57.44, 10Y 63.95 / 13.38 / 2.39 / 65.05, 30Y 59.95 / 14.74 / 2.29 / 63.89 (OLD indirect-min, dealer-max, BTC-min, I′). I had read my own file, whose second line says BOND owns scoring. No second set built. The calendar rows now point to BOND's bars.
 
 ## Limits
 
-TreasuryDirect shows only announced auctions, so 20Y and the late-November 2Y/5Y/7Y are not yet rows. TIC data months are read from the page's rule, not stated. KB-LIQ-136 is on latest-revised FRED. `NEXUS_BRIEF.md` still carries the withheld wording and BROADENS; it is refreshed at closeout under its own step.
+The 20Y and late-November 2Y/5Y/7Y dates live on BOND's docket and are not mirrored here. TIC data months are read from the page's rule, not stated. KB-LIQ-136 is on latest-revised FRED. `NEXUS_BRIEF.md` still carries the withheld wording and BROADENS; it is refreshed at closeout under its own step.

@@ -851,20 +851,29 @@ def _trading_days(start, end):
     return n
 
 
+def _tsv_lines(path):
+    """A TSV ledger's lines with leading `#` comment lines removed, so the column header comes first."""
+    rows = path.read_text().splitlines()
+    while rows and rows[0].startswith("#"):
+        rows.pop(0)
+    return rows
+
+
 def catalyst_countdown(horizon=60):
-    """Print dated catalysts within `horizon` days. Returns count flagged imminent (<=5 trd)."""
+    """Print dated catalysts within `horizon` days. Returns count flagged imminent (<=5 trd).
+    A row whose event begins with a check mark is finished: hidden, counted, never imminent."""
     path = LIQUID_DIR / "workbook" / "CATALYSTS.tsv"
     if not path.exists():
         print("    (no workbook/CATALYSTS.tsv)")
         return 0
-    rows = path.read_text().splitlines()
+    rows = _tsv_lines(path)
     if len(rows) < 2:
         print("    (CATALYSTS.tsv empty)")
         return 0
     hdr = rows[0].split("\t")
     today = datetime.now().date()
     cutoff = today + timedelta(days=horizon)
-    upcoming, unparsed = [], 0
+    upcoming, unparsed, resolved = [], 0, 0
     for ln in rows[1:]:
         parts = ln.split("\t")
         if len(parts) != len(hdr):
@@ -877,9 +886,14 @@ def catalyst_countdown(horizon=60):
             unparsed += 1   # fail loud — a malformed date silently drops from the countdown
             continue
         if today <= ed <= cutoff:
-            upcoming.append((ed, c))
+            if c.get("event", "").lstrip().startswith("✅"):
+                resolved += 1
+            else:
+                upcoming.append((ed, c))
     if unparsed:
         print(f"    ⚠️  {unparsed} malformed row(s) (bad date or field count) — fix CATALYSTS.tsv (silently skipped otherwise)")
+    if resolved:
+        print(f"    ({resolved} resolved row(s) in the window hidden)")
     if not upcoming:
         print(f"    no dated catalysts within {horizon}d")
         return 0
@@ -938,7 +952,7 @@ def predictions_scan():
     if not path.exists():
         print("    (no workbook/PREDICTIONS.tsv)")
         return 0
-    rows = path.read_text().splitlines()
+    rows = _tsv_lines(path)
     if len(rows) < 2:
         print("    (PREDICTIONS.tsv empty)")
         return 0
@@ -997,6 +1011,7 @@ def hy320_run(tr):
 
 def selftest():
     """Validate the data files + fetch import (fail-loud parser test). Returns 0 pass / 1 fail."""
+    global LIQUID_DIR
     ok = True
     print("  ✓ FORGE fetch.py import OK")   # module-load would have exited 2 otherwise
     for lbl, got, exp in [("WQ-444 run: 325,316 → 1", hy320_run([3.25, 3.16, 3.24]), 1),
@@ -1007,11 +1022,35 @@ def selftest():
             print(f"  ✗ {lbl}: got {got}"); ok = False
     if ok: print("  ✓ WQ-444 >320 run counter (4 cases)")
 
+    # Countdown call site on a temporary ledger: finished rows hide, malformed ones still report.
+    import contextlib, io, tempfile
+    real_dir, soon = LIQUID_DIR, (datetime.now().date() + timedelta(days=1)).isoformat()
+    head = "date\tevent\twhat_to_check\tthreshold_signal\tpriority\twho_cares\tnotes\tdate_class"
+    def row(d, event): return "\t".join([d, event, "c", "t", "P", "w", "n", "CONFIRMED"])
+    with tempfile.TemporaryDirectory() as td:
+        LIQUID_DIR = Path(td); (LIQUID_DIR / "workbook").mkdir()
+        (LIQUID_DIR / "workbook" / "CATALYSTS.tsv").write_text("\n".join([
+            "# Last real data refresh: 2026-11-05", head, row(soon, "✅ RESOLVED done"),
+            row(soon, "PENDING live"), row(soon, "REVIEW GRADED live"), row("bad", "✅ bad date"),
+            "# a comment after the header is malformed"]) + "\n")
+        buf = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(buf):
+                imminent = catalyst_countdown()
+        finally:
+            LIQUID_DIR = real_dir
+    text = buf.getvalue()
+    got = (imminent, "2 malformed" in text, "1 resolved" in text, "✅" in text, "PENDING live" in text)
+    if got == (2, True, True, False, True):
+        print("  ✓ countdown hides finished rows, keeps live ones, reports malformed, skips leading comment")
+    else:
+        print(f"  ✗ countdown behaviour: {got}"); ok = False
+
     cat = LIQUID_DIR / "workbook" / "CATALYSTS.tsv"
     if not cat.exists():
         print("  ⚠️  CATALYSTS.tsv not found")
     else:
-        rows = cat.read_text().splitlines()
+        rows = _tsv_lines(cat)
         exp = ["date", "event", "what_to_check", "threshold_signal",
                "priority", "who_cares", "notes", "date_class"]
         if rows[0].split("\t") != exp:
@@ -1035,7 +1074,7 @@ def selftest():
     if not pred.exists():
         print("  ⚠️  PREDICTIONS.tsv not found")
     else:
-        rows = pred.read_text().splitlines()
+        rows = _tsv_lines(pred)
         hdr = rows[0].split("\t")
         unparsed = [d.get("Pred_ID", "?") for d in (dict(zip(hdr, ln.split("\t"))) for ln in rows[1:])
                     if d.get("Status", "").strip().upper() == "OPEN" and not _parse_timeframe(d.get("Timeframe", ""))[1]]

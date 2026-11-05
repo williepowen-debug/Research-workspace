@@ -2,7 +2,7 @@
 """Credit-transmission persistence check + funding pairing + quarter-end base rate.
 
 Built 2026-09-25 for PROME's Will-directed item 3 ("does credit transmission persist?").
-Re-run after each FRED ICE BofA publication (~16:15 ET, T+1) to grade the next obs.
+Re-run after each FRED ICE BofA publication (by late morning T+1, KB-LIQ-151) to grade the next obs.
 
   Ladder  : FRED ICE BofA OAS (latest-revised basis) IG/BBB/BB/B/CCC/HY. d/d and 15-session
             changes, each percentile-ranked against its OWN history since 2023-10 (KB-LIQ-128
