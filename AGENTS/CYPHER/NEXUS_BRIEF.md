@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-05 14:24 EST (launched session, WQ-618 A, DOCKET L812 + L917) | STATUS commit: `b1e31447bdd0634311934ebcece0dbb1b9b2e64c`
+**As of:** 2026-11-05 16:49 EST (closeout of the launched session, WQ-618 A, DOCKET L812 + L917) | STATUS commit: `edc0ba0f18001c0f9c1203d0ad7262ecb9e793af`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -12,7 +12,7 @@
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
 | REGINALD / LIQUID / GIBBS / HANS / PROME | Crédit Mutuel Arkéa (CYB-INC-059, 11/04): attackers came through an unnamed provider's platform and paid other banks from the bank's own account, about EUR 100M provisional. No second bank, rail statement or supervisory alert found; shared reach UNKNOWN, not systemic on this evidence | P1 | New class: theft of a bank's own funds through a vendor (FL-CYP-21). Whether one vendor can do it to several banks is FL-CYP-22, UNTESTED |
-| REGINALD / LIQUID / GIBBS / PROME | Bank-vendor cluster watch count limb MET 11/05: Finzly (one device, Fed-link firewall keys published, untested; Fed not impacted) and Abrigo (unauthorized access, ~69h Sageworks shutdown, data loss unstated). Off-wave. Abrigo counts on plain words, not a core | P1 | Supplier channel consequence is theirs |
+| REGINALD / LIQUID / GIBBS / PROME | Bank-vendor cluster watch count limb MET 11/05: Finzly (one device, Fed-link firewall keys published, untested; Fed not impacted) and Abrigo (unauthorized access, ~69h Sageworks shutdown, data loss unstated). Off-wave. REGINALD 11/05: no regional-bank consequence today, not a clearance (EDGAR only, 10-Qs not searched). Abrigo counts on plain words, not a core | P1 | Supplier channel consequence is theirs |
 | SHADE | FBI state attribution of the Binance theft (10/31, SECONDARY), told late; VX-CYP-08 graded 4 ORANGE with composition note | P1 | State-attack exclusion read |
 | NEXUS / PROME | Composite 24/40 raw, 15/40 shared-root-adjusted (VX-01 corrected 2->3 on the letter, VX-08 3->4 on the attribution; neither is new bank damage). Rows 1, 3-9 NOT-FIRED at 11/05 | P3 | Wave state for synthesis. Unit 42 verified Dream's compromises; R1 flip still needs a named organisation |
 | PROME / LIQUID / HENRY | WQ-550 leg 2 (11/02): Binance phase-one withdrawals reopened Sun 11/01 (29 of 1,448 pairs on at 13:48Z 11/02); net outflows $4.72B (Binance, ~2-3% of assets); ~95% of loss replaced (OWNER-ASSERTED). FBI attributes the theft to North Korea (10/31; SECONDARY). Ethereum stablecoin freezes unchanged, none burned; no redemption surge in the reopening-day print. COIN residual faded to -2.6pp (z -0.9) at the 10/30 close. No bank, custodian, prime broker or lender named. VX-CYP-02 YELLOW held at 3 on its letter; re-cut drafted; standing crypto owner NOT recommended (Will's word) | P2 | LIQUID: CHK-40 facts at the reopening (no surge; Circle Q3 11/04). HENRY: no venue premium at the close. PROME: VX-CYP-08 grade on the attribution is outside the commission fence |
@@ -57,20 +57,17 @@
 
 ## NEXT DECISION POINT
 
-- **What:** 11/04 PHP2Shell +14-day check: rows 1, 3, 4; Dream correction or a named victim; any second US FI service pause.
-- **When:** 2026-11-04 (P1); R1 flip test 2026-11-20.
+- **What:** R1 flip test: rows 1, 3 and 4, each needing a named organisation; re-checks dated 11/13–11/20. Arkéa provider and shared-reach check comes first, 11/09 (P1).
+- **When:** 2026-11-20 (P1); 2026-11-09 (P1) for Arkéa.
 - **What would falsify the trigger:** no named organisation by 11/20, with in-window re-checks, moves R1 to MECHANICAL (Log4Shell shape).
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-10-30 | Palo Alto remaining hotfixes; GMO replacement-service checkpoint | Rerun findings; fix availability; procedures |
-| 2026-11-03 | Keystone erasure statement | Issuer completion or delay |
-| 2026-11-04 | PHP2Shell +14d; ConnectWise restoration | Named victims; 8-K 1.05; restoration done |
-| 2026-11-05 | Financial-claim pass (036–040, 043) | Victim or regulator confirmation/denial |
-| 2026-11-05 (weekly) | Bank-vendor / payment-plumbing cluster watch (Will 10/29) | 2+ new confirmed supplier incidents in 30 days, or a multi-institution outage of 1+ business day -> P1 REGINALD/LIQUID/PROME |
-| 2026-11-06 | Kiteworks victim check; GMO compensation; Capcom | Own instruments |
+| 2026-11-06 | Kiteworks victim check; GMO compensation; Capcom; row 9 magnitude decision (to PROME by 11/10) | Own instruments |
+| 2026-11-09 | Arkéa provider and shared-reach check | Provider named; a second institution; a rail statement |
+| 2026-11-12 (weekly) | Wave 7-day clock; bank-vendor / payment-plumbing cluster watch (Will 10/29); Abrigo; ConnectWise; claim pass; Keystone | Count limb already MET 11/05; a multi-institution outage of 1+ business day; a regional 8-K or late 10-Q citing Finzly or Abrigo -> REGINALD |
 | 2026-11-15 | TruStage data-access window | Primary scope and cost |
 | 2026-11-18 | Row 9 equity persistence | Owner grade |
 | 2026-11-20 | R1 flip test | Named organisation vs in-window quiet |
