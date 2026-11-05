@@ -98,3 +98,26 @@ Web: https://finviz.com/news/400834/apollo-commercial-real-estate-finance-inc-de
 | BXMT | $19.31 → $17.06 (**−11.7%**) | $22.50 → $21.63 (−3.9%) | **$0.30 vs $0.47 (−36%) — CUT** | CECL $410M → $606M; 6 newly impaired loans $787.8M (5 office, 1 hotel); $63.9M HFS mark on 8 loans (6 office, 2 MF); new REO Richmond CA mixed-use $82.9M (deed-in-lieu); charge-offs $6.9M |
 
 **Count after BXMT:** reporters 5 of 11; GAAP decliners 3 of 5 (BXMT −11.7, KREF −1.0, TRTX −0.9); **erosion > 3%: BXMT only**; dividend cuts in the cohort **5 of 11** (`VX-10.01`). **`CREED-T-08b` NOT re-graded** — erosion is one name, not cohort-wide; most of BXMT's drop is reserve build plus a held-for-sale mark, not realized charge-offs (adjudicate 'realized' at the full census, not on the cleanest leg). Still to report: NREF Thu 11/5 (company release via repost, SECONDARY), STWD + ACRE Fri 11/6, RC and GPMT undated. ⚠️ No covenant amendment found; TNW headroom is not computable from GAAP equity — do not cite "$38M of headroom".
+
+## Addendum 2026-11-05 — GPMT and NREF reported (census now 7 of 11)
+
+**Sources:** GPMT 8-K + supplement 2026-11-04 (acc 0001703644-26-000043; 10-Q -000044 not read); NREF 8-K 2026-11-05 (acc 0001193125-26-448417, EX-99.1, EX-99.2). PRIMARY-READ by CREED 11/05 at sec.gov. Recorded as `KB-CREED-096`. ⚠️ All GPMT per-share figures are restated for the one-for-ten reverse split of 10/5 (trap #1): $0.10 is the old $0.01, so no new cut.
+
+| Ticker | GAAP BVPS 6/30 → 9/30 | Realized in Q3 | Q4 / latest dividend | Notes |
+|---|---|---|---|---|
+| GPMT | $56.96 → $44.54 (**−21.8%**) | Write-offs **$25.3M** ($5.25/sh, 9.2% of opening book, DERIVED) of a $60.3M GAAP loss; provision $45.4M | $0.10 (= $0.01 pre-split), flat | CECL $185.9M, 13.7% of commitments; 5 RR5 loans $260.4M, ~45.6% reserved; office 50.8%; fully extended remaining term 0.5 years; cash $44.7M → $38.8M at 11/2; board review continuing |
+| NREF | $18.60 → $17.63 (**−5.2%**), per diluted share incl. redeemable NCI | No write-off disclosed; **$21.9M unrealized** add-back, provision $0.46M | $0.50 held (declared 10/26) on guided Q4 EAD $0.42 (0.84x), CAD $0.55 (1.10x) | Life sciences 40.7% of book; MA 31%. Which positions were marked is not stated. Absence from the exhibits is not a clean book. WALTER's figures reproduced |
+
+**All seven reporters:** GPMT −21.8 · BXMT −11.7 · NREF −5.2 · KREF −1.0 · TRTX −0.9 · BRSP +4.0 GAAP / −2.8 undepreciated · LADR +3.1.
+
+| Read | Count | Who |
+|---|---|---|
+| Cut or liquidating (leg 1) | **5 of 11** | ARI, KREF, RC, GPMT, BXMT |
+| BVPS erosion > 3% | **3 of 7** | GPMT, BXMT, NREF |
+| Realized write-offs > 5% of opening book | **2 of 7** | KREF 26.4% ($2.70/$10.24), GPMT 9.2%; both already cut |
+
+**Working read, T-08b: NOT FIRED so far; NOT re-graded; the final grade waits for the last three reporters.** Leg 1 is met. Leg 2 is the frozen phrase "realized book erosion ACROSS the cohort", and the erosion so far is mostly reserves or marks in a minority of names, while the one name with large realized write-offs barely moved book because Q2 had reserved it. ⚠️ The 3% and 5% lines are CREED's working lines, not frozen terms; the letter gives no number. Ruling on what "cohort-wide" means would be a Will-gated band matter: not proposed here.
+
+**Still to report:** RC after the close Thu 11/5, call 11/6 8:30 ET (company release via Finviz repost, SECONDARY) · STWD + ACRE Fri 11/6 · ARI never (last NYSE day 11/6).
+
+**Outside the cohort (`KB-CREED-097`, counted nowhere in T-08b):** ABR suspended its dividend 10/30; CMTG and ACR detail in that row.

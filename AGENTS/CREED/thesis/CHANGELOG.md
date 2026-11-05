@@ -1,5 +1,15 @@
 # CREED Thesis Changelog
 
+## 2026-11-05 · **`CREED-T-01a` FIRED on the October print — score PROPOSED, not moved, 27/45**
+
+1. **Fire:** Trepp office DQ 12.33 [Oct], 12.16 [Sep], both above 12; effective 11/2, adjudicated 11/05 at the public PDF on `registry/PREREG_2026-11_TREPP_PRINT.md` §6. S1 proposed 3 → 4 (composite would be 28/45); Will decides through PROME.
+2. **The caveat travels:** a return (Jan-26 12.34), and the +17bp is largely one loan's round trip (`KB-095`).
+3. **Tape:** S8a −11.33 [10/28] → +0.84 [11/04 close]; `T-08a` fire stands, no exit registered (`KB-098`).
+4. **Lenders:** Q3 census 7 of 11, `T-08b` not re-graded (`KB-096`); Arbor suspended outside the cohort (`KB-097`).
+5. **Surfaces changed:** THESIS evidence + rows 1, 2, 3, 6, 7, 8a, 8b · `registry/` fire log + state cells · `workbook/` · `cases/` 175–182.
+
+**⚠️ What did NOT change:** no band, op, sustain, score, prediction row or route definition; base case holds; S3 still 2; broad CRE-to-bank transmission is not confirmed.
+
 ## 2026-10-28 · **`VX-9.02` office-price proxy ADOPTED, WILL-RULED — no score moved, 27/45**
 
 1. **Will ruled** (Will 2026-10-28 23:23 ET, verbatim *"yes adopt the 9.02 proxy"*) on CREED's offer: his 7/21 decision 4 had left `VX-9.02` a GAP with *"revisit if a free proxy appears"*.

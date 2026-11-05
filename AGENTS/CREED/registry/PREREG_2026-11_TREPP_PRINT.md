@@ -51,3 +51,36 @@ No band, operator, sustain or confidence edit. **No S-score moved by CREED** (a 
 ---
 
 ## 6. Grading record — append below, do not edit above
+
+### GRADING RECORD — 2026-11-05 (Thu) 10:24 ET, CREED (Will-authorized launch, PROME window 10:06 ET, verbatim "yes you go ahead and launch CREED"). Terms above unchanged.
+
+**Source:** Trepp *CMBS Delinquency Report, October 2026*, full public PDF `https://www.trepp.com/hubfs/Trepp%20CMBS%20Delinquency%20Report%20October%202026.pdf` (5 pp, 12,414,711 B, sha256 `846772ee0f4b9943e5ca158e8d2544dd0bc638bdc0a2a3418cb28ead891de2d1`, PDF creation stamp 2026-11-04 08:45 EST), plus the TreppTalk excerpt dated **November 2nd, 2026**. **PRIMARY-READ by CREED**: pages 2, 3 and 4 rendered and read as images, table text anchored on known cells (Sep 12.16, Aug 12.00, 3 MO 11.91, 6 MO 11.69 all match `VX_HISTORY`). PDF not archived in the repo; URL and sha256 above are the pointer. Three days after publication; CREED was dark until this launch.
+
+| Trigger | October print | Verdict on the letter |
+|---|---|---|
+| `CREED-T-01a` office DQ `> 12`, sustain 2 | **12.33** (Table 2, all vintages, col 1, 2dp; Sep 12.16) | 🔴 **`CREED-T-01a` FIRED on the October print (Sep 12.16, Oct 12.33): office CMBS delinquency above 12% for two consecutive months.** Effective 2026-11-02 (publication) |
+| `CREED-T-01b` office SS `> 18`, sustain 2 | not in this document (SS ~mid-Nov) | not graded; Sep 16.85 stands |
+| `CREED-T-02` | NPMB share **not printed** for October | spent; no re-fire, no fresh confirmation |
+| `CREED-T-08a` | not graded here | fire of 9/24 stands; see `VX-CREED-7.01` |
+| `PRED-CREED-001` (Kernel-pinned) | Sep 12.16 + Oct 12.33, adjacent report months, both published inside the interval | **Its condition is MET on the Kernel rule.** ⛔ CREED did not edit the row (sha `1a63c2ff0d` re-verified). Packeted to PROME |
+
+**§2 refusals honoured:** a return, not a record (Jan-26 printed 12.34; October is 1bp below it). "Banks are next" refused: S3 is graded on FDIC data. **No S-score moved:** S1 is proposed to Will; composite stays 27/45 until he rules. Move +17bp = 1.3× the 13.5bp named heuristic (not σ). 12.23 on the CMBS 2.0+ table is a different cell and was not used.
+
+⚠️ **The caveat that travels with this fire (read before any shape word):** October's largest new delinquency, the **$384.29M Wilshire Courtyard loan (NCMS 2019-MILE, Los Angeles, matured July)**, is almost certainly the same loan as September's largest cure, the unnamed **"$384.3 million Los Angeles office tower"** that moved non-performing → performing matured balloon. Same city, type and balance to the rounding; Trepp does not state the identity, so this is CREED's inference (`KB-CREED-095`). $384.29M exceeds the month's whole net +17bp on any office universe below **$226B** (384.29 / 0.0017). So the **+17bp is not evidence of acceleration**: it is largely one loan's round trip. The LEVEL is not explained away: the fire would survive removing the loan unless the office universe were below **$116B** (384.29 / 0.0033). The office universe is not printed; those are break-evens, not estimates.
+
+⚠️ **Coincidence recorded, not resolved:** Trepp's 10/26 Q3 preview "office 12.33%" (`KB-CREED-077`), refused on 10/28 as basis-less, equals this print to 2dp. It is not validated by that. The 10/26 figure stays unattributed; only Table 2 was graded.
+
+**§3 — what would inform the thesis:**
+1. **Mechanism:** maturity-adjusted DQ **9.66 → 9.56 (−10bp)**; performing matured balloon **1.64 → 1.69 (+5bp)**; NPMB 2.74 → 2.41 (−33bp); foreclosure 2.90 → 3.12 (+22bp); REO 1.46 → 1.45; seriously delinquent 7.87 → 7.71 (−16bp). Trepp attributes the overall fall to the BX 2019-IMC cure, an **extension**, not a payoff.
+2. **Newly delinquent:** $ total **printed, $3.47B**; NPMB share **not printed** in prose, Table 1/2 or Chart 1/2 (pp. 2–4 rendered). The reverse of Aug–Sep (share, no $). ⇒ `VX-3.05` not extended, no shape word (trap #6). Top 10 = $1.87B, 67% office by balance (≈ $1.25B, CREED arithmetic).
+3. **Gross flows beside the net (−15bp):** out $4.12B (cures $3.31B, payoffs $808.46M) vs in $3.47B, net −$0.65B. **One loan, $975M BX 2019-IMC (showrooms, High Point NC + Las Vegas), returned to current after being extended and paid down, now maturing April 2027: ≈ 16bp on a ~$607B universe (DERIVED: $48.65B / 8.02%, `KB-077`), about the whole headline fall.** A reclassification by extension, not clearing. The largest payoff, $280M CALI 2024-SUN (Santa Monica hotels), was reportedly bought by the holder of the $120M mezzanine loan: a holder change, not a refinancing. Cove at Tiburon ($210M, MF, in the top delinquencies) may revert if a six-month extension is granted. Retail +63bp almost exactly undoes September's −62bp on mall cures: sub-trend churn, no shape word.
+4. **October payoff rate:** not fetched (searched 11/05: no October figure indexed). F2 UNTESTED.
+5. **Refinancing cost:** 10y 4.91% on the print date (DGS10, 11/2); 4.95% 11/3; 4.87% ^TNX proxy 11/5 10:1x ET. Conduit coupon not re-read (last 6.89%, 10/16 snapshot).
+6. **Florida: ZERO named FL assets** in the October DQ narrative (CA ×3, NC/NV, plus the excerpt's Chicago, LA, DC, DC/N. Virginia, New Orleans). The excerpt's five largest are not all named in the PDF; a multi-property location is not excluded. Sent to CORAL.
+
+**§4 falsifiers:**
+- **F1 (maturity wall clearing): NOT TRIGGERED.** Leg 1 moved (mat-adj −10bp); leg 2 failed (performing matured balloon ROSE 5bp); leg 3 failed (the fall is an extension-driven cure, not payoffs).
+- **F2: UNTESTED** on both legs (payoff not fetched; October SS transfers ~mid-Nov). An untested falsifier is not a passed one.
+- **F3 (10y < ~4.75% AND S8a above −10 before the print): NOT MET, one leg of two.** At the 11/2 print S8a was −0.82 TR (above −10, leg met) but the 10y was 4.91% (leg failed, 16bp short). ⚠️ The tape leg has fully reversed since (`KB-CREED-098`), so F3's question is live even though its window closed unmet. It would not un-fire `T-08a`.
+
+**§5:** no band, operator, sustain, confidence or S-score moved; `PRED-CREED-001` row untouched. Convergence stays **27/45**. **L183 leg 2b (CALENDAR "confirm on the October print"): CONFIRMED NOT REVERSED** on the October DQ alone: office DQ rose, so the "declines in both" conjunct fails whatever October SS prints.

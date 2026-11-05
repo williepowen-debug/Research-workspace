@@ -1723,3 +1723,8 @@ Source per row is in `CASES.tsv` `sources` / `source_quality`; nothing here was 
 - **016 band question (WALTER's ask):** no CREED band is keyed to severity; the ~91% is a ledger datum, not a band input (`KB-CREED-041` is the severity home).
 - **Vocab gaps used, declared:** receivership (151 → FORECLOSURE + note) and equity-pledge enforcement (152 → UNKNOWN + note; 052 event OTHER). Not extending the vocabulary this session (scope).
 - **Not logged:** Picklr (corporate tenant Ch.11, no named property — SIG-W-20261013-023 asked for no ledger row) · Eagle Bancorp one-loan NPA migration (no named asset) · Starwood Regional Mall Portfolio and the other Trepp SS named transfers (not asked; available in the Trepp SS Sep text).
+
+### CASE-CREED-175 to 182 (logged 2026-11-05)
+**175 Wilshire Courtyard, 176 Cove at Tiburon:** Trepp October PDF p.2, PRIMARY-READ. 175's link to September's unnamed cure is CREED inference (`KB-CREED-095`). 176 is HOMER's to score.
+**177 Beaudry:** WSJ partial, CRE Daily header text only (rest gated); WALTER SIG-W-20261104-024. Cost ≠ value ≠ loss.
+**178–182 Denver:** WALTER REVIEW.md rows 1d–1i; all SECONDARY; purchase-price discounts, not loan losses. They span 2024–2026, so no November wave and no T-06 cluster. City Center keeps its $395M vs $400M inconsistency.
