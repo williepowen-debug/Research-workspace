@@ -1,6 +1,6 @@
 # WQ-607 research brief, after the November 5 close
 
-**Written** 2026-11-05 about 16:15 ET by PROME, from owner returns dated November 4 and 5. Market figures are vendor reads at 16:04 ET unless dated, not settled closes. No trade, gate or score changes here. CATO challenges by packet.
+**Written** 2026-11-05 16:05 ET by PROME, from owner returns dated November 4 and 5. Market figures are vendor reads at 16:04 ET unless dated, not settled closes. No trade, gate or score changes here. CATO challenges by packet.
 
 **Bottom line.** The AI selling spread through stocks today and has not reached credit or funding on anything measured so far. Credit and consumer evidence shows concentrated weakness, not broadening. Oil fell on hopes, not on a measured physical change. None of this changes an approved card or argues for adding risk today.
 
