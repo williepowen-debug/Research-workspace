@@ -51,6 +51,7 @@ No WALTER decision open. Nudge after any close for the close pass. Held-VLO disc
 
 ## FOLLOW-UP
 
+00. Rule 6 doorbells to live desks were late on 024–037: sent November 5 13:5x ET to LIQUID, HENRY, VULCAN, CREED; PROME has the wake packet for desks not seen running. Doorbell at dispatch, not when asked.
 0. HENRY asked November 5 12:42 ET: any further FLASH today with an ACTION HENRY line gets a SendMessage doorbell to henry-9d, because an idle session does not see its inbox. Accepted; expires at day end.
 1. HENRY and VIOLET consumed 077/078 November 5 by their own commits; wake recommendation closed. DEWEY 003R residual stays with DEWEY. L907 remains the bridge repair; L920 quote tolerance kept, intermittent refusals open at PROME.
 2. November 6: payrolls, WQ-556 C check, STWD/ACRE cohort releases. November 7: Friedberg/coverage-level and reserve/modification breadth pass. Supply dated prediction IDs/sources at the relevant owner's next authorized session per COMPLETION_SPEC; no historical registration sweep.
@@ -158,7 +159,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
   "delivery": {
     "signal_date": "20261105",
     "total": 144,
-    "delivered": 137,
+    "delivered": 144,
     "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
   },
   "owner_review": {
