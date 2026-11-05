@@ -4,7 +4,7 @@
 
 Split 2026-09-08 from `SIGNAL_PROCESSING_CHECKLIST.md`, Phase 2 step 7, verbatim. The dated August 22 example below is historical, including its "LIVE NOW" sentence; it is not today's WAL grade. The STATE RULE governs exit-carrying triggers, rather than suppression by elapsed sessions alone. Proximity alone is not an automatic fire dispatch; decision-changing information follows BOARD_CONSUMPTION_SPEC §3.5.3 as before.
 
-Size re-trigger: measure after any append and every Tier-2; next calendar check 2026-09-30. Keep the procedure and all active obligations on this read path; place new incident narrative in `history/`, with an evidence pointer here. Version stays in lockstep with the parent CHECKLIST.
+Size re-trigger: measure after any append and every Tier-2; calendar check done 2026-11-05 at 16,788 B; next at the next Tier-2. Keep the procedure and all active obligations on this read path; place new incident narrative in `history/`, with an evidence pointer here. Version stays in lockstep with the parent CHECKLIST.
 
 7. **Falsification-trigger auto-fire scan.** Before final dispatch session-end, scan `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` for any thresholds that crossed during the current session per JOINT_PROPOSAL_2026-05-06_red_walter §2 eval logic (read-loop step 6b in WALTER spawn-protocol; sustain-window check, threshold evaluation, last-fired suppression via `AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv`). For each sustained cross: auto-generate falsification-derived signal with:
    - `signal_type: threshold-crossed`

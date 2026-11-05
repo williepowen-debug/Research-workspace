@@ -1,6 +1,8 @@
 {
   "reviewed": [
-    "FORGE/tools/market-data/fetch.py"
+    "FORGE/tools/market-data/fetch.py",
+    "AGENTS/WALTER/design/ROUTING_TABLE.md",
+    "AGENTS/WALTER/design/THRESHOLD_SCAN.md"
   ],
-  "scope": "PROME 2663082a0c one-line quote tolerance, 1e-9 to 2e-7 relative; delta read. L920 remains unresolved at PROME."
+  "scope": "PROME 2663082a0c one-line quote tolerance, 1e-9 to 2e-7 relative; delta read. L920 remains unresolved at PROME. Sweep: version line and dated size note only, no operative rule changed."
 }

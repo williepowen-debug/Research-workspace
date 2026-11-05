@@ -21,7 +21,7 @@ November 4 total: 80 BOARD cards, 226 origin-proven handoffs. WAL Q3 source reco
 
 ## CHANGED
 
-Cards 077 FLASH, 078 and 079 IMMEDIATE, 080 PRIORITY, 17 handoffs. Iran anchor updated, next full sweep about November 12. DEEP_RESEARCH rows CARL-DR-1 and 003R updated; two DEWEY handoffs and PROME's WQ-598 packet consumed. WQ-598 A installed: charter steps 7i and 7e(g), BOOT_PROTOCOL, SPEC_OWNERSHIP, intake_scan queue, 15 tests, basis hashes. X re-authorized on the laptop.
+Cards 077 FLASH, 078 and 079 IMMEDIATE, 080 PRIORITY, 17 handoffs. Iran anchor updated, next full sweep about November 12. DEEP_RESEARCH rows CARL-DR-1 and 003R updated; two DEWEY handoffs and PROME's WQ-598 packet consumed. WQ-598 A installed: charter steps 7i and 7e(g), BOOT_PROTOCOL, SPEC_OWNERSHIP, intake_scan queue, 15 tests, basis hashes. X re-authorized on the laptop. Post-close sweep: anchor ladder brought to FALCON's November 4 grades; stale pointers, version line and log headers corrected; all 17 tool test files pass.
 
 ## RESULT
 

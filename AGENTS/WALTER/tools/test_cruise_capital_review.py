@@ -137,7 +137,8 @@ class Disposition(Base):
     def test_only_the_named_item_is_consumed_and_it_stays_consumed(self):
         self.day('2026-11-03', [row('Royal Caribbean Sandals loan'), row('Royal Caribbean revolver extended')])
         q, _ = self.queue()
-        self.assertEqual(s.cruise_disposition(q[0]['key'], 'FOLD', 'SIG-W-20261014-028'), 0)
+        with redirect_stdout(io.StringIO()):
+            self.assertEqual(s.cruise_disposition(q[0]['key'], 'FOLD', 'SIG-W-20261014-028'), 0)
         rest, _ = self.queue()
         self.assertEqual([c['key'] for c in rest], [q[1]['key']])
         rec = json.loads(self.state.read_text())['consumed'][q[0]['key']]
