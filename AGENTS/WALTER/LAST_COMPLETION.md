@@ -130,15 +130,20 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     },
     {
       "commit": "009238cdef9575d083e2d35ae1200b0a34ffe988",
-      "state": "pending",
-      "note": "Cards 024-025; IMMEDIATE push deferred, foreign untracked REGINALD work in the tree."
+      "state": "published",
+      "note": "Cards 024-025."
+    },
+    {
+      "commit": "934f37240e58897a4557b03794ee488aae7243ac",
+      "state": "published",
+      "note": "Correction 026; IMMEDIATE 024 safe-push on a verified-clean tree carried 024-026."
     }
   ],
   "delivery": {
     "signal_date": "20261105",
     "total": 88,
-    "delivered": 75,
-    "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate. Thirteen 024-026 rows pending push."
+    "delivered": 88,
+    "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -200,7 +205,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     "14": "MEMORY #62 added, #7 extended, #39 extended; calendar check stays November 12.",
     "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
     "15": "Duties and approvals retained; resume list and calendar cutoff updated; close pass carried first.",
-    "16": "Will-coordinated push pending; foreign untracked REGINALD files in the tree, so the IMMEDIATE exception was not used.",
+    "16": "IMMEDIATE 024 allowed safe-push on a verified-clean tree; reconcile applied.",
     "checks": "Results in research/2026-11-05_midday-boot/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
     "Tier1": "Vendor tape 12:19 ET; no close read."
   }
