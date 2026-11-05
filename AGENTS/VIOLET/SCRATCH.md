@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 5, 2026 12:00 ET (from `date`). Boot, then catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1). Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.7; convergence **32/50, re-scored and unchanged**. **Window held open: no closeout until PROME or Will asks.**
+**As of:** November 5, 2026 12:42 ET (from `date`). Live vol event open, close grade owed. Boot, then catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1). Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.7; convergence **32/50, re-scored and unchanged**. **Window held open: no closeout until PROME or Will asks.**
 
 ## CHANGES SINCE (10/30 16:50 ET → 11/05 09:39 ET)
 
