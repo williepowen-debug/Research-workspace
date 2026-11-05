@@ -85,92 +85,111 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-FULL desktop-switch closeout. Operational coverage PARTIAL. Publication is not consumption.
+FULL closeout on Will request. Operational coverage PARTIAL. Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-05T13:43:42Z",
-  "next_review": "2026-11-05",
+  "as_of": "2026-11-05T16:56:11Z",
+  "next_review": "2026-11-06",
   "publication": [
     {
-      "commit": "eef62c0009bbe373f239147bbd3aee8642a333a8",
+      "commit": "ee7cc22975fd838b901a1728e1dedf8f3e7c7d37",
       "state": "published",
-      "note": "FLASH 077 and IMMEDIATE 078 published by safe-push, verified-clean tree."
+      "note": "Cards 001-004."
     },
     {
-      "commit": "0caa70e5484c4107bec2c7cce4b84c27458e134d",
+      "commit": "725479117111ec7154eacd226265c16de6010204",
       "state": "published",
-      "note": "IMMEDIATE 079, sweep and anchor; published on a later push."
+      "note": "Cards 005-006."
     },
     {
-      "commit": "3a0ca52a3889a286d4bb859e4e0fb5cdd619e832",
+      "commit": "838cce50550511a130edce62acb24e04290872bd",
       "state": "published",
-      "note": "PRIORITY 080, DEWEY handoffs filed; published on a later push."
+      "note": "Cards 007-008."
     },
     {
-      "commit": "05d47a8c8ee1016244cc3073f3d089f3fd8793ec",
+      "commit": "a49eecc0be4cfb0bfe63d8644bf3c7b37ade1107",
       "state": "published",
-      "note": "WQ-598 install; published on a later push."
+      "note": "FLASH 016."
+    },
+    {
+      "commit": "a575b1449823620f19e1129b5f44a2a9ffe73139",
+      "state": "published",
+      "note": "FLASH 017; safe-push on a verified-clean tree carried 009-017."
+    },
+    {
+      "commit": "c5bc4038143139163c0001af7060f0382953315c",
+      "state": "published",
+      "note": "Cards 020-023."
+    },
+    {
+      "commit": "8acf77a2f98fa38e8457637ab1fa9941566a9dc2",
+      "state": "published",
+      "note": "Closeout records; safe-push on a verified-clean tree carried 018-023."
     }
   ],
   "delivery": {
-    "signal_date": "20261104",
-    "total": 226,
-    "delivered": 226,
-    "note": "All 226 day handoffs origin-proven. Named owner commits show TERRY, BRENT, FALCON, RED and CARL acted; recipient use otherwise separate."
+    "signal_date": "20261105",
+    "total": 75,
+    "delivered": 75,
+    "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_evening-boot/BOOT-RECEIPT.md",
-        "sha256": "7479c537b81bd49cd78ef56d58d62cb17977eb4a78f31bc3496bb375003339ba"
+        "path": "AGENTS/WALTER/research/2026-11-05_morning/THRESHOLD-SCAN.md",
+        "sha256": "799f8b060adb2d400b8bcddffac081ac65609c4bf5fd45da86be25bf1d8bb60b"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_evening-boot/crack-window-vwap.json",
-        "sha256": "55c1dc743480e6ddb017ffefb8ff2a9bea95e32a30ec2c1c2bdafaf095857d34"
+        "path": "AGENTS/WALTER/research/2026-11-05_morning/CALENDAR-RECONCILIATION.tsv",
+        "sha256": "066055c6287e0b1d66ca5fe2199d15c8345ffce3175a149fbeabe2ad90e45fab"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_evening-boot/basis-review.json",
-        "sha256": "c71da8de192f0b4293d2c8d495e56bdc91a875f17bb52a58addab5506274679f"
+        "path": "AGENTS/WALTER/research/2026-11-05_morning/STEP7-REVIEW.md",
+        "sha256": "f8f48f9f6a3139b46a08363f822b5a5b1ba9d196c9c17ecb227a0854ef9f7df3"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-05_iran-full-sweep/SWEEP.md",
-        "sha256": "554bcbfc3a4777aee38652eee3bc2c0cf62ed43f71d8436e6c9d5a75ac1e88ac"
+        "path": "AGENTS/WALTER/research/2026-11-05_morning/DISCOVERY.md",
+        "sha256": "758900388b27285f015d0a596f102f27a352077efd463c4de94a6529c21c41c9"
       },
       {
-        "path": "AGENTS/TERRY/research/2026-11-04_vlo-leg-a/NOTE.md",
-        "sha256": "6866d08f81f8f25e5f0b269187576d3304d23504bdbd598e7734e207651a9c7f"
+        "path": "AGENTS/WALTER/research/2026-11-05_morning/VERIFY-IRAN.md",
+        "sha256": "7dd399b98d2b0ecaff9b8214c9a49d914fbcb1e1aa3dbd1a24f74e17565d3bf4"
       },
       {
-        "path": "AGENTS/FALCON/reports/2026-11-04_weekly-review-gate001-fal07.md",
-        "sha256": "36ad0cfb5f00e23d98cbd461feee8d865f5e4cc1e2ae5e4e58591bee5f3d5ac5"
+        "path": "AGENTS/WALTER/research/2026-11-05_morning/VERIFY-AI-TAPE.md",
+        "sha256": "3ea539fa80fe82a74a374a3bc7e5e44852dbe900f07be29eb28c7f80e05e8658"
       },
       {
-        "path": "AGENTS/DEWEY/output/2026-11-04_carl-dr1-cof-q3-fdm-three-issuer-final.md",
-        "sha256": "65b45b0be88c6c7b91c5f13d3439939e61e65394b6e4d2c6d93c5bf22d428bbc"
+        "path": "AGENTS/WALTER/research/2026-11-05_bookmarks/REVIEW.md",
+        "sha256": "170e0fa123685f113753c0931de114f8784e0e9a8b6ec855293ef37cc5df4d05"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-05_L334/REPORT.md",
+        "sha256": "4d8e60936ad4959bd8ddee41bcf1ecaf06ace0314ab266f6cdec7b7486b509d3"
       }
     ]
   },
   "procedure": {
     "tier": "full",
-    "boot": "PARTIAL: reads and intake complete; X scan recovered after re-authorization; European dailies, official settlements and step 8 narrative were deferred to this closeout; November 5 morning pass not run.",
-    "session": "CLOSED for desktop switch on Will request; no active helper, study or unattended work."
+    "boot": "PARTIAL: step 7 ran after cards 001-015; desk STATUS reads partial; READS UNKNOWN on a stale attestation; November 5 collector run and close pass not reviewed.",
+    "session": "CLOSED on Will request; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "Cards 077-080 and 17 handoffs. No intake batch opened; 15 bookmarks staged, no manifest until reviewed.",
-    "13": "Nine changed owner leads compared; CARL, DAEDALUS, FALCON, ORACLE, RED, TERRY and self refreshed before NETWORK.",
-    "12(a,b)": "Counts and NETWORK refreshed; market rows retain observation dates, no fresh scan claimed.",
+    "11": "Cards 001-023 including FLASH 016 and 017. Batches BM-20261105-01 and -02 closed.",
+    "13": "Owner leads compared; BRENT, HENRY, LIQUID, VIOLET, BOND, PROME, CREED, AEOLUS, RED, TERRY, VULCAN, REGINALD and self refreshed before NETWORK.",
+    "12(a,b)": "Counts and NETWORK refreshed; last tape row is vendor intraday, no settled close claimed.",
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; standing flags unchanged.",
     "12(d,e)": "FULL session entry and current bottom line.",
-    "12(f)": "STATUS, MEMORY and LAST_COMPLETION under the rotation trigger. Charter 80% of budget, rotation owed and carried.",
-    "14": "MEMORY calendar check done; #60, #61 added; #26 re-pointed to step 7i.",
+    "12(f)": "STATUS and Iran anchor rotated verbatim. Charter 80% of budget stands: READ_CAP rule 20 does not bind it, earlier owed wording corrected.",
+    "14": "MEMORY #62 added, #7 extended, #39 extended; calendar check stays November 12.",
     "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
-    "15": "Duties and approvals retained; 003R PARKED recorded; desktop resume list and calendar cutoff added.",
-    "16": "Will requested the machine switch; publication outcome recorded in the final report, foreign uncommitted files untouched.",
-    "checks": "Results in research/2026-11-05_close/closeout/checks.json. Doctor 0 HIGH, 2 MED: 79 unconsumed older than 2 days (28 ACTION, oldest 17 days) and 003R PARKED. Ledger nudge reviewed: no kills, nothing substantive. Basis: PROME fetch.py tolerance delta read, hash renewed.",
-    "Tier1": "No new market pull at closeout."
+    "15": "Duties and approvals retained; resume list and calendar cutoff updated; close pass carried first.",
+    "16": "Will requested closeout; safe-push at verified-clean tree; reconcile applied.",
+    "checks": "Results in research/2026-11-05_final/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
+    "Tier1": "Last vendor tape 11:55 ET; no close read."
   }
 }
 END_CLOSEOUT_RECEIPT -->
