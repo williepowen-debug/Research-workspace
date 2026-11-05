@@ -285,3 +285,18 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-30T16:47:11-04:00	SIG-W-20261029-046	acted	WALTER	Fars 'massive Aramco attack' 10/29 = CLAIM-ONLY, no site; Houthi 10/29 list incl. Abqaiq (IN-class) uncorroborated; production rung NOT FIRED (KB-374).
 2026-10-30T16:47:11-04:00	DAEDALUS-2026-10-30-falsification-5	acted	INBOX	EXIT §2 date line reconciled to §5 (last 10/29, next 11/04). FAL-07 question: conflict with WQ-172 CONFIRMED; letter fix needs Will (routed via PROME memo). Reply in DAEDALUS inbox.
 2026-10-30T16:47:11-04:00	DAEDALUS-2026-10-30-wiring-17-run4	deferred	INBOX	IRAN-01 bands = a threshold change; deferred to 11/04 weekly review with a proposal. Stale OWED note superseded on VX row. Reply in DAEDALUS inbox.
+2026-11-04T21:10:00-05:00	SIG-W-20261031-015	noted	WALTER	Doha meeting reported; direct talks unsettled. Diplomacy vector 3. KB-384.
+2026-11-04T21:10:00-05:00	SIG-W-20261102-011	acted	WALTER	Two-day proposal conditional, no US acceptance. KB-384, FAL ladder unchanged.
+2026-11-04T21:10:00-05:00	SIG-W-20261102-012	acted	WALTER	AL MAYEDA row VI-0089; no loss. KB-382.
+2026-11-04T21:10:00-05:00	SIG-W-20261104-002	acted	WALTER	Qeshm 11/2 applied to WQ-559 letter. FAL-07 CONFIRMED with -019. KB-377.
+2026-11-04T21:10:00-05:00	SIG-W-20261104-017	acted	WALTER	IRGC two-tanker claim CLAIM-ONLY; series logged KB-383; no merge.
+2026-11-04T21:10:00-05:00	SIG-W-20261104-019	acted	WALTER	Public acknowledgment = on-record route; own read Al Jazeera quote; AFP 403 here. FAL-07 CONFIRMED. KB-377.
+2026-11-04T21:10:00-05:00	SIG-W-20261104-029	acted	WALTER	Chemical-weapons intel, Rezaei, Netanyahu lobbying kept separate. KB-384/385.
+2026-11-04T21:10:00-05:00	SIG-W-20261104-048	acted	WALTER	UKMTO 188-26 = AL MAYEDA on IMO position match. VI-0089, KB-382.
+2026-11-04T21:10:00-05:00	SIG-W-20261104-060	info-only	WALTER	Russia/maritime residual; no FALCON-theater item beyond a 10/21 Al-Faw title already held.
+2026-11-04T21:10:00-05:00	SIG-W-20261104-078	acted	WALTER	Marks reassessed: HELD 1/14/85; price is not a ladder event. KB-386.
+2026-11-04T21:10:00-05:00	SIG-W-20261104-079	acted	WALTER	Census 7, ladder 2, FAL-07 graded. SELAT STORM NAVAREA own fetch; IMO conflict carried. KB-380..383.
+2026-11-04T21:10:00-05:00	ORACLE-2026-11-04-ceasefire-legs	noted	INBOX	Corrected packet 2ae007fefd read; market context only; no market family differenced. Report §2.
+2026-11-04T21:10:00-05:00	PROME-2026-11-02-WQ559	acted	INBOX	Encoded ef9699a4e; PROME verifies cells.
+2026-11-04T21:10:00-05:00	PROME-2026-11-04-READS-L891	acted	INBOX	READS declaration in PROME memo.
+2026-11-04T21:10:00-05:00	DAEDALUS-2026-10-30-profile-refresh	acted	INBOX	Items 1-5, 8 DONE; 6, 7, 10-13 DEFERRED 11/11; 9 proposal routed. Reply in DAEDALUS inbox.

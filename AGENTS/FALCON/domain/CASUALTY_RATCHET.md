@@ -15,7 +15,11 @@
 | 🟢 **GREEN** | 30 days with zero confirmed killed in scope | same |
 **Revision policy:** bands change only through PROME to Will with the ledger evidence; the ledger itself is append-only (corrections as new rows with pointers). **Scope exclusions (registered):** Iranian military/IRGC combatants; Israel-front casualties (HAWK's); claim-only counts from Iranian or Houthi media without a second route.
 
-## 3. Current computed grade — 2026-10-26
+## 3. Current computed grade — 2026-11-04
+
+From CASUALTIES.tsv: recorded confirmed killed October 6–November 4 = 25 versus 2 September 6–October 5, RED rate-step stays lit. The base window is thin and CAS-2026-026 (10/10) is 12 of the 25, so the multiple is not a stable figure. Unknown casualty cells are excluded. New row CAS-2026-037 (AL JUSUFI, 11/2).
+
+**Prior grade 2026-10-26:**
 
 From CASUALTIES.tsv: recorded confirmed killed September 27–October 26 = 24 versus 7 August 28–September 26 (3.43x), RED rate-step remains lit. Unknown casualty cells are excluded, so this is the confirmed recorded count, not complete theater mortality. CAS-036 adds 2 October 25 civilian debris injuries, with killed/missing UNKNOWN. Injury totals are incomplete (current recorded numeric 388, prior numeric 82 plus approximately 70 and other unknown cells); no fresh firm ratio or ORANGE comparison claimed. No newly confirmed military-class fatality recovered; the class-step letter remains §2 under WQ-434. Prior computed view retained verbatim in domain/sources/CASUALTY_RATCHET_section3_before_2026-10-26.md.
 

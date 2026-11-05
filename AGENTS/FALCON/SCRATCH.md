@@ -1,38 +1,35 @@
-# FALCON SCRATCH — October 30, 2026, ~16:49 EDT evidence cutoff
+# FALCON SCRATCH — November 4, 2026, ~21:15 ET evidence cutoff
 
 ## CURRENT MARKS
-B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 6, unchanged (class i 2 · ii 2 · iii-B 2 · iii-A 0). FAL-06 OPEN 70% (resolves 11/05); FAL-07 OPEN 65% (NOT FIRED). GATE-FALCON-001 LIVE, next review_by 11/04. Claude Code, Opus 5.5.
+B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-07 CONFIRMED; FAL-06 OPEN 70%. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5.
 
-## CHANGES SINCE LAST SESSION (10/29 ~14:05 → 10/30 16:49)
-- 10/29: LOUISE 1 (Panama Suezmax) — two devices attached above the waterline ~25 NM NE Khasab, engine-room fire, continued voyage (UKMTO 187-26). RITI (oil tanker, Panama, HK-managed) — fire, anchored ~1 NM NW Ra's Tahir, 25 crew evacuated by Oman (NAVAREA IX 420/26 own fetch). Both unattributed.
-- Night 10/29–30: reported US strike on a Qeshm launcher, anonymous CENTCOM official only; Iran says jet intercepted.
-- "Ras Tanura distillation shutdown per Bloomberg" not established. Fars/Houthi 10/29 Aramco claims (incl. Abqaiq) claim-only.
+## CHANGES SINCE LAST SESSION (10/30 16:49 → 11/04)
+- US struck Qeshm night of 11/2; Trump on record 11/3. Brent −8.7% on 11/4 (BRENT's number). Democrats took Congress 11/3.
+- SELAT STORM sunk (NAVAREA IX 425/26; IMO "Damaged"). AL JUSUFI hit, 1 killed. ERA S, LARGO ATOM, GRIT, AL MAYEDA, ARZANAH added.
+- Two-day offer conditional; Rezaei "not convincing"; no text.
+- Sohar returned to PortWatch; bypass gauge two-port again.
 
 ## WHAT I DID
-- PROME relaunch spawn under DOCKET L886 (C8; first 15:23 spawn went dark). Graded SIG-W-20261030-011: KB-370..376, VESSELS VI-0086/0087 (+ data clock 10/30), EXIT §2 date line + #6 receipt, STRIKES mark → 10/29, PREDICTIONS 10/30 header line, VX SUNK-01 + IRAN-02 [Oct30] stamps, STATUS 10/30 grade table + BOTTOM LINE.
-- Inbox drained 4/4: WALTER 011 (acted) + 046 (acted); DAEDALUS falsification-5 (EXIT date DONE; FAL-07 search-date conflict routed to PROME for Will) + wiring-17 run 4 (IRAN-01 bands DEFERRED to 11/04; OWED note superseded). Reply packet in DAEDALUS inbox.
-- PortWatch: transit 10/25 DEEPENING unchanged; bypass DEGRADED rc 2 (Sohar empty), Fujairah HOLDING to 10/23.
+- Will-launched boot, PROME prome-b2 scope. WQ-559 encoded first (ef9699a4e). FAL-07 resolved CONFIRMED. Census, ladder, gate, weekly review on date. KB-377..390, VI-0088..0094, CAS-037, VX stamps, EXIT re-stamp, STRIKES mark 11/03, BABMANDAB Notes restored, PREDICTIONS rotated. Inbox and WALTER lane drained (15). Report `reports/2026-11-04_weekly-review-gate001-fal07.md`.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **RITI status** (any day): if declared a total loss (NAVAREA IX / IMO "Sunk"/constructive total loss), that's the first class (iii-A) and the third class-(iii) ⇒ EXIT §5 rewrite trigger + same-day memo to PROME, with no mark move (D 75→85 (a) already fired).
-2. **Qeshm / FAL-07**: re-check for an on-record CENTCOM/DoD/WH statement or two wires naming US forces; if found, resolve FAL-07 CONFIRMED in that session.
-3. October 31 (approx.): Iran's reply to Qatar's draft deal — diplomacy vector 3.
-4. November 1–2: Sinokor watch (FLOW-FALCON-05).
-5. November 4: weekly scenario + GATE-FALCON-001 review; bring the IRAN-01 band proposal (DAEDALUS wiring 17 #8).
-6. November 5: FAL-06 dated search ON that day. FAL-07 search-date ruling pending from Will via PROME.
+1. **November 5, ON that date: FAL-06 dated search** (letter in `thesis/PREDICTIONS.tsv`): operator/state notices (Aramco/Tadawul, MoE/SPA, ADNOC/WAM, KPC/KOC/KUNA, QatarEnergy/QNA, BNA, ONA) + latest Kpler/Vortexa weekly aggregate per Gulf-ally country, vendor lag stated. A later attempt = NO-VERDICT.
+2. November 5: EXIT §5 rewrite (dated limb + FAL-06 resolving).
+3. November 5: successor prediction before 0 OPEN; base rate first; separate limited strikes from a sustained campaign.
+4. November 11: weekly + gate review; DAEDALUS items 6, 7, 8 (LESSONS, MEMORY), 10–13.
+5. Band proposal (report §6) awaits PROME.
 
 ## OPEN THREADS / WATCHES
-- LOUISE 1 owner unreconciled (Indian-managed vs "UAE-owned"); 10/29 ~1600Z UKMTO "unknown projectile" tanker near Khasab not matched to any hull (RITI link unproven).
-- Abqaiq FIRMS population control not run this session (claim-only anyway).
-- UKMTO originals 403 from this box; IMO table lags (newest row 23 Oct).
-- Sohar series restoration (bypass DEGRADED; never read it as HOLDING).
+- RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; "JIF BARRACUDA" in WALTER's search unmatched.
+- Sinokor: no detention found; coverage only.
+- Fixes owed elsewhere: SCRATCH template and CHANGELOG still titled HAWK; TIMELINE stops at Day 244 (11/4 = Day 250).
 - Carried builds unchanged (KB-168 Yanbu proxy etc.).
 
 ## PREDICTIONS / DECISIONS
-None due. One Will decision via PROME: the FAL-07 failure-search date (12/31 vs a named 1/2 exception), not urgent before 12/31.
+FAL-06 due 11/05. No Will decision open.
 
 ## MAIL STATE
-FALCON inbox 0 top-level, WALTER lane 0 (all 4 moved to processed). DAEDALUS reply committed (carve-out ①).
+Inbox 0, WALTER lane 0. Packets sent: PROME, BRENT (cc HAWK via brief), RED, TERRY, DAEDALUS.
 
 ## PENDING PUSH / GIT
-No pull (shared tree carries other desks' work). Exact-path commits; safe-push at closeout per spawn prompt.
+Exact-path commits; safe-push at closeout.
