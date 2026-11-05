@@ -142,3 +142,76 @@ Issuer sector taxonomy was not in the fetched text, so Technology 7.71% and Comm
 
 **C10:** done on Will's word ("work on these next", 10:39 ET). `CLAUDE.md` line 14 re-spaced, wording only.
 
+
+## 14. Addendum: WALTER cards 013, 017, 024, 031, read 13:56 ET, written 13:58 ET
+
+Tape below is vendor delayed, 13:56 ET November 5, against November 4 raw closes. **Not closes, not a grade.**
+
+### 14.1 Card 017: funding and credit read
+
+| Read | Value | Date and basis | So what |
+|---|---:|---|---|
+| Standing Repo take-up | $0 and $0, both operations | November 5, NY Fed results API | Nobody used the Fed's backstop today. Absence is weak evidence: a stressed dealer can still avoid it |
+| Reverse repo | $0.125B | November 5, NY Fed | Empty, as it has been |
+| SOFR−IORB, SOFR99−IORB | +4, +12 bp | November 4, first-published | **Predates today.** November 5 publishes about 08:00 ET November 6 |
+| HYG, JNK, BKLN | −0.47%, −0.50%, −0.66% | tape | Proxy only; no cash spread for today exists |
+| LQD | +0.11% | tape | Investment grade is rising, so this is no dash for cash on this read |
+| BIZD, ARCC | −1.70%, −1.88% | tape | Weaker than bond funds, far less than AI names |
+| GS, MS | −6.33%, −6.44% | tape | **Gap:** I have no prime-brokerage financing data, so I cannot say whether this is earnings fear or funding |
+| XLF, KRE, WAL | −2.62%, −2.46%, −4.75% | tape | Banks now confirm the equity move. KRE was +0.75% at 10:29 ET |
+| SPY | −3.98% | tape | |
+
+**Read:** nothing I can see shows a financing constraint. Stress is equity-led and AI-centred, spreading into bank equities, not visibly into funding. That is working model only: every direct funding rate for today is unpublished, and proxies are weak in fast markets because ETFs and cash bonds can diverge.
+
+**L4 tape, not a grade:** IREN 18.04 (−16.93%), NBIS 118.26 (−16.44%), APLD 13.96 (−15.98%), CRWV 42.59 (−12.04%). Three of four sit past −15%. L4 needs a raw close at or past −15% AND HY +5 bp or more on the same session, so HY at 337 or wider, first-published.
+
+### 14.2 Card 031: Fed October SLOOS, Table 1 net percentages (owner read, primary)
+
+Net percentage = tightened minus eased, computed from Table 1 and tied to Table 1 row 29.A (22.0 − 4.9 = 17.1). Full table: `after_1355/sloos_oct2026_net_pct.txt`. Survey covers about Q3; answers were due about October 5 per card 031, so it predates this week.
+
+| Line | All | Large banks | Other banks |
+|---|---:|---:|---:|
+| Standards, business credit intermediaries | +22.0 | +20.0 | +23.4 |
+| Standards, private equity funds | +15.4 | +5.0 | +21.9 |
+| Standards, other NDFIs | +20.4 | +11.1 | +25.8 |
+| Demand, business credit intermediaries | +10.7 | +10.0 | +11.1 |
+| Demand, private equity funds | +5.4 | +15.0 | 0.0 |
+| NDFI terms: spread over cost of funds | 0.0 | **−30.0** | +17.1 |
+| NDFI terms: maximum line size | +5.4 | **−10.0** | +14.3 |
+| NDFI terms: premium on riskier loans | +18.6 | +5.2 | +25.7 |
+| Standards, construction and land | +15.6 | +10.0 | +18.5 |
+| Standards, nonfarm nonresidential | +8.8 | +5.2 | +10.6 |
+| Standards, multifamily | +8.8 | +5.0 | +10.8 |
+| Demand, construction / nonfarm / multifamily | −25.8 / −10.6 / −22.8 | −40.0 / −10.5 / −25.0 | −18.4 / −10.6 / −21.6 |
+| Standards, C&I large and middle | +1.7 | −4.5 | +5.2 |
+| Terms, C&I large and middle: spreads | −15.0 | −22.7 | −10.5 |
+
+CRE standards moved from net easing in July (−3.7 / −11.3 / −5.7, same questions) to net tightening. The July table asked a different NDFI question (level of standards), so **no like-for-like NDFI change exists here**.
+
+Why banks tightened NDFI lending, 21 respondents, very plus somewhat important: outlook 76.2%, NDFI borrower financial strength 71.4% (23.8% very), risk tolerance 66.7%, collateral risk 61.9%, correlated drawdowns 33.4%, **own capital 4.8%, own liquidity 4.8%**. Why NDFI demand rose, 13 respondents: working capital or liquidity needs 69.2%, refinancing needs 61.5%, shift from other banks 53.8%, shift from nonbank or capital markets 30.8%.
+
+**Read:** supportive of tightening at the margin for nonbank lenders, and it refines the card's "tighter on all NDFI". Standards are tighter on every type, but **large banks cut spreads and raised line size on net** while smaller banks tightened; large banks as a group were still competing on price. Banks attribute it to the borrower, not to their own balance sheets, so this is a credit-selection story, not a funding constraint at the banks. The ⚠️ is the demand side: borrowers asking for more bank money for liquidity and refinancing while standards tighten is what an early squeeze would look like. n=13, small, one quarter, net percentages count banks rather than dollars. No gate leg reads SLOOS.
+
+### 14.3 Cards 013, 024 (with 026, 029): Ueno and Paraguay, does a channel reach this book
+
+**No channel reaches a registered gate or level on what is measured. That is not an all-clear; about 95% of the bond's holders are undisclosed.**
+
+| Channel | Evidence | Read |
+|---|---|---|
+| US fund holdings | $17.9M face, 17 series, 5.1% of $350M, max 1.22% of a fund, pre-failure reports (REGINALD, N-PORT, CUSIP 903934AB3) | Small. About $332M undisclosed |
+| US bank loans or correspondents | None named; Citi and BNY named as counterparties, role and size unknown (REGINALD) | Not found, not excluded |
+| Sovereign spread | 119 → 138 bp, secondary, unverified | 19 bp, modest. Paraguay bond prices NOT read |
+| Currency | Vendor PYG=X 5,661.7 [October 29] → 5,786.8 [November 4] → 6,030.9 tape, +4.2% today, +6.5% from October 29 | Largest market move and accelerating. Smaller than the secondary +9–10% REGINALD carried; vendor mid, not a primary, and those press levels (6,160–6,500) are not on this feed |
+| Foreign Treasury holdings | Paraguay not named in TIC Table 5 major holders | Too small to list. Any reserve defence of the guaraní does not register at this scale; size of BCP Treasuries NOT read |
+| EM funds | EMB −0.43% tape | Same order as HYG on a −4% equity day; cannot isolate Paraguay |
+
+**Paraguay internally is the live contagion test**, not the US: Congress has not accepted the resignation; first guarantee payments unconfirmed; the other merger-facility banks (GNB, Sudameris, Continental) and Zeta as lender and trustee are REGINALD's relayed open tests, secondary. Balances at November 2 unknown. No withdrawal data found. Next steps belong to a live event, not a new study.
+
+### 14.4 Other packets integrated
+
+- **VULCAN, Oracle and Meta new issues, filing-primary:** reconciles with my CDS read as one picture. Meta 2031 +110 [November 3] against CDS 109–110 [November 4]; Oracle 2031 +275 [November 2] against CDS 292 [November 4]. Basis differs: bond over Treasuries at pricing against model-converted CDS, one and two days apart. Same-issuer widening of +145 to +175 (Oracle, since February) and +57 to +88 (Meta, since April) is the repricing; both deals cleared, which argues access, not closure. No trigger of mine fires on these.
+- **BROCK:** Q3 card reconciled on FSK, BXSL, OBDC, ARCC. Ladder row 10 (VIX +3 without HY widening) grades on my November 5 print; added to owed.
+- **CREED:** T-01a fired, info. Its open item on SLOOS percentages is answered in 14.2.
+- Card 010's CoreWeave yields (15–16%) stay a screenshot, not priced here.
+
+No gate, level, operator, instrument or consequence changed. No trade.

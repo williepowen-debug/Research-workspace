@@ -719,3 +719,24 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T21:25:57+00:00	SIG-W-20261104-074	info-only	INBOX_WALTER	Context only, no LIQUID grade. research/2026-11-04_credit-followthrough/REPORT.md
 2026-11-05T14:50:52+00:00	SIG-W-20261104-076	acted	INBOX_WALTER	Own signal echoed back; run count re-verified on first-published cells, still 4 observations through November 3. research/2026-11-05_live-catchup/REPORT.md
 2026-11-05T14:50:52+00:00	SIG-W-20261104-078	noted	INBOX_WALTER	Context only. Oil drop does not bear on a LIQUID gate; WQ-545 energy-to-credit stays unestablished. research/2026-11-05_live-catchup/REPORT.md
+2026-11-05T18:58:51+00:00	SIG-W-20261105-001	info-only	INBOX_WALTER	BoE 25 bp, context only
+2026-11-05T18:58:51+00:00	SIG-W-20261105-003	info-only	INBOX_WALTER	NREF marks, CREED census
+2026-11-05T18:58:51+00:00	SIG-W-20261105-009	info-only	INBOX_WALTER	Same November 4 HY and CCC already graded here
+2026-11-05T18:58:51+00:00	SIG-W-20261105-010	noted	INBOX_WALTER	CoreWeave yields stay a screenshot, not priced here. research/2026-11-05_live-catchup/REPORT.md 14.4
+2026-11-05T18:58:51+00:00	SIG-W-20261105-012	info-only	INBOX_WALTER	GSE common equity, HOMER, no funding read
+2026-11-05T18:58:51+00:00	SIG-W-20261105-013	acted	INBOX_WALTER	Channel answer at research/2026-11-05_live-catchup/REPORT.md 14.3
+2026-11-05T18:58:51+00:00	SIG-W-20261105-016	noted	INBOX_WALTER	Superseded by 017
+2026-11-05T18:58:51+00:00	SIG-W-20261105-017	acted	INBOX_WALTER	Funding and credit read at research/2026-11-05_live-catchup/REPORT.md 14.1
+2026-11-05T18:58:51+00:00	SIG-W-20261105-020	info-only	INBOX_WALTER	HENRY gamma, context
+2026-11-05T18:58:51+00:00	SIG-W-20261105-024	acted	INBOX_WALTER	Channel answer at research/2026-11-05_live-catchup/REPORT.md 14.3
+2026-11-05T18:58:51+00:00	SIG-W-20261105-025	info-only	INBOX_WALTER	REGINALD, not a sector signal
+2026-11-05T18:58:51+00:00	SIG-W-20261105-026	acted	INBOX_WALTER	Holdings carried at research/2026-11-05_live-catchup/REPORT.md 14.3
+2026-11-05T18:58:51+00:00	SIG-W-20261105-027	info-only	INBOX_WALTER	HENRY midday, context
+2026-11-05T18:58:51+00:00	SIG-W-20261105-028	info-only	INBOX_WALTER	REGINALD, contained
+2026-11-05T18:58:51+00:00	SIG-W-20261105-029	acted	INBOX_WALTER	Citi and BNY role unknown carried at research/2026-11-05_live-catchup/REPORT.md 14.3
+2026-11-05T18:58:51+00:00	SIG-W-20261105-030	info-only	INBOX_WALTER	Arkea cyber, CYPHER
+2026-11-05T18:58:51+00:00	SIG-W-20261105-031	acted	INBOX_WALTER	Table 1 net percentages read at primary, research/2026-11-05_live-catchup/REPORT.md 14.2
+2026-11-05T18:58:51+00:00	SIG-W-20261105-032	info-only	INBOX_WALTER	BCRED tender, BROCK owns GATE-BRK-R2
+2026-11-05T18:58:51+00:00	SIG-W-20261105-033	info-only	INBOX_WALTER	Trepp SASB, CREED
+2026-11-05T18:58:51+00:00	SIG-W-20261105-038	info-only	INBOX_WALTER	REGINALD correction, not re-pulled
+2026-11-05T18:58:51+00:00	SIG-W-20261105-040	info-only	INBOX_WALTER	REGINALD framing fix
