@@ -2,7 +2,7 @@
 
 Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-05.md`. Full read: `research/2026-11-05_selloff-read/REPORT.md`.
 
-**Mid-flight 11/05:** session stays open until PROME or Will asks for closeout. Still owed today: close refresh of the tape and the 39-name discount · CABO Q3 release and 10-Q (L876) · L916 final after 17:30 ET · ladder row 10 and CCC/BB on LIQUID's 11/05 print.
+**Mid-flight 11/05:** session stays open until PROME or Will asks for closeout. Still owed today: close refresh of the tape and the 39-name discount · CABO Q3 release and 10-Q (L876) · L916 final after 17:30 ET · ladder row 10 and CCC/BB on LIQUID's 11/05 print, which lands about 10:30 ET Fri 11/06 (PROME correction).
 
 **Next-boot first moves:**
 1. **Mon 11/09 after ~16:30 ET or Tue 11/10 AM:** CRMT tenth-bridge STD read, whole feed from 11/05 08:01 ET, every form, INDEX acceptance time. Same read: backstop #7 Tue 11/10.

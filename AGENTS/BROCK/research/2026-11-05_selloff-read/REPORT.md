@@ -60,7 +60,7 @@ Changes since 11/02 came from filings, not from the price move.
 | GATE-BRK-R2 | FIRED ×2, unchanged | BCRED Q3 final 49.9%, (b) NOT FIRED. Next read BCRED Q4 letter ~12/04, not ~12/03: offer expires 12/1 11:59 pm ET and the Q3 letter came +3 days after expiry. INFERRED; read from the feed. GCRED below 5%, 100% honored, is a counter-datum outside the population |
 | Ladder row 1, APO | Unchanged | $116.98. Below $130, far from $145. The $100 all-desk alert is 14.5% away |
 | Ladder row 6, >5% quarterly NAV markdown | NOT FIRED so far in Q3 | Worst filed BXSL −1.10% |
-| **Ladder row 10, VIX +3 without HY widening** | **OPEN TONIGHT** | VIX ~26 vs 16.61 [11/4]. Whether HY widened is LIQUID's print. The row has no numeric definition of "widening" and I do not invent one. Owner HENRY/VIOLET; BROCK only routes |
+| **Ladder row 10, VIX +3 without HY widening** | **OPEN until the 11/5 HY cell, about 10:30 ET 11/06** | VIX ~26 vs 16.61 [11/4]. Whether HY widened is LIQUID's print. The row has no numeric definition of "widening" and I do not invent one. Owner HENRY/VIOLET; BROCK only routes |
 | W3 FSK leg (11/30) | **NOT REVERSED on Q3** | Ex-waiver coverage 0.95x, §4 |
 | PIK vector | 🟠(3) held | Every measured name below 20% of TII |
 | Blue Owl liquidity | 🔴🔴(5), at ceiling | OTF NII below dividend, no cut declared, §4 |
@@ -174,7 +174,7 @@ Nothing below is established today. Any one of these would move it from correlat
 | Claim | Evidence that would establish it | Owner |
 |---|---|---|
 | Private-credit stress caused it | A primary filing: a named fund or BDC discloses a forced sale, margin call, facility default or new gate | BROCK |
-| Credit transmission is live | Tonight's tiers: HY wider with CCC/BB UP during the widening, then LIQUID's tier rule | LIQUID |
+| Credit transmission is live | The 11/5 tiers, about 10:30 ET 11/06: HY wider with CCC/BB UP during the widening, then LIQUID's tier rule | LIQUID |
 | Wrappers leading | Wrappers' residual below managers' by ≥1σ on two consecutive widenings, CCC/BB up | PROME decides X1-R |
 | Forced selling or leverage unwinding | Prime-broker or dealer statement, or an 8-K from GS or MS; loan-fund and BDC blocks at distressed prices | LIQUID / REGINALD |
 | Bank exposure | Reserve build attributed to PC/NDFI at a BRK-31 bank | REGINALD |
