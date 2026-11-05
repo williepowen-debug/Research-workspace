@@ -1,6 +1,6 @@
 # DAEDALUS STATUS
 
-**Last Updated: 2026-11-05 — WQ-601 applied except FALCON:32 by packet; WQ-600 complete on the laptop, corrected (`runs/2026-11-04_WQ600_SEC_CONTACT.md`). October 23 harness skips itemized (`runs/2026-11-04_HARNESS_SKIPS_RECONCILIATION.md`), WQ-601 units 1–3 applied, WQ-600 partial. LIQUID Gate 069 L4 result read WITHHELD (`runs/2026-11-04_LIQ069_RESULT_REVIEW.md`). Harness audit remaining-items reconciliation complete; owner application and whole-audit closure remain PARTIAL. Record: `runs/2026-11-04_HARNESS_RECONCILIATION.md`. Prior catch-up and November 2 whole-review cutoffs unchanged.**
+**Last Updated: 2026-11-05 — WQ-602 blueprints applied; WQ-601 applied except FALCON by packet, Will confirming unit 5; WQ-600 complete on the laptop, corrected (`runs/2026-11-04_WQ600_SEC_CONTACT.md`). October 23 harness skips itemized (`runs/2026-11-04_HARNESS_SKIPS_RECONCILIATION.md`), WQ-601 units 1–3 applied, WQ-600 partial. LIQUID Gate 069 L4 result read WITHHELD (`runs/2026-11-04_LIQ069_RESULT_REVIEW.md`). Harness audit remaining-items reconciliation complete; owner application and whole-audit closure remain PARTIAL. Record: `runs/2026-11-04_HARNESS_RECONCILIATION.md`. Prior catch-up and November 2 whole-review cutoffs unchanged.**
 
 **Current judgment:** The separate twelve profile deltas and fourteen-proposal dispositions are complete, L889 reading-copy repair independently accepted, and HOMER now independently L4/H. Thirty map rows re-cut; thirty-seven live profile deltas preserve old whole vintages. This is bounded review completion, not fleet-wide clearance: whole Harness/profile clocks and unimplemented tool/owner work remain open. DAEDALUS L4/M retained, no L5 adjudication.
 
@@ -79,7 +79,7 @@
 
 ## BOTTOM LINE — 2026-11-05
 
-- **WORK:** LIQUID Gate 069 read WITHHELD. Harness skips itemized, 31 legs. WQ-601 applied except FALCON:32 by packet. WQ-600 complete on the laptop, corrected after DEWEY's report. Whole audit PARTIAL. Session active.
+- **WORK:** LIQUID Gate 069 read WITHHELD. Harness skips itemized, 31 legs. WQ-602 applied. WQ-601 applied except FALCON by packet. WQ-600 complete on the laptop, corrected after DEWEY's report. Whole audit PARTIAL. Session active.
 - **CHECKS:** 13 helper tests pass on both Pythons; 8 of 8 SEC tools refuse safely; live SEC, FRED, TreasuryDirect, BIS and GitHub pass. Whole Harness and profile clocks DUE, July 7 unchanged. Closeout result in `runs/GATE_LOG.tsv`.
 - **DELIVERY:** Commits and receipt follow this STATUS's commit. PROME, FALCON, LIQUID, NEXUS and ZHAO packets unconsumed at write.
-- **OPEN:** Blueprint edit awaits a Will row via PROME. FALCON:32, LIQUID line 257 repair, B24, desktop `.env` line. A09, TERRY B44/D17 November 6, root rotation (PROME), L490/scorecard November 6. Pending filing: L817 two, NEXUS, L882; pending intake: RED, ORACLE, TERRY, FALCON replies. Unrelated obligations above unchanged.
+- **OPEN:** Will confirms WQ-601 units 4–5 at FALCON; if not approval, revert c251b07996. STUE push clause reported to PROME. LIQUID line 257 repair, B24, desktop `.env` line. A09, TERRY B44/D17 November 6, root rotation (PROME), L490/scorecard November 6. Pending filing: L817 two, NEXUS, L882; pending intake: RED, ORACLE, TERRY, FALCON replies. Unrelated obligations above unchanged.

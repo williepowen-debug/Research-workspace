@@ -108,6 +108,10 @@ Will's word verified at `PROME/proposals/2026-11-04_wq591-601-RULED.md` and the 
 
 Unit 4 at CYPHER:152, ISHM:209. Unit 5 at CYPHER:15, :30, :196, FERT:15, ISHM:27, :56, :278, YURI:95, ZHAO:242; packet to live FALCON for :32 and uncited :104. Unit 6 no change. CYPHER:196 named the source: this clause is DAEDALUS's own blueprint rule, `market-agent.md:123` and `utility-agent.md:33`. Blueprint meaning is WQ-348 K4, so the edit went to PROME for a Will row; not edited.
 
+## WQ-602 (Will 2026-11-05 08:38 ET, applied)
+
+`market-agent.md:123` and `utility-agent.md:33` changed; no copy remains in BLUEPRINTS. `utility-agent.md` read "no-push-when-spawned" without "(coordinator sweeps)", so the ruled replacement took that phrase's place. Read-only report: LABOR:27, :94 already follow root under WQ-438 (iv), Will 2026-10-15, no conflict. `CARL/sub_agents/STUE/CLAUDE.md:24`, :274 keep a session-type rule; see the PROME completion packet. Not edited.
+
 ## Whole-audit remainder
 
 After this pass: C17, A09 (DAEDALUS gate-spec consumer review), TERRY B44/D17 November 6, root rotation (PROME). July 7 whole-run clock unchanged: approved edits above are not applied, and no fresh fleet-wide re-test ran.

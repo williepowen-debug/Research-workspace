@@ -6,6 +6,10 @@
 
 ## Changelog
 
+### 2026-11-05 (a) — Spawned-mode push rule replaced in two blueprints (WQ-602)
+
+Will 08:38 ET, "WQ-602 approved with your rec"; record `PROME/proposals/2026-11-05_wq602-RULED.md`. `market-agent.md:123` and `utility-agent.md:33` now say root governs; a coordinator handoff that retains push custody is the one exception.
+
 ### 2026-10-30 (a) — CHECK_STANDARD §10 retroactive leg RAN; the scanner reads kill rails inside STATUS.md (PAIRING RECORDED LATE)
 
 **PAIRING RECORDED LATE 5245549a17439fce9d223ff23be48174417287a9** — that commit edited `BLUEPRINTS/CHECK_STANDARD.md` §10 without this entry; caught by `complete_check` at the same session's closeout. **The standard did not change:** §10's text gained a dated RAN note (the retroactive leg planned for 8/28 ran 10/30: 45 applicable mechanisms, 12 violate as written, 5 exclude DAEDALUS in fact; 14 fixes proposed, none applied — `runs/2026-10-30_CHECK_STANDARD_10_RETROACTIVE.md`). **Instrument change, same session:** `falsification_scan.py` now reads the blueprint's labelled `Kill rail re-derived:` stamp anywhere in STATUS.md (`design/2026-10-30_FALSIFICATION_SCAN_STATUS_RAIL.md`, AC1–AC6; fleet diff 3 rows added, 0 changed), which narrows the gap the 10/23 (a) entry opened: the blueprint's own label is now honoured in thesis and STATUS files. Still owed, proposed for the 11/04 Production Review: one blueprint freshness label (Falsification #5 over-flagged 62.5% on four labels desks actually use), never prose matching. Wiring ⑰ method rulings (v)–(vii) live in `sweeps/WIRING_SWEEP.md` (sweep method, not the standard).

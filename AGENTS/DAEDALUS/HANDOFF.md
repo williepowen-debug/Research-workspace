@@ -13,7 +13,7 @@ Will: “Okay lets close out here and continue these on the other side.” No fu
 
 ## Resume order and limits
 
-1. DONE November 4 evening: `runs/2026-11-04_HARNESS_SKIPS_RECONCILIATION.md` itemizes 24 ledger legs plus 7 unrecorded legs. Do not repeat. PROME answered 20:59 ET: 14 LOW legs accepted, B24 packets sent to NEXUS and ZHAO, C10 routed to LIQUID. WQ-601 all units ruled and applied, except FALCON:32 by packet. Blueprint edit (`market-agent.md:123`, `utility-agent.md:33`) awaits a Will row via PROME: do not edit before his word. WQ-600 complete on the laptop: `runs/2026-11-04_WQ600_SEC_CONTACT.md`; desktop `.env` line unverified.
+1. DONE November 4 evening: `runs/2026-11-04_HARNESS_SKIPS_RECONCILIATION.md` itemizes 24 ledger legs plus 7 unrecorded legs. Do not repeat. PROME answered 20:59 ET: 14 LOW legs accepted, B24 packets sent to NEXUS and ZHAO, C10 routed to LIQUID. WQ-601 all units ruled and applied, except FALCON:32 by packet. WQ-602 applied to both blueprints. FALCON is confirming unit 5 with Will directly; if his word was not approval, revert c251b07996. WQ-600 complete on the laptop: `runs/2026-11-04_WQ600_SEC_CONTACT.md`; desktop `.env` line unverified.
 2. C17 APPLIED at eight desks; FALCON by packet. OZK/FLG/GIBBS spawned-session no-push clauses versus root commit/push. PROME identified root as governing; owner-directed cleanup remains. Respect live/UNKNOWN target ownership; do not change charters merely because prior scope was approved.
 3. A09: DAEDALUS gate-spec consumer review remains deferred. Preserve existing guard obligations until reviewed; no new checker or rule.
 4. TERRY B44/D17: owner review November 6, not automatically completed. Verify actual narrative moves and consumer effects. WALTER's prior 5/5 completion stands.
