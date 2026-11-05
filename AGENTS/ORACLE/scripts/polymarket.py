@@ -140,6 +140,24 @@ def market_by_slug(slug):
     return parse_market(d[0]) if d else None
 
 
+def closed_outcome(slug):
+    """What a pin that left the active feed actually became (KB-ORC-101; MAINTENANCE 2026-09-17).
+    Gamma drops resolved markets from the default query, so "not found" alone cannot tell a
+    resolution from a bad slug. Returns 'RESOLVED YES|NO ... closed <time>' or None."""
+    d = _get("/markets", {"slug": slug, "closed": "true"})
+    if not d:
+        return None
+    m = d[0]
+    try:
+        prices = [float(x) for x in json.loads(m.get("outcomePrices") or "[]")]
+        names = json.loads(m.get("outcomes") or "[]")
+    except (TypeError, ValueError):
+        return None
+    if len(prices) != len(names) or not prices or max(prices) < 0.99:
+        return f"CLOSED, no clean outcome (prices {prices})"
+    return f"RESOLVED {names[prices.index(max(prices))].upper()}, closed {str(m.get('closedTime'))[:16]}Z"
+
+
 def event_by_slug(slug):
     d = _get("/events", {"slug": slug})
     if not d:
@@ -476,9 +494,21 @@ def cmd_pull(args):
         # used to be SILENTLY skipped (identical to a healthy pin) — root cause of the
         # 7/22 8-pin silent-rot lapse. Now it shouts. Also de-risks the WTI month-roll.
         if notfound:
-            print("\n⛔ PINNED BUT NOT FOUND — re-pin or retire (silent-rot guard):")
+            found_closed, missing = [], []
             for l, slug in notfound:
-                print(f"   - {l}  [{slug}]")
+                try:
+                    state = closed_outcome(slug.split("  [")[0])
+                except Exception:
+                    state = None
+                (found_closed if state else missing).append((l, slug, state))
+            if found_closed:
+                print("\n✅ PIN RESOLVED (left the active feed; a resolution can BE the signal; read it, then retire):")
+                for l, slug, state in found_closed:
+                    print(f"   - {l}: {state}  [{slug}]")
+            if missing:
+                print("\n⛔ PINNED BUT NOT FOUND — re-pin or retire (silent-rot guard):")
+                for l, slug, _ in missing:
+                    print(f"   - {l}  [{slug}]")
     if args.log:
         # #2 (2026-07-24): double-log guard. Re-running `pull --log` within the same
         # session (e.g. after a fix) used to append a duplicate snapshot. Skip slugs

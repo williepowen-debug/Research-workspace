@@ -1,28 +1,31 @@
 # ORACLE — NEXUS Brief
 
-**As of:** **2026-10-29T00:44–00:5xZ (Wed 10/28 20:44 ET, Will-launched catch-up; DOCKET L729 read for ET 10/28)** | **STATUS commit:** see `git log -1 -- AGENTS/ORACLE/STATUS.md` (same commit as this brief) | **Box:** LAPTOP, Kalshi UNSIGNED (public read).
-**Status:** 🟠. Fed held 10/28 as priced; December now ~80% hike. November $110 oil leg pinned at 52.5% on thin trading; Iran ceasefire priced to break in November.
+**As of:** **2026-11-05T01:40–01:45Z (Wed 11/04 20:40 ET, Will-launched catch-up; the 11/04 read is the routine's 10:15 ET pull)** | **STATUS commit:** see `git log -1 -- AGENTS/ORACLE/STATUS.md` (same commit as this brief) | **Box:** LAPTOP, Kalshi UNSIGNED (public read).
+**Status:** 🔴. PM ceasefire markets resolved NO on the 11/2 strike window; November $110 Alert fired 10/30 and cleared 11/04; December hike ~80%; midterms resolved as priced.
 **Domain:** Prediction-market monitoring (Polymarket + Kalshi): crowd-implied probabilities and crowd-vs-thesis divergence. Inbound routed by WALTER.
-**Constraint honored:** no trade implied, no P&L, no position language. No new level set: the Nov pin follows the ruled letter (§5, §9.4).
+**Constraint honored:** no trade implied, no P&L, no position language. No level moved: grades follow the ruled letter (§10).
 
-> **★ THE ONE THING: THE NOVEMBER $110 WTI LEG OPENED AT 52.5% — AND THE VX-ORC-04 ALERT CAN FIRE AT THE 10/30 READ.**
-> Polymarket Nov $110 touch (ICE Pyth CLL) **52.5%** at 00:46Z — **entry read: thin volume, run 1, NOT armed, NOT an alert** · liq $28.6K (QUALIFIED) · ⚠️ **lifetime volume $3.4K** — quoted more than traded · CLOB since 10/25 listing 50 → 60 → 38 → 52.5. Ladder $120 14.5 · $130 3.6. October $110 exits at 3.6% (2 sessions left). CME CLZ26 proxy $102.04 (evening) ⇒ +7.8% to $110. Spread (Nov segment, first row) **+36.0pp** — never compared to Oct's +84.9. Alert rule: an armed run of 3 qualified reads each ≥40.0 — earliest possible fire is the 10/30 read. BRENT owns the barrels.
+> **★ THE ONE THING: THE CROWD PRICES ANOTHER US STRIKE AT 58.5% BY 11/30 AND $110 OIL AT 13.0%.**
+> PM "effective ceasefire" (created 2026-11-04T06:07Z; a US strike landing on Iran = NO; counts only from creation) 11/15 **56.5** · 11/30 **41.5** · 12/31 **30.0** (legs vol $36K–$77K). WTI $110 Nov **13.0** (Gamma d1 −20.5; vol $34.4K, liq $28.7K). US invade Iran 10.5 (d1 −9.0, $77.8M). Blockade-end 12/31 43.4 · 3/31/27 71.0 (d1 +8.0). The crowd separates limited strikes from a supply shock. No deal or reopening established (SIG-W-20261104-078). HAWK owns the reality.
 >
-> **★ ROUTINE (WQ-527 C):** daily pulls now run on a laptop cron (weekdays, while WSL is up); a live session still grades. **VX-ORC-12 (WQ-528 A)** encoded: Dec hike 79.5 read 1; live question = a collapse below 50.0 (de-alert) or the 12/09 hike.
+> **★ CEASEFIRE:** PM through 11/30 and 12/31 **resolved NO** (closed 2026-11-03T03:23Z, 03:07Z; vol $1.26M, $1.24M; 11/30 leg 36.0 → 0.6 in 3h). ⚠️ The word misleads: NO = a US air or missile strike landing on Iranian soil, no defensive exemption. Consistent with the reported Qeshm strikes (SIG-W-20261104-002, -019). The market names no trigger; not a FAL-07 grade. KB-ORC-111.
 >
-> **★ FED:** **HELD 10/28** — PM no-change resolved YES / hike-25 NO (closed 20:01:40Z); Kalshi `>4.00` finalized 3.0. The crowd had it (~95% hold). VX-ORC-11 retired unfired. December: PM HIKE-at-Dec **79.5** ($557.3K liq) · Kalshi ≥1 more by Dec **83.0** (OI 50.0K) · two more 4.0. Count ladder 2 hikes in 2026 80.0.
+> **★ OIL GATE:** VX-ORC-04 Alert **fired 10/30, cleared 11/04**, graded late. Reads 52.5 · 52.5 · 64.0 · 36.5 · 30.5 · 25.5. ⚠️ The 10/29 read came 7h42m after Polymarket's 18:33Z halt; excluded, no Alert fired. VX-ORC-07 🔴 Critical: $110 Nov 42.0 → 13.0 in 36h. Spread +64.0 (11/04 read), +76.5 (context). October $110 resolved NO.
 >
-> **★ IRAN:** ceasefire through 10/31 **96.7** → **11/30 39.5** ($981.1K vol; 44.5 on 10/19) → 12/31 27.5. Blockade-end 12/31 **40.5** (Δ7d +6.7) · 3/31/27 61.5. Next senior meeting by 12/31 39.5 (Δ30d −44). Invade <2027 18.5 ($75.7M) · regime fall 5.5. Hormuz-normal-by-Dec 11.5 (PortWatch PRINT basis). HAWK owns the reality.
+> **★ FED:** PM HIKE-at-Dec reads 79.5 · 69.5 · 70.5 · 70.5 · 73.5 · **80.5** (11/04); Kalshi ≥1 more by Dec **81.0** (OI 92.1K). VX-ORC-12 Alert held since 10/29, mechanical, not news.
 >
-> **★ BANK FAILURE:** any-bank by 12/31 **73.0%** on a **$1.7K-liq** book (42.0 → 84.5 → 58.5 → 73.0 since 10/15): four thin prints, not a crowd view, not routed. Bailout <2027 7.0 (thin).
+> **★ MIDTERMS:** House D and Senate D both resolved YES; last reads 94.5, 74.5 (KB-ORC-114). **NEH** text read: 13 extreme events, so 88.5 is a high-bar basket, not a complacency gauge (KB-ORC-115).
+>
+> **★ BANK FAILURE:** any-bank by 12/31 **70.5** on a **$2.0K-liq** book: not a crowd view, not routed.
 
 ---
 
 ## Cross-agent tensions
 
-1. 🟠 **ORACLE ↔ BRENT/HAWK: November $110 at 52.5% on $3.4K of trading.** A coin-flip price on a near-empty tape; if it holds ≥40 for two more reads the Alert fires on thin conviction. Packet sent to BRENT.
-2. 🟠 **ORACLE ↔ BOND/TERRY: 10Y resolution basis.** The ladder resolves on the Treasury par "10 Yr"; gates key on DGS10. Equivalence unconfirmed since 9/17.
-3. 🟠 **ORACLE ↔ RED: recession definitions.** Kalshi GDP-rule 3.0 vs PM GDP-or-NBER 6.0 is structural (KB-ORC-099).
+1. 🟠 **ORACLE ↔ BRENT/HAWK/FALCON: strike odds vs oil odds.** Another US strike 58.5 by 11/30 against $110 at 13.0. Packets sent 11/04.
+2. 🟠 **ORACLE ↔ FALCON: market resolution vs FAL-07.** The market resolved 11/03; FALCON's registered confirmation test is separate. The market text has no defensive exemption. ORACLE does not grade FAL-07.
+3. 🟠 **ORACLE ↔ BOND/TERRY: 10Y resolution basis.** The ladder resolves on the Treasury par "10 Yr"; gates key on DGS10. Equivalence unconfirmed since 9/17.
+4. 🟠 **ORACLE ↔ RED: recession definitions.** Kalshi GDP-rule 2.0 vs PM GDP-or-NBER 4.5 is structural (KB-ORC-099).
 
 ---
 
@@ -30,13 +33,11 @@
 
 | Date | Event | Instrument | Note |
 |---|---|---|---|
-| Thu 10/29, Fri 10/30 | DOCKET L729 reads (last two) | PM Nov $110 leg · VX-ORC-04 | Alert fires at 10/30 if both ≥40.0 |
-| Thu 10/29 (PM ends 10/30) | BOJ October MPM | PM top 99.9 / Kalshi 97.0 | → SAM |
-| Fri 10/30 | Kalshi Brent Oct-30 settle-ref | `>$98.99` 98.0 / `>$100.99` 95.0 | → BRENT, FALCON |
-| Sat 10/31 23:59 ET | October $110 leg closes | v5 Oct | record NO/YES |
-| Tue 11/03 | US midterms | untracked (House D 92.5, Senate D 67.5) | pin decision with PROME |
-| Fri 11/06 | October jobs | Kalshi U3 `>4.1` 68.0 / `>4.2` 31.0 | → LABOR, HENRY |
-| ~mid-Nov | October CPI | PM modal 3.7% at 90.0 ($8.1K liq) | → HENRY |
+| Fri 11/06 | October jobs | Kalshi U3 `>4.1` 68.0 / `>4.2` 27.0 | → LABOR, HENRY |
+| Sat 11/07 | Effective ceasefire 11/6 leg window | PM 88.5 | opens to the third date after; → HAWK, FALCON |
+| Wed 11/11 | October CPI market end | PM modal 3.7% at 90.0 ($6.9K liq) | → HENRY |
+| 11/15 | Effective ceasefire | PM 56.5 | → HAWK, FALCON |
 | 2026-11-17T01:00Z | Nov $110 Active-Month switch Dec26→Jan27 (INFERRED) | v5 Nov | R3 reset |
-| Wed 12/09 | FOMC December | PM hike 79.5 / Kalshi 83.0 | → LIQUID, HENRY, BOND |
+| 11/30 | Effective ceasefire · blockade-end · Hormuz normal | PM 41.5 · 23.5 · 3.8 | → HAWK, BRENT, FALCON |
+| Wed 12/09 | FOMC December | PM hike 80.5 read / Kalshi 81.0 | → LIQUID, HENRY, BOND |
 | 2026-12-15 | Kalshi gap-fill quarterly re-check (WQ-305) | KXCREDEFMAX · KXCCDELINQ · KXCCCHGOFF · KXFEDFACILITY | |

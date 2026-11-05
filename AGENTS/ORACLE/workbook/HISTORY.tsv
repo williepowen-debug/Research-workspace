@@ -363,6 +363,11 @@ us-recession-by-end-of-2026	US recession 2026	2026-10-21	0.075
 us-recession-by-end-of-2026	US recession 2026	2026-10-24	0.075
 us-recession-by-end-of-2026	US recession 2026	2026-10-25	0.085
 us-recession-by-end-of-2026	US recession 2026	2026-10-28	0.075
+us-recession-by-end-of-2026	US recession 2026	2026-10-30	0.07
+us-recession-by-end-of-2026	US recession 2026	2026-11-02	0.055
+us-recession-by-end-of-2026	US recession 2026	2026-11-03	0.055
+us-recession-by-end-of-2026	US recession 2026	2026-11-04	0.055
+us-recession-by-end-of-2026	US recession 2026	2026-11-05	0.055
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2025-09-30	0.15
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2025-10-01	0.105
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2025-10-02	0.065
@@ -727,6 +732,11 @@ will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-10-21	0.9695
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-10-25	0.967
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-10-28	0.9595
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-10-29	0.967
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-10-30	0.9715
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-02	0.9665
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-03	0.9695
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-04	0.9695
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-05	0.9775
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-09-30	0.23
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-10-01	0.165
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-10-02	0.13
@@ -1099,7 +1109,13 @@ will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-10-23	0.0105
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-10-24	0.0105
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-10-27	0.0135
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-10-28	0.0175
-will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-10-29	0.0145
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-10-30	0.0125
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-10-31	0.0075
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-11-01	0.0125
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-11-02	0.012
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-11-03	0.008
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-11-04	0.0055
+will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2026-11-05	0.0065
 another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-09-17	0.795
 another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-09-18	0.835
 another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-09-19	0.835
@@ -1138,6 +1154,12 @@ another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-10-23	0.745
 another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-10-24	0.775
 another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-10-27	0.765
 another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-10-28	0.77
+another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-10-30	0.72
+another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-11-01	0.705
+another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-11-02	0.695
+another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-11-03	0.73
+another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-11-04	0.755
+another-fed-rate-hike-in-2026	Fed: ANOTHER hike in 2026	2026-11-05	0.775
 will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-07-31	0.575
 will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-08-01	0.575
 will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-08-02	0.575
@@ -1225,6 +1247,13 @@ will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20
 will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-10-24	0.21
 will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-10-27	0.205
 will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-10-28	0.205
+will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-10-30	0.265
+will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-10-31	0.275
+will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-11-01	0.275
+will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-11-02	0.275
+will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-11-03	0.255
+will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-11-04	0.225
+will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635	Fed: NO change at Dec mtg	2026-11-05	0.215
 how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-06-24	0.415
 how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-06-25	0.4
 how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-06-26	0.1
@@ -1342,7 +1371,11 @@ how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (l
 how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-10-25	0.705
 how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-10-28	0.755
 how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-10-29	0.795
-how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-10-29	0.8
+how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-10-30	0.73
+how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-11-02	0.725
+how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-11-03	0.725
+how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-11-04	0.725
+how-many-fed-rate-hikes-in-2026-20260623190717369	Fed: how many hikes in 2026 (ladder)	2026-11-05	0.785
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-07-31	0.375
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-08-01	0.38
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-08-02	0.385
@@ -1429,7 +1462,13 @@ will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-2
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-10-24	0.73
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-10-27	0.75
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-10-28	0.765
-will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-10-29	0.795
+will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-10-30	0.715
+will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-10-31	0.705
+will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-01	0.705
+will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-02	0.695
+will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-03	0.725
+will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-04	0.745
+will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-05	0.775
 how-high-will-10-year-treasury-yield-go-before-2027	10Y Treasury yield ladder (before 2027)	2025-11-13	0.585
 how-high-will-10-year-treasury-yield-go-before-2027	10Y Treasury yield ladder (before 2027)	2025-11-14	0.16
 how-high-will-10-year-treasury-yield-go-before-2027	10Y Treasury yield ladder (before 2027)	2025-11-15	0.505
@@ -1957,7 +1996,11 @@ major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-10-21	0.06
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-10-25	0.07
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-10-28	0.07
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-10-29	0.07
-major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-10-29	0.07
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-10-30	0.07
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-11-02	0.07
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-11-03	0.07
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-11-04	0.07
+major-us-bank-bailout-before-2027	Major bank bailout before 2027	2026-11-05	0.07
 us-defaults-on-debt-by-2027	US debt default by 2027	2025-11-06	0.08
 us-defaults-on-debt-by-2027	US debt default by 2027	2025-11-07	0.08
 us-defaults-on-debt-by-2027	US debt default by 2027	2025-11-08	0.05
@@ -2298,7 +2341,13 @@ us-defaults-on-debt-by-2027	US debt default by 2027	2026-10-23	0.0095
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-10-24	0.009
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-10-27	0.0095
 us-defaults-on-debt-by-2027	US debt default by 2027	2026-10-28	0.0095
-us-defaults-on-debt-by-2027	US debt default by 2027	2026-10-29	0.014
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-10-30	0.0145
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-10-31	0.015
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-11-01	0.02
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-11-02	0.011
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-11-03	0.02
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-11-04	0.019
+us-defaults-on-debt-by-2027	US debt default by 2027	2026-11-05	0.015
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2025-11-21	0.425
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2025-11-22	0.465
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2025-11-23	0.44
@@ -2637,6 +2686,13 @@ ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-10-24	0.0
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-10-26	0.0945
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-10-27	0.0955
 ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-10-28	0.08
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-10-30	0.102
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-10-31	0.096
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-11-01	0.0985
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-11-02	0.097
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-11-03	0.0875
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-11-04	0.085
+ai-industry-downturn-by-december-31-2026-857	AI bubble burst 2026	2026-11-05	0.068
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2025-11-13	0.4
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2025-11-14	0.225
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2025-11-15	0.24
@@ -2960,7 +3016,13 @@ will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-10-24	0.029
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-10-27	0.0215
 will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-10-28	0.021
-will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-10-29	0.06
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-10-30	0.0355
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-10-31	0.03
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-11-01	0.03
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-11-02	0.03
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-11-03	0.0295
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-11-04	0.0285
+will-microstrategy-announce-bankruptcy-before-2027	MicroStrategy bankruptcy by 2027	2026-11-05	0.025
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-01-07	0.58
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-01-08	0.515
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-01-09	0.515
@@ -3224,7 +3286,11 @@ nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-10-21	0.835
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-10-24	0.825
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-10-25	0.795
 nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-10-28	0.8
-nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-10-29	0.815
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-10-30	0.8
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-11-02	0.815
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-11-03	0.825
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-11-04	0.815
+nothing-ever-happens-2026	Nothing Ever Happens 2026	2026-11-05	0.885
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-01-13	0.007
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-01-14	0.017
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-01-15	0.019
@@ -3495,7 +3561,12 @@ what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-10-24	0.6985
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-10-27	0.706
 what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-10-28	0.708
-what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-10-29	0.786
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-10-30	0.754
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-11-01	0.6865
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-11-02	0.6805
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-11-03	0.7185
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-11-04	0.7185
+what-will-the-fed-rate-be-at-the-end-of-2026	Fed funds rate end-2026 (dist)	2026-11-05	0.76
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2025-11-14	0.195
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2025-11-15	0.12
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2025-11-16	0.215
@@ -3818,7 +3889,11 @@ will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-1
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-10-24	0.085
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-10-25	0.085
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-10-28	0.08
-will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-10-29	0.08
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-10-30	0.085
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-11-02	0.08
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-11-03	0.08
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-11-04	0.07
+will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-11-05	0.065
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-03	0.59
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-04	0.58
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-05	0.515
@@ -4106,7 +4181,13 @@ how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-23	
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-24	0.0605
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-27	0.0525
 how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-28	0.046
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-29	0.092
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-30	0.072
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-31	0.0495
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-01	0.0335
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-02	0.032
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-03	0.031
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-04	0.036
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-05	0.035
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-12	0.795
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-13	0.775
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-14	0.755
@@ -4272,6 +4353,13 @@ strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal 
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-10-24	0.115
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-10-27	0.115
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-10-28	0.115
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-10-30	0.115
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-10-31	0.105
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-11-01	0.115
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-11-02	0.115
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-11-03	0.115
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-11-04	0.105
+strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-11-05	0.105
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2025-11-06	0.135
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2025-11-07	0.13
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2025-11-08	0.12
@@ -4625,6 +4713,13 @@ will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-10-24	0.175
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-10-26	0.195
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-10-27	0.19
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-10-28	0.185
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-10-30	0.2
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-10-31	0.175
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-01	0.175
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-02	0.175
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-03	0.165
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-04	0.185
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-05	0.105
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-05	0.155
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-06	0.16
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-07	0.16
@@ -4948,6 +5043,11 @@ will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-10-24	0.055
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-10-25	0.055
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-10-28	0.065
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-10-30	0.065
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-11-02	0.045
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-11-03	0.045
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-11-04	0.045
+will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2026-11-05	0.0355
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-01-06	0.54
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-01-07	0.58
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-01-08	0.415
@@ -5223,7 +5323,12 @@ delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela:
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-10-25	0.06
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-10-27	0.075
 delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-10-28	0.075
-delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-10-29	0.075
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-10-30	0.08
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-11-01	0.075
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-11-02	0.06
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-11-03	0.065
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-11-04	0.065
+delcy-rodrguez-out-as-leader-of-venezuela-by-december-31-2026-148-853	Venezuela: Delcy out as leader by Dec 31	2026-11-05	0.065
 will-venezuelan-crude-oil-production-reach-barrels-per-day-in-2026	Venezuela crude production 2026 (ladder)	2026-01-08	0.925
 will-venezuelan-crude-oil-production-reach-barrels-per-day-in-2026	Venezuela crude production 2026 (ladder)	2026-01-09	0.87
 will-venezuelan-crude-oil-production-reach-barrels-per-day-in-2026	Venezuela crude production 2026 (ladder)	2026-01-10	0.88
@@ -5499,6 +5604,13 @@ will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-10
 will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-10-24	0.06
 will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-10-27	0.09
 will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-10-28	0.09
+will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-10-30	0.15
+will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-10-31	0.095
+will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-11-01	0.095
+will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-11-02	0.095
+will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-11-03	0.095
+will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-11-04	0.08
+will-another-country-leave-opec-in-2026	OPEC: another country exits 2026	2026-11-05	0.08
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-05-14	0.435
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-05-15	0.465
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-05-16	0.475
@@ -5662,6 +5774,13 @@ russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefir
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-10-24	0.205
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-10-27	0.165
 russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-10-28	0.165
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-10-30	0.155
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-10-31	0.145
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-11-01	0.145
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-11-02	0.135
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-11-03	0.16
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-11-04	0.165
+russia-x-ukraine-ceasefire-agreement-by-december-31-2026	Russia-Ukraine ceasefire by Dec 31	2026-11-05	0.125
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2025-07-25	0.435
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2025-07-26	0.215
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2025-07-27	0.225
@@ -6099,6 +6218,13 @@ will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-10-23	
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-10-24	0.0225
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-10-27	0.0195
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-10-28	0.0205
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-10-30	0.0295
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-10-31	0.021
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-01	0.021
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-02	0.0195
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-03	0.0195
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-04	0.0175
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-05	0.0185
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-22	0.81
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-23	0.78
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-24	0.79
@@ -6341,7 +6467,11 @@ china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-10-21	0.9635
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-10-24	0.963
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-10-25	0.9605
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-10-28	0.962
-china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-10-29	0.963
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-10-30	0.9645
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-11-02	0.961
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-11-03	0.961
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-11-04	0.961
+china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-11-05	0.962
 bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-08-01	0.5
 bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-08-02	0.48
 bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-08-03	0.48
@@ -6428,7 +6558,7 @@ bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-10-23
 bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-10-24	0.9655
 bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-10-27	0.9745
 bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-10-28	0.9815
-bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-10-29	0.9985
+bank-of-japan-decision-in-october-20260731151537	BOJ October decision	2026-10-30	0.9995
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-09-20	0.52
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-09-21	0.755
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-09-22	0.705
@@ -6464,6 +6594,13 @@ bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-10-24	0.715
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-10-27	0.71
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-10-28	0.745
+bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-10-30	0.755
+bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-10-31	0.785
+bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-01	0.8
+bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-02	0.845
+bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-03	0.845
+bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-04	0.845
+bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-05	0.915
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-23	0.285
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-24	0.23
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-25	0.245
@@ -6745,6 +6882,13 @@ bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-10-23	0.74
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-10-24	0.735
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-10-27	0.71
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-10-28	0.73
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-10-30	0.755
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-10-31	0.805
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-01	0.81
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-02	0.815
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-03	0.82
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-04	0.835
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-05	0.845
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-12	0.65
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-13	0.665
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-14	0.565
@@ -7006,6 +7150,11 @@ clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-10-21	
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-10-25	0.0345
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-10-28	0.0405
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-10-29	0.032
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-10-30	0.0325
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-11-02	0.0315
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-11-03	0.0255
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-11-04	0.0345
+clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-11-05	0.032
 october-inflation-us-annual	October CPI print (modal)	2026-10-16	0.69
 october-inflation-us-annual	October CPI print (modal)	2026-10-17	0.87
 october-inflation-us-annual	October CPI print (modal)	2026-10-19	0.775
@@ -7014,7 +7163,11 @@ october-inflation-us-annual	October CPI print (modal)	2026-10-21	0.85
 october-inflation-us-annual	October CPI print (modal)	2026-10-24	0.89
 october-inflation-us-annual	October CPI print (modal)	2026-10-25	0.89
 october-inflation-us-annual	October CPI print (modal)	2026-10-28	0.92
-october-inflation-us-annual	October CPI print (modal)	2026-10-29	0.9
+october-inflation-us-annual	October CPI print (modal)	2026-10-30	0.895
+october-inflation-us-annual	October CPI print (modal)	2026-11-02	0.905
+october-inflation-us-annual	October CPI print (modal)	2026-11-03	0.91
+october-inflation-us-annual	October CPI print (modal)	2026-11-04	0.905
+october-inflation-us-annual	October CPI print (modal)	2026-11-05	0.9
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2025-12-30	0.495
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2025-12-31	0.59
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-01	0.63
@@ -7294,6 +7447,13 @@ will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 h
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-10-24	0.05
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-10-27	0.045
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-10-28	0.045
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-10-30	0.055
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-10-31	0.055
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-11-01	0.05
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-11-02	0.055
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-11-03	0.05
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-11-04	0.05
+will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-11-05	0.045
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-01	0.135
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-02	0.105
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-01-03	0.1
@@ -7581,7 +7741,12 @@ will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 h
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-10-24	0.0265
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-10-27	0.027
 will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-10-28	0.027
-will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-10-29	0.027
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-10-30	0.027
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-11-01	0.027
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-11-02	0.027
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-11-03	0.027
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-11-04	0.0265
+will-any-category-5-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-5 hurricane by 2027	2026-11-05	0.0265
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-04-01	0.35
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-04-02	0.305
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-04-03	0.28
@@ -7787,6 +7952,13 @@ iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment b
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-10-26	0.098
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-10-27	0.1295
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-10-28	0.1255
+iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-10-30	0.063
+iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-10-31	0.058
+iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-01	0.093
+iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-02	0.069
+iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-03	0.082
+iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-04	0.086
+iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-05	0.083
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-25	0.54
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-26	0.47
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-27	0.445
@@ -7910,193 +8082,208 @@ what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (comp
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-10-24	0.145
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-10-27	0.145
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-10-28	0.145
-what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-10-29	0.145
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-09	0.21
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-18	0.065
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-22	0.065
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-10-30	0.14
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-10-31	0.135
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-01	0.13
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-02	0.13
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-03	0.13
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-04	0.16
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-05	0.155
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-09	0.46
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-22	0.36
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-23	0.06
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-24	0.055
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-24	0.045
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-25	0.045
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-26	0.045
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-27	0.045
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-28	0.04
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-29	0.0345
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-30	0.396
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-01	0.401
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-02	0.4005
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-03	0.074
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-04	0.074
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-05	0.074
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-06	0.074
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-07	0.074
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-08	0.049
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-09	0.047
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-10	0.042
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-11	0.0465
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-12	0.0665
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-13	0.0685
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-14	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-15	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-16	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-17	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-18	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-19	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-20	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-21	0.066
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-22	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-23	0.0665
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-24	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-25	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-26	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-27	0.0675
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-28	0.0685
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-29	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-30	0.0685
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-31	0.0695
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-01	0.069
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-02	0.0705
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-03	0.0705
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-04	0.0705
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-05	0.066
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-06	0.0705
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-07	0.0705
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-08	0.0705
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-09	0.077
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-10	0.077
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-11	0.0565
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-12	0.0705
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-13	0.043
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-14	0.0625
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-15	0.07
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-16	0.07
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-17	0.0685
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-18	0.064
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-19	0.0555
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-20	0.051
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-21	0.063
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-22	0.0475
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-23	0.0445
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-24	0.047
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-25	0.0465
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-26	0.046
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-27	0.043
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-28	0.0465
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-29	0.046
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-30	0.038
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-01	0.029
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-02	0.031
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-03	0.025
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-04	0.0255
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-05	0.021
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-06	0.0195
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-07	0.0185
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-08	0.0185
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-09	0.024
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-10	0.0215
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-11	0.031
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-12	0.0365
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-13	0.0365
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-14	0.036
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-15	0.0365
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-16	0.0365
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-17	0.0365
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-18	0.0365
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-19	0.029
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-20	0.029
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-21	0.029
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-22	0.037
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-23	0.037
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-24	0.037
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-25	0.0375
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-26	0.036
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-27	0.0355
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-28	0.035
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-30	0.0265
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-31	0.0285
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-01	0.0255
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-02	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-03	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-04	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-05	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-06	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-07	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-08	0.032
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-09	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-10	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-11	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-12	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-13	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-14	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-15	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-16	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-17	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-18	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-19	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-20	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-21	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-22	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-28	0.0455
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-29	0.336
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-30	0.336
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-01	0.341
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-02	0.3405
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-03	0.0745
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-04	0.0745
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-05	0.0745
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-06	0.0755
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-07	0.0745
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-08	0.0745
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-09	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-10	0.077
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-11	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-12	0.0745
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-13	0.0745
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-14	0.081
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-15	0.0285
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-16	0.069
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-17	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-18	0.0805
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-19	0.075
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-20	0.0775
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-21	0.0795
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-22	0.08
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-23	0.0805
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-24	0.0495
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-25	0.077
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-26	0.0795
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-27	0.062
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-28	0.079
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-29	0.079
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-30	0.079
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-05-31	0.079
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-01	0.074
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-02	0.047
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-03	0.073
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-04	0.068
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-05	0.0635
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-06	0.0685
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-07	0.0685
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-08	0.0605
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-09	0.072
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-10	0.0695
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-11	0.0595
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-12	0.0635
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-13	0.0675
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-14	0.0635
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-15	0.0755
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-16	0.072
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-17	0.0725
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-18	0.0715
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-19	0.0715
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-20	0.072
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-21	0.0625
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-22	0.0615
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-23	0.062
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-24	0.0615
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-25	0.0615
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-26	0.062
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-27	0.062
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-28	0.062
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-29	0.0615
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-06-30	0.0615
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-01	0.037
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-02	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-03	0.027
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-04	0.0225
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-05	0.0135
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-06	0.015
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-07	0.0145
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-08	0.0145
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-09	0.014
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-10	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-11	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-12	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-13	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-14	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-15	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-16	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-17	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-18	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-19	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-20	0.0185
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-21	0.0195
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-22	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-23	0.027
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-24	0.0305
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-25	0.0285
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-26	0.031
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-27	0.031
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-28	0.03
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-29	0.0305
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-30	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-07-31	0.03
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-01	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-02	0.03
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-03	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-04	0.03
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-05	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-06	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-07	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-08	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-09	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-10	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-11	0.03
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-12	0.0245
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-13	0.032
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-14	0.031
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-15	0.032
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-16	0.032
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-17	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-18	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-19	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-20	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-21	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-22	0.0345
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-23	0.03
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-24	0.03
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-24	0.0295
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-25	0.0295
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-26	0.0245
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-27	0.0245
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-28	0.0245
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-29	0.0245
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-30	0.0245
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-31	0.0305
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-01	0.0315
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-02	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-03	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-04	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-05	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-06	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-07	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-08	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-09	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-10	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-11	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-12	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-13	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-14	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-15	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-16	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-17	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-18	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-19	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-20	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-21	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-22	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-23	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-24	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-25	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-26	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-27	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-28	0.031
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-29	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-30	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-01	0.034
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-26	0.0595
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-27	0.034
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-28	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-29	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-30	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-08-31	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-01	0.0495
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-02	0.039
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-03	0.037
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-04	0.032
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-05	0.0325
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-06	0.0345
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-07	0.031
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-08	0.0395
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-09	0.045
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-10	0.0425
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-11	0.035
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-12	0.034
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-13	0.039
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-14	0.032
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-15	0.032
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-16	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-17	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-18	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-19	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-20	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-21	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-22	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-23	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-24	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-25	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-26	0.0315
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-27	0.039
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-28	0.0435
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-29	0.0355
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-09-30	0.033
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-01	0.0335
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-02	0.0335
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-03	0.0335
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-04	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-05	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-06	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-07	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-08	0.0245
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-09	0.025
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-10	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-11	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-12	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-13	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-14	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-15	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-16	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-17	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-19	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-20	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-21	0.0335
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-24	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-27	0.034
-which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-28	0.034
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-05	0.033
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-06	0.0325
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-07	0.0325
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-08	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-09	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-10	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-11	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-12	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-13	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-14	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-15	0.0295
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-16	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-17	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-18	0.0285
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-19	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-20	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-21	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-23	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-24	0.029
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-27	0.0285
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-28	0.0285
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-30	0.0375
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-10-31	0.036
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-11-01	0.0355
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-11-02	0.0325
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-11-03	0.0485
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-11-04	0.034
+which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-11-05	0.033
 us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-09-29	0.56
 us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-09-30	0.645
 us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-10-01	0.645
@@ -8123,39 +8310,22 @@ us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any
 us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-10-24	0.62
 us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-10-27	0.74
 us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-10-28	0.755
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-09-26	0.345
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-09-27	0.265
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-09-28	0.38
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-09-29	0.235
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-09-30	0.175
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-01	0.175
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-02	0.185
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-03	0.145
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-04	0.125
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-05	0.125
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-06	0.08
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-07	0.07
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-08	0.065
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-09	0.065
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-10	0.095
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-11	0.1
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-12	0.1
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-13	0.105
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-14	0.12
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-15	0.095
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-16	0.135
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-17	0.195
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-18	0.215
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-19	0.18
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-20	0.165
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-21	0.14
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-23	0.165
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-24	0.345
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-27	0.12
-will-wti-reach-110-in-october-2026	WTI $110 Oct [v5 OCT SEGMENT ROLLED OUT 2026-10-29T00:4xZ, logs to resolution]	2026-10-28	0.031
+us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-10-30	0.715
+us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-10-31	0.715
+us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-11-01	0.725
+us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-11-02	0.7
+us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-11-03	0.7
+us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-11-04	0.705
+us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	2026-11-05	0.705
 will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-10-27	0.39
 will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-10-28	0.415
-will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-10-29	0.525
+will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-10-30	0.5
+will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-10-31	0.59
+will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-01	0.69
+will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-02	0.57
+will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-03	0.375
+will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-04	0.36
+will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-05	0.13
 shipping-successfully-targeted-in-hormuz-on-october-2026	Hormuz shipping targeted (on-date, daily)	2026-10-02	0.5
 shipping-successfully-targeted-in-hormuz-on-october-2026	Hormuz shipping targeted (on-date, daily)	2026-10-03	0.29
 shipping-successfully-targeted-in-hormuz-on-october-2026	Hormuz shipping targeted (on-date, daily)	2026-10-04	0.535
@@ -8172,6 +8342,13 @@ how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-tran
 how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-10-24	0.23
 how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-10-27	0.175
 how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-10-28	0.27
+how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-10-30	0.475
+how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-10-31	0.42
+how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-11-01	0.39
+how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-11-02	0.575
+how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-11-03	0.55
+how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-11-04	0.127
+how-many-ships-transit-the-strait-of-hormuz-week-of-october-26	Hormuz ships-transit weekly (rolling)	2026-11-05	0.477
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-10-02	0.565
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-10-03	0.575
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-10-04	0.655
@@ -8191,6 +8368,11 @@ avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily trans
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-10-25	0.94
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-10-28	0.94
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-10-29	0.915
+avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-10-30	0.95
+avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-11-02	0.95
+avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-11-03	0.96
+avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-11-04	0.945
+avgpt-of-ships-transiting-strait-of-hormuz-end-of-october	Hormuz avg daily transits end-Oct	2026-11-05	0.9505
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-10-02	0.435
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-10-03	0.425
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-10-04	0.435
@@ -8216,6 +8398,13 @@ will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-an
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-10-26	0.11
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-10-27	0.14
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-10-28	0.19
+will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-10-30	0.385
+will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-10-31	0.18
+will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-11-01	0.09
+will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-11-02	0.095
+will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-11-03	0.49
+will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-11-04	0.155
+will-ships-transit-the-strait-of-hormuz-on-any-day-by-october-31	Hormuz ships-any-day ladder by Oct31	2026-11-05	0.07
 0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-06-27	0.465
 0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-06-28	0.27
 0-ships-transit-hormuz-on-any-date-byptpt-20260626172559966	Hormuz 0-ships closure (by-date)	2026-06-29	0.305
@@ -8504,7 +8693,10 @@ will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares w
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-10-25	0.0225
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-10-28	0.029
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-10-29	0.0295
-will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-10-29	0.03
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-10-30	0.0515
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-11-02	0.0395
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-11-03	0.038
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-11-04	0.032
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-10	0.215
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-11	0.185
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-12	0.205
@@ -8608,45 +8800,31 @@ bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-1
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-10-24	0.17
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-10-25	0.175
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-10-28	0.145
-bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-10-29	0.135
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-09-23	0.72
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-09-24	0.275
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-09-25	0.28
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-09-26	0.285
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-09-27	0.215
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-09-28	0.14
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-09-29	0.135
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-09-30	0.075
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-01	0.075
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-02	0.045
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-03	0.025
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-04	0.0385
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-05	0.035
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-06	0.0575
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-07	0.0875
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-08	0.109
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-09	0.098
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-10	0.0705
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-11	0.077
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-12	0.08
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-13	0.0795
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-14	0.0755
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-15	0.231
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-16	0.091
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-17	0.0705
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-18	0.067
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-19	0.0515
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-20	0.052
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-21	0.036
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-23	0.0455
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-24	0.0405
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-27	0.045
-will-there-be-houthi-military-action-against-israel-by-october-31-2026	Houthi military action vs Israel by Oct31	2026-10-28	0.026
-saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-02	0.265
-saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-03	0.355
-saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-04	0.7
-saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-05	0.695
-saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-06	0.9705
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-10-30	0.145
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-02	0.13
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-03	0.135
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-04	0.07
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-05	0.075
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-02	0.3
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-03	0.535
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-04	0.875
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-05	0.94
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-06	0.925
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-07	0.935
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-08	0.9405
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-10	0.7245
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-11	0.6325
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-12	0.8205
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-13	0.8
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-14	0.777
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-16	0.78
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-17	0.78
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-19	0.633
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-20	0.6205
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-21	0.65
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-25	0.705
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-28	0.943
+saudi-arabia-military-action-against-yemen-on-october-2026	Saudi military action vs Yemen (on-date, daily)	2026-10-30	0.8405
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-09-23	0.69
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-09-24	0.745
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-09-25	0.695
@@ -8679,80 +8857,17 @@ next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic m
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-10-24	0.345
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-10-27	0.315
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-10-28	0.355
+next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-10-30	0.45
+next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-10-31	0.455
+next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-01	0.43
+next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-02	0.405
+next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-03	0.435
+next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-04	0.44
+next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-05	0.415
 us-iran-ceasefire-continues-throughptptpt	US-Iran ceasefire continues through (by-date)	2026-09-18	0.935
 us-iran-ceasefire-continues-throughptptpt	US-Iran ceasefire continues through (by-date)	2026-09-19	0.945
 us-iran-ceasefire-continues-throughptptpt	US-Iran ceasefire continues through (by-date)	2026-09-20	0.8665
 us-iran-ceasefire-continues-throughptptpt	US-Iran ceasefire continues through (by-date)	2026-09-21	0.9995
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-20	0.335
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-21	0.425
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-22	0.465
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-23	0.595
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-24	0.535
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-25	0.455
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-26	0.465
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-27	0.375
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-28	0.355
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-29	0.39
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-09-30	0.395
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-01	0.395
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-02	0.375
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-03	0.395
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-04	0.385
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-05	0.415
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-06	0.425
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-07	0.42
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-08	0.41
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-09	0.415
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-10	0.405
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-11	0.425
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-12	0.435
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-13	0.435
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-14	0.445
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-15	0.415
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-16	0.395
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-17	0.38
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-19	0.445
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-20	0.455
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-21	0.46
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-23	0.375
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-24	0.365
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-27	0.385
-us-x-iran-ceasefire-continues-through-november-30-20260918	US-Iran ceasefire through Nov 30	2026-10-28	0.375
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-20	0.3
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-21	0.325
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-22	0.42
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-23	0.515
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-24	0.485
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-25	0.415
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-26	0.415
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-27	0.34
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-28	0.33
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-29	0.33
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-09-30	0.355
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-01	0.345
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-02	0.315
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-03	0.305
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-04	0.305
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-05	0.335
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-06	0.345
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-07	0.335
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-08	0.34
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-09	0.345
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-10	0.335
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-11	0.335
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-12	0.345
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-13	0.345
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-14	0.355
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-15	0.31
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-16	0.31
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-17	0.315
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-19	0.335
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-20	0.335
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-21	0.345
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-23	0.29
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-24	0.275
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-27	0.295
-us-x-iran-ceasefire-continues-through-december-31-20260918	US-Iran ceasefire through Dec 31	2026-10-28	0.265
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-09-25	0.775
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-09-26	0.795
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-09-27	0.73
@@ -8782,4 +8897,9 @@ us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-10-24	0.575
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-10-27	0.595
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-10-28	0.595
-us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-10-29	0.615
+us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-10-30	0.595
+us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-11-01	0.63
+us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-11-02	0.65
+us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-11-03	0.64
+us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-11-04	0.63
+us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-11-05	0.7

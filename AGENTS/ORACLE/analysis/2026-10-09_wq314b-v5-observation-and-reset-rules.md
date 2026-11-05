@@ -130,7 +130,7 @@ The resolution source for this market is Pyth — specifically, the ICE Futures 
 | ⚠️36③ Critical→Alert downgrade (3 reads <60 but ≥40) | **RULED 2026-10-20 (WQ-453 DEF = A), encoded 2026-10-21 — see §8.** *(10/16 text: OPEN. Proposed: that clears Critical and leaves Alert held. Moves a consequence ⇒ for Will via PROME, not encoded.)* | Only if Critical fires first (today 20.5%) |
 | ⚠️21 touch seen before the Gamma close | **RULED 2026-10-20 (WQ-453 DEF = A), encoded 2026-10-21 — see §8.** *(10/16 text follows.)* OPEN. Today: Critical on YES records at Gamma close (§4). A Pyth ≥$110 candle seen earlier is reported to PROME/BRENT as an UNRESOLVED touch, no state. Changing when Critical fires = a consequence ⇒ Will | Yes, if WTI reaches $110 (CME CLZ26 proxy $98.64 at 2026-10-16T17:37Z via `fetch.py` = +11.5% below; the leg resolves on ICE) |
 | ⚠️22 which read is the NO record | Clarified: the NO record = the last **counting** read (on or before the pin) plus the close | No |
-| ⚠️31 holiday calendar | **OPEN** (US business day = ? calendar). Moot through 10/30: no NYSE or federal holiday 10/16–10/30 | No |
+| ⚠️31 holiday calendar | **NAMED 2026-11-04 by ORACLE (DAEDALUS Gate Basis #3): NYSE trading days, see §10.2.** *(Superseded text:)* OPEN (US business day = ? calendar). Moot through 10/30: no NYSE or federal holiday 10/16–10/30 | Only 11/11 differs |
 | ⚠️34 half-tie rounding | Moot at the venue's precision: Polymarket prints this leg at 0.001 (0.1pp), so no x.x5 half-tie can reach O6's 0.1pp rounding (INFERRED from the printed prices) | No |
 | ⚠️39 gap counting | **RULED 2026-10-21 (WQ-476 GAP = A), encoded 2026-10-28 — see §9.1: strictly between.** *(Superseded text:)* OPEN (strictly-between vs difference). Moot while reads land on consecutive business days. **2026-10-21: it now bites on the label only — see §8.3** | Only if a pull is missed |
 | ⚠️25 switch lowers odds "mechanically" | True only while Dec26 < Nov26. The fail-closed rule stands either way | No |
@@ -195,3 +195,26 @@ No ORACLE pull between 2026-10-22T02:22Z and 2026-10-29T00:44Z. Business days st
 ### 9.5 WQ-527 C — scheduled pulls (2026-10-28 21:1x ET)
 
 Will, verbatim 2026-10-28 20:59 ET: *"527 C approve"*. From Thu 10/29, `tools/daily_pull.sh` (cron, laptop) runs ORACLE's own `pull --log` once per ET weekday. Its rows are **ORACLE's own live pulls** under O5, so the first one on an ET date is that day's read under O3. The routine never grades: the next live session grades from ODDS_LOG and writes the ledger rows. Registry: `SCHEDULED_RUNS.md`.
+
+## 10. November segment graded, 2026-11-04 (ORACLE, Will-launched catch-up)
+
+### 10.1 Alert fired and cleared, recorded late
+
+The routine logged every read and graded none (§9.5). This session graded them from `ODDS_LOG.tsv`; the ledger is `workbook/V5_NOV110_READS.tsv`.
+
+| ET date | Read | Liq | Result |
+|---|---|---|---|
+| 10/28 | 52.5 | $28.6K | run 1 |
+| 10/29 | 52.5 | $19.2K | run 2 |
+| 10/30 | 64.0 | $11.9K | run 3, **Alert fired** (O7). No Critical: one read ≥60.0 |
+| 11/02 | 36.5 | $25.3K | clearing 1 of 3 |
+| 11/03 | 30.5 | $29.8K | clearing 2 of 3 |
+| 11/04 | 25.5 | $5.8K | clearing 3 of 3, **Alert cleared** (O8) |
+
+⚠️ **The 10/29 read came 7h42m after Polymarket's 18:33Z halt** (SIG-W-20261029-045). Resumption time is not established. CLOB context moved after the halt (49.5 at 19Z, 56.0 at 22Z, 52.5 at 02Z), and volume rose from $3.4K to $6.3K, so the quote was not frozen. This letter has no halt rule, so O4 governs and the read counts. If that read were excluded, no 3-read run exists and no Alert fired.
+
+The laptop's 2026-11-03T00:15Z row (37.5, liq $2.3K) is a later pull of ET 11/02: context under O3. It does not restart the clearing count.
+
+### 10.2 Business-day calendar (⚠️31)
+
+**A US business day is an NYSE trading day**, for VX-ORC-04 and VX-ORC-12. Through 12/09 this differs from the federal calendar only on Wed 11/11, which counts as a business day here. That is the stricter side: a missed 11/11 read counts toward a gap. Named by the owner as DAEDALUS Gate Basis #3 asked; no level, gap count or clearing rule moves, and no grade above depends on it.

@@ -1,63 +1,64 @@
 # ORACLE — SCRATCH (canonical session handoff)
 
-**Last updated:** 2026-10-28 (Wed) 20:44–21:xx ET (from `date`) · **Box:** LAPTOP `WilliePOwen`, Kalshi UNSIGNED (`status` rc=3, public market data). · Session: Will-launched ("get ORACLE files caught up to live/new data"), Claude Code, Opus. Prior: 2026-10-21 (prome-56 wave 2) · 2026-10-16 (prome-ac).
+**Last updated:** 2026-11-04 (Wed) 20:14–21:xx ET (from `date`) · **Box:** LAPTOP `WilliePOwen`, Kalshi UNSIGNED (`status` rc=3, public market data). · Session: oracle-12, Claude Code, Opus 5.5; boot, then Will 20:40 ET "get caught up on any new data". Prior: 2026-10-28.
 
-## CHANGES SINCE 10/21 (ORACLE dark 10/22–10/27)
+## CHANGES SINCE 10/28 (ORACLE dark 10/29–11/04; the routine pulled, nothing graded)
 
-- **FOMC 10/28 HELD** (3.75–4.00% stands). PM no-change resolved YES / hike-25 NO, closed 2026-10-28T20:01:40Z. Hike odds had drained 12.5 → ~4 in the dark week.
-- **WTI $110 November listed 10/25T04:01Z** (id 6172751) — pinned tonight, 3.8 days late. Entry 52.5% on $3.4K lifetime volume.
-- **Iran ceasefire term structure:** 10/31 96.7 → 11/30 39.5 → 12/31 27.5. Blockade-end 12/31 rose to 40.5.
-- DAEDALUS applied WQ-508 B29/B30 to our CLAUDE.md (commit 4da79f1ee) — read, not contested.
-- WALTER SIG-W-20261022-014 corrected SIG-025 (OCC GENIUS rule keeps the issuer yield ban).
+- **Fed held 10/28; December hike ~80.** Reads 79.5 · 69.5 · 70.5 · 70.5 · 73.5 · 80.5.
+- **Polymarket halted trading 10/29 18:33Z** (vendor compromise; SIG-W-20261029-045).
+- **WTI fell from ~$102 to ~$88.** Nov $110 read 64.0 on 10/30, 25.5 on 11/04, 13.0 context tonight.
+- **Mon 11/2: reported US strikes on Qeshm** (SIG-W-20261104-002, -019). Ceasefire 11/30 and 12/31 resolved NO 11/03. New effective-ceasefire series 11/04.
+- **Midterms 11/3:** Democrats House and Senate, both PM YES.
+- **11/04 oil −8% to −9% on deal hopes;** no deal or reopening established (SIG-W-20261104-078).
 
-## WHAT I DID (10/28)
+## WHAT I DID (11/04)
 
-- Pulls 2026-10-29T00:44Z: PM 51 rows · Kalshi 11/11 · spread +84.9 (Oct segment, last). Nov pin 00:46Z → spread +36.0 (first Nov-segment row). 5 new pins logged 00:48Z.
-- **Nov $110 pinned in one edit** (watchlist + Oct relabel + REGIME `v5-nov26-icewti110` + MAINTENANCE). Meaning check passed (text identical except month).
-- **Ledgers:** `V5_OCT110_READS.tsv` +10/28 row (3.6, run 1 after R2 restart) · NEW `V5_NOV110_READS.tsv` (entry 52.5, run 1).
-- **Letter:** §9 added (WQ-476 GAP/DEFRES encoded, 10/22–10/27 gap, Nov pin); §7.4 ⚠️39 marked ruled.
-- **VX:** ORC-04 → Nov segment + Alert path · ORC-11 RETIRED unfired (decision HOLD) · ORC-07 🟠 Alert (partial: Nov $110 +14.5/48h).
-- **KB-ORC-109** (FOMC hold calibration datum) · **KB-ORC-110** (Nov $110 entry).
-- Rolls: Oct FOMC pins retired · Fed no-change-at-Dec · ceasefire 11/30 + 12/31 markets · BOJ Dec hike-25 · Hormuz weekly → wk-of-10/26.
-- `history --write` (HISTORY.tsv refreshed, was 9/27) · `coverage` (overdue since ~9/22) · `movers`.
-- STATUS **full rewrite** (9/27 tables replaced). Corrections receipt COR-20261022-14 NO-OP. Inbox 3/3 filed.
-- Packets: `PROME/inbox/2026-10-28_from-ORACLE_catchup-FOMC-hold-nov110-pin-WQ476-encoded.md` · `AGENTS/BRENT/inbox/2026-10-28_from-ORACLE_nov110-entry-and-alert-path.md`.
-- Commit hashes: see `git log --since=2026-10-28 -- AGENTS/ORACLE/`.
+- **Rebase:** laptop's 11/02 19:15 ET routine commit stopped CATO's boot pull at 20:13. Resolved my own commit (d8e2dae040): desktop bytes + laptop rows in time order, 69 insertions, 0 deletions. DAEDALUS cleared its dirty `GATE_LOG.tsv` itself. PROME verified and gave the all-clear 20:20 ET.
+- **Pulls** 2026-11-05T01:40Z: PM 52 rows · Kalshi 11/11 · spread +76.5. 01:45Z: 11 new pins. `history --write` · `coverage` · `movers`.
+- **Graded:** VX-ORC-04 Alert fired 10/30, cleared 11/04 (ledger + letter §10). VX-ORC-07 🔴 Critical. VX-ORC-12 Alert held since 10/29.
+- **KB-ORC-111 to 115.** ceasefire · effective series · Nov $110 · midterms · NEH.
+- **`polymarket.py`:** `closed_outcome()`; `✅ PIN RESOLVED` prints the outcome.
+- **Rolls:** full list in MAINTENANCE 2026-11-04.
+- **Inbox 5/5 filed.** DAEDALUS packets answered (Census BUILD + DECLINE, Wiring #9, Gate Basis #3). SIG-045 caveat carried in the ledger. SIG-038 context.
+- **Packets:** FALCON, BRENT, HAWK, PROME, DAEDALUS (all `2026-11-04_from-ORACLE_*`).
+- Commit hashes: `git log --since=2026-11-04 -- AGENTS/ORACLE/`.
 
 ## NEXT SESSION (dated, priority-flagged)
 
-- **🔴 Thu 10/29 read** (first pull of ET 10/29), then **Fri 10/30**. Each: `polymarket.py pull --log` + `kalshi.py pull --log` + `tools/disruption_supply_spread.py`; append `V5_NOV110_READS.tsv` (Nov leg = the arming series now; Oct leg is context, but an Oct YES still fires Critical per letter §4). **If 10/29 and 10/30 are each ≥40.0 and qualified ⇒ VX-ORC-04 ALERT at the 10/30 read** → BRENT/FALCON/HAWK + PROME packets same session.
-- **🔴 November read cadence after 10/30:** asked of PROME (packet item 4). Until ruled, keep one pull per business day if a session runs.
-- **🔴 Sat 10/31 / 11/1:** October $110 closes → record NO (or YES) per letter §4; retire the pin with a resolution record. Retire 10Y/30Y Oct rungs, Hormuz any-day + avg-transits, Houthi by-10/31; pin November successors (search found none tonight).
-- **🔴 At the next DESKTOP boot: `kalshi.py status` must return rc=0.**
-- **🟠 Rolls:** BOJ Oct event (10/30) → retire · ceasefire-through event top leg (10/29) · Hormuz 0-ships closure pin (RESOLVED since 8/01) → live rung · Kalshi Oct CPI when `KXCPIYOY-26OCT` lists.
-- **🟠 Midterms pinned 10/28** (PROME OK; House D 92.5 / Senate D 67.5; no VX, no alert) → after 11/4 retire both with resolution records; packet HENRY only if a read is worth a line. Next coverage sweep due ≤11/4.
-- **✅ WQ-527 C + WQ-528 A RULED (Will 20:59 ET).** Routine LIVE on the laptop (cron; `SCHEDULED_RUNS.md`); **every boot: `tools/routine_check.py`**; grade any routine rows (it never grades). Desktop crontab line at the next switch. VX-ORC-12 encoded: at the 10/29 read record Alert met mechanically if ≥50.0; watch for the collapse (<50.0 ×2 = de-alert). CATO owns the launcher preset (L848; text sent). GATE-ORC-11 RETIRED(TERMINAL), PROME commit 9696b970e.
+- **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv` and VX-ORC-12. Next ledger row is ET 11/05.
+- **🔴 Fri 11/06 October jobs:** read Kalshi U3 `>4.1` 68.0 / `>4.2` 27.0 against the print; then roll to November U3.
+- **🔴 Read FALCON's FAL-07 result** when it lands, against KB-ORC-111.
+- **🟠 Effective ceasefire:** any leg resolving NO = another qualifying strike. The rows are T1; `✅ PIN RESOLVED` now shouts it.
+- **🟠 Rolls:** Hormuz on-date · Hormuz closure context rung · Kalshi Brent date ladder · `KXCPIYOY-26OCT` · Hormuz weekly → wk-of-11/9 · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
+- **🟠 Russian diesel nomination** (BRENT/OSPREY; coverage 11/04). Do not pin without the owner's read.
+- **🟠 Next coverage sweep due ≤11/11.**
 - **🟠 KB rows still owed from 10/15:** Sept CPI calibration datum (print 3.7 vs mode 3.6) · Iran crude 1.957M.
 - **🟡 2026-12-15: Kalshi gap-fill quarterly re-check** (WQ-305).
-- **🟡 Carried:** DAEDALUS F-1 Brier (bank-failure family) · NEH resolution text · KB-ORC-086 sweep · TRADE_MARKS refresh · WQ-295 WATCH_FOR check · archive `DIVERGENCE_2026-07-09.md` + `OPEN_THREADS_2026-07-09.md`.
+- **🟡 At the next DESKTOP boot: `kalshi.py status` must return rc=0.**
+- **🟡 Carried:** DAEDALUS F-1 Brier (bank-failure family) · NEH PDF unread · KB-ORC-086 sweep · TRADE.md + TRADE_MARKS refresh (TRADE.md last refreshed 8/27, committed 9/25) · WQ-295 WATCH_FOR check · archive `DIVERGENCE_2026-07-09.md` + `OPEN_THREADS_2026-07-09.md`.
 
 ## CARRY-FORWARD
 
-- **Push state (10/28 final, 21:2x ET):** all ORACLE work pushed; last pre-closeout HEAD 0d769a634 on origin/master. Session commits: 113bfb8b5 · d2711c1ce · c07deecca · 5a0b4182a · review follow-ups + GATE/cadence packets · 07200516a (midterms) · routine + VX-ORC-12 · f9a497d95 (PROME/CATO packets) · 0d769a634 (Windows-trigger note). Windows wake trigger: NOT installed — Will 21:18 ET wants it in the Agent Launcher if anything (note in PROME/inbox).
-- **Concurrent sessions on this box:** PROME's untracked `PROME/reports/2026-10-28_wq515-batch1/` and WALTER's unpushed commit 74da61e47 were present at boot. Path-scoped commits only.
+- **Push state:** see the closeout receipt in the final message; `scripts/safe-push.sh` runs at closeout.
+- **Open asks:** PROME packet gap 2 (one read per weekday treated as the November cadence unless ruled otherwise). Will has not ruled on a halt rule; the letter has none, and I did not propose one (Will 10/31: fewer rules).
 - **Standing framing (do not re-derive):**
   - Fed: hiked 25bp 9/16 to 3.75–4.00% (KB-ORC-083); HELD 10/28 (KB-ORC-109). Venue-vs-futures only in expected bp at a matched time (KB-ORC-100).
-  - v4 is history; ⛔ never compute `82.5 − 100`. v5 at $110 since 9/24 (WQ-260). Segments: Sept → Oct (`v5-oct26-icewti110`) → **Nov (`v5-nov26-icewti110`)**. Never difference across segments.
+  - v4 is history; ⛔ never compute `82.5 − 100`. v5 at $110 since 9/24 (WQ-260). Never difference across segments. Current segment `v5-nov26-icewti110`.
+  - PM "ceasefire" = a US strike landing on Iran (KB-ORC-111). Never difference the retired legs against the effective series.
+  - A later pull on the same ET date is context (O3). A US business day is an NYSE trading day (letter §10.2).
   - Hormuz legs resolve on the IMF PortWatch PRINT (KB-ORC-079).
   - Kalshi mid only when `result` empty AND OI > 0 (KB-ORC-086).
-  - `PINNED BUT NOT FOUND` → query Gamma `closed=true` before calling it delisted (KB-ORC-101; held again 10/28).
   - Recession venues use different definitions (KB-ORC-099).
   - Three published σ remain retracted (KB-ORC-064). CME FedWatch unreachable: do NOT re-attempt `WebFetch`. Treasury par == DGS10 unconfirmed (BOND/TERRY).
-  - Polymarket `prices-history`: empty for long spans at fine fidelity (fidelity=720 over 14 days returned n=0 tonight; fidelity=360 over 9 days worked). Use `curl -A "Mozilla/5.0"` (urllib gets 403).
-  - Never `pull --log --force` to log new pins: the guard is per slug, so a plain re-pull logs new pins; `--force` re-logs every row by design (misused 10/28, cleaned).
+  - Polymarket `prices-history`: use `curl -A "Mozilla/5.0"` with startTs/endTs and fidelity 60 or 180 (urllib gets 403).
+  - Never `pull --log --force` to log new pins.
+  - Git: `rebase --continue` refuses while ANY tracked file is unstaged and blames merge conflicts; `rebase --abort` silently discards a foreign dirty file.
 - `ledger_staleness` counts `HISTORY.tsv` but prints no row for it (PROME's tool; reported, not patched).
 
 ## OPEN HYPOTHESES
 
-- **November is the crowd's Iran break window.** Ceasefire 11/30 39.5 vs 10/31 96.7; Nov $110 52.5; blockade-end 12/31 rising. Status quo expected to break, direction unsettled. HAWK owns the reality.
-- **Nov $110 at 52.5 is a quote, not a conviction** until volume builds past ~$5K–$10K. Watch whether volume follows the price.
-- **Bank-failure crowd = the 2024-25 prior, not 2026 data.** Test in F-1 (Brier). All books thin ($1.7K liq tonight).
+- **The crowd separates limited strikes from a supply shock.** Another strike 58.5 by 11/30 vs $110 at 13.0. A strike that hits export capacity would break it. HAWK and BRENT own the reality.
+- **Deal hopes are doing the work in oil.** Rapidan says odds still favor escalation; CIBC says the drop may be overdone (SIG-W-20261104-078). Blockade-end 12/31 43.4 is the check.
+- **Bank-failure crowd = the 2024-25 prior, not 2026 data.** Test in F-1 (Brier). All books thin ($2.0K liq tonight).
 - **Recession gap = PM's extra NBER leg** (structural).
-- **NEH: complacency or a very high bar?** 81.5% flat; resolution text unread.
-- **Complacency decoupling:** S&P best-asset 74.5 (Δ30d +17); gold 5.5 — the registered tell has not fired.
+- **Complacency decoupling:** S&P best-asset 84.5; gold 2.7 — the registered tell has not fired. NEH left this hypothesis: it is a high-bar basket (KB-ORC-115).

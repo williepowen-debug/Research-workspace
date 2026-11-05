@@ -332,3 +332,15 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **Bug caught by its own test before install:** v1 recorded a run whose Polymarket pull appended 0 rows (double-log guard) as `OK` and did not retry. Fixed: 0 rows = `FAIL` "NO READ", the next slot retries.
 - **Known limit:** cron runs only while WSL is up (no catch-up). The ran-check makes every miss visible; a Windows-side wake trigger is Will's call.
 - **Boot-impact:** step 2b added. Desktop needs the crontab line at the next switch (flagged to PROME for `PROME/MACHINE_LOCAL.md`, PROME-owned).
+
+## 2026-11-04 — Will-launched catch-up: two-box rebase conflict, closed-pin reporting, November rolls
+
+- **Trigger:** Will 20:40 ET: "get caught up on any new data". Desk dark 10/29–11/04 (routine pulled, nothing graded).
+- **Rebase:** the laptop's 11/02 19:15 ET routine commit collided with the desktop's rows. Resolved as desktop bytes plus laptop rows in time order (d8e2dae040; 69 insertions, 0 deletions). Lesson: `git rebase --continue` refuses while ANY tracked file is unstaged and blames merge conflicts; `git rebase --abort` silently discards a foreign dirty file (both reproduced in a scratch repo).
+- **`polymarket.py`:** BUILD on Prose-Remedy Census row 12 (10 sessions carried). New `closed_outcome()` queries Gamma `closed=true` for a pin that left the feed and prints `✅ PIN RESOLVED` with its outcome; `⛔ PINNED BUT NOT FOUND` remains for a pin that is absent open and closed. Live test 11/05T01:4xZ: 6 of 6 pins reported their outcomes; control slug returned None. The fix would have surfaced the ceasefire resolution at the first session after 11/03.
+- **Rolls:** retired with resolution records: 10Y/30Y Oct ladders, BOJ Oct, WTI $110 Oct, Hormuz on-date, Houthi by 10/31, Saudi on-date, ceasefire event + 11/30 + 12/31, both midterms, 4 Kalshi finalized rows. Pinned: 10Y/30Y Nov ladders, Hormuz weekly 11/2 + avg end-Nov + any-day by 11/30 + normal by 11/30, effective ceasefire 11/15 + 11/30 + 12/31 (new series).
+- **Not rolled:** Hormuz 0-ships closure (context column only); Hormuz on-date (no November event found); Kalshi Brent date ladder (search uncertified); `KXCPIYOY-26OCT` still 0 markets.
+- **DECLINED, Census row 15:** STATUS's 250-line cap gets no counter. Will 10/31: fewer checkers; the byte cap is enforced by `read_cap_check.py` and STATUS is well under both.
+- **Files:** `scripts/polymarket.py`, `watchlist.tsv`, `kalshi_watchlist.tsv`, `workbook/{VX,KB,V5_NOV110_READS,V5_OCT110_READS,HISTORY}.tsv`, letter §10, `SCHEDULED_RUNS.md`.
+- **Boot-impact:** none.
+

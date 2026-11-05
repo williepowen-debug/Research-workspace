@@ -6,7 +6,7 @@
 
 | What | Where | Schedule | Box |
 |---|---|---|---|
-| Pulls-only daily read: `polymarket.py pull --log` → `kalshi.py pull --log` → `tools/disruption_supply_spread.py` → receipt row → path-scoped local commit | `tools/daily_pull.sh` | user crontab: `15 10,13,16,19,22 * * 1-5` (box TZ America/New_York) | **LAPTOP `WilliePOwen` only.** Desktop: install the same crontab line at the next switch (not done) |
+| Pulls-only daily read: `polymarket.py pull --log` → `kalshi.py pull --log` → `tools/disruption_supply_spread.py` → receipt row → path-scoped local commit | `tools/daily_pull.sh` | user crontab: `15 10,13,16,19,22 * * 1-5` (box TZ America/New_York) | **Both boxes.** Laptop `WilliePOwen` installed 10/28. Desktop `DESKTOP-BC6EF81`: receipts from 11/02 show it running (crontab itself not read from this box) |
 
 **Cron line (exact):**
 ```
@@ -24,7 +24,8 @@
 ## Known limits
 
 - **Runs only while WSL is up.** WSL stops its VM when no terminal or session is open, and cron does not catch up. Five slots (10:15–22:15 ET) cover any day Will opens the box; a day the box stays shut is a `NOT READ` in the ran-check. Not fixed: a Windows Task Scheduler trigger would wake WSL, but that is a Windows-side change for Will to decide.
-- **Per box.** A machine switch leaves the other box's cron (if any) idle; the receipt's `host` column shows which box read.
+- **Per box.** A machine switch leaves the other box's cron idle only if that box is off. The receipt's `host` column shows which box read.
+- **Two boxes up on one day collide.** Each box judges "already read today" from its own checkout. On 11/02 the desktop read at 10:15 ET and the laptop, 299 commits behind, read again at 19:15 ET; its local commit later stopped the shared rebase on 11/04 (resolved in d8e2dae040). The first pull of the ET date stays the read (O3); the later row is context. Not fixed.
 - Holiday pulls happen (weekday rule); letter O3 treats them as context.
 
 ## Tests run at install (2026-10-28, scratch git copy, not the live repo)
