@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-11-05 14:0x ET, closeout on Will's word, before the close (Claude Code, Opus 5.5). Written after the final STATUS write. **All 11/5 figures are intraday; close grade NOT done.**
+**Owner fold:** 2026-11-05 14:1x ET, closeout on Will's word, before the close (Claude Code, Opus 5.5). Written after the final STATUS write. **All 11/5 figures are intraday; close grade NOT done.**
 
 **View:** 11/5 14:00 ET, intraday: SPX 7,381.99 (−3.99%), QQQ 651.86, NDX 26,793.90 (−5.78%), VIX 26.39. Dealer gamma NEGATIVE both horizons on SPX, QQQ and NDX. All morning support walls broke intraday. QQQ and NDX under their 200-days; SPX about 1% above its own. No credit confirmation either way: HYG −0.46%, HY 332 [11/4], tiers REVERSES on 11/4, no 11/5 print until 11/6. Cause not established.
 

@@ -154,7 +154,7 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 
 ## CROSS-DESK / CATALYST STACK / GAPS
 
-- **Next:** HEN-59 October payrolls Fri 11/6 08:30 ET, L767 co-reader, frozen expectation FIRED (<100K); HEN-57 CPI Tue 11/10 (L775; expect NOT FIRED, +0.2); BIS and MOFCOM clocks 11/10 (L435/L437, co-owned); HEN-58 PPI Fri 11/13 (L776; expect NONE ≤0.4); PANW + bank-stock legs of CYPHER row 9 on 11/18; NVDA 11/19 (L322). Letter `research/2026-10-29_catchup/PREREG_nov-releases.md`.
+- **Next:** HEN-59 October payrolls Fri 11/6 08:30 ET, L767 co-reader, frozen expectation FIRED (<100K); HEN-57 CPI Tue 11/10 (L775; expect NOT FIRED, +0.2); BIS and MOFCOM clocks 11/10 (L435/L437, co-owned); HEN-58 PPI Fri 11/13 (L776; expect NONE ≤0.4); PANW + bank-stock legs of CYPHER row 9 on 11/18; NVDA results Tue 11/17 after the close (L926), 10-Q ~11/19 ESTIMATED (L322). Letter `research/2026-10-29_catchup/PREREG_nov-releases.md`.
 - **Row 9 magnitude gap** (no number for "vector-vendor collapse") still with PROME/CYPHER; needed before 11/18.
 - **VLO line (SIG-W-20261104-077):** $90.16 and the HOZ26×42 − CLZ26 basis confirmed to TERRY 11/5 (packet in its inbox). TERRY owns the gate; CME unread; no order implied. HEN-46 itself resolved 10/22, so "thesis-dead" is historical wording.
 - **Diesel and refining (BRENT commission, DOCKET 11/20):** my crack estimate is BRENT's input; Russian producer ban through 1/31/2027 (SIG-W-20261031-001).
