@@ -29,3 +29,20 @@ The defect in its own terms: **the tools can reach an answer from a feed whose m
 ## Named residue, not fixed here
 
 F7's pre-print line when a target stays in `upcoming` after its results exist: reachable only if `auctioned` still has coupon rows but not the target; depends on same-day feed behaviour that no one has observed. First real look: 11/9 after 13:00 ET.
+
+## Outcome, read 2 (2026-11-05): ACCEPT-WITH-RESIDUE, L859 closed by PROME
+
+Bounded to the diff of 3036cea01, no ❌, last read under the review budget. Ledger: `inbox/processed/2026-11-05_from-PROME_ta-ws-reread-ACCEPT-WITH-RESIDUE.md`.
+
+**Operating caveat for 11/9, 11/10, 11/12: a PRE-PRINT line after the print means not graded, whatever the rc.**
+
+| Residue | What remains | Reaches the registered grades? |
+|---|---|---|
+| R1 | Bill row with disagreeing old and new dates: docket rc 0 with a false coverage claim | No. Needs both names in the feed; 0 of 8 today. Named one-line fix, not taken: it would ship unreviewed |
+| R2 | Reopened CUSIP with a disagreeing date older than an earlier print: audit grades the older print at rc 0 | No. Frozen path refuses; November refunding CUSIPs are new issues |
+| R3 | `--date` mode can print GAP, then grade at rc 0 | No. Registered form is `--cusip` |
+| R4 | F7 widened: target left in `upcoming` prints PRE-PRINT at rc 0, also under unknown types | No grade results; caveat above governs |
+| R5 | One blank Yes/No on any coupon row refuses every grade in the run, no override | Yes, as a refusal. The one route to a false refusal. 0 blanks in 162 live and 2,800 history rows; same-day state unobserved |
+| R6 | "Only adds refusals" was too broad: F4 also turns empty-old-key refusals into grades on the new-name values; the FRN list can drop a bystander unnamed | No false registered grade found |
+
+**Corrections to my disposition:** AC3's "docket rc 2" holds on coupon rows only (R1). "Unknown types refuse" holds on the `auctioned` path, not pre-print (R4). A false GAP can be re-graded the same day only if the feed heals (R5). "Only adds refusals" is replaced by R6's wording.

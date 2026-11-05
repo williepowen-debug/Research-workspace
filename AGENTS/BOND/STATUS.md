@@ -52,7 +52,7 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 | 10/27 | 5Y `91282CRT0` | 60.05 / 29.40 / 10.56 | 2.33 | AUDIT ONLY; clean (I′ +0.63pp) |
 | 10/29 | 7Y `91282CRV5` | 57.77 / 32.82 / 9.41 | 2.46 | AUDIT ONLY; clean (I′ 57.43, +0.34pp; OLD and cover not fired) |
 
-**Frozen 11/2 for the refunding** (n=12, published 2dp; OLD indirect-min / dealer-max · BTC-min · I′): 3Y `91282CRW3` 11/9 $58B: 56.50 / 19.50 · 2.54 · 57.44 — 10Y `91282CRX1` 11/10 $42B: 63.95 / 13.38 · 2.39 · 65.05 — 30Y `912810UY2` 11/12 $25B: 59.95 / 14.74 · 2.29 · 63.89. Files `registry/auction_bars/`; grade with `.venv` python (system python lacks numpy, so I′ is not computed there).
+**Frozen 11/2 for the refunding** (n=12, published 2dp; OLD indirect-min / dealer-max · BTC-min · I′): 3Y `91282CRW3` 11/9 $58B: 56.50 / 19.50 · 2.54 · 57.44 — 10Y `91282CRX1` 11/10 $42B: 63.95 / 13.38 · 2.39 · 65.05 — 30Y `912810UY2` 11/12 $25B: 59.95 / 14.74 · 2.29 · 63.89. Files `registry/auction_bars/`; grade with `.venv` python (system python lacks numpy, so I′ is not computed there). ⚠️ After a print, a PRE-PRINT line means not graded, whatever the rc; one blank Yes/No on any coupon row refuses the run (L859 read 2).
 
 ## Gates and derived statistics
 

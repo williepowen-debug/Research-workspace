@@ -14,7 +14,7 @@ Boot 09:39 ET, status to Will. PROME packet `inbox/2026-11-05_from-PROME_catch-u
 - **Data:** Treasury 11/4, ICE 11/3, NY Fed 11/4, Bund 11/5, ACM, KW, proxy (KB-527, 536). KB overdue rows dispositioned: 10 Stale_By cleared, 3 STALE, 2 SUPERSEDED.
 - **Inbox:** 9 of 9 WALTER cards consumed, including the BoE hike (KB-537). R3 answered in the PROME packet.
 
-- **L859 HOLD (10:06 ET):** independent read of the 10/29 TreasuryDirect repair found the same failure by other doors. Verified, acceptance conditions committed first, repaired, 24 of 24 mutants caught (KB-538). Not independently verified yet; bounded diff read asked of PROME. Grades 11/9–11/12 proceed with `--frozen-bars`; check on 11/9 whether a target stays in `upcoming` after results post (F7 residue).
+- **L859 HOLD (10:06 ET):** independent read of the 10/29 TreasuryDirect repair found the same failure by other doors. Verified, acceptance conditions committed first, repaired, 24 of 24 mutants caught (KB-538). Read 2 ACCEPT-WITH-RESIDUE, no ❌, L859 closed by PROME; six residue items R1–R6 recorded in `analysis/2026-11-05_catchup/ta_ws_repair_ACCEPTANCE.md`, no code changed after 3036cea01. Grades 11/9–11/12 proceed with `--frozen-bars`. **Auction-day rule: a PRE-PRINT line after the print means NOT GRADED, whatever the rc.** Check on 11/9 whether a target stays in `upcoming` after results post (R4).
 
 ## NEXT (dated)
 

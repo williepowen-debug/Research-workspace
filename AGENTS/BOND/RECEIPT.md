@@ -11,6 +11,6 @@ Task: PROME packet 7dac94dc1 under Will's 09:42 ET word. Runtime Claude Code, mo
 | Credit | Refresh; two ACTION assessments | KB-BND-533, 534, 535 |
 | Inbox | 9 of 9 WALTER cards consumed | board_log.tsv |
 
-| L859 HOLD | F1–F6, F8, F9, O1 repaired; F7 partial | KB-BND-538; `analysis/2026-11-05_catchup/ta_ws_repair_ACCEPTANCE.md` |
+| L859 HOLD | F1–F6, F8, F9, O1 repaired; F7 partial; read 2 ACCEPT-WITH-RESIDUE, L859 closed | KB-BND-538; `analysis/2026-11-05_catchup/ta_ws_repair_ACCEPTANCE.md` |
 
 Not done: FR2004 as-of 10/28, PMMS 11/5 and HY 11/4 were unpublished; L226 waits on the 11/13 report; closeout held for PROME.
