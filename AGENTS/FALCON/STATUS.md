@@ -23,7 +23,7 @@
 |---|---|
 | The disagreement | Brent fell 8.7% to $94.62 on November 4 (CNBC via WALTER; BRENT's number). No Gulf event explains it. Since my October 30 grade the record gained a US strike on Iranian soil, one sinking, one seafarer killed and seven newly recorded hull events (five dated November 1–3), plus Rezaei's "not convincing", with no signed text. **The price moved on expectations; none of my registered conditions moved** (KB-384/386) |
 | Ladder test | D→C needs a 72-hour two-sided halt; last named hull hit GRIT 11/3 ~19:00Z, so that clock has not started. C→B needs a dated framework AND verified reopening steps; neither exists. A mark moves on a registered letter, not on a price |
-| What would change this | A signed, dated text with an on-record US answer; 72 hours with no strike or hull hit; or a re-graded BRENT fade test. See-saw rule binds both ways: a two-day swing to peace is inside the base rate |
+| What would change this | A signed, dated text with an on-record US answer; 72 hours with no strike or hull hit; or a BRENT fade test met (BRENT 11/4: NOT MET; Hormuz flow basis UNRESOLVED, no common-perimeter current figure). See-saw rule binds both ways: a two-day swing to peace is inside the base rate |
 | Qeshm accounts | Three versions unreconciled: aircraft returned fire (WSJ via CTP), launcher removed (NBC), facility watched two months and hit once finished (Trump). Only Trump's is on record and it reads as a choice, not a reaction (KB-378) |
 | Hulls 10/28–11/3 | ARZANAH · AL MAYEDA (= UKMTO 188-26, IMO position match) · SELAT STORM · ERA S · LARGO ATOM · AL JUSUFI (1 killed, hull fate unknown) · GRIT. IMO 128 / 24 as at 11/3; +6 from 122 reconciles to named rows. All UNATTRIBUTED. **The run reaches into the mid-Gulf (LARGO ATOM, 72 NM E of Ras Al Khafji; AL MAYEDA, S of Lavan), not only Musandam** (VI-0088..0094, KB-382) |
 | IRGC mine claims | 10/29 three · 11/1 two · 11/2 one · 11/3 three · 11/4 four. No hull, position or confirmation in any. CLAIM-ONLY (KB-383) |
@@ -41,7 +41,7 @@ Scores retained; no vector crossed its threshold column at the November 4 review
 | Hormuz status |5| PortWatch floor to 10/25; seven more hull events recorded, five dated 11/1–11/3; offer conditional | Verified operational reopening + sustained recovery → down | November 4 |
 | Iran/proxy operations |5| Houthi claims on Saudi targets; IRGC mine claims; militia threats | One week two-sided quiet incl proxies →3 | November 4 |
 | US-Iran direct kinetic |5| US strike on Qeshm 11/2 confirmed; blockade on | Formal ceasefire + blockade lifted →2 | November 4 |
-| Energy tape |5| BRENT owns figures; Brent −8.7% 11/4; BRENT has not re-graded | Registered owner fade test, BRENT input | November 4 ownership check |
+| Energy tape |5| BRENT 11/4: fade NOT MET (January $94.62, $16.62 above the <$78 line). ⚠️ Tape fell ~17% in three sessions: not met does not mean the tape agrees with the ladder | Registered owner fade test, BRENT input | November 4, BRENT packet 50aa58dce |
 | Gulf production/bypass |5| No production-class loss established; bypass HOLDING to 10/30 | Registered production rung needs IN-class facility/source | November 4 |
 | Diplomacy |3| Mediated exchange continues; no text, no date | Dated executed framework →2; actual breakdown event →4 | November 4 |
 | Shipping/insurance |5| Census 7; all 5 insurance rows expired | At ceiling; no mine attribution inferred | November 4 |
