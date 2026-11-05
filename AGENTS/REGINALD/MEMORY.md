@@ -24,7 +24,7 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 ⚠️ **Open question at close:** does the 8/20 ranking predict anything? The frozen 11/07 test against simple baselines answers it, as a retrospective check, not a blind one.
 
-### LAST SESSION — 2026-11-05 10:30 ET →, Will-authorized catch-up via PROME window (prome-98); session held open, no closeout
+### LAST SESSION — 2026-11-05 10:30 → 16:33 ET, Will-authorized catch-up via PROME window (prome-98); closed on Will's word
 - **Runtime:** Claude Code, Opus 5.5, desktop `DESKTOP-BC6EF81`. Pull refused on AEOLUS dirty files; 52 ahead, 0 behind. FFIEC token live here; `/tmp/mi3/fac` cache rebuilt (138 banks).
 - **L895 DONE:** all 4 filed; line diff 0 of 134 changed, 4 added. HSBC USA deposits −$7.69B, not a flag. Frozen universe −$6.54B / +$32.70B; 6 flags unchanged; verdict waits for FDIC.
 - ★ **L516:** FDIC posted the P&A today. My first URL 404'd; the right one sat in my 10/9 report. A 404 on a guessed URL is not absence. Schedules redacted, shared figure unchanged, weekly check closed.
@@ -44,6 +44,14 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 - **13:32 ET, Will via PROME:** FLG review → `reports/2026-11-05_FLG_late-loan-review.md`. **I called FLG "the one that matters" off two quarters; 12 quarters showed a rebound. Pull the bank's own history before calling a jump.** Same day as the PFBC base-rate correction.
 
+- **14:13 ET, WQ-596:** REG-31..34 registered.
+
+- **14:25 ET, WALTER -051:** CommunityAmerica sized → `reports/2026-11-05_CommunityAmerica_35-West-Wacker_sizing.md`. See lesson 50. CYPHER vendor cluster: no consequence, not a clearance → boot REPORT §15.
+
+- **16:05 ET, Will-asked:** read LABOR's combination watch (LABOR `CLAUDE.md` C3; CREED §6a). I recommended adopting it with three themes, review dates, unread items as leads, no backfill, and said it does not fix today's real miss, unread tables. Will closed out without answering: **NOT adopted.**
+
+- **Skipped at close:** VLY and EGBN 10-Qs (filed today, seen 16:33 ET, unread); H.4.1 11/05 (my FRED series id failed, not retried); research retirement sweep; `consumer_check`, no registered figure superseded; NEXUS derived surfaces other than the brief unchanged, no score moved.
+
 ### EARLIER — 2026-11-03 12:06 ET, Will-launched boot, intake and write-back
 - **Read:** root/desk instructions and canonical STATUS → LESSONS → CALENDAR → MEMORY → ROADMAP boot sequence; fuller `boot.py` completed rc 1 (ALERT only, no FAIL/INCOMPLETE). Runtime Kimi Code CLI, exact model/session UNKNOWN; file-based coordination available.
 - **Tape:** 12:06 ET vendor quotes WAL $77.43, KRE $73.19, FLG $10.55; APO −5.58% flagged without cause attribution. Settled 11/02 (Yahoo/Nasdaq agree): WAL $78.67 (REG-T-02 FIRED, exit 0-of-3) and KRE $73.73; FLG $10.75, RED for 18 closes.
@@ -52,11 +60,7 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 - **Intake:** general/WALTER 0; WAL/OZK unACKed 0; predictions 7 OPEN none due; corrections 0; staleness clean; no unread BOARD signal met the selection rule. Alerts were the known WAL/FLG states, FLG director buy and CFG/WAL 8-Ks. No new TERRY route.
 - **Sync/work:** pull withheld on other desks' dirty tracked files; fetch showed local 4 ahead / 0 behind. Report `reports/2026-11-03_boot/REPORT.md`. No score, prediction, probability, position or trade change. Nano P&A check due 11/03 not run in this tape-only boot.
 
-### EARLIER — 2026-11-02 17:55 → 18:38 ET (`date`), Will-directed KRE review, integration and closeout
-- **Read:** reviewed the KRE collection with Sloane's summary; core conclusion remains broad market/style change plus a modest bank-specific remainder, not a credit all-clear or direction forecast.
-- **Rebuilt stress test integrated:** `research/KRE/reports/2026-11-02_kre-stress-test-rebuilt/`, commit `47ed2e062`. After documenting and temporarily repairing an eight-ticker fetch omission, the rerun matched all 54 rebuilt comparison values as text. Original-source differences and statistical caveats retained.
-- **Study 6 verification integrated:** `research/KRE/reports/2026-11-02_study6-verification/`, commit `5cfb60176`. Offline run regenerated 16/17 outputs byte-for-byte. Like-for-like five-bank effect 1.772pp (73% of stated-window gap); corrected linked components reconcile fully. Effect is window-sensitive, non-causal and does not explain co-movement.
-- **State:** KRE guides/synthesis updated; open holdings/additive questions closed. No bank grade, threshold, prediction, position or trade change. Inbox lanes empty; no stale consumer packet after source inspection.
+*11/02 evening entry → `archive/MEMORY_rotation_2026-11-05.md` BLOCK M15, crc32 `9a9ba72f`.*
 
 ### EARLIER — 2026-11-02 17:24 → 17:29 ET checks, Will-launched evening boot
 - **Tape at 17:29 ET, vendor not settled:** WAL $78.67 (+3.12%), KRE $73.73, FLG $10.75; VIX 21.15 (+8.91%). REG-T-02 stays FIRED, exit 0-of-3 through 10/30; FLG RED; no 11/02 settled grade.
@@ -105,6 +109,7 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 ### CHANGES SINCE LAST SESSION
 
 ### NEXT SESSION
+00. **FIRST: VLY 10-Q (`0000714310-26-000049`) six asks, report 2026-11-01 §1d; EGBN 10-Q (`0001050441-26-000113`) multifamily criticized table and REG-28 maturities; both filed 11/05, unread.** Then WAL settled 11/05 row (vendor $75.88; must agree Yahoo and Nasdaq), HY 11/05 print, H.8, H.4.1. FLG 10-Q per review §5 if filed. Combination watch waits for Will (ROADMAP Open Questions).
 0. **FFIEC short list COMPLETE 11/05** (138 of 138). FDIC full screen ~mid/late Nov gives the frozen verdict. REG-06 EDGAR scan DONE 10/31 (none; next 11/30). **Re-check at each touch: BKU 10-Q → FL final; VLY 10-Q → six asks; OZK at FDIC FLNG (never EDGAR).**
 1. **Four carried releases READ 11/02:** CCB Q3, H.4.1 10/29, H.8 10/30 and FHLB Q3 Highlights → `reports/2026-11-02_carried-release-reads/REPORT.md`. Next H.4.1 11/05 / H.8 11/06 (descriptive only; 'deposits down' tell RETRACTED, deep dive §10). CCB 10-Q partner/recourse notes pending. REG-T-06 grades 11/13 from the CFR. Per-bank borrowing screen FROZEN (`reports/2026-10-28_borrowing-screen_FROZEN_rule.md`, sha256 `90e0a4a2…948a`); run once FDIC posts Q3 (~mid/late Nov).
 2. **DAEDALUS 10/30 packets: DRAINED 10/31** (reply sent; deferred items carry dates 11/07 · 11/14 · 11/20 in the reply). Prior text: item 1 DONE 10/30 eve (reply with it). Items 2–4 decide L5: VX.tsv 14 stale LIVE rows (3 contradict STATUS) · OZK 37.6% dead-figure notes (bank-side HY report :122 + one more) · POSITIONS.md lacks Nov 66P/67P/68P/70P legs (collapse stacked headers). Then disposition 5–14 + A1–A3 (DONE / DEFERRED with date / DECLINED with reason) in one reply to `AGENTS/DAEDALUS/inbox/`. Charter trim (item 5) is MINE, no Will word (PROME, DOCKET L889). `V1V3-ACCELERATE` rename: coordinate with WALTER per `registry/NOTES.md` or re-date. read_cap rc 1 is NOT mine to clear (DAEDALUS tool, 11/04).
@@ -118,6 +123,8 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 10. **By 11/20, with the charter trim:** re-validate the reading copy for BOARD/SIG-W-20260619-008 (39,509 B; its class-row member exception is past its review date, the cause of read_cap rc 1; PROME 11/05 says this is mine) and re-attest READS.
 
 **CARRIED LESSONS — behaviour, not record.** *Newest first. Aging rule (9/02): full entry → one-line rule AND the full text goes to `archive/` verbatim + crc in the same pass. ⛔ Never age a lesson by deletion (the 12-21 compressions archived nothing; git history only). Preamble → BLOCK M7, crc32 `8028ecb4`.*
+50. **[11/05] I wrote a loss table into the CommunityAmerica sizing before computing it, and three of four ratios matched no calculation; the packet carried one. I also measured against the 7% line without checking which capital regime applied: the 5300 showed the credit union opted into the 9% leverage framework.** A follow-up check, not the first write, caught both.
+   - ⇒ **Compute, then write: every derived figure comes from a command run before the sentence exists** (`finding_attribution_authenticates_a_figure_its_named_source_never_produced`). **Before calling a line the line, read which rule the filer is under.**
 49. **[10/21, found 10/28 via BROCK] I recorded CFG $12.852B vs $14.727B as 'both June 30 endpoints, not growth' without opening the smaller figure's period-end. It was March 31. My own 10/16 report had already named Q1 as the likely vintage.**
    - ⇒ **Two different figures for one line item are a VINTAGE question before they are a scope question: read each figure's period-end at its source, and grep my own reports, before naming the cause.**
 48. **[10/22] I committed 32 `git mv` renames with a pathspec built from `git diff --cached --name-only`, which lists only the NEW name of each rename. The commit added the archive copies and left the old-path deletions staged, so both copies sat on origin for about a minute (f984ce53c, fixed dbfbfc2bd).**
