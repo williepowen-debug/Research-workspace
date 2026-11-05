@@ -2,7 +2,7 @@
 
 Authority: Will's November4 substantive follow-through explicitly includes investigating and correcting this reported defect under existing bounded-repair authority. No threshold, operator, instrument, session calendar, missing-input rule or consequence changes. Existing inclusive equity return <= -15% AND first-published HY change >=5bp remain binding.
 
-reads: 0
+reads: 2 (DAEDALUS read 1 WITHHELD 2026-11-04; read 2 RELEASE 2026-11-05 at 303bae4a7, with WQ-603 reading A)
 Independent result review remains required before operational release or claiming fixed. Author tests establish IMPLEMENTED / TESTED only. No independent reader has been commissioned in this session.
 
 Acceptance conditions, written before code edit:
