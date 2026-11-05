@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review, on date); FAL-07 CONFIRMED; losses 7; oil fell 8.7% with no registered condition moving.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-11-04 21:10 ET | STATUS commit: `54b0cc5da9` | Evidence cutoff ~21:05 ET
+**As of:** 2026-11-04 21:10 ET | STATUS commit: `944cf8e17b` | Evidence cutoff ~21:05 ET
 
 ## CROSS-DOMAIN
 
