@@ -5,8 +5,8 @@ Read-only except this file and one correction of a false line in STATUS.md. Prio
 ## OWED
 | # | Finding | Evidence | Severity |
 |---|---|---|---|
-| O1 | WATCH_FOR verdict never answered, 35 days. WALTER's R3 test 10/1: 3 passed, 3 rejected, 7 replacements offered; asks adopt or decline by name in a packet to PROME/inbox | inbox/processed/2026-10-01_from-WALTER_R3-watch-for-verdicts.md; DOCKET L565, dated 11/3, lists HENRY outstanding | 🟠 |
-| O2 | My 11/5 packet and STATUS said no past-due HENRY row. FALSE: the scan keyed on the owner column; L565 names HENRY in its text. The 10/21 sweep read L565 and missed it too | PROME/inbox/2026-11-05_from-HENRY_catch-up-to-live-data.md | 🟠 corrected |
+| O1 | **CORRECTED 11/5 10:4x ET: this row first said HENRY never answered WALTER's 10/1 WATCH_FOR verdict. False.** HENRY answered 10/2 (510b067c0); PROME consumed it and the set never landed; the live list is still the six old phrases. The 10/2 set has since gone stale (HEN-46 resolved 10/22, F3 spent), so a current answer went to PROME: land an empty list | PROME/inbox/2026-11-05_from-HENRY_L565-second-correction-and-current-WATCH_FOR-answer.md | 🟡 with PROME |
+| O2 | My first correction checked the docket text and not my own sent mail. A negative claim needs a complete scan (LESSONS); it was missed twice in one morning | — | 🟢 recorded |
 | O3 | Today's gamma_flip.py change not logged in MAINTENANCE.md | grep "IV = 0" MAINTENANCE.md = 0 | 🟡 |
 | O4 | 8 WALTER cards logged deferred 9/17 "to next boot", never reopened, one ACTION (SIG-W-20260914-027). All 7+ weeks old | board_log.tsv, one row each | 🟡 |
 | O5 | Operating Dashboard 10/22; its prediction panel says no live row while HEN-57/58/59 are OPEN | dashboard/dashboard_tpl.html:287 | 🟡 scheduled |
