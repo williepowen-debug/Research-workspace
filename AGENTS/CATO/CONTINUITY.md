@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 4, 2026, L835 audit passed; Standard due-row dispositions pending. Review and owner prompts delivered; await Will/owner replies.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry when a task resumes; saved approvals do not trigger unrelated work.
+**Updated November 4, 2026, L835 disposition pass done; bounded owner scopes proposed. Review and owner prompts delivered; await Will/owner replies.** [CHARTER](CHARTER.md) governs authority. Read only the matching [TASK_INDEX](TASK_INDEX.md) entry when a task resumes; saved approvals do not trigger unrelated work.
 
 ## Resume point
 
@@ -12,7 +12,7 @@ No CATO implementation or review is currently owed. Will is directing the other 
 
 - **ISHM:** four-group backlog catch-up now delivered on Will-relayed owner receipt `921701b56`; recommendation is close the session. Equipment buying better supported, broad durability unproved; no CATO regrade. Mixed-vintage import history/direct monthly comparison and AAR historical publication day remain exceptions. Next: Parker-Hannifin November 5, import/S&P source checks November 6, AAR metadata December 2. NEXUS/PROME incorporation now evidenced; other recipients not assessed. [Closure receipt](runs/2026-11-04_1531_agent-work-review.md#november-4--ishm-catch-up-delivered).
 
-Next: orient, await Will's direction or owner replies, and assess changed evidence only if requested. L835 source remains installed; ARGUS now complete (0 blockers/4 advisories), candidate `99a951907` locally REVIEWED. Standard rc 1 on 13 due-today rows; no candidate delivery/push/baseline advance. Recommend bounded evidence/coverage disposition of the exact rows, preserving genuine pending duties; no 13-job launch, blanket COVERED or engineering restart. L835 stays OPEN. [Current assessment](runs/2026-11-04_1531_agent-work-review.md#november-4--l835-operational-audit-passed-standard-disposition-gate-blocked). Accepted maintenance, launcher repair and WQ-583 stay closed. No new owner edits, tool sends or launches authorized for CATO.
+Next: orient, await Will's direction or owner replies, and assess changed evidence only if requested. L835 source remains installed; ARGUS now complete (0 blockers/4 advisories), candidate `99a951907` locally REVIEWED. Disposition pass now records 1 fulfilled, 4 covered, 8 owner-action rows across 7 desks; preflight still fails and corrections remain local/undelivered. Recommend exact existing task scopes with discovery/recovery first, no duplicate launches; CREED needs explicit Will permission. No launch grant given here. L835 stays OPEN. [Latest assessment](runs/2026-11-04_1531_agent-work-review.md#november-4--disposition-pass-completed-seven-owner-scopes-proposed). Accepted maintenance, launcher repair and WQ-583 stay closed. No new owner edits, tool sends or launches authorized for CATO.
 
 ## Surviving CATO work
 
