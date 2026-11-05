@@ -6,7 +6,7 @@ VIX-linked positions and trade framework.
 
 ## ACTIVE POSITIONS
 
-**Current holdings reference: `FORGE/STATUS.md`, October 14 broker-received mirror.** No VIOLET-owned VIX position is established there; `TRY-VIOLET-VIXCS` closed July 30. Broker capture/fill times and working orders are UNKNOWN; position truth remains off-repo. Will chose PASS on the pre-CPI card under WQ-418, recorded October 11 and consumed October 14. That event window ended October 14 at 08:30 ET. No new proposal or trade instruction.
+**Current holdings reference: `FORGE/STATUS.md`, last reconciled to the October 30 intraday broker capture and stale between exports.** No VIOLET-owned VIX position is established there; `TRY-VIOLET-VIXCS` closed July 30. Broker capture/fill times and working orders are UNKNOWN; position truth remains off-repo. Will chose PASS on the pre-CPI card under WQ-418, recorded October 11 and consumed October 14. That event window ended October 14 at 08:30 ET. No new proposal or trade instruction.
 
 ---
 
@@ -218,4 +218,4 @@ Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events,
 
 ## REVIEW STAMP
 
-Reviewed September 14, 2026 against STATUS, FORGE's dated mirror and KB-VIO-212. Old header, log and beta claims corrected; historical preregistrations and realized accounting preserved. Pre-sweep text retained in the archive.
+Header reviewed November 5, 2026 against the FORGE mirror; the historical frameworks below were not re-read. Full review September 14, 2026 against STATUS, FORGE's dated mirror and KB-VIO-212. Old header, log and beta claims corrected; historical preregistrations and realized accounting preserved. Pre-sweep text retained in the archive.

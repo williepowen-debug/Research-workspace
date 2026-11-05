@@ -41,7 +41,7 @@ VIX -20.26% (22nd largest one-day percentage drop in 9,309 Cboe sessions). VIX9D
 
 ## 5. What did not calm
 
-HY OAS 340bp [11/03], from 316bp [10/13] and 314bp [10/28], peak 344bp [10/30], with 11/04 unpublished at this grade. SKEW 150.90 [11/04], and 150 or above on 4 of the last 5 closes, so tail pricing did not follow VIX down. Rates vol MOVE 93.88 [11/04] sits well above its lines. The 10/13-to-11/17 credit-vol WATCH stands: +24bp from 10/13 is under the central 100bp size condition, so it stays a watch and not a letter.
+HY OAS 340bp [11/03], from the 268bp [9/22] watch base and 314bp [10/28], peak 344bp [10/30], with 11/04 unpublished at this grade. SKEW 150.90 [11/04], and 150 or above on 4 of the last 5 closes, so tail pricing did not follow VIX down. Rates vol MOVE 93.88 [11/04] sits well above its lines. The 10/13-to-11/17 credit-vol WATCH stands: +72bp from the 268bp [9/22] base, peak +76bp, is under the central 100bp size condition. *(Corrected 2026-11-05 10:0x ET: the first version said +24bp from 10/13, the wrong base; the 10/13 date opens the lag window, not the widening measure, KB-VIO-328.)*, so it stays a watch and not a letter.
 
 ## 6. Owner rows (reads sent, grades not made)
 

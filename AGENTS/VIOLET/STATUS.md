@@ -1,6 +1,6 @@
 # VIOLET STATUS
 
-**As of:** November 5, 2026 09:5x ET (from `date`). Catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1), Claude Code, Opus 5.5. Official closes through 11/04 from Cboe History CSVs and the VX settlement CSV; live values are 09:49 ET delayed quotes, basis TICK. **Last real data refresh: 2026-11-05.** Thesis **v4.1.5**; no line, gate or letter changed.
+**As of:** November 5, 2026 10:0x ET (from `date`). Catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1), Claude Code, Opus 5.5. Official closes through 11/04 from Cboe History CSVs and the VX settlement CSV; live values are 09:49 ET delayed quotes, basis TICK. **Last real data refresh: 2026-11-05.** Thesis **v4.1.5**; no line, gate or letter changed.
 
 ## BOTTOM LINE
 
@@ -12,7 +12,7 @@
 
 **Election grade (KB-VIO-367):** VIX9D carried the event, with VIX9D/VIX 1.0619 and 1.0542, then 0.9145. VX/X6 could not have held it directly, because X6 prices VIX on 11/18 and the 30 days after. The futures-front inversion ended at +1.352% on 11/04 after 3 settles.
 
-**What did not calm:** HY OAS **340bp [11/03]** (316bp [10/13], peak 344bp [10/30]; 11/04 unpublished), SKEW **150.90 [11/04]**, MOVE **93.88 [11/04]**. The credit-vol WATCH to November 17 stands. Oil-vol canary reads **FIRE 3.54 [11/04]**, mainly because VIX fell (OVX −4.7%, VIX −20.3%). It is a context canary, not an action gate.
+**What did not calm:** HY OAS **340bp [11/03]** (268bp base [9/22], peak 344bp [10/30]; 11/04 unpublished), SKEW **150.90 [11/04]**, MOVE **93.88 [11/04]**. The credit-vol WATCH to November 17 stands. Oil-vol canary reads **FIRE 3.54 [11/04]**, mainly because VIX fell (OVX −4.7%, VIX −20.3%). It is a context canary, not an action gate.
 
 **Today, not a close:** VIX 17.50, VVIX 92.48, 3M/VIX 1.1086 at 09:49 ET (TICK). SPY $756.12 (−1.39%) and QQQ $669.83 (−3.20%, low $668.71) at 09:50 ET vendor, with VIX up about 5%. A QQQ fall of that size with index vol this quiet and COR1M 10.29 reads dispersed, not correlated. HENRY and VULCAN own the equity read; the cause is not read here.
 
@@ -71,7 +71,7 @@
 
 ## REGIME STATUS AND DRIFT
 
-**LOW_VOL on the 11/04 close, after two RISING_VOL closes.** The excursion lasted two sessions, and the curve never inverted on a cash close. It released on 11/04 together with the election result and an oil fall. The original October 13 → November 17 credit-vol WATCH stands: HY is +24bp from 10/13 at 340bp [11/03], under the central 100bp size condition. It is a watch, not a letter.
+**LOW_VOL on the 11/04 close, after two RISING_VOL closes.** The excursion lasted two sessions, and the curve never inverted on a cash close. It released on 11/04 together with the election result and an oil fall. The original October 13 → November 17 credit-vol WATCH stands: HY is +72bp from the 268bp [9/22] base at 340bp [11/03], peak +76bp, under the central 100bp size condition. It is a watch, not a letter.
 
 **Dealer gamma (HENRY-owned, context only):** ⚠️ last read in hand is the **11/02 pre-open map, past HENRY's stated shelf life, so the sign is unverified.** That map: NEGATIVE at 14d and 35d on SPX, QQQ and NDX; SPX flips ~7,706 / ~7,711, walls withheld; QQQ 680 put and 700 call published. QQQ $669.83 at 09:50 ET sits below that 680; HENRY grades whether it matters.
 
@@ -90,7 +90,8 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 3. **Credit-vs-vol read when FRED posts 11/04 HY.** LIQUID owns spreads; VIOLET reads only the lag.
 4. **FXY IV mid-session re-pull** before any IV/RV read.
 5. **Open tool defect (KB-VIO-365, KB-VIO-370):** implied_corr.py stamps SETTLE by clock. Row repairs done; the tool fix is not commissioned.
-6. **November 17 lag endpoint**, November 18 VIX expiry, L342 11/26 holiday-bar defect (not due), December 16 L441.
-7. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
+6. **November 17: credit-vol window endpoint and NVIDIA results after the close, then the November 18 VIX AM SOQ.** Both added to CATALYSTS 11/05. L342 11/26 holiday-bar defect (not due), December 16 L441 (VX_TERM_HISTORY refreshed through 11/04 on 11/05).
+7. **Path A F2 audit, owed since v4.0 (8/27) and missing from this queue until the 11/05 sweep.** The pre/post-2018 test of Path A's ~70% hit rate. Not commissioned. It decides how much weight the credit-vol WATCH deserves; a thin sample resolves to no gate, never to waived (KB-VIO-217).
+8. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
 **Persistence / coordination (11/05):** boot pull clean. 8 WALTER cards drained into board_log.tsv and processed/; COR-20261031-02 receipted NO-OP. Corrections check rc 0. Ledgers repaired 10/29–11/04. PREDICTIONS.tsv: all 6 rows terminal, so the staleness alert has no live row behind it. Closeout not run; PROME holds it.

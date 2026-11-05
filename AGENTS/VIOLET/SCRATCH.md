@@ -16,7 +16,8 @@
 - Backfilled VX_DAILY 10/30 and 11/02–11/04 (0 corrected), CHEAP_TAIL 10/29–11/04, OVX and IMPLIED_CORR rows including the KB-VIO-365 repairs (KB-VIO-366, KB-VIO-370).
 - Graded the election: `research/2026-11-05_catchup/GRADE.md`; row pruned; KB-VIO-367, KB-VIO-368. The checkpoint asked the wrong instrument: VIX9D carried the event, not VX/X6.
 - Re-scored convergence (KB-VIO-369). Thesis v4.1.5, no line changed, headline check at KB row level only.
-- Packet to RED with FT-06 and FT-10 bars. Republished both Will-facing pages to version 9. Trimmed MAINTENANCE.md to 287 lines.
+- Packet to RED with FT-06 and FT-10 bars. Republished both Will-facing pages, now version 10. Trimmed MAINTENANCE.md to 287 lines.
+- **Sweep for Will:** `research/2026-11-05_catchup/SWEEP.md`. Caught my own HY base error (+72bp from 268bp [9/22], not +24bp from 10/13; KB-VIO-371), added NVIDIA 11/17 and the credit-vol endpoint to CATALYSTS, rebuilt VX_TERM_HISTORY through 11/04.
 
 ## NEXT SESSION
 
@@ -25,9 +26,9 @@
 2. Mid-session FXY IV re-pull; the 09:40 ET 2.7% and 09:46 ET 15.1% reads are unusable. Discard IV/RV until then.
 3. Payrolls 11/06 and CPI 11/10 pre/post surface read. Verify both dates at bls.gov (403 on 11/05); CPI search unconfirmed.
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.
-5. November 17 lag endpoint, November 18 VIX expiry, L342 11/26 (not due), December 16 L441.
+5. **November 17: credit-vol endpoint and NVIDIA after the close; November 18 VIX AM SOQ.** L342 11/26 (not due), December 16 L441.
 6. implied_corr.py SETTLE-by-clock defect: not commissioned.
-7. Verify the next NVDA earnings date for CATALYSTS (DOCKET has the 10-Q at ~11/19, estimated).
+7. Three items wait on Will (SWEEP.md): Path A F2 audit, the MOVE pause/resume line, desk CLAUDE.md conflicts.
 
 ## CARRY-FORWARD
 
