@@ -10,7 +10,7 @@
 
 ## ACTION
 1. TERRY reads T1(b), the HYG completed close against $76.81, at each close while this session is open.
-2. PROME assigns the T1(b) close read for sessions when TERRY is not open. T1(a) is routed through LIQUID's grade; T1(b) has no reader after this session closes.
+2. PROME notes the limit of GATES column 9, "TERRY at its touches": a HYG close under $76.81 between TERRY touches waits for the next touch. Each later green session is still an entry until 12/4, so TERRY asks for no new check. T1(a) is routed through LIQUID's grade.
 3. PROME keeps routing LIQUID's 11/5 HY grade to TERRY about 10:30 ET 11/6.
 
 OP-SCALE contest stays held for Saturday.
