@@ -1,0 +1,6 @@
+bench keys ['btc', 'dlr', 'from', 'ind', 'ind_p15', 'ind_p15_reopen_only', 'n', 'n_reopen', 'tips', 'to']
+control, 11/12 bars: ind_min 59.95 dlr_max 14.74 btc_min 2.29 ind_p15 63.89 n 12 (frozen 59.95 / 14.74 / 2.29 / 63.89)
+all 30Y n 34 med 1d -0.2 5d -0.3 10d -0.22 med 10d low -1.62 | 5d<=-1.6%: 4 | 10d low<=-1.6%: 17
+I' fire n 9 med 1d 0.15 5d -0.44 10d -1.36 med 10d low -1.92 | 5d<=-1.6%: 1 | 10d low<=-1.6%: 6
+I' + high dealer n=0
+OLD composition failure n=0

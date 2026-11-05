@@ -123,3 +123,4 @@
 
 | **IDEA-TLT-QRA-NOV02** | CLOSED — WQ-592 RULED B, DECLINED (Will 2026-11-04 20:59 ET); never filled, $0 (was: CONDITIONAL — NOT-FIRED) | IDEA | TLT Jan-15 82/78P ×2 ≤ $1.45; max loss $292.60 | Supply-raising QRA plus fresh BOND posture, then green day by November 6 | NEXUS / BOND | `TLT_jan15-82-78P_refunding-supply-surprise_2026-11-02.md` |
 | **IDEA-CF-Q3-NOV02** | CLOSED — WQ-593 RULED B, DECLINED (Will 2026-11-04 20:59 ET); never filled, $0 (was: CONDITIONAL — NOT-FIRED) | IDEA | CF Dec-18 125/135C ×1 ≤ $3.30; max loss $331.30 | Post-Q3 FERT supply/outlook confirmation, close ≥ $125, then red day by November 10 | FERT | `CF_dec18-125-135C_post-Q3-supply-tightening_2026-11-02.md` |
+| **TRY-NOTRADE-REFUNDING-NOV05** | NO TRADE — BOND's ask, construction PASS; no card built, $0 | IDEA | TLT, weak-refunding short duration; no structure | None armed; 30Y composition failure 0 of 34 prints | BOND | `../research/2026-11-05_catch-up/NOTE.md` |
