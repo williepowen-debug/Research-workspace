@@ -18,7 +18,12 @@ domain: "FUNDING_LIQUIDITY"
 entities: ["Ueno-Bank", "Banco-Central-del-Paraguay", "Pena", "Paraguay"]
 word_count: 185
 dispatch_note: "Bookmarks 1, 2, 3 of BM batch; 2 and 3 folded with their claims marked. Direct AP fetch refused (403, then fetch-proxy refusal); no evasion. Search-summary points are labelled as such. IMMEDIATE on fast decay and state change, not on any US channel."
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-05
+status_ref: "SIG-W-20261105-026 \u2014 US fund holdings measured at $17.9M; detention orders, not detentions"
 ---
+
+> **Correction, November 5 — SIG-W-20261105-026:** "No US exposure established" is superseded: US funds held $17.9M face, about 95% of holders undisclosed. "Detained" should read eight detention orders. The resignation report stands. Original text preserved below.
 # Paraguay's President Peña resigns over the Ueno Bank collapse; Congress must still accept it; no US exposure established
 
 Update to 013 and 069. AP (Will's bookmark, posted 16:40Z), US News and NBC reprints, CNN and Bloomberg all report Peña resigned November 5, announcing it by video on X.

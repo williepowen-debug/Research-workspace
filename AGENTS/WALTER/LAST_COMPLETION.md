@@ -1,26 +1,26 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-05T16:56:11Z, Claude Code Opus 5.5, session walter-07 on the desktop. CLOSED on Will request; FULL closeout, coverage PARTIAL.
+Updated 2026-11-05T17:26:48Z, Claude Code Opus 5.5, session walter-07 on the desktop. Midday boot after the 11:56 ET FULL closeout; light closeout, session open, coverage PARTIAL.
 
 ## RESUME — do these first
 
 1. `git pull --rebase` at root, then ordinary boot.
 2. **November 5 close pass, NOT run:** settled closes for VIX, S&P, QQQ, KRE, WAL against REG-T-02's 78 (existing cycle, re-entry, not a new fire; REGINALD grades), Cboe VIX and SKEW; HY, CCC and VIXCLS for November 5 when published (RED-FT-02/06/07, REG-T-03/04). Short follow-up card saying whether 016 and 017 held.
-3. **Intake:** the November 5 collector run was not reviewed. Step 7i from the cutoff below, then 7e.
+3. **Intake:** no November 5 collector run existed at 17:20Z (last 2026-11-04T21:01Z); gate quiet, 0 NEW. Review it once it lands. Step 7i from the cutoff below, then 7e.
 4. **November 6:** payrolls, STWD and ACRE, WQ-556 C check.
 5. **Open from today:** CF's November 5 call unheard; Cable One results after the November 5 close unread; BoE Monetary Policy Report unread; `bdata` absent on the desktop, only 403 bookmark links affected.
 
-Calendar coverage cutoff: 2026-11-05T16:56:11Z (step 7i run; rows in research/2026-11-05_morning/CALENDAR-RECONCILIATION.tsv; pending rows named there).
+Calendar coverage cutoff: 2026-11-05T17:26:48Z (step 7i run; rows in research/2026-11-05_midday-boot/CALENDAR-RECONCILIATION.tsv; pending rows named there).
 
 ## STATUS
 
-Session CLOSED on Will request. No active WALTER helper, study or unattended task. Evidence: research/2026-11-05_morning/ (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, STEP7-REVIEW, DISCOVERY, VERIFY-IRAN, VERIFY-AI-TAPE) and research/2026-11-05_bookmarks/REVIEW.md.
+Midday boot PARTIAL: desk STATUS reads were 12 lines for desks updated today and 3 for the rest; READS check UNKNOWN on a stale attestation; HANS daily levels and owner-limited rows carried from the morning scan. Session open; no active WALTER helper, study or unattended task. Evidence: research/2026-11-05_midday-boot/ and research/2026-11-05_morning/ (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, STEP7-REVIEW, DISCOVERY, VERIFY-IRAN, VERIFY-AI-TAPE) and research/2026-11-05_bookmarks/REVIEW.md.
 
-November 5 total: 23 BOARD cards, 75 handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 26 BOARD cards, 88 handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
-Cards 001–023 including FLASH 016 and 017. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+Cards 001–026 including FLASH 016 and 017; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
@@ -90,7 +90,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-05T16:56:11Z",
+  "as_of": "2026-11-05T17:26:48Z",
   "next_review": "2026-11-06",
   "publication": [
     {
@@ -127,13 +127,18 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
       "commit": "8acf77a2f98fa38e8457637ab1fa9941566a9dc2",
       "state": "published",
       "note": "Closeout records; safe-push on a verified-clean tree carried 018-023."
+    },
+    {
+      "commit": "009238cdef9575d083e2d35ae1200b0a34ffe988",
+      "state": "pending",
+      "note": "Cards 024-025; IMMEDIATE push deferred, foreign untracked REGINALD work in the tree."
     }
   ],
   "delivery": {
     "signal_date": "20261105",
-    "total": 75,
+    "total": 88,
     "delivered": 75,
-    "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
+    "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate. Thirteen 024-026 rows pending push."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -169,16 +174,24 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
       {
         "path": "AGENTS/WALTER/research/2026-11-05_L334/REPORT.md",
         "sha256": "4d8e60936ad4959bd8ddee41bcf1ecaf06ace0314ab266f6cdec7b7486b509d3"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/THRESHOLD-SCAN.md",
+        "sha256": "d5ebe1d1531201e631e07bbf00830b3ea3d49fb2396360db2e9c8fa4fc12de03"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/CALENDAR-RECONCILIATION.tsv",
+        "sha256": "9e1ed998f5af93dfba6a7e4e6bdb565fe1f79a93bef91f970532219823c12b89"
       }
     ]
   },
   "procedure": {
-    "tier": "full",
-    "boot": "PARTIAL: step 7 ran after cards 001-015; desk STATUS reads partial; READS UNKNOWN on a stale attestation; November 5 collector run and close pass not reviewed.",
-    "session": "CLOSED on Will request; no active helper, study or unattended work."
+    "tier": "light",
+    "boot": "PARTIAL: desk STATUS leads truncated; READS UNKNOWN on a stale attestation; HANS daily and owner-limited rows carried from the morning scan; close pass not yet possible.",
+    "session": "OPEN after midday boot; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-023 including FLASH 016 and 017. Batches BM-20261105-01 and -02 closed.",
+    "11": "Cards 001-026 including FLASH 016 and 017. Batches BM-20261105-01, -02, -03 closed.",
     "13": "Owner leads compared; BRENT, HENRY, LIQUID, VIOLET, BOND, PROME, CREED, AEOLUS, RED, TERRY, VULCAN, REGINALD and self refreshed before NETWORK.",
     "12(a,b)": "Counts and NETWORK refreshed; last tape row is vendor intraday, no settled close claimed.",
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; standing flags unchanged.",
@@ -187,9 +200,9 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     "14": "MEMORY #62 added, #7 extended, #39 extended; calendar check stays November 12.",
     "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
     "15": "Duties and approvals retained; resume list and calendar cutoff updated; close pass carried first.",
-    "16": "Will requested closeout; safe-push at verified-clean tree; reconcile applied.",
-    "checks": "Results in research/2026-11-05_final/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
-    "Tier1": "Last vendor tape 11:55 ET; no close read."
+    "16": "Will-coordinated push pending; foreign untracked REGINALD files in the tree, so the IMMEDIATE exception was not used.",
+    "checks": "Results in research/2026-11-05_midday-boot/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
+    "Tier1": "Vendor tape 12:19 ET; no close read."
   }
 }
 END_CLOSEOUT_RECEIPT -->

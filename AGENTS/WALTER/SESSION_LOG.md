@@ -1,3 +1,7 @@
+## 2026-11-05T17:26:48Z light-closeout — full deferred
+
+Midday boot after the 11:56 ET FULL closeout, Will's word. Cards 024 and 025; batch BM-20261105-03 closed 6 of 6; four bookmarks marked; two REGINALD packets consumed; registry refreshed. Boot PARTIAL. Session stays open.
+
 ## FULL CLOSEOUT — 2026-11-05T16:56:11Z — closed on Will request
 
 Claude Code Opus 5.5, session walter-07, desktop. Boot, then Will's 09:42 ET catch-up through PROME. 23 cards, 75 handoffs, FLASH 016 and 017, one kill, two Rule 9 helpers plus one fetch helper. L334 predictive leg delivered, no bar. Sixteen bookmarks after Will re-authorized X at 10:06 ET. CRUISE candidate folded, DEWEY peer check closed, STATUS and Iran anchor rotated, step 7 run late. Zero DEWEY commissions. Close pass not run.
