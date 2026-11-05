@@ -111,5 +111,5 @@ The market is repricing who gets paid and at what cost of money. Big buyers hold
 | Mag-7 slot 9 | Due 11/6 post-close, not run: running today would break the cadence rule. A missed slot stays missed |
 | GPU reading 9 | Same slot; hand-read at the slot only |
 | L622 | ✅ Answered early. NYMEX consented to a further 60 days to January 8, 2027, at the Commission's request. Status "Approval Pending (90)", no first trade date. November 9 is no longer the deadline, and the reported November 9 first trading day is superseded [KB-356] |
-| VULCAN-13 | Venue and borrower set named (d407abd38), not blind. Sweep logged [KB-354]. Payer-tier question open for Will. Resolves 11/15 |
+| VULCAN-13 | Venue and borrower set named (d407abd38), not blind. Sweep logged [KB-354]. Payer-tier question closed 11:03 ET: WQ-608 RULED A, Oracle and Meta do not count, recorded as a disagreement, grade on the developer form [KB-366]. Resolves 11/15 |
 | Other past-due | None. Boot leg 2 shows no prediction due. EDGAR sweep was 6 days stale, refreshed: 31 rows |
