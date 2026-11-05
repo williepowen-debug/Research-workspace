@@ -1,4 +1,4 @@
-# VIX THESIS (v4.1.5 — election-week excursion recorded, 2026-11-05; no line, condition or conviction changed)
+# VIX THESIS (v4.1.6 — Path A F2 audit recorded, 2026-11-05: NOT RUNNABLE, inherited ~70% not replicated; claim text unchanged pending Will)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -17,6 +17,8 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ---
 
 ## CHANGELOG
+
+**v4.1.6 (2026-11-05):** Path A F2 audit run on a pre-registered spec with HY OAS recovered to 1996. Post-2018 n=3 against a floor of 5: NOT RUNNABLE, NO GATE. Inherited ~70% not replicated (6 of 19, 31.6%, base 13.7%). The signal roughly doubles spike odds; it does not make a spike likely. Claim text retained pending Will's ruling. Full entry: `thesis/CHANGELOG.md`.
 
 **v4.1.5 (2026-11-05):** RISING_VOL on the 11/02 and 11/03 closes, LOW_VOL again on 11/04; no registered line fired. Headline claims checked against KB-VIO-352 to KB-VIO-370 at row level, not a full re-read of this file: no contradiction found. One refinement: a VX contract prices VIX at its expiry and the 30 days after, so it cannot hold an event dated before that expiry; read pre-event premium on VIX9D (KB-VIO-367). Full entry: `thesis/CHANGELOG.md`.
 
@@ -177,6 +179,8 @@ VIX peak within fwd-60td, **episode-level** (sizing unit) with fire-day rate in 
 4. Yield curve is not inverted (filters rate-driven shocks)
 
 **Hit rate:** ~70% | **False positive rate:** 25-30% (15-20% with yield curve filter)
+
+> ⛔ **Path A F2 audit (v4.1.6, 2026-11-05, KB-VIO-372):** the ~70% below did NOT replicate. On a mechanical test of size + VIX<20 + curve, without the credit-origin and cross-sector filters: 6 of 19 (31.6%) for a spike over 10 points against a 13.7% base; 8 of 19 (42.1%) for +50% against 21.4%. Post-2018 n=3, so F2 is NOT RUNNABLE and this resolves to NO GATE. Do not size from the figures below. Retained verbatim pending Will's ruling. `../research/2026-11-05_path-a-f2/REPORT.md`.
 
 > ⚠️ **Source note (v3.1):** Hit-rate figures are INHERITED from the four-model research synthesis (Gemini/Perplexity/Claude/Grok). They have NOT been independently reproduced or back-tested by VIOLET against our own data. Treat as directional framework, not validated statistics.
 
@@ -501,7 +505,7 @@ Portfolio P&L (no credit-side firing required)
 - [ ] L4 demotion formalization: COT positioning → descriptive context, not discriminator
 - [ ] L1 re-split by trigger type: do DIET fires concentrate around macro-shock vs technical vs concentration-unwind?
 - [ ] Path B (concentration-unwind parallel) backtest: identify historical analogs (Aug 2024 yen, Nov 2018 FANG, Feb 2018 Volmageddon, Mar 2020) and characterize joint trigger+amplifier condition
-- [ ] **Path A F2 audit (added v4.0):** run the pre/post-2018 test on Path A's ~70% hit rate. Path A's VIX<20 entry gate is level-conditional; if separation compresses post-Volmageddon the way KB-VIO-207 did, sizing conclusions change. **This is not a demotion of Path A** — it is the obligation the level-decay class puts on every level-conditional signal.
+- [x] **Path A F2 audit RUN 2026-11-05: NOT RUNNABLE, NO GATE (KB-VIO-372).** Original item (added v4.0): run the pre/post-2018 test on Path A's ~70% hit rate. Path A's VIX<20 entry gate is level-conditional; if separation compresses post-Volmageddon the way KB-VIO-207 did, sizing conclusions change. **This is not a demotion of Path A** — it is the obligation the level-decay class puts on every level-conditional signal.
 - [ ] **VIX9D/VIX ratio base-rate work (added v4.0, KB-VIO-213):** now that the instrument is built and backfilled to 2011, base-rate the ratio at the thresholds the framework would want (≥1.0 crossing, ≥1.05 sustained, compression <0.85). Register nothing without an F2 test — do not repeat the KB-VIO-207 pattern of ship-then-audit.
 - [x] **KB-VIO-203 departures-arrivals evidence reconciled October 14 (KB-VIO-334):** recovered September 2 grade and original August 27 letter; timing/counterfactual reproduced, actual-flat-spot eligibility failed. Arithmetic mechanism retained; clean full-letter predictive HIT withdrawn. September event is closed, not a new forward test.
 

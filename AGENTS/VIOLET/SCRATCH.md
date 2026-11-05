@@ -28,13 +28,15 @@
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.
 5. **November 17: credit-vol endpoint and NVIDIA after the close; November 18 VIX AM SOQ.** L342 11/26 (not due), December 16 L441.
 6. implied_corr.py SETTLE-by-clock defect: not commissioned.
-7. Three items wait on Will (SWEEP.md): Path A F2 audit, the MOVE pause/resume line, desk CLAUDE.md conflicts.
+7. **Path A audit DONE (KB-VIO-372): NO GATE, ~70% not replicated.** Waiting on Will: its three recommendations, the MOVE pause/resume line, desk CLAUDE.md conflicts.
+8. Live 75bp episode: 2-6 week window about 11/05 to 12/07; VIX close >=29.03 would be the over-10-points hit. Not a registered prediction unless Will says so.
 
 ## CARRY-FORWARD
 
 - RED owns FT-10 and FT-06 grades. LIQUID owns HY. HENRY owns gamma; the 11/02 map is past shelf life, treat the sign as unverified. BRENT owns oil. SAM owns BOJ.
 - PREDICTIONS.tsv: all 6 rows terminal; the +36d staleness alert has no live row behind it.
 - CHANGELOG body text of the 10/14–10/19 entries still has glued words.
+- Raw ICE HY series live only in this session's scratchpad (ICE reproduction notice); re-fetch from the web archive to rerun `research/2026-11-05_path-a-f2/run_audit.py`.
 - Push not run: safe-push is the closeout step, and PROME holds closeout.
 
 ## OPEN HYPOTHESES

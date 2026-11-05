@@ -6,6 +6,12 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## November 5, 2026 — v4.1.6: Path A F2 audit
+
+**Old view → new view:** Path A hit rate ~70%, inherited and owed an F2 audit → F2 NOT RUNNABLE on 3 post-2018 episodes, which resolves to NO GATE (KB-VIO-217/260), and the ~70% did not replicate: 6 of 19 (31.6%) for a spike over 10 points against a 13.7% base, 8 of 19 (42.1%) for +50% against 21.4%, on a superset test without the credit-origin and cross-sector filters. The signal roughly doubles spike odds; it does not make a spike likely. Spec frozen at cc62521ac; the over-10-points cell was added after outcomes and is labelled post-freeze.
+**Not changed:** the claim text, any line, gate or letter. Withdrawing the figures needs Will's word.
+**Record:** `research/2026-11-05_path-a-f2/REPORT.md`, KB-VIO-372.
+
 ## November 5, 2026 — v4.1.5: election-week excursion and the VX event-window refinement
 
 **Old view → new view:** LOW_VOL with a contained 10/22–10/23 excursion → LOW_VOL on the 11/04 close after two RISING_VOL closes (VIX 21.15 [11/02], 20.83 [11/03]) and a release to 16.61. **No threshold, condition, probability or conviction changed.** VVIX peaked 110.47, 3M/VIX bottomed 1.0211, the 5-day rise reached +25.1%; none of those lines fired. Term-structure reading refined: X6 above Z6 does not measure an event dated before X6's expiry, because X6 prices VIX on 11/18 and the 30 days after; VIX9D is the event instrument (KB-VIO-367). Consistent with the thesis, one observation only: the front inverted near the VIX peak and released within two sessions, the peak-marker reading of KB-VIO-034.

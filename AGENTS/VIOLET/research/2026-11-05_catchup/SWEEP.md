@@ -18,7 +18,7 @@
 
 ## Open: needs Will
 
-1. **Path A F2 audit, owed since 8/27.** The pre/post-2018 test of Path A's ~70% hit rate. Not commissioned. If the sample is too thin, the result is no gate, never waived (KB-VIO-217).
+1. **Path A F2 audit: approved and run 2026-11-05 10:37 ET.** NOT RUNNABLE, NO GATE; ~70% not replicated. `research/2026-11-05_path-a-f2/REPORT.md`, KB-VIO-372. Its recommendation awaits Will.
 2. **MOVE pause/resume line.** Its parent is the rising-vol registration design and GATE-VIO-RV1 is retired, yet the line still reads ARMED. It looks orphaned. Not verified that the commission is dead. Retiring a registered line is a gate change.
 3. **Desk CLAUDE.md conflicts (edit needs Will's word).** The MAIL paragraph forbids inbox work on normal spawns while step 5a and practice drain it, and it cites HERMES; steps 5b and 5a are out of order; "Position sizing → FORGE" conflicts with root TERRY ownership.
 

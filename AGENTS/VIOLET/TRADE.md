@@ -182,6 +182,8 @@ TERRY owns structure and sizing; Will approves execution. No sizing table or gen
 
 ### Credit-Vol Lag Trade (Four-Model Framework)
 
+⛔ **Audit 2026-11-05 (KB-VIO-372): the 70% and 25-30% below did not replicate.** Measured 6 of 19 (31.6%) against a 13.7% base, post-2018 n=3, NO GATE. Do not size from this template. Retained verbatim pending Will's ruling.
+
 **Thesis:** When HY OAS widens >100bps from recent low and VIX < 20, VIX will spike >10pts within 2-6 weeks (70% hit rate, 25-30% false positive).
 
 **Setup (All must be true):** HY OAS +100bps from recent low · VIX < 20 at onset · cross-sector widening · yield curve NOT inverted · no active Fed QE backstop
