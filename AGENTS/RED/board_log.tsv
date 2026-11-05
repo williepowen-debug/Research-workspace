@@ -125,3 +125,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T11:49	SIG-W-20261105-023	noted	BOARD	Iran says 5 tankers and a tug; claim-only, no neutral confirmation; FALCON owns, count with 007
 2026-11-05T12:42	2026-11-05_SIG-VIO-RED_vol-spike-curve-inverted-intraday	noted	INBOX_GENERAL	VIOLET outbound row met on live quotes, credit-flat leg unconfirmed; nothing fires before the close; grade FT-06 and FT-10 on official bars only
 2026-11-05T13:44	2026-11-05_from-BROCK_brk26-SQN-does-not-resolve	noted	INBOX_GENERAL	BROCK graded BRK-26: SQN does not resolve, OPEN 55% to 12/31, KB-BRK-429 read at artifact; Test 2 not needed on its fund-level reading; catalyst row resolved
+2026-11-05T16:08	SIG-W-20261105-055	deferred	INBOX_WALTER	Close read, vendor 16:05 ET not official: VIX 26.86, VVIX 131.46. FT-06 exit day 1 only on published VIXCLS >=18; FRED T+1. Grade when it posts
