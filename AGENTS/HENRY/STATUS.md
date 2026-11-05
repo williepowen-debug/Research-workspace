@@ -113,8 +113,7 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 | PPI FD m/m | +1.3% [BLS Sep, 10/15] | >0.4 / >0.5 / >0.6 | RED observation; next print 11/13 |
 | Core PCE m/m | +0.3% [BEA Sep, 10/29] (unrounded +0.32%) | >0.3 hot | NOT FIRED |
 | VIX | **16.61 [FRED VIXCLS 11/4]**; 11/5 Cboe 17.50 delayed (~09:33 ET) | >23 / >28 / >30 sustained | NOT FIRED (6.39 below 23) |
-| SPX | **7,688.62 [vendor 11/4]**; 7,577.69 intraday 09:52 ET 11/5 | <7,200 / <7,100 / <6,494 | NOT FIRED (378 above 7,200 intraday); gamma **NEGATIVE both**, flip 7,693–7,696 [11/5] |
-| SPX −10% from cycle peak (charter send-table) | peak 7,818.93 [10/6] ⇒ line 7,037.04 | one line, 🔴 to CARL, PROME via WALTER | NOT FIRED (540 points above, intraday 09:52 ET) |
+| SPX | **7,688.62 [vendor 11/4]**; 7,577.69 intraday 09:52 ET 11/5 | <7,200 / <7,100 / **−10% from cycle peak** (7,037.04 at the 7,818.93 close of 10/6; recomputes at a new peak; WQ-609 A, Will 11/5) | NOT FIRED (378 above 7,200, 541 above red, intraday); gamma **NEGATIVE both**, flip 7,693–7,696 [11/5] |
 | KRE | $74.13 [vendor 11/4] | <$65 / <$62 / <$60 | NOT FIRED |
 | 10Y | **4.90% [Treasury par 11/4]** | >4.5 / >4.8 / >5.0 | ORANGE (10bp under red) |
 | 2Y / 30Y | **4.58% / 5.28% [Treasury par 11/4]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | **2Y ORANGE (2bp under red; was RED 4.61 on 11/3)**; 30Y ORANGE (22bp under red) |

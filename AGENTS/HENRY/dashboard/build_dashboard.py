@@ -10,7 +10,7 @@ def pct(v, lo, hi):
 # name, src, value, display, sub, direction ('up' = higher is risk), lo, hi, (y, o, r), dist_bold, dist_text, ghost
 RAILS = [
     ("VIX", "vendor 10/22 close · ↑ risk", 19.03, "19.03", "VIX3M 20.12", "up", 10, 35, (23, 28, 30), "3.97 below", "the &gt;23 vol-control line", (22.31, "22.31 hi 10/16")),
-    ("S&amp;P 500", "Cboe + vendor 10/22 close · ↓ risk", 7663.43, "7,663", "−1.21% day", "down", 6300, 8000, (7200, 7100, 6494), "463 above", "the &lt;7,200 yellow line", (7818.93, "7,819 peak 10/6")),
+    ("S&amp;P 500", "Cboe + vendor 10/22 close · ↓ risk", 7663.43, "7,663", "−1.21% day", "down", 6300, 8000, (7200, 7100, 7037.04), "463 above", "the &lt;7,200 yellow line", (7818.93, "7,819 peak 10/6")),
     ("10-yr Treasury", "Treasury par 10/22 · ↑ risk", 4.96, "4.96", "% · was 5.13", "up", 4.0, 5.4, (4.5, 4.8, 5.0), "4bp under red", "orange; red line &gt;5.00%", None),
     ("2-yr Treasury", "Treasury par 10/22 · ↑ risk", 4.65, "4.65", "% · was 4.81", "up", 3.8, 5.0, (4.25, 4.40, 4.60), "5bp through red", "red line &gt;4.60%", None),
     ("30-yr Treasury", "Treasury par 10/22 · ↑ risk", 5.29, "5.29", "% · was 5.42", "up", 4.6, 5.8, (5.0, 5.25, 5.5), "21bp below red", "orange", None),

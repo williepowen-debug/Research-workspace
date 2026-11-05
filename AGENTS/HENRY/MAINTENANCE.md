@@ -8,6 +8,9 @@
 **Defect:** Cboe's payload carries IV = 0 on every contract for about 15 minutes after 09:30 ET. Zero usable contracts fell through to the vendor chain with only the `src=` label to say so; a 09:44 ET run read SPX POSITIVE (flip ~7,641) when the Cboe read minutes later was NEGATIVE (flip ~7,693). Nothing published. **Fix:** `fallback_reason` carried on the read, a ⛔ line printed, `--publish` refused on any non-Cboe source. Tested with a stubbed zero-usable chain: ledger byte-identical.
 **Sweep fixes** (`reports/2026-11-05_desk-sweep.md`): charter inbox step 2 no longer points at frozen VX/FLOW; role and "You own" match WQ-507 A and VIOLET's broadcast; boot time, Git non-ff line and two DAEDALUS paths corrected; `reports/` and `status_archive/` added to FILES. ECON_CALENDAR ISM line now points at STATUS. REFERENCE_TABLES March levels removed. 12 KB rows from 8/6-9/2 moved ACTIVE → RECORD (dated observations, not live calls; no script reads this token). 8 deferred 9/17 cards read and closed in `board_log.tsv`. Superseded MEMORY notes removed. Retirements in `archive/README.md`.
 
+### 2026-11-05 — SPX red band re-keyed (WQ-609 A, Will 11:03 ET)
+Red was <6,494, a retired March CTA level. Now −10% from cycle peak: 7,037.04 at the 7,818.93 close of 10/6, recomputing at a new peak. STATUS row, charter, dashboard builder. Yellow and orange unchanged. No gate carried the old level.
+
 ### 2026-10-29 (~16:5x ET) — `gamma_flip.py`: `--underlying SPX|QQQ|NDX`, `--spot`, opt-in `--publish`; put==call guard wired into the cross-horizon check
 **Why (Will-directed in session, items 4 + 6):** (a) Will holds a QQQ put spread and the desk had only an SPX map, translated to QQQ by beta. (b) Every run of the script rewrote that day's `PUBLISHED.tsv` rows, including reads nobody published, and dropped the basis notes on hand-recorded rows. It did that twice on 10/29.
 **What changed:**

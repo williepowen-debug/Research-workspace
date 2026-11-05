@@ -57,7 +57,7 @@ All 3 scripts and the dashboard builder compile; boot --selftest PASS; PREDICTIO
 | O1, O2 | HENRY had answered; empty list sent to PROME to land. PENDING PROME |
 | O3, O4 | DONE: MAINTENANCE logged; 8 cards read and closed, nothing owed |
 | O5, S5, S6 | PENDING, after the close |
-| B1 | Routed to PROME for a WQ row with a recommendation. 6,494 unchanged |
+| B1 | DONE: Will ruled WQ-609 A 11:03 ET; red = −10% from cycle peak, encoded |
 | B2, B3, B4, B6, B8 | DONE |
 | B5 | Left; proposal to drop boot step (g) routed to PROME |
 | B7 | LEFT: renaming ledger rows breaks the consumer series for no gain |

@@ -162,7 +162,7 @@ Static reference only. **Current levels live in `STATUS.md`** — pull from ther
 | Metric | Threshold | Implication |
 |--------|-----------|-------------|
 | VIX | >30 sustained | Risk-off regime confirmed |
-| SPX | -10% from cycle peak | Reverse wealth effect fires |
+| SPX | -10% from cycle peak (also the red band, WQ-609 A) | Reverse wealth effect fires |
 | KRE | <$60 | Regional bank stress acute |
 | ISM Mfg <47 | **ISHM-owned since 2026-10-23 (WQ-507 A)** — level unchanged; HENRY reads the rates / vol consequence of a fire | Deep contraction |
 | 10Y Yield | >5.0% | Term premium crisis (LIQUID link) |
@@ -191,7 +191,7 @@ HENRY's core framework is the **systematic cascade sequence** — mechanical sel
 - ⚠️ **Open-window caveat (2026-11-05):** Cboe's payload carries IV = 0 on every contract for about 15 minutes after 09:30 ET. The script falls back to the vendor chain, says why, and refuses `--publish`; read gamma pre-open or after about 09:47 ET.
 - ⚠️ **Free-tier caveat that travels with the live source:** sign + flip are robust; the **$B magnitudes are assumption-dependent** and not SpotGamma-grade. A **level** near a crossing is the fragile part; the **sign** is the trustworthy part. Never convert this estimator's level into someone else's kill-line without saying which it is (KB-VIO-138, 7/28).
 - **Cross-horizon wall guard (audit E2) — `gamma_flip.py --both`, built 2026-10-21.** Walls can disagree across horizons (7/29: 14d 7,500/7,300 vs a 35d 7,000 = 7,000 tie). The within-horizon near-tie guard cannot see that, so `--both` compares the two #1 strikes per wall: same strike = publish (band where a near-tie), different = withhold, sign split = report both. Tested 10/21 on the live chain and on a 7/29 replay. History in `MAINTENANCE.md`.
-- **Retired levels — do NOT cite from any file:** ~7,496 (7/23 chain, later found the oldest and highest estimate available; VIOLET re-based off it 7/28) and the **7,455 / 7,491** two-line band, which **retired with `TRY-VIOLET-VIXCS` when that position EXITED 2026-07-30 (TERMINAL).** The Mar-2026 snapshot (6,707/6,494/6,902/6,800) was retired earlier and is also dead.
+- **Retired levels — do NOT cite from any file:** ~7,496 (7/23 chain, later found the oldest and highest estimate available; VIOLET re-based off it 7/28) and the **7,455 / 7,491** two-line band, which **retired with `TRY-VIOLET-VIXCS` when that position EXITED 2026-07-30 (TERMINAL).** The Mar-2026 snapshot (6,707/6,494/6,902/6,800) was retired earlier and is also dead; the SPX red band stopped using 6,494 on 2026-11-05 and is now −10% from cycle peak, recomputed at each new peak (WQ-609 A).
 
 **Credit-Primary Rule (H4):** Equity CANNOT bottom until HY OAS peaks. Credit leads equity by 2-3 sessions. Rate of change matters more than absolute level.
 
