@@ -54,16 +54,17 @@
 
 ## Session Notes
 
-### CHANGES SINCE — 2026-11-02 from 08:47 ET, PROME Tier-1 WQ-184 due-row wake (prome-40, DOCKET L888 Monday pre-open gamma; Claude Code, Opus 5.5)
+### CHANGES SINCE — 2026-11-05 from 09:39 ET, boot + Will's 09:42 ET catch-up via PROME (Claude Code, Opus 5.5). Session still open at this write; PROME asks before closeout.
 
-- **L888 done before the open (pushed 08:50 ET, `2fd9af938`):** SPX/QQQ/NDX `--both --publish` on Monday Cboe chains, OI = 10/30-trade vintage. NEGATIVE both on all three (unchanged); flips lower: SPX 7,706–7,711 (was 7,732–7,736), QQQ 718–721 (725–727), NDX 28,779–28,913 (28,937–29,047). SPX put wall WITHHELD, band 7,500–7,600 (7,700 did not re-form); QQQ 680 put and 700 call PUBLISHED. Research `research/2026-11-02_L888/`; WALTER packet sent.
-- **OI-vintage test (reusable, `research/2026-11-02_L888/oi_vintage_check.py`):** before the open, Cboe's `volume` field still shows the prior session while `open_interest` has moved on contracts that traded — that pair proves the OI includes the prior day. Payload timestamp alone does not.
-- **Inbox:** 6 WALTER cards (10/31) logged and moved; SIG-014 QQQ short interest 82.0M at 10/15 settlement re-verified at the Nasdaq API and folded with the settlement-lag caveat.
+- **Gamma 11/5 09:48 ET published, Cboe, spot live:** NEGATIVE both on SPX, QQQ, NDX; flips SPX 7,693–7,696, QQQ 702–706, NDX 28,495–28,566. QQQ 680 put wall (11/2) held three sessions, broke at the 11/5 open. OI = 11/4-trade INFERRED, pre-open proof not run.
+- **Cboe payload carries IV = 0 for ~15 minutes after the open.** `gamma_flip.py` fell silently to the vendor chain and read POSITIVE at 09:44 ET. Fixed: prints the reason, refuses `--publish`. Read gamma pre-open or after ~09:47 ET; a read inside that window is not usable.
+- **Vendor quotes that looked live and were not:** boot's VIX 17.07 was a pre-open bar; ES=F's last bar was 09:34. Check the bar time before calling a figure current. SOXX printed 450→141 with no vendor split record; use SMH.
+- **Inbox drained:** 19 WALTER cards, 4 packets. WALTER's 038 asked HENRY to reconcile an election scenario HENRY never held (grep with positive control). 055's "60% in bear-market territory" did not reproduce: 31.3% [11/3].
 
 ### NEXT SESSION
 
-1. Grade the 11/02 session against the pre-open map: SPX vs the 7,706–7,711 flip and the 7,500–7,600 put band; QQQ vs 680 / 700 and the 718–721 flip. ISM manufacturing 11/2 (ISHM owns); AAPL after the close 11/02 (vendor date).
-2. Row 9 on 11/18: PANW + bank-stock legs from a live pull; the collapse magnitude must be settled with CYPHER/PROME BEFORE 11/18.
-3. Operating Dashboard not refreshed since 10/22 (version 4). ISM services date (11/4) still unverified.
-4. Catalysts: ISM services 11/4, NFP 11/6 (HEN-59), CPI 11/10 (HEN-57; L775), PPI 11/13 (HEN-58; L776), NVDA 11/19 (L322). Russian diesel/gasoil producer ban through 1/31/2027 (BRENT/OSPREY).
-5. QQQ short interest: next settlement 10/31; publication date not checked.
+1. Grade 11/5 at the close: SPX 7,600 / band 7,500–7,600, NDX 28,000, QQQ 675–680 and 700; re-pull `--both` next pre-open with the OI-vintage test.
+2. HEN-59 NFP 11/6 (L767, co-reader); HEN-57 CPI 11/10 (L775); HEN-58 PPI 11/13 (L776); NVDA 11/19 (L322).
+3. Operating Dashboard not refreshed since 10/22 (version 4); hardcoded figures in `dashboard/build_dashboard.py` and the template. Do it on closes, not an intraday tape.
+4. Row 9 on 11/18: PANW + bank-stock legs; collapse magnitude must be settled with CYPHER/PROME first.
+5. Consumer check for superseded flips and the 680 wall at closeout. QQQ short interest 10/30 settlement not yet posted.
