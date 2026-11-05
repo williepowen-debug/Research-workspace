@@ -6,7 +6,9 @@
 **Thesis owner:** HENRY, L616 breadth study dated 2026-10-31 on 10/30 closes, `AGENTS/HENRY/STATUS.md` § MARKET BREADTH.
 **Confidence in structure:** Low at the observed markets. Recommendation: wait; do not pay the displayed debit.
 
-> **TRIGGER STATE 2026-11-05 09:50 EST (TERRY): NOT-FIRED, no entry.** RSP $222.80 −0.24% at 09:45 EST, red so far today, not a completed close. The debit test blocks entry whatever the colour: `chain_fetch.py` 09:46 EST, usable legs, 215C $11.30/$13.80, 225C $4.70/$5.40 (225C flagged NONMONO; both last traded 11/4; six-row DIRINC warning), outer debit $9.10 (×1 $911.30), leg mid $7.50, against the $4.90 cap. Screening marks, no broker quote. ⚠️ Rough read: the spread moves about $0.20 per $1 of RSP, so a $4.90 fill needs RSP near $210, below this card's own $215 floor. The approved card may simply not fill; that is a valid outcome, and the limit does not move.
+> **TRIGGER STATE 2026-11-05 11:10 EST (TERRY): NOT-FIRED, debit blocks.** Selloff: RSP $219.37 −1.78% (11:08 EST), red so far and above the $215 floor. Volatility rose with it: VIX $27.96. Chain 11:08 EST: 215C $9.50/$11.20, 225C $3.80/$4.80, outer $7.40 (×1 $741.30), leg mid $6.05, against ≤ $4.90. Screening marks, no broker quote. No close yet.
+
+> **TRIGGER STATE 2026-11-05 earlier 09:50 EST (TERRY): NOT-FIRED, no entry.** RSP $222.80 −0.24% at 09:45 EST, red so far today, not a completed close. The debit test blocks entry whatever the colour: `chain_fetch.py` 09:46 EST, usable legs, 215C $11.30/$13.80, 225C $4.70/$5.40 (225C flagged NONMONO; both last traded 11/4; six-row DIRINC warning), outer debit $9.10 (×1 $911.30), leg mid $7.50, against the $4.90 cap. Screening marks, no broker quote. ⚠️ Rough read: the spread moves about $0.20 per $1 of RSP, so a $4.90 fill needs RSP near $210, below this card's own $215 floor. The approved card may simply not fill; that is a valid outcome, and the limit does not move.
 
 ## 0. Authority, freshness and hard caveats
 | Item | Evidence and consequence |

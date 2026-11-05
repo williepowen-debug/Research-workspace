@@ -1,5 +1,7 @@
 # TRADE IDEA — Broad credit into the REG-T-04 window — HYG Jan-15 77/74 put spread (rec) · alt HTGC Jan-15 16P
 **Date:** 2026-10-23 (written 19:0x ET from `date`)
+> **TRIGGER STATE 2026-11-05 11:10 EST (TERRY): NOT FIRED.** HY 332 [11/4, FRED], run 0 of 3, not ≤ 330. Today's selloff is not in any cash spread yet. HYG $77.18 −0.43% (11:08 EST).
+
 **Setup ID:** `IDEA-CREDIT-HYG-BDC-OCT23`
 **Terry verdict:** CONDITIONAL — APPROVED NOT-FIRED, leg (a) only (WQ-513 A, Will 2026-10-23 21:15 ET, at the rec: HYG Jan-15 77/74P ×4, limit ≤ $1.00, default size). Leg (b) HTGC is NOT approved. The order is Will's hand (root rule #5). *(was: unapproved proposal, 10/23 19:0x ET)*
 

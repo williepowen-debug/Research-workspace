@@ -5,7 +5,9 @@
 
 > **WQ-518 RULED A — Will in the TERRY window 2026-10-29 11:42 ET, verbatim "518 A":** the Oracle-verified fiscal-Q2 date condition stays; no estimated-date entry.
 
-> **TRIGGER STATE 2026-11-05 09:50 EST (TERRY): NOT FIRED · NOT VOIDED.** T1: DTCC disseminated 5Y 300 bp [11/3] per `AGENTS/LIQUID/STATUS.md`, vs 350; void ≤ 280 not hit. ORCL $119.04 −3.79% (09:45 EST) is under the $120 T2 line, which is read only at T1; a completed close is not in. Oracle FQ2 date condition unchanged.
+> **TRIGGER STATE 2026-11-05 11:10 EST (TERRY): NOT FIRED · NOT VOIDED.** ORCL $112.88 −8.77% (11:08 EST), now under the card's $115 long strike and the $120 T2 line. If that holds, the gap this card was built on has closed from the equity side: T1 at 350 bp would fail T2.
+
+> **TRIGGER STATE 2026-11-05 earlier 09:50 EST (TERRY): NOT FIRED · NOT VOIDED.** T1: DTCC disseminated 5Y 300 bp [11/3] per `AGENTS/LIQUID/STATUS.md`, vs 350; void ≤ 280 not hit. ORCL $119.04 −3.79% (09:45 EST) is under the $120 T2 line, which is read only at T1; a completed close is not in. Oracle FQ2 date condition unchanged.
 
 > **TRIGGER STATE 2026-11-02 (TERRY, written 09:15 EST from `date`): NOT FIRED · NOT VOIDED. Void line graded on the named basis.** PROME (ELLISON owner) named the basis (`inbox/processed/2026-11-02_from-PROME_L904-ORCL-CDS-basis-named.md`): ELLISON's 314 [10/22] is the **DTCC disseminated-spread field**, so the card's "ELLISON theme reading, DTCC basis" = the disseminated 5Y spread. On that basis the series is **314 [10/22] → 293 [10/30] (×2, LIQUID)**; no disseminated print for 10/29 is on file. **Void (≤ 280): 293 is 13 bp above → NOT VOIDED. T1 (≥ 350): 57 bp short → NOT FIRED.** LIQUID's 270–276 [10/29] and 280–294 [10/30] are flat-hazard conversions of upfront + coupon — not this card's basis; they neither fire nor void it. The void and kill lines now name the basis. FQ2 date still not re-checked (moot while T1 is 57 bp away). No order.
 

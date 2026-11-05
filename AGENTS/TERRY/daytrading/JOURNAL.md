@@ -4,6 +4,22 @@ Append-only. **Newest on top.** One entry per review. Metrics mirror to `LEDGER.
 
 ---
 
+## November 5, Robinhood — partial intake, 0DTE QQQ during the selloff
+
+Observed 2026-11-05 11:10 EST from Will's two Robinhood screenshots; `../research/2026-11-05_robinhood-capture/TRANSCRIPTION.md`. Relative clocks only, list cut at the bottom, a $1,058.37 gain gap unexplained. **Reference only; never sum as new P/L.**
+
+| Thread | Buy | Sell | Result | R at entry |
+|---|---:|---:|---:|---:|
+| 672P | $369 | $557 | +$188 | 1.5R |
+| 668P | $334 | $475 | +$141 | 1.3R |
+| 663P | $360 | $538 | +$178 | 1.4R |
+| 658P | $332 | $799 | +$467 | 1.3R |
+| 672C | $214 | $65 | −$149 | 0.9R |
+
+**Visible result:** puts +$974 on 4 of 4, the one call −$149. That is the desk card's prime line in a single morning: buying puts into weakness works, the call leg is the bleed. Every entry was at or under $430, 1.7R, inside the 2R cap, unlike the $1,141.33 entry on 11/2. Each put was stepped down a strike and taken off the same morning. This came on a −5.8% QQQ day that flatters every put, so it says little about skill. **Unscored:** no clocks, incomplete list, open lines not final.
+
+---
+
 ## November 5 — partial broker intake, 10/30 to 11/5, not a full-day review
 
 Observed 2026-11-05 10:22 EST from Will's two Fidelity screenshots; transcription `PROME/data/2026-11-05_broker-capture-TRANSCRIPTION.md` (e22ca99c4), realized from ANVIL's reconcile, `FORGE/STATUS.md` D-96. No fill clocks. Row order within a day is not execution order; pairing and some quantities are INFERRED by ANVIL. **Reference only: FORGE books these once; never sum this copy as new P/L.**

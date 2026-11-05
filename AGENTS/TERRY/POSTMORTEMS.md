@@ -531,18 +531,18 @@ Booked 2026-10-29 from Will's own Fidelity IRA positions screenshot (~11:2x ET, 
 Management-only lines (construction rule #20); C5 reminders paused by Will 10/20, so no management grade. If Will supplies the activity rows, realized P/L is booked here once. Separately, Will's rebuy of TBT (×10 at the capture, WQ-357) is recorded on `MGMT-DURSHORT-EXIT-WQ291`. Tags: BOOKKEEPING · NO-SCORE.
 
 
-## 2026-11-05 — TRY-WAL-ROLL70 WAL Dec-18 $70P ×1 (Robinhood) — **INTERIM. Written off by Will 2026-10-29 ("all dead"); no close observed, holding UNKNOWN, no realized figure.**
+## 2026-11-05 — TRY-WAL-ROLL70 WAL Dec-18 $70P ×1 (Robinhood) — **INTERIM. Not held at Will's 11/5 Robinhood capture; close date and price outside the view, no realized figure.**
 
-**Record:** bought 9/02 @ $2.20 on a green day, $0.55 inside the $2.75 cap, after `REG-T-02` re-fired 9/1. Marked about $2.65 on 9/29 (+$45, Robinhood card). The same contract last $0.45, −$0.62 on the day [Will's Fidelity capture, 11/5 intraday], WAL $79.74 (09:48 EST). (Corrected 11/5: this note first cited a $1.07 vendor last, which was the prior session's price.) Robinhood has not been captured since 9/29. Nothing here infers a disposition; a broker row sets the realized figure once.
+**Record:** bought 9/02 @ $2.20 on a green day, $0.55 inside the $2.75 cap, after `REG-T-02` re-fired 9/1. Marked about $2.65 on 9/29 (+$45, Robinhood card). The same contract last $0.45, −$0.62 on the day [Will's Fidelity capture, 11/5 intraday], WAL $79.74 (09:48 EST). (Corrected 11/5: this note first cited a $1.07 vendor last, which was the prior session's price.) Robinhood has not been captured since 9/29. (Updated 11/5 from the Robinhood capture: Dec-18 70P ×1 absent; a separate Nov-20 70P ×1 is listed, implied basis $40.) Nothing here infers how it closed; a broker row sets the realized figure once.
 
 | Leg | Grade |
 |---|---|
 | Thesis | REGINALD's and the WAL desk's; not graded here. |
 | Timing | Same-strike roll past the Q3 print, the fix for the Sep-18 tenor error; right form, outcome not established. |
 | Structure | Clean: same strike, later expiry, cap held, card written before the fill. |
-| Exit rails | Harvest $4.40 never reached; the REGINALD exit read 0 of 3 through 11/4, and the gate was RETIRED 11/5 (WQ-610 A), so any remaining contract has no exit guard. |
+| Exit rails | Harvest $4.40 never reached; the REGINALD exit read 0 of 3 through 11/4, and the gate was RETIRED 11/5 (WQ-610 A), so the Nov-20 line has no rule either. |
 
-**Lesson:** nothing new. A write-off in chat is not a close; the card says DEAD while a quote still shows some value, and the paper row PB-0006 stays OPEN because no fill is known. **Tags:** provisional `GOOD_PROCESS_BAD_OUTCOME`, thesis ungraded.
+**Lesson:** nothing new. A write-off in chat is not a close; only a capture settled this, and it left the price unknown. PB-0006 is closed with a blank result. **Tags:** provisional `GOOD_PROCESS_BAD_OUTCOME`, thesis ungraded.
 
 ## 2026-11-05 — TRY-BRENT-REFINER / MGMT-VLO-SHARE VLO ×1 — **CLOSED by rule at $366.665. Realized −$45.33 (−11.0%).**
 
