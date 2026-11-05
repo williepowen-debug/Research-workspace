@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-05T17:43:28Z — Midday boot, light closeout, session open. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-05T18:28:16Z — Midday boot, light closeout, session open. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-OPEN after a midday boot. November 5: 28 cards, 96 handoffs, two FLASHes (016, 017) on a broad selloff that began in AI names and reached banks; credit proxies stayed calm. New since the 11:56 ET closeout: Paraguay's President Peña announced his resignation over Ueno Bank, Congress must accept (024, corrected by 026: REGINALD measured $17.9M of US fund holdings, about 95% of holders undisclosed); REGINALD's late-loan scan (025, 028); HENRY 12:39 ET gamma negative, support walls broken, no clean S&P support above the 200-day (027). No new WALTER fire in completed checks. Iran: new UKMTO tanker strike and claim-only mine reports from the morning stand; re-search found nothing newer (007, 023).
+OPEN after a midday boot. November 5: 29 cards, 99 handoffs, two FLASHes (016, 017) on a broad selloff that began in AI names and reached banks; credit proxies stayed calm. New since the 11:56 ET closeout: Paraguay's President Peña announced his resignation over Ueno Bank, Congress must accept (024, corrected by 026: REGINALD measured $17.9M of US fund holdings, about 95% of holders undisclosed); REGINALD's late-loan scan (025, 028); HENRY 12:39 ET gamma negative, support walls broken, no clean S&P support above the 200-day (027). No new WALTER fire in completed checks. Iran: new UKMTO tanker strike and claim-only mine reports from the morning stand; re-search found nothing newer (007, 023).
 
 BALANCED baseline; labor intake LOOSE for November 6 payrolls. November 5 close pass NOT run, closes not yet available. Resume list: top of LAST_COMPLETION.md.
 

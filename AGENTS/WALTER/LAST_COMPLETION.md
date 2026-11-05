@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-05T17:43:28Z, Claude Code Opus 5.5, session walter-07 on the desktop. Midday boot after the 11:56 ET FULL closeout; light closeout, session open, coverage PARTIAL.
+Updated 2026-11-05T18:28:16Z, Claude Code Opus 5.5, session walter-07 on the desktop. Midday boot after the 11:56 ET FULL closeout; light closeout, session open, coverage PARTIAL.
 
 ## RESUME — do these first
 
@@ -16,11 +16,11 @@ Calendar coverage cutoff: 2026-11-05T17:26:48Z (step 7i run; rows in research/20
 
 Midday boot PARTIAL: desk STATUS reads were 12 lines for desks updated today and 3 for the rest; READS check UNKNOWN on a stale attestation; HANS daily levels and owner-limited rows carried from the morning scan. Session open; no active WALTER helper, study or unattended task. Evidence: research/2026-11-05_midday-boot/ and research/2026-11-05_morning/ (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, STEP7-REVIEW, DISCOVERY, VERIFY-IRAN, VERIFY-AI-TAPE) and research/2026-11-05_bookmarks/REVIEW.md.
 
-November 5 total: 28 BOARD cards, 96 handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 29 BOARD cards, 99 handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
-Cards 001–028 including FLASH 016 and 017; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+Cards 001–029 including FLASH 016 and 017; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
@@ -91,7 +91,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-05T17:43:28Z",
+  "as_of": "2026-11-05T18:28:16Z",
   "next_review": "2026-11-06",
   "publication": [
     {
@@ -147,7 +147,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
   ],
   "delivery": {
     "signal_date": "20261105",
-    "total": 96,
+    "total": 99,
     "delivered": 96,
     "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
   },
@@ -202,7 +202,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     "session": "OPEN after midday boot; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-028 including FLASH 016 and 017. Batches closed.",
+    "11": "Cards 001-029 including FLASH 016 and 017. Batches closed.",
     "13": "Owner leads compared; BRENT, HENRY, LIQUID, VIOLET, BOND, PROME, CREED, AEOLUS, RED, TERRY, VULCAN, REGINALD and self refreshed before NETWORK.",
     "12(a,b)": "Counts and NETWORK refreshed; last tape row is vendor intraday, no settled close claimed.",
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; standing flags unchanged.",
