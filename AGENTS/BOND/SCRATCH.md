@@ -20,6 +20,8 @@ Boot 09:39 ET, status to Will. PROME packet `inbox/2026-11-05_from-PROME_catch-u
 
 - **LIQUID correction 11:14 ET:** FL-16's first leg is LIQ-07, fired 9/30, RESOLVED S2 10/16; my "met, unflagged" was wrong. D6–D8 closed (KB-542): D7 (A), D6 (B) then reversed, D8 (A) unproven. Nothing to send PROME on it.
 
+- **Tape 12:43 ET (Will: catch up on news and prices):** AI-led equity selloff, credit proxies calm, Treasuries bid; KB-543, 544. PMMS 7.18 landed. WALTER 022 consumed. Re-score VX-17 on the 11/5 Treasury close; first official credit read 11/6 am.
+
 ## NEXT (dated)
 
 1. **11/5 today:** PMMS ~noon · FR2004 as-of 10/28 ~16:15 ET, VX-04 re-score · addendum to PROME if a score moves.
