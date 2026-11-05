@@ -1,10 +1,12 @@
 # CARL SCRATCH
-**Last session:** 2026-10-29 09:28–09:36 ET; Claude Code, Opus 5.5 (claude-opus-5-5), spawned by PROME prome-90 on WQ-537 A (Will 09:26 ET). Bounded Tier-2 commission, $0. Earlier session today (09:00–09:10, L841/L842 + inbox drain) stands below.
-**Type:** One bounded session: STATUS rotation, CRL-32 letter, cohort instrument, cost pointer. No score, threshold, card or capital move.
+**Last session:** 2026-11-04 21:13 ET to 2026-11-05 ~08:50 ET (clock jumped about 11 hours while idle); Claude Code, Opus 5.5 (claude-opus-5-5), spawned by PROME prome-b2 on Will's direct assignment 2026-11-04 21:12 ET.
+**Type:** One bounded session: read two DEWEY card reports. No score, threshold, gate, prediction or card move. Sub-agents not refreshed.
 
-**PRIORITY-1:** **Tue 11/03 (before the Dave print Wed 11/04):** rule the PHAN shared sub-agent runner (5 decisions) AND reconcile the VX-GIG-3.08 band surfaces. A band change is a threshold change: route it accordingly. **Then Wed 11/25 08:30 ET: CRL-32 leg 1** (October saving rate; KILL check on September's revision).
+**PRIORITY-1:** **Next full session: drain what this bounded session left, then Fri 11/06 NFP (V16) and ALLY/RITM checkpoint.** Left: 10 owed action:[CARL] BOARD signals (`board_gap.py`), 8 top-level inbox packets (4 PROME board-ledger gaps, DAEDALUS sweep #5, 3 ISHM), 11 `inbox/WALTER/` signals, COR-20261031-22 unreceipted, and the 11/03 PHAN runner + GIG band ruling, UNREVIEWED past its date. Q3 HHDC is on the docket for 11/05 (date UNVERIFIED).
 
-**WQ-537 THIS SESSION (commit 5dc1234ed):** STATUS rotated 26,163 → 22,489 B (69%); CRL-32 OPEN 25% (saving ≤3.8% at 11/25 and 12/23 + real DPI Nov ≤ Sep in the 12/23 vintage; KILL Sept revised ≥4.3%); cohort = Fed DFA deposits/household by income, Q2-26 bottom-40 +1.13% vs top-20 +3.04% YoY (model-allocated, descriptive; next Z.1 12/10 12:00 ET; KB-582); cost = HENRY L775, one figure (Oct CPI-U SA m/m). HHDC Q3 date UNVERIFIED (no NY Fed advisory 10/29). Memo PROME/inbox/2026-10-29_from-CARL_WQ537-buffer-drawdown-letter.md.
+**CARD READ THIS SESSION (0e11b4958):** research/2026-11-05_card-reports/ANSWER.md, KB-583. Thesis NOT YET on the masking COF row; class-wide 50 bp test NOT COMPUTABLE, DR-1 PARTIAL (97.4 bp weighted / 22.5 bp best leg, historical proxies); JPMorgan default rate NOT COMPUTABLE. THESIS COF cell date merge corrected to KB-245. Citi is DEWEY's PROME-registered row: read its packet if it lands. No watch or job was registered; ordinary issuer reads will show whether the $418M at 90+ days cures, re-ages or charges off.
+
+**WQ-537, 10/29 SESSION (commit 5dc1234ed):** STATUS rotated 26,163 → 22,489 B (69%); CRL-32 OPEN 25% (saving ≤3.8% at 11/25 and 12/23 + real DPI Nov ≤ Sep in the 12/23 vintage; KILL Sept revised ≥4.3%); cohort = Fed DFA deposits/household by income, Q2-26 bottom-40 +1.13% vs top-20 +3.04% YoY (model-allocated, descriptive; next Z.1 12/10 12:00 ET; KB-582); cost = HENRY L775, one figure (Oct CPI-U SA m/m). HHDC Q3 date UNVERIFIED (no NY Fed advisory 10/29). Memo PROME/inbox/2026-10-29_from-CARL_WQ537-buffer-drawdown-letter.md.
 
 ---
 
@@ -42,7 +44,7 @@
 
 ### UPCOMING
 - **11/03:** sub-agent runner + GIG band (PRIORITY-1). **11/04:** Uber/DoorDash/Dave prints; FOMC presser transcript; SLOOS (UNVERIFIED). **11/05:** Lyft; Epiq (UNVERIFIED); HHDC Q3; Sweet v. McMahon.
-- **11/06:** NFP (V16 print 1 of 2) + ALLY/RITM checkpoint. **11/10:** CPI (CRL-10) + DOC refresh incl. DOC-P10 grade; NFIB. **11/12:** PHAN gate; Census BFS. **11/13:** DR1 COF/BFH (DEWEY BFH Q3 delivered, deferred here); STUE ES-02; Meritage. **11/23:** AFT. **11/25:** BEA October PCE/income = CRL-32 leg 1. **12/10:** Z.1/DFA cohort read. **12/23:** BEA November = CRL-32 final grade.
+- **11/06:** NFP (V16 print 1 of 2) + ALLY/RITM checkpoint. **11/10:** CPI (CRL-10) + DOC refresh incl. DOC-P10 grade; NFIB. **11/12:** PHAN gate; Census BFS. **11/13:** STUE ES-02; Meritage. **11/23:** AFT. **11/25:** BEA October PCE/income = CRL-32 leg 1. **12/10:** Z.1/DFA cohort read. **12/23:** BEA November = CRL-32 final grade.
 
 ### BACKLOG
 - Open questions: thesis kill-rule mismatch (since May 3); archive/ convention with PROME. MEMORY dated review 11/01.
@@ -60,7 +62,7 @@
 | PROME inbox | Delivery memo 2026-10-29 (L841/L842) |
 
 ## INBOX
-Top-level 0, WALTER lane 0 (inbox_census 09:08 ET).
+Top-level 8, WALTER lane 11 at 2026-11-05 08:45 ET (`find` lane-descending form); all undrained by assignment, listed in the answer.
 
 ## WORKBOOK HEALTH
 | TSV | Note |
@@ -72,7 +74,10 @@ Top-level 0, WALTER lane 0 (inbox_census 09:08 ET).
 ## URGENT
 - None for Will. The 11/03 GIG band reconciliation must precede the 11/04 Dave print.
 
-## CLOSEOUT RECEIPT (bounded spawn, 2026-10-29 ~09:10 ET) — PARTIAL
+## CLOSEOUT RECEIPT (bounded spawn, 2026-11-05) — PARTIAL
+See the delivery memo PROME/inbox/2026-11-05_from-CARL_card-reports-thesis-and-test.md for this session's checks: consistency 0 hard, read-cap rc 0, claim check clean, push receipt there. board_gap (without --closeout) shows the 10 owed signals and the corrections check stays nonzero, so PARTIAL.
+
+## PRIOR CLOSEOUT RECEIPT (bounded spawn, 2026-10-29 ~09:10 ET) — PARTIAL
 | Obligation | Result |
 |---|---|
 | Consistency (no warn-only) | PASS rc 0 (0 hard, 6 soft) before each commit |

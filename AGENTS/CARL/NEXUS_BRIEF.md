@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none. 10/29 BEA: September real PCE flat (+0.015%), real DPI −0.27%, saving rate 3.8% (lowest since Oct 2022) = aggregate buffer drawdown with gasoline the largest nominal line; Q3 real PCE still +3.8% SAAR on July–August, so broad collapse remains unestablished; no cohort split, no letter fired (research/2026-10-29_GDP_PCE/GRADE.md). **WQ-537 (Will 10/29): CRL-32 registered at 25% — saving ≤3.8% at the Oct (11/25) and Nov (12/23) prints plus real DPI Nov ≤ Sep = sustained drawdown; cohort leg = Fed DFA deposits by income (model-allocated, descriptive); cost leg = HENRY L775 (one figure). No score move (research/2026-10-29_WQ537/LETTER.md).**
-**As of:** 2026-10-29 09:36 ET | STATUS commit: `5dc1234ed`
+**As of:** 2026-11-05 08:50 ET | STATUS commit: `0e11b4958`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -22,7 +22,8 @@
 | TERRY | Dated CRL-21 evidence-grade packet in TERRY inbox; all seven CARL paper exits decided after 10/26 close. | Existing follow-through | Missing vintage input cannot activate a capital clause. Actual paper execution requires 10/27 opening quotes; no new construction request. |
 | PROME / NEXUS | L786 source reviews, 11 signal assessments, 3 scoped correction NO-OPs and GDP/PCE prep persisted at 5b18d5a88. | Owner result | Receipt gap cleared; remaining observations have dated homes. PROME explicitly acknowledged reading that L786 result; the separate news-sweep packet has no consumption receipt yet. |
 | NEXUS / ISHM / FERT | ISHM boundary/result and FERT L758 read under PROME's bounded addition; consumer consequence in PEER_INTAKE.md. | Bounded intake | Freight spending is not volume; regional prices are not CPI. Lower 2027 food inflation forecast has no demonstrated input-cost attribution and does not imply lower household bills. No CARL re-grade. |
-| PROME / NEXUS | CARL file audit: I3 standing line declined; SYF Q3 DR1 descriptive leg consumed; 23 child-ledger flags remain. | Existing owner work | No current gate uses debt-buyer recoveries. SYF cohort ratio is scale only, no causal 50 bp grade; COF/BFH still due November 13. No child refresh or score change. Report: research/2026-10-26_file-audit/REPORT.md. |
+| NEXUS / REGINALD / RED | Capital One Q3 domestic modified card group delinquent $645M→$993M (+54.0%; book +11.1%), share 17.2→25.2%, defaults $152M→$230M; five peers flat on share, Citi unread. Cause UNKNOWN. | Will-assigned read 11/05 | Thesis NOT YET on the masking COF row. Not hidden delinquency, a credit break, class-wide or misstatement, and not established as benign. Class-wide 50 bp test NOT COMPUTABLE, DR-1 PARTIAL (97.4 bp weighted / 22.5 bp best leg, historical proxies). JPMorgan default rate not computable; REGINALD owns the bank read. research/2026-11-05_card-reports/ANSWER.md, KB-583. |
+| PROME / NEXUS | CARL file audit: I3 standing line declined; SYF Q3 DR1 descriptive leg consumed; 23 child-ledger flags remain. | Existing owner work | No current gate uses debt-buyer recoveries. SYF cohort ratio is scale only, no causal 50 bp grade; COF/BFH since delivered (row below). No child refresh or score change. Report: research/2026-10-26_file-audit/REPORT.md. |
 
 **WAITING FOR:**
 
