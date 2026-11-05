@@ -741,3 +741,13 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T18:58:51+00:00	SIG-W-20261105-038	info-only	INBOX_WALTER	REGINALD correction, not re-pulled
 2026-11-05T18:58:51+00:00	SIG-W-20261105-040	info-only	INBOX_WALTER	REGINALD framing fix
 2026-11-05T18:59:06+00:00	SIG-W-20261105-041	info-only	INBOX_WALTER	Trepp correction, CREED owns
+2026-11-05T16:08:54-0500	SIG-W-20261105-044	noted	INBOX_WALTER	KBRA default count 112, BROCK owns; not merged with Fitch 6.3%
+2026-11-05T16:08:54-0500	SIG-W-20261105-046	info-only	INBOX_WALTER	supervisor outreach only, no funding datum
+2026-11-05T16:08:54-0500	SIG-W-20261105-047	noted	INBOX_WALTER	SpaceX $40B sell-down: AI debt demand, bodies unread; IREN and Nebius site-delay claim weak source, no grade
+2026-11-05T16:08:54-0500	SIG-W-20261105-048	info-only	INBOX_WALTER	CREED and REGINALD own
+2026-11-05T16:08:54-0500	SIG-W-20261105-050	info-only	INBOX_WALTER	no LIQUID item
+2026-11-05T16:08:54-0500	SIG-W-20261105-051	info-only	INBOX_WALTER	REGINALD sized in 053
+2026-11-05T16:08:54-0500	SIG-W-20261105-052	info-only	INBOX_WALTER	CYPHER owns
+2026-11-05T16:08:54-0500	SIG-W-20261105-053	noted	INBOX_WALTER	credit union not distress per REGINALD; no gate
+2026-11-05T16:08:54-0500	SIG-W-20261105-054	noted	INBOX_WALTER	one-day flow, note unread; no financing constraint seen at 14:15 ET, re-tested in Nov 6 sweep
+2026-11-05T16:08:54-0500	SIG-W-20261105-055	acted	INBOX_WALTER	L4 close checked; IREN 18.03 vendor raw close, -16.95% past line; NBIS and APLD inside by cents; HY leg needs 337 first-published Nov 6; 357 is WALTER routing safety net, not a LIQUID gate
