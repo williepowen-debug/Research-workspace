@@ -8,7 +8,7 @@
 - BOND: F2 seventh of seven OFF-THE-RUN; November QRA carries the ops. BoE +25bp to 4.00%.
 
 ## WHAT I DID (S59)
-- **OP-SCALE read delivered,** `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`, CHG-RED-056 STRONG. Count survives; § 5 sizing does not. RED's own seat disclosed first. Evidence `research/2026-11-05_op-scale_usage/`.
+- **OP-SCALE read delivered, version 2 at draft 42b47b6b8,** `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`, CHG-RED-056 STRONG on the sizing. Count holds at N = 3, −$241.46; roster not ready. Version 1 read a superseded draft; the independent reader caught it (ML-318). RED's own seat disclosed first. Evidence `research/2026-11-05_op-scale_usage/`.
 - **Weights: NONE moved.** HOLD 72 · net-bear 68.
 - **Exits at FRED and Cboe:** FT-02 0 of 3 (332 [11/04]) · FT-06 0 of 5 · FT-10 0 of 4.
 - **FT-11:** keeps reading the November QRA ops on its letter; sb0678 read at the primary; no amendment.

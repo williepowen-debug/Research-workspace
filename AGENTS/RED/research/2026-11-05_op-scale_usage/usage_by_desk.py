@@ -2,7 +2,7 @@ import json,glob,os,re,collections,datetime,sys
 root=os.path.expanduser('~/.claude/projects')
 since,until=sys.argv[1],sys.argv[2]
 DESKS="PROME WALTER TERRY RED HENRY LIQUID VIOLET SAM BOND ZHAO VULCAN BROCK REGINALD DEWEY BRENT AEOLUS NEXUS WAL OZK FLG MIDAS FALCON CARL LABOR HAWK MARCO ORACLE CORAL SHADE WATT OSPREY HOMER YURI CRUISE FERT GIBBS CYPHER ISHM CREED HANS OTTO DAEDALUS RAV CATO".split()
-T=collections.Counter(); C=collections.Counter(); seen=set(); S=collections.defaultdict(set)
+T=collections.Counter(); C=collections.Counter(); seen={}; S=collections.defaultdict(set)
 rx=re.compile(r'(?:You are|you are) ('+'|'.join(DESKS)+r')\b|AGENTS/('+'|'.join(DESKS)+r')/CLAUDE\.md')
 def desk_of(path,d):
     # first user text
@@ -42,11 +42,13 @@ for d in sorted(os.listdir(root)):
             m=o.get('message') or {}; u=m.get('usage')
             if not isinstance(u,dict): continue
             k=m.get('id') or o.get('uuid')
-            if k in seen: continue
-            seen.add(k)
-            T[who]+=u.get('input_tokens',0)+u.get('cache_creation_input_tokens',0)+u.get('output_tokens',0)
-            C[who]+=u.get('cache_read_input_tokens',0)
-            S[who].add(f)
+            # A message can span several transcript lines with growing output_tokens:
+            # keep the LAST line per message id, so output is not undercounted.
+            seen[k]=(who,f,u)
+for k,(who,f,u) in seen.items():
+    T[who]+=u.get('input_tokens',0)+u.get('cache_creation_input_tokens',0)+u.get('output_tokens',0)
+    C[who]+=u.get('cache_read_input_tokens',0)
+    S[who].add(f)
 sT=sum(T.values()); sC=sum(C.values())
 print('CLAUDE',since,until,'fresh+out',f'{sT:,}','cacheread',f'{sC:,}')
 for n in sorted(T,key=lambda n:-(T[n]+C[n])):
