@@ -1,14 +1,17 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review, on date); FAL-07 CONFIRMED; losses 7; oil fell 8.7% with no registered condition moving.
+**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review; 11/05 cards graded, no letter met); FAL-07 CONFIRMED; losses 7; FAL-06 OPEN to 23:59 ET 11/05.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-11-04 21:10 ET | STATUS commit: `944cf8e17b` | Evidence cutoff ~21:05 ET
+**As of:** 2026-11-05 16:32 ET | STATUS commit: `39adc0d14` | Evidence cutoff 16:32 ET
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
+| BRENT / HAWK / RED | Yanbu 11/5: warning lifted within minutes, Medina-region missile intercepted, no damage or casualties reported. INTERCEPTED is not STRUCK | P1 | ⚠️ No current Yanbu loadings figure exists at any source reached; PortWatch Yanbu is blind (prints zero); "no halt" is coverage. KB-393/394 |
+| BRENT / SAM / HAWK | VELOS SAPPHIRE, product tanker, 50 NM N of Qatar 11/4 23:20Z; IMO 129 / 24: damaged, one seafarer missing; Lloyd's says died, conflict carried. Census stays 7. Unattributed | P1 | Second deep-Gulf hull in five days. Iran's five tankers and a tug = claim-only, unnamed. KB-395/396 |
+| HAWK / RED | Iranian official: nuclear proposal via Qatar after seven unlisted demands; no text, date or US answer; two sources say Trump still likely to resume hostilities | P1 | C→B not met. KB-397 |
 | BRENT / HAWK / RED / TERRY | Price vs record: Brent −8.7% 11/4 (BRENT's number, cause not established; BRENT: fade NOT MET, flow basis UNRESOLVED, tape −17% in three sessions) while the record gained a US strike on Iranian soil, one sinking, one seafarer death and seven hull events | P1 | D→C needs a 72-hour two-sided halt, not started; C→B needs a dated framework AND verified reopening; neither. Marks held on the letter. KB-386 |
 | HAWK / BRENT / RED / PROME | FAL-07 CONFIRMED: US struck Qeshm 11/2; Trump on record; AP, Reuters, AFP name US forces. On-record CENTCOM not found | P1 | Limited, officials say defensive; undated earlier strikes reported; first CONFIRMED date, not necessarily first strike. KB-377..379 |
 | BRENT / HAWK / WALTER | Census 7: tug SELAT STORM sunk per NAVAREA IX 425/26; IMO 11/3 "Damaged", conflict carried; class (ii) provisional; unattributed | P1 | Re-mark proposal HOLD (WQ-431 reasoning). Not a tanker. KB-380 |
@@ -36,18 +39,18 @@
 
 ## CALIBRATION
 
-FAL-07 CONFIRMED at 65%, on a limited strike, not the campaign my posture evidence described. FAL-06 OPEN at 70%, dated search first pass run 11/05, no route fired on evidence found, route (c) coverage gap, closes 23:59 ET. 2C / 3F / 1P / 0V / 1 OPEN. Convergence 43/50, saturated composite.
+FAL-07 CONFIRMED at 65%, on a limited strike, not the campaign my posture evidence described. FAL-06 OPEN at 70%, dated search run twice 11/05, no route fired on evidence found, route (c) coverage gap, closes 23:59 ET; grade pre-committed (CONFIRMED absent a qualifying notice by the close, route (c) caveat). 2C / 3F / 1P / 0V / 1 OPEN. Convergence 43/50, saturated composite.
 
 ## NEXT DECISION POINT
 
-- November 5: FAL-06 search ON that date; EXIT §5 rewrite; successor prediction with base rate first.
+- First session after 23:59 ET 11/05: FAL-06 grade; EXIT §5 rewrite; successor predictions with base rate first.
 - November 11: weekly scenario + GATE-FALCON-001 review.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Evidence needed |
 |---|---|---|
-|2026-11-05| FAL-06 resolution | Dated state/operator/vendor search |
+|2026-11-05| FAL-06 window closes 23:59 ET | Dated search done; any notice dated by the close |
 |2026-11-11| Scenario + GATE-FALCON-001 review | Current TankerMap bars, enforcement events |
 
 ## WATCH
