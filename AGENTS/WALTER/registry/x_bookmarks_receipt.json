@@ -1,26 +1,13 @@
 {
-  "kind": "marked",
-  "checked_at": "2026-11-05T15:19:21Z",
-  "items": 1,
+  "kind": "fetched",
+  "checked_at": "2026-11-05T16:31:13Z",
+  "items": 0,
   "scan": {
-    "checked_at": "2026-11-05T15:18:41Z",
-    "head_checked_at": "2026-11-05T15:18:39Z",
+    "checked_at": "2026-11-05T16:31:13Z",
+    "head_checked_at": "2026-11-05T16:31:13Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 2
+    "attempts": 1
   },
-  "review_recorded": true,
-  "read_counts": {
-    "partly_read": 1
-  },
-  "dispositions": {
-    "DISPATCH": 1
-  },
-  "follow_ups": [
-    {
-      "id": "2118358893655192038",
-      "ref": "AGENTS/WALTER/research/2026-11-05_bookmarks/REVIEW.md"
-    }
-  ],
-  "requests": []
+  "review_recorded": false
 }
