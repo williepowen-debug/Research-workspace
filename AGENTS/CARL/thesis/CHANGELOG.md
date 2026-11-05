@@ -8,6 +8,14 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-05 — DEWEY card reports read; one dated evidence cell corrected (no version, score or prediction change)
+
+Will's assignment 2026-11-04 21:12 ET. Answer: `research/2026-11-05_card-reports/ANSWER.md`, KB-583. Thesis NOT YET on the masking COF row; class-wide 50 bp test stays NOT COMPUTABLE; DR-1 PARTIAL (97.4 bp weighted / 22.5 bp best leg, historical proxies).
+
+**Correction:** the masking table's COF cell read `Discover back-book conversion timeline (~100% on COF platform Q3 2026)`. KB-245, its source, says originations ~100% by end Q3 2026 and back-book Q4 2026 to Q1 2027. Old view merged the two dates; new view matches KB-245. The April source is call transcripts; whether the timeline held is UNKNOWN. No thesis version bump: no mechanism, threshold or score moved.
+
+---
+
 ## 2026-10-29 — CRL-32 registered: household buffer drawdown letter (WQ-537 A; no score change)
 
 **What:** new OPEN prediction CRL-32 at 25% [CONJUNCTION-PRICED]: first-published saving rate ≤3.8% for October (BEA 11/25) and November (BEA 12/23), and real DPI Nov ≤ Sep inside the 12/23 vintage. KILL = September saving revised to ≥4.3% on 11/25 (VOID-BY-REVISION). Cost leg points at HENRY L775 (one figure: October CPI-U SA m/m); cohort leg = Fed DFA deposits per household by income, descriptive only (baseline bottom-40 minus top-20 YoY −1.91pp at 2026:Q2, model-allocated).

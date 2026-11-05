@@ -114,3 +114,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T09:08:34-04:00	2026-10-28_to-CARL_MIA-two-consecutive-negative	noted	source=INBOX_MARCO	Threshold MET / mechanism CONFOUNDED; no CARL instrument; V7 context. research/2026-10-29_inbox/RULINGS.md #10
 2026-10-29T09:08:34-04:00	2026-10-29_from-GIG_closeout-adopted-and-four-asks	acted (asks 2-4) / deferred 2026-11-03 (ask 1)	source=INBOX_GIG	No band edit; Dave 11/04 graded on both readings. research/2026-10-29_inbox/RULINGS.md #11
 2026-10-29T09:08:34-04:00	2026-10-29_from-POP_closeout-adopted-docket-asks-and-10-28-findings	acted	source=INBOX_POP	Five docket rows; runner deferred 11/03. research/2026-10-29_inbox/RULINGS.md #12
+2026-11-05T08:40:00-05:00	2026-11-04_from-DEWEY_L567-cof-q3-three-issuer-complete	acted	source=INBOX_DEWEY	research/2026-11-05_card-reports/ANSWER.md, KB-583
+2026-11-05T08:40:00-05:00	2026-11-04_from-DEWEY_card-peer-check	acted	source=INBOX_DEWEY	research/2026-11-05_card-reports/ANSWER.md, KB-583

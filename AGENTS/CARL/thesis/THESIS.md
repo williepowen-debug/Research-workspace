@@ -109,7 +109,7 @@ Q1 2026 earnings cycle confirms ALLY composition-masking framework generalizes a
 | Industry | Issuer | Masking mechanism | KB Ref | Visibility window |
 |----------|--------|-------------------|--------|-------------------|
 | Auto lender | ALLY | Composition shift (S-tier 40→37%, nonprime 9.7→10.1%) + CLN routing +43% YoY + reference-pool $7B→$10B + ACL release into mix downgrade | KB-CARL-222-225 | FY2025 vintage = 2H'26/Q1'27 |
-| Card + auto (prime/near-prime) | COF | $230M ACL build (incl. $155M tied to "higher subprime mix" mgmt-admitted) + auto originations +21% YoY + Discover back-book conversion timeline (~100% on COF platform Q3 2026) | KB-CARL-245-246 | Vintage-driven (2H'26/Q1'27) |
+| Card + auto (prime/near-prime) | COF | $230M ACL build (incl. $155M tied to "higher subprime mix" mgmt-admitted) + auto originations +21% YoY + Discover conversion timeline (originations ~100% on COF platform by end Q3 2026; back-book Q4 2026 to Q1 2027, per KB-245; date corrected 2026-11-05) | KB-CARL-245-246 | Vintage-driven (2H'26/Q1'27) |
 | Credit cards (non-prime) — **partial** | SYF | ACL hedge +36bps to 10.42% despite improving NCO (forward-risk tell — load-bearing leg). *Caveat: Home & Auto -3.7% YoY survivor-pool component is K-shape selection not masking — SYF book genuinely healthier as bottom-of-K exits to BNPL/default. Only the ACL leg has the deferred-visibility property.* | KB-CARL-243-244 | 2-3 quarters (ACL leg) |
 | Mortgage servicer | RITM/Newrez | FHA mod reclassification (HUD/Ginnie streamline guidance) + servicer advance receivable -$224M QoQ + "DQ will reverse" forecast quietly dropped + no specific FHA DQ rate disclosed | KB-CARL-257 | 12-24 months |
 
