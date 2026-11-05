@@ -1,45 +1,39 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-05T15:00:02Z, Claude Code Opus 5.5, session walter-07 on the desktop. LIVE working checkpoint under Will's 09:42 ET catch-up word via PROME, not a closeout; coverage PARTIAL. The CLOSEOUT RECEIPT below is the November 5 13:43:42Z laptop closeout.
+Updated 2026-11-05T16:56:11Z, Claude Code Opus 5.5, session walter-07 on the desktop. CLOSED on Will request; FULL closeout, coverage PARTIAL.
 
-## NOVEMBER 5 CATCH-UP — desktop state
+## RESUME — do these first
 
-Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 019 including FLASH 016 and 017; 001–017 published through a575b1449 by safe-push on a verified-clean tree, 018–019 PRIORITY and ROUTINE, local until the next coordinated push. Step 7 run late: research/2026-11-05_morning/STEP7-REVIEW.md, STATUS reads PARTIAL, no card re-routed. Commits ee7cc2297, 725479117, 838cce505, 1d6de8f69; published by safe-push on a verified-clean tree under §3.4, HEAD 1d6de8f69 confirmed on origin. Publication is not consumption.
+1. `git pull --rebase` at root, then ordinary boot.
+2. **November 5 close pass, NOT run:** settled closes for VIX, S&P, QQQ, KRE, WAL against REG-T-02's 78 (existing cycle, re-entry, not a new fire; REGINALD grades), Cboe VIX and SKEW; HY, CCC and VIXCLS for November 5 when published (RED-FT-02/06/07, REG-T-03/04). Short follow-up card saying whether 016 and 017 held.
+3. **Intake:** the November 5 collector run was not reviewed. Step 7i from the cutoff below, then 7e.
+4. **November 6:** payrolls, STWD and ACRE, WQ-556 C check.
+5. **Open from today:** CF's November 5 call unheard; Cable One results after the November 5 close unread; BoE Monetary Policy Report unread; `bdata` absent on the desktop, only 403 bookmark links affected.
 
-1. **X login:** Will re-authorized on the desktop 10:06 ET; scan rc=0.
-2. **Bright Data:** key name present in `AGENTS/WALTER/.env`; `bdata` not on PATH here. Only 403 bookmark links are affected.
-3. **FFIEC and SEC:** both restored on the desktop by PROME November 5 (MACHINE_LOCAL rows); FFIEC resume item dropped. SEC used for the DEWEY spot-check and the CoreWeave filing check.
-4. **15 bookmarks:** read, dispositioned and marked at research/2026-11-05_bookmarks/REVIEW.md: 8 DISPATCH, 3 FOLD, 3 NO-ACTION, 1 KILL. Bodies still unread: Bloomberg Ueno, Citrini paid section, Nawfal video, Greenville video. Batch BM-20261105-02 closed.
-5. **CRUISE queue:** `cruise:7126564b0db4` closed FOLD to SIG-W-20261014-028: September 23 deal, relay; micebook body unread.
-6. **L334 predictive leg delivered** `research/2026-11-05_L334/REPORT.md`: no relationship detected, no bar. L828: WALTER's list closed long ago, row status is PROME's.
-7. **HY and CCC November 4 read:** 332 / 1,297, card 009; batch BM-20261105-01 closed.
-8. **Discovery pass:** zero DEWEY commissions, research/2026-11-05_morning/DISCOVERY.md. CoreWeave 2027 was covered at VULCAN.
-9. **Close pass NOT run:** needs a launched prompt after 16:00 ET; no scheduler. VIX, WAL close, whether 017 held. CF's call unheard. Evening intake pending.
-
-Calendar coverage cutoff: 2026-11-05T15:00:02Z (step 7i run; rows in research/2026-11-05_morning/CALENDAR-RECONCILIATION.tsv; pending rows named there).
+Calendar coverage cutoff: 2026-11-05T16:56:11Z (step 7i run; rows in research/2026-11-05_morning/CALENDAR-RECONCILIATION.tsv; pending rows named there).
 
 ## STATUS
 
-Session CLOSED for desktop switch on Will request. No active WALTER helper, study or unattended task. Evidence: research/2026-11-04_evening-boot/BOOT-RECEIPT.md and research/2026-11-05_iran-full-sweep/SWEEP.md.
+Session CLOSED on Will request. No active WALTER helper, study or unattended task. Evidence: research/2026-11-05_morning/ (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, STEP7-REVIEW, DISCOVERY, VERIFY-IRAN, VERIFY-AI-TAPE) and research/2026-11-05_bookmarks/REVIEW.md.
 
-November 4 total: 80 BOARD cards, 226 origin-proven handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 23 BOARD cards, 75 handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
-Cards 077 FLASH, 078 and 079 IMMEDIATE, 080 PRIORITY, 17 handoffs. Iran anchor updated, next full sweep about November 12. DEEP_RESEARCH rows CARL-DR-1 and 003R updated; two DEWEY handoffs and PROME's WQ-598 packet consumed. WQ-598 A installed: charter steps 7i and 7e(g), BOOT_PROTOCOL, SPEC_OWNERSHIP, intake_scan queue, 15 tests, basis hashes. X re-authorized on the laptop. Post-close sweep: anchor ladder brought to FALCON's November 4 grades; stale pointers, version line and log headers corrected; all 17 tool test files pass.
+Cards 001–023 including FLASH 016 and 017. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
-December ULSD crack fell below the held-VLO line: TERRY accepted November 2 $89.2472 and graded HELD-01 leg A FIRED; one-share SELL rec for November 5, Will's hand. CME unread; a final November 2 settle at or above $90.16 reverses. Oil fell on November 4 (Brent settle $94.62, −8.7%) with no signed text, reopening or public US answer. FALCON: FAL-07 CONFIRMED, census 7, SELAT STORM provisional, IMO table conflict carried. BRENT: fade test NOT MET, flow basis UNRESOLVED. Capital One modified-card delinquent balances +54.0% in Q3, cause UNKNOWN; CARL thesis NOT YET. Evidence is not trade authority.
+Broad selloff began in AI names and reached banks, reported cause only, no capex cut, enacted measure, forced-sale or funding report found. VIX crossed the +5 intraday line. Bank of England raised to 4%, 8–1. October job cuts lowest for the month since 2023; claims 189,000. HY 332 and CCC 1,297 [November 4] tightened before the selloff. New UKMTO tanker strike north of Qatar; no neutrally confirmed mine, no new confirmed sinking, no deal. Held-VLO discharged by Will. CREED T-01a FIRED by its owner. No new WALTER threshold fire in completed checks. Evidence is not trade authority.
 
 ## GAPS
 
 - Historical WALTER recovery report/notice published; Will accepted NOT RECOVERED and prohibited search expansion. Separately, WAL now verified complete freshly retrieved Q3 source bytes and independent extraction (November 4 report; MI3 19.81%, no weight/score change). Source/access is no longer its blocker. This does not rewrite WALTER's earlier failed recovery or resolve attribution/parent-bank gaps. No WALTER search restarted.
-- Publication: all 226 November 4 handoffs are origin-proven and reconciled; no consumption inferred except named owner commits: TERRY, BRENT, FALCON, RED and CARL acted on their cards. HENRY and VIOLET hold 077/078 unread. Current publication is in the receipt below.
+- Publication: November 5 state is in the receipt below; no consumption inferred except named owner commits. HENRY and VIOLET consumed 077/078 November 5.
 - Intake coverage: November4 21:01Z collector healthy;24 incremental flagged news/filing units dispositioned at reboot. Prior catch-up: All 464 titles were screened, not every original article. Cards 057–068 explicitly retain source-body/owner-overlap gaps. Bookmarks: five fully read, 44 partly read; videos not watched. Exact gaps/reopen conditions are in REVIEW.md and the verification reports. No unattended monitoring or comprehensive all-news claim.
 - Source-complete threshold checks are separate from all 48 registered IDs. Trepp's two-print observation is complete; CREED qualitative/cohort events remain owner-limited. Official oil/TTF settles, France/Italy compound legs, complete monthly PMIs and qualitative censuses remain missing. Futures returns were refused on rounded quote/chart mismatch (87.48999786376953 versus 87.49); no return bypass/proxy. Existing broad-HY fires are not new fires; REG-T-04 >350 x3 remains not met, 10 bp watch at November 3 HY 340. VIX exit observations are 3/5, not owner closure.
 - UNG WQ-573: sampled NOAA GFS f000 10 hPa/60N means +3.903807 m/s [November 3 00Z], +1.791158 [November 4 00Z], +1.092857 [12Z]. Positive analyses do not meet <0; unsampled intervals unknown. AEOLUS acceptance/canonical logging remains owed. UNG November 2/3 closes $9.00/$9.13 are below the $10.40 prior-close void. Approved five January 15, 2027 10/12 call spreads retain debit ≤$0.50, maximum loss $256.50, observed reversal by November 12, red day by November 20, entry <$10.40 and every owner guard. Broker quote/fees and current option chain not obtained; no order. Original fallback versus AEOLUS-logged wording still requires owner reconciliation; no alternate fire authority.
-- Reader basis: PROME renewed READS at a457899537 and added step 7i reads at 88829d531e. Three changed boot files reviewed, hashes renewed (evening-boot/basis-review.json). Charter is 25,922 B, 80% of budget: NOT owed. READ_CAP rule 20 excludes charters from the read cap and directs no desk to rotate one; the yellow line comes from the Codex explicit-read row and 25.9 KB is under the truncation cap. Earlier 'owed' wording was overstated, corrected November 5. Optional hygiene only. Complete fleet lifecycle visibility UNKNOWN; no DARK inference.
+- Reader basis: boot basis matched 28 paths November 5; READS check stays UNKNOWN on a stale attestation, PROME's L845. Step 7 ran after the morning cards, desk STATUS reads PARTIAL (STEP7-REVIEW.md). Charter is 25,922 B, 80% of budget: NOT owed. READ_CAP rule 20 excludes charters from the read cap and directs no desk to rotate one; the yellow line comes from the Codex explicit-read row and 25.9 KB is under the truncation cap. Earlier 'owed' wording was overstated, corrected November 5. Optional hygiene only. Complete fleet lifecycle visibility UNKNOWN; no DARK inference.
 - DEWEY: 005R RESOLVED through VULCAN L800 and DEWEY L834, method omissions and WQ-551.FIRM deferral survive. 003R PARKED by DEWEY November 4, row stays PARTIAL and doctor MED stays until it runs: FDIC BankFind 0 Q3 rows against June control 4,313 (WALTER reproduced); FFIEC 4,259 of 4,268 is DEWEY's measurement. Not an unavailable-data deferral; no Q3 placement exists. DEWEY re-checks FDIC at next touch.
 - Existing owner grading/reconciliation: LABOR JOLTS/NFP LEG-C/October WARN; ISHM L899 survey grade completed November4 with named source exception: ISM55.5, strict<47 NOT-FIRED; S&P final54.9 supersedes flash56.0, rollover NOT-MET, broader-real-demand CANNOT-FIRE. Selective expansion and scores unchanged. Original October final composition access check November6; 006/035 backlog now owner-completed: M3/import J1 pairing, Emerson eight cells and five October-ending AAR weeks graded. J1 contraction and J2 rail deterioration NOT-MET; scores unchanged. Current-history/direct monthly import y/y retry November6, AAR edition publication date UNKNOWN (December2 revisit); EMR destocking/AI share NOT-STATED. Evidence research/2026-11-04_ishm-backlog/REVIEW.md; CREED T-01a/Kernel; FERT DTN table and CF Q3 (November 4 after-close release and November 5 conference not claimed read). NEXUS concurrently records L16 UP/M-07 DOWN in its working STATUS; WALTER's header read is not independent acceptance of the full grade. Route packets do not prove owner completion.
 - November 2 source gaps survive where not replaced: direct Al Jazeera/QSE originals and neutral Al Mayeda position/damage evidence; CME historical/motive/curve claims; original mortgage recording/Lunar/Vegas videos and selected paywalled primary bodies. ConnectWise's partial recovery was updated in November 4 card 011, not declared complete. New Qeshm/UKMTO evidence is routed, not a whole-theater census. Full Iran sweep completed November 5 01:44Z; ukmto.org 403, warnings 192-26 onward unseen, FT and Bloomberg originals unread.
@@ -53,7 +47,7 @@ December ULSD crack fell below the held-VLO line: TERRY accepted November 2 $89.
 
 ## WILL_NEEDS
 
-None open from WALTER's list. Held-VLO discharged: Will sold the one share November 5 10:05 EST at $366.665 per TERRY's record. CREED ran on Will's word: T-01a FIRED, T-08b at 7 of 11, S1 3 to 4 Will-ruled November 5. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
+No WALTER decision open. Nudge after any close for the close pass. Held-VLO discharged: Will sold the one share November 5 10:05 EST at $366.665 per TERRY's record. CREED ran on Will's word: T-01a FIRED, T-08b at 7 of 11, S1 3 to 4 Will-ruled November 5. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
 
 ## FOLLOW-UP
 

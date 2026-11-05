@@ -30,7 +30,7 @@
 
 **At VERIFY (CHECKLIST v0.39 PHASE 1.5):**
 6. **Date-check before mechanism-check; verify event age before counting a lane headline.** → CHECKLIST Phase 1.5; full incident record: MEMORY_PROMOTED.md § Rotation 2026-10-31.
-7. **GREP THE OWNERS BEFORE THE WEB (n=6)** — a domain agent's continuous collection beats a router's one-shot query, on FACTS as well as framing. → rule 1.5b
+7. **GREP THE OWNERS BEFORE THE WEB (n=7; 11/05: 'nobody read CoreWeave 2027' while VULCAN KB-247 held it)** — a domain agent's continuous collection beats a router's one-shot query, on FACTS as well as framing. → rule 1.5b
 8. **Number right, sign wrong = the backwards-route tell** — and the natural recipient is the one whose thesis it will corrupt. → rule 1.5c
 
 **At PRECEDENCE (CHECKLIST v0.39 PHASE 2):**
@@ -84,6 +84,8 @@
 60. **A level without its change can hide the week's biggest move.** 11/04: catch-up logged Brent 95.07 while the tool withheld the return; January Brent had fallen 16.7% in three sessions and no card said so. Read the prior row by hand, labelled unverified; a withheld field is not a quiet tape. → BOARD 078
 61. **After any sharp move, read the registered gates on held names at their letter.** 11/04: nobody asked; the December crack had already crossed the held-VLO exit on 11/2, unseen for two days. The oil headline was the smaller story. Vendor date rows can be evening sessions: check volume, then use the gate's own settle window. → BOARD 077 · PROME/GATES.tsv
 
+62. **Recheck the inbox before calling a routing pass complete.** 11/05: HENRY's 09:49 ET and LIQUID's packets sat unread until an 11:16 ET check; the boot read is a snapshot, and desks keep writing during a live day. → charter step 7g · BOARD 020/021
+
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -97,4 +99,4 @@
 
 ## Session Notes
 
-November 5 LIVE on the desktop, walter-07, working checkpoint under Will's catch-up word. LAST_COMPLETION owns duties. Cards 001–008; X login expired here, so 15 bookmarks wait for Will. VLO exit FIRED-UNEXECUTED pending Will.
+November 5 FULL CLOSED on Will request. LAST_COMPLETION owns duties and the resume list. 23 cards, two FLASHes. November 5 close pass NOT run: first duty next session. X token and FFIEC and SEC all work on the desktop; `bdata` absent here.

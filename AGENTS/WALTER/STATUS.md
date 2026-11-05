@@ -1,16 +1,17 @@
 # WALTER STATUS
-**Updated:** 2026-11-05T15:00:02Z — LIVE on the desktop, session walter-07, Will's 09:42 ET catch-up via PROME; working checkpoint, not a closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-05T16:56:11Z — CLOSED on Will request; FULL closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-LIVE on the desktop. FLASH 016 and 017: broad selloff, S&P −3.44%, VIX 25.76 at 16:04Z, banks now falling, credit ETFs calm; vendor reads, not closes. Morning pass, bookmarks and step 7 done: cards 001–017. Bank of England raised Bank Rate to 4%, 8–1 (001). AI names sold off through the open, QQQ under the 200-day level a November 4 chart showed (005, 014); CoreWeave bankruptcy claim killed at EDGAR (010). New UKMTO tanker strike north of Qatar; Iranian mine claims unconfirmed; no deal (007). No registered WALTER threshold fire in completed checks beyond the safety net.
+CLOSED. November 5: 23 cards, 75 handoffs, two FLASHes (016, 017) on a broad selloff that began in AI names and reached banks; credit proxies stayed calm. Bank of England raised to 4% (001). New UKMTO tanker strike; Iranian mine claims unconfirmed; no deal (007, 023). CoreWeave bankruptcy claim killed at EDGAR (010). Morning pass, 16 bookmarks and step 7 done.
 
-BALANCED baseline; labor intake LOOSE for November 6 payrolls. `bdata` not installed here.
+BALANCED baseline; labor intake LOOSE for November 6 payrolls. November 5 close pass NOT run: no settled closes read for VIX, WAL or the banks. Resume list: top of LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| November 5 last tape (vendor intraday 11:55 ET, not closes) | S&P 7,440.91 (−3.22%), QQQ 657.40 (−4.99%), VIX 23.02, down from 27.97 at 11:09 ET; KRE 72.85 (−1.73%), WAL 76.24 (−3.79%, under REG-T-02's 78, close unread; existing cycle), HYG 77.22 (−0.39%). BZF27 96.74, CLZ26 89.94. Intraday high read for VIX, not a recorded high. Evidence: research/2026-11-05_morning/. |
 | November 5 morning pass (pull 14:44Z, tape 14:54Z; vendor rows are not settlements or closes) | FRED HY 332 / CCC 1,297 [Nov 4, read 15:08Z, card 009]; VIXCLS 16.61 [Nov 4] resets RED-FT-06 exit run 3/5 to 0/5 on WALTER's read, RED owns; SKEW 150.90 [Nov 4]; SOFR−IORB +4 bp [Nov 4]; T5YIFR 2.22 [Nov 4]; ICSA 189,000 [w/e Oct 31]; Cushing 27.250M [w/e Oct 30]; AGSI gap −15.772 pp [Nov 3]. BoE Bank Rate 4.00% [Nov 5]. Vendor January Brent prior 94.62 equals CNBC's settle; 96.94 at 09:34 ET. Tape 14:54Z S&P 7,581.82 (−1.39%), QQQ 669.30 (−3.27%), SMH −6.16%, VIX 18.01, KRE 75.05, WAL 79.45. TE intraday gilts 10Y 5.15 / 30Y 5.59, Bund 3.26, OAT 4.74, BTP 4.34, TTF about €85, EURUSD about 1.125. REG-T-04 18 bp, outside the watch band. No new fire or exit established. Evidence: research/2026-11-05_morning/THRESHOLD-SCAN.md. |
 | November 4 evening boot (pull November 5 01:18Z; vendor rows are not settlements) | FRED HY 340 / CCC 1,316 / VIXCLS 20.83 / SOFR−IORB +7 bp [Nov 3]; T5YIFR 2.22 [Nov 4]; SKEW 150.01 [Nov 3]; ICSA 194,000 [w/e Oct 24]; Cushing 27.250M [w/e Oct 30]; AGSI gap −15.772pp [Nov 3]. CNBC November 4 settlements Brent $94.62 (−8.7%), WTI $88.12 (−8.3%), months unnamed. Vendor S&P 7,688.62, VIX 16.61, KRE 74.13, WAL 79.24, USO 145.41, VLO 365.34. Matched December ULSD crack: Nov 2 $89.2472 TERRY-accepted (HELD-01 leg A FIRED), Nov 3 $94.1952, Nov 4 ESTIMATE $88.5451; CME unread. REG-T-04 10 bp watch. No new WALTER fire; European dailies, TTF and official settlements not re-pulled. Evidence: research/2026-11-04_evening-boot/. |
 | November 4 catch-up | FRED November 3: HY 340 bp, CCC 1,316 bp, VIXCLS 20.83, SOFR minus IORB +7 bp, T5YIFR 2.21%; Cboe SKEW 150.01. Cushing 27.250M barrels [week October 30]. WAL 76.77 / KRE 72.88 / UNG 9.13 [November 3 unadjusted closes]. HY >350 x3 not met; 10 bp watch. VIX exit run 3/5, owner grade retained. GFS November 4 12Z analyzed vortex mean +1.092857 m/s, no sampled reversal. Futures returns withheld by tool; official settlements and compound/source gaps remain. Evidence: research/2026-11-04_catchup/THRESHOLD-SCAN.md. |
@@ -64,9 +65,9 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed before NETWORK at 2026-11-05T13:43:42Z. Owner leads changed since the prior close and mirrored: CARL, DAEDALUS, FALCON, ORACLE, RED, TERRY; NEXUS and WAL already current; BRENT consumed by commit, STATUS lead still dated November 2. Colors/classes unchanged. HENRY and VIOLET hold unread ACTION items on cards 077/078.
+REGISTRY refreshed before NETWORK at 2026-11-05T16:56:11Z. Live during the session: PROME, HENRY, LIQUID, BOND, VIOLET, TERRY; owner sessions also ran for CREED, AEOLUS, RED, REGINALD and VULCAN. Still dated October 28–31 with unread ACTION: OTTO, CORAL, CRUISE, HANS, HAWK, HOMER, SHADE, WATT, LABOR, SAM. Colors and classes unchanged. Doctor backlog: 58 items older than 2 days across 17 desks; backlog is not a DARK finding.
 
-Complete cross-runtime lifecycle visibility remains UNKNOWN. No active WALTER helper, study or unattended task. Dates/headers do not certify full domain freshness. Current duties and publication proof remain in LAST_COMPLETION.md.
+Complete cross-runtime lifecycle visibility remains UNKNOWN. No active WALTER helper, study or unattended task. Dates and headers do not certify full domain freshness. Current duties and publication proof remain in LAST_COMPLETION.md.
 
 ## Active LIAISON channels
 
