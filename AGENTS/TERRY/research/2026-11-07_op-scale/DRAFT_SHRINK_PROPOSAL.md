@@ -97,7 +97,7 @@ Rules: nothing is deleted · no replacement slate or new desk comes with this ·
 | Cost | No new desk; TERRY runs on events | Restores for one desk the cadence wake Will dropped on 10/31 |
 | What it misses | A trigger between its watcher's reads; RSP needs one assigned | Anything while usage is out; the VLO gap fell in that stretch |
 
-**Why Form 1:** with no cadence wake, "standing" is a label, not a watch. TERRY held a standing seat when the VLO exit fired on 11/2, and WALTER's evening boot found it on 11/4. A seat did not catch it; an assigned reader would have. ⚠️ TERRY made this call about itself; it costs TERRY its seat, but RED's report is the only outside read, and RED holds a seat too.
+**Why Form 1:** with no cadence wake, "standing" is a label, not a watch. TERRY was an active desk when the VLO exit fired on 11/2, with no wake assigned, and WALTER's evening boot found it on 11/4. Being active did not catch it; an assigned reader might have, though that stretch was also when usage ran out. ⚠️ TERRY made this call about itself; it costs TERRY its seat, but RED's report is the only outside read, and RED holds a seat too.
 
 | Trigger | Named watcher under Form 1 | State |
 |---|---|---|
