@@ -1,0 +1,226 @@
+
+Q 1. Over the past three months, how have your bank's credit standards for approving applications for C&I loans or credit lines - ot
+1.     A. Standards for large and middle-market firms (annual sales of $50 millio ALL   +1.7 LG   -4.5 OTH   +5.2 n=60
+1.     B. Standards for small firms (annual sales of less than $50 million):      ALL   +5.1 LG   +0.0 OTH   +7.9 n=59
+
+Q 2. For applications for C&I loans or credit lines-other than those to be used to finance mergers and acquisitions-from large and m
+2.     a. Maximum size of credit lines                                            ALL   -8.3 LG  -18.2 OTH   -2.7 n=60
+2.     b. Maximum maturity of loans or credit lines                               ALL   -6.7 LG   -4.5 OTH   -7.9 n=60
+2.     c. Costs of credit lines                                                   ALL   -5.0 LG   +0.0 OTH   -7.9 n=60
+2.     d. Spreads of loan rates over your bank's cost of funds (wider spreads=tig ALL  -15.0 LG  -22.7 OTH  -10.5 n=60
+2.     e. Premiums charged on riskier loans                                       ALL   +6.8 LG   -4.5 OTH  +13.5 n=59
+2.     f. Loan covenants                                                          ALL   -6.6 LG  -13.6 OTH   -2.7 n=60
+2.     g. Collateralization requirements                                          ALL   +1.7 LG   -4.5 OTH   +5.3 n=60
+2.     h. Use of interest rate floors (more use=tightened, less use=eased)        ALL   +3.4 LG   +0.0 OTH   +5.3 n=59
+2.     a. Maximum size of credit lines                                            ALL   -5.1 LG   -9.5 OTH   -2.6 n=59
+2.     b. Maximum maturity of loans or credit lines                               ALL   +3.4 LG   +0.0 OTH   +5.3 n=59
+2.     c. Costs of credit lines                                                   ALL   -1.7 LG   +4.8 OTH   -5.3 n=59
+2.     d. Spreads of loan rates over your bank's cost of funds (wider spreads=tig ALL   -6.7 LG  -14.3 OTH   -2.6 n=59
+2.     e. Premiums charged on riskier loans                                       ALL   +5.2 LG   +0.0 OTH   +8.1 n=58
+2.     f. Loan covenants                                                          ALL   +3.4 LG   +0.0 OTH   +5.3 n=59
+2.     g. Collateralization requirements                                          ALL   +5.1 LG   +0.0 OTH   +7.9 n=59
+2.     h. Use of interest rate floors (more use=tightened, less use=eased)        ALL   +6.9 LG   +0.0 OTH  +10.6 n=58
+
+Q 3. If your bank has tightened or eased its credit standards or its terms for C&I loans or credit lines over the past three months 
+3.     a. Deterioration in your bank's current or expected capital position       ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+3.     b. Less favorable or more uncertain economic outlook                       ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+3.     c. Worsening of industry-specific problems (please specify industries)     ALL   +0.0 LG   +0.0 OTH   +0.0 n=9
+3.     d. Less aggressive competition from other banks or nonbank lenders (other  ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+3.     e. Reduced tolerance for risk                                              ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+3.     f. Decreased liquidity in the secondary market for these loans             ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+3.     g. Deterioration in your bank's current or expected liquidity position     ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+3.     h. Increased concerns about the effects of legislative changes, supervisor ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+3.     a. Improvement in your bank's current or expected capital position         ALL   +0.0 LG   +0.0 OTH   +0.0 n=15
+3.     b. More favorable or less uncertain economic outlook                       ALL   +0.0 LG   +0.0 OTH   +0.0 n=15
+3.     c. Improvement in industry-specific problems (please specify industries)   ALL   +0.0 LG   +0.0 OTH   +0.0 n=15
+3.     d. More aggressive competition from other banks or nonbank lenders (other  ALL   +0.0 LG   +0.0 OTH   +0.0 n=16
+3.     e. Increased tolerance for risk                                            ALL   +0.0 LG   +0.0 OTH   +0.0 n=15
+3.     f. Increased liquidity in the secondary market for these loans             ALL   +0.0 LG   +0.0 OTH   +0.0 n=15
+3.     g. Improvement in your bank's current or expected liquidity position       ALL   +0.0 LG   +0.0 OTH   +0.0 n=15
+3.     h. Reduced concerns about the effects of legislative changes, supervisory  ALL   +0.0 LG   +0.0 OTH   +0.0 n=15
+
+Q 4. Apart from normal seasonal variation, how has demand for C&I loans changed over the past three months? (Please consider only fu
+4.     A. Demand for C&I loans from large and middle-market firms (annual sales o ALL  -11.6 LG   -4.5 OTH  -15.8 n=60
+4.     B. Demand for C&I loans from small firms (annual sales of less than $50 mi ALL  -11.9 LG   -4.8 OTH  -15.8 n=59
+
+Q 5. If demand for C&I loans has strengthened or weakened over the past three months (as described in question 4), how important hav
+5.     a. Customer inventory financing needs increased                            ALL   +0.0 LG   +0.0 OTH   +0.0 n=5
+5.     b. Customer accounts receivable financing needs increased                  ALL   +0.0 LG   +0.0 OTH   +0.0 n=5
+5.     c. Customer investment in plant or equipment increased                     ALL   +0.0 LG   +0.0 OTH   +0.0 n=5
+5.     d. Customer internally generated funds decreased                           ALL   +0.0 LG   +0.0 OTH   +0.0 n=5
+5.     e. Customer merger or acquisition financing needs increased                ALL   +0.0 LG   +0.0 OTH   +0.0 n=5
+5.     f. Customer borrowing shifted to your bank from other bank or nonbank sour ALL   +0.0 LG   +0.0 OTH   +0.0 n=5
+5.     g. Customer precautionary demand for cash and liquidity increased          ALL   +0.0 LG   +0.0 OTH   +0.0 n=5
+5.     a. Customer inventory financing needs decreased                            ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+5.     b. Customer accounts receivable financing needs decreased                  ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+5.     c. Customer investment in plant or equipment decreased                     ALL   +0.0 LG   +0.0 OTH   +0.0 n=12
+5.     d. Customer internally generated funds increased                           ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+5.     e. Customer merger or acquisition financing needs decreased                ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+5.     f. Customer borrowing shifted from your bank to other bank or nonbank sour ALL   +0.0 LG   +0.0 OTH   +0.0 n=12
+5.     g. Customer precautionary demand for cash and liquidity decreased          ALL   +0.0 LG   +0.0 OTH   +0.0 n=10
+
+Q 6. At your bank, apart from seasonal variation, how has the number of inquiries from potential business borrowers regarding the av
+
+Q 7. Over the past three months, how have your bank's credit standards for approving new applications for construction and land deve
+7.                                                                                ALL  +15.6 LG  +10.0 OTH  +18.5 n=58
+
+Q 8. Over the past three months, how have your bank's credit standards for approving new applications for loans secured by nonfarm n
+8.                                                                                ALL   +8.8 LG   +5.2 OTH  +10.6 n=57
+
+Q 9. Over the past three months, how have your bank's credit standards for approving new applications for loans secured by multifami
+9.                                                                                ALL   +8.8 LG   +5.0 OTH  +10.8 n=57
+
+Q 10. Apart from normal seasonal variation, how has demand for construction and land development loans changed over the past three m
+10.                                                                               ALL  -25.8 LG  -40.0 OTH  -18.4 n=58
+
+Q 11. Apart from normal seasonal variation, how has demand for loans secured by nonfarm nonresidential properties changed over the p
+11.                                                                               ALL  -10.6 LG  -10.5 OTH  -10.6 n=57
+
+Q 12. Apart from normal seasonal variation, how has demand for loans secured by multifamily residential properties changed over the 
+12.                                                                               ALL  -22.8 LG  -25.0 OTH  -21.6 n=57
+
+Q 13. Over the past three months, how have your bank's credit standards for approving applications from individuals for mortgage loa
+13.    A. Credit standards on mortgage loans that your bank categorizes as GSE-el ALL   +0.0 LG   +0.0 OTH   +0.0 n=54
+13.    B. Credit standards on mortgage loans that your bank categorizes as govern ALL   +0.0 LG   +0.0 OTH   +0.0 n=49
+13.    C. Credit standards on mortgage loans that your bank categorizes as QM non ALL   -3.8 LG  -11.1 OTH   +0.0 n=53
+13.    D. Credit standards on mortgage loans that your bank categorizes as QM jum ALL   -7.5 LG  -27.8 OTH   +2.9 n=53
+13.    E. Credit standards on mortgage loans that your bank categorizes as non-QM ALL   -8.8 LG  -31.2 OTH   +3.4 n=46
+13.    F. Credit standards on mortgage loans that your bank categorizes as non-QM ALL   -4.7 LG  -13.3 OTH   +0.0 n=43
+13.    G. Credit standards on mortgage loans that your bank categorizes as subpri ALL  +20.0 LG   +0.0 OTH  +20.0 n=10
+
+Q 14. Apart from normal seasonal variation, how has demand for mortgages to purchase homes changed over the past three months? (Plea
+14.    A. Demand for mortgages that your bank categorizes as GSE-eligible residen ALL  -32.1 LG  -22.3 OTH  -37.1 n=53
+14.    B. Demand for mortgages that your bank categorizes as government residenti ALL  -30.0 LG  -18.8 OTH  -35.4 n=50
+14.    C. Demand for mortgages that your bank categorizes as QM non-jumbo, non-GS ALL  -35.9 LG  -27.8 OTH  -40.0 n=53
+14.    D. Demand for mortgages that your bank categorizes as QM jumbo residential ALL  -30.2 LG  -22.2 OTH  -34.3 n=53
+14.    E. Demand for mortgages that your bank categorizes as non-QM jumbo residen ALL  -25.5 LG  -23.5 OTH  -26.6 n=47
+14.    F. Demand for mortgages that your bank categorizes as non-QM non-jumbo res ALL  -31.8 LG  -20.0 OTH  -37.9 n=44
+14.    G. Demand for mortgages that your bank categorizes as subprime residential ALL  -40.0 LG   +0.0 OTH  -40.0 n=10
+
+Q 15. Over the past three months, how have your bank's credit standards for approving applications for revolving home equity lines o
+15.                                                                               ALL   +0.0 LG  -12.5 OTH   +5.3 n=54
+
+Q 16. Apart from normal seasonal variation, how has demand for revolving home equity lines of credit changed over the past three mon
+16.                                                                               ALL   +0.0 LG   +0.0 OTH   +0.0 n=54
+
+Q 17. Please indicate your bank's willingness to make consumer installment loans now as opposed to three months ago. (This question 
+
+Q 18. Over the past three months, how have your bank's credit standards for approving applications for credit cards from individuals
+18.                                                                               ALL   +4.0 LG   +5.2 OTH   +3.2 n=50
+
+Q 19. Over the past three months, how have your bank's credit standards for approving applications for auto loans to individuals or 
+19.                                                                               ALL   -2.1 LG  -13.3 OTH   +3.0 n=48
+
+Q 20. Over the past three months, how have your bank's credit standards for approving applications for consumer loans other than cre
+20.                                                                               ALL   +1.9 LG   +6.2 OTH   +0.0 n=52
+
+Q 21. Over the past three months, how has your bank changed the following terms and conditions on new or existing credit card accoun
+21.    a. Credit limits                                                           ALL   +6.1 LG   +5.2 OTH   +6.6 n=49
+21.    b. Spreads of interest rates charged on outstanding balances over your ban ALL   +2.0 LG   +5.3 OTH   +0.0 n=49
+21.    c. Minimum percent of outstanding balances required to be repaid each mont ALL   +2.0 LG   +0.0 OTH   +3.3 n=49
+21.    d. Minimum required credit score (increased score=tightened, reduced score ALL   +4.1 LG   -5.3 OTH  +10.0 n=49
+21.    e. The extent to which loans are granted to some customers that do not mee ALL  +10.2 LG   +0.0 OTH  +16.7 n=49
+
+Q 22. Over the past three months, how has your bank changed the following terms and conditions on loans to individuals or households
+22.    a. Maximum maturity                                                        ALL   -2.2 LG  -13.3 OTH   +3.1 n=47
+22.    b. Spreads of loan rates over your bank's cost of funds (wider spreads=tig ALL   -4.3 LG  -26.7 OTH   +6.3 n=47
+22.    c. Minimum required down payment (higher=tightened, lower=eased)           ALL   +2.1 LG   +0.0 OTH   +3.1 n=47
+22.    d. Minimum required credit score (increased score=tightened, reduced score ALL   +6.4 LG   +6.7 OTH   +6.2 n=47
+22.    e. The extent to which loans are granted to some customers that do not mee ALL   +4.3 LG   -6.7 OTH   +9.4 n=47
+
+Q 23. Over the past three months, how has your bank changed the following terms and conditions on consumer loans other than credit c
+23.    a. Maximum maturity                                                        ALL   +5.8 LG   +6.2 OTH   +5.6 n=52
+23.    c. Minimum required down payment (higher=tightened, lower=eased)           ALL   +0.0 LG   -6.2 OTH   +2.8 n=52
+23.    d. Minimum required credit score (increased score=tightened, reduced score ALL   +2.0 LG   +0.0 OTH   +2.9 n=51
+23.    e. The extent to which loans are granted to some customers that do not mee ALL   +5.9 LG   +0.0 OTH   +8.3 n=51
+
+Q 24. Apart from normal seasonal variation, how has demand from individuals or households for credit card loans changed over the pas
+24.                                                                               ALL  +10.2 LG   +5.3 OTH  +13.3 n=49
+
+Q 25. Apart from normal seasonal variation, how has demand from individuals or households for auto loans changed over the past three
+25.                                                                               ALL  -12.6 LG   -6.6 OTH  -15.1 n=48
+
+Q 26. Apart from normal seasonal variation, how has demand from individuals or households for consumer loans other than credit card 
+26.                                                                               ALL   +1.9 LG  +12.5 OTH   -2.8 n=52
+
+Q 27. Over the past year, how much more or less likely is your bank to currently approve credit card applications to borrowers in ea
+27.    a. Super-prime borrowers (such as those with FICO scores at or above 780)  ALL   +0.0 LG   +0.0 OTH   +0.0 n=57
+27.    b. Prime borrowers (such as those with FICO scores in the 720-779 range)   ALL   +0.0 LG   +0.0 OTH   +0.0 n=57
+27.    c. Near-prime borrower (such as those with FICO scores in the 620-719 rang ALL   +0.0 LG   +0.0 OTH   +0.0 n=57
+27.    d. Subprime borrowers (such as those with FICO scores in the 580-619 range ALL   +0.0 LG   +0.0 OTH   +0.0 n=56
+
+Q 28. Over the past year, what have been the main factors contributing to changes in demand for credit card loans from your bank? Fo
+28.    a. Changes in customers’ spending needs due to the outlook for economic ac ALL   +0.0 LG   +0.0 OTH   +0.0 n=50
+28.    b. Changes in customers' spending needs due to changes in their employment ALL   +0.0 LG   +0.0 OTH   +0.0 n=50
+28.    c. Changes in customers' spending needs due to changes in credit card inte ALL   +0.0 LG   +0.0 OTH   +0.0 n=51
+28.    d. Changes in customers' spending needs in response to price changes for g ALL   +0.0 LG   +0.0 OTH   +0.0 n=51
+28.    e. Changes in the relative attractiveness of other bank credit sources     ALL   +0.0 LG   +0.0 OTH   +0.0 n=51
+28.    f. Changes in the relative attractiveness of nonbank credit sources        ALL   +0.0 LG   +0.0 OTH   +0.0 n=50
+
+Q 29. Over the past quarter, how have your bank's credit standards for approving applications for loans or credit lines to the follo
+29.    A. Standards for mortgage credit intermediaries:                           ALL  +17.1 LG   +6.6 OTH  +23.1 n=41
+29.    B. Standards for business credit intermediaries:                           ALL  +22.0 LG  +20.0 OTH  +23.4 n=50
+29.    C. Standards for private equity funds:                                     ALL  +15.4 LG   +5.0 OTH  +21.9 n=52
+29.    D. Standards for consumer credit intermediaries:                           ALL  +16.7 LG   +6.2 OTH  +23.1 n=42
+29.    E. Standards for other NDFIs:                                              ALL  +20.4 LG  +11.1 OTH  +25.8 n=49
+
+Q 30. For applications for NDFI loans or credit lines that your bank currently is willing to approve, how have the following terms o
+30.    a. Costs of credit lines                                                   ALL   +3.6 LG  -10.0 OTH  +11.4 n=55
+30.    b. Spreads of base loan rates over your bank's cost of funds (wider spread ALL   +0.0 LG  -30.0 OTH  +17.1 n=55
+30.    c. Premiums charged on riskier loans                                       ALL  +18.6 LG   +5.2 OTH  +25.7 n=54
+30.    d. Use of interest rate floors (more use=tightened, less use=eased)        ALL   +9.1 LG   +5.0 OTH  +11.5 n=55
+30.    e. Maximum size of credit lines                                            ALL   +5.4 LG  -10.0 OTH  +14.3 n=55
+30.    f. Maximum maturity of loans or credit lines                               ALL   +3.6 LG   +5.0 OTH   +2.9 n=55
+30.    g. Loan covenants                                                          ALL   +7.4 LG  +10.5 OTH   +5.7 n=54
+30.    h. Collateralization requirements (e.g., borrowing-base requirements, coll ALL   +9.1 LG  +10.0 OTH   +8.6 n=55
+
+Q 31. If your bank has tightened or eased its credit standards or its terms for NDFI loans or credit lines over the past quarter (as
+31.    a. Deterioration in your bank's current or expected capital position       ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    b. Deterioration in your bank's current or expected liquidity position     ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    c. Increased concerns about correlated drawdowns on your bank’s credit lin ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    d. Less favorable or more uncertain economic outlook                       ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    e. Less aggressive competition from other banks or nonbank lenders (other  ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    f. Reduced tolerance for risk                                              ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    g. Increased concerns about the effects of legislative changes, supervisor ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    h. Deterioration in current or expected financial strength of the NDFI bor ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    i. Increased risk of the underlying collateral                             ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    j. Decreased returns from lending to NDFIs                                 ALL   +0.0 LG   +0.0 OTH   +0.0 n=21
+31.    a. Improvement in your bank's current or expected capital position         ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    b. Improvement in your bank's current or expected liquidity position       ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    c. Reduced concerns about correlated drawdowns on your bank’s credit lines ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    d. More favorable or less uncertain economic outlook                       ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    e. More aggressive competition from other banks or nonbank lenders (other  ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    f. Increased tolerance for risk                                            ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    g. Reduced concerns about the effects of legislative changes, supervisory  ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    h. Improvement in current or expected financial strength of the NDFI borro ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    i. Reduced risk of the underlying collateral                               ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+31.    j. Increased returns from lending to NDFIs                                 ALL   +0.0 LG   +0.0 OTH   +0.0 n=8
+
+Q 32. How has demand for NDFI loans at your bank changed over the past quarter? (Please consider only funds actually disbursed as op
+32.    A. Demand from mortgage credit intermediaries:                             ALL   +0.0 LG   -6.3 OTH   +2.9 n=50
+32.    B. Demand from business credit intermediaries:                             ALL  +10.7 LG  +10.0 OTH  +11.1 n=56
+32.    C. Demand from private equity funds:                                       ALL   +5.4 LG  +15.0 OTH   +0.0 n=56
+32.    D. Demand from consumer credit intermediaries:                             ALL   +0.0 LG   +5.9 OTH   -2.8 n=52
+32.    E. Demand from other NDFIs:                                                ALL   +1.9 LG   +0.0 OTH   +2.8 n=53
+
+Q 33. If demand for NDFI loans at your bank has strengthened or weakened over the past quarter, how important have the following pos
+33.    a. Improvement in NDFIs’ investment opportunities related to nonfinancial  ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    b. Improvement in NDFIs’ investment opportunities related to financial mar ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    c. Improvement in NDFIs' financial condition or creditworthiness           ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    d. Increased NDFIs’ working capital or liquidity needs                     ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    e. Increased NDFIs’ refinancing needs (maturing debt, debt restructuring)  ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    f. General level of interest rates decreased                               ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    g. NDFI borrowing shifted to your bank from other banks                    ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    h. NDFI borrowing shifted to your bank from nonbank or capital-market sour ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    i. Changes in regulations affecting NDFIs or banks                         ALL   +0.0 LG   +0.0 OTH   +0.0 n=13
+33.    a. Deterioration in NDFIs’ investment opportunities related to nonfinancia ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+33.    b. Deterioration in NDFIs’ investment opportunities related to financial m ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+33.    c. Deterioration in NDFIs' financial condition or creditworthiness         ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+33.    d. Decreased NDFIs’ working capital or liquidity needs                     ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+33.    e. Decreased NDFIs’ refinancing needs (maturing debt, debt restructuring)  ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+33.    f. General level of interest rates increased                               ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+33.    g. NDFI borrowing shifted from your bank to other banks                    ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+33.    h. NDFI borrowing shifted from your bank to nonbank or capital-market sour ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+33.    i. Changes in regulations affecting NDFIs or banks                         ALL   +0.0 LG   +0.0 OTH   +0.0 n=7
+
+Q 1. The sample is selected from among the largest banks in each Federal Reserve District. In the table, large banks are defined as 
