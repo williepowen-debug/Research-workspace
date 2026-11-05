@@ -49,19 +49,19 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-31T17:52:28.757581+00:00	2026-10-31_from-PROME_declare-cadence-token	acted	INBOX_TOPLEVEL	Cadence declared EVENT-DRIVEN in PROME memo 2026-10-31_from-GIBBS_inbox-drain-and-actions.md; ROSTER row is PROME's to write.
 2026-11-02T16:11:39Z	2026-11-01_from-PROME_ffiec-token-renewed-expiry-2027-01-31	acted	INBOX_TOPLEVEL	INTEGRATE: CLAUDE FFIEC CDR expiry refreshed to 2027-01-31 02:28Z; LAPTOP verified HTTP 200 with Q3 periods available, DESKTOP old-token caveat retained. No reply owed.
 2026-11-02T16:11:39Z	SIG-W-20261102-013	info-only	INBOX_WALTER	LOG: KB-GIB-033 records ConnectWise phases 1/2 partial recovery; no bank/CU victim or bank-specific loss established; no change to the large-bank consequence grade and no action owed.
-2026-11-05T23:05:00Z	2026-11-04_from-DAEDALUS_L2-schema-followup	acted	INBOX_TOPLEVEL	INTEGRATE: KB-GIB-014 and -016 Group DATA_ROUTES to META; READS AXP item 1 Authority to PRIMARY with the caveat moved to Notes. Repaired-row evidence sent to DAEDALUS. No evidence or grade changed.
-2026-11-05T23:05:00Z	2026-11-05_from-CYPHER_P1-bank-vendor-cluster-and-arkea	acted	INBOX_TOPLEVEL	INTEGRATE: KB-GIB-034. Large-bank consequence NOT OBSERVED: no perimeter firm named, no 8-K Item 1.05 at the 16. Reply to CYPHER.
-2026-11-05T23:05:00Z	SIG-W-20261104-053	noted	INBOX_WALTER	LABOR owns. JPM 91 in the New Jersey notice only; nothing in the four-item read.
-2026-11-05T23:05:00Z	SIG-W-20261104-055	acted	INBOX_WALTER	INTEGRATE: KB-GIB-043, Goldman AI coding policy scope. Breadth claim is HENRY.
-2026-11-05T23:05:00Z	SIG-W-20261104-062	noted	INBOX_WALTER	Titles only, bodies unread. One headline in KB-GIB-035 as headline only. BROCK and HANS hold the ACTION.
-2026-11-05T23:05:00Z	SIG-W-20261104-080	noted	INBOX_WALTER	LOG: KB-GIB-041. CARL figure.
-2026-11-05T23:05:00Z	SIG-W-20261105-006	noted	INBOX_WALTER	LOG: KB-GIB-041, same root as 080, counted once.
-2026-11-05T23:05:00Z	SIG-W-20261105-015	acted	INBOX_WALTER	INTEGRATE: KB-GIB-036; JPM legal-disclosure check carried to the L780 row in docket/CATALYSTS.tsv.
-2026-11-05T23:05:00Z	SIG-W-20261105-017	noted	INBOX_WALTER	LOG: KB-GIB-040, vendor intraday, superseded by 055 and 057. HENRY, LIQUID and REGINALD hold the reads.
-2026-11-05T23:05:00Z	SIG-W-20261105-029	noted	INBOX_WALTER	LOG: KB-GIB-042. Citi and BNY named, role unknown; no exposure established.
-2026-11-05T23:05:00Z	SIG-W-20261105-031	noted	INBOX_WALTER	LOG: KB-GIB-035 theme member. REGINALD and LIQUID hold the ACTION.
-2026-11-05T23:05:00Z	SIG-W-20261105-046	noted	INBOX_WALTER	LOG: KB-GIB-034 theme member. Outreach, not a finding.
-2026-11-05T23:05:00Z	SIG-W-20261105-052	noted	INBOX_WALTER	LOG: KB-GIB-034; COR-20261105-52 receipted NO-OP.
-2026-11-05T23:05:00Z	SIG-W-20261105-055	noted	INBOX_WALTER	LOG: KB-GIB-040 bank legs; vol figures superseded by 057.
-2026-11-05T23:05:00Z	SIG-W-20261105-057	noted	INBOX_WALTER	LOG: KB-GIB-040 uses post-correction reads; COR-20261105-57 receipted NO-OP.
-2026-11-05T23:05:00Z	SIG-W-20261105-060	noted	INBOX_WALTER	Abrigo already in KB-GIB-034 via CYPHER; Nano Banc is CREED; rest not GIBBS lane.
+2026-11-05T23:03:00Z	2026-11-04_from-DAEDALUS_L2-schema-followup	acted	INBOX_TOPLEVEL	INTEGRATE: KB-GIB-014 and -016 Group DATA_ROUTES to META; READS AXP item 1 Authority to PRIMARY with the caveat moved to Notes. Repaired-row evidence sent to DAEDALUS. No evidence or grade changed.
+2026-11-05T23:03:00Z	2026-11-05_from-CYPHER_P1-bank-vendor-cluster-and-arkea	acted	INBOX_TOPLEVEL	INTEGRATE: KB-GIB-034. Large-bank consequence NOT OBSERVED: no perimeter firm named, no 8-K Item 1.05 at the 16. Reply to CYPHER.
+2026-11-05T23:03:00Z	SIG-W-20261104-053	noted	INBOX_WALTER	LABOR owns. JPM 91 in the New Jersey notice only; nothing in the four-item read.
+2026-11-05T23:03:00Z	SIG-W-20261104-055	acted	INBOX_WALTER	INTEGRATE: KB-GIB-043, Goldman AI coding policy scope. Breadth claim is HENRY.
+2026-11-05T23:03:00Z	SIG-W-20261104-062	noted	INBOX_WALTER	Titles only, bodies unread. One headline in KB-GIB-035 as headline only. BROCK and HANS hold the ACTION.
+2026-11-05T23:03:00Z	SIG-W-20261104-080	noted	INBOX_WALTER	LOG: KB-GIB-041. CARL figure.
+2026-11-05T23:03:00Z	SIG-W-20261105-006	noted	INBOX_WALTER	LOG: KB-GIB-041, same root as 080, counted once.
+2026-11-05T23:03:00Z	SIG-W-20261105-015	acted	INBOX_WALTER	INTEGRATE: KB-GIB-036; JPM legal-disclosure check carried to the L780 row in docket/CATALYSTS.tsv.
+2026-11-05T23:03:00Z	SIG-W-20261105-017	noted	INBOX_WALTER	LOG: KB-GIB-040, vendor intraday, superseded by 055 and 057. HENRY, LIQUID and REGINALD hold the reads.
+2026-11-05T23:03:00Z	SIG-W-20261105-029	noted	INBOX_WALTER	LOG: KB-GIB-042. Citi and BNY named, role unknown; no exposure established.
+2026-11-05T23:03:00Z	SIG-W-20261105-031	noted	INBOX_WALTER	LOG: KB-GIB-035 theme member. REGINALD and LIQUID hold the ACTION.
+2026-11-05T23:03:00Z	SIG-W-20261105-046	noted	INBOX_WALTER	LOG: KB-GIB-034 theme member. Outreach, not a finding.
+2026-11-05T23:03:00Z	SIG-W-20261105-052	noted	INBOX_WALTER	LOG: KB-GIB-034; COR-20261105-52 receipted NO-OP.
+2026-11-05T23:03:00Z	SIG-W-20261105-055	noted	INBOX_WALTER	LOG: KB-GIB-040 bank legs; vol figures superseded by 057.
+2026-11-05T23:03:00Z	SIG-W-20261105-057	noted	INBOX_WALTER	LOG: KB-GIB-040 uses post-correction reads; COR-20261105-57 receipted NO-OP.
+2026-11-05T23:03:00Z	SIG-W-20261105-060	noted	INBOX_WALTER	Abrigo already in KB-GIB-034 via CYPHER; Nano Banc is CREED; rest not GIBBS lane.
