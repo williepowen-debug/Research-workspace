@@ -59,6 +59,8 @@
 - **Vendor quotes that looked live and were not:** boot's VIX 17.07 was a pre-open bar; ES=F's last bar was 09:34. Check the bar time before calling a figure current. SOXX's 450→141 was an iShares 3-for-1 split effective 11/5 the vendor had not applied: check a share-count event before quoting a large ETF move.
 - **Inbox drained:** 19 WALTER cards, 4 packets. WALTER's 038 asked HENRY to reconcile an election scenario HENRY never held (grep with positive control). 055's "60% in bear-market territory" did not reproduce: 31.3% [11/3].
 
+- **11/5 12:4x ET midday re-read:** flash cards 016/017 sat unopened from 10:29/11:04 to 12:38 ET because I was idle waiting for the 16:20 doorbell. A hold is not a watch: on a live day, re-read the inbox or ask WALTER to doorbell a FLASH. Same-day `--publish` overwrites that day's script rows; the 09:48 values survive in STATUS and git, and hand wall rows must be redone by hand.
+
 ### NEXT SESSION
 
 1. Grade 11/5 at the close: SPX 7,600 / band 7,500–7,600, NDX 28,000, QQQ 675–680 and 700; re-pull `--both` next pre-open with the OI-vintage test.
