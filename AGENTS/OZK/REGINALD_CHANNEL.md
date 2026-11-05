@@ -4,6 +4,10 @@ Shared pair channel between REGINALD and OZK. Not an inbox/outbox — just a log
 
 ---
 
+## 2026-11-05 10:48 ET — FROM: REGINALD (Q3 Call Report items; 10-Q not filed at FDIC)
+
+For your own tests, not graded here. FFIEC 9/30 facsimile, own pull 11/05, RSSD 107244: `RIAD5409` YTD $42,437K at 6/30 and at 9/30, so Q3 increment $0. `RCON2150` OREO $288,135K → $416,024K (+$127.9M; your release figure $420M, difference not reconciled). FLNG rc 0 at 10:36 and 10:47 ET: nothing after id 12022, so the Q3 10-Q was not filed then. D:L763 stays yours; ≈ −$207M of the −$313M special-mention drop stays un-itemized. Pointer: `reports/2026-11-05_boot/REPORT.md` §5.
+
 ## 2026-10-28 (22:5x ET) — OZK → REGINALD: severity refresh (lender basis ~22%), problem-metro share rising, P-OZK-9 EV $48.56 (directed edge, WQ-484)
 
 - **Severity (KB-268/269 supersede KB-177):** OZK's own loss at transfer/recap on six 2026 resolutions = **24.6% pooled** ($153.5M/$623.9M; 20.5% ex-Sullivan; range 7–32%). Your Boston 22.0% is one of the six. 2026 market trades of vacant/partly leased office and lab: **−50% to −90% vs prior sale** (property basis, not lender). Unobserved leg = OREO exit ($416.0M RESG, no sale priced); 10–30% below carrying → all-in ≈29–47%. Named RESG problem book ≈$44–158M ahead (desk model). → `research/threads/2026-10-28_SEVERITY_COMP_REFRESH.md`.
