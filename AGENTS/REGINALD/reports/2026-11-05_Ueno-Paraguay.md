@@ -36,7 +36,7 @@
 | Non-disclosing bond holders | ~$332M | None visible | **UNKNOWN.** Insurers, hedge funds, offshore funds and banks do not file N-PORT |
 | Underwriters BofA, JPMorgan | Sold the deal; any retained position unknown | Cleary | Distribution, not a shown exposure. Legal claims over the offering: none found |
 | OTP Bank (Hungary) | $47M, 9.99% of parent U Holdings | Ueno site | Against >$145B assets: immaterial. No OTP statement found |
-| Development and impact lenders | Finance in Motion, OeEB, DW Markets, Triodos, GAWA; ~$510M programme with the bond | La Nación, Ueno site | European; balances today unknown. No US name |
+| Development and impact lenders | Finance in Motion, OeEB, DW Markets, Triodos, GAWA; ~$510M programme with the bond | InfoNegocios, Ueno site | European; balances today unknown. No US name |
 | US banks: loans, correspondents | None named | SWIFT entry names none; SEC full-text search of 10-Q, 10-K, 8-K: 0 hits | Not found, not excluded |
 | Paraguay's banks | Rumoured app outages at Familiar, Continental, Atlas | ABC summary, unverified | **The real contagion test.** No withdrawal data found |
 | Sovereign | JPMorgan spread 119 → 138bp | Argentine press citing JPMorgan | "+16%" sounds large; it is 19bp. Modest |
