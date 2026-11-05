@@ -19,7 +19,7 @@ Certification stays owed for VIX, SKEW, HY, CCC, VIXCLS, WAL and KRE. HY 357 or 
 | RED-FT-01 / 12 | HY 332 [Nov 4]. Not <280 / <260. |
 | RED-FT-02 / REG-T-03 | HY 332, 340, 343 [Nov 4, 3, 2]; existing fire, no re-fire, exits 0/3 and 0/5. |
 | REG-T-04 | HY 332, strict >350 x3 at 0/3; 18 bp away, outside the 5% band by a hair (332.5). |
-| RED-FT-03 / 04, boundaries 1, 2 | BZF27 vendor 99.25 (+4.89%), day-labelled, not a settle; no count. |
+| RED-FT-03 / 04, boundaries 1, 2 | BZF27 vendor 99.25 (+4.89%) is an evening-session bar per BRENT, not a settle; wire settle $98.29 [EST, BRENT, card 065]; no count. |
 | RED-FT-05 / REG-T-05 | ICSA 189,000 [w/e Oct 31]. FRED prior week now 195,000, revised from 194,000. |
 | RED-FT-06 | VIXCLS 16.61 [Nov 4], exit 0/5. Nov 5 vendor 28.18 would be 1/5 on RED's grade once VIXCLS posts. |
 | RED-FT-07 | CCC 1,297 [Nov 4]; existing state, exit not met. |
@@ -37,7 +37,7 @@ Certification stays owed for VIX, SKEW, HY, CCC, VIXCLS, WAL and KRE. HY 357 or 
 | HANS-T-05, 06, 07, 09, 10, 13 | NOT RE-READ. TradingEconomics pages returned no parseable level from this laptop. Carried from the morning scan: Bund 3.26, gilts 5.15 / 5.59, TTF about €85, OAT 4.74, BTP 4.34 [Nov 5 intraday]. |
 | HANS-T-01..04, 12, 14..17 | No new owner print; T-12 uninstrumented, no clean-board credit; T-14 and T-15 not re-swept. |
 
-Boundaries: 3 Cushing 27.250M [w/e Oct 30], not <20M. 4, 5 UNINSTRUMENTED. 6 no spike readable, no settle. 7 retired. 8 January vendor about $36.97 on legs rounded to 2 dp (RB 2.74, HO 4.25, BZ 99.25), not a settle, counts nothing.
+Boundaries: 3 Cushing 27.250M [w/e Oct 30], not <20M. 4, 5 UNINSTRUMENTED. 6 no spike readable, no settle. 7 retired. 8 January about $37 (BRENT window $37.15 [EST]), not an exchange settle, counts nothing.
 
 Safety net: VIX not >30 on vendor close. Bid-ask and correlation legs not run. HY single session unavailable.
 
