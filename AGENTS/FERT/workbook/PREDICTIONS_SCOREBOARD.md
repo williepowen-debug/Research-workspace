@@ -1,6 +1,6 @@
 # FERT — Predictions scoreboard
 
-**LIVE — created 2026-10-28** (Will-approved; peer-comparison gap 3; model = LABOR `workbook/PREDICTIONS_SCOREBOARD.md`). **Last real data refresh: 2026-10-28** (FERT-13 registered OPEN).
+**LIVE — created 2026-10-28** (Will-approved; peer-comparison gap 3; model = LABOR `workbook/PREDICTIONS_SCOREBOARD.md`). **Last real data refresh: 2026-11-05** (FERT-14..17 registered OPEN).
 **Source of truth:** `workbook/PREDICTIONS.tsv` (the ledger; every grading basis and post-mortem lives on its row). This file **aggregates and indexes**; it never restates a row's letter.
 **When to touch it:** before writing a new prediction (run §C), and when a prediction resolves (add it to §A, recompute §B).
 
@@ -36,6 +36,10 @@ Tally (first status token): **4 HIT · 4 MISS · 2 VOID** of 10. FERT-07 counted
 | FERT-11 | 2026-09-05 | 72% | 2026-10-09 | HIT (2026-10-07) | 1 | 0.078 |
 | FERT-12 | 2026-09-05 | 78% | 2026-12-02 | MISS (2026-10-14) | 0 | 0.608 |
 | FERT-13 | 2026-10-28 | 55% | 2026-12-31 | **OPEN** | — | — |
+| FERT-14 | 2026-11-05 | 58% | 2026-12-15 | **OPEN** | — | — |
+| FERT-15 | 2026-11-05 | 42% | 2027-01-08 | **OPEN** | — | — |
+| FERT-16 | 2026-11-05 | 40% | 2026-12-31 | **OPEN** | — | — |
+| FERT-17 | 2026-11-05 | 40% | 2027-02-15 | **OPEN** | — | — |
 
 ## §B — Calibration read
 

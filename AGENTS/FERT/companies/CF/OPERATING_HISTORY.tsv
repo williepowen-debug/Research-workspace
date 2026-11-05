@@ -1,4 +1,4 @@
-# Last real data refresh: 2026-10-26
+# Last real data refresh: 2026-11-05 (Q3 product rows from the 8-K exhibit; consolidated Q3 lines in KB-FERT-115)
 # Maintenance: DATA_ROUTES.md; source observation dates are row-specific.
 period	segment	metric	value	unit	state	published	source	locator	note
 2026-Q1	Consolidated	net_sales	1986.0	USD million	MEASURED	2026-05-06	cf_q1_2026.html	table[2]/row[4] Net sales	
@@ -321,3 +321,21 @@ period	segment	metric	value	unit	state	published	source	locator	note
 2026-H1	Other	realized_selling_price	299.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
 2025-H1	Other	realized_selling_price	259.0	USD/product short ton	MEASURED	2026-08-05	cf_q2_2026.html	table[7]/row[13] Average selling price per product ton	CF June 30 10-Q, Item 2 opening: tons are short tons. Product, not nutrient, weight; do not sum gross ammonia and upgraded-product output.
 2026-06-30	Consolidated	long_term_debt	3216.0	USD million	MEASURED	2026-08-05	cf_q2_2026.html	table[10]/row[34] Long-term debt	Point-in-time balance, not a period flow; cash includes consolidated JV cash.
+2026-Q3	Ammonia	net_sales	534.0	USD million	MEASURED	2026-11-04	cf_q3_2026_ex991	Ammonia segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2026-Q3	Ammonia	sales_volume	1003.0	thousand product short tons	MEASURED	2026-11-04	cf_q3_2026_ex991	Ammonia segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2026-Q3	Ammonia	realized_selling_price	532.0	USD/product short ton	MEASURED	2026-11-04	cf_q3_2026_ex991	Ammonia segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	Ammonia	net_sales	457.0	USD million	MEASURED	2026-11-04	cf_q3_2026_ex991	Ammonia segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	Ammonia	sales_volume	1092.0	thousand product short tons	MEASURED	2026-11-04	cf_q3_2026_ex991	Ammonia segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	Ammonia	realized_selling_price	418.0	USD/product short ton	MEASURED	2026-11-04	cf_q3_2026_ex991	Ammonia segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2026-Q3	Granular urea	net_sales	456.0	USD million	MEASURED	2026-11-04	cf_q3_2026_ex991	Granular urea segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2026-Q3	Granular urea	sales_volume	1079.0	thousand product short tons	MEASURED	2026-11-04	cf_q3_2026_ex991	Granular urea segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2026-Q3	Granular urea	realized_selling_price	423.0	USD/product short ton	MEASURED	2026-11-04	cf_q3_2026_ex991	Granular urea segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	Granular urea	net_sales	423.0	USD million	MEASURED	2026-11-04	cf_q3_2026_ex991	Granular urea segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	Granular urea	sales_volume	939.0	thousand product short tons	MEASURED	2026-11-04	cf_q3_2026_ex991	Granular urea segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	Granular urea	realized_selling_price	450.0	USD/product short ton	MEASURED	2026-11-04	cf_q3_2026_ex991	Granular urea segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2026-Q3	UAN	net_sales	639.0	USD million	MEASURED	2026-11-04	cf_q3_2026_ex991	UAN segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2026-Q3	UAN	sales_volume	1987.0	thousand product short tons	MEASURED	2026-11-04	cf_q3_2026_ex991	UAN segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2026-Q3	UAN	realized_selling_price	322.0	USD/product short ton	MEASURED	2026-11-04	cf_q3_2026_ex991	UAN segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	UAN	net_sales	517.0	USD million	MEASURED	2026-11-04	cf_q3_2026_ex991	UAN segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	UAN	sales_volume	1564.0	thousand product short tons	MEASURED	2026-11-04	cf_q3_2026_ex991	UAN segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake
+2025-Q3	UAN	realized_selling_price	331.0	USD/product short ton	MEASURED	2026-11-04	cf_q3_2026_ex991	UAN segment table, 8-K Ex. 99.1 2026-11-04	Added at the D:L578 wake

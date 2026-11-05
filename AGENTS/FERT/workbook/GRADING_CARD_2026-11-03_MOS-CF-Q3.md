@@ -49,18 +49,21 @@ A score move needs the condition **as written**. A condition that is close but n
 
 | # | Stage 1 (release) | Stage 2 (call) | Consequence applied |
 |---|---|---|---|
-| M1 | | | |
-| M2 | | | |
-| M3 | | | |
-| M4 | | | |
-| M5 | | | |
-| M6 | | | |
-| C1 | | | |
-| C2 | | | |
-| C3 | | | |
-| C4 | | | |
-| V2 / V1 / V8 verdicts | | | |
+| M1 | **$615/long ton** Q4 contract with US Gulf refiners; Q3 realized **$715/long ton** [8-K 11/03] | Q4 realized in cost of goods sold guided **$800–850/ton**; contract below spot [transcript, MIRROR] | VX-FERT-09 value 615. Not ≥$705, not ≤$605 |
+| M2 | "South Fort Meade and Miski Mayo **mines**", additional curtailments, costs rise in Q4 [8-K]. Capacity, start, duration NOT STATED | "idled mining at South Fort Meade and Miski Mayo" to avoid rock inventory build; capacity NOT STATED | SUPPLY_EVENTS MOS-SFM new vintage, asset = mine, PRIMARY |
+| M3 | Sales Q3 1.4 Mt, Q2 1.4 Mt; production 1,289 kt vs Q2 1,433 kt. Q4 **sales** guide 1.3–1.6 Mt; Q4 **production** guide NOT STATED | Same guide; Q4 availability sold out; Florida operating rate low- to mid-60% | Production guide absent, so up-leg (a) second limb and down-leg restart limb both unmet |
+| M4 | DAP FOB plant **$838/tonne** Q3, **$773** Q2; Q4 guide $820–840/tonne [Mosaic producer benchmark] | Same | KB-FERT-121 |
+| M5 | Louisiana idled, Miski Mayo curtailed, Cajati DCP running, Araxá sale process; no restart | Bartow, Louisiana, Brazil curtailed; New Wales and Riverview production improving; no restart date | KB-FERT-121/122; no restart |
+| M6 | "Phosphate markets remain tight with improving demand and lingering supply disruptions." | Fall North American demand "much stronger than many of us anticipated" | Context only |
+| C1 | "2-4 million metric tons higher than in 2025" [8-K 11/04]. Level implied about 6.9–8.9 Mt | "export authorizations now total almost nine million tons"; last year "just a little under five" (Frost); some may slip into early 2027 (Bohn) [transcript, MIRROR] | **Raised above 6 Mt: V1 → 1** |
+| C2 | "resume operations during the first half of 2027" [8-K] | Ramp begins toward the end of H1 2027, AN production in H2 2027 (Bohn) | SUPPLY_EVENTS CF-YAZOO new row |
+| C3 | **RETAINED:** "global nitrogen supply-demand balance to remain constructive"; title "Constructive into 2027" | "constructive into 2027"; "positive trajectory in at least the first half of 2027 for nitrogen pricing" (Frost) | KB-FERT-115; T7 consumed |
+| C4 | $/product short ton Q3 vs Q2: ammonia $532 vs $677; granular urea $423 vs $593; UAN $322 vs $441. Producer realized, not NOLA, not DTN | UAN Q3 average $322; fill program started $280–290 | KB-FERT-115 |
+| V2 / V1 / V8 verdicts | V2 **HELD 3**: sulfur $615 sits between $605 and $705, no production guide, no restart. V1 condition met. V8 level clears 25% but filed text says "reportedly" | V1 **2 → 1**. V8 **HELD 2**, NOT MET AS WRITTEN; see addendum | Convergence 16 → **15** |
 
 ## Addenda (dated, append-only)
 
-*(none)*
+**2026-11-05, filled 2026-11-05 18:34 ET (D:L578 wake).** Sources: CF 8-K Ex. 99.1 and Mosaic 8-K Ex. 99.1 read at EDGAR; call stages read from Motley Fool transcripts (MIRROR, machine-quality in places); the calls were not heard.
+
+- **C1 pin, form of the figure.** CF stated a delta to 2025, not a level. The level is FERT arithmetic: CF's "just a little under five" plus 2–4 Mt, about 6.9–8.9 Mt. Every point of that range is above 6 Mt, so the condition is met on any reading of the delta. Separately, "almost nine" is authorizations, and CF itself doubts all of it ships in 2026.
+- **V8 pin, "from its own data".** The pin was ambiguous. The filed release says "reportedly"; Frost says "our estimates of 35%" on the call. Stage 2 does not overwrite Stage 1, and no CF data or source footnote was read (the slide deck could not be reached), so the condition is recorded NOT MET and V8 holds at 2. It flips only if the deck's source line shows CF's own count.

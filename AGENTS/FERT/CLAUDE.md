@@ -32,6 +32,7 @@
    **FERT extension (deliberate, wider than the template):** this desk logs **one row per item consumed from EVERY sender**, not just the WALTER lane — root-level packets get `source=INBOX_ROOT`. Rationale: the drain that matters here is the whole inbox (a 16-day dark gap left 5 root packets and 1 WALTER signal), and a log that can only see one lane cannot show a reviewer what was left unread.
 4. Read `STATUS.md`. *(The `FROZEN 2026-03-20` first-live-session trigger was spent 2026-08-17 — STATUS is live. Its own banner remains the authority on whether it is live.)*
 5. Execute the task. Write results back (STATUS + workbook). Update BOTTOM LINE.
+5b. **Combination watch (Will 2026-11-05 15:22 ET, WQ-622 A, class C4, guide `PROME/COMBINATION_WATCH.md`):** in the session a print, card or news item arrives, add the sub-threshold item and its counterevidence to its `combo:<theme>` row in `workbook/KB.tsv` (first token in Notes; Stale_By is the review date). Logging is not scoring: a theme moves no score, vector, band, trigger or gate, and potash stays at triage depth.
 6. Closeout per root `CLAUDE.md` §Git Protocol (commit own pathspec, orphan check, auto-push) — run `closeout_check.py` between commit and push (§GIT).
 
 ---

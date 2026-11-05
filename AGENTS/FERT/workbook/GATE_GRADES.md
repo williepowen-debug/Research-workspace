@@ -1,6 +1,6 @@
 # FERT — Registered gate grade history
 
-**LIVE — Last real data refresh: 2026-10-28** (G5 October 28 DTN grade recorded below; G3 last formal re-read October 14, AFC w/e 23.10 side read 10/28 moves no leg). **Hygiene: 2026-10-28.**
+**LIVE — Last real data refresh: 2026-11-05** (G5 November 4 DTN grade and G3 7th re-read recorded below). **Hygiene: 2026-11-05.**
 **Split out of `STATUS.md` 2026-09-15** (read-cap remedy, hot/cold split). STATUS carries the **current** grade and the rate; this file carries the **print-by-print history**. GATE letters are never restated here. **Letter homes:** `GATE-FERT-G5` → `workbook/TRIGGERS.tsv` row **T4** (`Why_It_Wakes_You` cell, encoded 2026-10-09 verbatim from the GATES cell — closes the circular pointer DAEDALUS Gate-Basis #2 ② found; PROME re-points the GATES cell); `GATE-FERT-G3` → `PROME/GATES.tsv` (unchanged).
 
 ## GATE-FERT-G5 — DTN retail DAP **or** MAP > $1,000/ton ($/ton, DTN Progressive Farmer weekly)
@@ -27,6 +27,7 @@
 | **10/14/26** | **Oct 5–9** | **$934** | **$979** | **MAP** | **$21 · +2.15%** | **NOT FIRED** (9 of 9 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-14 23:46 ET (`KB-FERT-069`); strictly-greater, whole-dollar, US national average as printed. ⚠️ Same print resolves **FERT-12 MISS** ($979 > $975) |
 | **10/21/26** | **Oct 12–16** | **$937** | **$981** | **MAP** | **$19 · +1.94%** | **NOT FIRED** (10 of 10 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-21 08:56 ET (`KB-FERT-079`); strictly-greater, whole-dollar, US national average as printed. 11-print pace MAP ~+0.99%/mo → ~1.9 months to the line |
 | **10/28/26** | **Oct 19–23** | **$939** | **$983** | **MAP** | **$17 · +1.73%** | **NOT FIRED** (11 of 11 graded) — PRIMARY, first-party curl at dtnpf.com 2026-10-28 22:17 ET (JSON-LD datePublished 2026-10-28T09:50Z; `KB-FERT-097`); strictly-greater, whole-dollar, US national average as printed. 12-print pace MAP ~+0.98%/mo → ~1.75 months to the line |
+| **11/4/26** | **Oct 26–30** | **$941** | **$987** | **MAP** | **$13 · +1.32%** | **NOT FIRED** (12 of 12 graded) — PRIMARY, first-party curl at dtnpf.com 2026-11-05 (datePublished 2026-11-04T10:50Z; `KB-FERT-113`); graded one day past review_by 11/04; strictly-greater, whole-dollar, US national average as printed. 13-print pace MAP ~+1.04%/mo → first firing print ≈ 12/16 at the mean step ($2.33/wk), 11/25 at the fastest step seen ($5/wk) |
 
 🔑 **The APPROACH RATE is the finding, and it is stated here as a rate — a gate row shows distance, never rate.**
 
@@ -116,4 +117,8 @@ Letter home = `PROME/GATES.tsv` condition cell (definition surface `KB.tsv`, the
 
 **Review-date check 2026-10-15 08:05 ET** (crash-recovery spawn; GATES review_by 10/15): Google News RSS sweep ("China urea export", 3 days) carried no quota, floor or halt item, and the Profercy free nitrogen index's newest item is still 10/06; no new evidence on either leg. Grade unchanged: **NOT FIRED** both legs, basis the 6th re-read (2026-10-14 23:57 ET, `KB-FERT-072`). A news check only — the MOFCOM page and AFC weekly were not re-read.
 
-**Next re-read: 2026-11-05** (T10; CF Q3 call = DOCKET L578 — CF commentary is a named G3 instrument).
+**7th re-read — 2026-11-05 (T10, D:L578, on the consumer date): NOT FIRED both legs.** Leg 1: no downward revision found; CF says export authorizations rose to "almost nine million tons" [call 11/05, MIRROR] and exports run 2–4 Mt above 2025 [8-K 11/04]. Leg 2: no floor reimposition found; China prilled $345–350/mt FOB netback [AFC w/e 30.10]. `KB-FERT-116`, `KB-FERT-118`. Absence rests on free sources; official export notices were not reached.
+
+✅ **3.3 Mt basis flag CLOSED at primary 2026-11-05:** MOFCOM Announcement 2025 No. 66 sets the 2026 fertilizer **import** tariff-rate quota, urea 3.3 Mt (`KB-FERT-117`). No grade moves. Consequence for the letter: leg 1 has no published national referent, so a down-revision can only be read from enterprise-round reporting. The GATES cell text stays Will-gated; PROME slates the WQ.
+
+**Next re-read: 2026-12-03** (T10), or at the first dated Chinese export notice.
