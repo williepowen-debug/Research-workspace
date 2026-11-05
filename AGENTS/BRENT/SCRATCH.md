@@ -1,37 +1,38 @@
-# BRENT SCRATCH — November 5 closeout (session brent-0a, boot 2026-11-04 20:55 EST; closed for the machine switch to the desktop)
+# BRENT SCRATCH — November 5 evening closeout (PROME launch prome-96, WQ-623, bounded; 2026-11-05 18:37 EST)
 
 ## CHANGES SINCE LAST SESSION
-- Brent January $113.43 (10/30) → $94.62 (11/4); WTI December $104.12 → $88.12 [DTN and CNBC, secondary]. Reported cause is the midterms and deal hopes; none established. Vendor quote 13:35Z 11/5, advisory: Brent 96.96, WTI 89.49.
-- TERRY graded the held-VLO exit on November 2, $89.2472 against $90.16 (2b83f853b7). FALCON: FAL-07 CONFIRMED, census 7, production rung ARMED NOT FIRED (7de38487c7).
-- Monday 11/2 and Wednesday 11/4 routines failed on the usage limit: no output, no flag.
+- Brent January $94.62 (11/4) → $98.29 (11/5); WTI December $88.12 → $90.52 [EST, Reuters wire]. Reuters cites tanker attacks and caution on pricing a deal.
+- Will sold the original VLO share 11/5 at $366.665, −$45.33; HELD-01 discharged (TERRY, FORGE). FORGE reconciled to the 11/5 captures.
+- FALCON graded card 058: nothing fired, 1 / 14 / 85 held (2d1eed7d6). Thursday fallback wrote `demand_destruction/data/eia_2026-11-04.md`, so the hand WPSR record is not owed.
 
 ## WHAT I DID THIS SESSION
-- Boot; 32 mail items consumed with matching ledger rows, 14 of them deferred WALTER items.
-- November 2 settlement fallback, no CME read: `research/2026-11-04_evening-boot/SETTLEMENT_2026-11-02.md`. PROME memo with marks, flow basis and the BZF27 word; TERRY and FALCON packets.
-- TRADE from the 10/30 capture. STATUS, THESIS paragraph, CHANGELOG, TRACKER stamp, CATALYSTS, SCHEDULED_RUNS, NEXUS_BRIEF.
-- Graded the BZZ26 row: January legs verified, boundary #8 count 0 ($35.71–$39.09, vendor rows [EST]).
+- Boot, 16 inbox items consumed, 16 ledger rows, 16 moved. COR-20261105-62 receipted NO-OP.
+- Graded cards 058 and 056 and the two held Iran headlines at BRENT's letters: `research/2026-11-05_evening-rows/NOTE.md`. Nothing fired.
+- 11/5 marks, F-a window NOT MEASURABLE on a missing BZH27 leg, BRT-31 week four −0.4351%.
+- Registered BRT-32 to BRT-35. Set up six combination themes in `docket/CATALYSTS.tsv`, charter step 6e.
+- TRADE from FORGE 11/5; STATUS, TRADE and brief rotated. Packets to FALCON, WALTER, PROME.
 
-## NEXT SESSION (dated, future-verifiable) — desktop BRENT session
-1. **FIRST: Thursday 2026-11-05, 14:28–14:30 ET, M1−M3 window on BZF27−BZH27, handed to the desktop.** Pull both legs in the one-minute window, same capture; reject daily rows after 18:00 ET. Falsifier F-a is under +$3.50; 11/4 proxy +$4.50. Read the 9/2 registration in `thesis/CHANGELOG.md` before any grade. **Bars' roll-off:** vendor one-minute reach measured 8 days on 11/5 (an 8-day request returned 10/28), so 11/5 bars should remain through about Thursday 11/12. That is a measurement, not a vendor promise; a late read must re-check it. The November 2 SCRATCH's "roll off by 11/4" was too tight.
-2. BRT-31 week four exact grade: psw01 four-week YoY and GASREGW 11/2 price leg. Monitor reads −0.435% against −1.5%.
-3. Thursday 11/5 after 14:15 ET: check for `demand_destruction/data/thursday_*` and the week 10/30 TRACKER row. If absent, write the WPSR record by hand. Monday 11/2 is not recoverable.
-4. Friday 11/6: COT #13, as-of 11/3, `cot_grade.py --expect 2026-11-03`.
-5. Deferred WALTER items in `board_log.tsv`: gas shorts (1102-002), NYT aggregate (1102-006), Hormuz proposal (1102-011), Al Mayeda (1102-012), Qeshm (1104-002, 019), IEA winter scenario (013), YANOS (014), CVR (015), Russian gas (030), Aramco 15% claim (031), HPCL (032), UKMTO 188 (048), energy leads incl. Dubai contango (059). FALCON's 11/4 grade supplies the input for 1104-002, 019, 048 and 1102-012.
-6. Ungraded CATALYSTS rows: Sinokor 11/1 and TD3C/TD34; MPC Q3 11/3; Aramco run-state 11/3; EIA week 10/30.
-7. Tuesday 11/10: November STEO, COPS_OPEC re-pull for the 11/29 OPEC+ letter.
-8. Housekeeping: KILL-LEG2-JWC IUA re-fetch; USO/observations.tsv freeze or refresh; RF-013 Ufa re-key; COT_VINTAGES two-clock header.
+## NEXT SESSION (dated, future-verifiable)
+1. Friday 11/6 after 15:30 ET: COT #13, as-of 11/3, `cot_grade.py --expect 2026-11-03`. Baker Hughes record only.
+2. **Every session through 11/27, BRT-33:** pull BZF27 and BZH27 14:28–14:30 ET bars and save them. Vendor reach is about 8 days, so a gap past that loses the observation. A session with a missing leg is no observation. On 11/6 re-check whether the 11/5 miss repeats.
+3. Monday 11/9: first BRT-35 print. Tuesday 11/10: November STEO, COPS_OPEC re-pull for the 11/29 letter.
+4. Thursday 11/12: WPSR week 11/6, BRT-31 week five, first BRT-34 print. Review the five themes dated 11/12 in `docket/CATALYSTS.tsv`.
+5. Any session: a dated Kpler or Vortexa November Yanbu or Saudi print goes to FALCON (route (c)) and to the themes.
+6. Ungraded CATALYSTS rows: Sinokor 11/1 and TD3C/TD34; MPC Q3 11/3; Aramco run-state 11/3.
+7. Deferred WALTER items in `board_log.tsv`, not worked this session: gas shorts (1102-002), NYT aggregate (1102-006), Hormuz proposal (1102-011), Al Mayeda (1102-012), Qeshm (1104-002, 019), IEA winter scenario (013), YANOS (014), CVR (015), Russian gas (030), Aramco 15% claim (031), HPCL (032), UKMTO 188 (048), energy leads (059). Themes already draw on 014 and 059 at headline level.
+8. Housekeeping: KILL-LEG2-JWC IUA re-fetch, stamp 15d against 9d budget; USO/observations.tsv freeze or refresh; RF-013 Ufa re-key; COT_VINTAGES two-clock header; TRADE and STATUS still rotate-tier, about 5,100 B and 6,400 B above the 22,785 B stop.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Held VLO: TERRY's sell recommendation stands on source (2); a CME settle at or above $90.16 reverses it. WQ-386 review is due November 18 unless a sale resolves it.
-- 🟠 M1−M3 narrowed about $0.65 a day to 11/4. Vendor 11/5 intraday was wider, about +$4.97, not a window reading.
-- 🟠 Hormuz flow UNRESOLVED; "near pre-war" rejected. Sentinel ⑤ applies to every talks headline.
-- 🟠 Vendor 11/4 daily rows repeat 11/3 volume: rejected. Re-check before using any fresh daily row.
-- 🟡 Dashboard re-pin to BZF27.NYM is PROME's; BRENT's word is given. `fetch.py` withheld all six named futures on 11/4; PROME recorded an independent read NOT ACCEPTED 11/4 on L920, so verify the tool before relying on it.
+- 🟠 Yanbu flow is NOT MEASURABLE: no November print, PortWatch blind, KB-168 proxy unbuilt at FALCON. "No halt reported" is coverage. Known-unknown that gates any Saudi read.
+- 🟠 Hormuz and Gulf flow UNRESOLVED. Bloomberg's +10% in October and Reuters' October dip disagree in direction; perimeters differ.
+- 🟠 M1−M3 narrowing reversed on 11/5; one session, not a trend.
+- 🟠 TANKER-LIVENESS read DEAD at boot only because quotes were after hours; stamp 92d against 4d. Nothing armed; re-probe in market hours.
+- 🟡 Dashboard re-pin to BZF27.NYM and L925 `fetch.py` bare roots are PROME's, fix due 11/09. Named contract codes worked tonight.
 - 🟡 Thursday routine still has six account connectors attached; removal is a Will UI action.
 
 ## POSITION DECISIONS PENDING
-- None from BRENT. Held-VLO order is Will's under the approved rule. USO Oct30 $165C outcome is booked from his next capture; no reminders (USER.md).
+- None from BRENT. USO Oct-28 and Oct-30 165C outcomes stay UNKNOWN pending Will's Activity (FORGE D-90); no reminders (USER.md).
 
 ## MAIL STATE
-- Inbox: clear; WALTER lane clear as of 08:4x EST 11/5. 32 consumed, 32 ledger rows, 32 moved.
-- Outbox: no open packet. FORGE D-90 reconcile ask is at PROME.
+- Inbox clear; WALTER lane clear. 16 consumed, 16 ledger rows, 16 moved.
+- Outbox: no open packet.

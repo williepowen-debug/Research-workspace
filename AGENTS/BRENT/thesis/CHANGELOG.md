@@ -1,3 +1,7 @@
+## 2026-11-05 evening — Yanbu and Qatar graded, BRT-32 to BRT-35 registered; v5.13 unchanged
+
+Old: BRT-31 three weeks evaluated; F-a read owed; four-week M1−M3 narrowing about $0.65 a day; no BRENT grade on cards 058 and 056. New: BRT-31 week four −0.4351% NON-QUALIFYING, OPEN 40%. F-a window NOT MEASURABLE on a missing BZH27 leg, not crossed on same-minute pairs, spread widened about $1.6 on November 5. Card 058 BG-02 NOT MET, Yanbu flow NOT MEASURABLE. Card 056 signature leg NOT MET. BRT-32 (20%), BRT-33 (20%), BRT-34 (45%), BRT-35 (70%) registered before any result under WQ-596 and L930. Six combination themes in `docket/CATALYSTS.tsv` (WQ-622 A). THESIS test-state sentence updated; no version, probability, threshold or capital change. Evidence: `research/2026-11-05_evening-rows/NOTE.md`, `thesis/prediction_notes/2026-11-05_registration.md`.
+
 ## 2026-11-05 — November 4 repricing; F-a not crossed; v5.13 unchanged
 
 Old: assessment dated October 28; December crack last published $93.06 estimate; flow UNRESOLVED. New: assessment re-dated November 4 with Brent January $94.62, TERRY's leg-A exit on November 2 $89.2472, EIA week 10/30 from the API, FAL-07 CONFIRMED and M1−M3 +$4.50 window proxy. Flow stays UNRESOLVED; "near pre-war" rejected. No version, probability, threshold or capital change. BRT-31 week four exact grade owed. Evidence: `PROME/inbox/2026-11-04_from-BRENT_settlement-marks-flow-and-BZF27-word.md`.

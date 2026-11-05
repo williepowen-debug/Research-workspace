@@ -1,12 +1,10 @@
 # BRENT STATUS
 
+**November 5 evening session (2026-11-05 18:37 EST, PROME launch prome-96, WQ-623, bounded), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; nothing armed; no trade, card, gate, band or threshold moved. **Settles [EST, Reuters wire, CNBC; no exchange page read]:** 11/5 BZF27 $98.29 (+3.88%), CLZ26 $90.52 (+2.72%); vendor window proxies 98.2847 and 90.5298 match within 1 cent. PROME's $99.25 was an evening bar. **F-a:** 14:28–14:30 window NOT MEASURABLE, BZH27 printed no bars; same-minute M1−M3 +$6.10 at 14:24, +$6.33 at 14:35, day low +$4.42, so not crossed; the narrowing reversed. **Boundary #8:** $37.15 window [EST], count 0. **December crack:** $92.18 window, record only. **Held VLO DISCHARGED:** Will sold the original share 11/5 at $366.665, −$45.33 → [TRADE](TRADE.md). **Yanbu card 058:** BG-02 NOT MET, no INCIDENTS row, flow NOT MEASURABLE: no November print exists at sources reached; about 2.5 mb/d exposed on October Vortexa [secondary]. **Qatar proposal 056:** signature leg NOT MET; one anonymous official; item postdates the settle. **Held headlines:** the "opens Hormuz" story is one lawmaker's 11/3 claim, four flags, no ship; Lloyd's is VELOS SAPPHIRE, card 007. **BRT-31 week four:** −0.4351% NON-QUALIFYING, OPEN 40%. **Registered:** BRT-32 to BRT-35. **Combination themes:** six, in `docket/CATALYSTS.tsv` because KB.tsv is frozen. **Boot findings carried:** KILL-LEG2-JWC stamp 15d against 9d, TANKER-LIVENESS read after hours, both with nothing armed. → [Note](research/2026-11-05_evening-rows/NOTE.md).
+
 **November 4–5 session (boot 20:55 EST 11/4, closeout 2026-11-05 08:47 EST, Will-directed; closed for the machine switch), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; nothing armed. **Held VLO:** TERRY graded leg A EXIT ESTABLISHED on November 2 $89.2472, which discharges the October 29–30 items owed in the November 2 block; CME FINAL unread → [TRADE](TRADE.md), [settlement fallback](research/2026-11-04_evening-boot/SETTLEMENT_2026-11-02.md). **Settles [EST, secondary, DTN and CNBC]:** 11/4 BZF27 $94.62 (−8.67%), CLZ26 $88.12 (−8.29%); HOZ26 $4.2055 is not labelled a settle. Vendor quote 13:35Z 11/5, continuous, advisory: Brent 96.96, WTI 89.49. **F-a:** M1−M3 (BZF27−BZH27) window proxy +$5.79, +$5.10, +$4.50 on 11/2–11/4, not under +$3.50. **Boundary #8:** January legs identity-verified; 3:2:1 $35.71–$39.09 on 11/2–11/4 vendor rows [EST], below $50, count 0. **EIA week 10/30 [CONF API]:** crude 409.760M (−0.865), distillate 99.259M (−3.565), Cushing 27.250M (+0.280), SPR 282.184M, utilization 94.5%; no line crossed. BRT-31 week four exact grade owed. **FALCON 11/4:** FAL-07 CONFIRMED on Qeshm, census 7, no production-rung fire. **Flow:** still UNRESOLVED; "near pre-war" rejected. Fade <$78 NOT MET. **Routines:** Monday 11/2 and Wednesday 11/4 both failed on the usage limit → [SCHEDULED_RUNS](SCHEDULED_RUNS.md).
 
-**November 2 session (09:12–09:4x EST, Will-directed boot + file update), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; no level re-verified at a primary. **Routines fixed:** PROME installed the WQ-543 text and the EST crons 11/2 02:28–02:30Z on Will's word (WQ-585 A); validation run PASS → [receipt](../../PROME/reports/2026-11-01_wq543-routine-install-receipt.md), [SCHEDULED_RUNS](SCHEDULED_RUNS.md). **Tape [EST, vendor quote 14:02Z, not settlement]:** WTI CL=F 97.68 (−6.19%; ties to CLZ26 104.12 prelim 10/30, so same contract) · Brent BZ=F 106.61 (−6.01%; BZ=F = BZF27 after the 10/30 BZZ26 expiry, prior-close contract identity NOT verified, LESSONS #23). Cause: Iran–Qatar ceasefire-talk momentum per secondary aggregators only, no primary read. **COT #12 (as-of 10/27): JOINT NOT-SPENT, 6th consecutive** (Friday routine 10/30, [ledger](workbook/COT_VINTAGES.tsv)). Three October 31 corrections receipted (boot 6d). **Owed before ~11/4:** October 29 held-VLO settlement-window reading and October 30 CME FINAL (replaces $92.28 prelim) → [SCRATCH](SCRATCH.md).
-
-**November 1 session (21:11–21:2x EST, PROME spawn), SCOPED-PARTIAL:** v5.13 / WAIT unchanged; no level re-verified except below. **OPEC+ seven: OUTCOME (1) DECEMBER HELD** (third consecutive hold; Secretariat statement 11/1, table identical, 31,010 kb/d; EIA OPEC spare 0.02 mb/d through December at the 10/6 vintage) → [grade](research/2026-11-01_opec-december-grade/NOTE.md). **Russia diesel ban EXTENDED to 31.01.2027** (№1436, YURI primary); Novak's November plan 2.15 Mt is a plan, not loadings. Held-VLO December crack **$92.28 on October 30** [CME PRELIMINARY via WALTER; final owed] — above $90.16, below $95; TERRY grades. Routine crons and WQ-543 text were not installed by this session (no RemoteTrigger); PROME installed both later that night (see November 2).
-
-**October 29 session (13:27–13:5x ET), SCOPED-PARTIAL:** v5.13 / WAIT unchanged. **WQ-533 ruled by Will 13:33 ET** (resolver abandoned; sources 2/3 accepted with a near-line exception; `xlrd` pinned; connectors his hands) → [RULINGS](RULINGS.md). 🟠 **Held-VLO December crack traded below $90.16 intraday** (vendor 1-min low 88.6034 at 11:09 ET; 91.1424 at 13:34 ET) — NOT an observation; the 14:28–14:30 window reading is owed to TERRY. Vendor intraday [EST] about 13:44 ET: BZZ26 114.94, BZF27 110.83, BZZ27 88.16 (10/28 bar), CLZ26 102.18. Khasab fire = dhow MSV QUBA (FALCON), not a tanker; IRGC mine claim CLAIM-ONLY. NOT-FIRED trade ideas → [TRADE](TRADE.md). Fixes: GASREGW EIA fallback, EIA gasoline-label parse, five INCIDENTS rows re-verified (notes only).
+**Rotated 2026-11-05:** November 2, November 1 and October 29 session blocks and the October 28 summary → [archive](archive/STATUS_dated_2026-11-05_rotation.md), 3551 B crc32 `ee5efd81`.
 
 **Rotated 2026-11-02:** October 28 judgment, the held-VLO October 27–28 $95-notice observations, October 26–28 settlements and the October 28 routine-install paragraph → [archive](archive/STATUS_dated_2026-11-02_rotation.md), 1990 B crc32 `3bea9eb6`.
 
@@ -97,23 +95,33 @@
 | **Mon Nov 2** | ✅ YUR-005 — GRADED HIT by YURI 2026-10-31: extended by Resolution №1436 to 31.01.2027 (BRENT consequence read on the 10/31 row) | 🟠 |
 | **Tue Nov 3** | MPC Q3 2026 RESULTS — L689 conditional refiner candidate | 🟠 |
 | **~Tue Nov 3** ⌁*modeled* | ARAMCO Q3 2026 RESULTS and US MIDTERM ELECTION | 🟠 |
-| **Wed Nov 4** | EIA WPSR — week ending 10/30: core values recorded via API; BRT-31 week four exact grade owed | 🟠 |
-| **Thu Nov 5** | BRENT M1−M3 SETTLEMENT WINDOW — F-a read on BZF27−BZH27, 14:28–14:30 ET | 🟠 |
+| **Wed Nov 4** | ✅ EIA WPSR — week ending 10/30 GRADED 2026-11-05: BRT-31 week four −0.4351%, NON-QUALIFYING | 🟠 |
+| **Thu Nov 5** | ✅ BRENT M1−M3 SETTLEMENT WINDOW — GRADED 2026-11-05: window NOT MEASURABLE (BZH27 no bars), F-a not crossed | 🟠 |
 | **Fri Nov 6** | CFTC COT #13 — as-of 11/3, release ~15:30 ET | 🟠 |
 | **Tue Nov 10** | EIA NOVEMBER STEO — COPS_OPEC re-pull for the 11/29 OPEC+ letter | 🟡 |
 | **Thu Nov 12** | EIA WPSR — week ending 11/6, Veterans Day shifted release, Thursday | 🟠 |
+| **Thu Nov 12** | COMBO WATCH yanbu-bypass — is the Red Sea bypass at risk of a real loading loss? | 🟡 |
+| **Thu Nov 12** | COMBO WATCH gulf-flow-basis — do the tracker reads converge on one Gulf export figure? | 🟡 |
+| **Thu Nov 12** | COMBO WATCH diesel-buffer — is the world diesel buffer thinner than the US stock print shows? | 🟡 |
+| **Thu Nov 12** | COMBO WATCH paper-physical-gap — is the paper curve pricing a surplus the physical market does not show? | 🟡 |
+| **Thu Nov 12** | COMBO WATCH gulf-access-cost — is the attack pace turning into route exits or cost? | 🟡 |
 | **Fri Nov 13** | NORTHEAST HOME HEATING OIL RESERVE — up to 315,000 bbl exchange deliveries due complete | 🟠 |
-| **Wed Nov 18** | WQ-386 HELD VLO — review next crack basis | 🟠 |
-| **Thu Nov 19** | WQ-386 HELD VLO — last authorized December leg-A observation | 🟠 |
+| **Wed Nov 18** | ✅ WQ-386 HELD VLO — DISCHARGED 2026-11-05: original share sold, no basis review needed | 🟠 |
+| **Thu Nov 19** | ✅ WQ-386 HELD VLO — DISCHARGED 2026-11-05: no further leg-A observations owed | 🟠 |
 | **~Fri Nov 20** ⌁*modeled* | CHINA GAC OCTOBER PRODUCT EXPORTS — physical sizing of the October quota (successor to the 10/08 halt row) | 🟡 |
+| **Fri Nov 27** | BRT-33 — last session of M1−M3 BZF27−BZH27 on the pinned pair | 🟠 |
 | **Sun Nov 29** | OPEC+ 69th JMMC — monitoring committee (watch for an ONOMM call / 2027-baseline language) | 🟡 |
 | **Sun Nov 29** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the January 2027 production decision (successor to the 11/1 row) | 🟠 |
+| **Tue Dec 1** | COMBO WATCH us-fuel-policy — will Washington tax or restrict fuel? | 🟡 |
+| **Mon Dec 21** | BRT-35 — last GASREGW print in the window | 🟠 |
+| **Wed Dec 23** | BRT-34 — WPSR for data week 12/18, last window print | 🟠 |
+| **Thu Dec 31** | BRT-32 — Yanbu loading-halt window ends | 🟠 |
 | **Sun Jan 31 2027** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 | **Wed Apr 7 2027** | OFAC GENERAL LICENSE 135 EXPIRES — Russian-origin diesel (sale, delivery, offloading, importation incl. into the US) authorized through 12:01 a.m. EDT 4/7/2027 | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 45 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 7 of 55 rows are modeled.*
 
-*45 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*55 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED history:** canonical text remains in `docket/CATALYSTS.tsv`; it is not duplicated here.
@@ -122,9 +130,11 @@
 
 ## SUMMARY FOR WILL
 
+**November 5:** Brent rebounded 3.9% to $98.29 and WTI 2.7% to $90.52 as tanker attacks continued, by Reuters' account. The Yanbu scare was a warning and an interception, not a strike, and nothing fired at BRENT's lines. The caveat that matters: no November Yanbu loading figure exists at any source I reached, so "no halt reported" is coverage, not proof loadings ran normally. About 2.5 mb/d is exposed on October estimates. The Qatar proposal is one anonymous Iranian official with no text and no US answer. The original Valero share is sold. WAIT retained; no new Will decision from BRENT.
+
 **November 4:** Brent fell 8.7% to $94.62 and WTI 8.3% to $88.12, a paper repricing on reported midterm and deal hopes. No signed text, reopening or transit recovery is established, and stocks fell the same week. TERRY established the held-Valero exit on the November 2 reading ($89.25 against $90.16); CME was not read. WAIT retained; no new Will decision from BRENT.
 
-**October 28:** Crude dipped and recovered (Brent December $113.88 → $115.32), driven more by talk of US strikes after the midterms than by the unconfirmed Ras Tanura claim. The diesel crack that governs the held Valero share fell below the $95 notice level on October 27 and 28. That is a notice for TERRY to state, not a sell; the sell line is $90.16, still about $3 away. Refiners report record margins and no demand destruction; gasoline demand is flat on the BRT-31 test. Watch Iran's November 1 action against Sinokor, which carries about half of Hormuz supertanker traffic, and the November 1 OPEC+ meeting, expected to hold steady. Caveats that matter: the October 28 crack is an estimate (CME's site now blocks this machine), and both strike headlines (WSJ, Ras Tanura) are relayed, not primary. WAIT retained; no new Will decision from BRENT. [Report](research/2026-10-28_catchup/REPORT.md).
+October 28's summary is preserved in the [November 5 rotation](archive/STATUS_dated_2026-11-05_rotation.md), not carried as current.
 
 October 26's summary is preserved in the [rotation](archive/STATUS_dated_2026-10-28_rotation.md), not carried as current.
 

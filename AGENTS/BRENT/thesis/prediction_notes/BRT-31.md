@@ -13,7 +13,7 @@
 
 **Caveats recorded at the ruling (WQ-346 row):** ~6 surviving episodes, ±15 pts · CARL's unconditional 25–30% view is defensible · the 15% ordinary-times noise floor. DOCKET L537 carries the rider.
 
-**Grading log:** window weeks one to three evaluated (October 20, 21 and 28); overall row remains OPEN, not resolved.
+**Grading log:** window weeks one to four evaluated (October 20, 21, 28 and November 5); overall row remains OPEN, not resolved.
 
 ## October20 owner evaluation — data weekOctober9/releaseOctober15
 
@@ -26,3 +26,7 @@ Week two is NON-QUALIFYING. The exact four-week `WGFUPUS2` comparison is +1.4615
 ## October 28 owner evaluation — data week October 23 / release October 28
 
 Week three is NON-QUALIFYING. The exact four-week `WGFUPUS2` comparison is −0.6762200736648250% (8,629.25 vs 8,688.0 kb/d; current 8358, 8982, 8408, 8769; base 2025-10-24 8924, 10-17 8454, 10-10 8455, 10-03 8919). Qualifying streak 0. Price check 10/26 $4.269 vs 2025-10-27 $3.035 = +40.66%; below-20% counter 0 of 3 (EIA weekly retail, the letter's same-survey fallback). Release-day capture of first-published values; no revisions against the 10/21 capture. The Wednesday routine's "−0.679%" divided EIA's rounded 4-week averages (8,629/8,688); the letter's unrounded basis is −0.6762%. All three window prints so far are above −1.0%. Confidence 40% and overall OPEN unchanged; no terminal event. Contamination screening not re-run (it can only refuse NOT MET); the 10/20 bounded-review caveat stands. [Report](../../research/2026-10-28_eia-oct28/REPORT.md), [machine receipt](../../research/2026-10-28_eia-oct28/evaluation.json).
+
+## November 5 owner evaluation — data week October 30 / release November 4
+
+Week four is NON-QUALIFYING. The exact four-week `WGFUPUS2` comparison is −0.4350707350102234% (8,639.0 vs 8,676.75 kb/d; current 8808, 8358, 8982, 8408; base 8874, 8924, 8454, 8455). Qualifying streak 0. Price check 11/2 $4.153 vs 2025-11-03 $3.019 = +37.56%; below-20% counter 0 of 3 (EIA weekly retail, the letter's same-survey fallback). Read from the EIA API on November 5, not a release-day workbook; the three prior-week inputs match the October 28 capture. The Thursday fallback's −0.4380% used EIA's rounded pair, not the letter's arithmetic. Row OPEN at 40%, no terminal event. [Evidence](../../research/2026-11-05_evening-rows/NOTE.md).

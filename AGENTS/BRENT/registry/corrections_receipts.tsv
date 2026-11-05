@@ -26,3 +26,4 @@ receipt_date	correction_id	action	note
 2026-11-02T14:14Z	COR-20261031-01	APPLIED	artifact=AGENTS/BRENT/docket/CATALYSTS.tsv#2026-10-31 RUSSIA PRODUCER DIESEL EXPORT BAN GRADED EXTENDED to 31.01.2027; validation_ref=AGENTS/YURI/research/2026-10-31_L771_YUR-005_GRADE.md#YUR-005 grade; 
 2026-11-02T14:14Z	COR-20261031-22	NO-OP	scope=Checked TRACKER Line 7 (rig line retired 10/2) and SCHEDULED_RUNS (+50 from trough named retired). No live BRENT surface uses the 408/458 boundary. BRT-26 stays CLOSED CONFIRMED 9/25; 
 2026-11-02T14:14Z	COR-20261031-03	NO-OP	scope=INFO copy to BRENT. Recorded 11/1 in SCRATCH as corroborated with output loss unknown. No INCIDENTS row or capacity loss booked. Strike ledger is OSPREY's; 
+2026-11-05T23:36Z	COR-20261105-62	NO-OP	scope=BRENT holds no Abrigo or Sageworks figure and card 060's Abrigo item is outside the energy domain; 

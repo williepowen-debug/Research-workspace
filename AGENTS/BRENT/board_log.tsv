@@ -768,3 +768,19 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T21:11:32-05:00	2026-11-04_from-FALCON_weekly-grade-fal07-census-flow-basis	acted	INBOX	Fade <$78 NOT MET at BZF27 $94.62; flow basis UNRESOLVED; packet to FALCON 11/4. FAL-07 CONFIRMED, census 7, AL MAYEDA = 188-26, LARGO ATOM match: integrate at closeout.
 2026-11-05T08:48:08-05:00	2026-11-02_from-NEXUS_C35-existing-control-disposition	acted	INBOX	Disposition stated in NEXUS_BRIEF PortWatch row: UNRESOLVED; no later grade or permanent disposition at BRENT.
 2026-11-05T08:48:08-05:00	2026-11-04_from-PROME_stale-FALCON-citation-L891	acted	INBOX	NEXUS_BRIEF VI-2026-0028 row corrected against FALCON board_log 9/10 and DAEDALUS 10/30 review; no casualty, gate or thesis change.
+2026-11-05T18:35:51-05:00	2026-11-05_from-AEOLUS_swiss-diesel-release-mixed-cause	noted	INBOX	combo:diesel-buffer. Swiss release mixed cause, not a low-water draw alone; Bottrop lead unverified. No domain figure changed.
+2026-11-05T18:35:51-05:00	2026-11-05_from-AEOLUS_vortex-12Z-sign-split	noted	INBOX	Superseded the same day by the ECMWF 12Z packet. Context for the winter gas read; no BRENT line.
+2026-11-05T18:35:51-05:00	2026-11-05_from-AEOLUS_vortex-ECMWF-12Z-below-zero	noted	INBOX	ECMWF 12Z -0.279 m/s, marginal, models disagree on sign, no surface cold shown. TERRY owns the UNG card. NOT-FIRED idea 3 at TRADE not re-priced.
+2026-11-05T18:35:51-05:00	2026-11-05_from-FALCON_yanbu-card058-loadings	acted	INBOX	Answered by packet: BRENT holds no November Yanbu or Saudi weekly print; route (c) stays ungraded. research/2026-11-05_evening-rows/NOTE.md.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-004	info-only	INBOX_WALTER	CF Q3: FERT owns.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-007	acted	INBOX_WALTER	Marks delivered: BZF27 98.29, CLZ26 90.52 [EST wire]. Hull named VELOS SAPPHIRE by FALCON; BG-02 NOT MET.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-008	info-only	INBOX_WALTER	TTF about 85 intraday, unnamed contract: HANS owns.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-018	info-only	INBOX_WALTER	Gulf urea half out, management estimates: FERT owns.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-019	noted	INBOX_WALTER	US gas storage 3,801 Bcf, +77, week 10/30. No BRENT line.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-023	noted	INBOX_WALTER	combo:gulf-access-cost. CLAIM-ONLY, one root with the mine claims; FALCON graded.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-035	acted	INBOX_WALTER	combo:us-fuel-policy. Nothing changes for USO or refiners this week; Bloomberg body 403, no text. NOTE.md.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-050	noted	INBOX_WALTER	combo:diesel-buffer. 15 of 38 is Ukrainian outlets only, not adopted; different measure from FT 16 targeted.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-056	acted	INBOX_WALTER	Off-ramp signature leg NOT MET: one anonymous official, no text. Item postdates the 14:30 ET settle. NOTE.md.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-058	acted	INBOX_WALTER	BG-02 NOT MET; flow read NOT MEASURABLE; no INCIDENTS row. combo:yanbu-bypass. NOTE.md.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-060	acted	INBOX_WALTER	combo:diesel-buffer. Russian feedstock ban unverified, one search; diesel to US quotas per Baird sources. Non-energy items not BRENT.
+2026-11-05T18:35:51-05:00	SIG-W-20261105-062	noted	INBOX_WALTER	Correction COR-20261105-62 receipted NO-OP: BRENT holds no Abrigo figure.
