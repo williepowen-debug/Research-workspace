@@ -3,7 +3,7 @@
 **Setup ID:** `IDEA-TLT-QRA-NOV02`
 **Thesis owners:** NEXUS (term-premium decomposition); BOND (Treasury supply and posture).
 **Thesis reference:** NEXUS packet dated October 31, `../inbox/processed/2026-10-31_from-NEXUS_term-premium-and-refunding.md`; BOND November 2 update, `AGENTS/BOND/STATUS.md` and `analysis/2026-11-02_update/`.
-**Terry verdict:** CONDITIONAL — NOT-FIRED; new proposal, NOT APPROVED.
+**Terry verdict:** CLOSED — WQ-592 RULED B, DECLINED (Will in PROME's chat 2026-11-04 20:59 ET, verbatim "approved with your recs"; record `PROME/proposals/2026-11-04_wq591-601-RULED.md`). Never approved, never filled, $0. The T1 letter defect dies with this card. CAL-0004 still resolves on its own date. (was: CONDITIONAL — NOT-FIRED; new proposal)
 **Prepared:** 2026-11-02T10:27:55-05:00.
 **Confidence in trade structure:** Medium; confidence that the required surprise occurs: Low.
 

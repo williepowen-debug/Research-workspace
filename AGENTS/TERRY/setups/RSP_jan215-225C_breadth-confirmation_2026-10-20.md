@@ -1,10 +1,12 @@
 # TRADE CARD — RSP January 215/225 bull-call spread — breadth confirmation
 **Date:** 2026-11-02; reprices the 2026-10-20 card under D:L905 / WQ-574.
 **Setup ID:** `IDEA-RSP-OCT20`
-**Terry verdict:** CONDITIONAL — NOT-FIRED; revived for review, NOT APPROVED for a trade.
+**Terry verdict:** CONDITIONAL — APPROVED NOT-FIRED (WQ-591 A, Will in PROME's chat 2026-11-04 20:59 ET, verbatim "approved with your recs"; record `PROME/proposals/2026-11-04_wq591-601-RULED.md`; GATE-TERRY-RSP-01). ×1 only, past closed X1 by his per-card choice. The order is Will's hand (root rule #5).
 **Prepared:** 2026-11-02T09:54:21-05:00.
 **Thesis owner:** HENRY, L616 breadth study dated 2026-10-31 on 10/30 closes, `AGENTS/HENRY/STATUS.md` § MARKET BREADTH.
 **Confidence in structure:** Low at the observed markets. Recommendation: wait; do not pay the displayed debit.
+
+> **TRIGGER STATE 2026-11-05 09:43 EST (TERRY): NOT-FIRED, no entry.** RSP $223.59 +0.12% GREEN at 09:40 EST, so not a red day. `chain_fetch.py` DEAD 0/0 on both legs, exit 2 (09:41 EST). Cboe delayed, payload stamp 03:41:05 and spot $223.33 (the 11/4 close, so stale): 215C $10.60/$12.70, 225C $4.30/$5.20; outer debit $8.40 (×1 $841.30), mid $6.90, against the $4.90 cap. ⚠️ Rough read, delayed screen: the spread moves about $0.20 per $1 of RSP, so a $4.90 fill needs RSP near or under this card's own $215 floor. The approved card may simply not fill; that is a valid outcome, and the limit does not move.
 
 ## 0. Authority, freshness and hard caveats
 | Item | Evidence and consequence |
@@ -53,7 +55,7 @@ Net model delta ≈ **26.85 shares** and theta ≈ **−$0.46/day per spread** a
 
 Default **1R = $250**, ceiling **2R = $500** (`STATUS.md` standing risk unit). At the outer screen even one spread exceeds the default by **$271.30**; permitted size there is **0**. The conditional limit fits **×1**, $491.30 = 1.9652R, leaving $8.70 under the default. **Actual proposed deployment now: ×0 / $0.** Fees assume $0.65 per contract per side; exact fees must fit the $500 ceiling. Profit figures exclude closing costs. Net terminal reward/risk is only **0.30:1** at the outer screen versus **1.04:1** at the limit; neither ratio proves edge.
 
-Buy only as one broker complex spread after Will's approval and explicit X1 choice, on a red RSP day with RSP ≥ $215 and debit ≤ $4.90. Do not chase a higher debit or replace the missing quote with a model. If the first qualifying opportunity is missed, return for rework; no automatic recurring order or new entry permission. A larger size/budget is Will's choice, never pre-approved by WQ-574.
+Buy only as one broker complex spread under WQ-591 A, on a red RSP day with RSP ≥ $215 and debit ≤ $4.90. Do not chase a higher debit or replace the missing quote with a model. If the first qualifying opportunity is missed, return for rework; no automatic recurring order or new entry permission. A larger size/budget is Will's choice, never pre-approved by WQ-574.
 
 ## 5. Independence and alternatives
 | Field | Assessment |
@@ -81,6 +83,6 @@ October's breadth repair can already be priced; a profitable relative RSP/SPY mo
 WQ-493 A: this is a reprice of the existing pre-ruling 10/20 card, with its completed confirmation now known. No retrospective trigger probability is created or back-filled. The historical card, including the spent 10/23 entry, is preserved at `../research/2026-11-02_rsp-reprice/RSP_card_before.md`; the first verdict above is current.
 
 ## 8. Decision route
-WQ-574 approved a reprice only. Return this card to PROME for a newly registered Will decision under root rule #5: approve/reject the conditional ×1 limit and explicitly choose whether to permit it against X1. TERRY recommends waiting at the current screen. No order, fill, approval, larger size or automatic deployment is implied.
+WQ-591 A approved this card as a conditional (see the verdict line). TERRY re-checks live and presents the order at an eligible entry; broker debit above $4.90 or size above ×1 is not approved.
 
 **APPROVAL REQUIRED — Will must approve/reject before execution.**

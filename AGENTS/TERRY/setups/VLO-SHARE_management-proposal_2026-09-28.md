@@ -4,6 +4,8 @@
 
 ## Leg-A grade — sessions 2026-10-29 to 2026-11-04 (TERRY, Claude Opus 5.5, graded 2026-11-04 20:36 EST)
 
+**Limit re-read 2026-11-05 09:43 EST (TERRY, on BRENT packet `inbox/processed/2026-11-04_from-BRENT_november-2-settlement-fallback.md`): grade stands, limit unchanged in kind, narrower in size.** BRENT's public fallbacks give HOZ26 $4.4216 and CLZ26 $96.46, crack $89.2472, the accepted figure. This is one feed lineage and no exchange read, so source (1) stays unread and a final November 2 settle at or above $90.16 would still reverse the grade. That now needs HOZ26 2.2 cents higher or CLZ26 $0.91 lower than every reachable source. The letter does not wait for source (1); the SELL rec stands.
+
 Full table, letter and limits: `../research/2026-11-04_vlo-leg-a/NOTE.md`; inputs `GRADE_INPUTS.json`. Oct 29 $90.6750 and Oct 30 $92.2762 NOTICE, not fired. **Nov 2 $89.2472, source 2 accepted within $0.0328 of source 3, EXIT FIRED.** Nov 3 $94.1952 does not cancel it (approved letter). Nov 4 $88.5451 source 3 ESTIMATE, source 2 rejected as evening row. CME settlements unread; a final Nov 2 settle ≥ $90.16 would reverse this grade. The 2 added shares are outside this rule. No order placed by the desk.
 
 ## Leg-A grade — sessions 2026-10-23 to 2026-10-28 (TERRY, Claude Opus 5.5, Will-launched; written 2026-10-29 ~11:3x ET)

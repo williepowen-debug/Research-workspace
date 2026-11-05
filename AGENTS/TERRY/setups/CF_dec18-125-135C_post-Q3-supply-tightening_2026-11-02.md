@@ -3,7 +3,7 @@
 **Setup ID:** `IDEA-CF-Q3-NOV02`
 **Thesis owner:** FERT; TERRY owns this prospective construction, not the fertilizer grade.
 **Thesis reference:** FERT's October 28 frozen `AGENTS/FERT/workbook/GRADING_CARD_2026-11-03_MOS-CF-Q3.md`, commit `4b42bfd9a`; October 26 filing-based `companies/CF/README.md` and `Q3_PREP.md`; current FERT STATUS.
-**Terry verdict:** CONDITIONAL — NOT-FIRED; new proposal, NOT APPROVED.
+**Terry verdict:** CLOSED — WQ-593 RULED B, DECLINED (Will in PROME's chat 2026-11-04 20:59 ET, verbatim "approved with your recs"; record `PROME/proposals/2026-11-04_wq591-601-RULED.md`). Never approved, never filled, $0. FERT owns the Q3 read; CAL-0005 still resolves on its own date. (was: CONDITIONAL — NOT-FIRED; new proposal)
 **Prepared:** 2026-11-02T10:27:55-05:00.
 **Confidence in trade structure:** Low at the observed spread widths. Recommendation: conditional review only, no pre-results buy.
 
