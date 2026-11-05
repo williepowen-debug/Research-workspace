@@ -92,6 +92,8 @@ Moved from continuity during Will's approved cleanup. These are the prior record
 
 ### Forecast pilot
 
+**November 5 fleet-report discussion complete:** [Advice and verification limits](runs/2026-11-05_1641_forecasting-advice.md). Continue PROME’s program; label timing as supported by recorded dates, preserve five high-confidence cases as optional December examples, and stop historical reconstruction. Final adoption unverified; no new CATO task or pilot resumption.
+
 **CATO forecast pilot:** October 29 pass at `935b30ab`: **enrollment CLOSED, 20/20 originals**, eleven later versions, nineteen nonnumeric records; one scored outcome, nineteen unscored. FP1–FP10 grading/coverage limits retained; no replacements. Next existing observations: RED-25 October 31 re-review if new evidence, FAL-06 November 5 window/coverage checkpoint. Resume due-case review only when Will directs; no automatic job, sends or desk obligations. December 31 process assessment survives; 2027 endpoints remain unresolved. Effort **44/120 minutes**, 76 remaining. [Scope, evidence and checks](runs/2026-10-01_1105_forecast-pilot/README.md#october-29--enrollment-complete-and-first-binary-resolution).
 
 ### Work selection

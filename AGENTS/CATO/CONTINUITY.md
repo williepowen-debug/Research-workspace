@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 5, 2026, session closed for a fresh window. Next: orient, recover WQ-607 approval, and await PROME’s research brief or Will.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
+**Updated November 5, 2026, after forecasting discussion; session closed. Next: orient, recover WQ-607 approval, and await PROME’s research brief or Will.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
 
 ## Resume point
 
