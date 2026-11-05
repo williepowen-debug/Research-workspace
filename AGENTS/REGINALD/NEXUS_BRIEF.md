@@ -1,10 +1,18 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY OAS 343bp [11/02] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 7bp below the strict >350 line, run 0-of-3); wide HY alone does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
+**Status:** Concentrated bank risk. HY OAS 332bp [11/04] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 18bp below the strict >350 line, run 0-of-3; 11/05 print pending); wide HY alone does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-03 17:49 ET, consolidated KRE redemption research | STATUS commit: `1571d2c4b`
+**As of:** 2026-11-05 16:35 ET, closeout of the 11/05 catch-up | STATUS commit: `26f1d1b52`
 
 ## CROSS-DOMAIN
+
+**November5 catch-up** (`reports/2026-11-05_boot/REPORT.md`; dated reports for each item):
+- **Selloff:** S&P −4.36%, KRE −2.47%, WAL $75.88 (all vendor at the close, not settles). WAL is a suppressed sub-$78 re-entry if it settles there: REG-T-02 stays FIRED, exit 0-of-3. Cause of WAL's extra weakness UNKNOWN; no new filing. Credit ETFs calm; HY print pending.
+- **Preferred Bank:** multifamily 30–89 $143.1M, 26.5% of the book [9/30]. Working read real but contained; formal answer UNRESOLVED until the 10-Q, most likely Mon 11/9.
+- **Flagstar:** multifamily 30–89 $392M is a rebound (peak $893M), my "the one that matters" withdrawn. New are 90+ accruing $107M [9/30] and modifications $556M H1. 10-Q not filed at 16:33 ET.
+- **Ueno, Paraguay:** single-bank failure at the outside report's cutoff; identified US fund holdings $17.9M, 5.1% of the bond; about 95% of holders unidentified. LIQUID owns contagion.
+- **Valley and Eagle:** Q3 10-Qs filed 11/05, UNREAD. Prior read of them does not include these filings.
+- **FFIEC tail:** 138 of 138; 6 flags unchanged; frozen verdict waits for FDIC. FL frame PROVISIONAL until BKU. No score, threshold, gate or trade change.
 
 **November3 KRE redemption base rate** (`research/KRE/REDEMPTIONS.md`; rolling/monthly data under `reports/2026-11-03_redemption-history/`):
 - 2025 NAV **+7.41%** with shares **−29.45%**; 2026 through 11/02 NAV **+13.66%** with shares **−10.39%**. The price/share-count divergence is not new, so contraction alone is not a directional price or bank-credit signal.
