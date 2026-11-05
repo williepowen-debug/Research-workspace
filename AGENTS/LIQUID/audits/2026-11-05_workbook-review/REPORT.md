@@ -35,3 +35,8 @@
 ## Limits
 
 The 20Y and late-November 2Y/5Y/7Y dates live on BOND's docket and are not mirrored here. TIC data months are read from the page's rule, not stated. KB-LIQ-136 is on latest-revised FRED. `NEXUS_BRIEF.md` still carries the withheld wording and BROADENS; it is refreshed at closeout under its own step.
+
+## Q4 discriminators closed 2026-11-05
+
+BOND verified LIQ-07 at the artifact and corrected its own files (67cbd7fc4; KB-BND-542), per its message: D7 (A), B beta never reached +0.49; D6 (B) on the letter, then reversed; D8 (A) on reachable evidence, unproven. BOND owns those three. D1 stays LIQ-07, RESOLVED S2. The STATUS §3 row is removed.
+
