@@ -13,8 +13,8 @@ Will: “Okay lets close out here and continue these on the other side.” No fu
 
 ## Resume order and limits
 
-1. DONE November 4 evening: `runs/2026-11-04_HARNESS_SKIPS_RECONCILIATION.md` itemizes 24 ledger legs plus 7 unrecorded legs. Do not repeat. Next: PROME answers its seven-item changelist in `PROME/inbox/2026-11-04_from-DAEDALUS_harness-skips-reconciliation.md`; apply only approved items, each with idle verification.
-2. C17: changelist item 1. OZK/FLG/GIBBS spawned-session no-push clauses versus root commit/push. PROME identified root as governing; owner-directed cleanup remains. Respect live/UNKNOWN target ownership; do not change charters merely because prior scope was approved.
+1. DONE November 4 evening: `runs/2026-11-04_HARNESS_SKIPS_RECONCILIATION.md` itemizes 24 ledger legs plus 7 unrecorded legs. Do not repeat. PROME answered 20:59 ET: 14 LOW legs accepted, B24 packets sent to NEXUS and ZHAO, C10 routed to LIQUID. Items 1–4 HOLD at WQ-601: edit only after Will's word is recorded there, each with idle verification.
+2. C17: WQ-601 unit 1. OZK/FLG/GIBBS spawned-session no-push clauses versus root commit/push. PROME identified root as governing; owner-directed cleanup remains. Respect live/UNKNOWN target ownership; do not change charters merely because prior scope was approved.
 3. A09: DAEDALUS gate-spec consumer review remains deferred. Preserve existing guard obligations until reviewed; no new checker or rule.
 4. TERRY B44/D17: owner review November 6, not automatically completed. Verify actual narrative moves and consumer effects. WALTER's prior 5/5 completion stands.
 5. Root charter rotation: PROME-owned. Applied cleanup fell below the warning trigger, but remains above the below-70% completion target. Do not clear rotation because the instrument now returns clean.

@@ -39,7 +39,7 @@ The Run Log's "~25 skipped" resolves to **24 ledger legs**, plus **7 legs the lo
 | 13 | FLG | C17 | CONFLICT OPEN | `FLG/CLAUDE.md:15` "no push when spawned — coordinator sweeps" |
 | 14 | GIBBS | C17 | CONFLICT OPEN | `GIBBS/CLAUDE.md:15`, `:31` "then auto-push unless spawned". PROME's ruled reading: root governs, spawn identity supplies no exception, returned to DAEDALUS (`PROME/proposals/2026-11-04_wq508-retained-cleanup-RULED.md:26`). `WAL/CLAUDE.md:34` is the aligned form |
 | 15 | CYPHER | U-CI4 | CONFLICT OPEN | `CYPHER/CLAUDE.md:152` and `ISHM/CLAUDE.md:209` cite an unnamed "current rule at PROME". Candidate home, unconfirmed: `PROME/proposals/2026-10-01_wq348-approval-inventory-RULED.md` row K6. PROME confirms |
-| 16 | ZHAO | B24 | CONFLICT OPEN | `ZHAO/CLAUDE.md:37` "Do NOT pin a STATUS commit hash" vs schema `NEXUS_BRIEF_SCHEMA.md:30` pin token. No DOCKET or WQ carrier. No harm today: `brief_pin_check.py ZHAO` rc 0, OK-SAME-COMMIT, 20:53 ET. Packet row forbids picking a side; NEXUS owns the schema |
+| 16 | ZHAO | B24 | CONFLICT OPEN | `ZHAO/CLAUDE.md:37` "Do NOT pin a STATUS commit hash" vs schema `NEXUS_BRIEF_SCHEMA.md:30` pin token. No DOCKET or WQ carrier. Corrected 21:00 ET, see § PROME answers: `brief_pin_check.py ZHAO` rc 0, OK-SAME-COMMIT, 20:53 ET, but the brief carries no hash. Packet row forbids picking a side; NEXUS owns the schema |
 | 17 | LIQUID | B44 | B44 CLASS | `LIQUID/CLAUDE.md:33`, `:82–88` |
 | 18 | BOND | B44 | B44 CLASS | `BOND/CLAUDE.md:242` tool-row incident narrative; charter 34,012 B, outside read-cap perimeter by rule 20 |
 | 19 | HANS | B44 | B44 CLASS | `HANS/CLAUDE.md:63` guard incident narrative |
@@ -83,6 +83,20 @@ The Run Log's "~25 skipped" resolves to **24 ledger legs**, plus **7 legs the lo
 | 5 | B24: route one packet to NEXUS and ZHAO | No carrier; authority conflict with no owner decision | 1 packet | Gives the conflict an owner | PROME approves routing |
 | 6 | C10: LIQUID re-spaces `:14` during its Gate 069 repair session | Desk needs a session anyway | 1 token | Cheap | Add to the launch brief |
 | 7 | 14 LOW legs (B44 ×3, HISTORY TIDY ×4, C16 ×4, duplicate, KEEP ×2): stop holding whole-audit closure on them; each stays optional at the owner's next charter edit | No false instruction in any of them; forcing B44 needs a class instruction and unverified parser checks; Will 10/31 favours fewer controls | 0 | Closes a long tail without churn | PROME accepts or rejects as a class |
+
+## PROME answers (20:59 ET, read at the artifact, commit 87e40e735)
+
+| Item | Answer | State |
+|---|---|---|
+| 1, 2, 3 | Not approved by PROME; to Will at WQ-601 units 1–3 | HOLD: no charter edit until his word is recorded there |
+| 4 | K6 not confirmed; WQ-601 unit 4 | OPEN |
+| 5 | Approved | SENT: packets to NEXUS and ZHAO, `2026-11-04_from-DAEDALUS_brief-pin-conflict-B24.md` |
+| 6 | Routed by PROME to LIQUID | PROME's packet |
+| 7 | 14 LOW legs accepted as a class | Stop holding whole-audit closure; optional at each owner's next charter edit |
+
+**Correction to row 16:** the 20:53 "no harm today" was too strong. ZHAO's brief has no hash in its header; OK-SAME-COMMIT proves amendment 11's equality only, and NEXUS's § 4.4 hash comparison has nothing to read. § 4.4 calls that a conformance gap.
+
+**WQ-601 unit 4 concern, raised to PROME:** this record asked PROME to name an existing rule. Unit 4 instead offers a new standing reading that ordinary prediction rows need no Will approval. Its SEARCH-NOT-FOUND list omits `AGENTS.md:53` ("Agent research/tracking proposals → Will"); `PROME/AUTONOMY.md` Tier 2 also lists new tracking frameworks and new ongoing work. Whether a single prediction row falls under either is unresolved, and it is Will's call.
 
 ## Whole-audit remainder
 
