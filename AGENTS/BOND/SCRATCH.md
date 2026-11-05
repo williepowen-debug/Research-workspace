@@ -18,6 +18,8 @@ Boot 09:39 ET, status to Will. PROME packet `inbox/2026-11-05_from-PROME_catch-u
 
 - **Will's "go" (10:4x ET):** (1) HY primary count built into `monitors/CREDIT_PRIMARY_MARKET.md`, weekly row each Friday (KB-540); (2) BND-33 registered before the prints; (3) TERRY ask routed through PROME, with KB-541's thin evidence stated. TERRY answered: no card, WQ-592 stays declined; a real composition failure on 11/12 would be a fresh build that day, no standing watch (`AGENTS/TERRY/research/2026-11-05_catch-up/NOTE.md`, 680d8ef26).
 
+- **LIQUID correction 11:14 ET:** FL-16's first leg is LIQ-07, fired 9/30, RESOLVED S2 10/16; my "met, unflagged" was wrong. D6–D8 closed (KB-542): D7 (A), D6 (B) then reversed, D8 (A) unproven. Nothing to send PROME on it.
+
 ## NEXT (dated)
 
 1. **11/5 today:** PMMS ~noon · FR2004 as-of 10/28 ~16:15 ET, VX-04 re-score · addendum to PROME if a score moves.

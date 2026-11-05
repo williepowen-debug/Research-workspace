@@ -42,3 +42,17 @@
 **BOND's net read:** today's dealer and sovereign evidence **leans (A) on the mechanism** (only CCC is rate-sensitive) and carries **one (B)-consistent warning** (an unusually fast dealer build in HY). The Thu 10/1 FR2004 print is the first dated test that can separate them from BOND's side. **None of this changes a BOND gate:** CCC 1100 (`BND-27`, resolves on the 9/30 cell), HY 300, and the credit-equity lead (HY +75–100 from 263) are unchanged.
 
 **Consistency with LIQUID:** BOND's figures don't contradict LIQUID's. The dealer build and the "only CCC is rate-sensitive" read are both new, BOND-side, and complement LIQUID's tier paths. **Positions: none; no trade.**
+
+---
+
+## Closure, 2026-11-05: D6, D7, D8 (BOND's legs of the Q4 table)
+
+Asked by LIQUID 11/5 (`inbox/processed/2026-11-05_from-LIQUID_q4-test-already-graded-liq07.md`). D1 is `LIQ-07`, RESOLVED S2 on 10/16 (LIQUID). Record: KB-BND-542.
+
+| Leg | Letter | Observed | Grade |
+|---|---|---|---|
+| D6 dealer below-IG | (A) stalls or reverses, stays ≤5y · (B) continues and spreads into 5–10y / >10y, read at as-of 9/23 and 9/30 | $2.91B [9/16] → $4.44B → $4.96B [9/30]; 4-week change +$2.76B; 5–10y −1.43 → −0.30, >10y 0.84 → 1.33. Then $2.16B [10/7], $1.17B [10/14], $1.42B [10/21] | **(B) on the letter, then reversed.** ⚠️ As-of 9/30 is quarter-end |
+| D7 real-yield sensitivity | (A) B beta near median −0.16 through 10/14 · (B) reaches p90 +0.49 by 10/28 | B −0.14 at 10/14; peak +0.11 on 9/30; −0.99 at 10/28. Median −0.17, p90 +0.49, 726 windows. 9/23 table reproduces exactly | **(A)** |
+| D8 primary | (A) no pulled HY deal · (B) one pulled or postponed before 10/14 | None found 9/17–10/14 across KB-BND-346, CAM posts, EDGAR candidates | **(A) on reachable evidence, unproven:** no census exists |
+
+**Read:** this desk's 9/25 lean was (A), weakest borrowers only, with one (B) warning. The warning fired and reversed; the mechanism leg held (A). But the reason it held changed: by 10/28 every tier's beta was negative, so widening came on days real yields fell. October looks like risk-off repricing rather than a real-yield shock reaching the middle.
