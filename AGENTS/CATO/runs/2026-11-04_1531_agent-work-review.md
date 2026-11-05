@@ -2,9 +2,9 @@
 
 ## Current assessment
 
-**November 5 morning sweep delivered:** finish existing owner work and use the research already delivered. No new broad audit or engineering program recommended. DEWEY → CARL provides useful interpretation without overstating consumer stress; FALCON completed FAL-07 and its first FAL-06 search; WALTER installed coverage fixes. L835 remains OPEN with reconciliation preserved remotely, LIQUID's L4 release remains withheld, and the price-fetch repair is not independently accepted. See the November 5 follow-up for current evidence, surviving approvals and exact limits. No owner edits, sends or launches assigned to CATO.
+**November 5 session closed for a fresh window.** All requested sweep, planning and AEOLUS/CREED/PFBC advice delivered. The subsequent WQ-607 A approval supersedes draft-only descriptions: CATO is authorized to challenge PROME’s after-close research brief by packet when delivered. Exact scope and surviving owner responsibilities are in the final closeout section. No new review/implementation or owner work started at closeout; next orient and recover changed evidence only.
 
-Earlier dated assessments below remain history; they are not the current status of completed WAL, ISHM or NEXUS work.
+Earlier dated assessments below retain their historical evidence and verification limits; use their subsequent dispositions rather than stale pending claims.
 
 ## Scope and limits
 
@@ -342,3 +342,24 @@ CREED advice delivery checks: four intended weekday inputs readable and PASS (PR
 **Recommendation/stop:** retain PFBC as a bounded filing follow-up, soften categorical safety claims and the historical migration claim, and prioritize existing held-exposure follow-through. No action required from Will now beyond reviewing this advice; no external contact or trade proposed. Owner owns implementation of any wording correction, and no packet sent without instruction.
 
 PFBC delivery checks: four intended weekday paths readable and PASS; scoped whitespace clean; orphan advisory only foreign TERRY PAPER_BOOK, preserved. Two CATO paths authored (report and compact public-feed receipt). No startup, ledger, auto-memory or superseded canonical figure change; corresponding conditional checks inapplicable. No code changed, no new tests. Publication receipt in chat.
+
+## November 5 — session closeout for fresh window
+
+Will requested closeout to reboot. No remaining owner work started, no tool messages or fleet launches. All CATO-requested deliveries saved and published at their task boundaries: morning sweep, completion-plan draft, AEOLUS sign-split advice, CREED screen advice, PFBC explanation review and current FDIC receipt. Review scopes remain bounded; publication of shared owner commits never implied CATO certification.
+
+**New approval recovered at closeout:** `inbox/2026-11-05_from-PROME_WQ607-A-completion-plan.md` and WILL_QUEUE WQ-607 record Will’s 11:03 ET A. This supersedes every earlier “plan remains draft / no CATO execution granted” disposition for its narrowed scope. CATO must read PROME’s research brief when delivered and return overstatement challenges by packet to PROME/inbox. Three research questions plus AI selling; not another source/calculation audit. Existing packet authority suffices for that delivery; PROME reports no native messaging route to this Codex session. No new roster, automation or owner-launch authority. The exact approval stays pending execution across reboot; do not ask for it again or begin it merely because closing out.
+
+**PROME’s assigned work:** one after-close brief; L920 read; L835 selective saved-checkpoint reconciliation at closeout, no new desk launch under L835. Its packet says the remainder list already done and LIQUID rounding repair independently RELEASED at 5564ca79b, WQ-603 A, CLI restored at 382544bcc. Added tests TESTED, not independently verified. This closes the old “repair still withheld” resume state on owner/reviewer receipt evidence; CATO did not rerun the repair. L920/L835 current closure not assessed here. Use current receipts and selected checkpoint files; no full snapshot merge or replay of the old seven-owner slate.
+
+**Settled findings and remaining owners:**
+- AEOLUS / TERRY / PROME: WQ-606 A encoded, source-basis dispute settled. Next qualifying analysis and entry checks remain their work; CATO’s correction of physical-certainty wording remains advice, not independently verified owner adoption. No new threshold/persistence requirement.
+- CREED / PROME: WQ-613 subsequently carries Will’s direct 13:08 ET ruling (95e311880): descriptive screen only, no recurring cadence/predictive study; exploratory two-year result separate; use for exposures already in view. Prior no-change recommendation is accepted, no re-ask. T-08b and missing source items remain owner work, not a reason to reopen the screen build. No external notices authorized here.
+- REGINALD: 9757ae46b adds CATO reconciliation questions and a fourth UNRESOLVED result to PFBC filing read; adoption inspected at diff. Working read remains “real but contained”, not a grade. Loan identities/cures/continuing-sale exposure may stay unknown. CATO independently checked FDIC at 13:28 ET only; future filing/FLG interpretation stays at owners. No PFBC trade or new scan.
+- FFIEC registry: corrected at 0e3536026; S7 registry leg closed, no repeat installation. ORACLE preset accepted L848; grading ownership stays in broader WQ-599 November 7 decision, separate from this approved completion pass.
+- Forecast pilot: 44/120 minutes, no pilot work in this session. Resume on Will’s direction; no new enrollment/replacements. Decisions discrepancy only at next authorized maintenance touch. Prior approvals and verification limits survive unchanged.
+
+**Next session:** load current instructions, inspect shared state, read the WQ-607 packet and locate PROME’s delivered brief/changed receipts. If the brief is not ready, await it or Will; no new audit while waiting. If delivered and not superseded by Will’s steering, perform the existing bounded challenge and durable packet handoff. No task re-performance solely to rebuild context.
+
+No extra closeout report: this continuing record and compact CONTINUITY are the entire closeout edit set. Active AEOLUS/PROME/shared working and staged paths preserved, ignored Decisions exports untouched. Required changed-record checks below; no repeat financial pulls or implementation tests.
+
+Final closeout checks: all 10 distinct intended inputs readable. Weekday PASS on PROME DOCKET/GATES/WILL_QUEUE and CATO CONTINUITY/this report. Read-cap PASS on CATO AGENTS/CHARTER/CONTINUITY and root CLAUDE/USER/AGENTS; continuity 5,024 bytes, root CLAUDE at 75% but below cap. Scoped whitespace clean; orphan advisory no likely-CATO packet. Foreign AEOLUS changes and staged inbox move preserved. Only two CATO records authored for closeout; no authored cross-directory packet or auto-memory residue. Consumer/ledger/memory conditions absent. No owner task or completed test repeated. Final named-commit publication receipt delivered in chat.
