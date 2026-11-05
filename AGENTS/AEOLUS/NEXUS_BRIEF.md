@@ -14,7 +14,7 @@
 - WSV estimate Kaub 5–8 cm by 11/08–09; Duisburg 150–156. Contargo Kaub top row **€1,075** per 20ft (€550 on 10/28). ⚠️ Level across the reach, not a proven traffic halt. European basin root, **not** ENSO. Routed: CARL, HENRY.
 
 ## 🟠 VORTEX (C3) — at zero, sign split at 11/5 12Z
-- GFS `.anl` (scout basis) **+0.057**, `.f000` **−0.037**, ECMWF **+0.660** [11/5 00Z]. Owner grade: below 0 NOT observed; T1 NOT FIRED (KB-245/246/247). The rule was committed before the read; it rests on an inference, and if Will reads the card as any GFS file, f000 counts.
+- GFS `.anl` (scout basis) **+0.057**, `.f000` **−0.037**, ECMWF **+0.660** [11/5 00Z]. Owner grade: below 0 NOT observed; T1 NOT FIRED (KB-245/247). Basis RULED by Will 10:44 ET, WQ-606 A: `.anl` plus ECMWF; a lone `.f000` is reported, not a fire (KB-248).
 - Forecast weakened: ECMWF ENS trough 11/10–12, mean −1.45 at lowest, positive by 11/13 (10/29 run: −3.8 on 11/09). Only step one of three: persistence, downward coupling and surface cold still needed. CPC DJF still leans warm. Routed: TERRY, WATT, BRENT.
 
 ## 🔴 C6 — water up again, deal unsigned

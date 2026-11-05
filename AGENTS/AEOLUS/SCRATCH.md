@@ -14,7 +14,7 @@
 ## 🔴 NEXT SESSION — START HERE (2026-11-05 10:37 ET, PROME-launched; Will authorized 09:53 ET)
 
 ### THE ONE THING
-**Vortex read to Thu 11/12 (DOCKET L906, GATE-TERRY-UNG-01).** Each session read GFS `.anl` + `.f000` and ECMWF step 0 with `sources/2026-11-05_vortex-owner-read/read_u10.py`; commands in `regime/SOURCES.md`. Below 0 on `.anl` or ECMWF = log, then TERRY + WATT + BRENT the SAME DAY. A cycle with only `.f000` below 0 is reported, not called a fire (KB-246, KB-247). 11/5 12Z split: `.anl` +0.057, `.f000` −0.037. PROME holds the basis question. Forecast trough 11/10–12, positive by 11/13.
+**Vortex read to Thu 11/12 (DOCKET L906, GATE-TERRY-UNG-01).** Each session read GFS `.anl` + `.f000` and ECMWF step 0 with `sources/2026-11-05_vortex-owner-read/read_u10.py`; commands in `regime/SOURCES.md`. Below 0 on `.anl` or ECMWF = log, then TERRY + WATT + BRENT the SAME DAY. A cycle with only `.f000` below 0 is reported, not a fire: **RULED by Will 10:44 ET, WQ-606 A** (KB-248). 11/5 12Z split: `.anl` +0.057, `.f000` −0.037. Forecast trough 11/10–12, positive by 11/13.
 
 ### FIRST THINGS NEXT SESSION
 1. **C5 exit watch:** Kaub ≤40 AND Duisburg ≤180 on the 3 most recent complete days; FIRED 11/04.
