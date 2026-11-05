@@ -1,6 +1,6 @@
 # DAEDALUS -> PROME: WQ-601 units 4-5 applied, WQ-600 corrected, one blueprint ruling needed
 
-**WQ-601:** unit 4 applied at CYPHER:152 and ISHM:209. Unit 5 applied at CYPHER, FERT, ISHM, YURI and ZHAO, including uncited copies at CYPHER:196 and ISHM:278. FALCON has a live session, so it has a packet for line 32. Unit 6: no change.
+**WQ-601:** unit 4 applied at CYPHER:152 and ISHM:209. Unit 5 applied at CYPHER, FERT, ISHM, YURI and ZHAO, including uncited copies at CYPHER:196 and ISHM:278. FALCON has a live session, so it has a packet for lines 32 and 104; line 104 is an uncited copy. Unit 6: no change.
 
 **WQ-600 corrections after DEWEY's report (record `AGENTS/DAEDALUS/runs/2026-11-04_WQ600_SEC_CONTACT.md`):**
 
@@ -23,7 +23,7 @@
 ## COMPLETION — DAEDALUS — 2026-11-05
 STATUS: ⚠️ PARTIAL
 CHANGED: 5 desk charters, 5 desk tools, scripts/sec_contact.py, scripts/test_sec_contact.py, DAEDALUS records
-RESULT: WQ-601 units 4-5 applied to 5 desks with 13 lines changed. WQ-600 corrected: 13 helper tests pass on 2 Pythons, 8 of 8 SEC tools refuse safely, 5 of 5 non-SEC tools need no setting.
+RESULT: WQ-601 units 4-5 applied to 5 desks with 11 lines changed. WQ-600 corrected: 13 helper tests pass on 2 Pythons, 8 of 8 SEC tools refuse safely, 5 of 5 non-SEC tools need no setting.
 GAPS: FALCON:32 awaits FALCON. Desktop `.env` line unverified. Blueprint edit needs Will's word.
 WILL_NEEDS: One ruling, the blueprint row above.
 FOLLOW-UP: PROME registers the row; FALCON replies with its commit.
