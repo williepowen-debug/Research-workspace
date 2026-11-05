@@ -1,42 +1,37 @@
-# BRENT SCRATCH — November 4 interim (session brent-0a, boot 20:55 EST; NOT a closeout), over the November 2 closeout
-
-## INTERIM, November 4 evening
-- Done: boot; 29 mail items dispositioned; TRADE updated from the 10/30 capture and TERRY's 11/4 exit grade; settlement fallback and PROME memo delivered. October 29 and 30 crack items below are discharged by TERRY's grade.
-- Routines: Monday 11/2 and Wednesday 11/4 failed on usage limit. No monday_2026-11-02 or eia_2026-11-04 file exists.
-- Owed, live BRENT: Thursday 11/5 14:28–14:30 ET M1−M3 window on BZF27−BZH27 (11/4 proxy +$4.50, F-a under +$3.50; daily rows after 18:00 ET rejected). BRT-31 week four exact grade (boot monitor −0.435%). Boundary #8 January legs. WPSR week 10/30 row in TRACKER unless Thursday's routine writes it.
-- Deferred mail: NEXUS C35 disposition and PROME L891 NEXUS_BRIEF row (both still top-level in inbox/). Fourteen deferred WALTER rows in board_log.tsv: 11/2 002, 006, 011, 012; 11/4 002, 013, 014, 015, 019, 030, 031, 032, 048, 059. FALCON graded 11/4 (7de38487c7): FAL-07 CONFIRMED on Qeshm, census 7, AL MAYEDA = UKMTO 188-26, production rung ARMED NOT FIRED; integrate those into THESIS at closeout. BRENT answered: fade NOT MET, flow UNRESOLVED.
-- Closeout still owes: STATUS, CATALYSTS grades, NEXUS_BRIEF, TRACKER stamp, THESIS current-assessment paragraph.
+# BRENT SCRATCH — November 5 closeout (session brent-0a, boot 2026-11-04 20:55 EST; closed for the machine switch to the desktop)
 
 ## CHANGES SINCE LAST SESSION
-- PROME installed the WQ-543 routine text and EST crons 11/2 02:28–02:30Z on Will's word (WQ-585 A); validation run PASS (commit bdfb453bf). [Receipt](../../PROME/reports/2026-11-01_wq543-routine-install-receipt.md).
-- Crude down about 6% Monday morning [vendor quote 14:02Z, EST]: WTI CL=F 97.68 (−6.19%, same contract as CLZ26 104.12 prelim 10/30); Brent BZ=F 106.61 (−6.01%, now BZF27; prior-close contract identity NOT verified, LESSONS #23). Cause per secondary aggregators only: Iran–Qatar ceasefire-talk momentum. No primary read.
-- COT #12 (as-of 10/27) graded by the Friday routine: JOINT NOT-SPENT, 6th consecutive (shorts 126,305; OI share 6.6960%).
-- Boot rc=2, standing findings only: KILL-LEG2-JWC stamp 12d vs 9d, TANKER-LIVENESS stale/dead, 6 INCIDENTS rows past 60d, USO observations +12d, LESSONS_INDEX +23d.
+- Brent January $113.43 (10/30) → $94.62 (11/4); WTI December $104.12 → $88.12 [DTN and CNBC, secondary]. Reported cause is the midterms and deal hopes; none established. Vendor quote 13:35Z 11/5, advisory: Brent 96.96, WTI 89.49.
+- TERRY graded the held-VLO exit on November 2, $89.2472 against $90.16 (2b83f853b7). FALCON: FAL-07 CONFIRMED, census 7, production rung ARMED NOT FIRED (7de38487c7).
+- Monday 11/2 and Wednesday 11/4 routines failed on the usage limit: no output, no flag.
 
 ## WHAT I DID THIS SESSION
-- Boot 6d: receipted COR-20261031-01 APPLIED, -03 NO-OP, -22 NO-OP (commit 0a1369326); corrections check rc 0.
-- Recorded the routine install: SCHEDULED_RUNS (state block, four cron rows, next DST change 2027-03-14), WQ-543 audit REPORT → INSTALLED + VALIDATED, TRACKER alert-lines stamp, CATALYSTS rows graded (COT #12, DST re-set, YUR-005 HIT by YURI 10/31).
-- STATUS: November 2 block; rotated four October 26–29 paragraphs verbatim to `archive/STATUS_dated_2026-11-02_rotation.md` (1,990 B crc32 `3bea9eb6`); all 8 STANDING STATE rows re-stamped 11/2 (COT row → #12). NEXUS_BRIEF header re-stamped SCOPED-PARTIAL.
-- Consumed PROME's WQ-543 install packet (board_log + moved).
+- Boot; 32 mail items consumed with matching ledger rows, 14 of them deferred WALTER items.
+- November 2 settlement fallback, no CME read: `research/2026-11-04_evening-boot/SETTLEMENT_2026-11-02.md`. PROME memo with marks, flow basis and the BZF27 word; TERRY and FALCON packets.
+- TRADE from the 10/30 capture. STATUS, THESIS paragraph, CHANGELOG, TRACKER stamp, CATALYSTS, SCHEDULED_RUNS, NEXUS_BRIEF.
+- Graded the BZZ26 row: January legs verified, boundary #8 count 0 ($35.71–$39.09, vendor rows [EST]).
 
-## NEXT SESSION (dated, future-verifiable)
-1. **Before Wednesday 2026-11-04 (one-minute bars roll off):** October 29 held-VLO leg-A observation (source 3 window proxy / source 2 daily row) and October 30 CME FINAL to replace the $92.28 preliminary; packet TERRY. If within about $1–2 of $90.16, report NOT MEASURABLE and ask Will for the CME settle (WQ-533 b).
-2. **Mon 2026-11-02 after 09:45 EST:** read `demand_destruction/data/monday_2026-11-02*` — first run on the new EST cron. Line 1 must be `PREAMBLE: … head=<sha7>`. If no file by ~11:00 EST, flag PROME.
-3. **First Nov-2+ pull:** verify the January Brent 3:2:1 legs (BZF27/RBF27/HOF27) for WALTER boundary #8 (CATALYSTS 10/30 row, still ungraded).
-4. **Nov 2–6:** TD3C/TD34 freight after the 11/1 Sinokor PGSA date (row ungraded); MPC Q3 and Aramco Q3 / midterms 11/3; BRT-31 week four 11/4; COT #13 11/6.
-5. **Tue 2026-11-10:** November STEO, COPS_OPEC re-pull for the 11/29 OPEC+ letter.
-6. Housekeeping: KILL-LEG2-JWC IUA index re-fetch (12d vs 9d budget); USO/observations.tsv freeze-or-refresh; RF-013 Ufa capacity re-key; COT_VINTAGES two-clock header (ledger has #12 but staleness reads +10d).
+## NEXT SESSION (dated, future-verifiable) — desktop BRENT session
+1. **FIRST: Thursday 2026-11-05, 14:28–14:30 ET, M1−M3 window on BZF27−BZH27, handed to the desktop.** Pull both legs in the one-minute window, same capture; reject daily rows after 18:00 ET. Falsifier F-a is under +$3.50; 11/4 proxy +$4.50. Read the 9/2 registration in `thesis/CHANGELOG.md` before any grade. **Bars' roll-off:** vendor one-minute reach measured 8 days on 11/5 (an 8-day request returned 10/28), so 11/5 bars should remain through about Thursday 11/12. That is a measurement, not a vendor promise; a late read must re-check it. The November 2 SCRATCH's "roll off by 11/4" was too tight.
+2. BRT-31 week four exact grade: psw01 four-week YoY and GASREGW 11/2 price leg. Monitor reads −0.435% against −1.5%.
+3. Thursday 11/5 after 14:15 ET: check for `demand_destruction/data/thursday_*` and the week 10/30 TRACKER row. If absent, write the WPSR record by hand. Monday 11/2 is not recoverable.
+4. Friday 11/6: COT #13, as-of 11/3, `cot_grade.py --expect 2026-11-03`.
+5. Deferred WALTER items in `board_log.tsv`: gas shorts (1102-002), NYT aggregate (1102-006), Hormuz proposal (1102-011), Al Mayeda (1102-012), Qeshm (1104-002, 019), IEA winter scenario (013), YANOS (014), CVR (015), Russian gas (030), Aramco 15% claim (031), HPCL (032), UKMTO 188 (048), energy leads incl. Dubai contango (059). FALCON's 11/4 grade supplies the input for 1104-002, 019, 048 and 1102-012.
+6. Ungraded CATALYSTS rows: Sinokor 11/1 and TD3C/TD34; MPC Q3 11/3; Aramco run-state 11/3; EIA week 10/30.
+7. Tuesday 11/10: November STEO, COPS_OPEC re-pull for the 11/29 OPEC+ letter.
+8. Housekeeping: KILL-LEG2-JWC IUA re-fetch; USO/observations.tsv freeze or refresh; RF-013 Ufa re-key; COT_VINTAGES two-clock header.
 
 ## OPEN THREADS / WATCHES
-- 🔴 Held-VLO December crack near the sell line: $92.28 (10/30 prelim) vs $90.16; Monday's 6% crude drop moves both legs. TERRY grades; Will executes.
-- 🟠 Ceasefire-talk relays (11/2): sentinel ⑤ applies — a talks headline is not throughput.
-- 🟠 Russian diesel: legally shut for producers to 31.01.2027; the November plan (2.15 Mt) runs via exempt channels. Delivered volume = OSPREY.
-- 🟠 No Saudi-relief grader registered (WQ-533 a).
-- 🟡 Thursday routine still has six account connectors attached; removal is a Will UI action (SCHEDULED_RUNS).
+- 🔴 Held VLO: TERRY's sell recommendation stands on source (2); a CME settle at or above $90.16 reverses it. WQ-386 review is due November 18 unless a sale resolves it.
+- 🟠 M1−M3 narrowed about $0.65 a day to 11/4. Vendor 11/5 intraday was wider, about +$4.97, not a window reading.
+- 🟠 Hormuz flow UNRESOLVED; "near pre-war" rejected. Sentinel ⑤ applies to every talks headline.
+- 🟠 Vendor 11/4 daily rows repeat 11/3 volume: rejected. Re-check before using any fresh daily row.
+- 🟡 Dashboard re-pin to BZF27.NYM is PROME's; BRENT's word is given. `fetch.py` withheld all six named futures on 11/4; PROME recorded an independent read NOT ACCEPTED 11/4 on L920, so verify the tool before relying on it.
+- 🟡 Thursday routine still has six account connectors attached; removal is a Will UI action.
 
 ## POSITION DECISIONS PENDING
-- None from BRENT. Held-VLO sell recommendation is TERRY's on an accepted settlement observation; the order is Will's. Two USO Oct-30 call lines and the Oct-28 165C have no recorded disposition. They are booked from Will's next broker capture; no reminders (USER.md).
+- None from BRENT. Held-VLO order is Will's under the approved rule. USO Oct30 $165C outcome is booked from his next capture; no reminders (USER.md).
 
 ## MAIL STATE
-- Inbox: clear (1 consumed, 1 ledger row, 1 moved).
-- Outbox: no new packets this session; outbox folder unchanged.
+- Inbox: clear; WALTER lane clear as of 08:4x EST 11/5. 32 consumed, 32 ledger rows, 32 moved.
+- Outbox: no open packet. FORGE D-90 reconcile ask is at PROME.

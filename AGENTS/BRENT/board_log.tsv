@@ -766,3 +766,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T21:06:30-05:00	SIG-W-20261104-079	acted	INBOX_WALTER	Flow basis stated in PROME memo 11/4: UNRESOLVED; near pre-war rejected. Hull census is FALCON.
 2026-11-04T21:06:30-05:00	2026-11-04_from-ORACLE_nov110-alert-fired-and-cleared	noted	INBOX	Corrected packet daa033da9b read; priced odds weighed in PROME memo 11/4, no reply owed.
 2026-11-04T21:11:32-05:00	2026-11-04_from-FALCON_weekly-grade-fal07-census-flow-basis	acted	INBOX	Fade <$78 NOT MET at BZF27 $94.62; flow basis UNRESOLVED; packet to FALCON 11/4. FAL-07 CONFIRMED, census 7, AL MAYEDA = 188-26, LARGO ATOM match: integrate at closeout.
+2026-11-05T08:48:08-05:00	2026-11-02_from-NEXUS_C35-existing-control-disposition	acted	INBOX	Disposition stated in NEXUS_BRIEF PortWatch row: UNRESOLVED; no later grade or permanent disposition at BRENT.
+2026-11-05T08:48:08-05:00	2026-11-04_from-PROME_stale-FALCON-citation-L891	acted	INBOX	NEXUS_BRIEF VI-2026-0028 row corrected against FALCON board_log 9/10 and DAEDALUS 10/30 review; no casualty, gate or thesis change.

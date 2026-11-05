@@ -1,3 +1,7 @@
+## 2026-11-05 — November 4 repricing; F-a not crossed; v5.13 unchanged
+
+Old: assessment dated October 28; December crack last published $93.06 estimate; flow UNRESOLVED. New: assessment re-dated November 4 with Brent January $94.62, TERRY's leg-A exit on November 2 $89.2472, EIA week 10/30 from the API, FAL-07 CONFIRMED and M1−M3 +$4.50 window proxy. Flow stays UNRESOLVED; "near pre-war" rejected. No version, probability, threshold or capital change. BRT-31 week four exact grade owed. Evidence: `PROME/inbox/2026-11-04_from-BRENT_settlement-marks-flow-and-BZF27-word.md`.
+
 ## 2026-10-28 — catch-up; BRT-31 week three; December crack below the $95 notice line; v5.13 unchanged
 
 Old: current assessment dated October 26; BRT-31 two weeks evaluated; held-VLO December crack last published at 97.7840 (October 23, CME). New: assessment re-dated October 28 with Valero/Phillips 66 Q3 primaries (record margins, no demand destruction stated, PSX US diesel demand about −1.5%), BRT-31 week three −0.6762% NON-QUALIFYING (OPEN 40%), December crack 94.0224 (October 27, source 2) and 93.0634 (October 28, source 3 estimate), both below the $95 notice line and above $90.16 (TERRY grades). Ras Tanura claim unconfirmed; PGSA Sinokor action from November 1 recorded as access risk. Minor refinement only (no conviction shift, phase transition or prediction resolution). [Report](../research/2026-10-28_catchup/REPORT.md).
