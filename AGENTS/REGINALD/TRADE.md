@@ -1,6 +1,6 @@
 # REGINALD — TRADE SURFACE
 
-Last real data refresh: 2026-10-30 — §2 `KRE $68P Nov-27 ×10` row added from `FORGE/STATUS.md:71` (FORGE marks 10/30 ~13:2x ET; PROME via DAEDALUS addendum 17:41 ET: held by Will); other legs unchanged. Prior: 2026-10-22 — §2 legs re-derived from `FORGE/STATUS.md` ANVIL reconcile of Will's Fidelity capture pasted 11:01 ET 10/22 (intraday marks, not closes). Robinhood not in that capture: its rows stay UNVERIFIED since 9/29.
+Last real data refresh: 2026-11-05 — §2 checked against `PROME/data/2026-11-05_broker-capture-TRANSCRIPTION.md` (Fidelity •1326, intraday, not a close): all Fidelity legs present, VLY and FLG rows added; Robinhood not in that capture. Prior: 2026-10-30 — §2 `KRE $68P Nov-27 ×10` row added from `FORGE/STATUS.md:71` (FORGE marks 10/30 ~13:2x ET; PROME via DAEDALUS addendum 17:41 ET: held by Will); other legs unchanged. Prior: 2026-10-22 — §2 legs re-derived from `FORGE/STATUS.md` ANVIL reconcile of Will's Fidelity capture pasted 11:01 ET 10/22 (intraday marks, not closes). Robinhood not in that capture: its rows stay UNVERIFIED since 9/29.
 
 > **RECONCILED 2026-10-22 12:30 ET (DAEDALUS D:L793 item 2).** The October 21 'RECONCILIATION REQUIRED' banner is resolved for §2–§3: legs re-derived from the 10/22 FORGE capture, expired HBAN row moved to §6. Prior banner text → git history (`git log -p -- AGENTS/REGINALD/TRADE.md`). Broker truth stays off-repo (Will/FORGE).
 
@@ -28,7 +28,8 @@ Last real data refresh: 2026-10-30 — §2 `KRE $68P Nov-27 ×10` row added from
 | `OZK $40P Nov-20-2026 ×4` | Fidelity | FORGE · `../OZK/` | OZK desk thesis (conviction LOW since 10/22, WQ-483) |
 | `ZION $62.5P Nov-20-2026 ×2` | Fidelity | FORGE (card/owner UNKNOWN, D-74) | ZION matrix rank 1; Q3 print clean (`reports/2026-10-22_catchup/REPORT.md` §5) |
 | `APO $95P Dec-18-2026 ×1` | Fidelity | FORGE · BROCK | Will ruled HOLD 8/13; vehicle-mismatch flag (BROCK) |
-| `WAL $70P Dec-18-2026 ×1` · `KRE $25P Jan-15-2027 ×1` | Robinhood | FORGE 9/29 only — **UNVERIFIED since 9/29** | ROLL70 (`GATE-TERRY-ROLL70-EXIT` = REG-T-02 exit) · KRE $25P lottery (D-54) |
+| `VLY $12P Dec-18-2026 ×1` · `FLG $10P Mar-19-2027 ×1` | Fidelity | 11/5 capture; FORGE row not checked; card/owner UNKNOWN | No REGINALD card or trigger on either line |
+| `WAL $70P Dec-18-2026 ×1` · `KRE $25P Jan-15-2027 ×1` | Robinhood | FORGE 9/29 only — **UNVERIFIED since 9/29** | ROLL70 card DEAD, Will 10/29 ('all dead', tracking stopped, holding UNKNOWN); gate retirement recommended to PROME 11/05, row unchanged · KRE $25P lottery (D-54) |
 
 *Grouping is not approval or ownership (FORGE D-74). No fills, dispositions or card states are inferred here.*
 
@@ -44,6 +45,7 @@ At each print-cluster grade, this desk sends TERRY any candidate expression as a
 | 2026-10-23 | FLG / AMTB / CUBI Q3 print cluster | **No candidate.** FLG: none of the desk's CRE 'weakens if' lines met, but the move (−9% intraday 10/23) is post-print and FLG is not on this book; AMTB and CUBI printed cleaner | `reports/2026-10-23_boot/REPORT.md` §2, §6 |
 | 2026-10-28 | SBCF Q3 (last FL-frame name) + HY window close | **No candidate.** SBCF's 8-K cell held (criticized+classified 2.90% vs ≥3.20%) and no FL cell transmits. HY tightened to 318 [10/27] without REG-T-04 firing, so the broad-credit window that WQ-509 targeted did not open; that card is TERRY's. The live driver is the 10-year, and its falsifier is already in §4 | `reports/2026-10-28_boot/REPORT.md` §1–§2 |
 | 2026-10-31 | Q3 per-bank borrowing short list (FFIEC, 134 of 139): 6 frozen-rule flags (Regions, Renasant, Simmons, The Bancorp, Bank of Hawaii, Israel Discount NY) | **No candidate.** The frozen rule routes a listed flagged name only after a CONCENTRATED or MIXED verdict, which needs the FDIC full universe (~mid/late Nov); each flag reads at the issuer as a funding-mix shift (sweep or public-fund outflows, brokered swap, loan growth), not stress | `reports/2026-10-31_L857/REPORT.md` §3, §5 |
+| 2026-11-05 | FFIEC tail, FL 10-Q cells, CREED-T-01a, HY 332 | **No candidate.** Frozen rule routes only after a CONCENTRATED or MIXED verdict, none exists; FL frame holds; T-01a is a CMBS level, not a bank fire; REG-T-04 not fired. B-tier back above 330 is a watch row | `reports/2026-11-05_boot/REPORT.md` §§2, 6, 7, 9 |
 
 ## 3. Triggers this desk grades (levels live in `STATUS.md` §THRESHOLD STATUS — never here)
 
