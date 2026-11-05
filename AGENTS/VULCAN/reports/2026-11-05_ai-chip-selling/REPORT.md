@@ -4,7 +4,19 @@
 
 **Bottom line.** Nothing that would prove the AI spending cycle has turned is established today. No big buyer cut spending, and no VULCAN letter fired. Composite stays 15/25. The cause of the selling is not established. What is established is the shape, and two harder facts underneath it: borrowing has become much more expensive for the same issuers, and backlog additions slowed in the latest quarter. Both predate today.
 
-## 1. What the tape shows (vendor intraday, 10:32 ET, not closes)
+## 1a. Close read, added at closeout (vendor last, read 16:47 ET, not official closes) [KB-374]
+
+| Group | Moves vs November 4 close |
+|---|---|
+| Index | QQQ 647.05, −6.49%; SPY 733.00, −4.41%; RSP 216.87, −2.89%; SMH 447.73, −11.21% |
+| Chip suppliers | NVDA −9.26%, AVGO −10.43%, TSM −10.78%, AMD −17.26%, MU −17.46%, SNDK −22.26% |
+| Developers | CRWV −9.83%, APLD −14.69%, NBIS −14.94%, IREN −16.95% |
+| Power equipment | GEV −7.48%, VRT −14.02% |
+| Big buyers | AAPL −1.53%, AMZN −2.19%, GOOGL −2.20%, MSFT −3.58%, META −3.96%, ORCL −6.93% |
+
+The shape in section 1 held and widened: AMZN and META closed better than at 10:32 ET, and suppliers closed worse. RSP beat SPY by +1.52 points on the day, so the concentration test moved further from red. On the close, about 62% of SMH's fall from its October peak and about 66% of QQQ's came before any vote was counted (SMH −18.2% of −29.4%; QQQ −9.8% of −14.8%), lower than the morning's intraday shares. No VULCAN letter fired. SOXX shows −70.72% on the tool: split artifact, about −12.2% only if the relayed 3-for-1 holds [KB-359].
+
+## 1. What the tape shows (vendor intraday, 10:32 ET, not closes; superseded by 1a as the day's read)
 
 | Group | Moves |
 |---|---|
@@ -104,7 +116,7 @@ The market is repricing who gets paid and at what cost of money. Big buyers hold
 
 | Next evidence | Date | Status |
 |---|---|---|
-| Today's close | 11/5 | Supersedes every intraday figure here |
+| Today's close | 11/5 | Vendor last read in section 1a; official closes not certified here |
 | Mag-7 slot 9, GPU reading 9, S2 row | 11/6 post-close | Armed, not run |
 | TSMC October revenue; BIS and MOFCOM clocks | 11/10 | Registered |
 | CoreWeave Q3 | 11/10, 5:00 PM ET | Issuer-confirmed; replaces the modeled 11/9 |
