@@ -1,0 +1,295 @@
+2029/2030 RPM Base Residual 
+Auction Planning Period Parameters 
+
+September 3, 2026 
+
+For Public Use 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2029/2030 RPM Base Residual Auction Planning Period Parameters 
+
+This page is intentionally left blank. 
+
+PJM © 2026 
+
+www.pjm.com | For Public Use 
+
+i | P a g e  
+
+ 
+ 
+ 
+2029/2030 RPM Base Residual Auction Planning Period Parameters 
+
+Contents 
+
+Introduction .................................................................................................................................................................. 1 
+
+Summary ....................................................................................................................................................................... 1 
+
+PJM RTO Region Reliability Requirement ................................................................................................................. 1 
+
+Locational Deliverability Areas ................................................................................................................................... 3 
+
+Variable Resource Requirement Curves .................................................................................................................... 4 
+
+Target Level of Capacity ......................................................................................................................................... 5 
+
+Net Cost of New Entry (CONE) ............................................................................................................................... 5 
+
+Price Responsive Demand (PRD) ............................................................................................................................... 5 
+
+PJM © 2026 
+
+www.pjm.com | For Public Use 
+
+ii | P a g e  
+
+ 
+2029/2030 RPM Base Residual Auction Planning Period Parameters 
+
+Introduction 
+
+The updated planning parameters for the 2029/2030 RPM Base Residual Auction (BRA) that is to be conducted in 
+December of 2026 were posted on the PJM RPM website on August 31st, 2026. Please note that the planning 
+parameters include VRR curve data established by a price cap and price floor as approved by FERC in docket ER25-
+1357. This document describes the posted parameters and provides a comparison to the 2028/2029 BRA planning 
+parameters. 
+
+ Summary 
+
+  The forecast peak load for the PJM RTO for the 2029/2030 Delivery Year is 171,916 MW which is 5,963 MW, or 
+
+3.6%, above the forecast peak load of 165,954 MW for the 2028/2029 BRA. 
+
+  The PJM RTO Reliability Requirement for the 2029/2030 Delivery Year is 158,712 MW which is 2,699 MW, or 
+
+1.7%, higher than the 2028/2029 BRA value prior to adjustment for FRR obligations. 
+
+  The PJM WEST, MAAC, EMAAC, SWMAAC, PS, PS-NORTH, PEPCO, DPL-SOUTH, ATSI, ATSI-
+
+CLEVELAND, COMED, BGE, PPL, DAYTON, DEOK, DOM and JCPL LDAs will be modeled in the 2029/2030 
+BRA. PJM WEST has been added as a modeled LDA in the 2029/2030 BRA as the CETL/CETO ratio for this 
+zone fell below the 115% threshold.  This change was driven by a significant increase in the CETO for PJM 
+WEST due to large forecasted increases in summer and winter peak loads.     
+
+  The DOM and COMED LDA CETL/CETO ratios, which represents the amount, under emergency conditions, 
+that can be imported into the LDA divided by the amount needed to import are less than 1. This represents an 
+inability to import enough capacity into the DOM and COMED LDAs to satisfy projected reliability needs during 
+certain emergency conditions. 
+
+  As approved by FERC in Docket ER26-1556, a price cap of $337.83/MW-day (UCAP) and price floor of 
+
+$181.91/MW-day (UCAP) has been established for the 2029/2030 BRA. 
+
+  The points on the VRR Curves for the RTO and LDAs modeled in the 2029/2030 BRA are subject to adjustment 
+
+-3515. Updated VRR Curves would be 
+
+posted 30 days prior to the conduct of the 2029/20
+
+PJM RTO Region Reliability Requirement  
+
+The PJM RTO forecast peak load, the PJM RTO Region Reliability Requirement and the parameters used to derive 
+the requirement for the 2029/2030 BRA are shown and compared to the 2028/2029 BRA parameters in Table 1.  
+
+PJM © 2026 
+
+www.pjm.com | For Public Use 
+
+1 | P a g e  
+
+ 
+ 
+2029/2030 RPM Base Residual Auction Planning Period Parameters
+
+The forecast peak load for the PJM RTO for the 2029/2030 Delivery Year is 171,916 MW (with adjustments for load 
+served outside PJM) which increased by 5,693 MW, or 3.6% compared to the forecast peak load of 165,954 MW for 
+the 2028/2029 BRA. The forecast PJM system peak load is reported in Table B-10 of the 2026 PJM Load Forecast 
+Tables1. The PJM RTO Reliability Requirement for the 2029/2030 Delivery Year is 158,712 MW which increased by 
+2,699 MW, or 1.7% compared to the 2028/2029 BRA value prior to any adjustment for FRR obligations2.  
+
+The Installed Reserve Margin (IRM) and Forecast Pool Requirement (FPR) represent the level of capacity reserves 
+needed to satisfy the PJM reliability criterion of a Loss of Load Expectation not exceeding one occurrence in ten 
+years. The IRM and FPR represent the same level of required reserves but are expressed in different terms of 
+capacity value. The IRM expresses the required reserve level in terms of installed capacity MW (ICAP) as a percent 
+of the forecast peak load, whereas the FPR expresses the required reserve level in terms of unforced capacity MW 
+(UCAP) as a percent of the forecast peak load. Beginning with the 2025/2026 BRA, the FPR is equal to (1 + IRM) 
+times the Pool Wide Accredited UCAP Factor. The PJM RTO Reliability Requirement expressed in terms of unforced 
+capacity is used as the basis of the target reserve level to be procured in each RPM BRA and is equal to the forecast 
+RTO peak load, multiplied by the FPR. 
+
+Reserve Requirement Parameters for 2028/2029 and 2029/2030 BRAs
+
+1 The 2026 RPM Forecast is located at https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/2026-load-report-
+tables.xlsx
+
+2 The total UCAP Obligation of all Fixed Resource Requirement (FRR) Entities is subtracted from the PJM RTO Reliability 
+Requirement, and any applicable LDA Reliability Requirement, when determining the target reserve levels to be procured in each 
+RPM BRA. 
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+2 | P a g e
+
+2029/2030 RPM Base Residual Auction Planning Period Parameters 
+
+Locational Deliverability Areas  
+
+Prior to each BRA, the Capacity Emergency Transfer Objective (CETO) and Capacity Emergency Transfer Limit 
+(CETL) are calculated for each of twenty-seven potential Locational Deliverability Areas (LDAs) that are defined in 
+Schedule 10.1 of the PJM Reliability Assurance Agreement3.  Pursuant to Section 5.10 of Attachment DD of the PJM 
+Open Access Transmission Tariff (OATT), for any Delivery Year, a separate Variable Resource Requirement (VRR) 
+Curve is established for each LDA for which (1) the CETL is less than 1.15 times its CETO; (2) the LDA had a 
+Locational Price Adder in any one or more of the three immediately preceding BRAs; and (3) the MAAC, EMAAC and 
+SWMAAC LDAs are modeled in a BRA regardless of the outcome of the CETL/CETO test or prior BRA results. An 
+LDA not otherwise qualifying under the above three tests may also be modeled if PJM finds that such LDA is 
+determined to be likely to have a Locational Price Adder based on historic offer price levels or if such LDA is required 
+to achieve an acceptable level of reliability consistent with the Reliability Principles and Standards.  
+
+Based on an application of the above criteria, a separate VRR Curve will be established for the 2029/2030 BRA for 
+each of the LDAs listed in Table 2. The list includes the same LDAs that were modeled with a separate VRR Curve, 
+with the addition of PJM WEST, in the 2028/2029 BRA. Once an LDA is required to be modelled, it remains modelled 
+in order to maintain an acceptable level of reliability consistent with the Reliability Principles and Standards. 
+Establishing a separate VRR Curve for an LDA does not predestine the LDA to clear the BRA with a Locational Price 
+Adder; an LDA will only clear at a higher clearing price if reliability constraints are reached when attempting to import 
+capacity into the LDA in the auction clearing process.  
+
+A Reliability Requirement and a separate Variable Resource Requirement (VRR) Curve are established for each LDA 
+that is modeled in the BRA and the LDA CETL acts as a maximum limit on the quantity of capacity that can be 
+imported into the LDA. Table 2 shows the Reliability Requirement and the CETL for each LDA being modeled in the 
+2029/2030 BRA.  For comparison purposes, the LDA Reliability Requirement and CETL values used in the 
+2028/2029 BRA are also shown in Table 2. 
+
+Changes in an LDA reliability requirement 
+total UCAP located in the LDA. CETO changes are driven by changes in forecasted loads for the LDA and the 
+
+can be caused by additions, deactivation, or changes in accreditation of resources inside the LDA.  
+
+Year-over-year changes in the CETL of an LDA are primarily driven by the addition or removal of transmission 
+facilities, the magnitude and location of generation deactivations and generation additions, and changes in the load 
+distribution profile within the LDA. LDA CETL values for the 2029/2030 BRA vary significantly in some cases from 
+those of the 2028/2029 BRA in both the upward and downward direction but, in general, the magnitude of the 
+changes for most regions lies within the year-to-year changes historically experienced with some exceptions.  The 
+68% decline in the COMED CETL is attributed to a combination of increases in load, particularly from data centers, 
+and again from impacts to the system model from regions external to PJM. CETL increases in the BGE and 
+SWMAAC LDAs are results of new transmission upgrades in the PECO and BGE zones, including a new 500kv 
+substation and a new 500kv transmission line from the Peach Bottom area in PECO to the Graceton area in BGE.  
+
+3 CETO and CETL values were calculated for each of the twenty-seven potential LDAs defined in Schedule 10.1 of the PJM RAA 
+and these values are shown on the detailed planning parameters spreadsheet posted on the PJM RPM website. 
+
+PJM © 2026 
+
+www.pjm.com | For Public Use 
+
+3 | P a g e  
+
+ 
+ 
+2029/2030 RPM Base Residual Auction Planning Period Parameters
+
+The COMED LDA CETL had the largest overall percentage decrease, at 68%, compared to 2028/2029. The largest 
+percentage increase in CETL was in the SWMAAC LDA, at 37%, compared to 2028/2029. .
+
+LDA Reliability Requirements and Capacity Import Limits for 2028/2029 and 2029/2030 BRAs 
+
+Variable Resource Requirement Curves
+
+A Variable Resource Requirement (VRR) curve is established for the RTO and for each LDA modeled in the BRA. 
+The VRR curve is a downward-sloping demand curve used in the clearing of the BRA that defines the price for a 
+given level of capacity resource commitment relative to the applicable reliability requirement. Under normal 
+procedures as established by the PJM Tariff, the VRR curves for the PJM Region and each LDA are based on a 
+target level of capacity and the maximum of (1.15 * Gross CONE minus 75% of the energy and ancillary services 
+
+and 0.2 * Gross CONE).  For the 2026/2027, 2027/2028,2028/2029 and 2029/2030 BRAs, as 
+
+approved by FERC in Docket ER26-1556, a price cap and price floor have been established to the normal VRR 
+Curve.  For the RTO and each LDA, the cap has been set at $337.83/MW-day (UCAP) and the floor has been set at 
+$181.91/MW-day (UCAP) for the 2029/2030 BRA.  For comparison, the cap and floor prices for the 2028/2029 BRA 
+were $325.00/MW-day (UCAP) and $175.00/MW-day (UCAP) respectively.  The differences result from the change 
+in the Reference Resource UCAP factor from 79% to 76%.  As noted in the summary, pending the FERC decision on 
+filing ER26-
+proposal.  If approved, the revised VRR curves would be posted 30 days prior to the conduct of the 2029/2030 BRA.  
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+4 | P a g e
+
+2029/2030 RPM Base Residual Auction Planning Period Parameters
+
+Target Level of Capacity
+
+In the development of the VRR curve, the target level of capacity to be procured for the PJM RTO Region is the PJM 
+RTO Region Reliability Requirement, and the target level of capacity for each LDA is the LDA Reliability 
+Requirement. 
+
+Gross and Net Cost of New Entry (CONE)
+
+The Gross CONE (in UCAP terms) and the EAS revenue offset are used in the development of the RTO VRR Curve 
+and the VRR Curve for each modeled LDA. Table 3 shows the Gross CONE and EAS revenue offsets used to 
+determine the VRR curves for the PJM RTO and each LDA to be modeled in the 2029/2030 BRA.  For comparison 
+purposes, the values (including Net CONE) used in the 2028/2029 BRA are also shown in Table 3.  As previously 
+noted, a cap and floor will be applied to the VRR Curve for the 2029/2030 BRA.
+
+The Net CONE for the RTO and each LDA is equal to the Gross CONE applicable to the RTO and each LDA minus 
+the applicable EAS revenue offset. The Net CONE values decreased significantly for the SWMAAC, PEPCO, BGE 
+and DOM LDAs, due primarily to large increases in the respective E&AS offset values. Increases to Net CONE 
+occurred in the RTO and seven modeled LDAs, ranging from 7.0% in PL to 16.6% in COMED.  Smaller decreases 
+were observed in the ATSI, ATSI-Cleveland, DAYTON and DEOK LDAs. The Net EAS values for both the 2028/2029
+and 2029/2030 Delivery Years were calculated using a forward method shaped on historic LMP data from calendar 
+years 2023 through 2025.
+
+Net CONE for PJM RTO and LDAs for 2028/2029 and 2029/2030 BRAs
+
+Price Responsive Demand (PRD)
+
+Price Responsive Demand is provided by a PJM Member that represents retail customers having the ability to 
+automatically reduce consumption in response to changing wholesale prices. In the PJM Capacity Market, a PRD 
+Provider may voluntarily make a firm commitment of the quantity of PRD that will reduce its consumption in response 
+to real time energy price during a Delivery Year.
+
+PJM © 2026
+
+www.pjm.com | For Public Use
+
+5 | P a g e
+
+2029/2030 RPM Base Residual Auction Planning Period Parameters 
+
+In order to commit PRD for a Delivery Year, a PRD Provider must submit a PRD Plan for such Delivery Year that 
+
+Year and that the Plan satisfies all requirements as described in section 3A of PJM Manual 18: PJM Capacity Market. 
+A PRD Provider that is committing PRD in a BRA must also submit a PRD election in the Capacity Exchange system 
+which indicates the Nominal PRD Value in MWs that the PRD Provider is willing to commit at different reservation 
+prices ($/MW-day). The VRR curve of the RTO and each affected LDA is shifted leftward along the horizontal axis by 
+the UCAP MW quantity of elected PRD where the leftward shift occurs only for the portion of the VRR Curve at or 
+above the PRD Reservation price. Once committed in a BRA, a PRD commitment cannot be replaced; the 
+commitment can only be satisfied through the registration of price responsive load in the DR Hub system prior to or 
+during the Delivery Year. 
+
+For the 2029/2030 Delivery Year, zero Price Responsive Demand offers were submitted. 
+
+PJM © 2026 
+
+www.pjm.com | For Public Use 
+
+6 | P a g e  
+
+ 
+
