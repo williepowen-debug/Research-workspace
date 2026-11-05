@@ -1,44 +1,38 @@
 # VIOLET STATUS
 
-**As of:** November 5, 2026 16:44 ET (from `date`) for rulings; market data unchanged since 14:02 ET, close still ungraded. Catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1), Claude Code, Opus 5.5. Official closes through 11/04 from Cboe History CSVs and the VX settlement CSV; live values are about 13:45 ET delayed quotes, basis TICK. **Last real data refresh: 2026-11-05.** Thesis **v4.1.5**; no line, gate or letter changed.
+**As of:** November 5, 2026 16:51 ET (from `date`). Close graded on Cboe close print stamped 16:15:01 ET; History CSV not posted, ledger row TICK until it does. Official History closes through 11/04. SKEW 11/05 and HY 11/05 not yet published. Claude Code, Opus 5.5. **Last real data refresh: 2026-11-05.** Thesis **v4.1.9**.
 
 ## BOTTOM LINE
 
-**🔴 LAST READ BEFORE CLOSEOUT 11/05, TICK, NOT CLOSES: VIX 26.60 (+60% from 16.61) about 13:45 ET, high 28.09 about 10:53 ET. The curve is inverted and credit is not confirming. THE 11/05 CLOSE IS UNGRADED: this session closed at 14:0x ET on Will's word, before the bell.** VIX3M/VIX 0.935 (low 0.8776), VVIX 123.87 (high 132.11), VIX9D 29.33 (high 32.54). SPY −4.02%, QQQ −5.79%, KRE −2.48%, HYG −0.46% at 14:00 ET. HY 332bp [11/04], tighter and before today. **No registered line has fired:** VIX 30, VVIX 120 and VIX3M/VIX 1.000 all grade on the close. If VIX3M/VIX closes under 1.000 it is a peak-marker broadcast, never an onset call (KB-VIO-034). The shape reads closer to Path B than Path A (one session, cause not established). Signal sent to HENRY, LIQUID and RED: `outbox/2026-11-05_SIG-VIO-RED_to-HENRY-LIQUID-RED_vol-spike-curve-inverted-intraday.md`, KB-VIO-374.
+**🔴 11/05 CLOSE GRADED: VVIX 120 FIRED, VIX3M/VIX 1.000 FIRED, regime back to RISING_VOL, VIX 30 NOT FIRED.** VIX **28.18** (+69.66% from 16.61, third largest one-day rise of 9,308 Cboe sessions), high 28.36, finished near the high and above the 26.60 last read at 13:45 ET. VVIX **134.99** (+49.31%). VIX3M/VIX **0.9067**, first inverted close since 4/07/2026. VIX9D 32.66, VIX9D/VIX 1.159. VX/X6 24.5355 over VX/Z6 22.1918, M1:M2 −9.552%. COR1M 22.84. SPY −4.41%, QQQ −6.49%, RSP −2.89%, KRE −2.46%, HYG −0.31%, closes. **Inversion marks peaks, not onsets (KB-VIO-034); read it as stress being priced, not a forecast of more.** ⚠️ Basis: Cboe close print stamped 16:15:01 ET; History CSV not posted, ledger row TICK until it does. KB-VIO-379.
 
-**Through the 11/04 close:** the election-week scare released in one session, and volatility went back to LOW_VOL. Credit and tail pricing did not release with it. VIX closed **21.15 [11/02]** and **20.83 [11/03]**, both RISING_VOL, then **16.61 [11/04]** (−20.26%), LOW_VOL. No hard line fired: VVIX peaked 110.47 (line 120), 3M/VIX bottomed 1.0211 (line 1.00), the 5-day rise reached +25.1% (line +30%).
+**Credit has not confirmed.** HY 332bp [11/04], tighter and before today; HY 11/05 is not published. The +30%-in-5-days row is met on VIX, +63.84% from 17.20 [10/29]; its credit leg passes if HY 11/05 prints at or under 351bp (KB-VIO-378). HYG fell only 0.31% while QQQ fell 6.49%. Equity-led so far, closer to Path B than Path A; one session, cause not established.
 
-**⚠️ The regime-shift broadcast was missed.** The RISING_VOL close on 11/02 met VIOLET's all-desks outbound row, and VIOLET was dark. This file and NEXUS_BRIEF are the late record (KB-VIO-367). WALTER's cards carried the VIX figures to desks, but no regime call went out on time.
+**Correlation still did most of the work (KB-VIO-380, exploratory):** variance 2.88x = correlation 2.40x and stock variance 1.20x, about 83% correlation by log share, using closes. The 13:31 ET read said about 84%. **Analogs:** VIX closed +35% or more from under 20 in 17 prior episodes. In the 8 that closed inverted, as today did, VIX was lower 20 sessions later in 7 and made a higher close first in 4. The exception was 2020-02-24. Small sample; the ratio cannot be measured for the 4 episodes before 2013.
 
-**Size of the release (KB-VIO-368):** VIX −20.26% (22nd largest one-day drop of 9,309 Cboe sessions), VIX9D −30.83% to 15.19, VVIX −15.82%, and COR1M −41.85% from 16.39 to 9.53, the largest one-day percentage drop of its 5,243 sessions. ⚠️ **Cause not established:** the election result and Brent −8.7% on deal hopes shared the session, and no deal or reopening is established.
-
-**Election grade (KB-VIO-367):** VIX9D carried the event, with VIX9D/VIX 1.0619 and 1.0542, then 0.9145. VX/X6 could not have held it directly, because X6 prices VIX on 11/18 and the 30 days after. The futures-front inversion ended at +1.352% on 11/04 after 3 settles.
-
-**What did not calm:** HY OAS **340bp [11/03]** (268bp base [9/22], peak 344bp [10/30]; 11/04 unpublished), SKEW **150.90 [11/04]**, MOVE **93.88 [11/04]**. The credit-vol WATCH to November 17 stands. Oil-vol canary reads **FIRE 3.54 [11/04]**, mainly because VIX fell (OVX −4.7%, VIX −20.3%). It is a context canary, not an action gate.
-
-**Today, not a close:** VIX 17.50, VVIX 92.48, 3M/VIX 1.1086 at 09:49 ET (TICK). SPY $756.12 (−1.39%) and QQQ $669.83 (−3.20%, low $668.71) at 09:50 ET vendor, with VIX up about 5%. A QQQ fall of that size with index vol this quiet and COR1M 10.29 reads dispersed, not correlated. HENRY and VULCAN own the equity read; the cause is not read here.
+**Prior record:** RISING_VOL closes 11/02–11/03 were not broadcast on time, KB-VIO-367. The 11/04 release (VIX −20.26%, COR1M −41.85%, KB-VIO-368) reversed in one session. Election grade: VIX9D carried the event, not VX/X6. SKEW **150.90 [11/04]**, MOVE **93.88 [11/04]**; 11/05 not published. The credit-vol WATCH to November 17 stands.
 
 **Path A (KB-VIO-372/373, WQ-611 A, Will 11:54 ET):** Path A is now a WATCH with no gate, and the Lag Trade template is withdrawn. Measured: over-10-point spikes followed 6 of 19 signals (31.6%) against a 13.7% base, and post-2018 has only 3 episodes. The signal roughly doubles spike odds; it does not make a spike likely. ⚠️ Credit origin and cross-sector were not tested, so this describes a superset of Path A. **Live:** HY is +80bp from the 63-day low of 260bp [8/28]; the 10/22 signal's 2-6 week window runs about 11/05 to 12/07. No prediction is registered (item 3 not taken).
 
-**Convergence 32/50, re-scored on 11/04 closes and unchanged (KB-VIO-369).** The score is not a probability. No Will decision, trade, threshold or gate-letter change; $0 moved.
+**Convergence 38/50, re-scored on the 11/05 close from 32 (KB-VIO-379).** The score is not a probability. No Will decision, trade, threshold or gate-letter change; $0 moved.
 
 ## SIGNAL DASHBOARD
 
 | Metric | Latest value | Basis / interpretation |
 |---|---:|---|
-| VIX | **16.61** [11/04 official]; 17.50 [11/05 09:49 ET TICK] | [CONF] Cboe History; FRED VIXCLS agrees. Path 16.91 [10/28] → 17.20 → 19.42 → **21.15** → 20.83 → **16.61**. Intraday high 23.93 [10/30]. RISING_VOL closes 11/02, 11/03; LOW_VOL 11/04. |
-| VIX9D / VIX3M / VIX6M | **15.19 / 18.80 / 20.68** [11/04]; 3M/VIX **1.1318**, 9D/VIX 0.9145 | [CONF] Cboe History. 11/03 21.96 / 21.27 / 22.31, 3M/VIX 1.0211. TICK 11/05 09:49 ET 16.65 / 19.40 / 21.08, 3M/VIX 1.1086. |
-| VVIX | **90.41** [11/04]; 92.48 [11/05 09:49 ET TICK] | [CONF] Cboe History. Peak close 110.47 [11/02], p48.5 on 11/04. 120 line NOT FIRED on any close. |
-| SKEW / 20d mean | **150.90 / 153.99** [11/04]; p93.9 | [CONF] Cboe History. 149.76 [10/30], 152.78 [11/02], 150.01 [11/03]. FT-10 exit 0 of 4; RED grades. |
-| Adjusted VX M1:M2 | **+1.352%** VX/X6→VX/Z6 [11/04 settle] | [CONF] Cboe settlement: X6 17.7419, Z6 17.9817. Inverted −2.807% [10/30], −2.608% [11/02], −1.767% [11/03]. Unregistered observation. |
+| VIX | **28.18** [11/05 Cboe 16:15 ET]; high 28.36, low 17.28 | Close print, History pending. Path 17.20 [10/29] → 19.42 → 21.15 → 20.83 → 16.61 → **28.18**. Highest close since 30.61 [3/30/2026]. |
+| VIX9D / VIX3M / VIX6M | **32.66 / 25.55 / 25.29** [11/05 Cboe 16:15 ET]; 3M/VIX **0.9067**, 9D/VIX **1.159** | Close print, History pending. 3M/VIX lowest since 0.9028 [4/11/2025]; 65 of 4,309 closes at or below it. 11/04 15.19 / 18.80 / 20.68. |
+| VVIX | **134.99** [11/05 Cboe 16:15 ET]; high 136.91 | Close print, History pending. +49.31%. First close over 120 since 127.84 [3/30/2026]; highest since at least 3/6/2026. |
+| SKEW / 20d mean | **150.90 / 153.99** [11/04]; p93.9 | [CONF] Cboe History. 11/05 not published; quote guard withheld the prior print. FT-10 exit 0 of 4 through 11/04; RED grades. |
+| Adjusted VX M1:M2 | **−9.552%** VX/X6→VX/Z6 [11/05 settle] | [CONF] Cboe settlement: X6 24.5355, Z6 22.1918, 13 days to expiry. Back to inverted from +1.352% [11/04]. Unregistered observation. |
 | MOVE | **93.88** [11/04] | [CONF] investing.com primary, yfinance 11/04 bar agrees. 100.36 [11/02], 99.97 [11/03]. ⚠️ The 90.8–90.9 print labelled 11/04 on `fetch.py` and PROME's dashboard is a later undated print, not the 11/04 close (KB-VIO-370). |
-| OVX / OVX:VIX | **58.81 / 3.54 FIRE** [11/04]; p97.3 | [CONF] ovx.py. TICK 11/05 58.97 / 3.39 FIRE. 10/29 3.32 FIRE, 10/30 3.01 WATCH. ⚠️ 11/02–11/03 2.96 WATCH holds by 0.01 on the tool window and reads CALM on the Cboe-only window (KB-VIO-370). |
-| JPY RV10 / RV20 | **6.69% / 5.17%**, p32.0, CALM [11/05 09:46 ET] | [CONF] jpy_vol.py; USDJPY 158.24. ⚠️ FXY Dec-18 IV unconfirmed: 2.7% at 09:40 ET was a thin-open artifact, 15.1% at 09:46 ET is an early-session read. Do not use IV/RV until a mid-session pull. SAM owns substance. |
-| Implied correlation | COR1M **9.53**, COR3M 12.15 [11/04]; 10.29 / 13.02 [11/05 TICK] | [CONF] Cboe History. COR1M 13.51 / 14.52 / **16.39** [10/30–11/03]; 16.39 is the highest close since 6/10/2026. KB-VIO-368. |
-| Credit (owner references) | HY OAS **340bp**, CCC **13.16%** [FRED 11/03] | [CONF LIQUID 11/04]: HY >320 persistence MET 11/02, tier BROADENS; funding 079 NOT ARMED. 11/04 unpublished. BIN-B BLOCK ACTIVE (CCC ≥ 9.55). LIQUID owns spreads. |
-| SPY / QQQ | **$756.12 / $669.83** (−1.39% / −3.20%) | Vendor intraday 11/05 09:50 ET vs 11/04 closes $766.81 / $691.95. HENRY owns equity. |
+| OVX / OVX:VIX | **58.81 / 3.54 FIRE** [11/04]; 60.29 / about 2.14 [11/05, not a History close] | [CONF] ovx.py through 11/04. The ratio fell because VIX rose; oil vol is not leading. |
+| JPY RV10 / RV20 | **7.17% / 5.47%**, p37.2, CALM [11/05 post-close] | [CONF] jpy_vol.py; USDJPY 157.65. FXY IV 11.7% flagged stale off-hours. SAM owns substance. |
+| Implied correlation | COR1M **22.84**, COR3M 20.93 [11/05 Cboe 16:15 ET] | Close print, History pending. COR1M 9.53 [11/04], +139.7%. Stock vol estimate 59.0. |
+| Credit (owner references) | HY OAS **332bp**, CCC **12.97%** [FRED 11/04] | [CONF FRED]; 11/05 due from LIQUID by late morning 11/06. Peak 344bp [10/30]. BIN-B BLOCK ACTIVE (CCC ≥ 9.55). LIQUID owns spreads. |
+| SPY / QQQ | **$733.00 / $647.05** (−4.41% / −6.49%) | Vendor close 11/05 vs 11/04 closes $766.81 / $691.95. HENRY owns equity. |
 | CFTC VIX futures | Report **10/27**: lev-money net **−26,334**, p48.1 NORMAL | [CONF] cftc_cot.py boot 11/05, latest available. Dealers +70,767 (p91.7). No schedule assumed for the next report. |
-| VIX options | Nov 18 C/P OI 2.42; 30C OI 386,598; Nov 11 weekly 80C OI +369%, 75C OI +339% | [CONF] vix_options.py 11/05 09:40 ET; OI vintage as the vendor serves it. |
+| VIX options | Nov 18 C/P OI 2.42; 30C OI 386,598; Nov 11 weekly call OI 136,695 | [CONF] vix_options.py 11/05 post-close; OI vintage as the vendor serves it. |
 
 ## GATE STATUS
 
@@ -46,43 +40,44 @@
 |---|---|---|
 | RED-FT-10 | **RED-owned FIRING since 10/14** | Exit <140 ×4: 0 of 4 (11/04 150.90). VIOLET supplies Cboe bars only; packet sent 11/05. |
 | RED-FT-06 | **RED-owned** | Exit needs VIXCLS ≥18 ×5. RED recorded 3 of 5 through 11/03. VIXCLS 16.61 [11/04] is under 18. RED grades; packet sent 11/05. |
-| VVIX 120 daily | **NOT FIRED** through 11/04; **11/05 intraday high 132.11 = WATCH**, close ungraded | Peak close 110.47 [11/02]. SETTLE basis. |
-| VIX3M/VIX cash inversion | **NOT FIRED** through 11/04; **under 1.000 on TICK 11/05**, close ungraded | Close low 1.0211 [11/03]; 11/05 intraday low 0.8776. SETTLE basis. Peak marker. |
-| Regime-shift outbound row | **MET 11/02, not broadcast; reversed 11/04; RISING_VOL on TICK 11/05** | Late record KB-VIO-367. Delivery is NEXUS_BRIEF. Today sent live, KB-VIO-374. |
-| Path-A VIX<20 filter | **FAILED 11/02–11/03, MET 11/04, FAILED on TICK 11/05** | Filter alone is not the full Path-A / LIQUID-076 conjunction. |
-| OVX/VIX canary | **FIRE 11/04** (context canary, not an action gate) | Route: NEXUS_BRIEF cross-domain + BRENT/HAWK reference. No outbox file: VIX fell. |
-| Cheap-tail alert | **DORMANT 2/4** [11/04] | VVIX 90.41 vs ≤90, VIX 16.61 vs ≤16; SKEW and catalyst legs met. Rows 10/29–11/04 backfilled by `--as-of`. Live VIX 17.50 is not near. Observation only; no opportunity declared. |
+| VVIX 120 daily | **FIRED 11/05: 134.99** | SETTLE line. Cboe close print stamped 16:15:01 ET; History CSV not posted, ledger row TICK until it does. 🟠 RED, HENRY. |
+| VIX3M/VIX cash inversion | **FIRED 11/05: 0.9067** | SETTLE line. Cboe close print stamped 16:15:01 ET; History CSV not posted, ledger row TICK until it does. 🔴 LIQUID, HENRY. Peak marker, KB-VIO-034. |
+| VIX 30 / 40 | **NOT FIRED** | Close 28.18, 1.82 under 30; high 28.36, no touch. |
+| Regime-shift outbound row | **MET 11/05: LOW_VOL → RISING_VOL, delivered same session** | Earlier 11/02 miss on record, KB-VIO-367. Delivery NEXUS_BRIEF and outbox SIG. |
+| Path-A VIX<20 filter | **FAILED 11/05: VIX 28.18** | Filter alone is not the full Path-A / LIQUID-076 conjunction. Context: the unregistered 10/22 episode needs a close at or above 29.03 by about 12/07; 0.85 away. |
+| OVX/VIX canary | **FIRE 11/04; about 2.14 on 11/05** (context canary, not an action gate) | Grade on the OVX History close. |
+| Cheap-tail alert | **DORMANT** | VIX 28.18 and VVIX 134.99 are far outside its ≤16 and ≤90 legs. Observation only. |
 | BIN-A / BIN-B | **STUCK / BLOCK ACTIVE** | CCC 12.97% [11/04] ≥ 9.55. |
-| VIX +30% in 5 days, credit flat | **VIX leg met on TICK 11/05; credit leg open** | +55% on last TICK 26.60 against 17.20 [10/29]. Flat now means HY 11/05 at or under 351bp (326bp [10/29] +25, KB-VIO-378); 332bp [11/04]. Grade on the official close and FRED 11/05. |
+| VIX +30% in 5 days, credit flat | **VIX leg MET, +63.84%; credit leg open** | 28.18 against 17.20 [10/29]. Flat means HY 11/05 at or under 351bp (326bp [10/29] +25, KB-VIO-378); 332bp [11/04]. |
 | MOVE pause/resume | **RETIRED 11/05** | Will's word, KB-VIO-377. MOVE stays a convergence vector; 72.41 and 66 are reference levels only. |
 | COR1M first-tell / pre-CPI cheap-tail / Q2 L477 / VIO-FOMC-0916 / F-B / RV1 | **RETIRED / PASSED / CLOSED / FAILED / HELD / RETIRED** | Terminal outcomes unchanged. |
 
 ## CONVERGENCE MATRIX
 
-**Convergence Score: 32/50** (10 vectors × 5). Re-scored on closes through 11/04; total and every vector unchanged from 10/29 (KB-VIO-369).
+**Convergence Score: 38/50** (10 vectors × 5). Re-scored on the 11/05 close from 32 (KB-VIO-379): VVIX +3, front curve +3, correlation +1, equity +1, oil −2.
 
 | Vector | Score | Dated basis |
 |---|---|---|
 | Rates vol | 🔴🔴 **5** | MOVE 93.88 [11/04] above reference levels; 100.36 [11/02]. |
-| Credit | 🔴 **4** | LIQUID BROADENS; HY 340bp [11/03], peak 344bp [10/30]; CCC 13.16%. |
-| SKEW / tail pricing | 🔴🔴 **5** | RED FT-10 FIRING (0 of 4 exit closes); 150.90 [11/04], p93.9. |
-| Oil vol | 🔴🔴 **5** | Canary FIRE 3.54, p97.3 [11/04]; OVX 58.81, p92.2. |
+| Credit | 🔴 **4** | LIQUID BROADENS; HY 332bp [11/04], peak 344bp [10/30]; CCC 12.97%. 11/05 unpublished. |
+| SKEW / tail pricing | 🔴🔴 **5** | RED FT-10 FIRING (0 of 4 exit closes); 150.90 [11/04], p93.9. 11/05 unpublished. |
+| Oil vol | 🟠 **3** | OVX 60.29, ratio about 2.14 [11/05]; FIRE 3.54 [11/04] was VIX falling. Not leading. |
 | Positioning | 🟡 **2** | CFTC 10/27 lev-money net −26,334, p48.1 NORMAL. |
-| Implied correlation | 🟠 **3** | COR1M peak 16.39 [11/03], then 9.53 [11/04]. |
-| Equity concentration | 🟠 **3** | QQQ −3.20% vs SPY −1.39% [11/05 vendor intraday, not a close]; no cascade on a close. |
-| VVIX | 🟡 **2** | 90.41, p48.5 [11/04]. |
-| Front curve | 🟡 **2** | 3M/VIX 1.1318, M1:M2 +1.352% [11/04]. |
-| JPY carry | ⚪ **1** | RV10 6.69%, p32.0, CALM [11/05]. |
+| Implied correlation | 🔴 **4** | COR1M 22.84 [11/05], from 9.53. No registered line. |
+| Equity concentration | 🔴 **4** | QQQ −6.49%, SPY −4.41%, RSP −2.89% [11/05 close]. HENRY owns the read. |
+| VVIX | 🔴🔴 **5** | 134.99 [11/05], 120 line fired. |
+| Front curve | 🔴🔴 **5** | 3M/VIX 0.9067, 9D/VIX 1.159, M1:M2 −9.552% [11/05]. |
+| JPY carry | ⚪ **1** | RV10 7.17%, p37.2, CALM [11/05]. |
 
 ## REGIME STATUS AND DRIFT
 
-**LOW_VOL on the 11/04 close, after two RISING_VOL closes.** The excursion lasted two sessions, and the curve never inverted on a cash close. It released on 11/04 together with the election result and an oil fall. The original October 13 → November 17 credit-vol WATCH stands: HY is +72bp from the 268bp [9/22] base at 340bp [11/03], peak +76bp, under the central 100bp size condition. It is a watch, not a letter.
+**RISING_VOL on the 11/05 close, one session after LOW_VOL.** The curve inverted on a cash close for the first time since 4/07/2026. Index credit has not moved with it on any published print. The October 13 → November 17 credit-vol WATCH stands: HY +64bp from the 268bp [9/22] base at 332bp [11/04], peak +76bp, under the central 100bp size condition. It is a watch, not a letter.
 
-**Dealer gamma (HENRY-owned, context only):** ⚠️ last read in hand is the **11/02 pre-open map, past HENRY's stated shelf life, so the sign is unverified.** That map: NEGATIVE at 14d and 35d on SPX, QQQ and NDX; SPX flips ~7,706 / ~7,711, walls withheld; QQQ 680 put and 700 call published. QQQ $669.83 at 09:50 ET sits below that 680; HENRY grades whether it matters.
+**Dealer gamma (HENRY-owned, context only):** ⚠️ last read in hand is the **11/02 pre-open map, past HENRY's stated shelf life, so the sign is unverified.** QQQ $647.05 closed below that map's 680 put; HENRY grades whether it matters.
 
-**What would change the read:** HY confirming wider on the 11/04+ prints with VIX still under 20 (the lag pattern); payrolls 11/06 and CPI 11/10; VIX back above 20 on a close; SKEW <140 (RED grades FT-10).
+**What would change the read:** HY 11/05 over 351bp, or index credit and banks widening on later prints (Path A evidence); a VIX close over 30; payrolls 11/06 and CPI 11/10; SKEW <140 (RED grades FT-10).
 
-**Strongest counterevidence to the stress case:** the largest one-day percentage fall in COR1M's published history, VVIX back to p48.5, the curve at 1.1318, the futures front back in contango, and speculators no longer crowded long VIX futures. Hidden collateral, private redemptions and offshore dollar funding remain unmeasured.
+**Strongest counterevidence to the stress case:** credit has not confirmed on any published print, HYG fell 0.31% against QQQ −6.49%, oil vol and carry are not leading, and inverted analogs were lower 20 sessions later in 7 of 8. **Strongest evidence for it:** VIX closed near the high after a higher afternoon, and 2020-02-24 began the same way. Hidden collateral, private redemptions and offshore dollar funding remain unmeasured.
 
 ## POSITIONS
 
@@ -90,13 +85,13 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 
 ## RESEARCH QUEUE AND OPERATING LIMITS
 
-1. **Stamp the 11/05 row SETTLE** after the close: `thresholds.py --supersede` or `backfill.py --spot-only` once Cboe History posts; add the 11/05 SKEW bar.
+1. **Stamp the 11/05 row SETTLE** when Cboe History posts: `thresholds.py --supersede` before midnight, `backfill.py --spot-only` after; add the 11/05 SKEW bar and the OVX close; confirm the grade against History.
 2. **Payrolls 11/06 and CPI 11/10 pre/post surface read.** BLS's CPS calendar lists 11/06 by search only; CPI 11/10 unconfirmed; bls.gov 403 on 11/05.
-3. **Credit-vs-vol read when FRED posts 11/04 HY.** LIQUID owns spreads; VIOLET reads only the lag.
+3. **Credit-flat leg:** LIQUID's HY 11/05 print, by late morning 11/06, closes the 5-day row against 351bp.
 4. **FXY IV mid-session re-pull** before any IV/RV read.
 5. **Open tool defect (KB-VIO-365, KB-VIO-370):** implied_corr.py stamps SETTLE by clock. Row repairs done; the tool fix is not commissioned.
 6. **November 17: credit-vol window endpoint and NVIDIA results after the close, then the November 18 VIX AM SOQ.** Both added to CATALYSTS 11/05. L342 11/26 holiday-bar defect (not due), December 16 L441 (VX_TERM_HISTORY refreshed through 11/04 on 11/05).
 7. **Path A F2 audit: CLOSED 11/05, WQ-611 A encoded (KB-VIO-372/373).** NOT RUNNABLE, NO GATE (post-2018 n=3). Regime Shift Trade size line withdrawn under WQ-614 A, for consistency, not on a finding against the trade (KB-VIO-376).
 8. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
-**Persistence / coordination (11/05):** boot pull clean. 8 WALTER cards drained into board_log.tsv and processed/; COR-20261031-02 receipted NO-OP. Corrections check rc 0. Ledgers repaired 10/29–11/04. PREDICTIONS.tsv: all 6 rows terminal, so the staleness alert has no live row behind it. Closeout not run; PROME holds it.
+**Persistence / coordination (11/05):** close graded 16:51 ET; outbox SIG and RED bars sent. Corrections check rc 0. Both Will-facing pages refresh once History and SKEW post. PREDICTIONS.tsv: all 6 rows terminal, so the staleness alert has no live row behind it.

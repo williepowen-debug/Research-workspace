@@ -15,9 +15,13 @@ VIX squared is about correlation times average stock variance. Ledger `IMPLIED_C
 | VIX lower 20 sessions later | 15 of 17 |
 | Higher closing VIX within 20 sessions | 11 of 17 |
 | S&P higher 20 sessions later | 12 of 16 with data |
-| Close under VIX3M on the day, VIX lower 20 sessions later | 7 of 8 |
+| VIX closed above VIX3M on the day (inverted), VIX lower 20 sessions later | 7 of 8 |
 
 Exceptions at 20 sessions: 1990-07-23, 2020-02-24. 2015-08-21 reached 40.74 before fading. Median S&P +1.67% at 20 sessions. Limits: small sample, one clustered regime mix, today's close unknown, and these are conditioned on a close.
+
+## Close update, 16:51 ET
+
+Close print, Cboe 16:15:01 ET: VIX 28.18, +69.66%, third largest one-day rise of 9,308 sessions; COR1M 22.84, stock vol estimate 59.0. Variance 2.88x = correlation 2.40x and stock variance 1.20x, about 83% correlation by log share; the intraday read holds. Today closed inverted at 0.9067, so the inverted row applies: 8 episodes, all since 2013; VIX lower 5 and 20 sessions later in 7 of 8, higher close within 20 sessions in 4 of 8, exception at 20 sessions 2020-02-24. Of the 16 earlier episodes that closed under 30, 4 later closed at or above 30. Row label corrected: it read "Close under VIX3M", meaning the ratio under 1.000, which is VIX above VIX3M.
 
 ## Competing readings
 

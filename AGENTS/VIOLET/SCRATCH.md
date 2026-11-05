@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 5, 2026 16:44 ET (from `date`), rulings encoded after the bell; data and handoff otherwise from 12:42 ET. Closed out on Will's word before the bell; the 11/05 close is UNGRADED. Boot, then catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1). Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.8; convergence **32/50, re-scored and unchanged**. **Window held open: no closeout until PROME or Will asks.**
+**As of:** November 5, 2026 16:51 ET (from `date`). Close GRADED on the Cboe 16:15:01 ET print, KB-VIO-379; History CSV, SKEW and HY 11/05 pending. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**.
 
 ## CHANGES SINCE (10/30 16:50 ET → 11/05 09:39 ET)
 
@@ -21,8 +21,8 @@
 
 ## NEXT SESSION
 
-0. **OWED FIRST: the 11/05 close is ungraded.** Run `thresholds.py --supersede` (the VX_DAILY 11/05 row still reads TICK 17.5 LOW_VOL and is wrong for the day), `backfill.py --spot-only` when Cboe History posts, add the SKEW bar. Grade VIX 30, VVIX 120, VIX3M/VIX 1.000, the regime and the 5-day row on official closes. Then refresh STATUS, brief, both pages, and test KB-VIO-375's read. **Promised to RED: official 11/05 Cboe bars.**
-1. **FIRST: grade the 11/05 close.** VIX, VIX3M/VIX, VVIX, regime, the 5-day row (credit flat = HY 11/05 at or under 351bp, KB-VIO-378); refresh STATUS, brief, both pages. Live TICK record: KB-VIO-374, outbox SIG. FRED 11/05 HY when published closes the credit-flat leg; HY 332bp [11/04] is in, tighter. LIQUID owns the spread. LIQUID posts the 11/05 print by late morning 11/06 (KB-LIQ-151). Gap LIQUID found: the outbound row "credit spreads flat" has no number, and adding one is a line change for Will, so state the dated print and call it a judgment.
+0. **OWED FIRST: stamp 11/05 SETTLE.** When Cboe History posts: `thresholds.py --supersede` before midnight, `backfill.py --spot-only` after; add SKEW and the OVX close; confirm KB-VIO-379's fires against History. Send RED the SKEW bar. Refresh both pages if not already done.
+1. **11/06: close the credit leg.** LIQUID posts HY 11/05 by late morning (KB-LIQ-151). Flat = at or under 351bp (KB-VIO-378). LIQUID owns the spread. Then send the 5-day row's outcome; HENRY and RED own the response.
 2. FXY IV re-pull done mid-session: 12.1% [12:38 ET, 43 DTE, 5 strikes] against RV10 7.05%; carry canary CALM.
 3. Payrolls 11/06 and CPI 11/10 pre/post surface read. Verify both dates at bls.gov (403 on 11/05); CPI search unconfirmed.
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.
