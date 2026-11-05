@@ -2,7 +2,7 @@
 
 > **Reconciliation October19 — Q2 historical card, not a current X1 grade.** The August23 absolute mark card remains CONFIRM at its own letter. BROCK adjudicated August28 that an absolute card with no manager comparator cannot satisfy the relative wrapper-leads-managers half; X1 remains CLOSED / DON’T-SIZE. Owner packet: `AGENTS/LIQUID/inbox/processed/2026-08-28_from-BROCK_X1-wrapper-half-ADJUDICATED-not-armed-your-card-is-sound-and-cannot-reach-the-threshold.md`. The “arms X1” and “contradictory reads” passages below are the pre-adjudication record, superseded on that interpretation. FSK’s denominator defect is resolved in the grade (Q1 NAV18.83); the reproduced baseline20.89 is the known old error. M3/M4 and ARCC M1 remain ungraded here; no Q3 card or new mark grade is inferred. Current state: STATUS§§1–2.
 
-> **November 4 workbook reconciliation (existing evidence only):** remaining Q2 fields are M3 **non-accrual % by fair value**, M4 **regular dividend action**, and M5 **P/NAV discount**, plus unmeasured ARCC M1. PIK is not M4 in this card. The FSK denominator mismatch was already resolved by the August 23 grade; the later “Known gaps” list preserves registration-era uncertainties, not a new unresolved FSK baseline. Historical “daily NAV” wording means daily-traded BDC equity alongside periodic NAV disclosures, not daily issuer NAV publication. The original grade, baseline table and pre-registered definitions below are unchanged. The separately owed Q3 card remains pending in STATUS§3; no new Q2/Q3 grade or X1 satisfaction.
+> **State November 5:** the live card is the Q3 card below. Q2 M3/M4/M5 and ARCC M1 are closed except GSBD M3, which is unread. PIK is not M4 in this card. The FSK denominator mismatch was already resolved by the August 23 grade; the later “Known gaps” list preserves registration-era uncertainties, not a new unresolved FSK baseline. Historical “daily NAV” wording means daily-traded BDC equity alongside periodic NAV disclosures, not daily issuer NAV publication. The original grade, baseline table and pre-registered definitions below are unchanged. The separately owed Q3 card remains pending in STATUS§3; no new Q2/Q3 grade or X1 satisfaction.
 
 **Purpose:** Track whether public BDC marks catch down to the mark-vs-price divergence — the specific transmission mechanism between private-credit mark-to-model fiction and public-market price discovery. **This is the LIQUID-domain reflection of the BROCK "wrapper-leads-managers-down" half of the X1 conjunction.**
 **Built:** 2026-04-16 · **Light-populated:** 2026-06-12 (Q1 NAVs) · **★ PRE-REG grading card added:** 2026-07-18 (Sat-eve, PROME Rank-1, Will-approved) for the **7/25-28 → early-Aug Q2 marks window** = NEXUS R3 credit-bifurcation transmission test · **KB:** KB-LIQ-083.
@@ -35,7 +35,7 @@ TCW writing Red Lobster equity to 2¢ while keeping the 2029 loan at par (Apr 14
 | BXSL | 25.53 | 0.9645 |
 | GSBD | 12.06 | 0.9368 |
 | OBDC | 14.26 | 0.9895 |
-| ARCC | 19.35 | ⚠️ not tagged, unmeasured (M1 needs a non-XBRL read or stays unmeasured) |
+| ARCC | 19.35 | 0.9890 (Q2 10-Q XBRL, measured November 5; the August 23 table had it as untagged) |
 | MAIN | 33.92 | 1.1551 |
 
 **Metrics:** M1 to M5 as defined in the Q2 card below, QoQ against the baseline above.

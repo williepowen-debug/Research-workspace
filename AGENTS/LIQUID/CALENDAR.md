@@ -1,6 +1,6 @@
 # LIQUID — Calendar & Data Releases
 
-**Reviewed:** 2026-10-26T19:16:42-04:00 — reconciled to saved October26 evidence; human twin of `workbook/CATALYSTS.tsv`, 57 existing registered/owner obligations. October27 rows transcribe STATUS§3 duties; no new gate, threshold or collector. Past date alone does not prove resolution. Machine rows retain exact criteria, source notes and date classes.
+**Reviewed:** 2026-10-26T19:16:42-04:00 — reconciled to saved October26 evidence; human twin of `workbook/CATALYSTS.tsv`, 64 registered/owner obligations (seven forward rows added November 5). October27 rows transcribe STATUS§3 duties; no new gate, threshold or collector. Past date alone does not prove resolution. Machine rows retain exact criteria, source notes and date classes.
 
 Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior full calendar preserved in `archive/2026-10-14_staleness-sweep/CALENDAR.md`.
 
@@ -55,7 +55,7 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-10-30 | ✅ PRICING READ 2026-10-19 — Volta loan SOLD; WQ441 A/B unresolved | ESTIMATED: exact criteria/outcome/source limits in machine row |
 | 2026-11-06 | ✅ RESOLVED S2 2026-10-16 — LIQ-07 window closes | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
 | 2026-11-10 | ✅ RESOLVED S2 2026-10-16 — LIQ-07 Resolve_By | REGISTRY_REVIEW: exact criteria/outcome/source limits in machine row |
-| 2026-11-13 | Q3 BDC 10-Q window (FSK/OBDC/broader marks) — Q3 card + Q2 M3/M4/M5 owed | ESTIMATED: exact criteria/outcome/source limits in machine row |
+| 2026-11-13 | Q3 BDC 10-Q window — Q3 card final grade (GSBD, MAIN outstanding) | ESTIMATED: exact criteria/outcome/source limits in machine row |
 | 2026-11-11 | MSCI non-operating-company rule — final constituent list (effective 11/30 close) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
 | 2026-10-21 | ✅ GRADED 2026-10-21 — Treasury20Y reopening — $13B,CUSIP912810UX4: high yield 5.469%, cover 2.73x, indirect 58.16% competitive accepted (TreasuryDirect); no failure, tail UNGRADED | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-10-22 | ✅ GRADED 2026-10-22 — Treasury5Y TIPS — $26B,CUSIP91282CRR4: real yield2.367%,cover2.41x,indirect62.04%;no failure,tail UNGRADED | CONFIRMED: exact criteria/outcome/source limits in machine row |
@@ -63,3 +63,10 @@ Swap-line tool/letter WITHHELD; ETF issuer histories recoveredOctober14. Prior f
 | 2026-10-22 | ✅ READ 2026-10-22 — NY Fed dealer as-ofOctober14 publication;076 W2 MET | CONFIRMED: exact criteria/outcome/source limits in machine row |
 | 2026-10-27 | Brazil event-day US funding/credit/duration publication read | ESTIMATED: exact criteria/outcome/source limits in machine row |
 | 2026-10-27 | Brazil buyback settlement and retained LFT placement — existing follow-through | ESTIMATED: exact criteria/outcome/source limits in machine row |
+| 2026-11-09 | 3-year note auction, $58B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
+| 2026-11-10 | 10-year note auction, $42B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
+| 2026-11-12 | 30-year bond auction, $25B (refunding, 13:00 ET close) | CONFIRMED: exact criteria/outcome/source limits in machine row |
+| 2026-11-18 | TIC release, 16:00 ET (September data) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
+| 2026-12-09 | December FOMC decision (December 8-9) | CONFIRMED: exact criteria/outcome/source limits in machine row |
+| 2026-12-15 | TIC release, 16:00 ET (October data) | DATA_RELEASE: exact criteria/outcome/source limits in machine row |
+| 2026-12-31 | Year-end funding turn | CONFIRMED: exact criteria/outcome/source limits in machine row |

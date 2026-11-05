@@ -1,0 +1,17 @@
+['accruedInterest', 'accruedInterestPerAmount', 'adjustedAccruedInterest', 'adjustedCurrentlyOutstanding', 'adjustedPrice', 'allottedAtHighDiscountMar
+None Bill 4-Week issue 2026-11-10 115000000000
+None Bill 8-Week issue 2026-11-10 110000000000
+None Note 3-Year issue 2026-11-16 58000000000
+None Note 10-Year issue 2026-11-16 42000000000
+None Bond 30-Year issue 2026-11-16 25000000000
+None Bill 13-Week issue 2026-11-12 None
+None Bill 26-Week issue 2026-11-12 None
+None Bill 6-Week issue 2026-11-12 None
+--136 Q3
+2026-10-01 SOFR-IORB -3 SOFR99-IORB 7 SRF 0.0
+2026-10-02 SOFR-IORB -2 SOFR99-IORB 6 SRF 0.0
+2026-10-05 SOFR-IORB -1 SOFR99-IORB 7 SRF 0.002
+2026-10-07 SOFR-IORB -2 SOFR99-IORB 6 SRF 0.002
+WRESBAL min since 10/1 2893770.0
+--144 n 36 first ('2023-12-01', 1) rise share 66.7 mean 2.5 others mean 0.35
+last 4 [('2026-08-03', 3), ('2026-09-01', 4), ('2026-10-01', 23), ('2026-11-02', -11)] rank of 11/02 2
