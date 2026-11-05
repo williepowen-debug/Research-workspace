@@ -1,0 +1,359 @@
+{
+ "retrieved_utc": "2026-11-05T01:59:45+00:00",
+ "units": "USD millions",
+ "client": "generic User-Agent; full documents, Note-level tables read",
+ "sources": {
+  "JPM": {
+   "cik": 19617,
+   "title": "JPMORGAN CHASE & CO",
+   "accession": "0001628280-26-069523",
+   "filed": "2026-11-03",
+   "report": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+   "bytes": 11540725,
+   "sha256": "9cfbea13f6ac77cc20c198b49e42427641286033679207ab47326207ae445100"
+  },
+  "BAC": {
+   "cik": 70858,
+   "title": "BANK OF AMERICA CORP /DE/",
+   "accession": "0000070858-26-000548",
+   "filed": "2026-10-30",
+   "report": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "bytes": 10917360,
+   "sha256": "3f0a211aaa61b72e3814488d94d7158a2b0d7f972b842082d72a00db192edb19"
+  },
+  "AXP": {
+   "cik": 4962,
+   "title": "AMERICAN EXPRESS CO",
+   "accession": "0000004962-26-000409",
+   "filed": "2026-10-23",
+   "report": "2026-09-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "bytes": 3265150,
+   "sha256": "915973968f8d45507c9356ac601b295de5f684152576cfc52eaf75bc44277a8e"
+  },
+  "JPM_2026q2": {
+   "cik": 19617,
+   "accession": "0001628280-26-054343",
+   "filed": "2026-08-06",
+   "report": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+   "bytes": 11513980,
+   "sha256": "e5782d471398fbf067098b76fd258e3a816f974c9e3b5c56a34d9f434e254379"
+  },
+  "BAC_2026q2": {
+   "cik": 70858,
+   "accession": "0000070858-26-000394",
+   "filed": "2026-07-31",
+   "report": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000394/bac-20260630.htm",
+   "bytes": 10917420,
+   "sha256": "49699e42781113345c3b2bf6ef7224bdfd6e909cef9839f18249dc6eff3355c7"
+  },
+  "AXP_2026q2": {
+   "cik": 4962,
+   "accession": "0000004962-26-000322",
+   "filed": "2026-07-24",
+   "report": "2026-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000322/axp-20260630.htm",
+   "bytes": 3225200,
+   "sha256": "6e8c6e739dcfe583d2fba8d4ea1e3389a9be6a02056d886637fe79f6729fb07b"
+  },
+  "AXP_2025q2": {
+   "cik": 4962,
+   "accession": "0000004962-25-000083",
+   "filed": "2025-07-18",
+   "report": "2025-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496225000083/axp-20250630.htm",
+   "bytes": 3534592,
+   "sha256": "4bb70088ba1ca8bf558abe47a2681443cca33b46719efe39ef6b41881d0ca0e0"
+  }
+ },
+ "not_read": {
+  "Citi": "no Q3 10-Q in SEC feed at 2026-11-04 21:01 ET; latest 10-Q report date 2026-06-30"
+ },
+ "cohorts_cur_30to89_90plus_total": {
+  "JPM": {
+   "Jun-25": [
+    1135,
+    102,
+    60,
+    1297
+   ],
+   "Sep-25": [
+    1438,
+    134,
+    70,
+    1642
+   ],
+   "Jun-26": [
+    2352,
+    181,
+    118,
+    2651
+   ],
+   "Sep-26": [
+    2527,
+    215,
+    117,
+    2859
+   ]
+  },
+  "BAC": {
+   "Jun-25": [
+    547,
+    53,
+    45,
+    645
+   ],
+   "Sep-25": [
+    573,
+    58,
+    44,
+    675
+   ],
+   "Jun-26": [
+    622,
+    57,
+    48,
+    727
+   ],
+   "Sep-26": [
+    652,
+    63,
+    45,
+    760
+   ]
+  },
+  "AXP": {
+   "Jun-25": [
+    2761,
+    200,
+    80,
+    3041
+   ],
+   "Sep-25": [
+    2811,
+    219,
+    80,
+    3110
+   ],
+   "Jun-26": [
+    3011,
+    197,
+    80,
+    3288
+   ],
+   "Sep-26": [
+    3042,
+    202,
+    76,
+    3320
+   ]
+  }
+ },
+ "cohort_derived": {
+  "JPM": {
+   "delinquent": {
+    "Jun-25": 162,
+    "Sep-25": 204,
+    "Jun-26": 299,
+    "Sep-26": 332
+   },
+   "share_pct": {
+    "Jun-25": 12.5,
+    "Sep-25": 12.4,
+    "Jun-26": 11.3,
+    "Sep-26": 11.6
+   },
+   "total": {
+    "Jun-25": 1297,
+    "Sep-25": 1642,
+    "Jun-26": 2651,
+    "Sep-26": 2859
+   },
+   "jun_sep_2026_del_pct": 11.0,
+   "jun_sep_2025_del_pct": 25.9,
+   "yoy_total_pct": 74.1
+  },
+  "BAC": {
+   "delinquent": {
+    "Jun-25": 98,
+    "Sep-25": 102,
+    "Jun-26": 105,
+    "Sep-26": 108
+   },
+   "share_pct": {
+    "Jun-25": 15.2,
+    "Sep-25": 15.1,
+    "Jun-26": 14.4,
+    "Sep-26": 14.2
+   },
+   "total": {
+    "Jun-25": 645,
+    "Sep-25": 675,
+    "Jun-26": 727,
+    "Sep-26": 760
+   },
+   "jun_sep_2026_del_pct": 2.9,
+   "jun_sep_2025_del_pct": 4.1,
+   "yoy_total_pct": 12.6
+  },
+  "AXP": {
+   "delinquent": {
+    "Jun-25": 280,
+    "Sep-25": 299,
+    "Jun-26": 277,
+    "Sep-26": 278
+   },
+   "share_pct": {
+    "Jun-25": 9.2,
+    "Sep-25": 9.6,
+    "Jun-26": 8.4,
+    "Sep-26": 8.4
+   },
+   "total": {
+    "Jun-25": 3041,
+    "Sep-25": 3110,
+    "Jun-26": 3288,
+    "Sep-26": 3320
+   },
+   "jun_sep_2026_del_pct": 0.4,
+   "jun_sep_2025_del_pct": 6.8,
+   "yoy_total_pct": 6.8
+  },
+  "COF_domestic": {
+   "delinquent": {
+    "Jun-25": 638,
+    "Sep-25": 694,
+    "Jun-26": 645,
+    "Sep-26": 993
+   },
+   "share_pct": {
+    "Jun-25": 15.7,
+    "Sep-25": 17.2,
+    "Jun-26": 17.2,
+    "Sep-26": 25.2
+   },
+   "total": {
+    "Jun-25": 4061,
+    "Sep-25": 4037,
+    "Jun-26": 3743,
+    "Sep-26": 3948
+   },
+   "jun_sep_2026_del_pct": 54.0,
+   "jun_sep_2025_del_pct": 8.8,
+   "yoy_total_pct": -2.2
+  }
+ },
+ "flows": {
+  "COF_domestic": {
+   "Q2_26": 1008,
+   "Q3_26": 1365,
+   "Q3_25": 1164,
+   "qoq_pct": 35.4,
+   "yoy_pct": 17.3
+  },
+  "JPM": {
+   "Q2_26": 799,
+   "Q3_26": 920,
+   "Q3_25": 655,
+   "qoq_pct": 15.1,
+   "yoy_pct": 40.5
+  },
+  "BAC_card_and_other": {
+   "Q2_26": 244,
+   "Q3_26": 265,
+   "Q3_25": 235,
+   "qoq_pct": 8.6,
+   "yoy_pct": 12.8
+  },
+  "AXP_card": {
+   "Q2_26": 972,
+   "Q3_26": 1044,
+   "Q3_25": 1007,
+   "qoq_pct": 7.4,
+   "yoy_pct": 3.7
+  },
+  "SYF": {
+   "Q2_26": 537,
+   "Q3_26": 555,
+   "qoq_pct": 3.4
+  },
+  "BFH": {
+   "Q2_26": 89,
+   "Q3_26": 90,
+   "Q3_25": 100,
+   "qoq_pct": 1.1,
+   "yoy_pct": -10.0
+  }
+ },
+ "defaults": {
+  "COF_domestic": {
+   "Q2_26": 152,
+   "Q3_26": 230,
+   "Q3_25": 165,
+   "basis": "90+ days, charged off or nonaccrual"
+  },
+  "JPM": {
+   "Q2_26": 102,
+   "Q3_26": 127,
+   "Q3_25": 56,
+   "basis": "two consecutive missed contractual payments"
+  },
+  "AXP_card": {
+   "Q2_26": 78,
+   "Q3_26": 88,
+   "Q3_25": 73,
+   "basis": "up to three missed payments, by program"
+  },
+  "BAC": {
+   "note": "not significant, not quantified"
+  }
+ },
+ "book_30plus_pct": {
+  "COF_domestic": {
+   "Jun_26": 3.39,
+   "Sep_26": 3.74
+  },
+  "JPM": {
+   "Jun_26": 1.91,
+   "Sep_26": 1.97,
+   "basis": "as stated in MD&A"
+  },
+  "BAC_card": {
+   "Jun_26": 2.23,
+   "Sep_26": 2.32,
+   "basis": "total past due 30+ / credit card outstandings"
+  },
+  "AXP_consumer_smallbiz": {
+   "Jun_26": 1.17,
+   "Sep_26": 1.2,
+   "basis": "table 36 consumer+small business; corporate excluded"
+  }
+ },
+ "cof_domestic_with_and_without_group": {
+  "Jun-25": {
+   "book": 3.6,
+   "ex_group": 3.4
+  },
+  "Sep-25": {
+   "book": 3.89,
+   "ex_group": 3.68
+  },
+  "Jun-26": {
+   "book": 3.39,
+   "ex_group": 3.18
+  },
+  "Sep-26": {
+   "book": 3.74,
+   "ex_group": 3.41
+  }
+ },
+ "exclusions": {
+  "AXP": "Other loans excluded; card balances include Consumer, Small Business, Corporate; filed components differ from printed totals by up to 1 (issuer rounding), asserted within 1",
+  "BAC": "credit card AND other consumer pooled by the issuer; not card-only",
+  "JPM": "retained credit card; current bucket is current plus under 30 days past due"
+ }
+}
