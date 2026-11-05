@@ -1,6 +1,6 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-11-05.md` (PROME assignment on Will's 13:25 ET word: D:L915 GRADED — CRMT TENTH BRIDGE · selloff read, no private-credit-specific move, X1 NOT MET · FSK/OTF/OBDC/BXSL Q3 · BCRED Q3 final · BRK-26 SQN does not resolve · drain 35/35; no score change).
+**CURRENT:** `catchups/2026-11-05.md` (closed on Will's 16:32 ET word: L876 CABO BLOCKED-BY-ORDER provisional · BRK-33–36 registered · PROME assignment on Will's 13:25 ET word: D:L915 GRADED — CRMT TENTH BRIDGE · selloff read, no private-credit-specific move, X1 NOT MET · FSK/OTF/OBDC/BXSL Q3 · BCRED Q3 final · BRK-26 SQN does not resolve · drain 35/35; no score change).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 

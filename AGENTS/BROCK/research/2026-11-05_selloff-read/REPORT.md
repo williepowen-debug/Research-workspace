@@ -190,3 +190,78 @@ Two searches for 11/5 coverage returned nothing dated today. That is a limit of 
 - Software FV/par Experiment A cells for FSK, BXSL and OBDC are not done. They need a SOI parse.
 - Drain: 4 top-level + 31 WALTER, 35 of 35. PROME's census was 26; five landed after it (029, 031, 032, 033, 038).
 - LIQUID's four rows reconcile to mine on every cell: NAV, FV/cost for FSK, non-accrual at FV, regular dividend. Added: FSK realized-loss composition and OTF, which is not on its card.
+
+## 9. Close addendum, written 2026-11-05 16:34 ET
+
+**Marks:** yfinance last prices read 16:07–16:08 ET, vendor, not official closes. Will closed this session at 16:32 ET, before the CABO 10-Q and before the 17:30 ET end of the CRMT window. Both are recorded below as NOT DONE.
+
+**The close made the intraday read stronger, not different.** SPY got worse into the bell and all six of my names got better.
+
+| Name | Prior close | 16:07 ET | Day % | Read at 13:30 ET % | Beta-implied % | Residual pp (σ) | Since 11/3 close % |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| APO | 122.76 | 117.31 | −4.44 | −4.71 | −4.33 | −0.11 (−0.1) | +3.31 |
+| ARES | 136.85 | 133.62 | −2.36 | −4.27 | −6.02 | +3.66 (+1.5) | +3.64 |
+| BIZD | 12.66 | 12.56 | −0.75 | −1.74 | −1.26 | +0.51 (+0.5) | +1.33 |
+| ARCC | 19.46 | 19.35 | −0.57 | −1.57 | −1.87 | +1.31 (+1.3) | +1.79 |
+| OBDC | 10.76 | 10.81 | +0.46 | −1.21 | −2.33 | +2.80 (+2.1) | +2.95 |
+| FSK | 11.46 | 11.67 | +1.83 | +0.79 | −1.17 | +3.01 (+1.6) | +4.85 |
+| SPY | 766.81 | 733.11 | −4.39 | −4.01 | | | −2.82 |
+| HYG | 77.52 | 77.31 | −0.28 | −0.47 | | | +0.42 |
+
+| Basket | Day % | Beta-implied % | Residual pp (σ) |
+|---|---:|---:|---:|
+| Wrappers (ARCC, FSK, OBDC, BIZD) | +0.25 | −1.66 | +1.91 (+1.6) |
+| Wrappers ex-FSK | −0.28 | | +1.54 (+1.4) |
+| Managers (APO, ARES) | −3.40 | −5.17 | +1.77 (+0.9) |
+
+Betas are OLS on HYG and SPY over 250 sessions ending 5 before the window. OBDC at +2.1σ is the only name past 2σ, and it is one name on one day after its own Q3 print, not a basket reading.
+
+**X1, my own grade: NOT MET. The wrapper half stays NOT ARMED.** Managers led wrappers down by 3.65pp raw; the residual spread is +0.13pp. HYG is not a high-yield print: the 11/5 HY cell is LIQUID's, about 10:30 ET Fri 11/06.
+
+**39-name NAV discount: 26.87% at the 16:07 read** (10 names over 35%, 10 under 10%, 7 at a premium), against 27.65% intraday and 28.68% [10/30]. NAV vintages are mixed: 20 at 9/30, 18 at 6/30, 1 at 8/31. No trend is claimed. ARCC closed 0.21% above its 9/30 NAV of $19.31. Table: `data/NAV_DISCOUNT_39_close.tsv`.
+
+**Context from WALTER, not my figures (SIG-W-20261105-055, corrected by 057):** VIX about 28.17 and VVIX 135.38, vendor 16:22 ET, Cboe history not posted. HENRY and VIOLET own them.
+
+### L876 CABO: BLOCKED-BY-ORDER, PROVISIONAL on the 8-K only
+
+8-K 0001632127-26-000036, Items 2.02 and 9.01, Exhibit 99.1, accepted 16:18:48 ET on the feed clock (index page not read). The 10-Q was not on the feed at my last read, 16:34 ET. It has run about an hour behind the 8-K in the last two quarters and is due Mon 11/09.
+
+| Test on L876 | Finding | Basis |
+|---|---|---|
+| Close status | NOT CLOSED | Release: sufficient liquidity to pay the price "if the previously disclosed temporary restraining order entered on October 9, 2026 is dissolved" |
+| Court order | Still in effect at 11/05 by the issuer's wording | Primary for the issuer's statement. The order itself is unread |
+| Plaintiff | CoBank, ACB, litigation initiated 10/9 | Release, risk-factor list. First EDGAR naming I hold |
+| Rescue lenders | NOT NAMED | Release says only "discussions to raise capital" and "no assurances" |
+| Hearing 11/13 | Release silent | PRESS-ONLY stands (Cablefax 10/29) |
+| NT 10-Q | None on the feed at the last read | 10-Q not yet due |
+| Going concern | NOT in the release | It says liquidity covers the next 12 months. The 10-Q is where "substantial doubt" would sit |
+
+**Three things are new since the Q2 10-Q:**
+
+1. **Chapter 11 in the issuer's own words:** "it may become necessary for the Company to seek relief under Chapter 11 of the U.S. Bankruptcy Code." The Q2 10-Q has zero "Chapter 11" hits. Control: that text runs to the signature page and has 151 "MBI" hits.
+2. **Insufficiency stated outright:** existing liquidity and cash flow "will be insufficient to repay the debt described above on the applicable maturity dates." Those are $22.0M MBI revolver Aug 2027, $916.2M MBI term loans 11/12/2027, the $1.25B revolver Feb 2028 ($1.05B drawn), $345.0M converts Mar 2028 and $694.3M term loan May 2028.
+3. **Dissolving the order no longer means closing.** Q2 said cash and revolver capacity "will be sufficient to fund the Put Price." Q3 says payment will be coordinated with a financing that addresses at least some maturities, and that financing carries no assurance. **A dissolved order on 11/13 therefore does not by itself grade a close.**
+
+| Q3 figure | Value |
+|---|---|
+| Revenue | $332.2M, −11.7% YoY |
+| Adjusted EBITDA | $159.8M, −20.8% YoY, 48.1% margin |
+| Net loss | $431.8M, vs net income $86.5M |
+| Impairments | $412.1M pre-tax: $159.0M franchise, $253.1M goodwill, triggered by the stock price. $358.0M net of tax |
+| Put option FV loss · MBI equity impairment | $39.7M · $20.0M, both net of tax |
+| Operating cash flow | $92.6M, −40.8% YoY |
+| Cash · gross debt | $674.8M · $3.55B at 9/30 |
+| Revolver | $1,050.0M drawn, $200.0M "nominal" availability at 9/30; net $500.0M borrowed in Q3 |
+| Covenants | Compliant at 9/30, expects 12 more months, warns "particularly if it does not consummate any financing transactions" |
+
+CABO last $5.16 [yfinance, 11/5 close]. No vector is keyed to this case and no score moves. Still unread: the 17:00 ET call, the 10-Q, the order.
+
+### L916 CRMT backstop #6: NO OTHER AGREEMENT through 16:34 ET, final read NOT MADE
+
+Newest item on the feed at 16:34 ET is still the tenth-bridge 8-K 0001171843-26-007147. The four business days for an agreement dated on or before 11/01 run to today, and the 8-K window ends 17:30 ET, after this session closed. Silence grades nothing. The Mon 11/09 read covers the whole feed from 11/05 08:01 ET and catches anything accepted after my last read.
+
+### Limits of this addendum
+
+- Vendor prices at 16:07 ET. The official closes were not re-read.
+- One session. Cause is still not established; section 7 stands.
+- The L876 grade rests on the release alone until the 10-Q is read.

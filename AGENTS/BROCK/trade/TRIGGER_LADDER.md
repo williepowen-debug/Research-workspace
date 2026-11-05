@@ -17,7 +17,7 @@
 | 7 | KKR adds to FSK support within 90 days of the 5/11 ~$600M package | **WINDOW CLOSED 8/9, NOT FIRED.** A new KKR package at any time stays a standing watch (STATUS carried debts) | Bear upgrade on FSK → TERRY card |
 | 8 | BCRED redemption gate held / sponsor backstop refused | **PARTIAL.** 5% cap enforced Q2 (5/29 expiry) and held Q3 (~50% satisfaction). The Q4 letter ~12/04 (offer expires 12/1) is GATE-BRK-R2 (a)'s third read at BCRED (DOCKET L286) | Gate-cascade escalation → TERRY card |
 | 9 | Bank PC loss disclosure (NDFI reserve build) | **NEGATIVE so far.** Falsifier = **BRK-31**. 10/25 Q3 pass: no F1/F2 established, attribution INSUFFICIENT | REGINALD owns bank scores |
-| 10 | VIX spike +3 without HY widening | **NOT RE-GRADED since 8/28.** This row dropped off STATUS at the 9/2 rotation with no retirement record; restored 10/30. 11/05: VIX ~26 vs 16.61 [11/4]; HY for 11/05 not printed, grade on LIQUID's print. The row has no numeric definition of widening; none invented here | HENRY/VIOLET own the vol read; BROCK routes, never trades it |
+| 10 | VIX spike +3 without HY widening | **NOT RE-GRADED since 8/28.** This row dropped off STATUS at the 9/2 rotation with no retirement record; restored 10/30. 11/05: VIX about 28.17 vs 16.61 [11/4], WALTER vendor 16:22 ET (SIG-W-20261105-057), Cboe history not posted, +11.56 points; HY for 11/05 prints about 10:30 ET 11/06, grade on LIQUID's print. The row has no numeric definition of widening; none invented here | HENRY/VIOLET own the vol read; BROCK routes, never trades it |
 | 11 | 3+ convergence vectors downgrade 🔴→🟠 in one period | **2 of 3** (PIK and NDFI, both 9/3) | Reassess timeline (EXIT §3) |
 
 ## THESIS-KILL DECISION TREE — STEP 2 (rule, verbatim in substance from STATUS 8/28)
