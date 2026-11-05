@@ -12,7 +12,7 @@ Boot 09:39 ET, status to Will. PROME packet `inbox/2026-11-05_from-PROME_catch-u
 - **Calendar:** blind span closed at Treasury's XML; FHLB CFR re-dated 11/9→11/13 on REGINALD's calendar (KB-532); bar freeze for the month-end cluster docketed 11/19.
 - **Credit:** HY refreshed, band 3 sessions (KB-533). ACTION signals assessed: CCC broadening (KB-534), Holy Redeemer (KB-535).
 - **Data:** Treasury 11/4, ICE 11/3, NY Fed 11/4, Bund 11/5, ACM, KW, proxy (KB-527, 536). KB overdue rows dispositioned: 10 Stale_By cleared, 3 STALE, 2 SUPERSEDED.
-- **Inbox:** 7 of 7 WALTER cards consumed. R3 answered in the PROME packet.
+- **Inbox:** 8 of 8 WALTER cards consumed, including the BoE hike (KB-537). R3 answered in the PROME packet.
 
 ## NEXT (dated)
 

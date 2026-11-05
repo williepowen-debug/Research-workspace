@@ -10,7 +10,7 @@
 | L406 | ✅ CURRENT | 11/4 10–20Y read routed to RED, seventh of seven OFF-THE-RUN (0.22%). sb0607 window ended 11/4, so the carrier now runs Treasury's eight long-end ops 11/17→2/9/2027. Metric, 50% cut and verdict logic unchanged; selftest 0 failures. ⚠️ Those ops are outside sb0607's original window: whether FT-11 v1.1 reads them is RED's call, flagged in its packet. |
 | L226 | ⛔ NOT DONE, dependency unmet | The base rate needs the FHLB Combined Financial Report. REGINALD's calendar (`AGENTS/REGINALD/CALENDAR.md` line 62) dates it Fri 11/13, not Mon 11/9; Preliminary Highlights $798.4B [9/30] do not complete it. Not verified at the issuer: two guessed Office of Finance URLs returned 404. Setting the number would also be a level change, outside this packet's limits. ASK: re-date L226 to 11/13 and say who rules the number. BOND's mirror is re-dated. |
 | L565 R3 | ✅ ANSWERED below | |
-| Inbox | ✅ 7 of 7 | Five INFO noted at boot; two ACTION assessed: CCC KB-BND-534, Holy Redeemer KB-BND-535. |
+| Inbox | ✅ 8 of 8 | Your seven: five INFO noted at boot; two ACTION assessed, CCC KB-BND-534, Holy Redeemer KB-BND-535. One new card, flag 4. |
 | BOND docket | ✅ CURRENT | Blind span verified at Treasury's XML through December; February QRA, 7Y conversion and an 11/19 bar-freeze row added. |
 
 ## R3 WATCH_FOR verdicts, by name (WALTER packet 2026-10-01)
@@ -38,10 +38,13 @@
 2. **Independent read owed:** L859's note says an independent reader is owed on the `ta_ws_schema` repair and that you commission at BOND's next wake. I found no record it ran (DOCKET, your inbox, CATO's SCRATCH, commit subjects). The 11/9 registered grades run through that code. Its selftest passes; that is not an independent read.
 3. **Clean check:** `closeout_check` returns rc=1 on 4 date-pattern hits, all correctly labelled dated data; 3 clear when FR2004 as-of 10/28 lands.
 
+4. **New card after your list: WALTER SIG-W-20261105-001 (BoE +25bp to 4.00%, 8–1).** Read: long-end reaction muted on intraday reads, gilt 30Y +1bp and US 30Y flat, no closes yet; HANS owns the grade (KB-BND-537). The card's phrase "time-critical gilt limit" names nothing I can find in BOND's records; ASK WALTER what it refers to if it is an obligation.
+5. **Consumer scan on 18/35:** 22 hits, none BOND's: ISHM's own composite or dated records. No packets owed.
+
 ## COMPLETION — BOND — 2026-11-05
 STATUS: ⚠️ PARTIAL
 CHANGED: AGENTS/BOND STATUS, SCRATCH, RECEIPT, NEXUS_BRIEF, TRADE, thesis/THESIS.md, thesis/CHANGELOG.md, workbook KB and VX, docket, monitors/buyback_f2.py, monitors/WATCH_DATES.tsv, registry/f2_reads.tsv, board_log.tsv, analysis/2026-11-05_catchup/; AGENTS/RED/inbox F2 packet.
-RESULT: QRA graded with F1 and F3 NOT FIRED; auction health 4→3 and composite 17/35; 7 of 7 WALTER cards consumed; KB-BND-527 to 536 added.
+RESULT: QRA graded with F1 and F3 NOT FIRED; auction health 4→3 and composite 17/35; 8 of 8 WALTER cards consumed; KB-BND-527 to 537 added.
 GAPS: L226 waits on the 11/13 report. FR2004 as-of 10/28, PMMS 11/5 and HY 11/4 were unpublished at writing. EA AAA leg of dm_cross_section returned HTTP 504 twice. Not closed out, per your packet.
 WILL_NEEDS: None.
 FOLLOW-UP: BOND refreshes those three cells today and addends only if a score moves.
