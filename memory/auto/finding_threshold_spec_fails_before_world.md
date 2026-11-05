@@ -67,3 +67,5 @@ maintained for weeks:**
 **What both share with 1–3: the instrument looked fine.** Nothing was stale, no check
 failed, and in each case the defect was visible for free in the artifact the spec
 itself named.
+
+**Instance, 2026-11-05 (OTTO, Severity-Divergence Test): a noise floor computed for an average, attached to a test that takes a difference.** The spec's 2×SE of 1.23pp assumed n=12 averaging, on a five-month calm sample. The script subtracts the first month from the last. Same panel, two months apart: +0.06 then +16.12, mostly the endpoints. The tell is one line: find where the code computes the statistic, then check the noise figure describes THAT statistic. A base-rate block that reads well proves nothing about the estimator beneath it.
