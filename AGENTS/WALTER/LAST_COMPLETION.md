@@ -1,26 +1,27 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-05T21:37:16Z, Claude Code Opus 5.5, session walter-07 on the desktop. CLOSED on Will request; FULL closeout, coverage PARTIAL.
+Updated 2026-11-05T23:07:51Z, Claude Code Opus 5.5, session walter-ca on the laptop. Evening boot, session open; light record, full deferred. Coverage PARTIAL.
 
 ## RESUME — do these first
 
 1. `git pull --rebase` at root, then ordinary boot.
-2. **Certify the November 5 close:** Cboe VIX, VIX9D, VIX3M, VVIX, SKEW history; FRED HY, CCC, VIXCLS [Nov 5]; Nasdaq WAL, KRE closes. Card 055 and 057 are vendor reads. HY 357 or wider is +25 bp, safety net FLASH. VIX >=18 starts RED-FT-06 exit run. REGINALD grades WAL; VIOLET grades VVIX; LIQUID grades Gate 069 L4.
-3. **November 6:** payrolls 08:30 ET, and LABOR's session closed, so the grade needs a fresh launch; STWD and ACRE; WQ-556 C check; Ready Capital not filed at 21:31Z; H.4.1 November 5 not read; Cable One 10-Q by November 9.
+2. **Certify the November 5 close:** still unposted at 23:01Z: Cboe VIX and SKEW history; FRED HY, CCC, VIXCLS [Nov 5]; Nasdaq WAL, KRE closes. Posted and read: VIX9D 32.66, VIX3M 25.55, VVIX 134.99. HY 357 or wider is +25 bp, safety net FLASH. VIX >=18 starts RED-FT-06 exit run. REGINALD grades WAL; VIOLET graded VVIX; LIQUID grades Gate 069 L4.
+3. **November 6:** payrolls 08:30 ET, LABOR launch sits with WQ-626; STWD and ACRE; Ready Capital call 08:30 ET; WQ-556 C check; MBI and GTCR may seek to intervene in the CoBank action. Ready Capital release (063), Cable One 10-Q (064) and H.4.1 (LIQUID) closed tonight.
 4. **Iran and Saudi:** Yanbu alert 058 and the Qatar proposal 056 await FALCON and BRENT; two headlines held unrouted, research/2026-11-05_sweep/SWEEP-REVIEW.md. Next full sweep about November 12; add Saudi, Houthi and Yanbu terms to any sweep query.
-5. **Open from today:** CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HANS, HOMER, CORAL, FERT.
+5. **Open from today:** X bookmarks need Will's browser on the laptop: token refresh failed, nothing marked, rerun `x_bookmarks_scan.py --authorize`; CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HANS, HOMER, CORAL, FERT.
+6. **WQ-622 combination watch:** WALTER has not set it up. PROME's guide asks every desk at its next session; proposal to Will pending this boot.
 
-Calendar coverage cutoff: 2026-11-05T21:37:16Z (step 7i run; rows in research/2026-11-05_midday-boot/CALENDAR-RECONCILIATION.tsv; pending rows named there).
+Calendar coverage cutoff: 2026-11-05T23:07:51Z (step 7i run; rows in research/2026-11-05_evening-boot/CALENDAR-RECONCILIATION.tsv; pending rows named there).
 
 ## STATUS
 
-Midday boot PARTIAL: desk STATUS reads were 12 lines for desks updated today and 3 for the rest; READS check UNKNOWN on a stale attestation; HANS daily levels and owner-limited rows carried from the morning scan. Session open; no active WALTER helper, study or unattended task. Evidence: research/2026-11-05_midday-boot/ and research/2026-11-05_morning/ (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, STEP7-REVIEW, DISCOVERY, VERIFY-IRAN, VERIFY-AI-TAPE) and research/2026-11-05_bookmarks/REVIEW.md.
+Evening boot PARTIAL on the laptop WilliePOwen: desk STATUS reads were leads for desks changed since the last closeout; European yields and TTF carried from the morning scan; X bookmarks unavailable; READS check UNKNOWN on a stale attestation, PROME's L845, PROME's registry row not touched. Session open; no helper, study or unattended task. Evidence: research/2026-11-05_evening-boot/.
 
-November 5 total: 29 BOARD cards, 99 handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 64 BOARD cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
-Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
@@ -32,7 +33,7 @@ Broad selloff began in AI names and reached banks, reported cause only, no capex
 - Publication: November 5 state is in the receipt below; no consumption inferred except named owner commits. HENRY and VIOLET consumed 077/078 November 5.
 - Intake coverage: November4 21:01Z collector healthy;24 incremental flagged news/filing units dispositioned at reboot. Prior catch-up: All 464 titles were screened, not every original article. Cards 057–068 explicitly retain source-body/owner-overlap gaps. Bookmarks: five fully read, 44 partly read; videos not watched. Exact gaps/reopen conditions are in REVIEW.md and the verification reports. No unattended monitoring or comprehensive all-news claim.
 - Source-complete threshold checks are separate from all 48 registered IDs. Trepp's two-print observation is complete; CREED qualitative/cohort events remain owner-limited. Official oil/TTF settles, France/Italy compound legs, complete monthly PMIs and qualitative censuses remain missing. Futures returns were refused on rounded quote/chart mismatch (87.48999786376953 versus 87.49); no return bypass/proxy. Existing broad-HY fires are not new fires; REG-T-04 >350 x3 remains not met, 10 bp watch at November 3 HY 340. VIX exit observations are 3/5, not owner closure.
-- UNG WQ-573: sampled NOAA GFS f000 10 hPa/60N means +3.903807 m/s [November 3 00Z], +1.791158 [November 4 00Z], +1.092857 [12Z]. Positive analyses do not meet <0; unsampled intervals unknown. AEOLUS acceptance/canonical logging remains owed. UNG November 2/3 closes $9.00/$9.13 are below the $10.40 prior-close void. Approved five January 15, 2027 10/12 call spreads retain debit ≤$0.50, maximum loss $256.50, observed reversal by November 12, red day by November 20, entry <$10.40 and every owner guard. Broker quote/fees and current option chain not obtained; no order. Original fallback versus AEOLUS-logged wording still requires owner reconciliation; no alternate fire authority.
+- UNG WQ-573 update: AEOLUS logged ECMWF November 5 12Z −0.279 m/s and TERRY records T1 FIRED, card approved and unfilled through November 20 (KB-AEO-255, TERRY STATUS 16:50 ET). Text below predates that. Sampled NOAA GFS f000 10 hPa/60N means +3.903807 m/s [November 3 00Z], +1.791158 [November 4 00Z], +1.092857 [12Z]. Positive analyses do not meet <0; unsampled intervals unknown. AEOLUS acceptance/canonical logging remains owed. UNG November 2/3 closes $9.00/$9.13 are below the $10.40 prior-close void. Approved five January 15, 2027 10/12 call spreads retain debit ≤$0.50, maximum loss $256.50, observed reversal by November 12, red day by November 20, entry <$10.40 and every owner guard. Broker quote/fees and current option chain not obtained; no order. Original fallback versus AEOLUS-logged wording still requires owner reconciliation; no alternate fire authority.
 - Reader basis: boot basis matched 28 paths November 5; READS check stays UNKNOWN on a stale attestation, PROME's L845. Step 7 ran after the morning cards, desk STATUS reads PARTIAL (STEP7-REVIEW.md). Charter is 25,922 B, 80% of budget: NOT owed. READ_CAP rule 20 excludes charters from the read cap and directs no desk to rotate one; the yellow line comes from the Codex explicit-read row and 25.9 KB is under the truncation cap. Earlier 'owed' wording was overstated, corrected November 5. Optional hygiene only. Complete fleet lifecycle visibility UNKNOWN; no DARK inference.
 - DEWEY: 005R RESOLVED through VULCAN L800 and DEWEY L834, method omissions and WQ-551.FIRM deferral survive. 003R PARKED by DEWEY November 4, row stays PARTIAL and doctor MED stays until it runs: FDIC BankFind 0 Q3 rows against June control 4,313 (WALTER reproduced); FFIEC 4,259 of 4,268 is DEWEY's measurement. Not an unavailable-data deferral; no Q3 placement exists. DEWEY re-checks FDIC at next touch.
 - Existing owner grading/reconciliation: LABOR JOLTS/NFP LEG-C/October WARN; ISHM L899 survey grade completed November4 with named source exception: ISM55.5, strict<47 NOT-FIRED; S&P final54.9 supersedes flash56.0, rollover NOT-MET, broader-real-demand CANNOT-FIRE. Selective expansion and scores unchanged. Original October final composition access check November6; 006/035 backlog now owner-completed: M3/import J1 pairing, Emerson eight cells and five October-ending AAR weeks graded. J1 contraction and J2 rail deterioration NOT-MET; scores unchanged. Current-history/direct monthly import y/y retry November6, AAR edition publication date UNKNOWN (December2 revisit); EMR destocking/AI share NOT-STATED. Evidence research/2026-11-04_ishm-backlog/REVIEW.md; CREED T-01a/Kernel; FERT DTN table and CF Q3 (November 4 after-close release and November 5 conference not claimed read). NEXUS concurrently records L16 UP/M-07 DOWN in its working STATUS; WALTER's header read is not independent acceptance of the full grade. Route packets do not prove owner completion.
@@ -60,7 +61,8 @@ No WALTER decision open. FALCON, BRENT and LABOR launches are PROME's and Will's
 3. November 11: Veterans Day HY non-session bridge. About November 12: full Iran sweep, MEMORY calendar check, staleness sweep; UNG reversal deadline remains November 12. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit and WATT EO 14421 before December 24 remain unchanged.
 4. FLG/REGINALD first reviews are complete; FLG M3 allocation waits for T-02/10-Q, REGINALD filing/cause questions and November 7 detector fix survive. CORAL/other semantic consumption is unproved. Sinokor legal-action, dated Iran answer/Qatar draft and LIQUID October issuance retain normal owner review; no unresolved headline becomes a new commissioned study.
 5. Prior cleanup/L845/VPS/transcription and boundary 7 repairs remain complete; no repeat repair. Prior CATO substantive evidence lacks an exact receipt; backlog alone does not authorize a wake. No continuing helper or unattended WALTER activity.
-6. Idea, not installed: show prior-day change for key instruments in the boot scan, labelled unverified when the vendor withholds it. Extends an existing step; needs Will's word.
+6. LAST_COMPLETION is 24.7 KB, over the 24,412 B rotation trigger; rotate verbatim at the next full closeout, stop below 22,785 B.
+7. Idea, not installed: show prior-day change for key instruments in the boot scan, labelled unverified when the vendor withholds it. Extends an existing step; needs Will's word.
 
 ## SOURCE-SEARCH DISPOSITION — approved October 16, retained
 
@@ -94,7 +96,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-05T21:37:16Z",
+  "as_of": "2026-11-05T23:07:51Z",
   "next_review": "2026-11-06",
   "publication": [
     {
@@ -165,9 +167,9 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
   ],
   "delivery": {
     "signal_date": "20261105",
-    "total": 236,
-    "delivered": 234,
-    "note": "All day handoffs reconcile by origin proof after push; recipient use separate."
+    "total": 249,
+    "delivered": 236,
+    "note": "13 evening handoffs pending push; recipient use separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -221,6 +223,14 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
         "sha256": "f8765a684964f3ef38276d297c5d0486a371e1ccf1429ab63060d95b61127d9d"
       },
       {
+        "path": "AGENTS/WALTER/research/2026-11-05_evening-boot/THRESHOLD-SCAN.md",
+        "sha256": "27ee45a28614b7dce8b9b2c2acfbece7814f0ed3a34d875b3d6c9ce00f95e86c"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-05_evening-boot/CALENDAR-RECONCILIATION.tsv",
+        "sha256": "243a942e7046db648590b5916ab19e2e01aa4b365129ab2b178a9aa61ecfef02"
+      },
+      {
         "path": "AGENTS/WALTER/research/2026-11-05_close-pass/THRESHOLD-SCAN.md",
         "sha256": "0cebab73784ec6c05c6d6985f7ebfc3334e52be4e5bf184c37e405cab37b506b"
       }
@@ -228,8 +238,8 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
   },
   "procedure": {
     "tier": "full",
-    "boot": "PARTIAL: desk STATUS leads shortened; READS UNKNOWN on a stale attestation; HANS daily and owner-limited rows carried from the morning scan.",
-    "session": "CLOSED on Will request; no active helper, study or unattended work."
+    "boot": "PARTIAL: desk STATUS leads only; READS UNKNOWN on a stale attestation; HANS yields and TTF carried from the morning scan; X bookmarks need re-authorization.",
+    "session": "Evening boot open on the laptop; no active helper, study or unattended work."
   },
   "manual_duties": {
     "11": "Cards 001-061 including FLASH 016 and 017. Batches BM-20261105-01 through -07 closed.",

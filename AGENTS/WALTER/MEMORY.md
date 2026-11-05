@@ -95,4 +95,4 @@
 
 ## Session Notes
 
-November 5 FULL CLOSED on Will request. LAST_COMPLETION owns duties. Mail and sweep passes each found items the lane missed; the sweep's Iran query lacked Saudi and Houthi words. X token, FFIEC and SEC work on the desktop; `bdata` absent here.
+November 5 FULL CLOSED on Will request. LAST_COMPLETION owns duties. Mail and sweep passes each found items the lane missed; the sweep's Iran query lacked Saudi and Houthi words. X token, FFIEC and SEC work on the desktop; `bdata` absent here. November 5 evening, laptop: X refresh failed, re-authorize; SEC works with a generic client name on www.sec.gov primaries, index.json refused; TE pages gave no parseable level.

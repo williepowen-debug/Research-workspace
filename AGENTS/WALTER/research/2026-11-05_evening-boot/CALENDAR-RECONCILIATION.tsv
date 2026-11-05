@@ -1,0 +1,11 @@
+event_key	calendar_source	owner	publication_state	source_vintage	walter_disposition	owner_grade_state	evidence_path	next_action
+h41-2026-11-05	REGINALD STATUS	LIQUID/REGINALD	published	H.4.1 November 5; LIQUID read 16:37 ET: reserves $2,930.088B, TGA $957.175B	owner reviewed/no route (reserves above the <$2.8T line, no decision change)	LIQUID read	AGENTS/LIQUID/STATUS.md	REGINALD reads at its session
+rc-q3-result	CREED STATUS	CREED	published	8-K accepted 2026-11-05T22:04:33Z, release and supplement read	reviewed/routed SIG-W-20261105-063	pending CREED	BOARD/SIG-W-20261105-063-Ready-Capital-Q3-book-6.44-dividend-0.01-non-performing-CRE.md	CREED at next session; 10-Q unfiled
+cabo-q3-10q	PROME/DOCKET L876	BROCK	published	10-Q accepted 2026-11-05T22:15:50Z; liquidity, litigation and risk sections read	reviewed/routed SIG-W-20261105-064	pending BROCK	BOARD/SIG-W-20261105-064-Cable-One-10-Q-MBI-GTCR-breach-letter-TRO-hearing-November-13.md	BROCK L876
+stwd-q3	CREED STATUS	CREED	future	no EDGAR filing at 23:03Z	pending	none		November 6
+acre-q3	CREED STATUS	CREED	future	no EDGAR filing at 23:03Z	pending	none		November 6
+nfp-october	HENRY ECON_CALENDAR	LABOR	future	November 6 08:30 ET	pending	none		LABOR launch; WQ-626 with PROME
+ny-fed-household-debt-q3	PROME/DOCKET L575	CARL/NEXUS	unpublished/source unavailable	search 23:04Z found Q2 (August 11) as latest; New York Fed page not fetched	pending	none		re-check next pass
+ozk-q3-10q	PROME/DOCKET L763	OZK	unknown	not re-checked this pass	pending	none		next pass
+flg-q3-10q	REGINALD STATUS	FLG	unknown	not re-checked this pass	pending	none		next pass
+vly-egbn-q3-10q	REGINALD STATUS	REGINALD	published	REGINALD STATUS: filed November 5, unread	owner review owed; no WALTER read	pending REGINALD	AGENTS/REGINALD/STATUS.md	REGINALD

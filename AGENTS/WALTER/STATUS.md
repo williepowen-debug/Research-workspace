@@ -1,16 +1,17 @@
 # WALTER STATUS
-**Updated:** 2026-11-05T21:37:16Z — CLOSED on Will request; FULL closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-05T23:07:51Z — evening boot on the laptop, session walter-ca, open. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-CLOSED. November 5: 61 cards, 236 handoffs, two FLASHes. Vendor close S&P −4.36%, Nasdaq-100 −6.36%, VIX about 28.2, VVIX about 135; banks fell, credit ETFs calm; cash HY unknown until November 6. Not official closes (055, 057). Late finds: October SLOOS (031, 043), BCRED tender (032), KBRA defaults (044), Arkéa through a provider (030, 052), Peña resignation (024, 026), Micron Taoyuan (045), Yanbu alert (058), Cable One Chapter 11 language (059, 061), Iran proposal via Qatar (056). No new WALTER fire established.
+Evening boot November 5. 64 cards. Vendor close S&P −4.36%, Nasdaq-100 −6.49% by QQQ, VIX 28.18, VVIX 134.99 official; banks fell, credit ETFs calm; cash HY unknown until November 6. New tonight: Ready Capital Q3, book −5.7%, dividend $0.01 (063); Cable One 10-Q, GTCR and MBI allege breach, may intervene November 6, order hearing November 13 (064); Abrigo wording corrected (062). No new WALTER fire established.
 
-BALANCED baseline; labor intake LOOSE for November 6 payrolls. First duty: certify closes. Resume list: top of LAST_COMPLETION.md.
+BALANCED baseline; labor intake LOOSE for November 6 payrolls. First duty: certify the closes still unposted. Resume list: top of LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| November 5 evening boot (pull 23:01Z; vendor rows are not settlements) | Cboe official November 5: VIX9D 32.66, VIX3M 25.55, VVIX 134.99; VIX and SKEW history unposted (VIOLET's 16:15:01 ET print VIX 28.18). FRED frontier November 4: HY 332, CCC 1,297, VIXCLS 16.61; T5YIFR 2.22 [Nov 5]. Vendor KRE 72.31, WAL 75.88 (under 78, existing cycle), HYG 77.28 (−0.31%), LQD +0.15%, BZF27 99.25, CLZ26 91.20, EURUSD 1.12. AGSI gap −16.256 pp on the tool's latest row. Cushing 27.250M [w/e Oct 30]. REG-T-04 18 bp. European yields and TTF not re-read, TE pages unparseable here. No new fire or exit established. Evidence: research/2026-11-05_evening-boot/THRESHOLD-SCAN.md. |
 | November 5 close first read (vendor 16:05 ET, not official closes) | S&P 7,353.73 (−4.36%), QQQ 647.05 (−6.49%), SMH −11.21%; final vendor 16:22 ET VIX 28.17, VIX9D 32.69, VIX3M 25.51, VVIX 135.38 (card 057 corrects 055); KRE 72.30 (−2.47%), WAL 75.89 (−4.23%, under 78, existing cycle), HYG 77.31 (−0.28%). BZF27 98.57, CLZ26 90.77. Cboe and FRED November 5 unposted. Evidence: research/2026-11-05_close-pass/THRESHOLD-SCAN.md. |
 | November 5 midday boot (pull 17:19Z, vendor intraday, not closes) | S&P 7,433.78 (−3.31%), QQQ 656.61 (−5.11%), SMH −8.91%, VIX 24.92, VIX9D 28.29, VIX3M 23.55, VVIX 116.35; KRE 72.75 (−1.86%), WAL 75.90 (−4.21%, under REG-T-02's 78, close unread; existing cycle), HYG 77.22 (−0.38%), LQD +0.09%. BZF27 96.64, CLZ26 90.06. FRED frontier unchanged from the morning pass: HY 332, CCC 1,297, VIXCLS 16.61 [Nov 4]. PMMS 7.18 [Nov 5]. No new fire or exit established. Evidence: research/2026-11-05_midday-boot/THRESHOLD-SCAN.md. |
 | November 5 last tape (vendor intraday 11:55 ET, not closes) | S&P 7,440.91 (−3.22%), QQQ 657.40 (−4.99%), VIX 23.02, down from 27.97 at 11:09 ET; KRE 72.85 (−1.73%), WAL 76.24 (−3.79%, under REG-T-02's 78, close unread; existing cycle), HYG 77.22 (−0.39%). BZF27 96.74, CLZ26 89.94. Intraday high read for VIX, not a recorded high. Evidence: research/2026-11-05_morning/. |
@@ -56,7 +57,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 - ISHM final/flash source qualification and five exact recipient dispositions: `research/2026-10-26_ishm-intake-receipt/REVIEW.md`; current comparison unchanged, hardware vintage limits retained.
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
-- Current working evidence: `research/2026-11-05_close-pass/`; `research/2026-11-05_sweep/`; `research/2026-11-05_midday-boot/`; `research/2026-11-05_morning/` (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, VERIFY-IRAN, VERIFY-AI-TAPE); L334 `research/2026-11-05_L334/REPORT.md`. Last closeout evidence: `research/2026-11-05_close/closeout/`; evening boot `research/2026-11-04_evening-boot/`; Iran sweep `research/2026-11-05_iran-full-sweep/SWEEP.md`; prior `research/2026-11-04_catchup/closeout/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
+- Current working evidence: `research/2026-11-05_evening-boot/`; `research/2026-11-05_close-pass/`; `research/2026-11-05_sweep/`; `research/2026-11-05_midday-boot/`; `research/2026-11-05_morning/` (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, VERIFY-IRAN, VERIFY-AI-TAPE); L334 `research/2026-11-05_L334/REPORT.md`. Last closeout evidence: `research/2026-11-05_close/closeout/`; evening boot `research/2026-11-04_evening-boot/`; Iran sweep `research/2026-11-05_iran-full-sweep/SWEEP.md`; prior `research/2026-11-04_catchup/closeout/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
 - Bookmark authentication/read/mark evidence: `MARK-RECEIPT.txt`, `bookmark-review.json` and `REVIEW.md` in the bookmark evidence directory. Credentials remain ignored/machine-local.
 - VULCAN intake recommendation: `outbox/REQ-PROME-20261016-vulcan-intake-design.md`; no collector deployment inferred.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
@@ -64,7 +65,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed before NETWORK at 2026-11-05T21:37:16Z. Sessions listed late November 5: PROME, HENRY, LIQUID, VULCAN, RED, AEOLUS, BOND, REGINALD, CREED, VIOLET, BROCK, TERRY, CYPHER, LABOR; several since closed on Will's word. A closeout ends a session, not the desk's day. Not seen: FALCON, BRENT, HANS, HOMER, CORAL, FERT. Still dated October 28–31 with unread ACTION: OTTO, CORAL, CRUISE, HANS, HAWK, HOMER, SHADE, WATT, LABOR, SAM. Colors and classes unchanged. Doctor backlog: 58 items older than 2 days across 17 desks; backlog is not a DARK finding.
+REGISTRY refreshed at 2026-11-05T23:07:51Z. Peer sessions listed on the laptop at 23:05Z: PROME, REGINALD, GIBBS, HOMER, NEXUS, OTTO, CRUISE, MARCO, ORACLE, DAEDALUS, all started about 22:57Z. Not listed, with rows due November 6 per WQ-626: LABOR, HENRY, LIQUID, TERRY, VIOLET, RED, BROCK, AEOLUS, CREED, CYPHER, VULCAN, FALCON, MIDAS, CARL. Not listed is not DARK. Doctor backlog: 53 items older than 2 days across 14 desks, 19 ACTION, oldest ACTION 17 days; backlog is not a DARK finding.
 
 Complete cross-runtime lifecycle visibility remains UNKNOWN. No active WALTER helper, study or unattended task. Dates and headers do not certify full domain freshness. Current duties and publication proof remain in LAST_COMPLETION.md.
 
