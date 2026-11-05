@@ -1135,3 +1135,10 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-11-05	heating_oil_state_eur_100l	168.11	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Bayern; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
 2026-11-05	heating_oil_state_eur_100l	160.78	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Hamburg; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
 2026-11-05	heating_oil_state_eur_100l	173.44	EUR_per_100l	FASTENERGY-BUNDESLAND	2026-11-05 11:59 ET	Sachsen-Anhalt; 3,000 L incl. delivery+VAT; Stand 05.11.2026 17:50 Uhr; CONFOUNDED (crude, regional supply), no base rate, never a Rhine signal alone
+2026-11-03	usda_barge_rate_pct	768	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Twin Cities; = $47.54/ton (benchmark 6.19)
+2026-11-03	usda_barge_rate_pct	761	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Mid-Mississippi; = $40.49/ton (benchmark 5.32)
+2026-11-03	usda_barge_rate_pct	723.75	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Lower Illinois; = $33.58/ton (benchmark 4.64)
+2026-11-03	usda_barge_rate_pct	564.0625	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	St. Louis; = $22.51/ton (benchmark 3.99)
+2026-11-03	usda_barge_rate_pct	687.5	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Cincinnati; = $32.24/ton (benchmark 4.69)
+2026-11-03	usda_barge_rate_pct	687.5	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Lower Ohio; = $30.66/ton (benchmark 4.46)
+2026-11-03	usda_barge_rate_pct	452.5	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Cairo-Memphis; = $14.21/ton (benchmark 3.14)
