@@ -3,13 +3,13 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review, on date); FAL-07 CONFIRMED; losses 7; oil fell 8.7% with no registered condition moving.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); no new pivot.
-**As of:** 2026-11-04 21:10 ET | STATUS commit: `72cff47275` | Evidence cutoff ~21:05 ET
+**As of:** 2026-11-04 21:10 ET | STATUS commit: `4c20f317c8` | Evidence cutoff ~21:05 ET
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
-| BRENT / HAWK / RED / TERRY | Price vs record: Brent −8.7% 11/4 (BRENT's number, cause not established) while the record gained a US strike on Iranian soil, one sinking, one seafarer death and seven hull events | P1 | D→C needs a 72-hour two-sided halt, not started; C→B needs a dated framework AND verified reopening; neither. Marks held on the letter. KB-386 |
+| BRENT / HAWK / RED / TERRY | Price vs record: Brent −8.7% 11/4 (BRENT's number, cause not established; BRENT: fade NOT MET, flow basis UNRESOLVED, tape −17% in three sessions) while the record gained a US strike on Iranian soil, one sinking, one seafarer death and seven hull events | P1 | D→C needs a 72-hour two-sided halt, not started; C→B needs a dated framework AND verified reopening; neither. Marks held on the letter. KB-386 |
 | HAWK / BRENT / RED / PROME | FAL-07 CONFIRMED: US struck Qeshm 11/2; Trump on record; AP, Reuters, AFP name US forces. On-record CENTCOM not found | P1 | Limited, officials say defensive; undated earlier strikes reported; first CONFIRMED date, not necessarily first strike. KB-377..379 |
 | BRENT / HAWK / WALTER | Census 7: tug SELAT STORM sunk per NAVAREA IX 425/26; IMO 11/3 "Damaged", conflict carried; class (ii) provisional; unattributed | P1 | Re-mark proposal HOLD (WQ-431 reasoning). Not a tanker. KB-380 |
 | BRENT / SAM / HAWK | Hull run reaches the mid-Gulf: LARGO ATOM 72 NM E Ras Al Khafji; LNG carrier AL MAYEDA S of Lavan (= UKMTO 188-26), operational | P1 | No cargo or delivery loss established. All unattributed. KB-382 |
@@ -24,7 +24,6 @@
 | From | Input | Expected by | Consequence |
 |---|---|---|---|
 | Qatar / US / Iran | Signed dated text with an on-record US answer | On event | First evidence that could start C→B |
-| BRENT | Hormuz flow basis and energy-tape fade test | Next BRENT session | Energy vector stays 5 until ruled |
 | NAVAREA IX / IMO | RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate | Any day | RITI total loss = first class (iii-A), EXIT rewrite + memo |
 | PGSA / Sinokor / Korea | Any named Sinokor hull detained | Any day | Shipping-vector event; BRENT freight read |
 | UKMTO | 192-26 onward (403 here) | Next recovery | Could add hulls |
