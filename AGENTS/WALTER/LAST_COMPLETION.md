@@ -20,7 +20,7 @@ November 5 total: 29 BOARD cards, 99 handoffs. WAL Q3 source recovery remains CL
 
 ## CHANGED
 
-Cards 001–043 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+Cards 001–050 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
@@ -51,6 +51,7 @@ No WALTER decision open. Nudge after any close for the close pass. Held-VLO disc
 
 ## FOLLOW-UP
 
+000. News sweep held two Iran headlines unrouted, see research/2026-11-05_sweep/SWEEP-REVIEW.md; read guards and bodies before any card.
 00. Rule 6 doorbells to live desks were late on 024–037: sent November 5 13:5x ET to LIQUID, HENRY, VULCAN, CREED; PROME has the wake packet for desks not seen running. Doorbell at dispatch, not when asked.
 0. HENRY's FLASH doorbell request ended November 5 about 14:02 ET when that session closed out; cards go to its inbox. Will may reboot it the same day: at each dispatch check ListAgents and doorbell any live owner under rule 6.
 1. HENRY and VIOLET consumed 077/078 November 5 by their own commits; wake recommendation closed. DEWEY 003R residual stays with DEWEY. L907 remains the bridge repair; L920 quote tolerance kept, intermittent refusals open at PROME.
@@ -158,7 +159,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
   ],
   "delivery": {
     "signal_date": "20261105",
-    "total": 156,
+    "total": 183,
     "delivered": 144,
     "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
   },
@@ -213,7 +214,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     "session": "OPEN after midday boot; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-043 including FLASH 016 and 017. Batches closed.",
+    "11": "Cards 001-050 including FLASH 016 and 017. Batches closed.",
     "13": "Owner leads compared; BRENT, HENRY, LIQUID, VIOLET, BOND, PROME, CREED, AEOLUS, RED, TERRY, VULCAN, REGINALD and self refreshed before NETWORK.",
     "12(a,b)": "Counts and NETWORK refreshed; last tape row is vendor intraday, no settled close claimed.",
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; standing flags unchanged.",

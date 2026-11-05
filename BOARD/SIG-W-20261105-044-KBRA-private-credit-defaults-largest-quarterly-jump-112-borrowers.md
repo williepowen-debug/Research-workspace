@@ -1,0 +1,32 @@
+---
+signal_id: "SIG-W-20261105-044"
+date: "2026-11-05"
+timestamp: "2026-11-05T19:16:07Z"
+dispatched: "2026-11-05T19:16:07Z"
+source: "WALTER"
+origin: ["WALTER news sweep November 5 / 1,690 headlines, 32 queries"]
+action: ["BROCK"]
+info: ["LIQUID", "SHADE", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.65
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+cluster: "PC_STRESS"
+domain: "PRIVATE_CREDIT"
+entities: ["KBRA", "direct-lending"]
+word_count: 134
+dispatch_note: "Search-summary figures, labelled. Stated as new against BOARD 1104-026 KBRA mention."
+---
+# KBRA: private credit defaults post their largest quarterly jump, 112 borrowers, up 22%; concentrated in smaller companies
+
+Bloomberg, November 5, body refused retrieval; figures come from a search summary of it. KBRA's report: 112 borrowers defaulted on private debt, up 22% from the prior quarter, the largest single-quarter rise on record. Sample: more than 3,000 middle-market companies with over $1.4T of direct-lending debt, 12 months through September. Pressure sits in smaller borrowers.
+
+Not the same series as Fitch's 6.3% (card 039); do not merge counts or rates. KBRA's rate for this period was not read, and "largest jump" is a change, not a level.
+
+Why it matters: this arrives beside Fitch's Q3 count, BCRED's 49.9% fill (032) and the Fed survey showing banks tighter on nonbank lenders (031, 043). Same direction, separate instruments; WALTER grades none of it.
+
+ACTION BROCK: read KBRA's own report and place it against your default line.
+
+Sources: https://www.bloomberg.com/news/articles/2026-11-05/private-credit-defaults-record-largest-quarterly-jump-kbra-says (refused) ; Google News title 2026-11-05
