@@ -6,6 +6,8 @@
 **Thesis owner:** HENRY, L616 breadth study dated 2026-10-31 on 10/30 closes, `AGENTS/HENRY/STATUS.md` § MARKET BREADTH.
 **Confidence in structure:** Low at the observed markets. Recommendation: wait; do not pay the displayed debit.
 
+> **TRIGGER STATE 2026-11-05 15:40 EST (TERRY, stamped 15:40 EST): NOT-FIRED, debit blocks; no entry.** RSP $216.85 −2.90%, red, above $215; ratio 0.2951 intraday. Chain 15:40 EST: 215C $7.80/$8.90 (DIRINC), 225C $2.50/$2.90, outer $6.40, mid $5.65, vs ≤ $4.90. The debit rose while RSP fell $0.35 from 13:33, so the rough sensitivity below (mid $4.90 near RSP $215.7) did not hold; do not rely on it. Screening marks, no broker quote; only a broker complex quote ≤ $4.90 changes this. Sent to PROME for Will's 15:39 ET question.
+
 > **TRIGGER STATE 2026-11-05 13:33 EST (TERRY): NOT-FIRED, debit blocks; no entry.** RSP $217.20 −2.75%, red, above $215; ratio 0.2950 intraday. Chain: 215C $7.60/$9.00, 225C $2.75/$3.10, outer $6.25, mid $5.375, vs ≤ $4.90. Rough: mid reaches $4.90 near RSP $215.7, outer near $214.7, under the floor. Screening marks, no broker quote. New card `IDEA-RSP-DEC-NOV05` (WQ-616) does not change this card.
 
 > **TRIGGER STATE 2026-11-05 11:10 EST (TERRY): NOT-FIRED, debit blocks.** Selloff: RSP $219.37 −1.78% (11:08 EST), red so far and above the $215 floor. Volatility rose with it: VIX $27.96. Chain 11:08 EST: 215C $9.50/$11.20, 225C $3.80/$4.80, outer $7.40 (×1 $741.30), leg mid $6.05, against ≤ $4.90. Screening marks, no broker quote. No close yet.
