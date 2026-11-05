@@ -41,6 +41,8 @@
 | Over $100B of projects at risk | REPORTED, pre-vote | Bloomberg on Ballotpedia via Bisnow November 2: proposed projects, before the vote. Not a result and not firm capacity [KB-367] |
 | OpenAI pledged to drop NDAs and pay full power costs | UNVERIFIED on NDAs | Not on the card's Bisnow page. Earlier power commitments are relayed; voluntary |
 | Apple cut some engineers' daily AI cap to $200 from $300 | REPORTED, one source | Bloomberg, people familiar. A ceiling, not spend; returns-case not met [KB-368] |
+| Micron all but halted its Taoyuan plant (added after the close of this memo, card 045) | REPORTED, unconfirmed by Micron | Bloomberg, people familiar. Plant due 2028; Micron says operations continue. Supply, not demand [KB-371] |
+| Satellite images show IREN and Nebius site delays | CLAIM, uncorroborated | BigGo, weak source; WALTER and this desk found no support [KB-372] |
 | Debt supply weighed on sentiment | REPORTED cause, ✅ VERIFIED supply | About $60B plus €15B in about a week, filing-primary. The link to the tape is not established |
 | Microsoft declined a Nscale Texas option | REPORTED, unrecovered | Reuters, one source, months old, contract stands. My search did not find it |
 | "Microsoft cuts $5B" | ❌ KILL as new | The October 28 trim to about $170B, already KB-335 |

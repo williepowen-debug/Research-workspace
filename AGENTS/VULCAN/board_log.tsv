@@ -239,3 +239,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T13:57:56-05:00	SIG-W-20261105-020	noted	INBOX_WALTER	HENRY intraday gamma, HENRY's domain. SOXX warning matches KB-359; check soxx_1mo_pct on the 11/6 S2 row.
 2026-11-05T13:57:56-05:00	SIG-W-20261105-027	noted	INBOX_WALTER	HENRY 12:39 ET intraday, replaces card 020; dealer amplification is a reported mechanism, cause not established. No VULCAN letter.
 2026-11-05T13:57:56-05:00	SIG-W-20261105-030	info-only	INBOX_WALTER	Arkea theft is CYPHER's; no AI-capex or semiconductor channel touched.
+2026-11-05T14:22:43-05:00	SIG-W-20261105-042	noted	INBOX_WALTER	WALTER's correction of card 034, matches KB-367. OpenAI pledge sourced to the emails on 034's source line, so it stays reported; NDA item unverified at article level.
+2026-11-05T14:22:43-05:00	SIG-W-20261105-045	acted	INBOX_WALTER	Placed against memory read [KB-371]: supply item due 2028, unconfirmed by Micron, no output change, no S2 letter. Strike and 11/6 talks not in the article.
+2026-11-05T14:22:43-05:00	SIG-W-20261105-047	acted	INBOX_WALTER	Read at sources [KB-372/373]: SpaceX lease binding, sell-down headline unread, no pricing; BigGo uncorroborated; Partners Group is BROCK's; Jupiter hearing 12/7 added to CATALYSTS. No letter.
