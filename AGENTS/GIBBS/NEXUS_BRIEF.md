@@ -3,7 +3,7 @@
 **Status:** 🟡 Large banks: deposit-cost repricing industry-wide, stress only at PNC CRE on the 8-K read; 15 of 16 10-Qs filed, new ones unread; no cyber consequence observed
 **Domain:** 16 US Category I-III banks as REGINALD's comparison group (Q1 industry-wide vs regional-only) and large-lender NDFI transmission (Q2, one figure with BROCK); large-bank consequence of CYPHER's cyber events
 **Recent thesis pivot:** none; the Q1/Q2 read is unchanged since 10/21 and the cyber consequence stays NOT OBSERVED through the 11/05 vendor cluster and Arkéa (0 Item 1.05 8-Ks at the 16, Arkéa's shared-vendor channel UNKNOWN)
-**As of:** 2026-11-05 18:10 ET | STATUS commit: `f47a6d2939`
+**As of:** 2026-11-05 18:05 ET | STATUS commit: `193370c9fc`
 
 ---
 
