@@ -79,7 +79,7 @@
 
 ## BOTTOM LINE — 2026-11-05
 
-- **WORK:** LIQUID Gate 069 read WITHHELD. Harness skips itemized, 31 legs. WQ-602 applied. WQ-601 applied except FALCON by packet. WQ-600 complete on the laptop. Whole audit PARTIAL. Session stopped for the desktop switch; resume from HANDOFF.
+- **WORK:** LIQUID Gate 069 read WITHHELD. Harness skips itemized, 31 legs. WQ-602 applied. WQ-601 applied at all desks. WQ-600 complete on the laptop. Whole audit PARTIAL. Session stopped for the desktop switch; resume from HANDOFF.
 - **CHECKS:** Closeout rc in `runs/GATE_LOG.tsv`; DUE items are maintenance clocks and ledger nudge. Whole Harness and profile clocks unchanged, July 7 held.
-- **DELIVERY:** Published through this commit, safe-push receipt at closeout. LIQUID, NEXUS, ZHAO and FALCON packets unconsumed at close.
-- **OPEN:** Will confirms WQ-601 units 4–5; if not approval, revert c251b07996. Desktop `SEC_CONTACT` line unconfirmed. LIQUID line 257 repair, B24, A09 awaiting Will's word, TERRY B44/D17 November 6, root rotation (PROME), L490/scorecard November 6. Pending intake: RED, ORACLE, TERRY, FALCON replies. Pending filing: L817 two, NEXUS, L882.
+- **DELIVERY:** Published through this commit, safe-push receipt at closeout. FALCON packet consumed and applied; LIQUID, NEXUS and ZHAO packets unconsumed at close.
+- **OPEN:** WQ-601 unit 5 confirmed by Will 11/05 09:07 ET, FALCON a2cadd327; unit 4 rests on the 21:13 ET word. Desktop `SEC_CONTACT` line unconfirmed. LIQUID line 257 repair, B24, A09 awaiting Will's word, TERRY B44/D17 November 6, root rotation (PROME), L490/scorecard November 6. Pending intake: RED, ORACLE, TERRY, FALCON replies. Pending filing: L817 two, NEXUS, L882.

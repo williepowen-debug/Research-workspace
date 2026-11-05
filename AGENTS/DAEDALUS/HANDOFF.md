@@ -7,7 +7,7 @@ PROME 08:44 ET: Will is switching to the desktop this morning. Session daedalus-
 **Resume first:**
 
 1. **Desktop `.env`:** SEC tools refuse until `SEC_CONTACT` is in the desktop's `FORGE/tools/market-data/.env`. PROME's MACHINE_LOCAL row covers it; the line was unconfirmed at close. Never put the address in a tracked file.
-2. **WQ-601 units 4–5:** Will's word reads as a question; FALCON asked him directly. If he did not approve, revert c251b07996 (CYPHER, FERT, ISHM, YURI, ZHAO). If he did, FALCON applies `CLAUDE.md:32` and `:104` from its packet. Units 1–3 and WQ-602 stand on separate words.
+2. **WQ-601 unit 5 CONFIRMED:** Will's direct "yes" in FALCON's window 2026-11-05 09:07 ET, FALCON commit a2cadd327 at lines 32 and 104. Do not revert the unit 5 lines. **Unit 4** (prediction rows at CYPHER:152, ISHM:209) rests on the 21:13 ET question-form word; that "yes" was asked about FALCON's push lines. Not separately confirmed; revert only those two lines if Will says it was not approval.
 3. **Will's open question:** start A09 or not. Do not start it unprompted.
 4. **Owner replies to verify when they land:** LIQUID line 257 repair, then one read of the replacement line and CLI test only; NEXUS and ZHAO on B24.
 
