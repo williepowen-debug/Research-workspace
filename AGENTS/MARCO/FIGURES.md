@@ -16,6 +16,16 @@
 
 ---
 
+## November 5, session 39 — catch-up verification
+
+- **VERIFIED-PRIMARY:** Banxico CE81 Sep 2026 count 12,576,986 vs 13,418,923 = **−6.27%**; 2-yr **−9.63%**; 3-yr −9.64%; $5,362.2M +1.55%; average $426 vs $393. Run of 6 months and the 2009–10 comparison recomputed on the full file.
+- **VERIFIED-PRIMARY:** LVCVA ES Sep 2026 revised PDF + ES Aug 2026; YTD identities exact. Aug+Sep RevPAR $125.21 vs $137.63 = **−9.02%** (rooms × days weighted; simple average −8.97%); visitors **−2.09%**.
+- **VERIFIED-PRIMARY:** Realtor.com newest 202610: AZ excess **+35.3pp** (Sep +31.7 reproduces the 10/14 declaration).
+- **VERIFIED-PRIMARY:** enrolled CS/HJR 1-F clause text ($50K to the fifth exemption year, 12/31/2026 residency date, CPI from 2028, two-thirds local waiver from 2030).
+- **SECONDARY ONLY:** Amendment 3 count 4,894,305 / 2,998,348 = **62.01%**, NBC6 results box, 99% in. Official endpoints unreadable; certification not read.
+- **CORRECTED AT SOURCE:** search summaries said a tenth of the fig crop was unharvested; Ag Alert says "waiting to be picked."
+- **ADOPTED FROM OWNER:** Citizens 254,836 @ 9/30, $69.61B (CORAL).
+
 ## October 28, session 38 — boot catch-up verification
 
 - **VERIFIED-PRIMARY:** MIA airport-reported Sep 2026 **3,573,815 vs 3,640,068 = −1.82% YoY; vs Sep-24 3,795,959 = −5.85% 2-yr** (Miami-Dade Traffic Report PDFs, Sep 2026 + Sep 2025 "(002)"; sum identity exact; prior-year column unrevised). Intl +1.28% / dom −4.33%; seats −1.49% (dom +0.28%). ⇒ MIA-2-consecutive trigger MET. Owner: `baselines/mia_airport_reported.tsv` · `KB-APT-49`.

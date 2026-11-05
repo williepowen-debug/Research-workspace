@@ -1,7 +1,7 @@
 # MARCO THESIS — v3.2
 
 **Version:** 3.2
-**Last Updated:** 2026-10-25 (s37 authorized stale-file reconciliation; no conviction/version or forecast-term change).
+**Last Updated:** 2026-11-05 (s39: Amendment 3 passage and September reads folded; no conviction, version or forecast-term change). Prior: 2026-10-25 (s37 authorized stale-file reconciliation).
 **Status:** NARROWED. Canadian travel is the highest-conviction transmitting channel. Labor supply remains an upstream quantity with aggregate price/cost transmission UNDEMONSTRATED. Border fiscal terminus is LOW, measured stable on the evidence examined, with Laredo tariff/credit watch. Current observations and individual source dates: `../STATUS.md`, `../workbook/VX.tsv`.
 
 ## CORE THESIS
@@ -34,7 +34,9 @@ International spending VX1.03 uses nominal SA BEA Travel actual trailing12months
 
 Annual CensusV2025 Florida domestic net+22,517 and international+178,674 remain positive, with sharply reduced momentum. Negative domestic migration would not alone establish falling total population. Subannual voter/enrollment proxies are confounded bounds, not migration counts. September voter registrations66,650/+65.7% YoY but+0.2% versusSep2022 andYTD−18.3% cycle-matched; statewide FLDOE−2.33% adopted from CORAL is not an out-migration estimate.
 
-September FL condo/TH supply7.7 months CRITICAL, SF4.4 ELEVATED (CORAL owns; verifiedOctober21). Citizens August exposure$74.8B/PIF266,231 is takeout-driven and differs from household premiums. Matched premium ratio2.95x remains the carried basis until a compatible newer source is verified. Do not substitute the old4.5x or ~385K policies. Existing monthly ZHVI/DOM checks retain their baskets and same-month definitions.
+September FL condo/TH supply7.7 months CRITICAL, SF4.4 ELEVATED (CORAL owns; verifiedOctober21). Citizens September exposure $69.61B / PIF 254,836 (CORAL, 9/30) is takeout-driven and differs from household premiums. Matched premium ratio2.95x remains the carried basis until a compatible newer source is verified. Do not substitute the old4.5x or ~385K policies. Existing monthly ZHVI/DOM checks retain their baskets and same-month definitions.
+
+**Amendment 3 passed (11/3, 62.01% unofficial).** From 2027 anyone without a Florida permanent residence as of 12/31/2026 stays at a $50,000 non-school exemption until the fifth exemption year, while existing residents go to $250,000 by 2028. The docket letter is MET; the mechanism is untested. INFERRED and unmeasured: a pull-forward into Q4 2026 that would inflate inflow proxies, and lower outflow from existing homesteaders with more to lose. Net direction is not identified, so Channel 3 conviction does not move. `KB-MARCO-FLI-06`.
 
 ## Channel 4 — remittance flow MEDIUM; fiscal terminus LOW verified
 
@@ -50,7 +52,7 @@ IRS covered-expatriate list is the measured leg, not a citizen-emigration census
 
 ## Forward obligations and expressions
 
-Existing docket is authoritative: MIA/LVCVA September availability; Nov2 remittances/local-CA persistence; Nov3 FL vote; Nov5 AZ first scored forward print; Nov6 CPS context only; Nov10 ENR02 leg2 (September+26.36% passed; original two-month20%/15% letter unchanged); Nov12 court status; Nov13 ID01 leg2; Nov15 OFLC/BTS/NTTO availability; Nov16/20 housing/state BLS; Dec4 November CPS next gradable YoY; Dec30 court replacement rule; annual Census; MAR24February1 first-pull vintage; LaredoMarch2027. Keep all registered TOUR and main prediction probabilities/resolvers unchanged.
+Existing docket is authoritative: Nov6 CPS context only; Nov10 ENR02 leg2 (September+26.36% passed; original two-month20%/15% letter unchanged); Nov12 court status; Nov13 ID01 leg2; Nov15 OFLC/BTS/NTTO availability; Nov16/20 housing/state BLS; Nov19 local-CA persistence; Nov30 LVCVA October; Dec1 remittances October; Dec4 November CPS next gradable YoY and AZ second print; Dec30 court replacement rule; annual Census; MAR24February1 first-pull vintage; LaredoMarch2027. Keep all registered TOUR and main prediction probabilities/resolvers unchanged.
 
 MARCO is flat and produces evidence. TERRY owns trade construction; no old IBOC/ag/homebuilder watchlist authorizes a trade or new research task. Routes: LABOR labor supply, CARL costs/consumer, REGINALD bank/CRE, CORAL housing/geography, BRENT energy inputs. Superseded externally propagated facts route via WALTER.
 

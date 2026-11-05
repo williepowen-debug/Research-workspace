@@ -93,3 +93,10 @@ CBO2025 range attributed byVX2.04 withdrawn/UNSCORED (WFD-24), no replacement ad
 
 ## 2026-10-28 — MIA-2-consecutive trigger MET (airport-own basis)
 Miami-Dade Sep 2026: −1.82% YoY (2-yr −5.85%) after Aug −5.69% ⇒ charter trigger fired to REGINALD, CARL (packets direct, SIGNALS.md row). Domestic −4.33% on flat seats; intl +1.28%. Scored threshold-MET / mechanism CONFOUNDED (Spirit exposure, airfares +22%). KB-MARCO-APT-49. Same day: DEWEY MARCO-DR-1 adopted; FL $600M–$1.2B formally retracted (KB-MARCO-CAN-52). LVCVA Sep not yet out → re-dated ~11/4.
+
+## 2026-11-05 — session 39 catch-up (week of dark prints)
+- **11/3 Amendment 3 PASSED** 62.01% yes, unofficial, 99% in; new residents wait to the fifth exemption year. Letter MET, mechanism untested, net sign not identified (`KB-FLI-06`).
+- **11/5 Las Vegas Aug+Sep:** combined RevPAR −9.02%, visitors −2.09% ⇒ room-dollar decline SURVIVES Labor Day; ES-07 reading NOT met (`KB-NV-07`).
+- **11/5 Banxico September:** count −6.27% YoY, 2-yr −9.63%; run 6 months (`KB-REM-12`).
+- **11/5 AZ-01 first scored print:** October +35.3pp CRITICAL (`KB-AZ-04`).
+- **11/5 California persistence:** nothing dated after 10/21 found; NOT ESTABLISHED (`KB-WFD-25`).

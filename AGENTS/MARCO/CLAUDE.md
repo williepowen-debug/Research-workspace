@@ -28,7 +28,7 @@ Three domains: (1) International Visitor Flows (Canadian collapse -28%), (2) Wor
 
 ### WALTER signal intake (inbox/WALTER delivery lane)
 
-*Installed 2026-07-31 (asked by WALTER 7/11, carried 20 days — the mechanical cause of an 18-signal unread backlog, one of them an ACTION item from 7/10). Canonical template: WALTER `design/BOARD_CONSUMPTION_SPEC.md` §8.1.*
+*Canonical template: WALTER `design/BOARD_CONSUMPTION_SPEC.md` §8.1.*
 
 At boot, after STATUS / SCRATCH / MEMORY:
 
@@ -39,6 +39,7 @@ At boot, after STATUS / SCRATCH / MEMORY:
    append a row to `board_log.tsv` with `source=INBOX_WALTER`,
    then `git mv` the file to `inbox/WALTER/processed/`.
 3. Let `acted` items inform this session.
+3b. **Combination watch (Will, WQ-622 A, `PROME/COMBINATION_WATCH.md`):** a sub-threshold item that may matter later or in combination goes in `workbook/KB.tsv` the same session, `combo:<theme>` first in Notes, with counterevidence, what would make it matter and a review date. Logging moves no score, band or trigger.
 
 ⚠️ **`git mv`, not bash `mv`** — bash mv leaves the deletion unstaged ([[git_mv_for_inbox_processing]]).
 ⚠️ **This lane is exempt from the "do NOT process inbox on normal spawns" MAIL rule below.** WALTER signals are a boot-time drain, not a separate spawn — that ambiguity is what let the backlog build.
@@ -156,7 +157,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 - **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Update stale dashboard rows rather than appending sections.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/`.
-- **Before starting any research, check `RESEARCH_STATUS.md` (COMPLETE / EXHAUSTED threads), `FIGURES.md` (what was verified, when, how) and `FINDINGS.md` (research index).** Do not re-research confirmed findings (e.g., the 2025 FL net-domestic-migration print, the Canadian 2-yr stack, the Mexico remittance count tell) — cite the current value and its date from `STATUS.md` instead of re-deriving it. *(Re-pointed 2026-09-24: the "CONFIRMED FINDINGS table in STATUS.md" this line used to name no longer exists.)*
+- **Before starting any research, check `RESEARCH_STATUS.md` (COMPLETE / EXHAUSTED threads), `FIGURES.md` (what was verified, when, how) and `FINDINGS.md` (research index).** Do not re-research confirmed findings (e.g., the 2025 FL net-domestic-migration print, the Canadian 2-yr stack, the Mexico remittance count tell) — cite the current value and its date from `STATUS.md` instead of re-deriving it.
 
 ---
 
@@ -216,10 +217,6 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 - CARL: Consumer credit deterioration confirms regional stress
 - LABOR: Employment data for cross-validation
 - HAWK: War → tourism, oil → airline costs, DHS political dynamics
-
----
-
-
 
 ---
 

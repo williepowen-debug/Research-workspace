@@ -4,6 +4,10 @@ Version-transition log. Newest first. Each entry: old view → new view, trigger
 
 ---
 
+## 2026-11-05 (session 39) — no version change
+
+**Amendment 3 passed** (62.01% unofficial): docket letter MET, Channel 3 mechanism untested, net migration sign not identified, conviction unchanged. Also read: Las Vegas Aug+Sep RevPAR −9.02% (decline survives Labor Day), remittance run reaches 6 months, AZ-01 first scored print CRITICAL. No channel moved. MAR-28 to MAR-31 registered.
+
 ## v3.1 → v3.2 (2026-09-24, session 29) — MINOR — **Channel 4 re-marked MED-LOW → LOW; the fiscal terminus is now MEASURED, and stable on its own mechanism** *(Will-ruled in session: "Lower to LOW, watch Laredo")*
 
 **Trigger:** the v3.1 falsification test was run in full. Receipts leg: 11 TX border cities Jan–Sep 2026 **+5.70%** vs all TX **+6.24%** (Comptroller, primary; reproduces the carried Jan–Jul +4.75% exactly). Credit leg (ratings + audited general funds; EMMA not accessed — terms gate): El Paso / McAllen / Nogales AZ **STABLE**; **Laredo early stress** (FY26 est. GF draw −19%, city-attributed to **tariffs**); **Pharr S&P A+ → A Negative (2026-04-09)** on negative GF cash / over-expenditure while its sales tax and bridge tolls **grew**.

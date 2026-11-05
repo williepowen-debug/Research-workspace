@@ -1,10 +1,10 @@
 # MARCO — NEXUS Brief
 
-**Status:** 🟠 v3.2 — MIA-2-consecutive trigger MET 10/28 (airport-own, CONFOUNDED); FL $600M–$1.2B formally retracted on DEWEY DR-1.
+**Status:** 🟠 v3.2 — Amendment 3 passed 11/3 (62.01% unofficial): letter MET, net migration sign not identified. Las Vegas room-dollar decline survives Labor Day; remittance run 6 months; `AZ-01` CRITICAL.
 **Domain:** Population movement — international visitors, workforce displacement and internal migration; Florida primary.
 **Thesis version:** v3.2, unchanged; position none.
 **Recent thesis pivot:** Channel 4 MED-LOW → LOW (9/24); s35 material evidence correction: MIA is Spirit-exposed, not a clean control.
-**As of:** 2026-10-29 00:01 ET (session 38 CLOSED at Will's request: boot catch-up + two workbook passes — MIA-2-consecutive MET, TX-01 ELEVATED, GTR-01 Sep −37.2% vs 2024 CRITICAL, CA FAIR Plan Sep, Guatemala Sep +6.37%). **STATUS commit:** folded in the same commit as this brief.
+**As of:** 2026-11-05 18:22 ET (session 39, WQ-623 catch-up). **STATUS commit:** folded in the same commit as this brief.
 
 ---
 
@@ -14,6 +14,8 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |----|--------|----------|---------------------------------------------|
+| **CORAL** | **SENT 11/5 s39 — Amendment 3 enrolled text: 12/31/2026 residency line, $50K to the fifth exemption year; polls were at or over the bar on decided share** | 🟠 | Any Q4-2026 Florida inflow read carries a pull-forward confound (INFERRED); CORAL keeps result and fiscal |
+| **PROME** | **SENT 11/5 s39 — delivery memo; L785 ready to close; MAR-28..31; six combination themes** | 🟡 | Registers DOCKET rows, verifies the charter line |
 | **REGINALD, CARL** | **SENT 10/28 s38 — MIA negative 2 consecutive months (airport-own: Aug −5.69%, Sep −1.82%)**, direct packets + SIGNALS.md row | 🟠 | Charter trigger MET; domestic −4.33% on flat seats; threshold-MET / mechanism CONFOUNDED (Spirit, fares +22%) — not a demand verdict |
 | **DEWEY** | **SENT 10/28 — MARCO-DR-1 adopted**; $600M–$1.2B retracted, no dollar figure replaces it (`KB-CAN-52`) | 🟡 | Commission closed |
 | **WALTER** | **SAVED10/25 s37 — stale-sweep attribution/dollar/transmission corrections**, packet `inbox/2026-10-25_from-MARCO_stale-sweep-corrections.md` underWALTER | 🟠 | Withdraw unsupported CBO2025 range; no replacement adopted. Preserve prior MIA route; delivery is not consumption. |
@@ -45,7 +47,6 @@
 |------|-------|-------------|----------------|------------------------|
 | WALTER / CORAL | Route/consume MIA correction on affected live surfaces | Open — next routed intake, before interpreting MIA September | CORAL currently calls MIA the clean tell | Removes a false unaffected-control premise; trigger letter unchanged |
 | CORAL | Any competing FL capacity number | Open — if carried | Reconcile shared FL metrics to one basis | Match scope/vintage before merging |
-| LABOR | Optional nativity split of January 2026 population-control adjustment | Open — if primary becomes accessible | 2026 YoY foreign-born labor-force comparisons span the level change | Sizes the unknown upward break; November CPS pre-reg unchanged |
 | CORAL | FL migration vintage/basis divergence | Open — next comparable source | Census annual versus bank-internal metro data measure different periods/populations | Document, do not merge incompatible levels |
 | REGINALD | Whether winter 2026–27 tourism timing is in regional-bank/CRE analysis | Open — existing exchange, no new task | Unsupported loss estimate cannot be used | Reconcile timing without inventing a dollar amount |
 
@@ -53,6 +54,10 @@
 
 ## VIEW
 
+- **Amendment 3 changes the Florida question, not the Florida score.** Passed 62.01% unofficial, not certified. New residents after 12/31/2026 wait to the fifth exemption year for the larger exemption. Pull-forward and retention are both INFERRED and pull net migration in opposite directions; Channel 3 stays MED-LOW.
+- **Las Vegas:** Aug+Sep RevPAR −9.02%, visitors −2.09%; mostly price, YTD RevPAR still +0.6%. Total LAS, not Canadian.
+- **Remittances:** Sep count −6.27%, 2-yr −9.63%, run 6 months, no high base behind it. Fewer senders versus consolidation still open. The split with the September jobs survey stands until 12/4.
+- **`AZ-01`:** October +35.3pp CRITICAL, first scored print; any-cause stress, not snowbird attribution.
 - **Attribution correction:** VX2.04’s CBO2025 negative-net-migration range is unsupported/UNSCORED; original history retained and WALTER correction saved, no replacement estimate adopted. This is an evidence correction, not a conviction/forecast-rule change.
 - **Existing-series refresh:** seven comparable series updated; latest BEA nominalSA Travel actual trailing12months throughAugust shows−$3.125B,ELEVATED. Housing/labor/receipts changes and revisions remain in canonical VX/source_checks; no October observation or bank-loss estimate inferred. GTR429/regional-remittance and TOUR05/06 source gaps remain unresolved.
 
@@ -68,23 +73,23 @@
 - **Diverge from market by:** consensus reads FL/tourism as resilient; MARCO retains a WINTER 2026–27 inbound/Canadian risk hypothesis, not an observed current FL collapse or a quantified future loss. FLL domestic recovery and the CPS flip cut against a blanket bear reading; remittances/Canadian land weakness support it. Preserve the distinction between counts, prices and causation.
 - **Cross-agent tensions known to me:** unsupported CBO2025 attribution correction now routed throughWALTER, consumer impact/consumption unverified. CORAL's live STATUS/brief carry the superseded MIA clean-tell premise; correction packet saved through WALTER, consumption pending. FL migration divergence remains documented-not-merged (different vintage/basis), as both desks agreed.
 - **Uncertain about:** later LAS filings (MARCO/BTS), January CPS control size (LABOR), current source-comparable Florida migration (CORAL), H-2A later court state/new rates. No automatic added investigation.
-- **Failure patterns to mind:** missing carrier coverage mistaken for cessation; single-cause attribution; correct numbers on wrong denominators; a cross-source consistency check can share an error. Anchors in `MEMORY.md`, `FIGURES.md` and `thesis/PREDICTIONS.tsv`; no restated calibration scoreboard.
+- **Failure patterns to mind:** a poll graded against a ballot bar with undecideds in the denominator (11/5); missing carrier coverage mistaken for cessation; single-cause attribution; correct numbers on wrong denominators; a cross-source consistency check can share an error. Anchors in `MEMORY.md`, `FIGURES.md` and `thesis/PREDICTIONS.tsv`; no restated calibration scoreboard.
 - **RED counter-frame:** Florida housing absorption and restored FLL domestic volume remain meaningful counters. The local CA output report does not erase the failed aggregate Channel 1 transmission tests. Unsupported Florida loss estimate stays withdrawn pending its existing owner task (PROME L466), not revived here.
 
 ## NEXT DECISION POINT
 
-- **What:** LVCVA September — Aug+Sep combined RevPAR (pre-registered 10/14); not published 10/28.
-- **When:** ~11/4 (estimated).
-- **What would falsify the trigger:** combined Aug+Sep RevPAR ≥0 ⇒ the August room-dollar decline was a Labor Day calendar artefact.
+- **What:** `ENR-02` leg 2, October airfares (2-yr ≥ +20.0% = SUSTAINED).
+- **When:** 11/10.
+- **What would falsify the trigger:** either month below +15.0% = FADED; October needs an index fall of −3.20% MoM to get there.
 
 ## FORWARD CATALYSTS (next 2–4 weeks)
 
 | Date | Catalyst | Link to the view |
 |------|----------|------------------|
-| ~11/4 | LVCVA September | NEXT DECISION POINT |
-| 11/2–3 | Banxico / CA farm-persistence check / FL amendment vote | Quantity versus local output and migration-policy risk; owners/bases unchanged |
-| 11/10 | October CPI airline fares | Existing ENR-02 leg 2; Spirit co-driver/national scope retained |
+| 11/10 | October CPI airline fares | NEXT DECISION POINT; Spirit co-driver/national scope retained |
 | 11/12–13 | H-2A court-status checkpoint / StatCan October | Later procedural state; raw and calendar-adjusted ID-01 legs separate |
 | ~11/15 | OFLC Q4 / existing BTS release read | FY certification resolver; inspect LAS filing backfills if available, no new tracker |
+| ~11/17–19 | Amendment 3 certification / CA second check | Official count; local persistence |
+| ~11/30–12/4 | LVCVA Oct / Banxico Oct / Nov CPS / `AZ-01` | MAR-30, MAR-28, MAR-29 |
 
 Canonical records: `STATUS.md`; `thesis/THESIS.md` and `PREDICTIONS.tsv`; `docket/CATALYSTS.tsv`; latest repairs/source limits `research/2026-10-25_stale-file-sweep-phase2/completion.md`; capacity source/calculations `domain/sources/TOURISM/2026-10-25_spirit-seat-replacement_LAS.md` + `research/2026-10-25_capacity/`. All prior SENDING rows retained; CROSS-DOMAIN first under schema amendment 12.

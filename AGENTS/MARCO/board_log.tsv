@@ -89,3 +89,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T03:38Z	SIG-W-20261029-005	noted	INBOX_WALTER	CRUISE VX-CRU-04 G->Y (missed Aug cancellation). PortMiami Sep 653,705 vs 549,218 (+19.0%), Canaveral FY +6.68%: FL cruise movements UP; counts not persons, no demand attribution. Context beside MIA Sep airport read; not graded into any MARCO vector.
 2026-10-29T03:38Z	SIG-W-20261029-009	info-only	INBOX_WALTER	RCL Q3 adj EPS 6.57, FY guide raised, fuel offset. CRUISE/BRENT lane. No MARCO vector.
 2026-10-29T03:38Z	SIG-W-20261029-011	info-only	INBOX_WALTER	EU gas storage record low for date (73.94% 10/12, secondary). HANS/BRENT lane. No MARCO vector; ENR-02 is airfare stage only.
+2026-11-05T23:03Z	SIG-W-20261031-005	info-only	INBOX_WALTER	Belarus potash transit report (UNN relaying Politico unnamed officials; Lithuania PM denies pressure). FERT triage-only lane, default copy. No MARCO vector.
