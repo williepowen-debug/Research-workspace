@@ -19,4 +19,4 @@
 
 **Retained limits:** Demand limb weak both ways: recorded, threshold unchanged, review is Will's through PROME. Drill read as not EEA-class, stated at KB193. November 1 cause unknown. Amended RBP docket and requested order date unread. Earlier limits carry (hedge shares, active queue total, Appalachian basis, EIA-930 interchange gap).
 
-**Persistence / handoff:** Prior pickup preserved verbatim at `archive/SCRATCH_ARCHIVE_2026-11-05_before-L866.md`. Fetch clean, origin not ahead at boot; ahead 2 were others' commits. Exact-path commits only. PROME's closeout ask pending at writing. No trade, threshold change, spend or Will decision.
+**Persistence / handoff:** Prior pickup preserved verbatim at `archive/SCRATCH_ARCHIVE_2026-11-05_before-L866.md`. Fetch clean, origin not ahead at boot; ahead 2 were others' commits. Exact-path commits only. PROME consumed the delivery and asked closeout 18:40 ET: D:L866 resolved, WATT-14 to 17 on DOCKET, step 6a verified. Closeout receipt in the report. No trade, threshold change, spend or Will decision.
