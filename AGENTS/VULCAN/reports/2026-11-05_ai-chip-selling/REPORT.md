@@ -37,6 +37,10 @@
 | Citrini "peak capex growth" added to selling | NOT ESTABLISHED | The turn is a positioning fact; paid body unread |
 | Positioning de-risking | REPORTED | Goldman, Morgan Stanley, JPM via relays |
 | Forced selling or margin calls | NOT ESTABLISHED | None found. WALTER found none either |
+| Voters rejected data centers in 40 of 41 local measures (added 13:55 ET, card 034) | REPORTED, not counted here | NYT DealBook, and Bloomberg's "only Harwood", both unread here and probably one Ballotpedia base. Legal effect not read. Harwood is an Applied Digital campus leased by Oracle, per local press relay |
+| Over $100B of projects at risk | REPORTED, pre-vote | Bloomberg on Ballotpedia via Bisnow November 2: proposed projects, before the vote. Not a result and not firm capacity [KB-367] |
+| OpenAI pledged to drop NDAs and pay full power costs | UNVERIFIED on NDAs | Not on the card's Bisnow page. Earlier power commitments are relayed; voluntary |
+| Apple cut some engineers' daily AI cap to $200 from $300 | REPORTED, one source | Bloomberg, people familiar. A ceiling, not spend; returns-case not met [KB-368] |
 | Debt supply weighed on sentiment | REPORTED cause, ✅ VERIFIED supply | About $60B plus €15B in about a week, filing-primary. The link to the tape is not established |
 | Microsoft declined a Nscale Texas option | REPORTED, unrecovered | Reuters, one source, months old, contract stands. My search did not find it |
 | "Microsoft cuts $5B" | ❌ KILL as new | The October 28 trim to about $170B, already KB-335 |

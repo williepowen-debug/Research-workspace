@@ -234,3 +234,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T10:42:20-05:00	SIG-W-20261105-005	acted	INBOX_WALTER	Owner read delivered: reports/2026-11-05_ai-chip-selling/REPORT.md [KB-346..348]. No S1 letter; cause not established; Texas promise, nothing enacted.
 2026-11-05T10:42:20-05:00	SIG-W-20261105-010	acted	INBOX_WALTER	Weak-link hold to Q3 now issuer-confirmed 11/10 not about 11/9 [KB-355]; bankruptcy KILL holds on EDGAR 11/5; bond table unverified.
 2026-11-05T10:42:20-05:00	SIG-W-20261105-011	acted	INBOX_WALTER	Citrini claims compared with own series [KB-349/350]: RPO partly supported, $1T is forward, peak growth is a VULCAN-10 question, no YoY cut.
+2026-11-05T13:57:56-05:00	SIG-W-20261105-034	acted	INBOX_WALTER	Integrated [KB-367/368]: 40 of 41 stays REPORTED, $100B is a pre-vote figure from Bloomberg on Ballotpedia, OpenAI pledge not on the card's URL, Apple cap a lead. No letter; S3 and S1 sub-read NOT FIRED.
+2026-11-05T13:57:56-05:00	SIG-W-20261105-017	noted	INBOX_WALTER	Later vendor intraday 11:04 ET, not closes; SMH -10.54%, QQQ -5.81%. Tape context only; closes owed on the 11/6 slots. No letter.
+2026-11-05T13:57:56-05:00	SIG-W-20261105-020	noted	INBOX_WALTER	HENRY intraday gamma, HENRY's domain. SOXX warning matches KB-359; check soxx_1mo_pct on the 11/6 S2 row.
+2026-11-05T13:57:56-05:00	SIG-W-20261105-027	noted	INBOX_WALTER	HENRY 12:39 ET intraday, replaces card 020; dealer amplification is a reported mechanism, cause not established. No VULCAN letter.
+2026-11-05T13:57:56-05:00	SIG-W-20261105-030	info-only	INBOX_WALTER	Arkea theft is CYPHER's; no AI-capex or semiconductor channel touched.
