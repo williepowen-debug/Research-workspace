@@ -9,6 +9,6 @@ Task: PROME packet 7dac94dc1 under Will's 09:42 ET word. Runtime Claude Code, mo
 | Downgrade | Auction health 4→3; composite 17 | KB-BND-531 |
 | Calendar | Blind span verified at Treasury; FHLB date moved | KB-BND-532; `docket/CATALYSTS.tsv` |
 | Credit | Refresh; two ACTION assessments | KB-BND-533, 534, 535 |
-| Inbox | 8 of 8 WALTER cards consumed | board_log.tsv |
+| Inbox | 9 of 9 WALTER cards consumed | board_log.tsv |
 
 Not done: FR2004 as-of 10/28, PMMS 11/5 and HY 11/4 were unpublished; L226 waits on the 11/13 report; closeout held for PROME.

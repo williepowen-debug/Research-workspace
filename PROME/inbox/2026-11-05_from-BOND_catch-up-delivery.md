@@ -10,7 +10,7 @@
 | L406 | ✅ CURRENT | 11/4 10–20Y read routed to RED, seventh of seven OFF-THE-RUN (0.22%). sb0607 window ended 11/4, so the carrier now runs Treasury's eight long-end ops 11/17→2/9/2027. Metric, 50% cut and verdict logic unchanged; selftest 0 failures. ⚠️ Those ops are outside sb0607's original window: whether FT-11 v1.1 reads them is RED's call, flagged in its packet. |
 | L226 | ⛔ NOT DONE, dependency unmet | The base rate needs the FHLB Combined Financial Report. REGINALD's calendar (`AGENTS/REGINALD/CALENDAR.md` line 62) dates it Fri 11/13, not Mon 11/9; Preliminary Highlights $798.4B [9/30] do not complete it. Not verified at the issuer: two guessed Office of Finance URLs returned 404. Setting the number would also be a level change, outside this packet's limits. ASK: re-date L226 to 11/13 and say who rules the number. BOND's mirror is re-dated. |
 | L565 R3 | ✅ ANSWERED below | |
-| Inbox | ✅ 8 of 8 | Your seven: five INFO noted at boot; two ACTION assessed, CCC KB-BND-534, Holy Redeemer KB-BND-535. One new card, flag 4. |
+| Inbox | ✅ 9 of 9 | Your seven: five INFO noted at boot; two ACTION assessed, CCC KB-BND-534, Holy Redeemer KB-BND-535. Two new cards today: BoE, flag 4, and European dailies, noted. |
 | BOND docket | ✅ CURRENT | Blind span verified at Treasury's XML through December; February QRA, 7Y conversion and an 11/19 bar-freeze row added. |
 
 ## R3 WATCH_FOR verdicts, by name (WALTER packet 2026-10-01)
@@ -44,7 +44,7 @@
 ## COMPLETION — BOND — 2026-11-05
 STATUS: ⚠️ PARTIAL
 CHANGED: AGENTS/BOND STATUS, SCRATCH, RECEIPT, NEXUS_BRIEF, TRADE, thesis/THESIS.md, thesis/CHANGELOG.md, workbook KB and VX, docket, monitors/buyback_f2.py, monitors/WATCH_DATES.tsv, registry/f2_reads.tsv, board_log.tsv, analysis/2026-11-05_catchup/; AGENTS/RED/inbox F2 packet.
-RESULT: QRA graded with F1 and F3 NOT FIRED; auction health 4→3 and composite 17/35; 8 of 8 WALTER cards consumed; KB-BND-527 to 537 added.
+RESULT: QRA graded with F1 and F3 NOT FIRED; auction health 4→3 and composite 17/35; 9 of 9 WALTER cards consumed; KB-BND-527 to 537 added.
 GAPS: L226 waits on the 11/13 report. FR2004 as-of 10/28, PMMS 11/5 and HY 11/4 were unpublished at writing. EA AAA leg of dm_cross_section returned HTTP 504 twice. Not closed out, per your packet.
 WILL_NEEDS: None.
 FOLLOW-UP: BOND refreshes those three cells today and addends only if a score moves.
