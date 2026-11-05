@@ -1,4 +1,4 @@
-# VIX THESIS (v4.1.8 — WQ-611 A and WQ-614 A encoded, 2026-11-05: Path A hit rates replaced by measured figures, Path A is a WATCH with no gate, Lag Trade template and Regime Shift size line withdrawn)
+# VIX THESIS (v4.1.9 — outbound credit-flat row defined at +25bp and MOVE pause/resume retired, 2026-11-05; v4.1.8 — WQ-611 A and WQ-614 A encoded, 2026-11-05: Path A hit rates replaced by measured figures, Path A is a WATCH with no gate, Lag Trade template and Regime Shift size line withdrawn)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 

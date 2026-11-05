@@ -9,6 +9,14 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## November 5, 2026 — charter conflicts fixed; MOVE pause/resume retired
+
+**Trigger:** Will, about 16:41 ET, verbatim "yes to all", on three charter fixes, the MOVE line and the credit-flat number.
+**What changed:** CLAUDE.md MAIL paragraph, which forbade the inbox work step 5a requires and cited HERMES, replaced with a pointer to 5a. Step 5a moved ahead of 5b, no renumbering. "Position sizing → FORGE" changed to TERRY, matching root. Outbound credit-flat row carries its number. SIGNAL_INTAKE row moved to a RETIRED section. CANARY_MAP row and the `move.py` comment no longer call the levels live.
+**Files touched:** `CLAUDE.md` · `SIGNAL_INTAKE.md` · `CANARY_MAP.md` · `scripts/move.py` (comment only).
+**Boot-impact:** order only. `move.py` output unchanged; its printed levels are reference levels.
+**Lessons:** a rule outlives its parent when nothing grades the parent; retire the child in the same ruling.
+
 ## November 5, 2026 — MAINTENANCE cap trim and catch-up repair scripts
 
 **Trigger:** boot cap breach at 303 lines; PROME catch-up packet 7dac94dc1 (Will 09:42 ET).

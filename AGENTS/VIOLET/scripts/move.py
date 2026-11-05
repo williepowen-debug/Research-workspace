@@ -72,10 +72,11 @@ UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 # at every boot for ~7 weeks: a RESOLVED gate rendered as a live threshold, which
 # is the one direction that manufactures work rather than hiding it. Flagged 9/2,
 # carried as a known defect, removed today.
-# ⚠️ F1 (72.41) is a DIFFERENT line and STAYS — it is the live MOVE re-arm
-# referenced by SIGNAL_INTAKE § ACTIVE THRESHOLDS (re-armed 2026-09-01), and it
-# shares the KB-VIO-116 id with the retired gate. The shared id is exactly why
-# the dead leg survived this long: it read as a sibling of a live line.
+# ⚠️ F1 (72.41) was the MOVE re-arm level and N1 (66) the retire level of the
+# pause/resume rule (KB-VIO-190), RETIRED 2026-11-05 on Will's word (KB-VIO-377).
+# All three LINES below are now reference levels for the convergence vector and
+# the CANARY_MAP row; none is a live gate or attaches an action. F1 shares the
+# KB-VIO-116 id with the retired gate, which is why the dead leg survived so long.
 LINES = [("F1 (KB-VIO-116)", 72.41, "above"),
          ("confirm-3 (KB-VIO-123)", 75.5, "above"),
          ("N1 stand-down", 66.0, "below")]

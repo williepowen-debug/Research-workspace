@@ -1,6 +1,6 @@
 # VIOLET STATUS
 
-**As of:** November 5, 2026 14:02 ET (from `date`). Catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1), Claude Code, Opus 5.5. Official closes through 11/04 from Cboe History CSVs and the VX settlement CSV; live values are about 13:45 ET delayed quotes, basis TICK. **Last real data refresh: 2026-11-05.** Thesis **v4.1.5**; no line, gate or letter changed.
+**As of:** November 5, 2026 16:44 ET (from `date`) for rulings; market data unchanged since 14:02 ET, close still ungraded. Catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1), Claude Code, Opus 5.5. Official closes through 11/04 from Cboe History CSVs and the VX settlement CSV; live values are about 13:45 ET delayed quotes, basis TICK. **Last real data refresh: 2026-11-05.** Thesis **v4.1.5**; no line, gate or letter changed.
 
 ## BOTTOM LINE
 
@@ -53,7 +53,8 @@
 | OVX/VIX canary | **FIRE 11/04** (context canary, not an action gate) | Route: NEXUS_BRIEF cross-domain + BRENT/HAWK reference. No outbox file: VIX fell. |
 | Cheap-tail alert | **DORMANT 2/4** [11/04] | VVIX 90.41 vs ≤90, VIX 16.61 vs ≤16; SKEW and catalyst legs met. Rows 10/29–11/04 backfilled by `--as-of`. Live VIX 17.50 is not near. Observation only; no opportunity declared. |
 | BIN-A / BIN-B | **STUCK / BLOCK ACTIVE** | CCC 12.97% [11/04] ≥ 9.55. |
-| MOVE pause/resume | **ARMED** | 93.88 [11/04], above the 66.00 retire line. |
+| VIX +30% in 5 days, credit flat | **VIX leg met on TICK 11/05; credit leg open** | +55% on last TICK 26.60 against 17.20 [10/29]. Flat now means HY 11/05 at or under 351bp (326bp [10/29] +25, KB-VIO-378); 332bp [11/04]. Grade on the official close and FRED 11/05. |
+| MOVE pause/resume | **RETIRED 11/05** | Will's word, KB-VIO-377. MOVE stays a convergence vector; 72.41 and 66 are reference levels only. |
 | COR1M first-tell / pre-CPI cheap-tail / Q2 L477 / VIO-FOMC-0916 / F-B / RV1 | **RETIRED / PASSED / CLOSED / FAILED / HELD / RETIRED** | Terminal outcomes unchanged. |
 
 ## CONVERGENCE MATRIX
@@ -62,7 +63,7 @@
 
 | Vector | Score | Dated basis |
 |---|---|---|
-| Rates vol | 🔴🔴 **5** | MOVE 93.88 [11/04] above standing lines; 100.36 [11/02]. |
+| Rates vol | 🔴🔴 **5** | MOVE 93.88 [11/04] above reference levels; 100.36 [11/02]. |
 | Credit | 🔴 **4** | LIQUID BROADENS; HY 340bp [11/03], peak 344bp [10/30]; CCC 13.16%. |
 | SKEW / tail pricing | 🔴🔴 **5** | RED FT-10 FIRING (0 of 4 exit closes); 150.90 [11/04], p93.9. |
 | Oil vol | 🔴🔴 **5** | Canary FIRE 3.54, p97.3 [11/04]; OVX 58.81, p92.2. |

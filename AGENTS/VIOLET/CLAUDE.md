@@ -28,15 +28,15 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/VIOLET/scripts/boot.py)
    ```
    Use `--verbose` for full output. Web-search only for narrative/headline catalysts the boot kit doesn't cover.
+5a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
+   - List `AGENTS/VIOLET/inbox/WALTER/*.md` whose signal ID is absent from field 2 of `board_log.tsv`: use an exact CSV field lookup or `rg -n '^[^\t]*\t<signal_id>\t' AGENTS/VIOLET/board_log.tsv`, never a whole-file read. Exit 1 means no match; a read/search error is UNKNOWN, not absence. Do not rotate or truncate this cold log. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/VIOLET/inbox/WALTER/processed/`.
+   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 5b. **Staleness guard (automated — run at every boot; DAEDALUS L4 packet #3, applied 2026-07-11).** Anti-recurrence mechanism for the 7/2-7/8 frozen-STATUS gap (KB-VIO-113 class) — surfaces ledger/TRADE drift at boot instead of relying on same-session discipline:
    ```
    python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" VIOLET --quiet
    python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" VIOLET --trade --quiet
    ```
-5a. **WALTER signal intake (`inbox/WALTER/` delivery lane)** — process WALTER-delivered handoffs:
-   - List `AGENTS/VIOLET/inbox/WALTER/*.md` whose signal ID is absent from field 2 of `board_log.tsv`: use an exact CSV field lookup or `rg -n '^[^\t]*\t<signal_id>\t' AGENTS/VIOLET/board_log.tsv`, never a whole-file read. Exit 1 means no match; a read/search error is UNKNOWN, not absence. Do not rotate or truncate this cold log. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
-   - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/VIOLET/inbox/WALTER/processed/`.
-   - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 5c. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" VIOLET` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then receipt in the WQ-399 field-bearing form (Will 2026-10-08; the writer refuses an incomplete receipt, rc 2, nothing written): `--receipt <id> --action APPLIED --artifact <path#key> --validation-ref <path#key|NONE>` · `--action NO-OP --scope <text>` · `--action DEFERRED --review YYYY-MM-DD` · `--action CONTESTED` (no `;` in values; full forms: `--help`; updated 2026-10-10, C4) and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### EXECUTE
@@ -64,7 +64,7 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
 
 **Discipline overlay (applies throughout write-back):** one source of truth per metric — don't write the same value in two docs (own it in the owner doc, reference from the other). Stale-marked > carried-forward-as-current — if you can't refresh a value, mark it `[STALE]` with the date, don't present it as live. **Don't let prior-session narrative substitute for fresh measurement** — VIOLET-specific (3 framing errors caught 6/1: termination date, VIX9D percentile, VRP percentile; all directional-right, precision-wrong).
 
-**MAIL:** Do NOT process inbox on normal spawns. Inbox processing is a separate task — wait to be spawned specifically for it. (Per auto-memory `[[project_messaging_overhaul]]` — file-based mail is being overhauled; HERMES delivery unreliable; don't invest in inbox/outbox infrastructure.)
+**MAIL:** Process `inbox/WALTER/` at every boot under step 5a.
 
 ⚠️ **Critical:** Always WRITE to STATUS.md / SCRATCH.md / KB.tsv. Do not just report findings back verbally. If it's not in the file, it doesn't persist.
 
@@ -101,7 +101,7 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
 - Macro events (FOMC, geopolitical) → HENRY, HAWK
 - Oil/energy substance → BRENT, HAWK (you own only the oil-vol→equity-vol transmission read)
 - Yen-carry / BOJ policy substance → SAM (you own only the carry→vol transmission read)
-- Position sizing → FORGE
+- Position sizing → TERRY
 
 **Boundary rule:** If you encounter signal in another agent's domain, put it in `NEXUS_BRIEF.md` CROSS-DOMAIN (or an `outbox/` file ONLY if 🔴-acute, per write-back step 12). Don't deep-dive it yourself.
 
@@ -113,7 +113,7 @@ Read→write pairings: STATUS (read 1 → write 7), SCRATCH (read 2 → write 11
 
 | Condition | Target Agent | Priority |
 |-----------|-------------|----------|
-| VIX spikes >30% in 5 days with credit spreads flat | HENRY, RED | 🔴 |
+| VIX spikes >30% in 5 days with credit spreads flat (HY OAS 5-session change no wider than +25bp, first-published FRED, same 5 sessions as the VIX move) | HENRY, RED | 🔴 |
 | Term structure inverts (VIX > VIX3M) — **peak-marker broadcast** (v3.1/KB-VIO-034: marks vol peaks, not onsets) | LIQUID, HENRY | 🔴 |
 | VVIX > 120 (vol-of-vol stress) | RED, HENRY | 🟠 |
 | Credit spreads widen >50bps, VIX unmoved | HENRY, RED | 🟠 |

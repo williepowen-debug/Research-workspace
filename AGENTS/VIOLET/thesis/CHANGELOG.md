@@ -6,6 +6,13 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## November 5, 2026 — v4.1.9: credit-flat row defined, MOVE pause/resume retired
+
+**Ruling:** Will in the VIOLET session, about 16:41 ET, verbatim "yes to all".
+**Old view → new view:** outbound row "VIX spikes >30% in 5 days with credit spreads flat" had no number → flat means HY OAS 5-session change no wider than +25bp, first-published FRED, same 5 sessions as the VIX move (KB-VIO-378). MOVE pause/resume, retire below 66.00 and re-arm at 72.41 for 2 closes → retired with no successor because its parent commission is resolved (KB-VIO-377).
+**Caveat:** the +25bp basis is exploratory and unregistered: 93 episodes, clustered, 11 of 40 above the line against 6 of 52 at or under it. It decides which signal is sent. No live gate moved and no trade rule changed.
+**Not changed:** thesis Path B prose "credit flat" (line 318 at this version). The number applies to the outbound row only.
+
 ## November 5, 2026 — v4.1.8: WQ-614 A encoded
 
 **Ruling:** Will in PROME's chat, 13:59 ET, verbatim "Okay approve with your recs all four". Record `PROME/proposals/2026-11-05_wq614-617-RULED.md`.

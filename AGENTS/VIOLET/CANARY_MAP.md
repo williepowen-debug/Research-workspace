@@ -8,7 +8,7 @@ SKEW here means the **Cboe S&P 500 SKEW index**, not SPX delta-specific put skew
 
 | Canary | Leads / scope | Registered threshold | Source / cadence | Owner / current value |
 |---|---|---|---|---|
-| MOVE | Rates-vol transmission | F1 >72.41; confirm-3 75.50; N1 <66 (KB-VIO-116/123) | investing.com primary; daily via move.py | STATUS / MOVE.tsv; original GATE-VIO-116 resolved |
+| MOVE | Rates-vol transmission | F1 >72.41; confirm-3 75.50; N1 <66 (KB-VIO-116/123) | investing.com primary; daily via move.py | STATUS / MOVE.tsv; original GATE-VIO-116 resolved. Reference levels only: pause/resume rule retired 2026-11-05, KB-VIO-377 |
 | CCC / CCC−BB | Credit-to-vol | BIN-A old level tree STUCK, no verdict; BIN-B block CCC ≥9.55 | FRED, observation-date lag | LIQUID owns substance; STATUS / fred_cache |
 | VIX3M/VIX | Peak marker, not onset | <1.0 | Cboe same-date quotes + archive; daily/intraday | STATUS / VX_DAILY.tsv |
 | VVIX | Vol-of-vol | >100 watch; >120 stress | Cboe; daily/intraday | STATUS / VX_DAILY.tsv |
