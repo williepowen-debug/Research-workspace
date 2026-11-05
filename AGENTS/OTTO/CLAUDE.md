@@ -1,6 +1,6 @@
 # OTTO — Agent Instructions
 
-**Version:** 3.0 | **Updated:** 2026-10-19 *(s031: approved LESSONS rebuild added to boot; `MAINTENANCE.md` 2026-10-19)*
+**Version:** 3.1 | **Updated:** 2026-11-05 *(s041: combination watch added to inbox processing, WQ-622; Secondary thesis labelled a hypothesis per THESIS v1.6; `MAINTENANCE.md` 2026-11-05)*
 
 > *Stamp reconciled 2026-09-12 (s022), DAEDALUS profile finding **F-2**: this header read `v2.5 | 2026-06-08` while the footer read `v2.7 | 2026-06-09`, and the file had been edited as recently as 9/2. **The footer's version is the true one** — v2.7 is the WINTERKORN introduction — so the header is moved to it and the date to this session's edit. The 7/4, 8/27 and 9/2 content edits carried no version bump; that is a convention, not a defect. **Structural history is `MAINTENANCE.md`, not this line.** A booting reader takes the header at face value, and two stamps that disagree mean neither can be trusted.*
 
@@ -60,8 +60,8 @@ cross-agent links.** Live case-status mirror in `STATUS.md` § THESIS; current m
 `STATUS.md` § SIGNAL DASHBOARD. This section is now a one-line pointer — *do not duplicate
 the canonical thesis here.*
 
-- **Primary — "The Cockroach":** pattern fraud-discovery across the auto ecosystem; 4 confirmed cases + 1 alleged carve-out (Carvana).
-- **Secondary — "The Invisible Exit":** immigrant subprime cohort skip-defaults bypassing standard 30→60→90 DQ chain — explains why fraud lender books look clean until collapse.
+- **Primary — "The Cockroach":** pattern fraud-discovery across the auto ecosystem; 4 confirmed cases + 1 alleged carve-out (Carvana, DORMANT since THESIS v1.6).
+- **Secondary — "The Invisible Exit":** an unverified hypothesis that immigrant subprime cohort skip-defaults bypass the standard 30→60→90 DQ chain. Falsified delinquency data is what is charged at Tricolor; borrower exit is not established.
 
 → `thesis/THESIS.md` for everything else.
 
@@ -119,6 +119,7 @@ STATUS.md) — skip the full sweep.
 1. **Read each signal** — who sent it, what's the data, what priority (🔴/🟠)?
 2. **Cross-reference workbook + thesis** — check `STATUS.md`, `workbook/ML.tsv`, `workbook/PANEL_10D.tsv` + `thesis/PREDICTIONS.tsv` for related vectors, prior research, or transmission mechanics (`VX.tsv` and `FLOW.tsv` are FROZEN: history only, never a current read). Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
+3a. **Combination watch (Will, 2026-11-05 15:22 ET, WQ-622 A, verbatim: *"Even if any singular piece of news doesnt move the needle by itself - we do want to account for and document things that might matter eventually, or in combination, etc."*):** in the session you read a card, sweep or print, a small item that may matter later goes in `workbook/ML.tsv` as a new dated row with `combo:<theme>` first in the Observation, carrying members with read state, counterevidence, what would make it matter, and a review date. Guide: `PROME/COMBINATION_WATCH.md`. Themes are the `combo:` rows at ML-OTTO-350 to 356 and any later ones. Logging is not scoring: a tag moves no score, band or trigger.
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply** (a direct packet to the sender's inbox when it answers THEIR ask; otherwise a `SIG-OTTO-WALTER-*` drop per § How to Signal. `OUTBOX.md` is deprecated) only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
 6. **Mark processed** — move signal file from `inbox/` to `inbox/processed/`
@@ -319,7 +320,7 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | Warehouse lender pulls lines broadly | CARL, LIQUID | 🔴 URGENT | 2008 mortgage warehouse freeze |
 | Carvana 10-K delayed or GT resigns | ALL | 🔴 URGENT | Enron/WorldCom auditor issues |
 | ABS downgrade wave (5+ deals/month) | REGINALD | 🟠 ELEVATED | 2007-2008 MBS downgrades |
-| Recovery ratio <28% — **deep-subprime 10-D panel, deal-level, latest collection month** (NOT the Fitch aggregate, ~37%, which would never trip). ✅ **FIRED 2026-09-02** (`SIG-OTTO-WALTER-20260902-002` → WALTER `SIG-W-20260903-007`, info CARL). **Still met at the Aug-2026 collection month** (EART 25.17 / 24.58 / 24.79 / 29.78). Re-fire only when a deal NEWLY crosses or the condition clears; a continuing reading is a level update, not a new firing | CARL | 🟠 ELEVATED | — |
+| Recovery ratio <28% — **deep-subprime 10-D panel, deal-level, latest collection month** (NOT the Fitch aggregate, ~37%, which would never trip). ✅ **FIRED 2026-09-02** (`SIG-OTTO-WALTER-20260902-002` → WALTER `SIG-W-20260903-007`, info CARL). ✅ **RE-FIRED 2026-11-05** on EART 2024-1's re-crossing at September collections (`SIG-OTTO-WALTER-20261105-exeter-recovery-recrossing-and-lender-reads`); current values live in STATUS. Re-fire only when a deal NEWLY crosses or the condition clears; a continuing reading is a level update, not a new firing | CARL | 🟠 ELEVATED | — |
 | Cooperating witness reveals new fraud/participants | CARL, REGINALD | 🟠 ELEVATED | Enron cooperators expanded scope |
 | Subprime origination -30%+ YoY | CARL | 🔴 URGENT | 2008-2009 credit crunch |
 
@@ -464,8 +465,8 @@ Fake invoices for goods not delivered. Same receivables factored to multiple len
 
 **🔴 The genuinely thesis-relevant find, same pull — SUPPLEMENTAL SERVICING FEES.** Identical definition in **all three** shelves' prospectuses: *"'Supplemental Servicing Fees' means any and all (i) late fees, **(ii) extension fees**, (iii) non-sufficient funds charges and (iv) any and all other administrative fees…"* — **retained by the servicer**, on top of the base fee. **The party that decides whether to grant an extension collects a fee for granting it.** OTTO tracks extension rates as a *masking* lever (the conduct the Tricolor indictment describes); this establishes it is simultaneously a *revenue* lever, and that this is the **standard industry structure, not a Carvana peculiarity.**
 
-### Abandonment/Skip ("Invisible Exit")
-Immigrant borrower + vehicle disappear simultaneously. Loan goes current → skip (bypasses 30→60→90 chain). Recovery = $0. Cross-border enforcement impossible.
+### Abandonment/Skip ("Invisible Exit") — hypothesis, not established
+Hypothesis: immigrant borrower + vehicle disappear simultaneously; loan goes current → skip (bypasses 30→60→90 chain); recovery = $0; cross-border enforcement impossible. Charges and missing vehicles do not establish this (CATO OT1, THESIS v1.6).
 
 ---
 
@@ -495,7 +496,7 @@ same-data-in-two-docs).
 
 | Condition | Impact |
 |-----------|--------|
-| Carvana earnings/disclosure clean + substantive rebuttal | Carvana -40% |
+| Carvana earnings/disclosure clean + substantive rebuttal | Carvana -40% (✅ met, applied THESIS v1.6, 2026-11-05: DORMANT) |
 | DOJ finds fraud limited to named companies | Pattern -30% |
 | No additional lender failures in 6 months | Contagion -25% |
 | Recovery ratio rebounds >35% on the deep-subprime 10-D panel (deal-level; NOT the Fitch aggregate, which sits ~37% and would read "met" permanently) | Immigration -30% |
@@ -574,4 +575,4 @@ AGENTS/OTTO/
 
 ---
 
-*OTTO CLAUDE.md **v3.0** | 2026-10-19 — s031: LESSONS rebuilt from OTTO mistakes and added as boot3a; no threshold or routing authority changed. **Full version/structural history → `MAINTENANCE.md`.***
+*OTTO CLAUDE.md **v3.1** | 2026-11-05 — s041: combination watch step 3a (WQ-622), Secondary thesis labelled a hypothesis, trigger row updated; no threshold or routing authority changed. Prior v3.0 2026-10-19: LESSONS rebuilt and added as boot3a. **Full version/structural history → `MAINTENANCE.md`.***

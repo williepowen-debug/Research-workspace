@@ -15,6 +15,10 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 ---
 
 
+### 2026-11-05 s041 — combination watch added to inbox processing
+
+**Trigger:** Will WQ-622 A, every desk, `PROME/COMBINATION_WATCH.md`. **Changes:** new step 3a in the INBOX Processing Protocol; seven `combo:` theme rows at ML-OTTO-350 to 356; charter v3.1. ML has no Notes or Review column, so the tag and review date sit first and last in the Observation, with Category also carrying the tag. No new file, schema, script or checker. **Files:** `CLAUDE.md`, `workbook/ML.tsv`. **Boot-impact:** none. **Lessons:** none structural.
+
 ### 2026-10-25 s039 — accepted stale-file metadata/source reconciliation
 
 **Trigger:** Will audit-first sweep, Phase1 consumed and Phase2 authorized atPROME`413f7d495`. **Changes:** dated inventory/findings/source/preimage/result receipts; factual Doc Ownership/frozen/retired reference metadata and duplicate LESSONS row corrected, OUTBOX historical transport warning, Tier2 completed-gate erratum; shelf producer docstring describes its actual annual-vintage probe and frozen ledger wrapper warns about its historical verdict label. **Controls:** source/forecast/case observations remain at their owners; no governance/routing/spawn/threshold change, no producer logic or emitted schema change, no tool build. Old records/preimages preserved. **Boot impact:** existing files/sequence unchanged; STATUS carries bounded results and residual gaps, final brief pin follows STATUS commit. **Lesson:** existing mirror/source-clock/scope correction patterns cover this pass; no new fleet-memory promotion. Analytical judgment unchanged; no new CHANGELOG pivot.
