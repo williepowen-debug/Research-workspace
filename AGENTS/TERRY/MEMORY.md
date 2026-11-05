@@ -4,7 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current pickup — 2026-11-04 20:22 EST
+## Current pickup — 2026-11-05 11:34 EST
+
+Claude Code, Opus 5.5, session 725131af, Will-launched on the desktop; catch-up under Will's 09:42 word, closeout on his word. Read STATUS CURRENT STATE first, then `research/2026-11-05_catch-up/NOTE.md`. VLO sold $366.665, −$45.33, HELD-01 discharged. QQQ 690P and RH WAL Dec-18 70P gone, prices partly UNKNOWN (D-94; `research/2026-11-05_robinhood-capture/TRANSCRIPTION.md`). Approved NOT-FIRED: RSP (WQ-591, debit blocks), UNG (WQ-606 A: `.anl` plus ECMWF, a marginal value fires), HYG, ORCL (FQ2 date unverified, IR 403). OP-SCALE draft v3 awaits PROME's recount 11/7; TERRY contests, Will decides WQ-599, seat first. CME refused this desktop too: curl 92 HTTP/2 INTERNAL_ERROR. Lessons in practice: do not rebuild on a peer's report before its reader finishes; do not tell Will a physical claim the owner has not made.
+
+## Prior pickup — 2026-11-04 20:22 EST
 
 Claude Code, Opus 5.5, terry-86. Owed-work session, $0 moved; VLO exit established and SELL rec written, WQ-592 rec changed to B. WQ-591/592/593 unruled; TLT T1 and CF results unread; HYG 0 of 3, void reset; UNG +1.09 m/s [11/4 12Z] with AEOLUS log owed. Read STATUS ★ first.
 
