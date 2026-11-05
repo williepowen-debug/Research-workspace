@@ -17,14 +17,16 @@
 - **WAL 10-Q read:** the $99M does not appear; owner NO-VERDICT. OZK files with the FDIC, nothing on EDGAR.
 
 ## NEXT SESSION (dated, ordered)
-1. 🟠 **Fri 11/6:** jobs → RED-23 resolves (recompute on the resolving vintage; if WRONG, re-litigate the S41 move in that session) · KB-092 re-derive · FT-02 11/05 cell.
-2. 🟠 **Before Sat 11/7:** TERRY revises the draft against report version 3; re-read the diff only if TERRY or PROME asks. GATE-OP-SCALE-01 grade is TERRY, PROME and Will's. RED answers contests only.
+0. 🔴 **First at boot:** grade 11/05 from publishers only: FRED VIXCLS (FT-06 exit day 1 only if >=18; a close >20 is WL-02), Cboe SKEW_History.csv (FT-10), FRED HY and CCC (FT-02, RED-27). RED-26 and RED-27 windows opened 11/05. Vendor closes are in STATUS; do not grade from them. VIOLET closed before the bell, so its Cboe bars and VVIX grade are owed by its next session and RED does not wait for them.
+1. 🟠 **Fri 11/6:** jobs → RED-23 resolves (recompute on the resolving vintage; if WRONG, re-litigate the S41 move in that session; the Outcome names EVENT TRUE or FALSE per the ledger line) · KB-092 re-derive · FT-02 11/05 cell.
+2. 🟠 **Before Sat 11/7:** TERRY revises the draft against report version 4; re-read the diff only if TERRY or PROME asks. GATE-OP-SCALE-01 grade is TERRY, PROME and Will's. RED answers contests only.
 3. 🟡 **By 11/9:** CHG-054 re-review: OZK 10-Q (FDIC filer; read OZK's Chicago refi at the primary, SIG-W-20261027-041). KB-065/066 refresh then.
 4. 🔴 **Tue 11/10:** Oct CPI per the pre-written tree, then the discretionary re-derivation off the STATUS ledger, War included. Read War against price and flow separately; "no letter fired" is not D 85 re-earned.
 5. 🟡 **11/6–11/13:** KB review cluster, 15 live Stale_By dates (first KB-091, -101), 25 by 11/30; SCRATCH previously listed two. **11/15** HHDC (CHG-045/049). BRK-26 done 11/05, see addendum S59-c. **~11/25** FT-10 outcome grade.
 
 ## OPEN THREADS
-- **LIVE 11/05:** selloff into banks intraday, credit ETFs calm at 11:48 ET. Read the close. If VIX closes over 20 the live-event override holds this session open; hourly STATUS commits while it runs.
+- **11/05 close, vendor only:** SPY −4.41%, QQQ −6.49%, KRE −2.47%, HYG −0.31%, VIX 26.86 at 16:05 ET. Equities and volatility moved, credit proxies did not. Will closed the session at 16:42 ET, which ends the live-event override; it re-applies at the next session if the official close is >20 and the event is still running.
+- PROME's scoring run on the row key is unconfirmed; report 2 is 12/4.
 - CPI tree refreshed S59 with a pre-data ruling: the anti-spiral −2 reads as landed at S57; direction bear, not forced by the text.
 - WL-11: Brent settled under 95 on 11/04, vendor back over on 11/05. Price and flow still disagree. Do not resolve by inference.
 - FT-10 reading: the condition met on a tech and gamma trigger, so do not read the ~11/25 CORRECT as war or credit foresight.
@@ -33,10 +35,10 @@
 - None owned by RED. WQ-599 is Will's; RED's named changes went to PROME as candidates.
 
 ## GIT STATE
-Commits path-scoped, not pushed; closeout not run. `git pull --rebase` not attempted: other desks' tracked dirty files, origin not ahead at fetch (0 behind).
+See the closeout message for commits and the push receipt.
 
 ## OWED AT CLOSEOUT
-W7 memory (ML-315 extends `finding_naming_a_caveat_can_substitute_for_fixing_it`) · board_log `--rotate` (64.8%) · push via safe-push.
+Run at S59 closeout: memory, rotation, push.
 
 ---
 
@@ -49,3 +51,4 @@ W7 memory (ML-315 extends `finding_naming_a_caveat_can_substitute_for_fixing_it`
 - VIOLET vol-spike notice logged 12:42 ET; grade FT-06 and FT-10 on official bars only. Close read still the next wake, 16:25 ET.
 - 2026-11-05 14:20 ET: RED-26 (S&P 500 record close, 33%), RED-27 (HY OAS below 400bp, 68%), RED-28 (FT-08 exit by the 12/10 print, 18%) registered on Will's word via PROME before the 11/05 close (WQ-596). Letters in `workbook/PREDICTIONS.tsv`, catalysts and CALENDAR mirrored, packet to PROME. VIOLET closed before the bell, so no Cboe bars from it: FT-06 reads FRED VIXCLS, T+1; FT-10 reads Cboe SKEW_History.csv directly.
 - 2026-11-05 16:26 ET: close read run, official bars not posted, nothing graded. Background poll watches Cboe SKEW_History.csv for the 11/05 bar; FRED VIXCLS and HY post 11/06 morning. RED-23 and KB-092 follow the 08:30 ET jobs report. WQ-596 and the ledger convention line are done (a7efebead); PROME's scoring run on the row key is unconfirmed.
+- 2026-11-05 16:43 ET: closed on Will's word. Addendum S59-c ends the day.

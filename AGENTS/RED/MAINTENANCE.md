@@ -9,6 +9,7 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 - **Trigger:** PROME excluded 23 resolved rows because CORRECT and WRONG could not be read as the event happening.
 - **What changed:** a `#` convention line now sits on line 2 of `workbook/PREDICTIONS.tsv`, with a row key and the forward rule. `schema_check.py` skips `#` lines in the per-row cell count. It sits below the column header because `boot.py` reads line 1 as the header.
 - **Files:** `workbook/PREDICTIONS.tsv`, `scripts/schema_check.py`, `workbook/ML.tsv`, `MAINTENANCE.md`.
+- **Also:** `board_log.tsv` rotated at closeout.
 - **Boot-impact:** none. No past grade or price changed.
 
 ## S58 — 2026-11-04 20:40 ET (from `date`; Will: "can you get caught up on any owed tasks")
