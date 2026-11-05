@@ -50,3 +50,22 @@ JULY_NODE_PRELOAD_2026-07-06.md (referenced from PREDICTIONS.tsv: check first) Â
 
 ## CLEAN (checked)
 All 3 scripts and the dashboard builder compile; boot --selftest PASS; PREDICTIONS 54 rows 7 columns, no duplicates; KB 169 rows 15 columns, no duplicates; board_log 834 rows, no duplicate signals; PUBLISHED 4 columns; all wikilinks resolve; read cap rc=0, LESSONS 75%; corrections check rc=0; evals 3/3 PASS 10/21; STATUS 138 lines, MEMORY 70.
+
+## DISPOSITION (Will's "go", 11/5 10:43 ET)
+| Item | Result |
+|---|---|
+| O1, O2 | HENRY had answered; empty list sent to PROME to land. PENDING PROME |
+| O3, O4 | DONE: MAINTENANCE logged; 8 cards read and closed, nothing owed |
+| O5, S5, S6 | PENDING, after the close |
+| B1 | Routed to PROME for a WQ row with a recommendation. 6,494 unchanged |
+| B2, B3, B4, B6, B8 | DONE |
+| B5 | Left; proposal to drop boot step (g) routed to PROME |
+| B7 | LEFT: renaming ledger rows breaks the consumer series for no gain |
+| S1, S2, S3, S4 | DONE (S2 by retiring the index) |
+| S7 | Dated, before 11/20 |
+| Retirements | DONE, listed in archive/README.md. JULY_NODE and T3v2 kept: a live doc travels them |
+| M1, M2, M3 | DONE: M3 was an iShares 3-for-1 split effective 11/5 |
+| M4, M6 | LEFT: grandfathered; size harmless |
+| M5 | OPEN: no consensus source on this desk |
+| M7 | Reviewed, closed |
+
