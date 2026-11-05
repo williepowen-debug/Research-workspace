@@ -1,12 +1,14 @@
 # VIOLET — NEXUS Brief
 
-**Status:** The election-week scare released on 11/04: VIX 21.15 / 20.83 (RISING_VOL closes 11/02, 11/03), then 16.61, LOW_VOL. No hard line fired. ⚠️ Credit and tail pricing did not release: HY 340bp [11/03], SKEW 150.90 [11/04]. ⚠️ The regime-shift broadcast was missed while VIOLET was dark; this brief is the late record.
+**Status:** 🔴 LIVE 11/05, TICK, not closes: VIX 24.46 (+47% from 16.61 [11/04]), high 28.09; VIX3M/VIX 0.9685, inverted; VVIX 119.21, high 128.95. RISING_VOL on TICK. No registered line has fired: all grade on the close. ⚠️ Credit not confirming: HY 332bp [11/04] tighter and before today, HYG −0.41% at 12:35 ET.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.7; Will's WQ-611 A encoded. No live gate moved.
-**As of:** 2026-11-05 12:01 ET | **STATUS commit:** `5fbbcc2fe`.
+**As of:** 2026-11-05 12:41 ET | **STATUS commit:** `293ced89a`.
 Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED VIXCLS agrees. Canonical numbers: [STATUS](STATUS.md). **Convergence 32/50, re-scored on closes and unchanged** (KB-VIO-369).
 
 ## CROSS-DOMAIN
+
+**ALL DESKS, HENRY / LIQUID / RED 🔴 — 11/05 spike (KB-VIO-374, outbox SIG):** regime is RISING_VOL on TICK, graded on the close. VIX +42% in 5 days from 17.20 [10/29]; credit-flat leg unconfirmed until FRED 11/05. Inversion marks peaks, not onsets (KB-VIO-034). The shape reads closer to Path B than Path A; one session, cause not established. Use official closes after 16:15 ET for any grade.
 
 **ALL DESKS — late regime-shift record (KB-VIO-367):** VIX 21.15 [11/02] and 20.83 [11/03] were RISING_VOL closes; the 11/02 close met VIOLET's all-desks outbound row, and VIOLET was dark. Reversed: 16.61 [11/04], LOW_VOL. VVIX peak 110.47 (line 120), 3M/VIX low 1.0211 (line 1.00), +25.1% in 5 days (line +30%): none fired.
 
