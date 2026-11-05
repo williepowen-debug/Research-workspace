@@ -13,8 +13,9 @@ This tool is the class carrier: it is keyed to the OPERATION SCHEDULE, not to a 
 WHAT IT DOES
 ------------
   --pending   (default; ALSO invoked from boot_recompute.py every boot, so it needs no memory)
-      Pulls the FiscalData buybacks primary, enumerates every operation in the sb0607
-      window (2026-09-10 -> 2026-11-04) and classifies it:
+      Pulls the FiscalData buybacks primary, enumerates every operation in the carrier
+      window (sb0607 2026-09-10 -> 2026-11-04, extended 2026-11-05 to the November QRA's
+      schedule, through 2027-02-09) and classifies it:
         IN SCOPE   = Liquidity Support + Nominal Coupons + bucket in {10Y to 20Y, 20Y to 30Y}
                      (sb0607's stepped-up sectors -- the ONLY ops the F2 letter reads)
         OUT SCOPE  = every other op in the window (TIPS, 7Y-10Y, cash management ...):
@@ -93,7 +94,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 LEDGER = os.path.normpath(os.path.join(HERE, "..", "registry", "f2_reads.tsv"))
 FIXTURE = os.path.join(HERE, "fixtures", "buyback_20260910.json")
 
-WINDOW = ("2026-09-10", "2026-11-04")          # sb0607: stepped-up sizes 9/9 -> 11/4 QRA
+WINDOW = ("2026-09-10", "2027-02-09")          # sb0607 9/9 -> 11/4, then the $6B ops on the November QRA schedule (DOCKET L406, 2026-11-05)
 IN_SCOPE_BUCKETS = ("10Y to 20Y", "20Y to 30Y")
 ON_THE_RUN_CUT = Decimal("0.50")               # STRICT '>' -- see docstring
 LEDGER_PROCESSED_FALLBACK = ("inbox/", "inbox/processed/")   # RED git-mv's consumed packets
@@ -110,6 +111,20 @@ SCHEDULE = [
     ("2026-10-15", "10Y to 20Y", ">= $4 billion"),
     ("2026-10-27", "20Y to 30Y", ">= $4 billion"),
     ("2026-11-04", "10Y to 20Y", ">= $4 billion"),
+]
+
+# Issuer schedule -- home.treasury.gov/system/files/221/Tentative-Buyback-ScheduleQ42026.xml
+# (November 2026 QRA, statement sb0678), parsed 2026-11-05 from the issuer XML; saved at
+# analysis/2026-11-05_catchup/raw/treasury/. In-scope rows only. Metric, cut and verdict logic unchanged.
+SCHEDULE_NOV = [
+    ("2026-11-17", "20Y to 30Y", "$6 billion"),
+    ("2026-12-02", "10Y to 20Y", "$6 billion"),
+    ("2026-12-08", "20Y to 30Y", "$6 billion"),
+    ("2026-12-22", "10Y to 20Y", "$6 billion"),
+    ("2027-01-06", "20Y to 30Y", "$6 billion"),
+    ("2027-01-12", "10Y to 20Y", "$6 billion"),
+    ("2027-01-26", "20Y to 30Y", "$6 billion"),
+    ("2027-02-09", "10Y to 20Y", "$6 billion"),
 ]
 
 VINTAGE_CACHE = os.path.normpath(os.path.join(HERE, "..", "registry", "cusip_vintage.tsv"))
@@ -212,7 +227,7 @@ def in_scope(op):
     unrecognised field on an in-window op) -- reported as a GAP, never as 'no F2 read owed'."""
     d = op.get("operation_date", "")
     if not (WINDOW[0] <= d <= WINDOW[1]):
-        return False, "outside the sb0607 window"
+        return False, "outside the carrier window"
     ot, st, mb = _norm(op.get("operation_type")), _norm(op.get("security_type")), _norm(op.get("maturity_bucket"))
     if ot is None or st is None or mb is None:
         return None, f"UNCLASSIFIED -- null field(s) on an in-window op (type={op.get('operation_type')!r}, sec={op.get('security_type')!r}, bucket={op.get('maturity_bucket')!r}); verify at the primary"
@@ -334,7 +349,7 @@ def pending_report(ops, sd, ledger, today, schedule=None, repo_root=None, vintag
     """Pure: returns (lines, n_owed, n_gaps). No I/O beyond os.path.exists on ledger paths.
     `schedule` defaults to the issuer SCHEDULE. `vintages` = {cusip: original issue date}, resolved
     by the caller; a published, UNROUTED op with any CUSIP missing from it is a GAP, never a verdict."""
-    schedule = SCHEDULE if schedule is None else schedule
+    schedule = (SCHEDULE + SCHEDULE_NOV) if schedule is None else schedule
     by = {}
     for r in sd:
         by.setdefault(r["operation_date"], []).append(r)
@@ -344,8 +359,8 @@ def pending_report(ops, sd, ledger, today, schedule=None, repo_root=None, vintag
     lines, owed, gaps = [], 0, 0
     if today > WINDOW[1]:
         gaps += 1
-        lines.append(f"   ⛔ WINDOW EXPIRED: today {today} > {WINDOW[1]} (sb0607 / August-quarter schedule). This carrier is DATED "
-                     f"by its window -- parse the November QRA's tentative buyback schedule into SCHEDULE/WINDOW before trusting "
+        lines.append(f"   ⛔ WINDOW EXPIRED: today {today} > {WINDOW[1]} (November-quarter schedule). This carrier is DATED "
+                     f"by its window -- parse the next QRA's tentative buyback schedule into SCHEDULE/WINDOW before trusting "
                      f"any 'nothing owed' line. Non-zero every boot until then.")
     seen = set()
     dates = sorted(d for d in (set(ops_by) | set(by)) if WINDOW[0] <= d <= WINDOW[1])
@@ -420,7 +435,7 @@ def pending_report(ops, sd, ledger, today, schedule=None, repo_root=None, vintag
             gaps += 1
             lines.append(f"   🔴 {d}  {bucket}  on the ISSUER SCHEDULE, PAST, and NOT in the FiscalData feed -> verify at the primary (cancelled? fetch gap?) -- GAP")
         else:
-            lines.append(f"   📅 {d}  {bucket}  {size}  SCHEDULED (issuer PDF 9/9); preliminary CUSIP list D-1 11:00 ET, op 1:40-2:00 PM ET")
+            lines.append(f"   📅 {d}  {bucket}  {size}  SCHEDULED (issuer schedule); preliminary CUSIP list D-1 11:00 ET, op 1:40-2:00 PM ET")
     return lines, owed, gaps
 
 
@@ -611,8 +626,8 @@ def selftest():
     ann2, arows2 = _synth("2026-09-24", "20Y to 30Y", cap=None, rows=[{"cusip_nbr": "X1", "coupon_rate_pct": "4.000", "maturity_date": "2050-02-15", "par_amt_accepted": "null", "weighted_avg_accepted_price": "null"}])
     lines, owed, gaps = pending_report([ann2], arows2, {}, "2026-09-24", schedule=[])
     check("announced op with null cap -> reported, no crash", any("cap n/a" in l for l in lines))
-    # WINDOW EXPIRY: past 11/4 the tool is non-zero even when every scheduled op is routed
-    lines, owed, gaps = pending_report([], [], {}, "2026-11-20", schedule=[])
+    # WINDOW EXPIRY: past WINDOW end the tool is non-zero even when every scheduled op is routed
+    lines, owed, gaps = pending_report([], [], {}, "2027-03-01", schedule=[])
     check("past WINDOW end -> ⛔ WINDOW EXPIRED gap, never rc=0", gaps >= 1 and any("WINDOW EXPIRED" in l for l in lines))
     mm = metrics(pub, prow, _mv(prow))
     check("synthetic recent_share = 0.00% exactly (q=4 distinct vintages -> idx 3 -> cut 2056-02-15, whose par is 0)", round(mm["recent_share"] * 100, 2) == Decimal("0.00"))
@@ -632,9 +647,9 @@ def selftest():
     check("schedule: 6 future in-scope ops listed 📅", sum(1 for l in lines if "📅" in l) == 6 and owed == 0 and gaps == 0)
     lines, owed, gaps = pending_report([], [], {}, "2026-09-26", schedule=SCHEDULE[1:])
     check("schedule: a PAST scheduled op missing from the feed is a GAP 🔴 (not an owed read)", any("🔴 2026-09-24" in l for l in lines) and owed == 0 and gaps == 1)
-    # WHOLE-SCHEDULE case as it stands on 2026-09-17: fixture 9/10 op ledgered, nothing owed, six scheduled.
+    # WHOLE-SCHEDULE case as it stands on 2026-09-17: fixture 9/10 op ledgered, nothing owed, six scheduled + the eight November-quarter rows.
     lines, owed, gaps = pending_report([fx["operation"]], fx["security_details"], read_ledger(), "2026-09-17", vintages=FXV)
-    check("full schedule on 2026-09-17 with the LIVE ledger: 9/10 routed (path resolves), 0 owed, 0 gaps, 6 scheduled", owed == 0 and gaps == 0 and sum(1 for l in lines if "📅" in l) == 6 and any("✅ 2026-09-10" in l for l in lines))
+    check("full schedule on 2026-09-17 with the LIVE ledger: 9/10 routed (path resolves), 0 owed, 0 gaps, 14 scheduled", owed == 0 and gaps == 0 and sum(1 for l in lines if "📅" in l) == 14 and any("✅ 2026-09-10" in l for l in lines))
     lines, owed, gaps = pending_report([fx["operation"]], fx["security_details"], {}, "2026-09-17", vintages=FXV)
     check("full schedule on 2026-09-17 with an EMPTY ledger: 9/10 is OWED (the L401 state before this tool)", owed == 1 and any("🔴 2026-09-10" in l for l in lines))
     # PARTIAL PUBLICATION (2026-09-24 independent read): must NOT grade.
