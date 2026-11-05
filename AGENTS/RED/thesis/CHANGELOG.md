@@ -4,6 +4,15 @@
 
 ---
 
+## S59 — 2026-11-05 10:13 ET (from `date`; Will via PROME 09:53 ET, WQ-599) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. One registered-trigger exit COUNT moved (FT-06 3 of 5 → 0 of 5); no trigger fired or exited. One formal challenge opened.**
+
+- **FT-06:** VIXCLS 16.61 [11/04] broke the ≥18 run at 3. Old view: "VIX has held 18 for three closes; 11/04 pending." New view: "it did not hold; the clock is dead and a later run is a new clock." No exit, no weight.
+- **CHG-RED-056 (TERRY OP-SCALE draft), STRONG.** Old view: no read on record. New view: "the count survives and the roster sizing does not; RED's own seat fails the same tests." Moves no fleet weight. Report → `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`.
+- **FT-11 carrier:** BOND asked whether v1.1 reads the eight November QRA ops. Old view: the question was open. New view: on the letter yes, because retirement keys on the program ending, and sb0678 carries it. Reading only, no amendment.
+- **Weights held deliberately.** FAL-07 CONFIRMED and the 11/5 tanker report go to the ledger with the jobs and productivity data. The next re-derivation stays after the 11/10 CPI or a registered fire.
+
+---
+
 ## S58 — 2026-11-04 20:40 ET (from `date`; Will: "can you get caught up on any owed tasks"; RED dark 10/29–11/04) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. One registered-trigger exit COUNT moved (FT-06 0 of 5 → 3 of 5); no trigger fired or exited.**
 
 - **FT-06:** VIXCLS 19.42 · 21.15 · 20.83 [10/30–11/03] = 3 of 5. Old view: "VIX has not held 18." New view: "it has for three closes, and the vendor 16.61 on 11/04 would break the run if VIXCLS confirms it." No exit, no weight.

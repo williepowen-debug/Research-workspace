@@ -101,3 +101,15 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T20:44	2026-11-04_from-NEXUS_L16-UP-M07-DOWN	noted	INBOX_GENERAL	L16 UP and M-07 DOWN are one credit-price family; no new independent root; RED counts HY once
 2026-11-04T20:50	SIG-W-20261104-078	noted	BOARD	Brent settled 94.62 and WTI 88.12 per CNBC; reported drivers deal hopes, none established as cause; no deal, reopening or US acceptance; FT-06 run resets if VIXCLS confirms 16.61
 2026-11-04T20:50	SIG-W-20261104-079	noted	BOARD	full sweep: unrecorded November hull losses, Kpler Hormuz crude 7.3 mb/d week to 10/28, falling; FALCON and BRENT own the grades
+2026-11-05T10:11	2026-11-04_from-FALCON_weekly-grade-for-war-remark	noted	INBOX_GENERAL	FAL-07 CONFIRMED, marks 1/14/85 held; input to the post-11/10 re-derivation; War not re-marked today, answered by packet
+2026-11-05T10:11	2026-11-05_from-BOND_F2-2026-11-04-10-20Y-off-the-run-read	acted	INBOX_GENERAL	seventh of seven OFF-THE-RUN; FT-11 keeps reading the November QRA ops on its own letter, program not ended; sb0678 read at primary
+2026-11-05T10:11	2026-11-05_from-VIOLET_skew-and-vix-bars-through-1104	acted	INBOX_GENERAL	graded at FRED and Cboe: FT-06 run broken at 3, now 0 of 5; FT-10 0 of 4 on 150.90
+2026-11-05T10:11	SIG-W-20261105-002	noted	BOARD	claims 189K, FT-05 clear; Challenger 43,994; Q3 productivity +3.6, ULC -0.7; bull input
+2026-11-05T10:11	SIG-W-20261105-005	noted	BOARD	AI selling, QQQ -3.27 intraday, KRE +1.24: bank and credit proxies not joining at 09:54 ET; vendor, not closes
+2026-11-05T10:11	SIG-W-20261105-007	noted	BOARD	UKMTO tanker strike N of Qatar; mine claims unconfirmed; no deal; War input, FALCON owns
+2026-11-05T10:11	SIG-W-20261105-001	info-only	BOARD	BoE +25bp to 4.00, 8-1; HANS grades
+2026-11-05T10:11	SIG-W-20261105-006	info-only	BOARD	COF modified-card jump not shared by five issuers read; Citi unread; CARL owns
+2026-11-05T10:11	SIG-W-20261104-080	info-only	BOARD	COF modified cohort delinquent +54pct, cause unknown; CARL owns; do not relay as class-wide
+2026-11-05T10:11	SIG-W-20261104-076	info-only	BOARD	LIQUID HY persistence with funding limits; same HY root, count once
+2026-11-05T10:11	SIG-W-20261104-077	info-only	BOARD	VLO December crack below 90.16; TERRY owns; used in OP-SCALE F1 only for timing
+2026-11-05T10:14	SIG-W-20261105-009	acted	INBOX_WALTER	graded at FRED and Cboe: HY 332 and CCC 1297 [11/04]; FT-02 exit 0 of 3; FT-06 0 of 5; FT-10 0 of 4; matches WALTER

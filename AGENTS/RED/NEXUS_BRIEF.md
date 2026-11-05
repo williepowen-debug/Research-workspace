@@ -1,15 +1,16 @@
 # RED — NEXUS Brief
 
-**Status:** 🟠 **vS58 (2026-11-04 20:47 ET). HOLD 72 · net-bear 68, UNCHANGED: no weight moved in the S58 catch-up.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No trigger fired or exited; FT-06 exit count 0 → 3 of 5. Prior brief vS57 rotated verbatim → `reports/2026-11-04_NEXUS_BRIEF_vS57_rotated.md`.
-- 🆕 **FT-10 outcome condition met** at obs 14 (VIXCLS 21.15 [11/02], 20.83 [11/03]); row UNRESOLVED to ~11/25 by rule. The trigger was tech and gamma, not the war or credit tail (ML-311). No weight.
-- 🆕 **FT-06 exit 3 of 5 through 11/03.** ⚠️ VIXCLS 11/04 unpublished; vendor 16.61 breaks the run if confirmed.
-- 🆕 **FT-11:** BOND ruled FUNDAMENTAL wins, leg (iv) routes to FLOW only on NO-VERDICT, prospective. Encoded. No precondition window since 10/27, so untested.
-- 🆕 **L739:** the apparatus-share fall is fleet-wide (PROME 10/29), so PAID stands on the letter only (ML-310). **FT-01 8/05 fire graded WRONG** (KRE −5.3%, apparatus only).
+**Status:** 🟠 **vS59 (2026-11-05 10:13 ET). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No trigger fired or exited; FT-06 exit count 3 → 0 of 5. Prior brief vS58 rotated verbatim → `reports/2026-11-05_NEXUS_BRIEF_vS58_rotated.md`.
+- 🆕 **FT-06 exit run broke at 3:** VIXCLS 16.61 [11/04]. 0 of 5, a later run is a new clock. **FT-10 exit 0 of 4** (SKEW 150.90 [11/04]). **FT-02 exit 0 of 3** (HY 332 [11/04], tighter, pre-dates the 11/05 selling).
+- 🆕 **FT-11** keeps reading the November QRA ops on its own letter (retirement keys on the program ending; sb0678 carries it). F2 seven of seven OFF-THE-RUN. No window since 10/27, precedence still untested.
+- 🆕 **Ledger for the post-11/10 re-derivation:** FAL-07 CONFIRMED, marks 1/14/85 · UKMTO tanker strike north of Qatar [event 11/4 23:20Z] · claims 189K · Challenger October 43,994 · Q3 productivity +3.6%, unit labor costs −0.7% · AI selling 11/05, intraday, banks and credit not joining at 09:54 ET.
+- 🆕 **CHG-RED-056 (operation, not thesis):** OP-SCALE count survives, § 5 sizing does not. Report `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`.
+- **FT-10 outcome condition met** at obs 14; row UNRESOLVED to ~11/25 by rule; the trigger was tech and gamma, not the war or credit tail (ML-311).
 - **S57 10/28 still governs the weights:** discretionary re-derivation, report `reports/2026-10-28_S57_weight_rederivation.md`.
 - **Standing:** FT-02 FIRED 10/16 obs (Acute +3); FT-08 FIRED 10/14 (Stag +3); FT-10 FIRED 10/14 (Acute +2); S56 bank tree +1 (EGBN DETERIORATION on one legacy $56.0M loan + OZK W9).
 
 **Domain:** Adversarial cross-cutting counter-signal. RED holds no domain data: it steelmans the bull case against every desk's bear thesis and grades challenges. It RECEIVES every desk's STATUS and outbox; it SENDS to PROME (`OUTBOX.md`) and to desks (`challenges/` + inbox packets).
-**Thesis version:** S57 weights unchanged at S58 (2026-11-04). S57 (2026-10-28, discretionary re-derivation) on S56 (pre-stated bank +1) on S55 (FT-02 mechanical). Next discretionary re-derivation: after the 11/10 CPI or a registered fire.
+**Thesis version:** S57 weights unchanged at S58 and S59 (2026-11-05). S57 (2026-10-28, discretionary re-derivation) on S56 (pre-stated bank +1) on S55 (FT-02 mechanical). Next discretionary re-derivation: after the 11/10 CPI or a registered fire.
 
 ---
 
