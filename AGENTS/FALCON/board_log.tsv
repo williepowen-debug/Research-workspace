@@ -302,3 +302,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-04T21:10:00-05:00	DAEDALUS-2026-10-30-profile-refresh	acted	INBOX	Items 1-5, 8 DONE; 6, 7, 10-13 DEFERRED 11/11; 9 proposal routed. Reply in DAEDALUS inbox.
 2026-11-04T21:13:00-05:00	BRENT-2026-11-04-fade-flow	acted	INBOX	Fade NOT MET, flow basis UNRESOLVED; energy vector stays 5; report line corrected. KB-391.
 2026-11-05T09:08:00-05:00	DAEDALUS-2026-11-05-WQ601-unit5	acted	INBOX	Applied lines 32 and 104 on Will's direct word in this session, 11/05 09:07 ET, verbatim 'yes'.
+2026-11-05T16:35:00-05:00	SIG-W-20261105-058	acted	WALTER	Graded: INTERCEPTED not STRUCK. Rung 85→92 NOT FIRED; FAL-06 no route; no STRIKES row; marks held. Loadings unreadable; coverage only. KB-393/394.
+2026-11-05T16:35:00-05:00	SIG-W-20261105-007	acted	WALTER	Tanker named VELOS SAPPHIRE on IMO table; census stays 7; D→C clock restarts from 11/4 23:20Z. KB-395, VI-0095, CAS-038.
+2026-11-05T16:35:00-05:00	SIG-W-20261105-023	acted	WALTER	Five tankers and a tug = Iran's count, CLAIM-ONLY; reconciled against census: none named, none on IMO 11/5. KB-396.
+2026-11-05T16:35:00-05:00	SIG-W-20261105-056	acted	WALTER	Ladder item 5 inverse NOT MET; C→B NOT MET; diplomacy stays 3. KB-397.
+2026-11-05T16:35:00-05:00	RED-2026-11-05-war-remark-held	noted	INBOX	No action asked; RED holds War at 15 to the post-11/10 re-derivation.

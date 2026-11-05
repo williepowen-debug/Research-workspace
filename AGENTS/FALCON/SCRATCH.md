@@ -1,36 +1,39 @@
-# FALCON SCRATCH — November 4, 2026, ~21:15 ET evidence cutoff
+# FALCON SCRATCH — November 5, 2026, 16:32 ET evidence cutoff
 
 ## CURRENT MARKS
-B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-07 CONFIRMED; FAL-06 OPEN 70%. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5.
+B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-07 CONFIRMED; FAL-06 OPEN 70% to 23:59 ET 11/05. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5, falcon-a6.
 
-## CHANGES SINCE LAST SESSION (10/30 16:49 → 11/04)
-- US struck Qeshm night of 11/2; Trump on record 11/3. Brent −8.7% on 11/4 (BRENT's number). Democrats took Congress 11/3.
-- SELAT STORM sunk (NAVAREA IX 425/26; IMO "Damaged"). AL JUSUFI hit, 1 killed. ERA S, LARGO ATOM, GRIT, AL MAYEDA, ARZANAH added.
-- Two-day offer conditional; Rezaei "not convincing"; no text.
-- Sohar returned to PortWatch; bypass gauge two-port again.
+## CHANGES SINCE LAST SESSION (11/04 21:15 → 11/05 16:32 ET)
+- Yanbu and Sharurah danger warnings, lifted within minutes; coalition says a Houthi ballistic missile toward the Medina region was intercepted. No damage or loading halt reported.
+- VELOS SAPPHIRE (IMO 9321201) hit 50 NM N of Qatar, 11/4 23:20Z; IMO 129 / 24 as at 11/5, one seafarer missing; Lloyd's says one died.
+- Iran says five tankers and a tug caught fire, mines in most accounts; unnamed, unconfirmed.
+- Iranian official: nuclear proposal via Qatar after seven demands; two sources tell Reuters Trump is still likely to resume hostilities.
 
 ## WHAT I DID
-- Will-launched boot, PROME prome-b2 scope. WQ-559 encoded first (ef9699a4e). FAL-07 resolved CONFIRMED. Census, ladder, gate, weekly review on date. KB-377..390, VI-0088..0094, CAS-037, VX stamps, EXIT re-stamp, STRIKES mark 11/03, BABMANDAB Notes restored, PREDICTIONS rotated. Inbox and WALTER lane drained (15). Report `reports/2026-11-04_weekly-review-gate001-fal07.md`.
+- Bounded PROME launch, C8, card 058. Graded 058, 007, 023, 056 at my letters: nothing fired, marks held. FAL-06 second dated attempt run, no route fired. Inbox and WALTER lane drained (4 cards + RED packet). KB-393..398, VI-0095, CAS-038. Report reports/2026-11-05_card058-yanbu-fal06-final-pass.md. Packets to PROME and BRENT.
 
 ## NEXT SESSION (dated, future-verifiable)
-0. **FIRST ITEMS, tonight 11/05 on the desktop (DOCKET L922):** FAL-06 second pass before 23:59 ET, then grade on the letter with the route (c) coverage caveat, then EXIT §5 rewrite, then successor row with base rate first (FAL-07's post-mortem: separate limited strikes from a sustained campaign; a crude row is the other candidate). The laptop wake was cancelled at closeout. The morning receipt reports/2026-11-05_fal06-dated-search.md is the dated attempt, so if no session runs on 11/05, grade from it later; do not call the row NO-VERDICT.
-1. **November 5, ON that date: FAL-06 dated search** (letter in `thesis/PREDICTIONS.tsv`): operator/state notices (Aramco/Tadawul, MoE/SPA, ADNOC/WAM, KPC/KOC/KUNA, QatarEnergy/QNA, BNA, ONA) + latest Kpler/Vortexa weekly aggregate per Gulf-ally country, vendor lag stated. A later attempt = NO-VERDICT. BRENT holds no such aggregate (KB-391); limb (c) needs it at the vendor or a named wire.
-2. November 5: EXIT §5 rewrite (dated limb + FAL-06 resolving).
-3. November 5: successor prediction before 0 OPEN; base rate first; separate limited strikes from a sustained campaign.
-4. November 11: weekly + gate review; DAEDALUS items 6, 7, 8 (LESSONS, MEMORY), 10–13.
-5. Band proposal (report §6) awaits PROME.
+0. **First session after 23:59 ET 11/05, in order:**
+   a. FAL-06 grade. Check for a qualifying notice dated by 23:59 ET. None = CONFIRMED, with this in the Outcome cell: no route fired on available evidence; route (c) was never graded because no weekly vendor print was published, so this is not proof that no net loss happened. Do not call it NO-VERDICT: dated attempts ran 11/05 08:36 and ~16:30 ET.
+   b. EXIT §5 rewrite. The dated limb fired 11/05; owed, not done.
+   c. Prediction brief (`PROME/reports/2026-11-05_prediction-registration-brief.md`): 2 to 4 rows, base rate first, one packet to PROME. Separate limited strikes from a sustained campaign; a crude row is the other candidate.
+   d. `PROME/COMBINATION_WATCH.md`: 3 to 9 themes, one charter line, list them in the next packet. Candidates: Red Sea western-sector interceptions; deep-Gulf hull reach.
+1. November 11: weekly + gate review; DAEDALUS items 6, 7, 8 (LESSONS, MEMORY), 10–13.
+2. Band proposal (11/04 report §6) awaits PROME.
 
 ## OPEN THREADS / WATCHES
-- RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; "JIF BARRACUDA" in WALTER's search unmatched.
-- Sinokor: no detention found; coverage only.
-- Fixes owed elsewhere: SCRATCH template and CHANGELOG still titled HAWK; TIMELINE stops at Day 244 (11/4 = Day 250).
+- Yanbu loadings: no reader. BRENT asked by packet; KB-168 proxy unbuilt.
+- VELOS SAPPHIRE missing vs killed; RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; ERA S and GRIT not on IMO table.
+- PMF discriminator NOT re-read 11/05 (CTP 403 here). STRIKES mark left at 11/03, not due.
+- WQ-601 unit 5: PROME's launch said held; commit a2cadd327 shows it applied 11/05 09:07 ET. Flagged to PROME, charter untouched. Push held pending PROME's word.
+- Fixes owed elsewhere: SCRATCH template and CHANGELOG still titled HAWK; TIMELINE stops at Day 244 (11/5 = Day 251).
 - Carried builds unchanged (KB-168 Yanbu proxy etc.).
 
 ## PREDICTIONS / DECISIONS
-FAL-06 due 11/05. No Will decision open.
+FAL-06 grade owed after the close. No Will decision open.
 
 ## MAIL STATE
-Inbox 0, WALTER lane 0. Packets sent: PROME, BRENT (cc HAWK via brief), RED, TERRY, DAEDALUS.
+Inbox 0, WALTER lane 0. Packets sent: PROME, BRENT.
 
 ## PENDING PUSH / GIT
-Exact-path commits; safe-push at closeout.
+Exact-path commits, local only. Not pushed: see WQ-601 unit 5 line above.

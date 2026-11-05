@@ -43,7 +43,7 @@
 
 | Move | Registered trigger | Status (dated per row) |
 |---|---|---|
-| D → C | Strikes halt 72h two-sided (necessary, not sufficient: HAW-06) | ❌ Last named hull hit GRIT 11/3 ~19:00Z; US strike 11/2. No 72h two-sided halt has started |
+| D → C | Strikes halt 72h two-sided (necessary, not sufficient: HAW-06) | ❌ Last named hull hit VELOS SAPPHIRE 11/4 23:20Z (KB-395); US strike 11/2. No 72h two-sided halt has started |
 | C → B | DATED Oman/Doha framework AND verified Hormuz reopening steps | ❌ October 26 close: L229 LAPSED / NOT VERIFIED AS AGREED. Oman describes a temporary outline with political obstacles; no qualifying permanent agreement or verified reopening. KB-340; evening report. |
 | B → below 5 | Strikes resume | ✅ fired 7/29 |
 | C → D | Resumed strikes OR a confirmed capacity loss | ✅ fired 7/27–29 |
@@ -100,7 +100,7 @@
 ## 5. TIME-BASED REVIEW (the reader of every date below = closeout step 11, which compares each date to today)
 
 - **Scenario review every 7 days.** Last full review: **2026-11-04, on date, HELD B 1 / C 14 / D 85** (STATUS canonical, prior dashboard preserved at `domain/sources/STATUS_before_2026-11-04_review.md`; report `reports/2026-11-04_weekly-review-gate001-fal07.md`). **Next due 2026-11-11.** Prior: 2026-10-29 HELD (graded one day late).
-- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first. *(Checked 2026-11-04: none met yet; **the dated limb fires tomorrow, 2026-11-05, with FAL-06 resolving — this rewrite is owed in that session.** Census 7: SELAT STORM is not a class-(iii) hull. Prior check 2026-10-29: none newly met. Census 6 — the new loss MSV QUBA is class (i), not a third class-(iii) hull; no permanent-corridor framework; no fifth axis — Egypt's parliament authorised support for Saudi Arabia 10/26 but nothing is deployed and the scope is defensive (KB-366), watch. Prior check 2026-10-26.)*
+- **Rewrite trigger (DATED):** FAL-06 resolving (by **2026-11-05**) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework · a third class-(iii) hull loss · or **2026-11-05**, whichever is first. *(Checked 2026-11-05 16:32 ET: **the dated limb is FIRED today; the rewrite is OWED and was not done in the bounded C8 session of 11/05 (KB-398).** FAL-06 still OPEN to 23:59 ET; rewrite runs at the session that grades it. Prior check 2026-11-04: none met yet; **the dated limb fires tomorrow, 2026-11-05, with FAL-06 resolving — this rewrite is owed in that session.** Census 7: SELAT STORM is not a class-(iii) hull. Prior check 2026-10-29: none newly met. Census 6 — the new loss MSV QUBA is class (i), not a third class-(iii) hull; no permanent-corridor framework; no fifth axis — Egypt's parliament authorised support for Saudi Arabia 10/26 but nothing is deployed and the scope is defensive (KB-366), watch. Prior check 2026-10-26.)*
 - *Record:* the former trigger "Will ruling on the production rung" fired 2026-10-01 21:40 ET (registered) and was discharged the same evening by the §2/§2a edit; v3 had been written that day anticipating either outcome, so no wider rewrite was owed.
 - **Cap discipline:** this file is a boot-adjacent reference; keep it under the read cap by moving resolved detail to `archive/`. Do not amend it in place past the cap (the v2 failure).
 
