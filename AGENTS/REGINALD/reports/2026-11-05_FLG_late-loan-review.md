@@ -9,7 +9,7 @@
 I called this jump the important Flagstar finding this morning from two data points. With 12 quarters in front of me, that was too strong. $392M is not a new high: it sat at $392M a year and a quarter ago, was $677M at 3/31, and peaked at $893M in mid-2024. Q2's $233M was the unusually low quarter, so Q3 is a bounce back to a level this bank has lived at.
 
 **What is actually new:**
-- **Loans 90+ days late but still accruing:** zero at every quarter-end through 12/31/25, then $32M, $51M, $107M. Small, but new. Banks may accrue only on loans well secured and in collection, so why these loans qualify is the question. UNKNOWN.
+- **Loans 90+ days late but still accruing:** across ALL loans, zero at every quarter-end through 12/31/25, then $32M, $51M, $107M. Small, but new. ⚠️ **Multifamily is only $50M of it ($38M at 6/30).** Most of Q3's rise is owner-occupied commercial real estate, $0 → $49M in one quarter, which looks like one or two loans (INFERRED). Banks may accrue only on loans well secured and in collection, so why these loans qualify is the question. UNKNOWN.
 - **Modifications restarted:** $556M in H1 2026 vs $19M a year earlier, mostly rate cuts. Q2's fall in late loans came alongside $259M of multifamily modifications, so that low was probably flattered (INFERRED).
 - **Special mention is growing:** multifamily $2,757M at 6/30, up $692M in H1; total criticized and classified rose another $670M in Q3. Management ties this to reviewing loans that reset or mature in the next 18 months.
 
@@ -74,13 +74,23 @@ The peer set predates or sits outside a recognition wave for most events, so it 
 
 **Against peers at 9/30:** FLG 1.51% late, 8.18% nonaccrual. Next late: Dime 0.73%, Merchants 0.65%, Santander 0.46%. Next nonaccrual: Merchants 3.75%, Santander 2.97%.
 
+**90+ accruing by class ($M, Call Report; corrected after PROME's check 13:4x ET)**
+
+| Quarter-end | Multifamily | Owner-occupied CRE | Non-owner CRE | Construction | Other | All loans |
+|---|---:|---:|---:|---:|---:|---:|
+| 3/31/26 | 1.6 | 0 | 13.6 | 0 | 16.7 | 31.9 |
+| 6/30/26 | 37.9 | 0 | 8.6 | 4.5 | 0.5 | 51.5 |
+| 9/30/26 | 50.3 | **48.7** | 4.4 | 0.2 | 3.1 | 106.7 |
+
+**Does the CRE leg change the read? Slightly, in the calming direction.** My earlier summaries carried $51M → $107M as if it were multifamily; it is all loans. Of the +$55M in Q3, multifamily is +$12M and owner-occupied +$49M. Owner-occupied loans depend on a business's cash flow, not on rents, and a jump from $0 points to one or two credits (INFERRED). So Q3's new bucket says less about multifamily stress than I implied, and it fits "two borrowers" without proving it. Multifamily 90+ still went from zero to $50M in three quarters, which stands. **Conclusion unchanged.** Separately, construction 30–89 $8M → $46M remains the one rule-level class hit.
+
 ## 2. What the release, deck and call said, and left out
 
 | Topic | Said | Left out |
 |---|---|---|
 | Late loans | Release has the table: multifamily $392M, CRE $79M, total $530M | No narrative. Deck: nothing |
 | Call | Otting: "other than two borrowers which have resolutions, we have not seen an increase in past due loans" (third-party transcript) | No names, sizes or resolution. Total late rose 44% on the release table |
-| 90+ accruing | Table only | $51M → $107M unaddressed; CRE $13M → $53M is half of it |
+| 90+ accruing | Table only | All loans $51M → $107M unaddressed. Multifamily $38M → $50M; CRE $13M → $53M, of which owner-occupied $0 → $48.7M (Call Report) |
 | Nonaccrual | "relatively stable", "42% … current and performing" | Flat only because exits offset inflows; FLG desk: cure share 1.6% in H1, 87.5% of exits by payoff or sale |
 | Criticized | +$670M (+6%); substandard +$248M. "prudent … look-forward" at loans resetting in 18 months; "vast majority … on market units" | **Special mention by class not given;** implied total +~$405M (DERIVED: 670 − 248 − 17). Multifamily $2,757M [6/30] is the last figure |
 | Modifications | Not in release or deck | H1 $556M, Q2 $401M, of which multifamily $259M, mostly rate cuts (Q2 10-Q). Q3 unknown |
