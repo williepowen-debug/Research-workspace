@@ -19,7 +19,7 @@ import sys, os, re, argparse, tempfile, urllib.parse, urllib.request, urllib.err
 import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
 sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
 from sec_contact import sec_ua
-PLAIN_UA = "Research DEWEY"  # non-SEC hosts get no contact address (WQ-600)
+PLAIN_UA = "Research DEWEY noreply@example.invalid"  # non-SEC hosts: reserved placeholder, no real address (WQ-600). FRED stalls the bare name.
 
 
 def _ua_for(url):
