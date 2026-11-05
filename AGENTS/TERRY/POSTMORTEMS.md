@@ -533,7 +533,7 @@ Management-only lines (construction rule #20); C5 reminders paused by Will 10/20
 
 ## 2026-11-05 — TRY-WAL-ROLL70 WAL Dec-18 $70P ×1 (Robinhood) — **INTERIM. Written off by Will 2026-10-29 ("all dead"); no close observed, holding UNKNOWN, no realized figure.**
 
-**Record:** bought 9/02 @ $2.20 on a green day, $0.55 inside the $2.75 cap, after `REG-T-02` re-fired 9/1. Marked about $2.65 on 9/29 (+$45, Robinhood card). Vendor last $1.07 [11/5 09:39 EST, no NBBO], WAL $79.74 (09:48 EST). Robinhood has not been captured since 9/29. Nothing here infers a disposition; a broker row sets the realized figure once.
+**Record:** bought 9/02 @ $2.20 on a green day, $0.55 inside the $2.75 cap, after `REG-T-02` re-fired 9/1. Marked about $2.65 on 9/29 (+$45, Robinhood card). The same contract last $0.45, −$0.62 on the day [Will's Fidelity capture, 11/5 intraday], WAL $79.74 (09:48 EST). (Corrected 11/5: this note first cited a $1.07 vendor last, which was the prior session's price.) Robinhood has not been captured since 9/29. Nothing here infers a disposition; a broker row sets the realized figure once.
 
 | Leg | Grade |
 |---|---|
@@ -542,4 +542,4 @@ Management-only lines (construction rule #20); C5 reminders paused by Will 10/20
 | Structure | Clean: same strike, later expiry, cap held, card written before the fill. |
 | Exit rails | Harvest $4.40 never reached; the REGINALD exit was last graded 0 of 3 through 10/9, so its record stops 27 days ago. |
 
-**Lesson:** nothing new. A write-off in chat is not a close; the card says DEAD while a vendor last still shows value, and the paper row PB-0006 stays OPEN because no fill is known. **Tags:** provisional `GOOD_PROCESS_BAD_OUTCOME`, thesis ungraded.
+**Lesson:** nothing new. A write-off in chat is not a close; the card says DEAD while a quote still shows some value, and the paper row PB-0006 stays OPEN because no fill is known. **Tags:** provisional `GOOD_PROCESS_BAD_OUTCOME`, thesis ungraded.

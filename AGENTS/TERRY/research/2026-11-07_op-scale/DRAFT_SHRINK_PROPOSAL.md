@@ -4,18 +4,19 @@
 ## 1. Frozen test
 By 2026-11-07 the agent-proposed book shows N ≥ 10 CLOSED positions, else "the correct response is structural shrink, not another slate" (FORUM/2026-08-07_system-review/08_dissent/05_TERRY_capitals-case.md; PROME/GATES.tsv GATE-OP-SCALE-01). Guard v2: live capital, agent-proposed, Will-approved, closed; distinct entry decisions; tranches count once; day-desk, paper and would-fire excluded; N reported with R; loosened lines shown.
 
-## 2. Count re-verified 2026-11-05 09:50 EST
+## 2. Count re-verified 2026-11-05 10:05 EST, after Will's broker capture
 | Position | Entry | Closed | Realized | In N? |
 |---|---|---|---|---:|
 | TRY-FIRE-004 TLT Sep-30 77P | card, filled 7/20 | 9/30 (tranches count once) | −$84.53 | 1 |
 | TRY-VIOLET-VIXCS | card, filled 7/27 | 7/30 | −$111.60 | 1 |
-| **N** | | | **−$196.13** | **2** |
+| TRY-BRENT-REFINER VLO ×1 | card, filled 9/18 | 11/5, HELD-01 leg A | −$45.33 | 1 |
+| **N** | | | **−$241.46** | **3** |
 
-Ties to `PAPER_BOOK.tsv` lane=real: 9 rows, of which 5 are N (PB-0002a–d are four tranches of 004, PB-0003 is VIXCS; sum −$196.13), PB-0008a is a split child of the still-open QQQ position (excluded), and 3 are open. The 6-closed count the scoring gate prints is rows, not positions. Approved but unfilled cards (RSP WQ-591, UNG WQ-573, HYG WQ-513, ORCL WQ-514) cannot add to N by 11/7: a fill opens a position.
+Ties to `PAPER_BOOK.tsv` lane=real: 9 rows, of which 6 are N (PB-0002a–d are four tranches of 004, PB-0003 is VIXCS, PB-0007 is VLO; sum −$241.46), PB-0008a and b are the excluded QQQ position, and PB-0006 stays open. The closed count the scoring gate prints is rows, not positions. Approved but unfilled cards (RSP WQ-591, UNG WQ-573, HYG WQ-513, ORCL WQ-514) cannot add to N by 11/7: a fill opens a position.
 
-Not counted: VLO (open; exit established; **N becomes 3 if the one original share is sold by 11/7**, realized about −$49 on a $363 sale against the $412.00 fill, total about −$245, a screen figure until Will's fill) · WAL Dec-18 70P (approved and filled, holding UNKNOWN, Will's word "dead", no closure observed) · QQQ 690/670P (Will's hand ahead of T1, no card approval, long leg open) · TRY-MGMT-USO135C, TRY-MGMT-USORH150165, TRY-EXIT-XLE65C, TRY-EXIT-TLT85P (management of existing lines, not agent-proposed entries) · all MGMT-* rows (Will-direct entries).
+Not counted: WAL Dec-18 70P (approved and filled, holding UNKNOWN, Will's word "dead", no closure observed) · QQQ 690/670P (Will's hand ahead of T1, no card approval; closed by 11/5, ×1 at +$1,542.62 plus +$141.30 on the short leg, other contract's price UNKNOWN; ⚠️ this excludes the desk's best-known result, and counting it would make N = 4 without changing the verdict) · TRY-MGMT-USO135C, TRY-MGMT-USORH150165, TRY-EXIT-XLE65C, TRY-EXIT-TLT85P (management of existing lines, not agent-proposed entries) · all MGMT-* rows (Will-direct entries).
 
-**Result if nothing else changes: NOT MET.** Best case by 11/7 is N = 3, or 4 only if the WAL line is shown closed. Reaching 10 would need Will-direct entries counted as agent-proposed. That is a loosened perimeter and this draft refuses it.
+**Result if nothing else changes: NOT MET.** N = 3 now, 4 only if the WAL line is shown closed by 11/7. Reaching 10 would need Will-direct entries counted as agent-proposed. That is a loosened perimeter and this draft refuses it.
 
 The +$17.26 baseline is the 8/8 snapshot; 004's later tranches took the same two positions to −$196.13.
 
@@ -39,7 +40,7 @@ Excluded, trigger not met: CCLPRINT, WQ409-SPY, MPC-L689, EGBN, BNO, KRE-QQQ see
 | Measure | 8/8 | 11/4 | Source |
 |---|---|---:|---|
 | Active + Tier-2 desks | 30 + 4 = 34 | 34 + 7 = 41 | PROME/ROSTER.md then and now |
-| Closed agent-proposed positions | 2 | 2 | § 2 |
+| Closed agent-proposed positions | 2 | 3 (at 11/5) | § 2 |
 
 The fleet added 7 desks during its own scale test. 14 of 41 names appear as evidence or owner on an approved or filled entry card (SETUPS and archives); 27 never have. ⚠️ That measures reaching a card, not research value. Thesis cells are hand-written and may under-credit.
 
@@ -59,7 +60,7 @@ Rules: nothing is deleted · no desk goes dormant with a dated DOCKET row owed; 
 3. **FERT:** dormant here; WQ-593 declined 11/4, so that exception is gone.
 4. **Cost:** ⚠️ savings are UNMEASURED; no per-desk usage figure is in the repo. Usage ran out on 11/2 (USER.md), which shows the limit binds, not what this saves.
 
-5. **Who watches between sessions:** carried on WQ-599. Live examples: the VLO exit fired 11/2 and was found 11/4, $22.31 lower on the one share by the 11/4 close; UNG's T1 needs an AEOLUS log and AEOLUS has run no session since 10/31. Fewer desks makes this harder, not easier, and the draft does not solve it.
+5. **Who watches between sessions:** carried on WQ-599. Live examples: the VLO exit fired 11/2 and was found 11/4; the sale at $366.665 was $20.98 under the first eligible close, $387.65 on 11/3; UNG's T1 needs an AEOLUS log and AEOLUS has run no session since 10/31. Fewer desks makes this harder, not easier, and the draft does not solve it.
 
 ## 7. The case against
 - **The test measures one of two purposes.** USER.md: the system is also proof-of-work for an AI-native research practice. A capital test cannot grade that.
