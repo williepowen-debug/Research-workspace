@@ -153,7 +153,7 @@ def holdings(root=ROOT):
             note = ' '.join(get(n) for n in ('Note', 'Owner', 'P&L', 'State'))
             observation = f'broker positions received {vintage}; marks as-of {marks}; expiry year from this dated book where omitted'
             if account == 'Robinhood':
-                observation = 'Not captured September 3; August 28 / operator-supplied records; current holdings unverified'
+                observation = 'Robinhood capture date and tie state: FORGE/STATUS.md Robinhood banner; basis and value implied; current holdings unverified'
             if 'screenshot received September 9' in note:
                 observation = 'Screenshot received September 9, 2026; capture timestamp and account header absent; Fidelity attribution inferred from context'
             qty = get('Qty')
