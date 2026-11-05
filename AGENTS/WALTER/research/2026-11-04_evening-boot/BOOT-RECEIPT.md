@@ -1,5 +1,7 @@
 # WALTER evening boot receipt — November 4, 2026 (20:14–20:21 ET)
 
+> **Superseded in part, 20:33 ET.** "The cause is one unread headline" and "three searches found no dated confirmation" were true at 20:21 and are now out of date. CNBC's November 3 and 4 articles were read through a helper; settlements and attributed statements are in SIG-W-20261104-078. "Not established" still holds for any deal, reopening, US acceptance or transit recovery. The separate held-VLO crack finding is SIG-W-20261104-077. The Boundary 8 and vendor oil figures below are evening-session rows, not November 4 settlements. PROME's USO and VLO figures were reproduced before routing.
+
 **Boot: PARTIAL.** Runtime Claude Code, model Opus 5.5 (`claude-opus-5-5`), session walter-dc. Root CLAUDE.md, AGENTS.md, USER.md and the local charter read explicitly; no local AGENTS.md exists. Fleet visibility: six named peers via ListAgents (prome-b2, oracle-12, terry-86, dewey-f0, red-f7, daedalus-97), plus a Codex CATO process seen in `ps`. This is not a complete census; anything else is UNKNOWN, never DARK.
 
 No BOARD card, handoff, delivery row, STATUS, REGISTRY or anchor was changed. No intake or bookmark ID marked. No helper spawned. No push.
