@@ -1,0 +1,62 @@
+{
+  "checked_utc": "2026-11-05T18:28:08.719915+00:00",
+  "url": "https://securitiesfilings.fdicconnect.fdic.gov/api/instflng/cert/33539",
+  "count": 271,
+  "latest": [
+    {
+      "id": 12028,
+      "form": "Form 8-K~Current Report",
+      "period": "2026-10-23",
+      "filed": "2026-10-27"
+    },
+    {
+      "id": 11992,
+      "form": "Form 10-Q~Quarterly Report",
+      "period": "2026-06-30",
+      "filed": "2026-08-07"
+    },
+    {
+      "id": 11970,
+      "form": "Form 8-K~Current Report",
+      "period": "2026-07-22",
+      "filed": "2026-07-22"
+    },
+    {
+      "id": 11959,
+      "form": "Form 8-K~Current Report",
+      "period": "2026-06-17",
+      "filed": "2026-06-17"
+    },
+    {
+      "id": 11952,
+      "form": "Form 8-K~Current Report",
+      "period": "2026-05-19",
+      "filed": "2026-05-19"
+    },
+    {
+      "id": 11944,
+      "form": "Form 10-Q~Quarterly Report",
+      "period": "2026-03-31",
+      "filed": "2026-05-11"
+    },
+    {
+      "id": 11918,
+      "form": "Form 8-K~Current Report",
+      "period": "2026-04-23",
+      "filed": "2026-04-23"
+    },
+    {
+      "id": 11912,
+      "form": "Definitive Proxy/Information Statements",
+      "period": "2026-04-13",
+      "filed": "2026-04-13"
+    }
+  ],
+  "latest_10q": {
+    "id": 11992,
+    "form": "Form 10-Q~Quarterly Report",
+    "period": "2026-06-30",
+    "filed": "2026-08-07"
+  },
+  "q3_10q": []
+}
