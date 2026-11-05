@@ -215,3 +215,15 @@ Why banks tightened NDFI lending, 21 respondents, very plus somewhat important: 
 - Card 010's CoreWeave yields (15–16%) stay a screenshot, not priced here.
 
 No gate, level, operator, instrument or consequence changed. No trade.
+
+### 14.5 What the November 5 print does to the tier rule, computed 13:59 ET (no rule changed)
+
+September 25 ordered rule, applied to a November 5 print. 15-session base is October 15, levels IG 84, BBB 105, BB 197 (latest-revised FRED, so first-published may differ by a point).
+
+| Outcome | Needs on November 5 |
+|---|---|
+| REVERSES, checked first | CCC at or below 1,288 and B at or below 347 |
+| BROADENS, 15-session clause | IG at or above 90 (+6), or BBB at or above 112 (+7), or BB at or above 216 (+19). IG is 91 and BBB 113 [November 4] |
+| BROADENS, daily clause | B or CCC wider and IG +2, BBB +2 or BB +9 on the day |
+
+**⚠️ Unless REVERSES repeats, or IG and BBB both tighten at least 2 bp, the rule prints BROADENS on the 15-session clause, even on a flat day.** That clause does not require B or CCC wider. So a November 5 BROADENS alone carries little news. The information is in the day's changes: the daily clause separates new spreading up the quality ladder from arithmetic left over from October.
