@@ -99,4 +99,20 @@ All three tests are counter mechanics on what employers **say**. The AI share is
 
 ## 8. GRADE (write 2026-11-05 off this frozen card — never re-read a band)
 
-*Blank until release. Order: ① save + extract the PDF; check the report-month and release lines · ② compute `s` and `g` with the division written · ③ grade §3a–§3c as separate letters, then read §3d · ④ record counters; `git mv` to `docket/graded/`.*
+**GRADED 2026-11-05 ~14:05 ET, same day.** **① Source:** *Challenger Report, October 2026*, "FOR RELEASE AT 5:30 A.M. ET, THURSDAY, NOVEMBER 5, 2026", PDF at `challengergray.com/wp-content/uploads/2026/11/Challenger-Report-October-2026.pdf`, saved and text-extracted (723,694 B, sha256 fa649b693582335b); all figures below found in the extracted text, tech and AI levels in the tables as well as the body. WALTER SIG-W-20261105-002 matches.
+
+**② Exact ratios:**
+- `X = 43,994` (+2% on 43,281; −71% on 153,074; YTD 617,189, −44% on 1,099,500).
+- `s = 1,265 / 43,994 = 0.02875` (lowest monthly AI count this year; AI YTD `120,136 + 1,265 = 121,401` ✅ matches the printed YTD).
+- `g = 171,501 / 141,159 − 1 = 0.2149`. Cross-check with no free parameter: `171,501 − 165,925 = 5,576` ✅ equals the printed October tech figure; `T₂₅ = 141,159 − 107,878 = 33,281`, and §2's condition `1.2 × 33,281 − 5,576 = 34,361.2`, which is not above 36,471.4 ✅ (so `g ≥ 0.20`, agreeing with the direct ratio).
+
+**③ Letters:**
+
+| Letter | Input | Result |
+|---|---|---|
+| §3a | 43,994 ≤ 80,000 | **3a-1:** v2 re-spike counter **0 of 2**. No action |
+| §3b | 0.02875 < 0.20 | **3b-1:** v5 share leg **stays 2 of 2 MET** (Sep 0.0915, Oct 0.02875). T-09 0 of 2 |
+| §3c | 0.2149 ≥ 0.20 | **3c-2:** v5 tech leg not met |
+| §3d | MET × not met | **Cell 2: v5 HOLDS at 4.** Conjunction not relaxed |
+
+**④ Recorded:** ⚠️ **the tech leg missed by 1.5 points (`0.2149 − 0.20 = 0.0149`), down from 0.538 a month ago**, because the 2025 base jumped by the 33,281 cut in October 2025. In levels: `171,501 / 1.2 = 142,917.5` is the base that would have met it; the demote is the live question on the December 3 report (card owed by ~11/26). **Largest contributor (§5.2):** the report names no October firm total; by industry Food led with 9,677 and Technology printed 5,576, its lowest month of the year. **Not in the total:** Microsoft's voluntary exit offers to 60,000 employees, excluded because Challenger books programs by acceptances or a stated target; Challenger's own view is that such offers "tend to signal more layoffs to come". No re-band ex-firm. **Reasons:** Market/Economic Conditions 16,407 (37%; YTD 130,531, now the leading 2026 reason, ahead of AI); Demand Downturn 6,118 (YTD 21,347, +145% on 8,701). **H-1B order (§5.1):** no attribution, either way. **Hiring plans:** no band; seasonal 470,400 (+26%), with Amazon's 300,000 of it counted under Technology. **The AI share is a labelling statistic (§4):** no displacement read in either direction. Score 27/80. KB-LAB-232.

@@ -5,7 +5,7 @@
 **Release date VERIFIED** at the BLS Employment Situation schedule (`bls.gov/schedule/news_release/empsit.htm`, fetched 2026-10-21 09:39 ET, HTTP 200): *"October 2026 · Nov. 06, 2026 · 08:30 AM"*.
 **Companion (evidence types):** `docket/INDEPENDENCE_MAP_20260904_NFP.md`. CES legs are ONE witness; CPS legs are ONE witness.
 **Why a card:** multi-loaded: **freeze-thaw v2 LEG A draw 2 (the bull-side kill) · LEG B · Kill A · T-03 · T-04 · T-06 · T-08 · T-13 · vectors 6, 8, 10, 12 · LAB-12 · LAB-18 draw 2 · LAB-19 draw 2 · the §3g August third-estimate watch.**
-**Input from an earlier card:** **LEG C is graded on 11/3** by `docket/GRADING_CARD_20261103_JOLTS.md` §3b. Its result is written into §2.4 below as a dated note before 11/6. Until then §3d is conditional on it.
+**Input from an earlier card:** **LEG C is graded on 11/3** by `docket/graded/GRADING_CARD_20261103_JOLTS.md` §3b. Its result is written into §2.4 below as a dated note before 11/6. Until then §3d is conditional on it.
 
 ---
 
@@ -27,7 +27,7 @@
 1. **Kill A** (NFP ≥+200K ×3, revised): needs `A' ≥ 200`, `S' ≥ 200` and `X ≥ 200`. On this vintage that means August revised +67K and September revised +171K. **Cannot fire unless both revise that far.**
 2. **LEG A** = revised single month ≥+150K **AND** revised 3-month average ≥+100K ⇒ **`X ≥ max(150, 300 − (A' + S'))`** thousand. On this vintage `300 − (133 + 29) = 138` ⇒ **bar +150K**. The average leg binds if `A' + S' < 150` (a net revision below −12K: plausible). **Recompute before reading `X`.**
 3. **LEG B** = EPOP not lower than 3 months prior ⇒ **Oct EPOP ≥ 58.9** (July referent; CPS is not revised month to month).
-4. **LEG C** = JOLTS NET >0 in both latest months (Aug rev ∧ Sep P), **graded 11/3**. *Dated note to be written here on/after 11/3: "LEG C = MET / LOST per JOLTS card §3b, cell …"*
+4. **LEG C** = JOLTS NET >0 in both latest months (Aug rev ∧ Sep P), **graded 11/3**. **Dated note 2026-11-05 (LABOR, WQ-618 A): LEG C = MET per JOLTS card §3b, cell `Aug rev > 0 · Sep > 0 · Sep hires rate ≥ 3.3` (Aug rev NET `5,271 − 5,175 = +96K`; Sep P NET `5,402 − 5,319 = +83K`; Sep hires rate 3.4%; BLS USDL-26-1630, 2026-11-03). Therefore on 11/6 LEG A alone fires v2 (§3d rows 1 and 3). ⚠️ Sep is preliminary and revises Tue Dec 1, after this draw.**
 5. **T-06** (TRADE.md §1, re-specced 8/7, BD-15) = `X < 100K` **AND** (U-3 rose ≥0.2pp **OR** EPOP fell ≥0.3pp over 3 months) ⇒ U-3 leg: **Oct U-3 ≥ Sep + 0.2 = 4.4**; EPOP leg: **Oct ≤ 58.6**. ⚠️ STATUS KEY THRESHOLDS still prints the old U-3 bar *"≥4.3%"* and omits the EPOP leg; **this card's formula governs** (flagged for the STATUS row).
 6. **T-03 🟠** = EPOP fell ≥0.3pp over 3 months ⇒ **Oct ≤ 58.6** (`58.9 − 0.3`). **T-04 🔴** = fell ≥0.5pp over 6 months (Apr 59.1 ⇒ ≤58.6) **AND** T-03 ⇒ **Oct ≤ 58.6 fires T-03 and T-04 together**: one move, not two confirmations.
 7. **LAB-18** resolves ✅ at **Oct EPOP ≤ 58.6**. **LAB-19** resolves ✅ at **Oct LF MoM > 0** (`LF_Oct − 170,262K`, within the same release). **LAB-12** resolves ✅ only at **U-3 ≥ 5.0**.

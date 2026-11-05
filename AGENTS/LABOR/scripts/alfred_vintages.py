@@ -369,10 +369,19 @@ def write_tsv(rows):
             "bench_status", "current_vintage", "current", "rev_first_to_third",
             "rev_first_to_bench", "rev_first_to_current", "n_vintages"]
     OUT_TSV.parent.mkdir(parents=True, exist_ok=True)
+    # BD-37: keep hand-added `#` provenance lines across a regeneration. Read BEFORE
+    # the write opens the file, because mode "w" truncates on open (L-35).
+    generated = ("# ALFRED payroll vintage table", "# Last real data refresh:",
+                 "# Built by scripts/alfred_vintages.py")
+    kept = []
+    if OUT_TSV.exists():
+        kept = [ln for ln in OUT_TSV.read_text().splitlines(keepends=True)
+                if ln.startswith("#") and not ln.startswith(generated)]
     with open(OUT_TSV, "w") as f:
         f.write(f"# ALFRED payroll vintage table — PAYEMS headline (MoM, thousands), "
                 f"reference months {rows[0]['ref_month']}..{rows[-1]['ref_month']}\n")
         f.write(f"# Last real data refresh: {date.today().isoformat()}\n")
+        f.writelines(kept)
         f.write("# Built by scripts/alfred_vintages.py (WQ-175 clause 2 / DOCKET L274). "
                 "Headline = level(M) - level(M-1) computed WITHIN one vintage. "
                 "Regime from FIRST PRINTS ONLY, declared before the bias was computed in-session — but spec and results share commit e96453b45, so this order claim has NO receipt (DAEDALUS 2026-09-07). "

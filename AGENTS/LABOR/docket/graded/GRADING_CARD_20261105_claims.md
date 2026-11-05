@@ -144,4 +144,27 @@ Current **1,701,000** [w/e Oct 17]; `1,750,000 − 1,701,000 = 49,000` inside.
 
 ## §9 — GRADE (write 2026-11-05 off this frozen card — never re-read a band)
 
-*Blank until print. Order: ① regenerate the four §4 quantities on the as-published vintage · ② grade §2 · §5a · §5b · §5c · §5d separately · ③ write into `STATUS.md` (KEY THRESHOLDS, matrix v13 if band C+ or R13-a, score, calendar) · ④ `git mv` to `docket/graded/` and build the 11/12 card the same session.*
+**GRADED 2026-11-05 ~14:05 ET, same day, about 5.5 hours after the print.** **Source:** DOL/ETA advance release, embargo line *"8:30 A.M. (Eastern) Thursday, November 5, 2026"*, saved and text-extracted (534,879 B, sha256 ab1d807370700c7f, `dol.gov/ui/data.pdf?release=20261105`); FRED ICSA, IC4WSA, CCSA agree. WALTER SIG-W-20261105-002 matches.
+
+**① Regenerated on the as-published vintage:** w/e Oct 24 revised 194,000 → **195,000**, so the window is `200,000 / 195,000 / 195,000 / 189,000` and `779,000 / 4 = 194,750` ✅ **equals the published MA.** Prior MA revised 196,750 → 197,000.
+
+| Quantity | Frozen | At the print |
+|---|---|---|
+| ① `ΔMA` | `(X − 198,000)/4` | `(189,000 − 198,000)/4 = −2,250` ✅ exact (DOL −2,250; `R` did not revise) |
+| ② `MA_next` | `(589,000 + X)/4` | rotted +250 by the revision, as §3 warned; the published 194,750 is what counts |
+| ③ §5a bound | `X > 411,000` | re-solved `1,000,000 − (200,000 + 195,000 + 195,000) = 410,000` ⇒ `X > 410,000` |
+| ④ 52-week MA min | 196,750 | **197,000** (w/e Oct 24, as revised; FRED IC4WSA, 52 weeks w/e Nov 1 2025 to Oct 24 2026) |
+
+**② Letters, each separately:**
+
+| Letter | Input | Result |
+|---|---|---|
+| §2 | X = **189,000** | **Band B: NO ACTION.** Kill B 0 of 5 (`189,000 − 185,000 = 4,000` above) |
+| §5a | MA 194,750 | **T01-a: T-01 does NOT fire** (`250,000 − 194,750 = 55,250` below) |
+| §5b | 189,000 ≤ 199,000 | **V13-a:** run **3** on the revised trail (Oct 17 195,000 · Oct 24 195,000 · Oct 31 189,000; Oct 10 at 200,000 is not under the bar). Record only |
+| §5c | CC **1,718,000** (+23,000; prior revised 1,701,000 → 1,695,000) | **CC-1:** run **8** (Sep 5 through Oct 24, FRED CCSA as revised; Aug 29 was 1,765,000). `1,750,000 − 1,718,000 = 32,000` inside. Record only |
+| §5d | `rel = 194,750 / 197,000 = 0.98858` | **R13-b: no action** |
+
+v13 stays 1, v7 stays 2, score 27/80. **Reading rule:** the MA fall is mechanical (a 198,000 week rolled off), not new information.
+
+**Level facts, no band:** MA 194,750 is the lowest on FRED's current IC4WSA vintage since w/e 1969-09-27 (also 194,750), a level and not a rate. 189,000 ties w/e Jul 18 2026 on FRED's current ICSA vintage. Cohort: Trinity Health 557 (`[2ND]`) was registered for this week; `557 / 20,000 = 2.8%` of the national floor, no attribution either way. **Illinois watch closed:** DOL's list for w/e Oct 17 shows Illinois at 1.3 (the 13.1 was printed for w/e Oct 10), and national IUR stayed 1.1; the release does not restate w/e Oct 10 itself. NSA 176,698 vs 216,026 a year earlier. KB-LAB-231.

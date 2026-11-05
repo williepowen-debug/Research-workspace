@@ -111,4 +111,29 @@ All letters are threshold/counter reads. **No prediction is registered or resolv
 
 ## 8. GRADE (write 2026-11-03 off this frozen card — never re-read a band)
 
-*Blank until release. Order: ① save + extract the release; check the reference-month line · ② read August REVISED first, then September · ③ compute both NETs from printed levels (division-free, subtraction written) · ④ grade §3a–§3d as separate letters; record §3e · ⑤ write LEG C's state into the NFP card §2 and STATUS EXIT RULES, then `git mv` this card to `docket/graded/`.*
+**GRADED 2026-11-05 ~14:05 ET, two days after the release** (DOCKET L765 held for LABOR's next authorized session; opened by WQ-618 A). Bands were not re-read or changed; nothing here depended on the delay.
+
+**① Source:** BLS USDL-26-1630, *"Job Openings and Labor Turnover — September 2026"*, for release 10:00 a.m. (ET) Tuesday, November 3, 2026, saved and text-extracted by `scripts/fetch_primary.py` from `bls.gov/news.release/archives/jolts_11032026.htm` (752,637 B, sha256 8eaf43218eb7a7f3; Table A, Tables 1–5); FRED JTSHIL / JTSTSL / JTSHIR / JTSLDL / JTSLDR / JTSJOL agree. WALTER SIG-W-20261104-004's four levels match. Falsifiers: none (no benchmark break; annual revisions come with January data).
+
+**② + ③ Levels, August revised first:**
+
+| Month | Hires | Total separations | NET |
+|---|---|---|---|
+| Aug 2026 (revised) | 5,271K (was 5,192K, +79K) | 5,175K (was 5,070K, +105K) | `5,271 − 5,175 = +96K` (was +122K) |
+| Sep 2026 (preliminary) | 5,402K (rate 3.4%) | 5,319K | `5,402 − 5,319 = +83K` |
+
+**④ Letters, each separately:**
+
+| Letter | Input | Result |
+|---|---|---|
+| §3a | Sep NET +83K | **N-2** |
+| §3b | Aug rev > 0 · Sep > 0 · Sep hires rate 3.4 (≥ 3.3) | Cell 1: **LEG C STAYS MET · v4 holds 2** |
+| §3c | Sep layoffs rate **1.0** (1,641K) | ≤ 1.1: no action; `1.2 − 1.0 = 0.2pp` below |
+| §3d | Aug 5,271K, Sep 5,402K | "Any other combination": no action. T-10 not fired, not thawed (`5,500 − 5,402 = 98K`, and August misses too) |
+| §3e | Openings **7,523K / 4.5%** (+333K on Aug revised 7,190K; Aug was 7,079K, +111K) | 3-month `7,523 / 7,182 − 1 = +4.75%`. No band, no route |
+
+**Implication line (separate, gradable): LEG C MET ⇒ LEG A alone fires v2 on 11/6.** Written into the NFP card §2.4 today. The pair has rolled: July (+18K) is out, so C now reads Aug revised ∧ Sep preliminary.
+
+**Attribution (§4, §5):** neither NET sits within ±50K of zero, so the ±50K prose rule does not bite. JOLTS is ratio-estimated to CES, so this is not a second witness beside tomorrow's payrolls. ⚠️ **August's layoffs level revised +127K, from 1,641K to 1,768K (rate 1.0 → 1.1).** September's preliminary 1,641K is the same figure August first printed. The same-size revision would give 1,768K / 1.1%, still under the 1.2% letter, but the 1.0 is a preliminary reading. September revises Tue Dec 1, after the 11/6 draw.
+
+Score 27/80 unchanged. No route owed: LEG C was not lost, §3c and §3d did not fire. KB-LAB-230.
