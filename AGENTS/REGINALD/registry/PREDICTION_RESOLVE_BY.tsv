@@ -8,3 +8,7 @@ REG-27	2027-08-09	IMMOVABLE	SEC Form 10-Q deadline for SouthState's Q2-2027 quar
 REG-28	2027-03-16	IMMOVABLE	SEC 10-K deadline for EGBN FY2026 (accelerated filer on FY2025 cover, 75 days; 2027-03-01 if large accelerated). Graded first at the Q4-2026 release	2026-10-22	Will-approved 13:36 ET; drafts D1
 REG-29	2027-03-16	IMMOVABLE	Latest 10-K deadline among SSB VLY HBAN EGBN BKU ZION (EGBN accelerated filer, 75 days). Graded at each Q4-2026 release	2026-10-22	Will-approved 13:36 ET; drafts D2
 REG-30	2027-03-01	IMMOVABLE	SEC 10-K deadline for VLY FY2026 (large accelerated filer on FY2025 cover, 60 days). Graded first at the Q4-2026 release	2026-10-22	Will-approved 13:36 ET; drafts D3
+REG-31	2026-12-31	CHOSEN	Decision date: PFBC Q3 10-Q at FDIC FLNG, expected about 11/9; if unfiled by 12/31 the row is NO-VERDICT on the letter	2026-11-05	WQ-596, Will 14:13 ET
+REG-32	2026-11-16	IMMOVABLE	SEC 10-Q deadline for BKU Q3 (large accelerated, 40 days = 11/9) plus Rule 12b-25 five days	2026-11-05	WQ-596, Will 14:13 ET
+REG-33	2026-12-31	CHOSEN	Decision date after the 12/29 settled close; window ends 12/29 on the letter	2026-11-05	WQ-596, Will 14:13 ET
+REG-34	2026-12-31	CHOSEN	Decision date after the 12/29 observation publishes ~12/30; window ends 12/29 on the letter	2026-11-05	WQ-596, Will 14:13 ET
