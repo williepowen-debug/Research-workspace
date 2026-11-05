@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 5, 2026 09:54 ET (from `date`). Boot, then catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1). Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.5; convergence **32/50, re-scored and unchanged**. **Window held open: no closeout until PROME or Will asks.**
+**As of:** November 5, 2026 12:00 ET (from `date`). Boot, then catch-up under Will's 09:42 ET word (PROME packet 7dac94dc1). Claude Code, Opus 5.5. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.7; convergence **32/50, re-scored and unchanged**. **Window held open: no closeout until PROME or Will asks.**
 
 ## CHANGES SINCE (10/30 16:50 ET → 11/05 09:39 ET)
 
@@ -28,8 +28,8 @@
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.
 5. **November 17: credit-vol endpoint and NVIDIA after the close; November 18 VIX AM SOQ.** L342 11/26 (not due), December 16 L441.
 6. implied_corr.py SETTLE-by-clock defect: not commissioned.
-7. **Path A audit DONE (KB-VIO-372): NO GATE, ~70% not replicated.** Waiting on Will: its three recommendations, the MOVE pause/resume line, desk CLAUDE.md conflicts.
-8. Live 75bp episode: 2-6 week window about 11/05 to 12/07; VIX close >=29.03 would be the over-10-points hit. Not a registered prediction unless Will says so.
+7. **Path A CLOSED: WQ-611 A encoded (KB-VIO-372/373), thesis v4.1.7.** Measured figures in, WATCH with no gate, Lag Trade template withdrawn in both files. Waiting on Will: Regime Shift Trade 1.5% sizing (Path A tag, not covered by the ruling), the MOVE pause/resume line, desk CLAUDE.md conflicts.
+8. Live 75bp episode: 2-6 week window about 11/05 to 12/07. Will did not take the prediction, so nothing is registered; read it as context only.
 
 ## CARRY-FORWARD
 

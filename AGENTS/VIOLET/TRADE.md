@@ -180,18 +180,16 @@ TERRY owns structure and sizing; Will approves execution. No sizing table or gen
 
 ## THESIS TRADES (Standing)
 
-### Credit-Vol Lag Trade (Four-Model Framework)
+### Credit-Vol Lag Trade (WATCH only; template WITHDRAWN 2026-11-05)
 
-⛔ **Audit 2026-11-05 (KB-VIO-372): the 70% and 25-30% below did not replicate.** Measured 6 of 19 (31.6%) against a 13.7% base, post-2018 n=3, NO GATE. Do not size from this template. Retained verbatim pending Will's ruling.
+**Ruling:** WQ-611 A, Will 2026-11-05 11:54 ET. Path A stays a mechanism and WATCH with no gate. Entry, target, stop and sizing are withdrawn, including the implied-VIX target, which had no defined units. Do not size from this section. Any future expression is a new TERRY card under root rule #5.
 
-**Thesis:** When HY OAS widens >100bps from recent low and VIX < 20, VIX will spike >10pts within 2-6 weeks (70% hit rate, 25-30% false positive).
+**Claim watched:** when HY OAS widens >100bps from a recent low and VIX < 20, VIX spikes >10pts within 2-6 weeks.
+**Measured (KB-VIO-372):** 6 of 19 (31.6%) against a 13.7% base, false positives 13 of 19 (68.4%). At +50%: 8 of 19 (42.1%) against 21.4%. Post-2018 n=3 (1 of 3), so F2 is NOT RUNNABLE, NO GATE. Basis: 100bp above the prior 63-trading-day low, VIX<20 and T10Y2Y>=0 on the signal day, t+10 to t+30, 1996 to 2026.
+⚠️ **Caveats:** credit origin, cross-sector and the QE backstop were not tested, so this is a superset of Path A; those filters may lift the rate. About 5 credit cycles sit under the 19 episodes, so the p values are generous. The over-10-points cell was added after outcomes were seen. `research/2026-11-05_path-a-f2/REPORT.md`.
 
-**Setup (All must be true):** HY OAS +100bps from recent low · VIX < 20 at onset · cross-sector widening · yield curve NOT inverted · no active Fed QE backstop
-**Entry:** VIX calls 30-60 DTE (checks 1-3) / 60-90 DTE (all 5)
-**Target:** VIX catches up to credit-implied level (HY OAS × 7.6 + 158 = implied VIX)
-**Stop:** HY OAS reverses >50bps, VIX >30, or curve inverts
-**Sizing:** 1% (medium) / 2% (all 5 checks)
-**Status:** DORMANT (checked 2026-09-28: HY widened +25bp 9/22→9/25, ~¼ of the +100bp setup; watch only, KB-VIO-313). **Live HY and its distance to the trigger live in STATUS; this file no longer carries a copy** — the "HY 2.79 [7/24]" figure that sat here went 9 weeks stale, the second time this line aged out (6/8 before it).
+**Watch conditions:** HY OAS +100bps from recent low · VIX < 20 at onset · cross-sector widening · yield curve NOT inverted · no active Fed QE backstop
+**Status:** WATCH, no trade. **Live HY and its distance to the trigger live in STATUS; this file no longer carries a copy.**
 
 ### DIET / STRICT Coiled-Spring Trade (L1 population signal)
 
@@ -220,4 +218,4 @@ Inversion (VIX > VIX3M) **marks vol peaks, not onsets** (KB-VIO-034: 553 events,
 
 ## REVIEW STAMP
 
-Header reviewed November 5, 2026 against the FORGE mirror; the historical frameworks below were not re-read. Full review September 14, 2026 against STATUS, FORGE's dated mirror and KB-VIO-212. Old header, log and beta claims corrected; historical preregistrations and realized accounting preserved. Pre-sweep text retained in the archive.
+Header and the Credit-Vol Lag Trade section reviewed November 5, 2026 (FORGE mirror; WQ-611 A); the other historical frameworks were not re-read. Full review September 14, 2026 against STATUS, FORGE's dated mirror and KB-VIO-212. Old header, log and beta claims corrected; historical preregistrations and realized accounting preserved. Pre-sweep text retained in the archive.

@@ -1,4 +1,4 @@
-# VIX THESIS (v4.1.6 — Path A F2 audit recorded, 2026-11-05: NOT RUNNABLE, inherited ~70% not replicated; claim text unchanged pending Will)
+# VIX THESIS (v4.1.7 — WQ-611 A encoded, 2026-11-05: Path A hit rates replaced by measured figures, Path A is a WATCH with no gate, Lag Trade template withdrawn)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -17,6 +17,8 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ---
 
 ## CHANGELOG
+
+**v4.1.7 (2026-11-05):** Will's ruling WQ-611 A (11:54 ET) encoded. The inherited Path A hit and false-positive rates are replaced by the measured figures in § CENTRAL CLAIM. Path A stays a mechanism and a WATCH with no gate and no sizing. Lag Trade entry, target, stop and sizing withdrawn. No live gate moved; no prediction registered. Full entry: `thesis/CHANGELOG.md`.
 
 **v4.1.6 (2026-11-05):** Path A F2 audit run on a pre-registered spec with HY OAS recovered to 1996. Post-2018 n=3 against a floor of 5: NOT RUNNABLE, NO GATE. Inherited ~70% not replicated (6 of 19, 31.6%, base 13.7%). The signal roughly doubles spike odds; it does not make a spike likely. Claim text retained pending Will's ruling. Full entry: `thesis/CHANGELOG.md`.
 
@@ -51,7 +53,7 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 - **THE PROMOTION: same class of failure caught TWICE in one thesis version.** v3.9 retired KB-VIO-090 (four credit-tree level lines fired 95.5% of days at 0.97× baseline over 29.6 years — decayed into description). v4.0 opens with **KB-VIO-211**: GATE-VIO-RV1, the first design this desk ever base-rated before shipping, **failed its own pre-registered F2 test on the first session after the first arm.** Pre-2018 (n=12): 60td/≥+50% cond 66.7% vs uncond 34.6%, lift **1.92×, p=0.024** ✅. Post-2018 (n=22): cond 55.0% vs uncond 40.4%, lift 1.36×, **p=0.134** ❌. Every post-2018 cell fails. **The tail-edge KB-VIO-207 measured lived in 12 pre-2018 episodes (7 of them 2014); the design is unbuilt post-Volmageddon.** Two instances of one mechanism promotes it: **a level-defined "rare corner" of the vol surface decays endogenously into the regime that surrounds it** — because the level was calibrated at the then-current threshold and the regime rolls forward. Post-2018 uncond ≥+50% rose (34.6→40.4%) as Volmageddon/COVID/2022-rates/2026-NFP raised the baseline; the *"VIX≤16 + SKEW≥140 + VVIX≤90"* region became the regime rather than a corner of it.
 - **F2 (pre/post-regime-break test) IS NOW A SPEC-FIELD REFINEMENT INSIDE SCOPE, not a discretionary check.** v3.8 named SCOPE + WINDOW as field 5 of the specification family. v4.0 refines it: **SCOPE must state (a) the calibration window, (b) a nominated regime-break date, (c) the null-preserving separation test that would fail the instrument if run on the post-break subsample.** Absence of these is not neutral — it means the instrument's NULL is unwritten, per v3.9. **The family still closes at five.** RV1's F2 clause was in the row from day one; running it was the discipline.
 - **DIRECTIONAL/WINDOW SIGNALS ARE REGIME-ROBUST WHERE LEVEL SIGNALS ARE NOT — provisional, but this is the mechanism-level defense of L1.** The L1 DIET signal is not a level ("VIX ≤ 16") — it is a **20td derivative pattern** ("SKEW +10, VIX −2/−5, VVIX −10/−15 over the window"). A signal measured in changes cannot age into the regime the same way a level does; the window slides with the tape. This is provisional (n=1 comparison) but it is the leading hypothesis for why KB-VIO-090 and KB-VIO-207 both died on level tests while KB-VIO-067's 19yr backtest at threshold-and-window separation survived. **Working corollary — until falsified: prefer DERIVATIVE-defined tail instruments over LEVEL-defined ones, and any level instrument owes an F2 test at registration.**
-- **PATH A OWES ITS OWN F2 AUDIT, and it is on the RESEARCH AGENDA.** Path A's four-condition gate (VIX<20, credit-originated, cross-sector, no curve inversion) is level-conditional on VIX<20. Not retired — its historical calibration (2007-08, 2011, 2015-16) sits pre-Volmageddon. **Adding to Phase-4 stack calibration:** run the pre/post-2018 test on Path A's ~70% hit rate. If separation compresses like KB-VIO-207's, sizing conclusions change.
+- **PATH A OWES ITS OWN F2 AUDIT, and it is on the RESEARCH AGENDA.** Path A's four-condition gate (VIX<20, credit-originated, cross-sector, no curve inversion) is level-conditional on VIX<20. Not retired — its historical calibration (2007-08, 2011, 2015-16) sits pre-Volmageddon. **Adding to Phase-4 stack calibration:** run the pre/post-2018 test on Path A's inherited hit rate. If separation compresses like KB-VIO-207's, sizing conclusions change. **Closed 2026-11-05: NOT RUNNABLE, NO GATE (KB-VIO-372); figure withdrawn under WQ-611 A.**
 - **The β RECONCILIATION (KB-VIO-212) is a DISCIPLINE note, NOT a thesis change** — but it earns a mention because it is the SECOND instance in 30 days of `[[finding_asymmetric_rigor_counterparty_claims]]`. I retracted TERRY's 0.28 toward my 0.274 without re-deriving the new number; the 0.274 turned out to be a bucketing bug (uncapped 21-35 DTE bucket). Canonical β at 21-35 is KB-VIO-208's 0.500 on 13yr all-contract (n=1,615). **The tenor-gradient story survives intact.** Vehicle-conversion thinking (KB-VIO-208, `research/2026-07-30_vehicle_selection_prereg.md`) is unchanged.
 - **VIX9D INSTRUMENT IS NOW BUILT (KB-VIO-213).** Fetched by thresholds.py, `vix9d`+`vix9d_vix_ratio` columns in VX_DAILY, banded 0.95/1.00/1.05 with `red_above=True` (higher = worse — 9d bid above 30d is front-end fear pricing). Backfill via CBOE `daily_prices/VIX9D_History.csv` (yfinance ^VIX9D returns n=1 daily, same class as ^COR1M); 409 historical VX_DAILY rows now carry the leg. **Not a thesis change** — an instrument capability that retires "front-end bid" from headline-only status. 8/17-8/27 event window traceable off the ledger: peak ratio 0.899 on 8/20 post-expiry, ratio never crossed 1.0 → **the "9d bid" was a compression of the normal <1 ratio toward 1, not a true inversion**.
 - **KB-VIO-203 HENRY DEPARTURES-ARRIVALS is the MECHANISM for why 20d-avg SKEW can terminate while daily SKEW stays elevated** — a small refinement of *Regime Life-Cycle: Interruption-and-Resumption*. n=2 (own finding + HENRY external reproduction to the hundredth on 8/23). Computed cross-back forecast ~9/1 at flat spot is a live-testable prediction, added to Predictions #7. **Not a headline** — but the "arithmetic underneath an apparent tension is often the actual finding" is what shows up.
@@ -178,15 +180,24 @@ VIX peak within fwd-60td, **episode-level** (sizing unit) with fire-day rate in 
 3. Widening is cross-sector (not sector-specific)
 4. Yield curve is not inverted (filters rate-driven shocks)
 
-**Hit rate:** ~70% | **False positive rate:** 25-30% (15-20% with yield curve filter)
+**Measured rates (WQ-611 A, Will 2026-11-05 11:54 ET; the inherited figures are withdrawn, `CHANGELOG.md` v4.1.7):**
 
-> ⛔ **Path A F2 audit (v4.1.6, 2026-11-05, KB-VIO-372):** the ~70% below did NOT replicate. On a mechanical test of size + VIX<20 + curve, without the credit-origin and cross-sector filters: 6 of 19 (31.6%) for a spike over 10 points against a 13.7% base; 8 of 19 (42.1%) for +50% against 21.4%. Post-2018 n=3, so F2 is NOT RUNNABLE and this resolves to NO GATE. Do not size from the figures below. Retained verbatim pending Will's ruling. `../research/2026-11-05_path-a-f2/REPORT.md`.
+| Spike after the signal, within 2-6 weeks | Hit rate | Base rate | False positives |
+|---|---:|---:|---:|
+| Over 10 points (POST-FREEZE cell) | 6 of 19 (31.6%) | 13.7% | 13 of 19 (68.4%) |
+| +50% (frozen primary cell) | 8 of 19 (42.1%) | 21.4% | 11 of 19 (57.9%) |
 
-> ⚠️ **Source note (v3.1):** Hit-rate figures are INHERITED from the four-model research synthesis (Gemini/Perplexity/Claude/Grok). They have NOT been independently reproduced or back-tested by VIOLET against our own data. Treat as directional framework, not validated statistics.
+**Basis:** HY OAS at least 100bp above its prior 63-trading-day low, VIX close <20 and T10Y2Y >=0 on the signal day, first qualifying day per episode, highest VIX close t+10 to t+30, 1996-12-31 through the 2026 data. Spec frozen at cc62521ac; `../research/2026-11-05_path-a-f2/REPORT.md`, KB-VIO-372.
+
+**Status: mechanism and WATCH, no gate, no sizing derived from it.** After 2018 there are 3 episodes (1 of 3) against a floor of 5, so F2 is NOT RUNNABLE, which resolves to NO GATE (KB-VIO-217/260). The signal roughly doubles spike odds; it does not make a spike likely. A loose bar carries no information: +15% hit 12 of 19 (63.2%) against a 65.0% base. The curve filter removed 1 of 20 episodes, so the inherited claim that it cuts false positives has no support here. On the first +100bp day of 2020, 2022 and 2025 VIX was already 39.16, 36.45 and 30.02, so credit led none of those three.
+
+> ⚠️ **Caveats that travel with these figures:** credit origin and cross-sector were NOT tested, nor TRADE.md's no-QE-backstop check, so this is a superset of Path A; those filters may lift the rate and this audit cannot say. The 19 episodes sit in about 5 credit cycles, so independence is overstated and every p value is generous. The over-10-points row was added after outcomes were seen, because the wording was found late; the +50% row was frozen first. HY for 1996-2023 comes from one archived FRED snapshot. No outside reader has checked the audit.
+
+> ⚠️ **Source note (v3.1, amended v4.1.7):** the rates above are VIOLET's own measurement. The lead times in the core claim (2-6 weeks, ~7 months) are still INHERITED from the four-model research synthesis (Gemini/Perplexity/Claude/Grok) and have not been independently reproduced. Treat them as a directional framework, not validated statistics.
 
 > **Evidence refinement (v4.1.2, 2026-10-14; KB-VIO-326/328):** a post-CPI front-end volatility response following earlier credit widening establishes sequence, not credit-origin causation. Broader spread repricing is not the same as broader borrower default recognition; functioning aggregate funding does not clear named-institution restrictions. When credit size/origin remain unresolved and volatility confirmation is incomplete, retain WATCH and the original observation window. Do not backdate a fire or reopen an expired event letter. No numerical condition, trigger, lag statistic or trade permission changes. Dated assessment and strongest counterevidence: `../research/2026-10-14_post-CPI/REPORT.md`.
 
-> 📌 **Operational refinement (v3.3):** The four conditions above remain the **entry-filter** for the lag trade. The **fire signal** within that filter is the L1 DIET coiled-spring signature (KB-VIO-067, VIOLET-backtested 19yr): SKEW rises + VIX falls + VVIX falls over a multi-day window. L1 is the population framework that determines *when* the lag is paying forward; the four conditions determine *whether the regime is right* for the lag to exist at all. Use both: conditions = regime gate; L1 = fire trigger.
+> 📌 **Operational refinement (v3.3, amended v4.1.7):** The four conditions above define the WATCH: they say when the credit-led mechanism is worth watching, and they are not a gate (WQ-611 A). The v3.3 reading of them as the lag trade's entry filter, with L1 as its fire trigger, is withdrawn with the Lag Trade template. L1, the DIET coiled-spring signature (KB-VIO-067, VIOLET-backtested 19yr: SKEW rises + VIX falls + VVIX falls over a multi-day window), stays its own instrument, unchanged: § The DIET Coiled-Spring Trade.
 
 ---
 
@@ -288,7 +299,7 @@ HENRY (Equity market impact)
 Portfolio P&L
 ```
 
-**Path A fires when:** four conditions hold (VIX<20 at onset, credit-originated shock, cross-sector widening, no curve inversion). Credit leads by 2-6 weeks tactical / ~7 months cyclical. **This remains the high-confidence path.** Operational expressions: **Lag Trade** (mid-flight tactical entry in Rising Vol regime) and **Regime Shift Trade** (slow-build strategic entry in persistent Low Vol regime) — both in Trade Implications below.
+**Path A WATCH is active when:** four conditions hold (VIX<20 at onset, credit-originated shock, cross-sector widening, no curve inversion). Inherited lead: 2-6 weeks tactical / ~7 months cyclical. **Status (WQ-611 A, 2026-11-05): mechanism and WATCH, no gate; measured rates in § CENTRAL CLAIM. The "high-confidence path" label is withdrawn.** Expressions: **Lag Trade** (mid-flight tactical, template withdrawn) and **Regime Shift Trade** (slow-build strategic entry in persistent Low Vol regime, sizing not covered by the ruling) — both in Trade Implications below.
 
 ### Path B — Concentration-unwind parallel (added v3.3, KB-VIO-070/071)
 
@@ -306,7 +317,7 @@ Portfolio P&L (no credit-side firing required)
 
 **VIOLET's role across both paths:** Detect regime shifts, credit-vol divergences (Path A), AND concentration-vol amplifications (Path B). Signal when vol markets are mispriced relative to either source of stress.
 
-**Operational rule:** Path A signals (LIQUID upstream) get high confidence and standard sizing. Path B signals (HENRY upstream) get medium confidence and reduced sizing until backtest matures. Don't require Path A confirmation when Path B is firing — the 6/5 episode proves they can be independent.
+**Operational rule:** Path A signals (LIQUID upstream) are a WATCH: no gate and no sizing derived from them (WQ-611 A). Path B signals (HENRY upstream) get medium confidence and reduced sizing until backtest matures. Don't require Path A confirmation when Path B is firing — the 6/5 episode proves they can be independent.
 
 ---
 
@@ -386,18 +397,15 @@ Portfolio P&L (no credit-side firing required)
 
 ## TRADE IMPLICATIONS
 
-### The Lag Trade (Revised)
+### The Lag Trade (Revised; template WITHDRAWN v4.1.7)
+
+**Entry, target, stop and sizing are WITHDRAWN (WQ-611 A, Will 2026-11-05 11:54 ET).** The setup below stays as a WATCH description and opens no trade. Any future expression is a new TERRY card under root rule #5.
 
 **Setup:**
 - Regime: Rising vol (VIX 20-30)
 - HY OAS widens >50bps in 1 week
 - VIX flat or down
 - Term structure NOT inverted
-
-**Entry:** VIX calls 30-60 DTE
-**Target:** VIX catches up to credit-implied level
-**Stop:** HY OAS reverses, or VIX spikes >30
-**Sizing:** 1% account (lowered from 2% — thesis less certain)
 
 ### The Regime Shift Trade (revised v3.1; Path A tagged v3.4)
 
@@ -412,6 +420,8 @@ Portfolio P&L (no credit-side firing required)
 **Target:** Regime shift to rising vol (VIX 25-30)
 **Stop:** VIX breaks below 15, credit stress resolves, or 7-day sustained contango re-steepening
 **Sizing:** 1.5% account
+
+⚠️ **Open, not ruled (2026-11-05):** this setup is tagged Path A, and Path A now carries no sizing, but WQ-611 A named the Lag Trade template only, so this line stands until Will rules. The setup also needs VVIX>120 with VIX<20, which the audit did not test.
 
 **Rare-trigger caveat (v3.4; ⚠️ CONDITIONING AMENDED v4.1):** VVIX>120 is historically uncommon (first sustained VVIX>100 of 2026 hit 6/5; 120 still not breached). Don't size the watchlist as if this fires monthly. ⚠️ **The clause "especially in the current GEX-suppression era" is WITHDRAWN as a live conditioner — and v4.1.1 withdraws it for a STRONGER reason than v4.1 gave.** v4.1 withdrew it because gamma was *negative*; the measured sequence is **+$20.4B [8/28] → −$16.7B [9/2] → +$36.8B [9/3]**, so **the conditioner cannot be evaluated at all at this cadence** — it would flip with the board twice a week. **The base rate is unchanged (19 years of history does not move with the gamma board); the MECHANISTIC conditioner is retired as unusable, not merely suspended.** ⛔ And in neither direction is it a forecast: a negative board removes a dampener, it does not supply a shock (fence 3 above).
 
@@ -460,7 +470,7 @@ Portfolio P&L (no credit-side firing required)
 **Mitigation, standing:**
 - **Any level-based tail-detection instrument owes an F2 test at registration**, and F2 is now a spec-field refinement inside SCOPE (v4.0 headline). Absence of F2 means the instrument's NULL is unwritten.
 - **Prefer directional/window signals over levels** — an instrument measured in changes over a sliding window (L1 DIET) cannot age into the regime the same way. Provisional at n=1 comparison, but the leading hypothesis for why L1 DIET's 19yr backtest still holds.
-- **Existing level-conditional instruments carry an audit obligation**, not a retirement notice — Path A's VIX<20 gate is next in queue (Research Agenda Phase 4).
+- **Existing level-conditional instruments carry an audit obligation**, not a retirement notice. Path A's audit ran 2026-11-05: NOT RUNNABLE, NO GATE (KB-VIO-372).
 
 ---
 
@@ -505,7 +515,7 @@ Portfolio P&L (no credit-side firing required)
 - [ ] L4 demotion formalization: COT positioning → descriptive context, not discriminator
 - [ ] L1 re-split by trigger type: do DIET fires concentrate around macro-shock vs technical vs concentration-unwind?
 - [ ] Path B (concentration-unwind parallel) backtest: identify historical analogs (Aug 2024 yen, Nov 2018 FANG, Feb 2018 Volmageddon, Mar 2020) and characterize joint trigger+amplifier condition
-- [x] **Path A F2 audit RUN 2026-11-05: NOT RUNNABLE, NO GATE (KB-VIO-372).** Original item (added v4.0): run the pre/post-2018 test on Path A's ~70% hit rate. Path A's VIX<20 entry gate is level-conditional; if separation compresses post-Volmageddon the way KB-VIO-207 did, sizing conclusions change. **This is not a demotion of Path A** — it is the obligation the level-decay class puts on every level-conditional signal.
+- [x] **Path A F2 audit RUN 2026-11-05: NOT RUNNABLE, NO GATE (KB-VIO-372).** Original item (added v4.0): run the pre/post-2018 test on Path A's inherited hit rate. Path A's VIX<20 entry gate is level-conditional; if separation compresses post-Volmageddon the way KB-VIO-207 did, sizing conclusions change. **Outcome: WQ-611 A, Will 2026-11-05 11:54 ET, keeps Path A as a mechanism and WATCH with no gate.**
 - [ ] **VIX9D/VIX ratio base-rate work (added v4.0, KB-VIO-213):** now that the instrument is built and backfilled to 2011, base-rate the ratio at the thresholds the framework would want (≥1.0 crossing, ≥1.05 sustained, compression <0.85). Register nothing without an F2 test — do not repeat the KB-VIO-207 pattern of ship-then-audit.
 - [x] **KB-VIO-203 departures-arrivals evidence reconciled October 14 (KB-VIO-334):** recovered September 2 grade and original August 27 letter; timing/counterfactual reproduced, actual-flat-spot eligibility failed. Arithmetic mechanism retained; clean full-letter predictive HIT withdrawn. September event is closed, not a new forward test.
 

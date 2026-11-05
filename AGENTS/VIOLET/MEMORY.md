@@ -8,7 +8,7 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 1. **VIX measures option-implied expected 30-day volatility.** Its contemporaneous repricing is not a reliable crash-onset forecast by itself; it is not a measure of past realized volatility.
 2. **Term structure inversion marks peaks, not onsets.** (v3.1 falsification: 553 events, 2.2% hit rate, mean -5% forward.)
-3. **Credit-to-vol lead is a conditional hypothesis.** Apply the thesis's size/origin/breadth/backstop conditions; inherited lag and hit rates remain unreplicated. Sequence alone is not causation.
+3. **Credit-to-vol lead is a conditional hypothesis.** Apply the thesis's size/origin/breadth/backstop conditions. Path A is a WATCH with no gate (WQ-611 A); hit rates are measured (thesis § CENTRAL CLAIM, KB-VIO-372), and the inherited lead times remain unreplicated. Sequence alone is not causation.
 4. **VVIX prices uncertainty about VIX.** A rise alone does not establish systemic transmission; current confirmation lives in STATUS.
 5. **SKEW measures relative risk-neutral tail pricing.** It is not an executable strike-specific put premium, physical crash probability or identified net hedge flow.
 6. **SKEW divergence is a historical conditional pattern.** Use the thesis L1canonical table(KB-VIO-079), naming threshold/tier/population/anchor/window. Small-move hit rates are not crash odds; do not carry an unqualified cached percentage.
@@ -128,7 +128,7 @@ The "+7.98% re-armed" M1:M2 read for 6/10 was the **6/9 settlement** — `vix_fu
 | Relationship | Normal | Stress | Implication |
 |--------------|--------|--------|-------------|
 | VIX vs Realized Vol | IV premium often present | IV-RV can turn negative | Match horizons/estimators; sign alone is not systemic confirmation |
-| VIX vs HY OAS | Regime-dependent | Credit may lead eligible Path A; VIX can lead in crash regimes | Conditional hypothesis; inherited rates unreplicated |
+| VIX vs HY OAS | Regime-dependent | Credit may lead eligible Path A; VIX can lead in crash regimes | WATCH, no gate (WQ-611 A); measured rates in the thesis |
 | VIX vs VIX3M | Contango | Backwardation | Term structure marks regime (inversion = peak-marker) |
 | VIX vs VVIX | Related implied quantities | Can reprice differently | VVIX supplies context; a lead is not guaranteed |
 | VIX vs SKEW | Distinct implied quantities | May diverge | Historical conditional pattern; no automatic prediction or flow inference |

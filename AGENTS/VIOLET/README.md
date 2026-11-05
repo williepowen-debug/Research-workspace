@@ -30,7 +30,7 @@ VIX complex, term structure, tail pricing and credit-to-vol transmission. **Revi
 
 ## Durable framework
 
-1. Credit may lead volatility when the shock is credit-originated and the conditioning requirements hold. Path-A F2 audit run 2026-11-05: not runnable, no gate, and the inherited ~70% did not replicate (KB-VIO-372).
+1. Credit may lead volatility when the shock is credit-originated and the conditioning requirements hold. Path-A F2 audit run 2026-11-05: not runnable, so Path A is a watch with no gate (WQ-611 A). Measured rates live in the thesis § CENTRAL CLAIM (KB-VIO-372).
 2. SKEW divergence is a conditional population pattern. Quote the threshold, sample and time window from the thesis's canonical table; never convert a high small-move hit rate into a crash probability.
 3. Term inversion is a peak-marker interpretation, not automatic permission to enter long volatility.
 

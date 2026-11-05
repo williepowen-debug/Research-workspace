@@ -6,6 +6,17 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## November 5, 2026 — v4.1.7: WQ-611 A encoded
+
+**Ruling:** Will in PROME's chat, 11:54 ET, verbatim "612 611 A both" (WQ-611 option A). Items 1 and 2 of the Path A recommendation approved; item 3 not taken, so no prediction is registered.
+**Old view → new view:** "Hit rate ~70%, false positive 25-30% (15-20% with yield curve filter)", high-confidence path, standard sizing → measured 6 of 19 (31.6%) against a 13.7% base for a spike over 10 points, 8 of 19 (42.1%) against 21.4% for +50%, false positives 58-68%; mechanism and WATCH, no gate, no sizing derived from it.
+**Withdrawn from the thesis:** the v3.3 reading of the four conditions as the lag trade's entry filter and regime gate; the "high-confidence path" label; "standard sizing" for Path A; the Lag Trade's "Entry: VIX calls 30-60 DTE / Target: VIX catches up to credit-implied level / Stop: HY OAS reverses, or VIX spikes >30 / Sizing: 1% account".
+**Withdrawn from TRADE.md:** "(70% hit rate, 25-30% false positive)"; "Entry: VIX calls 30-60 DTE (checks 1-3) / 60-90 DTE (all 5)"; "Target: VIX catches up to credit-implied level (HY OAS × 7.6 + 158 = implied VIX)"; "Stop: HY OAS reverses >50bps, VIX >30, or curve inverts"; "Sizing: 1% (medium) / 2% (all 5 checks)".
+**Reading taken:** the ruling names "the Lag Trade sizing template". I withdrew the whole Entry/Target/Stop/Sizing block in both files, because the same trade is carried in both and a size line alone would leave the template live.
+**Not changed:** no live gate, line or letter. The L1 DIET signature, the Regime Shift Trade's 1.5% sizing (open question for Will, marked in place), and the core claim's mechanism text. The "2-6 weeks" and "~7 months" leads stay inherited and unreplicated.
+**Caveat carried:** credit origin and cross-sector untested, so the figures describe a superset of Path A; about 5 credit cycles make the p values generous.
+**Record:** KB-VIO-373, KB-VIO-372, `research/2026-11-05_path-a-f2/REPORT.md`, `PROME/WILL_QUEUE.md` row 611.
+
 ## November 5, 2026 — v4.1.6: Path A F2 audit
 
 **Old view → new view:** Path A hit rate ~70%, inherited and owed an F2 audit → F2 NOT RUNNABLE on 3 post-2018 episodes, which resolves to NO GATE (KB-VIO-217/260), and the ~70% did not replicate: 6 of 19 (31.6%) for a spike over 10 points against a 13.7% base, 8 of 19 (42.1%) for +50% against 21.4%, on a superset test without the credit-origin and cross-sector filters. The signal roughly doubles spike odds; it does not make a spike likely. Spec frozen at cc62521ac; the over-10-points cell was added after outcomes and is labelled post-freeze.
