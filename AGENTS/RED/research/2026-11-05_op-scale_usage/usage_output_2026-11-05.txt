@@ -1,0 +1,85 @@
+CLAUDE 2026-10-06 2026-11-05 fresh+out 168,722,166 cacheread 7,937,770,946
+PROME            files  125 fresh+out   42,752,296  25.3% cacheread  2,365,458,416  29.8% all  29.7%
+WALTER           files   23 fresh+out   15,197,278   9.0% cacheread  1,093,158,439  13.8% all  13.7%
+DAEDALUS         files   17 fresh+out    8,334,817   4.9% cacheread    524,468,265   6.6% all   6.6%
+DAEDALUS+reader  files   45 fresh+out   11,200,435   6.6% cacheread    466,092,175   5.9% all   5.9%
+DEWEY+reader     files   62 fresh+out   12,617,012   7.5% cacheread    323,111,413   4.1% all   4.1%
+REGINALD         files   11 fresh+out    4,627,367   2.7% cacheread    270,840,463   3.4% all   3.4%
+TERRY            files    9 fresh+out    3,951,568   2.3% cacheread    244,412,900   3.1% all   3.1%
+DEWEY            files   10 fresh+out    5,130,246   3.0% cacheread    217,176,253   2.7% all   2.7%
+VULCAN           files   10 fresh+out    4,389,111   2.6% cacheread    204,278,684   2.6% all   2.6%
+WAL              files    8 fresh+out    3,091,246   1.8% cacheread    135,824,465   1.7% all   1.7%
+BROCK            files   10 fresh+out    2,836,716   1.7% cacheread    130,672,623   1.6% all   1.6%
+CREED            files    2 fresh+out    2,284,813   1.4% cacheread    131,146,485   1.7% all   1.6%
+CYPHER           files    5 fresh+out    2,088,958   1.2% cacheread    126,436,385   1.6% all   1.6%
+RED              files    8 fresh+out    3,775,981   2.2% cacheread    123,283,293   1.6% all   1.6%
+BRENT            files    6 fresh+out    2,291,310   1.4% cacheread    102,054,932   1.3% all   1.3%
+ZHAO             files    7 fresh+out    1,925,034   1.1% cacheread     95,360,288   1.2% all   1.2%
+OSPREY           files    7 fresh+out    2,060,539   1.2% cacheread     88,738,094   1.1% all   1.1%
+FALCON           files    8 fresh+out    2,204,581   1.3% cacheread     84,053,156   1.1% all   1.1%
+OZK              files    5 fresh+out    1,828,363   1.1% cacheread     80,621,320   1.0% all   1.0%
+LIQUID           files    8 fresh+out    2,260,539   1.3% cacheread     79,482,427   1.0% all   1.0%
+HENRY            files    7 fresh+out    2,217,802   1.3% cacheread     74,288,822   0.9% all   0.9%
+PROME+reader     files   49 fresh+out    5,654,223   3.4% cacheread     70,257,424   0.9% all   0.9%
+FLG              files    4 fresh+out    1,535,051   0.9% cacheread     73,925,951   0.9% all   0.9%
+WALTER+reader    files   23 fresh+out    3,795,538   2.2% cacheread     66,690,206   0.8% all   0.9%
+HANS             files    3 fresh+out    1,058,359   0.6% cacheread     67,913,180   0.9% all   0.9%
+BOND             files    5 fresh+out    1,660,468   1.0% cacheread     63,541,517   0.8% all   0.8%
+MIDAS            files    3 fresh+out    1,064,205   0.6% cacheread     59,467,786   0.7% all   0.7%
+NEXUS            files    5 fresh+out    1,421,171   0.8% cacheread     56,706,924   0.7% all   0.7%
+VIOLET           files    4 fresh+out    1,257,852   0.7% cacheread     50,434,159   0.6% all   0.6%
+WATT             files    2 fresh+out      726,513   0.4% cacheread     46,492,461   0.6% all   0.6%
+HAWK             files    1 fresh+out      533,845   0.3% cacheread     45,300,502   0.6% all   0.6%
+LABOR            files    2 fresh+out      769,309   0.5% cacheread     44,512,283   0.6% all   0.6%
+VULCAN+reader    files   10 fresh+out    1,669,913   1.0% cacheread     42,371,986   0.5% all   0.5%
+CORAL            files    2 fresh+out      944,772   0.6% cacheread     37,972,615   0.5% all   0.5%
+CREED+reader     files   10 fresh+out    1,511,068   0.9% cacheread     36,880,970   0.5% all   0.5%
+HOMER            files    2 fresh+out      656,059   0.4% cacheread     33,063,797   0.4% all   0.4%
+CARL             files    2 fresh+out      571,937   0.3% cacheread     29,384,839   0.4% all   0.4%
+FERT             files    3 fresh+out      701,328   0.4% cacheread     23,196,712   0.3% all   0.3%
+ORACLE           files    2 fresh+out      484,633   0.3% cacheread     16,927,112   0.2% all   0.2%
+SAM              files    1 fresh+out      310,804   0.2% cacheread     16,249,753   0.2% all   0.2%
+GIBBS            files    1 fresh+out      300,782   0.2% cacheread     14,023,433   0.2% all   0.2%
+CYPHER+reader    files    6 fresh+out      975,829   0.6% cacheread     12,338,344   0.2% all   0.2%
+CRUISE           files    2 fresh+out      414,979   0.2% cacheread     12,631,291   0.2% all   0.2%
+REGINALD+reader  files    6 fresh+out      903,778   0.5% cacheread     11,253,097   0.1% all   0.1%
+YURI             files    1 fresh+out      214,908   0.1% cacheread      9,177,691   0.1% all   0.1%
+WAL+reader       files    2 fresh+out      372,592   0.2% cacheread      7,305,389   0.1% all   0.1%
+BRENT+reader     files    3 fresh+out      365,104   0.2% cacheread      7,001,035   0.1% all   0.1%
+OSPREY+reader    files    3 fresh+out      413,709   0.2% cacheread      5,011,174   0.1% all   0.1%
+SHADE            files    1 fresh+out      185,650   0.1% cacheread      4,217,457   0.1% all   0.1%
+TERRY+reader     files    4 fresh+out      501,408   0.3% cacheread      3,829,071   0.0% all   0.1%
+FLG+reader       files    1 fresh+out      192,670   0.1% cacheread      3,155,036   0.0% all   0.0%
+AEOLUS           files    1 fresh+out      248,271   0.1% cacheread      2,655,844   0.0% all   0.0%
+HAWK+reader      files    1 fresh+out      139,386   0.1% cacheread      2,681,266   0.0% all   0.0%
+ROOT             files    1 fresh+out       80,048   0.0% cacheread        237,687   0.0% all   0.0%
+BOND+reader      files    1 fresh+out       19,992   0.0% cacheread          3,656   0.0% all   0.0%
+CODEX fresh+out 126,851,423 cached 3,839,950,336
+WALTER                         rollouts  106 fresh+out   30,670,603  24.2% cached   868,913,920
+PROME                          rollouts   66 fresh+out   19,635,397  15.5% cached   594,464,640
+CATO                           rollouts   32 fresh+out   10,413,327   8.2% cached   376,507,520
+DAEDALUS                       rollouts   35 fresh+out    9,706,553   7.7% cached   317,817,472
+BRENT                          rollouts   12 fresh+out    7,620,846   6.0% cached   212,887,680
+REGINALD                       rollouts   10 fresh+out    6,987,135   5.5% cached   205,637,248
+TERRY                          rollouts   13 fresh+out    6,044,217   4.8% cached   182,755,072
+LIQUID                         rollouts    7 fresh+out    4,867,170   3.8% cached   160,104,320
+NEXUS                          rollouts   16 fresh+out    3,837,774   3.0% cached   108,927,232
+WAL                            rollouts    4 fresh+out    3,607,598   2.8% cached   100,628,224
+OZK                            rollouts    4 fresh+out    2,589,211   2.0% cached    64,384,768
+BOND                           rollouts    6 fresh+out    2,502,374   2.0% cached    63,079,936
+VIOLET                         rollouts    4 fresh+out    2,185,406   1.7% cached    57,258,112
+DEWEY                          rollouts    6 fresh+out    2,153,776   1.7% cached    76,795,776
+VULCAN                         rollouts    3 fresh+out    1,695,944   1.3% cached    70,567,808
+BROCK                          rollouts    4 fresh+out    1,615,903   1.3% cached    36,574,336
+CARL                           rollouts    4 fresh+out    1,581,824   1.2% cached    39,702,784
+SAM                            rollouts    5 fresh+out    1,580,176   1.2% cached    40,725,248
+HENRY                          rollouts    1 fresh+out    1,466,323   1.2% cached    42,415,232
+OTTO                           rollouts    1 fresh+out    1,373,469   1.1% cached    50,918,912
+MIDAS                          rollouts    1 fresh+out    1,111,259   0.9% cached    20,533,120
+WATT                           rollouts    2 fresh+out      852,882   0.7% cached    29,952,256
+HOMER                          rollouts    1 fresh+out      664,020   0.5% cached    26,233,344
+ISHM                           rollouts    2 fresh+out      603,077   0.5% cached    27,531,264
+home/willi                     rollouts    1 fresh+out      576,137   0.5% cached    22,420,608
+FALCON                         rollouts    1 fresh+out      514,367   0.4% cached    28,286,592
+CRUISE                         rollouts    1 fresh+out      391,474   0.3% cached    13,914,496
+ROOT                           rollouts    1 fresh+out        3,181   0.0% cached        12,416
