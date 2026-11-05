@@ -1,7 +1,7 @@
 # TRADE IDEA — HYG Jan-15 76/73 put spread — hedge if credit starts to follow
 **Date:** 2026-11-05 (written 13:36 EST from `date`)
 **Setup ID:** `IDEA-HYG-FOLLOW-NOV05`
-**Terry verdict:** CONDITIONAL — NOT-FIRED, not approved. Proposed under Will's 10/20 loosened rule. Separate card; `IDEA-CREDIT-HYG-BDC-OCT23` (WQ-513 A) is unchanged.
+**Terry verdict:** CONDITIONAL — NOT-FIRED, not approved (WQ-615, registered by PROME 11/5, undecided). Proposed under Will's 10/20 loosened rule. Separate card; `IDEA-CREDIT-HYG-BDC-OCT23` (WQ-513 A) is unchanged.
 **Thesis owner:** LIQUID and REGINALD own the credit read. TERRY owns only the construction. Credit is unconfirmed either way for 11/5; the cause of the selloff is not established (HENRY card SIG-W-20261105-027; VIOLET SIG-VIO 12:41 ET).
 **Confidence in structure:** Medium.
 **Data freshness:** chains and spot 13:33 EST, vendor intraday, screening marks (durable finding 5b). The order is priced on the broker chain. Position truth: FORGE capture 11/5 ~10:0x ET, later changes `[POSITION_STATE_UNKNOWN]`.

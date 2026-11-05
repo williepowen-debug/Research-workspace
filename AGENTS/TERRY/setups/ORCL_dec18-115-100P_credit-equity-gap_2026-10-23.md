@@ -5,6 +5,8 @@
 
 > **WQ-518 RULED A — Will in the TERRY window 2026-10-29 11:42 ET, verbatim "518 A":** the Oracle-verified fiscal-Q2 date condition stays; no estimated-date entry.
 
+> **TRIGGER STATE 2026-11-05 13:33 EST (TERRY): NOT FIRED · NOT VOIDED.** DTCC 300 [11/3] is the newest read found, vs 350. ORCL $114.94 −7.10%, under the $120 T2 line, red, day low $111.66. 115P $11.20/$11.55, 100P $5.20/$5.45, outer $6.35 vs ≤ $4.40 and past the $5.00 no-chase. FQ2 date not re-checked, moot.
+
 > **TRIGGER STATE 2026-11-05 11:10 EST (TERRY): NOT FIRED · NOT VOIDED.** ORCL $112.88 −8.77% (11:08 EST), now under the card's $115 long strike and the $120 T2 line. If that holds, the gap this card was built on has closed from the equity side: T1 at 350 bp would fail T2.
 
 > **TRIGGER STATE 2026-11-05 earlier 09:50 EST (TERRY): NOT FIRED · NOT VOIDED.** T1: DTCC disseminated 5Y 300 bp [11/3] per `AGENTS/LIQUID/STATUS.md`, vs 350; void ≤ 280 not hit. ORCL $119.04 −3.79% (09:45 EST) is under the $120 T2 line, which is read only at T1; a completed close is not in. Oracle FQ2 date condition unchanged.

@@ -1,7 +1,7 @@
 # TRADE IDEA — RSP Dec-18 220/230 call spread — red-day call on the breadth thesis
 **Date:** 2026-11-05 (written 13:36 EST from `date`)
 **Setup ID:** `IDEA-RSP-DEC-NOV05`
-**Terry verdict:** CONDITIONAL — FIRED on its own legs at the 13:33 EST screen, not approved. TERRY recommends waiting: the measured base rate is against buying this close. Separate card; `IDEA-RSP-OCT20` (WQ-591 A, GATE-TERRY-RSP-01) is unchanged and its ≤ $4.90 limit does not move.
+**Terry verdict:** CONDITIONAL — FIRED on its own legs at the 13:33 EST screen, not approved (WQ-616, registered by PROME 11/5, undecided). TERRY recommends waiting: the measured base rate is against buying this close. Separate card; `IDEA-RSP-OCT20` (WQ-591 A, GATE-TERRY-RSP-01) is unchanged and its ≤ $4.90 limit does not move.
 **Thesis owner:** HENRY, L616 breadth study (10/31), `AGENTS/HENRY/STATUS.md` § MARKET BREADTH. HENRY has not reviewed these strikes.
 **Confidence in structure:** Low.
 **Data freshness:** spot and chain 13:33 EST, vendor intraday, screening marks (durable finding 5b). The 220C printed DIRINC. Position truth: FORGE capture 11/5 ~10:0x ET, later changes `[POSITION_STATE_UNKNOWN]`.
