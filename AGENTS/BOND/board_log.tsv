@@ -106,3 +106,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T09:56:12-05:00	SIG-W-20261104-027	acted	INBOX_WALTER	Holy Redeemer: reported bond default on about $71M, tax-exempt hospital debt outside every BOND instrument; idiosyncratic, related debtor 26-14631 kept separate (KB-BND-535).
 2026-11-05T09:57:53-05:00	SIG-W-20261105-001	acted	INBOX_WALTER	BoE 25bp hike to 4.00%, 8-1: long-end reaction muted on intraday reads (gilt 30Y +1bp, US 30Y flat); no closes yet; HANS owns grade (KB-BND-537).
 2026-11-05T09:58:08-05:00	SIG-W-20261105-008	noted	INBOX_WALTER	European dailies, intraday screens, HANS owns. Bund 3.26 there vs Bundesbank fitted 3.33 [11/5] is a basis difference; BOND keeps the Bundesbank cell for WQ400.
+2026-11-05T14:02:00-05:00	SIG-W-20261105-022	noted	INBOX_WALTER	Barkin, Hammack headlines, bodies unread; December hike odds fell 82% to 65% during the day, so the tension WALTER names holds; HENRY owns the path (KB-544)

@@ -1,12 +1,12 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-05 09:56 ET — PROME catch-up under Will's 09:42 ET word (Claude Code `claude-opus-5-5`): November QRA read and graded, F2 carrier extended, auction-health downgrade graded, data refreshed. **Last real data refresh: 2026-11-05.**
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-05 14:02 ET — closeout prep under Will's word, after the catch-up under his 09:42 ET word (Claude Code `claude-opus-5-5`): November QRA graded, F2 carrier extended, auction-health downgrade graded, data refreshed, 11/5 selloff recorded. **Last real data refresh: 2026-11-05.**
 
 Frontiers: Treasury nominal/real **11/4** · ICE credit via FRED **11/4** · NY Fed repo **11/4** · FR2004 as-of **10/21** (10/28 due today) · ACM **11/3** · KW **10/30** · PMMS **11/5** · Bund **11/5** · TreasuryDirect auctions through **10/29**. Evidence: `analysis/2026-11-05_catchup/` (raw manifest, Treasury documents).
 
 ## Current judgment
 
-**Live, 11/5 12:43 ET, vendor intraday, not closes: stocks are selling off hard and credit has barely moved so far.** S&P −3.8%, QQQ −5.7%, VIX about 24 vs 16.61 [11/4], led by AI and chips, with GS −7.4% and MS −6.9%. Treasuries rallied: 10Y about 4.84, 30Y about 5.25. HYG −0.45%, LQD +0.12%. The official junk spread for today posts tomorrow; my estimate from ETFs is near 345, with similar past days pointing closer to 350 (KB-BND-543). ⚠️ Estimate only. This time equities moved first, the reverse of the 10/30 pattern. No score moved. December still prices about 68% of a hike; the fall in rate expectations is in 2027 (KB-BND-544).
+**Live, 11/5 14:01 ET, vendor intraday, not closes: stocks are selling off hard, Treasuries are rallying, and credit has barely moved so far.** S&P −4.0%, QQQ −5.8%, VIX about 26.7 vs 16.61 [11/4], led by AI and chips, with GS −6.5% and MS −6.6%. 10Y about 4.83, 30Y about 5.25. HYG −0.46%, LQD +0.11%. December hike odds fell from about 82% at 09:40 to about 65%, and the strip peak from 4.50 to 4.32 (KB-BND-544). The official junk spread for today posts 11/6; my ETF-based estimate is near 345, with similar past days closer to 350 (KB-BND-543). ⚠️ Estimate only. Equities moved first, the reverse of 10/30. LIQUID at 13:58 ET: no financing constraint visible. No score moved.
 
 **The refunding brought no supply surprise now and a warning for later.** Treasury kept coupon sizes unchanged at every tenor for November–January (statement `sb0678`, 11/4). F3 NOT FIRED. But it dropped two words: August said sizes hold "for **at least** the next several quarters", November says "for the next several quarters". TBAC, its dealer advisory committee, says coupon increases will be warranted later in FY27, likely the second half, mostly in 2Y–10Y, with real debate over the 20Y and 30Y. On 11/4 the 10Y fell 5bp and the 30Y 4bp; no attribution computed.
 
@@ -18,7 +18,7 @@ Frontiers: Treasury nominal/real **11/4** · ICE credit via FRED **11/4** · NY 
 
 **Auctions: downgrade graded, refunding next.** Three clean registered nominals under WQ-536 A and no size change, so auction health moves 4→3. ⚠️ The downgrade follows the weakest 2Y in BOND's records (10/26, audit-only, recorded beside the count). The refunding prints grade REGISTERED on bars frozen 11/2, and a fire there resets the counter.
 
-**Rates:** curve flattened 5bp since 10/30: 2Y 4.58, 10Y 4.90, 30Y 5.28 [11/4]. Real 10Y 2.64%, run 39 sessions at or above 2.50. December hike about 82% [11/5 evolving vendor bar, not settlement; HENRY owns], up from about 76% [11/2].
+**Rates:** curve flattened 5bp since 10/30: 2Y 4.58, 10Y 4.90, 30Y 5.28 [11/4]. Real 10Y 2.64%, run 39 sessions at or above 2.50. December hike about 65% [11/5 14:01 evolving vendor bar, not settlement; HENRY owns], about 82% at 09:40, about 76% [11/2].
 
 ## Regime and capital record
 <!-- bond-state: thesis=v1.2.13; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
@@ -35,14 +35,14 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 | 20Y−30Y | +2bp [11/4]; 20Y still above 30Y | [EST PRIMARY] |
 | 5Y5Y forward / 10Y breakeven | 2.22 / 2.26% [11/4] | [CONF MIRROR FRED T5YIFR/T10YIE]; 28bp below 2.50 |
 | ACM 10Y TP / KW 10Y TP | 0.6773% [11/3] / 0.9089% [10/30] | [EST PRIMARY NY Fed / MIRROR FRED]; different models |
-| Fed path | 12/9 meeting: +20.4bp priced ≈ 82% of a +25bp hike (in-month method, EFFR held 3.88); strip peak 4.500 Oct-2027 (+62.0bp) | [EST CBOT vendor bars, 11/5 evolving bar 09:40 ET, not settlement; HENRY owns] |
+| Fed path | 12/9 meeting: +16.2bp priced ≈ 65% of a +25bp hike (in-month method, EFFR held 3.88); strip peak 4.320 Oct-2027 (+44.0bp); 09:40 was 82% and 4.500 | [EST CBOT vendor bars, 11/5 evolving bar 14:01 ET, not settlement; HENRY owns] |
 | HY/CCC/B/BB/BBB/IG OAS | 332 / 1297 / 351 / 199 / 113 / 91bp [11/4] | [CONF MIRROR-WALLED ICE via FRED] |
 | HY primary | October ≈$15B; $3.5B a week final four; EDGAR filers 18 so far week of 11/2 | [EST secondary, Bloomberg via CAM; EDGAR mixed IG/HY]; pulled deals not observable |
 | HY distance to 350 | 18bp [11/4]; 344 [10/30], 343 [11/2], 340 [11/3] | [EST] |
 | SOFR / EFFR / IORB | 3.94 / 3.88 / 3.90% [11/4]; volume $3,207B | [CONF PRIMARY NY Fed; IORB FRED] |
 | SOFR−IORB | +4bp [11/4]; +5/+7 on 11/2, 11/3 | [EST]; LIQUID owns the verdict |
 | FR2004 stock | Long-end $150.816B (−0.580); 11–21Y $62.699B (+2.953); >21Y $49.895B (−1.058); 3–6Y $47.986B (−1.402) [as-of 10/21] | [CONF PRIMARY NY Fed] |
-| PMMS spread | 7.18% [11/5] − Treasury 10Y 4.90% [11/4] = 228bp, mixed dates; same-date pending the 11/5 Treasury close, about 234bp at 4.84 | [CONF PRIMARY; EST]; 180–230 band, not MBS OAS |
+| PMMS spread | 7.18% [11/5] − Treasury 10Y 4.90% [11/4] = 228bp, mixed dates; same-date pending the 11/5 Treasury close, about 235bp at 4.83 | [CONF PRIMARY; EST]; 180–230 band, not MBS OAS |
 | Bund fitted 10Y | 3.33% [11/5], 3.38 [11/4] | [CONF PRIMARY Bundesbank] |
 | HYG/IEF proxy | 0.8389 intraday [11/5 12:40], 3-month low, z20 −1.67 | [EST vendor bars; true CDX unobserved] |
 | Borrowing / cash | $618B Oct–Dec, $800B Jan–Mar; TGA $850B end-Dec, peak up to $1.025T ± $50B | [CONF PRIMARY Treasury sb0675, sb0678]; LIQUID owns TGA |
@@ -98,7 +98,6 @@ WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT s
 | Date | Obligation |
 |---|---|
 | 11/5 | FR2004 as-of 10/28 · 11/5 Treasury close for VX-BND-17 |
-| 11/6 am | ICE credit for 11/5, the first official read of the selloff |
 | 11/6 | October jobs · HY primary weekly count |
 | **11/9 · 11/10 · 11/12** | 🔴 **Refunding: 3Y `91282CRW3` · 10Y `91282CRX1` · 30Y `912810UY2` — registered grades on the 11/2 frozen bars** · CPI 11/10 |
 | 11/11, 11/12, 11/13 | VX-BND-20 review 11/11 · BND-33 resolves at the 30Y grade 11/12 · FHLB Combined Financial Report 11/13 (REGINALD calendar) · FRBNY FX report 11/13 |
@@ -112,4 +111,4 @@ WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT s
 
 ## BOTTOM LINE
 
-Treasury left auction sizes alone but dropped "at least" from its promise, and its advisers expect bigger auctions in the second half of FY27, so the supply story is delayed rather than gone. Buybacks did not ratchet again, though the larger size now runs past its original end date. The thing that moved is credit: junk spreads pulled back to 18bp from 350 on 11/4 after three sessions in the warning band, though the widening had spread beyond the weakest names, with no funding strain shown yet. New issuance slowed sharply in October and may be reopening this week. On November 5 stocks sold off hard on AI fears while junk bond ETFs barely moved; the official spread for that day arrives tomorrow. BOND has no position on this thesis; the November 9–12 refunding is the next real test, on bars locked since November 2.
+Treasury left auction sizes alone but dropped "at least" from its promise, and its advisers expect bigger auctions in the second half of FY27, so the supply story is delayed rather than gone. Buybacks did not ratchet again, though the larger size now runs past its original end date. The thing that moved is credit: junk spreads pulled back to 18bp from 350 on 11/4 after three sessions in the warning band, though the widening had spread beyond the weakest names, with no funding strain shown yet. New issuance slowed sharply in October and may be reopening this week. On November 5 stocks sold off hard on AI fears, Treasuries rallied and junk bond ETFs barely moved; the official spread for that day arrives November 6. BOND has no position on this thesis; the November 9–12 refunding is the next real test, on bars locked since November 2.
