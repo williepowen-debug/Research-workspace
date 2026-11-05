@@ -540,7 +540,7 @@ Management-only lines (construction rule #20); C5 reminders paused by Will 10/20
 | Thesis | REGINALD's and the WAL desk's; not graded here. |
 | Timing | Same-strike roll past the Q3 print, the fix for the Sep-18 tenor error; right form, outcome not established. |
 | Structure | Clean: same strike, later expiry, cap held, card written before the fill. |
-| Exit rails | Harvest $4.40 never reached; the REGINALD exit was last graded 0 of 3 through 10/9, so its record stops 27 days ago. |
+| Exit rails | Harvest $4.40 never reached; the REGINALD exit read 0 of 3 through 11/4, and the gate was RETIRED 11/5 (WQ-610 A), so any remaining contract has no exit guard. |
 
 **Lesson:** nothing new. A write-off in chat is not a close; the card says DEAD while a quote still shows some value, and the paper row PB-0006 stays OPEN because no fill is known. **Tags:** provisional `GOOD_PROCESS_BAD_OUTCOME`, thesis ungraded.
 

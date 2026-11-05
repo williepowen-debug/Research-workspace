@@ -112,3 +112,4 @@ Prior rows above are dated records. These rows supersede their current-state cla
 | 2026-11-05 | IDEA-QQQ-PUTWALL-OCT22 | HENRY/VULCAN/LIQUID | CLOSED | Will's hand | CLOSED — holding 0; ×1 sold $28.83, other close price UNKNOWN | `setups/QQQ_nov20-690-670P_gamma-negative-putwall_2026-10-22.md` |
 | 2026-11-05 | MGMT-GLD-SHARES-OCT24 | MIDAS | CONDITIONAL | Rails only | CONDITIONAL — 18 shares at the 11/5 capture | `setups/GLD-SHARES_management-rails_2026-10-24.md` |
 | 2026-11-05 | TRY-NOTRADE-REFUNDING-NOV05 | BOND | NO TRADE | Not put to Will; construction PASS | NO TRADE — no card; 30Y composition failure 0 of 34 prints, I′ fire 1 of 9 at −1.6% in 5 sessions; size 0, $0 | `research/2026-11-05_catch-up/NOTE.md` |
+| 2026-11-05 | TRY-WAL-ROLL70 | Will | DEAD | WQ-610 A, Will 11:03 ET | DEAD — exit gate RETIRED; holding UNKNOWN, no guard if still held; no card unless Will asks | `setups/WAL_dec18-70P-duration-roll_2026-09-01.md` |
