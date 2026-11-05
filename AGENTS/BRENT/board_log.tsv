@@ -736,3 +736,32 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-01T21:19:04-05:00	SIG-W-20261031-021	noted	INBOX_WALTER	ICE Endex TTF Dec26 LTD 11/27, final settle 11/30; Jan27 LTD 12/30. HANS owns TTF.
 2026-11-01T21:19:04-05:00	SIG-W-20261031-022	noted	INBOX_WALTER	WALTER rig boundary 7 retired; BRT-26 457 line closed 9/25 unchanged.
 2026-11-02T09:22:06-05:00	2026-11-01_from-PROME_WQ543-installed-offschedule-fire-was-validation	acted	INBOX	WQ-543 + EST crons installed by PROME 11/2 02:28-02:30Z, validation PASS. SCHEDULED_RUNS, audit REPORT, STATUS, TRACKER, CATALYSTS updated 11/2. Oct 29 crack still owed.
+2026-11-04T21:06:30-05:00	SIG-W-20261102-002	deferred	INBOX_WALTER	Gas gross shorts 625,150 vs net 223,591: distinct measures. Owner integration owed.
+2026-11-04T21:06:30-05:00	SIG-W-20261102-006	deferred	INBOX_WALTER	NYT $130B aggregate = Apr-Sep estimates, not war windfall. Owner integration owed.
+2026-11-04T21:06:30-05:00	SIG-W-20261102-007	info-only	INBOX_WALTER	GFS 10 hPa +5.53 m/s 11/2; AEOLUS/TERRY own the UNG card.
+2026-11-04T21:06:30-05:00	SIG-W-20261102-011	deferred	INBOX_WALTER	Two-day proposal conditional, no US acceptance; sentinel 5 applies. Waits on FALCON ladder.
+2026-11-04T21:06:30-05:00	SIG-W-20261102-012	deferred	INBOX_WALTER	Al Mayeda hit 10/30, operational; 079 says 188-26 reported as this hull. Waits on FALCON match.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-002	deferred	INBOX_WALTER	Qeshm 11/2 strike; operational-risk read after FALCON applies WQ-559.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-013	deferred	INBOX_WALTER	IEA sub-10% March storage needs BOTH cold and disruption. Owner integration owed with HANS.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-014	deferred	INBOX_WALTER	YANOS fire; lost volume unknown. INCIDENTS row after OSPREY reconciles and throughput evidence arrives.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-015	deferred	INBOX_WALTER	CVR buys Marathon St Paul Park and Mandan; agreement only. Ownership context owed.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-016	info-only	INBOX_WALTER	Homs plot allegation; no executed damage.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-017	info-only	INBOX_WALTER	IRGC two-tanker mine claim; CLAIM-ONLY.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-018	info-only	INBOX_WALTER	SF Fed ENSO model; conditional on La Nina.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-019	deferred	INBOX_WALTER	Trump acknowledged strike; integrate after FALCON grades.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-029	info-only	INBOX_WALTER	Contested intent and conditionality; no combined gate.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-030	deferred	INBOX_WALTER	Russian gas proposal is not agreement or flow. Owner integration owed with YURI/HANS.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-031	deferred	INBOX_WALTER	Aramco 15% tanker claim INDETERMINATE; Q&A wording owed.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-032	deferred	INBOX_WALTER	HPCL tank fire controlled, units operating; INCIDENTS check owed, no outage inferred.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-043	info-only	INBOX_WALTER	AGSI 74.07% vs 89.842% mean; HANS owns.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-048	deferred	INBOX_WALTER	UKMTO 188-26 Lavan 10/30; hull match with FALCON (079 names Al Mayeda).
+2026-11-04T21:06:30-05:00	SIG-W-20261104-051	info-only	INBOX_WALTER	Ammonia sources conflict; FERT owns.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-052	info-only	INBOX_WALTER	China coal vendor estimates; ZHAO/AEOLUS own.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-056	info-only	INBOX_WALTER	GFS still positive; UNG conditions unmet.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-059	deferred	INBOX_WALTER	14 unread energy leads; Dubai contango lead bears on the M1-M3 watch. Bounded reconcile owed.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-060	info-only	INBOX_WALTER	Russia and maritime leads; YURI/OSPREY/HAWK own.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-063	info-only	INBOX_WALTER	Regional ENSO leads; AEOLUS owns.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-077	acted	INBOX_WALTER	Settlement fallback supplied: HOZ26 4.4216, CLZ26 96.46, crack 89.2472; no CME read. TERRY packet and PROME message 11/4.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-078	acted	INBOX_WALTER	Marks reassessed in PROME memo 11/4: BZF27 94.62, CLZ26 88.12, M1-M3 +4.50 proxy, F-a not crossed.
+2026-11-04T21:06:30-05:00	SIG-W-20261104-079	acted	INBOX_WALTER	Flow basis stated in PROME memo 11/4: UNRESOLVED; near pre-war rejected. Hull census is FALCON.
+2026-11-04T21:06:30-05:00	2026-11-04_from-ORACLE_nov110-alert-fired-and-cleared	noted	INBOX	Corrected packet daa033da9b read; priced odds weighed in PROME memo 11/4, no reply owed.

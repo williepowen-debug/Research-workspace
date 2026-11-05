@@ -1,4 +1,11 @@
-# BRENT SCRATCH — November 2 closeout (Will-directed session 2026-11-02 09:12–09:3x EST)
+# BRENT SCRATCH — November 4 interim (session brent-0a, boot 20:55 EST; NOT a closeout), over the November 2 closeout
+
+## INTERIM, November 4 evening
+- Done: boot; 29 mail items dispositioned; TRADE updated from the 10/30 capture and TERRY's 11/4 exit grade; settlement fallback and PROME memo delivered. October 29 and 30 crack items below are discharged by TERRY's grade.
+- Routines: Monday 11/2 and Wednesday 11/4 failed on usage limit. No monday_2026-11-02 or eia_2026-11-04 file exists.
+- Owed, live BRENT: Thursday 11/5 14:28–14:30 ET M1−M3 window on BZF27−BZH27 (11/4 proxy +$4.50, F-a under +$3.50; daily rows after 18:00 ET rejected). BRT-31 week four exact grade (boot monitor −0.435%). Boundary #8 January legs. WPSR week 10/30 row in TRACKER unless Thursday's routine writes it.
+- Deferred mail: NEXUS C35 disposition and PROME L891 NEXUS_BRIEF row (both still top-level in inbox/). Fourteen deferred WALTER rows in board_log.tsv: 11/2 002, 006, 011, 012; 11/4 002, 013, 014, 015, 019, 030, 031, 032, 048, 059. FALCON's grade governs 002, 019 and hull matches.
+- Closeout still owes: STATUS, CATALYSTS grades, NEXUS_BRIEF, TRACKER stamp, THESIS current-assessment paragraph.
 
 ## CHANGES SINCE LAST SESSION
 - PROME installed the WQ-543 routine text and EST crons 11/2 02:28–02:30Z on Will's word (WQ-585 A); validation run PASS (commit bdfb453bf). [Receipt](../../PROME/reports/2026-11-01_wq543-routine-install-receipt.md).
