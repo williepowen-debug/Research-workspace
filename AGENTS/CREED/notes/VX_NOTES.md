@@ -247,7 +247,7 @@ Unchanged count 10/22; GPMT cut now PRIMARY (was secondary). Q4 declarations due
 
 ## VX-CREED-10.04 — CRE Lender Credit Provisioning
 
-**2026-11-05:** Q3 census 7 of 11 (`KB-CREED-096`, `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md` addendum 11/05). 3% and 5% are working lines, not frozen terms.
+**2026-11-05:** Q3 census 7 of 11 (`KB-CREED-096`, `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md` addendum 11/05). 5% of opening common book, same quarter, is now the `T-08b` leg 2 term (Will, WQ-620 A, 15:35 ET); 3% stays a display line, ungraded. This vector's own bands are unchanged.
 *moved verbatim 2026-09-26, crc32 `1bf818bd`, 1114 B*
 
 *** 2026-09-26: Q1->Q2 book value per share from filings (research agent; STWD derived from equity/shares ~-2.5%). Extended set: CMTG -16.9%, ACR -10.7%. ⇒ realized erosion is SEVERE IN FOUR NAMES AND ABSENT IN SEVEN -- selective, not cohort-wide. This is why CREED-T-08b (cuts AND erosion ACROSS the cohort) is NOT FIRED despite 4 of 11 cuts. KREF office = 21.1% of the loan book at 6/30 (22.8% at 12/31) on an ALL-OFFICE basis; the '18% legacy office' figure is a different measure, no update found (PRED-CREED-008 stays ungraded on its own basis). RC: noteholder consent loosened covenants (D/E to 2.0x, min NAV $1.2B) + new 10% secured notes; stock -20% 9/23-9/25 with no share action. || PRIOR: *** NEW 7/27. *** Dividend -60% ($0.25->$0.10); book $10.24 (stock 0.72x); realized loss $0.68/sh from write-offs. Reserves attributed to RISK-RATED-5 loans in OFFICE, MULTIFAMILY and LIFE SCIENCE. Legacy office 21%->18%, targeting <10% by YE26. *** This is genuine CREDIT recognition (realized write-offs), the opposite mechanism from 10.03 — keep them separate. *** MF leg -> HOMER; life-science leg -> 7.03.

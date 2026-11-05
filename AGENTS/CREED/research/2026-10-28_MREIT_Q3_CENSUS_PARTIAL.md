@@ -116,7 +116,7 @@ Web: https://finviz.com/news/400834/apollo-commercial-real-estate-finance-inc-de
 | BVPS erosion > 3% | **3 of 7** | GPMT, BXMT, NREF |
 | Realized write-offs > 5% of opening book | **2 of 7** | KREF 26.4% ($2.70/$10.24), GPMT 9.2%; both already cut |
 
-**Working read, T-08b: NOT FIRED so far; NOT re-graded; the final grade waits for the last three reporters.** Leg 1 is met. Leg 2 is the frozen phrase "realized book erosion ACROSS the cohort", and the erosion so far is mostly reserves or marks in a minority of names, while the one name with large realized write-offs barely moved book because Q2 had reserved it. ⚠️ The 3% and 5% lines are CREED's working lines, not frozen terms; the letter gives no number. Ruling on what "cohort-wide" means would be a Will-gated band matter: not proposed here.
+**Working read, T-08b: NOT FIRED so far; NOT re-graded; the final grade waits for the last three reporters.** Leg 1 is met. Leg 2 is the frozen phrase "realized book erosion ACROSS the cohort", and the erosion so far is mostly reserves or marks in a minority of names, while the one name with large realized write-offs barely moved book because Q2 had reserved it. ⚠️ Updated 11/05: the 5% line is now the ruled term (WQ-620 A, see the Pre-grade note below); the 3% line stays beside the grade, ungraded.
 
 **Still to report:** RC after the close Thu 11/5, call 11/6 8:30 ET (company release via Finviz repost, SECONDARY) · STWD + ACRE Fri 11/6 · ARI never (last NYSE day 11/6).
 
@@ -124,7 +124,7 @@ Web: https://finviz.com/news/400834/apollo-commercial-real-estate-finance-inc-de
 
 ## Pre-grade note: how leg 2 could be read, written 2026-11-05 13:35 ET, before RC, STWD and ACRE
 
-**Proposal only, for Will. No term, band or state cell changed.** The frozen letter is "realized book erosion ACROSS the cohort"; no number or window is in it. Written after seeing 7 of the 10 names that will report, so it is not a clean advance definition.
+**Proposal as written at 13:35 ET, for Will; RULED 15:35 ET, see the end of this section. This note changed no term, band or state cell.** The frozen letter is "realized book erosion ACROSS the cohort"; no number or window is in it. Written after seeing 7 of the 10 names that will report, so it is not a clean advance definition.
 
 Write-offs as a percent of opening total equity, XBRL `StockholdersEquity` and allowance roll-forward lines (10-Qs and 10-Ks, PRIMARY-READ via SEC companyfacts, 2026-11-05); KREF 2026 quarters use its reported "Realized loss on loan write-offs" line (8-K EX-99.1, acc 0001628280-26-067907). DERIVED.
 
@@ -145,3 +145,5 @@ NREF: no write-off disclosed, no tagged line. STWD, ACRE: no tagged 2026 line fo
 **The window decides the outcome.** Same quarter: Q3 2 of 10 so far, Q2 2 names, consistent with the 9/26 NOT FIRED grade. Four quarters: 5 of 10 already over 5% at 9/30, and the same 5 at 6/30, so at a one-half line that window would have fired at the 9/26 grade.
 
 **CREED's proposal:** count a name when write-offs realized in the quarter reach 5% of opening common book, reported line first; reserves, unrealized and held-for-sale marks, return of capital and buybacks do not count; leg 2 is met at 5 of the 10 reporting names in the same quarter. Show BVPS erosion over 3% and the four-quarter count beside the grade, ungraded. Against: write-offs are lumpy, so this is a high bar that might miss a slow spread.
+
+**RULED 2026-11-05 15:35 ET: Will, WQ-620 A, verbatim *"620 A and 621 A"* (`PROME/proposals/2026-11-05_wq620-621-RULED.md`).** The proposal above is now the leg 2 term, as written; encoded at `registry/THRESHOLDS.tsv` and `thesis/THESIS.md`. The note's "proposal only" line is the record of 13:35 ET. On the term, 2 of the 7 reported count (KREF 26.4, GPMT 9.2 of opening common book, Q3), so a Q3 fire needs all 3 of RC, STWD and ACRE. Not a grade.

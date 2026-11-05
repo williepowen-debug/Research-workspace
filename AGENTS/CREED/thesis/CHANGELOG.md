@@ -1,5 +1,14 @@
 # CREED Thesis Changelog
 
+## 2026-11-05 · **`T-08b` leg 2 term RULED (WQ-620 A) — not a grade, no score moved, 28/45**
+
+1. **Will ruled** (2026-11-05 15:35 ET, PROME's chat, verbatim *"620 A and 621 A"*; `PROME/proposals/2026-11-05_wq620-621-RULED.md`). A name counts when write-offs realized in the quarter reach 5% of opening common book, reported line first; reserves, unrealized and held-for-sale marks, return of capital and buybacks do not count; leg 2 is met at 5 of the 10 reporting names in the same quarter. BVPS erosion over 3% and the four-quarter count are shown beside the grade, ungraded.
+2. **⚠️ Written after seeing 7 of the 10 names** (proposal 7a3c4cc79, 13:35 ET), so it is not a clean advance definition. The window decides the outcome: on four quarters 5 of 10 were already over 5% at 6/30.
+3. **Against the term:** write-offs are lumpy, so this is a high bar that might miss a slow spread.
+4. **Where it stands:** 2 of 7 reported (KREF, GPMT), so a Q3 fire needs all 3 of RC, STWD and ACRE. The final grade waits for them.
+
+**⚠️ What did NOT change:** `THRESHOLDS.tsv` columns 1-9 (leg 1, the AND, action, recipient chain); `T-08b` not re-graded; the 9/26 NOT FIRED grade; S8b score 3; `VX-10.04`'s bands; broad CRE-to-bank transmission is not confirmed.
+
 ## 2026-11-05 · **S1 3 → 4, WILL-RULED — composite 27/45 → 28/45 (62.2%); `PRED-001` graded**
 
 1. **Will ruled** (2026-11-05 10:32 ET, in CREED's window, verbatim *"Yes go with your recs"*) on CREED's three recommendations: S1 3 → 4 · `PRED-CREED-001` on the WQ-304 option B path · S8a held at 4.

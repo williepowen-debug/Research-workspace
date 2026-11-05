@@ -12,7 +12,7 @@
 Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` (edited 11/05 under Will's ruling) · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/05). 001, 004, 007 are graded on this ledger; their Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
-1. **RC Q3 after the close today, STWD + ACRE 11/6 → full `T-08b` grade.** Add to `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md`; adjudicate "realized" deliberately; 3% and 5% are working lines, not terms. Pre-grade note with both windows is in the census; the proposal is with Will, not a term.
+1. **RC Q3 after the close today, STWD + ACRE 11/6 → full `T-08b` grade.** Add to `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md`; grade leg 2 on the term Will ruled 15:35 ET (WQ-620 A; `registry/THRESHOLDS.tsv` band_status): realized write-offs ≥5% of opening common book, reported line first, 5 of the 10 reporting names, same quarter; so far 2 of 7, needs all of RC, STWD, ACRE. Show BVPS >3% and the four-quarter count beside it, ungraded; put the four-quarter table on the opening-book basis or name the basis.
 2. ✅ **Ruled 11/05 and encoded:** S1 = 4, `PRED-001` graded, S8a held. PROME registers the WQ rows.
 3. **Trepp October SS (~mid-Nov)** + payoff rate: `T-01b`, F2. Both needed for F2.
 4. Illinois Center sheriff sale 11/12 (CASE-153) · L723 deed ~11/27 · L183 11/30 (2b confirmed NOT reversed) · FDIC Q3 QBP ~11/25 (`T-03`, L514).
