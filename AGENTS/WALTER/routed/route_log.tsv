@@ -1992,3 +1992,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-05T01:34:03Z	SIG-W-20261104-077	WALTER evening boot / vendor bars / CNBC primary read	December ULSD crack estimates sit below the held-VLO $90.16 exit line on November 2 and 4	FLASH	TERRY,HENRY,BRENT	PROME,RED	0.8
 2026-11-05T01:34:03Z	SIG-W-20261104-078	WALTER evening boot / vendor bars / CNBC primary read	Oil falls about 9% and VIX 20% on deal hopes; no deal or reopening established	IMMEDIATE	BRENT,FALCON,VIOLET,TERRY	HENRY,LIQUID,SAM,HAWK,NEXUS,RED,PROME	0.8
 2026-11-05T01:45:26Z	SIG-W-20261104-079	WALTER evening boot / vendor bars / CNBC primary read	Full sweep finds unrecorded November hull losses; flows partial, no deal text	IMMEDIATE	FALCON,BRENT	HAWK,SAM,NEXUS,CARL,RED,PROME	0.8
+2026-11-05T01:56:15Z	SIG-W-20261104-080	DEWEY research-output / CARL-DR-1 L567	Capital One modified-card cohort delinquency rose 54% in Q3; cause unknown	PRIORITY	CARL	REGINALD,GIBBS,RED,PROME	0.9
