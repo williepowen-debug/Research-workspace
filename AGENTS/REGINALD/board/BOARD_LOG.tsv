@@ -628,3 +628,4 @@ SIG-W-20261105-043	2026-11-05	PC_STRESS	OWNER READ (LIQUID)	INFO_ONLY	0.9	NONE; 
 SIG-W-20261105-046	2026-11-05	BANK_COLLATERAL	SECONDARY (anonymous)	INFO_ONLY	0.6	NONE	CYPHER-lane	INBOX_WALTER	-	Supervisor outreach after Binance; no bank affected reported.
 SIG-W-20261105-048	2026-11-05	BANK_COLLATERAL	HEADLINES	INFO_ONLY	0.5	NONE	CREED-lane	INBOX_WALTER	-	Superseded by -051.
 SIG-W-20261105-051	2026-11-05	BANK_COLLATERAL	SECONDARY + PRIMARY NCUA	INTEGRATED	0.8	NONE; sized 24.5% of net worth at full $220M; retained share UNKNOWN	reports/2026-11-05_CommunityAmerica_35-West-Wacker_sizing.md	INBOX_WALTER	-	Credit union outside perimeter; no checker added.
+SIG-W-20261105-052	2026-11-05	MISC	CORRECTION (PRIMARY via CYPHER)	INFO_ONLY	0.9	NONE	CYPHER-lane; HANS owns European bank consequence	INBOX_WALTER	-	Arkea route was a provider platform, provider unnamed; no US bank link; supersedes the method note on -030.
