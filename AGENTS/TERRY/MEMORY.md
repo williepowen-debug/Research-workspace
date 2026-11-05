@@ -4,7 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current pickup — 2026-11-02T10:31:08-05:00
+## Current pickup — 2026-11-04 20:22 EST
+
+Claude Code, Opus 5.5, terry-86. Boot/status only, $0 moved. WQ-591/592/593 unruled; TLT T1 and CF results unread; HYG 0 of 3, void reset; UNG +1.09 m/s [11/4 12Z] with AEOLUS log owed. Read STATUS ★ first.
+
+## Prior pickup — 2026-11-02T10:31:08-05:00
 
 Second Codex session, model gpt-6.1-sol per brief, task 01a19cc9-70fd-7eb0-b82a-ab3b60f0930d, PROME prome-6f. Persisted L905 prior work bb7f86b9b / 04d5c5c70; Git read-only blocker resolved, no RSP reprice repeated. Bounded UNG refresh 2c47adde3: NOT-FIRED; independently decoded NOAA November 2 06Z sample +5.53155 m/s; AEOLUS canonical log pending, no continuous absence inferred. Chain 10:22 outer .47, x5 risk $241.50; approved cap .50 / $256.50 unchanged; both prior-close and entry $10.40 guards bind. PROME reported consumption and mirrored guards in 46bbc2670. Native notification attempt required approval under never policy, so unavailable; no bypass. WQ-590: two new unapproved NOT-FIRED cards, TLT QRA 82/78P x2 <=1.45 / $292.60, CF post-Q3 125/135C x1 <=3.30 / $331.30; X1 CLOSED / $500 default. Evidence, remaining source limits and closeout receipt are in research/2026-11-02_WQ590-week-ideas/REPORT.md and the dated PROME memo. No order or held-line prompt. Do not revive shelves or repeat ruled UNG/RSP/HYG/ORCL.
 
@@ -58,7 +62,8 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
-0. **November 2 pickup:** RSP reprice committed bb7f86b9b / 04d5c5c70; Git blocker resolved; next decision needs a red day, current broker complex quote <= $4.90, fresh Will card approval and explicit X1 choice. UNG approval/refresh recorded; fresh positive GFS sample available, AEOLUS canonical log pending; existing GATE-TERRY-UNG-01 / 11/12 deadline governs. ORCL basis resolved by L904; no unresolved basis ask remains. VST stays SHELVED. Other carried work is unchanged and was not performed in this bounded task: HYG 10/30 FRED cell / void 4 of 5; MIDAS GLD tonnes; HENRY L888 map read November 2, negative all three with lower flips; next broker capture for the QQQ order; OP-SCALE 11/7; KRE/QQQ map 404 unverified. Preserve the owner references and PROME scheduling without held-line expiry prompts.
+0. **November 4 pickup:** WQ-592 needs BOND's QRA read by the 11/5 close or the TLT card lapses 11/6; UNG window ends 11/12 and needs an AEOLUS log; HYG REG-T-04 is >350 ×3, not NEXUS 339 or LIQUID 320.
+0a. **November 2 pickup:** RSP reprice committed bb7f86b9b / 04d5c5c70; Git blocker resolved; next decision needs a red day, current broker complex quote <= $4.90, fresh Will card approval and explicit X1 choice. UNG approval/refresh recorded; fresh positive GFS sample available, AEOLUS canonical log pending; existing GATE-TERRY-UNG-01 / 11/12 deadline governs. ORCL basis resolved by L904; no unresolved basis ask remains. VST stays SHELVED. Other carried work is unchanged and was not performed in this bounded task: HYG 10/30 FRED cell / void 4 of 5; MIDAS GLD tonnes; HENRY L888 map read November 2, negative all three with lower flips; next broker capture for the QQQ order; OP-SCALE 11/7; KRE/QQQ map 404 unverified. Preserve the owner references and PROME scheduling without held-line expiry prompts.
 0b. **October 25 carry-forward (history; Monday refresh, REG-T-04 earliest fire and IDEA-prefix acceptance since discharged):** Monday 10/26: refresh option marks on the cluster VIEW and the GLD card (weekend values are 10/22 broker / 10/23 closes); REG-T-04 earliest fire = the 10/27 close (published ~10/28) → HYG card § 10; ORCL FQ2 date at Oracle IR at every touch (WQ-514 condition). IDEA prefix coverage A/G/H implemented October 25; author tests passed, PROME acceptance pending. KRE/QQQ work: `research/2026-10-23_KRE-QQQ-report/README.md`.
 1. Read currentoperatoroverrideabove/USER.md beforeanyheld-linecommunication. Noexpiryreminders,sellpushesorrepeatedcheck-ins;C5paused.
 2. Newtradeidea slate/cardversionsat research/2026-10-20_trade-idea-slate.md; nofillsapproved. RefreshlivebrokerquotesatadecisionandpreserveX1/hardguards/daycolour;presentNOT-FIREDideaswithoutpretendingtriggerconfirmation.
