@@ -1,0 +1,6 @@
+{'shortName': 'u', 'typeOfLevel': 'isobaricInhPa', 'level': 10, 'stream': 'oper', 'dataType': 'fc', 'dataDate': 20261105, 'dataTime': 1200, 'step': 0, 'Ni': 1440, 'Nj': 721, 'gridType': 'regular_ll', 'packingType': 'grid_ccsds', 'latitudeOfFirstGridPointInDegrees': 90.0, 'latitudeOfLastGridPointInDegrees': -90.0, 'iDirectionIncrementInDegrees': 0.25, 'numberOfMissing': 0}
+lat 60.50 n=1440 mean -1.003680 min -20.54 max +16.02 frac<0 0.520
+lat 60.25 n=1440 mean -0.647473 min -20.79 max +16.90 frac<0 0.499
+lat 60.00 n=1440 mean -0.279244 min -21.04 max +17.27 frac<0 0.477
+lat 59.75 n=1440 mean +0.107128 min -21.29 max +17.46 frac<0 0.466
+lat 59.50 n=1440 mean +0.511989 min -21.41 max +18.59 frac<0 0.456

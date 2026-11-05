@@ -1,0 +1,43 @@
+2026-11-05 14:38:34 EST
+ UNG        UNG                         $9.25     -0.22%         2026-11-05    17,843,892
+TERRY live option-chain fetch
+=============================
+Data only — no broker access, no execution recommendation.
+
+Underlying: UNG  Spot: 9.25 (as-of 2026-11-05 14:38)
+Expiry: 2027-01-15  Type: call  Rows: 3
+Greeks (Delta/Theta): N/A — yfinance does not provide them.
+
+Strike   Mny%    T  Bid    Ask    Mark   Sprd%   IV%     Vol    OI     Flag      LastTrade
+-------  ------  -  -----  -----  -----  ------  ------  -----  -----  --------  ----------------
+   8.00   -13.5  C   1.72   1.86   1.79    7.82   68.95    189   3868  -         2026-11-05 13:38
+   9.00    -2.7  C   1.25   1.38   1.31    9.89   73.63    614   8926  DIRINC    2026-11-05 14:18
+  10.00     8.1  C   0.87   0.95   0.91    8.79   73.63   2847  33048  -         2026-11-05 13:52
+
+TERRY liquidity flags
+- Wide spread rows >15% of mark: 0
+- Thin OI rows <100 OI: 0
+
+TERRY quote sanity
+
+Freshness: freshest trade in set = 2026-11-05 14:18 (fetch 2026-11-05 14:38).
+
+⚠️  BID/ASK AGE IS UNKNOWN AND UNKNOWABLE FROM THIS FEED.
+   The spot above is Yahoo-declared real-time. The option bid/ask carries NO
+   timestamp and no delay flag, and is NOT proven contemporaneous with it.
+   ⛔ THESE ARE SCREENING MARKS, NOT FIRE-TIME MARKS. Take the price you
+      actually transact on from the BROKER chain. (2026-09-11: this tool read
+      ~10% high on the bid vs the broker, on the side being sold.)
+
+🔴 DIRINC — 1 row(s) moved OPPOSITE the printed spot since the last --no-cache pull:
+          9.0 C  spot +0.009 but mark -0.010  [prev pull 14:36:35]
+     Delta has a sign; this is the shape of a quote reflecting an OLDER market state.
+     ⚠️  ADVISORY, never fatal — an IV move can do this legitimately. It is evidence,
+        not proof, and a flag cannot recover the true bid. Go to the broker.
+Trade-card reminder: feed these into a fire card's LIVE-MARKS block; execution still requires Will approval.
+
+TERRY leg gate (--legs)
+  ✓ usable        10.00 C  bid 0.87 / ask 0.95  [-]
+  ✓ usable        12.00 C  bid 0.48 / ask 0.51  [-]
+  ⇒ all requested legs carry usable two-sided quotes.
+rc=0
