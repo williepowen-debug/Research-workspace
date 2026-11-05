@@ -22,3 +22,15 @@ Test applied (root `CLAUDE.md` Data Hygiene): older than 60 days, not boot-read,
 | `BOOT_AUDIT.md`, `MODERNIZATION_PLAN.md` | 2026-06-23 | June audit and plan, superseded |
 | `scripts/status_figure_manifest.py` | 2026-08-28 | One-off for the 8/28 prose rotation; hardcoded 8/28 figures; no caller |
 | `scripts/update_data.py` | 2026-08-28 | Not in the charter; appends MARKET_DATA rows with no per-cell basis and a Brent futures bar the capture-basis guard says to leave blank. MARKET_DATA rows are now written by hand with basis notes |
+
+## Moved 2026-11-05 (Will-directed sweep, `reports/2026-11-05_desk-sweep.md`)
+
+Same test as 10/21. **Kept in place because a live doc still travels them:** `JULY_NODE_PRELOAD_2026-07-06.md` (PREDICTIONS HEN-36/38) and `reports/2026-08-28_T3v2_COSPEC_LETTER.md` (DOCKET).
+
+| Item | Last commit | Why |
+|---|---|---|
+| `sources/Lighthouse_Macro_Prices_Framework_2026-02.md`, `sources/NFP_FEB2026_SYNTHESIS.md` | 2026-02 / 03 | Was `domain/sources/`, unreferenced |
+| `reports/2026-08-28_DELIVERY_to-PROME.md`, `reports/2026-08-29_HEN-42_FLIP_RECORD.md` | 2026-08-28 | HEN-42 resolved; grade card stays in `reports/` |
+| `workbook/KB_AUDIT.md` | 2026-06-04 | One-off prune audit |
+| `research/outputs/`, `research/prompts/`, `research/README_2026-03-index.md` | 2026-02 / 04 | Spring research series; the index repeats figures later ruled unsourced, including 0DTE 65% (Will 7/31) |
+

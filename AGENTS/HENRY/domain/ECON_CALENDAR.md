@@ -24,7 +24,7 @@
 | Mon Nov 2 | 10:00 | ISM Manufacturing | Oct | ISM calendar via search index (page 503) | PMI <50/<48/<47; prices >75 red |
 | Tue Nov 3 | 10:00 | JOLTS | Sep | BLS | LABOR owns |
 | Wed Nov 4 | 8:30 | Trade balance | Sep | BEA | — |
-| Wed Nov 4 | 10:00 | ISM Services | Oct | **RULE-DERIVED, table UNREAD** (re-checked 2026-10-29 16:5x ET): ISM's stated rule "third business day of the month at 10:00 a.m." (ISM calendar page as quoted by a search index) ⇒ Nov 2 Mon / 3 Tue / **4 Wed**; ISM's own table not readable from this box (page redirects to an ISM SSO login); secondary calendars agree (one marks it "Estimated") | — |
+| Wed Nov 4 | 10:00 | ISM Services | Oct | ISM (printed 11/4, 54.5, per WALTER SIG-W-20261104-005) | Prices vs demand |
 | Thu Nov 5 | 8:30 | Productivity and Costs (prelim) | Q3 | BLS | Unit labor cost |
 | **Fri Nov 6** | 8:30 | **Employment Situation (NFP)** | Oct | BLS | LABOR owns; HENRY logs market reaction |
 | **Tue Nov 10** | 8:30 | **CPI** + Real Earnings | Oct | BLS | Headline vs core, energy share |
@@ -57,7 +57,7 @@
 | Core CPI MoM | >0.3% | Hot — rate cuts delayed |
 | Core PCE MoM | >0.3% | Hot — Fed's own gauge |
 | NFP | <100K | Labor cracking |
-| ISM Mfg | <49 | Contraction confirmed |
+| ISM Mfg | see `STATUS.md` bands | ISHM owns the <47 trigger (WQ-507 A) |
 | Claims | >250K sustained | LABOR trigger fired |
 | ~~ECI QoQ~~ | ~~>1.2%~~ | **RETIRED 2026-08-06 as a dated record (Will-ruled 7/31, PROME rulings packet §3): cannot fire — private-wage q/q has sat in a 0.8-1.0 band for seven quarters (LABOR, BLS-primary). Any replacement is a NEW registration with base rates. BLS re-weights ECI from Dec-2026 data; 2026-10-30 is the last print on the current basis** |
 

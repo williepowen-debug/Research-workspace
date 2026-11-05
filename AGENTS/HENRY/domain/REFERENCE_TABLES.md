@@ -8,9 +8,9 @@
 | Order | Strategy | AUM *(UNSOURCED)* | Trigger | Speed |
 |-------|----------|-----|---------|-------|
 | 1 | Fast Vol-Control | Multi-$T | 10-day realized vol | Immediate |
-| 2 | Short-Term CTAs | ~$100B | 50-DMA breach (6,883 — Mar relic) | Days |
-| 3 | Medium-Term CTAs | ~$200B | 6,707 (Mar relic) close below → $80B | 1-4 weeks |
-| 4 | Longer-Duration CTAs | ~$200B+ | ~6,494 (Mar relic) sustained below | Weeks |
+| 2 | Short-Term CTAs | ~$100B | 50-DMA breach (own calc in `STATUS.md`) | Days |
+| 3 | Medium-Term CTAs | ~$200B | Medium-term trigger, dynamic, not tracked here | 1-4 weeks |
+| 4 | Longer-Duration CTAs | ~$200B+ | Long-term trigger, dynamic, not tracked here | Weeks |
 | 5 | Risk Parity | ~$1T | Cross-asset correlation | Monthly |
 
 ## LEADING INDICATOR SEQUENCE
@@ -21,7 +21,7 @@ VIX inverts (spot > futures) → 1-3 days before
 GEX thins (<$2B)            → 1 day before
 DIX drops (<40%)            → 1-2 days before
 PUT WALL BREAKS             → T-0: Cascade begins
-CTAs flip at 6,494          → T+1 to T+5
+CTAs flip (long trigger)    → T+1 to T+5
 Risk parity deleverages     → T+5 to T+30
 ```
 

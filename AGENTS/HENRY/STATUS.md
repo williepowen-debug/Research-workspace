@@ -91,7 +91,7 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 | Friday: new 52-week highs / lows (intraday) | S&P 500 **42 / 5** · S&P 1500 87 / 19 | S&P 1500 weekly name-days: w/e 10/2 72 / 410 → w/e 10/30 282 / 112 |
 | S&P 500 A/D line (cumulative from 2025-01-02) | 7,393 | peak 8,160 (8/14) · 5,946 (9/30) |
 
-**Read:** concentrated at the 10/6 record, broadening since; Friday narrow at the index level and broad only inside tech (80% of S&P 500 IT members down; QQEW/QQQ an ordinary-breadth Nasdaq day); three-month small/mid damage only partly repaired. Constituent counts are computed from members' own closes (not the exchange A/D series, which was not reached); survivorship: today's members applied backwards. Not a threshold, monitor or prediction. Files `research/2026-10-31_L616_breadth/`; memo `PROME/inbox/2026-10-31_from-HENRY_L616-market-breadth.md`.
+**Read:** concentrated at the 10/6 record, broadening since; Friday narrow at the index level and broad only inside tech (80% of S&P 500 IT members down; QQEW/QQQ an ordinary-breadth Nasdaq day); three-month small/mid damage only partly repaired. Constituent counts are computed from members' own closes (not the exchange A/D series, which was not reached); survivorship: today's members applied backwards. Not a threshold, monitor or prediction. Files `research/2026-10-31_L616_breadth/`; memo `PROME/inbox/processed/2026-10-31_from-HENRY_L616-market-breadth.md`.
 
 ## THESIS / INVALIDATION TRIAD
 
@@ -114,6 +114,7 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 | Core PCE m/m | +0.3% [BEA Sep, 10/29] (unrounded +0.32%) | >0.3 hot | NOT FIRED |
 | VIX | **16.61 [FRED VIXCLS 11/4]**; 11/5 Cboe 17.50 delayed (~09:33 ET) | >23 / >28 / >30 sustained | NOT FIRED (6.39 below 23) |
 | SPX | **7,688.62 [vendor 11/4]**; 7,577.69 intraday 09:52 ET 11/5 | <7,200 / <7,100 / <6,494 | NOT FIRED (378 above 7,200 intraday); gamma **NEGATIVE both**, flip 7,693–7,696 [11/5] |
+| SPX −10% from cycle peak (charter send-table) | peak 7,818.93 [10/6] ⇒ line 7,037.04 | one line, 🔴 to CARL, PROME via WALTER | NOT FIRED (540 points above, intraday 09:52 ET) |
 | KRE | $74.13 [vendor 11/4] | <$65 / <$62 / <$60 | NOT FIRED |
 | 10Y | **4.90% [Treasury par 11/4]** | >4.5 / >4.8 / >5.0 | ORANGE (10bp under red) |
 | 2Y / 30Y | **4.58% / 5.28% [Treasury par 11/4]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | **2Y ORANGE (2bp under red; was RED 4.61 on 11/3)**; 30Y ORANGE (22bp under red) |
@@ -132,7 +133,7 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 - **Diesel and refining (BRENT commission, DOCKET 11/20):** my crack estimate is BRENT's input; Russian producer ban through 1/31/2027 (SIG-W-20261031-001).
 - **ISHM (11/4, two packets, read and filed):** Q3 core orders/shipments +3.638% / +3.939% nominal q/q (mixed vintages), Emerson underlying orders +14% ex-AspenTech, five October rail weeks positive y/y. Real buying better supported; breadth still qualified by hardware and weak Europe/China. Equity read: supports cyclical activity, does not offset chip repricing.
 - **CYPHER 11/2 (read and filed):** COIN's 10/30 residual faded to −2.59pp (z −0.9) by the close; no name priced Binance venue risk beyond bitcoin-plus-Nasdaq beta. No HENRY line.
-- **Instrument note:** SOXX printed 450.41 → ~141 on 11/5 with no vendor split record (SMH −5.6% implies a ratio near 3.2). Unconfirmed share-count change; quote no SOXX % for 11/5 until confirmed. Use SMH.
+- **SOXX:** iShares 3-for-1 split effective 11/5 (record 11/3, per iShares). The vendor shows no split yet, so its 11/5 change is false; 11/4 450.41 equals 150.14 post-split.
 - **Inbox (11/5):** drained, 19 WALTER cards logged in `board_log.tsv` (8 acted, 3 noted, 8 info-only) and filed, 4 general packets filed. DOCKET L565 (WATCH_FOR, dated 11/3) names HENRY outstanding, but HENRY answered 10/2 (510b067c0) and the set never landed; current answer sent 11/5: land an empty HENRY list. `boot.py` due-scan: none overdue.
 - **Still open:** PROME to land the empty WATCH_FOR list (L565); Operating Dashboard refresh; OI-vintage proof not run 11/5; consumer check for superseded flips at closeout.
 - **Runtime:** Claude Code (Opus 5.5), terminal + web + cross-session messaging. MCP connectors Definite, MT Newswire and Desktop Commander failed to connect; none needed; Quartr not called. bls.gov 403 from this box; cmegroup.com not approached.
