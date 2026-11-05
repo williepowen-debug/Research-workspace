@@ -43,10 +43,7 @@ Run from repo root with the repo venv (BD-07 cwd-proofed 2026-07-24):
 import argparse, csv, io, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta
 
-import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
-sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
-from sec_contact import sec_ua
-UA = sec_ua("LABOR-research {}")
+UA = "LABOR-research"  # WQ-600: GitHub raw only, no contact sent
 REPO_RAW = "https://raw.githubusercontent.com/hiring-lab/job_postings_tracker/master"
 NATIONAL_URL = f"{REPO_RAW}/US/aggregate_job_postings_US.csv"
 STATE_URL = f"{REPO_RAW}/US/state_job_postings_us.csv"

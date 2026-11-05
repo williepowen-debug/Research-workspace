@@ -9,9 +9,9 @@ PROME/MACHINE_LOCAL.md.
 
 sec_ua() never raises, because these tools are imported by tests, base-rate scripts
 and desk boots that may make no SEC call at all. When the setting is absent it
-returns a header value carrying the fix instruction and a newline. Python's HTTP
-libraries refuse a header containing a newline before they connect, so nothing
-reaches the network. It also prints the fix to stderr, because some tools report
+returns a header value carrying the fix instruction and an interior newline.
+urllib, http.client and requests all refuse that header, so no request is
+sent. It also prints the fix to stderr, because some tools report
 only the exception type. Use sec_contact() when
 a value reaches something other than urllib, http.client or requests, such as
 curl: it raises at once.
@@ -59,4 +59,4 @@ def sec_ua(template="{}", env_file=None):
     if value:
         return template.format(value)
     print(MISSING, file=sys.stderr)  # some tools report only the exception type
-    return f"{MISSING}\n"
+    return f"{MISSING}\n-"  # interior newline: regex `$` lets a trailing one past requests 2.31

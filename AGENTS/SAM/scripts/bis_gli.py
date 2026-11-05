@@ -50,10 +50,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 TSV = ROOT / "AGENTS" / "SAM" / "workbook" / "BIS_GLI.tsv"
 API = "https://stats.bis.org/api/v1/data/WS_GLI/all/all?lastNObservations=1&format=csv"
-import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
-sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
-from sec_contact import sec_ua
-UA = sec_ua("Mozilla/5.0 (SAM research agent; {})")
+UA = "Mozilla/5.0 (SAM research agent)"  # WQ-600: BIS only, no contact sent
 
 COLUMNS = ["period", "series_id", "label", "value_jpy_tn", "value_usd_bn",
            "borrowers_cty", "instrument", "source", "basis", "pulled_at"]

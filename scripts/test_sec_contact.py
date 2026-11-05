@@ -60,6 +60,11 @@ class Absent(Base):
         with self.assertRaisesRegex(sc.SecContactMissing, "FORGE/tools/market-data/.env"):
             sc.sec_contact(self.env)
 
+    def test_newline_is_interior_not_trailing(self):
+        """Regex `$` matches before a final newline: requests 2.31 accepts a trailing one."""
+        value = sc.sec_ua("X {}", self.env)
+        self.assertIn("\n", value.rstrip("\n"))
+
     def test_sec_ua_does_not_raise_at_import_time(self):
         self.assertIn("SEC_CONTACT is not set", sc.sec_ua("X {}", self.env))
 

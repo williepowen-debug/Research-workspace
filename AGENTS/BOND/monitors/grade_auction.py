@@ -56,10 +56,7 @@ import urllib.request
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from ta_ws_schema import normalize  # noqa: E402
 
-import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
-sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
-from sec_contact import sec_ua
-UA = {"User-Agent": sec_ua("BOND-research/1.0 ({})")}
+UA = {"User-Agent": "BOND-research/1.0"}  # WQ-600: TreasuryDirect only, no contact sent
 AUCTIONED = ("https://www.treasurydirect.gov/TA_WS/securities/auctioned"
              "?format=json&dateFieldName=auctionDate&startDate={s}&endDate={e}")
 UPCOMING = "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json"

@@ -104,6 +104,10 @@ Will's word verified at `PROME/proposals/2026-11-04_wq591-601-RULED.md` and the 
 
 **Left alone, outside the ruling's three desks:** the same spawned no-push clause at CYPHER:15, :30, FERT:15, ISHM:27, :56, YURI:95, ZHAO:242 and FALCON:32. CRUISE:201 still sends "position changes" to Will; the ruling named trade ideas.
 
+## WQ-601 units 4–6 (Will 2026-11-04 21:13 ET, applied 2026-11-05)
+
+Unit 4 at CYPHER:152, ISHM:209. Unit 5 at CYPHER:15, :30, :196, FERT:15, ISHM:27, :56, :278, YURI:95, ZHAO:242; packet to live FALCON for :32. Unit 6 no change. CYPHER:196 named the source: this clause is DAEDALUS's own blueprint rule, `market-agent.md:123` and `utility-agent.md:33`. Blueprint meaning is WQ-348 K4, so the edit went to PROME for a Will row; not edited.
+
 ## Whole-audit remainder
 
 After this pass: C17, A09 (DAEDALUS gate-spec consumer review), TERRY B44/D17 November 6, root rotation (PROME). July 7 whole-run clock unchanged: approved edits above are not applied, and no fresh fleet-wide re-test ran.
