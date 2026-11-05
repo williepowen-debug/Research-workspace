@@ -3,7 +3,7 @@
 
 ## BOTTOM LINE
 
-LIVE on the desktop. FLASH 016: VIX 22.71 at 15:29Z, +6.10 intraday over the safety line, vendor reads, not closes; banks not confirming. Morning pass and bookmarks done: cards 001–016. Bank of England raised Bank Rate to 4%, 8–1 (001). AI names sold off through the open, QQQ under the 200-day level a November 4 chart showed (005, 014); CoreWeave bankruptcy claim killed at EDGAR (010). New UKMTO tanker strike north of Qatar; Iranian mine claims unconfirmed; no deal (007). No registered WALTER threshold fire in completed checks beyond the safety net.
+LIVE on the desktop. FLASH 016 and 017: broad selloff, S&P −3.44%, VIX 25.76 at 16:04Z, banks now falling, credit ETFs calm; vendor reads, not closes. Morning pass, bookmarks and step 7 done: cards 001–017. Bank of England raised Bank Rate to 4%, 8–1 (001). AI names sold off through the open, QQQ under the 200-day level a November 4 chart showed (005, 014); CoreWeave bankruptcy claim killed at EDGAR (010). New UKMTO tanker strike north of Qatar; Iranian mine claims unconfirmed; no deal (007). No registered WALTER threshold fire in completed checks beyond the safety net.
 
 BALANCED baseline; labor intake LOOSE for November 6 payrolls. `bdata` not installed here.
 
@@ -46,7 +46,7 @@ Oldest four observation rows rotated verbatim to SESSION_LOG.md at 2026-11-05T15
 
 ## MISSION
 
-Signal/news routing and receiving-layer readiness. Domain agents own evidence, grades and judgment. Broker truth remains off-repo; FORGE's October 30 mirror is dated context, not current fills.
+Signal/news routing and receiving-layer readiness. Domain agents own evidence, grades and judgment. Broker truth remains off-repo; FORGE's November 5 ANVIL reconcile (Fidelity captures 10:01 ET, intraday marks; Robinhood unverified) is dated context, not current fills.
 
 ## STATE POINTERS
 
