@@ -103,3 +103,28 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T13:38:47-04:00	2026-10-26_from-VULCAN_power-news-execution-and-counterevidence	acted	INBOX	Assessed: PG&E outside PJM, NERC proposed; P3 4; KB-WATT-185.
 2026-10-29T13:38:47-04:00	2026-10-29_from-AEOLUS_polar-vortex-reversal-forecast-ECMWF-unanimous	noted	INBOX	Winter gate HELD; reply packet carries the 10/27 P1 fire; KB-WATT-185.
 2026-10-29T13:38:47-04:00	2026-10-29_from-ZHAO_first-truce-instrument-is-ustr-ships-not-the-11-10-clocks	noted	INBOX	B1/58 UNFIRED; KB-WATT-185.
+2026-11-05T18:38:17-05:00	SIG-W-20261029-051	noted	INBOX_WALTER	Hubbard bond shelved, ERCOT audit; VULCAN owns project; combo:local-load-politics KB-201; KB-198.
+2026-11-05T18:38:17-05:00	SIG-W-20261030-001	acted	INBOX_WALTER	EO 14421 clocks December 24 and February 22 carried in wake set, conditional; no band; KB-198, KB-203.
+2026-11-05T18:38:17-05:00	SIG-W-20261031-006	noted	INBOX_WALTER	NAND; outside WATT channels; no score; KB-198.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-013	noted	INBOX_WALTER	IEA sub-10% needs cold AND Hormuz disruption; both conditions kept; combo:winter-cushion KB-200.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-022	noted	INBOX_WALTER	Anthropic commitments; VULCAN owns; no WATT figure; KB-198.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-037	acted	INBOX_WALTER	Talen $1.5B capacity monetization integrated; not new capacity; combo:capacity-cash-pullforward KB-204.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-040	noted	INBOX_WALTER	Nscale credit support unsigned; VULCAN and BROCK own; KB-198.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-045	acted	INBOX_WALTER	La Palma out of scope; Foggy Bottom restored, cause unresolved; no reliability read; KB-198.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-049	acted	INBOX_WALTER	PJM RBP primary read KB-197; Exelon and ERCOT qualified KB-198; 630 MW is a scenario.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-056	noted	INBOX_WALTER	Superseded by AEOLUS November 5 reads; winter gate HELD; KB-200.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-064	acted	INBOX_WALTER	Four title-only leads held unverified; no figure taken; KB-198.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-072	noted	INBOX_WALTER	Solidigm undecided proposal; no power read; KB-198.
+2026-11-05T18:38:17-05:00	SIG-W-20261104-073	acted	INBOX_WALTER	Lighthouse 650 to 310 MW TrendForce forecast; one root with VULCAN; combo:power-delay-execution KB-202.
+2026-11-05T18:38:17-05:00	SIG-W-20261105-005	noted	INBOX_WALTER	AI selling, cause reported not established; Texas leg in KB-201; no WATT score.
+2026-11-05T18:38:17-05:00	SIG-W-20261105-011	noted	INBOX_WALTER	Citrini opinion; counterevidence in KB-201; figures unchecked.
+2026-11-05T18:38:17-05:00	SIG-W-20261105-034	noted	INBOX_WALTER	Read with correction 042; KB-201.
+2026-11-05T18:38:17-05:00	SIG-W-20261105-042	acted	INBOX_WALTER	COR-20261105-42 receipted; $100B pre-vote, one count; KB-201 written in corrected form.
+2026-11-05T18:38:17-05:00	SIG-W-20261105-047	noted	INBOX_WALTER	Headlines unread; Jupiter November 23 and IREN claim logged weak in KB-202.
+2026-11-05T18:38:17-05:00	2026-10-29_from-ZHAO_no-extension-instrument-and-two-new-trade-levers	noted	INBOX	公告48 PV leg logged; 公告58 trigger unfired; B1 T1 November 10-11 stands; KB-198.
+2026-11-05T18:38:17-05:00	2026-10-30_from-DAEDALUS_falsification-5	acted	INBOX	KILL_MEMO A2 rationale only, trigger letter unchanged; DONE reply to DAEDALUS.
+2026-11-05T18:38:17-05:00	2026-10-31_from-ISHM_CAT-q3-power-generation-line	noted	INBOX	CAT stays ISHM perimeter; combo:grid-equipment-tightness KB-203.
+2026-11-05T18:38:17-05:00	2026-11-04_from-ISHM_equipment-and-october-rail-backlog	noted	INBOX	Emerson and Census; combo:grid-equipment-tightness KB-203.
+2026-11-05T18:38:17-05:00	2026-11-05_from-AEOLUS_vortex-12Z-sign-split	noted	INBOX	Winter gate HELD; combo:winter-cushion KB-200.
+2026-11-05T18:38:17-05:00	2026-11-05_from-AEOLUS_vortex-ECMWF-12Z-below-zero	noted	INBOX	ECMWF -0.279 m/s, step one of three; no US cold shown; KB-200.
+2026-11-05T18:38:17-05:00	2026-11-05_from-VULCAN_texas-promise-and-cme-review-extended	acted	INBOX	Reply packet to VULCAN with the grid read; KB-201; WATT-17.
