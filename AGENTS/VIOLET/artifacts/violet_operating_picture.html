@@ -198,41 +198,43 @@
         <span class="id-domain">Volatility, term structure, and credit-to-vol transmission timing. The fleet's early-warning system for vol-regime shifts.</span>
       </div>
       <div class="state-block">
-        <span class="regime">RISING_VOL on live quotes, 5 Nov midday — not a close; official grade after 16:15 ET</span>
-        <span class="stamp">5 Nov about 12:24 ET live quotes: VIX 24.46, up 47%, high 28.09; VIX above VIX3M; VVIX 119.21, high 128.95. No line fired; all grade on the close. Everything below is the 4 Nov close (Cboe archive) · credit 3 Nov · COT report 27 Oct · framework v4.1.7</span>
+        <span class="regime">RISING_VOL on the 5 Nov close — VVIX and curve inversion fired; VIX 30 did not</span>
+        <span class="stamp">5 Nov Cboe close print, 16:15 ET; Cboe&rsquo;s daily archive had not posted when this was published · SKEW 4 Nov, 5 Nov not published · credit 4 Nov, 5 Nov not published · COT report 27 Oct · framework v4.1.9</span>
       </div>
     </header>
 
     <!-- ===== BAND 1: LIVE STATE ===== -->
     <div class="band">
-      <div class="band-head"><span class="band-key">Live state</span><span class="band-sub">Wednesday 4 November 2026 close; each lagged input is labelled</span></div>
+      <div class="band-head"><span class="band-key">Live state</span><span class="band-sub">Thursday 5 November 2026 close; each lagged input is labelled</span></div>
       <div class="tiles">
-        <div class="tile sv-calm"><span class="t-name">VIX</span><span class="t-val">16.61</span><span class="t-note">Down 20.3% on the day after closing 21.15 and 20.83, both in the rising-vol band. Thursday 09:49 ET quote 17.50, not a close.</span><span class="t-trip">Cboe archive · 4 Nov</span></div>
-        <div class="tile sv-calm"><span class="t-name">VVIX</span><span class="t-val">90.41</span><span class="t-note">Peak close 110.47 on 2 Nov, under the 120 stress line. Back near the middle of its range, and 0.41 above the cheap-tail line of 90.</span><span class="t-trip">Cboe archive · 4 Nov</span></div>
-        <div class="tile sv-stress"><span class="t-name">SKEW</span><span class="t-val">150.90</span><span class="t-note">Did not fall with VIX: at or above 150 on 4 of the last 5 closes. RED&rsquo;s SKEW test stays firing, 0 of the 4 closes under 140 its exit needs.</span><span class="t-trip">Cboe archive · 4 Nov · 20-session mean 153.99</span></div>
-        <div class="tile sv-watch"><span class="t-name">Term</span><span class="t-val">1.1318</span><span class="t-note">VIX3M/VIX low was 1.0211 on 3 Nov, so the cash curve never inverted on a close. The November VIX future sat above December on three settles, then flipped back on 4 Nov.</span><span class="t-trip">Same-date ratio · inversion &lt;1</span></div>
+        <div class="tile sv-watch"><span class="t-name">VIX</span><span class="t-val">28.18</span><span class="t-note">Up 69.66% from 16.61, the third largest one-day rise of 9,308 Cboe sessions. High 28.36, so the 30 line was not touched. It finished near the high.</span><span class="t-trip">Cboe close print · 5 Nov</span></div>
+        <div class="tile sv-stress"><span class="t-name">VVIX</span><span class="t-val">134.99</span><span class="t-note">The 120 stress line fired, the first close above it since 30 March. Up 49.31% from 90.41; high 136.91.</span><span class="t-trip">Cboe close print · 5 Nov</span></div>
+        <div class="tile sv-stress"><span class="t-name">SKEW</span><span class="t-val">150.90</span><span class="t-note">5 Nov not yet published. At or above 150 on 4 of the 5 closes through 4 Nov. RED&rsquo;s SKEW test stays firing, 0 of the 4 closes under 140 its exit needs.</span><span class="t-trip">Cboe archive · 4 Nov · 20-session mean 153.99</span></div>
+        <div class="tile sv-stress"><span class="t-name">Term</span><span class="t-val">0.9067</span><span class="t-note">VIX3M/VIX closed inverted, the first time since 7 April. Inversion marks peaks, not onsets. The November VIX future settled at 24.54, above December at 22.19.</span><span class="t-trip">Same-date ratio · inversion &lt;1</span></div>
       </div>
       <div class="row-label">Other channels — evidence and limits</div>
       <div class="chans">
-        <div class="chan sv-stress"><span class="cn">Credit</span><span class="cv">340bp</span><span class="cd">High-yield spread, FRED 3 Nov. Peak 344bp on 30 Oct, up 72bp from the 268bp base on 22 Sep. Credit did not release with VIX. 4 Nov not yet published. LIQUID owns the read.</span></div>
+        <div class="chan sv-stress"><span class="cn">Credit</span><span class="cv">332bp</span><span class="cd">High-yield spread, FRED 4 Nov, before the spike. Peak 344bp on 30 Oct, up 64bp from the 268bp base on 22 Sep. 5 Nov not published: 351bp or lower counts as flat. HYG fell 0.31% on 5 Nov. LIQUID owns the read.</span></div>
         <div class="chan sv-stress"><span class="cn">Bond vol</span><span class="cv">93.88</span><span class="cd">MOVE on 4 Nov, down from 100.36 on 2 Nov. BOND owns yields.</span></div>
         <div class="chan sv-calm"><span class="cn">Positioning</span><span class="cv">Normal</span><span class="cd">CFTC leveraged money net short 26,334 VIX futures, percentile 48.1 (report 27 Oct). Speculators are no longer crowded long.</span></div>
-        <div class="chan sv-stress"><span class="cn">Oil vol</span><span class="cv">58.81</span><span class="cd">OVX/VIX 3.54, canary FIRE on 4 Nov, mainly because VIX fell. Context for BRENT and HAWK, not a trigger.</span></div>
-        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">CALM</span><span class="cd">RV10 6.69% on 5 Nov, well below WATCH 14.15%. USD/JPY 158.24. Option IV unconfirmed at the open. SAM owns policy.</span></div>
+        <div class="chan sv-calm"><span class="cn">Oil vol</span><span class="cv">60.29</span><span class="cd">OVX/VIX 2.14, CALM on 5 Nov, not a Cboe archive close. Oil vol is not leading this move. Context for BRENT and HAWK, not a trigger.</span></div>
+        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">CALM</span><span class="cd">RV10 7.17% on 5 Nov, well below WATCH 14.15%. USD/JPY 157.65. Carry is not leading this move. SAM owns policy.</span></div>
       </div>
       <div class="row-label">Instruments</div>
       <div class="instr">
-        <div class="ins"><span class="kind">Alert</span><div class="ins-body"><div class="in">Cheap-tail window</div><div class="id2">2 of 4 on the 4 Nov close: SKEW and catalyst legs met; VVIX 90.41 against 90 and VIX 16.61 against 16 are not. Thursday&rsquo;s VIX quote is further away. No opportunity declared.</div></div><span class="status st-idle">DORMANT · 2 OF 4</span></div>
-        <div class="ins"><span class="kind">Pre-reg</span><div class="ins-body"><div class="in">RED&rsquo;s SKEW test (RED-FT-10)</div><div class="id2">Firing since 14 Oct. Exit needs four closes under 140; 0 of 4. RED owns the grade.</div></div><span class="status st-watch">RED GRADED · FIRING</span></div>
-        <div class="ins"><span class="kind">Test</span><div class="ins-body"><div class="in">Credit-to-volatility</div><div class="id2">13 Oct to 17 Nov window unchanged. Credit is 72bp wider than its 22 Sep base, under the 100bp the thesis names. A 5 Nov audit measured spikes after 6 of 19 signals (32%) against a 14% base. With 3 episodes since 2018 it cannot be a gate, and Will ruled it a watch with no gate. The audit could not check credit origin or breadth.</div></div><span class="status st-watch">WATCH</span></div>
-        <div class="ins"><span class="kind">Rule</span><div class="ins-body"><div class="in">Regime-shift broadcast</div><div class="id2">Rising-vol close on 2 Nov met the all-desks row while this desk was dark, so the call went out late. Reversed on the 4 Nov close.</div></div><span class="status st-watch">MET · LATE RECORD</span></div>
+        <div class="ins"><span class="kind">Alert</span><div class="ins-body"><div class="in">Cheap-tail window</div><div class="id2">VIX 28.18 against 16 and VVIX 134.99 against 90 are far outside the window. No opportunity declared.</div></div><span class="status st-idle">DORMANT</span></div>
+        <div class="ins"><span class="kind">Pre-reg</span><div class="ins-body"><div class="in">RED&rsquo;s SKEW test (RED-FT-10)</div><div class="id2">Firing since 14 Oct. Exit needs four closes under 140; 0 of 4 through 4 Nov. RED owns the grade.</div></div><span class="status st-watch">RED GRADED · FIRING</span></div>
+        <div class="ins"><span class="kind">Test</span><div class="ins-body"><div class="in">Credit-to-volatility</div><div class="id2">13 Oct to 17 Nov window unchanged. Credit was 64bp wider than its 22 Sep base on 4 Nov, under the 100bp the thesis names. A 5 Nov audit measured spikes after 6 of 19 signals (32%) against a 14% base. With 3 episodes since 2018 it cannot be a gate, and Will ruled it a watch with no gate. The audit could not check credit origin or breadth.</div></div><span class="status st-watch">WATCH</span></div>
+        <div class="ins"><span class="kind">Rule</span><div class="ins-body"><div class="in">Regime-shift broadcast</div><div class="id2">Low vol to rising vol on the 5 Nov close, sent the same session. The 2 Nov shift went out late while this desk was dark.</div></div><span class="status st-stress">MET · 5 NOV</span></div>
+        <div class="ins"><span class="kind">Rule</span><div class="ins-body"><div class="in">VVIX 120 and curve inversion</div><div class="id2">VVIX 134.99 and VIX3M/VIX 0.9067 on the Cboe close print. Daily archive confirmation pending.</div></div><span class="status st-stress">FIRED · 5 NOV</span></div>
+        <div class="ins"><span class="kind">Rule</span><div class="ins-body"><div class="in">VIX up 30% in 5 days, credit flat</div><div class="id2">VIX leg met, up 63.84% from 17.20 on 29 Oct. Credit counts as flat if the 5 Nov high-yield spread prints at 351bp or lower. The +25bp line is an exploratory, unregistered read.</div></div><span class="status st-watch">CREDIT LEG OPEN</span></div>
         <div class="ins"><span class="kind">Rule</span><div class="ins-body"><div class="in">COR1M first-tell</div><div class="id2">Retired on Will&rsquo;s WQ-410 approval. Correlation remains context; no successor threshold.</div></div><span class="status st-idle">RETIRED</span></div>
       </div>
       <div class="row-label">Posture and next decisions</div>
       <div class="split">
-        <div class="box flag"><h4>Position posture</h4><div class="posture-line">No trade proposed; $0 moved</div><p><b>The scare released in one session, and credit and tail pricing did not release with it.</b> VIX fell 20.3% and short-dated correlation fell 41.85%, the largest one-day percentage drop in its published history. The cause is not established: the election result and an 8.7% fall in Brent shared the session, and no deal or reopening is established. Dealer gamma is unverified here: the last read is the 2 Nov pre-open map, past its shelf life. Thursday 09:50 ET: QQQ &minus;3.20% and SPY &minus;1.39% with VIX up about 5%, vendor intraday, HENRY&rsquo;s read. Convergence 32/50 is a desk score, not a crash probability.</p></div>
+        <div class="box flag"><h4>Position posture</h4><div class="posture-line">No trade proposed; $0 moved</div><p><b>Equity vol and correlation jumped; credit, oil vol and carry have not joined.</b> QQQ &minus;6.49%, SPY &minus;4.41%, HYG &minus;0.31% at vendor closes, HENRY&rsquo;s read. Short-dated correlation went from 9.53 to 22.84, about 83% of the VIX rise by an exploratory measure. Eight earlier spikes of this size closed inverted: VIX was lower 20 sessions later in 7 and made a higher close first in 4. The exception was 24 Feb 2020, so this is not a forecast. The cause is not established. Dealer gamma is unverified here: the last read is the 2 Nov pre-open map, past its shelf life. Convergence 38/50 is a desk score, not a crash probability.</p></div>
         <div class="box"><h4>Next decision points</h4><div class="sched">
-          <div class="ev"><span class="when">6 Nov</span><span class="what"><b>October payrolls, 08:30 ET.</b> Date from search of the BLS calendar, page not opened.</span></div>
+          <div class="ev"><span class="when">6 Nov</span><span class="what"><b>October payrolls, 08:30 ET, then the 5 Nov high-yield print by late morning.</b> Payrolls date from search of the BLS calendar, page not opened.</span></div>
           <div class="ev"><span class="when">10 Nov</span><span class="what">October CPI, 08:30 ET. Date unconfirmed at bls.gov.</span></div>
           <div class="ev"><span class="when">17 Nov</span><span class="what"><b>Credit-vol window endpoint, and NVIDIA results after the close.</b></span></div>
           <div class="ev"><span class="when">18 Nov</span><span class="what">November VIX expiry, the morning after NVIDIA.</span></div>
@@ -311,12 +313,12 @@
     </div>
 
     <footer>
-      <span><b>Source dates matter.</b> Volatility readings are the 4 Nov close from Cboe&rsquo;s archive, the publisher of record. Credit is 3 Nov (FRED posts late) and CFTC positioning is the 27 Oct report. This desk was offline 31 Oct to 4 Nov; those sessions were filled from Cboe on 5 Nov.</span>
+      <span><b>Source dates matter.</b> Volatility readings are Cboe&rsquo;s 5 Nov close print, stamped 16:15 ET; its daily archive, the publisher of record, had not posted. SKEW and credit are 4 Nov (both publish later) and CFTC positioning is the 27 Oct report.</span>
       <span><b>Four gauges, one signal.</b> VIX, VVIX, SKEW and term structure all come from the same options market — when they move together that's one opinion, not four confirmations. The independent channels are what make a signal real.</span>
       <span>Internal desk reference. Orientation, not trade instruction.</span>
       <div class="sig">
         <span>VIOLET — Volatility &amp; Term Structure</span>
-        <span>Framework v4.1.7</span>
+        <span>Framework v4.1.9</span>
         <span>Refreshed 2026-11-05</span>
       </div>
     </footer>

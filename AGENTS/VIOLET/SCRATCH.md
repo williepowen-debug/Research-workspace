@@ -12,6 +12,7 @@
 
 ## WHAT I DID
 
+- **11/05 close graded on the Cboe 16:15:01 ET print (KB-VIO-379, KB-VIO-380):** VVIX 120 and inversion fired, VIX 30 not, RISING_VOL, convergence 38/50. SIG in outbox, RED bars sent. Pages republished, operating picture v16, cheat-sheet v14.
 - Drained 8 WALTER cards and the PROME packet; COR-20261031-02 receipted NO-OP.
 - Backfilled VX_DAILY 10/30 and 11/02–11/04 (0 corrected), CHEAP_TAIL 10/29–11/04, OVX and IMPLIED_CORR rows including the KB-VIO-365 repairs (KB-VIO-366, KB-VIO-370).
 - Graded the election: `research/2026-11-05_catchup/GRADE.md`; row pruned; KB-VIO-367, KB-VIO-368. The checkpoint asked the wrong instrument: VIX9D carried the event, not VX/X6.
@@ -21,7 +22,7 @@
 
 ## NEXT SESSION
 
-0. **OWED FIRST: stamp 11/05 SETTLE.** When Cboe History posts: `thresholds.py --supersede` before midnight, `backfill.py --spot-only` after; add SKEW and the OVX close; confirm KB-VIO-379's fires against History. Send RED the SKEW bar. Refresh both pages if not already done.
+0. **OWED FIRST: stamp 11/05 SETTLE.** At next boot run `backfill.py --spot-only` (`thresholds.py --supersede` only targets today); add SKEW and the OVX close; confirm KB-VIO-379's fires against History; check IMPLIED_CORR 11/05, stamped SETTLE by clock (KB-VIO-365). Send RED the SKEW bar. Both pages are on the close print; republish only if History differs or SKEW matters.
 1. **11/06: close the credit leg.** LIQUID posts HY 11/05 by late morning (KB-LIQ-151). Flat = at or under 351bp (KB-VIO-378). LIQUID owns the spread. Then send the 5-day row's outcome; HENRY and RED own the response.
 2. FXY IV re-pull done mid-session: 12.1% [12:38 ET, 43 DTE, 5 strikes] against RV10 7.05%; carry canary CALM.
 3. Payrolls 11/06 and CPI 11/10 pre/post surface read. Verify both dates at bls.gov (403 on 11/05); CPI search unconfirmed.

@@ -85,7 +85,7 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 
 ## RESEARCH QUEUE AND OPERATING LIMITS
 
-1. **Stamp the 11/05 row SETTLE** when Cboe History posts: `thresholds.py --supersede` before midnight, `backfill.py --spot-only` after; add the 11/05 SKEW bar and the OVX close; confirm the grade against History.
+1. **Stamp the 11/05 row SETTLE** at next boot: `backfill.py --spot-only` (`--supersede` only targets today); add the 11/05 SKEW bar and the OVX close; confirm the grade against History; send RED SKEW.
 2. **Payrolls 11/06 and CPI 11/10 pre/post surface read.** BLS's CPS calendar lists 11/06 by search only; CPI 11/10 unconfirmed; bls.gov 403 on 11/05.
 3. **Credit-flat leg:** LIQUID's HY 11/05 print, by late morning 11/06, closes the 5-day row against 351bp.
 4. **FXY IV mid-session re-pull** before any IV/RV read.
@@ -94,4 +94,4 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 7. **Path A F2 audit: CLOSED 11/05, WQ-611 A encoded (KB-VIO-372/373).** NOT RUNNABLE, NO GATE (post-2018 n=3). Regime Shift Trade size line withdrawn under WQ-614 A, for consistency, not on a finding against the trade (KB-VIO-376).
 8. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
-**Persistence / coordination (11/05):** close graded 16:51 ET; outbox SIG and RED bars sent. Corrections check rc 0. Both Will-facing pages refresh once History and SKEW post. PREDICTIONS.tsv: all 6 rows terminal, so the staleness alert has no live row behind it.
+**Persistence / coordination (11/05):** close graded 16:51 ET; outbox SIG and RED bars sent. Corrections check rc 0. Both Will-facing pages republished on the close print (operating picture v16, cheat-sheet v14). Session closed for Will's move to the laptop; History, SKEW and HY 11/05 carried. PREDICTIONS.tsv: all 6 rows terminal, so the staleness alert has no live row behind it.
