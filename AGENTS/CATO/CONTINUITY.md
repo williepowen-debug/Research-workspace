@@ -1,8 +1,10 @@
 # CATO — current continuity
 
-**Updated November 5, 2026. Requested morning sweep delivered; next: await Will.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries; surviving approvals do not trigger unrelated work.
+**Updated November 5, 2026. Morning sweep and follow-through draft delivered; next: await Will’s review of the draft.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries; surviving approvals do not trigger unrelated work.
 
 ## Resume point
+
+[Draft plan for review](runs/2026-11-04_1531_agent-work-review.md#november-5--draft-plan-finish-delivery-and-use-existing-research): consume PROME’s already-issued six-desk catch-up, produce a decision brief, finish bounded LIQUID/L920 repairs and L835 delivery, preserve dated FALCON/WQ-599 decisions. Planning only; no CATO execution/sends/launches granted. WQ-599 includes the separate November 7 fleet-scale decision, not just ORACLE grading. FFIEC registry reconciliation is now CLOSED at `0e3536026`; SEC desktop capability remains unassessed.
 
 [Morning sweep and remaining owner work](runs/2026-11-04_1531_agent-work-review.md#november-5--morning-commit-sweep): 102 commits through `6dbd83642`, selected reports/diffs and 20 local tests; not a fleet or financial-source certification. Recommend finishing existing owner work, not another broad review. No CATO implementation, owner edit, send or launch assigned.
 
