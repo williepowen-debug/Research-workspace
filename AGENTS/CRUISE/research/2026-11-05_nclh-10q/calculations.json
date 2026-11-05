@@ -1,0 +1,95 @@
+{
+ "inputs": {
+  "cash": 256.508,
+  "revolver_available_rounded": 1100.0,
+  "revolver_repaid_10Q": 380.0,
+  "commitment_add_conditional": 315.0,
+  "october_bridge": -5.5,
+  "growth_capex": 4200,
+  "eca": 2600,
+  "other_capex_rem26": 100,
+  "other_capex_fy27_ASSUMED": 400,
+  "amortisation": 1344.3,
+  "uses_before_ocf": 3449.8
+ },
+ "q3_ocf": {
+  "q3_26": 292.3,
+  "q3_25": 236.6
+ },
+ "scenarios": {
+  "+2%": {
+   "ocf_window": 2599.3,
+   "left_with_315": 1201.0,
+   "left_ex_315": 886.0,
+   "left_ex_315_after_175_interest": 711.0
+  },
+  "+0%": {
+   "ocf_window": 2473.0,
+   "left_with_315": 1074.8,
+   "left_ex_315": 759.8,
+   "left_ex_315_after_175_interest": 584.8
+  },
+  "-5%": {
+   "ocf_window": 2164.8,
+   "left_with_315": 766.5,
+   "left_ex_315": 451.5,
+   "left_ex_315_after_175_interest": 276.5
+  },
+  "-10%": {
+   "ocf_window": 1867.0,
+   "left_with_315": 468.7,
+   "left_ex_315": 153.7,
+   "left_ex_315_after_175_interest": -21.3
+  },
+  "-15%": {
+   "ocf_window": 1579.7,
+   "left_with_315": 181.4,
+   "left_ex_315": -133.6,
+   "left_ex_315_after_175_interest": -308.6
+  },
+  "-20%": {
+   "ocf_window": 1302.8,
+   "left_with_315": -95.5,
+   "left_ex_315": -410.5,
+   "left_ex_315_after_175_interest": -585.5
+  }
+ },
+ "breakeven_g": {
+  "with_315": -0.1825,
+  "ex_315": -0.1265,
+  "ex_315_after_175_interest": -0.0964
+ },
+ "breakeven_fy27_ocf_ex_315": 1594.0,
+ "free_liquidity_est": {
+  "after_october_deal_ex_315": 1731.0,
+  "after_october_deal_with_315": 2046.0,
+  "q4_net_need_whole_quarter_flat_ocf": 413.0,
+  "worst_case_whole_q4_need_by_11_17_ex_315": 1318.0,
+  "margin_over_800_worst_case": 518.0
+ },
+ "nfd_cap_carrying": {
+  "with_addback_7409": 0.584,
+  "without_addback": 0.825,
+  "addback_needed_for_0.80": 559.0
+ },
+ "nfd_cap_principal": {
+  "with_addback_7409": 0.591,
+  "without_addback": 0.829,
+  "addback_needed_for_0.80": 661.0
+ },
+ "ocf_9m": {
+  "delta": 75.7,
+  "working_capital_26": 17.8,
+  "working_capital_25": -34.1,
+  "delta_wc": 51.9,
+  "delta_cash_earnings": 23.8
+ },
+ "deposit_cash_line": {
+  "h1_26": 481.997,
+  "h1_25": 708.135,
+  "q3_26": -518.6,
+  "q3_25": -694.3,
+  "gap_h1": -226.1,
+  "gap_9m": -50.5
+ }
+}

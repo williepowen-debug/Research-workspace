@@ -105,3 +105,23 @@ Sensitivity for scale (company's own): **1% of Q3 net yield ≈ $21M of adj. EBI
 - **`VX-CRU-05`** is **HELD at RED(4)**, because no band letter forces a move. The guidance leg improved (a raise), but the leverage leg worsened (5.3x → 5.5x), and two of the vector's own upgrade triggers were met: leverage climbing off 5.3x, and the advance-ticket build falling again. The two legs point in opposite directions inside one band cell. A re-spec is a residual.
 - **D4 bad ⇒** the guide says to re-run the 18-month model before anything else. D1 (pro forma) and D3 are good. The re-run is **owed, not run this session**. It needs the 10-Q's actual 9/30 availability.
 - **CRU-11** grades on the tape on 11/14, not on these lines. **TERRY** gets the A/B/D outcome by packet the same session.
+
+## Grades — 2026-11-05 (DOCKET L714, 10-Q leg), from the primary
+
+*Read 2026-11-05 from the 10-Q filed 2026-10-29, acc **0001104659-26-120217**. This replaces the CONDITIONAL lines above; the 10/29 grades stay as written. Synthesis: `research/2026-11-05_nclh-10q/RESULT.md`; KB-CRU-225..232.*
+
+| # | Reported | Grade |
+|---|---|---|
+| D1 | Actual ~$1.4B: cash $256.5M + $1.1B availability | **CONFIRMS** (bar ≥ ~$1.3B) |
+| D2 | Issue price, premium and extinguishment loss not stated (text search 11/5). Revolver repaid $380.0M vs ~$376.3M in the 8-K | **STILL OPEN** to the Q4 print or 10-K |
+| D3 | $1,706.4M, +4.64%; +$51.9M of the +$75.7M is working capital | **CONFIRMS**, quality note |
+| D4 | YoY cash gap −$226.1M at H1 → −$50.5M at 9M; about 59% of that narrowing is lower ticket revenue; refundable share 45% vs 40% | **BREAKS stands**; direction better than the 10/29 read said |
+| D5 | $216.2M still outstanding at 9/30, current. Free Liquidity estimate ~$1.3B even if all of Q4's net need lands by 11/17 | Expected pass, **not certified** (L715) |
+| D6 | In compliance; waiver sentences match Q2. Amendment 3 swapped the capitalization add-back for fixed dollars ($7,409.0M through 2028) and changed collateral. Ratio ~0.58 vs 0.80 limit, 0.825 without the add-back (my arithmetic) | **BREAKS on the letter**, no stress in the arithmetic |
+| D7 | 2028 $1,346.1M (redemption is an October event); 2030 $4,134.3M | **CONFIRMS** |
+| D8 | Moody's B1 / B3 · S&P B+ / B+ / BB | **CONFIRMS** |
+| D9 | $1.1B / $3.1B / $1.8B vs $1.3B / $2.9B / $1.8B | **CONFIRMS on timing**: same $4.2B, later |
+| B3 | 2027 interest not in the 10-Q (text search 11/5) | **STILL OPEN**: needs the transcript |
+| Canada | Inside North America; no other country above 10% of revenue | **Bound only** |
+
+**E re-run:** D4 bad triggered the model. Revolver left at 12/31/27 is $760M at flat cash flow excluding the conditional $315M; breakeven −12.7% a year against +4.64% tracking. The funding leg does not re-open. `VX-CRU-05` held at RED(4).

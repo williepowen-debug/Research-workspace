@@ -53,6 +53,7 @@ When spawned with a task:
 1. List `AGENTS/CRUISE/inbox/WALTER/*.md` not yet in `board_log.tsv`.
 2. For each: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then **`git mv`** the file to `inbox/WALTER/processed/` (bash `mv` leaves the deletion unstaged).
 3. Let `acted` items inform the session.
+4. **Combination watch (WQ-622 A, Will 2026-11-05; guide `PROME/COMBINATION_WATCH.md`):** when you read a signal, filing or print, log a sub-threshold item in `workbook/KB.tsv` in the same session with `combo:<theme>` first in Notes, counterevidence included. Logging moves no score, band or trigger.
 
 `board_log.tsv` header (v0.2): `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
 
