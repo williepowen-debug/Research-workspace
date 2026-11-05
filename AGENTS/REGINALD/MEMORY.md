@@ -107,6 +107,11 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 *10/30 09:05 ET session entry → `archive/MEMORY_rotation_2026-11-02.md` BLOCK M14, crc32 `6de3a7d5`.* *10/28 PRIOR SESSION entry → `archive/MEMORY_rotation_2026-10-30.md` BLOCK M13, crc32 `5d7d98d1`.*
 
 ### CHANGES SINCE LAST SESSION
+- **Evening boot 11/05 ~18:00 ET (`date`), laptop `WilliePOwen`, Opus 5.5, Claude Code; Will: status only, no unassigned work.** Other desks live on this box; pull refused on their dirty files; behind 0.
+- **Rulings found:** WQ-624 A (keep the 14; Preferred and NexBank side list) and WQ-622 A covers this desk, so "NOT adopted" above is overtaken. PROME packet left open in `inbox/`; set-up not started.
+- **Filings:** BKU 10-Q filed 16:39 ET (`0001504008-26-000091`), unread. FLG, CUBI, GDOT none. CUBI Form 4 sales 11/04: Watkins 5,500 at $86.17; Way 48,796 at $83.88 and 723 at $85.16.
+- **Tape:** today's bars unsettled, not graded: WAL $75.88, KRE $72.31, FLG $10.60, SPY −4.41%, VIX 28.18. HY 11/05 not on FRED; latest 332 [11/04]. Primary credit $9.219B [11/04]; the FRED series is `WLCFLPCL`.
+- **Intake:** corrections 4 NO-OP receipts; BOARD 0 selected of 105 unlogged; WAL/OZK channels 0; WALTER inbox 0. `/tmp/mi3/fac` absent here, rebuild at the run.
 
 ### NEXT SESSION
 00. **FIRST: VLY 10-Q (`0000714310-26-000049`) six asks, report 2026-11-01 §1d; EGBN 10-Q (`0001050441-26-000113`) multifamily criticized table and REG-28 maturities; both filed 11/05, unread.** Then WAL settled 11/05 row (vendor $75.88; must agree Yahoo and Nasdaq), HY 11/05 print, H.8, H.4.1. FLG 10-Q per review §5 if filed. Combination watch waits for Will (ROADMAP Open Questions).
