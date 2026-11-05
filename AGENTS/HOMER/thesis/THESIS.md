@@ -215,3 +215,16 @@ No other newly resolving print was integrated: **0/5 legs killed**, no criterion
 **C2 · GSE addendum (same session, news sweep):** Fannie Q3 earnings release (10/28) gives MF serious DQ **0.62% at 9/30** (Q2-end 0.60%) with the MF provision **$446M vs $259M (+72%)**. max(Freddie 0.58, Fannie 0.62) = 0.62 ≥ 0.50 ⇒ **0 / 3, NOT FIRED**. The §2 provision pairing points the same way as the headline this quarter (KB-HOMER-042).
 
 **LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** No criterion, level or confidence moved. Evidence: `reports/2026-10-28_catchup-prints.md`; ledgers PIPELINE / MULTIFAMILY / RATES / BUILDER rows dated 2026-10-28.
+
+### 2026-11-05 — catch-up (prints released 10/29–11/05; mechanical update only)
+
+| Leg | First print integrated | Fired count | Verdict | Frozen cleanest-flip check (§3) |
+|---|---|---|---|---|
+| **C1** | none — ICE First Look October due ~11/23–30 | **0 / 3** | NOT FIRED | pending |
+| **C2 · CMBS** | Trepp MF **8.09% October** (+5bp; issuer PDF Table 2) | **0 / 3** | NOT FIRED | *For* (> 7.71%): MET again, by the letter. ⚠️ the $210M Cove at Tiburon loan likely exceeds the whole rise and may revert (`registry/PREREG_2026-10_TREPP_MF_PRINT.md` §5) |
+| **C2 · GSE** | none monthly — Fannie September Monthly Summary still unread (403). Freddie 10-Q pairing: MF provision $115M Q3-26 vs $57M Q3-25; subordination bucket 0.80% vs 0.58% blend | **0 / 3** | NOT FIRED — max(0.58, 0.62) = 0.62 ≥ 0.50 | The pairing points the same way as Fannie's: deterioration under the headline |
+| **A1** | none — MBA Q3 NDS ~mid-Nov; ICE Mortgage Monitor November not found 11/05 | **½ of the first conjunct** (unchanged) | NOT FIRED | pending |
+| **A2** | PMMS **7.24% [10/29]**, **7.18% [11/05]** (issuer CSV) | **0 / 4** | NOT FIRED | 68bp above the kill line (≤ 6.50%) |
+| **A3** | no HMI (next 11/17). Builder 8-Ks and DHI call are context, not the criterion: DHI Q1 GM guide 18–18.5%, LGIH 20.2%, DFH 14.9% | **0 / 3** | NOT FIRED | pending |
+
+**LITERAL FIRED-COUNT: 0 of 5 legs ⇒ 🔴 holds.** No criterion, level or confidence moved. Evidence: `reports/2026-11-05_catchup.md`; ledger rows dated 2026-11-05.

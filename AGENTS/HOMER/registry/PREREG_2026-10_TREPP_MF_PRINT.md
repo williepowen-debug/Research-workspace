@@ -38,3 +38,14 @@ Value as printed to two decimals. Boundaries: a bucket's upper bound is inclusiv
 ## 5. Grading record (append below; never edit above)
 
 *(empty at registration)*
+
+**Appended 2026-11-05 (HOMER session homer-66). Nothing above this line was edited.**
+
+| Field | Record |
+|---|---|
+| Print | Trepp CMBS multifamily DQ **8.09%** October 2026, +5bp, issuer PDF Table 2, read 2026-11-05 (RSS stamp 2026-11-05 20:00Z). Sep 8.04 confirmed unrevised in the same table |
+| Bucket | **NEW HIGH** (> 8.04 strict) by the letter |
+| Criterion | C2 CMBS kill < 6.00%: count stays **0 / 3**. Section 8a handle not re-scored here; 11/20 reads it |
+| Owed by the letter | 🔴 packet to REGINALD and CREED the same session: sent 2026-11-05, see `AGENTS/REGINALD/inbox/` and `AGENTS/CREED/inbox/` `2026-11-05_from-HOMER_trepp-mf-october.md` |
+| Composition | Trepp's text clears the section 3 caveat for one loan only: $210M Cove at Tiburon is among the largest newly delinquent and may revert to performing. On any plausible universe that loan exceeds the +5bp rise, so multifamily excluding Cove likely fell. **The bucket is applied as written; the disagreement with its plain reading is recorded here, not used to change it** |
+| Late | The print was available 11/05 at CREED; this session graded it the same day |

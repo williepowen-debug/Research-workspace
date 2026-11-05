@@ -124,3 +124,19 @@ SIG-W-20261001-013	2026-10-02	noted-off-domain	electricity price = ENERGY/BLS; H
 2026-10-29T02:56:27Z	SIG-W-20261027-065	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; context only, no workbook row (source limits retained).
 2026-10-29T02:56:27Z	SIG-W-20261027-069	INFO-LOGGED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; no HOMER row change.
 2026-10-29T02:56:27Z	SIG-W-20261027-071	ACTIONED	WALTER	Dispositioned in reports/2026-10-28_catchup-intake.md; context only, no workbook row (source limits retained).
+2026-11-05T23:17:35Z	SIG-W-20261029-028	ACTIONED	WALTER	Investor share into PRICING row 2026-11-05 and KB-HOMER-047; Canada and Australia are REGINALD context, no row.
+2026-11-05T23:17:35Z	SIG-W-20261029-039	INFO-LOGGED	WALTER	Cyber context; no HOMER row.
+2026-11-05T23:17:35Z	SIG-W-20261029-043	INFO-LOGGED	WALTER	Correction to 039; COR-20261029-43 NO-OP receipted.
+2026-11-05T23:17:35Z	SIG-W-20261031-024	INFO-LOGGED	WALTER	Florida $40B mortgage lead, unverified; member of KB-HOMER-047; Florida read is CORAL.
+2026-11-05T23:17:35Z	SIG-W-20261104-024	ACTIONED	WALTER	Beaudry assessed: CREED adopted CASE-CREED-177; HOMER holds no figure, sends none; cost is not value.
+2026-11-05T23:17:35Z	SIG-W-20261104-036	ACTIONED	WALTER	LGI release read at EDGAR; BUILDER row 2026-11-05; KB-HOMER-046.
+2026-11-05T23:17:35Z	SIG-W-20261104-047	INFO-LOGGED	WALTER	Amendment 3 passage; CORAL owns it; no statewide figure published here.
+2026-11-05T23:17:35Z	SIG-W-20261104-058	ACTIONED	WALTER	Nine title-only leads screened; bodies unread; no HOMER figure changed; discarded except as context.
+2026-11-05T23:17:35Z	SIG-W-20261105-012	ACTIONED	WALTER	Cause read at SECONDARY: election lowered exit odds; KB-HOMER-047; FHA line waits MBA Q3 NDS (HOM-02); National Mortgage News body unread.
+2026-11-05T23:17:35Z	SIG-W-20261105-025	ACTIONED	WALTER	MF context into KB-HOMER-043; REGINALD owns figures.
+2026-11-05T23:17:35Z	SIG-W-20261105-028	ACTIONED	WALTER	MF context into KB-HOMER-043, as corrected by 038.
+2026-11-05T23:17:35Z	SIG-W-20261105-031	INFO-LOGGED	WALTER	SLOOS MF tightening is a member of KB-HOMER-043; Table 1 unread; REGINALD and LIQUID integrate.
+2026-11-05T23:17:35Z	SIG-W-20261105-036	INFO-LOGGED	WALTER	Amendment 3 revenue estimate; CORAL rebases; no HOMER row.
+2026-11-05T23:17:35Z	SIG-W-20261105-038	INFO-LOGGED	WALTER	Correction to 025 and 028; COR-20261105-38 NO-OP receipted; KB-HOMER-043 uses the corrected figures.
+2026-11-05T23:17:35Z	SIG-W-20261105-040	INFO-LOGGED	WALTER	Flagstar rebound not new high; KB-HOMER-043.
+2026-11-05T23:18:02Z	SIG-W-20261105-063	INFO-LOGGED	WALTER	Ready Capital Q3, CREED row; $954M non-performing is all CRE, MF share unread, so not a KB-HOMER-043 member until split. Arrived mid-session; read 2026-11-05 after filing.

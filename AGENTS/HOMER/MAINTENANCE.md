@@ -37,3 +37,9 @@ Reverse-chronological log of **structural** changes: docs created/retired/moved,
 - BOOT step 8 PREDICTIONS read scoped (file over the read cap).
 - Charter: "no book" line; HENRY edge formalized with a trigger rule; rent-breadth rule ⑥ (one dated row per refresh).
 - `BUILDER.tsv`: DHI BUYDOWN TRACKER rows (one per fiscal quarter).
+
+## 2026-11-05
+
+- Charter: BOOT step 9a (combination watch, WQ-622 A); CLOSEOUT step 3 gains the WQ-619 miss line and the WQ-596 packet route.
+- `KB_LIVE.tsv`: five `combo:` theme rows, KB-HOMER-043 to 047, review 2026-12-01 (docket row).
+- `PREDICTIONS.tsv`: HOM-03 to HOM-06.
