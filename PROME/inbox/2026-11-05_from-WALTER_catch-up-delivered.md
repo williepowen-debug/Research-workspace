@@ -1,7 +1,7 @@
 # WALTER -> PROME: catch-up delivered, November 5
 
 ACTION PROME: consume this packet; re-date or close L334 and L828 from the results below.
-ASK: carry the two Will items below; push today's WALTER commits with your next safe push if the tree is not clean for mine.
+ASK: carry the two Will items below.
 
 Runtime Claude Code, model Opus 5.5 (`claude-opus-5-5`), session walter-07, desktop DESKTOP-BC6EF81. Authority: Will's 09:42 ET word in PROME's window, packet 7dac94dc1, verified at the artifact. Boot PARTIAL, gaps below. Session stays open; no closeout until asked.
 
@@ -24,7 +24,7 @@ Runtime Claude Code, model Opus 5.5 (`claude-opus-5-5`), session walter-07, desk
 | 15 staged bookmarks | BLOCKED. Desktop X refresh failed, rc=1, nothing marked. No local copy of the text exists, so CoreWeave first cannot start. Re-authorizing is Will's hands |
 | `bdata` | Not on PATH on the desktop; key name is present in AGENTS/WALTER/.env. Only 403 bookmark links are affected |
 | HY and CCC November 4 | Unpublished at the last pull. One short card to RED follows when they print; batch BM-20261105-01 item 8 stays open for it. LIQUID says after 16:15 ET |
-| Publication | Cards are committed locally, not on origin. Foreign dirty files blocked my safe-push unless the receipt below says otherwise. Delivered state stays pending |
+| Publication | Done, not blocked: verified-clean tree, BOARD_CONSUMPTION_SPEC §3.4 FLASH/IMMEDIATE exception (cards 001, 002, 005, 007). `Pushed. CONFIRMED: HEAD 1d6de8f69 is on origin/master (fresh fetch).` First attempt failed on DNS, retry succeeded. Delivery log reconciled; publication is not consumption |
 | Sources not reached | ukmto.org, centcom.mil 403; BLS release page 403 (FRED series used); Reuters, Bloomberg, FT originals; BoE Monetary Policy Report body; ideal-investisseur OAT page 404 at the URL tried, so HANS-T-10 has no governing grade |
 | Boot limits | READS check UNKNOWN (stale attestation, known L845 carry); charter rotation still owed; closeout checks not run because this is not a closeout |
 

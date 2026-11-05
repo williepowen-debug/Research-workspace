@@ -4,7 +4,7 @@ Updated 2026-11-05T15:00:02Z, Claude Code Opus 5.5, session walter-07 on the des
 
 ## NOVEMBER 5 CATCH-UP — desktop state
 
-Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 008, 27 handoffs (11 ACTION, 16 INFO; delivery_log count). Commits ee7cc2297, 725479117, 838cce505; push held for the coordinator or a verified-clean tree.
+Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 008, 27 handoffs (11 ACTION, 16 INFO; delivery_log count). Commits ee7cc2297, 725479117, 838cce505, 1d6de8f69; published by safe-push on a verified-clean tree under §3.4, HEAD 1d6de8f69 confirmed on origin. Publication is not consumption.
 
 1. **X login:** token refresh failed on the desktop, rc=1, nothing marked. Will re-authorizes with `x_bookmarks_scan.py --authorize`. Seen-set and stage are safe.
 2. **Bright Data:** key name present in `AGENTS/WALTER/.env`; `bdata` not on PATH here. Only 403 bookmark links are affected.
