@@ -78,6 +78,8 @@ October20 key-file audit: `reports/2026-10-20_key-file-sweep/REPORT.md` inventor
 
 ## RECENTLY RESOLVED — October20
 
+**11/05 FLG review (Will via PROME):** 12-quarter rebuild; jump mostly noise, slow stress real; 10-Q expected 11/5–11/6 → `reports/2026-11-05_FLG_late-loan-review.md`. Last touched 2026-11-05.
+
 **11/05 Ueno read (Will-asked):** no US bank route found; $17.9M US fund face, 5.1% of the bond; LIQUID owns contagion → `reports/2026-11-05_Ueno-Paraguay.md`. Last touched 2026-11-05.
 
 **11/05 late-loan scan (Will-asked, one-time):** 139 banks; Preferred control passed; First Hawaiian weak, The Bancorp likely closed, NexBank unreadable (private), Flagstar and Citizens carried → `reports/2026-11-05_late-loan-scan.md`. Not an instrument. Last touched 2026-11-05.

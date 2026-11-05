@@ -49,6 +49,7 @@ At each print-cluster grade, this desk sends TERRY any candidate expression as a
 | 2026-11-05 | PFBC multifamily 30–89 $143.1M, cause unknown | **No candidate.** Listed puts show open interest of 3 and 5 with no two-sided quote; a lead, not a fired trigger; not on the book | `reports/2026-11-05_PFBC_and_open-threads.md` §1 |
 | 2026-11-05 | Late-loan scan: FLG multifamily 30–89 and 90+ rise | **NOT-FIRED lead sent to TERRY.** No trigger; evidence grade lead; 10-Q decides. Preferred and NexBank no candidate | `reports/2026-11-05_late-loan-scan.md` §3, §5 |
 | 2026-11-05 | PFBC after outside research | **No candidate.** Options untradeable, short interest 11.8% of shares, 10-Q days away | `reports/2026-11-05_PFBC_deep-research-verification.md` §5 |
+| 2026-11-05 | FLG after 12-quarter review | **NOT-FIRED lead downgraded.** The 30–89 move is a rebound; 90+ and modifications are the live points; 10-Q decides | `reports/2026-11-05_FLG_late-loan-review.md` |
 
 ## 3. Triggers this desk grades (levels live in `STATUS.md` §THRESHOLD STATUS — never here)
 

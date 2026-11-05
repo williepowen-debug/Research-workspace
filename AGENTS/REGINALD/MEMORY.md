@@ -42,6 +42,8 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 - **13:06 ET:** outside Ueno report checked → `reports/2026-11-05_Ueno_deep-research-verification.md`. Corrected my Fitch 15.2% vs 10.3% misread (a restatement, not a fall). Lesson: Ueno's warning was in the audited notes, not the ratios.
 
+- **13:32 ET, Will via PROME:** FLG review → `reports/2026-11-05_FLG_late-loan-review.md`. **I called FLG "the one that matters" off two quarters; 12 quarters showed a rebound. Pull the bank's own history before calling a jump.** Same day as the PFBC base-rate correction.
+
 ### EARLIER — 2026-11-03 12:06 ET, Will-launched boot, intake and write-back
 - **Read:** root/desk instructions and canonical STATUS → LESSONS → CALENDAR → MEMORY → ROADMAP boot sequence; fuller `boot.py` completed rc 1 (ALERT only, no FAIL/INCOMPLETE). Runtime Kimi Code CLI, exact model/session UNKNOWN; file-based coordination available.
 - **Tape:** 12:06 ET vendor quotes WAL $77.43, KRE $73.19, FLG $10.55; APO −5.58% flagged without cause attribution. Settled 11/02 (Yahoo/Nasdaq agree): WAL $78.67 (REG-T-02 FIRED, exit 0-of-3) and KRE $73.73; FLG $10.75, RED for 18 closes.
