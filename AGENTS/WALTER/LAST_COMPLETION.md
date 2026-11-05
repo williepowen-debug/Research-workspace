@@ -1,17 +1,20 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-05T13:43:42Z, Claude Code Opus 5.5, session walter-dc. CLOSED for desktop switch on Will request; FULL closeout, coverage PARTIAL.
+Updated 2026-11-05T15:00:02Z, Claude Code Opus 5.5, session walter-07 on the desktop. LIVE working checkpoint under Will's 09:42 ET catch-up word via PROME, not a closeout; coverage PARTIAL. The CLOSEOUT RECEIPT below is the November 5 13:43:42Z laptop closeout.
 
-## DESKTOP RESUME — do these first on the other machine
+## NOVEMBER 5 CATCH-UP — desktop state
 
-1. `git pull --rebase` at root, then ordinary boot. Research-Intake is a separate clone: step 7e(a) pulls it.
-2. **X login and Bright Data:** `AGENTS/WALTER/.env` is laptop-side and gitignored; it holds the X tokens and the Bright Data key. X replaces its token at each use, so expect a refresh failure: Will re-authorizes with `x_bookmarks_scan.py --authorize`; seen-set and stage are tracked and safe. Check `bdata` before relying on it there; a missing key blocks only 403 bookmark links.
-3. **FFIEC login:** per PROME/MACHINE_LOCAL.md the laptop token was renewed November 1, expires January 31; the desktop holds the dead August 7 token. Paste the new one into `FORGE/tools/market-data/.env` there. PROME owns that file; WQ-495's "by November 5" text predates or misses this, ask PROME to reconcile.
-4. **Morning pass, NOT run:** boot step 7i from the cutoff below, then 6c. November 5 claims, Challenger, BoE, NREF and the November 4 HY and VIXCLS prints are unreviewed; VIXCLS likely resets RED-FT-06 to 0/5, RED owns it.
-5. **15 bookmarks:** staged, unread beyond headlines, unmarked. Finish via `--review-template`, then `--mark --review`. CoreWeave first.
-6. **CRUISE queue:** one open candidate, `cruise:7126564b0db4`, Sandals joint venture; check event date against SIG-W-20261014-028.
+Morning pass run: step 7i, 6c and intake gate. Cards SIG-W-20261105-001 to 008, 27 handoffs (11 ACTION, 16 INFO; delivery_log count). Commits ee7cc2297, 725479117, 838cce505; push held for the coordinator or a verified-clean tree.
 
-Calendar coverage cutoff: 2026-11-04T21:01:17Z (last collector run reviewed; step 7i has not yet run).
+1. **X login:** token refresh failed on the desktop, rc=1, nothing marked. Will re-authorizes with `x_bookmarks_scan.py --authorize`. Seen-set and stage are safe.
+2. **Bright Data:** key name present in `AGENTS/WALTER/.env`; `bdata` not on PATH here. Only 403 bookmark links are affected.
+3. **FFIEC and SEC:** both restored on the desktop by PROME November 5 (MACHINE_LOCAL rows); FFIEC resume item dropped. SEC used for the DEWEY spot-check.
+4. **15 bookmarks:** still staged, unread beyond headlines, unmarked; no local copy of the text exists. Blocked on item 1. CoreWeave first.
+5. **CRUISE queue:** `cruise:7126564b0db4` closed FOLD to SIG-W-20261014-028: September 23 deal, relay; micebook body unread.
+6. **L334 predictive leg delivered** `research/2026-11-05_L334/REPORT.md`: no relationship detected, no bar. L828: WALTER's list closed long ago, row status is PROME's.
+7. **HY and CCC November 4:** unpublished at last check; one short card to RED when published, carrying the VIXCLS exit-run reset. Batch BM-20261105-01 item 8 stays open for this.
+
+Calendar coverage cutoff: 2026-11-05T15:00:02Z (step 7i run; rows in research/2026-11-05_morning/CALENDAR-RECONCILIATION.tsv; pending rows named there).
 
 ## STATUS
 
@@ -48,12 +51,12 @@ December ULSD crack fell below the held-VLO line: TERRY accepted November 2 $89.
 
 ## WILL_NEEDS
 
-Held-VLO one-share sale: FIRED-UNEXECUTED, Will's hand, tell PROME the result. CREED launch permission for T-01a. X re-authorization and FFIEC token paste on the desktop. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
+Held-VLO one-share sale: FIRED-UNEXECUTED, Will's hand, tell PROME the result. CREED launch permission for T-01a and T-08b reads. X re-authorization on the desktop. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
 
 ## FOLLOW-UP
 
-1. PROME: wake recommendation for HENRY (077 line and basis) and VIOLET (078 vol regime) raised; no wake logged at close. DEWEY 003R residual stays with DEWEY. L907 remains the bridge repair; L920 quote tolerance kept, intermittent refusals open at PROME.
-2. November 5: morning pass per DESKTOP RESUME. November 6: payrolls, L334 predictive leg and WQ-556 C check, STWD/ACRE cohort releases. November 7: Friedberg/coverage-level and reserve/modification breadth pass. Supply dated prediction IDs/sources at the relevant owner's next authorized session per COMPLETION_SPEC; no historical registration sweep.
+1. HENRY and VIOLET consumed 077/078 November 5 by their own commits; wake recommendation closed. DEWEY 003R residual stays with DEWEY. L907 remains the bridge repair; L920 quote tolerance kept, intermittent refusals open at PROME.
+2. November 6: payrolls, WQ-556 C check, STWD/ACRE cohort releases. November 7: Friedberg/coverage-level and reserve/modification breadth pass. Supply dated prediction IDs/sources at the relevant owner's next authorized session per COMPLETION_SPEC; no historical registration sweep.
 3. November 11: Veterans Day HY non-session bridge. About November 12: full Iran sweep, MEMORY calendar check, staleness sweep; UNG reversal deadline remains November 12. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit and WATT EO 14421 before December 24 remain unchanged.
 4. FLG/REGINALD first reviews are complete; FLG M3 allocation waits for T-02/10-Q, REGINALD filing/cause questions and November 7 detector fix survive. CORAL/other semantic consumption is unproved. Sinokor legal-action, dated Iran answer/Qatar draft and LIQUID October issuance retain normal owner review; no unresolved headline becomes a new commissioned study.
 5. Prior cleanup/L845/VPS/transcription and boundary 7 repairs remain complete; no repeat repair. Prior CATO substantive evidence lacks an exact receipt; backlog alone does not authorize a wake. No continuing helper or unattended WALTER activity.

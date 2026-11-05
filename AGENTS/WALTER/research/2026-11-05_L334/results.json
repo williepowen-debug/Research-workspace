@@ -1,0 +1,78 @@
+{
+ "desk_weeks": 210,
+ "desks": 35,
+ "mondays": [
+  "2026-09-14",
+  "2026-09-21",
+  "2026-09-28",
+  "2026-10-05",
+  "2026-10-12",
+  "2026-10-19"
+ ],
+ "corrections_in_scope": 95,
+ "removed_paths": 4482,
+ "info_rows": 1373,
+ "mean_backlog": 2.2,
+ "max_backlog": 96,
+ "n->y1": {
+  "r": 0.118,
+  "p": 0.4632,
+  "desks": 30,
+  "n": 180
+ },
+ "n->y2": {
+  "r": null,
+  "p": null,
+  "desks": 30,
+  "n": 180
+ },
+ "n->y3": {
+  "r": 0.072,
+  "p": 0.5632,
+  "desks": 30,
+  "n": 180
+ },
+ "age->y1": {
+  "r": 0.125,
+  "p": 0.0862,
+  "desks": 30,
+  "n": 180
+ },
+ "age->y2": {
+  "r": null,
+  "p": null,
+  "desks": 30,
+  "n": 180
+ },
+ "age->y3": {
+  "r": 0.072,
+  "p": 0.3096,
+  "desks": 30,
+  "n": 180
+ },
+ "top_vs_bottom_y1": {
+  "hi_cut": 2,
+  "lo_cut": 0,
+  "hi": 4.75,
+  "lo": 2.221,
+  "hi_share": 0.857,
+  "lo_share": 0.58
+ },
+ "top_vs_bottom_y2": {
+  "hi_cut": 2,
+  "lo_cut": 0,
+  "hi": 0,
+  "lo": 0,
+  "hi_share": 0,
+  "lo_share": 0
+ },
+ "top_vs_bottom_y3": {
+  "hi_cut": 2,
+  "lo_cut": 0,
+  "hi": 2.518,
+  "lo": 1.282,
+  "hi_share": 0.714,
+  "lo_share": 0.473
+ },
+ "detectable_r_80pct_power_alpha05": 0.229
+}
