@@ -22,3 +22,10 @@ Exceptions at 20 sessions: 1990-07-23, 2020-02-24. 2015-08-21 reached 40.74 befo
 ## Competing readings
 
 1. Concentration unwind (Path B), leading. 2. Hedges lifted 11/04 then forced back on, inference, no flow data. 3. Credit-led payoff (Path A), weakest so far, and today's overlap with the 10/22 window is coincidence until credit confirms. Tell: broadening into banks, then index credit.
+
+## Recommendations for Will, written 2026-11-05 14:0x ET after closeout (not encoded)
+
+- **"Credit flat":** HY OAS 5-session change no wider than +25bp, first-published FRED, same 5 sessions as the VIX move. `credit_flat.py`, 93 VIX +30%-in-5-days episodes since 1996, 20-session spacing: HY widened another 50bp+ within 20 sessions in 6 of 52 at or under +25bp, 11 of 40 above it; no difference between the under +10 and +10 to +25 buckets (3 of 31, 3 of 21). Ordinary 5-day HY move: median 11bp, 75th percentile 22bp. Exploratory; raw ICE series not committed.
+- **MOVE pause/resume:** retire. Parent commission DOCKET L163 is RESOLVED and GATE-VIO-RV1 is retired, so the line governs nothing. Keep MOVE.tsv, move.py and the convergence vector.
+- **Desk CLAUDE.md:** replace the MAIL paragraph and its HERMES cite with what 5a already says; put 5a before 5b without renumbering; change "Position sizing → FORGE" to TERRY.
+- **Memory index:** PROME's flow-rule pass, no decision for Will.

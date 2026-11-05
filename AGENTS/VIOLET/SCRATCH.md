@@ -33,6 +33,8 @@
 
 ## CARRY-FORWARD
 
+- Recommendations given to Will after closeout, not encoded until his word: `research/2026-11-05_live-spike/READ.md` § Recommendations.
+
 - RED owns FT-10 and FT-06 grades. LIQUID owns HY. HENRY owns gamma; the 11/02 map is past shelf life, treat the sign as unverified. BRENT owns oil. SAM owns BOJ.
 - PREDICTIONS.tsv: all 6 rows terminal; the +36d staleness alert has no live row behind it.
 - CHANGELOG body text of the 10/14–10/19 entries still has glued words.
