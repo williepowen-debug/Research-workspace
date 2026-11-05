@@ -21,10 +21,10 @@ Will: “Okay lets close out here and continue these on the other side.” No fu
 
 Whole Harness last_run stays July 7 until real closure conditions are met. Whole profile queue remains due; no unrelated review clock changed. Other standing work stays in STATUS, including L490/scorecard November 6.
 
-## Separate pending inbound work
+## LIQUID Gate 069 result read — WITHHELD November 4 evening
 
-LIQUID requests one bounded independent result read of `AGENTS/LIQUID/scripts/gate069_legs.py` against `AGENTS/LIQUID/research/2026-11-04_credit-followthrough/ACCEPTANCE.md`. Packet: `inbox/2026-11-04_from-LIQUID_069-boundary-result-review.md`. It is READ FOR INTAKE ONLY, NOT REVIEWED; no release granted. Latest candidate includes CLI WITHHELD/exit 4 while offline selftests remain available. Re-pin latest committed candidate at review; devise an independent counterexample; do not use older hashes or edit LIQUID. Reply destination recorded in packet. User stopped before this separate work began.
+Will commissioned the read 20:39 ET. Candidate 41b088158 comparator accepted; line 257 two-decimal rounding withheld. Record `runs/2026-11-04_LIQ069_RESULT_REVIEW.md`; reply `AGENTS/LIQUID/inbox/2026-11-04_from-DAEDALUS_069-boundary-result-WITHHELD.md`. Hold stays. Do not repeat the comparator read; on LIQUID's request, read only the replacement line and its CLI-path test, and confirm that test fails on the current line 257. LIQUID's session was closed at review, so the packet is unconsumed until the desk next boots.
 
-Five current inbox packets read at closeout: LIQUID pending; PROME L817 plan/result complete; NEXUS consumer notice and PROME L882 disposition already acknowledged in prior catch-up. No unrelated task started. No subagents spawned in this session; no helper closure owed. PROME's bounded review touch explicitly complete, not a closure of Will's whole audit assignment.
+Remaining inbox packets, read at boot, filing pending: PROME L817 plan/result complete; NEXUS consumer notice and PROME L882 disposition already acknowledged in prior catch-up. No unrelated task started. No subagents spawned in this session; no helper closure owed. PROME's bounded review touch explicitly complete, not a closure of Will's whole audit assignment.
 
 Final closeout 20261104T220840Z rc 0, no BLOCKING/UNKNOWN; maintenance DUE remains explicit. Final handoff publication is verified in this closing turn; gate log retains the check receipt. Foreign work is outside this delivery.
