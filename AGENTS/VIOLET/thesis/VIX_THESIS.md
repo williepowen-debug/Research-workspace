@@ -1,4 +1,4 @@
-# VIX THESIS (v4.1.4 — WQ410 approved first-tell retirement recorded, 2026-10-19; existing transmission conditions preserved)
+# VIX THESIS (v4.1.5 — election-week excursion recorded, 2026-11-05; no line, condition or conviction changed)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -17,6 +17,8 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ---
 
 ## CHANGELOG
+
+**v4.1.5 (2026-11-05):** RISING_VOL on the 11/02 and 11/03 closes, LOW_VOL again on 11/04; no registered line fired. Headline claims checked against KB-VIO-352 to KB-VIO-370 at row level, not a full re-read of this file: no contradiction found. One refinement: a VX contract prices VIX at its expiry and the 30 days after, so it cannot hold an event dated before that expiry; read pre-event premium on VIX9D (KB-VIO-367). Full entry: `thesis/CHANGELOG.md`.
 
 **v4.1.4 (2026-10-19):** WQ410 APPROVE retirement of COR1M>=8.43×2 first-tell enacted from Will's October15 committed tap. No successor; correlation remains context. RED retains FT10 ownership. Friday's nine-day/futures inversions do not substitute for the standing three-month cash or VVIX daily lines. No other threshold or trade permission changed. Dated evidence: `../research/2026-10-19_official-followthrough/REPORT.md`; KB337..343.
 

@@ -6,6 +6,12 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## November 5, 2026 — v4.1.5: election-week excursion and the VX event-window refinement
+
+**Old view → new view:** LOW_VOL with a contained 10/22–10/23 excursion → LOW_VOL on the 11/04 close after two RISING_VOL closes (VIX 21.15 [11/02], 20.83 [11/03]) and a release to 16.61. **No threshold, condition, probability or conviction changed.** VVIX peaked 110.47, 3M/VIX bottomed 1.0211, the 5-day rise reached +25.1%; none of those lines fired. Term-structure reading refined: X6 above Z6 does not measure an event dated before X6's expiry, because X6 prices VIX on 11/18 and the 30 days after; VIX9D is the event instrument (KB-VIO-367). Consistent with the thesis, one observation only: the front inverted near the VIX peak and released within two sessions, the peak-marker reading of KB-VIO-034.
+**What did not resolve:** credit stayed wide (HY 340bp [11/03]) while vol released, so the 10/13→11/17 credit-vol WATCH stands. Cause of the 11/04 release is not established (KB-VIO-368).
+**Review scope:** headline claims against KB-VIO-352 to KB-VIO-370 at row level, not a full re-read of the thesis.
+
 ## October 19, 2026 — v4.1.4: enact approved correlation first-tell retirement
 
 **Old view → new view:** COR1M first-tell remained registered pending WQ410 in the October14 desk state. Will approved retirement October15 at16:26:18.977UTC; committed ruling checked directly. Removed the live row from SIGNAL_INTAKE and recorded RETIRED in KB/STATUS. Series remains context, no successor line. RED's October14 FT10 grade is consumed without re-execution; official observations recovered throughOctober16. Friday's narrow front-end stress does not meet the distinct3M cash/VVIX daily lines. Path-A causation remains unproven.

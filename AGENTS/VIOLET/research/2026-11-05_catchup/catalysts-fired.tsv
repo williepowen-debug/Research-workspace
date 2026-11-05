@@ -1,0 +1,2 @@
+date	event	type	agent_domain	expected_vol_impact	source	notes	disposition
+2026-11-03	US midterm elections (Election Day)	ELECTION	HENRY/HAWK/VIOLET	MEDIUM	2 U.S.C. 7: Tuesday after the first Monday in November; first Monday 2026-11-02, so 2026-11-03	ADDED 2026-10-21. date_class CONFIRMED (statutory calendar arithmetic). VIOLET checkpoint: whether VX/X6 carries an event kink over VX/Z6; HENRY/HAWK own political substance.	FIRED 2026-11-03. Graded in GRADE.md section 3: VIX9D carried the event, not VX/X6; regime-shift record KB-VIO-367.

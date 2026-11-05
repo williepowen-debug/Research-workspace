@@ -61,6 +61,8 @@ Curated long-term insights on VIX, volatility regimes, and credit-vol transmissi
 
 *(Trade-direction advice removed 6/10 — the old "Inversion → Trade: Long vol" line contradicted our own falsification.)*
 
+**Event windows (KB-VIO-367, November 5, 2026):** a VX contract prices VIX on its expiry date, and VIX then looks 30 days forward. An event dated before that expiry cannot sit in the contract's variance window, so VX M1 above M2 is not an event premium for it. Read pre-event premium on VIX9D/VIX, then check the release after the date.
+
 ---
 
 ## VVIX PATTERNS
