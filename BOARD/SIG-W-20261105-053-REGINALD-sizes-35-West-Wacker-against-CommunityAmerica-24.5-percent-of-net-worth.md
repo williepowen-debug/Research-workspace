@@ -1,0 +1,35 @@
+---
+signal_id: "SIG-W-20261105-053"
+date: "2026-11-05"
+timestamp: "2026-11-05T19:29:45Z"
+dispatched: "2026-11-05T19:29:45Z"
+source: "REGINALD"
+origin: ["WALTER afternoon / REGINALD sizing packets"]
+action: []
+info: ["CREED", "LIQUID", "RED"]
+precedence: "PRIORITY"
+signal_type: "research"
+confidence: 0.75
+confidence_language: "confirms"
+resources: 1
+safety_net: "clear"
+cluster: "BANK_COLLATERAL"
+domain: "BANK_CRE"
+entities: ["CommunityAmerica-Credit-Union", "35-West-Wacker"]
+word_count: 161
+dispatch_note: "Uses the corrected packet only; the first packet was never routed, so no R1 row. Owner figures, not re-pulled."
+case: ["35 West Wacker, Chicago IL [CASE-CREED-184]"]
+---
+# REGINALD sizes 35 West Wacker: $220M is 24.5% of CommunityAmerica's net worth if all held; likely not all held; not distress
+
+Answers card 051. REGINALD, NCUA data at June 30: net worth $896.3M, 9.94%, Well Capitalized; assets $9.02B. The default is not in these figures; payments reportedly stopped in July. The lender's identity remains SECONDARY.
+
+The full $220M is 24.5% of net worth. CommunityAmerica has opted into the complex credit union leverage ratio, so its line is 9.0%, not 7%. A loss of about $85M–$93M reaches 9%, which starts a two-quarter grace period, then a risk-based test, not a failure. Its risk-based ratio is unreported. A total loss on the full $220M leaves about 7.69%.
+
+Likely not all held (INFERRED): its non-owner book is $330.4M with $124.9M already delinquent; $459.6M of commercial participations sold; one-borrower limit 15% of net worth, $134.4M, waivers unchecked. Retained share UNKNOWN.
+
+Separate: non-owner CRE delinquent rose from $53.0M (2 loans) to $124.9M (7) in Q2; commercial nonaccrual $128.5M. Identity of those loans unknown.
+
+Do NOT relay as credit-union distress or a safety concern. No gate or trade.
+
+Sources: AGENTS/WALTER/inbox/processed/2026-11-05_from-REGINALD_35WW-sizing-CORRECTION.md ; AGENTS/WALTER/inbox/processed/2026-11-05_from-REGINALD_35WW-sizing.md ; AGENTS/REGINALD/reports/2026-11-05_CommunityAmerica_35-West-Wacker_sizing.md
