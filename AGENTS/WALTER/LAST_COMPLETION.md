@@ -1,16 +1,16 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-05T18:44:58Z, Claude Code Opus 5.5, session walter-07 on the desktop. Midday boot after the 11:56 ET FULL closeout; light closeout, session open, coverage PARTIAL.
+Updated 2026-11-05T21:37:16Z, Claude Code Opus 5.5, session walter-07 on the desktop. CLOSED on Will request; FULL closeout, coverage PARTIAL.
 
 ## RESUME — do these first
 
 1. `git pull --rebase` at root, then ordinary boot.
-2. **November 5 close pass: first read done on vendor prints, card 055; certification owed on the November 6 morning pass:** settled closes for VIX, S&P, QQQ, KRE, WAL against REG-T-02's 78 (existing cycle, re-entry, not a new fire; REGINALD grades), Cboe VIX and SKEW; HY, CCC and VIXCLS for November 5 when published (RED-FT-02/06/07, REG-T-03/04). Short follow-up card saying whether 016 and 017 held.
-3. **Intake:** November 5 21:18Z collector reviewed and marked; 18 breaches dispositioned, cards 058 and 060. Step 7i from the cutoff below, then 7e.
-4. **November 6:** payrolls, STWD and ACRE, WQ-556 C check.
-5. **Open from today:** CF's November 5 call unheard; Cable One results after the November 5 close unread; BoE Monetary Policy Report unread; `bdata` absent on the desktop, only 403 bookmark links affected.
+2. **Certify the November 5 close:** Cboe VIX, VIX9D, VIX3M, VVIX, SKEW history; FRED HY, CCC, VIXCLS [Nov 5]; Nasdaq WAL, KRE closes. Card 055 and 057 are vendor reads. HY 357 or wider is +25 bp, safety net FLASH. VIX >=18 starts RED-FT-06 exit run. REGINALD grades WAL; VIOLET grades VVIX; LIQUID grades Gate 069 L4.
+3. **November 6:** payrolls 08:30 ET, and LABOR's session closed, so the grade needs a fresh launch; STWD and ACRE; WQ-556 C check; Ready Capital not filed at 21:31Z; H.4.1 November 5 not read; Cable One 10-Q by November 9.
+4. **Iran and Saudi:** Yanbu alert 058 and the Qatar proposal 056 await FALCON and BRENT; two headlines held unrouted, research/2026-11-05_sweep/SWEEP-REVIEW.md. Next full sweep about November 12; add Saudi, Houthi and Yanbu terms to any sweep query.
+5. **Open from today:** CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HANS, HOMER, CORAL, FERT.
 
-Calendar coverage cutoff: 2026-11-05T17:26:48Z (step 7i run; rows in research/2026-11-05_midday-boot/CALENDAR-RECONCILIATION.tsv; pending rows named there).
+Calendar coverage cutoff: 2026-11-05T21:37:16Z (step 7i run; rows in research/2026-11-05_midday-boot/CALENDAR-RECONCILIATION.tsv; pending rows named there).
 
 ## STATUS
 
@@ -20,7 +20,7 @@ November 5 total: 29 BOARD cards, 99 handoffs. WAL Q3 source recovery remains CL
 
 ## CHANGED
 
-Cards 001–060 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
@@ -47,13 +47,13 @@ Broad selloff began in AI names and reached banks, reported cause only, no capex
 
 ## WILL_NEEDS
 
-No WALTER decision open. Nudge after any close for the close pass. Held-VLO discharged: Will sold the one share November 5 10:05 EST at $366.665 per TERRY's record. CREED ran on Will's word: T-01a FIRED, T-08b at 7 of 11, S1 3 to 4 Will-ruled November 5. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
+No WALTER decision open. FALCON, BRENT and LABOR launches are PROME's and Will's call before payrolls. Held-VLO discharged: Will sold the one share November 5 10:05 EST at $366.665 per TERRY's record. CREED ran on Will's word: T-01a FIRED, T-08b at 7 of 11, S1 3 to 4 Will-ruled November 5. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
 
 ## FOLLOW-UP
 
-0000. CYPHER asks: any story naming Arkéa's provider goes to CYPHER as IMMEDIATE; stories naming Abrigo or Sageworks go to CYPHER; carry the four corrections in 052.
-000. News sweep held two Iran headlines unrouted, see research/2026-11-05_sweep/SWEEP-REVIEW.md; read guards and bodies before any card.
-00. Rule 6 doorbells to live desks were late on 024–037: sent November 5 13:5x ET to LIQUID, HENRY, VULCAN, CREED; PROME has the wake packet for desks not seen running. Doorbell at dispatch, not when asked.
+0. CYPHER asks: any story naming Arkéa's provider goes to CYPHER as IMMEDIATE; stories naming Abrigo or Sageworks go to CYPHER; carry the four corrections in 052.
+0. News sweep held two Iran headlines unrouted, see research/2026-11-05_sweep/SWEEP-REVIEW.md; read guards and bodies before any card.
+0. Rule 6 doorbells to live desks were late on 024–037: sent November 5 13:5x ET to LIQUID, HENRY, VULCAN, CREED; PROME has the wake packet for desks not seen running. Doorbell at dispatch, not when asked.
 0. HENRY's FLASH doorbell request ended November 5 about 14:02 ET when that session closed out; cards go to its inbox. Will may reboot it the same day: at each dispatch check ListAgents and doorbell any live owner under rule 6.
 1. HENRY and VIOLET consumed 077/078 November 5 by their own commits; wake recommendation closed. DEWEY 003R residual stays with DEWEY. L907 remains the bridge repair; L920 quote tolerance kept, intermittent refusals open at PROME.
 2. November 6: payrolls, WQ-556 C check, STWD/ACRE cohort releases. November 7: Friedberg/coverage-level and reserve/modification breadth pass. Supply dated prediction IDs/sources at the relevant owner's next authorized session per COMPLETION_SPEC; no historical registration sweep.
@@ -94,7 +94,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-05T18:44:58Z",
+  "as_of": "2026-11-05T21:37:16Z",
   "next_review": "2026-11-06",
   "publication": [
     {
@@ -165,9 +165,9 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
   ],
   "delivery": {
     "signal_date": "20261105",
-    "total": 234,
+    "total": 236,
     "delivered": 197,
-    "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
+    "note": "All day handoffs reconcile by origin proof after push; recipient use separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -205,33 +205,45 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
         "sha256": "4d8e60936ad4959bd8ddee41bcf1ecaf06ace0314ab266f6cdec7b7486b509d3"
       },
       {
+        "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/CALENDAR-RECONCILIATION.tsv",
+        "sha256": "6962b5917e0ed2959b46b780bbaa18395b35a67fb1c9ee04cf31bf846310a9cb"
+      },
+      {
         "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/THRESHOLD-SCAN.md",
         "sha256": "d5ebe1d1531201e631e07bbf00830b3ea3d49fb2396360db2e9c8fa4fc12de03"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/CALENDAR-RECONCILIATION.tsv",
-        "sha256": "9e1ed998f5af93dfba6a7e4e6bdb565fe1f79a93bef91f970532219823c12b89"
+        "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/GMAIL-REVIEW.md",
+        "sha256": "312d1fced59fdaf794a222a9f11e50c400d2ab4a1424dc66ee9964a2b85baff3"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-05_sweep/SWEEP-REVIEW.md",
+        "sha256": "f8765a684964f3ef38276d297c5d0486a371e1ccf1429ab63060d95b61127d9d"
+      },
+      {
+        "path": "AGENTS/WALTER/research/2026-11-05_close-pass/THRESHOLD-SCAN.md",
+        "sha256": "0cebab73784ec6c05c6d6985f7ebfc3334e52be4e5bf184c37e405cab37b506b"
       }
     ]
   },
   "procedure": {
-    "tier": "light",
-    "boot": "PARTIAL: desk STATUS leads truncated; READS UNKNOWN on a stale attestation; HANS daily and owner-limited rows carried from the morning scan; close pass not yet possible.",
-    "session": "OPEN after midday boot; no active helper, study or unattended work."
+    "tier": "full",
+    "boot": "PARTIAL: desk STATUS leads shortened; READS UNKNOWN on a stale attestation; HANS daily and owner-limited rows carried from the morning scan.",
+    "session": "CLOSED on Will request; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-060 including FLASH 016 and 017. Batches closed.",
-    "13": "Owner leads compared; BRENT, HENRY, LIQUID, VIOLET, BOND, PROME, CREED, AEOLUS, RED, TERRY, VULCAN, REGINALD and self refreshed before NETWORK.",
-    "12(a,b)": "Counts and NETWORK refreshed; last tape row is vendor intraday, no settled close claimed.",
-    "12(c)": "BALANCED baseline, labor LOOSE for November 6; standing flags unchanged.",
-    "12(d,e)": "FULL session entry and current bottom line.",
-    "12(f)": "STATUS and Iran anchor rotated verbatim. Charter 80% of budget stands: READ_CAP rule 20 does not bind it, earlier owed wording corrected.",
-    "14": "MEMORY #62 added, #7 extended, #39 extended; calendar check stays November 12.",
+    "11": "Cards 001-061 including FLASH 016 and 017. Batches BM-20261105-01 through -07 closed.",
+    "13": "REGISTRY refreshed for WALTER, REGINALD, BROCK, CYPHER, LABOR, RED, TERRY before NETWORK.",
+    "12(a,b)": "Counts and NETWORK refreshed; last tape is vendor post-close.",
+    "12(c)": "BALANCED baseline, labor LOOSE for November 6; flags unchanged.",
+    "12(d,e)": "FULL session entry and bottom line.",
+    "12(f)": "STATUS rotated verbatim at the read-cap trigger.",
+    "14": "MEMORY Feedback plus #62 extended, #63, #64 added.",
     "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
-    "15": "Duties and approvals retained; resume list and calendar cutoff updated; close pass carried first.",
-    "16": "Rebased on BRENT routine commits and pushed on Will's word; reconcile applied. Hashes updated after rebase.",
-    "checks": "Results in research/2026-11-05_midday-boot/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
-    "Tier1": "Vendor post-close read 16:05 ET; no official close certified."
+    "15": "Resume list and calendar cutoff rewritten.",
+    "16": "Will requested closeout; push on a verified-clean tree or deferred, see final report.",
+    "checks": "research/2026-11-05_close-pass/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
+    "Tier1": "Vendor post-close 16:31 ET; no official close certified."
   }
 }
 END_CLOSEOUT_RECEIPT -->

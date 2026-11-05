@@ -1,11 +1,11 @@
 # WALTER STATUS
-**Updated:** 2026-11-05T18:44:58Z — Midday boot, light closeout, session open. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-05T21:37:16Z — CLOSED on Will request; FULL closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-OPEN after a midday boot. November 5: 29 cards, 99 handoffs, two FLASHes (016, 017) on a broad selloff that began in AI names and reached banks; credit proxies stayed calm. New since the 11:56 ET closeout: Paraguay's President Peña announced his resignation over Ueno Bank, Congress must accept (024, corrected by 026: REGINALD measured $17.9M of US fund holdings, about 95% of holders undisclosed); REGINALD's late-loan scan (025, 028); HENRY 12:39 ET gamma negative, support walls broken, no clean S&P support above the 200-day (027). Gmail pass (030–037): Arkéa €100M theft, October SLOOS unrouted since November 2, BCRED tender primary. News sweep (044–050): KBRA defaults, Micron Taoyuan, Fed and OCC calls after Binance. No new WALTER fire in completed checks. Iran: new UKMTO tanker strike and claim-only mine reports from the morning stand; re-search found nothing newer (007, 023).
+CLOSED. November 5: 61 cards, 236 handoffs, two FLASHes. Vendor close S&P −4.36%, Nasdaq-100 −6.36%, VIX about 28.2, VVIX about 135; banks fell, credit ETFs calm; cash HY unknown until November 6. Not official closes (055, 057). Late finds: October SLOOS (031, 043), BCRED tender (032), KBRA defaults (044), Arkéa through a provider (030, 052), Peña resignation (024, 026), Micron Taoyuan (045), Yanbu alert (058), Cable One Chapter 11 language (059, 061), Iran proposal via Qatar (056). No new WALTER fire established.
 
-BALANCED baseline; labor intake LOOSE for November 6 payrolls. November 5 close first read done on vendor prints (055); certification owed November 6 morning. Resume list: top of LAST_COMPLETION.md.
+BALANCED baseline; labor intake LOOSE for November 6 payrolls. First duty: certify closes. Resume list: top of LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
@@ -35,17 +35,14 @@ BALANCED baseline; labor intake LOOSE for November 6 payrolls. November 5 close 
 | Bookmark source checks (October 27 UTC) | CISA v2026.10.26 lists both PHP root CVEs (added October 26); no named victim. Anthropic June 30 note carrying value $108.566B and H1 noncash charge $72.388B are different from cash burn/IPO redemption. Tailscale vendor release target October 27 is conditional, no shipped version asserted. Sources/limits: research/2026-10-26_bookmarks/REVIEW.md. No new market-price or threshold-family clearance. |
 | Startup scan (October 26 ET; pull October 27 UTC) | HY338 / CCC1356bp / VIXCLS19.45 [October 23]; SOFR-IORB+2bp matchedOctober 23; T5YIFR2.21 [October 26]. Vendor regular-sessionOctober 26 KRE72.73/WAL75.44/VIX18.39. FT11 matchedOctober 16→23 preconditions not met. No new fire in completed checks; HANS daily/settlement/census limits: research/2026-10-26_startup-recovery/THRESHOLD-SCAN.md. |
 | Evening owner evidence (October 26, owner pulls17:35–18:57ET) | LIQUID vendor EWZ−19.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%; not spread/flow measurements. Accepted domestic buybacksR$14.807B settleOctober 27; current UBR call unproved. Credit/funding frontierOctober 23 at18:56ET. VULCAN original-access upgrade is owner-selected sections, full reconciliation incomplete. Sources: research/2026-10-26_final/OWNER-REVIEW.md. |
-| Brazil unwind search (October 26 13:44–13:47ET) | Anonymous manager reports local stop-loss amplification; no named fund/margin-call liquidation verified. Mixed carry pattern: yen weaker, peso stronger, US credit ETFs positive. NYFed afternoon repo accepted$5M, not a seizure finding. B3 wider price bands are not margin hikes. Card012/evidence: research/2026-10-26_unwind-search/REPORT.md. |
-| Morning news (October 26, underlying clocks retained) | Meta $35B offering package plus unestablished $60B future program; SpaceX ~$40B conditional GPU lease; Anthropic public IPO reported; original prospectus was unread at that morning dispatch, later source access/selected-section checks supersede that access limit (bookmark review). B3 halt confirmed; Reuters local equity/FX/CDS stress is dated intraday, not a forced-sale finding. Cards 001–004. |
-| Labor/energy/diplomacy (October 26 releases) | Microsoft voluntary offer, realized exits unknown; EQT–Range all-stock merger, >$50B combined EV not Range purchase price; Tehran regional contact not a settlement, Yemen military claims attributed. Cards 005–007. |
-| Data/tape (October 26, intraday or release period named) | Vendor SP500 +0.73%, Nasdaq +0.98%, VIX 18.36, KRE +0.52%, WAL +0.16%, JBLU −13.88%. Dallas current production 15.8 vs 29.5/orders 9.3 vs 30.7, input prices 55.3 vs 52.2. ifo 90.2 secondary; September CFNAI +0.07 corroborated by FRED; components secondary/full primary release table inaccessible. Cards 008–011. |
-| Bookmark verification (10/25 retrieval; underlying dates retained) | Cards019–031: GMO notices 10/23–25; Python advisories 10/23; CISA catalog2026.10.23; Jubilee/FQM Apr–Jun; ICSG 10/14 forecast; CalPERS 12/31→6/30; weather runs through 10/25 12Z; Moody's10/23; MetaQ3; NYFedQ2 and historical counterexample2019Q2. These are evidence/basis updates, not fresh prices or owner grades. |
 
 Evidence for the older rows above (October 22): `research/2026-10-22_boot/THRESHOLD-SCAN.md`, `research/2026-10-22_iran-full-sweep/SWEEP.md`, `research/2026-10-22_afternoon/`. Twenty older rows (10/15–10/22 morning) rotated verbatim to `SESSION_LOG.md` 2026-10-22T16:47:25Z (root Output Canon: spaced words; history moved, not compressed). Each series keeps its source date and basis.
 
 Oldest six observation rows rotated verbatim to SESSION_LOG.md at 2026-10-31T18:34:28Z; no historical claim rewritten.
 
 Oldest four observation rows rotated verbatim to SESSION_LOG.md at 2026-11-05T15:44:27Z; no historical claim rewritten.
+
+Oldest 5 observation rows rotated verbatim to SESSION_LOG.md at 2026-11-05T21:37:16Z; no historical claim rewritten.
 
 ## MISSION
 
@@ -59,7 +56,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 - ISHM final/flash source qualification and five exact recipient dispositions: `research/2026-10-26_ishm-intake-receipt/REVIEW.md`; current comparison unchanged, hardware vintage limits retained.
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
-- Current working evidence: `research/2026-11-05_midday-boot/`; `research/2026-11-05_morning/` (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, VERIFY-IRAN, VERIFY-AI-TAPE); L334 `research/2026-11-05_L334/REPORT.md`. Last closeout evidence: `research/2026-11-05_close/closeout/`; evening boot `research/2026-11-04_evening-boot/`; Iran sweep `research/2026-11-05_iran-full-sweep/SWEEP.md`; prior `research/2026-11-04_catchup/closeout/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
+- Current working evidence: `research/2026-11-05_close-pass/`; `research/2026-11-05_sweep/`; `research/2026-11-05_midday-boot/`; `research/2026-11-05_morning/` (THRESHOLD-SCAN, CALENDAR-RECONCILIATION, VERIFY-IRAN, VERIFY-AI-TAPE); L334 `research/2026-11-05_L334/REPORT.md`. Last closeout evidence: `research/2026-11-05_close/closeout/`; evening boot `research/2026-11-04_evening-boot/`; Iran sweep `research/2026-11-05_iran-full-sweep/SWEEP.md`; prior `research/2026-11-04_catchup/closeout/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
 - Bookmark authentication/read/mark evidence: `MARK-RECEIPT.txt`, `bookmark-review.json` and `REVIEW.md` in the bookmark evidence directory. Credentials remain ignored/machine-local.
 - VULCAN intake recommendation: `outbox/REQ-PROME-20261016-vulcan-intake-design.md`; no collector deployment inferred.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
@@ -67,7 +64,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed before NETWORK at 2026-11-05T17:26:48Z. Peer sessions listed by ListAgents at midday boot: PROME, HENRY, LIQUID, VULCAN, RED, AEOLUS, BOND, REGINALD, CREED, VIOLET; listing is not proof of work or consumption. TERRY closed 11:34 EST. Still dated October 28–31 with unread ACTION: OTTO, CORAL, CRUISE, HANS, HAWK, HOMER, SHADE, WATT, LABOR, SAM. Colors and classes unchanged. Doctor backlog: 58 items older than 2 days across 17 desks; backlog is not a DARK finding.
+REGISTRY refreshed before NETWORK at 2026-11-05T21:37:16Z. Sessions listed late November 5: PROME, HENRY, LIQUID, VULCAN, RED, AEOLUS, BOND, REGINALD, CREED, VIOLET, BROCK, TERRY, CYPHER, LABOR; several since closed on Will's word. A closeout ends a session, not the desk's day. Not seen: FALCON, BRENT, HANS, HOMER, CORAL, FERT. Still dated October 28–31 with unread ACTION: OTTO, CORAL, CRUISE, HANS, HAWK, HOMER, SHADE, WATT, LABOR, SAM. Colors and classes unchanged. Doctor backlog: 58 items older than 2 days across 17 desks; backlog is not a DARK finding.
 
 Complete cross-runtime lifecycle visibility remains UNKNOWN. No active WALTER helper, study or unattended task. Dates and headers do not certify full domain freshness. Current duties and publication proof remain in LAST_COMPLETION.md.
 

@@ -1,3 +1,14 @@
+## FULL CLOSEOUT — 2026-11-05T21:37:16Z — closed on Will request
+
+Claude Code Opus 5.5, session walter-07, desktop. Midday boot PARTIAL, Gmail pass, news sweep, vendor close read, evening intake. Cards 024–061; six owner-caught corrections (039, 041, 042, 052, 061, plus REGINALD's 038) and one WALTER timing error (057). Rule 6 doorbells late on 024–037, then sent.
+
+Rotated verbatim from STATUS DATED MARKET OBSERVATIONS (read-cap trigger):
+| Brazil unwind search (October 26 13:44–13:47ET) | Anonymous manager reports local stop-loss amplification; no named fund/margin-call liquidation verified. Mixed carry pattern: yen weaker, peso stronger, US credit ETFs positive. NYFed afternoon repo accepted$5M, not a seizure finding. B3 wider price bands are not margin hikes. Card012/evidence: research/2026-10-26_unwind-search/REPORT.md. |
+| Morning news (October 26, underlying clocks retained) | Meta $35B offering package plus unestablished $60B future program; SpaceX ~$40B conditional GPU lease; Anthropic public IPO reported; original prospectus was unread at that morning dispatch, later source access/selected-section checks supersede that access limit (bookmark review). B3 halt confirmed; Reuters local equity/FX/CDS stress is dated intraday, not a forced-sale finding. Cards 001–004. |
+| Labor/energy/diplomacy (October 26 releases) | Microsoft voluntary offer, realized exits unknown; EQT–Range all-stock merger, >$50B combined EV not Range purchase price; Tehran regional contact not a settlement, Yemen military claims attributed. Cards 005–007. |
+| Data/tape (October 26, intraday or release period named) | Vendor SP500 +0.73%, Nasdaq +0.98%, VIX 18.36, KRE +0.52%, WAL +0.16%, JBLU −13.88%. Dallas current production 15.8 vs 29.5/orders 9.3 vs 30.7, input prices 55.3 vs 52.2. ifo 90.2 secondary; September CFNAI +0.07 corroborated by FRED; components secondary/full primary release table inaccessible. Cards 008–011. |
+| Bookmark verification (10/25 retrieval; underlying dates retained) | Cards019–031: GMO notices 10/23–25; Python advisories 10/23; CISA catalog2026.10.23; Jubilee/FQM Apr–Jun; ICSG 10/14 forecast; CalPERS 12/31→6/30; weather runs through 10/25 12Z; Moody's10/23; MetaQ3; NYFedQ2 and historical counterexample2019Q2. These are evidence/basis updates, not fresh prices or owner grades. |
+
 ## 2026-11-05T18:37:09Z light-closeout — full deferred
 
 Gmail pass on Will's word, read-only, 26 emails; cards 030–037; research/2026-11-05_midday-boot/GMAIL-REVIEW.md. Session stays open.

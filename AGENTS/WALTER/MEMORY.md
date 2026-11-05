@@ -84,7 +84,11 @@
 60. **A level without its change can hide the week's biggest move.** 11/04: catch-up logged Brent 95.07 while the tool withheld the return; January Brent had fallen 16.7% in three sessions and no card said so. Read the prior row by hand, labelled unverified; a withheld field is not a quiet tape. → BOARD 078
 61. **After any sharp move, read the registered gates on held names at their letter.** 11/04: nobody asked; the December crack had already crossed the held-VLO exit on 11/2, unseen for two days. The oil headline was the smaller story. Vendor date rows can be evening sessions: check volume, then use the gate's own settle window. → BOARD 077 · PROME/GATES.tsv
 
-62. **Recheck the inbox before calling a routing pass complete.** 11/05: HENRY's 09:49 ET and LIQUID's packets sat unread until an 11:16 ET check; the boot read is a snapshot, and desks keep writing during a live day. → charter step 7g · BOARD 020/021
+62. **Recheck the inbox before calling a routing pass complete.** 11/05 (n=2 same day, owner replies land within minutes of a doorbell): HENRY's 09:49 ET and LIQUID's packets sat unread until an 11:16 ET check; the boot read is a snapshot, and desks keep writing during a live day. → charter step 7g · BOARD 020/021
+
+63. **Read a filing's risk paragraphs whole, never by keyword, and take VIX after 16:15 ET.** 11/05: a keyword read of Cable One's release shipped card 059 without its Chapter 11 sentence; a 16:05 read shipped VIX 1.3 points low. → BOARD 057, 061
+
+64. **Doorbell every live ACTION owner at dispatch, and re-run ListAgents first.** 11/05: 024–037 went out with no rule 6 doorbell until Will asked; CYPHER and LABOR were live when logged absent. → MESSAGING rule 6
 
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
@@ -99,4 +103,4 @@
 
 ## Session Notes
 
-November 5 FULL CLOSED on Will request. LAST_COMPLETION owns duties and the resume list. 23 cards, two FLASHes. November 5 close pass NOT run: first duty next session. X token and FFIEC and SEC all work on the desktop; `bdata` absent here.
+November 5 FULL CLOSED on Will request. LAST_COMPLETION owns duties. Mail and sweep passes each found items the lane missed; the sweep's Iran query lacked Saudi and Houthi words. X token, FFIEC and SEC work on the desktop; `bdata` absent here.
