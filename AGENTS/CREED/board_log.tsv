@@ -292,3 +292,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T20:39Z	PROME 15:36 ET, Will WQ-620 A	acted	PROME	T-08b leg 2 term encoded in band_status, THESIS 8b, CHANGELOG; ruling record read at af1313cd2. No re-grade.
 2026-11-05T20:39Z	SIG-W-20261105-051	noted	WALTER	Update to 048 from CREED's own read; carries a Real Deal URL that differs from the one CREED read (the case cites the one read). Context only.
 2026-11-05T20:39Z	SIG-W-20261105-053	acted	WALTER	REGINALD sizing linked in CASE-CREED-184 fleet_links and notes: 24.5% of net worth if all held, retained share UNKNOWN, not distress. No route.
+2026-11-05T21:03Z	Will 16:01 ET: adopt LABOR's combination watch at CREED, themes CREED's own	acted	WILL_DIRECT	Charter closeout 6a; KB-106..108: combo:outside-cohort-lenders, combo:off-perimeter-holders, combo:single-tenant-moves. Scores nothing.

@@ -11,6 +11,9 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-11-05 — combination watch (Will: *"Yes go ahead and do this now"*, 16:01 ET)
+Charter closeout step 6a added, no step renumbered. Form taken from LABOR's `combo:` tag (2dad33ec1, 753159295), themes CREED's own: `KB-106..108`. Tag sits first in KB Notes; `Group` keeps its vocabulary, so no schema or checker change. New dated rows rather than edits, so an old theme row is never freshened by an update (trap #8). Fleet question stays with WQ-622.
+
 ## 2026-10-28 (late) — `VX-9.02` proxy adopted; case vocabulary extended; self-check exception (Will: *"Lets handle/fix these now"*, then Will 2026-10-28 23:23 ET, verbatim *"yes adopt the 9.02 proxy"*)
 - **Instrument:** `VX-9.02` GAP → Green Street CPPI office proxy (SECONDARY-tier; reverts to GAP, never to all-property, if the office figure stops being carried). First CANONICAL `VX_HISTORY` row (2026-09, −33).
 - **`scripts/creed_selfcheck.py`:** `VX-9.02` added to DISCLOSED (its bands are decline magnitudes, which the mechanical read cannot parse). Run immediately after the edit: 0 findings.

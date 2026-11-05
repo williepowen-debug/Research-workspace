@@ -17,7 +17,8 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 3. **Trepp October SS (~mid-Nov)** + payoff rate: `T-01b`, F2. Both needed for F2.
 4. Illinois Center sheriff sale 11/12 (CASE-153) · L723 deed ~11/27 · L183 11/30 (2b confirmed NOT reversed) · FDIC Q3 QBP ~11/25 (`T-03`, L514).
 5. ✅ **ABS-EE office lease screen built 11/05 on Will's "yes"** (run 1 `research/2026-11-05_ABS-EE_OFFICE_LEASE_SCREEN_RUN1.md`, `KB-102..105`). VX vector: no, WQ-613 (PROME, class C3, 11/05). **Will 13:08 ET: descriptive only, no recurring cadence, no predictive study; two-year window apart in `research/2026-11-05_ABS-EE_TWO_YEAR_WINDOW_EXPLORATORY.md`; use the loan list only when it bears on a named exposure (`README.md`).** Cache was in the session scratchpad; a re-run for a named exposure rebuilds with `fetch`.
-6. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 7.02, 9.01, 10.02 · Moxy result · Plaza price · CREFC monthlies.
+6. **Combination watch live (Will 16:01 ET):** `grep combo: workbook/KB.tsv` at each Trepp grade; update in the session an item arrives; rule at `CLAUDE.md` closeout 6a. Scores nothing.
+7. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 7.02, 9.01, 10.02 · Moxy result · Plaza price · CREFC monthlies.
 
 ## ⚖️ AWAITING WILL
 S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), VX no (WQ-613). Nothing pending.
