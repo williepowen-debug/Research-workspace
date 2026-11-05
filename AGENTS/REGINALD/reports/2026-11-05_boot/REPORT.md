@@ -123,7 +123,7 @@ WQ-512 single-issuer rider: not triggered (fires only at a REG-T-04 fire). Bank 
 
 ⚠️ **Two things the 332 does not show.** (1) It predates today: at 10:31 ET, vendor quotes not closes, SPY −2.4%, QQQ −4.4%, VIX $22.62, HYG −0.35%, and the 11/05 HY print arrives ~11/06. Earliest possible fire is the third close of a new run; 11/11 is a bridged non-session. (2) **B-tier OAS is back above my 330 ORANGE row since 10/29** (first crossed 10/16, back under 10/27): 332, 360, 363, 362, 351 [11/04]; BB 199. TRADE.md lists "B-tier holding >300 into >330" as one thing that would make this a credit bet. It is a watch row, no trigger, and the other credit legs have not moved.
 
-**Regionals today are not trading with the selloff:** vendor 10:31 ET KRE $74.68 (+0.74%), OZK +0.85%, EGBN +0.96%, WAL −1.51%. Not settled, no cause inferred.
+**At 10:31 ET regionals were not trading with the selloff:** vendor KRE $74.68 (+0.74%), OZK +0.85%, EGBN +0.96%, WAL −1.51%. Not settled, no cause inferred. ⚠️ **Overtaken by 11:36 ET, see §14.**
 
 ## 8. GATE-TERRY-ROLL70-EXIT: re-grade or retire
 
@@ -209,3 +209,9 @@ Ueno (Paraguay): no US exposure established; nothing in this desk's perimeter. C
 - 11/07 run, L180, ranking test, Friedberg, reserve-release count, cohort-selection decision: scheduled, not pre-run. Desktop token and route now proven.
 - `V1V3-ACCELERATE` rename: re-dated 11/07.
 - NEXUS brief: a closeout step; held until PROME or Will asks for closeout.
+
+## 14. Addendum 11:36 ET: the selloff reached banks (WALTER FLASH -20261105-017, ACTION REGINALD)
+
+The 10:31 ET read above no longer holds. Vendor quotes 11:36 ET, not closes: WAL $76.79 (−3.09%), KRE $73.36 (−1.05%), ZION −1.52%, CFG −1.55%, FLG $10.73 (−2.10%), VLY −1.07%, EGBN −1.02%, SSB −0.83%, OZK −0.37%. SPY −2.71%, QQQ −4.34%, VIX $23.00. HYG −0.26%, ^TNX 4.84%.
+
+**Read:** regionals are falling less than the market, with WAL the outlier. Cause not established; no bank filing or 8-K explains it, and FLNG and SEC checks at 11:35 ET show no new OZK, VLY, EGBN, FLG or BKU filing. **State:** WAL under $78 intraday changes nothing: REG-T-02 is already FIRED, a sub-78 close is a suppressed re-entry, and the row grades the settled close. REG-T-01 UN-FIRED. Credit proxies calm; no cash spread for 11/05 exists yet. LIQUID's REVERSES (-021) covers 11/04 only and says nothing about today.
