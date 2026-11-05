@@ -751,3 +751,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T16:08:54-0500	SIG-W-20261105-053	noted	INBOX_WALTER	credit union not distress per REGINALD; no gate
 2026-11-05T16:08:54-0500	SIG-W-20261105-054	noted	INBOX_WALTER	one-day flow, note unread; no financing constraint seen at 14:15 ET, re-tested in Nov 6 sweep
 2026-11-05T16:08:54-0500	SIG-W-20261105-055	acted	INBOX_WALTER	L4 close checked; IREN 18.03 vendor raw close, -16.95% past line; NBIS and APLD inside by cents; HY leg needs 337 first-published Nov 6; 357 is WALTER routing safety net, not a LIQUID gate
+2026-11-05T16:44:00-0500	SIG-W-20261105-057	acted	INBOX_WALTER	VIX final about 28.17 vendor 16:22 ET, W3 unaffected; STATUS, watch, report corrected
+2026-11-05T16:44:00-0500	SIG-W-20261105-059	noted	INBOX_WALTER	Cable One Q3, BROCK owns
+2026-11-05T16:44:00-0500	SIG-W-20261105-061	noted	INBOX_WALTER	Cable One Chapter 11 conditional, stated not filed; BROCK owns; watch HY and CCC on any filing

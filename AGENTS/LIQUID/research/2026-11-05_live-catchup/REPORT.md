@@ -234,7 +234,7 @@ Bill auctions November 5 (TreasuryDirect, closed 11:30 ET): 4-week 2.46x, $115B 
 
 ### 14.7 Close read, 16:19 ET: Gate 076 W2 and the L4 stock leg
 
-GATE-LIQ-076 W2 as-of October 28, NY Fed, first published by 16:19 ET: G10 −9,739 (−10,277 prior), G5L10 −379 (−1,861 prior), NOT MET. As-of October 28 predates the November 5 selloff. W3 does not meet on November 5: VIX 26.86 (WALTER vendor 16:05 ET) or 27.77 (yfinance 16:19 ET), the two vendors differ and neither is under 20; MOVE 97.95. Window October 23→November 5, 1 of 3. W1 as-of November 3 due November 6.
+GATE-LIQ-076 W2 as-of October 28, NY Fed, first published by 16:19 ET: G10 −9,739 (−10,277 prior), G5L10 −379 (−1,861 prior), NOT MET. As-of October 28 predates the November 5 selloff. W3 does not meet on November 5: VIX 26.86 (WALTER vendor 16:05 ET) or 27.77 (yfinance 16:19 ET), the two vendors differ and neither is under 20; MOVE 97.95. Corrected: both reads predated the final prints, WALTER card 057 has VIX about 28.17 vendor 16:22 ET, Cboe history not yet posted. W3 unaffected. Window October 23→November 5, 1 of 3. W1 as-of November 3 due November 6.
 
 L4 stock leg, yfinance raw closes 16:08 ET, not official: IREN 18.03 (−16.95%, from 21.71), NBIS 120.37 (−14.94%, 8 cents above its line), APLD 14.17 (−14.69%, 5 cents above), CRWV 43.66 (−9.83%). IREN alone meets the ANY ONE name letter, with a 42-cent margin to 18.45. `gate069_legs.py` at 16:19 ET: still grades the November 4 session, L4 NOT FIRED; November 5 UNGRADEABLE-PENDING-PUBLICATION until HY November 5 prints. HY 337 or wider first-published fires L4. HY 357 is WALTER's +25 bp routing safety net, not a LIQUID gate.
 

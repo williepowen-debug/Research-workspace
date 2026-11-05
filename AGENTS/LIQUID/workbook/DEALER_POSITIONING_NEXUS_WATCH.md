@@ -3,7 +3,7 @@
 
 ## Latest evidence — observation dates retained
 
-**November 5, 16:19 ET:** W2 as-of October 28 NOT MET: G10 −9,739, G5L10 −379 (prior −1,861), as first published. The print predates the November 5 selloff and says nothing about it. W3 does not meet on November 5, VIX vendor 26.86 to 27.77 is not under 20. Window October 23→November 5: 1 of 3 (W3 witnesses October 26–29, November 4). Current grade: STATUS§2.
+**November 5, 16:19 ET:** W2 as-of October 28 NOT MET: G10 −9,739, G5L10 −379 (prior −1,861), as first published. The print predates the November 5 selloff and says nothing about it. W3 does not meet on November 5, VIX about 28.17 vendor 16:22 ET (card 057, Cboe history not yet posted) is not under 20. Window October 23→November 5: 1 of 3 (W3 witnesses October 26–29, November 4). Current grade: STATUS§2.
 
 **November 4 checkpoint:** current available-observation conjunction and pending November 5 inputs are in STATUS§2 and `research/2026-11-04_credit-followthrough/REPORT.md` §3. Old W2 aged out of the window; that is not evidence of improved capacity. No reset/new write-up. Actionable-life denominator remains CANNOT-CERTIFY, not a new firing prohibition. The October reads below retain their dates.
 
