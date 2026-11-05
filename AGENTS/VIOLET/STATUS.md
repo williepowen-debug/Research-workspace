@@ -4,7 +4,9 @@
 
 ## BOTTOM LINE
 
-**The election-week scare released in one session, and volatility is back in LOW_VOL. Credit and tail pricing did not release with it.** VIX closed **21.15 [11/02]** and **20.83 [11/03]**, both RISING_VOL, then **16.61 [11/04]** (−20.26%), LOW_VOL. No hard line fired: VVIX peaked 110.47 (line 120), 3M/VIX bottomed 1.0211 (line 1.00), the 5-day rise reached +25.1% (line +30%).
+**🔴 LIVE 11/05, TICK, NOT CLOSES: VIX 24.46 (+47% from 16.61) about 12:24 ET, high 28.09 about 10:53 ET. The curve is inverted and credit is not confirming.** VIX3M/VIX 0.9685 (low 0.8776), VVIX 119.21 (high 128.95), VIX9D 26.87 (high 32.54). SPY −3.64%, QQQ −5.47%, HYG −0.41% at 12:35 ET. HY 332bp [11/04], tighter and before today. **No registered line has fired:** VIX 30, VVIX 120 and VIX3M/VIX 1.000 all grade on the close. If VIX3M/VIX closes under 1.000 it is a peak-marker broadcast, never an onset call (KB-VIO-034). The shape reads closer to Path B than Path A (one session, cause not established). Signal sent to HENRY, LIQUID and RED: `outbox/2026-11-05_SIG-VIO-RED_to-HENRY-LIQUID-RED_vol-spike-curve-inverted-intraday.md`, KB-VIO-374.
+
+**Through the 11/04 close:** the election-week scare released in one session, and volatility went back to LOW_VOL. Credit and tail pricing did not release with it.** VIX closed **21.15 [11/02]** and **20.83 [11/03]**, both RISING_VOL, then **16.61 [11/04]** (−20.26%), LOW_VOL. No hard line fired: VVIX peaked 110.47 (line 120), 3M/VIX bottomed 1.0211 (line 1.00), the 5-day rise reached +25.1% (line +30%).
 
 **⚠️ The regime-shift broadcast was missed.** The RISING_VOL close on 11/02 met VIOLET's all-desks outbound row, and VIOLET was dark. This file and NEXUS_BRIEF are the late record (KB-VIO-367). WALTER's cards carried the VIX figures to desks, but no regime call went out on time.
 
@@ -44,13 +46,13 @@
 |---|---|---|
 | RED-FT-10 | **RED-owned FIRING since 10/14** | Exit <140 ×4: 0 of 4 (11/04 150.90). VIOLET supplies Cboe bars only; packet sent 11/05. |
 | RED-FT-06 | **RED-owned** | Exit needs VIXCLS ≥18 ×5. RED recorded 3 of 5 through 11/03. VIXCLS 16.61 [11/04] is under 18. RED grades; packet sent 11/05. |
-| VVIX 120 daily | **NOT FIRED** through 11/04 | Peak close 110.47 [11/02]. |
-| VIX3M/VIX cash inversion | **NOT FIRED** through 11/04 | Low 1.0211 [11/03]. |
-| Regime-shift outbound row | **MET 11/02, not broadcast; reversed 11/04** | Late record KB-VIO-367. Delivery is NEXUS_BRIEF. |
-| Path-A VIX<20 filter | **FAILED 11/02–11/03, MET 11/04** | Filter alone is not the full Path-A / LIQUID-076 conjunction. |
+| VVIX 120 daily | **NOT FIRED** through 11/04; **11/05 intraday touch 128.95 = WATCH**, grade at the close | Peak close 110.47 [11/02]. SETTLE basis. |
+| VIX3M/VIX cash inversion | **NOT FIRED** through 11/04; **under 1.000 on TICK 11/05**, grade at the close | Close low 1.0211 [11/03]; 11/05 intraday low 0.8776. SETTLE basis. Peak marker. |
+| Regime-shift outbound row | **MET 11/02, not broadcast; reversed 11/04; RISING_VOL on TICK 11/05** | Late record KB-VIO-367. Delivery is NEXUS_BRIEF. Today sent live, KB-VIO-374. |
+| Path-A VIX<20 filter | **FAILED 11/02–11/03, MET 11/04, FAILED on TICK 11/05** | Filter alone is not the full Path-A / LIQUID-076 conjunction. |
 | OVX/VIX canary | **FIRE 11/04** (context canary, not an action gate) | Route: NEXUS_BRIEF cross-domain + BRENT/HAWK reference. No outbox file: VIX fell. |
 | Cheap-tail alert | **DORMANT 2/4** [11/04] | VVIX 90.41 vs ≤90, VIX 16.61 vs ≤16; SKEW and catalyst legs met. Rows 10/29–11/04 backfilled by `--as-of`. Live VIX 17.50 is not near. Observation only; no opportunity declared. |
-| BIN-A / BIN-B | **STUCK / BLOCK ACTIVE** | CCC 13.16% [11/03] ≥ 9.55. |
+| BIN-A / BIN-B | **STUCK / BLOCK ACTIVE** | CCC 12.97% [11/04] ≥ 9.55. |
 | MOVE pause/resume | **ARMED** | 93.88 [11/04], above the 66.00 retire line. |
 | COR1M first-tell / pre-CPI cheap-tail / Q2 L477 / VIO-FOMC-0916 / F-B / RV1 | **RETIRED / PASSED / CLOSED / FAILED / HELD / RETIRED** | Terminal outcomes unchanged. |
 

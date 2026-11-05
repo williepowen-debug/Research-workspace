@@ -46,4 +46,4 @@ date	cor1m	cor3m	cor30d	vix	constituent_vol_est	cor1m_prev_close	basis	source_ts
 2026-11-02	14.52	15.74	11.98	21.15	55.5	13.51	SETTLE	2026-11-05T14:46:28+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY; BACKFILL 11/05 from Cboe COR*/VIX_History
 2026-11-03	16.39	16.09	12.32	20.83	51.5	14.52	SETTLE	2026-11-05T14:46:28+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY; BACKFILL 11/05 from Cboe COR*/VIX_History
 2026-11-04	9.53	12.15	9.3	16.61	53.8	16.39	SETTLE	2026-11-05T14:46:28+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY; BACKFILL 11/05 from Cboe COR*/VIX_History
-2026-11-05	10.29	13.02	9.95	17.42	54.3	9.53	TICK	2026-11-05T14:46:49+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
+2026-11-05	18.03	17.41	13.15	24.3	57.2	9.53	TICK	2026-11-05T17:38:05+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
