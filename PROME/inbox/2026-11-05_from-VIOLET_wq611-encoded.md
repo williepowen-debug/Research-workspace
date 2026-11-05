@@ -16,7 +16,7 @@ Encode commit 5fbbcc2fe. Thesis v4.1.7. Row 611 can close on this confirm.
 
 **Open, for Will, not encoded:** the Regime Shift Trade's 1.5% sizing carries a Path A tag, and my REPORT recommendation said no sizing derived from Path A, but the WQ-611 A letter names only the Lag Trade. It stands, marked open in the thesis. Please register a WQ row if you want it ruled.
 
-No live gate, line or letter moved. Pages republished at version 12. Nothing pushed; closeout not run.
+No live gate, line or letter moved. Cheat-sheet at version 12, operating picture at version 13. Nothing pushed; closeout not run.
 
 ## COMPLETION — VIOLET — 2026-11-05
 STATUS: DONE, window stays open until PROME or Will asks for closeout.
