@@ -425,3 +425,15 @@
 - feedback_research_sessions_living_page_plain_updates — one living page + plain milestone updates, not every delivery
 - finding_lenient_parser_reports_unparseable_as_a_behavior — headline count == unparseable cells ⇒ parseability, not behavior
 - finding_truncation_returns_a_plausible_answer_not_an_error — the cut end of an append-only log is its NEWEST rows
+- finding_rebase_continue_blames_conflicts_for_a_foreign_dirty_file — continue refuses on ANY dirty tracked file; abort wipes it
+- finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it — prose MENTIONING a marker reclassifies the file; monitoring dies silently
+- project_research_intake_collection_lane — WATCH_FOR matcher: ≤3-char words dropped, substring, ALL-CAPS = required entity
+- finding_crashed_session_state_lives_in_its_transcript — clean tree after a crash hides context losses; transcript jsonl = third source
+- finding_missing_output_is_not_a_dead_agent — no output file ≠ dead agent; stop it or use a NEW path before relaunching
+- finding_crash_residue_over_claims_toward_completion — crash residue reads as FINISHED, to a scanner too; the owner commits it (n=2)
+- finding_frozen_spec_and_the_surfaces_describing_it_drift_apart — the LETTER can't drift; its describing surfaces do; read the letter (n=5)
+- finding_float_precision_empties_the_tie_set_and_voids_the_operator — float ×100 empties the tie set; exact-boundary rows mis-grade BOTH ways (n=4)
+- finding_a_spread_needs_a_basis_neutral_to_what_its_legs_do_not_share — same basis on unlike legs IS the bias; one leg's dividend flips the spread
+- finding_a_named_unchecked_fallback_makes_an_absence_closable — name the unchecked doc; CHECK a declared-empty cell; NEGATIVE result = a fence
+- finding_rereading_a_rows_conditions_without_its_verdict_cell_regrades_a_dead_card — read the REC/verdict cell before re-grading a row; a kill is a WINDOW property
+- finding_a_verbatim_cell_without_its_column_header_reads_as_the_wrong_claim — verbatim is (header + cell); a loss cell under one label read as a payoff
