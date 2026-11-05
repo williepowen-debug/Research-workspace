@@ -1,55 +1,63 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-04T22:55:33Z, OpenAI Codex, exact model unknown. CLOSED on Will request; FULL closeout, coverage PARTIAL.
+Updated 2026-11-05T13:43:42Z, Claude Code Opus 5.5, session walter-dc. CLOSED for desktop switch on Will request; FULL closeout, coverage PARTIAL.
+
+## DESKTOP RESUME — do these first on the other machine
+
+1. `git pull --rebase` at root, then ordinary boot. Research-Intake is a separate clone: step 7e(a) pulls it.
+2. **X login and Bright Data:** `AGENTS/WALTER/.env` is laptop-side and gitignored; it holds the X tokens and the Bright Data key. X replaces its token at each use, so expect a refresh failure: Will re-authorizes with `x_bookmarks_scan.py --authorize`; seen-set and stage are tracked and safe. Check `bdata` before relying on it there; a missing key blocks only 403 bookmark links.
+3. **FFIEC login:** per PROME/MACHINE_LOCAL.md the laptop token was renewed November 1, expires January 31; the desktop holds the dead August 7 token. Paste the new one into `FORGE/tools/market-data/.env` there. PROME owns that file; WQ-495's "by November 5" text predates or misses this, ask PROME to reconcile.
+4. **Morning pass, NOT run:** boot step 7i from the cutoff below, then 6c. November 5 claims, Challenger, BoE, NREF and the November 4 HY and VIXCLS prints are unreviewed; VIXCLS likely resets RED-FT-06 to 0/5, RED owns it.
+5. **15 bookmarks:** staged, unread beyond headlines, unmarked. Finish via `--review-template`, then `--mark --review`. CoreWeave first.
+6. **CRUISE queue:** one open candidate, `cruise:7126564b0db4`, Sandals joint venture; check event date against SIG-W-20261014-028.
+
+Calendar coverage cutoff: 2026-11-04T21:01:17Z (last collector run reviewed; step 7i has not yet run).
 
 ## STATUS
 
-Session CLOSED on Will request. Approved maintenance complete: continuity refreshed; DEWEY queue reconciled; missed-day, CRUISE capital-event and supplier-query reviews finished. Three bounded helpers completed. No active WALTER study, trade or unattended task. Full narrative deferrals cleared. Evidence: research/2026-11-04_maintenance/REVIEW.md.
+Session CLOSED for desktop switch on Will request. No active WALTER helper, study or unattended task. Evidence: research/2026-11-04_evening-boot/BOOT-RECEIPT.md and research/2026-11-05_iran-full-sweep/SWEEP.md.
 
-November 4 total: 76 BOARD cards, 209 origin-proven handoffs, zero kill rows. Original catch-up batches 464 intake records and 57 bookmark content units closed; 49 bookmark IDs marked. Reboot batch 24 incremental items closed. Later LIQUID and ISHM packets consumed. Delivery is not recipient use.
-
-WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart. Exact scope: research/2026-11-04_WAL-source-recovery/REPORT.md.
+November 4 total: 80 BOARD cards, 226 origin-proven handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
-Full REGISTRY → NETWORK, STATUS, MEMORY, SESSION_LOG and duty receipt refresh. DEWEY 005R RESOLVED via existing VULCAN/DEWEY outputs; 003R PARTIAL with exact original residual. Three concrete coverage recommendations and supporting samples saved; administrative packets to PROME/DEWEY. No production collector, boot or intake-worklist semantics changed.
-
-LIQUID card 076 records renewed HY >320 persistence MET November 2, fourth observation November 3; BROADENS, X1 CLOSED / DON'T-SIZE. All eight copies are now origin-proven. ISHM final backlog brief verified at STATUS pin 17f70b488; 006/035 source exceptions remain explicit, completed research no longer carried as owed.
+Cards 077 FLASH, 078 and 079 IMMEDIATE, 080 PRIORITY, 17 handoffs. Iran anchor updated, next full sweep about November 12. DEEP_RESEARCH rows CARL-DR-1 and 003R updated; two DEWEY handoffs and PROME's WQ-598 packet consumed. WQ-598 A installed: charter steps 7i and 7e(g), BOOT_PROTOCOL, SPEC_OWNERSHIP, intake_scan queue, 15 tests, basis hashes. X re-authorized on the laptop.
 
 ## RESULT
 
-Trepp office 12.16% then 12.33% meets the registered two-print condition; formal CREED fire/Kernel resolution remains owed and CREED launch still requires Will's explicit permission. Qeshm's November 2 strike and reported public acknowledgment need FALCON's WQ-559 test; original UKMTO 188 dates the Lavan incident to October 30. Preliminary Florida Amendment 3 passage changes CORAL's pre-vote scenario, but certification is unverified. US releases and European flash data are restored with vintage/source limits. UNG sampled analyzed winds remain positive; no qualifying reversal established. Evidence is not trade authority or proof of bank-loss transmission.
+December ULSD crack fell below the held-VLO line: TERRY accepted November 2 $89.2472 and graded HELD-01 leg A FIRED; one-share SELL rec for November 5, Will's hand. CME unread; a final November 2 settle at or above $90.16 reverses. Oil fell on November 4 (Brent settle $94.62, −8.7%) with no signed text, reopening or public US answer. FALCON: FAL-07 CONFIRMED, census 7, SELAT STORM provisional, IMO table conflict carried. BRENT: fade test NOT MET, flow basis UNRESOLVED. Capital One modified-card delinquent balances +54.0% in Q3, cause UNKNOWN; CARL thesis NOT YET. Evidence is not trade authority.
 
 ## GAPS
 
 - Historical WALTER recovery report/notice published; Will accepted NOT RECOVERED and prohibited search expansion. Separately, WAL now verified complete freshly retrieved Q3 source bytes and independent extraction (November 4 report; MI3 19.81%, no weight/score change). Source/access is no longer its blocker. This does not rewrite WALTER's earlier failed recovery or resolve attribution/parent-bank gaps. No WALTER search restarted.
-- Publication: all 209 November 4 handoffs are origin-proven and reconciled; no consumption inferred. Earlier specifically authorized safe-push windows were bounded completed actions, not blanket WALTER authority. Current maintenance/final-close publication is tracked in the receipt below; foreign work preserved.
+- Publication: all 226 November 4 handoffs are origin-proven and reconciled; no consumption inferred except named owner commits: TERRY, BRENT, FALCON, RED and CARL acted on their cards. HENRY and VIOLET hold 077/078 unread. Current publication is in the receipt below.
 - Intake coverage: November4 21:01Z collector healthy;24 incremental flagged news/filing units dispositioned at reboot. Prior catch-up: All 464 titles were screened, not every original article. Cards 057–068 explicitly retain source-body/owner-overlap gaps. Bookmarks: five fully read, 44 partly read; videos not watched. Exact gaps/reopen conditions are in REVIEW.md and the verification reports. No unattended monitoring or comprehensive all-news claim.
 - Source-complete threshold checks are separate from all 48 registered IDs. Trepp's two-print observation is complete; CREED qualitative/cohort events remain owner-limited. Official oil/TTF settles, France/Italy compound legs, complete monthly PMIs and qualitative censuses remain missing. Futures returns were refused on rounded quote/chart mismatch (87.48999786376953 versus 87.49); no return bypass/proxy. Existing broad-HY fires are not new fires; REG-T-04 >350 x3 remains not met, 10 bp watch at November 3 HY 340. VIX exit observations are 3/5, not owner closure.
 - UNG WQ-573: sampled NOAA GFS f000 10 hPa/60N means +3.903807 m/s [November 3 00Z], +1.791158 [November 4 00Z], +1.092857 [12Z]. Positive analyses do not meet <0; unsampled intervals unknown. AEOLUS acceptance/canonical logging remains owed. UNG November 2/3 closes $9.00/$9.13 are below the $10.40 prior-close void. Approved five January 15, 2027 10/12 call spreads retain debit ≤$0.50, maximum loss $256.50, observed reversal by November 12, red day by November 20, entry <$10.40 and every owner guard. Broker quote/fees and current option chain not obtained; no order. Original fallback versus AEOLUS-logged wording still requires owner reconciliation; no alternate fire authority.
-- Reader basis: four changed boot-defining files manually reviewed and current local hashes renewed (basis-review.json). Central READS is STALE at November 2 because dashboard changed November 4; PROME reattestation remains owed. No additional dependency found in reviewed deltas. Root/local CLAUDE rotation warnings remain; no instruction rewrite authorized by catch-up. `python` alias absent; python3/venv available. Complete fleet lifecycle visibility UNKNOWN; no DARK inference or external message.
-- DEWEY reconciliation complete: 005R RESOLVED through VULCAN L800 October 29/30 and DEWEY L834 November 2 replay. Method omissions (including Amazon $63.753B acquisitions/investments/other), missing payout tags, accounting comparability and WQ-551.FIRM deferral survive. 003R PARTIAL: original Q3 historical-band/placement rerun not evidenced; EGBN parent/bank denominator gap unresolved, old VLY relay needs explicit basis treatment. L801 and November 1 FFIEC work must not be repeated; original deadline retained. See research/2026-11-04_maintenance/DEWEY-RECONCILIATION.md.
-- Existing owner grading/reconciliation: LABOR JOLTS/NFP LEG-C/October WARN; ISHM L899 survey grade completed November4 with named source exception: ISM55.5, strict<47 NOT-FIRED; S&P final54.9 supersedes flash56.0, rollover NOT-MET, broader-real-demand CANNOT-FIRE. Selective expansion and scores unchanged. Original October final composition access check November6; 006/035 backlog now owner-completed: M3/import J1 pairing, Emerson eight cells and five October-ending AAR weeks graded. J1 contraction and J2 rail deterioration NOT-MET; scores unchanged. Current-history/direct monthly import y/y retry November6, AAR edition publication date UNKNOWN (December2 revisit); EMR destocking/AI share NOT-STATED. Evidence research/2026-11-04_ishm-backlog/REVIEW.md; FALCON WQ-559/UKMTO 188/November 4 gate; CREED T-01a/Kernel; FERT DTN table and CF Q3 (November 4 after-close release and November 5 conference not claimed read). NEXUS concurrently records L16 UP/M-07 DOWN in its working STATUS; WALTER's header read is not independent acceptance of the full grade. Route packets do not prove owner completion.
-- November 2 source gaps survive where not replaced: direct Al Jazeera/QSE originals and neutral Al Mayeda position/damage evidence; CME historical/motive/curve claims; original mortgage recording/Lunar/Vegas videos and selected paywalled primary bodies. ConnectWise's partial recovery was updated in November 4 card 011, not declared complete. New Qeshm/UKMTO evidence is routed, not a whole-theater census. Full Iran sweep still due November 5; bounded anchor update did not reset its clock.
+- Reader basis: PROME renewed READS at a457899537 and added step 7i reads at 88829d531e. Three changed boot files reviewed, hashes renewed (evening-boot/basis-review.json). Charter is 25,922 B, 80% of budget; rotation to <22,785 B owed and needs a scoped pass, not done here. Complete fleet lifecycle visibility UNKNOWN; no DARK inference.
+- DEWEY: 005R RESOLVED through VULCAN L800 and DEWEY L834, method omissions and WQ-551.FIRM deferral survive. 003R PARKED by DEWEY November 4, row stays PARTIAL and doctor MED stays until it runs: FDIC BankFind 0 Q3 rows against June control 4,313 (WALTER reproduced); FFIEC 4,259 of 4,268 is DEWEY's measurement. Not an unavailable-data deferral; no Q3 placement exists. DEWEY re-checks FDIC at next touch.
+- Existing owner grading/reconciliation: LABOR JOLTS/NFP LEG-C/October WARN; ISHM L899 survey grade completed November4 with named source exception: ISM55.5, strict<47 NOT-FIRED; S&P final54.9 supersedes flash56.0, rollover NOT-MET, broader-real-demand CANNOT-FIRE. Selective expansion and scores unchanged. Original October final composition access check November6; 006/035 backlog now owner-completed: M3/import J1 pairing, Emerson eight cells and five October-ending AAR weeks graded. J1 contraction and J2 rail deterioration NOT-MET; scores unchanged. Current-history/direct monthly import y/y retry November6, AAR edition publication date UNKNOWN (December2 revisit); EMR destocking/AI share NOT-STATED. Evidence research/2026-11-04_ishm-backlog/REVIEW.md; CREED T-01a/Kernel; FERT DTN table and CF Q3 (November 4 after-close release and November 5 conference not claimed read). NEXUS concurrently records L16 UP/M-07 DOWN in its working STATUS; WALTER's header read is not independent acceptance of the full grade. Route packets do not prove owner completion.
+- November 2 source gaps survive where not replaced: direct Al Jazeera/QSE originals and neutral Al Mayeda position/damage evidence; CME historical/motive/curve claims; original mortgage recording/Lunar/Vegas videos and selected paywalled primary bodies. ConnectWise's partial recovery was updated in November 4 card 011, not declared complete. New Qeshm/UKMTO evidence is routed, not a whole-theater census. Full Iran sweep completed November 5 01:44Z; ukmto.org 403, warnings 192-26 onward unseen, FT and Bloomberg originals unread.
 
 - Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
 - Energy-OAS BAMLH0A0E2Y is an invalid series, confirmed with authenticated positive control; no verified energy feed, not a transient fetch fault. Historical ICE H0EN is a lead only. Worldscale boundary 5 is an uninstrumented/retired lane requiring new registration; HANS T12 is registered non-live, with swapline proxy shelved by WQ-534. CME XEURBI public-history lead still needs retrieval and basis adjudication. No silent broad-HY, ETF or futures proxy.
 - Boundary 7 reconciliation CLOSED: the exact historical contract is retired at BRENT; WALTER row 7 is now a retired tombstone, not a 457 substitute. New rig alerts require new registration. CREED owner evidence is 5/11 reporters/cut-or-liquidating names as of October 30, not registry's older 4/11. Qualitative CMBS redefault, performing-collateral forced-sale conjunction, tenant demand and realized cohort erosion remain owner-limited; next releases are future. No CREED launch. HANS T14/T15 event searches remain bounded.
 - Native Codex reads/messages verified for existing PROME/TERRY tasks; complete cross-runtime absence/lifecycle visibility remains UNKNOWN. PROME's bridge uses newline JSON whereas this Codex Unix endpoint requires WebSocket Upgrade; PROME registered the existing-adapter repair as L907. WALTER has not altered owner code or granted messaging authority.
 - Earlier intake limits retained: Al-Araby original interview/official diplomacy acceptance unavailable; AP/MediaLine to/by-two-days discrepancy; NCLC direct body unavailable; AFN/Arivo denominators unverified; Comcast planned hiring/transfers are not realized employment. Earlier Kioxia ASP, Blue Owl release, selected paywalled originals, Chicago PMI primary and cards 005/009/010 limits persist. FT 006 cells were owner-validated by ISHM; current-history/direct monthly import y/y limits remain, with correct Table 5/YTD bases recorded. Refinery reporting corroborated, not physically inspected.
-- VULCAN design completed, deployment explicitly deferred by PROME October 16; no deployment inferred. Historic CATO ACTION has substantive evidence without exact receipt; no routine wake. October 27 CARL false action-header warning is fixed; the published signal is unchanged. REGINALD's old scripts/market.py pointer remains missing; settled_bars.py plus Nasdaq supplied the prior bank-close check. Two retirement candidates retained for substantive live references. Iran November 5 full-sweep date unchanged, no guard reset.
+- VULCAN design completed, deployment explicitly deferred by PROME October 16; no deployment inferred. Historic CATO ACTION has substantive evidence without exact receipt; no routine wake. October 27 CARL false action-header warning is fixed; the published signal is unchanged. REGINALD's old scripts/market.py pointer remains missing; settled_bars.py plus Nasdaq supplied the prior bank-close check. Two retirement candidates retained for substantive live references.
 
 ## WILL_NEEDS
 
-None for completing this approved maintenance pass. Three concrete recommendations are ready for the existing decision/deployment lane, not installed: launched-session calendar reconciliation, narrow CRUISE KNOWN capital-event review, and leading when:7d on the two supplier queries. Approval here covered the proposals/reviews listed to Will, not a new unattended launch or a silent semantic deployment. Existing WQ-573, WQ-556 C, WQ-401/WQ-508, CREED launch and source-search limits remain binding.
+Held-VLO one-share sale: FIRED-UNEXECUTED, Will's hand, tell PROME the result. CREED launch permission for T-01a. X re-authorization and FFIEC token paste on the desktop. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
 
 ## FOLLOW-UP
 
-1. PROME: all 209 daily handoffs are origin-proven and reconciled; FULL continuity c3fcdcbe2 is published. Owner review priorities are FALCON's existing WQ-559/November 4 gate and CREED's T-01a at its next explicitly authorized session, followed by LABOR released-data grades. ISHM survey and equipment/rail completion verified; retain only named source exceptions. DEWEY 005R closed; 003R original residual remains, with scope packet delivered locally. Do not duplicate completed studies. Stale central READS renewal and shared futures diagnostic are in the administrative packet. L907 remains the existing bridge repair.
-2. November 5: mandatory Iran full sweep and MEMORY/calendar review; claims, Challenger, BoE and NREF under existing owner calendars. November 6: payrolls, L334 predictive leg and WQ-556 C check, STWD/ACRE cohort releases. November 7: Friedberg/coverage-level and reserve/modification breadth pass. Supply dated prediction IDs/sources at the relevant owner's next authorized session per COMPLETION_SPEC; no historical registration sweep.
-3. November 11: Veterans Day HY non-session bridge. Around November 12: staleness sweep; UNG reversal deadline remains November 12. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit and WATT EO 14421 before December 24 remain unchanged.
+1. PROME: wake recommendation for HENRY (077 line and basis) and VIOLET (078 vol regime) raised; no wake logged at close. DEWEY 003R residual stays with DEWEY. L907 remains the bridge repair; L920 quote tolerance kept, intermittent refusals open at PROME.
+2. November 5: morning pass per DESKTOP RESUME. November 6: payrolls, L334 predictive leg and WQ-556 C check, STWD/ACRE cohort releases. November 7: Friedberg/coverage-level and reserve/modification breadth pass. Supply dated prediction IDs/sources at the relevant owner's next authorized session per COMPLETION_SPEC; no historical registration sweep.
+3. November 11: Veterans Day HY non-session bridge. About November 12: full Iran sweep, MEMORY calendar check, staleness sweep; UNG reversal deadline remains November 12. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit and WATT EO 14421 before December 24 remain unchanged.
 4. FLG/REGINALD first reviews are complete; FLG M3 allocation waits for T-02/10-Q, REGINALD filing/cause questions and November 7 detector fix survive. CORAL/other semantic consumption is unproved. Sinokor legal-action, dated Iran answer/Qatar draft and LIQUID October issuance retain normal owner review; no unresolved headline becomes a new commissioned study.
-5. Prior cleanup/L845/VPS/transcription and boundary 7 repairs remain complete; no repeat repair. All 90 October 31 and 39 November 2 handoffs were previously delivered, with only the named owner receipts proving consumption. Prior CATO substantive evidence lacks an exact receipt; backlog alone does not authorize a wake. No continuing helper or unattended WALTER activity.
+5. Prior cleanup/L845/VPS/transcription and boundary 7 repairs remain complete; no repeat repair. Prior CATO substantive evidence lacks an exact receipt; backlog alone does not authorize a wake. No continuing helper or unattended WALTER activity.
+6. Idea, not installed: show prior-day change for key instruments in the boot scan, labelled unverified when the vendor withholds it. Extends an existing step; needs Will's word.
 
 ## SOURCE-SEARCH DISPOSITION — approved October 16, retained
 
@@ -63,10 +71,7 @@ Reconciled October 31 at current artifacts: research/2026-10-31_design-backlog/R
 
 **Verdict F1/F2 COMPLETE:** approved by Will and implemented in CHECKLIST v0.57; evidence at research/2026-10-31_verdict-amendment/REVIEW.md. F3 remains fixed; F4 observation creates no new obligation.
 
-**Coverage reviews completed November 4; recommendations not deployed:**
-- Missed-day coverage: bounded calendar-to-source/owner/BOARD plan and acceptance cases in research/2026-11-04_maintenance/MISSED-DAY-COVERAGE.md. No scheduler or self-wake.
-- CRUISE: residual KNOWN gap confirmed after filing/watch fixes; narrow entity-bound capital-event candidate proposal in CRUISE-COVERAGE.md. No DARK dependency; historical misses already repaired.
-- Supplier recency: four successful feed comparisons; current capped sample 0/30 recent versus leading when:7d 13/13. Exact two-query recommendation in SUPPLIER-RECENCY.md; recall/event-date limits retained, PROME deployment separate.
+**Coverage fixes, WQ-598 RULED A (Will November 4 20:59 ET):** calendar catch-up (step 7i) and CRUISE_CAPITAL_REVIEW (step 7e(g)) installed at 05d47a8c8e, unrun until the next launched boot; PROME deploys the two supplier queries. No scheduler, unattended run or wake authority.
 - P2 lifecycle-candidate narrowing still rides the next regular sweep; no extra sweep commissioned in this maintenance pass.
 
 **Owner dependencies and retained decisions:**
@@ -81,127 +86,92 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-FULL approved-maintenance closeout; light narrative debt cleared. Operational coverage PARTIAL. Publication is not consumption.
+FULL desktop-switch closeout. Operational coverage PARTIAL. Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-04T22:55:33Z",
+  "as_of": "2026-11-05T13:43:42Z",
   "next_review": "2026-11-05",
   "publication": [
     {
-      "commit": "c2fcc0377fe9fd60971d0b5ba4a2d9a4a21a7492",
+      "commit": "eef62c0009bbe373f239147bbd3aee8642a333a8",
       "state": "published",
-      "note": "Origin ancestry verified; no WALTER push."
+      "note": "FLASH 077 and IMMEDIATE 078 published by safe-push, verified-clean tree."
     },
     {
-      "commit": "c3fcdcbe293ee4193a8af836fb2008f446a7f965",
+      "commit": "0caa70e5484c4107bec2c7cce4b84c27458e134d",
       "state": "published",
-      "note": "FULL continuity and original 187 handoffs published."
+      "note": "IMMEDIATE 079, sweep and anchor; published on a later push."
     },
     {
-      "commit": "d6e13e5d7f81b9bdd75ed8838fedae23a5c4c414",
+      "commit": "3a0ca52a3889a286d4bb859e4e0fb5cdd619e832",
       "state": "published",
-      "note": "Accepted WAL source recovery NOT RECOVERED; report/notice published."
+      "note": "PRIORITY 080, DEWEY handoffs filed; published on a later push."
     },
     {
-      "commit": "d183e7f7a240e70ea9958b8f7bd94b23b5e950de",
+      "commit": "05d47a8c8ee1016244cc3073f3d089f3fd8793ec",
       "state": "published",
-      "note": "Prior FULL closeout published; no recovery restart."
-    },
-    {
-      "commit": "9f9212401c037ebf826b5363ce65c8f14ead9510",
-      "state": "published",
-      "note": "Reboot payload published; 14 handoffs reconciled."
-    },
-    {
-      "commit": "88c33321c97b2b064371755b82d687e2ed85389a",
-      "state": "published",
-      "note": "Approved maintenance; no WALTER push."
-    },
-    {
-      "commit": "171f02e5b89842e2628c61a46b4ea91a8f4d6de4",
-      "state": "published",
-      "note": "FULL closeout published; safe-push fresh-fetch confirmation at a5a10d557."
+      "note": "WQ-598 install; published on a later push."
     }
   ],
   "delivery": {
     "signal_date": "20261104",
-    "total": 209,
-    "delivered": 209,
-    "note": "All209 day handoffs origin-proven;076 eight copies reconciled at ISHM backlog consumption. Recipient use remains separate."
+    "total": 226,
+    "delivered": 226,
+    "note": "All 226 day handoffs origin-proven. Named owner commits show TERRY, BRENT, FALCON, RED and CARL acted; recipient use otherwise separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_maintenance/REVIEW.md",
-        "sha256": "2def14e425a6d2558b71b7ecff84b29c77c5c2b3b74c0b268f3af7c976b7f5ab"
+        "path": "AGENTS/WALTER/research/2026-11-04_evening-boot/BOOT-RECEIPT.md",
+        "sha256": "7479c537b81bd49cd78ef56d58d62cb17977eb4a78f31bc3496bb375003339ba"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_maintenance/DEWEY-RECONCILIATION.md",
-        "sha256": "b8efa831eddd40f5d7fadc533769f167d83ccfabf9d98d88e3ad5b43b3cf0859"
+        "path": "AGENTS/WALTER/research/2026-11-04_evening-boot/crack-window-vwap.json",
+        "sha256": "55c1dc743480e6ddb017ffefb8ff2a9bea95e32a30ec2c1c2bdafaf095857d34"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_maintenance/MISSED-DAY-COVERAGE.md",
-        "sha256": "497c489f107c9238fc6d0ae2c35e11228708f9f3838993018a849601db7c9f73"
+        "path": "AGENTS/WALTER/research/2026-11-04_evening-boot/basis-review.json",
+        "sha256": "c71da8de192f0b4293d2c8d495e56bdc91a875f17bb52a58addab5506274679f"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_maintenance/CRUISE-COVERAGE.md",
-        "sha256": "7008db80ff0278ca4beef16ef55e64a7ee7a297bb6eb648e7e22f8b2757edd81"
+        "path": "AGENTS/WALTER/research/2026-11-05_iran-full-sweep/SWEEP.md",
+        "sha256": "554bcbfc3a4777aee38652eee3bc2c0cf62ed43f71d8436e6c9d5a75ac1e88ac"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_maintenance/SUPPLIER-RECENCY.md",
-        "sha256": "a62683c2f99e7da2923a5fa17972d6cd9a303a3e4ad9bed700bd101494960b06"
+        "path": "AGENTS/TERRY/research/2026-11-04_vlo-leg-a/NOTE.md",
+        "sha256": "6866d08f81f8f25e5f0b269187576d3304d23504bdbd598e7734e207651a9c7f"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_maintenance/owner-headers.json",
-        "sha256": "e2b4de768779fdfae709694c7c2e458704ff702505ef51107fcfbb553853a5b3"
+        "path": "AGENTS/FALCON/reports/2026-11-04_weekly-review-gate001-fal07.md",
+        "sha256": "36ad0cfb5f00e23d98cbd461feee8d865f5e4cc1e2ae5e4e58591bee5f3d5ac5"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-04_maintenance/registry-review.json",
-        "sha256": "66633a6f3499c53e7e724d9eae2c0bd84c9dafbc89f8486dfd96b98198a89b5d"
-      },
-      {
-        "path": "AGENTS/ISHM/NEXUS_BRIEF.md",
-        "sha256": "edd78d5fc4301fa7a00bd6a903fb7167fde02d48f78b6a950d61a77d3eb53456"
-      },
-      {
-        "path": "AGENTS/ISHM/research/2026-11-04_backlog/REPORT.md",
-        "sha256": "bf3afab15bfe8158f4c714971e5c6971e75fdcfa8bb8189f9ef02d49e0d0d598"
-      },
-      {
-        "path": "AGENTS/LIQUID/research/2026-11-04_credit-followthrough/REPORT.md",
-        "sha256": "a475284e949db987cb72b157ea0575da63d5cf60839165b626160016e6dee68e"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-04_final-close/REVIEW.md",
-        "sha256": "59763e767ab104cb5b7b229046798f45f1e2ac44455640bd429fea31f410a2a5"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-04_final-close/owner-headers.json",
-        "sha256": "378f5a0f343bc67d876fc9293a54ec66accc79f1e58ad29747ed081594d3ab08"
+        "path": "AGENTS/DEWEY/output/2026-11-04_carl-dr1-cof-q3-fdm-three-issuer-final.md",
+        "sha256": "65b45b0be88c6c7b91c5f13d3439939e61e65394b6e4d2c6d93c5bf22d428bbc"
       }
     ]
   },
   "procedure": {
     "tier": "full",
-    "boot": "PARTIAL: source/settlement/owner coverage and central READS attestation gaps retained.",
-    "session": "CLOSED on Will request; FULL continuity, no active helper/study or unattended work."
+    "boot": "PARTIAL: reads and intake complete; X scan recovered after re-authorization; European dailies, official settlements and step 8 narrative were deferred to this closeout; November 5 morning pass not run.",
+    "session": "CLOSED for desktop switch on Will request; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "No new BOARD cards in maintenance; 76 daily cards/209 origin-proven handoffs. Prior batches closed. Administrative reconciliation/recommendation packets authored.",
-    "13": "43 owner lead excerpts compared; changed WAL/LIQUID plus self refreshed before NETWORK.",
-    "12(a,b)": "Current counts and NETWORK refreshed; market rows retain prior observation dates, no fresh scan claimed.",
+    "11": "Cards 077-080 and 17 handoffs. No intake batch opened; 15 bookmarks staged, no manifest until reviewed.",
+    "13": "Nine changed owner leads compared; CARL, DAEDALUS, FALCON, ORACLE, RED, TERRY and self refreshed before NETWORK.",
+    "12(a,b)": "Counts and NETWORK refreshed; market rows retain observation dates, no fresh scan claimed.",
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; standing flags unchanged.",
-    "12(d,e)": "FULL session entry and current bottom line; light narrative debt cleared.",
-    "12(f)": "Continuity source-search ruling rotated verbatim to dated SOURCE-SEARCH-RULING.md; live pointer preserves exact reopen conditions. Final cap check passed.",
-    "14": "MEMORY closed-session note refreshed; no promotion, November 5 calendar review retained.",
-    "root.retirement": "Retained live source/review references; no safe unused-source retirement identified, no deletion sweep.",
-    "15": "Duties/approvals retained. WAL complete-source owner result supersedes its access blocker, not historical WALTER failed recovery. No new grade or restarted search.",
-    "16": "Will-opened push window: safe-push published final closeout171f02e5b and receipta5a10d557; fresh fetch confirmed. Foreign uncommitted files untouched.",
-    "checks": "Final receipt/caps/archives/weekdays/basis/memory PASS. READS UNKNOWN: central attestation stale. Doctor0 HIGH/2 MED: older consumption backlog and003R residual. Ledger nudge reviewed: REGISTRY updated; no new route/kill/fire events. Local consumption declarations already committed; remote visibility separate.",
-    "Tier1": "No new market data or event grade; stale continuity corrected using committed owner evidence."
+    "12(d,e)": "FULL session entry and current bottom line.",
+    "12(f)": "STATUS, MEMORY and LAST_COMPLETION under the rotation trigger. Charter 80% of budget, rotation owed and carried.",
+    "14": "MEMORY calendar check done; #60, #61 added; #26 re-pointed to step 7i.",
+    "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
+    "15": "Duties and approvals retained; 003R PARKED recorded; desktop resume list and calendar cutoff added.",
+    "16": "Will requested the machine switch; publication outcome recorded in the final report, foreign uncommitted files untouched.",
+    "checks": "Results in research/2026-11-05_close/closeout/checks.json. Doctor 0 HIGH, 2 MED: 79 unconsumed older than 2 days (28 ACTION, oldest 17 days) and 003R PARKED. Ledger nudge reviewed: no kills, nothing substantive. Basis: PROME fetch.py tolerance delta read, hash renewed.",
+    "Tier1": "No new market pull at closeout."
   }
 }
 END_CLOSEOUT_RECEIPT -->

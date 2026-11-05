@@ -1,16 +1,17 @@
 # WALTER STATUS
-**Updated:** 2026-11-04T22:55:33Z — CLOSED on Will request; FULL closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-05T13:43:42Z — CLOSED for desktop switch on Will request; FULL closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-CLOSED on Will request. November 4: 76 source-qualified cards and 209 origin-proven handoffs; recipient consumption is separate. Intake batches closed. ISHM survey and equipment/rail backlog results consumed; LIQUID renewed HY persistence routed with X1 CLOSED / DON'T-SIZE. Maintenance complete: DEWEY 005R resolved via existing work, 003R partial with exact residual; missed-day, CRUISE and supplier-query recommendations ready, not deployed.
+CLOSED for the desktop switch. November 4: 80 cards, 226 origin-proven handoffs; recipient use is separate. Evening finds: oil fell about 9% with no deal established (078); the December crack put held-VLO's exit through its line, TERRY graded FIRED (077); full Iran sweep found unrecorded hulls (079). WQ-598 steps 7i and 7e(g) installed.
 
-BALANCED baseline retained; labor intake LOOSE for November 6 payrolls. No new market pull in this maintenance pass. Full narrative debt cleared; dated source and owner gaps remain in LAST_COMPLETION.md.
+BALANCED baseline; labor intake LOOSE for November 6 payrolls. November 5 morning pass NOT run; 15 bookmarks staged unread. Desktop resume list: top of LAST_COMPLETION.md.
 
 ## DATED MARKET OBSERVATIONS
 
 | Object | Observation and limit |
 |---|---|
+| November 4 evening boot (pull November 5 01:18Z; vendor rows are not settlements) | FRED HY 340 / CCC 1,316 / VIXCLS 20.83 / SOFR−IORB +7 bp [Nov 3]; T5YIFR 2.22 [Nov 4]; SKEW 150.01 [Nov 3]; ICSA 194,000 [w/e Oct 24]; Cushing 27.250M [w/e Oct 30]; AGSI gap −15.772pp [Nov 3]. CNBC November 4 settlements Brent $94.62 (−8.7%), WTI $88.12 (−8.3%), months unnamed. Vendor S&P 7,688.62, VIX 16.61, KRE 74.13, WAL 79.24, USO 145.41, VLO 365.34. Matched December ULSD crack: Nov 2 $89.2472 TERRY-accepted (HELD-01 leg A FIRED), Nov 3 $94.1952, Nov 4 ESTIMATE $88.5451; CME unread. REG-T-04 10 bp watch. No new WALTER fire; European dailies, TTF and official settlements not re-pulled. Evidence: research/2026-11-04_evening-boot/. |
 | November 4 catch-up | FRED November 3: HY 340 bp, CCC 1,316 bp, VIXCLS 20.83, SOFR minus IORB +7 bp, T5YIFR 2.21%; Cboe SKEW 150.01. Cushing 27.250M barrels [week October 30]. WAL 76.77 / KRE 72.88 / UNG 9.13 [November 3 unadjusted closes]. HY >350 x3 not met; 10 bp watch. VIX exit run 3/5, owner grade retained. GFS November 4 12Z analyzed vortex mean +1.092857 m/s, no sampled reversal. Futures returns withheld by tool; official settlements and compound/source gaps remain. Evidence: research/2026-11-04_catchup/THRESHOLD-SCAN.md. |
 | November 2 credit follow-through | HY344 / CCC 1327 [October 30], FRED pages updated15:06/15:09Z November 2; first-published tool deciding values agree. HY+18bp; REG-T-04 strict>350x3 remains0/3,6bp watch. Prior fired states continue, no re-fire. No general funding-squeeze grade. Evidence research/2026-11-02_credit-availability/. |
 | November 2 boot (pull 14:14Z; observation dates retained) | FRED HY 326 / CCC 1,325 / VIXCLS 17.20 [Oct 29; Oct 30 HY not yet published at pull]; SOFR−IORB +5 bp [Oct 30]; SKEW 149.76, T5YIFR 2.22 [Oct 30]; ICSA 194,000 [w/e Oct 24]; Cushing 26.970M [w/e Oct 23]. KRE 72.01 / WAL 76.29 [Oct 30 closes]; existing FT-02/REG-T-03/FT-10/REG-T-02 fired states, exits not started. Matched January oil, vendor 09:04 ET intraday, not settles: CLF27 96.30 vs 102.21 (−5.78%), BZF27 106.94 vs 113.43 (−5.72%); ^VIX 19.04. No new fire/exit. Boundary 8 January count restarts November 2. Evidence research/2026-11-02_boot/. |
@@ -56,7 +57,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 - ISHM final/flash source qualification and five exact recipient dispositions: `research/2026-10-26_ishm-intake-receipt/REVIEW.md`; current comparison unchanged, hardware vintage limits retained.
 - Sole current obligation/approval/decision list and publication receipt: `LAST_COMPLETION.md`.
 - WQ-508 harness-audit lines applied 2026-10-23 (E04, U-W1, U-W2, U-W3, U-W5; Will confirmed in the WALTER terminal 10:5x ET); packet `inbox/2026-10-23_from-DAEDALUS_WQ508-harness-audit-lines.md`.
-- Current closeout evidence: `research/2026-11-04_catchup/closeout/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
+- Current closeout evidence: `research/2026-11-05_close/closeout/`; evening boot `research/2026-11-04_evening-boot/`; Iran sweep `research/2026-11-05_iran-full-sweep/SWEEP.md`; prior `research/2026-11-04_catchup/closeout/`; Gmail source processing: `research/2026-10-27_gmail-processing/`; earlier research: `research/2026-10-26_final/`; research: `research/2026-10-26_morning/` and `research/2026-10-26_unwind-search/`; prior partial boot preserved at `research/2026-10-16_codex-boot/BOOT-RECEIPT.md`.
 - Bookmark authentication/read/mark evidence: `MARK-RECEIPT.txt`, `bookmark-review.json` and `REVIEW.md` in the bookmark evidence directory. Credentials remain ignored/machine-local.
 - VULCAN intake recommendation: `outbox/REQ-PROME-20261016-vulcan-intake-design.md`; no collector deployment inferred.
 - Manual freight/source watch: `research/tanker-cost-watch/WATCH.md`, `STATE.csv`, `REVIEWS.tsv`.
@@ -64,7 +65,7 @@ Signal/news routing and receiving-layer readiness. Domain agents own evidence, g
 
 ## NETWORK AWARENESS
 
-REGISTRY refreshed before NETWORK at 2026-11-04T22:55:33Z. All 43 available owner lead excerpts compared with maintenance snapshot; LIQUID and WAL changed, self closed. WAL now records completed source/extraction, not UNCHECKED; LIQUID synthesis adds no market grade. Colors/classes unchanged. Evidence: research/2026-11-04_final-close/owner-headers.json and REVIEW.md.
+REGISTRY refreshed before NETWORK at 2026-11-05T13:43:42Z. Owner leads changed since the prior close and mirrored: CARL, DAEDALUS, FALCON, ORACLE, RED, TERRY; NEXUS and WAL already current; BRENT consumed by commit, STATUS lead still dated November 2. Colors/classes unchanged. HENRY and VIOLET hold unread ACTION items on cards 077/078.
 
 Complete cross-runtime lifecycle visibility remains UNKNOWN. No active WALTER helper, study or unattended task. Dates/headers do not certify full domain freshness. Current duties and publication proof remain in LAST_COMPLETION.md.
 
@@ -76,7 +77,7 @@ CARL,RED,REGINALD and BRENT remain DORMANT/ARCHIVED/CLOSED; no active turn or ca
 
 > 📌 **This block was DELETED by the 2026-07-23 STATUS spine regeneration and was ABSENT FOR 28 DAYS; RESTORED 2026-08-20 verbatim from `f29933a20` with one deliberate vocabulary correction. Full account rotated VERBATIM to `SESSION_LOG.md` 2026-09-14.** `[[finding_record_of_an_action_is_not_the_action]]`
 
-**Current: BALANCED baseline, with labor intake LOOSE through the November 6 payroll release window (within 72 hours as of November 4). Passed bank-Q3 and CPI windows do not sustain other LOOSE domains.** (Apr20 baseline; no confidence-floor or MINIMIZE change.) *Posture re-confirmed BALANCED by the empirical `design/FILTER_V3_REVIEW.md` (2026-07-04): filter structurally healthy, zero false-positive kills in the review window. No posture change has been proposed since; the 28-day absence of this block was a LOSS OF THE RECORD, not a change of state.*
+**Current: BALANCED baseline, with labor intake LOOSE through the November 6 payroll release window (within 72 hours as of November 5). Passed bank-Q3 and CPI windows do not sustain other LOOSE domains.** (Apr20 baseline; no confidence-floor or MINIMIZE change.) *Posture re-confirmed BALANCED by the empirical `design/FILTER_V3_REVIEW.md` (2026-07-04): filter structurally healthy, zero false-positive kills in the review window. No posture change has been proposed since; the 28-day absence of this block was a LOSS OF THE RECORD, not a change of state.*
 - Tuning rules (FILTER_SPEC § Tuning Rules) as primary guide
 - Pre-catalyst (≤72h before WAL/ZION/OZK earnings, Fed, CPI/NFP, **US–Iran MOU / negotiation-deadline events**, BOJ) → shift toward LOOSE on the relevant domain
   > ⚠️ **"Iran **MOU / negotiation-deadline**", never "ceasefire" — the anchor makes that word KILL-ON-SIGHT (ADD#20); there was never a ceasefire, only a 60-day MOU window that EXPIRED 2026-08-17 with no deal.** *(Restore the STRUCTURE, re-verify the TERMS. Full note in `SESSION_LOG.md`.)* **Same class, added 2026-09-17: "force majeure" is KILL-ON-SIGHT absent a declaration primary (ADD#25).**
