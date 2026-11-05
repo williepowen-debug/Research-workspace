@@ -113,7 +113,7 @@ SEC_ARCHIVE = "https://www.sec.gov/Archives/edgar/data"
 NEWS_URL = "https://news.google.com/rss/search"
 BANK_VENDORS = ['"Jack Henry"', 'Fiserv', '"FIS Global"', '"Computer Services Inc"', 'Corelation', '"Q2 Holdings"',
                 'Alkami', 'Candescent', 'Finastra', 'TruStage', '"Marquis Software"', 'Sharetec', 'Finzly',
-                '"N-central"', 'ConnectWise', 'Kaseya', 'Sefas', 'SitusAMC', '"core processor"']
+                '"N-central"', 'ConnectWise', 'Kaseya', 'Sefas', 'SitusAMC', 'Abrigo', 'Sageworks', '"core processor"']
 NEWS_TERMS = '(cyberattack OR breach OR outage OR "cybersecurity incident" OR ransomware)'
 NEWS_CONTROL_DAYS = 30
 NEWS_TITLE_INCIDENT_RE = re.compile(r"cyber|breach|outage|ransomware|hack|incident|attack|offline|disrupt|extortion|compromis", re.I)

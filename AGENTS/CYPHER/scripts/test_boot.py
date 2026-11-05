@@ -233,7 +233,7 @@ class BootDrills(unittest.TestCase):
 
     def test_bad_score_and_kind(self):
         d = self.clean_copy()
-        self.edit(d, "workbook/VX.tsv", "VX-CYP-01\tBank / core-vendor compromise\tMECHANISM\t2\t",
+        self.edit(d, "workbook/VX.tsv", "VX-CYP-01\tBank / core-vendor compromise\tMECHANISM\t3\t",
                   "VX-CYP-01\tBank / core-vendor compromise\tMECHANSIM\t7\t")
         self.assertBoot(d, 1, "VX-CYP-01: Kind 'MECHANSIM'", "VX-CYP-01: Score '7'")
 

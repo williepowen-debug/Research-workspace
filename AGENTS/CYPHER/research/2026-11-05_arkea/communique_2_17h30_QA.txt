@@ -1,0 +1,122 @@
+# Extracted from cp2.pdf (Crédit Mutuel Arkéa PDF, fetched 2026-11-05 ~14:00 ET). sha256 8051d874fbbb7762a636aa58b4a11ef1509f887c1389050be93ec7a2fc276fbb
+
+COMMUNIQUE DE PRESSE   
+
+Informations complémentaires suite à l’attaque dont le Crédit Mutuel Arkéa 
+a été victime  
+
+Brest, le 4/11/2026 à 17h30 - Suite au dernier communiqué de presse diﬀusé à 13h00, 
+vous  trouverez  ci-dessous  des  précisions  pour  répondre  aux  principales  questions 
+que vous nous avez adressées. 
+
+1/ Concrètement, que s’est-il passé ?  
+Les  attaquants  ont  utilisé  le  compte  propre  de  Crédit  Mutuel  Arkéa  pour  réaliser  des 
+transactions vers d’autres acteurs bancaires, qui leur ont ensuite potentiellement permis 
+de  convertir  cet  argent  en  crypto monnaie via des plateformes spécialisées. Ils ne sont 
+donc  pas  passés  par  des  comptes  de clients de ses fédérations ni de ses ﬁliales. Nous 
+avons  communiqué  sur  le  fait  que  cet  incident  n'entraîne  aucune  conséquence 
+ﬁnancière  pour  nos  clients.  Dès  l'identiﬁcation  de  cette  attaque,  nos  équipes  ont 
+immédiatement  activé  les  dispositifs  de  sécurité  nécessaires pour contenir l'incident et 
+empêcher tout nouveau mouvement frauduleux à notre encontre. 
+
+2/ Les attaquants sont-ils passés par Fortuneo, comme on a pu le lire dans la presse ?   
+Non.  Contrairement  à  ce  qui  a pu être écrit, aucune "entrée" ne s'est faite par Fortuneo. 
+Les attaquants sont passés par la plateforme d’un de nos prestataires et ont ainsi atteint 
+le Crédit Mutuel Arkéa directement.   
+
+3/ Quels sont les impacts pour les clients du réseau ou de Fortuneo ? 
+Aucun. Nous tenons à rassurer l'ensemble de nos clients : cet incident n’entraîne aucune 
+conséquence sur leurs avoirs. Il a seulement entraîné une exécution diﬀérée de certaines 
+opérations de virement. 
+Cet incident est aujourd’hui maîtrisé. La quasi-totalité des opérations a pu reprendre son 
+cours  dans  la  matinée,  après  que  le  Groupe  et  ses  ﬁliales  se  soient  assurés  de 
+vériﬁcations et de la mise en place de mesures de sécurisation renforcées. 
+
+4/ Une erreur humaine chez Arkéa est-elle la cause de l’attaque ? 
+Non.  Il  s'agit  d'une  attaque  sophistiquée  venant  de  l'extérieur,  qui  est  maintenant 
+circonscrite. 
+Nos dispositifs de sécurité ont permis d'identiﬁer très rapidement les activités suspectes 
+et de prendre les mesures nécessaires pour contenir l'attaque. 
+Nos  équipes  travaillent  avec  les  autorités  compétentes,  judiciaires  et  policières,  pour 
+déterminer précisément l'origine de l'attaque et son modus operandi. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5/ Avez-vous pris rapidement des mesures pour contrer cette attaque ? 
+Dès la détection de cette attaque, les mesures nécessaires ont été prises dans le cadre 
+des procédures de crises existantes. L'incident est aujourd'hui maîtrisé. 
+Conformément  aux  procédures  usuelles,  le  Groupe  s’est  rapproché  des  instances 
+compétentes et de supervision, aﬁn de les informer de la situation. 
+Les équipes se sont mobilisées en conséquence et la décision a été prise, par mesure de 
+précaution,  de  suspendre  temporairement  certaines  transactions  aﬁn  de  sécuriser  les 
+opérations et de prévenir tout mouvement frauduleux. 
+
+6/ Conﬁrmez-vous que 118 millions d'euros (133 millions de dollars) ont été dérobés ?   
+Nous  ne  conﬁrmons  pas  ces  informations  et  pouvons  simplement  valider  l’ordre  de 
+grandeur.  
+Nos  équipes  poursuivent  leurs  travaux  pour  évaluer  précisément  les  conséquences 
+ﬁnancières  de  cette  attaque  :  une  partie  des  fonds  concernés  a  pu  être  bloquée,  et 
+d'autres  actions  sont  en  cours  aﬁn  de  les  recouvrer.  S’il  est  donc  encore  trop  tôt  pour 
+communiquer  un  montant  déﬁnitif,  nous  pouvons  d’ores  et  déjà  aﬃrmer  que  les 
+montants  en  jeu  ne  sont  absolument  pas  de  nature  à  remettre  en  cause la santé et la 
+solidité ﬁnancière du Crédit Mutuel Arkéa.  
+
+le  contexte  d’attaques  de  cette  nature, 
+
+7/ Dans votre communiqué vous parlez de phishing, est-ce que cela signiﬁe que des 
+données de clients ont été compromises ?  
+Dans 
+il  est  fréquent  d’observer  une 
+recrudescence  des  tentatives  de  phishing  qui  viseraient  à  extorquer  des  données 
+conﬁdentielles.  Il  nous  semble  donc  indispensable  de  sensibiliser  nos  clients  à  titre 
+préventif en les appelant à la plus grande vigilance.  
+
+Lien vers le précédent communiqué de presse diﬀusé le 4 novembre à 13h.   
+
+À propos du Groupe Crédit Mutuel Arkéa  
+
+Groupe coopératif de banque et de services ﬁnanciers, le Crédit Mutuel Arkéa est composé des fédérations 
+du Crédit Mutuel de Bretagne et du Crédit Mutuel du Sud-Ouest, de leurs caisses locales adhérentes, ainsi 
+que d’une quarantaine de ﬁliales spécialisées (Fortuneo, Monext, Arkéa Banque Entreprises et Institutionnels, 
+Arkéa  Asset  Management,  Arkéa  Capital,  Suravenir,  Arkéa  Assurances…).  Il  compte  12  073  salariés,  2  600 
+administrateurs,  plus  de  5.8  millions  de  sociétaires  et  clients  et  aﬃche  un  total de bilan de 211,5 milliards 
+d’euros. Fort de la diversité de ses expertises et de la singularité de son modèle d’aﬀaires, le Crédit Mutuel 
+Arkéa  s’engage  en  faveur  de  l’accompagnement  des  transitions  environnementales  et  sociétales,  en 
+cohérence  avec  sa  qualité  d’entreprise  à mission. Partenaire ﬁnancier de référence en Bretagne et dans le 
+Sud-Ouest,  le  Crédit  Mutuel  Arkéa  s’appuie  sur  son  plan  stratégique  “Faire  2030”  pour  accélérer  son 
+développement  et  sa  transformation,  au  service  d’une  stratégie  audacieuse  animée  par  un  collectif  de 
+collaborateurs  et  de  sociétaires  engagés  autour  d’une  promesse  commune  :  “Avec  vous,  de  toutes  nos 
+forces”. 
+
+Contacts presse :  
+Matthieu Senecot - matthieu.senecot@vae-solis.com  
+Solen Deltour - solen.deltour@arkea.com 
+
+Suivez-l’actualité du Crédit Mutuel Arkéa sur les réseaux sociaux                             
+
+                                                 cm-arkea.com 
+
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+   
+

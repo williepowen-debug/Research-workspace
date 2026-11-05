@@ -48,3 +48,9 @@ CISA KEV v2026.10.26 lists both PHP2Shell root CVEs (dateAdded 10/26): row 2 FIR
 - **Row 8 boundary case:** a US credit union's precautionary ~24h digital-banking pause (CYB-INC-046) was ruled YELLOW under the VX-CYP-02 band registered on 10/22. It is not an R1 input.
 - Composite 22/40 raw, 16/40 adjusted (unchanged). Evidence: `research/2026-10-29_wave-recheck/RECORD.md`.
 
+## R1 context note — 2026-11-05 (L812 second pass; registered flips unchanged)
+
+- **Evidence moved, flip not met.** Palo Alto's Unit 42 brief (updated 10/29 11:00 PT, PRIMARY) says it "independently verified the same attacker's tooling and confirmed the reported results", with about .02% of the installed base impacted and each customer contacted. Dream's compromise is therefore vendor-confirmed, no longer one firm's blog (CYB-INC-047 → CONFIRMED). **No organisation is named**, so rows 1 and 3 stay NOT-FIRED and the toward-MOVEit flip is not met.
+- **DEWEY's "back toward Log4Shell on Dream withdrawing" route is closed for now.** Direction: one further step toward MOVEit on evidence. The test stays 11/20 with re-checks inside 11/13..11/20.
+- **Letter risk:** row 1's Sign lists "incident-response case" in a parenthetical. The R1 sentence requires a named organisation, and it governs this flip whichever way the row is read. Flagged to PROME; no letter changed.
+- **Not R1 inputs:** Arkéa (CYB-INC-059), Finzly (037) and Abrigo (060) are off-wave on all evidence held. The bank-vendor cluster watch met its count limb on Finzly and Abrigo; that is a desk watch, not an escalation row.
