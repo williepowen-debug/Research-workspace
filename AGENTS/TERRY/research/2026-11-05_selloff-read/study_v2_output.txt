@@ -1,0 +1,52 @@
+SPY<=-0.030 HYG>-0.0100 all                          n=14 | +5d med +0.6% win 64% | +10d med -3.1% win 36% | +20d med -5.0% win 21% | +29d med -2.2% win 29%
+   ex-2008/09                                        n= 9 | +5d med +0.7% win 67% | +10d med -2.6% win 44% | +20d med -3.0% win 33% | +29d med -0.9% win 44%
+SPY<=-0.030 HYG<=-0.0100 (credit with it)            n=28 | +5d med +1.5% win 61% | +10d med +2.3% win 61% | +20d med +1.9% win 68% | +29d med +3.5% win 71%
+   ex-2008/09                                        n=18 | +5d med +1.1% win 61% | +10d med +1.7% win 56% | +20d med +1.9% win 78% | +29d med +5.2% win 72%
+SPY<=-0.025 HYG>-0.0100 all                          n=37 | +5d med +0.6% win 54% | +10d med +1.6% win 62% | +20d med +1.0% win 51% | +29d med -0.1% win 49%
+   ex-2008/09                                        n=27 | +5d med +0.6% win 59% | +10d med +1.8% win 67% | +20d med +1.6% win 59% | +29d med +0.9% win 56%
+SPY<=-0.025 HYG<=-0.0100 (credit with it)            n=37 | +5d med +1.6% win 65% | +10d med +2.7% win 62% | +20d med +3.2% win 68% | +29d med +2.3% win 73%
+   ex-2008/09                                        n=24 | +5d med +1.6% win 62% | +10d med +2.8% win 67% | +20d med +3.5% win 75% | +29d med +5.0% win 75%
+SPY<=-0.035 HYG>-0.0100 all                          n= 7 | +5d med +1.4% win 86% | +10d med +4.2% win 71% | +20d med -3.9% win 29% | +29d med -1.7% win 43%
+   ex-2008/09                                        n= 4 | +5d med +2.0% win 100% | +10d med +4.6% win 100% | +20d med -0.5% win 50% | +29d med +1.6% win 75%
+SPY<=-0.035 HYG<=-0.0100 (credit with it)            n=21 | +5d med +1.6% win 62% | +10d med +1.9% win 52% | +20d med +1.5% win 67% | +29d med +1.5% win 67%
+   ex-2008/09                                        n=12 | +5d med +0.6% win 58% | +10d med -1.3% win 42% | +20d med +2.9% win 83% | +29d med +3.1% win 67%
+SPY<=-0.030 HYG>-0.0075 all                          n=11 | +5d med +0.3% win 55% | +10d med -3.9% win 18% | +20d med -3.9% win 18% | +29d med -2.1% win 27%
+   ex-2008/09                                        n= 7 | +5d med +0.5% win 57% | +10d med -3.9% win 29% | +20d med -3.0% win 29% | +29d med -0.9% win 43%
+SPY<=-0.030 HYG<=-0.0075 (credit with it)            n=32 | +5d med +1.6% win 66% | +10d med +3.1% win 66% | +20d med +2.5% win 69% | +29d med +3.7% win 69%
+   ex-2008/09                                        n=22 | +5d med +1.5% win 68% | +10d med +2.8% win 64% | +20d med +2.6% win 77% | +29d med +5.0% win 73%
+SPY<=-0.030 HYG>-0.0050 all                          n= 5 | +5d med +0.7% win 80% | +10d med -3.0% win 20% | +20d med -3.2% win 0% | +29d med -1.7% win 20%
+   ex-2008/09                                        n= 2 | +5d med +1.4% win 100% | +10d med +1.6% win 50% | +20d med -0.1% win 0% | +29d med +0.4% win 50%
+SPY<=-0.030 HYG<=-0.0050 (credit with it)            n=36 | +5d med +1.1% win 61% | +10d med +2.8% win 61% | +20d med +1.2% win 64% | +29d med +2.1% win 64%
+   ex-2008/09                                        n=26 | +5d med +1.1% win 65% | +10d med +2.3% win 58% | +20d med +1.2% win 69% | +29d med +2.6% win 69%
+
+events: ['2008-06-06', '2008-09-04', '2008-10-22', '2008-11-06', '2009-02-10', '2010-06-04', '2015-08-21', '2018-02-05', '2018-10-10', '2018-12-04', '2020-02-25', '2020-09-03', '2020-10-28', '2022-05-18']
+per-event SPY +20d TR / HYG min 29d / HYG end29 / HYG end48
+2008-06-06 -7.8% HYGday -0.28 min29 -6.1 end29 -4.0 end48 -4.5
+2008-09-04 -9.3% HYGday +0.43 min29 -26.3 end29 -20.4 end48 -21.4
+2008-10-22 -10.1% HYGday -0.83 min29 -9.9 end29 -7.8 end48 +8.0
+2008-11-06 -3.2% HYGday +0.00 min29 -12.1 end29 -0.7 end48 +5.4
+2009-02-10 -12.6% HYGday -0.66 min29 -16.6 end29 -6.2 end48 -0.8
+2010-06-04 -3.9% HYGday -0.56 min29 -0.7 end29 +3.8 end48 +3.8
+2015-08-21 -0.2% HYGday -0.36 min29 -3.6 end29 -3.5 end48 +0.0
+2018-02-05 +3.4% HYGday -0.56 min29 -0.9 end29 -0.3 end48 +0.8
+2018-10-10 +1.0% HYGday -0.72 min29 -2.2 end29 -2.2 end48 -3.9
+2018-12-04 -6.1% HYGday -0.62 min29 -4.4 end29 +1.2 end48 +2.2
+2020-02-25 -21.8% HYGday -0.70 min29 -20.9 end29 -13.2 end48 -9.5
+2020-09-03 -3.0% HYGday -0.62 min29 -2.1 end29 +0.0 end48 +1.2
+2020-10-28 +11.0% HYGday -0.83 min29 +0.0 end29 +3.8 end48 +4.5
+2022-05-18 -6.4% HYGday -0.82 min29 -3.8 end29 -3.1 end48 +2.6
+HYG end48 med 0.9926303510597756 share<=-1.4 0.2857142857142857 share<=-4.1 0.21428571428571427
+HYG min48 med -4.135159219377588 share<=-1.4 0.7857142857142857 share<=-3 0.7142857142857143
+ex0809 n 9 end48 med 1.19 share<=-1.4 0.2222222222222222 min48 med -3.63 share min<=-3 0.5555555555555556
+
+patient entry after each event (first red day with VIX3M/VIX>=1.00, 20-session limit)
+all calm-credit patient                              n= 9 | +5d med +0.6% win 56% | +10d med +1.0% win 56% | +20d med -0.4% win 44% | +29d med +1.4% win 56%
+   filled 9 of 14 ['2008-06-10', '2010-06-09', '2015-09-04', '2018-02-21', '2018-10-22', '2018-12-13', '2020-09-04', '2020-11-06', '2022-05-19']
+ex-08/09 patient                                     n= 8 | +5d med +1.2% win 62% | +10d med +1.2% win 62% | +20d med +0.1% win 50% | +29d med +1.5% win 62%
+   filled 8 of 9 ['2010-06-09', '2015-09-04', '2018-02-21', '2018-10-22', '2018-12-13', '2020-09-04', '2020-11-06', '2022-05-19']
+all SPY<=-3% clusters patient                        n=30 | +5d med +0.4% win 57% | +10d med +0.9% win 63% | +20d med +1.5% win 57% | +29d med +2.3% win 67%
+   filled 30 of 39 ['2007-03-22', '2008-06-10', '2008-12-11', '2009-01-22', '2009-03-20', '2009-04-06', '2009-04-22', '2010-02-10', '2010-05-11', '2010-06-09', '2010-06-30', '2011-09-01', '2011-10-07', '2011-11-14']
+
+baseline any day SPY +20d/+29d med/win:
+20 1.5 67.3 5979
+29 1.98 68.3 5970
