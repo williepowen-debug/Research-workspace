@@ -43,3 +43,9 @@ receipt_date	correction_id	action	note
 2026-10-25T16:45Z	COR-20261025-02	NO-OP	scope=Current STATUS L818 judgment and analysis/2026-10-23_L818-repricing-vs-restriction.md already reject issuance-freeze and volume-ahead-of-price inference from mismatched month-to-date and full-month volume. The brief fold preserves those limits. Spread readings and REG-T-04 terms unchanged.; 
 2026-10-29T04:20Z	COR-20261029-07	NO-OP	scope=LIQUID grep 10/29 - no LIQUID record cites a Charles Schwab breach or the Unit42 PHP government-breach link. Schwab mentions are SEC deposit figures only. Nothing to correct; 
 2026-11-04T21:04Z	COR-20261031-02	NO-OP	scope=Checked STATUS.md NEXUS_BRIEF.md MEMORY.md for the four killed October30 close figures and found none. The timestamped intraday VIX21.99 is preserved. Correct owner final quotes recorded in research/2026-11-04_boot/REPORT.md. No gate regrade commissioned.; 
+2026-11-05T21:45Z	COR-20261105-26	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#Ueno/Paraguay; validation_ref=AGENTS/LIQUID/research/2026-11-05_live-catchup/REPORT.md#14.3; measured $17.9M used; neither US-exposure phrase relayed
+2026-11-05T21:45Z	COR-20261105-57	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#GATE-LIQ-076; validation_ref=AGENTS/LIQUID/research/2026-11-05_live-catchup/REPORT.md#14.7; VIX about 28.17 vendor; W3 unaffected
+2026-11-05T21:45Z	COR-20261105-38	NO-OP	scope=grep of STATUS, NEXUS_BRIEF, OPEN_MONITORS and Nov 5 report: LIQUID carries no Preferred Bank figure; 
+2026-11-05T21:45Z	COR-20261105-41	NO-OP	scope=grep of STATUS, NEXUS_BRIEF, OPEN_MONITORS and Nov 5 report: LIQUID carries no Trepp figure; 
+2026-11-05T21:46Z	COR-20261105-52	NO-OP	scope=grep of STATUS, NEXUS_BRIEF, OPEN_MONITORS and Nov 5 report: LIQUID carries no Arkea figure, CYPHER owns; 
+2026-11-05T21:46Z	COR-20261105-61	NO-OP	scope=grep of same four surfaces: LIQUID carries no Cable One figure, BROCK owns; 
