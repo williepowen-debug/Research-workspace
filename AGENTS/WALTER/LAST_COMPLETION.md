@@ -156,12 +156,17 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
       "commit": "9e720481700cf5276fe94afa5603e00800e62e9f",
       "state": "published",
       "note": "Correction 038; reached origin on another desk's push."
+    },
+    {
+      "commit": "cec85afc7ab79eaeb0ccbd91c65d9bbdb7d0b64a",
+      "state": "published",
+      "note": "Cards 039-054 and rebase; push after Will's word."
     }
   ],
   "delivery": {
     "signal_date": "20261105",
     "total": 197,
-    "delivered": 144,
+    "delivered": 197,
     "note": "All day handoffs origin-proven and reconciled. Owner commits show HENRY, VIOLET, LIQUID, BOND, TERRY, REGINALD, CREED, AEOLUS, VULCAN and CARL read at least part; recipient use otherwise separate."
   },
   "owner_review": {
@@ -224,7 +229,7 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     "14": "MEMORY #62 added, #7 extended, #39 extended; calendar check stays November 12.",
     "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
     "15": "Duties and approvals retained; resume list and calendar cutoff updated; close pass carried first.",
-    "16": "Commits reached origin through other desks' pushes while WALTER deferred on foreign dirty work; reconcile applied; 039-040 pending.",
+    "16": "Rebased on BRENT routine commits and pushed on Will's word; reconcile applied. Hashes updated after rebase.",
     "checks": "Results in research/2026-11-05_midday-boot/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
     "Tier1": "Vendor tape 12:19 ET; no close read."
   }
