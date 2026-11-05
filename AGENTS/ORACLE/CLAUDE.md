@@ -41,6 +41,8 @@ You are part of a multi-agent research network tracking systemic financial risk.
 
 7. **Run the task.** Pull live — `polymarket.py pull --log` **and** `kalshi.py pull --log` (two real-money sources; cross-platform agreement raises confidence, divergence is itself a signal) — never cite STATUS as the live price. **Stay open mid-event:** if a watched market is actively resolving / mid-repricing, snapshot STATUS and stay engaged — do NOT trigger full closeout mid-window (memory `boot_protocol_live_event_override`, `intra_day_closeout_discipline`).
 
+7a. **Combination watch (WQ-622 A, Will 2026-11-05 16:11 ET; guide `PROME/COMBINATION_WATCH.md`).** In the session a pull, sweep or card arrives, an item too small to act on that may matter in combination goes in a dated `workbook/KB.tsv` row, `combo:<theme>` first in Notes, with counterevidence, what would make it matter, and a review date in Stale_By. Logging is not scoring: a tag moves no gate, band or trigger. Theme list: `SCRATCH.md` CARRY-FORWARD.
+
 ### CLOSEOUT (write-back — run at EVERY session end, even intra-day)
 
 Mirror of boot — write back what you read:

@@ -354,3 +354,10 @@ Polymarket slugs **rot**: markets resolve at their end-date and drop off. Every 
 - **Not changed:** `CLAUDE.md` (Will-gated). Its 250-line STATUS rule and table text stand.
 - **Boot-impact:** none.
 
+### 2026-11-05 — combination watch (WQ-622 A) and Kalshi Brent re-pin
+- **Trigger:** Will 16:11 ET ruled the watch for every desk; his word to ORACLE 18:11 ET, "go".
+- **`CLAUDE.md`:** step 7a added, class C4 under `PROME/COMBINATION_WATCH.md`, PROME to verify. No authority, route or threshold moved.
+- **`workbook/KB.tsv`:** six `combo:` theme rows, KB-ORC-119 to 124. No new file, schema or checker.
+- **`kalshi_watchlist.tsv`:** `KXBRENTMON-26NOV3017-T97.99` and `-T95.99` pinned. Off-center rungs are OI 0 and not monotonic.
+- **Found, not fixed:** `kalshi.py pull --log` has no double-log guard (23:15Z re-pull logged 9 of 9). No change made; Will 10/31: fewer checkers.
+- **Boot-impact:** step 7a only.

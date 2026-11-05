@@ -24,7 +24,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	bank_fail_any	PM	us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	70.0	14550.252169999998	1886.3661	seg4	FIXED	REGINALD/WAL/OZK
 2026-11-03	2026-11-03T18:15Z	bank_fail_any	PM	us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	70.5	14550.252169999998	2065.199	seg4	FIXED	REGINALD/WAL/OZK
 2026-11-04	2026-11-04T15:15Z	bank_fail_any	PM	us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	70.5	14550.252169999998	1728.9843	seg4	FIXED	REGINALD/WAL/OZK
-2026-11-05	2026-11-05T01:40Z	bank_fail_any	PM	us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	70.5	14550.252169999998	1984.8141	seg4	FIXED	REGINALD/WAL/OZK
+2026-11-05	2026-11-05T23:11Z	bank_fail_any	PM	us-bank-failure-by-december-31-2026-20260928	US bank failure by Dec 31 2026 (any bank, relist 9/28)	70.5	14550.252169999998	2563.2016	seg4	FIXED	REGINALD/WAL/OZK
 2026-07-02	2026-07-02T17:51Z	bank_fail_named	PM	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2.9	3142.968785	9678.70747	seg1	FIXED	REGINALD/WAL/OZK
 2026-07-09	2026-07-09T20:54Z	bank_fail_named	PM	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2.6	205.04864700000002	331.18937	seg1	FIXED	REGINALD/WAL/OZK
 2026-07-10	2026-07-10T01:06Z	bank_fail_named	PM	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2.5	8698.092390000003	7579.39969	seg1	FIXED	REGINALD/WAL/OZK
@@ -56,7 +56,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	bank_fail_named	PM	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	3.4	569.181204	354.77313	seg1	FIXED	REGINALD/WAL/OZK
 2026-11-03	2026-11-03T18:15Z	bank_fail_named	PM	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	4.9	9894.312059	1007.29759	seg1	FIXED	REGINALD/WAL/OZK
 2026-11-04	2026-11-04T15:15Z	bank_fail_named	PM	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	3.4	9894.312059	1252.36544	seg1	FIXED	REGINALD/WAL/OZK
-2026-11-05	2026-11-05T01:40Z	bank_fail_named	PM	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	3.4	9894.312059	353.80465	seg1	FIXED	REGINALD/WAL/OZK
+2026-11-05	2026-11-05T23:11Z	bank_fail_named	PM	which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	3.4	9894.312059	372.49207	seg1	FIXED	REGINALD/WAL/OZK
 2026-06-22	2026-06-22T02:34Z	best_asset_sp	PM	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	48.0	176647.5078530001	24118.8152	seg1	FIXED	VIOLET vol/tails
 2026-06-27	2026-06-27T13:25Z	best_asset_sp	PM	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	56.0	177710.7435050001	23812.7557	seg1	FIXED	VIOLET vol/tails
 2026-07-02	2026-07-02T17:51Z	best_asset_sp	PM	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	67.5	179428.3291960001	23650.5219	seg1	FIXED	VIOLET vol/tails
@@ -90,7 +90,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	best_asset_sp	PM	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	82.0	210440.519103	17084.2013	seg1	FIXED	VIOLET vol/tails
 2026-11-03	2026-11-03T18:15Z	best_asset_sp	PM	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	83.5	212709.009103	15906.8157	seg1	FIXED	VIOLET vol/tails
 2026-11-04	2026-11-04T15:15Z	best_asset_sp	PM	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	85.0	213226.33145599999	13151.9797	seg1	FIXED	VIOLET vol/tails
-2026-11-05	2026-11-05T01:40Z	best_asset_sp	PM	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	84.5	214601.29145599998	15081.6328	seg1	FIXED	VIOLET vol/tails
+2026-11-05	2026-11-05T23:11Z	best_asset_sp	PM	bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	85.5	218356.074792	19058.8144	seg1	FIXED	VIOLET vol/tails
 2026-07-17	2026-07-17T16:13Z	credit_dngrade	KALSHI	KXCREDITRATING-26DEC31	US credit rating downgrade 2026	16.0	67584.17	0.0	seg1	FIXED	BOND (blind-spot)
 2026-07-22	2026-07-22T16:58Z	credit_dngrade	KALSHI	KXCREDITRATING-26DEC31	US credit rating downgrade 2026	4.0	71022.49	0.0	seg1	FIXED	BOND (blind-spot)
 2026-07-24	2026-07-24T16:01Z	credit_dngrade	KALSHI	KXCREDITRATING-26DEC31	US credit rating downgrade 2026	4.0	71022.49	0.0	seg1	FIXED	BOND (blind-spot)
@@ -117,7 +117,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	credit_dngrade	KALSHI	KXCREDITRATING-26DEC31	US credit rating downgrade 2026	6.5	79729.39	None	seg1	FIXED	BOND (blind-spot)
 2026-11-03	2026-11-03T18:17Z	credit_dngrade	KALSHI	KXCREDITRATING-26DEC31	US credit rating downgrade 2026	6.9	79770.95	None	seg1	FIXED	BOND (blind-spot)
 2026-11-04	2026-11-04T15:15Z	credit_dngrade	KALSHI	KXCREDITRATING-26DEC31	US credit rating downgrade 2026	1.3	79797.95	None	seg1	FIXED	BOND (blind-spot)
-2026-11-05	2026-11-05T01:40Z	credit_dngrade	KALSHI	KXCREDITRATING-26DEC31	US credit rating downgrade 2026	1.2	79807.95	None	seg1	FIXED	BOND (blind-spot)
+2026-11-05	2026-11-05T23:15Z	credit_dngrade	KALSHI	KXCREDITRATING-26DEC31	US credit rating downgrade 2026	1.2	79818.95	None	seg1	FIXED	BOND (blind-spot)
 2026-06-22	2026-06-22T02:34Z	fed_hike_2026	PM	fed-rate-hike-in-2026	Fed: HIKE in 2026	60.5	2662977.4483690034	208296.8786	seg1	FIXED	KRE/OZK/WAL shorts
 2026-06-27	2026-06-27T13:25Z	fed_hike_2026	PM	fed-rate-hike-in-2026	Fed: HIKE in 2026	51.5	2966757.9969490017	202259.6322	seg1	FIXED	KRE/OZK/WAL shorts
 2026-07-02	2026-07-02T17:51Z	fed_hike_2026	PM	fed-rate-hike-in-2026	Fed: HIKE in 2026	46.5	3376495.6808700054	163658.5394	seg1	FIXED	KRE/OZK/WAL shorts
@@ -151,7 +151,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	70.5	2399775.9665429997	502857.0475	seg1	FIXED	LIQUID/HENRY/BOND
 2026-11-03	2026-11-03T18:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	73.5	2661872.090682	454643.5491	seg1	FIXED	LIQUID/HENRY/BOND
 2026-11-04	2026-11-04T15:15Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	80.5	3089130.0872869994	349275.9892	seg1	FIXED	LIQUID/HENRY/BOND
-2026-11-05	2026-11-05T01:40Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	77.5	3193660.448986999	587691.0848	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-05	2026-11-05T23:11Z	fed_hike_dec	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	63.5	4076051.666392	417675.9041	seg1	FIXED	LIQUID/HENRY/BOND
 2026-10-15	2026-10-15T12:39Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	87.0	49722.04	None	seg1	FIXED	LIQUID/HENRY/BOND
 2026-10-16	2026-10-16T17:39Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	82.0	49798.42	None	seg1	FIXED	LIQUID/HENRY/BOND
 2026-10-22	2026-10-22T02:22Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	80.0	56400.96	None	seg1	FIXED	LIQUID/HENRY/BOND
@@ -161,7 +161,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	72.0	116304.05	None	seg1	FIXED	LIQUID/HENRY/BOND
 2026-11-03	2026-11-03T18:17Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	76.0	122380.25	None	seg1	FIXED	LIQUID/HENRY/BOND
 2026-11-04	2026-11-04T15:15Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	79.0	125898.96	None	seg1	FIXED	LIQUID/HENRY/BOND
-2026-11-05	2026-11-05T01:40Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	81.0	187092.46	None	seg1	FIXED	LIQUID/HENRY/BOND
+2026-11-05	2026-11-05T23:15Z	fed_hike_dec_k	KALSHI	KXFED-26DEC-T4.00	Fed >=1 more hike by Dec (>4.00%)	65.0	246046.53	None	seg1	FIXED	LIQUID/HENRY/BOND
 2026-07-31	2026-07-31T20:43Z	fed_hike_sept	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	56.5	2113426.3894879995	347700.081	seg1	FIXED	KRE/OZK/WAL shorts
 2026-08-02	2026-08-02T18:33Z	fed_hike_sept	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	56.5	2407578.474068001	887362.4117	seg1	FIXED	KRE/OZK/WAL shorts
 2026-08-09	2026-08-09T21:58Z	fed_hike_sept	PM	will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649	Fed: HIKE at Sept mtg (specific)	35.5	4386380.994714002	505618.7339	seg1	FIXED	KRE/OZK/WAL shorts
@@ -211,7 +211,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	fed_nocuts	PM	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	97.0	9367945.144299002	280134.77342	seg1	FIXED	KRE/OZK/WAL shorts
 2026-11-03	2026-11-03T18:15Z	fed_nocuts	PM	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	97.4	9375653.141371002	303919.44476	seg1	FIXED	KRE/OZK/WAL shorts
 2026-11-04	2026-11-04T15:15Z	fed_nocuts	PM	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	97.5	9422416.675187998	303749.70339	seg1	FIXED	KRE/OZK/WAL shorts
-2026-11-05	2026-11-05T01:40Z	fed_nocuts	PM	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	97.8	9426625.979415001	646627.84518	seg1	FIXED	KRE/OZK/WAL shorts
+2026-11-05	2026-11-05T23:11Z	fed_nocuts	PM	will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	97.5	9488221.738232	524160.09522	seg1	FIXED	KRE/OZK/WAL shorts
 2026-06-22	2026-06-22T02:34Z	hormuz_normal	PM	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	86.5	2623576.5011459836	327357.5896	seg1	FIXED	BRENT/HAWK/FALCON
 2026-06-27	2026-06-27T13:25Z	hormuz_normal	PM	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	86.5	3097114.7013859875	290960.9753	seg1	FIXED	BRENT/HAWK/FALCON
 2026-07-02	2026-07-02T17:51Z	hormuz_normal	PM	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	82.5	3393819.3633099897	424807.5636	seg1	FIXED	BRENT/HAWK/FALCON
@@ -245,7 +245,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	hormuz_normal	PM	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	11.5	16114635.516468	335301.5769	seg1	FIXED	BRENT/HAWK/FALCON
 2026-11-03	2026-11-03T18:15Z	hormuz_normal	PM	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	11.5	16375373.907092	344876.2228	seg1	FIXED	BRENT/HAWK/FALCON
 2026-11-04	2026-11-04T15:15Z	hormuz_normal	PM	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	10.5	16462513.294122998	365634.1321	seg1	FIXED	BRENT/HAWK/FALCON
-2026-11-05	2026-11-05T01:40Z	hormuz_normal	PM	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	10.5	16727500.382879	350382.8972	seg1	FIXED	BRENT/HAWK/FALCON
+2026-11-05	2026-11-05T23:11Z	hormuz_normal	PM	strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	10.5	16828996.39532	351936.7655	seg1	FIXED	BRENT/HAWK/FALCON
 2026-06-19	2026-06-19T01:36Z	neh	PM	nothing-ever-happens-2026	Nothing Ever Happens 2026	82.5	619176.2074339978	27426.5095	seg1	FIXED	VIOLET vol/tails
 2026-06-22	2026-06-22T02:34Z	neh	PM	nothing-ever-happens-2026	Nothing Ever Happens 2026	83.0	621993.2466139976	41213.4666	seg1	FIXED	VIOLET vol/tails
 2026-06-27	2026-06-27T13:25Z	neh	PM	nothing-ever-happens-2026	Nothing Ever Happens 2026	83.5	632369.6720319976	40457.3502	seg1	FIXED	VIOLET vol/tails
@@ -280,7 +280,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	neh	PM	nothing-ever-happens-2026	Nothing Ever Happens 2026	81.5	882708.944545	29473.6959	seg1	FIXED	VIOLET vol/tails
 2026-11-03	2026-11-03T18:15Z	neh	PM	nothing-ever-happens-2026	Nothing Ever Happens 2026	81.5	884223.1581430001	31183.6091	seg1	FIXED	VIOLET vol/tails
 2026-11-04	2026-11-04T15:15Z	neh	PM	nothing-ever-happens-2026	Nothing Ever Happens 2026	85.5	893786.0993870001	56384.7109	seg1	FIXED	VIOLET vol/tails
-2026-11-05	2026-11-05T01:40Z	neh	PM	nothing-ever-happens-2026	Nothing Ever Happens 2026	88.5	906623.9707089999	41352.0404	seg1	FIXED	VIOLET vol/tails
+2026-11-05	2026-11-05T23:11Z	neh	PM	nothing-ever-happens-2026	Nothing Ever Happens 2026	88.0	909315.8170370001	39309.2262	seg1	FIXED	VIOLET vol/tails
 2026-06-19	2026-06-19T01:36Z	recession	PM	us-recession-by-end-of-2026	US recession 2026	12.5	1612085.7563229986	32493.6401	seg1	FIXED	whole bear book
 2026-06-22	2026-06-22T02:34Z	recession	PM	us-recession-by-end-of-2026	US recession 2026	12.5	1614725.1982969986	24051.172	seg1	FIXED	whole bear book
 2026-06-27	2026-06-27T13:25Z	recession	PM	us-recession-by-end-of-2026	US recession 2026	11.0	1631589.2519909984	24001.3642	seg1	FIXED	whole bear book
@@ -315,7 +315,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	recession	PM	us-recession-by-end-of-2026	US recession 2026	5.5	2416176.652664001	48499.766	seg1	FIXED	whole bear book
 2026-11-03	2026-11-03T18:15Z	recession	PM	us-recession-by-end-of-2026	US recession 2026	5.5	2420274.8036840004	48873.9079	seg1	FIXED	whole bear book
 2026-11-04	2026-11-04T15:15Z	recession	PM	us-recession-by-end-of-2026	US recession 2026	5.5	2423348.4168420006	47298.5267	seg1	FIXED	whole bear book
-2026-11-05	2026-11-05T01:40Z	recession	PM	us-recession-by-end-of-2026	US recession 2026	4.5	2427909.07437	67553.8594	seg1	FIXED	whole bear book
+2026-11-05	2026-11-05T23:11Z	recession	PM	us-recession-by-end-of-2026	US recession 2026	4.5	2431891.6243700003	84294.0655	seg1	FIXED	whole bear book
 2026-06-27	2026-06-27T15:14Z	recession_k	KALSHI	KXRECSSNBER-26	Recession 2026 (NBER)	10.0	2637543.98	0.0	seg1	FIXED	whole bear book
 2026-07-02	2026-07-02T17:51Z	recession_k	KALSHI	KXRECSSNBER-26	Recession 2026 (NBER)	8.0	2734847.88	0.0	seg1	FIXED	whole bear book
 2026-07-09	2026-07-09T20:51Z	recession_k	KALSHI	KXRECSSNBER-26	Recession 2026 (NBER)	10.0	2825789.34	0.0	seg1	FIXED	whole bear book
@@ -346,7 +346,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	recession_k	KALSHI	KXRECSSNBER-26	Recession 2025-26 (2Q neg GDP, BEA — no NBER leg despite ticker)	3.0	3874291.06	None	seg1	FIXED	whole bear book
 2026-11-03	2026-11-03T18:17Z	recession_k	KALSHI	KXRECSSNBER-26	Recession 2025-26 (2Q neg GDP, BEA — no NBER leg despite ticker)	2.0	3941289.28	None	seg1	FIXED	whole bear book
 2026-11-04	2026-11-04T15:15Z	recession_k	KALSHI	KXRECSSNBER-26	Recession 2025-26 (2Q neg GDP, BEA — no NBER leg despite ticker)	4.0	4004876.96	None	seg1	FIXED	whole bear book
-2026-11-05	2026-11-05T01:40Z	recession_k	KALSHI	KXRECSSNBER-26	Recession 2025-26 (2Q neg GDP, BEA — no NBER leg despite ticker)	2.0	4018697.53	None	seg1	FIXED	whole bear book
+2026-11-05	2026-11-05T23:15Z	recession_k	KALSHI	KXRECSSNBER-26	Recession 2025-26 (2Q neg GDP, BEA — no NBER leg despite ticker)	4.0	4023134.87	None	seg1	FIXED	whole bear book
 2026-06-22	2026-06-22T02:34Z	us_invade_iran	PM	will-the-us-invade-iran-before-2027	US invade Iran before 2027	14.0	38545682.884406686	283468.878	seg1	FIXED	BRENT/HAWK/FALCON
 2026-06-27	2026-06-27T13:25Z	us_invade_iran	PM	will-the-us-invade-iran-before-2027	US invade Iran before 2027	13.0	38873680.45352492	285682.2908	seg1	FIXED	BRENT/HAWK/FALCON
 2026-07-02	2026-07-02T17:51Z	us_invade_iran	PM	will-the-us-invade-iran-before-2027	US invade Iran before 2027	13.5	39145381.87494418	534330.8833	seg1	FIXED	BRENT/HAWK/FALCON
@@ -380,7 +380,7 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	us_invade_iran	PM	will-the-us-invade-iran-before-2027	US invade Iran before 2027	17.5	76613580.07368599	312486.4411	seg1	FIXED	BRENT/HAWK/FALCON
 2026-11-03	2026-11-03T18:15Z	us_invade_iran	PM	will-the-us-invade-iran-before-2027	US invade Iran before 2027	17.5	76900125.255645	265335.002	seg1	FIXED	BRENT/HAWK/FALCON
 2026-11-04	2026-11-04T15:15Z	us_invade_iran	PM	will-the-us-invade-iran-before-2027	US invade Iran before 2027	12.5	77526161.396726	319966.2392	seg1	FIXED	BRENT/HAWK/FALCON
-2026-11-05	2026-11-05T01:40Z	us_invade_iran	PM	will-the-us-invade-iran-before-2027	US invade Iran before 2027	10.5	77759644.42394201	348214.7921	seg1	FIXED	BRENT/HAWK/FALCON
+2026-11-05	2026-11-05T23:11Z	us_invade_iran	PM	will-the-us-invade-iran-before-2027	US invade Iran before 2027	12.5	78018917.55497901	306846.6145	seg1	FIXED	BRENT/HAWK/FALCON
 2026-06-19	2026-06-19T01:36Z	wti_100	PM	will-wti-reach-100-in-june-2026-823-791-134	WTI hits $100 (Jun) — war premium	2.1	473251.66273500083	130759.65613	seg1	ROLL	BRENT/HAWK/FALCON
 2026-06-22	2026-06-22T02:34Z	wti_100	PM	will-wti-reach-100-in-june-2026-823-791-134	WTI hits $100 (Jun) — war premium	2.2	818111.8833029998	125549.87797	seg1	ROLL	BRENT/HAWK/FALCON
 2026-06-27	2026-06-27T13:25Z	wti_100	PM	will-wti-reach-100-in-june-2026-823-791-134	WTI hits $100 (Jun) — war premium	0.4	937468.3546759989	60610.33018	seg1	ROLL	BRENT/HAWK/FALCON
@@ -414,4 +414,4 @@ date	ts	mark_id	platform	slug	label	yes_pct	volume	liquidity	segment	identity	ro
 2026-11-02	2026-11-02T15:15Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	36.5	18209.908441	25273.7488	seg3	ROLL	BRENT/HAWK/FALCON
 2026-11-03	2026-11-03T18:15Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	30.5	25789.3089	29804.0056	seg3	ROLL	BRENT/HAWK/FALCON
 2026-11-04	2026-11-04T15:15Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	25.5	28608.118409000002	5771.2213	seg3	ROLL	BRENT/HAWK/FALCON
-2026-11-05	2026-11-05T01:40Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	13.0	34372.010643	28680.8656	seg3	ROLL	BRENT/HAWK/FALCON
+2026-11-05	2026-11-05T23:11Z	wti_110	PM	will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	17.0	47133.404562	30269.5739	seg3	ROLL	BRENT/HAWK/FALCON

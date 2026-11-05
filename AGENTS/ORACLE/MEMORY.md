@@ -45,3 +45,5 @@ ORACLE brought back online after 79 days dormant (last touch 2026-04-01 inaugura
 - ~~Push deferred to a Will-coordinated window~~ — **SUPERSEDED 2026-06-27**: auto-push at closeout via `scripts/safe-push.sh` is now the fleet standard (see MAINTENANCE.md 6/27 entry); this file's original git note below is historical only.
 
 **Git (historical, 6/18):** all changes inside `AGENTS/ORACLE/`. Committed locally; push deferred to a Will-coordinated window (per shared-branch protocol). *(See correction above — superseded 6/27.)*
+
+**Boot status (2026-11-05):** pull live BEFORE characterizing the day to Will. A "status only" boot on the routine's 10:15 ET read told him the crowd priced in less risk; the 18:11 ET pull showed Dec hike −10pp more during a −4.4% S&P day. Quote a stale read only with its time and without a direction-of-risk summary.
