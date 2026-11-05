@@ -374,3 +374,7 @@ BOND-SIG-008-ANSWERED	2026-09-14T18:51:40Z	WALTER	consumed	BOND answered SIG-W-2
 2026-11-05	2026-11-05_from-HENRY_put-walls-broken-intraday-gamma-negative-all-three.md	WALTER	consume:WALTER; read whole in live session, routed SIG-W-20261105-020.
 2026-11-05	2026-11-05_from-LIQUID_november-4-credit-reverses.md	WALTER	consume:WALTER; read whole in live session, routed SIG-W-20261105-021.
 2026-11-05	2026-11-05_from-REGINALD_nano-pa-posted.md	WALTER	consume:WALTER; read whole; REGINALD already routed to PROME, CREED, WAL, DEWEY; no WALTER card, REG-T-04 and REG-T-07 matched.
+2026-11-05	2026-11-05_from-REGINALD_PFBC-multifamily-late-loans.md	WALTER	consume:WALTER; read whole in live session, routed SIG-W-20261105-025.
+2026-11-05	2026-11-05_from-REGINALD_late-loan-scan-routing.md	WALTER	consume:WALTER; read whole in live session, routed SIG-W-20261105-025.
+2026-11-04	2026-11-04_from-ISHM_equipment-and-october-rail-backlog.md	WALTER	consume:WALTER; declared late November 5; live session read it, research/2026-11-04_ishm-backlog/REVIEW.md, commit f3152bf6a.
+2026-11-04	2026-11-04_from-LIQUID_ROUTE-renewed-HY320-persistence.md	WALTER	consume:WALTER; declared late November 5; live session routed it as SIG-W-20261104-076, commit baa25ef70.

@@ -1,13 +1,29 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-11-05T16:31:13Z",
-  "items": 0,
+  "kind": "marked",
+  "checked_at": "2026-11-05T17:25:57Z",
+  "items": 4,
   "scan": {
-    "checked_at": "2026-11-05T16:31:13Z",
-    "head_checked_at": "2026-11-05T16:31:13Z",
+    "checked_at": "2026-11-05T17:20:37Z",
+    "head_checked_at": "2026-11-05T17:20:37Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 1
+    "attempts": 3
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "partly_read": 1,
+    "fully_read": 3
+  },
+  "dispositions": {
+    "DISPATCH": 1,
+    "FOLD": 2,
+    "NO-ACTION": 1
+  },
+  "follow_ups": [
+    {
+      "id": "2118382854325363063",
+      "ref": "BOARD/SIG-W-20261105-024-Paraguay-President-Pena-resigns-over-Ueno-Bank-Congress-must-accept.md"
+    }
+  ],
+  "requests": []
 }

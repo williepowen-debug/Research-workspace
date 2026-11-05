@@ -1,0 +1,34 @@
+---
+signal_id: "SIG-W-20261105-024"
+date: "2026-11-05"
+timestamp: "2026-11-05T17:24:58Z"
+dispatched: "2026-11-05T17:24:58Z"
+source: "WALTER"
+origin: ["WALTER midday boot / X bookmarks / REGINALD packets"]
+action: ["LIQUID"]
+info: ["SAM", "REGINALD", "BROCK", "RED", "PROME"]
+precedence: "IMMEDIATE"
+signal_type: "catalyst"
+confidence: 0.85
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+cluster: "BANK_COLLATERAL"
+domain: "FUNDING_LIQUIDITY"
+entities: ["Ueno-Bank", "Banco-Central-del-Paraguay", "Pena", "Paraguay"]
+word_count: 185
+dispatch_note: "Bookmarks 1, 2, 3 of BM batch; 2 and 3 folded with their claims marked. Direct AP fetch refused (403, then fetch-proxy refusal); no evasion. Search-summary points are labelled as such. IMMEDIATE on fast decay and state change, not on any US channel."
+---
+# Paraguay's President Peña resigns over the Ueno Bank collapse; Congress must still accept it; no US exposure established
+
+Update to 013 and 069. AP (Will's bookmark, posted 16:40Z), US News and NBC reprints, CNN and Bloomberg all report Peña resigned November 5, announcing it by video on X.
+
+Only Asunción Times' body was read: "I have made the decision to submit my resignation as President of the Republic." It says Congress must now consider it, and most members signal they will accept. So: announced, not yet accepted. Effective date and successor NOT read. AP, CNN and US News refused retrieval; the AP points below come from a search summary: large protests, an apology without accepting responsibility, eight Ueno executives detained including founder Miguel Vázquez.
+
+Why it matters: BCP opened resolution November 2 and the president fell three days later, so a failed bank has become a political event. Paraguay bonds, the guaraní and regional spillover NOT read. No US exposure established.
+
+KILL as stated: "It's now all gone" (069: guarantee ₲228.3M per depositor). "Largest bank", "60%" and "half" stay unsourced, no denominator read.
+
+ACTION LIQUID: integrate; say whether a sovereign or currency channel reaches your book. SAM: context on the EM carry row.
+
+Sources: X 2118382854325363063 (AP) ; https://asunciontimes.com/paraguay-news/national-news/santiago-pena-resigns-as-president-of-paraguay-following-ueno-bank-collapse/ ; https://www.usnews.com/news/world/articles/2026-11-05/paraguay-president-santiago-pena-resigns-following-bank-collapse ; https://www.cnn.com/2026/11/05/americas/president-paraguay-resigns-latam-intl ; https://www.bloomberg.com/news/articles/2026-11-05/paraguay-s-pena-resigns-amid-ueno-bank-crisis-abc-reports-mw3qgdu9 ; BOARD/SIG-W-20261104-069-Ueno-bank-fund-transmission.md

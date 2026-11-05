@@ -1,0 +1,10 @@
+event_key	calendar_source	owner	publication_state	source_vintage	walter_disposition	owner_grade_state	evidence_path	next_action
+pmms-2026-11-05	BOND STATUS (due today); weekly	HOMER/BOND	published	FRED MORTGAGE30US 7.18 [Nov 5], prior 7.24	reviewed/no route (weekly move inside the suppressed intake red state; no decision change)	unknown	AGENTS/WALTER/research/2026-11-05_midday-boot/THRESHOLD-SCAN.md	none
+ny-fed-household-debt-q3	PROME/DOCKET L575	CARL/NEXUS	unpublished/source unavailable	search found Q2 release (August 11) as latest; no Q3 release found; date unverified in the row	pending	none		owner row; re-check next pass
+cf-call-2026-11-05	PROME/DOCKET L578	FERT	published	11:00 ET call held; transcript not read	not reviewed	FERT wake owed		FERT
+ozk-q3-10q	PROME/DOCKET L763	OZK	unpublished/source unavailable	EDGAR submissions read this session: no filing since November 2	pending	none		owner re-dates at filing
+flg-q3-10q	REGINALD STATUS	FLG	unpublished/source unavailable	EDGAR submissions read this session: no filing since November 2	pending	none		FLG
+cabo-q3	PROME/DOCKET L876	BROCK	future	after close November 5	pending	none		next pass
+rc-q3	CREED STATUS	CREED	future	after close November 5	pending	none		next pass
+h41-2026-11-05	REGINALD STATUS	LIQUID/REGINALD	future	about 16:30 ET	pending	none		close pass
+nfp-october	HENRY ECON_CALENDAR	LABOR	future	November 6 08:30 ET	pending	none		next session

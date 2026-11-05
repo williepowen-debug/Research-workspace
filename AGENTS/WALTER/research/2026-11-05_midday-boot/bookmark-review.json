@@ -1,0 +1,35 @@
+{
+  "schema": 2,
+  "staged_at": 1793899237.882131,
+  "items": [
+    {
+      "id": "2118382854325363063",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "BOARD/SIG-W-20261105-024-Paraguay-President-Pena-resigns-over-Ueno-Bank-Congress-must-accept.md",
+      "ask_user": null
+    },
+    {
+      "id": "2118198445702046013",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2118195255204069402",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    },
+    {
+      "id": "2118367061315367316",
+      "disposition": "NO-ACTION",
+      "read_state": "fully_read",
+      "follow_up": null,
+      "ask_user": null
+    }
+  ],
+  "stage_id": "14874b97ad35441abd858f0b2d1d2567"
+}
