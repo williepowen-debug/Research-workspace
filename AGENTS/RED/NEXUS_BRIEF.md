@@ -44,26 +44,17 @@
 | To | Signal | Priority | Mechanism in recipient's domain |
 |----|--------|----------|----------------------------------|
 | **PROME** | S58 no weight moved; L739 caveat accepted; waiting on FALCON's Qeshm grade | 🟡 | packet `PROME/inbox/2026-11-04_from-RED_S58-catchup.md`; OUTBOX -068 |
-| **BROCK** | BRK-26: the class can count, SQN not established; two primary facts owed | 🟡 | keep the row OPEN, BROCK grades |
+| **BROCK** | BRK-26 graded 11/05: SQN does not resolve, row OPEN 55% to 12/31 (KB-BRK-429) | 🟢 | none; RED read at artifact |
 | **DAEDALUS** | Census #2: three rows DECLINED | 🟢 | rules stay manual; Will's fewer-checkers rule |
 
-**WAITING FOR [2026-11-04]:**
+**WAITING FOR [2026-11-05, closeout]:**
 
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
-| FRED | 11/04 cells (HY, VIXCLS, DGS) | 11/05 | FT-06 exit 3 of 5 or broken; FT-02 exit <300 ×3 (−3 Acute, CONF −2; 340 [11/03]) |
-| Cboe | SKEW daily | after 16:00 ET | FT-10 exit <140 ×4 (0 of 4) ⇒ Acute −2 / Managed +2 |
-| FALCON | Grade of the 11/02 Qeshm strike | owner's clock | War input at the next re-derivation; no mechanical move |
-| OZK / WAL | Q3 10-Qs | ~11/5 / by 11/9 | CHG-054 re-review 11/09 (OZK Chicago refi primary unread) |
+| FRED | 11/05 cells (HY, CCC, VIXCLS) | 11/06 | FT-06 exit day 1 only if VIXCLS >=18 (0 of 5); FT-02 exit <300 ×3 (−3 Acute, CONF −2; 332 [11/04]); RED-27 window |
+| Cboe | SKEW 11/05 bar, not posted at closeout | next boot | FT-10 exit <140 ×4 (0 of 4), Acute −2 / Managed +2 |
+| OZK | Q3 10-Q, FDIC filer; WAL read, $99M absent | by 11/9 | CHG-054 re-review 11/09 (OZK Chicago refi primary unread) |
 | BLS | October jobs | 11/6 08:30 | RED-23 resolves; KB-092 re-derive |
-| BLS | October CPI | 11/10 08:30 | FT-08 exit only on core ≤0.0 · CHG-028 closes |
-| NY Fed | Nov HHDC | ~11/15 | CHG-045 / CHG-049 |
-
-------|-------|-------------|------------------------|
-| FRED | 10/28 cells (HY, VIXCLS, DGS) | 10/29 | FT-02 exit <300 ×3 (−3 Acute, CONF −2; 318 [10/27]); FT-06 exit ≥18 ×5 (0 of 5) |
-| Cboe | SKEW daily | after 16:00 ET | FT-10 exit <140 ×4 (0 of 4) ⇒ Acute −2 / Managed +2 |
-| BOND | FT-11 precedence ruling | 11/13 | apparatus only; no weight |
-| OZK / WAL | Q3 10-Qs | ~11/5 / by 11/9 | CHG-054 re-review 11/09 (OZK Chicago refi primary unread) |
 | BLS | October CPI | 11/10 08:30 | FT-08 exit only on core ≤0.0 · CHG-028 closes |
 | NY Fed | Nov HHDC | ~11/15 | CHG-045 / CHG-049 |
 
@@ -80,7 +71,7 @@
 | 🟡 ~11/25 | FT-10 outcome horizon | condition already met; apparatus only |
 | 🟡 Fri 11/27 | VX-006 Zweig 12-month grade | SPY > 683.39 = CORRECT |
 
-**Daily monitors [2026-11-04 boot]:** FT-02 exit (340 [11/03], 0 of 3) · FT-12 HY vs 260 (80bp) · CCC 1,316 (FT-07 banked) · FT-10 SKEW 150.01 [11/03] (exit 0 of 4) · FT-06 exit 3 of 5 · FT-11 next window · WL-07/12 USD/JPY 158.01 vs 160/155 · WL-11 Brent <95 FIRING, 94.62 settle [11/04].
+**Daily monitors [2026-11-05 closeout, official cells 11/04]:** FT-02 exit (332 [11/04], 0 of 3) · FT-12 HY vs 260 (72bp) · CCC 1,297 (FT-07 banked) · FT-10 SKEW 150.90 [11/04] (exit 0 of 4) · FT-06 exit 0 of 5 · FT-11 next window · WL-07/12 USD/JPY 158.01 vs 160/155 · WL-11 Brent <95 FIRING, 94.62 settle [11/04].
 
 ---
 
