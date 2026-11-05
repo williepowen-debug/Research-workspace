@@ -28,7 +28,7 @@ Read-only except this file and one correction of a false line in STATUS.md. Prio
 |---|---|---|---|
 | S1 | REFERENCE_TABLES still shows March levels and "CTAs flip at 6,494" in the live sequence | domain/REFERENCE_TABLES.md:11-24 | 🟡 |
 | S2 | research/README.md last updated 3/5, repeats the demoted "0DTE 65%" as a finding | research/README.md | 🟡 |
-| S3 | 18 KB rows ACTIVE, 13 from 8/6-9/2, including "gamma flipped POSITIVE" and "kill 7bp away" | workbook/KB.tsv | 🟡 |
+| S3 | 17 KB rows ACTIVE, 12 from 8/6-9/2, including "gamma flipped POSITIVE" and "kill 7bp away" | workbook/KB.tsv | 🟡 |
 | S4 | MEMORY.md carries superseded notes: line 34 two-machine concurrency (now serial), line 46 pull credit from siblings (reversed by line 49), line 49 "divide by... no" | MEMORY.md | 🟡 |
 | S5 | Auto-memory reference says dashboard version 2 of 10/21; STATUS said version 4 of 10/22 | memory/auto/reference_henry_operating_dashboard.md | 🟢 |
 | S6 | LAST_COMPLETION.md is 11/2; overwritten at closeout, expected | — | 🟢 |
