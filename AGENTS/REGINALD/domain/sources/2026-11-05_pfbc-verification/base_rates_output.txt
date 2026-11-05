@@ -1,0 +1,20 @@
+('20180331', 0.0, 52.0, 'NA', 3.3, '->', [50.5, 50.4], 'NAup', 47.2, 'NCO2q', -0.3, 'jump', 52.0, 'comparable', True)
+('20190930', 9.5, 33.5, 'NA', 3.8, '->', [2.1, 2.1], 'NAup', -1.7, 'NCO2q', -0.1, 'jump', 24.0, 'comparable', False)
+('20200331', 26.7, 53.8, 'NA', 2.1, '->', [26.4, 25.2], 'NAup', 24.3, 'NCO2q', 3.4, 'jump', 27.1, 'comparable', True)
+('20240331', 4.9, 43.5, 'NA', 18.3, '->', [40.6, 19.4], 'NAup', 22.2, 'NCO2q', 9.0, 'jump', 38.6, 'comparable', True)
+('20240630', 43.5, 138.1, 'NA', 40.6, '->', [19.4, 8.3], 'NAup', -21.2, 'NCO2q', 6.6, 'jump', 94.6, 'comparable', False)
+('20250930', 32.8, 80.5, 'NA', 17.6, '->', [38.9, 169.1], 'NAup', 151.4, 'NCO2q', 5.5, 'jump', 47.7, 'comparable', True)
+('20251231', 80.5, 196.0, 'NA', 38.9, '->', [169.1, 98.2], 'NAup', 130.1, 'NCO2q', 5.4, 'jump', 115.4, 'comparable', True)
+('20260930', 108.9, 213.2, 'NA', 159.8, '->', [], 'NAup', None, 'NCO2q', None, 'jump', 104.3, 'comparable', None)
+events +50% and +$20M: 8 resolved 7 comparable(>=50% of jump) 5
+max NCO 2q window after any event 9.0
+>5% bank-quarters 55 banks 26 gradable 49 conv>=50% 15 cured 19
+>10% bank-quarters 12 banks 5 gradable 10 conv>=50% 3 cured 4
+    CFG BANK 20240331 23.3 ok 0.43
+    CFG BANK 20240630 16.3 ok 1.31
+    CFG BANK 20240930 15.5 ok 1.26
+    RAYMOND JAMES BANK, FSB 20110630 12.5 ok -0.0
+    MERCANTIL COMMERCEBANK, NATION 20101231 12.1 ok -1.19
+    PREFERRED BANK 20251231 11.9 ok 0.1
+    PREFERRED BANK 20241231 11.2 ok 0.68
+    CFG BANK 20260331 10.8 open 

@@ -38,6 +38,8 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 - **12:15 ET, Will-asked:** Ueno → `reports/2026-11-05_Ueno-Paraguay.md`. **My substring filter matched "Buenos Aires" and I told Will 111 fund filings held Ueno; the real figure is 17 series, $17.9M. Match a holdings pull on the CUSIP, and do not report a count before the rows are read.**
 
+- **12:34 ET:** outside PFBC research checked → `reports/2026-11-05_PFBC_deep-research-verification.md`. Base rates rebuilt from FDIC data match its direction. Its Plaza red flag failed against DEWEY's lien figure.
+
 ### EARLIER — 2026-11-03 12:06 ET, Will-launched boot, intake and write-back
 - **Read:** root/desk instructions and canonical STATUS → LESSONS → CALENDAR → MEMORY → ROADMAP boot sequence; fuller `boot.py` completed rc 1 (ALERT only, no FAIL/INCOMPLETE). Runtime Kimi Code CLI, exact model/session UNKNOWN; file-based coordination available.
 - **Tape:** 12:06 ET vendor quotes WAL $77.43, KRE $73.19, FLG $10.55; APO −5.58% flagged without cause attribution. Settled 11/02 (Yahoo/Nasdaq agree): WAL $78.67 (REG-T-02 FIRED, exit 0-of-3) and KRE $73.73; FLG $10.75, RED for 18 closes.
