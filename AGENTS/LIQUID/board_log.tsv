@@ -740,3 +740,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T18:58:51+00:00	SIG-W-20261105-033	info-only	INBOX_WALTER	Trepp SASB, CREED
 2026-11-05T18:58:51+00:00	SIG-W-20261105-038	info-only	INBOX_WALTER	REGINALD correction, not re-pulled
 2026-11-05T18:58:51+00:00	SIG-W-20261105-040	info-only	INBOX_WALTER	REGINALD framing fix
+2026-11-05T18:59:06+00:00	SIG-W-20261105-041	info-only	INBOX_WALTER	Trepp correction, CREED owns
