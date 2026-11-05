@@ -21,7 +21,7 @@ All amounts are **millions**. Each issuer's rolling 12-month modified group, rea
 
 ⚠️ Capital One's 2025 row includes Discover loans modified before the May 2025 closing.
 
-**Rely on the share, not the percentage change.** JPMorgan's +25.9% in 2025 happened while its group was growing fast, and its share stayed flat at about 12%. Capital One's rise came with a share jump of 8.0 points.
+**Rely on the share, not the percentage change.** JPMorgan's +25.9% in 2025 happened while its group was growing fast, and its share stayed flat at about 12%. Capital One's rise came with a share jump of 7.9 points.
 
 ### Flows and whole-book delinquency
 
@@ -51,7 +51,7 @@ Method: `(book delinquent − group delinquent) / (book loans − group total)`.
 
 ## Counter-evidence and limits
 
-- **Against "Capital One only":** Citi is unread. Synchrony's share did rise 0.8 points, and flows rose at every issuer but one on the quarter (Bread rose 1.1% and fell on the year), so a mild common rise in need is possible.
+- **Against "Capital One only":** Citi is unread. Synchrony's share did rise 0.8 points, and flows rose at all six issuers on the quarter (Bread by only 1.1%, and it fell on the year), so a mild common rise in need is possible.
 - **Against "real borrower stress at Capital One":** one quarter, cause unknown, and an internal reporting or program change would produce the same picture. The filing states none, which is not proof there was none.
 - **Comparability:** Bank of America pools card with other consumer loans. JPMorgan's first bucket includes under-30-days past due. Issuers differ on whether balances are period-end or at modification, and on which exits leave the table. These issuers are not pooled here.
 - **Not a measure of hidden delinquency.** The class-wide causal test stays NOT COMPUTABLE and is CARL's.
