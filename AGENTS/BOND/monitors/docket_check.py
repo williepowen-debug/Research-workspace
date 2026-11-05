@@ -102,7 +102,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from ta_ws_schema import normalize  # noqa: E402
+from ta_ws_schema import coupon_row_defect, iso_date, normalize, type_defect  # noqa: E402
 
 TD_UPCOMING = "https://www.treasurydirect.gov/TA_WS/securities/upcoming?format=json"
 UA = {"User-Agent": "BOND-research/1.0"}  # WQ-600: TreasuryDirect only, no contact sent
@@ -111,6 +111,7 @@ CATALYSTS = HERE.parent / "docket" / "CATALYSTS.tsv"
 
 # Bills are not BOND's instrument class; coupons are.
 COUPON_TYPES = {"Note", "Bond"}
+STALE_UPCOMING_DAYS = 7   # an `upcoming` coupon dated further back than this is a schema tell, not a calendar
 
 # Does a docket EVENT row identify a scheduled coupon auction?
 #
@@ -239,10 +240,31 @@ def docketed_coupon_rows(docket_text: str, lo: dt.date, hi: dt.date) -> list[str
 
 # ---------------------------------------------------------------------- report
 
+def schema_refusal(rows: list[dict], today: dt.date) -> str | None:
+    """Why this payload cannot be read as a calendar, or None. A bills-only week passes."""
+    why = type_defect(rows)
+    if why:
+        return why
+    for r in rows:
+        if r.get("securityType") not in COUPON_TYPES:
+            continue
+        why = coupon_row_defect(r, fields=())
+        if why:
+            return why
+        ad = iso_date(r.get("auctionDate"))
+        if ad < today - dt.timedelta(days=STALE_UPCOMING_DAYS):
+            return f"{r.get('cusip', '?')}: upcoming row dated {ad}, more than {STALE_UPCOMING_DAYS} days past"
+    return None
+
+
 def evaluate(rows: list[dict], docket: str, today: dt.date, days: int) -> tuple[int, list[str]]:
     """Returns (rc, lines). Pure: no I/O, so --selftest can drive it."""
     out: list[str] = []
     horizon = today + dt.timedelta(days=days)
+    why = schema_refusal(rows, today)
+    if why:   # the feed's meaning changed: refuse, never an empty coupon set at rc 0 (L859 F1, F2, F3)
+        return 2, [f"[docket_check] ⛔ SCHEMA REFUSAL: {why}",
+                   "[docket_check] rc=2 -- NOT a pass and NOT an empty calendar. Fix monitors/ta_ws_schema.py."]
     fh = feed_horizon(rows)
     span = blind_span(today, horizon, fh)
 
@@ -250,10 +272,7 @@ def evaluate(rows: list[dict], docket: str, today: dt.date, days: int) -> tuple[
     for r in rows:
         if r.get("securityType") not in COUPON_TYPES:
             continue
-        try:
-            ad = dt.date.fromisoformat(str(r["auctionDate"])[:10])
-        except (ValueError, KeyError):
-            continue
+        ad = iso_date(r["auctionDate"])   # schema_refusal has proved every coupon date parses
         if today <= ad <= horizon:
             upcoming.append(r)
     upcoming.sort(key=lambda x: str(x["auctionDate"]))
@@ -452,6 +471,46 @@ def selftest() -> int:
     check("a genuine CUSIP row IS coverage",
           len(docketed_coupon_rows("date\tevent\n2026-09-16\t**US 20Y NEW ISSUE 912810UX4**\n",
                                    dt.date(2026, 9, 2), dt.date(2026, 9, 17))), 1)
+
+    # 12. L859 F1/F2/F3: schema breaks driven through the REAL fetch_upcoming path, undocketed coupon present.
+    class _Resp:
+        status = 200
+        def __init__(self, payload): self.body = json.dumps(payload).encode()
+        def read(self, *a): return self.body
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+
+    def _via_fetch(payload, when=dt.date(2026, 11, 5)):
+        real = urllib.request.urlopen
+        urllib.request.urlopen = lambda *a, **k: _Resp(payload)
+        try:
+            try:
+                rows = fetch_upcoming()
+            except RuntimeError:
+                return 2
+            return evaluate(rows, "", when, 21)[0]
+        finally:
+            urllib.request.urlopen = real
+
+    def _p(**kw):
+        coupon = {"competitiveAuctionCloseDate": "2026-11-09T00:00:00", "securityType": "Note", "securityTerm": "3-Year", "cusip": "91282CZZ9"}
+        coupon.update(kw)
+        bill = {"competitiveAuctionCloseDate": "2026-11-09T00:00:00", "securityType": "Bill", "securityTerm": "13-Week", "cusip": "912797VA2"}
+        return [bill, {k: v for k, v in coupon.items() if v is not ...}]
+
+    check("control: undocketed coupon fires rc=1", _via_fetch(_p()), 1)
+    check("bills-only week stays rc=0", _via_fetch(_p()[:1]), 0)
+    check("securityType renamed -> rc=2", _via_fetch(_p(securityType=..., instrumentType="Note")), 2)
+    check("securityType value changed -> rc=2", _via_fetch(_p(securityType="Treasury Note")), 2)
+    check("securityType upper-cased -> rc=2", _via_fetch(_p(securityType="NOTE")), 2)
+    check("coupon date key renamed, bills good -> rc=2", _via_fetch(_p(competitiveAuctionCloseDate=..., closeDate="2026-11-09")), 2)
+    check("coupon date empty, bills good -> rc=2", _via_fetch(_p(competitiveAuctionCloseDate="")), 2)
+    check("coupon date slash format, bills good -> rc=2", _via_fetch(_p(competitiveAuctionCloseDate="11/09/2026")), 2)
+    check("coupon date TBA, bills good -> rc=2", _via_fetch(_p(competitiveAuctionCloseDate="TBA")), 2)
+    check("old date key empty, new good -> fills, rc=1", _via_fetch(_p(auctionDate="")), 1)
+    check("old date disagrees with new -> rc=2", _via_fetch(_p(auctionDate="2026-10-01T00:00:00")), 2)
+    check("old date alone and stale -> rc=2", _via_fetch(_p(competitiveAuctionCloseDate=..., auctionDate="2026-10-01T00:00:00")), 2)
+    check("every row dateless -> rc=2", _via_fetch([{"securityType": "Bill", "cusip": "X"}]), 2)
 
     if fails:
         print("[docket_check --selftest] 🔴 FAILED")

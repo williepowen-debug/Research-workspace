@@ -10,8 +10,12 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
+import datetime as dt
+
+import docket_check as d
 import grade_auction as g
 import buyback_f2 as f2
+import ta_ws_schema as ta
 
 
 class GraderPaths(unittest.TestCase):
@@ -27,6 +31,9 @@ class GraderPaths(unittest.TestCase):
         self.target = g._fx('2026-10-21', '20-Year', 57.96, cusip='TARGET', reopening=True)
         g.DEGENERATE.clear()
         self.addCleanup(g.DEGENERATE.clear)
+        frn = patch.object(g, 'frn_cusips', return_value=set())   # never pull or rewrite the FRN cache here
+        frn.start()
+        self.addCleanup(frn.stop)
 
     def run_grade(self, rows=None, pending=None, frozen=True, extra=None, date=False):
         self.snapshot.write_text(json.dumps(self.snap))
@@ -66,7 +73,8 @@ class GraderPaths(unittest.TestCase):
         self.assertEqual(rc, 0)
         for label in ['MIN ? NO', 'MAX ? NO']:
             self.assertIn(label, text)
-        self.assertIn('CLEAN', text)  # OLD/cover clean, independent I-prime can fire
+        self.assertIn("I' MARKER FIRED", text)  # OLD and cover inside; I-prime fired, so not a clean print
+        self.assertNotIn('🟢 CLEAN', text)
         self.target.update(ind=52.4699, dlr=17.5901, btc=2.3599)
         self.assertIn('COMPOSITION FAILURE', self.run_grade()[1])
 
@@ -104,7 +112,7 @@ class GraderPaths(unittest.TestCase):
             row['tips'] = True
         self.snap.update(tips=True, p15=None, p15_reopen=None)
         for pending in [[], [dict(cusip='TARGET', auctionDate='2026-10-21',
-                                  securityTerm='20-Year', tips='Yes', reopening='Yes')]]:
+                                  securityTerm='20-Year', tips='Yes', floatingRate='No', reopening='Yes')]]:
             rc, text = self.run_grade(pending=pending)
             self.assertEqual(rc, 0)
             self.assertIn('NOT DEFINED FOR TIPS', text)
@@ -122,7 +130,7 @@ class GraderPaths(unittest.TestCase):
     def test_bad_old_print_does_not_block_pending_reopening(self):
         g.DEGENERATE.append(('2026-09-15', 'TARGET', 'fixture', 'single leg'))
         pending = [dict(cusip='TARGET', auctionDate='2026-10-21', securityTerm='20-Year',
-                        tips='No', reopening='Yes')]
+                        tips='No', floatingRate='No', reopening='Yes')]
         rc, text = self.run_grade(rows=self.rows, pending=pending)
         self.assertEqual(rc, 0)
         self.assertIn('PRE-PRINT', text)
@@ -150,7 +158,7 @@ class GraderPaths(unittest.TestCase):
         with path.open('w') as out:
             writer = csv.DictWriter(out, fieldnames=list(fields))
             writer.writeheader(); writer.writerow(fields)
-        ta = dict(securityType='Bond', cusip='BADTA', auctionDate='2026-09-16',
+        ta = dict(securityType='Bond', cusip='BADTA', auctionDate='2026-09-16', tips='No', floatingRate='No', reopening='No',
                   indirectBidderAccepted='700', directBidderAccepted='200', primaryDealerAccepted='100',
                   competitiveAccepted='1100')
         with patch.object(g, 'CORPUS', path), patch.object(g, 'frn_cusips', return_value={'FRN'}), \
@@ -175,7 +183,7 @@ class GraderPaths(unittest.TestCase):
             self.assertNotIn('NO GATE VERDICT', text)
 
     def test_malformed_latest_rows_never_grade_stale_original(self):
-        base = dict(securityType='Bond', cusip='TARGET', auctionDate='2026-10-21',
+        base = dict(securityType='Bond', cusip='TARGET', auctionDate='2026-10-21', tips='No', floatingRate='No', reopening='No',
                     indirectBidderAccepted='60', directBidderAccepted='20', primaryDealerAccepted='20',
                     competitiveAccepted='100', bidToCoverRatio='2.5')
         mutations = [('indirectBidderAccepted', None), ('indirectBidderAccepted', 'inf'),
@@ -197,7 +205,7 @@ class GraderPaths(unittest.TestCase):
     def test_tips_preprint_with_no_rolling_history(self):
         self.snap.update(tips=True, p15=None, p15_reopen=None)
         pending = [dict(cusip='TARGET', auctionDate='2026-10-21', securityTerm='20-Year',
-                        tips='Yes', reopening='Yes')]
+                        tips='Yes', floatingRate='No', reopening='Yes')]
         rc, text = self.run_grade(rows=[], pending=pending)
         self.assertEqual(rc, 0)
         self.assertIn("I' NOT DEFINED FOR TIPS", text)
@@ -206,7 +214,7 @@ class GraderPaths(unittest.TestCase):
     def test_preprint_rejects_mismatched_snapshot(self):
         self.snap['cusip'] = 'OTHER'
         pending = [dict(cusip='TARGET', auctionDate='2026-10-21', securityTerm='20-Year',
-                        tips='No', reopening='Yes')]
+                        tips='No', floatingRate='No', reopening='Yes')]
         rc, text = self.run_grade(rows=self.rows, pending=pending)
         self.assertEqual(rc, 2)
         self.assertIn('GAP', text)
@@ -216,6 +224,81 @@ class GraderPaths(unittest.TestCase):
         self.assertEqual(g.degenerate_reason(None, 20, 80), 'missing')
         for legs in [(0, 0, 100), (float('nan'), 20, 80), (float('inf'), 20, 80), (1e308, 1e308, 1e308), (-1, 20, 81)]:
             self.assertTrue(g.degenerate_reason(*legs))
+
+
+class SchemaRepair(unittest.TestCase):
+    """DOCKET L859: the ta_ws_schema repair and its callers, offline."""
+
+    def row(self, **kw):
+        r = dict(securityType='Note', cusip='TARGET', securityTerm='3-Year', originalSecurityTerm='3-Year',
+                 competitiveAuctionCloseDate='2026-11-09T00:00:00', inflationProtected='No', floatingRate='No',
+                 reopening='No', primaryDealersCompetitiveParAwarded='900', indirectBiddersCompetitiveParAwarded='6000',
+                 directBiddersCompetitiveParAwarded='3100', subtotalCompetitiveParAwardedInsideOfOfferingAmount='10000',
+                 subtotalCompetitiveParAwardedOutsideOfOfferingAmount='', bidToCoverRatio='2.60', highYield='4.5',
+                 issueDate='2026-11-16T00:00:00', maturityDate='2029-11-15T00:00:00', offeringAmount='58000000000')
+        r.update(kw)
+        return {k: v for k, v in r.items() if v is not ...}
+
+    def overlay(self, rows):
+        g.DEGENERATE.clear()
+        self.addCleanup(g.DEGENERATE.clear)
+        with patch.object(g, '_get', return_value=ta.normalize(rows)), patch.object(g, 'frn_cusips', return_value={'FRN1'}):
+            return g._from_ta_ws()
+
+    def test_ordinary_row_loads(self):
+        self.assertEqual([x['cusip'] for x in self.overlay([self.row()])], ['TARGET'])
+
+    def test_zero_coupon_rows_refuse(self):
+        for rows in ([], [self.row(securityType='Bill')]):
+            with self.assertRaises(RuntimeError):
+                self.overlay(rows)
+
+    def test_vocabulary_breaks_refuse(self):
+        for kw in (dict(securityType=...), dict(securityType='Treasury Note'), dict(floatingRate='false'),
+                   dict(floatingRate=...), dict(reopening='true'), dict(inflationProtected='false'),
+                   dict(inflationProtected=...), dict(competitiveAuctionCloseDate='11/09/2026')):
+            with self.assertRaises(RuntimeError, msg=str(kw)):
+                self.overlay([self.row(**kw)])
+
+    def test_one_unknown_type_refuses_beside_good_coupons(self):
+        with self.assertRaises(RuntimeError):
+            self.overlay([self.row(), dict(self.row(cusip='ODD'), securityType='Treasury Note')])
+
+    def test_frn_excluded_by_list_as_well_as_field(self):
+        self.assertEqual(self.overlay([self.row(cusip='FRN1'), self.row()])[0]['cusip'], 'TARGET')
+        self.assertEqual(len(self.overlay([self.row(cusip='FRN1'), self.row()])), 1)
+
+    def test_conflict_leaves_the_pool_named_and_spares_bystanders(self):
+        out = self.overlay([self.row(cusip='BAD', indirectBidderAccepted='1'), self.row()])
+        self.assertEqual([x['cusip'] for x in out], ['TARGET'])
+        self.assertEqual(g.DEGENERATE[0][1], 'BAD')
+
+    def test_agreeing_names_proceed(self):
+        out = self.overlay([self.row(auctionDate='2026-11-09T13:00:00', indirectBidderAccepted='6000.00')])
+        self.assertEqual(len(out), 1)
+        self.assertEqual(g.DEGENERATE, [])
+
+    def test_empty_frn_pull_warns_and_uses_cache(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            cache = Path(tmp) / 'frn.json'
+            cache.write_text('["FRN1"]')
+            err = io.StringIO()
+            with patch.object(g, '_get', return_value=[]), patch.object(g, 'FRN_CACHE', cache), contextlib.redirect_stderr(err):
+                self.assertEqual(g.frn_cusips(), {'FRN1'})
+            self.assertIn('no CUSIPs', err.getvalue())
+
+    def test_preprint_target_with_unknown_value_refuses(self):
+        bad = ta.normalize([self.row(inflationProtected='maybe')])
+        out = io.StringIO()
+        with patch.object(g, 'load', return_value=[]), patch.object(g, '_get', return_value=bad), \
+             patch('sys.argv', ['grade', '--cusip', 'TARGET']), contextlib.redirect_stdout(out), contextlib.redirect_stderr(out):
+            self.assertEqual(g.main(), 2)
+        self.assertIn('schema refusal', out.getvalue())
+
+    def test_docket_refuses_through_real_path(self):
+        rows = ta.normalize([self.row(securityType=...)])
+        self.assertEqual(d.evaluate(rows, '', dt.date(2026, 11, 5), 21)[0], 2)
+        self.assertEqual(d.evaluate(ta.normalize([self.row()]), '', dt.date(2026, 11, 5), 21)[0], 1)
 
 
 class PacketOutput(unittest.TestCase):

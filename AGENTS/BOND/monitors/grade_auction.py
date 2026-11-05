@@ -54,7 +54,7 @@ import sys
 import urllib.request
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from ta_ws_schema import normalize  # noqa: E402
+from ta_ws_schema import CONFLICT, COUPON_TYPES, coupon_row_defect, normalize, type_defect  # noqa: E402
 
 UA = {"User-Agent": "BOND-research/1.0"}  # WQ-600: TreasuryDirect only, no contact sent
 AUCTIONED = ("https://www.treasurydirect.gov/TA_WS/securities/auctioned"
@@ -105,6 +105,7 @@ def frn_cusips():
         if cus:
             FRN_CACHE.write_text(json.dumps(cus))
             return set(cus)
+        print(f"[grade] ⚠️ FRN list pull returned no CUSIPs; using cached {FRN_CACHE.name}", file=sys.stderr)
     except Exception as e:  # noqa: BLE001
         print(f"[grade] ⚠️ FRN list pull failed ({e}); using cached {FRN_CACHE.name}", file=sys.stderr)
     if FRN_CACHE.exists():
@@ -194,10 +195,21 @@ def _from_ta_ws():
         print(f"[grade] ⚠️ TA_WS returned {len(rows)} rows = AT CAP. Its date filter is "
               f"inoperative; this feed is used for RECENT PRINTS ONLY, never for benchmarks.",
               file=sys.stderr)
-    for r in rows:
-        if r.get("securityType") not in ("Note", "Bond"):
+    why = type_defect(rows)
+    if why:
+        raise RuntimeError(f"TA_WS schema refusal: {why}")
+    coupons = [r for r in rows if r.get("securityType") in COUPON_TYPES]
+    if not coupons:
+        raise RuntimeError("TA_WS schema refusal: auctioned payload holds zero coupon rows")
+    frn = frn_cusips()
+    for r in coupons:
+        why = coupon_row_defect(r)
+        if why and r.get(CONFLICT):      # one row's names disagree: out of every pool, and named
+            DEGENERATE.append((str(r.get("auctionDate"))[:10], r.get("cusip", ""), "TA_WS", why))
             continue
-        if r.get("floatingRate") == "Yes":   # 2Y FRN — not a nominal 2Y (2026-09-02)
+        if why:                          # pool membership is unknowable: refuse the run
+            raise RuntimeError(f"TA_WS schema refusal: {why}")
+        if r.get("floatingRate") == "Yes" or r.get("cusip") in frn:   # 2Y FRN — not a nominal 2Y (2026-09-02)
             continue
         ind, dir_, pd_ = (_f(r.get("indirectBidderAccepted")),
                           _f(r.get("directBidderAccepted")),
@@ -653,6 +665,10 @@ def main() -> int:
             print(f"[grade] no auctioned OR upcoming record for {a.cusip or a.date}", file=sys.stderr)
             return 2
         r = up[0]
+        why = coupon_row_defect(r)
+        if why:
+            print(f"[grade] ⛔ GAP — TA_WS schema refusal: {why}. NOT a pass, NOT a fail.")
+            return 2
         term = cycle_term(r.get("originalSecurityTerm") or r.get("securityTerm"),
                           r.get("reopening") == "Yes", r.get("issueDate"), r.get("maturityDate"))
         tips = r.get("tips") == "Yes"
@@ -723,6 +739,7 @@ def main() -> int:
     if b and b.get("ind_p15_error") and not r["tips"] and not a.frozen_bars:
         print(f"    ⛔ I' indirect below P15 (MATRIX_V2) ? NOT COMPUTED — {b['ind_p15_error']}")
         print( "       ⚠️ THE GOVERNING TEST DID NOT RUN. Do not read the verdict above as 'nothing fired'.")
+    ip = False
     if bars["p15"] is not None and not r["tips"] and grade_n >= MIN_N_FOR_GATE:
         ip = r["ind"] < bars["p15"]
         print(f"    I' indirect below P15 (MATRIX_V2) ? {'YES — 🟠 STANDALONE MARKER' if ip else 'NO'}  "
@@ -758,6 +775,9 @@ def main() -> int:
     elif ind_fail or dlr_fail:
         print("\n  🟡 ONE COMPOSITION LEG BREACHED, not both — does NOT meet the failure test.")
         print("     RESIDUAL branch (v1.1.4(d)): report the breached leg with its margin; fires no gate.")
+    elif ip:
+        print("\n  🟠 I' MARKER FIRED — old composition legs inside their bars, cover not marked. NOT a clean print:")
+        print("     on a registered grade this resets the clean-nominal counter (THESIS convergence downgrade letter).")
     else:
         print("\n  🟢 CLEAN — no cover marker, no composition failure, both legs inside their bars.")
     print("\n  ⛔ NO TAIL IS COMPUTED OR REPORTED. TreasuryDirect publishes no when-issued yield;")

@@ -14,6 +14,8 @@ Boot 09:39 ET, status to Will. PROME packet `inbox/2026-11-05_from-PROME_catch-u
 - **Data:** Treasury 11/4, ICE 11/3, NY Fed 11/4, Bund 11/5, ACM, KW, proxy (KB-527, 536). KB overdue rows dispositioned: 10 Stale_By cleared, 3 STALE, 2 SUPERSEDED.
 - **Inbox:** 9 of 9 WALTER cards consumed, including the BoE hike (KB-537). R3 answered in the PROME packet.
 
+- **L859 HOLD (10:06 ET):** independent read of the 10/29 TreasuryDirect repair found the same failure by other doors. Verified, acceptance conditions committed first, repaired, 24 of 24 mutants caught (KB-538). Not independently verified yet; bounded diff read asked of PROME. Grades 11/9–11/12 proceed with `--frozen-bars`; check on 11/9 whether a target stays in `upcoming` after results post (F7 residue).
+
 ## NEXT (dated)
 
 1. **11/5 today:** HY 11/4 cell (VX-07 reading stated in KB-533; VIOLET owns VIX close) · PMMS ~noon · FR2004 as-of 10/28 ~16:15 ET, VX-04 re-score · addendum to PROME if a score moves.
