@@ -22,7 +22,7 @@
 ## NEXT SESSION
 
 0. After the 11/05 close: `thresholds.py --supersede`, then `backfill.py --spot-only` when Cboe History posts; add the SKEW bar.
-1. **FIRST: grade the 11/05 close.** VIX, VIX3M/VIX, VVIX, regime, the 5-day row; refresh STATUS, brief, both pages. Live TICK record: KB-VIO-374, outbox SIG. FRED 11/05 HY when published closes the credit-flat leg; HY 332bp [11/04] is in, tighter. LIQUID owns the spread.
+1. **FIRST: grade the 11/05 close.** VIX, VIX3M/VIX, VVIX, regime, the 5-day row; refresh STATUS, brief, both pages. Live TICK record: KB-VIO-374, outbox SIG. FRED 11/05 HY when published closes the credit-flat leg; HY 332bp [11/04] is in, tighter. LIQUID owns the spread. LIQUID posts the 11/05 print by late morning 11/06 (KB-LIQ-151). Gap LIQUID found: the outbound row "credit spreads flat" has no number, and adding one is a line change for Will, so state the dated print and call it a judgment.
 2. FXY IV re-pull done mid-session: 12.1% [12:38 ET, 43 DTE, 5 strikes] against RV10 7.05%; carry canary CALM.
 3. Payrolls 11/06 and CPI 11/10 pre/post surface read. Verify both dates at bls.gov (403 on 11/05); CPI search unconfirmed.
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.
