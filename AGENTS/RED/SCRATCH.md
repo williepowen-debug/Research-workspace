@@ -21,7 +21,7 @@
 2. 🟠 **Before Sat 11/7:** TERRY revises the draft against report version 3; re-read the diff only if TERRY or PROME asks. GATE-OP-SCALE-01 grade is TERRY, PROME and Will's. RED answers contests only.
 3. 🟡 **By 11/9:** CHG-054 re-review: OZK 10-Q (FDIC filer; read OZK's Chicago refi at the primary, SIG-W-20261027-041). KB-065/066 refresh then.
 4. 🔴 **Tue 11/10:** Oct CPI per the pre-written tree, then the discretionary re-derivation off the STATUS ledger, War included. Read War against price and flow separately; "no letter fired" is not D 85 re-earned.
-5. 🟡 **11/13:** KB-106, KB-108 Stale_By. **11/15** HHDC (CHG-045/049). **11/16** BROCK grades BRK-26. **~11/25** FT-10 outcome grade.
+5. 🟡 **11/6–11/13:** KB review cluster, 15 live Stale_By dates (first KB-091, -101), 25 by 11/30; SCRATCH previously listed two. **11/15** HHDC (CHG-045/049). **11/16** BROCK grades BRK-26. **~11/25** FT-10 outcome grade.
 
 ## OPEN THREADS
 - WL-11: Brent settled under 95 on 11/04, vendor back over on 11/05. Price and flow still disagree. Do not resolve by inference.
