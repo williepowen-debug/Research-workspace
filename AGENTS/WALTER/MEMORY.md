@@ -8,6 +8,8 @@
 ---
 ## Feedback
 
+- [2026-11-05, Will direct] **A closed-out desk is not closed for the day.** Will reboots desks as needed. A closeout ends a session; never report a desk as gone for the day or a lane as unwatched for the rest of the day. Say the session closed and check ListAgents at each dispatch.
+
 - [2026-10-27, Will direct] **Retire WALTER's Telegram connection.** Plugin disabled; launch flags removed; reply/alert duties now use the active Will session under CLAUDE.md Rule 12. Older Telegram auto-memory is historical for WALTER; no reconnection task.
 
 - [2026-10-22, Will direct] **Keep feeding DEWEY research.** Will likes the WALTER→DEWEY results (8 commissions 10/22) and wants WALTER to keep looking for threads every sitting. Standing authority, told after; cap 3 self-initiated per sitting and 5 queued; trades, paid data, new feeds or desks still need his word. Review each return (one figure at primary, conflict check vs owner records) before routing. → `design/SIGNAL_PROCESSING_CHECKLIST.md` Phase 2.8/2.8b v0.53
