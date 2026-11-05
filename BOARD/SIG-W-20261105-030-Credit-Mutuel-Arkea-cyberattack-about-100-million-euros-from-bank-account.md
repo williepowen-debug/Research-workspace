@@ -18,7 +18,12 @@ domain: "CYBER"
 entities: ["Credit-Mutuel-Arkea", "ZachXBT", "Le-Telegramme"]
 word_count: 168
 dispatch_note: "Found in a Google Alert snippet; body fetched. Named-bank hit, so IMMEDIATE under the CYBER row. Two days old when found; lane did not catch it. HANS as Europe channel owner."
+status: PARTIALLY-CORRECTED
+status_date: 2026-11-05
+status_ref: "SIG-W-20261105-052 \u2014 attack came through an unnamed provider; bank gave no euro figure; conversion only potential"
 ---
+
+> **Correction, November 5 — SIG-W-20261105-052:** the bank says attackers came through a provider's platform, unnamed. It gave no euro figure, says conversion was only potential, and excludes human error at Arkéa only. Original text preserved below.
 # Crédit Mutuel Arkéa says hackers took about €100M from its own account; clients unhurt, no fleet card or CYPHER row until now
 
 AFP via France 24, issued November 4, modified November 5, body read. Arkéa said Wednesday fraudulent transactions came to around €100M ($112M). Hackers "gained access to Arkea's account to make transfers to other banks, not the accounts of clients." Funds went into crypto on specialised platforms; a portion was blocked. The bank calls it "a sophisticated attack coming from the outside" and says human error is excluded.
