@@ -24,9 +24,10 @@
 5. 🟡 **11/6–11/13:** KB review cluster, 15 live Stale_By dates (first KB-091, -101), 25 by 11/30; SCRATCH previously listed two. **11/15** HHDC (CHG-045/049). **11/16** BROCK grades BRK-26. **~11/25** FT-10 outcome grade.
 
 ## OPEN THREADS
+- **LIVE 11/05:** selloff into banks intraday, credit ETFs calm at 11:48 ET. Read the close. If VIX closes over 20 the live-event override holds this session open; hourly STATUS commits while it runs.
+- CPI tree refreshed S59 with a pre-data ruling: the anti-spiral −2 reads as landed at S57; direction bear, not forced by the text.
 - WL-11: Brent settled under 95 on 11/04, vendor back over on 11/05. Price and flow still disagree. Do not resolve by inference.
 - FT-10 reading: the condition met on a tech and gamma trigger, so do not read the ~11/25 CORRECT as war or credit foresight.
-- 11/05 AI selling: closes not in. Banks and credit were not joining at 09:54 ET; re-read at the close before any bear input is logged as more than intraday.
 
 ## PENDING WILL-DECISIONS
 - None owned by RED. WQ-599 is Will's; RED's named changes went to PROME as candidates.

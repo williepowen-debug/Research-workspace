@@ -113,3 +113,13 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T10:11	SIG-W-20261104-076	info-only	BOARD	LIQUID HY persistence with funding limits; same HY root, count once
 2026-11-05T10:11	SIG-W-20261104-077	info-only	BOARD	VLO December crack below 90.16; TERRY owns; used in OP-SCALE F1 only for timing
 2026-11-05T10:14	SIG-W-20261105-009	acted	INBOX_WALTER	graded at FRED and Cboe: HY 332 and CCC 1297 [11/04]; FT-02 exit 0 of 3; FT-06 0 of 5; FT-10 0 of 4; matches WALTER
+2026-11-05T11:49	SIG-W-20261105-010	noted	BOARD	CRWV notes 15-16pct on an unseen vendor table; no 1.03 or 2.04 on EDGAR; bankrupt claim killed; one-cohort repricing per LIQUID
+2026-11-05T11:49	SIG-W-20261105-012	info-only	BOARD	FNMA and FMCC common down; cause not established; not agency debt or MBS stress; HOMER owns
+2026-11-05T11:49	SIG-W-20261105-013	info-only	BOARD	Ueno, Paraguay; no US exposure established; LIQUID owns
+2026-11-05T11:49	SIG-W-20261105-015	info-only	BOARD	JPM Epstein probe headline; move not cleanly this headline; GIBBS owns
+2026-11-05T11:49	SIG-W-20261105-016	noted	BOARD	VIX 22.63 intraday; superseded by 017 on banks; closes grade FT-06, not intraday
+2026-11-05T11:49	SIG-W-20261105-017	noted	BOARD	selloff into banks, S&P -3.4, VIX 25.8 at 11:04 ET, WAL under 78 intraday, HYG calm; proxies only, no cash spread for today
+2026-11-05T11:49	SIG-W-20261105-020	noted	BOARD	HENRY gamma negative on SPX QQQ NDX at 09:48 ET; do not quote SOXX; same AI root as 005, count once
+2026-11-05T11:49	SIG-W-20261105-021	noted	BOARD	LIQUID 11/04 credit grades REVERSES; says nothing about 11/05
+2026-11-05T11:49	SIG-W-20261105-022	noted	BOARD	Barkin and Hammack hawkish headlines, bodies unread; rates rally against them; Rescue input only if verified
+2026-11-05T11:49	SIG-W-20261105-023	noted	BOARD	Iran says 5 tankers and a tug; claim-only, no neutral confirmation; FALCON owns, count with 007

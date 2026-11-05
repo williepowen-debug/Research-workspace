@@ -6,6 +6,20 @@ Three axes, never bundled (ML-RED-085): **(I) FT-08's exit**, a mechanical regis
 
 **Starting state:** FT-08 FIRED 10/14 (+3 executed). Weights: Managed 27 · Stag 35 · Acute 16 · War 14 · Soft 4 · Rescue 4 (net-bear 65).
 
+**S59 state refresh, 2026-11-05 11:49 ET, pre-data.** No threshold, branch, probability or move below changed. The 10/14 text stands as written, and this block only carries it to current state.
+
+| Item | State at 11/05 |
+|---|---|
+| Weights now | Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3 (HOLD 72, net-bear 68). Since 10/14: FT-10 +2 and FT-02 +3 mechanical, bank tree +1, S57 re-derivation −1 |
+| Branch (I), FT-08 exits | Stag 30 · Managed 27 · Soft 5 → net-bear 65 |
+| Branch (III), Stag bear add | Stag 34 · Managed 24 → net-bear 69 |
+| Hold, nothing else | Net-bear 68 |
+| Discretionary re-derivation | Separate from this tree, off the STATUS ledger, War included. If FT-08 exits it does not run the day after (FRAMEWORK); earliest 11/12, because 11/11 follows the mechanical move |
+| 11/05 selloff | Enters only through registered objects and the ledger. Axis (IV) still scores nothing |
+| Owed | Nowcast refresh 11/9; S52c Acute leg already CLOSED unfired at S55 |
+
+**Ruling on the anti-spiral −2 (axis III), pre-data, RED's reading.** S57's discretionary Stag −2 listed real wages (−0.42pp Sep, KB-107) among its inputs without naming this pre-statement, and its offset was Managed +2, not the Managed +1 / Soft +1 chosen below. Landing −2 again on 11/10 would count the same wage datum twice. **Read as LANDED at S57: it does not land on 11/10.** ⚠️ Direction: this removes a bull move, so it favours RED's bear weights. ⚠️ S57 did not label it, so the reading is not forced by the text. An October real-wage print stays an input to the re-derivation, weighted there, not a mechanical −2.
+
 ---
 
 ## (I) RED-FT-08 EXIT — core 3-mo annualized < 2.5, s=1 → STAG −3, returned to MANAGED +2 / SOFT +1 (reverses exactly what was executed 10/14)
