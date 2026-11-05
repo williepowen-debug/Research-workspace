@@ -47,6 +47,7 @@ At each print-cluster grade, this desk sends TERRY any candidate expression as a
 | 2026-10-31 | Q3 per-bank borrowing short list (FFIEC, 134 of 139): 6 frozen-rule flags (Regions, Renasant, Simmons, The Bancorp, Bank of Hawaii, Israel Discount NY) | **No candidate.** The frozen rule routes a listed flagged name only after a CONCENTRATED or MIXED verdict, which needs the FDIC full universe (~mid/late Nov); each flag reads at the issuer as a funding-mix shift (sweep or public-fund outflows, brokered swap, loan growth), not stress | `reports/2026-10-31_L857/REPORT.md` §3, §5 |
 | 2026-11-05 | FFIEC tail, FL 10-Q cells, CREED-T-01a, HY 332 | **No candidate.** Frozen rule routes only after a CONCENTRATED or MIXED verdict, none exists; FL frame holds; T-01a is a CMBS level, not a bank fire; REG-T-04 not fired. B-tier back above 330 is a watch row | `reports/2026-11-05_boot/REPORT.md` §§2, 6, 7, 9 |
 | 2026-11-05 | PFBC multifamily 30–89 $143.1M, cause unknown | **No candidate.** Listed puts show open interest of 3 and 5 with no two-sided quote; a lead, not a fired trigger; not on the book | `reports/2026-11-05_PFBC_and_open-threads.md` §1 |
+| 2026-11-05 | Late-loan scan: FLG multifamily 30–89 and 90+ rise | **NOT-FIRED lead sent to TERRY.** No trigger; evidence grade lead; 10-Q decides. Preferred and NexBank no candidate | `reports/2026-11-05_late-loan-scan.md` §3, §5 |
 
 ## 3. Triggers this desk grades (levels live in `STATUS.md` §THRESHOLD STATUS — never here)
 

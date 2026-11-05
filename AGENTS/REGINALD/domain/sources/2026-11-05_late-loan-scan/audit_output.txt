@@ -1,0 +1,22 @@
+class sum > total (a real tie failure): [] 0
+share of total 30-89 in the six classes: 62.1%
+classes with late dollars but no book figure: {'C&I': ['FARMERS BANK&TRUST CO', 'INDEPENDENCE BANK OF KY', 'PATHFINDER BANK', 'FIDELITY DEPOSIT&DISCOUNT BK']}
+NEAR MISSES (NOT the rule: +$15M, +30%, 1% of book):
+  CITIZENS BANK NATIONAL ASSN | non-owner CRE | 29.1 -> 193.9 | 1.9% | assets $233,588 M
+  FLAGSTAR BANK NATIONAL ASSN | multifamily | 233.4 -> 391.6 | 1.5% | assets $87,412 M
+  CITY NATIONAL BANK | non-owner CRE | 11.3 -> 87.0 | 1.3% | assets $101,826 M
+  ROCKLAND TRUST CO | non-owner CRE | 13.4 -> 53.5 | 1.2% | assets $25,008 M
+  BCORP BANK NATIONAL ASSN | multifamily | 0.0 -> 27.6 | 1.1% | assets $9,424 M
+  HANCOCK WHITNEY BANK | owner CRE | 13.7 -> 40.8 | 1.1% | assets $38,566 M
+  CUSTOMERS BANK | owner CRE | 0.0 -> 26.9 | 1.3% | assets $27,396 M
+  CITY NATIONAL BANK | construction | 3.3 -> 28.6 | 1.1% | assets $101,826 M
+  POPULAR BANK | non-owner CRE | 5.0 -> 29.8 | 1.3% | assets $15,144 M
+  ARVEST BANK | non-owner CRE | 10.1 -> 33.5 | 1.0% | assets $27,983 M
+  WESBANCO BANK INC | construction | 1.7 -> 24.6 | 1.3% | assets $28,410 M
+  ENTERPRISE BANK&TRUST | construction | 1.5 -> 21.5 | 2.9% | assets $17,767 M
+TOTAL 30-89 +50% and +$50M (NOT the rule):
+  SANTANDER BANK N A 783.3 -> 1264.2 assets $204,022 M ACQ
+  PREFERRED BANK 108.9 -> 213.2 assets $7,816 M
+  BCORP BANK NATIONAL ASSN 34.5 -> 88.3 assets $9,424 M
+  CUSTOMERS BANK 29.6 -> 80.0 assets $27,396 M
+acquirers: ['SUNWEST BANK', 'PROSPERITY BANK', 'SANTANDER BANK N A', 'ARROW BANK NATIONAL AS']

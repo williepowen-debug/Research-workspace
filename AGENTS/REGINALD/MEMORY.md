@@ -34,6 +34,8 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 
 - **11:38 ET, Will-asked:** PFBC read: route FDIC FLNG cert 33539. Multifamily 30–89 $143.1M (26.5% of book) unexplained; $166.0M problem loans incl. HFS; $51.8M relationship left. Pathward read. Undated threads swept; Chapter 11 and blind-spot builds parked under Will's 10/31 rule → `reports/2026-11-05_PFBC_and_open-threads.md`. **Check the Call Report RC-N past-due column, not just the release: the release showed none of this.**
 
+- **11:47 ET, Will-asked:** one-time scan → `reports/2026-11-05_late-loan-scan.md`. My 10/23 FLG grade did not read the release table showing multifamily 30–89 $392M. The scan script's UNTIED label was my design error; `audit.py` replaces it. **11/07: read each bank's past-due table, not only frozen lines.**
+
 ### EARLIER — 2026-11-03 12:06 ET, Will-launched boot, intake and write-back
 - **Read:** root/desk instructions and canonical STATUS → LESSONS → CALENDAR → MEMORY → ROADMAP boot sequence; fuller `boot.py` completed rc 1 (ALERT only, no FAIL/INCOMPLETE). Runtime Kimi Code CLI, exact model/session UNKNOWN; file-based coordination available.
 - **Tape:** 12:06 ET vendor quotes WAL $77.43, KRE $73.19, FLG $10.55; APO −5.58% flagged without cause attribution. Settled 11/02 (Yahoo/Nasdaq agree): WAL $78.67 (REG-T-02 FIRED, exit 0-of-3) and KRE $73.73; FLG $10.75, RED for 18 closes.

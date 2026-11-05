@@ -1,0 +1,2447 @@
+{
+"rows": [
+{
+"rssd": 12311,
+"name": "HUNTINGTON NATIONAL BANK",
+"state": "OHIO",
+"assets_m": 287081,
+"loans_m": 191849,
+"t3089_p": 1284421,
+"t3089_c": 1225144,
+"na_p": 1588963,
+"na_c": 1696676,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 12946,
+"name": "FARMERS BANK&TRUST CO",
+"state": "ARKANSAS",
+"assets_m": 3115,
+"loans_m": 2430,
+"t3089_p": 9015,
+"t3089_c": 5591,
+"na_p": 31322,
+"na_c": 37643,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 13103,
+"name": "BRISTOL COUNTY SAVINGS BANK",
+"state": "MASSACHUSETTS",
+"assets_m": 3211,
+"loans_m": 2746,
+"t3089_p": 2159,
+"t3089_c": 1949,
+"na_p": 16325,
+"na_c": 17082,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 17147,
+"name": "FIRST MERCHANTS BANK",
+"state": "INDIANA",
+"assets_m": 21029,
+"loans_m": 15688,
+"t3089_p": 66643,
+"t3089_c": 54645,
+"na_p": 118203,
+"na_c": 117415,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 23504,
+"name": "DIME COMMERCIAL BANK",
+"state": "NEW YORK",
+"assets_m": 15537,
+"loans_m": 10921,
+"t3089_p": 110333,
+"t3089_c": 34441,
+"na_p": 68569,
+"na_c": 99067,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 34537,
+"name": "SEACOAST NATIONAL BANK",
+"state": "FLORIDA",
+"assets_m": 21164,
+"loans_m": 13589,
+"t3089_p": 20061,
+"t3089_c": 3836,
+"na_p": 86540,
+"na_c": 73281,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 42420,
+"name": "FIRST COMMONWEALTH BANK",
+"state": "PENNSYLVANIA",
+"assets_m": 12163,
+"loans_m": 9575,
+"t3089_p": 43232,
+"t3089_c": 35333,
+"na_p": 81640,
+"na_c": 95240,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 58243,
+"name": "JOHNSON BANK",
+"state": "WISCONSIN",
+"assets_m": 7195,
+"loans_m": 5466,
+"t3089_p": 10739,
+"t3089_c": 5247,
+"na_p": 12465,
+"na_c": 13495,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 63069,
+"name": "CITY NATIONAL BANK",
+"state": "CALIFORNIA",
+"assets_m": 101826,
+"loans_m": 70238,
+"t3089_p": 353308,
+"t3089_c": 257823,
+"na_p": 579728,
+"na_c": 654044,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 83638,
+"name": "AMERANT BANK NATIONAL ASSN",
+"state": "FLORIDA",
+"assets_m": 10190,
+"loans_m": 7073,
+"t3089_p": 32212,
+"t3089_c": 34051,
+"na_p": 168838,
+"na_c": 148083,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 107244,
+"name": "BANK OZK",
+"state": "ARKANSAS",
+"assets_m": 43189,
+"loans_m": 34135,
+"t3089_p": 23273,
+"t3089_c": 24269,
+"na_p": 300416,
+"na_c": 89117,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 128904,
+"name": "EASTERN BANK",
+"state": "MASSACHUSETTS",
+"assets_m": 31689,
+"loans_m": 23576,
+"t3089_p": 60896,
+"t3089_c": 93066,
+"na_p": 109380,
+"na_c": 84839,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 140362,
+"name": "SUNWEST BANK",
+"state": "UTAH",
+"assets_m": 5429,
+"loans_m": 4232,
+"t3089_p": 21717,
+"t3089_c": 37222,
+"na_p": 21222,
+"na_c": 19219,
+"acq": true,
+"tied": false
+},
+{
+"rssd": 141556,
+"name": "STEARNS BANK NATIONAL ASSN",
+"state": "MINNESOTA",
+"assets_m": 3257,
+"loans_m": 2854,
+"t3089_p": 32402,
+"t3089_c": 22673,
+"na_p": 74872,
+"na_c": 118851,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 143662,
+"name": "COLUMBIA BANK",
+"state": "OREGON",
+"assets_m": 65119,
+"loans_m": 46959,
+"t3089_p": 125298,
+"t3089_c": 95088,
+"na_p": 179662,
+"na_c": 156517,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 165628,
+"name": "FIRST FINANCIAL BANK",
+"state": "OHIO",
+"assets_m": 22220,
+"loans_m": 13927,
+"t3089_p": 25670,
+"t3089_c": 20816,
+"na_p": 96152,
+"na_c": 100210,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 197478,
+"name": "EAST WEST BANK",
+"state": "CALIFORNIA",
+"assets_m": 85566,
+"loans_m": 57014,
+"t3089_p": 168760,
+"t3089_c": 205488,
+"na_p": 222383,
+"na_c": 191780,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 202907,
+"name": "COMMUNITY BANK NATIONAL ASSN",
+"state": "NEW YORK",
+"assets_m": 17471,
+"loans_m": 11519,
+"t3089_p": 61081,
+"t3089_c": 72617,
+"na_p": 49690,
+"na_c": 49608,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 208244,
+"name": "OLD NATIONAL BANK",
+"state": "INDIANA",
+"assets_m": 74091,
+"loans_m": 51179,
+"t3089_p": 140428,
+"t3089_c": 126202,
+"na_p": 461702,
+"na_c": 470196,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 214807,
+"name": "DEUTSCHE BANK TR CO AMERICAS",
+"state": "NEW YORK",
+"assets_m": 42453,
+"loans_m": 15612,
+"t3089_p": 12000,
+"t3089_c": 0,
+"na_p": 136000,
+"na_c": 224000,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 216922,
+"name": "FIRST BANK",
+"state": "NORTH CAROLINA",
+"assets_m": 13142,
+"loans_m": 9108,
+"t3089_p": 11293,
+"t3089_c": 20763,
+"na_p": 44283,
+"na_c": 44166,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 229801,
+"name": "VALLEY NATIONAL BANK",
+"state": "NEW JERSEY",
+"assets_m": 67371,
+"loans_m": 53200,
+"t3089_p": 164144,
+"t3089_c": 137180,
+"na_p": 462629,
+"na_c": 511390,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 233031,
+"name": "REGIONS BANK",
+"state": "ALABAMA",
+"assets_m": 161166,
+"loans_m": 100310,
+"t3089_p": 416000,
+"t3089_c": 401000,
+"na_p": 669000,
+"na_c": 597000,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 276579,
+"name": "ZIONS BCORP N A",
+"state": "UTAH",
+"assets_m": 90921,
+"loans_m": 62521,
+"t3089_p": 91004,
+"t3089_c": 90817,
+"na_p": 292385,
+"na_c": 311226,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 311845,
+"name": "ARVEST BANK",
+"state": "ARKANSAS",
+"assets_m": 27983,
+"loans_m": 20748,
+"t3089_p": 124260,
+"t3089_c": 158337,
+"na_p": 175604,
+"na_c": 152558,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 320119,
+"name": "ISRAEL DISCOUNT BANK OF NY",
+"state": "NEW YORK",
+"assets_m": 14540,
+"loans_m": 10213,
+"t3089_p": 55,
+"t3089_c": 28630,
+"na_p": 117575,
+"na_c": 136611,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 324340,
+"name": "CHOICEONE BANK",
+"state": "MICHIGAN",
+"assets_m": 4455,
+"loans_m": 3097,
+"t3089_p": 9578,
+"t3089_c": 10951,
+"na_p": 30904,
+"na_c": 36678,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 339858,
+"name": "BOKF NATIONAL ASSN",
+"state": "OKLAHOMA",
+"assets_m": 53946,
+"loans_m": 27770,
+"t3089_p": 59355,
+"t3089_c": 43332,
+"na_p": 62142,
+"na_c": 66277,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 340135,
+"name": "BANK OF TENNESSEE",
+"state": "TENNESSEE",
+"assets_m": 2334,
+"loans_m": 1898,
+"t3089_p": 7818,
+"t3089_c": 6619,
+"na_p": 8107,
+"na_c": 9953,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 342634,
+"name": "TRUSTMARK BANK",
+"state": "MISSISSIPPI",
+"assets_m": 19106,
+"loans_m": 14115,
+"t3089_p": 60732,
+"t3089_c": 59238,
+"na_p": 49658,
+"na_c": 54347,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 352772,
+"name": "BANNER BANK",
+"state": "WASHINGTON",
+"assets_m": 18077,
+"loans_m": 13028,
+"t3089_p": 17686,
+"t3089_c": 24287,
+"na_p": 52897,
+"na_c": 56407,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 361167,
+"name": "SOUTHSIDE BANK",
+"state": "TEXAS",
+"assets_m": 8861,
+"loans_m": 4960,
+"t3089_p": 10742,
+"t3089_c": 6918,
+"na_p": 9630,
+"na_c": 10304,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 365325,
+"name": "UNITED BANK",
+"state": "VIRGINIA",
+"assets_m": 34115,
+"loans_m": 25478,
+"t3089_p": 69338,
+"t3089_c": 97622,
+"na_p": 99301,
+"na_c": 99907,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 379920,
+"name": "FIRST NB OF PENNSYLVANIA",
+"state": "PENNSYLVANIA",
+"assets_m": 51930,
+"loans_m": 36726,
+"t3089_p": 91147,
+"t3089_c": 104078,
+"na_p": 121925,
+"na_c": 118849,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 403151,
+"name": "CORNERSTONE BANK",
+"state": "NEBRASKA",
+"assets_m": 2724,
+"loans_m": 2094,
+"t3089_p": 8673,
+"t3089_c": 9257,
+"na_p": 26906,
+"na_c": 35767,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 413208,
+"name": "HSBC BANK USA NATIONAL ASSN",
+"state": "VIRGINIA",
+"assets_m": 163384,
+"loans_m": 56299,
+"t3089_p": 326399,
+"t3089_c": 333894,
+"na_p": 799427,
+"na_c": 758035,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 416245,
+"name": "BUSEY BANK",
+"state": "ILLINOIS",
+"assets_m": 18515,
+"loans_m": 12891,
+"t3089_p": 8135,
+"t3089_c": 16877,
+"na_p": 62766,
+"na_c": 80949,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 433608,
+"name": "TOMPKINS COMMUNITY BANK",
+"state": "NEW YORK",
+"assets_m": 8968,
+"loans_m": 6725,
+"t3089_p": 4666,
+"t3089_c": 6702,
+"na_p": 52426,
+"na_c": 53128,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 436159,
+"name": "FIRSTBANK",
+"state": "TENNESSEE",
+"assets_m": 17060,
+"loans_m": 13435,
+"t3089_p": 59121,
+"t3089_c": 77003,
+"na_p": 118897,
+"na_c": 134282,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 447100,
+"name": "CORNERSTONE BANK",
+"state": "MASSACHUSETTS",
+"assets_m": 2600,
+"loans_m": 2009,
+"t3089_p": 1283,
+"t3089_c": 3244,
+"na_p": 6186,
+"na_c": 5417,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 456045,
+"name": "CENTENNIAL BANK",
+"state": "ARKANSAS",
+"assets_m": 23982,
+"loans_m": 16819,
+"t3089_p": 28108,
+"t3089_c": 50063,
+"na_p": 91124,
+"na_c": 103713,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 463735,
+"name": "HANCOCK WHITNEY BANK",
+"state": "MISSISSIPPI",
+"assets_m": 38566,
+"loans_m": 26571,
+"t3089_p": 94339,
+"t3089_c": 120921,
+"na_p": 113681,
+"na_c": 133342,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 470050,
+"name": "FIRST FINANCIAL BANK",
+"state": "TEXAS",
+"assets_m": 15076,
+"loans_m": 8564,
+"t3089_p": 16853,
+"t3089_c": 22640,
+"na_p": 63309,
+"na_c": 57158,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 474919,
+"name": "FULTON BANK NATIONAL ASSN",
+"state": "PENNSYLVANIA",
+"assets_m": 34643,
+"loans_m": 25994,
+"t3089_p": 117300,
+"t3089_c": 144075,
+"na_p": 139412,
+"na_c": 136054,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 485559,
+"name": "FIRST HORIZON BANK",
+"state": "TENNESSEE",
+"assets_m": 84020,
+"loans_m": 64184,
+"t3089_p": 92983,
+"t3089_c": 89616,
+"na_p": 541520,
+"na_c": 494094,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 489623,
+"name": "PARK NATIONAL BANK",
+"state": "OHIO",
+"assets_m": 12597,
+"loans_m": 9773,
+"t3089_p": 36412,
+"t3089_c": 37405,
+"na_p": 81249,
+"na_c": 86947,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 494261,
+"name": "BANC OF CALIFORNIA",
+"state": "CALIFORNIA",
+"assets_m": 34855,
+"loans_m": 25089,
+"t3089_p": 97600,
+"t3089_c": 27234,
+"na_p": 587261,
+"na_c": 637651,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 501105,
+"name": "MANUFACTURERS&TRADERS TR CO",
+"state": "NEW YORK",
+"assets_m": 219988,
+"loans_m": 145506,
+"t3089_p": 1450000,
+"t3089_c": 1239000,
+"na_p": 1207000,
+"na_c": 1297000,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 509950,
+"name": "FIRST UNITED BANK&TRUST CO",
+"state": "OKLAHOMA",
+"assets_m": 16536,
+"loans_m": 12690,
+"t3089_p": 25109,
+"t3089_c": 26836,
+"na_p": 150682,
+"na_c": 155567,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 510871,
+"name": "FIRSTBANK PUERTO RICO",
+"state": "PUERTO RICO",
+"assets_m": 19231,
+"loans_m": 13253,
+"t3089_p": 143368,
+"t3089_c": 155461,
+"na_p": 94565,
+"na_c": 96199,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 527954,
+"name": "FIRST NATIONAL BANK OF OMAHA",
+"state": "NEBRASKA",
+"assets_m": 34658,
+"loans_m": 24327,
+"t3089_p": 221072,
+"t3089_c": 204100,
+"na_p": 183372,
+"na_c": 155798,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 595869,
+"name": "CATHAY BANK",
+"state": "CALIFORNIA",
+"assets_m": 25561,
+"loans_m": 20892,
+"t3089_p": 68315,
+"t3089_c": 69277,
+"na_p": 111613,
+"na_c": 87220,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 599764,
+"name": "AMERICAN NB OF TEXAS",
+"state": "TEXAS",
+"assets_m": 5522,
+"loans_m": 3430,
+"t3089_p": 4895,
+"t3089_c": 6647,
+"na_p": 7901,
+"na_c": 9915,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 601050,
+"name": "COMMERCE BANK",
+"state": "MISSOURI",
+"assets_m": 34635,
+"loans_m": 21214,
+"t3089_p": 59705,
+"t3089_c": 56982,
+"na_p": 11618,
+"na_c": 11505,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 613008,
+"name": "ROCKLAND TRUST CO",
+"state": "MASSACHUSETTS",
+"assets_m": 25008,
+"loans_m": 18563,
+"t3089_p": 32313,
+"t3089_c": 70032,
+"na_p": 103642,
+"na_c": 125713,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 636771,
+"name": "INDEPENDENT BANK",
+"state": "MICHIGAN",
+"assets_m": 5737,
+"loans_m": 4546,
+"t3089_p": 5589,
+"t3089_c": 6011,
+"na_p": 43687,
+"na_c": 50120,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 637451,
+"name": "PLAINSCAPITAL BANK",
+"state": "TEXAS",
+"assets_m": 12871,
+"loans_m": 9042,
+"t3089_p": 26664,
+"t3089_c": 16572,
+"na_p": 54802,
+"na_c": 51404,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 645625,
+"name": "WESBANCO BANK INC",
+"state": "WEST VIRGINIA",
+"assets_m": 28410,
+"loans_m": 19959,
+"t3089_p": 67388,
+"t3089_c": 88590,
+"na_p": 146058,
+"na_c": 174132,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 648242,
+"name": "INDEPENDENCE BANK OF KY",
+"state": "KENTUCKY",
+"assets_m": 3948,
+"loans_m": 2206,
+"t3089_p": 482,
+"t3089_c": 632,
+"na_p": 2463,
+"na_c": 1945,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 651859,
+"name": "STOCKMAN BANK OF MONTANA",
+"state": "MONTANA",
+"assets_m": 7670,
+"loans_m": 5266,
+"t3089_p": 19913,
+"t3089_c": 37805,
+"na_p": 30311,
+"na_c": 28768,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 652874,
+"name": "NEXBANK",
+"state": "TEXAS",
+"assets_m": 13974,
+"loans_m": 8682,
+"t3089_p": 120466,
+"t3089_c": 162725,
+"na_p": 101527,
+"na_c": 86675,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 656377,
+"name": "WAFD BANK",
+"state": "WASHINGTON",
+"assets_m": 27211,
+"loans_m": 19672,
+"t3089_p": 30692,
+"t3089_c": 33153,
+"na_p": 127570,
+"na_c": 75956,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 659855,
+"name": "FIRST INTERSTATE BANK",
+"state": "MONTANA",
+"assets_m": 25679,
+"loans_m": 13988,
+"t3089_p": 24338,
+"t3089_c": 36249,
+"na_p": 158427,
+"na_c": 150129,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 663245,
+"name": "SIMMONS BANK",
+"state": "ARKANSAS",
+"assets_m": 24030,
+"loans_m": 17478,
+"t3089_p": 51556,
+"t3089_c": 51871,
+"na_p": 165295,
+"na_c": 179397,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 663834,
+"name": "OCEAN BANK",
+"state": "FLORIDA",
+"assets_m": 7599,
+"loans_m": 6121,
+"t3089_p": 7793,
+"t3089_c": 1381,
+"na_p": 23646,
+"na_c": 15404,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 664756,
+"name": "PROSPERITY BANK",
+"state": "TEXAS",
+"assets_m": 54092,
+"loans_m": 32060,
+"t3089_p": 108376,
+"t3089_c": 146124,
+"na_p": 116911,
+"na_c": 170251,
+"acq": true,
+"tied": false
+},
+{
+"rssd": 667757,
+"name": "ORIGIN BANK",
+"state": "LOUISIANA",
+"assets_m": 10002,
+"loans_m": 8095,
+"t3089_p": 5203,
+"t3089_c": 10308,
+"na_p": 78522,
+"na_c": 72461,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 671464,
+"name": "BANK OF HOPE",
+"state": "CALIFORNIA",
+"assets_m": 19185,
+"loans_m": 15118,
+"t3089_p": 19007,
+"t3089_c": 65276,
+"na_p": 132090,
+"na_c": 131764,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 682563,
+"name": "FROST BANK",
+"state": "TEXAS",
+"assets_m": 54612,
+"loans_m": 23659,
+"t3089_p": 152104,
+"t3089_c": 100769,
+"na_p": 112717,
+"na_c": 63704,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 693224,
+"name": "ATLANTIC UNION BANK",
+"state": "VIRGINIA",
+"assets_m": 38271,
+"loans_m": 29313,
+"t3089_p": 46631,
+"t3089_c": 66791,
+"na_p": 110926,
+"na_c": 106509,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 694904,
+"name": "FLAGSTAR BANK NATIONAL ASSN",
+"state": "NEW YORK",
+"assets_m": 87412,
+"loans_m": 62110,
+"t3089_p": 372703,
+"t3089_c": 534263,
+"na_p": 2987555,
+"na_c": 2989320,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 702117,
+"name": "NBT BANK NATIONAL ASSN",
+"state": "NEW YORK",
+"assets_m": 16265,
+"loans_m": 11949,
+"t3089_p": 72490,
+"t3089_c": 37646,
+"na_p": 62898,
+"na_c": 65527,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 722777,
+"name": "SANTANDER BANK N A",
+"state": "DELAWARE",
+"assets_m": 204022,
+"loans_m": 115383,
+"t3089_p": 783345,
+"t3089_c": 1264196,
+"na_p": 1079543,
+"na_c": 1954810,
+"acq": true,
+"tied": false
+},
+{
+"rssd": 729310,
+"name": "PATHFINDER BANK",
+"state": "NEW YORK",
+"assets_m": 1485,
+"loans_m": 879,
+"t3089_p": 7246,
+"t3089_c": 11048,
+"na_p": 41965,
+"na_c": 36512,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 731247,
+"name": "HILLS BANK&TRUST CO",
+"state": "IOWA",
+"assets_m": 4960,
+"loans_m": 3741,
+"t3089_p": 27645,
+"t3089_c": 14389,
+"na_p": 13802,
+"na_c": 12476,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 749242,
+"name": "RENASANT BANK",
+"state": "MISSISSIPPI",
+"assets_m": 27505,
+"loans_m": 19953,
+"t3089_p": 31141,
+"t3089_c": 37177,
+"na_p": 186432,
+"na_c": 175144,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 758703,
+"name": "CAMBRIDGE SAVINGS BANK",
+"state": "MASSACHUSETTS",
+"assets_m": 7092,
+"loans_m": 5865,
+"t3089_p": 35600,
+"t3089_c": 10987,
+"na_p": 73259,
+"na_c": 95169,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 764030,
+"name": "AMERIS BANK",
+"state": "GEORGIA",
+"assets_m": 28480,
+"loans_m": 22749,
+"t3089_p": 118609,
+"t3089_c": 93819,
+"na_p": 121109,
+"na_c": 141784,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 782306,
+"name": "BEACON BANK&TRUST",
+"state": "MASSACHUSETTS",
+"assets_m": 21834,
+"loans_m": 17652,
+"t3089_p": 148196,
+"t3089_c": 107464,
+"na_p": 152650,
+"na_c": 160554,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 786612,
+"name": "MID PENN BANK",
+"state": "PENNSYLVANIA",
+"assets_m": 7117,
+"loans_m": 5657,
+"t3089_p": 13937,
+"t3089_c": 6010,
+"na_p": 28420,
+"na_c": 36650,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 795968,
+"name": "BANK OF HAWAII",
+"state": "HAWAII",
+"assets_m": 23785,
+"loans_m": 13833,
+"t3089_p": 44764,
+"t3089_c": 49345,
+"na_p": 11307,
+"na_c": 43241,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 814430,
+"name": "CITY NB OF FLORIDA",
+"state": "FLORIDA",
+"assets_m": 29533,
+"loans_m": 21146,
+"t3089_p": 45124,
+"t3089_c": 20770,
+"na_p": 166011,
+"na_c": 160130,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 853952,
+"name": "CENTRAL TRUST BANK",
+"state": "MISSOURI",
+"assets_m": 20235,
+"loans_m": 11746,
+"t3089_p": 23267,
+"t3089_c": 25887,
+"na_p": 55126,
+"na_c": 61196,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 866000,
+"name": "ARROW BANK NATIONAL ASSN",
+"state": "NEW YORK",
+"assets_m": 5521,
+"loans_m": 4145,
+"t3089_p": 23391,
+"t3089_c": 24345,
+"na_p": 6814,
+"na_c": 10117,
+"acq": true,
+"tied": false
+},
+{
+"rssd": 881478,
+"name": "HERITAGE BANK",
+"state": "WASHINGTON",
+"assets_m": 8511,
+"loans_m": 5881,
+"t3089_p": 14240,
+"t3089_c": 17155,
+"na_p": 15510,
+"na_c": 32077,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 917742,
+"name": "ASSOCIATED BANK NA",
+"state": "WISCONSIN",
+"assets_m": 51338,
+"loans_m": 36587,
+"t3089_p": 59521,
+"t3089_c": 80575,
+"na_p": 149953,
+"na_c": 183436,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 929352,
+"name": "BELL BANK",
+"state": "NORTH DAKOTA",
+"assets_m": 15280,
+"loans_m": 13529,
+"t3089_p": 66285,
+"t3089_c": 48070,
+"na_p": 118645,
+"na_c": 126208,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 933256,
+"name": "ALERUS FINANCIAL NA",
+"state": "NORTH DAKOTA",
+"assets_m": 5394,
+"loans_m": 4205,
+"t3089_p": 6544,
+"t3089_c": 14484,
+"na_p": 10251,
+"na_c": 9956,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 934329,
+"name": "BNY MELLON NATIONAL ASSN",
+"state": "PENNSYLVANIA",
+"assets_m": 30072,
+"loans_m": 18398,
+"t3089_p": 61000,
+"t3089_c": 26000,
+"na_p": 11000,
+"na_c": 15000,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 936136,
+"name": "OLD SECOND NATIONAL BANK",
+"state": "ILLINOIS",
+"assets_m": 6775,
+"loans_m": 5239,
+"t3089_p": 22499,
+"t3089_c": 43553,
+"na_p": 53747,
+"na_c": 36579,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 936426,
+"name": "S&T BANK",
+"state": "PENNSYLVANIA",
+"assets_m": 9883,
+"loans_m": 8055,
+"t3089_p": 13509,
+"t3089_c": 27029,
+"na_p": 40216,
+"na_c": 36454,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 936462,
+"name": "MECHANICS BANK",
+"state": "CALIFORNIA",
+"assets_m": 20957,
+"loans_m": 13023,
+"t3089_p": 51544,
+"t3089_c": 24392,
+"na_p": 49534,
+"na_c": 49914,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 936855,
+"name": "UMB BANK NATIONAL ASSN",
+"state": "MISSOURI",
+"assets_m": 72357,
+"loans_m": 42533,
+"t3089_p": 51784,
+"t3089_c": 47976,
+"na_p": 127526,
+"na_c": 117885,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 940311,
+"name": "BANCO POPULAR DE PUERTO RICO",
+"state": "PUERTO RICO",
+"assets_m": 61934,
+"loans_m": 27927,
+"t3089_p": 205000,
+"t3089_c": 238000,
+"na_p": 450000,
+"na_c": 422000,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 962966,
+"name": "SOFI BANK NATIONAL ASSN",
+"state": "UTAH",
+"assets_m": 63538,
+"loans_m": 52512,
+"t3089_p": 129524,
+"t3089_c": 164576,
+"na_p": 2910,
+"na_c": 3200,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 963945,
+"name": "MERCHANTS BANK OF INDIANA",
+"state": "INDIANA",
+"assets_m": 20827,
+"loans_m": 16759,
+"t3089_p": 44949,
+"t3089_c": 45330,
+"na_p": 205545,
+"na_c": 177568,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 978118,
+"name": "FIRST CITIZENS CMTY BANK",
+"state": "PENNSYLVANIA",
+"assets_m": 3408,
+"loans_m": 2646,
+"t3089_p": 8696,
+"t3089_c": 4696,
+"na_p": 40350,
+"na_c": 47073,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 980661,
+"name": "FIRST HAWAIIAN BANK",
+"state": "HAWAII",
+"assets_m": 23767,
+"loans_m": 13741,
+"t3089_p": 52943,
+"t3089_c": 97063,
+"na_p": 39443,
+"na_c": 46002,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 1007819,
+"name": "FIDELITY DEPOSIT&DISCOUNT BK",
+"state": "PENNSYLVANIA",
+"assets_m": 3028,
+"loans_m": 2176,
+"t3089_p": 2783,
+"t3089_c": 1650,
+"na_p": 1742,
+"na_c": 2566,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 1017939,
+"name": "UNITED COMMUNITY BANK",
+"state": "SOUTH CAROLINA",
+"assets_m": 28805,
+"loans_m": 19023,
+"t3089_p": 22401,
+"t3089_c": 12562,
+"na_p": 101393,
+"na_c": 78320,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 1190476,
+"name": "ENTERPRISE BANK&TRUST",
+"state": "MISSOURI",
+"assets_m": 17767,
+"loans_m": 12345,
+"t3089_p": 94772,
+"t3089_c": 106947,
+"na_p": 116656,
+"na_c": 140824,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 1386251,
+"name": "BANCFIRST",
+"state": "OKLAHOMA",
+"assets_m": 12732,
+"loans_m": 7263,
+"t3089_p": 27485,
+"t3089_c": 30951,
+"na_p": 83066,
+"na_c": 74056,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 1443266,
+"name": "BANK OF AMERICA CA NA",
+"state": "CALIFORNIA",
+"assets_m": 14192,
+"loans_m": 9163,
+"t3089_p": 48000,
+"t3089_c": 40000,
+"na_p": 62000,
+"na_c": 60000,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 1842065,
+"name": "CIBC BANK USA",
+"state": "ILLINOIS",
+"assets_m": 68252,
+"loans_m": 43969,
+"t3089_p": 51897,
+"t3089_c": 57976,
+"na_p": 585070,
+"na_c": 413393,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 1893049,
+"name": "CHARLES SCHWAB PREMIER BK SS",
+"state": "TEXAS",
+"assets_m": 26649,
+"loans_m": 1,
+"t3089_p": 0,
+"t3089_c": 0,
+"na_p": 0,
+"na_c": 0,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 1918344,
+"name": "PREFERRED BANK",
+"state": "CALIFORNIA",
+"assets_m": 7816,
+"loans_m": 6267,
+"t3089_p": 108909,
+"t3089_c": 213231,
+"na_p": 98173,
+"na_c": 159758,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 1929247,
+"name": "SOUTHSTATE BANK NA",
+"state": "FLORIDA",
+"assets_m": 70317,
+"loans_m": 52350,
+"t3089_p": 93181,
+"t3089_c": 117493,
+"na_p": 270615,
+"na_c": 284335,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2121196,
+"name": "TD BANK USA NATIONAL ASSN",
+"state": "DELAWARE",
+"assets_m": 31085,
+"loans_m": 8718,
+"t3089_p": 180507,
+"t3089_c": 191659,
+"na_p": 1082,
+"na_c": 918,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2193616,
+"name": "RAYMOND JAMES BANK",
+"state": "FLORIDA",
+"assets_m": 45239,
+"loans_m": 36854,
+"t3089_p": 9535,
+"t3089_c": 3102,
+"na_p": 104730,
+"na_c": 108884,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 2354985,
+"name": "CUSTOMERS BANK",
+"state": "PENNSYLVANIA",
+"assets_m": 27396,
+"loans_m": 18511,
+"t3089_p": 29629,
+"t3089_c": 80006,
+"na_p": 56022,
+"na_c": 53438,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2618780,
+"name": "TEXAS CAPITAL BANK",
+"state": "TEXAS",
+"assets_m": 31988,
+"loans_m": 24112,
+"t3089_p": 32579,
+"t3089_c": 28389,
+"na_p": 123981,
+"na_c": 122337,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2634191,
+"name": "GLACIER BANK",
+"state": "MONTANA",
+"assets_m": 32268,
+"loans_m": 21657,
+"t3089_p": 65483,
+"t3089_c": 58149,
+"na_p": 74441,
+"na_c": 68202,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2652092,
+"name": "EAGLEBANK",
+"state": "MARYLAND",
+"assets_m": 9424,
+"loans_m": 6577,
+"t3089_p": 44087,
+"t3089_c": 357,
+"na_p": 136915,
+"na_c": 179722,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 2735146,
+"name": "EVERBANK NATIONAL ASSN",
+"state": "FLORIDA",
+"assets_m": 45840,
+"loans_m": 36661,
+"t3089_p": 121077,
+"t3089_c": 124702,
+"na_p": 204868,
+"na_c": 221205,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2736291,
+"name": "POPULAR BANK",
+"state": "NEW YORK",
+"assets_m": 15144,
+"loans_m": 11799,
+"t3089_p": 34827,
+"t3089_c": 76713,
+"na_p": 45579,
+"na_c": 43751,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2797724,
+"name": "TOWNEBANK",
+"state": "VIRGINIA",
+"assets_m": 22183,
+"loans_m": 15285,
+"t3089_p": 31380,
+"t3089_c": 40237,
+"na_p": 32430,
+"na_c": 39065,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2850722,
+"name": "BMW BANK OF NORTH AMERICA",
+"state": "UTAH",
+"assets_m": 14582,
+"loans_m": 10743,
+"t3089_p": 70941,
+"t3089_c": 68541,
+"na_p": 9033,
+"na_c": 6545,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2858960,
+"name": "BCORP BANK NATIONAL ASSN",
+"state": "SOUTH DAKOTA",
+"assets_m": 9424,
+"loans_m": 7364,
+"t3089_p": 34514,
+"t3089_c": 88322,
+"na_p": 80365,
+"na_c": 63828,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2925666,
+"name": "PINNACLE BANK",
+"state": "TENNESSEE",
+"assets_m": 130422,
+"loans_m": 90449,
+"t3089_p": 118675,
+"t3089_c": 121681,
+"na_p": 414675,
+"na_c": 433337,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2941068,
+"name": "NICOLET NATIONAL BANK",
+"state": "WISCONSIN",
+"assets_m": 15046,
+"loans_m": 10892,
+"t3089_p": 8931,
+"t3089_c": 18316,
+"na_p": 71545,
+"na_c": 73364,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 2980209,
+"name": "BARCLAYS BANK DELAWARE",
+"state": "DELAWARE",
+"assets_m": 42489,
+"loans_m": 30354,
+"t3089_p": 368000,
+"t3089_c": 416000,
+"na_p": 36000,
+"na_c": 40000,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3076248,
+"name": "STIFEL BANK&TRUST",
+"state": "MISSOURI",
+"assets_m": 18773,
+"loans_m": 15032,
+"t3089_p": 24389,
+"t3089_c": 28452,
+"na_p": 119928,
+"na_c": 108891,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3138146,
+"name": "WESTERN ALLIANCE BANK",
+"state": "ARIZONA",
+"assets_m": 97899,
+"loans_m": 65934,
+"t3089_p": 275483,
+"t3089_c": 290069,
+"na_p": 564365,
+"na_c": 487951,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 3146150,
+"name": "U S CENTURY BANK",
+"state": "FLORIDA",
+"assets_m": 3007,
+"loans_m": 2322,
+"t3089_p": 1237,
+"t3089_c": 8050,
+"na_p": 2148,
+"na_c": 7689,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3202702,
+"name": "OPTUM BANK INC",
+"state": "UTAH",
+"assets_m": 22380,
+"loans_m": 10447,
+"t3089_p": 31000,
+"t3089_c": 34000,
+"na_p": 5000,
+"na_c": 7000,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3212149,
+"name": "UBS BANK USA NATIONAL ASSN",
+"state": "UTAH",
+"assets_m": 127278,
+"loans_m": 96729,
+"t3089_p": 7446,
+"t3089_c": 20925,
+"na_p": 108691,
+"na_c": 100523,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3224580,
+"name": "COMENITY CAPITAL BANK",
+"state": "UTAH",
+"assets_m": 14453,
+"loans_m": 12157,
+"t3089_p": 388068,
+"t3089_c": 419359,
+"na_p": 0,
+"na_c": 0,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3287660,
+"name": "TOYOTA FINANCIAL SB",
+"state": "NEVADA",
+"assets_m": 17957,
+"loans_m": 10358,
+"t3089_p": 41585,
+"t3089_c": 50630,
+"na_p": 18966,
+"na_c": 27025,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3303298,
+"name": "CITIZENS BANK NATIONAL ASSN",
+"state": "RHODE ISLAND",
+"assets_m": 233588,
+"loans_m": 149412,
+"t3089_p": 460376,
+"t3089_c": 619831,
+"na_p": 1435342,
+"na_c": 1471597,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3317932,
+"name": "CONNECTONE BANK",
+"state": "NEW JERSEY",
+"assets_m": 14767,
+"loans_m": 12111,
+"t3089_p": 3665,
+"t3089_c": 6264,
+"na_p": 79664,
+"na_c": 64330,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 3348888,
+"name": "SERVISFIRST BANK",
+"state": "ALABAMA",
+"assets_m": 18317,
+"loans_m": 14753,
+"t3089_p": 14640,
+"t3089_c": 21584,
+"na_p": 169711,
+"na_c": 160084,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 3394278,
+"name": "SALLIE MAE BANK",
+"state": "UTAH",
+"assets_m": 28863,
+"loans_m": 22644,
+"t3089_p": 436311,
+"t3089_c": 535327,
+"na_p": 150,
+"na_c": 195,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3408728,
+"name": "B1BANK",
+"state": "LOUISIANA",
+"assets_m": 8943,
+"loans_m": 6781,
+"t3089_p": 26594,
+"t3089_c": 28774,
+"na_p": 80124,
+"na_c": 80363,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 3475083,
+"name": "TRISTATE CAPITAL BANK",
+"state": "PENNSYLVANIA",
+"assets_m": 24827,
+"loans_m": 20111,
+"t3089_p": 0,
+"t3089_c": 7616,
+"na_p": 58585,
+"na_c": 45128,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 3650808,
+"name": "LIVE OAK BANKING CO",
+"state": "NORTH CAROLINA",
+"assets_m": 16885,
+"loans_m": 13870,
+"t3089_p": 22970,
+"t3089_c": 19614,
+"na_p": 527616,
+"na_c": 563170,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3720608,
+"name": "OAKWORTH CAPITAL BANK",
+"state": "ALABAMA",
+"assets_m": 2226,
+"loans_m": 1781,
+"t3089_p": 1647,
+"t3089_c": 0,
+"na_p": 10848,
+"na_c": 9598,
+"acq": false,
+"tied": true
+},
+{
+"rssd": 3783313,
+"name": "CROSS RIVER BANK",
+"state": "NEW JERSEY",
+"assets_m": 9015,
+"loans_m": 6298,
+"t3089_p": 45920,
+"t3089_c": 52783,
+"na_p": 159649,
+"na_c": 113645,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 3938186,
+"name": "BANKUNITED NATIONAL ASSN",
+"state": "FLORIDA",
+"assets_m": 34568,
+"loans_m": 23815,
+"t3089_p": 180054,
+"t3089_c": 181344,
+"na_p": 227825,
+"na_c": 234912,
+"acq": false,
+"tied": false
+},
+{
+"rssd": 4210227,
+"name": "NBH BANK",
+"state": "COLORADO",
+"assets_m": 12679,
+"loans_m": 9901,
+"t3089_p": 17169,
+"t3089_c": 14010,
+"na_p": 30131,
+"na_c": 43917,
+"acq": false,
+"tied": false
+}
+],
+"leads": [
+{
+"name": "NEXBANK",
+"rssd": 652874,
+"cls": "multifamily",
+"p": 24904,
+"c": 75152,
+"pct_book": 8.6,
+"book_m": 877,
+"na_p": 1937,
+"na_c": 1937,
+"assets_m": 13974,
+"acq": false,
+"tied": true
+},
+{
+"name": "FLAGSTAR BANK NATIONAL ASSN",
+"rssd": 694904,
+"cls": "construction",
+"p": 7955,
+"c": 46380,
+"pct_book": 3.6,
+"book_m": 1281,
+"na_p": 119819,
+"na_c": 116144,
+"assets_m": 87412,
+"acq": false,
+"tied": false
+},
+{
+"name": "FIRST HAWAIIAN BANK",
+"rssd": 980661,
+"cls": "multifamily",
+"p": 753,
+"c": 28274,
+"pct_book": 3.1,
+"book_m": 926,
+"na_p": 0,
+"na_c": 0,
+"assets_m": 23767,
+"acq": false,
+"tied": false
+},
+{
+"name": "PREFERRED BANK",
+"rssd": 1918344,
+"cls": "multifamily",
+"p": 62779,
+"c": 143096,
+"pct_book": 26.5,
+"book_m": 541,
+"na_p": 27415,
+"na_c": 80028,
+"assets_m": 7816,
+"acq": false,
+"tied": true
+}
+],
+"untied": [
+[
+"HUNTINGTON NATIONAL BANK",
+1225144,
+792657
+],
+[
+"FARMERS BANK&TRUST CO",
+5591,
+4645
+],
+[
+"BRISTOL COUNTY SAVINGS BANK",
+1949,
+1064
+],
+[
+"FIRST MERCHANTS BANK",
+54645,
+53186
+],
+[
+"FIRST COMMONWEALTH BANK",
+35333,
+26440
+],
+[
+"JOHNSON BANK",
+5247,
+5137
+],
+[
+"CITY NATIONAL BANK",
+257823,
+207250
+],
+[
+"AMERANT BANK NATIONAL ASSN",
+34051,
+32825
+],
+[
+"BANK OZK",
+24269,
+13351
+],
+[
+"SUNWEST BANK",
+37222,
+25483
+],
+[
+"STEARNS BANK NATIONAL ASSN",
+22673,
+15735
+],
+[
+"COLUMBIA BANK",
+95088,
+90648
+],
+[
+"FIRST FINANCIAL BANK",
+20816,
+9810
+],
+[
+"EAST WEST BANK",
+205488,
+172435
+],
+[
+"COMMUNITY BANK NATIONAL ASSN",
+72617,
+49654
+],
+[
+"OLD NATIONAL BANK",
+126202,
+102949
+],
+[
+"FIRST BANK",
+20763,
+20274
+],
+[
+"VALLEY NATIONAL BANK",
+137180,
+110810
+],
+[
+"REGIONS BANK",
+401000,
+264000
+],
+[
+"ZIONS BCORP N A",
+90817,
+84432
+],
+[
+"ARVEST BANK",
+158337,
+116046
+],
+[
+"ISRAEL DISCOUNT BANK OF NY",
+28630,
+27975
+],
+[
+"CHOICEONE BANK",
+10951,
+10772
+],
+[
+"TRUSTMARK BANK",
+59238,
+55108
+],
+[
+"BANNER BANK",
+24287,
+23860
+],
+[
+"SOUTHSIDE BANK",
+6918,
+6557
+],
+[
+"UNITED BANK",
+97622,
+83970
+],
+[
+"FIRST NB OF PENNSYLVANIA",
+104078,
+94417
+],
+[
+"CORNERSTONE BANK",
+9257,
+7068
+],
+[
+"HSBC BANK USA NATIONAL ASSN",
+333894,
+162540
+],
+[
+"BUSEY BANK",
+16877,
+16358
+],
+[
+"TOMPKINS COMMUNITY BANK",
+6702,
+6012
+],
+[
+"FIRSTBANK",
+77003,
+58750
+],
+[
+"CORNERSTONE BANK",
+3244,
+2642
+],
+[
+"CENTENNIAL BANK",
+50063,
+41104
+],
+[
+"HANCOCK WHITNEY BANK",
+120921,
+118866
+],
+[
+"FIRST FINANCIAL BANK",
+22640,
+20653
+],
+[
+"FULTON BANK NATIONAL ASSN",
+144075,
+135419
+],
+[
+"FIRST HORIZON BANK",
+89616,
+86068
+],
+[
+"PARK NATIONAL BANK",
+37405,
+27574
+],
+[
+"BANC OF CALIFORNIA",
+27234,
+24968
+],
+[
+"MANUFACTURERS&TRADERS TR CO",
+1239000,
+824000
+],
+[
+"FIRST UNITED BANK&TRUST CO",
+26836,
+24953
+],
+[
+"FIRSTBANK PUERTO RICO",
+155461,
+28619
+],
+[
+"FIRST NATIONAL BANK OF OMAHA",
+204100,
+76077
+],
+[
+"CATHAY BANK",
+69277,
+34182
+],
+[
+"AMERICAN NB OF TEXAS",
+6647,
+6497
+],
+[
+"COMMERCE BANK",
+56982,
+12952
+],
+[
+"INDEPENDENT BANK",
+6011,
+4378
+],
+[
+"WESBANCO BANK INC",
+88590,
+84480
+],
+[
+"INDEPENDENCE BANK OF KY",
+632,
+599
+],
+[
+"STOCKMAN BANK OF MONTANA",
+37805,
+35437
+],
+[
+"WAFD BANK",
+33153,
+32674
+],
+[
+"FIRST INTERSTATE BANK",
+36249,
+24050
+],
+[
+"SIMMONS BANK",
+51871,
+48283
+],
+[
+"OCEAN BANK",
+1381,
+653
+],
+[
+"PROSPERITY BANK",
+146124,
+132605
+],
+[
+"ORIGIN BANK",
+10308,
+9967
+],
+[
+"FROST BANK",
+100769,
+82791
+],
+[
+"ATLANTIC UNION BANK",
+66791,
+60797
+],
+[
+"FLAGSTAR BANK NATIONAL ASSN",
+534263,
+498442
+],
+[
+"NBT BANK NATIONAL ASSN",
+37646,
+15895
+],
+[
+"SANTANDER BANK N A",
+1264196,
+316521
+],
+[
+"PATHFINDER BANK",
+11048,
+9769
+],
+[
+"HILLS BANK&TRUST CO",
+14389,
+13425
+],
+[
+"RENASANT BANK",
+37177,
+36377
+],
+[
+"AMERIS BANK",
+93819,
+88799
+],
+[
+"BEACON BANK&TRUST",
+107464,
+104268
+],
+[
+"MID PENN BANK",
+6010,
+5760
+],
+[
+"BANK OF HAWAII",
+49345,
+24148
+],
+[
+"CITY NB OF FLORIDA",
+20770,
+19958
+],
+[
+"CENTRAL TRUST BANK",
+25887,
+15975
+],
+[
+"ARROW BANK NATIONAL ASSN",
+24345,
+9402
+],
+[
+"HERITAGE BANK",
+17155,
+15410
+],
+[
+"ASSOCIATED BANK NA",
+80575,
+31171
+],
+[
+"BELL BANK",
+48070,
+47525
+],
+[
+"ALERUS FINANCIAL NA",
+14484,
+13652
+],
+[
+"BNY MELLON NATIONAL ASSN",
+26000,
+7000
+],
+[
+"OLD SECOND NATIONAL BANK",
+43553,
+27873
+],
+[
+"S&T BANK",
+27029,
+26374
+],
+[
+"MECHANICS BANK",
+24392,
+22504
+],
+[
+"UMB BANK NATIONAL ASSN",
+47976,
+22647
+],
+[
+"BANCO POPULAR DE PUERTO RICO",
+238000,
+145000
+],
+[
+"SOFI BANK NATIONAL ASSN",
+164576,
+9569
+],
+[
+"MERCHANTS BANK OF INDIANA",
+45330,
+44364
+],
+[
+"FIRST CITIZENS CMTY BANK",
+4696,
+2812
+],
+[
+"FIRST HAWAIIAN BANK",
+97063,
+77990
+],
+[
+"FIDELITY DEPOSIT&DISCOUNT BK",
+1650,
+1035
+],
+[
+"UNITED COMMUNITY BANK",
+12562,
+12130
+],
+[
+"BANCFIRST",
+30951,
+24268
+],
+[
+"SOUTHSTATE BANK NA",
+117493,
+109962
+],
+[
+"TD BANK USA NATIONAL ASSN",
+191659,
+366
+],
+[
+"CUSTOMERS BANK",
+80006,
+64210
+],
+[
+"TEXAS CAPITAL BANK",
+28389,
+21717
+],
+[
+"GLACIER BANK",
+58149,
+52484
+],
+[
+"EVERBANK NATIONAL ASSN",
+124702,
+102757
+],
+[
+"POPULAR BANK",
+76713,
+69972
+],
+[
+"TOWNEBANK",
+40237,
+27510
+],
+[
+"BMW BANK OF NORTH AMERICA",
+68541,
+0
+],
+[
+"BCORP BANK NATIONAL ASSN",
+88322,
+36742
+],
+[
+"PINNACLE BANK",
+121681,
+70781
+],
+[
+"NICOLET NATIONAL BANK",
+18316,
+16553
+],
+[
+"BARCLAYS BANK DELAWARE",
+416000,
+5000
+],
+[
+"STIFEL BANK&TRUST",
+28452,
+27570
+],
+[
+"U S CENTURY BANK",
+8050,
+4251
+],
+[
+"OPTUM BANK INC",
+34000,
+2000
+],
+[
+"UBS BANK USA NATIONAL ASSN",
+20925,
+9311
+],
+[
+"COMENITY CAPITAL BANK",
+419359,
+0
+],
+[
+"TOYOTA FINANCIAL SB",
+50630,
+5396
+],
+[
+"CITIZENS BANK NATIONAL ASSN",
+619831,
+457597
+],
+[
+"SALLIE MAE BANK",
+535327,
+0
+],
+[
+"LIVE OAK BANKING CO",
+19614,
+16807
+],
+[
+"CROSS RIVER BANK",
+52783,
+7722
+],
+[
+"BANKUNITED NATIONAL ASSN",
+181344,
+171344
+],
+[
+"NBH BANK",
+14010,
+13203
+]
+],
+"missing": []
+}

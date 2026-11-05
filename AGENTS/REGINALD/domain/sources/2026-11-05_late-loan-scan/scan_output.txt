@@ -1,0 +1,7 @@
+banks scanned 139, missing [], untied 115
+sum 30-89 6/30 $M 13433 9/30 14489
+PREFERRED BANK                     multifamily    30-89     62.8 ->    143.1   26.5% of $541M  NA    27.4->   80.0 assets $7,816M
+NEXBANK                            multifamily    30-89     24.9 ->     75.2    8.6% of $877M  NA     1.9->    1.9 assets $13,974M
+FLAGSTAR BANK NATIONAL ASSN        construction   30-89      8.0 ->     46.4    3.6% of $1,281M  NA   119.8->  116.1 assets $87,412M UNTIED
+FIRST HAWAIIAN BANK                multifamily    30-89      0.8 ->     28.3    3.1% of $926M  NA     0.0->    0.0 assets $23,767M UNTIED
+UNTIED: [('HUNTINGTON NATIONAL BANK', 1225144, 792657), ('FARMERS BANK&TRUST CO', 5591, 4645), ('BRISTOL COUNTY SAVINGS BANK', 1949, 1064), ('FIRST MERCHANTS BANK', 54645, 53186), ('FIRST COMMONWEALTH BANK', 35333, 26440), ('JOHNSON BANK', 5247, 5137), ('CITY NATIONAL BANK', 257823, 207250), ('AMERANT BANK NATIONAL ASSN', 34051, 32825), ('BANK OZK', 24269, 13351), ('SUNWEST BANK', 37222, 25483), ('STEARNS BANK NATIONAL ASSN', 22673, 15735), ('COLUMBIA BANK', 95088, 90648)]
