@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none. 10/29 BEA: September real PCE flat (+0.015%), real DPI −0.27%, saving rate 3.8% (lowest since Oct 2022) = aggregate buffer drawdown with gasoline the largest nominal line; Q3 real PCE still +3.8% SAAR on July–August, so broad collapse remains unestablished; no cohort split, no letter fired (research/2026-10-29_GDP_PCE/GRADE.md). **WQ-537 (Will 10/29): CRL-32 registered at 25% — saving ≤3.8% at the Oct (11/25) and Nov (12/23) prints plus real DPI Nov ≤ Sep = sustained drawdown; cohort leg = Fed DFA deposits by income (model-allocated, descriptive); cost leg = HENRY L775 (one figure). No score move (research/2026-10-29_WQ537/LETTER.md).**
-**As of:** 2026-11-05 08:50 ET | STATUS commit: `0e11b4958`
+**As of:** 2026-11-05 08:30 ET | STATUS commit: `0760f967b`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN

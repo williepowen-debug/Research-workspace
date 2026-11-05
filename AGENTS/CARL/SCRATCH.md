@@ -1,5 +1,5 @@
 # CARL SCRATCH
-**Last session:** 2026-11-04 21:13 ET to 2026-11-05 ~08:50 ET (clock jumped about 11 hours while idle); Claude Code, Opus 5.5 (claude-opus-5-5), spawned by PROME prome-b2 on Will's direct assignment 2026-11-04 21:12 ET.
+**Last session:** 2026-11-04 21:13 ET to 2026-11-05 about 08:29 ET (clock jumped about 11 hours while idle); Claude Code, Opus 5.5 (claude-opus-5-5), spawned by PROME prome-b2 on Will's direct assignment 2026-11-04 21:12 ET.
 **Type:** One bounded session: read two DEWEY card reports. No score, threshold, gate, prediction or card move. Sub-agents not refreshed.
 
 **PRIORITY-1:** **Next full session: drain what this bounded session left, then Fri 11/06 NFP (V16) and ALLY/RITM checkpoint.** Left: 10 owed action:[CARL] BOARD signals (`board_gap.py`), 8 top-level inbox packets (4 PROME board-ledger gaps, DAEDALUS sweep #5, 3 ISHM), 11 `inbox/WALTER/` signals, COR-20261031-22 unreceipted, and the 11/03 PHAN runner + GIG band ruling, UNREVIEWED past its date. Q3 HHDC is on the docket for 11/05 (date UNVERIFIED).
@@ -62,7 +62,7 @@
 | PROME inbox | Delivery memo 2026-10-29 (L841/L842) |
 
 ## INBOX
-Top-level 8, WALTER lane 11 at 2026-11-05 08:45 ET (`find` lane-descending form); all undrained by assignment, listed in the answer.
+Top-level 8, WALTER lane 11 at 2026-11-05 08:29 ET (`find` lane-descending form); all undrained by assignment, listed in the answer.
 
 ## WORKBOOK HEALTH
 | TSV | Note |
