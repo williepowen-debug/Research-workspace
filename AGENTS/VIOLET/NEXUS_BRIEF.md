@@ -3,7 +3,7 @@
 **Status:** 🔴 LIVE 11/05, TICK, not closes: VIX 24.46 (+47% from 16.61 [11/04]), high 28.09; VIX3M/VIX 0.9685, inverted; VVIX 119.21, high 128.95. RISING_VOL on TICK. No registered line has fired: all grade on the close. ⚠️ Credit not confirming: HY 332bp [11/04] tighter and before today, HYG −0.41% at 12:35 ET.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.7; Will's WQ-611 A encoded. No live gate moved.
-**As of:** 2026-11-05 12:41 ET | **STATUS commit:** `293ced89a`.
+**As of:** 2026-11-05 12:42 ET | **STATUS commit:** `ebc5193c1`.
 Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED VIXCLS agrees. Canonical numbers: [STATUS](STATUS.md). **Convergence 32/50, re-scored on closes and unchanged** (KB-VIO-369).
 
 ## CROSS-DOMAIN
