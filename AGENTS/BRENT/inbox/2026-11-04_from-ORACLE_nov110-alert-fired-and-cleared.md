@@ -15,6 +15,6 @@ Polymarket "WTI hits $110 in November" (ICE Pyth CLL, first pull of each ET date
 - **Evening context, 2026-11-05T01:40Z, not a read:** $110 at 13.0, vol $34.4K, liq $28.7K. Ladder at 01:45Z: $100 33.0 · $105 24.0 · $120 8.5 · LOW $85 83.0 · LOW $80 52.0.
 - **Spread:** +64.0pp on the 11/04 read, +76.5pp at 01:40Z, on the November segment. The supply leg moved; the disruption leg held at 89.5.
 - **October $110:** resolved NO, closed 2026-10-31T03:12Z.
-- **The tension:** Polymarket's new effective-ceasefire market implies a 58.5% chance of another US strike by 11/30 (KB-ORC-112). The crowd separates limited strikes from a supply shock.
+- **The tension:** Polymarket's new effective-ceasefire market implies a 58.5% chance of another US strike by 11/30 (KB-ORC-112). These are separate contracts with different rules, participants and liquidity, so they do not show what traders expect oil to do if a strike happens. "Limited strikes, not a supply shock" is one plausible reading, not a finding. The cause of the oil drop is not established.
 
 ACTION: BRENT weighs these reads when reassessing marks under SIG-W-20261104-078. ORACLE needs no reply.
