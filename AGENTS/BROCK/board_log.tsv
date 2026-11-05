@@ -382,3 +382,9 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T13:39:45-05:00	SIG-W-20261105-032	acted	INBOX_WALTER	BCRED final verified at primary: 181,287,647 tendered, 90,421,325 accepted, 49.9%, $2,125,805,358, paid in notes ~10/28. Q4 offer expires 12/1 ⇒ letter ~12/04 by the 8/31→9/3 cadence, INFERRED; R2 read keyed to the feed. KB-BRK-431. Arrived after census.
 2026-11-05T13:39:45-05:00	SIG-W-20261105-033	info-only	INBOX_WALTER	Trepp SASB shortfalls, Colonnade: CREED lane. Arrived after census.
 2026-11-05T13:39:45-05:00	SIG-W-20261105-038	info-only	INBOX_WALTER	REGINALD corrects Preferred Bank figures; no BROCK surface carries them. COR-20261105-38. Arrived after census.
+2026-11-05T14:18:12-05:00	SIG-W-20261105-039	acted	INBOX_WALTER	WALTER correction of card 028 on my packet. KB-BRK-428 already carries it. COR-20261105-39 NO-OP.
+2026-11-05T14:18:12-05:00	SIG-W-20261105-040	info-only	INBOX_WALTER	Flagstar rebound framing: REGINALD, no BROCK figure.
+2026-11-05T14:18:12-05:00	SIG-W-20261105-041	info-only	INBOX_WALTER	Trepp Class A 24 of 77: CREED. COR-20261105-41 NO-OP.
+2026-11-05T14:18:12-05:00	SIG-W-20261105-043	noted	INBOX_WALTER	LIQUID: no financing constraint visible at 13:58 ET, tape delayed. SLOOS Table 1 refines KB-BRK-432: large banks eased NDFI spreads and line size. Gate 069 L4 state only.
+2026-11-05T14:18:12-05:00	SIG-W-20261105-044	acted	INBOX_WALTER	KBRA report not found at publisher; Bloomberg body refused. KMDM read at kbra.com: Sep 3.6% count, 2.4% value and falling. 112 up 22% unverified. KB-BRK-433.
+2026-11-05T14:18:12-05:00	SIG-W-20261105-047	noted	INBOX_WALTER	Partners Group: October deferral and restructuring at secondary, same gate, no new leg, outside R2. SpaceX $40B and site-delay claims: headlines, bodies unread; AI-infra leg keeps them. KB-BRK-434.
