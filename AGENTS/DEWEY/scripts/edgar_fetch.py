@@ -33,7 +33,10 @@ SUBMISSIONS = "https://data.sec.gov/submissions/CIK{}.json"
 # SEC requires a DECLARED-CONTACT UA and throttles/403s generic ones. Kept
 # identical in shape to edgar_doc.py's, which is the verified-working form —
 # this file previously declared a placeholder (research@example.com).
-HEADERS = {"User-Agent": "Research DEWEY williepowen@gmail.com", "Accept": "application/json"}
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+HEADERS = {"User-Agent": sec_ua("Research DEWEY {}"), "Accept": "application/json"}
 
 def fetch_filings(cik, filing_type=None, limit=10):
     """Returns (name, filings). Raises EdgarError with a READABLE message.

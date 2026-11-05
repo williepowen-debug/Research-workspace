@@ -65,7 +65,10 @@ from zoneinfo import ZoneInfo
 from html.parser import HTMLParser
 
 # SEC requires a declared User-Agent (with contact). This is the whole 403 fix.
-UA = "Research DEWEY williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("Research DEWEY {}")
 HJSON = {"User-Agent": UA, "Accept": "application/json"}
 HHTML = {"User-Agent": UA, "Accept": "text/html,application/xhtml+xml"}
 

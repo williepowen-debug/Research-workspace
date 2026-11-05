@@ -46,7 +46,10 @@ from html.parser import HTMLParser
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 # SEC wants the OPPOSITE: a declared contact, and 403s the browser UA.
-CONTACT_UA = "Research DEWEY williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+CONTACT_UA = sec_ua("Research DEWEY {}")
 CONTACT_UA_HOSTS = ("sec.gov", "data.sec.gov", "efts.sec.gov")
 
 

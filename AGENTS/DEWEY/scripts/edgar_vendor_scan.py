@@ -28,7 +28,10 @@ banks that file with the FDIC (e.g. OZK) are invisible here.
 """
 import argparse, collections, csv, html, io, json, os, re, sys, time, urllib.parse, urllib.request
 
-UA = "Research DEWEY williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("Research DEWEY {}")
 KRE_URL = "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/holdings-daily-us-en-kre.xlsx"
 DEFAULT_TERMS = ["Fiserv", "Jack Henry", "Fidelity National Information", "core processing", "core conversion",
                  "core banking", "SilverLake", "Finxact", "TCS BaNCS", "Temenos", "Thought Machine", "nCino",

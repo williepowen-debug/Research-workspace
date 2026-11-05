@@ -16,6 +16,7 @@ import hashlib
 import importlib.util
 import io
 import json
+import os
 from pathlib import Path
 import tempfile
 from types import SimpleNamespace
@@ -28,6 +29,7 @@ RESPONSE = FIX / 'sec-response_0000320193_NetIncomeLoss_2026-10-24.json'
 CATO_PACKET = FIX / 'cato_comparison_0000320193_NetIncomeLoss_2026-10-24.json'
 CATO_PROBE = FIX / 'cato_reader-probe_0000320193_NetIncomeLoss_2026-10-24.json'
 
+os.environ['SEC_CONTACT'] = 'contact@example.invalid'  # WQ-600: fixture, set before edgar_doc loads
 spec = importlib.util.spec_from_file_location('edgar_doc', HERE / 'edgar_doc.py')
 edgar = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(edgar)
@@ -314,7 +316,7 @@ class AcceptanceTests(unittest.TestCase):
         rc, _, _ = run_cli(['compare', *CLI], get=lambda url, h: seen.append((url, h)) or self.raw)
         self.assertEqual(rc, 0)
         self.assertEqual(seen, [(edgar.CONCEPT.format(cik='0000320193', concept='NetIncomeLoss'), edgar.HJSON)])
-        self.assertIn('williepowen@gmail.com', edgar.HJSON['User-Agent'])
+        self.assertIn('contact@example.invalid', edgar.HJSON['User-Agent'])
 
     # Neighbour: overlap — two units for the same window
     def test_two_units_select_only_requested(self):

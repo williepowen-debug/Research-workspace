@@ -32,7 +32,10 @@ import argparse, csv, collections, json, re, sys, time, urllib.parse, urllib.req
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 
-UA = "Research DEWEY williepowen@gmail.com"   # SEC wants a declared contact UA (see edgar_doc.py)
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+UA = sec_ua("Research DEWEY {}")   # SEC wants a declared contact UA (see edgar_doc.py)
 NS = "{http://www.sec.gov/edgar/nport}"
 COLS = ["adsh", "file_date", "rep_date", "registrant", "series", "net_assets", "name", "title",
         "cusip", "balance", "valUSD", "pctVal", "assetCat", "restricted", "url"]

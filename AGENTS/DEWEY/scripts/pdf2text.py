@@ -14,9 +14,20 @@ Engine: pdfminer.six (already in the repo .venv per root CLAUDE.md). Run with
 the venv python: .venv/bin/python3 AGENTS/DEWEY/scripts/pdf2text.py ...
 """
 
-import sys, os, re, argparse, tempfile, urllib.request, urllib.error
+import sys, os, re, argparse, tempfile, urllib.parse, urllib.request, urllib.error
 
-UA = "Research DEWEY williepowen@gmail.com"
+import pathlib, sys  # WQ-600: SEC contact lives in the gitignored local .env (scripts/sec_contact.py)
+sys.path.append(str(next(p for p in pathlib.Path(__file__).resolve().parents if (p / "scripts" / "sec_contact.py").is_file()) / "scripts"))
+from sec_contact import sec_ua
+PLAIN_UA = "Research DEWEY"  # non-SEC hosts get no contact address (WQ-600)
+
+
+def _ua_for(url):
+    """SEC requires a declared contact; every other host gets the plain name."""
+    host = urllib.parse.urlparse(url).hostname or ""
+    if host == "sec.gov" or host.endswith(".sec.gov"):
+        return sec_ua("Research DEWEY {}")
+    return PLAIN_UA
 
 
 class PdfError(Exception):
@@ -26,7 +37,7 @@ class PdfError(Exception):
 def _materialize(src):
     """Return a local path; download if src is a URL."""
     if re.match(r"^https?://", src):
-        req = urllib.request.Request(src, headers={"User-Agent": UA})
+        req = urllib.request.Request(src, headers={"User-Agent": _ua_for(src)})
         # A transport failure is a REPORTABLE RESULT, not a crash — a traceback
         # reads as "the tool is broken" instead of "that PDF is not there".
         # Class swept 2026-08-27 with fetch_url/edgar_fetch/edgar_doc.

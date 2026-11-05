@@ -36,7 +36,7 @@ OPENFIGI_SEARCH = "https://api.openfigi.com/v3/search"
 OPENFIGI_MAP = "https://api.openfigi.com/v3/mapping"
 # Manual price-lookup surface for a human/terminal (the honest fallback for the price leg):
 FINRA_MARKETS_BOND = "https://www.finra.org/finra-data/fixed-income/corp-and-agency"
-UA = "DEWEY-research williepowen@gmail.com"
+UA = "DEWEY-research"  # OpenFIGI only: no SEC contact needed here (WQ-600)
 
 
 def _post(url, payload, retries=3, backoff=1.5):

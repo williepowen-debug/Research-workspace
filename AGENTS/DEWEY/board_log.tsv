@@ -59,3 +59,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-02T13:58:55Z	2026-10-30_from-VULCAN_amzn-10q-filed-and-L800-row	acted	VULCAN	AMZN Q3 XBRL packets run (b90f5b2f4); replay of VULCAN text reads: 5 of 5 overlapping filed cells match; table in research/edgar_xbrl/2026-11-02_L800_amzn-q3-run-log.md; packet to VULCAN inbox.
 2026-11-02T13:58:55Z	WALTER/README.md	noted	WALTER_LANE	Lane README, not a REQ; WALTER lane holds 0 REQ files at this drain.
 2026-11-05T01:52:00Z	WALTER/2026-11-04_existing-003R-005R-reconciliation	acted	WALTER_LANE	003R PARKED by handoff (FFIEC 4,259 of 4,268 Q3 filers; FDIC 0 rows; unavailable-data deferral not met). 005R resolved, no action owed. Packet stays in lane while 003R is parked.
+2026-11-05T02:13:29Z	2026-11-04_from-DAEDALUS_WQ600-sec-contact	acted	DAEDALUS	Eight files applied. Five SEC tools on the pattern; pdf2text host-gated; trace_bond no address; test holds a fixture only. Reply sent to DAEDALUS.
