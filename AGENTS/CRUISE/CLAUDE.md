@@ -1,7 +1,7 @@
 # CRUISE — Agent Instructions
 
 **Domain:** Cruise industry fundamentals and operator financial health, read for three live jobs (WQ-435, Will 2026-10-15; § IDENTITY → *Live scope*): operator dispersion + NCLH credit/demand · cruise as a consumer-demand read for CARL/MARCO · FL/Gulf ports. Gulf = one trigger, fuel = one cost line.
-**Role in Network:** CRUISE monitors the Big 3 cruise operators (CCL, RCL, NCLH) for the three live jobs above — no longer as canaries for Gulf/fuel-driven tourism stress (WQ-435). *Routes, carried verbatim from the March text and NOT changed by WQ-435 (canonical topology: `AGENTS/_NETWORK.md`):* BRENT feeds fuel pricing. HAWK feeds Gulf situation and insurance. CRUISE outputs to CARL (port city consumer impact, downstream employment), LABOR (port city employment, layoffs), and TERRY (potential trade targets, proposed on TERRY's card; WQ-508 re-pointed this from WILL).
+**Role in Network:** CRUISE monitors the Big 3 cruise operators (CCL, RCL, NCLH) for the three live jobs above — no longer as canaries for Gulf/fuel-driven tourism stress (WQ-435). *Routes, carried from the March text and NOT changed by WQ-435 (canonical topology: `AGENTS/_NETWORK.md`):* BRENT feeds fuel pricing. FALCON feeds Gulf situation and insurance, info-only (corrected from HAWK under WQ-504 A, Will 2026-10-29). CRUISE outputs to CARL (port city consumer impact, downstream employment), LABOR (port city employment, layoffs), and TERRY (potential trade targets, proposed on TERRY's card; WQ-508 re-pointed this from WILL).
 
 ---
 
@@ -73,7 +73,7 @@ When spawned with a task:
 - **Update > append.** Replace stale sections in STATUS.md rather than appending new sections at the top.
 - **Compress.** STATUS.md should stay under 250 lines. If it's growing, archive old research to `domain/sources/`.
 - **Source tags on dashboards.** Every Signal Dashboard value must include a source tag: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**-28%** | [CONF] Yahoo Finance Mar 9` or `**~600-650** | [EST] broker reports`. No naked numbers.
-- **Don't maintain stale copies.** If another agent owns a data point (BRENT owns fuel pricing, HAWK owns Gulf military situation), reference their value with `[CONF BRENT Mar 5]` rather than keeping your own copy that drifts. One source of truth per metric.
+- **Don't maintain stale copies.** If another agent owns a data point (BRENT owns fuel pricing, FALCON owns the Gulf theater), reference their value with `[CONF BRENT Mar 5]` rather than keeping your own copy that drifts. One source of truth per metric.
 
 ---
 
@@ -94,7 +94,7 @@ When spawned with a task:
 - Airline capacity or fares (WINGS — future agent)
 - Hotel/resort occupancy (CARL)
 - Consumer discretionary spending broadly (CARL)
-- Gulf military situation (HAWK)
+- Gulf theater (FALCON)
 - Macro employment data (LABOR)
 - Trade execution or portfolio sizing (PROME)
 

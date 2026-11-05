@@ -42,7 +42,7 @@ Source and arithmetic: `research/2026-10-25_catchup/RESULT.md`, `calculations.js
 | TERRY | Updated existing WATCH rationale; optional construction/valuation remains TERRY's. No card requested by this maintenance. |
 | CARL / MARCO via WALTER | Verified current NCL advertising, AAA volume forecast and secondary UBS booking lead fit dispersion without establishing broad consumer distress or Florida losses. |
 | BRENT / FALCON | Fuel price and theater owners. Fuel remains a cost line; Gulf remains the existing cancellation trigger. No fresh theater absence claim. October 25 bounded operator pass identified one NCL Sky cancellation reported August 5; VX04 is YELLOW(2), with source/coverage limits in the sweep result. |
-| PROME | L713 RESOLVED 10/28; L714 (10/29) and L715 (11/17) remain future obligations; WQ-504 shared-topology question pending (due 10/30). |
+| PROME | L713 RESOLVED 10/28; L714 release leg graded 10/29, 10-Q leg owed (filed 10/29, unread at 11/5); L715 (11/17) remains a future obligation; WQ-504 RULED A 10/29, charter corrected 11/5. |
 
 ## Rejected / Exited
 
