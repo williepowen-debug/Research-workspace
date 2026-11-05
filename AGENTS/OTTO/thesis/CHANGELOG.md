@@ -23,7 +23,7 @@ changes (those live in `MAINTENANCE.md`).
 - **Recovery:** EART 2024-1 re-crossed 28% at September collections and the trigger re-fired. The strengthening row is MET and not applied: level test, noisy, cause unidentified.
 - **New:** V2 recovery rung at 15¢ and 35¢, reusing existing lines. Positioning section reconciled to the surviving claims; the TLT expression is removed. The Secondary break sentence resting on a loss level is withdrawn.
 
-**Calibration:** OTTO-34 current estimate 50 → 85 (as-made 60 scores). OTTO-36 and OTTO-37 registered. OTTO-35 unchanged at 15%.
+**Calibration:** OTTO-34 current estimate 50 → 85 and OTTO-33 60 → 70 (as-made 60 scores on both). OTTO-33's 10/28 note was too wide and is corrected; the row stays OPEN. OTTO-36 and OTTO-37 registered. OTTO-35 unchanged at 15%. OTTO-31 unchanged at 8%.
 
 **Trigger:** v1.6 overdue since 10/30; Exeter September 10-Ds; Credit Acceptance and CPS Q3. **Touches:** THESIS, STATUS, PREDICTIONS, ML-345 to 349, `research/2026-11-05_catchup/READOUT.md`, WALTER drop `SIG-OTTO-WALTER-20261105`. No trade proposal.
 
