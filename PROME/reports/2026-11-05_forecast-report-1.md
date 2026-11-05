@@ -17,19 +17,21 @@ Eight rows sit in both reads. Stated probability matched on every row where the 
 
 ## Result
 
-**Rows read:** 508 across 31 desks, as of 2026-11-05. Open 142 · HIT 141 · MISS 107 · PARTIAL 13 · NO-VERDICT 22 · ANNULLED 28 · RESOLVED-UNTYPED 31 · UNMAPPED 24.
-**Scored:** 198 of 248 decided calls carry a usable probability; 50 do not. 33 decided rows took their direction from the Outcome cell, the status alone said RESOLVED.
+Updated 2026-11-05 15:0x ET: 22 RED rows joined on RED's own convention line (a7efebead); those 22 rest on the owner's statement and were not in the blind reads.
+
+**Rows read:** 508 across 31 desks, as of 2026-11-05. Open 142 · HIT 150 · MISS 120 · PARTIAL 13 · NO-VERDICT 22 · ANNULLED 28 · RESOLVED-UNTYPED 9 · UNMAPPED 24.
+**Scored:** 220 of 270 decided calls carry a usable probability; 50 do not. 33 decided rows took their direction from the Outcome cell, the status alone said RESOLVED.
 **Not read:** CARL and MARCO sub-agent ledgers, NEXUS markdown monitors, TERRY CALIBRATION.tsv, ORACLE, REGINALD's EGBN research copy; CORAL and SHADE have no ledger.
 
-**Fleet Brier 0.228** on n=198. Always saying 50%: 0.250. Always saying the fleet hit rate (53%): 0.249. The second is the fairer baseline; beating it is what would show the percentages add information. Neither is a skill claim while calls overlap.
-**Gain over the hit-rate baseline:** +0.021, bootstrap 95% range -0.006 to +0.044, treating calls as independent, which overstates certainty because many calls share one root.
+**Fleet Brier 0.228** on n=220. Always saying 50%: 0.250. Always saying the fleet hit rate (52%): 0.250. The second is the fairer baseline; beating it is what would show the percentages add information. Neither is a skill claim while calls overlap.
+**Gain over the hit-rate baseline:** +0.022, bootstrap 95% range -0.005 to +0.044, treating calls as independent, which overstates certainty because many calls share one root.
 
 | Stated | Calls | Came true | 95% interval |
 |---|---:|---:|---|
-| Under 30% | 20 | 10% | 3% to 30% |
-| 30–49% | 28 | 39% | 24% to 58% |
-| 50–69% | 83 | 55% | 45% to 66% |
-| 70–89% | 57 | 70% | 57% to 80% |
+| Under 30% | 24 | 12% | 4% to 31% |
+| 30–49% | 38 | 37% | 23% to 53% |
+| 50–69% | 90 | 56% | 45% to 65% |
+| 70–89% | 58 | 71% | 58% to 81% |
 | 90%+ | 10 | 60% | 31% to 83% |
 
 ## Desk counts, alphabetical. Counts only, no desk score, no ranking
@@ -58,7 +60,7 @@ Eight rows sit in both reads. Stated probability matched on every row where the 
 | OSPREY | 7 | 1 | 6 | 6 | 0 | 0 | 0 | 0 |
 | OTTO | 20 | 6 | 12 | 12 | 0 | 0 | 0 | 2 |
 | OZK | 12 | 7 | 5 | 5 | 0 | 0 | 0 | 0 |
-| RED | 28 | 5 | 0 | 0 | 0 | 0 | 0 | 23 |
+| RED | 28 | 5 | 22 | 22 | 0 | 0 | 0 | 1 |
 | REGINALD | 28 | 11 | 7 | 7 | 4 | 5 | 0 | 1 |
 | SAM | 35 | 1 | 32 | 32 | 0 | 0 | 1 | 1 |
 | VIOLET | 6 | 0 | 1 | 0 | 0 | 1 | 0 | 4 |
@@ -72,7 +74,7 @@ Eight rows sit in both reads. Stated probability matched on every row where the 
 
 | Gap | Rows | Owner fix |
 |---|---:|---|
-| RED: 23 rows say CORRECT or WRONG against a modal lean, so a row cannot show whether the stated event happened. Excluded rather than guessed | 23 | RED states the convention |
+| RED-08: no instrument named, paper TRUE and physical FALSE, unreadable by RED's own line | 1 | None owed |
 | Decided calls with no usable percentage: HENRY 33 (UNSCORED-AS-MADE), FERT 6, MIDAS 5, YURI 4, CREED 1, VIOLET 1 | 50 | Forward only, no backfill |
 | Other untyped or unmapped terminal rows | 32 | Owner's next session |
 | Shared-root calls | not machine-readable | Stated in Notes by owner; report 2 reads them |

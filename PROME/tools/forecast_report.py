@@ -51,6 +51,9 @@ def prob(conf, pred=""):
     s = conf or ""
     if re.match(r"\s*(UNSCORED|NOT SCORED|PROVISIONAL|UNASSIGNED|ASSUMPTION|\(unstated\)|—|-\s*$)", s, re.I):
         return None
+    rg = re.match(r"\s*(\d{1,3})\s*-\s*(\d{1,3})\s*(?:%|pct\b)", s)
+    if rg:
+        return (float(rg.group(1)) + float(rg.group(2))) / 200
     m = re.search(r"SCORE AT\s*" + PCT.pattern, s, re.I) or PCT.search(s)
     if m:
         v = float(m.group(1)) / 100
@@ -74,6 +77,26 @@ def norm_rows(path):
         return [], []
     hdr = [h.strip() for h in L[0].split("\t")]
     return hdr, [l.split("\t") for l in L[1:]]
+
+
+def owner_events(path):
+    """A desk's own '# CONVENTION' line may state event outcomes by ID: EVENT HAPPENED: X-01 06 ... / EVENT DID NOT HAPPEN: ..."""
+    out = {}
+    for l in open(os.path.join(ROOT, path), encoding="utf8", errors="replace"):
+        if not l.startswith("# CONVENTION"):
+            continue
+        for label, val in (("EVENT HAPPENED", "HIT"), ("EVENT DID NOT HAPPEN", "MISS"), ("UNREADABLE", "RESOLVED-UNTYPED")):
+            m = re.search(label + r":\s*([^.:]*?)(?:[.,]|$)", l)
+            if not m:
+                continue
+            pre = None
+            for tok in m.group(1).split():
+                k = re.match(r"([A-Z]+-)?(\d+)$", tok)
+                if not k:
+                    continue
+                pre = k.group(1) or pre
+                out[f"{pre}{k.group(2)}"] = val
+    return out
 
 
 def col(hdr, name, *alts):
@@ -106,6 +129,7 @@ def read_all(bucket):
             defects.append((path, "no status column"))
             continue
         desk = path.split("/")[1]
+        stated = owner_events(path)
         for c in rows:
             g = lambda i: c[i].strip() if i is not None and i < len(c) else ""
             if not c[0].strip():
@@ -119,6 +143,8 @@ def read_all(bucket):
                 b2 = bucket(re.sub(r"^[^A-Za-z]+", "", o))
                 if b2 in ("HIT", "MISS", "PARTIAL", "NO-VERDICT", "ANNULLED"):
                     b, basis = b2, "outcome"
+            if c[0].strip() in stated:
+                b, basis = stated[c[0].strip()], "owner-convention"
             out.append({"desk": desk, "id": c[0].strip(), "status": st, "outcome": o, "conf": g(icf),
                         "pred": g(ipr), "made": g(imd), "bucket": b or "OPEN", "basis": basis,
                         "p": prob(g(icf), g(ipr)), "first": first_call(g(icf))})
@@ -181,6 +207,7 @@ def selftest():
     cases = [("55% [2026-11-05]", .55), ("5% [2026-07-23] (was 30% [2026-07-02])", .05), ("50pct", .5),
              ("UNSCORED-AS-MADE", None), ("PROVISIONAL", None), ("SCORE AT 40% [2026-01-01] -- x", .4), ("—", None)]
     bad = [(c, prob(c)) for c, w in cases if prob(c) != w]
+    assert prob("57-60pct") == .585
     assert prob("", "P(TRUE | a verdict) = 0.60. x") == .6
     assert first_call("5% [2026-07-23] (was 30% [2026-07-02])") == .3
     a, b = wilson(5, 10)
