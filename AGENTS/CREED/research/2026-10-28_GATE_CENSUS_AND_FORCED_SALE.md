@@ -2,7 +2,7 @@
 
 **Run date:** 2026-10-28. Read-only helper; no repo files edited. Nothing here grades a trigger; CREED does that.
 **Tiers:** PRIMARY-READ (SEC document opened and read here) · PRIMARY-CITED (a primary named by a secondary, not opened) · SECONDARY · SEARCH-NOT-FOUND (shapes tried are named).
-**SEC access:** EDGAR full-text search (efts.sec.gov), data.sec.gov submissions and XBRL `Assets`, and Archives documents, all with UA "Research CREED williepowen@gmail.com".
+**SEC access:** EDGAR full-text search (efts.sec.gov), data.sec.gov submissions and XBRL `Assets`, and Archives documents, all with UA "Research CREED [SEC contact, local setting]".
 
 > ⚠️ **Naming correction to the brief:** the brief says "Blackstone REIT (SREIT)". **SREIT is Starwood Real Estate Income Trust (CIK 1711929). Blackstone's vehicle is BREIT (CIK 1662972).** The 2026-04-29 suspension belongs to Starwood. BREIT was checked separately below.
 

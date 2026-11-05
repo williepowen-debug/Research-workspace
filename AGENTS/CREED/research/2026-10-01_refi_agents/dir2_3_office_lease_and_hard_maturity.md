@@ -132,6 +132,6 @@ That is the full Trepp method: the largest tenant's lease date vs loan maturity,
 3. Tenant fields refresh only at the annual rollover review, so check the review date before trusting them.
 4. It covers no bank balance sheets.
 
-Scale: one EX-102 per trust per month, a few hundred trusts. That is feasible with the existing `.venv` plus EDGAR (User-Agent "Research CREED williepowen@gmail.com").
+Scale: one EX-102 per trust per month, a few hundred trusts. That is feasible with the existing `.venv` plus EDGAR (User-Agent "Research CREED [SEC contact, local setting]").
 
 **Direction 3: NO, not from free data.** The ABS-EE schema has **no extension-option or fully-extended-maturity field**: a grep for "extens" across every tag in the EX-102 returned nothing; only `maturityDate` and `postModificationMaturityDate` exist. The extendable office pool (floating SASB and CRE CLO) is 144A anyway. The only free route is loan-by-loan: KBRA and Morningstar DBRS surveillance press releases state "fully extended maturity" dates in prose (as for BSREP 2021-DC, ONYP and 280 Park above). That is a hand-built named-loan tracker, not a national split. A national office hard/extendable split means buying Trepp (or CRED iQ), or getting the gated Playbook through a sanctioned channel. **That is Will's call, not this agent's.**

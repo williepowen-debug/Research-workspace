@@ -124,4 +124,4 @@ Tier key: **PRIMARY-READ** = read the primary document · **PRIMARY-CITED** = a 
 - **Maturity timing:** Trepp has 88.1% of the $12.1B hitting hard maturity by YE-2029. CRED iQ shows transfers arriving ~11 months *before* maturity. If the CRED iQ pattern holds for the Trepp cohort, which is untested, recognition would arrive about a year ahead of each Trepp maturity bucket. That is an inference to test, not a finding.
 
 ---
-*Sources fetched with browser UA, or the EDGAR UA "Research CREED williepowen@gmail.com". No forms, emails or registrations were submitted. Raw pulls are in the session scratchpad, not the repo.*
+*Sources fetched with browser UA, or the EDGAR UA "Research CREED [SEC contact, local setting]". No forms, emails or registrations were submitted. Raw pulls are in the session scratchpad, not the repo.*
