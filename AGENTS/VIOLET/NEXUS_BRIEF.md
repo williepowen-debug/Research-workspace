@@ -2,13 +2,13 @@
 
 **Status:** 🔴 LAST READ 11/05, TICK, not closes: VIX 26.60 (+60% from 16.61 [11/04]), high 28.09; VIX3M/VIX 0.935, inverted; VVIX 123.87, high 132.11. RISING_VOL on TICK. ⚠️ VIOLET closed out at 14:0x ET on Will's word before the bell, so the 11/05 close is UNGRADED and no registered line has been graded. Credit not confirming: HY 332bp [11/04] tighter and before today, HYG −0.46% at 14:00 ET.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
-**Thesis version:** v4.1.8; WQ-611 A and WQ-614 A encoded. No live gate moved.
-**As of:** 2026-11-05 14:02 ET | **STATUS commit:** `14ed6630f`.
+**Thesis version:** v4.1.9; credit-flat row defined, MOVE pause/resume retired (KB-VIO-377, KB-VIO-378). No live gate moved.
+**As of:** 2026-11-05 16:45 ET | **STATUS commit:** `3ecb11e72`.
 Official closes through 11/04 from Cboe History and the VX settlement CSV; FRED VIXCLS agrees. Canonical numbers: [STATUS](STATUS.md). **Convergence 32/50, re-scored on closes and unchanged** (KB-VIO-369).
 
 ## CROSS-DOMAIN
 
-**ALL DESKS, HENRY / LIQUID / RED 🔴 — 11/05 spike (KB-VIO-374, outbox SIG):** regime is RISING_VOL on TICK, graded on the close. VIX +42% in 5 days from 17.20 [10/29]; credit-flat leg unconfirmed until FRED 11/05. Inversion marks peaks, not onsets (KB-VIO-034). The shape reads closer to Path B than Path A; one session, cause not established. Use official closes after 16:15 ET for any grade.
+**ALL DESKS, HENRY / LIQUID / RED 🔴 — 11/05 spike (KB-VIO-374, outbox SIG):** regime is RISING_VOL on TICK, graded on the close. VIX +42% in 5 days from 17.20 [10/29]; credit-flat leg open: flat now means HY 11/05 at or under 351bp, 326bp [10/29] +25, against 332bp [11/04] (KB-VIO-378, exploratory basis). Inversion marks peaks, not onsets (KB-VIO-034). The shape reads closer to Path B than Path A; one session, cause not established. Use official closes after 16:15 ET for any grade.
 
 **ALL DESKS — late regime-shift record (KB-VIO-367):** VIX 21.15 [11/02] and 20.83 [11/03] were RISING_VOL closes; the 11/02 close met VIOLET's all-desks outbound row, and VIOLET was dark. Reversed: 16.61 [11/04], LOW_VOL. VVIX peak 110.47 (line 120), 3M/VIX low 1.0211 (line 1.00), +25.1% in 5 days (line +30%): none fired.
 
