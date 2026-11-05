@@ -1,10 +1,11 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-11-02.md` (PROME WQ-588 due-row wake: D:L794 GRADED — CRMT NINTH BRIDGE to Wed 11/04 · P13 latch RULED in force · drain 7/7; no score change).
+**CURRENT:** `catchups/2026-11-05.md` (PROME assignment on Will's 13:25 ET word: D:L915 GRADED — CRMT TENTH BRIDGE · selloff read, no private-credit-specific move, X1 NOT MET · FSK/OTF/OBDC/BXSL Q3 · BCRED Q3 final · BRK-26 SQN does not resolve · drain 35/35; no score change).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
 ## Superseded catch-ups
+- `catchups/2026-11-02.md` (PROME WQ-588 due-row wake: D:L794 GRADED — CRMT NINTH BRIDGE to Wed 11/04 · P13 latch RULED in force · drain 7/7; no score change).
 - `catchups/2026-10-31.md` (PROME GATE-BRK-R2 review wake: NH Q3 final 43.7% (b) NOT FIRED · P13 post-fire rule PROPOSED · 39-name NAV discount 28.68% · BRK-11/18/25 searches NOT FOUND · BRK-26 SQN candidate → RED · drain 0/0; no score change).
 - `catchups/2026-10-30.md` (PROME L795 wake: CABO NOT CLOSED (primary), TRO hearing adjourned to 11/13 press-only · L794 CRMT armed, baseline only · drain 0/0; no score change).
 - `catchups/2026-10-29.md` (PROME L827 wake: HTGC Q3 THESIS FAILS FOR Q3 + Experiment A cells · BRK-10 RESOLVED-FALSE · HTGC industry relabel basis break · drain 10/10; no score change).

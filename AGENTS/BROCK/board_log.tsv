@@ -351,3 +351,34 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-02T08:55:45-05:00	SIG-W-20261031-012	info-only	INBOX_WALTER	Treasury gross issuance $839B week of 10/26 (gross, mostly bill refinancing) + TIC Japan/Korea flows. BOND/LIQUID/ZHAO own; duration vector reads BOND's curve. No BROCK action.
 2026-11-02T08:55:45-05:00	SIG-W-20261031-023	acted	INBOX_WALTER	ASSESSED: reported Carlyle/KKR/Oaktree prospective discounted BSL buying for CLOs (Bloomberg via Mint 10/31). Counter-evidence to one-way liquidation; BSL not direct lending, not a PC mark or arms-length PC print; BRK-25 count stays 2. KB-BRK-417 (C3). No rescore.
 2026-11-02T08:55:45-05:00	SIG-W-20261031-026	info-only	INBOX_WALTER	Q3 Call Report cohort (book-equity pressure; FLG/HBAN composition flags). REGINALD/GIBBS bank figures; no figure adopted by BROCK; BRK-31 cohort read unchanged.
+2026-11-05T13:39:45-05:00	SIG-W-20261102-001	noted	INBOX_WALTER	Arini reported $800M debt sales partly on bank margin calls (WSJ relay, anonymous). No print, no BDC loan: BRK-25 stays 2. Named in the cause table: a primary filing would be what establishes it.
+2026-11-05T13:39:45-05:00	SIG-W-20261102-004	info-only	INBOX_WALTER	Denver office roundup: CRE, REGINALD/CREED lane. Correction COR-20261102-04: no BROCK surface carries these figures.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-007	acted	INBOX_WALTER	APO Q3 at primary: GAAP loss $1.057B, $2.661B investment losses net of offsets, issuer attributes to rates; not separated from credit. KB-BRK-426. SHADE owns insurer read.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-008	info-only	INBOX_WALTER	Credit Acceptance forecast revision: CARL/OTTO lane. No funding read-across taken.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-012	noted	INBOX_WALTER	Delaware Life sale exploration: FT headline only. Emitter watch on BRK-25 unchanged; exploration is not a sale or a print. SHADE owns.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-015	info-only	INBOX_WALTER	CVR buys Marathon refineries; $2.5B secured debt plus Trafigura financing. BRENT lane; not private-credit evidence.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-023	noted	INBOX_WALTER	CCC concentration vs broadening: consistent with both coexisting. ICE ruler unchanged; W3 and X1 test (b) stay on ICE tiers. Constituents not reproduced, no gate moved.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-024	noted	INBOX_WALTER	Beaudry walkaway: ~$360M loan, Bridge/Apollo sale effort secondhand, CRE not a BDC loan. Not a BRK-25 print.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-026	info-only	INBOX_WALTER	KBRA Weil exposure: conditional CMBS, CREED lane.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-027	info-only	INBOX_WALTER	JSP and Holy Redeemer filings: no BDC exposure read; CREED/BOND lane.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-028	acted	INBOX_WALTER	Fitch Q3 reconciled at ABF Journal: 6.3%, 27 events FROM 20 new defaulters, TTM 91 vs 84. Card reads 27 versus 20 as a comparison; correction sent to WALTER. KB-BRK-428.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-037	info-only	INBOX_WALTER	Talen capacity monetization: WATT lane.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-039	acted	INBOX_WALTER	GCRED letter read at primary: below 5% second quarter, 100% honored. KB-BRK-427. Outside R2 population. PCR mark-gap and Kroll/StepStone PIK indicators: no new measured stress, held for next source review.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-040	noted	INBOX_WALTER	Nscale Nvidia credit support unsigned: retained in AI-infra leg, no instrument. VULCAN confirms negotiation only.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-049	info-only	INBOX_WALTER	PJM, Exelon, ERCOT: WATT lane.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-062	deferred	INBOX_WALTER	Credit/macro title leads, bodies not recovered; next authorized review. No figure changed. $350B bank claims and CPPIB titles are the two worth a source pass.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-069	noted	INBOX_WALTER	Ueno bank-to-fund redemption suspension: a documented local bank-to-fund mechanism, no US PC channel established. LIQUID owns contagion.
+2026-11-05T13:39:45-05:00	SIG-W-20261104-076	noted	INBOX_WALTER	LIQUID HY persistence; superseded for 11/4 by -021. Reconciled, not re-graded.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-010	acted	INBOX_WALTER	CoreWeave DDTL read: OBDC, OTF, PSBD, GECC schedules at 9/30, small, marked at par before the bond fall. KB-BRK-425. Packet to VULCAN.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-013	info-only	INBOX_WALTER	Ueno political update; no channel to my book.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-017	acted	INBOX_WALTER	FLASH tape: my own read done on live prices; KB-BRK-430. Superseded by later prices.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-021	noted	INBOX_WALTER	LIQUID 11/4 REVERSES; print predates 11/5. CCC/BB 6.52 [11/4].
+2026-11-05T13:39:45-05:00	SIG-W-20261105-024	info-only	INBOX_WALTER	Pena resignation; no channel to my book.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-025	info-only	INBOX_WALTER	REGINALD late-loan scan: CRE, no BROCK figure.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-026	info-only	INBOX_WALTER	Ueno correction: $17.9M N-PORT is REGINALD figure. COR-20261105-26: no BROCK surface carried the prior claim.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-028	info-only	INBOX_WALTER	Preferred Bank: REGINALD, contained.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-029	info-only	INBOX_WALTER	Ueno audited accounts, soft assets: REGINALD/LIQUID; no channel to my book. Arrived after PROME census.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-031	noted	INBOX_WALTER	SLOOS: NDFI standards tighter on every type queried; demand from business credit intermediaries and PE funds STRONGER, citing liquidity needs among others. Table 1 unread. KB-BRK-432. REGINALD/LIQUID own. Arrived after census.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-032	acted	INBOX_WALTER	BCRED final verified at primary: 181,287,647 tendered, 90,421,325 accepted, 49.9%, $2,125,805,358, paid in notes ~10/28. Q4 offer expires 12/1 ⇒ letter ~12/04 by the 8/31→9/3 cadence, INFERRED; R2 read keyed to the feed. KB-BRK-431. Arrived after census.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-033	info-only	INBOX_WALTER	Trepp SASB shortfalls, Colonnade: CREED lane. Arrived after census.
+2026-11-05T13:39:45-05:00	SIG-W-20261105-038	info-only	INBOX_WALTER	REGINALD corrects Preferred Bank figures; no BROCK surface carries them. COR-20261105-38. Arrived after census.
