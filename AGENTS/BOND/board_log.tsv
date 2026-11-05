@@ -102,3 +102,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T09:43:17-05:00	SIG-W-20261104-042	noted	INBOX_WALTER	HY 340, CCC 1316 [11/3] and VIX 19.42/21.15/20.83 reproduced at FRED this boot. STATUS still carries 326 [10/29]; refresh owed.
 2026-11-05T09:43:17-05:00	SIG-W-20261104-050	noted	INBOX_WALTER	WGC Q3 central-bank purchases 321.2t estimated (+42% YoY); only 120t reported. MIDAS owns; reserve-demand context only.
 2026-11-05T09:43:17-05:00	SIG-W-20261104-076	noted	INBOX_WALTER	LIQUID renewed HY >320 persistence; cells 326/344/343/340 [10/29-11/3] reproduced at FRED this boot. Funding not armed per LIQUID. VX-BND-07 band read owed at next refresh.
+2026-11-05T09:56:12-05:00	SIG-W-20261104-023	acted	INBOX_WALTER	Assessed against KB-BND-352 and the 9/25 Q4 read: concentration holds through August, not for September-October; B tier agrees. No gate moved (KB-BND-534).
+2026-11-05T09:56:12-05:00	SIG-W-20261104-027	acted	INBOX_WALTER	Holy Redeemer: reported bond default on about $71M, tax-exempt hospital debt outside every BOND instrument; idiosyncratic, related debtor 26-14631 kept separate (KB-BND-535).

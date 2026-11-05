@@ -1,38 +1,34 @@
-# BOND SCRATCH — 2026-11-02 file update, standard tier
+# BOND SCRATCH — 2026-11-05 catch-up, NOT closed out
 
-> STATE AT WRITING: Composite **18/35** (5+4+2+3+1+1+2; was 19). Clean-nominal counter 3 (WQ-536 A); downgrade graded after the 11/4 QRA, auction health 4 until then. **OPEN predictions 0.** Position: **FLAT** — TBT ×10 sold 10/30 (FORGE 10/30 reconcile), WQ-357 RESOLVED; TLT82P closed 10/12; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.56/4.94/5.31 [10/30]; real 10Y 2.60; HY/CCC/IG 326/1325/89 [10/29]; SOFR−IORB +5 [10/30]; FR2004 long-end $150.816B [as-of 10/21]. Refunding bars FROZEN 11/2.
+> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2; was 18). Clean-nominal counter 3 (WQ-536 A); auction health 3 since 11/5. **OPEN predictions 0.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.58/4.90/5.28 [11/4]; real 10Y 2.64; HY/CCC/IG 340/1316/93 [11/3]; SOFR−IORB +4 [11/4]; FR2004 long-end $150.816B [as-of 10/21]. Refunding bars FROZEN 11/2. THESIS v1.2.13.
 
 ## WHAT I DID
 
-Will (11/2 09:20 ET): "Lets update BOND files and close out." Boot earlier the same session (09:12). Claude Code, `claude-opus-5-5`. Pull: local level with origin after fetch (0 behind); 2 unpushed commits were PROME's (09:09); FALCON/WALTER dirty paths untouched.
+Boot 09:39 ET, status to Will. PROME packet `inbox/2026-11-05_from-PROME_catch-up-to-live-data.md` (7dac94dc1), Will's verbatim word 09:42 ET, verified at the artifact. PROME: do not close out until asked.
 
-- **Position:** BOND surfaces said "TBT 5 held, no sell order" (10/22 reconcile). FORGE 10/30 shows TBT ×10 sold 10/30; token posture → `FLAT@2026-10-30` on all four surfaces. KB-526.
-- **Grades:** 7Y 10/29 AUDIT ONLY, clean (I′ +0.34pp). KB-519. ⚠️ System `python3` lacks numpy, so the grader silently skips I′ there ("NOT COMPUTED"); run it with `/home/willi/Research-workspace/.venv/bin/python3`.
-- **Refunding freeze:** CUSIPs appeared in TA_WS upcoming on 11/2, before the QRA; docket_check rc1 named all three. Bars frozen 11/2 (`registry/auction_bars/2026-11-09_91282CRW3.json`, `…11-10_91282CRX1.json`, `…11-12_912810UY2.json`), grader accepted each. KB-522. No auction in these tenors falls before the prints, so a later freeze would have produced the same bars.
-- **Data:** Treasury 10/30, ICE 10/29, NY Fed 10/30, PMMS 10/29, FR2004 as-of 10/21 (KB-520/523/525). VX-04 3→2 on the letter (−$0.580B, off the high; disagreement recorded); VX-17 2→1 (226bp inside band).
-- **Self-caught error:** I first wrote that the 11–21Y bucket made "a fresh 2026 high" (the fetch tool's 3-week window). Whole-series scan: highest since as-of 9/23. Fixed in THESIS and KB-523 before commit. The boot report to Will said "hit a new high" — corrected in the closeout message.
-- **Inbox:** WALTER SIG-W-20261029-016 (ECB) and -20261031-012 ($839B gross supply / TIC) processed (KB-521/524, 2 board_log rows); CYPHER FYI filed.
+- **QRA read at primary** (`sb0678`, `sb0590`, TBAC `sb0679`/`sb0680`, XML schedules): F1 and F3 NOT FIRED (KB-528). Guidance dropped "at least"; TBAC expects increases later in FY27 (KB-529).
+- **F2:** 11/4 read routed to RED, seventh of seven OFF-THE-RUN; carrier extended to 2/9/2027, metric and cut unchanged (KB-530). Self-caught: my first selftest edit missed the count expression; fixed before routing.
+- **Downgrade:** auction health 4→3 (KB-531). Composite 17.
+- **Calendar:** blind span closed at Treasury's XML; FHLB CFR re-dated 11/9→11/13 on REGINALD's calendar (KB-532); bar freeze for the month-end cluster docketed 11/19.
+- **Credit:** HY refreshed, band 3 sessions (KB-533). ACTION signals assessed: CCC broadening (KB-534), Holy Redeemer (KB-535).
+- **Data:** Treasury 11/4, ICE 11/3, NY Fed 11/4, Bund 11/5, ACM, KW, proxy (KB-527, 536). KB overdue rows dispositioned: 10 Stale_By cleared, 3 STALE, 2 SUPERSEDED.
+- **Inbox:** 7 of 7 WALTER cards consumed. R3 answered in the PROME packet.
 
-## Closeout C1–C12
+## NEXT (dated)
 
-C1 STATUS rewritten, composite re-summed 18/35. C2 KB 519–526 (8 new) + 13 overdue dispositioned; VX 4 rows (2 score changes); **FLOW no-op** (no channel confirmed or changed). C3 no DUE rows, 0 OPEN; no owed registration (a refunding prediction is optional, not owed). C4 THESIS: position + FR2004 write-back, Last Updated line, token; **no version bump, CHANGELOG no-op** (position exit is not a thesis-level change; no gate, regime or threshold moved). C5 docket: 3 CUSIP rows, freeze row marked done, 6 fired rows rotated to the October archive with outcomes, FR2004 recurring row refreshed. C6 TRADE header/holdings/row 1/Next Review + token. C7 this file. C8 RECEIPT overwritten; 2 board_log rows. C9 no promotion: the numpy/I′ trap is recorded here and in STATUS/TRADE; MEMORY unchanged, no auto-memory. C10 n/a (standard). C11 NEXUS_BRIEF rewritten. C12 standard runner.
-
-## NEXT SESSION (dated)
-
-1. **11/4 (Wed):** QRA — adjudicate F1/F3, note sb0607 window expiry and coupon sizes; F2 op 10–20Y 13:40 ET → RED read. Then **grade the convergence downgrade** (auction health 4→3?) on counter 3 (KB-518).
-2. **11/5:** FR2004 as-of 10/28 (VX-04 re-score); answer the R3 WATCH_FOR verdict packet (`inbox/processed/2026-10-01_from-WALTER_R3-watch-for-verdicts.md`; PROME DOCKET 11/3 row lists BOND outstanding).
-3. **11/9 · 11/10 · 11/12:** grade 3Y/10Y/30Y with `--frozen-bars AGENTS/BOND/registry/auction_bars/<date>_<cusip>.json` under `.venv` python.
-4. 11/11 VX-BND-20 review; 11/12–11/17 freeze bars for the 20Y 11/18 and 10Y TIPS 11/19; 11/13 FRBNY FX report.
-5. Optional: register a base-rated refunding prediction before 11/9.
+1. **11/5 today:** HY 11/4 cell (VX-07 reading stated in KB-533; VIOLET owns VIX close) · PMMS ~noon · FR2004 as-of 10/28 ~16:15 ET, VX-04 re-score · addendum to PROME if a score moves.
+2. **11/9 · 11/10 · 11/12:** grade 3Y/10Y/30Y with `--frozen-bars AGENTS/BOND/registry/auction_bars/<date>_<cusip>.json` under `.venv` python.
+3. 11/11 VX-20 review; 11/12–11/17 freeze 20Y and TIPS bars; 11/13 FHLB CFR, FRBNY FX report; 11/17 F2 op; 11/19 freeze month-end bars.
+4. Closeout when PROME or Will asks: tier standard or heavy (tool changed), C9 promotion scan, `--superseded` for the composite, push.
 
 ## OPEN THREADS
 
-Counter question with PROME (answered by WQ-536 A; downgrade grade still owed). True CDX, pulled-deal census, private/offshore funding, event-time TIPS: unchanged gaps. CDX proxy and Bund not run this session. WQ291 funding window still UNGRADED. Blind span 11/13→11/23 unverified by the tool (20Y 11/18 and TIPS 11/19 rows come from the Aug-QRA PDF; re-verify after 11/4).
+L226 FHLB retune waits on the 11/13 report and sets no number without a base rate. Independent read of `ta_ws_schema` repair (L859 note) still not commissioned. 7Y reopening handling owed before April 2027. EA AAA leg of `dm_cross_section` 504 twice on 11/5. True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED.
 
 ## POSITION
 
-FLAT on this thesis: TBT ×10 sold 10/30 per FORGE (Will had rebought 5→10 first; WQ-357 RESOLVED 10/29). BOND executes nothing; no expiry reminders.
+FLAT on this thesis. BOND executes nothing; no expiry reminders.
 
 ## MAIL / DELIVERY
 
-No packets sent. Inbox drained at writing (WALTER lane 2, general 1).
+RED F2 packet sent. PROME delivery packet sent; recipient consumption not yet recorded.

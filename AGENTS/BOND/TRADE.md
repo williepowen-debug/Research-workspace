@@ -1,8 +1,8 @@
 # BOND — Trade Recommendations
 
-**Last Updated:** 2026-11-02 — position write-back (TBT ×10 sold 10/30, FLAT), 7Y 10/29 audit grade, refunding bars frozen 11/2; no new card, threshold or trade proposal.
-**Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.12** (WQ-536 RULED A 10/29: audit-only fires never reset the clean-auction counter) (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
-<!-- bond-state: thesis=v1.2.12; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
+**Last Updated:** 2026-11-05 — November QRA graded (F1/F3 NOT FIRED), auction health 4→3, WQ-592 decline confirmed at Treasury's statement; no new card, threshold or trade proposal.
+**Regime:** 🟠 ELEVATED — `thesis/THESIS.md` **v1.2.13** (November QRA graded, auction health 3) (C-36 TWO-PART, ruled 9/1: policy-path channel alive · term premium drove the July delta) · STATUS carries the same. *(This line read "🟡 WATCH escalating · v1.2.3" until 9/29 — a stale header, not a disagreement.)*
+<!-- bond-state: thesis=v1.2.13; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
 
 **Position reconciliation November 2:** WQ-357 RESOLVED (Will 10/29); FORGE 10/30 reconcile shows **TBT ×10 SOLD 10/30** (Will had rebought 5→10 first), no live TBT line. TLT82P closed 10/12. **BOND's duration-short sleeve is FLAT.** WQ280 NO-ADD stands. WQ339 authorized drafting only; WQ360 old put card LAPSED UNAPPROVED October14. USER October20 permits NOT-FIRED ideas through TERRY/Will, not automatic entries; no expiry reminders.
 **Registered predictions:** OPEN 0. BND-32 RESOLVED FALSE 10/29 (2s30s steepened +10bp on the 10/28 FOMC vs a 65% non-steepening call); ledger thesis/PREDICTIONS.tsv.
@@ -15,7 +15,7 @@
 
 **Rates:** Rally to 10/22 (10Y 4.96, 30Y 5.29), then the 10/28 hawkish-dissent hold bear-steepened the curve (2Y −3, 30Y +7). ACM 10/16–10/27 premium −15.0bp vs expected +3.5bp; neither decomposition identifies buyback causation.
 
-**Official demand:** Six of six F2 buybacks OFF-THE-RUN (10/27 20–30Y: recent share 0.00%, cap filled). Registered 10/21 20Y-R and 10/22 TIPS clean; 10/26 2Y record bid substitution on audit-only grading. F1/F3 resolve at the 11/4 QRA.
+**Official demand:** Seven of seven F2 buybacks OFF-THE-RUN (11/4 10–20Y: recent share 0.22%, cap filled). Registered 10/21 20Y-R and 10/22 TIPS clean; 10/26 2Y record bid substitution on audit-only grading. F1 and F3 NOT FIRED at the 11/4 QRA (KB-BND-528); WQ-592 RULED B, and Treasury's statement confirms no same-tenor increase (10Y $42B, 30Y $25B). Guidance dropped "at least"; TBAC expects coupon increases later in FY27 (KB-BND-529).
 
 **Credit:** HY 340 [10/22] then 318 [10/27]; CCC 1356 3-year-window high [10/23]. Lead-band letter met one session 10/22 and reverted. Pulled-deal census missing. X1 CLOSED/DONT-SIZE stays with its owners.
 
@@ -69,7 +69,7 @@
 | HY OAS >300 ×3 published sessions (met on9/28–9/30; current levels→STATUS) · HY >350 + pulled deals | Credit watch reopens (BOND analysis) · issuance freeze | Price HYG/JNK downside **as analysis only** — any sizing is gated by X1 (CLOSED 8/28; BROCK 10/02 sitting) → TERRY + Will *(corrected 2026-09-28 15:22 ET)*. 300 crossed 9/28 (302); the 350 issuance-freeze line → distance in STATUS. |
 | Fast layer breaks while cash stays tight | Synthetic leading cash — ⚠️ HYG/IEF rises MECHANICALLY in a rates-led selloff (IEF denominator); no divergence at the last run | Early short-credit support only if cash HY agrees. |
 | SOFR−IORB positive after a weak auction (non-quarter-end) | Auction stress funding through repo | Systemic confirmation; escalate LIQUID/PROME. The 9/23 auction funding window is UNGRADED by ruling; current context is in STATUS. Quarter-end is excluded from this test. |
-| Treasury long-end buyback cap lifted | 🔴 **FIRED 8/19** (sb0607). YCC-lite REJECTED on the letter — liquidity-support, yield-reactive in timing; F1 (11/4 ratchet) · **Historical first F2 read, September10: OFF-THE-RUN — $5.187B of a $6.0B cap, 75.1% into low-coupon deep-discount legacy paper; the ON-THE-RUN concentration condition is NOT met ⇒ RED's v1.1 ACTIVATES on the off-the-run branch. ⚠️ Offer side thinner than the headline: cover 1.748× is BELOW the prior minimum of every 10Y–20Y op (n=26, min 3.22×) — the official bid may not source paper at scale, which CUTS THE OTHER WAY on the 'official bid over the position's life' argument (`KB-BND-273`)** · F3 (11/4 long-coupon cut) | Bond-supportive; cuts AGAINST the puts; an official bid over the position's remaining life. | ⚠️ **INFERENCE CORRECTED 2026-09-14 (`KB-BND-285`): the cap did NOT bind on this op — Treasury left $813M unused while rejecting $5.3B of tenders — so `tendered/cap` is not a demand statistic here. The arithmetic stands; the 'official bid is weakened' conclusion is DOWNGRADED TO AMBIGUOUS (absolute tenders and accepted/tendered both rank September BETTER). The robust fact is a PRICE one: Treasury would not pay the offered liquidity premium.**
+| Treasury long-end buyback cap lifted | 🔴 **FIRED 8/19** (sb0607). YCC-lite REJECTED on the letter — liquidity-support, yield-reactive in timing; F1 NOT FIRED 11/4 · **Historical first F2 read, September10: OFF-THE-RUN — $5.187B of a $6.0B cap, 75.1% into low-coupon deep-discount legacy paper; the ON-THE-RUN concentration condition is NOT met ⇒ RED's v1.1 ACTIVATES on the off-the-run branch. ⚠️ Offer side thinner than the headline: cover 1.748× is BELOW the prior minimum of every 10Y–20Y op (n=26, min 3.22×) — the official bid may not source paper at scale, which CUTS THE OTHER WAY on the 'official bid over the position's life' argument (`KB-BND-273`)** · F3 (11/4 long-coupon cut) | Bond-supportive; cuts AGAINST the puts; an official bid over the position's remaining life. | ⚠️ **INFERENCE CORRECTED 2026-09-14 (`KB-BND-285`): the cap did NOT bind on this op — Treasury left $813M unused while rejecting $5.3B of tenders — so `tendered/cap` is not a demand statistic here. The arithmetic stands; the 'official bid is weakened' conclusion is DOWNGRADED TO AMBIGUOUS (absolute tenders and accepted/tendered both rank September BETTER). The robust fact is a PRICE one: Treasury would not pay the offered liquidity premium.**
 
 ## Cross-Agent Dependencies
 
@@ -87,5 +87,5 @@
 
 - 10/29 7Y `91282CRV5` graded 11/2 AUDIT ONLY: clean (indirect 57.77 vs I′ 57.43, +0.34pp; dealer 9.41; BTC 2.46).
 - ✅ Refunding bars FROZEN 11/2 (`registry/auction_bars/2026-11-09_91282CRW3.json`, `2026-11-10_91282CRX1.json`, `2026-11-12_912810UY2.json`). Grade each print with `--frozen-bars` (Git-root-relative) and the repo `.venv` python (system python lacks numpy, so I′ is not computed there).
-- 11/4 QRA F1/F3 and F2 op; 11/12–11/17 freeze the 11/18 20Y and 11/19 10Y TIPS bars.
+- 11/12–11/17 freeze the 11/18 20Y and 11/19 10Y TIPS bars; 11/19 freeze the month-end 2Y, 5Y and 7Y bars; 2/3/2027 QRA.
 - Live holdings/approvals remain FORGE/TERRY/PROME records. No expiry-reminder duty under USER October20.

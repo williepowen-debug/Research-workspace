@@ -2,6 +2,15 @@
 
 Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)** = regime change / conviction reversal / channel restructure; **minor (X.Y)** = refinement, threshold update, prediction resolution. Every entry logs old view → new view.
 
+## v1.2.13 — 2026-11-05 (**November QRA graded; auction health 4→3**)
+- **Old view → new view:** F1 and F3 were open until the 11/4 QRA → **both NOT FIRED** (`KB-BND-528`): every coupon size unchanged; long-end buybacks stay $6B an op in the same two buckets; the guided $38B→$70B is the 8/19 step carried for a full quarter. The sb0607 reading stands: liquidity support on the letter, yield-reactive in timing, not YCC.
+- **What weakened:** the dated-window ground for rejecting YCC. The step-up outlived its 11/4 end on a new quarterly schedule. F1 has no number; this is a judgement, and a reader using the $70B headline as the size test would disagree.
+- **New evidence on the supply leg (`KB-BND-529`):** Treasury dropped "at least" from its size guidance; TBAC says coupon increases are warranted later in FY27, likely second half, mostly 2Y–10Y.
+- **Auction health 4→3** on the WQ-536 A letter (`KB-BND-531`); composite 18→17. Rider: it follows the 10/26 2Y, the weakest 2Y in BOND's records. Registered prints 11/9–11/12 can reset the counter.
+- **Why minor:** pre-registered adjudications resolved and a ruled downgrade applied; no channel, kill, threshold or position changed. Token `thesis=v1.2.13`.
+
+---
+
 ## v1.2.12 — 2026-10-29 08:30 EDT (**WQ-536 RULED A: audit-only fires neither reset nor advance the clean-auction counter**)
 - **Old view → new view:** the 9/15 precedent ("an I′ fire resets the counter") did not say whether an AUDIT-ONLY grade counts. BOND's interim holding (10/29 morning) treated the 10/26 2Y audit-only I′ fire as a reset and declined the downgrade → **Will ruled A, verbatim "536 lets go with your recommendation" (2026-10-29 08:29 ET; queue row `PROME/WILL_QUEUE.md` WQ-536, PROME's rec A, which BOND endorsed): only a REGISTERED fire resets; an audit-only fire is recorded beside the count.**
 - **Consequence:** counter = **3** since the 10/21 20Y-R (registered CLEAN); the convergence-downgrade condition is MET on its letter and is GRADED at the 11/4–11/8 wake, unless a registered clean or fire before then changes the count. Auction health stays **4** until that grade. The 10/26 2Y (record-low indirect 45.68%) and the 10/29 7Y (audit-only) are recorded, not counted.

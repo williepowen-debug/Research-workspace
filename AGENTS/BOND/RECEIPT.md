@@ -1,16 +1,14 @@
-# BOND receipt — 2026-11-02 file update and closeout
+# BOND receipt — 2026-11-05 catch-up (not a closeout)
 
-Task: Will, 11/2 09:20 ET: "Lets update BOND files and close out." Runtime Claude Code, model `claude-opus-5-5`. Standard closeout. No subagents.
+Task: PROME packet 7dac94dc1 under Will's 09:42 ET word. Runtime Claude Code, model `claude-opus-5-5`, session bond-fe. Tools: bash, repo python `.venv`, web fetch helper. One Sonnet web-fetch helper used. Desktop Commander, mtnewswire and Definite failed to connect; none needed.
 
 | Item | Result | Evidence |
 |---|---|---|
-| Position write-back | TBT ×10 sold 10/30 per FORGE; token posture → FLAT@2026-10-30 on STATUS/THESIS/TRADE/NEXUS_BRIEF | KB-BND-526 |
-| 7Y 10/29 | AUDIT ONLY, clean (I′ +0.34pp) | KB-BND-519; `analysis/2026-11-02_update/grade_91282CRV5.txt` |
-| Refunding bars | FROZEN 11/2 for 3Y 11/9 · 10Y 11/10 · 30Y 11/12; grader accepted all three | KB-BND-522; `registry/auction_bars/2026-11-{09,10,12}_*.json` |
-| Docket | docket_check rc1 → 3 CUSIP rows added → rc0; 6 fired rows rotated with outcomes | docket/CATALYSTS.tsv; docket/archive/CATALYSTS_fired_2026-10.tsv |
-| Data refresh | Treasury 10/30, ICE 10/29, NY Fed 10/30, FR2004 10/21, PMMS 10/29 | `analysis/2026-11-02_update/raw/manifest.json`; KB-BND-520, 523, 525 |
-| Vectors | VX-04 3→2, VX-17 2→1; VX-01, VX-07 states refreshed; composite 19→18 | workbook/VX.tsv; STATUS |
-| KB hygiene | 8 rows added (519–526); 13 overdue ACTIVE rows dispositioned (1 SUPERSEDED, 5 STALE, 7 Stale_By cleared as atemporal) | kb_lint conformant |
-| Inbox | 2 WALTER (2 board_log rows) + 1 CYPHER FYI → processed | board_log.tsv; KB-BND-521, 524 |
+| QRA | F1 and F3 NOT FIRED; guidance dropped "at least" | KB-BND-528, 529; `analysis/2026-11-05_catchup/raw/treasury/` |
+| F2 | 11/4 read routed to RED; carrier to 2/9/2027 | KB-BND-530; `registry/f2_reads.tsv` |
+| Downgrade | Auction health 4→3; composite 17 | KB-BND-531 |
+| Calendar | Blind span verified at Treasury; FHLB date moved | KB-BND-532; `docket/CATALYSTS.tsv` |
+| Credit | Refresh; two ACTION assessments | KB-BND-533, 534, 535 |
+| Inbox | 7 of 7 WALTER cards consumed | board_log.tsv |
 
-Not done: R3 WATCH_FOR verdict answer (PROME DOCKET 11/3 row), convergence-downgrade grade (after the 11/4 QRA), CDX proxy run, Bund refresh, refunding prediction. No packets sent.
+Not done: FR2004 as-of 10/28, PMMS 11/5 and HY 11/4 were unpublished; L226 waits on the 11/13 report; closeout held for PROME.
