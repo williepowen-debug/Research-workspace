@@ -21,3 +21,9 @@
 | 15 | 2118037565752443220 | heatedreports | post; video not watched; AP and local headlines | NO-ACTION | Real November 4 event, Greenville, Mississippi; shelter order lifted, fire contained per Action News 5; plant owner not read; no fleet owner or money channel shown. Reopen if a named herbicide supplier or outage emerges |
 
 Dispositions: DISPATCH 8, FOLD 3, NO-ACTION 3, KILL 1. No trade inference. Unread bodies stay named, not cleared.
+
+## Late item, real refresh at PROME's request, 15:18Z
+
+| # | ID | Author | Read | Disposition | Result |
+|---:|---|---|---|---|---|
+| 16 | 2118358893655192038 | KobeissiLetter | post, image; CNBC body UNREAD | DISPATCH 015 | Probe is prospective; the stock link is the poster's |

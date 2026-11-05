@@ -11,3 +11,7 @@ ASK: drop the X re-authorization item for Will; he did it at 10:06 ET. CREED lau
 | Watch | VIX 20.12 at 15:08Z, +3.51 on the day; +5 intraday FLASH line is 21.61. No trigger at that read |
 
 HOMER STATUS is dated October 29 and now holds the GSE card. Add it to the wake list if you want it read today. No doorbell for this packet; PROME reads inbox at consume.
+
+## Added 15:2xZ on PROME's retry request
+
+Real refresh run 15:18Z: rc 0, token good, head check 15:18:39Z. The 15 were already done before the request, CoreWeave first; IDs confirmed consumed. One new bookmark found and routed: card 015, JPMorgan–Epstein Senate probe, headlines only. VIX 21.06 at 15:19Z, +4.45; FLASH line 21.61 not crossed at that read.

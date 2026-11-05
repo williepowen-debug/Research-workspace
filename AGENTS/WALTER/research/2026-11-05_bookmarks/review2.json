@@ -1,0 +1,14 @@
+{
+ "schema": 2,
+ "staged_at": 1793891921.29959,
+ "items": [
+  {
+   "id": "2118358893655192038",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-05_bookmarks/REVIEW.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "7c8d3f792c184c53ac9d32a4ebac4ab5"
+}
