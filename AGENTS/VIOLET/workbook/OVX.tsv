@@ -49,6 +49,8 @@ date	ovx	vix	gap	ratio	ovx_pctile	ratio_pctile	gap_pctile	p90_ratio	p95_ratio	p7
 2026-10-26	58.71	18.39	40.32	3.19	94.2	93.5	94.8	3.01	3.31	43.14	52.9	WATCH	BACKFILL 10/29 from Cboe OVX/VIX_History.csv, as-of-date window (no later data)	2026-10-29T18:55:26+00:00
 2026-10-27	55.44	17.52	37.92	3.16	92.4	93.1	93.8	3.01	3.31	43.14	52.94	WATCH	BACKFILL 10/29 from Cboe OVX/VIX_History.csv, as-of-date window (no later data)	2026-10-29T18:55:26+00:00
 2026-10-28	58.59	16.91	41.68	3.46	94.1	96.5	95.4	3.01	3.31	43.16	53.03	FIRE	BACKFILL 10/29 from Cboe OVX/VIX_History.csv, as-of-date window (no later data)	2026-10-29T18:55:26+00:00
-2026-10-29	56.32	16.97	39.35	3.32	91.1	95.8	94.6	2.95	3.24	44.81	54.84	FIRE	-	2026-10-29T18:52:48+00:00
+2026-10-29	57.16	17.2	39.96	3.32	91.5	95.8	94.8	2.95	3.24	44.81	54.84	FIRE	BACKFILL 11/05 from official closes (values agree Cboe OVX/VIX_History), ovx.py ladder window trimmed to as-of, no later data REPLACES 10/29 TICK row 56.32/16.97 per KB-VIO-365	2026-11-05T14:46:28+00:00
 2026-10-30	58.48	19.42	39.06	3.01	92.1	91.2	94.5	2.95	3.24	44.82	54.88	WATCH	-	2026-10-30T20:42:00+00:00
+2026-11-02	62.69	21.15	41.54	2.96	93.4	90.4	95.6	2.95	3.24	44.82	54.92	WATCH	BACKFILL 11/05 from official closes (values agree Cboe OVX/VIX_History), ovx.py ladder window trimmed to as-of, no later data WATCH by 0.01 on the tool window; Cboe-only window from 2009 has p90 3.01 and reads CALM	2026-11-05T14:46:28+00:00
+2026-11-03	61.69	20.83	40.86	2.96	93.2	90.3	95.3	2.95	3.24	44.83	54.93	WATCH	BACKFILL 11/05 from official closes (values agree Cboe OVX/VIX_History), ovx.py ladder window trimmed to as-of, no later data WATCH by 0.01 on the tool window; Cboe-only window from 2009 has p90 3.01 and reads CALM	2026-11-05T14:46:28+00:00
 2026-11-04	58.81	16.61	42.2	3.54	92.2	97.3	95.9	2.95	3.25	44.84	54.96	FIRE	-	2026-11-05T14:40:14+00:00
