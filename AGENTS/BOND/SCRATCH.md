@@ -1,6 +1,6 @@
 # BOND SCRATCH — 2026-11-05 catch-up, NOT closed out
 
-> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2; was 18). Clean-nominal counter 3 (WQ-536 A); auction health 3 since 11/5. **OPEN predictions 0.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.58/4.90/5.28 [11/4]; real 10Y 2.64; HY/CCC/IG 332/1297/91 [11/4]; SOFR−IORB +4 [11/4]; FR2004 long-end $150.816B [as-of 10/21]. Refunding bars FROZEN 11/2. THESIS v1.2.13.
+> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2; was 18). Clean-nominal counter 3 (WQ-536 A); auction health 3 since 11/5. **OPEN predictions 1 (BND-33).** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.58/4.90/5.28 [11/4]; real 10Y 2.64; HY/CCC/IG 332/1297/91 [11/4]; SOFR−IORB +4 [11/4]; FR2004 long-end $150.816B [as-of 10/21]. Refunding bars FROZEN 11/2. THESIS v1.2.13.
 
 ## WHAT I DID
 
@@ -15,6 +15,8 @@ Boot 09:39 ET, status to Will. PROME packet `inbox/2026-11-05_from-PROME_catch-u
 - **Inbox:** 9 of 9 WALTER cards consumed, including the BoE hike (KB-537). R3 answered in the PROME packet.
 
 - **L859 HOLD (10:06 ET):** independent read of the 10/29 TreasuryDirect repair found the same failure by other doors. Verified, acceptance conditions committed first, repaired, 24 of 24 mutants caught (KB-538). Read 2 ACCEPT-WITH-RESIDUE, no ❌, L859 closed by PROME; six residue items R1–R6 recorded in `analysis/2026-11-05_catchup/ta_ws_repair_ACCEPTANCE.md`, no code changed after 3036cea01. Grades 11/9–11/12 proceed with `--frozen-bars`. **Auction-day rule: a PRE-PRINT line after the print means NOT GRADED, whatever the rc.** Check on 11/9 whether a target stays in `upcoming` after results post (R4).
+
+- **Will's "go" (10:4x ET):** (1) HY primary count built into `monitors/CREDIT_PRIMARY_MARKET.md`, weekly row each Friday (KB-540); (2) BND-33 registered before the prints; (3) TERRY ask routed through PROME, with KB-541's thin evidence stated.
 
 ## NEXT (dated)
 

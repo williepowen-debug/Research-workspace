@@ -12,6 +12,8 @@ Frontiers: Treasury nominal/real **11/4** · ICE credit via FRED **11/4** · NY 
 
 **Credit moved first, broadened, and eased on 11/4.** HY jumped to 344 on 10/30, held 343 / 340, then 332 [11/4], 18bp under 350 and back below the 338 band. The credit-equity upgrade was not met. On 10/30 the widening was in the better tiers: B +28bp, BB +15, CCC +2. B's 15-session change was +45bp to 11/3 (97th percentile of 383 rolling windows since 2025-05) and +22bp to 11/4 (83rd of 384). LIQUID's rule reads BROADENS and it owns that verdict. ⚠️ 10/30 is month-end, so an index rebalance is an untested part of that one-day move. The "only a few names" story for CCC no longer covers September–October. No funding restriction is established: SOFR−IORB +4bp [11/4].
 
+**New issuance went quiet in October, and this week may be reopening.** About $15B in October, the second-slowest month of 2026, averaging $3.5B a week over the last four, after $17B+ and $14B weeks in late September (Bloomberg via CAM, KB-BND-540). The words are borrowers "on the sidelines"; no pulled deal appears in any source I can reach. EDGAR filers pricing notes fell from 19 to 2, then 18 so far this week. ⚠️ That count mixes investment grade with high yield and misses private deals. Pulled deals are not observable from free sources.
+
 **Auctions: downgrade graded, refunding next.** Three clean registered nominals under WQ-536 A and no size change, so auction health moves 4→3. ⚠️ The downgrade follows the weakest 2Y in BOND's records (10/26, audit-only, recorded beside the count). The refunding prints grade REGISTERED on bars frozen 11/2, and a fire there resets the counter.
 
 **Rates:** curve flattened 5bp since 10/30: 2Y 4.58, 10Y 4.90, 30Y 5.28 [11/4]. Real 10Y 2.64%, run 39 sessions at or above 2.50. December hike about 82% [11/5 evolving vendor bar, not settlement; HENRY owns], up from about 76% [11/2].
@@ -33,6 +35,7 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 | ACM 10Y TP / KW 10Y TP | 0.6773% [11/3] / 0.9089% [10/30] | [EST PRIMARY NY Fed / MIRROR FRED]; different models |
 | Fed path | 12/9 meeting: +20.4bp priced ≈ 82% of a +25bp hike (in-month method, EFFR held 3.88); strip peak 4.500 Oct-2027 (+62.0bp) | [EST CBOT vendor bars, 11/5 evolving bar 09:40 ET, not settlement; HENRY owns] |
 | HY/CCC/B/BB/BBB/IG OAS | 332 / 1297 / 351 / 199 / 113 / 91bp [11/4] | [CONF MIRROR-WALLED ICE via FRED] |
+| HY primary | October ≈$15B; $3.5B a week final four; EDGAR filers 18 so far week of 11/2 | [EST secondary, Bloomberg via CAM; EDGAR mixed IG/HY]; pulled deals not observable |
 | HY distance to 350 | 18bp [11/4]; 344 [10/30], 343 [11/2], 340 [11/3] | [EST] |
 | SOFR / EFFR / IORB | 3.94 / 3.88 / 3.90% [11/4]; volume $3,207B | [CONF PRIMARY NY Fed; IORB FRED] |
 | SOFR−IORB | +4bp [11/4]; +5/+7 on 11/2, 11/3 | [EST]; LIQUID owns the verdict |
@@ -86,16 +89,16 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 ## Exit / falsification
 
-WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT sold 10/30). Funding window UNGRADED. Thesis falsifier 10Y<4.15 AND 30Y<5.00 for 3 sessions plus a clean refunding: not met (4.90 / 5.28 [11/4]). Convergence downgrade: applied 11/5. Position construction is TERRY's. **OPEN predictions: 0.** VX-BND-09 auction tails remain retired.
+WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT sold 10/30). Funding window UNGRADED. Thesis falsifier 10Y<4.15 AND 30Y<5.00 for 3 sessions plus a clean refunding: not met (4.90 / 5.28 [11/4]). Convergence downgrade: applied 11/5. Position construction is TERRY's. **OPEN predictions: 1.** BND-33: at least one refunding auction fires I′, 50%, base rate 5 of 11. VX-BND-09 auction tails remain retired.
 
 ## Immediate Catalysts (same event set as docket/CATALYSTS.tsv)
 
 | Date | Obligation |
 |---|---|
 | 11/5 | FR2004 as-of 10/28 · PMMS |
-| 11/6 | October jobs |
+| 11/6 | October jobs · HY primary weekly count |
 | **11/9 · 11/10 · 11/12** | 🔴 **Refunding: 3Y `91282CRW3` · 10Y `91282CRX1` · 30Y `912810UY2` — registered grades on the 11/2 frozen bars** · CPI 11/10 |
-| 11/11, 11/13 | VX-BND-20 review 11/11 · FHLB Combined Financial Report 11/13 (REGINALD calendar) · FRBNY FX report 11/13 |
+| 11/11, 11/12, 11/13 | VX-BND-20 review 11/11 · BND-33 resolves at the 30Y grade 11/12 · FHLB Combined Financial Report 11/13 (REGINALD calendar) · FRBNY FX report 11/13 |
 | 11/17 | F2 op 20–30Y |
 | 11/18, 11/19 | 20Y new issue $16B · 10Y TIPS reopening $19B (bars freeze 11/12–11/17) |
 | 11/19 | Freeze bars for the month-end cluster |
@@ -106,4 +109,4 @@ WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT s
 
 ## BOTTOM LINE
 
-Treasury left auction sizes alone but dropped "at least" from its promise, and its advisers expect bigger auctions in the second half of FY27, so the supply story is delayed rather than gone. Buybacks did not ratchet again, though the larger size now runs past its original end date. The thing that moved is credit: junk spreads pulled back to 18bp from 350 on 11/4 after three sessions in the warning band, though the widening had spread beyond the weakest names, with no funding strain shown yet. BOND has no position on this thesis; the November 9–12 refunding is the next real test, on bars locked since November 2.
+Treasury left auction sizes alone but dropped "at least" from its promise, and its advisers expect bigger auctions in the second half of FY27, so the supply story is delayed rather than gone. Buybacks did not ratchet again, though the larger size now runs past its original end date. The thing that moved is credit: junk spreads pulled back to 18bp from 350 on 11/4 after three sessions in the warning band, though the widening had spread beyond the weakest names, with no funding strain shown yet. New issuance slowed sharply in October and may be reopening this week. BOND has no position on this thesis; the November 9–12 refunding is the next real test, on bars locked since November 2.

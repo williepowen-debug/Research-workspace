@@ -1,6 +1,26 @@
 # BOND Monitor — Credit Primary Market Function
 
-## Current Read — 2026-10-20
+## Current Read — 2026-11-05
+
+**October's new-issue market slowed sharply on borrower absence; this week's filings point to a reopening; no failed deal is established.** HY 332bp [11/4], 18bp below 350. KB-BND-540.
+
+| Week ending | HY volume (Bloomberg via CAM) | EDGAR filers, 8-K 'pricing of' senior notes | Note |
+|---|---:|---:|---|
+| 9/11 | $12B | 14 | busiest since early June |
+| 9/18 | not stated | 19 | |
+| 9/25 | >$17B, 9 deals | 9 | busiest since Sept 2025 |
+| 10/2 | $14B | 7 | includes Paramount second lien $11.4B, priced 9/30 |
+| 10/9 | $3.4B | 5 | |
+| 10/16 | no post | 7 | |
+| 10/23 | $3.4B | 2 | |
+| 10/30 | not stated | 7 | October about $15B; $3.5B a week over the final four |
+| 11/6 | post due | 18 so far | two days still to run |
+
+⚠️ Limits: the volume column is a repost of Bloomberg, not a census, and posts skip weeks. EDGAR mixes investment grade with high yield and cannot see private 144A issuers. **Pulled deals: not observable from free sources.** Seven candidate 8-Ks were read and all were boilerplate. Absence of a reported failure is not zero failures. Do not grade Bloomberg figures against ICE lines.
+
+**Weekly routine (Will's go 2026-11-05):** about 15 minutes each Friday; add one row here. No boot wiring. Thresholds unchanged.
+
+## Prior read — 2026-10-20 (dated history)
 
 ICE/FRED October19 OAS:HY329,CCC1310,B336,BB200,BBB108,IG87bp. DailyHY−2 whileCCC+13 andIG+2;tail deterioration persists beyond the Treasury rally. HY21bpbelow350;existing>300marker MET;no new sizing permission. KB477.
 
