@@ -1,8 +1,11 @@
 # PROME HANDOFF
 
-**Current state: RESTART CHECKPOINT 2026-11-05 16:2x ET, session prome-98, desktop; not a closeout. Resume with "pick up PROME" at [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here). The L835 checkpoint stays current; Standard audit owed at the end-of-day closeout.**
+**Current state: CLOSEOUT 2026-11-05 16:58 ET, session prome-80, leaving the desktop. Not a Standard closeout: audit DEFERRED (WQ-485), Standard withheld under L835. Next: full boot on the laptop at [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here).**
 
 **Resume:** (1) [SCRATCH ★ NEXT](SCRATCH.md#-next-session--start-here) and [today's account](../memory/2026-11-05.md); (2) DOCKET/GATES/WILL_QUEUE for obligations and `PROME/tools/inbox_census.py PROME` before any launch; (3) [research-first briefing instruction](proposals/2026-10-25_research-first-briefing-RULED.md), installed at BOOT step 8; (4) [delivery contract](tools/ARGUS_CONTRACT.md). The 10/25 three-desk sweep, its four file corrections and its evening inbox disposition are history at [its report](reports/2026-10-25_three-desk-stale-file-sweep.md#final-session-disposition--all-three-closed-by-will) and [that closeout](reports/2026-10-25_evening-closeout.md). Dated sections below are historical continuity.
+
+## November 5 evening, session prome-80 (desktop) — clean close of the desktop after prome-98
+Claude Code, Opus 5.5; run dir `/tmp/prome-boot-ebd1edbb`. Account: `memory/2026-11-05.md` § prome-80. Decisions: WQ-625 receipt (C2); WQ-599 open for 11/7. Owed: DOCKET's 11/6 wake rows, L835, SCRATCH ★ NEXT. Next action: laptop boot, Friday slate past the cap needs Will's word.
 
 ## November 4 evening → November 5 morning, session prome-b2 (laptop) — rebase recovery, rulings, VLO exit, futures repair
 Claude Code, Opus 5.5; run dir `/tmp/prome-boot-ec96582a` (laptop-local), boot PARTIAL. Account: `memory/2026-11-05.md`. Decisions: WQ-591–593, 598, 600–602 ruled; WQ-599 open for 11/7. Owed: GATE-TERRY-VLO-HELD-01 · DOCKET rows 920, 921, 922, L835 · SCRATCH ★ NEXT. Next action: desktop boot.
