@@ -1,3 +1,7 @@
+## 2026-11-06T22:17:06Z light-closeout — full deferred
+
+Close-of-day pass on Will's 17:08 ET word via PROME, session walter-9e, laptop. Cards 043–046; batches BM-20261106-04 and -05 closed; intake and bookmarks marked. Boot PARTIAL: Iran guard corpus read in part, REGISTRY rows other than WALTER not refreshed, BOARD scan and LIAISON steps not run, HANS dailies not re-read. Evidence: research/2026-11-06_close-pass/.
+
 ## FULL CLOSEOUT — 2026-11-06T21:52:39Z — closed on Will's reboot word via PROME
 
 Claude Code Opus 5.5, session walter-9e, laptop. Boot PARTIAL. 42 cards November 6, 9 corrections, 8 IMMEDIATE, no FLASH; three bookmark batches closed and marked; packets from LABOR, HENRY, LIQUID, BROCK, CYPHER, VIOLET, FALCON, CORAL, HANS, OTTO, SHADE, SAM consumed. Clears the two light-closeout deferrals of November 6. Close-of-day pass not run; handed to the reboot with the Oracle DTCC file and the November 9 HY cell.
