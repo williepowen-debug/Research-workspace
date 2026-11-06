@@ -13,7 +13,7 @@
 |---|---|---|
 | 1 | **Amendment 3 passed, unofficial Yes 61.98%, certified 11/17 (P1).** Local revenue −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring (REC, P1): one estimate, the $4.9B and $12B agree. Amendment 1 (BSF cap) failed 40.9%. "Leaning FAIL" withdrawn | CARL, REGINALD, HOMER — county budgets take this on top of the disaster match; not a realized loss; muni effect UNREAD |
 | 2 | ⛔ **Correction: DR-4955 household aid flagged in all 8 requested counties (OpenFEMA 11/06, P1).** "IA 0/8 · no household aid" withdrawn. FEMA FR notice and cost share still unpublished; HM none | AEOLUS, SHADE, PROME — L784's IA-gap item is gone |
-| 3 | **Seven FL 10-Qs read (P1): zero association-loan disclosure.** BKU CRE 60-89 $21.3M vs $0, accruing, modified, primary cell TRANSMITS; **BKU MIXED, aggregate NO TRANSMISSION, FINAL (REGINALD 11/06)**. Avidia 10-Q still waits | REGINALD — location UNKNOWN, not multifamily or construction; not Florida-shown, not condo-shown |
+| 3 | **Seven FL 10-Qs read (P1): zero association-loan disclosure.** BKU CRE 60-89 $21.3M vs $0, accruing, modified, primary cell TRANSMITS; **BKU MIXED, aggregate NO TRANSMISSION, FINAL (REGINALD 11/06)**. Avidia 10-Q still waits; Q3 release shows association loans $491.9M, quality not split | REGINALD — location UNKNOWN, not multifamily or construction; not Florida-shown, not condo-shown |
 | 4 | **MSI #12 (11/05, P1):** 4-of-5, Cape Coral 5.85 series low, re-fire fails. First prints have revised up, n=2 | RED, HOMER — one leg; not an all-clear, not bank evidence |
 | 5 | **Rain:** state emergency 14 counties incl. Palm Beach, not Broward (EO 26-228, P1); no loss figure | AEOLUS, SHADE — NFIP and uninsured channel; NFIP ends 12/11 |
 
@@ -23,7 +23,7 @@
 |---|---|---|
 | 1 | ⭐ **Bankruptcy, 12 mo to 9/30/26 (AOUSC F-2, P1):** M.D.+S.D. **225.9/100k, +21.3% YoY**; US 179.9, +11.5%; FL/US **1.256×** (6/30 1.231×). Criterion-5 leg A: 0.6pp below prior-four max ⇒ **not fading** | CARL, REGINALD — household-strain canary still accelerating relative to the US; **county cut (F-5A Ch.7): broad — 30 of 31 large counties rising, median +26.1%; Central FL highest (Osceola 246, Polk 234/100k)** |
 | 2 | **L784 peer cells:** AEOLUS ACKED the carry split; satellite cuts = NOAA GeoXO, **no FL $ before 2032**. SHADE: **FHCF $0 · Citizens $0** at Delaware Life + Athene (YE2025 Schedule D, P1 via SHADE); FL munis <0.1% of GA; market-wide holders UNKNOWN. DR-4955 unchanged (PA 15/15, IA 0, HM 0; no FR notice, 14:5x ET) | PROME, AEOLUS, SHADE, LIQUID — remains for 11/03: cost share, IA, ballot |
-| 3 | **Citizens 9/30 month-end 254,836 (P1)** ≈ −1,145 ex-round; **weekly 216,577 at 10/23 (−38,259) = the 10/20 takeout round, 37,514 personal (Citizens 2026 Stats, P1); residual ≈ −745** | SHADE, AEOLUS, MARCO — depopulation, not flight |
+| 3 | **Citizens 9/30 month-end 254,836 (P1)** ≈ −1,145 ex-round; **weekly 216,432 at 10/30 (P1) after the 10/20 takeout round, 37,514 personal (Citizens 2026 Stats, P1); residual ≈ −890** | SHADE, AEOLUS, MARCO — depopulation, not flight |
 | 4 | **FMHPI FL revised (P1):** Jul +1.68% → **+0.74%**; Aug **+1.08%** YoY SA (SF only, conforming) | HOMER, MARCO — constant-quality SF still positive, weaker than carried |
 | 5 | **King tide 10/25–29:** AEOLUS's gauges (Lake Worth record) — CORAL impact read: NWS coastal-flood warnings live (Keys, NE FL), advisories SE FL; **no declaration or damage tally found** | AEOLUS — descriptive coastal datum, not an insured-loss event |
 
@@ -84,7 +84,7 @@
 | daily → 11/03 | Federal Register DR-4955 notice · any IA/HM amendment | Cost share (75% flat vs enhanced) — L784 due 11/03 |
 | ~11/4 → by 11/5 | MSI-01 reading #12 (next Parcl build) | All five > 6.00 starts a re-fire clock; Cape Coral 5.89 at #11 |
 | ~mid-Nov | Citizens 10/31 month-end | Confirms on the month-end basis that the 10/23 weekly −38,259 is the 10/20 takeout round (37,514; explained 10/29, § Z1) |
-| ~Nov | OIR Isaias claims (P1: **62,295 / $652.2M at 10/27**, day 18 — already above Sally's $577M at 40 d) | Development vs Sally/Ivan by day |
+| ~Nov | OIR Isaias claims (P1: **68,071 / $735.5M at 11/06**, day 28; 10/27 62,295 / $652.2M — above Sally's $577M at 40 d) | Development vs Sally/Ivan by day |
 | Mon 11/16 | FL Realtors October | First FULL month for the GSE financed-units read (condo vs SF) |
 | ~mid-Nov | Avidia 10-Q | Only filer disclosing association-loan quality; seven other 10-Qs read, zero disclosure |
 | Nov 15 / Nov 17 | Falsify grade / Amendment 3 certified | Pre-registered decision rule; the grade runs on unofficial returns |

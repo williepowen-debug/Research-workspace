@@ -1846,3 +1846,60 @@ WALTER's Call Report cohort read: bank-level GAAP equity QoQ AMTB −8.83% · SB
 
 ### AB8. REGINALD's final grade (11/06 11:21 ET) — supersedes the conditional read in AB2
 `AGENTS/REGINALD/reports/2026-11-06_BKU_10Q_FL-frame-final.md`: BKU primary cell **TRANSMITS**, class **MIXED FINAL**; **FL aggregate NO TRANSMISSION FINAL** (H 3, T 0, m 0); REG-32 FALSE. Call Report RCONF179: $21,321K accruing vs $0 at 6/30, $23,203K at 3/31 ⇒ the balance is non-owner-occupied nonfarm nonresidential, **not multifamily, not construction**. ⚠️ My "flat non-accrual suggests accruing" inference did not hold on its own; the Call Report answered it. REGINALD's INFERENCE, undisclosed: one credit late at 3/31, extended in Q2, late again. Location UNKNOWN. Frame defect disclosed by REGINALD ($15.6M bar came from the unsplit row; accruing basis $7.818M), grade unaffected. 90+ accruing $28.885M is C&I, not CRE. BKU resi non-accrual $23.673M vs $26.034M; Florida 7.2% of the residential book. Next read: 12/31 Call Report.
+
+## AC. 2026-11-06 (Fri, 17:23–) — coral-ad: close refresh on Will's 17:08 ET word via prome-51 — evidence
+
+**Scope:** data through the 11/06 close, no new thread, no spawn, no card. No colour, band, gate or grade moved; no registered letter required one. Inbox and WALTER lane empty at boot.
+
+### AC1. OIR Isaias claims, PRIMARY — `floir.gov/home/hurricane-isaias`, "Data as of November 6, 2026" (read 17:24 ET; the 11:0x ET read this morning still showed 10/27)
+| Line | Claims 11/06 | Incurred 11/06 | % closed | 10/27 claims | 10/27 incurred |
+|---|---:|---:|---:|---:|---:|
+| Residential property (total) | 55,471 | $651,006,240 | 61.7% | 52,133 | $599,914,909 |
+| — Homeowners | 47,048 | $554,582,491 | 63.2% | 44,426 | $512,341,381 |
+| — Dwelling | 6,221 | $72,490,369 | 55.5% | 5,710 | $66,056,352 |
+| — Mobile homeowners | 1,752 | $19,719,790 | 58.0% | 1,618 | $17,758,142 |
+| Commercial residential (condo/HOA associations) | 450 | $4,213,590 | 8.0% | 379 | $3,759,034 |
+| Commercial property | 2,828 | $38,933,094 | 15.6% | 1,920 | $19,156,559 |
+| Private flood | 129 | $1,468,785 | 20.2% | 108 | $211,496 |
+| Business interruption | 34 | $587,015 | 55.9% | 29 | $700,037 |
+| Private passenger auto | 7,825 | $30,376,836 | 55.0% | 6,765 | $21,720,199 |
+| Commercial auto | 163 | $1,013,864 | 39.3% | 142 | $780,502 |
+| All other lines | 1,621 | $12,129,177 | 31.3% | 1,198 | $9,721,287 |
+| **Total** | **68,071** | **$735,515,012** | **58.2%** | **62,295** | **$652,204,988** |
+
+- Change 10/27→11/06: claims +5,776 (+9.3%), incurred **+$83,310,024 (+12.8%)**. Status: open with payment 7,975 · open without payment 20,482 · closed with payment 25,211 · closed without payment 14,402.
+- Development day (landfall 10/9): 10/27 = day 18, 11/06 = day 28. Sally was $577M at day 40 (§ T6); Isaias passed that before day 18. $64.5M short of CORAL-03's $800M line, which stays open and ungraded (resolves 12/31).
+- Commercial property incurred +103% and condo/HOA associations 8.0% closed: late-reporting commercial lines. **Inference audit (13a): no causal claim.** Rivals for the rise (slow commercial reporting · true severity · case reserves set late) all raise the statistic; not separated. Panhandle, outside the condo metros, leg held 🟡.
+
+### AC2. Federal Register and OpenFEMA, read 17:24 ET
+- **FEMA's own DR-4955 notice still not published.** `FEMA-4955-DR` = 2 documents, both SBA. FEMA's 11/03 amendments roundup (2026-22371) names no Florida declaration. Public inspection list carries no FEMA item. **Cost share UNKNOWN.**
+- **Six routine annual notices 11/06.** 2026-22694: statewide per-capita indicator **$2.01**. 2026-22691: countywide **$5.03** (carried $4.86, FR 2026-19858). Both on CPI-U +3.4% (12 months to Aug 2026), incidents starting on or after 10/1/2026. Statewide $1.94 × 1.034 = $2.01.
+- **So what for L784:** FEMA took the ordinary CPI step and not the Review Council's $2.99 reset (L784 § 2). Rows 2–3 stay posture, not rule, as of this notice. This does not rule out a later change, and the FEMA posture is unchanged by an annual inflation notice.
+- OpenFEMA rundate 2026-11-06T22:24Z, rows `lastRefresh` 12:27:53Z: DR-4955 15 counties, IH TRUE in 8, PA TRUE in 15, HM FALSE; EM-3655 27 rows. **No federal declaration for the fall flooding.** Same as the morning read.
+
+### AC3. Avidia Bancorp (AVBC), read at SEC 17:2x ET — 10-Q not filed
+- Latest filings: Form 4 11/06; 8-K 11/03 ×2; 8-K 10/23. **No 10-Q for 9/30.** Calendar row stands; the 45-day line falls on Mon 11/16 if the filer is non-accelerated (status not checked).
+- ⚠️ **Unread until now:** the Q3 earnings 8-K (accession 0001193125-26-430532, filed 10/23) sat on EDGAR for two weeks while this desk tracked the 10-Q. Nothing in it would have changed a read.
+- **Release, PRIMARY:** Condominium associations **$491,868K at 9/30** vs $494,331K at 6/30 (−0.5%) and $498,164K at 9/30/25 (−1.3%). Company-level: nonaccrual $17,751K (0.79%) vs $16,914K (0.75%); charge-offs $1,213K vs $75K; net charge-offs $755K, 0.13% annualized; ACL $23,190K, 1.03% vs 1.06%.
+- ⛔ **The `Commercial` nonaccrual row, $12,115K vs $10,642K, pools associations with C&I. The release does not split it,** and C&I shrank 6.6% q/q. **So the +$1,473K is not association-loan evidence** and the 9/30 segment read (past due, criticized, charge-offs) stays UNREAD until the 10-Q. Not Florida-only.
+- **Deck (Hovde 11/05, 8-K 0001193125-26-445645):** condo loans "classified as C&I and included in supervisory CRE guidance limits": **$492MM, 136% of risk-based capital**; total supervisory non-owner-occupied CRE $987MM, 273%. Bank names association lending as a growth niche. No segment credit data.
+- 8-K 11/03: $30M buyback completed, 1,355,565 shares at $22.10.
+
+### AC4. Citizens, PRIMARY — `citizensfla.com/news`, read 17:24 ET
+**Policies in Force as of October 30, 2026: 216,432**, −145 on 216,577 (10/23). Residual after the 10/20 round: 254,836 − 37,514 = 217,322 ⇒ **−890 in 30 days** (personal round only; commercial takeouts and new writes not split out). Latest month-end posted stays 9/30; October not up. Binding was suspended 10/7 and **lifted 10/10** (Citizens Binding Alerts, read 17:2x ET 11/06), so only the first ten days carry that drag. ⛔ The 10/29 Florida synthesis ledger line "binding suspended statewide since 10/7" was already out of date when written.
+
+### AC5. Prices (Yahoo via `fetch.py`, read 17:24 ET and again at 17:26 ET, same values; last sale, not an exchange official close)
+KRE $72.20 −0.15% · SSB $104.11 −0.58% · SBCF $33.54 −0.18% · BKU $44.02 −1.17% · VLY $14.08 +0.14% · USCB $19.67 −0.86% · AMTB $29.60 +0.20% · CCBG $50.31 −0.06%. Context only.
+
+### AC6. Checked, unchanged, or unread
+| Row | Result |
+|---|---|
+| Parcl MSI | Same build as reading #12 (`20261106T100950Z`). **No new reading.** Next by 11/12 |
+| Amendment 3 | ⚠️ Florida Election Watch returned an error page at 17:2x ET, so 61.98% stays the 11:10 ET read; not re-read. Certification 11/17 |
+| NHC 13:00 EST 11/06 | AL94 non-tropical, moving east away from Florida, chances decreasing. No Florida threat |
+| ATTOM Q3 foreclosure | No Q3 report found on search or the ATTOM route (404). H1 row stays STALE-marked, not refreshed |
+| Redfin | September report (published 10/14) is still latest; October 404. Row unchanged |
+| OQ O stale rows | SE-FL vintage $/sf · blacklist count · NOAA SIR · VLY CRE/RBC not re-pulled this pass |
+
+### AC0. Header rotated from STATUS 2026-11-06, verbatim
+**Last Updated:** 2026-11-06 11:21 ET (Fri, **coral-ac**, PROME prome-51 Tier-1 wake on Will's word 11:05 ET): MSI #12 graded, re-fire fails, leg 🟠; all seven bank 10-Qs read; **FL frame FINAL (REGINALD 11/06): NO TRANSMISSION, BKU MIXED;** **household aid now flagged in DR-4955's 8 requested counties, the 10/29 "IA 0/8" cell is corrected**; Amendment 3 **61.98% yes, unofficial**; inbox 18 of 18. Evidence § AB; rotated rows § AB0. Prior header → § AB0.

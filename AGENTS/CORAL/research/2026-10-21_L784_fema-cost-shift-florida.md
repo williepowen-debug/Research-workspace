@@ -130,7 +130,7 @@ Rows above stay as written (the record). Evidence → `STATUS_DETAIL.md` § AB3�
 | Remainder | Result | Tier |
 |---|---|---|
 | Household aid | ⛔ **CORRECTION: IH flagged in all 8 requested counties** (OpenFEMA rundate 11/06 16:07Z). The "IA none" in § 7 row 1 no longer stands. Declaration-day or amendment: UNKNOWN. SBA FR notice 2026-22474 (11/04) names the same 8. IA-appeal item withdrawn. No dollar amount read | PRIMARY |
-| FEMA FR notice, cost share | **Not published at 11:07 ET 11/06** (the two `FEMA-4955-DR` hits are SBA notices). Cost share UNKNOWN | PRIMARY |
+| FEMA FR notice, cost share | **Not published at 17:24 ET 11/06** (the two `FEMA-4955-DR` hits are SBA notices). Cost share UNKNOWN | PRIMARY |
 | Hazard Mitigation | Not designated | PRIMARY |
 | Ballot | Amendment 3 Yes 61.98%, unofficial; Amendment 1 (BSF cap 10% → 25%) failed 40.9%, so the BSF cap stays at 10%; certified 11/17 | PRIMARY |
 | County revenue | −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring lands on the same county budgets that carry the disaster match | PRIMARY for the estimate; muni-credit effect UNREAD |
@@ -138,3 +138,5 @@ Rows above stay as written (the record). Evidence → `STATUS_DETAIL.md` § AB3�
 **Read for the commission question:** Florida's first test under the reported posture came back as an approval with public and household aid. That is one event and does not refute the posture; the rule-making watch in `CALENDAR.md` is unchanged. The county squeeze got worse on the revenue side, not the federal side.
 
 **Exposure table:** unchanged except the two ballot rows above. No trade, threshold or grade change.
+
+**11/06 evening:** FEMA's routine notices set the statewide indicator at **$2.01** and the county at **$5.03** (FR 2026-22694, 2026-22691; CPI-U +3.4%), not the Council's $2.99. Row 2 stays posture, not rule, as of this notice; a later change is not ruled out. STATUS_DETAIL § AC2.

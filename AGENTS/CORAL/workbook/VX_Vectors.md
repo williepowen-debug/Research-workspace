@@ -3,7 +3,7 @@
 
 *Structured tracking of quantitative indicators. Update values as new data arrives.*
 
-Last real data refresh: 2026-10-29 (coral-1029pm — rows re-read today at the primary: Citizens PIF (9/30 month-end + 10/23 weekly), VX-CORAL-BKCY-01 (AOUSC F-2 12 mo to 9/30/26), coastal king-tide row. Every other row carries its own as-of date and was NOT re-read today; STATUS.md is canonical for current state.)
+Last real data refresh: 2026-11-06 (coral-ad close refresh: Citizens weekly 10/30 only; every other row keeps its own as-of date). Prior 2026-10-29 (coral-1029pm — rows re-read at the primary: Citizens PIF (9/30 month-end + 10/23 weekly), VX-CORAL-BKCY-01 (AOUSC F-2 12 mo to 9/30/26), coastal king-tide row. Every other row carries its own as-of date and was NOT re-read today; STATUS.md is canonical for current state.)
 
 ---
 
@@ -55,13 +55,13 @@ Last real data refresh: 2026-10-29 (coral-1029pm — rows re-read today at the p
 
 | Metric | Current | Prior | Δ | Threshold | Status |
 |--------|---------|-------|---|-----------|--------|
-| Citizens TOTAL PIF (canonical, scope-resolved 7/21; **re-read 10/29**) | **254,836 (Sep 30 2026 month-end, excludes takeouts; run 10/5)** = personal 250,845 (PR-M 196,317 · PR-W 54,528) + commercial 3,991 (CR-M 511 · CR-W 1,128 · CNR-M 742 · CNR-W 1,610). ⭐ **Weekly headline 216,577 as of 10/23** (citizensfla.com/news) = −38,259 vs 9/30 — **EXPLAINED (C9, 15:2x ET): 10/20 takeout round 37,514 personal (PR-M 27,177 · PR-W 10,337; Citizens 2026 Stats, data as of 10/20) ⇒ residual ≈ −745** (KB ML-CORAL-130) | 266,231 (Aug 31); 278,246 (Jun 30); 392,689 (Jan 31 2026); 1.42M (2023 peak) | Sep −11,395 m/m; ex-9/15-round (10,250 total = 10,210 personal + 40 commercial) ≈ **−1,145** | Depopulation; organic exit still slow | 🟢 |
+| Citizens TOTAL PIF (canonical, scope-resolved 7/21; **re-read 10/29**) | **254,836 (Sep 30 2026 month-end, excludes takeouts; run 10/5)** = personal 250,845 (PR-M 196,317 · PR-W 54,528) + commercial 3,991 (CR-M 511 · CR-W 1,128 · CNR-M 742 · CNR-W 1,610). ⭐ **Weekly 216,432 as of 10/30 (read 11/06, residual ≈ −890, § AC4).** Prior weekly headline **216,577 as of 10/23** (citizensfla.com/news) = −38,259 vs 9/30 — **EXPLAINED (C9, 15:2x ET): 10/20 takeout round 37,514 personal (PR-M 27,177 · PR-W 10,337; Citizens 2026 Stats, data as of 10/20) ⇒ residual ≈ −745** (KB ML-CORAL-130) | 266,231 (Aug 31); 278,246 (Jun 30); 392,689 (Jan 31 2026); 1.42M (2023 peak) | Sep −11,395 m/m; ex-9/15-round (10,250 total = 10,210 personal + 40 commercial) ≈ **−1,145** | Depopulation; organic exit still slow | 🟢 |
 | Citizens market position | No longer FL's largest property insurer (surpassed late 2025) | largest (peak era) | — | insurer-of-last-resort target | 🟢 |
 | OIR Enhanced Monitoring | 14 companies (Feb-2026, not re-pulled 7/21) | 17 (mid-2024) | −3 | 🟡 16 / 🟠 18 / 🔴 20 | 🟡 |
 | 2025-26 Insolvencies | 0 (re-confirmed 7/21: none found 2026; 2021-23 wave over) | 5+ (2022-23) | — | Watch for any | 🟢 |
 
 *Source: Citizens policies-in-force reports (PRIMARY, citizensfla.com — 20260930 Detail by Product Line, run 10/5/26; /news weekly headline read 14:5x ET 10/29); OIR. KB ML-CORAL-035, ML-CORAL-126.*
-*Last Updated: 2026-10-29 (PIF row only; OIR rows not re-read)*
+*Last Updated: 2026-11-06 (PIF row only; OIR rows not re-read)*
 
 ### Pricing & Litigation
 
