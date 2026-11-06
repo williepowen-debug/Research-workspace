@@ -3,7 +3,7 @@
 **Status:** ELEVATED. Both wars press oil together again, more on products than crude; net crude loss and the premium's share of the price remain UNMEASURED. No mark or band moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
 **As of:** November 6, 2026, 11:52 ET (from `date`); owner evidence FALCON `e3ce30fd82` (11:35 ET), OSPREY `f4414148cf` (11:16 ET).
-**STATUS commit:** `179a3eb285`.
+**STATUS commit:** `34b69b3cc2`.
 
 | Consumer | Material result | Limitation |
 |---|---|---|
@@ -19,4 +19,4 @@
 
 **Coverage:** HAW-22 OPEN 65% UNCALIBRATED, October window closed, no candidate on the held record, final search 12/15–12/21, resolution 12/22. **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. No forward physical-loss event window exists now. HAW-23..26 OPEN, all 12/31.
 
-**Next:** 11/8 EURMIL native check; 11/9–11 trade clocks; 11/12 IRAQ/FININFRA/SULPHUR backstops; OSPREY's WQ-470 reply.
+**Next (closed 11/6; WQ-470 waits on OSPREY, whose session closed before reading):** 11/8 EURMIL native check; 11/9–11 trade clocks; 11/12 IRAQ/FININFRA/SULPHUR backstops; OSPREY's WQ-470 reply.
