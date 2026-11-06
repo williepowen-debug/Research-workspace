@@ -740,7 +740,7 @@ will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-03	0.9695
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-04	0.9695
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-05	0.9775
 will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-06	0.9735
-will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-06	0.9765
+will-no-fed-rate-cuts-happen-in-2026	Fed: NO cuts 2026	2026-11-06	0.977
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-09-30	0.23
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-10-01	0.165
 will-1-fed-rate-cut-happen-in-2026	Fed: 1 cut 2026	2025-10-02	0.13
@@ -1482,7 +1482,7 @@ will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-2
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-04	0.745
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-05	0.775
 will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-06	0.645
-will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-06	0.775
+will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636	Fed: HIKE at Dec mtg (specific)	2026-11-06	0.765
 how-high-will-10-year-treasury-yield-go-before-2027	10Y Treasury yield ladder (before 2027)	2025-11-13	0.585
 how-high-will-10-year-treasury-yield-go-before-2027	10Y Treasury yield ladder (before 2027)	2025-11-14	0.16
 how-high-will-10-year-treasury-yield-go-before-2027	10Y Treasury yield ladder (before 2027)	2025-11-15	0.505
@@ -1659,18 +1659,18 @@ how-high-will-10-year-treasury-yield-go-before-2027	10Y Treasury yield ladder (b
 how-low-will-10-year-treasury-yield-get-in-november	10Y Treasury yield — Nov downside	2026-11-04	0.49
 how-low-will-10-year-treasury-yield-get-in-november	10Y Treasury yield — Nov downside	2026-11-05	0.595
 how-low-will-10-year-treasury-yield-get-in-november	10Y Treasury yield — Nov downside	2026-11-06	0.765
-how-low-will-10-year-treasury-yield-get-in-november	10Y Treasury yield — Nov downside	2026-11-06	0.78
-how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	2026-11-04	0.615
-how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	2026-11-05	0.38
-how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	2026-11-06	0.31
-how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	2026-11-06	0.355
-how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	2026-11-04	0.505
-how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	2026-11-05	0.26
-how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	2026-11-06	0.17
-how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	2026-11-06	0.515
+how-low-will-10-year-treasury-yield-get-in-november	10Y Treasury yield — Nov downside	2026-11-06	0.77
+how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	2026-11-04	0.185
+how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	2026-11-05	0.13
+how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	2026-11-06	0.13
+how-high-will-10-year-treasury-yield-go-in-november	10Y Treasury yield — Nov upside	2026-11-06	0.505
+how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	2026-11-04	0.5
+how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	2026-11-05	0.09
+how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	2026-11-06	0.445
+how-high-will-30-year-treasury-yield-go-in-november	30Y Treasury yield — Nov upside	2026-11-06	0.495
 how-low-will-30-year-treasury-yield-get-in-november	30Y Treasury yield — Nov downside	2026-11-04	0.51
 how-low-will-30-year-treasury-yield-get-in-november	30Y Treasury yield — Nov downside	2026-11-06	0.68
-how-low-will-30-year-treasury-yield-get-in-november	30Y Treasury yield — Nov downside	2026-11-06	0.715
+how-low-will-30-year-treasury-yield-get-in-november	30Y Treasury yield — Nov downside	2026-11-06	0.665
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-13	0.535
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-14	0.215
 major-us-bank-bailout-before-2027	Major bank bailout before 2027	2025-11-15	0.17
@@ -3900,302 +3900,280 @@ will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-1
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-11-05	0.065
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-11-06	0.06
 will-inflation-reach-more-than-5-in-2026-282-763	US inflation >5% in 2026	2026-11-06	0.045
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-03	0.59
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-04	0.58
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-05	0.515
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-06	0.52
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-07	0.515
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-08	0.515
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-09	0.515
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-10	0.39
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-11	0.205
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-12	0.27
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-13	0.265
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-14	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-15	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-16	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-17	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-18	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-19	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-20	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-21	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-22	0.26
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-23	0.26
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-24	0.255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-25	0.27
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-26	0.325
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-27	0.33
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-28	0.335
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-29	0.34
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-30	0.34
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-31	0.36
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-01	0.36
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-02	0.365
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-03	0.365
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-04	0.37
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-05	0.37
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-06	0.365
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-07	0.355
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-08	0.355
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-09	0.37
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-10	0.375
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-11	0.445
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-12	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-13	0.3
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-14	0.355
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-15	0.36
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-16	0.355
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-17	0.395
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-18	0.395
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-19	0.39
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-20	0.385
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-21	0.385
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-22	0.345
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-23	0.34
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-24	0.385
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-25	0.39
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-26	0.39
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-27	0.375
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-28	0.375
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-01	0.4
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-02	0.39
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-03	0.395
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-04	0.405
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-05	0.425
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-06	0.42
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-07	0.48
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-08	0.555
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-09	0.6
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-10	0.535
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-11	0.545
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-12	0.53
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-13	0.575
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-14	0.54
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-15	0.575
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-17	0.59
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-18	0.57
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-20	0.605
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-21	0.6
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-22	0.605
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-23	0.62
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-24	0.635
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-25	0.645
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-26	0.565
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-27	0.605
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-28	0.6
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-29	0.65
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-30	0.645
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-31	0.64
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-01	0.54
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-02	0.595
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-03	0.565
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-04	0.355
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-06	0.47
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-07	0.48
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-09	0.495
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-13	0.485
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-15	0.5
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-16	0.44
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-17	0.44
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-19	0.445
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-20	0.445
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-21	0.435
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-22	0.445
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-23	0.42
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-24	0.415
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-25	0.425
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-26	0.42
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-27	0.42
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-28	0.42
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-29	0.46
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-30	0.46
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-01	0.46
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-02	0.44
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-03	0.44
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-04	0.44
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-05	0.435
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-06	0.38
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-07	0.385
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-08	0.39
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-09	0.33
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-10	0.295
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-11	0.245
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-12	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-13	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-14	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-15	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-16	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-17	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-18	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-19	0.28
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-20	0.25
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-21	0.285
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-22	0.395
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-23	0.36
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-24	0.275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-25	0.325
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-26	0.3
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-27	0.305
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-28	0.3
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-29	0.31
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-30	0.315
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-31	0.315
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-01	0.315
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-02	0.32
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-03	0.315
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-04	0.32
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-05	0.32
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-06	0.155
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-07	0.22
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-08	0.225
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-09	0.16
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-10	0.165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-11	0.165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-12	0.165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-13	0.165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-14	0.165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-15	0.165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-16	0.165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-17	0.17
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-18	0.17
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-19	0.09
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-20	0.055
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-21	0.1005
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-22	0.1075
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-23	0.1055
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-24	0.114
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-25	0.1165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-26	0.095
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-27	0.164
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-28	0.1805
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-29	0.226
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-30	0.227
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-01	0.226
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-02	0.2285
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-03	0.1225
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-04	0.114
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-05	0.1105
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-06	0.108
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-07	0.109
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-08	0.094
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-09	0.0975
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-10	0.125
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-11	0.127
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-12	0.127
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-13	0.1275
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-14	0.1285
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-15	0.14
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-16	0.142
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-17	0.138
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-18	0.1255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-19	0.1255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-20	0.125
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-21	0.1255
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-22	0.124
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-23	0.1195
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-24	0.1195
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-25	0.1195
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-26	0.119
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-27	0.121
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-28	0.121
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-29	0.121
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-30	0.121
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-31	0.1165
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-01	0.096
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-02	0.1025
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-03	0.0995
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-04	0.096
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-05	0.096
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-06	0.0965
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-07	0.102
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-08	0.102
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-09	0.1025
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-10	0.1025
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-11	0.1025
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-12	0.1025
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-13	0.1005
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-14	0.101
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-15	0.101
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-16	0.101
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-17	0.0965
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-18	0.0965
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-19	0.0965
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-20	0.096
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-21	0.096
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-22	0.125
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-23	0.1245
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-24	0.125
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-25	0.125
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-26	0.1235
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-27	0.124
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-28	0.116
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-29	0.11
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-30	0.107
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-31	0.1065
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-01	0.0705
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-02	0.074
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-03	0.0765
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-04	0.075
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-05	0.0795
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-06	0.0815
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-07	0.095
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-08	0.0975
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-09	0.0975
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-10	0.098
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-11	0.096
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-12	0.095
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-13	0.0945
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-14	0.095
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-15	0.0965
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-16	0.098
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-17	0.0955
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-18	0.0915
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-19	0.088
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-20	0.0695
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-21	0.062
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-22	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-23	0.0515
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-24	0.048
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-25	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-26	0.048
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-27	0.0325
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-28	0.0355
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-29	0.044
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-30	0.042
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-01	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-02	0.0475
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-03	0.0475
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-04	0.0475
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-05	0.047
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-06	0.056
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-07	0.057
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-08	0.0545
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-09	0.045
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-10	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-11	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-12	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-13	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-14	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-15	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-16	0.0485
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-17	0.0495
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-18	0.049
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-19	0.046
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-20	0.0395
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-21	0.041
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-23	0.041
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-24	0.0605
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-27	0.0525
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-28	0.046
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-30	0.072
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-31	0.0495
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-01	0.0335
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-02	0.032
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-03	0.031
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-04	0.036
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-05	0.035
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-06	0.035
-how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-06	0.035
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-03	0.135
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-04	0.085
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-05	0.085
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-06	0.085
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-07	0.085
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-08	0.085
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-09	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-10	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-11	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-12	0.045
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-13	0.04
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-14	0.04
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-15	0.045
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-16	0.05
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-17	0.06
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-18	0.055
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-19	0.045
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-20	0.05
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-21	0.05
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-22	0.05
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-23	0.05
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-24	0.06
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-25	0.06
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-26	0.06
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-27	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-28	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-29	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-30	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-01-31	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-01	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-02	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-03	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-04	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-05	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-06	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-07	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-08	0.085
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-09	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-10	0.085
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-11	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-12	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-13	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-14	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-15	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-16	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-17	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-18	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-19	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-20	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-21	0.105
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-22	0.105
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-23	0.105
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-24	0.115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-25	0.125
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-26	0.115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-27	0.115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-02-28	0.115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-01	0.115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-02	0.11
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-03	0.125
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-04	0.13
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-05	0.135
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-06	0.135
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-07	0.125
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-08	0.145
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-09	0.145
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-10	0.205
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-11	0.135
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-12	0.22
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-14	0.175
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-17	0.155
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-18	0.155
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-20	0.165
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-21	0.16
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-22	0.16
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-23	0.16
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-24	0.145
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-25	0.145
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-26	0.14
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-27	0.145
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-28	0.145
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-03-29	0.145
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-05	0.14
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-09	0.135
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-18	0.13
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-22	0.135
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-23	0.11
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-24	0.115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-25	0.1
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-26	0.115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-27	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-28	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-29	0.105
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-04-30	0.105
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-01	0.085
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-02	0.07
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-03	0.08
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-04	0.09
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-05	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-06	0.105
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-07	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-08	0.105
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-09	0.115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-10	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-11	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-12	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-13	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-14	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-15	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-16	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-17	0.095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-18	0.1
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-19	0.105
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-20	0.1
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-21	0.1
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-22	0.1
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-23	0.1
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-24	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-25	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-26	0.035
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-27	0.064
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-28	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-29	0.0675
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-30	0.0675
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-05-31	0.067
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-01	0.0685
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-02	0.0755
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-03	0.0795
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-04	0.0795
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-05	0.08
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-06	0.05
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-07	0.0675
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-08	0.0675
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-09	0.067
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-10	0.0365
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-11	0.037
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-12	0.0365
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-13	0.0365
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-14	0.037
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-15	0.0365
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-16	0.073
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-17	0.073
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-18	0.0725
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-19	0.08
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-20	0.069
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-21	0.073
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-22	0.0735
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-23	0.074
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-24	0.068
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-25	0.0605
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-26	0.0605
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-27	0.0575
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-28	0.0575
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-29	0.0575
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-06-30	0.0575
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-01	0.0575
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-02	0.058
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-03	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-04	0.0565
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-05	0.066
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-06	0.06
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-07	0.0635
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-08	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-09	0.066
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-10	0.066
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-11	0.0635
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-12	0.066
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-13	0.0655
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-14	0.073
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-15	0.0775
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-16	0.0775
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-17	0.075
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-18	0.0735
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-19	0.07
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-20	0.07
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-21	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-22	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-23	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-24	0.0715
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-25	0.0715
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-26	0.0715
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-27	0.071
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-28	0.0675
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-30	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-07-31	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-01	0.067
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-02	0.067
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-03	0.067
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-04	0.067
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-05	0.067
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-06	0.0895
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-07	0.0735
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-08	0.0735
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-09	0.0745
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-10	0.07
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-11	0.0705
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-12	0.069
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-13	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-14	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-15	0.0665
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-16	0.065
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-17	0.048
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-18	0.0655
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-19	0.0595
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-20	0.05
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-21	0.05
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-22	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-23	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-24	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-25	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-26	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-27	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-28	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-29	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-30	0.0465
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-08-31	0.0535
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-01	0.0535
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-02	0.054
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-03	0.0535
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-04	0.054
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-05	0.045
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-06	0.043
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-07	0.045
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-08	0.0485
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-09	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-10	0.0455
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-11	0.0475
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-12	0.048
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-13	0.0475
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-14	0.0465
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-15	0.047
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-16	0.0475
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-17	0.0475
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-18	0.0535
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-19	0.0545
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-20	0.054
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-21	0.0525
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-22	0.041
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-23	0.041
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-24	0.0395
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-25	0.04
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-26	0.036
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-27	0.041
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-28	0.0415
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-29	0.0255
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-09-30	0.0095
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-01	0.0115
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-02	0.012
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-03	0.0145
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-04	0.013
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-05	0.0135
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-06	0.016
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-07	0.017
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-08	0.017
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-10	0.015
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-11	0.015
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-12	0.0165
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-13	0.0165
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-14	0.0165
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-16	0.0335
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-17	0.043
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-19	0.017
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-20	0.0155
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-21	0.0195
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-24	0.022
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-25	0.0205
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-28	0.0195
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-10-30	0.02
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-02	0.0215
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-03	0.0215
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-04	0.018
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-05	0.0155
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-06	0.0265
+how-high-will-us-unemployment-go-in-2026	US unemployment ladder 2026	2026-11-06	0.0535
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-12	0.795
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-13	0.775
 strait-of-hormuz-traffic-returns-to-normal-by-december-31	Hormuz traffic normal by Dec 31	2026-05-14	0.755
@@ -4808,7 +4786,7 @@ will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-03	0.165
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-04	0.185
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-05	0.105
 will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-06	0.125
-will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-06	0.105
+will-the-us-invade-iran-before-2027	US invade Iran before 2027	2026-11-06	0.115
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-05	0.155
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-06	0.16
 will-the-iranian-regime-fall-by-the-end-of-2026	Iranian regime fall before 2027	2025-11-07	0.16
@@ -6323,7 +6301,7 @@ will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-03	
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-04	0.0175
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-05	0.0185
 will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-06	0.0185
-will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-06	0.0175
+will-china-invade-taiwan-before-2027	China invade Taiwan before 2027	2026-11-06	0.0165
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-22	0.81
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-23	0.78
 china-annual-gdp-growth-2026	China annual GDP growth 2026	2026-01-24	0.79
@@ -6616,7 +6594,7 @@ bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-04	0.845
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-05	0.915
 bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-06	0.895
-bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-06	0.785
+bank-of-japan-increases-interest-rates-by-25-bps-after-the-december-2026-meeting-20260918	BOJ Dec: hike 25bp	2026-11-06	0.78
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-23	0.285
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-24	0.23
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2025-12-25	0.245
@@ -6906,7 +6884,7 @@ bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-03	0.82
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-04	0.835
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-05	0.845
 bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-06	0.855
-bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-06	0.875
+bitcoin-vs-gold-vs-sp-500-in-2026	Best asset 2026 (SP/Gold/BTC)	2026-11-06	0.87
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-12	0.65
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-13	0.665
 clarity-act-signed-into-law-in-2026	Clarity Act signed into law 2026	2026-01-14	0.565
@@ -7189,7 +7167,7 @@ october-inflation-us-annual	October CPI print (modal)	2026-11-03	0.91
 october-inflation-us-annual	October CPI print (modal)	2026-11-04	0.905
 october-inflation-us-annual	October CPI print (modal)	2026-11-05	0.9
 october-inflation-us-annual	October CPI print (modal)	2026-11-06	0.86
-october-inflation-us-annual	October CPI print (modal)	2026-11-06	0.875
+october-inflation-us-annual	October CPI print (modal)	2026-11-06	0.86
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2025-12-30	0.495
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2025-12-31	0.59
 will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027	FL: Cat-4 hurricane by 2027	2026-01-01	0.63
@@ -7986,7 +7964,7 @@ iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment b
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-04	0.086
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-05	0.083
 iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-06	0.076
-iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-06	0.072
+iran-agrees-to-end-enrichment-of-uranium-by-december-31-1	Iran ends enrichment by Dec 31	2026-11-06	0.0725
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-25	0.675
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-26	0.585
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-06-27	0.45
@@ -8110,7 +8088,7 @@ what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (comp
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-04	0.175
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-05	0.175
 what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-06	0.135
-what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-06	0.125
+what-will-be-in-a-us-iran-deal-in-2026-20260624150226501	US-Iran deal 2026 (components)	2026-11-06	0.135
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-09	0.46
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-22	0.36
 which-banks-will-fail-by-end-of-2026	Which banks fail by EOY 2026	2026-04-23	0.06
@@ -8353,7 +8331,7 @@ will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, IC
 will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-04	0.36
 will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-05	0.13
 will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-06	0.18
-will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-06	0.2
+will-wti-reach-110-in-november-2026	WTI $110 Nov war premium [v5 NOV SEGMENT, ICE WTI (CLL)]	2026-11-06	0.195
 how-many-ships-transit-the-strait-of-hormuz-week-of-november-2	Hormuz ships-transit weekly (rolling)	2026-10-30	0.16
 how-many-ships-transit-the-strait-of-hormuz-week-of-november-2	Hormuz ships-transit weekly (rolling)	2026-11-01	0.36
 how-many-ships-transit-the-strait-of-hormuz-week-of-november-2	Hormuz ships-transit weekly (rolling)	2026-11-02	0.335
@@ -8365,6 +8343,7 @@ how-many-ships-transit-the-strait-of-hormuz-week-of-november-2	Hormuz ships-tran
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-november	Hormuz avg daily transits end-Nov	2026-11-04	0.275
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-november	Hormuz avg daily transits end-Nov	2026-11-05	0.285
 avgpt-of-ships-transiting-strait-of-hormuz-end-of-november	Hormuz avg daily transits end-Nov	2026-11-06	0.46
+avgpt-of-ships-transiting-strait-of-hormuz-end-of-november	Hormuz avg daily transits end-Nov	2026-11-06	0.54
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-november-30	Hormuz ships-any-day ladder by Nov30	2026-11-01	0.55
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-november-30	Hormuz ships-any-day ladder by Nov30	2026-11-02	0.52
 will-ships-transit-the-strait-of-hormuz-on-any-day-by-november-30	Hormuz ships-any-day ladder by Nov30	2026-11-03	0.52
@@ -8665,6 +8644,7 @@ will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares w
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-11-03	0.038
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-11-04	0.032
 will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-11-06	0.022
+will-the-us-officially-declare-war-on-iran-by-december-31-2026-746	US declares war on Iran by Dec 31	2026-11-06	0.0225
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-10	0.215
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-11	0.185
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-07-12	0.205
@@ -8774,7 +8754,7 @@ bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-1
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-04	0.07
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-05	0.075
 bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-06	0.075
-bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-06	0.085
+bab-el-mandeb-strait-effectively-closed-by	Bab el-Mandeb closed (by-date)	2026-11-06	0.095
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-09-23	0.69
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-09-24	0.745
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-09-25	0.695
@@ -8815,14 +8795,16 @@ next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic m
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-04	0.44
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-05	0.415
 next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-06	0.43
-next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-06	0.41
+next-us-iran-senior-diplomatic-meeting-byptptpt	US-Iran next senior diplomatic meeting (by-date)	2026-11-06	0.415
 us-x-iran-effective-ceasefire-continues-through-november-15-20261103	US-Iran effective ceasefire through Nov 15	2026-11-05	0.575
 us-x-iran-effective-ceasefire-continues-through-november-15-20261103	US-Iran effective ceasefire through Nov 15	2026-11-06	0.55
+us-x-iran-effective-ceasefire-continues-through-november-15-20261103	US-Iran effective ceasefire through Nov 15	2026-11-06	0.31
 us-x-iran-effective-ceasefire-continues-through-november-30-20261103	US-Iran effective ceasefire through Nov 30	2026-11-05	0.425
 us-x-iran-effective-ceasefire-continues-through-november-30-20261103	US-Iran effective ceasefire through Nov 30	2026-11-06	0.365
+us-x-iran-effective-ceasefire-continues-through-november-30-20261103	US-Iran effective ceasefire through Nov 30	2026-11-06	0.28
 us-x-iran-effective-ceasefire-continues-through-december-31-20261103	US-Iran effective ceasefire through Dec 31	2026-11-05	0.3
 us-x-iran-effective-ceasefire-continues-through-december-31-20261103	US-Iran effective ceasefire through Dec 31	2026-11-06	0.28
-us-x-iran-effective-ceasefire-continues-through-december-31-20261103	US-Iran effective ceasefire through Dec 31	2026-11-06	0.295
+us-x-iran-effective-ceasefire-continues-through-december-31-20261103	US-Iran effective ceasefire through Dec 31	2026-11-06	0.155
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-09-25	0.775
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-09-26	0.795
 us-announces-end-of-iranian-blockade-byptptpt-20260713152715080	US announces end of Iran blockade (by-date)	2026-09-27	0.73
