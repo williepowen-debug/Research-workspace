@@ -81,7 +81,7 @@ C038=dict(n=38,slug='LIQUID-Q3-BDC-card-final-no-verdict-line-met-in-full',
  title='LIQUID: Q3 BDC card final; no verdict line met in full, MIXED in part; grades mark direction only, grants no X1 half',
  action=[],info=['REGINALD','CARL','BROCK','NEXUS'],precedence='ROUTINE',signal_type='context',confidence=0.85,lang='reports',
  source='LIQUID',cluster='PC_STRESS',domain='PRIVATE_CREDIT',entities=['MAIN','GSBD','FSK','ARCC','BXSL','OBDC'],
- note='LIQUID ROUTE packet, commit a2abb1c8ba, arrived 14:20 ET, routed 15:40 ET. REGINALD and CARL are on the card MIXED route, marked partial.',
+ note='LIQUID ROUTE packet, commit a2abb1c8ba, arrived 14:20 ET, routed 15:35 ET. REGINALD and CARL are on the card MIXED route, marked partial.',
  body='''LIQUID's pre-registered Q3 card is final on MAIN's 10-Q, accepted 11:46 ET November 6. No gate fired.
 
 MAIN, as of September 30: NAV $34.22 from $33.92, +0.88%; FV/Cost 1.1697 from 1.1551; non-accruals 0.9% of fair value, 3.5% at cost; regular dividend held. LIQUID's caution, its own reading: a ratio above 1 mostly reflects holdings above cost, so this rise is weak evidence on debt marks.

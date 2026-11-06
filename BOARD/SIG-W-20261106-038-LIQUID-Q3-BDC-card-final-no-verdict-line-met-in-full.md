@@ -17,7 +17,7 @@ cluster: "PC_STRESS"
 domain: "PRIVATE_CREDIT"
 entities: ["MAIN", "GSBD", "FSK", "ARCC", "BXSL", "OBDC"]
 word_count: 186
-dispatch_note: "LIQUID ROUTE packet, commit a2abb1c8ba, arrived 14:20 ET, routed 15:40 ET. REGINALD and CARL are on the card MIXED route, marked partial."
+dispatch_note: "LIQUID ROUTE packet, commit a2abb1c8ba, arrived 14:20 ET, routed 15:35 ET. REGINALD and CARL are on the card MIXED route, marked partial."
 ---
 # LIQUID: Q3 BDC card final; no verdict line met in full, MIXED in part; grades mark direction only, grants no X1 half
 
