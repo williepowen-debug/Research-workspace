@@ -69,3 +69,9 @@ See the closeout message for commits and the push receipt.
 - KB-101 refreshed to October (own FRED pull), KB-091 re-classed DATED-HISTORICAL, combo rows KB-109 to 113 extended. STATUS headers folded with crc.
 - **Owed, in order:** 🔴 **Mon 11/09:** VIXCLS and SKEW 11/06 bars, HY and CCC about 10:10 ET: FT-06 2 of 5 only on a published ≥18, FT-02, FT-10, RED-27 window. 🟡 **By 11/09:** CHG-054 re-review, OZK 10-Q still unread. 🟡 Combo KB-110 due 11/13. 🟡 CARL packet still deferred. 🔴 **11/10:** CPI 08:30, household debt 11:00, then the re-derivation; read 11/11 CHG-057 from SAM and VULCAN.
 - Live-event override: VIX is still over 20, the market is shut until Monday, and PROME's task is bounded, so the session ends here. It re-applies at the next boot if a VIX close over 20 posts and the event is running.
+
+---
+
+## ADDENDUM S60-f — 2026-11-06 18:35 ET (from `date`)
+- Will's 18:33 ET word via PROME: close out, no new work. ISHM Class 8 packet and cards 047, 048, 049 read and logged. COR-20261106-48 APPLIED to KB-RED-112 (Qatar line now paraphrase, denied). KB-110, 111, 112 extended. **No weight, trigger state or count moved.** Owed list unchanged from S60-e.
+- **Added to owed:** 🔴 **Sun evening to Mon 11/09:** FALCON's Qeshm grade and the oil reopen; direction is open and the attacker unnamed, so read it before any War input, and do not score it from the 59.0 to 31.5 Polymarket move (ORACLE's, thin book, cause not established). 🟡 ACT final Class 8 mid-November; Cass 11/13 is ISHM's next J2 leg. Michigan final 11/20 10:00 ET.

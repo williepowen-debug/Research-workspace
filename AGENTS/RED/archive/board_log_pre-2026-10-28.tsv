@@ -16,3 +16,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-28T21:08	SIG-W-20261027-001	noted	BOARD	CORRECTION (EART close date): receipted NO-OP, CARL owns
 2026-10-28T21:08	SIG-W-20261029-001	acted	BOARD	FOMC 10/28 hold 10-2, two hike dissents: Policy Rescue -1 and Stag held at -2 (not -3) in the S57 re-derivation
 2026-10-28T21:08	SIG-W-20261023-036	acted	BOARD	Record October ship attacks (28): War +1 input S57 (Iran-side root)
+2026-10-28T21:08	SIG-W-20261029-003	acted	BOARD	Sinokor fleet targeted from 11/1 (~47pct of Hormuz VLCC transits, secondary): War +1 input S57
+2026-10-28T21:08	SIG-W-20261029-002	acted	BOARD	Ras Tanura claim-only + WSJ post-midterm campaign report: War +1 input S57 (US-side root, single report)
+2026-10-28T21:08	SIG-W-20261023-015	acted	BOARD	HY 340 [10/22] near REG-T-04; FT-06 exit run counted by RED: 3 of 5 then broken 10/27 -> 0 of 5
+2026-10-28T21:08	SIG-W-20261023-019	acted	BOARD	DEWEY HY widening mostly broad (AI ~10-15pct of Oct): FT-02 composition note S57
