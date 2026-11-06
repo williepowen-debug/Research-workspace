@@ -1,0 +1,42 @@
+{
+"basis": "first-published",
+"series": "ICSA",
+"rows": [
+{
+"date": "2026-10-31",
+"value": "189000",
+"first_published": "2026-11-05"
+},
+{
+"date": "2026-10-24",
+"value": "194000",
+"first_published": "2026-10-29"
+},
+{
+"date": "2026-10-17",
+"value": "194000",
+"first_published": "2026-10-22"
+},
+{
+"date": "2026-10-10",
+"value": "199000",
+"first_published": "2026-10-15"
+},
+{
+"date": "2026-10-03",
+"value": "197000",
+"first_published": "2026-10-08"
+}
+],
+"request": {
+"series_id": "ICSA",
+"output_type": 4,
+"observation_start": "2026-10-01",
+"realtime_start": "2026-09-17",
+"realtime_end": "9999-12-31",
+"limit": 40
+},
+"short": false,
+"missing": [],
+"under_limit": true
+}

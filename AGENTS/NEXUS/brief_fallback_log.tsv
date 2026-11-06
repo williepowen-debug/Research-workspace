@@ -109,3 +109,5 @@ date	agent	cause	note
 2026-11-04T15:33:32-05:00	ALL	digest	31 briefs via 3 gpt-6.1-sol readers; LIQUID stale pin4; RED unpinned; dated content gaps retained in DIGESTS; no full matrix re-sweep.
 2026-11-04T15:33:32-05:00	LIQUID	stale	Parent raw STATUS4edee7bbd read; pin4 commits behind; owner credit grade ends10/29.
 2026-11-05T18:03:31-05:00	REGINALD	brief-gap	Startup recovery, no pass. Fresh brief 11/5 16:35 ET lacked the settled KRE 74.13 [11/4] that closes M-05 DOWN; read at STATUS row 108.
+2026-11-06T15:40-05:00	SAM	stale	Brief 10/31, pin behind STATUS 7c3917d04e 11/6; read SoftBank owner report and STATUS directly for READ route 5.
+2026-11-06T15:40-05:00	VULCAN	convergence	Oracle levers (LIQUID) and lab funding (VULCAN KB-395) hint at one thread neither names; read VULCAN KB rows and LIQUID report section 15.8.
