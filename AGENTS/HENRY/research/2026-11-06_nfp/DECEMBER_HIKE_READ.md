@@ -6,7 +6,9 @@ Written on Will's word, relayed by PROME 15:24 ET. HENRY's lane only: fed funds 
 
 The Fed is more likely than not to hike on 12/9, and futures say so: about 76% at 15:00 ET, own calc. My number is 0.70 (HEN-63). ORACLE's venues read 77.5 and 78.0 at 15:26 ET. The gap is small and I do not claim an edge on it.
 
-Payrolls restored December and did not restore the path. That is the finding. The market now prices one hike with conviction and a smaller series after it.
+December came back and the path did not. That is the finding. The market now prices one hike with conviction and a smaller series after it.
+
+**Correction 15:3x ET, ORACLE packet:** payrolls did not do all of that. Much of the rebound came before 08:30: 65% to 73% on my own futures table, 63.5 to 69.5 on Polymarket by 05:00 ET, cause not established. The print itself added about 3 points on futures and about 8 on Polymarket. My first draft said payrolls restored December; that overclaimed. The overnight rise came with the Nasdaq futures bounce, which fits the stocks-and-path link below and proves nothing on cause.
 
 CPI on Tue 11/10 is the deciding date in my lane. It is the last CPI the Fed sees before 12/9, because November CPI prints Thu 12/10, the day after the decision.
 

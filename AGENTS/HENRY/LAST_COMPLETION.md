@@ -1,6 +1,6 @@
 # HENRY — 2026-11-06: 11/5 close graded, HEN-59 resolved, December hike read filed — CLOSED ON PROME'S ASK
 
-**RESULT:** October payrolls brought the December hike back to about three in four but did not bring back the hikes after it. CPI on Tuesday 11/10 is the deciding date in my lane: it is the last CPI before the 12/9 decision. My HEN-59 expectation missed at +165,000. High yield widened 16bp to 348bp on 11/5, the 2026 high, modest against the equity fall. No score, band, gate or trade changed.
+**RESULT:** The December hike is back to about three in four after October payrolls, part of that before the print, and the hikes after it did not come back. CPI on Tuesday 11/10 is the deciding date in my lane: it is the last CPI before the 12/9 decision. My HEN-59 expectation missed at +165,000. High yield widened 16bp to 348bp on 11/5, the 2026 high, modest against the equity fall. No score, band, gate or trade changed.
 
 **CHANGED:** `STATUS.md`, `STATUS_COLD.md`, `MEMORY.md`, `NEXUS_BRIEF.md`, this file, `CLAUDE.md` (Inbox step 3a), `board_log.tsv`, `registry/corrections_receipts.tsv`, `workbook/PREDICTIONS.tsv`, `KB.tsv`, `MARKET_DATA.tsv`, `PUBLISHED.tsv`, `research/2026-11-06_nfp/`, WALTER cards consumed; packets to PROME, WALTER and LABOR.
 
@@ -23,6 +23,7 @@
 - Fed read is Reuters' account of Warsh and Musalem, not a committee read. October CPI consensus not found; the Cleveland Fed +0.21 is from 10/29.
 - The December figure failed its one sample: 72% for October on 9/24, then a hold. Base rate not computed.
 - HEN-62 at 0.60 now reads rich to me; frozen, grades as written.
+- My 15:34 ET packet says payrolls restored December; about half the rebound came before the print (ORACLE). STATUS, brief and read corrected, cause of the overnight move not established.
 - Put/call: I logged 1.05 from a chart read; the Cboe file says 0.89 (WALTER 035). STATUS and KB corrected; my 15:34 ET PROME packet still shows 1.05, named in the closeout receipt.
 - BLS release text not read (bls.gov 403); figures from the BLS API, release cited as graded by LABOR.
 - Operating Dashboard not refreshed; breadth rerun and options volume not run.

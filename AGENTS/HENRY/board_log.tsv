@@ -877,3 +877,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T15:36:01-05:00	SIG-W-20261106-035	acted	INBOX_WALTER	Correction to 033 applied to my own STATUS and KB line: put/call 0.89 at the Cboe file, not 1.05. Named in the closeout receipt to PROME.
 2026-11-06T15:36:01-05:00	SIG-W-20261106-036	acted	INBOX_WALTER	SoftBank leverage date corrected in the KB theme row. Read SoftBank 11/10 as 9/30 figures, not today. Moves no score.
 2026-11-06T15:36:01-05:00	SIG-W-20261106-037	acted	INBOX_WALTER	Oracle CDS 305bp and IREN funded scope added to the KB theme row; IREN contracted line narrowed. LIQUID owns. Moves no score.
+2026-11-06T15:36:35-05:00	ORACLE-2026-11-06-december-hike-verified	acted	INBOX_GENERAL	Venues 77.5 and 78.0 match my calc. About 6 of 14 points came before the print: corrected my overclaim in STATUS, NEXUS, read, KB. Reuters 78 from 70 sentence unverified at relay; 11/5 fall cause not established.
