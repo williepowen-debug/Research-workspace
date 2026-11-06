@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 6, 2026 10:29 ET (from `date`). WQ-626 A wake, DOCKET L976: History confirmed, credit-flat closed. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**. Session stays open for PROME's closeout word.
+**As of:** November 6, 2026 10:29 ET (from `date`). WQ-626 A wake, DOCKET L976: History confirmed, credit-flat closed. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**. Closed on PROME's ask (WQ-249) 11/06; L976 RESOLVED, VIO-PRED-07 to 10 registered, charter line verified C4.
 
 ## CHANGES SINCE (11/05 16:51 ET → 11/06 10:20 ET)
 
@@ -27,9 +27,9 @@
 ## NEXT SESSION
 
 0. **Grade VIO-PRED-07 after History posts 11/13**, VIO-PRED-08 and 10 after 11/20, VIO-PRED-09 after 12/31. Any close that meets a letter resolves it early in fact; grade at the next owner session.
-1. **Close-out items:** prune the fired payrolls row, run closeout_guard. Both Will-facing pages still show HY 332bp and the credit leg open; republish on PROME's word or the next material trigger.
+1. **RESUME LIST, PROME's word 11/06:** (a) both Will-facing pages still show HY 332bp and the credit leg open: edit the repo HTML, republish each to its existing URL, update the memory twins. (b) Payrolls surface read not run: read VIX9D/VIX and the release around 11/06 08:30 ET from the 11/05 and 11/06 closes.
 2. FXY IV re-pull done mid-session: 12.1% [12:38 ET, 43 DTE, 5 strikes] against RV10 7.05%; carry canary CALM.
-3. Payrolls 11/06 and CPI 11/10 pre/post surface read. Verify both dates at bls.gov (403 on 11/05); CPI search unconfirmed.
+3. CPI 11/10 pre/post surface read. Verify the date at bls.gov (403 on 11/05); CPI search unconfirmed.
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.
 5. **November 17: credit-vol endpoint and NVIDIA after the close; November 18 VIX AM SOQ.** L342 11/26 (not due), December 16 L441.
 6. implied_corr.py SETTLE-by-clock defect: not commissioned.

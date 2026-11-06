@@ -9,6 +9,13 @@ Reverse-chronological log of **structural** changes to VIOLET's docs, folders, s
 Log material structural changes only — not routine content edits. Template adopted from OTTO (2026-06-10), incl. the cap: **archive to `archive/` if this grows past ~300 lines** (SAM cautionary tale: 636).
 
 
+## November 6, 2026 — combination watch charter line (WQ-622 A)
+**Trigger:** root USER.md and `PROME/COMBINATION_WATCH.md`, Will 2026-11-05.
+**What changed:** one sentence added to step 5a of `CLAUDE.md`. Class C4, moves no authority, route or threshold; PROME verifies. Four themes live as KB rows, KB-VIO-383 to 386.
+**Files touched:** `CLAUDE.md`, `workbook/KB.tsv`.
+**Boot-impact:** none.
+**Lessons:** `PREDICTIONS.tsv` is a navigation index; letters live in a frozen research file, and the index row points to it.
+
 ## November 5, 2026 — charter conflicts fixed; MOVE pause/resume retired
 
 **Trigger:** Will, about 16:41 ET, verbatim "yes to all", on three charter fixes, the MOVE line and the credit-flat number.
@@ -292,10 +299,3 @@ Log material structural changes only — not routine content edits. Template ado
 **Files touched:** `scripts/cheap_tail.py`.
 **Boot-impact:** none (text only; regrade suite re-run at closeout).
 **Lessons:** a printed route is an instruction its reader follows; it must name the route that is actually run.
-
-### 2026-11-06 — Combination watch charter line (WQ-622 A)
-**Trigger:** root USER.md and `PROME/COMBINATION_WATCH.md`, Will 2026-11-05.
-**What changed:** one sentence added to step 5a of `CLAUDE.md`. Class C4, moves no authority, route or threshold; PROME verifies. Four themes live as KB rows, KB-VIO-383 to 386.
-**Files touched:** `CLAUDE.md`, `workbook/KB.tsv`.
-**Boot-impact:** none.
-**Lessons:** `PREDICTIONS.tsv` is a navigation index; letters live in a frozen research file, and the index row points to it.

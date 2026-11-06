@@ -6,7 +6,6 @@ Updated November 5, 2026 (10:0x ET); canonical dated rows [CATALYSTS](workbook/C
 
 | Date | Event | Impact | VIOLET checkpoint |
 |---|---|---|---|
-|Nov 6 (Fri)|October payrolls, 08:30 ET|MEDIUM|SECONDARY date (LABOR register; BLS CPS calendar lists Nov 6 by search 11/05, page not opened; bls.gov 403 on 10/21, 10/29, 11/05) - verify before any grade keys on it.|
 |Nov 10 (Tue)|October CPI, 08:30 ET|MEDIUM|SECONDARY date (RED S57 names it; bls.gov 403 10/29 and 11/05; search 11/05 did not confirm). Pre/post surface read only.|
 |Nov 17 (Tue)|NVIDIA Q3 FY27 results, after the close; call 17:00 ET|HIGH|Company-announced date, read through search. Results land the evening before the VIX AM SOQ, so read the VX/X6 settle and VIX9D into it.|
 |Nov 17 (Tue)|Credit-vol WATCH window endpoint|MEDIUM|Grade the lag against the 100bp size condition from 268bp [9/22]. A watch, not a letter. KB-VIO-328.|
