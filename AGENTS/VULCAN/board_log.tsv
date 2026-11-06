@@ -253,3 +253,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T10:24:11-05:00	SIG-W-20261106-013	acted	INBOX_WALTER	ACTION done: S1 and S5 re-read against LIQUID's send row [KB-377]. No VULCAN letter, 15/25, S5 4 n=2. Funding did not move. VIOLET owns Path-B.
 2026-11-06T10:24:11-05:00	SIG-W-20261106-015	info-only	INBOX_WALTER	Capcom correction: no VULCAN artifact cites it (grep 11/6); no channel touched.
 2026-11-06T11:21:54-05:00	SIG-W-20261106-019	acted	INBOX_WALTER	Two VULCAN lines read at source: reported cause [KB-382], IREN at its filing [KB-383..385]. Doubled H100 price is one contract against its own Prince George baseline. No letter, 15/25.
+2026-11-06T14:16:21-05:00	SIG-W-20261106-026	info-only	INBOX_WALTER	ZeroHedge map logged as unverified [KB-396]; no score touched.
+2026-11-06T14:16:21-05:00	SIG-W-20261106-029	acted	INBOX_WALTER	ACTION done: both read at available sources [KB-391/392]. No score moves: S1 NOT FIRED, leading indicator stays ARMED, S3 not fired. Reuters reassessment clause added, absent from the card.
+2026-11-06T14:16:21-05:00	SIG-W-20261106-030	acted	INBOX_WALTER	ACTION done: round terms integrated [KB-393]. No S5 letter, S5 stays 4 n=2; smaller private round meets no band.
+2026-11-06T14:16:21-05:00	SIG-W-20261106-031	noted	INBOX_WALTER	ECB review is a question, not a rule; HANS owns the row. Logged as combo:bank-supervisor-reach [KB-394]. No VULCAN action.
+2026-11-06T14:16:21-05:00	SIG-W-20261106-033	noted	INBOX_WALTER	Apple 20% claim unsupported; logged as a lead only [KB-396]. Apple is outside the four-name capex set.
