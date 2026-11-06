@@ -19,3 +19,9 @@ receipt_date	correction_id	action	note
 2026-11-06T14:59Z	COR-20261105-57	NO-OP	scope=no VULCAN artifact carries the VIX figure (grep 11/6), no VULCAN band keys on VIX and KB-374 stock figures are unchanged; 
 2026-11-06T14:59Z	COR-20261105-62	NO-OP	scope=Abrigo appears only in raw cards and board_log (grep 11/6), no VULCAN channel or KB row cites it; 
 2026-11-06T15:24Z	COR-20261106-15	NO-OP	scope=no VULCAN artifact cites Capcom (grep 11/6), game publisher with no VULCAN channel; 
+2026-11-06T22:17Z	COR-20261106-34	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-391; validation_ref=AGENTS/VULCAN/STATUS.md#S1; 
+2026-11-06T22:17Z	COR-20261106-35	NO-OP	scope=no VULCAN artifact carries the put/call figure (grep 11/6), no VULCAN band keys on it, the card line went to HENRY, VIOLET and RED; 
+2026-11-06T22:17Z	COR-20261106-36	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-404; validation_ref=NONE; 
+2026-11-06T22:17Z	COR-20261106-37	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-405; validation_ref=NONE; 
+2026-11-06T22:17Z	COR-20261106-41	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-404; validation_ref=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-379; 
+2026-11-06T22:17Z	COR-20261106-42	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-405; validation_ref=NONE; 
