@@ -585,3 +585,8 @@ date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	
 2026-11-06	BOND	SIG-W-20261106-017	NONE	UNKNOWN	NO	NA	NA	NA		Absent from ListAgents at dispatch; PROME told by message; UNKNOWN by 9b.
 2026-11-06	OTTO	SIG-W-20261106-019	NONE	UNKNOWN	NO	NA	NA	NA		Absent from ListAgents at dispatch; PROME told by message; UNKNOWN by 9b.
 2026-11-06	BRENT	SIG-W-20261106-022	NONE	UNKNOWN	NO	NA	NA	NA		Absent from ListAgents at dispatch; PROME told by message; UNKNOWN by 9b.
+2026-11-06	SAM	SIG-W-20261106-030	NONE	UNKNOWN	NO	NA	NA	NA		Absent from ListAgents at dispatch; PROME told by message; UNKNOWN by 9b.
+2026-11-06	VULCAN	SIG-W-20261106-029	NONE	LIVE	NO	NA	0	NA		Live at dispatch in ListAgents; WALTER direct doorbell sent, not a rule 13 row.
+2026-11-06	VULCAN	SIG-W-20261106-030	NONE	LIVE	NO	NA	0	NA		Live at dispatch in ListAgents; WALTER direct doorbell sent, not a rule 13 row.
+2026-11-06	LIQUID	SIG-W-20261106-029	NONE	LIVE	NO	NA	0	NA		Live at dispatch in ListAgents; WALTER direct doorbell sent, not a rule 13 row.
+2026-11-06	HANS	SIG-W-20261106-031	NONE	LIVE	NO	NA	0	NA		Live at dispatch in ListAgents; WALTER direct doorbell sent, not a rule 13 row.

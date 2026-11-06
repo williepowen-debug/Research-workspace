@@ -95,7 +95,7 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-06T16:09:27Z",
+  "as_of": "2026-11-06T19:14:36Z",
   "next_review": "2026-11-09",
   "publication": [
     {
@@ -140,14 +140,34 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
     },
     {
       "commit": "f4c0f5e9dff5473ae50bc5cfa3b015e59f8b64b1",
-      "state": "pending",
+      "state": "published",
       "note": "Cards 022-026."
+    },
+    {
+      "commit": "53a0eb6116b99c81cd72f9f7ac3b9484b0801c52",
+      "state": "published",
+      "note": "Card 027."
+    },
+    {
+      "commit": "bf0733883e58c4a96a04c5627129e16597a672e5",
+      "state": "published",
+      "note": "Card 027 kill string and index."
+    },
+    {
+      "commit": "b1828d40c89cfef6d1ee69363040ff4886c17584",
+      "state": "published",
+      "note": "Card 028."
+    },
+    {
+      "commit": "98092a5a0a5b859d2bdbedf490170361eca7a504",
+      "state": "pending",
+      "note": "Cards 029-033, BROCK packet."
     }
   ],
   "delivery": {
     "signal_date": "20261106",
-    "total": 108,
-    "delivered": 91,
+    "total": 142,
+    "delivered": 113,
     "note": "Delivery proof by origin only; recipient use separate."
   },
   "owner_review": {
