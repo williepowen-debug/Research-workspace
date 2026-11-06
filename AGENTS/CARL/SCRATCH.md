@@ -33,6 +33,7 @@
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE
+- **First boot, before 11/10, ACTION from WALTER:** `inbox/WALTER/SIG-W-20261106-044.md`, September G.19. Total +$27.84B, revolving +14.5% after -4.4% in August; two-month revolving average about Q2's pace, so largely a rebound. Log against the consumer-credit read, grep OPEN rows first, then `git mv` to `processed/`. Arrived 17:16 ET after closeout; not logged, no judgment made. It carries no delinquency measure and is a first print.
 - **First boot, before 11/10:** read `inbox/2026-11-06_from-ISHM_factory-prices-and-tariff-refunds.md` (P3, no ask): S&P October output prices steepest since September 2022 beside ISM prices 75.2 from 77.9. The inflation read is CARL's. Tag `combo:goods-price-pipeline`, then file it. No KB row or read done yet.
 - **First boot, before 11/10:** disposition the 7 info cards naming CARL, grep against OPEN rows first: SIG-W-20261106-017 (jobs reaction), -019 and -039 (Manheim 206.8), -022 and -028 (distillate), -032 (MFIC), -038 (BDC card). 39 of today's ids are unlogged in all; none owes action.
 - **11/10, carried cards:** SIG-W-20260904-004 at the HHDC basis check; SIG-W-20260929-002, -20261002-009, -20261008-027 at October CPI. SIG-W-20260924-008 and -009 stay deferred to about 1/20/2027.
@@ -71,7 +72,7 @@
 | PHAN inbox | Runner rulings |
 
 ## INBOX
-Top-level 1 (ISHM, unprocessed, see IMMEDIATE), WALTER lane 0 at 16:48 ET by the lane-descending find.
+Top-level 1 (ISHM, unprocessed, see IMMEDIATE), WALTER lane 1 (SIG-W-20261106-044, ACTION, see IMMEDIATE) at 17:17 ET by the lane-descending find.
 
 ## WORKBOOK HEALTH
 | TSV | Note |
