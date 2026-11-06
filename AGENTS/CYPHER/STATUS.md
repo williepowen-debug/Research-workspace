@@ -1,13 +1,13 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-11-06 10:13 EST — D:L973 delivered (PROME prome-51, WQ-626 A; runtime Claude Code, Opus 5.5). Session open; closeout is Will's call, nothing pushed.**
+**Last Updated: 2026-11-06 11:07 EST — D:L973 delivered (PROME prome-51, WQ-626 A; runtime Claude Code, Opus 5.5). Closeout on PROME prome-51's 11:05 ET relay of Will's "go ahead" (PROME's chat; a relay, not his word here). Earlier commits were already on origin through another session's push.**
 - **Capcom (030): desk error corrected.** Not FALSE. Capcom confirmed 11,774,247 records on 10/22, before the desk's 10/23 "likely recirculation" read; that read and its do-not-relay line are withdrawn. Off-wave, no financial channel. WALTER told.
 - **Kiteworks:** no organisation names it as a route at disclosure +16 days; advisory unchanged since 10/27, no exploitation statement. ⚠️ Weak evidence: AG leg was a search, extortion sites not read. Next 11/13.
 - **GMO (032):** customer contact began 11/06; amount cannot yet be calculated; next the 11/13 briefing. Threshold not met.
 - **Row 9 magnitude: PROPOSED, not in force, needs Will.** PANW at or below $289.24 (-15.0% from the 10/20 close) AND 10.0 points behind HACK on 2 consecutive closes, through the 11/18 close. No ruling by then = collapse leg UNGRADEABLE. Packet at `PROME/inbox/2026-11-06_from-CYPHER_L973-row9-magnitude-proposal.md`; row letter unchanged. PANW reports after the close 11/18.
 - **Shinkin Kyodo Center (062, card 005):** 128 Japanese credit co-ops down about 5.5 hours 11/06; operators think not cyber, a same-day view. Row 8 not applicable by letter; cluster duration limb not met. No fire.
-- **Intake clear:** cards 062 and 005, GIBBS's answer (no consequence at the 16, KB-CYP-092), COR-20261105-62 NO-OP. 005 and 019 re-checked at search level.
-- **WQ-622:** 3 themes logged in KB (`supplier-route-to-banks`, `japan-october-cluster`, `ai-tooling-entry`). The charter line is NOT added: needs Will's word or PROME.
+- **Intake clear:** cards 062, 005 and 015, GIBBS's answer (no consequence at the 16, KB-CYP-092), LIQUID's rail answer (no effect on its surfaces, cannot see a European rail, not a clearance, KB-CYP-103), COR-20261105-62 and COR-20261106-15 NO-OP. 005 and 019 re-checked at search level. HANS and SHADE have not filed their 11/05 packets.
+- **WQ-622:** 3 themes logged in KB (`supplier-route-to-banks`, `japan-october-cluster`, `ai-tooling-entry`). The charter line is NOT added: on the resume list until Will gives it directly.
 
 **2026-11-05 16:49 EST — closeout of the launched session (PROME prome-98, WQ-618 A, Will 13:56 ET "yes go ahead"; runtime Claude Code, Opus 5.5).**
 - **Crédit Mutuel Arkéa: CYB-INC-059 OPENED, OFF-WAVE, CONFIRMED** (`research/2026-11-05_arkea/RECORD.md`). The bank says attackers came through "la plateforme d'un de nos prestataires" (provider unnamed) and paid other banks from its own account, about EUR 100M on its provisional word (no figure in its written statements). Crypto conversion is "potentiellement". **Shared software, rail or vendor reach: not established either way.** No second bank, rail statement or supervisory alert found. Not systemic on this evidence. Next check 11/09.
