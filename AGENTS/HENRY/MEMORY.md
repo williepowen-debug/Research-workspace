@@ -66,6 +66,6 @@
 
 1. **Grade the 11/6 close and finish the HEN-59 reaction note:** KRE direction on the close, RSP vs SMH, VIX final at 16:15 ET, Treasury par 2Y for HEN-62, HY 11/6 (publishes Monday 11/9). Backfill MARKET_DATA.
 2. HEN-57 CPI 11/10 (L775); HEN-58 PPI 11/13 (L776); NVDA 11/17 after the close (L926). HEN-60 and HEN-62 resolve 11/30, HEN-61 12/31; keep the row current if a close resolves one early.
-3. Row 9 on 11/18: CYPHER's letter awaits Will; bank leg unsized. ECON_CALENDAR rebuild before 11/20.
+3. Row 9 collapse leg: RULED WQ-635 A, grade at the 11/18 close after 16:15 ET against `AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv` row 9 (letter in STATUS). Bank leg unsized, needs its own ruling. ECON_CALENDAR rebuild before 11/20.
 4. Unrun from Will's list: breadth rerun on closes, options volume by strike, top-name point attribution. Operating Dashboard still 10/22, same URL. QQQ short interest 10/30 settlement not posted.
 5. Review combination themes: 11/13 (`risk-off-bid-vs-hike-path`, `narrow-rebound-or-broadening`), 11/18 (`ai-chips-sold-without-a-capex-cut`), 11/20 (`levered-and-close-flows`).

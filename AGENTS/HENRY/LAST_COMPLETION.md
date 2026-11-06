@@ -29,7 +29,7 @@
 
 ## NEXT SESSION FOLLOW-UP
 
-CPI Tue 11/10; PPI Fri 11/13; Nvidia Tue 11/17 after the close; row 9 on 11/18 needs Will's ruling on CYPHER's letter or the collapse leg grades UNGRADEABLE.
+CPI Tue 11/10; PPI Fri 11/13; Nvidia Tue 11/17 after the close; row 9 collapse leg ruled (WQ-635 A), HENRY grades it at the 11/18 close, read after 16:15 ET.
 
 ## THESIS SNAPSHOT (frozen at close)
 
