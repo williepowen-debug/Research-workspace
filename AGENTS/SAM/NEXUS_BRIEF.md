@@ -1,13 +1,13 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-06T21:49:11+00:00 (16:49 ET), reboot closeout after PROME C9 on SoftBank's check plus Will's funding-stack question; cards 040 and 041 taken in, no view moved. **STATUS commit `75307fc093`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-06T22:15:16+00:00 (17:15 ET), close refresh on Will's 17:08 ET word via PROME; no view moved. **STATUS commit `e9e60e00b2`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
 
 **Tokyo fell 6% and the yen weakened, so this was a rate repricing, not a carry unwind. December moved. SoftBank's funding is odd in shape, not failing.** v1.7 retired-to-LOW, no successor frame, no entry. Last Will-confirmed FLAT is June 29, not a fresh broker reconciliation.
 
 **Carry grade, card 003: NOT a Japan-led carry unwind.**
-- USD/JPY in Tokyo cash hours 11/6: 157.48 → 158.14, 0.75-yen range, on a −5.96% Nikkei. 11/5 completed 157.492, −0.56%. 11/6 live ~158.5, not a completed session. Two-session span 1.40 yen, under the fast-move bar.
+- USD/JPY in Tokyo cash hours 11/6: 157.48 → 158.14, 0.75-yen range, on a −5.96% Nikkei. 11/5 completed 157.492, −0.56%. **11/6 completed 158.425, +0.59%, range 1.241** (own hourly, ledger row lands after 19:00 ET). Two-session span 1.40 yen, under the fast-move bar.
 - CFTC net **long +102,321** at 11/3 (Δ +730): no short-yen pool going in. ⚠️ That window ended before the selloff.
 - Reuters 11/6, on-the-run, intraday: 2Y −13.5bp, 5Y −16.5, 10Y −14.5, 30Y −4. Front-led, so a BOJ repricing; oil held the long end.
 - Megabanks −5.7 to −7.0% vs TOPIX −5.9%: no bank-specific break.
