@@ -11,10 +11,11 @@
 - **Docs:** KILL_TREE re-graded, C-3 KILLED · STATUS rewritten (22,772 → ~15,000 B) · DISPATCH_LOG · SESSION_LOG · boot.py F27.
 - **Packets:** BOND · BRENT · RED · ISHM · CYPHER · REGINALD · DAEDALUS · WALTER · PROME.
 - **After the 13:05 closeout:** WQ-636 A encoded on `HANS-T-07` (`2b9f9cbb31`), packet to PROME consumed. Cards -1106-031 and -033 read, `T-14` not fired (`68215d925f`), KB-179 and KB-173 notes.
-- **Inbox:** 33 of 33 drained, then the WQ-636 packet and 2 cards, inbox empty at 16:47 ET, one named item at a time, `board_log.tsv` rows. Receipts: COR-20261031-01, COR-20261105-52.
+- **18:04 ET boot on Will's word via PROME:** data through the 11/06 close; card -1106-046 read; COR-20261106-35 NO-OP.
+- **Inbox:** 33 of 33 drained, then the WQ-636 packet and 3 cards, inbox empty after the close pass, one named item at a time, `board_log.tsv` rows. Receipts: COR-20261031-01, COR-20261105-52.
 
 **RESULT:**
-- **Gas:** TTF Z26 90.68 [11/05 close], 85.98 last trade [11/06, 13:17 ET], from 103.94 [10/30]. L3 exit clock 0/5 confirmed, 1/5 if 11/06 closes under 90. EU storage 73.75% and falling, gap −16.02pp. `HNS-07` MISS at 74.57%.
+- **Gas:** TTF Z26 90.68 [11/05 close], 85.98 last trade [11/06, 13:17 ET], from 103.94 [10/30]. 11/06 close pass: 85.98 vendor close, L3 exit clock 1/5. EU storage 73.75% and falling, gap −16.02pp. `HNS-07` MISS at 74.57%.
 - **UK:** BoE 4.00% 8–1; gilts held; DMO cut long conventional sales £7.7bn to £15.5bn.
 - **France:** spread 153.9bp, `T-10` OPEN; PMI 46.6 final, GDP −0.1 (secondary). Italy not following.
 - **EA:** flash 4.0, core 2.5; `T-16` waits for 11/18.
@@ -27,7 +28,7 @@
 **CLOSEOUT:** Standard. doc_audit, tests and read-cap re-run after the last edit. Consumer cross-agent rc0: 31 🔴, none a real consumer of a retired figure (23 coincidental numbers in REGINALD study CSVs, the rest dated records), no packet. Consumer --self rc0: 32 🔴 all dated history, `PUBLISHED.tsv` or rotated records, not cleared by rule. Claim check clean. Orphan: my packets committed. Root 1d no-op, no auto-memory.
 
 **FOLLOW-UP (next session):**
-0. Read the 11/06 TTFZ26 daily close and run the `T-07` L3 exit clock on `HANS-T-07`.
+0. Re-read the 11/06 TTFZ26 bar (it may be replaced), add the 11/09 close, and run the `T-07` L3 exit clock on `HANS-T-07`.
 1. EA Oct FINAL HICP and ECB FSR 11/18; France vote ~11/17–18.
 2. UniCredit 11/09 and the other 5 banks into HNS09.
 3. S&P France 11/27: confirm the date.

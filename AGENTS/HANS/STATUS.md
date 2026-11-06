@@ -1,16 +1,16 @@
 # HANS STATUS.md
-**Updated:** 2026-11-06 (Fri, ET by `date`) — **hans-1106, PROME assignment on Will's word 11:05 ET: whole inbox drained, due rows graded, `HNS-07` graded MISS, four new forecasts, combination themes.** *10/29 STATUS verbatim → `git show 3d58d4f12:AGENTS/HANS/STATUS.md`.*
+**Updated:** 2026-11-06 (Fri, ET by `date`) — **hans-1106, PROME relay of Will 18:03 ET: data refreshed through the 11/06 close; earlier 11:05 ET assignment: whole inbox drained, `HNS-07` graded MISS, four new forecasts, combination themes.** *10/29 STATUS verbatim → `git show 3d58d4f12:AGENTS/HANS/STATUS.md`.*
 **Boot 11/06:** rc1 (attention) · R1 corrections 2 NO-OP receipts, rc0 · not pulled (nothing incoming; foreign dirty tree) · I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: MINE.** Desk was dark 10/30–11/05.
 
 ---
 
 ## 🔴 CARRY FORWARD — the live consequences through **11/06**. **Narrative → `SESSION_LOG.md`** · verbatim → `workbook/`
 
-- 🔴 **GAS: PRICE EASED, STORAGE DID NOT.** TTF Dec (named Z26) **90.68** [11/05 close] / **85.22** intraday [11/06], from **103.94** [10/30 close, 68 lots, the episode high]. Under €100 since 11/02. **EU storage 73.75%** [gas day 11/04], falling 0.32pp/d, gap **−16.02pp** to the 5-yr mean (median −21.25), back through the −15 orange line. Germany **60.25%**. The relief is reported as diplomacy hope (TE, attribution not established): price relief, not physical relief. Brent 117.64 [10/30] → ~97. IEA 11/03: lowest opening stocks since 2013; its sub-10% end-March case needs **both** cold weather **and** continued Hormuz disruption; withdrawals weaken below ~30% (via WALTER -013). Qatar force majeure reported to end-December.
-- 🔴 **`T-07` L3 OPEN, EXIT RULE NOW REGISTERED (WQ-636 A, Will 11/06).** Closes after **5 consecutive named-front closes under €90**, re-fires on a close over €100; contract named in the registry band cell (`TTFZ26.NYM`, then `TTFF27.NYM` after 11/27). ⚠️ No base rate computed, one episode only. **Clock: 0/5 confirmed.** 11/04 88.08 counted, 11/05 90.68 reset it, 11/06 85.98 is a last trade, daily close not posted; 1/5 if it closes under 90, earliest fifth close 11/12. ⚠️ 11/05 is the swing bar: last hourly trade 89.64 and identical volume to 11/04, but 11/06 opened 90.69, which supports the close. Under 90 would make the count 3 with 11/06. €100 fired 10/28 (`HANS-F-007`), settle still disputed: 100.72 vendor vs 98.50 ICE table via Investing, **ICE official settle unread** (ice.com blocked).
+- 🔴 **GAS: PRICE EASED, STORAGE DID NOT.** TTF Dec (named Z26) **85.98** [11/06 vendor close, not an ICE Endex settle; TE CFD 86.79], from **90.68** [11/05] and **103.94** [10/30 close, 68 lots, the episode high]. Under €100 since 11/02. **EU storage 73.03%** [gas day 11/06, status E estimate], falling 0.36pp/d, gap **−16.56pp** to the 5-yr mean (median −21.38), back through the −15 orange line. Germany **59.70%** E [gas day 11/06]; 59.97% C [11/05]. The relief is reported as diplomacy hope (TE, attribution not established): price relief, not physical relief. Brent 117.64 [10/30] → ~97. IEA 11/03: lowest opening stocks since 2013; its sub-10% end-March case needs **both** cold weather **and** continued Hormuz disruption; withdrawals weaken below ~30% (via WALTER -013). Qatar force majeure reported to end-December.
+- 🔴 **`T-07` L3 OPEN, EXIT RULE NOW REGISTERED (WQ-636 A, Will 11/06).** Closes after **5 consecutive named-front closes under €90**, re-fires on a close over €100; contract named in the registry band cell (`TTFZ26.NYM`, then `TTFF27.NYM` after 11/27). ⚠️ No base rate computed, one episode only. **Clock: 1/5 on vendor bars.** 11/04 88.08 counted, 11/05 90.68 reset it, 11/06 85.98 counts (169 lots, equal to the 11:50 ET last trade). ⚠️ A vendor bar, not a settlement, and it may be replaced: 11/04's close sits 3.05 over its last trade; crossing 90 would need +4.02. TE 86.79, −4.29%, implies a prior of 90.68, matching the 11/05 bar, so the reset stands. Next count 11/09; earliest fifth close 11/12. €100 fired 10/28 (`HANS-F-007`), settle still disputed: 100.72 vendor vs 98.50 ICE table via Investing, **ICE official settle unread** (ice.com blocked).
 - 🔴 **`HNS-07` MISS: 74.57%** on gas day 11/01 vs ≥80.0 (AGSI status E; 5.43pp short). **KILL_TREE C-3 KILLED.** Successor `HNS-15`.
 - 🟠 **BOE HIKED TO 4.00% ON 11/05, 8–1 (Mann for 4.25), PRIMARY READ.** CPI seen ~4.5% in 2027 Q1, ~5% in Q2. Limited evidence of second-round effects, but the risk has risen further. **The look-through case is half dead:** it hiked with core unchanged at 2.8 (`T-17` 0.2 under watch). ⚠️ The projection used energy averaged to 10/27 (UK gas 216p/therm), before the TTF fall. Report body not read. Next due 12/17.
-- 🟢 **GILTS: NO ACCIDENT, AND THE LONG-END SUPPLY RISK WENT THE GOOD WAY.** 10Y **5.1497** / 30Y **5.601** [TE 11/06 intraday], ~35bp / ~40bp under `T-06` / `T-13`. **DMO remit 10/28 (PRIMARY): long conventional sales CUT £7.7bn to £15.5bn (6.2% of £250.6bn gross);** the extra went to shorts and mediums. 2056 auction 11/10; long tender proposed 11/19. ⚠️ `T-13` is a watch, not an LDI break point (buffers sized for 250bp). OBR itself not read.
+- 🟢 **GILTS: NO ACCIDENT, AND THE LONG-END SUPPLY RISK WENT THE GOOD WAY.** 10Y **5.1559** / 30Y **5.614** [TE 11/06 late read], ~34bp / ~39bp under `T-06` / `T-13`. **DMO remit 10/28 (PRIMARY): long conventional sales CUT £7.7bn to £15.5bn (6.2% of £250.6bn gross);** the extra went to shorts and mediums. 2056 auction 11/10; long tender proposed 11/19. ⚠️ `T-13` is a watch, not an LDI break point (buffers sized for 250bp). OBR itself not read.
 - 🟠 **FRANCE: STILL OPEN, AND THE ECONOMY HAS TURNED.** OAT–Bund **153.9bp** / OAT 4.76 / Bund 3.22 [i-i 11/06, +5.7 d/d]; peak 174.6 [10/22]; `T-10` OPEN, exit 0/5. **Oct composite PMI 46.6 FINAL, revised sharply down from flash 48.4;** Q3 GDP **−0.1** (both TE, secondary). Italy is not following: BTP–Bund ~109.3. Moody's Aa3 negative (10/23). Next: budget vote ~11/17–18 (secondary), S&P 11/27 (my memo; ⚠️ date unconfirmed by 11/06 search). 2027 cliff unchanged. Dollar-funding transmission UNMEASURED.
 - 🟠 **EA INFLATION:** Oct flash **4.0** (3.8), core **2.5e** unchanged, energy 20.8e, services 3.3e (Eurostat PRIMARY). `T-16` 1 of 2; **only the 11/18 FINAL can complete it.** ECB 2.50, held 10/29, next 12/17. Nagel: December hike very likely (Newsquawk). Lagarde: data will tell (headline). Lagarde steps down 7 Feb 2027. ~87% December pricing is a 10/20 secondary, stale after the Brent fall.
 - 🟢 **GERMANY:** Oct FINAL mfg **54.2** (unrevised), composite **53.4** (flash 52.8), services 52.5; but new business slowed sharply, employment fell, input prices highest since May (S&P via TE; primary 403). Q3 GDP +0.2. Sept IP +0.7 m/m (autos +17.1, machinery −6.5), orders +4.4. `T-02` OPEN. ⚠️ **Drivers are defence, data centres and inventory, not organic demand.**
@@ -25,10 +25,10 @@
 
 | Metric | Latest | Ladder / band | Source ✓ |
 |---|---|---|---|
-| **TTF front-month** | **€90.68** on named **`TTFZ26`** [11/05 close]; 85.22 intraday 11/06; F27 87.14 | **L3 (€100) OPEN, exit clock 0/5 confirmed** (`HANS-F-007`); L1+L2 open | own pull ✓ 11/06 |
-| **EU storage gap to 5-yr norm** | **−16.02pp** (mean) / **−21.25pp** (median) | 🟠 **`HANS-F-004` OPEN**; exit >−12 ×5, clock **0/5** | **AGSI+ single-source** ✓ gas day 11/04 |
-| EU storage fill | **73.75%** — gas day 2026-11-04 (trend −0.32pp/d) | not the binding metric | **AGSI+ primary** ✓ |
-| Germany fill | **60.25%** — gas day 2026-11-04 | `HNS-15` | **AGSI+ primary** ✓ |
+| **TTF front-month** | **€85.98** on named **`TTFZ26`** [11/06 vendor close, not a settlement]; TE CFD 86.79; F27 85.80 | **L3 (€100) OPEN, exit clock 1/5** (`HANS-F-007`); L1+L2 open | own pull ✓ 11/06 |
+| **EU storage gap to 5-yr norm** | **−16.56pp** (mean) / **−21.38pp** (median) | 🟠 **`HANS-F-004` OPEN**; exit >−12 ×5, clock **0/5** | **AGSI+ single-source** ✓ gas day 11/06, status E |
+| EU storage fill | **73.03%** — gas day 2026-11-06, status E (trend −0.36pp/d) | not the binding metric | **AGSI+ primary** ✓ |
+| Germany fill | **59.70%** E — gas day 2026-11-06; 59.97% C [11/05] | `HNS-15` | **AGSI+ primary** ✓ |
 
 📄 **Winter read 10/29 → `research/2026-10-29_TTF_100_WINTER_READ.md`:** EU end-winter 12.6–37.7% on past drawdowns; Germany 29% to dry (crude templates). Weather lean MILD (C3S, secondary); tail = Jan/Feb cold. No utility cash stress visible.
 **Structural:** Hormuz disrupted since March · **LNG cannot be STS-transferred through Hormuz the way crude can.** ⚠️ **EU gas and US crude share Hormuz — ONE WITNESS, TWO READOUTS** (`FLOW-HANS-8`). **EU Russian-LNG long-term ban bites 2027-01-01.** Russian-gas escrow proposal (WSJ 11/02) is a proposal: not agreement, waiver or flow.
@@ -50,21 +50,21 @@
 
 🔴 **FIVE REFUTATIONS OF MY BELOW-CONSENSUS GROWTH LEG (Sept) — the leg is wrong and the ISM-weakness transmission it fed is dead.** → `KB-HANS-067`
 
-## SOVEREIGN / FX BOARD — LEVELS 2026-11-06. ⚠️ **`T-10` graded on i-i (`/en/markets/oat-bund-spread.html`); TE rows are cross-checks and intraday.**
+## SOVEREIGN / FX BOARD — LEVELS 2026-11-06 CLOSE PASS. ⚠️ **`T-10` graded on i-i (`/en/markets/oat-bund-spread.html`); TE rows are late reads, not official closes.**
 
 | Metric | Level | Band | Source ✓ |
 |---|---|---|---|
-| German 10Y Bund | **3.2499** (TE 11/06); i-i 3.22; ECB AAA 3.294 [11/05] | **>3.00 watch ✅FIRED** / >3.75 orange — 50bp away · `HNS-08` buffer ~75bp | TE ✓ · ECB ✓ |
+| German 10Y Bund | **3.2521** (TE 11/06 late read); i-i 3.22; ECB AAA 3.294 [11/05], 11/06 unpublished | **>3.00 watch ✅FIRED** / >3.75 orange — 50bp away · `HNS-08` buffer ~75bp | TE ✓ · ECB ✓ |
 | France 10Y OAT | **4.76** (i-i 11/06); peak 5.13 [10/22] | >4.50 level leg ✅ MET, +26bp | i-i ✓ |
 | OAT–Bund spread | **153.9bp** (i-i 11/06); peak 174.6 [10/22] | >100 ✅ MET, **`T-10` OPEN**; exit <90 AND OAT <4.40 ×5 — **0/5** | i-i ✓ |
-| Italy 10Y BTP | **4.343** (TE 11/06) | >5.50 level leg — 116bp under | TE ✓ |
-| BTP–Bund spread | **~109.3bp** (TE-derived 11/06) | >200 — 91bp under | TE ✓ |
-| UK 10Y gilt | **5.1497** (TE 11/06 intraday); BoE par 5.1364 [11/04] | >5.50 orange — ~35bp under | TE ✓ · IADB ✓ |
-| **UK 30Y gilt** | **5.601** (TE 11/06 intraday); BoE 20y par 5.4488 [11/04] = proxy, never T-13 | **>6.00 orange — ~40bp under** | TE ✓ |
-| UK–US 10Y | **29.3bp** (5.1497 − ^TNX 4.857 [11/06]) | — | TE + Yahoo |
+| Italy 10Y BTP | **4.3503** (TE 11/06 late read) | >5.50 level leg — 115bp under | TE ✓ |
+| BTP–Bund spread | **~109.8bp** (TE-derived 11/06) | >200 — 90bp under | TE ✓ |
+| UK 10Y gilt | **5.1559** (TE 11/06 late read); BoE par 5.1364 [11/04], 11/05 unpublished | >5.50 orange — ~34bp under | TE ✓ · IADB ✓ |
+| **UK 30Y gilt** | **5.614** (TE 11/06 late read); BoE 20y par 5.4488 [11/04] = proxy, never T-13 | **>6.00 orange — ~39bp under** | TE ✓ |
+| UK–US 10Y | **29.7bp** (5.1559 − ^TNX 4.859 [11/06]) | — | TE + Yahoo |
 | Spain–Germany 10Y | ECB monthly **45.4** [Sept] governs; TE cross-check ~58.6bp [11/06] | 80 Yellow | ECB ✓ · TE |
 | BoE Bank Rate | **4.00%** [11/05] — next due 12/17 | — | BoE ✓ primary |
-| EUR/USD · DXY · GBP/USD | **1.1156 · 102.21 · 1.3366** | <1.05 watch far away | Yahoo ✓ 11/06 |
+| EUR/USD · DXY · GBP/USD | **1.1143 · 102.28 · 1.3356** | <1.05 watch far away | Yahoo ✓ 11/06 |
 
 **Open fires: 5 of 17 thresholds (6 OPEN fire rows: `T-07` carries L2 + L3) — `T-02` · `T-05` · `T-07` · `T-08` · `T-10`.** 🔴 **`T-12` (EUR/USD 3M basis) UNINSTRUMENTED — cannot fire, excluded from any clean-board count.** A clean scan of the 6 daily-scannable rows does not clear the 17.
 
@@ -102,7 +102,7 @@
 
 ---
 
-## 📬 INBOX / CROSS-AGENT FLAGS — **inbox CLEAR 2026-11-06** (6 peer packets + 29 WALTER cards + WQ-636 packet, dispositions in `board_log.tsv`). 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
+## 📬 INBOX / CROSS-AGENT FLAGS — **inbox CLEAR 2026-11-06** (6 peer packets + 30 WALTER cards + WQ-636 packet, dispositions in `board_log.tsv`). 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
 **Combination themes (WQ-622), `combo:` in KB Notes:** `european-credit-funding` · `uk-cost-squeeze` · `europe-operational-disruption` · `europe-gas-politics` · `france-growth-fiscal` (`KB-179`–`183`). ⚠️ Charter line NOT added: see owed #36.
 
 ## NEXT SESSION — WHAT IS OWED
@@ -125,7 +125,7 @@
 
 ## TWO-SENTENCE SUMMARY
 
-**11/06:** Gas prices have fallen hard but storage has not: TTF is back near €85–90 from a €103.94 close on 10/30, EU storage is 73.75% and falling, my 80% call missed at 74.57%, and I now forecast a German end-winter test instead. The UK took a Bank of England hike without a gilt accident, helped by a £7.7bn cut to long-gilt sales, while France's economy has turned down (PMI 46.6, GDP −0.1) with its spread still at 153.9bp and Italy not following.
+**11/06:** Gas prices have fallen hard but storage has not: TTF is back near €86 from a €103.94 close on 10/30, EU storage is 73.03% [estimate, gas day 11/06] and falling, my 80% call missed at 74.57%, and I now forecast a German end-winter test instead. The UK took a Bank of England hike without a gilt accident, helped by a £7.7bn cut to long-gilt sales, while France's economy has turned down (PMI 46.6, GDP −0.1) with its spread still at 153.9bp and Italy not following.
 
 ---
 *Archives → `workbook/`. Falsification → `thesis/KILL_TREE.md`. Flags → `DISPATCH_LOG.md`. Bands → `registry/`.*

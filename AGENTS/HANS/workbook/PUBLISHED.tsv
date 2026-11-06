@@ -168,3 +168,13 @@ EU_STORAGE_FILL_PCT	73.75	2026-11-06	CURRENT - gas day 2026-11-04, AGSI+ primary
 EU_STORAGE_GAP_TO_5YR_NORM_PP	-16.02	2026-11-06	CURRENT - asof = pull date; figure REFERS TO gas day 2026-11-04. Median basis -21.25. Supersedes -14.64.	VX-HANS-8.07
 EA_FLASH_HICP_YOY_PCT	4.0	2026-11-04	CURRENT - Eurostat Oct flash, PRIMARY. FLASH: successor Oct FINAL 11/18. Supersedes 3.8 [Sept final].	VX-HANS-4.10
 FED_ECB_DEPOSIT_DIFFERENTIAL_BP	137.5	2026-11-06	CURRENT - no decision since 10/29, same value. ECB next 12/17.	VX-HANS-4.01
+EURUSD	1.1143	2026-11-06	CURRENT - Yahoo 11/06 daily bar. Supersedes 1.1156 [11/06 earlier read].	VX-HANS-2.01
+ITALY_GERMANY_10Y_SPREAD_BP	109.8	2026-11-06	CURRENT - TE-derived late read. Supersedes 109.3 [11/06 earlier read].	VX-HANS-3.01
+UK_GILT_UST_10Y_SPREAD_BP	29.7	2026-11-06	CURRENT - 5.1559 minus ^TNX 4.859. Supersedes 29.3 [11/06 earlier read].	VX-HANS-3.04
+GERMAN_10Y_BUND_PCT	3.2521	2026-11-06	CURRENT - TE 11/06 late read; i-i 3.22. Supersedes 3.2499 [11/06 intraday].	VX-HANS-3.05
+UK_10Y_GILT_PCT	5.1559	2026-11-06	CURRENT - TE 11/06 late read. ~34bp under T-06. Supersedes 5.1497 [11/06 intraday].	VX-HANS-3.06
+UK_30Y_GILT_PCT	5.614	2026-11-06	CURRENT - TE 11/06 late read. ~39bp under T-13. Supersedes 5.601 [11/06 intraday].	VX-HANS-3.08
+ITALY_10Y_BTP_PCT	4.3503	2026-11-06	CURRENT - TE 11/06 late read. Supersedes 4.343 [11/06 earlier read].	VX-HANS-3.09
+TTF_FRONT_MONTH_EUR_MWH	85.98	2026-11-06	CURRENT - NAMED TTFZ26.NYM 11/06 vendor close, not an ICE Endex settle; TE CFD 86.79. L3 exit clock 1/5. Supersedes 90.68 [11/05].	VX-HANS-8.01
+EU_STORAGE_FILL_PCT	73.03	2026-11-06	CURRENT - gas day 2026-11-06, AGSI+ primary, status E (estimate). Supersedes 73.75 [gas day 11/04, since revised to 73.74].	VX-HANS-8.02
+EU_STORAGE_GAP_TO_5YR_NORM_PP	-16.56	2026-11-06	CURRENT - asof = pull date; figure REFERS TO gas day 2026-11-06, status E. Median basis -21.38. Supersedes -16.02 [gas day 11/04].	VX-HANS-8.07

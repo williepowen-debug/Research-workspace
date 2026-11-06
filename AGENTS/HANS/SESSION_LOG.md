@@ -256,3 +256,10 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 
 - 031: Bloomberg unread, Investing.com relay read (labelled AI-assisted, editor reviewed), own search found no ECB statement. No row applies; T-14 not fired. The relay adds "ECB declined to comment", which the card did not carry.
 - 033: only the France diesel line is mine; logged on KB-173. Nothing else in the card touches the desk.
+
+## 2026-11-06 18:07 ET, hans-1106 addendum: boot and 11/06 close pass
+
+- Boot rc1 attention, 18:04 ET, Will's word via PROME. Not pulled: nothing incoming, foreign dirty tree. Memory tight, no background jobs, no subagents.
+- T-07: 11/06 bar 85.98 counts, clock 1/5, no band moved. TE's -4.29 percent on 86.79 implies a prior of 90.68, which settles my doubt about the 11/05 reset on a second vendor, not at ICE.
+- AGSI now publishes gas day 11/06 as status E before that gas day ends; figures carry the E. 11/04 revised 73.75 to 73.74.
+- Unread or unpublished: ICE settles, ECB AAA 11/06, BoE IADB 11/05 and 11/06, S&P PMI primaries. TE figures are late reads, not official closes.

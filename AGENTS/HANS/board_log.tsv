@@ -148,3 +148,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T16:35Z	SIG-W-20261106-025	acted	INBOX_WALTER	Flight bomb threats read at lane: no airline drag visible on 11/06, insurer fall unattributed; KB-181 updated; hoaxes so far, no market channel established
 2026-11-06T19:15Z	SIG-W-20261106-031	acted	INBOX_WALTER	ECB data-centre lending review read via relay, Bloomberg unread, ECB declined comment; no row applies, T-14 not fired, leg b fails on no named bank, no NBFI link, not a published warning; KB-179 and T-14 note
 2026-11-06T19:15Z	SIG-W-20261106-033	noted	INBOX_WALTER	INFO; France diesel 10M barrels official, 3.6M unconfirmed, KB-173 note; other lines not mine
+2026-11-06T23:07Z	SIG-W-20261106-046	acted	INBOX_WALTER	TTF line taken: own pull 85.98 confirmed, counts 1/5 on the T-07 L3 exit clock, vendor bar not a settlement; other lines not mine
