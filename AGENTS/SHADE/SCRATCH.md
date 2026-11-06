@@ -14,9 +14,11 @@
 5. BROCK's answer on the X1 reconcile; PROME carries it to Will. `T-SHADE-01` next eligible endpoint 11/6 close onward.
 6. Still owed by 11/20: declared-flat TRADE surface, ARI DEFM14A annex, SVO count. Guggenheim Universe lead waits on WALTER's document. WQ-422 Clear Spring documents are Will's hands; never chase.
 
-**Open unknowns that matter:** SVF II Finco = Vision Fund 2 NAV loan is INFERRED. $1.4B SoftBank-guaranteed loan = 14% of the $10B OpenAI-share margin loan is INFERRED from arithmetic. $1,749M vs $1.4B ($349M) and $845M vs $0.94B ($95M) unreconciled. O on the WHCO guarantee still unstated. Issuer's rate attribution of the mortgage loss is unaudited in the quarter. `2026 Asset Risk Stress Considerations` deck fetched, not read. Apollo 10-Q read only for the WHCO note.
+**Open unknowns that matter:** SVF II Finco = Vision Fund 2 NAV loan is INFERRED. $1.4B SoftBank-guaranteed loan = 14% of SoftBank's $10B loan is INFERRED from arithmetic (not an "OpenAI-share margin loan", card 041: cash collateral account, SoftBank Group guarantor, drawdown unconfirmed). $1,749M vs $1.4B ($349M) and $845M vs $0.94B ($95M) unreconciled. O on the WHCO guarantee still unstated. Issuer's rate attribution of the mortgage loss is unaudited in the quarter. `2026 Asset Risk Stress Considerations` deck fetched, not read. Apollo 10-Q read only for the WHCO note.
 
 **Closeout 2026-11-06T15:44:46-05:00:** PROME's ask received. BROCK's packet landed during the push and is taken in: X1 CONCUR, carried by PROME to Will; IREN Mackenzie has no insurer established as a holder (no-insurer finding logged under `ai-credit-in-wrapper`). Retirement scan run, 3 files archived.
+
+**Second closeout 2026-11-06T16:48:53-05:00:** Will's restart order via PROME, 16:46 ET. Card 041 landed after the first closeout and is taken in, COR-20261106-41 APPLIED, one loan label corrected, no Athene figure changed. Read 11/6 close for `T-SHADE-01` not done; next session starts there.
 
 **Raw sources** were in session scratch only; accession numbers and hashes are in the research record. Re-fetch from SEC and ir.athene.com.
 

@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Structural/latent insurer-wrapper stress; evidence remains partial.
 **Domain:** PE-owned insurer assets, statutory capital, reinsurance and funding transmission.
-**As of:** 2026-11-06T15:42:34-05:00 | **STATUS commit:** same commit as this fold (Q3 read, L185 legs, inbox 20→0, PROME assignment)
+**As of:** 2026-11-06T16:49:07-05:00 | **STATUS commit:** same commit as this fold (restart closeout: card 041 taken in on top of the Q3 read, L185 legs, PROME assignment). Card 041 relabels SoftBank's $10B loan, not an OpenAI-share margin loan; no Athene figure changed.
 **Fold:** LAST canonical write after the final STATUS write of this session (schema Amendment 10). No grade, score or threshold changed this session.
 
 | To | Signal | Priority | Mechanism / boundary |

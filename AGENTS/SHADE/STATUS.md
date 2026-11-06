@@ -1,6 +1,6 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-11-06T15:41:08-05:00 — PROME assignment, Claude Code/Opus 5.5: **Q3 evidence read, L185 legs worked, inbox 20→0, `T-SHADE-01` NOT MET at the 11/5 close, AI cards answered.** No score, band, gate or threshold moved. Prior: 10/29 L781 encode and first readings.
+**Last Updated:** 2026-11-06T16:48:53-05:00 — PROME assignment, Claude Code/Opus 5.5, restart closeout took in card 041: **Q3 evidence read, L185 legs worked, inbox 20→0, `T-SHADE-01` NOT MET at the 11/5 close, AI cards answered.** No score, band, gate or threshold moved. Prior: 10/29 L781 encode and first readings.
 **Prior sessions:** 10/21 L726/L727 proposals; 10/15 L673 first grade; 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
 **Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` NOT MET (read 11/6, endpoint 11/5 close):** 9/24→11/5 RAW wrappers +0.75% vs managers +4.25%, both up; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 348 [11/5] (LIQUID), environment band YELLOW, 2bp under RED. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
@@ -33,7 +33,7 @@
 | FHLB | **$29.9B drawn, $33.8B drawable, room $3.9B** (6/30 $6.1B) | K3.3 kill not fired, "near exhaustion" unrefuted, not confirmed |
 | Canary | **S1 ~$2.3B derived, S2 34.2%** | Ungraded, deck due at the 11/12 call. **C2: S2 leg fails, so the AND cannot pass; row executes at the deck** |
 | AI book | **$12.9B funded, ~3% (Athene); SVF II Finco $3,097M outside it (INFERRED); Big Sky commitments $6.2B** | No letter. Funded $16.0B = 3.8%; with commitments $22.2B = 5.2%, a ceiling |
-| SoftBank-linked | **$4,846M**, SVF II +$1,033M in Q3 | No letter. Vehicle identities INFERRED |
+| SoftBank-linked | **$4,846M**, SVF II +$1,033M in Q3 | No letter. Vehicle identities INFERRED. Card 041 11/6: the $10B loan is not an "OpenAI-share margin loan"; these figures unchanged |
 | Apollo GAAP loss | $3,274M of Athene's $3,418M is mortgage and derivative marks; provision $82M | Accounting and rates on issuer attribution. ⚠️ **90+/non-accrual principal $1,818M → $3,453M, +89.9% YTD** |
 
 **Also:** AAIA Key Ratio #1 (1,635.7%, FY25) recorded **CRITICAL BY LETTER**, no score tied, no rescore · X1 reconcile: BROCK CONCUR 11/6, keep two named tests, PROME carries to Will · BMA holds FY2025 statements for ALRe, AARe, ALReI and each ACRA vehicle, unread · Delaware Life ladder unchanged, sale exploration attributed only, Q3 not posted · cyber: no change.

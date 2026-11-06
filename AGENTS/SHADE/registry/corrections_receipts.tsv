@@ -9,3 +9,4 @@ receipt_date	correction_id	action	note
 2026-11-06T20:38Z	COR-20261105-39	NO-OP	scope=No SHADE surface carried the 27-versus-20 comparison (grep 2026-11-06), Fitch figures are BROCK's; 
 2026-11-06T20:38Z	COR-20261105-52	NO-OP	scope=No SHADE surface carried card 030's Arkea wording (grep 2026-11-06), today's record uses the corrected provider route, CYPHER owns the incident; 
 2026-11-06T20:38Z	COR-20261106-15	NO-OP	scope=Capcom appears on no SHADE surface, no financial channel, CYPHER owns CYB-INC-030; 
+2026-11-06T21:48Z	COR-20261106-41	APPLIED	artifact=AGENTS/SHADE/research/L185_Q3_INSURER_READ_2026-11-06.md#softbank-direct-link; validation_ref=BOARD/SIG-W-20261106-041-CORRECTION-SoftBank-leverage-22-to-24-percent-bridge-repaid-ABB-prohibition-is-China-business-only.md#10B-loan; Loan label corrected in record and SCRATCH, no Athene figure changed, filed receipts corrected by the closeout packet
