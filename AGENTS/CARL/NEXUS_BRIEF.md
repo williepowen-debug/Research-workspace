@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-06 16:48 ET | STATUS commit: `5d49f4905`
+**As of:** 2026-11-06 18:12 ET | STATUS commit: `55793ec55`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -40,9 +40,10 @@
 ## VIEW
 
 - 11/06 catch-up: October payrolls firm, V16 1 of 2 toward 3, a hiring read, not a layoffs read. V2 September 0/4 deep, 0/3 broad, verified at SEC. SLOOS: banks more likely to approve prime card applicants, less likely subprime, small banks driving it (text only). Q3 platforms and Dave show no break among gig and small-dollar users; driver supply not read.
+- 11/06 close: Michigan November preliminary 51.0 vs 48.0, year-ahead 4.3%, long-run 3.4%; lower wealth up, largest stock portfolios −5%, one month against the K-shape, interviews ended 11/02. G.19 September revolving +14.5% after −4.4%, mostly rebound, no delinquency read; Q3 nonrevolving pickup is credit unions, finance companies and auto. Manheim 206.8, YoY mostly a low base.
 - Concentrated strain persists; broad collapse is still not established. October Conference Board rebounded across the present-situation and expectations indexes. Its six-month average rises only for under-35 and $100K+ households, and write-ins on prices, groceries and diesel rose. These are attitudes, not outlays.
-- Fuel channels diverge: regular gasoline is easing slowly while diesel rose for a third week (freight-cost context; no household pass-through coefficient).
-- Corporate credit quality is splitting (CCC−B 999bp vs 962 on 10/16) while broad HY tightens. RED/REGINALD own the thresholds; CARL's L708 found consumer-facing B/CCC names did not lead.
+- Fuel: EIA regular $4.153 and diesel $6.292 both fell at 11/02, diesel after three rises; distillate stocks 99.3M bbl w/e 10/30, cover 23.8 days, the lowest late-October since 1991 (freight-cost context; no household pass-through coefficient).
+- Corporate credit: 11/05 HY 348bp (318 on 10/27) with CCC−B narrowing to 953bp from 999, reversing the 10/27 split; three sessions, one shock. RED/REGINALD own the thresholds; CARL's L708 found consumer-facing B/CCC names did not lead.
 - Single-name items (True Food Ch.11, JetBlue fuel-driven loss, Carvana unit growth) are context, not breadth evidence.
 - Registered score stays 53/70. Next aggregate reads: October CPI 11/10, BEA income and outlays 11/25.
 
@@ -67,6 +68,7 @@
 |---|---|---|
 | 11/25 08:30 ET | October PCE / income (CRL-32 leg 1) | Letter research/2026-10-29_WQ537/LETTER.md; Z.1/DFA cohort read 12/10; final grade 12/23 |
 | 11/10 08:30 ET; 11:00 ET | October CPI; Q3 HHDC | CRL-10 unchanged; CRL-33, CRL-30 first grade, shadow grade |
+| 11/20 10:00 ET | Michigan November final | First interviews after the election and selloff; long-run <3.0% is V12's trigger |
 | 11/30 | EART October 10-Ds | V2 tier read |
 | 12/04 | November payrolls | V16 print 2 of 2 |
 | 12/09 | FOMC | V12 un-fire count |
