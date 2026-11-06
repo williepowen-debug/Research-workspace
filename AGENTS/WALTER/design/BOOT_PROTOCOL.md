@@ -144,7 +144,7 @@ Findings should live in the highest-leverage layer they apply to, not all three.
 
 ## §16 — git commit + push
 
-Current mechanics are canonical in WALTER `CLAUDE.md` step16, `design/BOARD_CONSUMPTION_SPEC.md` §7 (WALTER’s stricter push authority), and root `CLAUDE.md` Git Protocol (exact-path commits and bounded non-ff recovery). Travel those pointers; this rationale section does not carry a second recovery recipe. A non-ff describes the commit graph and can arise from concurrent sessions on one machine. WALTER’s foreign-work push deferral remains binding; root’s before-pull protection is not a universal ban on ordinary pushes by other desks.
+Current mechanics are canonical in WALTER `CLAUDE.md` step16, `design/BOARD_CONSUMPTION_SPEC.md` §7 (WALTER’s push authority), and root `CLAUDE.md` Git Protocol (exact-path commits and bounded non-ff recovery). Travel those pointers; this rationale section does not carry a second recovery recipe. A non-ff describes the commit graph and can arise from concurrent sessions on one machine. WALTER’s foreign-work push deferral was dropped by Will November 6, 2026; root’s before-pull protection is not a ban on ordinary pushes by any desk.
 
 Historical lesson: pathspec commits replaced the global unstage/add flow because the index is shared. The October12 repair removes the obsolete automatic-push/second-machine explanation; it changes no push grant or ownership boundary.
 

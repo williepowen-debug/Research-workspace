@@ -23,7 +23,7 @@ November 5 total: 67 BOARD cards, 261 handoffs. November 6 total to close: 42 ca
 
 ## CHANGED
 
-November 6 afternoon: cards 029–042 including corrections 034–037, 041, 042; COR-20261106-35, -36, -37, -41, -42 added, -27 and -34 direction fixed; §3.6 banners added to 20261023-045, 018, 023, 029, 030, 033, 036, 003, 040, 037; packets from LIQUID twice, OTTO, SHADE and SAM consumed; 25 REGISTRY rows refreshed; STATUS rotated verbatim. Earlier: November 6 boot: cards 001–028; COR-20261106-27; bookmark batch BM-20261106-02 closed 11 of 11 and marked; COR-20261106-20; Iran anchor bounded note, sweep clock unchanged; COR-20261106-15; batch BM-20261106-01 closed 30 of 30 and bookmarks marked; ten packets consumed (LABOR, HENRY, LIQUID, BROCK twice, CYPHER, VIOLET, FALCON, CORAL, HANS); REGISTRY rows refreshed. X scan worked at 14:59Z with no re-authorization by this session. Earlier: Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; 065 (correction of 007, 056, 058 on BRENT's packet), 066 and 067 (OTTO packets); ADD#26 Yanbu date line and anchor note added; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+November 6, 17:01 ET, Will's word: WALTER's foreign-dirty push hold dropped. BOARD_CONSUMPTION_SPEC v0.37; WALTER pushes at closeout like other desks; root's pull and non-ff protections unchanged. November 6 afternoon: cards 029–042 including corrections 034–037, 041, 042; COR-20261106-35, -36, -37, -41, -42 added, -27 and -34 direction fixed; §3.6 banners added to 20261023-045, 018, 023, 029, 030, 033, 036, 003, 040, 037; packets from LIQUID twice, OTTO, SHADE and SAM consumed; 25 REGISTRY rows refreshed; STATUS rotated verbatim. Earlier: November 6 boot: cards 001–028; COR-20261106-27; bookmark batch BM-20261106-02 closed 11 of 11 and marked; COR-20261106-20; Iran anchor bounded note, sweep clock unchanged; COR-20261106-15; batch BM-20261106-01 closed 30 of 30 and bookmarks marked; ten packets consumed (LABOR, HENRY, LIQUID, BROCK twice, CYPHER, VIOLET, FALCON, CORAL, HANS); REGISTRY rows refreshed. X scan worked at 14:59Z with no re-authorization by this session. Earlier: Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; 065 (correction of 007, 056, 058 on BRENT's packet), 066 and 067 (OTTO packets); ADD#26 Yanbu date line and anchor note added; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
@@ -100,7 +100,7 @@ FULL closeout on Will's reboot word. Operational coverage PARTIAL. Publication i
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-06T21:53:09Z",
+  "as_of": "2026-11-06T22:02:31Z",
   "next_review": "2026-11-09",
   "publication": [
     {
@@ -207,6 +207,16 @@ FULL closeout on Will's reboot word. Operational coverage PARTIAL. Publication i
       "commit": "832126b95ba335f427341ce77477a31593e9674d",
       "state": "published",
       "note": "Card 042, LIQUID packet."
+    },
+    {
+      "commit": "ef1de5313a2cf34e807a980fd4970f143d911d9d",
+      "state": "published",
+      "note": "Full closeout records. Reached origin on another desk's push."
+    },
+    {
+      "commit": "a463be0dd4a393365dde7f1dd2401f34bfd7764a",
+      "state": "published",
+      "note": "PROME closeout packet, NEXUS notice. Reached origin on another desk's push."
     }
   ],
   "delivery": {
@@ -247,7 +257,7 @@ FULL closeout on Will's reboot word. Operational coverage PARTIAL. Publication i
     "14": "MEMORY #65, #66, session notes.",
     "root.retirement": "No sweep run; start-no-new-work order; carried to next full closeout.",
     "15": "Resume list rewritten, close pass, Oracle DTCC and HY cell at top. Calendar cutoff unchanged, step 7i did not re-run.",
-    "16": "Exact paths. Push outcome in the final report and PROME packet.",
+    "16": "Exact paths. Earlier commits reached origin on other desks' pushes; spec v0.37 and this receipt pushed by WALTER on Will's word.",
     "checks": "research/2026-11-06_close/closeout/checks.json. Doctor MED carried: 2 unconsumed items, DEWEY 003R parked.",
     "Tier1": "November 6 closes not certified; handed to the reboot."
   }

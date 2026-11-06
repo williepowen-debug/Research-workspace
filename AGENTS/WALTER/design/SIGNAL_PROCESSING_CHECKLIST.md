@@ -502,7 +502,7 @@ For each recipient on the routing line (action + each info):
 
 **Delivered — single-machine (BOARD_CONSUMPTION_SPEC §3.3, v0.6):**
 - **Every recipient is a CC session** (OpenClaw cut 2026-06-26): delivered = handoff committed **AND** pushed/on-origin. Written-but-unpushed is NOT delivered.
-- **FLASH/IMMEDIATE:** if sync is pending, alert Will in the active session and retain durable BOARD/handoff/log records; never claim unattended notification or delivery from that alert; WALTER may run the §3.4 clean-tree scoped-push via the `safe-push.sh` ff-gate (0g). **PRIORITY/ROUTINE:** commit local, mark `written_not_delivered_pending_push`, surface in `walter_doctor` + closeout until a sync window (or push-train) pushes it.
+- **FLASH/IMMEDIATE:** if sync is pending, alert Will in the active session and retain durable BOARD/handoff/log records; never claim unattended notification or delivery from that alert; WALTER may run the §3.4 scoped-push via the `safe-push.sh` ff-gate (0g). **PRIORITY/ROUTINE:** commit local, mark `written_not_delivered_pending_push`, surface in `walter_doctor` + closeout until closeout, a sync window or the push-train pushes it.
 
 > **Recipient exemptions and TERRY:** execute current `BOARD_CONSUMPTION_SPEC.md` §§3.5.5/3.5.8 and charter RULE10. TERRY reverted to BOARD ID-diff on August26; its September14 ruling preserves that choice. The former T-1/T-2/T-3 gate is historical, not a current prohibition on INFO. CARL/RED ACTION handoffs still deliver; PROME is INFO-only with the defined fail-safe. Restore TERRY delivery only on its named third-party missed-ACTION/false-read falsifier, not on backlog age.
 

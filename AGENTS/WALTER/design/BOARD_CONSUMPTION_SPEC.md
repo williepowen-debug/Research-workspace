@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.36
+**Version:** v0.37
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 
@@ -84,10 +84,10 @@ Runtime and provider discovery follow root `CLAUDE.md` and `PROME/COMPLETION_SPE
 
 ### 3.4 Push handling by precedence
 
-Push is **not** automatic blanket WALTER authority (see §7). The one standing auto-push authorization:
+Push is **not** automatic blanket WALTER authority (see §7). The two standing push authorizations are closeout (§7) and:
 
-- **FLASH / IMMEDIATE:** WALTER may perform a **clean-tree scoped commit + push via `scripts/safe-push.sh`** (the ff-gated helper) — *only if* there is no unrelated/uncommitted work in the shared tree and no unsafe rebase condition (0g, Will-ratified 2026-06-26). Git pushes **commits, not files**, so this is: *commit only the exact WALTER / BOARD / recipient-handoff paths, verify the tree is clean/safe, `pull --rebase` if behind, push via the ff-gate, never force* — NOT "push specific files." This is the **only** standing auto-push authorization; all other pushes stay Will-coordinated.
-- **PRIORITY / ROUTINE:** write + commit locally, mark `written_not_delivered_pending_push`, and surface in `walter_doctor` + closeout until a Will sync window (or the next push-train) pushes it.
+- **FLASH / IMMEDIATE:** WALTER may perform a **scoped commit + push via `scripts/safe-push.sh`** (the ff-gated helper) (0g, Will-ratified 2026-06-26). Another desk's uncommitted work does not hold the push (Will, November 6, 2026): a push sends commits and never touches the working tree. Git pushes **commits, not files**, so this is: *commit only the exact WALTER / BOARD / recipient-handoff paths, push via the ff-gate, on a non-ff run root's full recovery including its dirty-path overlap check, never force* — NOT "push specific files." Mid-session pushes of other precedences stay Will-coordinated.
+- **PRIORITY / ROUTINE:** write + commit locally, mark `written_not_delivered_pending_push`, and surface in `walter_doctor` + closeout until closeout, a Will sync window or the next push-train pushes it.
 
 ---
 
@@ -510,7 +510,7 @@ For each non-`processed/` handoff file: derive push/origin state **read-only fro
 
 ## 7. Sync & push authority
 
-WALTER commits locally; **pushing is Will-coordinated** (a Will-opened window or the push-train; root CLAUDE.md + auto-memory `[[feedback_defer_push_coordinate]]`). The single standing exception is the §3.4 FLASH/IMMEDIATE clean-tree scoped-push via the `safe-push.sh` ff-gate — **WALTER-self-authorized on a verified-clean tree** (0g, Will-ratified 2026-06-26; PROME is no longer an always-on push agent).
+WALTER commits locally and **pushes at every closeout** via the `safe-push.sh` ff-gate, as other desks do (root CLAUDE.md + auto-memory `[[feedback_defer_push_coordinate]]`). The other standing push is the §3.4 FLASH/IMMEDIATE scoped-push (0g, Will-ratified 2026-06-26; PROME is no longer an always-on push agent). Mid-session pushes of other precedences stay Will-coordinated (a Will-opened window or the push-train). **Foreign uncommitted work holds no WALTER push (Will, November 6, 2026, 17:01 ET).** Root's dirty-tree protections on pulls and non-ff recovery are unchanged.
 
 ---
 
@@ -655,6 +655,8 @@ Auto-memory `[[project_messaging_overhaul]]` ("don't patch inbox/outbox/HERMES h
 ---
 
 ## Version History
+
+- **v0.37 — November 6, 2026:** Will's word 17:01 ET: drop the foreign-dirty hold on WALTER pushes. §3.4 and §7 no longer need a clean tree; WALTER pushes at closeout like other desks. Dependents: charter step 16, CHECKLIST Phase 3.5 wording, BOOT_PROTOCOL §16, MEMORY #50. No delivery-proof, exemption, correction or ledger-enum change.
 
 - **v0.36 — October 31, 2026:** reconcile operative transport/runtime wording with root October 5 runtime rules and Will’s October 27 Telegram retirement. No delivery-proof, exemption, correction, push-authority or ledger-enum change.
 
