@@ -76,3 +76,7 @@ receipt_date	correction_id	action	note
 2026-11-06T12:20Z	COR-20261105-65	NO-OP	scope=HEARTBEAT.md; 
 2026-11-06T17:50Z	COR-20261106-20	NO-OP	scope=PROME surfaces searched 2026-11-06 12:5x ET excluding archive and processed: no citation of card 018 date or status, nothing to correct, FALCON reports no mark moved; 
 2026-11-06T17:50Z	COR-20261106-27	NO-OP	scope=PROME surfaces searched 2026-11-06 12:5x ET excluding archive and processed: no citation of card 023 benign-only framing, nothing to correct, cause stays NOT ESTABLISHED at FALCON; 
+2026-11-06T21:29Z	COR-20261106-34	APPLIED	artifact=PROME/themes/ellison/reports/2026-11-06_funding-loop-synthesis.md#Microsoft; validation_ref=NONE; 
+2026-11-06T21:29Z	COR-20261106-37	APPLIED	artifact=PROME/themes/ellison/reports/2026-11-06_funding-loop-synthesis.md#Oracle CDS; validation_ref=NONE; 
+2026-11-06T21:29Z	COR-20261106-41	APPLIED	artifact=PROME/themes/ellison/reports/2026-11-06_funding-loop-synthesis.md#SoftBank; validation_ref=NONE; 
+2026-11-06T21:29Z	COR-20261106-36	NO-OP	scope=superseded the same day by COR-20261106-41, PROME synthesis carries the 22 to 24 percent line and never 21.5; 
