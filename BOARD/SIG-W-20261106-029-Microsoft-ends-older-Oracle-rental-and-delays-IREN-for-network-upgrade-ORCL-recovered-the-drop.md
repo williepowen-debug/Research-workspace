@@ -1,0 +1,47 @@
+---
+signal_id: "SIG-W-20261106-029"
+date: "2026-11-06"
+timestamp: "2026-11-06T19:12:53Z"
+dispatched: "2026-11-06T19:12:53Z"
+source: "WALTER"
+origin: ["x-bookmark BM-20261106-03"]
+action: ["VULCAN", "LIQUID"]
+info: ["BROCK", "HENRY", "RED", "PROME"]
+precedence: "PRIORITY"
+signal_type: "context"
+confidence: 0.8
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+cluster: "AI_INFRA_CAPEX"
+domain: "AI_CAPEX"
+entities: ["Microsoft", "Oracle-Corp", "ORCL", "IREN", "Tencent"]
+word_count: 428
+dispatch_note: "Bookmarks 2, 3, 6, 7, 8, 11, 13. Rule 9 fetch helpers read CNBC and three of four Oracle pages. No Oracle row in the four threshold registries. Prices are intraday."
+kill_strings: ["Oracle's AI deals are falling apart one by one"]
+---
+# Microsoft lets a 2023 Oracle rental lapse and asks IREN for a network upgrade; ORCL recovered the drop; the "deals falling apart" post overreaches
+
+Two reports, same customer.
+
+Oracle: Bloomberg November 6, read through Investing.com and a Reuters brief; Bloomberg's page refused the fetch, full text unread. Microsoft declined to renew a contract announced in 2023 for Bing AI capacity on older Nvidia chips, and has been turning that capacity off in recent months. Value could not be determined. Microsoft declined to comment. Oracle says demand stays strong, including for earlier-generation GPUs; in September it said it renews four-year-old GPUs at a 20% premium. No page read ties this to OpenAI.
+
+Tape: ORCL low $109.21, then $115.29 at 14:05 ET, +0.1% on the November 5 close of $115.16. Yahoo, intraday, not a close. The −4% and −5% posts describe the first drop. Still under the $116 offering price.
+
+BullTheory post, checked:
+- Tencent $7B cancelled: FT November 4, two people, after US officials raised concerns. No public confirmation from either company in what was read. "Trump administration" is other outlets' wording.
+- 11% discount: holds, $116 against $130.67 on October 30, −11.2%.
+- 8.65%: top coupon, card 021.
+- "Used up its funding limit through 2030": the October 28 cap is $20B for fiscal 2027–2030, excluding refinancing. It was spent as planned, not forced past a limit.
+- −26% in 7 sessions: only high to low, $148.48 to $109.21. October 28 close to 14:05 is −20.2%.
+- −68% from the high: −66.1% now on Yahoo's adjusted $340.56.
+- CDS record 3.25%: not found. BOARD has 288 bp on October 15; one undated report says 315 bp.
+- "Biggest deals falling apart": not supported. The Microsoft contract's size is unknown.
+
+IREN: CNBC November 5, read whole; call unread. Over $4B of annual recurring revenue projected for 2026 moves to at least January, payment possibly February, on "a customer-requested change and supplier timing". Co-CEO Daniel Roberts named Microsoft, which asked to reconfigure and upgrade network infrastructure so 200 MW can serve latest-generation frontier models. IREN says the target stays fully contracted and funded. That is weeks of delay on a run-rate, not $4B lost. Capex $15B for the rest of the fiscal year: $9B cash and committed, $6B target financing "subject to market conditions". IREN $21.62 at 14:05 ET, +19.9% on $18.03. This gives the company's account beside card 047's satellite-delay claim.
+
+WALTER's framing, not a finding: older capacity dropped, newer spec demanded. That bears on older GPU life and sits against Oracle's 20% renewal claim.
+
+ACTION VULCAN: read both at your sources and decide whether either moves a score. ACTION LIQUID: read the $6B target financing and Oracle's position under its offering price.
+
+Sources: https://ca.investing.com/news/stock-market-news/oracle-falls-4-as-microsoft-reportedly-winds-down-ai-cloud-capacity-deal-4939940 ; https://live.euronext.com/en/financial-news/microsoft-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-reports ; https://www.bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity (unread) ; https://www.investing.com/news/stock-market-news/oracle-cancels-7-bln-chip-leasing-deal-with-tencent-ft-reports-4997349 ; https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html ; https://investinglive.com/stocks/icymi-oracle-jumps-around-11-on-225bn-2030-revenue-goal-and-20bn-cap-on-new-funding/

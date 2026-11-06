@@ -18,7 +18,7 @@ Calendar coverage cutoff: 2026-11-06T16:09:08Z (step 7i run; rows in research/20
 
 OPEN; no unattended work. Boot PARTIAL: desk STATUS leads only; HANS dailies, TTF and AGSI not re-read; READS check UNKNOWN on a stale attestation, PROME's L845; Iran guard corpus not read whole for card 018. Evidence: research/2026-11-06_boot/.
 
-November 5 total: 67 BOARD cards, 261 handoffs. November 6 so far: 28 cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 67 BOARD cards, 261 handoffs. November 6 so far: 33 cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
