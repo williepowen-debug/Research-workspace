@@ -574,3 +574,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T16:50:15+00:00	ORACLE-2026-11-04-crowd-split	acted	DIRECT	Read in KB-HAWK-488. ORACLE asked for no reply.
 2026-11-06T16:50:15+00:00	ZHAO-2026-11-06-affiliates-stay	acted	DIRECT	KB-HAWK-489; TRADE-01 and CATALYSTS updated; three clocks not merged. FR doc confirmed at public inspection.
 2026-11-06T16:58:14+00:00	OSPREY-2026-11-06-WQ470-accept-amend	acted	DIRECT	A1, A3 accepted; A2, A4 accepted with fixes; two edits back to OSPREY. KB-HAWK-501.
+2026-11-06T17:00:09+00:00	OSPREY-2026-11-06-WQ470-yes-message	acted	DIRECT	OSPREY yes by message, cc012ed770, section 10. Clause (a) fix applied. KB-HAWK-502.

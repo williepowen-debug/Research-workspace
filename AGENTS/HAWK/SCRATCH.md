@@ -17,7 +17,7 @@ WQ-470 answered; HAW-20 CONFIRMED (late search); YUR-004 null read; ORACLE read;
 
 ## NEXT SESSION
 
-1. **WQ-470:** OSPREY replied 11:55 ET; HAWK ruled (KB-501, proposal final section). Two edits await OSPREY's yes. On yes, tell PROME it is joint; PROME → Will.
+1. **WQ-470:** JOINT 11/6; packet with PROME for Will. If Will adopts, grade limb 2 from the adoption date, earliest first kill adoption + 21, and run the dated canvass in the window's last three days.
 2. Nov 8: EURMIL native check (Article 4/5 primaries, equipment stocks).
 3. Nov 9–11: USTR final notice, BIS rule publishes, MOFCOM 公告70, ZHAO's read. Update KB-489.
 4. Nov 12: IRAQ / FININFRA / SULPHUR backstops.

@@ -95,7 +95,7 @@ Sources: [Insurance Journal, Reuters 2025-12-02](https://www.insurancejournal.co
 
 ## 11:58 ET (from `date`) — OSPREY replied; HAWK's ruling on its four amendments
 
-Input: `inbox/processed/2026-11-06_from-OSPREY_WQ470-accept-with-amendments.md`. **OSPREY accepted the core.** HAWK accepts A1 and A3, accepts A2 and A4 with fixes, and adds one gap. **Two edits go back to OSPREY for a yes; it is not joint until then.** This section supersedes the proposed text above.
+Input: `inbox/processed/2026-11-06_from-OSPREY_WQ470-accept-with-amendments.md`. **OSPREY accepted the core.** HAWK accepts A1 and A3, accepts A2 and A4 with fixes, and adds one gap. **JOINT as of 12:00 ET:** OSPREY said yes to both edits with one wording fix in clause (a), applied below (OSPREY file §10, KB-OSPREY-269, `cc012ed770`). This section supersedes the proposed text above.
 
 | Amendment | Ruling | Why |
 |---|---|---|
@@ -107,14 +107,14 @@ Input: `inbox/processed/2026-11-06_from-OSPREY_WQ470-accept-with-amendments.md`.
 **OSPREY's check, answered: there is no false kill on 10/3, but not for the reason it tested.**
 - **JWLA-035 does not block.** Britannia's notice reads Russia and Ukraine as the exception to the carve-out, so the circular may literally name Russia. But Russian and Ukrainian coastal waters were already listed (OSPREY WARRISK row, Reuters 9/18), so nothing changed for Russian-port calls. A literal "names Russian waters" test would have blocked on a perimeter that did not move. Circular not opened; secondaries only.
 - **Swedish Club 452/2026 does block.** OSPREY read it at the club's site: dated 9/18, notice of cancellation, reinstated on amended terms from 10/1, and its list names Russian inland waters of the Don. That is a cover change naming Russian waters, inside the 9/12–10/3 window, so it reads (a) and the window does not clear before RIO re-arms on 10/6. No premium is stated; the rise is in terms. HAWK has not re-read the circular.
-- **The 10/27 kill stands.** The first full back-test therefore shows one kill, not two.
+- **The 10/27 kill stands,** limb 1 only. OSPREY confirmed the circular and withdrew its 10/3 false kill: one kill in the back-test, not two.
 
-**A correction both desks owe:** "three known in-scope prints in 11 months" is short by one. OSPREY's WARRISK row 35 holds **Russian Black Sea ports >1% of hull, one broker ~1.5%, versus ~0.6%, The Insurer 7/21.** So at least four: 12/2/2025, 7/21, 7/29 (lead) and 8/19. Limb 2 still rarely speaks, and most windows will read NOT MEASURED. My table above omitted it too.
+**A correction both desks owe:** "three known in-scope prints in 11 months" is short by one. OSPREY's WARRISK row 35 holds **Russian Black Sea ports >1% of hull, one broker ~1.5%, versus ~0.6%, The Insurer 7/21.** Agreed count: at least four in-scope items, three quotes (12/2/2025, 7/21, 8/19) and one act (Swedish Club 9/18); The Insurer 7/29 stays a lead. Limb 2 still rarely speaks, and most windows will read NOT MEASURED. My table above omitted it too.
 
-## Final proposed text (HAWK's edits to OSPREY §9 in bold brackets)
+## Final joint text (HAWK's edits to OSPREY §9 in bold brackets, including OSPREY's clause (a) fix)
 
 > **…AND no reported war-risk-premium repricing for tanker calls at Russian Black Sea, Sea of Azov or Baltic ports in the 21 days ending on the grade date, graded by HAWK.** Both limbs are read on that one window. In-scope evidence: an insurer, P&I club or Lloyd's/JWC act, or a named-broker or wire-reported quote, that names Russian ports or Russian waters as its population, hull or **[oil or tanker]** cargo, read at its body or at a named relay. Basin-wide or general-transit items do not count. **[A terminal in Russian waters counts whatever crude it loads.]** A headline alone is a lead.
-> **(a)** an in-scope print dated in the window showing a rise ⇒ **REPRICED, blocks the kill**, whatever else the window holds. A quote rises if its own stated prior is lower, or, with no stated prior, its midpoint is above the last in-scope print on `WARRISK.tsv` **[on the same unit and discount basis. An act rises if it cancels, narrows or newly conditions cover for, or newly lists, Russian ports or Russian waters; an act that only widens a perimeter around waters already listed does not.]**
+> **(a)** an in-scope print dated in the window showing a rise ⇒ **REPRICED, blocks the kill**, whatever else the window holds. A quote rises if its own stated prior is lower, or, with no stated prior, its midpoint is above the last in-scope print on `WARRISK.tsv` **[on the same unit and discount basis. An act rises if it cancels (unless cover is reinstated on unchanged terms), narrows or newly conditions cover for, or newly lists, Russian ports or Russian waters; an act that only widens a perimeter around waters already listed does not.]**
 > **(b)** in-scope prints in the window, none showing a rise ⇒ **SATISFIED, kill allowed. [A quote with no stated prior and no same-basis comparator counts as no print.]**
 > **(c)** no in-scope print found by a dated canvass run in the window's last three days, naming each outlet tried and at least one outlet-free query ⇒ **NOT MEASURED. It does not block.** Any kill is written "limb 1 only; limb 2 NOT MEASURED". No canvass means no grade and no kill.
 > **(d)** an in-scope rise dated inside the window that surfaces later reverses the kill as a §1 re-arm: last score restored, KB row logged.
