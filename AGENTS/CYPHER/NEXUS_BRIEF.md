@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-06 09:58 EST (boot intake; 11/05 closeout state otherwise, WQ-618 A, DOCKET L812 + L917) | STATUS commit: `547291b33d7ffcf65cdb1e57e5a19e571bdfaf3c`
+**As of:** 2026-11-06 10:13 EST (D:L973 delivered, WQ-626 A) | STATUS commit: `8b71d61d5e9cd7d2e77ee3e8ebdbb9b74b16417c`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -14,6 +14,7 @@
 | REGINALD / LIQUID / GIBBS / HANS / PROME | Crédit Mutuel Arkéa (CYB-INC-059, 11/04): attackers came through an unnamed provider's platform and paid other banks from the bank's own account, about EUR 100M provisional. No second bank, rail statement or supervisory alert found; shared reach UNKNOWN, not systemic on this evidence | P1 | New class: theft of a bank's own funds through a vendor (FL-CYP-21). Whether one vendor can do it to several banks is FL-CYP-22, UNTESTED |
 | REGINALD / LIQUID / GIBBS / PROME | Bank-vendor cluster watch count limb MET 11/05: Finzly (one device, Fed-link firewall keys published, untested; Fed not impacted) and Abrigo (unauthorized access, ~69h Sageworks shutdown, data loss unstated). Off-wave. REGINALD 11/05: no regional-bank consequence today, not a clearance (EDGAR only, 10-Qs not searched). GIBBS 11/05-06: not observed at the 16, Arkéa shared-vendor channel UNKNOWN, 15 Q3 10-Qs clean on a keyword diff (KB-CYP-092). Abrigo counts on plain words, not a core | P1 | Supplier channel consequence is theirs |
 | SHADE | FBI state attribution of the Binance theft (10/31, SECONDARY), told late; VX-CYP-08 graded 4 ORANGE with composition note | P1 | State-attack exclusion read |
+| NEXUS / PROME / SAM | 11/06: Capcom corrected to CONFIRMED (11.77M records, no financial channel; the desk's 10/23 read was wrong). Kiteworks: no named route at +16 days, weak evidence. GMO cost not calculable, next 11/13. Shinkin outage: 128 Japanese credit co-ops about 5.5 hours, operators think not cyber, no fire | P3 | Consequence stays with SAM |
 | NEXUS / PROME | Composite 24/40 raw, 15/40 shared-root-adjusted (VX-01 corrected 2->3 on the letter, VX-08 3->4 on the attribution; neither is new bank damage). Rows 1, 3-9 NOT-FIRED at 11/05 | P3 | Wave state for synthesis. Unit 42 verified Dream's compromises; R1 flip still needs a named organisation |
 | PROME / LIQUID / HENRY | WQ-550 leg 2 (11/02): Binance phase-one withdrawals reopened Sun 11/01 (29 of 1,448 pairs on at 13:48Z 11/02); net outflows $4.72B (Binance, ~2-3% of assets); ~95% of loss replaced (OWNER-ASSERTED). FBI attributes the theft to North Korea (10/31; SECONDARY). Ethereum stablecoin freezes unchanged, none burned; no redemption surge in the reopening-day print. COIN residual faded to -2.6pp (z -0.9) at the 10/30 close. No bank, custodian, prime broker or lender named. VX-CYP-02 YELLOW held at 3 on its letter; re-cut drafted; standing crypto owner NOT recommended (Will's word) | P2 | LIQUID: CHK-40 facts at the reopening (no surge; Circle Q3 11/04). HENRY: no venue premium at the close. PROME: VX-CYP-08 grade on the attribution is outside the commission fence |
 | PROME / LIQUID / HENRY | WQ-550 leg 1 (10/30 10:5x ET): no contagion to other exchanges or banks found. Withdrawals still off at 0 of 1,447 pairs (14:51Z); freezes unchanged, 0 burned. Market makers Wintermute (<20% of net equity) and GSR (<5%) exposed; no bank, prime broker or lender named. "COIN −13.7% vs BTC −1.3%" mixes clocks: on the equity clock BTC −4.15% and QQQ −2.60%; only COIN has a beta residual (−5.7pp), and it overlaps its own Q3 results | P2 | HENRY: equity read is clean beta except COIN, which is earnings-confounded. LIQUID: no redemption surge in the first daily print; test at reopen. Leg 2 at 11/02 |
@@ -65,7 +66,8 @@
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-11-06 | Kiteworks victim check; GMO compensation; Capcom; row 9 magnitude decision (to PROME by 11/10) | Own instruments |
+| 2026-11-10 | Row 9 collapse magnitude: PROME disposition of the 11/06 proposal, needs Will | No ruling by the 11/18 close = leg UNGRADEABLE |
+| 2026-11-13 | GMO results briefing; Kiteworks second look | A cost figure; a named Kiteworks route |
 | 2026-11-09 | Arkéa provider and shared-reach check | Provider named; a second institution; a rail statement |
 | 2026-11-12 (weekly) | Wave 7-day clock; bank-vendor / payment-plumbing cluster watch (Will 10/29); Abrigo; ConnectWise; claim pass; Keystone | Count limb already MET 11/05; a multi-institution outage of 1+ business day; a regional 8-K or late 10-Q citing Finzly or Abrigo -> REGINALD |
 | 2026-11-15 | TruStage data-access window | Primary scope and cost |
