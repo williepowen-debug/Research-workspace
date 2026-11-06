@@ -9,17 +9,17 @@
   "queue_row_sha256": null,
   "prepared_at": "2026-11-06 11:10 ET",
   "stale_after": "2026-11-07",
-  "question": "The agents' trades failed the scale test you set on August 8. Should the fleet shrink because of it?",
-  "what_changes": "The test asked for 10 closed trades that agents proposed and you approved. The count is 5, so the rule you registered calls for a shrink proposal rather than another improvement list. Today 41 desks can run. TERRY's draft keeps 2 always running, puts 20 on call and 19 to sleep, keeps all their files, and can be reversed on your word. It would spend less, though how much is unmeasured, and sleeping desks stop watching their areas.",
+  "question": "The agents' trades missed the scale test you set on August 8. Should the fleet shrink because of it?",
+  "what_changes": "The test asked for 10 closed trades that agents proposed and you approved. PROME's count is 5, awaiting your confirmation, and one of those is inferred; no reading reaches 10. So the rule you registered calls for a shrink proposal, not another improvement list. Today 41 desks can run. TERRY's draft keeps 2 always running, puts 20 on call and 19 to sleep, with files kept and reversible on your word. Sleeping desks stop watching their areas.",
   "recommendation": {
     "status": "NONE_YET",
-    "text": "No recommendation yet. Unresolved: whether too many desks is why the count is low. RED's judgement puts that at about a quarter, behind you running capital yourself and trigger rules holding entries back. The saving could be up to 46.4%, or under 7.7%."
+    "text": "None yet from PROME. Unresolved: whether too many desks is why the count is low. RED's judgement puts that at about a quarter. The saving is unmeasured: tokens the plan could touch run from under 7.7% to 46.4%, on this computer only. TERRY itself recommends B at minimum."
   },
   "conditions": [
-    "Florida desks CORAL and MARCO would go to sleep, though Florida is a top priority for you.",
     "ORACLE, the independent check using prediction-market odds, would go to sleep. Who launches it and reads its alerts is already unowned.",
-    "Triggers with no date need a named watcher, or they can fire with nobody reading them.",
-    "Five trades says little about research value. RED says the proposal is not ready to adopt as written. PROME would stay running and helps grade this, so it has a conflict."
+    "Triggers with no date need a named watcher, and TERRY's own seat is the real choice inside the draft.",
+    "RED says it is not ready to adopt as written. No independent reader has read this version.",
+    "Conflicts: TERRY wrote a draft that shrinks others more than itself, and PROME would stay running and helps grade."
   ],
   "supporting": [
     {
@@ -48,12 +48,12 @@
       "id": "A",
       "label": "Accept as drafted",
       "meaning": "2 always running, 20 on call, 19 asleep, with TERRY on call and named watchers.",
-      "consequence": "PROME and TERRY carry out the change. Files stay, and it can be reversed on your word."
+      "consequence": "PROME and TERRY carry out the change."
     },
     {
       "id": "B",
       "label": "Accept with changes",
-      "meaning": "You name the changes, for example keeping Florida or ORACLE awake.",
+      "meaning": "You name the changes, for example keeping Florida's CORAL and MARCO awake, which the draft puts to sleep.",
       "consequence": "TERRY redrafts and it comes back to you."
     },
     {
