@@ -1,0 +1,32 @@
+GLD +38s tonnes >= 0.49 % all 0.52 n 5487
+GLD +38s tonnes >= 0.49 % 2015+ 0.475 n 2941
+GLD +38s tonnes >= 0.49 % 2022+ 0.481 n 1178
+ after prior 30s -2..-6%: 0.384 n 1093 non-overlap n 29 0.31
+ prior30 now -1.33 tonnes 1040.51
+SLV d200 in -32 -22 -> d200(+38)>-20: 0.52 n 102 n-nonover 3 0.333
+   by first-day episodes: 19
+SLV d200 in -30 -23 -> d200(+38)>-20: 0.477 n 86 n-nonover 3 0.333
+   by first-day episodes: 17
+SLV flat 46.93 SMA200 at 12/31 57.418 d200 -18.27 price needed for -20: 45.93
+  linear to 50 d200 -13.37
+  linear to 52 d200 -10.21
+  linear to 54 d200 -7.07
+  linear to 56 d200 -3.95
+LME n 2995 2015-01-02 2026-11-05 318675.0
+LME +31d >= 9.8 %: all 0.331 n 2964
+ after 10d rise >=10%: 0.472 n 659 nonover 22 0.5 median 7.3
+ same & level>=250k: 0.283 n 191 median chg -2.2
+  P(+31d >= 300000 ) after 10d rise >=10%: 0.677
+  P(+31d >= 330000 ) after 10d rise >=10%: 0.551
+  P(+31d >= 350000 ) after 10d rise >=10%: 0.472
+10d chg now 16.8
+2026 max 402625.0 2026-04-15
+2026 rows since Jan: last 12 {Timestamp('2026-10-21 00:00:00'): 245275.0, Timestamp('2026-10-22 00:00:00'): 272950.0, Timestamp('2026-10-23 00:00:00'): 273750.0, Timestamp('2026-10-26 00:00:00'): 272975.0, Timestamp('2026-10-27 00:00:00'): 272725.0, Timestamp('2026-10-28 00:00:00'): 271450.0, Timestamp('2026-10-29 00:00:00'): 272200.0, Timestamp('2026-10-30 00:00:00'): 274000.0, Timestamp('2026-11-02 00:00:00'): 293775.0, Timestamp('2026-11-03 00:00:00'): 309650.0, Timestamp('2026-11-04 00:00:00'): 312250.0, Timestamp('2026-11-05 00:00:00'): 318675.0}
+['metal', 'report_date', 'open_interest', 'nc_long', 'nc_short', 'net_nc_long', 'net_over_oi_pct']
+          metal report_date  open_interest  nc_long  nc_short  net_nc_long  net_over_oi_pct
+2614  palladium  2026-09-08          16773     6647     10359        -3712         -22.1308
+2615  palladium  2026-09-15          16707     6284     10434        -4150         -24.8399
+TIES: GLD tonnes rows exactly 1045.64: 1 of 5525
+TIES: SLV d200 rounded exactly -20.00: 1 of 4965
+TIES: LME exactly 350000: 1 of 2995 ; LME 2026 rows >=350000: 60
+TIES: Pd net/OI exactly -30.0000: 0 of 872
