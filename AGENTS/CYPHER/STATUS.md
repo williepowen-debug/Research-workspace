@@ -2,7 +2,7 @@
 
 **Last Updated: 2026-11-06 17:30 EST — close refresh on PROME prome-51's 17:08 ET relay of Will's word (a relay, not his word here); runtime Claude Code, Opus 5.5. No score, band, gate or escalation state moved; no row fired; inbox and WALTER lane empty at boot.**
 - **SonicWall (063, new, off-wave):** CISA listed SonicOS SSLVPN CVE-2026-19868 as exploited on 11/06, due 11/20: valid credentials can bypass SAML and maybe MFA. No victim named. CHK-32 noted; CHK-10 POSSIBLE (weak), not a finding of exposure. ⚠️ SonicWall's own advisory unread (page will not render to curl).
-- **SecurCommunity FCU (064, new, off-wave, not cyber):** $88.5M Memphis credit union, debit and online banking problems since its 11/02 conversion. VX-02 held at 3; letter gap put to PROME (ruled the other way: 25/40 raw, adjusted stays 15/40).
+- **SecurCommunity FCU (064, new, off-wave, not cyber):** $88.5M Memphis credit union, debit and online banking problems since its 11/02 conversion. VX-02 held at 3; PROME agreed 11/06, class C3, no change, reported to Will by PROME.
 - **Row 9 at the close:** PANW $313.84 (-7.77%), HACK $110.84 (-6.37%), gap -1.40; $24.60 above the $289.24 line. HACK's +12.79% peak gain has reversed; SPY -4.39%.
 - **Machine legs:** KEV v2026.11.06, no Item 1.05 8-K since 10/30, leg 10 quiet. Revolve flag is CYB-INC-058, read 10/30. Wave rows not re-stamped: instrument pass due 11/12. Arkéa: feed-level only, no provider named through 11/06; press page not re-read (11/09 row).
 
@@ -15,7 +15,7 @@
 - **Intake clear:** cards 062, 005 and 015, GIBBS's answer (no consequence at the 16, KB-CYP-092), LIQUID's rail answer (no effect on its surfaces, cannot see a European rail, not a clearance, KB-CYP-103), COR-20261105-62 and COR-20261106-15 NO-OP. 005 and 019 re-checked at search level. HANS answered 11/06; SHADE has not filed its 11/05 packet.
 - **Second turn, 15:2x ET:** HANS's Arkéa read logged (one-bank earnings event, conditional on shared reach, KB-CYP-104; its three re-read triggers on the 11/09 row). Card 026: shinkin 3,430 branches UNVERIFIED, noted on 062. Card 033: EFS read at franceinfo, three sites, no loss, noted on 061. No score, band, gate or state moved.
 - **WQ-622:** 3 themes logged in KB (`supplier-route-to-banks`, `japan-october-cluster`, `ai-tooling-entry`). The charter line is NOT added: on the resume list until Will gives it directly.
-- **Resume list:** (1) WQ-622 charter line, Will's direct word. (2) `workbook/ESCALATION_WATCH.tsv` at 79% of read budget (25,780 B): rotate dated notes verbatim to `archive/` to under 22,785 B, not done today. (3) VX-02 letter question with PROME.
+- **Resume list:** (1) WQ-622 charter line, Will's direct word. (2) `workbook/ESCALATION_WATCH.tsv` at 79% of read budget (25,780 B): rotate dated notes verbatim to `archive/` to under 22,785 B, not done today.
 
 **2026-11-05 16:49 EST — closeout of the launched session (PROME prome-98, WQ-618 A, Will 13:56 ET "yes go ahead"; runtime Claude Code, Opus 5.5).**
 - **Crédit Mutuel Arkéa: CYB-INC-059 OPENED, OFF-WAVE, CONFIRMED** (`research/2026-11-05_arkea/RECORD.md`). The bank says attackers came through "la plateforme d'un de nos prestataires" (provider unnamed) and paid other banks from its own account, about EUR 100M on its provisional word (no figure in its written statements). Crypto conversion is "potentiellement". **Shared software, rail or vendor reach: not established either way.** No second bank, rail statement or supervisory alert found. Not systemic on this evidence. Next check 11/09.
