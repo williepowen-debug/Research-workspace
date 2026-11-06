@@ -68,3 +68,7 @@ Frozen R1 wording above is unchanged; this is a result, not a re-derived rail. T
 ⚠️ **R1 now has no live named print.** Both branches were keyed to the October final, and the November 4 grade says the test does not roll automatically to another month. This stamp stays at 2026-10-26 because no rail was re-derived. A successor observation is a change to a frozen letter and goes to PROME for Will's ruling (WQ-601 unit 4). Until ruled, the FROM state stands: mixed, selective upturn.
 
 J1: Census history reproduces the quarter pairing on one vintage (Q3 vs Q2 +28.639%), and adds September y/y +150.96% and Q3 y/y +116.95%, nominal, SA basis inferred by the match to Exhibit 8. The contraction warning stays NOT-MET; no AI allocation; VULCAN owns the verdict. J2: unchanged. Detail: research/2026-11-06_due-items/REPORT.md (desk-root relative).
+
+## November 6 close refresh — J2 annotation, rails unchanged
+
+October Class 8 preliminary: ACT 13,500, -45% y/y; FTR 15,600, -36% y/y, both tying it to EPA 2027 uncertainty, with FTR calling the earlier pre-buy complete. Class 8 is a qualified input, not a leg of the proposed deterioration test, so no condition fires and rail deterioration stays NOT-MET. Cass November 13 is the next leg. No credit or probability verdict; LIQUID and RED hold those. Detail: research/2026-11-06_close-refresh/NOTE.md (desk-root relative).

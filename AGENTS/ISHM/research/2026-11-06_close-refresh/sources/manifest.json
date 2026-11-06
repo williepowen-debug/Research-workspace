@@ -1,0 +1,25 @@
+{
+ "note": "Raw pages not retained; sha256 is of the HTML returned at retrieval. Pages are mutable.",
+ "retrieved_utc": "2026-11-06T22:28:18+00:00",
+ "items": [
+  {
+   "url": "https://www.actresearch.net/resources/blog/north-america-class-8-blog",
+   "http": 200,
+   "bytes": 80541,
+   "sha256": "a83b605f96f4b3273883b1e915eeebff58397868514d0396253981923fabb0d9",
+   "extract": "ACT_class8_lead_read-2026-11-06.txt"
+  },
+  {
+   "url": "https://www.ftrintel.com/class-8-truck-orders",
+   "http": 200,
+   "bytes": 50353,
+   "sha256": "b02ad799a5a7db9fbc39019ba7c4cf447dba5d0877e2b43d6546558a91041089",
+   "extract": "FTR_class8_lead_read-2026-11-06.txt"
+  },
+  {
+   "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MANEMP&cosd=2025-10-01",
+   "http": 200,
+   "extract": "FRED_MANEMP_read-2026-11-06.csv"
+  }
+ ]
+}
