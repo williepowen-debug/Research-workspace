@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-06T15:43:38-05:00 — IREN Mackenzie deep dive on Will's word: no financial covenants, customers non-IG, a lapse at 12/31 costs IREN not the funds (KB-BRK-459–461). No score moved. Prior stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
+**Updated:** 2026-11-06T15:46:16-05:00 — closeout on PROME's word: eight IREN checkpoint rows in `docket/CATALYSTS.tsv` · X1 joint answer registered WQ-644 · no score moved. Prior stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
 
 ---
 
@@ -30,7 +30,7 @@
 | 8/13 · **no expiry** | **FORUM-5 W2**: gated recognition before/same print as the non-gated channel for that event ⇒ RETRACTION | Primary wording recovered 10/14: FORUM-5 synthesis L135, via SHADE 10/10. R2 proration fires are liquidity events, not matched recognition. Check every boot. |
 | 8/13 | **FORUM-5 W3**: deterioration read withdrawn if ≥3 of 4 reverse (FSK coverage restored by EARNINGS · SS−DQ ≤4.5pp ×2 · unsecured share >50% · CCC/BB ≤5.93 ×2) | grades **11/30**. Channel 2 CANNOT reverse by then (CREED 10/30: Sep 4.69pp, office DQ rising) ⇒ needs all 3 others. **FSK leg NOT REVERSED on Q3: 1.05x reported, 0.95x ex-waiver (KB-BRK-420), no further FSK print before 11/30 ⇒ ≥3 of 4 is out of reach unless reversed by ruling.** |
 | 8/13 · **before 11/30** | **DOCKET L186 — FORUM-5 deferrals** (PENDING at PROME, "next-BROCK-session"): CCC/BB base-rating + BROCK↔SHADE normalization reconcile (before W3 channel 4 carries weight, base rate now KB-BRK-439; LIQUID owns the series, cc) · no-print RATIO registration (after W1 supplies the denominator) · BCRED Q2 10-Q read — appears DONE 8/28 (KB-BRK-222, INFERRED; tell PROME at the reconcile) | mine; W3 grades 11/30 (L183). Tracked here from 2026-10-21 (self-sweep #9) |
-| 8/13 | **X1/SHADE joint reconcile** | Registration recovered; 10/10 fire PROVISIONAL per the 10/12 owner return. Distinct instruments until reconcile; DOCKET L185 11/5–11/18. No X1 fire/deploy implication. |
+| 8/13 | **X1/SHADE joint reconcile** | Registration recovered; 10/10 fire PROVISIONAL per the 10/12 owner return. Distinct instruments; BROCK CONCURS with SHADE, joint answer WQ-644 11/06, Will decides. No X1 fire/deploy implication. |
 | 9/3 | Verify the remaining **PRESS-sourced** `PC_REDEMPTION_REGISTER` cells at primary; **CCLFX demand ~17.0** names a document, not a line item | One bounded source pass completed 10/14; satisfaction UNKNOWN. Next: the 9/30 semiannual report on release (Nov–Dec expected), not endless searches. |
 | 9/3 | OCIC Q2 paid in **non-interest-bearing promissory notes** ($955.0M) — same class as BCRED's IOU mechanic; base rate not established | flagged, not graded |
 | 8/7 | **4th-public-div-cut trigger: re-base or retire** (RED's reframe accepted 8/7) | owed to RED |
