@@ -6,7 +6,7 @@
 
 Nothing fired at any BRENT letter. The distillate headline is true at EIA's own files, and it is more extreme on days of cover than on barrels: 23.8 days, the lowest late-October reading since the weekly demand series began in 1991. No registered BRENT line sits on the distillate level, so there is nothing to fire; BRT-34 first grades on the November 12 print. The tanker incidents establish no lost barrel. COT #13 is not published yet.
 
-⚠️ **My own BRT-34 mechanism line does not fit this week's arithmetic.** I registered "via exports and runs, not demand". This week the draw came mainly through product supplied, which is EIA's residual estimate of demand, not through exports. See below.
+⚠️ **Corrected 2026-11-06 11:56 EST by `research/2026-11-06_diesel/NOTE.md`.** The one-week balance below stands, but my reading of it was too strong. Over 8 weeks the draw is ordinary for the season; over 39 weeks exports are the largest change and refinery runs the offset. Weekly exports matched EIA monthly figures within 12 kb/d on average, January–August 2026, so the export-error warning below overstated that risk.
 
 ## 1. Card 022, EIA distillate
 
@@ -40,7 +40,7 @@ Nothing fired at any BRENT letter. The distillate headline is true at EIA's own 
 | Product supplied, four-week | 4,175 kb/d | 3,843 | +332, +8.7% |
 | Exports, four-week | 1,353 kb/d | 1,235 | +118 |
 
-**So what:** production is running well above last year and exports are up only modestly, so on EIA's numbers the stock fell because of the domestic leg. That is not the mechanism I wrote into BRT-34.
+**So what, this week only:** production is running well above last year and exports are up modestly, so on this one week's numbers the domestic leg did most. Superseded as a general read; see the correction at the top.
 
 ⚠️ **Limit:** product supplied is a residual, not metered demand, and weekly exports are estimates, so an export miss lands in product supplied. One week. Retail diesel near $6 (10/19 print) makes +8.7% real demand a claim to test, not to adopt. HOARDING.md's caveat applies in kind.
 

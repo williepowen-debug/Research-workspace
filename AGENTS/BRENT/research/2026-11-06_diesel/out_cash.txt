@@ -1,0 +1,4 @@
+NYH spot minus HO1, n 4427 median 0.009 rank of 0.29 98.4 max (datetime.date(2022, 5, 13), 1.4180000000000006)
+Oct 2022 mean 0.391 max 0.759
+NYH-USGC n 5113 median 0.048 rank .298 98.4
+Oct 2022 NYH-USGC mean 0.381
