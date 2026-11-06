@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded. New 11/06: SonicWall SSLVPN flaw listed as exploited by CISA, no victim named.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-06 17:31 EST (11/06 close refresh on PROME prome-51's relay of Will's word; no score, band, gate or state moved) | STATUS commit: `c45df4cdcb3bb36bb0972e17ba1d327a055cfea6`
+**As of:** 2026-11-06 17:31 EST (11/06 close refresh on PROME prome-51's relay of Will's word; no score, band, gate or state moved) | STATUS commit: `9cd15d6c9008508f37ec048045e1c4ea90d7ba90`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
