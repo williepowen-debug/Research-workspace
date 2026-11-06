@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-06T11:24:47-05:00 — WQ-626 A wake, L965: **L876 CABO BLOCKED-BY-ORDER FINAL on the 10-Q** (KB-BRK-440/441, NYSE non-compliance stated) · HY 348 [11/5], ladder row 10 NOT FIRED, CCC/BB fell, not my signal (KB-BRK-438/439) · call PARTIAL (KB-BRK-442) · BRK-37/38 registered · five combo themes. Narrative: `catchups/2026-11-06.md`.
+**Updated:** 2026-11-06T12:44:47-05:00 — MFIC Q3 read: NAV $12.86 equals the preliminary, non-accrual 7.9% cost from 4.6% (KB-BRK-453/454/455) · L587 DECLINED by PROME 11:25 ET · card 026 logged. Prior 11:24 stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
 
 ---
 
@@ -20,7 +20,6 @@
 | 11/17 · 12/31 | **BRK-36** GBDC 9/30 NAV print 11/17 · 12/31: **BRK-25** (count 2) · **BRK-26** (55%) · **BRK-33** CRMT petition 35% · **BRK-34** BCRED Q4 fill 30% · **BRK-35** KMDM 20% · **BRK-36** backstop 40% · **BRK-37** 25% · 4/15/27 **BRK-38** 55% | EXIT §4; letters in PREDICTIONS |
 | next VX review | **Duration red rung carries no sustain count** — flagged 9/25, not re-spec'd | VX-BRK-020; spec change = Will |
 | Will | **OTIC REGISTERED 10/15 (WQ-403):** R >45.0% / S structural, grades from Q4-2026; Q3 recorded never graded; review 2027-04-30. WQ-364 opacity bloc WITHDRAWN; named NOT-FOUND leg survives (KB-BRK-347). **R2 FIRED ×2; population unchanged.** W1 strict-vs-functional: my leg NOT FOUND (KB-BRK-313). | No fresh Will decision here. |
-| PROME | **L587 X1-R** candidate relative instrument (register or decline) | wrapper half stays NOT ARMED meanwhile |
 | **Mon 11/16** | **BRK-11 re-run** after the Q3 10-Q deadline · **GATE-BRK-R2 (FIRED ×2) review** (if PROME moves it) · ⚠️ **Radiant court-source gap** carried, unworked 10/31 | DAEDALUS 10/8 ①②③ DONE 10/31: ① P13 RULED in force (WQ-563 A, Will 10/31) · ② 28.68% · ③ searches logged |
 | on Will's ask | **AI-infra financing leg** — SIG-W-20261002-012 Amazon ~$8B chip SPV · **SIG-W-20261008-006** Anthropic: who holds the junior risk ($42B Broadcom convertible · ~$60B syndicate, $18B junior Blackstone-led · DC CMBS) — credit-structure read vs the off-BS AI-debt map | deferred 10/2 + 10/8, not started as a study. 10/26–10/28 inputs → KB-BRK-398–402 (detail: catch-up 10/29 § Rotated). VULCAN asks (SpaceX recourse/residuals; drawn vs drawable) open. VULCAN watch: Firmus private round (line back if PC prices it) · Volta $5.0B GPU loan, Apollo $1.5bn order |
 

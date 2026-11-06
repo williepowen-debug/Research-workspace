@@ -2,7 +2,7 @@
 
 Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-06.md`. Full read: `research/2026-11-06_hy-print-cabo/REPORT.md`.
 
-**Resume list: DONE 11/06 on Will's 11:18 ET word.** Card 067, GIBBS and LIQUID packets and card 019 processed; inbox and WALTER lane empty at the commit (KB-BRK-450–452).
+**Resume list: DONE 11/06 on Will's 11:18 ET word.** Card 067, GIBBS and LIQUID packets and card 019 processed; inbox and WALTER lane empty at the commit (KB-BRK-450–452). Card 026 and MFIC Q3 added on Will's 12:38 ET word (KB-BRK-445, 453–455). L587 DECLINED by PROME 11:25 ET.
 
 **Next-boot first moves:**
 1. **Mon 11/09 after ~16:30 ET or Tue 11/10 AM:** CRMT tenth-bridge STD, whole feed from 11/05 08:01 ET, every form, INDEX acceptance time. Feed read to 10:15 ET 11/06 was empty. Covers L927; backstop #7 L928 Tue 11/10.
@@ -17,4 +17,5 @@ Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-
 - 10-Q text extraction lives only in the session scratchpad; refetch by accession.
 - EDGAR: `from sec_contact import sec_ua` (scripts/). A browser-style UA gets 403.
 - CABO CIK 1632127. WALTER keeps delivering during a session: re-list `inbox/WALTER/` immediately before `git mv`.
+- MFIC: MD&A and SOI fn 14 read, call not. ARCC deal watch: Thomas, Heniff, Magnate carry 0.81 of cost on non-accrual (inference, REPORT §2).
 - Experiment A software FV/par cells for FSK, BXSL, OBDC owed; need a SOI parse.

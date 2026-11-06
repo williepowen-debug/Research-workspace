@@ -1,0 +1,32 @@
+mfic_q3: 542 first-SOI positions, FV 2,545.2M vs balance sheet 2,545.1M, cost 2,828.0M
+mfic_q2: 562 first-SOI positions, FV 2,770.4M vs balance sheet 2,770.3M, cost 3,038.3M
+arcc_q3: 1423 first-SOI positions, FV 29,229.7M vs balance sheet 29,212.6M, cost 29,477.5M
+ACP Avenu Midco            ARCC 1.023 MFIC 0.960 gap   -6.3pp | MFIC 6/30 0.956 | MFIC cost    9.2M  nA=3 nM=3
+Alcresta Therapeutics      ARCC 1.000 MFIC 0.999 gap   -0.1pp | MFIC 6/30 0.999 | MFIC cost    9.3M  nA=2 nM=4
+Berner Food & Beverage     ARCC 1.000 MFIC 0.996 gap   -0.4pp | MFIC 6/30 0.995 | MFIC cost   36.0M  nA=3 nM=2
+Cards-Live Oak Holdings    ARCC 1.000 MFIC 1.005 gap   +0.5pp | MFIC 6/30 0.995 | MFIC cost    4.6M  nA=3 nM=3
+DRS Holdings III           ARCC 1.001 MFIC  n/a  gap   +nanpp | MFIC 6/30  n/a  | MFIC cost    0.0M  nA=3 nM=1
+GS SEER Group Borrower     ARCC 0.852 MFIC 0.894 gap   +4.2pp | MFIC 6/30 0.940 | MFIC cost    4.5M  nA=3 nM=4
+High Street Buyer          ARCC 1.000 MFIC 1.000 gap   -0.0pp | MFIC 6/30 1.002 | MFIC cost   28.6M  nA=10 nM=3
+NCP-MSI Buyer              ARCC 1.000 MFIC 0.980 gap   -2.0pp | MFIC 6/30 0.979 | MFIC cost    9.5M  nA=4 nM=3
+Shout! Factory             ARCC 0.989 MFIC 1.004 gap   +1.5pp | MFIC 6/30 0.996 | MFIC cost   13.2M  nA=2 nM=2
+Silk Holdings III          ARCC 1.000 MFIC 1.017 gap   +1.7pp | MFIC 6/30 1.014 | MFIC cost   24.5M  nA=3 nM=1
+Truck-Lite Co.             ARCC 0.990 MFIC 0.999 gap   +0.8pp | MFIC 6/30 0.999 | MFIC cost    3.6M  nA=3 nM=3
+Generator US Buyer         ARCC 1.000 MFIC 0.980 gap   -2.0pp | MFIC 6/30 0.977 | MFIC cost   14.2M  nA=1 nM=5
+ZenDesk, Inc.              ARCC 0.970 MFIC 0.950 gap   -2.0pp | MFIC 6/30 0.929 | MFIC cost    8.2M  nA=3 nM=3
+n=12 median -0.02pp weighted -0.31pp range -6.3 to +4.2; shared cost 165.4M = 5.8% of MFIC cost; shared FV/cost 0.992; whole book 0.900
+net below cost 9/30 282.8M, 6/30 267.9M
+ 1 us Capital Carbon SPE I LLC) Carbonfree Chemicals Holdings LLC cost    56.5 FV    13.7 FV/cost 0.24 | 6/30 FV    14.6 FV/cost 0.26
+ 2 Media ChyronHego Corporation ChyronHego Parent Corporation     cost    65.2 FV    29.8 FV/cost 0.46 | 6/30 FV    45.3 FV/cost 0.69
+ 3 Consumer Finance Lending Point. LendingPoint LLC               cost    40.9 FV    16.4 FV/cost 0.40 | 6/30 FV     nan FV/cost nan
+ 4 Automobile Components K&N Parent, Inc. K&N Holdco, LLC         cost    23.7 FV     0.4 FV/cost 0.02 | 6/30 FV     0.4 FV/cost 0.02
+ 5 nding, LLC) Renew Financial LLC (f/k/a Renewable Funding, LLC) cost    16.8 FV     0.1 FV/cost 0.01 | 6/30 FV     0.1 FV/cost 0.01
+ 6 sumer Finance US Auto. Auto Pool 2023 Trust (Del. Stat. Trust) cost    18.3 FV     2.0 FV/cost 0.11 | 6/30 FV     nan FV/cost nan
+ 7 Health Care Providers & Services Amplity Amplity Topco, LLC -  cost    17.6 FV     8.8 FV/cost 0.50 | 6/30 FV     nan FV/cost nan
+ 8 otels, Restaurants & Leisure, Tasty Chick'n Tasty Chick'n LLC, cost    12.4 FV     4.0 FV/cost 0.32 | 6/30 FV     7.4 FV/cost 0.62
+ 9  Providers & Services Thomas Scientific Thomas Scientific, LLC cost    35.0 FV    26.8 FV/cost 0.77 | 6/30 FV    31.0 FV/cost 0.89
+10 Multi-Utilities Congruex Congruex Group LLC                    cost    15.8 FV     8.4 FV/cost 0.53 | 6/30 FV    10.4 FV/cost 0.66
+11 Ground Transportation Bird Rides Blue Jay Transit Inc.         cost    33.8 FV    27.2 FV/cost 0.81 | 6/30 FV    25.8 FV/cost 0.78
+12 Financial Services Golden Bear Golden Bear 2016-R, LLC         cost    12.9 FV     6.6 FV/cost 0.51 | 6/30 FV     7.4 FV/cost 0.55
+13 Software Naviga Colonnade Parent Inc (fka Naviga Inc.)         cost    12.6 FV     6.9 FV/cost 0.55 | 6/30 FV     7.1 FV/cost 0.55
+14 Household Durables, Allstar Holdings, Athlete Buyer, LLC,      cost    28.0 FV    22.4 FV/cost 0.80 | 6/30 FV    23.5 FV/cost 0.84
