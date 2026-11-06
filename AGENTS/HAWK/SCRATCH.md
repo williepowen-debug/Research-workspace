@@ -17,7 +17,7 @@ WQ-470 answered; HAW-20 CONFIRMED (late search); YUR-004 null read; ORACLE read;
 
 ## NEXT SESSION
 
-1. **WQ-470:** OSPREY's reply, then PROME → Will. osprey-5a closed out before reading it; the packet sits in OSPREY's inbox and PROME routes any reply. Carry until answered.
+1. **WQ-470:** OSPREY replied 11:55 ET; HAWK ruled (KB-501, proposal final section). Two edits await OSPREY's yes. On yes, tell PROME it is joint; PROME → Will.
 2. Nov 8: EURMIL native check (Article 4/5 primaries, equipment stocks).
 3. Nov 9–11: USTR final notice, BIS rule publishes, MOFCOM 公告70, ZHAO's read. Update KB-489.
 4. Nov 12: IRAQ / FININFRA / SULPHUR backstops.
@@ -39,7 +39,7 @@ Sustained US campaign vs limited strikes; CIT S301 ruling; named Sinokor detenti
 
 ## MAIL STATE
 
-Inbound lanes clear at cutoff. Outbound: OSPREY packet `af938f7ced`, unread by OSPREY (session closed). PROME delivery packet `34d87c9c0f`, consumed and filed per PROME 11:52 ET; L432 RESOLVED; HAW-23..26 registered.
+Inbound lanes clear at cutoff. Outbound: OSPREY answers `af938f7ced` consumed by OSPREY 11:55 ET; rulings packet sent after that. PROME delivery packet `34d87c9c0f`, consumed and filed per PROME 11:52 ET; L432 RESOLVED; HAW-23..26 registered.
 
 ## PENDING PUSH / GIT
 
