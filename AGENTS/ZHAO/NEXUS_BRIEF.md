@@ -1,9 +1,9 @@
 # ZHAO — NEXUS Brief
 
-**Status:** 🟠 **29/60 ELEVATED (11/06; +1 on Vector 5).** China's 11/10 clock is now the only open one: **the US filed its stay to 1/10 (FR 2026-22793); MOFCOM 公告70 has no re-suspension yet.** Forecasts **ZHA-19 65% (grades 11/10) / ZHA-20 85%** (correlated). October activity fell back under 50.
+**Status:** 🟠 **29/60 ELEVATED (11/06 close; +1 on Vector 5).** China's 11/10 clock is now the only open one: **the US filed its stay to 1/10 (FR 2026-22793); MOFCOM 公告70 has no re-suspension at the 06:21 Beijing 11/07 read.** Forecasts **ZHA-19 65% (grades 11/10) / ZHA-20 85%** (correlated). **PBOC main rate moved to overnight at 1.25% on 11/02; China 10Y 1.59%.** October activity fell back under 50.
 **Domain:** China macro → U.S. transmission — SAFE-reported Treasury-line selling (Belgium proxy falsified 8/21), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent). **Pivot history 2026-07-04→08-21 (superseded figures) → `archive/NEXUS_BRIEF_PIVOT_HISTORY_20260919.md`; the `Status:` line above is canonical.**
-**As of:** **2026-11-06 16:49 ET (by `date`)** — closeout for a fresh-context reboot; views unchanged since 11:18 ET: L802 graded (ZHA-21 NO), BIS stay filed, MOFCOM live list re-read, October PMI read, inbox drained, ZHA-22..25 registered (KB-224..236). || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-06 11:18 ET.
+**As of:** **2026-11-06 17:27 ET (by `date`)** — close refresh on Will's word: data through the 11/06 close, MOFCOM re-read, VX-2.08 moved to ORANGE by its letter, PBOC anchor caught up 4 days late, ZHA-24 flagged (KB-237..240). No score moved. || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-06 16:49 ET.
 
 ---
 
@@ -24,10 +24,10 @@
 
 - **11/06:** ZHA-21 NO at 12%, Brier 0.0144. ZHA-19 not re-marked after the filing, by design. ZHA-22..25 registered with computed base rates: 60 / 68 / 12 / 18%.
 - **Record (graded rows):** ZHA-16 MISS (Brier 0.20) · ZHA-17 NO (0.30) · ZHA-18 NO at 40% (0.16; $172M from the boundary, not banked as skill) · ZHA-11/12 YES (0.10/0.04). **The base rate beat my narrative on ZHA-18** (narrative 60%, base rate 33%).
-- **Open, registered before the events (10/29):** ZHA-19 US clock instrumented by 11/9 **65%** · ZHA-20 MOFCOM by 11/10 **70%** (correlated: ~1.3 calls, not 2) · ZHA-21 NPCSC RMB fiscal figure **12%**. ⛔ ZHA-05 STUCK 10/29 (anchor was a segment NPL, letter can't discriminate). Letter: `reports/2026-10-29_PREREGISTRATION_ZHA-19-20-21_nov-clocks-and-npcsc.md`.
+- **Open, registered before the events (10/29):** ZHA-19 US clock instrumented by 11/9 **65%** · ZHA-20 MOFCOM by 11/10 **85%** (re-marked 11/06; correlated: ~1.3 calls, not 2) · ZHA-21 NPCSC RMB fiscal figure resolved NO 11/06. ⚠️ ZHA-24 keys on the 7-day rate, which stopped being the anchor on 11/02 (KB-238), disposition PROME's. ⛔ ZHA-05 STUCK 10/29 (anchor was a segment NPL, letter can't discriminate). Letter: `reports/2026-10-29_PREREGISTRATION_ZHA-19-20-21_nov-clocks-and-npcsc.md`.
 - **Conviction — China UST selling: MEDIUM, DECELERATING.** Three straight months of coupon selling, each about half the last (LT −15.8 / −7.7 / −4.8B). 6-month total net −$71.5B. Aug level fall overstates it: −$12.25B is non-transaction residual, cause UNKNOWN.
 - **Conviction — where the money went: LOW, said plainly.** Belgium proxy falsified (rho +0.067, n=43), Agency rotation refuted three times, entity-shifting untestable from TIC. Belgium is now **out of the thesis kill** (replaced by a China flow leg, KB-219).
-- **Conviction — China domestic demand: weak at home, booming abroad.** Exports +36.3% (Sep), PPI +5.0% (energy-led), RatingDog 52.1; but construction new orders 45.7, CGB 1.63% (credit demand weak). The deflation-export read is REFUTED at the aggregate.
+- **Conviction — China domestic demand: weak at home, booming abroad.** Exports +36.3% (Sep), PPI +5.0% (energy-led), RatingDog 52.0 (Oct); but construction new orders 40.0, CGB 1.59% on 11/06 (credit demand weak, funding cheaper). The deflation-export read is REFUTED at the aggregate.
 - **Uncertain about:** (1) whether either 11/10 clock gets an instrument (12 days); (2) what caused the Aug residuals; (3) whether HK carry pressure forces HKMA in; (4) leg F's hit rate in a real regime change (untested — the whole sample is a selling regime).
 - **Failure patterns to mind:** my own instruments have been one-directional or untested more than once (Belgium proxy, Agency rotation, V6/V9). **Assume an un-base-rated gauge is blind until measured.** And a quiet desk is not a quiet domain: the dark spell went unflagged because recurring releases had dropped off my calendar (fixed 10/29).
 - **RED counter-frame:** BENIGN-DRIFT — the fall is valuation plus reserve management, not strategic exit. **Strengthened again:** the PBOC is buying dollars to slow appreciation, gold is +23 t/month, reserves are stable. I do not hide that.
@@ -45,7 +45,7 @@
 | To | Signal | Priority | Mechanism it triggers |
 |----|--------|----------|-----------------------|
 | **LIQUID** | HK peg at the 7.85 weak edge, HIBOR-SOFR YELLOW, no HKMA yet · Q3 China+Korea selling −$21.6B through Aug (needs ≈ −$28B in Sep for the >$50B route) | 🟡 | peg-defence drain → HKD liquidity; UST demand hole |
-| **HENRY** | PBOC holding the yuan BACK (fix +0.52% weaker than market) · CGB 1.63% = weak credit demand, not haven · China-US 10Y gap ~337bp, directional only | 🟡 | term premium; risk-off read must not lean on the yuan |
+| **HENRY** | PBOC holding the yuan BACK (fix +0.68% weaker than market, 20-fix mean 11/06) · PBOC main rate 1.25% overnight since 11/02 · CGB 1.59% (11/06) = weak credit demand, not haven · China-US 10Y gap ~327bp, directional only | 🟡 | term premium; risk-off read must not lean on the yuan |
 | **VULCAN · WATT · HAWK** | Both 11/10 clocks still have no instrument; ZHA-19 65% / ZHA-20 70%; 公告58 battery leg keys on the MOFCOM instrument | 🔴 | export-perimeter widening on 11/10 by default |
 | **HANS** | Belgium removed from ZHAO's thesis kill (rho +0.067); FYI level only | 🟢 | hub tables citing the ZHAO kill-leg are stale |
 | **MIDAS** | PBOC gold +0.74 Moz ≈ 23 t in Sep (largest since Sep-2023) | 🟡 | WQ-451 L3-SAFE leg |

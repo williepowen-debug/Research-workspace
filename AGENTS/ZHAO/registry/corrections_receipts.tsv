@@ -1,3 +1,5 @@
 receipt_date	correction_id	action	note
 2026-09-17T12:48Z	COR-20260908-01	NO-OP	ZHAO carries neither the Ex99.2 nor the 10-Q wording nor a copied absence verdict (grep over AGENTS/ZHAO excl inbox/archive, 0 hits, VERIFIED 9/17); two-document form logged KB-ZHAO-141; board_log SIG-W-20260908-001 acted
 2026-10-09T14:35Z	COR-20261008-41	NO-OP	scope=ZHAO carries neither 'since 2001' nor 'the dataset lacks 2000 auctions' nor the 5.618 stop - grep over AGENTS/ZHAO excl. inbox/ = 0 files, 2026-10-09 EDT. -036 was INFO to ZHAO and no ZHAO surface consumed it; SIG-W-20261008-041 consumed, board_log row 2026-10-09
+2026-11-06T22:25Z	COR-20261106-36	NO-OP	scope=ZHAO never carried SoftBank's 13% or 21.5% leverage line: grep of STATUS, NEXUS_BRIEF and KB.tsv for the card's kill string = 0 hits, 2026-11-06 17:25 ET. Card 030 logged info-only, SAM owns the figure.; 
+2026-11-06T22:25Z	COR-20261106-41	APPLIED	artifact=AGENTS/ZHAO/workbook/KB.tsv#KB-ZHAO-236; validation_ref=NONE; ABB bar is the China business only, read from WALTER card 041, not the primary. Kill strings: 0 hits on ZHAO surfaces 2026-11-06. SAM leverage carried as context only.
