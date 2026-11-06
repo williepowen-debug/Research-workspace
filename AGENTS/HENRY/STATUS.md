@@ -54,7 +54,7 @@ No threshold, band, trade or gate changed. Three new forecasts registered (HEN-6
 | 11/2 | 7,541.40 (−0.51%) | 21.15 | 22.46 | 21.60 | 110.47 | 152.78 | **inverted** (9D > 3M) |
 | 11/3 | 7,568.92 (+0.36%) | 20.83 | 21.96 | 21.27 | 107.40 | 150.01 | **inverted** |
 | 11/4 | 7,688.62 (+1.58%) | 16.61 (−20.26%) | 15.19 | 18.80 | 90.41 | 150.90 | contango |
-| 11/5 | **7,353.73 (−4.36%)** | **28.18 (+69.66%)** | 32.66 | 25.55 | 134.99 | 149.37 (vendor, provisional) | **inverted** (VIX3M/VIX 0.9067, VIOLET: fired) |
+| 11/5 | **7,353.73 (−4.36%)** | **28.18 (+69.66%)** | 32.66 | 25.55 | 134.99 | 149.37 (Cboe History confirmed) | **inverted** (VIX3M/VIX 0.9067, VIOLET: fired) |
 
 **11/6 09:58 ET (vendor, not a close):** VIX 24.99, VIX9D 27.59, VIX3M 23.85, VVIX 124.63; still inverted. KRE $72.31 and USD/JPY 158.36 [vendor 11/5]. Cascade proxy: SPX 50-day 7,686.53; layers 1 and 2 met on the 11/5 close. VIOLET owns the vol broadcast: VVIX 120 fired, VIX 30 not, high 28.36 (SIG-VIO 11/5). Inversion marks peaks, not onsets, on its base rate (KB-VIO-034). Files: `research/2026-11-06_nfp/`.
 
@@ -115,7 +115,7 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 |---|---|
 | Cyclical | Inflation pressure persists (September CPI/PPI hot on energy; core PCE +0.3% m/m, 3.1% y/y [BEA 10/29]; ISM prices 75.2 manufacturing / 73.0 services [Oct]) while activity holds (ISM 55.5 / 54.5 [Oct]). October payrolls +165K with wages firm; LABOR stood its freeze thesis down on its own kill rule, a hiring read and not a layoffs read, 15K over the bar on a first print (WALTER 010). Read-through here: the labor leg no longer argues for an equity bid break, and it supports the hike side of the rate path. Brent January about $98.29 on 11/5 (BRENT mark, [EST]). Treasury par 11/5: 2Y 4.46%, 10Y 4.84%, 30Y 5.25%; 2Y 4.54% at 09:57 ET 11/6, not a par print. |
 | AI-capex | HEN-36 mechanism RESOLVED-CONFIRMED; class-wide de-rate expression FALSIFIED. Q3 hyperscaler cluster closed with **no capex cut** (VULCAN 10/30: AMZN held ~$220B for 2026, TTM FCF −$42.4B; §4b NO-VERDICT). The market sold the spend: GOOGL −12.64% (10/29), then on 10/30 SOXX −8.24%, INTC −28.58% on its results, NVDA −4.22%, QQQ −3.47% vs RSP −0.79% (VULCAN owns the capex grade; HEN-36 re-read: nothing in VULCAN's packet changes its resolution). **11/4–11/5 repeated the pattern without a capex event:** chips fell through the election relief and led 11/5 down; AMD beat its quarter on 11/3 (press) and closed −17.26% on 11/5, SMH −11.21% (vendor). |
-| Structural credit | Tail stress persists (CCC 1,320bp RED, CCC−BB 1,107bp [FRED 11/5]); broad HY **348bp, the 2026 high, six observations over 320**, +16bp on the 11/5 sell-off, BB +14; LIQUID owns the tier grade. Funding not confirmed. Not AI-led on the rated CCC tier (DEWEY 10/23). |
+| Structural credit | Tail stress persists (CCC 1,320bp RED, CCC−BB 1,107bp [FRED 11/5]); broad HY **348bp, the 2026 high, six observations over 320**, +16bp on the 11/5 sell-off, BB +14; tiers BROADENS and Gate 069 L4 fired on 11/5, funding did not move (LIQUID, card 013). VIOLET's credit-flat row met by 3bp: flat is the letter, not calm credit (card 016). Funding not confirmed. Not AI-led on the rated CCC tier (DEWEY 10/23). |
 
 **Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 348 [11/5] > 260; VIX 28.18 [11/5] > 15).
 
@@ -136,7 +136,7 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 | HY OAS | **348bp [FRED 11/5, first published]** | >320 / >400 / >500 | **YELLOW** (28 over; 52 under orange); 2026 high |
 | CCC OAS | 1,320bp [FRED 11/5] | >900 / >1000 / >1100 | RED |
 | USD/JPY | 158.36 [vendor 11/5, −0.07%] | absolute daily change ≥2%, SAM's call | NOT FIRED |
-| SKEW | 149.37 [vendor 11/5, History not posted] | >145 / >150 / >160 | YELLOW on the provisional bar (was ORANGE 150.90); RED-FT-10 owner grade separate |
+| SKEW | 149.37 [Cboe History 11/5] | >145 / >150 / >160 | YELLOW (was ORANGE 150.90); RED-FT-10 owner grade separate |
 | VIX kill leg | **28.18 [FRED VIXCLS 11/5]** | <17 / <16 / <15 one session | NOT FIRED (was YELLOW on 11/4) |
 | HY kill observable | 348bp [FRED 11/5] | <290 / <270 / <260 ×5 | NOT FIRED |
 

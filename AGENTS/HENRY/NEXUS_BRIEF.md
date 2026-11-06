@@ -9,9 +9,9 @@
 - **Profile (35d, shape only):** SPX amplification peaks about 7,250–7,300 and does not flip back by 7,000; it lightens going up, flip about 3.3% above spot.
 - **Cascade, 11/5 close:** layer 1 (VIX >23–24) and layer 2 (SPX under 50-day 7,686.53) conditions met; dollar sizes unsourced.
 - **Levered-ETF close (Morgan Stanley $52B, note unread):** shape fits in chips, size unproven; vendor minute volume unusable.
-- **Vol inputs (11/5):** VIX 28.18, VIX9D 32.66, VIX3M 25.55, VVIX 134.99, SKEW 149.37 provisional; inverted. VIOLET owns the broadcast.
+- **Vol inputs (11/5):** VIX 28.18, VIX9D 32.66, VIX3M 25.55, VVIX 134.99, SKEW 149.37 (Cboe History confirmed); inverted. VIOLET owns the broadcast.
 - **Rates (Treasury par 11/5):** 2Y 4.46% · 10Y 4.84% · 30Y 5.25%. 2Y and 10Y ORANGE; 30Y YELLOW on the print. NEXUS owns the duration letter, BOND the attribution.
-- **Credit (FRED 11/5, first published):** HY **348bp YELLOW, +16bp, the 2026 high, highest since 5/9/2025** · BB 213 (+14) · CCC 1,320 (+23) · CCC−BB 1,107 · IG 93. Broad repricing, not a tail event, modest for the equity fall. A new high is not a peak: no bottom call under the Credit-Primary Rule.
+- **Credit (FRED 11/5, first published):** HY **348bp YELLOW, +16bp, the 2026 high, highest since 5/9/2025** · BB 213 (+14) · CCC 1,320 (+23) · CCC−BB 1,107 · IG 93. Broad repricing, not a tail event, modest for the equity fall; LIQUID tiers BROADENS, funding did not move. A new high is not a peak: no bottom call under the Credit-Primary Rule.
 - **New forecasts:** HEN-60 SPX closes under its 200-day by 11/30, 0.50. HEN-61 record close by 12/31, 0.28. HEN-62 2Y par over 4.60 by 11/30, 0.60.
 - **Next:** CPI 11/10, PPI 11/13, Nvidia 11/17 after the close. Row 9 collapse leg needs Will's ruling on CYPHER's letter by the 11/18 close, or it grades UNGRADEABLE.
 
