@@ -17,7 +17,7 @@
 | LABOR | S&P hiring steepest since April 2021; ISM employment 52.4 from 52.7 | P3 | Survey disagreement in size; LABOR keeps the figure. No trigger; ISM <47 NOT-FIRED |
 | PROME | Six due items closed; R1 has no live named print; survey-band recommendation is register none | P2 | R1 successor is a frozen-letter change needing Will's ruling through PROME |
 
-Packets dated November 6 at the four owners, plus the receipt at `PROME/inbox/`. Commits are local until the closeout ask; no recipient consumption is claimed.
+Packets dated November 6 at the four owners, plus the receipt at `PROME/inbox/`. No recipient consumption is claimed.
 
 **WAITING FOR:**
 
