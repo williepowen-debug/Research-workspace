@@ -47,3 +47,19 @@ Reading: the move is confined to the contract that resolves on one strike of any
 ## Not established
 
 Cause; whether any trader had information; whether the level holds into Monday. Do not call this insider flow (`CLAUDE.md` Type 3 needs liquidity and public-news checks; the news check is incomplete).
+
+## Update 18:4x ET: retrace, Qeshm reports, resolution read
+
+**Supersedes** the "Public record checked" section where they differ. Two lines there are out of date: "no report of a US strike" still holds, but Iranian media did report projectiles on Qeshm, which my searches missed; and the Qatar line rests on card 043, corrected by card 048 (Qatar's media office denies reports of a failed deal; the words were outlets' paraphrase).
+
+**Retrace (plain Gamma read 23:34Z, not a log row):** 11/15 48.0 (47/49, liq $56.4K) · 11/30 35.5 (35/36, liq $75.7K) · 12/31 22.5 (22/23, liq $95.7K). From the 22:15Z log that gives back 16.5 of 27.5, 8.5 of 13.0 and 6.5 of 12.5. Implied another US strike 52 · 64.5 · 77.5. WTI $110 Nov 19.5. No leg closed; UMA status empty.
+
+**Reports (card 047, FALCON KB-422; relayed, not read by me):** IRNA via Al Jazeera 21:55Z, two projectiles impacted at Susa, Qeshm, aircraft heard, authorities silent. Tasnim 22:07Z and Reuters via JPost about 22:19Z, two missiles, initial, unconfirmed. Fars 21:56Z, explosions, cause unclear, possibly warning shots. Attacker unnamed; direction open. The first of these (TodayPress 21:10Z) came after the 21:04Z push began. Close in time, not a proven cause.
+
+**Resolution read (contract text, Gamma, 23:34Z):**
+- Counts: a US-initiated air or surface-to-surface missile strike that directly impacts Iran's land territory, internal waters included. Qeshm is Iranian land. Created 11/04, so an 11/06 event is inside the window.
+- Does not count: warning shots at sea, Iranian outbound fire, intercepted munitions, threats.
+- Decided on official US and Iranian information plus a consensus of credible reporting. No single statement or denial governs.
+- ⚠️ Without an established consensus the market stays open until 11:59 PM Iran time on the third calendar date after the named date (11/18 for the 11/15 leg). So an unresolved leg does not show that no strike happened, and these legs can sit mid-range for days.
+
+**One estimate, weak:** all three legs fell by a similar proportion at the 22:15Z low (0.53 to 0.68 of the 20:26Z level) and at 23:34Z (0.79 to 0.89). Equal proportions across dates fit a single near-term event being bet on better than a general rise in strike risk, which would hit the later dates harder. Treated that way, the crowd's odds that this event counts were about 32 to 47 at the low and about 11 to 21 at 23:34Z. Noisy books, separate prices, an inference, not a reading.

@@ -6,6 +6,7 @@
 
 - **Effective ceasefire legs broke from 16:04 ET:** 59.0 · 40.0 · 28.5 (20:26Z) → 31.5 · 27.0 · 16.0 (22:15Z); book 22:23Z 30/33 · 26/29 · 15/16; 11/15 swung 31.5 to 36. Oil, invade, war and Hormuz legs did not follow. Cause NOT established.
 - **VX-ORC-07:** Alert → Critical (11/15 pair, WQ-439 A).
+- **Retrace and Qeshm (18:3x ET):** 23:34Z Gamma read, not a log row: 48.0 · 35.5 · 22.5. Cards 047, 048 and FALCON's packet consumed. Iranian media report projectiles at Qeshm, attacker unnamed, not established as a US strike. KB-ORC-129. My 17:2x ET line that the Qatar remark came before the break rested on card 043, now corrected by 048.
 - **Everything else near flat:** PM hike 76.5, Kalshi 78.0, WTI $110 19.5, spread +71.0.
 
 ## WHAT I DID (11/06 close refresh)
@@ -21,7 +22,7 @@
 
 - **🔴 Weekend reads, WQ-646 A (Will 11/06 17:44 ET; `PROME/proposals/2026-11-06_wq646-647-RULED.md`):** Sat 11/07 about 08:00 ET and Sun 11/08 about 15:00 ET, context only, these two reads only. Timers are one-shot session jobs (`657db5cf`, `6d1a6129`) in the window opened 11/06 17:15 ET: they die if this session exits and fire only while it is idle. If a fresh session reads this after a slot passed with no row in `ODDS_LOG.tsv`, that read was MISSED: run it and say so.
 - **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv` and VX-ORC-12. Next ledger row is ET Mon 11/09.
-- **🔴 Effective ceasefire, first thing Mon 11/09:** did the 16:04 ET break hold, and did oil follow at Sunday's reopen? Any leg resolving NO = another qualifying strike. Find the cause if a wire reached it; re-test on a second venue (`kalshi.py search "Iran strike"` was NOT CERTIFIED). The routine runs weekdays only.
+- **🔴 Effective ceasefire, weekend reads and Mon 11/09:** baseline is 23:34Z 48.0 · 35.5 · 22.5, not the 22:15Z low. Without consensus a leg stays open to its named date + 3 (11/18), so unresolved is not all-clear. Did the 16:04 ET break hold, and did oil follow at Sunday's reopen? Any leg resolving NO = another qualifying strike. Find the cause if a wire reached it; re-test on a second venue (`kalshi.py search "Iran strike"` was NOT CERTIFIED). The routine runs weekdays only.
 - **🟠 Rolls:** Hormuz weekly → wk-of-11/9 at 11/09 · Hormuz on-date · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
 - **🟠 Kalshi CPI:** `KXCPIYOY-26OCT` 404; decide on pinning `KXCPIYOY-26NOV` rungs near the mode (November data, closes 12/10; OI 57.4K on `T3.8`) after HENRY's view. October CPI grade (KB-ORC-124) then rests on PM's thin book.
 - **🟠 `TRADE.md`:** regenerate tables from `TRADE_MARKS.tsv` (current); rendered tables are as of 11/04.
