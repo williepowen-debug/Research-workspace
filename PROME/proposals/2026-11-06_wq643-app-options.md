@@ -10,7 +10,7 @@ PROME's queue options and recommendation. The exact queue row remains authoritat
   "recommended_choice_id": "A",
   "confirmation": {
     "mode": "chat",
-    "scope": "frozen_letter",
+    "scope": "other",
     "reason": "The installed fallback requires matching confirmation in PROME’s chat for every answer."
   },
   "choices": [
