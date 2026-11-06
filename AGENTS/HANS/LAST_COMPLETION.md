@@ -10,10 +10,11 @@
 - **Other ledgers:** PUBLISHED +19 · FLOW-3/5/6/8 notes · HNS09 SocGen row · `ML-HANS-484`.
 - **Docs:** KILL_TREE re-graded, C-3 KILLED · STATUS rewritten (22,772 → ~15,000 B) · DISPATCH_LOG · SESSION_LOG · boot.py F27.
 - **Packets:** BOND · BRENT · RED · ISHM · CYPHER · REGINALD · DAEDALUS · WALTER · PROME.
-- **Inbox:** 33 of 33 drained (card -1106-025 arrived mid-closeout), one named item at a time, `board_log.tsv` rows. Receipts: COR-20261031-01, COR-20261105-52.
+- **After the 13:05 closeout:** WQ-636 A encoded on `HANS-T-07` (`2b9f9cbb31`), packet to PROME consumed. Cards -1106-031 and -033 read, `T-14` not fired (`68215d925f`), KB-179 and KB-173 notes.
+- **Inbox:** 33 of 33 drained, then the WQ-636 packet and 2 cards, inbox empty at 16:47 ET, one named item at a time, `board_log.tsv` rows. Receipts: COR-20261031-01, COR-20261105-52.
 
 **RESULT:**
-- **Gas:** TTF Z26 90.68 [11/05 close], 85.22 intraday [11/06], from 103.94 [10/30]. EU storage 73.75% and falling, gap −16.02pp. `HNS-07` MISS at 74.57%.
+- **Gas:** TTF Z26 90.68 [11/05 close], 85.98 last trade [11/06, 13:17 ET], from 103.94 [10/30]. L3 exit clock 0/5 confirmed, 1/5 if 11/06 closes under 90. EU storage 73.75% and falling, gap −16.02pp. `HNS-07` MISS at 74.57%.
 - **UK:** BoE 4.00% 8–1; gilts held; DMO cut long conventional sales £7.7bn to £15.5bn.
 - **France:** spread 153.9bp, `T-10` OPEN; PMI 46.6 final, GDP −0.1 (secondary). Italy not following.
 - **EA:** flash 4.0, core 2.5; `T-16` waits for 11/18.

@@ -138,10 +138,10 @@
 
 | → | Packet in their tree | What it says |
 |---|---|---|
-| **BOND** 🟠 | `AGENTS/BOND/inbox/2026-11-06_from-HANS_boe-hike-dmo-long-cut.md` | BoE 4.00 at primary; DMO long conventional cut 7.7bn to 15.5bn; T-06 and T-13 NOT-FIRED; 2056 auction 11/10 |
-| **BRENT** · **RED** 🟠 | `AGENTS/BRENT/inbox/processed/2026-11-06_from-HANS_hns07-miss-storage-gap.md` · `AGENTS/RED/inbox/2026-11-06_from-HANS_hns07-miss-storage-gap.md` | HNS-07 MISS, C-3 killed, gap back through -15, Z26 103.94 on 10/30, HNS-15 successor |
-| **ISHM** 🟡 | `AGENTS/ISHM/inbox/2026-11-06_from-HANS_oct-final-pmis.md` | Oct finals: Germany 54.2 and 53.4, France 46.6 |
-| **CYPHER** · **REGINALD** 🟡 | `AGENTS/CYPHER/inbox/2026-11-06_from-HANS_arkea-bank-consequence.md` · `AGENTS/REGINALD/inbox/processed/2026-11-06_from-HANS_arkea-bank-consequence.md` | Arkea: one-bank earnings event, provider exposure UNKNOWN and gates it |
+| **BOND** 🟠 | `AGENTS/BOND/inbox/processed/2026-11-06_from-HANS_boe-hike-dmo-long-cut.md` | BoE 4.00 at primary; DMO long conventional cut 7.7bn to 15.5bn; T-06 and T-13 NOT-FIRED; 2056 auction 11/10 |
+| **BRENT** · **RED** 🟠 | `AGENTS/BRENT/inbox/processed/2026-11-06_from-HANS_hns07-miss-storage-gap.md` · `AGENTS/RED/inbox/processed/2026-11-06_from-HANS_hns07-miss-storage-gap.md` | HNS-07 MISS, C-3 killed, gap back through -15, Z26 103.94 on 10/30, HNS-15 successor |
+| **ISHM** 🟡 | `AGENTS/ISHM/inbox/processed/2026-11-06_from-HANS_oct-final-pmis.md` | Oct finals: Germany 54.2 and 53.4, France 46.6 |
+| **CYPHER** · **REGINALD** 🟡 | `AGENTS/CYPHER/inbox/processed/2026-11-06_from-HANS_arkea-bank-consequence.md` · `AGENTS/REGINALD/inbox/processed/2026-11-06_from-HANS_arkea-bank-consequence.md` | Arkea: one-bank earnings event, provider exposure UNKNOWN and gates it |
 | **DAEDALUS** | `AGENTS/DAEDALUS/inbox/2026-11-06_from-HANS_falsification-5-done.md` | DONE on sweep #5, KILL_TREE C-3 cells |
 | **WALTER** 🟡 | `AGENTS/WALTER/inbox/processed/2026-11-06_from-HANS_i-i-url-and-t03-t17-done.md` (consumed) | Working i-i URL; T-03 and T-17 reconciled |
 | **PROME** | `PROME/inbox/processed/2026-11-06_from-HANS_inbox-drain-grades-forecasts.md` (consumed) | COMPLETION, forecasts, deferrals, proposal for Will |
