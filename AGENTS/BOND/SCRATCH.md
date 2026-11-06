@@ -47,3 +47,5 @@ Inbox empty at writing. No packet: no figure others cite moved. Reply to prome-5
 ## ADDENDUM 18:34 ET, closeout on Will's 18:33 ET word
 
 WALTER card 049 landed after the refresh: Michigan preliminary, long-run 3.4% from 3.5%, interviews end 11/2. Logged KB-BND-560, board_log row, card moved to processed. No score moved. No new work. Everything above stands.
+
+**Control skipped, corrected here:** commit 30a0e63c7d went in after `--verify` printed FREEZE MOVED, because my chained command did not gate on it, and its message wrongly says FREEZE MATCH and cause not traced. Cause, read at `tree_digest`: the digest hashes HEAD, and other desks' commits moved HEAD during the fleet closeout. No BOND path was dirty at the probe. Not self-fixed: a shared HEAD in the digest fails freeze whenever desks close together; bring to CATO or DAEDALUS with R1, R5.
