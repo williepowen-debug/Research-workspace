@@ -47,7 +47,7 @@ Inputs at 6/30 from SoftBank's appendix: Arm 923M shares, $1=¥162.39, margin lo
 |---|---|---|
 | Direction during the shock | Tokyo cash hours 11/6, 00:00–06:30Z: USD/JPY 157.48 → 158.14, range 0.75 yen. The yen **weakened** through a −5.96% session | Fails the unwind shape |
 | Speed bar (≥1.5–2%/day or 2–3 yen in 1–2 sessions) | 11/5 completed 157.492, −0.56%, range 1.254. 11/6 live 158.5, +0.64%, range so far 1.241, **not a completed session**. Two-session span 1.40 yen | No fire |
-| Positioning | CFTC net **long** yen +101,591 at 10/27: no short-yen pool. 11/3 print due 15:30 ET today | Fuel absent at last read |
+| Positioning | CFTC net **long** yen +102,321 at 11/3 (Δ +730): no short-yen pool. ⚠️ The window ended before the selloff, so this is positioning going in | Fuel absent going in |
 | Crosses | AUD/JPY −1.6% on 11/5 and −0.3% live, but AUD/USD −1.1% and −0.9%: mostly AUD weakness against everything. EUR/JPY −0.6% and −0.2%. Hourly vendor bars, not a synchronized study | Risk-off, not yen-led |
 | Rates | 2Y −13.5bp, 5Y −16.5bp, 10Y −14.5bp, 20Y −8.5bp, 30Y −4bp (Reuters 11/6, on-the-run, intraday). Led by the front end, so a BOJ repricing, not a rush to the long end | Policy repricing |
 | Banks | MUFG −6.52%, SMFG −5.73%, Mizuho −7.00% vs TOPIX −5.90%. In line with the market, and lower yields hurt banks anyway | No bank-specific break |

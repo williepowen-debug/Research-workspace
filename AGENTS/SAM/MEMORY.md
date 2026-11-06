@@ -41,7 +41,7 @@
 
 **TIER 0 — TUESDAY 11/10 READ ORDER:** SoftBank results 15:30 JST: ⚠️ headline LTV is at 9/30 (Arm $289.66, before the October $10B), my estimate 14–17%, so read the pro forma; check SVF2 loan drawn, Arm loan size, bridge balance, OpenAI mark, ABB cash, then re-run `ltv_remark.py` with actuals and fix KB-SAM-261. Summary of Opinions was written before the selloff: hawkish against new pricing is not a reaction. 30Y auction, frozen bars. Review combo themes KB-SAM-262/263 that day.
 
-**CARRIED, NOT READ:** Ueda 10/30 press conference; Outlook full text; September minutes; Tokyo Oct CPI analysis; SAM-33 November ops audit (11/4 onward, not audited 11/6; yields fell, so no capping motive). Ueda 11/6 IMF Q&A if any. SAM-42 is CLOSED — do not re-grade. CFTC 11/3 print: see STATUS for whether it was read.
+**CARRIED, NOT READ:** Ueda 10/30 press conference; Outlook full text; September minutes; Tokyo Oct CPI analysis; SAM-33 November ops audit (11/4 onward, not audited 11/6; yields fell, so no capping motive). Ueda 11/6 IMF Q&A if any. SAM-42 is CLOSED — do not re-grade. CFTC 11/3 read: +102,321 long, pre-selloff; the reaction shows in the 11/10 print, released Friday 11/13.
 
 **TIER 1 — DATED, FORWARD:** Nov-9 MOF quarterly (est.), SoftBank Corp · Nov-10 also US CPI, MOF October investor-type · Nov-12 5Y auction · Nov-13 FRBNY Q3 (est.), GMO · Nov-16 GDP · Dec-17–18 MPM. KOYOMI first-November run owes Nov+Dec coverage before the 56-day Nov30→Jan25 gap; 2027 holiday table (sourced) due before ~Nov-17, when the 45-day horizon crosses into 2027 (the coverage guard will fire).
 
