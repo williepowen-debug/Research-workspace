@@ -1,5 +1,7 @@
 # NEXUS — LAST COMPLETION
 
+**SESSION CLOSED — 2026-11-06T18:34:23-05:00 — LIGHT, Will's 18:33 ET word via PROME.** 9c: 22 desks moved after dc8cf36c7e, not read, deferred to L554 11/10. Nothing else changed.
+
 **CLOSE REFRESH — 2026-11-06T17:19:16-05:00 — STANDARD (correction commit), Will's 17:08 ET word via PROME, bounded, no spawns.** No grade, Conf, split or letter moved. M-04b: Cboe 25.64 [11/6] over 22.45, FRED cell absent 17:19 ET, UP 1 of 2; a FRED cell ≥ 22.45 fires, M-04 30→34, gamma read at that cell. L13: cell 14 2.60 [11/5], DOWN 2, Treasury 2.63 [11/6]; C#2 EXHAUSTS on FRED cell 15 about 11/9, then "currently un-falsifiable", no third window without Will. Card 041 corrected in READ, EDGE_MAP, RECORD; 042 NO-OP. Record → `research/2026-11-06_close-refresh/RECORD.md`. Promotion none. skipped: BOOT 6 digest and matrix sweep (no spawns, owed L554 11/10); 0b carried from the 15:45 pass, no letter text changed; 9a not due; 15a no rewrite; 15b no new obligation; root 1c, figures are SAM's, WALTER ran it; memory none. Next: Monday VIX, DFII10, HY cells, then L554.
 
 **SESSION CLOSED — 2026-11-06T15:47:34-05:00 — LIGHT tail on the STANDARD pass below, PROME closeout ask.** PROME filed the receipt: DOCKET L631 RESOLVED (verified at the row), GIBBS owns the bank data-center total (packet verified), the M-01 and M-05 hold stands to L554 11/10. Closing freshness: BROCK and SHADE moved after the read, cited figures still present; LIQUID, SAM and VULCAN loop legs had not landed, read them at L554. Promotion none. skipped: as the block below.
