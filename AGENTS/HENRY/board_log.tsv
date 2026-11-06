@@ -869,3 +869,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T11:34:44-05:00	SIG-W-20261106-019	acted	INBOX_WALTER	Reported cause of 11/5 and Nomura $47B carried with caveats; one event with Morgan Stanley estimate, counted once in combo. Other items not HENRY lines.
 2026-11-06T11:34:44-05:00	SIG-W-20261106-022	info-only	INBOX_WALTER	Distillate 99.3M and SPR 282.2M; BRENT reads against its lines. No HENRY line.
 2026-11-06T11:34:44-05:00	SIG-W-20261106-024	acted	INBOX_WALTER	ACTION positioning context: Samlyn planned pivot logged as counterevidence on combo:levered-and-close-flows; rumors not carried. Moves no score.
+2026-11-06T15:33:57-05:00	SIG-W-20261106-028	info-only	INBOX_WALTER	BRENT cover 23.8 days, percentages hold. BRENT owns; inflation input only. No HENRY line.
+2026-11-06T15:33:57-05:00	SIG-W-20261106-029	acted	INBOX_WALTER	Microsoft-Oracle lapse and IREN delay logged on combo:ai-chips-sold-without-a-capex-cut, read with correction 034. Moves no score.
+2026-11-06T15:33:57-05:00	SIG-W-20261106-030	acted	INBOX_WALTER	OpenAI round cut logged on the same theme, first funding-side member; December read notes the channel. Friar billion slip not quoted. Moves no score.
+2026-11-06T15:33:57-05:00	SIG-W-20261106-033	acted	INBOX_WALTER	Put/call 1.05 and Bloomberg unwinding logged on combo:levered-and-close-flows, no bottom call. SOX reconciled: close −12.25% on ^SOX, not −9.5%.
+2026-11-06T15:33:57-05:00	SIG-W-20261106-034	acted	INBOX_WALTER	Correction to 029 applied before logging: larger reassessment of billions of cloud partnerships, not read as contained; size unknown.

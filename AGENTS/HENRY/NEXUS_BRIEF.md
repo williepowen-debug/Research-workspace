@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-11-06 10:2x ET, closeout on PROME's ask, WQ-626 A wake (Claude Code, Opus 5.5), written after the final STATUS write. Intraday figures stamped; 11/5 figures are closes.
+**Owner fold:** 2026-11-06 15:3x ET, second turn on Will's word via PROME, December hike read and WALTER 028–034, after the final STATUS write. Earlier fold 10:2x ET. Intraday figures stamped; 11/5 figures are closes.
 
 **View:** October payrolls beat and moved rates, not stocks. BLS first print +165K vs consensus +65K (Reuters), U-3 4.1%, Aug and Sep +84K revised. ES flat through the print; 2Y about +7bp to 4.54% at 09:57 ET (quote). Today's SPX gain is a narrow chip rebound that began before the print: at 10:17 ET SPX +1.00%, SMH +3.95%, RSP +0.08%, KRE +0.51%. Dealer gamma stays NEGATIVE on all three chains. **HEN-59 NOT FIRED, expectation MISSED.** LABOR: freeze-thaw v2 FIRED, cleared its +150K bar by 15K (BLS USDL-26-1632).
 
@@ -12,7 +12,8 @@
 - **Vol inputs (11/5):** VIX 28.18, VIX9D 32.66, VIX3M 25.55, VVIX 134.99, SKEW 149.37 (Cboe History confirmed); inverted. VIOLET owns the broadcast.
 - **Rates (Treasury par 11/5):** 2Y 4.46% · 10Y 4.84% · 30Y 5.25%. 2Y and 10Y ORANGE; 30Y YELLOW on the print. NEXUS owns the duration letter, BOND the attribution.
 - **Credit (FRED 11/5, first published):** HY **348bp YELLOW, +16bp, the 2026 high, highest since 5/9/2025** · BB 213 (+14) · CCC 1,320 (+23) · CCC−BB 1,107 · IG 93. Broad repricing, not a tail event, modest for the equity fall; LIQUID tiers BROADENS, funding did not move. A new high is not a peak: no bottom call under the Credit-Primary Rule.
-- **New forecasts:** HEN-60 SPX closes under its 200-day by 11/30, 0.50. HEN-61 record close by 12/31, 0.28. HEN-62 2Y par over 4.60 by 11/30, 0.60.
+- **December hike (15:00 ET 11/6, fed funds futures, own calc, vendor last trade, one tick 2.8 points):** 76%, vs 82% on 11/4 and 65% on 11/5. Payrolls restored December, not the path: December regained 2.0 of 3.0bp, June 2027 3.0 of 14.0bp; peak +46bp vs +57.5bp. Growth scares take hikes out and cushion stocks; an inflation print adds hikes and does not. CPI 11/10 is the last CPI before 12/9. ORACLE odds log 20:26Z: Polymarket 77.5, Kalshi 78.0. BOND carries the rest.
+- **New forecasts:** HEN-60 SPX closes under its 200-day by 11/30, 0.50. HEN-61 record close by 12/31, 0.28. HEN-62 2Y par over 4.60 by 11/30, 0.60. HEN-63 hike at 12/9, 0.70.
 - **Next:** CPI 11/10, PPI 11/13, Nvidia 11/17 after the close. Row 9 collapse leg ruled (WQ-635 A): HENRY grades it at the 11/18 close against CYPHER's letter.
 
 No threshold, band, trade or gate changed. No Will decision needed from this desk.
