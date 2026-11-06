@@ -51,3 +51,10 @@ See the closeout message for commits and the push receipt.
 - Will's word via PROME 15:24 ET: inbox 2 of 2 cleared, AI-funding model challenged, $0, no trade. HANS: C-3 killed, no RED line, KB-RED-112 gas member. REGINALD: RED's S56 grade uses neither EGBN figure, KB-RED-114 carries the $211.8M caveat.
 - CHG-RED-057 MODERATE, report in `challenges/`, tree `research/2026-11-10_AI_FUNDING_TEST_TREE.md`. RED-30 25% to 12/31, RED-31 30% to 12/15. ML-324: RED's Meta book attack failed on the term sheets.
 - **Owed:** 🟠 **11/11:** re-review CHG-057 from SAM's and VULCAN's 11/10 reads. Feed the S60-c ledger line into the post-CPI re-derivation. Close CHG-RED-056 after reading the WQ-599 ruling (still unread).
+
+---
+
+## ADDENDUM S60-d — 2026-11-06 16:50 ET (from `date`)
+- Will's reboot word via PROME 16:46 ET. SAM's packet (committed 15:49 ET, after S60-c closed) read and verified at its funding stack, then processed.
+- Corrected in RED's own files: CHG-057 report (attack 6, steelman room, 11/10 test, independence line), the 11/10 tree, CATALYSTS, CHALLENGES. ML-325 records it. CHG-057 stays MODERATE; no weight moved.
+- **Owed unchanged from S60-c:** 🟠 **11/11:** re-review CHG-057. Now also weigh, as known before the print: bridge repaid 9/15, final OpenAI tranche paid from September notes, and the $10B OpenAI loan needing a parent guarantee (SAM, attack 4). Close CHG-RED-056 after reading the WQ-599 ruling.

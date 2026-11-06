@@ -2,6 +2,7 @@
 
 **Stamp:** 2026-11-06 15:35 ET (from `date`). **Target:** today's working model, as PROME stated it on Will's word at 15:24 ET. **Basis:** BOARD SIG-W-20261106-029, 030, 031, 034. **Class:** $0, no trade, no gate, band, weight or level moved.
 **Where the model lives:** the sentence is on no committed surface I could find. Its nearest written forms are VULCAN KB-352 ("Demand is present at a higher price"), LIQUID's "Nothing read shows financing refused", and the same line in PROME's C9 commission to TERRY.
+**Corrected 2026-11-06 16:49 ET on SAM's packet, verified at `AGENTS/SAM/research/outputs/2026-11-06_softbank/SOFTBANK_FUNDING_STACK.md`:** SoftBank leverage, attack 6, the steelman's room figure and the 11/10 SoftBank test. The verdict, the strength and every other attack are unchanged. No SoftBank bridge or ABB claim was carried here. The old 11/10 branch 'bridge taken out' had already happened: the bridge was repaid 9/15 and the undrawn $10B cancelled 9/30 (filing).
 
 ## Verdict: MODERATE. The model holds today, but its wording claims more than the evidence shows.
 
@@ -17,7 +18,7 @@
 
 - **Quantity held at a far higher price.** Meta's USD book covered the deal about as well as in April (table below). The week's supply was about $60B plus €15B, per VULCAN.
 - **Selection is visible.** IREN's Microsoft-backed notes cost 5.96%, its other GPU paper 9.0–9.51% (LIQUID, filings). On 11/5 bonds with Amazon or Meta tenants widened +3 to +35bp against CoreWeave's +42 to +73bp (secondary, TRACE not checked). Volta cleared, but at S+650 and 95 after a sounding at S+500 and 98–98.5 (KB-214, KB-227).
-- **SoftBank is not a broken promise.** SAM reads the check as new money on top of a $65B plan, with the last $10B reported complete. By RED's arithmetic from SAM's +0.11 points per $0.5B, the leverage ceiling alone would leave room for about $16B, so that ceiling does not force a check this small.
+- **SoftBank is not a broken promise.** SAM reads the check as new money on top of a $65B plan, with the last $10B reported complete. By RED's arithmetic from SAM's +0.11 points per $0.5B, the leverage ceiling alone would leave room for about $13B on SoftBank's definition or about $4B counting the loan it guarantees (corrected from about $16B), so that ceiling does not force a check this small.
 - **Microsoft's commitments still grew.** Leases not yet commenced rose $329.1B to $364.6B in the quarter to 9/30 (KB-349), though RPO was flat at −0.1%.
 - **Bull edge, the model may be too bearish.** Funding markets did not move: SOFR99−IORB +10bp, SRF $0 [11/5, LIQUID]. HYG −0.02%, CRWV +5.87%, IREN +18.80%, NBIS +8.47% [11/6 15:27 ET, vendor, not closes]. Reuters and CNBC report the 11/5 cause as Democratic wins raising regulation fears, reported only (card 019). Friar says the business grew 70% quarter on quarter, her own figure. Today's stories also follow a selloff, and reporters write more after a fall, so the cluster overstates how much news is new.
 
@@ -30,7 +31,7 @@
 | 3 | The strong names are not being spared: the premium is on the sector, not on weak names. | **STANDS on price** | Table below. Meta's 7-year premium to the AA index went +16 to +75bp. Oracle's went +36 to +188bp over BBB. Oracle now prints wider than the BB index. |
 | 4 | Outside money is thinning, and insiders are filling the gap. | **PARTLY STANDS** | Oracle's stated plan has no new public money left through FY30, by its own choice; its named levers are vendor financing, customer hardware and prepayments (LIQUID). IREN: some construction backed by Nvidia and Microsoft, about a third by large prepayments (KB-392). Nvidia guarantees went $3.5B to $108.5B in one quarter (KB-121, August). This began before this week, and insiders with cash also make near-term failure less likely. It moves the risk; it does not prove a shortage. |
 | 5 | Order books fell 40% at Meta, so buyers are leaving. | **FAILED, RED's own attack withdrawn** | $96B on $25.0B in April is 3.84x; $58B on $15.0B now is 3.87x. Cover is flat on term-sheet sizes, with order figures relayed. The deal was smaller, and the €9B euro leg sits outside this ratio. One tail remains: tenors of 2046 and longer fell from 56% to 30% of the USD deal, and the 2066 tranche did not return. That may be the issuer's choice. |
-| 6 | SoftBank is out of capacity, so "pickier" mistakes a limit for a preference. | **FAILED in strong form** | SAM's re-mark of about 21.5% leaves room against its 25% policy ceiling. Motive is unread. What survives: the largest past funder is not filling this round, whatever the reason. Arm at $118 reaches 25% on SAM's base case, against about $172 now. |
+| 6 | SoftBank is out of capacity, so "pickier" mistakes a limit for a preference. | **FAILED in strong form, with less room** | About 22% on SoftBank's definition, about 24% counting the $10B OpenAI loan SoftBank Group guarantees, against its own 25% ceiling, which is not a covenant (SAM estimate; SVF and Others held at 6/30, monetizations unknown). The check is hundreds of millions of dollars, +0.1 to +0.2 points, so the ceiling does not force it on either view. Motive is unread. What survives: the largest past funder is not filling this round, whatever the reason. Arm reaches 25% at about $128 on SoftBank's definition and about $160 counting the guarantee, against $174.62 [11/6, vendor]. |
 | 7 | "Nothing shows financing refused" is evidence. | **STANDS as a limit** | A refused financing rarely gets a press release, and the key texts are unread: Bloomberg on Microsoft and on the ECB, and most of the NYT piece. My own search found no second account of Microsoft, but it also missed the OpenAI round that CNBC confirms, so that negative is worth nothing. |
 | 8 | "No S5 letter" supports the model. | **STANDS as a limit, no change proposed** | Oracle, Meta and SoftBank's HY deal all cleared inside talk (relay) while spreads rose +57 to +175bp on the two IG names. Only Volta flexed wider. Payer notes are outside VULCAN-13 by Will's ruling, WQ-608 A, which RED does not contest. So a quiet S5 says nothing about top-of-chain pricing either way. |
 
@@ -49,13 +50,13 @@ Across all tenors, Meta widened +57 to +88bp against AA +18, and Oracle +145 to 
 
 ## Independence
 
-Count three roots, not four cards: the tenant (029 and 034 are one report and its correction), lab equity (030), and bank supervisors (031, with card 004's Bank of England item). ⚠️ All three reached us in one week of selling, so timing is not independent.
+Count three roots, not four cards: the tenant (029 and 034 are one report and its correction), lab equity (030), and bank supervisors (031, with card 004's Bank of England item). ⚠️ All three reached us in one week of selling, so timing is not independent. SAM found no SoftBank–Oracle credit tie: they share OpenAI as a counterparty, one correlated exposure on separate balance sheets.
 
 ## Dated tests
 
 | Date | Test | Fits selection | Fits rationing or worse | Owner |
 |---|---|---|---|---|
-| 11/10 01:30 ET | SoftBank results | Monetizations, bridge taken out | Fresh asset-backed borrowing to fund. ⚠️ Headline leverage is at 9/30, about 6–7 points kinder than today (SAM) | SAM |
+| 11/10 01:30 ET | SoftBank results | Unsecured funding, no new parent guarantee | New secured or parent-guaranteed borrowing, or an Arm or OpenAI sale to defend 25%. ⚠️ Headline leverage is at 9/30, about 6–7 points kinder than today (SAM) | SAM |
 | 11/10 17:00 ET | CoreWeave Q3 | Capex held or cut for site timing, new debt priced | Capex cut for funding, or draws restricted. VULCAN-191 grades the number only | VULCAN |
 | 11/19 | ING bids | Clears near par | Well under par, or pulled. Price may never be public | LIQUID, BROCK |
 | 11/17 to ~11/19 | Nvidia results and 10-Q | Guarantees flat | Guarantee book jumps again (VULCAN-17) | VULCAN |
