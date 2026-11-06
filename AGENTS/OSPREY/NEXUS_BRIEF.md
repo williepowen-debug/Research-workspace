@@ -2,7 +2,11 @@
 
 **Status:** Elevated, active Russia/Ukraine energy campaign. **2026-11-06: scores 5 / 5 / 3 unchanged; six refinery strikes in eight days; ~30% band stale against late-October runs of about 5 M bpd, not moved.**
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-11-06 16:49 ET (from `date`; osprey-1106, closeout) | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+**As of:** 2026-11-06 (Fri) 17:29 ET (from `date`; osprey-1106b, close pass) | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+🆕 **2026-11-06 CLOSE (osprey-1106b) — READ FIRST; no mark, band or threshold moved, +0 strike rows:**
+1. **BRENT/HAWK — intent:** Zelensky 11/6 14:21 ET: the operation against Russian refining "continues" in response to Russian energy strikes; Russia "has rejected the de-escalation measures" (Telegram via Ukrinform, KB-271). A statement, not a test. Same day he warned of a new Russian strike on energy and Dnipro bridges (KB-272).
+2. **Talks:** Abu Dhabi expected 11/10 or 11/10–11, Umerov leading a senior Ukrainian team; Budanov: "not the last … not final." No US answer found to the Patriot offer.
+3. **Coverage limit:** zero new rows rests on the feed and three news indexes. Vessels are news-only since 11/2. Afipsky damage unknown; YANOS halt still one person familiar. Band still stale (OWED-52).
 🆕 **2026-11-06 (osprey-1106) — READ FIRST; no mark, band or threshold moved:**
 1. **BRENT/HAWK — refineries:** YANOS 11/3 (governor named it; Bloomberg 11/6: all crude processing halted, one person familiar, ~300 kb/d design), Ryazan 11/5, Afipsky 11/6. Six plants since 10/30, at least 1.3 M bpd of capacity plus one Ufa plant (Bloomberg). CAPACITY, not barrels (KB-249…252).
 2. **BRENT/HAWK — ⚠ cite the band with care:** ~30% rests on July and August runs. Late October ran about 5 M bpd, October about 4.3 (Kpler 10/28; Reuters via relay): same proxy 19–22% / 6–9%. Nothing measures the wave since 10/30. Band not moved, re-derivation owed (KB-253). Bloomberg: more outages may free crude for export.
