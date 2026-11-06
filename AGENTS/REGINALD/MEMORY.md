@@ -79,6 +79,12 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 *11/02 morning and midday, 11/01, 10/31 and 10/30 evening entries → `archive/MEMORY_rotation_2026-11-06.md` BLOCK M16, crc32 `c6b9b3e6`.* *10/30 09:05 ET session entry → `archive/MEMORY_rotation_2026-11-02.md` BLOCK M14, crc32 `6de3a7d5`.* *10/28 PRIOR SESSION entry → `archive/MEMORY_rotation_2026-10-30.md` BLOCK M13, crc32 `5d7d98d1`.*
 
 ### CHANGES SINCE LAST SESSION
+- **Boot Fri 2026-11-06 09:55 ET, Will-launched, status only.** Claude Code, Opus 5.5, desktop `DESKTOP-BC6EF81`, session name reginald-04. Pull not run: 1 ahead (LABOR `400f6cd60`), 0 behind, other desks' dirty files. Peer list works (PROME prome-51 live). Failed connectors: definite, mtnewswire; none needed. Quartr never called.
+- **Tape 09:56 ET, vendor, not settled:** WAL $75.40 (−0.65%), KRE $72.06 (−0.33%), FLG $10.42 (−1.65%), HYG $77.33, VIX 24.93, ^TNX 4.88. No settled bar newer than 11/05, so no grade or state change. KRE shares vendor read 55.36M, +2.4% vs 11/05, not a confirmed flow.
+- **HY 11/05 not on FRED at 09:57 ET;** latest stays 332 [11/04], CCC 1,297.
+- **Filings at SEC, 09:57 ET:** FLG and CUBI Q3 10-Qs not filed. OZK FDIC FLNG newest 10/20. VLY, EGBN, BKU 10-Qs still unread.
+- **Intake:** general 4 open (unchanged, read for awareness, unprocessed); WALTER 0; WAL/OZK unACKed 0; corrections 0; predictions none due; staleness clean; BOARD 0 selected of 107 unlogged since 11/03, none dated 11/06 yet. boot.py rc 1: known alerts only (WAL, FLG ladder, FLG director buy, CFG 8-K 10/30 auditor item, inbox).
+- **11/07 run readiness:** FFIEC token live here (HTTP 200, expiry 2027-01-31). `/tmp/mi3/fac` empty after the reboot, so the cache needs rebuilding. DOCKET holiday-counting row for 11/07 is already RESOLVED 10/30.
 
 ### NEXT SESSION
 00. **FIRST: BKU 10-Q (`0001504008-26-000091`) → FL frame final and REG-32; VLY 10-Q (`0000714310-26-000049`) six asks, report 2026-11-01 §1d; EGBN 10-Q (`0001050441-26-000113`) multifamily criticized table and REG-28 maturities; all filed 11/05, unread.** Then HY 11/05 print, H.8 11/06, H.4.1 11/12, FLG 10-Q per review §5 if filed.
