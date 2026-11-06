@@ -14,7 +14,7 @@
 ## 🔴 NEXT SESSION — START HERE (2026-11-06 07:43 ET, bounded session WQ-626 A, launched by PROME prome-96)
 
 ### THE ONE THING
-**The vortex has not descended.** GFS `.anl` −0.357 [11/6 00Z] joined ECMWF −0.279 [11/5 12Z] below 0, then both came back above 0. 30, 50 and 100 hPa never went below 0 on any sampled analysis (KB-257). T1 stays fired (TERRY). Keep reading to Thu 11/12, scanning every cycle after **GFS 11/6 06Z and ECMWF 11/6 00Z**, and add the 30/50/100 hPa profile each time (`sources/2026-11-06_vortex-descent-read/prof.py`). The forecast dip is 11/10–12. The **12/04 coupling log** to TERRY has no written test; that was sent to PROME for Will, and I do not self-define it.
+**The vortex has not descended.** GFS `.anl` −0.357 [11/6 00Z] joined ECMWF −0.279 [11/5 12Z] below 0, then both came back above 0. 30, 50 and 100 hPa never went below 0 on any sampled analysis (KB-257). T1 stays fired (TERRY). Keep reading to Thu 11/12, scanning every cycle after **GFS 11/6 06Z and ECMWF 11/6 00Z**, and add the 30/50/100 hPa profile each time (`sources/2026-11-06_vortex-descent-read/prof.py`). The forecast dip is 11/10–12. The **12/04 coupling log** to TERRY has no written test; that is **WQ-631, with Will**, and I do not self-define it. No 12/04 DOCKET row while the card is unfilled (PROME). L906 is re-dated 11/12.
 
 ### FIRST THINGS NEXT SESSION
 1. **C5 exit watch:** Kaub ≤40 AND Duisburg ≤180 on the 3 most recent complete days; last graded 11/03–05 (KB-261). AEO-15 reads 11/30.
