@@ -1,4 +1,4 @@
-# OSPREY SCRATCH — 2026-11-06 (Fri) ~12:15 ET · osprey-1106 · owner boot, then PROME assignment on Will's "go ahead" 11:05 ET (prome-51)
+# OSPREY SCRATCH — 2026-11-06 (Fri) 11:55 ET (from `date`) · osprey-1106 · owner boot, then PROME assignment on Will's "go ahead" 11:05 ET (prome-51)
 
 *Rewritten in full (template). The 11/2 and 10/29 SCRATCH are in git history.*
 
@@ -29,10 +29,11 @@
 - 🔴 Refinery tempo and whether Abu Dhabi switches it off. 🟠 YANOS halt single-source. 🟠 Band stale (OWED-52). 🟠 C1 leg B unreachable; a runs substitute is Will's. 🟡 Carried OWED 41–51. Novak's two other refineries of 10/30 unidentified.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- **Not due:** OSP-07 (≥11/18; its CONFIRMED letter appears met by YANOS). **Open:** OSP-08 (≥11/20), OSP-09 (≥2027-01-04), OSP-10 (named print), OSP-11 (≥12/18). No Will decision open from this desk; WQ-470 waits on HAWK being woken (PROME).
+- **Not due:** OSP-07 (≥11/18; its CONFIRMED letter appears met by YANOS). **Open:** OSP-08 (≥11/20), OSP-09 (≥2027-01-04), OSP-10 (named print), OSP-11 (≥12/18). No Will decision open yet. WQ-470: HAWK answered 11/6; my reply with amendments A1–A4 is with HAWK (KB-268, doc §9); next PROME to Will. On adoption retire TD6/TD19 WARRISK rows + charter 5a-2 clause.
 
 ## MAIL STATE (one line per surface)
-- Inbox: clear. WALTER lane: clear (7 → processed). Outbox: PROME packet 11/6. HAWK packet of 10/29 still unread at HAWK.
+- Inbox: clear. WALTER lane: clear (7 → processed). Outbox: PROME packet 11/6, HAWK WQ-470 reply 11/6. HAWK answers filed to inbox/processed.
 
 ## PENDING PUSH / GIT
-- See the closeout receipt in the final report to PROME.
+- Clean after the WQ-470 commit; receipt in the session report.
+- Stamp note: my first 11/6 stamps were narrative and ran ahead of the commits; corrected. Take clocks from `date`.

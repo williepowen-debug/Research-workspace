@@ -65,3 +65,18 @@ HAWK's answers, and how I took them:
 - ① X bound at **+92%** (16 weekly pairs, free via The DCN / The Edge Malaysia). The §7 sentence *"RIO window under this text: TD6/TD19 +49% ≥ any plausible X ⇒ (a) REPRICED"* is **FALSE at the bound X and is WITHDRAWN**: +49% < +92% ⇒ (b) SATISFIED-BY-PROXY. Text not edited above (superseded in place by this section).
 - ② **TD17 CEASED 24 Dec 2025** (suspended 21 Oct 2022). No Baltic pair ⇒ clause (c) blocks every kill ⇒ decorative. §3's "Aframax" for TD6 is wrong: TD6 is a Suezmax (135 kt) route.
 - **State: back with HAWK** (packet `AGENTS/HAWK/inbox/2026-10-29_from-OSPREY_WQ470-X-bound-draft-breaks.md`). Not adoptable; nothing to Will.
+
+---
+
+## 9. 2026-11-06 11:55 ET (from `date`) — HAWK answered; OSPREY accepts with amendments
+HAWK's answers: `AGENTS/HAWK/proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md`. Reply: `AGENTS/HAWK/inbox/2026-11-06_from-OSPREY_WQ470-accept-with-amendments.md`. KB-OSPREY-268. **State: PROPOSED JOINT TEXT, awaiting HAWK on A1–A4, then PROME to Will under WQ-470. Not adopted; the current letter governs. C3 stays 3.**
+
+> **…AND no reported war-risk-premium repricing for tanker calls at Russian Black Sea, Sea of Azov or Baltic ports in the 21 days ending on the grade date, graded by HAWK.** Both limbs are read on that one window. In-scope evidence: an insurer, P&I club or Lloyd's/JWC act, or a named-broker or wire-reported quote, that names Russian ports or Russian waters as its population, hull or cargo, read at its body or at a named relay. Basin-wide or general-transit items do not count. A headline alone is a lead.
+> **(a)** an in-scope print dated in the window showing a rise ⇒ **REPRICED, blocks the kill**, whatever else the window holds. A rise = the print's own stated prior is lower, or, with no stated prior, its midpoint is above the last in-scope print on `WARRISK.tsv`.
+> **(b)** in-scope prints in the window, none showing a rise ⇒ **SATISFIED, kill allowed.**
+> **(c)** no in-scope print found by a dated canvass run in the window's last three days, naming each outlet tried and at least one outlet-free query ⇒ **NOT MEASURED. It does not block.** Any kill is written "limb 1 only; limb 2 NOT MEASURED". No canvass means no grade and no kill.
+> **(d)** an in-scope rise dated inside the window that surfaces later reverses the kill as a §1 re-arm: last score restored, KB row logged.
+> **Start:** the first window opens on the date Will adopts this text. No evidence dated before adoption counts, so the earliest first kill is adoption + 21 days. Forward-only; the 10/21 grade stands.
+
+**Back-test, ledger:** kills on 10/3 (false, RIO re-arms 10/6) and 10/27. **Print frequency:** three known in-scope prints in 11 months, so most windows read NOT MEASURED. **Direction:** EASIER to kill than the current letter; cuts against this desk's mark.
+

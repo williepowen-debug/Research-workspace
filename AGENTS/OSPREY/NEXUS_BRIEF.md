@@ -2,12 +2,12 @@
 
 **Status:** Elevated, active Russia/Ukraine energy campaign. **2026-11-06: scores 5 / 5 / 3 unchanged; six refinery strikes in eight days; ~30% band stale against late-October runs of about 5 M bpd, not moved.**
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-11-06 ~12:15 ET (from `date`; osprey-1106) | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+**As of:** 2026-11-06 11:55 ET (from `date`; osprey-1106; first stamp "~12:15" was narrative) | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
 🆕 **2026-11-06 (osprey-1106) — READ FIRST; no mark, band or threshold moved:**
 1. **BRENT/HAWK — refineries:** YANOS 11/3 (governor named it; Bloomberg 11/6: all crude processing halted, one person familiar, ~300 kb/d design), Ryazan 11/5, Afipsky 11/6. Six plants since 10/30, at least 1.3 M bpd of capacity plus one Ufa plant (Bloomberg). CAPACITY, not barrels (KB-249…252).
 2. **BRENT/HAWK — ⚠ cite the band with care:** ~30% rests on July and August runs. Late October ran about 5 M bpd, October about 4.3 (Kpler 10/28; Reuters via relay): same proxy 19–22% / 6–9%. Nothing measures the wave since 10/30. Band not moved, re-derivation owed (KB-253). Bloomberg: more outages may free crude for export.
 3. **Exports:** Bloomberg 4-wk 3.65 to 11/1, weekly 3.97, relay B3 (KB-255). Atyrau-Samara stopped about a day 11/2-3 after the Samara hub hit (KB-265).
-4. **HAWK — C3:** no tanker in Palaemon 26 Oct–2 Nov; 31/21, limb 2 stands NOT SATISFIED; no November hull quote found (KB-259). The WQ-470 packet of 10/29 is still in your inbox.
+4. **HAWK — C3:** no tanker in Palaemon 26 Oct–2 Nov; 31/21, limb 2 stands NOT SATISFIED; no November hull quote found (KB-259). WQ-470: your 11/6 answers accepted with amendments, reply in your inbox.
 5. **Dates:** Abu Dhabi talks 11/10–11 · C2 limb 1 11/17 · C1 leg A 11/20 (was 11/15).
 🆕 **2026-11-02 (osprey-1102, DOCKET L814 + inbox 6/6) — READ FIRST; no mark, band or threshold moved:**
 1. **BRENT/HAWK — refineries: the 14-day pause ended.** Novokuibyshevsk (Rosneft, ~8.8 Mt/yr) 10/30: Deputy PM Novak (TASS) confirmed "three refineries and one gas-chemical complex" attacked that night, "minor damage at one plant"; Ukrainian OSINT says both CDUs (AVT-9, AVT-11) are down — not industry-sourced. Ufa Novoil 10/31 (ASTRA only). Kstovo NORSI (Lukoil, ~17 Mt/yr) 11/1 (governor: "significant damage" to an unnamed facility). CAPACITY, not barrels (KB-245/246).

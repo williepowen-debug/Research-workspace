@@ -1,5 +1,5 @@
 # OSPREY STATUS
-**Last Updated:** 2026-11-06 (Fri) ~12:10 ET (from `date`): osprey-1106, owner boot then PROME assignment on Will's "go ahead" 11:05 ET (prome-51): inbox 7/7, due rows, forecasts, combination watch. **Scores 5 / 5 / 3 — NO mark moved. Band ~30% [EST] UNCHANGED BUT STALE (KB-253, OWED-52).**
+**Last Updated:** 2026-11-06 (Fri) 11:55 ET (from `date`; the first 11/6 stamp, "~12:10", was narrative, the commit was 11:16): osprey-1106, owner boot then PROME assignment on Will's "go ahead" 11:05 ET (prome-51): inbox 7/7, due rows, forecasts, combination watch. **Scores 5 / 5 / 3 — NO mark moved. Band ~30% [EST] UNCHANGED BUT STALE (KB-253, OWED-52).**
 **Evidence:** KB-OSPREY-249…267 · `STRIKES.tsv` +3 rows (11/3, 11/5, 11/6), mark **10/25 → 11/2 BOUNDED** · feed 11/6 27/27 dispositioned · board_log +7 · OSP-08…11 registered · `domain/energy-strikes/ANALYSIS_2026-11-06.md` · prior: KB-244…248 (11/2).
 
 ## ACTIVE — 2026-11-06 (no mark, band or threshold moved)
@@ -9,7 +9,8 @@
 4. **C2:** 19/30 from PNT 10/18, earliest 11/17. Limb 2 Bloomberg **3.65 to 11/1**, weekly 3.97 (B3, KB-255). Samara LPDS 11/2 stopped Atyrau-Samara about a day (companion watch, KB-265).
 5. **C3:** 31/21 limb 1 met; limb 2 NOT SATISFIED; no kill. Palaemon 26 Oct–2 Nov read: no tanker.
 6. **Talks:** Abu Dhabi 11/10–11, US-mediated, working level. Zelensky's one-month Patriot offer has no US answer found. KB-260.
-7. **Done 11/6:** inbox 7/7 · +5d re-reads ran, all three still unresolved (KB-257) · §5 EXIT RULES re-read ahead of 11/8, no fire (KB-258) · combination watch set up, 7 themes (KB-260…266) · OSP-08…11 registered. **Not done:** OSP-07 not due (grades ≥11/18) · 11/2 feed NONE rows · WARRISK enumerated canvass · Afipsky backfill · carried OWED 41–51.
+7. **WQ-470 moving:** HAWK answered 11/6: drop TD6/TD19, no X, veto on in-scope prints, silence does not block. I accepted with amendments, chiefly a trailing 21-day window (KB-268). Awaiting HAWK, then PROME to Will. Current letter governs; C3 stays 3.
+8. **Done 11/6:** inbox 7/7 · +5d re-reads ran, all three still unresolved (KB-257) · §5 EXIT RULES re-read ahead of 11/8, no fire (KB-258) · combination watch set up, 7 themes (KB-260…266) · OSP-08…11 registered. **Not done:** OSP-07 not due (grades ≥11/18) · 11/2 feed NONE rows · WARRISK enumerated canvass · Afipsky backfill · carried OWED 41–51.
 
 ## ACTIVE history — 11/2, 10/29 PM, the older rotated-block pointers, six closed dated rows and the 10/29 cross-agent lines ROTATED VERBATIM → `archive/STATUS_ROTATED_2026-11-06.md` (crc32 2821783996). The pointers inside it lead to the older archives. KB-224…248 hold the facts.
 
@@ -51,7 +52,7 @@
 | **~10/23 → OPEN** | **+5d re-read: St Petersburg PNT 10/18** (damage, tanks, loading halt) | KB-207. 10/21 + 10/23 + 10/29: no damage report (KI 10/29 names the PNT + Ruchyi depot fires only). Primorsk ~3-day pause in the week to 10/18 (KB-226), cause unknown. **Tambov/Druzhba: MOL told VG 10/20 'no disruption' (KB-240); Slovak side silent.** Primorsk halt: Bloomberg infers maintenance, not established (KB-241). |
 | **11/17** | **C2 earliest re-kill** (limb 1 30/30 from PNT 10/18 + limb 2) | Mechanism-level sweep first. |
 | **11/18** | **GATE-OSPREY-001 next review_by** | Mine; earlier on any CPC terminal strike / SPM incident. |
-| **10/29 → OPEN** | **WQ-470: ① DONE 10/29 PM, X = +92% (KB-238); ② TD17 CEASED 12/2025. Both BREAK the draft ⇒ back to HAWK (packet 10/29). Was: JOINT DRAFT AGREED with HAWK 10/29 (KB-231), §7 of `WQ470_C3_LIMB2_QUALIFIER_OSPREY-SIDE_2026-10-29.md`. OWED by OSPREY before it goes to Will: ① ≥12-week TD6/TD19 paired backfill → bind X (provisional +25%); ② verify TD17 spot route/prints. Unreachable ⇒ say so to PROME.** Was: WQ-470 RULED A (Will 21:30 ET 10/21, 'go with your recs', via PROME): draft the C3 limb-2 qualifier, FORWARD-ONLY** | Mine to draft WITH HAWK. HAWK's SCOPE option (repricing for Russian-port tanker calls) vs my CAUSE option is settled in the draft. Adopted text goes to Will as a letter change before PROME registers it. No second WQ row. The 10/21 canvass stays graded on the letter as written (NOT SATISFIED). |
+| **11/6 → OPEN** | **WQ-470: HAWK answered 11/6, OSPREY replied with amendments (KB-268, doc §9). Waiting on HAWK's word on A1–A4, then PROME to Will. On adoption I retire the TD6/TD19 WARRISK rows and the charter 5a-2 clause.** Prior: ① DONE 10/29 PM, X = +92% (KB-238); ② TD17 CEASED 12/2025. Both BREAK the draft ⇒ back to HAWK (packet 10/29). Was: JOINT DRAFT AGREED with HAWK 10/29 (KB-231), §7 of `WQ470_C3_LIMB2_QUALIFIER_OSPREY-SIDE_2026-10-29.md`. OWED by OSPREY before it goes to Will: ① ≥12-week TD6/TD19 paired backfill → bind X (provisional +25%); ② verify TD17 spot route/prints. Unreachable ⇒ say so to PROME.** Was: WQ-470 RULED A (Will 21:30 ET 10/21, 'go with your recs', via PROME): draft the C3 limb-2 qualifier, FORWARD-ONLY** | Mine to draft WITH HAWK. HAWK's SCOPE option (repricing for Russian-port tanker calls) vs my CAUSE option is settled in the draft. Adopted text goes to Will as a letter change before PROME registers it. No second WQ row. The 10/21 canvass stays graded on the letter as written (NOT SATISFIED). |
 | **✅ 11/6** | **+5d re-reads RUN, all three UNRESOLVED (KB-257):** Novokuibyshevsk all CDUs?, Ufa Novoil identity, Kstovo identity/halt | Rolls into OWED-43. |
 | **~11/8–11/10** | **+5d re-reads: YANOS 11/3 (halt, units), Ryazan 11/5 (CDU-6, damage)** · Afipsky ~11/11 | Mine. |
 | **11/10** | **Bloomberg weekly print + Abu Dhabi talks 11/10–11** | Read both at next session. |
@@ -91,6 +92,6 @@ Prior cross-agent blocks (9/19-9/24) rotated VERBATIM → `archive/STATUS_ROTATE
 **Marks 5 / 5 / 3, unchanged on 11/6. No band or threshold moved.**
 - **Refineries (5):** six strikes in eight days, with Yaroslavl reported fully halted (one source). The 5→4 test cannot pass: quiet-days leg 0/14 (earliest 11/20) and no admitted capacity-offline print. ⚠ The ~30% band is stale: runs were about 5 M bpd in late October before this wave, and nothing has measured the wave.
 - **Export terminals (5):** no in-geography event found since PNT 10/18, 19/30. Re-kill no earlier than 11/17. Exports 3.65 M bpd to 11/1.
-- **Tankers (3):** no qualifying hull since RIO 10/6; 31/21; limb 2 NOT SATISFIED, so no kill. WQ-470 waits on HAWK being woken.
+- **Tankers (3):** no qualifying hull since RIO 10/6; 31/21; limb 2 NOT SATISFIED, so no kill. WQ-470: HAWK has answered, my amendments are with HAWK, then Will.
 
 **Watch:** Abu Dhabi 11/10–11 (the switch that turned refinery strikes off in October) · Bloomberg print 11/10 · October runs print · 11/17 C2 · 11/18 OSP-07 + GATE-001 · 11/20 leg A + OSP-08.
