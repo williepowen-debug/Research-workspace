@@ -56,6 +56,7 @@
 ### CHANGES SINCE — 2026-11-06 from 09:49 ET, WQ-626 A wake (Claude Code, Opus 5.5). Closed about 10:2x ET on PROME's ask; the 11/6 session had not closed.
 
 - **Second turn 15:26 ET, Will via PROME:** December hike read and WALTER 028–034. Futures 76% (15:00 ET, own calc), December restored, path not (June 2027 3.0 of 14.0bp back). HEN-63 hike at 12/9, 0.70. My HEN-62 at 0.60 now reads rich: 2Y needs more than a full return to its 11/3–11/4 level while the far strip stayed down; the row is frozen, grade it as written. Grade the 11/6 close next session.
+- **Logged a chart-read figure that fell within hours:** put/call 1.05 from WALTER 033 went into STATUS and KB and was 0.89 at the Cboe file (WALTER 035). When a card says chart read and a primary file exists, read the file before carrying the figure. Also cited ORACLE's 11/5 read as latest until `workbook/ODDS_LOG.tsv` showed 15:26 ET; check the log, not STATUS. Fixed before commit.
 
 - **11/5 graded:** SPX 7,353.73, NDX 26,629.81, QQQ 647.05, VIX 28.18; all published walls closed broken; QQQ and NDX under their 200-days, first since 4/7/2026. HY 348bp, the 2026 high, modest for the equity fall.
 - **HEN-59 MISSED:** +165K, NOT FIRED. I priced a bare base rate of a revised run and set aside claims and ISM employment. Next payroll call starts from consensus and live inputs and states a number.
@@ -66,8 +67,8 @@
 
 ### NEXT SESSION
 
-1. **Grade the 11/6 close and finish the HEN-59 reaction note:** KRE direction on the close, RSP vs SMH, VIX final at 16:15 ET, Treasury par 2Y for HEN-62, HY 11/6 (publishes Monday 11/9). Backfill MARKET_DATA.
+1. **December pricing:** rerun ZQZ26 at 15:00 ET on 11/10 after CPI; HEN-63 resolves 12/9. **Grade the 11/6 close and finish the HEN-59 reaction note:** KRE direction on the close, RSP vs SMH, VIX final at 16:15 ET, Treasury par 2Y for HEN-62, HY 11/6 (publishes Monday 11/9). Backfill MARKET_DATA.
 2. HEN-57 CPI 11/10 (L775); HEN-58 PPI 11/13 (L776); NVDA 11/17 after the close (L926). HEN-60 and HEN-62 resolve 11/30, HEN-61 12/31; keep the row current if a close resolves one early.
 3. Row 9 collapse leg: RULED WQ-635 A, grade at the 11/18 close after 16:15 ET against `AGENTS/CYPHER/workbook/ESCALATION_WATCH.tsv` row 9 (letter in STATUS). Bank leg unsized, needs its own ruling. ECON_CALENDAR rebuild before 11/20.
 4. Unrun from Will's list: breadth rerun on closes, options volume by strike, top-name point attribution. Operating Dashboard still 10/22, same URL. QQQ short interest 10/30 settlement not posted.
-5. Review combination themes: 11/13 (`risk-off-bid-vs-hike-path`, `narrow-rebound-or-broadening`), 11/18 (`ai-chips-sold-without-a-capex-cut`), 11/20 (`levered-and-close-flows`).
+5. Review combination themes: 11/13 (`risk-off-bid-vs-hike-path`, first answer in ML-HEN-202 and -205, `narrow-rebound-or-broadening`), 11/18 (`ai-chips-sold-without-a-capex-cut`), 11/20 (`levered-and-close-flows`).
