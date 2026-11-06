@@ -34,8 +34,11 @@ Fed >=1 more hike by Dec (>4.00%)	market	KXFED-26DEC-T4.00	T1	LIQUID,HENRY,BOND
 # ★ ROLLED 2026-09-04 — July U3 finalized 8/07. Skipped straight past August, which **CLOSED ON TODAY'S 08:30 PRINT**: KXU3-26AUG-T4.2 last-traded 24.0% and closed with the book collapsed to bid 0.0 / ask 1.0 ⇒ **settling NO, i.e. U-3 came in at or below 4.2%** (T4.3 1.0%, T4.4 1.0%). Labor did NOT weaken — the hawkish leg of today's repricing. Pinned the live SEPTEMBER event (prints 2026-10-02).
 # ⚠️ ENTRY READ: >4.2% last 49.0% but the book is 9¢ wide — **cite the MID 41.5** (KB-ORC-069; the ⚠mid marker fired). >4.3% 19.0% on a 3¢ book. → LABOR, HENRY
 # ROLLED 2026-10-15: Sept U3 FINALIZED at 4.2% (>4.2 NO · >4.3 NO). -> October U3 (prints 2026-11-06). T4.1 = deepest live rung (42.3K OI); T4.2 = the step above the Sept print.
-October U3 unemployment >4.1%	market	KXU3-26OCT-T4.1	T1	LABOR,HENRY
-October U3 unemployment >4.2%	market	KXU3-26OCT-T4.2	T1	LABOR,HENRY
+# ROLLED 2026-11-06 — October U3 finalized expiration_value 4.1% (>4.0 YES, >4.1 NO, >4.2 NO; KB-ORC-124). Same strikes on the November event; closes 2026-12-04T13:29Z.
+# October U3 unemployment >4.1%	market	KXU3-26OCT-T4.1	T1	LABOR,HENRY
+# October U3 unemployment >4.2%	market	KXU3-26OCT-T4.2	T1	LABOR,HENRY
+November U3 unemployment >4.1%	market	KXU3-26NOV-T4.1	T1	LABOR,HENRY
+November U3 unemployment >4.2%	market	KXU3-26NOV-T4.2	T1	LABOR,HENRY
 #
 # ===== WATCH / DISCOVERY (series exist; no OPEN event as of 2026-06-27 — re-check & pin when listed) =====
 # These are the high-value GAP-FILLS Polymarket lacks — pin specific tickers once Kalshi opens the next event:
