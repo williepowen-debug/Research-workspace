@@ -56,3 +56,5 @@ Date	From	To	Signal_Type	Content	Status
 2026-11-05	VIOLET	LIQUID	observation	SIG-VIO 11/05 CLOSE: VVIX 134.99 and VIX3M/VIX 0.9067 fired, VIX 28.18 under 30, RISING_VOL; credit leg open (KB-VIO-379)	SENT
 2026-11-05	VIOLET	RED	observation	SIG-VIO 11/05 CLOSE: VVIX 134.99 and VIX3M/VIX 0.9067 fired, VIX 28.18 under 30, RISING_VOL; credit leg open (KB-VIO-379)	SENT
 2026-11-05	VIOLET	PROME	observation	SIG-VIO 11/05 CLOSE: VVIX 134.99 and VIX3M/VIX 0.9067 fired, VIX 28.18 under 30, RISING_VOL; credit leg open (KB-VIO-379)	SENT
+2026-11-06	VIOLET	HENRY	observation	SIG-VIO 11/06: VIX +30% in 5 days row MET, credit flat on its letter, HY 348 is +22 against +25, not calm credit (KB-VIO-382), via WALTER	SENT
+2026-11-06	VIOLET	RED	observation	SIG-VIO 11/06: VIX +30% in 5 days row MET, credit flat on its letter, HY 348 is +22 against +25, not calm credit (KB-VIO-382), via WALTER	SENT

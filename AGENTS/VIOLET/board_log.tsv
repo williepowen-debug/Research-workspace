@@ -276,3 +276,13 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T12:41:20-05:00	SIG-W-20261105-009	noted	INBOX_WALTER	HY 332 CCC 1297 [11/04]: STATUS updated; RED grades FT-06
 2026-11-05T12:41:20-05:00	SIG-W-20261105-005	noted	INBOX_WALTER	AI selling, cause reported not established: HENRY and VULCAN own
 2026-11-05T12:41:20-05:00	SIG-W-20261105-014	noted	INBOX_WALTER	QQQ under 200-day, SOXL short volume: equity domain, opinion charts excluded
+2026-11-06T10:26:58-05:00	SIG-W-20261105-027	noted	INBOX_WALTER	HENRY midday walls and gamma, superseded by card 011; vol-control leg in combo:levered-flow-close
+2026-11-06T10:26:58-05:00	SIG-W-20261105-043	noted	INBOX_WALTER	LIQUID funding: no financing constraint, SLOOS refined; combo:credit-under-flat
+2026-11-06T10:26:58-05:00	SIG-W-20261105-054	noted	INBOX_WALTER	Morgan Stanley $52B relay, note unread; combo:levered-flow-close headline only
+2026-11-06T10:26:58-05:00	SIG-W-20261105-055	noted	INBOX_WALTER	16:05 ET vendor read superseded by card 057 and Cboe History
+2026-11-06T10:26:58-05:00	SIG-W-20261105-057	acted	INBOX_WALTER	Correction NO-OP receipted: 26.86 never carried; VIX 28.18 confirmed at History KB-VIO-381
+2026-11-06T10:26:58-05:00	SIG-W-20261106-003	noted	INBOX_WALTER	Japan: SAM grades carry; combo:japan-vol-import; halt and 73 trillion not carried
+2026-11-06T10:26:58-05:00	SIG-W-20261106-008	noted	INBOX_WALTER	Hedge funds, October only, no closures; combo:hedge-fund-degrossing
+2026-11-06T10:26:58-05:00	SIG-W-20261106-011	noted	INBOX_WALTER	HENRY close grade: gamma negative, walls overhead; STATUS gamma line updated; levered flow unproven
+2026-11-06T10:26:58-05:00	SIG-W-20261106-012	acted	INBOX_WALTER	HY 348 confirmed at first-published FRED; credit-flat test closed KB-VIO-382
+2026-11-06T10:26:58-05:00	SIG-W-20261106-013	acted	INBOX_WALTER	LIQUID send row: Path-B read written KB-VIO-382; 069 L4 stays LIQUID grade

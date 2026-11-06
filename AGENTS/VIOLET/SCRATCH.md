@@ -1,16 +1,20 @@
 # VIOLET — session handoff
 
-**As of:** November 5, 2026 16:51 ET (from `date`). Close GRADED on the Cboe 16:15:01 ET print, KB-VIO-379; History CSV, SKEW and HY 11/05 pending. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**.
+**As of:** November 6, 2026 10:29 ET (from `date`). WQ-626 A wake, DOCKET L976: History confirmed, credit-flat closed. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**. Session stays open for PROME's closeout word.
 
-## CHANGES SINCE (10/30 16:50 ET → 11/05 09:39 ET)
+## CHANGES SINCE (11/05 16:51 ET → 11/06 10:20 ET)
 
-- VIX 19.42 → **21.15 [11/02]** → **20.83 [11/03]** → **16.61 [11/04]**, −20.26% on the last day. RISING_VOL on two closes, LOW_VOL again on 11/04.
-- COR1M peaked 16.39 [11/03], then −41.85% to 9.53, the largest one-day percentage drop of 5,243 sessions.
-- Futures front inverted through 11/03, +1.352% on 11/04. Election 11/03; Brent −8.7% on 11/04 on deal hopes, no deal established.
-- HY 340bp [11/03], LIQUID BROADENS; 11/04 unpublished. SKEW 150.90 [11/04].
-- WALTER: 8 cards. PROME: catch-up packet.
+- Cboe History posted 11/05. HY first-published 348bp [11/05], +16bp, CCC 13.20%, BB 213. LIQUID: Gate 069 L4 fired, tier rule BROADENS, funding unmoved. RED graded FT-06 exit 1 of 5, FT-10 0 of 4. HENRY: gamma negative on all three, QQQ and NDX first closes under the 200-day since April 7.
+- Payrolls printed 11/06, LABOR graded; VIOLET did not run the pre/post surface read. Nikkei −5.96% [11/06].
+- Intraday 11/06 10:20 ET, not a close: VIX 24.76, VVIX 120.84, VIX3M/VIX 0.9552.
 
 ## WHAT I DID
+
+- **11/06 wake:** `backfill.py --spot-only` stamped the 11/05 row SETTLE, 0 of 2,753 cells corrected, SKEW 149.37 filled. All closes matched; only the VIX low differed, 16.70 not 17.28 (KB-VIO-381). OVX and IMPLIED_CORR 11/05 matched History; CHEAP_TAIL 11/05 row added.
+- **Credit-flat closed:** first-published HY 326 to 348, +22 against +25, row MET on its letter (KB-VIO-382). Sent to HENRY and RED through WALTER, outbox SIG. Flat is not calm: 348 is the widest since 353bp [5/9/2025].
+- **Combination watch set up (WQ-622 A):** 4 themes, KB-VIO-383 to 386, charter line at step 5a, review 11/20.
+- **4 forecasts registered, frozen:** VIO-PRED-07 to 10, `research/2026-11-06_wake/LETTERS.md`.
+- 10 WALTER cards and LIQUID's packet drained; COR-20261105-57 receipted NO-OP. Bars to RED.
 
 - **11/05 close graded on the Cboe 16:15:01 ET print (KB-VIO-379, KB-VIO-380):** VVIX 120 and inversion fired, VIX 30 not, RISING_VOL, convergence 38/50. SIG in outbox, RED bars sent. Pages republished, operating picture v16, cheat-sheet v14.
 - Drained 8 WALTER cards and the PROME packet; COR-20261031-02 receipted NO-OP.
@@ -22,8 +26,8 @@
 
 ## NEXT SESSION
 
-0. **OWED FIRST: stamp 11/05 SETTLE.** At next boot run `backfill.py --spot-only` (`thresholds.py --supersede` only targets today); add SKEW and the OVX close; confirm KB-VIO-379's fires against History; check IMPLIED_CORR 11/05, stamped SETTLE by clock (KB-VIO-365). Send RED the SKEW bar. Both pages are on the close print; republish only if History differs or SKEW matters.
-1. **11/06: close the credit leg.** LIQUID posts HY 11/05 by late morning (KB-LIQ-151). Flat = at or under 351bp (KB-VIO-378). LIQUID owns the spread. Then send the 5-day row's outcome; HENRY and RED own the response.
+0. **Grade VIO-PRED-07 after History posts 11/13**, VIO-PRED-08 and 10 after 11/20, VIO-PRED-09 after 12/31. Any close that meets a letter resolves it early in fact; grade at the next owner session.
+1. **Close-out items:** prune the fired payrolls row, run closeout_guard. Both Will-facing pages still show HY 332bp and the credit leg open; republish on PROME's word or the next material trigger.
 2. FXY IV re-pull done mid-session: 12.1% [12:38 ET, 43 DTE, 5 strikes] against RV10 7.05%; carry canary CALM.
 3. Payrolls 11/06 and CPI 11/10 pre/post surface read. Verify both dates at bls.gov (403 on 11/05); CPI search unconfirmed.
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.

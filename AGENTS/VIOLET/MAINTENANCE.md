@@ -292,3 +292,10 @@ Log material structural changes only — not routine content edits. Template ado
 **Files touched:** `scripts/cheap_tail.py`.
 **Boot-impact:** none (text only; regrade suite re-run at closeout).
 **Lessons:** a printed route is an instruction its reader follows; it must name the route that is actually run.
+
+### 2026-11-06 — Combination watch charter line (WQ-622 A)
+**Trigger:** root USER.md and `PROME/COMBINATION_WATCH.md`, Will 2026-11-05.
+**What changed:** one sentence added to step 5a of `CLAUDE.md`. Class C4, moves no authority, route or threshold; PROME verifies. Four themes live as KB rows, KB-VIO-383 to 386.
+**Files touched:** `CLAUDE.md`, `workbook/KB.tsv`.
+**Boot-impact:** none.
+**Lessons:** `PREDICTIONS.tsv` is a navigation index; letters live in a frozen research file, and the index row points to it.
