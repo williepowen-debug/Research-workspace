@@ -58,7 +58,7 @@ Read at Exhibit 10.2 by OTTO, sha256 b104a4921d5840da..., EDGAR path under CIK 4
 | Item | Exhibit text |
 |---|---|
 | Refusal | Recital: each Class B Committed Note Purchaser on Schedule 1 *"exercised its right to refuse such request"*. No reason or date stated. An express refusal, not the deemed non-consent route in §2.6(c) |
-| Holders | Oaktree funds and ABF Rental Car Holdings 2025-1, $300M together on Schedule 2. Incoming: Powerscourt Investments 84 $150M, Third Point Loan $125M, Delticus Opportunities $25M |
+| Holders | Oaktree funds and ABF Rental Car Holdings 2025-1, $300M together on Schedule 2. ABF signs "By: Oaktree Fund GP IIA, LLC, its Manager", so every refuser signs through Oaktree: at most one credit decision, not several (WALTER card 052, BROCK). ABF's economic owners are not established. Incoming: Powerscourt Investments 84 $150M, sponsor not established; Third Point Loan $125M and Delticus Opportunities $25M, both Third Point LLC |
 | Conditions | Class B Funding Conditions (i) Hertz retired all Senior Notes due 2026, (j) each refuser paid in full from the new money |
 | Outside date | 12/31/2026. If unfunded: new commitments go to zero, Controlled Amortization resets to 6/28/2027, Commitment Termination to 8/31/2027 |
 | Refusers' backstop | §11.26: paid on or before 8/31/2027 by a Class B Voluntary Decrease |

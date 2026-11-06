@@ -5,3 +5,4 @@ receipt_date	correction_id	action	note
 2026-10-26T00:55Z	COR-20261019-12	APPLIED	artifact=AGENTS/OTTO/research/2026-10-25_catchup/READOUT.md#inbox-and-controls; validation_ref=AGENTS/OTTO/research/2026-10-19_ally-amendment/READOUT.md#primary-reconstruction; 
 2026-11-06T20:35Z	COR-20261106-35	NO-OP	scope=OTTO used no put/call figure in any record and consumed card 033 for its Cybertruck line only; 
 2026-11-06T23:22Z	COR-20261106-51	APPLIED	artifact=AGENTS/OTTO/research/2026-11-06_close-refresh/READOUT.md#2a; validation_ref=AGENTS/OTTO/workbook/ML.tsv#ML-OTTO-373; 
+2026-11-06T23:34Z	COR-20261106-52	APPLIED	artifact=AGENTS/OTTO/research/2026-11-06_close-refresh/READOUT.md#2a; validation_ref=AGENTS/OTTO/workbook/ML.tsv#ML-OTTO-374; 
