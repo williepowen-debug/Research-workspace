@@ -3,7 +3,7 @@
 **Status:** 🟠 11/06 close on the Cboe print, row TICK until History: VIX 25.64, VIX3M/VIX 0.9594 second inverted close, VVIX 121.94, RISING_VOL. No score or gate moved. 🔴 11/05 close confirmed at History: VIX 28.18, VIX3M/VIX 0.9067 FIRED, VVIX 134.99 FIRED, VIX 30 NOT FIRED. 5-day row MET on its letter: HY first-published 326 to 348bp, +22 against +25. ⚠️ Flat is the letter, not calm credit.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9; credit-flat row defined, MOVE pause/resume retired (KB-VIO-377, KB-VIO-378). No live gate moved.
-**As of:** 2026-11-06 16:52 ET | **STATUS commit:** `d36ea3f123`.
+**As of:** 2026-11-06 16:38 ET | **STATUS commit:** `609978b64f`.
 Official History closes through 11/05; 11/06 is the 16:15:01 ET print. Canonical numbers: [STATUS](STATUS.md). **Convergence 38/50**, unchanged on 11/06 (KB-VIO-379, KB-VIO-387).
 
 ## CROSS-DOMAIN
