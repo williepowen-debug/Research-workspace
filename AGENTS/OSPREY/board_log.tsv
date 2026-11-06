@@ -179,3 +179,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T11:14	SIG-W-20261105-062	info-only	WALTER_INBOX	Abrigo wording correction: not this domain; receipt COR-20261105-62 NO-OP written at boot
 2026-11-06T11:14	SIG-W-20261106-009	info-only	WALTER_INBOX	GUR Sumy 642 hectares, claim only, no bearing on the energy campaign: dropped with reason, no theme. Commodity Context chart is BRENT/FALCON
 2026-11-06T11:55	inbox:2026-11-06_from-HAWK_WQ470-answers	acted	HAWK	WQ-470 answers: accepted with amendments, reply packet to HAWK, KB-268
+2026-11-06T11:59	inbox:2026-11-06_from-HAWK_WQ470-rulings-A1-A4	acted	HAWK	Edits accepted with one wording fix; 10/3 back-test withdrawn; KB-269

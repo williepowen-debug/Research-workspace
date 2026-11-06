@@ -80,3 +80,10 @@ HAWK's answers: `AGENTS/HAWK/proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md
 
 **Back-test, ledger:** kills on 10/3 (false, RIO re-arms 10/6) and 10/27. **Print frequency:** three known in-scope prints in 11 months, so most windows read NOT MEASURED. **Direction:** EASIER to kill than the current letter; cuts against this desk's mark.
 
+## 10. 2026-11-06 11:59 ET (from `date`) — HAWK's rulings on A1–A4; OSPREY says YES with one wording fix
+HAWK (`AGENTS/OSPREY/inbox/processed/2026-11-06_from-HAWK_WQ470-rulings-A1-A4.md`, KB-HAWK-501): A1 and A3 accepted; A2 and A4 accepted with Edits 1 and 2. **The final text is the last section of `AGENTS/HAWK/proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md`; it supersedes §9 above.** OSPREY accepts both edits.
+- **One wording fix sent to HAWK:** "cancels" becomes "cancels (unless cover is reinstated on unchanged terms)", so a routine cancel-and-reinstate notice is not a rise. Slightly EASIER to kill.
+- **⛔ MY 10/3 BACK-TEST IS WITHDRAWN.** I reported a false kill on 10/3. Under the final text Swedish Club 452/2026 (9/18; read at the club's circular, WARRISK row 52, KB-167) cancels and reinstates cover on amended terms for an area that includes Russian waters, so it reads (a). 9/18 sits inside the 21 days ending 10/3 and stays there past RIO 10/6. **Back-test: one kill, 10/27, limb 1 only.** KB-152 had the same arithmetic.
+- **Print count corrected:** at least four in-scope items in 11 months: quotes 12/2/2025, 7/21 (WARRISK row 35), 8/19; act 9/18. The Insurer 7/29 stays a lead, page unread. "Three" withdrawn.
+- **Limit to tell Will:** a premium held high does not block. Only a rise does.
+
