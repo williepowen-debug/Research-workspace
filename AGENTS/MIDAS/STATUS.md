@@ -77,7 +77,7 @@ Standing weekly rail uses Friday October 23 as the common endpoint (re-verified 
 
 ## Open on MIDAS — top 3
 
-0. **L820 SAFE October gold, print due about 11/07 (Saturday): not gradable this session.** Needs a session after the print. ≥ +10 t supports, < +5 t weakens. COT as-of 11/03 due 11/06 15:30 ET, same session can consume it and MIDAS-21 stays untouched by it.
+0. **L820 SAFE October gold, print due about 11/07 (Saturday): not gradable this session.** PROME re-dated L820 to 11/09 for a touch after the print; L819 stays open for L2, re-dated 11/18. ≥ +10 t supports, < +5 t weakens. COT as-of 11/03 due 11/06 15:30 ET, same session can consume it and MIDAS-21 stays untouched by it.
 1. **Certified gold settle:** still the M1 dependency. A certified record below $4,050 for any of 10/29, 10/30, 11/02 or 11/03 would raise the question of M1 4 → 2 and composite 13 → 11, though gold now trades back above the line. December reported $4,060.40/$4,007.90 on October 22/23; PRIMARY real yields 2.64/2.66%. One authenticated final GCZ26 record is still needed. M1 remains 4; no CME reprobe or paid feed. See `gold/research/2026-10-26_certified-settlement-review.md`.
 2. **Calendar:** contract map 11/13 · WPIC Platinum Quarterly 11/18 (MIDAS-20) · L821 TIC 11/18 · MIDAS-11/13/17 11/20 (first retrieval 11/23) · December contract roll before late-November first notice · L822 about 12/04 · MIDAS-21 12/04 · Fed 12/09 · MIDAS-22 12/18 · MIDAS-18/19 12/31 (first retrieval 2027-01-04) · MIDAS-12 2027-01-20. L2 rolling at 2 of 10 stress days.
 3. **Combination themes live:** seven, KB-256..262, review dates in their notes, first 11/20. Evidence gaps are listed in `OPEN_ITEMS.md`.
