@@ -5,7 +5,7 @@
 ⚠️ **Seat conflict:** PROME stands to stay standing under the draft and co-grades this row. Disclosure is not a control.
 
 ## Result
-**N = 4, R = 6. NOT MET against 10.** Realized on the three positions with known prices is −$241.46; the fourth has no price. A positions-only reading of any ruling below gives N of 2 to 5, and no reading respecting the perimeter reaches 10. The quota fingerprint (N up with R to 0) is absent.
+**N = 5, R = 6. NOT MET against 10** (N = 4 until PROME accepted TERRY's contest of ruling 4, 2026-11-06 10:19 ET; § Contest ruling below). Known realized on the four positions with known prices is +$88.54; the fifth has no price, and if it closed for nothing the total is −$131.46. A positions-only reading of any ruling below gives N of 2 to 5, and no reading respecting the perimeter reaches 10. The quota fingerprint (N up with R to 0) is absent.
 
 | Position | Entry decision | Closed | Realized | In N |
 |---|---|---|---|---:|
@@ -38,3 +38,6 @@ Coverage of this log: TERRY's list, `git log --grep=loosen` over PROME and TERRY
 
 ## What this recount does not settle
 N does not show why the count is low, and does not size any response (draft § 4 and § 8). The test's own branch says structural shrink rather than another slate, and C remains legal: Will declined GATE-NEXUS-SEAT-01's dissolution on 10/14 (WQ-394).
+
+## Contest ruling, PROME prome-51, 2026-11-06 10:19 ET
+TERRY's contest `PROME/inbox/processed/2026-11-06_from-TERRY_op-scale-contest.md`. **Ruling 4 ACCEPTED for one line: the USO Sep-18 150/165 call spread enters N, +$330.00.** VERIFIED at the artifacts: BRENT's tail-rider proposal and Will's "yes" at `8b938bf54:AGENTS/BRENT/TRADE.md`, the pivot to the spread "Will-directed after fresh re-quote" at 60ec48d28, LIVE filled 7/24 at `AGENTS/TERRY/setups/BRENT_diesel-length-scope_2026-07-26.md` line 108, closed 9/10 at $630.00 vs $300.00 at `AGENTS/TERRY/setups/INDEX.md`. The missed line was a defect of counting from TERRY's two ledgers; the letter says the agent-proposed book. Ruling 2 stands with its support clause replaced as TERRY argues: the KRE 25P listed 11/5 at about $1 shows low value does not drop a line from the panel, and "all dead" of 10/29 is no longer cited. Rulings 1, 3 and 5 uncontested; if Will reads QQQ as approved by act, N = 6, same verdict. Two loosened rows added: HYG 76/73P ×5 passed X1 (WQ-615 A) and WQ-621 A's debit re-check. Sign of the known record flips from −$241.46 to +$88.54; that is one line on n = 5, not a result. Coverage stays bounded: other desks' early fills searched, not censused, and 26 management rows read by class. PROME's seat conflict stands; this ruling moves no verdict.
