@@ -251,3 +251,8 @@ CATO reviewed the day's work and produced counterexamples against several of thi
 - That also makes the 11/06 bar's 85.98 provisional: a last trade can sit about 3 under the daily close (11/04). Clock stays on the practised daily close, 0/5 confirmed.
 - Not in the ruling and not added: what a missing bar does, and whether a count may span the 11/27 roll. Flagged to PROME.
 - CLAUDE.md band table left alone: the exit lives in the registry, the table carries bands only, and the T-10 exit is not in that table either.
+
+## 2026-11-06 14:15 ET, hans-1106 addendum: cards 031 and 033
+
+- 031: Bloomberg unread, Investing.com relay read (labelled AI-assisted, editor reviewed), own search found no ECB statement. No row applies; T-14 not fired. The relay adds "ECB declined to comment", which the card did not carry.
+- 033: only the France diesel line is mine; logged on KB-173. Nothing else in the card touches the desk.
