@@ -312,3 +312,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T11:17:00-05:00	SIG-W-20261106-018	acted	WALTER	Graded: UKMTO 197-26 event is 11/5 22:00Z, VI-0096; VELOS updated; IRGC two tankers CLAIM-ONLY; CENTCOM line dated about 10/28; marks held, census 7. KB-411..416.
 2026-11-06T11:17:00-05:00	SIG-W-20261106-009	noted	WALTER	Commodity Context attacks-and-flow chart, method unread; no theme member; the word Ceasefire not carried. BRENT lane for flow.
 2026-11-06T11:35:00-05:00	SIG-W-20261106-023	acted	WALTER	Graded NOT ESTABLISHED: 7700 only, Fars carries no attack claim, Tasnim unread; no mark, census or gate effect. KB-418.
+2026-11-06T11:35:00-05:00	SIG-W-20261106-020	noted	WALTER	WALTER correction of card 018 from my own packet; matches VI-0095, VI-0096, KB-411..414. No new fact.

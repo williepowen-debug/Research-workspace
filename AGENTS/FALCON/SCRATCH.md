@@ -34,7 +34,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-Inbox 0, WALTER lane 0 at 11:4x ET. Packets sent to BRENT, WALTER, PROME.
+Inbox 0, WALTER lane 0 at 11:3x ET, cards 020 and 023 consumed. Packets sent to BRENT, WALTER, PROME.
 
 ## PENDING PUSH / GIT
 Committed locally. Staying open; push at PROME's closeout ask via safe-push, not before.
