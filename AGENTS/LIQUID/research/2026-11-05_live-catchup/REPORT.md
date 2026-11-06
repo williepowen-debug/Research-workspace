@@ -243,3 +243,80 @@ Closes, yfinance 16:19 ET, against November 4: HYG −0.31%, JNK −0.27%, BKLN 
 ### 14.8 H.4.1 release November 5, read 16:37 ET, first-published, as of November 4
 
 Week average to November 4 against October 28: reserves (WRESBAL) $2,930.088B from $2,893.770B, +$36.3B; TGA (WTREGEN) $957.175B from $999.727B, −$42.6B, so the rise is largely Treasury cash leaving the TGA. Line <$2.8T, $130.1B clear. Wednesday levels: reserves (WRBWFRBL) $2,962.804B, TGA $936.248B. Primary credit $9.983B week average (+$0.482B), $9.219B Wednesday. Secondary credit 0. Fed repos: $5M week average, 0 Wednesday. Foreign repo pool $338.205B week average (+$8.043B), $334.278B Wednesday. Liquidity swaps $169M Wednesday. Nothing here can show November 5; it ends the day before.
+
+## 15. Addendum: November 5 credit print, Gate 069 L4, GSBD and Will's funding sweep, November 6 (session wake under WQ-626 A, DOCKET L970; written 10:17 ET)
+
+**Verdict.** Credit finally moved with the AI cohort and funding did not. HY 348 is the highest print of 2026 and BB took the biggest step of any rung relative to its own history, yet the overnight funding gauges were quieter on November 5 than on November 4. Price stress widened; no financing restriction is shown. That is a working read of one print, and the blind spots in §15.6 are exactly where a restriction would show first.
+
+### 15.1 November 5 credit, FRED first-published, read 10:10 ET November 6
+
+| Tier | Nov 4 | Nov 5 | d/d | d/d rank | 15-session from Oct 15 | Rule line |
+|---|---:|---:|---:|---:|---:|---|
+| IG | 91 | 93 | +2 | 96.3% | +9 | d/d +2 met; 15s +6 met |
+| BBB | 113 | 116 | +3 | 97.7% | +11 | d/d +2 met; 15s +7 met |
+| BB | 199 | 213 | +14 | 98.2% | +16 | d/d +9 met; 15s +19 missed |
+| B | 351 | 367 | +16 | 98.0% | +41 | wider |
+| CCC | 1,297 | 1,320 | +23 | 97.2% | +42 | wider |
+| HY | 332 | 348 | +16 | 98.0% | +25 | |
+
+Ranks: `transmission_check.py`, 784 daily changes, 2023-11 to 2026-11, a calm window (§5 of STATUS). HY−IG 255, CCC−BB 1,107, CCC−B 953, B−BB 154. First-published equals latest-revised on all six cells at this read. **HY 348 and HY−IG 255 are the 2026 highs on FRED latest-revised rows (prior 346 and 253, both March 30).**
+
+**Tier rule: BROADENS, on the daily clause.** REVERSES fails (CCC +23, B +16). All three daily conditions met at once, so §14.5's warning about arithmetic does not apply: this print did spread up the ladder. The clause does not distinguish a one-day beta move from a lasting one. HY >320 first-published run = 6 observations: 326 / 344 / 343 / 340 / 332 / 348.
+
+### 15.2 Gate grades on this print (LIQUID rows only)
+
+| Gate | Grade |
+|---|---|
+| GATE-LIQ-069 L4 | 🔴 **FIRED, session November 5.** IREN 18.03 from 21.71, −16.95%. Nasdaq historical close (`api.nasdaq.com`, read 10:11 ET) equals yfinance raw on both dates for all four names: NBIS 120.37 from 141.52, −14.94%; APLD 14.17 from 16.61, −14.69%; CRWV 43.66 from 48.42, −9.83%. HY +16 ≥ +5. CLI verdict FIRED, November 6 session UNGRADEABLE-PENDING-PUBLICATION. New observation of a leg already fired on the October 14 session; fired-leg count unchanged, no new consequence. |
+| GATE-LIQ-069 L1 | NOT FIRED. BB 213, 7 bp under 220 (strict). CCC 5-session −5, flat. **BB is at its highest since March 30 (222, latest-revised); BB >220 with CCC flat is the next line.** |
+| GATE-LIQ-076 | Window October 24→November 6: 1 of 3 on published (W3), W2 NOT MET as of October 28, W1 as-of November 3 pending about 15:30 ET. |
+| GATE-LIQ-079 | NOT ARMED. SOFR99−IORB +10 bp [November 5], non-calendar, under +30. |
+| GATE-LIQ-072 | NOT FIRED. IG 93 fails strict >94, basis 255 fails strict <180. |
+| GATE-HY-REKILL | 0 of 2. |
+
+Not LIQUID's to grade, print supplied only: VIOLET credit-flat (HY 5-session 326→348, +22), TERRY 344 and 350, REG-T-04 (REGINALD), RED lines, BROCK ladder row 10.
+
+⚠️ **IREN timing.** The Q1 FY27 8-K was accepted about 16:03 ET November 5 (EDGAR 21:03Z), after that close, so the fall preceded results. IREN vendor intraday 21.25 at 10:11 ET today, about +17.9%; not a close and it does not touch the grade. Only one of four names met the line, and two missed by 8 and 5 cents. ANY ONE NAME is the letter (WQ-170), so the fire stands.
+
+### 15.3 What cards and packets add (read, no grade moved)
+
+- **VIOLET close signal:** VIX 28.18, VIX3M/VIX 0.9067 inverted, VVIX 134.99. The inversion routes to LIQUID and HENRY: no LIQUID line keys on it. W3 needs VIX under 20, so it does not count November 5.
+- **ORACLE:** December hike odds fell about 17 points (Polymarket 80.5→63.5, Kalshi 81→65), cause not established. 2-year par yield fell 12 bp the same day, 4.58→4.46 [Treasury], the largest move on the curve, consistent with a repriced Fed path and not with a funding squeeze.
+- **WALTER card 004 (action, read against gates):** 23 of 24 data-centre high-yield bonds wider, CoreWeave unsecured +42 to +73 bp, ZeroHedge tables on TRACE, secondary and unchecked; TRACE not reachable here. L3 (new-issue concessions) stays NO_INSTRUMENT: secondary widening is not a concession. KB-LIQ-073 basket has no numeric line, and CCC +23 on the day means the "CCC flat" signature is not met on that session; no fire claimed. ING's $500M loan auction (bids November 19) and the Bank of England's questions are logged, no gate reads them.
+- **CYPHER (Arkéa, Finzly, Abrigo):** no rail effect on any LIQUID surface; see §15.5 and the reply packet. These surfaces cannot see a European payment rail.
+- **LABOR freeze-thaw v2 fired this morning, hiring read only, layoffs unchanged:** context; no LIQUID line reads it.
+
+### 15.4 GSBD Q3 and the Q3 BDC card
+
+10-Q accepted 17:00 ET, 8-K 18:04 ET November 5. NAV $11.70 from $12.06, −2.99% (−2.74% against adjusted $12.03). FV/Cost 0.9195 (2,857,960 / 3,108,109) from 0.9368, −1.73 pp. Non-accruals 4.2% of fair value from 2.9%, 7.3% of cost from 5.0%, 11 companies; one restored to accrual, two new names placed, further tranches at two existing names. Regular dividend held at $0.32; no supplemental declared post-quarter ($0.03 the quarter before). NII $0.32 covers it exactly; EPS $(0.04). Net debt/equity 1.21x from 1.35x. The book shrank: $371.2M sales and repayments against $40.5M commitments.
+
+**Card state: CONFIRM is closed on all three routes, REFUTE not met, MIXED only in part.** Route 1 needs two names; GSBD is one and MAIN's NAV rose. Route 2 needs three and only two names were left. Route 3 needed a fresh regular cut; GSBD and MAIN both held. MIXED's letter has FSK and GSBD marking down while MAIN and ARCC hold, but FSK did not (NAV −0.11%, FV/Cost up). PROVISIONAL until MAIN's 10-Q, not on EDGAR at 10:12 ET, so its 117% stays rounded. Detail: `workbook/BDC_MARK_CONVERGENCE_MONITOR.md`.
+
+### 15.5 Will's funding sweep (word 15:40 ET November 5), one-off, no new monitor
+
+**Answer: no sign of a dash for cash or a funding squeeze through November 5, or this morning where a reading exists.** Overnight rates eased, the Fed's backstop was unused, Treasuries and gold rose with the dollar flat. Banks and preferreds took the equity hit; credit funds fell far less than cash spreads implied.
+
+| Gauge | Reading | Against | So what |
+|---|---|---|---|
+| Fed standing repo | $0 [November 5], $0 this morning's 08:15 ET operation [November 6] | $0 [November 4] | Unused |
+| Overnight RRP | $0.125B [November 5] | $0.225B | No flight into the Fed |
+| SOFR−IORB / 75th / 99th | +2 / +7 / +10 bp [November 5] | +4 / +10 / +12 | Eased |
+| TGCR−IORB, EFFR−IORB | 0, −2 bp [November 5] | +3, −2 | Eased |
+| Bills | Last auctions November 5, 4-week 2.46x, 8-week 2.68x, held during the fall; none since | §14.6 | Soft 4-week, not a failure; next test November 9 |
+| Treasury par curve [Treasury, November 5] | 3M 4.17, 2Y 4.46, 5Y 4.59, 10Y 4.84, 30Y 5.25 | 4.21, 4.58, 4.69, 4.90, 5.28 | Rally led by the front end |
+| Gold, DXY, USD/JPY (vendor closes) | 4,113.5 +0.99%, 101.55 +0.04%, 158.36 −0.07% | November 4 | No dollar scramble |
+| MOVE (vendor) | 97.92 +4.30% | 93.88 | Rates vol up a little |
+| PFF, PGX, AT1.L (vendor) | −2.02%, −0.90%, −0.12% | November 4 | Bank-capital paper weak but not disorderly; AT1.L London close |
+| Bond funds (vendor) | HYG −0.31, JNK −0.27, BKLN −0.68, LQD +0.15, SJNK −0.17, ANGL −0.32, BIZD −0.79 | November 4 | Funds fell far less than the +16 bp cash move implies; that gap may close |
+| Banks (vendor) | GS −6.36, MS −5.94, C −5.04, JPM −4.19, BAC −3.62, WAL −4.24, KRE −2.46 | November 4 | Dealers hit hardest; equity, not funding evidence |
+| Fed dollar swap lines | Trade date November 4: ECB $159M, BoE $10M, BoJ $2M | October 28: ECB $164M, BoE $5M | Ordinary size; predates November 5 |
+| Commercial paper (FRED) | Nonfinancial 30-day 3.95 [November 4]; 2-month 4.15 from 4.09; financial 2-month 4.12 from 4.02; financial 30-day no row since before October 28 | Prior day | Predates November 5 and stale |
+| OFR stress index | −2.162 [November 4], funding −0.123 | −1.484 [November 3] | Predates November 5 |
+
+**This morning, tape 10:15 ET, not closes:** SPY +1.10%, VIX 24.09, ^TNX 4.876, ^FVX 4.666, DXY 102.17 +0.61%, gold −1.41%, HYG +0.05%, BIZD +0.68%, banks +0.4 to +2.4%. Yields and the dollar rose after payrolls.
+
+### 15.6 Blind spots (unchanged, and they matter more now)
+
+Cross-currency basis, swap spreads, prime-brokerage margin, repo haircuts and Treasury bid-ask are not reachable from this box. Commercial paper, the OFR index and swap lines stop at November 4, so they cannot show November 5. H.4.1 next prints November 12. Calm repo does not clear private or offshore channels. If leveraged funds were being squeezed on November 5, margin and haircuts would show it first, and those are the ones I cannot see.
+
+ETF percentages are raw closes; yfinance's dividend file stops at September here, so an ex-dividend date inside the window is not ruled out.

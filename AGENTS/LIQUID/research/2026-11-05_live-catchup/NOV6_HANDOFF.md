@@ -4,6 +4,8 @@ Written Thursday November 5, 16:4x ET, session `liquid-9d`, ahead of Will's move
 
 Limits unchanged from Will's 09:42 ET word: no trades; no change to a level, operator, instrument or consequence on a gate, kill rule, band or frozen letter; keep observation date and basis on every number; market signals through WALTER; commit own paths by exact pathspec; one packet to `PROME/inbox/`.
 
+**Done 2026-11-06 by 10:30 ET:** SOFR, GSBD, November 5 ICE print, L4, tier rule, two peer answers, funding sweep. MAIN 10-Q not filed at 10:12 ET. W1 about 15:30 ET still open. Record: `REPORT.md` §15.
+
 ## State going in
 
 HY 332, CCC 1,297, BB 199, B 351, IG 91, BBB 113 [November 4, first-published]. 069 2-of-2 FIRED unchanged, L1 and L4 NOT FIRED [November 4]. 076 NOT MET 1 of 3, window October 23→November 5. 079 NOT ARMED, +12 bp [November 4]. HY-REKILL 0 of 2. 072 NOT FIRED. Detail: `REPORT.md` §14.5 to §14.8 in this directory.
