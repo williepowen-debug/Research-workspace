@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-06T22:30:35Z, Claude Code Opus 5.5, session walter-9e on the laptop. LIGHT closeout of the close pass plus cards 047 and 048, on PROME's relay; coverage PARTIAL. Prior FULL closeout 21:52:39Z stands.
+Updated 2026-11-06T23:13:55Z, Claude Code Opus 5.5, session walter-9e on the laptop. LIGHT closeout of the close pass plus cards 047 to 050; coverage PARTIAL. Prior FULL closeout 21:52:39Z stands.
 
 ## RESUME — do these first
 
@@ -15,7 +15,7 @@ Updated 2026-11-06T22:30:35Z, Claude Code Opus 5.5, session walter-9e on the lap
 7. **Open:** CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HOMER and FERT need a fresh read, HANS and CORAL have since worked. STWD and ACRE calls unheard; RC call unheard.
 8. **WQ-622 combination watch:** WALTER has not set it up. Offer stands; Will has not answered.
 
-Calendar coverage cutoff: 2026-11-06T22:17:06Z (step 7i run at close; rows in research/2026-11-06_close-pass/CALENDAR-RECONCILIATION.tsv; UNKNOWN rows named there).
+Calendar coverage cutoff: 2026-11-06T23:13:55Z (step 7i run at close; rows in research/2026-11-06_close-pass/CALENDAR-RECONCILIATION.tsv; UNKNOWN rows named there).
 
 ## STATUS
 
@@ -25,7 +25,7 @@ November 5 total: 67 BOARD cards, 261 handoffs. November 6 total to close: 42 ca
 
 ## CHANGED
 
-November 6 close pass: cards 043–048, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier: November 6, 17:01 ET, Will's word: WALTER's foreign-dirty push hold dropped. BOARD_CONSUMPTION_SPEC v0.37; WALTER pushes at closeout like other desks; root's pull and non-ff protections unchanged. November 6 afternoon: cards 029–042 including corrections 034–037, 041, 042; COR-20261106-35, -36, -37, -41, -42 added, -27 and -34 direction fixed; §3.6 banners added to 20261023-045, 018, 023, 029, 030, 033, 036, 003, 040, 037; packets from LIQUID twice, OTTO, SHADE and SAM consumed; 25 REGISTRY rows refreshed; STATUS rotated verbatim. Earlier: November 6 boot: cards 001–028; COR-20261106-27; bookmark batch BM-20261106-02 closed 11 of 11 and marked; COR-20261106-20; Iran anchor bounded note, sweep clock unchanged; COR-20261106-15; batch BM-20261106-01 closed 30 of 30 and bookmarks marked; ten packets consumed (LABOR, HENRY, LIQUID, BROCK twice, CYPHER, VIOLET, FALCON, CORAL, HANS); REGISTRY rows refreshed. X scan worked at 14:59Z with no re-authorization by this session. Earlier: Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; 065 (correction of 007, 056, 058 on BRENT's packet), 066 and 067 (OTTO packets); ADD#26 Yanbu date line and anchor note added; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+November 6 close pass: cards 043–050, CARL and OTTO packets consumed, COR-20261106-48, §3.6 banner on 043, FALCON packet consumed; batches BM-20261106-04 (5 of 5) and -05 (15 of 15) closed; intake and bookmarks marked; Iran anchor bounded note, sweep clock unchanged; doorbells to FALCON and CARL. Earlier: November 6, 17:01 ET, Will's word: WALTER's foreign-dirty push hold dropped. BOARD_CONSUMPTION_SPEC v0.37; WALTER pushes at closeout like other desks; root's pull and non-ff protections unchanged. November 6 afternoon: cards 029–042 including corrections 034–037, 041, 042; COR-20261106-35, -36, -37, -41, -42 added, -27 and -34 direction fixed; §3.6 banners added to 20261023-045, 018, 023, 029, 030, 033, 036, 003, 040, 037; packets from LIQUID twice, OTTO, SHADE and SAM consumed; 25 REGISTRY rows refreshed; STATUS rotated verbatim. Earlier: November 6 boot: cards 001–028; COR-20261106-27; bookmark batch BM-20261106-02 closed 11 of 11 and marked; COR-20261106-20; Iran anchor bounded note, sweep clock unchanged; COR-20261106-15; batch BM-20261106-01 closed 30 of 30 and bookmarks marked; ten packets consumed (LABOR, HENRY, LIQUID, BROCK twice, CYPHER, VIOLET, FALCON, CORAL, HANS); REGISTRY rows refreshed. X scan worked at 14:59Z with no re-authorization by this session. Earlier: Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; 065 (correction of 007, 056, 058 on BRENT's packet), 066 and 067 (OTTO packets); ADD#26 Yanbu date line and anchor note added; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
@@ -34,6 +34,7 @@ November 6 close: Qeshm projectiles reported, attacker unnamed (047). Qatar's Pr
 ## GAPS
 
 - Consumer check on SoftBank 21.5%: NEXUS was off card 041 and its AI-funding read cites the old figures; packet filed at AGENTS/NEXUS/inbox/, consumption unproved.
+- Michigan November preliminary missed by step 7i: on no calendar WALTER reads, including HENRY ECON_CALENDAR; CARL caught it, card 049, about eight hours late. Monthly Michigan dates need a calendar home; flag to HENRY at next touch.
 - Card 043 miss: "no comprehensive deal" carried from paraphrase without Bloomberg or the Oxford text; dateline and Yanbu stamp wrong; FALCON caught three, Al Jazeera the fourth. Corrected 048.
 - Close of November 6: pull and scan done at 22:10Z on vendor and Cboe print rows; Cboe History, SKEW and Nasdaq rows unposted, so closes are not certified. Card 043 relies on two secondaries; Yanbu lane lines unread, not carried. Doctor MED at boot: 2 unconsumed items, DEWEY 003R parked. IRAN_WAR.md about 24,350 B and LAST_COMPLETION over or near the 75% trigger; rotation owed at the next Tier 2.
 - November 6 WALTER misses, each corrected on the record: card 018 event date from a blog stamp; card 023 benign-only precedent; card 029 omitted Reuters' "larger reassessment" line, corrected 034; card 030 wording; card 032 cluster; card 038 typed clock, fixed from the stamp; six corrections shipped without the §3.6 file banner, added later; card 003 overstated the ABB ban, corrected 041; card 037 carried LIQUID's untested negative, corrected 042. LIQUID's Q3 packet sat unread 14:20 to 15:31 ET.
@@ -103,7 +104,7 @@ LIGHT closeout of the close pass. Operational coverage PARTIAL. Publication is n
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-06T22:45:49Z",
+  "as_of": "2026-11-06T23:13:55Z",
   "next_review": "2026-11-09",
   "publication": [
     {
@@ -266,7 +267,7 @@ LIGHT closeout of the close pass. Operational coverage PARTIAL. Publication is n
     "session": "Close pass on Will's 17:08 ET word via PROME; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "Cards 043-048, one correction 048, one IMMEDIATE 047, no FLASH. Batches BM-20261106-04 and -05 closed.",
+    "11": "Cards 043-050, one correction 048, one IMMEDIATE 047, no FLASH. Batches BM-20261106-04 and -05 closed.",
     "Tier1": "STATUS, anchor, carries and receipt updated; full narrative deferred, breadcrumb in SESSION_LOG.",
     "15": "Resume list items 2 and 3 updated; calendar cutoff moved.",
     "16": "Exact paths; safe-push receipt dde9b85bd3.",
