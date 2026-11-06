@@ -1,4 +1,4 @@
-> # ⛔ 2026-11-06T16:19:48-05:00 — READ THIS BLOCK FIRST. L974 done and Will's Oracle and Microsoft assignment answered, same session (vulcan-b2, session 41894792, Claude Code, Opus 5.5). Session left OPEN: PROME asks for closeout, closeout and push are Will's call.
+> # ⛔ 2026-11-06T16:19:48-05:00 — READ THIS BLOCK FIRST. L974 done and Will's Oracle and Microsoft assignment answered, same session (vulcan-b2, session 41894792, Claude Code, Opus 5.5). Standard closeout on Will's word 16:46 ET, relayed verbatim by prome-51: "Give a command to all spawned agents to close out. We will reboot them for a fresh context window". prome-51 applied it to this Will-launched window; his words were not yet in PROME's files at 16:47 ET. Next session is a fresh boot.
 
 ▶ START HERE: **All three 11/6 slots are written** (420ee944b6): Mag-7 33.4972% [holdings 11/5], breadth +4.08pp, YELLOW [KB-397]; memory core 1mo −43.61%, DDR5 spot $60.17 [KB-398]; GPU reading 9, n=3 on-demand, Lambda dropped [KB-399]. **Oracle report: `reports/2026-11-06_oracle-microsoft-loop/REPORT.md`** [KB-400..403]. Next: 11/10 CoreWeave, 11/12 Nebius, 11/13 slot 10 + GPU 10 + S2, **before 11/15 compare IREN 10-Q exhibits 10.1 and 10.2 with GPU 1.0 for VULCAN-13 leg (c)** (BROCK: restrictions at MFSA 26 and 26(d)); sweep the BIS 11/10 row once the 11/09 publication is seen. Renew GPU cadence before 11/27. STATUS at 85% of cap after rotation; THESIS 78%.
 
@@ -12,7 +12,9 @@ RECONCILE dadf913c72af50e71bbc8803f1c4e1ba30a12acb45cac0a77401060d23722b08 EXIT 
 - Yahoo failed on two non-equity holdings lines in mag7; validation passed, 502 priced.
 - Drain: seven packets, cards 034, 036, 037, 040, 041 → processed; board_log rows. KB-251, 379, 391 corrected by note. Themes 387, 389, 395 extended. L-98..100.
 - Will's open questions: charter line for WQ-622 still needs his word. Bloomberg's body is the best cheap upgrade if he can paste it. CoreWeave questions added to the 11/10 row and Nebius 11/12 confirmed, on PROME's assignment rather than his yes.
-- Not pushed: safe-push runs at closeout, which is Will's call. PROME's closeout ask is the next step.
+- 16:21 ET PROME asked for closeout without Will's word; held and said so; PROME withdrew. 16:46 ET Will's word arrived by relay; closed then.
+- Consumer checks at closeout: Mag-7 33.2351 to 33.4972, zero certified stale, 8 candidates are dated vintages; GPU mean 4.6363 to 4.8517 clean. 4b: no scope, threshold, cadence or charter date changed; the charter carries no BIS 11/10 date. No auto-memory written. No background job: the waiter was already dead.
+- OPEN for the next session: VULCAN-13 leg (c) exhibit comparison before 11/15; BIS 11/10 row sweep; GPU cadence renewal before 11/27; WQ-622 charter line, Will's own word; STATUS 85%, THESIS 78% of cap; 12/15 Oracle tests in CATALYSTS.
 
 > # ⛔ 2026-11-06T10:00:09-05:00 — prior block. Boot and status on Will's task, Will-launched per prome-51 10:00 ET, closeout is his call (vulcan-b2, session 41894792, Claude Code, Opus 5.5). Intake only; session left OPEN, not closed out. PROME assigned DOCKET L974 under WQ-626 A at 10:00 ET.
 
