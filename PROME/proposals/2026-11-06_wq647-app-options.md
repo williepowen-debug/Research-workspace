@@ -6,7 +6,7 @@ PROME's queue options and recommendation. The exact queue row remains authoritat
 {
   "schema_version": "decisions-options/2",
   "wq_id": "647",
-  "queue_row_sha256": "44d174ea20743c33afbdd35914f8d995cd51ca78850e22e718c306941701b0a6",
+  "queue_row_sha256": "73478d95adb4c80bef9873896d33f589b245c99a34cc28f342f0813c5ac44f97",
   "recommended_choice_id": "A",
   "confirmation": {
     "mode": "chat",
