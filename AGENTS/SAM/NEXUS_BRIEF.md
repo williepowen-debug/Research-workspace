@@ -1,10 +1,10 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-06T20:40:46+00:00 (15:40 ET), PROME C9 commission on SoftBank's reduced OpenAI check beside card 003. **STATUS commit `114a89ad22`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-06T20:48:49+00:00 (15:48 ET), PROME C9 on SoftBank's check plus Will's funding-stack question (WQ-643). **STATUS commit `a71eeb11cb`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
 
-**Tokyo fell 6% and the yen weakened, so this was a rate repricing, not a carry unwind. December moved; SoftBank's check did not matter.** v1.7 retired-to-LOW, no successor frame, no entry. Last Will-confirmed FLAT is June 29, not a fresh broker reconciliation.
+**Tokyo fell 6% and the yen weakened, so this was a rate repricing, not a carry unwind. December moved. SoftBank's funding is odd in shape, not failing.** v1.7 retired-to-LOW, no successor frame, no entry. Last Will-confirmed FLAT is June 29, not a fresh broker reconciliation.
 
 **Carry grade, card 003: NOT a Japan-led carry unwind.**
 - USD/JPY in Tokyo cash hours 11/6: 157.48 → 158.14, 0.75-yen range, on a −5.96% Nikkei. 11/5 completed 157.492, −0.56%. 11/6 live ~158.5, not a completed session. Two-session span 1.40 yen, under the fast-move bar.
@@ -15,7 +15,9 @@
 
 **BOJ December:** Totan incremental equivalent **52** (11/6 15:15 JST) vs 82 (10/29, pre-decision); cumulative hikes to April 1.38 vs 1.94. Reuters prints 42% hike, a separate basis. Equivalents, not probabilities, and no reviewed chart sits between the two dates. Fed December hike odds ~77–79% after payrolls (card 017), so both legs push the yen weaker. **The risk is now a December skip and a weaker yen near 160, not a hike-led unwind.** Ueda's 11/6 IMF text does not discuss policy or markets; any Q&A unread.
 
-**SoftBank:** the check is ¥48B–143B, +0.07 to +0.20 leverage points, on top of a $65B plan ($55B funded at 7/31, October tranche reported complete). The quoted 13% leverage is **6/30 only**. SAM re-mark at Arm ~$172: **about 21.5%, range 20–24%**, an estimate, against SoftBank's own 25% policy ceiling, reached at Arm about $101–150. Booking OpenAI at $1.25T would be −2.7 points; the round is unclosed and VULCAN owns terms. Motive unread. Households: senior retail about ¥3.9T (¥1T of it secondary-sourced), 0.16% of household assets, no large yen senior maturity before Dec-2029: a paper-loss and confidence channel, not a run. Per-bank exposure undisclosed.
+**SoftBank (FILING unless marked):** the check is ¥48B–143B, on a $64.6B stake completed 10/1. **The $40B bridge is gone**: repaid 9/15, cancelled 9/30. Nearest large maturity: Arm margin loan about $25B, 9/2027 (relay). The $10B OpenAI loan (8/2028) is **guaranteed by SoftBank Group**, with a trigger on OpenAI's fair value. Leverage: 13% is 6/30 only; SAM estimate **about 22% on SoftBank's definition, about 24% counting the guaranteed loan**, vs its own 25% ceiling, reached at Arm about $128 and $160. SVF and Others held at 6/30; monetizations unknown. Households: senior retail about ¥3.9T, 0.16% of household assets, no large yen senior maturity before Dec-2029. Per-bank exposure undisclosed; Mizuho and SMBC are on the guaranteed loan.
+
+**Oracle loop:** no SoftBank–Oracle credit tie found. They share OpenAI as a counterparty, on separate balance sheets. The nearer circle is SoftBank–OpenAI–NVIDIA: SB Energy is OpenAI's landlord (PORTS-Pike 8.0 GW, Milam 753 MW) and NVIDIA guarantees up to $105B of that rent, not SoftBank.
 
 **Insurers:** nothing new since 10/29. Channel 1 stays retired.
 
@@ -27,13 +29,13 @@ No grade this session. **35 validated rows: 16 CONFIRMED / 16 FAILED / 1 special
 
 ## CROSS-DOMAIN
 
-**SENDING (11/6):** VULCAN `2026-11-06_from-SAM_softbank-leverage-remark.md`; WALTER `2026-11-06_from-SAM_card030-unchecked-figures.md`; PROME receipt. Consumption unverified.
+**SENDING (11/6):** VULCAN and WALTER funding-stack corrections (replace 21.5%; card 036 needs a correction); PROME receipts. Consumption unverified.
 
 **WAITING-FOR:** SoftBank 11/10 actuals; MOF curve 11/6; CFTC 11/10, released 11/13; Ueda 10/30 press conference; MOF October investor-type; an offshore basis instrument, still absent.
 
 ## NEXT DECISION POINT
 
-No Will ruling needed. **Tue 11/10 stacks three reads:** SoftBank's headline LTV at 9/30 will flatter (estimate 14–17%; read the pro forma), the Summary of Opinions predates the selloff, and the 30Y auction faces frozen bars. December MPM is 12/17–18.
+No Will ruling needed. **Tue 11/10 stacks three reads:** SoftBank's headline LTV at 9/30 will flatter (estimate 14–17%; read list in the funding stack §6), the Summary of Opinions predates the selloff, and the 30Y auction faces frozen bars. December MPM is 12/17–18.
 
 ## FORWARD CATALYSTS
 
@@ -46,4 +48,4 @@ No Will ruling needed. **Tue 11/10 stacks three reads:** SoftBank's headline LTV
 | Nov-30 17:00 JST | BOJ December purchase dates (SAM-33) |
 | Dec-17–18 | BOJ MPM |
 
-[STATUS](STATUS.md) · [SoftBank read](research/outputs/2026-11-06_softbank/SOFTBANK_CHECK_READ.md) · [BOJ primary read](research/outputs/2026-10-31_boj/BOJ_1030_READ.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Neither local nor remote persistence certifies recipient consumption.
+[STATUS](STATUS.md) · [SoftBank read](research/outputs/2026-11-06_softbank/SOFTBANK_CHECK_READ.md) · [Funding stack](research/outputs/2026-11-06_softbank/SOFTBANK_FUNDING_STACK.md) · [BOJ primary read](research/outputs/2026-10-31_boj/BOJ_1030_READ.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Neither local nor remote persistence certifies recipient consumption.
