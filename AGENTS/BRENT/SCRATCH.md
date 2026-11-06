@@ -38,6 +38,12 @@
 - AEOLUS 11/6: 10 hPa wind flips around zero, no descent to 30–100 hPa, CPC warm to 11/19; no support yet for the weather-driven gas demand leg. Idea 3 at TRADE not re-priced.
 - BRT-33 session 11/5 counts as no observation. Today's window and COT #13 remain item 1 and 2 above.
 
+## NOVEMBER 6 WAKE ADDENDUM (2026-11-06 11:43 EST, prome-51, session stays open; full closeout on PROME's word)
+- Done: distillate confirmed at EIA, card 018 supply read, COT-35B reason given, 8 items drained. Note: `research/2026-11-06_wake/NOTE.md`.
+- Owed today: COT #13 after 15:30 ET, here if woken, else Friday Close routine 16:15 ET. BRT-33 window 14:28–14:30 ET, pull within vendor reach of about 8 days. TANKER-LIVENESS owner grade only at or after 14:00 ET.
+- Owed at closeout: TRACKER stamp, NEXUS_BRIEF, SCRATCH rewrite. STATUS export row still carries week 10/23; week 10/30 crude exports were 3.675M b/d in the Thursday routine file.
+- BRT-34 next-print read: name the product-supplied leg; see registration note addendum.
+
 ## MAIL STATE
-- Inbox clear; WALTER lane clear as of 2026-11-06 08:52 EST. Session total 18 consumed, 18 ledger rows, 18 moved, including 11/6 arrivals AEOLUS vortex read and SIG-W-20261105-065.
+- Inbox clear; WALTER lane clear as of 2026-11-06 11:43 EST: 8 consumed, 8 ledger rows, 8 moved this wake. Earlier: clear as of 2026-11-06 08:52 EST. Session total 18 consumed, 18 ledger rows, 18 moved, including 11/6 arrivals AEOLUS vortex read and SIG-W-20261105-065.
 - Outbox: no open packet.

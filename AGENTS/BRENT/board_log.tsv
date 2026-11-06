@@ -786,3 +786,11 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T18:35:51-05:00	SIG-W-20261105-062	noted	INBOX_WALTER	Correction COR-20261105-62 receipted NO-OP: BRENT holds no Abrigo figure.
 2026-11-06T08:52:47-05:00	2026-11-06_from-AEOLUS_vortex-persistence-descent-read	noted	INBOX	No descent below 10 hPa, CPC warm to 11/19. Gas demand leg unsupported yet; NOT-FIRED idea 3 not re-priced.
 2026-11-06T08:52:47-05:00	SIG-W-20261105-065	acted	INBOX_WALTER	Correction COR-20261105-65 applied to NEXUS_BRIEF, SCRATCH and evening NOTE: cause wording separates Reuters from Gelber. Marks unchanged.
+2026-11-06T11:43:07-05:00	2026-11-06_from-FALCON_card018-read	acted	INBOX	Supply read: no barrels lost established, flow NOT MEASURABLE. BG-02 NOT MET, BRT-32 no event, no INCIDENTS row. research/2026-11-06_wake/NOTE.md.
+2026-11-06T11:43:07-05:00	2026-11-06_from-HANS_hns07-miss-storage-gap	noted	INBOX	HANS gas read: EU 73.75% gas day 11/04, TTF falling. HANS owns storage; no BRENT line touched. IEA sub-10% case keeps its two conditions.
+2026-11-06T11:43:07-05:00	SIG-W-20261106-009	noted	INBOX_WALTER	BRENT item only: Commodity Context chart logged to combo:gulf-flow-basis, headline only, method unread, Ceasefire label not carried.
+2026-11-06T11:43:07-05:00	SIG-W-20261106-018	acted	INBOX_WALTER	Read with COR-20 and FALCON packet. No lost barrel established. combo:gulf-access-cost. NOTE.md section 2.
+2026-11-06T11:43:07-05:00	SIG-W-20261106-020	noted	INBOX_WALTER	Correction COR-20261106-20 receipted NO-OP: BRENT never carried the 11/6 date or one missing. Note uses 2200Z 11/5, one fatality.
+2026-11-06T11:43:07-05:00	SIG-W-20261106-022	acted	INBOX_WALTER	Confirmed at EIA primary, lowest since 5/2/2003. Cover 23.8 days. No TRACKER line on the level. BRT-34 not gradeable until 11/12. Mechanism caveat in NOTE.md.
+2026-11-06T11:43:07-05:00	SIG-W-20261106-023	noted	INBOX_WALTER	FALCON owns the Osprey grade. No oil line touched.
+2026-11-06T11:43:07-05:00	SIG-W-20261106-027	noted	INBOX_WALTER	Correction COR-20261106-27 receipted NO-OP: BRENT holds no Osprey claim.
