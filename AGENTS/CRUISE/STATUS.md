@@ -37,7 +37,7 @@
 
 **Done under 11/5 rulings:** four WQ-622 themes (`combo:` KB-CRU-233..236) and three predictions, CRU-12..14, packet of IDs to PROME; DOCKET L982..984 carry the three resolutions.
 
-**Waiting on Will:** his ruling on the draft `VX-CRU-05` cells (WQ-627 A delivery, 11/6). WQ-628 is done.
+**Waiting on Will:** WQ-640, his ruling on the draft `VX-CRU-05` cells (registered by PROME 11/6, due 11/17; options A adopt now, B apply from the Q4 print, C change the lines). CRUISE writes `workbook/VX.tsv` only after PROME's packet with his word. WQ-628 is done.
 
 *October 28 and October 29 session sections → `domain/sources/STATUS_archive_2026-11-06.md`. Grades: `WATCHLIST_NCLH_Q3.md`, `WATCHLIST_RCL_Q3.md`.*
 
@@ -71,7 +71,7 @@
 
 | # | Target/Vector | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------------|-------|--------|------------|-----------------|
-| 1 | NCLH relative weakness (`VX-CRU-05`) | 4 | 🔴 | **HELD 11/5**: funding leg clean through 2027 on an endpoint test (liquidity ~$1.4B, breakeven −12.7%/yr). RED rests on leverage **5.5x** and deposits flat on +5.43% capacity. WQ-627 A: draft cells with Will 11/6, RED(4) holds until he rules | NCLH guides down · leverage keeps climbing with deposits falling · 11/17 springing test fails |
+| 1 | NCLH relative weakness (`VX-CRU-05`) | 4 | 🔴 | **HELD 11/5**: funding leg clean through 2027 on an endpoint test (liquidity ~$1.4B, breakeven −12.7%/yr). RED rests on leverage **5.5x** and deposits flat on +5.43% capacity. Draft cells at WQ-640, RED(4) holds until he rules | NCLH guides down · leverage keeps climbing with deposits falling · 11/17 springing test fails |
 | 2 | Consumer demand K-shape (`VX-CRU-03`) | 2 | 🟡 | ⛔ **Exit rule 1 limb 1 FIRED 10/29** — NCLH raised; all three Big-3 raised FY26. **RED(4) → YELLOW(2)**. Soft points remain: NCLH ticket revenue per capacity day −9.98%, CCL North America ticket −$40M | −20% booking-pace print · a Big-3 FY yield guide-down |
 | 3 | CCL stock stress (`VX-CRU-01`) | 2 | 🟡 | November 5 **−12.94%** on fixed raw basis; **ORANGE → YELLOW 10/27** (close above $27.192). Signed band-cell ambiguity remains open | Close ≤ $27.192 → ORANGE; ≤ $22.0935 → RED; no new inclusivity |
 | 4 | Fuel cost line (`VX-CRU-02`) | — | — | **OBSERVATION line since WQ-532 A (10/29)**: no colour, no weight. CCL Q3 $826/mt actual, $0.007/sh fuel hit; NCLH Q3 $819/mt | — (any future fuel trigger is a new registration through PROME) |
