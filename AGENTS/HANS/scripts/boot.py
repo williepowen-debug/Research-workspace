@@ -128,7 +128,8 @@ def _ctx(_v):
 TTF_CALENDAR = [            # (named contract, last trading day)
     ("TTFV26.NYM", date(2026, 9, 29)),
     ("TTFX26.NYM", date(2026, 10, 29)),
-    ("TTFZ26.NYM", date(2026, 11, 27)),
+    ("TTFZ26.NYM", date(2026, 11, 27)),   # ICE Endex expiry table, LTD, verified 2026-10-31 (WALTER SIG-W-20261031-021)
+    ("TTFF27.NYM", date(2026, 12, 30)),   # ICE Endex expiry table, LTD; final settlement 12/31 is a different field
 ]
 TTF_ROLL_WARN_DAYS = 3
 

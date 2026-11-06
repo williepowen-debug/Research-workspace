@@ -1,4 +1,4 @@
-# Status: LIVE. Last real data refresh: 2026-10-29 (content-derived — newest asof cell in this file). Two-clock header per PAT-044; scripts/ledger_staleness.py reads THIS line first, never mtime.
+# Status: LIVE. Last real data refresh: 2026-11-06 (content-derived — newest asof cell in this file). Two-clock header per PAT-044; scripts/ledger_staleness.py reads THIS line first, never mtime.
 # HANS PUBLISHED.tsv — the numbers THIS desk publishes that other desks consume. Read by scripts/consumer_check.py --agent HANS --from-ledger.
 # CREATED 2026-09-05. Until today this desk had NO published-figure ledger, so every consumer_check run needed the superseded value passed by hand — which means a figure I retired and forgot was structurally un-checkable. Append-only; NEVER edit or delete a prior row (the superseded values ARE the instrument).
 # `vectors` (added 2026-09-05) declares which VX row is the METRIC SURFACE for each metric. It exists because doc_audit.py C2 matched on the BARE VALUE and flagged VX-HANS-4.08 (UK CPI 2.9%) against EA_FLASH_HICP_YOY_PCT 2.9% — two different series, same digits. An unqualified identifier is a defect waiting for a reader [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]. An EMPTY vectors cell means 'no VX surface declared' and C2 skips the row rather than guessing.
@@ -149,3 +149,22 @@ ITALY_GERMANY_10Y_SPREAD_BP	113.9	2026-10-29	CURRENT — TE-derived 4.497-3.358.
 UK_GILT_UST_10Y_SPREAD_BP	31.1	2026-10-29	CURRENT - UK 10Y 5.3064 [TE 10/29] minus US 10Y 4.995 [^TNX 10/29]. Supersedes 39.0 [10/22].	VX-HANS-3.04
 EURUSD	1.1172	2026-10-29	CURRENT — Yahoo 10/29. T-11 NOT-MET. Supersedes 1.1489 [9/18] (1.1227 [10/21] was carried in VX/KB but never published here).	VX-HANS-2.01
 FED_ECB_DEPOSIT_DIFFERENTIAL_BP	137.5	2026-10-29	CURRENT, RE-CONFIRMED 10/29 on two fresh decisions: Fed HELD 3.75-4.00 on 10/28 (10-2, two dissents for a hike; primary) and ECB HELD deposit 2.50 on 10/29 (primary). Same value, new vintage.	VX-HANS-4.01
+GERMAN_MFG_PMI	54.2	2026-11-02	CURRENT - Oct FINAL, unrevised from flash, S&P via TE. T-02 stays OPEN. Supersedes 53.9 [Sept final].	VX-HANS-8.06
+GERMAN_COMPOSITE_PMI	53.4	2026-11-04	CURRENT - Oct FINAL, up from flash 52.8, S&P via TE. Supersedes 53.8 [Sept final].	
+GERMAN_SERVICES_PMI	52.5	2026-11-04	CURRENT - Oct FINAL, S&P via TE. Sept 52.9.	
+UK_10Y_GILT_PCT	5.1497	2026-11-06	CURRENT - TE 11/06 intraday. ~35bp under T-06. Supersedes 5.3064 [10/29].	VX-HANS-3.06
+UK_30Y_GILT_PCT	5.601	2026-11-06	CURRENT - TE 11/06 intraday. ~40bp under T-13. Supersedes 5.709 [10/29].	VX-HANS-3.08
+BOE_BANK_RATE_PCT	4.00	2026-11-05	CURRENT - BoE primary, 8-1, one for 4.25. Supersedes 3.75.	VX-HANS-4.02
+GERMAN_10Y_BUND_PCT	3.2499	2026-11-06	CURRENT - TE 11/06 intraday; i-i 3.22. Supersedes 3.358 [10/29].	VX-HANS-3.05
+FRANCE_10Y_OAT_PCT	4.76	2026-11-06	CURRENT - i-i 11/06. Supersedes 4.89 [10/29].	VX-HANS-3.07
+OAT_BUND_SPREAD_BP	153.9	2026-11-06	CURRENT - i-i 11/06, same value class as 153.4 [10/29]. T-10 OPEN.	VX-HANS-3.02
+FRANCE_GERMANY_10Y_SPREAD_BP	153.9	2026-11-06	CURRENT - i-i 11/06. Supersedes 153.4 [10/29].	VX-HANS-3.02
+ITALY_10Y_BTP_PCT	4.343	2026-11-06	CURRENT - TE 11/06. Supersedes 4.497 [10/29].	VX-HANS-3.09
+ITALY_GERMANY_10Y_SPREAD_BP	109.3	2026-11-06	CURRENT - TE-derived. Supersedes 113.9 [10/29].	VX-HANS-3.01
+UK_GILT_UST_10Y_SPREAD_BP	29.3	2026-11-06	CURRENT - 5.1497 minus ^TNX 4.857. Supersedes 31.1 [10/29].	VX-HANS-3.04
+EURUSD	1.1156	2026-11-06	CURRENT - Yahoo 11/06. Supersedes 1.1172 [10/29].	VX-HANS-2.01
+TTF_FRONT_MONTH_EUR_MWH	90.68	2026-11-05	CURRENT - NAMED TTFZ26.NYM 11/05 close; 85.22 intraday 11/06. Band state same either way. Supersedes 100.72 [10/28].	VX-HANS-8.01
+EU_STORAGE_FILL_PCT	73.75	2026-11-06	CURRENT - gas day 2026-11-04, AGSI+ primary. HNS-07 graded MISS at 74.57 on gas day 11/01. Supersedes 74.96.	VX-HANS-8.02
+EU_STORAGE_GAP_TO_5YR_NORM_PP	-16.02	2026-11-06	CURRENT - asof = pull date; figure REFERS TO gas day 2026-11-04. Median basis -21.25. Supersedes -14.64.	VX-HANS-8.07
+EA_FLASH_HICP_YOY_PCT	4.0	2026-11-04	CURRENT - Eurostat Oct flash, PRIMARY. FLASH: successor Oct FINAL 11/18. Supersedes 3.8 [Sept final].	VX-HANS-4.10
+FED_ECB_DEPOSIT_DIFFERENTIAL_BP	137.5	2026-11-06	CURRENT - no decision since 10/29, same value. ECB next 12/17.	VX-HANS-4.01

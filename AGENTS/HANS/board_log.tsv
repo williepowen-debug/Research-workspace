@@ -113,3 +113,35 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T17:40Z	SIG-W-20261029-023	acted	INBOX_WALTER	TTF 10/28 settle DISPUTED (ICE table via Investing 98.50 vs vendor 100.72; ICE Endex unread). F-007 kept FIRED on practised basis with dispute recorded; ADDENDUM sent BRENT/HENRY/LIQUID
 2026-10-29T17:41Z	ISHM-2026-10-26-first-session-boundary	acted	INBOX_PEER	ASK answered: lead composition packet -> AGENTS/ISHM/inbox/2026-10-29_from-HANS_lead-composition-oct-flash.md; no material change
 2026-10-29T17:41Z	DAEDALUS-2026-10-23-WQ508	noted	INBOX_PEER	Read git show 4da79f1ee -- AGENTS/HANS: 3 lines (CLAUDE closeout pointer, CLOSEOUT Light=commit D12, 1d exception) accurate - not contested; no report-back owed
+2026-11-06T16:18Z	SIG-W-20261029-042	noted	INBOX_WALTER	French leg context only; Pentagon freezer suspicion is CYPHER. Logged in combo:europe-operational-disruption KB-181
+2026-11-06T16:18Z	SIG-W-20261029-054	noted	INBOX_WALTER	Arini 26 pct headline only; Blue Owl is BROCK. Logged in combo:european-credit-funding KB-179
+2026-11-06T16:18Z	SIG-W-20261031-001	noted	INBOX_WALTER	Correction receipted NO-OP COR-20261031-01; ban to 2027-01-31 logged KB-173; no volume claim taken
+2026-11-06T16:18Z	SIG-W-20261031-011	acted	INBOX_WALTER	Port actions 10/30 logged as temporary stoppages, organizer counts only, no macro effect attributed; KB-181
+2026-11-06T16:18Z	SIG-W-20261031-021	acted	INBOX_WALTER	ICE Dec26 and Jan27 expiries reconciled; F27 added to boot TTF_CALENDAR; owed 26 closed; KB-172; settle dispute untouched
+2026-11-06T16:18Z	SIG-W-20261102-001	acted	INBOX_WALTER	Arini margin-call mechanism integrated with unnamed banks and WSJ-relay limit retained; T-14 NOT-MET; KB-179
+2026-11-06T16:18Z	SIG-W-20261104-013	acted	INBOX_WALTER	IEA conditional scenario integrated keeping BOTH conditions; KB-171; basis for HNS-15 comparison
+2026-11-06T16:18Z	SIG-W-20261104-020	noted	INBOX_WALTER	11/1-2 refrigeration wave, CYPHER owns; no linkage asserted; KB-181
+2026-11-06T16:18Z	SIG-W-20261104-030	acted	INBOX_WALTER	Russian gas proposal integrated as proposal only; KB-182; no agreement waiver or flow claimed
+2026-11-06T16:18Z	SIG-W-20261104-031	noted	INBOX_WALTER	Aramco 15 pct claim INDETERMINATE, BRENT owns; KB-182 lists it as indeterminate
+2026-11-06T16:18Z	SIG-W-20261104-034	acted	INBOX_WALTER	Eurostat flash read at primary; KB-166; T-16 stays 1 of 2; finals reconciled secondary KB-167; Nagel KB-177
+2026-11-06T16:18Z	SIG-W-20261104-041	acted	INBOX_WALTER	FCA guidance and UK-EU SPS draft kept as separate states; KB-180
+2026-11-06T16:18Z	SIG-W-20261104-043	acted	INBOX_WALTER	Gas and gilt observations integrated on own later pulls; basis separation kept; France leg recovered via i-i
+2026-11-06T16:18Z	SIG-W-20261104-045	noted	INBOX_WALTER	La Palma outage logged not linked; Foggy Bottom not my domain; KB-181
+2026-11-06T16:18Z	SIG-W-20261104-059	noted	INBOX_WALTER	Energy headlines only; Citi EUR154 noted in KB-169 as unread; rest BRENT
+2026-11-06T16:18Z	SIG-W-20261104-062	acted	INBOX_WALTER	ECB main-risks headline read via Reuters relay KB-177; rest private credit discarded to BROCK as bodies unread; KB-179
+2026-11-06T16:18Z	SIG-W-20261104-064	noted	INBOX_WALTER	Power headlines; RWE German gas capacity auction title only, no action
+2026-11-06T16:18Z	SIG-W-20261104-066	acted	INBOX_WALTER	UK company headlines logged as unread leads in combo:uk-cost-squeeze KB-180; no grade changed
+2026-11-06T16:18Z	SIG-W-20261105-001	acted	INBOX_WALTER	BoE decision graded at primary: T-06 T-13 NOT-FIRED, T-17 unchanged, look-through half dead; KB-164; packet BOND
+2026-11-06T16:18Z	SIG-W-20261105-008	acted	INBOX_WALTER	Named Z26 read 90.68 close 11/05 and 85.22 intraday 11/06; ladder unchanged L1 L2 L3 OPEN; T-10 graded on i-i; TE 85 vs vendor 90.68 flagged to WALTER
+2026-11-06T16:18Z	SIG-W-20261105-018	noted	INBOX_WALTER	CF 37 pct European ammonia offline is management estimate; FERT owns
+2026-11-06T16:18Z	SIG-W-20261105-030	noted	INBOX_WALTER	Read with correction 052 governing; AFP lines not carried
+2026-11-06T16:18Z	SIG-W-20261105-037	acted	INBOX_WALTER	Aiwanger logged KB-178, coalition effect unread; flight bomb threats KB-181
+2026-11-06T16:18Z	SIG-W-20261105-050	acted	INBOX_WALTER	Lagarde KB-177; BoE 8-1 confirmed at primary; blood-bank OT KB-181
+2026-11-06T16:18Z	SIG-W-20261105-052	noted	INBOX_WALTER	Correction receipted NO-OP COR-20261105-52; applied in KB-174
+2026-11-06T16:18Z	SIG-W-20261106-004	noted	INBOX_WALTER	ING loan auction and BoE tenant question logged KB-179; HY data-centre bonds are LIQUID BROCK
+2026-11-06T16:18Z	LIQUID-2026-10-29-swapline-shelved	acted	INBOX_PEER	WQ-534 verified at the RULED record; STATUS T-12 line corrected and T-12 note updated
+2026-11-06T16:18Z	ZHAO-2026-10-29-belgium-kill-leg	noted	INBOX_PEER	No HANS surface cites a ZHAO Belgium kill leg; PBOC gauge outside my lane
+2026-11-06T16:18Z	DAEDALUS-2026-10-30-falsification-5	acted	INBOX_PEER	KILL_TREE C-3 cells updated; DONE sent
+2026-11-06T16:18Z	WALTER-2026-10-31-threshold-corrections	acted	INBOX_PEER	T-03 reconciled via Oct final; T-17 caveat retired; reply sent
+2026-11-06T16:18Z	YURI-2026-10-31-diesel-1436	noted	INBOX_PEER	KB-173; INFO only
+2026-11-06T16:18Z	CYPHER-2026-11-05-P1-arkea	acted	INBOX_PEER	Bank-consequence read KB-174 sent to CYPHER and REGINALD; do-not-relay list honoured; cluster watch is REGINALD GIBBS

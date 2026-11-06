@@ -20,6 +20,24 @@ This is the twin of the 2026-09-05 `DISPATCH_LOG.md` split: **a whole CATEGORY m
 
 ---
 
+## 🆕 SESSION 2026-11-06 (hans-1106) — inbox drain on Will's word via PROME
+
+**Order of work.** Boot rc1 → R1 two NO-OP receipts → status to Will → PROME assignment 11:05 ET → all 32 items read → primaries pulled → ledgers → packets → moves last, one named item at a time.
+
+**What was found by going to the primary rather than the card:**
+- **The DMO remit answered the caveat I had just given Will.** I told him the Budget was not confirmed clean; the remit cut long conventional sales £7.7bn. The dangerous reading (extra supply landing long) was the opposite of the fact.
+- **France's flash 48.4 was revised to 46.6.** Germany revised up the same week. A flash carries its successor, again.
+- **WALTER's France 404 was a dead path, not a dead source.** The `/en/` page works, and the governing grade came back.
+- **The vendor showed a higher close (Z26 103.94 on 10/30) that no card carried,** on 68 lots.
+
+**What went wrong and was caught.** My `T-12` line said "pending Will" 8 days after WQ-534 shelved it. My docket carried an NL election that search places in 2025. `sup(...) if False else None` junk sat in the one-shot script: harmless, never ran. A receipt was refused for a semicolon. Two true KB rows were flagged by C8 because a retired value sat undated; I dated them rather than superseding true rows.
+
+**Held back on purpose.** `T-07` L3 exit (a level, Will's). WQ-622 charter line (a peer cannot authorize a `CLAUDE.md` edit in this session; Will's own word is needed).
+
+**Rotated out of STATUS:** the 10/29 CARRY FORWARD, whole. Verbatim at `git show 3d58d4f12:AGENTS/HANS/STATUS.md`.
+
+---
+
 ## 🆕 SESSION 5 (2026-09-25) — PROME Tier-1 spawn (WQ-294): `T-10` fire graded, whole inbox drained, `T-07` pinned to a named contract. Records → `registry/HANS_T_FIRED_LOG.tsv` `HANS-F-006` · `workbook/2026-09-25_INBOX_DISPOSITIONS.md` · `KB-HANS-097`–`099`
 
 **How the `T-10` basis was settled:** pulled ideal-investisseur (both legs one screen), TradingEconomics (both legs), the ECB AAA 10Y primary via `fetch_eu`, and the Bundesbank BBSIS Svensson 10Y (keyless, a zero-coupon basis — direction only). The i-i Bund leg matched the ECB primary within 0.4bp; TE ran ~5bp (Bund) / ~8bp (OAT) higher. Tried to reach a Banque de France daily OAT primary: Webstat's Opendatasoft TEC10 dataset exists but returns 0 records keyless, and ECB FM has no FR benchmark — **recorded as a gap, not a verdict** (third time a 'manual' row may merely be unfetched).
@@ -83,7 +101,7 @@ This is the twin of the 2026-09-05 `DISPATCH_LOG.md` split: **a whole CATEGORY m
 
 ## 📚 SESSIONS 1–3 (all 2026-09-18) — ROTATED. **Full text → `workbook/STATUS_ROTATED_2026-09-19.md`**; each has a verbatim block file in `workbook/`.
 
-**① BoE 9/17 stopped selling long gilts** (`2026-09-18_BOE_APF_BLOCK.md` · `KB-064`) — rate HELD **3.75%**; of **£488.2bn** APF, **£222bn** pre-2035 + **£120bn** longest-dated held to maturity, **£146bn under review**, **auctions PAUSED** to an Apr-2027 decision. 🔴 **Supply withdrawal, not demand recovery.** Both UK thresholds moved AWAY; **neither ever fired — no exit to record.** The **11/26 Budget** now arrives with the long end's biggest seller stood down.
+**① BoE 9/17 stopped selling long gilts** (`2026-09-18_BOE_APF_BLOCK.md` · `KB-064`) — rate HELD **3.75%** on 9/17; of **£488.2bn** APF, **£222bn** pre-2035 + **£120bn** longest-dated held to maturity, **£146bn under review**, **auctions PAUSED** to an Apr-2027 decision. 🔴 **Supply withdrawal, not demand recovery.** Both UK thresholds moved AWAY; **neither ever fired — no exit to record.** The **11/26 Budget** now arrives with the long end's biggest seller stood down.
 **② Fed hiked 9/16** (`_FED_HIKE_REFUTATION_BLOCK.md` · `KB-065`) — +25bp to **3.75–4.00%**, 12–0, **refuting a mechanism I published 9/10**: the differential is **unchanged at 137.5bp** and the euro **weakened** to 1.1489 [9/18]. ⇒ **owed #13, re-argue exclusion leg (2).** → `ML-HANS-451`
 **③ France `T-10` near-trigger** (`_FRANCE_T10_BLOCK.md` · `KB-066`) — **OAT–Bund 96.8bp [9/18], a 1-yr high; OAT 4.47 / Bund 3.50; NOT FIRED by 3.2bp and 3bp.** 🔴 **TE-minus-TE the same day clears BOTH legs** — both trip lines sit **inside my ~10bp OAT basis gap (owed #5).** 2027 budget targets **5.0% of GDP vs ~5.4%**; **France yields MORE than Italy** and sold **−$62.4bn of USTs** June–July.
 **Session 2 — the overshoot has NO CORE LEG either side of the Channel:** UK CPI **3.1%** with core **2.6%** and services **3.4%** both UNCHANGED (motor fuels **+23.0%**); EA HICP final **3.2%**, energy **+14.3%** = 1.29pp, **core 2.4% UNREVISED** ⇒ **`T-04` is NOT a hawkish lean into 10/29.** **German 2027 debt service €41.8bn vs €30.3bn, +38% in one year.** `KB-084`–`088`

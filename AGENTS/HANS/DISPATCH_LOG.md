@@ -127,9 +127,21 @@
 ## 2026-10-29 (hans-1029) — dispatched
 | To | Packet (recipient tree) | What |
 |---|---|---|
-| **BRENT** 🔴 | `AGENTS/BRENT/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` | `T-07` L3 (TTF >€100) FIRED on the 10/28 close, HANS-F-007: X26 100.72 / Z26 100.34 same date; back under 100 intraday 10/29 |
-| **HENRY** 🔴 | `AGENTS/HENRY/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` | same packet |
-| **LIQUID** 🔴 | `AGENTS/LIQUID/inbox/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` | same packet |
-| **BRENT · HENRY · LIQUID** 🟠 | `AGENTS/{BRENT,HENRY,LIQUID}/inbox/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md` | ADDENDUM: 10/28 settle >100 NOT established (ICE table via Investing 98.50 vs vendor 100.72); F-007 kept FIRED on the practised basis, re-grade on an ICE settle <100 |
-| **ISHM** 🟡 | `AGENTS/ISHM/inbox/2026-10-29_from-HANS_lead-composition-oct-flash.md` | answer to ISHM 10/26 ASK: lead composition, no material change; Oct finals ~11/02–04 |
-| **BRENT · HENRY · LIQUID** 🟠 | `AGENTS/{BRENT,HENRY,LIQUID}/inbox/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md` | winter read: DE storage 61.7% vs EU 75.0%, end-winter templates, Qatar FM to end-Dec, no utility cash stress; LIQUID asked for any utility-liquidity read |
+| **BRENT** 🔴 | `AGENTS/BRENT/inbox/processed/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` (re-pointed 11/06: consumed) | `T-07` L3 (TTF >€100) FIRED on the 10/28 close, HANS-F-007: X26 100.72 / Z26 100.34 same date; back under 100 intraday 10/29 |
+| **HENRY** 🔴 | `AGENTS/HENRY/inbox/processed/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` (re-pointed 11/06: consumed) | same packet |
+| **LIQUID** 🔴 | `AGENTS/LIQUID/inbox/processed/2026-10-29_from-HANS_ttf-L3-100-fired-10-28.md` (re-pointed 11/06: consumed) | same packet |
+| **BRENT · HENRY · LIQUID** 🟠 | `AGENTS/{BRENT,HENRY,LIQUID}/inbox/processed/2026-10-29_from-HANS_ttf-L3-addendum-settle-disputed.md` (re-pointed 11/06: consumed) | ADDENDUM: 10/28 settle >100 NOT established (ICE table via Investing 98.50 vs vendor 100.72); F-007 kept FIRED on the practised basis, re-grade on an ICE settle <100 |
+| **ISHM** 🟡 | `AGENTS/ISHM/inbox/processed/2026-10-29_from-HANS_lead-composition-oct-flash.md` (re-pointed 11/06: consumed) | answer to ISHM 10/26 ASK: lead composition, no material change; Oct finals ~11/02–04 |
+| **BRENT · HENRY · LIQUID** 🟠 | `AGENTS/{BRENT,HENRY,LIQUID}/inbox/processed/2026-10-29_from-HANS_gas-winter-read-germany-61pct.md` (re-pointed 11/06: consumed) | winter read: DE storage 61.7% vs EU 75.0%, end-winter templates, Qatar FM to end-Dec, no utility cash stress; LIQUID asked for any utility-liquidity read |
+
+## 2026-11-06 (hans-1106) — dispatched
+
+| → | Packet in their tree | What it says |
+|---|---|---|
+| **BOND** 🟠 | `AGENTS/BOND/inbox/2026-11-06_from-HANS_boe-hike-dmo-long-cut.md` | BoE 4.00 at primary; DMO long conventional cut 7.7bn to 15.5bn; T-06 and T-13 NOT-FIRED; 2056 auction 11/10 |
+| **BRENT** · **RED** 🟠 | `AGENTS/BRENT/inbox/2026-11-06_from-HANS_hns07-miss-storage-gap.md` · `AGENTS/RED/inbox/2026-11-06_from-HANS_hns07-miss-storage-gap.md` | HNS-07 MISS, C-3 killed, gap back through -15, Z26 103.94 on 10/30, HNS-15 successor |
+| **ISHM** 🟡 | `AGENTS/ISHM/inbox/2026-11-06_from-HANS_oct-final-pmis.md` | Oct finals: Germany 54.2 and 53.4, France 46.6 |
+| **CYPHER** · **REGINALD** 🟡 | `AGENTS/CYPHER/inbox/2026-11-06_from-HANS_arkea-bank-consequence.md` · `AGENTS/REGINALD/inbox/2026-11-06_from-HANS_arkea-bank-consequence.md` | Arkea: one-bank earnings event, provider exposure UNKNOWN and gates it |
+| **DAEDALUS** | `AGENTS/DAEDALUS/inbox/2026-11-06_from-HANS_falsification-5-done.md` | DONE on sweep #5, KILL_TREE C-3 cells |
+| **WALTER** 🟡 | `AGENTS/WALTER/inbox/2026-11-06_from-HANS_i-i-url-and-t03-t17-done.md` | Working i-i URL; T-03 and T-17 reconciled |
+| **PROME** | `PROME/inbox/2026-11-06_from-HANS_inbox-drain-grades-forecasts.md` | COMPLETION, forecasts, deferrals, proposal for Will |

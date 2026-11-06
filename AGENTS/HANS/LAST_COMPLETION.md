@@ -1,54 +1,30 @@
 # HANS LAST_COMPLETION — overwrite each session
 
-**STATUS:** ✅ DONE — 2026-10-29 (Thu) hans-1029, Will-spawned in-terminal session, boot 13:27 ET, catch-up on Will's "go" 13:31 ET, then the winter read (14:06) and the workbook/core pass (14:18). **Closed on Will's word 14:35 ET; final checks 14:40 ET by `date`:** doc_audit rc0 · tests 149/149 · consumer cross-agent rc0 (hits = dated records / CMBS $3.49B, a different series; no packet) · consumer --self rc0 · orphan: none mine · claim check clean · read-cap rc0 · root 1d no-op. Opus 5.5, Claude Code. Standard+ tier (one method lesson `ML-HANS-483`; no auto-memory written).
+**STATUS:** ✅ DONE — 2026-11-06 (Fri) hans-1106. Boot 09:55 ET, status to Will, then PROME assignment on Will's word 11:05 ET. Opus 5.5, Claude Code. Standard tier (one method lesson `ML-HANS-484`; no auto-memory written).
 
 **CHANGED:**
-- **Registry:** `T-04` (ECB HOLD, NOT-MET), `T-05`, `T-06`, `T-07` (**L3 FIRED 10/28**, settle disputed), `T-08`, `T-10` (OPEN, easing), `T-13` graded 10/29.
-- **Fire log:** +`HANS-F-007` (T-07 L3).
-- **VX:** 3.02 / 3.05 / 3.06 / 3.07 (RED → ORANGE) / 3.08 / 4.01 / 8.01 (→ RED) / 8.02 / 8.07; Notes appended.
-- **PUBLISHED:** +9 rows (header vintage 10/29), including the TTF contract-basis row (Z26).
-- **KB:** +149–154; 140/142/143 SUPERSEDED.
-- **Ledgers:** HNS09 ledger BNP + Deutsche filled. PREDICTIONS HNS-07/09/10 notes. `ML-HANS-483`.
-- **Logs:** SESSION_LOG 10/29 block. DISPATCH_LOG: 3 dead paths re-pointed, plus new rows.
-- **Packets:** `T-07` L3 fire + settle-dispute addendum → BRENT, HENRY, LIQUID. `SIGNALS.md` row. ISHM lead-composition answer.
-- **Inbox:** drained 15 of 15, one file at a time, with `board_log.tsv` rows.
-
-**CHANGED — follow-on passes (Will 14:06 "start investigating", 14:18 "update workbook and core files"):**
-- **Winter read:** `research/2026-10-29_TTF_100_WINTER_READ.md` + KB-155–159. Germany storage 61.7% (AGSI+ primary); end-winter templates; Qatar FM to end-Dec; mild lean; no utility stress. Packet → BRENT/HENRY/LIQUID (`75068f215`).
-- **Workbook pass (hans-1029b):**
-  - VX 2.01 / 3.01 / 3.04 / 3.05 (TE basis restored, 3.358) / 3.09 / 4.02 / 5.01 / 8.04 (10.82×, now YELLOW). Notes only on 8.06 and 10.07.
-  - Registry T-05 / T-09 / T-11 / T-14.
-  - KB: 11 expired rows SUPERSEDED, +160–163 (FX, T-14 sweep, **FOMC 10/28 HOLD 10–2**, Italy).
-  - PUBLISHED +6. FLOW-3 / 4 / 6 / 8 notes.
-  - **KILL_TREE re-graded: C-3 KILLED, pending the formal HNS-07 grade** (its L3 kill row fired).
-  - STATUS board / owed #34–35.
-- **Charter:** 4 narrative passages moved verbatim to `CHARTER_PROVENANCE.md` (C6 cleared, 24,899 → 23,878 B; no rule removed). SESSION_LOG 9/18 quote dated.
+- **Registry:** 16 rows graded (`T-01`–`T-03`, `T-05`–`T-11`, `T-13`–`T-17`), `T-12` note. Fire log: F-007 note, dispatch paths re-pointed.
+- **VX:** 2.01 · 3.01 · 3.02 · 3.04–3.09 · 4.02 · 4.10–4.12 · 8.01 · 8.02 · 8.06 · 8.07 · 10.07.
+- **KB:** +164–183 (5 are combination themes). SUPERSEDED: 084, 105, 149, 150, 151, 153, 155, 160, 163. 054 annotated. 064 and 138 dated.
+- **Predictions:** `HNS-07` MISS. New: `HNS-12` to `HNS-15`. Notes on 08, 09, 10, 11.
+- **Other ledgers:** PUBLISHED +19 · FLOW-3/5/6/8 notes · HNS09 SocGen row · `ML-HANS-484`.
+- **Docs:** KILL_TREE re-graded, C-3 KILLED · STATUS rewritten (22,772 → ~15,000 B) · DISPATCH_LOG · SESSION_LOG · boot.py F27.
+- **Packets:** BOND · BRENT · RED · ISHM · CYPHER · REGINALD · DAEDALUS · WALTER · PROME.
+- **Inbox:** 32 of 32 drained, one named item at a time, `board_log.tsv` rows. Receipts: COR-20261031-01, COR-20261105-52.
 
 **RESULT:**
-- **Gas fired the €100 alarm.** TTF closed 100.72 (Nov X26) and 100.34 (Dec Z26) on 10/28 per my feed. ⚠️ An ICE table via Investing shows 98.50, and the ICE Endex settle is unread. The price was back under 100 on 10/29 (97.51).
-- **Storage:** 74.96% [gas day 10/27]. `HNS-07` (80% by 11/1) is effectively lost; it grades on the evening of 11/02.
-- **France:** peaked at 174.6bp on 10/22, then eased to 153.4bp (OAT 4.89) after Moody's held Aa3 negative on 10/23 (government primary). `HNS-10` is not hit. The French flash composite PMI, 48.4, is in contraction.
-- **ECB held at 2.50% (primary).** Lagarde steps down 7 Feb 2027 (via WALTER).
-- **UK Budget 10/28** passed with gilts rallying: 10Y 5.31, 30Y 5.71.
-- **Banks:** Deutsche shows no credit turn (NII +9%, CoR +6bp). BNP CoR is 39bp, inside its guide. `HNS-09` cannot grade yet (1 of ≥3 banks).
+- **Gas:** TTF Z26 90.68 [11/05 close], 85.22 intraday [11/06], from 103.94 [10/30]. EU storage 73.75% and falling, gap −16.02pp. `HNS-07` MISS at 74.57%.
+- **UK:** BoE 4.00% 8–1; gilts held; DMO cut long conventional sales £7.7bn to £15.5bn.
+- **France:** spread 153.9bp, `T-10` OPEN; PMI 46.6 final, GDP −0.1 (secondary). Italy not following.
+- **EA:** flash 4.0, core 2.5; `T-16` waits for 11/18.
+- **Banks:** SocGen CoR 28bp; `HNS-09` cannot grade; Arkéa read as a one-bank event, provider exposure UNKNOWN.
 
-**GAPS:**
-- ICE Endex settle unread (ice.com blocked).
-- Moody's own rationale not read.
-- DMO remit revision not read.
-- NL election result not read.
-- German PMIs are flash and secondary only.
-- BNP group NII is not published.
-- Deutsche Q2 guidance wording not verified (the Q2 PDF returned HTML).
-- Owed #26 (TTF calendar) still overdue.
+**GAPS:** ICE settle (ice.com blocked) · S&P PMI primaries (403) · 6 banks unfilled · 15 expired KB rows · `SX7E.Z` no data · S&P France date unconfirmed · BoE report, OBR, Moody's rationale not read.
 
-**WILL_NEEDS:** None. No ruling is owed. The L3 fire is a desk grade and needs no Will decision.
+**WILL_NEEDS:** `T-07` L3 exit rule (proposed via PROME) · his own word for the WQ-622 charter line.
 
-**FOLLOW-UP (next session):** 0. EA Q3 GDP flash 10/30; register a C-3 successor claim (#34).
-1. ICE settle for 10/28 if reachable, and register a `T-07` L3 exit rule (#30).
-2. Oct FINAL PMIs ~11/02 and ~11/04.
-3. Grade `HNS-07` on the evening of 11/02 ET.
-4. SocGen and the other banks into HNS09; BNP NII source; Deutsche guidance cell.
-5. DMO remit, NL election.
-6. KB-077 (Saudi, owed #29) is the only expired KB row left; 11 were superseded 10/29.
-7. ⚠️ STATUS is at 22,772 B, **13 B under the 70% byte stop** (test_hans) — rotate before adding anything.
+**FOLLOW-UP (next session):**
+1. EA Oct FINAL HICP and ECB FSR 11/18; France vote ~11/17–18.
+2. UniCredit 11/09 and the other 5 banks into HNS09.
+3. S&P France 11/27: confirm the date.
+4. Owed table in STATUS.

@@ -1,6 +1,17 @@
 # HANS — FALSIFICATION SURFACE / KILL TREE
-**Created:** 2026-08-28 (revival session). **Owner:** HANS. **Last re-graded:** 2026-10-29 (hans-1029b — `T-07` changed state, L3 FIRED; the 10/21 summary is kept below as the prior grade). Before that: 2026-10-21 (prior text → `thesis/KILL_TREE_ROTATED_2026-10-21.md`), 2026-09-10.
+**Created:** 2026-08-28 (revival session). **Owner:** HANS. **Last re-graded:** 2026-11-06 (hans-1106 — `HNS-07` graded MISS, C-3 killed formally, successor `HNS-15` registered). Before that: 2026-10-29 (hans-1029b — `T-07` changed state, L3 FIRED; the 10/21 summary is kept below as the prior grade). Before that: 2026-10-21 (prior text → `thesis/KILL_TREE_ROTATED_2026-10-21.md`), 2026-09-10.
 **Cadence (the one this desk actually keeps):** re-grade at any closeout where a registry row named in a kill column CHANGED STATE, and at every `PREDICTIONS` checkpoint. ⚠️ The old cadence, *"re-grade every session"*, was not kept: 9/10 → 10/21 with no re-grade, found from outside (DAEDALUS falsification #4, 10/8). A cadence nothing checks is a wish, not a cadence.
+
+## 🔴 RE-GRADE 2026-11-06 — SUMMARY (trigger: `HNS-07` resolved MISS, 74.57% on gas day 11/01)
+
+| Claim | Verdict | Why, in one line |
+|---|---|---|
+| **C-1** long-end term premium | 🟠 **WEAKENED — unchanged** | Bund 3.2499 [TE 11/06] is a safe-haven leg; OAT–Bund 153.9 [i-i 11/06]. No kill row fired. |
+| **C-2** PMI → ISM | ✅ **HOLDS** | German Oct FINAL mfg 54.2, unrevised; composite 53.4. France 46.6 final is the breadth problem, not the lead. |
+| **C-3** storage clears 80% / shock is manageable | 🔴 **KILLED** | `HNS-07` MISS 74.57 vs 80.0, and the L3 kill row fired 10/28 and again in spirit at Z26 103.94 [10/30]. **Successor: `HNS-15` (Germany ≥15.0% on gas day 2027-03-31) tests "price shock, not physical shortage".** |
+| **C-4** bank channel quiet | 🟡 **HOLDS** | SocGen CoR 28bp inside its guide joins Deutsche and BNP; `HNS-09` still CANNOT-GRADE on the NII rule. Arkéa is an off-chain event unless its provider serves other banks. |
+
+*The 10/29 summary below is the prior grade, kept verbatim.*
 
 ## 🔴 RE-GRADE 2026-10-29 — SUMMARY (trigger: `T-07` L3 FIRED 10/28, `HANS-F-007`)
 
@@ -68,9 +79,9 @@
 
 | What kills it | Instrument | Status |
 |---|---|---|
-| **Storage misses 80%** → the shock is worse than modelled and curtailment becomes live | **Prediction HNS-07** | 🔴 **Open, 30% (re-marked from 65% at checkpoint 2).** 74.58% [gas day 10/20], first net withdrawal; needs 0.452 pp/d for 12 days. Resolves on the 11/01 gas day — **no early call** |
+| **Storage misses 80%** → the shock is worse than modelled and curtailment becomes live | **Prediction HNS-07** | 🔴 **FIRED — `HNS-07` MISS, graded 2026-11-06: 74.57% on gas day 11/01.** *(Prior grade: 30%, 74.58% [gas day 10/20].)* Resolves on the 11/01 gas day — **no early call** |
 | **Hormuz reopens / Qatar lifts force majeure** → structural reverts to episodic; TTF round-trips toward €42 | Qatar FM status, TTF | Not firing. **FM extended 9/28 through November; Edison told early December** (Bloomberg); Shell: full Ras Laffan repair ~Q1-2027. Next check: early Dec. *(9/05 date correction kept: a falsifier checked on the wrong date does not run.)* |
-| **TTF breaks L3 (€100)** → I under-called it; genuine ECB stagflation trap | TTF ladder | Not firing: **€87.50 on named TTFX26 [10/21]**, ~14% away; >€90 intraday 10/20 (secondary). ⚠️ Roll to Z26 at 10/29 |
+| **TTF breaks L3 (€100)** → I under-called it; genuine ECB stagflation trap | TTF ladder | 🔴 **FIRED 10/28 (`HANS-F-007`; settle disputed, ICE official unread).** Named Z26 closed 103.94 [10/30] then fell back under 100 from 11/02; 90.68 [11/05], 85.22 intraday [11/06]. *(Prior grade: €87.50 [10/21].)* |
 
 ⚠️ **The straddle is gone (2026-10-21).** My pace instrument (~77.4% on gas-day-10/14 data) and DEWEY's DR-4 rerun (76.5–77.9%) now **both** sit on the MISS side. That is why `HNS-07` went 65% → 30% under its pre-committed rule (b). ⚠️ Both models use GIE data, so their agreement is not independent evidence (DEWEY's own caveat).
 
