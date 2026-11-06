@@ -85,6 +85,7 @@ Original contiguous blocks B01–B08 → `archive/2026-10-20_organisation-cleanu
 - **Filings at SEC, 09:57 ET:** FLG and CUBI Q3 10-Qs not filed. OZK FDIC FLNG newest 10/20. VLY, EGBN, BKU 10-Qs still unread.
 - **Intake:** general 4 open (unchanged, read for awareness, unprocessed); WALTER 0; WAL/OZK unACKed 0; corrections 0; predictions none due; staleness clean; BOARD 0 selected of 107 unlogged since 11/03, none dated 11/06 yet. boot.py rc 1: known alerts only (WAL, FLG ladder, FLG director buy, CFG 8-K 10/30 auditor item, inbox).
 - **11/07 run readiness:** FFIEC token live here (HTTP 200, expiry 2027-01-31). `/tmp/mi3/fac` empty after the reboot, so the cache needs rebuilding. DOCKET holiday-counting row for 11/07 is already RESOLVED 10/30.
+- **10:09 ET, WALTER doorbell:** cards 002, 005, 006, 007 INFO_ONLY; 010 (ACTION) LABOR freeze thesis stood down, read at LABOR's packet and card. **My TRADE.md §4 refuter 'LABOR's bull-side kill' is now met;** corrected, TERRY packeted. No score, threshold or trade change. My first BOARD note said no surface carried the old wording; a follow-up grep found TRADE.md. **Grep the bar's figure, not just the phrase, before writing 'no surface'.**
 
 ### NEXT SESSION
 00. **FIRST: BKU 10-Q (`0001504008-26-000091`) → FL frame final and REG-32; VLY 10-Q (`0000714310-26-000049`) six asks, report 2026-11-01 §1d; EGBN 10-Q (`0001050441-26-000113`) multifamily criticized table and REG-28 maturities; all filed 11/05, unread.** Then HY 11/05 print, H.8 11/06, H.4.1 11/12, FLG 10-Q per review §5 if filed.
