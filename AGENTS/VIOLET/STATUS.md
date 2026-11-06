@@ -1,6 +1,6 @@
 # VIOLET STATUS
 
-**As of:** November 6, 2026 16:45 ET (from `date`), third turn on PROME's word at 15:24 ET. Official History closes through 11/05, row SETTLE. **11/06 is the Cboe 16:15:01 ET print, row TICK until History posts.** Credit through HY 11/05 first-published. Claude Code, Opus 5.5. **Last real data refresh: 2026-11-06.** Thesis **v4.1.9**.
+**As of:** November 6, 2026 16:38 ET (from `date`), third turn on PROME's word at 15:24 ET. Official History closes through 11/05, row SETTLE. **11/06 is the Cboe 16:15:01 ET print, row TICK until History posts.** Credit through HY 11/05 first-published. Claude Code, Opus 5.5. **Last real data refresh: 2026-11-06.** Thesis **v4.1.9**.
 
 ## BOTTOM LINE
 
@@ -102,4 +102,4 @@ Position truth is off-repo (Will/broker), with the separately dated FORGE mirror
 7. **Path A F2 audit: CLOSED 11/05, WQ-611 A encoded (KB-VIO-372/373).** NOT RUNNABLE, NO GATE (post-2018 n=3). Regime Shift Trade size line withdrawn under WQ-614 A, for consistency, not on a finding against the trade (KB-VIO-376).
 8. Historical FXY IV/OI and old VIX option-chain snapshots stay unfilled by design; Deck PAUSED WQ-460, Helm RETIRED WQ-461.
 
-**Persistence / coordination (11/06 16:45 ET):** PROME turn 15:24 ET: cards 019, 024, 033, 035, 041 drained; COR-20261106-35 APPLIED, COR-20261106-41 NO-OP. Earlier: WQ-626 A wake. 10 WALTER cards drained, COR-20261105-57 receipted NO-OP, corrections check rc 0. Combination watch set up, 4 themes, KB-VIO-383 to 386. 4 forecasts registered. ⚠️ Both Will-facing pages still show HY 332bp and the credit leg open; carried at PROME's word 11/06. Closed on PROME's ask (WQ-249).
+**Persistence / coordination (11/06 16:38 ET):** PROME turn 15:24 ET: cards 019, 024, 033, 035, 041 drained; COR-20261106-35 APPLIED, COR-20261106-41 NO-OP. Earlier: WQ-626 A wake. 10 WALTER cards drained, COR-20261105-57 receipted NO-OP, corrections check rc 0. Combination watch set up, 4 themes, KB-VIO-383 to 386. 4 forecasts registered. ⚠️ Both Will-facing pages still show HY 332bp and the credit leg open; carried at PROME's word 11/06. Closed on PROME's ask (WQ-249).
