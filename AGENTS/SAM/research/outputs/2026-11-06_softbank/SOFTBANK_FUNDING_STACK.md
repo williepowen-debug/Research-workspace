@@ -1,6 +1,6 @@
 # SoftBank's funding stack, and whether it joins Oracle in one loop
 
-**Date:** 2026-11-06 ET. **Owner:** SAM. **Basis:** PROME packet on Will's word, 15:40 ET, WQ-643. **Class:** $0. **No score, band or gate moved; SAM's own letter requires none.**
+**Date:** 2026-11-06 ET. **Owner:** SAM. **Basis:** PROME packet on Will's word, 15:40 ET; no WQ row. **Class:** $0. **No score, band or gate moved; SAM's own letter requires none.**
 **Tags:** FILING = SoftBank or SEC document read here. RELAY = press, not checked against a filing. INFERENCE = SAM. **Reproduce:** `python3 ltv_remark.py`.
 
 ## Answer
