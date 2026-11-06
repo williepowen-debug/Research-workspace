@@ -1,0 +1,10 @@
+COLDREADER · AGENTS/NEXUS/LAST_COMPLETION.md · 20773 B · ~22 claims
+SCORE: 17/22 ok · 5 caution · 0 error
+CRC/bytes: payload lines 7-21 of archive file = 4641 B, CRC32 3fa52836 (matches both stated figures; trailing-newline-stripped variant 4639 B/917294ff does not).
+CAUTION L3: "Past-trigger deferral: M-01 and M-05 ... each still needs a successor or withdrawal" -- M-01/M-05 definitions live only in STATUS/PREDICTIONS (not in file); stranger cannot tell what the windows/HY threshold are.
+CAUTION L3: "WQ-626 A" 14-desk list, and "cards 007 and 056", "B24" are undefined in this file (record only partly explains; WQ-626 A not testable here).
+CAUTION L7/L9 vs L13: L13 "ISHM/LIQUID substantive owner results remain pending" reads open, but L7/L9 (later 11/4 18:0x) say delivered. Blocks are not in time order; L13 is older but only labelled RETAINED-HISTORY, not marked superseded on that clause. Likewise L21 "Session remains available to Will" vs L3 closed.
+CAUTION L29/L31/L36/L40: "10:00:13 report cutoff", "frozen report/workbook", "November 2 report" depend on the rotated 11/2 10:12 block; hot file has no pointer to research/2026-11-02_transmission-update/RECORD.md (only the cold file names it). L45 pointer covers the block but not those terms.
+CAUTION L45: heading "Prior November 2 handoffs (09:42 to 10:47)" while hot file still holds 11/2 10:36 and 11:14 blocks; reads as if all 11/2 history moved. Also LIQ079 (not in hot surfaces) is claimed closed only in the closeout record.
+POINTERS: all tested resolve (archive cold x2, closeout record, startup-recovery, 11-04 records, catchup RECORD/REPORT/COLDREAD/VALIDATION/FRESHNESS_CLOSE, 11-02 records incl ROTATION.json/OBLIGATIONS.md, commit hashes 11b0b6b583 4d0bec266 6a488db98 cc6603d0e b7df636b5 a91fffe7f ed448d37e 1e9200654 19f86d2a8 40ef8a548, PROME/GATES.tsv GATE-LIQ-079). Dead: none.
+VERDICT: mostly yes -- rotation integrity verified and open items (M-01/M-05, 15-desk deferral, L554 11/10, B24) are stated plainly at top; but ordering/stale carry lines (L13, L21) require reading the L3 headline as governing.
