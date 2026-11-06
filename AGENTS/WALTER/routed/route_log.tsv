@@ -2071,3 +2071,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-06T15:07:59Z	SIG-W-20261106-009	WALTER boot steps 7h and 7i	Small items for owner logs, November 6: none moves a score	ROUTINE		VULCAN,WATT,HOMER,CREED,AEOLUS,OSPREY,BRENT,FALCON,ORACLE	0.6
 2026-11-06T15:09:27Z	SIG-W-20261106-010	WALTER boot step 7g recheck	LABOR stands its freeze thesis down on its own kill rule; hiring read, not a layoffs read	IMMEDIATE	CARL,REGINALD,HENRY,NEXUS	RED,TERRY,PROME	0.9
 2026-11-06T15:09:27Z	SIG-W-20261106-011	WALTER boot step 7g recheck	HENRY close grade: S&P, Nasdaq-100 and QQQ walls closed broken; QQQ and NDX first closes under 200-day since April 7	PRIORITY		PROME,LIQUID,VIOLET,RED,TERRY	0.85
+2026-11-06T15:12:57Z	SIG-W-20261106-012	WALTER boot step 6c	HY 348 [Nov 5], +16 bp, below the +25 FLASH line; over TERRY's 344 line, 2 bp under REG-T-04	IMMEDIATE	LIQUID,RED,TERRY	REGINALD,VIOLET,BROCK,HENRY,PROME	0.95
