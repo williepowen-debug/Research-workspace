@@ -1,4 +1,17 @@
-> # ⛔ 2026-11-06T17:18:15-05:00 — READ THIS BLOCK FIRST. Close refresh on Will's word, relayed verbatim by prome-51 at 17:08 ET: "please message each agent to boot up and update with the latest data as of market close". Bounded: drain and refresh, no new research, no spawns, no trade or card (Claude Code, Opus 5.5, session 65471f19).
+> # ⛔ 2026-11-06T18:35:10-05:00 — READ THIS BLOCK FIRST. Re-close on Will's word, relayed verbatim by prome-51 at 18:33 ET: "Lets direct our agents to close out". Same session as the block below (Claude Code, Opus 5.5, session 65471f19). No new work. Next session is a fresh boot.
+
+▶ START HERE: **Nothing moved: 15/25.** Read the ▶ START HERE in the block below; its clock and obligations stand unchanged. Next: 11/10 CoreWeave and TSMC 6-K and MOFCOM 70, 11/12 Nebius, 11/13 slot 10 + GPU 10 + S2, **before 11/15 compare IREN 10-Q exhibits 10.1 and 10.2 with GPU 1.0 for VULCAN-13 leg (c)**, sweep the BIS 11/10 row once the 11/09 publication is seen, renew GPU cadence before 11/27. STATUS 87% of cap, rotate at the next working session.
+
+RECONCILE 0e76974e3f00343fecde94fe2d73d89f97b09dc5d0414ac7ba0b67395988e225 STATUS UNCHANGED: only card 046 arrived since the refresh; the Apple recheck is a negative on a logged lead [KB-396] and Micron's director retirement is already in KB-408. No read, score, band, fired count or obligation changes.
+RECONCILE 0e76974e3f00343fecde94fe2d73d89f97b09dc5d0414ac7ba0b67395988e225 THESIS UNCHANGED: reviewed against card 046. It touches no stage state, verdict or resolver.
+RECONCILE 0e76974e3f00343fecde94fe2d73d89f97b09dc5d0414ac7ba0b67395988e225 EXIT UNCHANGED: reviewed against card 046. No kill leg moves; §4c live, rewrite trigger not fired, Newest entry not refreshed.
+
+- Card 046 landed 17:16 ET and missed the refresh drain, because I listed the lane at boot; the closeout listing caught it. Noted, to processed; L-103. Nothing in it moves a read. This corrects my earlier reply to prome-51 on lane state only.
+- boot.py was not re-run after the receipts. The carried META 10-Q model FAIL stands as last read; `closeout_check` is the only gate run at this close.
+- Not re-read: THESIS, CHANNEL_DETAIL and EXIT in full at this re-close; the dispositions above rest on the card's content. NEXUS clock against CATALYSTS: 34 rows each, set equal by date and event.
+- OPEN: 11/6 Oracle DTCC file is LIQUID's, about 20:15 ET, unread here. WQ-622 charter line waits for Will's own word. No auto-memory written. 4b: no scope, threshold, cadence or charter date changed.
+
+> # ⛔ 2026-11-06T17:18:15-05:00 — prior block. Close refresh on Will's word, relayed verbatim by prome-51 at 17:08 ET: "please message each agent to boot up and update with the latest data as of market close". Bounded: drain and refresh, no new research, no spawns, no trade or card (Claude Code, Opus 5.5, session 65471f19).
 
 ▶ START HERE: **Refresh done; nothing moved: 15/25.** The three registered 11/6 readings stand and were NOT re-run: Mag-7 33.4972% [holdings 11/5], breadth +4.08pp [11/5], memory core −43.61% [11/6 closes], GPU reading 9 [KB-397..399]. 11/6 close read [KB-407], filings [KB-408]. Next: 11/10 CoreWeave and TSMC 6-K and MOFCOM 70, 11/12 Nebius, 11/13 slot 10 + GPU 10 + S2, **before 11/15 compare IREN 10-Q exhibits 10.1 and 10.2 with GPU 1.0 for VULCAN-13 leg (c)**, sweep the BIS 11/10 row once the 11/09 publication is seen, renew GPU cadence before 11/27. STATUS 87% of cap, rotate at the next working session.
 
