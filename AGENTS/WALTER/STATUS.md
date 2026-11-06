@@ -3,7 +3,7 @@
 
 ## BOTTOM LINE
 
-November 6 boot: 26 cards. October jobs +165,000 against about 65,000 expected fired LABOR's own kill rule on its freeze thesis. Tokyo fell 5.96%, SoftBank 10.83%. HY 348 [Nov 5], +16 bp, no FLASH, 2 bp under REG-T-04; TERRY's 344 line reads crossed, TERRY grades. LIQUID: Gate 069 L4 fired, tier rule BROADENS, funding did not move. STWD GAAP loss on a $336.6M provision. December hike odds near 78%. UKMTO reports a tanker explosion off Khasab November 5; no confirmed mine or sinking. Distillate stocks lowest since May 2003. Navy Osprey emergency over Oman, cause unknown. No new WALTER registered fire.
+November 6 boot: 27 cards. October jobs +165,000 against about 65,000 expected fired LABOR's own kill rule on its freeze thesis. Tokyo fell 5.96%, SoftBank 10.83%. HY 348 [Nov 5], +16 bp, no FLASH, 2 bp under REG-T-04; TERRY's 344 line reads crossed, TERRY grades. LIQUID: Gate 069 L4 fired, tier rule BROADENS, funding did not move. STWD GAAP loss on a $336.6M provision. December hike odds near 78%. UKMTO reports a tanker explosion off Khasab November 5; no confirmed mine or sinking. Distillate stocks lowest since May 2003. Navy Osprey emergency over Oman, cause unknown. No new WALTER registered fire.
 
 BALANCED baseline; the labor LOOSE window lapsed with the release. Resume list: top of LAST_COMPLETION.md.
 

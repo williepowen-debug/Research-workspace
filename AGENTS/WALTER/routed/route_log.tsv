@@ -2086,3 +2086,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-06T16:34:00Z	SIG-W-20261106-024	WALTER bookmarks at Will request	"Samlyn exited non-financial stocks weeks before the selloff and cuts analysts; ""Walleye blown up"" remains an unsupported rumor"	PRIORITY	HENRY	VIOLET,LIQUID,RED	0.7
 2026-11-06T16:34:00Z	SIG-W-20261106-025	WALTER bookmarks at Will request	Europe: second wave of flight bomb threats, 20 to 27 flights November 5, hoaxes so far, no explosives found	PRIORITY	HANS	HAWK,YURI,RED,PROME	0.75
 2026-11-06T16:34:00Z	SIG-W-20261106-026	WALTER bookmarks at Will request	Small items for owner logs, November 6 midday: none moves a score	ROUTINE		VULCAN,BROCK,CREED,REGINALD,CYPHER	0.55
+2026-11-06T16:36:10Z	SIG-W-20261106-027	WALTER FALCON message	CORRECTION to card 023: the benign precedent was one-sided; FALCON grades the Osprey NOT ESTABLISHED	PRIORITY		FALCON,BRENT,HAWK,RED,PROME	0.6
