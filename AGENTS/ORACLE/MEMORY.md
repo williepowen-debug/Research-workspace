@@ -47,3 +47,5 @@ ORACLE brought back online after 79 days dormant (last touch 2026-04-01 inaugura
 **Git (historical, 6/18):** all changes inside `AGENTS/ORACLE/`. Committed locally; push deferred to a Will-coordinated window (per shared-branch protocol). *(See correction above — superseded 6/27.)*
 
 **Boot status (2026-11-05):** pull live BEFORE characterizing the day to Will. A "status only" boot on the routine's 10:15 ET read told him the crowd priced in less risk; the 18:11 ET pull showed Dec hike −10pp more during a −4.4% S&P day. Quote a stale read only with its time and without a direction-of-risk summary.
+
+**Move basis (2026-11-06):** quote a Fed move from the level held before it, with the basis. The 11/05 '17 points' started from a brief 80.5 spike; the held level gave 14. Check the hour bars around any headline move before repeating it.
