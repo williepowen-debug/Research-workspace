@@ -1,14 +1,14 @@
 # VIOLET — NEXUS Brief
 
-**Status:** 🟠 11/06 close on the Cboe print, row TICK until History: VIX 25.64, VIX3M/VIX 0.9594 second inverted close, VVIX 121.94, RISING_VOL. No score or gate moved. 🔴 11/05 close confirmed at History: VIX 28.18, VIX3M/VIX 0.9067 FIRED, VVIX 134.99 FIRED, VIX 30 NOT FIRED. 5-day row MET on its letter: HY first-published 326 to 348bp, +22 against +25. ⚠️ Flat is the letter, not calm credit.
+**Status:** 🟠 11/06 close, History partial, row TICK until VIX and SKEW post: VIX 25.64 [print], VIX3M/VIX 0.9594 second inverted close, VVIX 121.94 [History], RISING_VOL. No score or gate moved. 🔴 11/05 close confirmed at History: VIX 28.18, VIX3M/VIX 0.9067 FIRED, VVIX 134.99 FIRED, VIX 30 NOT FIRED. 5-day row MET on its letter: HY first-published 326 to 348bp, +22 against +25. ⚠️ Flat is the letter, not calm credit.
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9; credit-flat row defined, MOVE pause/resume retired (KB-VIO-377, KB-VIO-378). No live gate moved.
-**As of:** 2026-11-06 16:38 ET | **STATUS commit:** `609978b64f`.
-Official History closes through 11/05; 11/06 is the 16:15:01 ET print. Canonical numbers: [STATUS](STATUS.md). **Convergence 38/50**, unchanged on 11/06 (KB-VIO-379, KB-VIO-387).
+**As of:** 2026-11-06 18:06 ET | **STATUS commit:** `3920dc20ee`.
+Official History closes through 11/05; for 11/06, 8 of 10 files posted and equal the print, VIX and SKEW have not. Canonical numbers: [STATUS](STATUS.md). **Convergence 38/50**, unchanged on 11/06 (KB-VIO-379, KB-VIO-387, KB-VIO-390).
 
 ## CROSS-DOMAIN
 
-**ALL DESKS / HENRY / RED 🟠 — 11/06 close on the print (KB-VIO-387):** vol fell and did not reset. VIX 25.64, range 23.47 to 26.62; VIX3M/VIX 0.9594 second inverted close, on an up day; VIX9D/VIX 1.0601; VVIX 121.94, second close over 120. QQQ +1.40%, RSP −0.38%. Row TICK until History; SKEW has no 11/06 bar. CFTC 11/03 lev-money net −31,479, p38.5, predates the spike.
+**ALL DESKS / HENRY / RED 🟠 — 11/06 close, History partial (KB-VIO-387, KB-VIO-390):** vol fell and did not reset. VIX 25.64 [print], range 23.47 to 26.62; VIX3M/VIX 0.9594 second inverted close, on an up day; VIX9D/VIX 1.0601; VVIX 121.94, second close over 120. QQQ +1.40%, RSP −0.38%, KRE −0.15%, HYG −0.06%, vendor closes. VIX9D, VIX3M, VIX6M, VVIX, OVX and COR History equal the print. VIX and SKEW History have not posted, so the row stays TICK. SKEW 153.55 is Cboe's quote stamped 17:00:45 ET, not a bar; FT-10 stays RED's, graded on the bar. CFTC 11/03 lev-money net −31,479, p38.5, predates the spike.
 
 **HENRY / RED — equity put/call 11/05 is 0.89, not 1.05 (KB-VIO-388, card 035):** high, p97.5 since 2012, but not a range top and under Liberation Day 1.02. Spikes near lows is weak; test in `research/2026-11-06_close/`. **RED — VIX path (KB-VIO-389):** replicates, n=2, both with VIX over 46; 11/06 fell 2.54 on the print, short of 24.18. No registry meaning. FT-06 and FT-10 stay yours.
 
@@ -32,11 +32,11 @@ Official History closes through 11/05; 11/06 is the 16:15:01 ET print. Canonical
 
 **BRENT / HAWK — oil-vol canary:** FIRE 3.54 [11/04] was VIX falling; 2.14 [11/05 History], 2.27 CALM [11/06 print], OVX 58.29. Oil vol is not leading this move.
 
-**SAM — carry-to-vol CALM:** RV10 3.1%, p6.5 (WATCH 14.15%), USDJPY 158.52 [11/06 16:33 ET]; FXY IV flagged stale off-hours. Your grade.
+**SAM — carry-to-vol CALM:** RV10 3.13%, p6.6 (WATCH 14.15%), USDJPY 158.43 [11/06 17:09 ET]; FXY IV flagged stale off-hours. Your grade.
 
-**BOND — MOVE:** 97.92 [11/05], 93.88 [11/04], 100.36 [11/02]. The 90.8–90.9 print tagged 11/04 on `fetch.py` is a later undated print, not the close.
+**BOND — MOVE:** 97.92 [11/05], 93.88 [11/04], 100.36 [11/02]. Primary has no 11/06 bar; 92.77 is the yfinance mirror, cross-check only. The 90.8–90.9 print tagged 11/04 on `fetch.py` is a later undated print, not the close.
 
-**PROME:** L976 RESOLVED. Receipt for the 15:24 ET turn at `PROME/inbox/2026-11-06_from-VIOLET_cards-and-1106-close.md`. Both Will-facing pages still show HY 332bp; carried on the resume list.
+**PROME:** L976 RESOLVED. Market-close word done, replied by SendMessage. Both Will-facing pages still show HY 332bp and the 11/05 band; refresh stays open until VIX and SKEW History post.
 
 ## CALIBRATION
 
