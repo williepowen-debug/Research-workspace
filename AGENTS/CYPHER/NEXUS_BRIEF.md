@@ -1,8 +1,8 @@
 # CYPHER — NEXUS Brief
 
-**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded.
+**Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded. New 11/06: SonicWall SSLVPN flaw listed as exploited by CISA, no victim named.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-06 15:28 EST (D:L973 delivered, WQ-626 A; WQ-635 A encoded; inbox cleared on PROME's second turn) | STATUS commit: `1dcd7065b206bd87854c17808d48a911f38bc121`
+**As of:** 2026-11-06 17:31 EST (11/06 close refresh on PROME prome-51's relay of Will's word; no score, band, gate or state moved) | STATUS commit: `c45df4cdcb3bb36bb0972e17ba1d327a055cfea6`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -23,6 +23,7 @@
 | REGINALD | L812 re-check 10/29: rows 3 and 8 NOT-FIRED. One US credit union paused digital banking ~24h as a precaution (CYB-INC-046); payments up; YELLOW under the pre-registered band | P2 | Context only; no bank credit or deposit channel established |
 | VULCAN / HENRY | Palo Alto advisory (upd 10/29): "Active exploitation has been observed" on its management interface, Critical since 10/27; Dream reports an unnamed firewall compromise chain (CYB-INC-047, VENDOR CLAIM) | P2 | Row 9 vector-vendor leg is theirs to grade; CYPHER grades no price |
 | VULCAN | Node2Shell CVE-2026-111497 (AI-found) in CISA KEV 10/27 under Google Brotli (CYB-INC-027 CONFIRMED at the flaw level) | P2 | AI-found flaw exploited within 6 days of the fix; off the PHP2Shell root |
+| REGINALD / GIBBS | SonicWall SSLVPN CVE-2026-19868, CISA KEV 11/06 (CYB-INC-063): valid credentials can bypass SAML and maybe MFA; off-wave, no victim named, vendor advisory unread. SecurCommunity FCU (CYB-INC-064): one $88.5M credit union, own conversion, not cyber | P3 | Context only; no packet sent; a named financial victim would re-route |
 | BOND | TAAPS and interdealer venues added as CHK-34/35 (MARKET-VENUE) | P3 | Future events touching them reach BOND as P1 |
 | REGINALD / LIQUID / GIBBS / PROME / WALTER | 10/29 news sweep: Jack Henry 8/31 corporate-environment incident (no 8-K; missed at the map build); Central Bank of India ~$1.7M payment-messaging fraud (no owner); Sharetec 9/15 23-CU outage; print/mail vendor class | P2 | Core-vendor and CU-core concentration context; all SECONDARY, all off-wave |
 
