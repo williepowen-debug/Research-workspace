@@ -6,7 +6,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 ## CHANGES SINCE LAST SESSION (11/06 11:34 ET → about 17:25 ET)
 - ⚠️ QESHM, DEVELOPING. Reuters via JPost about 22:19Z: Tasnim says initial reports of two missiles on Qeshm, unconfirmed; IRNA cites witnesses, two projectiles at Suza after an aircraft was heard. Fars: explosions at Qeshm and Bandar Khamir, cause unclear, possibly warning shots. IRNA's bulletin via Al Jazeera: locals say two projectiles "impacted in the Susa area". Direction leans inbound, not settled. No attacker named; TodayPress's unsourced US-strike line not carried. NOT ESTABLISHED as a US strike. Touches no ladder rung; no 72-hour halt is running. KB-422.
 - US military official to Iran International 20:26Z: stay indoors, away from IRGC positions, if tensions escalate. Anonymous.
-- ORACLE: Polymarket effective ceasefire through 11/15 59 to about 36 from 16:04 ET, thin book, cause not established. ORACLE's numbers. KB-424.
+- ORACLE: Polymarket effective ceasefire through 11/15 59 to 31.5 from 16:04 ET, back to 48 by 23:34Z, cause not established. ORACLE's numbers. KB-424, KB-426.
 - Qatar's Prime Minister at the Oxford Union, not Doha: good deal over perfect one. Card 043. KB-419. Qatar's media office (Al Jazeera 22:25Z): "failed" reports false; mediators support "ongoing negotiations". Card 048. KB-425.
 - IMO 129 / 25 unchanged. No newly named hull, no IN-class facility, no enforcement event found. KB-423.
 
@@ -39,7 +39,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-Inbox 0, WALTER lane 0; cards 043, 047, 048 and ORACLE's packet consumed. COR-20261106-48 receipted APPLIED. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
+Inbox 0, WALTER lane 0; cards 043, 047, 048 and ORACLE's two packets consumed. COR-20261106-48 receipted APPLIED. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
 
 ## PENDING PUSH / GIT
 All pushed through safe-push at Will's 18:33 ET closeout word via prome-51. No theater search after about 22:31Z (17:31 ET): marks are as of that cutoff, not as of closeout. Window stays open for the two WQ-646 reads.
