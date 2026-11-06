@@ -27,3 +27,4 @@ receipt_date	correction_id	action	note
 2026-11-05T19:18Z	COR-20261105-41	NO-OP	scope=Trepp figures are in no BROCK ledger or STATUS and are CREED's; 
 2026-11-05T21:35Z	COR-20261105-57	APPLIED	artifact=AGENTS/BROCK/trade/TRIGGER_LADDER.md#row-10; validation_ref=NONE; 
 2026-11-06T15:19Z	COR-20261105-61	NO-OP	scope=Own read is the source of the correction. KB-BRK-436 carried the Chapter 11 sentence on 11/05 before card 061 and no BROCK surface cites card 059 without it.; 
+2026-11-06T20:33Z	COR-20261106-34	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-445; validation_ref=AGENTS/BROCK/research/2026-11-06_cards-029-034/REPORT.md#1. Answer; 

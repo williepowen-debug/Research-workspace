@@ -90,3 +90,7 @@ ARCC vs MFIC at 6/30: an exact normalised-name pass found **5** shared borrowers
 ### #40 — A ratio whose denominator is the market factor moves against the stress it is meant to detect. *(2026-11-06)*
 
 I carried "CCC/BB turns UP during a widening" as my signal and "≤5.93" as a W3 reversal, and never base-rated either. On 786 observations the ratio fell on 42 of 42 days HY widened 10bp or more, so the first was near unreachable and the second can pass on a selloff. P2 had called it weak in August and I left it there. **Trap 7 applies to a watch condition as much as to a threshold: ask how the measure behaves in the event it is meant to catch.** `research/2026-11-06_hy-print-cabo/REPORT.md` §4.
+
+### #41 — A delayed-draw line's FV/funded is not its mark, and "sponsor unidentified" is a task, not a finding. *(2026-11-06)*
+
+IE Mackenzie sat in KB-BRK-435 for a day as "sponsor unidentified" while the name itself pointed at IREN, formerly Iris Energy, whose filing named the borrower and Blue Owl as agent. One search on the exact legal name closed it and found two more holders, OCIC and OTIC, plus a fifth CoreWeave holder. Nscale read 95.1 at OBDC and 98.1 at OTF on FV/funded, which looks like two marks; both are 99.5 of commitment, because the discount on the whole commitment falls on the funded part. **Rule:** run an unknown borrower's exact legal name through full text before logging it unknown, re-run a holder search once the quarter's 10-Qs are in, and quote a delayed-draw line on commitment, unfunded at par, stating the basis (trap 1).
