@@ -795,3 +795,10 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T11:43:07-05:00	SIG-W-20261106-023	noted	INBOX_WALTER	FALCON owns the Osprey grade. No oil line touched.
 2026-11-06T11:43:07-05:00	SIG-W-20261106-027	noted	INBOX_WALTER	Correction COR-20261106-27 receipted NO-OP: BRENT holds no Osprey claim.
 2026-11-06T14:46:32-05:00	SIG-W-20261106-033	noted	INBOX_WALTER	France program 10M barrels 11/1 to 1/31 logged on combo:diesel-buffer. Kalshi 3.6M not found by WALTER, unconfirmed, not adopted. No score moved.
+2026-11-06T18:35:43-05:00	FALCON-20261106-flow-perimeter	acted	INBOX	Corrected BRENT's wording: Vortexa 86% is whole Gulf, Bloomberg clause is Saudi and UAE. Fixed in note, STATUS, NEXUS. TankerTrackers figures logged on combo:gulf-flow-basis.
+2026-11-06T18:35:43-05:00	ORACLE-20261106-ceasefire-legs	noted	INBOX	Thin book, cause not established, oil legs unmoved. No gate or score touched. Read at the Sunday or Monday open.
+2026-11-06T18:35:43-05:00	ORACLE-20261106-ceasefire-retrace	noted	INBOX	Update: 11/15 leg back to 48.0 at 23:34Z. Resolution text is ORACLE and FALCON domain. No gate or score touched.
+2026-11-06T18:35:43-05:00	SIG-W-20261106-043	noted	INBOX_WALTER	Superseded in part by card 048. BRENT never carried the claim.
+2026-11-06T18:35:43-05:00	SIG-W-20261106-046	noted	INBOX_WALTER	Headlines logged on combo:diesel-buffer: Energy Aspects China diesel cut, Kazakhstan road fuel ban. No figures, no score moved.
+2026-11-06T18:35:43-05:00	SIG-W-20261106-047	noted	INBOX_WALTER	FALCON owns the grade. Not established as a US strike. Oil shut until Sunday evening. No line touched.
+2026-11-06T18:35:43-05:00	SIG-W-20261106-048	noted	INBOX_WALTER	Correction COR-20261106-48 receipted NO-OP: BRENT carried neither the card 043 claim nor a November 6 Yanbu line.

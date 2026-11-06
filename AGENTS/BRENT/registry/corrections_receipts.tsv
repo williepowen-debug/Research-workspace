@@ -31,3 +31,4 @@ receipt_date	correction_id	action	note
 2026-11-06T16:43Z	COR-20261106-20	NO-OP	scope=BRENT surfaces never carried the 11/6 date or IMO one missing from card 018, wake note uses 2200Z 11/5 and one fatality; 
 2026-11-06T16:43Z	COR-20261106-27	NO-OP	scope=BRENT holds no Osprey or CMV-22B claim, FALCON owns the grade; 
 2026-11-06T20:35Z	COR-20261106-35	NO-OP	scope=BRENT holds no put/call figure, card 033 BRENT line is France diesel only, unaffected; 
+2026-11-06T23:35Z	COR-20261106-48	NO-OP	scope=BRENT never carried card 043's claim or a November 6 Yanbu line, grep of STATUS NEXUS CATALYSTS SCRATCH clean; 
