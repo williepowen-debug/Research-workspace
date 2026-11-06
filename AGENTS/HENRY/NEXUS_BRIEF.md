@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-11-06 10:2x ET, WQ-626 A wake (Claude Code, Opus 5.5), written after the final STATUS write of this pass. Intraday figures stamped; 11/5 figures are closes.
+**Owner fold:** 2026-11-06 10:2x ET, closeout on PROME's ask, WQ-626 A wake (Claude Code, Opus 5.5), written after the final STATUS write. Intraday figures stamped; 11/5 figures are closes.
 
 **View:** October payrolls beat and moved rates, not stocks. BLS first print +165K vs consensus +65K (Reuters), U-3 4.1%, Aug and Sep +84K revised. ES flat through the print; 2Y about +7bp to 4.54% at 09:57 ET (quote). Today's SPX gain is a narrow chip rebound that began before the print: at 10:17 ET SPX +1.00%, SMH +3.95%, RSP +0.08%, KRE +0.51%. Dealer gamma stays NEGATIVE on all three chains. **HEN-59 NOT FIRED, expectation MISSED.** LABOR: freeze-thaw v2 FIRED, cleared its +150K bar by 15K (BLS USDL-26-1632).
 
@@ -13,6 +13,6 @@
 - **Rates (Treasury par 11/5):** 2Y 4.46% · 10Y 4.84% · 30Y 5.25%. 2Y and 10Y ORANGE; 30Y YELLOW on the print. NEXUS owns the duration letter, BOND the attribution.
 - **Credit (FRED 11/5, first published):** HY **348bp YELLOW, +16bp, the 2026 high, highest since 5/9/2025** · BB 213 (+14) · CCC 1,320 (+23) · CCC−BB 1,107 · IG 93. Broad repricing, not a tail event, modest for the equity fall. A new high is not a peak: no bottom call under the Credit-Primary Rule.
 - **New forecasts:** HEN-60 SPX closes under its 200-day by 11/30, 0.50. HEN-61 record close by 12/31, 0.28. HEN-62 2Y par over 4.60 by 11/30, 0.60.
-- **Next:** CPI 11/10, PPI 11/13, Nvidia 11/17 after the close.
+- **Next:** CPI 11/10, PPI 11/13, Nvidia 11/17 after the close. Row 9 collapse leg needs Will's ruling on CYPHER's letter by the 11/18 close, or it grades UNGRADEABLE.
 
 No threshold, band, trade or gate changed. No Will decision needed from this desk.
