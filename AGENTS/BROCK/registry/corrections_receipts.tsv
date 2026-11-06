@@ -32,3 +32,4 @@ receipt_date	correction_id	action	note
 2026-11-06T20:43Z	COR-20261106-36	NO-OP	scope=BROCK carries no SoftBank leverage figure, the KB-BRK-445 member is CDS only; 
 2026-11-06T21:48Z	COR-20261106-41	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-445; artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-462; validation_ref=NONE; 
 2026-11-06T22:22Z	COR-20261106-42	NO-OP	scope=BROCK carries no Oracle CDS level on any live surface, the 3.25 percent and 288 bp lines were never on STATUS, KB, VX, docket or brief, corrected DTCC read logged as one KB-BRK-445 theme member, LIQUID figure; 
+2026-11-06T23:24Z	COR-20261106-51	APPLIED	artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-465; artifact=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-448; validation_ref=NONE; 

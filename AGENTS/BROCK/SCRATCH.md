@@ -1,4 +1,4 @@
-# BROCK SCRATCH — 2026-11-06 handoff (closed on PROME prome-51's relay of Will's 17:08 ET word)
+# BROCK SCRATCH — 2026-11-06 handoff (close refresh, then cards 050, 051 at 18:23 ET)
 
 Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-06.md`. Close read: KB-BRK-463, -464; data `research/2026-11-06_close-refresh/`.
 
@@ -22,5 +22,6 @@ Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-
 - corrections receipt: no semicolons in `--scope`, they are the field delimiter.
 - WALTER keeps delivering during a session: re-list `inbox/WALTER/` immediately before `git mv`.
 - MFIC: MD&A and SOI fn 14 read, call not. ARCC deal watch: Thomas, Heniff, Magnate carry 0.81 of cost on non-accrual (inference, REPORT §2).
+- Hertz Class B (KB-BRK-465): all $300M refusers sign through Oaktree, including ABF Rental Car Holdings. OSCF $85.71M at 99.49 [6/30/26]. Read OSCF's 9/30 schedule when its fiscal-year 10-K lands: marks predate the 11/02 amendment. 12/31 is the Class B funding date; a miss resets dates to 8/31/2027. Credit read is LIQUID's. EDGAR hit 'HVF III' at Apollo is Hybrid Value Fund, not Hertz. OSCF ($4.28B net assets, quarterly SC TO-I, NAV $22.32 [6/30] from $23.09 [9/30/25]) is not in PC_REDEMPTION_REGISTER; not added, no study run.
 - IE Mackenzie = IREN GPU 2.0, four Blue Owl funds; deep dive `research/2026-11-06_iren-mackenzie/REPORT.md` (KB-BRK-456, 459–461). Quote 99.15 of commitment, never FV/funded. Checkpoints: PIMCO Asset-Based Lending 10-Q ~11/16, N-PORTs ~11/29, last funding request 12/28, 12/31, IREN December 10-Q ~early Feb. Rows live in `docket/CATALYSTS.tsv`; no PROME wake is registered for them beyond the 11/16 and 12/31 rows.
 - Experiment A software FV/par cells for FSK, BXSL, OBDC owed; need a SOI parse.

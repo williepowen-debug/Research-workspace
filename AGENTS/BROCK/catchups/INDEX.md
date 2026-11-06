@@ -1,6 +1,6 @@
 # BROCK catch-ups — INDEX
 
-**CURRENT:** `catchups/2026-11-06.md` (WQ-626 A wake, L965: HY 348 [11/5], row 10 NOT FIRED, CCC/BB fell, not my signal · L876 BLOCKED-BY-ORDER FINAL, NYSE non-compliance stated · call PARTIAL · BRK-37/38 · five combo themes · drain 9/9 after Will's 11:18 ET word, 067 answered, inbox empty · 17:08 ET close refresh: 39-name median 26.15% on NAV refresh, Cable One -16.7% cause not established, card 042 NO-OP; no score change).
+**CURRENT:** `catchups/2026-11-06.md` (WQ-626 A wake, L965: HY 348 [11/5], row 10 NOT FIRED, CCC/BB fell, not my signal · L876 BLOCKED-BY-ORDER FINAL, NYSE non-compliance stated · call PARTIAL · BRK-37/38 · five combo themes · drain 9/9 after Will's 11:18 ET word, 067 answered, inbox empty · 17:08 ET close refresh: 39-name median 26.15% on NAV refresh, Cable One -16.7% cause not established, card 042 NO-OP; no score change · cards 050, 051: Hertz Class B refusers all sign through Oaktree, KB-BRK-465).
 
 **Rule (since the 2026-10-02 split):** ONE FILE PER DAY — a later session the same day appends its own `## <time> session` section to that day's file. Each session's narrative — stamps, superseded BOTTOM LINEs, closed calendar rows, pre-grade records — goes to `catchups/YYYY-MM-DD.md`, never into STATUS. Mark the new file CURRENT here and move the previous line to *Superseded*. STATUS keeps only current state.
 
