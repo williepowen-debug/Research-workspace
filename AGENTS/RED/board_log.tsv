@@ -116,3 +116,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T10:16	2026-11-05_SIG-VIO_close-grade-inverted-vvix-fired	acted	INBOX_GENERAL	VIOLET close signal read; VIX 28.18 and 5-day +63.84% check at Cboe and FRED; inversion marks peaks is its reading; ledger input
 2026-11-06T10:16	2026-11-05_from-VIOLET_official-close-bars	acted	INBOX_GENERAL	Bars read; SKEW missing in the packet, read 149.37 at Cboe directly
 2026-11-06T10:16	2026-11-06_from-CARL_masking-intermediate-falsifier-missed	deferred	INBOX_GENERAL	CRL-21 MISSED; three press questions held for the next open session, outside today's bound; grade file unread
+2026-11-06T11:06	SIG-W-20261106-016	acted	INBOX_WALTER	VIOLET 5-day row met by 3bp; 326 and 348 check at FRED; no RED line moves; ledger note, flat is the letter; window-dependent, 314 base reads +34
+2026-11-06T11:06	2026-11-06_from-VIOLET_history-closes-and-skew-bar	noted	INBOX_GENERAL	Cboe History confirms 11/05 grades, VIX 28.18, SKEW 149.37; no RED grade changes

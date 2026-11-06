@@ -37,3 +37,10 @@
 
 ## GIT STATE
 See the closeout message for commits and the push receipt.
+
+---
+
+## ADDENDUM S60-b — 2026-11-06 11:06 ET (from `date`)
+- WALTER SIG-W-20261106-016 and VIOLET's History packet read and processed. VIOLET's credit-flat row met by 3bp; HY 326 and 348 check at FRED; no RED line, grade or weight moves. Ledger note in STATUS; KB-RED-109 member added.
+- RED-27 stays at 68%: VIOLET's 3 of 21 is a 20-session base rate on a different letter and a price is never amended after data.
+- Next boot, W2: WQ-599 is reported RULED C (TERRY commit 3c4d41ec8, PROME 98308b28f), so CHG-RED-056's closing event has passed; read the ruling, then close the row. Not closed here, the ruling is unread.
