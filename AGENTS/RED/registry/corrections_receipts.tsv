@@ -81,3 +81,12 @@ receipt_date	correction_id	action	note
 2026-11-06T15:16Z	COR-20261105-42	NO-OP	scope=RED never carried the 100B data center figure - grep 11/06 of the same surfaces found no live citation; 
 2026-11-06T15:16Z	COR-20261105-52	NO-OP	scope=RED never carried the Arkea item - grep 11/06 of the same surfaces found no live citation; 
 2026-11-06T15:17Z	COR-20261105-61	NO-OP	scope=RED carried no Cable One line before this session and the new combo row cites the corrected text; 
+2026-11-06T22:19Z	COR-20261106-15	NO-OP	scope=RED never carried the Capcom item - grep 11/06 of STATUS, SCRATCH, CALENDAR, NEXUS_BRIEF, OUTBOX, KB, VX, ML, CATALYSTS and the CHG-057 report and trees found no citation; 
+2026-11-06T22:19Z	COR-20261106-27	NO-OP	scope=RED never carried the Osprey item - grep 11/06 of STATUS, SCRATCH, CALENDAR, NEXUS_BRIEF, OUTBOX, KB, VX, ML, CATALYSTS and the CHG-057 report and trees found none; 
+2026-11-06T22:19Z	COR-20261106-34	APPLIED	artifact=AGENTS/RED/challenges/2026-11-06_CHG-057_AI_FUNDING_PICKIER_NOT_FAILING.md#attack-2; validation_ref=NONE; 
+2026-11-06T22:19Z	COR-20261106-36	APPLIED	artifact=AGENTS/RED/challenges/2026-11-06_CHG-057_AI_FUNDING_PICKIER_NOT_FAILING.md#attack-6; validation_ref=AGENTS/RED/workbook/ML.tsv#ML-RED-325; 
+2026-11-06T22:19Z	COR-20261106-41	APPLIED	artifact=AGENTS/RED/challenges/2026-11-06_CHG-057_AI_FUNDING_PICKIER_NOT_FAILING.md#attack-6; validation_ref=AGENTS/RED/workbook/ML.tsv#ML-RED-325; 
+2026-11-06T22:20Z	COR-20261106-20	NO-OP	scope=RED never carried the waterline explosion or Velos Sapphire status - grep 11/06 of STATUS, SCRATCH, CALENDAR, NEXUS_BRIEF, OUTBOX, KB, VX, ML, CATALYSTS and the CHG-057 report and trees found none, and KB-RED-112 adds the corrected 11/05 date; 
+2026-11-06T22:20Z	COR-20261106-35	NO-OP	scope=RED never carried the 1.05 equity put-call - grep 11/06 of STATUS, SCRATCH, CALENDAR, NEXUS_BRIEF, OUTBOX, KB, VX, ML, CATALYSTS and the CHG-057 report and trees found none, and KB-RED-113 adds the corrected 0.89; 
+2026-11-06T22:20Z	COR-20261106-37	NO-OP	scope=RED never carried Oracle CDS levels or IREN fully funded - grep 11/06 of STATUS, SCRATCH, CALENDAR, NEXUS_BRIEF, OUTBOX, KB, VX, ML, CATALYSTS and the CHG-057 report and trees found none, and KB-RED-109 adds the corrected reads; 
+2026-11-06T22:20Z	COR-20261106-42	NO-OP	scope=RED never carried Oracle CDS levels - grep 11/06 of STATUS, SCRATCH, CALENDAR, NEXUS_BRIEF, OUTBOX, KB, VX, ML, CATALYSTS and the CHG-057 report and trees found none, and KB-RED-109 adds the corrected reads; 

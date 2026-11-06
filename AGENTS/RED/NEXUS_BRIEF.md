@@ -1,6 +1,8 @@
 # RED — NEXUS Brief
 
-**Status:** 🟠 **vS60-c (2026-11-06 15:36 ET). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No RED line fired or exited. Prior vS60 → `reports/2026-11-06_NEXUS_BRIEF_vS60_rotated.md`.
+**Status:** 🟠 **vS60-e (2026-11-06 17:22 ET, 11/06 close refresh). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No RED line fired or exited. Prior vS60-c → `reports/2026-11-06_NEXUS_BRIEF_vS60-c_rotated.md`.
+- 🆕 **11/06 close:** VIXCLS, SKEW, HY and CCC cells unpublished and missing, so all exit counts stand through 11/05. Cboe's 16:15 ET print has VIX 25.64, a second witness, uncounted. Published 11/06: 5y5y 2.17 (−5bp, lowest since 6/24), Treasury par 2Y 4.51, 10Y 4.86, 30Y 5.26, real 10Y 2.63. January Brent settle 98.32 [BRENT, EST wire]. FT-11 no window.
+- 🆕 **CHG-RED-056 closed** on WQ-599 RULED C, Will's decision and no verdict on RED's read. PROME's count N = 5, R = 6, NOT MET. **Q3 household debt report is Tue 11/10 11:00 ET**, verified at the New York Fed; CHG-045 and CHG-049 re-review then; tree `research/2026-11-10_HHDC_Q3_TREE.md`.
 - 🆕 **CHG-RED-057 MODERATE, AI funding 'pickier rather than failing':** not failing holds on what is read; the top of the chain is pricier, not picked over; the weak part is 'rather than', since selection leans on investment-grade tenants and Microsoft is reported reassessing. RED-30 25% and RED-31 30% are the exit tests. Report `challenges/2026-11-06_CHG-057_AI_FUNDING_PICKIER_NOT_FAILING.md`.
 
 - 🆕 **11/05 official bars:** VIX 28.18 (FRED and Cboe), **FT-06 exit 1 of 5**, a new run, earliest read 11/12. HY 348, +16bp, new post-fire high, **FT-02 exit 0 of 3**. CCC 1,320. SKEW 149.37, **FT-10 exit 0 of 4**.
@@ -10,7 +12,6 @@
 - 🆕 **Ledger adds for the post-11/10 re-derivation:** selloff, HY 348, Japan and data center bonds against October payrolls +165K, 3-mo 137K, LABOR v2 fired. One root for stocks, volatility and Japan.
 - 🆕 **FT-11** keeps reading the November QRA ops on its own letter (retirement keys on the program ending; sb0678 carries it). F2 seven of seven OFF-THE-RUN. No window since 10/27, precedence still untested.
 - 🆕 **Ledger for the post-11/10 re-derivation:** FAL-07 CONFIRMED, marks 1/14/85 · UKMTO tanker strike north of Qatar [event 11/4 23:20Z] · claims 189K · Challenger October 43,994 · Q3 productivity +3.6%, unit labor costs −0.7% · AI selling 11/05, intraday, banks and credit not joining at 09:54 ET.
-- 🆕 **CHG-RED-056 (operation, not thesis):** OP-SCALE: PROME recount N = 4, R = 6; sizing not ready; report version 4. Report `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`.
 - **FT-10 outcome condition met** at obs 14; row UNRESOLVED to ~11/25 by rule; the trigger was tech and gamma, not the war or credit tail (ML-311).
 - **S57 10/28 still governs the weights:** discretionary re-derivation, report `reports/2026-10-28_S57_weight_rederivation.md`.
 - **Standing:** FT-02 FIRED 10/16 obs (Acute +3); FT-08 FIRED 10/14 (Stag +3); FT-10 FIRED 10/14 (Acute +2); S56 bank tree +1 (EGBN DETERIORATION on one legacy $56.0M loan + OZK W9).
@@ -37,7 +38,7 @@
 - **Conviction:** direction-M · timing-M− · level-M−. **HOLD 72** (S55 +2 mechanical FT-02; S48 +2 mechanical) · **Net-bear 68** (S57 −1 discretionary; S56 +1 pre-stated; S55 +3, S52 +3, S52b +2 mechanical; 60 at S51).
 - **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-11-06, 31 rows): 14 CORRECT · 10 WRONG · 7 ACTIVE (RED-29 resolves 11/12 · RED-28 12/10 · RED-31 12/15 · RED-25, RED-26, RED-27, RED-30 12/31).** STATUS and CALENDAR carry this same line.
 - **Scorecard caveat (2026-11-05 16:43 ET):** the CORRECT and WRONG tally mixes two conventions, stated at `workbook/PREDICTIONS.tsv` line 2. Do not compare it across desks. RED-26 and RED-27 share one root.
-- **Open challenges: 8** (056 OP-SCALE 11/7 · 027 EGBN Q4 ~1/28 · 028 Oct CPI 11/10 · 044 BRK-32 11/30 · 045 HHDC 11/15 · 049 HHDC 11/15 · 054 bank-put book 11/09 · 055 FT-11 classifier 12/15).
+- **Open challenges: 8** (054 bank-put book 11/09 · 028 Oct CPI 11/10 · 045 household debt 11/10 · 049 household debt 11/10 · 057 AI funding 11/11 · 044 BRK-32 11/30 · 055 FT-11 classifier 12/15 · 027 EGBN Q4 ~1/28).
 - **Diverge from fleet by:** (1) the HY retracement does not un-fire FT-02 until <300 ×3; (2) a 30Y rally is not evidence until classified, and on 10/22 it classified FUNDAMENTAL; (3) stagflation is co-modal with managed decline, not the modal path; (4) a hiking Fed is not a rescue.
 - **Uncertain about:** (1) whether a few names (Optimum) explain most of CCC's +161bp October widening (DEWEY: UNKNOWN); (2) whether the 11/04 oil move is a real de-escalation or a deal-hope print that flows and hulls contradict; (3) FALCON's grade of the 11/02 Qeshm strike and the post-midterm strike window; (4) whether HY's 348 is the first step or the whole move; 3.95 is RED-27's line.
 
@@ -53,16 +54,15 @@
 | **BROCK** | BRK-26 graded 11/05: SQN does not resolve, row OPEN 55% to 12/31 (KB-BRK-429) | 🟢 | none; RED read at artifact |
 | **DAEDALUS** | Census #2: three rows DECLINED | 🟢 | rules stay manual; Will's fewer-checkers rule |
 
-**WAITING FOR [2026-11-05, closeout]:**
+**WAITING FOR [2026-11-06 close]:**
 
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
-| FRED | 11/05 cells (HY, CCC, VIXCLS) | 11/06 | FT-06 exit day 1 only if VIXCLS >=18 (0 of 5); FT-02 exit <300 ×3 (−3 Acute, CONF −2; 332 [11/04]); RED-27 window |
-| Cboe | SKEW 11/05 bar, not posted at closeout | next boot | FT-10 exit <140 ×4 (0 of 4), Acute −2 / Managed +2 |
+| FRED | 11/06 cells (HY, CCC, VIXCLS) | 11/09 | FT-06 2 of 5 only on VIXCLS >=18; FT-02 exit <300 ×3 (−3 Acute, CONF −2; 348 [11/05]); RED-27 window |
+| Cboe | SKEW 11/06 bar, not posted at the close pass | 11/09 | FT-10 exit <140 ×4 (0 of 4), Acute −2 / Managed +2 |
 | OZK | Q3 10-Q, FDIC filer; WAL read, $99M absent | by 11/9 | CHG-054 re-review 11/09 (OZK Chicago refi primary unread) |
-| BLS | October jobs | 11/6 08:30 | RED-23 resolves; KB-092 re-derive |
 | BLS | October CPI | 11/10 08:30 | FT-08 exit only on core ≤0.0 · CHG-028 closes |
-| NY Fed | Nov HHDC | ~11/15 | CHG-045 / CHG-049 |
+| NY Fed | Q3 household debt report | 11/10 11:00 | CHG-045 / CHG-049; CARL grades |
 
 ---
 
@@ -71,13 +71,12 @@
 | Date | Event | What it decides |
 |------|-------|-----------------|
 | 🟡 ~11/5–11/9 | OZK / WAL 10-Qs | CHG-054 |
-| 🟡 Fri 11/6 | October jobs | RED-23 · KB-092 |
 | 🔴 Tue 11/10 | October CPI | FT-08 exit · CHG-028 final |
-| 🟠 11/15 | Nov HHDC | CHG-045 / CHG-049 |
+| 🟠 Tue 11/10 11:00 | Q3 household debt report | CHG-045 / CHG-049 |
 | 🟡 ~11/25 | FT-10 outcome horizon | condition already met; apparatus only |
 | 🟡 Fri 11/27 | VX-006 Zweig 12-month grade | SPY > 683.39 = CORRECT |
 
-**Daily monitors [2026-11-05 closeout, official cells 11/04]:** FT-02 exit (332 [11/04], 0 of 3) · FT-12 HY vs 260 (72bp) · CCC 1,297 (FT-07 banked) · FT-10 SKEW 150.90 [11/04] (exit 0 of 4) · FT-06 exit 0 of 5 · FT-11 next window · WL-07/12 USD/JPY 158.01 vs 160/155 · WL-11 Brent <95 FIRING, 94.62 settle [11/04].
+**Daily monitors [2026-11-06 close, official cells 11/05]:** FT-02 exit (348 [11/05], 0 of 3) · FT-12 HY vs 260 (88bp) · CCC 1,320 (FT-07 banked) · FT-10 SKEW 149.37 [11/05] (exit 0 of 4) · FT-06 exit 1 of 5 · FT-11 next window · WL-07/12 USD/JPY 158.43 vs 160/155 [vendor 11/06] · WL-11 Brent <95 clear, January Brent 98.32 settle [11/06, BRENT EST wire].
 
 ---
 

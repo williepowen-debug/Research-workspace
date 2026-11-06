@@ -58,3 +58,14 @@ See the closeout message for commits and the push receipt.
 - Will's reboot word via PROME 16:46 ET. SAM's packet (committed 15:49 ET, after S60-c closed) read and verified at its funding stack, then processed.
 - Corrected in RED's own files: CHG-057 report (attack 6, steelman room, 11/10 test, independence line), the 11/10 tree, CATALYSTS, CHALLENGES. ML-325 records it. CHG-057 stays MODERATE; no weight moved.
 - **Owed unchanged from S60-c:** 🟠 **11/11:** re-review CHG-057. Now also weigh, as known before the print: bridge repaid 9/15, final OpenAI tranche paid from September notes, and the $10B OpenAI loan needing a parent guarantee (SAM, attack 4). Close CHG-RED-056 after reading the WQ-599 ruling.
+
+---
+
+## ADDENDUM S60-e — 2026-11-06 17:22 ET (from `date`)
+- Will's 17:08 ET word via PROME: boot, drain, refresh through the 11/6 close. Bounded: no new research thread, no spawns, no trade or card. Inbox empty, WALTER lane empty. 25 BOARD cards logged; log rotated. Corrections 9 of 9 receipted (3 APPLIED, 6 NO-OP). Basis re-attested on WALTER spec v0.37, push mechanics only.
+- **No weight, trigger state or count moved.** VIXCLS, SKEW, HY and CCC have no 11/06 cell. Published 11/06: 5y5y 2.17, Treasury par 2Y 4.51, 10Y 4.86, 30Y 5.26, real 10Y 2.63. FT-11 no window. January Brent 98.32 settle [BRENT, EST wire].
+- **CHG-RED-056 RESOLVED** on WQ-599 RULED C, read at the ruling. It closes on Will's decision, not on RED being right. 11/7 catalyst row resolved. This retires S60's NEXT item 3 and the S60-c and S60-d owed line.
+- **Household debt report re-dated: Tue 11/10 11:00 ET**, listing read at the New York Fed advisories page (time per CARL). CHG-045 and CHG-049 re-review 11/10; tree `research/2026-11-10_HHDC_Q3_TREE.md`. Replaces S60's '11/15 HHDC' in NEXT item 7. ML-326.
+- KB-101 refreshed to October (own FRED pull), KB-091 re-classed DATED-HISTORICAL, combo rows KB-109 to 113 extended. STATUS headers folded with crc.
+- **Owed, in order:** 🔴 **Mon 11/09:** VIXCLS and SKEW 11/06 bars, HY and CCC about 10:10 ET: FT-06 2 of 5 only on a published ≥18, FT-02, FT-10, RED-27 window. 🟡 **By 11/09:** CHG-054 re-review, OZK 10-Q still unread. 🟡 Combo KB-110 due 11/13. 🟡 CARL packet still deferred. 🔴 **11/10:** CPI 08:30, household debt 11:00, then the re-derivation; read 11/11 CHG-057 from SAM and VULCAN.
+- Live-event override: VIX is still over 20, the market is shut until Monday, and PROME's task is bounded, so the session ends here. It re-applies at the next boot if a VIX close over 20 posts and the event is running.

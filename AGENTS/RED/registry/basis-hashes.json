@@ -12,7 +12,7 @@
     "AGENTS/RED/scripts/review_debt.py": "577b84a9c9f3a1e775a9ddf1129b4ad02414a08c173d94968497744271c8b72f",
     "AGENTS/RED/scripts/schema_check.py": "a3dabbba359ba2a2e30079010f1688ac50f9bd0e4498b52cf7c2207b45631538",
     "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
-    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "31b519e21600ef145130be11d08634026cce9b82ba7e4775b01821f42c70e06c",
+    "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "81bbcd1706b8166edc549159952ec6c1c98f11e0ed2238f42cef62638509b67b",
     "CLAUDE.md": "e4d650bdbb58a5136f797fb6f5f2325e41106e8ed51a7324526fc2307229e37b",
     "FORGE/tools/market-data/fetch.py": "cd98143c3a40dc17a2e6aadd10e162526ad8d0c657a1ecea409634b722916ca6",
     "scripts/corrections_boot_check.py": "0c01347df227938c66ac72b3b5b064a9787f14587f1858aa0fa2e5b83f31bc7f",
@@ -113,6 +113,13 @@
       "moved": [
         "AGENTS/RED/CLAUDE.md",
         "AGENTS/RED/scripts/schema_check.py"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "note": "WALTER spec v0.37: foreign-dirty push hold dropped on Will's word 11/06; push mechanics only, no change to RED's BOARD or lane consumption; diff read",
+      "moved": [
+        "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md"
       ]
     }
   ],

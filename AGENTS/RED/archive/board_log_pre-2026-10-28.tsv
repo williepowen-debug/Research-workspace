@@ -1,0 +1,18 @@
+# FROZEN - rows rotated VERBATIM from board_log.tsv by scripts/board_log_append.py --rotate; read-only history. boot.py section 5 reads this file.
+timestamp_read	signal_id	disposition	source	notes
+2026-10-21T09:02	SIG-W-20261019-012	noted	BOARD	OTTO Ally B whole-loan purchase through Jul-2027, cancellable at discretion; warehouse-exit forecast 55->25pct OPEN; strict-window 3/8 Brier 0.277 = no forecasting edge. Counter-evidence to consumer-funding-retreat framing; carried, no RED weight.
+2026-10-21T09:02	2026-10-15_from-BROCK_brk26-pre-data-statement	noted	INBOX_GENERAL	BRK-26 letter stands; post-5/1 Madison-shaped order counts. RED does not seek to narrow the letter (no ask to PROME). Closes RED's L657 question.
+2026-10-21T09:02	2026-10-21_from-PROME_board-ledger-gap	acted	INBOX_GENERAL	All 7 listed ids + 2 more (10/18-001/-002) logged this session.
+2026-10-22T11:33	SIG-W-20261021-013	acted	INBOX_WALTER	EGBN Q3 graded at the primary: CHG-027 DETERIORATION on the letter (E3 inflows 73.7M > reductions 18.8M), composition one legacy 56.0M loan; Acute +1 with OZK W9. reports/2026-10-22_S56_BANK_Q3_TREE_GRADE.md
+2026-10-22T11:33	SIG-W-20261022-011	noted	BOARD	HBAN NCO 0.31pct / VLY 30.1M construction nonaccrual / SSB NCO 0.09pct: cohort context for the CHG-054 KRE book-level test (unchanged); REGINALD owns the cohort
+2026-10-22T11:33	2026-10-21_from-CARL_crl29-first-grade-no-verdict	acted	INBOX_GENERAL	CRL-29 panel NO VERDICT (registered null, premise absent 5 of 6 months) -> CHG-049 stays ACTIVE, re-review 11/15 Nov HHDC; VX-009 not re-measured
+2026-10-28T21:08	SIG-W-20261022-027	noted	BOARD	CORRECTION (DC ABS v2): receipted NO-OP, RED cites none of it
+2026-10-28T21:08	SIG-W-20261022-040	noted	BOARD	CORRECTION (margin debt 2nd-highest): receipted NO-OP
+2026-10-28T21:08	SIG-W-20261022-048	noted	BOARD	CORRECTION (CYPHER cyber ledger): receipted NO-OP
+2026-10-28T21:08	SIG-W-20261023-031	acted	BOARD	CORRECTION: WH written no-strike-before-midterms line weighed against War +1 in the S57 re-derivation; receipted NO-OP
+2026-10-28T21:08	SIG-W-20261023-039	acted	BOARD	CORRECTION: rated-CCC AI share ~0, cable/telecom-led; FT-02 post-fire composition note + S57 Acute-flat input; receipted NO-OP
+2026-10-28T21:08	SIG-W-20261025-002	acted	BOARD	CORRECTION: issuance freeze not established; S57 Acute-flat input; receipted NO-OP
+2026-10-28T21:08	SIG-W-20261025-026	noted	BOARD	CORRECTION (Zamir framing): receipted NO-OP, FALCON owns
+2026-10-28T21:08	SIG-W-20261027-001	noted	BOARD	CORRECTION (EART close date): receipted NO-OP, CARL owns
+2026-10-28T21:08	SIG-W-20261029-001	acted	BOARD	FOMC 10/28 hold 10-2, two hike dissents: Policy Rescue -1 and Stag held at -2 (not -3) in the S57 re-derivation
+2026-10-28T21:08	SIG-W-20261023-036	acted	BOARD	Record October ship attacks (28): War +1 input S57 (Iran-side root)
