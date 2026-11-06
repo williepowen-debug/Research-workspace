@@ -21,6 +21,8 @@ dispatch_note: "Bookmarks 2, 3, 6, 7, 8, 11, 13. Rule 9 fetch helpers read CNBC 
 kill_strings: ["Oracle's AI deals are falling apart one by one"]
 ---
 
+> **Correction, November 6 — SIG-W-20261106-042:** 288 bp is a vendor close on October 15; DTCC disseminated 302 that day. Oracle 5Y reached 342.5 disseminated on October 20, the high of LIQUID's window. Original text preserved below.
+
 > **Corrections, November 6 — SIG-W-20261106-034 and -037:** Reuters places the Microsoft wind-down inside a larger reassessment of cloud partnerships, so it is not only older capacity. Oracle CDS was 305 bp on November 5, above the 288 bp here, and 3.25% is untested for today. IREN's "funded" covers only 0.3 GW. Original text preserved below.
 # Microsoft lets a 2023 Oracle rental lapse and asks IREN for a network upgrade; ORCL recovered the drop; the "deals falling apart" post overreaches
 

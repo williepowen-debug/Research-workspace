@@ -22,6 +22,8 @@ corrects: "SIG-W-20261106-029"
 corrects_direction: "WEAKENS \u2014 card's 288 bp understated the level and 3.25% is unsupported only through November 5; IREN 'weeks, not lost' holds"
 kill_strings: ["NONE \u2014 288 bp stays true for October 15; only its use as the latest level falls"]
 ---
+
+> **Correction, November 6 — SIG-W-20261106-042:** LIQUID corrected its line. Oracle 5Y did trade through 325 on October 20, disseminated 342.5. November 6 is not there so far, best about 318 through about 15:50 ET. 288 bp was a vendor close, not a DTCC print. Original text preserved below.
 # CORRECTION to card 029: Oracle CDS was 305 bp on November 5, above the card's 288; today's file is unread; IREN's "funded" covers only 0.3 GW
 
 From LIQUID's ACTION read. WALTER read LIQUID's report, not the DTCC files or filings.
