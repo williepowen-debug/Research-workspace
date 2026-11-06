@@ -2,7 +2,7 @@
 
 **Status:** Elevated, active Russia/Ukraine energy campaign. **2026-11-06: scores 5 / 5 / 3 unchanged; six refinery strikes in eight days; ~30% band stale against late-October runs of about 5 M bpd, not moved.**
 **Domain:** Russia/Ukraine military and energy-infrastructure evidence; prices owned by BRENT.
-**As of:** 2026-11-06 11:55 ET (from `date`; osprey-1106; first stamp "~12:15" was narrative) | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
+**As of:** 2026-11-06 16:49 ET (from `date`; osprey-1106, closeout) | **STATUS commit: see `git log -1 -- AGENTS/OSPREY/STATUS.md`**
 🆕 **2026-11-06 (osprey-1106) — READ FIRST; no mark, band or threshold moved:**
 1. **BRENT/HAWK — refineries:** YANOS 11/3 (governor named it; Bloomberg 11/6: all crude processing halted, one person familiar, ~300 kb/d design), Ryazan 11/5, Afipsky 11/6. Six plants since 10/30, at least 1.3 M bpd of capacity plus one Ufa plant (Bloomberg). CAPACITY, not barrels (KB-249…252).
 2. **BRENT/HAWK — ⚠ cite the band with care:** ~30% rests on July and August runs. Late October ran about 5 M bpd, October about 4.3 (Kpler 10/28; Reuters via relay): same proxy 19–22% / 6–9%. Nothing measures the wave since 10/30. Band not moved, re-derivation owed (KB-253). Bloomberg: more outages may free crude for export.
@@ -36,20 +36,19 @@
 **SENDING (live only):**
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
-| **BRENT / HAWK** | **Refinery-strike tempo collapsed after Ryazan 10/15 / Surgut 10/16; targets moved to steel and chemical plants under US pressure** (KB-224) | P2 | NEXUS_BRIEF (routine). ⚠ No halt order exists (Zelensky): a lull, not a ceasefire. One strike resets the C1 leg. |
+| **BRENT / HAWK** | **Refinery strikes resumed: six plants 10/30–11/6, after the lull of 10/16–10/29** (KB-245…252) | P2 | NEXUS_BRIEF (routine). Capacity, not barrels. Abu Dhabi 11/10–11 is the next test of the brake. |
 | **BRENT** | **Primorsk ~3-day pause in the week to 10/18 (your Bloomberg 3.59 print): cause NOT established** (KB-226) | P2 | An ask, not a claim: if BRENT has the cause, it decides whether this is a C2 shut-in signal at the 11/17 re-kill. |
 | **HAWK** | **C3 limb-2 letter adopted 11/6, WQ-637 A (KB-270)** | P1 | You grade. My canvass 11/24–11/27; earliest first kill 11/27. |
-| **PROME** | **DOCKET L814 (11/2) hinges on OWED-46:** C1 leg A is 14/14 without Surgut ZSK 10/16, 13/14 with it | P1 | Memo 10/29. The condensate-plant question is still routed and unresolved. |
 
 **WAITING FOR:**
 | From | Input | Expected by | Why it matters |
 |---|---|---|---|
-| Public sources | Any independent capacity-offline aggregate (S&P/CERA, IIR, Kpler, EA) after 9/8 | **11/2** (blackout day 60) | Without it the C1 5→4 test is UNREACHABLE; flag to PROME 11/2. |
-| Russian government | Diesel producer ban after 10/31: extended or lapsed | **11/1** | A lapse starts the C1 companion-tell 30-day clock (KB-229). |
-| Palaemon | 26 Oct–1 Nov bulletin | ~11/1+ | Certifies the strike ledger past 10/25. |
+| Public sources | Any independent capacity-offline aggregate (S&P/CERA, IIR, Kpler, EA) after 9/8 | Open | C1 5→4 is UNREACHABLE without it (flagged to PROME 11/2). |
+| Public sources | October full-month runs print | Unscheduled | Re-derives the band, OWED-52; the band stays Will-gated. |
+| Palaemon | 2–9 Nov bulletin | ~11/9+ | Certifies the strike ledger past 11/2. |
 | Public sources | Authenticated pre-strike throughput at ANY struck refinery | Ongoing | Blocks every barrels-lost read (OWED-36). |
 
-## VIEW (2026-10-29)
+## VIEW (2026-10-29; the 11/6 block at the top governs where they differ)
 - Scores **5 / 5 / 3**. Refining band **~30%, 25–35% [EST]** (KB-029), unchanged. The band is a runs proxy, not measured damaged capacity; no independent aggregate has printed since 9/8.
 - **C1:** quiet since 10/16. The quiet reflects a political brake (US pressure; Starlink leverage reported), not an exhausted target set. The risk runs both ways: resumption is one decision away. A long pause would let runs recover, bringing the §1b runs limb (≥4.5 M bpd for two months ⇒ 4→3) into reach.
 - **C2:** re-armed 10/18 on PNT. Exports 3.59 M bpd 4-wk to 10/18 (B3); weekly 3.13, the lowest since March. Earliest re-kill 11/17.
@@ -60,18 +59,18 @@
 - Conviction: products impairment direction high; incremental lost-volume level low; duration of the October lull low.
 - Diverge from market by: no independent consensus measurement made. Do not infer price mispricing from strike tempo.
 - Counter-signal: a lull plus recovering runs weakens C1. Russian diesel exports to the US (KB-229) are a demand-side sign of product recovery.
-- Book: OSP-01..06 resolved (3 CONFIRMED / 3 FAILED). **OSP-07 OPEN (10/29, 60%): a Ukrainian strike on a Russian crude refinery dated 10/30–11/15**, graded on or after 11/18 (KB-232). **BRENT:** this is the products-half swing factor (`FLOW-OSPREY-06`).
+- Book: OSP-01..06 resolved (3 CONFIRMED / 3 FAILED). **OSP-07 OPEN (10/29, 60%): a Ukrainian strike on a Russian crude refinery dated 10/30–11/15**, graded on or after 11/18 (KB-232). **BRENT:** this is the products-half swing factor (`FLOW-OSPREY-06`). **OSP-08…11 OPEN, registered 11/6** (KB-267).
 - Failure patterns: syndication ≠ independent evidence; nameplate ≠ lost output; source silence ≠ verified quiet; a lull ≠ a ceasefire.
 
 ## NEXT DECISION POINT
-No Will-gated decision open. Desk points: **11/1** diesel ban · **11/2** L814 C1 grade + blackout flag (OWED-46 decides leg A) · **11/8** §5 EXIT RULES re-read · **11/17** earliest C2 re-kill · **11/18** GATE-OSPREY-001 review + OSP-07 grade.
+No Will-gated decision open; band re-derivation (OWED-52) goes to him when the October print lands. Desk points: **11/10** Bloomberg print, Abu Dhabi 11/10–11 · **11/17** earliest C2 re-kill · **11/18** GATE-OSPREY-001 review + OSP-07 grade · **11/20** C1 leg A, OSP-08 grade · **11/24–11/27** C3 canvass · **11/27** earliest C3 kill · **by 12/6** §5 re-read.
 
 ## WATCH
 | Date | Event | Signal |
 |---|---|---|
 | Any night | Ukrainian refinery strike | Resets C1 leg A; ends the lull. |
-| 11/1 | Diesel producer ban end | Extension vs lapse. |
-| ~11/1+ | Palaemon 26 Oct–1 Nov | Ledger certification; any tanker or Russian-port item. |
+| 11/10–11/11 | Abu Dhabi talks | Whether the brake on refinery strikes returns. |
+| ~11/9+ | Palaemon 2–9 Nov | Ledger certification; any tanker or Russian-port item. |
 | Weekly | Bloomberg 4-wk seaborne crude | ≥3.9 twice ⇒ C2 5→4 (§1b); <3.5 blocks the 11/17 kill. |
 
-**Coverage (2026-10-29):** strike ledger `swept-complete through: 2026-10-25` (BOUNDED). 10/26–10/29 swept by feed + name-free EN/RU queries, NOT certified. FIRMS not checked (no tool). Bloomberg pages 403. Handoffs DELIVERED on commit; receiver integration UNKNOWN except HAWK (acked 10/29).
+**Coverage (2026-11-06):** strike ledger `swept-complete through: 2026-11-02` (BOUNDED). 11/3–11/6 news-only, swept to about 11:00 ET 11/6 and NOT certified. FIRMS not checked (no tool). Bloomberg and ISW pages 403. Handoffs DELIVERED on commit; receiver integration UNKNOWN except PROME (drain packet consumed, be39e3f45a).

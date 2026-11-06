@@ -1,6 +1,6 @@
 # OSPREY STATUS
-**Last Updated:** 2026-11-06 (Fri) 12:42 ET (from `date`): osprey-1106, owner boot then PROME assignment on Will's "go ahead" 11:05 ET (prome-51): inbox 7/7, due rows, forecasts, combination watch. **Scores 5 / 5 / 3 — NO mark moved. Band ~30% [EST] UNCHANGED BUT STALE (KB-253, OWED-52).**
-**Evidence:** KB-OSPREY-249…267 · `STRIKES.tsv` +3 rows (11/3, 11/5, 11/6), mark **10/25 → 11/2 BOUNDED** · feed 11/6 27/27 dispositioned · board_log +7 · OSP-08…11 registered · `domain/energy-strikes/ANALYSIS_2026-11-06.md` · prior: KB-244…248 (11/2).
+**Last Updated:** 2026-11-06 (Fri) 16:49 ET (from `date`): osprey-1106, closeout on Will's reboot word (16:46 ET, relayed by prome-51). Session: owner boot, then PROME assignment on Will's "go ahead" 11:05 ET: inbox 7/7, due rows, forecasts, combination watch, WQ-470 → WQ-637 A encoded. **Scores 5 / 5 / 3 — NO mark moved. Band ~30% [EST] UNCHANGED BUT STALE (KB-253, OWED-52).**
+**Evidence:** KB-OSPREY-249…270 · `STRIKES.tsv` +3 rows (11/3, 11/5, 11/6), mark **10/25 → 11/2 BOUNDED** · feed 11/6 27/27 dispositioned · board_log +7 · OSP-08…11 registered · `domain/energy-strikes/ANALYSIS_2026-11-06.md` · prior: KB-244…248 (11/2).
 
 ## ACTIVE — 2026-11-06 (no mark, band or threshold moved)
 1. **Six refinery strikes in eight days.** YANOS 11/3 (B2, governor named it; Bloomberg 11/6: all crude processing halted, one person familiar) · Ryazan 11/5 (C2, governor: "industrial facilities") · **Afipsky 11/6** (C2, op HQ: unnamed enterprise; Astra OSINT + Bloomberg's person familiar). Bloomberg counts the same six since 10/30. KB-249…252.
@@ -10,7 +10,7 @@
 5. **C3:** 31/21 limb 1 met; limb 2 NOT SATISFIED; no kill. Palaemon 26 Oct–2 Nov read: no tanker.
 6. **Talks:** Abu Dhabi 11/10–11, US-mediated, working level. Zelensky's one-month Patriot offer has no US answer found. KB-260.
 7. **C3 limb 2 letter ADOPTED, WQ-637 A, Will 12:35 ET (KB-270).** First window opened 11/6, earliest first kill **11/27**, HAWK grades. EASIER to kill, against this desk's mark. C3 stays 3. TD6/TD19 retired.
-8. **Done 11/6:** inbox 7/7 · +5d re-reads ran, all three still unresolved (KB-257) · §5 EXIT RULES re-read ahead of 11/8, no fire (KB-258) · combination watch set up, 7 themes (KB-260…266) · OSP-08…11 registered. **Not done:** OSP-07 not due (grades ≥11/18) · 11/2 feed NONE rows · WARRISK enumerated canvass · Afipsky backfill · carried OWED 41–51.
+8. **Done 11/6:** inbox 7/7 · +5d re-reads ran, all three still unresolved (KB-257) · §5 EXIT RULES re-read ahead of 11/8, no fire (KB-258) · combination watch set up, 7 themes (KB-260…266) · OSP-08…11 registered. **Not done:** OSP-07 not due (grades ≥11/18) · 11/2 feed NONE rows · WARRISK enumerated canvass · Afipsky backfill · carried OWED 41–51 · closeout sweep not re-run after the morning pass, so nothing after about 11:00 ET 11/6 is swept.
 
 ## ACTIVE history — 11/2, 10/29 PM, the older rotated-block pointers, six closed dated rows and the 10/29 cross-agent lines ROTATED VERBATIM → `archive/STATUS_ROTATED_2026-11-06.md` (crc32 2821783996). The pointers inside it lead to the older archives. KB-224…248 hold the facts.
 
