@@ -1,6 +1,6 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
-**Regenerated: 2026-11-06 ~11:45 ET (from session clock).** Owner evidence: FALCON brief `e3ce30fd82` (11:35 ET, evidence to ~11:34), OSPREY brief `f4414148cf` (committed 11:16 ET; its As-of line reads ~12:15, later than the commit, flagged to OSPREY). WALTER lane through card 027 read. No fresh HAWK theater sweep.
+**Regenerated: 2026-11-06 ~11:45 ET (from session clock).** Owner evidence: FALCON brief `e3ce30fd82` (11:35 ET, evidence to ~11:34), OSPREY brief `f4414148cf` (committed 11:16 ET; OSPREY corrected its As-of stamp to 11:55 ET; no evidence changed). WALTER lane through card 027 read. No fresh HAWK theater sweep.
 
 | Owner ledger | Committed head reviewed | Data rows, excluding header |
 |---|---|---|
