@@ -31,4 +31,4 @@
 
 ## MAIL STATE
 
-`inbox/` top-level: empty · `inbox/WALTER/`: empty at 11:21 ET · outbound: REGINALD, MARCO, AEOLUS, DAEDALUS, WALTER, PROME. PROME consumed the packet; REGINALD graded BKU.
+`inbox/` top-level: empty · `inbox/WALTER/`: empty at 11:21 ET · outbound: REGINALD, MARCO, AEOLUS, DAEDALUS, WALTER, PROME. PROME consumed the packet; REGINALD graded BKU; its 11/06 packet processed (§ AB8 already carries it).
