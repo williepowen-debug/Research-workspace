@@ -445,3 +445,42 @@ IREN closed $0.07 under its November 4 close, so all but $0.07 of the November 5
 **Peer packets consumed.** BROCK: GPU 2.0's draw test is IREN's own Certificate of Acceptance after delivery, no customer or commissioning test; last request December 28 for December 31, derived; extension needs each lender's consent; verified at BROCK's report. SAM: leverage on two definitions, about 22% (25% at Arm about $128) and about 24% with the guaranteed $10B OpenAI loan (25% at about $160), verified at SAM's table; KB-LIQ-153 now labels both. ORACLE: December hike about 78 after payrolls, within 1 bp of futures, priced odds are ORACLE's; cause of the November 5 fall not established; no LIQUID use beyond context.
 
 **Still unpublished or unread at this write:** November 6 ICE cells (Monday about 10:10 ET); November 6 SOFR set (Monday about 08:00 ET); FRED H.15 and VIXCLS for November 6; Nasdaq official November 6 closes; ICE Brent settle; 5pm NY USD/JPY; DTCC full file (about 20:15 ET); OFR index for November 5 and 6; ICI money fund page refused this client (403), last read October 14. Cross-currency basis, swap spreads, prime-brokerage margin, repo haircuts and Treasury bid-ask stay out of reach.
+
+## 17. Addendum: Hertz credit read, owner read for card 050, written 18:18 ET (bounded; no new study, no gate moved)
+
+**Read.** Hertz is still getting financed, but the junior vehicle lenders walked and were replaced at a price. Every existing holder of the $300M HVF III 2021-A Class B refused an extension. New holders took it at 12.46% fixed from 9.28%, on condition that Hertz first retires its $199M 4.625% notes by December 31. At September 30 Hertz valued its vehicle debt at about par and its corporate debt at about 59.5 cents. This is one issuer: access with much tighter terms, a named refusal, and no denied financing. It is not generalized restriction, it reaches no LIQUID gate, and the reason for the refusal is not stated.
+
+Sources are primary: 10-Q 0001657853-26-000086 filed November 5, Exhibit 10.2 (Amendment No. 3 dated November 2), earnings release 0001657853-26-000085, 8-K 0000950103-26-015848 filed October 20. All of card 050's Hertz figures match the filing.
+
+| Item | Figure | Source |
+|---|---|---|
+| Who refused | Oaktree funds $112.611M and ABF Rental Car Holdings 2025-1 $187.389M, $300M, 100% of Schedule 1; each "exercised its right to refuse" | Ex. 10.2 recitals, Schedule 1 |
+| When and why | "Previously"; no date or reason | Ex. 10.2 |
+| Who replaced them | Powerscourt Investments 84 $150M, Third Point Loan $125M, Delticus Opportunities $25M, $300M | Ex. 10.2 Annex B |
+| Price | 12.46% fixed against 9.28%, +318 bp | 10-Q Note 15 and debt table |
+| Term | Termination August 31, 2027 → November 2, 2028; amortization June 28, 2027 → August 28, 2028 | Ex. 10.2 conformed text |
+| Conditions | Hertz has retired all 4.625% notes, and refusers are paid in full from the new money | Ex. 10.2, Class B Funding Conditions (i), (j) |
+| If unfunded by December 31 | New commitments go to zero; dates reset to June 28 and August 31, 2027 | Ex. 10.2 |
+
+Schedule IV totals $600M because it lists both groups; Class B Maximum stays $300M, so I read this as a swap, not new money. BNP Paribas is defined as the Non-Extending Class A Noteholder in the conformed text; its date and amount are not established here, and BNP still signs as a Class A purchaser.
+
+| Fair value, Note 10, Level 2 | Nominal $M | Fair value $M | Cents, September 30 | Cents, December 31 |
+|---|---:|---:|---:|---:|
+| Vehicle debt | 12,027 | 12,068 | 100.3 | 99.9 |
+| All non-vehicle debt | 6,273 | 3,732 | 59.5 | 87.3 |
+| Other non-vehicle (loans, revolver, senior notes) | 5,174 | 3,260 | 63.0 | 86.7 |
+| Exchangeable first-lien 2030, issued June and July | 380 | 262 | 68.9 | n/a |
+| Exchangeable 2029 | 294 | 97 | 33.0 | 114.8 |
+| Exchangeable 2030 | 425 | 113 | 26.6 | 76.2 |
+
+⚠️ These are Hertz's own September 30 estimates from "quoted market rates as well as borrowing rates", not trades, and they blend secured and unsecured debt, so no tranche price follows. Terminal-gated TRACE is unread. October's related-party buyback of $51.1M exchangeable 2029s for $20.86M is 40.8 cents, one negotiated price, not a market.
+
+**Corporate liquidity.** $946M [September 30]: cash $531M, of which $183M is held outside the U.S., plus revolver availability $415M. It was $1,489M at December 31. The revolver is drawn $750M from $395M. Usable capacity is the $415M: all $3,199M of vehicle capacity has $0 availability because it needs collateral. Adjusted free cash flow −$38M Q3, −$342M nine months. Management states liquidity is sufficient for twelve months.
+
+**Dated squeeze.** The minimum liquidity covenant rises to $500M for each month of Q4 from $400M, and the first-lien ratio cap falls to 3.0x at December 31 from 3.5x. Paying the $199M leaves about $747M, about $247M over $500M. ⚠️ That is my arithmetic on reported corporate liquidity before Q4 cash flow, not the covenant's own "Specified Relief Period Liquidity", whose definition I did not locate. The first-lien ratio level is not disclosed in what I read. Hertz reported compliance at September 30. October's Oro deal nets about zero: +$80.89M, −$20.86M, −$60.03M moved to Oro; whether that cash still counts is unknown.
+
+**Wall.** 2026: non-vehicle $203M, vehicle $1,272M including 2021-2 at $1,000M, a 2.12% coupon against 5.74% to 6.53% on 2026 series. 2028: non-vehicle $2,691M (revolver March, term loans June). The halving of 2021-2 stays unexplained in the filing; no cause inferred.
+
+**Tape.** HTZ 2.26 → 1.79 [November 5, Nasdaq official, results day and S&P −4.36%] → 1.64 [November 6, vendor], −27.4% in two sessions. Cause not established.
+
+**What it does not show.** No amortization event or default: the literal phrase is absent from the 10-Q body, and Exhibit 10.2 only defines rapid amortization, so nothing shows one began. No forced fleet supply in Q3, OTTO's read. Tricolor and the James adjournment are OTTO's; no LIQUID action. Card 049 (Michigan, interviews ended November 2) is context only.
