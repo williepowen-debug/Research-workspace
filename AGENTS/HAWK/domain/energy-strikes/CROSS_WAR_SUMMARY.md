@@ -1,10 +1,10 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
-**Close review: 2026-11-06 17:23 ET (from `date`): no FALCON or OSPREY ledger change since the heads below; neither owner had committed a close refresh at this stamp, so this file does not reach the 11/6 close on theater evidence. Card 043 read, KB-HAWK-504. Tonight's Qeshm reports are unattributed and in no owner ledger, KB-HAWK-511.** **Regenerated: 2026-11-06 ~11:45 ET (from session clock); reviewed 16:49 ET (from `date`).** Owner evidence: FALCON brief `e3ce30fd82` (11:35 ET, evidence to ~11:34), OSPREY brief `d2cbb2d4d5` (WQ-637 encoding only; no strike evidence changed since `f4414148cf`). WALTER lane through card 027 read. No fresh HAWK theater sweep.
+**Closeout review: 2026-11-06 18:36 ET (from `date`): both owners' close passes read, FALCON `4704ffa115` (evidence to about 22:31Z) and OSPREY `7566d02f28` (+0 strike rows; two rows amended). Neither moved a mark. Qeshm reports NOT ESTABLISHED as a US strike and in no owner ledger, FALCON KB-422, KB-HAWK-512. Zelensky 11/6: refinery operation continues, a statement. This stamp supersedes the 17:23 ET review, which predated both.** **Regenerated: 2026-11-06 ~11:45 ET (from session clock); reviewed 16:49 ET (from `date`).** Owner evidence: FALCON brief `e3ce30fd82` (11:35 ET, evidence to ~11:34), OSPREY brief `d2cbb2d4d5` (WQ-637 encoding only; no strike evidence changed since `f4414148cf`). WALTER lane through card 027 read. No fresh HAWK theater sweep.
 
 | Owner ledger | Committed head reviewed | Data rows, excluding header |
 |---|---|---|
-| OSPREY STRIKES | `f4414148cf` | 194 (+12 since 10/29; swept through 11/2, bounded) |
+| OSPREY STRIKES | `7566d02f28` | 194 (+12 since 10/29, +0 on the 11/6 close pass; mark stays 11/2, bounded) |
 | FALCON facility STRIKES | `72cff47275` | 41 (zero new facility rows through 11/3) |
 | FALCON VESSELS | `a51861e1e1` | 96 (+11 since 10/29) |
 

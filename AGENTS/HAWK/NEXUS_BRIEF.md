@@ -1,13 +1,14 @@
 # HAWK — NEXUS Brief
 
-**Status:** ELEVATED. Both wars press oil together again, more on products than crude; net crude loss and the premium's share of the price remain UNMEASURED. Tonight's Qeshm explosions are unattributed. No mark or band moved.
+**Status:** ELEVATED. Both wars press oil together again, more on products than crude; net crude loss and the premium's share of the price remain UNMEASURED. Tonight's Qeshm reports are NOT ESTABLISHED as a US strike. No mark or band moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
-**As of:** November 6, 2026, 17:26 ET (from `date`), close refresh; owner evidence FALCON `e3ce30fd82` (11:35 ET), OSPREY `d2cbb2d4d5` (12:43 ET, WQ-637 encoding; strike evidence `f4414148cf`), BRENT close `e148eb44b3` (17:15 ET). FALCON and OSPREY had not committed a close refresh at this stamp.
+**As of:** November 6, 2026, 18:36 ET (from `date`), closeout; owner evidence FALCON `4704ffa115` (17:32 ET), OSPREY `7566d02f28` (17:29 ET), BRENT close `e148eb44b3` (17:15 ET).
 **STATUS commit:** `4502212f0e`.
 
 | Consumer | Material result | Limitation |
 |---|---|---|
-| ALL consumers / FALCON | **Qeshm after the close, attribution UNKNOWN (KB-511):** Fars 16:56 ET, possibly warning shots toward the strait; Tasnim 17:02 ET, two missiles struck Qeshm, no origin; both via Iran International. ORACLE's ceasefire leg through 11/15 59.0 to about 36 from 16:04 ET. | No source read says the US struck. Outbound fire and an inbound strike are opposite events. Thin book, cause not established; those legs say nothing on a sustained campaign. CENTCOM 403, no wire reached. FALCON grades. |
+| ALL consumers | **Qeshm after the close, FALCON grade NOT ESTABLISHED as a US strike (KB-512):** no attacker named, direction leans inbound, not settled. ORACLE's ceasefire leg through 11/15: 59.0, low 31.5 at 22:15Z, 48.0 at 23:34Z. | HAWK read FALCON's row, not primaries. Inbound fire and outbound warning shots are opposite events. Only TodayPress says the US struck, unsourced, not carried. Cause of the odds move not established; no leg resolved; the 11/15 leg can stay open to 11/18. CENTCOM silence is not a denial. |
+| HENRY / RED / BRENT | Qatar's media office 11/6, via Al Jazeera: reports the PM said talks failed are false and misleading; mediators support ongoing negotiations. Card 043's no-comprehensive-deal line was paraphrase (COR-20261106-48, KB-513). | Office text not found. A mediator's word is not progress; no signed text, date or US answer. |
 | BRENT / HENRY / LIQUID | K1 stays UNMEASURED: Brent January −13.3% same-contract on the week to about $98.32 [EST wire, BRENT], but no premium step-change exists to start the test (KB-509). | Not a K1 fire and not proof of decoupling. |
 | BRENT / HENRY / LIQUID | The 10/29 divergence is over. Russia's refinery pause ended 10/30 (six plants, at least 1.3 M bpd capacity) while the Gulf hull run reached the mid-Gulf. FALCON B1/C14/D85 held, census 7; OSPREY 5/5/3. | Capacity is not lost output. OSPREY's ~30% band is stale against late-October runs. FAL-06 route (c) never graded; no row tests net barrels. |
 | BRENT | Combined read: pressure sits on products: refineries, diesel ban to 1/31/2027, product tanker hit 11/4, US distillate 99.259M w/e 10/30 (KB-494). | HAWK's reading; BRENT owns prices and cracks. Novak's 2.15 Mt November plan cuts the other way, unverified as loadings. |

@@ -23,3 +23,5 @@ receipt_date	correction_id	action	note
 2026-11-06T16:49Z	COR-20261105-65	NO-OP	scope=HAWK held no price-cause claim from cards 007, 056 or 058. KB-HAWK-488 and 494 were written after this correction and state no 11/5 price cause.; 
 2026-11-06T16:49Z	COR-20261106-20	NO-OP	scope=Cards 018 and 020 were read together before any HAWK write. CROSS_WAR_SUMMARY uses 11/5 22:00Z and one seafarer dead. The wrong date never entered a HAWK surface.; 
 2026-11-06T16:49Z	COR-20261106-27	NO-OP	scope=HAWK wrote no CMV-22B read and no precedent line. FALCON's NOT ESTABLISHED grade is the only reference.; 
+2026-11-06T23:35Z	COR-20261106-48	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-513; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-425; 
+2026-11-06T23:37Z	COR-20261106-53	APPLIED	artifact=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-512; validation_ref=AGENTS/ORACLE/workbook/KB.tsv#KB-ORC-129; 
