@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-06T20:48:49+00:00 (15:48 ET), PROME C9 on SoftBank's check plus Will's funding-stack question (WQ-643). **STATUS commit `a71eeb11cb`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-06T20:50:24+00:00 (15:50 ET), PROME C9 on SoftBank's check plus Will's funding-stack question. **STATUS commit `75307fc093`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
 
