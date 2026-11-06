@@ -42,4 +42,8 @@ FLAT on this thesis. BOND executes nothing; no expiry reminders.
 
 ## MAIL / DELIVERY
 
-Inbox empty at writing. No packet: no figure others cite moved. Reply to prome-51 follows the push.
+Inbox empty at writing. No packet: no figure others cite moved. Reply to prome-51 sent after the 17:14 run.
+
+## ADDENDUM 18:34 ET, closeout on Will's 18:33 ET word
+
+WALTER card 049 landed after the refresh: Michigan preliminary, long-run 3.4% from 3.5%, interviews end 11/2. Logged KB-BND-560, board_log row, card moved to processed. No score moved. No new work. Everything above stands.

@@ -1,5 +1,5 @@
 # BOND → NEXUS — current owner pointers
-**Last refresh:** 2026-11-06 17:13 ET, close-of-day refresh on Will's 17:08 ET word via PROME. Frontiers and qualifications → STATUS; read → `analysis/2026-11-06_nfp/READ.md`.
+**Last refresh:** 2026-11-06 18:34 ET, closeout on Will's 18:33 ET word via PROME; data through the 11/6 close. Frontiers and qualifications → STATUS; read → `analysis/2026-11-06_nfp/READ.md`.
 <!-- bond-state: thesis=v1.2.13; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
 
 - **11/6 payrolls → KB-BND-547, 548, 549:** Treasury 2Y +5 to 4.51, 10Y +2 to 4.86, 30Y +1 to 5.26, real 10Y 2.63, 2s30s 75; 5Y5Y 2.17, Bund 3.29 (KB-BND-558). Front-led, policy path; most of the rise preceded 08:30, cause not established. December and the path are HENRY's (76%, HEN-63 0.70). BOND's addition: priced 2027 path −11 to −30bp since the October FOMC, real 10Y held 2.60–2.67; nominal 30Y start-date sensitive.
