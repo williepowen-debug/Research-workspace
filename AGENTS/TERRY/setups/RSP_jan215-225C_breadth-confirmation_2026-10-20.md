@@ -1,7 +1,7 @@
 # TRADE CARD — RSP January 215/225 bull-call spread — breadth confirmation
 **Date:** 2026-11-02; reprices the 2026-10-20 card under D:L905 / WQ-574.
 **Setup ID:** `IDEA-RSP-OCT20`
-**Terry verdict:** CONDITIONAL — APPROVED NOT-FIRED (WQ-591 A, Will in PROME's chat 2026-11-04 20:59 ET, verbatim "approved with your recs"; record `PROME/proposals/2026-11-04_wq591-601-RULED.md`; GATE-TERRY-RSP-01). ×1 only, past closed X1 by his per-card choice. The order is Will's hand (root rule #5).
+**Terry verdict:** CLOSED — DECLINED by Will 2026-11-06 10:59 ET, verbatim "Okay I am gonna say no to the RSP and no to the fleet shrinking"; GATE-TERRY-RSP-01 retired; record `PROME/proposals/2026-11-06_wq599-rsp-RULED.md`. Never filled, $0. PROME read the word as ending the card and told Will; a correction to "today only" would come from PROME. WQ-591 A stands as history. (was: CONDITIONAL — APPROVED NOT-FIRED (WQ-591 A, Will in PROME's …)
 **Prepared:** 2026-11-02T09:54:21-05:00.
 **Thesis owner:** HENRY, L616 breadth study dated 2026-10-31 on 10/30 closes, `AGENTS/HENRY/STATUS.md` § MARKET BREADTH.
 **Confidence in structure:** Low at the observed markets. Recommendation: wait; do not pay the displayed debit.

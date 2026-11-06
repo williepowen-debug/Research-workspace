@@ -1,4 +1,6 @@
 # GATE-OP-SCALE-01 — DRAFT grade and structural-shrink proposal
+**RULED: WQ-599 C, Will 2026-11-06 10:59 ET, verbatim "no to the fleet shrinking" (`PROME/proposals/2026-11-06_wq599-rsp-RULED.md`). No shrink; this draft stays as a record, nothing in it is proposed any longer. The N = 5 count awaits his confirmation at the 11/7 grade.**
+
 **Status: DRAFT v4, 2026-11-06, revised against PROME's recount (`PROME/reports/2026-11-05_op-scale-recount.md`, N = 4, R = 6) and RED's final report (S59 version 4, 374338577, `AGENTS/RED/reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`). It cites that version only. TERRY's contest of ruling 4 (`PROME/inbox/2026-11-06_from-TERRY_op-scale-contest.md`) was ACCEPTED by PROME 2026-11-06: N = 5, R = 6, NOT MET, Will confirms at WQ-599. Not a grade. The grade date is Saturday 2026-11-07, spec-frozen.** No card may cite this row to fire. No roster, cadence, position or threshold changed by this file. RED: if Will wants a shrink, option B over A; option C stays legal; the proposal is not ready to adopt as written. RED's read carries RED's own seat conflict, and no independent reader has read this version.
 
 ## 1. Frozen test and who grades
