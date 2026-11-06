@@ -44,3 +44,10 @@ See the closeout message for commits and the push receipt.
 - WALTER SIG-W-20261106-016 and VIOLET's History packet read and processed. VIOLET's credit-flat row met by 3bp; HY 326 and 348 check at FRED; no RED line, grade or weight moves. Ledger note in STATUS; KB-RED-109 member added.
 - RED-27 stays at 68%: VIOLET's 3 of 21 is a 20-session base rate on a different letter and a price is never amended after data.
 - Next boot, W2: WQ-599 is reported RULED C (TERRY commit 3c4d41ec8, PROME 98308b28f), so CHG-RED-056's closing event has passed; read the ruling, then close the row. Not closed here, the ruling is unread.
+
+---
+
+## ADDENDUM S60-c — 2026-11-06 15:36 ET (from `date`)
+- Will's word via PROME 15:24 ET: inbox 2 of 2 cleared, AI-funding model challenged, $0, no trade. HANS: C-3 killed, no RED line, KB-RED-112 gas member. REGINALD: RED's S56 grade uses neither EGBN figure, KB-RED-114 carries the $211.8M caveat.
+- CHG-RED-057 MODERATE, report in `challenges/`, tree `research/2026-11-10_AI_FUNDING_TEST_TREE.md`. RED-30 25% to 12/31, RED-31 30% to 12/15. ML-324: RED's Meta book attack failed on the term sheets.
+- **Owed:** 🟠 **11/11:** re-review CHG-057 from SAM's and VULCAN's 11/10 reads. Feed the S60-c ledger line into the post-CPI re-derivation. Close CHG-RED-056 after reading the WQ-599 ruling (still unread).

@@ -1,6 +1,8 @@
 # RED — NEXUS Brief
 
-**Status:** 🟠 **vS60 (2026-11-06 10:19 ET). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No RED line fired or exited; FT-06 exit count 0 → 1 of 5. Prior brief vS59 rotated verbatim → `reports/2026-11-06_NEXUS_BRIEF_vS59_rotated.md`.
+**Status:** 🟠 **vS60-c (2026-11-06 15:36 ET). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No RED line fired or exited. Prior vS60 → `reports/2026-11-06_NEXUS_BRIEF_vS60_rotated.md`.
+- 🆕 **CHG-RED-057 MODERATE, AI funding 'pickier rather than failing':** not failing holds on what is read; the top of the chain is pricier, not picked over; the weak part is 'rather than', since selection leans on investment-grade tenants and Microsoft is reported reassessing. RED-30 25% and RED-31 30% are the exit tests. Report `challenges/2026-11-06_CHG-057_AI_FUNDING_PICKIER_NOT_FAILING.md`.
+
 - 🆕 **11/05 official bars:** VIX 28.18 (FRED and Cboe), **FT-06 exit 1 of 5**, a new run, earliest read 11/12. HY 348, +16bp, new post-fire high, **FT-02 exit 0 of 3**. CCC 1,320. SKEW 149.37, **FT-10 exit 0 of 4**.
 - 🆕 **RED-23 CORRECT, +69.0K** (Jun +31, Jul −10, Aug +186, BLS 11/06): the S41 move stands. ⚠️ It read +51.3K at the second vintage; one month carries it (ML-322). KB-092 re-derived, recession 4–12% unchanged, two forces straddling it (ML-323).
 - 🆕 **VX-007 Structural Bid leg B MET on the 11/05 close:** VIX 28.18, SPX 7,353.73 under its 50-DMA 7,686.53. One close, vector weights held, no hypothesis weight moves.
@@ -33,7 +35,7 @@
 ## CALIBRATION
 
 - **Conviction:** direction-M · timing-M− · level-M−. **HOLD 72** (S55 +2 mechanical FT-02; S48 +2 mechanical) · **Net-bear 68** (S57 −1 discretionary; S56 +1 pre-stated; S55 +3, S52 +3, S52b +2 mechanical; 60 at S51).
-- **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-11-06, 29 rows): 14 CORRECT · 10 WRONG · 5 ACTIVE (RED-29 resolves 11/12 · RED-28 12/10 · RED-25, RED-26, RED-27 12/31).** STATUS and CALENDAR carry this same line.
+- **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-11-06, 31 rows): 14 CORRECT · 10 WRONG · 7 ACTIVE (RED-29 resolves 11/12 · RED-28 12/10 · RED-31 12/15 · RED-25, RED-26, RED-27, RED-30 12/31).** STATUS and CALENDAR carry this same line.
 - **Scorecard caveat (2026-11-05 16:43 ET):** the CORRECT and WRONG tally mixes two conventions, stated at `workbook/PREDICTIONS.tsv` line 2. Do not compare it across desks. RED-26 and RED-27 share one root.
 - **Open challenges: 8** (056 OP-SCALE 11/7 · 027 EGBN Q4 ~1/28 · 028 Oct CPI 11/10 · 044 BRK-32 11/30 · 045 HHDC 11/15 · 049 HHDC 11/15 · 054 bank-put book 11/09 · 055 FT-11 classifier 12/15).
 - **Diverge from fleet by:** (1) the HY retracement does not un-fire FT-02 until <300 ×3; (2) a 30Y rally is not evidence until classified, and on 10/22 it classified FUNDAMENTAL; (3) stagflation is co-modal with managed decline, not the modal path; (4) a hiking Fed is not a rescue.
