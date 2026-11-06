@@ -1,0 +1,340 @@
+{
+ "rows": [
+  {
+   "q": "2023-12",
+   "ats": 3060.666,
+   "ats_yoy": 21.62,
+   "cap_yoy": 17.24,
+   "gap": 4.39,
+   "gap_next_q_cap": 13.77,
+   "dep_leg": 1,
+   "net_debt": 13656.51,
+   "ttm_ebitda": 1860.731,
+   "printed": "7.3x",
+   "computed": 7.34,
+   "lev_leg": 4,
+   "row": 3,
+   "row_name": "ORANGE"
+  },
+  {
+   "q": "2024-03",
+   "ats": 3629.707,
+   "ats_yoy": 14.25,
+   "cap_yoy": 7.86,
+   "gap": 6.39,
+   "gap_next_q_cap": 10.2,
+   "dep_leg": 1,
+   "net_debt": 13189.703,
+   "ttm_ebitda": 2090.479,
+   "printed": "6.3x",
+   "computed": 6.31,
+   "lev_leg": 4,
+   "row": 3,
+   "row_name": "ORANGE"
+  },
+  {
+   "q": "2024-06",
+   "ats": 3779.119,
+   "ats_yoy": 12.95,
+   "cap_yoy": 4.05,
+   "gap": 8.91,
+   "gap_next_q_cap": 9.29,
+   "dep_leg": 1,
+   "net_debt": 12844.463,
+   "ttm_ebitda": 2163.374,
+   "printed": "5.9x",
+   "computed": 5.94,
+   "lev_leg": 3,
+   "row": 2,
+   "row_name": "YELLOW"
+  },
+  {
+   "q": "2024-09",
+   "ats": 3144.586,
+   "ats_yoy": 6.05,
+   "cap_yoy": 3.66,
+   "gap": 2.38,
+   "gap_next_q_cap": 7.22,
+   "dep_leg": 1,
+   "net_debt": 13072.682,
+   "ttm_ebitda": 2342.302,
+   "printed": "5.58x",
+   "computed": 5.58,
+   "lev_leg": 3,
+   "row": 2,
+   "row_name": "YELLOW"
+  },
+  {
+   "q": "2024-12",
+   "ats": 3105.964,
+   "ats_yoy": 1.48,
+   "cap_yoy": -1.17,
+   "gap": 2.65,
+   "gap_next_q_cap": 3.88,
+   "dep_leg": 1,
+   "net_debt": 12909.725,
+   "ttm_ebitda": 2450.804,
+   "printed": "5.27x",
+   "computed": 5.27,
+   "lev_leg": 2,
+   "row": 2,
+   "row_name": "YELLOW"
+  },
+  {
+   "q": "2025-03",
+   "ats": 3762.256,
+   "ats_yoy": 3.65,
+   "cap_yoy": -2.4,
+   "gap": 6.06,
+   "gap_next_q_cap": -1.85,
+   "dep_leg": 1,
+   "net_debt": 13809.422,
+   "ttm_ebitda": 2439.887,
+   "printed": "5.66x",
+   "computed": 5.66,
+   "lev_leg": 3,
+   "row": 2,
+   "row_name": "YELLOW"
+  },
+  {
+   "q": "2025-06",
+   "ats": 3833.775,
+   "ats_yoy": 1.45,
+   "cap_yoy": 5.51,
+   "gap": -4.06,
+   "gap_next_q_cap": -4.92,
+   "dep_leg": 3,
+   "net_debt": 13579.396,
+   "ttm_ebitda": 2546.265,
+   "printed": "5.3x",
+   "computed": 5.33,
+   "lev_leg": 2,
+   "row": 3,
+   "row_name": "ORANGE"
+  },
+  {
+   "q": "2025-09",
+   "ats": 3146.869,
+   "ats_yoy": 0.07,
+   "cap_yoy": 6.36,
+   "gap": -6.29,
+   "gap_next_q_cap": -7.28,
+   "dep_leg": 3,
+   "net_debt": 14354.66,
+   "ttm_ebitda": 2634.523,
+   "printed": "5.4x",
+   "computed": 5.45,
+   "lev_leg": 2,
+   "row": 3,
+   "row_name": "ORANGE"
+  },
+  {
+   "q": "2025-12",
+   "ats": 3200.593,
+   "ats_yoy": 3.05,
+   "cap_yoy": 7.35,
+   "gap": -4.3,
+   "gap_next_q_cap": -9.1,
+   "dep_leg": 3,
+   "net_debt": 14396.283,
+   "ttm_ebitda": 2730.226,
+   "printed": "5.3x",
+   "computed": 5.27,
+   "lev_leg": 2,
+   "row": 3,
+   "row_name": "ORANGE"
+  },
+  {
+   "q": "2026-03",
+   "ats": 3718.873,
+   "ats_yoy": -1.15,
+   "cap_yoy": 12.15,
+   "gap": -13.3,
+   "gap_next_q_cap": -10.03,
+   "dep_leg": 4,
+   "net_debt": 14969.825,
+   "ttm_ebitda": 2810.05,
+   "printed": "5.3x",
+   "computed": 5.33,
+   "lev_leg": 2,
+   "row": 3,
+   "row_name": "ORANGE"
+  },
+  {
+   "q": "2026-06",
+   "ats": 3651.201,
+   "ats_yoy": -4.76,
+   "cap_yoy": 8.88,
+   "gap": -13.64,
+   "gap_next_q_cap": -10.2,
+   "dep_leg": 4,
+   "net_debt": 14816.685,
+   "ttm_ebitda": 2781.518,
+   "printed": "5.3x",
+   "computed": 5.33,
+   "lev_leg": 2,
+   "row": 3,
+   "row_name": "ORANGE"
+  },
+  {
+   "q": "2026-09",
+   "ats": 3141.976,
+   "ats_yoy": -0.16,
+   "cap_yoy": 5.43,
+   "gap": -5.59,
+   "gap_next_q_cap": null,
+   "dep_leg": 3,
+   "net_debt": 14829.995,
+   "ttm_ebitda": 2699.038,
+   "printed": "5.5x",
+   "computed": 5.49,
+   "lev_leg": 3,
+   "row": 3,
+   "row_name": "ORANGE"
+  }
+ ],
+ "forward": {
+  "implied_9m_2026": 2136.0,
+  "implied_q4_2025": 563.0,
+  "unchanged_net_debt_lev": 5.82,
+  "q4_capex": 1200,
+  "q4_ocf_flat": 383.3,
+  "net_debt_est": 15646.7,
+  "net_debt_rise": 816.7,
+  "base_lev": 6.14,
+  "net_debt_at_6x": 15172.5,
+  "rise_needed_to_print_6_0": 342.5
+ },
+ "dep_sensitivity": [
+  {
+   "cap_yoy": 2,
+   "ats": 3100.0,
+   "ats_yoy": -3.14,
+   "gap": -5.14,
+   "leg": "ORANGE"
+  },
+  {
+   "cap_yoy": 2,
+   "ats": 3200.593,
+   "ats_yoy": 0.0,
+   "gap": -2.0,
+   "leg": "YELLOW"
+  },
+  {
+   "cap_yoy": 2,
+   "ats": 3264.6,
+   "ats_yoy": 2.0,
+   "gap": -0.0,
+   "leg": "YELLOW"
+  },
+  {
+   "cap_yoy": 2,
+   "ats": 3350.0,
+   "ats_yoy": 4.67,
+   "gap": 2.67,
+   "leg": "GREEN"
+  },
+  {
+   "cap_yoy": 4,
+   "ats": 3100.0,
+   "ats_yoy": -3.14,
+   "gap": -7.14,
+   "leg": "ORANGE"
+  },
+  {
+   "cap_yoy": 4,
+   "ats": 3200.593,
+   "ats_yoy": 0.0,
+   "gap": -4.0,
+   "leg": "ORANGE"
+  },
+  {
+   "cap_yoy": 4,
+   "ats": 3264.6,
+   "ats_yoy": 2.0,
+   "gap": -2.0,
+   "leg": "YELLOW"
+  },
+  {
+   "cap_yoy": 4,
+   "ats": 3350.0,
+   "ats_yoy": 4.67,
+   "gap": 0.67,
+   "leg": "GREEN"
+  },
+  {
+   "cap_yoy": 6,
+   "ats": 3100.0,
+   "ats_yoy": -3.14,
+   "gap": -9.14,
+   "leg": "RED"
+  },
+  {
+   "cap_yoy": 6,
+   "ats": 3200.593,
+   "ats_yoy": 0.0,
+   "gap": -6.0,
+   "leg": "ORANGE"
+  },
+  {
+   "cap_yoy": 6,
+   "ats": 3264.6,
+   "ats_yoy": 2.0,
+   "gap": -4.0,
+   "leg": "ORANGE"
+  },
+  {
+   "cap_yoy": 6,
+   "ats": 3350.0,
+   "ats_yoy": 4.67,
+   "gap": -1.33,
+   "leg": "YELLOW"
+  },
+  {
+   "cap_yoy": 8,
+   "ats": 3100.0,
+   "ats_yoy": -3.14,
+   "gap": -11.14,
+   "leg": "RED"
+  },
+  {
+   "cap_yoy": 8,
+   "ats": 3200.593,
+   "ats_yoy": 0.0,
+   "gap": -8.0,
+   "leg": "ORANGE"
+  },
+  {
+   "cap_yoy": 8,
+   "ats": 3264.6,
+   "ats_yoy": 2.0,
+   "gap": -6.0,
+   "leg": "ORANGE"
+  },
+  {
+   "cap_yoy": 8,
+   "ats": 3350.0,
+   "ats_yoy": 4.67,
+   "gap": -3.33,
+   "leg": "ORANGE"
+  }
+ ],
+ "combos": {
+  "GREEN/GREEN": "GREEN",
+  "GREEN/YELLOW": "YELLOW",
+  "GREEN/ORANGE": "YELLOW",
+  "GREEN/RED": "ORANGE",
+  "YELLOW/GREEN": "YELLOW",
+  "YELLOW/YELLOW": "YELLOW",
+  "YELLOW/ORANGE": "ORANGE",
+  "YELLOW/RED": "ORANGE",
+  "ORANGE/GREEN": "YELLOW",
+  "ORANGE/YELLOW": "ORANGE",
+  "ORANGE/ORANGE": "ORANGE",
+  "ORANGE/RED": "RED",
+  "RED/GREEN": "ORANGE",
+  "RED/YELLOW": "ORANGE",
+  "RED/ORANGE": "RED",
+  "RED/RED": "RED"
+ }
+}
