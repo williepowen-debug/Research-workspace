@@ -4,6 +4,18 @@
 **Mandate:** Will's word at 17:08 ET via prome-51; WALTER card SIG-W-20261106-043, ladder item 5. Bounded: no new research thread, no spawns, no trade or card.
 **Runtime:** Claude Code, Opus 5.5. Sweep window: 11/6 11:34 ET to about 17:25 ET.
 
+## Update, cards 047 and 048
+
+Read at Al Jazeera's live page myself, about 22:31Z. These supersede the lines below where they differ.
+
+| Item | Change |
+|---|---|
+| Mediation | **Stronger than "reads as continuing".** Qatar's International Media Office (Al Jazeera 22:25Z): reports he said the two "had failed to reach an agreement are false and misleading"; "Qatari mediators remain in close coordination with the United States and Iran to support ongoing negotiations". "Mediation ended" is refuted at the mediator's word. It is a mediator describing its own effort, not progress, and I read it only through Al Jazeera. KB-425 |
+| "No comprehensive deal" | Downgraded: outlets' paraphrase, now denied by Qatar's office. **My summary to Will carried it as what he said, while marking it paraphrase in this report; the denial makes the paraphrase weaker still.** Ladder item 5 result unchanged |
+| Qeshm direction | **Leans inbound, not settled.** IRNA's bulletin (Al Jazeera 21:55Z): locals reported two projectiles "impacted in the Susa area", aircraft sound, authorities silent. Tasnim (22:07Z): two missile impacts, no official information. Semi-official outlets report no casualties (Al Jazeera summary). Fars's "warning shots" remains a stated possibility. Al Jazeera's header "IRNA reports two missiles" tightens IRNA's own word |
+| Attribution | **Still none.** TodayPress 21:32Z says the US struck and Iran fired on an F/A-18: reportedly, unsourced, not carried. Same shape as November 2, which is a reason for caution, not evidence |
+| Ladder | Unchanged: no rung, no running 72-hour halt, FAL-09 opens 11/7 00:00 ET |
+
 ## Result
 
 | Test | Verdict |

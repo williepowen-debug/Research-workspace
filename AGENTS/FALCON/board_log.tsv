@@ -316,3 +316,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T16:49:00-05:00	SIG-W-20261106-027	noted	WALTER	WALTER correction of card 023 from my own 11:35 ET message; matches KB-418. No new fact, no mark, census or gate effect. COR-20261106-27 and -20 receipted NO-OP.
 2026-11-06T17:25:00-05:00	SIG-W-20261106-043	acted	WALTER	Ladder item 5 NOT MET both limbs; state unchanged. Remark was Oxford not Doha; mediation reads as continuing on reports; Yanbu Reuters body is 11/5. KB-419/420. Corrections to WALTER.
 2026-11-06T17:25:00-05:00	ORACLE-2026-11-06-ceasefire-legs	noted	INBOX	Cited KB-424. Cause not established; Qeshm report KB-422 may or may not be it. No gate touched.
+2026-11-06T17:32:00-05:00	SIG-W-20261106-047	acted	WALTER	Qeshm graded at Al Jazeera own read: leans inbound on IRNA 'impacted', attacker unnamed, NOT ESTABLISHED as a US strike; no rung, no 72-hour clock. KB-422.
+2026-11-06T17:32:00-05:00	SIG-W-20261106-048	acted	WALTER	Correction to 043 consumed. Own read found the fuller Qatari line, mediators in coordination to support ongoing negotiations. KB-425. COR-20261106-48 APPLIED.

@@ -1,13 +1,13 @@
-# FALCON SCRATCH — November 6, 2026, close refresh about 17:30 ET on Will's 17:08 ET word via prome-51; evidence cutoff about 22:25Z
+# FALCON SCRATCH — November 6, 2026, close refresh on Will's 17:08 ET word via prome-51, cards 047 and 048 after it; written 17:32 ET, evidence cutoff about 22:31Z
 
 ## CURRENT MARKS
 B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-06 CONFIRMED; FAL-08..12 OPEN to 12/31. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5.
 
 ## CHANGES SINCE LAST SESSION (11/06 11:34 ET → about 17:25 ET)
-- ⚠️ QESHM, DEVELOPING. Reuters via JPost about 22:19Z: Tasnim says initial reports of two missiles on Qeshm, unconfirmed; IRNA cites witnesses, two projectiles at Suza after an aircraft was heard. Fars: explosions at Qeshm and Bandar Khamir, cause unclear, possibly warning shots. Direction unsettled, incoming and outward readings both stand. No attacker named. NOT ESTABLISHED as a US strike. Touches no ladder rung; no 72-hour halt is running. KB-422.
+- ⚠️ QESHM, DEVELOPING. Reuters via JPost about 22:19Z: Tasnim says initial reports of two missiles on Qeshm, unconfirmed; IRNA cites witnesses, two projectiles at Suza after an aircraft was heard. Fars: explosions at Qeshm and Bandar Khamir, cause unclear, possibly warning shots. IRNA's bulletin via Al Jazeera: locals say two projectiles "impacted in the Susa area". Direction leans inbound, not settled. No attacker named; TodayPress's unsourced US-strike line not carried. NOT ESTABLISHED as a US strike. Touches no ladder rung; no 72-hour halt is running. KB-422.
 - US military official to Iran International 20:26Z: stay indoors, away from IRGC positions, if tensions escalate. Anonymous.
 - ORACLE: Polymarket effective ceasefire through 11/15 59 to about 36 from 16:04 ET, thin book, cause not established. ORACLE's numbers. KB-424.
-- Qatar's Prime Minister at the Oxford Union, not Doha: good deal over perfect one. Card 043. KB-419.
+- Qatar's Prime Minister at the Oxford Union, not Doha: good deal over perfect one. Card 043. KB-419. Qatar's media office (Al Jazeera 22:25Z): "failed" reports false; mediators support "ongoing negotiations". Card 048. KB-425.
 - IMO 129 / 25 unchanged. No newly named hull, no IN-class facility, no enforcement event found. KB-423.
 
 ## WHAT I DID
@@ -38,7 +38,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-Inbox 0, WALTER lane 0; card 043 and ORACLE's packet consumed. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
+Inbox 0, WALTER lane 0; cards 043, 047, 048 and ORACLE's packet consumed. COR-20261106-48 receipted APPLIED. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
 
 ## PENDING PUSH / GIT
 See the closing message to prome-51 for the safe-push receipt.
