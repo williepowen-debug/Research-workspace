@@ -1,6 +1,6 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-11-06 ~11:45 ET (from session clock).** Owner records reviewed: FALCON WARRISK at `35bd7d149c` (10/26, unchanged), OSPREY WARRISK at `f4414148cf` (11/6 bounded re-pull, data clock unchanged at 10/21). Quote dates unchanged; ages updated. **Matched cross-theater premium ratio UNKNOWN.**
+**Refreshed: 2026-11-06 16:49 ET (from `date`).** Owner records reviewed: FALCON WARRISK at `35bd7d149c` (10/26, unchanged), OSPREY WARRISK at `d2cbb2d4d5` (TD6/TD19 rows retired under WQ-637 A; no rate print added, data clock unchanged at 10/21). Quote dates unchanged; ages updated. **Matched cross-theater premium ratio UNKNOWN.**
 
 | Leg / owner | Last owner-adopted observation | Quote age November 6 | State |
 |---|---|---|---|
@@ -12,7 +12,7 @@
 
 **All five legs exceed the 10-day bar.** The hull run since 10/29 (census 7, a fatality on VELOS SAPPHIRE, LNG carrier AL MAYEDA hit) produced no quote HAWK can adopt. A rising incident count is not a premium. CMA CGM's $35/TEU Black Sea surcharge from 11/9 is a container charge, not a hull quote (KB-OSPREY-259).
 
-**C3 limb 2 / WQ-470:** HAWK answered 11/6 (`proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md`): drop TD6/TD19, no X, in-scope veto. The tripwire row in OSPREY's WARRISK stays until OSPREY replies. Current letter governs; limb 2 NOT SATISFIED. In-scope reference prints: Russian ports 0.65–0.8% (Reuters 12/2/2025, body read) and 1.5–2.5% (The Insurer 8/19/2026, relay only); not a current level.
+**C3 limb 2 / WQ-637 A:** Will adopted the joint letter 11/6 12:35 ET (`proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md`, Final joint text; encoded at OSPREY CLAUDE.md §1, `d2cbb2d4d5`, wording checked against the joint text). No freight proxy, no X, in-scope veto, HAWK grades. First window opened 11/6; no evidence dated earlier counts; earliest first kill 11/27. No grade yet on this letter, and C3 stays 3 until a kill. The 10/21 NOT SATISFIED grade stands. In-scope reference prints: Russian ports 0.65–0.8% (Reuters 12/2/2025, body read) and 1.5–2.5% (The Insurer 8/19/2026, relay only); not a current level, and comparators only, never window evidence.
 
 ---
 

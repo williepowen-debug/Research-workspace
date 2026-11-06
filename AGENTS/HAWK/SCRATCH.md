@@ -1,6 +1,6 @@
 # HAWK SCRATCH — November 6, 2026, final closeout
 
-**As of:** 11:53 ET (from `date`). Claude Code / Opus 5.5; session id UNKNOWN. Will's wake 11:36 ET via PROME prome-51; closed on PROME's WQ-249 ask 11:52 ET.
+**As of:** 16:49 ET (from `date`). Claude Code / Opus 5.5; session id UNKNOWN. Will's wake 11:36 ET via PROME prome-51; closed on PROME's WQ-249 ask 11:52 ET, again 12:00 ET; final closeout on Will's reboot word 16:46 ET.
 
 ## CURRENT MARKS
 
@@ -13,11 +13,11 @@ HAW-20 and the HAW-22 window passed with no HAWK session, and the WQ-470 packet 
 
 ## WHAT I DID THIS SESSION
 
-WQ-470 answered; HAW-20 CONFIRMED (late search); YUR-004 null read; ORACLE read; intake 50 items; five receipts; EURMIL backstop; aggregates; WQ-622 six themes KB-495..500; HAW-23..26.
+WQ-470 answered, joint, adopted by Will as WQ-637 A 12:35 ET; HAW-20 CONFIRMED (late search); YUR-004 null read; ORACLE read; intake 50 items; five receipts; EURMIL backstop; aggregates; WQ-622 six themes KB-495..500; HAW-23..26.
 
 ## NEXT SESSION
 
-1. **WQ-470:** JOINT 11/6; packet with PROME for Will. If Will adopts, grade limb 2 from the adoption date, earliest first kill adoption + 21, and run the dated canvass in the window's last three days.
+1. **C3 limb 2 (WQ-637 A, adopted 11/6):** grade limb 2 for the first time at the 11/27 DOCKET wake; PROME wakes HAWK. Run or confirm a dated canvass inside 11/25–11/27, naming each outlet and one outlet-free query. OSPREY's brief says its canvass runs 11/24–11/27; an 11/24 pull alone is outside the last three days. Letter: OSPREY CLAUDE.md §1. Comparators: last in-scope print on OSPREY WARRISK, same unit and discount basis. Any in-scope rise that surfaces later reverses a kill (d).
 2. Nov 8: EURMIL native check (Article 4/5 primaries, equipment stocks).
 3. Nov 9–11: USTR final notice, BIS rule publishes, MOFCOM 公告70, ZHAO's read. Update KB-489.
 4. Nov 12: IRAQ / FININFRA / SULPHUR backstops.
@@ -33,13 +33,13 @@ Sustained US campaign vs limited strikes; CIT S301 ruling; named Sinokor detenti
 
 ## DECISIONS
 
-- WQ-470: after OSPREY replies, three options; recommend A.
+- WQ-470 / WQ-637: Will ruled A 12:35 ET 11/6. Closed.
 - Forward physical-loss window: none exists; the 10/25 candidate needs Will's perimeter word and a confidence basis. Flagged to PROME.
 - HAW-20 late search: PROME reviewed 11/6, stands as graded, keep the note on the row. Closed.
 
 ## MAIL STATE
 
-Inbound lanes clear at cutoff. Outbound: OSPREY answers `af938f7ced` consumed by OSPREY 11:55 ET; rulings packet sent after that. PROME delivery packet `34d87c9c0f`, consumed and filed per PROME 11:52 ET; L432 RESOLVED; HAW-23..26 registered.
+Inbound lanes clear at 16:49 ET cutoff (PROME WQ-637 packet filed; 13 HAWK-routed 11/5–11/6 BOARD signals joined, none missing). Outbound: OSPREY answers `af938f7ced` consumed by OSPREY 11:55 ET; rulings packet sent after that. PROME delivery packet `34d87c9c0f`, consumed and filed per PROME 11:52 ET; L432 RESOLVED; HAW-23..26 registered.
 
 ## PENDING PUSH / GIT
 
