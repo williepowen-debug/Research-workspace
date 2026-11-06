@@ -403,3 +403,45 @@ CFTC TFF futures-only raw file `FinFutWk.txt`, Last-Modified 20:27:45Z November 
 ⚠️ **What this print cannot say.** As-of November 3 is two sessions before the November 5 shock. It shows no cover into that selloff only because it predates it, so it is not evidence that the position held through November 5. The first print that can show this is as-of November 10, about November 13. Net positions do not show refused capacity either.
 
 **Correction, 16:00 ET, to §15.8.** "The '3.25%' claim is unsupported through November 5" is wrong. I tested only November files. Oracle 5Y traded through 325 on October 20, disseminated 342.5. "288 bp" is a vendor close on a different basis; DTCC October 15 shows disseminated 302. The original line stays above as written. Full history → `research/2026-11-06_oracle-cds-loop/REPORT.md`.
+
+## 16. Addendum: November 6 close refresh, written 17:13 ET (PROME relaying Will's 17:08 ET word; bounded, no new thread, no gate moved)
+
+**Read.** AI equities took back most of November 5 on Friday; credit funds did not bounce with them, and no measured funding gauge moved. The fund read cannot say which way spreads went, because Treasury yields rose too, so it waits for the November 6 ICE cell Monday about 10:10 ET. Nothing here moves a gate, band or score.
+
+| Close, November 6 | Level | Session change | Basis |
+|---|---|---|---|
+| SPY / QQQ | 735.29 / 656.10 | +0.31% / +1.40% | yfinance raw close |
+| HYG / JNK / SHYG | 77.23 / 92.70 / 41.07 | −0.06% / −0.09% / −0.15% | same; price only, no spread read |
+| XCCC / BKLN / LQD | 32.50 / 20.47 / 104.53 | −0.43% / +0.24% / −0.12% | same |
+| BIZD | 12.53 | −0.24%, $0.03 above the $12.50 line | same |
+| IREN / NBIS | 21.64 / 129.49 | +20.02% / +7.58% | same; Nasdaq official November 6 not posted at 17:1x ET |
+| APLD / CRWV | 15.55 / 46.40 | +9.74% / +6.28% | same; official unchecked |
+| ORCL / MSFT | 116.10 / 530.61 | +0.82% / −0.99% | same; official unchecked |
+| APO / BX / KKR / ARES / OWL | 116.75 / 119.50 / 96.48 / 133.98 / 9.82 | −0.44 / −0.27 / −1.85 / +0.19 / −0.71% | same |
+| KRE / XLF | 72.20 / 57.16 | −0.15% / −0.59% | same |
+| PFF / PGX / AT1.L | 28.26 / 9.93 / 29.902 | +0.43 / −0.20 / −0.94% | same |
+| VIX / MOVE | 25.64 / 92.77 | from 28.18 / 97.92 | yfinance; FRED VIXCLS November 6 not posted |
+| 2Y / 5Y / 10Y / 30Y / 3M | 4.51 / 4.64 / 4.86 / 5.26 / 4.19 | +5 / +5 / +2 / +1 / +2 bp | Treasury par curve; FRED H.15 cell not posted, November 5 cells match Treasury |
+| DXY / USD/JPY / gold / Brent | 102.28 / 158.43 / 4,079.5 / 97.76 | +0.72% / flat / −0.83% / −0.54% | vendor last, not NY close or settle |
+
+IREN closed $0.07 under its November 4 close, so all but $0.07 of the November 5 fall is back, on a vendor close. ⚠️ Its 8-K came after the November 5 close, so this is the market's first full session with that filing, not proof that financing eased. HYG's price change does not give a spread direction: 5Y yields rose 5 bp on a day HYG fell 0.06%.
+
+**Funding.** Standing Repo $0 at both November 6 operations (closed 08:30 and 13:45 ET; none submitted), RRP $0.15B [November 6]. SOFR, percentiles, EFFR and TGCR for November 6 publish Monday; §15 stands at +2 / +10 bp [November 5]. TGA closed $922.752B [November 5, Daily Treasury Statement], from $936.248B.
+
+**Commercial paper now reaches November 5, closing part of the §15.6 gap.** Nonfinancial 30-day 3.98 from 3.95, 2-month 4.12 from 4.15; financial 2-month 3.94 from 4.12, 3-month 3.97 from 4.11 (first-published, November 5 against November 4). Lower financial rates are not stress, but these series are thin with gaps, so no read beyond "no spike on the selloff day". The OFR index still ends November 4 and swap lines stay weekly.
+
+**H.8, release November 6, week ending October 28, seasonally adjusted, $B, dated page `releases/h8/20261106/`.** Predates the November 5 selloff. No LIQUID threshold or gate reads it. The October 30 release was not read at the time.
+
+| | Small domestic, Table 8, October 21 → **28** | Large domestic, Table 6, October 21 → **28** |
+|---|---|---|
+| Borrowings | 305.2 → **309.7** (+4.5) | 1,125.7 → **1,091.1** (−34.6), from 1,066.8 [October 14] |
+| Deposits | 5,687.0 → **5,701.7** (+14.7) | 12,438.8 → **12,490.7** (+51.9) |
+| Cash assets | 491.0 → **498.3** (+7.3) | 1,395.9 → **1,358.3** (−37.6) |
+| Fed funds sold and reverse repos | 36.6 → **36.3** | 287.5 → **320.2** (+32.7) |
+| Loans to nondepository financials | 200.5 → **199.2** | 1,378.0 → **1,376.1** (−1.9), from 1,358.5 [October 7] |
+
+⚠️ Revisions: small-bank borrowings for October 14 are now 313.2, not the 316.4 I recorded October 23; October 7 is 304.1, not 307.3; deposits and cash moved about the same way. Quote this release's column, not the old one. Small-bank borrowing rose with deposits and cash again, so still no deposit-replacement signature. Large-bank borrowing jumped $58.9B then gave back $34.6B; cause not established.
+
+**Peer packets consumed.** BROCK: GPU 2.0's draw test is IREN's own Certificate of Acceptance after delivery, no customer or commissioning test; last request December 28 for December 31, derived; extension needs each lender's consent; verified at BROCK's report. SAM: leverage on two definitions, about 22% (25% at Arm about $128) and about 24% with the guaranteed $10B OpenAI loan (25% at about $160), verified at SAM's table; KB-LIQ-153 now labels both. ORACLE: December hike about 78 after payrolls, within 1 bp of futures, priced odds are ORACLE's; cause of the November 5 fall not established; no LIQUID use beyond context.
+
+**Still unpublished or unread at this write:** November 6 ICE cells (Monday about 10:10 ET); November 6 SOFR set (Monday about 08:00 ET); FRED H.15 and VIXCLS for November 6; Nasdaq official November 6 closes; ICE Brent settle; 5pm NY USD/JPY; DTCC full file (about 20:15 ET); OFR index for November 5 and 6; ICI money fund page refused this client (403), last read October 14. Cross-currency basis, swap spreads, prime-brokerage margin, repo haircuts and Treasury bid-ask stay out of reach.
