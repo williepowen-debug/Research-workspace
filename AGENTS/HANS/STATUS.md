@@ -7,7 +7,7 @@
 ## 🔴 CARRY FORWARD — the live consequences through **11/06**. **Narrative → `SESSION_LOG.md`** · verbatim → `workbook/`
 
 - 🔴 **GAS: PRICE EASED, STORAGE DID NOT.** TTF Dec (named Z26) **90.68** [11/05 close] / **85.22** intraday [11/06], from **103.94** [10/30 close, 68 lots, the episode high]. Under €100 since 11/02. **EU storage 73.75%** [gas day 11/04], falling 0.32pp/d, gap **−16.02pp** to the 5-yr mean (median −21.25), back through the −15 orange line. Germany **60.25%**. The relief is reported as diplomacy hope (TE, attribution not established): price relief, not physical relief. Brent 117.64 [10/30] → ~97. IEA 11/03: lowest opening stocks since 2013; its sub-10% end-March case needs **both** cold weather **and** continued Hormuz disruption; withdrawals weaken below ~30% (via WALTER -013). Qatar force majeure reported to end-December.
-- 🔴 **`T-07` L3 STAYS OPEN WITH NO EXIT RULE.** €100 fired 10/28 (`HANS-F-007`), settle still disputed: 100.72 vendor vs 98.50 ICE table via Investing, **ICE official settle unread** (ice.com blocked). An exit level needs Will (PROME limit 11/06): **proposed, not registered.** ⚠️ 11/05 bar not fully trusted: identical volume to 11/04, and WALTER saw TE ~85 intraday 11/05. Band state is the same either way.
+- 🔴 **`T-07` L3 OPEN, EXIT RULE NOW REGISTERED (WQ-636 A, Will 11/06).** Closes after **5 consecutive named-front closes under €90**, re-fires on a close over €100; contract named in the registry band cell (`TTFZ26.NYM`, then `TTFF27.NYM` after 11/27). ⚠️ No base rate computed, one episode only. **Clock: 0/5 confirmed.** 11/04 88.08 counted, 11/05 90.68 reset it, 11/06 85.98 is a last trade, daily close not posted; 1/5 if it closes under 90, earliest fifth close 11/12. ⚠️ 11/05 is the swing bar: last hourly trade 89.64 and identical volume to 11/04, but 11/06 opened 90.69, which supports the close. Under 90 would make the count 3 with 11/06. €100 fired 10/28 (`HANS-F-007`), settle still disputed: 100.72 vendor vs 98.50 ICE table via Investing, **ICE official settle unread** (ice.com blocked).
 - 🔴 **`HNS-07` MISS: 74.57%** on gas day 11/01 vs ≥80.0 (AGSI status E; 5.43pp short). **KILL_TREE C-3 KILLED.** Successor `HNS-15`.
 - 🟠 **BOE HIKED TO 4.00% ON 11/05, 8–1 (Mann for 4.25), PRIMARY READ.** CPI seen ~4.5% in 2027 Q1, ~5% in Q2. Limited evidence of second-round effects, but the risk has risen further. **The look-through case is half dead:** it hiked with core unchanged at 2.8 (`T-17` 0.2 under watch). ⚠️ The projection used energy averaged to 10/27 (UK gas 216p/therm), before the TTF fall. Report body not read. Next due 12/17.
 - 🟢 **GILTS: NO ACCIDENT, AND THE LONG-END SUPPLY RISK WENT THE GOOD WAY.** 10Y **5.1497** / 30Y **5.601** [TE 11/06 intraday], ~35bp / ~40bp under `T-06` / `T-13`. **DMO remit 10/28 (PRIMARY): long conventional sales CUT £7.7bn to £15.5bn (6.2% of £250.6bn gross);** the extra went to shorts and mediums. 2056 auction 11/10; long tender proposed 11/19. ⚠️ `T-13` is a watch, not an LDI break point (buffers sized for 250bp). OBR itself not read.
@@ -25,7 +25,7 @@
 
 | Metric | Latest | Ladder / band | Source ✓ |
 |---|---|---|---|
-| **TTF front-month** | **€90.68** on named **`TTFZ26`** [11/05 close]; 85.22 intraday 11/06; F27 87.14 | **L3 (€100) OPEN, no exit rule** (`HANS-F-007`); L1+L2 open | own pull ✓ 11/06 |
+| **TTF front-month** | **€90.68** on named **`TTFZ26`** [11/05 close]; 85.22 intraday 11/06; F27 87.14 | **L3 (€100) OPEN, exit clock 0/5 confirmed** (`HANS-F-007`); L1+L2 open | own pull ✓ 11/06 |
 | **EU storage gap to 5-yr norm** | **−16.02pp** (mean) / **−21.25pp** (median) | 🟠 **`HANS-F-004` OPEN**; exit >−12 ×5, clock **0/5** | **AGSI+ single-source** ✓ gas day 11/04 |
 | EU storage fill | **73.75%** — gas day 2026-11-04 (trend −0.32pp/d) | not the binding metric | **AGSI+ primary** ✓ |
 | Germany fill | **60.25%** — gas day 2026-11-04 | `HNS-15` | **AGSI+ primary** ✓ |
@@ -112,7 +112,6 @@
 
 | # | Owed | Due |
 |---|---|---|
-| 30 | **`T-07` L3 exit rule: Will's call, proposed via PROME 11/06** | awaiting Will |
 | 36 | **WQ-622 charter line:** add one line to `CLAUDE.md`; held for Will's own word in this window | awaiting Will |
 | 33 | **`HNS-09`: fill Crédit Agricole, Santander, BBVA, Intesa, ING, UniCredit from own releases;** Deutsche guidance cell vs Q2-26 wording | by 11/30 |
 | 37 | **15 expired KB rows** need re-verification, not a date bump: 004 · 014 · 021 · 031 · 036 · 037 · 077 · 082 · 085 · 103 · 111 · 141 · 144 · 145 · 146 | 🟠 |

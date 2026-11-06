@@ -21,11 +21,12 @@
 
 **GAPS:** ICE settle (ice.com blocked) · S&P PMI primaries (403) · 6 banks unfilled · 15 expired KB rows · `SX7E.Z` no data · S&P France date unconfirmed · BoE report, OBR, Moody's rationale not read.
 
-**WILL_NEEDS:** `T-07` L3 exit rule (proposed via PROME) · his own word for the WQ-622 charter line.
+**WILL_NEEDS:** his own word for the WQ-622 charter line. (`T-07` L3 exit: RULED WQ-636 A 11/06, encoded.)
 
 **CLOSEOUT:** Standard. doc_audit, tests and read-cap re-run after the last edit. Consumer cross-agent rc0: 31 🔴, none a real consumer of a retired figure (23 coincidental numbers in REGINALD study CSVs, the rest dated records), no packet. Consumer --self rc0: 32 🔴 all dated history, `PUBLISHED.tsv` or rotated records, not cleared by rule. Claim check clean. Orphan: my packets committed. Root 1d no-op, no auto-memory.
 
 **FOLLOW-UP (next session):**
+0. Read the 11/06 TTFZ26 daily close and run the `T-07` L3 exit clock on `HANS-T-07`.
 1. EA Oct FINAL HICP and ECB FSR 11/18; France vote ~11/17–18.
 2. UniCredit 11/09 and the other 5 banks into HNS09.
 3. S&P France 11/27: confirm the date.

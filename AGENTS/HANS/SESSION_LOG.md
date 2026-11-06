@@ -243,3 +243,11 @@ CATO reviewed the day's work and produced counterexamples against several of thi
   - The Chancellor is **Healey**, not Reeves. My own search prompts carried the wrong name; my files did not.
   - Two live notes still said "11/26 Budget" (the 2025 date) and are now corrected.
   - The key re-framing: `T-13` is a watch, not an LDI break point (buffers sized for 250bp).
+
+## 2026-11-06 13:17 ET, hans-1106 addendum: WQ-636 A encoded
+
+- Ruling read at `PROME/proposals/2026-11-06_wq631-632-636-RULED.md`, Will verbatim "636 - A". Encoded in the `HANS-T-07` band cell, with the F-007 note, VX-8.01 and STATUS following.
+- Pull at 13:15 ET found the 11/05 daily close (90.68) over the line while the last hourly trade was 89.64. The daily close looks like a settle rather than a last trade: 11/04 daily 88.08 vs last hourly 85.03, then 11/05 opened 88.50; 11/05 daily 90.68, then 11/06 opened 90.69. This is a read of two sessions, not a verified feed property.
+- That also makes the 11/06 bar's 85.98 provisional: a last trade can sit about 3 under the daily close (11/04). Clock stays on the practised daily close, 0/5 confirmed.
+- Not in the ruling and not added: what a missing bar does, and whether a count may span the 11/27 roll. Flagged to PROME.
+- CLAUDE.md band table left alone: the exit lives in the registry, the table carries bands only, and the T-10 exit is not in that table either.
