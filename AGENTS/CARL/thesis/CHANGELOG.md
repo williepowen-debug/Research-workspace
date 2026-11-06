@@ -8,6 +8,13 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-06 (3) — V16 DROP-BACK BRANCH: PRINT 1 OF 2 on October NFP (no version bump, no score change)
+
+**What:** print 1 of V16's drop-back-to-3 branch, letter *"NFP positive WITH net up-revisions for 2 consecutive prints"* (THESIS matrix COL7; WQ-182), map on `docket/CATALYSTS.tsv` since 10/02.
+**Inputs, as first published** [BLS USDL-26-1632, Employment Situation October 2026, rel 2026-11-06 08:30 ET, read at LABOR's saved text]: S = +165K. R = August +133K→+186K (+53K) + September +29K→+60K (+31K) = **+84K** ("employment in August and September combined is 84,000 higher than previously reported").
+**Grade:** S>0 AND R>0 → **print 1 of 2. Count 0→1 of 2. V16 holds 4; no candidate to Will.** Print 2 = November NFP, Fri 2026-12-04 (date per the release). Escalate-to-5 stays 0 of 2.
+**Old → new:** drop-back 0 of 2 → 1 of 2. Score 53/70 unchanged. LABOR's own v2 fire is LABOR's grade; CARL reads it as evidence against the hiring-freeze leg, and the layoffs side never broke. KB-596.
+
 ## 2026-11-06 (2) — WQ-632: CRL-21 clause closed by Will; failure pattern and two-mark calibration recorded (no version, score or prediction change)
 
 **Will, about 13:12 ET, verbatim:** *"632 - We can close this but we should still have the agent record the missed prediction so we can further learn and calibrate"*. Record `PROME/proposals/2026-11-06_wq631-632-636-RULED.md`. CRL-21 stays MISSED; no reversal was asked.
