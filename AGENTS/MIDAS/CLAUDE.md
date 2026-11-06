@@ -42,6 +42,8 @@ Each channel is a standing causal line, not a topic. If a channel has no current
    2. For each: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row with `source=INBOX_WALTER`, then **`git mv`** it to `inbox/WALTER/processed/`. *(`git mv`, never bash `mv` — bash `mv` leaves the deletion unstaged: auto-memory `feedback_git_mv_for_inbox_processing`.)*
    3. Let `acted` items inform this session.
 
+   **6c. Combination watch (Will 2026-11-05 15:22 ET, WQ-622 A, *"Even if any singular piece of news doesnt move the needle by itself - we do want to account for and document things that might matter eventually, or in combination, etc."*):** in the session a card, sweep or print arrives, add a sub-threshold item, counterevidence included, to its dated `workbook/KB.tsv` theme row with `combo:<theme>` first in Notes, per `PROME/COMBINATION_WATCH.md`. Logging moves no score, band or trigger.
+
 7. **Channel-liveness check** — for each of M1/M2/I1/I2, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard).
 8. **Execute the task.**
 

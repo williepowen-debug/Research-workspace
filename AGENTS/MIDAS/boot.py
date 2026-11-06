@@ -146,11 +146,14 @@ def run_alert(cmd):
 
 def predictions_due():
     """(n_due, rows) for PREDICTIONS.tsv rows past resolve_date still OPEN/ACTIVE.
-    Tolerant of a newborn/empty ledger."""
-    if not PREDICTIONS.exists():
+    Tolerant of a newborn/empty ledger ONLY: an established ledger with a missing
+    required column, or an open row with an unreadable date, returns (2, []) and
+    fails the leg instead of reading clean (DAEDALUS M-F1, repaired 2026-11-06)."""
+    if not PREDICTIONS.exists() or not PREDICTIONS.read_text(encoding="utf-8").strip():
         return 0, []
     today = date.today()
     due = []
+    invalid = []
     try:
         with PREDICTIONS.open(encoding="utf-8") as f:
             reader = csv.DictReader(f, delimiter="\t")
@@ -158,7 +161,9 @@ def predictions_due():
             dcol = cols.get("resolve_date") or cols.get("resolves") or cols.get("resolve")
             scol = cols.get("status")
             if not dcol or not scol:
-                return 0, []
+                print("  boot.py: predictions ledger lacks a resolve_date or status column",
+                      file=sys.stderr)
+                return 2, []
             for r in reader:
                 if (r.get(scol) or "").strip().upper() not in ("OPEN", "ACTIVE", "PENDING"):
                     continue
@@ -166,11 +171,16 @@ def predictions_due():
                 try:
                     when = datetime.strptime(raw[:10], "%Y-%m-%d").date()
                 except ValueError:
+                    invalid.append(f"{r.get(cols.get('id', 'id'), '?')} date {raw!r}")
                     continue
                 if when <= today:
                     due.append(f"{r.get(cols.get('id', 'id'), '?')} due {raw}")
     except Exception as e:  # noqa: BLE001
         print(f"  boot.py: predictions scan error: {e}", file=sys.stderr)
+        return 2, []
+    if invalid:
+        print(f"  boot.py: open prediction rows with unreadable dates: {invalid}; "
+              f"also due: {due}", file=sys.stderr)
         return 2, []
     return len(due), due
 
@@ -232,6 +242,11 @@ def cot_vintage_leg():
                    "(finding_partitioned_source_returns_stale_window_at_200). Do NOT grade it.")
         return 2, out
     if live_date == last_date:
+        if abs(live_ratio - last_ratio) > 0.0001:
+            out.append(f"  ⚠️  SAME VINTAGE, VALUE CHANGED: {live_ratio - last_ratio:+.4f}pp vs the "
+                       "consumed row. Report the revision or disagreement; do not re-grade a "
+                       "closed letter.")
+            return 1, out
         out.append("  ✓ current vintage already consumed")
         return 0, out
     out.append(f"  ⚠️  NEW COT VINTAGE UNCONSUMED — {live_date} is public and this desk has not "

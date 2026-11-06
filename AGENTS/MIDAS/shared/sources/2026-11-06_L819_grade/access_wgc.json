@@ -1,0 +1,18 @@
+[
+ {
+  "file": "wgc_gdt_q3_central_banks.html",
+  "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q3-2026/central-banks",
+  "status": 200,
+  "bytes": 84927,
+  "sha256": "56a54f9c0aacfffb2f5fe9971a5ce47c87068b3d2eff6d028f33caa7cc97fadd",
+  "utc": "2026-11-06T12:30:14.110733+00:00"
+ },
+ {
+  "file": "wgc_cb_stats_sep2026.html",
+  "url": "https://www.gold.org/goldhub/gold-focus/2026/11/central-bank-gold-statistics-september-2026",
+  "status": 200,
+  "bytes": 73586,
+  "sha256": "67e63cb2b6cc9a29c44f88b964a245e9c62384a88b9dea0409be9cd5657c1c91",
+  "utc": "2026-11-06T12:30:14.244379+00:00"
+ }
+]

@@ -1,8 +1,8 @@
 # MIDAS — TRADE
 # LIVE ledger.
-Last real data refresh: 2026-10-28 (completed funds, primary bullion/real yields; futures guard-qualified 27, diagnostic 28).
-Last attention check: 2026-10-29
-Content reconciliation: 2026-10-28 catch-up (Fed hold, close refresh, ICSG/First Quantum/BEA checks, WQ-522 retired); no new broker-position reconciliation.
+Last real data refresh: 2026-11-05 (issuer GLD close and tonnes, Treasury real 10Y, fund closes; futures MIRROR uncertified).
+Last attention check: 2026-11-06
+Content reconciliation: 2026-11-06 WQ-451 grade (outlook lines below). Earlier: 2026-10-28 catch-up (Fed hold, close refresh, ICSG/First Quantum/BEA checks, WQ-522 retired); no new broker-position reconciliation.
 
 ## Current scope and status
 
@@ -23,7 +23,7 @@ The former July/August updates, superseded attribution bands and August "trigger
 | Copper I1 | CPER $40.33 October 28 (+2.39% since 10/26); LME 271,450 t/+16.25% vs 233,500 t median; MEDIA Yangshan $188, MIRROR backwardation ~+$191. PRIMARY ICSG 2026 surplus ~104 kt; PRIMARY First Quantum guidance 405–435 kt. Teck loss unknown. | I1=1 under downside-only bands; China demand firm near term, annual balance still surplus. No construction implication from MIDAS. |
 | PGMs I2 | PPLT $13.99/PALL $18.53 October 28, d200 −18.84/−28.24% (Pt T3 after recovering 10/27; Pd T4, lowest close since 2025-06-05). PRIMARY Nornickel Q3 above pace, guidance unchanged. | Actual I2=2, would-be 4 via Pd, shared root with silver; no supply-disruption fire or trade. |
 
-Actual composite **4/1/1/2 = 8/20**; counterfactual **13/20**, one shared root. Silver/PGM scoring floor is November 1 at 21:40 ET; qualifying post-approval crossings and then-current levels govern. These levels are diagnostics, not trade orders.
+Actual composite **4/4/1/4 = 13/20**, scored from the November 2 close, one shared root (KB-MIDAS-248). This is the ruled November 1 floor taking effect, not new evidence; PALL above −25% makes it 12. It changes no card and no position.
 
 ## Position context and hedge scope
 
@@ -37,12 +37,12 @@ The October 20 outlook uses GLD $379.69 on October 19, with LOW-confidence ASSUM
 
 | Existing line | Latest evidence held | Limit |
 |---|---|---|
-| One-month downside: GLD close **< $360.71** | $373.51 October 28 | Latest held close is above the line. |
-| One-month upside: GLD close **> $391.08** | $373.51 October 28 | Latest held close is below the line. |
-| Three-month accumulation: trust **< 1,035.70 tonnes** | 1,043.36 tonnes October 28 | Latest held quantity is above the line. |
-| Three-month rates: real 10Y **≥ 3.00% on 5 consecutive Treasury prints** | 2.67% October 28 | Latest held print is below the line. |
-| Three-month dollar: DXY **≥ 105 on 5 consecutive closes** | 102.19 October 28, vendor daily mirror | Latest held close is below the line. |
-| Three-month selling: a **second LIQUIDATION-class day by November 5 AND cumulative tonnes ≤ −20 since September 30** | October 22 classified case retained; quantity change since September 30 −12.34 tonnes at October 28 (1,055.70 → 1,043.36 t) | This requested price refresh does not rerun frozen-letter classifications; quantities alone do not establish a second LIQUIDATION event. |
+| One-month downside: GLD close **< $360.71** | **CROSSED** at issuer closes $355.78 (October 30) and $359.26 (November 3); $375.49 November 5 | Crossed and recovered. A one-month line, so it withdraws no lean. |
+| One-month upside: GLD close **> $391.08** | $375.49 November 5 | Latest held close is below the line. |
+| Three-month accumulation: trust **< 1,035.70 tonnes** | 1,040.51 tonnes November 5; low 1,037.66 November 3 | Above the line, 1.96 t of room at the low. |
+| Three-month rates: real 10Y **≥ 3.00% on 5 consecutive Treasury prints** | 2.60% November 5 | Latest held print is below the line. |
+| Three-month dollar: DXY **≥ 105 on 5 consecutive closes** | 101.55 November 5, vendor daily mirror | Latest held close is below the line. |
+| Three-month selling: a **second LIQUIDATION-class day by November 5 AND cumulative tonnes ≤ −20 since September 30** | Window closed November 5, not met: no second LIQUIDATION-class day (October 30 failed the tonnes leg) and −15.19 tonnes since September 30 | Graded at `gold/research/2026-11-06_WQ451-L1-grade.md`. |
 
 If any existing three-month invalidation fires, the standing action is to withdraw the positive lean to neutral and report to PROME/TERRY. This review does not grade an unobserved day or reanchor the outlook.
 
@@ -64,4 +64,4 @@ For the historical August analysis only: canonical univariate unexplained share 
 
 [Joined session synthesis](gold/research/2026-10-25_session-synthesis.md), [current bottom evidence](gold/research/2026-10-25_bottom-evidence-check.md), [Sunday catch-up](shared/research/2026-10-25_sunday-catch-up.md), [frozen WQ-451 letter, section 5](gold/research/2026-10-23_WQ451-decomposition-letter.md), [predictions](workbook/PREDICTIONS.tsv) and [Nornickel preregistration](palladium/research/2026-10-23_nornickel-9M-read-setup.md). Latest requested snapshot: `shared/research/2026-10-26_close-snapshot.md`; completed funds/primary bullion/rates endOctober26, CFTC remainsOctober20. No broker-position refresh.
 
-Certified gold settlement remains UNRESOLVED; M1 draft disposition WQ-522 is registered/not ruled, not an active forecast. Nornickel October 26 issuer read is complete; existing forecast/calendar obligations continue; no new cadence, score, threshold, trade construction or execution.
+Certified gold settlement remains UNRESOLVED; M1 draft WQ-522 was retired by Will on October 29 and is not an active forecast. Nornickel October 26 issuer read is complete; existing forecast/calendar obligations continue; no new cadence, score, threshold, trade construction or execution.

@@ -203,5 +203,38 @@ class InputTests(unittest.TestCase):
         self.assertIn("not certified exchange settlements", out)
 
 
+class LmeBaselineCoverageTests(unittest.TestCase):
+    def table(self, start, n, stock=200000):
+        rows = []
+        for i in range(n):
+            d = (start - timedelta(days=i)).strftime("%d. %B %Y")
+            rows.append(f"<tr><td>{d}</td><td>1</td><td>2</td><td>{stock}</td></tr>")
+        return "".join(rows)
+
+    def run_baseline(self, pages):
+        with patch.object(watch, "_fetch_westmetall", side_effect=pages):
+            return watch.read_lme_copper_baseline()
+
+    def test_full_fresh_window_passes(self):
+        now = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        median, n, _ = self.run_baseline([self.table(now, 600), "", ""])
+        self.assertEqual((median, n), (200000, 600))
+
+    def test_stale_table_fails(self):
+        with self.assertRaisesRegex(ValueError, "days old"):
+            self.run_baseline([self.table(datetime(2020, 2, 29), 600), "", ""])
+
+    def test_duplicate_pages_do_not_count_as_coverage(self):
+        now = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        page = self.table(now, 200)
+        with self.assertRaisesRegex(ValueError, "unique obs"):
+            self.run_baseline([page, page, page])
+
+    def test_conflicting_duplicate_fails(self):
+        now = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        with self.assertRaisesRegex(ValueError, "conflicting"):
+            self.run_baseline([self.table(now, 600), self.table(now, 600, 200025), ""])
+
+
 if __name__ == "__main__":
     unittest.main()

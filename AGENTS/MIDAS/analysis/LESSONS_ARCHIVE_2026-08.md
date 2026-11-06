@@ -103,3 +103,9 @@ Check the stated mechanism against the curve or quantity it implies, and check e
 KB-212 recorded WALTER's "First Quantum sold about 36,000 tonnes of acid in that same quarter". MIDAS read "same quarter" against the KB row's October as-of date and the newly released Q3 report, then nearly told WALTER the figure "is not Q3". WALTER's own RESULTS file ties "same quarter" to Jubilee's April–June fiscal Q4 and to First Quantum's July (Q2) release. The figure was correctly labelled; the misreading was MIDAS's. It was caught only because the source file was opened before the packets were committed.
 
 When a relayed figure carries a relative period ("same quarter", "last month", "this year"), resolve it in the author's source before comparing it with a newer release. Store the absolute period in the KB cell, not the relative phrase. Source: `AGENTS/WALTER/research/2026-10-25_verify/RESULTS.md` line 9; KB-212, KB-238.
+
+## L-57 — A class with a pending leg is not yet that class (November 6, 2026)
+
+The October 30 study wrote LIQUIDATION-candidate with the tonnes leg pending, then told readers the day "reads as liquidation". On November 6 the issuer row showed the trust up 0.57 t, so on the frozen letter the day is UNEXPLAINED-DOWN. The study's body was careful; its headline and bottom line carried the class before the leg existed, and that is the sentence peers kept.
+
+When a frozen classifier has an unprinted leg, say what is measured and what is pending in the headline, and write the class only after the leg prints. The cross-asset evidence may support a separate plain-language read, but label it as that, not as the frozen class. Source: `gold/research/2026-11-06_WQ451-L1-grade.md`, KB-MIDAS-247.

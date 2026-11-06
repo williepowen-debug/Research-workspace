@@ -1,3 +1,4 @@
 receipt_date	correction_id	action	note
 2026-09-02T14:00Z	COR-20260828-01	NO-OP	
 2026-10-12T21:04Z	COR-20261008-07	APPLIED	artifact=AGENTS/MIDAS/workbook/KB.tsv#KB-MIDAS-123; validation_ref=BOARD/SIG-W-20261008-007-CORRECTION-to-20261004-004-irkutsk-plague-is-a-lab-worker-death-pneumonia-unknown-aetiology-no-plague-confirmed-smelter-masks-only-MIDAS.md#CORRECTION; scope=Original and correction consumed together. No plague or smelter outage assertion enters MIDAS state.;
+2026-11-06T12:37Z	COR-20261105-57	NO-OP	scope=VIX 26.86 from card 055 never entered a MIDAS file, grep of STATUS NEXUS_BRIEF THESIS TRADE OPEN_ITEMS workbook 2026-11-06. Session grades use Yahoo VIX 28.18, matching the correction; 

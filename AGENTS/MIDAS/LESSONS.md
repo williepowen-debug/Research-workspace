@@ -1,6 +1,6 @@
 # MIDAS — LESSONS (durable agent-level learning)
 
-> **INDEX — one hook per lesson. Full bodies: `analysis/LESSONS_ARCHIVE_2026-08.md` (grep by L-number or phrase).**
+> **INDEX — one hook per lesson. Full bodies: `analysis/LESSONS_ARCHIVE_2026-08.md` (L-01..L-44 and L-54 onward, new lessons go here) and `analysis/LESSONS_ARCHIVE_2026-09.md` (L-45..L-53). Grep by L-number or phrase.**
 >
 > *Split 2026-08-27 (Will-directed). This file was 64,235 bytes on 48 lines — #2 worst bytes/line in the fleet, and **not in the boot sequence**, so it was write-only: lessons that are never re-read never fire. The hook is the trigger; the archive is the evidence. **Nothing was deleted.***
 >
@@ -68,4 +68,5 @@
 
 | **L-54** | 2026-10-25 | Report early hints, adverse evidence and corroboration separately; lack of certainty must not hide useful signals or create a new gate. |
 | **L-55** | 2026-10-28 | Check a media story twice: its mechanism against the curve (a "hike bets" sell-off on a falling 2Y), and its figure against our KB (an old WPIC 265 koz reprinted as new). |
+| **L-57** | 2026-11-06 | A class with a pending leg is not yet that class: keep "candidate" out of the headline, because 10/30's tonnes leg came back the wrong way and the headline had already said liquidation. |
 | **L-56** | 2026-10-29 | Resolve a relayed relative period ("same quarter") in the author's source before comparing it with a newer release; store the absolute period. |

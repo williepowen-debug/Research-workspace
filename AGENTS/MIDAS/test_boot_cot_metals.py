@@ -98,5 +98,47 @@ class FreshnessTests(unittest.TestCase):
             self.assertEqual(0 < value < 5, expected == 4)
 
 
+class PredictionAndGoldGuardTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.path = Path(self.temp.name) / 'p.tsv'
+
+    def scan(self, text):
+        self.path.write_text(text)
+        with patch.object(boot, 'PREDICTIONS', self.path):
+            return boot.predictions_due()
+
+    def test_empty_ledger_is_newborn(self):
+        self.assertEqual(self.scan(''), (0, []))
+
+    def test_bad_date_on_open_row_fails(self):
+        self.assertEqual(self.scan('id\tresolve_date\tstatus\nA\tsoon\tOPEN\n'), (2, []))
+
+    def test_missing_column_fails(self):
+        self.assertEqual(self.scan('id\tstatus\nA\tOPEN\n'), (2, []))
+
+    def test_valid_due_row_reports(self):
+        self.assertEqual(self.scan('id\tresolve_date\tstatus\nA\t2026-01-01\tOPEN\n')[0], 1)
+
+    def test_closed_row_with_bad_date_is_ignored(self):
+        self.assertEqual(self.scan('id\tresolve_date\tstatus\nA\tsoon\tHIT\n'), (0, []))
+
+    def gold(self, live):
+        ledger = Path(self.temp.name) / 'gold.tsv'
+        ledger.write_text('report_date\ta\tb\tc\td\tnet\n2026-10-27\t1\t1\t1\t1\t47.0000\n')
+        fake = type('F', (), {'fetch': staticmethod(lambda: ''),
+                              'extract_gold': staticmethod(lambda _: {'report_date': '2026-10-27',
+                                                                      'net_over_oi': live})})
+        with patch.object(boot, 'COT_VINTAGES', ledger), patch.dict('sys.modules', {'cot_gold': fake}):
+            return boot.cot_vintage_leg()
+
+    def test_gold_same_vintage_changed_value_flags(self):
+        self.assertEqual(self.gold(48.0)[0], 1)
+
+    def test_gold_same_vintage_same_value_quiet(self):
+        self.assertEqual(self.gold(47.0)[0], 0)
+
+
 if __name__ == '__main__':
     unittest.main()

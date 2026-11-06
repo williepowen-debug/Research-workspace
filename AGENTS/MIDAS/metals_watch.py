@@ -112,7 +112,7 @@ ETF_PROXIES = {"GLD": "Gold ETF", "SLV": "Silver ETF", "CPER": "Copper ETF",
 #      roll before late-November first notice; watch HG (lead only 4.3x).
 FRONT_MONTHS = {"GC=F": "GCZ26.CMX", "SI=F": "SIZ26.CMX", "HG=F": "HGZ26.CMX",
                 "PL=F": "PLF27.NYM", "PA=F": "PAZ26.NYM"}
-FRONT_MONTHS_REVIEW_ON = "2026-10-30"  # chosen weekly maintenance date, not an expiry
+FRONT_MONTHS_REVIEW_ON = "2026-11-13"  # chosen weekly maintenance date, not an expiry
 MAX_PRIOR_BAR_AGE_DAYS = 7  # source freshness bound, not a market alarm level
 # A pointer carrying under this share of the explicit month's volume is DYING.
 DYING_VOL_SHARE = 0.05
@@ -341,6 +341,7 @@ BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 # "normal" is now DEFINED (round-3, KB-018) as the trailing-2yr rolling MEDIAN
 # of daily LME stock — not an undefined baseline. Bands per the CLAUDE.md table.
 LME_YELLOW, LME_ORANGE, LME_RED = 25, 50, 100  # % above the 2-yr median
+LME_BASELINE_MIN_OBS, LME_BASELINE_MAX_AGE_DAYS = 450, 10  # data coverage, not a market threshold
 
 
 def _parse_westmetall_table(html):
@@ -371,9 +372,8 @@ def read_lme_copper_baseline():
     table plus the two prior calendar years (westmetall &year= pages), builds
     a daily series, and returns (median_2yr, n_obs_in_window, latest_dt).
     Fail-loud: raises if the combined series is too short to define a baseline.
-    Best-effort on the history legs — if a prior-year page fails, it degrades
-    to whatever depth it got AND flags it, rather than silently under-sampling
-    (caller sees n_obs and can judge)."""
+    A failed prior-year page is tolerated only while the deduplicated window
+    still holds LME_BASELINE_MIN_OBS rows and the newest row is fresh."""
     latest_year = datetime.now().year
     combined = []
     fetched_years = []
@@ -384,13 +384,23 @@ def read_lme_copper_baseline():
             fetched_years.append(yr)
         except Exception:
             continue  # degrade, don't fail the whole baseline on one bad year
-    if len(combined) < 60:
-        raise ValueError(f"LME baseline: only {len(combined)} obs across "
-                         f"years {fetched_years} — insufficient for a 2yr median")
-    combined.sort(key=lambda t: t[0])
-    latest_dt = combined[-1][0]
+    # DAEDALUS M-F4, repaired 2026-11-06: duplicates, stale pages and thin
+    # coverage fail the baseline loudly. The median definition is unchanged.
+    by_date = {}
+    for dt, _, v in combined:
+        if by_date.setdefault(dt, v) != v:
+            raise ValueError(f"LME baseline: conflicting stock values for {dt.date()}")
+    if not by_date:
+        raise ValueError(f"LME baseline: no rows across years {fetched_years}")
+    latest_dt = max(by_date)
+    age_days = (datetime.now() - latest_dt).days
+    if age_days > LME_BASELINE_MAX_AGE_DAYS:
+        raise ValueError(f"LME baseline: newest row {latest_dt.date()} is {age_days} days old")
     cutoff = latest_dt.timestamp() - 730 * 86400
-    window = [v for dt, _, v in combined if dt.timestamp() >= cutoff]
+    window = [v for dt, v in sorted(by_date.items()) if dt.timestamp() >= cutoff]
+    if len(window) < LME_BASELINE_MIN_OBS:
+        raise ValueError(f"LME baseline: only {len(window)} unique obs in the 2yr window "
+                         f"across years {fetched_years}")
     return statistics.median(window), len(window), latest_dt
 
 
