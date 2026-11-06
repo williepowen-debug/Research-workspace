@@ -2233,3 +2233,4 @@ date	desk	tier	touch	trigger	drained	delivered	zero_capital	notes	brief_defects	
 2026-11-06	SHADE	TOUCH	2-RECEIPT	turn receipt 15:43 ET		PROME/inbox/processed/2026-11-06_from-SHADE_L185-drain-AI-cards-receipt.md	OK	PROME prome-51; closeout ask sent				
 2026-11-06	BROCK	TOUCH	7-RECEIPT	deep-dive receipt 15:45 ET		PROME/inbox/processed/2026-11-06_from-BROCK_iren-mackenzie-deep-dive-receipt.md	OK	PROME prome-51; closeout ask sent; CATALYSTS rows authorized				
 2026-11-06	SHADE	TOUCH	3-CLOSEOUT-RELEASE	closeout ask 15:43 ET		PROME/inbox/processed/2026-11-06_from-SHADE_closeout-receipt.md	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	BROCK	TOUCH	8-CLOSEOUT-RELEASE	closeout ask 15:45 ET		message receipt, HEAD b535df5adc	OK	PROME prome-51; ASKED then receipt by message; three IREN wake rows registered				
