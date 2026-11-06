@@ -883,3 +883,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T16:48:10-05:00	SAM-2026-11-06-softbank-leverage-correction	acted	INBOX_GENERAL	Same replacement as WALTER 041, applied at STATUS and ML-HEN-200.
 2026-11-06T16:48:10-05:00	ISHM-2026-11-06-october-final-and-parker	noted	INBOX_GENERAL	S&P October final 54.9, Parker orders firm with Filtration Group in backlog and EPS raise. Cycle not called; price read not run, session closing.
 2026-11-06T17:17:02-05:00	SIG-W-20261106-042	noted	INBOX_WALTER	Oracle CDS correction: 3.25% traded 10/20, not 11/6 so far; 288 a vendor close on another basis. My 305bp [11/5] holds; no 3.25%, 288 or record claim on my surfaces. COR-20261106-42 receipted NO-OP.
+2026-11-06T18:36:39-05:00	SIG-W-20261106-047	noted	INBOX_WALTER	Qeshm reports, attacker unnamed, direction open, FALCON grades. Oil and equities shut until Sunday evening. No read taken.
+2026-11-06T18:36:39-05:00	SIG-W-20261106-049	noted	INBOX_WALTER	Michigan prelim 51.0, year-ahead 4.3, long-run 3.4; interviews ended 11/2. CARL owns the read. Logged ML-HEN-207 on combo:risk-off-bid-vs-hike-path.
+2026-11-06T18:37:57-05:00	SIG-W-20261106-053	noted	INBOX_WALTER	Corrects the odds line of card 047, 31.5 was a low, retraced to 48.0. Never carried here, COR-20261106-53 NO-OP. File left in the lane: WALTER had not committed it, git mv at next boot.

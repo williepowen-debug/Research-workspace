@@ -17,6 +17,8 @@
 | MARKET_DATA | 11/6 row added; 10/23, 10/26, 10/27 backfilled; HY and CCC filled on 10/21, 10/22, 10/28 and re-dated on 10/29, 10/30 |
 | Correction of my own | SPX under its 50-day is the sixth straight close; my 11/5 line said second |
 | Inbox | WALTER 042 noted, COR-20261106-42 NO-OP. Inbox and WALTER lane empty at 17:1x ET |
+| Closeout 18:3x ET, Will via PROME | WALTER 047 (Qeshm reports, FALCON grades), 053 (corrects 047's odds line, never carried here, COR-20261106-53 NO-OP) and 049 (Michigan preliminary, CARL owns) noted, ML-HEN-207 logged. `STATUS.md` rotated verbatim to 22.8 KB. Card 053 stays in the WALTER lane file-wise: WALTER had not committed it, so it moves at next boot |
+| Withdrawn 7,500 wall, consumer check | Scoped run: 6 hits, all dated history or PROME's plan-read line from before the withdrawal. No packet owed |
 
 ## GAPS / still pending
 
@@ -27,10 +29,12 @@
 - Member breadth not rerun, so "narrow" rests on RSP, Dow and IWM. 35d profile not re-run at the close.
 - Operating Dashboard not refreshed, outside this bounded wake; breadth and options volume still unrun. Fleet consumer sweep timed out at boot; a scoped run found 30 candidates, zero certified stale.
 - Pull refused on other desks' dirty files at 17:12 ET.
+- `PUBLISHED.tsv`: `put_wall` now resolves to 7,600 [11/5], withheld that day and broken at the close, because the ledger has no row meaning none published. Read the WITHHELD row; the tool fix is unbuilt.
+- Weekend gap: the Qeshm reports came after the US close and neither oil nor equities have traded them; FALCON owns the grade.
 
 ## COMMITS
 
-`git log --since=2026-11-06 -- AGENTS/HENRY`; this close commit carries the subject "HENRY: refreshed through the 11/6 close".
+`git log --since=2026-11-06 -- AGENTS/HENRY`; close refresh `bffb341209`, packet `9de4cf8b29`, morning wall rows `a135ad8d88`; this closeout carries the subject "HENRY: closeout 11/6, WALTER 047 and 049 consumed, STATUS rotated".
 
 ## NEXT SESSION FOLLOW-UP
 

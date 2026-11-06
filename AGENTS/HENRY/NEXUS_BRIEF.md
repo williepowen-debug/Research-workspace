@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-11-06 17:1x ET, close refresh via PROME: 11/6 close, map re-published, thresholds re-based. Earlier folds 16:4x, 15:3x and 10:2x ET. 11/6 figures are closes unless stamped; VIX 11/6 is vendor, unconfirmed; HY 11/6 lands about 10:10 ET Monday.
+**Owner fold:** 2026-11-06 18:3x ET, closeout via PROME: figures unchanged from the 17:1x ET close refresh. Earlier folds 17:1x, 16:4x, 15:3x and 10:2x ET. 11/6 figures are closes unless stamped; VIX 11/6 is vendor, unconfirmed; HY 11/6 lands about 10:10 ET Monday.
 
 **View:** October payrolls beat and moved rates, not stocks. BLS first print +165K vs consensus +65K (Reuters), U-3 4.1%, Aug and Sep +84K revised. SPX closed +0.31% at 7,376.86, level with its open and 7.31 points over the low; high 7,444.20. Chips held a bounce (SMH +3.62%, about 29% of the 11/5 loss) against RSP −0.38% and Dow −0.46%; IWM +0.99% cuts against a chips-only read. KRE −0.15% with the 2Y +5bp: the rate-or-credit discriminator read flat, no call. Dealer gamma stays NEGATIVE on all three chains. **HEN-59 NOT FIRED, expectation MISSED.** LABOR: freeze-thaw v2 FIRED, cleared its +150K bar by 15K (BLS USDL-26-1632).
 
@@ -14,6 +14,7 @@
 - **Credit (FRED 11/5, first published):** HY **348bp YELLOW, +16bp, the 2026 high, highest since 5/9/2025** · BB 213 (+14) · CCC 1,320 (+23) · CCC−BB 1,107 · IG 93. Broad repricing, not a tail event, modest for the equity fall; LIQUID tiers BROADENS, funding did not move. A new high is not a peak: no bottom call under the Credit-Primary Rule.
 - **December hike (15:00 ET 11/6, fed funds futures, own calc, vendor last trade, one tick 2.8 points):** 76%, unchanged at the 16:45 ET last, vs 82% on 11/4 and 65% on 11/5. December came back, not the path, and part of it came before the print (73% at 08:25 ET; ORACLE packet 11/6): December regained 2.0 of 3.0bp, June 2027 3.0 of 14.0bp; peak +46bp vs +57.5bp. Growth scares take hikes out and cushion stocks; an inflation print adds hikes and does not. CPI 11/10 is the last CPI before 12/9. ORACLE odds log 20:26Z: Polymarket 77.5, Kalshi 78.0. BOND carries the rest.
 - **New forecasts:** HEN-60 SPX closes under its 200-day by 11/30, 0.50. HEN-61 record close by 12/31, 0.28. HEN-62 2Y par over 4.60 by 11/30, 0.60. HEN-63 hike at 12/9, 0.70.
+- **After the close, unpriced:** Iranian media report two projectiles at Qeshm, attacker unnamed, direction open, FALCON grades (WALTER 047). Oil and equities shut until Sunday evening.
 - **Next:** CPI 11/10, PPI 11/13, Nvidia 11/17 after the close. Row 9 collapse leg ruled (WQ-635 A): HENRY grades it at the 11/18 close against CYPHER's letter.
 
 No threshold level, band, trade or gate changed; state words moved on the close: VIX ORANGE to YELLOW, 30Y YELLOW to ORANGE. No Will decision needed from this desk.
