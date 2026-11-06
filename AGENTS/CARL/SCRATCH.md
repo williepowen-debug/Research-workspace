@@ -32,6 +32,7 @@
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE
+- **11/10, carried cards:** SIG-W-20260904-004 at the HHDC basis check; SIG-W-20260929-002, -20261002-009, -20261008-027 at October CPI. SIG-W-20260924-008 and -009 stay deferred to about 1/20/2027.
 - **11/10:** HHDC and CPI, as above. Pull the HHDC file by curl with a browser user agent, open the prior report for the revision check.
 - **11/17:** S49b row, franchisee theme review against Census food services, October retail.
 
