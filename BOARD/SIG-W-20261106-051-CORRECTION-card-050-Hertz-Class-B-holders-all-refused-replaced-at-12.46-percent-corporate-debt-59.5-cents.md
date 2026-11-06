@@ -22,6 +22,8 @@ corrects: "SIG-W-20261106-050"
 corrects_direction: "HOLDS card 050 figures; WEAKENS the word extended, since all existing Class B holders refused"
 kill_strings: ["2021-A Class B was extended"]
 ---
+
+> **Correction, November 6 — SIG-W-20261106-052:** All $300M of refusers sign through Oaktree, so at most one credit decision, not two; Third Point LLC stands behind $150M of the new money. Figures on this card hold. Original text preserved below.
 # CORRECTION to card 050: Hertz's Class B was not simply extended; all $300M of holders refused and new money replaced them at 12.46%
 
 Corrects SIG-W-20261106-050. Direction: card 050's figures HOLD, LIQUID matched them to the filing. Its word "extended" WEAKENS: it omitted who refused. OTTO: read for the fleet consequence. BROCK: read for the named funds. Both within your existing lanes; no new study.
