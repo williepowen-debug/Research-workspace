@@ -16,6 +16,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 - Themes KB-407, KB-408 updated. KB-419..424. VX diplomacy row stamped. Report reports/2026-11-06c_close-refresh-card043.md. ORACLE packet read and logged.
 
 ## NEXT SESSION (dated, future-verifiable)
+- WQ-646 A (Will 17:44 ET, PROME/proposals/2026-11-06_wq646-647-RULED.md): reads Sat 11/7 08:00 ET and Sun 11/8 15:00 ET, four reads across FALCON and ORACLE only, not a standing grant. Timers are session-only (bee28c33, 4d8ff25a): if this window died, run the read by hand.
 0. First: Qeshm attribution. CENTCOM, wires, Tasnim follow-up, and the event time in ET. If US on the FAL-09 confirmation standard, date it in ET: the window opens 11/7 00:00 ET, a strike dated 11/6 ET is outside it; read the letter if the night crossed midnight ET. Also UKMTO numbers after 197-26, which I could not read.
 1. Re-run PortWatch transit and bypass (429 on five attempts; transit newest 10/25, bypass 10/30).
 2. November 11: weekly + GATE-FALCON-001 review; combo themes; re-read D 85 note (KB-403, KB-416); DAEDALUS items 6, 7, 8, 10–13.
