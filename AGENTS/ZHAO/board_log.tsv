@@ -57,3 +57,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T16:16:00Z	SIG-W-20261105-037	acted	INBOX_WALTER	ABB block verified and upgraded; OPay headline retained. KB-ZHAO-228, 230.
 2026-11-06T16:16:00Z	SIG-W-20261105-050	acted	INBOX_WALTER	Yttrium to Japan weak source retained, unverified. KB-ZHAO-232.
 2026-11-06T16:16:00Z	SIG-W-20261106-003	info-only	INBOX_WALTER	Japan selloff; SoftBank scope sharpened to the China business. KB-ZHAO-228, 234.
+2026-11-06T21:48:00Z	SIG-W-20261106-030	info-only	INBOX_WALTER	OpenAI round terms, VULCAN and SAM own. No ZHAO score moved.
+2026-11-06T21:48:00Z	SIG-W-20261106-036	info-only	INBOX_WALTER	SoftBank leverage, superseded by 041, SAM owns. No ZHAO score moved.
+2026-11-06T21:48:00Z	SIG-W-20261106-041	acted	INBOX_WALTER	ABB scope from SoftBank notice via WALTER. KB-ZHAO-236.

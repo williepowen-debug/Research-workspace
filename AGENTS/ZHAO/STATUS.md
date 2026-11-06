@@ -1,7 +1,7 @@
 # ZHAO STATUS
 
-**Updated:** 2026-11-06 11:18 ET (by `date`) — **Session zhao-7b, PROME prome-51 assignment on Will's go-ahead 11:05 ET: L802 graded, 11/10 clocks prepared, inbox 11/11 drained, WQ-622 themes logged, ZHA-22..25 registered** (KB-224..235). Prior: 2026-11-02 08:52 ET.
-📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **China's 11/10 clock is the only one still open.** The US filed: BIS stayed the Affiliates Rule to 1/10 (FR 2026-22793, KB-225). MOFCOM has not (KB-226); **ZHA-20 85%.** ② **October activity fell back under 50:** mfg 49.3, composite 49.7, construction new orders 40.0 ⇒ **V5 4→5, total 29** (KB-227). ③ **NPCSC closed with no fiscal figure,** ZHA-21 NO (KB-224). ④ China's security review prohibited SoftBank's ABB Robotics deal in China (B2, KB-228). ⑤ HK backed off the weak edge (7.84), no HKMA activity, spread −135.9bp YELLOW.
+**Updated:** 2026-11-06 16:49 ET (by `date`) — **Session zhao-7b closed for Will's fresh-context reboot (his word 16:46 ET via PROME).** Today: L802 graded, 11/10 clocks prepared, inbox 11/11 drained plus 3 late cards, WQ-622 themes logged, ZHA-22..25 registered (KB-224..236). Prior: 2026-11-06 11:18 ET.
+📌 **THIS WEEK, IN ORDER OF WHAT MATTERS:** ① **China's 11/10 clock is the only one still open.** The US filed: BIS stayed the Affiliates Rule to 1/10 (FR 2026-22793, KB-225). MOFCOM has not (KB-226); **ZHA-20 85%.** ② **October activity fell back under 50:** mfg 49.3, composite 49.7, construction new orders 40.0 ⇒ **V5 4→5, total 29** (KB-227). ③ **NPCSC closed with no fiscal figure,** ZHA-21 NO (KB-224). ④ China's security review prohibited SoftBank's ABB Robotics deal in China, the China business only (KB-228, 236). ⑤ HK backed off the weak edge (7.84), no HKMA activity, spread −135.9bp YELLOW.
 🧊 **Header lines + bottom lines through 11/02 moved VERBATIM → `archive/STATUS_COLD_20261106.md` §ⓐ–ⓖ** (earlier → `…_20261029.md`, `…_20261022.md`).
 **Overall Status:** 🟠 ELEVATED — **29/60** (+1 on 11/06, V5; two-sided shadow 32). **August TIC: China $590.7B; LT −$4.8B, a third month of selling at half the prior pace; 6-month net −$71.5B.** Thesis kill re-specified 10/29 (Belgium leg retired → China flow leg F). Proxy falsified (rho +0.067, n=43); rotation refuted three times.
 
@@ -20,6 +20,16 @@
 | China (separate) | 公告2024年第46号 clause 2 | 11/27 | 🟠 B2, content UNVERIFIED (KB-185) |
 
 ⚠️ **MOFCOM list: read `mofcom.gov.cn/zwgk/zcfb` via the unit API. `/zcfb/index.html` froze at 10/26**, so 11/02's "newest is 第52号" could not see later rows (KB-221 corrected, no conclusion changed). Run book, branch table, WATT T1/T2 state: `reports/2026-11-06_PREP_11-10-clocks.md`. ⛔ DO-NOT-MERGE: the US stay is not evidence China extended. Next: **L482 Mon 11/9**, then ZHA-19 and the Beijing read for ZHA-20 at 11/10 to 11/11.
+
+---
+
+## ▶️ RESUME NOTES (closeout 2026-11-06 16:49 ET)
+
+No job running. **Clocks were last read at 17:27 Beijing on 11/06 and were NOT re-read at closeout; re-read before citing.**
+- **Mon 11/9, L482 MUST-RUN:** FR issue carries 2026-22793? USTR ships final (suspension ends 23:59 ET)? MOFCOM live list via the unit API. Run book: `reports/2026-11-06_PREP_11-10-clocks.md`.
+- **Tue 11/10:** grade ZHA-19 on the 11/10 record. MOFCOM 公告70 reads to this date.
+- **Wed 11/11:** read ZHA-20 at the Beijing 11/10 close, send WATT its notice the same session on either branch.
+- **Needs Will's word in this window, not a peer's:** two lines in `CLAUDE.md`: the WQ-622 line, and NEXUS's B24 change at `CLAUDE.md:37`. Together they must fit 290 B of cap room. `inbox/2026-11-06_from-NEXUS_brief-pin-B24-decision.md` stays queued until then; DAEDALUS gets the applied commit after. Brief token (step 1) is in.
 
 ---
 
@@ -127,7 +137,7 @@
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 (B2) · then ZHA-23 Mon Nov 30, ZHA-24/25 to 12/31 | 🟠 |
 | Wed Nov 18 | **September TIC** (Treasury-confirmed) — Q3 anchor total; Aug residual revision? | 🔴 |
 
-> 🔴 **THE NOVEMBER WINDOW — TWO LIVE CLOCKS ON 11/10 + ONE ON 11/27 (corrected 9/25).** **Tue 11/10 US:** BIS Affiliates Rule reimposed effective (≥50% aggregate ownership, zero new listings). **Tue 11/10 CHINA:** 公告70 expires — six announcements incl. **Li-battery/LFP cathode/graphite anode (公告58) — WATT's triggered channel keys on the MOFCOM instrument, not the date** (`reports/2026-09-25_WATT_TRIGGER_WORDING_gonggao58.md`). **Fri 11/27 CHINA:** 公告2024年第46号 clause 2 (B2). ⛔ ~~US IEEPA reciprocal lapse~~ **VOID since 2/24/2026.** Full verbatim prior → COLD_20260925 §ⓒ.
+*(The old November-window paragraph, overtaken on its US leg by the 11/05 stay, moved VERBATIM → `archive/STATUS_COLD_20261106.md` §ⓗ. WATT's channel keys on the MOFCOM instrument, not the date.)*
 
 ## PREDICTIONS (status Nov 6)
 
@@ -160,7 +170,7 @@
 6. 🟠 **PBOC central-parity SERIES** — ✅ first primary read 10/29 (CFETS via Xinhua: 6.7147 vs market 6.6607, KB-212); still owed: a series from `chinamoney.com.cn`, since **the gap between fix and market IS the signal** and one day is not a series.
 7. ✅ **DONE 10/29 — Belgium kill-leg retired, China flow leg F registered** (KB-219).
 8. ✅ **Sep reserves/gold/trade/CPI/PPI backfilled 10/29 (KB-217)** — still owed: GACC tables (primary), Jul/Aug reserves, Sep credit + activity data. **Rest of the sweep's list → `reports/2026-10-29_DESK_SWEEP.md`** (Belgium kill-leg re-spec **6 days late**; V6/9 two-way re-spec; ZHA-05 lapsed window; DAEDALUS D3/D4/D7–D12; CLAUDE.md 25 B from cap).
-9. 🟠 **Owed from 11/06:** V5b rescore on the October cluster · **WQ-622 charter line NOT added** (root guard: no CLAUDE.md edit on a peer's request; awaits Will's word in this window; 290 B of cap room) · DAEDALUS B24 brief-pin waits on NEXUS, then `CLAUDE.md:37` and the brief · read ABB's own text · Vector 8 4→5 question · rural NPL base rate → ZHA-05 successor · ZHA-10 `Date_Made` defect. History → COLD_20261106 §ⓕ-2.
+9. 🟠 **Owed from 11/06:** V5b rescore on the October cluster · **WQ-622 charter line NOT added** (root guard: no CLAUDE.md edit on a peer's request; awaits Will's word in this window; 290 B of cap room) · DAEDALUS B24: NEXUS ruled, brief token in, `CLAUDE.md:37` awaits Will's word · read SoftBank's and ABB's own text (KB-236 is WALTER's read) · Vector 8 4→5 question · rural NPL base rate → ZHA-05 successor · ZHA-10 `Date_Made` defect. History → COLD_20261106 §ⓕ-2.
 10. 🟡 **US-China ag channel unmeasured** (KB-170) · **Korea's two unverified caveats** since 8/3 · ~~CLAUDE.md re-key~~ (landed 9/17 `c6ac32e81`, per DAEDALUS 10/14) · DAEDALUS 10/14 fix-list items 3–7, 9, 10 OWED (maintenance spawn) · **ZHA-10 `Date_Made` defect** · **HK $9.33B June UST sale unlogged** (KB-140).
 11. 🟡 **HK peg watch (new 10/29, KB-216):** USD/HKD 7.846 at the 7.85 weak edge, HIBOR-SOFR YELLOW. Tell = HKMA `market_activities` ≠ +0 / Aggregate Balance falling ⇒ rescore Vector 7, route LIQUID+PROME. Check at each boot (HKMA API, ~1 call).
 12. 🟠 **`VX` row owed for the Chinese clock** — `FLOW-15` exists, no vector tracks it. ⛔ next free id (8.01 is FROZEN).
