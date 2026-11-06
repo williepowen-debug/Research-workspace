@@ -42,4 +42,4 @@ FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will d
 Inbox 0, WALTER lane 0; cards 043, 047, 048 and ORACLE's packet consumed. COR-20261106-48 receipted APPLIED. Packets sent to BRENT, WALTER, ORACLE. No PROME packet: no figure others cite moved.
 
 ## PENDING PUSH / GIT
-See the closing message to prome-51 for the safe-push receipt.
+All pushed through safe-push at Will's 18:33 ET closeout word via prome-51. No theater search after about 22:31Z (17:31 ET): marks are as of that cutoff, not as of closeout. Window stays open for the two WQ-646 reads.
