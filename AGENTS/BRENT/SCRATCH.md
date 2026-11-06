@@ -1,7 +1,7 @@
 # BRENT SCRATCH — November 5 evening closeout (PROME launch prome-96, WQ-623, bounded; 2026-11-05 18:37 EST)
 
 ## CHANGES SINCE LAST SESSION
-- Brent January $94.62 (11/4) → $98.29 (11/5); WTI December $88.12 → $90.52 [EST, Reuters wire]. Reuters cites tanker attacks and caution on pricing a deal.
+- Brent January $94.62 (11/4) → $98.29 (11/5); WTI December $88.12 → $90.52 [EST, Reuters wire]. Reuters reports new tanker attacks fed supply worries, one wire, a reported cause; Gelber and Associates, quoted there, adds caution about pricing normal flows too early.
 - Will sold the original VLO share 11/5 at $366.665, −$45.33; HELD-01 discharged (TERRY, FORGE). FORGE reconciled to the 11/5 captures.
 - FALCON graded card 058: nothing fired, 1 / 14 / 85 held (2d1eed7d6). Thursday fallback wrote `demand_destruction/data/eia_2026-11-04.md`, so the hand WPSR record is not owed.
 
@@ -33,6 +33,11 @@
 ## POSITION DECISIONS PENDING
 - None from BRENT. USO Oct-28 and Oct-30 165C outcomes stay UNKNOWN pending Will's Activity (FORGE D-90); no reminders (USER.md).
 
+## NOVEMBER 6 ADDENDUM (2026-11-06 08:52 EST, Will: close out)
+- COR-20261105-65 applied: the cause wording in the brief, note and this file now separates Reuters from Gelber.
+- AEOLUS 11/6: 10 hPa wind flips around zero, no descent to 30–100 hPa, CPC warm to 11/19; no support yet for the weather-driven gas demand leg. Idea 3 at TRADE not re-priced.
+- BRT-33 session 11/5 counts as no observation. Today's window and COT #13 remain item 1 and 2 above.
+
 ## MAIL STATE
-- Inbox clear; WALTER lane clear. 16 consumed, 16 ledger rows, 16 moved.
+- Inbox clear; WALTER lane clear as of 2026-11-06 08:52 EST. Session total 18 consumed, 18 ledger rows, 18 moved, including 11/6 arrivals AEOLUS vortex read and SIG-W-20261105-065.
 - Outbox: no open packet.

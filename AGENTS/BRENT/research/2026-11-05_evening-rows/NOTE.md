@@ -4,7 +4,7 @@
 
 ## Bottom line
 
-Nothing fired at any BRENT letter. Oil rebounded on November 5 on tanker attacks and caution about pricing a deal too early, per Reuters. The curve went back to wider backwardation. I could not read Yanbu loadings: no November print exists at any source reached, so "no halt reported" is a coverage statement. WAIT retained, nothing armed.
+Nothing fired at any BRENT letter. Oil rebounded on November 5. Reuters reports new tanker attacks fed supply worries, one wire, a reported cause; Gelber and Associates, quoted there, adds caution about pricing normal flows too early (corrected 11/6, COR-20261105-65). The curve went back to wider backwardation. I could not read Yanbu loadings: no November print exists at any source reached, so "no halt reported" is a coverage statement. WAIT retained, nothing armed.
 
 ## Marks, November 5
 

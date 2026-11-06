@@ -784,3 +784,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T18:35:51-05:00	SIG-W-20261105-058	acted	INBOX_WALTER	BG-02 NOT MET; flow read NOT MEASURABLE; no INCIDENTS row. combo:yanbu-bypass. NOTE.md.
 2026-11-05T18:35:51-05:00	SIG-W-20261105-060	acted	INBOX_WALTER	combo:diesel-buffer. Russian feedstock ban unverified, one search; diesel to US quotas per Baird sources. Non-energy items not BRENT.
 2026-11-05T18:35:51-05:00	SIG-W-20261105-062	noted	INBOX_WALTER	Correction COR-20261105-62 receipted NO-OP: BRENT holds no Abrigo figure.
+2026-11-06T08:52:47-05:00	2026-11-06_from-AEOLUS_vortex-persistence-descent-read	noted	INBOX	No descent below 10 hPa, CPC warm to 11/19. Gas demand leg unsupported yet; NOT-FIRED idea 3 not re-priced.
+2026-11-06T08:52:47-05:00	SIG-W-20261105-065	acted	INBOX_WALTER	Correction COR-20261105-65 applied to NEXUS_BRIEF, SCRATCH and evening NOTE: cause wording separates Reuters from Gelber. Marks unchanged.
