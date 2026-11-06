@@ -3,7 +3,7 @@
 **Status:** 🔴 11/05 close confirmed at Cboe History, row SETTLE: VIX 28.18, VIX3M/VIX 0.9067 FIRED, VVIX 134.99 FIRED, VIX 30 NOT FIRED, RISING_VOL. 5-day row MET on its letter: HY first-published 326 to 348bp, +22 against +25. ⚠️ Flat is the letter, not calm credit: 348 is the widest print since 353bp [5/9/2025].
 **Domain:** Volatility term structure, tail pricing and credit-to-vol timing.
 **Thesis version:** v4.1.9; credit-flat row defined, MOVE pause/resume retired (KB-VIO-377, KB-VIO-378). No live gate moved.
-**As of:** 2026-11-06 10:30 ET | **STATUS commit:** `5b641d5fe`.
+**As of:** 2026-11-06 10:32 ET | **STATUS commit:** `01e44a3f5`.
 Official History closes through 11/05; 11/06 is intraday only. Canonical numbers: [STATUS](STATUS.md). **Convergence 38/50**, unchanged on 11/06 (KB-VIO-379).
 
 ## CROSS-DOMAIN
@@ -32,7 +32,7 @@ Official History closes through 11/05; 11/06 is intraday only. Canonical numbers
 
 **BOND — MOVE:** 97.92 [11/05], 93.88 [11/04], 100.36 [11/02]. The 90.8–90.9 print tagged 11/04 on `fetch.py` is a later undated print, not the close.
 
-**PROME:** delivered, `PROME/inbox/2026-11-06_from-VIOLET_L976-history-credit-flat-forecasts.md`. Both Will-facing pages still show HY 332bp; not republished in this wake.
+**PROME:** delivered, `PROME/inbox/2026-11-06_from-VIOLET_L976-history-credit-flat-forecasts.md`. L976 RESOLVED by PROME. Both Will-facing pages still show HY 332bp; carried on the resume list with the payrolls surface read.
 
 ## CALIBRATION
 
