@@ -71,7 +71,7 @@
 
 ## RECENTLY DONE (rolls off ~7d)
 
-| **634 — floor for LABOR's three stood-down lines** | Done 2026-11-06 14:05 ET — RULED A | RULED A — Will in PROME's chat, verbatim *"634-A"*. Record PROME/proposals/2026-11-06_wq627-628-629-634-RULED.md. Three lines at the floor of 1, score 27 to 22 of 80. Long-term unemployment worsened to 27.6%, overridden not refuted; no re-arm rule exists. |
+| **634 — floor for LABOR's three stood-down lines** | Done 2026-11-06 14:05 ET — RULED A | RULED A — Will in PROME's chat, verbatim *"634-A"*. Record PROME/proposals/2026-11-06_wq627-628-629-634-RULED.md. Three lines at the floor of 1, score 27 to 22 of 80. Long-term unemployment worsened to 27.6%, overridden not refuted; no re-arm rule exists. Marked by LABOR 220047d36e. |
 | **627 — redraw VX-CRU-05** | Done 2026-11-06 14:05 ET — RULED A | RULED A — Will in PROME's chat, verbatim *"627-A"*. Record PROME/proposals/2026-11-06_wq627-628-629-634-RULED.md. CRUISE drafts leverage and deposit cells, back to him before they count; RED(4) holds until then. |
 | **628 — Norwegian Cruise Line bear read** | Done 2026-11-06 14:05 ET — RULED A | RULED A — Will in PROME's chat, verbatim *"628-A"*. Record PROME/proposals/2026-11-06_wq627-628-629-634-RULED.md. Conviction 3 to 2, stays WATCH / NO CARD; CRUISE encodes. |
 | **629 — correcting note on GATE-FERT-G3** | Done 2026-11-06 14:05 ET — RULED A | RULED A — Will in PROME's chat, verbatim *"629 A"*. Record PROME/proposals/2026-11-06_wq627-628-629-634-RULED.md. FERT's note placed in the gate's condition cell; level and operator unchanged, not fired. |
