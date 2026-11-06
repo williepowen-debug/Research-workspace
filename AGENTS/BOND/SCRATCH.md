@@ -30,10 +30,14 @@ No score, band, gate or threshold. Held on letter: VX-BND-02, 03, 06, 07, 11, 15
 
 L226 FHLB retune waits on 11/13. 7Y reopening handling before April 2027. Same-day runner re-run reads its own transcript (leftover, bring with R1, R5). True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED. No primary Fed speaker read: the Fed's speech feed has nothing current. BLS 403 here, so 12/10 November CPI rests on RED's docket row and HENRY.
 
+## CLOSEOUT STEPS (heavy, charter changed)
+
+C1 STATUS done · C2 KB 547–557, VX text refresh, six past-due rows flipped STALE, FLOW no-op · C3 none due, none registered · C4 THESIS evidence lines only, no version bump, token unchanged · C5 fired 11/6 row pruned, 11/9 ICE row added, CUSIPs added · C6 TRADE rates and credit lines, no gate change · C7 this file · C8 RECEIPT, board_log done · C9 two BOND-only bullets in MEMORY.md, no fleet memory written · C10 boot 7 line added, CLOSEOUT.md and file table need no change · C11 NEXUS last.
+
 ## POSITION
 
 FLAT on this thesis. BOND executes nothing; no expiry reminders.
 
 ## MAIL / DELIVERY
 
-Inbox empty at writing. Receipt packet `PROME/inbox/2026-11-06_from-BOND_october-payrolls-rates-read.md`. Waiting for PROME's closeout ask; closeout not yet run, push not yet done.
+Inbox empty at writing. Receipt packet `PROME/inbox/2026-11-06_from-BOND_october-payrolls-rates-read.md` filed by PROME. PROME's closeout ask received 16:01 ET; closeout receipt packet follows the push.

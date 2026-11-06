@@ -1,6 +1,6 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-06 16:00 ET, PROME assignment on Will's 15:24 ET word (Claude Code `claude-opus-5-5`): inbox and WALTER cards drained, October payrolls rates read written, no score, band, gate or threshold moved. **Last real data refresh: 2026-11-06.**
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-06 16:02 ET, PROME assignment on Will's 15:24 ET word (Claude Code `claude-opus-5-5`): inbox and WALTER cards drained, October payrolls rates read written, no score, band, gate or threshold moved. **Last real data refresh: 2026-11-06.**
 
 Frontiers: Treasury nominal/real **11/6** · ICE credit via FRED **11/5** · NY Fed repo **11/5** · FR2004 as-of **10/28** · ACM **11/5** · KW **10/30** · PMMS **11/5** · Bund **11/5** · TreasuryDirect auctions through **10/29**. Evidence: `analysis/2026-11-06_nfp/READ.md` and raw manifest.
 
