@@ -20,7 +20,7 @@ word_count: 111
 dispatch_note: "FALCON message. WALTER picked the one precedent found; a benign-only list tilted the card."
 corrects: "SIG-W-20261106-023"
 corrects_direction: "WEAKENS \u2014 benign-only framing withdrawn; cause still unknown"
-kill_strings: []
+kill_strings: ["NONE — framing correction, no literal phrase to kill"]
 ---
 # CORRECTION to card 023: the benign precedent was one-sided; FALCON grades the Osprey NOT ESTABLISHED
 
