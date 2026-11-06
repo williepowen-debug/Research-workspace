@@ -2087,3 +2087,4 @@ Date	Signal_ID	Origin	Summary	Precedence	To	Info	Confidence
 2026-11-06T16:34:00Z	SIG-W-20261106-025	WALTER bookmarks at Will request	Europe: second wave of flight bomb threats, 20 to 27 flights November 5, hoaxes so far, no explosives found	PRIORITY	HANS	HAWK,YURI,RED,PROME	0.75
 2026-11-06T16:34:00Z	SIG-W-20261106-026	WALTER bookmarks at Will request	Small items for owner logs, November 6 midday: none moves a score	ROUTINE		VULCAN,BROCK,CREED,REGINALD,CYPHER	0.55
 2026-11-06T16:36:10Z	SIG-W-20261106-027	WALTER FALCON message	CORRECTION to card 023: the benign precedent was one-sided; FALCON grades the Osprey NOT ESTABLISHED	PRIORITY		FALCON,BRENT,HAWK,RED,PROME	0.6
+2026-11-06T16:44:34Z	SIG-W-20261106-028	WALTER inbox recheck	BRENT on card 022: distillate cover 23.8 days, lowest late-October reading since 1991; the post's percentages hold	PRIORITY		HAWK,CARL,HENRY,RED,PROME	0.9
