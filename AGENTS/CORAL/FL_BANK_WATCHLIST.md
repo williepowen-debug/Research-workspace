@@ -10,7 +10,9 @@
 
 ---
 
-## Q3 2026 PRINT WINDOW (8-Ks 10/21–10/27) — 10-Qs ~11/14 · refreshed 2026-10-29 19:53 ET
+## Q3 2026 PRINT WINDOW (8-Ks 10/21–10/27; 10-Qs 10/30–11/06) · refreshed 2026-11-06
+
+**11/06 update (read this first; the table below is the 10/29 8-K state):** all seven 10-Qs filed and read at SEC. Zero association-loan disclosure. REGINALD: SBCF, SSB, AMTB final HOLDS. BKU primary cell over its bar on its face, REGINALD grades (CRE 60-89 $21.321M vs $0; modified loans; location undisclosed). USCB Condo commercial $66.252M clean; NPL 0.33% vs 0.14% at 12/31/25. BKU HOA deposits $2.4B. Avidia 10-Q waits. Evidence `STATUS_DETAIL.md` § AB2.
 
 **Frame:** REGINALD's frozen FL frame (9/24), four names. **Cells below are REGINALD's owner-read (STATUS 10/28, CRE-anchor row) — consumed, not re-derived.** The Q2 tracker (7/21–8/3, closed 7-of-7 benign) → `archive/FL_BANK_WATCHLIST_Q2_ROTATED_20261029.md` verbatim.
 
@@ -21,7 +23,7 @@
 | AMTB | ~10/22 AMC | **HOLDS — final** | |
 | SBCF | ~10/27 AMC | HOLDS — pending 10-Q | Criticized + classified **2.90% vs ≥3.20% bar**; NPL **−15%**; AOCI took ~$1.63 TBV/share; VBI-loan reserve $8.4M unexplained (REGINALD) |
 
-**Aggregate: no cell TRANSMITS ⇒ rail NOT met, NOT armed — PROVISIONAL until the 10-Qs (~11/14); none filed at 14:5x ET 10/29 (EDGAR: latest 10-Q = Q2 for all four).** CORAL owes: grep each 10-Q for condo / association disclosure when filed (STATUS row N). Off-frame: VLY 10-Q ~11/10 (modifications, MF buckets — REGINALD); Avidia (AVBC) condo-association repair book 10-Q ~mid-Nov (baseline $494.3M, 100% current at 6/30); USCB / CCBG not graded this cycle. Isaias exposure: watchlist outside the landfall zone (CCBG 1.68%, SSB 0.32% of deposits in the 5 warning counties; FDIC SOD 6/30/26). Prices → STATUS (never here).
+**Aggregate: no cell TRANSMITS ⇒ rail NOT met, NOT armed — PROVISIONAL until the 10-Qs (10/29 state; 11/06 update above).** Grep done 11/06. Off-frame: VLY 10-Q ~11/10 (modifications, MF buckets — REGINALD); Avidia (AVBC) condo-association repair book 10-Q ~mid-Nov (baseline $494.3M, 100% current at 6/30); USCB / CCBG not graded this cycle. Isaias exposure: watchlist outside the landfall zone (CCBG 1.68%, SSB 0.32% of deposits in the 5 warning counties; FDIC SOD 6/30/26). Prices → STATUS (never here).
 
 ## Watchlist (Q1 2026 levels — historical; Q3 cells above)
 

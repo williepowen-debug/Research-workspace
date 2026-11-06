@@ -1,11 +1,21 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3: REGINALD 10/28 — every read 8-K cell HOLDS at BKU/SSB/AMTB/SBCF; aggregate PROVISIONAL to the 10-Qs ~11/14). Supply-side MSI leg **🟠 since 9/13**; **reading #11 (Parcl data date 10/27, first on the CURRENT series per WQ-475 A) 4-of-5 > 6.00, Cape Coral 5.89 ⇒ re-fire fails, no rule applies.** ⚠️ The current Parcl series revises trailing days between builds (10/20 read Cape Coral 5.88 on 10/21, 5.93 on 10/28) — the first build carrying a data date governs; #10 stands. **Re-fire + level guard (WQ-241, 9/28): re-fire = all five > 6.00, stand-down = same metro < 5.90, 5.90–6.00 policy buffer, ≥10-day persistence.** ⭐ **9/28→10/29: most new data cuts AGAINST acute statewide housing distress; the one measured channel pointing WITH the thesis is bankruptcy (+21.3% YoY to 9/30, 1.256× US, still widening).**
+**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3: three of four frame names final HOLDS; BKU with REGINALD, likely MIXED; aggregate NO TRANSMISSION either way). Supply-side MSI leg **🟠 since 9/13**; reading #12 (11/05) 4-of-5, Cape Coral 5.85, re-fire fails. Next: falsify grade 11/15.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
-**As of:** 2026-10-29 19:54 ET (Thu, coral-1029h housekeeping — read-cap rotation, COVERAGE + watchlist refresh; one row corrected: Citizens 10/23 drop is explained, not open; no content change otherwise) · earlier 15:28 ET (coral-1029c9 C9 commission — Citizens mechanism, OIR primary, county bankruptcy cut added to the pm block; earlier 15:03 ET coral-1029pm, PROME prome-5c catch-up, Will 14:52 ET) · **STATUS commit:** rides the same commit as this brief (`brief_pin_check`; prior STATUS + brief commit `5e85abbed`) · **Refresh:** 10/29 pm block added above the 10/29 am block; the 10/21 L784 block rotated out (verbatim in git history at `5e85abbed`). *(Prior: 2026-10-29 00:16 ET.)*
+**As of:** 2026-11-06 (Fri, coral-ac, PROME prome-51 wake) · STATUS commit: see `git log -1 -- AGENTS/CORAL/STATUS.md` · earlier 10/29 19:54 ET (coral-1029h)
 
 ⚠️ Prior dated blocks (9/13, 8/23) are superseded by the one below; verbatim in git history at `cd8da96a9`. **One 9/13 instruction is RETRACTED: "Parcl listings render a literal 0 with no backing field" — the counts ARE in `__NEXT_DATA__ seo.totalCount/nCutting`; the visible `0` is still a placeholder, but do not repeat "no field exists".**
+
+## ⭐ 2026-11-06 — MSI #12 · SEVEN 10-QS · BKU CELL · DR-4955 CORRECTED · AMENDMENT 3 (no colour moves; evidence `STATUS_DETAIL.md` § AB)
+
+| # | Item (dated, tiered) | For whom · so what |
+|---|---|---|
+| 1 | **Amendment 3 passed, unofficial Yes 61.98%, certified 11/17 (P1).** Local revenue −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring (REC, P1): one estimate, the $4.9B and $12B agree. Amendment 1 (BSF cap) failed 40.9%. "Leaning FAIL" withdrawn | CARL, REGINALD, HOMER — county budgets take this on top of the disaster match; not a realized loss; muni effect UNREAD |
+| 2 | ⛔ **Correction: DR-4955 household aid flagged in all 8 requested counties (OpenFEMA 11/06, P1).** "IA 0/8 · no household aid" withdrawn. FEMA FR notice and cost share still unpublished; HM none | AEOLUS, SHADE, PROME — L784's IA-gap item is gone |
+| 3 | **Seven FL 10-Qs read (P1): zero association-loan disclosure.** BKU CRE 60-89 $21.3M vs $0 over the frame bar on its face, in modified loans, location undisclosed; REGINALD grades; likely MIXED, aggregate NO TRANSMISSION. Avidia 10-Q still waits | REGINALD — not Florida-shown, not condo-shown |
+| 4 | **MSI #12 (11/05, P1):** 4-of-5, Cape Coral 5.85 series low, re-fire fails. First prints have revised up, n=2 | RED, HOMER — one leg; not an all-clear, not bank evidence |
+| 5 | **Rain:** state emergency 14 counties incl. Palm Beach, not Broward (EO 26-228, P1); no loss figure | AEOLUS, SHADE — NFIP and uninsured channel; NFIP ends 12/11 |
 
 ## ⭐ 2026-10-29 pm — L784 PEER CELLS CLOSED · BANKRUPTCY TO 9/30 · CITIZENS 9/30 · FMHPI REVISED · KING TIDE (no colour moves; evidence `STATUS_DETAIL.md` § Y; L784 file § 8)
 
@@ -17,7 +27,7 @@
 | 4 | **FMHPI FL revised (P1):** Jul +1.68% → **+0.74%**; Aug **+1.08%** YoY SA (SF only, conforming) | HOMER, MARCO — constant-quality SF still positive, weaker than carried |
 | 5 | **King tide 10/25–29:** AEOLUS's gauges (Lake Worth record) — CORAL impact read: NWS coastal-flood warnings live (Keys, NE FL), advisories SE FL; **no declaration or damage tally found** | AEOLUS — descriptive coastal datum, not an insured-loss event |
 
-## ⭐ 2026-10-29 — FEMA APPROVED FLORIDA'S ISAIAS DR (PA only) · FHCF OCTOBER $22.26B · MSI #11 (no colour moves; evidence `STATUS_DETAIL.md` § X; L784 file § 7)
+## ⭐ 2026-10-29 — FEMA APPROVED FLORIDA'S ISAIAS DR (read then as PA only; household aid corrected 11/06) · FHCF OCTOBER $22.26B · MSI #11 (no colour moves; evidence `STATUS_DETAIL.md` § X; L784 file § 7)
 
 | # | Item (dated, tiered) | For whom · so what |
 |---|---|---|
@@ -32,7 +42,7 @@
 - **The split is sharpening, not resolving.** Statewide prices and velocity firmed; the bank half keeps curing; but household bankruptcy is accelerating and the SW/Central-FL supply read (MSI) sits at series highs. "Florida real estate is stressed" still does not equal "Florida banks are breaking."
 - **Insurance:** personal/reinsurance easing; organic Citizens exit stalled (the takeout rounds carry the count); commercial/condo-association layer still rising (+10.4% capped). **Landfall arrived 10/9 as a Panhandle Cat 2** — within Citizens' own retention on the arithmetic, outside the condo metros; the reversal test is now the claims data and the 1/1 renewals, not the track.
 - **Demand:** migration −93% domestic from peak, intl −37%; tourism read MARCO-owned — FL airport demand CONFOUNDED by Spirit's liquidation; ⛔ the "MIA clean tell" is WITHDRAWN (MARCO 10/25); MIA Sep −1.82% YoY (MARCO 10/28).
-- **Fiscal:** Amendment 3 now leans FAIL on the pre-registered read. **New 10/21: the federal disaster-cost shift lands on the same county budgets** — state reserves absorb it; the EPR Fund ($163.1M) and fiscally constrained Panhandle counties are the soft spot; **Isaias test resolved 10/27: DR-4955 approved for public assistance in all 15 requested counties, no household aid to date** (L784).
+- **Fiscal:** Amendment 3 passed on unofficial returns, 61.98%, against my lean. **New 10/21: the federal disaster-cost shift lands on the same county budgets** — state reserves absorb it; the EPR Fund ($163.1M) and fiscally constrained Panhandle counties are the soft spot; **Isaias test resolved 10/27: DR-4955 approved for public assistance in all 15 requested counties, no household aid to date** (L784).
 
 ## CALIBRATION
 
@@ -57,7 +67,7 @@
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
 | Will (via PROME) | ✅ nothing pending — WQ-241 (MSI re-fire/level guard) and WQ-321/322 (bankruptcy basis; level trigger retired) all RULED 2026-09-28 | — | Letters installed prospectively; next Parcl stamp is graded on the amended letter |
-| REGINALD | Q3 FL-bank frame: every read 8-K cell HOLDS (10/28); final at the 10-Qs (none filed at 10/29) | ~11/14 | ≥2-of-4 TRANSMITS ⇒ bank rail MET |
+| REGINALD | Q3 FL-bank frame: SBCF, SSB, AMTB final HOLDS; BKU cells with REGINALD (10-Q filed 11/05) | next REGINALD session | ≥2-of-4 TRANSMITS ⇒ bank rail MET |
 | MARCO | Tourism/migration refresh; **FL–Canada air seats winter 25-26 −17.67% (BTS T-100, capacity not passengers) are MARCO's (KB-MARCO-IVF-44)** — CORAL carries no seat figure | ongoing | Snowbird-$ leg of the winter 2026-27 window |
 | CREED | Next Trepp cycle (Oct DQ) | ~early Nov | Zeros stay counter-evidence |
 
@@ -76,8 +86,8 @@
 | ~mid-Nov | Citizens 10/31 month-end | Confirms on the month-end basis that the 10/23 weekly −38,259 is the 10/20 takeout round (37,514; explained 10/29, § Z1) |
 | ~Nov | OIR Isaias claims (P1: **62,295 / $652.2M at 10/27**, day 18 — already above Sally's $577M at 40 d) | Development vs Sally/Ivan by day |
 | Mon 11/16 | FL Realtors October | First FULL month for the GSE financed-units read (condo vs SF) |
-| ~11/14 | Q3 FL-bank 10-Qs (BKU, SSB, SBCF, AMTB) | REGINALD's frame goes final; CORAL greps condo/association disclosure |
-| Nov 3 / Nov 15 | Ballot No. 3 / falsify grade | 60% threshold; pre-registered decision rule |
+| ~mid-Nov | Avidia 10-Q | Only filer disclosing association-loan quality; seven other 10-Qs read, zero disclosure |
+| Nov 15 / Nov 17 | Falsify grade / Amendment 3 certified | Pre-registered decision rule; the grade runs on unofficial returns |
 | ~Nov–Dec | FLDOE Survey 2 (Oct-26 enrollment) | Same-basis statewide read; VX-CORAL-ENRL-01 — confounded proxy, not domestic out-migration |
 | Dec 11 | NFIP authorization | Lapse = FEMA stops writing |
 

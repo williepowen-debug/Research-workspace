@@ -5,7 +5,21 @@
 
 ---
 
-## 2026-09-28 (latest) — Will RULED WQ-322 (option E): the ~230/260 bankruptcy LEVEL trigger is retired, not replaced
+## 2026-11-06 (latest) — WQ-475 A logged; Amendment 3 passed against CORAL's lean; criterion 6 runs on unofficial returns
+
+**Trigger:** DAEDALUS sweep #5 (WQ-475 A unlogged since 10/21) and the 11/3 ballot.
+
+| Item | Old | New |
+|---|---|---|
+| MSI reading identity + series (Will, WQ-475 A, 2026-10-21 22:46 ET) | Page stamp `Updated: M/D/YYYY`, retired by Parcl | **Reading = data date of one five-metro build; CURRENT series governs from reading #11; the 9/13 stand-down stands as graded; a later revision is a new fact, not a re-grade.** Rail change, no colour change. Letter → `STATUS.md` OQ §A2 |
+| Amendment 3 fiscal row | "Leaning FAIL" (ML-CORAL-042, Branch A, graded as written 9/28) | **Passed, unofficial 61.98%; certified 11/17.** The lean was wrong and stays on the record. Local-revenue estimate re-based: −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring |
+| Criterion 6 instrument | Certified result ~11/4 | Certification is 11/17, after the 11/15 grade; the grade runs on unofficial returns and says so. **Criterion text unchanged, no grade made** |
+
+**Why:** a rail change belongs here even without a version bump (9/28 practice). **Implication:** thesis version stays v1.1; overall 🟠 and the bank rail unchanged.
+
+---
+
+## 2026-09-28 — Will RULED WQ-322 (option E): the ~230/260 bankruptcy LEVEL trigger is retired, not replaced
 
 **Trigger:** confirm-side rail change, ruled by Will directly in the CORAL session.
 

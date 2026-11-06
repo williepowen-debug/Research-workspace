@@ -53,7 +53,7 @@ Keep exact live values in `STATUS.md`, `workbook/KB.tsv`, `workbook/VX_Vectors.m
 | **Insurance split** | Personal/reinsurance easing does **not** equal commercial/condo master-policy easing. | Master-policy costs remain an association cash-flow amplifier. |
 | **Migration / tourism** | Demand engine is weaker and geographically uneven. | Stacks with housing stress, especially SW-FL; coordinate values with MARCO. |
 | **FL banks** | Q1 2026 did not confirm bank-loss transmission. | Upgrade only on observable credit deterioration, not collateral stress alone. |
-| **Property-tax / fiscal** | Nov 3 2026 amendment is two-sided. | Homeowner relief vs local revenue/service stress. |
+| **Property-tax / fiscal** | Nov 3 2026 amendment passed on unofficial returns (certified 11/17); two-sided. | Homeowner relief vs local revenue/service stress. |
 | **Climate / hurricane / sargassum** | Second-order unless hurricane landfall or severe coastal demand shock. | Can flip insurance or demand channels acute. |
 
 **Insurance writing rule:** never write “insurance easing” without specifying the layer. Personal/reinsurance easing is not condo/commercial master-policy easing.
@@ -112,8 +112,8 @@ Bridge / corroborating signals that raise pressure but do **not** alone upgrade 
 | 2 | Classified CRE stays rate-shock reclass, not loss content | **MET (1.0)** | Held all year across the FL cohort; no loss content emerged in the Q2 sweep. |
 | 3 | Condo inventory tightens **and** price stabilizes **without forced-sale acceleration** | **NOT MET (0)** | Inventory ✓ (**8.9→8.6→8.1→7.8**, 4 straight) and price ✓ (**0.0% YoY**, off −6.1% Apr) — **but the third clause FAILS: REO +33% H1 and the 🔴 MSI leg is live.** All three clauses must hold. |
 | 4 | Personal **and** commercial master-policy layers ease materially | **NOT MET (0)** | Personal has **stopped easing** (Citizens personal **+138** in July, six weeks flat); commercial/condo-association layer still rising (+10.4% capped). The conjunction fails on both halves. |
-| 5 | Bankruptcy acceleration fades per-capita | **UNGRADED (0)** | ⚠️ **Untracked June→August.** Neither met nor refuted — unobserved. **Instrument note owed:** Ch.7 per-capita M.D./S.D. Fla, tripwire >~230/100k. |
-| 6 | Property-tax relief lowers carrying cost | **PENDING (0)** | Resolves **Nov 3**; Amendment-3 ruling still unlocated, pre-reg ML-CORAL-042 unresolved. |
+| 5 | Bankruptcy acceleration fades per-capita | **UNGRADED (0)** | ⚠️ **Untracked June→August.** Neither met nor refuted — unobserved. **Instrument note owed:** Ch.7 per-capita M.D./S.D. Fla, tripwire >~230/100k. *(8/23 record. Discharged: instrument and leg A/B scoring installed 9/28, WQ-321; level tripwire retired, WQ-322.)* |
+| 6 | Property-tax relief lowers carrying cost | **PENDING (0)** | Resolves **Nov 3**; Amendment-3 ruling still unlocated, pre-reg ML-CORAL-042 unresolved. *(8/23 record. Ruling located and ML-CORAL-042 graded 9/28; result 11/3 passed, unofficial; next graded 11/15.)* |
 
 **SCORE: 1.5 of 6 ⇒ HOLD 🟠.** Under the rule above this is the *"2–3 MET"* band's lower edge and **does not approach a downgrade** — but it is the first time the number has existed at all, and **two criteria (1, 2) are moving toward falsification while two (3, 4) are firmly against it.** ⭐ **The honest read: the thesis split is not weakening, it is SHARPENING — the bank half keeps curing while the household/collateral half does not.**
 

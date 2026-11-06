@@ -122,3 +122,19 @@ Rows above stay as written (record of what was known then). This section closes 
 **Net (unchanged from § 7):** the first Florida test came back as an approval on the public side; Citizens and FHCF are unaffected by FEMA by construction and FHCF is stronger; the open pieces are household aid, the cost share and the ballot. No trade, threshold, gate or grade change.
 
 **§ 8 addendum, 15:28 ET 10/29 (C9 commission):** remainder (4) DONE — **OIR primary, data as of 10/27: 62,295 claims / $652,204,988 incurred** (residential $599.9M; commercial residential 379 / $3.76M) replaces the PRESS $582M (§ 4 row 1). Remainder (1) re-checked 15:26 ET: no DR-4955 Federal Register notice; OpenFEMA IA/HM still False. Remaining for 11/03: cost share · IA outcome · ballot (certified ~11/4). Evidence → `STATUS_DETAIL.md` § Z2, § Z5.
+
+## 9. Update 2026-11-06 (Fri) — correction and the 11/03 remainder (CORAL session coral-ac, PROME prome-51 wake)
+
+Rows above stay as written (the record). Evidence → `STATUS_DETAIL.md` § AB3–AB4.
+
+| Remainder | Result | Tier |
+|---|---|---|
+| Household aid | ⛔ **CORRECTION: IH flagged in all 8 requested counties** (OpenFEMA rundate 11/06 16:07Z). The "IA none" in § 7 row 1 no longer stands. Declaration-day or amendment: UNKNOWN. SBA FR notice 2026-22474 (11/04) names the same 8. IA-appeal item withdrawn. No dollar amount read | PRIMARY |
+| FEMA FR notice, cost share | **Not published at 11:07 ET 11/06** (the two `FEMA-4955-DR` hits are SBA notices). Cost share UNKNOWN | PRIMARY |
+| Hazard Mitigation | Not designated | PRIMARY |
+| Ballot | Amendment 3 Yes 61.98%, unofficial; Amendment 1 (BSF cap 10% → 25%) failed 40.9%, so the BSF cap stays at 10%; certified 11/17 | PRIMARY |
+| County revenue | −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring lands on the same county budgets that carry the disaster match | PRIMARY for the estimate; muni-credit effect UNREAD |
+
+**Read for the commission question:** Florida's first test under the reported posture came back as an approval with public and household aid. That is one event and does not refute the posture; the rule-making watch in `CALENDAR.md` is unchanged. The county squeeze got worse on the revenue side, not the federal side.
+
+**Exposure table:** unchanged except the two ballot rows above. No trade, threshold or grade change.

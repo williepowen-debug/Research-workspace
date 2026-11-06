@@ -1697,3 +1697,149 @@ COVERAGE: all 10 Live-read cells rewritten to the 10/29 STATUS state; old cells 
 
 ### AA4. Passed hearings — free retry
 CourtListener search API, queries "Dockside at Ventura" · "Grande Isle Towers" · FIHPNP: v4 **HTTP 401** "Authentication credentials were not provided"; v3 **HTTP 403** "Anonymous users don't have permission to access the API." Route needs an account token. Outcomes of 10/21 · 10/27 · 10/29 remain NOT READ; PACER not used.
+
+---
+
+## AB. 2026-11-06 (Fri, 11:05–) — coral-ac: MSI reading #12 · 10-Q read · L784 · Amendment 3 · inbox 18 of 18 (PROME prome-51 Tier-1 wake on Will's word 11:05 ET) — evidence
+
+### AB1. Parcl MSI reading #12 (data date 2026-11-05)
+**Route (unchanged, § X1):** `GET …/v1/msi/metrics/session` HTTP 200 11:06 ET → metrics tile `msi-metrics/20261106T100950Z/free/all/msa.json` (`built_at` 2026-11-06T10:09:50Z; Last-Modified 10:12:52 GMT; 927 metros) + bundles `msi-bundles/20261106T101257Z/free/<parcl_id>.json`. Tile summary MSI == each bundle's daily series LAST point, dated **2026-11-05** for all five; tile `context_as_of` 2026-11-05; `as_of_week` 2026-10-26 (weekly series, not this instrument). One build carries all five ⇒ one reading (WQ-475 (a)).
+
+| Metro | **#12 MSI (data 11/05)** | Listings | % cutting | #11 as recorded (data 10/27) | 10/27 in the 11/06 build | 10/20 first print → 10/28 build → 11/06 build |
+|---|---:|---:|---:|---:|---:|---:|
+| Tampa | **7.22** | 25,765 | 51.5% | 7.27 | 7.32 | 7.22 → 7.24 → 7.29 |
+| Punta Gorda | **6.21** | 4,277 | 42.7% | 6.27 | 6.30 | 6.31 → 6.32 → 6.35 |
+| North Port | **6.22** | 11,685 | 44.7% | 6.30 | 6.34 | 6.35 → 6.37 → 6.40 |
+| Cape Coral | **5.85** | 13,288 | 42.4% | 5.89 | 5.91 | 5.88 → 5.93 → 5.95 |
+| Lakeland | **6.31** | 7,982 | 47.4% | 6.27 | 6.29 | 6.16 → 6.18 → 6.21 |
+
+- **Grade (amended letter WQ-241, basis WQ-475 A):** 4-of-5 > 6.00; Cape Coral 5.85 ⇒ **re-fire reading FAILS, clock at zero**; stand-down N/A (leg already 🟠). No rule applies; leg 🟠. Next reading by 2026-11-12.
+- **Level facts, this build (8/1→11/5):** Cape Coral ≤ 6.00 on 19 days, 10/18→11/05 unbroken; < 5.90 on four days (11/01, 11/02, 11/04, 11/05); 5.85 is its low of the whole series from 2026-02-01 (high 6.94). Punta Gorda 6.21 is its low since 8/1; North Port 6.22 ties its low. Lakeland is the only metro up on #11. No other metro is ≤ 6.00 on any day.
+- **Revision fact, n=2 readings:** all ten recorded first prints of #10 and #11 have since revised UP, by 0.02–0.07. A first print here has so far been the low vintage. Letter unchanged (first build governs; a revision is a new fact). ⚠️ Consequence for any future clock: a first print is conservative against re-fire. No rule change proposed.
+- **Inference audit (13a):** no causal claim made. Rivals for a falling Cape Coral MSI (seller pressure easing · listings withdrawn into season · vendor revision of recent days) all lower the statistic; not separated. ⛔ **A falling MSI is not a Florida all-clear and is not bank-transmission evidence** (Will's wake, 11:05 ET). It is one supply-side leg.
+- Parcl's tile also carries MSI by segment (condo 5.33–6.93 across the five). Not the graded instrument; not read further.
+- Extract: `sources/parcl/parcl_msi_daily_5metros_build20261106T101257Z.csv` (daily 8/1 → 11/5).
+
+### AB2. Florida bank Q3 10-Qs, read at SEC 11/06 (L227 leg (b))
+**All seven names of the Q2 surface set have now filed; the carried "~11/14" was an estimate and is retired for these names.**
+
+| Name | Filed | Accession | condo / condominium | HOA / association lending | hurricane / Isaias |
+|---|---|---|---:|---|---|
+| SSB | 10/30 | 0001193125-26-439976 | 0 | 0 (all hits = legal names, GNMA, lender names) | boilerplate only / 0 |
+| CCBG | 10/30 | 0000726601-26-000029 | 0 | 0 (FNMA, GNMA) | boilerplate only / 0 |
+| AMTB | 11/03 | 0001734342-26-000088 | 0 | 0 | 0 / 0 |
+| SBCF | 11/04 | 0001628280-26-070242 | 0 | 0 | boilerplate only / 0 |
+| BKU | 11/05 16:39 ET | 0001504008-26-000091 | 0 | **deposit side only: "Deposits in the HOA vertical totaled $2.4 billion" [9/30; same at 6/30]** | 0 / 0 |
+| VLY | 11/05 | 0000714310-26-000049 | 0 | 0 (Fannie, Ginnie, trustee) | 0 / 0 |
+| USCB | **11/06** | 0001562762-26-000129 | "Condo residential" + "Condo commercial" table rows only | 0 (only hit = trustee name) | 0 / 0 |
+
+- **USCB, the most condo-wired name:** Condo commercial **$66.252M, 0 past due, 0 non-accrual** [9/30] vs $61.525M [12/31/25]; Condo residential $77.089M, non-accrual $224K. Total non-accrual **$7.689M vs $3.138M** [12/31/25], of which commercial property $5.448M (substandard, 2022 vintage); NPL **0.33% vs 0.14%**; ACL 1.16% flat; multifamily 30-89 $3.813M vs $0. ⚠️ Per the 9/28 finding, "Condo commercial" is a table label, **not** the association book: USCB's 10-Q never sizes association lending, and the $126M / 470+ associations figure (Q1-26) is not refreshed here.
+- **Rail read (mine, the frame is REGINALD's):** SBCF, SSB, AMTB final HOLDS (REGINALD 11/05, § 9). **BKU: the primary cell reads over its bar on its face** — CRE 30-59 $0, 60-89 **$21.321M**, 90+ $6.018M [9/30] vs $0 / $0 / $6.084M [6/30]; bar ≥ $15.6M and 60-89 > $0 (the bar ties to this same aging row: 12/31/25 $751K + $14,867K). CRE 90+ under $12.2M; CRE criticized fell ($481.3M → $427.4M, REGINALD). If confirmed: P = TRANSMITS, T = 1 ⇒ **MIXED** under A2.3; aggregate H = 3, T = 0 ⇒ **NO TRANSMISSION stands**; no trip (needs two TRANSMITS). Packet `AGENTS/REGINALD/inbox/2026-11-06_from-CORAL_BKU-10Q-frame-cells.md` (41475cdd6). **REGINALD grades.**
+- **BKU limits:** the aging table is not split by accrual; CRE non-accrual flat ($36.255M → $35.676M) suggests the $21.3M is largely accruing, unproven. The entire $21.321M sits in loans modified within 12 months (CRE modified $95.604M at 9/30; $91.013M all current at 6/30). The 10-Q gives no property type or location for it; BKU's CRE book is 46% Florida by collateral [9/30] ⇒ **not shown to be Florida, not shown to be condo.** Also: 90+ still accruing $28.885M vs $0; NPL 1.11% vs 0.94%; C&I non-accrual $140.0M vs $116.4M.
+- **Reading the grep:** zero association disclosure across all seven filings restates, it does not close, the structural finding — the wire is unobservable in bank filings. ⛔ Zero hits is not zero exposure.
+- **Still waiting:** **Avidia (AVBC) 10-Q for 9/30** — not on EDGAR at 11:13 ET 11/06; the only filer that discloses association-loan quality. Its Q3 release (8-K 10/23) gives the segment balance only: Condominium associations **$491.868M** [9/30] vs $494.331M [6/30]; non-accrual table has no association line. Baseline 6/30: 100% current, 100% pass, 0 charge-offs.
+
+### AB3. L784 — DR-4955: household aid is now flagged; correction to the 10/29 cell
+- **OpenFEMA v2 `DisasterDeclarationsSummaries`, rundate 2026-11-06T16:07Z, rows `lastRefresh` 12:27:53Z:** `ihProgramDeclared` = **TRUE in 8 of 15 counties** (Bay, Escambia, Gulf, Holmes, Okaloosa, Santa Rosa, Walton, Washington); PA TRUE in all 15; HM FALSE; `iaProgramDeclared` FALSE in all (the legacy flag; IH is the operative program field — the 10/29 read looked at both and both were false then). `lastIAFilingDate` 2026-12-26. Incident type now **Hurricane** (was Tropical Storm in the 10/29 rows). `FemaWebDisasterDeclarations` `updateDate` **2026-10-29** (was 10/27).
+- **Federal Register 11/04 — two SBA notices, not FEMA's:** Doc 2026-22474 (p. 69630), "Presidential Declaration of a Major Disaster for the State of Florida (FEMA-4955-DR), dated October 27, 2026": primary counties = **the same 8**; contiguous FL Calhoun, Franklin, Jackson, Liberty + AL Baldwin, Covington, Escambia, Geneva; homeowners 6.000% / 3.000%, businesses 8.000% / 4.000%; physical deadline 12/28/26, EIDL 7/27/27. Doc 2026-22470 (pp. 69629–30): the PA-only notice, 15 primaries, non-profits 3.625%.
+- ⛔ **CORRECTION OF CORAL'S CELL:** "IA 0/8 · no household aid" (carried 10/29 on STATUS, NEXUS_BRIEF, L784 file, packets to PROME and AEOLUS) **is no longer true.** Whether IH was in the 10/27 declaration and the record lagged, or was added by amendment, is **UNKNOWN**: both SBA notices date it to 10/27 and neither is labelled an amendment, `updateDate` moved to 10/29, and OpenFEMA at 18:54Z 10/29 still read false. fema.gov disaster pages returned Access Denied to this box at 11:07 ET 11/06, so the designation page is unread. **The IA-appeal row (~11/26, INFERRED) is withdrawn.** My 10/29 audit said the gap was not evidence of a cost-shift posture; that held. A flag is not dollars: no IH amount read.
+- **FEMA's own FR notice is still not published** (`FEMA-4955-DR` = 2 documents, both SBA). **Federal cost share remains UNKNOWN.** HM not designated.
+- **No federal declaration for the fall flooding:** OpenFEMA FL rows ≥ 9/1 = DR-4955 + EM-3655 only.
+- **What moved for L784's question:** the "IA withheld" fact that sat beside the FEMA-posture story is gone. Remaining: FEMA FR notice (cost share), HM. Ballot: AB4.
+
+### AB4. Amendment 3 — re-based at the primary
+- **Result (state's unofficial page, Florida Election Watch, read 11:10 ET 11/06):** Amendment No. 3 **Yes 4,917,796 (61.98%) · No 3,016,195 (38.02%) · total 7,933,991**; 60% required ⇒ passes on unofficial returns. Amendment No. 1 (Budget Stabilization Fund = HJR 5019) **Yes 40.9% ⇒ fails**, so the BSF cap stays 10%. Amendment No. 2 (agricultural tangible property) Yes 58.21% ⇒ fails.
+- **Certification:** s.102.111 F.S.: Elections Canvassing Commission meets 8 a.m. on the **14th day after a general election = Tue 2026-11-17**. ⛔ My carried "certified ~11/4" was wrong, and **the 11/15 criterion-6 grade therefore runs on unofficial returns**; I state that at the grade. Results SummaryRpt endpoint returned an empty shell; Election Watch is the route.
+- **$4.9B vs $12B — one estimate at two horizons (House Final Bill Analysis, CS/HJR 1F, Revenue Estimating Conference):** cash impact on local non-school property tax **−$4.95B FY 2027-28** ($150,000 exemption) · **−$8.78B FY 2028-29** ($250,000) · **recurring −$11.86B** ("the cash impact in FY 3031-32", the analysis's own typo for FY 2031-32). State impact "indeterminate… likely insignificant". The analysis states these for the amendment as a whole; the non-homestead cap (10% → 5%) is part of the resolution and is not split out. CORAL's carried "~−$4.9B" was the first-year point, right number, understated horizon; WALTER's "up to $12B" is the recurring rounded. **Not a realized loss; first bite FY27-28.**
+- **Corrected read of my own "leaning FAIL":** the pre-registered branch read (ML-CORAL-042) was graded as written 9/28 and it was wrong about the outcome. MARCO's catch stands: the bar is on votes cast, so UNF 50/30 was 62.5% of decided voters. ML-CORAL-042 stays as the record; it carried no probability.
+- **Scope of the fiscal read:** who fills the hole and municipal-credit effects are UNREAD. Governor's special-session request is press-only (SIG-W-20261105-036), not read at a primary. MARCO's new-resident line (no Florida homestead at 12/31/2026 ⇒ $50,000 tier until the fifth year) is MARCO's lane and confounds Q4 migration reads.
+- ⛔ Criterion 6 is NOT graded here (11/15; no early grade).
+
+### AB5. Fall flooding — Florida read (SIG-W-20261106-006, -033; AEOLUS packet 11/05)
+| Basis | Figure | Window | Source |
+|---|---:|---|---|
+| Airport gauge PBI | 11.67 in | 11/01–11/02 | AEOLUS, NOAA ACIS |
+| City report, Palm Beach Gardens | 15.5 in | 12 h | city alert 11/02 |
+| City area average | 15–23 in | 72 h | same |
+| Radar MRMS | 16.68 in | 6 h | WALTER graphic, radar-only |
+| **Governor's order, Riviera Beach area** | **"over 19 inches"** | **12 h** | **EO 26-228, 11/04 (new basis, no gauge cited)** |
+| Broward NWS PNS | 5.62–13.49 in, top Sunrise | 72 h | NWS Miami 11/04, preliminary (card) |
+
+- **State emergency, PRIMARY:** EO 26-227 (11/02): Brevard, DeSoto, Hardee, Highlands, Indian River, Martin, St. Lucie. **EO 26-228 (11/04) amends to 14:** adds Glades, Hendry, Lake, Okeechobee, **Palm Beach**, Seminole, Volusia; also cites St. Johns River minor-to-moderate flooding "which could last several weeks". **Broward is in neither.** WALTER's "reports seven more" is now primary.
+- No insured-loss figure, OIR data call or FEMA declaration found. ⛔ No rooftop-depth claim for Davie (card). None of the nine counties behind the five MSI metros (Hillsborough, Pinellas, Pasco, Hernando, Charlotte, Sarasota, Manatee, Lee, Polk) is among the 14; Lake County is not Lakeland.
+- **So what:** flood is an NFIP and uninsured-loss channel, not the OIR wind channel; NFIP authorization ends 12/11. Property consequence: UNKNOWN, no tally.
+
+### AB6. Other reads
+- **FMHPI (file Last-Modified 2026-11-02):** FL SA **Sep +1.18% YoY**; Aug **revised +1.08% → +1.40%**; Jul +0.74% → +0.95%; US Sep +1.94%. Revisable series, vintage named; excludes condo/co-op/PUD. FL index flat Jul→Sep (379.83 · 380.14 · 380.12).
+- **OIR Isaias page 11/06:** still data as of 10/27, $652,204,988.
+- **Citizens:** latest month-end posted = 9/30. "Record-low policy count" (Yahoo 11/2, card -058 title only) unread; consistent with the 10/20 takeout, no new figure taken.
+- **Trepp October (CREED 11/5):** zero named FL loans, excerpt names only five. The Mall at Wellington, SRPT 2014-STAR ($607M loan, $144M appraisal) under contract subject to court approval; price = CORAL's mark when it prints.
+- **Mosaic (FERT 11/5):** 8-K 11/03 names further South Fort Meade (Polk) curtailments; FL operating rate low- to mid-60%; 199 separations 12/08 stay MIRROR.
+
+### AB0. Rows rotated from STATUS 2026-11-06, verbatim
+
+**header:**
+
+**Last Updated:** 2026-10-29 19:50 ET (Thu, **coral-1029h**, housekeeping — Will 19:48 ET "do house keeping now"): read-cap rotation — verbose blocks → `STATUS_DETAIL.md` § AA0 verbatim; FL-bank closes refreshed to 10/29; no other new data. **Content state = coral-1029c9 (15:27 ET):** Citizens 10/23 drop = the 10/20 takeout round; OIR Isaias **$652.2M at 10/27**; F-5A county bankruptcy cut broad, Central FL leads. Prior header → § AA0.
+
+**MSI row:**
+
+| **🟠 MSI supply-side leg** | **Reading #11 (Parcl data date 10/27; current series per WQ-475 A): 4-of-5 > 6.00** — Tampa 7.27 · Punta Gorda 6.27 · North Port 6.30 · Lakeland 6.27 · **Cape Coral 5.89** (below 6.00 every day 10/16→10/27) ⇒ re-fire fails, clock at zero. The series revises trailing days — a revision is a new fact, not a re-grade (WQ-475 (c)). Letter → OQ §A / §A2; evidence § X1 | 🟠 |
+
+**FMHPI row:**
+
+| **FL statewide SF, constant-quality** | **+1.08% YoY SA (Aug, FMHPI FL; file 9/15)** — July **revised +1.68% → +0.74%** (the +1.68% was the 8/31 vintage); US Aug +2.19%. Excludes condo/co-op/PUD, conforming only; Sep not yet in the file at 10/29 | 🟡 |
+
+**Hurricane row:**
+
+| Hurricane season 2026 | **Isaias** — FL landfall near Destin 10/9, Cat 2 (AEOLUS C1 NOT FIRED). **OIR 10/27: 62,295 claims / $652.2M insured** (residential $599.9M; condo-assoc 379 / $3.8M). **DR-4955-FL 10/27: PA 15/15 counties, IA 0/8, HM none, cost share unpublished** (OpenFEMA 18:54Z 10/29; no FR notice). Panhandle, outside the condo metros ⇒ held 🟡. Full row → § AA0 / § T | 🟡 |
+
+**Coastal row:**
+
+| Coastal flooding — king tide (10/25–10/29) | Record / near-record water on SE-FL and Keys gauges (levels = AEOLUS). NWS coastal-flood warnings/advisories to 10/30–10/31; **no local emergency declaration or damage tally found** (14:54 ET 10/29). Descriptive, no threshold → KB ML-CORAL-127 | 🟡 |
+
+**CRE row:**
+
+| **CRE (4)** | Broward MF occupancy **94.2%**, effective rents −1.5% YoY (C&W Q2) — rents soft under record supply (§ R7). Trepp Sept: **zero FL assets named, 4th cycle** (Starwood 5-mall portfolio unnamed, a FL mall not excluded). CORAL owes the Pembroke Lakes Mall 9/30 foreclosure check; Wymore 360 in special servicing (KB ML-CORAL-108). Feed thin — no 🟢 on "the feed landed". Full row → § AA0 | 🟡 |
+
+**FL banks pillar:**
+
+| **FL banks (6)** | Rail **NOT met, NOT armed**. Q3 8-Ks: every read cell HOLDS at BKU · SSB · AMTB · SBCF (REGINALD 10/28); **PROVISIONAL until the 10-Qs (~11/14)**. BKU/SSB releases: 0 hits condo / association / hurricane. 10/29 closes (fetch.py, 18:52 ET): SSB $106.10 · SBCF $33.22 · BKU $43.40 · VLY $14.28 · USCB $19.85 · KRE $72.86 (⛔ re-pull to cite) | 🟡 |
+
+**State fiscal pillar:**
+
+| **State fiscal (9)** | **Amendment 3 (Ballot No. 3) "leaning FAIL"**; ~−$4.9B FY27-28 local revenue if it passes. **FEMA cost shift (L784):** reserves $16.2B FY26-27; soft spot = the EPR Fund ($163.1M at 9/1) and the counties carrying the local match. DR-4955 approved 10/27 (public assistance only). HJR 5019 (BSF cap 10%→25%) also on 11/3. Full row → § AA0 | 🟠 |
+
+**Row D:**
+
+| D | **Warrantability spread = DOCKET L227 leg (a)** — the instrument PROME ACTIVE_DECISIONS row 7 waits on. Statewide condo **FINANCED closed sales (closed − cash) YoY vs SF financed — units, never share.** Sep partial: condo **3,414, −5.3%** vs SF **14,794, −3.7%**. ⚠️ Rival (high-end cash surge) moves the share — read units. + count associations with >$50K/unit master deductible. Full row → § AA0 | **FL Realtors Oct, Mon 2026-11-16** | first partial read, ungraded · L227 window →11/30; leg (b) = row N |
+
+**Row M:**
+
+| M | Falsify grade — ⛔ do not re-derive the rule, do not reword a criterion. **Criterion 6 instrument (DAEDALUS neg-res ask): FL Division of Elections certified result for Ballot No. 3 (yes % vs 60%), search dated 2026-11-04; if it passes, EDR revenue-impact estimate** | **2026-11-15** | baseline 1.5 of 6 |
+
+**Row N:**
+
+| N | Bank rail re-test — REGINALD frame (BKU/SSB/AMTB/SBCF): 8-Ks HOLD, aggregate PROVISIONAL; FL-resi sub-read → D; CORAL greps the four 10-Qs for condo/association disclosure — **none filed at 14:5x ET 10/29** | **10-Qs ~11/14** | NOT met, NOT armed |
+
+**Row Z:**
+
+| Z | 🌀 **Isaias observables:** OIR ✅ 62,295 / $652.2M at 10/27 · FEMA ✅ DR-4955 10/27 (PA 15/15, IA 0/8, HM none) · **FR notice (cost share) not published at 15:26 ET 10/29** · Citizens claims/PIF · modeler estimates (AEOLUS $1–4.5bn) · NFIP across 12/11 · Trepp $3.27B = modelled-path debt, not damage. Full row → § AA0 | FR DR-4955 notice; rest ~late Nov | PARTIAL |
+
+**Row AB:**
+
+| AB | ⭐ **L784 FEMA cost shift** (`research/2026-10-21_L784_fema-cost-shift-florida.md` § 8): peer cells closed (FEMA decided · FHCF $22.26B vs $17B · AEOLUS · SHADE). **Remains for 11/03:** FR DR-4955 notice (cost share; none at 15:26 ET 10/29) · IA amendment or denial (appeal ~11/26, INFERRED) · 11/3 ballot (certified ~11/4). Full row → § AA0 | **due 11/03** | OPEN — peer cells closed |
+
+**BOTTOM LINE block:**
+
+**10/29: household strain keeps rising; the bank bridge is still unbuilt.** Bankruptcy filings **+21.3%** in the year to September (225.9/100k, 1.26× the US, widening), broad across counties and led by Central Florida, not the condo coast. Citizens' −38,259 to 10/23 is the 10/20 takeout round — depopulation, not households leaving. Isaias insured loss **$652.2M at 10/27** (OIR); FEMA funded public cleanup, no household aid, cost share unpublished. ⚠️ The single-family price index was revised down (July +1.68% → +0.74%; Aug +1.08%) — prices still rise, more slowly than carried. King tide: record water on the SE-FL coast, no damage tally found. MSI leg 🟠; bank rail NOT met, NOT armed, no 10-Q filed. ⛔ None of this is a bank-loss signal; overall 🟠 unchanged. Full prior paragraph → § AA0.
+
+**What would change the read:** DR-4955 FR notice with cost share <75% · an IA amendment, or the window passing without one · FL Realtors Oct (11/16): financed condo units falling faster than SF by a wider margin · REGINALD's frame ≥2-of-4 TRANSMITS at the 10-Qs · Cape Coral >6.00 with the other four held · Amendment 3 on 11/3.
+
+**Next (dates → `CALENDAR.md`):** FR notice for DR-4955 (daily to 11/3) · FMHPI Sept ~10/30 · **Nov 3** Amendment 3 + HJR 5019 · **Nov 5** MSI reading #12 · BKU/SBCF 10-Qs ~11/14 · **Nov 15** falsify grade · **Nov 16** FL Realtors Oct (GSE instrument) · Citizens October month-end (~mid-Nov; confirms the 10/20 round on the month-end basis) · **Dec 11** NFIP. *Earlier bottom lines rotated verbatim → § AA0 / § X0 / § W0 / § V0 / § U0 / § T0.*
+
+
+
+
+### AB7. Bank-equity card (SIG-W-20261031-026) — taken with its qualifications
+WALTER's Call Report cohort read: bank-level GAAP equity QoQ AMTB −8.83% · SBCF −7.25%; AMTB AOCI 9.75% of June bank equity. All 14 equity bridges reconcile and capital distributions contribute. ⚠️ Bank equity is not parent tangible equity or CET1, and an equity decline is not a credit-loss signal. For the two Florida names it sits beside REGINALD's final HOLDS on credit. Recorded, no read changed.

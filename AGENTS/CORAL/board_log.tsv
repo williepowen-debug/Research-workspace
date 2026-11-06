@@ -144,3 +144,15 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T00:16:09-04:00	SIG-W-20261029-005	info-only	INBOX_WALTER	CRUISE VX-CRU-04 to YELLOW; PortMiami Sep +19.0%, Port Canaveral FY +6.68% (movements, not persons/spending). Port lane context; no CORAL figure.
 2026-10-29T00:16:09-04:00	SIG-W-20261029-009	info-only	INBOX_WALTER	RCL Q3 adj EPS $6.57, FY guide raised; no FL port or spending attribution. CRUISE's.
 2026-10-29T14:58:20-04:00	SIG-W-20261029-018	info-only	INBOX_WALTER	NCLH Q3 beat + FY guide raised (CRUISE owner grade from 8-K); all three big operators raised. Miami-based operator; no FL port, spending or employment attribution => no CORAL figure. CRUISE owns VX-CRU-03/05.
+2026-11-06T11:18:14-05:00	SIG-W-20261029-055	info-only	INBOX_WALTER	FLDOE breach; records, count unstated; no money channel. CYPHER owns.
+2026-11-06T11:18:14-05:00	SIG-W-20261031-024	noted	INBOX_WALTER	$40B mortgage claim logged combo:florida-policy-offsets, ML-CORAL-143; AI transcript, unverified, no implementation document; next-year timing kept.
+2026-11-06T11:18:14-05:00	SIG-W-20261031-025	acted	INBOX_WALTER	Rio Vista broker friction logged combo:water-on-coastal-collateral, ML-CORAL-141; asking prices, no sale evidence.
+2026-11-06T11:18:14-05:00	SIG-W-20261031-026	acted	INBOX_WALTER	AMTB -8.83% SBCF -7.25% bank equity taken with qualifications, STATUS_DETAIL AB7; not parent TCE or CET1; no read changed.
+2026-11-06T11:18:14-05:00	SIG-W-20261104-025	acted	INBOX_WALTER	FedEx $58.2M vs $94.5M in STATUS CRE row; equity markdown, cleared debt by ~$1.5M before costs; combo:cre-markdowns-no-principal-loss, ML-CORAL-145.
+2026-11-06T11:18:14-05:00	SIG-W-20261104-033	acted	INBOX_WALTER	Rain bases reconciled with AEOLUS packet; STATUS_DETAIL AB5; no insured loss, no event attribution.
+2026-11-06T11:18:14-05:00	SIG-W-20261104-047	acted	INBOX_WALTER	Amendment 3 re-based at state page, 61.98% unofficial; STATUS AB4, ML-CORAL-138.
+2026-11-06T11:18:14-05:00	SIG-W-20261104-054	noted	INBOX_WALTER	MSC Poesia logged combo:visitor-frictions, ML-CORAL-146; one voyage, defect unspecified, no demand read.
+2026-11-06T11:18:14-05:00	SIG-W-20261104-058	noted	INBOX_WALTER	Titles only. Citizens record-low and NE Florida median kept as headline-only leads, no figure taken; all others non-Florida, discarded.
+2026-11-06T11:18:14-05:00	SIG-W-20261104-063	info-only	INBOX_WALTER	ENSO titles, AEOLUS owns. Naples and Fort Myers rain title is headline only, no figure taken.
+2026-11-06T11:18:14-05:00	SIG-W-20261105-036	acted	INBOX_WALTER	$4.9B and $12B reconciled to one REC estimate at primary: -$4.95B, -$8.78B, -$11.86B recurring; special session stays press-only; ML-CORAL-138, -142.
+2026-11-06T11:18:14-05:00	SIG-W-20261106-006	acted	INBOX_WALTER	Florida read done: EO 26-228 14 counties incl. Palm Beach, not Broward; six bases; no rooftop claim for Davie; AB5, ML-CORAL-139, -141. Georgia is AEOLUS's.
