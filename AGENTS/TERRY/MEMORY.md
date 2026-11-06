@@ -4,7 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current pickup — 2026-11-06 16:10 EST
+## Current pickup — 2026-11-06 17:12 EST
+
+Claude Code, Opus 5.5, session 46b504d8, post-close refresh on Will's 17:08 ET word via prome-51. HYG finished red, UNG green, no eligible day on either fired card; no term moved. WQ-631's proposal is now WQ-642, open. Read STATUS CURRENT STATE, then `research/2026-11-06_close-refresh/NOTE.md`.
+
+## Prior pickup — 2026-11-06 16:10 EST
 
 Claude Code, Opus 5.5, session terry-2e, PROME wake under WQ-626 A. Read STATUS CURRENT STATE first. HYG hedge and UNG both APPROVED FIRED and unfilled; WQ-631 test with PROME for Will; ORCL C9 answered, no idea; OP-SCALE N = 5, R = 6, decision count 7, Will confirms 11/7. All commits pushed at closeout unless STATUS says otherwise.
 

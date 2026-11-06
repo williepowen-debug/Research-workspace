@@ -5,6 +5,8 @@
 
 > **WQ-518 RULED A — Will in the TERRY window 2026-10-29 11:42 ET, verbatim "518 A":** the Oracle-verified fiscal-Q2 date condition stays; no estimated-date entry.
 
+> **TRIGGER STATE 2026-11-06 17:12 EST (TERRY): NOT FIRED · NOT VOIDED.** DTCC disseminated 305 [11/5], 45 bp from 350, above the 280 void; 11/6 partial only, 5 prints converted 306-314, about 318 disseminated, through about 15:50 ET, full file unread (LIQUID). High 342.5 [10/20], never 350 (SIG-W-20261106-042). ORCL final vendor bar $116.10 +0.82% [11/6], under the $120 T2 line. 115P $10.30/$10.55, 100P $4.65/$4.80, outer $5.90 vs ≤ $4.40, 17:11 EST post-close vendor screen. FQ2 date not re-checked, moot. No order.
+
 > **TRIGGER STATE 2026-11-05 13:33 EST (TERRY): NOT FIRED · NOT VOIDED.** DTCC 300 [11/3] is the newest read found, vs 350. ORCL $114.94 −7.10%, under the $120 T2 line, red, day low $111.66. 115P $11.20/$11.55, 100P $5.20/$5.45, outer $6.35 vs ≤ $4.40 and past the $5.00 no-chase. FQ2 date not re-checked, moot.
 
 > **TRIGGER STATE 2026-11-05 11:10 EST (TERRY): NOT FIRED · NOT VOIDED.** ORCL $112.88 −8.77% (11:08 EST), now under the card's $115 long strike and the $120 T2 line. If that holds, the gap this card was built on has closed from the equity side: T1 at 350 bp would fail T2.
@@ -33,8 +35,8 @@ If Oracle's credit keeps widening while the stock holds, buy a defined-risk Dec-
 ## 2. Trigger state, in figures (NOT-FIRED)
 | Leg | Line | State at 10/23 | Status |
 |---|---|---|---|
-| **T1 — credit leads** | ORCL 5Y CDS **≥ 350 bp** (ELLISON theme reading, DTCC basis) | 314 bp [10/22] | **NOT FIRED** (36 bp away) |
-| **T2 — equity has not followed** | ORCL **≥ $120.00** at the T1 reading | $126.16 | MET today; re-read at T1 |
+| **T1 — credit leads** | ORCL 5Y CDS **≥ 350 bp** (ELLISON theme reading, DTCC basis) | 314 bp [10/22]; latest 305 [11/5] | **NOT FIRED** (45 bp away on 305 [11/5]) |
+| **T2 — equity has not followed** | ORCL **≥ $120.00** at the T1 reading | $126.16; latest $116.10 [11/6] | Met 10/23, NOT MET on 11/6; re-read at T1 |
 | Entry window | first **green ORCL session** after T1 (root rule #6), through Fri 2026-11-20 | — | waits on T1 |
 | **Void before entry** | CDS ≤ 280 bp (DTCC disseminated 5Y spread — basis named 11/02, PROME L904), or ORCL closes ≥ $145.00, or no green day by 11/20 | — | — |
 
@@ -97,7 +99,7 @@ No probability stated; no Brier row.
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.** All lines above are PROPOSED CARD CONDITIONS, not registered fleet gates. Chain evidence: `../research/2026-10-23_WQ509-WQ499-cards/chains.txt`.
 
 ## 10. Ruling encoded — 2026-10-24 (TERRY, PROME packet `inbox/processed/2026-10-23_from-PROME_WQ513-514-RULED-A-cards-approved-not-fired.md`)
-- **State:** APPROVED NOT-FIRED. T1 (5Y CDS ≥ 350 bp, ELLISON reading) at 314 bp [10/22]: NOT-FIRED. Nothing fills before T1 + T2 + a green ORCL day, by 11/20; time stop 12/4. $0 moved.
+- **State:** APPROVED NOT-FIRED. T1 (5Y CDS ≥ 350 bp, ELLISON reading) at 305 bp [11/5]: NOT-FIRED. Nothing fills before T1 + T2 + a green ORCL day, by 11/20; time stop 12/4. $0 moved.
 - **Day-colour read source (root rule #6):** ORCL regular-session close vs prior close from `FORGE/tools/market-data/fetch.py price ORCL` (stamp from `date`); intraday at order time the same tool's live read, confirmed on the broker screen. A green day = positive change on that read.
 - **Earnings-risk reading (provisional, on the IR-verified pattern, NOT a verified date):** if FQ2 lands ~12/8–12/11, it falls **inside** the Dec-18 structure's life, 7–10 days before expiry and **after** the 12/4 time stop. With the time stop kept, the card exits before the print; holding past 12/4 would be a bet through a binary print and is a separate Will choice. The Dec puts' 61–66% IV on the 10/23 screen already carries some of that event premium, so the debit pays for a print the card plans to leave before. The Nov-20 alternative expires before any December print.
 - **Condition binding (corrected 2026-10-25, PRD1):** no entry until the FQ2 date is verified at Oracle IR and written here. The last two date press releases came ~8 days before their prints; that sample does not bound other issuer channels or establish when verification becomes possible. The FAQ index reports December 14, 2026, but direct FAQ/events reads did not verify the date (access evidence in § 0). WQ-514 A, the 11/20 entry-window end and the 12/4 time stop remain unchanged; no condition waiver is proposed.
