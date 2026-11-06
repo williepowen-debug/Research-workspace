@@ -1,6 +1,6 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
-**Regenerated: 2026-11-06 ~11:45 ET (from session clock); reviewed 16:49 ET (from `date`).** Owner evidence: FALCON brief `e3ce30fd82` (11:35 ET, evidence to ~11:34), OSPREY brief `d2cbb2d4d5` (WQ-637 encoding only; no strike evidence changed since `f4414148cf`). WALTER lane through card 027 read. No fresh HAWK theater sweep.
+**Close review: 2026-11-06 17:23 ET (from `date`): no FALCON or OSPREY ledger change since the heads below; neither owner had committed a close refresh at this stamp, so this file does not reach the 11/6 close on theater evidence. Card 043 read, KB-HAWK-504. Tonight's Qeshm reports are unattributed and in no owner ledger, KB-HAWK-511.** **Regenerated: 2026-11-06 ~11:45 ET (from session clock); reviewed 16:49 ET (from `date`).** Owner evidence: FALCON brief `e3ce30fd82` (11:35 ET, evidence to ~11:34), OSPREY brief `d2cbb2d4d5` (WQ-637 encoding only; no strike evidence changed since `f4414148cf`). WALTER lane through card 027 read. No fresh HAWK theater sweep.
 
 | Owner ledger | Committed head reviewed | Data rows, excluding header |
 |---|---|---|

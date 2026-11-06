@@ -1,6 +1,6 @@
 # HAWK STATUS
 
-**Updated:** November 6, 2026, 16:49 ET (from `date`), closed on PROME's WQ-249 ask, reopened for OSPREY's WQ-470 reply, closed again 12:00 ET, final closeout on Will's reboot word (16:46 ET via PROME). Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Will's wake 11:36 ET: drain inbox oldest first, answer WQ-470, grade what is due. Root/local instructions explicitly read. No trade book. **No mark or band moved.**
+**Updated:** November 6, 2026, 17:25 ET (from `date`), close refresh on Will's 17:08 ET word via PROME, reopened 17:25 ET for ORACLE's packet and tonight's Qeshm reports. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. Prior close 16:49 ET after Will's 11:36 ET wake. No trade book. **No mark, band, score or letter moved; no registered letter required one.**
 
 ## Decisions and thresholds (top)
 
@@ -14,7 +14,27 @@
 | **YUR-004 consumer read** | Null: no HAWK band moved (KB-487). L432 RESOLVED by PROME. No public declaration found is not no decision. ⛔ Do not score this as near-term armed-conflict risk. |
 | **WQ-622** | Six themes set up, charter line added, KB-495..500. Logging is not scoring. |
 
-## Reconciliation deltas (owner evidence: FALCON `e3ce30fd82` 11:35 ET, OSPREY `f4414148cf` 11:16 ET)
+## ⚠️ After the close, unresolved (KB-511)
+
+**Explosions and reported missiles on Qeshm tonight, attribution UNKNOWN; no source read says the US struck.** Fars (16:56 ET, via Iran International) says cause unclear, possibly warning shots toward the strait; Tasnim (17:02 ET, same relay) says two missiles struck Qeshm, no origin given; TodayPress (16:10 ET) says possibly missiles launched toward the strait. Outbound Iranian fire and an inbound strike are opposite events. A US military official's stay-indoors warning ran at 15:26 ET. ORACLE's ceasefire leg through 11/15 fell 59.0 to about 36 from 16:04 ET on a thin book, cause not established, and it says nothing on a sustained campaign. WTI $110 and Hormuz-normal legs did not move. CENTCOM 403, no wire reached. **FALCON owns the grade and has not swept this.**
+
+## Close refresh, November 6 (KB-504..510)
+
+| Item | Read at the close | Limit |
+|---|---|---|
+| Oil, BRENT's figures | Brent January $98.32, WTI December $90.83; same-contract week −13.3% / −12.8% [EST wire, BRENT 11/6] | Wire estimates, not exchange settles. BRENT's cause for the 11/4 move is not established |
+| K1 (FLOW-19 kill test) | **UNMEASURED.** Price fell while the hull record worsened, but K1 needs a dated premium or willingness step-change first, and none is on record | Not a K1 fire, not proof of decoupling (KB-509) |
+| US scale decision | Trump 11/5: people will soon know; US official confirmed the 11/6 Trump-emir call [CBS 14:39 ET]. Qatar PM 11/6: no comprehensive deal (card 043). No order, text or dated US answer found | Read to CBS 14:39 ET only. "Mediation ended" and "so it's war" are not in what was read; continuation UNKNOWN (KB-504) |
+| Sanctions | OFAC 11/4: 4 individuals, 10 entities under Iran E.O. 13902, including a ship-registry network; FR 2026-22766 publishes 11/9 [P] | Zero vessels named. A second OFAC filing, 2026-22802, reads WITHDRAWN, content UNKNOWN (KB-505) |
+| Russia-Iran link | Putin-Rezaei 11/5, gas pipeline discussed; FT: Russia agreed 90 helicopter-mounted launchers; Telegraph: S-400 request [all S, relayed] | No delivery reported; a request is not a supply. New theme `combo:russia-iran-coupling` (KB-510) |
+| Trade | Public inspection at about 17:20 ET: BIS stay on the list, **no USTR ship-fee final notice** while the suspension ends 11/9 23:59 ET [P] | Not proof of no action; USTR can file specially (KB-506) |
+| CIT S301 | No opinion found | Coverage only: results end about 10/9, CIT URLs 404, docket unread (KB-507) |
+| Taiwan | MND to 06:00 11/6 UTC+8: 3 sorties, 9 PLAN ships, 8 official ships [P] | One day; tests no band (KB-508) |
+| War-risk | No November hull quote found; the 10/14 Insurance Business piece repeats the FT 6–10% | All five legs still stale |
+
+**Not refreshed through the close:** FALCON's evidence stops about 11:34 ET and OSPREY's about 11:00 ET on 11/6, and neither had committed a refresh at this stamp, so the theater marks above predate tonight's reports. Venezuela, Suez and Malacca searches returned nothing dated November; that is a coverage gap, not quiet. Backstops are 12/5 and 11/12 and none is due.
+
+## Reconciliation deltas (owner evidence: FALCON `e3ce30fd82` 11:35 ET, OSPREY `f4414148cf` 11:16 ET; BRENT close `e148eb44b3` 17:15 ET)
 
 - **FALCON:** B 1 / C 14 / D 85 held, no letter met. Census 7 (tug SELAT STORM). US struck Qeshm 11/2, limited (FAL-07 CONFIRMED). FAL-06 CONFIRMED at 70% with route (c) never graded, so not proof of no net loss. FAL-09 sustained campaign 40%, FAL-08 stated crude loss test 75%. Hull run reached the mid-Gulf; VELOS SAPPHIRE one seafarer dead; UKMTO 197-26 on 11/5. No confirmed mine, no signed text, no US answer, no named Sinokor hull detained.
 - **OSPREY:** 5 / 5 / 3. The 14-day refinery pause ended 10/30: six plants in eight days, at least 1.3 M bpd CAPACITY. ⚠️ OSPREY's ~30% band is stale against late-October runs of about 5 M bpd; not moved, re-derivation owed.
@@ -28,7 +48,7 @@
 ## Dormant book
 
 Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/CODIF/EURMIL ORANGE; SULPHUR RED; CEASEFIRE SUPERSEDED.
-- **TRADE01:** BIS Affiliates stay moved to about 1/10–1/11 (FR 2026-22793 publishes 11/9). MOFCOM 公告70 still reads 11/10, no paper. USTR ship fees proposal only, ends 11/9. Three clocks, not merged (KB-489).
+- **TRADE01:** BIS Affiliates stay moved to about 1/10–1/11 (FR 2026-22793 publishes 11/9). MOFCOM 公告70 still reads 11/10, no paper as of ZHAO's 11/6 read. USTR ship fees proposal only, ends 11/9, no final notice on public inspection at about 17:20 ET (KB-506). Three clocks, not merged (KB-489).
 - **TRADE02 / CODIF:** S338 50% unchanged; S301 and Gellert unruled; CIT asked S301 plaintiffs on 11/4 to list countries. AGOA removals reported, no FR instrument (KB-493). No collection evidence.
 - **EURMIL:** backstop swept 11/6, ORANGE held. Article 4 9/30–11/6 not primary-closed; Article 5 UNMEASURED; no RED (b) activation found. Poland's deployment moves no rung (KB-491).
 - **Backstops:** Iraq / FININFRA / SULPHUR 11/12; VEN/TWN/TWNMIL/CODIF 12/5; EURMIL native 11/8.
@@ -38,6 +58,7 @@ Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/COD
 - **Intake:** 6 direct + 44 WALTER cards dispositioned in `board_log.tsv`, filed to `processed/`. 38 at wake plus 6 that arrived while working. Boot BOARD join: none missing.
 - **Corrections:** COR-20261031-01, -03, COR-20261105-65, COR-20261106-20, -27 receipted NO-OP.
 - **Aggregates:** both regenerated; fingerprints recorded.
+- **Close refresh:** card 043 and ORACLE's packet read and filed, inbound lanes clear at 17:23 ET, 14 HAWK-routed 11/5–11/6 BOARD signals joined. No correction outstanding. ZHAO owns the MOFCOM read; HAWK did not re-pull it.
 
 ## Deferred, with why
 
@@ -48,4 +69,4 @@ Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/COD
 
 ## BOTTOM LINE
 
-Both wars are pressing oil at the same time again, and the pressure shows up more in products than crude: Russian refineries are being hit while US distillate stocks are the lowest since 2003, yet no one has measured a lost barrel of crude in either war. The single most important watch is whether the Trump administration moves from limited strikes on Iran to a sustained campaign. On the dormant book, the next real test is the trade court's ruling on the forced-labor tariffs. Since the last update: Will adopted the C3 limb-2 letter (WQ-637 A, earliest first kill 11/27), HAW-20 graded CONFIRMED on a late search, and four forecasts are registered.
+Both wars are pressing oil at the same time, more in products than crude, yet no one has measured a lost barrel of crude in either war, and Brent still fell 13.3% on the week to about $98.32 on wire figures. FALCON reads that as the market pricing a deal or a smaller war, while BRENT says the cause is not established; no registered condition has moved, and HAWK's test of that gap (K1) cannot run because no fresh war-risk quote exists. The single most important watch is whether tonight's Qeshm explosions were a US strike or Iranian fire; attribution is unknown, and Trump said on 11/5 people would soon know his decision on new strikes. Next on the dormant book, 11/9–11/10: no ship-fee final notice was on the public list as of about 17:20 ET, and China's suspension still has no paper on ZHAO's read. Since the last update nothing moved a mark; the additions are tonight's Qeshm reports and ORACLE's odds break, an OFAC Iran shipping-registry action, and more evidence of Russian support to Iran.
