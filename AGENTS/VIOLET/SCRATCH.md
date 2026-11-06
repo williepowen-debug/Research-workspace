@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 6, 2026 10:29 ET (from `date`). WQ-626 A wake, DOCKET L976: History confirmed, credit-flat closed. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**. Closed on PROME's ask (WQ-249) 11/06; L976 RESOLVED, VIO-PRED-07 to 10 registered, charter line verified C4.
+**As of:** November 6, 2026 16:50 ET (from `date`). Third turn, PROME's word 15:24 ET: 5 WALTER cards drained, 11/06 close read on the 16:15:01 ET print. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**. The 10:29 ET wake closed on PROME's ask (WQ-249); L976 RESOLVED, VIO-PRED-07 to 10 registered, charter line verified C4. This turn awaits PROME's closeout ask.
 
 ## CHANGES SINCE (11/05 16:51 ET → 11/06 10:20 ET)
 
@@ -9,6 +9,10 @@
 - Intraday 11/06 10:20 ET, not a close: VIX 24.76, VVIX 120.84, VIX3M/VIX 0.9552.
 
 ## WHAT I DID
+
+- **11/06 15:24 ET turn:** cards 019, 024, 033, 035, 041 logged and filed. Card 033's equity put/call 1.05 is **0.89** at Cboe and on StockCharts `$CPCE` now; sent to WALTER 15:31 ET, routed as card 035, COR-20261106-35 APPLIED (KB-VIO-388). Test of "spikes near lows" in `research/2026-11-06_close/`. VIX path replicated, n=2, did not complete on the 11/06 print (KB-VIO-389). COR-20261106-41 NO-OP.
+- **11/06 close (KB-VIO-387):** VIX 25.64, VVIX 121.94, VIX3M/VIX 0.9594 second inverted close, row TICK until History. No score or gate moved. Payrolls read run, inconclusive. CFTC 11/03 in.
+- **Themes updated:** credit-under-flat, levered-flow-close (Nomura about $47B, not added to Morgan Stanley), hedge-fund-degrossing (Samlyn is counterevidence). No line under "would matter" met.
 
 - **11/06 wake:** `backfill.py --spot-only` stamped the 11/05 row SETTLE, 0 of 2,753 cells corrected, SKEW 149.37 filled. All closes matched; only the VIX low differed, 16.70 not 17.28 (KB-VIO-381). OVX and IMPLIED_CORR 11/05 matched History; CHEAP_TAIL 11/05 row added.
 - **Credit-flat closed:** first-published HY 326 to 348, +22 against +25, row MET on its letter (KB-VIO-382). Sent to HENRY and RED through WALTER, outbox SIG. Flat is not calm: 348 is the widest since 353bp [5/9/2025].
@@ -27,7 +31,8 @@
 ## NEXT SESSION
 
 0. **Grade VIO-PRED-07 after History posts 11/13**, VIO-PRED-08 and 10 after 11/20, VIO-PRED-09 after 12/31. Any close that meets a letter resolves it early in fact; grade at the next owner session.
-1. **RESUME LIST, PROME's word 11/06:** (a) both Will-facing pages still show HY 332bp and the credit leg open: edit the repo HTML, republish each to its existing URL, update the memory twins. (b) Payrolls surface read not run: read VIX9D/VIX and the release around 11/06 08:30 ET from the 11/05 and 11/06 closes.
+1. **History 11/06:** run `backfill.py --spot-only`, take the SKEW bar, stamp the row SETTLE, confirm KB-VIO-387 and KB-VIO-389's −2.54. IMPLIED_CORR 11/06 is stamped SETTLE by clock, so check it too. Read HY 11/06 first-published: the 5-day window from 10/30 has its VIX leg at +32.03% on the print, base 344bp, line 369bp. If met, it is the same episode; note it, do not re-send without a reason.
+1a. **RESUME LIST, PROME's word 11/06:** both Will-facing pages still show HY 332bp and the credit leg open: edit the repo HTML, republish each to its existing URL, update the memory twins.
 2. FXY IV re-pull done mid-session: 12.1% [12:38 ET, 43 DTE, 5 strikes] against RV10 7.05%; carry canary CALM.
 3. CPI 11/10 pre/post surface read. Verify the date at bls.gov (403 on 11/05); CPI search unconfirmed.
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.

@@ -286,3 +286,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T10:26:58-05:00	SIG-W-20261106-011	noted	INBOX_WALTER	HENRY close grade: gamma negative, walls overhead; STATUS gamma line updated; levered flow unproven
 2026-11-06T10:26:58-05:00	SIG-W-20261106-012	acted	INBOX_WALTER	HY 348 confirmed at first-published FRED; credit-flat test closed KB-VIO-382
 2026-11-06T10:26:58-05:00	SIG-W-20261106-013	acted	INBOX_WALTER	LIQUID send row: Path-B read written KB-VIO-382; 069 L4 stays LIQUID grade
+2026-11-06T16:35:01-05:00	SIG-W-20261106-019	noted	INBOX_WALTER	Nomura about $47B levered-ETF estimate logged to combo:levered-flow-close, not added to Morgan Stanley; no bank failure or gate, combo:credit-under-flat; AI-regulation cause is VULCAN's
+2026-11-06T16:35:01-05:00	SIG-W-20261106-024	noted	INBOX_WALTER	Samlyn planned pivot, not forced, logged as counterevidence to combo:hedge-fund-degrossing; Walleye rumor and unsourced posts not carried
+2026-11-06T16:35:01-05:00	SIG-W-20261106-033	acted	INBOX_WALTER	Put/call 1.05 checked at Cboe: 0.89, correction sent to WALTER, KB-VIO-388. VIX path replicated, did not complete on the 11/06 print, KB-VIO-389. SOX figures not quoted, HENRY's. Other lines for their owners
+2026-11-06T16:35:01-05:00	SIG-W-20261106-035	noted	INBOX_WALTER	WALTER's correction of card 033 from VIOLET's packet; matches KB-VIO-388; receipted COR-20261106-35
+2026-11-06T16:35:01-05:00	SIG-W-20261106-041	info-only	INBOX_WALTER	SoftBank leverage, bridge and ABB correction; none on a VIOLET surface; KB-VIO-386 figures untouched; receipted NO-OP COR-20261106-41
