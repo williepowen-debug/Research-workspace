@@ -1,14 +1,14 @@
 # BROCK — TRIGGER LADDER + THESIS-KILL STEP 2 (LIVE)
 
 **Status: LIVE.** This file is the only live home of the trigger ladder and the THESIS-KILL STEP-2 rule. `STATUS.md` § EXIT RULES §5 points here. `trade/TRADE.md` §9 (FROZEN 7/27) and the archived tables (`archive/STATUS_ROTATED_2026-09-02.md` §5, `catchups/2026-10-22.md` § Rotated) are history only.
-**Last reviewed:** 2026-11-06 10:20 ET (BROCK, 11/5 print, row 10 graded). Prior 2026-11-05 13:4x ET (selloff read); 2026-10-30 17:16 ET (re-homed on DAEDALUS profile refresh item 1). **Maintenance:** closeout step 8 (forward-state). When a row fires, resolves or expires, update it here in the same session as STATUS (trap 5).
+**Last reviewed:** 2026-11-06 17:21 ET (BROCK, 11/6 close refresh, no row fired). Prior 2026-11-06 10:20 ET (11/5 print, row 10 graded). Prior 2026-11-05 13:4x ET (selloff read); 2026-10-30 17:16 ET (re-homed on DAEDALUS profile refresh item 1). **Maintenance:** closeout step 8 (forward-state). When a row fires, resolves or expires, update it here in the same session as STATUS (trap 5).
 **Effects are not orders.** Every "effect" below is a prompt for a TERRY card under root rule #5. The instruments named in the 7/27 ladder (BIZD Sep $12P, the "BIZD basket", BX puts) are expired or were never specified. No row pre-authorises a trade.
 
 ## Ladder (11 rows)
 
 | # | Trigger | State [as of 11/05 unless dated] | Effect if it fires |
 |---|---|---|---|
-| 1 | APO sustained >$130 (3 sessions) | **FIRED 8/12, reviewed, HOLD** (Will 8/13, `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` §②). APO $116.32 [11/06 10:10 ET, vendor intraday]. Next band: >$145 sustained, not reached | Re-evaluate the APO put view; Will's call |
+| 1 | APO sustained >$130 (3 sessions) | **FIRED 8/12, reviewed, HOLD** (Will 8/13, `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` §②). APO $116.75 [11/6 vendor close]. Next band: >$145 sustained, not reached | Re-evaluate the APO put view; Will's call |
 | 2 | ~~HY OAS <260 for 10+ sessions~~ | **Observable only, not a kill** (WQ-106, 9/2). The kill is LIQUID's 2-close `GATE-HY-REKILL`. HY 348 [11/5] | Confirmation only. Authorises nothing |
 | 3 | HY OAS <270 sustained 2+ sessions | **FIRED 8/27** (267 + 263); the kill-memo pre-stage was DISCHARGED (verdict 3). Spent. HY 348 [11/5] | None remaining |
 | 4 | Arms-length sub-90¢ BDC loan transaction (= **BRK-25**) | **NOT FIRED.** Count stays at 2 (STATUS §4). Instrument named on the BRK-25 row | Stage-3 entry signal → TERRY card (the 7/27 instrument, BIZD Sep $12P, expired) |
