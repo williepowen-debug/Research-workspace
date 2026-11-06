@@ -1,6 +1,6 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-11-05 18:19 ET** — Will's "go": **NCLH Q3 10-Q graded (L714 closed from this side)**, funding model re-run, combination themes set, CRU-12..14 registered. Earlier the same evening: boot catch-up, inbox drained, charter corrected.*
+*Last updated: **2026-11-06 08:05 ET** — closeout; no new research, PROME's registrations recorded. 11/5, Will's "go": **NCLH Q3 10-Q graded (L714 RESOLVED by PROME 11/5 18:22 ET)**, funding model re-run, combination themes set, CRU-12..14 registered. Earlier the same evening: boot catch-up, inbox drained, charter corrected.*
 
 ## November 5 — NCLH 10-Q graded (L714)
 
@@ -26,7 +26,9 @@
 | **Tape 11/5** | CCL −5.52%, RCL −3.13%, NCLH −4.52%, with SPY −4.41%, XLY −3.83% | Market-wide on these figures; no cruise-specific cause checked. `VX-CRU-01` stays YELLOW. KB-CRU-223 |
 | **Context logged** | Villa Vie private-operator fuel failure · MSC Poesia PortMiami detention · NCLH CFO duplicate | Outside the Big-3 perimeter or already held. KB-CRU-219..221 |
 
-**Done under 11/5 rulings:** four WQ-622 themes (`combo:` KB-CRU-233..236) and three predictions, CRU-12..14, packet of IDs to PROME.
+**Done under 11/5 rulings:** four WQ-622 themes (`combo:` KB-CRU-233..236) and three predictions, CRU-12..14, packet of IDs to PROME; DOCKET L982..984 carry the three resolutions.
+
+**Waiting on Will (both due 11/17, read in `PROME/WILL_QUEUE.md`):** WQ-627, VX-CRU-05 band re-spec; on A this desk drafts cells and they return to him before they count. WQ-628, NCLH conviction 3 → 2; 3 stands until he rules. Rec A on both.
 
 ## October 29 — NCLH Q3 graded (L714)
 
