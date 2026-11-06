@@ -185,3 +185,18 @@ NREF: no write-off disclosed, no tagged line. STWD, ACRE: no tagged 2026 line fo
 **Correction to the pre-grade table above, no grade moves:** its RC row is the allowance line. On the reported line RC's quarters are Q4-25 3.9, Q1-26 8.3, Q2-26 3.4, Q3-26 4.8 of opening common book, and the Q2 same-quarter count stays 2 names.
 
 **Predictions:** `PRED-011` NO-VERDICT (RC $6.44). `PRED-012` FALSE (ACRE $8.86), Brier 0.3025.
+
+## Addendum 2026-11-06 close refresh — RC 10-Q read; `CREED-T-08b` grade holds
+
+**Source, PRIMARY-READ by CREED 2026-11-06 at sec.gov:** RC 10-Q accepted 16:18 ET, acc 0001628280-26-071703. NREF and ACRE 10-Qs were not on EDGAR at this pass; both stay owed.
+
+| RC line, Q3 | $M | Reading |
+|---|---|---|
+| Realized losses on sale of investments (reported line, distributable earnings reconciliation) | 53.87 | matches the 8-K; **4.8** of opening common book $1,127.8M; RC does not count |
+| Net of tax | 51.94 | 4.6 |
+| Allowance roll-forward, charge-offs and sales | 32.43 | Bridge 24.36, Construction 1.94, SBA 7(a) 6.14; 2.9, not the term's line |
+| Allowance, opening to ending | 250.73 to 234.49 | provision 12.16, time value 3.99, recoveries 0.05; the roll sums |
+| Nine-month charge-offs and sales | 90.19 | equals gross write-offs by vintage |
+| Non-accrual carrying value | 1,035.1 | $1,327.1M at 12/31; UPB $1,165.0M; allowance $117.0M; all loan types |
+
+**Leg 2 stays 2 of 10. `CREED-T-08b` NOT FIRED stands.** Book $6.44 confirmed, so `PRED-011` stays NO-VERDICT. The $28.72M charge-off in the supplement and the $32.43M table line are not reconciled; the table line includes sales. RC's book is not CRE only. `KB-CREED-113`.

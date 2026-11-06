@@ -1,6 +1,6 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-11-06 (Fri), amended 16:49 ET at the reboot closeout on Will's word via PROME; WQ-626 A wake, DOCKET L964, at closeout on PROME's WQ-249 ask (PROME resolved L964, L950, L951 at `4d477d364`). **Record: `catchups/2026-11-06.md`.** In one line: `T-08b` GRADED NOT FIRED, leg 2 2 of 10 · `PRED-012` FALSE · `PRED-011` NO-VERDICT · 28/45 unchanged · KB 112 · cases 184.
+**Rewritten:** 2026-11-06 (Fri), amended 17:29 ET at the close refresh on Will's word via PROME (`catchups/2026-11-06.md` §⑦: S8a +4.08, RC 10-Q read, October CPPI all-property, no score moved, KB 116); before that 16:49 ET at the reboot closeout; WQ-626 A wake, DOCKET L964, at closeout on PROME's WQ-249 ask (PROME resolved L964, L950, L951 at `4d477d364`). **Record: `catchups/2026-11-06.md`.** In one line: `T-08b` GRADED NOT FIRED, leg 2 2 of 10 · `PRED-012` FALSE · `PRED-011` NO-VERDICT · 28/45 unchanged · KB 112 · cases 184.
 *PRIOR (11/05): `catchups/2026-11-05.md`.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
@@ -12,13 +12,14 @@
 Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` (edited 11/05 under Will's ruling) · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/05). 001, 004, 007 are graded on this ledger; their Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
-1. ✅ **Done 11/06:** `T-08b` final Q3 grade NOT FIRED, 2 of 10; `PRED-012` FALSE; `PRED-011` NO-VERDICT (`KB-109..112`, census addendum 11/06). **RESUME ITEM, PROME 11/06: check the NREF, RC and ACRE 10-Qs on EDGAR once filed** (none was on EDGAR at the grade); read the allowance roll-forward and write-off lines, record them at the census addendum and `KB-109`; `T-08b` changes only if 3 more names reach 5%. STWD undepreciated book unread (website supplement, not on EDGAR). No Q4 re-grade is scheduled.
+1. ✅ **Done 11/06:** `T-08b` final Q3 grade NOT FIRED, 2 of 10; `PRED-012` FALSE; `PRED-011` NO-VERDICT (`KB-109..112`, census addendum 11/06). ✅ RC 10-Q read at the close refresh, grade holds (`KB-113`). **RESUME ITEM, PROME 11/06: check the NREF and ACRE 10-Qs on EDGAR once filed** (neither on EDGAR at the last pass); read the allowance roll-forward and write-off lines, record them at the census addendum and `KB-109`; `T-08b` changes only if 3 more names reach 5%. STWD undepreciated book unread (website supplement, not on EDGAR). No Q4 re-grade is scheduled.
 2. ✅ **Ruled 11/05 and encoded:** S1 = 4, `PRED-001` graded, S8a held. PROME registers the WQ rows.
 3. **Trepp October SS (~mid-Nov)** + payoff rate: `T-01b`, F2. Both needed for F2.
 4. Illinois Center sheriff sale 11/12 (CASE-153) · L723 deed ~11/27 · L183 11/30 (2b confirmed NOT reversed) · FDIC Q3 QBP ~11/25 (`T-03`, L514).
 5. ✅ **ABS-EE office lease screen built 11/05 on Will's "yes"** (run 1 `research/2026-11-05_ABS-EE_OFFICE_LEASE_SCREEN_RUN1.md`, `KB-102..105`). VX vector: no, WQ-613 (PROME, class C3, 11/05). **Will 13:08 ET: descriptive only, no recurring cadence, no predictive study; two-year window apart in `research/2026-11-05_ABS-EE_TWO_YEAR_WINDOW_EXPLORATORY.md`; use the loan list only when it bears on a named exposure (`README.md`).** Cache was in the session scratchpad; a re-run for a named exposure rebuilds with `fetch`.
 6. **Combination watch live (Will 16:01 ET):** `grep combo: workbook/KB.tsv` at each Trepp grade; update in the session an item arrives; rule at `CLAUDE.md` closeout 6a. Scores nothing.
-7. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 5.02, 7.02, 9.01, 10.02 · Moxy result · Plaza price · CREFC monthlies.
+7. **October CPPI office figure:** look for CRE Daily's write-up; September's came two days after the release. Update `VX-9.02`, `VX_HISTORY` and `Last_Updated` together (`KB-114`).
+8. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 5.02, 7.02, 9.01, 10.02 · Moxy result · Plaza price · CREFC monthlies.
 
 ## ⚖️ AWAITING WILL
 S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), VX no (WQ-613). `T-08b` leg 2 term ruled (WQ-620 A) and now graded. WQ-622 is PROME's row; CREED already adopted on Will's word. **Nothing pending from CREED.** ⚠️ Flagged to PROME, no ask: `VX-10.04`'s red word "cohort-wide" has no number and erosion >3% reads 5 of 10; held ORANGE, no level proposed.
@@ -26,8 +27,8 @@ S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), V
 
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 28/45; broad CRE-to-bank transmission is not confirmed.**
-- **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.85 [Sep] · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +0.84 [11/04] · `T-08b` NOT FIRED, graded 11/06 (leg 2 2 of 10; erosion >3% 5 of 10 and four-quarter 5 of 10 shown ungraded).
-- **Counts:** VX 34 · KB **112** · PRED 15 (4 open: 002, 008, 013, 014) · registry 11 · **cases 184** · evals v2 4/4.
+- **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.85 [Sep] · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +4.08 [11/06] · `T-08b` NOT FIRED, graded 11/06 (leg 2 2 of 10; erosion >3% 5 of 10 and four-quarter 5 of 10 shown ungraded).
+- **Counts:** VX 34 · KB **116** · PRED 15 (4 open: 002, 008, 013, 014) · registry 11 · **cases 184** · evals v2 4/4.
 - **Trepp PDFs moved:** earlier months are now also under `AGENTS/WALTER/archive/**`. October is at the public hubfs URL, not archived.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
@@ -87,6 +88,7 @@ S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), V
 *Closed 10/30: DAEDALUS profile-refresh items 1–7, 9–12 (record `catchups/2026-10-30.md` §③).* *Closed 10/28: #25, #27, #7 (see `catchups/2026-10-28.md`).*
 
 ## 📬 MAIL STATE (11/06; canonical record `board_log.tsv`)
+- **Close refresh:** inbox and `inbox/WALTER` empty; PROME's 17:08 ET ask logged. No figure others cite moved, so no packet.
 - **In:** seven items dispositioned and filed (WALTER 062, 063, 002, 007, 009, 026; HOMER packet). 026 arrived 11:34 ET, after the first closeout: Columbus vacancy, events on `CASE-084` and `CASE-085`, not marks; the other five buildings are in `board_log.tsv`. COR-20261105-62 NO-OP receipted.
 - **Out (11/06):** PROME packet consumed and filed, `4d477d364`; L964, L950, L951 RESOLVED. No route: no fire. Reboot closeout packet `PROME/inbox/2026-11-06_from-CREED_reboot-closeout.md`.
 

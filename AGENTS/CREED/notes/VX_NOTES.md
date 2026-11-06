@@ -149,6 +149,8 @@ Q3 reversed the Q2 tell: no fresh SM build, ACL +$3.3M. YELLOW not GREEN: the -$
 
 ## VX-CREED-7.01 — CRE Equity Tape (VNQ vs SPY)
 
+**2026-11-06 close:** +4.08pp TR, price-only +3.46, σ10 6.29pp, window start 8/10. VNQ −0.57% vs SPY −4.65% over the window, so the sign comes from the market falling, not from REITs rising (S&P 500 −4.36% on 11/5, vendor close). 11/04 → 11/06 = +3.24: +1.75 end move, +1.50 window roll; VNQ −2.35%, SPY −4.11%. 10/28 → 11/06 = +15.41: +9.00 end move, +6.41 window roll. Vendor closes, not official records. `KB-CREED-115`. Prior hot cell: +0.84pp TR [11/04 close].
+
 **2026-11-05:** +0.84pp TR [11/04 close]; 10/28 → 11/04 = +7.07 end move, +5.09 window roll (`KB-CREED-098`). `threshold_scan` prints WAS-FIRED: deliberate; the fire stands. Prior hot cell: 10/28 −11.33, σ10 1.12.
 *moved verbatim 2026-09-26, crc32 `e508fe0e`, 2851 B*
 
@@ -199,6 +201,7 @@ FDIC BankFind API financials, aggregated by REPDTE (RSNRES; P3/P9/NARSNRES; LNRE
 "CMBS recognizes faster than banks" AS A FINANCING FLOW. The securitized book (marks to capital-market spreads) is SHRINKING while balance-sheet lenders expand. Q2 print ~mid-Sept. || !! CONFIDENCE 82% -> 60% 2026-07-27 EVE. NOT a threshold move (bands untouched, they are FROZEN TERMS) and NOT a resolvability trim -- a genuine downgrade of what this vector can EVIDENCE. MBA attributes to the NOTE-HOLDER, so this line measures "note held by a trust", NOT "the securitized channel". An insurer holding a CMBS bond prints HERE, not in the life-insurer line. So -$9.6B cannot be read as "the fast channel shedding" without a holder-type split MBA does not publish. See KB-CREED-017 and the FLOW-CREED-08 demotion. The LEVEL is primary-verified and unchanged; what dropped is the INTERPRETATION it supports. !!
 
 ## VX-CREED-9.02 — Office Price Index (Green St CPPI)
+**2026-11-06 close refresh:** October all-property −0.7% MoM, +3.7% YoY (release 11/05, PRIMARY-READ). Office October UNREAD: not in the release text, no chart in its body, guessed PDF URL 404, not found on CRE Daily site search or in two web searches. CRE Daily carried September on 10/08, two days after that release, so one day's absence is not the drop the GAP rule names. The office cell stays −33 [Sep] and `Last_Updated` stays 10/28 (`KB-CREED-114`).
 *moved verbatim 2026-09-26, crc32 `542e6471`, 171 B*
 
 *** LEFT AS GAP per Will's §10 decision 4 (2026-07-21). *** Legacy reference was -24% from peak. Do not cite the legacy value as current. Revisit if a free proxy appears.
@@ -237,6 +240,7 @@ Unchanged count 10/22; GPMT cut now PRIMARY (was secondary). Q4 declarations due
 *** NEW 7/27 — THE VECTOR THAT EXPOSED THE BLIND SPOT. *** 7 of 11 mREITs negative on 3mo. The public market has TWO CRE legs telling OPPOSITE stories; scoring them as one number (the pre-7/27 S8) destroyed the information. *** OPEN QUESTION #7 in THESIS: which leg is the leading indicator? *** Caveat cutting the other way: KREF is +22.6%/3mo AFTER its 60% cut — the lender price tape is not uniformly confirming either.
 
 ## VX-CREED-10.03 — CRE Lender Capital Withdrawal
+**2026-11-06 close refresh:** ARI deregistration filings accepted 16:23–16:34 ET; $2.32 vendor close 11/6. Still 1 named exit (`KB-CREED-116`).
 *moved verbatim 2026-09-26, crc32 `70a082aa`, 944 B*
 
 *** 2026-09-29: ARI stockholders APPROVED the Plan of Complete Liquidation and Dissolution at the 9/29 Special Meeting -- For 72,217,727 / Against 799,088 / Abstain 439,400 (73,456,215 sh represented, ~57.1% of outstanding); 8-K Item 5.07 filed same day (acc 0001193125-26-407837), PRIMARY-READ. Same 8-K Item 1.01: management agreement terminates on SDAT acceptance of articles of dissolution; Manager WAIVED any termination fee (accrued comp + expenses still payable). 9/16 8-K: DRIP suspended from 9/29, dividends in cash. NO distribution amount/record/ex-date declared yet -- $3.70-4.00 remains a projection. PRED-CREED-005 RESOLVED-TRUE (HIT). ||
