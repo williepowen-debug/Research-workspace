@@ -2,7 +2,7 @@
 
 **Status:** 🔴 Pipeline 882K (ORANGE, Sept); Trepp MF 8.09% October, a second 2026 high that one $210M loan likely explains; Fannie MF 0.62% and Freddie's subordination bucket 0.80% with both provisions up; PMMS 7.18%, falling but still RED; purchase demand −19% YoY. Thesis 0/5 killed.
 **Domain:** U.S. housing asset-market + credit-structure — foreclosure pipeline, multifamily (GSE + CMBS books), mortgage-rate surface, builders, pricing/inventory, sub-statewide FL/TX
-**As of:** 2026-11-05 ~18:30 ET closeout, written after the final STATUS write, same owner commit. Session: Will-launched catch-up (`reports/2026-11-05_catchup.md`), WQ-622 themes KB-HOMER-043–047, WQ-596 predictions HOM-03–06, packets into REGINALD and CREED inboxes. Prior: 2026-10-29 L851 wake.
+**As of:** 2026-11-06 07:5x ET closeout (data through 2026-11-05), written after the final STATUS write. Session: Will-launched catch-up (`reports/2026-11-05_catchup.md`), WQ-622 themes KB-HOMER-043–047, WQ-596 predictions HOM-03–06, packets into REGINALD and CREED inboxes. 11/20 prep added: thesis defects D2 and D4 closed, D11 logged. Prior: 2026-10-29 L851 wake.
 
 > ♻️ **ROTATED 2026-09-24** — the pre-rotation brief is preserved byte-for-byte at `archive/NEXUS_BRIEF_2026-09-24_pre-rotation-VERBATIM.md` (crc 267930108). The 10/19 brief is in git history (`git log -p -- AGENTS/HOMER/NEXUS_BRIEF.md`).
 

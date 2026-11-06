@@ -26,6 +26,8 @@
 
 - **Push:** GitHub rejected pushes about 18:20–18:30 ET 2026-11-05 (`fatal error in commit_refs_rules`, cause unknown, MARCO hit it too). Cleared by 18:38 when BRENT's push landed; 3238c184b is on origin. The 11/20-prep commit and this note are local until PROME's closeout push or the next HOMER closeout.
 
+**Closeout 2026-11-06 07:5x ET (Will: "Lets close out here").** Inbox 0 at closeout; next session starts with loanDepot Q3 and Las Vegas Realtors. Will's repo-traffic question went to no desk: it is PROME's. The credential check never ran (Will stopped it, redirecting HOMER to housing).
+
 No Will decision required.
 
 ---
