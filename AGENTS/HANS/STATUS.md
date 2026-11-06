@@ -102,7 +102,7 @@
 
 ---
 
-## 📬 INBOX / CROSS-AGENT FLAGS — **inbox CLEAR 2026-11-06** (6 peer packets + 26 WALTER cards, dispositions in `board_log.tsv`). 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
+## 📬 INBOX / CROSS-AGENT FLAGS — **inbox CLEAR 2026-11-06** (6 peer packets + 27 WALTER cards, dispositions in `board_log.tsv`). 🔴 **The LIVE flag table is `DISPATCH_LOG.md`, not this line.**
 **Combination themes (WQ-622), `combo:` in KB Notes:** `european-credit-funding` · `uk-cost-squeeze` · `europe-operational-disruption` · `europe-gas-politics` · `france-growth-fiscal` (`KB-179`–`183`). ⚠️ Charter line NOT added: see owed #36.
 
 ## NEXT SESSION — WHAT IS OWED
@@ -116,7 +116,7 @@
 | 36 | **WQ-622 charter line:** add one line to `CLAUDE.md`; held for Will's own word in this window | awaiting Will |
 | 33 | **`HNS-09`: fill Crédit Agricole, Santander, BBVA, Intesa, ING, UniCredit from own releases;** Deutsche guidance cell vs Q2-26 wording | by 11/30 |
 | 37 | **15 expired KB rows** need re-verification, not a date bump: 004 · 014 · 021 · 031 · 036 · 037 · 077 · 082 · 085 · 103 · 111 · 141 · 144 · 145 · 146 | 🟠 |
-| 38 | Stale vectors with no new print read: `VX-1.08` TIC (mid-Nov) · `8.05` German IP YoY · `4.07` ECB QT · `4.09` · `7.07` · `11.03` (#14) · `5.01` SX7E feed returned none 11/06 | 🟠 |
+| 38 | **`VX-8.04` TTF/HH ratio still on 10/29 inputs: refresh on matched closes.** Stale vectors with no new print read: `VX-1.08` TIC (mid-Nov) · `8.05` German IP YoY · `4.07` ECB QT · `4.09` · `7.07` · `11.03` (#14) · `5.01` SX7E feed returned none 11/06 | 🟠 |
 | 29 | `T-15` leg (a) Saudi re-grade · `KB-077` | 🟠 |
 | 5 | 🟡 **UK 10Y basis:** gate ≥5 verified-close pairs; 3 held | accrues |
 | 14 | **Split `VX-HANS-11.03`** into German annual outlay + a real EU issuance series | 🟠 |

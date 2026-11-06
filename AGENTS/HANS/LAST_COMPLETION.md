@@ -10,7 +10,7 @@
 - **Other ledgers:** PUBLISHED +19 · FLOW-3/5/6/8 notes · HNS09 SocGen row · `ML-HANS-484`.
 - **Docs:** KILL_TREE re-graded, C-3 KILLED · STATUS rewritten (22,772 → ~15,000 B) · DISPATCH_LOG · SESSION_LOG · boot.py F27.
 - **Packets:** BOND · BRENT · RED · ISHM · CYPHER · REGINALD · DAEDALUS · WALTER · PROME.
-- **Inbox:** 32 of 32 drained, one named item at a time, `board_log.tsv` rows. Receipts: COR-20261031-01, COR-20261105-52.
+- **Inbox:** 33 of 33 drained (card -1106-025 arrived mid-closeout), one named item at a time, `board_log.tsv` rows. Receipts: COR-20261031-01, COR-20261105-52.
 
 **RESULT:**
 - **Gas:** TTF Z26 90.68 [11/05 close], 85.22 intraday [11/06], from 103.94 [10/30]. EU storage 73.75% and falling, gap −16.02pp. `HNS-07` MISS at 74.57%.
@@ -22,6 +22,8 @@
 **GAPS:** ICE settle (ice.com blocked) · S&P PMI primaries (403) · 6 banks unfilled · 15 expired KB rows · `SX7E.Z` no data · S&P France date unconfirmed · BoE report, OBR, Moody's rationale not read.
 
 **WILL_NEEDS:** `T-07` L3 exit rule (proposed via PROME) · his own word for the WQ-622 charter line.
+
+**CLOSEOUT:** Standard. doc_audit, tests and read-cap re-run after the last edit. Consumer cross-agent rc0: 31 🔴, none a real consumer of a retired figure (23 coincidental numbers in REGINALD study CSVs, the rest dated records), no packet. Consumer --self rc0: 32 🔴 all dated history, `PUBLISHED.tsv` or rotated records, not cleared by rule. Claim check clean. Orphan: my packets committed. Root 1d no-op, no auto-memory.
 
 **FOLLOW-UP (next session):**
 1. EA Oct FINAL HICP and ECB FSR 11/18; France vote ~11/17–18.

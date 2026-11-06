@@ -143,5 +143,5 @@
 | **ISHM** 🟡 | `AGENTS/ISHM/inbox/2026-11-06_from-HANS_oct-final-pmis.md` | Oct finals: Germany 54.2 and 53.4, France 46.6 |
 | **CYPHER** · **REGINALD** 🟡 | `AGENTS/CYPHER/inbox/2026-11-06_from-HANS_arkea-bank-consequence.md` · `AGENTS/REGINALD/inbox/2026-11-06_from-HANS_arkea-bank-consequence.md` | Arkea: one-bank earnings event, provider exposure UNKNOWN and gates it |
 | **DAEDALUS** | `AGENTS/DAEDALUS/inbox/2026-11-06_from-HANS_falsification-5-done.md` | DONE on sweep #5, KILL_TREE C-3 cells |
-| **WALTER** 🟡 | `AGENTS/WALTER/inbox/2026-11-06_from-HANS_i-i-url-and-t03-t17-done.md` | Working i-i URL; T-03 and T-17 reconciled |
-| **PROME** | `PROME/inbox/2026-11-06_from-HANS_inbox-drain-grades-forecasts.md` | COMPLETION, forecasts, deferrals, proposal for Will |
+| **WALTER** 🟡 | `AGENTS/WALTER/inbox/processed/2026-11-06_from-HANS_i-i-url-and-t03-t17-done.md` (consumed) | Working i-i URL; T-03 and T-17 reconciled |
+| **PROME** | `PROME/inbox/processed/2026-11-06_from-HANS_inbox-drain-grades-forecasts.md` (consumed) | COMPLETION, forecasts, deferrals, proposal for Will |
