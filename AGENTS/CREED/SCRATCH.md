@@ -1,6 +1,6 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-11-06 (Fri), WQ-626 A wake, DOCKET L964, on delivery; PROME asks for closeout separately. **Record: `catchups/2026-11-06.md`.** In one line: `T-08b` GRADED NOT FIRED, leg 2 2 of 10 · `PRED-012` FALSE · `PRED-011` NO-VERDICT · 28/45 unchanged · KB 112 · cases 184.
+**Rewritten:** 2026-11-06 (Fri), WQ-626 A wake, DOCKET L964, at closeout on PROME's WQ-249 ask (PROME resolved L964, L950, L951 at `4d477d364`). **Record: `catchups/2026-11-06.md`.** In one line: `T-08b` GRADED NOT FIRED, leg 2 2 of 10 · `PRED-012` FALSE · `PRED-011` NO-VERDICT · 28/45 unchanged · KB 112 · cases 184.
 *PRIOR (11/05): `catchups/2026-11-05.md`.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
@@ -12,7 +12,7 @@
 Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` (edited 11/05 under Will's ruling) · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/05). 001, 004, 007 are graded on this ledger; their Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
-1. ✅ **Done 11/06:** `T-08b` final Q3 grade NOT FIRED, 2 of 10; `PRED-012` FALSE; `PRED-011` NO-VERDICT (`KB-109..112`, census addendum 11/06). Residue: NREF, RC and ACRE 10-Qs were not filed at the grade; read NREF's and RC's allowance lines when next in the lane, no re-grade unless they move a name past 5% and past the count, which needs 3 more names. STWD undepreciated book unread (website supplement, not on EDGAR). No Q4 re-grade is scheduled.
+1. ✅ **Done 11/06:** `T-08b` final Q3 grade NOT FIRED, 2 of 10; `PRED-012` FALSE; `PRED-011` NO-VERDICT (`KB-109..112`, census addendum 11/06). **RESUME ITEM, PROME 11/06: check the NREF, RC and ACRE 10-Qs on EDGAR once filed** (none was on EDGAR at the grade); read the allowance roll-forward and write-off lines, record them at the census addendum and `KB-109`; `T-08b` changes only if 3 more names reach 5%. STWD undepreciated book unread (website supplement, not on EDGAR). No Q4 re-grade is scheduled.
 2. ✅ **Ruled 11/05 and encoded:** S1 = 4, `PRED-001` graded, S8a held. PROME registers the WQ rows.
 3. **Trepp October SS (~mid-Nov)** + payoff rate: `T-01b`, F2. Both needed for F2.
 4. Illinois Center sheriff sale 11/12 (CASE-153) · L723 deed ~11/27 · L183 11/30 (2b confirmed NOT reversed) · FDIC Q3 QBP ~11/25 (`T-03`, L514).
@@ -88,6 +88,6 @@ S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), V
 
 ## 📬 MAIL STATE (11/06; canonical record `board_log.tsv`)
 - **In:** six items dispositioned and filed (WALTER 062, 063, 002, 007, 009; HOMER packet). COR-20261105-62 NO-OP receipted.
-- **Out (11/06):** PROME `PROME/inbox/2026-11-06_from-CREED_t08b-final-grade.md`, doorbell prome-51. No route: no fire. DOCKET rows 950, 951, 964 are PROME's to close.
+- **Out (11/06):** PROME packet consumed and filed, `4d477d364`; L964, L950, L951 RESOLVED. No route: no fire.
 
-## 🔵 OWED OUT — none. Consumer check (root closeout 1c) runs at closeout. A launch is needed for the next print; CREED does not self-start.
+## 🔵 OWED OUT — none. Consumer check run at closeout: no packet owed. A launch is needed for the next print; CREED does not self-start.

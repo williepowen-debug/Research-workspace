@@ -11,6 +11,9 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+## 2026-11-06 — `PREDICTIONS.tsv` gains the `NO-VERDICT` status token (WQ-626 A wake)
+`PRED-CREED-011` landed in its registered band, and the ledger had no status for that. `NO-VERDICT` is declared in the file's TOKENS header: closed, excluded from Brier, no column change. `RESOLVED-PARTIAL` was not reused because its definition requires a frozen grade card's PARTIAL band, and the fleet scorecard buckets it UNMAPPED, while it reads `NO-VERDICT`.
+
 ## 2026-11-05 — combination watch (Will: *"Yes go ahead and do this now"*, 16:01 ET)
 Charter closeout step 6a added, no step renumbered. Form taken from LABOR's `combo:` tag (2dad33ec1, 753159295), themes CREED's own: `KB-106..108`. Tag sits first in KB Notes; `Group` keeps its vocabulary, so no schema or checker change. New dated rows rather than edits, so an old theme row is never freshened by an update (trap #8). Fleet question stays with WQ-622.
 
