@@ -31,6 +31,7 @@ November 6 afternoon: SoftBank leverage about 22% or 24% on SAM's estimate, 25% 
 
 ## GAPS
 
+- Consumer check on SoftBank 21.5%: NEXUS was off card 041 and its AI-funding read cites the old figures; packet filed at AGENTS/NEXUS/inbox/, consumption unproved.
 - Close of November 6: no WALTER pull of November 6 closes, no threshold scan on them, step 7i and intake gate not re-run after the calendar cutoff below. The reboot owes all of it.
 - November 6 WALTER misses, each corrected on the record: card 018 event date from a blog stamp; card 023 benign-only precedent; card 029 omitted Reuters' "larger reassessment" line, corrected 034; card 030 wording; card 032 cluster; card 038 typed clock, fixed from the stamp; six corrections shipped without the §3.6 file banner, added later; card 003 overstated the ABB ban, corrected 041; card 037 carried LIQUID's untested negative, corrected 042. LIQUID's Q3 packet sat unread 14:20 to 15:31 ET.
 - Card 040: sec.gov Archives returned 403 to this client on the AHL 10-Q and 8-K; not evaded. data.sec.gov confirms the filings exist; the figures are SHADE's read. Card 042: WALTER read LIQUID's table and report, not the DTCC files.
