@@ -48,14 +48,14 @@ core/RESEARCH_DIGEST.md              # Consolidated research summary
 
 
 1. Read core/ files for context
-2. Check ../SHARED/thesis/SYSTEM_INTENT.md for any system-wide updates
+2. Check `inbox/` and CARL's `thesis/THESIS.md` header for any system-wide updates *(the `../SHARED/` route does not exist; re-pointed 2026-11-06, PHAN proposal item 4)*
 3. State session type and objectives
 
 ## On Session End
 
 1. Update META_DOMAIN_SKELETON if artifacts created
 2. Create handoff if significant work done
-3. If methodology changes affect other agents, note in ../SHARED/alerts/
+3. If methodology changes affect other agents, send a packet to `AGENTS/CARL/inbox/`
 
 **📬 Inbox:** every packet you consumed this session is `git mv`'d to `inbox/processed/` (never bash `mv`), and anything you deliberately did NOT action is recorded as a dated **PARKED** note in `STATUS.md` — never left silently sitting. If a packet was >30d old, **say so to its sender**; that correction outranks the packet's own content.
 

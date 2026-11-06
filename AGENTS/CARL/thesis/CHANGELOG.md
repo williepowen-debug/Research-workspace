@@ -8,6 +8,22 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-06 (4) — Catch-up on Will's word: V2 September graded, V12 presser, two dated re-marks (no version or score change)
+
+**Will, 13:30 ET via PROME:** *"Okay keep directing CARL to get him up to speed and address any gaps or problems."* Card: `research/2026-11-06_catchup/CATCHUP.md`.
+
+| Item | Old → new | Basis |
+|---|---|---|
+| V2 September | UNREVIEWED → **deep 0/4, broad 0/3, V2 holds 4** | 27 SEC exhibits; OTTO cells matched; KB-598 |
+| V12 presser | UNREVIEWED → **no easing signal, un-fire 0 of 2, score 5** | FOMCpresconf20261028.pdf; KB-597 |
+| CRL-15 | 35% undated → **10% dated 2026-11-06** | No official FY2026 figure; vendor TTM 4.8%. Disclosed: a cut on a row running to a likely miss helps the scored book; first-call stays reported |
+| CRL-23 | 45% undated → **15% dated 2026-11-06** | DHI guide 18.0–18.5% vs ≤17.5%; PHM 24.8% vs ≤22.0%. Same disclosure |
+| DOC-P10 | Grade owed → **NO-MEASUREMENT, grade at the 2nd estimate** | The advance release has no health-care growth line; the row's rule forbids grading by inference. BEA's text ("led by health care") reads adverse |
+| VX-GIG-3.08 | Band conflict → **both stand** | Row bands grade; +70% stays the separate invalidation; no level moved. Dave Q3 +22.4% is NORMAL on both |
+| PHAN shared runner | Open → **declined pending Will's word** | Will 10/31, fewer checkers; instance fixes made instead |
+
+**Not moved:** matrix 53/70, every vector, band and threshold, every other prediction.
+
 ## 2026-11-06 (3) — V16 DROP-BACK BRANCH: PRINT 1 OF 2 on October NFP (no version bump, no score change)
 
 **What:** print 1 of V16's drop-back-to-3 branch, letter *"NFP positive WITH net up-revisions for 2 consecutive prints"* (THESIS matrix COL7; WQ-182), map on `docket/CATALYSTS.tsv` since 10/02.

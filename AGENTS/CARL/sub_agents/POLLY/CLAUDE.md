@@ -126,6 +126,7 @@ workbook/
 2. Log new observations to workbook/ML.tsv
 3. Update workbook/VX.tsv for any threshold changes
 4. If significant findings: Generate State Vector for CARL
+5. Commit your own files by explicit path from the repository root, per root `CLAUDE.md` Git Protocol. A step you did not run is reported NOT RUN. *(Added 2026-11-06, PHAN proposal item 3.)*
 
 **📬 Inbox:** every packet you consumed this session is `git mv`'d to `inbox/processed/` (never bash `mv`), and anything you deliberately did NOT action is recorded as a dated **PARKED** note in `STATUS.md` — never left silently sitting. If a packet was >30d old, **say so to its sender**; that correction outranks the packet's own content.
 

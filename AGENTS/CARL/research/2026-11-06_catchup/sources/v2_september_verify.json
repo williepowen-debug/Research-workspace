@@ -1,0 +1,476 @@
+[
+ {
+  "deal": "BLAST 2023-1",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "13.45",
+  "otto_ms": "24",
+  "cp": [
+   [
+    "9/1/2025",
+    "9/30/2025"
+   ]
+  ],
+  "ms": [],
+  "dq": [],
+  "sha": "cd2f5e36a488f988",
+  "url": "https://www.sec.gov/Archives/edgar/data/1993328/000110465925099585/tm2528567d1_ex99-1.htm"
+ },
+ {
+  "deal": "BLAST 2023-1",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "15.82",
+  "otto_ms": "35",
+  "cp": [
+   [
+    "8/1/2026",
+    "8/31/2026"
+   ]
+  ],
+  "ms": [],
+  "dq": [],
+  "sha": "59335fa11381ed28",
+  "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926107756/tm2624852d1_ex99-1.htm"
+ },
+ {
+  "deal": "BLAST 2023-1",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "16.15",
+  "otto_ms": "36",
+  "cp": [
+   [
+    "9/1/2026",
+    "9/30/2026"
+   ]
+  ],
+  "ms": [],
+  "dq": [],
+  "sha": "e905b7ae58d7d0a5",
+  "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926116030/tm2627320d1_ex99-1.htm"
+ },
+ {
+  "deal": "BLAST 2024-1",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "14.22",
+  "otto_ms": "21",
+  "cp": [
+   [
+    "9/1/2025",
+    "9/30/2025"
+   ]
+  ],
+  "ms": [],
+  "dq": [],
+  "sha": "b376daefdc935704",
+  "url": "https://www.sec.gov/Archives/edgar/data/2006743/000110465925099589/tm2528572d1_ex99-1.htm"
+ },
+ {
+  "deal": "BLAST 2024-1",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "16.48",
+  "otto_ms": "32",
+  "cp": [
+   [
+    "8/1/2026",
+    "8/31/2026"
+   ]
+  ],
+  "ms": [],
+  "dq": [],
+  "sha": "8a5131e24c2bc5be",
+  "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926107766/tm2624852d2_ex99-1.htm"
+ },
+ {
+  "deal": "BLAST 2024-1",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "16.67",
+  "otto_ms": "33",
+  "cp": [
+   [
+    "9/1/2026",
+    "9/30/2026"
+   ]
+  ],
+  "ms": [],
+  "dq": [],
+  "sha": "88a340426d4e3e11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1974820/000110465926116044/tm2627320d2_ex99-1.htm"
+ },
+ {
+  "deal": "EART 2022-2",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "13.21",
+  "otto_ms": "42",
+  "cp": [
+   [
+    "09/01/2025",
+    ""
+   ]
+  ],
+  "ms": [
+   "42"
+  ],
+  "dq": [],
+  "sha": "f4edc34ab4c484a4",
+  "url": "https://www.sec.gov/Archives/edgar/data/1920761/000092963825004067/eart2022-2_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2022-2",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "15.22",
+  "otto_ms": "53",
+  "cp": [
+   [
+    "08/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "53"
+  ],
+  "dq": [],
+  "sha": "641459982c44a19f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1920761/000092963826003712/eart2022-2_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2022-2",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "15.6",
+  "otto_ms": "54",
+  "cp": [
+   [
+    "09/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "54"
+  ],
+  "dq": [],
+  "sha": "0e337e1a9772bf10",
+  "url": "https://www.sec.gov/Archives/edgar/data/1920761/000092963826004141/eart2022-2_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2022-3",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "12.92",
+  "otto_ms": "40",
+  "cp": [
+   [
+    "09/01/2025",
+    ""
+   ]
+  ],
+  "ms": [
+   "40"
+  ],
+  "dq": [],
+  "sha": "2650cf4579475724",
+  "url": "https://www.sec.gov/Archives/edgar/data/1931330/000092963825004068/eart2022-3_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2022-3",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "14.46",
+  "otto_ms": "51",
+  "cp": [
+   [
+    "08/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "51"
+  ],
+  "dq": [],
+  "sha": "ca31aa501c3b436c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1931330/000092963826003713/eart2022-3_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2022-3",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "14.77",
+  "otto_ms": "52",
+  "cp": [
+   [
+    "09/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "52"
+  ],
+  "dq": [],
+  "sha": "9fdf69abfb0b7b43",
+  "url": "https://www.sec.gov/Archives/edgar/data/1931330/000092963826004142/eart2022-3_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2023-1",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "10.83",
+  "otto_ms": "32",
+  "cp": [
+   [
+    "09/01/2025",
+    ""
+   ]
+  ],
+  "ms": [
+   "32"
+  ],
+  "dq": [],
+  "sha": "987657cf1b7250b3",
+  "url": "https://www.sec.gov/Archives/edgar/data/1964225/000092963825004072/eart2023-1_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2023-1",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "12.32",
+  "otto_ms": "43",
+  "cp": [
+   [
+    "08/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "43"
+  ],
+  "dq": [],
+  "sha": "c4ef4a4a21013787",
+  "url": "https://www.sec.gov/Archives/edgar/data/1964225/000092963826003717/eart2023-1_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2023-1",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "12.26",
+  "otto_ms": "44",
+  "cp": [
+   [
+    "09/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "44"
+  ],
+  "dq": [],
+  "sha": "cb036257e850232b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1964225/000092963826004146/eart2023-1_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2024-1",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "9.29",
+  "otto_ms": "21",
+  "cp": [
+   [
+    "09/01/2025",
+    ""
+   ]
+  ],
+  "ms": [
+   "21"
+  ],
+  "dq": [],
+  "sha": "789a69749fa36e2f",
+  "url": "https://www.sec.gov/Archives/edgar/data/2005087/000092963825004077/eart2024-1_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2024-1",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "10.89",
+  "otto_ms": "32",
+  "cp": [
+   [
+    "08/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "32"
+  ],
+  "dq": [],
+  "sha": "5ee114215b3a2927",
+  "url": "https://www.sec.gov/Archives/edgar/data/2005087/000092963826003722/eart2024-1_exhibit991.htm"
+ },
+ {
+  "deal": "EART 2024-1",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "10.22",
+  "otto_ms": "33",
+  "cp": [
+   [
+    "09/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "33"
+  ],
+  "dq": [],
+  "sha": "c15c4ec5b796788f",
+  "url": "https://www.sec.gov/Archives/edgar/data/2005087/000092963826004151/eart2024-1_exhibit991.htm"
+ },
+ {
+  "deal": "SDART 2022-6",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "10.56",
+  "otto_ms": "37",
+  "cp": [
+   [
+    "09/01/2025",
+    ""
+   ]
+  ],
+  "ms": [
+   "37"
+  ],
+  "dq": [],
+  "sha": "525113822aed2886",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239273/d46366dex991.htm"
+ },
+ {
+  "deal": "SDART 2022-6",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "11.01",
+  "otto_ms": "48",
+  "cp": [
+   [
+    "08/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "48"
+  ],
+  "dq": [],
+  "sha": "d8352140144a7397",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526390863/d146063dex991.htm"
+ },
+ {
+  "deal": "SDART 2022-6",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "11.24",
+  "otto_ms": "49",
+  "cp": [
+   [
+    "09/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "49"
+  ],
+  "dq": [],
+  "sha": "a5238be97f6aaf90",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421880/d166528dex991.htm"
+ },
+ {
+  "deal": "SDART 2023-1",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "9.81",
+  "otto_ms": "33",
+  "cp": [
+   [
+    "09/01/2025",
+    ""
+   ]
+  ],
+  "ms": [
+   "33"
+  ],
+  "dq": [],
+  "sha": "2121eb6f40571165",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239286/d71245dex991.htm"
+ },
+ {
+  "deal": "SDART 2023-1",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "10.09",
+  "otto_ms": "44",
+  "cp": [
+   [
+    "08/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "44"
+  ],
+  "dq": [],
+  "sha": "784f78ea35c066ff",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526390861/d156346dex991.htm"
+ },
+ {
+  "deal": "SDART 2023-1",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "10.1",
+  "otto_ms": "45",
+  "cp": [
+   [
+    "09/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "45"
+  ],
+  "dq": [],
+  "sha": "d10b2eb19b6ed5b4",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421907/d188159dex991.htm"
+ },
+ {
+  "deal": "SDART 2024-1",
+  "period": "2025-09-01/2025-09-30",
+  "otto_dq": "8.89",
+  "otto_ms": "21",
+  "cp": [
+   [
+    "09/01/2025",
+    ""
+   ]
+  ],
+  "ms": [
+   "21"
+  ],
+  "dq": [],
+  "sha": "1f094013aa7c2876",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312525239308/d67309dex991.htm"
+ },
+ {
+  "deal": "SDART 2024-1",
+  "period": "2026-08-01/2026-08-31",
+  "otto_dq": "9.9",
+  "otto_ms": "32",
+  "cp": [
+   [
+    "08/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "32"
+  ],
+  "dq": [],
+  "sha": "e6f7fd060346b5b8",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526390935/d157532dex991.htm"
+ },
+ {
+  "deal": "SDART 2024-1",
+  "period": "2026-09-01/2026-09-30",
+  "otto_dq": "10.04",
+  "otto_ms": "33",
+  "cp": [
+   [
+    "09/01/2026",
+    ""
+   ]
+  ],
+  "ms": [
+   "33"
+  ],
+  "dq": [],
+  "sha": "5472df1e705ce0b2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1383094/000119312526421940/d183408dex991.htm"
+ }
+]
