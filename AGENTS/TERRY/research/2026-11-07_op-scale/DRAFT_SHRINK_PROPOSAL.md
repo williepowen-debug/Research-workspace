@@ -1,27 +1,26 @@
 # GATE-OP-SCALE-01 — DRAFT grade and structural-shrink proposal
-**Status: DRAFT v4, 2026-11-06, revised against PROME's recount (`PROME/reports/2026-11-05_op-scale-recount.md`, N = 4, R = 6) and RED's final report (S59 version 4, 374338577, `AGENTS/RED/reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`). It cites that version only. TERRY's contest of the recount is `PROME/inbox/2026-11-06_from-TERRY_op-scale-contest.md`: one ruling contested, and until PROME or Will settles it this draft shows both figures. Not a grade. The grade date is Saturday 2026-11-07, spec-frozen.** No card may cite this row to fire. No roster, cadence, position or threshold changed by this file. RED: if Will wants a shrink, option B over A; option C stays legal; the proposal is not ready to adopt as written. RED's read carries RED's own seat conflict, and no independent reader has read this version.
+**Status: DRAFT v4, 2026-11-06, revised against PROME's recount (`PROME/reports/2026-11-05_op-scale-recount.md`, N = 4, R = 6) and RED's final report (S59 version 4, 374338577, `AGENTS/RED/reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`). It cites that version only. TERRY's contest of ruling 4 (`PROME/inbox/2026-11-06_from-TERRY_op-scale-contest.md`) was ACCEPTED by PROME 2026-11-06: N = 5, R = 6, NOT MET, Will confirms at WQ-599. Not a grade. The grade date is Saturday 2026-11-07, spec-frozen.** No card may cite this row to fire. No roster, cadence, position or threshold changed by this file. RED: if Will wants a shrink, option B over A; option C stays legal; the proposal is not ready to adopt as written. RED's read carries RED's own seat conflict, and no independent reader has read this version.
 
 ## 1. Frozen test and who grades
 Grade from the full letter, `PROME/archive/GATES_CONDITION_LETTERS_2026-08-22.md` (crc32 3608594114), not the live GATES summary; the post holds no guard text. By 2026-11-07 the agent-proposed book shows N ≥ 10 CLOSED positions, else "the response is structural shrink, not another slate." N counts distinct closed positions with distinct entry decisions, never rows, tranches or split children. Perimeter: live capital, agent-proposed, Will-approved, closed. **The verdict runs on N alone.** R is reported beside it; dropping R is the one clause Will may choose. Any threshold, gate or kill line loosened in the window is shown at grading.
 
 **Process:** N is a ledger count that ties, but the perimeter calls, R and the tier sort are judgement, and TERRY made them. So PROME recounts N and R from `PAPER_BOOK.tsv` and `setups/INDEX.md`, TERRY contests, Will confirms. That borrows GATE-NEXUS-SEAT-01's form; it is new for this gate, one step, no new checker.
 
-## 2. Count, on PROME's rulings, with TERRY's one contest
+## 2. Count, on PROME's rulings as amended by the accepted contest
 | Position | Entry | Closed | Realized | In N? |
 |---|---|---|---|---:|
 | TRY-FIRE-004 TLT Sep-30 77P | card, filled 7/20 | 9/30 (tranches count once) | −$84.53 | 1 |
 | TRY-VIOLET-VIXCS | card, filled 7/27 | 7/30 | −$111.60 | 1 |
 | TRY-BRENT-REFINER VLO ×1 | WQ-213, filled 9/18 | 11/5 at $366.665 vs $412.00 | −$45.33 | 1, ruling 1 |
 | TRY-WAL-ROLL70 WAL Dec-18 70P ×1 | WQ-144, filled 9/2 | by 11/5, date UNKNOWN | UNKNOWN, loss cannot exceed the $220 basis | 1, ruling 2, INFERRED |
-| **N, PROME's recount** | | | **−$241.46 on three known prices** | **4** |
-| USO Sep-18 150/165 call spread ×1 (Robinhood), BRENT's tail-rider | BRENT proposal, Will "yes" 7/21, filled 7/24 | 9/10, $630.00 vs $300.00 | +$330.00 | **contested, TERRY says in** |
-| **N, TERRY's contest** | | | **+$88.54 on four known prices** | **5** |
+| USO Sep-18 150/165 call spread ×1 (Robinhood), BRENT's tail-rider | BRENT proposal, Will "yes" 7/21, filled 7/24 | 9/10, $630.00 vs $300.00 | +$330.00 | 1, ruling 4 as amended |
+| **N** | | | **+$88.54 on four known prices** | **5** |
 
-**NOT MET on every reading.** A positions-only reading of the rulings gives N of 3 to 6; no reading respecting the perimeter reaches 10. If WAL closed for nothing the total on TERRY's reading is −$131.46, a floor. Quota fingerprint absent.
+**NOT MET on every reading.** A positions-only reading of the rulings gives N of 3 to 6; no reading respecting the perimeter reaches 10. If WAL closed for nothing the total is −$131.46, a floor. Quota fingerprint absent.
 
 Rulings: VLO counts because the card's position was the one share (WQ-213 up to 3; 1 filled; 2 stood down; Will's later 2 are a different entry, D-78). WAL-ROLL70 counts as closed on absence from the 11/5 panel, INFERRED, no sale row seen; taking it out lowers N by 1. QQQ 690/670P stays out: Will's hand ahead of T1, ×2 vs the card's ×1, no approval row; ⚠️ this excludes the desk's best-known result, and counting it would add 1 without changing the verdict.
 
-**The USO spread is why the recount's 4 is not yet settled.** It sits under "management" in `setups/INDEX.md` only because TERRY's management card was written on 9/10, seven weeks after the entry. The entry was BRENT's: proposed 7/21, Will "yes" 7/21 (8b938bf54), the 150/165 spread was on that fill menu, Will directed the pivot to it on 7/23 (60ec48d28), filled 7/24 (a904de56a). It was open at the 8/8 baseline and closed inside the window. It is absent from `PAPER_BOOK.tsv`, which is why a count built from TERRY's ledgers missed it; this draft's earlier versions missed it the same way. The other four management cards the recount names trace to no agent proposal found: USO 135C (construction rule #20, no owner agent), TLT 85P and 82P (Will's grind stack, before any card), XLE 65C (no proposal found; D-49). Search bounded to TERRY's and BRENT's ledgers and git history; other desks' TRADE files show no execution log, so this is SEARCH-NOT-FOUND, not VERIFIED absence.
+**Why the USO spread counts, where the first recount had 4.** It sits under "management" in `setups/INDEX.md` only because TERRY's management card was written on 9/10, seven weeks after the entry. The entry was BRENT's: proposed 7/21, Will "yes" 7/21 (8b938bf54), the 150/165 spread was on that fill menu, Will directed the pivot to it on 7/23 (60ec48d28), filled 7/24 (a904de56a). It was open at the 8/8 baseline and closed inside the window. It is absent from `PAPER_BOOK.tsv`, which is why a count built from TERRY's ledgers missed it; this draft's earlier versions missed it the same way. The other four management cards the recount names trace to no agent proposal found: USO 135C (construction rule #20, no owner agent), TLT 85P and 82P (Will's grind stack, before any card), XLE 65C (no proposal found; D-49). Search bounded to TERRY's and BRENT's ledgers and git history; other desks' TRADE files show no execution log, so this is SEARCH-NOT-FOUND, not VERIFIED absence.
 
 Not counted: every other MGMT-* row (Will-direct entries). Approved but unfilled cards (RSP WQ-591, UNG WQ-573, HYG WQ-513, HYG WQ-615, ORCL WQ-514) cannot add to N by 11/7: a fill opens a position. UNG T1 fired 11/5 and HYG WQ-615 T1(a) fired 11/6 on the 11/5 cell, 348 bp; RSP read eligible at the mid 11/6. None has a known fill. WQ-616 was passed and WQ-617 not approved.
 
@@ -30,8 +29,8 @@ One-cent note: INDEX has the ×15 close at −$154.64 (broker basis $173.44), PA
 ## 3. R and the loosened log
 | Basis | N | R |
 |---|---:|---:|
-| Cumulative, the letter's baseline | 4 (5 on TERRY's contest) | **6**: PB-0004 and 007's DENY plus the 4 below |
-| Window only, 8/8–11/7 | **+2 (+3 on the contest)**; one more on a full-close basis, since 004 was part-closed at 8/8 | 4 |
+| Cumulative, the letter's baseline | 5 | **6**: PB-0004 and 007's DENY plus the 4 below |
+| Window only, 8/8–11/7 | **+3**; one more on a full-close basis, since 004 was part-closed at 8/8 | 4 |
 
 **Refusals in the window, audited row by row.** Marks are RED's vendor screening quotes, 11/5 10:02 ET, fees of about $13 excluded.
 
@@ -67,7 +66,7 @@ The test failed fairly, and it does not by itself size the response. RED's judge
 
 | Explanation | RED's weight | Signal | Limit |
 |---|:--:|---|---|
-| Will runs the capital himself; the card route is not where it goes | 35% | 26 closed MGMT, TRY-MGMT and TRY-EXIT rows outside N vs 2 new in N (3 on the contest) | Rows, not positions; 14 are short-dated QQQ lines; desk influence unmeasured |
+| Will runs the capital himself; the card route is not where it goes | 35% | 26 closed MGMT, TRY-MGMT and TRY-EXIT rows outside N vs 3 new in N | Rows, not positions; 14 are short-dated QQQ lines; desk influence unmeasured |
 | Trigger discipline and card limits held entries back | 30% | Four approved cards unfired; 3 of 4 R rows are caps | Six approvals landed under the rule; X1 did not cap N by itself |
 | Fleet oversized or misallocated | 25% | Hold and dormant tiers, no card: 11.3% of tokens; 33.8% of signals on dormant-only desks | The draft's premise |
 | Horizon and sample bar made 10 hard to reach | 10% | Dec/Jan structures; post § 8: the 10 is a sample-size bar | VLO closed in seven weeks, so closure was possible |
@@ -78,7 +77,7 @@ The best counter: if capital rules left a 41-desk floor with little outlet, that
 | Measure | 8/8 | 11/5 | Source |
 |---|---|---:|---|
 | Active + Tier-2 desks | 30 + 4 = 34 | 34 + 7 = 41 | PROME/ROSTER.md then and now; every addition was Will's ruling, and FERT, CRUISE, YURI were re-classified folders |
-| Closed agent-proposed positions | 2 | 4, or 5 on the contest | § 2 |
+| Closed agent-proposed positions | 2 | 5 | § 2 |
 
 **Cost, measured by RED,** tokens 10/06–11/05, direct share, on § 6's tiers with TERRY on-call:
 
