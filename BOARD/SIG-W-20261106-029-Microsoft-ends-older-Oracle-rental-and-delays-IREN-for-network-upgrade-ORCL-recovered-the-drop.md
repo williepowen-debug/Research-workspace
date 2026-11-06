@@ -20,6 +20,8 @@ word_count: 428
 dispatch_note: "Bookmarks 2, 3, 6, 7, 8, 11, 13. Rule 9 fetch helpers read CNBC and three of four Oracle pages. No Oracle row in the four threshold registries. Prices are intraday."
 kill_strings: ["Oracle's AI deals are falling apart one by one"]
 ---
+
+> **Corrections, November 6 — SIG-W-20261106-034 and -037:** Reuters places the Microsoft wind-down inside a larger reassessment of cloud partnerships, so it is not only older capacity. Oracle CDS was 305 bp on November 5, above the 288 bp here, and 3.25% is untested for today. IREN's "funded" covers only 0.3 GW. Original text preserved below.
 # Microsoft lets a 2023 Oracle rental lapse and asks IREN for a network upgrade; ORCL recovered the drop; the "deals falling apart" post overreaches
 
 Two reports, same customer.

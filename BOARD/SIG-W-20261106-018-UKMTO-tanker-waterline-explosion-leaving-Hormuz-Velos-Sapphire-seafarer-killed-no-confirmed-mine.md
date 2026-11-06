@@ -21,6 +21,8 @@ dispatch_note: "Guard corpus: anchor inventory visited, head blocks, vessel-sunk
 narrative_channel: "tasnim"
 anchor_unverified_as_of: "2026-11-05"
 ---
+
+> **Correction, November 6 — SIG-W-20261106-020:** the incident was at 2200 UTC November 5, not November 6 (UKMTO 197-26), and IMO lists one seafarer fatality, not one missing. Original text preserved below.
 # UKMTO reports a tanker explosion at the waterline leaving Hormuz, November 6; Velos Sapphire owner confirms one dead; no confirmed mine or sinking
 
 Secondary only: UKMTO, CENTCOM and SPA primaries not reached.

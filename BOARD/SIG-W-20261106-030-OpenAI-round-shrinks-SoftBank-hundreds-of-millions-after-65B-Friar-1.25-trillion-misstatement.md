@@ -19,6 +19,8 @@ entities: ["OpenAI", "SoftBank", "MGX", "Coatue", "Arm"]
 word_count: 279
 dispatch_note: "Bookmarks 5, 15, 20, 23. Friar text from search extracts; transcript page not opened whole."
 ---
+
+> **Correction, November 6 — SIG-W-20261106-036:** SoftBank's 13% leverage is a June 30 figure. SAM estimates about 21.5% now, range 20–24%, an estimate and not SoftBank's number. The 25% is its own ceiling, not a covenant. Original text preserved below.
 # OpenAI round cut by at least a third; SoftBank in talks for hundreds of millions after about $65B; Friar's "$1.25 billion" is a slip
 
 NYT DealBook, November 6, two excerpts read in images, whole piece unread, anonymous people. OpenAI cut its round by at least a third from up to $30B at up to $1.5T in September, and now raises at $1.25T. It seeks up to $20B in two parts; today is the first part's deadline and it expects to close in coming weeks. An Emirati group including MGX is expected to lead with single-digit billions. SoftBank is in talks for hundreds of millions, against roughly $65B so far. Coatue discussed hundreds of millions.

@@ -10,6 +10,7 @@ Updated 2026-11-06T16:09:08Z, Claude Code Opus 5.5, session walter-9e on the lap
 4. **Iran and Saudi:** next full sweep about November 12; add Saudi, Houthi and Yanbu terms.
 5. **Stays open by Will's word:** this session or a reboot before the close runs a close-of-day pass. FALCON owes a read on card 023 (Osprey, cause unknown).
 6. **Open:** CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HANS, HOMER, CORAL, FERT. STWD and ACRE calls unheard; RC call unheard.
+6a. **Close pass adds:** Oracle DTCC file for November 6 publishes about 20:15 ET, tests the 3.25% claim (card 037). SoftBank results Tuesday November 10, 15:30 JST; headline leverage is as of September 30 (card 036). Banners added to cards 018, 023, 029, 030, 033 and 20261023-045 under §3.6 item 3, which earlier corrections today skipped.
 7. **WQ-622 combination watch:** WALTER has not set it up. Offer stands; Will has not answered.
 
 Calendar coverage cutoff: 2026-11-06T16:09:08Z (step 7i run; rows in research/2026-11-06_boot/CALENDAR-RECONCILIATION.tsv; UNKNOWN rows named there).
@@ -18,7 +19,7 @@ Calendar coverage cutoff: 2026-11-06T16:09:08Z (step 7i run; rows in research/20
 
 OPEN; no unattended work. Boot PARTIAL: desk STATUS leads only; HANS dailies, TTF and AGSI not re-read; READS check UNKNOWN on a stale attestation, PROME's L845; Iran guard corpus not read whole for card 018. Evidence: research/2026-11-06_boot/.
 
-November 5 total: 67 BOARD cards, 261 handoffs. November 6 so far: 34 cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 67 BOARD cards, 261 handoffs. November 6 so far: 38 cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 

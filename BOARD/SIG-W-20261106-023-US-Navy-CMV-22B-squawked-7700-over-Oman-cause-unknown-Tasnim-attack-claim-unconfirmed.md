@@ -21,6 +21,8 @@ dispatch_note: "Bookmark 11. Decays fast, so routed at low confidence with the l
 narrative_channel: "tasnim"
 anchor_unverified_as_of: "2026-11-05"
 ---
+
+> **Correction, November 6 — SIG-W-20261106-027:** this card cited only a benign precedent. An Apache was lost off Oman June 8, tied to an Iranian drone by a US initial inquiry, search text only. Cause here is still unknown. Original text preserved below.
 # US Navy CMV-22B squawked emergency over Oman November 6; cause unknown, Tasnim attack claim unconfirmed
 
 A Flightradar24 screenshot on Mario Nawfal's X post shows RUDY72, CMV-22B, registration 169450, United States Navy, squawk 7700, at 12:55 UTC November 6, about 9,950 feet and 100 knots, near Mirbat, Oman. The tracker image was read; its authenticity was not tested.

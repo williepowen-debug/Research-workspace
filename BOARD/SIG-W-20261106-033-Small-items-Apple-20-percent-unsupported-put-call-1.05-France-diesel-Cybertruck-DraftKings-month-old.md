@@ -20,6 +20,8 @@ word_count: 372
 dispatch_note: "Bookmarks 1, 4, 9, 10, 12, 16, 18, 19, 21, 22, 24, 25. Item 17 is a duplicate of card 024. Logged under Will's November 5 rule on subthreshold news. Apple line to be rechecked at the close pass."
 kill_strings: ["Apple cuts AI infrastructure spending by 20%"]
 ---
+
+> **Correction, November 6 — SIG-W-20261106-035:** equity put/call on November 5 is 0.89, Cboe, not 1.05. It is not a 2024–26 range high and is below Liberation Day's 1.02. Other lines stand. Original text preserved below.
 # Small items: Apple 20% claim unsupported; put/call 1.05; France 3.6M barrels unconfirmed; Cybertruck ends; DraftKings suit is a month old
 
 Each line is for its owner; no asks.
