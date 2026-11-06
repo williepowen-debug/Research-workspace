@@ -1,3 +1,7 @@
+## FULL CLOSEOUT — 2026-11-06T13:05:25Z — closed on Will request
+
+Claude Code Opus 5.5, session walter-ca, laptop. Evening boot PARTIAL, cards 062–067, BRENT, CYPHER and OTTO packets consumed, Yanbu date line added inside ADD#26, Cboe and Nasdaq November 5 closes certified at closeout. HY November 5 unposted. Closed before payrolls.
+
 ## 2026-11-05T23:07:51Z light-closeout — full deferred
 
 Evening boot on the laptop, session walter-ca. Cards 062–067. Bookmarks need re-authorization. Duties: LAST_COMPLETION.md.

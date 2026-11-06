@@ -1,12 +1,12 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-05T23:41:46Z, Claude Code Opus 5.5, session walter-ca on the laptop. Evening boot, session open; light record, full deferred. Coverage PARTIAL.
+Updated 2026-11-06T13:05:25Z, Claude Code Opus 5.5, session walter-ca on the laptop. CLOSED on Will request; FULL closeout, coverage PARTIAL.
 
 ## RESUME — do these first
 
 1. `git pull --rebase` at root, then ordinary boot.
-2. **Certify the November 5 close:** still unposted at 23:01Z: Cboe VIX and SKEW history; FRED HY, CCC, VIXCLS [Nov 5]; Nasdaq WAL, KRE closes. Posted and read: VIX9D 32.66, VIX3M 25.55, VVIX 134.99. HY 357 or wider is +25 bp, safety net FLASH. VIX >=18 starts RED-FT-06 exit run. REGINALD grades WAL; VIOLET graded VVIX; LIQUID grades Gate 069 L4.
-3. **November 6:** payrolls 08:30 ET, LABOR launch sits with WQ-626; STWD and ACRE; Ready Capital call 08:30 ET; WQ-556 C check; MBI and GTCR may seek to intervene in the CoBank action. Ready Capital release (063), Cable One 10-Q (064) and H.4.1 (LIQUID) closed tonight.
+2. **HY first:** FRED HY, CCC, VIXCLS [Nov 5] unposted at 13:03Z. HY 357 or wider is +25 bp, safety net FLASH. VIX >=18 starts RED-FT-06 exit run. Cboe and Nasdaq November 5 closes are certified: research/2026-11-06_closeout/THRESHOLD-SCAN.md.
+3. **November 6, closed before release:** no WALTER session at payrolls 08:30 ET; step 7i owes NFP, STWD, ACRE, Ready Capital call, WQ-556 C check, any GTCR or MBI intervention in the CoBank action. LABOR was not listed at 13:03Z; launches are PROME's under WQ-626 A.
 4. **Iran and Saudi:** FALCON and BRENT graded 058 and 056 November 5, nothing fired; two held headlines closed by card 065. Next full sweep about November 12; add Saudi, Houthi and Yanbu terms to any sweep query.
 5. **Open from today:** X bookmarks need Will's browser on the laptop: token refresh failed, nothing marked, rerun `x_bookmarks_scan.py --authorize`; CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HANS, HOMER, CORAL, FERT.
 6. **WQ-622 combination watch:** WALTER has not set it up. PROME's guide asks every desk at its next session; proposal to Will pending this boot.
@@ -15,9 +15,9 @@ Calendar coverage cutoff: 2026-11-05T23:07:51Z (step 7i run; rows in research/20
 
 ## STATUS
 
-Evening boot PARTIAL on the laptop WilliePOwen: desk STATUS reads were leads for desks changed since the last closeout; European yields and TTF carried from the morning scan; X bookmarks unavailable; READS check UNKNOWN on a stale attestation, PROME's L845, PROME's registry row not touched. Session open; no helper, study or unattended task. Evidence: research/2026-11-05_evening-boot/.
+CLOSED on Will request; no active helper, study or unattended work. Boot was PARTIAL on the laptop: desk STATUS leads only; European yields and TTF carried from the November 5 morning scan; X bookmarks unavailable; READS check UNKNOWN on a stale attestation, PROME's L845. Evidence: research/2026-11-05_evening-boot/, research/2026-11-06_closeout/.
 
-November 5 total: 67 BOARD cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 67 BOARD cards, 261 handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
@@ -41,14 +41,12 @@ Broad selloff began in AI names and reached banks, reported cause only, no capex
 
 - Final CME certification, direct ICE Brent/TTF settlements and full matched persistence chains remain unavailable. Boundary 8 switches to January November 2 with count restarted. January prices dated October 30 cannot become November 2 observations. WQ-533 vendor permission cannot be extended to WALTER boundary counts.
 - Energy-OAS BAMLH0A0E2Y is an invalid series, confirmed with authenticated positive control; no verified energy feed, not a transient fetch fault. Historical ICE H0EN is a lead only. Worldscale boundary 5 is an uninstrumented/retired lane requiring new registration; HANS T12 is registered non-live, with swapline proxy shelved by WQ-534. CME XEURBI public-history lead still needs retrieval and basis adjudication. No silent broad-HY, ETF or futures proxy.
-- Boundary 7 reconciliation CLOSED: the exact historical contract is retired at BRENT; WALTER row 7 is now a retired tombstone, not a 457 substitute. New rig alerts require new registration. CREED owner evidence is 5/11 reporters/cut-or-liquidating names as of October 30, not registry's older 4/11. Qualitative CMBS redefault, performing-collateral forced-sale conjunction, tenant demand and realized cohort erosion remain owner-limited; next releases are future. No CREED launch. HANS T14/T15 event searches remain bounded.
-- Native Codex reads/messages verified for existing PROME/TERRY tasks; complete cross-runtime absence/lifecycle visibility remains UNKNOWN. PROME's bridge uses newline JSON whereas this Codex Unix endpoint requires WebSocket Upgrade; PROME registered the existing-adapter repair as L907. WALTER has not altered owner code or granted messaging authority.
-- Earlier intake limits retained: Al-Araby original interview/official diplomacy acceptance unavailable; AP/MediaLine to/by-two-days discrepancy; NCLC direct body unavailable; AFN/Arivo denominators unverified; Comcast planned hiring/transfers are not realized employment. Earlier Kioxia ASP, Blue Owl release, selected paywalled originals, Chicago PMI primary and cards 005/009/010 limits persist. FT 006 cells were owner-validated by ISHM; current-history/direct monthly import y/y limits remain, with correct Table 5/YTD bases recorded. Refinery reporting corroborated, not physically inspected.
-- VULCAN design completed, deployment explicitly deferred by PROME October 16; no deployment inferred. Historic CATO ACTION has substantive evidence without exact receipt; no routine wake. October 27 CARL false action-header warning is fixed; the published signal is unchanged. REGINALD's old scripts/market.py pointer remains missing; settled_bars.py plus Nasdaq supplied the prior bank-close check. Two retirement candidates retained for substantive live references.
+
+Four older limit bullets (boundary 7, Codex messaging, earlier intake limits, VULCAN and CATO records) moved verbatim to research/2026-11-06_closeout/LC-GAPS-ROTATED.md; they remain binding.
 
 ## WILL_NEEDS
 
-No WALTER decision open. FALCON, BRENT and LABOR launches are PROME's and Will's call before payrolls. Held-VLO discharged: Will sold the one share November 5 10:05 EST at $366.665 per TERRY's record. CREED ran on Will's word: T-01a FIRED, T-08b at 7 of 11, S1 3 to 4 Will-ruled November 5. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding.
+No WALTER decision open. Your hand needed once: rerun `python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize` on the laptop. Offered, not begun: WALTER's WQ-622 combination watch. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding. WQ-626 ruled A November 5.
 
 ## FOLLOW-UP
 
@@ -60,8 +58,7 @@ No WALTER decision open. FALCON, BRENT and LABOR launches are PROME's and Will's
 3. November 11: Veterans Day HY non-session bridge. About November 12: full Iran sweep, MEMORY calendar check, staleness sweep; UNG reversal deadline remains November 12. November 13: WQ-556 C remeasurement and REG-T-06 CFR grade. Mid-December ERCOT audit and WATT EO 14421 before December 24 remain unchanged.
 4. FLG/REGINALD first reviews are complete; FLG M3 allocation waits for T-02/10-Q, REGINALD filing/cause questions and November 7 detector fix survive. CORAL/other semantic consumption is unproved. Sinokor legal-action, dated Iran answer/Qatar draft and LIQUID October issuance retain normal owner review; no unresolved headline becomes a new commissioned study.
 5. Prior cleanup/L845/VPS/transcription and boundary 7 repairs remain complete; no repeat repair. Prior CATO substantive evidence lacks an exact receipt; backlog alone does not authorize a wake. No continuing helper or unattended WALTER activity.
-6. LAST_COMPLETION is 24.7 KB, over the 24,412 B rotation trigger; rotate verbatim at the next full closeout, stop below 22,785 B.
-7. Idea, not installed: show prior-day change for key instruments in the boot scan, labelled unverified when the vendor withholds it. Extends an existing step; needs Will's word.
+6. Idea, not installed: show prior-day change for key instruments in the boot scan, labelled unverified when the vendor withholds it. Extends an existing step; needs Will's word.
 
 ## SOURCE-SEARCH DISPOSITION — approved October 16, retained
 
@@ -95,8 +92,8 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-05T23:41:46Z",
-  "next_review": "2026-11-06",
+  "as_of": "2026-11-06T13:05:25Z",
+  "next_review": "2026-11-09",
   "publication": [
     {
       "commit": "ee7cc22975fd838b901a1728e1dedf8f3e7c7d37",
@@ -167,13 +164,18 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
       "commit": "59e3f9f602e8fbbc6e64cfcaa4f98d395f728deb",
       "state": "published",
       "note": "Cards 062-064; reached origin on another desk's push."
+    },
+    {
+      "commit": "90e6ca8857c370d7f54828f5921c682a0d92df6e",
+      "state": "published",
+      "note": "Cards 065-067; reached origin on another desk's push."
     }
   ],
   "delivery": {
     "signal_date": "20261105",
     "total": 261,
-    "delivered": 249,
-    "note": "Cards 062-064 on origin through another desk's push; 12 handoffs for 065-067 pending push; recipient use separate."
+    "delivered": 261,
+    "note": "All day handoffs reconcile by origin proof; 065-067 reached origin on another desk's push; recipient use separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -227,6 +229,10 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
         "sha256": "f8765a684964f3ef38276d297c5d0486a371e1ccf1429ab63060d95b61127d9d"
       },
       {
+        "path": "AGENTS/WALTER/research/2026-11-06_closeout/THRESHOLD-SCAN.md",
+        "sha256": "6da224e9225ddcd7a442843cfaa70ae180b3201326bdfc44a3851842422808f4"
+      },
+      {
         "path": "AGENTS/WALTER/research/2026-11-05_evening-boot/THRESHOLD-SCAN.md",
         "sha256": "fcdb2b36754b748870fac7204a0d978dbb82d73a828ad732a8bb2654275297de"
       },
@@ -243,10 +249,10 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
   "procedure": {
     "tier": "full",
     "boot": "PARTIAL: desk STATUS leads only; READS UNKNOWN on a stale attestation; HANS yields and TTF carried from the morning scan; X bookmarks need re-authorization.",
-    "session": "Evening boot open on the laptop; no active helper, study or unattended work."
+    "session": "CLOSED on Will request; no active helper, study or unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-061 including FLASH 016 and 017. Batches BM-20261105-01 through -07 closed.",
+    "11": "Cards 001-067 including FLASH 016 and 017. Batches BM-20261105-01 through -09 closed.",
     "13": "REGISTRY refreshed for WALTER, REGINALD, BROCK, CYPHER, LABOR, RED, TERRY before NETWORK.",
     "12(a,b)": "Counts and NETWORK refreshed; last tape is vendor post-close.",
     "12(c)": "BALANCED baseline, labor LOOSE for November 6; flags unchanged.",
@@ -255,9 +261,9 @@ FULL closeout on Will request. Operational coverage PARTIAL. Publication is not 
     "14": "MEMORY Feedback, #62 extended, #63, #64 added; rotated verbatim to MEMORY_PROMOTED at the read-cap trigger.",
     "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
     "15": "Resume list and calendar cutoff rewritten.",
-    "16": "Will requested closeout; push on a verified-clean tree or deferred, see final report.",
-    "checks": "research/2026-11-05_close-pass/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
-    "Tier1": "Vendor post-close 16:31 ET; no official close certified."
+    "16": "Will requested closeout; push deferred if foreign work is dirty, see final report.",
+    "checks": "research/2026-11-06_closeout/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
+    "Tier1": "Cboe and Nasdaq November 5 closes certified 13:03Z; FRED November 5 unposted."
   }
 }
 END_CLOSEOUT_RECEIPT -->
