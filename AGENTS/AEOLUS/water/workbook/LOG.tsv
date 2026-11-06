@@ -197,3 +197,5 @@ date	event	detail	source	pulled_at	routed_to
 2026-11-05	yangtze_retry_failed	Fourth cjh.com.cn timeout today, curl http 000. No source substituted	FAILED: cjh.com.cn	2026-11-05 13:37 ET	
 2026-11-05	emmerich_near_published_nnw	Emmerich 1.0 cm vs WSV NNW -1 (2022) is NOT a near-record: 2026 series reads -24 to -26 cm 8/16-18. KB-253	WSV PEGELONLINE	2026-11-05 13:37 ET	
 2026-11-05	usda_barge_wk44	Week of 11/03: St. Louis 564.06 unchanged, ending the run of weekly falls; six other reaches fell 1-6%	USDA AMS deqi-uken	2026-11-05 13:37 ET	
+2026-11-06	c5_regrade	C5 still FIRED on complete days 11/03-05: Kaub 18.010/22.260/19.260, Duisburg 161.427/154.427/151.802. KB-AEO-261. Done directly by AEOLUS	WSV PEGELONLINE	2026-11-06 07:40 ET	
+2026-11-06	combo_theme_seed	KB-AEO-262, -263 and -268 seed combination themes from existing rows; no new observation. Done directly by AEOLUS	AEOLUS KB	2026-11-06 07:42 ET	

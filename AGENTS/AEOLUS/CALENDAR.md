@@ -78,10 +78,13 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | ✅ ~~2026-10-30~~ | ~~*Nevada v. Burgum* responses on Arizona's intervention~~ | C6 | ECF 49, 50 filed; intervention order 11/03, text unread (KB-238). A PI motion at any time = ORANGE |
 | ✅ ~~2026-11-01~~ | ~~Rhine re-entry watch~~ | C5 | **FIRED on the 40/180 key, complete days 11/02–04 (KB-237)** |
 | **2026-11-10** | *Nevada v. Burgum* — responses due on CAP's motion to intervene (ECF 35) · **MWD board** | C6 | CA litigation decision (closed session 10/27) may surface; MWD's internal November deadline on sharing its 440 kaf cut among member agencies (KB-254, Bloomberg Law 9/24) |
-| **~2026-11-06** | FAO Food Price Index (October); date assumed from the usual first-Friday pattern, not read from FAO | C2 | cereals read; needed for owed #6 |
+| ✅ ~~2026-11-06~~ | ~~FAO Food Price Index (October)~~ | C2 | **READ 11/06: cereals 116.8, −4.5% m/m, +12.5% y/y (KB-260).** Next FAO 12/4 (FAO's published list) |
 | **2026-12-10** | *Nevada v. Burgum* — federal defendants' answer due (ECF 34) | C6 | — |
 | ✅ **2026-11-02** | **C6 milestone band → YELLOW** | C6 | **GRADED YELLOW on the letter (KB-238)**. NIFC November outlook same day: AEO-09 HIT (KB-239) |
 | **2026-12-02** | **C6 milestone band → ORANGE window opens** (≤30 d) | C6 | also Orange at any time on a PI motion in *Nevada v. Burgum* |
+| **2026-11-30** | **AEO-15** Rhine test break read · **AEO-16** November 24MS Mead min read | C5 · C6 | registered 11/06 |
+| **2026-12-10** | **AEO-14** CPC AO run read (window 11/07–12/04) | C3 | registered 11/06 |
+| **2026-12-20** | **AEO-17** RONI OND first print latest date (expected ~12/7) | ENSO | registered 11/06 |
 | **2026-12-04** | **Downward-coupling log owed to TERRY** — UNG card kill line after any fill: sell if AEOLUS sees no cold descending by 12/04, else by 01/08 | C3 | T1 fired 11/5 (KB-255); card commit 46bffda6c |
 | **🔴 2027-01-01** *(secondary-sourced deadline)* | **Lower Basin implementing agreement executed + Arizona legislature concurrent resolution** | C6 | unexecuted ⇒ §5.3.A.3 *"the Secretary shall determine"* the state split of the 1.25 maf cut. **Milestone band re-keyed to this date + the lawsuit (Will-ruled 10/10, KB-205)** |
 | **watch** | ***Nevada v. Burgum*** (D. Nev. 2:26-cv-02665-GMN-NJK, filed 8/24) — seeks vacatur of the ROD/FEIS/Guidelines | C6 | a preliminary-injunction motion or ruling = the governance-vacuum path (KB-203) |
@@ -92,7 +95,7 @@ The successor regime to the 2007 Interim Guidelines — governs Lake Powell + La
 | **Thursdays 10:30 ET** (next 10/15; exceptions Fri 11/13, Wed 11/25 noon) | EIA weekly natural-gas storage | C3 → BRENT | context for the winter-demand read; prices are BRENT's |
 | **2026-11-10** | EIA STEO (regional winter HDD forecast) | C3 | 10/6 issue: DJF US −3.2% vs EIA's prior-10-yr average |
 | ✅ ~~2026-10-27~~ | ~~South Africa CEC — 2027 planting INTENTIONS~~ | C2 | **READ 10/29 (KB-224): maize 2,387,200 ha = −12.37% y/y (~−9.6% vs 5-yr); fertilizer vs rainfall NOT separable.** Next: **11/26** CEC final 2026 estimate |
-| **2026-11-06** | FAO Food Price Index (then 12/4) | C2 | Sept cereals 122.8 (+17.2% y/y) — cause not El Niño (KB-199) |
+| **2026-12-04** | FAO Food Price Index | C2 | Oct cereals 116.8 (KB-260) |
 | **WASDE:** 11/10 · 12/10 · 2027: 1/12 · 2/10 · 3/10 · 4/9 · **5/12** · 6/11 | USDA WASDE / PSD (SA corn, Aus wheat) | C2 | **AEO-13 resolves on the 5/12/27 WASDE**; archive the PSD zip each month (PSD keeps only the current vintage) |
 | ~late Feb 2027 *(unverified — projected from the 2026 schedule)* | SA CEC first 2027 production forecast | C2 | the lead read for AEO-13 |
 | **~October** | Q3 cat-loss tally (Gallagher Re / Aon / Swiss Re) | C4 | First vintage that can speak to this fire season; C4 back to 3 at ≥110% |

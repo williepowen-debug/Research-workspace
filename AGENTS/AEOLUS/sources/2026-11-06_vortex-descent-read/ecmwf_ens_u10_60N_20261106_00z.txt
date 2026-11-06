@@ -1,0 +1,12 @@
++ 24h n=50 mean +2.38 min +2.13 max +2.60 below0 0/50
++ 48h n=50 mean +1.07 min +0.79 max +1.46 below0 0/50
++ 72h n=50 mean +0.71 min +0.32 max +1.22 below0 0/50
++120h n=50 mean -1.92 min -2.99 max -1.10 below0 50/50
++144h n=50 mean -2.20 min -3.54 max -1.21 below0 50/50
++168h n=50 mean +0.37 min -1.59 max +1.62 below0 13/50
++192h n=50 mean +3.04 min +0.66 max +5.48 below0 0/50
++216h n=50 mean +3.77 min +1.58 max +6.45 below0 0/50
++240h n=50 mean +3.78 min +1.16 max +6.15 below0 0/50
++288h n=50 mean +5.41 min +2.03 max +9.12 below0 0/50
++360h n=50 mean +12.64 min +6.69 max +19.95 below0 0/50
++ 96h n=50 mean -0.30 min -1.05 max +0.46 below0 37/50 (run separately)

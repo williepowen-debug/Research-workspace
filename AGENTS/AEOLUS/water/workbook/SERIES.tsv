@@ -1142,3 +1142,5 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-11-03	usda_barge_rate_pct	687.5	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Cincinnati; = $32.24/ton (benchmark 4.69)
 2026-11-03	usda_barge_rate_pct	687.5	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Lower Ohio; = $30.66/ton (benchmark 4.46)
 2026-11-03	usda_barge_rate_pct	452.5	pct_of_1976_tariff	USDA-AMS-deqi-uken	2026-11-05 13:37 ET	Cairo-Memphis; = $14.21/ton (benchmark 3.14)
+2026-11-05	kaub_stage	19.0	cm	WSV-PEGELONLINE-KAUB	2026-11-06 07:40 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 19.260; AT/BELOW live C5 key 40 by -20.740 (WQ-562 key since 10/31)
+2026-11-05	duisburg_ruhrort_stage	152.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-11-06 07:40 ET	daily mean of 15-min obs, local CET day (n=96 of 96); UNROUNDED mean 151.802; AT/BELOW live C5 key 180 by -28.198 (WQ-562 key since 10/31)
