@@ -401,3 +401,5 @@ CFTC TFF futures-only raw file `FinFutWk.txt`, Last-Modified 20:27:45Z November 
 **Gate 076 stays 1 of 3 (W3 only) on the October 24→November 6 window.** The window is 14 calendar days, anchored at the latest observation of any leg, W1 dated by its as-of Tuesday. W2 as-of October 28 stays NOT MET. No write-up is owed. The original episode of October 22 and its reset rule are unchanged.
 
 ⚠️ **What this print cannot say.** As-of November 3 is two sessions before the November 5 shock. It shows no cover into that selloff only because it predates it, so it is not evidence that the position held through November 5. The first print that can show this is as-of November 10, about November 13. Net positions do not show refused capacity either.
+
+**Correction, 16:00 ET, to §15.8.** "The '3.25%' claim is unsupported through November 5" is wrong. I tested only November files. Oracle 5Y traded through 325 on October 20, disseminated 342.5. "288 bp" is a vendor close on a different basis; DTCC October 15 shows disseminated 302. The original line stays above as written. Full history → `research/2026-11-06_oracle-cds-loop/REPORT.md`.
