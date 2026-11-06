@@ -252,3 +252,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T10:24:11-05:00	SIG-W-20261106-009	noted	INBOX_WALTER	Two VULCAN lines logged [KB-380] under WQ-622; relays, no letter. Other lines belong to their owners.
 2026-11-06T10:24:11-05:00	SIG-W-20261106-013	acted	INBOX_WALTER	ACTION done: S1 and S5 re-read against LIQUID's send row [KB-377]. No VULCAN letter, 15/25, S5 4 n=2. Funding did not move. VIOLET owns Path-B.
 2026-11-06T10:24:11-05:00	SIG-W-20261106-015	info-only	INBOX_WALTER	Capcom correction: no VULCAN artifact cites it (grep 11/6); no channel touched.
+2026-11-06T11:21:54-05:00	SIG-W-20261106-019	acted	INBOX_WALTER	Two VULCAN lines read at source: reported cause [KB-382], IREN at its filing [KB-383..385]. Doubled H100 price is one contract against its own Prince George baseline. No letter, 15/25.
