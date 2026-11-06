@@ -1,11 +1,11 @@
 # OTTO MEMORY
 
-**Updated:** 2026-11-06, s042. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
+**Updated:** 2026-11-06, s043. Boot navigation and continuity; live metrics belong to STATUS/workbooks. Mistake patterns live in boot-read `LESSONS.md`. Prior memory preserved byte-for-byte in `archive/MEMORY_2026-10-19_pre-s031.md`; old entries are history, not pending work.
 
 ## Desk boundaries
 - OTTO owns auto-fraud mechanisms, collateral evidence and identification of exposed counterparties. REGINALD owns bank sizing; BROCK owns CRMT financing grades and BDC marks; TERRY constructs trades and Will decides.
 - Root/desk charter owns routing and evidence conventions. Use WALTER for new signals; a peer's own ask may receive a direct answer, with a parallel WALTER drop for any firing/new dated fact. Never edit a peer's canonical record.
-- Runtime varies by session: s039 ran on Codex, s040 to s042 on Claude Code (Opus 5.5). Identify it at boot; explicitly read startup files and do not assume another runtime's memory auto-loads. Technical permissions do not change research, trade, spending or external-send approvals.
+- Runtime varies by session: s039 ran on Codex, s040 to s043 on Claude Code (Opus 5.5). Identify it at boot; explicitly read startup files and do not assume another runtime's memory auto-loads. Technical permissions do not change research, trade, spending or external-send approvals.
 
 ## Reading traps and canonical homes
 - `LESSONS.md` is the single desk mistake-pattern reference. Do not recreate its rules here. Calibration and source limitations: `thesis/PREDICTIONS_ARCHIVE.md`; original probabilities come from git first appearance.
@@ -26,15 +26,18 @@
 - The read-cap scanner flags any charter line with the word "read" next to a ledger name; step 3a is worded around it. `corrections_boot_check.py --scope` refuses a semicolon.
 - `ledger_staleness.py --nudge` shows 🔴 on SHELF_ACTIVITY because it is both FROZEN and carries an old Cadence line. Nothing is owed; the banner governs.
 
-## LAST SESSION — s042, 2026-11-06 afternoon (Claude Code, Opus 5.5), PROME assignment on Will's word
-- OTTO-37 FALSIFIED: Manheim October 206.8 vs 207.0, Cox page 11/06. As-made 60%, Brier 0.36, scoreboard 3 of 9, 0.286111. Nine 2026 pairs: 5 of 9 kept the cushion, so a fair number that lost. PROME closed L991.
-- +2% YoY is mostly a low October-2025 base. Hinge test not fired, stays 🟠. Evidence: `research/2026-11-06_manheim-october/READOUT.md`; ML-363–368.
-- MFIC checked at both 10-Qs: US Auto is a legacy workout stake, LendingPoint's non-accrual is one loan with no auto link on record. BROCK's "group 0.54 to 0.40" is the LLC only, label note routed via WALTER.
-- Nothing scored. No score, band, gate or threshold moved. Convergence 32/50.
+- Tricolor auction instrument: Holman files a sworn monthly application by the 10th (¶13: vehicles sold, net sale proceeds); trustee's quarterly Form 1 has asset 52. Verita list dates are unpadded (11/6/2026), the POST takes `DocketNumber` alone, a `/tricolor/document/<id>` link sits in each `court-docket` card. `curl -L` the Go Daddy G2 cert (the plain http URL now redirects, leaving an empty file). Running pdfminer over a Holman PDF whole stalls on the vehicle exhibit, so cap `maxpages=9` or Read the page range.
+- James memo endorsements can sit in an encoded font: `(cid:N)` decodes as chr(N+29). `pypdfium2` is not in `.venv`; the Read tool renders PDF pages. `shelf_halt_monitor.py` can exceed 60 s under EFTS limits; give it 180 s.
+
+## LAST SESSION — s043, 2026-11-06 after the close (Claude Code, Opus 5.5), PROME relay of Will's 17:08 ET word
+- Close refresh. No score, band, gate, threshold or prediction moved. Convergence 32/50.
+- Tricolor auction row refreshed from a May vintage: 9,082 vehicles, $63.09M net through 10/31. Sum ties to the old row at 4/30 to the dollar. Trustee Form 1: $53.78M received at 9/30, $65.0M estimated, ~2,000 cars left. $2.53M gap between the two at 9/30 is unexplained.
+- Hertz Q3 10-Q read: 2021-2 $1,000M at 9/30, reason not stated; not fired, not closed. Row's $1,893M was capacity. Routed to LIQUID via WALTER.
+- James government response due 11/09. Inbox 1/1. Evidence: `research/2026-11-06_close-refresh/READOUT.md`; ML-369–372.
 
 ## NEXT SESSION — keep last
-1. BROCK CRMT 11/09, NY Fed 11/10 (non-contradiction check only), Tricolor §341 11/11, EART 2026-5 window 11/12, Chu check ~11/13 and James adjournment ruling.
+1. BROCK CRMT 11/09, James response 11/09 (read the PDF), NY Fed 11/10 (non-contradiction check only; G.19's $1,589.8B is a different perimeter), Tricolor §341 11/11, EART 2026-5 window 11/12, Chu check ~11/13.
 2. **~11/15 SDT:** run with Manheim +2, record the second observation (expect NO VERDICT); decide then whether to propose a redesign, stated openly, no credit.
-3. **~11/30 EART October 10-Ds:** panel, resolve OTTO-36, OTTO-34 path. Ares response 11/30 (OTTO-33).
+3. **~11/30:** EART October 10-Ds resolve OTTO-36, OTTO-34 path; Ares response (OTTO-33); Tricolor sales deadline. **By 12/10:** Holman November application, add to `HOLMAN_MONTHLY.tsv`.
 4. **12/07 Manheim November.** Before any mid-month forecast, use `MID_TO_FINAL.tsv` and add the new pair.
-5. WINTERKORN PENDING 11/05: Hertz Q3 10-Q unread (E8); Dkt 1297 Ex. B facility map; WALTER may already hold the Weil wind-down. OTTO-10 ~12/15 and OTTO-11 STUCK keep their follow-ups. WQ-531 still limits court negatives.
+5. WINTERKORN PENDING 11/05: Dkt 1297 Ex. B facility map; WALTER may already hold the Weil wind-down. Hertz item closed by s043. OTTO-10 ~12/15 and OTTO-11 STUCK keep their follow-ups. WQ-531 still limits court negatives.

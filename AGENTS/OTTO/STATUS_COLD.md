@@ -856,3 +856,13 @@ Rows superseded by s042.
 | V6 | Invisible Exit, general phenomenon | **2** | **src: STATUS § THESIS "(b) general: LOW"** · THESIS LOW · Manheim hinge 🟠 | **Root D** (the Tricolor charged half is A, in V1–V3). Manheim is a named thesis input, not only the SDT gate. Recovery <28% is a level test; the SDT governs, within its two-point limit | SDT REFUTE 8/14; read-only preview 11/05 +16.12/+1.65 NO VERDICT, mostly endpoints · six-month recovery flat · Manheim Sep −0.6% YoY; mid-Oct +2.2% provisional | ↑ SDT CONFIRM (OTTO-35) · ↓ 3 consecutive REFUTEs cannot complete on the original readings |
 | 2026-11-06 (Fri) | Manheim October full-month release | 🟠 confirmed; hinge; SDT input; **OTTO-37 resolves** |
 | **OTTO-37** | Manheim October full-month index ≥207.0, first published | 🟠 OPEN **60%**. Resolves 11/06 |
+
+## 22. November6 s043 rotation (verbatim; hot STATUS wins)
+
+Rows superseded by s043.
+
+> **s042 (11/06):** Manheim October **206.8**, missed OTTO-37's 207.0 by 0.2: **OTTO-37 FALSIFIED** (60%, Brier 0.36; 5 of 9 prior pairs cleared the cushion, so a fair number that lost). The +2% YoY is mostly a low October-2025 base; hinge test not fired, stays 🟠. MFIC: US Auto 0.40 to 0.11 is a leftover 2023 workout stake, LendingPoint non-accrual is one loan with no auto link on record; neither is a fraud case or a trigger. Inbox 4/4. No score, band, gate or threshold moved. `research/2026-11-06_manheim-october/READOUT.md`; ML-363–368; s041 pointer cold §21.
+> **Next:** BROCK grades CRMT 11/09 · NY Fed 11/10 11:00 ET · Tricolor §341 11/11 · EART 2026-5 window 11/12 · Chu ruling check ~11/13 · SDT ~11/15 · EART October 10-Ds ~11/30 (OTTO-36) · Ares response 11/30 · Manheim November 12/07. Court checks use the Atom feed (newest 30 entries) until WQ-531. History → STATUS_COLD §20–21.
+| Tricolor Auction Recovery | **$39.5M on 5,857 sold (~62%); projects ~3% of debt** | 🔴🔴 |
+| ~2026-12-01 (Tue) | Hertz fleet-disposal watch: $200M notes and HVF III 2021-2 $2,000M fleet ABS mature 12/2026 | 🟡 modeled; credit read is LIQUID, OTTO reads the fleet consequence; Q3 10-Q unread |
+| ~2026-11-13 (Fri) | Chu suppression-ruling check (ECF 108) | 🟠 OTTO check date, not a court date. Reserved since 10/9; no ruling in feeds through 10/29; UNOBSERVED |

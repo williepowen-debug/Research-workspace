@@ -1,7 +1,7 @@
-## COMPLETION — OTTO — 2026-11-06 (session closeout, s042, Claude Code, Opus 5.5)
-STATUS: CLOSED OUT. PROME assignment on Will's word, bounded, $0, no paid data, no trade.
-CHANGED: OTTO-37 graded; scoreboard; Manheim catalyst swept and 12/07 confirmed; ML-363–368 (three combination updates); inbox 4/4; COR-20261106-35 NO-OP receipt; LESSONS row; Hertz row added to the STATUS timeline; WALTER drop `23a0707616`; PROME receipt filed by PROME.
-RESULT: OTTO-37 FALSIFIED, 206.8 vs 207.0, Brier 0.3600, scoreboard 3 of 9, 0.286111. Hinge unmoved, convergence 32/50 unchanged. MFIC tied at both 10-Qs, one label note to BROCK. No score, band, gate or threshold moved.
-GAPS: MFIC call, US Auto trust reports and the U.S. Auto Finance docket unread. 206.8 over 205.9 is +0.44% vs Cox's +0.5%, unresolved, no grade effect. Hertz Q3 10-Q still unread. WINTERKORN not run, 1 day since last. Research-retirement scan not run this session.
+## COMPLETION — OTTO — 2026-11-06 (session closeout, s043, Claude Code, Opus 5.5)
+STATUS: CLOSED OUT. PROME relay of Will's 17:08 ET word, close refresh, bounded, no spawn, no trade, no paid data.
+CHANGED: Tricolor auction row, Hertz row, Chu and James notes; ML-369–372; two new calendar rows (James response 11/09, Tricolor sales deadline 11/30); inbox 1/1; LESSONS row; s042 rows rotated to cold §22.
+RESULT: 9,082 vehicles, $63.09M net through 10/31, ties to the old row at 4/30; ~3% stands. Hertz 2021-2 $1,000M at 9/30, no amortization-event language, not fired. No score, band, gate, threshold or prediction moved. Convergence 32/50.
+GAPS: $2.53M gap, Holman vs trustee at 9/30, unexplained. Why 2021-2 fell is unstated. ~2,000 cars left has an unclear as-of date. Shelf probe 7 of 8, CPS errored and not retried to completion. Sealed Chu 11/06 entry unknown. WINTERKORN not run, 1 day since last. Research-retirement scan not run.
 WILL_NEEDS: None open. WQ-531 token remains his.
-FOLLOW-UP: BROCK CRMT 11/09 → NY Fed 11/10 → Chu check ~11/13 → SDT ~11/15 → EART October ~11/30 resolves OTTO-36. No helper, monitor or background task left running.
+FOLLOW-UP: CRMT and James 11/09 → NY Fed 11/10 → Chu ~11/13 → SDT ~11/15 → 11/30 cluster → Holman by 12/10. No helper, monitor or background task left running.
