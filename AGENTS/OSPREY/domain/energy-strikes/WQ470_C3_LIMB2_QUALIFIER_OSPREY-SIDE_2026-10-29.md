@@ -87,3 +87,6 @@ HAWK (`AGENTS/OSPREY/inbox/processed/2026-11-06_from-HAWK_WQ470-rulings-A1-A4.md
 - **Print count corrected:** at least four in-scope items in 11 months: quotes 12/2/2025, 7/21 (WARRISK row 35), 8/19; act 9/18. The Insurer 7/29 stays a lead, page unread. "Three" withdrawn.
 - **Limit to tell Will:** a premium held high does not block. Only a rise does.
 
+## 11. 2026-11-06 12:42 ET (from `date`) — ADOPTED, WQ-637 A
+Will 12:35 ET in PROME's chat, *"637 A"*, and in this desk's window, *"Yes, both edits (Recommended)"*. Encoded in `CLAUDE.md` EXIT RULES §1 Channel 3. Adoption 2026-11-06; earliest first kill 2026-11-27. TD6/TD19 retired: `archive/WARRISK_TD6_RETIRED_2026-11-06.md`. Charter 5a-2: only the TD6 sentence removed, on Will's word; the staleness check and canvass stay. KB-OSPREY-270.
+

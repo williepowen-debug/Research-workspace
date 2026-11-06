@@ -21,7 +21,7 @@
 1. **11/8–11/11:** +5d re-reads YANOS (halt, units), Ryazan (CDU-6, damage), Afipsky (identity, damage).
 2. **11/10:** Bloomberg weekly print (briefs.co relay works; Bloomberg 403) · Abu Dhabi outcome 11/10-11 → combo:settlement-brake.
 3. **When printed:** October full-month runs → re-derive band, OWED-52; search RUNS, not "offline" (LESSONS 12).
-4. **11/17:** C2 limb 1 30/30 if no row; mechanism-level sweep first; limb 2. **11/18:** OSP-07 grade + GATE-OSPREY-001. **11/20:** C1 leg A earliest, OSP-08 grade.
+4. **11/17:** C2 limb 1 30/30 if no row; mechanism-level sweep first; limb 2. **11/18:** OSP-07 grade + GATE-OSPREY-001. **11/20:** C1 leg A earliest, OSP-08 grade. **11/24–27:** C3 limb-2 canvass; **11/27** earliest first kill.
 5. **11/12–11/30:** combination-watch reviews (Stale_By in KB-260…266). **11/30** jet ban end. **By 12/6:** §5 re-read.
 6. Afipsky backfill (ledger holds 8/26 only; 6/11 and 7/14 leads, MT says seven in 2026), OWED-41/51 class.
 
@@ -29,7 +29,7 @@
 - 🔴 Refinery tempo and whether Abu Dhabi switches it off. 🟠 YANOS halt single-source. 🟠 Band stale (OWED-52). 🟠 C1 leg B unreachable; a runs substitute is Will's. 🟡 Carried OWED 41–51. Novak's two other refineries of 10/30 unidentified.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- **Not due:** OSP-07 (≥11/18; its CONFIRMED letter appears met by YANOS). **Open:** OSP-08 (≥11/20), OSP-09 (≥2027-01-04), OSP-10 (named print), OSP-11 (≥12/18). No Will decision open yet. WQ-470: joint text agreed 11/6 (KB-269, doc §10); next PROME to Will. On adoption retire TD6/TD19 WARRISK rows + charter 5a-2 clause.
+- **Not due:** OSP-07 (≥11/18; its CONFIRMED letter appears met by YANOS). **Open:** OSP-08 (≥11/20), OSP-09 (≥2027-01-04), OSP-10 (named print), OSP-11 (≥12/18). No Will decision open yet. WQ-637 A adopted 11/6 (KB-270): C3 first window opened 11/6, canvass 11/24–27, earliest first kill 11/27, HAWK grades. TD6/TD19 retired.
 
 ## MAIL STATE (one line per surface)
 - Inbox: clear. WALTER lane: clear (7 → processed). Outbox: PROME packet 11/6, HAWK WQ-470 reply 11/6. HAWK answers filed to inbox/processed.

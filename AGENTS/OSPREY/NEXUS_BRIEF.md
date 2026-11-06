@@ -7,7 +7,7 @@
 1. **BRENT/HAWK — refineries:** YANOS 11/3 (governor named it; Bloomberg 11/6: all crude processing halted, one person familiar, ~300 kb/d design), Ryazan 11/5, Afipsky 11/6. Six plants since 10/30, at least 1.3 M bpd of capacity plus one Ufa plant (Bloomberg). CAPACITY, not barrels (KB-249…252).
 2. **BRENT/HAWK — ⚠ cite the band with care:** ~30% rests on July and August runs. Late October ran about 5 M bpd, October about 4.3 (Kpler 10/28; Reuters via relay): same proxy 19–22% / 6–9%. Nothing measures the wave since 10/30. Band not moved, re-derivation owed (KB-253). Bloomberg: more outages may free crude for export.
 3. **Exports:** Bloomberg 4-wk 3.65 to 11/1, weekly 3.97, relay B3 (KB-255). Atyrau-Samara stopped about a day 11/2-3 after the Samara hub hit (KB-265).
-4. **HAWK — C3:** no tanker in Palaemon 26 Oct–2 Nov; 31/21, limb 2 stands NOT SATISFIED; no November hull quote found (KB-259). WQ-470: joint text agreed 11/6 (KB-269).
+4. **HAWK — C3:** no tanker in Palaemon 26 Oct–2 Nov; 31/21, limb 2 stands NOT SATISFIED; no November hull quote found (KB-259). C3 limb 2 letter ADOPTED 11/6, WQ-637 A: earliest first kill 11/27, you grade (KB-270).
 5. **Dates:** Abu Dhabi talks 11/10–11 · C2 limb 1 11/17 · C1 leg A 11/20 (was 11/15).
 🆕 **2026-11-02 (osprey-1102, DOCKET L814 + inbox 6/6) — READ FIRST; no mark, band or threshold moved:**
 1. **BRENT/HAWK — refineries: the 14-day pause ended.** Novokuibyshevsk (Rosneft, ~8.8 Mt/yr) 10/30: Deputy PM Novak (TASS) confirmed "three refineries and one gas-chemical complex" attacked that night, "minor damage at one plant"; Ukrainian OSINT says both CDUs (AVT-9, AVT-11) are down — not industry-sourced. Ufa Novoil 10/31 (ASTRA only). Kstovo NORSI (Lukoil, ~17 Mt/yr) 11/1 (governor: "significant damage" to an unnamed facility). CAPACITY, not barrels (KB-245/246).
@@ -38,7 +38,7 @@
 |---|---|---|---|
 | **BRENT / HAWK** | **Refinery-strike tempo collapsed after Ryazan 10/15 / Surgut 10/16; targets moved to steel and chemical plants under US pressure** (KB-224) | P2 | NEXUS_BRIEF (routine). ⚠ No halt order exists (Zelensky): a lull, not a ceasefire. One strike resets the C1 leg. |
 | **BRENT** | **Primorsk ~3-day pause in the week to 10/18 (your Bloomberg 3.59 print): cause NOT established** (KB-226) | P2 | An ask, not a claim: if BRENT has the cause, it decides whether this is a C2 shut-in signal at the 11/17 re-kill. |
-| **HAWK** | **WQ-470 joint limb-2 text** (commit `97f4bcff7` §7; KB-231) | P1 | Delivered 10/29 by packet + message; HAWK acked (`dce67726e`). OSPREY owes the 12-week TD6/TD19 backfill to bind X. |
+| **HAWK** | **C3 limb-2 letter adopted 11/6, WQ-637 A (KB-270)** | P1 | You grade. My canvass 11/24–11/27; earliest first kill 11/27. |
 | **PROME** | **DOCKET L814 (11/2) hinges on OWED-46:** C1 leg A is 14/14 without Surgut ZSK 10/16, 13/14 with it | P1 | Memo 10/29. The condensate-plant question is still routed and unresolved. |
 
 **WAITING FOR:**
@@ -47,7 +47,6 @@
 | Public sources | Any independent capacity-offline aggregate (S&P/CERA, IIR, Kpler, EA) after 9/8 | **11/2** (blackout day 60) | Without it the C1 5→4 test is UNREACHABLE; flag to PROME 11/2. |
 | Russian government | Diesel producer ban after 10/31: extended or lapsed | **11/1** | A lapse starts the C1 companion-tell 30-day clock (KB-229). |
 | Palaemon | 26 Oct–1 Nov bulletin | ~11/1+ | Certifies the strike ledger past 10/25. |
-| Baltic Exchange (access) | ≥12 weekly TD6/TD19 pairs; TD17 spot status | Before WQ-470 goes to Will | Binds X. Subscription-gated; reachability untested. |
 | Public sources | Authenticated pre-strike throughput at ANY struck refinery | Ongoing | Blocks every barrels-lost read (OWED-36). |
 
 ## VIEW (2026-10-29)
@@ -74,6 +73,5 @@ No Will-gated decision open. Desk points: **11/1** diesel ban · **11/2** L814 C
 | 11/1 | Diesel producer ban end | Extension vs lapse. |
 | ~11/1+ | Palaemon 26 Oct–1 Nov | Ledger certification; any tanker or Russian-port item. |
 | Weekly | Bloomberg 4-wk seaborne crude | ≥3.9 twice ⇒ C2 5→4 (§1b); <3.5 blocks the 11/17 kill. |
-| Weekly | TD6/TD19 ratio | WQ-470 tripwire input. |
 
 **Coverage (2026-10-29):** strike ledger `swept-complete through: 2026-10-25` (BOUNDED). 10/26–10/29 swept by feed + name-free EN/RU queries, NOT certified. FIRMS not checked (no tool). Bloomberg pages 403. Handoffs DELIVERED on commit; receiver integration UNKNOWN except HAWK (acked 10/29).
