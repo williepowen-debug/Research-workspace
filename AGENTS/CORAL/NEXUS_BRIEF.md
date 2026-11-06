@@ -1,6 +1,6 @@
 # CORAL — NEXUS Brief
 
-**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3: three of four frame names final HOLDS; BKU with REGINALD, likely MIXED; aggregate NO TRANSMISSION either way). Supply-side MSI leg **🟠 since 9/13**; reading #12 (11/05) 4-of-5, Cape Coral 5.85, re-fire fails. Next: falsify grade 11/15.
+**Status:** 🟠 ELEVATED — thesis split holds: **household/condo stress confirmed; bank-loss transmission NOT confirmed.** Bank rail **NOT met, NOT armed** (Q3 frame FINAL 11/06, REGINALD: NO TRANSMISSION; SBCF, SSB, AMTB HOLDS; BKU MIXED). Supply-side MSI leg **🟠 since 9/13**; reading #12 (11/05) 4-of-5, Cape Coral 5.85, re-fire fails. Next: falsify grade 11/15.
 **Domain:** Whole-Florida stress surface — condo/SF/CRE real estate, insurance, FL banks, migration/tourism, state fiscal/property-tax, labor/construction, coastal/climate
 **Thesis version:** Coral Bleaching v1.1 — rails `thesis/THESIS.md`; changelog `thesis/CHANGELOG.md` (9/28 entry)
 **As of:** 2026-11-06 (Fri, coral-ac, PROME prome-51 wake) · STATUS commit: see `git log -1 -- AGENTS/CORAL/STATUS.md` · earlier 10/29 19:54 ET (coral-1029h)
@@ -13,7 +13,7 @@
 |---|---|---|
 | 1 | **Amendment 3 passed, unofficial Yes 61.98%, certified 11/17 (P1).** Local revenue −$4.95B FY27-28 · −$8.78B FY28-29 · −$11.86B recurring (REC, P1): one estimate, the $4.9B and $12B agree. Amendment 1 (BSF cap) failed 40.9%. "Leaning FAIL" withdrawn | CARL, REGINALD, HOMER — county budgets take this on top of the disaster match; not a realized loss; muni effect UNREAD |
 | 2 | ⛔ **Correction: DR-4955 household aid flagged in all 8 requested counties (OpenFEMA 11/06, P1).** "IA 0/8 · no household aid" withdrawn. FEMA FR notice and cost share still unpublished; HM none | AEOLUS, SHADE, PROME — L784's IA-gap item is gone |
-| 3 | **Seven FL 10-Qs read (P1): zero association-loan disclosure.** BKU CRE 60-89 $21.3M vs $0 over the frame bar on its face, in modified loans, location undisclosed; REGINALD grades; likely MIXED, aggregate NO TRANSMISSION. Avidia 10-Q still waits | REGINALD — not Florida-shown, not condo-shown |
+| 3 | **Seven FL 10-Qs read (P1): zero association-loan disclosure.** BKU CRE 60-89 $21.3M vs $0, accruing, modified, primary cell TRANSMITS; **BKU MIXED, aggregate NO TRANSMISSION, FINAL (REGINALD 11/06)**. Avidia 10-Q still waits | REGINALD — location UNKNOWN, not multifamily or construction; not Florida-shown, not condo-shown |
 | 4 | **MSI #12 (11/05, P1):** 4-of-5, Cape Coral 5.85 series low, re-fire fails. First prints have revised up, n=2 | RED, HOMER — one leg; not an all-clear, not bank evidence |
 | 5 | **Rain:** state emergency 14 counties incl. Palm Beach, not Broward (EO 26-228, P1); no loss figure | AEOLUS, SHADE — NFIP and uninsured channel; NFIP ends 12/11 |
 
@@ -67,7 +67,7 @@
 | From | Input | Expected by | How it changes my view |
 |------|-------|-------------|------------------------|
 | Will (via PROME) | ✅ nothing pending — WQ-241 (MSI re-fire/level guard) and WQ-321/322 (bankruptcy basis; level trigger retired) all RULED 2026-09-28 | — | Letters installed prospectively; next Parcl stamp is graded on the amended letter |
-| REGINALD | Q3 FL-bank frame: SBCF, SSB, AMTB final HOLDS; BKU cells with REGINALD (10-Q filed 11/05) | next REGINALD session | ≥2-of-4 TRANSMITS ⇒ bank rail MET |
+| REGINALD | Q3 FL-bank frame FINAL: NO TRANSMISSION, BKU MIXED (11/06) | 12/31 Call Report | BKU balance rolling to 90+ or non-accrual |
 | MARCO | Tourism/migration refresh; **FL–Canada air seats winter 25-26 −17.67% (BTS T-100, capacity not passengers) are MARCO's (KB-MARCO-IVF-44)** — CORAL carries no seat figure | ongoing | Snowbird-$ leg of the winter 2026-27 window |
 | CREED | Next Trepp cycle (Oct DQ) | ~early Nov | Zeros stay counter-evidence |
 

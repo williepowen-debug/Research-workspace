@@ -12,7 +12,7 @@
 
 ## Q3 2026 PRINT WINDOW (8-Ks 10/21–10/27; 10-Qs 10/30–11/06) · refreshed 2026-11-06
 
-**11/06 update (read this first; the table below is the 10/29 8-K state):** all seven 10-Qs filed and read at SEC. Zero association-loan disclosure. REGINALD: SBCF, SSB, AMTB final HOLDS. BKU primary cell over its bar on its face, REGINALD grades (CRE 60-89 $21.321M vs $0; modified loans; location undisclosed). USCB Condo commercial $66.252M clean; NPL 0.33% vs 0.14% at 12/31/25. BKU HOA deposits $2.4B. Avidia 10-Q waits. Evidence `STATUS_DETAIL.md` § AB2.
+**11/06 update (read this first; the table below is the 10/29 8-K state):** all seven 10-Qs filed and read at SEC. Zero association-loan disclosure. REGINALD FINAL 11/06: **NO TRANSMISSION**; SBCF, SSB, AMTB HOLDS; **BKU MIXED** (CRE 60-89 $21.321M vs $0, accruing per Call Report, non-owner-occupied nonresidential, already modified, location UNKNOWN). Report `AGENTS/REGINALD/reports/2026-11-06_BKU_10Q_FL-frame-final.md`. USCB Condo commercial $66.252M clean; NPL 0.33% vs 0.14% at 12/31/25. BKU HOA deposits $2.4B. Avidia 10-Q waits. Evidence `STATUS_DETAIL.md` § AB2.
 
 **Frame:** REGINALD's frozen FL frame (9/24), four names. **Cells below are REGINALD's owner-read (STATUS 10/28, CRE-anchor row) — consumed, not re-derived.** The Q2 tracker (7/21–8/3, closed 7-of-7 benign) → `archive/FL_BANK_WATCHLIST_Q2_ROTATED_20261029.md` verbatim.
 
