@@ -855,3 +855,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T10:00:47-05:00	SIG-W-20261105-065	info-only	INBOX_WALTER	Reuters ties 11/5 oil rise to tanker attacks. HENRY carried no cause. COR-20261105-65 receipted.
 2026-11-06T10:00:47-05:00	ORACLE-2026-11-05-december-hike-repricing	acted	INBOX_GENERAL	Read with the print: Kalshi December 81 to 65 pre-print; ORACLE owns any fresh read; member of combo:risk-off-bid-vs-hike-path (ML-HEN-202).
 2026-11-06T10:03:35-05:00	LABOR-2026-11-06-oct-nfp-data-grade	acted	INBOX_GENERAL	Figures match my BLS API pull. v2 FIRED carried to STATUS, brief, PROME packet with the thin-margin caveat. AHE +3.0 to +3.1% y/y received. Release text itself not read by HENRY, bls.gov 403.
+2026-11-06T10:08:46-05:00	SIG-W-20261106-001	info-only	INBOX_WALTER	Payrolls card; figures already held from BLS API and LABOR grade.
+2026-11-06T10:08:46-05:00	SIG-W-20261106-003	noted	INBOX_WALTER	Tokyo 11/6: Nikkei −5.96%, SoftBank −10.83%, JGB rally, secondary sources. SAM grades the carry read. Noted in STATUS; no HENRY line.
+2026-11-06T10:08:46-05:00	SIG-W-20261106-008	acted	INBOX_WALTER	ACTION positioning context: October hedge-fund losses and unit cuts, no closures or broad redemptions reported, predates 11/5. Logged as member and counterevidence on combo:levered-and-close-flows (ML-HEN-201). Moves no score.
