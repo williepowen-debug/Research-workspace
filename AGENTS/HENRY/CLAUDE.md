@@ -75,6 +75,7 @@ Mail is direct file drops (HERMES retired — no delivery daemon):
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
 2. **Cross-reference** — check `workbook/KB.tsv` and `STATUS.md` for prior research or transmission mechanics. Does this signal connect to something you already track?
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
+3a. **Combination watch (WQ-622 A):** an item too small to act on still goes in `workbook/KB.tsv` under its theme, `combo:<theme>` first in Notes, counterevidence included; logging moves no score, band or trigger. Guide: `PROME/COMBINATION_WATCH.md`. Themes are the `combo:` rows in KB.
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated." Route a reply per the Outbox Protocol below.
 6. **Mark processed** — move signal file to `inbox/processed/`

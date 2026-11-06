@@ -1,0 +1,24 @@
+===== QQQ GAMMA FLIP  (asof 2026-11-06, <= 14d, 1,954 contracts, src=cboe) =====
+  QQQ spot        662.66   (--spot override; feed price 659.71)
+  Net GEX @ spot  -2.0 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~691
+                  spot is -28 pts BELOW (neg-gamma) the flip
+  Call wall       680  ⚠️ NEAR-TIE (7% over #2) — report the BAND 670-680, not this strike
+  Put wall       650  (clean #1, +23% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== QQQ GAMMA FLIP  (asof 2026-11-06, <= 35d, 2,912 contracts, src=cboe) =====
+  QQQ spot        662.66   (--spot override; feed price 659.71)
+  Net GEX @ spot  -2.3 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~691
+                  spot is -29 pts BELOW (neg-gamma) the flip
+  Call wall       700  ⚠️ NEAR-TIE (1% over #2) — report the BAND 680-700, not this strike
+  Put wall       650  (clean #1, +12% over #2)
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== CROSS-HORIZON CHECK (audit E2) =====
+  Flip band       691-691  (14d ~691 · 35d ~691)
+  Regime          14d NEGATIVE · 35d NEGATIVE
+  Call  wall      ⛔ WITHHOLD: 14d 680 vs 35d 700 — horizons disagree
+  Put   wall      ✓ PUBLISH: 650 at both horizons (clean at both)
+  PUBLISHED.tsv UPDATED (--publish)

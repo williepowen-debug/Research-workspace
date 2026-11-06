@@ -177,3 +177,21 @@ ndx_gamma_flip_14d	28350	2026-11-05	cboe 1858 contracts (11/5 intraday midday, s
 ndx_net_gex_14d_Bn	-1.0	2026-11-05	$B per 1% (11/5 intraday midday, spot live; OI 11/4-trade INFERRED; marks ~15m delayed; not a close)
 ndx_gamma_flip_35d	28442	2026-11-05	cboe 3100 contracts (11/5 intraday midday, spot live; OI 11/4-trade INFERRED; marks ~15m delayed; not a close)
 ndx_net_gex_35d_Bn	-1.9	2026-11-05	$B per 1% (11/5 intraday midday, spot live; OI 11/4-trade INFERRED; marks ~15m delayed; not a close)
+gamma_flip_14d	7670	2026-11-06	cboe 4664 contracts (11/6 post-NFP map, first chain carrying 11/5 trading; spot vendor live)
+net_gex_14d_Bn	-47.3	2026-11-06	$B per 1% (11/6 post-NFP map, first chain carrying 11/5 trading; spot vendor live)
+gamma_flip_35d	7671	2026-11-06	cboe 7964 contracts (11/6 post-NFP map, first chain carrying 11/5 trading; spot vendor live)
+net_gex_35d_Bn	-58.5	2026-11-06	$B per 1% (11/6 post-NFP map, first chain carrying 11/5 trading; spot vendor live)
+qqq_gamma_flip_14d	690.91	2026-11-06	cboe 1954 contracts (11/6 post-NFP map; spot vendor live)
+qqq_net_gex_14d_Bn	-2.0	2026-11-06	$B per 1% (11/6 post-NFP map; spot vendor live)
+qqq_gamma_flip_35d	691.47	2026-11-06	cboe 2912 contracts (11/6 post-NFP map; spot vendor live)
+qqq_net_gex_35d_Bn	-2.3	2026-11-06	$B per 1% (11/6 post-NFP map; spot vendor live)
+ndx_gamma_flip_14d	28109	2026-11-06	cboe 2465 contracts (11/6 post-NFP map; spot vendor live)
+ndx_net_gex_14d_Bn	-0.9	2026-11-06	$B per 1% (11/6 post-NFP map; spot vendor live)
+ndx_gamma_flip_35d	28332	2026-11-06	cboe 3312 contracts (11/6 post-NFP map; spot vendor live)
+ndx_net_gex_35d_Bn	-1.3	2026-11-06	$B per 1% (11/6 post-NFP map; spot vendor live)
+put_wall	7500	2026-11-06	clean at both horizons (14d +24%, 35d +15%), PUBLISHED; spot 7430.69 UNDER it, overhead not support; 11/6 post-NFP run 09:55 ET, Cboe chain, OI carries 11/5 trading (6 of 6 sampled lines changed), marks about 15 minutes delayed
+call_wall	7000	2026-11-06	clean at both horizons (14d +23%, 35d +17%), PUBLISHED; spot ABOVE it, so not a ceiling; 11/6 post-NFP run 09:55 ET, Cboe chain, OI carries 11/5 trading (6 of 6 sampled lines changed), marks about 15 minutes delayed
+qqq_put_wall	650	2026-11-06	clean at both horizons (14d +23%, 35d +12%), PUBLISHED; spot 662.66 above it; the only published wall under spot on any chain; 11/6 post-NFP run 09:55 ET, Cboe chain, OI carries 11/5 trading (6 of 6 sampled lines changed), marks about 15 minutes delayed
+qqq_call_wall_WITHHELD	14d 680 (near-tie band 670-680, +7%) vs 35d 700 (near-tie band 680-700, +1%)	2026-11-06	cross-horizon DISAGREE -> withheld; 11/6 post-NFP run 09:55 ET, Cboe chain, OI carries 11/5 trading (6 of 6 sampled lines changed), marks about 15 minutes delayed
+ndx_put_wall	28000	2026-11-06	clean at both horizons (14d +11%, 35d +22%), PUBLISHED; spot 27237.43 UNDER it, overhead not support; 11/6 post-NFP run 09:55 ET, Cboe chain, OI carries 11/5 trading (6 of 6 sampled lines changed), marks about 15 minutes delayed
+ndx_call_wall	29675	2026-11-06	clean at both horizons (14d +82%, 35d +64%), PUBLISHED; 11/6 post-NFP run 09:55 ET, Cboe chain, OI carries 11/5 trading (6 of 6 sampled lines changed), marks about 15 minutes delayed

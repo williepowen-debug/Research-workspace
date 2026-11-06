@@ -846,3 +846,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T13:56:19-05:00	SIG-W-20261105-035	info-only	INBOX_WALTER	Windfall tax report, one sentence, no bill text; January-or-later, BRENT and TERRY lane. No index mechanics.
 2026-11-05T14:01:48-05:00	SIG-W-20261105-042	noted	INBOX_WALTER	Correction to 034: $100B is pre-vote, ballot count may share one base. Nothing of it was used in HENRY surfaces.
 2026-11-05T14:01:48-05:00	SIG-W-20261105-043	noted	INBOX_WALTER	LIQUID 13:58 ET: no financing constraint visible; HYG -0.47; Gate 069 L4 not a fire, no grade before late morning 11/6. SLOOS refinement filed. Credit leg of the close read stays open.
+2026-11-06T10:00:47-05:00	SIG-W-20261105-045	noted	INBOX_WALTER	Micron Taoyuan halt report, unconfirmed by Micron. Member of combo:ai-chips-sold-without-a-capex-cut (ML-HEN-200). VULCAN places it.
+2026-11-06T10:00:47-05:00	SIG-W-20261105-049	noted	INBOX_WALTER	Layoff headlines fall after the survey week; do not grade the payroll print against them. LABOR note. No HENRY line.
+2026-11-06T10:00:47-05:00	SIG-W-20261105-054	acted	INBOX_WALTER	ACTION answered: 11/5 last 10 minutes SOXL −6.25%, SMH −1.23%, QQQ −0.35%, SPY −0.21%, RSP −0.10%; shape fits in chips, size unproven, vendor minute volume unusable, note unread. ML-HEN-199, -201. Answer sent to WALTER.
+2026-11-06T10:00:47-05:00	SIG-W-20261105-055	acted	INBOX_WALTER	Close read used as cross-check; superseded on VIX by 057. Closes taken from FRED, Treasury and dated vendor bars.
+2026-11-06T10:00:47-05:00	SIG-W-20261105-057	acted	INBOX_WALTER	Correction: VIX 28.18 FRED VIXCLS used. HENRY never carried 26.86 on a live surface. COR-20261105-57 receipted.
+2026-11-06T10:00:47-05:00	SIG-W-20261105-058	info-only	INBOX_WALTER	Yanbu alert, intercepted not struck. FALCON and BRENT own it. No HENRY line.
+2026-11-06T10:00:47-05:00	SIG-W-20261105-065	info-only	INBOX_WALTER	Reuters ties 11/5 oil rise to tanker attacks. HENRY carried no cause. COR-20261105-65 receipted.
+2026-11-06T10:00:47-05:00	ORACLE-2026-11-05-december-hike-repricing	acted	INBOX_GENERAL	Read with the print: Kalshi December 81 to 65 pre-print; ORACLE owns any fresh read; member of combo:risk-off-bid-vs-hike-path (ML-HEN-202).
+2026-11-06T10:03:35-05:00	LABOR-2026-11-06-oct-nfp-data-grade	acted	INBOX_GENERAL	Figures match my BLS API pull. v2 FIRED carried to STATUS, brief, PROME packet with the thin-margin caveat. AHE +3.0 to +3.1% y/y received. Release text itself not read by HENRY, bls.gov 403.
