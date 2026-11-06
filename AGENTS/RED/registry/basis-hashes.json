@@ -1,16 +1,16 @@
 {
   "boot_step_range": "RED:0-9e",
-  "declared_on": "2026-11-05",
+  "declared_on": "2026-11-06",
   "desk": "RED",
   "hashes": {
-    "AGENTS/RED/CLAUDE.md": "159047278d0a65fd52b04693a0e5429f14af9ae1348970585ff668b39be3c44b",
+    "AGENTS/RED/CLAUDE.md": "26c7ccfdcc73d32356363adaa81f4ba968df66f6449b771c8fe7dc993e9b68e1",
     "AGENTS/RED/scripts/base_rate_review.py": "c8d2f42f66c238830a5b7509816dae4074eac344904616e549e7adec5c5f027c",
     "AGENTS/RED/scripts/basis_check.py": "c22af3735180995842d0a4d11f79c7b2bbd345ebe8be0cf4105bb0d6a66ce7ad",
     "AGENTS/RED/scripts/boot.py": "91654fe01b7b01ee11486bbe8746bee34f89d72d52412c4ee5443c4b3f6ae1b0",
     "AGENTS/RED/scripts/closeout_check.py": "b5c72b45f48d6341c0926a3ec90c59b520dd809fbb13abb7abe887f407ad91fe",
     "AGENTS/RED/scripts/gen_trigger_scan.py": "e9d1fa7655e849d92890e6c109fd5c914944924c6f665ee92c5eb7e40ca29467",
     "AGENTS/RED/scripts/review_debt.py": "577b84a9c9f3a1e775a9ddf1129b4ad02414a08c173d94968497744271c8b72f",
-    "AGENTS/RED/scripts/schema_check.py": "1bd7da2a2eee7e7f6ede9bcdcfe86ca13743ded66902cdb4b39098f424bb6a71",
+    "AGENTS/RED/scripts/schema_check.py": "a3dabbba359ba2a2e30079010f1688ac50f9bd0e4498b52cf7c2207b45631538",
     "AGENTS/RED/scripts/status_mirrors.py": "cb58ccc4f4d87a6aa5159fda2f376e76e1a685d078ef5235e91cfbd82c2f79e8",
     "AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md": "31b519e21600ef145130be11d08634026cce9b82ba7e4775b01821f42c70e06c",
     "CLAUDE.md": "e4d650bdbb58a5136f797fb6f5f2325e41106e8ed51a7324526fc2307229e37b",
@@ -105,6 +105,14 @@
       "note": "S59: fetch.py diff read (2663082a0): futures quote tolerance 1e-9 to 2e-7, no change to any series RED boots on",
       "moved": [
         "FORGE/tools/market-data/fetch.py"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "note": "S60 read the diff: schema_check.py gained comment-line handling in ddb3cee7f (RED, 11/05, ledger convention line); RED charter gained the WQ-622 line",
+      "moved": [
+        "AGENTS/RED/CLAUDE.md",
+        "AGENTS/RED/scripts/schema_check.py"
       ]
     }
   ],

@@ -4,6 +4,17 @@
 
 ---
 
+## S60 — 2026-11-06 10:19 ET (from `date`; WQ-626 A, DOCKET L971 wake via PROME) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. One registered-trigger exit COUNT moved (FT-06 0 of 5 → 1 of 5); no trigger fired or exited. RED-23 resolved CORRECT.**
+
+- **FT-06:** VIXCLS 28.18 [11/05], Cboe agrees. Old view: "the run died at three, the clock is empty." New view: "a new run, 1 of 5; earliest completion is the 11/11 bar, read 11/12." No exit, no weight.
+- **FT-02:** HY 348 [11/05], +16bp, new post-fire high over 344 [10/30]. Old view: "332 pre-dates the selling, credit is untested." New view: "credit moved, far less than volatility, and it stays under REG-T-04's line by 2bp on REGINALD's letter." Exit 0 of 3.
+- **FT-10:** SKEW 149.37 [11/05]; exit 0 of 4; fire stays open.
+- **RED-23 (S41 self-falsifier):** CORRECT, EVENT TRUE, +69.0K (Jun +31, Jul −10, Aug +186, BLS 11/06). Old view: "the S41 Soft +2 rests on a provisional +71.3K." New view: "it survives at +69.0K, with a different composition, after reading +51.3K at the second vintage (ML-322)." No weight moves on this row by its letter.
+- **RED-29 registered:** FT-06 exit completes, 50%, read 11/12.
+- **Weights held deliberately.** The 11/05 selloff, the HY print and October jobs go to the ledger. The next re-derivation stays after the 11/10 CPI or a registered fire, and not on the day after a mechanical FT-06 exit.
+
+---
+
 ## S59 — 2026-11-05 10:13 ET (from `date`; Will via PROME 09:53 ET, WQ-599) — **NO WEIGHT MOVED. HOLD 72 · net-bear 68 unchanged. One registered-trigger exit COUNT moved (FT-06 3 of 5 → 0 of 5); no trigger fired or exited. One formal challenge opened.**
 
 - **FT-06:** VIXCLS 16.61 [11/04] broke the ≥18 run at 3. Old view: "VIX has held 18 for three closes; 11/04 pending." New view: "it did not hold; the clock is dead and a later run is a new clock." No exit, no weight.

@@ -1,7 +1,10 @@
 # RED — NEXUS Brief
 
-**Status:** 🟠 **vS59 (2026-11-05 10:13 ET). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No trigger fired or exited; FT-06 exit count 3 → 0 of 5. Prior brief vS58 rotated verbatim → `reports/2026-11-05_NEXUS_BRIEF_vS58_rotated.md`.
-- 🆕 **FT-06 exit run broke at 3:** VIXCLS 16.61 [11/04]. 0 of 5, a later run is a new clock. **FT-10 exit 0 of 4** (SKEW 150.90 [11/04]). **FT-02 exit 0 of 3** (HY 332 [11/04], tighter, pre-dates the 11/05 selling).
+**Status:** 🟠 **vS60 (2026-11-06 10:19 ET). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No RED line fired or exited; FT-06 exit count 0 → 1 of 5. Prior brief vS59 rotated verbatim → `reports/2026-11-06_NEXUS_BRIEF_vS59_rotated.md`.
+- 🆕 **11/05 official bars:** VIX 28.18 (FRED and Cboe), **FT-06 exit 1 of 5**, a new run, earliest read 11/12. HY 348, +16bp, new post-fire high, **FT-02 exit 0 of 3**. CCC 1,320. SKEW 149.37, **FT-10 exit 0 of 4**.
+- 🆕 **RED-23 CORRECT, +69.0K** (Jun +31, Jul −10, Aug +186, BLS 11/06): the S41 move stands. ⚠️ It read +51.3K at the second vintage; one month carries it (ML-322). KB-092 re-derive owed by 11/09.
+- 🆕 **RED-29, 50%:** FT-06 exit completes on four closes ≥18, read 11/12. If it executes, Stag +2 / Managed −2 on the row's own letter.
+- 🆕 **Ledger adds for the post-11/10 re-derivation:** selloff, HY 348, Japan and data center bonds against October payrolls +165K, 3-mo 137K, LABOR v2 fired. One root for stocks, volatility and Japan.
 - 🆕 **FT-11** keeps reading the November QRA ops on its own letter (retirement keys on the program ending; sb0678 carries it). F2 seven of seven OFF-THE-RUN. No window since 10/27, precedence still untested.
 - 🆕 **Ledger for the post-11/10 re-derivation:** FAL-07 CONFIRMED, marks 1/14/85 · UKMTO tanker strike north of Qatar [event 11/4 23:20Z] · claims 189K · Challenger October 43,994 · Q3 productivity +3.6%, unit labor costs −0.7% · AI selling 11/05, intraday, banks and credit not joining at 09:54 ET.
 - 🆕 **CHG-RED-056 (operation, not thesis):** OP-SCALE: PROME recount N = 4, R = 6; sizing not ready; report version 4. Report `reports/2026-11-05_S59_OP_SCALE_ADVERSARIAL_READ.md`.
@@ -10,7 +13,7 @@
 - **Standing:** FT-02 FIRED 10/16 obs (Acute +3); FT-08 FIRED 10/14 (Stag +3); FT-10 FIRED 10/14 (Acute +2); S56 bank tree +1 (EGBN DETERIORATION on one legacy $56.0M loan + OZK W9).
 
 **Domain:** Adversarial cross-cutting counter-signal. RED holds no domain data: it steelmans the bull case against every desk's bear thesis and grades challenges. It RECEIVES every desk's STATUS and outbox; it SENDS to PROME (`OUTBOX.md`) and to desks (`challenges/` + inbox packets).
-**Thesis version:** S57 weights unchanged at S58 and S59 (2026-11-05). S57 (2026-10-28, discretionary re-derivation) on S56 (pre-stated bank +1) on S55 (FT-02 mechanical). Next discretionary re-derivation: after the 11/10 CPI or a registered fire.
+**Thesis version:** S57 weights unchanged at S58, S59 and S60 (2026-11-06). S57 (2026-10-28, discretionary re-derivation) on S56 (pre-stated bank +1) on S55 (FT-02 mechanical). Next discretionary re-derivation: after the 11/10 CPI or a registered fire.
 
 ---
 
@@ -29,11 +32,11 @@
 ## CALIBRATION
 
 - **Conviction:** direction-M · timing-M− · level-M−. **HOLD 72** (S55 +2 mechanical FT-02; S48 +2 mechanical) · **Net-bear 68** (S57 −1 discretionary; S56 +1 pre-stated; S55 +3, S52 +3, S52b +2 mechanical; 60 at S51).
-- **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-11-05, 28 rows, RED-26 to RED-28 added on Will's word 14:13 ET): 13 CORRECT · 10 WRONG · 5 ACTIVE (RED-23 resolves Fri 11/6 at the October jobs report, BLS-verified · RED-25 re-review 12/31).** STATUS and CALENDAR carry this same line.
+- **Scorecard (canonical `workbook/PREDICTIONS.tsv`, generated count 2026-11-06, 29 rows): 14 CORRECT · 10 WRONG · 5 ACTIVE (RED-29 resolves 11/12 · RED-28 12/10 · RED-25, RED-26, RED-27 12/31).** STATUS and CALENDAR carry this same line.
 - **Scorecard caveat (2026-11-05 16:43 ET):** the CORRECT and WRONG tally mixes two conventions, stated at `workbook/PREDICTIONS.tsv` line 2. Do not compare it across desks. RED-26 and RED-27 share one root.
-- **Open challenges: 7** (027 EGBN Q4 ~1/28 · 028 Oct CPI 11/10 · 044 BRK-32 11/30 · 045 HHDC 11/15 · 049 HHDC 11/15 · 054 bank-put book 11/09 · 055 FT-11 classifier 12/15).
+- **Open challenges: 8** (056 OP-SCALE 11/7 · 027 EGBN Q4 ~1/28 · 028 Oct CPI 11/10 · 044 BRK-32 11/30 · 045 HHDC 11/15 · 049 HHDC 11/15 · 054 bank-put book 11/09 · 055 FT-11 classifier 12/15).
 - **Diverge from fleet by:** (1) the HY retracement does not un-fire FT-02 until <300 ×3; (2) a 30Y rally is not evidence until classified, and on 10/22 it classified FUNDAMENTAL; (3) stagflation is co-modal with managed decline, not the modal path; (4) a hiking Fed is not a rescue.
-- **Uncertain about:** (1) whether a few names (Optimum) explain most of CCC's +161bp October widening (DEWEY: UNKNOWN); (2) whether the 11/04 oil move is a real de-escalation or a deal-hope print that flows and hulls contradict; (3) FALCON's grade of the 11/02 Qeshm strike and the post-midterm strike window; (4) whether the vendor 11/04 VIX print holds at VIXCLS.
+- **Uncertain about:** (1) whether a few names (Optimum) explain most of CCC's +161bp October widening (DEWEY: UNKNOWN); (2) whether the 11/04 oil move is a real de-escalation or a deal-hope print that flows and hulls contradict; (3) FALCON's grade of the 11/02 Qeshm strike and the post-midterm strike window; (4) whether HY's 348 is the first step or the whole move; 3.95 is RED-27's line.
 
 ---
 

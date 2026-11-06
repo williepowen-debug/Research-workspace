@@ -73,3 +73,11 @@ receipt_date	correction_id	action	note
 2026-11-05T01:44Z	COR-20261031-22	NO-OP	scope=RED held no rig line - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
 2026-11-05T01:44Z	COR-20261102-04	NO-OP	scope=RED never cited the Denver roundup figures - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
 2026-11-05T01:45Z	COR-20261031-02	NO-OP	scope=RED never carried the 16:20 vendor close and reads 10/30 VIX 19.42 at FRED and Cboe - grep 11/04 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live RED citation; 
+2026-11-06T15:16Z	COR-20261105-57	APPLIED	artifact=AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv#RED-FT-06; validation_ref=NONE; 
+2026-11-06T15:16Z	COR-20261105-65	APPLIED	artifact=AGENTS/RED/STATUS.md#S60-ledger; validation_ref=NONE; 
+2026-11-06T15:16Z	COR-20261105-26	NO-OP	scope=RED never carried Ueno exposure - grep 11/06 of STATUS SCRATCH CALENDAR NEXUS OUTBOX KB VX registry docket found no live citation; 
+2026-11-06T15:16Z	COR-20261105-38	NO-OP	scope=RED never carried the Preferred Bank figures - grep 11/06 of the same surfaces found no live citation; 
+2026-11-06T15:16Z	COR-20261105-39	NO-OP	scope=RED never carried the Fitch Q3 27 versus 20 line - grep 11/06 of the same surfaces found only older unrelated Fitch rows; 
+2026-11-06T15:16Z	COR-20261105-42	NO-OP	scope=RED never carried the 100B data center figure - grep 11/06 of the same surfaces found no live citation; 
+2026-11-06T15:16Z	COR-20261105-52	NO-OP	scope=RED never carried the Arkea item - grep 11/06 of the same surfaces found no live citation; 
+2026-11-06T15:17Z	COR-20261105-61	NO-OP	scope=RED carried no Cable One line before this session and the new combo row cites the corrected text; 

@@ -893,3 +893,9 @@ Before S16, structural and analytical changes were both logged in `thesis/CHANGE
 **⚠️ SPECIFIED, DELIBERATELY NOT BUILT — both would have been unreviewed code at closeout:**
 1. **`boot.py` §⑤ BOARD disposition check is broken (ML-223).** It compares the newest signal against the newest log-row DATE, so **any** new row silences it — it went 🔴 20-undispositioned → 🟢 after three unrelated rows were logged, with 18 still unconsumed. Fix = set-difference the RED-addressed signal IDs against the `signal_id` column and report the MISSING SET.
 2. **Nothing compares `boot.py`'s METRIC_MAP source against each row's `instrument_basis` (ML-226).** Two of twelve rows were graded off sources their own cards disqualified; both mismatches were *disclosed on the rows* and survived every check RED runs. `schema_check` validates structure, `read_cap` bytes, `review_debt` row age — **none asks "does the tool read what the card says?"**
+
+## 2026-11-06 (S60) — structural changes
+
+| Trigger | What changed | Files | Boot-impact |
+|---|---|---|---|
+| WQ-622 A, `PROME/COMBINATION_WATCH.md` | Combination watch set up: five themes as `combo:<theme>` rows, one charter line in boot 1.5. No new file, schema or checker | `workbook/KB.tsv` (KB-RED-109 to 113), `CLAUDE.md` | themes reviewed through `Stale_By` |

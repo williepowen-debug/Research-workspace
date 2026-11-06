@@ -110,3 +110,19 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T12:42	2026-11-05_SIG-VIO-RED_vol-spike-curve-inverted-intraday	noted	INBOX_GENERAL	VIOLET outbound row met on live quotes, credit-flat leg unconfirmed; nothing fires before the close; grade FT-06 and FT-10 on official bars only
 2026-11-05T13:44	2026-11-05_from-BROCK_brk26-SQN-does-not-resolve	noted	INBOX_GENERAL	BROCK graded BRK-26: SQN does not resolve, OPEN 55% to 12/31, KB-BRK-429 read at artifact; Test 2 not needed on its fund-level reading; catalyst row resolved
 2026-11-05T16:08	SIG-W-20261105-055	deferred	INBOX_WALTER	Close read, vendor 16:05 ET not official: VIX 26.86, VVIX 131.46. FT-06 exit day 1 only on published VIXCLS >=18; FRED T+1. Grade when it posts
+2026-11-06T10:16	SIG-W-20261106-012	acted	INBOX_WALTER	ACTION line: FT-02 exit 0 of 3 at HY 348 [11/05], FT-06 exit 1 of 5 on VIXCLS 28.18, FT-10 exit 0 of 4 at SKEW 149.37, CCC 1,320. All agree at FRED and Cboe. TERRY, LIQUID, REGINALD lines are theirs
+2026-11-06T10:16	SIG-W-20261106-001	acted	BOARD	Third August print: RED-23 graded CORRECT at BLS, +69.0K on the resolving vintage
+2026-11-06T10:16	SIG-W-20261106-010	noted	BOARD	LABOR v2 fired; bull input for the post-11/10 ledger, caveats kept; combo labor-bull-rebuild
+2026-11-06T10:16	SIG-W-20261106-011	noted	BOARD	HENRY close grade; QQQ and NDX first closes under 200-day since 4/7; ledger input
+2026-11-06T10:16	SIG-W-20261106-003	noted	BOARD	Japan -5.96%, SoftBank CDS 466bp, secondary; combo forced-deleveraging and ai-financing-reach
+2026-11-06T10:16	SIG-W-20261106-004	noted	BOARD	23 of 24 HY data center bonds wider, ING, BoE; secondary or anonymous; combo ai-financing-reach
+2026-11-06T10:16	SIG-W-20261106-008	noted	BOARD	Walleye and October fund losses, no closures reported; combo forced-deleveraging
+2026-11-06T10:16	SIG-W-20261105-057	noted	BOARD	Correction read, VIX 28.17 vendor; official close 28.18 at FRED and Cboe governs FT-06; receipted
+2026-11-06T10:16	SIG-W-20261105-061	noted	BOARD	Cable One Chapter 11 conditional; combo credit-breadth-outside-ai; BROCK owns
+2026-11-06T10:16	SIG-W-20261105-064	noted	BOARD	Cable One 10-Q, TRO hearing 11/13; combo credit-breadth-outside-ai
+2026-11-06T10:16	SIG-W-20261105-065	noted	BOARD	Reuters ties 11/5 oil rise to tanker attacks, one wire; Jan Brent 98.29 EST mark; receipted; combo oil-price-vs-flow
+2026-11-06T10:16	SIG-W-20261105-066	noted	BOARD	OTTO Exeter recovery, one noisy month; combo credit-breadth-outside-ai
+2026-11-06T10:16	SIG-W-20261105-067	noted	BOARD	Tricolor lender discovery, not an accusation; combo credit-breadth-outside-ai
+2026-11-06T10:16	2026-11-05_SIG-VIO_close-grade-inverted-vvix-fired	acted	INBOX_GENERAL	VIOLET close signal read; VIX 28.18 and 5-day +63.84% check at Cboe and FRED; inversion marks peaks is its reading; ledger input
+2026-11-06T10:16	2026-11-05_from-VIOLET_official-close-bars	acted	INBOX_GENERAL	Bars read; SKEW missing in the packet, read 149.37 at Cboe directly
+2026-11-06T10:16	2026-11-06_from-CARL_masking-intermediate-falsifier-missed	deferred	INBOX_GENERAL	CRL-21 MISSED; three press questions held for the next open session, outside today's bound; grade file unread
