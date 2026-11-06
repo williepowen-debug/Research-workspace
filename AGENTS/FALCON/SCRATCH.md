@@ -10,6 +10,8 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 - Najran two missiles and Mecca-region drone intercepted; Houthi claim of coalition strikes on a Taiz market. No IN-class facility.
 - Axios via Iran International: CENTCOM finalizing preparations, no new orders. Bloomberg, one diplomat: Iran reviewing Qatar's nuclear proposals.
 
+- Card 023 after closeout: CMV-22B squawked 7700 off southern Oman, cause unknown, NOT ESTABLISHED, KB-418. Check for a Navy or CENTCOM statement next boot.
+
 ## WHAT I DID
 - Graded card 018; marks and census held. VI-0096 added, VI-0095 and CAS-038 updated. KB-411..417. Themes KB-404..408 updated. FAL-12 registered at 10%. EXIT §2 row and #6 receipt; §2a untouched. Packets to BRENT, WALTER, PROME. Report reports/2026-11-06b_card018-grade.md.
 
@@ -32,7 +34,7 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-Inbox 0, WALTER lane 0 at this session. Packets sent to BRENT, WALTER, PROME.
+Inbox 0, WALTER lane 0 at 11:4x ET. Packets sent to BRENT, WALTER, PROME.
 
 ## PENDING PUSH / GIT
 Committed locally. Staying open; push at PROME's closeout ask via safe-push, not before.
