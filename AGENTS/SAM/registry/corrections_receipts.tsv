@@ -20,3 +20,6 @@ receipt_date	correction_id	action	note
 2026-11-06T20:25Z	COR-20261105-26	NO-OP	scope=Ueno and Paraguay figures: SAM carries none of them and LIQUID owns contagion; 
 2026-11-06T20:25Z	COR-20261105-65	NO-OP	scope=November 5 oil cause and marks: SAM carries no Yanbu or November 5 settle attribution and BRENT owns marks; 
 2026-11-06T20:25Z	COR-20261106-20	NO-OP	scope=UKMTO 197-26 date and Velos Sapphire status: SAM carries neither and FALCON owns the census; 
+2026-11-06T21:48Z	COR-20261106-35	NO-OP	scope=equity put/call card 033: SAM carries no CPCE or equity put/call figure and VIOLET and HENRY own it; 
+2026-11-06T21:48Z	COR-20261106-36	NO-OP	scope=SAM-sourced 21.5 percent line: already replaced in SAM live files by the funding stack and now by card 041, 21.5 survives only as dated history in MEMORY and the brief; 
+2026-11-06T21:48Z	COR-20261106-41	APPLIED	artifact=AGENTS/SAM/research/outputs/2026-11-06_softbank/SOFTBANK_FUNDING_STACK.md#leverage; validation_ref=AGENTS/SAM/research/outputs/2026-11-06_softbank/ltv_remark.py#cases; 

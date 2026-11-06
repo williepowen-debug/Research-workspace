@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-06T20:50:24+00:00 (15:50 ET), PROME C9 on SoftBank's check plus Will's funding-stack question. **STATUS commit `75307fc093`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-06T21:49:11+00:00 (16:49 ET), reboot closeout after PROME C9 on SoftBank's check plus Will's funding-stack question; cards 040 and 041 taken in, no view moved. **STATUS commit `75307fc093`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
 
@@ -29,7 +29,7 @@ No grade this session. **35 validated rows: 16 CONFIRMED / 16 FAILED / 1 special
 
 ## CROSS-DOMAIN
 
-**SENDING (11/6):** VULCAN and WALTER funding-stack corrections (replace 21.5%; card 036 needs a correction); PROME receipts. Consumption unverified.
+**SENDING (11/6):** VULCAN and WALTER funding-stack corrections, replacing 21.5%. WALTER issued card 041 at 20:52Z correcting 036, 003 and 040 and reran the script; other consumers unverified. PROME receipts.
 
 **WAITING-FOR:** SoftBank 11/10 actuals; MOF curve 11/6; CFTC 11/10, released 11/13; Ueda 10/30 press conference; MOF October investor-type; an offshore basis instrument, still absent.
 
