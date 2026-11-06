@@ -1,6 +1,6 @@
 # HENRY — NEXUS Brief
 
-**Owner fold:** 2026-11-06 15:3x ET, closeout on PROME's ask, December hike read and WALTER 028–037, written after the final STATUS write. Earlier fold 10:2x ET. Intraday figures stamped; 11/5 figures are closes.
+**Owner fold:** 2026-11-06 16:4x ET, reboot closeout, WALTER 039 and 041, SAM and ISHM packets, SoftBank line corrected, nothing else in this brief changed, 11/6 close not read. Earlier folds 15:3x ET (December hike read, WALTER 028–037) and 10:2x ET. Intraday figures stamped; 11/5 figures are closes.
 
 **View:** October payrolls beat and moved rates, not stocks. BLS first print +165K vs consensus +65K (Reuters), U-3 4.1%, Aug and Sep +84K revised. ES flat through the print; 2Y about +7bp to 4.54% at 09:57 ET (quote). Today's SPX gain is a narrow chip rebound that began before the print: at 10:17 ET SPX +1.00%, SMH +3.95%, RSP +0.08%, KRE +0.51%. Dealer gamma stays NEGATIVE on all three chains. **HEN-59 NOT FIRED, expectation MISSED.** LABOR: freeze-thaw v2 FIRED, cleared its +150K bar by 15K (BLS USDL-26-1632).
 

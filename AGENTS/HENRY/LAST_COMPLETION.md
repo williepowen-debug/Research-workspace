@@ -15,7 +15,8 @@
 | December hike | 76% at 15:00 ET, own calc from fed funds futures, vendor last trade; 82% on 11/4, 65% on 11/5; ORACLE log 77.5 and 78.0. December regained 2.0 of 3.0bp, June 2027 3.0 of 14.0bp |
 | Forecasts | HEN-60 0.50, HEN-61 0.28, HEN-62 0.60, HEN-63 0.70 (hike at 12/9), all on DOCKET |
 | Combination watch | 4 themes, ML-HEN-200 to -203, line verified by PROME; first customer and funding members added |
-| Inbox | WALTER cards through 037 dispositioned; 3 named corrections NO-OP |
+| Inbox | WALTER cards through 041, SAM and ISHM packets dispositioned; 3 named corrections NO-OP, 5 APPLIED at the 16:4x ET close |
+| SoftBank | 21.5% replaced with SAM's estimate of about 22% on SoftBank's definition, about 24% with the guaranteed $10B OpenAI loan, not a SoftBank number; bridge repaid |
 
 ## GAPS / still pending
 

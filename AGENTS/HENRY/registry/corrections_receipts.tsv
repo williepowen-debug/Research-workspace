@@ -52,3 +52,8 @@ receipt_date	correction_id	action	note
 2026-11-06T15:02Z	COR-20261105-42	NO-OP	scope=HENRY carried no data-center ballot figure on any live surface. Grep of STATUS and NEXUS_BRIEF for 100B and data center returned no hit; 
 2026-11-06T15:02Z	COR-20261105-57	NO-OP	scope=HENRY never carried 26.86 on a live surface. Only hits were the two inbox cards. Close grade uses FRED VIXCLS 28.18; 
 2026-11-06T15:02Z	COR-20261105-65	NO-OP	scope=HENRY stated no cause for the 11/5 oil rise. Grep of STATUS and NEXUS_BRIEF for Yanbu and tanker returned no hit; 
+2026-11-06T21:48Z	COR-20261106-34	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-200; validation_ref=NONE; STATUS line carries the corrected read
+2026-11-06T21:48Z	COR-20261106-35	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-201; validation_ref=NONE; STATUS line carries the corrected read
+2026-11-06T21:48Z	COR-20261106-36	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-200; validation_ref=NONE; STATUS line carries the corrected read
+2026-11-06T21:48Z	COR-20261106-37	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-200; validation_ref=NONE; STATUS line carries the corrected read
+2026-11-06T21:48Z	COR-20261106-41	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-200; validation_ref=NONE; STATUS line carries the corrected read
