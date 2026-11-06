@@ -1,104 +1,43 @@
 {
   "kind": "marked",
-  "checked_at": "2026-11-06T19:13:43Z",
-  "items": 25,
+  "checked_at": "2026-11-06T22:16:26Z",
+  "items": 5,
   "scan": {
-    "checked_at": "2026-11-06T19:07:46Z",
-    "head_checked_at": "2026-11-06T19:07:46Z",
+    "checked_at": "2026-11-06T22:11:23Z",
+    "head_checked_at": "2026-11-06T22:11:23Z",
     "head_checked_this_run": true,
     "incomplete": false,
-    "attempts": 3
+    "attempts": 2
   },
   "review_recorded": true,
   "read_counts": {
-    "partly_read": 20,
-    "fully_read": 5
+    "partly_read": 2,
+    "fully_read": 3
   },
   "dispositions": {
-    "FOLD": 8,
-    "DISPATCH": 16,
-    "DUP": 1
+    "DISPATCH": 3,
+    "FOLD": 2
   },
   "follow_ups": [
     {
-      "id": "2118480730284302744",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
+      "id": "2118806627822297100",
+      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
     },
     {
-      "id": "2118761901215891907",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
+      "id": "2118785537775480886",
+      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
     },
     {
-      "id": "2118763829828214904",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
+      "id": "2118720061053739304",
+      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
     },
     {
-      "id": "2118767750352883854",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
+      "id": "2118796071648530528",
+      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
     },
     {
-      "id": "2118695698296443131",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118760511156482524",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118760159162053104",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118469018256318571",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118757734149464515",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118759630113579189",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118761153866482032",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118712997543919701",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118745356347298119",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118506241190150255",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118699551787798714",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118664367239500209",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118544579846607148",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118740290936709157",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118506572620157258",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
-    },
-    {
-      "id": "2118737772601078000",
-      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks3/BOOKMARK-REVIEW.md"
+      "id": "2118775958408773893",
+      "ref": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md"
     }
   ],
   "requests": []

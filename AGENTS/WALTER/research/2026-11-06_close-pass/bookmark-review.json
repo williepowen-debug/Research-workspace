@@ -1,0 +1,42 @@
+{
+  "schema": 2,
+  "staged_at": 1794003083.6594439,
+  "items": [
+    {
+      "id": "2118806627822297100",
+      "disposition": "DISPATCH",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2118785537775480886",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2118720061053739304",
+      "disposition": "FOLD",
+      "read_state": "partly_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2118796071648530528",
+      "disposition": "DISPATCH",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md",
+      "ask_user": null
+    },
+    {
+      "id": "2118775958408773893",
+      "disposition": "FOLD",
+      "read_state": "fully_read",
+      "follow_up": "AGENTS/WALTER/research/2026-11-06_close-pass/THRESHOLD-SCAN.md",
+      "ask_user": null
+    }
+  ],
+  "stage_id": "46a875335aa24aaf95c8cd104385f9d9"
+}
