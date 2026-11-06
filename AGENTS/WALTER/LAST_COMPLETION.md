@@ -1,35 +1,36 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-06T13:05:25Z, Claude Code Opus 5.5, session walter-ca on the laptop. CLOSED on Will request; FULL closeout, coverage PARTIAL.
+Updated 2026-11-06T15:23:52Z, Claude Code Opus 5.5, session walter-9e on the laptop. OPEN; LIGHT closeout, coverage PARTIAL.
 
 ## RESUME — do these first
 
 1. `git pull --rebase` at root, then ordinary boot.
-2. **HY first:** FRED HY, CCC, VIXCLS [Nov 5] unposted at 13:03Z. HY 357 or wider is +25 bp, safety net FLASH. VIX >=18 starts RED-FT-06 exit run. Cboe and Nasdaq November 5 closes are certified: research/2026-11-06_closeout/THRESHOLD-SCAN.md.
-3. **November 6, closed before release:** no WALTER session at payrolls 08:30 ET; step 7i owes NFP, STWD, ACRE, Ready Capital call, WQ-556 C check, any GTCR or MBI intervention in the CoBank action. LABOR was not listed at 13:03Z; launches are PROME's under WQ-626 A.
-4. **Iran and Saudi:** FALCON and BRENT graded 058 and 056 November 5, nothing fired; two held headlines closed by card 065. Next full sweep about November 12; add Saudi, Houthi and Yanbu terms to any sweep query.
-5. **Open from today:** X bookmarks need Will's browser on the laptop: token refresh failed, nothing marked, rerun `x_bookmarks_scan.py --authorize`; CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HANS, HOMER, CORAL, FERT.
-6. **WQ-622 combination watch:** WALTER has not set it up. PROME's guide asks every desk at its next session; proposal to Will pending this boot.
+2. **Owner grades on HY 348 [Nov 5]:** RED and TERRY pending on card 012; TERRY's 344 line reads crossed. REG-T-04 is 2 bp away; the November 6 HY cell posts about 10:10 ET November 9.
+3. **Second-day jobs read, not yet routed:** market reaction, consensus and the helper's news gap search: research/2026-11-06_boot/ if returned; otherwise rerun.
+4. **Iran and Saudi:** next full sweep about November 12; add Saudi, Houthi and Yanbu terms.
+5. **Open:** CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HANS, HOMER, CORAL, FERT. STWD and ACRE calls unheard; RC call unheard.
+6. **WQ-622 combination watch:** WALTER has not set it up. Offer stands; Will has not answered.
 
-Calendar coverage cutoff: 2026-11-05T23:07:51Z (step 7i run; rows in research/2026-11-05_evening-boot/CALENDAR-RECONCILIATION.tsv; pending rows named there).
+Calendar coverage cutoff: 2026-11-06T15:23:52Z (step 7i run; rows in research/2026-11-06_boot/CALENDAR-RECONCILIATION.tsv; UNKNOWN rows named there).
 
 ## STATUS
 
-CLOSED on Will request; no active helper, study or unattended work. Boot was PARTIAL on the laptop: desk STATUS leads only; European yields and TTF carried from the November 5 morning scan; X bookmarks unavailable; READS check UNKNOWN on a stale attestation, PROME's L845. Evidence: research/2026-11-05_evening-boot/, research/2026-11-06_closeout/.
+OPEN; no unattended work. Boot PARTIAL: desk STATUS leads only; HANS dailies, TTF and AGSI not re-read; READS check UNKNOWN on a stale attestation, PROME's L845; news helper may still be running at this receipt. Evidence: research/2026-11-06_boot/.
 
-November 5 total: 67 BOARD cards, 261 handoffs. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 67 BOARD cards, 261 handoffs. November 6 so far: 15 cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
-Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; 065 (correction of 007, 056, 058 on BRENT's packet), 066 and 067 (OTTO packets); ADD#26 Yanbu date line and anchor note added; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+November 6 boot: cards 001–015; COR-20261106-15; batch BM-20261106-01 closed 30 of 30 and bookmarks marked; five packets consumed (LABOR, HENRY, LIQUID, BROCK, CYPHER); REGISTRY rows refreshed. X scan worked at 14:59Z with no re-authorization by this session. Earlier: Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; 065 (correction of 007, 056, 058 on BRENT's packet), 066 and 067 (OTTO packets); ADD#26 Yanbu date line and anchor note added; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 
-Broad selloff began in AI names and reached banks, reported cause only, no capex cut, enacted measure, forced-sale or funding report found. VIX crossed the +5 intraday line. Bank of England raised to 4%, 8–1. October job cuts lowest for the month since 2023; claims 189,000. HY 332 and CCC 1,297 [November 4] tightened before the selloff. New UKMTO tanker strike north of Qatar; no neutrally confirmed mine, no new confirmed sinking, no deal. Held-VLO discharged by Will. CREED T-01a FIRED by its owner. No new WALTER threshold fire in completed checks. Evidence is not trade authority.
+November 6: payrolls +165,000 with +84,000 revisions, LABOR's freeze thesis stood down on its own rule, hiring read not a layoffs read. Tokyo −5.96%, SoftBank −10.83%, CDS 466 bp, JGB yields fell. HY 348, CCC 1,320, BB 213 [Nov 5]; LIQUID Gate 069 L4 fired, tier rule BROADENS, funding did not move. STWD GAAP loss $(1.08) on a $336.6M provision; ACRE no realized loan loss. No new WALTER registered fire. Earlier: Broad selloff began in AI names and reached banks, reported cause only, no capex cut, enacted measure, forced-sale or funding report found. VIX crossed the +5 intraday line. Bank of England raised to 4%, 8–1. October job cuts lowest for the month since 2023; claims 189,000. HY 332 and CCC 1,297 [November 4] tightened before the selloff. New UKMTO tanker strike north of Qatar; no neutrally confirmed mine, no new confirmed sinking, no deal. Held-VLO discharged by Will. CREED T-01a FIRED by its owner. No new WALTER threshold fire in completed checks. Evidence is not trade authority.
 
 ## GAPS
 
 - Historical WALTER recovery report/notice published; Will accepted NOT RECOVERED and prohibited search expansion. Separately, WAL now verified complete freshly retrieved Q3 source bytes and independent extraction (November 4 report; MI3 19.81%, no weight/score change). Source/access is no longer its blocker. This does not rewrite WALTER's earlier failed recovery or resolve attribution/parent-bank gaps. No WALTER search restarted.
+- Card 064 said Cable One's risk sections were read whole and carried neither the NYSE non-compliance nor the convertible chain; BROCK caught it November 6, card 014. WALTER miss.
 - Publication: November 5 state is in the receipt below; no consumption inferred except named owner commits. HENRY and VIOLET consumed 077/078 November 5.
 - Intake coverage: November4 21:01Z collector healthy;24 incremental flagged news/filing units dispositioned at reboot. Prior catch-up: All 464 titles were screened, not every original article. Cards 057–068 explicitly retain source-body/owner-overlap gaps. Bookmarks: five fully read, 44 partly read; videos not watched. Exact gaps/reopen conditions are in REVIEW.md and the verification reports. No unattended monitoring or comprehensive all-news claim.
 - Source-complete threshold checks are separate from all 48 registered IDs. Trepp's two-print observation is complete; CREED qualitative/cohort events remain owner-limited. Official oil/TTF settles, France/Italy compound legs, complete monthly PMIs and qualitative censuses remain missing. Futures returns were refused on rounded quote/chart mismatch (87.48999786376953 versus 87.49); no return bypass/proxy. Existing broad-HY fires are not new fires; REG-T-04 >350 x3 remains not met, 10 bp watch at November 3 HY 340. VIX exit observations are 3/5, not owner closure.
@@ -46,7 +47,7 @@ Four older limit bullets (boundary 7, Codex messaging, earlier intake limits, VU
 
 ## WILL_NEEDS
 
-No WALTER decision open. Your hand needed once: rerun `python3 AGENTS/WALTER/tools/x_bookmarks_scan.py --authorize` on the laptop. Offered, not begun: WALTER's WQ-622 combination watch. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding. WQ-626 ruled A November 5.
+No WALTER decision open. Offered, not begun: WALTER's WQ-622 combination watch. Existing WQ-573, WQ-556 C, WQ-401/WQ-508 and source-search limits remain binding. WQ-626 ruled A November 5. TERRY owns the HYG card and any pairing word.
 
 ## FOLLOW-UP
 
@@ -87,183 +88,72 @@ Boundary 8’s registered fallback and missing official-settlement execution rem
 
 ## CLOSEOUT RECEIPT
 
-FULL closeout on Will request. Operational coverage PARTIAL. Publication is not consumption.
+LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not consumption.
 
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-06T13:05:25Z",
+  "as_of": "2026-11-06T15:23:52Z",
   "next_review": "2026-11-09",
   "publication": [
     {
-      "commit": "ee7cc22975fd838b901a1728e1dedf8f3e7c7d37",
+      "commit": "143a808c61063c666577fca6c9df06769c89f905",
       "state": "published",
-      "note": "Cards 001-004."
+      "note": "Cards 001-009. Reached origin on another desk's push."
     },
     {
-      "commit": "725479117111ec7154eacd226265c16de6010204",
+      "commit": "c83307ae2aff02a77477d3e71088f9e9c62c6b71",
       "state": "published",
-      "note": "Cards 005-006."
+      "note": "Cards 010-011. Reached origin on another desk's push."
     },
     {
-      "commit": "838cce50550511a130edce62acb24e04290872bd",
+      "commit": "241e255ee46955edf6010bcf6b5533e0cc68479a",
       "state": "published",
-      "note": "Cards 007-008."
+      "note": "Card 012. Reached origin on another desk's push."
     },
     {
-      "commit": "a49eecc0be4cfb0bfe63d8644bf3c7b37ade1107",
+      "commit": "b3b413c6284c83ec302ee7884410d7d099333ac4",
       "state": "published",
-      "note": "FLASH 016."
-    },
-    {
-      "commit": "a575b1449823620f19e1129b5f44a2a9ffe73139",
-      "state": "published",
-      "note": "FLASH 017; safe-push on a verified-clean tree carried 009-017."
-    },
-    {
-      "commit": "c5bc4038143139163c0001af7060f0382953315c",
-      "state": "published",
-      "note": "Cards 020-023."
-    },
-    {
-      "commit": "8acf77a2f98fa38e8457637ab1fa9941566a9dc2",
-      "state": "published",
-      "note": "Closeout records; safe-push on a verified-clean tree carried 018-023."
-    },
-    {
-      "commit": "009238cdef9575d083e2d35ae1200b0a34ffe988",
-      "state": "published",
-      "note": "Cards 024-025."
-    },
-    {
-      "commit": "934f37240e58897a4557b03794ee488aae7243ac",
-      "state": "published",
-      "note": "Correction 026; IMMEDIATE 024 safe-push on a verified-clean tree carried 024-026."
-    },
-    {
-      "commit": "beed13b7dbdef6ee7423c46a6db6cd9eeec9f68e",
-      "state": "published",
-      "note": "Cards 027-028; IMMEDIATE 027 safe-push on a verified-clean tree."
-    },
-    {
-      "commit": "ac599ac0d038ceed24853274f2679e631a0a915c",
-      "state": "published",
-      "note": "Gmail cards 030-037; reached origin on another desk's push."
-    },
-    {
-      "commit": "9e720481700cf5276fe94afa5603e00800e62e9f",
-      "state": "published",
-      "note": "Correction 038; reached origin on another desk's push."
-    },
-    {
-      "commit": "cec85afc7ab79eaeb0ccbd91c65d9bbdb7d0b64a",
-      "state": "published",
-      "note": "Cards 039-054 and rebase; push after Will's word."
-    },
-    {
-      "commit": "59e3f9f602e8fbbc6e64cfcaa4f98d395f728deb",
-      "state": "published",
-      "note": "Cards 062-064; reached origin on another desk's push."
-    },
-    {
-      "commit": "90e6ca8857c370d7f54828f5921c682a0d92df6e",
-      "state": "published",
-      "note": "Cards 065-067; reached origin on another desk's push."
+      "note": "Cards 013-015. Reached origin on another desk's push."
     }
   ],
   "delivery": {
-    "signal_date": "20261105",
-    "total": 261,
-    "delivered": 261,
-    "note": "All day handoffs reconcile by origin proof; 065-067 reached origin on another desk's push; recipient use separate."
+    "signal_date": "20261106",
+    "total": 66,
+    "delivered": 66,
+    "note": "All November 6 handoffs reconcile by origin proof; recipient use separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
     "evidence": [
       {
-        "path": "AGENTS/WALTER/research/2026-11-05_morning/THRESHOLD-SCAN.md",
-        "sha256": "799f8b060adb2d400b8bcddffac081ac65609c4bf5fd45da86be25bf1d8bb60b"
+        "path": "AGENTS/WALTER/research/2026-11-06_boot/THRESHOLD-SCAN.md",
+        "sha256": "bbdf95b6baca819ffe44c020f28cf412b8f5c712276807158cecb1d3132652a9"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-05_morning/CALENDAR-RECONCILIATION.tsv",
-        "sha256": "066055c6287e0b1d66ca5fe2199d15c8345ffce3175a149fbeabe2ad90e45fab"
+        "path": "AGENTS/WALTER/research/2026-11-06_boot/CALENDAR-RECONCILIATION.tsv",
+        "sha256": "b7913b697c7612da41a4ceea0776b9eb1b2ec2a14f76644fa69f2b4299666883"
       },
       {
-        "path": "AGENTS/WALTER/research/2026-11-05_morning/STEP7-REVIEW.md",
-        "sha256": "f8f48f9f6a3139b46a08363f822b5a5b1ba9d196c9c17ecb227a0854ef9f7df3"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_morning/DISCOVERY.md",
-        "sha256": "758900388b27285f015d0a596f102f27a352077efd463c4de94a6529c21c41c9"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_morning/VERIFY-IRAN.md",
-        "sha256": "7dd399b98d2b0ecaff9b8214c9a49d914fbcb1e1aa3dbd1a24f74e17565d3bf4"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_morning/VERIFY-AI-TAPE.md",
-        "sha256": "3ea539fa80fe82a74a374a3bc7e5e44852dbe900f07be29eb28c7f80e05e8658"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_bookmarks/REVIEW.md",
-        "sha256": "170e0fa123685f113753c0931de114f8784e0e9a8b6ec855293ef37cc5df4d05"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_L334/REPORT.md",
-        "sha256": "4d8e60936ad4959bd8ddee41bcf1ecaf06ace0314ab266f6cdec7b7486b509d3"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/CALENDAR-RECONCILIATION.tsv",
-        "sha256": "6962b5917e0ed2959b46b780bbaa18395b35a67fb1c9ee04cf31bf846310a9cb"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/THRESHOLD-SCAN.md",
-        "sha256": "d5ebe1d1531201e631e07bbf00830b3ea3d49fb2396360db2e9c8fa4fc12de03"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_midday-boot/GMAIL-REVIEW.md",
-        "sha256": "312d1fced59fdaf794a222a9f11e50c400d2ab4a1424dc66ee9964a2b85baff3"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_sweep/SWEEP-REVIEW.md",
-        "sha256": "f8765a684964f3ef38276d297c5d0486a371e1ccf1429ab63060d95b61127d9d"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-06_closeout/THRESHOLD-SCAN.md",
-        "sha256": "6da224e9225ddcd7a442843cfaa70ae180b3201326bdfc44a3851842422808f4"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_evening-boot/THRESHOLD-SCAN.md",
-        "sha256": "fcdb2b36754b748870fac7204a0d978dbb82d73a828ad732a8bb2654275297de"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_evening-boot/CALENDAR-RECONCILIATION.tsv",
-        "sha256": "243a942e7046db648590b5916ab19e2e01aa4b365129ab2b178a9aa61ecfef02"
-      },
-      {
-        "path": "AGENTS/WALTER/research/2026-11-05_close-pass/THRESHOLD-SCAN.md",
-        "sha256": "0cebab73784ec6c05c6d6985f7ebfc3334e52be4e5bf184c37e405cab37b506b"
+        "path": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+        "sha256": "42c85eb5ff7060faa72491a925d16e3253b59123ca9ea0488d045d92bb62d3c4"
       }
     ]
   },
   "procedure": {
-    "tier": "full",
-    "boot": "PARTIAL: desk STATUS leads only; READS UNKNOWN on a stale attestation; HANS yields and TTF carried from the morning scan; X bookmarks need re-authorization.",
-    "session": "CLOSED on Will request; no active helper, study or unattended work."
+    "tier": "light",
+    "boot": "PARTIAL: desk STATUS leads only; READS UNKNOWN on a stale attestation; HANS dailies, TTF, AGSI not re-read.",
+    "session": "OPEN; no unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-067 including FLASH 016 and 017. Batches BM-20261105-01 through -09 closed.",
-    "13": "REGISTRY refreshed for WALTER, REGINALD, BROCK, CYPHER, LABOR, RED, TERRY before NETWORK.",
-    "12(a,b)": "Counts and NETWORK refreshed; last tape is vendor post-close.",
-    "12(c)": "BALANCED baseline, labor LOOSE for November 6; flags unchanged.",
-    "12(d,e)": "FULL session entry and bottom line.",
-    "12(f)": "STATUS rotated verbatim at the read-cap trigger.",
-    "14": "MEMORY Feedback, #62 extended, #63, #64 added; rotated verbatim to MEMORY_PROMOTED at the read-cap trigger.",
-    "root.retirement": "No safe unused-source retirement identified; no deletion sweep.",
+    "11": "Cards 001-015. Batch BM-20261106-01 closed.",
+    "13": "REGISTRY refreshed for WALTER, LABOR, CYPHER, REGINALD, PROME before NETWORK.",
+    "12(a,b)": "Counts and NETWORK refreshed.",
+    "12(c)": "BALANCED baseline; labor window lapsed.",
+    "12(e)": "Bottom line re-cut.",
     "15": "Resume list and calendar cutoff rewritten.",
-    "16": "Will requested closeout; push deferred if foreign work is dirty, see final report.",
-    "checks": "research/2026-11-06_closeout/closeout/checks.json. Doctor MED carried: consumption backlog and DEWEY 003R PARKED.",
-    "Tier1": "Cboe and Nasdaq November 5 closes certified 13:03Z; FRED November 5 unposted."
+    "16": "Foreign work dirty; WALTER did not push; four commits reached origin on another desk's push.",
+    "checks": "research/2026-11-06_boot/closeout/checks.json."
   }
 }
 END_CLOSEOUT_RECEIPT -->

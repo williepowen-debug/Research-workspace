@@ -1,0 +1,217 @@
+{
+ "schema": 2,
+ "staged_at": 1793977194.863673,
+ "items": [
+  {
+   "id": "2118484868828979582",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118690761575473656",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118663940737478699",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118495146496934182",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118487215818809748",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118506379615035646",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118664975925514640",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118554914922062110",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118503400362963117",
+   "disposition": "FOLD",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118519082681303108",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118634058934636745",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118666038581539091",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118689971359928451",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118515159681417494",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118443478375878822",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118481560009863335",
+   "disposition": "NO-ACTION",
+   "read_state": "unread",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118481362042659114",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118470981417304081",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118366675481604517",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118446756518060112",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118452129450844283",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118347473273884865",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118437773153640523",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118417272490569826",
+   "disposition": "DUP",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118421314436235330",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118417108015231262",
+   "disposition": "DUP",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118433625217663132",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118439570832240715",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118433709942800427",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118264555843510461",
+   "disposition": "DISPATCH",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  }
+ ],
+ "stage_id": "e10b08688a814c22a551922240fd6a17"
+}
