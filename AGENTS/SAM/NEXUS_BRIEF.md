@@ -1,46 +1,49 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-10-31T15:00:54+00:00 (11:00 ET), PROME spawn (Will-approved BOJ read). **STATUS commit `536b1afd4`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-06T20:40:46+00:00 (15:40 ET), PROME C9 commission on SoftBank's reduced OpenAI check beside card 003. **STATUS commit `114a89ad22`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
 
-**The BOJ held and called 2% reached; the yen did not move and Japan is still not the source of current stress.** No fresh Japan-led carry unwind. v1.7 retired-to-LOW, no successor frame, no entry. Last Will-confirmed FLAT is June 29, not a fresh broker reconciliation.
+**Tokyo fell 6% and the yen weakened, so this was a rate repricing, not a carry unwind. December moved; SoftBank's check did not matter.** v1.7 retired-to-LOW, no successor frame, no entry. Last Will-confirmed FLAT is June 29, not a fresh broker reconciliation.
 
-**BOJ October 29–30 (PRIMARY, `k261030a.pdf` / `gor2610a.pdf`):** hold at **1.25%, 8–1**; Takata dissented for **1.5%** ("underlying CPI inflation having reached the price stability target"). The Outlook now says underlying inflation **"is at a level that is generally consistent with" 2%** (July: "approaching"), price risks skewed up, and the Bank "will continue to raise the policy interest rate". **Hawkish hold; December stays live** (pre-decision Totan 10/29: December 82%; not re-read after). ETF sales ~¥330B → **~¥860B/yr book** from January 2027. **JGB purchase plan unchanged** (November sizes = the Sep-30 plan). Medians: core CPI FY27 2.6 (+0.2 vs July).
+**Carry grade, card 003: NOT a Japan-led carry unwind.**
+- USD/JPY in Tokyo cash hours 11/6: 157.48 → 158.14, 0.75-yen range, on a −5.96% Nikkei. 11/5 completed 157.492, −0.56%. 11/6 live ~158.5, not a completed session. Two-session span 1.40 yen, under the fast-move bar.
+- CFTC net **long +102,321** at 11/3 (Δ +730): no short-yen pool going in. ⚠️ That window ended before the selloff.
+- Reuters 11/6, on-the-run, intraday: 2Y −13.5bp, 5Y −16.5, 10Y −14.5, 30Y −4. Front-led, so a BOJ repricing; oil held the long end.
+- Megabanks −5.7 to −7.0% vs TOPIX −5.9%: no bank-specific break.
+- Offshore FX-swap funding is unmeasured: "not observed", not "cleared".
 
-**Carry channel after the decision:**
-- USD/JPY 10/30 completed session **157.519, −0.19% on a 0.94-yen range** (own hourly aggregation): no fast move.
-- CFTC speculators net **LONG +101,591** (10/27, pre-decision, Δ +31,713), so the short-yen pool behind August 2024 is still absent. Offshore FX-swap funding is unmeasured: "not observed", not "cleared".
-- MOF intervention Sep-29→Oct-28: **¥0** (MOF, read at source 10/31).
-- What a hawkish BOJ cannot do here is squeeze crowded yen shorts; the asymmetric risk is now a December skip or dovish messaging that weakens the yen, which is not the carry-unwind channel.
+**BOJ December:** Totan incremental equivalent **52** (11/6 15:15 JST) vs 82 (10/29, pre-decision); cumulative hikes to April 1.38 vs 1.94. Reuters prints 42% hike, a separate basis. Equivalents, not probabilities, and no reviewed chart sits between the two dates. Fed December hike odds ~77–79% after payrolls (card 017), so both legs push the yen weaker. **The risk is now a December skip and a weaker yen near 160, not a hike-led unwind.** Ueda's 11/6 IMF text does not discuss policy or markets; any Q&A unread.
 
-**Insurers (H2 plans, REPORTED, unchanged since 10/29):** swap-led super-long buying, open foreign bonds trimmed except Nippon Life (flat to up), **no stated UST sales**. Channel 1 stays retired.
+**SoftBank:** the check is ¥48B–143B, +0.07 to +0.20 leverage points, on top of a $65B plan ($55B funded at 7/31, October tranche reported complete). The quoted 13% leverage is **6/30 only**. SAM re-mark at Arm ~$172: **about 21.5%, range 20–24%**, an estimate, against SoftBank's own 25% policy ceiling, reached at Arm about $101–150. Booking OpenAI at $1.25T would be −2.7 points; the round is unclosed and VULCAN owns terms. Motive unread. Households: senior retail about ¥3.9T (¥1T of it secondary-sourced), 0.16% of household assets, no large yen senior maturity before Dec-2029: a paper-loss and confidence channel, not a run. Per-bank exposure undisclosed.
 
-**US read-through, conditional:** no Japan-led long-end push and no active UST selling established. A December hike is a US-yield-relevant event only through the yen and the long end; neither moved on October 30.
+**Insurers:** nothing new since 10/29. Channel 1 stays retired.
+
+**US read-through, conditional:** no Japan-led push established. Japan's selloff lowered BOJ odds rather than forcing leveraged yen funding out. A fast yen rally with funding stress would change that; 11/5–6 was neither.
 
 ## CALIBRATION
 
-**SAM-42 RESOLVED FALSE (FAILED)** after the 2026-10-31 23:59 JST boundary: as-made 25% P(hike), Brier **0.0625** (frozen market reference 36% → 0.1296). The decisive information (market to 2%) arrived after registration, so it earns only the as-made credit. **35 validated rows: 16 CONFIRMED / 16 FAILED / 1 special / 1 qualified / 1 OPEN [SAM-33, 72%]**; SAM-33 falsifier un-fired (scheduled, plan-size operations only). SAM-31 FALSE travels with its three qualifications (STATUS).
+No grade this session. **35 validated rows: 16 CONFIRMED / 16 FAILED / 1 special / 1 qualified / 1 OPEN [SAM-33, 72%]**; SAM-33 November ops not audited this session, and yields fell. SAM's June SoftBank file called this "spot-yen-bullish": on the first real test the yen weakened; corrected in place. SAM-31 FALSE travels with its three qualifications (STATUS).
 
 ## CROSS-DOMAIN
 
-**SENDING (10/31):** PROME memo `PROME/inbox/2026-10-31_from-SAM_boj-1030-decision.md` (consumption unverified). VIOLET's 10/30 note ("held at 1.25% (8–1); carry CALM") confirmed at the primary; no correction owed.
+**SENDING (11/6):** VULCAN `2026-11-06_from-SAM_softbank-leverage-remark.md`; WALTER `2026-11-06_from-SAM_card030-unchecked-figures.md`; PROME receipt. Consumption unverified.
 
-**WAITING-FOR:** Ueda's 10/30 press conference transcript; a post-decision OIS read for December; Tokyo October CPI; MOF October investor-type (insurer sector, ~Nov-10); Q2 insurer disclosures (late November). An offshore basis instrument is still absent.
+**WAITING-FOR:** SoftBank 11/10 actuals; MOF curve 11/6; CFTC 11/10, released 11/13; Ueda 10/30 press conference; MOF October investor-type; an offshore basis instrument, still absent.
 
 ## NEXT DECISION POINT
 
-No Will ruling needed. **December MPM** is the next policy branch; the Summary of Opinions (Nov-10 08:50 JST) is the first written reasoning on how close December is. A fast yen move would need a surprise relative to whatever the post-decision pricing is (unread).
+No Will ruling needed. **Tue 11/10 stacks three reads:** SoftBank's headline LTV at 9/30 will flatter (estimate 14–17%; read the pro forma), the Summary of Opinions predates the selloff, and the 30Y auction faces frozen bars. December MPM is 12/17–18.
 
 ## FORWARD CATALYSTS
 
 | When | What |
 |---|---|
-| Nov-2 14:00 JST | Outlook Report full text |
-| Nov-3 | Japan holiday |
-| Nov-5 | September MPM minutes; 10Y auction |
-| ~Nov-9 / ~Nov-13 | MOF quarterly / FRBNY Q3 FX report (estimates) |
-| Nov-10 | 30Y auction (frozen bars); Summary of Opinions (Oct MPM); US CPI |
+| Nov-9 | MOF quarterly (est.); SoftBank Corp results |
+| Nov-10 | SoftBank Group results 15:30 JST; Summary of Opinions; 30Y auction (frozen bars); US CPI |
+| Nov-13 | FRBNY Q3 FX report (est.); CFTC 11/10 print; GMO Internet briefing |
+| Nov-16 | Japan Q3 GDP |
 | Nov-30 17:00 JST | BOJ December purchase dates (SAM-33) |
+| Dec-17–18 | BOJ MPM |
 
-[STATUS](STATUS.md) · [BOJ primary read](research/outputs/2026-10-31_boj/BOJ_1030_READ.md) · [Insurer H2 plans](insurers/TRACKER.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Pushed at this session's closeout via safe-push; neither local nor remote persistence certifies recipient consumption.
+[STATUS](STATUS.md) · [SoftBank read](research/outputs/2026-11-06_softbank/SOFTBANK_CHECK_READ.md) · [BOJ primary read](research/outputs/2026-10-31_boj/BOJ_1030_READ.md). Schema owner NEXUS (`AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1). Neither local nor remote persistence certifies recipient consumption.
