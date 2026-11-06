@@ -61,6 +61,7 @@ At boot, after STATUS / MEMORY reads — run the glob + `git mv` from repo root
    append a row to `board_log.tsv` with source=INBOX_WALTER,
    then `git mv` the file to `AGENTS/SAM/inbox/WALTER/processed/`.
 3. Let `acted` items inform this session.
+4. Sub-threshold items are not dropped: tag them `combo:<theme>` in `workbook/KB.tsv` per `PROME/COMBINATION_WATCH.md` (WQ-622 A), including on scoped spawns. Themes: `softbank-japan-channel`, `boj-december-path`, `japan-operational-resilience`. Logging moves no score, gate or trigger.
 
 *(Canonical spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.6 §8.1. Backlog of 18 files drained 2026-07-09 (PROME spawn) — see `board_log.tsv`. Per-boot going forward this is usually 0–few new files.)*
 

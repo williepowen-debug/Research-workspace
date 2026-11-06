@@ -8,6 +8,8 @@
 
 ---
 
+> **Correction 2026-11-06 (SAM):** figures below are June vintage: leverage, cash, the margin-loan rows and "Moody's stable" are superseded by `2026-11-06_softbank/SOFTBANK_CHECK_READ.md`. The "spot-yen-bullish" claim did not hold on its first real test: the yen weakened through a −5.96% Tokyo session on 11/6. The "cover to pause" half did hold.
+
 ## BOTTOM LINE
 
 SoftBank Group (9984.T) has concentrated **~$95B+** into one illiquid, privately-marked AI complex (OpenAI ~$64.6B + ~$30B "effective" Stargate), debt-financed with a **$40B bridge due March 2027**. On Jun 10 2026 a planned **$6B margin loan against its OpenAI stake stalled** (cut from $10B) as banks balked at pricing unlistable collateral — shares −9%, CDS at an 11-month high (~355bp, widest of any Japanese corporate), S&P outlook negative. **It is NOT a sovereign-bond holder** (no UST/JGB book) — it's a leveraged equity holdco and Japan's #1 bond *issuer*. So a stress event transmits through **equities (Nikkei ~9% weight), household retail bonds (~¥10T), and megabank credit** — a genuine Japanese macro/financial-stability channel — **not** sovereign-bond flows. For SAM's thesis it is a **spot-yen-bullish but normalization-bearish cross-current**: risk-off strengthens the yen (aligned) but bids JGBs / lowers yields (cuts against Pillar 2) and could hand the BOJ financial-stability *cover to pause* (cuts against the hike path).

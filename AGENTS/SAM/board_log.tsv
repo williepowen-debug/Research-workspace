@@ -276,3 +276,23 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-31T14:42:51+00:00	SIG-W-20261030-007	info-only	INBOX_WALTER	Cyber claims roundup; Japan PM office data-leak warning is claim-only, no primary. Same theme as CYPHER GMO packet (filed). No SAM change.
 2026-10-31T14:42:51+00:00	SIG-W-20261030-011	noted	INBOX_WALTER	Two hull attacks 10/29 (LOUISE 1, RITI), neither sunk; Jask strike unconfirmed; Ras Tanura shutdown not established. Oil-yen context; SAM did not re-grade oil (benchmark repair still owed).
 2026-10-31T14:42:51+00:00	2026-10-30_from-CYPHER_gmo-onamae-scope-change	noted	INBOX_TOPLEVEL	FILED, no SAM grade: GMO Onamae extortion (~JPY 8B demand) + published data are CYPHER-verified; '70+ securities/FX firms' is attacker THREAT scope, no broker-backend breach or loss total established. SAM charter has no cyber trigger; no channel (carry, insurer, JGB) moves. Re-read if a named broker/FX-firm outage or loss is confirmed.
+2026-11-06T20:27:16+00:00	SIG-W-20261031-003	info-only	INBOX_WALTER	Novokuibyshevsk fire corroborated, output loss unknown. No SAM channel. COR-20261031-03 receipted NO-OP.
+2026-11-06T20:27:16+00:00	SIG-W-20261031-015	info-only	INBOX_WALTER	Doha mediation, no direct talks established. Superseded by later Iran cards.
+2026-11-06T20:27:16+00:00	SIG-W-20261104-046	noted	INBOX_WALTER	ACTION: Japan disaster-preparedness notice read at the existing review. Not decision-relevant: general preparedness, no imminent-event prediction, no market or fiscal measure. Logged combo:japan-operational-resilience.
+2026-11-06T20:27:16+00:00	SIG-W-20261104-078	info-only	INBOX_WALTER	Brent 94.62 settle 11/4 on deal hopes, no deal. Oil-yen context; BRENT owns marks.
+2026-11-06T20:27:16+00:00	SIG-W-20261104-079	info-only	INBOX_WALTER	Iran sweep: hull losses, partial flows, no deal. FALCON and BRENT own it.
+2026-11-06T20:27:16+00:00	SIG-W-20261105-007	info-only	INBOX_WALTER	Tanker struck north of Qatar, mine claims unconfirmed. No SAM action.
+2026-11-06T20:27:16+00:00	SIG-W-20261105-024	info-only	INBOX_WALTER	Paraguay president resigns over Ueno. No yen or carry link read; LIQUID owns contagion.
+2026-11-06T20:27:16+00:00	SIG-W-20261105-026	info-only	INBOX_WALTER	Correction to 024. COR-20261105-26 receipted NO-OP.
+2026-11-06T20:27:16+00:00	SIG-W-20261105-050	noted	INBOX_WALTER	ACTION: Argentina peso-debt headline, Bloomberg body unread and one search found no November coverage. No Japan channel established; closed as a headline. Yttrium-to-Japan line is ZHAO's, weak source.
+2026-11-06T20:27:16+00:00	SIG-W-20261105-056	info-only	INBOX_WALTER	Iran nuclear proposal via Qatar, anonymous, one side. Oil-yen context only.
+2026-11-06T20:27:16+00:00	SIG-W-20261105-058	info-only	INBOX_WALTER	Yanbu alert, intercept not strike. BRENT and FALCON own it.
+2026-11-06T20:27:16+00:00	SIG-W-20261105-065	info-only	INBOX_WALTER	Correction to 007/056/058. COR-20261105-65 receipted NO-OP.
+2026-11-06T20:27:16+00:00	SIG-W-20261106-003	acted	INBOX_WALTER	ACTION graded: NOT a Japan-led carry unwind. Yen weakened through the -5.96% session, no speed-bar fire, front-led rate repricing, December OIS 82 to 52. Offshore funding unmeasured. research/outputs/2026-11-06_softbank/SOFTBANK_CHECK_READ.md.
+2026-11-06T20:27:16+00:00	SIG-W-20261106-005	noted	INBOX_WALTER	Shinkin 128 co-ops 5.5-hour equipment outage, no failure. Whether same-day transfers settled late is unknown. Logged combo:japan-operational-resilience.
+2026-11-06T20:27:16+00:00	SIG-W-20261106-018	info-only	INBOX_WALTER	Tanker waterline explosion and Velos Sapphire; date corrected by 020.
+2026-11-06T20:27:16+00:00	SIG-W-20261106-020	info-only	INBOX_WALTER	Correction to 018. COR-20261106-20 receipted NO-OP.
+2026-11-06T20:27:16+00:00	SIG-W-20261106-030	acted	INBOX_WALTER	ACTION done: the check itself means nothing for Japan (+0.07 to +0.20 LTV points). 13% leverage is 6/30 only; SAM re-mark about 21.5%, range 20-24%. VULCAN keeps round terms.
+2026-11-06T20:27:16+00:00	SIG-W-20261106-033	noted	INBOX_WALTER	Takaichi 11/6: AI selloff may or may not persist, monitoring, no measure, headlines only. Logged combo:boj-december-path. Rest for other owners.
+2026-11-06T20:27:16+00:00	2026-11-06_from-CYPHER_japan-capcom-gmo-shinkin	noted	INBOX_TOPLEVEL	Filed. GMO cost date 11/13 added to docket; Shinkin as card 005; Capcom has no financial channel. Do not relay 'Japanese banks are collapsing'.
+2026-11-06T20:27:16+00:00	2026-11-06_from-PROME_C9-SoftBank-read	acted	INBOX_TOPLEVEL	C9 commission executed; receipt at PROME/inbox/.
