@@ -1,0 +1,6 @@
+# NEXUS_BRIEF As-of chain, moved verbatim 2026-11-06
+
+PAYLOAD RULE: payload is everything after the separator line.
+
+---
+prior: November 2 (09:2x EST, Will-directed boot + closeout) — MIXED-VINTAGE / SCOPED-PARTIAL: re-verified on 11/2 ONLY the routine install state (PROME receipt + commit bdfb453bf), the COT #12 ledger row (routine grade, no live CFTC pull) and the vendor price quote above; every other row carries its 11/1 or October 29 vintage. || prior: November 1 (21:2x EST, PROME-spawned session) — MIXED-VINTAGE / SCOPED-PARTIAL: re-verified on 11/1 ONLY the OPEC+ statement (primary), EIA STEO OPEC spare (API), the №1436 consequence (YURI primary) and the October 30 CME preliminary crack (WALTER relay); every other row carries the October 29 vintage. OPEC+ seven graded OUTCOME (1) DECEMBER HELD (third hold; next meeting 11/29). Routine crons NOT yet re-set for EST and WQ-543 text NOT installed (no RemoteTrigger in that session; SCHEDULED_RUNS § November 1 state). || prior: October 29 closeout (13:5x ET) | STATUS commit: pending this closeout (prior `2341dcf0b`); rows changed this session re-verified against TRADE/STATUS (C6 a); all other rows carry the October 28 vintage below
