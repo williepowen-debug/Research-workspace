@@ -334,7 +334,7 @@ def section_predictions():
     # ZHA-04 ("OPEN — GRADED 7/16, NOT FIRED"), the prediction that FIRED that same morning.
     # Careful annotation made a row vanish from the surface that exists to show it. Prefix-match
     # now, and surface anything that is neither clearly open nor clearly terminal.
-    TERMINAL = ("RESOLVED", "CONFIRMED", "FALSIFIED")
+    TERMINAL = ("RESOLVED", "CONFIRMED", "FALSIFIED", "VOID")
     hdr = header
     ri = {n: i for i, n in enumerate(hdr)}
     si, rbi = ri.get("Status", 5), ri.get("Resolve_By")

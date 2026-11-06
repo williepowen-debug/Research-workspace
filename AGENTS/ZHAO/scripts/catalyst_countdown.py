@@ -181,7 +181,7 @@ def collect(today):
                 warn.append(f"🔴 UNPARSEABLE Resolve_By on {r.get('Pred_ID')}: {rb!r}")
                 continue
             st = (r.get("Status") or "").strip()
-            if st.upper().startswith(("RESOLVED", "CONFIRMED", "FALSIFIED")):
+            if st.upper().startswith(("RESOLVED", "CONFIRMED", "FALSIFIED", "VOID")):
                 continue
             anchor = (r.get("Anchor_Type") or "").strip()
             ev.append((d, f"{r.get('Pred_ID')} resolves — {(r.get('Prediction') or '')[:52]}",
