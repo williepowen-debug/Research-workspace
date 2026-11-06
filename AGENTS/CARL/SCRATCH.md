@@ -1,31 +1,29 @@
 # CARL SCRATCH
-**Last session:** 2026-11-06 from 07:21 ET; file written 07:52 ET; Claude Code, Opus 5.5 (claude-opus-5-5), launched by PROME prome-96 with `scripts/agents.py --opus --new`.
-**Type:** One bounded session under WQ-626 A: D:L843, board ledger gap, whole inbox, WQ-596 predictions, WQ-622 themes. No trade, card, gate, band or threshold.
+**Last session:** 2026-11-06 from 13:14 ET; file written 13:26 ET; Claude Code, Opus 5.5 (claude-opus-5-5), launched by PROME prome-51.
+**Type:** One bounded session under WQ-632: record the CRL-21 miss. Then PROME's re-mark ruling and closeout ask. No trade, card, gate, band or threshold.
 
-**PRIORITY-1:** **Tue 11/10 11:00 ET: Q3 HHDC (date confirmed at the NY Fed advisory, not 11/05). Grade §1 of `thesis/HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md`, CRL-30 first grade, CRL-04 basis note, CRL-33; a split between the two §1 rows goes to Will the same session.** October NFP is due 11/06 08:30 ET, after this file was written (07:52 ET): V16 branch UNREVIEWED, review 11/10.
+**PRIORITY-1:** **Tue 11/10 11:00 ET: Q3 HHDC (date confirmed at the NY Fed advisory). Grade §1 of `thesis/HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md`, CRL-30 first grade, CRL-04 basis note, CRL-33; a split between the two §1 rows goes to Will the same session.** By the same date: the V16 branch on October NFP, carried from this session.
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- S&P 500 −4.36% on 11/5 to 7,353.73 (vendor read at 16:05 ET), −6.0% from record; VIX about 28. V14 trigger 7,037.
-- EIA regular $4.153 on 11/02, AAA $4.069 on 11/06. PMMS 7.18% on 11/05. Brent spot $107.03 on 11/03.
-- ALLY and RITM Q3 10-Qs filed, both dated 11/02 on EDGAR.
+- October NFP printed 11/06 08:30 ET: +165K, August and September revised up 84K combined, U3 4.1%, AHE +3.1% (WALTER SIG-W-20261106-001, BLS USDL-26-1632, not graded by CARL).
+- LABOR stood its freeze thesis down on its own kill rule, a hiring read, not a layoffs read (SIG-W-20261106-010).
+- Boot read 13:14 ET, not official closes: SPY +0.58%, VIX 25.54, Brent futures $97.07. FRED HY OAS 348 bp (11/05).
 
 ## WHAT HAPPENED
-1. **L843:** research/2026-11-06_L843/GRADE.md. CRL-21 STUCK → MISSED at 25%: FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp, AART +3.4 / −4.5 bp, extreme bound +25.4 bp. CARL's 10/26 STUCK conclusion withdrawn; the table was in the same Note.
-2. **Filing notes:** ALLY KB-585, RITM KB-586. CRL-20 stays 1%.
-3. **Drain:** 24 → 0 (11 top-level, 13 WALTER lane). 13 signals dispositioned; `board_gap` shows no owed action. COR-20261031-22 receipted NO-OP. DAEDALUS sweep #5 DONE.
-4. **Predictions:** CRL-33 25% (11/10), CRL-34 72% (12/28), CRL-35 40% (mid-January), CRL-36 70% (FY2026 10-K).
-5. **Themes:** seven `combo:` rows KB-588 to 594; charter step 5b.4.
-6. **HHDC card:** frozen late by addendum; two stale sections named there, not edited.
+1. **WQ-632:** failure pattern leads the CRL-21 Notes (first 300 characters print at boot step 7c); full pattern is the cell's last entry, with the 10/26 STUCK error.
+2. **Calibration:** KB-CARL-595: first-call 60% (5/01) Brier 0.3600; walked 25% (landed 7/24) Brier 0.0625.
+3. **Clause:** closed by Will with no action across row Invalidation and both THESIS lines. Condition met on the two THESIS lines, not on the row's text; trim and duration never executed.
+4. **Re-mark:** CARL found the 25% carried no mark date. PROME ruled WQ-112(ii) reaches the row. Confidence cell re-marked in the CRL-16 form, old text kept. Status stays MISSED.
+5. **M88** added to MEMORY.
 
 ## STATUS CHANGES
 | Item | Change |
 |---|---|
-| CRL-21 | STUCK → MISSED 11/06 |
-| New STATUS row | ALLY matched vintage |
-| Rows refreshed | V2, RITM, gas, Brent, borrowing costs, employment, ACA, credit/masking, V14 cell |
-| Current judgment | Rotated verbatim → status_archive/STATUS_ARCHIVE_2026-11.md; STATUS back under 75% |
+| CRL-21 scoring mark | 25% → first-call 60%, MISSED unchanged |
+| CRL-21 position clause | Open → closed by Will, no action |
+| ROADMAP thread 2 | Waits only on CRL-35 and CRL-36 |
 | Score | 53/70 v2.6.6 unchanged |
 
 ---
@@ -34,7 +32,8 @@
 
 ### IMMEDIATE
 - **11/10 11:00 ET:** HHDC, as above. Pull the data file by curl with a browser user agent, open the prior report for the revision check. Also CPI 08:30 ET (CRL-10, goods theme review) and DOC refresh.
-- **By 11/10:** V16 branch on the October NFP, LABOR's print.
+- **By 11/10, carried:** V16 branch on October NFP with LABOR's committed card. SIG-W-20261106-001 and -010 are logged `deferred` to 11/10 and filed; neither is graded.
+- **By 11/10, carried:** LABOR packet `inbox/2026-11-06_from-LABOR_oct-nfp-ahe-3p1-and-v2.md`, UNPROCESSED: refresh the STATUS employment row (still 10/2 vintage) and decide any V16 consequence.
 - **11/17:** S49b row, franchisee theme review against Census food services.
 
 ### UNREVIEWED, past their dates (carried, none done this session)
@@ -45,51 +44,51 @@
 - WQ-228 CCBX leg, review 11/10.
 
 ### WAITING ON OTHERS
-- Will, WQ-632: revisit of the CRL-21 position clause. Row Invalidation not met; THESIS lines 129 and 430 met; see GRADE.md §4 addendum.
-- PROME accepted MISSED on the Notes, marked contestable, 11/06. No revert requested.
+- DAEDALUS: aggregate Brier with CRL-21 at 60%. PROME sent the ask; CARL sends nothing.
+- Will may undo the re-mark by naming it.
 - Management's Q3 call text: not read (Benzinga 403, Fortune header only, Quartr not used).
 
 ### BACKLOG
-- Thesis kill-rule mismatch question remains open. 1,024 non-action BOARD backlog entries, none owed.
+- Open rows CRL-15 `35% (was 65 — MONOTONICITY FIX)` and CRL-23 `45% (was 70)` carry the undated form WQ-112(ii) does not score. Date a mark only when a real re-mark happens; do not back-date. Flagged to PROME.
+- `thesis/REVISION_LEDGER.tsv`: the 10/26 CRL-21 STUCK row is UNCLASSIFIED and the 11/06 MISSED and re-mark have no row.
+- Thesis kill-rule mismatch question remains open. Non-action BOARD backlog about 1,050 entries, none owed.
 
 ---
 
 ## OUTBOX
 | To | Summary |
 |---|---|
-| PROME inbox | Delivery memo, with new prediction IDs and themes |
-| DAEDALUS inbox | Sweep #5 DONE, one residual |
-| TERRY inbox | CRL-21 MISSED, no card asked |
-| REGINALD inbox | ALLY and RITM 10-Q notes |
-| RED inbox | Own-framework counter-evidence, three points to press |
+| PROME inbox | WQ-632 receipt 11/06, then the closeout receipt |
 
 ## INBOX
-Top-level 0, WALTER lane 0 at 07:50 ET by `PROME/tools/inbox_census.py`.
+Top-level 1 (LABOR packet above), WALTER lane 0 at 13:25 ET by the lane-descending find.
 
 ## WORKBOOK HEALTH
 | TSV | Note |
 |---|---|
-| KB.tsv | LIVE; KB-584 to 594 added; every row 15 columns |
+| KB.tsv | LIVE; KB-595 added; 590 data rows checked at 15 columns |
 | PREDICTIONS.tsv | 36 rows, all 11 columns |
-| Docket | CATALYSTS 38 rows = CALENDAR 38 rows |
+| Docket | Unchanged this session |
 | VX.tsv and other parent TSVs | FROZEN, unchanged |
 
 ## URGENT
 - HHDC card had to be frozen late; do not edit a cell.
-- STATUS is at the edge of its rotation line; rotate before adding.
+- STATUS is at the edge of its rotation line (24,354 B, 74.8% of budget); rotate before adding.
 
-## CLOSEOUT RECEIPT (bounded session, 2026-11-06) — PARTIAL
+## CLOSEOUT RECEIPT (bounded session, 2026-11-06, second) — PARTIAL
 | Obligation | Result |
 |---|---|
-| Consistency (no warn-only) | PASS rc 0: 0 hard, 6 soft; 4 new rows clear Check G |
-| Corrections | PASS, 0 unreceipted; COR-20261031-22 NO-OP |
-| BOARD closeout | rc 0: "BOARD scan run, 1 new since SIG-W-20261105-066, 1026 logged" (receipts since cursor, not a full-backlog review) |
-| Claim check (STATUS, docket ×2, SCRATCH) | PASS |
-| Read-cap | rc 0; STATUS 24,360 B, 74.8% of budget, rotate next |
-| Orphans | Mine committed; others' left alone |
-| Ledger nudge | 27 child ledgers listed, none changed here except PHAN and POLLY PREDICTIONS Instrument cells |
-| Consumer check | NOT APPLICABLE: no CARL threshold or figure superseded; HHDC date flagged to PROME |
-| Research retirement sweep | RUN: 265 tracked, 4 older than 60 days by first-add date, 4 retained, 0 moved, 0 unresolved. Three keep the 10/26 L786 bases; CHG-RED-049 is cited by the OPEN CRL-29 row and KB |
-| Independent reader of L843 | NOT RUN; arithmetic reproduced by script, source rows sum to printed totals |
-| PROME closeout ask | Received 07:53 ET; delivery consumed; DOCKET rows and C4 line verified by PROME |
+| Consistency (no warn-only) | PASS rc 0: 0 hard, 6 soft |
+| Corrections | PASS, 0 unreceipted |
+| BOARD closeout | rc 0: "BOARD scan run, 18 new since SIG-W-20261106-010, 1028 logged" (receipts since cursor, not a full-backlog review); no action:[CARL] owed |
+| Claim check (STATUS, docket ×2, MEMORY) | PASS |
+| Read-cap | rc 0; STATUS 74.8% of budget |
+| Roadmap index | Rebuilt; --check matches |
+| Orphans | 0 likely mine; others' left alone |
+| Ledger nudge | 26 child ledgers listed; none changed here; event-driven, no fake refresh |
+| Consumer check | NOT RUN as a script: 25 is a bare 2-sig-fig figure. Grep of other desks' STATUS and briefs found no live CRL-21 citation |
+| Research retirement sweep | RUN: 265 tracked, 4 older than 60 days, 4 retained on this morning's reasons, 0 moved, 0 unresolved |
+| Boot | --quick: EDGAR ABS scrape NOT RUN |
+| Independent reader of the re-mark | NOT RUN |
+| Inbox | LABOR packet UNPROCESSED, carried |
 | Push | Receipt in the reply to PROME |
