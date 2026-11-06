@@ -2,13 +2,15 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-11-06T16:19:48-05:00 | **STATUS commit:** 09ba6fbafb
-**Variant:** FULL. Will-launched session (vulcan-b2): L974 slots written post-close 11/6, Will's Oracle and Microsoft assignment answered, WALTER and desk packets drained. No letter fired.
+**As of:** 2026-11-06T17:18:34-05:00 | **STATUS commit:** 675783e829
+**Variant:** FULL. Close refresh on Will's word relayed by prome-51 17:08 ET: drain, EDGAR sweep and 11/6 close read on top of the L974 slots and the Oracle and Microsoft report. No letter fired.
 
 ## CROSS-DOMAIN
 
 | Desk | Material finding and limit | Source |
 |---|---|---|
+| VIOLET / HENRY / LIQUID | 🆕 **11/6 close, vendor bars, not official closes, cause not established:** SPY +0.31%, RSP −0.38%, QQQ +1.40%, SMH +3.62%, MU +5.12%, MSFT −0.99%, ORCL 116.10 +0.82%, CRWV +6.28%, IREN +20.02%. Against the 11/4 close SMH is still −7.99%, MU −13.23%. Breadth +3.27pp [11/6], descriptive, no slot row; registered slot 9 stays +4.08pp [11/5]. | KB-407; yfinance 17:14 ET |
+| LIQUID / BROCK / HENRY | 🆕 **Closing papers, no new deal:** Meta $15.0B closed 11/5, €9.0B settles about 11/12, Alphabet €6.0B closed 11/5, Meta over-allotment about $1.869B. Meta long-term debt $80.9B [9/30] to about $106B, my sum, not filed. | KB-408; EDGAR 11/6 |
 | PROME / LIQUID / BROCK / SAM | 🆕 **Oracle, Microsoft, SoftBank are not one loop on what is read.** Oracle and SoftBank share OpenAI; no credit tie found; Microsoft's wind-down sits beside it, one Bloomberg chain, size and scope unknown. Candidate path, inference only: Oracle prepayments $11.4B, 49% of Q1 operating cash flow, payer unnamed, with public money pledged out through FY30. OpenAI's share of Oracle backlog 45-54% is relay-grade; filings name neither. | KB-400..404; report 11/6 |
 | VIOLET / HENRY | 🆕 **Slot 9, holdings 11/5:** Mag-7 33.4972%, breadth +4.08pp, YELLOW. Memory core 1mo −43.61%, equities only. GPU rents up on the week, Lambda and Crusoe announced H100 list rises; reading 9 has n=3, mean not comparable. Capex data stops at 9/30. | KB-397..399 |
 | VIOLET / HENRY | 🆕 **11/5 close read, vendor last 16:47 ET, not official closes:** SPY −4.41%, QQQ −6.49%, RSP −2.89%, SMH −11.21%. Payers AAPL −1.53% to META −3.96%, ORCL −6.93%; suppliers and developers −9.3% to −22.3%. RSP beat SPY by +1.52pp, so both S1 red legs moved further away. ⚠️ S1 cannot see a supplier-led break. Cause not established; about 60% of SMH's fall from its 10/5 peak predates the vote. | KB-346..348, KB-374; fetch.py |
@@ -23,7 +25,7 @@
 
 ## VIEW
 
-The market is repricing who gets paid and at what cost of money. Big buyers fell 1.5% to 4% and suppliers and developers 9% to 22%, which is the shape of a slowdown fear, but no buyer has cut and the desk's letters did not fire. Oracle and Meta still fund, at a much higher price than earlier this year, and backlog additions slowed in one lumpy quarter. The concentration test moves further from red in this kind of fall, so it is not the instrument that would catch it; financing, developer deals and CoreWeave's numbers are. Financing remains the only fired channel; composite 15/25.
+The market is repricing who gets paid and at what cost of money. Big buyers fell 1.5% to 4% and suppliers and developers 9% to 22%, which is the shape of a slowdown fear, but no buyer has cut and the desk's letters did not fire. Oracle and Meta still fund, at a much higher price than earlier this year, and backlog additions slowed in one lumpy quarter. The concentration test moves further from red in this kind of fall, so it is not the instrument that would catch it; financing, developer deals and CoreWeave's numbers are. Friday's bounce changes none of this: it is one day, its cause is not established, and chip suppliers still closed well below Wednesday, while some developers are nearly back (IREN −0.32%, CRWV −4.17% against the 11/4 close). Financing remains the only fired channel; composite 15/25.
 
 ## CALIBRATION
 
