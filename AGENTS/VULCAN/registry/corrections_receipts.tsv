@@ -14,3 +14,7 @@ receipt_date	correction_id	action	note
 2026-10-23T18:41Z	COR-20261022-48	NO-OP	scope=no VULCAN artifact carries any of the six kill strings (grep 10/23) and KB-269 and KB-277 cite only the held findings; 
 2026-10-26T17:32Z	COR-20261023-39	APPLIED	artifact=AGENTS/VULCAN/workbook/KB_GENERAL.tsv#KB-VULCAN-286; validation_ref=AGENTS/VULCAN/reports/2026-10-26_startup.md#checks-and-limits;
 2026-11-05T15:42Z	COR-20261031-02	NO-OP	scope=no VULCAN artifact carries any of the four kill strings (grep 11/5) and no VULCAN letter keys on the corrected vol quotes; 
+2026-11-06T14:59Z	COR-20261105-42	NO-OP	scope=no VULCAN artifact carries the kill string (grep 11/6), KB-367 and STATUS S3 already read the 100B as pre-vote and the count as reported, one possible base; 
+2026-11-06T14:59Z	COR-20261105-52	NO-OP	scope=Arkea appears only in raw cards and board_log (grep 11/6), no VULCAN channel or KB row cites it; 
+2026-11-06T14:59Z	COR-20261105-57	NO-OP	scope=no VULCAN artifact carries the VIX figure (grep 11/6), no VULCAN band keys on VIX and KB-374 stock figures are unchanged; 
+2026-11-06T14:59Z	COR-20261105-62	NO-OP	scope=Abrigo appears only in raw cards and board_log (grep 11/6), no VULCAN channel or KB row cites it; 

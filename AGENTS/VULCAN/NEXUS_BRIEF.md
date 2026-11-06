@@ -2,7 +2,7 @@
 
 **Status:** S1 3 / S2 2 / S3 3 / S4 3 / S5 4 = **15/25**, unchanged. One fired channel, S5; two events (Firmus and Volta under Will's B choice). WQ-464 retains 4.
 **Domain:** AI-capex / semiconductor / memory systemic transmission; shared demand root counted once.
-**As of:** 2026-11-05T16:52:05-05:00 | **STATUS commit:** a19d85244
+**As of:** 2026-11-06T10:00:18-05:00 | **STATUS commit:** a19d85244
 **Variant:** FULL. Will-authorized session from the PROME window (prome-98): owner read of the 11/5 AI and chip selling, WALTER drain, L622 and VULCAN-13 perimeter, WQ-596 predictions registered. No letter fired. Slot 9 not run; it needs Friday's close.
 
 ## CROSS-DOMAIN
@@ -39,7 +39,6 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 |---|---|---|
 | 2026-11-06 | GPU-rental panel reading 9 — cadence extension (registered 2026-09-29, before the original cadence's last slot) | VULCAN, PROME, WATT |
 | 2026-11-06 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 9 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
-| 2026-11-08 | VULCAN-13 search venue + dated sweep OWED (DAEDALUS 10/08 sweep item 1) — a week before VULCAN-13 resolves 11/15 | VULCAN, DAEDALUS |
 | 2026-11-10 | CoreWeave Q3 2026 earnings — issuer-confirmed Tuesday 2026-11-10, call 5:00 PM ET | VULCAN, TERRY, LIQUID, BROCK |
 | 2026-11-10 | BIS AFFILIATES RULE (the '50% rule') re-added to the EAR — stay's last day is 2026-11-09 (90 FR 50857, FR 2025-19846) | VULCAN; ZHAO(owner of the rule); HAWK; PROME |
 | 2026-11-10 | MOFCOM/GAC ANNOUNCEMENT No.70 suspension ends — 公告55/56/57/58/61/62 reactivate (rare earths, superhard materials, Li-battery incl. LFP cathode, and 公告61's 0.1%-by-value de minimis) | VULCAN; ZHAO(owner); HAWK; HENRY; WATT (LFP = grid storage) |
@@ -58,10 +57,12 @@ Exact event set generated from `docket/CATALYSTS.tsv` at this write; the registe
 | 2026-11-27 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 12 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-04 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 13 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-07 | Project Jupiter air permit public hearing (NMED, Hearing Officer Browning; date retained per NMED spokesperson, ABQ Journal 10/27) | VULCAN, WATT |
+| 2026-12-10 | ERCOT Batch Zero eligibility and community-impact reports: first fact on named Texas projects | VULCAN, WATT |
 | 2026-12-11 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 14 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-15 | ORCL $3.3B lessor guarantee — estimated Q2 filing/disclosure follow-up; stated September maturity passed, outcome UNKNOWN | BROCK,LIQUID |
 | 2026-12-15 | ORCL Q2 FY27 10-Q — thesis-kill LEG 4 reading 1 of 2 (off-BS DC leases not yet commenced) | VULCAN, LIQUID, BROCK |
 | 2026-12-16 | Micron FQ1 FY27 results (INFERRED by third-party calendars; Micron has not confirmed; prior year 12/17/2025): VULCAN-190 reading | HENRY, CARL |
+| 2026-12-17 | PUCT open meeting after the ERCOT Batch Zero reports | VULCAN, WATT |
 | 2026-12-18 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 15 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2026-12-24 | mag7.py POST-CLOSE reading — pre-committed Friday cadence slot 16 of 16 (renewal 2, S1 band + thesis-kill leg 2 + the breadth leg) | VULCAN, VIOLET |
 | 2027-01-08 | CFTC Reg 40.3 review period ENDS for NYMEX Submission 26-370/370S (Silicon Data H100 + B200 Rental Index Futures, GPU1/GPU2) — extended by NYMEX consent to 2027-01-08 (was 2026-11-09) | VULCAN, WATT, DEWEY, PROME |

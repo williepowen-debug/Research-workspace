@@ -246,3 +246,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T16:50:13-05:00	SIG-W-20261105-055	acted	INBOX_WALTER	Close read re-pulled at 16:47 ET and logged [KB-374]; vendor last, not official. Report and STATUS moved off 10:32 ET figures. VIOLET, REGINALD, LIQUID, RED items are theirs.
 2026-11-05T16:50:13-05:00	SIG-W-20261105-057	acted	INBOX_WALTER	VIX correction carried by KB-374 source line; stock figures unchanged. No VULCAN band keys on VIX. Cboe history not posted at card time.
 2026-11-05T16:50:13-05:00	SIG-W-20261105-060	acted	INBOX_WALTER	Qualcomm release read at EDGAR primary [KB-375]: memory named as an input cost, handset fall not attributed to it; Arm report unread. No S2 letter. Non-VULCAN items not ours.
+2026-11-06T09:59:32-05:00	SIG-W-20261105-062	info-only	INBOX_WALTER	Abrigo wording correction to card 060 is CYPHER's; no chip or AI-capex link; KB-375 used only the Qualcomm item on that card.
