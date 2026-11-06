@@ -520,3 +520,38 @@ No probability, threshold, prediction or trade changed.
 | QQQ call wall 700 | high **699.43** | high 688.69 | high 701.45, close 691.95 | — | Held on every close; traded $1.45 through 11/4 |
 
 The two QQQ walls bracketed a full session within $0.90 on 11/2. Levels on a four-session sample, not a hit rate. My note carried over from 10/30: a trough is where amplification peaks, not a support line.
+
+## ROT-11/06-CLOSE — rotated verbatim from STATUS.md at the 11/6 close re-base, superseded, kept as record (11/6 morning VIEW, 11/5 close paragraph, 09:55 ET gamma map and levels, cascade on the 11/5 close, grade of the 11/5 maps, 09:58 ET vol line). Payload 6148 B · crc32 520f0e05. ⚠️ The cascade line's 'second close' is wrong: 11/5 was the fifth straight close under the 50-day (corrected in STATUS 11/6).
+
+**11/6 10:0x ET, intraday except where dated. October payrolls beat hard and did not move stocks; it moved rates. Today's index gain is a narrow chip rebound, and dealers still amplify.** BLS first print +165,000 against consensus +65,000 (Reuters) and +59,000 (Dow Jones), unemployment 4.1%, August and September revised up 84,000 combined (BLS USDL-26-1632 as graded by LABOR, matching my BLS API pull; consensus from press). LABOR's freeze-thaw v2 fired, and that margin is thin: 15K over its +150K bar. **HEN-59 resolved: NOT FIRED; my expectation of FIRED MISSED.** ES was 7,401 at 08:29 ET, 7,393 at 08:30 and 7,399.75 at 09:31; the 10-year note future fell at 08:30 and partly retraced; the 2Y traded 4.54% at 09:57 ET against 4.46% par on 11/5 (CNBC quote, not a par print). NQ had already bounced +1.5% before the print against ES +0.2%. At 09:58 ET: SPX 7,422.11 (+0.93%), SMH +5.11%, QQQ +2.21%, RSP −0.28%, Dow −0.28%, KRE −0.41%, HYG +0.05%, VIX 24.99 (vendor). Press quotes December hike odds about 78% from 70% (Reuters); ORACLE owns priced odds and its 65 predates the print.
+**11/5 closed worse than any intraday read I published.** SPX 7,353.73 (−4.36%, worst close-to-close since 4/3/2025), NDX 26,629.81 (−6.36%, worst since 3/16/2020), QQQ 647.05 (−6.49%), VIX 28.18 (FRED). QQQ and NDX closed under their 200-day averages, first time since 4/7/2026; SPX held 0.42% above its own. Every support wall published 11/5 closed broken (grade below). Reported cause: Democratic wins, including in data-center states, raised fears of tougher AI regulation (CNBC and Reuters via WALTER 019, not read here; no capex cut or enacted measure found). Treat it as reported, not established.
+**Interpretation, working read:** on 11/5 the rates market cushioned the fall (2Y −12bp) and part of the December hike came out. The print takes that cushion back. A strong economy lowers the recession worry and raises the rate risk on long-duration tech, so the two do not net cleanly. Negative gamma amplifies up as well as down, so a sharp bounce here is not evidence of repair.
+## GAMMA MAP — 11/6 (`gamma_flip.py --both --spot <live> --publish`, 09:55 ET; first chain carrying 11/5 trading)
+
+| Chain (Cboe; spot passed in live) | Flip 14d / 35d | Net GEX per 1% 14d / 35d | Put wall | Call wall |
+|---|---:|---:|---|---|
+| SPX (4,664 / 7,964 contracts), spot 7,430.69 | ~7,670 / ~7,671 | **−$47.3B / −$58.5B** | **7,500 at both, spot UNDER it: overhead, not support** | **7,000 at both, spot ABOVE it: not a ceiling** |
+| QQQ (1,954 / 2,912), spot 662.66 | ~691 / ~691 | −$2.0B / −$2.3B | **650 at both, clean: the only published wall under spot on any chain** | WITHHELD: band 670–680 vs band 680–700 |
+| NDX (2,465 / 3,312), spot 27,237.43 | ~28,109 / ~28,332 | −$0.9B / −$1.3B | **28,000 at both, spot UNDER it: overhead, not support** | **29,675 at both** |
+
+**No clean SPX support is published.** QQQ 650 is the only level beneath spot, and QQQ closed under that strike on 11/5 at 647.05.
+
+**35d profile, $B per 1% by spot (shape only):** SPX 7,700 +8.7 · 7,650 −6.0 · 7,600 −20.6 · 7,550 −34.2 · 7,500 −45.8 · 7,450 −55.1 · 7,400 −61.9 · 7,350 −66.1 · 7,300 −68.1 · 7,250 −68.3 · 7,200 −67.3 · 7,100 −63.1 · 7,000 −58.3. QQQ 700 +1.0 · 690 −0.1 · 680 −1.1 · 670 −1.8 · 660 −2.4 · 650 −2.8 · 640 −2.9 · 630 −2.9 · 620 −2.6. Amplification stays deep through 7,000 with no flip back to dampening, and gets lighter going up, about 3.3% to the flip.
+
+**OI vintage, proved by change:** all 6 sampled lines differ from the 11/5 chain, so this chain holds 11/5 trading. QQQ Nov-20 puts 680 94,326 → 83,273 · 670 44,870 → 38,275 · 690 37,607 → 35,284 · 700 38,603 → 37,915; QQQ Nov-06 680 36,088 → 30,743; SPX Nov-06 7,550 6,874 → 5,988. Net open interest fell on every sampled line on a crash day, which fits hedges being closed, not added. ⚠️ Those lines were sampled because they were the old walls, not across the chain, and opening versus closing by trade is unknown.
+
+⚠️ Option marks about 15 minutes delayed, spot vendor live. Free-tier proxy: sign and flip robust, $B assumption-dependent, walls the fragile part. Levels published 11/5 are retired by this map.
+
+**Levels below spot (SPX, 09:58 ET):** 200-day 7,322.74 through 11/5 (−1.3%) · yellow 7,200 (−3.0%) · orange 7,100 (−4.3%) · red 7,037.04 (−5.2%, −10% from peak, WQ-609 A). 50-day 7,686.53 and 100-day 7,620.05 overhead; QQQ 200-day 680.71, NDX 27,976.53 overhead (own calc, closes through 11/5).
+**Cascade conditions on the 11/5 close (conditions only; dollar sizes are unsourced):** vol-control VIX >23–24 MET at 28.18 · short-term CTA SPX under the 50-day MET, second close · medium and long triggers have no sourced level, no call · risk parity correlation not read.
+## GRADE OF THE 11/5 MAPS ON THE CLOSE (vendor closes; NDX confirmed FRED NASDAQ100, VIX FRED VIXCLS)
+
+| Line | 11/5 high / low | Close | Grade |
+|---|---:|---:|---|
+| SPX 7,600 and band 7,500–7,600 (09:48) | 7,681.29 / 7,350.35 | 7,353.73 | **BROKEN, closed 146 points under the band** |
+| NDX 28,000 (09:48) | 28,078.19 / 26,606.43 | 26,629.81 | **BROKEN, closed 1,370 under** |
+| QQQ band 675–680 (09:48) | 683.65 / 647.05 | 647.05 | **BROKEN, closed $27.95 under, on the low** |
+| QQQ 700 call wall (both maps) | high 683.65 | 647.05 | Not tested |
+| Midday profile: amplification peak about 7,300–7,350 | low 7,350.35 | 7,353.73 | The low stopped 0.35 points over the band: fits, one session, not proof |
+| 200-day averages (SPX 7,322.74, QQQ 680.71, NDX 27,976.53) | | | **QQQ −4.94% and NDX −4.81% under, first since 4/7/2026; SPX +0.42% over** |
+**11/6 09:58 ET (vendor, not a close):** VIX 24.99, VIX9D 27.59, VIX3M 23.85, VVIX 124.63; still inverted. KRE $72.31 and USD/JPY 158.36 [vendor 11/5]. Cascade proxy: SPX 50-day 7,686.53; layers 1 and 2 met on the 11/5 close. VIOLET owns the vol broadcast: VVIX 120 fired, VIX 30 not, high 28.36 (SIG-VIO 11/5). Inversion marks peaks, not onsets, on its base rate (KB-VIO-034). Files: `research/2026-11-06_nfp/`.

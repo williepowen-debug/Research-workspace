@@ -882,3 +882,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T16:48:10-05:00	SIG-W-20261106-041	acted	INBOX_WALTER	SoftBank about 22% to 24%, SAM estimate, replaces 21.5% in STATUS and ML-HEN-200. Bridge and ABB never on my surfaces. COR-20261106-41 receipted.
 2026-11-06T16:48:10-05:00	SAM-2026-11-06-softbank-leverage-correction	acted	INBOX_GENERAL	Same replacement as WALTER 041, applied at STATUS and ML-HEN-200.
 2026-11-06T16:48:10-05:00	ISHM-2026-11-06-october-final-and-parker	noted	INBOX_GENERAL	S&P October final 54.9, Parker orders firm with Filtration Group in backlog and EPS raise. Cycle not called; price read not run, session closing.
+2026-11-06T17:17:02-05:00	SIG-W-20261106-042	noted	INBOX_WALTER	Oracle CDS correction: 3.25% traded 10/20, not 11/6 so far; 288 a vendor close on another basis. My 305bp [11/5] holds; no 3.25%, 288 or record claim on my surfaces. COR-20261106-42 receipted NO-OP.

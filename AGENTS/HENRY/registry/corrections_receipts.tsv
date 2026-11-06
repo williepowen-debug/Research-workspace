@@ -57,3 +57,4 @@ receipt_date	correction_id	action	note
 2026-11-06T21:48Z	COR-20261106-36	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-200; validation_ref=NONE; STATUS line carries the corrected read
 2026-11-06T21:48Z	COR-20261106-37	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-200; validation_ref=NONE; STATUS line carries the corrected read
 2026-11-06T21:48Z	COR-20261106-41	APPLIED	artifact=AGENTS/HENRY/workbook/KB.tsv#ML-HEN-200; validation_ref=NONE; STATUS line carries the corrected read
+2026-11-06T22:17Z	COR-20261106-42	NO-OP	scope=HENRY carries only 305bp [11/5 DTCC via LIQUID] which WALTER 042 holds. No 3.25 percent or 288 or record claim on STATUS or brief or KB (scan had a positive hit on the 305 line); 

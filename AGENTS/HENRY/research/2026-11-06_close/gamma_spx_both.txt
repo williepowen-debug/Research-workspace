@@ -1,0 +1,25 @@
+===== SPX GAMMA FLIP  (asof 2026-11-06, <= 14d, 4,320 contracts, src=cboe) =====
+  SPX spot        7,376.86   (--spot override; feed price 7,376.86)
+  Net GEX @ spot  -53.4 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~7,654
+                  spot is -277 pts BELOW (neg-gamma) the flip
+  Call wall       7,000  (clean #1, +51% over #2)
+  Put wall       7,500  ⚠️ NEAR-TIE (7% over #2) — report the BAND 7,000-7,500, not this strike
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== SPX GAMMA FLIP  (asof 2026-11-06, <= 35d, 7,547 contracts, src=cboe) =====
+  SPX spot        7,376.86   (--spot override; feed price 7,376.86)
+  Net GEX @ spot  -66.4 $B/1%   -> NEGATIVE (dealers AMPLIFY)
+  Zero-gamma FLIP ~7,658
+                  spot is -281 pts BELOW (neg-gamma) the flip
+  Call wall       7,000  (clean #1, +48% over #2)
+  Put wall       7,000  ⚠️ NEAR-TIE (4% over #2) — report the BAND 7,000-7,500, not this strike
+  ⚠️⚠️ PUT WALL == CALL WALL — structurally impossible as stated; treat the put side as UNRESOLVED at this horizon (see LESSONS 7/23).
+  (FREE-TIER proxy: absolute $B assumes long-call/short-put dealer gamma; the FLIP + sign are the robust reads)
+
+===== CROSS-HORIZON CHECK (audit E2) =====
+  Flip band       7,654-7,658  (14d ~7,654 · 35d ~7,658)
+  Regime          14d NEGATIVE · 35d NEGATIVE
+  Call  wall      ✓ PUBLISH: 7,000 at both horizons (clean at both)
+  Put   wall      ⛔ WITHHOLD: put wall == call wall at 35d — put side UNRESOLVED
+  PUBLISHED.tsv NOT written (pass --publish to record this read)
