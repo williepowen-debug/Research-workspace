@@ -1,25 +1,27 @@
-# FALCON SCRATCH — November 6, 2026, about 07:30 ET evidence cutoff
+# FALCON SCRATCH — November 6, 2026, about 11:15 ET evidence cutoff
 
 ## CURRENT MARKS
-B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-06 CONFIRMED; FAL-08..11 OPEN to 12/31. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5. Launched by prome-96 under WQ-626 A.
+B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-06 CONFIRMED; FAL-08..12 OPEN to 12/31. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5. Launched by prome-51, class C8, card 018.
 
-## CHANGES SINCE LAST SESSION (11/05 16:32 → 11/06 07:30 ET)
-- FAL-06 window closed with no qualifying notice found.
-- IMO as at 11/6: VELOS SAPPHIRE one seafarer killed, 129 / 25; the missing-versus-killed conflict is closed.
-- Iran claims two more tankers hit by mines 11/5 at noon, unnamed, unconfirmed. Houthi drone claim on Dammam airport; UAV toward the Eastern Region intercepted.
-- Trump late 11/5, Gulf News live only: will decide soon, "destroy the rest of the country", 18 US dead. CBS: USS Theodore Roosevelt at least two weeks out.
-- Brent January $98.29 on 11/5 [EST], BRENT's number; Reuters ties the rise to tanker attacks.
+## CHANGES SINCE LAST SESSION (11/06 07:30 → 11:15 ET)
+- UKMTO 197-26: unnamed outbound tanker, waterline explosion, 16 NM E Khasab, 11/5 22:00Z, under way, cause unstated. Time-late; card 018 said 11/6.
+- Velos Tankers via Reuters: VELOS SAPPHIRE unladen, suspected missile, one dead, no other injuries, at Khalifa Bin Salman Port, hull being assessed.
+- IRGC 11/6: two more tankers on mines, fire, immobilized. CLAIM-ONLY. Damage state does not fit 197-26.
+- Najran two missiles and Mecca-region drone intercepted; Houthi claim of coalition strikes on a Taiz market. No IN-class facility.
+- Axios via Iran International: CENTCOM finalizing preparations, no new orders. Bloomberg, one diplomat: Iran reviewing Qatar's nuclear proposals.
 
 ## WHAT I DID
-- FAL-06 graded CONFIRMED at 70%, route (c) ungraded caveat in the Outcome cell. Downgrade test run, NOT MET. EXIT v4 and THESIS v3.1 written; §2a byte-identical. FAL-08..11 registered. Seven combo themes, KB-404..410; charter step 6d. COR-20261105-65 APPLIED. Inbox 2 of 2 drained. Report reports/2026-11-06_fal06-grade-exit-successors.md.
+- Graded card 018; marks and census held. VI-0096 added, VI-0095 and CAS-038 updated. KB-411..417. Themes KB-404..408 updated. FAL-12 registered at 10%. EXIT §2 row and #6 receipt; §2a untouched. Packets to BRENT, WALTER, PROME. Report reports/2026-11-06b_card018-grade.md.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. November 11: weekly + GATE-FALCON-001 review; combo themes review; re-read D 85 note (KB-403); DAEDALUS items 6, 7, 8, 10–13.
-2. December 31 late ET: dated searches FAL-08, 09, 10; FAL-11 IMO table read. A search after that date = NO-VERDICT on 08, 09, 10.
+1. November 11: weekly + GATE-FALCON-001 review; combo themes; re-read D 85 note (KB-403, KB-416); DAEDALUS items 6, 7, 8, 10–13.
+2. December 31 late ET: dated searches FAL-08, 09, 10, 12; FAL-11 and FAL-12 IMO table read. A search after that date = NO-VERDICT.
 3. Band proposal (11/04 report §6) awaits PROME.
 
 ## OPEN THREADS / WATCHES
-- Bypass gauge failed three times 11/06 (PortWatch 429). Re-run at next boot.
+- 197-26 hull name, cargo, cause; IMO row. UKMTO 196-26 unread, probably VELOS by numbering only.
+- VELOS hull assessment; a declared total loss needs a census read.
+- PortWatch 429 twice today; re-run at next boot. Transit newest 10/25, bypass 10/30.
 - "18 US dead" not reconciled against CASUALTIES.tsv; 17 at 7/19 on my record.
 - Yanbu loadings: no reader; KB-168 proxy unbuilt. RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; ERA S and GRIT not on IMO table.
 - PMF discriminator not re-read since 11/2–11/3 (CTP 403). STRIKES mark 11/03, not due.
@@ -27,10 +29,10 @@ B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · ii
 - Carried builds unchanged.
 
 ## PREDICTIONS / DECISIONS
-FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, all 12/31. No Will decision open.
+FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, FAL-12 10%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-Inbox 0, WALTER lane 0. Packet to PROME.
+Inbox 0, WALTER lane 0 at this session. Packets sent to BRENT, WALTER, PROME.
 
 ## PENDING PUSH / GIT
-Committed locally. Push at PROME's closeout ask via safe-push, not before.
+Committed locally. Staying open; push at PROME's closeout ask via safe-push, not before.

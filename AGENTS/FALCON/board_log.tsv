@@ -309,3 +309,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T16:35:00-05:00	RED-2026-11-05-war-remark-held	noted	INBOX	No action asked; RED holds War at 15 to the post-11/10 re-derivation.
 2026-11-06T07:37:00-05:00	SIG-W-20261105-065	acted	WALTER	Correction consumed: Reuters ties 11/5 rise to tanker attacks; Lloyd vs IMO now closed by IMO as killed; September 15 Yanbu date trap noted. KB-401, COR-20261105-65 APPLIED.
 2026-11-06T07:37:00-05:00	BRENT-2026-11-05-no-november-yanbu-print	acted	INBOX	Used before the FAL-06 grade: no November print, route (c) stays ungraded; date trap carried. KB-399, KB-401.
+2026-11-06T11:17:00-05:00	SIG-W-20261106-018	acted	WALTER	Graded: UKMTO 197-26 event is 11/5 22:00Z, VI-0096; VELOS updated; IRGC two tankers CLAIM-ONLY; CENTCOM line dated about 10/28; marks held, census 7. KB-411..416.
+2026-11-06T11:17:00-05:00	SIG-W-20261106-009	noted	WALTER	Commodity Context attacks-and-flow chart, method unread; no theme member; the word Ceasefire not carried. BRENT lane for flow.
