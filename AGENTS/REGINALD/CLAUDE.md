@@ -36,6 +36,8 @@ Root CLAUDE §Git Protocol and docs/GIT_WORKTREE_PROCEDURES govern every pull/co
 
 ### WALTER signal intake — complements step9b
 
+**Combination watch (WQ-622 A):** when a card, sweep or print carries a small item under a live theme, add a dated `workbook/KB.tsv` row the same session with `combo:<theme>` first in Notes and its counterevidence, per `PROME/COMBINATION_WATCH.md`. Logging is not scoring.
+
 From root list `AGENTS/REGINALD/inbox/WALTER/*.md` whose SIG-W id is absent from `board/BOARD_LOG.tsv` BOARD_ID. Read each, decide disposition, append the existing 11-column record with Channels_Touched=INBOX_WALTER, then `git mv` to `inbox/WALTER/processed/`. Let acted items inform the session. Preserve the BOARD schema/disposition vocabulary below.
 
 8. General inbox: list open files excluding processed, report count/senders; awareness only unless processing is tasked.

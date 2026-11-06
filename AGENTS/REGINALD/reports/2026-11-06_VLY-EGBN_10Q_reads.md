@@ -133,3 +133,7 @@ No candidate, TRADE.md §2b. No trigger fired. Will holds `VLY $12P Dec-18-2026 
 ## 5. Verification scope
 
 Read: text extraction of the loan notes and MD&A credit sections of all four filings; EGBN chart g5; deck slide 16 from the saved image. VLY Call Report lines as tabled. K161 and K162 are treated together as non-MF CRE; their sum ties to the 10-Q, and the OO versus other split was not checked against the form. Not read: either Q3 call transcript, EGBN's Call Report at FFIEC today (11/01 pull reused and labelled), the other §6 'weakens if' lines for EGBN (graded at the print, 10/22 catch-up §4).
+
+## 6. Correction, same day (11:49 ET)
+
+§1a says "Had it paid off, that line would have fallen by about $108M." That is incomplete. A $108M payoff offset by $108M of new non-multifamily modifications would leave the total flat too, and pool arithmetic gives the same result either way. The inference rests on the two lines each moving about $1M or less per quarter across three quarter-ends, with their sum within $0.1M, which a replacement would have to match. Strength unchanged; reasoning corrected. See `reports/2026-11-06_re-modification-screen.md`.

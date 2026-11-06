@@ -106,6 +106,14 @@ def main():
     expect_pass("T8 the live committed output passes all three guards (no false positive)",
                 clean)
 
+    # T9 step detector compares raw figures: EGBN 6/30/2026 was -25.02%, rounded to -25.0, missed.
+    results.append((m.step_flag(7498, 10000, 9540, 10000) == "STEP-CANDIDATE",
+                    "T9a raw -25.02% with loans -4.6% flags (the rounding miss)"))
+    results.append((m.step_flag(7500, 10000, 9540, 10000) == "",
+                    "T9b exactly -25.00% does not flag (strictly over the bar)"))
+    results.append((m.step_flag(7000, 10000, 9400, 10000) == "",
+                    "T9c loans moved -6.0%, no flag"))
+
     for ok, label in results:
         print(("  ✅ " if ok else "  ❌ ") + label)
     bad = sum(1 for ok, _ in results if not ok)

@@ -23,8 +23,8 @@ import mi3_cohort_screen as m  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / "AGENTS/REGINALD/workbook/CRE_RCN_COHORT.tsv"
-QUARTERS = ["6/30/2025", "9/30/2025", "12/31/2025", "3/31/2026", "6/30/2026"]
-NEXT_DUE = "2026-11-07"
+QUARTERS = ["6/30/2025", "9/30/2025", "12/31/2025", "3/31/2026", "6/30/2026", "9/30/2026"]
+NEXT_DUE = "2027-02-14"
 
 FIELDS = {
     "loans_k": ["2122"], "nonaccrual_total_k": ["1403"], "acl_k": ["3123"],

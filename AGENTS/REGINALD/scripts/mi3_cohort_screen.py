@@ -143,9 +143,9 @@ COHORT = [
 # a TREND. Keep this list CONTIGUOUS when rolling it forward; add at the front, drop at
 # the back, never sample.
 QUARTERS = [
-    "9/30/2023", "12/31/2023", "3/31/2024", "6/30/2024",
-    "9/30/2024", "12/31/2024", "3/31/2025", "6/30/2025",
-    "9/30/2025", "12/31/2025", "3/31/2026", "6/30/2026",
+    "12/31/2023", "3/31/2024", "6/30/2024", "9/30/2024",
+    "12/31/2024", "3/31/2025", "6/30/2025", "9/30/2025",
+    "12/31/2025", "3/31/2026", "6/30/2026", "9/30/2026",
 ]
 # Same quarter, prior year — derived from QUARTERS so it cannot drift out of sync.
 YOY_PAIRS = {q: p for q, p in zip(QUARTERS[4:], QUARTERS[:-4])}
@@ -156,7 +156,7 @@ YOY_PAIRS = {q: p for q, p in zip(QUARTERS[4:], QUARTERS[:-4])}
 # "quiet until" date, read by scripts/ledger_staleness.py (`Cadence: SCHEDULED
 # next_due=`). A stale NEXT_DUE makes a correctly-quiet ledger nag every closeout,
 # which is how a guard family trains its reader to ignore it.
-NEXT_DUE = "2026-11-07"
+NEXT_DUE = "2027-02-14"
 
 
 def header_lines(data_refresh, attention=None):
@@ -204,6 +204,14 @@ def decomment(lines):
 # total loans -0.4%), which it must catch.
 STEP_MI3_PCT = 25.0
 STEP_LOANS_PCT = 5.0
+
+
+def step_flag(mi3_now, mi3_prev, loans_now, loans_prev):
+    """Compare RAW percentages; rounding is for display only. Rounding first missed
+    EGBN 6/30/2026 (raw -25.02% read as -25.0, not over 25), the float-tie class."""
+    m = 100.0 * (mi3_now / mi3_prev - 1)
+    l = 100.0 * (loans_now / loans_prev - 1)
+    return "STEP-CANDIDATE" if abs(m) > STEP_MI3_PCT and abs(l) < STEP_LOANS_PCT else ""
 
 # ⚠️ INSTRUMENT RESOLUTION (finding_registry_names_a_concept_tool_resolves_an_instrument).
 # "Item 4" and "item 9" are CONCEPTS; the MDRM carrying them depends on the FORM:
@@ -588,8 +596,8 @@ def main():
                 100.0 * (r["total_loans_k"] / prev["total_loans_k"] - 1), 1)
         m, l = r.get("mi3_qoq_pct"), r.get("loans_qoq_pct")
         if isinstance(m, float) and isinstance(l, float):
-            r["step_flag"] = ("STEP-CANDIDATE" if abs(m) > STEP_MI3_PCT
-                              and abs(l) < STEP_LOANS_PCT else "")
+            r["step_flag"] = step_flag(r["mi3_k"], prev["mi3_k"],
+                                       r["total_loans_k"], prev["total_loans_k"])
 
     # YoY on the DOLLARS — first-class, computed here so no analyst has to remember.
     for r in rows:
