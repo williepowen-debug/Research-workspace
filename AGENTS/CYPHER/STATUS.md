@@ -1,12 +1,16 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-11-05 16:49 EST — closeout of the launched session (PROME prome-98, WQ-618 A, Will 13:56 ET "yes go ahead"; runtime Claude Code, Opus 5.5).**
+**Last Updated: 2026-11-06 09:58 EST — boot and intake only (runtime Claude Code, Opus 5.5; Will's brief: status and next step, no unassigned work).**
+- **Intake clear:** card 062 logged and COR-20261105-62 receipted NO-OP (CYB-INC-060 already had the right wording). GIBBS answered the P1: no consequence observed at the 16 banks, Arkéa's shared-vendor channel UNKNOWN, KB-CYP-092; its 15 filed Q3 10-Qs show no cyber incident on a keyword diff, not a full read (KB-GIB-051). Revolve (boot leg 9) is already CYB-INC-058.
+- **Not done yet:** the four 11/06 rows, the re-check of 005 and 019 (boot leg 5, both past 14 days), and the WQ-622 combination-watch themes (CYPHER has none). Scores, watch rows and predictions unchanged from 11/05.
+
+**2026-11-05 16:49 EST — closeout of the launched session (PROME prome-98, WQ-618 A, Will 13:56 ET "yes go ahead"; runtime Claude Code, Opus 5.5).**
 - **Crédit Mutuel Arkéa: CYB-INC-059 OPENED, OFF-WAVE, CONFIRMED** (`research/2026-11-05_arkea/RECORD.md`). The bank says attackers came through "la plateforme d'un de nos prestataires" (provider unnamed) and paid other banks from its own account, about EUR 100M on its provisional word (no figure in its written statements). Crypto conversion is "potentiellement". **Shared software, rail or vendor reach: not established either way.** No second bank, rail statement or supervisory alert found. Not systemic on this evidence. Next check 11/09.
 - **WQ-589 ENCODED and VERIFIED:** PROME checked charter row and VX-CYP-02 cells at c082434f2; D:L917 RESOLVED.
 - **L812 second pass:** rows 1, 3-9 NOT-FIRED, all stamped 11/05. **Evidence moved on row 1:** Palo Alto's Unit 42 verified Dream's compromises (CYB-INC-047 → CONFIRMED); still no organisation named. PROME ruled 11/05: R1's naming requirement governs, NOT-FIRED holds, no letter change (class C3 on L812).
 - **Bank-vendor cluster watch: count limb MET** on Finzly (037 → CONFIRMED) and Abrigo (060, new). Not an escalation row; P1 sent to REGINALD, LIQUID, GIBBS and PROME. ⚠️ Abrigo is a CU-vendor on plain words, not a core. **REGINALD answered 11/05:** no regional-bank consequence today, not a clearance; EDGAR full text only, 10-Qs not searched; Abrigo also supports loan-loss reserve models, so the Q3 reporting window is the exposed moment. Re-judges on a regional 8-K or late 10-Q citing either vendor.
 - **Scores:** VX-01 2→3 (correction on the letter), VX-08 3→4 (FBI attribution, on the letter, composition note). Composite 24/40 raw, 15/40 shared-root-adjusted.
-- **Inbox drained:** 1 PROME packet, 8 WALTER cards (030, 037, 046, 050, 013, 011, 020, 061). Binance post-mortem into 055. Friday rows date-checked; one retired. COR-20261105-52 receipted APPLIED. **Consumption at close:** REGINALD filed its packet and answered; the LIQUID, GIBBS, HANS and SHADE packets were still unfiled at the top of their inboxes.
+- **Inbox drained:** 1 PROME packet, 8 WALTER cards (030, 037, 046, 050, 013, 011, 020, 061). Binance post-mortem into 055. Friday rows date-checked; one retired. COR-20261105-52 receipted APPLIED. **Consumption:** REGINALD and GIBBS filed their packets and answered; at 11/06 boot the LIQUID, HANS and SHADE packets were still unfiled at the top of their inboxes.
 
 > ~~FIRST-LIVE-SESSION BANNER~~ — **SPENT 2026-10-22.** Normal boot.
 
