@@ -101,6 +101,7 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | 2026-11-21 (Sat) | First Brands trustee first monthly operating report (Dkt 4022 ¶5) | 🟠 confirmed by order |
 | ~2026-11-30 (Mon) | EART October-collection 10-Ds | 🟠 modeled; **OTTO-36 resolves on this print** |
 | 2026-11-30 (Mon) | Year-end follow-up OTTO-11/-12; Ares Rule 2004 response deadline (Dkt 1486) | 🟠 confirmed |
+| ~2026-12-01 (Tue) | Hertz fleet-disposal watch: $200M notes and HVF III 2021-2 $2,000M fleet ABS mature 12/2026 | 🟡 modeled; credit read is LIQUID, OTTO reads the fleet consequence; Q3 10-Q unread |
 | 2026-12-04 (Fri) | Goodgame sentencing control date | 🟡 confirmed; 09:00 ET |
 | 2026-12-07 (Mon) | Manheim November full-month release | 🟠 confirmed at Cox 11/06 |
 | 2026-12-09 (Wed) | Chu Final Pretrial Conference | 🟠 confirmed; 14:00 ET |
