@@ -1,6 +1,6 @@
 # HENRY STATUS
 
-**Last owner update:** 2026-11-06 10:0x ET, WQ-626 A wake, DOCKET L975 and the co-reader leg of L767 (Claude Code, Opus 5.5, `claude-opus-5-5`). Changed: 11/5 close graded, map re-published on the first chain carrying 11/5 trading, HEN-59 resolved, thresholds re-based to 11/5 closes; the 11/5 VIEW, both 11/5 maps and the 11/2 grade rotated verbatim to `STATUS_COLD.md` § ROT-11/06.
+**Last owner update:** 2026-11-06 10:2x ET (11/5 HY added; earlier pass 10:0x ET), WQ-626 A wake, DOCKET L975 and the co-reader leg of L767 (Claude Code, Opus 5.5, `claude-opus-5-5`). Changed: 11/5 close graded, map re-published on the first chain carrying 11/5 trading, HEN-59 resolved, thresholds re-based to 11/5 closes; the 11/5 VIEW, both 11/5 maps and the 11/2 grade rotated verbatim to `STATUS_COLD.md` § ROT-11/06.
 
 ## VIEW
 
@@ -10,7 +10,7 @@
 
 **Interpretation, working read:** on 11/5 the rates market cushioned the fall (2Y −12bp) and part of the December hike came out. The print takes that cushion back. A strong economy lowers the recession worry and raises the rate risk on long-duration tech, so the two do not net cleanly. Negative gamma amplifies up as well as down, so a sharp bounce here is not evidence of repair.
 
-**Credit is not confirmed either way.** The last cash high-yield print is 332bp on 11/4; the 11/5 cell had not posted at this write. HYG −0.31% on 11/5 and +0.05% this morning. Under the Credit-Primary Rule no bottom call is available. On 11/5 KRE fell −2.46% with the 2Y down 12bp, which my attribution test reads as a credit story; the ETFs do not agree, and the cash print decides.
+**Credit moved, and less than stocks did (FRED first read, posted about 10:16 ET 11/6).** HY OAS 348bp on 11/5, +16bp from 332: the 2026 high, highest since 353 on 5/9/2025 (series as served starts 11/7/2023). BB 213 (+14), B 367 (+16), CCC 1,320 (+23), CCC−BB 1,107 (+9), IG 93 (+2). The quality tier moved about as much as the tail in basis points, so this reads as a broad repricing, not a tail event. Against the equity move it is modest: of 8 other S&P falls of 2.5% or more since 11/2023, five saw HY widen 19bp or more, and 4/3/2025 (−4.84%) saw +59bp. Under the Credit-Primary Rule a new high is the opposite of a peak, so no bottom call is available; the 11/6 cell publishes Monday. My attribution test read 11/5's KRE fall as a credit story; the cash print supports a partial reading, a move and not an event. **By 10:17 ET the chip lead had narrowed:** SPX +1.00%, SMH +3.95%, RSP +0.08%, KRE +0.51%, HYG +0.04%, VIX 24.36 (vendor).
 
 No threshold, band, trade or gate changed. Three new forecasts registered (HEN-60, HEN-61, HEN-62).
 
@@ -58,18 +58,18 @@ No threshold, band, trade or gate changed. Three new forecasts registered (HEN-6
 
 **11/6 09:58 ET (vendor, not a close):** VIX 24.99, VIX9D 27.59, VIX3M 23.85, VVIX 124.63; still inverted. KRE $72.31 and USD/JPY 158.36 [vendor 11/5]. Cascade proxy: SPX 50-day 7,686.53; layers 1 and 2 met on the 11/5 close. VIOLET owns the vol broadcast: VVIX 120 fired, VIX 30 not, high 28.36 (SIG-VIO 11/5). Inversion marks peaks, not onsets, on its base rate (KB-VIO-034). Files: `research/2026-11-06_nfp/`.
 
-## CREDIT EARLY-WARNING MONITOR — FRED LATEST VINTAGE THROUGH 11/3 (pulled 09:46 ET 11/5)
+## CREDIT EARLY-WARNING MONITOR — FRED THROUGH 11/5, FIRST PUBLISHED FOR 11/5 (pulled 10:17 ET 11/6)
 
-**11/4 posted since (`credit_monitor.py` 12:38 ET 11/5): HY 332 (−8), BB 199, CCC 1,297 (−19), gap 1,098.** Index credit tightened on a session the AI cohort fell. LIQUID grades it REVERSES (card 021). **The 11/5 cell, the first carrying the sell-off, had not posted at this write (due about 10:30 ET); nothing here says credit confirmed or unconfirmed.** Table below stays at 11/3.
+**11/5 is the first print carrying the sell-off: HY +16bp to 348, the 2026 high.** ETFs stayed calmer than cash: HYG −0.31% on 11/5, +0.04% at 10:17 ET 11/6. Owners grade their own lines (LIQUID Gate 069, TERRY T1, REGINALD, RED, VIOLET; WALTER 012); HENRY grades none of them.
 
-| Series | 10/28 | 10/29 | 10/30 | 11/2 | 11/3 |
+| Series | 10/30 | 11/2 | 11/3 | 11/4 | 11/5 |
 |---|---:|---:|---:|---:|---:|
-| HY OAS | 314bp | 326bp | **344bp** | 343bp | **340bp** |
-| BB OAS | 184bp | 194bp | 209bp | 206bp | 203bp |
-| CCC OAS | 1,307bp | 1,325bp | 1,327bp | 1,319bp | 1,316bp |
-| CCC−BB | 1,123bp | 1,131bp | 1,118bp | 1,113bp | 1,113bp |
+| HY OAS | 344bp | 343bp | 340bp | 332bp | **348bp** |
+| BB OAS | 209bp | 206bp | 203bp | 199bp | **213bp** |
+| CCC OAS | 1,327bp | 1,319bp | 1,316bp | 1,297bp | **1,320bp** |
+| CCC−BB | 1,118bp | 1,113bp | 1,113bp | 1,098bp | **1,107bp** |
 
-**LIQUID 11/4 (owner adjudication, SIG-W-20261104-076):** renewed >320 persistence MET 11/2, fourth observation 11/3; existing tier rule BROADENS (IG 94/94/93 fails strict >94). Price repricing is demonstrated; a generalized funding restriction is not (funding NOT ARMED through 11/3). REGINALD's strict >350 ×3 stays 0 of 3. HY tightened only 4bp from the 10/30 peak through 11/3, and the 11/4 relief session is not yet posted (HYG +0.70% that day); `credit_monitor.py` 09:41 ET: gap +257bp over ~3 months, HYG $77.39, HYG/LQD 5-session −0.4%, no fund-flow flag. 11/4 FRED not posted at the pull.
+**LIQUID 11/4 (owner adjudication, SIG-W-20261104-076):** renewed >320 persistence MET 11/2, fourth observation 11/3; existing tier rule BROADENS (IG 94/94/93 fails strict >94). Price repricing is demonstrated; a generalized funding restriction is not (funding NOT ARMED through 11/3). REGINALD's strict >350 ×3 stays 0 of 3. `credit_monitor.py` 10:17 ET 11/6: gap +252bp over about 3 months, HYG $77.31, HYG/LQD 5-session −0.36%, no fund-flow flag.
 
 ## RELEASES SINCE 11/2
 
@@ -115,9 +115,9 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 |---|---|
 | Cyclical | Inflation pressure persists (September CPI/PPI hot on energy; core PCE +0.3% m/m, 3.1% y/y [BEA 10/29]; ISM prices 75.2 manufacturing / 73.0 services [Oct]) while activity holds (ISM 55.5 / 54.5 [Oct]). October payrolls +165K with wages firm; LABOR stood its freeze thesis down on its own kill rule, a hiring read and not a layoffs read, 15K over the bar on a first print (WALTER 010). Read-through here: the labor leg no longer argues for an equity bid break, and it supports the hike side of the rate path. Brent January about $98.29 on 11/5 (BRENT mark, [EST]). Treasury par 11/5: 2Y 4.46%, 10Y 4.84%, 30Y 5.25%; 2Y 4.54% at 09:57 ET 11/6, not a par print. |
 | AI-capex | HEN-36 mechanism RESOLVED-CONFIRMED; class-wide de-rate expression FALSIFIED. Q3 hyperscaler cluster closed with **no capex cut** (VULCAN 10/30: AMZN held ~$220B for 2026, TTM FCF −$42.4B; §4b NO-VERDICT). The market sold the spend: GOOGL −12.64% (10/29), then on 10/30 SOXX −8.24%, INTC −28.58% on its results, NVDA −4.22%, QQQ −3.47% vs RSP −0.79% (VULCAN owns the capex grade; HEN-36 re-read: nothing in VULCAN's packet changes its resolution). **11/4–11/5 repeated the pattern without a capex event:** chips fell through the election relief and led 11/5 down; AMD beat its quarter on 11/3 (press) and closed −17.26% on 11/5, SMH −11.21% (vendor). |
-| Structural credit | Tail stress persists (CCC 1,297bp RED, CCC−BB 1,098bp [FRED 11/4]); broad HY **332bp, five observations over 320**, tiers REVERSES on 11/4 (LIQUID, card 021; one print, predates 11/5). Funding not confirmed. Not AI-led on the rated CCC tier (DEWEY 10/23). |
+| Structural credit | Tail stress persists (CCC 1,320bp RED, CCC−BB 1,107bp [FRED 11/5]); broad HY **348bp, the 2026 high, six observations over 320**, +16bp on the 11/5 sell-off, BB +14; LIQUID owns the tier grade. Funding not confirmed. Not AI-led on the rated CCC tier (DEWEY 10/23). |
 
-**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 332 [11/4] > 260; VIX 28.18 [11/5] > 15).
+**Standing Will rule (8/10):** VIX < 15 AND HY < 260 on the SAME session, five consecutive; non-latching. **Joint count 0** (HY 348 [11/5] > 260; VIX 28.18 [11/5] > 15).
 
 ## ACTIVE THRESHOLDS — ALL STANDING LEVELS UNCHANGED
 
@@ -133,12 +133,12 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 | KRE | $72.31 [vendor 11/5] | <$65 / <$62 / <$60 | NOT FIRED |
 | 10Y | **4.84% [Treasury par 11/5]** | >4.5 / >4.8 / >5.0 | ORANGE (16bp under red) |
 | 2Y / 30Y | **4.46% / 5.25% [Treasury par 11/5]** | >4.25 / >4.40 / >4.60 · >5.0 / >5.25 / >5.50 | 2Y ORANGE (14bp under red); 30Y **YELLOW on the print** (5.25 is not >5.25; was ORANGE 5.28). Live 4.54% / 5.27% at 09:57 ET are quotes, not par |
-| HY OAS | **332bp [FRED 11/4]**; 11/5 not posted at this write | >320 / >400 / >500 | **YELLOW** on the last print; 11/5 cell owed about 10:30 ET |
-| CCC OAS | 1,297bp [FRED 11/4] | >900 / >1000 / >1100 | RED |
+| HY OAS | **348bp [FRED 11/5, first published]** | >320 / >400 / >500 | **YELLOW** (28 over; 52 under orange); 2026 high |
+| CCC OAS | 1,320bp [FRED 11/5] | >900 / >1000 / >1100 | RED |
 | USD/JPY | 158.36 [vendor 11/5, −0.07%] | absolute daily change ≥2%, SAM's call | NOT FIRED |
 | SKEW | 149.37 [vendor 11/5, History not posted] | >145 / >150 / >160 | YELLOW on the provisional bar (was ORANGE 150.90); RED-FT-10 owner grade separate |
 | VIX kill leg | **28.18 [FRED VIXCLS 11/5]** | <17 / <16 / <15 one session | NOT FIRED (was YELLOW on 11/4) |
-| HY kill observable | 332bp [FRED 11/4] | <290 / <270 / <260 ×5 | NOT FIRED |
+| HY kill observable | 348bp [FRED 11/5] | <290 / <270 / <260 ×5 | NOT FIRED |
 
 ## CROSS-DESK / CATALYST STACK / GAPS
 
@@ -149,6 +149,6 @@ Sources: WALTER SIG-W-20261104-003/-004/-005 and ISHM L899 (ISM primaries read t
 - **ISHM (11/4, two packets, read and filed):** Q3 core orders/shipments +3.638% / +3.939% nominal q/q (mixed vintages), Emerson underlying orders +14% ex-AspenTech, five October rail weeks positive y/y. Real buying better supported; breadth still qualified by hardware and weak Europe/China. Equity read: supports cyclical activity, does not offset chip repricing.
 - **CYPHER 11/2 (read and filed):** COIN's 10/30 residual faded to −2.59pp (z −0.9) by the close; no name priced Binance venue risk beyond bitcoin-plus-Nasdaq beta. No HENRY line.
 - **SOXX:** iShares 3-for-1 split effective 11/5 (record 11/3, per iShares). The vendor shows no split yet, so its 11/5 change is false; 11/4 450.41 equals 150.14 post-split.
-- **Inbox (11/6):** 7 WALTER cards and ORACLE's December odds packet dispositioned; 3 NAMED corrections receipted NO-OP; AEOLUS 4ca65b1f5 is a TERRY vortex read, nothing for HENRY. WALTER 11/6: card 008 hedge-fund October losses, positioning context only, predates 11/5, no fund reported closing and no broad redemptions; card 003 Nikkei −5.96% on 11/6, SoftBank −10.83%, JGB 10Y −12bp, secondary sources, SAM grades the carry read; card 001 payrolls, already held. **Combination watch (WQ-622) set up:** 4 themes, KB ML-HEN-200 to -203. DOCKET L565 still needs PROME to land the empty WATCH_FOR list.
-- **Still open:** 11/5 HY and CCC cells; close read of today's reaction including the KRE note; RED and VIOLET own their vol grades; Operating Dashboard not refreshed (outside this bounded wake); breadth rerun and options volume by strike not run. Boot step (g) consumer scan timed out at 180s; rerun at closeout.
+- **Inbox (11/6):** WALTER 012 (HY 348) consumed, owners grade their own lines. 7 WALTER cards and ORACLE's December odds packet dispositioned; 3 NAMED corrections receipted NO-OP; AEOLUS 4ca65b1f5 is a TERRY vortex read, nothing for HENRY. WALTER 11/6: card 008 hedge-fund October losses, positioning context only, predates 11/5, no fund reported closing and no broad redemptions; card 003 Nikkei −5.96% on 11/6, SoftBank −10.83%, JGB 10Y −12bp, secondary sources, SAM grades the carry read; card 001 payrolls, already held. **Combination watch (WQ-622) set up:** 4 themes, KB ML-HEN-200 to -203. DOCKET L565 still needs PROME to land the empty WATCH_FOR list.
+- **Still open:** close read of today's reaction including the KRE note; RED and VIOLET own their vol grades; Operating Dashboard not refreshed (outside this bounded wake); breadth rerun and options volume by strike not run. Boot step (g) consumer scan timed out at 180s; rerun at closeout.
 - **Runtime:** Claude Code (Opus 5.5), terminal + web + cross-session messaging; Definite and MT Newswire connectors failed and were not needed; Quartr not called. bls.gov web 403 from this box, api.bls.gov works; cmegroup.com not approached. Tree dirty with PROME and LABOR work at boot: pull refused, read from origin/master.
