@@ -1,6 +1,6 @@
 # Cross-theater war-risk aggregate — HAWK
 
-**Refreshed: 2026-11-06 ~12:00 ET (from session clock).** Owner records reviewed: FALCON WARRISK at `35bd7d149c` (10/26, unchanged), OSPREY WARRISK at `f4414148cf` (11/6 bounded re-pull, data clock unchanged at 10/21). Quote dates unchanged; ages updated. **Matched cross-theater premium ratio UNKNOWN.**
+**Refreshed: 2026-11-06 ~11:45 ET (from session clock).** Owner records reviewed: FALCON WARRISK at `35bd7d149c` (10/26, unchanged), OSPREY WARRISK at `f4414148cf` (11/6 bounded re-pull, data clock unchanged at 10/21). Quote dates unchanged; ages updated. **Matched cross-theater premium ratio UNKNOWN.**
 
 | Leg / owner | Last owner-adopted observation | Quote age November 6 | State |
 |---|---|---|---|
