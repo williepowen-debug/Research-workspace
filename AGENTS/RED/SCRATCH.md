@@ -1,5 +1,5 @@
 # RED SCRATCH — canonical session handoff
-**S60 HANDOFF — written 2026-11-06 10:20 ET (from `date`). Session S60: WAKE under WQ-626 A, DOCKET L971, launched by PROME prome-51. Session stays OPEN until PROME asks; full closeout not run. The S59 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
+**S60 HANDOFF — written 2026-11-06 10:20 ET (from `date`). Session S60: WAKE under WQ-626 A, DOCKET L971, launched by PROME prome-51. Closed on PROME's ask, 10:20 ET. The S59 handoff is in git history (`git log -p -- AGENTS/RED/SCRATCH.md`).**
 
 ## CHANGES SINCE (S59 closed 11/05 16:43 → S60 11/06 10:10)
 - Official 11/05: VIXCLS 28.18 (Cboe 28.18, high 28.36), HY 348, CCC 1,320, BB 213 (WALTER), SKEW 149.37, 5y5y 2.22. VIOLET: VVIX 134.99, VIX3M/VIX 0.9067.
@@ -13,11 +13,12 @@
 - **RED-29 registered, 50%:** FT-06 exit completes; catalyst and calendar rows in; read 11/12 after 10:30 ET.
 - **Combination watch set up:** KB-RED-109 to 113, themes ai-financing-reach, credit-breadth-outside-ai, labor-bull-rebuild, oil-price-vs-flow, forced-deleveraging; charter line at boot 1.5.
 - **Corrections:** 8 of 8 receipted (2 APPLIED, 6 NO-OP). **Inbox:** VIOLET and CARL packets, one WALTER lane card, processed. CARL's is deferred, unanswered.
-- Delivered: `PROME/inbox/2026-11-06_from-RED_L971-grades-RED23.md`, OUTBOX -071.
+- Delivered: `PROME/inbox/2026-11-06_from-RED_L971-grades-RED23.md`, OUTBOX -071; PROME receipt 10:20 ET, L971 RESOLVED, RED-29 on DOCKET.
+- **KB-092 re-derived on PROME's ruling, 4–12% unchanged** (ML-323): the 9/6 table's credit clause is met and pulls up, labor and a 55-day window pull down. Next at the 12/04 jobs report. **VX-001 and VX-014 flips NOT MET, VX-007 leg B MET.** Packet `PROME/inbox/2026-11-06_from-RED_KB092-rederive.md`.
 
 ## NEXT SESSION (dated, ordered)
 0. 🔴 **Each morning 11/09 to 11/12:** read VIXCLS for FT-06 (11/06 bar on 11/09). Any close <18 breaks it to 0 and resolves RED-29 FALSE. Four closes ≥18 → 11/12 read after 10:30 ET executes Stag +2 / Managed −2, labelled MECHANICAL, and RED-29 TRUE. Pre-stated: if that executes on 11/12, the post-CPI discretionary re-derivation does not run 11/13.
-1. 🟠 **KB-092 re-derive, Stale_By 11/09:** NOT RUN, outside the L971 bound. Panel: T10Y3M, T10Y2Y, SAHMREALTIME, claims, payrolls, U-3, HY, CCC.
+1. 🟠 **VX-007:** leg B met on the 11/05 close, weights held 45/55; decide strength at the post-11/10 re-derivation. Leg A still has no instrument. Tree for FT-06: `research/2026-11-12_FT06_EXIT_TREE.md`.
 2. 🟠 **FT-02 and RED-27 daily:** HY 11/06 cell; REG-T-04 is REGINALD's, 2bp away.
 3. 🟠 **Before Sat 11/7:** TERRY revises OP-SCALE against report version 4; re-read the diff only if asked. RED answers contests only (CHG-056).
 4. 🟡 **By 11/9:** CHG-054 re-review: OZK 10-Q (FDIC filer; Chicago refi primary, SIG-W-20261027-041). KB-065/066 refresh then.
@@ -26,7 +27,7 @@
 7. 🟡 **11/6–11/13:** KB review cluster. **11/13** combo theme credit-breadth-outside-ai. **11/15** HHDC (CHG-045/049). **11/20** three combo themes. **~11/25** FT-10 outcome grade.
 
 ## OPEN THREADS
-- Live-event override: official VIX close over 20, so it applies; dashboard refresh and hourly commit run while S60 is open and the event runs.
+- Live-event override ended with S60's close on PROME's ask at 10:20 ET; it re-applies at the next session if VIX closes over 20 and the event is running.
 - FT-10 reading: the condition met on a tech and gamma trigger, so do not read the ~11/25 CORRECT as war or credit foresight.
 - WL-11: price and flow still disagree. Do not resolve by inference.
 - PROME's scoring run on the row key is unconfirmed; report 2 is 12/4.
@@ -35,7 +36,4 @@
 - None owned by RED. WQ-599 is Will's.
 
 ## GIT STATE
-Commit local, not pushed; push runs at closeout. See the closeout message.
-
-## OWED AT CLOSEOUT
-Full W1 to W10 first-ending run: `board_log.tsv --rotate` (67.4%), STATUS fold (31.5 KB of 32.55), memory if a lesson survives, push.
+See the closeout message for commits and the push receipt.

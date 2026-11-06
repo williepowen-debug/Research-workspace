@@ -33,6 +33,8 @@
 - **Anchor predictions to the workbook row at creation time** — STATUS/workbook numbering drifted (RED-11..14 vs 16..19); write the workbook ID immediately (ML-RED-068). → `MEMORY_ARCHIVE.md`
 
 **Pre-registration / falsification discipline**
+- **A re-statement that re-pulls the panel but not the pre-written move table re-certifies without testing** (S60, ML-RED-323). KB-092's 'HY >320 with CCC >1100' clause was met and carried unflagged for two sessions. A window-bound probability also decays with the calendar; holding it is a claim to argue.
+- **Record a revisable row's path beside its grade** (S60, ML-RED-322). RED-23 read +71.3K, +51.3K, +69.0K; CORRECT alone reads as stable when one month's revision carried it.
 - **Check your own registration for the defect you just charged a peer with, the same night** (S52, ML-RED-287). RED found CARL's CRL-29 bands non-exhaustive and overlapping, and RED's own 8/7 EGBN bands had the identical holes. Closed pre-data only because the CARL work was fresh.
 - **An event clause written in prose is invisible to a date-keyed DUE-scan** (S52, ML-RED-288). CHG-051 said "10/31 or at the first fire" and fell due on 10/14 while boot showed 10/31. boot.py §4 now flags event clauses.
 - **A noisy flag list hides the real flag. Fix the instrument before working the list** (S52, ML-RED-294). 4 of 13 "terminal facts cited live" were checker noise, and the real finding under them was VX-015's own flip line, met 10/02 and unseen for 12 days. **Corollary (ML-295): a time-boxed vector whose box has expired owes a RESOLUTION, not a review.**

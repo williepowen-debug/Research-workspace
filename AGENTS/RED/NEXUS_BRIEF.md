@@ -2,7 +2,8 @@
 
 **Status:** 🟠 **vS60 (2026-11-06 10:19 ET). HOLD 72 · net-bear 68, UNCHANGED: no weight moved.** Stag 33 · Managed 25 · Acute 20 · War 15 · Soft 4 · Rescue 3. No RED line fired or exited; FT-06 exit count 0 → 1 of 5. Prior brief vS59 rotated verbatim → `reports/2026-11-06_NEXUS_BRIEF_vS59_rotated.md`.
 - 🆕 **11/05 official bars:** VIX 28.18 (FRED and Cboe), **FT-06 exit 1 of 5**, a new run, earliest read 11/12. HY 348, +16bp, new post-fire high, **FT-02 exit 0 of 3**. CCC 1,320. SKEW 149.37, **FT-10 exit 0 of 4**.
-- 🆕 **RED-23 CORRECT, +69.0K** (Jun +31, Jul −10, Aug +186, BLS 11/06): the S41 move stands. ⚠️ It read +51.3K at the second vintage; one month carries it (ML-322). KB-092 re-derive owed by 11/09.
+- 🆕 **RED-23 CORRECT, +69.0K** (Jun +31, Jul −10, Aug +186, BLS 11/06): the S41 move stands. ⚠️ It read +51.3K at the second vintage; one month carries it (ML-322). KB-092 re-derived, recession 4–12% unchanged, two forces straddling it (ML-323).
+- 🆕 **VX-007 Structural Bid leg B MET on the 11/05 close:** VIX 28.18, SPX 7,353.73 under its 50-DMA 7,686.53. One close, vector weights held, no hypothesis weight moves.
 - 🆕 **RED-29, 50%:** FT-06 exit completes on four closes ≥18, read 11/12. If it executes, Stag +2 / Managed −2 on the row's own letter.
 - 🆕 **Ledger adds for the post-11/10 re-derivation:** selloff, HY 348, Japan and data center bonds against October payrolls +165K, 3-mo 137K, LABOR v2 fired. One root for stocks, volatility and Japan.
 - 🆕 **FT-11** keeps reading the November QRA ops on its own letter (retirement keys on the program ending; sb0678 carries it). F2 seven of seven OFF-THE-RUN. No window since 10/27, precedence still untested.

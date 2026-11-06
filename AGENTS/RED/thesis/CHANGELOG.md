@@ -11,6 +11,8 @@
 - **FT-10:** SKEW 149.37 [11/05]; exit 0 of 4; fire stays open.
 - **RED-23 (S41 self-falsifier):** CORRECT, EVENT TRUE, +69.0K (Jun +31, Jul −10, Aug +186, BLS 11/06). Old view: "the S41 Soft +2 rests on a provisional +71.3K." New view: "it survives at +69.0K, with a different composition, after reading +51.3K at the second vintage (ML-322)." No weight moves on this row by its letter.
 - **RED-29 registered:** FT-06 exit completes, 50%, read 11/12.
+- **KB-092 recession number re-derived, 4–12% unchanged.** Old view: "no instrument at a trigger; bear drift puts the upper bound at risk." New view: "the 9/6 table's credit clause is met and pulls up, labor and a 55-day window pull down, and the two straddle the span." (ML-323.)
+- **VX-007 leg B MET on the 11/05 close.** Old view: "half the flip met, did not complete." New view: "both legs met on one close." Vector weights held 45/55 until the post-11/10 re-derivation; no hypothesis weight moves.
 - **Weights held deliberately.** The 11/05 selloff, the HY print and October jobs go to the ledger. The next re-derivation stays after the 11/10 CPI or a registered fire, and not on the day after a mechanical FT-06 exit.
 
 ---
