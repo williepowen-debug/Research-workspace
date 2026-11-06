@@ -12,3 +12,4 @@ receipt_date	correction_id	action	note
 2026-10-22T00:37Z	COR-20261021-11	APPLIED	artifact=AGENTS/FALCON/domain/vessel-incidents/VESSELS.tsv#VI-2026-0074; validation_ref=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-296; 
 2026-10-23T18:50Z	COR-20261023-31	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-329; validation_ref=AGENTS/FALCON/thesis/PREDICTIONS.tsv#As of 2026-10-23; 
 2026-10-26T17:31Z	COR-20261025-26	NO-OP	scope=Original contrary-Zamir framing never adopted in FALCON STATUS or KB or NEXUS_BRIEF. Searched October 26 before intake. Corrected provenance recorded in KB-FALCON-331 and startup receipt.; 
+2026-11-06T12:37Z	COR-20261105-65	APPLIED	artifact=AGENTS/FALCON/workbook/KB.tsv#KB-FALCON-401; validation_ref=NONE; Reuters price link, held headlines and September 15 date trap taken into KB-401; FALCON surfaces carried no contrary line.

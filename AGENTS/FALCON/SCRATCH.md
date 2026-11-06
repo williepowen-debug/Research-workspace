@@ -1,38 +1,36 @@
-# FALCON SCRATCH — November 5, 2026, 16:32 ET evidence cutoff
+# FALCON SCRATCH — November 6, 2026, about 07:30 ET evidence cutoff
 
 ## CURRENT MARKS
-B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-07 CONFIRMED; FAL-06 OPEN 70% to 23:59 ET 11/05. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5, falcon-a6.
+B 1 / C 14 / D 85 HELD; convergence 43/50. Confirmed losses 7 (i 2 · ii 3 · iii-B 2 · iii-A 0). FAL-06 CONFIRMED; FAL-08..11 OPEN to 12/31. GATE-FALCON-001 LIVE, next review_by 11/11. Claude Code, Opus 5.5. Launched by prome-96 under WQ-626 A.
 
-## CHANGES SINCE LAST SESSION (11/04 21:15 → 11/05 16:32 ET)
-- Yanbu and Sharurah danger warnings, lifted within minutes; coalition says a Houthi ballistic missile toward the Medina region was intercepted. No damage or loading halt reported.
-- VELOS SAPPHIRE (IMO 9321201) hit 50 NM N of Qatar, 11/4 23:20Z; IMO 129 / 24 as at 11/5, one seafarer missing; Lloyd's says one died.
-- Iran says five tankers and a tug caught fire, mines in most accounts; unnamed, unconfirmed.
-- Iranian official: nuclear proposal via Qatar after seven demands; two sources tell Reuters Trump is still likely to resume hostilities.
+## CHANGES SINCE LAST SESSION (11/05 16:32 → 11/06 07:30 ET)
+- FAL-06 window closed with no qualifying notice found.
+- IMO as at 11/6: VELOS SAPPHIRE one seafarer killed, 129 / 25; the missing-versus-killed conflict is closed.
+- Iran claims two more tankers hit by mines 11/5 at noon, unnamed, unconfirmed. Houthi drone claim on Dammam airport; UAV toward the Eastern Region intercepted.
+- Trump late 11/5, Gulf News live only: will decide soon, "destroy the rest of the country", 18 US dead. CBS: USS Theodore Roosevelt at least two weeks out.
+- Brent January $98.29 on 11/5 [EST], BRENT's number; Reuters ties the rise to tanker attacks.
 
 ## WHAT I DID
-- Bounded PROME launch, C8, card 058. Graded 058, 007, 023, 056 at my letters: nothing fired, marks held. FAL-06 second dated attempt run, no route fired. Inbox and WALTER lane drained (4 cards + RED packet). KB-393..398, VI-0095, CAS-038. Report reports/2026-11-05_card058-yanbu-fal06-final-pass.md. Packets to PROME and BRENT.
+- FAL-06 graded CONFIRMED at 70%, route (c) ungraded caveat in the Outcome cell. Downgrade test run, NOT MET. EXIT v4 and THESIS v3.1 written; §2a byte-identical. FAL-08..11 registered. Seven combo themes, KB-404..410; charter step 6d. COR-20261105-65 APPLIED. Inbox 2 of 2 drained. Report reports/2026-11-06_fal06-grade-exit-successors.md.
 
 ## NEXT SESSION (dated, future-verifiable)
-0. **First session after 23:59 ET 11/05, in order:**
-   a. FAL-06 grade. Check for a qualifying notice dated by 23:59 ET. None = CONFIRMED, with this in the Outcome cell: no route fired on available evidence; route (c) was never graded because no weekly vendor print was published, so this is not proof that no net loss happened. Do not call it NO-VERDICT: dated attempts ran 11/05 08:36 and ~16:30 ET.
-   b. EXIT §5 rewrite. The dated limb fired 11/05; owed, not done.
-   c. Prediction brief (`PROME/reports/2026-11-05_prediction-registration-brief.md`): 2 to 4 rows, base rate first, one packet to PROME. Separate limited strikes from a sustained campaign; a crude row is the other candidate.
-   d. `PROME/COMBINATION_WATCH.md`: 3 to 9 themes, one charter line, list them in the next packet. Candidates: Red Sea western-sector interceptions; deep-Gulf hull reach.
-1. November 11: weekly + gate review; DAEDALUS items 6, 7, 8 (LESSONS, MEMORY), 10–13.
-2. Band proposal (11/04 report §6) awaits PROME.
+1. November 11: weekly + GATE-FALCON-001 review; combo themes review; re-read D 85 note (KB-403); DAEDALUS items 6, 7, 8, 10–13.
+2. December 31 late ET: dated searches FAL-08, 09, 10; FAL-11 IMO table read. A search after that date = NO-VERDICT on 08, 09, 10.
+3. Band proposal (11/04 report §6) awaits PROME.
 
 ## OPEN THREADS / WATCHES
-- Yanbu loadings: no reader. BRENT asked by packet; KB-168 proxy unbuilt.
-- VELOS SAPPHIRE missing vs killed; RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; ERA S and GRIT not on IMO table.
-- PMF discriminator NOT re-read 11/05 (CTP 403 here). STRIKES mark left at 11/03, not due.
-- Fixes owed elsewhere: SCRATCH template and CHANGELOG still titled HAWK; TIMELINE stops at Day 244 (11/5 = Day 251).
-- Carried builds unchanged (KB-168 Yanbu proxy etc.).
+- Bypass gauge failed three times 11/06 (PortWatch 429). Re-run at next boot.
+- "18 US dead" not reconciled against CASUALTIES.tsv; 17 at 7/19 on my record.
+- Yanbu loadings: no reader; KB-168 proxy unbuilt. RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; ERA S and GRIT not on IMO table.
+- PMF discriminator not re-read since 11/2–11/3 (CTP 403). STRIKES mark 11/03, not due.
+- Fixes owed: TIMELINE stops at Day 244 (11/6 = Day 252); SCRATCH template and CHANGELOG still titled HAWK; charter over read budget; LESSONS 93 B from trigger.
+- Carried builds unchanged.
 
 ## PREDICTIONS / DECISIONS
-FAL-06 grade owed after the close. No Will decision open.
+FAL-08 75%, FAL-09 40%, FAL-10 12%, FAL-11 20%, all 12/31. No Will decision open.
 
 ## MAIL STATE
-Inbox 0, WALTER lane 0. Packets sent: PROME, BRENT.
+Inbox 0, WALTER lane 0. Packet to PROME.
 
 ## PENDING PUSH / GIT
-WQ-601 unit 5 closed: prome-98 confirmed 11/05 16:36 ET, the launch-text hold was its stale carry. Pushed at closeout via safe-push on prome-98's word and the charter.
+Committed locally. Push at PROME's closeout ask via safe-push, not before.

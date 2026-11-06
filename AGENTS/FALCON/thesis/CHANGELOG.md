@@ -273,3 +273,7 @@ Aligned current rung references with the October 1 registration, removed the alr
 ## 2026-10-29 — TIMELINE third extension (War Day 194 → 244); THESIS v3.0 retained
 
 TIMELINE.md extended Sep 9 → Oct 29 in three chapters (the pipeline and the strait · D 85 and the hull war · posture before the midterms), built from FALCON's own dated KB / VESSELS / STRIKES records plus the 10/27–10/29 day-by-day sweep (KB-366..369). Forward branch points, unresolved markers and war-day phases REGENERATED; the 9/08 resolved table kept verbatim and a 9/09–10/29 resolved table added; key insights 9–10 added (route loss ≠ barrel loss; the war moved onto ships and airports). No thesis change: marks B 1 / C 14 / D 85 unchanged. Pre-edit copy compared before writing; prior version in git.
+
+## 2026-11-06 — THESIS v3.1; EXIT v4; FAL-06 graded
+
+FAL-06 CONFIRMED at 70%, route (c) ungraded. Thesis break moved to FAL-08. The downgrade test v3.0 pre-registered on a CONFIRMED was run: NOT MET, D 85 held. Dated-state lines corrected (channel ⓸ no longer says no US strike since 9/8). Rewrite trigger re-dated to FAL-08 resolving or 2026-12-31. No mark, gate, band or threshold changed; EXIT §2a byte-identical. TIMELINE not extended this session: it stops at War Day 244, carried.

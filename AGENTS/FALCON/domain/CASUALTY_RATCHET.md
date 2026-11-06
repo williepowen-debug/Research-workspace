@@ -17,7 +17,9 @@
 
 ## 3. Current computed grade — 2026-11-04
 
-From CASUALTIES.tsv: recorded confirmed killed October 6–November 4 = 25 versus 2 September 6–October 5, RED rate-step stays lit. The base window is thin and CAS-2026-026 (10/10) is 12 of the 25, so the multiple is not a stable figure. Unknown casualty cells are excluded. New row CAS-2026-037 (AL JUSUFI, 11/2).
+From CASUALTIES.tsv, recomputed 2026-11-06: recorded confirmed killed October 8–November 6 = 23 versus 5 September 8–October 7, RED rate-step stays lit. CAS-2026-026 (10/10) is 12 of the 23, so the multiple is not a stable figure. Unknown casualty cells are excluded. CAS-2026-038 (VELOS SAPPHIRE) now counts 1 killed, IMO as at 11/6.
+
+Prior, 11/04: 25 October 6–November 4 versus 2 September 6–October 5.
 
 **Prior grade 2026-10-26:**
 
