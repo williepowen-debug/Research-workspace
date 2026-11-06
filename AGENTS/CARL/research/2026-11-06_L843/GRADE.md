@@ -93,6 +93,8 @@ MISSED does not change: it rests on the hit condition, which ±25 does not touch
 
 **⚖️ Position clause, for Will via PROME.** The row carries a pre-registered commitment on failure: trim shorts 25% and extend duration to Q2-2027 or later. Will's 7/24 ruling deferred it, and Cell B on 8/15 set "hold, revisit at the ~Oct vintage leg". That leg has now read, so the revisit is due. CARL holds no book; the paper sleeve closed 10/28. The only live candidates visible are FORGE D-74's bank/credit put cluster (41 contracts, 14 lines, basis $6,644.24, value $554.00, Fidelity marks intraday 11/5), whose owner, card and approval are recorded UNKNOWN. Nothing here is a card or a trade. S&P fell 4.4% on 11/5, so the position question should be read against today's tape, not this evidence alone.
 
+**Addendum 2026-11-06 13:21 ET: closed.** Will closed the position clause about 13:12 ET with no action, WQ-632 (`PROME/proposals/2026-11-06_wq631-632-636-RULED.md`). The trim and duration legs were not executed. Failure pattern and calibration: row Notes, KB-CARL-595.
+
 ## 5. Correction to CARL's 10/26 review
 
 ALLY_RITM_GRADE.md said the Q2 10-Q origination-year table was "a snapshot of balances/DQ by origination year" and graded the row STUCK as an "instrument/publication gap". **That was incomplete.** The same Note has carried gross charge-offs by origination year since the 2023 filings, and AART 2023-1, 2024-1 and 2024-2 were reachable for a same-month CNL match. A true statement (no published lifetime projection) carried a false conclusion (no measurable comparison). The search stopped at the first table that looked like the answer. No figure in that review is wrong; its conclusion is withdrawn. M68 extended.

@@ -8,6 +8,42 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-06 (2) — WQ-632: CRL-21 clause closed by Will; failure pattern and two-mark calibration recorded (no version, score or prediction change)
+
+**Will, about 13:12 ET, verbatim:** *"632 - We can close this but we should still have the agent record the missed prediction so we can further learn and calibrate"*. Record `PROME/proposals/2026-11-06_wq631-632-636-RULED.md`. CRL-21 stays MISSED; no reversal was asked.
+
+**Old view:** the miss sat at 25% with no stated cause and an open position clause. **New view:** cause recorded, both marks scored, clause closed by Will.
+
+**Clause closed, not fired.** Trim 25% and extend duration to Q2-2027 or later: not executed, no card. The three homes disagreed on whether the condition was met, and that coexistence stays visible; no letter was rewritten.
+
+| Home | Condition at Q3 | Met? | Now carries |
+|---|---|---|---|
+| `PREDICTIONS.tsv` row Invalidation | NCO QoQ <+30 bp AND vintages within ±25 bp | No (+32 bp; −38.0 bp) | Dated closure appended |
+| THESIS Falsification windows, "If Q3 fails" | Row missed | Yes | Bracket updated |
+| THESIS v2.5 falsification | NCO leg failed AND vintages not ≥+50 bp | Yes | Bracket added |
+
+The older roll plan in THESIS § Trade Duration Implications (Path A, "contingent on CRL-21 read") and backlog item 8 are May plan text on May positions, not clause homes. Left unedited.
+
+**Failure pattern, in the Notes that boot step 7c reads** (step 7c prints the first 300 characters, so the lesson now leads the cell; the full pattern is the cell's last entry):
+
+1. **World:** direction wrong. FY2025 −38.0 bp vs FY2023 at matched age, against a +50 bp bar. Cause not established. Ally had printed 5 straight quarters of YoY NCO improvement by 4/17 (KB-CARL-222), two weeks before registration, and the row carried that as masking.
+2. **Conjunction:** headline AND, dated Notes OR, never settled. The CRL-24 shape.
+3. **Season:** registered after Q1, so the two-quarter leg needed Q2 and Q3. Ally NCO fell 37 bp QoQ in Q2-2025 (derived from its reported YoY deltas) and 40 bp in Q2-2026. Q3-2026 cleared +32 bp QoQ at +1 bp YoY: the bar read seasonality (M39).
+4. **Instrument:** the Instrument cell declares only the NCO leg. "Projections" named no publisher, and none exists.
+5. **Comparator:** FY2023 has the highest cumulative charge-offs of the vintages in GRADE.md at every shared age.
+6. **10/26 STUCK error:** L786 read the balance table and stopped; the charge-off table sat in the same Note. A true statement (no published lifetime projection) carried a false conclusion (no measurable comparison). The error favoured the record: STUCK is unscored, so the miss stayed out of Brier for 11 days.
+
+**Calibration, KB-CARL-595 (outcome 0):**
+
+| Book | Mark | Dated | Commit | Brier |
+|---|---:|---|---|---:|
+| First-call | 60% | 2026-05-01 | 41a3ba284 | **0.3600** |
+| Latest mark, as booked | 25% | 2026-07-24 | 174cb66e4 | **0.0625** |
+
+⚠️ **Open, flagged to PROME, not moved:** under WQ-112(ii) a re-mark counts only with its date in the machine field. This Confidence cell, `25% (was 60) - leg-1 failed 7/21, ...`, dates the leg failure, not the mark. CRL-16, same form `35% (was 60)` with the same dated Notes line, was ruled undated on 9/24 and scores at first-call. If that ruling reaches this row, 60% governs and the row's Brier is 0.3600, not 0.0625.
+
+**Not moved:** matrix 53/70, every vector, band, threshold and card, every other prediction, CRL-21's status and booked mark.
+
 ## 2026-11-06 — CRL-21 RESOLVED MISSED; CRL-33 to CRL-36 registered (no version or score change)
 
 **D:L843, WQ-626 A.** ALLY Q3 10-Q filed 11/02, RITM 10-Q filing date 11/02.

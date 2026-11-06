@@ -126,7 +126,7 @@ Both directionally support thesis, but only masking has the deferred-visibility 
 4. **Trade duration:** 12-24mo P&L visibility lag means short structures must extend to Q1 2027+. See "Trade Duration Implications" section.
 
 **Falsification windows (4-issuer scope):**
-- **Intermediate (Q3 2026, CRL-21):** ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage-loss projections diverge above FY2023 trajectory ≥+50bps. **If Q3 fails: confidence -25-30pp AND trim positions 25% AND extend duration to Q2 2027+.** Position-action commitment. **[2026-11-06: CRL-21 RESOLVED MISSED on both legs (research/2026-11-06_L843/GRADE.md). Position clause NOT executed; the revisit is Will's, via PROME. Score unchanged.]**
+- **Intermediate (Q3 2026, CRL-21):** ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage-loss projections diverge above FY2023 trajectory ≥+50bps. **If Q3 fails: confidence -25-30pp AND trim positions 25% AND extend duration to Q2 2027+.** Position-action commitment. **[2026-11-06: CRL-21 RESOLVED MISSED on both legs (research/2026-11-06_L843/GRADE.md). The "If Q3 fails" condition on this line was met. The trim and duration legs were NOT executed: Will CLOSED the clause with no action, WQ-632 (PROME/proposals/2026-11-06_wq631-632-636-RULED.md). Score unchanged.]**
 - **Outer (Q1 2027, CRL-20):** ≥3 of {ALLY, COF, SYF, RITM} fail to show NCO/DQ acceleration. Masking thesis invalidated, CONTAINMENT validated.
 
 **Crying-wolf operational X-threshold (placeholder, refinement deferred to standalone working doc):**
@@ -427,7 +427,7 @@ The thesis is still CRITICAL. **v2.6 (Jun 22):** V12 Stagflation/Fed-Locked is n
 **Partial invalidation (single vector):** see per-vector downgrade triggers in Convergence Score table.
 
 **v2.5 falsification (data-masking sub-thesis):**
-- **Intermediate (CRL-21, Q3 2026):** ALLY consumer auto NCO not ≥+30bps QoQ for 2 consecutive quarters AND vintage-loss projections do not diverge above FY2023 trajectory ≥+50bps → confidence -25-30pp + trim positions 25% + extend duration to Q2 2027+.
+- **Intermediate (CRL-21, Q3 2026):** ALLY consumer auto NCO not ≥+30bps QoQ for 2 consecutive quarters AND vintage-loss projections do not diverge above FY2023 trajectory ≥+50bps → confidence -25-30pp + trim positions 25% + extend duration to Q2 2027+. **[2026-11-06: condition met at Q3 (NCO leg failed; FY2025 −38.0 bp vs FY2023). The trim and duration legs were NOT executed: Will CLOSED the clause with no action, WQ-632. The confidence leg was applied 7/24, 60% to 25%. The row's Invalidation cell carries a narrower ±25 bp text that was not met: GRADE.md §4 addendum.]**
 - **Outer (CRL-20, Q1 2027):** ≥3 of {ALLY, COF, SYF, RITM} fail to show NCO/DQ acceleration → masking thesis invalidated, CONTAINMENT validated.
 
 **Fast early-warning kill (1-month cadence):** see "Fast Early-Warning Kill Mechanism" table.
