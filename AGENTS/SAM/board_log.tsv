@@ -300,3 +300,6 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T20:48:06+00:00	2026-11-06_from-PROME_SoftBank-funding-stack	acted	INBOX_TOPLEVEL	Funding-stack leg done: research/outputs/2026-11-06_softbank/SOFTBANK_FUNDING_STACK.md; receipt at PROME/inbox/.
 2026-11-06T21:49:11+00:00	SIG-W-20261106-040	noted	INBOX_WALTER	SHADE on Athene: SVF II Finco $3,097M, SoftBank Group debt $1,749M, no loss shown. Context; US insurer money, not a Japan channel. SVF II Finco identity is SHADE's inference. Added to KB-SAM-262 combo:softbank-japan-channel. Moves no score or gate.
 2026-11-06T21:49:11+00:00	SIG-W-20261106-041	noted	INBOX_WALTER	WALTER's correction of 036, 003, 040 to SAM's funding-stack figures; matches SOFTBANK_FUNDING_STACK.md and KB-SAM-261. COR-20261106-41 receipted. Closes the correction SAM carried as open.
+2026-11-06T23:34:42+00:00	SIG-W-20261106-043	noted	INBOX_WALTER	Qatar remark; FALCON's card, no SAM action. Corrected by 048.
+2026-11-06T23:34:42+00:00	SIG-W-20261106-047	noted	INBOX_WALTER	Qeshm reports after the US close, attacker unnamed, direction open, FALCON owns the grade. Oil shut to Sunday evening; yen and Brent at the open are the next read. No SAM score or gate moved.
+2026-11-06T23:34:42+00:00	SIG-W-20261106-048	noted	INBOX_WALTER	Correction to 043; SAM cited 043 nowhere, COR-20261106-48 receipted NO-OP.

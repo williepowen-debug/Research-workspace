@@ -23,3 +23,4 @@ receipt_date	correction_id	action	note
 2026-11-06T21:48Z	COR-20261106-35	NO-OP	scope=equity put/call card 033: SAM carries no CPCE or equity put/call figure and VIOLET and HENRY own it; 
 2026-11-06T21:48Z	COR-20261106-36	NO-OP	scope=SAM-sourced 21.5 percent line: already replaced in SAM live files by the funding stack and now by card 041, 21.5 survives only as dated history in MEMORY and the brief; 
 2026-11-06T21:48Z	COR-20261106-41	APPLIED	artifact=AGENTS/SAM/research/outputs/2026-11-06_softbank/SOFTBANK_FUNDING_STACK.md#leverage; validation_ref=AGENTS/SAM/research/outputs/2026-11-06_softbank/ltv_remark.py#cases; 
+2026-11-06T23:34Z	COR-20261106-48	NO-OP	scope=SAM cited card 043 nowhere, the Qatar remark is FALCON's, no SAM figure or claim affected; grep of AGENTS/SAM clean

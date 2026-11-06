@@ -1,6 +1,6 @@
 # SAM STATUS
 
-**Last written: 2026-11-06 17:14 ET (Fri; Sat 11/7 JST) — close refresh on Will's 17:08 ET word via PROME: 11/6 close data only, bounded; inbox and WALTER lane empty.** Runtime Claude Code, model Opus 5.5 (`claude-opus-5-5`). Each row keeps its own source clock. Reads → `research/outputs/2026-11-06_softbank/` (funding stack governs on leverage). Prior write 2026-11-06 16:49 ET (reboot closeout). Pull not needed: 0 behind origin at fetch; other desks' trees dirty.
+**Last written: 2026-11-06 18:34 ET (Fri; Sat 11/7 JST) — closeout on Will's 18:33 ET word via PROME; close refresh 17:14 ET stands; WALTER cards 043, 047, 048 taken in, no view moved.** Runtime Claude Code, model Opus 5.5 (`claude-opus-5-5`). Each row keeps its own source clock. Reads → `research/outputs/2026-11-06_softbank/` (funding stack governs on leverage). Prior write 2026-11-06 16:49 ET (reboot closeout). Pull not needed: 0 behind origin at fetch; other desks' trees dirty.
 
 **View:** no fresh observed Japan-led carry unwind, **tested again 11/6 and unchanged.** Tokyo fell 5.96% (Nikkei 57,434.77, vendor) and the yen **weakened** through the session (USD/JPY 157.48 → 158.14 in cash hours, 0.75-yen range; **completed 11/6 session close 158.425, +0.59%, range 1.241**), so it was a rate repricing, not an unwind: BOJ December pricing dropped to **52%** (Totan 11/6 15:15 JST; 82% on 10/29, pre-decision; model-dependent equivalents, not probabilities) while Fed December hike odds rose to about 77–79% after payrolls (card 017). The risk has moved from a December hike to a December skip and a weaker yen near 160. Speculators were net long yen going in (CFTC 11/3 **+102,321**, a window that ended before the selloff), so the short-yen pool of August 2024 was absent; offshore FX-swap funding stays unmeasured. **v1.7 retired-to-LOW, no successor frame, no entry, no re-mark.** Last Will-confirmed FLAT June 29 is a dated desk record, not a fresh broker reconciliation.
 
@@ -68,6 +68,7 @@ August 7 **7d~3 / 30d~8 / 60d~13** is a **historical decomposed assessment**, no
 
 | Date / clock | Next observation |
 |---|---|
+| Sunday evening ET, reopen | Yen and Brent first read after card 047 (Qeshm, reported only, attacker unnamed, after the US close; FALCON owns it). No Japan-channel inference until prices print. |
 | Carried, NOT read | Ueda 10/30 press conference; Outlook full text (11/2); September minutes (11/5); Tokyo Oct CPI analysis. |
 | Nov-9 (est.) / Nov-9 | MOF quarterly; SoftBank Corp results. |
 | **Nov-10** | **SoftBank Group results 15:30 JST**, briefing 16:30: read list → funding stack §6. Summary of Opinions (written before the selloff, so hawkish against new pricing, not a reaction); 30Y auction (frozen bars); US CPI. |
