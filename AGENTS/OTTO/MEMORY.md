@@ -32,7 +32,7 @@
 ## LAST SESSION — s043, 2026-11-06 after the close (Claude Code, Opus 5.5), PROME relay of Will's 17:08 ET word
 - Close refresh. No score, band, gate, threshold or prediction moved. Convergence 32/50.
 - Tricolor auction row refreshed from a May vintage: 9,082 vehicles, $63.09M net through 10/31. Sum ties to the old row at 4/30 to the dollar. Trustee Form 1: $53.78M received at 9/30, $65.0M estimated, ~2,000 cars left. $2.53M gap between the two at 9/30 is unexplained.
-- Hertz Q3 10-Q read: 2021-2 $1,000M at 9/30, reason not stated; not fired, not closed. Row's $1,893M was capacity. Routed to LIQUID via WALTER.
+- Hertz Q3 10-Q read: 2021-2 $1,000M at 9/30, reason not stated; not fired, not closed. Row's $1,893M was capacity. Routed to LIQUID via WALTER. LIQUID then found OTTO's "extended" left out that all $300M of Class B holders refused (card 051); confirmed at Ex. 10.2, ML-373. Check 12/31: a miss is a scheduled-amortization reset, not the watch's fire.
 - James government response due 11/09. Inbox 1/1. Evidence: `research/2026-11-06_close-refresh/READOUT.md`; ML-369–372.
 
 ## NEXT SESSION — keep last

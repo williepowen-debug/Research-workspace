@@ -47,7 +47,29 @@ Source: 10-Q 0001657853-26-000086, filed 11/05, period 9/30, sha256 957d7d0e9461
 
 **Watch status:** not fired. "Amortization event", "early amortization" and "rapid amortization" appear nowhere in the filing text, a literal text search of this one filing. Close test not met: the notes and $1,000M of 2021-2 are still outstanding. "Series 2021-2" appears only in the debt table, so the filing does not say why $1,000M came off; August's $875M Series 2026-3 and 2026-4 issuance is a possible source, not a stated one.
 
-**For LIQUID, credit read not graded here:** in November HVF III extended the 2021-A Class B to 11/2/2028 at 12.46% fixed (was 9.28%), and Class B cannot fund unless the 4.625% notes are paid in full before 12/31/2026. Corporate liquidity $946M vs $1,489M at 12/31/25, cash $531M vs $631M at 6/30. Corporate covenants in compliance at 9/30. Maturities remaining in 2026: vehicle $1,272M, non-vehicle $203M.
+**For LIQUID, credit read not graded here:** on 11/2 the whole $300M 2021-A Class B changed hands: every holder refused to extend and new money replaced them at 12.46% fixed (was 9.28%), termination 11/2/2028, funding conditional on the 4.625% notes being retired and the refusers paid, by 12/31/2026 (§2a). Corporate liquidity $946M vs $1,489M at 12/31/25, cash $531M vs $631M at 6/30. Corporate covenants in compliance at 9/30; the minimum-liquidity covenant is $400M for second- and third-quarter month-ends, $500M for first- and fourth-quarter. Maturities remaining in 2026: vehicle $1,272M, non-vehicle $203M.
+
+## 2a. Correction, 2026-11-06 18:22 ET: Class B, after WALTER card 051 (LIQUID's read)
+
+**What was wrong:** this readout and OTTO's WALTER packet said Class B "was extended". That is Note 15's own word and it leaves out who refused. OTTO read Note 15 only and did not open Exhibit 10.2. The figures stand; the word understated it.
+
+Read at Exhibit 10.2 by OTTO, sha256 b104a4921d5840da..., EDGAR path under CIK 47129:
+
+| Item | Exhibit text |
+|---|---|
+| Refusal | Recital: each Class B Committed Note Purchaser on Schedule 1 *"exercised its right to refuse such request"*. No reason or date stated. An express refusal, not the deemed non-consent route in §2.6(c) |
+| Holders | Oaktree funds and ABF Rental Car Holdings 2025-1, $300M together on Schedule 2. Incoming: Powerscourt Investments 84 $150M, Third Point Loan $125M, Delticus Opportunities $25M |
+| Conditions | Class B Funding Conditions (i) Hertz retired all Senior Notes due 2026, (j) each refuser paid in full from the new money |
+| Outside date | 12/31/2026. If unfunded: new commitments go to zero, Controlled Amortization resets to 6/28/2027, Commitment Termination to 8/31/2027 |
+| Refusers' backstop | §11.26: paid on or before 8/31/2027 by a Class B Voluntary Decrease |
+
+**Fleet consequence, OTTO's lane:**
+
+1. **The watch fires on an Amortization Event or a Hertz Chapter 11, and neither is shown.** The exhibit separates the terms. Rapid Amortization starts on an Amortization Event, or at the Expected Final Payment Date. Controlled Amortization is a scheduled Class B paydown, plus a step-down case in clause (y). A 12/31 miss moves the scheduled one; it is not a fire.
+2. **Size if Class B had to be replaced by selling cars, the worst version:** $300M is about 18% of Q3's $1,695M disposal proceeds `[EST]`, and no earlier than 2027 on the reset schedule. Not a wholesale supply event in itself. The exhibit does not say Hertz would fund it that way.
+3. **What did change:** the question sits closer to the fire. 12/31 is now a dated checkpoint, and the refusal plus the corporate marks in card 051 are LIQUID's to grade. OTTO assigns no probability, and no registered rule moves the row, so it stays 🟡.
+
+Not read: the base indenture's Amortization Event list, clause (y)'s step-down trigger, Schedule 1 itself beyond the definitions. BNP Paribas as Non-Extending Class A Noteholder is defined; amount and date not established. Fair value and stock figures in card 051 are LIQUID's and were not re-read by OTTO.
 
 ## 3. Court feeds through 11/06
 

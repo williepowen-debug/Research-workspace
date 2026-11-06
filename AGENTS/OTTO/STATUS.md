@@ -103,7 +103,7 @@ Forward events plus unresolved past events. Canonical full definitions, provenan
 | ~2026-11-30 (Mon) | EART October-collection 10-Ds | 🟠 modeled; **OTTO-36 resolves on this print** |
 | 2026-11-30 (Mon) | Year-end follow-up OTTO-11/-12; Ares Rule 2004 response deadline (Dkt 1486) | 🟠 confirmed |
 | 2026-11-30 (Mon) | Tricolor Vehicle Sales Deadline (Dkt 1467) | 🟠 confirmed; next Holman application by 12/10 |
-| ~2026-12-01 (Tue) | Hertz fleet-disposal watch: $199M notes and HVF III 2021-2 mature 12/2026; 2021-2 $1,000M at 9/30, was $2,000M at 6/30, reason not stated | 🟡 modeled; Q3 10-Q read 11/06: no amortization-event language, disposals Q3 $1,695M vs $1,720M, not fired, not closed. Credit read is LIQUID, OTTO reads the fleet consequence |
+| ~2026-12-01 (Tue) | Hertz fleet-disposal watch: $199M notes and HVF III 2021-2 mature 12/2026; 2021-2 $1,000M at 9/30, was $2,000M at 6/30, reason not stated | 🟡 modeled; 10-Q and Ex. 10.2 read 11/06: no Amortization Event, Q3 disposals flat, not fired, not closed. All $300M Class B holders refused, replaced at 12.46%; a 12/31 miss resets it to 8/31/27, not a fire. Credit is LIQUID |
 | 2026-12-04 (Fri) | Goodgame sentencing control date | 🟡 confirmed; 09:00 ET |
 | 2026-12-07 (Mon) | Manheim November full-month release | 🟠 confirmed at Cox 11/06 |
 | 2026-12-09 (Wed) | Chu Final Pretrial Conference | 🟠 confirmed; 14:00 ET |
