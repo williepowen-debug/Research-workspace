@@ -4,7 +4,7 @@ Written Thursday November 5, 16:4x ET, session `liquid-9d`, ahead of Will's move
 
 Limits unchanged from Will's 09:42 ET word: no trades; no change to a level, operator, instrument or consequence on a gate, kill rule, band or frozen letter; keep observation date and basis on every number; market signals through WALTER; commit own paths by exact pathspec; one packet to `PROME/inbox/`.
 
-**Done 2026-11-06 by 10:30 ET:** SOFR, GSBD, November 5 ICE print, L4, tier rule, two peer answers, funding sweep. MAIN 10-Q not filed at 10:12 ET. W1 about 15:30 ET still open. Record: `REPORT.md` §15.
+**All steps done 2026-11-06:** SOFR, GSBD, November 5 ICE print, L4, tier rule, two peer answers, funding sweep by 10:30 ET; MAIN 10-Q read 14:19 ET; W1 NOT MET read 15:33 ET. NEXUS_BRIEF refreshed at the November 6 closeout; MEMORY.md measured 4,981 B, no rotation needed. Record: `REPORT.md` §15.
 
 ## State going in
 

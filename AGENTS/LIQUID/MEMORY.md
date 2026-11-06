@@ -2,7 +2,15 @@
 
 ## Session Notes
 
-### CURRENT SESSION — closed 2026-11-05T16:45:48-05:00 (Will boot and catch-up word 09:42 ET, session liquid-9d, Claude Code / Opus 5.5)
+### CURRENT SESSION — closed 2026-11-06T15:36:00-05:00 (WQ-626 A, DOCKET L970, session liquid-98, Claude Code / Opus 5.5)
+
+- **Context:** ran the November 6 handoff by hand after the November 5 HY cell posted. No trades; no level, operator, instrument or consequence changed.
+- **Delivered:** November 5 print graded first-published (HY 348, +16); Will's funding sweep; GSBD; final Q3 BDC card (MAIN 10-Q); card 029 read of IREN and Oracle at filings; 076 W1; 19 WALTER cards consumed today; combination themes logged (WQ-622). `research/2026-11-05_live-catchup/REPORT.md` §15.
+- **Grades:** 069 L4 FIRED session November 5, count unchanged 2 of 2, no new consequence; L1 NOT FIRED. 076 1 of 3, W1 as-of November 3 NOT MET. 079 NOT ARMED +10. 072 NOT FIRED. HY-REKILL 0 of 2. Tier rule BROADENS on the daily clause.
+- **Open:** STATUS §3. No new forecast registered; LIQ-08 to LIQ-11 DOCKET rows are PROME's.
+- **Slips, disclosed:** card 034 landed at 14:16 and my 14:20 commit missed it, caught 15:27 by reading the git log; re-sweep the inbox right before a commit that consumes cards. Directory-style `git add` on processed folders earlier today; status showed only intended renames. The 15:32 ET background wait was stopped by the system for low memory; not restarted, a one-shot reminder served instead.
+
+### PRIOR SESSION — closed 2026-11-05T16:45:48-05:00 (Will boot and catch-up word 09:42 ET, session liquid-9d, Claude Code / Opus 5.5)
 
 - **Context:** caught up to live data on November 5, S&P −4.36%, VIX about 28.17 vendor, credit funds calm. No trades; no level, operator, instrument or consequence changed.
 - **Delivered:** WQ-603 A hold removed from `gate069_legs.py`; workbook review; dealer, XCCC, BDC items; Q3 BDC card; SLOOS, Ueno, funding sweep, H.4.1 and W2 reads (`research/2026-11-05_live-catchup/REPORT.md` §14); LIQ-08 to LIQ-11 at 60cadb1f2 (WQ-596); 35 WALTER cards consumed; six correction receipts.
@@ -10,7 +18,7 @@
 - **Open:** everything dated is in `research/2026-11-05_live-catchup/NOV6_HANDOFF.md`, including Will's repeat funding sweep (word 15:40 ET). Official closes for L4 unchecked; `main()` and stored-tie tests TESTED, not INDEPENDENTLY VERIFIED.
 - **Slips, disclosed at the time:** PROME packet ea7ea3a1b committed before its ledger rows when my own check failed in the same command; three typed stamps corrected to the wall clock.
 
-### PRIOR SESSION — 2026-11-04T16:25:58-05:00 (Will substantive credit follow-through after startup, OpenAI/Codex)
+### EARLIER SESSION — 2026-11-04T16:25:58-05:00 (Will substantive credit follow-through after startup, OpenAI/Codex)
 
 - First-published reconciliation through November 3: >320 renewed run MET on November 2, four observations by November 3; existing tier ladder BROADENS. No generalized dollar-funding restriction proved. Canonical verdict/evidence: `research/2026-11-04_credit-followthrough/REPORT.md`.
 - Five gates updated for available observations only. 076 current window 1 of 3 because old W2 aged out, no episode reset; 079 NOT ARMED through excluded November 3. November 5 reviews remain OPEN for missing final observations. X1 CLOSED / DON'T-SIZE, swap-line SHELVED—WITHHELD, frozen predictions/FLOW/VX unchanged.
@@ -26,4 +34,4 @@
 
 ### NEXT SESSION
 
-Laptop. Pull, then run `research/2026-11-05_live-catchup/NOV6_HANDOFF.md` top to bottom; STATUS §3 is the owed list. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).
+Pull, then read STATUS §3, the owed list. The November 6 handoff is done. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).
