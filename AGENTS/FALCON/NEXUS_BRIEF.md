@@ -3,7 +3,7 @@
 **Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review; no letter met through about 22:25Z 11/06, card 043 graded); FAL-06 CONFIRMED, route (c) ungraded; losses 7; FAL-08..12 OPEN to 12/31. ⚠️ Qeshm report developing, NOT ESTABLISHED.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-06 17:32 ET | STATUS commit: `4704ffa115` | Evidence cutoff about 22:31Z; CENTCOM, War Department, UKMTO, AP, AFP unreachable (403)
+**As of:** 2026-11-06 18:36 ET | STATUS commit: `34d2658bc6` | Evidence cutoff about 22:31Z; CENTCOM, War Department, UKMTO, AP, AFP unreachable (403)
 
 ## CROSS-DOMAIN
 
