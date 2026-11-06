@@ -62,7 +62,7 @@ Adopt WATT's populations verbatim: ~55GW aggregate utility-reported forecast (se
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | Leading-edge capacity concentrates in Taiwan | Confirmed structural exposure. |
-| 2 | US/China controls alter equipment and chip flows | Two-sided. ZHAO's October20 owner update keeps two November10 clocks: BIS affiliates rule resumes and MOFCOM70 suspension expires; no extension instrument located within its stated search coverage. Tariff Commission502 and missing MOFCOM45/47 are blind spots [KB-239]. |
+| 2 | US/China controls alter equipment and chip flows | Two-sided. ~~ZHAO's October20 owner update keeps two November10 clocks~~ (2026-11-06): BIS affiliates stay further stayed to January 10, 2027, read at the Federal Register primary [KB-381]; MOFCOM70 suspension still expires November 10, not moved. Tariff Commission502 and missing MOFCOM45/47 are blind spots [KB-239]. |
 | 3 | Equipment/fab cutoff or Taiwan kinetic interrupts output | Open, no new band fire. TSMC cumulative Jan–Sep+41.1%, September6-K October8; Q3 results October15 [KB-195/224]. Helium lead recorded separately below [KB-236]. |
 
 Only semiconductor consequences belong here; ZHAO owns China policy and HAWK kinetic risk. A verbal January10 extension is not an instrument. US IEEPA third clock is VOID; do not restore it. New technology-export catalogue notices require an actual semiconductor restriction before a band change. NVDA's China DC compute revenue was already near-zero in the August outlook: incremental control risk may relocate to tools/foundry rather than vanish [KB-125].

@@ -1,0 +1,25 @@
+# STATUS excerpts rotated 2026-11-06 (VULCAN post-close L974 edit). Verbatim; superseded in STATUS.md.
+
+## Header
+
+**Last Updated:** 2026-11-05T16:50:45-05:00 — Will-authorized session in PROME window (11/5 10:30 ET), closed on Will's word. **11/5 AI and chip selling: no letter fired, cause NOT established, 15/25 unchanged** [KB-346..348, KB-374]; report `reports/2026-11-05_ai-chip-selling/REPORT.md`. Vendor last read 16:47 ET, not official closes: S&P 500 ETF SPY −4.41%, QQQ −6.49%, equal-weight RSP −2.89%, SMH −11.21%; payers AAPL −1.53% to META −3.96% (ORCL −6.93%); suppliers and developers −9% to −22% [KB-374]. **Primary finds:** Oracle spreads +145 to +175bp vs February, Meta +57 to +88bp vs April [KB-351/352]; three-name backlog additions $188.3B to $73.2B [KB-349]; CME GPU review extended to 2027-01-08 [KB-356]; CoreWeave Q3 confirmed 11/10 [KB-355]; Qualcomm names memory as an input cost [KB-375]. VULCAN-188..191 registered (a3da5ec6b). **11/6 Mag7 slot 9, GPU 9, S2 row armed, not run.** Prior headers → `archive/STATUS_EXCERPTS_2026-11-05.md`.
+
+## S1 live read tail
+
+**10/30 §4b RESOLVED NO-VERDICT [KB-334/335]:** Amazon HELD 2026 cash capex at ≈ $220B ("We continue to expect…", 8-K Ex 99.1); Q3 $75.9B; the held guide implies Q4 ≈ $47.8B (arithmetic); 2027 "meaningfully more" (Jassy, T2). AMZN −7.30% after hours (19:55 ET, vendor). No pressure citation on the letter (Olsavsky's AI margin-mix line is a near miss). Cluster: META raise rewarded · MSFT trim to ≈ $170B CY2026, up YoY · GOOGL held · AMZN held ⇒ confirm 0, falsify 1. ⚠️ Disagreement recorded, not counted: GOOGL (−12.64%) and AMZN (−7.30%) fell on HELD guides with 2027 increases. No YoY capex cut anywhere ⇒ red trigger's capex branch NOT fired. 🆕 **Slot 8 [KB-341]: Mag-7 33.2351% [holdings 10/29], breadth −0.50pp, YELLOW.** The row is priced 10/29; the 10/30 sell-off is not in it (pro-forma ≈ 33.15%, descriptive only). 🆕 **10/30 tape [KB-344]:** QQQ −3.47%, SOXX −8.24%, INTC −28.58%; hyperscalers −0.9% to −1.6%; RSP beat SPY by +0.98pp ⇒ both S1 red legs moved AWAY. AMZN's −7.30% after-hours fall closed 10/30 at −1.41% vs the 10/29 close (disagreement record, no re-grade). 🆕 **WQ-551.HELD encoded in EXIT §4c** [KB-345]. Prior vintages → `archive/STATUS_EXCERPTS_2026-10-30.md`.
+
+## S2 cadence 10/30
+
+🆕 Cadence row 10/30 [KB-342]: memory core (MU+SNDK) 1mo −25.39% (10/23 −24.09%), DDR5 spot $61.50 (+0.27%), DDR4 $82.80; equities −25% on the month against flat-to-up spot. No S2 letter keys on equities; S2 stays 2. Prior vintages → `archive/STATUS_EXCERPTS_2026-10-30.md`.
+
+## S5 live read tail
+
+**10/30 [KB-336..339]:** funding gap on DEWEY's method with Amazon's Q3: **AMZN −$65.8B** (DEWEY −69.5); five-name 2026E **−$169.6B** mixed basis, −$148.7B with MSFT on cash basis (DEWEY −186.5). ⚠️ The method excludes Amazon's $63.8B 9M acquisitions and lab investments. Amazon borrowed $115.1B long-term in 9M (debt $65.6B → $173.1B), drew a $17.5B term loan, and its 10-Q adds a **new secured supplier Loan Facility up to ≈ $80B** (draws Q1 2027–Q3 2028). **MSFT priced $25.0B, +25 to +105bp, ≈ 30bp inside guidance on the 2066** (FWP primary). Hubbard $5–7B HY take-out shelved, bridge kept = **NOT SCORED** (shelved ≠ withdrawn). No flex, pull, tariff or collateral event ⇒ no S5 letter met; S5 stays 4, n=2 (Firmus + Volta under B). Prior vintages → `archive/STATUS_EXCERPTS_2026-10-30.md`.
+
+## GPU reading 8 and 7
+
+**Reading 8 [10/30, KB-343]: on-demand mean $4.64, all four vendors unchanged (Lambda 3.99 · CoreWeave 6.155 · Nebius 4.50 · Crusoe 3.90); SDH100RT $2.90 [10/30] flat w/w; OCPI $2.92 [10/29] (−7.3% w/w, giving back most of the prior +15%); Vast.ai marketplace $2.4015 n=10 GRADEABLE (3rd gradeable value). Rents flat through a −8.24% SOXX day. Still NO threshold: no base rate stated (spec §6).** Reading 7 [10/23]: mean ~$4.64, SDH $2.90, OCPI $3.15 [KB-281].
+
+## Bottom line
+
+Thursday's selling (vendor last prices read 16:47 ET, not official closes) worsened into the bell and stayed aimed at the companies that receive AI money: the big spenders fell 1.5% to 4% and Oracle 7%, while chipmakers and developers fell 9% to 22%. No big buyer has cut spending, no test on this desk fired, and the score stays 15/25. The cause is not established: regulation fear after the Democratic sweep is reported, but about 60% of the chip fall from the October peak (SMH −18.2% of −29.4%) came before any vote was counted, and the Texas moratorium is a promise, not a law. Two harder facts predate today: Oracle now pays 1.45 to 1.75 points more than in February and Meta about 0.6 to 0.9 more than in April on the same maturities, and three big backlogs added $73 billion in the latest quarter against $188 billion in the one before. ⚠️ The concentration test cannot see this kind of break, because it moves further from red when suppliers fall harder than buyers. Next: Friday's readings, then CoreWeave and TSMC on November 10 and Nvidia on November 17.

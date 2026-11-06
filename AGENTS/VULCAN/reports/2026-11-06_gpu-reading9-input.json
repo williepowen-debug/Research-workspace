@@ -1,0 +1,11 @@
+{
+  "tier_a": [
+    {"vendor": "CoreWeave", "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 6.155, "vintage": "2026-11-06", "url": "https://www.coreweave.com/pricing", "num_gpus": 8, "divisor": 8, "node_price": 49.24, "_note": "HGX H100 node $49.24/hr -> /8, read at slot 16:10 ET 11/6."},
+    {"vendor": "Nebius", "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 4.50, "vintage": "2026-11-06", "url": "https://nebius.com/prices", "_note": "HGX H100 on-demand, read at slot."},
+    {"vendor": "Crusoe", "tier": "on_demand", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "spot", "price": 3.90, "vintage": "2026-11-06", "url": "https://crusoe.ai/cloud/pricing/", "_note": "Column 'Current on-demand' $3.90, read at slot. Same page: new on-demand $4.50 starting Dec 1, 2026, not used."}
+  ],
+  "tier_d": [
+    {"vendor": "SDH100RT", "tier": "index", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "term_normalized", "price": 2.99, "segment": "neo-cloud", "vintage": "2026-11-06", "url": "https://www.silicondata.com/products/silicon-index/h100", "_note": "Header As of Nov 6 2026 $2.99, dated table agrees; FAQ $2.53 stale, ignored."},
+    {"vendor": "OCPI-H100", "tier": "index", "gpu_model": "H100_SXM", "unit": "USD_per_GPU_hour", "price_basis": "term_normalized", "price": 3.13, "segment": "all", "vintage": "2026-11-05", "url": "https://data.ornn.com/preview", "_note": "Settled Nov 5 2026 $3.13, -11.08% day, +10.21% 1M. Preview page still the reachable surface."}
+  ]
+}

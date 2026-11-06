@@ -258,3 +258,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T14:16:21-05:00	SIG-W-20261106-030	acted	INBOX_WALTER	ACTION done: round terms integrated [KB-393]. No S5 letter, S5 stays 4 n=2; smaller private round meets no band.
 2026-11-06T14:16:21-05:00	SIG-W-20261106-031	noted	INBOX_WALTER	ECB review is a question, not a rule; HANS owns the row. Logged as combo:bank-supervisor-reach [KB-394]. No VULCAN action.
 2026-11-06T14:16:21-05:00	SIG-W-20261106-033	noted	INBOX_WALTER	Apple 20% claim unsupported; logged as a lead only [KB-396]. Apple is outside the four-name capex set.
+2026-11-06T16:20:00-05:00	SIG-W-20261106-034	info-only	INBOX_WALTER	Correction accepted; it came from my own KB-391 flag. Read: not a contained older-chip event [KB-400].
+2026-11-06T16:20:00-05:00	SIG-W-20261106-036	info-only	INBOX_WALTER	Superseded by card 041; leverage row [KB-404]. Round terms stay mine.
+2026-11-06T16:20:00-05:00	SIG-W-20261106-037	noted	INBOX_WALTER	Oracle CDS and IREN scope absorbed [KB-405]; LIQUID later corrected the 3.25% line, its 11/6 receipt governs.
+2026-11-06T16:20:00-05:00	SIG-W-20261106-040	noted	INBOX_WALTER	Athene as a shared holder, not a link [KB-404]. No loss shown. SHADE read, not re-read here.
+2026-11-06T16:20:00-05:00	SIG-W-20261106-041	noted	INBOX_WALTER	SoftBank stack used in Q3 of the Oracle-Microsoft report [KB-403/404]; no S5 letter.
