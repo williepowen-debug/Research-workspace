@@ -1,5 +1,7 @@
 # Live Decisions explanation update — activation handoff
 
+**Applied and verified:** PROME activated this package at `2e4f7cd82d` on November 6 at 12:45 ET. CATO verified publication, build hashes, enabled replies and WQ-632 brief/options. Do not apply the patch again. The steps below are the historical installation record. Ordinary-use benefit remains unmeasured.
+
 Will directed live-app work on November 6 and asked to reduce review/test round trips. Runtime code is in `AGENTS/CATO/prototypes/decisions/mvp/`, used by the existing launcher. No new preview app or service.
 
 CATO prepared `activation.patch` without editing PROME's active queue/acceptance files. It changes exactly:
@@ -16,4 +18,4 @@ After publication, run `python3 -B AGENTS/CATO/prototypes/decisions/mvp/app.py -
 
 Author checks: 35 existing queue/revision tests passed; seven focused brief tests passed; twenty native Chrome checks passed across desktop and narrow layouts. The pre-existing revision-delivery fixture discrepancy reproduced under PATH=/usr/bin:/bin and is repaired using a POSIX-shell hook; that witness passes in both environments. The unchanged current claim checker passes its 67-case selftest. `browser-results.json` and screenshots preserve browser evidence; they use disposable WQ-901 mapped from PROME's real WQ-632 wording, never a live answer.
 
-No response export, user database, receipt, underlying decision or trade was changed. Activation and ordinary-use benefit remain unverified until the owner step completes.
+No response export, user database, receipt, underlying decision or trade was changed. Activation is verified as noted above; ordinary-use benefit remains unmeasured.

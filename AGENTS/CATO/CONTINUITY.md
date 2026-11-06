@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 6, 2026, after live Decisions explanation work. Next: confirm PROME's prepared source/enablement activation when delivered; no new review loop. WQ-607 remains approved and pending, not started during this assignment.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
+**Updated November 6, 2026, after live Decisions explanation work. Decisions activation verified; no remaining install/review task. Next: orient and follow Will’s direction. WQ-607 remains approved and pending, not started during this assignment.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
 
 ## Resume point
 
@@ -17,7 +17,7 @@ Accepted maintenance, launcher repair and WQ-583 stay closed. FFIEC desktop regi
 ## Surviving CATO work
 
 - **Forecast pilot:** enrollment closed at 20/20 originals. Effort **44/120 minutes**, 76 remaining. Resume only when Will directs. Saved observations: RED-25 October 31 re-review if new evidence; FAL-06 November 5 checkpoint; December 31 process assessment. Grading limits, no-replacement condition and unresolved 2027 endpoints survive. [Recorded state and evidence](TASK_INDEX.md#forecast-pilot).
-- **Decisions:** Will directed live-app work with fewer review/test round trips. Explanation rendering is implemented and author-tested; PROME must apply the prepared WQ-632 source/enablement patch and publish it. No further independent review requested. Until then replies remain disabled and authored briefs are unconnected. Revision-delivery fixture discrepancy resolved (missing `rg` in a standard PATH); production delivery unchanged. [Current outcome, installation and limits](runs/2026-10-30_1059_wq-decision-workflow.md#november-6--live-explanation-update-owner-activation-prepared). Matching chat confirmation and W-S/legacy-pilot limits survive.
+- **Decisions:** live explanation update activated by PROME at `2e4f7cd82d`; CATO verified published activation, exact build hashes, reply enablement and WQ-632 brief/options. No remaining install/review task. Other cards await concise PROME wording at normal touches; ordinary-use benefit unmeasured. [Receipt and limits](runs/2026-10-30_1059_wq-decision-workflow.md#november-6--activation-confirmed). Matching chat confirmation and W-S/legacy-pilot limits survive.
 
 ## Delivered tools and machine handoff
 
