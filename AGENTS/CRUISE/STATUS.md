@@ -1,6 +1,6 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-11-06 16:18 ET** — WQ-640 A written: `VX-CRU-05` RED(4) → ORANGE(3), convergence 9/20.*
+*Last updated: **2026-11-06 18:05 ET** — closes refreshed through 11/6, no score moved. WQ-640 A written earlier today: `VX-CRU-05` ORANGE(3), convergence 9/20.*
 
 ## November 6 — WQ-628 A encoded, WQ-627 A and WQ-640 A written
 
@@ -10,6 +10,7 @@
 | **WQ-627 A, WQ-640 A** (Will 11/6, 16:07 ET app, 16:15 ET chat) | New `VX-CRU-05` cells live on the 9/30/26 prints: leverage leg ≤4.9x / 5.0–5.4x / 5.5–5.9x / ≥6.0x; deposit gap ≥0.00 / to −3.00 / to −8.00 / ≤−8.01pp; row = average of legs, rounded up | **RED(4) → ORANGE(3)**, convergence 10/20 → 9/20. A rule outcome, not a calmer company. Five caveats on the VX row. KB-CRU-242, `research/2026-11-06_vx05-redraw/RESULT.md` |
 | **Leverage ahead** | Trailing Adj EBITDA falls to about $2,550M at 12/31/26 on the company's guide. Leverage **5.82x** at unchanged Net Debt, about **6.14x** on my base case | ESTIMATE, not a company figure. Base case puts the row back at RED(4) at the Q4 print. KB-CRU-241 |
 | **Deposit gap history** | −13.30pp (3/31/26), −13.64pp (6/30/26), **−5.59pp** (9/30/26) | Negative six quarter-ends running, but it narrowed sharply this quarter. KB-CRU-240 |
+| **Close 11/6** | CCL $29.58 (−0.03%), RCL $327.16 (+1.37%), NCLH $17.92 (+0.90%); SPY $735.29 (+0.31%), XLY −0.05% | `VX-CRU-01` stays YELLOW(2) at −12.97%; CRU-11 interim +0.57pp, not a grade. EDGAR 11/3–11/6: no new 8-K from CCL, RCL or NCLH after the CCL 11/4 8-K already read; Form 4s and 144s unread. KB-CRU-243 |
 
 ## November 5 — NCLH 10-Q graded (L714)
 
@@ -43,15 +44,15 @@
 
 ## Signal Dashboard
 
-*Big 3 prices and the CRU-11 interim are **November 5 closes**, retrieved November 5 18:0x ET with repository yfinance(auto_adjust=False) and FORGE fetch.py (same vendor). Other rows retain named vintages.*
+*Big 3 prices and the CRU-11 interim are **November 6 closes**, retrieved November 6 18:0x ET with repository yfinance(auto_adjust=False) and FORGE fetch.py (same vendor). Other rows retain named vintages.*
 
 | Metric | Value | State | Source |
 |--------|-------|-------|--------|
-| **CCL price** | **$29.59**, November 5 raw close (−5.52%); **−12.94%** versus fixed raw February 6 reference $33.99. Above YELLOW line $27.192 since 10/27; RED $22.0935 | 🟡 | Yahoo yfinance + FORGE, retrieved November 5; KB-CRU-223 |
-| **RCL price** | **$322.73**, November 5 raw close (−3.13%) | 🟢 | Same-vendor sources; KB-CRU-223 |
-| **NCLH price** | **$17.76**, November 5 raw close (−4.52%); **−29.02%** versus held raw February 26 peak $25.02. Print day 10/28 $16.06 → 10/29 $18.22 (**+13.45%**) | 🔴 | Same-vendor sources; KB-CRU-223 |
+| **CCL price** | **$29.58**, November 6 raw close (−0.03%); **−12.97%** versus fixed raw February 6 reference $33.99. Above YELLOW line $27.192 since 10/27; RED $22.0935 | 🟡 | Yahoo yfinance + FORGE, retrieved November 6; KB-CRU-243 |
+| **RCL price** | **$327.16**, November 6 raw close (+1.37%) | 🟢 | Same-vendor sources; KB-CRU-243 |
+| **NCLH price** | **$17.92**, November 6 raw close (+0.90%); **−28.38%** versus held raw February 26 peak $25.02. Print day 10/28 $16.06 → 10/29 $18.22 (**+13.45%**) | 🔴 | Same-vendor sources; KB-CRU-243 |
 | **RCL Q3 / FY26** | Adj EPS **$6.57** vs $6.26–6.36 · Q3 CC yield **+0.6%** · FY CC yield guide **~+2.1%** (was 1.75–2.25%) · FY adj EPS **$17.85–17.95** (was 17.73–17.87) · occupancy 112.4% on capacity +8.4% · 2027 "ahead of historical levels at higher rates" | 🟢 | [CONF A1] 8-K …-000042 Ex-99.1, 10/27 |
-| **CRU-11 spread** (NCLH − RCL cumulative adjusted TR from October 2) | **+1.11pp at November 5 close** (NCLH +17.31%, RCL +16.20%), **interim observation only**; CONFIRMED needs ≤ −5pp. Frozen endpoint November 14 / nearest preceding session (Fri 11/13); resolver not run | 🟡 | [CONF MIRROR] pinned yfinance Adj Close pull November 5; KB-CRU-223 |
+| **CRU-11 spread** (NCLH − RCL cumulative adjusted TR from October 2) | **+0.57pp at November 6 close** (NCLH +18.36%, RCL +17.79%), **interim observation only**; CONFIRMED needs ≤ −5pp. Frozen endpoint November 14 / nearest preceding session (Fri 11/13); resolver not run | 🟡 | [CONF MIRROR] pinned yfinance Adj Close pull November 6; KB-CRU-243 |
 | Tape 10/14 | Big-3 −2.6% to −2.9% on a down day: SPY −1.08%, XLY −0.77%, VIX 16.87 (+10.5%). **No cruise-specific cause found** | — | [CONF] yfinance 10/14 |
 | **CCL Q3 / FY26** | Adj EPS **$1.43** vs ~$1.35 guide · FY CC net yield **~+2.3%** (was ~+1.75%) · FY adj EPS ~$2.24 · deposits **$7.6B, +~7%** on flat capacity · 2027 occupancy + pricing **at records**. ⚠️ 10-Q: **North America ticket prices −$40M YoY**, cause unnamed — not CRU-09 evidence, not the Norwegian channel | 🟢 | [CONF A1] 8-K …-000104 + 10-Q …-000107 |
 | **Fuel cost — OBSERVATION** (`VX-CRU-02`, no colour/weight since WQ-532 A 10/29) | Q3 actual **$826/mt** vs $812 guide; fuel hit **$0.007/sh**; **Q4 guide $896/mt**; FY raised through a ~$150M fuel headwind. **Exit rule 2 FIRED** ⇒ cost line only. NCLH Q3 **$819/mt** net of hedges, Q4 guide $803; 2027 42% hedged at $559. Brent BZZ26 ~$105.3 (bar labelled 10/14, may include the evening session — context; **BRENT owns it**) | — | [CONF A1] CCL 9/29; yfinance BZZ26.NYM |
