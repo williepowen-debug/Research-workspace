@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-06 10:13 EST (D:L973 delivered, WQ-626 A) | STATUS commit: `8b71d61d5e9cd7d2e77ee3e8ebdbb9b74b16417c`
+**As of:** 2026-11-06 11:08 EST (D:L973 delivered, WQ-626 A) | STATUS commit: `91090bbe59d0ff447f3d01d31dad8559891538e5`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -11,7 +11,7 @@
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| REGINALD / LIQUID / GIBBS / HANS / PROME | Crédit Mutuel Arkéa (CYB-INC-059, 11/04): attackers came through an unnamed provider's platform and paid other banks from the bank's own account, about EUR 100M provisional. No second bank, rail statement or supervisory alert found; shared reach UNKNOWN, not systemic on this evidence | P1 | New class: theft of a bank's own funds through a vendor (FL-CYP-21). Whether one vendor can do it to several banks is FL-CYP-22, UNTESTED |
+| REGINALD / LIQUID / GIBBS / HANS / PROME | Crédit Mutuel Arkéa (CYB-INC-059, 11/04): attackers came through an unnamed provider's platform and paid other banks from the bank's own account, about EUR 100M provisional. No second bank, rail statement or supervisory alert found; shared reach UNKNOWN, not systemic on this evidence. LIQUID 11/06: no effect on its surfaces, which cannot see a European rail; not a clearance (KB-CYP-103) | P1 | New class: theft of a bank's own funds through a vendor (FL-CYP-21). Whether one vendor can do it to several banks is FL-CYP-22, UNTESTED |
 | REGINALD / LIQUID / GIBBS / PROME | Bank-vendor cluster watch count limb MET 11/05: Finzly (one device, Fed-link firewall keys published, untested; Fed not impacted) and Abrigo (unauthorized access, ~69h Sageworks shutdown, data loss unstated). Off-wave. REGINALD 11/05: no regional-bank consequence today, not a clearance (EDGAR only, 10-Qs not searched). GIBBS 11/05-06: not observed at the 16, Arkéa shared-vendor channel UNKNOWN, 15 Q3 10-Qs clean on a keyword diff (KB-CYP-092). Abrigo counts on plain words, not a core | P1 | Supplier channel consequence is theirs |
 | SHADE | FBI state attribution of the Binance theft (10/31, SECONDARY), told late; VX-CYP-08 graded 4 ORANGE with composition note | P1 | State-attack exclusion read |
 | NEXUS / PROME / SAM | 11/06: Capcom corrected to CONFIRMED (11.77M records, no financial channel; the desk's 10/23 read was wrong). Kiteworks: no named route at +16 days, weak evidence. GMO cost not calculable, next 11/13. Shinkin outage: 128 Japanese credit co-ops about 5.5 hours, operators think not cyber, no fire | P3 | Consequence stays with SAM |
