@@ -1,0 +1,4 @@
+# OSPREY strike feed — COMMITTED match audit trail, run 2026-11-06. One row per candidate the diff absorbed into an existing strike_id.
+# ledger: 191 data lines, 190 usable, 1 skipped (RU-202605xx-SYZRAN: unparseable date '2026-05-??'); 43 generic tokens dropped at df>=4: astra,baltic,bashkortostan,bashneft-unpz,caspian,danube,established,gazprom,kapotnya,kstovo,lukoil,lukoil-nizhegorodnefteorgsintez,moscow,nizhnekamsk,nizhny,norsi,novgorod,novorossiysk,odesa,operator,plant,primorsk,prosvet,re-struck,romania,rosneft,rostov,russian-flagged,ryazan,samara,saratov,sheskharis,siberia,sochi,taneco,tanker,tatarstan,times,transneft,vladimir,volgograd,western,yaroslavl
+# Each row is a CLAIM. Precision leg of the acceptance test: of N rows here, M confirmed at the named ledger facility.
+run_date	pub_date	source	title	url	ledger_match	carrying_tokens	ledger_facility
