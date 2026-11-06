@@ -123,14 +123,14 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
     },
     {
       "commit": "e7928a4e9fa1607a91282f1689c25ab4709863e3",
-      "state": "pending",
+      "state": "published",
       "note": "Cards 017-019."
     }
   ],
   "delivery": {
     "signal_date": "20261106",
     "total": 84,
-    "delivered": 69,
+    "delivered": 84,
     "note": "Delivery proof by origin only; recipient use separate."
   },
   "owner_review": {
