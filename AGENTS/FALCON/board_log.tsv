@@ -314,3 +314,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T11:35:00-05:00	SIG-W-20261106-023	acted	WALTER	Graded NOT ESTABLISHED: 7700 only, Fars carries no attack claim, Tasnim unread; no mark, census or gate effect. KB-418.
 2026-11-06T11:35:00-05:00	SIG-W-20261106-020	noted	WALTER	WALTER correction of card 018 from my own packet; matches VI-0095, VI-0096, KB-411..414. No new fact.
 2026-11-06T16:49:00-05:00	SIG-W-20261106-027	noted	WALTER	WALTER correction of card 023 from my own 11:35 ET message; matches KB-418. No new fact, no mark, census or gate effect. COR-20261106-27 and -20 receipted NO-OP.
+2026-11-06T17:25:00-05:00	SIG-W-20261106-043	acted	WALTER	Ladder item 5 NOT MET both limbs; state unchanged. Remark was Oxford not Doha; mediation reads as continuing on reports; Yanbu Reuters body is 11/5. KB-419/420. Corrections to WALTER.
+2026-11-06T17:25:00-05:00	ORACLE-2026-11-06-ceasefire-legs	noted	INBOX	Cited KB-424. Cause not established; Qeshm report KB-422 may or may not be it. No gate touched.

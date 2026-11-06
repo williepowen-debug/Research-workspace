@@ -1,12 +1,12 @@
 # FALCON STATUS
 
-**Updated:** 2026-11-06 11:35 ET, bounded session class C8, card SIG-W-20261106-018, launched by prome-51; card 023 graded after closeout. Report [11/06 card 018](reports/2026-11-06b_card018-grade.md). Runtime Claude Code, Opus 5.5. Prior: 11/06 07:40 ET ([FAL-06 and EXIT v4](reports/2026-11-06_fal06-grade-exit-successors.md)), prome-96 under WQ-626 A; 11/05 16:32 ET ([card 058 and FAL-06 final pass](reports/2026-11-05_card058-yanbu-fal06-final-pass.md)). Weekly + GATE-FALCON-001 review 11/04 ([report](reports/2026-11-04_weekly-review-gate001-fal07.md)).
+**Updated:** 2026-11-06 about 17:30 ET, bounded close refresh on Will's 17:08 ET word via prome-51, card SIG-W-20261106-043; evidence cutoff about 22:25Z. Report [11/06 close refresh](reports/2026-11-06c_close-refresh-card043.md). Prior: 11/06 11:35 ET, class C8, card SIG-W-20261106-018; card 023 graded after closeout, report [11/06 card 018](reports/2026-11-06b_card018-grade.md). Runtime Claude Code, Opus 5.5. Prior: 11/06 07:40 ET ([FAL-06 and EXIT v4](reports/2026-11-06_fal06-grade-exit-successors.md)), prome-96 under WQ-626 A; 11/05 16:32 ET ([card 058 and FAL-06 final pass](reports/2026-11-05_card058-yanbu-fal06-final-pass.md)). Weekly + GATE-FALCON-001 review 11/04 ([report](reports/2026-11-04_weekly-review-gate001-fal07.md)).
 
 ## Current marks and authority
 
 | State | Disposition / evidence date |
 |---|---|
-| B / C / D | **1 / 14 / 85 HELD.** Last weekly review November 4; no registered rung met through November 6, card 018 graded (KB-416). FAL-06 CONFIRMED moves no mark; the downgrade test THESIS pre-registered on that result was run 11/06: NOT MET (KB-403). Next weekly review **November 11**. Convergence **43/50** retained; seven ceiling vectors limit sensitivity |
+| B / C / D | **1 / 14 / 85 HELD.** Last weekly review November 4; no registered rung met through about 22:25Z November 6 (KB-416, KB-420, KB-423). FAL-06 CONFIRMED moves no mark; the downgrade test THESIS pre-registered on that result was run 11/06: NOT MET (KB-403). Next weekly review **November 11**. Convergence **43/50** retained; seven ceiling vectors limit sensitivity |
 | D75→85 | FIRED September 28 on FAL-05 route(c); immutable letter in EXIT_PROTOCOL archive. Cannot fire twice |
 | Production rung D 85→92 | REGISTERED October 1, WQ-355; ARMED, NOT FIRED. No counting source for an IN-class facility hit October 30–November 4. Houthi November 2 claims = airports and a radar, unverified (KB-389) |
 | Yanbu, card 058 (11/5) | Danger warning at Yanbu and Sharurah, lifted within minutes; coalition says a Houthi ballistic missile toward the Medina region was intercepted. **INTERCEPTED is not STRUCK.** No damage or casualties reported. Rung NOT FIRED, no STRIKES row. ⚠️ **Loadings could not be read:** BRENT confirms no November Yanbu or Saudi weekly print at any source; PortWatch Yanbu blind; KB-168 proxy unbuilt. "No halt reported" is coverage. About 2.5 mb/d October via Red Sea is the conditional size if it stopped, not a forecast. ⛔ Reuters "Oil settles $3 higher on Yanbu disruption" is September 15, not November (KB-393/394/401) |
@@ -18,6 +18,16 @@
 | L229 permanent route | LAPSED / NOT VERIFIED AS AGREED October 26. Two-day offer = conditional restatement; no executed framework (KB-384). PROME owns docket; BRENT owns BRT-30 |
 | WARRISK | All 5 rows EXPIRED (registered falsifier +29d). WQ-298 standing rule: CANNOT-FIRE, no access re-argued. No newer matched quote found this session |
 | EXIT / prices | Thesis-kill 0/7, re-stamped November 6. **EXIT v4 written November 6, §5 discharged; rewrite trigger now FAL-08 resolving or December 31; §2a byte-identical.** Indicator #1 now reads FAL-08 by its own pointer, LIT state stands. BRENT owns oil/flow/settlements; HENRY VIX; LIQUID credit. No live FALCON settle clock; step 12b no-op. Trade construction TERRY; no trade or Will decision proposed |
+
+## November 6 close
+
+| Object | Reading, cutoff about 22:25Z |
+|---|---|
+| ⚠️ Qeshm, developing | Reuters via JPost, about 22:19Z: Tasnim says initial reports of two missiles striking Qeshm, unconfirmed; IRNA cites witnesses, two projectiles at Suza after an aircraft was heard. Fars: explosions at Qeshm and Bandar Khamir, cause unclear, possibly warning shots. **Direction unsettled: incoming and outward readings both stand. No attacker named. NOT ESTABLISHED as a US strike.** CENTCOM, War Department, UKMTO, AP and AFP 403 here, so silence is not a denial (KB-422, KB-379). Moves nothing: no 72-hour halt is running, the ladder is already at D, an Iranian island is not an IN-class facility, FAL-09 opens 11/7 00:00 ET |
+| ORACLE odds | ORACLE's numbers: Polymarket effective ceasefire through 11/15 59 → about 36 from 16:04 ET, thin book, cause not established. The order of events does not establish cause (KB-424) |
+| Card 043, ladder item 5 | **NOT MET on both limbs; state unchanged.** Qatar's Prime Minister spoke at the Oxford Union, not Doha. "Mediation ended" and "So it's war" are in no source read; mediation reads as continuing on reports, Qatari text unread. Araghchi's "setting timelines" is not a date (KB-419/420) |
+| Saudi and UAE flow | Bloomberg's "prewar levels" clause has no figure. **Not a collision with Vortexa's 86%, which is whole-Gulf** (14.0 mb/d, October). TankerTrackers 10/1–10/22 vs Jan-Feb: Saudi +10% (west +296%, east −27%), UAE +6%. Saudi October to date: Vortexa 6.5, TankerTrackers 6.99, Kpler 5.4 mb/d. **No November print.** A re-route that leans on Yanbu, which I cannot read (KB-421) |
+| Other | IMO 129 / 25 unchanged; no newly named hull; no IN-class facility; no enforcement event found. Reuters' Yanbu body is 11/5, card 058's event. Iran denies the Times iodine report. Trump 11/6 "not lost a soldier" sits against the 11/5 "18 US dead", unreconciled (KB-423) |
 
 ## November 4 review — price versus the war record
 
@@ -35,12 +45,12 @@
 | VELOS SAPPHIRE (11/6 update) | Card 007's tanker, IMO 9321201, Velos Tankers, LR1 product tanker, Marshall Islands, 50 NM N of Qatar, 11/4 23:20Z. **IMO 129 / 25 as at 11/6: damaged, one seafarer killed; the missing-versus-killed conflict closes as Lloyd's said.** Owner via Reuters 11/6: unladen, Bahrain-bound, suspected missile, attacker unnamed, no other injuries, now at Khalifa Bin Salman Port, hull still being assessed. Not a loss, census stays 7. UNATTRIBUTED. Second hull in five days deep inside the Gulf (VI-0095, CAS-038, KB-395/400/412) |
 | Sinokor | No named-hull detention found after 11/1. Coverage statement, not a zero (KB-390) |
 | Iraq / Yemen | PMF discriminator NOT FIRED: Iraqi Army reportedly moved four brigades to Basra to stop attacks on Kuwait; militia threats, no attack found. Houthi ground push in Lahij; no Bab hull event (KB-389) |
-| Sensors | Bypass and transit reads 11/06 failed on a PortWatch rate limit, again at 11:1x ET; last good 11/04: Sohar back, combined 108,790 t/d vs floor 34,234 to 10/30, HOLDING, predates November. Transit newest 10/25, 12 days old, DEEPENING. WARRISK expired, one more search 11/06 found no matched quote (KB-387) |
+| Sensors | Bypass and transit reads 11/06 failed on a PortWatch rate limit, again at 11:1x ET and on five attempts at close; last good 11/04: Sohar back, combined 108,790 t/d vs floor 34,234 to 10/30, HOLDING, predates November. Transit newest 10/25, 12 days old, DEEPENING. WARRISK expired, one more search 11/06 found no matched quote (KB-387) |
 | Casualties | Rolling 30-day recorded killed 23 (10/8–11/6) vs 5 (9/8–10/7), RED rate-step stays lit; one 10/10 event is 12 of the 23; recorded counts, unknowns excluded (`domain/CASUALTY_RATCHET.md` §3) |
 
 ## Convergence Matrix
 
-Scores retained; no vector crossed its threshold column at the November 4 review. Re-read November 5 against cards 007, 023, 056, 058 and November 6 against BRENT's 11/5 note, the 11/6 evidence and card 018: none crossed; cells unchanged.
+Scores retained; no vector crossed its threshold column at the November 4 review. Re-read November 5 against cards 007, 023, 056, 058 and November 6 against BRENT's 11/5 note, the 11/6 evidence, card 018, card 043 and the close sweep: none crossed; cells unchanged.
 
 | Vector | Score | Current State | Threshold → Next Level | Last Updated |
 |---|---:|---|---|---|
@@ -49,7 +59,7 @@ Scores retained; no vector crossed its threshold column at the November 4 review
 | US-Iran direct kinetic |5| US strike on Qeshm 11/2 confirmed; blockade on | Formal ceasefire + blockade lifted →2 | November 4 |
 | Energy tape |5| BRENT 11/4: fade NOT MET (January $94.62, $16.62 above the <$78 line). ⚠️ Tape fell ~17% in three sessions: not met does not mean the tape agrees with the ladder | Registered owner fade test, BRENT input | November 4, BRENT packet 50aa58dce |
 | Gulf production/bypass |5| No production-class loss established; bypass HOLDING to 10/30 | Registered production rung needs IN-class facility/source | November 4 |
-| Diplomacy |3| Mediated exchange continues; no text, no date | Dated executed framework →2; actual breakdown event →4 | November 4 |
+| Diplomacy |3| Mediated exchange reads as continuing; no text, no date; card 043 not a breakdown | Dated executed framework →2; actual breakdown event →4 | November 6 |
 | Shipping/insurance |5| Census 7; all 5 insurance rows expired | At ceiling; no mine attribution inferred | November 4 |
 | Cyber/data |2| Cable threat is rhetoric; no in-theater incident found | Operator-confirmed in-theater incident | November 4 scoped search |
 | Macro/credit |3| Owner context | HENRY/LIQUID owner input | November 4 |
@@ -65,10 +75,10 @@ Scores retained; no vector crossed its threshold column at the November 4 review
 - ⚠️ **Unannounced US strikes are invisible to my sweep.** "No US strike since X" is a coverage statement, never a fact (KB-379).
 - Facility high-water advanced to **November 3** (STRIKES header); newest event row still September 10.
 - **What would change the marks (11/6):** D→C, 72 hours two-sided with no strike or hull hit, proxies included, necessary not sufficient. C→B, a dated framework plus verified reopening steps. D 85→92, a counting source naming a hostile strike on an IN-class production facility. ⚠️ A confirmed sea mine or a VELOS total loss moves no mark on my letters: indicator #6 has no repeat clause; it would change the record and FAL-12, and a total loss would need a census read.
-- **Next:** November 11 weekly + gate review. December 31 late ET: FAL-08, 09, 10 dated searches and the FAL-11 table read. RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; Sinokor; UKMTO 192-26+ (403 here); the "18 US dead" line against my ledger; TIMELINE extension from Day 244; PMF re-read (CTP 403).
+- **Next:** Qeshm attribution at next boot. November 11 weekly + gate review. December 31 late ET: FAL-08, 09, 10 dated searches and the FAL-11 table read. RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate; Sinokor; UKMTO 192-26+ (403 here); the "18 US dead" line against my ledger; TIMELINE extension from Day 244; PMF re-read (CTP 403).
 - Band proposal (IRAN-01, DIPLOMACY-01) is in the 11/04 report, routed to PROME, not applied. Combination themes: seven, `combo:` rows KB-404..410, review November 11.
 - Carried builds remain: KB-168 Yanbu proxy, baseline hot/cold split, sub-$80 duration bar, archive-content guard, EXIT boot reader. DAEDALUS items 6, 7, 10–13 DEFERRED to November 11.
 
 ## BOTTOM LINE
 
-Card 018 moves nothing on my letters: B 1 / C 14 / D 85 hold and confirmed losses stay at 7. The new event is one unnamed tanker with a waterline explosion off Khasab at 22:00Z on November 5, still under way, cause unstated; Iran's two new mine claims stay claim-only and do not match its reported state. Velos Sapphire is confirmed unladen with one dead and afloat in Bahrain. Watch whether any maritime authority names a hull and a mine, which I price at 10%; the bigger question stays whether the US moves to a sustained campaign, 40%.
+B 1 / C 14 / D 85 hold at the November 6 close and confirmed losses stay at 7; Qatar's remark is neither a breakdown nor a framework, and no source read says mediation ended. The change is late: Iranian outlets, relayed by Reuters at about 22:19Z, report two projectiles hitting Qeshm with no attacker named, and I could not reach CENTCOM, UKMTO, AP or AFP, so this is not established as a US strike and not ruled one out. Watch for any US or wire attribution of Qeshm first; if it was a US strike, the question stays whether it starts a sustained campaign, 40%, not whether the ladder moves. Saudi and UAE flow is not back at prewar on a November print, because none exists.
