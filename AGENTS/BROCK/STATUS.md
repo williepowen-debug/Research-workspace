@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-06T12:44:47-05:00 — MFIC Q3 read: NAV $12.86 equals the preliminary, non-accrual 7.9% cost from 4.6% (KB-BRK-453/454/455) · L587 DECLINED by PROME 11:25 ET · card 026 logged. Prior 11:24 stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
+**Updated:** 2026-11-06T15:32:44-05:00 — cards 029/030/031/034 cleared: IE Mackenzie is IREN, four Blue Owl funds (KB-BRK-456) · Docket L1058/L1059 added · no score moved. Prior 12:44 stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
 
 ---
 
@@ -37,7 +37,7 @@
 | 8/13 | **BRK-32 disposition / CCLFX source** | RED 7/31 recovered; BROCK 8/7 accepted findings/STUCK. Restore STUCK; frozen 3/31 weights retained. Scoring/resolution audit before disposition (WQ-161/288); no amendment/retirement applied. |
 | 7/28 | **VX-BRK-023** (OTF litigation) STUCK — re-spec | mine, deliberately unconsumed |
 | June · 8/3 | **CDLI Q1 full NAV** · **ARCC Q1→Q2 NA-additions comparison** | CDLI source gap open; separate ARCC additions comparison still owed/define output. Small-fund migration next-level leg RETIRED WQ173, not pending. |
-| 9/2 | Watch: **VX-BRK-024** NAIC CLO RBC tranche downgrade (YE-2026) · **CRWV DDTL FOUND** in OBDC, OTF, PSBD, GECC at 9/30, small (KB-BRK-425) · **2nd KKR support package at FSK** within 90d · **APO >$145** re-eval · MFIC Q3 call tone (early Nov; Quartr is `subscription_required`, do not re-attempt) | standing watch |
+| 9/2 | Watch: **VX-BRK-024** NAIC CLO RBC tranche downgrade (YE-2026) · **CRWV DDTL FOUND** in OBDC, OTF, OCIC, PSBD, GECC at 9/30, small (KB-BRK-425/457) · **IE Mackenzie = IREN: four Blue Owl funds, $447.7M undrawn, draws end 12/31 (KB-BRK-456)** · **2nd KKR support package at FSK** within 90d · **APO >$145** re-eval · MFIC Q3 call tone (early Nov; Quartr is `subscription_required`, do not re-attempt) | standing watch |
 
 ---
 
@@ -108,4 +108,4 @@
 
 ## BOTTOM LINE
 
-**11/06:** The first high-yield print on the selloff was broad, not a low-quality event: HY +16bp to 348 [11/5], with BB widening most in percent. Ladder row 10 did not fire, because HY widened as the VIX rose 11.57 points; CCC/BB fell to 6.20, which is not my signal, and that condition is near unreachable on a widening. Cable One's 10-Q confirms the order blocks the MBI purchase and adds the fact that matters: it is out of NYSE compliance, and its own filing traces delisting to a $345.0M convertible put it may not be able to pay, then a cross-default. Watch Car-Mart's Mon 11/09 deadline and Cable One's Fri 11/13 hearing. Convergence **58/70**, unchanged.
+**11/06 PM:** My unidentified IE Mackenzie loan is IREN's $2.4B GPU financing: Blue Owl is agent and four of its funds hold $730.0M of commitments, $447.7M undrawn through 12/31 (KB-BRK-456). It was marked 99.15 of commitment at 9/30, before IREN's delay, with a parent guarantee and 30-month amortization; Microsoft's change is at Childress, and no link to the Mackenzie site is read. Cable One's 10-Q still matters most near term: out of NYSE compliance, and delisting leads to a $345.0M convertible put, then cross-default, on its own words. Watch Car-Mart Mon 11/09, Cable One Fri 11/13, Mackenzie draws by 12/31. Convergence **58/70**, unchanged.

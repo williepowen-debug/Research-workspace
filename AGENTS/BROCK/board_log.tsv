@@ -403,3 +403,7 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T11:24:47-05:00	SIG-W-20261106-019	noted	INBOX_WALTER	No bank failure, new gate or large bankruptcy found; no Cable One intervention found, docket not reached, so not a negative. Weak negatives, no row moved.
 2026-11-06T11:24:47-05:00	SIG-W-20261105-067	acted	INBOX_WALTER	Deferred ACTION answered on Will's word 11:18 ET: CADUX held a small Tricolor SPV 3 revolver, exited by 12/31/24; nothing at ARCC, ASIF, ARDC, ARES, ACRE (KB-BRK-450). Packet to WALTER.
 2026-11-06T12:44:47-05:00	SIG-W-20261106-026	noted	INBOX_WALTER	AI capital map logged under combo:ai-financing-repricing (KB-BRK-445); compiled by ZeroHedge, definitions unread, not checked at filings. No score moved.
+2026-11-06T15:31:59-05:00	SIG-W-20261106-029	acted	INBOX_WALTER	IREN half touches a BDC line: IE Mackenzie Compute is IREN, four Blue Owl funds, KB-BRK-456 corrects KB-BRK-435. Oracle half to theme. No score moved.
+2026-11-06T15:31:59-05:00	SIG-W-20261106-030	noted	INBOX_WALTER	OpenAI round and SoftBank check logged under combo:ai-financing-repricing (KB-BRK-445). No BDC line touched. No score moved.
+2026-11-06T15:31:59-05:00	SIG-W-20261106-031	noted	INBOX_WALTER	ECB review logged under combo:ai-financing-repricing (KB-BRK-445). Banks, not final, no lender named; HANS owns its row; BRK-31 untouched. No score moved.
+2026-11-06T15:31:59-05:00	SIG-W-20261106-034	acted	INBOX_WALTER	Correction to 029 logged; reaches Nscale lines by channel only, KB-BRK-457. No score moved.
