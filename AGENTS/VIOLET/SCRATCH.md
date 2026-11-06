@@ -1,6 +1,6 @@
 # VIOLET — session handoff
 
-**As of:** November 6, 2026 16:38 ET (from `date`). Third turn, PROME's word 15:24 ET: 5 WALTER cards drained, 11/06 close read on the 16:15:01 ET print. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**. The 10:29 ET wake closed on PROME's ask (WQ-249); L976 RESOLVED, VIO-PRED-07 to 10 registered, charter line verified C4. This turn awaits PROME's closeout ask.
+**As of:** November 6, 2026 16:41 ET (from `date`). Third turn, PROME's word 15:24 ET: 5 WALTER cards drained, 11/06 close read on the 16:15:01 ET print. Canonical numbers: [STATUS](STATUS.md). Thesis v4.1.9; convergence **38/50**. The 10:29 ET wake closed on PROME's ask (WQ-249); L976 RESOLVED, VIO-PRED-07 to 10 registered, charter line verified C4. Closed on PROME's second ask, window stays open.
 
 ## CHANGES SINCE (11/05 16:51 ET → 11/06 10:20 ET)
 
@@ -32,7 +32,7 @@
 
 0. **Grade VIO-PRED-07 after History posts 11/13**, VIO-PRED-08 and 10 after 11/20, VIO-PRED-09 after 12/31. Any close that meets a letter resolves it early in fact; grade at the next owner session.
 1. **History 11/06:** run `backfill.py --spot-only`, take the SKEW bar, stamp the row SETTLE, confirm KB-VIO-387 and KB-VIO-389's −2.54. IMPLIED_CORR 11/06 is stamped SETTLE by clock, so check it too. Read HY 11/06 first-published: the 5-day window from 10/30 has its VIX leg at +32.03% on the print, base 344bp, line 369bp. If met, it is the same episode; note it, do not re-send without a reason.
-1a. **RESUME LIST, PROME's word 11/06:** both Will-facing pages still show HY 332bp and the credit leg open: edit the repo HTML, republish each to its existing URL, update the memory twins.
+1a. **RESUME LIST, PROME's word 11/06:** both Will-facing pages left unchanged, more than one line out of date (PROME's rule, 16:40 ET): 332bp and CREDIT LEG OPEN, SKEW 150.90 and 5 Nov unpublished, 9,308 not 9,309, archive confirmation pending, MOVE 93.88, CFTC 10/27, payrolls as a next event, whole band on 11/05. Do a full refresh after History 11/06: edit the repo HTML, republish each to its existing URL, update the memory twins.
 2. FXY IV re-pull done mid-session: 12.1% [12:38 ET, 43 DTE, 5 strikes] against RV10 7.05%; carry canary CALM.
 3. CPI 11/10 pre/post surface read. Verify the date at bls.gov (403 on 11/05); CPI search unconfirmed.
 4. QQQ −3.20% vs SPY −1.39% at 09:50 ET with VIX +5%: read the close for dispersion. HENRY and VULCAN own the equity read.
