@@ -1,4 +1,21 @@
-# DAEDALUS handoff — November 5, 2026
+# DAEDALUS handoff — November 6, 2026
+
+## Closed by Will 11/06 08:03 ET after boot and status; resume in fresh context
+
+Claude Code, Opus 5.5, laptop `WilliePOwen`. Boot gate rc 0, CLEAN 3, DUE 1. Read-only recovery; Will said "lets close out here", not "go", so the proposed housekeeping pass did NOT run. Nothing filed, no map row changed, no review run.
+
+**Resume first:**
+
+1. **File and write back, proposal awaiting Will's "go":** file the 16 packets; update CREED and CRUISE FLEET_MAP rows and regenerate the directory; annotate the NEXUS profile (26/41/33 split, M-07 standing number withdrawn); record WATT and CARL in sweep 5 records, including WATT's withdrawn "raw replay unavailable" limit. CRUISE row: fuel and operator-split theses dead on their letters, narrower NCLH read conditional on the unread Q3 10-Q (acc 0001104659-26-120217).
+2. **GIBBS recheck, requested, not started:** `inbox/2026-11-05_from-GIBBS_L2-schema-repair-evidence.md`, three cells only; decides the L1 schema gap.
+3. **L490 and scorecard:** dated 11/06; nothing self-starts; DAEDALUS not on PROME's 11/05 Friday slate of 16 desks.
+4. **A09:** Will has not answered. Recommendation given 11/05: hold past Friday; those charter lines are the gate's written spec, no byte pressure at 62%. No WQ row exists, so not a registered decision. Do not start unprompted.
+5. **B24:** NEXUS and ZHAO packets still in their inboxes at close.
+6. **WQ-601 unit 4:** told Will 11/05; revert CYPHER:152 and ISHM:209 only if he says it was not approval.
+
+**Claims checked 11/05:** TERRY 71103c231, five KEY FILES rows and archive crc32 e15a16f2 over 12,759 B match; its "no script parses them" NOT checked. CREED `creed_selfcheck` true rc 0; row-level re-verification NOT checked. VULCAN d407abd38 and KB-VULCAN-354 exist; its open reading RULED WQ-608 A. ORACLE `closed_outcome` exists; VX cells NOT checked. FALCON ef9699a4e exists. WATT c153b55a6: A2 changes the C1 rationale cell only, KB-WATT-160 and 194 exist, PJM source NOT checked. CARL 11/06, CRUISE and GIBBS read, NOT checked. RED and LABOR declines need no action. PROME's four November 4 packets were already consumed. `L882-final-disposition` remains on the checkpoint branch only.
+
+**Overtaken below:** the desktop `.env`, LIQUID repair and TERRY November 6 items under the sections that follow are done; see STATUS items 9 and 11b and the claims above.
 
 ## Stopped for the desktop switch; resume in fresh context
 
