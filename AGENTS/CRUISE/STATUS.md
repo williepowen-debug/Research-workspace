@@ -1,14 +1,14 @@
 # CRUISE — STATUS
 
-*Last updated: **2026-11-06 14:13 ET** — WQ-628 A encoded, WQ-627 A draft cells sent to PROME; no vector moved.*
+*Last updated: **2026-11-06 16:18 ET** — WQ-640 A written: `VX-CRU-05` RED(4) → ORANGE(3), convergence 9/20.*
 
-## November 6 — WQ-628 A encoded, WQ-627 A drafted
+## November 6 — WQ-628 A encoded, WQ-627 A and WQ-640 A written
 
 | Item | Result | Consequence / limit |
 |---|---|---|
 | **WQ-628 A** (Will 11/6 about 14:05 ET) | `TRADE.md` row 1 conviction **3 → 2**, stays WATCH / NO CARD | Add-back caveat carried on the row: covenant passes only through the fixed add-back; 11/17 expected pass, uncertified. No position on this name. KB-CRU-238 |
-| **WQ-627 A** (same word) | Draft cells sent to PROME: leverage leg ≤4.9x / 5.0–5.4x / 5.5–5.9x / ≥6.0x; deposit gap ≥0.00 / to −3.00 / to −8.00 / ≤−8.01pp; row = average of legs, rounded up | **PROPOSED, does not count until Will rules. `VX-CRU-05` holds RED(4); `VX.tsv` unchanged.** Would read ORANGE(3) on 9/30/26. `research/2026-11-06_vx05-redraw/RESULT.md` |
-| **Leverage ahead** | Trailing Adj EBITDA falls to about $2,550M at 12/31/26 on the company's guide. Leverage **5.82x** at unchanged Net Debt, about **6.14x** on my base case | ESTIMATE, not a company figure. Base case puts the draft row back at RED(4) at the Q4 print. KB-CRU-241 |
+| **WQ-627 A, WQ-640 A** (Will 11/6, 16:07 ET app, 16:15 ET chat) | New `VX-CRU-05` cells live on the 9/30/26 prints: leverage leg ≤4.9x / 5.0–5.4x / 5.5–5.9x / ≥6.0x; deposit gap ≥0.00 / to −3.00 / to −8.00 / ≤−8.01pp; row = average of legs, rounded up | **RED(4) → ORANGE(3)**, convergence 10/20 → 9/20. A rule outcome, not a calmer company. Five caveats on the VX row. KB-CRU-242, `research/2026-11-06_vx05-redraw/RESULT.md` |
+| **Leverage ahead** | Trailing Adj EBITDA falls to about $2,550M at 12/31/26 on the company's guide. Leverage **5.82x** at unchanged Net Debt, about **6.14x** on my base case | ESTIMATE, not a company figure. Base case puts the row back at RED(4) at the Q4 print. KB-CRU-241 |
 | **Deposit gap history** | −13.30pp (3/31/26), −13.64pp (6/30/26), **−5.59pp** (9/30/26) | Negative six quarter-ends running, but it narrowed sharply this quarter. KB-CRU-240 |
 
 ## November 5 — NCLH 10-Q graded (L714)
@@ -22,7 +22,7 @@
 | **Funding model** | Revolver left at 12/31/27: **$760M** flat, $452M at −5%, excluding the conditional $315M. Breakeven **−12.7%/yr** (10/14 ~−14 to −16%) | Funding leg does not re-open; cushion narrowed a little. Endpoint test only. KB-CRU-231 |
 | **Open** | D2 note pricing and extinguishment; B3 2027 interest | Q4 print, 10-K or transcript |
 
-**So what (11/5):** the bear read on Norwegian no longer has a liquidity leg through 2027. It rests on ticket price per day, deposit quality and leverage. `VX-CRU-05` stays RED(4) only because no band letter forces a move. **Recommended to Will via PROME: re-spec that band, and lower NCLH conviction 3 → 2.** Neither changed here. Full read: `research/2026-11-05_nclh-10q/RESULT.md`.
+**So what (11/5):** the bear read on Norwegian no longer has a liquidity leg through 2027. It rests on ticket price per day, deposit quality and leverage. `VX-CRU-05` held RED(4) that day only because no band letter forced a move. Band re-spec and conviction 3 → 2 recommended; both ruled 11/6, above. Full read: `research/2026-11-05_nclh-10q/RESULT.md`.
 
 ## November 5 — Boot catch-up
 
@@ -37,7 +37,7 @@
 
 **Done under 11/5 rulings:** four WQ-622 themes (`combo:` KB-CRU-233..236) and three predictions, CRU-12..14, packet of IDs to PROME; DOCKET L982..984 carry the three resolutions.
 
-**Waiting on Will:** WQ-640, his ruling on the draft `VX-CRU-05` cells (registered by PROME 11/6, due 11/17; options A adopt now, B apply from the Q4 print, C change the lines). CRUISE writes `workbook/VX.tsv` only after PROME's packet with his word. WQ-628 is done.
+**Waiting on Will:** nothing on this desk. WQ-628 and WQ-640 are done.
 
 *October 28 and October 29 session sections → `domain/sources/STATUS_archive_2026-11-06.md`. Grades: `WATCHLIST_NCLH_Q3.md`, `WATCHLIST_RCL_Q3.md`.*
 
@@ -71,13 +71,13 @@
 
 | # | Target/Vector | Score | Status | Key Signal | Upgrade Trigger |
 |---|--------------|-------|--------|------------|-----------------|
-| 1 | NCLH relative weakness (`VX-CRU-05`) | 4 | 🔴 | **HELD 11/5**: funding leg clean through 2027 on an endpoint test (liquidity ~$1.4B, breakeven −12.7%/yr). RED rests on leverage **5.5x** and deposits flat on +5.43% capacity. Draft cells at WQ-640, RED(4) holds until he rules | NCLH guides down · leverage keeps climbing with deposits falling · 11/17 springing test fails |
+| 1 | NCLH leverage and deposits against capacity (`VX-CRU-05`) | 3 | 🟠 | **RED(4) → ORANGE(3) 11/6, WQ-640 A**: leverage **5.5x** ORANGE, deposit gap **−5.59pp** ORANGE (9/30 prints). Rule outcome; funding leg clean through 2027 on an endpoint test | Q4 print: leverage ≥6.0x or gap ≤−8.01pp, either alone → RED(4). Outside the row: 11/17 springing test fails (L715); NCLH guides down (`VX-CRU-03`) |
 | 2 | Consumer demand K-shape (`VX-CRU-03`) | 2 | 🟡 | ⛔ **Exit rule 1 limb 1 FIRED 10/29** — NCLH raised; all three Big-3 raised FY26. **RED(4) → YELLOW(2)**. Soft points remain: NCLH ticket revenue per capacity day −9.98%, CCL North America ticket −$40M | −20% booking-pace print · a Big-3 FY yield guide-down |
 | 3 | CCL stock stress (`VX-CRU-01`) | 2 | 🟡 | November 5 **−12.94%** on fixed raw basis; **ORANGE → YELLOW 10/27** (close above $27.192). Signed band-cell ambiguity remains open | Close ≤ $27.192 → ORANGE; ≤ $22.0935 → RED; no new inclusivity |
 | 4 | Fuel cost line (`VX-CRU-02`) | — | — | **OBSERVATION line since WQ-532 A (10/29)**: no colour, no weight. CCL Q3 $826/mt actual, $0.007/sh fuel hit; NCLH Q3 $819/mt | — (any future fuel trigger is a new registration through PROME) |
 | 5 | Gulf/Red Sea → Big 3 (`VX-CRU-04`) | 2 | 🟡 | **One identified NCL Sky itinerary**, cancellation reported August 5, detected October 25; operator guest statement read through trade press (B2); total-basket completeness/denominator unmeasured | Existing1–5 band; one cancellation trigger FIRED |
 
-**Summary: 10/20 across four scored vectors** (10/29: `VX-CRU-03` −2 on exit rule 1 limb 1; `VX-CRU-02` removed from the score by WQ-532 A; was 14/25 across five on 10/28). ⛔ **Both falls are rule outcomes, not a calmer world**; the remaining elevated vector (`VX-CRU-05`) is NCLH-specific. Earlier history: 15/25 on 10/25, ~19/30 across six on 9/20.
+**Summary: 9/20 across four scored vectors** (11/6: `VX-CRU-05` −1 on WQ-640 A, was 10/20; 10/29: `VX-CRU-03` −2 on exit rule 1 limb 1; `VX-CRU-02` removed from the score by WQ-532 A; was 14/25 across five on 10/28). ⛔ **All three falls are rule outcomes, not a calmer world**; the remaining elevated vector (`VX-CRU-05`) is NCLH-specific. Earlier history: 15/25 on 10/25, ~19/30 across six on 9/20.
 
 ---
 
@@ -128,4 +128,4 @@
 
 ## BOTTOM LINE
 
-All three big operators have raised this year, so this desk's split-operator demand thesis is dead on its own rule, and the fuel thesis died in September. The Norwegian 10-Q, read 11/5, also removes the liquidity leg through 2027: actual cash and revolver room were about $1.4B, ratings held, and the November 17 test should pass by about $0.5B even on a harsh case, though nothing certifies it until the date. What remains is a narrower Norwegian read on ticket price per day, deposit quality and 5.5x leverage. Will lowered NCLH to WATCH 2 with no trade card on 11/6. The vector holds RED(4) until he rules on the draft leverage and deposit cells. Those cells would read ORANGE(3) today, and on this desk's arithmetic RED(4) again at the Q4 print, as leverage passes 6.0x on the company's own earnings guide.
+All three big operators have raised this year, so this desk's split-operator demand thesis is dead on its own rule, and the fuel thesis died in September. The Norwegian 10-Q, read 11/5, also removes the liquidity leg through 2027: actual cash and revolver room were about $1.4B, ratings held, and the November 17 test should pass by about $0.5B even on a harsh case, though nothing certifies it until the date. What remains is a narrower Norwegian read on ticket price per day, deposit quality and 5.5x leverage. Will lowered NCLH to WATCH 2 with no trade card on 11/6. He also adopted new leverage and deposit cells for the Norwegian row, which moved it from RED(4) to ORANGE(3) and the desk to 9/20. That is a rule change, not a calmer company: on this desk's arithmetic the row returns to RED(4) at the Q4 print, as leverage passes 6.0x on the company's own earnings guide.
