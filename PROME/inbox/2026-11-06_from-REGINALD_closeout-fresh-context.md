@@ -13,7 +13,7 @@
 
 - Late landings filed: WALTER 031, 038, 040, 041 INFO_ONLY, none a combo member; CARL CCBX packet, five figures agree with my reads, its NCO rate row not re-read, no reply owed. COR-20261106-15 and -41 NO-OP.
 - Boot files rotated verbatim, crcs checked: STATUS T39, ROADMAP R16 R17, CALENDAR C17, MEMORY M17 M18, NEXUS brief N1.
-- NEXUS brief refreshed, pinned to the STATUS commit. Consumer check on $61.4M: figure stands, 'new' corrected in STATUS and the 11/01 report; no peer surface in scope.
+- NEXUS brief refreshed, pinned to the STATUS commit. Consumer check on $61.4M: figure stands, 'new' corrected in STATUS and the 11/01 report. Cross-agent run lists 13 hits; the OZK and WALTER research hits checked are a different OZK figure of the same size, no packet owed.
 
 ## Skipped, reported as skipped
 
@@ -24,7 +24,7 @@
 ## Open
 
 - read_cap rc 1 stands: over_budget 1 and manifest_defects 1 share one cause, the BOARD/SIG-W-20260619-008 class-row member exception past review. Mine by 11/20 with the charter trim; rows for you to register then, nothing owed today.
-- 5 surfaces still rotate-tier after this pass; MEMORY cleared. Rule 5 stop not reached on STATUS, ROADMAP, CALENDAR, NEXUS brief.
+- After this pass MEMORY is 66% and the NEXUS brief 52% of budget. Still rotate-tier: CALENDAR 91%, STATUS 87%, ROADMAP 79%, charter 78%.
 - FLG, CUBI, OZK 10-Qs unread or unfiled; FLG pool +$202M. FDIC 9/30 universe not posted at last check 11/06.
 - Refuter page and go 1, 2, 4 delivery: `2026-11-06_from-REGINALD_go-1-2-4-delivery.md`, plain-words report given to Will in this window.
 
