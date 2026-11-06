@@ -320,3 +320,64 @@ Not LIQUID's to grade, print supplied only: VIOLET credit-flat (HY 5-session 326
 Cross-currency basis, swap spreads, prime-brokerage margin, repo haircuts and Treasury bid-ask are not reachable from this box. Commercial paper, the OFR index and swap lines stop at November 4, so they cannot show November 5. H.4.1 next prints November 12. Calm repo does not clear private or offshore channels. If leveraged funds were being squeezed on November 5, margin and haircuts would show it first, and those are the ones I cannot see.
 
 ETF percentages are raw closes; yfinance's dividend file stops at September here, so an ex-dividend date inside the window is not ruled out.
+
+### 15.7 MAIN 10-Q and the final Q3 BDC card (written 14:19 ET November 6)
+
+10-Q accepted 11:46 ET November 6, accession 0001396440-26-000159. Figures are as of September 30, filing-primary.
+
+| Metric | Q2 | Q3 | Change |
+|---|---:|---:|---:|
+| NAV per share | 33.92 | 34.22 | +0.88% |
+| FV/Cost, 5,800,369 / 4,958,925 | 1.1551 | 1.1697 | +1.46 pp |
+| Non-accruals, % fair value | 1.1 | 0.9 (3.5 at cost) | |
+| Regular dividend | $0.265 monthly | $0.265 through December, plus $0.30 supplemental declared November | held |
+| P/NAV, Q3 NAV on the 11/04 close of 57.62 | 1.718 (8/23 card) | 1.684 | |
+
+The 10-Q does not contradict the release, so the card is **FINAL: no verdict line is met in full.** CONFIRM is closed on all three routes. REFUTE is not met: BXSL, GSBD and MAIN FV/Cost moved outside ±0.5 pt, GSBD non-accruals rose, and P/NAV fell on all six. MIXED is the nearest and is met in part only: GSBD marked down while MAIN and ARCC held, but FSK did not mark down (NAV −0.11%, FV/Cost up). No X1 half, no sizing, no fire. MIXED's letter routes names to REGINALD and CARL; asked of WALTER as INFO, marked partial.
+
+⚠️ FV/Cost is composition-sensitive at MAIN too, with cost up $234.4M since December 31. My reading, not the filing's: a ratio above 1 mostly reflects holdings above cost, so this rise is weak evidence on debt marks.
+
+### 15.8 WALTER card SIG-W-20261106-029, ACTION LIQUID (written 14:19 ET November 6)
+
+Asked: read IREN's $6B target financing and Oracle's position under its offering price. Read at filings. No gate, level or count moved. IREN's call and Bloomberg's Oracle article remain unread.
+
+**IREN (8-K EX-99.1 and 10-Q, November 5).**
+
+| Fact | Figure, basis |
+|---|---|
+| Remaining planned FY27 capex from September 30 | $15B: $9B cash and committed; $6B target "subject to market conditions" |
+| What the $6B is | GPU financing, prepayments, data center financing and other corporate level sources, "to drive future capacity targets" |
+| What "fully funded" covers | Only the 0.3 GW program behind the >$4B ARR, and subject to funding conditions, escrow release and availability periods (note 5) |
+| My sum toward the $9B, IREN does not itemize | Cash 3.522 + restricted 2.256 + undrawn GPU 1.0 of 1.657 + undrawn GPU 2.0 of 1.500 = $8.935B, before prepayments not yet received |
+| Size against equity | $6B = 65% of about $9.18B market value (424.36M shares [October 30] × $21.63 Yahoo intraday 14:15 ET) |
+| At-the-market | About $3.7B of $6B used through October 30, about $2.3B left on this supplement; the board can raise it |
+| Cost ladder | GPU 1.0, Microsoft-backed: SOFR+225 and 5.96%. GPU 2.0: 9.0%, 30-month amortization. GPU 3.0: 9.51% |
+| Dated term | GPU 2.0's $1.5B is available through December 31, 2026, funded on GPU acceptance at Mackenzie |
+| Commitments | $18,947M, from $13,810M at June 30; some cancellable with charges |
+| Debt principal | $10,041M: $8,061M recourse (derived), $1,980M non-recourse; converts $6,746M mature December 2029 to December 2033 |
+| Quarter cash | Operations +$529M, investing −$5,146M, financing +$2,779M; cash plus restricted −$1,838M |
+| Covenants | Compliant September 30. Guarantees carry no financial maintenance covenants; GPU 2.0 cross-default on payment; GPU 3.0 cross-acceleration above $500M |
+
+**So what.** Nothing here shows financing refused, and the $6B is not the money behind the $4B run-rate; WALTER's "weeks, not lost" reading holds. The open part is that 40% of the plan has no commitment behind it, and it is too large for equity alone at this price. GPU paper outside the Microsoft contract has cost 9.0% to 9.51%, against 5.96% on the Microsoft-backed notes. IREN also says it may commit to GPUs before arranging financing, in some cases before signing customers.
+
+**Watch, my inference:** IREN blamed "supplier timing" in part, and GPU 2.0's undrawn $1.5B ends December 31. The filing does not say Mackenzie is affected. Separately, Microsoft's change extends delivery dates without delay credits, with fees, credits and cost reimbursements still under discussion, and $525M of USPP tranche 3 sat in escrow at October 1, bearing interest. **Counterevidence:** a five-year contract with the customer prepaying 90% of GPU capex, and H100s at double earlier pricing, both company-stated after quarter end; 10-Q says liquidity is adequate for 12 months.
+
+**Oracle (424B2, 424B5, term sheet November 2; 8-K November 4; release October 28).**
+
+| Fact | Figure, basis |
+|---|---|
+| Equity | 86,206,897 shares at $116, about $9.9B net, closed November 4 |
+| Notes | $10B closed November 4. Spread to Treasury at pricing: +240 (2029), +275 (2031), +305 (2033), +310 (2037), +335 (2046); yields 7.062% to 8.667% |
+| Ratings in the term sheet | Baa2 negative, BBB− stable, BBB stable, "expected", November 2 |
+| Index on pricing day | BB 206, BBB 117 OAS [November 2, first-published]; a different basis from a new-issue spread |
+| Closes against $116 | 126.19 [November 3], 123.73 [November 4], **115.16 [November 5], −0.72%** |
+| November 6, Yahoo intraday, not a close | Low 109.21, −5.85%; 115.33 at 14:15 ET, −0.58% |
+| Debt | $125.3B actual, $135.3B as adjusted [August 31 base]. Not reconciled to the ~$160B S&P July figure in `ORCL_FALLEN_ANGEL_MAP.md` |
+| Company lock-up | 60 days from November 2, to about January 1, 2027, with carve-outs including up to 5% of shares for acquisitions |
+| Oracle 5Y CDS, DTCC | Disseminated 292 [November 4] to 305 [November 5]; converted 290 to 311, last 306 at 21:47Z. Converted figures are approximations |
+
+**So what.** Being under $116 has no contractual effect: this is plain common stock, and a term search finds no reset. It matters for the next raise, and there is meant to be no next raise. On October 28 Oracle committed to limit new capital-markets money for FY27 to FY30 to $20B, $10B equity and $10B gross debt, excluding refinancing, on top of the $20B at-the-market raise. By November 4 both halves were closed, in 7 days. So its stated plan has no new public money left through FY30. What remains is what it named: vendor financing, customer-provided hardware, customer prepayments, then positive free cash flow from the second half of FY28. Any extra public raise would break a one-week-old pledge, so that is the fact to watch.
+
+CDS rose 13 bp on the disseminated basis in the session the stock fell 6.9%. That is above the 288 bp [October 15] that card 029 cites. The "3.25%" claim is unsupported through November 5, but the November 6 file publishes about 20:15 ET, so today is untested, not refuted.
+
+**Gates.** 072: Oracle is the issuer already scored, so its wide pricing is no new instance. Its pricing spreads are all above BB OAS, on different bases. 069 L5: the term sheet shows no R1 as of November 2; agency primaries remain inaccessible and nothing after November 2 is tested. Secondary bond levels are unmeasured here, since TRACE is not reachable.

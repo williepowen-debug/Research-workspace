@@ -763,3 +763,12 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T10:18:50-05:00	SIG-W-20261106-008	noted	INBOX_WALTER	Walleye, Engineers Gate October losses; no closures. Logged to combo:levered-fund-deleveraging. October, predates November 5.
 2026-11-06T10:18:50-05:00	SIG-W-20261106-011	noted	INBOX_WALTER	HENRY close grade, gamma negative on all three indices. HENRY says nothing on credit; context for REPORT 15.
 2026-11-06T10:18:50-05:00	SIG-W-20261106-012	acted	INBOX_WALTER	WALTER card on HY 348. Own line graded: Gate 069 L4 FIRED November 5 on official closes, routed. Other lines are their owners.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-014	info-only	INBOX_WALTER	Cable One chain. BROCK's lane; no LIQUID line touched.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-016	noted	INBOX_WALTER	VIOLET credit-flat row met by 3 bp on my 348 print. VIOLET's judgment; context only.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-017	info-only	INBOX_WALTER	Jobs reaction, December hike odds. No funding line touched; vendor and press yields, not closes.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-019	noted	INBOX_WALTER	Nomura leveraged-ETF estimate logged to KB-LIQ-156. No bank failure or new gate found, weak negative.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-024	noted	INBOX_WALTER	Samlyn pivot logged as counterevidence on KB-LIQ-156. Walleye rumor not a member.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-029	acted	INBOX_WALTER	ACTION read done at filings, REPORT 15.8. IREN 6B target and Oracle under 116 read; no gate moved; packets to VULCAN and WALTER.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-030	noted	INBOX_WALTER	OpenAI round terms logged to KB-LIQ-153. VULCAN and SAM own them.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-031	noted	INBOX_WALTER	ECB data-centre lending review logged to KB-LIQ-153, not final. HANS owns any row.
+2026-11-06T14:20:03-05:00	SIG-W-20261106-032	noted	INBOX_WALTER	MFIC non-accruals logged to KB-LIQ-155; not a card name, moves no card line.
