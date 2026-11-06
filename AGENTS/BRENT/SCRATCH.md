@@ -37,5 +37,6 @@
 - None from BRENT. USO Oct-28 and Oct-30 165C outcomes stay UNKNOWN pending Will's Activity (FORGE D-90); no reminders (USER.md). PENDING guard 11/6: 1 elapsed expiry row, FORGE last changed 11/5, CHECKED-AT-ARTIFACT-AND-STILL-OPEN.
 
 ## MAIL STATE
-- Inbox clear; WALTER lane clear as of 2026-11-06 18:3x EST. This session 7 consumed, 7 ledger rows, 7 moved (FALCON, ORACLE twice, cards 043, 046, 047, 048).
+- Inbox clear except card 053, as of 2026-11-06 18:3x EST. This session 7 consumed, 7 ledger rows, 7 moved (FALCON, ORACLE twice, cards 043, 046, 047, 048).
+- Card 053 read and COR-20261106-53 receipted NO-OP; DEFERRED filing: WALTER had not committed it, so no ledger row or move yet. Next boot: log it, `git mv` it to `inbox/WALTER/processed/`.
 - Outbox: no open packet.
