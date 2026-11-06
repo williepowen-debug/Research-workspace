@@ -484,3 +484,5 @@ Schedule IV totals $600M because it lists both groups; Class B Maximum stays $30
 **Tape.** HTZ 2.26 → 1.79 [November 5, Nasdaq official, results day and S&P −4.36%] → 1.64 [November 6, vendor], −27.4% in two sessions. Cause not established.
 
 **What it does not show.** No amortization event or default: the literal phrase is absent from the 10-Q body, and Exhibit 10.2 only defines rapid amortization, so nothing shows one began. No forced fleet supply in Q3, OTTO's read. Tricolor and the James adjournment are OTTO's; no LIQUID action. Card 049 (Michigan, interviews ended November 2) is context only.
+
+**ISHM packet, read after this section was committed.** October Class 8 orders fell: ACT 13,500, −45% y/y, FTR 15,600, −36% y/y, both preliminary and issuer-attributed to regulatory uncertainty; rail stayed firm. No ISHM J2 condition fires and ISHM asks nothing. LIQUID reads no gate on it; HY has widened well past ISHM's 25 bp base-rate bucket for reasons not tied to freight here, so I give no credit read from this print. ISHM's next J2 leg is Cass, November 13.
