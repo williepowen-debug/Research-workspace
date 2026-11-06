@@ -93,7 +93,7 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-06T15:23:52Z",
+  "as_of": "2026-11-06T16:09:27Z",
   "next_review": "2026-11-09",
   "publication": [
     {
@@ -115,13 +115,23 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
       "commit": "b3b413c6284c83ec302ee7884410d7d099333ac4",
       "state": "published",
       "note": "Cards 013-015. Reached origin on another desk's push."
+    },
+    {
+      "commit": "d20a2f58a2a6d0532db4af4537f1938fb08982a0",
+      "state": "published",
+      "note": "Card 016."
+    },
+    {
+      "commit": "e7928a4e9fa1607a91282f1689c25ab4709863e3",
+      "state": "pending",
+      "note": "Cards 017-019."
     }
   ],
   "delivery": {
     "signal_date": "20261106",
-    "total": 66,
-    "delivered": 66,
-    "note": "All November 6 handoffs reconcile by origin proof; recipient use separate."
+    "total": 84,
+    "delivered": 69,
+    "note": "Delivery proof by origin only; recipient use separate."
   },
   "owner_review": {
     "scope": "manual evidence review; no automatic completion",
@@ -132,7 +142,7 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
       },
       {
         "path": "AGENTS/WALTER/research/2026-11-06_boot/CALENDAR-RECONCILIATION.tsv",
-        "sha256": "b7913b697c7612da41a4ceea0776b9eb1b2ec2a14f76644fa69f2b4299666883"
+        "sha256": "0cedd693733768c6d40fd2c0dd5b0b8625297d760bba57d89fe360c126f0edc3"
       },
       {
         "path": "AGENTS/WALTER/research/2026-11-06_boot/BOOKMARK-REVIEW.md",
@@ -146,7 +156,7 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
     "session": "OPEN; no unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-015. Batch BM-20261106-01 closed.",
+    "11": "Cards 001-019. Batch BM-20261106-01 closed.",
     "13": "REGISTRY refreshed for WALTER, LABOR, CYPHER, REGINALD, PROME before NETWORK.",
     "12(a,b)": "Counts and NETWORK refreshed.",
     "12(c)": "BALANCED baseline; labor window lapsed.",
