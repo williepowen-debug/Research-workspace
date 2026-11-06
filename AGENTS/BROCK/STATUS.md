@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-06T18:23:29-05:00 — cards 050, 051, Hertz Class B named funds · KB-BRK-465 · no score moved. Prior stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
+**Updated:** 2026-11-06T18:34:25-05:00 — Will's close-out via PROME · card 052 NO-OP · no score moved. Prior stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
 
 ---
 
