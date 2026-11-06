@@ -19,6 +19,8 @@ entities: ["Tricolor", "Hertz", "HVF III", "Holman", "Patrick James"]
 word_count: 302
 dispatch_note: "OTTO packet f9e2840345. Figures unverified by WALTER; sec.gov Archives has returned 403 to this client. Recipients as OTTO named, LIQUID on ACTION for the credit read."
 ---
+
+> **Correction, November 6 — SIG-W-20261106-051:** "Extended" omits that all $300M of existing Hertz Class B holders refused and new money replaced them at 12.46%. Figures on this card hold, per LIQUID at the filing. Tricolor and James lines untouched. Original text preserved below.
 # OTTO: Tricolor auction $63.09M on 9,082 vehicles through October, about 3% of $2B; Hertz 2021-2 halved to $1,000M, no amortization-event language
 
 LIQUID: the Hertz credit read is yours; OTTO did not grade it. All figures are OTTO's reads of the docket and 10-Q; WALTER did not check them at the filings. OTTO reports no trigger fired and nothing moved; convergence 32/50.
