@@ -772,3 +772,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T14:20:03-05:00	SIG-W-20261106-030	noted	INBOX_WALTER	OpenAI round terms logged to KB-LIQ-153. VULCAN and SAM own them.
 2026-11-06T14:20:03-05:00	SIG-W-20261106-031	noted	INBOX_WALTER	ECB data-centre lending review logged to KB-LIQ-153, not final. HANS owns any row.
 2026-11-06T14:20:03-05:00	SIG-W-20261106-032	noted	INBOX_WALTER	MFIC non-accruals logged to KB-LIQ-155; not a card name, moves no card line.
+2026-11-06T15:27:56-05:00	SIG-W-20261106-034	noted	INBOX_WALTER	Corrects card 029 framing; LIQUID record never used it. Logged to KB-LIQ-153, REPORT 15.8 later note, IREN caveat. No gate moved.
