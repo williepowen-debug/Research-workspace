@@ -76,3 +76,10 @@
 - ⛔ **Stop declaring closure.** Four review passes in one session each caught a "complete / corroborated / reconciled / all-fixed" claim that was partial. Report what is CORRECTED and what stays OPEN, separately; never call a multi-part correction "done." `[[finding_crash_residue_over_claims_toward_completion]]` · `[[finding_a_correction_pass_is_unreviewed_work]]`
 - ⚠️ **After a correction, watch for the OPPOSITE error.** Same session: I over-reassured ("production fine"), was corrected, then over-argued the upgrade ("end-Aug data means worse now" — unsupported; IIR showed the series was *non-monotonic*). A correction is not a licence to swing the other way; state only what the evidence carries, in either direction. Uncertainty is not a thumb on the scale for the newly-favoured conclusion.
 - ⚠️ **An upgrade needs its reversal defined in the same breath.** Upgrading a score on a NEW instrument (capacity-offline) leaves the written downgrade limb (runs-based) unable to reverse it — an exit leg with no matching entry. Specify the same-instrument downgrade test when you propose the upgrade. `[[finding_an_exit_legs_justification_expires_unwatched]]`
+
+## 12. [2026-11-06] ★ A QUERY KEYED ON THE RULE'S OWN WORD MISSES THE FACT THAT UNDERCUTS THE RULE
+**What happened.** On 11/2 and at boot 11/6 I searched for a "capacity offline" aggregate, the word in §1b, found none, and wrote "band ~30% unchanged." Reuters and Kpler had both published on 10/28 that runs were back to about 5 M bpd, which puts the same proxy the band is built on near 6-9% for late October. Nine days, two sessions, and I told Will the estimate "stays around 30%" this morning. It surfaced only when I searched for runs instead of offline capacity.
+**Rule:**
+- The canonical band is a RUNS proxy, so every session that repeats it searches for RUNS, not for the name of the leg that cannot be read.
+- "Unchanged" on a mark whose inputs you did not re-pull is LESSONS 11 again: unmeasured, not stable.
+- State a stale band as stale in the same sentence as the number, even when you may not move it.
