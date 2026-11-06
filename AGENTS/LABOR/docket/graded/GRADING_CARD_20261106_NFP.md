@@ -249,6 +249,8 @@ The rule fired on its letter and it stands. What the letter does not see:
 
 The letter says "stand down vectors 4/6/7" and names no score. I set each to the scale's floor (**1 ⚪, dormant**), the only scale value that means a vector no longer counts: v4 2 → 1, v6 3 → 1, v7 2 → 1. With v17 2 → 1 the total goes **27 → 22/80** (`−1 −1 −2 −1 = −5`). If the scores were only flagged and held, the total would be 26/80. **No re-arm letter exists; none is written here.** Each vector's own letters keep printing as a record, and re-arming needs Will. ⚠️ v6 is the vector whose own data did not improve (27.6%, up from 27.1%): the kill overrides it, it does not refute it.
 
+**RULED 2026-11-06, WQ-634 A (Will, about 14:05 ET, marked here 14:07 ET, record `PROME/proposals/2026-11-06_wq627-628-629-634-RULED.md`):** the floor of 1 stands, 27 → 22/80, and 26/80 is retired as an open alternative. Long-term unemployment worsened to 27.6%: the rule overrides that line, it does not refute it. No re-arm rule exists; adding one needs his word.
+
 ## 8.5 Travels
 
 | Item | Route | Receipt |
