@@ -170,3 +170,23 @@ Partition: `M ≥ 100 / 50 ≤ M < 100 / M < 50` is a true complement on M at 1K
 ## 8. GRADE (write 2026-11-06 off this frozen card — never re-read a band)
 
 *Blank until print. Order: ① confirm §2.4 carries the 11/3 LEG C result · ② read revised `A'`, `S'`; re-solve §2.2 and §3e before reading October · ③ grade §3a–§3f as separate letters, CES and CPS named as two witnesses · ④ apply §3g, record §3h · ⑤ write into STATUS (KEY THRESHOLDS, matrix, EXIT RULES, PREDICTIONS, calendar), `git mv` to `docket/graded/`.*
+
+### 8.0 Re-solve on the published revisions, written and committed BEFORE reading October
+
+Source: BLS *The Employment Situation — October 2026*, USDL-26-1632, revisions paragraph, read from the saved release text (saved 2026-11-06 09:50 ET). Only the header and that paragraph had been read when this block was written.
+
+| Input | 10/2 vintage | As published 11/6 | Revision |
+|---|---|---|---|
+| `A'` August | +133K | **+186K** | +53K |
+| `S'` September | +29K | **+60K** | +31K |
+| `A' + S'` | 162 | **246** | +84K |
+
+| Formula | Frozen illustration | Re-solved |
+|---|---|---|
+| §2.2 LEG A `X ≥ max(150, 300 − (A' + S'))` | +150K | `300 − 246 = 54` ⇒ **bar +150K**, single-month leg binds |
+| §3a band edges | 3a-1 ≥150,000 | unchanged |
+| §5a v17 → 1 `X ≥ 300 − (A' + S')` | +138K | **X ≥ +54K** |
+| §5a v17 → 3 `X < 150 − (A' + S')` | −12K | **X < −96K** |
+| §2.1 Kill A `A' ≥ 200 ∧ S' ≥ 200 ∧ X ≥ 200` | cannot fire unless both revise | `186 < 200` and `60 < 200` ⇒ **cannot fire on this print, whatever X is** |
+| §3e `(A' − 133) + (S' − 29)` | n/a | `53 + 31 = +84 ≥ 0` ⇒ **v8 counter 0 → 1 of 2** (no October input) |
+| §3h third estimate vs watch lines +73.5K / +183.5K | n/a | `186 > 183.5` ⇒ **reported as >1 SD above the measured bias**, ALFRED `20261106` to confirm |
