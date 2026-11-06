@@ -56,6 +56,8 @@ Model-specific Fable guidance is conditional; Codex follows current session tool
 
 - **M87:** [2026-10-28] A row-PREFIX match (`startswith("| 3 |")`) hits every table in the file that numbers its rows the same way: a matrix-cell edit overwrote the score histogram, and Check B caught it (9 hard) before commit. Key table edits on a unique cell (vector name), assert exactly one match, and re-run consistency_check before any commit.
 
+- **M88:** [2026-11-06] A re-mark's date must name the MARK. `25% (was 60) - leg-1 failed 7/21` dated the event, so WQ-112(ii) read it as undated and CRL-21 scored at first-call 60%, the CRL-16 result. Write `N% (was M - YYYY-MM-DD reason)` in the Confidence cell. Before saying a row scored at a mark, test that mark.
+
 ## Ownership and references
 - Current data → STATUS; next actions/approvals → SCRATCH; open investigations → ROADMAP/ROADMAP_THREADS; dated catalysts → docket/CATALYSTS.tsv and human twin; models/grades → thesis/THESIS.md and PREDICTIONS.tsv; thesis changes → CHANGELOG.
 - Root/current CLAUDE controls source availability, Git and routing. Check consistency without warn-only at closeout; a push is delivery evidence, not proof all duties ran.

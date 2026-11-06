@@ -12,7 +12,7 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 **Will, about 13:12 ET, verbatim:** *"632 - We can close this but we should still have the agent record the missed prediction so we can further learn and calibrate"*. Record `PROME/proposals/2026-11-06_wq631-632-636-RULED.md`. CRL-21 stays MISSED; no reversal was asked.
 
-**Old view:** the miss sat at 25% with no stated cause and an open position clause. **New view:** cause recorded, both marks scored, clause closed by Will.
+**Old view:** the miss sat at 25% with no stated cause and an open position clause. **New view:** cause recorded, both marks scored, clause closed by Will, and the row scores at first-call 60% (ruled below; the entry after this one still says "scored at 25%", superseded here).
 
 **Clause closed, not fired.** Trim 25% and extend duration to Q2-2027 or later: not executed, no card. The three homes disagreed on whether the condition was met, and that coexistence stays visible; no letter was rewritten.
 
@@ -37,12 +37,12 @@ The older roll plan in THESIS § Trade Duration Implications (Path A, "contingen
 
 | Book | Mark | Dated | Commit | Brier |
 |---|---:|---|---|---:|
-| First-call | 60% | 2026-05-01 | 41a3ba284 | **0.3600** |
-| Latest mark, as booked | 25% | 2026-07-24 | 174cb66e4 | **0.0625** |
+| First-call, SCORES | 60% | 2026-05-01 | 41a3ba284 | **0.3600** |
+| Walked mark, does not score | 25% | landed 2026-07-24 | 174cb66e4 | **0.0625** |
 
-⚠️ **Open, flagged to PROME, not moved:** under WQ-112(ii) a re-mark counts only with its date in the machine field. This Confidence cell, `25% (was 60) - leg-1 failed 7/21, ...`, dates the leg failure, not the mark. CRL-16, same form `35% (was 60)` with the same dated Notes line, was ruled undated on 9/24 and scores at first-call. If that ruling reaches this row, 60% governs and the row's Brier is 0.3600, not 0.0625.
+**Re-marked 2026-11-06, PROME's ruling (`inbox/processed/2026-11-06_from-PROME_CRL21-scores-at-60.md`), applying WQ-112(ii) as written; no rule changed; Will may undo it by naming it.** A re-mark counts only with its date in the machine field. The Confidence cell, `25% (was 60) - leg-1 failed 7/21, ...`, dated the leg failure, not the mark. CRL-16, same form `35% (was 60)` with the same dated Notes line, was ruled undated on 9/24 and scores at first-call. So 60% governs: row Brier 0.3600, not 0.0625. Status stays MISSED. The old cell text is kept inside the new one. DAEDALUS owns the aggregate, and PROME has asked it.
 
-**Not moved:** matrix 53/70, every vector, band, threshold and card, every other prediction, CRL-21's status and booked mark.
+**Not moved:** matrix 53/70, every vector, band, threshold and card, every other prediction, CRL-21's status. Only this row's scoring mark moved.
 
 ## 2026-11-06 — CRL-21 RESOLVED MISSED; CRL-33 to CRL-36 registered (no version or score change)
 

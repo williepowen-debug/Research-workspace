@@ -95,6 +95,8 @@ MISSED does not change: it rests on the hit condition, which ±25 does not touch
 
 **Addendum 2026-11-06 13:21 ET: closed.** Will closed the position clause about 13:12 ET with no action, WQ-632 (`PROME/proposals/2026-11-06_wq631-632-636-RULED.md`). The trim and duration legs were not executed. Failure pattern and calibration: row Notes, KB-CARL-595.
 
+**Addendum 2026-11-06 13:24 ET: scoring mark.** The grade stays MISSED. PROME ruled that WQ-112(ii) reaches the row: the 25% cited in this file was undated in the machine field, so the row scores at first-call 60%, Brier 0.3600.
+
 ## 5. Correction to CARL's 10/26 review
 
 ALLY_RITM_GRADE.md said the Q2 10-Q origination-year table was "a snapshot of balances/DQ by origination year" and graded the row STUCK as an "instrument/publication gap". **That was incomplete.** The same Note has carried gross charge-offs by origination year since the 2023 filings, and AART 2023-1, 2024-1 and 2024-2 were reachable for a same-month CNL match. A true statement (no published lifetime projection) carried a false conclusion (no measurable comparison). The search stopped at the first table that looked like the answer. No figure in that review is wrong; its conclusion is withdrawn. M68 extended.
