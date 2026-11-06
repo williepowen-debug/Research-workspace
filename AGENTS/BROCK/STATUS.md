@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-06T10:19:52-05:00 — WQ-626 A wake, L965: **L876 CABO BLOCKED-BY-ORDER FINAL on the 10-Q** (KB-BRK-440/441, NYSE non-compliance stated) · HY 348 [11/5], ladder row 10 NOT FIRED, CCC/BB fell, not my signal (KB-BRK-438/439) · call PARTIAL (KB-BRK-442) · BRK-37/38 registered · five combo themes. Narrative: `catchups/2026-11-06.md`.
+**Updated:** 2026-11-06T10:22:59-05:00 — WQ-626 A wake, L965: **L876 CABO BLOCKED-BY-ORDER FINAL on the 10-Q** (KB-BRK-440/441, NYSE non-compliance stated) · HY 348 [11/5], ladder row 10 NOT FIRED, CCC/BB fell, not my signal (KB-BRK-438/439) · call PARTIAL (KB-BRK-442) · BRK-37/38 registered · five combo themes. Narrative: `catchups/2026-11-06.md`.
 
 ---
 
