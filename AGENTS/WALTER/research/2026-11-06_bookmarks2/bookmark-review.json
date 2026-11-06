@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "staged_at": 1793982705.381657,
+ "items": [
+  {
+   "id": "2118389867394855138",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118399676546523153",
+   "disposition": "FOLD",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118536096623571052",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118727858860511661",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118738611311157705",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118738525776474542",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118413664000544820",
+   "disposition": "NO-ACTION",
+   "read_state": "partly_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118725078645100707",
+   "disposition": "NO-ACTION",
+   "read_state": "fully_read",
+   "follow_up": null,
+   "ask_user": null
+  },
+  {
+   "id": "2118723435857690805",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118509607710765292",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  },
+  {
+   "id": "2118711752980386075",
+   "disposition": "DISPATCH",
+   "read_state": "partly_read",
+   "follow_up": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md",
+   "ask_user": null
+  }
+ ],
+ "stage_id": "ca9d7eed1ec5457596b4b209d8d0759b"
+}

@@ -1,13 +1,53 @@
 {
-  "kind": "fetched",
-  "checked_at": "2026-11-06T16:22:27Z",
-  "items": 8,
+  "kind": "marked",
+  "checked_at": "2026-11-06T16:34:01Z",
+  "items": 11,
   "scan": {
-    "checked_at": "2026-11-06T16:22:27Z",
-    "head_checked_at": "2026-11-06T16:22:27Z",
+    "checked_at": "2026-11-06T16:31:45Z",
+    "head_checked_at": "2026-11-06T16:31:45Z",
     "head_checked_this_run": true,
     "incomplete": false,
     "attempts": 2
   },
-  "review_recorded": false
+  "review_recorded": true,
+  "read_counts": {
+    "fully_read": 3,
+    "partly_read": 8
+  },
+  "dispositions": {
+    "FOLD": 2,
+    "DISPATCH": 7,
+    "NO-ACTION": 2
+  },
+  "follow_ups": [
+    {
+      "id": "2118536096623571052",
+      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md"
+    },
+    {
+      "id": "2118727858860511661",
+      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md"
+    },
+    {
+      "id": "2118738611311157705",
+      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md"
+    },
+    {
+      "id": "2118738525776474542",
+      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md"
+    },
+    {
+      "id": "2118723435857690805",
+      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md"
+    },
+    {
+      "id": "2118509607710765292",
+      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md"
+    },
+    {
+      "id": "2118711752980386075",
+      "ref": "AGENTS/WALTER/research/2026-11-06_bookmarks2/BOOKMARK-REVIEW.md"
+    }
+  ],
+  "requests": []
 }
