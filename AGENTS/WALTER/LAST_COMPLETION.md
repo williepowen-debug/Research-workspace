@@ -7,6 +7,7 @@ Updated 2026-11-06T22:30:35Z, Claude Code Opus 5.5, session walter-9e on the lap
 1. `git pull --rebase` at root, then ordinary boot.
 2. **Finish the November 6 certification.** Close pass ran at 22:10Z, cards 043–046. Still owed: Cboe VIX and SKEW History and Nasdaq WAL and KRE November 6 rows, unposted at 22:14Z. Apple 20% recheck done, card 046, still unfound.
 2a. **Qeshm, card 047:** two projectiles reported November 6 about 21:55Z, attacker unnamed, not established as a US strike. CENTCOM, UKMTO and Reuters directly not reached. Re-search at next boot; FALCON grades.
+2b. **WQ-646 A (Will 17:44 ET, PROME/proposals/2026-11-06_wq646-647-RULED.md):** FALCON and ORACLE each read Saturday November 7 08:00 ET and Sunday November 8 15:00 ET on their own timers; WALTER routes anything that breaks when they send it, with no WALTER timer or standing watch. Those four reads only; not a standing unattended grant; WQ-388 stays unruled; no score moves without a registered letter.
 3. **Oracle DTCC November 6 file, about 20:15 ET.** Through about 15:50 ET best converted 314, about 318 disseminated basis (LIQUID). It tests November 6 only: 3.25% as a level is already supported on October 20, 342.5 disseminated, and that is the high of LIQUID's window, card 042. LIQUID owns the read; WALTER routes. Not routed by this pass, on PROME's instruction; nothing is scheduled to route it.
 4. **November 9 HY cell, about 10:10 ET.** Prints the November 6 value. HY 348 [Nov 5]; REG-T-04 strict >350 x3 is 0/3, 2 bp away. A value above 350 starts the count. RED's grade on card 012 not verified; TERRY records its HYG line FIRED, unfilled, no order by the desk.
 5. **Iran and Saudi:** next full sweep about November 12; add Saudi, Houthi and Yanbu terms. FALCON owes a read on card 023 (Osprey, cause unknown).
@@ -102,7 +103,7 @@ LIGHT closeout of the close pass. Operational coverage PARTIAL. Publication is n
 <!-- CLOSEOUT_RECEIPT_JSON
 {
   "schema": 1,
-  "as_of": "2026-11-06T22:30:35Z",
+  "as_of": "2026-11-06T22:45:49Z",
   "next_review": "2026-11-09",
   "publication": [
     {
@@ -229,6 +230,11 @@ LIGHT closeout of the close pass. Operational coverage PARTIAL. Publication is n
       "commit": "41b3af67f71cc3964eb2b4793c9447676b4ebbe5",
       "state": "published",
       "note": "Light closeout records."
+    },
+    {
+      "commit": "10c3ce7c2c9add83f5f312e34e31acaf592b6d45",
+      "state": "published",
+      "note": "Cards 047 and 048, correction 043."
     }
   ],
   "delivery": {
