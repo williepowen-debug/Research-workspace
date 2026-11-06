@@ -1,0 +1,24 @@
+{
+  "nominal.csv": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&_format=csv",
+    "captured_et": "2026-11-06T15:53:28.458187-05:00",
+    "status": 200,
+    "bytes": 17444
+  },
+  "real.csv": {
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&_format=csv",
+    "captured_et": "2026-11-06T15:53:28.458911-05:00",
+    "status": 200,
+    "bytes": 7746
+  },
+  "nyfed_rates.json": {
+    "url": "https://markets.newyorkfed.org/api/rates/all/latest.json",
+    "captured_et": "2026-11-06T15:53:28.459334-05:00",
+    "status": 200,
+    "bytes": 1427
+  },
+  "ACMTermPremium.xls": {
+    "url": "https://www.newyorkfed.org/medialibrary/media/research/data_indicators/ACMTermPremium.xls",
+    "note": "10.2MB, re-pullable, not committed; read 2026-11-06 about 15:55 ET by path_vs_longend.py"
+  }
+}

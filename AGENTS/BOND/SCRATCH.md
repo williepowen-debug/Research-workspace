@@ -1,39 +1,34 @@
-# BOND SCRATCH — 2026-11-05 catch-up and closeout
+# BOND SCRATCH — 2026-11-06 October payrolls read
 
-> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2; was 18). Clean-nominal counter 3 (WQ-536 A); auction health 3 since 11/5. **OPEN predictions 5 (BND-33 to 37).** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.46/4.84/5.25 [11/5]; real 10Y 2.60; HY/CCC/IG 332/1297/91 [11/4]; SOFR−IORB +4 [11/4]; FR2004 long-end $146.946B [as-of 10/28]; PMMS 7.18 [11/5], 234bp same-date. VX-BND-17 2, VX-BND-04 2. Refunding bars FROZEN 11/2. THESIS v1.2.13. Vendor close 11/5: S&P −4.4%, December hike about 65% [16:25 evolving bar]; HY estimate near 342, not official.
+> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2, unchanged). Clean-nominal counter 3; auction health 3. **OPEN predictions 5 (BND-33 to 37), none due.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.51/4.86/5.26 [11/6]; real 10Y 2.63; HY/CCC/IG 348/1320/93 [11/5]; SOFR−IORB +2 [11/5]; FR2004 long-end $146.946B [as-of 10/28]; PMMS 7.18 [11/5], 234bp same-date. VX-BND-17 2, VX-BND-04 2. Refunding bars FROZEN 11/2. THESIS v1.2.13. December 76% [15:54 ET vendor bar; HENRY owns, HEN-63 0.70].
 
 ## WHAT I DID
 
-Boot 09:39 ET, status to Will. PROME packet `inbox/processed/2026-11-05_from-PROME_catch-up-to-live-data.md` (7dac94dc1), Will's verbatim word 09:42 ET, verified at the artifact. Will told me to update files and prep closeout 14:00 ET.
+PROME assignment on Will's 15:24 ET word: one bounded session, $0, no paid data, no trade, move nothing unless a registered letter requires it. Boot 15:25 ET; HEAD equal to origin, no pull needed; dirty tree is other desks'.
 
-- **QRA at primary** (`sb0678`, `sb0590`, TBAC `sb0679`/`sb0680`): F1, F3 NOT FIRED (KB-528). Guidance dropped "at least"; TBAC expects increases later in FY27 (KB-529).
-- **F2:** 11/4 read routed to RED, seventh of seven OFF-THE-RUN; carrier to 2/9/2027, metric and cut unchanged (KB-530).
-- **Downgrade:** auction health 4→3 (KB-531). Composite 17.
-- **Calendar:** blind span closed at Treasury's XML; FHLB CFR re-dated to 11/13 (KB-532); month-end bar freeze docketed 11/19.
-- **Credit:** HY 332 [11/4] left the band; VX-07 upgrade NOT MET (KB-533, 539). B's 97th-percentile reading was one day. CCC (KB-534), Holy Redeemer (KB-535).
-- **Data and ledgers:** KB-527, 536; 15 overdue rows dispositioned; WALTER cards consumed, BoE KB-537.
-- **L859:** HOLD, acceptance first, repaired 3036cea01, 24 of 24 mutants, read 2 ACCEPT-WITH-RESIDUE, closed by PROME (KB-538). Residue R1–R6 in `analysis/2026-11-05_catchup/ta_ws_repair_ACCEPTANCE.md`.
-- **Will's "go":** weekly HY primary count (KB-540), BND-33 registered, TERRY ask via PROME. TERRY: no card, WQ-592 stays declined; a real composition failure 11/12 would be a fresh build that day (680d8ef26).
-- **Audit:** Will's "are we feeling good" found stale THESIS and TRADE credit lines; fixed.
-- **LIQUID correction 11:14 ET:** my "met, unflagged" on FL-16 was wrong; LIQ-07 resolved 10/16. D6–D8 closed (KB-542). Told Will.
-- **11/5 selloff:** KB-543, 544; PMMS 7.18; WALTER 022 and RED FT-11 consumed. ⚠️ My 12:45 line to Will that December "still priced" the hike was wrong: 82% at 09:40 to 65% at 14:01. KB-544 corrected; Will told at closeout prep.
-- **WQ-596:** BND-34 to 37 registered before the 11/5 credit print and the dealer data; packet `PROME/inbox/2026-11-05_from-BOND_wq596-predictions.md`.
-- **Final pass:** FR2004 as-of 10/28 −$3.870B, VX-BND-04 held 2 (KB-545). Treasury close 10Y 4.84, PMMS 234bp same-date, VX-BND-17 1→2 outside the composite, disagreement recorded (KB-546). BND-36 now needs +$9.854B in six weeks; left as registered. STATUS line 94 still said OPEN predictions 1; fixed. HY estimate cut from about 345 to about 342 on closes (HYG recovered to −0.31%).
+- **Mail drained:** ORACLE 11/5 and 11/6, HANS 11/6, WALTER 001 and 017 (KB-552, board_log). No corrections owed.
+- **Read:** `analysis/2026-11-06_nfp/READ.md`. KB-547 close, KB-548 timing, KB-549 path vs real yields. HENRY's `research/2026-11-06_nfp/DECEMBER_HIKE_READ.md` covers odds, event map, stocks; I carry it and publish no rival probability.
+- **Credit:** ICE 348 [11/5], KB-550. My 342 estimate missed by 6bp; I had cut it from 345 late on 11/5.
+- **Primary:** Friday count done, KB-551; nearly $10B, three deals above $2B on 11/5.
+- **Combination watch:** set up per WQ-622 A: five themes, KB-553 to 557, one charter line in boot 7 (class C4; PROME verifies).
+- **Housekeeping:** docket CUSIPs for 11/18 `912810UZ9` and 11/19 `91282CRE3` (docket_check rc=1 cleared); F1/F3 row retired from WATCH_DATES; DEALER_CAPACITY header's false FR2004 drift hit removed.
+- **Caught before publishing:** "strongest surprise of the year" and "oil-led" were uncomputed; removed. The 30Y "unmoved" reading was start-date dependent; only the real-yield result is claimed.
 
-## CLOSEOUT STEPS (heavy, tools changed)
+## NOT MOVED
 
-C1 STATUS done · C2 KB (545, 546), VX (04, 17) done, FLOW no-op this pass · C3 no prediction DUE; BND-34 to 37 registered 11/5 under Will's word via PROME (brief f0ad9c2b0), WQ-596 packet sent · C4 THESIS dealer evidence lines only, no thesis-level change, token unchanged · C5 docket: BND-36 12/17 and BND-34, 35, 37 12/31 rows added · C6 TRADE no-op, no gate or position change · C7 this file · C8 RECEIPT, board_log done · C9 auto-memory extended (`finding_test_the_guard_not_just_the_guarded`, `finding_freshness_audit_vs_caught_up`), MEMORY.md one row · C10 charter already carries the tool changes, no-op · C11 NEXUS done. MEMORY.md rotated, three bullets to `archive/2026-11-05_MEMORY_pruned-bullets.md`. Fleet memory index blocker cleared by PROME (68%).
+No score, band, gate or threshold. Held on letter: VX-BND-02, 03, 06, 07, 11, 15. HY re-entered the 338–363 band; that is a state, not a move.
 
 ## NEXT (dated)
 
-1. **11/6:** ICE credit for 11/5, late morning, the first official read of the selloff; HY 350 line; LIQUID owns tier and Gate 069. October jobs 08:30. Friday primary count.
-2. **11/9 · 11/10 · 11/12:** grade 3Y `91282CRW3`, 10Y `91282CRX1`, 30Y `912810UY2` with `--frozen-bars AGENTS/BOND/registry/auction_bars/<date>_<cusip>.json` under `.venv` python. **A PRE-PRINT line after the print means NOT GRADED, whatever the rc.** One blank Yes/No on any coupon row refuses every grade in the run. Check whether a target stays in `upcoming` after results post (R4). BND-33 resolves at the 30Y.
-3. **BND-34 and BND-37 can resolve early TRUE: check at each HY and PMMS read.** BND-34 excludes the 11/5 print. **11/12:** PMMS re-scores VX-BND-17; FR2004 as-of 11/4 is the first read that could show dealers before the selloff week closes. 12/17 BND-36; 12/31 BND-34, 35, 37. 11/11 VX-20 review; 11/12–11/17 freeze 20Y and TIPS bars; 11/13 FHLB CFR, L226, FRBNY FX report; 11/17 F2 op; 11/19 freeze month-end bars.
-4. After 11/9: bring tool leftovers R1, R5 back to Will.
+1. **11/9:** ICE for 11/6, BND-34 needs 352; 3Y `91282CRW3` with `--frozen-bars AGENTS/BOND/registry/auction_bars/<date>_<cusip>.json` under `.venv` python. **A PRE-PRINT line after the print means NOT GRADED, whatever the rc.** One blank Yes/No on any coupon row refuses every grade in the run. Check whether a target stays in `upcoming` after results post (R4).
+2. **11/10:** CPI 08:30, 10Y 13:00, UK 5⅜% 2056. **11/12:** 30Y, BND-33 resolves; PMMS re-scores VX-BND-17; FR2004 as-of 11/4.
+3. 11/11 VX-20 review; 11/12–11/17 freeze 20Y and TIPS bars; 11/13 FHLB CFR, L226, FRBNY FX report; 11/17 F2 op; 11/19 freeze month-end bars.
+4. **Before 12/2:** register any 12/9 curve-shape row with a base rate (docket). After 11/9: bring R1, R5 back to Will.
+5. Check BND-34 and BND-37 for early TRUE at each read. 12/17 BND-36; 12/31 BND-34, 35, 37.
 
 ## OPEN THREADS
 
-L226 FHLB retune waits on the 11/13 report and sets no number without a base rate; re-date and owner asked of PROME. 7Y reopening handling owed before April 2027. Runner leftover: on a same-day re-run the consumer self-scan reads the runner's own transcript, whose old lines quote other desks' superseded composite, so it can never clear; today's earlier runs moved to `registry/closeout_runs/archive/`, record intact, runner unchanged. Bring to Will with R1, R5. True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED.
+L226 FHLB retune waits on 11/13. 7Y reopening handling before April 2027. Same-day runner re-run reads its own transcript (leftover, bring with R1, R5). True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED. No primary Fed speaker read: the Fed's speech feed has nothing current. BLS 403 here, so 12/10 November CPI rests on RED's docket row and HENRY.
 
 ## POSITION
 
@@ -41,4 +36,4 @@ FLAT on this thesis. BOND executes nothing; no expiry reminders.
 
 ## MAIL / DELIVERY
 
-RED F2 packet sent, consumed. PROME delivery, disposition and go-item packets sent. PROME note on the R3 duplicate written with this prep. WQ-596 packet and close addendum sent. Inbox empty.
+Inbox empty at writing. Receipt packet `PROME/inbox/2026-11-06_from-BOND_october-payrolls-rates-read.md`. Waiting for PROME's closeout ask; closeout not yet run, push not yet done.

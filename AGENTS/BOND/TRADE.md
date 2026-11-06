@@ -13,11 +13,11 @@
 
 **Operational letter:** WQ291 kill recommendation remains MET; unusual net inventory is not auction-warehousing proof, funding window UNGRADED, no predictive claim. WQ357 is resolved and the sleeve is flat (TBT sold 10/30, FORGE). Existing NO-ADD stands; a new expression would be a new TERRY card on Will's word.
 
-**Rates:** The 10/28 hawkish-dissent hold bear-steepened the curve (2Y −3, 30Y +7), then 2s30s flattened to 70bp [11/4] and steepened to 79bp on the 11/5 selloff: 2Y 4.46, 10Y 4.84, 30Y 5.25 [11/5]. No decomposition identifies buyback causation.
+**Rates:** The 10/28 hawkish-dissent hold bear-steepened the curve (2Y −3, 30Y +7), then 2s30s flattened to 70bp [11/4], steepened to 79bp on the 11/5 selloff and flattened to 75bp on the 11/6 payroll session: 2Y 4.51, 10Y 4.86, 30Y 5.26 [11/6]. No decomposition identifies buyback causation.
 
 **Official demand:** Seven of seven F2 buybacks OFF-THE-RUN (11/4 10–20Y: recent share 0.22%, cap filled). Registered 10/21 20Y-R and 10/22 TIPS clean; 10/26 2Y record bid substitution on audit-only grading. F1 and F3 NOT FIRED at the 11/4 QRA (KB-BND-528); WQ-592 RULED B, and Treasury's statement confirms no same-tenor increase (10Y $42B, 30Y $25B). Guidance dropped "at least"; TBAC expects coupon increases later in FY27 (KB-BND-529).
 
-**Credit:** HY 344 [10/30], 332 [11/4]; CCC 1356 3-year-window high [10/23], 1297 [11/4]. Band held three sessions, upgrade not met. October issuance about $15B (KB-BND-540); pulled deals not observable. X1 CLOSED/DONT-SIZE stays with its owners.
+**Credit:** HY 332 [11/4], 348 [11/5], 2bp under 350; CCC 1356 3-year-window high [10/23], 1320 [11/5]. Upgrade not met, one of four band sessions under VIX 20. October issuance about $15B, week of 11/2 nearly $10B (KB-BND-540, 551); pulled deals not observable. X1 CLOSED/DONT-SIZE stays with its owners.
 
 **Holdings:** none on this thesis. FORGE 10/30 reconcile: TBT ×10 sold 10/30, no live TBT line; TLT82P closed 10/12. BOND executes nothing.
 

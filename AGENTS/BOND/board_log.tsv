@@ -107,3 +107,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T09:57:53-05:00	SIG-W-20261105-001	acted	INBOX_WALTER	BoE 25bp hike to 4.00%, 8-1: long-end reaction muted on intraday reads (gilt 30Y +1bp, US 30Y flat); no closes yet; HANS owns grade (KB-BND-537).
 2026-11-05T09:58:08-05:00	SIG-W-20261105-008	noted	INBOX_WALTER	European dailies, intraday screens, HANS owns. Bund 3.26 there vs Bundesbank fitted 3.33 [11/5] is a basis difference; BOND keeps the Bundesbank cell for WQ400.
 2026-11-05T14:02:00-05:00	SIG-W-20261105-022	noted	INBOX_WALTER	Barkin, Hammack headlines, bodies unread; December hike odds fell 82% to 65% during the day, so the tension WALTER names holds; HENRY owns the path (KB-544)
+2026-11-06T15:58:00-05:00	SIG-W-20261106-001	noted	INBOX_WALTER	October jobs +165K, INFO; LABOR owns the grade; rates read at KB-BND-547.
+2026-11-06T15:58:30-05:00	SIG-W-20261106-017	acted	INBOX_WALTER	Consensus 65K, press odds and yields superseded by Treasury close 11/6: 2Y 4.51, 10Y 4.86, not the 4.53 and 4.88 intraday reads (KB-BND-547, 548).

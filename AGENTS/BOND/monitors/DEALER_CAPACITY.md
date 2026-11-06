@@ -1,7 +1,7 @@
 # BOND Monitor — Dealer Capacity / Absorption
 
 **Owner:** BOND
-**Last Updated:** 2026-11-05 — latest read as-of 10/28 is in the body below (next as-of 11/4 due about 11/12). Prior header 2026-10-05, body then at as-of 9/23. Full pre-refresh record: `domain/sources/2026-10-05_monitors_DEALER_CAPACITY.md_pre-live-refresh`.
+**Last Updated:** 2026-11-05 — latest read as-of 10/28 is in the body below (next as-of 11/4 due about 11/12). Full pre-refresh record: `domain/sources/2026-10-05_monitors_DEALER_CAPACITY.md_pre-live-refresh`.
 
 > ## ✅ RESOLVED 2026-07-28 — it was never an access problem
 >
