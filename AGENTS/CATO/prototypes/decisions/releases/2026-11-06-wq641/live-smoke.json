@@ -1,0 +1,15 @@
+{
+  "acceptance": [
+    true,
+    ""
+  ],
+  "cards": 12,
+  "errors": [],
+  "source_errors": [],
+  "can_deliver": true,
+  "all_cards_require_chat": true,
+  "app_only_enabled": false,
+  "notification": "unknown",
+  "full_hashes_match": true,
+  "hook_settings_unchanged": true
+}
