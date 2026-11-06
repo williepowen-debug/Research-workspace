@@ -1,6 +1,6 @@
 # LIQUID — NEXUS Brief
 
-**As of:** 2026-11-06T16:01:42-05:00 | STATUS commit: `e67975cf822cc82beb4699fac137b0dfcfefed56`
+**As of:** 2026-11-06T16:48:41-05:00 | STATUS commit: `a9094c296b006fd6bef4c744ae3bc1544b83c95a`
 **Scope:** November 6 wake under WQ-626 A. Source/grade frontier: first-published FRED credit through November 5; SOFR November 5; SRF November 6 08:15 ET; dealer as-of October 28; CFTC as-of November 3; H.4.1 as of November 4; official closes November 5 for the L4 names; filings to November 6. Evidence → `research/2026-11-05_live-catchup/REPORT.md` §15. Earlier evidence → §14 and prior reports named below.
 
 ## Current judgment
@@ -47,6 +47,6 @@ CHK-40 source packet dated November 2: no reserve sale/redemption surge demonstr
 
 **Workbook reconciliation, November 4 (no fresh observations):** 23 files inventoried, 9 updated; historical ORCL outlook-only proposal is not the canonical L5 trigger, and KB111’s false Pending-Will flag is resolved against the existing WQ-106 ruling. The two existing expected-signal definitions remain incomplete (FHLB percentage denominator, negative-basis sign interpretation), so neither supplies a valid current grade by inference. Final LIQUID Test B/T4 closure was not located at scoped sources and Test C central row remains overdue; recover existing evidence before rework, no new test. Frozen forecast files/definition sections and 148 other KB rows unchanged; 57 calendar event pairs match. Audit: `audits/2026-11-04_workbook-sweep/REPORT.md`. Market verdict, approval limits and independent 069 release dependency unchanged.
 
-STATUS §3 is the sole owed list; the November 6 handoff is done, and DTCC's November 6 full file is due about 20:15 ET. October HY source subtotal unresolved. Prior Brazil settlement, HENRY financing bridges and November 30 joint GENIUS Act read stay owed, with older deferred repairs and unscheduled fund-to-dealer gap. No completed case reopened or new standing collection.
+STATUS §3 is the sole owed list; the November 6 handoff is done, and DTCC's November 6 full file, due about 20:15 ET, is unread at this closeout. October HY source subtotal unresolved. Prior Brazil settlement, HENRY financing bridges and November 30 joint GENIUS Act read stay owed, with older deferred repairs and unscheduled fund-to-dealer gap. No completed case reopened or new standing collection.
 
 Analytical completion goes to PROME. File persistence and native notification acceptance are distinct from recipient consumption. No new Will decision from LIQUID; TERRY constructs and Will approves trades, position truth remains Will/broker. Foreign dirty work preserved. This is the final substantive STATUS fold of the November 6 session.
