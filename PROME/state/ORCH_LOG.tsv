@@ -2274,3 +2274,11 @@ date	desk	tier	touch	trigger	drained	delivered	zero_capital	notes	brief_defects	
 2026-11-06	BOND	TOUCH	CLOSE	closeout command 16:47 ET on Will 16:46 ET		message receipt, HEAD ff229c6cfa	OK	PROME prome-51; ASKED then receipt by message, already closed, nothing changed				
 2026-11-06	CRUISE	TOUCH	CLOSE	closeout command 16:47 ET on Will 16:46 ET		message receipt, HEAD ffeeb1bf90	OK	PROME prome-51; ASKED then receipt by message, already closed, nothing changed				
 2026-11-06	HANS	TOUCH	CLOSE	closeout command 16:47 ET on Will 16:46 ET		PROME/inbox/processed/2026-11-06_from-HANS_closeout-1646-relay.md	OK	PROME prome-51; ASKED then receipt				
+2026-11-06	LIQUID	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
+2026-11-06	TERRY	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
+2026-11-06	HENRY	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
+2026-11-06	VIOLET	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
+2026-11-06	BRENT	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
+2026-11-06	BOND	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
+2026-11-06	WALTER	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
+2026-11-06	REGINALD	TOUCH	10	Will 17:08 ET boot and update through the 11/6 close		IN-FLIGHT	OK	PROME prome-51; existing cleared window assigned by SendMessage, no launch				
