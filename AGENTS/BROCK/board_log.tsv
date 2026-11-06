@@ -407,3 +407,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T15:31:59-05:00	SIG-W-20261106-030	noted	INBOX_WALTER	OpenAI round and SoftBank check logged under combo:ai-financing-repricing (KB-BRK-445). No BDC line touched. No score moved.
 2026-11-06T15:31:59-05:00	SIG-W-20261106-031	noted	INBOX_WALTER	ECB review logged under combo:ai-financing-repricing (KB-BRK-445). Banks, not final, no lender named; HANS owns its row; BRK-31 untouched. No score moved.
 2026-11-06T15:31:59-05:00	SIG-W-20261106-034	acted	INBOX_WALTER	Correction to 029 logged; reaches Nscale lines by channel only, KB-BRK-457. No score moved.
+2026-11-06T15:43:38-05:00	SIG-W-20261106-036	noted	INBOX_WALTER	SoftBank leverage correction to card 030. KB-BRK-445 carries no SoftBank leverage figure; nothing to fix. No score moved.
+2026-11-06T15:43:38-05:00	SIG-W-20261106-037	acted	INBOX_WALTER	IREN funded scope used in the deep dive, KB-BRK-459. Oracle CDS is LIQUID's. No score moved.
+2026-11-06T15:43:38-05:00	SIG-W-20261106-038	info-only	INBOX_WALTER	LIQUID Q3 BDC card final; no X1 half; GSBD figures match KB-BRK-451. No score moved.
+2026-11-06T15:44:46-05:00	SIG-W-20261106-039	acted	INBOX_WALTER	OTTO label note taken: MFIC REPORT section 3 and KB-BRK-455 relabelled LendingPoint LLC. Manheim is OTTO's. No score moved.
+2026-11-06T15:45:09-05:00	SIG-W-20261106-040	noted	INBOX_WALTER	Same root as SHADE packet, one member, KB-BRK-462. No loss shown. No score moved.

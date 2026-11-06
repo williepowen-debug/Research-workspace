@@ -1,6 +1,6 @@
 # BROCK — STATUS
 
-**Updated:** 2026-11-06T15:32:44-05:00 — cards 029/030/031/034 cleared: IE Mackenzie is IREN, four Blue Owl funds (KB-BRK-456) · Docket L1058/L1059 added · no score moved. Prior 12:44 stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
+**Updated:** 2026-11-06T15:43:38-05:00 — IREN Mackenzie deep dive on Will's word: no financial covenants, customers non-IG, a lapse at 12/31 costs IREN not the funds (KB-BRK-459–461). No score moved. Prior stamp → catch-up. Narrative: `catchups/2026-11-06.md`.
 
 ---
 
@@ -108,4 +108,4 @@
 
 ## BOTTOM LINE
 
-**11/06 PM:** My unidentified IE Mackenzie loan is IREN's $2.4B GPU financing: Blue Owl is agent and four of its funds hold $730.0M of commitments, $447.7M undrawn through 12/31 (KB-BRK-456). It was marked 99.15 of commitment at 9/30, before IREN's delay, with a parent guarantee and 30-month amortization; Microsoft's change is at Childress, and no link to the Mackenzie site is read. Cable One's 10-Q still matters most near term: out of NYSE compliance, and delisting leads to a $345.0M convertible put, then cross-default, on its own words. Watch Car-Mart Mon 11/09, Cable One Fri 11/13, Mackenzie draws by 12/31. Convergence **58/70**, unchanged.
+**11/06 PM:** Four Blue Owl funds hold $282.3M of IREN's 9% Mackenzie GPU loan, with $447.7M more to fund by 12/31 (KB-BRK-456). The exhibits show no financial covenants and no claim on customer contracts; IREN says the customers are non-investment grade (KB-BRK-459). If draws lapse, IREN loses funding and the funds lose nothing; a loss needs a missed payment or a parent acceleration, and neither is shown. Cable One's 10-Q still matters most near term: out of NYSE compliance, and delisting leads to a $345.0M convertible put, then cross-default, on its own words. Watch Car-Mart Mon 11/09, Cable One Fri 11/13, Mackenzie draws by 12/31. Convergence **58/70**, unchanged.

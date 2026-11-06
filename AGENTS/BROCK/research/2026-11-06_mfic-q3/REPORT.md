@@ -54,7 +54,7 @@ Off the list: Kauffman Intermediate ($18.2M cost, restructured), Aventiv/Securus
 | Name | FV/cost 6/30 | FV/cost 9/30 | Q3 unrealized (MD&A) |
 |---|---|---|---|
 | ChyronHego | 0.69 | 0.46 | −$15.6M, largest in the quarter |
-| LendingPoint group | 0.54 | 0.40 | −$5.9M |
+| LendingPoint LLC only (label corrected 11/06 on OTTO, card 039; whole relationship 0.64 to 0.54, and the −$5.9M is whole-relationship) | 0.54 | 0.40 | −$5.9M |
 | US Auto pool | 0.40 | 0.11 | −$5.1M |
 | Tasty Chick'n | 0.62 | 0.32 | −$3.9M |
 | Thomas Scientific | 0.89 | 0.77 | −$4.2M |

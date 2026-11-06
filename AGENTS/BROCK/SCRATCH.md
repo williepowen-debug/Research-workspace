@@ -18,5 +18,5 @@ Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-
 - EDGAR: `from sec_contact import sec_ua` (scripts/). A browser-style UA gets 403.
 - CABO CIK 1632127. WALTER keeps delivering during a session: re-list `inbox/WALTER/` immediately before `git mv`.
 - MFIC: MD&A and SOI fn 14 read, call not. ARCC deal watch: Thomas, Heniff, Magnate carry 0.81 of cost on non-accrual (inference, REPORT §2).
-- IE Mackenzie = IREN GPU 2.0, four Blue Owl funds; draws end 12/31; read funded vs unfunded at the next 10-Qs (KB-BRK-456). Quote 99.15 of commitment, never FV/funded. Mackenzie customer and exhibit 10.1 unread.
+- IE Mackenzie = IREN GPU 2.0, four Blue Owl funds; deep dive `research/2026-11-06_iren-mackenzie/REPORT.md` (KB-BRK-456, 459–461). Quote 99.15 of commitment, never FV/funded. Checkpoints: PIMCO Asset-Based Lending 10-Q ~11/16, N-PORTs ~11/29, last funding request 12/28, 12/31, IREN December 10-Q ~early Feb. Docket rows proposed to PROME, not added.
 - Experiment A software FV/par cells for FSK, BXSL, OBDC owed; need a SOI parse.
