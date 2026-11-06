@@ -4,7 +4,7 @@ Post-mortems for resolved rows in [`PREDICTIONS.tsv`](PREDICTIONS.tsv). The TSV 
 
 ---
 
-## Calibration Scoreboard — strict AS-MADE (re-audited 2026-10-19, s034)
+## Calibration Scoreboard — strict AS-MADE (re-audited 2026-10-19, s034; OTTO-37 added 2026-11-06, s042)
 
 The February Markdown ledger predates the March TSV seed. Nominal February23 Made_Date cells survive as migration records, not first-registration proof. Earliest saved records: `ee95c5631` February4 and `3d85bd588` February15. Full evidence, timing caveats and replay: [`forecast repair`](../research/2026-10-19_forecast-repair/READOUT.md). Later rows' original-confidence references remain `0bc51c74d` April15 and `3c880fbb1` May22. Do not score walked cells.
 
@@ -20,14 +20,15 @@ The February Markdown ledger predates the March TSV seed. Nominal February23 Mad
 | OTTO-29 | FALSIFIED (window) | 75% | 0.5625 | yes |
 | OTTO-30 | FALSIFIED | 60% | 0.3600 | yes |
 | OTTO-32 | CONFIRMED | 85% | 0.0225 | yes |
+| OTTO-37 | FALSIFIED | 60%, November5, before publication | 0.3600 | yes |
 | OTTO-04 | FALSIFIED-on-metric | 75% | 0.5625 shown | no: unobservable original metric, true-at-creation replacement |
 | OTTO-06 | FALSIFIED | 70% | 0.4900 shown | no: post-hoc dead-zone rule decided grade |
 | OTTO-10 | NEEDS_VERIFY | 65% | 0.4225 staged | no: observation period incomplete |
-| **Counted** | **3 of8 hits** | | **sum2.2150 /8 =0.276875** | |
+| **Counted** | **3 of 9 hits** | | **sum 2.5750 / 9 = 0.286111** | |
 
-The previous **5/10,0.2400 is superseded**. A constant50% forecast scores0.2500. Small, selected n=8 shows no demonstrated forecasting edge. This audit removes two historical hits, not misses. It preserves prior grades and distinguishes current eligibility from historical bookkeeping. The other resolved rows were not re-audited here; existing evidence exclusions still stand.
+The previous **5/10,0.2400 is superseded**. A constant50% forecast scores0.2500. Small, selected n=9 shows no demonstrated forecasting edge. This audit removes two historical hits, not misses. It preserves prior grades and distinguishes current eligibility from historical bookkeeping. The other resolved rows were not re-audited here; existing evidence exclusions still stand.
 
-If one instead scores OTTO-01's **February15 revised75% and Q1–Q2 specification**, the sensitivity set is4/9, sum2.2775, mean0.253056. That is a revised-specification series, **not** the strict original forecast score and not its headline. Neither case supports the old edge claim.
+If one instead scores OTTO-01's **February15 revised75% and Q1–Q2 specification**, the sensitivity set is 4/10, sum 2.6375, mean 0.263750 (with OTTO-37; 4/9, 2.2775, 0.253056 before it). That is a revised-specification series, **not** the strict original forecast score and not its headline. Neither case supports the old edge claim.
 
 **Earlier s029 audit repairs retained:** OTTO-05 began60%, not48%; OTTO-30 began60%, not65%. Its correct as-made loss is0.36. Forecast terms need the same provenance check as probabilities: OTTO-01's original70% cannot be paired silently with a later wider window. A post-registration actual outcome can validate a quarter-specific claim; prior-quarter undercoverage does not make FSK's Q1-2026 claim true at creation.
 
@@ -120,6 +121,18 @@ CATO's finding was that three negative grades went further than the evidence rec
 - **OTTO-10: the world moved against the claim, and the instrument hid it for seven months.** The subprime share ROSE on both Equifax bases, to 19.1% of accounts and 15.9% of balances. The "16.5→14.7" series that justified the 8/14 walk-down to 20% came from a synthesis document, and no Equifax table contains it. The walk-down would have cut this row's Brier from 0.4225 to 0.0400 for a reason that does not exist. **The as-made convention is what caught it.**
 - **OTTO-29: the substance was right, and a hard catalyst date was the weak link again.** OTTO-26 had the same failure shape. The recovery is about 3% and the notes trade under 10¢, but no distribution had happened by 9/30 because the $113M dispute holds everything. Scored on the letter; no substance credit taken.
 - **OTTO-32: the only hit, now VERIFIED.** On 9/28 the entry was INFERRED from two secondary sources. On 9/30 OTTO read Dkt 3748 itself (clerk stamp ENTERED 2026-09-01). Kroll and the CourtListener docket page still returned 403, and the RECAP search API was the route that worked. **Rule: when the docket page is blocked, try the search API before settling for secondaries.**
+
+---
+
+## OTTO-37 — Manheim October full-month index >= 207.0, first published ❌ FALSIFIED (post-mortem written 2026-11-06, s042)
+
+**Fired:** Cox published 206.8 on 2026-11-06, 0.2 below the line, against a mid-October read of 207.4. As-made 60%, Brier 0.3600, counted.
+
+**Was the forecast wrong?** No. Nine 2026 mid-to-final pairs before October: 5 of 9 (56%) kept the 0.4 cushion, mean +0.21, SD 1.40. A fair number that lost. The sign tracks the month's trend, and the recent April-to-September subset alone reads 2 of 6, so the whole sample is the figure to use, still n=9 in one year.
+
+**What was wrong:** the row's note said no base rate was computable. The pairs sat on free publisher pages and took under a minute to pull. Lesson row in `LESSONS.md`. Evidence: `research/2026-11-06_manheim-october/READOUT.md` and `MID_TO_FINAL.tsv`.
+
+**Thesis effect:** none. The hinge test on the catalyst row (second negative YoY print, or <= −3%) did not fire; the +2% YoY is mostly a low October-2025 base.
 
 ---
 

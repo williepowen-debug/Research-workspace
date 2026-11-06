@@ -180,6 +180,7 @@ purpose: root rule #4 says never cite a price from a STATUS file — fetch live.
 | OTTO-04 | 2022 vintage CNL >25% by Sep 30 | ❌ **RESOLVED EARLY Jul 25 — FALSIFIED-on-metric / CONFIRMED-on-substance.** Will directed a re-base onto the deep-subprime 10-D tranche; **the metric re-base is done, but the prediction could not be re-based honestly** — OTTO-04 was made 2026-02-23 and EART 2022-3 was **already 25.90%** by the Jan-28 filing, so the re-based claim was **true-at-creation**. **No calibration credit either way.** Forward replacement → **OTTO-34** |
 | OTTO-05 | Subprime BBB ABS spread >250bps by Jun 30 | ❌ **FALSIFIED (Jul 4)** — BBB **TIGHTENED to +140bps** (EART 2026-3, Jun 24) vs +190 Mar; deal upsized $1.2bn, 1st AAA. Spread moved OPPOSITE. Systemic-funding-freeze sub-thread disconfirmed. |
 | OTTO-28 | Ally discloses Carvana-specific DQ/NCO by Jun 30 | ❌ **FALSIFIED-on-window (Jul 4)** — Ally Q2 prints Jul 21 (post-resolve); Q1 no break-out. Ally credit improving (NCO −15bps, DQ −17bps YoY). |
+| OTTO-37 | Manheim October full-month index >= 207.0, first published | ❌ **FALSIFIED 2026-11-06** — 206.8 `[CONF Cox page 11/06]`, as-made 60%, Brier 0.3600 counted. Post-mortem in `thesis/PREDICTIONS_ARCHIVE.md`. |
 
 ---
 
@@ -844,3 +845,14 @@ Rows superseded by s041, then the prior CRITICAL TIMELINE rows.
 | 2027-01-25 (Mon) | Chu criminal trial,01/25/2027 | 🟠 confirmed; Chu trial; Castel10:00ET |
 | 2027-02-01 (Mon) | James criminal pretrial,02/01/2027 | 🟠 confirmed; James pretrial; Torres12:00ET |
 | 2027-02-09 (Tue) | James criminal trial,02/09/2027 | 🟠 confirmed; James trial; Torres09:00ET |
+
+## 21. November6 s042 rotation (verbatim; hot STATUS wins)
+
+Rows superseded by s042.
+
+> **s041 (11/05):** eight dark days cleared. Exeter September 10-Ds loaded and tied to exhibits: EART 2024-1 re-crossed 28% recovery, signal routed. **THESIS v1.6 landed:** Carvana DORMANT (V5 2→1, composite 33→32), borrower exit relabelled an unverified hypothesis, V2 rung added. **The SDT is a two-point test:** its stated noise floor is withdrawn and the ~11/15 run will be NO VERDICT. WINTERKORN found the trustee's Rule 2004 campaign is ~24 motions, naming Ares and AllianceBernstein (OTTO-33 held OPEN, 70%). `research/2026-11-05_catchup/READOUT.md`; ML-345–362; cold §20.
+> **Next:** Manheim 11/06 (OTTO-37 resolves) · NY Fed 11/10 11:00 ET · BROCK grades CRMT 11/09 · Tricolor §341 11/11 · EART 2026-5 window 11/12 · Chu ruling check ~11/13 · SDT ~11/15 · EART October 10-Ds ~11/30 (OTTO-36) · Ares response 11/30. Court checks use the Atom feed (newest 30 entries) until WQ-531. History → STATUS_COLD §20.
+| **🔑 THE HINGE — Manheim UVVI** `[CONF Cox page, Sep-2026 released 2026-10-07]` | **Sep 205.9 = −0.6% YoY / −1.1% MoM; mid-Oct 207.4 = +2.2% YoY / +0.7% vs Sep** `[CONF Cox 10/19]`. Unadjusted mid-Oct −2.0% sequential/+0.5% YoY; rebound is provisional, not the full-month SDT input. Next full release **11/6**. Readout §What changed; prior history cold §2/15 | 🟠 |
+| V6 | Invisible Exit, general phenomenon | **2** | **src: STATUS § THESIS "(b) general: LOW"** · THESIS LOW · Manheim hinge 🟠 | **Root D** (the Tricolor charged half is A, in V1–V3). Manheim is a named thesis input, not only the SDT gate. Recovery <28% is a level test; the SDT governs, within its two-point limit | SDT REFUTE 8/14; read-only preview 11/05 +16.12/+1.65 NO VERDICT, mostly endpoints · six-month recovery flat · Manheim Sep −0.6% YoY; mid-Oct +2.2% provisional | ↑ SDT CONFIRM (OTTO-35) · ↓ 3 consecutive REFUTEs cannot complete on the original readings |
+| 2026-11-06 (Fri) | Manheim October full-month release | 🟠 confirmed; hinge; SDT input; **OTTO-37 resolves** |
+| **OTTO-37** | Manheim October full-month index ≥207.0, first published | 🟠 OPEN **60%**. Resolves 11/06 |
