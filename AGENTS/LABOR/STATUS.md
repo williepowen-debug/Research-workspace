@@ -1,5 +1,5 @@
 # LABOR STATUS
-**Last Updated:** 2026-11-06 14:07 ET * (WQ-634 A marked; grade WQ-626 A, DOCKET L767)* · 🔴 **FREEZE-THAW v2 FIRED on the October jobs report (BLS USDL-26-1632): payrolls +165K against a +150K bar, Aug revised +186K, Sep revised +60K, 3-mo avg 137K; EPOP 59.3 ≥ 58.9; LEG C met 11/5 ⇒ card §3d row 1. v4/v6/v7 stood down, v17 2 → 1, score 27 → 22/80.** LAB-19 ✅ (LF +421K). T-03, T-04, T-06, T-08, T-13 and Kill A did NOT fire. *Prior:* 11/5 grades → DETAIL § `status-rotated-20261106`.
+**Last Updated:** 2026-11-06 16:49 ET * (closeout on Will's word; WQ-634 A marked; grade WQ-626 A, DOCKET L767)* · 🔴 **FREEZE-THAW v2 FIRED on the October jobs report (BLS USDL-26-1632): payrolls +165K against a +150K bar, Aug revised +186K, Sep revised +60K, 3-mo avg 137K; EPOP 59.3 ≥ 58.9; LEG C met 11/5 ⇒ card §3d row 1. v4/v6/v7 stood down, v17 2 → 1, score 27 → 22/80.** LAB-19 ✅ (LF +421K). T-03, T-04, T-06, T-08, T-13 and Kill A did NOT fire. *Prior:* 11/5 grades → DETAIL § `status-rotated-20261106`.
 **Status:** 🟡 **FREEZE THESIS STOOD DOWN ON ITS LETTER (v2 fired 11/6): low-fire holds, low-hire is the half that failed.** Claims 189K / MA 194,750 · CC 1,718K (record-only) · JOLTS hires 5,402K / 3.4% · layoffs rate 1.0% · NFP Oct **+165K** first print (Aug rev +186K, Sep rev +60K, 3-mo avg 137K) · U-3 4.1% on LFPR 61.9% · EPOP 59.3%. ⚠️ First print cleared by 15K; involuntary part-time +339K; Sep JOLTS preliminary (card §8.3).
 
 > 🔒 **HOT/COLD SPLIT** (2026-09-02): this file is **canonical for every live figure, band, score and open grade**; `STATUS_DETAIL.md` is the cold half — **on demand, NOT a boot read**. Trim/rotation history → DETAIL § `hotcold-split-inventory`, § `status-rotated-20261029`.
@@ -61,7 +61,7 @@
 ---
 
 ## FED TRAP & THESIS
-> **No labor-tightness premise under the hike case** (7/31), re-read 11/6. Labor is a satisfied side-constraint on wages: ECI private wages 3.1% flat, AHE +3.1% YoY. ⚠️ **My 7/31 "a benign print is not hawkish fuel, it is nothing" did not hold in pricing:** Oct +165K vs consensus 65K moved December hike odds to about 78% from 70% (Reuters, secondary, WALTER -017; HENRY co-read 11/6). A repricing is not a tightness finding. Rate path → **BOND, HENRY, ORACLE**, never LABOR. History → DETAIL § `fed-trap-history`.
+> **No labor-tightness premise under the hike case** (7/31), re-read 11/6. Labor is a satisfied side-constraint on wages: ECI private wages 3.1% flat, AHE +3.1% YoY. ⚠️ **My 7/31 "a benign print is not hawkish fuel, it is nothing" did not hold in pricing:** Oct +165K vs consensus 65K moved December hike odds, Polymarket 69.5 at 08:25 ET to 77.5 at 08:35 ET, within 1bp of futures (ORACLE 11/6, KB-ORC-124 to 126; consensus secondary, WALTER -017). ORACLE could not verify the Reuters "78 from 70" sentence, and about 6 of the 14-point rebound came before the print, cause not established. A repricing is not a tightness finding. Rate path → **BOND, HENRY, ORACLE**, never LABOR. History → DETAIL § `fed-trap-history`.
 
 ---
 
