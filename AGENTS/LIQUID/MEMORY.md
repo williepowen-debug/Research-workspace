@@ -5,7 +5,7 @@
 ### CURRENT SESSION — closed 2026-11-06T15:36:00-05:00 (WQ-626 A, DOCKET L970, session liquid-98, Claude Code / Opus 5.5)
 
 - **Context:** ran the November 6 handoff by hand after the November 5 HY cell posted. No trades; no level, operator, instrument or consequence changed.
-- **Delivered:** November 5 print graded first-published (HY 348, +16); Will's funding sweep; GSBD; final Q3 BDC card (MAIN 10-Q); card 029 read of IREN and Oracle at filings; 076 W1; 19 WALTER cards consumed today; combination themes logged (WQ-622). `research/2026-11-05_live-catchup/REPORT.md` §15.
+- **Delivered:** November 5 print graded first-published (HY 348, +16); Will's funding sweep; GSBD; final Q3 BDC card (MAIN 10-Q); card 029 read of IREN and Oracle at filings; 076 W1; 21 WALTER cards consumed today; combination themes logged (WQ-622). `research/2026-11-05_live-catchup/REPORT.md` §15.
 - **Grades:** 069 L4 FIRED session November 5, count unchanged 2 of 2, no new consequence; L1 NOT FIRED. 076 1 of 3, W1 as-of November 3 NOT MET. 079 NOT ARMED +10. 072 NOT FIRED. HY-REKILL 0 of 2. Tier rule BROADENS on the daily clause.
 - **Open:** STATUS §3. No new forecast registered; LIQ-08 to LIQ-11 DOCKET rows are PROME's.
 - **Slips, disclosed:** card 034 landed at 14:16 and my 14:20 commit missed it, caught 15:27 by reading the git log; re-sweep the inbox right before a commit that consumes cards. Directory-style `git add` on processed folders earlier today; status showed only intended renames. The 15:32 ET background wait was stopped by the system for low memory; not restarted, a one-shot reminder served instead.

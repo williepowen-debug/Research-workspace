@@ -773,3 +773,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T14:20:03-05:00	SIG-W-20261106-031	noted	INBOX_WALTER	ECB data-centre lending review logged to KB-LIQ-153, not final. HANS owns any row.
 2026-11-06T14:20:03-05:00	SIG-W-20261106-032	noted	INBOX_WALTER	MFIC non-accruals logged to KB-LIQ-155; not a card name, moves no card line.
 2026-11-06T15:27:56-05:00	SIG-W-20261106-034	noted	INBOX_WALTER	Corrects card 029 framing; LIQUID record never used it. Logged to KB-LIQ-153, REPORT 15.8 later note, IREN caveat. No gate moved.
+2026-11-06T15:37:22-05:00	SIG-W-20261106-036	noted	INBOX_WALTER	Corrects card 030 SoftBank leverage; LIQUID never carried the 13% figure. SAM estimate logged to KB-LIQ-153 with limits. No gate moved.
+2026-11-06T15:37:22-05:00	SIG-W-20261106-037	noted	INBOX_WALTER	Restates LIQUID REPORT 15.8 correctly; no LIQUID figure changes. Nov 6 Oracle CDS file stays open in STATUS section 3. No gate moved.
