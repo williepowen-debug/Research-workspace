@@ -1,5 +1,5 @@
 # CARL SCRATCH
-**Last session:** 2026-11-06 from 13:14 ET; file written 13:46 ET; Claude Code, Opus 5.5 (claude-opus-5-5), launched by PROME prome-51.
+**Last session:** 2026-11-06 from 13:14 ET; file written 13:46 ET, closeout refresh 16:48 ET on Will's fresh-context word (16:46 ET via PROME); Claude Code, Opus 5.5 (claude-opus-5-5), launched by PROME prome-51.
 **Type:** WQ-632, then Will's catch-up word (13:30 ET via PROME). No trade, card, gate, band or threshold moved.
 
 **PRIORITY-1:** **Tue 11/10 11:00 ET: Q3 HHDC (date confirmed at the NY Fed advisory). Grade §1 of `thesis/HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md`, CRL-30 first grade, CRL-04 basis note, CRL-33; a split between the two §1 rows goes to Will the same session.** Also 08:30 ET CPI: CRL-10, beef CPI for PROME DOCKET L797, DOC refresh.
@@ -7,6 +7,7 @@
 ---
 
 ## CHANGES SINCE LAST SESSION
+- Arrived after the catch-up push, all UNREVIEWED: ISHM packet (top of IMMEDIATE); 7 BOARD info cards naming CARL; PROME's DAEDALUS test of CRL-15 and CRL-23.
 - This session cleared the backlog; see below. Boot read 13:14 ET, not official closes: SPY +0.58%, VIX 25.54, Brent futures $97.07.
 
 ## WHAT HAPPENED
@@ -32,6 +33,8 @@
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE
+- **First boot, before 11/10:** read `inbox/2026-11-06_from-ISHM_factory-prices-and-tariff-refunds.md` (P3, no ask): S&P October output prices steepest since September 2022 beside ISM prices 75.2 from 77.9. The inflation read is CARL's. Tag `combo:goods-price-pipeline`, then file it. No KB row or read done yet.
+- **First boot, before 11/10:** disposition the 7 info cards naming CARL, grep against OPEN rows first: SIG-W-20261106-017 (jobs reaction), -019 and -039 (Manheim 206.8), -022 and -028 (distillate), -032 (MFIC), -038 (BDC card). 39 of today's ids are unlogged in all; none owes action.
 - **11/10, carried cards:** SIG-W-20260904-004 at the HHDC basis check; SIG-W-20260929-002, -20261002-009, -20261008-027 at October CPI. SIG-W-20260924-008 and -009 stay deferred to about 1/20/2027.
 - **11/10:** HHDC and CPI, as above. Pull the HHDC file by curl with a browser user agent, open the prior report for the revision check.
 - **11/17:** S49b row, franchisee theme review against Census food services, October retail.
@@ -49,7 +52,7 @@
 - ALLY management call text: not read.
 
 ### WAITING ON OTHERS
-- DAEDALUS: aggregate Brier with CRL-21 at 60%. PROME sent the ask.
+- DAEDALUS: aggregate Brier with CRL-21 at 60%; also testing whether the CRL-15 and CRL-23 cuts rest on evidence dated after the prior marks, first-call shown beside latest. May contest by packet. PROME sent both asks.
 - REGINALD: any correction to the CCBX figures.
 - Will may undo the CRL-21 re-mark by naming it. CRL-19 MIXED re-token still open from 9/24.
 
@@ -68,7 +71,7 @@
 | PHAN inbox | Runner rulings |
 
 ## INBOX
-Top-level 0, WALTER lane 0 at 13:43 ET by the lane-descending find.
+Top-level 1 (ISHM, unprocessed, see IMMEDIATE), WALTER lane 0 at 16:48 ET by the lane-descending find.
 
 ## WORKBOOK HEALTH
 | TSV | Note |
@@ -87,5 +90,5 @@ Top-level 0, WALTER lane 0 at 13:43 ET by the lane-descending find.
 |---|---|
 | Consistency, corrections, read-cap, roadmap index | Results in the PROME receipt |
 | Research retirement sweep | RUN at 13:24 ET: 4 candidates, 4 retained, 0 moved; only new files added since |
-| Consumer check | NOT RUN as a script: bare 2-sig-fig marks and a count; grep of other desks' STATUS and briefs found no live citation |
+| Consumer check | RUN 16:48 ET on CRL-15 (35% to 10%) and CRL-23 (45% to 15%): 1,710 and 1,909 hits, all bare 2-sig-fig matches. No packet sent, per the root rule. Earlier grep of other desks' STATUS and briefs found no live citation |
 | Independent reader | NOT RUN |
