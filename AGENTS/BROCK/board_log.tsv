@@ -391,3 +391,11 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T16:35:46-05:00	SIG-W-20261105-055	noted	INBOX_WALTER	Close read, vendor 16:05 ET. HYG -0.28, BKLN -0.63, credit proxies calm. Context for KB-BRK-437; HY cell stays LIQUID, about 10:30 ET 11/06.
 2026-11-05T16:35:46-05:00	SIG-W-20261105-057	acted	INBOX_WALTER	Correction: VIX about 28.17, VVIX 135.38, vendor 16:22 ET. Ladder row 10 note updated; HENRY and VIOLET own. COR-20261105-57 receipted.
 2026-11-05T16:35:46-05:00	SIG-W-20261105-059	acted	INBOX_WALTER	CABO Q3 8-K. Own read of Ex 99.1 same day, adds Chapter 11 language and the insufficiency sentence the card omits. L876 PROVISIONAL, 10-Q unread. KB-BRK-436.
+2026-11-06T10:21:20-05:00	SIG-W-20261105-061	noted	INBOX_WALTER	Correction to card 059. My own KB-BRK-436 is its source. COR-20261105-61 receipted NO-OP.
+2026-11-06T10:21:20-05:00	SIG-W-20261105-064	acted	INBOX_WALTER	CABO 10-Q read at primary. L876 BLOCKED-BY-ORDER FINAL (KB-BRK-440). Card lacks the NYSE 802.01B fact, the convertible chain and the springing maturity (KB-BRK-441); signal packet sent to WALTER.
+2026-11-06T10:21:20-05:00	SIG-W-20261105-066	info-only	INBOX_WALTER	OTTO Exeter recovery. No BROCK row keyed; CARL and OTTO own it.
+2026-11-06T10:21:20-05:00	SIG-W-20261105-067	deferred	INBOX_WALTER	ACTION on Ares public vehicles among Tricolor lenders deferred: outside the bounded WQ-626 task. On STATUS next-wake row. combo:alt-manager-named-lender KB-BRK-448.
+2026-11-06T10:21:20-05:00	SIG-W-20261106-003	noted	INBOX_WALTER	Japan selloff, SoftBank CDS 466bp logged as a member of combo:ai-financing-repricing KB-BRK-445. SAM grades the carry read.
+2026-11-06T10:21:20-05:00	SIG-W-20261106-004	acted	INBOX_WALTER	Read against my gates: none moved; ING cannot count for BRK-25, not a BDC (KB-BRK-444). combo:ai-financing-repricing KB-BRK-445.
+2026-11-06T10:21:20-05:00	SIG-W-20261106-007	noted	INBOX_WALTER	Beaudry lender is Apollo-owned Bridge: member of combo:alt-manager-named-lender KB-BRK-448. HOMER and CREED own the cases.
+2026-11-06T10:21:20-05:00	SIG-W-20261106-012	noted	INBOX_WALTER	HY 348 card. My FRED read ties. Owners grade their own lines; ladder row 10 graded separately, NOT FIRED (KB-BRK-438).
