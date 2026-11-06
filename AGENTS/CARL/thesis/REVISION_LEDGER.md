@@ -1,5 +1,7 @@
 # CARL revision-denominator ledger (answers RED's 9/14 ask)
 
+**Census updated 2026-11-06:** `REVISION_LEDGER.tsv` regenerated, 163 events, 0 UNCLASSIFIED. It now carries the 10/26 CRL-21 STUCK (DISPOSITION, helped the record), the 11/06 MISSED and re-mark to first-call 60 (both RECORD-CORRECTION, against the record), the 10/01 and 10/28 rows, and the 11/06 dated re-marks of CRL-15 and CRL-23. The §1–§7 counts below stay the September 24 baseline.
+
 **Current-use warning (October 26 audit):** the classified counts and findings below are a September 24 historical baseline, not a current census. The canonical TSV was regenerated with repaired CSV serialization:151 events from committed history; four later status events remain UNCLASSIFIED (CRL-08/27/17 on October 1; CRL-21 on October 26). Before-image, candidate and exact list: `research/2026-10-26_file-audit/revision-ledger-candidate.tsv` and `revision-candidate-summary.json` in that audit directory. Original bytes are retained as `revision-ledger-before.tsv`. Do not present the historical135-event denominator or the legacy Brier diagnostic as today’s classified record.
 
 **Status:** v1, 2026-09-24 eve. Delivered to RED the same evening. **§6 actions: 5 of 6 APPLIED 9/24 (Will: "approve all six with your leans"); #4 HELD on a canon conflict.** §1–§5 describe revisions made BEFORE this ledger; the 9/24 re-grades appear in the TSV as five CARL RECORD-CORRECTION rows, all against CARL's record.

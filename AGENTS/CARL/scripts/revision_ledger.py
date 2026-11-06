@@ -62,7 +62,7 @@ def git(*args):
 
 def commits():
     # git ignores --follow when combined with --reverse, so reverse here.
-    out = git("log", "--follow", "--format=%h\t%cI\t%s", "--", PATHS[0])
+    out = git("log", "--follow", "--abbrev=9", "--format=%h\t%cI\t%s", "--", PATHS[0])
     for line in reversed(out.splitlines()):
         h, date, subj = line.split("\t", 2)
         yield h, date[:10], subj
@@ -133,7 +133,7 @@ OUTCOME = {
     "CRL-01": "M", "CRL-02": "H", "CRL-03": "M", "CRL-04": "H", "CRL-05": "? (voided, never scored)",
     "CRL-06": "H", "CRL-07": "M", "CRL-08": "M PROV (sustained bar unreachable, WQ-281)", "CRL-09": "M",
     "CRL-10": "M PROV", "CRL-11": "M", "CRL-12": "M PROV", "CRL-13": "H PROV", "CRL-14": "? (retired)",
-    "CRL-16": "M", "CRL-17": "M PROV", "CRL-18": "H", "CRL-19": "? (MIXED)", "CRL-21": "M PROV",
+    "CRL-16": "M", "CRL-17": "M PROV", "CRL-18": "H", "CRL-19": "? (MIXED)", "CRL-21": "M",
     "CRL-24": "M", "CRL-26": "H", "CRL-30": "M PROV",
 }
 
@@ -203,6 +203,16 @@ OVERRIDES = {
     ("2026-09-24", "CRL-07", "CONF"): ("RECORD-CORRECTION", "CARL", "", "HURTS", "NEUTRAL", "undated 40% -> first-call 80 (WQ-112 ii): 0.16 -> 0.64 on the published record"),
     ("2026-09-24", "CRL-09", "CONF"): ("RECORD-CORRECTION", "CARL", "", "HURTS", "NEUTRAL", "undated 73% (walked 4/06) -> first-call 75 (WQ-112 ii): 0.5329 -> 0.5625"),
     ("2026-09-24", "CRL-16", "CONF"): ("RECORD-CORRECTION", "CARL", "", "HURTS", "NEUTRAL", "undated 35% -> first-call 60 (WQ-112 ii): 0.1225 -> 0.36 on the published record"),
+    # --- classified by hand 2026-11-06 (Will's catch-up word; REVISION_LEDGER.md Current-use warning)
+    ("2026-10-01", "CRL-08", "STATUS"): (R, "", "", "", "", "resolved at its 7/06 kill-clause fire, scored 28%, WQ-288"),
+    ("2026-10-01", "CRL-27", "STATUS"): ("DISPOSITION", "CARL", "", "UNDETERMINED", "UNDETERMINED", "retired unscored under WQ-287 option A, Will 9/26; successor CRL-31"),
+    ("2026-10-01", "CRL-17", "STATUS"): ("DISPOSITION", "CARL", "", "UNDETERMINED", "UNDETERMINED", "forced call NO-VERDICT-BY-INSTRUMENT, pre-registered 8/15; no scored outcome either way"),
+    ("2026-10-26", "CRL-21", "STATUS"): ("DISPOSITION", "CARL", "FOR", "HELPS", "HELPS", "OPEN -> STUCK on a false claim that no measurable comparison existed; kept a miss unscored 11 days; withdrawn 11/06, M68"),
+    ("2026-10-28", "CRL-13", "TIMEFRAME"): ("WINDOW", "CARL", "FOR", "UNDETERMINED", "UNDETERMINED", "Oct 1 read not observable, no count published; date push with a reason, confidence unchanged"),
+    ("2026-10-28", "CRL-25", "STATUS"): ("DISPOSITION", "CARL", "", "UNDETERMINED", "UNDETERMINED", "BROCK pointer retired unscored; left CARL's scoring 6/26"),
+    ("2026-11-06", "CRL-21", "STATUS"): ("RECORD-CORRECTION", "CARL", "AGAINST", "HURTS", "HURTS", "STUCK -> MISSED; the 10/26 instrument-gap claim withdrawn, L843"),
+    ("2026-11-06", "CRL-21", "CONF"): ("RECORD-CORRECTION", "CARL", "", "HURTS", "NEUTRAL", "undated 25% -> first-call 60 (WQ-112 ii, PROME ruling): 0.0625 -> 0.3600"),
+    ("2026-11-06", "CRL-21", "INVALIDATION"): ("ANNOTATION", "", "", "", "", "dated closure of the position clause appended, WQ-632; letter unchanged"),
     ("2026-04-17", "CRL-04", "STATUS"): A,
     ("2026-06-08", "CRL-10", "TIMEFRAME"): A,
     ("2026-06-11", "CRL-10", "TIMEFRAME"): A,
