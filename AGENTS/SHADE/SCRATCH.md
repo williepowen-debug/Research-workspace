@@ -16,7 +16,7 @@
 
 **Open unknowns that matter:** SVF II Finco = Vision Fund 2 NAV loan is INFERRED. $1.4B SoftBank-guaranteed loan = 14% of the $10B OpenAI-share margin loan is INFERRED from arithmetic. $1,749M vs $1.4B ($349M) and $845M vs $0.94B ($95M) unreconciled. O on the WHCO guarantee still unstated. Issuer's rate attribution of the mortgage loss is unaudited in the quarter. `2026 Asset Risk Stress Considerations` deck fetched, not read. Apollo 10-Q read only for the WHCO note.
 
-**Closeout 2026-11-06T15:44:46-05:00:** PROME's ask received. BROCK's IREN holder findings had not arrived at closeout; if they land, drain them next session under `ai-credit-in-wrapper`. Retirement scan run, 3 files archived.
+**Closeout 2026-11-06T15:44:46-05:00:** PROME's ask received. BROCK's packet landed during the push and is taken in: X1 CONCUR, carried by PROME to Will; IREN Mackenzie has no insurer established as a holder (no-insurer finding logged under `ai-credit-in-wrapper`). Retirement scan run, 3 files archived.
 
 **Raw sources** were in session scratch only; accession numbers and hashes are in the research record. Re-fetch from SEC and ir.athene.com.
 

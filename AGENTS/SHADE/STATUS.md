@@ -36,7 +36,7 @@
 | SoftBank-linked | **$4,846M**, SVF II +$1,033M in Q3 | No letter. Vehicle identities INFERRED |
 | Apollo GAAP loss | $3,274M of Athene's $3,418M is mortgage and derivative marks; provision $82M | Accounting and rates on issuer attribution. ⚠️ **90+/non-accrual principal $1,818M → $3,453M, +89.9% YTD** |
 
-**Also:** AAIA Key Ratio #1 (1,635.7%, FY25) recorded **CRITICAL BY LETTER**, no score tied, no rescore · X1 reconcile position sent to BROCK, decision to PROME · BMA holds FY2025 statements for ALRe, AARe, ALReI and each ACRA vehicle, unread · Delaware Life ladder unchanged, sale exploration attributed only, Q3 not posted · cyber: no change.
+**Also:** AAIA Key Ratio #1 (1,635.7%, FY25) recorded **CRITICAL BY LETTER**, no score tied, no rescore · X1 reconcile: BROCK CONCUR 11/6, keep two named tests, PROME carries to Will · BMA holds FY2025 statements for ALRe, AARe, ALReI and each ACRA vehicle, unread · Delaware Life ladder unchanged, sale exploration attributed only, Q3 not posted · cyber: no change.
 
 ## 0u. 2026-10-29 — L781: RATIOS ENCODED, FIRST READINGS (LIVE RAIL)
 
@@ -139,6 +139,8 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 ---
 
 ## 10. Next actions — OWED, in order
+
+🆕 **IREN Mackenzie (BROCK 11/6):** no insurer established as a holder; PIMCO ABL 10-Q ~11/16 and N-PORTs ~11/29 are the next look, BROCK's search stops at EDGAR full text.
 
 **Items carrying a lapsed 10/8 or 10/23 date below are re-dated 2026-11-20 unless marked; the conditional `T-SHADE-01` dig (#8) stays ahead of them.**
 
