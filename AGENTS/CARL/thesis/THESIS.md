@@ -126,7 +126,7 @@ Both directionally support thesis, but only masking has the deferred-visibility 
 4. **Trade duration:** 12-24mo P&L visibility lag means short structures must extend to Q1 2027+. See "Trade Duration Implications" section.
 
 **Falsification windows (4-issuer scope):**
-- **Intermediate (Q3 2026, CRL-21):** ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage-loss projections diverge above FY2023 trajectory ≥+50bps. **If Q3 fails: confidence -25-30pp AND trim positions 25% AND extend duration to Q2 2027+.** Position-action commitment.
+- **Intermediate (Q3 2026, CRL-21):** ALLY consumer auto NCO ≥+30bps QoQ for 2 consecutive quarters OR vintage-loss projections diverge above FY2023 trajectory ≥+50bps. **If Q3 fails: confidence -25-30pp AND trim positions 25% AND extend duration to Q2 2027+.** Position-action commitment. **[2026-11-06: CRL-21 RESOLVED MISSED on both legs (research/2026-11-06_L843/GRADE.md). Position clause NOT executed; the revisit is Will's, via PROME. Score unchanged.]**
 - **Outer (Q1 2027, CRL-20):** ≥3 of {ALLY, COF, SYF, RITM} fail to show NCO/DQ acceleration. Masking thesis invalidated, CONTAINMENT validated.
 
 **Crying-wolf operational X-threshold (placeholder, refinement deferred to standalone working doc):**

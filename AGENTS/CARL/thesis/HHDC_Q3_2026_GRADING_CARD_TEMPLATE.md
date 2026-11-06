@@ -87,3 +87,5 @@
 
 ## §6. ADDENDA
 *(append dated entries below — never edit above this line once frozen)*
+
+**2026-11-06 07:50 ET addendum (CARL, session under WQ-626 A).** The release date is now known: Tue 2026-11-10 11:00 ET, NY Fed media advisory 2026-11-04. ⚠️ **This card's freeze rule was missed: the advisory posted before the card was frozen.** No data has printed. Frozen from this commit as written, no cell edited, late against its own rule and before the data. Two known defects travel with it, stated here rather than fixed in place: §3 and §5 step 5 are stale, because CRL-05 closed NO-VERDICT-BY-BASIS 9/10, so there is no CRL-05 grade at this print. The live grades at this print are §1 (both rows), CRL-30 first grade, the CRL-04 basis note (ROADMAP thread 4) and CRL-33. Leg 1's claims examples are August; the current figure is recorded at grading. Divergence between the two §1 rows still goes to Will the same session.

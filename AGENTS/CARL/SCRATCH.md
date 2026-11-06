@@ -1,90 +1,94 @@
 # CARL SCRATCH
-**Last session:** 2026-11-04 21:13 ET to 2026-11-05 about 08:29 ET (clock jumped about 11 hours while idle); Claude Code, Opus 5.5 (claude-opus-5-5), spawned by PROME prome-b2 on Will's direct assignment 2026-11-04 21:12 ET.
-**Type:** One bounded session: read two DEWEY card reports. No score, threshold, gate, prediction or card move. Sub-agents not refreshed.
+**Last session:** 2026-11-06 from 07:21 ET; file written 07:52 ET; Claude Code, Opus 5.5 (claude-opus-5-5), launched by PROME prome-96 with `scripts/agents.py --opus --new`.
+**Type:** One bounded session under WQ-626 A: D:L843, board ledger gap, whole inbox, WQ-596 predictions, WQ-622 themes. No trade, card, gate, band or threshold.
 
-**PRIORITY-1:** **Next full session: drain what this bounded session left, then Fri 11/06 NFP (V16) and ALLY/RITM checkpoint.** Left: 10 owed action:[CARL] BOARD signals (`board_gap.py`), 8 top-level inbox packets (4 PROME board-ledger gaps, DAEDALUS sweep #5, 3 ISHM), 11 `inbox/WALTER/` signals, COR-20261031-22 unreceipted, and the 11/03 PHAN runner + GIG band ruling, UNREVIEWED past its date. Q3 HHDC is on the docket for 11/05 (date UNVERIFIED).
-
-**CARD READ THIS SESSION (0e11b4958):** research/2026-11-05_card-reports/ANSWER.md, KB-583. Thesis NOT YET on the masking COF row; class-wide 50 bp test NOT COMPUTABLE, DR-1 PARTIAL (97.4 bp weighted / 22.5 bp best leg, historical proxies); JPMorgan default rate NOT COMPUTABLE. THESIS COF cell date merge corrected to KB-245. Citi is DEWEY's PROME-registered row: read its packet if it lands. No watch or job was registered; ordinary issuer reads will show whether the $418M at 90+ days cures, re-ages or charges off.
-
-**WQ-537, 10/29 SESSION (commit 5dc1234ed):** STATUS rotated 26,163 → 22,489 B (69%); CRL-32 OPEN 25% (saving ≤3.8% at 11/25 and 12/23 + real DPI Nov ≤ Sep in the 12/23 vintage; KILL Sept revised ≥4.3%); cohort = Fed DFA deposits/household by income, Q2-26 bottom-40 +1.13% vs top-20 +3.04% YoY (model-allocated, descriptive; next Z.1 12/10 12:00 ET; KB-582); cost = HENRY L775, one figure (Oct CPI-U SA m/m). HHDC Q3 date UNVERIFIED (no NY Fed advisory 10/29). Memo PROME/inbox/2026-10-29_from-CARL_WQ537-buffer-drawdown-letter.md.
+**PRIORITY-1:** **Tue 11/10 11:00 ET: Q3 HHDC (date confirmed at the NY Fed advisory, not 11/05). Grade §1 of `thesis/HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md`, CRL-30 first grade, CRL-04 basis note, CRL-33; a split between the two §1 rows goes to Will the same session.** October NFP is due 11/06 08:30 ET, after this file was written (07:52 ET): V16 branch UNREVIEWED, review 11/10.
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- BEA 10/29 08:30: Q3 GDP +3.4%, real PCE +3.8%; September real PCE flat, real DPI −0.27%, saving rate 3.8% (lowest since Oct 2022). Graded (below).
-- 12 inbox packets landed 10/28–10/29 (DEWEY, HOMER, PHAN ×4, REGINALD, STUE, MARCO, CRUISE, GIG, POP). All drained.
-- PMMS: FRED MORTGAGE30US latest 7.32% (week of 10/22), re-pulled 10/29 09:08 ET; next PMMS today 10/29 ~12:00 ET (not read this session).
+- S&P 500 −4.36% on 11/5 to 7,353.73 (vendor read at 16:05 ET), −6.0% from record; VIX about 28. V14 trigger 7,037.
+- EIA regular $4.153 on 11/02, AAA $4.069 on 11/06. PMMS 7.18% on 11/05. Brent spot $107.03 on 11/03.
+- ALLY and RITM Q3 10-Qs filed, both dated 11/02 on EDGAR.
 
 ## WHAT HAPPENED
-1. **L841 paper exits: already done 10/28** (commit 5b86a24b9). Re-verified this session: all seven 10/27 opens re-fetched (yfinance) and match; fills and the +$313.57 total reproduce to the cent. Artifact: research/2026-10-26_L786/PAPER_DISPOSITION.md lines 29–44; book/PAPER_SLEEVE.tsv lines 5–11.
-2. **L842 graded** (c72a848ac): research/2026-10-29_GDP_PCE/GRADE.md; BEA PDFs/xlsx saved with SHA256SUMS; STATUS savings row + Current judgment; KB-578/579. No letter fired; 53/70 unchanged. GDP docket row pruned; DOC-P10 grade owed noted on DOC's 11/10 row.
-3. **Inbox drain 12 → 0** (baa541abc): research/2026-10-29_inbox/RULINGS.md; board_log 12 rows; packets back to PHAN, GIG, POP, STUE. HOMER Fannie MF 0.62% (KB-580, V3 cell). SHED BNPL carried beside LendingTree (KB-581, RED staged). REGINALD accepted WQ-228 joins. GIG docket 11/04. Five POP docket rows. New docket row 11/03.
+1. **L843:** research/2026-11-06_L843/GRADE.md. CRL-21 STUCK → MISSED at 25%: FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp, AART +3.4 / −4.5 bp, extreme bound +25.4 bp. CARL's 10/26 STUCK conclusion withdrawn; the table was in the same Note.
+2. **Filing notes:** ALLY KB-585, RITM KB-586. CRL-20 stays 1%.
+3. **Drain:** 24 → 0 (11 top-level, 13 WALTER lane). 13 signals dispositioned; `board_gap` shows no owed action. COR-20261031-22 receipted NO-OP. DAEDALUS sweep #5 DONE.
+4. **Predictions:** CRL-33 25% (11/10), CRL-34 72% (12/28), CRL-35 40% (mid-January), CRL-36 70% (FY2026 10-K).
+5. **Themes:** seven `combo:` rows KB-588 to 594; charter step 5b.4.
+6. **HHDC card:** frozen late by addendum; two stale sections named there, not edited.
 
 ## STATUS CHANGES
 | Item | Change |
 |---|---|
-| Savings/real PCE row | Sept + Q3 advance (was August 4.1%) |
-| V3 matrix cell | Fannie MF 0.62% at 9/30, provision +72% (was Aug 0.57%) |
-| BNPL row | Two houses with basis labels (LT 🔴 / SHED 🟡) |
-| Fintech row | REGINALD joins accepted |
+| CRL-21 | STUCK → MISSED 11/06 |
+| New STATUS row | ALLY matched vintage |
+| Rows refreshed | V2, RITM, gas, Brent, borrowing costs, employment, ACA, credit/masking, V14 cell |
+| Current judgment | Rotated verbatim → status_archive/STATUS_ARCHIVE_2026-11.md; STATUS back under 75% |
 | Score | 53/70 v2.6.6 unchanged |
 
 ---
 
 ## NEXT SESSION SHOULD
 
-### SKIPPED THIS SESSION (do at the next full boot)
-- boot.py (step 7.0), BOARD diff (step 5), MEMORY/TEAM/ROADMAP/SCHEMA reads, predictions due-scan 7b/7c, ledger_staleness 7d, ROADMAP/TEAM update, research retirement sweep, consumer_check (no figure of CARL's superseded; HOMER's MF figure was received, not superseded by CARL).
-- STATUS rotation: DONE 10/29 (WQ-537 session), 69% of budget.
+### IMMEDIATE
+- **11/10 11:00 ET:** HHDC, as above. Pull the data file by curl with a browser user agent, open the prior report for the revision check. Also CPI 08:30 ET (CRL-10, goods theme review) and DOC refresh.
+- **By 11/10:** V16 branch on the October NFP, LABOR's print.
+- **11/17:** S49b row, franchisee theme review against Census food services.
 
-### IMMEDIATE (10/29–10/30)
-- **10/29:** EART September 10-D + SDART/BLAST September (WQ-151) — NOT done this session.
-- **10/29 ~12:00 ET:** PMMS weekly print (HOMER owns housing; one-figure reconcile with HOMER/REGINALD pending).
-- **10/30:** WQ-228 CCBX leg (Coastal reported 10/29 pre-market). REGINALD reads the bank side; one figure reconciled.
+### UNREVIEWED, past their dates (carried, none done this session)
+- 11/03 PHAN runner rulings and GIG band reconcile, review 11/10.
+- 11/04 GIG Q3 platform prints; FOMC presser transcript; SLOOS, review 11/10.
+- 11/05 ERS Food Price Outlook; Epiq; Sweet v. McMahon, review 11/10.
+- EART September: OTTO's read logged, CARL has not verified at SEC or written the V2 month grade, review 11/10.
+- WQ-228 CCBX leg, review 11/10.
 
-### UPCOMING
-- **11/03:** sub-agent runner + GIG band (PRIORITY-1). **11/04:** Uber/DoorDash/Dave prints; FOMC presser transcript; SLOOS (UNVERIFIED). **11/05:** Lyft; Epiq (UNVERIFIED); HHDC Q3; Sweet v. McMahon.
-- **11/06:** NFP (V16 print 1 of 2) + ALLY/RITM checkpoint. **11/10:** CPI (CRL-10) + DOC refresh incl. DOC-P10 grade; NFIB. **11/12:** PHAN gate; Census BFS. **11/13:** STUE ES-02; Meritage. **11/23:** AFT. **11/25:** BEA October PCE/income = CRL-32 leg 1. **12/10:** Z.1/DFA cohort read. **12/23:** BEA November = CRL-32 final grade.
+### WAITING ON OTHERS
+- Will, via PROME: revisit of the CRL-21 position clause.
+- PROME or Will may contest the word "projections"; reversible on their word.
+- Management's Q3 call text: not read (Benzinga 403, Fortune header only, Quartr not used).
 
 ### BACKLOG
-- Open questions: thesis kill-rule mismatch (since May 3); archive/ convention with PROME. MEMORY dated review 11/01.
-- 800 non-action BOARD backlog entries (none action-owed).
+- Research retirement sweep NOT RUN this session. Thesis kill-rule mismatch question remains open. 1,024 non-action BOARD backlog entries, none owed.
 
 ---
 
 ## OUTBOX
 | To | Summary |
 |---|---|
-| PHAN inbox | SHED (c); P02 (a); PROVIDER.tsv canonical; P01/P07 do not count; runner deferred 11/03 |
-| GIG inbox | No band edit; Dave graded on both readings; re-dated; KB-380; banner confirmed |
-| POP inbox | Five docket rows; runner deferred; context noted |
-| STUE inbox | Card wording applied |
-| PROME inbox | Delivery memo 2026-10-29 (L841/L842) |
+| PROME inbox | Delivery memo, with new prediction IDs and themes |
+| DAEDALUS inbox | Sweep #5 DONE, one residual |
+| TERRY inbox | CRL-21 MISSED, no card asked |
+| REGINALD inbox | ALLY and RITM 10-Q notes |
+| RED inbox | Own-framework counter-evidence, three points to press |
 
 ## INBOX
-Top-level 8, WALTER lane 11 at 2026-11-05 08:29 ET (`find` lane-descending form); all undrained by assignment, listed in the answer.
+Top-level 0, WALTER lane 0 at 07:50 ET by `PROME/tools/inbox_census.py`.
 
 ## WORKBOOK HEALTH
 | TSV | Note |
 |---|---|
-| KB.tsv | LIVE; 578 lines; KB-578–581 added 10/29; all rows 15 columns |
-| Docket | CATALYSTS 32 rows = CALENDAR 32 rows (hand-checked by count + edited rows) |
+| KB.tsv | LIVE; KB-584 to 594 added; every row 15 columns |
+| PREDICTIONS.tsv | 36 rows, all 11 columns |
+| Docket | CATALYSTS 38 rows = CALENDAR 38 rows |
 | VX.tsv and other parent TSVs | FROZEN, unchanged |
 
 ## URGENT
-- None for Will. The 11/03 GIG band reconciliation must precede the 11/04 Dave print.
+- HHDC card had to be frozen late; do not edit a cell.
+- STATUS is at the edge of its rotation line; rotate before adding.
 
-## CLOSEOUT RECEIPT (bounded spawn, 2026-11-05) — PARTIAL
-See the delivery memo PROME/inbox/2026-11-05_from-CARL_card-reports-thesis-and-test.md for this session's checks: consistency 0 hard, read-cap rc 0, claim check clean; push receipt in the message to PROME. board_gap (without --closeout) shows the 10 owed signals and the corrections check stays nonzero, so PARTIAL.
-
-## PRIOR CLOSEOUT RECEIPT (bounded spawn, 2026-10-29 ~09:10 ET) — PARTIAL
+## CLOSEOUT RECEIPT (bounded session, 2026-11-06) — PARTIAL
 | Obligation | Result |
 |---|---|
-| Consistency (no warn-only) | PASS rc 0 (0 hard, 6 soft) before each commit |
-| Corrections | PASS, 0 unreceipted |
-| BOARD closeout | rc 0; "BOARD scan run, 6 new since SIG-W-20261029-008, 1012 logged" (receipts since cursor, NOT a full-backlog review) |
-| Claim check (STATUS, docket ×2) | PASS |
-| Read-cap | rc 0; STATUS rotate-tier 80% at 09:10 → rotated to 69% in the WQ-537 session (5dc1234ed) |
-| Orphans | none [likely YOURS]; 2 [not yours] left alone |
-| Brief pin | refreshed to STATUS HEAD at the final write |
-| Push | NOT RUN by instruction (PROME pushes at its closeout) |
+| Consistency (no warn-only) | PASS rc 0: 0 hard, 6 soft; 4 new rows clear Check G |
+| Corrections | PASS, 0 unreceipted; COR-20261031-22 NO-OP |
+| BOARD closeout | rc 0: "BOARD scan run, 1 new since SIG-W-20261105-066, 1026 logged" (receipts since cursor, not a full-backlog review) |
+| Claim check (STATUS, docket ×2, SCRATCH) | PASS |
+| Read-cap | rc 0; STATUS 24,360 B, 74.8% of budget, rotate next |
+| Orphans | Mine committed; others' left alone |
+| Ledger nudge | 27 child ledgers listed, none changed here except PHAN and POLLY PREDICTIONS Instrument cells |
+| Consumer check | NOT APPLICABLE: no CARL threshold or figure superseded; HHDC date flagged to PROME |
+| Research retirement sweep | NOT RUN |
+| Independent reader of L843 | NOT RUN; arithmetic reproduced by script, source rows sum to printed totals |
+| Push | See delivery message |

@@ -8,6 +8,17 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-11-06 — CRL-21 RESOLVED MISSED; CRL-33 to CRL-36 registered (no version or score change)
+
+**D:L843, WQ-626 A.** ALLY Q3 10-Q filed 11/02, RITM 10-Q filing date 11/02.
+
+- **CRL-21 STUCK → MISSED, scored at 25%.** Old view: no measurable matched-vintage comparison exists. New view: it was computable from ALLY's origination-year charge-off tables, and AART certificates allow a same-month CNL match. FY2025 −38.0 bp vs FY2023 at matched age (−51.1 bp on balances); FY2026 −5.0 bp; AART +3.4 / −4.5 bp. Extreme off-book bound +25.4 bp. Misses under both the headline AND and the dated-Notes OR. ⚠️ Realized gross, not a published projection; measure chosen post hoc; management call commentary not read. Contestable on the word "projections"; reversible on PROME's or Will's word.
+- **The 10/26 STUCK conclusion is withdrawn.** It read the origination-year balance table and stopped; the charge-off table sat in the same Note. M68 extended.
+- **Position clause NOT executed.** Will's 7/24 ruling plus Cell B set "revisit at the ~Oct vintage leg"; that revisit is now due and goes to Will through PROME.
+- **CRL-20 1% unchanged.** RITM 10-Q note appended: repurchase balance $4.6B vs $4.0B YE, foreclosure advances +23.7% YoY; cushion clause still untestable.
+- **New (WQ-596, L930, 11/5 brief):** CRL-33 card flow above 6.97% at the Q3 HHDC, 25%, 11/10. CRL-34 EIA regular below $4.000 twice running by 12/28, 72%. CRL-35 ALLY Q4 retail auto NCO 2.19% or higher, 40%, mid-January. CRL-36 ALLY FY2026 vintage 30+ above 2.46% at 12/31, 70%, FY2026 10-K. Two resolve after 12/31 because the print only exists then.
+- **Not moved:** matrix 53/70, every vector, every threshold, CRL-30, CRL-31. FY2024 was the best vintage; FY2025 and FY2026 are worsening against it, and FY2026 early delinquency is above FY2023. That is a watch, not a grade.
+
 ## 2026-11-05 — DEWEY card reports read; one dated evidence cell corrected (no version, score or prediction change)
 
 Will's assignment 2026-11-04 21:12 ET. Answer: `research/2026-11-05_card-reports/ANSWER.md`, KB-583. Thesis NOT YET on the masking COF row; class-wide 50 bp test stays NOT COMPUTABLE; DR-1 PARTIAL (97.4 bp weighted / 22.5 bp best leg, historical proxies).

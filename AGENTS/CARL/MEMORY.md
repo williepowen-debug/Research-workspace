@@ -2,7 +2,7 @@
 
 Persistent guidance, not session history. Local100-line cap and root32550-byte budget both apply.
 Rotated September16: full prior text is preserved verbatim in `archive/2026-09-16_closeout/MEMORY.md`; CRC/SHA and obligation mapping in `domain/sources/2026-09-16_closeout-receipt.json`.
-Recheck bytes on any append and every closeout; dated review October1 DONE 2026-10-01 (read_cap_check: under budget, 60 lines; nothing promoted or pruned); next dated review 2026-11-01. Current rules below retain every prior finding; examples and historical numbers are in the archive, not live data.
+Recheck bytes on any append and every closeout; dated review October1 DONE 2026-10-01 (read_cap_check: under budget, 60 lines; nothing promoted or pruned); dated review 2026-11-01 DONE 2026-11-06 (nothing promoted or pruned); next dated review 2026-12-01. Current rules below retain every prior finding; examples and historical numbers are in the archive, not live data.
 
 ## Will’s guidance
 - [2026-06-08] **Domain discipline — CARL focuses strictly on consumer stress.** Don't synthesize upstream (Iran kinetics, OPEC+ mechanics, Brent forward curve) when downstream agents (HAWK/BRENT) own it. CARL's interest in upstream events is only the consumer transmission (gas pump pass-through 17-18d, food/energy CPI, real DPI). The point of domains is so each agent's context window doesn't blow up trying to synthesize the entire world. Read the data file if needed for context; do NOT add Iran-specific rows to STATUS.
@@ -38,7 +38,7 @@ Model-specific Fable guidance is conditional; Codex follows current session tool
 - **M63:** After the second failed attempt on the same instrument, audit the resolution path rather than repeat it indefinitely. Alternative instrument registration is a Will-gated spec change. Require in-source month AND year.
 - **M65:** Carry known access-method workarounds into authorized spawn prompts. If an authorized instruction overrides a local card, state exactly which instruction; never infer broad child authority.
 - **M67:** Before freezing adjacent quantitative cells, test exact boundary values: partition with non-overlapping inequalities. After seeing data, record any seam defect without silently editing the frozen specification.
-- **M68:** Before calling a published number unavailable, inspect its companion spreadsheet/API/appendix. A missing figure in PDF prose is not proof no primary value exists.
+- **M68:** Before calling a published number unavailable, inspect its companion spreadsheet/API/appendix. A missing figure in PDF prose is not proof no primary value exists. Read the whole Note, not the first table that looks like the answer: on 10/26 CARL stopped at ALLY's origination-year balance table and called a comparison unavailable while the charge-off table sat beside it (found 11/06, L843).
 - **M70:** Detect revisions by comparing OLD and NEW reports. Comparing two cells both sourced from the new report is circular. Derived dollars/share calculations must state one vintage; cross-vintage mixing can reverse signs.
 - **M71:** Base-rate both the proposed trigger and the incumbent it replaces. Promoted: finding_base_rate_the_threshold_before_building_it, incident4/rules10–11. Read explicitly when needed; do not assume harness injection.
 - **M72:** Before reading improvement, ask what exits the numerator when a case worsens. For FHA totalDQ, check foreclosure inventory AND90-day bucket; totalDQ excludes foreclosure. Aggregate buckets do not prove same-borrower transitions.

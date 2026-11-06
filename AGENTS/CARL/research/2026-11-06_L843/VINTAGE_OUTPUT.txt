@@ -1,0 +1,42 @@
+Originations 9M/FY: {2023: {'9M': 28168, 'FY': 37123}, 2024: {'9M': 26306, 'FY': 35599}, 2025: {'9M': 29313, 'FY': 39240}, 2026: {'9M': 35726}}
+9M share of FY: {2023: 0.7588, 2024: 0.739, 2025: 0.747}
+
+A. cumulative gross charge-offs / full-year retail originations (Sep Y+0 uses 9M originations), %
+age	2023	2024	2025	2026
+Sep Y+0	0.344	0.247	0.222	0.294
+Dec Y+0	0.606	0.449	0.428	
+Sep Y+1	2.133	1.587	1.753	
+Dec Y+1	2.705	2.034		
+Sep Y+2	4.251	3.295		
+Dec Y+2	4.717			
+Sep Y+3	5.851			
+
+B. same numerator / on-book balance at first 9/30 (Sep Y+0) or first 12/31, %
+Sep Y+0	0.389	0.272	0.244	0.324
+Dec Y+0	0.715	0.517	0.490	
+Sep Y+1	2.518	1.827	2.007	
+Dec Y+1	3.192	2.342		
+Sep Y+2	5.017	3.794		
+Dec Y+2	5.568			
+Sep Y+3	6.906			
+
+C. gaps to FY2023 at the same age, bp
+2025 Sep Y+0 orig basis -12.3 bal basis -14.4
+2025 Dec Y+0 orig basis -17.8 bal basis -22.5
+2025 Sep Y+1 orig basis -38.0 bal basis -51.1
+2026 Sep Y+0 orig basis -5.0 bal basis -6.4
+2024 Sep Y+0 orig basis -9.7 bal basis -11.7
+2024 Dec Y+0 orig basis -15.7 bal basis -19.8
+2024 Sep Y+1 orig basis -54.6 bal basis -69.1
+2024 Dec Y+1 orig basis -67.1 bal basis -85.1
+2024 Sep Y+2 orig basis -95.6 bal basis -122.4
+
+D. FY2025 v FY2024 at same age, bp
+Sep Y+0 -2.5
+Dec Y+0 -2.1
+Sep Y+1 +16.6
+FY2026 v FY2025 Sep Y+0 +7.2; v FY2024 +4.7
+
+E. extreme bound: +$249M all to FY2025: 2.388%, gap to FY2023 +25.4 bp
+F. FY2023 Sep Y+1 / latest Sep Y+3 cum: 0.365
+   A +50 bp gap at Sep Y+3 maps to about +18 bp at Sep Y+1 if proportional
