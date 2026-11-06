@@ -1,0 +1,542 @@
+--- prior/README.md
++++ candidate/README.md
+@@ -1,3 +1,7 @@
++## WQ-641 confirmation and installation update
++
++See [the owner contract](WQ638.md) for explicit recommended choices, preserved conditions and the receive/rule sequence. The reviewed build supports `app_only_enabled: false` in published acceptance: **every answer then needs matching PROME-chat confirmation**, even if its card is internally eligible. Missing or invalid enablement also stays chat-required. Enable app-only only after demonstrated live interactive PROME notification and a valid `app_only_since`; older answers are not upgraded. The fallback does not install hooks. The earlier acceptance examples omit enablement and therefore select the conservative fallback.
++
+ # Decisions — local daily desk
+ 
+ Open **Decisions → Open Decisions** in the Agent Launcher, or run from the repository root:
+--- prior/WQ638.md
++++ candidate/WQ638.md
+@@ -1,4 +1,11 @@
+ # Option A owner contract
++
++**WQ-641 return:** installation may use the authorized fallback below. This section supersedes the earlier probe/install assumptions. App-only authority is OFF unless acceptance explicitly sets `app_only_enabled: true` and an actual timezone-aware `app_only_since` after proven live alerts. Absent/false/invalid settings mean matching chat on EVERY answer, in the UI, intake and preparation. Answers saved before that activation time cannot be upgraded retroactively. Do not install notification hooks in the fallback deployment.
++
++New integration preparation fetches published state and requires a prior published received receipt for both chat and app-only rulings. App-only preparation additionally checks the current exact row/source and latest answer. Historical replay intentionally does not compare against today’s source or today’s enablement; valid older rulings remain valid. Legacy `/1` receipt history is retained. New `/2` replay requires a preceding received receipt.
++
++A bad card source is isolated to that card; unidentifiable response/receipt corruption still stops the desk for reconciliation. Connection status is refreshed independently of transient operation messages. SessionStart claims a new watcher before waiting for the old lock; the former session cannot refresh or end the new lease. Headless input exits without starting a long-lived watcher. These mechanics are fixture-tested, not proof of live PROME notification.
++
+ 
+ WQ-638 A authorizes app answers for explicitly classified reversible internal decisions. Unknown scopes, trades, spending, external sends, held positions, security and destructive work still require matching chat confirmation. The app cannot authenticate Will separately from other programs under his login. PROME's condition/scope/conflict judgment and same-day readback remain human-in-the-loop owner obligations, not guarantees made by a parser.
+ 
+--- prior/app.py
++++ candidate/app.py
+@@ -14,6 +14,7 @@
+ import history
+ import briefs
+ from notifications import Notifications
++from authorization import app_only_enabled
+ from pilot_files import PilotStore, Repo, RESPONSES, RECEIPTS, strict_json
+ from queue_store import QueueStore, QUEUE, REPLIES, open_rows, unit_for
+ from server import make_server
+@@ -85,7 +86,8 @@
+     def display(self):
+         with self.lock:
+             enabled, limit = self.permissions()
+-            cards, errors, rows = [], [], {}
++            cards, errors, source_errors, rows = [], [], [], {}
++            app_authority = app_only_enabled(self.repo)
+             try:
+                 rows = open_rows(self.repo.path(QUEUE).read_text())
+             except (ValueError, OSError) as error:
+@@ -126,8 +128,8 @@
+                     for e in card["events"]:
+                         card.setdefault("event_delivery", {})[e["id"]] = delivery.delivery_state(self.repo, e)
+                     cards.append(card)
+-                except (ValueError, OSError, subprocess.CalledProcessError) as error:
+-                    errors.append("WQ-" + wq + ": " + str(error))
++                except (ValueError, TypeError, KeyError, AttributeError, OSError, subprocess.CalledProcessError) as error:
++                    source_errors.append("WQ-" + wq + ": " + str(error))
+                     if wq in rows:
+                         cards.append({"wq_id": wq, "unit": unit_for(rows[wq]), "hash": None,
+                                       "group": "Tasks for me" if rows[wq]["kind"] == "HANDS" else "Decisions",
+@@ -161,6 +163,8 @@
+                 for card in cards:
+                     card["can_respond"] = False
+             for card in cards:
++                card["requires_confirmation"] = (card.get("requires_confirmation", True) or not app_authority
++                                                 or bool(card.get("last") and not app_only_enabled(self.repo, card["last"])))
+                 historical = card["group"] == "History" or bool(card.get("errors"))
+                 card.update(briefs.presentation(card.get("snapshot") or {}, historical=historical))
+                 try:
+@@ -180,7 +184,7 @@
+             rulings = history.recent(self.repo)
+             remote = self.repo.git("remote", "get-url", "origin").strip().removesuffix(".git")
+             match = re.fullmatch(r"(?:https://github\.com/|git@github\.com:)([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", remote)
+-            return {"mode": "decisions-desk", "cards": cards, "errors": errors, "limit": limit,
++            return {"mode": "decisions-desk", "cards": cards, "errors": errors, "source_errors": source_errors, "limit": limit,
+                     "source_url": "https://github.com/" + match[1] + "/blob/" if match else None,
+                     "rulings": rulings, "notification": notification,
+                     "can_deliver": enabled and not errors, "sync": self.sync_receipt,
+--- prior/authorization.py
++++ candidate/authorization.py
+@@ -10,7 +10,8 @@
+ def validate_policy(policy):
+     if not isinstance(policy, dict) or set(policy) != {'mode', 'scope', 'reason'}:
+         raise ValueError('Confirmation policy requires mode, scope and reason')
+-    if policy['mode'] not in {'app', 'chat'} or policy['scope'] not in SCOPES:
++    if (not isinstance(policy['mode'], str) or not isinstance(policy['scope'], str)
++            or policy['mode'] not in {'app', 'chat'} or policy['scope'] not in SCOPES):
+         raise ValueError('Unknown confirmation policy; chat confirmation required')
+     if not isinstance(policy['reason'], str) or not policy['reason'].strip() or len(policy['reason']) > 3000:
+         raise ValueError('Confirmation policy requires a bounded owner explanation')
+@@ -70,3 +71,31 @@
+         raise ValueError('PROME must read the ruling back on the same day')
+     if proof['readback_text'] != readback_text(event):
+         raise ValueError('Readback must preserve the exact answer and conditions')
++
++
++def app_only_enabled(repo, event=None):
++    """Deployment opt-in; source eligibility alone cannot remove chat confirmation."""
++    import subprocess
++    from pilot_files import strict_json
++    from app import accepted, ACCEPTANCE
++    try:
++        if not accepted(repo)[0]:
++            return False
++        raw = repo.read(ACCEPTANCE, 'origin/master', prefix='PROME/decisions')
++        if repo.read(ACCEPTANCE, clean=True, prefix='PROME/decisions') != raw:
++            return False
++        record = strict_json(raw)
++        if record.get('app_only_enabled') is not True:
++            return False
++        from pilot_files import timestamp
++        from datetime import timezone
++        since = timestamp(record.get('app_only_since'))
++        if since > datetime.now(timezone.utc):
++            return False
++        return event is None or timestamp(event['saved_at']) >= since
++    except (ValueError, TypeError, AttributeError, OSError, subprocess.CalledProcessError):
++        return False
++
++
++def requires_chat(repo, snapshot, event=None):
++    return needs_chat(snapshot) or not app_only_enabled(repo, event)
+--- prior/desk.html
++++ candidate/desk.html
+@@ -1,10 +1,10 @@
+ <!doctype html>
+ <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Decisions</title><style>
+-:root{color-scheme:light;--ink:#203c38;--muted:#586c66;--paper:#fffef9;--line:#d7ded5;--green:#174d40;--wash:#f2f3ec;--amber:#fff0cc}*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.6 system-ui,sans-serif}header{background:var(--green);color:white;padding:30px max(24px,calc((100vw - 1180px)/2));display:flex;justify-content:space-between;gap:24px;align-items:center}h1{font:42px Georgia,serif;margin:0}header p{margin:4px 0;color:#dce9df}.shell{max-width:1230px;margin:auto;padding:24px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px}nav{position:sticky;top:20px;align-self:start;display:grid;gap:8px}button,input,textarea,select{font:inherit}button{cursor:pointer;padding:10px 16px;border:1px solid #9db2a5;border-radius:7px;color:var(--ink);background:var(--paper)}button:hover{border-color:var(--green);box-shadow:0 2px 5px #15362d15}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #bb923c;outline-offset:3px}#choice-buttons button[aria-pressed=true],button.primary,nav button[aria-pressed=true]{background:var(--green);color:white}header button{background:transparent;color:white;border-color:#a7c0b1}button:disabled{opacity:.55;cursor:default}nav button{text-align:left;display:flex;justify-content:space-between}input,textarea,select{padding:10px;border:1px solid #b8c5b9;border-radius:6px;background:white;width:100%;color:var(--ink)}textarea{min-height:130px}label{display:block;margin:15px 0 5px}.toolbar{display:flex;gap:12px;align-items:center;margin-bottom:18px}.toolbar input{max-width:440px}article{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:18px;overflow-wrap:anywhere}h2{font:25px/1.35 Georgia,serif;margin:9px 0 14px}h3{font-size:17px;margin:14px 0 8px}.eyebrow,.small{font-size:13px;color:var(--muted)}.row{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.badge{padding:3px 9px;background:#e5eee2;border-radius:20px;font-size:13px}.notice{background:var(--amber);border-left:3px solid #ae872d;padding:12px 16px;margin:12px 0;border-radius:3px}.success{background:#e5eee2;border-left-color:var(--green)}.recommendation-response{margin-top:16px;padding:16px;background:var(--wash);border-radius:8px}.recommendation-response textarea{min-height:75px}.conditions li{margin:9px 0}.choice-description{border-left:2px solid var(--line);padding-left:14px;margin:12px 0}a{color:var(--green)}.bodytext{white-space:pre-wrap;margin:9px 0}.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:18px}.stages{display:flex;gap:8px;flex-wrap:wrap;padding:0;list-style:none;margin:12px 0}.stages li{border-bottom:3px solid var(--line);padding:3px 8px;color:var(--muted);font-size:13px}.stages li.done{border-color:var(--green);color:var(--green)}details{margin-top:15px}summary{cursor:pointer;color:var(--green)}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 ui-monospace,monospace}#global-status{max-width:1180px;margin:16px auto 0;padding:0 24px;white-space:pre-wrap}dialog{max-width:900px;width:calc(100% - 30px);max-height:90vh;overflow:auto;padding:28px;border:1px solid #a9b9ab;border-radius:12px;color:var(--ink);background:var(--paper)}dialog::backdrop{background:#102d26aa}.dialog-actions{position:sticky;bottom:-28px;background:var(--paper);padding:16px 0;margin-top:20px;border-top:1px solid var(--line)}.review-terms{max-height:38vh;overflow:auto;padding:16px;background:var(--wash);border:1px solid var(--line);border-radius:7px}#count{color:var(--muted);font-size:14px}.empty{padding:45px 20px;text-align:center;color:var(--muted)}[hidden]{display:none!important}@media(max-width:760px){header{padding:22px;align-items:start}h1{font-size:32px}.shell{display:block;padding:16px}nav{position:static;grid-template-columns:1fr 1fr;margin-bottom:22px}article{padding:18px}.toolbar{align-items:start;flex-direction:column}dialog{padding:20px}.dialog-actions{bottom:-20px}}
++:root{color-scheme:light;--ink:#203c38;--muted:#586c66;--paper:#fffef9;--line:#d7ded5;--green:#174d40;--wash:#f2f3ec;--amber:#fff0cc}*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.6 system-ui,sans-serif}header{background:var(--green);color:white;padding:30px max(24px,calc((100vw - 1180px)/2));display:flex;justify-content:space-between;gap:24px;align-items:center}h1{font:42px Georgia,serif;margin:0}header p{margin:4px 0;color:#dce9df}.shell{max-width:1230px;margin:auto;padding:24px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px}nav{position:sticky;top:20px;align-self:start;display:grid;gap:8px}button,input,textarea,select{font:inherit}button{cursor:pointer;padding:10px 16px;border:1px solid #9db2a5;border-radius:7px;color:var(--ink);background:var(--paper)}button:hover{border-color:var(--green);box-shadow:0 2px 5px #15362d15}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #bb923c;outline-offset:3px}#choice-buttons button[aria-pressed=true],button.primary,nav button[aria-pressed=true]{background:var(--green);color:white}header button{background:transparent;color:white;border-color:#a7c0b1}button:disabled{opacity:.55;cursor:default}nav button{text-align:left;display:flex;justify-content:space-between}input,textarea,select{padding:10px;border:1px solid #b8c5b9;border-radius:6px;background:white;width:100%;color:var(--ink)}textarea{min-height:130px}label{display:block;margin:15px 0 5px}.toolbar{display:flex;gap:12px;align-items:center;margin-bottom:18px}.toolbar input{max-width:440px}article{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:18px;overflow-wrap:anywhere}h2{font:25px/1.35 Georgia,serif;margin:9px 0 14px}h3{font-size:17px;margin:14px 0 8px}.eyebrow,.small{font-size:13px;color:var(--muted)}.row{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.badge{padding:3px 9px;background:#e5eee2;border-radius:20px;font-size:13px}.notice{background:var(--amber);border-left:3px solid #ae872d;padding:12px 16px;margin:12px 0;border-radius:3px}.success{background:#e5eee2;border-left-color:var(--green)}.recommendation-response{margin-top:16px;padding:16px;background:var(--wash);border-radius:8px}.recommendation-response textarea{min-height:75px}.conditions li{margin:9px 0}.choice-description{border-left:2px solid var(--line);padding-left:14px;margin:12px 0}a{color:var(--green)}.bodytext{white-space:pre-wrap;margin:9px 0}.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:18px}.stages{display:flex;gap:8px;flex-wrap:wrap;padding:0;list-style:none;margin:12px 0}.stages li{border-bottom:3px solid var(--line);padding:3px 8px;color:var(--muted);font-size:13px}.stages li.done{border-color:var(--green);color:var(--green)}details{margin-top:15px}summary{cursor:pointer;color:var(--green)}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 ui-monospace,monospace}#connection-status{max-width:1180px;margin:12px auto;padding:0 24px}#global-status{max-width:1180px;margin:16px auto 0;padding:0 24px;white-space:pre-wrap}dialog{max-width:900px;width:calc(100% - 30px);max-height:90vh;overflow:auto;padding:28px;border:1px solid #a9b9ab;border-radius:12px;color:var(--ink);background:var(--paper)}dialog::backdrop{background:#102d26aa}.dialog-actions{position:sticky;bottom:-28px;background:var(--paper);padding:16px 0;margin-top:20px;border-top:1px solid var(--line)}.review-terms{max-height:38vh;overflow:auto;padding:16px;background:var(--wash);border:1px solid var(--line);border-radius:7px}#count{color:var(--muted);font-size:14px}.empty{padding:45px 20px;text-align:center;color:var(--muted)}[hidden]{display:none!important}@media(max-width:760px){header{padding:22px;align-items:start}h1{font-size:32px}.shell{display:block;padding:16px}nav{position:static;grid-template-columns:1fr 1fr;margin-bottom:22px}article{padding:18px}.toolbar{align-items:start;flex-direction:column}dialog{padding:20px}.dialog-actions{bottom:-20px}}
+ </style></head><body>
+ <header><div><h1>Decisions</h1><p>Your questions, tasks and follow-through.</p></div><button id="sync">Sync latest records</button></header>
+-<p id="global-status" role="status" aria-live="polite">Loading your desk…</p><details id="diagnostics" hidden style="max-width:1180px;margin:10px auto;padding:0 24px"><summary>Source details</summary><pre id="diagnostic-text"></pre></details>
++<p id="connection-status" role="status" class="small"></p><p id="global-status" role="status" aria-live="polite">Loading your desk…</p><details id="diagnostics" hidden style="max-width:1180px;margin:10px auto;padding:0 24px"><summary>Source details</summary><pre id="diagnostic-text"></pre></details>
+ <div class="shell"><nav id="nav" aria-label="Work views"></nav><main><div class="toolbar"><input id="search" type="search" aria-label="Search decisions and tasks" placeholder="Search this view"><span id="count"></span></div><div id="cards"></div></main></div>
+ <dialog id="reply" aria-labelledby="reply-title"><h2 id="reply-title">Your response</h2><div id="reply-terms" class="review-terms"></div><label for="action">What would you like to do?</label><select id="action"></select><fieldset id="choices" hidden><legend>Choose an option</legend><div id="choice-buttons" class="actions"></div><p id="choice-meaning" class="bodytext"></p></fieldset><div id="verdict-panel" hidden><p id="verdict-label" class="notice"></p><label for="verdict-scope">The specific decision you mean</label><input id="verdict-scope" placeholder="Name the action you approve or disapprove"><p class="small">Only this scope and your conditions will be included. The recommendation above is reference text.</p></div><label for="note">Your words and any conditions</label><textarea id="note" placeholder="Write your response, including the option letter or task you mean. Conditions are kept exactly as written."></textarea><div id="return-field" hidden><label for="revisit">When should this return?</label><input id="revisit" placeholder="A date or condition, such as after the next filing"></div><p id="confirmation-note" class="small"></p><p id="reply-status" role="status"></p><div class="actions dialog-actions"><button id="cancel">Keep reading</button><button id="review" class="primary">Review response</button></div></dialog>
+ <dialog id="review-dialog" aria-labelledby="review-title"><h2 id="review-title">Review before sending</h2><div id="review-body"></div><p class="small">Delivery publishes your response and any other already committed workspace changes. It does not publish unsaved edits.</p><p id="review-confirmation" class="small"></p><p id="review-status" role="status"></p><div class="actions dialog-actions"><button id="back">Keep editing</button><button id="save-local">Save on this computer</button><button id="send" class="primary">Save &amp; deliver to PROME</button></div></dialog>
+@@ -44,7 +44,8 @@
+ async function save(send){if(busy||!pending)return;busy=true;for(const id of ['send','save-local','back'])$(id).disabled=true;try{const e=await api('/api/responses',pending);delete drafts[pending.unit_id];delete inlineConditions[pending.unit_id];if(send){try{const r=await api('/api/deliver',{id:e.id});$('global-status').textContent=r.message;}catch(error){$('global-status').textContent='Response saved. '+error.message;}}pending=null;$('review-dialog').close();view='Follow-through';await load(false);}catch(error){$('review-status').textContent=error.message+' Your draft is retained.';}finally{busy=false;for(const id of ['send','save-local','back'])$(id).disabled=false;}}
+ $('send').onclick=()=>save(true);$('save-local').onclick=()=>save(false);for(const id of ['reply','review-dialog'])$(id).addEventListener('cancel',e=>{if(busy)e.preventDefault();});
+ async function deliver(id){if(busy)return;busy=true;try{const r=await api('/api/deliver',{id});$('global-status').textContent=r.message;await load(false);}catch(error){$('global-status').textContent=error.message;}finally{busy=false;}}
+-function showDiagnostics(){const problems=[model.limit,...model.errors,...(model.rulings?.errors||[])].filter(Boolean);$('diagnostics').hidden=!problems.length;$('diagnostic-text').textContent=problems.join('\n');}
+-async function load(replaceStatus=true){try{model=await api('/api/display');showDiagnostics();if(replaceStatus)$('global-status').textContent=[model.limit?model.limit+' Saved history is available.':'',model.errors.length?'Some records need a source refresh. Use Sync latest records; your saved answers are preserved.':''].filter(Boolean).join(' ' )||'Records loaded. Your saved answers are preserved.'+(model.notification?' '+model.notification.message:'');render();}catch(error){$('global-status').textContent=error.message;}}
+-$('sync').onclick=async()=>{if(busy)return;busy=true;$('sync').disabled=true;try{const r=await api('/api/sync',{});await load();$('global-status').textContent=r.message+(model?.limit?' Replies remain unavailable; see Source details.':'')+(model?.errors?.length?' Some sources still need reconciliation.':'');}catch(error){$('global-status').textContent='Sync did not finish: '+error.message;}finally{busy=false;$('sync').disabled=false;}};$('search').oninput=render;load();setInterval(()=>{if(!busy&&!document.querySelector('dialog[open]')&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))load(false);},60000);
++function showDiagnostics(){const problems=[model.limit,...model.errors,...(model.source_errors||[]),...(model.rulings?.errors||[])].filter(Boolean);$('diagnostics').hidden=!problems.length;$('diagnostic-text').textContent=problems.join('\n');}
++async function refreshConnection(){try{const state=await api('/api/display');$('connection-status').textContent=state.notification?.message||'PROME notification status is unknown.';}catch(error){$('connection-status').textContent='PROME connection status is unknown; the latest status could not be loaded.';}}
++async function load(replaceStatus=true){try{model=await api('/api/display');$('connection-status').textContent=model.notification?.message||'PROME notification status is unknown.';showDiagnostics();if(replaceStatus)$('global-status').textContent=[model.limit?model.limit+' Saved history is available.':'',(model.errors.length||model.source_errors?.length)?'Some records need a source refresh. Use Sync latest records; your saved answers are preserved.':''].filter(Boolean).join(' ' )||'Records loaded. Your saved answers are preserved.';render();}catch(error){$('global-status').textContent=error.message;$('connection-status').textContent='PROME connection status is unknown; the latest status could not be loaded.';}}
++$('sync').onclick=async()=>{if(busy)return;busy=true;$('sync').disabled=true;try{const r=await api('/api/sync',{});await load();$('global-status').textContent=r.message+(model?.limit?' Replies remain unavailable; see Source details.':'')+(model?.errors?.length?' Some sources still need reconciliation.':'');}catch(error){$('global-status').textContent='Sync did not finish: '+error.message;$('connection-status').textContent='PROME connection status is unknown; sync did not finish.';}finally{busy=false;$('sync').disabled=false;}};$('search').oninput=render;load();setInterval(()=>{if(!busy&&!document.querySelector('dialog[open]')&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))load(false);else refreshConnection();},60000);
+ </script></body></html>
+--- prior/notification_hook.py
++++ candidate/notification_hook.py
+@@ -15,10 +15,10 @@
+ 
+ HERE = Path(__file__).resolve().parent
+ sys.path.insert(0, str(HERE))
+-from notifications import Notifications, process_identity, session_parent
++from notifications import Notifications, process_identity, session_parent, interactive_parent
+ 
+ 
+-def run(payload, root, state, *, parent=None, poll=5, lifetime=43200):
++def run(payload, root, state, *, parent=None, poll=5, lifetime=43200, interactive=None):
+     if Path(payload.get('cwd','')).resolve() != (root/'PROME').resolve():
+         return 0
+     session = payload.get('session_id')
+@@ -32,16 +32,21 @@
+     if event not in {'SessionStart','PostToolUse','Stop'}:
+         return 0
+     parent = parent or session_parent()
+-    if parent is None:
++    if parent is None or not (interactive_parent(parent) if interactive is None else interactive):
+         return 0  # Cannot claim a live session from a test/unknown caller.
++    watcher = process_identity(os.getpid())
++    if watcher is None or not queue.claim(session,watcher,replace=event=='SessionStart'):
++        return 0
+     with (queue.state/'notification-listener.lock').open('a') as lock:
+-        try:
+-            fcntl.flock(lock, fcntl.LOCK_EX|fcntl.LOCK_NB)
+-        except BlockingIOError:
+-            return 0
+-        watcher = process_identity(os.getpid())
+-        if watcher is None:return 0
+-        queue.heartbeat(session,watcher,starting=True)
++        deadline = time.monotonic()+15
++        while True:
++            try:
++                fcntl.flock(lock, fcntl.LOCK_EX|fcntl.LOCK_NB)
++                break
++            except BlockingIOError:
++                if time.monotonic() >= deadline:
++                    return 0
++                time.sleep(min(poll, .25))
+         end = time.monotonic()+lifetime
+         while time.monotonic()<end and process_identity(parent['pid']) == parent:
+             if not queue.heartbeat(session,watcher):return 0
+--- prior/notifications.py
++++ candidate/notifications.py
+@@ -29,6 +29,23 @@
+         except (OSError, ValueError, IndexError):
+             return None
+     return None
++
++
++def interactive_parent(identity):
++    """Only a real interactive Claude stdin supports this installed watcher."""
++    try:
++        argv = Path(f"/proc/{identity['pid']}/cmdline").read_bytes().decode().split('\0')
++        if any(arg == '--print' or arg.startswith('--print=')
++               or (arg.startswith('-') and not arg.startswith('--') and 'p' in arg[1:])
++               for arg in argv[1:]):
++            return False  # `claude -p PROMPT` can inherit a terminal stdin.
++        fd = os.open(f"/proc/{identity['pid']}/fd/0", os.O_RDONLY | os.O_NONBLOCK)
++        try:
++            return os.isatty(fd)
++        finally:
++            os.close(fd)
++    except (OSError, KeyError, TypeError):
++        return False
+ 
+ 
+ class Notifications:
+@@ -70,14 +87,29 @@
+                        (event['id'],event['sha256'],packet,time.time()))
+         return self.status()
+ 
++    def claim(self, session, identity, *, replace=False):
++        with self.connect() as db:
++            db.execute('BEGIN IMMEDIATE')
++            row = db.execute('SELECT * FROM listener WHERE singleton=1').fetchone()
++            active = row and not row['ended'] and process_identity(row['pid']) == {
++                'pid':row['pid'], 'start':row['start'], 'boot':row['boot']}
++            if active and (row['session'] == session or not replace):
++                return False
++            # Claim before waiting for the old process's lock. Its next heartbeat
++            # fails; old SessionEnd cannot end the new session. Beat zero means
++            # starting/UNKNOWN until this watcher actually owns the lock.
++            db.execute('INSERT OR REPLACE INTO listener VALUES (1,?,?,?,?,0,0)',
++                       (session, identity['pid'], identity['start'], identity['boot']))
++            return True
++
+     def heartbeat(self, session, identity, starting=False):
+         with self.connect() as db:
+             if starting:
+                 db.execute('INSERT OR REPLACE INTO listener VALUES (1,?,?,?,?,?,0)',
+                            (session,identity['pid'],identity['start'],identity['boot'],time.time()))
+                 return True
+-            return db.execute('UPDATE listener SET beat=? WHERE session=? AND ended=0',
+-                              (time.time(),session)).rowcount == 1
++            return db.execute('UPDATE listener SET beat=? WHERE session=? AND pid=? AND start=? AND boot=? AND ended=0',
++                              (time.time(),session,identity['pid'],identity['start'],identity['boot'])).rowcount == 1
+ 
+     def end(self, session):
+         with self.connect() as db:
+--- prior/owner_receipt.py
++++ candidate/owner_receipt.py
+@@ -14,7 +14,7 @@
+ from pilot_files import RECEIPTS, RESPONSES, Repo, encoded, identifier, read_receipts, strict_json
+ from queue_store import REPLIES, queue_chain, check_current_snapshot, validate_reply
+ from store import reader
+-from authorization import needs_chat, readback_text, validate_app_integration
++from authorization import requires_chat, app_only_enabled, readback_text, validate_app_integration
+ 
+ 
+ def load_event(repo, event_id):
+@@ -33,6 +33,8 @@
+ 
+ 
+ def prepare(repo, event, state, ruling=None, confirmation=None, app_only=False):
++    if state == "integrated":
++        repo.git("fetch", "origin")
+     validate(repo, event)
+     old = read_receipts(repo, event)
+     if old and (old[-1]["state"] != "received" or state == "received"):
+@@ -43,6 +45,9 @@
+         raise ValueError("App-only integration needs an owner ruling and no invented chat confirmation")
+     at = datetime.now(timezone.utc).isoformat()
+     if state == "integrated":
++        published = read_receipts(repo, event, commit="origin/master")
++        if not old or old != published or old[-1]["state"] != "received":
++            raise ValueError("Integration requires a prior published received receipt")
+         for ref in ((ruling,) if app_only else (ruling, confirmation)):
+             if not isinstance(ref, dict) or set(ref) != {"path", "commit"}:
+                 raise ValueError("Integration requires published ruling and matching-confirmation references")
+@@ -53,6 +58,9 @@
+     elif ruling or confirmation:
+         raise ValueError("Only integration carries ruling/confirmation references")
+     if app_only:
++        if not app_only_enabled(repo, event):
++            raise ValueError("Chat confirmation is required for every answer until live notification is enabled")
++        check_current_snapshot(repo, event["display"])
+         validate_app_integration(repo, event, ruling, at)
+         assert_latest_app_answer(repo, event)
+     result = {"schema_version": "decisions-receipt/2" if app_only else "decisions-receipt/1", "id": uuid.uuid4().hex,
+@@ -129,7 +137,7 @@
+         assert_current(repo, event["display"])
+     return {"status": "received" if receipts else "ready", "packet": packet,
+             "receipt": receipts[-1] if receipts else None,
+-            "requires_chat_confirmation": needs_chat(event["display"]),
++            "requires_chat_confirmation": requires_chat(repo, event["display"], event),
+             "readback_text": readback_text(event),
+             "meaning": "Mechanical checks only; PROME reviews conditions and chat conflicts, reads back the exact ruling, and records it. App-only integration requires its pinned scope/readback attestation."}
+ 
+--- prior/pilot_files.py
++++ candidate/pilot_files.py
+@@ -449,6 +449,8 @@
+             raise ValueError("Non-integrated receipt contains ambiguous ruling fields")
+         receipts.append(receipt)
+     ordered = chain(receipts, "id", lambda r: r["previous_receipt_id"])
++    if ordered and ordered[0]["schema_version"] == "decisions-receipt/2":
++        raise ValueError("App-only integration requires a prior received receipt")
+     for earlier, later in zip(ordered, ordered[1:]):
+         if earlier["state"] != "received" or later["state"] == "received" or timestamp(later["at"]) < timestamp(earlier["at"]):
+             raise ValueError("Invalid or conflicting receipt progression")
+--- prior/test_batch.py
++++ candidate/test_batch.py
+@@ -157,7 +157,7 @@
+         receipt=json.loads(files[0].read_text()); self.assertEqual(receipt['state'],'received')
+         self.assertIsNone(receipt['canonical_ruling']); self.assertIsNone(receipt['chat_confirmation'])
+         self.assertEqual(self.repo.path('PROME/WILL_QUEUE.md').read_text(),self.text)
+-        self.assertTrue(first['requires_chat_confirmation'])
++        self.assertTrue(first['items'][0]['requires_chat_confirmation'])
+         self.assertEqual(self.git('diff','--cached','--name-only'),'')
+ 
+     def test_intake_rejects_stale_terms_and_superseded_answer(self):
+--- prior/test_desk.py
++++ candidate/test_desk.py
+@@ -347,6 +347,9 @@
+         import owner_receipt
+         e = self.store.save(self.request()); delivery.deliver(self.repo, e)
+         self.assertEqual(owner_receipt.load_event(self.repo, e["id"]), e)
++        received = owner_receipt.prepare(self.repo,e,"received")
++        self.put(f"PROME/decisions/receipts/{e['id']}/{received['id']}.json",encoded(received)+"\n")
++        self.commit(publish=True)
+         with self.assertRaisesRegex(ValueError, "requires published"):
+             owner_receipt.prepare(self.repo, e, "integrated")
+         self.put("PROME/proposals/fixture-RULED.md", "Fictional owner ruling plus matching confirmation")
+@@ -359,7 +362,7 @@
+         self.put(f"PROME/decisions/receipts/{e['id']}/{receipt['id']}.json", encoded(receipt) + "\n")
+         self.put("PROME/WILL_QUEUE.md", "\n".join(l for l in self.text.splitlines() if not l.startswith("| 901")))
+         self.commit(publish=True)
+-        self.assertEqual(read_receipts(self.repo, e), [receipt])
++        self.assertEqual(read_receipts(self.repo, e), [received, receipt])
+         display = self.store.display()
+         self.assertEqual(display["group"], "History")
+         self.assertFalse(display["can_respond"])
+--- prior/test_desk_review.py
++++ candidate/test_desk_review.py
+@@ -22,6 +22,8 @@
+     install_options = fixtures.DeskTests.install_options
+ 
+     def integrate(self, event, close=False):
++        path = owner_receipt.write_received(self.repo,event)
++        self.git('add','--',path);self.git('commit','-qm','Received fixture','--',path);self.git('push','-q')
+         path = 'PROME/proposals/fixture-RULED.md'
+         self.put(path, 'WQ-901: matching chat confirmation and ruling for this fixture.')
+         self.git('add', '--', path); self.git('commit', '-qm', 'Fixture ruling', '--', path); self.git('push', '-q')
+--- prior/test_wq638.py
++++ candidate/test_wq638.py
+@@ -33,8 +33,24 @@
+         self.display=self.store.display()
+         return path
+ 
++    def enable_app(self):
++        import app
++        self.put('PROME/reports/fixture-review.md','Fixture review only')
++        self.commit(publish=True)
++        acceptance=dict(schema_version='decisions-app-acceptance/1',queue_responses=True,
++                        matching_chat_confirmation=True,confirmation_policy='explicit-reversible-internal/1',
++                        app_only_enabled=True,app_only_since='2026-01-01T00:00:00+00:00',build_hashes=app.build_hashes(),
++                        independent_review=dict(path='PROME/reports/fixture-review.md',commit=self.git('rev-parse','HEAD').strip()))
++        self.put(app.ACCEPTANCE,json.dumps(acceptance));self.commit(publish=True)
++
++    def receive(self,e):
++        path=owner_receipt.write_received(self.repo,e)
++        self.commit(publish=True)
++        return path
++
+     def answer(self):
+         self.source()
++        self.enable_app()
+         event=self.store.save(self.request(action='choose',choice_id='A',note='Close it, but record the miss.\nKeep the caveat.'))
+         delivery.deliver(self.repo,event)
+         return event
+@@ -44,6 +60,7 @@
+                    scope='reversible_internal',conditions_within_scope=True,no_chat_conflict=True,
+                    readback_at=datetime.now(timezone.utc).isoformat(),readback_text=authorization.readback_text(event))
+         proof.update(changes)
++        if not read_receipts(self.repo,event):self.receive(event)
+         path='PROME/proposals/fixture-RULED.md'
+         self.put(path,'Fixture ruling\n```decisions-app-authorization\n'+json.dumps(proof)+'\n```\n');self.commit(publish=True)
+         return dict(path=path,commit=self.git('rev-parse','HEAD').strip())
+@@ -121,7 +138,7 @@
+         payload=dict(cwd=str(self.root/'PROME'),session_id='fixture',hook_event_name='PostToolUse')
+         out=io.StringIO()
+         with redirect_stderr(out):
+-            result=notification_hook.run(payload,self.root,state,parent=process_identity(os.getpid()),lifetime=.05,poll=.01)
++            result=notification_hook.run(payload,self.root,state,parent=process_identity(os.getpid()),lifetime=.05,poll=.01,interactive=True)
+         self.assertEqual(result,2)
+         self.assertIn(e['id'],out.getvalue());self.assertNotIn(e['request']['note'],out.getvalue())
+         self.assertEqual(q.pending('fixture'),[]);self.assertEqual(len(q.pending('new-session')),1)
+--- prior/test_wq641.py
++++ candidate/test_wq641.py
+@@ -0,0 +1,145 @@
++"""WQ-641 regressions in disposable repositories; never live operator answers."""
++import hashlib
++import json
++import os
++from pathlib import Path
++import subprocess
++import sys
++import time
++import unittest
++from unittest.mock import patch
++
++import app
++import authorization
++import notification_hook
++from notifications import Notifications, process_identity
++import owner_receipt
++from pilot_files import encoded, read_receipts
++from queue_store import open_rows
++import test_wq638 as fixtures
++
++class ReturnTests(unittest.TestCase):
++    def fixture(self):
++        f=fixtures.OptionATests();f.setUp();self.addCleanup(f.doCleanups);return f
++
++    def mutate(self,f,case):
++        path='PROME/proposals/fixture-options.md'
++        if case=='pointer':
++            new='PROME/proposals/new-options.md';f.text=f.text.replace(path,new)
++            f.options['confirmation'].update(mode='chat',scope='trade')
++            f.options['queue_row_sha256']=hashlib.sha256(open_rows(f.text)['901']['row'].encode()).hexdigest()
++            f.put(new,'```decisions-options\n'+json.dumps(f.options)+'\n```\n')
++        elif case=='trade_row':
++            f.text=f.text.replace('A: one task; B: no task.','Sell the held position.').replace(' <!-- decisions-options: '+path+' -->','')
++        elif case=='closed':f.text='\n'.join(x for x in f.text.splitlines() if not x.startswith('| 901 |'))+'\n'
++        elif case=='waiting':f.text=f.text.replace('Exact caveat','WAITING on Bob')
++        elif case in {'policy_before','policy_after'}:
++            f.options['confirmation'].update(mode='chat',scope='trade')
++            f.put(path,'```decisions-options\n'+json.dumps(f.options)+'\n```\n')
++        elif case=='recommendation':
++            f.options['recommended_choice_id']='B'
++            f.put(path,'```decisions-options\n'+json.dumps(f.options)+'\n```\n')
++        f.put('PROME/WILL_QUEUE.md',f.text);f.commit(publish=True)
++
++    def test_all_stale_cases_with_and_without_received_refuse(self):
++        for received in (False,True):
++            for case in ('pointer','trade_row','closed','policy_after','recommendation','waiting','policy_before'):
++                with self.subTest(received=received,case=case):
++                    f=self.fixture();e=f.answer()
++                    if not received:f.receive=lambda event:None
++                    if case in {'policy_after','recommendation','waiting'}:
++                        ref=f.ruling(e);self.mutate(f,case)
++                    else:
++                        self.mutate(f,case);ref=f.ruling(e)
++                    with self.assertRaises(ValueError):owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++
++    def test_prepare_refreshes_remote_before_current_check(self):
++        f=self.fixture();e=f.answer();ref=f.ruling(e);old=f.git('rev-parse','origin/master').strip()
++        self.mutate(f,'pointer');new=f.git('rev-parse','origin/master').strip()
++        f.git('update-ref','refs/remotes/origin/master',old)
++        with self.assertRaises(ValueError):owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++        self.assertEqual(f.git('rev-parse','origin/master').strip(),new)
++
++    def test_historical_valid_receipt_survives_later_change_and_fallback(self):
++        f=self.fixture();e=f.answer();ref=f.ruling(e)
++        receipt=owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++        f.put(f"PROME/decisions/receipts/{e['id']}/{receipt['id']}.json",encoded(receipt)+'\n');f.commit(publish=True)
++        self.mutate(f,'pointer')
++        r=json.loads(f.repo.read(app.ACCEPTANCE));r['app_only_enabled']=False
++        f.put(app.ACCEPTANCE,json.dumps(r));f.commit(publish=True)
++        self.assertEqual([r['state'] for r in read_receipts(f.repo,e)],['received','integrated'])
++
++    def test_received_must_be_published_for_both_confirmation_modes(self):
++        f=self.fixture();e=f.answer();f.receive=lambda event:None;ref=f.ruling(e)
++        for app_only in (False,True):
++            with self.assertRaisesRegex(ValueError,'prior published received'):
++                owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,confirmation=None if app_only else ref,app_only=app_only)
++        owner_receipt.write_received(f.repo,e)
++        with self.assertRaisesRegex(ValueError,'prior published received'):
++            owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++
++    def test_fallback_blocks_app_only_in_ui_intake_and_prepare(self):
++        f=self.fixture();e=f.answer();ref=f.ruling(e)
++        r=json.loads(f.repo.read(app.ACCEPTANCE));r['app_only_enabled']=False
++        f.put(app.ACCEPTANCE,json.dumps(r));f.commit(publish=True)
++        self.assertTrue(owner_receipt.inspect_event(f.repo,e)['requires_chat_confirmation'])
++        desk=app.Desk(f.repo,Path(f.tmp.name)/'desk',True)
++        self.assertTrue(next(c for c in desk.display()['cards'] if c['wq_id']=='901')['requires_confirmation'])
++        with self.assertRaisesRegex(ValueError,'every answer'):
++            owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++        # A later activation must not upgrade an answer made in fallback mode.
++        r['app_only_enabled']=True;r['app_only_since']='2099-01-01T00:00:00+00:00'
++        f.put(app.ACCEPTANCE,json.dumps(r));f.commit(publish=True)
++        self.assertFalse(authorization.app_only_enabled(f.repo,e))
++
++    def test_malformed_policy_is_local_and_good_card_can_be_answered(self):
++        f=self.fixture();f.source();f.enable_app()
++        desk=app.Desk(f.repo,Path(f.tmp.name)/'desk',True)
++        for key,value in [('mode',[]),('scope',{}),('mode',False)]:
++            with self.subTest(key=key,value=value):
++                good=dict(f.options['confirmation']);f.options['confirmation'][key]=value
++                f.put('PROME/proposals/fixture-options.md','```decisions-options\n'+json.dumps(f.options)+'\n```\n');f.commit(publish=True)
++                state=desk.display();cards={c['wq_id']:c for c in state['cards']}
++                self.assertEqual(state['errors'],[]);self.assertEqual(len(state['source_errors']),1)
++                self.assertFalse(cards['901']['can_respond']);self.assertTrue(cards['902']['can_respond'])
++                f.options['confirmation']=good
++        c=cards['902'];r=f.request(unit_id='902.queue',display_hash=c['hash'],note='Fixture task response')
++        self.assertEqual(desk.save(r)['request']['note'],'Fixture task response')
++
++    def test_noninteractive_hook_returns_without_claiming_listener(self):
++        f=self.fixture();state=Path(f.tmp.name)/'hook'
++        payload=dict(cwd=str(f.root/'PROME'),session_id='headless',hook_event_name='SessionStart')
++        with patch('notification_hook.interactive_parent',return_value=False):
++            before=time.monotonic()
++            self.assertEqual(notification_hook.run(payload,f.root,state,parent=process_identity(os.getpid())),0)
++            self.assertLess(time.monotonic()-before,1)
++        self.assertEqual(Notifications(state).status()['state'],'unknown')
++
++    def test_print_mode_with_terminal_stdin_is_still_headless(self):
++        import pty
++        master,slave=pty.openpty()
++        self.addCleanup(os.close,master);self.addCleanup(os.close,slave)
++        code="import sys,os;sys.path.insert(0,sys.argv[1]);from notifications import interactive_parent,process_identity;print(interactive_parent(process_identity(os.getpid())))"
++        result=subprocess.check_output([sys.executable,'-c',code,str(Path(__file__).parent),'--print'],stdin=slave,text=True,timeout=3)
++        self.assertEqual(result.strip(),'False')
++
++    def test_session_turnover_rearms_without_new_tool_and_old_end_is_harmless(self):
++        f=self.fixture();state=Path(f.tmp.name)/'hook';q=Notifications(state);children=[]
++        self.addCleanup(lambda:[p.terminate() for p in children if p.poll() is None])
++        code='''import sys,json\nfrom pathlib import Path\nsys.path.insert(0,sys.argv[1])\nimport notification_hook\nraise SystemExit(notification_hook.run(json.loads(sys.argv[2]),Path(sys.argv[3]),Path(sys.argv[4]),parent=json.loads(sys.argv[5]),interactive=True,poll=float(sys.argv[6]),lifetime=8))'''
++        def start(session,poll=.04):
++            payload=dict(cwd=str(f.root/'PROME'),session_id=session,hook_event_name='SessionStart')
++            p=subprocess.Popen([sys.executable,'-c',code,str(Path(__file__).parent),json.dumps(payload),str(f.root),str(state),json.dumps(process_identity(os.getpid())),str(poll)]);children.append(p);return p
++        def wait_for(session):
++            deadline=time.monotonic()+4
++            while time.monotonic()<deadline:
++                with q.connect() as db:r=db.execute('SELECT * FROM listener').fetchone()
++                if r and r['session']==session and q.status()['state']=='listening':return
++                time.sleep(.025)
++            self.fail('New session did not acquire a live listener')
++        a=start('old',1);wait_for('old')
++        b=start('new');wait_for('new');q.end('old')
++        self.assertEqual(q.status()['state'],'listening');self.assertEqual(a.wait(timeout=3),0)
++        q.end('new');self.assertEqual(b.wait(timeout=3),0);self.assertEqual(q.status()['state'],'offline')
++
++if __name__=='__main__':unittest.main()

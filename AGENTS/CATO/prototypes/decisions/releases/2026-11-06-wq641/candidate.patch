@@ -1,0 +1,1315 @@
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/README.md b/AGENTS/CATO/prototypes/decisions/mvp/README.md
+index cc0c01590e..ffd99d05a3 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/README.md
++++ b/AGENTS/CATO/prototypes/decisions/mvp/README.md
+@@ -1,3 +1,7 @@
++## WQ-641 confirmation and installation update
++
++See [the owner contract](WQ638.md) for explicit recommended choices, preserved conditions and the receive/rule sequence. The reviewed build supports `app_only_enabled: false` in published acceptance: **every answer then needs matching PROME-chat confirmation**, even if its card is internally eligible. Missing or invalid enablement also stays chat-required. Enable app-only only after demonstrated live interactive PROME notification and a valid `app_only_since`; older answers are not upgraded. The fallback does not install hooks. The earlier acceptance examples omit enablement and therefore select the conservative fallback.
++
+ # Decisions — local daily desk
+ 
+ Open **Decisions → Open Decisions** in the Agent Launcher, or run from the repository root:
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/app.py b/AGENTS/CATO/prototypes/decisions/mvp/app.py
+index beb7ccaac1..805d49e78c 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/app.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/app.py
+@@ -6,19 +6,22 @@ import json
+ from pathlib import Path
+ import re
+ import subprocess
++import sqlite3
+ import threading
+ import webbrowser
+ 
+ import delivery
+ import history
+ import briefs
++from notifications import Notifications
++from authorization import app_only_enabled
+ from pilot_files import PilotStore, Repo, RESPONSES, RECEIPTS, strict_json
+ from queue_store import QueueStore, QUEUE, REPLIES, open_rows, unit_for
+ from server import make_server
+ from store import HERE, identifier, reader
+ 
+ ACCEPTANCE = "PROME/decisions/app-acceptance.json"
+-BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py")
++BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py", "authorization.py", "notifications.py", "notification_hook.py")
+ PILOT_SOURCE = "PROME/proposals/2026-10-30_wq558-l884-pilot-source.md"
+ POWERSHELL = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"
+ 
+@@ -44,7 +47,7 @@ def accepted(repo):
+         record = strict_json(raw)
+         if record.get("schema_version") != "decisions-app-acceptance/1" or record.get("build_hashes") != build_hashes():
+             raise ValueError("This installed build is not yet enabled for replies")
+-        if record.get("queue_responses") is not True or record.get("matching_chat_confirmation") is not True:
++        if record.get("queue_responses") is not True or record.get("matching_chat_confirmation") is not True or record.get("confirmation_policy") != "explicit-reversible-internal/1":
+             raise ValueError("Daily reply contract is not accepted")
+         review = record["independent_review"]
+         repo.git("merge-base", "--is-ancestor", review["commit"], "origin/master")
+@@ -63,6 +66,7 @@ class Desk:
+         self.lock = threading.RLock()
+         self.sync_receipt = None
+         self.stores = {}
++        self.notifications = Notifications(self.state)
+         self.loaded_hashes = build_hashes()
+ 
+     def permissions(self):
+@@ -82,7 +86,8 @@ class Desk:
+     def display(self):
+         with self.lock:
+             enabled, limit = self.permissions()
+-            cards, errors, rows = [], [], {}
++            cards, errors, source_errors, rows = [], [], [], {}
++            app_authority = app_only_enabled(self.repo)
+             try:
+                 rows = open_rows(self.repo.path(QUEUE).read_text())
+             except (ValueError, OSError) as error:
+@@ -123,8 +128,8 @@ class Desk:
+                     for e in card["events"]:
+                         card.setdefault("event_delivery", {})[e["id"]] = delivery.delivery_state(self.repo, e)
+                     cards.append(card)
+-                except (ValueError, OSError, subprocess.CalledProcessError) as error:
+-                    errors.append("WQ-" + wq + ": " + str(error))
++                except (ValueError, TypeError, KeyError, AttributeError, OSError, subprocess.CalledProcessError) as error:
++                    source_errors.append("WQ-" + wq + ": " + str(error))
+                     if wq in rows:
+                         cards.append({"wq_id": wq, "unit": unit_for(rows[wq]), "hash": None,
+                                       "group": "Tasks for me" if rows[wq]["kind"] == "HANDS" else "Decisions",
+@@ -158,16 +163,30 @@ class Desk:
+                 for card in cards:
+                     card["can_respond"] = False
+             for card in cards:
++                card["requires_confirmation"] = (card.get("requires_confirmation", True) or not app_authority
++                                                 or bool(card.get("last") and not app_only_enabled(self.repo, card["last"])))
+                 historical = card["group"] == "History" or bool(card.get("errors"))
+                 card.update(briefs.presentation(card.get("snapshot") or {}, historical=historical))
++                try:
++                    if card.get("last") and card.get("receipt"):
++                        self.notifications.acknowledge(card["last"]["id"])
++                    elif card.get("last") and card.get("delivery") == "delivered":
++                        self.notifications.enqueue(self.repo, card["last"])
++                except (ValueError, OSError, subprocess.SubprocessError, sqlite3.Error):
++                    pass  # Publication and owner receipts remain authoritative.
++
+                 card["saved_briefs"] = {event["id"]: briefs.presentation(event["display"], historical=True)
+                                         for event in card.get("events", [])}
++            try:
++                notification = self.notifications.status()
++            except (OSError, sqlite3.Error):
++                notification = {"state": "unknown", "message": "PROME notification is unavailable. Published answers remain delivered."}
+             rulings = history.recent(self.repo)
+             remote = self.repo.git("remote", "get-url", "origin").strip().removesuffix(".git")
+             match = re.fullmatch(r"(?:https://github\.com/|git@github\.com:)([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", remote)
+-            return {"mode": "decisions-desk", "cards": cards, "errors": errors, "limit": limit,
++            return {"mode": "decisions-desk", "cards": cards, "errors": errors, "source_errors": source_errors, "limit": limit,
+                     "source_url": "https://github.com/" + match[1] + "/blob/" if match else None,
+-                    "rulings": rulings,
++                    "rulings": rulings, "notification": notification,
+                     "can_deliver": enabled and not errors, "sync": self.sync_receipt,
+                     "head": self.repo.git("rev-parse", "HEAD").strip()}
+ 
+@@ -203,8 +222,14 @@ class Desk:
+                     if not self.permissions()[0]:
+                         raise ValueError("Acceptance or application changed during delivery; reopen Decisions")
+                 store = self.stores[card["wq_id"]]
+-                return delivery.deliver(self.repo, event, guard=guard,
+-                                        local_events=lambda: store.responses()["events"])
++                result = delivery.deliver(self.repo, event, guard=guard,
++                                          local_events=lambda: store.responses()["events"])
++                try:
++                    result["notification"] = self.notifications.enqueue(self.repo,event)
++                    result["message"] += " Delivered; PROME has not yet acknowledged reading it. " + result["notification"]["message"]
++                except (ValueError,OSError,subprocess.SubprocessError,sqlite3.Error):
++                    result["message"] += " Delivery succeeded; notification is unconfirmed."
++                return result
+             raise ValueError("Unknown desk operation")
+ 
+ 
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/delivery.py b/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
+index 3b08cfaeba..2a7091f95d 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/delivery.py
+@@ -20,6 +20,16 @@ def event_path(event):
+ def packet_text(event):
+     path = event_path(event)
+     eid = identifier(event["id"])
++    if 'confirmation' in (event['display'].get('options_source') or {}):
++        from authorization import needs_chat
++        policy = 'Matching chat confirmation is required.' if needs_chat(event['display']) else 'App-only eligible, subject to PROME reviewing conditions and any chat conflict.'
++        return (f"# CATO → PROME: Decisions response {eid}\n\n"
++                f"Response: `{path}`\n\nEvent SHA256: `{event['sha256']}`\n\n"
++                f"Unit: `{event['request']['unit_id']}`; saved {event['saved_at']}.\n\n"
++                f"ACTION: read the exact immutable event and displayed terms. {policy} "
++                "Preserve conditions verbatim. Read each ruling back to Will the same day; conflicting answers await clarification. "
++                "Write your own receipt/ruling through owner_receipt.py. Notification is not a read receipt or ruling. "
++                "The app does not execute decisions or launch an agent.\n")
+     return (f"# CATO → PROME: Decisions response {eid}\n\n"
+             f"Response: `{path}`\n\nEvent SHA256: `{event['sha256']}`\n\n"
+             f"Unit: `{event['request']['unit_id']}`; saved {event['saved_at']}.\n\n"
+@@ -306,7 +316,7 @@ def deliver(repo, event, guard=None, local_events=None):
+             raise ValueError("Response saved; latest published terms could not be fetched. No reply committed.") from error
+         recheck()
+         if delivery_state(repo, event) == "delivered":
+-            return {"message": "Already delivered to PROME; awaiting matching chat confirmation and receipt.",
++            return {"message": "Already delivered to PROME; awaiting its read and the applicable confirmation.",
+                     "commit": repo.git("rev-parse", "origin/master").strip(),
+                     "packet": published_packet(repo, event), "checks": [], "receipt": "Exact published pair verified."}
+         if delivery_state(repo, event).startswith("published without"):
+@@ -393,7 +403,7 @@ def deliver(repo, event, guard=None, local_events=None):
+                 raise ValueError("Published pair is present, but remote references differ from the expected publication. Reconcile before confirming in chat; concurrent updates may be responsible.")
+             tail = refresh_after_publication(repo)
+             advice = "\n\n".join(r["check"] + ":\n" + r["output"] for r in results if r["exit"] == 1)
+-            return {"message": "Delivered to PROME's inbox. Awaiting matching chat confirmation and receipt." + tail
++            return {"message": "Delivered to PROME's inbox. Awaiting its read and the applicable confirmation." + tail
+                                + ("\nAdvisory findings (delivery completed):\n" + advice if advice else ""),
+                     "commit": commit, "packet": published_packet(repo, event), "checks": results,
+                     "receipt": "One response commit, exactly the two selected paths, and published pair verified after fetch."
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/desk.html b/AGENTS/CATO/prototypes/decisions/mvp/desk.html
+index 576dcda21f..0a17d92dd0 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/desk.html
++++ b/AGENTS/CATO/prototypes/decisions/mvp/desk.html
+@@ -1,20 +1,20 @@
+ <!doctype html>
+ <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Decisions</title><style>
+-:root{color-scheme:light;--ink:#203c38;--muted:#586c66;--paper:#fffef9;--line:#d7ded5;--green:#174d40;--wash:#f2f3ec;--amber:#fff0cc}*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.6 system-ui,sans-serif}header{background:var(--green);color:white;padding:30px max(24px,calc((100vw - 1180px)/2));display:flex;justify-content:space-between;gap:24px;align-items:center}h1{font:42px Georgia,serif;margin:0}header p{margin:4px 0;color:#dce9df}.shell{max-width:1230px;margin:auto;padding:24px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px}nav{position:sticky;top:20px;align-self:start;display:grid;gap:8px}button,input,textarea,select{font:inherit}button{cursor:pointer;padding:10px 16px;border:1px solid #9db2a5;border-radius:7px;color:var(--ink);background:var(--paper)}button:hover{border-color:var(--green);box-shadow:0 2px 5px #15362d15}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #bb923c;outline-offset:3px}#choice-buttons button[aria-pressed=true],button.primary,nav button[aria-pressed=true]{background:var(--green);color:white}header button{background:transparent;color:white;border-color:#a7c0b1}button:disabled{opacity:.55;cursor:default}nav button{text-align:left;display:flex;justify-content:space-between}input,textarea,select{padding:10px;border:1px solid #b8c5b9;border-radius:6px;background:white;width:100%;color:var(--ink)}textarea{min-height:130px}label{display:block;margin:15px 0 5px}.toolbar{display:flex;gap:12px;align-items:center;margin-bottom:18px}.toolbar input{max-width:440px}article{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:18px;overflow-wrap:anywhere}h2{font:25px/1.35 Georgia,serif;margin:9px 0 14px}h3{font-size:17px;margin:14px 0 8px}.eyebrow,.small{font-size:13px;color:var(--muted)}.row{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.badge{padding:3px 9px;background:#e5eee2;border-radius:20px;font-size:13px}.notice{background:var(--amber);border-left:3px solid #ae872d;padding:12px 16px;margin:12px 0;border-radius:3px}.success{background:#e5eee2;border-left-color:var(--green)}.conditions li{margin:9px 0}.choice-description{border-left:2px solid var(--line);padding-left:14px;margin:12px 0}a{color:var(--green)}.bodytext{white-space:pre-wrap;margin:9px 0}.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:18px}.stages{display:flex;gap:8px;flex-wrap:wrap;padding:0;list-style:none;margin:12px 0}.stages li{border-bottom:3px solid var(--line);padding:3px 8px;color:var(--muted);font-size:13px}.stages li.done{border-color:var(--green);color:var(--green)}details{margin-top:15px}summary{cursor:pointer;color:var(--green)}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 ui-monospace,monospace}#global-status{max-width:1180px;margin:16px auto 0;padding:0 24px;white-space:pre-wrap}dialog{max-width:900px;width:calc(100% - 30px);max-height:90vh;overflow:auto;padding:28px;border:1px solid #a9b9ab;border-radius:12px;color:var(--ink);background:var(--paper)}dialog::backdrop{background:#102d26aa}.dialog-actions{position:sticky;bottom:-28px;background:var(--paper);padding:16px 0;margin-top:20px;border-top:1px solid var(--line)}.review-terms{max-height:38vh;overflow:auto;padding:16px;background:var(--wash);border:1px solid var(--line);border-radius:7px}#count{color:var(--muted);font-size:14px}.empty{padding:45px 20px;text-align:center;color:var(--muted)}[hidden]{display:none!important}@media(max-width:760px){header{padding:22px;align-items:start}h1{font-size:32px}.shell{display:block;padding:16px}nav{position:static;grid-template-columns:1fr 1fr;margin-bottom:22px}article{padding:18px}.toolbar{align-items:start;flex-direction:column}dialog{padding:20px}.dialog-actions{bottom:-20px}}
++:root{color-scheme:light;--ink:#203c38;--muted:#586c66;--paper:#fffef9;--line:#d7ded5;--green:#174d40;--wash:#f2f3ec;--amber:#fff0cc}*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.6 system-ui,sans-serif}header{background:var(--green);color:white;padding:30px max(24px,calc((100vw - 1180px)/2));display:flex;justify-content:space-between;gap:24px;align-items:center}h1{font:42px Georgia,serif;margin:0}header p{margin:4px 0;color:#dce9df}.shell{max-width:1230px;margin:auto;padding:24px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:28px}nav{position:sticky;top:20px;align-self:start;display:grid;gap:8px}button,input,textarea,select{font:inherit}button{cursor:pointer;padding:10px 16px;border:1px solid #9db2a5;border-radius:7px;color:var(--ink);background:var(--paper)}button:hover{border-color:var(--green);box-shadow:0 2px 5px #15362d15}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #bb923c;outline-offset:3px}#choice-buttons button[aria-pressed=true],button.primary,nav button[aria-pressed=true]{background:var(--green);color:white}header button{background:transparent;color:white;border-color:#a7c0b1}button:disabled{opacity:.55;cursor:default}nav button{text-align:left;display:flex;justify-content:space-between}input,textarea,select{padding:10px;border:1px solid #b8c5b9;border-radius:6px;background:white;width:100%;color:var(--ink)}textarea{min-height:130px}label{display:block;margin:15px 0 5px}.toolbar{display:flex;gap:12px;align-items:center;margin-bottom:18px}.toolbar input{max-width:440px}article{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:18px;overflow-wrap:anywhere}h2{font:25px/1.35 Georgia,serif;margin:9px 0 14px}h3{font-size:17px;margin:14px 0 8px}.eyebrow,.small{font-size:13px;color:var(--muted)}.row{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.badge{padding:3px 9px;background:#e5eee2;border-radius:20px;font-size:13px}.notice{background:var(--amber);border-left:3px solid #ae872d;padding:12px 16px;margin:12px 0;border-radius:3px}.success{background:#e5eee2;border-left-color:var(--green)}.recommendation-response{margin-top:16px;padding:16px;background:var(--wash);border-radius:8px}.recommendation-response textarea{min-height:75px}.conditions li{margin:9px 0}.choice-description{border-left:2px solid var(--line);padding-left:14px;margin:12px 0}a{color:var(--green)}.bodytext{white-space:pre-wrap;margin:9px 0}.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:18px}.stages{display:flex;gap:8px;flex-wrap:wrap;padding:0;list-style:none;margin:12px 0}.stages li{border-bottom:3px solid var(--line);padding:3px 8px;color:var(--muted);font-size:13px}.stages li.done{border-color:var(--green);color:var(--green)}details{margin-top:15px}summary{cursor:pointer;color:var(--green)}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 ui-monospace,monospace}#connection-status{max-width:1180px;margin:12px auto;padding:0 24px}#global-status{max-width:1180px;margin:16px auto 0;padding:0 24px;white-space:pre-wrap}dialog{max-width:900px;width:calc(100% - 30px);max-height:90vh;overflow:auto;padding:28px;border:1px solid #a9b9ab;border-radius:12px;color:var(--ink);background:var(--paper)}dialog::backdrop{background:#102d26aa}.dialog-actions{position:sticky;bottom:-28px;background:var(--paper);padding:16px 0;margin-top:20px;border-top:1px solid var(--line)}.review-terms{max-height:38vh;overflow:auto;padding:16px;background:var(--wash);border:1px solid var(--line);border-radius:7px}#count{color:var(--muted);font-size:14px}.empty{padding:45px 20px;text-align:center;color:var(--muted)}[hidden]{display:none!important}@media(max-width:760px){header{padding:22px;align-items:start}h1{font-size:32px}.shell{display:block;padding:16px}nav{position:static;grid-template-columns:1fr 1fr;margin-bottom:22px}article{padding:18px}.toolbar{align-items:start;flex-direction:column}dialog{padding:20px}.dialog-actions{bottom:-20px}}
+ </style></head><body>
+ <header><div><h1>Decisions</h1><p>Your questions, tasks and follow-through.</p></div><button id="sync">Sync latest records</button></header>
+-<p id="global-status" role="status" aria-live="polite">Loading your desk…</p><details id="diagnostics" hidden style="max-width:1180px;margin:10px auto;padding:0 24px"><summary>Source details</summary><pre id="diagnostic-text"></pre></details>
++<p id="connection-status" role="status" class="small"></p><p id="global-status" role="status" aria-live="polite">Loading your desk…</p><details id="diagnostics" hidden style="max-width:1180px;margin:10px auto;padding:0 24px"><summary>Source details</summary><pre id="diagnostic-text"></pre></details>
+ <div class="shell"><nav id="nav" aria-label="Work views"></nav><main><div class="toolbar"><input id="search" type="search" aria-label="Search decisions and tasks" placeholder="Search this view"><span id="count"></span></div><div id="cards"></div></main></div>
+-<dialog id="reply" aria-labelledby="reply-title"><h2 id="reply-title">Your response</h2><div id="reply-terms" class="review-terms"></div><label for="action">What would you like to do?</label><select id="action"></select><fieldset id="choices" hidden><legend>Choose an option</legend><div id="choice-buttons" class="actions"></div><p id="choice-meaning" class="bodytext"></p></fieldset><div id="verdict-panel" hidden><p id="verdict-label" class="notice"></p><label for="verdict-scope">The specific decision you mean</label><input id="verdict-scope" placeholder="Name the action you approve or disapprove"><p class="small">Only this scope and your conditions will be included. The recommendation above is reference text.</p></div><label for="note">Your words and any conditions</label><textarea id="note" placeholder="Write your response, including the option letter or task you mean. Conditions are kept exactly as written."></textarea><div id="return-field" hidden><label for="revisit">When should this return?</label><input id="revisit" placeholder="A date or condition, such as after the next filing"></div><p class="small">PROME records the meaning of your response. This version still needs your matching confirmation in PROME’s chat.</p><p id="reply-status" role="status"></p><div class="actions dialog-actions"><button id="cancel">Keep reading</button><button id="review" class="primary">Review response</button></div></dialog>
+-<dialog id="review-dialog" aria-labelledby="review-title"><h2 id="review-title">Review before sending</h2><div id="review-body"></div><p class="small">Delivery publishes your response and any other already committed workspace changes. It does not publish unsaved edits. PROME still needs your matching chat confirmation.</p><p id="review-status" role="status"></p><div class="actions dialog-actions"><button id="back">Keep editing</button><button id="save-local">Save on this computer</button><button id="send" class="primary">Save &amp; deliver to PROME</button></div></dialog>
++<dialog id="reply" aria-labelledby="reply-title"><h2 id="reply-title">Your response</h2><div id="reply-terms" class="review-terms"></div><label for="action">What would you like to do?</label><select id="action"></select><fieldset id="choices" hidden><legend>Choose an option</legend><div id="choice-buttons" class="actions"></div><p id="choice-meaning" class="bodytext"></p></fieldset><div id="verdict-panel" hidden><p id="verdict-label" class="notice"></p><label for="verdict-scope">The specific decision you mean</label><input id="verdict-scope" placeholder="Name the action you approve or disapprove"><p class="small">Only this scope and your conditions will be included. The recommendation above is reference text.</p></div><label for="note">Your words and any conditions</label><textarea id="note" placeholder="Write your response, including the option letter or task you mean. Conditions are kept exactly as written."></textarea><div id="return-field" hidden><label for="revisit">When should this return?</label><input id="revisit" placeholder="A date or condition, such as after the next filing"></div><p id="confirmation-note" class="small"></p><p id="reply-status" role="status"></p><div class="actions dialog-actions"><button id="cancel">Keep reading</button><button id="review" class="primary">Review response</button></div></dialog>
++<dialog id="review-dialog" aria-labelledby="review-title"><h2 id="review-title">Review before sending</h2><div id="review-body"></div><p class="small">Delivery publishes your response and any other already committed workspace changes. It does not publish unsaved edits.</p><p id="review-confirmation" class="small"></p><p id="review-status" role="status"></p><div class="actions dialog-actions"><button id="back">Keep editing</button><button id="save-local">Save on this computer</button><button id="send" class="primary">Save &amp; deliver to PROME</button></div></dialog>
+ <script>
+ const capability=__CAPABILITY__, $=id=>document.getElementById(id), views=['Decisions','Tasks for me','Follow-through','History'];
+-let model=null, view='Decisions', selected=null, pending=null, busy=false, drafts={}, chosen=null, verdict=null;
++let model=null, view='Decisions', selected=null, pending=null, busy=false, drafts={}, chosen=null, verdict=null, inlineConditions={};
+ function add(tag,text,parent,cls){const n=document.createElement(tag);if(text!==null)n.textContent=text;if(cls)n.className=cls;parent.append(n);return n;}
+ function plain(s){return String(s||'').replace(/<!-- decisions-options: .*? -->/g,'').replace(/\*\*/g,'').replace(/`([^`]+)`/g,'$1');}
+ async function api(path,body){const r=await fetch(path,body===undefined?{}:{method:'POST',headers:{'Content-Type':'application/json','X-Decisions-Session':capability},body:JSON.stringify(body)});const d=await r.json();if(!r.ok)throw Error(d.error||'Request failed');return d;}
+-function status(c){if(c.completion)return 'Implementation recorded';if(c.receipt?.state==='integrated')return 'Decision recorded';if(c.receipt?.state==='received')return 'Received by PROME';if(c.receipt?.state==='needs_clarification')return 'PROME needs clarification';if(c.receipt?.state==='rejected_stale')return 'Earlier terms — review needed';if(c.last)return c.delivery==='delivered'?'Delivered · awaiting PROME':'Saved on this computer';return c.unit.blocked?'Waiting on others':c.group==='Tasks for me'?'Your task':c.group==='Decisions'?'Your decision':'Open queue record';}
++function status(c){if(c.completion)return 'Implementation recorded';if(c.receipt?.state==='integrated')return 'Decision recorded';if(c.receipt?.state==='received')return 'Received by PROME';if(c.receipt?.state==='needs_clarification')return 'PROME needs clarification';if(c.receipt?.state==='rejected_stale')return 'Earlier terms — review needed';if(c.last)return c.delivery==='delivered'?'Delivered · PROME not yet read':'Saved on this computer';return c.unit.blocked?'Waiting on others':c.group==='Tasks for me'?'Your task':c.group==='Decisions'?'Your decision':'Open queue record';}
+ function recommendationLabel(c){if(c.brief)return c.brief.recommendation.status==='NONE_YET'?'No recommendation yet':'PROME recommends';return /^(no rec|none yet|no recommendation)/i.test(plain(c.unit.proposal.recommendation?.reason).trim())?'No recommendation yet':'PROME recommends';}
+ function choicesText(c,parent){if(!c.unit.proposal.choices?.length)return;add('h3','Your choices',parent);for(const choice of c.unit.proposal.choices){const section=add('section',null,parent,'choice-description');add('strong',choice.id+' · '+choice.label,section);add('p',choice.meaning,section,'bodytext');add('p',choice.consequence,section,'small');}}
+ function evidence(c,parent){const d=add('details',null,parent);add('summary','Evidence and history',d);if(c.brief){add('p','Explanation prepared '+c.brief.prepared_at+' · refresh after '+c.brief.stale_after,d,'small');for(const item of c.brief.supporting){if(model.source_url&&c.snapshot?.source_commit){const link=add('a',item.label,d);link.href=model.source_url+c.snapshot.source_commit+'/'+item.path.split('/').map(encodeURIComponent).join('/');link.target='_blank';link.rel='noopener noreferrer';add('br',null,d);}else{add('p',item.label,d);add('p',item.path,d,'small');}}}if(c.snapshot?.queue_row){add('h3','Exact queue wording',d);add('pre',c.snapshot.queue_row,d);}else if(c.unit.proposal.context)add('p',plain(c.unit.proposal.context),d,'bodytext');return d;}
+@@ -25,22 +25,27 @@ function renderRulings(q){const records=(model.rulings?.records||[]).filter(r=>(
+ function chooseOption(id){chosen=id;for(const b of $('choice-buttons').children)b.setAttribute('aria-pressed',String(b.dataset.choice===id));const c=selected.unit.proposal.choices.find(c=>c.id===id);$('choice-meaning').textContent=c?c.meaning+'\n'+c.consequence:'';remember();}
+ function actionFields(){$('return-field').hidden=$('action').value!=='defer';$('choices').hidden=$('action').value!=='choose';}
+ function hasRecommendation(c){return c.unit.queue_kind==='DECISION'&&c.receipt?.state!=='integrated'&&!!c.unit.proposal.recommendation?.reason?.trim();}
++function confirmationText(c){return c.requires_confirmation!==false?'Chat confirmation required: confirm this same answer in PROME’s chat.':'No chat repeat required for this internal decision. PROME reviews your conditions and reads the ruling back to you. Consequential changes still require chat.';}
++function recommendedChoice(c){if(c.brief?.recommendation.status==='NONE_YET'||c.brief_notice)return null;return (c.unit.proposal.choices||[]).find(x=>x.id===c.unit.proposal.recommendation?.option_id)||null;}
++function openRecommendation(c,approve){const option=recommendedChoice(c);if(!option||!c.can_respond)return;openReply(c);$('note').value=inlineConditions[c.unit.id]||'';if(approve){setVerdict(null);$('action').value='choose';chooseOption(option.id);$('reply-title').textContent='Approve PROME’s recommendation';}else{setVerdict(false);$('verdict-scope').value='PROME’s recommendation '+option.id+' · '+option.label;$('action').value='reply';chosen=null;$('reply-title').textContent='Disapprove PROME’s recommendation';}actionFields();remember();$('note').focus();}
++function recommendationButtons(c,parent){const option=recommendedChoice(c);if(!option)return false;const box=add('div',null,parent,'recommendation-response');const label=add('label','Conditions or changes (optional)',box);const note=add('textarea',null,box);note.id='conditions-'+c.unit.id;label.htmlFor=note.id;note.value=inlineConditions[c.unit.id]||'';note.placeholder='For example: close it, but record the miss.';note.oninput=()=>inlineConditions[c.unit.id]=note.value;const buttons=add('div',null,box,'actions');for(const [label,approve] of [['Approve PROME’s recommendation',true],['Disapprove',false]]){const b=add('button',label,buttons,approve?'primary':'');b.dataset.recommendation=approve?'approve':'disapprove';b.disabled=!c.can_respond;b.onclick=()=>openRecommendation(c,approve);}add('p','Approval selects '+option.id+' · '+option.label+'. Disapproval does not select another option.',box,'small');return true;}
+ function verdictWords(approve,scope){return (approve?'I approve: ':'I disapprove: ')+scope;}
+ function canVerdict(c){return hasRecommendation(c)&&!c.unit.proposal.choices?.length;}
+ function setVerdict(value){verdict=value;$('verdict-panel').hidden=value===null;$('verdict-label').textContent=value===true?'Approve only the decision you name below.':value===false?'Disapprove only the decision you name below.':'';}
+ function openVerdict(c,approve){if(!c.can_respond||!canVerdict(c))return;openReply(c);setVerdict(approve);$('action').value='reply';chosen=null;actionFields();remember();$('reply-title').textContent=approve?'Approve a specific decision':'Disapprove a specific decision';$('verdict-scope').focus();}
+ function answerText(e,parent,presentation={}){add('p','Saved '+stamp(e.saved_at),parent,'small');add('p',e.selected_choice?e.selected_choice.id+' · '+e.selected_choice.label:e.request.action.replaceAll('_',' '),parent);if(e.request.note)add('p',e.request.note,parent,'bodytext');if(e.request.revisit)add('p','Return: '+e.request.revisit,parent);const d=add('details',null,parent);add('summary','Exact terms saved with this answer',d);terms({unit:e.display.record.units[0],snapshot:e.display,...presentation},d);}
+-function renderAnswer(c,a,action){const recorded=c.receipt?.state==='integrated';const stages=add('ol',null,a,'stages');for(const [label,done] of [['Saved',true],['Delivered',c.delivery==='delivered'||!!c.receipt],['Received',!!c.receipt],['Decision recorded',recorded]])add('li',label,stages,done?'done':'');add('h3',recorded?'Answer recorded by PROME':c.conflict?'Saved answer — alternatives need reconciliation':'Your saved response',a);answerText(c.last,a,c.saved_briefs?.[c.last.id]);if(c.receipt)add('p','PROME receipt '+stamp(c.receipt.at)+' (receipt time, not your answer time)',a,'small');if(recorded)add('p','PROME recorded this exact answer. No further answer is needed.',a,'notice success');else if(c.delivery_block)add('p',c.delivery_block+' Your original answer and its saved terms remain available below.',a,'notice');else if(!c.receipt)add('p',c.delivery==='delivered'?'Your response reached PROME’s inbox. Its acknowledgment is pending.':c.delivery==='saved'?'Your response is safely saved here. Deliver it when ready.':'Your response is '+c.delivery+'. Delivery is incomplete; use Deliver saved response.',a,'notice');if(c.completion)add('p',c.completion.label+'.',a,'notice success');if(model.can_deliver&&c.can_deliver&&c.delivery!=='delivered'){const b=add('button','Deliver saved response',action);b.onclick=()=>deliver(c.last.id);}if(c.requires_confirmation&&!c.receipt&&c.delivery==='delivered')add('p','Confirm the same response in PROME’s chat.',a,'small');const others=(c.events||[]).filter(e=>e.id!==c.last.id);if(others.length){const d=add('details',null,a);d.open=recorded||c.conflict;add('summary',recorded?'Other saved answers — not the answer recorded above':c.conflict?'Conflicting answers — preserved for copying and reconciliation':'Earlier saved answers',d);for(const e of others){const section=add('section',null,d);add('h3','Saved answer '+e.id.slice(0,8),section);add('p','Delivery: '+(c.event_delivery?.[e.id]||'unknown')+(recorded?' · not the recorded answer':''),section,'small');answerText(e,section,c.saved_briefs?.[e.id]);}}}
+-function render(){if(!model)return;$('nav').replaceChildren();for(const name of views){const b=add('button',null,$('nav'));b.setAttribute('aria-pressed',String(view===name));add('span',name,b);add('span',String(model.cards.filter(c=>c.group===name).length+(name==='History'?(model.rulings?.records?.length||0):0)),b);b.onclick=()=>{view=name;render();};}const q=$('search').value.toLowerCase();const cards=model.cards.filter(c=>c.group===view&&JSON.stringify(c).toLowerCase().includes(q));$('count').textContent=cards.length+' item'+(cards.length===1?'':'s');$('cards').replaceChildren();if(view==='History'){const n=renderRulings(q);$('count').textContent=n+' ruling records · '+cards.length+' app answer'+(cards.length===1?'':'s');}if(!cards.length)add('p','Nothing here right now.',$('cards'),'empty');for(const c of cards){const a=add('article',null,$('cards'));a.dataset.unit=c.unit.id;const top=add('div',null,a,'row');add('span','WQ-'+c.wq_id+(c.unit.timing.needed_by?' · '+c.unit.timing.needed_by:''),top,'eyebrow');add('span',status(c),top,'badge');const title=c.brief?c.brief.question:plain(c.unit.proposal.question);add('h2',title,a);terms(c,a,false);const action=add('div',null,a,'actions');if(canVerdict(c)){for(const [label,approve] of [['Approve',true],['Disapprove',false]]){const b=add('button',label,action,approve?'primary':'');b.dataset.verdict=approve?'approve':'disapprove';b.disabled=!c.can_respond;b.onclick=()=>openVerdict(c,approve);}}if(c.can_respond){const b=add('button',canVerdict(c)?'Other response':c.last?'Revise response':'Respond',action,hasRecommendation(c)?'':'primary');b.onclick=()=>openReply(c);}else if(!c.last)add('p',c.unit.blocked?'Waiting on the owner before an answer is requested.':model.limit?'Replies are currently unavailable. See the status above.':'This record needs a source refresh before you can respond.',action,'small');if(c.last)renderAnswer(c,a,action);for(const note of c.history_notes||[])add('p',note,a,'notice');for(const error of c.errors||[])add('p',error,a,'notice');if(c.completion){const e=add('details',null,a);add('summary','Owner’s implementation record',e);add('p',c.completion.evidence,e,'bodytext');}if(c.last){const h=add('details',null,a);add('summary','Saved history and receipt',h);add('pre',JSON.stringify({events:c.events,receipt:c.receipt},null,2),h);}}}
++function renderAnswer(c,a,action){const recorded=c.receipt?.state==='integrated';const stages=add('ol',null,a,'stages');for(const [label,done] of [['Saved',true],['Delivered',c.delivery==='delivered'||!!c.receipt],['Received',!!c.receipt],['Decision recorded',recorded]])add('li',label,stages,done?'done':'');add('h3',recorded?'Answer recorded by PROME':c.conflict?'Saved answer — alternatives need reconciliation':'Your saved response',a);answerText(c.last,a,c.saved_briefs?.[c.last.id]);if(c.receipt)add('p','PROME receipt '+stamp(c.receipt.at)+' (receipt time, not your answer time)',a,'small');if(recorded)add('p','PROME recorded this exact answer. No further answer is needed.',a,'notice success');else if(c.delivery_block)add('p',c.delivery_block+' Your original answer and its saved terms remain available below.',a,'notice');else if(!c.receipt)add('p',c.delivery==='delivered'?'Delivered; PROME has not yet acknowledged reading your answer.':c.delivery==='saved'?'Your response is safely saved here. Deliver it when ready.':'Your response is '+c.delivery+'. Delivery is incomplete; use Deliver saved response.',a,'notice');if(c.completion)add('p',c.completion.label+'.',a,'notice success');if(model.can_deliver&&c.can_deliver&&c.delivery!=='delivered'){const b=add('button','Deliver saved response',action);b.onclick=()=>deliver(c.last.id);}if(c.requires_confirmation&&!c.receipt&&c.delivery==='delivered')add('p','Confirm the same response in PROME’s chat.',a,'small');const others=(c.events||[]).filter(e=>e.id!==c.last.id);if(others.length){const d=add('details',null,a);d.open=recorded||c.conflict;add('summary',recorded?'Other saved answers — not the answer recorded above':c.conflict?'Conflicting answers — preserved for copying and reconciliation':'Earlier saved answers',d);for(const e of others){const section=add('section',null,d);add('h3','Saved answer '+e.id.slice(0,8),section);add('p','Delivery: '+(c.event_delivery?.[e.id]||'unknown')+(recorded?' · not the recorded answer':''),section,'small');answerText(e,section,c.saved_briefs?.[e.id]);}}}
++function render(){if(!model)return;$('nav').replaceChildren();for(const name of views){const b=add('button',null,$('nav'));b.setAttribute('aria-pressed',String(view===name));add('span',name,b);add('span',String(model.cards.filter(c=>c.group===name).length+(name==='History'?(model.rulings?.records?.length||0):0)),b);b.onclick=()=>{view=name;render();};}const q=$('search').value.toLowerCase();const cards=model.cards.filter(c=>c.group===view&&JSON.stringify(c).toLowerCase().includes(q));$('count').textContent=cards.length+' item'+(cards.length===1?'':'s');$('cards').replaceChildren();if(view==='History'){const n=renderRulings(q);$('count').textContent=n+' ruling records · '+cards.length+' app answer'+(cards.length===1?'':'s');}if(!cards.length)add('p','Nothing here right now.',$('cards'),'empty');for(const c of cards){const a=add('article',null,$('cards'));a.dataset.unit=c.unit.id;const top=add('div',null,a,'row');add('span','WQ-'+c.wq_id+(c.unit.timing.needed_by?' · '+c.unit.timing.needed_by:''),top,'eyebrow');add('span',status(c),top,'badge');const title=c.brief?c.brief.question:plain(c.unit.proposal.question);add('h2',title,a);terms(c,a,false);add('p',confirmationText(c),a,'small');const action=add('div',null,a,'actions');const hasRecommendationButtons=recommendationButtons(c,a);if(!hasRecommendationButtons&&canVerdict(c)){for(const [label,approve] of [['Approve',true],['Disapprove',false]]){const b=add('button',label,action,approve?'primary':'');b.dataset.verdict=approve?'approve':'disapprove';b.disabled=!c.can_respond;b.onclick=()=>openVerdict(c,approve);}}if(c.can_respond){const b=add('button',(hasRecommendationButtons||canVerdict(c))?'Other response':c.last?'Revise response':'Respond',action,hasRecommendation(c)?'':'primary');b.onclick=()=>openReply(c);}else if(!c.last)add('p',c.unit.blocked?'Waiting on the owner before an answer is requested.':model.limit?'Replies are currently unavailable. See the status above.':'This record needs a source refresh before you can respond.',action,'small');if(c.last)renderAnswer(c,a,action);for(const note of c.history_notes||[])add('p',note,a,'notice');for(const error of c.errors||[])add('p',error,a,'notice');if(c.completion){const e=add('details',null,a);add('summary','Owner’s implementation record',e);add('p',c.completion.evidence,e,'bodytext');}if(c.last){const h=add('details',null,a);add('summary','Saved history and receipt',h);add('pre',JSON.stringify({events:c.events,receipt:c.receipt},null,2),h);}}}
+ function remember(){if(selected)drafts[selected.unit.id]={action:$('action').value,choice_id:chosen,note:$('note').value,revisit:$('revisit').value,verdict,scope:$('verdict-scope').value};}
+-function openReply(c){selected=c;pending=null;setVerdict(null);$('reply-title').textContent='Your response';$('reply-terms').replaceChildren();terms(c,$('reply-terms'));$('action').replaceChildren();const options=c.unit.kind==='hands'?{report_done:'Report task done',reply:'Write a response',defer:'Leave for later',request_changes:'Ask a question'}:{reply:'Write my decision or response',defer:'Leave for later',request_changes:'Ask a question or request changes'};if(c.unit.proposal.choices?.length)options.choose='Choose an option';for(const [value,text] of Object.entries(options)){const o=add('option',text,$('action'));o.value=value;}const d=drafts[c.unit.id]||{action:c.unit.proposal.choices?.length?'choose':c.unit.kind==='hands'?'report_done':'reply',choice_id:null,note:'',revisit:''};$('action').value=d.action;$('note').value=d.note;$('revisit').value=d.revisit;$('verdict-scope').value=d.scope||'';chosen=d.choice_id||null;$('choice-buttons').replaceChildren();for(const option of c.unit.proposal.choices||[]){const b=add('button',option.id+' · '+option.label,$('choice-buttons'));b.dataset.choice=option.id;b.type='button';b.onclick=()=>chooseOption(option.id);}chooseOption(chosen);actionFields();$('reply-status').textContent='';$('reply').showModal();$('note').focus();}
++function openReply(c){$('confirmation-note').textContent=confirmationText(c);selected=c;pending=null;setVerdict(null);$('reply-title').textContent='Your response';$('reply-terms').replaceChildren();terms(c,$('reply-terms'));$('action').replaceChildren();const options=c.unit.kind==='hands'?{report_done:'Report task done',reply:'Write a response',defer:'Leave for later',request_changes:'Ask a question'}:{reply:'Write my decision or response',defer:'Leave for later',request_changes:'Ask a question or request changes'};if(c.unit.proposal.choices?.length)options.choose='Choose an option';for(const [value,text] of Object.entries(options)){const o=add('option',text,$('action'));o.value=value;}const d=drafts[c.unit.id]||{action:c.unit.proposal.choices?.length?'choose':c.unit.kind==='hands'?'report_done':'reply',choice_id:null,note:'',revisit:''};$('action').value=d.action;$('note').value=d.note;$('revisit').value=d.revisit;$('verdict-scope').value=d.scope||'';chosen=d.choice_id||null;$('choice-buttons').replaceChildren();for(const option of c.unit.proposal.choices||[]){const b=add('button',option.id+' · '+option.label,$('choice-buttons'));b.dataset.choice=option.id;b.type='button';b.onclick=()=>chooseOption(option.id);}chooseOption(chosen);actionFields();$('reply-status').textContent='';$('reply').showModal();$('note').focus();}
+ $('action').onchange=()=>{setVerdict(null);actionFields();remember();};$('verdict-scope').oninput=remember;$('note').oninput=remember;$('revisit').oninput=remember;
+ $('cancel').onclick=()=>{remember();$('reply').close();};$('back').onclick=()=>{if(!busy){$('review-dialog').close();$('reply').showModal();}};
+-$('review').onclick=()=>{remember();const d=drafts[selected.unit.id];if(d.verdict!==null&&!d.scope.trim()){$('reply-status').textContent='Name the specific decision you mean first.';return;}const words=d.verdict===null?d.note:verdictWords(d.verdict,d.scope)+(d.note?'\n\nConditions: '+d.note:'');if(/\bI approve\b/i.test(words)&&/\bI disapprove\b/i.test(words)){$('reply-status').textContent='Your response contains both approve and disapprove. Clarify it before review.';return;}if(d.action==='choose'&&!d.choice_id){$('reply-status').textContent='Choose an option first.';return;}if(['reply','request_changes'].includes(d.action)&&!words.trim()){$('reply-status').textContent='Write your response first.';return;}pending={id:crypto.randomUUID().replaceAll('-',''),display_hash:selected.hash,unit_id:selected.unit.id,action:d.action,choice_id:d.action==='choose'?d.choice_id:null,note:words,revisit:d.action==='defer'?d.revisit:'',supersedes:selected.last?.id||null};$('review-body').replaceChildren();add('p','WQ-'+selected.wq_id+' · '+d.action.replaceAll('_',' '),$('review-body'));if(pending.choice_id){const c=selected.unit.proposal.choices.find(c=>c.id===pending.choice_id);add('h3',c.id+' · '+c.label,$('review-body'));add('p',c.meaning+'\n'+c.consequence,$('review-body'),'bodytext');}add('p',words||(d.action==='report_done'?'Task reported done.':''),$('review-body'),'bodytext');if(pending.revisit)add('p','Return: '+pending.revisit,$('review-body'));const t=add('details',null,$('review-body'));t.open=true;add('summary','Terms this response concerns',t);terms(selected,t);$('review-status').textContent='';$('reply').close();$('review-dialog').showModal();};
+-async function save(send){if(busy||!pending)return;busy=true;for(const id of ['send','save-local','back'])$(id).disabled=true;try{const e=await api('/api/responses',pending);delete drafts[pending.unit_id];if(send){try{const r=await api('/api/deliver',{id:e.id});$('global-status').textContent=r.message;}catch(error){$('global-status').textContent='Response saved. '+error.message;}}pending=null;$('review-dialog').close();view='Follow-through';await load(false);}catch(error){$('review-status').textContent=error.message+' Your draft is retained.';}finally{busy=false;for(const id of ['send','save-local','back'])$(id).disabled=false;}}
++$('review').onclick=()=>{remember();const d=drafts[selected.unit.id];if(d.verdict!==null&&!d.scope.trim()){$('reply-status').textContent='Name the specific decision you mean first.';return;}const words=d.verdict===null?d.note:verdictWords(d.verdict,d.scope)+(d.note?'\n\nConditions: '+d.note:'');if(/\bI approve\b/i.test(words)&&/\bI disapprove\b/i.test(words)){$('reply-status').textContent='Your response contains both approve and disapprove. Clarify it before review.';return;}if(d.action==='choose'&&!d.choice_id){$('reply-status').textContent='Choose an option first.';return;}if(['reply','request_changes'].includes(d.action)&&!words.trim()){$('reply-status').textContent='Write your response first.';return;}pending={id:crypto.randomUUID().replaceAll('-',''),display_hash:selected.hash,unit_id:selected.unit.id,action:d.action,choice_id:d.action==='choose'?d.choice_id:null,note:words,revisit:d.action==='defer'?d.revisit:'',supersedes:selected.last?.id||null};$('review-body').replaceChildren();add('p','WQ-'+selected.wq_id+' · '+d.action.replaceAll('_',' '),$('review-body'));if(pending.choice_id){const c=selected.unit.proposal.choices.find(c=>c.id===pending.choice_id);add('h3',c.id+' · '+c.label,$('review-body'));add('p',c.meaning+'\n'+c.consequence,$('review-body'),'bodytext');}add('p',words||(d.action==='report_done'?'Task reported done.':''),$('review-body'),'bodytext');if(pending.revisit)add('p','Return: '+pending.revisit,$('review-body'));const t=add('details',null,$('review-body'));t.open=true;add('summary','Terms this response concerns',t);terms(selected,t);$('review-confirmation').textContent=confirmationText(selected);$('review-status').textContent='';$('reply').close();$('review-dialog').showModal();};
++async function save(send){if(busy||!pending)return;busy=true;for(const id of ['send','save-local','back'])$(id).disabled=true;try{const e=await api('/api/responses',pending);delete drafts[pending.unit_id];delete inlineConditions[pending.unit_id];if(send){try{const r=await api('/api/deliver',{id:e.id});$('global-status').textContent=r.message;}catch(error){$('global-status').textContent='Response saved. '+error.message;}}pending=null;$('review-dialog').close();view='Follow-through';await load(false);}catch(error){$('review-status').textContent=error.message+' Your draft is retained.';}finally{busy=false;for(const id of ['send','save-local','back'])$(id).disabled=false;}}
+ $('send').onclick=()=>save(true);$('save-local').onclick=()=>save(false);for(const id of ['reply','review-dialog'])$(id).addEventListener('cancel',e=>{if(busy)e.preventDefault();});
+ async function deliver(id){if(busy)return;busy=true;try{const r=await api('/api/deliver',{id});$('global-status').textContent=r.message;await load(false);}catch(error){$('global-status').textContent=error.message;}finally{busy=false;}}
+-function showDiagnostics(){const problems=[model.limit,...model.errors,...(model.rulings?.errors||[])].filter(Boolean);$('diagnostics').hidden=!problems.length;$('diagnostic-text').textContent=problems.join('\n');}
+-async function load(replaceStatus=true){try{model=await api('/api/display');showDiagnostics();if(replaceStatus)$('global-status').textContent=[model.limit?model.limit+' Saved history is available.':'',model.errors.length?'Some records need a source refresh. Use Sync latest records; your saved answers are preserved.':''].filter(Boolean).join(' ' )||'Records loaded. Your saved answers are preserved.';render();}catch(error){$('global-status').textContent=error.message;}}
+-$('sync').onclick=async()=>{if(busy)return;busy=true;$('sync').disabled=true;try{const r=await api('/api/sync',{});await load();$('global-status').textContent=r.message+(model?.limit?' Replies remain unavailable; see Source details.':'')+(model?.errors?.length?' Some sources still need reconciliation.':'');}catch(error){$('global-status').textContent='Sync did not finish: '+error.message;}finally{busy=false;$('sync').disabled=false;}};$('search').oninput=render;load();
++function showDiagnostics(){const problems=[model.limit,...model.errors,...(model.source_errors||[]),...(model.rulings?.errors||[])].filter(Boolean);$('diagnostics').hidden=!problems.length;$('diagnostic-text').textContent=problems.join('\n');}
++async function refreshConnection(){try{const state=await api('/api/display');$('connection-status').textContent=state.notification?.message||'PROME notification status is unknown.';}catch(error){$('connection-status').textContent='PROME connection status is unknown; the latest status could not be loaded.';}}
++async function load(replaceStatus=true){try{model=await api('/api/display');$('connection-status').textContent=model.notification?.message||'PROME notification status is unknown.';showDiagnostics();if(replaceStatus)$('global-status').textContent=[model.limit?model.limit+' Saved history is available.':'',(model.errors.length||model.source_errors?.length)?'Some records need a source refresh. Use Sync latest records; your saved answers are preserved.':''].filter(Boolean).join(' ' )||'Records loaded. Your saved answers are preserved.';render();}catch(error){$('global-status').textContent=error.message;$('connection-status').textContent='PROME connection status is unknown; the latest status could not be loaded.';}}
++$('sync').onclick=async()=>{if(busy)return;busy=true;$('sync').disabled=true;try{const r=await api('/api/sync',{});await load();$('global-status').textContent=r.message+(model?.limit?' Replies remain unavailable; see Source details.':'')+(model?.errors?.length?' Some sources still need reconciliation.':'');}catch(error){$('global-status').textContent='Sync did not finish: '+error.message;$('connection-status').textContent='PROME connection status is unknown; sync did not finish.';}finally{busy=false;$('sync').disabled=false;}};$('search').oninput=render;load();setInterval(()=>{if(!busy&&!document.querySelector('dialog[open]')&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement?.tagName))load(false);else refreshConnection();},60000);
+ </script></body></html>
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/options.py b/AGENTS/CATO/prototypes/decisions/mvp/options.py
+index 3a0b8b2323..73f57d31e9 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/options.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/options.py
+@@ -3,6 +3,7 @@ import hashlib
+ import re
+ 
+ from pilot_files import fields, record_block
++from authorization import validate_policy
+ 
+ 
+ def source_for(repo, row, commit, current=False):
+@@ -18,8 +19,12 @@ def source_for(repo, row, commit, current=False):
+     if current and repo.read(path, clean=True, prefix="PROME/proposals") != text:
+         raise ValueError("Option source is not published; refresh after PROME finishes")
+     record = record_block(text, "decisions-options")
+-    fields(record, {"schema_version", "wq_id", "queue_row_sha256", "choices"}, "Options")
+-    if (record["schema_version"] != "decisions-options/1" or type(record["wq_id"]) not in (str, int)
++    version = record.get("schema_version") if isinstance(record, dict) else None
++    expected = {"schema_version", "wq_id", "queue_row_sha256", "choices"}
++    if version == "decisions-options/2":
++        expected |= {"recommended_choice_id", "confirmation"}
++    fields(record, expected, "Options")
++    if (version not in {"decisions-options/1", "decisions-options/2"} or type(record["wq_id"]) not in (str, int)
+             or str(record["wq_id"]) != row["n"]
+             or record["queue_row_sha256"] != hashlib.sha256(row["row"].encode()).hexdigest()):
+         raise ValueError("Options do not bind this exact queue row")
+@@ -34,4 +39,10 @@ def source_for(repo, row, commit, current=False):
+         if not re.fullmatch(r"[A-Za-z0-9_-]{1,32}", choice["id"]) or choice["id"] in ids:
+             raise ValueError("Option IDs must be unique and unambiguous")
+         ids.add(choice["id"])
+-    return {"path": path, "commit": commit, "text": text, "choices": choices}
++    result = {"path": path, "commit": commit, "text": text, "choices": choices}
++    if version == "decisions-options/2":
++        recommended = record["recommended_choice_id"]
++        if recommended is not None and (not isinstance(recommended, str) or recommended not in ids):
++            raise ValueError("Recommendation must identify an explicit choice or be null")
++        result.update(recommended_choice_id=recommended, confirmation=validate_policy(record["confirmation"]))
++    return result
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py b/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py
+index 5afaa043a0..0bc6aa6e7f 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/owner_receipt.py
+@@ -14,6 +14,7 @@ from delivery import validate, published_packet
+ from pilot_files import RECEIPTS, RESPONSES, Repo, encoded, identifier, read_receipts, strict_json
+ from queue_store import REPLIES, queue_chain, check_current_snapshot, validate_reply
+ from store import reader
++from authorization import requires_chat, app_only_enabled, readback_text, validate_app_integration
+ 
+ 
+ def load_event(repo, event_id):
+@@ -31,15 +32,23 @@ def load_event(repo, event_id):
+     return event
+ 
+ 
+-def prepare(repo, event, state, ruling=None, confirmation=None):
++def prepare(repo, event, state, ruling=None, confirmation=None, app_only=False):
++    if state == "integrated":
++        repo.git("fetch", "origin")
+     validate(repo, event)
+     old = read_receipts(repo, event)
+     if old and (old[-1]["state"] != "received" or state == "received"):
+         raise ValueError("Receipt already terminal or duplicate received state; preserve history")
+     if state not in {"received", "needs_clarification", "rejected_stale", "integrated"}:
+         raise ValueError("Unsupported receipt state")
++    if app_only and (state != "integrated" or confirmation is not None):
++        raise ValueError("App-only integration needs an owner ruling and no invented chat confirmation")
++    at = datetime.now(timezone.utc).isoformat()
+     if state == "integrated":
+-        for ref in (ruling, confirmation):
++        published = read_receipts(repo, event, commit="origin/master")
++        if not old or old != published or old[-1]["state"] != "received":
++            raise ValueError("Integration requires a prior published received receipt")
++        for ref in ((ruling,) if app_only else (ruling, confirmation)):
+             if not isinstance(ref, dict) or set(ref) != {"path", "commit"}:
+                 raise ValueError("Integration requires published ruling and matching-confirmation references")
+             repo.git("merge-base", "--is-ancestor", ref["commit"], "origin/master")
+@@ -48,11 +57,43 @@ def prepare(repo, event, state, ruling=None, confirmation=None):
+             raise ValueError("Ruling reference must name a -RULED.md record")
+     elif ruling or confirmation:
+         raise ValueError("Only integration carries ruling/confirmation references")
+-    return {"schema_version": "decisions-receipt/1", "id": uuid.uuid4().hex,
++    if app_only:
++        if not app_only_enabled(repo, event):
++            raise ValueError("Chat confirmation is required for every answer until live notification is enabled")
++        check_current_snapshot(repo, event["display"])
++        validate_app_integration(repo, event, ruling, at)
++        assert_latest_app_answer(repo, event)
++    result = {"schema_version": "decisions-receipt/2" if app_only else "decisions-receipt/1", "id": uuid.uuid4().hex,
+             "response_id": event["id"], "response_sha256": event["sha256"], "state": state,
+-            "at": datetime.now(timezone.utc).isoformat(), "previous_receipt_id": old[-1]["id"] if old else None,
++            "at": at, "previous_receipt_id": old[-1]["id"] if old else None,
+             "canonical_ruling": ruling, "chat_confirmation": confirmation,
+             "confirmed_response_sha256": event["sha256"] if state == "integrated" else None}
++    if app_only:
++        result["authorization_basis"] = "app"
++    return result
++
++
++def assert_latest_app_answer(repo, event):
++    if not published_packet(repo, event):
++        raise ValueError("App-only ruling requires the delivered response and packet")
++    wq = event["display"]["record"]["wq_id"]
++    events = []
++    for path in repo.git("ls-tree", "-r", "--name-only", "origin/master", "--", REPLIES).splitlines():
++        try:
++            other = strict_json(repo.read(path, "origin/master", prefix=REPLIES))
++            if other.get("display", {}).get("record", {}).get("wq_id") != wq:
++                continue
++        except (ValueError, AttributeError):
++            continue
++        validate_reply(repo, other, wq)
++        if path != f"{REPLIES}/{other['id']}.json":
++            raise ValueError("Response identity mismatch")
++        if other['id'] != event['id'] and any(r['state']=='integrated' for r in read_receipts(repo, other, commit='origin/master')):
++            raise ValueError("Another answer is already recorded")
++        events.append(other)
++    ordered = queue_chain(repo, events)
++    if not ordered or ordered[-1] != event:
++        raise ValueError("Superseded or conflicting answer cannot be integrated")
+ 
+ 
+ def inspect_event(repo, event):
+@@ -96,8 +137,9 @@ def inspect_event(repo, event):
+         assert_current(repo, event["display"])
+     return {"status": "received" if receipts else "ready", "packet": packet,
+             "receipt": receipts[-1] if receipts else None,
+-            "requires_chat_confirmation": True,
+-            "meaning": "Mechanical checks only; PROME must interpret, confirm and record the ruling."}
++            "requires_chat_confirmation": requires_chat(repo, event["display"], event),
++            "readback_text": readback_text(event),
++            "meaning": "Mechanical checks only; PROME reviews conditions and chat conflicts, reads back the exact ruling, and records it. App-only integration requires its pinned scope/readback attestation."}
+ 
+ 
+ def receipt_path(repo, receipt):
+@@ -175,7 +217,7 @@ def intake(repo, write=False, event_id=None):
+         results.append(row)
+     return {"checked_revision": revision, "items": results,
+             "scope": "Published answers only; private drafts are not observable. Received is not ruled or implemented.",
+-            "requires_chat_confirmation": True}
++            "confirmation": "Per-answer policy; missing classification requires chat."}
+ 
+ 
+ def main():
+@@ -190,6 +232,7 @@ def main():
+     r.add_argument("state", choices=["received", "needs_clarification", "rejected_stale", "integrated"])
+     r.add_argument("--ruling-path"); r.add_argument("--ruling-commit")
+     r.add_argument("--confirmation-path"); r.add_argument("--confirmation-commit")
++    r.add_argument("--app-only", action="store_true", help="Eligible internal answer only; ruling must contain exact scope/conflict/readback attestation")
+     r.add_argument("--write", action="store_true", help="PROME only: create one immutable receipt; no Git mutation")
+     args = p.parse_args(); repo = Repo(reader.ROOT)
+     if args.command in {"pending", "intake"}:
+@@ -200,7 +243,7 @@ def main():
+     event = load_event(repo, args.event_id)
+     ruling = {"path": args.ruling_path, "commit": args.ruling_commit} if args.ruling_path else None
+     confirmation = {"path": args.confirmation_path, "commit": args.confirmation_commit} if args.confirmation_path else None
+-    receipt = prepare(repo, event, args.state, ruling, confirmation)
++    receipt = prepare(repo, event, args.state, ruling, confirmation, app_only=args.app_only)
+     if args.write:
+         path = receipt_path(repo, receipt)
+         path.parent.mkdir(parents=True, exist_ok=True)
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py b/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py
+index dace0948d7..5b91661c60 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/pilot_files.py
+@@ -410,9 +410,13 @@ def read_receipts(repo, event, commit="HEAD"):
+         if not re.fullmatch(re.escape(prefix) + r"/[0-9a-f]{32}\.json", path):
+             raise ValueError("Unexpected owner receipt path")
+         receipt = strict_json(repo.read(path, commit, clean=commit == "HEAD", prefix=prefix))
+-        fields(receipt, expected, "Receipt")
++        schema = receipt.get("schema_version") if isinstance(receipt, dict) else None
++        app_only = schema == "decisions-receipt/2"
++        fields(receipt, expected | ({"authorization_basis"} if app_only else set()), "Receipt")
++        if app_only and receipt["authorization_basis"] != "app":
++            raise ValueError("Unknown receipt authorization basis")
+         identifier(receipt["id"])
+-        if Path(path).stem != receipt["id"] or receipt["schema_version"] != "decisions-receipt/1":
++        if Path(path).stem != receipt["id"] or schema not in {"decisions-receipt/1", "decisions-receipt/2"}:
+             raise ValueError("Receipt filename/schema mismatch")
+         if receipt["response_id"] != event_id or receipt["response_sha256"] != event["sha256"]:
+             raise ValueError("Receipt names another response/hash")
+@@ -424,7 +428,9 @@ def read_receipts(repo, event, commit="HEAD"):
+         if receipt["state"] == "integrated":
+             if receipt["confirmed_response_sha256"] != event["sha256"]:
+                 raise ValueError("Integration lacks the matching chat-confirmation assertion")
+-            for key in ("canonical_ruling", "chat_confirmation"):
++            if app_only and receipt["chat_confirmation"] is not None:
++                raise ValueError("App-only receipt cannot invent chat confirmation")
++            for key in (("canonical_ruling",) if app_only else ("canonical_ruling", "chat_confirmation")):
+                 ref = receipt[key]
+                 fields(ref, {"path", "commit"}, key)
+                 if not re.fullmatch(r"[0-9a-f]{40}", ref["commit"]):
+@@ -436,10 +442,15 @@ def read_receipts(repo, event, commit="HEAD"):
+                 repo.read(ref["path"], ref["commit"], prefix="PROME/proposals")
+             if not receipt["canonical_ruling"]["path"].endswith("-RULED.md"):
+                 raise ValueError("Canonical integration requires a ruling record")
+-        elif any(receipt[key] is not None for key in ("canonical_ruling", "chat_confirmation", "confirmed_response_sha256")):
++            if app_only:
++                from authorization import validate_app_integration
++                validate_app_integration(repo, event, receipt["canonical_ruling"], receipt["at"])
++        elif app_only or any(receipt[key] is not None for key in ("canonical_ruling", "chat_confirmation", "confirmed_response_sha256")):
+             raise ValueError("Non-integrated receipt contains ambiguous ruling fields")
+         receipts.append(receipt)
+     ordered = chain(receipts, "id", lambda r: r["previous_receipt_id"])
++    if ordered and ordered[0]["schema_version"] == "decisions-receipt/2":
++        raise ValueError("App-only integration requires a prior received receipt")
+     for earlier, later in zip(ordered, ordered[1:]):
+         if earlier["state"] != "received" or later["state"] == "received" or timestamp(later["at"]) < timestamp(earlier["at"]):
+             raise ValueError("Invalid or conflicting receipt progression")
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py b/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
+index fb5f802014..a6b8317645 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/queue_store.py
+@@ -11,6 +11,7 @@ import tempfile
+ from pilot_files import Repo, chain, fields, read_receipts, strict_json
+ from store import HERE, Store, digest, encoded, identifier, reader
+ from options import source_for
++from authorization import needs_chat
+ 
+ QUEUE = "PROME/WILL_QUEUE.md"
+ REPLIES = "AGENTS/CATO/decisions/queue-responses"
+@@ -46,7 +47,7 @@ def unit_for(row, options=None):
+     c = row["cells"]
+     return {"id": c[0] + ".queue", "kind": "hands" if row["kind"] == "HANDS" else "decision",
+             "proposal": {"question": c[1], "context": c[6], "choices": options["choices"] if options else [],
+-                         "recommendation": {"reason": c[5], "option_id": None}, "caveats": []},
++                         "recommendation": {"reason": c[5], "option_id": (options or {}).get("recommended_choice_id")}, "caveats": []},
+             "timing": {"needed_by": row["due"], "meaning": c[3], "revisit_condition": None},
+             "disposition": {"state": "outstanding" if row["kind"] == "HANDS" else "awaiting_answer"},
+             "queue_kind": row["kind"], "blocked": row["blocked"]}
+@@ -285,7 +286,7 @@ class QueueStore(Store):
+                 "delivery_block": delivery_block, "conflict": bool(self.conflict),
+                 "history_notes": (["Earlier saved versions are unavailable on this computer; their words are not inferred. "
+                                    "Only published answers travel through the repository."] if gaps else []),
+-                "response_type": "queue", "requires_confirmation": True}
++                "response_type": "queue", "requires_confirmation": needs_chat(d)}
+ 
+     def save(self, request):
+         if not self.enabled:
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py b/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py
+index 7a38c39f0d..ead445cf75 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_batch.py
+@@ -157,7 +157,7 @@ class BatchTests(unittest.TestCase):
+         receipt=json.loads(files[0].read_text()); self.assertEqual(receipt['state'],'received')
+         self.assertIsNone(receipt['canonical_ruling']); self.assertIsNone(receipt['chat_confirmation'])
+         self.assertEqual(self.repo.path('PROME/WILL_QUEUE.md').read_text(),self.text)
+-        self.assertTrue(first['requires_chat_confirmation'])
++        self.assertTrue(first['items'][0]['requires_chat_confirmation'])
+         self.assertEqual(self.git('diff','--cached','--name-only'),'')
+ 
+     def test_intake_rejects_stale_terms_and_superseded_answer(self):
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py b/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
+index c2a2923f1b..09702df7f2 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_desk.py
+@@ -347,6 +347,9 @@ class DeskTests(unittest.TestCase):
+         import owner_receipt
+         e = self.store.save(self.request()); delivery.deliver(self.repo, e)
+         self.assertEqual(owner_receipt.load_event(self.repo, e["id"]), e)
++        received = owner_receipt.prepare(self.repo,e,"received")
++        self.put(f"PROME/decisions/receipts/{e['id']}/{received['id']}.json",encoded(received)+"\n")
++        self.commit(publish=True)
+         with self.assertRaisesRegex(ValueError, "requires published"):
+             owner_receipt.prepare(self.repo, e, "integrated")
+         self.put("PROME/proposals/fixture-RULED.md", "Fictional owner ruling plus matching confirmation")
+@@ -359,7 +362,7 @@ class DeskTests(unittest.TestCase):
+         self.put(f"PROME/decisions/receipts/{e['id']}/{receipt['id']}.json", encoded(receipt) + "\n")
+         self.put("PROME/WILL_QUEUE.md", "\n".join(l for l in self.text.splitlines() if not l.startswith("| 901")))
+         self.commit(publish=True)
+-        self.assertEqual(read_receipts(self.repo, e), [receipt])
++        self.assertEqual(read_receipts(self.repo, e), [received, receipt])
+         display = self.store.display()
+         self.assertEqual(display["group"], "History")
+         self.assertFalse(display["can_respond"])
+@@ -379,7 +382,7 @@ class DeskTests(unittest.TestCase):
+         self.put("PROME/reports/fixture-review.md", "Fixture independent acceptance; not real approval")
+         self.commit(publish=True)
+         record = {"schema_version": "decisions-app-acceptance/1", "queue_responses": True,
+-                  "matching_chat_confirmation": True, "build_hashes": app.build_hashes(),
++                  "matching_chat_confirmation": True, "confirmation_policy": "explicit-reversible-internal/1", "build_hashes": app.build_hashes(),
+                   "independent_review": {"path": "PROME/reports/fixture-review.md", "commit": self.git("rev-parse", "HEAD").strip()}}
+         self.put(app.ACCEPTANCE, json.dumps(record)); self.commit()
+         self.assertFalse(app.accepted(self.repo)[0])
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_desk_review.py b/AGENTS/CATO/prototypes/decisions/mvp/test_desk_review.py
+index 37a1980358..0f51d4d271 100644
+--- a/AGENTS/CATO/prototypes/decisions/mvp/test_desk_review.py
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_desk_review.py
+@@ -22,6 +22,8 @@ class ReviewTests(unittest.TestCase):
+     install_options = fixtures.DeskTests.install_options
+ 
+     def integrate(self, event, close=False):
++        path = owner_receipt.write_received(self.repo,event)
++        self.git('add','--',path);self.git('commit','-qm','Received fixture','--',path);self.git('push','-q')
+         path = 'PROME/proposals/fixture-RULED.md'
+         self.put(path, 'WQ-901: matching chat confirmation and ruling for this fixture.')
+         self.git('add', '--', path); self.git('commit', '-qm', 'Fixture ruling', '--', path); self.git('push', '-q')
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/WQ638.md b/AGENTS/CATO/prototypes/decisions/mvp/WQ638.md
+new file mode 100644
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/WQ638.md
+@@ -0,0 +1,56 @@
++# Option A owner contract
++
++**WQ-641 return:** installation may use the authorized fallback below. This section supersedes the earlier probe/install assumptions. App-only authority is OFF unless acceptance explicitly sets `app_only_enabled: true` and an actual timezone-aware `app_only_since` after proven live alerts. Absent/false/invalid settings mean matching chat on EVERY answer, in the UI, intake and preparation. Answers saved before that activation time cannot be upgraded retroactively. Do not install notification hooks in the fallback deployment.
++
++New integration preparation fetches published state and requires a prior published received receipt for both chat and app-only rulings. App-only preparation additionally checks the current exact row/source and latest answer. Historical replay intentionally does not compare against today’s source or today’s enablement; valid older rulings remain valid. Legacy `/1` receipt history is retained. New `/2` replay requires a preceding received receipt.
++
++A bad card source is isolated to that card; unidentifiable response/receipt corruption still stops the desk for reconciliation. Connection status is refreshed independently of transient operation messages. SessionStart claims a new watcher before waiting for the old lock; the former session cannot refresh or end the new lease. Headless input exits without starting a long-lived watcher. These mechanics are fixture-tested, not proof of live PROME notification.
++
++
++WQ-638 A authorizes app answers for explicitly classified reversible internal decisions. Unknown scopes, trades, spending, external sends, held positions, security and destructive work still require matching chat confirmation. The app cannot authenticate Will separately from other programs under his login. PROME's condition/scope/conflict judgment and same-day readback remain human-in-the-loop owner obligations, not guarantees made by a parser.
++
++## Source authoring
++
++Use the existing `decisions-options` source and exact row hash. Change `schema_version` to `decisions-options/2` and add:
++
++```json
++"recommended_choice_id": "A",
++"confirmation": {
++  "mode": "app",
++  "scope": "reversible_internal",
++  "reason": "Only reversible internal work; no money or external action."
++}
++```
++
++The recommended ID must be an existing choice or `null` for no recommendation. For protected/uncertain work use `mode: chat` with scope `trade`, `spending`, `external_send`, `held_position`, `security`, `destructive` or `other`. Legacy sources remain chat-required. No retrospective reclassification. A changed policy, recommendation, brief or queue row invalidates a pending answer. Adding conditions does not silently widen eligibility: PROME must inspect their meaning. New card authoring/backfill and loosening the row binding are WQ-639, outside this build.
++
++Approve selects the explicit recommended choice and keeps the conditions exactly. Disapprove is a text rejection of that recommendation, with no alternative selected. Review and explicit Send remain; only Send may publish response files.
++
++## Receive, rule, read back
++
++`owner_receipt.py intake --write` prepares received receipts only after checking the published event/packet pair. Commit these via PROME's normal exact-path custody. This is acknowledgment, not a ruling. Read each answer, check chat for a different answer, and inspect all conditions. If conflict or scope uncertainty exists, ask Will; do not integrate. Chat-required cards keep the existing matching confirmation procedure.
++
++For an app-eligible answer, read its exact answer/conditions back to Will that same day. `pending`/`intake` returns `readback_text`. Publish a normal `-RULED.md` with this additional fenced `decisions-app-authorization` JSON block:
++
++```json
++{
++  "schema_version": "decisions-app-authorization/1",
++  "response_id": "EXACT_EVENT_ID",
++  "response_sha256": "EXACT_EVENT_SHA256",
++  "scope": "reversible_internal",
++  "conditions_within_scope": true,
++  "no_chat_conflict": true,
++  "readback_at": "ACTUAL_TIME_WITH_TIMEZONE",
++  "readback_text": "EXACT_INTAKE_READBACK_TEXT"
++}
++```
++
++These fields attest actual owner work; never manufacture them from the button alone. Then use `owner_receipt.py prepare --help` and its existing ruling arguments with `--app-only` instead of a chat confirmation. Receipt `/2` names app authority; `/1` remains unchanged. No script executes the ruling. Will can undo by naming the decision; PROME records the correction, preserving prior history.
++
++## Live notification
++
++Install the accompanying hook entries in PROME's `.claude/settings.json`, preserving every existing hook. Only this local Claude runtime is supported. Entries use the documented `asyncRewake` exit-2 wake mechanism (Claude Code 2.1.319 inspected; https://code.claude.com/docs/en/hooks). A single process-owned watcher checks a local SQLite queue every five seconds; it has a 12-hour maximum lifetime and never launches an agent, guesses a socket protocol, writes owner receipts or retries publication. PostToolUse and Stop rearm it after a notification. SessionEnd marks that registered session ended. Restart/resume PROME to load changed settings; existing sessions may require reload.
++
++The app enqueues only a verified published pair. Its display reconciles delivered/unread answers idempotently, recovering an interruption between publication and notification. The alert contains fixed packet paths and hashes, never operator prose as instructions. Emission is attempted once per session; actual receipt is separate. An absent/stale/failed listener is UNKNOWN, an explicitly ended registered session is OFFLINE. Neither status guesses whether another PROME runtime exists. A connected listener normally alerts within seconds; no timing promise is made while disconnected, runtime-paused or at teardown. An alert never asserts that PROME has read or ruled.
++
++Install requires WQ-638's one independent read without blockers, exact candidate hashes, published review and acceptance with `confirmation_policy: explicit-reversible-internal/1`. Retain `matching_chat_confirmation: true` as the fallback contract. Live owner acceptance/settings are not overwritten by this candidate.
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/authorization.py b/AGENTS/CATO/prototypes/decisions/mvp/authorization.py
+new file mode 100644
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/authorization.py
+@@ -0,0 +1,101 @@
++"""Explicit owner policy and attested app-only integration. No semantic inference."""
++from datetime import datetime
++from zoneinfo import ZoneInfo
++
++APP_SCOPE = 'reversible_internal'
++SCOPES = {APP_SCOPE, 'trade', 'spending', 'external_send', 'held_position',
++          'security', 'destructive', 'other'}
++
++
++def validate_policy(policy):
++    if not isinstance(policy, dict) or set(policy) != {'mode', 'scope', 'reason'}:
++        raise ValueError('Confirmation policy requires mode, scope and reason')
++    if (not isinstance(policy['mode'], str) or not isinstance(policy['scope'], str)
++            or policy['mode'] not in {'app', 'chat'} or policy['scope'] not in SCOPES):
++        raise ValueError('Unknown confirmation policy; chat confirmation required')
++    if not isinstance(policy['reason'], str) or not policy['reason'].strip() or len(policy['reason']) > 3000:
++        raise ValueError('Confirmation policy requires a bounded owner explanation')
++    if policy['mode'] == 'app' and policy['scope'] != APP_SCOPE:
++        raise ValueError('Only reversible internal work can use app-only confirmation')
++    return policy
++
++
++def policy_for(snapshot):
++    source = snapshot.get('options_source') or {}
++    policy = source.get('confirmation')
++    if policy is None:
++        return {'mode': 'chat', 'scope': 'other', 'reason': 'No explicit app-only classification.'}
++    return validate_policy(policy)
++
++
++def needs_chat(snapshot):
++    return policy_for(snapshot)['mode'] != 'app'
++
++
++def readback_text(event):
++    r = event['request']
++    choice = event.get('selected_choice')
++    answer = choice['id'] + ' — ' + choice['label'] if choice else r['action'].replace('_', ' ')
++    value = 'WQ-' + event['display']['record']['wq_id'] + ': ' + answer
++    if r['note']:
++        value += '\n' + r['note']
++    if r['revisit']:
++        value += '\nReturn: ' + r['revisit']
++    return value
++
++
++def validate_app_integration(repo, event, ruling, at):
++    # Imported lazily: pilot_files also reads legacy and new receipt dialects.
++    from pilot_files import fields, record_block, timestamp
++    if event['kind'] != 'decisions-queue-response/1' or needs_chat(event['display']):
++        raise ValueError('This answer requires matching chat confirmation')
++    if event['request']['action'] not in {'choose', 'reply', 'defer', 'request_changes'}:
++        raise ValueError('This response type is not eligible for app-only integration')
++    source = event['display']['options_source']
++    if repo.read(source['path'], ruling['commit'], prefix='PROME/proposals') != source['text']:
++        raise ValueError('Policy or terms changed before ruling; obtain a fresh answer')
++    raw = repo.read(ruling['path'], ruling['commit'], prefix='PROME/proposals')
++    proof = record_block(raw, 'decisions-app-authorization')
++    fields(proof, {'schema_version', 'response_id', 'response_sha256', 'scope',
++                   'conditions_within_scope', 'no_chat_conflict', 'readback_at', 'readback_text'}, 'App authorization')
++    if (proof['schema_version'] != 'decisions-app-authorization/1'
++            or proof['response_id'] != event['id'] or proof['response_sha256'] != event['sha256']
++            or proof['scope'] != APP_SCOPE or proof['conditions_within_scope'] is not True
++            or proof['no_chat_conflict'] is not True):
++        raise ValueError('Owner scope/conflict attestation is missing or names another answer')
++    readback, receipt_at = timestamp(proof['readback_at']), timestamp(at)
++    if readback < timestamp(event['saved_at']) or readback > receipt_at:
++        raise ValueError('Readback chronology is invalid')
++    zone = ZoneInfo('America/New_York')
++    if readback.astimezone(zone).date() != receipt_at.astimezone(zone).date():
++        raise ValueError('PROME must read the ruling back on the same day')
++    if proof['readback_text'] != readback_text(event):
++        raise ValueError('Readback must preserve the exact answer and conditions')
++
++
++def app_only_enabled(repo, event=None):
++    """Deployment opt-in; source eligibility alone cannot remove chat confirmation."""
++    import subprocess
++    from pilot_files import strict_json
++    from app import accepted, ACCEPTANCE
++    try:
++        if not accepted(repo)[0]:
++            return False
++        raw = repo.read(ACCEPTANCE, 'origin/master', prefix='PROME/decisions')
++        if repo.read(ACCEPTANCE, clean=True, prefix='PROME/decisions') != raw:
++            return False
++        record = strict_json(raw)
++        if record.get('app_only_enabled') is not True:
++            return False
++        from pilot_files import timestamp
++        from datetime import timezone
++        since = timestamp(record.get('app_only_since'))
++        if since > datetime.now(timezone.utc):
++            return False
++        return event is None or timestamp(event['saved_at']) >= since
++    except (ValueError, TypeError, AttributeError, OSError, subprocess.CalledProcessError):
++        return False
++
++
++def requires_chat(repo, snapshot, event=None):
++    return needs_chat(snapshot) or not app_only_enabled(repo, event)
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/notification-hooks.json b/AGENTS/CATO/prototypes/decisions/mvp/notification-hooks.json
+new file mode 100644
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/notification-hooks.json
+@@ -0,0 +1,51 @@
++{
++  "hooks": {
++    "SessionStart": [
++      {
++        "hooks": [
++          {
++            "type": "command",
++            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; python3 \"$R/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py\"",
++            "timeout": 43260,
++            "asyncRewake": true
++          }
++        ]
++      }
++    ],
++    "PostToolUse": [
++      {
++        "hooks": [
++          {
++            "type": "command",
++            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; python3 \"$R/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py\"",
++            "timeout": 43260,
++            "asyncRewake": true
++          }
++        ]
++      }
++    ],
++    "Stop": [
++      {
++        "hooks": [
++          {
++            "type": "command",
++            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; python3 \"$R/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py\"",
++            "timeout": 43260,
++            "asyncRewake": true
++          }
++        ]
++      }
++    ],
++    "SessionEnd": [
++      {
++        "hooks": [
++          {
++            "type": "command",
++            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; python3 \"$R/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py\"",
++            "timeout": 5
++          }
++        ]
++      }
++    ]
++  }
++}
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py b/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py
+new file mode 100644
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py
+@@ -0,0 +1,84 @@
++#!/usr/bin/env python3
++"""PROME-only Claude asyncRewake hook. Exit 2 emits a packet-pointer reminder.
++
++No sockets, agent launches, Git mutations, receipt writes or background retry of
++response publication. A listener belongs to the Claude process that started it.
++"""
++import fcntl
++import json
++import os
++from pathlib import Path
++import re
++import sys
++import sqlite3
++import time
++
++HERE = Path(__file__).resolve().parent
++sys.path.insert(0, str(HERE))
++from notifications import Notifications, process_identity, session_parent, interactive_parent
++
++
++def run(payload, root, state, *, parent=None, poll=5, lifetime=43200, interactive=None):
++    if Path(payload.get('cwd','')).resolve() != (root/'PROME').resolve():
++        return 0
++    session = payload.get('session_id')
++    if not isinstance(session,str) or not re.fullmatch(r'[A-Za-z0-9_-]{1,100}',session):
++        return 0
++    queue = Notifications(state)
++    event = payload.get('hook_event_name')
++    if event == 'SessionEnd':
++        queue.end(session)
++        return 0
++    if event not in {'SessionStart','PostToolUse','Stop'}:
++        return 0
++    parent = parent or session_parent()
++    if parent is None or not (interactive_parent(parent) if interactive is None else interactive):
++        return 0  # Cannot claim a live session from a test/unknown caller.
++    watcher = process_identity(os.getpid())
++    if watcher is None or not queue.claim(session,watcher,replace=event=='SessionStart'):
++        return 0
++    with (queue.state/'notification-listener.lock').open('a') as lock:
++        deadline = time.monotonic()+15
++        while True:
++            try:
++                fcntl.flock(lock, fcntl.LOCK_EX|fcntl.LOCK_NB)
++                break
++            except BlockingIOError:
++                if time.monotonic() >= deadline:
++                    return 0
++                time.sleep(min(poll, .25))
++        end = time.monotonic()+lifetime
++        while time.monotonic()<end and process_identity(parent['pid']) == parent:
++            if not queue.heartbeat(session,watcher):return 0
++            notices = queue.pending(session)
++            if notices:
++                # Fixed paths/IDs only: user text is not injected as instructions.
++                valid=[]
++                for notice in notices:
++                    if (re.fullmatch(r'[0-9a-f]{32}', notice['id'])
++                            and re.fullmatch(r'[0-9a-f]{64}',notice['sha'])
++                            and notice['packet'] in {f"PROME/inbox/decisions-{notice['id']}-from-CATO.md",
++                                                     f"PROME/inbox/processed/decisions-{notice['id']}-from-CATO.md"}):
++                        valid.append(notice)
++                if valid:
++                    queue.attempted(session,[n['id'] for n in valid])
++                    print('Decisions app: published answers await your read. This is notification only, not an approval or read receipt. '
++                          'Run the existing owner intake, review conditions and possible chat conflicts, and read each ruling back to Will.\n'
++                          +'\n'.join(n['packet']+' (event SHA256 '+n['sha']+')' for n in valid),file=sys.stderr,flush=True)
++                    return 2
++            time.sleep(poll)
++        return 0
++
++
++def main():
++    try:
++        raw=sys.stdin.read(200001)
++        if len(raw)>200000:return 0
++        payload=json.loads(raw)
++        if not isinstance(payload,dict):return 0
++        return run(payload,HERE.parents[4],HERE/'local-state')
++    except (OSError,ValueError,TypeError,KeyError,sqlite3.Error):
++        return 0  # Do not block unrelated owner work or report false notification.
++
++
++if __name__=='__main__':raise SystemExit(main())
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/notifications.py b/AGENTS/CATO/prototypes/decisions/mvp/notifications.py
+new file mode 100644
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/notifications.py
+@@ -0,0 +1,144 @@
++"""Session-local notification queue; never a PROME read/ruling receipt."""
++from contextlib import contextmanager
++from datetime import datetime, timezone
++import os
++from pathlib import Path
++import sqlite3
++import time
++
++
++def process_identity(pid):
++    try:
++        stat = Path(f'/proc/{int(pid)}/stat').read_text()
++        tail = stat[stat.rfind(')')+2:].split()
++        return {'pid': int(pid), 'start': tail[19],
++                'boot': Path('/proc/sys/kernel/random/boot_id').read_text().strip()}
++    except (OSError, ValueError, IndexError):
++        return None
++
++
++def session_parent():
++    pid = os.getppid()
++    for _ in range(10):
++        try:
++            name = Path(f'/proc/{pid}/comm').read_text().strip()
++            if name in {'claude', 'claude-code'}:
++                return process_identity(pid)
++            raw = Path(f'/proc/{pid}/stat').read_text()
++            pid = int(raw[raw.rfind(')')+2:].split()[1])
++        except (OSError, ValueError, IndexError):
++            return None
++    return None
++
++
++def interactive_parent(identity):
++    """Only a real interactive Claude stdin supports this installed watcher."""
++    try:
++        argv = Path(f"/proc/{identity['pid']}/cmdline").read_bytes().decode().split('\0')
++        if any(arg == '--print' or arg.startswith('--print=')
++               or (arg.startswith('-') and not arg.startswith('--') and 'p' in arg[1:])
++               for arg in argv[1:]):
++            return False  # `claude -p PROMPT` can inherit a terminal stdin.
++        fd = os.open(f"/proc/{identity['pid']}/fd/0", os.O_RDONLY | os.O_NONBLOCK)
++        try:
++            return os.isatty(fd)
++        finally:
++            os.close(fd)
++    except (OSError, KeyError, TypeError):
++        return False
++
++
++class Notifications:
++    def __init__(self, state):
++        self.state = Path(state)
++        self.state.mkdir(parents=True, exist_ok=True)
++        self.path = self.state / 'notifications.sqlite3'
++
++    @contextmanager
++    def connect(self):
++        with sqlite3.connect(self.path, timeout=2) as db:
++            db.row_factory = sqlite3.Row
++            db.executescript('''
++                CREATE TABLE IF NOT EXISTS notices (
++                  id TEXT PRIMARY KEY, sha TEXT NOT NULL, packet TEXT NOT NULL,
++                  queued REAL NOT NULL, attempted_session TEXT, attempted REAL, acknowledged INTEGER NOT NULL DEFAULT 0);
++                CREATE TABLE IF NOT EXISTS listener (
++                  singleton INTEGER PRIMARY KEY CHECK(singleton=1), session TEXT NOT NULL,
++                  pid INTEGER NOT NULL, start TEXT NOT NULL, boot TEXT NOT NULL,
++                  beat REAL NOT NULL, ended INTEGER NOT NULL);
++            ''')
++            yield db
++
++    def enqueue(self, repo, event):
++        from delivery import published_packet, validate
++        from pilot_files import encoded
++        validate(repo, event)
++        packet = published_packet(repo, event)
++        if not packet:
++            raise ValueError('Only a verified published packet can notify PROME')
++        from delivery import event_path
++        if repo.read(event_path(event), 'origin/master') != encoded(event)+'\n':
++            raise ValueError('Published response is missing or changed')
++        with self.connect() as db:
++            old = db.execute('SELECT * FROM notices WHERE id=?', (event['id'],)).fetchone()
++            if old and (old['sha'] != event['sha256']):
++                raise ValueError('Notification identity conflict')
++            db.execute('INSERT OR IGNORE INTO notices (id,sha,packet,queued) VALUES (?,?,?,?)',
++                       (event['id'],event['sha256'],packet,time.time()))
++        return self.status()
++
++    def claim(self, session, identity, *, replace=False):
++        with self.connect() as db:
++            db.execute('BEGIN IMMEDIATE')
++            row = db.execute('SELECT * FROM listener WHERE singleton=1').fetchone()
++            active = row and not row['ended'] and process_identity(row['pid']) == {
++                'pid':row['pid'], 'start':row['start'], 'boot':row['boot']}
++            if active and (row['session'] == session or not replace):
++                return False
++            # Claim before waiting for the old process's lock. Its next heartbeat
++            # fails; old SessionEnd cannot end the new session. Beat zero means
++            # starting/UNKNOWN until this watcher actually owns the lock.
++            db.execute('INSERT OR REPLACE INTO listener VALUES (1,?,?,?,?,0,0)',
++                       (session, identity['pid'], identity['start'], identity['boot']))
++            return True
++
++    def heartbeat(self, session, identity, starting=False):
++        with self.connect() as db:
++            if starting:
++                db.execute('INSERT OR REPLACE INTO listener VALUES (1,?,?,?,?,?,0)',
++                           (session,identity['pid'],identity['start'],identity['boot'],time.time()))
++                return True
++            return db.execute('UPDATE listener SET beat=? WHERE session=? AND pid=? AND start=? AND boot=? AND ended=0',
++                              (time.time(),session,identity['pid'],identity['start'],identity['boot'])).rowcount == 1
++
++    def end(self, session):
++        with self.connect() as db:
++            db.execute('UPDATE listener SET ended=1, beat=? WHERE session=?', (time.time(),session))
++
++    def pending(self, session):
++        with self.connect() as db:
++            return [dict(row) for row in db.execute('SELECT * FROM notices WHERE acknowledged=0 AND (attempted_session IS NULL OR attempted_session!=?) ORDER BY queued LIMIT 20', (session,))]
++
++    def attempted(self, session, ids):
++        with self.connect() as db:
++            db.executemany('UPDATE notices SET attempted_session=?,attempted=? WHERE id=?',
++                           [(session,time.time(),eid) for eid in ids])
++
++    def acknowledge(self, event_id):
++        # Caller must have obtained an actual validated owner receipt.
++        with self.connect() as db:
++            db.execute('UPDATE notices SET acknowledged=1 WHERE id=?', (event_id,))
++
++    def status(self):
++        with self.connect() as db:
++            row = db.execute('SELECT * FROM listener WHERE singleton=1').fetchone()
++        if not row:
++            return {'state':'unknown', 'message':'PROME notification connection is not established. Delivered answers remain in its inbox.'}
++        if row['ended']:
++            return {'state':'offline', 'message':'The registered PROME session has ended. Delivered answers are waiting in its inbox.'}
++        current = process_identity(row['pid'])
++        if current and (current['start'] != row['start'] or current['boot'] != row['boot']):
++            return {'state':'unknown', 'message':'PROME session identity changed; notification is unconfirmed.'}
++        if current is None or time.time()-row['beat'] > 20:
++            return {'state':'unknown', 'message':'PROME notification connection is unavailable; delivery does not mean it has read your answer.'}
++        return {'state':'listening', 'message':'PROME notification listener is connected. It will be alerted after delivery; reading is confirmed separately.'}
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_wq638.py b/AGENTS/CATO/prototypes/decisions/mvp/test_wq638.py
+new file mode 100644
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_wq638.py
+@@ -0,0 +1,168 @@
++"""Option A counterexamples, entirely disposable Git repositories and local state."""
++from datetime import datetime, timezone
++import io
++import json
++import os
++from pathlib import Path
++from contextlib import redirect_stderr
++from unittest.mock import patch
++import unittest
++
++import authorization
++import delivery
++import notification_hook
++from notifications import Notifications, process_identity
++import owner_receipt
++from pilot_files import encoded, read_receipts
++from test_desk import DeskTests
++
++class OptionATests(unittest.TestCase):
++    setUp=DeskTests.setUp
++    git=DeskTests.git
++    put=DeskTests.put
++    commit=DeskTests.commit
++    request=DeskTests.request
++    install_options=DeskTests.install_options
++
++    def source(self, mode='app', scope='reversible_internal', recommended='A'):
++        path=self.install_options()
++        self.options.update(schema_version='decisions-options/2', recommended_choice_id=recommended,
++                            confirmation={'mode':mode,'scope':scope,'reason':'Owner-reviewed fixture scope.'})
++        self.put(path,'```decisions-options\n'+json.dumps(self.options)+'\n```\n')
++        self.commit(publish=True)
++        self.display=self.store.display()
++        return path
++
++    def enable_app(self):
++        import app
++        self.put('PROME/reports/fixture-review.md','Fixture review only')
++        self.commit(publish=True)
++        acceptance=dict(schema_version='decisions-app-acceptance/1',queue_responses=True,
++                        matching_chat_confirmation=True,confirmation_policy='explicit-reversible-internal/1',
++                        app_only_enabled=True,app_only_since='2026-01-01T00:00:00+00:00',build_hashes=app.build_hashes(),
++                        independent_review=dict(path='PROME/reports/fixture-review.md',commit=self.git('rev-parse','HEAD').strip()))
++        self.put(app.ACCEPTANCE,json.dumps(acceptance));self.commit(publish=True)
++
++    def receive(self,e):
++        path=owner_receipt.write_received(self.repo,e)
++        self.commit(publish=True)
++        return path
++
++    def answer(self):
++        self.source()
++        self.enable_app()
++        event=self.store.save(self.request(action='choose',choice_id='A',note='Close it, but record the miss.\nKeep the caveat.'))
++        delivery.deliver(self.repo,event)
++        return event
++
++    def ruling(self,event,**changes):
++        proof=dict(schema_version='decisions-app-authorization/1',response_id=event['id'],response_sha256=event['sha256'],
++                   scope='reversible_internal',conditions_within_scope=True,no_chat_conflict=True,
++                   readback_at=datetime.now(timezone.utc).isoformat(),readback_text=authorization.readback_text(event))
++        proof.update(changes)
++        if not read_receipts(self.repo,event):self.receive(event)
++        path='PROME/proposals/fixture-RULED.md'
++        self.put(path,'Fixture ruling\n```decisions-app-authorization\n'+json.dumps(proof)+'\n```\n');self.commit(publish=True)
++        return dict(path=path,commit=self.git('rev-parse','HEAD').strip())
++
++    def test_app_only_exact_conditions_and_published_receipt(self):
++        e=self.answer()
++        self.assertFalse(self.display['requires_confirmation'])
++        self.assertEqual(e['display']['record']['units'][0]['proposal']['recommendation']['option_id'],'A')
++        self.assertIn('App-only eligible',delivery.packet_text(e))
++        rec=owner_receipt.prepare(self.repo,e,'integrated',ruling=self.ruling(e),app_only=True)
++        path=f"PROME/decisions/receipts/{e['id']}/{rec['id']}.json"
++        self.put(path,encoded(rec)+'\n');self.commit(publish=True)
++        self.assertEqual(read_receipts(self.repo,e)[-1]['authorization_basis'],'app')
++        self.assertIsNone(rec['chat_confirmation'])
++
++    def test_conflicting_chat_out_of_scope_conditions_and_missing_words_refuse(self):
++        e=self.answer()
++        for changes in [dict(no_chat_conflict=False),dict(conditions_within_scope=False),dict(readback_text='Approved'),dict(response_id='0'*32)]:
++            with self.subTest(changes=changes), self.assertRaises(ValueError):
++                owner_receipt.prepare(self.repo,e,'integrated',ruling=self.ruling(e,**changes),app_only=True)
++
++    def test_changed_policy_refuses(self):
++        e=self.answer()
++        self.options['confirmation']['mode']='chat'
++        self.put(e['display']['options_source']['path'],'```decisions-options\n'+json.dumps(self.options)+'\n```\n')
++        self.commit(publish=True)
++        with self.assertRaisesRegex(ValueError,'changed'):
++            owner_receipt.prepare(self.repo,e,'integrated',ruling=self.ruling(e),app_only=True)
++
++    def test_superseded_answer_refuses(self):
++        e=self.answer()
++        newer=self.store.save(self.request(supersedes=e['id'],action='reply',note='Actually disapprove.'))
++        delivery.deliver(self.repo,newer)
++        with self.assertRaisesRegex(ValueError,'Superseded'):
++            owner_receipt.prepare(self.repo,e,'integrated',ruling=self.ruling(e),app_only=True)
++
++    def test_legacy_stays_chat_required(self):
++        self.install_options()
++        self.assertTrue(self.display['requires_confirmation'])
++        e=self.store.save(self.request())
++        self.assertIn('matching operator confirmation',delivery.packet_text(e))
++        with self.assertRaisesRegex(ValueError,'matching chat'):
++            authorization.validate_app_integration(self.repo,e,None,None)
++
++    def test_all_protected_scopes_refuse_app_classification(self):
++        for scope in authorization.SCOPES-{'reversible_internal'}:
++            with self.subTest(scope=scope),self.assertRaises(ValueError):
++                authorization.validate_policy(dict(mode='app',scope=scope,reason='test'))
++        self.assertTrue(authorization.needs_chat({}))
++
++    def test_invalid_recommendation_refuses_instead_of_guessing(self):
++        with self.assertRaisesRegex(ValueError,'Recommendation'):
++            self.source(recommended='C')
++
++    def test_no_recommendation_is_explicit(self):
++        self.source(recommended=None)
++        self.assertIsNone(self.display['snapshot']['record']['units'][0]['proposal']['recommendation']['option_id'])
++
++    def test_notify_only_published_idempotent_and_no_receipt(self):
++        self.source();e=self.store.save(self.request())
++        q=Notifications(Path(self.tmp.name)/'notify')
++        with self.assertRaises(ValueError):q.enqueue(self.repo,e)
++        delivery.deliver(self.repo,e)
++        q.enqueue(self.repo,e);q.enqueue(self.repo,e)
++        self.assertEqual(len(q.pending('session')),1)
++        self.assertEqual(q.status()['state'],'unknown')
++        self.assertEqual(read_receipts(self.repo,e),[])
++        q.heartbeat('session',process_identity(os.getpid()),starting=True)
++        self.assertEqual(q.status()['state'],'listening')
++        q.end('session');self.assertFalse(q.heartbeat('session',process_identity(os.getpid())))
++        self.assertEqual(q.status()['state'],'offline')
++
++    def test_hook_emits_pointer_once_and_only_for_prome(self):
++        e=self.answer();state=Path(self.tmp.name)/'notify';q=Notifications(state);q.enqueue(self.repo,e)
++        payload=dict(cwd=str(self.root/'PROME'),session_id='fixture',hook_event_name='PostToolUse')
++        out=io.StringIO()
++        with redirect_stderr(out):
++            result=notification_hook.run(payload,self.root,state,parent=process_identity(os.getpid()),lifetime=.05,poll=.01,interactive=True)
++        self.assertEqual(result,2)
++        self.assertIn(e['id'],out.getvalue());self.assertNotIn(e['request']['note'],out.getvalue())
++        self.assertEqual(q.pending('fixture'),[]);self.assertEqual(len(q.pending('new-session')),1)
++        self.assertEqual(read_receipts(self.repo,e),[])
++        payload['cwd']=str(self.root/'AGENTS/CATO')
++        self.assertEqual(notification_hook.run(payload,self.root,state),0)
++
++if __name__=='__main__':unittest.main()
++
++class RecoveryTests(OptionATests):
++    def test_display_recovers_published_unnotified_answer(self):
++        import app
++        e=self.answer()
++        desk=app.Desk(self.repo,Path(self.tmp.name)/'recovery',True)
++        self.assertEqual(desk.notifications.pending('session'),[])
++        with patch('app.accepted',return_value=(True,'')): desk.display()
++        self.assertEqual([n['id'] for n in desk.notifications.pending('session')],[e['id']])
++        with patch('app.accepted',return_value=(True,'')): desk.display()
++        self.assertEqual(len(desk.notifications.pending('session')),1)
++
++    def test_notification_db_failure_does_not_hide_delivered_answer(self):
++        import app,sqlite3
++        e=self.answer();desk=app.Desk(self.repo,Path(self.tmp.name)/'recovery',True)
++        with patch('app.accepted',return_value=(True,'')),patch.object(desk.notifications,'connect',side_effect=sqlite3.OperationalError('locked')):
++            state=desk.display()
++        self.assertEqual(state['notification']['state'],'unknown')
++        self.assertEqual(next(c for c in state['cards'] if c['wq_id']=='901')['delivery'],'delivered')
+diff --git a/AGENTS/CATO/prototypes/decisions/mvp/test_wq641.py b/AGENTS/CATO/prototypes/decisions/mvp/test_wq641.py
+new file mode 100644
+--- /dev/null
++++ b/AGENTS/CATO/prototypes/decisions/mvp/test_wq641.py
+@@ -0,0 +1,145 @@
++"""WQ-641 regressions in disposable repositories; never live operator answers."""
++import hashlib
++import json
++import os
++from pathlib import Path
++import subprocess
++import sys
++import time
++import unittest
++from unittest.mock import patch
++
++import app
++import authorization
++import notification_hook
++from notifications import Notifications, process_identity
++import owner_receipt
++from pilot_files import encoded, read_receipts
++from queue_store import open_rows
++import test_wq638 as fixtures
++
++class ReturnTests(unittest.TestCase):
++    def fixture(self):
++        f=fixtures.OptionATests();f.setUp();self.addCleanup(f.doCleanups);return f
++
++    def mutate(self,f,case):
++        path='PROME/proposals/fixture-options.md'
++        if case=='pointer':
++            new='PROME/proposals/new-options.md';f.text=f.text.replace(path,new)
++            f.options['confirmation'].update(mode='chat',scope='trade')
++            f.options['queue_row_sha256']=hashlib.sha256(open_rows(f.text)['901']['row'].encode()).hexdigest()
++            f.put(new,'```decisions-options\n'+json.dumps(f.options)+'\n```\n')
++        elif case=='trade_row':
++            f.text=f.text.replace('A: one task; B: no task.','Sell the held position.').replace(' <!-- decisions-options: '+path+' -->','')
++        elif case=='closed':f.text='\n'.join(x for x in f.text.splitlines() if not x.startswith('| 901 |'))+'\n'
++        elif case=='waiting':f.text=f.text.replace('Exact caveat','WAITING on Bob')
++        elif case in {'policy_before','policy_after'}:
++            f.options['confirmation'].update(mode='chat',scope='trade')
++            f.put(path,'```decisions-options\n'+json.dumps(f.options)+'\n```\n')
++        elif case=='recommendation':
++            f.options['recommended_choice_id']='B'
++            f.put(path,'```decisions-options\n'+json.dumps(f.options)+'\n```\n')
++        f.put('PROME/WILL_QUEUE.md',f.text);f.commit(publish=True)
++
++    def test_all_stale_cases_with_and_without_received_refuse(self):
++        for received in (False,True):
++            for case in ('pointer','trade_row','closed','policy_after','recommendation','waiting','policy_before'):
++                with self.subTest(received=received,case=case):
++                    f=self.fixture();e=f.answer()
++                    if not received:f.receive=lambda event:None
++                    if case in {'policy_after','recommendation','waiting'}:
++                        ref=f.ruling(e);self.mutate(f,case)
++                    else:
++                        self.mutate(f,case);ref=f.ruling(e)
++                    with self.assertRaises(ValueError):owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++
++    def test_prepare_refreshes_remote_before_current_check(self):
++        f=self.fixture();e=f.answer();ref=f.ruling(e);old=f.git('rev-parse','origin/master').strip()
++        self.mutate(f,'pointer');new=f.git('rev-parse','origin/master').strip()
++        f.git('update-ref','refs/remotes/origin/master',old)
++        with self.assertRaises(ValueError):owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++        self.assertEqual(f.git('rev-parse','origin/master').strip(),new)
++
++    def test_historical_valid_receipt_survives_later_change_and_fallback(self):
++        f=self.fixture();e=f.answer();ref=f.ruling(e)
++        receipt=owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++        f.put(f"PROME/decisions/receipts/{e['id']}/{receipt['id']}.json",encoded(receipt)+'\n');f.commit(publish=True)
++        self.mutate(f,'pointer')
++        r=json.loads(f.repo.read(app.ACCEPTANCE));r['app_only_enabled']=False
++        f.put(app.ACCEPTANCE,json.dumps(r));f.commit(publish=True)
++        self.assertEqual([r['state'] for r in read_receipts(f.repo,e)],['received','integrated'])
++
++    def test_received_must_be_published_for_both_confirmation_modes(self):
++        f=self.fixture();e=f.answer();f.receive=lambda event:None;ref=f.ruling(e)
++        for app_only in (False,True):
++            with self.assertRaisesRegex(ValueError,'prior published received'):
++                owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,confirmation=None if app_only else ref,app_only=app_only)
++        owner_receipt.write_received(f.repo,e)
++        with self.assertRaisesRegex(ValueError,'prior published received'):
++            owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++
++    def test_fallback_blocks_app_only_in_ui_intake_and_prepare(self):
++        f=self.fixture();e=f.answer();ref=f.ruling(e)
++        r=json.loads(f.repo.read(app.ACCEPTANCE));r['app_only_enabled']=False
++        f.put(app.ACCEPTANCE,json.dumps(r));f.commit(publish=True)
++        self.assertTrue(owner_receipt.inspect_event(f.repo,e)['requires_chat_confirmation'])
++        desk=app.Desk(f.repo,Path(f.tmp.name)/'desk',True)
++        self.assertTrue(next(c for c in desk.display()['cards'] if c['wq_id']=='901')['requires_confirmation'])
++        with self.assertRaisesRegex(ValueError,'every answer'):
++            owner_receipt.prepare(f.repo,e,'integrated',ruling=ref,app_only=True)
++        # A later activation must not upgrade an answer made in fallback mode.
++        r['app_only_enabled']=True;r['app_only_since']='2099-01-01T00:00:00+00:00'
++        f.put(app.ACCEPTANCE,json.dumps(r));f.commit(publish=True)
++        self.assertFalse(authorization.app_only_enabled(f.repo,e))
++
++    def test_malformed_policy_is_local_and_good_card_can_be_answered(self):
++        f=self.fixture();f.source();f.enable_app()
++        desk=app.Desk(f.repo,Path(f.tmp.name)/'desk',True)
++        for key,value in [('mode',[]),('scope',{}),('mode',False)]:
++            with self.subTest(key=key,value=value):
++                good=dict(f.options['confirmation']);f.options['confirmation'][key]=value
++                f.put('PROME/proposals/fixture-options.md','```decisions-options\n'+json.dumps(f.options)+'\n```\n');f.commit(publish=True)
++                state=desk.display();cards={c['wq_id']:c for c in state['cards']}
++                self.assertEqual(state['errors'],[]);self.assertEqual(len(state['source_errors']),1)
++                self.assertFalse(cards['901']['can_respond']);self.assertTrue(cards['902']['can_respond'])
++                f.options['confirmation']=good
++        c=cards['902'];r=f.request(unit_id='902.queue',display_hash=c['hash'],note='Fixture task response')
++        self.assertEqual(desk.save(r)['request']['note'],'Fixture task response')
++
++    def test_noninteractive_hook_returns_without_claiming_listener(self):
++        f=self.fixture();state=Path(f.tmp.name)/'hook'
++        payload=dict(cwd=str(f.root/'PROME'),session_id='headless',hook_event_name='SessionStart')
++        with patch('notification_hook.interactive_parent',return_value=False):
++            before=time.monotonic()
++            self.assertEqual(notification_hook.run(payload,f.root,state,parent=process_identity(os.getpid())),0)
++            self.assertLess(time.monotonic()-before,1)
++        self.assertEqual(Notifications(state).status()['state'],'unknown')
++
++    def test_print_mode_with_terminal_stdin_is_still_headless(self):
++        import pty
++        master,slave=pty.openpty()
++        self.addCleanup(os.close,master);self.addCleanup(os.close,slave)
++        code="import sys,os;sys.path.insert(0,sys.argv[1]);from notifications import interactive_parent,process_identity;print(interactive_parent(process_identity(os.getpid())))"
++        result=subprocess.check_output([sys.executable,'-c',code,str(Path(__file__).parent),'--print'],stdin=slave,text=True,timeout=3)
++        self.assertEqual(result.strip(),'False')
++
++    def test_session_turnover_rearms_without_new_tool_and_old_end_is_harmless(self):
++        f=self.fixture();state=Path(f.tmp.name)/'hook';q=Notifications(state);children=[]
++        self.addCleanup(lambda:[p.terminate() for p in children if p.poll() is None])
++        code='''import sys,json\nfrom pathlib import Path\nsys.path.insert(0,sys.argv[1])\nimport notification_hook\nraise SystemExit(notification_hook.run(json.loads(sys.argv[2]),Path(sys.argv[3]),Path(sys.argv[4]),parent=json.loads(sys.argv[5]),interactive=True,poll=float(sys.argv[6]),lifetime=8))'''
++        def start(session,poll=.04):
++            payload=dict(cwd=str(f.root/'PROME'),session_id=session,hook_event_name='SessionStart')
++            p=subprocess.Popen([sys.executable,'-c',code,str(Path(__file__).parent),json.dumps(payload),str(f.root),str(state),json.dumps(process_identity(os.getpid())),str(poll)]);children.append(p);return p
++        def wait_for(session):
++            deadline=time.monotonic()+4
++            while time.monotonic()<deadline:
++                with q.connect() as db:r=db.execute('SELECT * FROM listener').fetchone()
++                if r and r['session']==session and q.status()['state']=='listening':return
++                time.sleep(.025)
++            self.fail('New session did not acquire a live listener')
++        a=start('old',1);wait_for('old')
++        b=start('new');wait_for('new');q.end('old')
++        self.assertEqual(q.status()['state'],'listening');self.assertEqual(a.wait(timeout=3),0)
++        q.end('new');self.assertEqual(b.wait(timeout=3),0);self.assertEqual(q.status()['state'],'offline')
++
++if __name__=='__main__':unittest.main()

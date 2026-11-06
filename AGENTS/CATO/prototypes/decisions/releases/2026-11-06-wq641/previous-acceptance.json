@@ -1,0 +1,53 @@
+{
+  "schema_version": "decisions-app-acceptance/1",
+  "queue_responses": true,
+  "matching_chat_confirmation": true,
+  "acceptance_basis": "Will-directed live Decisions explanation update, November 6, 2026; bounded CATO author checks. Prior independent review applies only to its recorded historical scope. No new independent verdict claimed.",
+  "independent_review": {
+    "path": "PROME/reports/2026-10-31_decisions-sr5-intake-fix-review.md",
+    "commit": "da0963a39164a0b7d165746c595e626efa8d725c",
+    "scope": "SR5 intake-isolation patch only (owner_receipt.py + its witnesses). The WQ-579 build it sits on was operator-approved with further review waived; the original release's review is PROME/reports/2026-10-31_decisions-desk-final-ledger.md at 0f432828e."
+  },
+  "operator_approval": {
+    "by": "Will",
+    "date": "2026-10-31",
+    "quote": "Lets just proceed without having Prome do an independent review because we havea lready gone back and forth many times",
+    "record": "PROME/inbox/2026-10-31_from-CATO_WQ579-review-waived-installed.md",
+    "candidate_commit": "bbf1347706ced19ec7b9542fb0bf60e8a570df80",
+    "further_independent_review_waived": true
+  },
+  "build_hashes": {
+    "app.py": "d5229c81afeae81518fb775e62f75528d6dcc73712b9ec02f11254d23370936b",
+    "desk.html": "a428686dc82d8c6c5fc985c6b0342ba75a865e94db9aa1f44436955b4a2e0236",
+    "queue_store.py": "29a50e0a40a7f04f65d495cf8c20de40237b0332292a3fbbc2df36fa0db27e51",
+    "delivery.py": "8c1c8b70b277cecf79b8f7ee57daca240c1a71b62ce3a13812bd1a0ec06428d4",
+    "pilot_files.py": "8203454d5f96ddc422b46c21a82dd3f3cb4279875dbb6c05ee81c3a352eb4006",
+    "store.py": "ae4da776146b9ffaed1ef42dd543034f0cfd89c485ebe8de5792abc23ce5f702",
+    "server.py": "9fe0efa78552a221d153ed575f9a818407067f3c3a8013af3234ebef52ac1496",
+    "owner_receipt.py": "963486f3f69c41df876dac9ec591895cde0ffd9db1ce087089de276f62b5fb39",
+    "options.py": "e169dfc692efe294da170158af40dff94a25d0250201af2360f3125fb120f28d",
+    "history.py": "53de00a1a9cc65a7876535305062215a11b619c6f25ecf4c9cec1342823d9ebf",
+    "briefs.py": "701b6b7d554106d99b173d1e110ee997205069646b2fdb82d3b78543f569fb88",
+    "PROME/tools/willq_view.py": "e98326f71ef854c7f48099de2e6c5b63cdadabc81838990938c055952d362023",
+    "AGENTS/CATO/prototypes/decisions/comparison/render.py": "45f55b5d828877090a4ea44f805826ca48be16392878b3f859f1ee46c4b6b229",
+    "scripts/safe-push.sh": "6a1add8851c8ddfd288a71fa78c2fd648f4b74b7c0387512d6e19f8ec89dcb14",
+    "scripts/install-git-hooks.sh": "2ce133fe85d42a414d974c8683a171c61e10edad37b6df03af1dcf2515841cd1",
+    "scripts/claim_check.py": "c77bbcc45ea2affcaeb4c2a709b48d0401b252bb9cd96b579edc669f5ea3ff8b",
+    "scripts/orphan_check.sh": "e9cd6a58b014df9260e657cfb2888b248d0f89d4453b73f0cd8fe503fd2626bc",
+    "AGENTS/CATO/decisions/.gitignore": "8fea49ee73987cc6cffd9a61c4503191d0192d628a127118f7c940ca0e5129ff",
+    "AGENTS/CATO/prototypes/decisions/mvp/.gitignore": "846685ed73e5dc3656136665b69926430ef42810bc63c15eabdccb546ac6c838",
+    "scripts/githooks/commit-msg": "287ffeb0e9154fc6a1988a61ae59f4563bb5c630d30bdc20029c36a8d694da25",
+    "scripts/githooks/pre-commit": "71bea43fa0cada41832cd21d83e68aca20b824d0940f80d20e00dd839b4ac0e1",
+    "scripts/githooks/pre-push": "84fb1307ba206bc50c9d1b611d2e04ce7e1f7c5a17c954a6525d657f959b5e30",
+    "scripts/account_guard.py": "f8186a8f0facf5fe0b9e63bde2416812dafa09344600b6f79dad914c032e8d39"
+  },
+  "operator_updates": [
+    {
+      "by": "Will",
+      "date": "2026-11-06",
+      "quote": "can you just work on the live app?  I want to cut down on the back and forth reviews and tests",
+      "scope": "Install the plain-language explanation update; preserve queue authority, source binding, saved answers and matching chat confirmation.",
+      "record": "PROME/inbox/processed/2026-11-06_from-CATO_decisions-live-explanations.md"
+    }
+  ]
+}

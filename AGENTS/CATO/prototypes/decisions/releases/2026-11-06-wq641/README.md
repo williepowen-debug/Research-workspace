@@ -1,0 +1,11 @@
+# WQ-641 — reviewed fallback release
+
+**ACCEPT WITH NAMED RESIDUE for chat-required fallback only.** The single targeted Opus read closed B1 and items 1, 2, 5, 6, 7 without a new blocker. Full result: INDEPENDENT_REVIEW.md. Installation is authorized by Will’s direct “yes proceed”; completion is recorded in CATO’s continuing Decisions report and final receipt.
+
+Install only the frozen `candidate.patch`, with the full `build-hashes.json` (not the delta-only manifest), a published review reference, `app_only_enabled: false`, `matching_chat_confirmation: true`, and `confirmation_policy: explicit-reversible-internal/1`. **Do not install notification hooks.** All app answers require matching chat confirmation. Current working and fetched published proposals/queue were searched: no decisions-options/2 or mode-app source found. PROME must keep sources chat-required under fallback, and follow intake’s confirmation flag rather than any eligibility wording in an older packet.
+
+Preserved: full candidate patch against base `219752ac53a3c094fe37d541e94e6106e3163d06`; delta from the blocked build; exact changed-file hashes; full runtime hash map; original acceptance preimage; author Chrome fixture/evidence; reader brief and independent report; reader repro scripts. Repro scripts use their own fixed /tmp/wq641-rev paths and disposable fixture trees. Do not redirect them to production.
+
+Install conditions/residue: old unrecorded answers may need fresh review because the rendered terms hash changes; preserve the original words and history. No live alert proof exists. Native hook mechanics are fixture-tested only and dormant. Prior deferred notification items 3/4/8 remain; review R1 packet eligibility wording is controlled by the source-authoring condition above, R2 manual same-login receipt bypass remains an accepted trust limit, and R3 malformed-reply errors fail closed. R4 concerns the extra saved-answer reminder after received; the ordinary card confirmation line still states the requirement. No code was changed after acceptance to pursue these lower-impact items.
+
+WQ-639 card authoring/backfill and WQ-640 are separate. No new broad audit or review loop is authorized. Enabling app-only later requires actual interactive PROME proof and explicit valid activation metadata; this fallback acceptance gives no live-alert assurance.
