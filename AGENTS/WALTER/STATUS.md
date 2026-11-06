@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-06T22:17:06Z — light closeout, close-of-day pass on Will's 17:08 ET word via PROME, session walter-9e. November 6 closes partly certified. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-06T22:30:35Z — light closeout, close pass plus Qeshm and correction, session walter-9e. November 6 closes partly certified. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-November 6: 46 cards, 9 of them corrections, 8 IMMEDIATE, no FLASH. Close pass added four: Qatar's Prime Minister said no comprehensive US-Iran deal and urged a good one, while "mediation ended" and "so it's war" are unsupported (043); September consumer credit +$27.84B, largely a rebound (044); Flagstar's 10-Q filed 16:15 ET, unread (045); small items (046). Cboe VIX 25.64 at the 16:15:01 ET print. Vendor WAL 75.55, KRE 72.20. HY 348 [Nov 5], 2 bp under REG-T-04; the November 6 cell is unpublished. No new WALTER registered fire. Not certified: Cboe History, SKEW and Nasdaq November 6 rows, unposted at 22:14Z; Oracle DTCC file not routed.
+November 6: 48 cards, 10 of them corrections, 9 IMMEDIATE, no FLASH. After the close Iranian media reported two projectiles at Qeshm, attacker unnamed, not established as a US strike (047, FALCON owns). Close pass added: Qatar's Prime Minister urged a good deal over a perfect one; "mediation ended" and "so it's war" are unsupported, and Qatar denies reports of a failed deal (043, corrected by 048); September consumer credit +$27.84B, largely a rebound (044); Flagstar's 10-Q filed 16:15 ET, unread (045); small items (046). Cboe VIX 25.64 at the 16:15:01 ET print. Vendor WAL 75.55, KRE 72.20. HY 348 [Nov 5], 2 bp under REG-T-04; the November 6 cell is unpublished. No new WALTER registered fire. Not certified: Cboe History, SKEW and Nasdaq November 6 rows, unposted at 22:14Z; Oracle DTCC file not routed.
 
 BALANCED baseline. Resume list: top of LAST_COMPLETION.md.
 

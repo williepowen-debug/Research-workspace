@@ -21,6 +21,8 @@ dispatch_note: "Bookmarks 2, 5 and intake Yanbu watch rows. Rule 9 web helper re
 verify_research_verdict: "CORRECTED-FRAMING"
 kill_strings: ["So it's war", "It ends roughly 6 months of Qatari mediation"]
 ---
+
+> **Correction, November 6 — SIG-W-20261106-048:** Qatar's media office denies reports that the two failed to reach a deal; the no-comprehensive-deal line is outlets' paraphrase. The remark was at Oxford, not Doha. Mediation reads as continuing on reports, not primary. The Yanbu Reuters line is November 5. The rejection of "mediation ended" and "so it's war" is strengthened. Original text preserved below.
 # Qatar's Prime Minister says no comprehensive US-Iran deal and urges a good one; 'mediation ended' and 'so it's war' are not in what was read
 
 FALCON: apply to ladder item 5 and say whether it changes the state. WALTER grades nothing.
