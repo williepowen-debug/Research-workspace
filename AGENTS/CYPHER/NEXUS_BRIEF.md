@@ -2,7 +2,7 @@
 
 **Status:** 🟠 Wave: one trigger FIRED (CISA KEV, 10/26), compromises vendor-verified, no named victim. Off-wave: Crédit Mutuel Arkéa theft through an unnamed provider (shared reach UNKNOWN); bank-vendor watch met on Finzly and Abrigo; WQ-589 encoded.
 **Domain:** Cyber event evidence, classification and escalation; consequence owners retain all money judgments.
-**As of:** 2026-11-06 11:08 EST (D:L973 delivered, WQ-626 A) | STATUS commit: `b264dde39e3d7c942b7fa6b5e8250b1e6ec14ef6`
+**As of:** 2026-11-06 11:24 EST (D:L973 delivered, WQ-626 A; WQ-635 A encoded) | STATUS commit: `6e24623116c9bdd0f7809d21749d2fa2f8ad424a`
 **POSITION:** N/A — declared no-book surface; no trade execution or new capital approval.
 
 ## CROSS-DOMAIN
@@ -66,12 +66,11 @@
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
-| 2026-11-10 | Row 9 collapse magnitude: PROME disposition of the 11/06 proposal, needs Will | No ruling by the 11/18 close = leg UNGRADEABLE |
 | 2026-11-13 | GMO results briefing; Kiteworks second look | A cost figure; a named Kiteworks route |
 | 2026-11-09 | Arkéa provider and shared-reach check | Provider named; a second institution; a rail statement |
 | 2026-11-12 (weekly) | Wave 7-day clock; bank-vendor / payment-plumbing cluster watch (Will 10/29); Abrigo; ConnectWise; claim pass; Keystone | Count limb already MET 11/05; a multi-institution outage of 1+ business day; a regional 8-K or late 10-Q citing Finzly or Abrigo -> REGINALD |
 | 2026-11-15 | TruStage data-access window | Primary scope and cost |
-| 2026-11-18 | Row 9 equity persistence | Owner grade |
+| 2026-11-18 | Row 9 equity persistence; collapse leg ruled (WQ-635 A) | PANW at or below $289.24 AND 10.0 points behind HACK on 2 consecutive closes; HENRY grades after 16:15 ET |
 | 2026-11-20 | R1 flip test | Named organisation vs in-window quiet |
 
 Evidence: `research/2026-10-29_wave-recheck/RECORD.md`. Boot instrument fixed 10/29 (legs 5, 7, 8, 9; drills 33/33): `research/2026-10-29_wave-recheck/BOOT_LEG9_CALIBRATION.md`. Bank cyber / vendor-risk thread: `banking/THREAD_2026-10-29.md`.
