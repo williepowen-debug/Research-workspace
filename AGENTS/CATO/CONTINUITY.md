@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 6, 2026, after live Decisions explanation work. Decisions activation verified; no remaining install/review task. Next: orient and follow Will’s direction. WQ-607 remains approved and pending, not started during this assignment.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
+**Updated November 6, 2026. WQ-638 A candidate received its one independent read: BLOCK. Live app unchanged; return to Will on bounded fixes and another read before installation. WQ-607 remains approved and pending, not started during this assignment.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
 
 ## Resume point
 
@@ -17,7 +17,7 @@ Accepted maintenance, launcher repair and WQ-583 stay closed. FFIEC desktop regi
 ## Surviving CATO work
 
 - **Forecast pilot:** enrollment closed at 20/20 originals. Effort **44/120 minutes**, 76 remaining. Resume only when Will directs. Saved observations: RED-25 October 31 re-review if new evidence; FAL-06 November 5 checkpoint; December 31 process assessment. Grading limits, no-replacement condition and unresolved 2027 endpoints survive. [Recorded state and evidence](TASK_INDEX.md#forecast-pilot).
-- **Decisions:** live explanation update activated by PROME at `2e4f7cd82d`; CATO verified published activation, exact build hashes, reply enablement and WQ-632 brief/options. No remaining install/review task. Other cards await concise PROME wording at normal touches; ordinary-use benefit unmeasured. [Receipt and limits](runs/2026-10-30_1059_wq-decision-workflow.md#november-6--activation-confirmed). Matching chat confirmation and W-S/legacy-pilot limits survive.
+- **Decisions — WQ-638:** option A is approved and recorded by PROME (`803a19d3f4`); isolated build and its single Opus read are complete. **BLOCK:** stale answers can be integrated app-only after reclassification/closure; interactive notification is unproven and a headless-startup hazard remains. Live explanation build is unchanged and chat repeat remains in effect. Return to Will for bounded corrections, real interactive probe and one targeted reread; no automatic repair/review loop. [Current result and every remaining action](runs/2026-10-30_1059_wq-decision-workflow.md#november-6--wq-638-independent-read-blocks-installation). [Frozen candidate/review](prototypes/decisions/releases/2026-11-06-wq638/README.md). WQ-639 source creation/backfill is separate, not assigned here.
 
 ## Delivered tools and machine handoff
 

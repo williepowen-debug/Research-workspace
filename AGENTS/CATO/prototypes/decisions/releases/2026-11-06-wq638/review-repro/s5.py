@@ -1,0 +1,10 @@
+import sys; sys.path.insert(0,'/tmp/wq638-rev/scripts')
+from fxlib import *
+root=build('s5'); qs,ow,dl,au,no,pf=load(root); repo=qs.Repo(root)
+e=answer(root,qs,repo); publish(root,dl,e)
+print('received',bool(ow.write_received(repo,e))); push(root,'recv')
+p='PROME/proposals/2026-11-06_wq700b-options.md'; r=row(ptr=p); (root/'PROME/WILL_QUEUE.md').write_text(queue([r])); (root/p).write_text(options(r,CHAT)); push(root,'reclassify')
+pa,c=ruled(root,e,au)
+x=attempt('received then reclassified: app-only',lambda:ow.prepare(repo,e,'integrated',{'path':pa,'commit':c},None,app_only=True))
+q=ow.receipt_path(repo,x); q.write_text(pf.encoded(x)+'\n'); push(root,'rcpt')
+print('replay',[i['state'] for i in pf.read_receipts(repo,e)])
