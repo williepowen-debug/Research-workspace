@@ -81,6 +81,16 @@ The row misses under both constructions, so the AND/OR ambiguity does not need s
 
 **Invalidation clause not triggered on its letter:** it needs NCO QoQ <+30 bp (Q3 was +32 bp) and vintages within ±25 bp (FY2025 is outside that band, on the better side). The row resolves on its hit condition instead. WQ-288 does not apply.
 
+**Addendum 2026-11-06 07:55 ET, on PROME's question (the clause says within ±25 bp, the actual is −38.0 bp).** The clause lives in three places and they disagree, which the delivery memo did not expose:
+
+| Home | Condition | Q3 reading | Met? |
+|---|---|---|---|
+| Row Invalidation | NCO QoQ <+30 bp AND vintages within ±25 bp | +32 bp; −38.0 bp | **No, on both conjuncts independently** |
+| THESIS line 129 | "If Q3 fails" | Row missed | Yes |
+| THESIS line 430 | NCO not ≥+30 bp twice AND vintages not ≥+50 bp above FY2023 | Failed; −38.0 bp | **Yes** |
+
+MISSED does not change: it rests on the hit condition, which ±25 does not touch. Nothing fired mechanically on the row, so the revisit comes from Will's 7/24 ruling and the THESIS text, not from the row's Invalidation. The ±25 band has a gap on the better side, and −38 bp is a stronger benign reading than the band contemplates, so the letter's "not met" must not be read as evidence for holding shorts. The recommendation stands, for the reason already given: the clause has no identified live position. No text is rewritten; the coexistence stays visible.
+
 **⚖️ Position clause, for Will via PROME.** The row carries a pre-registered commitment on failure: trim shorts 25% and extend duration to Q2-2027 or later. Will's 7/24 ruling deferred it, and Cell B on 8/15 set "hold, revisit at the ~Oct vintage leg". That leg has now read, so the revisit is due. CARL holds no book; the paper sleeve closed 10/28. The only live candidates visible are FORGE D-74's bank/credit put cluster (41 contracts, 14 lines, basis $6,644.24, value $554.00, Fidelity marks intraday 11/5), whose owner, card and approval are recorded UNKNOWN. Nothing here is a card or a trade. S&P fell 4.4% on 11/5, so the position question should be read against today's tape, not this evidence alone.
 
 ## 5. Correction to CARL's 10/26 review

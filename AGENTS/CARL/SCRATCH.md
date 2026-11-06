@@ -45,12 +45,12 @@
 - WQ-228 CCBX leg, review 11/10.
 
 ### WAITING ON OTHERS
-- Will, via PROME: revisit of the CRL-21 position clause.
-- PROME or Will may contest the word "projections"; reversible on their word.
+- Will, WQ-632: revisit of the CRL-21 position clause. Row Invalidation not met; THESIS lines 129 and 430 met; see GRADE.md §4 addendum.
+- PROME accepted MISSED on the Notes, marked contestable, 11/06. No revert requested.
 - Management's Q3 call text: not read (Benzinga 403, Fortune header only, Quartr not used).
 
 ### BACKLOG
-- Research retirement sweep NOT RUN this session. Thesis kill-rule mismatch question remains open. 1,024 non-action BOARD backlog entries, none owed.
+- Thesis kill-rule mismatch question remains open. 1,024 non-action BOARD backlog entries, none owed.
 
 ---
 
@@ -89,6 +89,7 @@ Top-level 0, WALTER lane 0 at 07:50 ET by `PROME/tools/inbox_census.py`.
 | Orphans | Mine committed; others' left alone |
 | Ledger nudge | 27 child ledgers listed, none changed here except PHAN and POLLY PREDICTIONS Instrument cells |
 | Consumer check | NOT APPLICABLE: no CARL threshold or figure superseded; HHDC date flagged to PROME |
-| Research retirement sweep | NOT RUN |
+| Research retirement sweep | RUN: 265 tracked, 4 older than 60 days by first-add date, 4 retained, 0 moved, 0 unresolved. Three keep the 10/26 L786 bases; CHG-RED-049 is cited by the OPEN CRL-29 row and KB |
 | Independent reader of L843 | NOT RUN; arithmetic reproduced by script, source rows sum to printed totals |
-| Push | See delivery message |
+| PROME closeout ask | Received 07:53 ET; delivery consumed; DOCKET rows and C4 line verified by PROME |
+| Push | Receipt in the reply to PROME |
