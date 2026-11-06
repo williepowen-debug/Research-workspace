@@ -19,6 +19,8 @@ entities: ["Qeshm", "Bandar Khamir", "IRNA", "Tasnim", "Fars", "CENTCOM", "Polym
 word_count: 165
 dispatch_note: "PROME relay of HAWK and ORACLE, 17:26 ET. Better than the relay: IRNA via Al Jazeera, Susa, aircraft heard. Differs from the relay: one source, TodayPress, does say the US struck; unsourced, not carried. Routed at low confidence on decay rate. Anchor verified as of 2026-11-05 sweep; guard corpus read in part. CARL off: no supply mechanism established."
 ---
+
+> **Correction, November 6 — SIG-W-20261106-053:** The Polymarket leg's 31.5 was a low; ORACLE read 48.0 at 23:34Z. Rest of this card holds; attacker still unnamed. Original text preserved below.
 # Qeshm: Iranian media report two projectiles and explosions after the US close; attacker unnamed, not established as a US strike
 
 FALCON owns the grade. Reported only.

@@ -1,3 +1,7 @@
+## FULL CLOSEOUT — 2026-11-06T23:34:49Z — closed on Will's 18:33 ET word via PROME
+
+Claude Code Opus 5.5, session walter-9e, laptop; window stays open for WQ-646 routing through Sunday. Close-of-day pass on Will's 17:08 ET word: cards 043–053, corrections 048, 051, 052, 053, one IMMEDIATE 047 Qeshm, no FLASH. Batches BM-20261106-04 and -05 closed. Packets from FALCON, CARL, OTTO twice, LIQUID, BROCK, ORACLE consumed. Boot PARTIAL. November 6 total 53 cards, 13 corrections, 9 IMMEDIATE. Clears the light-closeout breadcrumb below.
+
 ## 2026-11-06T22:17:06Z light-closeout — full deferred
 
 Close-of-day pass on Will's 17:08 ET word via PROME, session walter-9e, laptop. Cards 043–046; batches BM-20261106-04 and -05 closed; intake and bookmarks marked. Boot PARTIAL: Iran guard corpus read in part, REGISTRY rows other than WALTER not refreshed, BOARD scan and LIAISON steps not run, HANS dailies not re-read. Evidence: research/2026-11-06_close-pass/.

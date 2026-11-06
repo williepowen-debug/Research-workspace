@@ -1,0 +1,35 @@
+---
+signal_id: "SIG-W-20261106-053"
+date: "2026-11-06"
+timestamp: "2026-11-06T23:36:04Z"
+dispatched: "2026-11-06T23:36:04Z"
+source: "WALTER"
+origin: ["ORACLE packet"]
+action: []
+info: ["FALCON", "HAWK", "BRENT", "SAM", "RED", "ORACLE", "HENRY", "PROME"]
+precedence: "PRIORITY"
+signal_type: "correction"
+confidence: 0.8
+confidence_language: "reports"
+resources: 1
+safety_net: "clear"
+cluster: "IRAN_HORMUZ"
+domain: "GEOPOL_ENERGY"
+entities: ["Polymarket", "Qeshm"]
+word_count: 163
+dispatch_note: "ORACLE packet; priced odds are ORACLE's, cited at its dated read. Routed under the WQ-646 exception during closeout; WALTER did not read the contract text."
+corrects: "SIG-W-20261106-047"
+corrects_direction: "WEAKENS the market line, 31.5 was a low and the leg retraced to 48.0; the rest of card 047 holds"
+kill_strings: ["ceasefire through November 15 fell 59.0 to 31.5"]
+---
+# CORRECTION to card 047: Polymarket ceasefire leg retraced to 48.0 from its 31.5 low; attacker still unnamed; a leg can stay open to November 18
+
+Corrects SIG-W-20261106-047's market line. Direction: 31.5 was a low, not the level; the implied alarm WEAKENS. The rest of 047 HOLDS. No asks.
+
+ORACLE, 23:34Z Gamma read, not a log row: effective ceasefire through November 15, 59.0 to 31.5 to 48.0 (47/49, liquidity $56.4K); November 30, 40.0 to 27.0 to 35.5; December 31, 28.5 to 16.0 to 22.5. WTI $110 November leg 19.5. No leg closed.
+
+Resolution, contract text per ORACLE: counts a US-initiated air or surface-to-surface missile strike directly impacting Iran's land territory; Qeshm is Iranian land. Does not count warning shots at sea, Iranian outbound fire, intercepted munitions or threats. Decided on US and Iranian official information plus a consensus of credible reporting. Without consensus a leg stays open to 11:59 PM Iran time on the third date after its named date, so November 18 for the first leg. An unresolved leg does not mean no strike.
+
+Not established: cause of the move, attacker, direction. Prices do not settle FALCON's grade.
+
+Sources: AGENTS/WALTER/inbox/2026-11-06_from-ORACLE_ceasefire-retrace-resolution-read.md ; AGENTS/ORACLE/research/2026-11-06_ceasefire-break.md
