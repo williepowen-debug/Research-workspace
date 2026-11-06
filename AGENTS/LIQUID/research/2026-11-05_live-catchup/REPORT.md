@@ -448,15 +448,15 @@ IREN closed $0.07 under its November 4 close, so all but $0.07 of the November 5
 
 ## 17. Addendum: Hertz credit read, owner read for card 050, written 18:18 ET (bounded; no new study, no gate moved)
 
-**Read.** Hertz is still getting financed, but the junior vehicle lenders walked and were replaced at a price. Every existing holder of the $300M HVF III 2021-A Class B refused an extension. New holders took it at 12.46% fixed from 9.28%, on condition that Hertz first retires its $199M 4.625% notes by December 31. At September 30 Hertz valued its vehicle debt at about par and its corporate debt at about 59.5 cents. This is one issuer: access with much tighter terms, a named refusal, and no denied financing. It is not generalized restriction, it reaches no LIQUID gate, and the reason for the refusal is not stated.
+**Read.** Hertz is still getting financed, but its junior vehicle lender declined to extend and was replaced at a price. All of the $300M HVF III 2021-A Class B refused an extension, at most one credit decision (see the correction below). New holders took it at 12.46% fixed from 9.28%, on condition that Hertz first retires its $199M 4.625% notes by December 31. At September 30 Hertz valued its vehicle debt at about par and its corporate debt at about 59.5 cents. This is one issuer: access with much tighter terms, a named refusal, and no denied financing. It is not generalized restriction, it reaches no LIQUID gate, and the reason for the refusal is not stated.
 
 Sources are primary: 10-Q 0001657853-26-000086 filed November 5, Exhibit 10.2 (Amendment No. 3 dated November 2), earnings release 0001657853-26-000085, 8-K 0000950103-26-015848 filed October 20. All of card 050's Hertz figures match the filing.
 
 | Item | Figure | Source |
 |---|---|---|
-| Who refused | Oaktree funds $112.611M and ABF Rental Car Holdings 2025-1 $187.389M, $300M, 100% of Schedule 1; each "exercised its right to refuse" | Ex. 10.2 recitals, Schedule 1 |
+| Who refused | Oaktree funds $112.611M and ABF Rental Car Holdings 2025-1 $187.389M, which signs "By: Oaktree Fund GP IIA, LLC, its Manager"; $300M, 100% of Schedule 1; each "exercised its right to refuse" | Ex. 10.2 recitals, Schedule 1, signature page |
 | When and why | "Previously"; no date or reason | Ex. 10.2 |
-| Who replaced them | Powerscourt Investments 84 $150M, Third Point Loan $125M, Delticus Opportunities $25M, $300M | Ex. 10.2 Annex B |
+| Who replaced them | Third Point $150M (Third Point Loan $125M, Delticus Opportunities $25M) and Powerscourt Investments 84 $150M, $300M | Ex. 10.2 Annex B, signature page |
 | Price | 12.46% fixed against 9.28%, +318 bp | 10-Q Note 15 and debt table |
 | Term | Termination August 31, 2027 → November 2, 2028; amortization June 28, 2027 → August 28, 2028 | Ex. 10.2 conformed text |
 | Conditions | Hertz has retired all 4.625% notes, and refusers are paid in full from the new money | Ex. 10.2, Class B Funding Conditions (i), (j) |
@@ -486,3 +486,5 @@ Schedule IV totals $600M because it lists both groups; Class B Maximum stays $30
 **What it does not show.** No amortization event or default: the literal phrase is absent from the 10-Q body, and Exhibit 10.2 only defines rapid amortization, so nothing shows one began. No forced fleet supply in Q3, OTTO's read. Tricolor and the James adjournment are OTTO's; no LIQUID action. Card 049 (Michigan, interviews ended November 2) is context only.
 
 **ISHM packet, read after this section was committed.** October Class 8 orders fell: ACT 13,500, −45% y/y, FTR 15,600, −36% y/y, both preliminary and issuer-attributed to regulatory uncertainty; rail stayed firm. No ISHM J2 condition fires and ISHM asks nothing. LIQUID reads no gate on it; HY's widening has no established cause and I have not tested any link to freight, so I give no credit read from this print. ISHM's next J2 leg is Cass, November 13.
+
+**Correction, 18:35 ET, to this section.** I wrote "every existing holder refused" and listed two refusers without reading the signature pages. BROCK did: ABF Rental Car Holdings 2025-1 signs through an Oaktree entity, so the $300M is at most one credit decision. ABF's economic owners are not established. I verified this, Delticus signing through Third Point LLC, and Section 11.26 at the exhibit. Refusers are paid by August 31, 2027 regardless, earlier if the new money funds. The Oaktree funds marked the position 99.49 at June 30, before the amendment (BROCK KB-BRK-465). OTTO: a December 31 miss is scheduled amortization, not an Amortization Event, and OTTO has not read the base indenture's event list. No figure changed. The refusal can still be fund-specific.

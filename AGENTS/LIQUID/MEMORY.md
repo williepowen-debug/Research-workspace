@@ -9,6 +9,8 @@
 - **Read:** AI equities took back most of November 5 (IREN +20.02%), credit funds did not bounce, yields rose so fund prices give no spread direction; funding gauges unchanged.
 - **Open:** DTCC full file on PROME's ping about 20:15 ET; Monday row in STATUS §3. ICI refused this client (403); not worked around.
 - **Slip, disclosed:** a KB clause on ORCL and the $116 offer came out garbled and was fixed before commit.
+- **Slip, disclosed:** on Hertz I wrote "every holder refused" from the schedules without reading the signature pages; BROCK showed ABF signs through Oaktree, so it is at most one credit decision. Corrected in STATUS, KB-LIQ-159, REPORT §17, brief. WALTER's cards 051 and 052 carried or corrected it. Also a cause-implying phrase in the ISHM note, removed.
+- **Rotated STATUS at closeout** under READ_CAP rule 5 → `archive/status_snapshots/STATUS_rotated_2026-11-06.md`. Closed on Will's 18:33 ET word; window stays open for the DTCC ping.
 - **Added, WALTER doorbell 18:14 ET:** card 050 Hertz owner read from the primary filings, REPORT §17, KB-LIQ-159; card 049 noted; packet to WALTER carrying the Class B refusal the card lacked. Method note: the exhibit, not the 10-Q summary, held the refusal, and the Note 10 fair values held the price.
 
 ### PRIOR SESSION — closed 2026-11-06T16:48:41-05:00 (WQ-626 A, DOCKET L970, session liquid-98, Claude Code / Opus 5.5)
