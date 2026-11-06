@@ -3,7 +3,7 @@
 **Status:** 🟡 — Physical equipment buying well supported; factory upturn strong but slowing, durability unproved.
 **Domain:** US manufacturing cycle, domestic/imported equipment and freight; downstream owners retain thesis judgments.
 **Recent thesis pivot:** November 6: original S&P October final recovered, orders and output slower than September. R1 toward-real moves from CANNOT-FIRE to NOT-MET; no flip fired, and no score, band, gate or threshold changed.
-**As of:** 2026-11-06 15:39 ET | STATUS commit: `92ec6c95c8f03bcf213a668f2b4e1a87319cff79`
+**As of:** 2026-11-06 15:41 ET | STATUS commit: `5bb7fd234361c80ed7e6f08ab5b025e66707f966`
 
 ## CROSS-DOMAIN
 
@@ -15,7 +15,7 @@
 | HENRY | S&P October final 54.9, orders and output slower than September; Parker orders +13% vs +12% rolling 12-month | P3 | Cycle read, not a cycle-turn call. Parker backlog and adjusted EPS raise carry the Filtration Group caveat |
 | CARL | S&P output prices steepest since September 2022; ISM prices 75.2 from 77.9; Parker $27M returns, $6M received | P3 | Inflation read stays CARL's. Refund accounting is not new tariff cost; the two survey measures are different series |
 | LABOR | S&P hiring steepest since April 2021; ISM employment 52.4 from 52.7 | P3 | Survey disagreement in size; LABOR keeps the figure. No trigger; ISM <47 NOT-FIRED |
-| PROME | Six due items closed; R1 has no live named print; survey-band recommendation is register none | P2 | R1 successor is a frozen-letter change needing Will's ruling through PROME |
+| PROME | Six due items closed; R1 has no live named print; survey-band recommendation is register none | P2 | R1 successor registered as WQ-643; a frozen-letter change needing Will's ruling |
 
 Packets dated November 6 at the four owners, plus the receipt at `PROME/inbox/`. No recipient consumption is claimed.
 
@@ -23,7 +23,7 @@ Packets dated November 6 at the four owners, plus the receipt at `PROME/inbox/`.
 
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
-| PROME / Will | Ruling on an R1 successor observation | No date set | R1 has no live named print | A ruled print restores the bidirectional flip test; until then the state stays mixed, selective upturn |
+| Will | WQ-643 ruling on an R1 successor observation | November 30 | R1 has no live named print | A ruled print restores the bidirectional flip test; until then the state stays mixed, selective upturn |
 | Honeywell, Union Pacific IR | Next earnings dates | December 31 recheck | Pages returned 403, so dates are UNKNOWN, not unannounced | Schedules existing company reads only |
 | Deere IR | Fiscal Q4 date | November 12 check | November 25 remains an indexed, qualified date | Re-dates an existing row |
 | AAR | Exact October-edition publication day | December 2 rail batch | Still UNKNOWN; PDF creation is not publication proof | Metadata only; October weekly grade is complete |
@@ -48,8 +48,8 @@ Packets dated November 6 at the four owners, plus the receipt at `PROME/inbox/`.
 
 ## NEXT DECISION POINT
 
-- **What:** R1 successor. Desk recommendation is the same two-branch wording at the November S&P final.
-- **When:** PROME's call; the next possible print is the December 1 final (date SECONDARY).
+- **What:** R1 successor, WQ-643. Desk recommendation is A, the same two-branch wording at the November S&P final.
+- **When:** Will's ruling, row due November 30; the next possible print is the December 1 final (date SECONDARY).
 - **What would falsify the trigger:** Nothing fires until a successor is ruled. Without a ruling, the December 1 print is read but cannot flip R1.
 
 ## FORWARD CATALYSTS
