@@ -2,10 +2,7 @@
 
 Lowest authority; STATUS wins on any disagreement. Narrative: `catchups/2026-11-06.md`. Full read: `research/2026-11-06_hy-print-cabo/REPORT.md`.
 
-**Resume list (PROME 11/06):**
-1. **WALTER SIG-W-20261105-067 ACTION:** was any Ares-managed public vehicle among Tricolor's lenders? Card now in `inbox/WALTER/processed/`. Start with ARCC and ASIF 9/30 schedules; run a loose name pass (LESSONS #39). Bounded.
-2. **GIBBS packet 11/06** `inbox/2026-11-06_from-GIBBS_q3-10q-ndfi-figures.md`: Goldman $368M attribution vs BRK-31; tell GIBBS of any conflict before the 11/16 BRK-11 re-run.
-3. **LIQUID packet 11/06** `inbox/2026-11-06_from-LIQUID_gsbd-q3-and-hy-november-5.md`: GSBD NAV −2.99%, below ladder row 6's >5%; check the Q3 line on row 6 and the Q3 card.
+**Resume list: DONE 11/06 on Will's 11:18 ET word.** Card 067, GIBBS and LIQUID packets and card 019 processed; inbox and WALTER lane empty at the commit (KB-BRK-450–452).
 
 **Next-boot first moves:**
 1. **Mon 11/09 after ~16:30 ET or Tue 11/10 AM:** CRMT tenth-bridge STD, whole feed from 11/05 08:01 ET, every form, INDEX acceptance time. Feed read to 10:15 ET 11/06 was empty. Covers L927; backstop #7 L928 Tue 11/10.
