@@ -383,3 +383,21 @@ CDS rose 13 bp on the disseminated basis in the session the stock fell 6.9%. Tha
 **Gates.** 072: Oracle is the issuer already scored, so its wide pricing is no new instance. Its pricing spreads are all above BB OAS, on different bases. 069 L5: the term sheet shows no R1 as of November 2; agency primaries remain inaccessible and nothing after November 2 is tested. Secondary bond levels are unmeasured here, since TRACE is not reachable.
 
 **Later note, 15:27 ET, card SIG-W-20261106-034.** WALTER corrected card 029: Reuters, citing Bloomberg, places the Oracle wind-down inside "a larger reassessment of billions of dollars in cloud partnerships". Nothing in this section used the "older capacity" framing, so nothing here is withdrawn. One line gains a caveat: "weeks, not lost" rests on company statements, and Microsoft is IREN's customer as well as Oracle's. No source names IREN, and the review's size and direction are unknown, so I read no change to IREN; a wider review reaching that contract would change the read. Logged to KB-LIQ-153. No gate moved.
+
+### 15.9 Gate 076 W1 as-of November 3 (written 15:33 ET November 6)
+
+CFTC TFF futures-only raw file `FinFutWk.txt`, Last-Modified 20:27:45Z November 6, read 15:33 ET, so first-published. Market `SOFR-3M - CHICAGO MERCANTILE EXCHANGE`, the full-name key; the short name mixes in the FMX contract.
+
+| Field | October 27 | November 3 | Change |
+|---|---:|---:|---:|
+| Leveraged-fund long | 1,071,610 | 1,032,461 | −39,149 |
+| Leveraged-fund short | 3,607,595 | 3,636,660 | +29,065 |
+| Net, long minus short | −2,535,985 | −2,604,199 | −68,214 |
+| Spreading, excluded from net | 2,681,557 | 2,796,869 | +115,312 |
+| Open interest | 13,078,528 | 13,075,576 | −2,952 |
+
+**W1 NOT MET.** The level line is ≤ −2,950,000 and the print is 345,801 short of it. The cover line is a weekly change above +300,000 and the print moved the other way. October 27 is unrevised in this file.
+
+**Gate 076 stays 1 of 3 (W3 only) on the October 24→November 6 window.** The window is 14 calendar days, anchored at the latest observation of any leg, W1 dated by its as-of Tuesday. W2 as-of October 28 stays NOT MET. No write-up is owed. The original episode of October 22 and its reset rule are unchanged.
+
+⚠️ **What this print cannot say.** As-of November 3 is two sessions before the November 5 shock. It shows no cover into that selloff only because it predates it, so it is not evidence that the position held through November 5. The first print that can show this is as-of November 10, about November 13. Net positions do not show refused capacity either.
