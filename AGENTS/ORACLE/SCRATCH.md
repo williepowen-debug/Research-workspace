@@ -19,8 +19,9 @@
 
 ## NEXT SESSION (dated, priority-flagged)
 
+- **🔴 Weekend reads, WQ-646 A (Will 11/06 17:44 ET; `PROME/proposals/2026-11-06_wq646-647-RULED.md`):** Sat 11/07 about 08:00 ET and Sun 11/08 about 15:00 ET, context only, these two reads only. Timers are one-shot session jobs (`657db5cf`, `6d1a6129`) in the window opened 11/06 17:15 ET: they die if this session exits and fire only while it is idle. If a fresh session reads this after a slot passed with no row in `ODDS_LOG.tsv`, that read was MISSED: run it and say so.
 - **🔴 Every boot:** `tools/routine_check.py`, then grade the routine rows into `V5_NOV110_READS.tsv` and VX-ORC-12. Next ledger row is ET Mon 11/09.
-- **🔴 Effective ceasefire, first thing Mon 11/09:** did the 16:04 ET break hold, and did oil follow at Sunday's reopen? Any leg resolving NO = another qualifying strike. Find the cause if a wire reached it; re-test on a second venue (`kalshi.py search "Iran strike"` was NOT CERTIFIED). The routine runs weekdays only, so no weekend pull exists unless a session runs one.
+- **🔴 Effective ceasefire, first thing Mon 11/09:** did the 16:04 ET break hold, and did oil follow at Sunday's reopen? Any leg resolving NO = another qualifying strike. Find the cause if a wire reached it; re-test on a second venue (`kalshi.py search "Iran strike"` was NOT CERTIFIED). The routine runs weekdays only.
 - **🟠 Rolls:** Hormuz weekly → wk-of-11/9 at 11/09 · Hormuz on-date · December $110 at listing (expect ~11/25 by prior pattern; bump REGIME, one edit) · R3 switch 2026-11-17T01:00Z (INFERRED) resets the arming run.
 - **🟠 Kalshi CPI:** `KXCPIYOY-26OCT` 404; decide on pinning `KXCPIYOY-26NOV` rungs near the mode (November data, closes 12/10; OI 57.4K on `T3.8`) after HENRY's view. October CPI grade (KB-ORC-124) then rests on PM's thin book.
 - **🟠 `TRADE.md`:** regenerate tables from `TRADE_MARKS.tsv` (current); rendered tables are as of 11/04.
