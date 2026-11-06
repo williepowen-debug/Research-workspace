@@ -1,0 +1,41 @@
+{
+  "acceptance": [
+    true,
+    ""
+  ],
+  "errors": [],
+  "source_errors": [],
+  "cards": {
+    "639": {
+      "recommended": "A",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ],
+      "can_respond": true,
+      "requires_chat": true
+    },
+    "640": {
+      "recommended": "A",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ],
+      "can_respond": true,
+      "requires_chat": true
+    },
+    "642": {
+      "recommended": "A",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ],
+      "can_respond": true,
+      "requires_chat": true
+    }
+  },
+  "scope": "Live published source, disposable local state; no answer created or sent."
+}

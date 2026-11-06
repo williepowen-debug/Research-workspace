@@ -1,0 +1,35 @@
+{
+  "scope": "Disposable published fixture; not live activation or actual send/read proof.",
+  "cards": {
+    "639": {
+      "recommended": "A",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ],
+      "can_respond": true,
+      "requires_chat": true
+    },
+    "640": {
+      "recommended": "A",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ],
+      "can_respond": true,
+      "requires_chat": true
+    },
+    "642": {
+      "recommended": "A",
+      "choices": [
+        "A",
+        "B",
+        "C"
+      ],
+      "can_respond": true,
+      "requires_chat": true
+    }
+  }
+}

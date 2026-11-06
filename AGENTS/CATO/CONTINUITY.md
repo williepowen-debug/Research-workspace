@@ -1,6 +1,6 @@
 # CATO — current continuity
 
-**Updated November 6, 2026. WQ-641 fallback installed after its one targeted read accepted: every answer still needs matching PROME-chat confirmation; live alerts remain unproven/off. Next: orient and follow Will’s direction. WQ-607 remains approved and pending, not started here.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
+**Updated November 6, 2026. Current-card button connection published by PROME and verified against the live app sources for 639/640/642. Actual app-to-live-PROME alert remains unproven. Chat fallback remains. WQ-607 stays approved/pending, not started here.** [CHARTER](CHARTER.md) governs authority. Read only matching [TASK_INDEX](TASK_INDEX.md) entries. Closeout starts no owner work.
 
 ## Resume point
 
@@ -17,7 +17,7 @@ Accepted maintenance, launcher repair and WQ-583 stay closed. FFIEC desktop regi
 ## Surviving CATO work
 
 - **Forecast pilot:** enrollment closed at 20/20 originals. Effort **44/120 minutes**, 76 remaining. Resume only when Will directs. Saved observations: RED-25 October 31 re-review if new evidence; FAL-06 November 5 checkpoint; December 31 process assessment. Grading limits, no-replacement condition and unresolved 2027 endpoints survive. [Recorded state and evidence](TASK_INDEX.md#forecast-pilot).
-- **Decisions — WQ-641:** approved by Will and recorded by PROME; B1 and items 1/2/5/6/7 repaired and independently accepted for **chat-required fallback only**, installed exact reviewed bytes. No further CATO repair/read task on this build. Live alerts/app-only authority remain OFF; PROME supplied a plausible background-command wake route and owns the harmless live probe/readback. Not yet proof of app delivery. WQ-639 remains separate. [Outcome, verification and named residue](runs/2026-10-30_1059_wq-decision-workflow.md#november-6--wq-641-fallback-accepted-and-installed) · [review/artifacts](prototypes/decisions/releases/2026-11-06-wq641/README.md). Reopen the app; pending old answers may need fresh review, with original words preserved.
+- **Decisions:** WQ-641 fallback remains installed/accepted; every answer needs chat. Will now asks to make the buttons useful. Current 639/640/642 source connections are **published and verified live**, recommended A with A/B/C and answers enabled. PROME applied at fc4ced37da; CATO verified published bindings without creating a response. [Current action and limits](runs/2026-10-30_1059_wq-decision-workflow.md#november-6--complete-the-current-card-connection-not-another-app-build) · [patch/data](prototypes/decisions/releases/2026-11-06-button-cards/README.md). PROME reports live active/idle harness wake; actual app-to-model notification remains unproven. No underlying decision was answered and full WQ-639 workflow remains separate.
 
 ## Delivered tools and machine handoff
 
