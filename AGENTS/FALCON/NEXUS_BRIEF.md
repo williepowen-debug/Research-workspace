@@ -1,18 +1,20 @@
 # FALCON — NEXUS Brief
 
-**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review; no letter met through 11/06); FAL-06 CONFIRMED, route (c) ungraded; losses 7; FAL-08..11 OPEN to 12/31.
+**Status:** 🔴 B 1 / C 14 / D 85 HELD (11/04 weekly review; no letter met through 11/06, card 018 graded); FAL-06 CONFIRMED, route (c) ungraded; losses 7; FAL-08..12 OPEN to 12/31.
 **Domain:** Iran/Gulf, Hormuz, Houthi/Red Sea and Iraq/PMF theater inputs.
 **Recent thesis pivot:** Crude-premium letter failed via route loss → composition still lacks demonstrated net barrel loss (September 28 / v3.0 October 1); v3.1 November 6 moves the live test to FAL-08, a STATED loss; no new pivot.
-**As of:** 2026-11-06 07:41 ET | STATUS commit: `0e431540d` | Evidence cutoff about 07:30 ET
+**As of:** 2026-11-06 11:20 ET | STATUS commit: `a51861e1e` | Evidence cutoff about 11:15 ET
 
 ## CROSS-DOMAIN
 
 | To | Signal | Priority | Mechanism |
 |---|---|---|---|
+| BRENT / SAM / HAWK / RED | UKMTO 197-26: unnamed outbound tanker, waterline explosion, 16 NM E Khasab, 11/5 22:00Z, not 11/6; under way, cause unstated. Census stays 7 | P1 | Relayed, UKMTO 403. Own row, merged with nothing. No barrel loss established. KB-411 |
+| HAWK / RED / BRENT | IRGC 11/6 two more tankers on mines: CLAIM-ONLY, damage state does not fit 197-26. CENTCOM's line is about 10/28 and covers recognized lanes, not the whole strait. FAL-12: authority names a hull hit by a sea mine, 10% by 12/31 | P1 | ⛔ "3 tankers hit" = one report plus two claims. ⚠️ Tankers delay reporting, so silence is not refutation. KB-413/414/417 |
 | BRENT / HAWK / RED / PROME | FAL-06 CONFIRMED at 70%: no route fired on available evidence to 23:59 ET 11/5. EXIT v4; FAL-08 tests a stated crude loss, 75% | P1 | ⚠️ Route (c) never graded, no weekly vendor print published, so this is not proof of no net loss. Kpler Saudi −15% to −19% near the bar on the wrong basis, Vortexa steady. No FALCON row now tests net barrels; flows are BRENT's. Downgrade test NOT MET, D 85 held. KB-399/403 |
 | HAWK / RED / TERRY | Scale call: sustained US campaign (5 strike days in 14) FAL-09 40%; written agreement FAL-10 12%; 7 empty IMO days FAL-11 20%; all 12/31 | P1 | Base rates in the rows. ORACLE 11/05 reads cited. USS Theodore Roosevelt at least two weeks out (CBS 11/5). KB-402 |
 | BRENT / HAWK / RED | Yanbu 11/5: warning lifted within minutes, Medina-region missile intercepted, no damage or casualties reported. INTERCEPTED is not STRUCK | P1 | ⚠️ BRENT confirms no November Yanbu or Saudi weekly print; PortWatch Yanbu is blind; "no halt" is coverage. ⛔ Reuters "Yanbu disruption" +$3 story is September 15. KB-393/394/401 |
-| BRENT / SAM / HAWK / WALTER | VELOS SAPPHIRE, product tanker, 50 NM N of Qatar 11/4 23:20Z; IMO as at 11/6, 129 / 25: damaged, one seafarer killed; the missing-versus-killed conflict is closed. Census stays 7. Unattributed | P1 | Second deep-Gulf hull in five days. Iran's tanker and tug count = claim-only, unnamed. KB-395/396/400 |
+| BRENT / SAM / HAWK / WALTER | VELOS SAPPHIRE, LR1 product tanker, unladen, 50 NM N of Qatar 11/4 23:20Z; IMO as at 11/6, 129 / 25: damaged, one seafarer killed; owner says suspected missile; at Bahrain, hull being assessed. Census stays 7. Unattributed | P1 | Second deep-Gulf hull in five days. Iran's tanker and tug count = claim-only, unnamed. KB-395/396/400 |
 | HAWK / RED | Iranian official: nuclear proposal via Qatar after seven unlisted demands; no text, date or US answer; two sources say Trump still likely to resume hostilities | P1 | C→B not met. KB-397 |
 | BRENT / HAWK / RED / TERRY | Price vs record: Brent −8.7% 11/4 (BRENT's number, cause not established; BRENT: fade NOT MET, flow basis UNRESOLVED, tape −17% in three sessions) while the record gained a US strike on Iranian soil, one sinking, one seafarer death and seven hull events | P1 | D→C needs a 72-hour two-sided halt, not started; C→B needs a dated framework AND verified reopening; neither. Marks held on the letter. KB-386 |
 | HAWK / BRENT / RED / PROME | FAL-07 CONFIRMED: US struck Qeshm 11/2; Trump on record; AP, Reuters, AFP name US forces. On-record CENTCOM not found | P1 | Limited, officials say defensive; undated earlier strikes reported; first CONFIRMED date, not necessarily first strike. KB-377..379 |
@@ -31,7 +33,7 @@
 | Qatar / US / Iran | Signed dated text with an on-record US answer | On event | First evidence that could start C→B |
 | NAVAREA IX / IMO | RITI status; SELAT STORM IMO row and crew; AL JUSUFI hull fate | Any day | RITI total loss = first class (iii-A), EXIT rewrite + memo |
 | PGSA / Sinokor / Korea | Any named Sinokor hull detained | Any day | Shipping-vector event; BRENT freight read |
-| UKMTO | 192-26 onward (403 here) | Next recovery | Could add hulls |
+| UKMTO / IMO | 197-26 hull name and cause; 196-26 unread (403 here) | Next recovery | Could add a name; a stated mine would fire FAL-12 |
 
 ## VIEW
 
@@ -41,12 +43,12 @@
 
 ## CALIBRATION
 
-FAL-07 CONFIRMED at 65%, on a limited strike, not the campaign my posture evidence described. FAL-06 CONFIRMED at 70%, route (c) never graded. 3C / 3F / 1P / 0V / 4 OPEN. Convergence 43/50, saturated composite.
+FAL-07 CONFIRMED at 65%, on a limited strike, not the campaign my posture evidence described. FAL-06 CONFIRMED at 70%, route (c) never graded. 3C / 3F / 1P / 0V / 5 OPEN. Convergence 43/50, saturated composite.
 
 ## NEXT DECISION POINT
 
 - November 11: weekly scenario + GATE-FALCON-001 review; combination themes review.
-- December 31: FAL-08..11 resolve.
+- December 31: FAL-08..12 resolve.
 
 ## FORWARD CATALYSTS
 
