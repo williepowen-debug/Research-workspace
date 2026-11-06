@@ -17,7 +17,7 @@
 - **VLY:** block $108.6M then, $0.4M now; non-multifamily modified CRE 110.5 flat three quarters; re-modified is an inference from line-level flatness, not disclosed. REG-35 registered, 70%.
 - **EGBN:** multifamily criticized $211.8M vs $284.2M; 10-Q and deck disagree by $36.2M, unresolved, RED owns the tree. REG-28 u=4.
 - **Screen of 14:** RE-MODIFIED 1 (VLY), STILL HELD 2 (BKU, EGBN), PAID 1 (SBCF, inference, $6.2M), NOT DISCLOSED 5 (SSB, CFG, FLG, CUBI, OZK), NO BLOCK 5. Q1 2027 is a Valley date, not a group date.
-- **Refuters on the bank-put book, evidence only:** 2 met, 1 met then lost, 3 not met, 2 unknown. H.8 11/06 unread at close.
+- **Refuters on the bank-put book, evidence only:** 2 met, 1 met then lost, 3 not met, 2 unknown. H.8 11/06 read: refuter 6 stays NOT MET.
 - **Saturday 11/07 run PREPARED, not run:** 14 Call Reports on file; FDIC 9/30 universe not posted. Combination watch live, four themes. No score, threshold, gate or trade change.
 
 **November5 catch-up** (`reports/2026-11-05_boot/REPORT.md`; dated reports for each item):
@@ -49,7 +49,7 @@
 
 **November2 carried releases** (`reports/2026-11-02_carried-release-reads/REPORT.md`):
 - **CCB Q3:** Bluevine on-balance-sheet deposits **$452.4M [9/30] = 9.67%** of same-date deposits, with another $1.85B swept off balance sheet; latest expected Valley close Q2 2027. The unnamed partner's $22.8M specific allowance is unchanged and the $45.6M valuation allowance is near Q2, but $3.1M of additional provision was not offset by enhancement income. Stable, not resolved; funding exit remains prospective. Release-only PARTIAL.
-- **Weekly funding:** H.4.1 primary credit **$9.538B [Wed 10/28]**. H.8 small-bank borrowings **$305.3B [10/21]**, down $7.9B (−2.5%) from the revised 10/14 comparator, with deposits nearly flat and NDFI loans down $1.7B. The prior 10/14 borrowing figure was revised $316.4B → $313.2B; the frozen six-week study was not recomputed. No deposit run or small-bank credit draw shown.
+- **Weekly funding:** H.4.1 primary credit **$9.219B [Wed 11/04]**. H.8 small-bank borrowings **$309.7B [w/e 10/28]**, up $4.5B (+1.5%) from the revised $305.2B [10/21], still $3.5B under the $313.2B [10/14] week, with deposits +0.26% and NDFI loans down $1.3B. Fed H.8 11/06 → `reports/2026-11-06_close-refresh/REPORT.md` §2.
 - **FHLB:** preliminary advances **$798.4B [9/30]**, ~−1.5% q/q on the carrying-value basis. REG-T-06 remains official run 2-of-3 / REVIEW; the 11/13 CFR governs level and both breadth checks.
 - **No score, threshold, prediction, protocol or trade change.** Cohort selection, L180 breadth and PROME's reserve-release count remain for the approved 11/07 run.
 
