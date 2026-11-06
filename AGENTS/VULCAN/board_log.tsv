@@ -247,3 +247,8 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-05T16:50:13-05:00	SIG-W-20261105-057	acted	INBOX_WALTER	VIX correction carried by KB-374 source line; stock figures unchanged. No VULCAN band keys on VIX. Cboe history not posted at card time.
 2026-11-05T16:50:13-05:00	SIG-W-20261105-060	acted	INBOX_WALTER	Qualcomm release read at EDGAR primary [KB-375]: memory named as an input cost, handset fall not attributed to it; Arm report unread. No S2 letter. Non-VULCAN items not ours.
 2026-11-06T09:59:32-05:00	SIG-W-20261105-062	info-only	INBOX_WALTER	Abrigo wording correction to card 060 is CYPHER's; no chip or AI-capex link; KB-375 used only the Qualcomm item on that card.
+2026-11-06T10:24:11-05:00	SIG-W-20261106-003	noted	INBOX_WALTER	SoftBank CDS and Tokyo selloff logged [KB-379]: a price, no financing event, no margin call found. Carry is SAM's, ABB ruling ZHAO's. Halt and the 73 trillion figure not carried.
+2026-11-06T10:24:11-05:00	SIG-W-20261106-004	noted	INBOX_WALTER	Logged [KB-378]: bonds secondary, TRACE unchecked; ING no price; BoE a question. No S5 letter, VULCAN-13 legs not met. Gates are LIQUID and BROCK's.
+2026-11-06T10:24:11-05:00	SIG-W-20261106-009	noted	INBOX_WALTER	Two VULCAN lines logged [KB-380] under WQ-622; relays, no letter. Other lines belong to their owners.
+2026-11-06T10:24:11-05:00	SIG-W-20261106-013	acted	INBOX_WALTER	ACTION done: S1 and S5 re-read against LIQUID's send row [KB-377]. No VULCAN letter, 15/25, S5 4 n=2. Funding did not move. VIOLET owns Path-B.
+2026-11-06T10:24:11-05:00	SIG-W-20261106-015	info-only	INBOX_WALTER	Capcom correction: no VULCAN artifact cites it (grep 11/6); no channel touched.

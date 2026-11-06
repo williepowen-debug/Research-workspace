@@ -18,3 +18,4 @@ receipt_date	correction_id	action	note
 2026-11-06T14:59Z	COR-20261105-52	NO-OP	scope=Arkea appears only in raw cards and board_log (grep 11/6), no VULCAN channel or KB row cites it; 
 2026-11-06T14:59Z	COR-20261105-57	NO-OP	scope=no VULCAN artifact carries the VIX figure (grep 11/6), no VULCAN band keys on VIX and KB-374 stock figures are unchanged; 
 2026-11-06T14:59Z	COR-20261105-62	NO-OP	scope=Abrigo appears only in raw cards and board_log (grep 11/6), no VULCAN channel or KB row cites it; 
+2026-11-06T15:24Z	COR-20261106-15	NO-OP	scope=no VULCAN artifact cites Capcom (grep 11/6), game publisher with no VULCAN channel; 
