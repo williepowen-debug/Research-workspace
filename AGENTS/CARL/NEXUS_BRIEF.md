@@ -4,7 +4,7 @@
 **Domain:** U.S. consumer financial stress and household transmission; ISHM owns manufacturing/freight, REGINALD bank credit.
 **Thesis version:** v2.6.6
 **Recent thesis pivot:** none in version. 11/06: masking framework's intermediate falsifier CRL-21 MISSED: Ally FY2025 −38.0 bp vs FY2023 at the same age, FY2026 −5.0 bp; outer falsifier CRL-20 at 1%. Mechanism not killed: FY2026 early delinquency is above FY2023, one nine-month reading. Aggregate buffer drawdown (saving 3.8%) stands.
-**As of:** 2026-11-06 13:26 ET | STATUS commit: `4fd42fd86`
+**As of:** 2026-11-06 13:45 ET | STATUS commit: `5d49f4905`
 **Position:** No capital authority. Seven paper rows CLOSED 10/28 at the 10/27 opening-print fallback (+$313.57 paper); scoring gates shut, no performance claim.
 
 ## CROSS-DOMAIN
@@ -30,20 +30,21 @@
 | From | Input | Expected by | Why it matters | How it changes my view |
 |---|---|---|---|---|
 | BEA | October income/outlays (CRL-32 leg 1, KILL check on September revision); then November 12/23 (final grade) | Wed 11/25 08:30 ET | First grade of the household-buffer letter | First-published saving rate; revisions logged separately; no cohort inference from aggregates |
-| OTTO / SEC | EART September collection month (+ SDART/BLAST) | ~10/29 | Existing V2 deep tier | Apply existing tier/denominator rules; at most qualifying month 1 |
+| OTTO / SEC | EART October collection month (+ SDART/BLAST) | ~11/30 | Existing V2 tiers | September deep 0/4, broad 0/3; October can at most be qualifying month 1 |
 | STUE / court | AFT v. ED next conference (the 10/28 docket date was wrong; held 10/14) | Mon 11/23 11:00 ET | CRL-13 denominator | Backlog count UNAVAILABLE today; status reports cover IDR/PSLF, not SAVE non-selection |
 | STUE | ES-02 / CRL-28 final MOHELA complaint grade | ~11/13–11/16 | Student-loan servicing stress | Interim 24.8/day below band; NO VERDICT if boundary placements split bands |
-| Fed | 10/28 press-conference transcript | 11/04 | Remaining V12 leg | Apply unchanged un-fire conditions |
+| Fed | December meeting | Dec 8–9 | V12 un-fire count | Presser 10/28 read: no easing signal, 0 of 2 |
 | ALLY Q4 print / FY2026 10-K | CRL-35 retail auto NCO 2.19%+; CRL-36 FY2026 30+ above 2.46% | Jan / Feb 2027 | Prospective vintage test | Named prints |
-| CARL | V16 branch on October payrolls (printed 11/06 +165K, LABOR v2 fired; UNREVIEWED here) | By 11/10 | V16 print 1 of 2 | Apply unchanged instrument and count |
+| BLS / LABOR | November payrolls | Fri 12/04 | V16 drop-back print 2 of 2 | October counted print 1 (+165K, R +84K). S>0 AND R>0 sends a 4→3 candidate to Will; anything else resets to 0 |
 
 ## VIEW
 
+- 11/06 catch-up: October payrolls firm, V16 1 of 2 toward 3, a hiring read, not a layoffs read. V2 September 0/4 deep, 0/3 broad, verified at SEC. SLOOS: banks more likely to approve prime card applicants, less likely subprime, small banks driving it (text only). Q3 platforms and Dave show no break among gig and small-dollar users; driver supply not read.
 - Concentrated strain persists; broad collapse is still not established. October Conference Board rebounded across the present-situation and expectations indexes. Its six-month average rises only for under-35 and $100K+ households, and write-ins on prices, groceries and diesel rose. These are attitudes, not outlays.
 - Fuel channels diverge: regular gasoline is easing slowly while diesel rose for a third week (freight-cost context; no household pass-through coefficient).
 - Corporate credit quality is splitting (CCC−B 999bp vs 962 on 10/16) while broad HY tightens. RED/REGINALD own the thresholds; CARL's L708 found consumer-facing B/CCC names did not lead.
 - Single-name items (True Food Ch.11, JetBlue fuel-driven loss, Carvana unit growth) are context, not breadth evidence.
-- Registered score stays 53/70. The 10/29 GDP/PCE release is the next aggregate real-spending read; prep card saved.
+- Registered score stays 53/70. Next aggregate reads: October CPI 11/10, BEA income and outlays 11/25.
 
 ## CALIBRATION
 
@@ -56,20 +57,18 @@
 
 ## NEXT DECISION POINT
 
-- **What:** run the saved GDP/PCE plan and the EART September V2 read.
-- **When:** 10/29 08:30 ET; EART filing ~month-end.
-- **What would falsify the trigger:** no real-spending contraction or breadth means no new broad-collapse confirmation. Neither changes frozen prediction letters.
+- **What:** grade the Q3 HHDC, CRL-30 first grade and CRL-33, and the October CPI.
+- **When:** Tue 11/10, 08:30 ET and 11:00 ET.
+- **What would falsify the trigger:** card flow at or below 6.97% and a falling student-loan stock with the flow would both weaken the credit legs. Neither changes frozen letters.
 
 ## FORWARD CATALYSTS
 
 | Date | Event | Threshold / Signal |
 |---|---|---|
 | 11/25 08:30 ET | October PCE / income (CRL-32 leg 1) | Letter research/2026-10-29_WQ537/LETTER.md; Z.1/DFA cohort read 12/10; final grade 12/23 |
-| ~10/29 | EART September | Existing V2 deep-tier read |
-| 10/30 | WQ228 fintech review; pilot falsifier follow-up | Carried from 10/28 |
-| 11/05 | Sweet v. McMahon hearing (STUE) | Context only |
-| 11/03–11/04 | EIA weekly; FOMC presser transcript | Fuel context; V12 remaining leg |
-| By 11/10 | October payrolls branch, carried | V16 |
 | 11/10 08:30 ET; 11:00 ET | October CPI; Q3 HHDC | CRL-10 unchanged; CRL-33, CRL-30 first grade, shadow grade |
+| 11/30 | EART October 10-Ds | V2 tier read |
+| 12/04 | November payrolls | V16 print 2 of 2 |
+| 12/09 | FOMC | V12 un-fire count |
 
-**Closeout (10/28, after Will-approved sweep):** consistency 0 hard; read-cap passes (STATUS rotated to 70% of budget); 0 stale child ledgers after bounded GIG/POLLY/PHAN/POP passes and live DOC/STUE. CRL-13 re-dated to Q1 2027; CRL-25 pointer retired unscored; GIG-P02/03/04/06 closed NO-VERDICT-BY-INSTRUMENT; POP-P03 MISSED; DOC-P11/P12 registered (Will-approved). Score 53/70 unchanged. 10/28 later: KB review done (284 → STALE, 0 overdue); PHAN FLOW-06 leg 2 ruled UNRESOLVABLE by Will; WQ-228 SoFi leg done, CCBX leg 10/30; screwworm is a food watch (CRL-10 unchanged).
+**Closeout (11/06 catch-up):** see SCRATCH closeout receipt. Score 53/70 unchanged; CRL-21 scores at first-call 60%; CRL-15 10% and CRL-23 15%, dated marks.
