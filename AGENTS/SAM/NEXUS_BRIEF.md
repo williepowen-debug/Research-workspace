@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-11-06T22:15:16+00:00 (17:15 ET), close refresh on Will's 17:08 ET word via PROME; no view moved. **STATUS commit `e9e60e00b2`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
+**As of:** 2026-11-06T23:34:59+00:00 (18:34 ET), closeout on Will's 18:33 ET word via PROME; cards 043, 047, 048 taken in, no view moved. **STATUS commit `a2b3376717`** (Amendment 11). Folded after the final owner-state commit; market observations keep their own source dates.
 
 ## VIEW
 
