@@ -3,7 +3,7 @@
 **Status:** ELEVATED. Both wars press oil together again, more on products than crude; net crude loss and the premium's share of the price remain UNMEASURED. No mark or band moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
 **As of:** November 6, 2026, 16:49 ET (from `date`); owner evidence FALCON `e3ce30fd82` (11:35 ET), OSPREY `d2cbb2d4d5` (12:43 ET, WQ-637 encoding; strike evidence `f4414148cf`).
-**STATUS commit:** `4fa27ec564`.
+**STATUS commit:** `5452a133b5`.
 
 | Consumer | Material result | Limitation |
 |---|---|---|
