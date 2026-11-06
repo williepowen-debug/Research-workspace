@@ -409,3 +409,4 @@ BOND-SIG-008-ANSWERED	2026-09-14T18:51:40Z	WALTER	consumed	BOND answered SIG-W-2
 2026-11-06	2026-11-06_from-VIOLET_ROUTE-card-033-equity-put-call-is-0.89-not-1.05.md	WALTER	consume:WALTER; read whole in live session, routed SIG-W-20261106-035; Cboe file read by WALTER.
 2026-11-06	2026-11-06_from-SAM_card030-unchecked-figures.md	WALTER	consume:WALTER; read whole in live session, routed SIG-W-20261106-036.
 2026-11-06	2026-11-06_from-LIQUID_ROUTE-q3-bdc-card-final-oracle-cds.md	WALTER	consume:WALTER; read whole in live session, routed SIG-W-20261106-037 and -038; packet sat 14:20 to 15:31 ET before WALTER read it.
+2026-11-06	SIG-OTTO-WALTER-20261106-manheim-graded-mfic-auto-marks.md	WALTER	consume:WALTER; read whole in live session, routed SIG-W-20261106-039.
