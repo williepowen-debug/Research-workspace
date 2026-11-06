@@ -1,9 +1,9 @@
 # ZHAO — NEXUS Brief
 
-**Status:** 🟠 **28/60 ELEVATED (10/29; unchanged since 10/9).** The November window is the live question: **two export-control clocks restart 11/10** (US BIS Affiliates Rule · China MOFCOM 公告70) with **no extension instrument yet**; forecasts **ZHA-19 65% / ZHA-20 70%** that both get paper in time (correlated). China's Treasury selling continues but is **decelerating** (Aug LT −$4.8B; 6-month net −$71.5B). New this week: **the PBOC is holding the yuan BACK** (fix weaker than the market every month since Dec-2025) and **the HK dollar sits at its 7.85 weak edge** (no HKMA intervention yet).
+**Status:** 🟠 **29/60 ELEVATED (11/06; +1 on Vector 5).** China's 11/10 clock is now the only open one: **the US filed its stay to 1/10 (FR 2026-22793); MOFCOM 公告70 has no re-suspension yet.** Forecasts **ZHA-19 65% (grades 11/10) / ZHA-20 85%** (correlated). October activity fell back under 50.
 **Domain:** China macro → U.S. transmission — SAFE-reported Treasury-line selling (Belgium proxy falsified 8/21), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent). **Pivot history 2026-07-04→08-21 (superseded figures) → `archive/NEXUS_BRIEF_PIVOT_HISTORY_20260919.md`; the `Status:` line above is canonical.**
-**As of:** **2026-11-02 08:52 ET (by `date`)** — L482 re-check 11/02: still NO instrument for either 11/10 clock (BIS Affiliates-Rule stay · MOFCOM 公告70); USTR ships final notice not yet out; NPCSC opened, no budget item located (KB-221..223). Content otherwise unchanged. || Prior as-of: **2026-10-29 14:36 ET (by `date`), closeout.** ⚠️ Stamps of ~14:45–15:20 ET written earlier today in this brief, STATUS, KB-217..220 and archive headers ran AHEAD of the clock; the session actually ran 13:27–14:36 ET. — Open-items pass: ZHA-05 STUCK (segment-figure anchor), rural-bank NPL 2.83% rising is the new Vector 4 instrument; Vector 8 row live (TTF €100.72, Qatar FM; rescore 4→5 open); V6 on the Fed H.10 market leg (+0.56%, 3·A); five relays delivered (KB-220). || Earlier: — Will-directed desk sweep, steps 1–5 complete (key-figure refresh, calendar repair, Sep data backfill, ZHA-19/20/21 registered, Belgium kill-leg retired, V6/V9 two-way, this brief's stale sections rewritten, boot now pulls the PBOC fix + HKMA live). Earlier 10/09–10/29 As-of lines → `archive/NEXUS_BRIEF_COLD_20261029.md` (verbatim). Record: KB-ZHAO-210..219.
+**As of:** **2026-11-06 11:18 ET (by `date`)** — L802 graded (ZHA-21 NO), BIS stay filed, MOFCOM live list re-read, October PMI read, inbox drained, ZHA-22..25 registered (KB-224..235). || Prior as-of: 2026-11-02 08:52 ET.
 
 ---
 
@@ -13,6 +13,7 @@
 
 ## VIEW
 
+- **★ 11/06 — FOR NEXUS: the two-clock story is now one clock, and the domestic read weakened.** BIS stayed the Affiliates Rule until 2027-01-10 (final rule, public inspection 11/05, publishes 11/09; KB-225). China has not matched it (KB-226). ⛔ The US stay is not evidence China extended. October NBS: mfg 49.3, composite 49.7, imports 47.0, construction new orders 40.0 ⇒ V5 4→5 by the letter (KB-227); the headline construction index held at 48.0, so read this as forward demand, not collapse. NPCSC closed with no fiscal figure (KB-224). ⚠️ Correction: 11/02's "newest is 第52号" read a MOFCOM page frozen at 10/26.
 - **★ 10/29 — FOR NEXUS: the PBOC's currency posture has fully reversed, and the desk's gauges could not see it until today.** On 925 CFETS fixings (primary), the fix-vs-market gap ran **−0.89% on average in 2024** (propping the yuan up) and **+0.46% in 2026**, with a **record +0.90% on 9/17** (holding it back). The state is ACCUMULATING dollars: the opposite of the UST-selling channel, and a currency-manipulation grievance beside a ~$1T surplus (trade-war channel; stated, not measured). Vectors 6/9 now read both ways; the stress total counts only the depreciation-defence side (28/60; two-sided shadow 31). KB-219.
 - **🟡 10/29 — HK peg at its weak edge:** USD/HKD 7.846 vs the 7.85 convertibility line; HIBOR-SOFR −122.5bp (GREEN→YELLOW). **No HKMA intervention yet** (Aggregate Balance HK$53,999M). The tell is HKMA market activity, now checked at every boot. KB-216.
 - **🟠 10/9 — FOR NEXUS: a pre-registered tripwire fired and I applied it AGAINST my own read.** Construction PMI 50.3 (+3.4) cleared the 47.5 line I set on 9/2, so the August upgrade comes off. But construction new orders are 45.7 and employment 44.3 — what came back is special-bond-funded activity, not demand. Rule applied, disagreement recorded, re-raise trigger named (Oct <47.5). The 11/10 export-control clocks are unchanged: sixteen days after "January 10" was said, no government has published the paper.
@@ -21,6 +22,7 @@
 
 ## CALIBRATION
 
+- **11/06:** ZHA-21 NO at 12%, Brier 0.0144. ZHA-19 not re-marked after the filing, by design. ZHA-22..25 registered with computed base rates: 60 / 68 / 12 / 18%.
 - **Record (graded rows):** ZHA-16 MISS (Brier 0.20) · ZHA-17 NO (0.30) · ZHA-18 NO at 40% (0.16; $172M from the boundary, not banked as skill) · ZHA-11/12 YES (0.10/0.04). **The base rate beat my narrative on ZHA-18** (narrative 60%, base rate 33%).
 - **Open, registered before the events (10/29):** ZHA-19 US clock instrumented by 11/9 **65%** · ZHA-20 MOFCOM by 11/10 **70%** (correlated: ~1.3 calls, not 2) · ZHA-21 NPCSC RMB fiscal figure **12%**. ⛔ ZHA-05 STUCK 10/29 (anchor was a segment NPL, letter can't discriminate). Letter: `reports/2026-10-29_PREREGISTRATION_ZHA-19-20-21_nov-clocks-and-npcsc.md`.
 - **Conviction — China UST selling: MEDIUM, DECELERATING.** Three straight months of coupon selling, each about half the last (LT −15.8 / −7.7 / −4.8B). 6-month total net −$71.5B. Aug level fall overstates it: −$12.25B is non-transaction residual, cause UNKNOWN.
@@ -60,27 +62,24 @@
 
 ## NEXT DECISION POINT
 
-- **What:** Sat 10/31 NBS PMI (construction re-raise test <47.5) → **11/2 instrument re-check + NPCSC opens** → **11/9–11/10 the two clocks (grade ZHA-19/20)** → 11/18 September TIC (Q3 anchor total; needs ≈ −$28B more for the >$50B route).
-- **What would change my view:** a **BIS FR notice** or a **MOFCOM 公告** extending a clock ⇒ that clock re-dates (likely 2027-01-10). ⛔ Statements re-date nothing. **HKMA market activity ≠ 0** ⇒ the peg channel wakes (V7 rescore, LIQUID).
+- **What:** **Mon 11/9 L482 re-check → 11/10 ZHA-19 grade → 11/11 ZHA-20 read (WATT T1 opens here on branch B)** → 11/18 September TIC (ZHA-22; Q3 anchor total needs ≈ −$28B more for the >$50B route) → 11/30 Nov PMI (ZHA-23).
+- **What would change my view:** a **MOFCOM 公告** re-suspending 公告70 ⇒ that clock re-dates. ⛔ Statements re-date nothing. **HKMA market activity < 0** ⇒ the peg channel wakes (V7 rescore, LIQUID, ZHA-25).
 - **Standing kill-lines (re-specified 10/29, KB-219):** thesis killed only when **F** China 6-month TIC net ≥ +$2B on 2 consecutive releases (now −$71.5B) AND **L** China >$700B ×3 consecutive (now $590.7B) AND **S** fiscal >5% GDP with LGFV backstop. Noise tripwire: China >$680B ×2.
 
 ---
 
-## FORWARD CATALYSTS (next 2–4 weeks, refreshed 2026-10-29 — mirror; source of truth `docket/CATALYSTS.tsv`)
+## FORWARD CATALYSTS (next 2–4 weeks, refreshed 2026-11-06 — mirror; source of truth `docket/CATALYSTS.tsv`)
 
 | Date | Event | Threshold / Signal |
 |------|-------|--------------------|
-| Sat Oct 31 | NBS October PMI | construction <47.5 ⇒ Vector 5 re-raise; mfg <50 ⇒ back to ORANGE |
-| Mon Nov 2 | Instrument re-check (BIS / MOFCOM / USTR final) · RatingDog Oct PMI | any instrument re-dates its clock |
-| Mon–Fri Nov 2–6 | **NPC Standing Committee, 25th session** | RMB budget adjustment / debt quota adopted ⇒ ZHA-21 YES (12%) |
 | Sat Nov 7 | SAFE Oct reserves + PBOC gold | fall beyond valuation = intervention; gold ≥10 t (MIDAS WQ-451) |
-| 🟠 Mon Nov 9 | USTR s.301 ships suspension ends 23:59 ET; **BIS stay's last day** | ZHA-19 grades on the FR record (65%) |
-| 🔴 Tue Nov 10 | **BIS Affiliates Rule reimposed · MOFCOM 公告70 expires** | no instrument ⇒ both perimeters widen; ZHA-20 (70%) |
+| 🟠 Mon Nov 9 | USTR s.301 ships suspension ends 23:59 ET; FR publishes the BIS stay | ZHA-19 grades on the 11/10 record (65%) |
+| 🔴 Tue Nov 10 | **MOFCOM 公告70 reads to this date** | no 公告 by 23:59 Beijing ⇒ first-use regime, WATT T1; ZHA-20 (85%) |
 | ~Nov 7–16 | Oct trade, CPI/PPI, credit, activity data | property investment vs the 10/9 V5 cut |
 | 🔴 Wed Nov 18 | **September TIC** (Treasury-confirmed) | China Q3 net ≤ −$50B ⇒ LIQUID+PROME; Aug residual revision? |
 | Fri Nov 27 | MOFCOM 公告2024年第46号 clause 2 ends | content UNVERIFIED (B2) |
 
-⚠️ **ONE UNPRICED BINARY (VULCAN/HAWK):** a BIS Entity-List package naming CXMT / YMTC / SMIC subsidiaries is reportedly prepared but unpublished since June 2026. Re-checked 11/2 (CATALYSTS). It would invalidate every published CXMT capacity forecast. Full text → `archive/NEXUS_BRIEF_COLD_20261029.md`.
+⚠️ **ONE UNPRICED BINARY (VULCAN/HAWK):** a BIS Entity-List package naming CXMT / YMTC / SMIC subsidiaries is reportedly prepared but unpublished since June 2026. Re-checked 11/2; next 11/9 (CATALYSTS). It would invalidate every published CXMT capacity forecast. Full text → `archive/NEXUS_BRIEF_COLD_20261029.md`.
 
 ⚠️ **CARRIED, UN-RUN:** the China copper-imports −41% decomposition. The −41% is June CRUDE imports, not copper; the answer packet to MIDAS of 10/16 was never relayed (flagged to PROME 10/29).
 
