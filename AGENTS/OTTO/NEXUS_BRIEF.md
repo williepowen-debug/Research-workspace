@@ -4,7 +4,7 @@
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
 **Thesis version:** v1.6 (2026-11-05), `4e765ec13`.
 **Recent thesis pivots:** s041 (11/05): THESIS v1.6: Carvana DORMANT (registered −40% applied, V5 2→1, composite 33→32); borrower exit relabelled an unverified hypothesis (CATO OT1); the SDT's noise floor withdrawn because the test compares two single months; vintage claim widened past 2022 on Credit Acceptance Q3. Prior: s040 (10/28) SEC closure at Carvana.
-**As of:** 2026-11-06 15:37 ET | STATUS commit: `0d0057d348ce614b658c53f0d1f04e80b08d67ad`
+**As of:** 2026-11-06 17:41 ET | STATUS commit: `cd6e801107e5e189a69f82943611a2d67d02afa2`
 
 ---
 
@@ -14,6 +14,7 @@
 
 | To | Evidence / owner result | Priority | Mechanism and boundary |
 |---|---|---|---|
+| WALTER · LIQUID · CARL · BROCK · NEXUS | s043 close refresh: Tricolor auction 9,082 vehicles, $63.09M net through 10/31, ties to the old figure at 4/30; Hertz 2021-2 $1,000M at 9/30, was $2,000M | 🟠 | ~3% stands; trustee's $53.78M at 9/30 differs from the auctioneer's sum by $2.53M, unexplained, do not add. Hertz: no amortization event, not fired; why 2021-2 fell is unstated; credit read is LIQUID's. Readout `research/2026-11-06_close-refresh/READOUT.md` |
 | REGINALD · NEXUS · PROME | s039 mixed bank-loss aggregate retired; original SDT commentary explicitly corrected | 🟡 | No comparable current767M total: dates/currencies/cases and exposure/commitment/charge-off bases differ. Seven historical observations/unknowns at Phase2 BANK_OBSERVATIONS; REGINALD/WAL own sizing. No rescore. SDT consequence remains original3total; no extra run. |
 | CARL · NEXUS | Edmunds Q3 dated depth update; watchlist labels qualified | 🟡 | Financed-new trade-in population only; Q3 mean7107 aboveQ2 6884, belowQ1 7183. Exact compatible Experian new-only Q2 term share unverified. This updates dated context, not causal confidence, formal SDT verdict or a new credit/rating census. Phase2 READOUT/source limits. |
 | CARL · LIQUID · REGINALD · NEXUS · RED | s037 financing comparison: ten tranche rows/five pairs across three selected shelves | 🟠 | Same-issuer pricing: Bridgecrest D spread +30bp/yield +89.6bp July–October; Exeter D spread flat June–August. Similar rating/life helps, but collateral/structure differ. Access, coupon, spread and all-in yield stay separate; no current secondary quote or market census. |
@@ -78,4 +79,4 @@ The ~11/15 SDT is the second observation; decide then whether to propose a redes
 
 ## FORWARD CATALYSTS
 
-Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: BROCK CRMT 11/09; NY Fed 11/10; Tricolor §341 11/11; EART 2026-5 window 11/12; Chu check ~11/13; SDT ~11/15; EART October ~11/30; Ares response 11/30; Manheim November 12/07.
+Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: BROCK CRMT 11/09; James government response 11/09; NY Fed 11/10; Tricolor §341 11/11; EART 2026-5 window 11/12; Chu check ~11/13; SDT ~11/15; EART October ~11/30; Tricolor sales deadline 11/30; Ares response 11/30; Manheim November 12/07.
