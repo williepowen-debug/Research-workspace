@@ -36,6 +36,7 @@
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE
+- **First boot, before 11/10:** disposition BOARD cards SIG-W-20261106-049, -050, -051, -052 (info to CARL, arrived after the 18:12 ET push), grep against OPEN rows first. Headlines read 18:34 ET only; no action owed.
 - **11/10, carried cards:** SIG-W-20260904-004 at the HHDC basis check; SIG-W-20260929-002, -20261002-009, -20261008-027 at October CPI. SIG-W-20260924-008 and -009 stay deferred to about 1/20/2027.
 - **11/10:** HHDC and CPI, as above. Pull the HHDC file by curl with a browser user agent, open the prior report for the revision check.
 - **11/17:** S49b row, franchisee theme review against Census food services, October retail.
@@ -96,4 +97,5 @@ Top-level 0, WALTER lane 0 at 18:12 ET by the lane-descending find.
 | Research retirement sweep | RUN at 13:24 ET: 4 candidates, 4 retained, 0 moved; only new files added since |
 | Consumer check | RUN 16:48 ET on CRL-15 (35% to 10%) and CRL-23 (45% to 15%): 1,710 and 1,909 hits, all bare 2-sig-fig matches. No packet sent, per the root rule. Earlier grep of other desks' STATUS and briefs found no live citation |
 | Independent reader | NOT RUN |
+| Closeout 18:34 ET | On Will's 18:33 ET word. Consistency rc 0; brief pin OK; read cap rc 0; `board_gap` rc 0, "BOARD scan run, 6 new since SIG-W-20261106-046, 1037 logged"; inbox 0. Only this file changed since the close boot |
 | Close boot, 18:12 ET | Consistency 0 hard, 6 soft; read cap rc 0, rotation due 0; corrections 0; weekday clean; roadmap OK. BOARD assertion: "BOARD scan run, 2 new since SIG-W-20261106-046, 1037 logged", rc 0. Consumer check not applicable: new third-party prints, no CARL figure superseded. EDGAR scrape skipped by `--quick`, box short on memory; no ABS filing due before ~11/30 |
