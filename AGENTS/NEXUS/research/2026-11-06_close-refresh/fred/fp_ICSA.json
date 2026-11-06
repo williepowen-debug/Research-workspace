@@ -1,0 +1,27 @@
+{
+"basis": "first-published",
+"series": "ICSA",
+"rows": [
+{
+"date": "2026-10-31",
+"value": "189000",
+"first_published": "2026-11-05"
+},
+{
+"date": "2026-10-24",
+"value": "194000",
+"first_published": "2026-10-29"
+}
+],
+"request": {
+"series_id": "ICSA",
+"output_type": 4,
+"observation_start": "2026-10-20",
+"realtime_start": "2026-10-06",
+"realtime_end": "9999-12-31",
+"limit": 8
+},
+"short": false,
+"missing": [],
+"under_limit": true
+}

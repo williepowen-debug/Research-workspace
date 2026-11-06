@@ -7,7 +7,7 @@
 ```
 SoftBank --equity--> OpenAI --compute contract--> Oracle --tenant--> site loans --> banks
     |                                               ^
-    +--bridge, margin loans--> banks                | one contract, unsized
+    +--margin loans--> banks                        | one contract, unsized
                                Microsoft -----------+
                                Microsoft --network change--> IREN --> Blue Owl funds
 ```
@@ -24,8 +24,8 @@ SoftBank --equity--> OpenAI --compute contract--> Oracle --tenant--> site loans 
 | 3 | OpenAI is an Oracle customer | RELAY | S&P cited OpenAI concentration at its 7/9 cut (LIQUID map). Oracle backlog $664B [8/31] is FILING; OpenAI's share is VULCAN's leg | **REAL, UNSIZED here** |
 | 4 | OpenAI's money funds Oracle's capex through prepayments | FILING + INFERENCE | Oracle filed $11,363M of customer prepayments for capex in Q1 FY27 against $28,499M capex (8-K 9/10). The customer is unnamed; OpenAI is my inference | **UNPROVED, and the key edge** |
 | 5 | Oracle's site loans reach banks | RELAY | Project Jupiter: about $18B bank loans, Blue Owl's STACK as developer, Oracle as tenant (Reuters 9/24). Quotes 89–91 [9/18]; about 84 is a commentator, unverified. ING's sale includes $25M tied to Stargate New Mexico; that this is Jupiter is my reading | **REAL, UNSIZED by bank** |
-| 6 | SoftBank's funding reaches banks | FILING + RELAY | $40B bridge, 30+ institutions, shares undisclosed (deck, SAM). Names JPMorgan, Goldman, Mizuho, SMBC, MUFG and a March 2027 due date are June press | **REAL** |
-| 7 | Arm's price drives SoftBank's leverage | FILING + estimate | About 21.5% (20–24%) at Arm about $172; 25% near $118 on the base case, $101 to $150 across cases (SAM) | **REAL** |
+| 6 | SoftBank's funding reaches banks | FILING + RELAY | **Corrected 11/6, card 041:** the $40B bridge is repaid and cancelled, nothing outstanding (SoftBank notice). Left: $10B loan SoftBank Group guarantees, drawdown unconfirmed; Arm margin loan about $25B, September 2027, press | **REAL, bridge leg closed** |
+| 7 | Arm's price drives SoftBank's leverage | FILING + estimate | **Corrected 11/6, card 041:** 22.1% on SoftBank's definition, 24.2% with the guaranteed $10B loan, at Arm $172; 25% near Arm $128 or $160 (SAM estimate) | **REAL** |
 | 8 | Microsoft ended an Oracle contract | RELAY | 2023 Bing AI contract, older chips, capacity turning off. Bloomberg via Reuters and Investing.com, body unread, no second account | **REAL as reported, UNSIZED** |
 | 9 | Microsoft's wider reassessment reaches other providers | RELAY + INFERENCE | "Billions of dollars in cloud partnerships", no partner, size or direction. Nscale a named Microsoft customer; IREN's change is filed but runs the other way, an upgrade | **UNPROVED** |
 | 10 | Oracle's CDS raises Oracle's funding cost | INFERENCE | CDS 305 [11/5, DTCC]. New public money is capped and spent, refinancing excluded, so a price feeds refinancing and any lease or vendor deal, slowly. Notes priced +240 to +335 (FILING) | **REAL but slow** |
@@ -43,7 +43,7 @@ A loop needs a way back from Oracle to SoftBank. The only candidate is OpenAI's 
 |---|---|---|
 | OpenAI's share of Oracle's backlog and prepayments | VULCAN now; Oracle 10-Q about 12/15 | Edges 3 and 4 sized |
 | Oracle CDS file for 11/6 | About 20:15 ET today | Whether edge 8 moved the price at all |
-| SoftBank results: bridge balance, OpenAI mark, any pro forma leverage | 11/10 15:30 JST | Edges 6 and 7. ⚠️ Headline leverage is as of 9/30, SAM cases 13.7–16.5%; not today's level |
+| SoftBank results: OpenAI mark, any pro forma leverage | 11/10 15:30 JST | Edge 7. ⚠️ Headline leverage is as of 9/30, about 15.2% to 17.0% (SAM estimate, card 041); not today's level |
 | A named partner in Microsoft's review | Open | Edge 9 becomes real, or stays unproved |
 | Jupiter loan price or lender list, from a primary | Open | Edge 5 sized |
 
