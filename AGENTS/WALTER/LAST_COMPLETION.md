@@ -126,11 +126,16 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
       "commit": "e7928a4e9fa1607a91282f1689c25ab4709863e3",
       "state": "published",
       "note": "Cards 017-019."
+    },
+    {
+      "commit": "8ed8246347f9da1067c55c1a1ab2b78f75418605",
+      "state": "pending",
+      "note": "Correction 020."
     }
   ],
   "delivery": {
     "signal_date": "20261106",
-    "total": 84,
+    "total": 88,
     "delivered": 84,
     "note": "Delivery proof by origin only; recipient use separate."
   },
@@ -157,7 +162,7 @@ LIGHT closeout, session open. Operational coverage PARTIAL. Publication is not c
     "session": "OPEN; no unattended work."
   },
   "manual_duties": {
-    "11": "Cards 001-019. Batch BM-20261106-01 closed.",
+    "11": "Cards 001-020. Batch BM-20261106-01 closed.",
     "13": "REGISTRY refreshed for WALTER, LABOR, CYPHER, REGINALD, PROME before NETWORK.",
     "12(a,b)": "Counts and NETWORK refreshed.",
     "12(c)": "BALANCED baseline; labor window lapsed.",
