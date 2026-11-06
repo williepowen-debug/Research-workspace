@@ -780,3 +780,4 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T17:14:38-05:00	SIG-W-20261106-042	noted	INBOX_WALTER	Correction of my own 3.25% line; STATUS, report and brief already carry October 20 high 342.5 and 288 as a vendor close. Receipt COR-20261106-42. No gate moved.
 2026-11-06T18:18:48-05:00	SIG-W-20261106-049	noted	INBOX_WALTER	Michigan November preliminary; interviews ended November 2, context only. No LIQUID gate reads it.
 2026-11-06T18:18:48-05:00	SIG-W-20261106-050	acted	INBOX_WALTER	Hertz owner read done at primary filings, figures match; added Class B refusal and fair values, REPORT 17, KB-LIQ-159, packet to WALTER. Tricolor and James are OTTO. No gate moved.
+2026-11-06T18:20:38-05:00	SIG-W-20261106-051	noted	INBOX_WALTER	Correction built from my Hertz packet; figures and limits match REPORT 17 and KB-LIQ-159. Receipt COR-20261106-51 NO-OP. No gate moved.

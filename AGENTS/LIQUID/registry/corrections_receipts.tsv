@@ -54,3 +54,4 @@ receipt_date	correction_id	action	note
 2026-11-06T20:37Z	COR-20261106-37	NO-OP	scope=grep of REPORT 15.8, STATUS, NEXUS_BRIEF: card restates LIQUID's own read, no figure changes; 
 2026-11-06T21:01Z	COR-20261106-41	APPLIED	artifact=AGENTS/LIQUID/workbook/KB.tsv#KB-LIQ-153; validation_ref=NONE; 
 2026-11-06T22:14Z	COR-20261106-42	APPLIED	artifact=AGENTS/LIQUID/STATUS.md#AI financing; validation_ref=NONE; 
+2026-11-06T23:20Z	COR-20261106-51	NO-OP	scope=grep of REPORT section 17, KB-LIQ-159, STATUS, NEXUS_BRIEF: card restates LIQUID's own Hertz read, no figure changes; 
