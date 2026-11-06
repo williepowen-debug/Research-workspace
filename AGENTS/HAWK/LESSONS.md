@@ -58,3 +58,7 @@
 ## [2026-10-29] A trigger's named example became its search scope — Croatia met EURMIL RED (b) six months before registration
 **What happened:** RED (b) read "activation of compulsory military service or mobilisation by a European NATO state — for Germany specifically, …". Every sweep from registration (~Sept 18) to October 25 searched Germany only. Croatia's compulsory intake had begun on 2026-03-09, so the ORANGE text ("no activation") was false on the day it was written. It was found only by a residual check on October 29. Will then ruled B (a prospective clarification to mobilisation or crisis call-up).
 **Rule:** when a trigger says "any X" and names one example, the sweep enumerates every X, and the example is only one row in it. At registration, test the bands against the world as it already is (has any member state already done this in the look-back window?) before writing a band's "unstepped" claim. Same family as the 2026-07-12 lesson (a letter's wording narrows the sweep).
+
+## [2026-11-06] A proxy with no known-positive control certifies nothing, and I had called it a measured negative
+**What happened:** on 10/29 I accepted TD6/TD19 as a stand-in and wrote "SATISFIED-BY-PROXY, a measured negative". OSPREY's 16-week backfill showed it fires only on CPC disruption and reads clear in 9 of 10 windows.
+**Rule:** before a proxy may satisfy a test, show it has seen the object at least once. If it never has, it can only cue, never clear.

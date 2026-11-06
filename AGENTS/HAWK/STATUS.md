@@ -1,17 +1,17 @@
 # HAWK STATUS
 
-**Updated:** November 6, 2026, 11:52 ET (from `date`). Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Will's wake 11:36 ET: drain inbox oldest first, answer WQ-470, grade what is due. Root/local instructions explicitly read. No trade book. **No mark or band moved.** Session still open; closeout awaits PROME's ask.
+**Updated:** November 6, 2026, 11:53 ET (from `date`), session CLOSED on PROME's WQ-249 ask. Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Will's wake 11:36 ET: drain inbox oldest first, answer WQ-470, grade what is due. Root/local instructions explicitly read. No trade book. **No mark or band moved.**
 
 ## Decisions and thresholds (top)
 
 | Item | State |
 |---|---|
-| **WQ-470 / C3 limb 2** | **HAWK answered OSPREY's four questions 11/6:** drop TD6/TD19 in both sea areas, bind no X, limb 2 becomes a veto on in-scope prints, first window opens at Will's adoption (`proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md`, KB-484). Recompute agrees with OSPREY (+91.9%, 38.3%, +82.4%). Reverses HAWK's 10/29 "UNMEASURED blocks". Easier to kill than the draft. **Waits on OSPREY's reply, then PROME → Will.** Current letter governs: C3 stays 3, limb 1 31/21, limb 2 NOT SATISFIED, 10/21 grade stands. |
-| **HAW-20** | **CONFIRMED at 65%, LATE SEARCH, Brier 0.1225** (`research/2026-11-06_HAW-20_GRADE.md`, KB-485). Pulls dated 11/6, six days after the date. WQ-172 would make that NO-VERDICT, but it is forward-only and the row predates it. Same shape as OSP-04. |
+| **WQ-470 / C3 limb 2** | **HAWK answered OSPREY's four questions 11/6:** drop TD6/TD19 in both sea areas, bind no X, limb 2 becomes a veto on in-scope prints, first window opens at Will's adoption (`proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md`, KB-484). Recompute agrees with OSPREY (+91.9%, 38.3%, +82.4%). Reverses HAWK's 10/29 "UNMEASURED blocks". Easier to kill than the draft. **Waits on OSPREY's reply, then PROME → Will. osprey-5a closed out before replying (PROME 11:52 ET); PROME routes any reply.** Current letter governs: C3 stays 3, limb 1 31/21, limb 2 NOT SATISFIED, 10/21 grade stands. |
+| **HAW-20** | **CONFIRMED at 65%, LATE SEARCH, Brier 0.1225** (`research/2026-11-06_HAW-20_GRADE.md`, KB-485). Pulls dated 11/6, six days after the date. WQ-172 would make that NO-VERDICT, but it is forward-only and the row predates it. Same shape as OSP-04. PROME reviewed 11/6: stands as graded, keep the note. |
 | **HAW-22** (65% UNCALIBRATED) | Stays OPEN; not due. October event window closed with no candidate on the held record (KB-486). **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. Final search 12/15–12/21, resolves 12/22. |
-| **New forecasts** | HAW-23 CIT rules against S301 forced-labor tariffs by 12/31, 55%. HAW-24 Majlis floor vote on the Hormuz bill, 20%. HAW-25 named PLA exercise around Taiwan, 14%. HAW-26 Article 4 request, 10%. All resolve 12/31. Packet to PROME for DOCKET. |
+| **New forecasts** | HAW-23 CIT rules against S301 forced-labor tariffs by 12/31, 55%. HAW-24 Majlis floor vote on the Hormuz bill, 20%. HAW-25 named PLA exercise around Taiwan, 14%. HAW-26 Article 4 request, 10%. All resolve 12/31. PROME registered the DOCKET rows 11/6. |
 | **No forward physical-loss window** | HAW-22 accepts no events after 10/31. FAL-08 covers a stated Gulf crude loss only; nothing covers a Russian crude-export loss. The 10/25 candidate stays unregistered: needs Will (perimeter) and a confidence basis. |
-| **YUR-004 consumer read** | Null: no HAWK band moved (KB-487). No public declaration found is not no decision. ⛔ Do not score this as near-term armed-conflict risk. |
+| **YUR-004 consumer read** | Null: no HAWK band moved (KB-487). L432 RESOLVED by PROME. No public declaration found is not no decision. ⛔ Do not score this as near-term armed-conflict risk. |
 | **WQ-622** | Six themes set up, charter line added, KB-495..500. Logging is not scoring. |
 
 ## Reconciliation deltas (owner evidence: FALCON `e3ce30fd82` 11:35 ET, OSPREY `f4414148cf` 11:16 ET)
@@ -44,7 +44,6 @@ Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/COD
 - **FLOW-21 tanker re-check:** DHT 11/9 and BW LPG 11/24 are not out; INSW and Dorian unread. The decisive test is the Q4 prints, Jan–Feb 2027.
 - **Canada annex net count:** FR annex is a TIFF image; cannot change HAW-20 or WQ-521.
 - **EURMIL equipment stocks and Article 4/5 primaries:** owed at the 11/8 native check.
-- **FALSIFICATION and FLOW-19 text refresh:** at closeout.
 - **Carried debt:** Canada Gazette and Qatar documents; HAW01/04/05 provenance; FE1 Suez; EU legal annex; VEN posture; CPC durability; GL135.
 
 ## BOTTOM LINE
