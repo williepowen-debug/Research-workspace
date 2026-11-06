@@ -1,5 +1,5 @@
 # LIQUID STATUS
-**Last Updated:** 2026-11-06T16:00:41-05:00 — November 6 wake under WQ-626 A, DOCKET L970. Last real data refresh: 2026-11-06 (FRED first-published, NY Fed, Treasury, Nasdaq closes, EDGAR, tape to 10:15 ET, MAIN 10-Q 11:46 ET, CFTC TFF as-of November 3 read 15:33 ET). Credit graded through November 5. Full read → `research/2026-11-05_live-catchup/REPORT.md` §15. Remaining next steps → `research/2026-11-05_live-catchup/NOV6_HANDOFF.md`.
+**Last Updated:** 2026-11-06T16:48:41-05:00 — November 6 wake under WQ-626 A, DOCKET L970. Last real data refresh: 2026-11-06 (FRED first-published, NY Fed, Treasury, Nasdaq closes, EDGAR, tape to 10:15 ET, MAIN 10-Q 11:46 ET, CFTC TFF as-of November 3 read 15:33 ET). Credit graded through November 5. Full read → `research/2026-11-05_live-catchup/REPORT.md` §15. Remaining next steps → `research/2026-11-05_live-catchup/NOV6_HANDOFF.md`.
 
 > **How to read this file.** Levels here are **dated snapshots**, each with its own observation date. **`scripts/boot.py` is the live source**; quote from it, not from here. Basis is latest-revised FRED unless stated (see §5). One fact, one place: if a figure appears twice, one copy is a defect.
 
@@ -52,7 +52,8 @@ Dates are existing duties, not unattended execution. Evidence gaps imply no sche
 | When | What | Owner / status |
 |---|---|---|
 | **November 12 to 13** | Gate 076: W2 as-of November 4 about November 12; W1 as-of November 10 about November 13, the first print able to show a cover after November 5. PROME review November 13. | LIQUID |
-| **November 6, about 20:15 ET** | Oracle and Microsoft: DTCC November 6 full file, one-line update on PROME's ping. | LIQUID |
+| **next wake, first** | Oracle and Microsoft: DTCC November 6 full file, published about 20:15 ET; one-line update to PROME. Not yet read. Steps at MEMORY NEXT SESSION. | LIQUID |
+| **next wake** | Three peer packets unprocessed in `inbox/`: BROCK GPU 2.0 draw test, ORACLE December hike, SAM SoftBank leverage. | LIQUID |
 | **about November 9** | State Street SPIB and SPBO as of November 6: new Oracle notes against reoffer, the second bond point. Fix `dtcc_cds_probe.py` for cancelled rows (KB-LIQ-150). | LIQUID |
 | **workbook audit — unresolved existing definitions/closures** | ES01 FHLB percentage lacks a recoverable denominator; ES05 negative-basis sign interpretation unresolved, no operator changed. Final LIQUID Test B/T4 closure not located in scoped sources; Test C central row overdue. Recover existing results/definition authority before any re-grade or new proposal. ES02/03/04 source/read gaps retained. → `audits/2026-11-04_workbook-sweep/REPORT.md`. | LIQUID; PROME coordination, no new study/monitor |
 | **10/26 source follow-up** | WALTER 10/25-016 JetBlue bond-identity check and -018 AI-CDS turnover incrementality: DEFERRED pending TRACE bond identity and a defined basket/gross-net method. 10/29: JetBlue Q3 primary (SIG-W-20261027-040) adds issuer liquidity $2.2B including a $600M undrawn facility and $250M aircraft financing EXPECTED in Q4 (not received); adviser identity and bond marks still missing; no current credit grade. No new standing study. | LIQUID existing credit lane; WALTER source recovery |

@@ -2,13 +2,14 @@
 
 ## Session Notes
 
-### CURRENT SESSION — closed 2026-11-06T15:36:00-05:00 (WQ-626 A, DOCKET L970, session liquid-98, Claude Code / Opus 5.5)
+### CURRENT SESSION — closed 2026-11-06T16:48:41-05:00 (WQ-626 A, DOCKET L970, session liquid-98, Claude Code / Opus 5.5)
 
 - **Context:** ran the November 6 handoff by hand after the November 5 HY cell posted. No trades; no level, operator, instrument or consequence changed.
 - **Delivered:** November 5 print graded first-published (HY 348, +16); Will's funding sweep; GSBD; final Q3 BDC card (MAIN 10-Q); card 029 read of IREN and Oracle at filings; 076 W1; 21 WALTER cards consumed today; combination themes logged (WQ-622). `research/2026-11-05_live-catchup/REPORT.md` §15.
 - **Grades:** 069 L4 FIRED session November 5, count unchanged 2 of 2, no new consequence; L1 NOT FIRED. 076 1 of 3, W1 as-of November 3 NOT MET. 079 NOT ARMED +10. 072 NOT FIRED. HY-REKILL 0 of 2. Tier rule BROADENS on the daily clause.
+- **Added after first closeout, Will's word 15:40 ET:** Oracle CDS against Microsoft and SoftBank, `research/2026-11-06_oracle-cds-loop/REPORT.md`, KB-LIQ-158. Read: two stories on one AI-financing tape, no funding link measured, on a partial view. High 342.5 disseminated [October 20]. Second closeout on Will's word 16:46 ET for a context reboot.
 - **Open:** STATUS §3. No new forecast registered; LIQ-08 to LIQ-11 DOCKET rows are PROME's.
-- **Slips, disclosed:** card 034 landed at 14:16 and my 14:20 commit missed it, caught 15:27 by reading the git log; re-sweep the inbox right before a commit that consumes cards. Directory-style `git add` on processed folders earlier today; status showed only intended renames. The 15:32 ET background wait was stopped by the system for low memory; not restarted, a one-shot reminder served instead.
+- **Slips, disclosed:** "3.25% unsupported through November 5" was wrong, I tested only November files; corrected to PROME and WALTER. Told Will "ten minutes" on October 28 before finding no trade printed for nearly four hours before the 8-K, with the FOMC in the gap. Card 034 landed at 14:16 and my 14:20 commit missed it, caught 15:27 by reading the git log; re-sweep the inbox right before a commit that consumes cards. Directory-style `git add` on processed folders earlier today; status showed only intended renames. The 15:32 ET background wait was stopped by the system for low memory; not restarted, a one-shot reminder served instead.
 
 ### PRIOR SESSION — closed 2026-11-05T16:45:48-05:00 (Will boot and catch-up word 09:42 ET, session liquid-9d, Claude Code / Opus 5.5)
 
@@ -34,4 +35,6 @@
 
 ### NEXT SESSION
 
-Pull, then read STATUS §3, the owed list. The November 6 handoff is done. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).
+**FIRST, one line owed to PROME:** read DTCC's full November 6 file, published about 20:15 ET, and send the Oracle and Microsoft update. Run `.venv/bin/python3 AGENTS/LIQUID/scripts/dtcc_cds_probe.py ORACLE 2026-11-06` and the same for MICROSOFT from repo root. Compare against same-day slices to about 15:50 ET: Oracle Dec 2031 306 to 314 converted, about 318 disseminated basis, 305 only inside a curve package; Microsoft no print. ⚠️ The probe keeps cancelled rows, so check EROR by hand; Microsoft sits under the 100 bp coupon, so read disseminated rows only, not the conversion. Say whether 325 or the 342.5 high was reached. Method → `research/2026-11-06_oracle-cds-loop/REPORT.md` end notes.
+
+**Then:** process three peer packets left unprocessed in `inbox/`: BROCK GPU 2.0 draw test, ORACLE December hike, SAM SoftBank leverage. SAM's ACTION looks met by KB-LIQ-153 at 82882750bd; verify against its table. Then STATUS §3, the owed list. The November 6 handoff is done. Sessions from October 29 and earlier, with the prior NEXT SESSION text → `archive/MEMORY_before-2026-11-05-closeout.md` (verbatim copy).
