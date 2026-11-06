@@ -4,7 +4,11 @@
 Activity detail lives in commit messages, daytrading/JOURNAL.md, and `memory/auto/`.
 Keep this load-bearing: append a Durable Finding only when it survives the episode.
 
-## Current pickup — 2026-11-05 11:34 EST
+## Current pickup — 2026-11-06 16:10 EST
+
+Claude Code, Opus 5.5, session terry-2e, PROME wake under WQ-626 A. Read STATUS CURRENT STATE first. HYG hedge and UNG both APPROVED FIRED and unfilled; WQ-631 test with PROME for Will; ORCL C9 answered, no idea; OP-SCALE N = 5, R = 6, decision count 7, Will confirms 11/7. All commits pushed at closeout unless STATUS says otherwise.
+
+## Prior pickup — 2026-11-05 11:34 EST
 
 Claude Code, Opus 5.5, session 725131af, Will-launched on the desktop; catch-up under Will's 09:42 word, closeout on his word. Read STATUS CURRENT STATE first, then `research/2026-11-05_catch-up/NOTE.md`. VLO sold $366.665, −$45.33, HELD-01 discharged. QQQ 690P and RH WAL Dec-18 70P gone, prices partly UNKNOWN (D-94; `research/2026-11-05_robinhood-capture/TRANSCRIPTION.md`). Approved NOT-FIRED: RSP (WQ-591, debit blocks), UNG (WQ-606 A: `.anl` plus ECMWF, a marginal value fires), HYG, ORCL (FQ2 date unverified, IR 403). OP-SCALE draft v3 awaits PROME's recount 11/7; TERRY contests, Will decides WQ-599, seat first. CME refused this desktop too: curl 92 HTTP/2 INTERNAL_ERROR. Lessons in practice: do not rebuild on a peer's report before its reader finishes; do not tell Will a physical claim the owner has not made.
 
@@ -66,9 +70,9 @@ Publication and exactcloseoutcommit proof are recorded in dateddelivery; prior s
 
 ## Next Session — start here
 
-00. **OP-SCALE, due Sat 11/7:** read inbox/2026-11-05_from-PROME_op-scale-recount.md and research/2026-11-07_op-scale/CONTEST_WORKING_NOTES.md. Finish the ruling 4 trace, send the contest by ruling number to PROME/inbox, apply RED version 4's eight fixes, add two loosened-log rows, move draft § 2 to the rulings, then file the recount packet.
-0a. **UNG (WQ-573):** card unfilled, LIVE through 11/20, re-price live on any red UNG day; WQ-621 A governs a debit over $0.50. Will holds a separate Robinhood Dec-24 $10.5 call ×1 (NOTE-UNG105C-DEC24); show combined risk about $311.50 if presenting. Whether the call replaces the card is his to say; do not prompt on the call.
-0b1. **HYG hedge (WQ-615):** read the HY 11/5 cell, due about 10:30 ET 11/6 via PROME, against 344 and 350, and HYG closes against $76.81. **QQQ (WQ-617):** bring to Will on live VIX3M/VIX ≥ 1.00 on a red QQQ day by 11/20, else close. CAL-0005 11/6, CAL-0003 11/12 with the ECMWF 12Z basis flag.
+00. **Final bars and HY:** read HYG and UNG 11/6 final daily bars, then the HY 11/6 cell about 11/9 against WQ-513's 350 count. **WQ-631:** on Will's ruling, write the test on the UNG card; change nothing before it. OP-SCALE contest delivered and settled, N = 5.
+0a. **UNG (WQ-573):** APPROVED FIRED, unfilled, LIVE through 11/20, re-price live on any red UNG day; WQ-621 A governs a debit over $0.50. Will holds a separate Robinhood Dec-24 $10.5 call ×1 (NOTE-UNG105C-DEC24); show combined risk about $311.50 if presenting. Whether the call replaces the card is his to say; do not prompt on the call.
+0b1. **HYG hedge (WQ-615):** T1(a) FIRED on 348 [11/5], order stands, first green HYG day through 12/4, no fill known. **QQQ (WQ-617):** bring to Will on live VIX3M/VIX ≥ 1.00 on a red QQQ day by 11/20, else close. CAL-0003 11/12.
 0b2. **Closes:** read a close after about 16:30 ET. On 11/5 a 16:12 daily bar showed UNG's last minute bar $9.255 (red), and the final was $9.27 (flat); VIX family prints to about 16:15.
 0b. **October 25 carry-forward (history; Monday refresh, REG-T-04 earliest fire and IDEA-prefix acceptance since discharged):** Monday 10/26: refresh option marks on the cluster VIEW and the GLD card (weekend values are 10/22 broker / 10/23 closes); REG-T-04 earliest fire = the 10/27 close (published ~10/28) → HYG card § 10; ORCL FQ2 date at Oracle IR at every touch (WQ-514 condition). IDEA prefix coverage A/G/H implemented October 25; author tests passed, PROME acceptance pending. KRE/QQQ work: `research/2026-10-23_KRE-QQQ-report/README.md`.
 1. Read currentoperatoroverrideabove/USER.md beforeanyheld-linecommunication. Noexpiryreminders,sellpushesorrepeatedcheck-ins;C5paused.

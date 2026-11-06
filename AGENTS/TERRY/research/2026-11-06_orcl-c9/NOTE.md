@@ -39,3 +39,6 @@ Why no:
 5. **Book.** The HYG hedge is unfilled and covers overlapping AI-financing and credit risk. A second downside line before the first exists adds a view, not protection. Mirror check only: no ORCL line in `FORGE/STATUS.md`.
 
 **What would reopen it, evidence and not levels:** the contract size and the Bloomberg body read; a filing or primary report of financing refused or repriced; an Oracle-verified FQ2 date. This sets no gate. Any idea would be a new NOT-FIRED card for Will under root rule #5.
+
+## Addendum 2026-11-06 16:10 EST
+NEXUS `2026-11-06_from-NEXUS_ai-funding-read-for-C9.md`, read after the answer was filed. Its points: the 11/6 reports did not cause HY 348 [11/5]; Oracle's stated plan has no new public money left through FY30, refinancing excluded; the remaining levers may rest on the labs and vendors in question, NEXUS inference, no filing ties them. Each is already in the "why no" list or leaves it unchanged. The answer stands.
