@@ -4,9 +4,9 @@
 
 The AI selloff reached Tokyo: the Nikkei fell 5.96%, TOPIX 5.90% and SoftBank 10.83%, with its credit default swaps as wide as 466bp. It did not look like August 2024. The yen weakened through the session, the two-session yen range stayed at 1.40, and speculators were net long going in (+102,321 at 11/3). What moved was the BOJ: Totan's December equivalent went from 82 on 10/29 to 52 on 11/6, front-end yields led the rally, and the 30Y fell only 4bp. Then US payrolls beat and Fed December hike odds rose to about 77–79%, pushing the yen weaker in New York. Both policy legs now point the same way, so the branch to watch is a December skip with the yen near 160, not a hike-led unwind.
 
-SoftBank's reported hundreds of millions in OpenAI's round is too small to matter by itself. What matters beside it is that the quoted 13% leverage is a June figure: at Arm near $172 the desk's estimate is about 21.5%, range 20–24%, against a 25% ceiling. No bank or household break was found. **Forward branch:** Tuesday 11/10, when SoftBank's headline will flatter (9/30 Arm $289.66) and the Summary of Opinions will read hawkish because it was written before the selloff.
+SoftBank's reported hundreds of millions in OpenAI's round is too small to matter by itself. What matters beside it is that the quoted 13% leverage is a June figure: at Arm near $172 the desk's estimate is about 22% on SoftBank's definition and about 24% counting the OpenAI loan it guarantees, against a 25% ceiling. The $40B bridge was already repaid in September, and no SoftBank–Oracle credit tie was found: they share OpenAI as a counterparty. No bank or household break was found. **Forward branch:** Tuesday 11/10, when SoftBank's headline will flatter (9/30 Arm $289.66) and the Summary of Opinions will read hawkish because it was written before the selloff.
 
-**Thesis consequence:** none. v1.7 retired-to-LOW, no successor, book FLAT. [Read](../../research/outputs/2026-11-06_softbank/SOFTBANK_CHECK_READ.md) · STATUS for levels.
+**Thesis consequence:** none. v1.7 retired-to-LOW, no successor, book FLAT. [Read](../../research/outputs/2026-11-06_softbank/SOFTBANK_CHECK_READ.md) · [Funding stack](../../research/outputs/2026-11-06_softbank/SOFTBANK_FUNDING_STACK.md) · STATUS for levels.
 
 ## 2026-10-31 — ✅ RESOLVED: the BOJ held, called 2% reached, and the yen did not move
 

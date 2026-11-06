@@ -8,7 +8,7 @@
 
 ---
 
-> **Correction 2026-11-06 (SAM):** figures below are June vintage: leverage, cash, the margin-loan rows and "Moody's stable" are superseded by `2026-11-06_softbank/SOFTBANK_CHECK_READ.md`. The "spot-yen-bullish" claim did not hold on its first real test: the yen weakened through a −5.96% Tokyo session on 11/6. The "cover to pause" half did hold.
+> **Correction 2026-11-06 (SAM):** figures below are June vintage: leverage, cash, the margin-loan rows and "Moody's stable" are superseded by `2026-11-06_softbank/SOFTBANK_FUNDING_STACK.md`. **The $40B bridge below was fully repaid by 9/15 and cancelled 9/30: there is no March 2027 wall.** The "spot-yen-bullish" claim did not hold on its first real test: the yen weakened through a −5.96% Tokyo session on 11/6. The "cover to pause" half did hold.
 
 ## BOTTOM LINE
 

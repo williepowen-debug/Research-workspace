@@ -10,7 +10,7 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ## 2026-11-06 — TIMELINE: Tokyo −5.96%, carry graded no unwind, December repriced; v1.7 unchanged
 
-**TIMELINE:** new 2026-11-06 block. Card 003 graded NOT a Japan-led carry unwind; Totan December 82 → 52; SoftBank's reduced check immaterial; leverage re-mark about 21.5%, range 20–24%, vs the quoted 6/30 13%. Offshore funding unmeasured.
+**TIMELINE:** new 2026-11-06 block. Card 003 graded NOT a Japan-led carry unwind; Totan December 82 → 52; SoftBank's reduced check immaterial; leverage estimate about 22% on SoftBank's definition, about 24% counting its guaranteed loan, vs the quoted 6/30 13%; bridge repaid; no SoftBank–Oracle credit tie found. Offshore funding unmeasured.
 **Old view → new view:** no fresh Japan-led carry unwind → unchanged. The forward risk moves from a December hike to a December skip and a weaker yen. June file's "spot-yen-bullish" claim corrected. **THESIS.md not edited:** no thesis-level change, no prediction, gate or mark moved. Detail → `research/outputs/2026-11-06_softbank/SOFTBANK_CHECK_READ.md`.
 
 ## 2026-10-31 — TIMELINE: BOJ October 29–30 branch point RESOLVED (hawkish hold); SAM-42 FALSE; v1.7 unchanged

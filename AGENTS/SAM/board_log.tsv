@@ -296,3 +296,5 @@ timestamp_read	signal_id	disposition	source	notes
 2026-11-06T20:27:16+00:00	SIG-W-20261106-033	noted	INBOX_WALTER	Takaichi 11/6: AI selloff may or may not persist, monitoring, no measure, headlines only. Logged combo:boj-december-path. Rest for other owners.
 2026-11-06T20:27:16+00:00	2026-11-06_from-CYPHER_japan-capcom-gmo-shinkin	noted	INBOX_TOPLEVEL	Filed. GMO cost date 11/13 added to docket; Shinkin as card 005; Capcom has no financial channel. Do not relay 'Japanese banks are collapsing'.
 2026-11-06T20:27:16+00:00	2026-11-06_from-PROME_C9-SoftBank-read	acted	INBOX_TOPLEVEL	C9 commission executed; receipt at PROME/inbox/.
+2026-11-06T20:48:06+00:00	SIG-W-20261106-036	noted	INBOX_WALTER	WALTER's relay of SAM's 21.5%. Superseded by the funding stack: about 22%, or about 24% counting the guaranteed loan; 25% zone $128-160 not $118. Correction sent to WALTER.
+2026-11-06T20:48:06+00:00	2026-11-06_from-PROME_SoftBank-funding-stack	acted	INBOX_TOPLEVEL	WQ-643 leg done: research/outputs/2026-11-06_softbank/SOFTBANK_FUNDING_STACK.md; receipt at PROME/inbox/.
