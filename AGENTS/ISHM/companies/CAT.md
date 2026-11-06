@@ -2,7 +2,7 @@
 
 As of October 31, 2026; 2026Q3 ended September 30; released October 29 (SEC 8-K 0000018230-26-000052, filed October 29). Corporate data NSA, first-published at issuer; PRIMARY-VERIFIED. This is the accepted print read, not live prices or a valuation view.
 
-[Primary source: Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex991toformcat3q2026earnin.htm) · [Exhibit 99.2 dealer retail statistics](https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex992toformcat3q2026retail.htm). Read through the web tool October 31; local GET of the issuer PDF returned 403 (Akamai), as in DATA_ROUTES. The tool reported the exhibit text truncated near the end, so a figure printed only in the final pages may be missing below. Next: Q4 2026 date not yet announced; checked at the November 6 calendar audit (../docket/CATALYSTS.tsv).
+[Primary source: Exhibit 99.1](https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex991toformcat3q2026earnin.htm) · [Exhibit 99.2 dealer retail statistics](https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex992toformcat3q2026retail.htm). Read through the web tool October 31; local GET of the issuer PDF returned 403 (Akamai), as in DATA_ROUTES. The tool reported the exhibit text truncated near the end, so a figure printed only in the final pages may be missing below. Next: Q4 2026 date not shown at the November 6 calendar audit; recheck December 31 (../docket/CATALYSTS.tsv).
 
 | Fixed checklist | Accepted read, Q3 2026 |
 |---|---|

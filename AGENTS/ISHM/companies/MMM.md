@@ -2,7 +2,7 @@
 
 As of October 26, 2026; 2026Q3; released October 20. Corporate data NSA, first-published at issuer; PRIMARY-VERIFIED. This is the accepted print read, not live prices or a valuation view.
 
-[Primary source](https://investors.3m.com/news-events/press-releases/detail/1946/3m-reports-third-quarter-2026-results-raises-full-year-eps). Next: Next dated quarterly advisory not recovered; audit November 6; date authority lives in ../docket/CATALYSTS.tsv.
+[Primary source](https://investors.3m.com/news-events/press-releases/detail/1946/3m-reports-third-quarter-2026-results-raises-full-year-eps). Next: no dated advisory on the issuer page, November 6 audit; recheck December 31; date authority lives in ../docket/CATALYSTS.tsv.
 
 | Fixed checklist | Accepted read |
 |---|---|

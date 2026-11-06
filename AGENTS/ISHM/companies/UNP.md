@@ -2,7 +2,7 @@
 
 As of October 26, 2026; 2026Q3 ended September 30; released October 22. Corporate data NSA, first-published at issuer; PRIMARY-VERIFIED. This is the accepted print read, not live prices or a valuation view.
 
-[Primary source](https://investor.unionpacific.com/static-files/30351076-26e4-4a0b-b884-ce4fa22b9392). Next: Next dated quarterly advisory not recovered; audit November 6; date authority lives in ../docket/CATALYSTS.tsv.
+[Primary source](https://investor.unionpacific.com/static-files/30351076-26e4-4a0b-b884-ce4fa22b9392). Next: UNKNOWN, issuer page HTTP 403 at the November 6 audit; recheck December 31; date authority lives in ../docket/CATALYSTS.tsv.
 
 | Fixed checklist | Accepted read |
 |---|---|

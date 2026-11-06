@@ -2,7 +2,7 @@
 
 As of October 26, 2026; 2026Q3 ended September 30; released October 20. Corporate data NSA, first-published at issuer; PRIMARY-VERIFIED. This is the accepted print read, not live prices or a valuation view.
 
-[Primary source](https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-third-quarter-2026-results). Next: Next dated quarterly advisory not recovered; audit November 6; date authority lives in ../docket/CATALYSTS.tsv.
+[Primary source](https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-third-quarter-2026-results). Next: no dated advisory on the issuer page, November 6 audit; recheck December 31; date authority lives in ../docket/CATALYSTS.tsv.
 
 | Fixed checklist | Accepted read |
 |---|---|

@@ -1,0 +1,99 @@
+{
+ "ISM_NO_INV": {
+  "source": "DBnomics ISM neword/inventories Index, indexed 2026-01-07, SECONDARY-SOURCE, vintage UNKNOWN",
+  "start": "2021-01",
+  "end": "2025-12",
+  "months": 60,
+  "negative_months": 22,
+  "zero_months": 0,
+  "positive_months": 38,
+  "min": -9.3,
+  "max": 17.8,
+  "last_6": {
+   "2025-07": -1.8,
+   "2025-08": 2.0,
+   "2025-09": 1.2,
+   "2025-10": 3.6,
+   "2025-11": -1.5,
+   "2025-12": 2.5
+  },
+  "lt0_two": {
+   "eligible_pairs": 59,
+   "qualifying_pairs": 15,
+   "pct": 25.4,
+   "episode_starts": 3
+  },
+  "gt0_two": {
+   "eligible_pairs": 59,
+   "qualifying_pairs": 30,
+   "pct": 50.8,
+   "episode_starts": 5
+  },
+  "gte_4p1": {
+   "eligible_pairs": 59,
+   "qualifying_pairs": 13,
+   "pct": 22.0,
+   "episode_starts": 1
+  },
+  "months_gte_4p1": 17
+ },
+ "REGIONAL": {
+  "through": "2026-10",
+  "latest_two": {
+   "2026-09": 1,
+   "2026-10": 1
+  },
+  "recovery_le1_of5_two": {
+   "FULL": {
+    "months": 269,
+    "hits": 150,
+    "eligible_pairs": 268,
+    "qualifying_pairs": 134,
+    "pct": 50.0,
+    "episode_starts": 11
+   },
+   "RECENT10Y": {
+    "months": 120,
+    "hits": 67,
+    "eligible_pairs": 119,
+    "qualifying_pairs": 61,
+    "pct": 51.3,
+    "episode_starts": 5
+   },
+   "EX_PANDEMIC": {
+    "months": 253,
+    "hits": 137,
+    "eligible_pairs": 251,
+    "qualifying_pairs": 121,
+    "pct": 48.2,
+    "episode_starts": 11
+   }
+  },
+  "deterioration_ge3_of5_two": {
+   "FULL": {
+    "months": 269,
+    "hits": 92,
+    "eligible_pairs": 268,
+    "qualifying_pairs": 74,
+    "pct": 27.6,
+    "episode_starts": 11
+   },
+   "RECENT10Y": {
+    "months": 120,
+    "hits": 48,
+    "eligible_pairs": 119,
+    "qualifying_pairs": 42,
+    "pct": 35.3,
+    "episode_starts": 4
+   },
+   "EX_PANDEMIC": {
+    "months": 253,
+    "hits": 89,
+    "eligible_pairs": 251,
+    "qualifying_pairs": 72,
+    "pct": 28.7,
+    "episode_starts": 10
+   }
+  }
+ }
+}

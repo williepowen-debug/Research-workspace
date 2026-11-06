@@ -52,6 +52,7 @@
    - the `workbook/VX.tsv` scores;
    - `docket/CATALYSTS.tsv` — re-date or retire every consumed row;
    - STATUS + BOTTOM LINE;
+   - **combination watch (WQ-622 A, Will 2026-11-05 15:22 ET, `PROME/COMBINATION_WATCH.md`):** in the session an item or print arrives, update its `combo:<theme>` row in `workbook/KB.tsv`, members and counterevidence both. Logging is not scoring; a theme moves no score, band or trigger;
    - `NEXUS_BRIEF.md`, as the last write-back, after the final STATUS commit. Schema: `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`. Put the STATUS hash in its header. `python3 "$(git rev-parse --show-toplevel)/scripts/brief_pin_check.py"` must print OK for ISHM.
 7. Closeout per root `CLAUDE.md` §Git Protocol (1b orphan · 1c consumer · 1c-bis ledger · 1d memory · 1e claim). Then auto-push, unless an explicit coordinator handoff retains push custody.
 
@@ -169,7 +170,7 @@ Durable banded rules carry **no live values** (blueprint §3). The live read goe
 
 Reachability per route, as measured at build: **`DATA_ROUTES.md`**. Read it before any pull.
 - The FRED hard-data series are machine-checked by boot.py leg 8.
-- ⚠️ **ISM history is paywalled and is not on FRED. S&P Global's full PMI dataset is paid.** You see each new headline release but cannot back-test survey thresholds on free data. **Tell Will before spending a session on a source an LLM cannot reach.**
+- ⚠️ **Full ISM history is paywalled and is not on FRED. S&P Global's full PMI dataset is paid.** You see each new headline release. The only free component history found is a SECONDARY 60-month mirror (`DATA_ROUTES.md`, November 6), too short to back-test survey thresholds. **Tell Will before spending a session on a source an LLM cannot reach.**
 
 ---
 

@@ -2,7 +2,7 @@
 
 As of November 4, 2026; FY2026 Q4 ended September 30, released November 4 at 06:55 EST. FIRST-PUBLISHED corporate data NSA, PRIMARY-VERIFIED continuing operations. Underlying figures exclude FX/significant deals; orders and non-GAAP backlog exclude AspenTech. Prior FYQ3 read remains in PRINTS and Git history.
 
-[Issuer release](https://ir.emerson.com/news-events/press-releases/detail/649/emerson-reports-fourth-quarter-and-full-year-2026-results-provides-initial-2027-outlook); linked presentation archived at `../research/2026-11-04_backlog/sources/emerson_fy2026_presentation.pdf`. Next issuer earnings date UNKNOWN; availability check stays on the November 6 calendar audit.
+[Issuer release](https://ir.emerson.com/news-events/press-releases/detail/649/emerson-reports-fourth-quarter-and-full-year-2026-results-provides-initial-2027-outlook); linked presentation archived at `../research/2026-11-04_backlog/sources/emerson_fy2026_presentation.pdf`. Next issuer earnings date not shown at the November 6 audit; recheck December 31.
 
 | Fixed checklist | Accepted read |
 |---|---|

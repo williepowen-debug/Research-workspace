@@ -2,7 +2,7 @@
 
 As of October 26, 2026; 2026Q3; released October 22. Corporate data NSA, first-published at issuer; PRIMARY-VERIFIED. This is the accepted print read, not live prices or a valuation view.
 
-[Primary source](https://www.honeywell.com/us/en/news/press-releases/2026/10/honeywell-technologies-reports-third-quarter-results-raises-full-year-2026-outlook). Next: Next dated quarterly advisory not recovered; audit November 6; date authority lives in ../docket/CATALYSTS.tsv.
+[Primary source](https://www.honeywell.com/us/en/news/press-releases/2026/10/honeywell-technologies-reports-third-quarter-results-raises-full-year-2026-outlook). Next: UNKNOWN, issuer page HTTP 403 at the November 6 audit; recheck December 31; date authority lives in ../docket/CATALYSTS.tsv.
 
 | Fixed checklist | Accepted read |
 |---|---|
