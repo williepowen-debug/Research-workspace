@@ -6,6 +6,8 @@
 
 **Valley is still alone.** Of the 14 banks, one shows a block that looks re-modified. Three other small blocks were read: two are still held and one looks paid. SouthState and Citizens can't be read either way. Five banks had no payment-delay block as filed, and FLG, CUBI and OZK can't be tested yet. **This is a thin result, and that is the answer.** The name to watch is Flagstar: its modified loans jumped about $202M in Q3 on the Call Report, and its 10-Q isn't filed.
 
+**Update 11/06 17:19 ET.** The three unfiled names are now read, all NO BLOCK: FLG's H1 row is intact at $556M with no payment-delay column, and CUBI and OZK show no CRE modifications. **Count now: RE-MODIFIED 1, STILL HELD 2, PAID 1, NOT DISCLOSED 2, NO BLOCK 8.** Flagstar's $202M jump is mostly a Call Report line, about $77M real → `reports/2026-11-06_close-refresh/REPORT.md` §3, §6. The rest of this page stands as made.
+
 ## Method
 
 A loan modified in H1 and still on the books must still appear in the nine-month table. So: H1 as filed in the Q2 10-Q, against H1 now (nine-month minus Q3 three-month). If a block is missing, it left the books or moved into the Q3 row because it was modified again.

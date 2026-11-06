@@ -9,9 +9,9 @@
 | 3 | KRE reclaims $72.74 | **MET, THEN LOST** | Closed at or above it 10/29 ($72.86) and 11/02–11/04 ($73.73, $72.88, $74.13). Back under at $72.31 [11/05]. The line sets no holding period | Settled closes, Yahoo and Nasdaq agree, pulled 11/06 |
 | 4 | HY back under 280 | **NOT MET** | 348 [11/05], 68 above. Last under 280: 9/23 (273) | FRED BAMLH0A0HYM2, own fetch 11/06 |
 | 5 | B-tier spread back under 300 | **NOT MET** | 367 [11/05], 67 above. Last under 300 in this pull: 9/24 (286) | FRED BAMLH0A2HYB, own fetch 11/06 |
-| 6 | H.8 non-bank lending re-accelerating, small-bank deposits stable | **NOT MET** on the latest week | Small-bank NDFI loans $200.5B, −$1.7B; deposits $5,686.4B, −0.03%, stable. One week, week ending 10/21; next H.8 today after 16:15 ET, not in this page | Fed H.8 released 10/30 |
+| 6 | H.8 non-bank lending re-accelerating, small-bank deposits stable | **NOT MET** on the latest week | Small-bank NDFI loans $199.2B, −$1.3B, a second weekly fall; all-bank NDFI $2,111.0B, −$7.8B; small-bank deposits $5,701.7B, +0.26%, stable. Week ending 10/28 | Fed H.8 released 11/06 |
 | 7 | Clean Q3 print cluster, no mid-pack breadth (L180) | **UNKNOWN** | L180 grades on the 11/07 Call Report run. So far: Florida aggregate NO TRANSMISSION [final 11/06], but BankUnited's main test failed and Valley's deferred block looks rolled | Reports 11/06 |
-| 8 | A falling 10-year (the rate falsifier) | **UNKNOWN** | The line has no size or window. 4.90% [11/04], vs 4.96% [10/22], 5.01% [9/16], 4.63% [8/4]. 11/05 not on FRED at pull | FRED DGS10, own fetch 11/06 |
+| 8 | A falling 10-year (the rate falsifier) | **UNKNOWN** | The line has no size or window. 4.84% [11/05], vs 4.96% [10/22], 5.01% [9/16], 4.63% [8/4] | FRED DGS10, own fetch 11/06 evening |
 
 **HY 348 [11/05], context, not a refuter.** TRADE.md §4's own test says a wide HY print alone is not confirmation (KRE vs HY R² 0.13, 8/4–10/22). 2 under the strict 350 line, 0 of 3 toward REG-T-04, which has not fired.
 
