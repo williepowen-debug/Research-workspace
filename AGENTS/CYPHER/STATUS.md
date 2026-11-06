@@ -1,10 +1,10 @@
 # CYPHER STATUS
 
-**Last Updated: 2026-11-06 11:07 EST — D:L973 delivered (PROME prome-51, WQ-626 A; runtime Claude Code, Opus 5.5). Closeout on PROME prome-51's 11:05 ET relay of Will's "go ahead" (PROME's chat; a relay, not his word here). Earlier commits were already on origin through another session's push.**
+**Last Updated: 2026-11-06 11:24 EST — WQ-635 A encoded after D:L973 delivered (PROME prome-51, WQ-626 A; runtime Claude Code, Opus 5.5). Closeout on PROME prome-51's 11:05 ET relay of Will's "go ahead" (PROME's chat; a relay, not his word here). Earlier commits were already on origin through another session's push.**
 - **Capcom (030): desk error corrected.** Not FALSE. Capcom confirmed 11,774,247 records on 10/22, before the desk's 10/23 "likely recirculation" read; that read and its do-not-relay line are withdrawn. Off-wave, no financial channel. WALTER told.
 - **Kiteworks:** no organisation names it as a route at disclosure +16 days; advisory unchanged since 10/27, no exploitation statement. ⚠️ Weak evidence: AG leg was a search, extortion sites not read. Next 11/13.
 - **GMO (032):** customer contact began 11/06; amount cannot yet be calculated; next the 11/13 briefing. Threshold not met.
-- **Row 9 magnitude: PROPOSED, not in force, needs Will.** PANW at or below $289.24 (-15.0% from the 10/20 close) AND 10.0 points behind HACK on 2 consecutive closes, through the 11/18 close. No ruling by then = collapse leg UNGRADEABLE. Packet at `PROME/inbox/2026-11-06_from-CYPHER_L973-row9-magnitude-proposal.md`; row letter unchanged. PANW reports after the close 11/18.
+- **Row 9 collapse size: RULED, in force.** WQ-635 A, Will in this session 11:22 ET, verbatim "A approved go ahead". PANW at or below $289.24 (-15.0% from the 10/20 close) AND 10.0 points behind HACK on 2 consecutive closes, through the 11/18 close; PANW only; HENRY grades. Letter in the row's Instrument cell. Not breached at write: PANW -6.1% intraday, worst close -7.5%. Cyber-gain and bank legs stay unsized.
 - **Shinkin Kyodo Center (062, card 005):** 128 Japanese credit co-ops down about 5.5 hours 11/06; operators think not cyber, a same-day view. Row 8 not applicable by letter; cluster duration limb not met. No fire.
 - **Intake clear:** cards 062, 005 and 015, GIBBS's answer (no consequence at the 16, KB-CYP-092), LIQUID's rail answer (no effect on its surfaces, cannot see a European rail, not a clearance, KB-CYP-103), COR-20261105-62 and COR-20261106-15 NO-OP. 005 and 019 re-checked at search level. HANS and SHADE have not filed their 11/05 packets.
 - **WQ-622:** 3 themes logged in KB (`supplier-route-to-banks`, `japan-october-cluster`, `ai-tooling-entry`). The charter line is NOT added: on the resume list until Will gives it directly.
@@ -69,7 +69,7 @@
 | 6 | PCS designation / loss estimate | NOT-FIRED | No figure; CyberCube long-tail, Marsh Re closer to routine patching |
 | 7 | Government state attribution | NOT-FIRED | Still private only for this wave |
 | 8 | Bank/payment outage outside Japan | NOT-FIRED | Arkéa off-wave and under one business day on its word |
-| 9 | Sustained equity move | NOT-FIRED | HENRY/VULCAN's grade; test 11/18. Collapse magnitude proposed 11/06, needs Will; no ruling by the 11/18 close = leg UNGRADEABLE. 11/06 intraday since 10/20: PANW -4.5%, HACK -4.4%, SPY -3.9% |
+| 9 | Sustained equity move | NOT-FIRED | HENRY's grade; test 11/18. Collapse leg ruled 11/06 (WQ-635 A): PANW at or below $289.24 AND 10.0 points behind HACK, 2 closes. 11/06 intraday since 10/20: PANW -6.1%, HACK -5.7% |
 
 ## Incidents worth knowing (canonical: `workbook/INCIDENTS.tsv`)
 
@@ -142,11 +142,10 @@
 | Date | Check |
 |---|---|
 | 11/09 | **Arkéa provider and shared-reach check (P1)** |
-| 11/10 | Row 9 proposal: PROME disposition, needs Will |
 | 11/12 | Open-wave 7-day clock · bank-vendor cluster watch · Abrigo · ConnectWise · claim pass 038, 040, 042, 045 · Keystone last look |
 | 11/13 | GMO results briefing · Kiteworks second look |
 | 11/15 · 11/18 · 11/20 | TruStage answer window · row 9 equity test · **R1 flip test (P1)** |
 
 ## BOTTOM LINE
 
-The October PHP2Shell wave is still open with one trigger fired (CISA's exploitation listing, 10/26) and no bank, credit union or banking vendor named as its victim; Kiteworks, the product most shaped like MOVEit, has no named victim at +16 days, which is weak evidence because Kiteworks has neither confirmed nor denied exploitation. The most important unconfirmed lead is still who Crédit Mutuel Arkéa's provider is and whether it serves other banks. Row 9's collapse size needs Will's ruling before the 11/18 close, or that leg grades UNGRADEABLE. Next wakes: 11/09 Arkéa, 11/12 wave clock and vendor watch, 11/13 GMO and Kiteworks, 11/18 row 9, 11/20 flip test; these wake CYPHER through PROME's summons check.
+The October PHP2Shell wave is still open with one trigger fired (CISA's exploitation listing, 10/26) and no bank, credit union or banking vendor named as its victim; Kiteworks, the product most shaped like MOVEit, has no named victim at +16 days, which is weak evidence because Kiteworks has neither confirmed nor denied exploitation. The most important unconfirmed lead is still who Crédit Mutuel Arkéa's provider is and whether it serves other banks. Row 9's collapse size is now ruled (WQ-635 A) and HENRY grades it at the 11/18 close. Next wakes: 11/09 Arkéa, 11/12 wave clock and vendor watch, 11/13 GMO and Kiteworks, 11/18 row 9, 11/20 flip test; these wake CYPHER through PROME's summons check.

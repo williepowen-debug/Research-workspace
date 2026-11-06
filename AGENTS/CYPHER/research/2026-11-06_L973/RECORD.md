@@ -53,6 +53,8 @@ Threshold on the row ("confirmed scope or cost change") is **not met**. No figur
 
 PROME's limit today is no new threshold without Will, so this goes as a proposal; the row's letter is untouched.
 
+**Update 2026-11-06 11:22 ET: RULED.** Will in the CYPHER session, verbatim "A approved go ahead", after WQ-635 was shown with option A recommended. Encoded in row 9's Instrument cell from the proposal packet. Not breached at write: 11/06 intraday PANW -6.1% and HACK -5.7% since 10/20; worst PANW close -7.5% (11/05); widest gap 1.6 points (11/05). Read as WQ-635 only, not as the WQ-622 charter line.
+
 **Measured 11/06, about 10:05 ET, yfinance adjusted closes; 11/06 is intraday.**
 
 | Name | 10/20 close | 11/05 close | 11/06 live | Since 10/20 | Worst close since 10/20 |
