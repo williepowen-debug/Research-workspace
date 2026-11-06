@@ -1,9 +1,9 @@
 # SHADE STATUS
 
-**Last Updated:** 2026-11-06T16:48:53-05:00 — PROME assignment, Claude Code/Opus 5.5, restart closeout took in card 041: **Q3 evidence read, L185 legs worked, inbox 20→0, `T-SHADE-01` NOT MET at the 11/5 close, AI cards answered.** No score, band, gate or threshold moved. Prior: 10/29 L781 encode and first readings.
+**Last Updated:** 2026-11-06T17:23:10-05:00 — 11/6 close refresh on Will's 17:08 ET word via PROME, Claude Code/Opus 5.5: **`T-SHADE-01` NOT MET at the 11/6 close, inbox 0, no Q3 statutory or deck posted.** No score, band, gate or threshold moved. Prior: 11/6 16:48 restart closeout (Q3 read, L185 legs, card 041).
 **Prior sessions:** 10/21 L726/L727 proposals; 10/15 L673 first grade; 10/10 L0 drain; 10/1 W1/ARI; 8/28 Delaware Life pause. Historical chain → `archive/STATUS_PRE-ROTATION_2026-10-01.md` (32,462 B, crc32 `8f171d07`, `tail -n +5`) / `archive/STATUS_PRE-ROTATION_2026-08-28.md`.
 
-**Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` NOT MET (read 11/6, endpoint 11/5 close):** 9/24→11/5 RAW wrappers +0.75% vs managers +4.25%, both up; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 348 [11/5] (LIQUID), environment band YELLOW, 2bp under RED. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
+**Signal Status:** 🟠 **STRUCTURAL / LATENT INSURER-WRAPPER STRESS, ONE vector FIRING (single-name Delaware Life).** **`T-SHADE-01` NOT MET (read 11/6, endpoint 11/6 close):** 9/24→11/6 RAW wrappers +0.79% vs managers +4.14%, both up; no dig. 10/10 owner fire stays PROVISIONAL, unconfirmed. HY 348 [11/5] (LIQUID), environment band YELLOW, 2bp under RED; the 11/6 cell is unpublished, due about 10:10 ET Monday 11/9. SHADE tests how insurers absorb, hide, finance or amplify fund stress; no cohort cascade proven.
 **⚠️ KB WARNING:** `domain/sources/` 01–08 are Mar'26 vintage — check `LAST_REVIEWED` before citing.
 
 ---
@@ -14,7 +14,7 @@
 |---|---|---|
 | **`STATUS.md`** (this) | Live verdict + rails (§0o/§0r), top-line, vector dashboard (§3), stages (§4), forward calendar + ladder (§6), owners (§7), owed list (§10) | **Boot-read whole. Canonical on live state.** Budget 32,550 B; `python3 scripts/read_cap_check.py --agent SHADE` every closeout. |
 | **`REFERENCE.md`** | §2 carried figures (§2Q Delaware Life primary) · §3D/§3R per-vector evidence · §4 map · §5 watchlist · §6M monitor rows · §8 questions | **On demand, by section. STATUS wins on disagreement.** |
-| **`research/`** | Per-session deltas — **11/6: `L185_Q3_INSURER_READ_2026-11-06.md`** · 10/29: `L781_RATIO_ENCODE_AND_FIRST_READINGS_2026-10-29.md` · **10/10: `T-SHADE-01_FIRE_AND_L0_DRAIN_2026-10-10.md` (+ `tshade01_signleg_2026-10-10.py`)** · 10/1: `W1_OPACITY_LEGS_AND_CATCHUP_2026-10-01.md` · 8/28: `DELAWARE_LIFE_DISTRIBUTION_PAUSE_…`, `DELAWARE_LIFE_Q2_2026_STATUTORY_…`, `FABN_CANARY_RERUN_AND_AG55_…` | When a verdict needs its evidence. |
+| **`research/`** | Per-session deltas — **11/6: `L673_CLOSE_READ_2026-11-06.md`, `L185_Q3_INSURER_READ_2026-11-06.md`** · 10/29: `L781_RATIO_ENCODE_AND_FIRST_READINGS_2026-10-29.md` · **10/10: `T-SHADE-01_FIRE_AND_L0_DRAIN_2026-10-10.md` (+ `tshade01_signleg_2026-10-10.py`)** · 10/1: `W1_OPACITY_LEGS_AND_CATCHUP_2026-10-01.md` · 8/28: `DELAWARE_LIFE_DISTRIBUTION_PAUSE_…`, `DELAWARE_LIFE_Q2_2026_STATUTORY_…`, `FABN_CANARY_RERUN_AND_AG55_…` | When a verdict needs its evidence. |
 | **`archive/STATUS_PRE-ROTATION_*`** | Verbatim prior STATUS files | **Provenance only.** |
 | **`instruments/FABN_SUPPLY_ADJUSTED_CANARY_SPEC_2026-08-13.md`** | S1/S2/S3 canary, no-bands rule | Before grading the canary. |
 
@@ -70,7 +70,7 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 
 ## 1. Top-line read
 
-**Fund-level stress is BROCK's confirmed domain; a live insurer-wrapper systemic cascade remains unproven.** The fixed-window `T-SHADE-01` grade was NOT MET at the 11/5 close (read 11/6, dated reading); the 10/10 owner fire remains provisional. The conditional statutory dig tests collateral re-marking and overlapping insurer equity/lending exposure. A basket reading supplies no insurer loss by itself.
+**Fund-level stress is BROCK's confirmed domain; a live insurer-wrapper systemic cascade remains unproven.** The fixed-window `T-SHADE-01` grade was NOT MET at the 11/6 close (read 11/6, dated reading); the 10/10 owner fire remains provisional. The conditional statutory dig tests collateral re-marking and overlapping insurer equity/lending exposure. A basket reading supplies no insurer loss by itself.
 
 ---
 
@@ -98,7 +98,7 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 | **#2/#5 Ratings, AMAPS, Athene perimeter** | FiveQ2AMAPS positions$13.515B namedfloor; AHL/WHCOguarantee primary15%O, Ounknown. **Athene's US insurer detail PUBLIC quarterly**; economicallocation remainsmissing. ~$7.4B ≈ 85% of the ARI price landed at AAIA BY DATE — ⚠️ ARI identity UNDETERMINED by the 10/1 rule-based match (31.4% matched; `research/ARI_ATTRIBUTION_MATCH_2026-10-01.md`). Egan-Jones: 8/12 denial ≠ revocation, ladder 🟢 not advanced. |
 | **#3 FABN/FHLB** | 🟠 kill-path-1 **YELLOW**; NPORT +37.8bp (6/30), Athene T+112 vs deck T+110; RED bar >250bp far. 🆕 9/30: S2 34.2%, FHLB room $3.9B (§0v). |
 | **#4 NAIC/AG55/SVO** | 🟠→🟡 Adopted AG55 + final2025YE template read: scoped/confidential analysis; dedicated L3/PIK/PLR fields absent there, blanket public mandate unsupported. Final2026 template unresolved; no frozen-spec change. |
-| **#7–9** | Double-jeopardy lender leg refuted at named-entity level · Robinson allegation-grade · system 🟡/🟠: **HY 348 [11/5], LIQUID's series.** **`T-SHADE-01`: NOT MET at the 11/5 close (read 11/6, dated reading); 10/10 fire PROVISIONAL. Dig conditional on MET (§10 #8); score unchanged.** |
+| **#7–9** | Double-jeopardy lender leg refuted at named-entity level · Robinson allegation-grade · system 🟡/🟠: **HY 348 [11/5], LIQUID's series.** **`T-SHADE-01`: NOT MET at the 11/6 close (read 11/6, dated reading); 10/10 fire PROVISIONAL. Dig conditional on MET (§10 #8); score unchanged.** |
 
 ---
 
@@ -113,9 +113,9 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 | Date / Window | Item | SHADE read | Status |
 |---|---|---|---|
 | **Ongoing — SHADE-OWNED** | 🔴 **Delaware Life / Clear Spring — SDNY + SEC probes: ESCALATION LADDER** | **(0) COUNTERPARTY/DISTRIBUTION — ✅ MET 8/28** (Truist + Fifth Third paused; n=2, share unsized) · **(1)** charges/Wells · **(2)** further rating action (S&P A- NEG) · **(3)** Delaware DOI action · **(4)** remediation forced-sale size/timetable — 🆕 **PARTIAL: up to $6.5B/target before Q3 filing (issuer9/11); approval/closing unverified** · **(5)** Clear Spring own restatement — issuer table read,83607 verified; full statutory capital/funding bridge owed · **(6)** probe widens to Guggenheim AM. Rungs are INDEPENDENT unless ordering is sourced. | **Live — (0) MET, (4) PARTIAL** |
-| ✅ **GRADED 11/6** | **`T-SHADE-01`, endpoint 11/5 close** | Level MET, sign NOT MET (+0.75% vs +4.25%, both up) ⇒ **NOT MET, no dig**. Next eligible endpoint 11/6 close onward. | Done |
+| ✅ **GRADED 11/6** | **`T-SHADE-01`, endpoint 11/6 close** | Level MET on published sessions through 11/5, sign NOT MET (+0.79% vs +4.14%, both up) ⇒ **NOT MET, no dig**, whatever the unpublished 11/6 HY cell prints. Next eligible endpoint 11/9 close. | Done |
 | **~2026-11-15** | **Delaware Life Q3-2026 statutory** (issuer page, free) | Exhibit 1 + SoO L15 vs the 1H-26 baseline. 🆕 **Also: gross completed TWG transfers/assets/marks in Note10/subsequent events, then reconcile affiliate dollars vs$16,822M; net decline alone cannot prove execution.** ⚠️ ≤1 of 3 months post-pause; first clean read FY2026 annual ~2027-03-01. | Forward — dated |
-| **11/12 → 11/18** | **Athene FI call 11/12 and Q3 deck** + **AAIA Q3 statutory (same IR page, not posted 11/6)** | 10-Q read 11/6 (§0v). First GRADED canary needs the deck for S3 and the penalty. **AAIA Sch B/D Pt 2-4 cross-checks landing claims and AI names.** | Forward |
+| **11/12 → 11/18** | **Athene FI call 11/12 and Q3 deck** + **AAIA Q3 statutory (same IR page, not posted 17:23 ET 11/6)** | 10-Q read 11/6 (§0v). First GRADED canary needs the deck for S3 and the penalty. **AAIA Sch B/D Pt 2-4 cross-checks landing claims and AI names.** | Forward |
 | **Standing / source gap** | **AG55 final2026 template / VAWG findings** | Adopted text + final2025YE template recovered10/12. Blanket public L3/PIK/PLR mandate unsupported. Final2026 revision and completed submissions unverified. | Final2026/submissions not obtained |
 | **2026-11-18** | **C2 withdrawal test — SELF-EXECUTING** | penalty ≤+48bp AND S1 ≥$2.0B AND S2 ≥36.2% ⇒ withdraw C2. 🆕 S2 34.2% fails, so no withdrawal absent a restatement. | DOCKET row live |
 | **2026-11-30** | **W3 deterioration test** (BROCK grades) | ≥3 of 4 channels reversing ⇒ deterioration read withdrawn. | Forward |
@@ -157,13 +157,13 @@ Verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, 
 5. **AG55 residual:** adopted text/final2025YE template recovered10/12; final2026 revision/completed filings unverified. Blanket public L3/PIK/PLR premise unsupported; re-spec belongs to PROME/Will.
 6. **Clear Spring fullstatutory** (marker5);83607 verified, freefinancialsummary notobtained; own correctedFY25/Q1/Q2 needed.
 7. **Apollo Q2 Retirement Services cross-check COMPLETE10/12** (Notes4/16/17); AMAPSfloor/ACRA/guarantees/collateral reconciled. Loan/tranche allocation and netloss remainmissing; no historicalgrade changed.
-8. **L673 — GRADED 11/6: NOT MET, no dig** (first grade 10/15, same result). Next assessment re-reads both legs fresh on the latest completed close; 🆕 design question (10/23 slot): an eligible endpoint that passes unassessed — prospective only. Historical 10/10 owner fire PROVISIONAL, unconfirmed. **If a later eligible assessment is MET:** (a) AAIA FY2025 Schedule BA → ADS equity holding · (b) ADS facility counterparties · (c) F&G > Brighthouse > Corebridge Schedule BA · (d) BROCK cross-check. Other standing dig triggers retain their existing letter (FABN >250bp, RBC breach, enforcement escalation). **No dig absent a qualifying trigger.**
+8. **L673 — GRADED 11/6, endpoint 11/6 close: NOT MET, no dig** (first grade 10/15, same result). Next assessment re-reads both legs fresh on the latest completed close; 🆕 design question (10/23 slot): an eligible endpoint that passes unassessed — prospective only. Historical 10/10 owner fire PROVISIONAL, unconfirmed. **If a later eligible assessment is MET:** (a) AAIA FY2025 Schedule BA → ADS equity holding · (b) ADS facility counterparties · (c) F&G > Brighthouse > Corebridge Schedule BA · (d) BROCK cross-check. Other standing dig triggers retain their existing letter (FABN >250bp, RBC breach, enforcement escalation). **No dig absent a qualifying trigger.**
 9. **Watch:** a THIRD named distributor pausing · the next public FABN syndication · 🆕 **Blue Owl's insurance mandate push** (FT 10/7 relay; no insurer purchase).
 
 ---
 
 ## BOTTOM LINE
 
-**[2026-11-06] Athene's Q3 filing shows more secured funding, more hard-to-value assets and more AI credit, but no recognized credit loss of size yet.** Unsecured funding fell to 34.2% of the funding-agreement stack, and room at the Federal Home Loan Bank fell to $3.9B. Level 3 assets rose $14.9B, just under my line. The GAAP loss is mostly rate marks, though seriously delinquent mortgage principal nearly doubled this year. The AI cards reach Athene through SoftBank ($4.8B) and Oracle ($2.4B), plus $6.2B of unfunded Anthropic-chip commitments. Nothing moved a score. Who holds the SoftBank paper's risk after ACRA, and what the 11/12 deck says about public issuance, are the next two reads.
+**[2026-11-06] Athene's Q3 filing shows more secured funding, more hard-to-value assets and more AI credit, but no recognized credit loss of size yet.** Unsecured funding fell to 34.2% of the funding-agreement stack, and room at the Federal Home Loan Bank fell to $3.9B. Level 3 assets rose $14.9B, just under my line. The GAAP loss is mostly rate marks, though seriously delinquent mortgage principal nearly doubled this year. The AI cards reach Athene through SoftBank ($4.8B) and Oracle ($2.4B), plus $6.2B of unfunded Anthropic-chip commitments. Nothing moved a score. Who holds the SoftBank paper's risk after ACRA, and what the 11/12 deck says about public issuance, are the next two reads. At the 11/6 close my trigger for the statutory dig still reads not met: private-credit funds rose 0.79% and their managers 4.14% since 9/24, and no Q3 statutory filing or deck had posted.
 
 Prior bottom line (10/29) → `git show cf97c133c:AGENTS/SHADE/STATUS.md`.

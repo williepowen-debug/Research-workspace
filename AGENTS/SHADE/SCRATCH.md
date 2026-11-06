@@ -11,14 +11,16 @@
 2. **~11/15 DLIC Q3** (`delawarelife.com/content/business-highlights`): Note 10 and subsequent events for gross TWG completion, then SHD-02. Exhibit 1 + SoO L15 flows. Rungs (1)–(6).
 3. **AAIA Q3 statutory** (ir.athene.com statutory page): name-level lines for SVF II Finco, SoftBank, Oracle CMLs, Big Sky; what share sits at AAIA vs ACRA.
 4. **BMA:** ACRA 1A/2A FY2025 Level 3 and related-party notes; Catalina FY2025.
-5. BROCK's answer on the X1 reconcile; PROME carries it to Will. `T-SHADE-01` next eligible endpoint 11/6 close onward.
+5. X1 reconcile: BROCK CONCUR in hand, PROME carries it to Will. `T-SHADE-01` next eligible endpoint 11/9 close, reading LIQUID's HY cell for 11/6 first (due about 10:10 ET Monday 11/9). Snapshot script `research/tshade01_close_snapshot.py`, anchor 2026-09-24, previous end 2026-11-06.
 6. Still owed by 11/20: declared-flat TRADE surface, ARI DEFM14A annex, SVO count. Guggenheim Universe lead waits on WALTER's document. WQ-422 Clear Spring documents are Will's hands; never chase.
 
 **Open unknowns that matter:** SVF II Finco = Vision Fund 2 NAV loan is INFERRED. $1.4B SoftBank-guaranteed loan = 14% of SoftBank's $10B loan is INFERRED from arithmetic (not an "OpenAI-share margin loan", card 041: cash collateral account, SoftBank Group guarantor, drawdown unconfirmed). $1,749M vs $1.4B ($349M) and $845M vs $0.94B ($95M) unreconciled. O on the WHCO guarantee still unstated. Issuer's rate attribution of the mortgage loss is unaudited in the quarter. `2026 Asset Risk Stress Considerations` deck fetched, not read. Apollo 10-Q read only for the WHCO note.
 
 **Closeout 2026-11-06T15:44:46-05:00:** PROME's ask received. BROCK's packet landed during the push and is taken in: X1 CONCUR, carried by PROME to Will; IREN Mackenzie has no insurer established as a holder (no-insurer finding logged under `ai-credit-in-wrapper`). Retirement scan run, 3 files archived.
 
-**Second closeout 2026-11-06T16:48:53-05:00:** Will's restart order via PROME, 16:46 ET. Card 041 landed after the first closeout and is taken in, COR-20261106-41 APPLIED, one loan label corrected, no Athene figure changed. Read 11/6 close for `T-SHADE-01` not done; next session starts there.
+**Second closeout 2026-11-06T16:48:53-05:00:** Will's restart order via PROME, 16:46 ET. Card 041 landed after the first closeout and is taken in, COR-20261106-41 APPLIED, one loan label corrected, no Athene figure changed.
+
+**Close refresh 2026-11-06T17:23:10-05:00:** Will's 17:08 ET word via PROME. Inbox and WALTER lane 0, corrections rc 0, cards 043-046 route nothing to SHADE. `T-SHADE-01` NOT MET at the 11/6 close (+0.79% vs +4.14%, both up); level MET on 30 published sessions through 11/5, the missing 11/6 cell cannot change the grade. AAIA Q3, Q3 FI deck and DLIC Q3 not posted. No score, band, gate or threshold moved. `git pull --rebase` refused on other desks' dirty files, HEAD equalled origin/master, nothing was stashed. Same-day retirement scan not rerun. Record `research/L673_CLOSE_READ_2026-11-06.md`.
 
 **Raw sources** were in session scratch only; accession numbers and hashes are in the research record. Re-fetch from SEC and ir.athene.com.
 
