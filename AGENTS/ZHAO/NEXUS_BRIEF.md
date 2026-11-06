@@ -3,7 +3,7 @@
 **Status:** 🟠 **29/60 ELEVATED (11/06 close; +1 on Vector 5).** China's 11/10 clock is now the only open one: **the US filed its stay to 1/10 (FR 2026-22793); MOFCOM 公告70 has no re-suspension at the 06:21 Beijing 11/07 read.** Forecasts **ZHA-19 65% (grades 11/10) / ZHA-20 85%** (correlated). **PBOC main rate moved to overnight at 1.25% on 11/02; China 10Y 1.59%.** October activity fell back under 50.
 **Domain:** China macro → U.S. transmission — SAFE-reported Treasury-line selling (Belgium proxy falsified 8/21), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan (econ), Korea contagion, India oil. Edges: **→LIQUID** (UST demand hole), **→SAM** (Korea/Asia flows), **→HAWK/BRENT** (energy), **→HENRY** (10Y/term premium), **→HANS** (Euroclear custody).
 **Thesis framing:** China-macro-transmission (no version stamp; no position — research/signal agent). **Pivot history 2026-07-04→08-21 (superseded figures) → `archive/NEXUS_BRIEF_PIVOT_HISTORY_20260919.md`; the `Status:` line above is canonical.**
-**As of:** **2026-11-06 17:47 ET (by `date`)** — ZHA-24 withdrawn and ZHA-26 registered on Will's WQ-647 A, after the close refresh: data through the 11/06 close, MOFCOM re-read, VX-2.08 ORANGE by its letter, PBOC anchor caught up 4 days late (KB-237..241). No score moved. || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-06 17:27 ET.
+**As of:** **2026-11-06 18:34 ET (by `date`)** — closeout on Will's word; views unchanged since 17:47 ET: ZHA-24 withdrawn and ZHA-26 registered (WQ-647 A), close refresh done (KB-237..241). No score moved. || STATUS commit: NONE (folded in the same commit as STATUS) || Prior as-of: 2026-11-06 17:47 ET.
 
 ---
 

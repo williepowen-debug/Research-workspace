@@ -23,10 +23,10 @@
 
 ---
 
-## ▶️ RESUME NOTES (close refresh 2026-11-06 17:27 ET)
+## ▶️ RESUME NOTES (closeout 2026-11-06 18:34 ET, on Will's word via prome-51)
 
 No job running. **Clocks last read 17:20 ET 11/06 (06:21 Beijing 11/07); re-read before citing.** Unpublished at this read, cells left as they were: SAFE Oct reserves and gold, GACC Oct trade.
-- **ZHA-24 closed VOID 11/06, ZHA-26 open.** PROME owns the DOCKET swap of L1040.
+- **ZHA-24 closed VOID 11/06, ZHA-26 open.** DOCKET swapped by PROME (L1040 closed, L1078 ZHA-26 due 2027-01-04).
 - **On L482 11/9:** weigh the Friday Greer, Bessent and He Lifeng call against ZHA-20 (KB-240); look for China's readout.
 - **Mon 11/9, L482 MUST-RUN:** FR issue carries 2026-22793? USTR ships final (suspension ends 23:59 ET)? MOFCOM live list via the unit API. Run book: `reports/2026-11-06_PREP_11-10-clocks.md`.
 - **Tue 11/10:** grade ZHA-19 on the 11/10 record. MOFCOM 公告70 reads to this date.
