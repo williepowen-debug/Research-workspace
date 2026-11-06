@@ -1089,3 +1089,12 @@ SIG-W-20260904-004	2026-09-04	CONSUMER_CREDIT	PRIORITY	deferred		2026-11-06	RE-D
 SIG-W-20260929-002	2026-09-29	LABOR	PRIORITY	deferred		2026-11-06	RE-DATED 2026-11-06 to 2026-11-10: the target moved or names a later print (HHDC basis check, or October CPI). Read at that session.	
 SIG-W-20261002-009	2026-10-02	OIL_ENERGY	IMMEDIATE	deferred		2026-11-06	RE-DATED 2026-11-06 to 2026-11-10: the target moved or names a later print (HHDC basis check, or October CPI). Read at that session.	
 SIG-W-20261008-027	2026-10-08	CLIMATE_MACRO	PRIORITY	deferred		2026-11-06	RE-DATED 2026-11-06 to 2026-11-10: the target moved or names a later print (HHDC basis check, or October CPI). Read at that session.	
+SIG-W-20261106-044	2026-11-06	CONSUMER_CREDIT	PRIORITY	acted	KB-CARL-603	2026-11-06	Read at the Fed table; figures hold. STATUS row added, Q3 NSA composition added. No OPEN row grades G.19.	
+SIG-W-20261106-017	2026-11-06	LABOR	PRIORITY	acted	KB-CARL-596	2026-11-06	Press hike odds not carried; ORACLE close refresh cited in STATUS close row. V12 stays 5.	
+SIG-W-20261106-019	2026-11-06	CONSUMER_CREDIT	PRIORITY	acted	KB-CARL-605	2026-11-06	Manheim into Auto affordability; HHDC date already on docket.	
+SIG-W-20261106-022	2026-11-06	OIL_ENERGY	PRIORITY	acted	KB-CARL-592	2026-11-06	Distillate into Diesel row and goods theme. Bears on no OPEN row: CRL-34 is gasoline.	
+SIG-W-20261106-028	2026-11-06	OIL_ENERGY	PRIORITY	acted	KB-CARL-592	2026-11-06	Cover 23.8 days into Diesel row.	
+SIG-W-20261106-032	2026-11-06	PRIVATE_CREDIT	ROUTINE	acted	KB-CARL-606	2026-11-06	LendingPoint logged under declined-borrower-credit.	
+SIG-W-20261106-038	2026-11-06	PRIVATE_CREDIT	ROUTINE	noted	KB-CARL-606	2026-11-06	Context only per the card; grep of OPEN rows found none.	
+SIG-W-20261106-039	2026-11-06	CONSUMER_CREDIT	ROUTINE	acted	KB-CARL-605	2026-11-06	Base-effect caveat carried; OTTO owns OTTO-37.	
+SIG-W-20261106-046	2026-11-06	MIXED	ROUTINE	acted	KB-CARL-607	2026-11-06	CARL holiday line logged; other lines are other owners.	
