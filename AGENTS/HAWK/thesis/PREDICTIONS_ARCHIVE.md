@@ -124,3 +124,13 @@ Notes: Brent flip-trigger #2 (SUMMARY.md): targeting refinery-only since Apr = p
 The registered letter expressly permits a Finance/CBSA notice stating the measure is in effect. On September8, the two September4 made orders P.C.2026-0785/0786 and the primary-indexed September7 CBSA26-23 paragraph4 met that limb. Independent Finance/order extraction matched all629 commodity items and rates:21 at15%,195 at25%,413 at50%, no mismatches. Dated Finance/Gazette/CBSA search attempts satisfy the search requirement. Full source trail and limits: [owner adjudication](2026-09-08_HAW-21_ADJUDICATION.md).
 
 Calibration: the Canadian default required an affirmative legal act; that act appeared. This single confirmation does not validate importing its65% base rate into US section338 or the November10 suspension-expiry case. Brier contribution at the unchanged registered probability is0.1225. SOR registration identifiers/dates remain UNKNOWN; commencement is inferred from the combined permitted operative evidence. No tariff revenue, effective importer liability or employment loss follows from a commodity match. Importer remission/exceptions remain material. September9/11 documentary reconciliation is retained. Original letter and historical ledger rows are unchanged.
+
+---
+
+## HAW-20
+
+**Codification ratchet** | made 2026-08-20 | registered confidence 65% | resolve-by 2026-10-31 | **CONFIRMED, LATE SEARCH, graded 2026-11-06**.
+
+All four instruments stood at or above their August 20 rung on October 31; no suspension, injunction, rescission, headline-rate cut, withdrawal or repudiation was found. Legs (a) and (b) rest on primaries; legs (c) and (d) on secondaries, with the named primaries unreachable or thin. The search ran six days after the resolve date. WQ-172 would make that NO-VERDICT, but it is forward-only and this row predates it; the shape matches OSP-04. Full record: [grade](../research/2026-11-06_HAW-20_GRADE.md).
+
+Calibration: Brier 0.1225. The narrow softening definition did the work I priced it to do: P.11076 removed lines and could not fire. This confirmation says little about the court cases, which were still undecided on the date; HAW-23 tests the larger one.

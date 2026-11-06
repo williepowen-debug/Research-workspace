@@ -1,5 +1,23 @@
 # Cross-theater war-risk aggregate — HAWK
 
+**Refreshed: 2026-11-06 ~12:00 ET (from session clock).** Owner records reviewed: FALCON WARRISK at `35bd7d149c` (10/26, unchanged), OSPREY WARRISK at `f4414148cf` (11/6 bounded re-pull, data clock unchanged at 10/21). Quote dates unchanged; ages updated. **Matched cross-theater premium ratio UNKNOWN.**
+
+| Leg / owner | Last owner-adopted observation | Quote age November 6 | State |
+|---|---|---|---|
+| Hormuz / FALCON | 6–10% of hull, FT unnamed brokers ~10/6, secondhand | 31 days | STALE |
+| Southern Red Sea / FALCON | Up to 7% Saudi-linked; 0.2–0.3% non-Saudi, 9/24 Reuters | 43 days | STALE |
+| Bab / FALCON | ~0.5% AWRP, 7/23 | 106 days | CANNOT-FIRE (WQ-298) |
+| West Saudi / Yanbu / FALCON | ~3% Saudi-linked, 9/24 Reuters | 43 days | STALE. The 11/5 Yanbu alert ended with an intercept and no reported damage; no quote followed |
+| Black Sea / OSPREY | BPG 0.6–1.0% before discount 10/9; Marelis 0.1→0.5% 10/6 | 28 / 31 days | STALE. General transit, not Russian-port tanker calls |
+
+**All five legs exceed the 10-day bar.** The hull run since 10/29 (census 7, a fatality on VELOS SAPPHIRE, LNG carrier AL MAYEDA hit) produced no quote HAWK can adopt. A rising incident count is not a premium. CMA CGM's $35/TEU Black Sea surcharge from 11/9 is a container charge, not a hull quote (KB-OSPREY-259).
+
+**C3 limb 2 / WQ-470:** HAWK answered 11/6 (`proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md`): drop TD6/TD19, no X, in-scope veto. The tripwire row in OSPREY's WARRISK stays until OSPREY replies. Current letter governs; limb 2 NOT SATISFIED. In-scope reference prints: Russian ports 0.65–0.8% (Reuters 12/2/2025, body read) and 1.5–2.5% (The Insurer 8/19/2026, relay only); not a current level.
+
+---
+
+## October 29 refresh — original text retained
+
 **Refreshed: 2026-10-29 (~11:58 ET, from session clock).** Owner records reviewed: FALCON WARRISK at `261593822` (L807 re-pull ATTEMPTED October 26; data clock NOT advanced), OSPREY WARRISK unchanged since October 21; FALCON October 26 brief, OSPREY October 23 brief; DEWEY HAWK-03 return (October 25, Will-directed). This refresh updates the derived read and quote ages, not quote dates. **Matched cross-theater premium ratio UNKNOWN.**
 
 | Leg / owner | Last owner-adopted observation | Quote age October 29 | State / implication |

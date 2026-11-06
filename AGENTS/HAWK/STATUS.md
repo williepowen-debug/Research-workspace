@@ -1,54 +1,52 @@
 # HAWK STATUS
 
-**Updated:** October 29, 2026, 13:5x EDT (from `date`), session CLOSED on Will's word (13:52 ET). Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Root/local instructions explicitly read. Will's word this session: boot, recover, then "Okay please proceed" with the stated boot-completion plan. No trade book. **No mark, band, probability or registered letter changed.**
+**Updated:** November 6, 2026, ~12:05 ET (from `date`). Claude Code, model Opus 5.5 (`claude-opus-5-5`); session id UNKNOWN. Will's wake 11:36 ET: drain inbox oldest first, answer WQ-470, grade what is due. Root/local instructions explicitly read. No trade book. **No mark or band moved.** Session still open; closeout awaits PROME's ask.
 
 ## Decisions and thresholds (top)
 
 | Item | State |
 |---|---|
-| **WQ-521** | **RULED A** by Will 2026-10-29 12:37 ET ("okay go ahead approved your rec"). TRADE-02 RED test encoded in VX (≥50% additional duty on all Canadian goods, ch. 1–97, stacked on 232, in force). First grade: NOT SATISFIED, ORANGE held. Packet to PROME to close WQ-521 / L778 (KB-HAWK-477). |
-| **WQ-470 / C3 limb 2** | OSPREY (osprey-5d, live 10/29) withdrew CAUSE and adopted HAWK's SCOPE qualifier (tanker calls at Russian Black Sea / Azov / Baltic ports). HAWK answered OSPREY's §6 by message and in `proposals/2026-10-29_C3_scope-cause-qualifier_HAWK-side.md`: TD6/TD19 stand-in accepted; tripwire unreadable = UNMEASURED and blocks the kill (rejects "UNMEASURED-SATISFIED"); X provisional +25%, bound only after a 12-week backfill; Baltic included via a TD17/TD7 candidate (route definitions unverified). **OSPREY adopted all three answers; joint text committed at `97f4bcff7` (OSPREY file §7). PROME holds the letter change until OSPREY binds X (≥12 weekly TD6/TD19 pairs).** Baltic: TD7 confirmed by OSPREY (80 kt Hound Point → Wilhelmshaven); TD17 ports/size unverified and its forward assessments are suspended, so the Baltic leg may grade UNMEASURED. HAWK's earlier TD17/TD7 descriptions were partly wrong (corrected in the proposal). The October 21 grade (NOT SATISFIED, no October 27 kill) stands. |
-| **EURMIL RED (b) / Croatia — RULED B** | RULED B by Will 2026-10-29 13:51 ET, verbatim "ok so lets do B I think your rec.". RED (b) now means mobilisation or a crisis/needs-based compulsory call-up; Croatia's peacetime scheme (first intake 2026-03-09) is a registration-time scope miss, not a trigger. **ORANGE held.** Encoded in VX/FALSIFICATION/LADDER (KB-483); packet to PROME. Also: Article 4 now NATO-primary-closed through Sept 29 (KB-479); no German activation; no manned or cross-border engagement found; equipment stocks still unmeasured. `research/2026-10-29_EURMIL_residuals.md`. |
-| **FLOW-21 tanker check (done Oct 29)** | Q3 partial test: DHT, STNG and INSW realized earnings all moved AWAY from the freight index, so the row is not falsified (KB-481). But Q4 bookings jumped (DHT spot $509,100/day on ~50% of days), so the gap may be a lag that closes. The Q4 prints (Jan–Feb 2027) are the real test. Next: INSW Nov 5, Dorian ~Nov 6, DHT Nov 9, BW LPG Nov 24. |
-| **HAW-20** (65%, resolves Oct 31) | Prep sheet `research/2026-10-31_HAW-20_GRADE_PREP.md`. Dated primary pulls are due ON October 31 for all four legs plus court dockets. Canada's October 23 proclamation (effective Oct 30) adds and removes lines = coverage change, which cannot fire leg (b) unless the +50% headline rate is cut or the action is suspended. |
-| **HAW-22** (65% UNCALIBRATED) | October event window closes Oct 31. No qualifying candidate in the Oct 25–29 inputs. **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. |
+| **WQ-470 / C3 limb 2** | **HAWK answered OSPREY's four questions 11/6:** drop TD6/TD19 in both sea areas, bind no X, limb 2 becomes a veto on in-scope prints, first window opens at Will's adoption (`proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md`, KB-484). Recompute agrees with OSPREY (+91.9%, 38.3%, +82.4%). Reverses HAWK's 10/29 "UNMEASURED blocks". Easier to kill than the draft. **Waits on OSPREY's reply, then PROME → Will.** Current letter governs: C3 stays 3, limb 1 31/21, limb 2 NOT SATISFIED, 10/21 grade stands. |
+| **HAW-20** | **CONFIRMED at 65%, LATE SEARCH, Brier 0.1225** (`research/2026-11-06_HAW-20_GRADE.md`, KB-485). Pulls dated 11/6, six days after the date. WQ-172 would make that NO-VERDICT, but it is forward-only and the row predates it. Same shape as OSP-04. |
+| **HAW-22** (65% UNCALIBRATED) | Stays OPEN; not due. October event window closed with no candidate on the held record (KB-486). **undisclosed damage can produce a misleading CONFIRM — a CONFIRM on this letter is a claim about what was DISCLOSED, never about capacity**. Final search 12/15–12/21, resolves 12/22. |
+| **New forecasts** | HAW-23 CIT rules against S301 forced-labor tariffs by 12/31, 55%. HAW-24 Majlis floor vote on the Hormuz bill, 20%. HAW-25 named PLA exercise around Taiwan, 14%. HAW-26 Article 4 request, 10%. All resolve 12/31. Packet to PROME for DOCKET. |
+| **No forward physical-loss window** | HAW-22 accepts no events after 10/31. FAL-08 covers a stated Gulf crude loss only; nothing covers a Russian crude-export loss. The 10/25 candidate stays unregistered: needs Will (perimeter) and a confidence basis. |
+| **YUR-004 consumer read** | Null: no HAWK band moved (KB-487). No public declaration found is not no decision. ⛔ Do not score this as near-term armed-conflict risk. |
+| **WQ-622** | Six themes set up, charter line added, KB-495..500. Logging is not scoring. |
 
-## Reconciliation deltas (owner evidence through FALCON Oct 26 / OSPREY Oct 29 working tree)
+## Reconciliation deltas (owner evidence: FALCON `e3ce30fd82` 11:35 ET, OSPREY `f4414148cf` 11:16 ET)
 
-- **FALCON (KB-HAWK-468):** B 1 / C 14 / D 85 held; production rung NOT FIRED. Cape Dao confirmed Sunk (old September 23 bulker) and, on the October 29 weekly review, the dhow MSV QUBA sank off Khasab (cause unattributed) → **6 confirmed losses** (KB-HAWK-478). Neither is a new tanker loss or a rung fire. Two RELAYED UKMTO reports: a disabled outbound tanker on Oct 23; a vessel fire off Al-Faw on Oct 26, cause unknown. Saudi pumping-station/airport hits are claims only. L229 permanent corridor LAPSED / NOT VERIFIED AS AGREED. Insurance: all five legs expired; Bab CANNOT-FIRE.
-- **WALTER lane Oct 27–29 (claims):** Houthi claim of an Oct 27 Ras Tanura hit, with no Saudi/Aramco confirmation (an asset class excluded from FALCON's production rung and HAW-22). **Iran PGSA legal action against all Sinokor vessels from Nov 1** (KB-HAWK-473; Sinokor ~47% of Hormuz VLCC transits, secondary only). NAVCENT stay-clear advisory Oct 28 (secondary). WSJ: US told Gulf states to prepare for a short, intense post-midterm campaign: posture, not a strike. White House Oct 22 no-strike-before-midterms line stands.
-- **OSPREY (Oct 29, `e8f1acaf3`):** 5 / 5 / 3. **No Ukrainian refinery strike found Oct 16 → 29**: targets moved to steel/chemical plants under reported US pressure, with no halt order (a lull, reversible). Primorsk paused ~3 days, cause unknown. KHORYV and the Shabla containership are non-C3. **Cross-war: the theaters now diverge** — Russia's oil-strike pressure has paused while the Gulf shifts to enforcement.
-- **BRENT (KB-HAWK-469):** K1 input UNMEASURED; ~14 mb/d / 82% is a preliminary relay including offshore transfers, not a current Hormuz rate.
+- **FALCON:** B 1 / C 14 / D 85 held, no letter met. Census 7 (tug SELAT STORM). US struck Qeshm 11/2, limited (FAL-07 CONFIRMED). FAL-06 CONFIRMED at 70% with route (c) never graded, so not proof of no net loss. FAL-09 sustained campaign 40%, FAL-08 stated crude loss test 75%. Hull run reached the mid-Gulf; VELOS SAPPHIRE one seafarer dead; UKMTO 197-26 on 11/5. No confirmed mine, no signed text, no US answer, no named Sinokor hull detained.
+- **OSPREY:** 5 / 5 / 3. The 14-day refinery pause ended 10/30: six plants in eight days, at least 1.3 M bpd CAPACITY. ⚠️ OSPREY's ~30% band is stale against late-October runs of about 5 M bpd; not moved, re-derivation owed.
+- **Cross-war:** the 10/29 divergence is over; both wars now press at once, more on products than crude (KB-494). Facts are the owners'; this reading is HAWK's.
+- **ORACLE read:** the crowd's "more strikes, less oil risk" is coherent, because a limited strike and a campaign are different objects. Its weak point is the oil leg, which rests on flows nobody has measured (KB-488).
 
-**Double-count check:** Russian refining/products vs Gulf hull/route stay separate. IRGC mine claims (Oct 24, 27), the PGSA's seven enforced Sinokor vessels and Seoul Economic's seven tankers are different claims and are not additive. **Combined oil-risk read:** willingness/route risk is rising on the enforcement channel; net lost crude and the premium's share of price remain UNMEASURED.
+**Double-count check:** six plants' capacity is not lost output; "3 tankers hit" is one UKMTO report plus two IRGC claims; a refinery outage and an undelivered diesel tranche are one barrel. **Combined oil-risk read:** no measured net crude loss in either war; premium's share of price UNMEASURED.
 
-**War-risk aggregate (refreshed Oct 29):** no fresh matched quote anywhere (DEWEY HAWK-03, KB-HAWK-470 confirms Russian-port tanker calls are unmeasured). Matched cross-theater ratio UNKNOWN.
+**War-risk aggregate (11/6):** no fresh matched quote in any leg; all five stale, 28 to 106 days; Bab CANNOT-FIRE. Matched ratio UNKNOWN. A rising incident count is not a premium.
 
 ## Dormant book
 
 Marks unchanged: VEN GREEN; TWN/TWNMIL/IRAQ/FININFRA YELLOW; TRADE01/TRADE02/CODIF/EURMIL ORANGE; SULPHUR RED; CEASEFIRE SUPERSEDED.
-- **TRADE01:** USTR proposes keeping the China-ship port fees suspended to 2027-01-09 (a proposal; comments close Oct 30). BIS and MOFCOM clocks still end **Nov 10** by default (KB-HAWK-474).
-- **TWN-01:** current reserve days not public, so no band move (KB-HAWK-472).
-- **TWNMIL:** CMC expulsions and a new vice-chair are context; no band keys on them (KB-HAWK-476).
-- **FLOW-16 helium:** one named fab on allocation; breadth/output UNMEASURED (KB-HAWK-471).
-- **Backstops:** Europe Nov 2; Iraq / FININFRA / SULPHUR Nov 12.
+- **TRADE01:** BIS Affiliates stay moved to about 1/10–1/11 (FR 2026-22793 publishes 11/9). MOFCOM 公告70 still reads 11/10, no paper. USTR ship fees proposal only, ends 11/9. Three clocks, not merged (KB-489).
+- **TRADE02 / CODIF:** S338 50% unchanged; S301 and Gellert unruled; CIT asked S301 plaintiffs on 11/4 to list countries. AGOA removals reported, no FR instrument (KB-493). No collection evidence.
+- **EURMIL:** backstop swept 11/6, ORANGE held. Article 4 9/30–11/6 not primary-closed; Article 5 UNMEASURED; no RED (b) activation found. Poland's deployment moves no rung (KB-491).
+- **Backstops:** Iraq / FININFRA / SULPHUR 11/12; VEN/TWN/TWNMIL/CODIF 12/5; EURMIL native 11/8.
 
-## Session record — October 29
+## Session record — November 6
 
-- **Intake:** 11 direct + 13 WALTER + 1 BOARD-only signal, all read and dispositioned (`board_log.tsv`), filed to `processed/`. Inbox clear.
-- **COR-20261025-26:** receipted NO-OP.
-- **Aggregates:** both regenerated; KB-HAWK-468..476 added; CATALYSTS updated (DEWEY 01–03 CONSUMED, C3 PARTIAL, Nov 1 Sinokor row).
-- **ISHM:** defense-capex seam confirmed (no change). Dropped into ISHM's inbox on Will's word ("yes two items approved go ahead", 13:28 ET); byte-identical to the outbox copy. ISHM's consumption is unverified.
-- **Housekeeping (Will-approved 13:28 ET):**
-  - FLOW-19/16/20 updated with the Oct 26–29 owner and DEWEY evidence.
-  - Ship-counting dictionary marked owner-confirmed.
-  - LAST_COMPLETION.md frozen.
-  - OPEN_THREADS_2026-07-09 and REMARK_20260628 moved to archive/.
-- **Missed dates recovered:**
-  - Oct 26 EURMIL residual review: not done, carried to Nov 2.
-  - Oct 28 FLOW-21 tanker-TCE check: not done, carried.
-  - C3 joint draft: done today.
+- **Intake:** 6 direct + 44 WALTER cards dispositioned in `board_log.tsv`, filed to `processed/`. 38 at wake plus 6 that arrived while working. Boot BOARD join: none missing.
+- **Corrections:** COR-20261031-01, -03, COR-20261105-65, COR-20261106-20, -27 receipted NO-OP.
+- **Aggregates:** both regenerated; fingerprints recorded.
+
+## Deferred, with why
+
+- **FLOW-21 tanker re-check:** DHT 11/9 and BW LPG 11/24 are not out; INSW and Dorian unread. The decisive test is the Q4 prints, Jan–Feb 2027.
+- **Canada annex net count:** FR annex is a TIFF image; cannot change HAW-20 or WQ-521.
+- **EURMIL equipment stocks and Article 4/5 primaries:** owed at the 11/8 native check.
+- **FALSIFICATION and FLOW-19 text refresh:** at closeout.
+- **Carried debt:** Canada Gazette and Qatar documents; HAW01/04/05 provenance; FE1 Suez; EU legal annex; VEN posture; CPC durability; GL135.
 
 ## BOTTOM LINE
 
-The combined read is unchanged: oil risk is still premium and willingness-driven, with no measured lost barrels in either war. The newest pressure is on the enforcement channel, not production: Iran's legal action against the Sinokor fleet starts Nov 1, alongside US stay-clear advice and reported post-midterm strike preparation. The single most important watch is whether Sinokor tonnage actually leaves Hormuz after Nov 1, or a verified US strike decision. Next work is the Oct 31 HAW-20 grade and HAW-22 window close.
+Both wars are pressing oil at the same time again, and the pressure shows up more in products than crude: Russian refineries are being hit while US distillate stocks are the lowest since 2003, yet no one has measured a lost barrel of crude in either war. The single most important watch is whether the Trump administration moves from limited strikes on Iran to a sustained campaign. On the dormant book, the next real test is the trade court's ruling on the forced-labor tariffs. Since the last update: WQ-470 is answered, HAW-20 graded CONFIRMED on a late search, and four forecasts are registered.

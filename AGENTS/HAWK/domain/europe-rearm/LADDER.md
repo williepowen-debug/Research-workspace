@@ -1,6 +1,6 @@
 # Europe escalation ladder — HAWK
 
-**Reviewed October 25, 2026; residual checks October 29, 2026 (`research/2026-10-29_EURMIL_residuals.md`). Native 14-day evidence rule retained.** Review date and source date are separate. Evidence older than 14 days remains stale for a current claim unless a current primary supports it. Next bounded residual review October 26; next native check no later than November 8; existing 45-day backstop November 2. Research receipt: `research/2026-10-25_EURMIL_review.md`.
+**Reviewed October 25, 2026; residual checks October 29, 2026 (`research/2026-10-29_EURMIL_residuals.md`); 45-day backstop re-swept November 6 (KB-HAWK-491): Article 4 nothing found 9/30–11/6, not primary-closed; Article 5 UNMEASURED; RED (b) no activation found; Poland's preventive deployment from 11/2 moves no rung. Next backstop December 21. Native 14-day evidence rule retained.** Review date and source date are separate. Evidence older than 14 days remains stale for a current claim unless a current primary supports it. Next bounded residual review October 26; next native check no later than November 8; existing 45-day backstop November 2. Research receipt: `research/2026-10-25_EURMIL_review.md`.
 
 **EURMIL-01: ORANGE historical carry; no band or registered gate changed. Current political/legal negatives are not certified.** Spending is HANS's fiscal leg. Provenance of Russia/Ukraine objects is OSPREY's; one object/incident must not become two incidents when its launch and response are recorded by different desks.
 

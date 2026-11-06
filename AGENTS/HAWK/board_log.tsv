@@ -523,3 +523,53 @@ timestamp_read	signal_id	disposition	source	notes
 2026-10-29T16:04:02.157276+00:00	SIG-W-20261029-022	acted	INBOX_WALTER	NAVCENT/JMIC 10/28 stay-clear advisory (secondary, original 403), WSJ posture detail, CENTCOM $47.1B cost. In KB-HAWK-473 notes and aggregates; no strike, ladder #3 not fired.
 2026-10-29T16:04:02.157276+00:00	SIG-W-20261029-034	noted	BOARD_SCAN	Cape Dao sunk BOARD record; owner fact already reconciled from FALCON directly (KB-HAWK-468). BOARD-only, no inbox file.
 2026-10-29T16:06:39+00:00	OSPREY-2026-10-29-dictionary-WQ470	acted	DIRECT	OSPREY packet: dictionary confirmed (row = incident; KB-OSPREY-230); WQ-470 joint text at 97f4bcff7 §7 adopts HAWK three-way grade; X provisional +25% pending backfill; TD17 unverified/suspended. STATUS/CATALYSTS/proposal updated.
+2026-11-06T16:50:15+00:00	SIG-W-20261029-035	noted	INBOX_WALTER	Khasab fire; superseded in part by 037. FALCON owns. Claim-only mines kept apart.
+2026-11-06T16:50:15+00:00	SIG-W-20261029-037	noted	INBOX_WALTER	MSV QUBA, census 6 at the time; now 7. In CROSS_WAR_SUMMARY via FALCON.
+2026-11-06T16:50:15+00:00	SIG-W-20261029-046	noted	INBOX_WALTER	Fars Aramco claim-only; no site named. FAL-01 not fired. Checked for HAW-22: not a candidate.
+2026-11-06T16:50:15+00:00	SIG-W-20261030-008	noted	INBOX_WALTER	Superseded by 031-003.
+2026-11-06T16:50:15+00:00	SIG-W-20261030-011	noted	INBOX_WALTER	LOUISE 1 and RITI hull events; FALCON census. Jask unconfirmed. Ras Tanura shutdown not established; HAW-22 no candidate.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-001	acted	INBOX_WALTER	COR-20261031-01 receipted NO-OP. Decree 1436 to 1/31/2027 in KB-HAWK-495.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-003	acted	INBOX_WALTER	COR-20261031-03 receipted NO-OP. Refinery pause ended 10/30; KB-HAWK-494.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-004	noted	INBOX_WALTER	Novak plan 2.15 Mt is a plan; counterevidence in KB-HAWK-495.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-005	noted	INBOX_WALTER	Belarus potash report, Lithuania denies. waived-levers theme KB-HAWK-500; FERT triage stays FERT.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-008	noted	INBOX_WALTER	DOE 172M award; contracts not deliveries. Counterevidence in KB-HAWK-495.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-011	info-only	INBOX_WALTER	Port stoppages mixed; HANS/ISHM lane. No HAWK band.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-015	noted	INBOX_WALTER	Doha mediation, direct talks unsettled. Superseded by later diplomacy cards.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-016	info-only	INBOX_WALTER	OPEC+ December hold; BRENT lane.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-020	info-only	INBOX_WALTER	CME preliminary settlements; BRENT lane, no HAWK figure.
+2026-11-06T16:50:15+00:00	SIG-W-20261031-021	info-only	INBOX_WALTER	TTF expiry calendar; no HAWK use.
+2026-11-06T16:50:15+00:00	SIG-W-20261102-011	noted	INBOX_WALTER	Two-day offer conditional. Carried via FALCON KB-384.
+2026-11-06T16:50:15+00:00	SIG-W-20261102-012	noted	INBOX_WALTER	AL MAYEDA hit 10/30, LNG, operational; in aggregates. Not HAW-22 class.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-002	noted	INBOX_WALTER	Qeshm 11/2; FALCON FAL-07 CONFIRMED. Cross-war context in KB-HAWK-494.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-014	noted	INBOX_WALTER	YANOS 11/3; OSPREY rowed. Capacity not barrels.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-016	acted	INBOX_WALTER	ACTION: Homs plot claim and denial in KB-HAWK-490. No attack established.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-017	noted	INBOX_WALTER	IRGC mine claim, unnamed hulls. Claim-only.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-019	noted	INBOX_WALTER	AFP Trump acknowledgment; FALCON graded.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-029	acted	INBOX_WALTER	ACTION: Iran intelligence and diplomacy claims reconciled with FALCON, KB-HAWK-492. No combined gate.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-030	noted	INBOX_WALTER	Russian-gas proposal, not an agreement. waived-levers theme KB-HAWK-500.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-038	info-only	INBOX_WALTER	Midterm result reported; no HAWK band. Congress alone does not set executive Iran or tariff action.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-044	acted	INBOX_WALTER	ACTION: Poland preventive posture in LADDER and KB-HAWK-491, nato-hybrid-threshold KB-HAWK-497. No rung moved.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-048	noted	INBOX_WALTER	UKMTO 188-26 = AL MAYEDA per FALCON.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-060	acted	INBOX_WALTER	ACTION: eight residual leads triaged in KB-HAWK-493. Titles only except BBC troops piece, body read, in KB-HAWK-491.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-067	acted	INBOX_WALTER	ACTION: AGOA body read at BBC, no FR instrument through 11/6, KB-HAWK-493.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-078	noted	INBOX_WALTER	Oil -8.7% 11/4, no deal. Cause not established. KB-HAWK-495 counterevidence.
+2026-11-06T16:50:15+00:00	SIG-W-20261104-079	noted	INBOX_WALTER	Full sweep; FALCON census 7. Kpler Hormuz crude 11.1 Oct, 7.3 week to 10/28, vendor partial; BRENT flow basis.
+2026-11-06T16:50:15+00:00	SIG-W-20261105-007	noted	INBOX_WALTER	VELOS SAPPHIRE event before naming; FALCON.
+2026-11-06T16:50:15+00:00	SIG-W-20261105-023	noted	INBOX_WALTER	Iran tally headlines, claim-only.
+2026-11-06T16:50:15+00:00	SIG-W-20261105-045	info-only	INBOX_WALTER	Micron Taoyuan labor; VULCAN lane. Not a Taiwan military item.
+2026-11-06T16:50:15+00:00	SIG-W-20261105-056	noted	INBOX_WALTER	Nuclear proposal via Qatar, one-sided; KB-HAWK-492.
+2026-11-06T16:50:15+00:00	SIG-W-20261105-058	noted	INBOX_WALTER	Yanbu alert, intercepted, no damage; war-risk aggregate note.
+2026-11-06T16:50:15+00:00	SIG-W-20261105-065	acted	INBOX_WALTER	COR-20261105-65 receipted NO-OP.
+2026-11-06T16:50:15+00:00	SIG-W-20261106-018	noted	INBOX_WALTER	Read with 020; no HAWK write used its wrong date.
+2026-11-06T16:50:15+00:00	SIG-W-20261106-020	acted	INBOX_WALTER	COR-20261106-20 receipted NO-OP. Aggregate uses 11/5 22:00Z.
+2026-11-06T16:50:15+00:00	SIG-W-20261106-022	acted	INBOX_WALTER	Distillate 99.259M and SPR 282.184M in cross-war-same-barrel KB-HAWK-495.
+2026-11-06T16:50:15+00:00	SIG-W-20261106-023	noted	INBOX_WALTER	CMV-22B, read with 027; FALCON NOT ESTABLISHED.
+2026-11-06T16:50:15+00:00	SIG-W-20261106-025	noted	INBOX_WALTER	Flight bomb hoaxes in nato-hybrid-threshold KB-HAWK-497; no link shown.
+2026-11-06T16:50:15+00:00	SIG-W-20261106-027	acted	INBOX_WALTER	COR-20261106-27 receipted NO-OP.
+2026-11-06T16:50:15+00:00	SIG-W-20261106-028	noted	INBOX_WALTER	BRENT: distillate cover 23.8 days, lowest late-October since 1991. Owner figure; adds to cross-war-same-barrel KB-HAWK-495.
+2026-11-06T16:50:15+00:00	OSPREY-2026-10-29-WQ470-X-bound	acted	DIRECT	Answered: proposals/2026-11-06_WQ470_C3_limb2_HAWK-answers.md, packet to OSPREY, KB-HAWK-484.
+2026-11-06T16:50:15+00:00	ZHAO-2026-10-20-trade-levers	acted	DIRECT	Sec 2 logged KB-HAWK-489 and truce-perimeter-creep KB-HAWK-499. Sec 1 superseded. Sec 3 already KB-482, in waived-levers.
+2026-11-06T16:50:15+00:00	WALTER-2026-10-31-aleshki	info-only	DIRECT	Dated local humanitarian context, no ceasefire inference. No HAWK surface affected.
+2026-11-06T16:50:15+00:00	YURI-2026-11-02-YUR-004-MISS	acted	DIRECT	Consumer read in KB-HAWK-487: null, no HAWK band moved.
+2026-11-06T16:50:15+00:00	ORACLE-2026-11-04-crowd-split	acted	DIRECT	Read in KB-HAWK-488. ORACLE asked for no reply.
+2026-11-06T16:50:15+00:00	ZHAO-2026-11-06-affiliates-stay	acted	DIRECT	KB-HAWK-489; TRADE-01 and CATALYSTS updated; three clocks not merged. FR doc confirmed at public inspection.

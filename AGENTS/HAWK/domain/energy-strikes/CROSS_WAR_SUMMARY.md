@@ -1,5 +1,23 @@
 # Cross-war energy-strike aggregate — HAWK, derived
 
+**Regenerated: 2026-11-06 ~12:00 ET (from session clock).** Owner evidence: FALCON brief `e3ce30fd82` (11:35 ET, evidence to ~11:34), OSPREY brief `f4414148cf` (committed 11:16 ET; its As-of line reads ~12:15, later than the commit, flagged to OSPREY). WALTER lane through card 027 read. No fresh HAWK theater sweep.
+
+| Owner ledger | Committed head reviewed | Data rows, excluding header |
+|---|---|---|
+| OSPREY STRIKES | `f4414148cf` | 194 (+12 since 10/29; swept through 11/2, bounded) |
+| FALCON facility STRIKES | `72cff47275` | 41 (zero new facility rows through 11/3) |
+| FALCON VESSELS | `a51861e1e1` | 96 (+11 since 10/29) |
+
+**Gulf (FALCON 11/6):** B 1 / C 14 / D 85 HELD, no letter met. Census **7** (tug SELAT STORM added 11/3 on NAVAREA IX 425/26). FAL-07 CONFIRMED: US strike on Qeshm 11/2, limited. FAL-06 CONFIRMED at 70% with route (c) never graded, so it is not proof of no net loss. No FALCON row now tests net barrels. VELOS SAPPHIRE (LR1 product tanker, unladen, one seafarer dead), UKMTO 197-26 on 11/5 22:00Z. No confirmed mine, no named hull detained under the Sinokor action, no signed text, no US answer.
+
+**Russia (OSPREY 11/6):** 5 / 5 / 3 unchanged. The 14-day refinery pause ended 10/30: six plants in eight days, at least 1.3 M bpd CAPACITY plus one Ufa plant. YANOS all crude processing halted per one person familiar (Bloomberg 11/6). **The ~30% band is stale against late-October runs of about 5 M bpd; not moved, re-derivation owed.** C3 31/21, limb 2 NOT SATISFIED, no tanker in Palaemon 26 Oct–2 Nov.
+
+**Reconciliation delta:** on 10/29 the theaters diverged (Russian oil strikes paused, Gulf on enforcement). **That is over:** both now press at once. Net crude lost in either war stays UNMEASURED. Pressure sits more on products than crude (KB-HAWK-494). **Double-count check:** six plants' capacity is not lost output; Al Jazeera's "3 tankers hit" is one UKMTO report plus two IRGC claims; a refinery outage and an undelivered diesel tranche remain one barrel.
+
+---
+
+**Prior regeneration kept below; staleness observations in it are dated and may be overtaken.**
+
 **Regenerated: 2026-10-29 13:3x ET (from session clock; second pass the same day).** Owner evidence: FALCON committed through ~12:55 EDT October 29 (`800ccec25`, brief `9449e1681`); OSPREY committed October 29 (`e8f1acaf3`, brief `5b54402e6`). WALTER lane October 25–29 read. No fresh HAWK theater sweep. **The first October 29 pass (~11:55 ET) is kept below; its census and OSPREY lines were overtaken within two hours by both owners' own sessions.**
 
 | Owner ledger | Committed head reviewed | Data rows, excluding header |

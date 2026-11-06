@@ -18,3 +18,8 @@ receipt_date	correction_id	action	note
 2026-10-25T16:27Z	COR-20261023-31	APPLIED	artifact=AGENTS/HAWK/STATUS.md#cross-war-decision-summary; validation_ref=AGENTS/HAWK/workbook/KB.tsv#KB-HAWK-456;
 2026-10-25T16:27Z	COR-20261022-48	NO-OP	scope=No corrected cyber detail appears in HAWK current STATUS NEXUS FLOW VX or FALSIFICATION. Source correction read and logged KB-HAWK-458.;
 2026-10-29T15:59Z	COR-20261025-26	NO-OP	scope=HAWK never adopted the 011 contrary-Channel13 framing (grep of HAWK files for Zamir or Channel13 finds nothing outside inbox) - 011 was logged only as unverified claims with no hull, strike or lost-barrel addition, which this correction holds; 
+2026-11-06T16:49Z	COR-20261031-01	NO-OP	scope=HAWK surfaces hold no Russian diesel ban duration figure and no year-end claim, grepped 2026-11-06. Decree 1436 end date cited in KB-HAWK-495.; 
+2026-11-06T16:49Z	COR-20261031-03	NO-OP	scope=The 10/29 line no refinery strike 10/16-10/29 predates the 10/30 event and holds for its window. No HAWK surface carried the not-found wording.; 
+2026-11-06T16:49Z	COR-20261105-65	NO-OP	scope=HAWK held no price-cause claim from cards 007, 056 or 058. KB-HAWK-488 and 494 were written after this correction and state no 11/5 price cause.; 
+2026-11-06T16:49Z	COR-20261106-20	NO-OP	scope=Cards 018 and 020 were read together before any HAWK write. CROSS_WAR_SUMMARY uses 11/5 22:00Z and one seafarer dead. The wrong date never entered a HAWK surface.; 
+2026-11-06T16:49Z	COR-20261106-27	NO-OP	scope=HAWK wrote no CMV-22B read and no precedent line. FALCON's NOT ESTABLISHED grade is the only reference.; 
