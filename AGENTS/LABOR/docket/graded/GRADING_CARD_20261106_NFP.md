@@ -229,6 +229,8 @@ Source: BLS *The Employment Situation — October 2026*, USDL-26-1632, revisions
 | LAB-19 | LF MoM `170,683 − 170,262 = +421K > 0` | ✅ **RESOLVES TRUE** (Sep +485K, Oct +421K: 2 of 3). As-made 60% ⇒ Brier `(1 − 0.60)² = 0.16`; latest dated mark 81% [2026-10-02] ⇒ `(1 − 0.81)² = 0.0361` |
 | §3h | August third estimate **+186K** [BLS 11/6] | `186 > 183.5` ⇒ **reported as >1 SD above the measured bias:** first→third `186 − 162 = +24K`, `(24 + 33.5)/55 = 1.05` SD. ALFRED had not posted vintage `20261106` at 09:5x ET (newest `20261002`), so the card's named source is PENDING and BLS's own text grades it |
 
+**Confirmed 2026-11-06 18:05 ET:** ALFRED vintage `20261106` carries Aug +186K (third), Sep +60K, Oct +165K, matching the BLS text. No grade changes.
+
 ## 8.3 🔴 The disagreement, recorded after applying the letter (`finding_headline_keyed_conditional_inherits_its_composition`)
 
 The rule fired on its letter and it stands. What the letter does not see:
