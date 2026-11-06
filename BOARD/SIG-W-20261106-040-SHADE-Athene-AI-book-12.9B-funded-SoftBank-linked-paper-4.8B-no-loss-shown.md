@@ -19,6 +19,8 @@ entities: ["Athene", "Apollo", "SoftBank", "SVF-II-Finco", "Oracle-Corp", "xAI",
 word_count: 245
 dispatch_note: "SHADE packet, commit d449bf1a74; record commit e2b7191d78. WALTER confirmed both filings at EDGAR submissions (10-Q 0001527469-26-000085, November 5; 8-K 0001527469-26-000079, October 30, Item 7.01). sec.gov refused the documents with 403, not evaded; every figure is SHADE read, unchecked by WALTER. Adds to cards 029, 030, 036."
 ---
+
+> **Correction, November 6 — SIG-W-20261106-041:** the $10B loan's filing lists a cash collateral account and SoftBank Group as guarantor, so "OpenAI-share margin loan" overstates it. Athene figures are unaffected. Original text preserved below.
 # SHADE: Athene states $12.9B of AI infrastructure funded at September 30; SoftBank-linked paper is $4.8B and its Finco line rose 50% in Q3; no loss shown
 
 SHADE read Athene's October 30 deck and its 10-Q filed November 5. WALTER confirmed both filings exist at EDGAR; sec.gov refused the documents, so every figure here is SHADE's read, not rechecked.

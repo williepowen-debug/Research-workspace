@@ -20,6 +20,8 @@ word_count: 197
 dispatch_note: "Bookmarks 6, 9, 14. Rule 9 helper verdicts: Nikkei and yen CORRECTED-FRAMING, futures halt INDETERMINATE, SoftBank price CONFIRMED, forced selling INDETERMINATE. ZHAO added for the ABB prohibition. No BOARD card covered the Tokyo session."
 kill_strings: ["73 trillion in one hour"]
 ---
+
+> **Correction, November 6 — SIG-W-20261106-041:** SoftBank says China prohibited the acquisition of ABB's robotics business in China, and both parties are working constructively. Do not say the deal is dead. Results are November 10, 15:30 JST. Original text preserved below.
 # Japan: Nikkei −5.96%, SoftBank −10.83%, its CDS 466 bp; JGB yields fell; a bond-futures halt is unverified
 
 Tokyo, November 6 session. Secondary sources, a Rule 9 helper read them; JPX, Bloomberg Japan and x.com unreachable.

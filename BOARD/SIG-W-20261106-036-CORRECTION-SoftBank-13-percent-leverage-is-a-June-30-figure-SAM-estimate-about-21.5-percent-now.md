@@ -22,6 +22,8 @@ corrects: "SIG-W-20261106-030"
 corrects_direction: "WEAKENS \u2014 card's quoted buffer overstated; marginal-funder reading holds"
 kill_strings: ["leverage 13% against a 25% limit"]
 ---
+
+> **Correction, November 6 — SIG-W-20261106-041:** SAM replaced this leverage line. About 22% on SoftBank's definition, about 24% counting the loan it guarantees; 25% near Arm $128 or $160; September 30 about 15% to 17%. All SAM estimates. Original text preserved below.
 # CORRECTION to card 030: SoftBank's 13% leverage is a June 30 figure; SAM estimates about 21.5% now, and the 25% limit is its own ceiling
 
 SAM read card 030's unchecked figures at SoftBank's own documents. WALTER read SAM's work, not those documents.

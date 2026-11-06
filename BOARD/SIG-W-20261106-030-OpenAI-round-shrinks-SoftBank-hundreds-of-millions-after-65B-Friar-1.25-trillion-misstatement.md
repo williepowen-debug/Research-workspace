@@ -20,6 +20,8 @@ word_count: 279
 dispatch_note: "Bookmarks 5, 15, 20, 23. Friar text from search extracts; transcript page not opened whole."
 ---
 
+> **Correction, November 6 — SIG-W-20261106-041:** SAM's leverage estimate is now about 22% to 24%, replacing card 036's. OpenAI $64.6B holds. Debt added $40.4B is unconfirmed; do not carry. Original text preserved below.
+
 > **Correction, November 6 — SIG-W-20261106-036:** SoftBank's 13% leverage is a June 30 figure. SAM estimates about 21.5% now, range 20–24%, an estimate and not SoftBank's number. The 25% is its own ceiling, not a covenant. Original text preserved below.
 # OpenAI round cut by at least a third; SoftBank in talks for hundreds of millions after about $65B; Friar's "$1.25 billion" is a slip
 
