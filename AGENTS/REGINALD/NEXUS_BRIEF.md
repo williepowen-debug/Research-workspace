@@ -1,18 +1,26 @@
 # REGINALD — NEXUS Brief
 
-**Status:** Concentrated bank risk. HY OAS 332bp [11/04] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 18bp below the strict >350 line, run 0-of-3; 11/05 print not on FRED at 08:10 ET 11/06); wide HY alone does not establish bank transmission. Q3 Call Reports (11/01) put the credit trouble at named banks: VLY released reserves into rising nonaccruals (coverage 127.6% → 113.5%), EGBN multifamily nonaccrual +$46.6M. The 10-year (~5.0%), not HY, moves regionals. Q3: problem loans up at 7 of 10 names (the signal kept); falling reserve coverage DROPPED as a predictor on DEWEY's base rate (L801, 10/30); the Florida books hold on every read cell. WAL's Q3 10-Q (10/30) confirms NCO 0.30%, no fraud: the WAL-source stand-down leg is NOT FIRED, final for Q3.
+**Status:** Concentrated bank risk. HY OAS 348bp [11/05] (REG-T-03 already FIRED; REG-T-04 NOT FIRED, 2bp below the strict >350 line, run 0-of-3); wide HY alone does not establish bank transmission. FL frame NO TRANSMISSION FINAL [11/06]: three HOLDS, BKU MIXED, its primary cell transmitted alone on one modified credit of $21.3M. VLY's ~$108M CRE payment-delay block did not pay off and looks modified again (inference); no second bank passed that test on the 11/06 screen, and FLG's pool +$202M is unread. The 10-year, not HY, moves regionals. Problem loans up at 7 of 10 names; falling coverage dropped as a predictor (L801, 10/30). WAL's Q3 10-Q: NCO 0.30%, no fraud, WAL-source stand-down leg NOT FIRED, final for Q3.
 **Domain:** Regional-bank comparison, FHLB advances, hidden CRE and sponsor-bank balance-sheet risk.
-**As of:** 2026-11-06 08:12 ET, closeout of the 11/05 evening boot | STATUS commit: `b6c6f7d19c`
+**As of:** 2026-11-06 16:52 ET, closeout on Will's word via PROME | STATUS commit: `adcf7b09c6`
 
 ## CROSS-DOMAIN
+
+**November6 10-Q reads and screen** (`reports/2026-11-06_BKU_10Q_FL-frame-final.md`; `reports/2026-11-06_VLY-EGBN_10Q_reads.md`; `reports/2026-11-06_re-modification-screen.md`; `reports/2026-11-06_bank-put-refuters.md`):
+- **BKU:** CRE 60-89 $21.321M [9/30] vs $0 [6/30], accruing per Call Report, 0.30% of CRE, all in modified loans, location UNKNOWN. Class MIXED FINAL, REG-32 FALSE, FL aggregate NO TRANSMISSION FINAL. Frame defect disclosed, grade unaffected.
+- **VLY:** block $108.6M then, $0.4M now; non-multifamily modified CRE 110.5 flat three quarters; re-modified is an inference from line-level flatness, not disclosed. REG-35 registered, 70%.
+- **EGBN:** multifamily criticized $211.8M vs $284.2M; 10-Q and deck disagree by $36.2M, unresolved, RED owns the tree. REG-28 u=4.
+- **Screen of 14:** RE-MODIFIED 1 (VLY), STILL HELD 2 (BKU, EGBN), PAID 1 (SBCF, inference, $6.2M), NOT DISCLOSED 5 (SSB, CFG, FLG, CUBI, OZK), NO BLOCK 5. Q1 2027 is a Valley date, not a group date.
+- **Refuters on the bank-put book, evidence only:** 2 met, 1 met then lost, 3 not met, 2 unknown. H.8 11/06 unread at close.
+- **Saturday 11/07 run PREPARED, not run:** 14 Call Reports on file; FDIC 9/30 universe not posted. Combination watch live, four themes. No score, threshold, gate or trade change.
 
 **November5 catch-up** (`reports/2026-11-05_boot/REPORT.md`; dated reports for each item):
 - **Selloff (settled 11/05):** SPY $733.00 from $766.81, KRE $72.31 from $74.13, WAL $75.88 from $79.24. WAL is a suppressed sub-$78 re-entry: REG-T-02 stays FIRED, exit 0-of-3. Cause of WAL's extra weakness UNKNOWN; no new filing. Credit ETFs calm; HY print pending.
 - **Preferred Bank:** multifamily 30–89 $143.1M, 26.5% of the book [9/30]. Working read real but contained; formal answer UNRESOLVED until the 10-Q, most likely Mon 11/9.
 - **Flagstar:** multifamily 30–89 $392M is a rebound (peak $893M), my "the one that matters" withdrawn. New are 90+ accruing $107M [9/30] and modifications $556M H1. 10-Q not filed at 16:33 ET.
 - **Ueno, Paraguay:** single-bank failure at the outside report's cutoff; identified US fund holdings $17.9M, 5.1% of the bond; about 95% of holders unidentified. LIQUID owns contagion.
-- **Valley, Eagle, BankUnited:** Q3 10-Qs filed 11/05, UNREAD. Prior reads do not include these filings; the FL frame stays PROVISIONAL until BankUnited is read.
-- **FFIEC tail:** 138 of 138; 6 flags unchanged; frozen verdict waits for FDIC. FL frame PROVISIONAL until BKU. No score, threshold, gate or trade change.
+- **Valley, Eagle, BankUnited:** Q3 10-Qs filed 11/05; read 11/06, above.
+- **FFIEC tail:** 138 of 138; 6 flags unchanged; frozen verdict waits for FDIC. No score, threshold, gate or trade change.
 
 **November3 KRE redemption base rate** (`research/KRE/REDEMPTIONS.md`; rolling/monthly data under `reports/2026-11-03_redemption-history/`):
 - 2025 NAV **+7.41%** with shares **−29.45%**; 2026 through 11/02 NAV **+13.66%** with shares **−10.39%**. The price/share-count divergence is not new, so contraction alone is not a directional price or bank-credit signal.
@@ -46,99 +54,7 @@
 - **Tape [settled 10/30]:** WAL $76.29 (REG-T-02 FIRED, exit 0-of-3), KRE $72.01 ($12 above $60). FLG ladder RED, $10.51. Claims 194K [w/e 10/24]. FHLB Q3 preliminary $798.4B; REG-T-06 grades 11/13 from the CFR.
 - **No score, threshold or probability change.**
 
-**October31 L857** (`reports/2026-10-31_L857/REPORT.md`):
-- **Who borrowed in Q3 (FFIEC Call Reports, 134 of the 139 banks holding 75% of Q2 small-bank borrowings):** the frozen small universe, excluding probable acquirers, **cut borrowing −$5.70B net while deposits rose +$39.20B**. Among these banks more borrowing was repaid than added (51 of 127 increased); the frozen concentration verdict is still ungraded. Santander absorbed Webster on 8/20, so its +$10.70B is mostly inherited (pro forma +$6.72B, deposits up).
-- **6 frozen-rule flags, all funding-mix shifts at the issuer:** Regions (commercial balances moved to off-balance-sheet products), Renasant (public-fund outflow, loan growth), Simmons (brokered → FHLB), The Bancorp (secured lines fund fintech loan growth; BaaS sponsor), Bank of Hawaii (public-fund runoff), Israel Discount NY (private). **No TERRY route:** the concentration verdict needs the FDIC posting (~mid/late Nov). LIQUID context only.
-- **No score, threshold or probability change.** 4 banks unfiled (East West, HSBC USA, First Hawaiian, Beacon).
-
-**October30 L801** (`reports/2026-10-30_L801/REPORT.md`):
-- **Coverage-decline leg DROPPED as a predictor** (weight zero, descriptive only). DEWEY: problem loans up AND coverage down preceded a ≥25bp charge-off jump within 4 quarters in **2 of 10 episodes vs 25% of all quarters**; in 2007–10 coverage change did not sort later losses (ρ −0.06) once the problem-loan rise was counted. ⚠️ ~3 loss cycles; CECL makes today's coverage look safer than history; 'collateral covers it' has a poor record at failed banks.
-- **Problem-loan leg KEPT** (7 of 10 up [10/23]; 2007–10 ρ +0.46). Coverage becomes a question about loans called safe on collateral: FLG $1,571M carries no allowance and its exits are now 87.5% payoff/disposition, 1.6% cure (FLG desk roll-forward). Graded by loss on exit at the FLG 10-Q (~Nov 6–9). No peer base rate for cure share exists (Y-14Q, non-public).
-- **No score, threshold or probability change.** The matrix coverage POINT (a level) stays frozen until the 11/07 S1-vs-S2 test. Q3 Call Reports not yet at FDIC (0 rows 10/30 09:09 ET). HY 314 [10/28], CCC/HY 4.16× on the denominator.
-
-**October28 catch-up** (`reports/2026-10-28_boot/REPORT.md`, commit `db025d223`):
-- **HY / REG-T-04 (DOCKET L818): NOT FIRED.** 338 → 330 → 318 [10/23–10/27]; BB and B lead the tightening, so no transmission widening. CCC/HY 4.15× rises on the denominator: no escalation (LIQUID owns re-entry).
-- **SBCF Q3:** FL 8-K cell HOLDS (criticized+classified 2.90% vs ≥3.20%); NPL −15%; an $8.4M reserve on one acquired loan is unexplained. **FL frame: no cell transmits at any of the four names; aggregate PROVISIONAL to the 10-Qs (~11/14).** CORAL consumes.
-- **Funding (LIQUID context):** small-bank borrowings $316.4B SA [w/e 10/14], **+11.8% in 6 weeks** (97.5th pct since 2010) from a low level (4.55% of assets, 18th pct). It mostly funds loan growth; ~3/4 of new deposits are core money. Not a run. Raw Q3 change is only +$4.3B (Q3 normally falls ~3.5%), and the late-September rebound (+10.4%) is second only to 2022. No KRE forward edge, and the aggregate 'borrowing up, deposits down' pattern has **no track record** (13 episodes since 1985; the same evening's 'watch deposits' advice is retracted). The per-bank screen is FROZEN for the FDIC Q3 posting (~mid/late Nov) → `reports/2026-10-28_small-bank-borrowing-deep-dive.md` §10–§13.
-- **BaaS (CARL):** Coastal holds ~$447M of Bluevine deposits [9/25] ≈ 9% of its deposits, leaving in 1H27 when Valley closes. Funding, not credit. CARL's WQ-228 join fields accepted.
-- **Nano (L516):** P&A still unposted; DEWEY found no passive route tonight. FDIC-R held the Ontario lien as of 10/2 (one loan). An FDIC inquiry needs Will and is not recommended.
-- **FLG:** a director bought 10,000 shares at $10.14 on 10/27 (Form 4). Ladder RED, −28.8%.
-- **Correction:** CFG $12.852B is March 31, not June 30 (BROCK). My 10/21 row was wrong; KB ML-REG-251.
-
-
-**October23 afternoon (Will):**
-- **Learning review** (`reports/2026-10-23_historical-learning-review.md`): method improved, judgment unproven.
-- **REG-08 and REG-10 regraded FAILED → CONFIRMED**, originals kept (`5e0e8b301`; PROME DOCKET L824). REGINALD Brier 0.162 (n = 8): too few to show skill.
-- **11/07 ranking test frozen** (retrospective, not blind). The matrix coverage point is now labelled an untested indicator; scores unchanged.
-- **REG-T-04 single-issuer disclosure rider** (WQ-512, `8452f2af7`): CSC/Optimum is 0.47% of HYG.
-- **TERRY:** the rate prop on KRE is the last 4 weeks only; the proposed alarms show no forward edge since 2006 (`9938ffae5`).
-
-**October23 catch-up** (`reports/2026-10-23_boot/REPORT.md`, commit `c6bb09ab0`):
-- **HY / REG-T-04 (PROME ask, packet `012e5c08c`, consumed by PROME at `c3600e8ed`):** 340bp [10/22], run 0 of 3; earliest fire 10/27 close. Broad repricing ⇒ the bank lane shows as **drawn balances** (C&I, NDFI lender/fund finance), not regional credit losses. ⚠️ Issuance: earlier 'freeze under way on volume' WITHDRAWN (corrected 10/23 eve on DEWEY `AGENTS/DEWEY/output/2026-10-23_hy-issuance-window-october.md`): narrowed and expensive, not shown shut; the lock-out is on price at CCC. Will added a single-issuer attribution rider to REG-T-04 (CSC/Optimum).
-- **10-year falsifier:** KRE −0.72% per +10bp 10-year vs +0.02% per +10bp HY (corr −0.36 / +0.07; R² 0.13, weak). A falling 10-year falsifies a regional-bank put; a wide HY print does not confirm one. In `TRADE.md` §4 for TERRY's cards.
-- **FLG Q3:** missed; 0 of 4 readable CRE 'weakens if' lines met (NAL $2,817M, RR criticized $4,402M, loss ratio 20.7%), criticized +$670M; FLG stays #1. FLG desk owns the print grade.
-- **AMTB:** FL frame HOLDS final. **CUBI:** WQ-318 INCONCLUSIVE; fund finance +$456M, its top grower (NDFI lane, BROCK).
-- **FL aggregate:** AMTB HOLDS final, SSB HOLDS provisional, BKU HOLDS-PENDING-P, SBCF prints 10/27 — still PROVISIONAL (CORAL consumes).
-
-**October22 catch-up** (`reports/2026-10-22_catchup/REPORT.md`, commit `6e3914cb2`):
-- **Will's HY question (SIG-W-20261022-005):** BANK-ABSENT 9/21→10/20. The October leg is CCC-only (+112bp, BB −2bp). Bank pref basket −2.0% vs PFF −3.9% (dividend-adjusted); KRE −1.9% vs KBWB −5.7%.
-- **Routes:** ① NDFI is BROCK's; ② CMBS is CREED's, UNKNOWN (not launched, WQ-478).
-- **Q3 at primary:**
-  - SSB clean; REG-27 at 0.57% is not met, row OPEN.
-  - VLY early flag strengthens: CRE reserves released again; construction nonaccrual 9.1→39.3M.
-  - EGBN Prince George's $56.0M → nonaccrual, re-extended to 12/21/26, no cash.
-  - BKU CRE criticized −$53.9M. HBAN NCO 0.31%. ZION NCO 0.02%, rank 1 unchanged.
-- **FL frame:** SSB HOLDS provisional, BKU HOLDS-PENDING-P; aggregate UNKNOWN.
-- **H.4.1 descriptive lines:** >~12.9B / >~15.7B. Not registered.
-
-**New predictions (Will-approved 10/22):** REG-28 EGBN 4Q maturities stay bank-held (65%) · REG-29 ≥4 of 6 banks' Q4 NCO above Q3 (45%, tests the appraisal-refresh recognition read) · REG-30 VLY non-accrual ≥$511.4M (60%). Resolve-by dates are 10-K deadlines (Mar 2027).
-
-**Communication fixes (Will-approved, D:L793, 10/22):** REGINALD is now the obliged consumer of the OZK and WAL pair channels (WQ-484), with an ACK at each boot and boot.py listing unACKed entries. NOT-FIRED trade ideas route to TERRY. Exit rail re-derived. **CREED (launched 12:19)** answered Will's CRE leg: a rate shock, not credit; CMBS spreads flat through 10/16. Bank side stays BANK-ABSENT.
-
-**Appraisal-discount cohort test (Will, 10/22):** `reports/2026-10-22_appraisal-discount_cohort_test.md`. 12/14 banks publish no discount-to-appraisal; realized resolution haircuts run ~13–22%. Extensions still trigger re-appraisal, so Q4–Q1 appraisal-driven write-downs are likely. FLG ties H1 MF/CRE charge-offs of $193M to 'appraisals received'. EGBN: no trade from this desk.
-
-**EGBN Q4 wall (Will, 10/22):** `reports/2026-10-22_EGBN_Q4_maturity_wall.md`. ~$525M matures 10/27–12/30 ($146.9M criticized + $378.6M pass). The criticized-four gross loss is ~$8–31M (≤$1.02 of the $38.00 TBV/share). Q3 behaviour was extend-not-exit. ⚠️ The DC $20.5M appraisal was printed at $24.5M (Q2) and $13.5M (Q3) with the same date.
-
-**AI-agent banking doc (Will):** `reports/2026-10-22_AI-agent-banking-doc_analysis.md`. Deposit run-speed / margin story, not credit. The doc is AI-generated and secondary-heavy; VLY "acquired Bluevine" is wrong (the deal is pending).
-
-**Startup October21:** two WALTER owner relays (001 funding correction,003 Boston outcome) read and disposed INFO_ONLY; correction receipted. No new research grade or route. Boot limits→`reports/2026-10-21_boot/RECEIPT.md`.
-
-**Audit October21:** three general packets integrated. Approved REG-27 encoded OPEN at15% before SSB release, original20 prediction rows preserved. OZK coupon correction applied. Remaining Q3/research/document debt→`reports/2026-10-21_owed-items/REPORT.md`; audit completion does not clear that work.
-
-**SENDING — prior routes retain their dates; new packets committed, consumption unverified:**
-
-| To | Signal | Priority | Mechanism |
-|----|--------|----------|-----------|
-| PROME | 10/28 catch-up memo: L818 NOT FIRED, L516 unposted, FL frame provisional (`db025d223`) | 🟠 | Memo + report; no trade, no gate move |
-| CARL · ISHM · DEWEY | WQ-228 joins accepted (`a6caf49aa`) · C&I boundary (`1500962a7`) · FHA/VA pointer + Nano ask (`228cfa31a`; DEWEY answered `41c72f558`) | 🟡 | CARL/ISHM liveness UNKNOWN; packets committed |
-| PROME | 10/23 REG-T-04 bank-lane reading + 10-year falsifier (`012e5c08c`); PROME filed it as consumed on L818 (`c3600e8ed`) | 🟠 | Asks (1)–(2); no trade, no gate move |
-| PROME | 10/22 catch-up packet (`6e3914cb2`) + forum post (`db50f620c`); PROME acknowledged receipt by message | 🟠 | 005 answer, GATE-REG-27, D:L521, HBAN/ZION reads |
-| PROME · OZK | October21 audit packets (`1d84633ca`), consumption unverified | 🟡 | Approved prediction encode, stale coordinator obligations with delivery evidence, coupon consumer carries; no new score or trade |
-| PROME · OZK · WAL · WALTER | October20 backlog report and dated inbox packets | 🟠 | Primary Boston failed sale/foreclosure; weekly funding partly reverses; secondary WAL external-disposal evidence. No owner grade changed or recipient read asserted |
-| PROME + FLG | `VX-REG-6.03` RED on the 10/7 close (sent `018af9846`); ladder exhausted | 🟠 | Registered routing; matrix unchanged |
-| PROME | WQ-318 delivered (`a033c799c`) + memo; register CFG 10/16 / CUBI grading rows | 🟠 | Report + KB ML-REG-176..180 |
-| TERRY | WAL Q3 LOCKED Mon 10/19 AMC (`fe37dd785`); `TRY-COND-KREADD` REGINALD arm NOT met (`db3565b15`) | 🟠 | Packets; cards are TERRY's |
-| WALTER → OZK | OZK closed below the OZK desk's <$45 band 10/6 + 10/7 (signal lane, `db3565b15`) | 🟡 | OZK grades its own band |
-| BROCK | BRK-31 grading input at Q3/Q4 prints — *I am the data source* | 🟠 | PC/NDFI-attributable reserve builds |
-| SHADE · BROCK · PROME | 10/11 insurer handoffs + CFG read-note (WQ-419) | 🟠 | PROME accepted 9451933aa/c7f945a95; peer reads unverified; Citizens current draw unknown |
-| PROME · LIQUID · BOND · WALTER | WQ-414 REVIEW encode `236a091d4`; result + ruling/interface packets | 🟠 | Independent acceptance `1b937462e`; recipient consumption unverified; peer gates unchanged |
-| WALTER → LIQUID | Small-bank borrowings +11.7% in 3 wks to 9/30 (signal lane, `e1fc74154`) | 🟠 | Descriptive bar, not a registered trigger |
-| PROME | WQ-414 prior nowcast evidence (`047ef11d4`), now governed by approved REVIEW | 🟠 | Official quarterly count only; debt nowcast excluded |
-| WALTER → LIQUID | AMENDMENT to the signal: SVB scale (+$290B in one week) + FHLB debt +$6.2B in Sep (`b680ef50d`) | 🟠 | Routed WITH the original as `SIG-W-20261010-007` (WALTER `40b424536`; LIQUID action) |
-| DAEDALUS | H2 as-made receipt complete, 20 rows (`28c7dd7dd`) | 🟡 | For its 10/12 sitting |
-| PROME · RED | WQ-412 named SSB "State Street" (`8d31de2aa`; PROME fixed `3780a92d6`) · RED's KRE bull case cites FHLB "$480B" vs OF $676.7B/$810.7B (`b9ca8d708`) | 🟡 | Corrections; owners edit their own files |
-
-**WAITING FOR:**
-
-| From | Input | Expected by | Why it matters / change in view |
-|---|---|---|---|
-| WAL / OZK / FLG owners and existing issuer disclosures | Q3 outcomes, exact funding inputs and loan recovery/recognition | Existing CALENDAR windows | REGINALD owns cross-bank comparison; specialist judgments remain theirs. OZK primary Q3 consumed here; call/filing remain pending. WAL call SECONDARY consumed; exact F3/N pending. |
-| EGBN existing disclosures | Cash, concessions, new funding, retained exposure and incremental recognition for four cases | Existing Q3 read | A disappearing category or extension is not demonstrated repayment; no independent property match yet. |
-| Existing Fed releases / REGINALD | Does small-bank borrowing persist after the October14 high? | 10/29 and 10/30 releases READ 11/02; next H.4.1 11/05 / H.8 11/06 | Latest borrowing fell to $305.3B [10/21] from revised $313.2B, with deposits nearly flat. The early-October surge did not extend in the latest week. No new registered monitor |
-| FDIC | Nano P&A; absent at October28 22:28 ET (page Last Updated 10/19) | Weekly re-check from November3 (L516) | Re-run forensics on actual schedules; January20,2027 bar date; no external send without Will. |
-| PROME / Will | REG-27 shared registration / existing WQ-454.REGT06 ruling | SSB print /before October30 respectively | REG-27 encoded under approved A; PROME shared GATES record pending consumption. REG-07 VOID. REG-T-06 publication basis alone remains Will-owned; as-written CFR governs. |
-| Will / existing FFIEC run | Laptop JWT renewed to 2027-01-31; desktop renewal pending if used; cohort-selection/completeness | November7 planned retrieval | Missing bank capable of flipping breadth → UNKNOWN; decide cohort selection first, no silent expansion. |
-| Will / PROME / TERRY | Existing contract ownership/card evidence at FORGE D-74/D-77; structural source→POSITIONS | Existing records only | Broker holdings are not research/trade approval; disposition remains unknown without broker evidence. No expiry reminder. |
+*October entries (10/31 back) rotated verbatim 2026-11-06 → `archive/NEXUS_BRIEF_rotation_2026-11-06.md` BLOCK N1, crc32 `fa797f53`.*
 
 ## VIEW
 
@@ -162,7 +78,7 @@
 
 ## NEXT DECISION POINT
 
-Use existing Q3 disclosures to append outcomes to original expectations under BANK_RESEARCH_STANDARD. Current issuer dates/status→CALENDAR; exact unresolved inputs→MEMORY NEXT SESSION and October20 catch-up. Next: Eagle October21/22 named-loan outcomes, OZK October21 call and later filings; WAL filing-only F3/N. Weekly funding and eligible settled-bar catch-up completed here. §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION; approved REG-27 now OPEN15%, with no numerical breadth cutoff or new monitor. REG-T-06 official publication basis remains Will-owned; REG-27 approval is executed, shared registration carrier remains PROME-owned. Original modal INCONCLUSIVE expectation and CUBI/CFG falsifiers remain in the archived original, not retroactively re-written.
+**Next: Saturday 11/07 Call Report run, L180 breadth and the frozen ranking test; §0 judgment moves only on L180 BROADER.** Prior text: Use existing Q3 disclosures to append outcomes to original expectations under BANK_RESEARCH_STANDARD. Current issuer dates/status→CALENDAR; exact unresolved inputs→MEMORY NEXT SESSION and October20 catch-up. Next: Eagle October21/22 named-loan outcomes, OZK October21 call and later filings; WAL filing-only F3/N. Weekly funding and eligible settled-bar catch-up completed here. §0 judgment moves only on L180 BROADER or FL-rail TRANSMISSION; approved REG-27 now OPEN15%, with no numerical breadth cutoff or new monitor. REG-T-06 official publication basis remains Will-owned; REG-27 approval is executed, shared registration carrier remains PROME-owned. Original modal INCONCLUSIVE expectation and CUBI/CFG falsifiers remain in the archived original, not retroactively re-written.
 
 ## WATCH (next 2–6 weeks)
 
@@ -172,7 +88,7 @@ Use existing Q3 disclosures to append outcomes to original expectations under BA
 | Settled exit log and FRED tier test | Existing daily cadence | Exit count→registry/REG_T02_EXIT_LOG.tsv; no unsettled bars or missing-data-as-holiday. REG-T-03 already fired, evaluate follow-through/exit rather than restart. |
 | Nano P&A /RED and CARL reviews | CALENDAR /MEMORY | October27 P&A; October23 CET1/AOCI; October26 fintech join. Existing obligations, no completion inferred. |
 | FHLB official publication and borrower disclosures | CALENDAR /registry NOTES /WILL_QUEUE | Highlights October30 versus CFR November13 remains the existing instrument discrepancy. Official count only; both breadth measures before escalation. |
-| FFIEC Q3 run and later QBP | CALENDAR | Renewal/cohort choice before existing November7 run; completeness checked at retrieval, later QBP remains dated. |
+| FFIEC Q3 run and later QBP | CALENDAR | Token renewed, cohort decided (WQ-624 A), run prepared for November7; completeness checked at retrieval, later QBP remains dated. |
 
 **Preservation:** Original contiguous blocks B01–B06 → `archive/2026-10-20_organisation-cleanup_NEXUS_BRIEF.md`; exact source-line/section map and verified CRCs → `reports/2026-10-20_organisation-cleanup/RECEIPT.md`. Re-check size at any append or on 2026-11-20, whichever first.
 **Cleanup:** PROME accepted the charter review and registered the boot reads (`55cfb3982`). Grading-frame pointer restored; both handoff dependencies closed. Cleanup itself changed no economic observation or trade. Current research refresh→October20 backlog report. Acceptance→`reports/2026-10-20_organisation-cleanup/ACCEPTANCE.md`. WALTER retains its historical BOARD size remedy.
