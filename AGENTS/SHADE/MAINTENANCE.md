@@ -284,3 +284,4 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 - Charter step 4a: combination-watch line (C4, no authority or threshold moved). Ledger is `board_log.tsv`; themes `ai-credit-in-wrapper`, `secured-substitution`, `mortgage-delinquency-under-marks`, `walter-liquidity`.
 - Rotated STATUS §0t, §0s, §0m ① → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, recomputed).
 - Rotated MEMORY 8/28 lessons → `archive/MEMORY_lessons_rotated_2026-11-06.md` (crc32 `33e552b9`, recomputed). MEMORY now under the 22,785 B stop.
+- Retirement scan 11/6: 15 research files older than 60 days, 12 live or tied to a pending dated read; `2026-08-13_NEWS_SWEEP_PLAN.md`, `2026-08-13_NEWS_SWEEP_RESULTS.md`, `BMA_EGAN_JONES_RECOGNITION_2026-08-13.md` moved to `archive/`.
