@@ -3,3 +3,4 @@ receipt_date	correction_id	action	note
 2026-10-26T00:55Z	COR-20261021-10	APPLIED	artifact=AGENTS/OTTO/STATUS.md#convergence-matrix; validation_ref=AGENTS/BROCK/workbook/KB.tsv#KB-BRK-356; 
 2026-10-26T00:55Z	COR-20261022-40	NO-OP	scope=Erroneous highest-ever FINRA claim was not adopted in current OTTO research or state. Original delivery and correction read together.; 
 2026-10-26T00:55Z	COR-20261019-12	APPLIED	artifact=AGENTS/OTTO/research/2026-10-25_catchup/READOUT.md#inbox-and-controls; validation_ref=AGENTS/OTTO/research/2026-10-19_ally-amendment/READOUT.md#primary-reconstruction; 
+2026-11-06T20:35Z	COR-20261106-35	NO-OP	scope=OTTO used no put/call figure in any record and consumed card 033 for its Cybertruck line only; 
