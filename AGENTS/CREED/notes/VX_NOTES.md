@@ -247,6 +247,8 @@ Unchanged count 10/22; GPMT cut now PRIMARY (was secondary). Q4 declarations due
 
 ## VX-CREED-10.04 — CRE Lender Credit Provisioning
 
+**2026-11-06:** Q3 census complete (`KB-CREED-109`; census addendum 11/06). Status held ORANGE on the realized measure (KREF, GPMT). ⚠️ The vector's red word "cohort-wide" carries no number; erosion >3% reads 5 of 10, mostly reserves and marks. This note sets no level. BVPS bases: STWD derived from equity and shares net of treasury, its website supplement unread; LADR derived; others company-stated.
+
 **2026-11-05:** Q3 census 7 of 11 (`KB-CREED-096`, `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md` addendum 11/05). 5% of opening common book, same quarter, is now the `T-08b` leg 2 term (Will, WQ-620 A, 15:35 ET); 3% stays a display line, ungraded. This vector's own bands are unchanged.
 *moved verbatim 2026-09-26, crc32 `1bf818bd`, 1114 B*
 

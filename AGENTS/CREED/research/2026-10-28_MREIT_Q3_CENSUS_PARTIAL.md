@@ -147,3 +147,41 @@ NREF: no write-off disclosed, no tagged line. STWD, ACRE: no tagged 2026 line fo
 **CREED's proposal:** count a name when write-offs realized in the quarter reach 5% of opening common book, reported line first; reserves, unrealized and held-for-sale marks, return of capital and buybacks do not count; leg 2 is met at 5 of the 10 reporting names in the same quarter. Show BVPS erosion over 3% and the four-quarter count beside the grade, ungraded. Against: write-offs are lumpy, so this is a high bar that might miss a slow spread.
 
 **RULED 2026-11-05 15:35 ET: Will, WQ-620 A, verbatim *"620 A and 621 A"* (`PROME/proposals/2026-11-05_wq620-621-RULED.md`).** The proposal above is now the leg 2 term, as written; encoded at `registry/THRESHOLDS.tsv` and `thesis/THESIS.md`. The note's "proposal only" line is the record of 13:35 ET. On the term, 2 of the 7 reported count (KREF 26.4, GPMT 9.2 of opening common book, Q3), so a Q3 fire needs all 3 of RC, STWD and ACRE. Not a grade.
+
+## Addendum 2026-11-06 — RC, STWD and ACRE reported; census COMPLETE; `CREED-T-08b` GRADED NOT FIRED
+
+**Sources, all PRIMARY-READ by CREED 2026-11-06 at sec.gov:** RC 8-K accepted 2026-11-05 17:04 ET, acc 0001628280-26-071156 (EX-99.1, supplement); STWD 8-K acc 0001465128-26-000030 (EX-99.1) and 10-Q acc 0001465128-26-000031; ACRE 8-K acc 0001628280-26-071276 (EX-99.1, EX-99.2). Recorded as `KB-CREED-109..112`. Earnings calls unheard. RC, ACRE and NREF 10-Qs were not on EDGAR at the grade. WALTER cards 063 and 002 reproduced; WALTER's RC 4.8% is confirmed on the actual opening common book, not September shares.
+
+### The grade: leg 2 on the ruled term (WQ-620 A), Q3, same quarter
+
+| Name | Realized line used | Q3 $M | % of opening common book | Counts (≥5%)? |
+|---|---|---|---|---|
+| KREF | Realized loss on loan write-offs | 155.9 | **26.4** ($2.70 / $10.24) | **YES** |
+| GPMT | Write-offs | 25.3 | **9.2** ($5.25 / $56.96) | **YES** |
+| RC | Realized losses on sale of investments, including the $28.7M charge-off of specific reserve | 53.87 | **4.8** (of $1,127.8M) | no, $2.5M short |
+| TRTX | Allowance roll-forward | see pre-grade note | 1.2 on opening total equity | no |
+| BRSP | Allowance roll-forward | see pre-grade note | 0.9 on opening total equity | no |
+| STWD | Realized losses on foreclosed property sales; no Q3 charge-off | 38.4 | **0.6** (of $6,499.0M) | no |
+| BXMT | Charge-offs | 6.9 | 0.2 on opening total equity | no |
+| LADR | Charge-off | 3.5 | 0.2 on opening total equity | no |
+| ACRE | Realized losses on loans | 0 | **0.0** | no |
+| NREF | None disclosed; 10-Q not filed | unknown | unknown | not counted |
+
+**Leg 2: 2 of 10, needs 5. NOT MET. Leg 1: MET, 5 of 11 (ARI, KREF, RC, GPMT, BXMT); no new cut (RC $0.01, STWD $0.48, ACRE $0.15, all flat). The legs are joined by AND: `CREED-T-08b` NOT FIRED for Q3.** The verdict does not turn on a close call: counting RC and NREF anyway gives 4.
+
+**RC's line.** The supplement splits the $53.87M into $25.15M realized losses and $28.72M charge-off of specific reserve, which sums exactly. Opening common book: $1,239.206M RC equity less $111.378M preferred = $1,127.828M at 6/30 (DERIVED; the same subtraction at 9/30 gives the company's stated $1,063,143K). Net of tax $51.94M is 4.6%; the charge-off alone 2.5%. RC's book is not CRE only.
+
+### Beside the grade, ungraded, as ruled
+
+| Measure | Reading | Who |
+|---|---|---|
+| BVPS erosion >3%, Q3, GAAP | **5 of 10** | GPMT −21.8, BXMT −11.7, STWD −8.6, RC −5.7, NREF −5.2. Not over: KREF −1.0, TRTX −0.9, ACRE +0.5, LADR +3.1, BRSP +4.0 (−2.8 undepreciated) |
+| Four-quarter write-offs >5% at 9/30 | **5 of 10** | KREF 17.3, GPMT 9.5, BXMT 14.2, BRSP 6.7 (opening total equity, table above), RC 16.8 ($279.6M reported line over 9/30/25 common book $1,663.3M) |
+
+⚠️ **Both of these sit exactly at the one-half line that leg 2 uses, and leg 2 itself sits at 2.** They are not fires and no term moved. Most of the erosion is reserves and marks: STWD's −8.6% is a $336.6M provision against $38.4M realized, and the 10-Q attributes the provision to higher projected rates. Reserves taken now can become realized write-offs in later quarters, as KREF's did (Q2 reserve, Q3 write-off); this grade says only that Q3 did not meet the term. ⚠️ The term was written after seeing 7 of the 10 names.
+
+**Bases.** The four-quarter row mixes bases, named above. STWD: charge-off line $25.0M over nine months (0.4% of 9/30/25 common book $6,864.3M); no Q4 2025 charge-off in the 10-K roll-forward wording (INFERRED from the foreclosure dates), other quarters' property-sale losses unread, and it would take over $340M to reach 5%. ACRE: $3.34M in Q1, 0.7% of 12/31 equity. STWD BVPS is DERIVED: $6,498.963M / 370,628,310 shares net of treasury = $17.54; $5,835.660M / 364,056,685 = $16.03. Its website supplement (undepreciated book) was not read.
+
+**Correction to the pre-grade table above, no grade moves:** its RC row is the allowance line. On the reported line RC's quarters are Q4-25 3.9, Q1-26 8.3, Q2-26 3.4, Q3-26 4.8 of opening common book, and the Q2 same-quarter count stays 2 names.
+
+**Predictions:** `PRED-011` NO-VERDICT (RC $6.44). `PRED-012` FALSE (ACRE $8.86), Brier 0.3025.

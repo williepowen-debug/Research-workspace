@@ -1,7 +1,7 @@
 # CREED SCRATCH.md — Ephemeral Session State
 
-**Rewritten:** 2026-11-05 (Thu) 16:33 ET, at closeout on Will's word (16:32 ET). **Record: `catchups/2026-11-05.md`.** In one line: `T-01a` FIRED · S1 = 4, 28/45 · `T-08b` leg 2 term ruled, census 7 of 11, **grade owed** · `PRED-011..014` open · combination watch live · KB 108 · cases 184.
-*PRIOR (10/30): `catchups/2026-10-30.md`.*
+**Rewritten:** 2026-11-06 (Fri), WQ-626 A wake, DOCKET L964, on delivery; PROME asks for closeout separately. **Record: `catchups/2026-11-06.md`.** In one line: `T-08b` GRADED NOT FIRED, leg 2 2 of 10 · `PRED-012` FALSE · `PRED-011` NO-VERDICT · 28/45 unchanged · KB 112 · cases 184.
+*PRIOR (11/05): `catchups/2026-11-05.md`.*
 **Purpose:** the *handoff* surface. Overwritten every session. **Durable analysis → STATUS / catchups / KB / research; structural → `MAINTENANCE.md`; nothing here is canonical.**
 
 > **Canonical-truth ordering, and this file is at the BOTTOM:** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/` > `SCRATCH.md`. ⚠️ A crash lands here first: diff the commit log against this file before trusting it.
@@ -12,7 +12,7 @@
 Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea84` (edited 11/05 under Will's ruling) · 004 `50e84d2b8f` · 007 `19e4d1a003`** (re-verified 11/05). 001, 004, 007 are graded on this ledger; their Kernel records stay OPEN. Gate C inactive. ⇒ **Never edit a pinned row without Will's ruling.**
 
 ## 🔴 NEXT MOVES
-1. **⛔ OWED, NOT DONE, session closed before the prints: RC Q3 (after the close 11/5; no Item 2.02 8-K seen at the last poll before 16:32 ET), STWD + ACRE 11/6 → full `T-08b` grade.** The EDGAR watcher was stopped at closeout and its script was in the session scratchpad: poll `data.sec.gov/submissions` for form 8-K, item 2.02, RC CIK 1527590, STWD 1465128, ACRE 1529377. On each print grade `PRED-011` (RC) and `PRED-012` (ACRE) in BOTH ledgers. Then add to census, KB, VX-10.04, THRESHOLDS state, THESIS, STATUS, COVERAGE. ARI never reports. Add to `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md`; grade leg 2 on the term Will ruled 15:35 ET (WQ-620 A; `registry/THRESHOLDS.tsv` band_status): realized write-offs ≥5% of opening common book, reported line first, 5 of the 10 reporting names, same quarter; so far 2 of 7, needs all of RC, STWD, ACRE. Show BVPS >3% and the four-quarter count beside it, ungraded; put the four-quarter table on the opening-book basis or name the basis.
+1. ✅ **Done 11/06:** `T-08b` final Q3 grade NOT FIRED, 2 of 10; `PRED-012` FALSE; `PRED-011` NO-VERDICT (`KB-109..112`, census addendum 11/06). Residue: NREF, RC and ACRE 10-Qs were not filed at the grade; read NREF's and RC's allowance lines when next in the lane, no re-grade unless they move a name past 5% and past the count, which needs 3 more names. STWD undepreciated book unread (website supplement, not on EDGAR). No Q4 re-grade is scheduled.
 2. ✅ **Ruled 11/05 and encoded:** S1 = 4, `PRED-001` graded, S8a held. PROME registers the WQ rows.
 3. **Trepp October SS (~mid-Nov)** + payoff rate: `T-01b`, F2. Both needed for F2.
 4. Illinois Center sheriff sale 11/12 (CASE-153) · L723 deed ~11/27 · L183 11/30 (2b confirmed NOT reversed) · FDIC Q3 QBP ~11/25 (`T-03`, L514).
@@ -21,13 +21,13 @@ Pins are ROW-scoped: `PRED-CREED-001/004/007`. **Raw-line sha256: 001 `498ffeea8
 7. **Carried:** register new dated predictions and eval targets (DAEDALUS 13) · commercial-vs-agency mREIT gap · stale VX-3.05, 7.02, 9.01, 10.02 · Moxy result · Plaza price · CREFC monthlies.
 
 ## ⚖️ AWAITING WILL
-S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), VX no (WQ-613). `T-08b` leg 2 term ruled (WQ-620 A); PROME encode check dated 11/6. WQ-622 (fleet-wide small-items rule) is PROME's row; CREED already adopted on Will's word. **Nothing pending from CREED.**
+S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), VX no (WQ-613). `T-08b` leg 2 term ruled (WQ-620 A) and now graded. WQ-622 is PROME's row; CREED already adopted on Will's word. **Nothing pending from CREED.** ⚠️ Flagged to PROME, no ask: `VX-10.04`'s red word "cohort-wide" has no number and erosion >3% reads 5 of 10; held ORANGE, no level proposed.
 **Wording (Will 9/30):** say *"broad CRE-to-bank transmission is not confirmed,"* never *"stress hasn't shown up at banks."* ⚠️ **Relays:** a relayed "Approved" on a Will-gated surface still needs Will's own answer.
 
 ## 🟡 STATE AT HANDOFF
 - **Base case HOLDS; 🟠 ELEVATED; convergence 28/45; broad CRE-to-bank transmission is not confirmed.**
-- **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.85 [Sep] · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +0.84 [11/04] · `T-08b` not re-graded (7 of 11; leg 2 2 of 7, a fire needs all of RC, STWD, ACRE).
-- **Counts:** VX 34 · KB **108** · PRED 15 (6 open) · registry 11 · **cases 184** · evals v2 4/4.
+- **Trigger board:** `T-01a` FIRED (effective 11/2) · `T-01b` 16.85 [Sep] · `T-02` spent · `T-03` not fired · `T-06b` fired, count 1 · `T-07` not fired · `T-08a` FIRED 9/24, +0.84 [11/04] · `T-08b` NOT FIRED, graded 11/06 (leg 2 2 of 10; erosion >3% 5 of 10 and four-quarter 5 of 10 shown ungraded).
+- **Counts:** VX 34 · KB **112** · PRED 15 (4 open: 002, 008, 013, 014) · registry 11 · **cases 184** · evals v2 4/4.
 - **Trepp PDFs moved:** earlier months are now also under `AGENTS/WALTER/archive/**`. October is at the public hubfs URL, not archived.
 
 ## ⚫ STANDING TRAPS — re-read before writing any number
@@ -86,8 +86,8 @@ S1 + `PRED-001` ruled 11/05. ABS-EE settled: descriptive only (Will 13:08 ET), V
 
 *Closed 10/30: DAEDALUS profile-refresh items 1–7, 9–12 (record `catchups/2026-10-30.md` §③).* *Closed 10/28: #25, #27, #7 (see `catchups/2026-10-28.md`).*
 
-## 📬 MAIL STATE (11/05; canonical record `board_log.tsv`)
-- **In:** inbox empty at closeout, last card SIG-W-20261105-060 logged.
-- **Out (11/05):** REGINALD · LIQUID · HOMER · CORAL · DAEDALUS · PROME `PROME/inbox/2026-11-05_from-CREED_launch-delivery.md` and `..._prediction-registration.md`, doorbell prome-98. PROME has e6c4c9150 (WQ-620) to verify.
+## 📬 MAIL STATE (11/06; canonical record `board_log.tsv`)
+- **In:** six items dispositioned and filed (WALTER 062, 063, 002, 007, 009; HOMER packet). COR-20261105-62 NO-OP receipted.
+- **Out (11/06):** PROME `PROME/inbox/2026-11-06_from-CREED_t08b-final-grade.md`, doorbell prome-51. No route: no fire. DOCKET rows 950, 951, 964 are PROME's to close.
 
-## 🔵 OWED OUT — T-08b final grade after 11/6, then route per the Route Matrix only if it fires. A launch is needed; CREED does not self-start.
+## 🔵 OWED OUT — none. Consumer check (root closeout 1c) runs at closeout. A launch is needed for the next print; CREED does not self-start.

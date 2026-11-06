@@ -1,5 +1,14 @@
 # CREED Thesis Changelog
 
+## 2026-11-06 · **`T-08b` GRADED NOT FIRED for Q3 on the WQ-620 term — no score moved, 28/45**
+
+1. **Census complete, 10 of 10 reporting names** (RC, STWD, ACRE read at primary 11/06; ARI never reports). `KB-109..112`; `research/2026-10-28_MREIT_Q3_CENSUS_PARTIAL.md` addendum 11/06.
+2. **Leg 1 met, 5 of 11, no new cut. Leg 2 not met, 2 of 10** (KREF 26.4, GPMT 9.2; RC 4.8; needs 5). Counting RC and NREF anyway gives 4, so the verdict does not turn on either.
+3. **⚠️ Beside it, ungraded as ruled:** erosion >3% 5 of 10; four-quarter count 5 of 10. Most of the erosion is reserves and marks. STWD's $336.6M provision is attributed in its 10-Q to higher projected rates, which fits Will's 005. Reserves can become write-offs in later quarters; this grade covers Q3 only.
+4. **Predictions:** `PRED-012` FALSE (ACRE $8.86), Brier 0.3025, n=8, mean 0.292. `PRED-011` NO-VERDICT (RC $6.44).
+
+**⚠️ What did NOT change:** no band, op, term, score or route; S8b stays 3; no fire, so no route; broad CRE-to-bank transmission is not confirmed.
+
 ## 2026-11-05 · **`T-08b` leg 2 term RULED (WQ-620 A) — not a grade, no score moved, 28/45**
 
 1. **Will ruled** (2026-11-05 15:35 ET, PROME's chat, verbatim *"620 A and 621 A"*; `PROME/proposals/2026-11-05_wq620-621-RULED.md`). A name counts when write-offs realized in the quarter reach 5% of opening common book, reported line first; reserves, unrealized and held-for-sale marks, return of capital and buybacks do not count; leg 2 is met at 5 of the 10 reporting names in the same quarter. BVPS erosion over 3% and the four-quarter count are shown beside the grade, ungraded.
