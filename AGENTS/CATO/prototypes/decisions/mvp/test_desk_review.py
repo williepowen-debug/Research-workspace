@@ -22,6 +22,8 @@ class ReviewTests(unittest.TestCase):
     install_options = fixtures.DeskTests.install_options
 
     def integrate(self, event, close=False):
+        path = owner_receipt.write_received(self.repo,event)
+        self.git('add','--',path);self.git('commit','-qm','Received fixture','--',path);self.git('push','-q')
         path = 'PROME/proposals/fixture-RULED.md'
         self.put(path, 'WQ-901: matching chat confirmation and ruling for this fixture.')
         self.git('add', '--', path); self.git('commit', '-qm', 'Fixture ruling', '--', path); self.git('push', '-q')

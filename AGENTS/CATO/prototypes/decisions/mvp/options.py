@@ -3,6 +3,7 @@ import hashlib
 import re
 
 from pilot_files import fields, record_block
+from authorization import validate_policy
 
 
 def source_for(repo, row, commit, current=False):
@@ -18,8 +19,12 @@ def source_for(repo, row, commit, current=False):
     if current and repo.read(path, clean=True, prefix="PROME/proposals") != text:
         raise ValueError("Option source is not published; refresh after PROME finishes")
     record = record_block(text, "decisions-options")
-    fields(record, {"schema_version", "wq_id", "queue_row_sha256", "choices"}, "Options")
-    if (record["schema_version"] != "decisions-options/1" or type(record["wq_id"]) not in (str, int)
+    version = record.get("schema_version") if isinstance(record, dict) else None
+    expected = {"schema_version", "wq_id", "queue_row_sha256", "choices"}
+    if version == "decisions-options/2":
+        expected |= {"recommended_choice_id", "confirmation"}
+    fields(record, expected, "Options")
+    if (version not in {"decisions-options/1", "decisions-options/2"} or type(record["wq_id"]) not in (str, int)
             or str(record["wq_id"]) != row["n"]
             or record["queue_row_sha256"] != hashlib.sha256(row["row"].encode()).hexdigest()):
         raise ValueError("Options do not bind this exact queue row")
@@ -34,4 +39,10 @@ def source_for(repo, row, commit, current=False):
         if not re.fullmatch(r"[A-Za-z0-9_-]{1,32}", choice["id"]) or choice["id"] in ids:
             raise ValueError("Option IDs must be unique and unambiguous")
         ids.add(choice["id"])
-    return {"path": path, "commit": commit, "text": text, "choices": choices}
+    result = {"path": path, "commit": commit, "text": text, "choices": choices}
+    if version == "decisions-options/2":
+        recommended = record["recommended_choice_id"]
+        if recommended is not None and (not isinstance(recommended, str) or recommended not in ids):
+            raise ValueError("Recommendation must identify an explicit choice or be null")
+        result.update(recommended_choice_id=recommended, confirmation=validate_policy(record["confirmation"]))
+    return result

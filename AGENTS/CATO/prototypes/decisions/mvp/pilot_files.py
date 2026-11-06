@@ -410,9 +410,13 @@ def read_receipts(repo, event, commit="HEAD"):
         if not re.fullmatch(re.escape(prefix) + r"/[0-9a-f]{32}\.json", path):
             raise ValueError("Unexpected owner receipt path")
         receipt = strict_json(repo.read(path, commit, clean=commit == "HEAD", prefix=prefix))
-        fields(receipt, expected, "Receipt")
+        schema = receipt.get("schema_version") if isinstance(receipt, dict) else None
+        app_only = schema == "decisions-receipt/2"
+        fields(receipt, expected | ({"authorization_basis"} if app_only else set()), "Receipt")
+        if app_only and receipt["authorization_basis"] != "app":
+            raise ValueError("Unknown receipt authorization basis")
         identifier(receipt["id"])
-        if Path(path).stem != receipt["id"] or receipt["schema_version"] != "decisions-receipt/1":
+        if Path(path).stem != receipt["id"] or schema not in {"decisions-receipt/1", "decisions-receipt/2"}:
             raise ValueError("Receipt filename/schema mismatch")
         if receipt["response_id"] != event_id or receipt["response_sha256"] != event["sha256"]:
             raise ValueError("Receipt names another response/hash")
@@ -424,7 +428,9 @@ def read_receipts(repo, event, commit="HEAD"):
         if receipt["state"] == "integrated":
             if receipt["confirmed_response_sha256"] != event["sha256"]:
                 raise ValueError("Integration lacks the matching chat-confirmation assertion")
-            for key in ("canonical_ruling", "chat_confirmation"):
+            if app_only and receipt["chat_confirmation"] is not None:
+                raise ValueError("App-only receipt cannot invent chat confirmation")
+            for key in (("canonical_ruling",) if app_only else ("canonical_ruling", "chat_confirmation")):
                 ref = receipt[key]
                 fields(ref, {"path", "commit"}, key)
                 if not re.fullmatch(r"[0-9a-f]{40}", ref["commit"]):
@@ -436,10 +442,15 @@ def read_receipts(repo, event, commit="HEAD"):
                 repo.read(ref["path"], ref["commit"], prefix="PROME/proposals")
             if not receipt["canonical_ruling"]["path"].endswith("-RULED.md"):
                 raise ValueError("Canonical integration requires a ruling record")
-        elif any(receipt[key] is not None for key in ("canonical_ruling", "chat_confirmation", "confirmed_response_sha256")):
+            if app_only:
+                from authorization import validate_app_integration
+                validate_app_integration(repo, event, receipt["canonical_ruling"], receipt["at"])
+        elif app_only or any(receipt[key] is not None for key in ("canonical_ruling", "chat_confirmation", "confirmed_response_sha256")):
             raise ValueError("Non-integrated receipt contains ambiguous ruling fields")
         receipts.append(receipt)
     ordered = chain(receipts, "id", lambda r: r["previous_receipt_id"])
+    if ordered and ordered[0]["schema_version"] == "decisions-receipt/2":
+        raise ValueError("App-only integration requires a prior received receipt")
     for earlier, later in zip(ordered, ordered[1:]):
         if earlier["state"] != "received" or later["state"] == "received" or timestamp(later["at"]) < timestamp(earlier["at"]):
             raise ValueError("Invalid or conflicting receipt progression")

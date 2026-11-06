@@ -14,6 +14,7 @@ from delivery import validate, published_packet
 from pilot_files import RECEIPTS, RESPONSES, Repo, encoded, identifier, read_receipts, strict_json
 from queue_store import REPLIES, queue_chain, check_current_snapshot, validate_reply
 from store import reader
+from authorization import requires_chat, app_only_enabled, readback_text, validate_app_integration
 
 
 def load_event(repo, event_id):
@@ -31,15 +32,23 @@ def load_event(repo, event_id):
     return event
 
 
-def prepare(repo, event, state, ruling=None, confirmation=None):
+def prepare(repo, event, state, ruling=None, confirmation=None, app_only=False):
+    if state == "integrated":
+        repo.git("fetch", "origin")
     validate(repo, event)
     old = read_receipts(repo, event)
     if old and (old[-1]["state"] != "received" or state == "received"):
         raise ValueError("Receipt already terminal or duplicate received state; preserve history")
     if state not in {"received", "needs_clarification", "rejected_stale", "integrated"}:
         raise ValueError("Unsupported receipt state")
+    if app_only and (state != "integrated" or confirmation is not None):
+        raise ValueError("App-only integration needs an owner ruling and no invented chat confirmation")
+    at = datetime.now(timezone.utc).isoformat()
     if state == "integrated":
-        for ref in (ruling, confirmation):
+        published = read_receipts(repo, event, commit="origin/master")
+        if not old or old != published or old[-1]["state"] != "received":
+            raise ValueError("Integration requires a prior published received receipt")
+        for ref in ((ruling,) if app_only else (ruling, confirmation)):
             if not isinstance(ref, dict) or set(ref) != {"path", "commit"}:
                 raise ValueError("Integration requires published ruling and matching-confirmation references")
             repo.git("merge-base", "--is-ancestor", ref["commit"], "origin/master")
@@ -48,11 +57,43 @@ def prepare(repo, event, state, ruling=None, confirmation=None):
             raise ValueError("Ruling reference must name a -RULED.md record")
     elif ruling or confirmation:
         raise ValueError("Only integration carries ruling/confirmation references")
-    return {"schema_version": "decisions-receipt/1", "id": uuid.uuid4().hex,
+    if app_only:
+        if not app_only_enabled(repo, event):
+            raise ValueError("Chat confirmation is required for every answer until live notification is enabled")
+        check_current_snapshot(repo, event["display"])
+        validate_app_integration(repo, event, ruling, at)
+        assert_latest_app_answer(repo, event)
+    result = {"schema_version": "decisions-receipt/2" if app_only else "decisions-receipt/1", "id": uuid.uuid4().hex,
             "response_id": event["id"], "response_sha256": event["sha256"], "state": state,
-            "at": datetime.now(timezone.utc).isoformat(), "previous_receipt_id": old[-1]["id"] if old else None,
+            "at": at, "previous_receipt_id": old[-1]["id"] if old else None,
             "canonical_ruling": ruling, "chat_confirmation": confirmation,
             "confirmed_response_sha256": event["sha256"] if state == "integrated" else None}
+    if app_only:
+        result["authorization_basis"] = "app"
+    return result
+
+
+def assert_latest_app_answer(repo, event):
+    if not published_packet(repo, event):
+        raise ValueError("App-only ruling requires the delivered response and packet")
+    wq = event["display"]["record"]["wq_id"]
+    events = []
+    for path in repo.git("ls-tree", "-r", "--name-only", "origin/master", "--", REPLIES).splitlines():
+        try:
+            other = strict_json(repo.read(path, "origin/master", prefix=REPLIES))
+            if other.get("display", {}).get("record", {}).get("wq_id") != wq:
+                continue
+        except (ValueError, AttributeError):
+            continue
+        validate_reply(repo, other, wq)
+        if path != f"{REPLIES}/{other['id']}.json":
+            raise ValueError("Response identity mismatch")
+        if other['id'] != event['id'] and any(r['state']=='integrated' for r in read_receipts(repo, other, commit='origin/master')):
+            raise ValueError("Another answer is already recorded")
+        events.append(other)
+    ordered = queue_chain(repo, events)
+    if not ordered or ordered[-1] != event:
+        raise ValueError("Superseded or conflicting answer cannot be integrated")
 
 
 def inspect_event(repo, event):
@@ -96,8 +137,9 @@ def inspect_event(repo, event):
         assert_current(repo, event["display"])
     return {"status": "received" if receipts else "ready", "packet": packet,
             "receipt": receipts[-1] if receipts else None,
-            "requires_chat_confirmation": True,
-            "meaning": "Mechanical checks only; PROME must interpret, confirm and record the ruling."}
+            "requires_chat_confirmation": requires_chat(repo, event["display"], event),
+            "readback_text": readback_text(event),
+            "meaning": "Mechanical checks only; PROME reviews conditions and chat conflicts, reads back the exact ruling, and records it. App-only integration requires its pinned scope/readback attestation."}
 
 
 def receipt_path(repo, receipt):
@@ -175,7 +217,7 @@ def intake(repo, write=False, event_id=None):
         results.append(row)
     return {"checked_revision": revision, "items": results,
             "scope": "Published answers only; private drafts are not observable. Received is not ruled or implemented.",
-            "requires_chat_confirmation": True}
+            "confirmation": "Per-answer policy; missing classification requires chat."}
 
 
 def main():
@@ -190,6 +232,7 @@ def main():
     r.add_argument("state", choices=["received", "needs_clarification", "rejected_stale", "integrated"])
     r.add_argument("--ruling-path"); r.add_argument("--ruling-commit")
     r.add_argument("--confirmation-path"); r.add_argument("--confirmation-commit")
+    r.add_argument("--app-only", action="store_true", help="Eligible internal answer only; ruling must contain exact scope/conflict/readback attestation")
     r.add_argument("--write", action="store_true", help="PROME only: create one immutable receipt; no Git mutation")
     args = p.parse_args(); repo = Repo(reader.ROOT)
     if args.command in {"pending", "intake"}:
@@ -200,7 +243,7 @@ def main():
     event = load_event(repo, args.event_id)
     ruling = {"path": args.ruling_path, "commit": args.ruling_commit} if args.ruling_path else None
     confirmation = {"path": args.confirmation_path, "commit": args.confirmation_commit} if args.confirmation_path else None
-    receipt = prepare(repo, event, args.state, ruling, confirmation)
+    receipt = prepare(repo, event, args.state, ruling, confirmation, app_only=args.app_only)
     if args.write:
         path = receipt_path(repo, receipt)
         path.parent.mkdir(parents=True, exist_ok=True)

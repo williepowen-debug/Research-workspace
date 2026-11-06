@@ -157,7 +157,7 @@ class BatchTests(unittest.TestCase):
         receipt=json.loads(files[0].read_text()); self.assertEqual(receipt['state'],'received')
         self.assertIsNone(receipt['canonical_ruling']); self.assertIsNone(receipt['chat_confirmation'])
         self.assertEqual(self.repo.path('PROME/WILL_QUEUE.md').read_text(),self.text)
-        self.assertTrue(first['requires_chat_confirmation'])
+        self.assertTrue(first['items'][0]['requires_chat_confirmation'])
         self.assertEqual(self.git('diff','--cached','--name-only'),'')
 
     def test_intake_rejects_stale_terms_and_superseded_answer(self):

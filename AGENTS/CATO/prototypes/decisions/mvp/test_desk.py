@@ -347,6 +347,9 @@ class DeskTests(unittest.TestCase):
         import owner_receipt
         e = self.store.save(self.request()); delivery.deliver(self.repo, e)
         self.assertEqual(owner_receipt.load_event(self.repo, e["id"]), e)
+        received = owner_receipt.prepare(self.repo,e,"received")
+        self.put(f"PROME/decisions/receipts/{e['id']}/{received['id']}.json",encoded(received)+"\n")
+        self.commit(publish=True)
         with self.assertRaisesRegex(ValueError, "requires published"):
             owner_receipt.prepare(self.repo, e, "integrated")
         self.put("PROME/proposals/fixture-RULED.md", "Fictional owner ruling plus matching confirmation")
@@ -359,7 +362,7 @@ class DeskTests(unittest.TestCase):
         self.put(f"PROME/decisions/receipts/{e['id']}/{receipt['id']}.json", encoded(receipt) + "\n")
         self.put("PROME/WILL_QUEUE.md", "\n".join(l for l in self.text.splitlines() if not l.startswith("| 901")))
         self.commit(publish=True)
-        self.assertEqual(read_receipts(self.repo, e), [receipt])
+        self.assertEqual(read_receipts(self.repo, e), [received, receipt])
         display = self.store.display()
         self.assertEqual(display["group"], "History")
         self.assertFalse(display["can_respond"])
@@ -379,7 +382,7 @@ class DeskTests(unittest.TestCase):
         self.put("PROME/reports/fixture-review.md", "Fixture independent acceptance; not real approval")
         self.commit(publish=True)
         record = {"schema_version": "decisions-app-acceptance/1", "queue_responses": True,
-                  "matching_chat_confirmation": True, "build_hashes": app.build_hashes(),
+                  "matching_chat_confirmation": True, "confirmation_policy": "explicit-reversible-internal/1", "build_hashes": app.build_hashes(),
                   "independent_review": {"path": "PROME/reports/fixture-review.md", "commit": self.git("rev-parse", "HEAD").strip()}}
         self.put(app.ACCEPTANCE, json.dumps(record)); self.commit()
         self.assertFalse(app.accepted(self.repo)[0])

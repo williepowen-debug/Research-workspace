@@ -1,0 +1,51 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; python3 \"$R/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py\"",
+            "timeout": 43260,
+            "asyncRewake": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; python3 \"$R/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py\"",
+            "timeout": 43260,
+            "asyncRewake": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; python3 \"$R/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py\"",
+            "timeout": 43260,
+            "asyncRewake": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "R=$(git rev-parse --show-toplevel 2>/dev/null) || exit 0; python3 \"$R/AGENTS/CATO/prototypes/decisions/mvp/notification_hook.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

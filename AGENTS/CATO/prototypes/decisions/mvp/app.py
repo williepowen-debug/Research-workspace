@@ -6,19 +6,22 @@ import json
 from pathlib import Path
 import re
 import subprocess
+import sqlite3
 import threading
 import webbrowser
 
 import delivery
 import history
 import briefs
+from notifications import Notifications
+from authorization import app_only_enabled
 from pilot_files import PilotStore, Repo, RESPONSES, RECEIPTS, strict_json
 from queue_store import QueueStore, QUEUE, REPLIES, open_rows, unit_for
 from server import make_server
 from store import HERE, identifier, reader
 
 ACCEPTANCE = "PROME/decisions/app-acceptance.json"
-BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py")
+BUILD_FILES = ("app.py", "desk.html", "queue_store.py", "delivery.py", "pilot_files.py", "store.py", "server.py", "owner_receipt.py", "options.py", "history.py", "briefs.py", "authorization.py", "notifications.py", "notification_hook.py")
 PILOT_SOURCE = "PROME/proposals/2026-10-30_wq558-l884-pilot-source.md"
 POWERSHELL = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe"
 
@@ -44,7 +47,7 @@ def accepted(repo):
         record = strict_json(raw)
         if record.get("schema_version") != "decisions-app-acceptance/1" or record.get("build_hashes") != build_hashes():
             raise ValueError("This installed build is not yet enabled for replies")
-        if record.get("queue_responses") is not True or record.get("matching_chat_confirmation") is not True:
+        if record.get("queue_responses") is not True or record.get("matching_chat_confirmation") is not True or record.get("confirmation_policy") != "explicit-reversible-internal/1":
             raise ValueError("Daily reply contract is not accepted")
         review = record["independent_review"]
         repo.git("merge-base", "--is-ancestor", review["commit"], "origin/master")
@@ -63,6 +66,7 @@ class Desk:
         self.lock = threading.RLock()
         self.sync_receipt = None
         self.stores = {}
+        self.notifications = Notifications(self.state)
         self.loaded_hashes = build_hashes()
 
     def permissions(self):
@@ -82,7 +86,8 @@ class Desk:
     def display(self):
         with self.lock:
             enabled, limit = self.permissions()
-            cards, errors, rows = [], [], {}
+            cards, errors, source_errors, rows = [], [], [], {}
+            app_authority = app_only_enabled(self.repo)
             try:
                 rows = open_rows(self.repo.path(QUEUE).read_text())
             except (ValueError, OSError) as error:
@@ -123,8 +128,8 @@ class Desk:
                     for e in card["events"]:
                         card.setdefault("event_delivery", {})[e["id"]] = delivery.delivery_state(self.repo, e)
                     cards.append(card)
-                except (ValueError, OSError, subprocess.CalledProcessError) as error:
-                    errors.append("WQ-" + wq + ": " + str(error))
+                except (ValueError, TypeError, KeyError, AttributeError, OSError, subprocess.CalledProcessError) as error:
+                    source_errors.append("WQ-" + wq + ": " + str(error))
                     if wq in rows:
                         cards.append({"wq_id": wq, "unit": unit_for(rows[wq]), "hash": None,
                                       "group": "Tasks for me" if rows[wq]["kind"] == "HANDS" else "Decisions",
@@ -158,16 +163,30 @@ class Desk:
                 for card in cards:
                     card["can_respond"] = False
             for card in cards:
+                card["requires_confirmation"] = (card.get("requires_confirmation", True) or not app_authority
+                                                 or bool(card.get("last") and not app_only_enabled(self.repo, card["last"])))
                 historical = card["group"] == "History" or bool(card.get("errors"))
                 card.update(briefs.presentation(card.get("snapshot") or {}, historical=historical))
+                try:
+                    if card.get("last") and card.get("receipt"):
+                        self.notifications.acknowledge(card["last"]["id"])
+                    elif card.get("last") and card.get("delivery") == "delivered":
+                        self.notifications.enqueue(self.repo, card["last"])
+                except (ValueError, OSError, subprocess.SubprocessError, sqlite3.Error):
+                    pass  # Publication and owner receipts remain authoritative.
+
                 card["saved_briefs"] = {event["id"]: briefs.presentation(event["display"], historical=True)
                                         for event in card.get("events", [])}
+            try:
+                notification = self.notifications.status()
+            except (OSError, sqlite3.Error):
+                notification = {"state": "unknown", "message": "PROME notification is unavailable. Published answers remain delivered."}
             rulings = history.recent(self.repo)
             remote = self.repo.git("remote", "get-url", "origin").strip().removesuffix(".git")
             match = re.fullmatch(r"(?:https://github\.com/|git@github\.com:)([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", remote)
-            return {"mode": "decisions-desk", "cards": cards, "errors": errors, "limit": limit,
+            return {"mode": "decisions-desk", "cards": cards, "errors": errors, "source_errors": source_errors, "limit": limit,
                     "source_url": "https://github.com/" + match[1] + "/blob/" if match else None,
-                    "rulings": rulings,
+                    "rulings": rulings, "notification": notification,
                     "can_deliver": enabled and not errors, "sync": self.sync_receipt,
                     "head": self.repo.git("rev-parse", "HEAD").strip()}
 
@@ -203,8 +222,14 @@ class Desk:
                     if not self.permissions()[0]:
                         raise ValueError("Acceptance or application changed during delivery; reopen Decisions")
                 store = self.stores[card["wq_id"]]
-                return delivery.deliver(self.repo, event, guard=guard,
-                                        local_events=lambda: store.responses()["events"])
+                result = delivery.deliver(self.repo, event, guard=guard,
+                                          local_events=lambda: store.responses()["events"])
+                try:
+                    result["notification"] = self.notifications.enqueue(self.repo,event)
+                    result["message"] += " Delivered; PROME has not yet acknowledged reading it. " + result["notification"]["message"]
+                except (ValueError,OSError,subprocess.SubprocessError,sqlite3.Error):
+                    result["message"] += " Delivery succeeded; notification is unconfirmed."
+                return result
             raise ValueError("Unknown desk operation")
 
 

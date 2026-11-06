@@ -20,6 +20,16 @@ def event_path(event):
 def packet_text(event):
     path = event_path(event)
     eid = identifier(event["id"])
+    if 'confirmation' in (event['display'].get('options_source') or {}):
+        from authorization import needs_chat
+        policy = 'Matching chat confirmation is required.' if needs_chat(event['display']) else 'App-only eligible, subject to PROME reviewing conditions and any chat conflict.'
+        return (f"# CATO → PROME: Decisions response {eid}\n\n"
+                f"Response: `{path}`\n\nEvent SHA256: `{event['sha256']}`\n\n"
+                f"Unit: `{event['request']['unit_id']}`; saved {event['saved_at']}.\n\n"
+                f"ACTION: read the exact immutable event and displayed terms. {policy} "
+                "Preserve conditions verbatim. Read each ruling back to Will the same day; conflicting answers await clarification. "
+                "Write your own receipt/ruling through owner_receipt.py. Notification is not a read receipt or ruling. "
+                "The app does not execute decisions or launch an agent.\n")
     return (f"# CATO → PROME: Decisions response {eid}\n\n"
             f"Response: `{path}`\n\nEvent SHA256: `{event['sha256']}`\n\n"
             f"Unit: `{event['request']['unit_id']}`; saved {event['saved_at']}.\n\n"
@@ -306,7 +316,7 @@ def deliver(repo, event, guard=None, local_events=None):
             raise ValueError("Response saved; latest published terms could not be fetched. No reply committed.") from error
         recheck()
         if delivery_state(repo, event) == "delivered":
-            return {"message": "Already delivered to PROME; awaiting matching chat confirmation and receipt.",
+            return {"message": "Already delivered to PROME; awaiting its read and the applicable confirmation.",
                     "commit": repo.git("rev-parse", "origin/master").strip(),
                     "packet": published_packet(repo, event), "checks": [], "receipt": "Exact published pair verified."}
         if delivery_state(repo, event).startswith("published without"):
@@ -393,7 +403,7 @@ def deliver(repo, event, guard=None, local_events=None):
                 raise ValueError("Published pair is present, but remote references differ from the expected publication. Reconcile before confirming in chat; concurrent updates may be responsible.")
             tail = refresh_after_publication(repo)
             advice = "\n\n".join(r["check"] + ":\n" + r["output"] for r in results if r["exit"] == 1)
-            return {"message": "Delivered to PROME's inbox. Awaiting matching chat confirmation and receipt." + tail
+            return {"message": "Delivered to PROME's inbox. Awaiting its read and the applicable confirmation." + tail
                                + ("\nAdvisory findings (delivery completed):\n" + advice if advice else ""),
                     "commit": commit, "packet": published_packet(repo, event), "checks": results,
                     "receipt": "One response commit, exactly the two selected paths, and published pair verified after fetch."

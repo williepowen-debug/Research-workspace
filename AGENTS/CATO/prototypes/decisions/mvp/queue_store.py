@@ -11,6 +11,7 @@ import tempfile
 from pilot_files import Repo, chain, fields, read_receipts, strict_json
 from store import HERE, Store, digest, encoded, identifier, reader
 from options import source_for
+from authorization import needs_chat
 
 QUEUE = "PROME/WILL_QUEUE.md"
 REPLIES = "AGENTS/CATO/decisions/queue-responses"
@@ -46,7 +47,7 @@ def unit_for(row, options=None):
     c = row["cells"]
     return {"id": c[0] + ".queue", "kind": "hands" if row["kind"] == "HANDS" else "decision",
             "proposal": {"question": c[1], "context": c[6], "choices": options["choices"] if options else [],
-                         "recommendation": {"reason": c[5], "option_id": None}, "caveats": []},
+                         "recommendation": {"reason": c[5], "option_id": (options or {}).get("recommended_choice_id")}, "caveats": []},
             "timing": {"needed_by": row["due"], "meaning": c[3], "revisit_condition": None},
             "disposition": {"state": "outstanding" if row["kind"] == "HANDS" else "awaiting_answer"},
             "queue_kind": row["kind"], "blocked": row["blocked"]}
@@ -285,7 +286,7 @@ class QueueStore(Store):
                 "delivery_block": delivery_block, "conflict": bool(self.conflict),
                 "history_notes": (["Earlier saved versions are unavailable on this computer; their words are not inferred. "
                                    "Only published answers travel through the repository."] if gaps else []),
-                "response_type": "queue", "requires_confirmation": True}
+                "response_type": "queue", "requires_confirmation": needs_chat(d)}
 
     def save(self, request):
         if not self.enabled:

@@ -1,3 +1,7 @@
+## WQ-641 confirmation and installation update
+
+See [the owner contract](WQ638.md) for explicit recommended choices, preserved conditions and the receive/rule sequence. The reviewed build supports `app_only_enabled: false` in published acceptance: **every answer then needs matching PROME-chat confirmation**, even if its card is internally eligible. Missing or invalid enablement also stays chat-required. Enable app-only only after demonstrated live interactive PROME notification and a valid `app_only_since`; older answers are not upgraded. The fallback does not install hooks. The earlier acceptance examples omit enablement and therefore select the conservative fallback.
+
 # Decisions — local daily desk
 
 Open **Decisions → Open Decisions** in the Agent Launcher, or run from the repository root:
