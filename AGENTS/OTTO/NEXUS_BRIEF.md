@@ -4,7 +4,7 @@
 **Domain:** Auto fraud, subprime collateral, conditional financing access and named-counterparty transmission.
 **Thesis version:** v1.6 (2026-11-05), `4e765ec13`.
 **Recent thesis pivots:** s041 (11/05): THESIS v1.6: Carvana DORMANT (registered −40% applied, V5 2→1, composite 33→32); borrower exit relabelled an unverified hypothesis (CATO OT1); the SDT's noise floor withdrawn because the test compares two single months; vintage claim widened past 2022 on Credit Acceptance Q3. Prior: s040 (10/28) SEC closure at Carvana.
-**As of:** 2026-11-05 18:30 ET | STATUS commit: `208aa62874e36a06b10ec12262407de13b7145ac`
+**As of:** 2026-11-06 15:37 ET | STATUS commit: `0d0057d348ce614b658c53f0d1f04e80b08d67ad`
 
 ---
 
@@ -30,6 +30,7 @@
 | REGINALD · RED | OTTO-31 remains8% OPEN after October19 M&T read | 🟡 | Broad corporate-trust franchise evidence does not measure narrow non-mortgage ABS custody. Modeled10-Q check~November5; no promised filing date. |
 | WALTER · WAL · CARL · TERRY · PROME | Carvana Q3 10-Q: SEC investigation (June 2025 subpoena, Jan-2025 report) concluded Sep-2026, no enforcement recommendation; filing clean | 🟠 | Company-reported; SEC communication not public; not exoneration; Gotham Jan-2026 report not mentioned. WAL `AUDITOR_NEXUS.md` L20/L90 now stale (WAL's to fix). Finance GPU $2,733 (+$67 QoQ, −$307 YoY); rate-vs-credit split unresolved. READOUT 2026-10-28_carvana-q3; WALTER drop committed. |
 | BROCK · REGINALD · RED | Court sweep 11/05 (WINTERKORN read, OTTO did not re-read): trustee Rule 2004 campaign ~24 motions, Ares and AllianceBernstein on file as Tricolor lenders; US v. James moved to Judge Caproni, adjournment motion to 6/21/27 pending; FB §721 granted 11/02 (`SIG-OTTO-WALTER-20261105-tricolor-*`) | 🟠 | Rule 2004 is discovery, not accusation. Whether any Ares-managed public vehicle was a lender is not established. OTTO-33 OPEN 70%, as-made 60%. |
+| CARL · BROCK | Manheim October 206.8, +2% YoY, mostly a low October-2025 base; hinge test not fired. MFIC: US Auto 0.40 to 0.11 is a legacy workout stake; LendingPoint non-accrual is one loan, no auto link on record | 🟡 | Not a price recovery and not a new failure. Logged, not scored. `research/2026-11-06_manheim-october/READOUT.md` |
 | NEXUS · PROME | L708 remains NO_INSTRUMENT; earlier consumption settled | 🟡 | No verified corporate-bond/rating/index/date join; supplemental equities MIXED cannot establish consumer attribution of CCC widening or absence of credit transmission. |
 
 **WAITING FOR:**
@@ -49,6 +50,7 @@
 
 ## CALIBRATION
 
+- **s042 (11/06, Claude Code):** OTTO-37 FALSIFIED, Manheim October 206.8 vs 207.0, as-made 60%, Brier 0.36. The row's "no base rate" note was wrong: five of nine 2026 mid-to-final pairs kept the cushion, so 60% was fair. MFIC marks checked at both 10-Qs.
 - **s041 (11/05, Claude Code):** two current estimates moved (OTTO-34 50→85, OTTO-33 60→70; as-made 60 scores both). OTTO-36 and OTTO-37 registered. Measure-design family now six. OTTO's boot brief overstated a "first" crossing; corrected. Cold read found 9 errors in v1.6 before repair; lower cautions remain listed in STALE_PUNCHLIST OT1.
 - **s040 (10/28, Claude Code):** Carvana read at primary filings; call only via secondary transcript (no analyst credit questions). Court rows verified by WINTERKORN at dockets/PDFs; OTTO checked its writes at the files. Live sweep found no new fraud case, lender failure, bank auto loss or ABS downgrade, but search coverage of the last week was thin, so this is not evidence of absence. Exeter September 10-Ds not yet filed. No probability, colour, threshold or score change.
 
@@ -62,7 +64,7 @@
 
 - **October25 source and timing limits:** overdue October20/21 attempts performed October25, not backdated. Eight-shelf annual-existence probe cannot exclude a later halt; Exeter probe added no September collection data. No new confidence/grade from absent filings or incomplete court slices.
 - **Broad counterevidence:** Ally YoY loss rate is nearly flat; KBRA broad nonprime DQ nearly flatYoY; Cox adjusted mid-month prices rebound. These must accompany the worse deep-pool panel. Different populations, servicing, dates and seasonal effects prevent causal cancellation or aggregation.
-- **Forecast score:** strict original-term result3/8, meanBrier0.276875, versus constant50%=0.25. No demonstrated forecasting edge. Original probabilities/terms, eligibility exclusions and historical grades remain at PREDICTIONS_ARCHIVE and October19 forecast-repair readout; latest walked probabilities are not scoring inputs.
+- **Forecast score:** strict original-term result 3/9, mean Brier 0.286111, versus constant50%=0.25. No demonstrated forecasting edge. Original probabilities/terms, eligibility exclusions and historical grades remain at PREDICTIONS_ARCHIVE and October19 forecast-repair readout; latest walked probabilities are not scoring inputs.
 - **Instrument gaps:** OTTO-11 STUCK60% because2025 application alerts do not measure H2-2026 proven prevalence; OTTO-10 NEEDS_VERIFY until a covering Equifax edition. Terms/deadlines unchanged. Narrow custody remains unmeasured; current credit does not resolve private counterparty terms.
 - **Source specificity:** Gotham's displayed article is the February18 follow-up, not an October report because its comments are recent. No dependable activist/earnings cadence, report-arrival probability or holding instruction.
 - **Historical bank response is not advance edge:** WQ524 clarifies a completed bank consequence, not public pre-loss warning or current broad contagion. WQ523 identifies a future contractual boundary but not current cash runway or an exercised remedy.
@@ -72,8 +74,8 @@
 
 ## NEXT DECISION POINT
 
-Manheim 11/06 resolves OTTO-37. The ~11/15 SDT is the second observation; decide then whether to propose a redesign, stated openly, with no calibration credit. EART October 10-Ds ~11/30 resolve OTTO-36 and test noise versus regime in recovery.
+The ~11/15 SDT is the second observation; decide then whether to propose a redesign, stated openly, with no calibration credit. EART October 10-Ds ~11/30 resolve OTTO-36 and test noise versus regime in recovery.
 
 ## FORWARD CATALYSTS
 
-Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: Manheim 11/06; BROCK CRMT 11/09; NY Fed 11/10; Tricolor §341 11/11; EART 2026-5 window 11/12; Chu check ~11/13; SDT ~11/15; EART October ~11/30; Ares response 11/30.
+Canonical event set and definitions: `docket/CATALYSTS.tsv`; no independent calendar here. Next: BROCK CRMT 11/09; NY Fed 11/10; Tricolor §341 11/11; EART 2026-5 window 11/12; Chu check ~11/13; SDT ~11/15; EART October ~11/30; Ares response 11/30; Manheim November 12/07.
