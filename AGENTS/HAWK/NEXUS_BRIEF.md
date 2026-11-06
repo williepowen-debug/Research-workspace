@@ -3,7 +3,7 @@
 **Status:** ELEVATED. Both wars press oil together again, more on products than crude; net crude loss and the premium's share of the price remain UNMEASURED. Tonight's Qeshm reports are NOT ESTABLISHED as a US strike. No mark or band moved.
 **Domain:** Cross-war synthesis and dormant geopolitical book.
 **As of:** November 6, 2026, 18:36 ET (from `date`), closeout; owner evidence FALCON `4704ffa115` (17:32 ET), OSPREY `7566d02f28` (17:29 ET), BRENT close `e148eb44b3` (17:15 ET).
-**STATUS commit:** `4502212f0e`.
+**STATUS commit:** `bc7aa7f305`.
 
 | Consumer | Material result | Limitation |
 |---|---|---|
