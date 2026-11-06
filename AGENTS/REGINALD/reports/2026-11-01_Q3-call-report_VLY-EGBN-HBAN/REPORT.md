@@ -1,5 +1,7 @@
 # Q3 Call Report read: VLY and EGBN credit composition, HBAN M3 step, Friedberg test plan
 
+> **Correction 2026-11-06:** I called VLY's NOO CRE 30-89 $61.4M 'new' below. The figure stands; 'new' was wrong, the line is lumpy → `../2026-11-06_VLY-EGBN_10Q_reads.md` §1.
+
 **Date:** 2026-11-01, 23:16–23:5x ET (`date`). **Session:** PROME-spawned C9 research commission (WQ-587, WQ-538 class), one bounded session, $0. **Finding on record:** WALTER card SIG-W-20261031-026 and `AGENTS/WALTER/research/2026-10-31_call-report-read/REPORT.md` (34806ae91).
 **Basis, every figure below unless labelled otherwise:** BANK-level FFIEC Call Report (VLY RSSD 229801, FFIEC 031; EGBN RSSD 2652092, FFIEC 041; HBAN RSSD 12311, FFIEC 031), $ thousands in the evidence file, quarter-end 3/31, 6/30 and 9/30/2026. Quarterly flows = September YTD minus June YTD. Parent (issuer release) figures are labelled PARENT.
 **Retrieval:** my own pull through the FFIEC CDR REST route with the renewed token, 2026-11-02T04:18Z (23:18 ET 11/1). All nine SDFs hash-identical to WALTER's (same artifact; the arithmetic below is mine) → `retrieval.tsv`; every row used → `primary-rows.tsv`.
