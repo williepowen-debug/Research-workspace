@@ -1,27 +1,27 @@
 # WALTER — LAST COMPLETION
 
-Updated 2026-11-06T15:23:52Z, Claude Code Opus 5.5, session walter-9e on the laptop. OPEN; LIGHT closeout, coverage PARTIAL.
+Updated 2026-11-06T16:09:08Z, Claude Code Opus 5.5, session walter-9e on the laptop. OPEN; LIGHT closeout, coverage PARTIAL.
 
 ## RESUME — do these first
 
 1. `git pull --rebase` at root, then ordinary boot.
 2. **Owner grades on HY 348 [Nov 5]:** RED and TERRY pending on card 012; TERRY's 344 line reads crossed. REG-T-04 is 2 bp away; the November 6 HY cell posts about 10:10 ET November 9.
-3. **Second-day jobs read, not yet routed:** market reaction, consensus and the helper's news gap search: research/2026-11-06_boot/ if returned; otherwise rerun.
+3. **Helper returned 11:07 ET:** cards 017–019 routed. HENRY and BOND hold the hike read; OTTO holds OTTO-37; FALCON and BRENT hold the new UKMTO report.
 4. **Iran and Saudi:** next full sweep about November 12; add Saudi, Houthi and Yanbu terms.
 5. **Open:** CF's call unheard; BoE Monetary Policy Report unread; bookmark links behind 403 unread; DOORBELL_LOG rows for November 2–4 not written; wake recommendations with PROME for HANS, HOMER, CORAL, FERT. STWD and ACRE calls unheard; RC call unheard.
 6. **WQ-622 combination watch:** WALTER has not set it up. Offer stands; Will has not answered.
 
-Calendar coverage cutoff: 2026-11-06T15:23:52Z (step 7i run; rows in research/2026-11-06_boot/CALENDAR-RECONCILIATION.tsv; UNKNOWN rows named there).
+Calendar coverage cutoff: 2026-11-06T16:09:08Z (step 7i run; rows in research/2026-11-06_boot/CALENDAR-RECONCILIATION.tsv; UNKNOWN rows named there).
 
 ## STATUS
 
-OPEN; no unattended work. Boot PARTIAL: desk STATUS leads only; HANS dailies, TTF and AGSI not re-read; READS check UNKNOWN on a stale attestation, PROME's L845; news helper may still be running at this receipt. Evidence: research/2026-11-06_boot/.
+OPEN; no unattended work. Boot PARTIAL: desk STATUS leads only; HANS dailies, TTF and AGSI not re-read; READS check UNKNOWN on a stale attestation, PROME's L845; Iran guard corpus not read whole for card 018. Evidence: research/2026-11-06_boot/.
 
-November 5 total: 67 BOARD cards, 261 handoffs. November 6 so far: 15 cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
+November 5 total: 67 BOARD cards, 261 handoffs. November 6 so far: 19 cards. WAL Q3 source recovery remains CLOSED — NOT RECOVERED, accepted by Will; do not expand or restart.
 
 ## CHANGED
 
-November 6 boot: cards 001–015; COR-20261106-15; batch BM-20261106-01 closed 30 of 30 and bookmarks marked; five packets consumed (LABOR, HENRY, LIQUID, BROCK, CYPHER); REGISTRY rows refreshed. X scan worked at 14:59Z with no re-authorization by this session. Earlier: Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; 065 (correction of 007, 056, 058 on BRENT's packet), 066 and 067 (OTTO packets); ADD#26 Yanbu date line and anchor note added; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
+November 6 boot: cards 001–019; Iran anchor bounded note, sweep clock unchanged; COR-20261106-15; batch BM-20261106-01 closed 30 of 30 and bookmarks marked; six packets consumed (LABOR, HENRY, LIQUID, BROCK, CYPHER, VIOLET); REGISTRY rows refreshed. X scan worked at 14:59Z with no re-authorization by this session. Earlier: Evening boot: cards 062 (correction of 060, CYPHER packet consumed), 063, 064; 065 (correction of 007, 056, 058 on BRENT's packet), 066 and 067 (OTTO packets); ADD#26 Yanbu date line and anchor note added; REGISTRY mirror refreshed; USER.md boot-basis hash re-attested after reading WQ-622. Earlier: Cards 001–061 including FLASH 016 and 017; Gmail pass 030–037, review research/2026-11-05_midday-boot/GMAIL-REVIEW.md; 027 HENRY midday gamma, 028 REGINALD Preferred update; 024 Peña, 025 REGINALD late loans, 026 correcting 024 on REGINALD's measurement; four bookmarks marked. Iran anchor bounded addendum, sweep clock unchanged. STATUS and anchor rotated verbatim, both 69% of budget at rotation. L334 predictive leg delivered, research/2026-11-05_L334/REPORT.md. CRUISE candidate folded to SIG-W-20261014-028. DEWEY card peer check closed; AmEx figure spot-checked. Sixteen bookmarks marked after Will re-authorized X at 10:06 ET. Kill log row added. PROME packets filed.
 
 ## RESULT
 

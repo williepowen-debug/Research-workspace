@@ -5,11 +5,11 @@ acre-q3	CREED STATUS; DOCKET	CREED	published	8-K accepted 2026-11-05 21:47 ET; 9
 hy-oas-nov5	DOCKET WAKE rows; STATUS	LIQUID/RED/REGINALD/TERRY	published	FRED Nov 5 HY 348 read 15:12Z	reviewed/routed SIG-W-20261106-012	LIQUID graded, card 013; RED, TERRY pending	research/2026-11-06_boot/observations.json	owners
 vixcls-nov5	RED-FT-06	RED	published	FRED VIXCLS Nov 5 28.18	no fire; exit count 1 of 5 on my read	RED owes	research/2026-11-06_boot/observations.json	RED
 skew-nov5	RED-FT-10	RED/VIOLET	published	Cboe Nov 5 149.37	no fire; exit not started	RED/VIOLET owe	research/2026-11-06_boot/SKEW_History.csv	RED
-manheim-october	DOCKET OTTO-37	OTTO	UNKNOWN	Cox release due Nov 6; helper checking	pending helper	pending OTTO		helper return
+manheim-october	DOCKET OTTO-37	OTTO	published	Cox Nov 6: 206.8	reviewed/routed SIG-W-20261106-019	pending OTTO		OTTO
 wq-556c-check	LAST_COMPLETION follow-up 2	WALTER/PROME	UNKNOWN	not established in this boot	UNKNOWN	UNKNOWN		read WQ-556 row at closeout
-cabo-gtcr-mbi-intervention	card 064	BROCK	UNKNOWN	10-Q says as soon as Nov 6; helper checking	BROCK packet routed SIG-W-20261106-014; intervention itself not established	pending BROCK		helper return
+cabo-gtcr-mbi-intervention	card 064	BROCK	UNKNOWN	10-Q says as soon as Nov 6; helper checking	not found; docket not reached; card 019	pending BROCK		helper return
 rc-call	card 063	CREED	held 08:30 ET	no transcript read	not read	pending CREED		CREED
-ny-fed-household-debt-q3	PROME/DOCKET L575	CARL/NEXUS	UNKNOWN	helper checking	pending helper	none		helper return
+ny-fed-household-debt-q3	PROME/DOCKET L575	CARL/NEXUS	future	NY Fed advisory Nov 4: release Nov 10	routed SIG-W-20261106-019	none		Nov 10
 npc-standing-committee-11-06	DOCKET ZHAO	ZHAO	UNKNOWN	session ends Nov 6; zhao-7b live	not checked; owner live	ZHAO live session		ZHAO
 ozk-q3-10q	PROME/DOCKET L763	OZK	UNKNOWN	not re-checked this pass	pending	pending OZK		next pass
 flg-q3-10q	REGINALD STATUS	FLG	UNKNOWN	not re-checked this pass	pending	pending FLG		next pass

@@ -1,9 +1,9 @@
 # WALTER STATUS
-**Updated:** 2026-11-06T15:23:52Z — OPEN, session walter-9e, light closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
+**Updated:** 2026-11-06T16:09:08Z — OPEN, session walter-9e, light closeout. Coverage PARTIAL. Duties: LAST_COMPLETION.md.
 
 ## BOTTOM LINE
 
-November 6 boot: 15 cards. October jobs +165,000 fired LABOR's own kill rule on its freeze thesis. Tokyo fell 5.96%, SoftBank 10.83%. HY 348 [Nov 5], +16 bp, no FLASH, 2 bp under REG-T-04; TERRY's 344 line reads crossed, TERRY grades. LIQUID: Gate 069 L4 fired, tier rule BROADENS, funding did not move. STWD GAAP loss on a $336.6M provision. No new WALTER registered fire.
+November 6 boot: 19 cards. October jobs +165,000 against about 65,000 expected fired LABOR's own kill rule on its freeze thesis. Tokyo fell 5.96%, SoftBank 10.83%. HY 348 [Nov 5], +16 bp, no FLASH, 2 bp under REG-T-04; TERRY's 344 line reads crossed, TERRY grades. LIQUID: Gate 069 L4 fired, tier rule BROADENS, funding did not move. STWD GAAP loss on a $336.6M provision. December hike odds near 78%. UKMTO reports a tanker explosion leaving Hormuz; no confirmed mine or sinking. No new WALTER registered fire.
 
 BALANCED baseline; the labor LOOSE window lapsed with the release. Resume list: top of LAST_COMPLETION.md.
 
