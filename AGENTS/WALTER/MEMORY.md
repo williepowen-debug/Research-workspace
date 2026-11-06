@@ -82,6 +82,8 @@
 
 64. **Doorbell every live ACTION owner at dispatch, and re-run ListAgents first.** 11/05: 024–037 went out with no rule 6 doorbell until Will asked; CYPHER and LABOR were live when logged absent. → MESSAGING rule 6
 
+65. **A correction is not finished until the corrected card's FILE carries the banner.** 11/06: six corrections went out with `corrects:`, the index marker and the register row, and no banner in the original; a reader opening the card saw no warning. All four §3.6 surfaces, same commit. → BOARD_CONSUMPTION_SPEC §3.6
+66. **A peer's "unsupported" carries the window it tested; ask for the window before relaying the negative.** 11/06: LIQUID called Oracle CDS 3.25% unsupported through November 5 having tested only November files; October 20 printed 342.5. WALTER carried the line on card 037, then corrected it on 042. Same class as #28. → BOARD 042
 **✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
@@ -95,4 +97,4 @@
 
 ## Session Notes
 
-November 6 FULL CLOSED on Will request, before payrolls. LAST_COMPLETION owns duties. Laptop: X refresh failed, re-authorize; SEC works with a generic client name on www.sec.gov primaries, index.json refused; TE pages gave no parseable level; `bdata` absent.
+November 6 FULL CLOSED on Will's reboot word via PROME; close pass handed to the reboot. LAST_COMPLETION owns duties. Laptop: X token working this session; sec.gov Archives document fetch 403 from this client, data.sec.gov submissions works, never evade; TE pages no parseable level; `bdata` absent; HANS screen is ideal-investisseur.fr/en/markets/oat-bund-spread.html. A live blog stamp is not the event date (card 018). Keep git path lists in the scratchpad, not in research/.

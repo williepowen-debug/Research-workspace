@@ -1,3 +1,21 @@
+## FULL CLOSEOUT — 2026-11-06T21:52:39Z — closed on Will's reboot word via PROME
+
+Claude Code Opus 5.5, session walter-9e, laptop. Boot PARTIAL. 42 cards November 6, 9 corrections, 8 IMMEDIATE, no FLASH; three bookmark batches closed and marked; packets from LABOR, HENRY, LIQUID, BROCK, CYPHER, VIOLET, FALCON, CORAL, HANS, OTTO, SHADE, SAM consumed. Clears the two light-closeout deferrals of November 6. Close-of-day pass not run; handed to the reboot with the Oracle DTCC file and the November 9 HY cell.
+
+## 2026-11-06T21:52:39Z STATUS rotation
+
+Oldest 7 DATED MARKET OBSERVATIONS rows, moved verbatim at the 75% read-cap trigger.
+
+| Object | Observation and limit |
+|---|---|
+| Boot scan (pulled 10/29 00:33Z; source dates retained) | FRED HY 318 [10/27] (338 [10/23]): RED-FT-02/REG-T-03 fired, exits 0/3 and 0/5; REG-T-04 32 bp away, out of watch band. CCC 1,321 [10/27]. VIXCLS 17.52 [10/27]: RED-FT-06 exit run broken 3/5 → 0/5 (RED owns). Cboe SKEW 149.22 [10/27], FT-10 fired, no exit. SOFR−IORB +5 bp [10/27]. T5YIFR 2.27 [10/28]. Cushing 26.970M [w/e 10/23]. Vendor 10/28: KRE 72.11, WAL 75.96, VIX 16.91. BZZ26 114.55 evening last trade (not settle) = 4.5% below boundary #1, WATCH. FOMC 10/28 held, 10–2, Cook/Hammack for a hike. HANS daily/CREED/settlement legs not graded. Evidence research/2026-10-29_boot/THRESHOLD-SCAN.md. |
+| Approved queue review (October 27; source dates retained) | All 20 delivered bodies; 27 selected historical images; 399 decision rows including source gaps. New cards 049–072, no threshold scan or new market prices. BOARD 1797. Primary/source qualifications: research/2026-10-27_queue-review/EMAIL-REVIEW.md. |
+| Startup October 27 (retrieved this session; source dates differ) | HY338 / CCC1356 bp [October 23]; VIXCLS18.39 and Cboe SKEW150.97 [October 26]; SOFR-IORB+3 bp [October 26]. VIX exit 3/5, no new fire in completed checks. Current vendor tape intraday, not closes. Remaining scope: research/2026-10-27_startup/THRESHOLD-SCAN.md. |
+| Gmail source processing (October 27 UTC; underlying dates retained) | Joint Broadcom financing release October 26, MainStreet September earnings, Iowa historical 2024 loans, Forge preserved October 15 filing facts, Dutch multiyear plan and JetBlue October 26 release checked at stated scope. Trepp office-rate conflict, current balances and unread methods remain qualified. No fresh market-price/threshold-family clearance. Evidence: research/2026-10-27_gmail-processing/REVIEW.md; first-pass evidence retained. |
+| Bookmark source checks (October 27 UTC) | CISA v2026.10.26 lists both PHP root CVEs (added October 26); no named victim. Anthropic June 30 note carrying value $108.566B and H1 noncash charge $72.388B are different from cash burn/IPO redemption. Tailscale vendor release target October 27 is conditional, no shipped version asserted. Sources/limits: research/2026-10-26_bookmarks/REVIEW.md. No new market-price or threshold-family clearance. |
+| Startup scan (October 26 ET; pull October 27 UTC) | HY338 / CCC1356bp / VIXCLS19.45 [October 23]; SOFR-IORB+2bp matchedOctober 23; T5YIFR2.21 [October 26]. Vendor regular-sessionOctober 26 KRE72.73/WAL75.44/VIX18.39. FT11 matchedOctober 16→23 preconditions not met. No new fire in completed checks; HANS daily/settlement/census limits: research/2026-10-26_startup-recovery/THRESHOLD-SCAN.md. |
+| Evening owner evidence (October 26, owner pulls17:35–18:57ET) | LIQUID vendor EWZ−19.82%,HYG+0.19%,LQD+0.16%,KRE+0.37%; not spread/flow measurements. Accepted domestic buybacksR$14.807B settleOctober 27; current UBR call unproved. Credit/funding frontierOctober 23 at18:56ET. VULCAN original-access upgrade is owner-selected sections, full reconciliation incomplete. Sources: research/2026-10-26_final/OWNER-REVIEW.md. |
+
 ## 2026-11-06T16:09:08Z light-closeout — full deferred
 
 Session walter-9e. Cards 016–019, helper returned 11:07 ET, Iran anchor bounded note. Duties: LAST_COMPLETION.md.

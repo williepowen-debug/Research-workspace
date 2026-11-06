@@ -1,1 +1,4 @@
 debug/
+research/*/.cache/
+research/*/scan.txt
+research/*/bookmarks-scan.txt
