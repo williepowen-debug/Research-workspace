@@ -1,5 +1,7 @@
 # TRADE IDEA — Broad credit into the REG-T-04 window — HYG Jan-15 77/74 put spread (rec) · alt HTGC Jan-15 16P
 **Date:** 2026-10-23 (written 19:0x ET from `date`)
+> **TRIGGER STATE 2026-11-06 10:11 EST (TERRY): NOT FIRED.** HY first-published 348 [11/5], FRED read 10:09 EST, not > 350, run 0 of 3; void count 0 of 5. Highest cell of this episode, 2 bp short. The separate hedge card fired at 344; if this card later fires too, the pair risks up to $711.70 and needs Will's word (WQ-615 A).
+
 > **TRIGGER STATE 2026-11-05 13:33 EST (TERRY): NOT FIRED.** HY 332 [11/4], run 0 of 3; the 11/5 cell lands about 10:30 ET 11/6 (PROME). HYG $77.14 −0.48%, red. Price is no block: 77P $0.86/$0.93, 74P $0.26/$0.30, outer $0.67 vs ≤ $1.00. The last run start for the 11/13 window is the 11/9 close. A fire still needs Will's X1 choice at that moment.
 
 > **TRIGGER STATE 2026-11-05 11:10 EST (TERRY): NOT FIRED.** HY 332 [11/4, FRED], run 0 of 3, not ≤ 330. Today's selloff is not in any cash spread yet. HYG $77.18 −0.43% (11:08 EST).

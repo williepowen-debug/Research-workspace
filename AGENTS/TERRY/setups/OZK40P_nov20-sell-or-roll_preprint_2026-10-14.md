@@ -1,5 +1,7 @@
 # SELL-OR-ROLL CARD — OZK Nov-20-2026 $40P ×4 (Fidelity) — pulled forward to before the Q3 print
 
+> **REFUTER NOTE 2026-11-06 10:12 EST (TERRY, book re-grade):** REGINALD `TRADE.md` § 4 lists LABOR's bull-side kill as a refuter for any bank put; it FIRED 11/6 (freeze-thaw v2) and is met. A hiring read, not a layoffs read; REGINALD's bank claim is CRE recognition and no REGINALD score keys on it. No term changes. No hold, sell or roll view (USER.md). Full read: `../research/2026-11-06_regrade/NOTE.md`.
+
 > **EVIDENCE ADDED 2026-10-22 13:3x ET (TERRY, PROME spawn WQ-487 A) — thesis cell only; not a sell, roll or expiry prompt (USER.md § No expiry nagging; C5 paused).**
 > - **OZK Q3 Stage-1 grade** (OZK desk `0ee59c523`, via PROME packet 10/21): mostly CONTRARY to stress accumulation. Classified + criticized $1,282M → $995M; Q3 NCO 0.53% ($44.5M, Boston $37.3M of it); OREO $420M (+43%), no OREO sale priced; CET1 11.44%; TBV $47.50. Credit is an earnings drag, not a capital event.
 > - **WQ-483 RULED (Will 10/22 11:24 ET):** OZK thesis conviction 🔴🔴 HIGH → 🟡 LOW (OZK P-OZK-7; call Stage-2 adds nothing toward stress; the −$313M special-mention drop is explained by the 10-Q ~11/05). PROME packet 10/22, OZK `c8d75b161`.

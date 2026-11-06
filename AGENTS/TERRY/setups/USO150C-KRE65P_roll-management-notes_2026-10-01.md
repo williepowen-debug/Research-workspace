@@ -1,5 +1,7 @@
 # MANAGEMENT NOTES — USO $150C Oct-09-2026 ×2 · KRE $65P Dec-31-2026 ×2 (Fidelity IRA) — Will's 9/30 rolls
 
+> **REFUTER NOTE 2026-11-06 10:12 EST (TERRY, book re-grade):** REGINALD `TRADE.md` § 4 lists LABOR's bull-side kill as a refuter for any bank put; it FIRED 11/6 (freeze-thaw v2) and is met. A hiring read, not a layoffs read; REGINALD's bank claim is CRE recognition and no REGINALD score keys on it. No term changes. No hold, sell or roll view (USER.md). Full read: `../research/2026-11-06_regrade/NOTE.md`.
+
 **Current state [MGMT-USO150C-OCT09]:** CLOSED — October9 closing sale booked.
 **Current state [MGMT-KRE65P-DEC31]:** CONDITIONAL — held-line management only; December31 sell-or-roll rail unchanged, no new order.
 

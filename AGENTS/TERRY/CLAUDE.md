@@ -133,6 +133,7 @@ At closeout or after a trade review:
 
 0. **Run the ledger sweep — mandatory, not trigger-gated** (`CLOSEOUT.md` Chunk 2): `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/ledger_sweep.py)`. **Exit 1 blocks closeout.** Every other write-back step below is gated on *"did I touch this?"* — and card/ledger drift is exactly the case where you were sure you had.
 0b. **BOARD scan artifact (spec §3.5.6 option (b), adopted 2026-09-11):** put one line in the closeout — **`BOARD scan run, N new since <last id>, N logged`** — so the pull has an artifact of its own and not merely an absence of complaint. ⛔ **An exempt desk's SKIPPED scan is silent by construction; a clean step and an unrun one look identical without this line.**
+0c. **Small items (WQ-622, Will 2026-11-05):** an item too small to act on goes in the matching `combo:<theme>` row of `SIGNALS.tsv` in the session it arrives, counterevidence included. Logging is not scoring. Guide: `PROME/COMBINATION_WATCH.md`.
 1. Update `STATUS.md` with current focus and open trade-construction questions.
 2. Append/update `SETUPS.tsv` for each reviewed setup.
 3. If a full proposal was produced, add a summary row to `TRADE_BOOK.md`.

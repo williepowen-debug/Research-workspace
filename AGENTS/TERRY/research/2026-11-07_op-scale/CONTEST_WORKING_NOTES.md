@@ -1,3 +1,5 @@
+**SUPERSEDED 2026-11-06 10:16 EST: contest delivered, `PROME/inbox/2026-11-06_from-TERRY_op-scale-contest.md`; ruling 4 trace finished.**
+
 # OP-SCALE contest, working notes, not delivered
 
 Written 2026-11-05 13:40 EST from `date`. **HELD on PROME's message (prome-98, 11/5 ~13:38 ET): hold the contest for Saturday as planned.** Nothing here is a contest yet. Draft v3 is unchanged. Basis: `PROME/inbox`-bound recount `PROME/reports/2026-11-05_op-scale-recount.md`, RED report version 4 (374338577).

@@ -1,5 +1,7 @@
 # CONDITIONAL CARD — KRE (regional banks ETF) — ADD long puts — **NOT constructible today**
 
+> **REFUTER NOTE 2026-11-06 10:12 EST (TERRY, book re-grade):** REGINALD `TRADE.md` § 4 lists LABOR's bull-side kill as a refuter for any bank put; it FIRED 11/6 (freeze-thaw v2) and is met. A hiring read, not a layoffs read; REGINALD's bank claim is CRE recognition and no REGINALD score keys on it. No term changes. No hold, sell or roll view (USER.md). Full read: `../research/2026-11-06_regrade/NOTE.md`.
+
 **Date:** 2026-09-30 Wed, written 08:1x ET (`date` 08:10:35 before drafting) · **Id:** `TRY-COND-KREADD` (conditional, no fill; registered in `setups/INDEX.md`, no SETUPS row — that ledger sits at 98% of its read budget with a rotation owed)
 **Asked by:** Will, relayed by REGINALD 2026-09-29 ~18:2x ET, verbatim: *"Send this to TERRY for a card on adding KRE puts."* and ~19:2x ET: *"Send the attribution report to TERRY for the card."* **This relays an ASK for a card, not an approval to fill.**
 **Thesis owner:** REGINALD (regional-bank credit). **Construction:** TERRY. **Approval:** Will (root rule #5).

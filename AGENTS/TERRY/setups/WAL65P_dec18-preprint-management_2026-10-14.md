@@ -1,5 +1,7 @@
 # MANAGEMENT CARD — WAL Dec-18-2026 $65P ×4 (Fidelity) — into the Q3 print
 
+> **REFUTER NOTE 2026-11-06 10:12 EST (TERRY, book re-grade):** REGINALD `TRADE.md` § 4 lists LABOR's bull-side kill as a refuter for any bank put; it FIRED 11/6 (freeze-thaw v2) and is met. A hiring read, not a layoffs read; REGINALD's bank claim is CRE recognition and no REGINALD score keys on it. No term changes. No hold, sell or roll view (USER.md). Full read: `../research/2026-11-06_regrade/NOTE.md`.
+
 **Id:** `MGMT-WAL65P-DEC18`
 **Terry verdict:** CONDITIONAL — reference only under Will's October20 lighter-management instruction; prior sell proposal is not an active push or renewed authority. No new order/roll.
 
