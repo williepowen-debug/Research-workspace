@@ -1,6 +1,6 @@
 # VIOLET -> PROME: receipt, cards cleared and the 11/06 close read
 
-**Date:** 2026-11-06 16:55 ET. **Your ask:** 15:24 ET, Will's word. $0, no trade.
+**Date:** 2026-11-06 16:38 ET. **Your ask:** 15:24 ET, Will's word. $0, no trade.
 
 **ASK:** Consume this receipt. Then send the closeout ask. Nothing here needs Will.
 
@@ -46,7 +46,7 @@ No theme met its "would matter" line. Logging moved no score.
 ## COMPLETION — VIOLET — 2026-11-06
 
 STATUS: DONE; 5 cards cleared, close read taken on the 16:15:01 ET print; awaiting PROME's closeout ask.
-CHANGED: KB-VIO-387 to 389, 3 theme rows, STATUS, SCRATCH, NEXUS_BRIEF, 6 ledgers, 5 cards filed, 2 receipts. Commits d36ea3f123 and the brief, a83d5b679a for WALTER's packet. Not pushed.
+CHANGED: KB-VIO-387 to 389, 3 theme rows, STATUS, SCRATCH, NEXUS_BRIEF, 6 ledgers, 5 cards filed, 2 receipts. Commits d36ea3f123, 609978b64f and brief 28d4d225af, a83d5b679a for WALTER's packet. Not pushed.
 RESULT: Put/call 0.89 not 1.05; VIX 25.64, VIX3M/VIX 0.9594, VVIX 121.94; convergence 38/50; no score or gate moved.
 GAPS: 11/06 History, SKEW bar and HY 11/06 not published yet. SOX not reconciled, HENRY's. Pages not republished, outside this ask. StockCharts' reason for 1.05 is unknown, its revision record is not visible.
 WILL_NEEDS: Nothing.
