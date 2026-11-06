@@ -3,7 +3,7 @@
 **Written:** 2026-10-21, 13 days before the release (C2a freeze-by 10/27). No September JOLTS data exists. **Status: FROZEN. Grade off this card.**
 **Author:** LABOR (PROME-spawned session af287aee, Will-approved 09:38 ET) · **Consume at:** B5b.
 **Release date VERIFIED** at the BLS November 2026 release calendar (`bls.gov/schedule/2026/11_sched.htm`, fetched 2026-10-21 09:40 ET, HTTP 200): *"3 · Job Openings and Labor Turnover Survey · September 2026 · 10:00 AM"*.
-**Why a card — multi-loaded:** freeze-thaw v2 **LEG C** (the bull-side kill's flow leg) · vector 4 re-escalation letters · the **layoffs-rate ≥1.2%** same-day trigger to CARL + REGINALD · T-10 · the openings level (no band, decided 10/21). **This print lands three days BEFORE the 11/6 NFP draw of LEG A**, so its LEG C result is an input to `docket/GRADING_CARD_20261106_NFP.md`.
+**Why a card — multi-loaded:** freeze-thaw v2 **LEG C** (the bull-side kill's flow leg) · vector 4 re-escalation letters · the **layoffs-rate ≥1.2%** same-day trigger to CARL + REGINALD · T-10 · the openings level (no band, decided 10/21). **This print lands three days BEFORE the 11/6 NFP draw of LEG A**, so its LEG C result is an input to `docket/graded/GRADING_CARD_20261106_NFP.md`.
 
 ---
 
