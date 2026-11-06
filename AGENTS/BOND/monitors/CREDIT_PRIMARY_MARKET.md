@@ -14,7 +14,7 @@
 | 10/16 | no post | 7 | |
 | 10/23 | $3.4B | 2 | |
 | 10/30 | not stated | 7 | October about $15B; $3.5B a week over the final four |
-| 11/6 | nearly $10B through Thursday | 21 | three deals above $2B priced 11/5, the selloff day; 11/6 post; KB-BND-551 |
+| 11/6 | nearly $10B through Thursday, Friday not seen | 22 | three deals above $2B priced 11/5, the selloff day; 11/6 post; EDGAR re-read after the close: Energy Transfer and TKO dated 11/6; KB-BND-551, 559 |
 
 ⚠️ Limits: the volume column is a repost of Bloomberg, not a census, and posts skip weeks. EDGAR mixes investment grade with high yield and cannot see private 144A issuers. **Pulled deals: not observable from free sources.** Seven candidate 8-Ks were read and all were boilerplate. Absence of a reported failure is not zero failures. Do not grade Bloomberg figures against ICE lines.
 

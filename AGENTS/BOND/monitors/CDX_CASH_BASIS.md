@@ -1,12 +1,12 @@
 # BOND Monitor — CDX/Cash Credit Basis
 
 **Owner:** BOND
-**Last Updated:** 2026-11-05 — proxy run 11/5. Prior 2026-10-20, retirement text reconciled after proxy run in repository venv. Current evidence below supersedes prior header (preserved at `../domain/sources/2026-10-20_CDX_prior-header.md`).
+**Last Updated:** 2026-11-06 — proxy run after the 11/6 close. Prior 2026-10-20, retirement text reconciled after proxy run in repository venv. Current evidence below supersedes prior header (preserved at `../domain/sources/2026-10-20_CDX_prior-header.md`).
 **Purpose:** Detect when faster synthetic/hedging credit demand leads cash spread repricing.
 
-## Current Read — 2026-11-05
+## Current Read — 2026-11-06
 
-Yahoo proxy: HYG/IEF 0.8440 [11/5 vendor], 5th percentile of 3 months, z20 −1.04; LQD/IEF 1.1383, z20 −1.10. Output run via `monitors/cdx_proxy.py`; vendor bars. True CDX remains unobserved. KB-BND-536.
+Yahoo proxy: HYG/IEF 0.8407 [11/6 vendor close], 5th percentile of 3 months, z20 −1.36; LQD/IEF 1.1379, z20 −1.09. The 11/5 close on the same run is 0.8403; the 0.8440 previously here was not that close. Output run via `monitors/cdx_proxy.py`; vendor bars. True CDX remains unobserved. KB-BND-536.
 
 ## Prior read — 2026-10-20 (dated history)
 

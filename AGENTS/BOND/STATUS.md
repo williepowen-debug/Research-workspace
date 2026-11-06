@@ -1,12 +1,12 @@
 # BOND — Status
 
-**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-06 16:02 ET, PROME assignment on Will's 15:24 ET word (Claude Code `claude-opus-5-5`): inbox and WALTER cards drained, October payrolls rates read written, no score, band, gate or threshold moved. **Last real data refresh: 2026-11-06.**
+**Agent:** BOND · **Domain:** US bond-market structure. **Last session update:** 2026-11-06 17:12 ET, close-of-day data refresh on Will's 17:08 ET word via PROME (Claude Code `claude-opus-5-5`): inbox and WALTER lane empty, every figure refreshed through the 11/6 close, no score, band, gate or threshold moved. Earlier today: October payrolls rates read, 16:02 ET. **Last real data refresh: 2026-11-06.**
 
-Frontiers: Treasury nominal/real **11/6** · ICE credit via FRED **11/5** · NY Fed repo **11/5** · FR2004 as-of **10/28** · ACM **11/5** · KW **10/30** · PMMS **11/5** · Bund **11/5** · TreasuryDirect auctions through **10/29**. Evidence: `analysis/2026-11-06_nfp/READ.md` and raw manifest.
+Frontiers: Treasury nominal/real **11/6** · 5Y5Y and 10Y breakeven **11/6** · ICE credit via FRED **11/5** (11/6 cell unpublished, due about 10:10 ET Monday 11/9) · NY Fed repo **11/5** (11/6 due Monday) · FR2004 as-of **10/28** · ACM **11/5** · KW **10/30** · PMMS **11/5** · Bund **11/6** · TreasuryDirect auctions through **10/29**. Evidence: `analysis/2026-11-06_nfp/READ.md` and raw manifest.
 
 ## Current judgment
 
-**Close, 11/6: a payroll beat above every forecast in the range moved the front end 5bp and the long end 1bp.** October payrolls +165,000 vs 65,000 (BLS via LABOR, FactSet via WALTER). Treasury 2Y +5 to 4.51, 10Y +2 to 4.86, 30Y +1 to 5.26; real 10Y +3 to 2.63; 2s30s −4 to 75bp. A front-led, policy-path session on C-36's test, and it took back 5 of the 12bp the 2Y lost on 11/5. Most of the rise came before 08:30: selling began about 03:45 ET, led by the long bond, cause not established (KB-BND-547, 548). **December stays HENRY's:** 76% [15:54 ET vendor last trade, not settlement; one tick 2.8 points], HENRY 0.70 (HEN-63), and that method read 72% for October on 9/24 before a hold. December recovered, the path past it did not: +26.5bp priced beyond December, unchanged on the day, vs +52.3 on 10/27. **BOND's addition: hikes leaving the 2027 path have not lowered real long rates.** From each of five start dates since the October FOMC the priced path fell 11 to 30bp and the real 10Y moved −4 to +3bp, staying in 2.60–2.67; the nominal fall sits in the fitted-par residual. ⚠️ The nominal 30Y result depends on the start date, −4 or −11, so I claim no more than the real-yield result; cause of the residual's fall not established (KB-BND-549). The two recent FOMC sessions point the same way for the long end: hike 9/16, 30Y −1; hold 10/28, 30Y +7; n=1 each. BOND carries no separate December probability.
+**Close, 11/6: a payroll beat above every forecast in the range moved the front end 5bp and the long end 1bp.** October payrolls +165,000 vs 65,000 (BLS via LABOR, FactSet via WALTER). Treasury 2Y +5 to 4.51, 10Y +2 to 4.86, 30Y +1 to 5.26; real 10Y +3 to 2.63; 2s30s −4 to 75bp. A front-led, policy-path session on C-36's test, and it took back 5 of the 12bp the 2Y lost on 11/5. Most of the rise came before 08:30: selling began about 03:45 ET, led by the long bond, cause not established (KB-BND-547, 548). **December stays HENRY's:** 76% [15:54 ET vendor last trade, not settlement; one tick 2.8 points], HENRY 0.70 (HEN-63), and that method read 72% for October on 9/24 before a hold. December recovered, the path past it did not: +27.5bp priced beyond December on the last vendor print after the 17:00 halt (+26.5 at 15:54), little changed on the day, vs +52.3 on 10/27. **BOND's addition: hikes leaving the 2027 path have not lowered real long rates.** From each of five start dates since the October FOMC the priced path fell 11 to 30bp and the real 10Y moved −4 to +3bp, staying in 2.60–2.67; the nominal fall sits in the fitted-par residual. ⚠️ The nominal 30Y result depends on the start date, −4 or −11, so I claim no more than the real-yield result; cause of the residual's fall not established (KB-BND-549). The two recent FOMC sessions point the same way for the long end: hike 9/16, 30Y −1; hold 10/28, 30Y +7; n=1 each. BOND carries no separate December probability.
 
 **The refunding brought no supply surprise now and a warning for later.** Treasury kept coupon sizes unchanged at every tenor for November–January (statement `sb0678`, 11/4). F3 NOT FIRED. But it dropped two words: August said sizes hold "for **at least** the next several quarters", November says "for the next several quarters". TBAC, its dealer advisory committee, says coupon increases will be warranted later in FY27, likely the second half, mostly in 2Y–10Y, with real debate over the 20Y and 30Y. On 11/4 the 10Y fell 5bp and the 30Y 4bp; no attribution computed.
 
@@ -18,7 +18,7 @@ Frontiers: Treasury nominal/real **11/6** · ICE credit via FRED **11/5** · NY 
 
 **Auctions: downgrade graded, refunding next.** Three clean registered nominals under WQ-536 A and no size change, so auction health moves 4→3. ⚠️ The downgrade follows the weakest 2Y in BOND's records (10/26, audit-only, recorded beside the count). The refunding prints grade REGISTERED on bars frozen 11/2, and a fire there resets the counter.
 
-**Rates:** 2s30s 75bp, −4 on 11/6 after +9 on 11/5: 2Y 4.51, 10Y 4.86, 30Y 5.26 [11/6]. Real 10Y 2.63%, run 41 sessions at or above 2.50. Refunding next: the 3Y rose most on 11/6 (+6); the 10Y prints 4.5 hours after CPI on 11/10, the same day as the UK 5⅜% 2056 auction (HANS).
+**Rates:** 2s30s 75bp, −4 on 11/6 after +9 on 11/5: 2Y 4.51, 10Y 4.86, 30Y 5.26 [11/6]. Real 10Y 2.63%, run 41 sessions at or above 2.50. Long-run inflation pricing fell: 5Y5Y 2.17% [11/6], −5bp, on one day of fitted-par arithmetic; 33bp below 2.50. Europe did not follow the US: Bund 3.29% [11/6], −4bp, while the 10Y rose 2. Refunding next: the 3Y rose most on 11/6 (+6); the 10Y prints 4.5 hours after CPI on 11/10, the same day as the UK 5⅜% 2056 auction (HANS).
 
 ## Regime and capital record
 <!-- bond-state: thesis=v1.2.13; regime=C-36-TWO-PART@2026-09-01; gate_a=MET@2026-09-10; rearm=MET@2026-09-23; add=DECLINED@WQ-280; kill=MET-REC@2026-10-01; posture=FLAT@2026-10-30 -->
@@ -28,23 +28,23 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 
 | Metric | Dated observation | Source / basis |
 |---|---|---|
-| Official 2Y/5Y/10Y/20Y/30Y | 4.51 / 4.64 / 4.86 / 5.29 / 5.26% [11/6]; daily +5/+5/+2/+2/+1bp | [CONF PRIMARY Treasury par CSV read 11/6 15:53 ET] |
+| Official 2Y/5Y/10Y/20Y/30Y | 4.51 / 4.64 / 4.86 / 5.29 / 5.26% [11/6]; daily +5/+5/+2/+2/+1bp | [CONF PRIMARY Treasury par CSV, re-read 11/6 17:10 ET, unchanged from 15:53] |
 | Official real 5Y/10Y/30Y | 2.35 / 2.63 / 3.07% [11/6]; daily +2/+3/+2 | [CONF PRIMARY Treasury real CSV] |
 | 10Y/30Y nominal−real | 2.23 / 2.19% [11/6] | [EST fitted-par subtraction; not pure breakevens] |
 | 2s10s / 5s30s / 2s30s | 35 / 62 / 75bp [11/6] | [EST PRIMARY subtraction] |
 | 20Y−30Y | +3bp [11/6]; 20Y still above 30Y | [EST PRIMARY] |
-| 5Y5Y forward / 10Y breakeven | 2.22 / 2.24% [11/5] | [CONF MIRROR FRED T5YIFR/T10YIE]; 28bp below 2.50 |
+| 5Y5Y forward / 10Y breakeven | 2.17 / 2.23% [11/6]; 2.22 / 2.24 [11/5] | [CONF MIRROR FRED T5YIFR/T10YIE]; 33bp below 2.50 |
 | ACM 10Y TP / KW 10Y TP | 0.7218% [11/5] / 0.9089% [10/30] | [EST PRIMARY NY Fed / MIRROR FRED]; different models |
-| Fed path | 12/9 meeting: +19.0bp priced ≈ 76% of a +25bp hike (in-month method, EFFR held 3.88); strip peak 4.340 Nov-2027 (+46.0bp); 65% [11/5], 82% [11/4] | [EST CBOT vendor bars, 11/6 evolving bar 15:54 ET, not settlement; HENRY owns] |
+| Fed path | 12/9 meeting: +19.0bp priced ≈ 76% of a +25bp hike (in-month method, EFFR held 3.88 [11/5]); strip peak 4.345 Oct-2027 (+46.5bp); 65% [11/5], 82% [11/4] | [EST CBOT vendor bars, last print after the 17:00 ET halt 11/6, captured 17:09 ET, not settlement; HENRY owns] |
 | HY/CCC/B/BB/BBB/IG OAS | 348 / 1320 / 367 / 213 / 116 / 93bp [11/5] | [CONF MIRROR-WALLED ICE via FRED] |
-| HY primary | Week to 11/6 nearly $10B through Thursday; October ≈$15B; EDGAR filers 21 week of 11/2 | [EST secondary, Bloomberg via CAM; EDGAR mixed IG/HY]; pulled deals not observable |
+| HY primary | Week to 11/6 nearly $10B through Thursday, Friday volume not seen; October ≈$15B; EDGAR filers 22 week of 11/2 (read after the 11/6 close) | [EST secondary, Bloomberg via CAM; EDGAR mixed IG/HY]; pulled deals not observable |
 | HY distance to 350 | 2bp [11/5]; 332 [11/4], 340 [11/3], 343 [11/2], 344 [10/30] | [EST] |
 | SOFR / EFFR / IORB | 3.92 / 3.88 / 3.90% [11/5]; volume $3,256B | [CONF PRIMARY NY Fed; IORB FRED] |
 | SOFR−IORB | +2bp [11/5]; +4 on 11/4 | [EST]; LIQUID owns the verdict |
 | FR2004 stock | Long-end $146.946B (−3.870); 11–21Y $67.734B (+5.035); >21Y $41.465B (−8.430); 3–6Y $44.974B (−3.012) [as-of 10/28] | [CONF PRIMARY NY Fed] |
 | PMMS spread | 7.18% [11/5] − Treasury 10Y 4.84% [11/5] = 234bp, same date, over 230; next PMMS 11/12 | [CONF PRIMARY; EST]; 180–230 band, not MBS OAS |
-| Bund fitted 10Y | 3.33% [11/5], 3.38 [11/4] | [CONF PRIMARY Bundesbank] |
-| HYG/IEF proxy | 0.8410 [11/6 vendor], 3rd percentile of 3 months, z20 −1.33 | [EST vendor bars; true CDX unobserved] |
+| Bund fitted 10Y | 3.29% [11/6], 3.33 [11/5]; US 10Y minus Bund 157bp [11/6], 151 [11/5] | [CONF PRIMARY Bundesbank; EST par minus fitted, different curves] |
+| HYG/IEF proxy | 0.8407 [11/6 vendor close], 5th percentile of 3 months, z20 −1.36; LQD/IEF 1.1379, z20 −1.09 | [EST vendor bars; true CDX unobserved] |
 | Borrowing / cash | $618B Oct–Dec, $800B Jan–Mar; TGA $850B end-Dec, peak up to $1.025T ± $50B | [CONF PRIMARY Treasury sb0675, sb0678]; LIQUID owns TGA |
 
 ## Auction grades since 10/20
@@ -66,12 +66,12 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 | Real 10Y ≥2.50 sustain | MET; Treasury 2.63 [11/6], 13bp through; trailing run 41 sessions (2026 Treasury real file) |
 | OLD auction add re-arm | MET 9/23; add DECLINED WQ280; not met at any October print |
 | WQ291 paired kill | MET-REC 10/1 (closed window); funding window UNGRADED; position now flat |
-| Inflation anchoring | T5YIFR 2.22 [11/4], 28bp below 2.50 |
+| Inflation anchoring | T5YIFR 2.17 [11/6], 33bp below 2.50 |
 | HY marker / lead | HY 348 [11/5] >300; 2bp below 350; band 338–363 held 10/30, 11/2, 11/3, left 11/4, back 11/5 |
-| Credit-equity upgrade (band ≥2 sessions, VIX <20) | NOT MET: one of four band sessions under VIX 20 (10/30); VIX 28.18 [11/5] |
+| Credit-equity upgrade (band ≥2 sessions, VIX <20) | NOT MET: one of four band sessions under VIX 20 (10/30); VIX 28.18 [11/5], 25.64 [11/6 vendor, VIOLET owns the close], so 11/6 cannot count toward it whatever HY prints |
 | CCC escalation | 1320 [11/5] >1100; score 4 held |
 | 30Y ≥5.00 | 103 of 214 2026 sessions, trailing run 87 [Treasury file through 11/6] |
-| WQ400 Bund disorderly | NOT MET through 11/5; 0 of 20 prospective evaluations (five-session changes −2/+1/−6/−4/−5/−9bp) |
+| WQ400 Bund disorderly | NOT MET through 11/6; 0 of 21 prospective evaluations (five-session changes +1/−6/−4/−5/−9/−11bp; 3.29 vs 3.40 on 10/30) |
 | F2 buyback carrier | Seven of seven OFF-THE-RUN through 11/4; next op 11/17 20–30Y; carrier runs to 2/9/2027 |
 | F1 / F3 | NOT FIRED at the 11/4 QRA (KB-BND-528); next read 2/3/2027 |
 
@@ -84,10 +84,10 @@ C-36 TWO-PART unchanged; THESIS v1.2.13 (F1/F3 graded, auction health 3). **Posi
 | 3 | Dealer absorption VX-BND-04 / VX-BND-16 | 2 | 🟡 | As-of 10/28 −$3.870B to $146.946B, no build; >21Y gave back most of the 10/14 jump | Two consecutive builds again; red = fresh long-end record + composition failure |
 | 4 | HY function VX-BND-02 / VX-BND-11 | 3 | 🟠 | HY 348 [11/5]; CCC 1320; B +41bp over 15 sessions; primary open 11/5 | HY >350 or verified pulled-deal cluster |
 | 5 | IG function VX-BND-03 / VX-BND-10 | 1 | ⚪ | IG 93 / BBB 116 | IG 120 / failed syndication |
-| 6 | CDX/cash VX-BND-06 | 1 | ⚪ | Proxy 3rd percentile of 3 months, z20 −1.33, HY not tight; true CDX gap | Confirmed fast-layer lead |
+| 6 | CDX/cash VX-BND-06 | 1 | ⚪ | Proxy 5th percentile of 3 months, z20 −1.36, HY not tight; true CDX gap | Confirmed fast-layer lead |
 | 7 | Credit-equity VX-BND-07 | 2 | 🟡 | HY back in the band 11/5 at 348 with VIX 28.18; upgrade not met | Band held ≥2 sessions with VIX <20 at VIOLET's close |
 
-**Composite 17/35 = 5+3+2+3+1+1+2, unchanged 11/6:** one 5, two 3, two 2, two 1. Auction health 4→3 on its letter. **Clean-auction counter = 3 (WQ-536 RULED A, Will 10/29):** the 10/26 2Y audit-only I′ fire is recorded beside it. Rider: the downgrade follows the weakest 2Y in BOND's records. Outside composite: VX-BND-15=2, VX-BND-16=4, VX-BND-17=2 (1→2 on 11/5, 234bp), VX-BND-18=2, VX-BND-19=3, VX-BND-20=2.
+**Composite 17/35 = 5+3+2+3+1+1+2, unchanged at the 11/6 close:** one 5, two 3, two 2, two 1. Auction health 4→3 on its letter. **Clean-auction counter = 3 (WQ-536 RULED A, Will 10/29):** the 10/26 2Y audit-only I′ fire is recorded beside it. Rider: the downgrade follows the weakest 2Y in BOND's records. Outside composite: VX-BND-15=2, VX-BND-16=4, VX-BND-17=2 (1→2 on 11/5, 234bp), VX-BND-18=2, VX-BND-19=3, VX-BND-20=2.
 
 ## Exit / falsification
 
@@ -112,4 +112,4 @@ WQ157/WQ291 recommendation MET and, in fact, executed: the sleeve is flat (TBT s
 
 ## BOTTOM LINE
 
-The October jobs beat moved two-year Treasuries up 5bp and the 30-year 1bp, and much of that came before the report. The market believes the December hike, about 76% on HENRY's futures read, more than the hikes after it. What BOND adds is that real long rates have not fallen: priced 2027 hikes dropped 11 to 30bp since the October meeting while the real 10-year stayed between 2.60 and 2.67, so borrowers have had no relief in real terms. Junk spreads hit 348 on November 5, the widest of 2026 and 2bp from the 350 line, yet three junk deals still priced that day, so access is not shut. No BOND score moved. BOND has no position on this thesis; the November 9 to 12 refunding is the next real test, with the 10-year auction 4.5 hours after CPI on November 10.
+The October jobs beat moved two-year Treasuries up 5bp and the 30-year 1bp, and much of that came before the report. The market believes the December hike, about 76% on HENRY's futures read, more than the hikes after it. What BOND adds is that real long rates have not fallen: priced 2027 hikes dropped 11 to 30bp since the October meeting while the real 10-year stayed between 2.60 and 2.67, so borrowers have had no relief in real terms. Junk spreads hit 348 on November 5, the widest of 2026 and 2bp from the 350 line, yet three junk deals still priced that day, so access is not shut. No BOND score moved at the close. The November 6 junk-spread cell lands about 10:10 ET Monday, and 352 would settle BND-34. BOND has no position on this thesis; the November 9 to 12 refunding is the next real test, with the 10-year auction 4.5 hours after CPI on November 10.

@@ -1,22 +1,24 @@
-# BOND SCRATCH — 2026-11-06 October payrolls read
+# BOND SCRATCH — 2026-11-06 close-of-day refresh
 
-> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2, unchanged). Clean-nominal counter 3; auction health 3. **OPEN predictions 5 (BND-33 to 37), none due.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.51/4.86/5.26 [11/6]; real 10Y 2.63; HY/CCC/IG 348/1320/93 [11/5]; SOFR−IORB +2 [11/5]; FR2004 long-end $146.946B [as-of 10/28]; PMMS 7.18 [11/5], 234bp same-date. VX-BND-17 2, VX-BND-04 2. Refunding bars FROZEN 11/2. THESIS v1.2.13. December 76% [15:54 ET vendor bar; HENRY owns, HEN-63 0.70].
+> STATE AT WRITING: Composite **17/35** (5+3+2+3+1+1+2, unchanged). Clean-nominal counter 3; auction health 3. **OPEN predictions 5 (BND-33 to 37), none due.** Position: **FLAT** per the FORGE 10/30 reconcile (last broker capture 10/30 intraday; FORGE stale mirror); WQ-592 declined; NO-ADD WQ280. Latest official cells: Treasury 2Y/10Y/30Y 4.51/4.86/5.26 [11/6]; real 10Y 2.63; 5Y5Y 2.17 [11/6]; Bund 3.29 [11/6]; HY/CCC/IG 348/1320/93 [11/5]; SOFR−IORB +2 [11/5]; FR2004 long-end $146.946B [as-of 10/28]; PMMS 7.18 [11/5], 234bp same-date. VX-BND-17 2, VX-BND-04 2. Refunding bars FROZEN 11/2. THESIS v1.2.13. December about 76% [11/6 last vendor print, not settlement; HENRY owns, HEN-63 0.70].
 
 ## WHAT I DID
 
-PROME assignment on Will's 15:24 ET word: one bounded session, $0, no paid data, no trade, move nothing unless a registered letter requires it. Boot 15:25 ET; HEAD equal to origin, no pull needed; dirty tree is other desks'.
+PROME relay of Will's 17:08 ET word: boot, drain, refresh through the 11/6 close; no new thread, no spawn, no trade or card. Boot 17:09 ET; HEAD equal to origin, tree clean at boot.
 
-- **Mail drained:** ORACLE 11/5 and 11/6, HANS 11/6, WALTER 001 and 017 (KB-552, board_log). No corrections owed.
-- **Read:** `analysis/2026-11-06_nfp/READ.md`. KB-547 close, KB-548 timing, KB-549 path vs real yields. HENRY's `research/2026-11-06_nfp/DECEMBER_HIKE_READ.md` covers odds, event map, stocks; I carry it and publish no rival probability.
-- **Credit:** ICE 348 [11/5], KB-550. My 342 estimate missed by 6bp; I had cut it from 345 late on 11/5.
-- **Primary:** Friday count done, KB-551; nearly $10B, three deals above $2B on 11/5.
-- **Combination watch:** set up per WQ-622 A: five themes, KB-553 to 557, one charter line in boot 7 (class C4; PROME verifies).
-- **Housekeeping:** docket CUSIPs for 11/18 `912810UZ9` and 11/19 `91282CRE3` (docket_check rc=1 cleared); F1/F3 row retired from WATCH_DATES; DEALER_CAPACITY header's false FR2004 drift hit removed.
-- **Caught before publishing:** "strongest surprise of the year" and "oil-led" were uncomputed; removed. The 30Y "unmoved" reading was start-date dependent; only the real-yield result is claimed.
+- **Mail:** inbox and WALTER lane empty. Corrections rc=0. docket_check rc=0, verified only through 11/19; blind span 11/20 to 11/27 holds the 2Y, 5Y, 7Y rows, already docketed from the QRA.
+- **Refreshed:** Treasury par and real re-read, cells unchanged from 15:53 ET. New: 5Y5Y 2.17, breakeven 2.23, Bund 3.29 [11/6]; final fed funds vendor print; HYG/IEF 0.8407; VIX 25.64 vendor; EDGAR 22 filers. KB-BND-558, 559.
+- **WQ400:** 11/6 evaluated, five-session −11bp, 0 of 21.
+- **Pulled-deal search:** one new hit, ANI Pharmaceuticals 8-K exhibit 10.1 filed 11/5; read it, credit agreement takeover boilerplate, not a pulled deal.
+- **Stale line fixed:** `monitors/CDX_CASH_BASIS.md` carried 0.8440 for 11/5; the close is 0.8403. Cause of the old figure not established.
 
 ## NOT MOVED
 
-No score, band, gate or threshold. Held on letter: VX-BND-02, 03, 06, 07, 11, 15. HY re-entered the 338–363 band; that is a state, not a move.
+No score, band, gate or threshold. VX-BND-15 held 2 at 2.17. 5Y5Y fell, not a registered event.
+
+## UNPUBLISHED OR UNREAD
+
+ICE 11/6 (about 10:10 ET 11/9; no estimate made) · SOFR, EFFR 11/6 (11/9) · ACM 11/6 · KW after 10/30 · FR2004 as-of 11/4 (11/12) · Friday HY volume.
 
 ## NEXT (dated)
 
@@ -28,11 +30,11 @@ No score, band, gate or threshold. Held on letter: VX-BND-02, 03, 06, 07, 11, 15
 
 ## OPEN THREADS
 
-L226 FHLB retune waits on 11/13. 7Y reopening handling before April 2027. Same-day runner re-run reads its own transcript (leftover, bring with R1, R5). True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED. No primary Fed speaker read: the Fed's speech feed has nothing current. BLS 403 here, so 12/10 November CPI rests on RED's docket row and HENRY.
+L226 FHLB retune waits on 11/13. 7Y reopening handling before April 2027. Same-day runner re-run reads its own transcript (leftover, bring with R1, R5). True CDX, pulled-deal census, private funding, event-time TIPS unchanged. WQ291 funding window UNGRADED. No primary Fed speaker read. BLS 403 here, so 12/10 November CPI rests on RED's docket row and HENRY.
 
-## CLOSEOUT STEPS (heavy, charter changed)
+## CLOSEOUT STEPS (standard, end of day)
 
-C1 STATUS done · C2 KB 547–557, VX text refresh, six past-due rows flipped STALE, FLOW no-op · C3 none due, none registered · C4 THESIS evidence lines only, no version bump, token unchanged · C5 fired 11/6 row pruned, 11/9 ICE row added, CUSIPs added · C6 TRADE rates and credit lines, no gate change · C7 this file · C8 RECEIPT, board_log done · C9 two BOND-only bullets in MEMORY.md, no fleet memory written · C10 boot 7 line added, CLOSEOUT.md and file table need no change · C11 NEXUS last.
+C1 STATUS done · C2 KB 558, 559, VX text on 06, 07, 15, 19, FLOW no-op · C3 none due, none registered · C4 no-op, token unchanged · C5 no-op, no catalyst fired since 16:02 · C6 no-op, no gate or position change · C7 this file · C8 RECEIPT done, board_log no-op, no signal consumed · C9 no-op · C11 NEXUS last.
 
 ## POSITION
 
@@ -40,4 +42,4 @@ FLAT on this thesis. BOND executes nothing; no expiry reminders.
 
 ## MAIL / DELIVERY
 
-Inbox empty at writing. Receipt packet `PROME/inbox/2026-11-06_from-BOND_october-payrolls-rates-read.md` filed by PROME. PROME's closeout ask received 16:01 ET; closeout receipt packet follows the push.
+Inbox empty at writing. No packet: no figure others cite moved. Reply to prome-51 follows the push.
