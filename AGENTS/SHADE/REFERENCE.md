@@ -97,6 +97,10 @@
 
 ---
 
+### §2Q3 — Athene 9/30/26 carried figures (AHL 10-Q filed 2026-11-05, acc 0001527469-26-000085; deck 2026-10-30)
+
+Consolidated, gross of ACRA noncontrolling interests. Level 3 assets 148,140 / 155,078 / 162,601 / 177,478 ($M, 12/31, 3/31, 6/30, 9/30). Restricted assets $120,089M. FHLB $29.9B drawn, $33.8B drawable including drawn, $74.7B maximum. FABN $32.6B, FABR $26.8B, direct $6.1B, repo $3.2B. Gross invested assets $423,695M, net $322,491M, total investments $417.0B. AHL equity $13,413M. Digital infrastructure $12.9B funded (deck, Athene's perimeter). SVF II Finco $3,097M, SoftBank corporate debt $1,749M, Valor Compute $2,779M. Big Sky held $691M + $154M, commitments $4.9B + $1.3B. Mortgage 90+/non-accrual UPB $3,453M. ⛔ AARe's 102,918 and 146,481 are a different entity. Handling and labels → `research/L185_Q3_INSURER_READ_2026-11-06.md`.
+
 ## 3D. Detailed per-vector evidence narrative
 
 *(Moved from `STATUS.md` §3, 2026-08-28, P1 hot/cold split. **STATUS §3 carries the live one-line read and the convergence index — those are canonical.** This is the evidence behind them.)*

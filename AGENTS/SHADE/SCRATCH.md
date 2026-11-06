@@ -1,29 +1,24 @@
 # SHADE SCRATCH — restart handoff
 
-## L781 / L784 / drain — 2026-10-29T07:43:20-04:00 (PROME spawn prome-92, Claude Code, Opus 5.5; closed early at PROME's closeout ask)
+## Q3 read / L185 / drain — 2026-11-06 (PROME assignment, Claude Code, Opus 5.5, session 08fba91f; waiting for the closeout ask)
 
-**Done:** charter Key Ratios #2/#4 encoded (CLAUDE.md L34–L48, L50–L54; verbatim letter `instruments/KEY_RATIOS_2_4_ADOPTED_LETTER.md`, diff check VERBATIM-OK). DLIC FY25 #2 first reading NOT RED (CEILING 28.6844%, rests on L1). SHADE-R/T v1: DLIC 321.9%/1.62%, AAIA 2,460.4%/4,452.3%. L784 cell → CORAL inbox. CYPHER boundary confirmed. Inbox 15+17 → 0 (board_log +32, `consume:SHADE`). COR-20261022-27/-48 NO-OP receipted. REFERENCE §5 AEL→Brookfield $580.3M verified at the Iowa exam. Record `research/L781_RATIO_ENCODE_AND_FIRST_READINGS_2026-10-29.md`.
-**NOT done (carry):** PROME to rule whether letter §5 (no-double-count) stays (packet said §1–§4); AAIA Key Ratio #2 reading not run (not asked); DC-ABS CUSIP match vs parsed Schedule D (new task, not started); MEMORY rotation (98%) and the rest of the 10/23 owed list (PREDICTIONS.tsv, falsifier, ARI DEFM14A, SVO count) still owed; `T-SHADE-01` not re-assessed. Raw AAIA PDF + parses were in session scratch only (re-fetch: ir.athene.com statutory page, sha256 in the research file).
+**Authority:** Will's word 2026-11-06 15:24 ET in PROME's chat. $0, no paid data, no trade. Moved no score, band, gate or threshold.
 
-## Catch-up wave 1 — 2026-10-21T22:16:31-04:00 (PROME spawn prome-56, Claude Code, Opus 5.5)
+**Done:** Inbox 3 + 17 → 0; board_log +20 plus 4 `COMBO-` theme rows; COR-20261105-39, -52, 20261106-15 NO-OP receipted. ACTION cards were three, not one: 036 cyber, 007 Apollo, 012 Delaware Life. L185 legs: L3 pinned, pledged extracted, BMA walked, X1 position sent to BROCK. `T-SHADE-01` NOT MET at the 11/5 close. AI cards answered. F-SHADE-01 falsifier written, DAEDALUS replied. SHD-01 to 03 registered. MEMORY and STATUS rotated. AAIA Key Ratio #1 recorded CRITICAL BY LETTER. Record `research/L185_Q3_INSURER_READ_2026-11-06.md`.
 
-**Authority:** Will 2026-10-21 21:56 ET catch-up instruction via PROME (`PROME/plans/2026-10-21_agent-catchup-PLAN.md`), Tier 1 inside the approved L726/L727 workstream. $0, no trade, no threshold or score moved.
+**NEXT SESSION, in order:**
+1. **~11/12 Q3 FI deck:** grade the canary (S1 ~$2.3B, S2 34.2% in hand; S3 and penalty from the deck), execute C2 (L184, S2 leg already fails), grade SHD-01. Compute the penalty like-for-like and quote both.
+2. **~11/15 DLIC Q3** (`delawarelife.com/content/business-highlights`): Note 10 and subsequent events for gross TWG completion, then SHD-02. Exhibit 1 + SoO L15 flows. Rungs (1)–(6).
+3. **AAIA Q3 statutory** (ir.athene.com statutory page): name-level lines for SVF II Finco, SoftBank, Oracle CMLs, Big Sky; what share sits at AAIA vs ACRA.
+4. **BMA:** ACRA 1A/2A FY2025 Level 3 and related-party notes; Catalina FY2025.
+5. BROCK's answer on the X1 reconcile; PROME carries it to Will. `T-SHADE-01` next eligible endpoint 11/6 close onward.
+6. Still owed by 11/20: declared-flat TRADE surface, ARI DEFM14A annex, SVO count. Guggenheim Universe lead waits on WALTER's document. WQ-422 Clear Spring documents are Will's hands; never chase.
 
-**What I did:**
-- **Inbox drained 5 → 0** (PROME WQ-364/WQ-422 packet acted; SIG-W-20261015-005 noted; -015 acted; -20261019-003 info-only; -20261021-028 arrived mid-session, info-only). board_log +5. Corrections COR-20261015-15 APPLIED, COR-20261015-05 NO-OP; check rc 0.
-- **L726 delivered** → `research/L726_ILLIQUIDITY_BASIS_2026-10-21.md`: Transfer (D-1-2 code `R` or documented restriction) / Redemption (>7 days) / Executable-market (SEC 22e-4 seven-day) tests; encumbrance codes separate; C/L/P/U buckets; RED only if FLOOR >30%, NOT RED only if CEILING ≤30%, else INDETERMINATE. DLIC FY25 illustration: 9.75%–32.50% INDETERMINATE; break-evens $9,295M / $1,146M.
-- **L727 delivered** → `research/L727_TSR_METHOD_2026-10-21.md`: TSR UNAVAILABLE (proprietary, not reproducible); SHADE-R v1 / SHADE-T v1 proposed with exact NAIC 2026 lines; never summed.
-- STATUS: §0t added, WQ-364 recorded in §0m ①, stale HY/T-SHADE-01 cells refreshed, §0r/§0o/§0n + old bottom lines rotated verbatim → `archive/STATUS_ROTATED_SECTIONS_2026-10-21.md` (crc32 `11d53b30`, `tail -n +4`, verified). STATUS 22,642 B.
+**Open unknowns that matter:** SVF II Finco = Vision Fund 2 NAV loan is INFERRED. $1.4B SoftBank-guaranteed loan = 14% of the $10B OpenAI-share margin loan is INFERRED from arithmetic. $1,749M vs $1.4B ($349M) and $845M vs $0.94B ($95M) unreconciled. O on the WHCO guarantee still unstated. Issuer's rate attribution of the mortgage loss is unaudited in the quarter. `2026 Asset Risk Stress Considerations` deck fetched, not read. Apollo 10-Q read only for the WHCO note.
 
-**NEXT SESSION:**
-1. Wait for PROME's WQ rows on L726/L727. On a YES: run the C/L/P/U classification on DLIC FY25 (agency subtotal first — likely clears the $1,146M break-even, not established) and compute SHADE-R/T v1 on DLIC and AAIA. Charter wording edits only after the ruling.
-2. `T-SHADE-01` was **not** re-assessed this spawn; last grade 10/15 NOT MET is a dated reading. The unassessed-eligible-endpoint design question is still open (prospective only).
-3. Remaining 10/23 slot items NOT worked this spawn: PREDICTIONS.tsv + declared-flat TRADE + thesis falsifier · MEMORY rotation (31,944 B, 98%; stop <22,785 B) · ARI DEFM14A annex · SVO override count · PROME NB5–NB7/AI01 integration.
-4. WQ-422 Clear Spring documents are Will's hands — never chase. On arrival: Clear Spring 83607 statutory bridge (marker 5) and the same L726 classification on its filing.
+**Raw sources** were in session scratch only; accession numbers and hashes are in the research record. Re-fetch from SEC and ir.athene.com.
 
-**Raw sources this session** (NAIC 2026 instructions, eCFR 22e-4, Gober essay/book, ARC deck) were kept in session scratch only; URLs + SHA256 are in the two research files for reacquisition.
-
-**Prior handoff** (10/15 L673 grade, 10/13 machine-switch, 10/12 boot and closeout narrative) → `git show 5f0abbbbc:AGENTS/SHADE/SCRATCH.md`. Raw 10/12 gap-investigation store remains machine-local at `/home/willi/research-artifacts/SHADE/gap-investigation-2026-10-12/` (present on this machine 10/21).
+**Prior handoff** (10/29 L781) → `git show cf97c133c:AGENTS/SHADE/SCRATCH.md`.
 
 ## Saved research and accepted qualifications
 
@@ -41,12 +36,10 @@ The bounded consequential-gap research pass is **COMPLETE; underlying evidence P
 
 | When/home | Remaining work |
 |---|---|
-| October13 after close / L673 | Fresh owner inputs, six common closes, assessment and only a qualifying conditional dig. |
-| October23 / L241, WQ423–424 | Exact illiquidity predicate plus missing/unknown treatment; complete sourced TSR or exact separately named R/T numerator/denominator/perimeter and proposed charter disposition. OWNER WORK FIRST; no adopted rule or historical regrade. |
-| October23 / SHADE STATUS§10 | Registered predictions with confidence-at-registration, declared-flat TRADE surface, thesis-level falsifier/calibration, ARI DEFM14A annex/residual holder, SVO count or exact evidence limit, MEMORY rotation to<22785B. These remain owed, not automatically satisfied by the source pass. |
+| November20 / SHADE STATUS§10 | Declared-flat TRADE surface, ARI DEFM14A annex/residual holder, SVO count or exact evidence limit. Owed, not automatically satisfied by the source pass. |
 | WQ422 / acquisition priority | Corrected full ClearSpring83607 FY25 and Q22026 statements, Q1 bridge. Operator capture of existing free NAIC financial report first, but summary cannot replace quarterly notes/schedules. Existing licensed/accessible records first; no paid access/outreach/other launch authorized. WHCO/AMAPS/treaty/collateral documents are subsequent existing-data dependencies. |
 | ~November15 / DLIC Q3 | Execution/approval/asset and mark reconciliation; post-pause receipt/surrender/benefit/funding flows. Net affiliate decline alone cannot prove closing; Q3 has only a short post-pause period. |
-| November5–18 / Athene Q3 | 10-Q+FI-deck canary, L3 pin, pledged assets/BMA granularity and entity allocations; complete the existing trigger-system reconcile precondition before claiming its consequence. |
+| November12–18 / Athene Q3 | 10-Q read 11/6; FI-deck canary and C2 remain; X1 consequence waits on BROCK and PROME. |
 | November18 / C2 | Existing self-executing withdrawal test: penalty≤+48bp AND S1≥2.0B AND S2≥36.2%. |
 | November30 / BROCK W3 | BROCK-owned deterioration test; consume its owner result, do not parallel-grade. |
 

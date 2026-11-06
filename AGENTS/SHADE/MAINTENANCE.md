@@ -277,3 +277,10 @@ Structural-change log for SHADE architecture: docs/scripts/protocol/schema chang
 - **CREATED:** `research/T-SHADE-01_FIRE_AND_L0_DRAIN_2026-10-10.md` · `research/tshade01_signleg_2026-10-10.py` (reproducible sign-leg sweep; RAW + ADJ bases; dated filename so a rerun cannot overwrite a comparator).
 - **board_log:** +22 rows; 22 inbox items `git mv`'d to processed with `consume:SHADE` (`c8fe05b8a`). Receipts +2 (NO-OP ×2).
 - **NOT RUN (drain-only):** MEMORY rotation (98% of budget, rotation_due) · retirement scan · `PREDICTIONS.tsv`. Re-dated by 2026-10-23 in STATUS §10.
+
+## 2026-11-06 — Prediction ledger, combination watch, rotations
+
+- Created `thesis/PREDICTIONS.tsv` (SHD-01 to 03).
+- Charter step 4a: combination-watch line (C4, no authority or threshold moved). Ledger is `board_log.tsv`; themes `ai-credit-in-wrapper`, `secured-substitution`, `mortgage-delinquency-under-marks`, `walter-liquidity`.
+- Rotated STATUS §0t, §0s, §0m ① → `archive/STATUS_ROTATED_SECTIONS_2026-11-06.md` (crc32 `0fe75ab2`, recomputed).
+- Rotated MEMORY 8/28 lessons → `archive/MEMORY_lessons_rotated_2026-11-06.md` (crc32 `33e552b9`, recomputed). MEMORY now under the 22,785 B stop.
